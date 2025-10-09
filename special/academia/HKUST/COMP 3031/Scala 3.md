@@ -27,7 +27,7 @@ Unlike {@{the interactive REPL or worksheet}@}, {@{a _stand‑alone_ Scala appli
 
 ### traditional entry points
 
-> [!example] __example__
+> [!example] __traditional entry point__
 >
 > {@{This pattern}@} mirrors {@{Java's classic `public static void main(String[] args)`}@}.
 >
@@ -46,7 +46,7 @@ Unlike {@{the interactive REPL or worksheet}@}, {@{a _stand‑alone_ Scala appli
 
 {@{Scala 3}@} introduces {@{the `@main` annotation}@} to {@{simplify program entry points}@}. {@{A top‑level function annotated with `@scala.annotation.main`}@} becomes {@{an executable}@}:
 
-> [!example] __example__
+> [!example] __annotated entry point__
 >
 > {@{A top‑level function annotated with `@main`}@} becomes {@{an executable}@}:
 >
@@ -125,7 +125,7 @@ Because {@{`Nothing` can inhabit any type position}@}, it provides a powerful to
 
 If one branch's type {@{cannot be a subtype of the other}@}, Scala may {@{widen to a more general type}@} or, in {@{certain contexts}@}, resort to {@{intersection types}@}. However, for {@{simple cases involving primitive values}@}, {@{the LUB}@} is usually {@{a value class such as `AnyVal`}@}.
 
-> [!example] __example__
+> [!example] __type inference of `if-then-else` branch__
 >
 > Example: {@{`if true then 1 else false`}@}
 >
@@ -140,7 +140,7 @@ If one branch's type {@{cannot be a subtype of the other}@}, Scala may {@{widen 
 
 When {@{a generic function is invoked}@}, the compiler examines {@{the concrete arguments supplied at call site}@} and deduces {@{the appropriate type parameter automatically}@}.
 
-> [!example] __example__
+> [!example] __type inference in generics__
 >
 > Consider {@{the previously defined `singleton` factory}@}:
 >
@@ -181,7 +181,7 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 
 By parameterising {@{both data structures and functions}@}, Scala achieves {@{full _type safety_ while remaining highly reusable}@}. {@{The same `List`}@} trait can represent {@{sequences of integers, booleans, user‑defined classes, or even nested lists}@}, all without {@{duplicating code}@}.
 
-> [!example] __example__
+> [!example] __`List[T]` definition__
 >
 > ```Scala
 > package ppl3
@@ -209,7 +209,7 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 
 {@{Functions}@} may also be {@{generic}@} by declaring {@{type parameters in parentheses after the function name}@}:
 
-> [!example] __example__
+> [!example] __generic function__
 >
 > {@{Functions}@} may also be {@{generic}@} by declaring {@{type parameters in parentheses after the function name}@}:
 >
@@ -217,16 +217,18 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 > def singleton[T](elem: T): List[T] = Cons(elem, Nil)
 > ```
 
-{@{This factory method}@} constructs {@{a single‑element list}@} regardless of {@{the element's concrete type}@}. Its usage is {@{explicit}@}:
+{@{This factory method}@} constructs {@{a single‑element list}@} regardless of {@{the element's concrete type}@}. Its usage can be {@{explicit}@}:
 
-> [!example] __example__
+> [!example] __using generic functions__
 >
-> Its usage is {@{explicit}@}:
+> Its usage can be {@{explicit}@}:
 >
 > ```Scala
 > val intList   = singleton[Int](1)      // List[Int]
 > val boolList  = singleton[Boolean](true) // List[Boolean]
 > ```
+>
+> {@{The compiler}@} infers {@{the appropriate type parameter in most cases}@}, but it can be {@{supplied explicitly when desired}@}.
 
 {@{The compiler}@} infers {@{the appropriate type parameter in most cases}@}, but it can be {@{supplied explicitly when desired}@}.
 
@@ -234,7 +236,7 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 
 {@{_Upper bounds_ `<:`}@} constrain {@{a type variable to be a subtype of some type}@}: {@{`[S <: IntSet]`}@}. Conversely, {@{_lower bounds_ `>:` \(_not_ `:>`\)}@} restrict the variable to be {@{a supertype of a given type: `[S >: NonEmpty]`}@}. {@{Mixed bounds}@} {@{combine both}@}, e.g. {@{`[S >: NonEmpty <: IntSet]` \(first _lower_ bound then _upper_ bound\)}@}, which narrows `S` to {@{any type between `NonEmpty` and `IntSet`}@}. These bounds are crucial when we want the compiler to {@{infer the most precise return type or to enforce safe substitutions}@}.
 
-> [!example] __example__
+> [!example] __upper bound__
 >
 > Example of {@{an upper‑bounded generic method}@}:
 >
@@ -248,7 +250,7 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 
 Scala lets us annotate {@{variance explicitly}@}:
 
-> [!example] __example__
+> [!example] __variance syntax__
 >
 > Scala lets us annotate variance explicitly:
 >
@@ -268,7 +270,7 @@ Scala lets us annotate {@{variance explicitly}@}:
 
 {@{Java arrays}@} are {@{covariant (`NonEmpty[] <: IntSet[]`)}@}, but this leads to {@{runtime type‑errors}@}:
 
-> [!example] __example__
+> [!example] __bad covariant Java arrays__
 >
 > {@{Java arrays}@} are {@{covariant (`NonEmpty[] <: IntSet[]`)}@}, but this leads to {@{runtime type‑errors}@}:
 >
@@ -402,7 +404,7 @@ To {@{refer to the current object inside the class expression}@}, use {@{the key
 
 In Scala, {@{an _abstract class_}@} serves as {@{a partial blueprint for concrete subclasses}@}. It can declare {@{methods and fields}@} that are {@{either fully implemented or left unimplemented \(abstract\)}@}. {@{The latter}@} are called {@{_abstract members_}@}; they must be {@{supplied by any non‑abstract subclass}@} before {@{objects of that type can be instantiated}@}.
 
-> [!example] __example__
+> [!example] __`IntSet` definition__
 >
 > {@{A <!-- classic --> illustration}@} is {@{the design of an integer set abstraction}@}:
 >
@@ -415,7 +417,7 @@ In Scala, {@{an _abstract class_}@} serves as {@{a partial blueprint for concret
 
 Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile‑time error}@}.
 
-> [!example] __example__
+> [!example] __`EmptySet` definition__
 >
 > Instead, {@{concrete subclasses such as `EmptySet` or `NonemptySet`}@} must {@{provide concrete implementations of these methods}@}:
 >
@@ -432,7 +434,7 @@ Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and
 
 In Scala, {@{a _class extension_ (or inheritance)}@} allows {@{one class to inherit the members of another}@}.
 
-> [!example] __example__
+> [!example] __`IntSet` case classes definition__
 >
 > When {@{implementing sets as binary trees}@}, we typically define {@{two concrete subclasses of an abstract `IntSet`}@}:
 >
@@ -473,7 +475,7 @@ When {@{a subclass does not specify a superclass explicitly}@}, Scala implicitly
 
 {@{The concrete definitions of `contains` and `incl`}@} in {@{`Empty` and `NonEmpty`}@} provide {@{the required implementations for the abstract members}@} declared in {@{`IntSet`}@}. Scala also permits {@{_overriding_ an existing, non‑abstract method}@}:
 
-> [!example] __example__
+> [!example] __overriding existing methods__
 >
 > Scala also permits {@{_overriding_ an existing, non‑abstract method}@}:
 >
@@ -492,7 +494,7 @@ When {@{a subclass does not specify a superclass explicitly}@}, Scala implicitly
 
 Scala's {@{constructor syntax}@} offers {@{a concise way to declare both __parameters__ and __immutable fields__ simultaneously}@}.
 
-> [!example] __examples__
+> [!example] __value parameters__
 >
 > In {@{the `Cons` class below}@}, {@{the keywords `val` preceding each parameter}@} create {@{read‑only members}@}:
 >
@@ -517,7 +519,7 @@ Scala's {@{constructor syntax}@} offers {@{a concise way to declare both __param
 
 In Scala {@{the idiomatic way to model heterogeneous data}@} is {@{through __case classes__}@}. {@{A case class definition}@} is identical to {@{a normal class}@} but is prefixed with the {@{keyword `case`}@}. For example:
 
-> [!example] __example__
+> [!example] __case classes__
 >
 > {@{A case class definition}@} is identical to {@{a normal class}@} but is prefixed with the {@{keyword `case`}@}. For example:
 >
@@ -533,7 +535,7 @@ Unlike {@{ordinary classes}@}, {@{case classes}@} automatically generate {@{stru
 
 {@{Pure data structures}@} are those that {@{carry information without any associated behaviour}@}; they exist solely to be {@{composed, decomposed, and examined by other parts of a program}@}. In Scala, {@{__case classes__}@} provide {@{an elegant way to model such data}@}. {@{A typical hierarchy}@} for {@{arithmetic expressions}@} might be written as:
 
-> [!example] __example__
+> [!example] __`Expr` definition using case classes__
 >
 > {@{A typical hierarchy}@} for {@{arithmetic expressions}@} might be written as:
 >
@@ -550,7 +552,7 @@ By placing {@{the case classes inside a companion object (`Expr`)}@} we keep {@{
 
 Scala's {@{__enumeration__ \(`enum`\) construct}@} offers {@{an even more compact notation for ADTs}@} whose variants do not {@{need to share a common superclass}@}. {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as:
 
-> [!example] __example__
+> [!example] __`Expr` definition using enumerations__
 >
 > {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as:
 >
@@ -564,7 +566,7 @@ Scala's {@{__enumeration__ \(`enum`\) construct}@} offers {@{an even more compac
 
 The compiler expands {@{this into a sealed abstract class and companion object automatically}@}, eliminating {@{boilerplate}@}. Enums can be {@{used with pattern matching exactly as case classes}@}:
 
-> [!example] __example__
+> [!example] __enumerations in pattern matching__
 >
 > Enums can be {@{used with pattern matching exactly as case classes}@}:
 >
@@ -582,9 +584,9 @@ The compiler expands {@{this into a sealed abstract class and companion object a
 
 For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional enumerations}@}. For example:
 
-> [!example] __example__
+> [!example] __simple enumerations__
 >
-> Enums can be {@{used with pattern matching exactly as case classes}@}:
+> For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional enumerations}@}. For example:
 >
 > ```Scala
 > enum Color:
@@ -593,7 +595,7 @@ For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional en
 
 {@{Pattern matching}@} treats {@{these enumeration cases as constants}@} as {@{they start with capital letters}@}:
 
-> [!example] __example__
+> [!example] __simple enumerations in pattern matching__
 >
 > {@{Pattern matching}@} treats {@{these enumeration cases as constants}@} as {@{they start with capital letters}@}:
 >
@@ -608,7 +610,7 @@ For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional en
 
 Enums also support {@{parameters and methods}@}. {@{The `Direction` example}@} demonstrates {@{a parametric enum with four cardinal directions}@}, each {@{carrying an `(dx, dy)` offset}@}:
 
-> [!example] __example__
+> [!example] __`Direction` definition__
 >
 > {@{The `Direction` example}@} demonstrates {@{a parametric enum with four cardinal directions}@}, each {@{carrying an `(dx, dy)` offset}@}:
 >
@@ -624,7 +626,7 @@ Enums also support {@{parameters and methods}@}. {@{The `Direction` example}@} d
 
 Here {@{`ordinal` \(`Direction.ordinal`\)}@} yields {@{the zero‑based index of a variant}@}, and {@{`values` \(`Direction.values`\)}@} is {@{an immutable array containing all simple (non‑parameterised) variants}@}. {@{Parameterised cases}@} do not {@{appear in this array}@}; only {@{simple ones receive ordinal numbers}@}.
 
-> [!example] __example__
+> [!example] __`Direction` definition expansion__
 >
 > The compiler generates {@{code roughly equivalent to}@}:
 >
@@ -641,7 +643,7 @@ Here {@{`ordinal` \(`Direction.ordinal`\)}@} yields {@{the zero‑based index of
 
 Because enums are {@{essentially syntactic sugar}@} for {@{a sealed class and companion object}@}, they are {@{ideal for __domain modelling__}@} where {@{the data structure is large}@} but {@{operations on it are defined elsewhere}@}.
 
-> [!example] __example__
+> [!example] __`PaymentMethod` and `CardKind` definition__
 >
 > {@{A payment‑method model}@} might look like:
 >
@@ -661,7 +663,7 @@ In summary, Scala's enums provide {@{a succinct and type‑safe way to declare p
 
 When {@{the semantics of a program}@} allow {@{only one logical value for a concept}@}, it is idiomatic to {@{represent it as a singleton object}@}. For example, {@{the empty set}@} in {@{an integer‑set library}@}:
 
-> [!example] __example__
+> [!example] __`Empty` definition__
 >
 > For example, {@{the empty set}@} in {@{an integer‑set library}@}:
 >
@@ -682,7 +684,7 @@ Properties:
 
 Scala permits {@{a class and an object}@} to {@{share the same name}@} when {@{declared in the same source file}@}. These are called {@{__companions__}@}:
 
-> [!example] __example__
+> [!example] __`IntSet` companion__
 >
 > These are called {@{__companions__}@}:
 >
@@ -707,7 +709,7 @@ Together, {@{singleton objects and companions}@} give Scala {@{concise, type‑s
 
 Scala's {@{_trait_ mechanism}@} extends {@{the classical single‑inheritance model of classes and objects}@} by allowing {@{a type to acquire functionality from an arbitrary number of traits}@}. {@{A trait}@} is declared with {@{the keyword `trait` instead of `abstract class`}@}, but it can contain {@{both abstract and concrete members}@}.
 
-> [!example] __example__
+> [!example] __`trait Planar` example__
 >
 > {@{A trait}@} is declared with {@{the keyword `trait` instead of `abstract class`}@}, but it can contain {@{both abstract and concrete members}@}.
 >
@@ -725,7 +727,7 @@ Unlike {@{Java interfaces \(prior to Java 8\)}@}, traits can {@{maintain state a
 
 While {@{Scala classes}@} can {@{extend at most one superclass}@}, they may {@{mix in any number of traits}@}:
 
-> [!example] __example__
+> [!example] __extending multiple traits__
 >
 > While {@{Scala classes}@} can {@{extend at most one superclass}@}, they may {@{mix in any number of traits}@}:
 >
@@ -811,7 +813,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 
 {@{The __match__ construct}@} generalises {@{a `switch` statement to arbitrary data structures}@}. {@{A match expressio}@} consists of {@{a _scrutinee_ followed by one or more case clauses}@}, each written as {@{`pattern => result`}@}. For instance, {@{evaluating an arithmetic expression}@} becomes:
 
-> [!example] __example__
+> [!example] __evaluating `Expr`__
 >
 > For instance, {@{evaluating an arithmetic expression}@} becomes:
 >
@@ -826,7 +828,7 @@ Patterns are built from {@{constructor names (`Number`, `Sum`), variable binding
 
 When {@{a match expression is evaluated}@}, {@{the scrutinee value}@} is {@{compared against each pattern in order}@}. {@{The first matching pattern}@} determines {@{the result of the whole expression}@}. If {@{no pattern matches}@}, Scala {@{throws a `MatchError`}@}. {@{This behaviour}@} is illustrated by the following sequence:
 
-> [!example] __example__
+> [!example] __pattern matching__
 >
 > When {@{a match expression is evaluated}@}, {@{the scrutinee value}@} is {@{compared against each pattern in order}@}. {@{The first matching pattern}@} determines {@{the result of the whole expression}@}. If {@{no pattern matches}@}, Scala {@{throws a `MatchError`}@}. {@{This behaviour}@} is illustrated by the following sequence:
 >
@@ -847,7 +849,7 @@ When {@{a match expression is evaluated}@}, {@{the scrutinee value}@} is {@{comp
 
 {@{A common pitfall}@} is {@{the absence of compile‑time guarantees}@} that {@{all cases have been handled}@}. Consider:
 
-> [!example] __example__
+> [!example] __non-exhaustive pattern matching__
 >
 > {@{A common pitfall}@} is {@{the absence of compile‑time guarantees}@} that {@{all cases have been handled}@}. Consider:
 >
@@ -861,7 +863,7 @@ When {@{a match expression is evaluated}@}, {@{the scrutinee value}@} is {@{comp
 
 To {@{enforce exhaustive matching}@}, Scala allows {@{the __sealed__ modifier on an abstract class or trait}@}. {@{A sealed type}@} restricts {@{its subclasses to be defined in the same file}@}, enabling the compiler to {@{verify that every possible subclass is covered by pattern clauses}@}:
 
-> [!example] __example__
+> [!example] __sealed types__
 >
 > To {@{enforce exhaustive matching}@}, Scala allows {@{the __sealed__ modifier on an abstract class or trait}@}. {@{A sealed type}@} restricts {@{its subclasses to be defined in the same file}@}, enabling the compiler to {@{verify that every possible subclass is covered by pattern clauses}@}:
 >
@@ -875,7 +877,7 @@ To {@{enforce exhaustive matching}@}, Scala allows {@{the __sealed__ modifier on
 
 {@{Pattern matching}@} can also be {@{embedded directly in type definitions}@}. For example, {@{adding an `eval` method to the base trait}@} leverages {@{pattern matching internally}@}:
 
-> [!example] __example__
+> [!example] __`Expr.eval` definition__
 >
 > {@{Pattern matching}@} can also be {@{embedded directly in type definitions}@}. For example, {@{adding an `eval` method to the base trait}@} leverages {@{pattern matching internally}@}:
 >
@@ -1161,7 +1163,7 @@ To {@{call extension methods}@}, they need to be {@{visible in the calling conte
 
 Scala permits {@{a single method or constructor parameter}@} to be {@{declared as _repeated_}@}, meaning the caller may {@{supply any number of arguments of that type}@}. {@{A repeated parameter}@} is written with {@{an asterisk (`*`) after the element type}@}, e.g.:
 
-> [!example] __example__
+> [!example] __varargs__
 >
 > {@{A repeated parameter}@} is written with {@{an asterisk (`*`) after the element type}@}, e.g.:
 >
@@ -1171,7 +1173,7 @@ Scala permits {@{a single method or constructor parameter}@} to be {@{declared a
 
 The compiler {@{desugars `nums` to a `Seq[Int]`}@}, so inside the method it behaves {@{like any other sequence}@}. {@{The call syntax}@} remains {@{that of ordinary arguments}@}:
 
-> [!example] __example__
+> [!example] __calling varargs function__
 >
 > {@{The call syntax}@} remains {@{that of ordinary arguments}@}:
 >
@@ -1182,7 +1184,7 @@ The compiler {@{desugars `nums` to a `Seq[Int]`}@}, so inside the method it beha
 
 Repeated parameters are especially handy for {@{constructing collections without an explicit intermediate `List` or `Vector`}@}. For instance, {@{the `Polynomial` class}@} can accept {@{an arbitrary number of `(Int, Double)` bindings}@}:
 
-> [!example] __example__
+> [!example] __`Polynomial` with varargs constructor__
 >
 > For instance, {@{the `Polynomial` class}@} can accept {@{an arbitrary number of `(Int, Double)` bindings}@}:
 >
@@ -1240,7 +1242,7 @@ Scala structures {@{code into a hierarchical namespace}@} called {@{_packages_}@
 
 ### packages
 
-> [!example] __example__
+> [!example] __packages__
 >
 > {@{The `Hello` object}@} resides in {@{the package `ppl.examples`}@}.
 >
@@ -1262,7 +1264,7 @@ Scala structures {@{code into a hierarchical namespace}@} called {@{_packages_}@
 
 When {@{a class}@} is defined {@{in a different package}@}, you may refer to it either with {@{its fully qualified name}@} or by {@{importing it into the current scope}@}.
 
-> [!example] __example__
+> [!example] __imports__
 >
 > When {@{a class}@} is defined {@{in a different package}@}, you may refer to it either with {@{its fully qualified name}@} or by {@{importing it into the current scope}@}.
 >
@@ -1312,7 +1314,7 @@ Scala runs on {@{the Java Virtual Machine \(JVM\)}@}, which {@{provides platform
 
 {@{Object‑oriented languages}@}, including Scala, employ {@{_dynamic method dispatch_ (also called _late binding_)}@} to determine {@{which implementation of a method is executed at runtime}@}. When {@{a call such as `obj.method(args)`}@} is made, {@{the actual code that runs}@} depends on {@{the concrete type of `obj`}@}, not {@{merely its declared static type}@}.
 
-> [!example] __example__
+> [!example] __dynamic binding__
 >
 > Compare {@{these 2 examples}@}:
 >
@@ -1362,7 +1364,7 @@ In {@{functional programming}@} {@{the canonical immutable sequence}@} is {@{the
 
 Because {@{every `Cons` node}@} contains only {@{references to its head \(the first element\) and tail \(the remaining elements\)}@}, lists can be {@{constructed, deconstructed, and traversed purely}@} through {@{recursion without mutation}@}.
 
-> [!example] __examples__
+> [!example] __`List` construction using `Cons`__
 >
 > This use of {@{`List`}@}
 >
@@ -1392,7 +1394,7 @@ Because {@{every `Cons` node}@} contains only {@{references to its head \(the fi
 
 {@{A typical Scala representation}@} of {@{an integer list using cons‑lists}@} might look like this:
 
-> [!example] __example__
+> [!example] __`IntList` definition using `Cons`__
 >
 > {@{A typical Scala representation}@} of {@{an integer list using cons‑lists}@} might look like this:
 >
@@ -1416,7 +1418,7 @@ Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annot
 
 {@{A two‑element pair `(x, y)`}@} is syntactic sugar for {@{a tuple of type `Tuple2[T1, T2]`}@}. {@{The tuple expression `(e1, e2)`}@} is equivalent to {@{the constructor call `scala.Tuple2(e1, e2)`}@}. The pattern {@{extends to more elements}@}: {@{the expression `(p1, ..., pN)`}@} expands to {@{`scala.TupleN(p1, ..., p2)`}@}. For {@{small tuples (up to 22 elements)}@}, Scala provides {@{the type aliases `TupleN` and the corresponding case classes}@}:
 
-> [!example] __example__
+> [!example] __tuples__
 >
 > For {@{small tuples (up to 22 elements)}@}, Scala provides {@{the type aliases `TupleN` and the corresponding case classes}@}:
 >
@@ -1426,7 +1428,7 @@ Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annot
 
 {@{The fields of a tuple}@} are {@{accessed through the names `_1`, `_2`, etc.}@}:
 
-> [!example] __example__
+> [!example] __tuple fields__
 >
 > {@{The fields of a tuple}@} are {@{accessed through the names `_1`, `_2`, etc.}@}:
 >
@@ -1446,7 +1448,7 @@ Scala distinguishes between {@{functions that take two or more separate argument
 
 The compiler accepts {@{both calling syntaxes for the latter}@}, while the former {@{must be called with separate arguments}@}. For example:
 
-> [!example] __example__
+> [!example] __calling functions with tuple as the only function argument__
 >
 > The compiler accepts {@{both calling syntaxes for the latter}@}, while the former {@{must be called with separate arguments}@}. For example:
 >
@@ -1464,7 +1466,7 @@ The compiler accepts {@{both calling syntaxes for the latter}@}, while the forme
 
 In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:
 
-> [!example] __example__
+> [!example] __`Option`__
 >
 > In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:
 >
@@ -1476,7 +1478,7 @@ In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold 
 
 {@{An instance of `Option`}@} represents {@{the presence (`Some`) or absence (`None`) of a value}@}, thereby {@{avoiding null references}@}. Because `Option` is {@{an algebraic data type}@}, it can be {@{pattern‑matched safely}@}:
 
-> [!example] __example__
+> [!example] __pattern matching on `Option`__
 >
 > Because `Option` is {@{an algebraic data type}@}, it can be {@{pattern‑matched safely}@}:
 >
@@ -1571,7 +1573,7 @@ For example, to represent {@{nonnegative integers without using `scala.Int`}@}, 
 
 In Scala {@{every value is an object}@}, and this extends to {@{first‑class functions}@}. {@{A function from a type `T1` to a type `R`}@} is represented by {@{the _function class_ `scala.Function1[-T1, +R]`}@}. {@{The arrow notation (`=>`)}@} is merely {@{syntactic sugar for this trait}@}:
 
-> [!example] __example__
+> [!example] __`Function1` definition__
 >
 > {@{A function from a type `T1` to a type `R`}@} is represented by {@{the _function class_ `scala.Function1[-T1, +R]`}@}. {@{The arrow notation (`=>`)}@} is merely {@{syntactic sugar for this trait}@}:
 >
@@ -1582,11 +1584,11 @@ In Scala {@{every value is an object}@}, and this extends to {@{first‑class fu
 > }
 > ```
 
-{@{The single abstract method `apply`}@} makes the function {@{callable with the familiar parentheses syntax}@}. {@{A function application}@} {@{`f(a, b)`}@} becomes:
+{@{The single abstract method `apply`}@} makes the function {@{callable with the familiar parentheses syntax}@}. It can also be used to {@{make any type, even non-function types, callable}@}. {@{A function application}@} {@{`f(a, b)`}@} becomes:
 
-> [!example] __example__
+> [!example] __function application__
 >
-> {@{A function application}@} {@{`f(a, b)`}@} becomes:
+> {@{The single abstract method `apply`}@} makes the function {@{callable with the familiar parentheses syntax}@}. It can also be used to {@{make any type, even non-function types, callable}@}. {@{A function application}@} {@{`f(a, b)`}@} becomes:
 >
 > ```Scala
 > f.apply(a, b)
@@ -1596,7 +1598,7 @@ In Scala {@{every value is an object}@}, and this extends to {@{first‑class fu
 
 {@{An anonymous lambda}@} such as {@{`(x: Int) => x * x`}@} is translated {@{by the compiler into an instance of the appropriate function trait}@}:
 
-> [!example] __example__
+> [!example] __anonymous lambda__
 >
 > {@{An anonymous lambda}@} such as {@{`(x: Int) => x * x`}@} is translated {@{by the compiler into an instance of the appropriate function trait}@}:
 >
@@ -1608,7 +1610,7 @@ In Scala {@{every value is an object}@}, and this extends to {@{first‑class fu
 
 {@{This generated class}@} can itself be viewed as {@{a local anonymous class defined inside a block}@}:
 
-> [!example] __example__
+> [!example] __desugared anonymous lambda__
 >
 > {@{This generated class}@} can itself be viewed as {@{a local anonymous class defined inside a block}@}:
 >
@@ -1629,7 +1631,7 @@ Because {@{functions are objects}@}, they inherit {@{all traits of ordinary clas
 
 {@{A _method_}@} declared inside {@{a class or trait}@}—e.g., {@{`def f(x: Int): Boolean`}@}—is {@{not itself a first‑class value}@}. However, Scala automatically {@{lifts such methods to function values}@} when they are {@{passed as arguments or used without application}@}:
 
-> [!example] __example__
+> [!example] __eta-expansion__
 >
 > Scala automatically {@{lifts such methods to function values}@} when they are {@{passed as arguments or used without application}@}:
 >
