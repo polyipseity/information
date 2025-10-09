@@ -81,7 +81,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-04T13:30:00+08:00/2024-09-04T14:50:00+08:00
 - course logistics
-- [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)  
+- [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)
   - artificial intelligence / definition ::@:: no widely accepted definition <!--SR:!2025-12-18,321,350!2025-10-31,283,350-->
     - artificial intelligence / definition / Alan Turing ::@:: AI is the __science and engineering__ of __making intelligent machines__, especially intelligent computer programs. <!--SR:!2025-12-30,333,350!2028-06-27,1024,350-->
   - artificial intelligence / characteristics ::@:: AI borrows characteristics from human intelligence and applies them as algorithms in a computer-friendly way. <!--SR:!2026-01-16,346,350!2026-01-09,340,350-->
@@ -464,7 +464,7 @@ ID: 23456789
     - [NumPy § `numpy.matmul`](../../../NumPy/API%20reference/generated/numpy.matmul.md), `@` ::@:: `numpy.matmul(x1, x2)` <p> `x1 @ x2`, since Python 3.5, is equivalent to `numpy.matmul(x1, x2)`. <p> If both `x1` and `x2` are 2-D they are multiplied like conventional matrices. <br/> If either `x1` or `x2` is N-D, N > 2, it is treated as a stack of matrices residing in the last two indexes and broadcast accordingly. <br/> If `x1` is 1-D, it is promoted to a matrix by prepending a 1 to its dimensions. After matrix multiplication the prepended 1 is removed. (`x1` is treated as a row vector.) <br/> If `x2` is 1-D, it is promoted to a matrix by appending a 1 to its dimensions. After matrix multiplication the appended 1 is removed. (`x2` is treated as a column vector.) <!--SR:!2026-03-23,253,292!2025-11-27,307,350-->
     - [NumPy § `numpy.dot`](../../../NumPy/API%20reference/generated/numpy.dot.md) vs. [NumPy § `numpy.matmul`](../../../NumPy/API%20reference/generated/numpy.matmul.md) ::@:: `numpy.matmul` differs from `numpy.dot` in two important ways: <p> Multiplication by scalars is not allowed, use `*` instead. <br/> Stacks of matrices are broadcast together as if the matrices were elements, respecting the signature `(n,k),(k,m)->(n,m)`. <br/> (Additional: `np.dot` is also available as an array instance method, but not for the other.) <!--SR:!2028-10-17,1112,350!2028-02-25,937,350-->
   - [NumPy § `numpy.sum`](../../../NumPy/API%20reference/generated/numpy.sum.md) ::@:: `numpy.sum(a, axis=None, keepdims=<no value>)` <p> Sum of array elements over the given one or more axes. If `axis` is `None`, it sums all array elements. If `keepdims` is `True`, the axes which are reduced are left in the result as dimensions with size one. <!--SR:!2025-12-21,324,350!2026-01-03,335,350-->
-  
+
 ## week 3 additional lecture
 
 - datetime: 2024-09-16T19:00:00+08:00/2024-09-16T21:00:00+08:00

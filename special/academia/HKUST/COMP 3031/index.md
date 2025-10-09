@@ -170,35 +170,302 @@ The content is in teaching order.
     - [§ identifiers](Scala%203.md#identifiers): identifier
     - [§ infix notation](Scala%203.md#infix%20notation): infix notation, operator, precedence
 
+## week 2 lab
+
+- datetime: 2025-09-08T15:00:00+08:00/2025-09-08T16:20:00+08:00, PT1H20M
+- topic: tools; lab 0; project structure; sbt; IDE; REPL; worksheet; coding
+- COMP 3031
+  - COMP 3031 / tools ::@:: Coursier \(<https://get-coursier.io>\): Java Development Kit \(JDK\), simple build tool \(sbt\) <br/> Visual Studio Code, extensions: Scala \(Metals\)
+  - COMP 3031 / lab 0
+    - COMP 3031 / lab 0 / project structure ::@:: Download the skeleton project from Canvas; after extraction you'll see a standard sbt layout. All files ending in `.sbt` or inside `project/` are configuration; modify only the Scala source and test files.
+    - COMP 3031 / lab 0 / sbt ::@:: Start the build tool with `sbt`. Compile your code with `compile`; run all tests with `test`, which will automatically compile if needed. If compilation fails, no tests run – address compiler errors first. The first test run usually fails intentionally; read the stack trace to locate the failing line in your source.
+    - COMP 3031 / lab 0 / navigation ::@:: When a test throws `NotImplementedError`, locate the call site via the stack trace (`Lists.scala:25` for example). Hover over the method name in the editor to see its signature and documentation. Use "Go to Definition" (Ctrl/Cmd‑click or right‑click) to jump straight to the offending implementation. Replace placeholder `???` with a proper algorithm before re‑running tests.
+    - COMP 3031 / lab 0 / IDE tips ::@:: - New lines are auto‑indented; manual indentation uses Tab/Shift‑Tab. <br/> - Do not rename existing methods or classes, as automated grading relies on their names. <br/> - View compiler warnings/errors by clicking the "Problems" pane in VS Code. <br/> - Documentation for Scala (`https://scala-lang.org/api/3.x/`) and Java (`https://docs.oracle.com/en/java/javase/15/docs/api/index.html`) is available online if IDE hover support falls short.
+    - COMP 3031 / lab 0 / test ::@:: In a terminal inside the project, start sbt and then run `~test` to enable watch mode; every file save automatically re‑runs tests. For targeted testing use `testOnly -- "--tests=.*max of a few.*"`.
+    - COMP 3031 / lab 0 / REPL ::@:: Launch the REPL with `console` from sbt (`scala>` prompt). Evaluate expressions directly, e.g., `List(3,7,2)` or import lab methods: `import lab0.Lists._`. Exit the REPL back to sbt with `Ctrl+D`. For multiline input use Alt+Enter (or Option+Enter on macOS after setting "Use Option as Meta key" in Terminal preferences).
+    - COMP 3031 / lab 0 / worksheet ::@:: Create a file ending in `.worksheet.sc`; each line is executed automatically and its result shown as a comment. Save the file to trigger re‑evaluation; auto‑save is enabled by default.
+    - COMP 3031 / lab 0 / troubleshooting ::@:: - If sbt fails, run `sbt clean cleanFile` or delete the global cache (`rm -r ~/.sbt`). <br/> - If IDE features like hover or go‑to‑definition are broken, manually import the build via the "m" icon → "Import build", then restart VS Code. <br/> - Address Bloop server warnings by following the on‑screen prompts ("Turn off old server").
+    - COMP 3031 / lab 0 / coding ::@:: - `Lists.scala` implements two tail‑recursive functions: <br/> &emsp; - `sum(xs: List[Int])`: accumulates list elements, returning `0` for an empty list. <br/> &emsp; - `max(xs: List[Int])`: throws `NoSuchElementException` on an empty list; otherwise returns the maximum value by comparing head with accumulator. <br/> - `ListsSuite.scala` contains sanity checks (e.g., one plus one equals two) and additional tests: <br/> &emsp; - Verifies that `sum(Nil)` yields `0`. <br/> &emsp; - Confirms that calling `max(Nil)` raises the expected exception, using a try‑catch block to fail if no exception occurs.
+
 ## week 2 lecture
 
 - datetime: 2025-09-09T12:00:00+08:00/2025-09-09T13:20:00+08:00, PT1H20M
-- topic:
+- topic: inheritance; objects; entry points; code organization; imports; traits; type system; exceptions; cons; type parameters; polymorphism; pure object-orientation
+- Scala
+  - Scala / Scala 3
+    - [§ abstract classes](Scala%203.md#abstract%20classes): abstract class, syntax
+    - [§ inheritance](Scala%203.md#inheritance): inheritance, class extension, terminology, `java.lang.Object`, implement, override
+    - [§ objects](Scala%203.md#objects): object, singleton, propereties, value semantics
+    - [§ companion objects](Scala%203.md#companion%20objects): companion object, properties, namespaces, visibility
+    - [§ entry points](Scala%203.md#entry%20points): entry point
+    - [§ traditional entry points](Scala%203.md#traditional%20entry%20points): entry point, traditional entry point, properties
+    - [§ annotated entry points](Scala%203.md#annotated%20entry%20points): entry point, annotated entry point, `@scala.annotation.main`, properties
+    - [§ dynamic binding](Scala%203.md#dynamic%20binding): dynamic binding, polymorphism, higher-order functions
+    - [§ code organization](Scala%203.md#code%20organization): code organization, packages, imports
+    - [§ packages](Scala%203.md#packages): packages
+    - [§ imports](Scala%203.md#imports): imports, forms
+    - [§ automatic imports](Scala%203.md#automatic%20imports): automatic imports
+    - [§ Scala documentation](Scala%203.md#Scala%20documentation): Scala documentation
+    - [§ traits](Scala%203.md#traits): trait
+    - [§ top types](Scala%203.md#top%20types): top types, `scala.Any`, `scala.AnyRef`, `scala.AnyVal`
+    - [§ nothing type](Scala%203.md#nothing%20type): nothing type, bottom type, `scala.Nothing`, abnormal termination, empty collections
+    - [§ exceptions](Scala%203.md#exceptions): exceptions, exception handling, type
+    - [§ type inference](Scala%203.md#type%20inference): type inference, least upper bound
+    - [§ cons](Scala%203.md#cons): cons, cons-lists, immutability, structural recursion
+    - [§ value parameters](Scala%203.md#value%20parameters): value parameters
+    - [§ type parameters](Scala%203.md#type%20parameters): type parameters, generic types, generic functions
+    - [§ generic types](Scala%203.md#generic%20types): generic types
+    - [§ generic functions](Scala%203.md#generic%20functions): generic functions
+    - [§ type inference in generics](Scala%203.md#type%20inference%20in%20generics): type inference in generics
+    - [§ type erasure](Scala%203.md#type%20erasure): type erasure
+- [polymorphism](../../../../general/polymorphism%20(computer%20science).md) ::@:: In programming language theory and type theory, it allows a value type to assume different types.
+  - polymorphism / examples ::@:: A function or type can operate over many different data kinds. <p> A single function can be applied to arguments of various types. A single type can have instances of many concrete classes.
+  - polymorphism / types ::@:: The most commonly recognized major forms of polymorphism are: <p> - _Ad hoc polymorphism_: defines a common interface for an arbitrary set of individually specified types. <br/> - _Parametric polymorphism_: does not specify concrete types and instead uses abstract symbols that can substitute for any type. <br/> - _Subtyping_ (also called _subtype polymorphism_ or _inclusion polymorphism_): when a name denotes instances of many different classes related by a common superclass.
+    - polymorphism / types / subtyping ::@:: an instance of a subclass may be used wherever an instance of its superclass is expected, enabling _is‑a_ relationships.
+    - polymorphism / types / parametric ::@:: functions or classes are defined with type parameters; concrete instances are created by supplying specific types, allowing the same code to work uniformly across all those types.
+- Scala
+  - Scala / Scala 3
+    - [§ pure object-orientation](Scala%203.md#pure%20object-orientation): pure object-orientation, standard classes, idealized `scala.Boolean`, `scala.Int`, idealized `scala.Int` using `Nat`
+    - [§ functions as objects](Scala%203.md#functions%20as%20objects): functions are objects, `scala.Function*`, anonymous function, function calls
+    - [§ methods to functions](Scala%203.md#methods%20to%20functions): methods, methods to functions
 
 ## week 2 lecture 2
 
 - datetime: 2025-09-11T12:00:00+08:00/2025-09-11T13:20:00+08:00, PT1H20M
-- topic:
+- topic: pattern matching; case classes; list; enumeration
+- [pattern matching](../../../../general/pattern%20matching.md) ::@:: It is the act of checking a given sequence of tokens for the presence of the constituents of some pattern. In contrast to pattern recognition, the match usually must be exact: "either it will or will not be a match." The patterns generally have the form of either sequences or tree structures.
+  - pattern matching / motivation ::@:: representation → manual dispatch → manual dispatch with type tests and casts → dynamic dispatch → non-local or complex operations → pattern matching → summary
+    - pattern matching / motivation / representation ::@:: Objects, and in this example, expressions are often modelled as a base type (`Expr`) with concrete subclasses such as `Number` and `Sum`. <p> Each subclass must expose classification (e.g., `isNumber`, `isSum`) and operations (`numValue`, `leftOp`, `rightOp`). Whether an operation is available or throws an runtime error depends on the classification.
+    - pattern matching / motivation / manual dispatch ::@:: A evaluation function typically uses conditional checks on the classification flags. <p> Adding a new expression form (like `Prod` or `Var`) forces updates to all methods in the base type, leading to repetitive boilerplate. There is no compile‑time guarantee that the correct accessor is used for each subclass; an accidental misuse can trigger runtime errors.
+    - pattern matching / motivation / manual dispatch with type tests and casts ::@:: Languages such as Scala provide `isInstanceOf[T]` and `asInstanceOf[T]`, analogous to Java's `instanceof` and casting syntax (`(T) x`). <p> This approach is verbose, error‑prone, and still offers no static type safety. The type tests and casts are effectively the classification methods.
+    - pattern matching / motivation / dynamic dispatch ::@:: Move the operation (`eval`) into each subclass: `def eval: Int` implemented by `Number`, `Sum`, etc. <p> This encapsulates data with its behaviour, enabling straightforward addition of new data forms. However, operations become tightly coupled to the hierarchy; adding a new operation (e.g., pretty‑printing) requires touching every subclass, increasing maintenance burden and class dependencies.
+    - pattern matching / motivation / non-local or complex operations ::@:: Operations that need to inspect or modify multiple parts of the structure (e.g., algebraic simplification `a*b + a*c → a*(b+c)`) cannot be expressed as a method on a single node \(object\). The OO decomposition approach \(dynamic dispatch\) then collapses back into the same pattern‑matching or type‑testing problem, negating its benefits.
+    - pattern matching / motivation / pattern matching ::@:: Many modern languages provide a dedicated construct for deconstructing algebraic data types (e.g., Scala's `match`, Haskell's case expressions). It cleanly separates the structure of the data from the operations performed on it, enabling new operations without modifying existing classes.
+    - pattern matching / motivation / summary ::@:: Class hierarchies are natural for modelling algebraic structures but bring maintenance challenges when the set of constructors or operations changes frequently. <p> Relying on manual dispatch or type casts is brittle; better to use language features that treat data and behaviour as separate concerns (e.g., pattern matching, visitor patterns). <p> The choice between OO decomposition and a more functional style depends on whether operations are local to single objects or require global knowledge of the structure.
+- Scala
+  - Scala / Scala 3
+    - [§ case classes](Scala%203.md#case%20classes): case classes, case classes syntax
+    - [§ pattern matching](Scala%203.md#pattern%20matching): pattern matching, pattern matching syntax, variable binding, `sealed`, exhaustive matching, separation of behavior from data
+  - Scala / [collections](collections.md)
+    - [§ list](collections.md#list): lists, immutability, recursive, homogeneity, constructors, right associativity, list operations, pattern matching on lists
+  - Scala / [algorithms](algorithms.md)
+    - [§ insertion sort](algorithms.md#insertion%20sort): sorting, insertion sort
+  - Scala / Scala 3
+    - [§ enumerations](Scala%203.md#enumerations): pure data structures, case classes, enumerations, simple enumerations, parameterized enumerations, pattern matching on enumerations, methods, `Enum.ordinal`, `Enum.values`, domain modeling
+- pattern matching
+  - pattern matching / functional languages ::@:: __Functional languages__ (OCaml, Haskell) express algebraic data types with minimal syntax: <p> - OCaml: `type expr = Number of int | Sum of expr * expr` and a recursive `eval` using `match`. <br/> - Haskell: `data Expr = Number Int | Sum Expr Expr` with pattern‑matching function definitions.
+    - pattern matching / functional languages / Scala ::@:: These ADTs are typically more concise than Scala's, thanks to stronger type inference and lighter syntax. However, Scala's class hierarchies can be richer, supporting: <p> - Methods or fields in both base and derived classes. <br/> - Multi‑level sealed trait inheritance (e.g., `EitherOrBoth`, `Either`). <br/> - Open‑ended (non‑sealed) hierarchies. <br/> - Existential types resembling Generalised ADTs.
+  - pattern matching / imperative languages ::@:: They implement ADTs with tagged unions or discriminated unions: <p> - C: `typedef enum { NUMBER, SUM } ExprKind;` and a struct containing a union of concrete representations. The `eval` function uses a `switch` on the kind tag. <br/> - The pattern is verbose and prone to unsafe bugs (e.g., forgetting a case).
+  - pattern matching / popularity ::@:: Many languages now provide pattern matching over sealed class hierarchies, including Kotlin, Swift, and newer Java releases. These languages blend the expressiveness of functional ADTs with object‑oriented type systems.
+
+## week 3 lab
+
+- datetime: 2025-09-15T15:00:00+08:00/2025-09-15T16:20:00+08:00, PT1H20M
+- topic: functional programming
+- COMP 3031
+  - COMP 3031 / lab 1
+    - COMP 3031 / lab 1 / functional programming ::@:: All solutions must avoid state mutation: you cannot use `var`, loops such as `while`, or explicit `return` statements. The Scala collection package `scala.collection.mutable` is forbidden; only immutable collections may be employed.
+    - COMP 3031 / lab 1 / Pascal's triangle You are asked to compute the value that appears in a particular column `c` (0‑based) of row `r` in Pascal’s triangle. The triangle is defined such that every entry on its edges equals 1, and each interior entry equals the sum of the two numbers directly above it. Your implementation must be purely recursive—no loops or mutable state are allowed.
+      - COMP 3031 / lab 1 / Pascal's triangle / solution ::@:: The function checks whether the requested position lies on an edge (`c == 0` or `c == r`). If so, it returns 1 immediately. Otherwise it recursively evaluates the two parents: `pascal(c-1, r-1)` for the upper‑left value and `pascal(c, r-1)` for the upper‑right value, then returns their sum. This straightforward recursion follows exactly the mathematical definition of Pascal's triangle.
+    - COMP 3031 / lab 1 / parentheses balancing ::@:: Given a list of characters representing a string, determine whether all parentheses in the sequence are properly matched and nested. The function must be tail‑recursive, cannot use mutation, and should handle arbitrary other characters by ignoring them.
+      - COMP 3031 / lab 1 / parentheses balancing / solution ::@:: An inner helper `rec(chars: List[Char], acc: Int)` processes the list one element at a time while keeping an accumulator that counts unmatched opening brackets. When encountering `'('`, it increments `acc`; for `')'` it decrements; any other character leaves `acc` unchanged. If `acc` ever becomes negative, the function returns false immediately because a closing bracket has no matching opener. When the list ends, the string is balanced only if `acc` equals zero. The outer function simply calls this helper with an initial accumulator of 0.
+    - COMP 3031 / lab 1 / counting change ::@:: You must compute how many distinct ways exist to make change for a given amount using a provided list of coin denominations (each denomination can be used unlimited times). The algorithm should be recursive and handle edge cases such as zero amount or an empty coin set.
+      - COMP 3031 / lab 1 / counting change / solution ::@:: The function first deals with base cases: if the target money is negative, return 0; if it equals zero, there is exactly one way (use no coins). If the list of coins is empty while the amount remains positive, return 0. For a non‑empty list, let `coin` be the head and `tail` the remainder. The total number of ways is the sum of two recursive calls: one that includes at least one `coin` (`countChange(money - coin, coins)`) and another that excludes it entirely (`countChange(money, tail)`). This recurrence explores all combinations systematically without duplication.
+    - COMP 3031 / lab 1 / tips ::@:: - Use the immutable List operations (`isEmpty`, `head`, `tail`) to navigate lists instead of indices. <br/> - Think carefully about degenerate cases (zero amount, empty coin set) to avoid infinite recursion or incorrect counts. <br/> - For tail‑recursion, annotate the helper with `@tailrec` to ensure the compiler verifies termination and stack safety.
 
 ## week 3 lecture
 
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
-- topic:
+- topic: polymorphism; type bound; variance; variance of functions; list covariance; list methods
+- Scala
+  - Scala / Scala 3
+    - [§ polymorphism](Scala%203.md#polymorphism): polymorphism, subtyping polymorphism, parametric polymorphism
+    - [§ type bounds](Scala%203.md#type%20bounds): type bounds, upper bounds, lower bounds, mixed bounds
+    - [§ variance](Scala%203.md#variance): variance, covariance, contravariance, invariance
+    - [§ variance pitfalls](Scala%203.md#variance%20pitfalls): variance pitfalls, Java arrays, covariance of Java arrays
+    - [§ variance checks](Scala%203.md#variance%20checks): variance checks
+    - [§ function type variance](Scala%203.md#function%20type%20variance): function type variance, contravariant parameter types, covariant return types, multiple arguments, currying, function types as argument types
+  - Scala / collections
+    - [§ list covariance](collections.md#list%20covariance): list covariance, list covariance implementation
+    - [§ list methods](collections.md#list%20methods): list methods
 
 ## week 3 lecture 2
 
 - datetime: 2025-09-18T12:00:00+08:00/2025-09-18T13:20:00+08:00, PT1H20M
-- topic:
+- topic: merge sort
+- Scala
+  - Scala / algorithms
+    - [§ merge sort](algorithms.md#merge%20sort): sorting, merge sort
+    - [§ merge sort splitting](algorithms.md#merge%20sort%20splitting): splitting in merge sort
+  - Scala / Scala 3
+    - [§ tuples](Scala%203.md#tuples): tuples
+  - Scala / algorithms
+    - [§ merge sort merging](algorithms.md#merge%20sort%20merging): merging in merge sort
+    - [§ sorting arbitrary types](algorithms.md#sorting%20arbitrary%20types): sorting arbitrary types, comparator
+  - Scala / Scala 3
+    - [§ tuple as the only function argument](Scala%203.md#tuple%20as%20the%20only%20function%20argument): tuple as the only function argument, function call syntax
+  - Scala / collections
+    - [§ higher-order methods](collections.md#higher-order%20methods): higher-order methods, map, filter, reduce
+    - [§ map](collections.md#map): map, map example
+    - [§ filter](collections.md#filter): filter, filter example
+    - [§ pack](collections.md#pack): pack, pack example
+    - [§ reduce](collections.md#reduce): reduce, `reduceLeft`, `foldLeft`, initial value, `reduceRight`, `foldRight`, reduce example
+
+## week 4 lab
+
+- datetime: 2025-09-22T15:00:00+08:00/2025-09-22T16:20:00+08:00, PT1H20M
+- topic: higher-order functions; generic programming
+- COMP 3031
+  - COMP 3031 / exercise 1 ::@:: Students explore higher‑order functions (functions that take or return other functions) in Scala, then apply generic programming to design a type‑safe binary search tree (BST) without duplicates.
+    - COMP 3031 / exercise 1 / `flip` ::@:: Takes a two‑argument function `f: (Int, Double) => Int` and returns a new function that calls `f` with its arguments swapped: `(x, y) => f(y, x)`.
+    - COMP 3031 / exercise 1 / `identity` ::@:: `id: Int => Int = x => x`.
+    - COMP 3031 / exercise 1 / `compose` ::@:: `compose(f,g)(x) = f(g(x))`; implemented as `x => f(g(x))`.
+    - COMP 3031 / exercise 1 / `repeated` ::@:: - Recursively builds a function that applies its argument `f` exactly `n` times. <br/> - Base case: `n == 0` returns the identity; otherwise `compose(f, repeated(f,n‑1))`. <br/> - Examples: `repeated(x=>x+1,0)` is `id`; `repeated(x=>x+1,3)(0)` yields `3`.
+    - COMP 3031 / exercise 1 / `curry2` ::@:: `curry2(f)(x)(y) = f(x,y)`; implementation `x => y => f(x,y)`.
+    - COMP 3031 / exercise 1 / `uncurry2` ::@:: `uncurry2(g)(x,y) = g(x)(y)`; implemented as `(x,y)=>g(x)(y)`.
+    - COMP 3031 / exercise 1 / `fixedPoint` ::@:: `fixedPoint(f)` returns a function that repeatedly applies `f` until a fixed point is reached (`f(x)=x`). Tail‑recursive helper: `@tailrec def rec(x:Int): Int = { val fx = f(x); if (fx==x) x else rec(fx) }`
+      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x=>x/2)(4)` ::@:: `fixedPoint(x=>x/2)(4)` → `0` (halves until zero).
+      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(id)(123456)` ::@:: `fixedPoint(id)(123456)` → `123456`.
+      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x=>x+1)(0)` ::@:: `fixedPoint(x=>x+1)(0)` diverges (no fixed point).
+      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x => if (x%10==0) x else x+1)(35)` ::@:: `fixedPoint(x => if (x%10==0) x else x+1)(35)` → `40` (increments to next multiple of 10).
+      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x => x/2 + 5)(20)` ::@:: `fixedPoint(x => x/2 + 5)(20)` → `10`.
+    - COMP 3031 / exercise 1 / `sum` ::@:: `sum(f)(a,b)` accumulates `f(i)` for all integers `i` in `[a,b]`. Tail‑recursive implementation uses an accumulator.
+    - COMP 3031 / exercise 1 / `quadratic` ::@:: `quadratic(c)` produces a function `x => (x-c)^2`.
+    - COMP 3031 / exercise 1 / `quad3Integrate` ::@:: `quad3Integrate(a,b)` is shorthand for `sum(quadratic(3))(a, b)`, computing the sum of `(i-3)^2` over `[a, b]`.
+    - COMP 3031 / exercise 1  / comparator ::@:: A binary relation satisfying transitivity, reflexivity, anti‑symmetry, and totality. Used to enforce a total order on elements of a structure, e.g. list elements, tree elements.
+      - COMP 3031 / exercise 1 / comparator / equality ::@:: `eq(leq)(x,y) = leq(x,y) && leq(y,x)`; returns true iff both directions hold.
+      - COMP 3031 / exercise 1 / comparator / strict less-than ::@:: `lt(leq)(x,y) = !leq(y,x)`; true when `x` is not greater or equal to `y`.
+    - COMP 3031 / exercise 1 / tree ADT ::@:: <p> `sealed abstract class Tree[T]` <br/> `case class EmptyTree[T](leq: (T, T) => Boolean) extends Tree[T]` <br/> `case class Node[T](left: Tree[T], elem: T, right: Tree[T], leq: (T, T) => Boolean) extends Tree[T]`
+      - COMP 3031 / exercise 1 / tree ADT / size ::@:: - _Pattern‑matching version_: `def size = this match { Empty => 0; Node(l,_,r,_)= > l.size + r.size + 1 }`. <br/> - _Subclass override_: each case class implements its own `size` method.
+      - COMP 3031 / exercise 1 / tree ADT / `add` ::@:: - Recursive: empty tree → new node. <br/> - On a node: compare target `t` with the node's element using `leq`; insert into left or right subtree accordingly; if equal, return unchanged to avoid duplicates.
+      - COMP 3031 / exercise 1 / tree ADT / `toList` ::@:: - Accumulator version (linear time) – builds result in reverse order: `acc` for empty nodes and `rec(left, elem :: rec(right, acc))` for nonempty nodes, where `rec` is the accumulator helper function. <br/> - Naïve concatenation (`:::`) – quadratic but conceptually simple: `left.toList ::: elem :: right.toList`.
+      - COMP 3031 / exercise 1 / tree ADT / `sortedList` ::@:: Build a BST by folding over the input list with `add`, then convert to list: `ls.foldLeft[Tree[T]](EmptyTree(leq))((t, e) => t.add(e)).toList`
+      - COMP 3031 / exercise 1 / tree ADT / enumeration ::@:: When all behaviour is defined in a single place (no subclass methods), the tree can be expressed using Scala 3's `enum` syntax with pattern‑matching inside each case.
 
 ## week 4 lecture
 
 - datetime: 2025-09-23T12:00:00+08:00/2025-09-23T13:20:00+08:00, PT1H20M
-- topic:
+- topic: proofs in Scala; list properties; structural induction; referential transparency; vector; collection hierarchy; Java sequences; range; sequence methods; mapping; map methods; option; varargs
+- Scala
+  - Scala / [proofs](proofs.md)
+    - [§ list properties](proofs.md#list%20properties): concatenation, associativity of concatenation, neutral element of concatenation, structural induction
+    - [§ structural induction](proofs.md#structural%20induction): natural induction, structural induction, structural induction on lists
+    - [§ referential transparency](proofs.md#referential%20transparency): pure functions, referential transparency
+    - [§ proofs](proofs.md#proofs): proving lower bounds on factorial, proving associativity of `:::`, proving `xs ::: Nil = xs`, proving reverse is its own inverse, proving `map` is distributive over concatenation
+    - [§ proving lower bounds on factorial](proofs.md#proving%20lower%20bounds%20on%20factorial): proving lower bounds on factorial
+    - [§ proving associativity of `:::`](proofs.md#proving%20associativity%20of%20`:::`): proving associativity of `:::`
+    - [§ proving `xs ::: Nil = xs`](proofs.md#proving%20`xs%20Nil%20=%20xs`): proving `xs ::: Nil = xs`
+    - [§ proving reverse is its own inverse](proofs.md#proving%20reverse%20is%20its%20own%20inverse): proving reverse is its own inverse
+    - [§ proving `map` is distributive over concatenation](proofs.md#proving%20`map`%20is%20distributive%20over%20concatenation): proving `map` is distributive over concatenation
+  - Scala / collections
+    - [§ vector](collections.md#vector): vector, `+:`, `:+`
+    - [§ hierarchy](collections.md#hierarchy): collection hierarchy, `Seq`, `Iterable`, `Array`, `String`, `Set`, `Map`
+    - [§ Java sequences](collections.md#Java%20sequences): `Array`, `String`, implicit conversion to `Seq`
+    - [§ range](collections.md#range): `Range`
+    - [§ sequence methods](collections.md#sequence%20methods): sequence methods
+    - [§ mapping](collections.md#mapping): `Map`, `Map` is iterable, `Map` is function, `Option`
+  - Scala / Scala 3
+    - [§ options](Scala%203.md#options): `Option`, pattern matching on `Option`
+  - Scala / collections
+    - [§ map update](collections.md#map%20update): `Map` update
+    - [§ map methods](collections.md#map%20methods): `Map` methods, varargs
+  - Scala / Scala 3
+    - [§ varargs](Scala%203.md#varargs): varargs
 
 ## week 4 lecture 2
 
 - datetime: 2025-09-25T12:00:00+08:00/2025-09-25T13:20:00+08:00, PT1H20M
-- topic:
+- topic: `for` expression; set
+- Scala
+  - Scala / Scala 3
+    - [§ for expressions](Scala%203.md#for%20expressions): `for` expression, `for` expression syntax, `for` generator, `for` filter
+  - Scala / collections
+    - [§ set](collections.md#set): `Set`
+  - Scala / Scala 3
+    - [§ for expression examples](Scala%203.md#for%20expression%20examples): `for` expression examples
+    - [§ for expressions in other languages](Scala%203.md#for%20expressions%20in%20other%20languages): `for` expression in other languages, `for` expression in Python, `for` expression in Haskell, `for` expression in F\#
+
+## week 5 lab
+
+- datetime: 2025-09-29T15:00:00+08:00/2025-09-29T16:20:00+08:00, PT1H20M
+- topic: higher-order functions; characteristic function
+- COMP 3031
+  - COMP 3031 / lab 2 ::@:: In this lab, sets of integers are modeled as _characteristic functions_: a value is in the set iff the function returns `true` for that integer. In code this is expressed with a type alias `FunSet = Int => Boolean`, allowing any set to be represented by a simple predicate.
+    - COMP 3031 / lab 2 / `contains` ::@:: A helper called `contains(s: FunSet, elem: Int): Boolean = s(elem)` lets us query membership without exposing the underlying function.
+    - COMP 3031 / lab 2 / `singletonSet` ::@:: _Singleton construction_ (`singletonSet`) takes one integer and returns a set that contains exactly that element; implemented as `_ == elem`.
+    - COMP 3031 / lab 2 / `union` ::@:: `union(s, t)` yields a set where an integer belongs if it is in either `s` or `t`: `x => contains(s, x) || contains(t, x)`
+    - COMP 3031 / lab 2 / `intersect` ::@:: `intersect(s, t)` returns a set of integers belonging to both: `x => contains(s, x) && contains(t, x)`
+    - COMP 3031 / lab 2 / `diff` ::@:: `diff(s, t)` produces the set of elements that are in `s` but not in `t`: `x => contains(s, x) && !contains(t, x)`
+    - COMP 3031 / lab 2 / `filter` ::@:: The `filter` function selects those members of a given set that also satisfy an arbitrary predicate `p`. Its implementation is a simple logical conjunction: `x => contains(s, x) && p(x)`, returning a new characteristic function.
+    - COMP 3031 / lab 2 / `forall` ::@:: Since we cannot enumerate all integers in a purely functional representation, the lab limits attention to the range `[-bound, bound]` (with `bound = 1000`). <p> The `forall(s, p)` routine checks whether every element of `s` satisfies predicate `p`. It uses a tail‑recursive helper `iter(a)` that walks from `-bound` up to `bound`, stopping early if it finds an element in `s` that fails `p`.
+    - COMP 3031 / lab 2 / `exists` ::@:: From this universal quantifier, the _existential_ test is derived simply by negation: `exists(s, p) = !forall(s, !p(_))`.
+    - COMP 3031 / lab 2 / `map` ::@:: The `map` operation constructs a new set by applying a function `f` to each element of the original set. <p> Because we can only query membership via `contains`, the map is defined as: `x => exists(s, y => f(y) == x)`. For any candidate `x`, it checks whether there exists some `y` in the source set whose image under `f` equals `x`.
+    - COMP 3031 / lab 2 / remarks ::@:: All functions can be expressed as one‑liners; the challenge lies in reasoning about function composition rather than writing boilerplate. <p> Think of a set not as a collection but as a _predicate_ that tells whether a given integer is included.
+
+## week 5 lecture
+
+- datetime: 2025-09-30T12:00:00+08:00/2025-09-30T13:20:00+08:00, PT1H20M
+- topic: case class; enumeration; collection; higher-order function; for expression; word coder; database query; desugaring for expressions; monad; generator monad
+- Scala
+  - Scala / Scala 3
+    - [§ case classes](Scala%203.md#case%20classes): case classes, case classes syntax, case class examples
+      - Scala 3 / § case classes / examples ::@:: JSON can be represented _concisely_ and _naturally_ using case classes.
+    - [§ enumerations](Scala%203.md#enumerations): pure data structures, case classes, enumerations, simple enumerations, parameterized enumerations, pattern matching on enumerations
+      - Scala 3 / § case classes / examples ::@:: JSON can be represented _concisely_ and _naturally_ using enumeration.
+  - Scala / collections
+    - [§ higher-order methods](collections.md#higher-order%20methods): higher-order methods, map, filter, reduce
+  - Scala / Scala 3
+    - [§ for expressions](Scala%203.md#for%20expressions): `for` expression, `for` expression syntax, `for` generator pattern matching
+  - Scala / [applications](applications.md)
+    - [§ word coder](applications.md#word%20coder): word coder
+    - [§ `Coder`](applications.md#`Coder`): `Coder`, encapsulation
+    - [§ `Coder.charCode`](applications.md#`Coder.charCode`): `Coder.charCode`, for expression
+    - [§ `Coder.wordCode`](applications.md#`Coder.wordCode`): `Coder.wordCode`, higher-order function
+    - [§ `Coder.wordsForNum`](applications.md#`Coder.wordsForNum`): `Coder.wordsForNum`, higher-order function, `Map`
+    - [§ `Coder.encode`](applications.md#`Coder.encode`): `Coder.encode`, divide and conquer, for expression, recursion
+    - [§ word coder usage](applications.md#word%20coder%20results): word coder usage
+    - [§ word coder conclusion](applications.md#word%20coder%20conclusion): word coder conclusion, word coder in other languages
+    - [§ database](applications.md#database): for expression, database, database query
+    - [§ simple database queries](applications.md#simple%20database%20queries): simple database queries
+    - [§ complex database queries](applications.md#complex%20database%20queries): complex database queries
+  - Scala / Scala 3
+    - [§ desugaring for expressions](Scala%203.md#desugaring%20for%20expressions): `for` expression, desugaring `for` expressions
+  - Scala / [applications](applications.md)
+    - [§ translating queries to higher-order functions](applications.md#translating%20queries%20to%20higher-order%20functions): translating queries to higher-order functions
+  - Scala / Scala 3
+    - [§ desugaring for expressions](Scala%203.md#desugaring%20for%20expressions): `for` expression, desugaring `for` expressions, `for` expression generalization
+  - Scala / [monad](monad.md)
+    - [§ motivation](monad.md#motivation): monad motivation
+    - [§ generator](monad.md#generator): generator, `Generator`
+    - [§ generator monad](monad.md#generator%20monad): generator monad, `Generator.map`, `Generator.flatMap`
+    - [§ generator monad recursion](monad.md#generator%20monad%20recursion): generator monad recursion
+    - [§ generator monad usage](monad.md#generator%20monad%20usage): generator monad usage
+
+## week 5 lecture 2
+
+- datetime: 2025-10-02T12:00:00+08:00/2025-10-02T13:20:00+08:00, PT1H20M
+- topic: monad; option monad; exceptional monad; structural induction on trees
+- [monad](../../../../general/monad%20(functional%20programming).md) ::@:: They are a way to structure computations as a sequence of steps, where each step not only produces a value but also some extra information about the computation, such as a potential failure, non-determinism, or side effect.
+  - monad / formal definition ::@:: More formally, a monad is a type constructor M equipped with two operations, `return : <A>(a : A) -> M(A)` which lifts a value into the monadic context, and `bind : <A,B>(m_a : M(A), f : A -> M(B)) -> M(B)` which chains monadic computations.
+- Scala
+  - Scala / monad
+    - [§ monad](monad.md#monad): monad
+    - [§ definition](monad.md#definition): monad definition, monad in Scala
+    - [§ examples](monad.md#examples): examples
+    - [§ `map`](monad.md#`map`): monad `map`
+    - [§ monad laws](monad.md#monad%20lwas): monad laws, monad associativity, monad left identity, monad right identity
+    - [§ `Option`](monad.md#`Option`): `Option`, `Option` respects monad laws
+    - [§ significance for `for`-expressions](monad.md#significance%20for%20`for`%20expressions): significance for `for`-expressions
+  - Scala / Scala 3
+    - [§ exceptions](Scala%203.md#exceptions): exceptions
+    - [§ exception handling](Scala%203.md#exception%20handling): exception handling, `try`, `catch`
+  - Scala / monad
+    - [§ `Try`](monad.md#`Try`): exceptions, exceptional monad, `Try`, exceptional monad does not respect monad laws
+  - Scala / proofs
+    - [§ structural induction on trees](proofs.md#structural%20induction%20on%20trees): structural induction on trees
+    - [§ set properties](proofs.md#set%20properties): set properties
+    - [§ proving set properties](proofs.md#proving%20set%20properties): proving set properties
+    - [§ proving set union property](proofs.md#proving%20set%20properties): proving set union property
 
 ## aftermath
 

@@ -114,7 +114,7 @@ def tree(trunkLength, currentDepth, maximumDepth):
         # Recursively draw another smaller tree
         # Complete this
 
-        # Turn left for 'angle' degrees, so that the 
+        # Turn left for 'angle' degrees, so that the
         # turtle faces its original starting direction
         # Complete this
 

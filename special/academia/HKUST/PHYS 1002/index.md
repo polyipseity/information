@@ -954,7 +954,7 @@ The content is in teaching order. Extra information and corrections are included
     - [LIGO](../../../../general/LIGO.md) ::@:: Laser Interferometer Gravitational-Wave Observatory <!--SR:!2027-08-09,899,427!2026-11-10,677,427-->
     - LIGO / first direct detection ::@:: The first direct observation of gravitational waves was made on 2015-09-14. The waves were caused by the merger of two black holes with masses of ~36 and ~29 solar masses. <!--SR:!2026-05-16,381,267!2029-08-05,1464,407-->
       - LIGO / first direct detection / Nobel Prize ::@:: 2017 Nobel Prize in Physics, to [Rainer Weiss](../../../../general/Rainer%20Weiss.md), [Kip Thorne](../../../../general/Kip%20Thorne.md), [Barry Barish](../../../../general/Barry%20Barish.md), "for decisive contributions to the [LIGO](../../../../general/LIGO.md) detector and the observation of [gravitational waves](../../../../general/gravitational%20wave.md)". <!--SR:!2025-11-02,330,367!2026-05-26,468,347-->
-- supplementary information (untested)  
+- supplementary information (untested)
   - [black hole](../../../../general/black%20hole.md) / recent breakthroughs ::@:: Event Horizon Telescope (EHT) imaging the first-ever picture of a black hole (M87) on 2019-04. <!--SR:!2026-06-06,480,347!2026-04-09,470,407-->
     - EHT ::@:: [Event Horizon Telescope](../../../../general/Event%20Horizon%20Telescope.md) <!--SR:!2026-07-07,573,427!2026-08-19,609,427-->
       - EHT / first-ever picture of a black hole ::@:: M87, 2019-04 <!--SR:!2028-12-07,1224,367!2026-07-29,558,407-->

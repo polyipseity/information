@@ -13,7 +13,7 @@ tags:
 
 > ![A demo for Prim's algorithm based on Euclidean distance](../../archives/Wikimedia%20Commons/PrimAlgDemo.gif)
 >
-> {@{A demo for Prim's algorithm based on Euclidean distance}@} <!--SR:!2029-01-13,1177,350-->
+> A demo for {@{Prim's algorithm based on Euclidean distance}@} <!--SR:!2029-01-13,1177,350-->
 
 In [computer science](computer%20science.md), {@{__Prim's algorithm__}@} is {@{a [greedy algorithm](greedy%20algorithm.md) that finds a [minimum spanning tree](minimum%20spanning%20tree.md) for a [weighted](glossary%20of%20graph%20theory.md#weighted%20graph) [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@}. This means it {@{finds a subset of the [edges](glossary%20of%20graph%20theory.md#edge) that forms a [tree](tree%20(graph%20theory).md)}@} that {@{includes every [vertex](vertex%20(graph%20theory).md), where the total weight of all the [edges](graph%20theory.md) in the tree is minimized}@}. The algorithm operates by {@{building this tree one vertex at a time}@}, from {@{an arbitrary starting vertex}@}, at each step {@{adding the cheapest possible connection from the tree to another vertex}@}. <!--SR:!2025-11-28,285,330!2025-11-24,281,330!2025-11-13,274,330!2025-11-15,276,330!2025-11-04,267,330!2025-12-08,293,330!2025-11-08,269,330-->
 

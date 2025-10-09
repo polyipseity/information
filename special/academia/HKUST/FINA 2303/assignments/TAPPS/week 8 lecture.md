@@ -40,7 +40,7 @@ What is its market price?
     - periods: 10
     - FV: 1000
     - interest: \(empty\)
-  
+
     The calculated yield to maturity is about 5.67%. We want the yield to maturity in APR, so multiply it by 2 to get 11.34%.
 2. The expected rate of return is simply the yield to maturity, since YTM is defined as the discount rate at which the present value of all future cash flows from the bond is equal to the current price of the bond.
 

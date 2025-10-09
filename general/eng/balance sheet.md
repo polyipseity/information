@@ -228,7 +228,7 @@ The following balance sheet is a very brief example prepared in accordance with 
 >   Investments in Financial assets due after one year
 >   Investments in Associates and Joint Ventures
 >   Other Non-Current Assets, e.g. Deferred Tax Assets, Lease Receivable and Receivables due after one year
-> 
+>
 >  Current Assets
 >   Inventories
 >   Prepaid Expenses
@@ -258,7 +258,7 @@ The following balance sheet is a very brief example prepared in accordance with 
 >   Current portion of Loans Payable
 >   Current Income Tax Payable
 >   Accounts Payable
-> 
+>
 >  EQUITY
 >   Paid-in Capital
 >     Share Capital (Ordinary Shares, Preference Shares)
@@ -268,7 +268,7 @@ The following balance sheet is a very brief example prepared in accordance with 
 >   Revaluation Reserve
 >   Other Accumulated Reserves
 >   Accumulated Other Comprehensive Income
->  
+>
 >   Non-Controlling Interest
 > ```
 >

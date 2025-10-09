@@ -170,7 +170,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >     E> = filter(E>)
 >     A = A ∪ filter_kruskal(E>)
 >     return A
-> 
+>
 > function partition(E, pivot) is
 >     E≤ = ∅, E> = ∅
 >     foreach (u, v) in E do
@@ -179,7 +179,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >         else
 >             E> = E> ∪ {(u, v)}
 >     return E≤, E>
-> 
+>
 > function filter(E) is
 >     Ef = ∅
 >     foreach (u, v) in E do

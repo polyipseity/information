@@ -22,6 +22,6 @@ int main()
       }
 
   cout<<endl<<double(h)/n<<" "<<double(t)/n<<endl;
-  
+
   return 0;
 }

@@ -93,7 +93,7 @@ Result: \(annotation: {@{`sat`}@}\) <!--SR:!2026-05-23,253,330-->
 
 ```Z3
 sat
-(model 
+(model
   (define-fun b () Int
     -10)
   (define-fun a () Int

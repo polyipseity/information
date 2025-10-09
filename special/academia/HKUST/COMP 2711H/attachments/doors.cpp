@@ -40,7 +40,7 @@ void run_experiment()
       cout<<"2";
       p2++;
     }
-  
+
 }
 
 int main()
@@ -52,6 +52,6 @@ int main()
     run_experiment();
 
   cout<<endl<<double(p1)/n<<" "<<double(p2)/n<<endl;
-  
+
   return 0;
 }

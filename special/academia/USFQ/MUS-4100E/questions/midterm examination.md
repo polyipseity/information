@@ -1,6 +1,6 @@
 ---
 aliases:
-  - MUS-4100E midterm 
+  - MUS-4100E midterm
   - MUS-4100E midterm exam
   - MUS-4100E midterm examination
   - USFQ MUS-4100E midterm

@@ -112,7 +112,7 @@ The content is in teaching order.
   - job cost / [manufacturing overhead](../../../../general/factory%20overhead.md) (MOH) ::@:: Applied Manufacturing Overhead = Predetermined Overhead Rate (POHR) × Actual Cost Driver <p> The actual cost driver/allocation base may be direct labor costs (less common), direct labor hours (more common), direct materials costs, etc. <!--SR:!2026-01-26,268,348!2026-01-25,267,348-->
     - job cost / manufacturing overhead (MOH) / rationale & handling ::@:: Such costs may be impossible or difficult to trace to particular jobs, consists of many different items, and may not be known until the end of a period. <p> So what we do is identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. Then use estimates to find the predetermined overhead rate (POHR). This rate is "predetermined" because it is determined before a period begins. <!--SR:!2026-05-26,336,308!2026-02-14,282,348-->
     - job cost / manufacturing overhead (MOH) / underapplied & overapplied ::@:: The _applied_ manufacturing overhead found using POHR is only an _estimate_. At the end of a period, we can find the _actual_ manufacturing overhead. If applied MOH > actual MOH then it is overapplied, and vice versa. If applied MOH < actual MOH then it is underapplied. <p> This discrepancy is accounted for by adjusting the cost of goods sold (COGS), which will be discussed below. <!--SR:!2026-02-13,281,348!2026-02-12,280,348-->
-  
+
 ## week 2 lecture
 
 - datetime: 2025-02-10T12:00:00+08:00/2025-02-10T13:20:00+08:00

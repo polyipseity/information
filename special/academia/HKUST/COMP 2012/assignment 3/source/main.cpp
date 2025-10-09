@@ -53,11 +53,11 @@ int main() {
         cout << "Select your choice:" << endl;
         cout << "1. View available pets" << endl;
         cout << "2. Set filter (current filter: " << filter << ")" << endl;
-        cout << "3. Change sort criteria (current criteria: " << criteriaToString(sortCriteria) << ")" << endl; 
+        cout << "3. Change sort criteria (current criteria: " << criteriaToString(sortCriteria) << ")" << endl;
         cout << "4. Change display count (current display amount: " << displayCount << ")" << endl;
         cout << "5. View pet's taken vaccines" << endl;
         cout << "6. Admin options" << endl;
-        cout << "7. Exit" << endl; 
+        cout << "7. Exit" << endl;
         int choice;
         cin >> choice;
 
@@ -67,7 +67,7 @@ int main() {
                     unsigned int curPage = 1;
                     while (true) {
                         string padTrimString(const string& str, unsigned int length);
-                        cout << "ID" << "\t" 
+                        cout << "ID" << "\t"
                             << padTrimString("Species (Breed)", 30) << "\t"
                             << "Age" << "\t"
                             << padTrimString("Health Condition", 15) << "\t"

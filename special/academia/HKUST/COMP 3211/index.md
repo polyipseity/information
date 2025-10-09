@@ -1061,7 +1061,7 @@ The content is in teaching order.
 >
 > __<big>Final Exam Information</big>__
 >
-> COMP3211 final exam will be held __on May 28 \(Wed\), from 12:30pm to 3:30pm, in Tsang Shiu Tim Art Hall__.
+> COMP3211 final exam will be held __on May 28 \(Wed\), from 12:30pm to 3:30pm, in Tsang Shiu Tim Art Hall__.
 >
 > - The final coverage is from the beginning to the end, everything in the lecture notes and the assignments. There are in total 11 lecture notes.
 > - The exam is closed-book. No cheat sheet is allowed.
@@ -1070,13 +1070,13 @@ The content is in teaching order.
 >
 > __<big>Final Exam Time Conflicts</big>__
 >
-> If you have time conflicts with the final exam due to other academic activities, e.g., conference, competition, etc, __please let me know by Apr 28 (Mon) with your proof documents__, so that I can arrange your make-up final exam.
+> If you have time conflicts with the final exam due to other academic activities, e.g., conference, competition, etc, __please let me know by Apr 28 (Mon) with your proof documents__, so that I can arrange your make-up final exam.
 >
-> If you cannot attend the final exam due to medical reasons, you need to apply to the Academic Registry for a make-up exam. You can find the application form and related information at [https://registry.hkust.edu.hk/resource-library/examination-regulations-student](https://registry.hkust.edu.hk/resource-library/examination-regulations-student).
+> If you cannot attend the final exam due to medical reasons, you need to apply to the Academic Registry for a make-up exam. You can find the application form and related information at [https://registry.hkust.edu.hk/resource-library/examination-regulations-student](https://registry.hkust.edu.hk/resource-library/examination-regulations-student).
 >
 > __<big>Past Final Exam Papers</big>__
 >
-> 23-final.pdf, 22-final.pdf
+> 23-final.pdf, 22-final.pdf
 
 ## aftermath
 

@@ -944,7 +944,7 @@ The content is in teaching order.
 >
 > Dear all students,
 >
-> - On Wednesday, 18 December, the final exam will be held at the Lecture Theater A (LTA) from 9:30 am to 11:30 pm and last for 120 minutes.  
+> - On Wednesday, 18 December, the final exam will be held at the Lecture Theater A (LTA) from 9:30 am to 11:30 pm and last for 120 minutes.
 > - TA will announce the seating plan later.
 > - It will be a closed-book exam, and no notes are allowed.
 > - There are around 4 short questions and 2 long questions (tentatively, I am still working on them), which require written answers using words/graphs/equations.

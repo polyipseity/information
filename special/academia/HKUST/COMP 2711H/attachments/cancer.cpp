@@ -16,7 +16,7 @@ void run_experiment()
   int me = rand()%p;
 
   int result;
-  
+
   if(hasC[me])
     {
       if(rand()%10==0)
@@ -39,7 +39,7 @@ void run_experiment()
       else
 	result=0;
     }
-  
+
 }
 
 int main()
@@ -62,6 +62,6 @@ int main()
     run_experiment();
 
   cout<<double(totalCancer)/totalPositive<<endl;
-  
+
   return 0;
 }

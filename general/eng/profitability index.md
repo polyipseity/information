@@ -66,10 +66,10 @@ Calculate [Net present value](net%20present%20value.md) at 6% and PI:
 ```text
      Year      CFAT      PV@10%       PV
 
-      1        18000      0.909      16362 
-      2        12000      0.827       9924   
+      1        18000      0.909      16362
+      2        12000      0.827       9924
       3        10000      0.752       7520
-      4         9000      0.683       6147     
+      4         9000      0.683       6147
       5         6000      0.621       3726
               Total present value    43679
               (-) Investment         40000

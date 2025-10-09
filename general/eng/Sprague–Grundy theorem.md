@@ -13,7 +13,7 @@ tags:
 
 In {@{[combinatorial game theory](combinatorial%20game%20theory.md)}@}, the {@{__Sprague–Grundy theorem__}@} states that {@{every [impartial game](impartial%20game.md) under the [normal play convention](normal%20play%20convention.md) is equivalent to a one-heap game of [nim](Nim.md)}@}, or {@{to an infinite generalization of nim}@}. It can therefore be {@{represented as a [natural number](natural%20number.md), the size of the heap in its equivalent game of nim}@}, as {@{an [ordinal number](ordinal%20number.md) in the infinite generalization}@}, or alternatively as {@{a [nimber](nimber.md), the value of that one-heap game in an algebraic system whose addition operation combines multiple heaps to form a single equivalent heap in nim}@}. <!--SR:!2026-07-28,430,310!2025-12-12,273,330!2026-03-08,316,290!2025-12-08,270,330!2026-03-25,329,290!2027-06-03,682,330!2026-03-13,318,290-->
 
-{@{The __Grundy value__ or __nim-value__ of any impartial game}@} is {@{the unique nimber that the game is equivalent to}@}. In the case of {@{a game whose positions are indexed by the natural numbers \(like nim itself, which is indexed by its heap sizes\)}@}, {@{the sequence of nimbers for successive positions of the game}@} is {@{called the __nim-sequence__ of the game}@}. <!--SR:!2025-12-14,275,330!2025-11-08,246,330!2027-11-23,762,330!2025-12-27,285,330!2025-11-13,250,330-->
+{@{The __Grundy value__ or __nim-value__ of any impartial game}@} is {@{the unique nimber that the game is equivalent to}@}. In the case of {@{a game whose positions are indexed by the natural numbers}@} \(like {@{nim itself, which is indexed by its heap sizes}@}\), {@{the sequence of nimbers for successive positions of the game}@} is {@{called the __nim-sequence__ of the game}@}. <!--SR:!2025-12-14,275,330!2025-11-08,246,330!2027-11-23,762,330!2025-12-27,285,330!2025-11-13,250,330-->
 
 {@{The Sprague–Grundy theorem and its proof}@} encapsulate the main results of a theory discovered {@{independently by [R. P. Sprague](Roland%20Sprague.md) \(1936\)<sup>[\[1\]](#^ref-1)</sup> and [P. M. Grundy](Patrick%20Michael%20Grundy.md) \(1939\)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-14,275,330!2027-01-20,519,270-->
 
@@ -34,7 +34,7 @@ Doing so {@{allows positions to be defined recursively}@}. For example, consider
 ```text
 Sizes of heaps  Moves
  A B C
-  
+
  1 2 2           Alice takes 1 from A
  0 2 2           Bob   takes 1 from B
  0 1 2           Alice takes 1 from C
@@ -78,8 +78,8 @@ We can {@{combine it with our [first example](#example%20Nim%20game)}@} to {@{ge
 
 ```text
 Sizes of heaps     Moves
- A  B  C  A' B' C'  
-  
+ A  B  C  A' B' C'
+
  1  2  2  1  1  1   Alice takes 1 from A
  0  2  2  1  1  1   Bob takes 1 from A'
  0  2  2  0  1  1   Alice takes 1 from B'
