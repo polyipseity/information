@@ -96,7 +96,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-05-30,340,355!2026-05-24,334,355-->
   - add immediate unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addiu` can be used in place of `addi` to avoid trapping on overflow. <!--SR:!2026-05-30,340,355!2026-05-11,321,355-->
 - add unsigned ::@:: `addu $d, $s, $t`: `$d = $s + $t;`, unsigned, does not trap on overflow <!--SR:!2026-05-21,331,355!2026-06-17,358,355-->
-  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2025-10-26,160,315!2026-01-02,215,335-->
+  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2027-09-23,697,335!2026-01-02,215,335-->
 - divide ::@:: `div $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, signed; `$LO` \(quotient\) is rounded towards zero, while `$HI` \(remainder\) is such that `$s == $t * $LO + $HI` <!--SR:!2026-05-09,319,355!2026-06-13,355,355-->
 - divide immediate ::@:: `divi` does not exist. <!--SR:!2026-06-21,362,355!2026-06-12,353,355-->
 - divide immediate unsigned ::@:: `diviu` does not exist. <!--SR:!2026-06-21,362,355!2026-06-17,358,355-->

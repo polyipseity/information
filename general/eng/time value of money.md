@@ -77,7 +77,7 @@ The following formula use these common variables:
 
 The [present value](present%20value.md) \(_PV_\) formula has {@{four variables}@}, each of which can be {@{solved for by [numerical methods](numerical%20methods.md)}@}: {@{$$PV\ =\ {\frac {FV}{(1+i)^{n} } }$$}@} <!--SR:!2025-12-24,237,330!2026-02-11,271,330!2026-01-18,256,330-->
 
-{@{The cumulative present value of future cash flows}@} can be calculated by {@{summing the contributions of _FV<sub>t</sub>_, the value of cash flow at time _t_}@}: {@{$$PV\ =\ \sum _{t=1}^{n}{\frac {FV_{t} }{(1+i)^{t} } }$$}@} Note that this series can be {@{summed for a given value of _n_, or when _n_ is ∞}@}.<sup>[\[8\]](#^ref-8)</sup> This is {@{a very general formula, which leads to several important special cases given below}@}. <!--SR:!2026-01-08,250,330!2026-01-23,261,330!2025-10-26,185,310!2026-02-25,285,330!2026-01-19,257,330-->
+{@{The cumulative present value of future cash flows}@} can be calculated by {@{summing the contributions of _FV<sub>t</sub>_, the value of cash flow at time _t_}@}: {@{$$PV\ =\ \sum _{t=1}^{n}{\frac {FV_{t} }{(1+i)^{t} } }$$}@} Note that this series can be {@{summed for a given value of _n_, or when _n_ is ∞}@}.<sup>[\[8\]](#^ref-8)</sup> This is {@{a very general formula, which leads to several important special cases given below}@}. <!--SR:!2026-01-08,250,330!2026-01-23,261,330!2028-01-04,800,330!2026-02-25,285,330!2026-01-19,257,330-->
 
 ### present value of an annuity for n payment periods
 

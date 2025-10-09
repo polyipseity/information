@@ -140,10 +140,10 @@ The content is in teaching order.
 - intelligent agent
   - intelligent agent / basic stateless architecture ::@:: sensory input → perceptual processing → feature vector → action function (specified by the designer) → action <!--SR:!2026-06-27,387,363!2026-07-31,383,313-->
   - intelligent agent / perception ::@:: Represented using a set of $x_i$. Note that there can be illegal combinations of values for the set $x_i$. <!--SR:!2026-06-28,388,363!2026-06-10,370,363-->
-  - intelligent agent / action function ::@:: It consists of several statement in the form: If the set of $x_i$ has this combination of values, then perform a certain action. <!--SR:!2025-10-26,187,333!2026-03-31,307,353-->
+  - intelligent agent / action function ::@:: It consists of several statement in the form: If the set of $x_i$ has this combination of values, then perform a certain action. <!--SR:!2028-03-04,860,353!2026-03-31,307,353-->
 - [Boolean algebra](../../../../general/Boolean%20algebra.md)
   - Boolean algebra / overview ::@:: $a$ AND $b$: $ab$ or $a \cdot b$; $a$ OR $b$: $a + b$; NOT $a$: $\overline a$ <p> AND and OR are associative and commutative. <!--SR:!2026-05-19,348,353!2025-10-31,192,333-->
-- [production system](../../../../general/production%20system%20(computer%20science).md) ::@:: Essentially a giant if-else if-...-else program. <p> It is a _sequence_ (so it is ordered) in the form of: $c \to a$, where $c$ is a Boolean function and $a$ is an action. Find the first statement where $c$ evaluates to 1. Its action $a$ is the action the agent will take. <p> Commonly, we add a fallback case: $1 \to a$, where $1$ is the constant Boolean function always returning true. <!--SR:!2025-10-26,187,333!2026-05-23,352,353-->
+- [production system](../../../../general/production%20system%20(computer%20science).md) ::@:: Essentially a giant if-else if-...-else program. <p> It is a _sequence_ (so it is ordered) in the form of: $c \to a$, where $c$ is a Boolean function and $a$ is an action. Find the first statement where $c$ evaluates to 1. Its action $a$ is the action the agent will take. <p> Commonly, we add a fallback case: $1 \to a$, where $1$ is the constant Boolean function always returning true. <!--SR:!2028-03-03,859,353!2026-05-23,352,353-->
 
 ## week 2 lecture 2
 

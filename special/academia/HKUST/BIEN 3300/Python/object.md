@@ -25,7 +25,7 @@ class Name:
     print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2025-10-26,16,290-->
+Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2025-12-26,61,310-->
 
 ```Python
 name_object = Name(42)
@@ -39,7 +39,7 @@ Note that Python attributes are not {@{declared inside the class}@}. Instead, th
 
 ## method
 
-A method consists of {@{a name, parameter names, and statement block}@}: <!--SR:!2025-10-26,16,290-->
+A method consists of {@{a name, parameter names, and statement block}@}: <!--SR:!2025-12-27,62,310-->
 
 ```Python
 def name(parameter_names):
@@ -53,7 +53,7 @@ def a_method(arg1, arg2):
   print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2025-10-26,16,290!2025-12-23,59,310-->
+It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2025-12-31,66,310!2025-12-23,59,310-->
 
 ### constructor
 

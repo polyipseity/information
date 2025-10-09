@@ -16,7 +16,7 @@ tags:
 
 ## operators
 
-The operator precedence for the 3 types of operators introduced below is {@{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}@}. Note that this only considers operators mentioned below and not any others omitted. <!--SR:!2025-10-26,16,290-->
+The operator precedence for the 3 types of operators introduced below is {@{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}@}. Note that this only considers operators mentioned below and not any others omitted. <!--SR:!2026-01-01,67,310-->
 
 ### arithmetic operators
 
@@ -88,7 +88,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2025-10-26,16,290!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2025-12-30,65,310!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
 
 ```Python
 # pytextgen generate data
@@ -133,23 +133,23 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`in` <!--SR:!2025-10-26,16,290!2025-12-18,55,310-->
-- `in`→::@::←`<` <!--SR:!2025-10-26,16,290!2025-12-26,62,310-->
+- _(begin)_→::@::←`in` <!--SR:!2025-12-30,65,310!2025-12-18,55,310-->
+- `in`→::@::←`<` <!--SR:!2025-12-30,65,310!2025-12-26,62,310-->
 - `<`→::@::←`<=` <!--SR:!2025-12-20,57,310!2025-12-24,60,310-->
-- `<=`→::@::←`>` <!--SR:!2025-12-19,56,310!2025-10-26,16,290-->
-- `>`→::@::←`>=` <!--SR:!2025-10-26,16,290!2025-10-26,16,290-->
+- `<=`→::@::←`>` <!--SR:!2025-12-19,56,310!2025-12-29,64,310-->
+- `>`→::@::←`>=` <!--SR:!2025-12-31,66,310!2025-12-31,66,310-->
 - `>=`→::@::←`!=` <!--SR:!2025-12-24,60,310!2025-12-19,56,310-->
-- `!=`→::@::←`==` <!--SR:!2025-10-26,16,290!2025-12-17,54,310-->
+- `!=`→::@::←`==` <!--SR:!2026-01-01,67,310!2025-12-17,54,310-->
 - `==`→::@::←_(end)_ <!--SR:!2025-12-27,63,310!2025-12-24,60,310-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`:@:membership test <!--SR:!2025-10-26,16,290-->
+- `in`:@:membership test <!--SR:!2026-01-01,67,310-->
 - `<`:@:lesser than <!--SR:!2025-12-17,54,310-->
 - `<=`:@:lesser than or equal to <!--SR:!2025-12-26,62,310-->
-- `>`:@:greater than <!--SR:!2025-10-26,16,290-->
+- `>`:@:greater than <!--SR:!2025-12-30,65,310-->
 - `>=`:@:greater than or equal to <!--SR:!2025-12-17,54,310-->
 - `!=`:@:not equal to <!--SR:!2025-12-23,59,310-->
 - `==`:@:equal to <!--SR:!2025-12-21,58,310-->
@@ -158,11 +158,11 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2025-12-18,55,310-->
 
-Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2025-12-18,55,310!2025-12-21,58,310!2025-12-25,61,310!2025-12-19,56,310!2025-12-21,58,310!2025-10-26,16,290!2025-12-27,63,310!2025-12-23,59,310-->
+Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2025-12-18,55,310!2025-12-21,58,310!2025-12-25,61,310!2025-12-19,56,310!2025-12-21,58,310!2026-01-01,67,310!2025-12-27,63,310!2025-12-23,59,310-->
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-10-26,16,290!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-12-29,64,310!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
 
 ```Python
 # pytextgen generate data
@@ -199,10 +199,10 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`not` <!--SR:!2025-10-26,16,290!2025-12-27,63,310-->
-- `not`→::@::←`and` <!--SR:!2025-12-23,59,310!2025-10-26,16,290-->
-- `and`→::@::←`or` <!--SR:!2025-12-20,57,310!2025-10-26,16,290-->
-- `or`→::@::←_(end)_ <!--SR:!2025-10-26,16,290!2025-12-20,57,310-->
+- _(begin)_→::@::←`not` <!--SR:!2025-12-29,64,310!2025-12-27,63,310-->
+- `not`→::@::←`and` <!--SR:!2025-12-23,59,310!2025-12-29,64,310-->
+- `and`→::@::←`or` <!--SR:!2025-12-20,57,310!2025-12-31,66,310-->
+- `or`→::@::←_(end)_ <!--SR:!2025-12-30,65,310!2025-12-20,57,310-->
 
 <!--/pytextgen-->
 
@@ -210,7 +210,7 @@ return _chain.from_iterable(await _gather(
 
 - `not`:@:negate <!--SR:!2025-12-24,60,310-->
 - `and`:@:and <!--SR:!2025-12-25,61,310-->
-- `or`:@:or <!--SR:!2025-10-26,16,290-->
+- `or`:@:or <!--SR:!2025-12-31,66,310-->
 
 <!--/pytextgen-->
 
@@ -236,4 +236,4 @@ Assignment supports {@{performing an arithmetic operation on an existing variabl
 variableName += 2
 ```
 
-The variable must already {@{have a value assigned to it}@}. <!--SR:!2025-10-26,16,290-->
+The variable must already {@{have a value assigned to it}@}. <!--SR:!2025-12-29,64,310-->

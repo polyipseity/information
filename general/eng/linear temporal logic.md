@@ -48,7 +48,7 @@ The additional logical operators are defined as follows:
 - implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2025-12-12,287,337!2026-01-09,312,350-->
 - material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \( ψ → φ\) <!--SR:!2025-12-27,302,350!2026-03-23,372,363-->
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2026-03-27,376,363!2025-12-11,271,343-->
-- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2026-03-24,372,363!2025-10-26,249,337-->
+- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2026-03-24,372,363!2028-12-30,1161,357-->
 
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2025-12-12,272,343-->
 

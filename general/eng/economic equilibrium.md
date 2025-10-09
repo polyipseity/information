@@ -37,7 +37,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 > - P – ::@:: price <!--SR:!2025-11-24,294,345!2026-01-19,338,345-->
 > - Q – ::@:: quantity demanded and supplied <!--SR:!2025-11-28,294,330!2026-01-21,339,345-->
 > - S – ::@:: supply curve <!--SR:!2025-11-24,294,345!2026-01-06,327,345-->
-> - D – ::@:: demand curve <!--SR:!2025-12-13,308,345!2025-10-26,267,330-->
+> - D – ::@:: demand curve <!--SR:!2025-12-13,308,345!2029-02-22,1215,350-->
 > - P<sub>0</sub> – ::@:: equilibrium price <!--SR:!2026-01-18,337,345!2028-10-21,1119,350-->
 > - A – excess demand – ::@:: when P<P<sub>0</sub> <!--SR:!2026-01-01,324,345!2025-11-22,289,330-->
 > - B – excess supply – ::@:: when P>P<sub>0</sub> <!--SR:!2025-12-21,314,345!2026-01-25,343,345-->
@@ -92,7 +92,7 @@ $${\begin{alignedat}{2}Q_{s}&=125+1.5\cdot P\\Q_{d}&=189-2.25\cdot P\\\\Q_{s}&=Q
 >
 > {@{simple supply and demand diagram}@} <!--SR:!2028-12-17,1165,350!2028-10-05,1106,350-->
 
-In the diagram, depicting {@{simple set of supply and demand curves}@}, {@{the quantity demanded and supplied at price __P__}@} are equal. <!--SR:!2025-10-26,268,330!2026-01-23,341,345-->
+In the diagram, depicting {@{simple set of supply and demand curves}@}, {@{the quantity demanded and supplied at price __P__}@} are equal. <!--SR:!2029-03-01,1222,350!2026-01-23,341,345-->
 
 {@{At any price above __P__ supply exceeds demand}@}, while {@{at a price below __P__ the quantity demanded exceeds that supplied}@}. In other words, {@{prices where demand and supply are out of balance}@} are termed {@{points of disequilibrium, creating shortages and oversupply}@}. Changes in {@{the conditions of demand or supply}@} will {@{shift the demand or supply curves}@}. This will {@{cause changes in the equilibrium price and quantity in the market}@}. <!--SR:!2025-11-27,293,330!2025-12-17,311,345!2025-11-24,294,345!2026-01-23,341,345!2026-01-14,334,345!2026-01-14,333,345!2026-01-05,326,345-->
 

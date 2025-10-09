@@ -64,7 +64,7 @@ tags:
 > ---
 >
 > - solution: {@{Use a _new separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
-> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2025-12-19,56,310!2025-10-26,16,290-->
+> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2025-12-19,56,310!2025-12-28,63,310-->
 
 ---
 
@@ -79,7 +79,7 @@ tags:
 > ---
 >
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
-> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2025-12-18,55,310!2025-10-26,16,290-->
+> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2025-12-18,55,310!2025-12-29,64,310-->
 
 ## week 2 lecture
 
@@ -103,7 +103,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2025-10-26,16,300-->
+> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2026-01-03,69,320-->
 
 ---
 

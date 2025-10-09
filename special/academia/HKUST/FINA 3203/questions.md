@@ -27,7 +27,7 @@ tags:
 ## forward contracts
 
 1. People sometimes commit theft, even taking securities such as shares or bonds. Could the same individuals also pilfer \(steal\) forward contracts? Provide an explanation. \(Assume no legal problems apart from potentially getting jailed.\) ::@:: Yes, if the value of the forward contract is positive. <!--SR:!2025-11-09,18,318!2025-11-09,18,318-->
-2. Suppose a risk‑free asset trades at 100 today and the prevailing interest rate is positive. If you commit to sell that same asset one year later for 50, what amount would you consider an equitable present payment so that, on average, you neither profit nor suffer a loss? ::@:: <!--SR:!2025-10-26,1,178!2025-10-26,1,178-->
+2. Suppose a risk‑free asset trades at 100 today and the prevailing interest rate is positive. If you commit to sell that same asset one year later for 50, what amount would you consider an equitable present payment so that, on average, you neither profit nor suffer a loss? ::@:: <!--SR:!2025-10-27,1,158!2025-10-27,1,158-->
 3. What does it mean to sell short? What does it mean to sell long?
     - What does it mean to sell short? ::@:: Sell short means selling a security that you do not currently own, with the intention of buying it back later at a lower price; your profit comes from a decline in its market value. <!--SR:!2025-11-04,13,298!2025-11-08,17,318-->
     - What does it mean to sell long? ::@:: Sell long \(or simply buy\) means purchasing a security and holding it, expecting its price to rise so you can sell later for a higher amount. <!--SR:!2025-11-09,18,318!2025-11-08,17,318-->

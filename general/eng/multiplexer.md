@@ -176,7 +176,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 ## bi-directional multiplexers
 
-{@{Bi-directional multiplexers}@} are {@{built using [analog switches](analog%20switch.md) or [transmission gates](transmission%20gate.md) controlled by the select pins}@}. This allows {@{the roles of input and output to be swapped}@} so that {@{a bi-directional multiplexer can function both as a demultiplexer and multiplexer}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-03-19,301,344!2026-03-28,310,344!2026-04-28,339,344!2025-10-26,190,324-->
+{@{Bi-directional multiplexers}@} are {@{built using [analog switches](analog%20switch.md) or [transmission gates](transmission%20gate.md) controlled by the select pins}@}. This allows {@{the roles of input and output to be swapped}@} so that {@{a bi-directional multiplexer can function both as a demultiplexer and multiplexer}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-03-19,301,344!2026-03-28,310,344!2026-04-28,339,344!2028-02-25,852,344-->
 
 ## multiplexers as PLDs
 

@@ -30,7 +30,7 @@ tags:
 - dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted. <!--SR:!2027-01-15,560,310!2027-06-20,698,330-->
 - total ::@:: Calculate "net cash provided by operating activities", "net cash provided by investing activities", "net cash provided by financing activities", and "cash & cash equivalents at end of period" from "cash & cash equivalents at beginning of period". <!--SR:!2026-12-24,545,310!2027-10-23,796,330-->
   - total / format ::@:: Add a (over)line above the total. <p> For "cash & cash equivalents at end of period", additionally add double (under)lines below the total. <!--SR:!2027-10-14,782,330!2025-11-06,255,330-->
-- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-10-26,245,330!2025-12-11,281,330-->
+- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2028-11-21,1122,350!2025-12-11,281,330-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-10-27,246,330!2027-09-22,763,330-->
 - (root) ::@:: cash flows from operating activities (+) <br/> cash flows for investing activities (+) <br/> cash flows from financing activities (+) <br/> net increase (decrease) in cash & cash equivalents: sum above <br/> cash & cash equivalents at beginning of period <br/> cash & cash equivalents at end of period: sum appropriately <!--SR:!2026-02-09,304,290!2027-01-12,521,270-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-12-12,282,330!2025-11-02,252,330-->

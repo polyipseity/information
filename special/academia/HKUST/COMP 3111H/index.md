@@ -198,7 +198,7 @@ The content is in teaching order.
   - COMP 3111H / lab 1 ::@:: IntelliJ IDEA; Git; GitHub <!--SR:!2025-11-06,25,382!2025-11-06,25,382-->
     - COMP 3111H / lab 1 / Git ::@:: It is the most widely used tool for _version control_. <!--SR:!2025-11-07,26,382!2025-11-07,26,382-->
     - COMP 3111H / lab 1 / GitHub ::@:: It is the largest _web-based_ source code hosting service \(software _forge_\) integrated with version control. <!--SR:!2025-11-05,24,382!2025-11-07,26,382-->
-    - COMP 3111H / lab 1 / exercises ::@:: create Java project in IntelliJ IDEA; setup Git; setup repository on GitHub <!--SR:!2025-10-26,14,362!2025-11-05,24,382-->
+    - COMP 3111H / lab 1 / exercises ::@:: create Java project in IntelliJ IDEA; setup Git; setup repository on GitHub <!--SR:!2026-01-07,73,382!2025-11-05,24,382-->
     - COMP 3111H / lab 1 / Git setup ::@:: Students create a local Git repository from an IntelliJ Maven project, then commit changes to the repository. <!--SR:!2025-11-07,26,382!2025-11-06,25,382-->
     - COMP 3111H / lab 1 / GitHub tokens ::@:: Personal Access Tokens \(PATs\) are generated in the GitHub settings under _Developer settings → Personal access tokens_ to authenticate command‑line operations. The token should have a custom expiry of more than six months, include the `repo` scope, and be stored securely. <!--SR:!2025-11-07,26,382!2025-11-07,26,382-->
     - COMP 3111H / lab 1 / readme ::@:: Within the Maven project created in IntelliJ, a `readme.md` file is added. The README must contain comments or remarks describing the project's purpose, then embed a screenshot of IntelliJ IDEA, showing project folder with `.idea` and `src/main/java/Lab1` expanded, Git log, and file editor opening any of the two Java files. <!--SR:!2025-11-05,24,382!2025-11-07,26,382-->
@@ -416,7 +416,7 @@ The content is in teaching order.
 - unified process
   - unified process / activities
     - unified process / activities / engineering
-- [requirement](../../../../general/requirement.md) ::@:: It is a _condition_ that must be satisfied for the output of a work effort to be _acceptable_. It is an explicit, _objective_, clear and often quantitative description of a condition to be satisfied by a material, design, product, or service. <!--SR:!2025-11-07,26,382!2025-10-26,14,362-->
+- [requirement](../../../../general/requirement.md) ::@:: It is a _condition_ that must be satisfied for the output of a work effort to be _acceptable_. It is an explicit, _objective_, clear and often quantitative description of a condition to be satisfied by a material, design, product, or service. <!--SR:!2025-11-07,26,382!2026-01-07,73,382-->
   - requirement / nots ::@:: It states _what_ the system does, but not _how_ it does. <!--SR:!2025-11-07,26,382!2025-11-06,25,382-->
   - requirement / formality ::@:: It could range from high-level abstract statement to detailed mathematical description. <!--SR:!2025-11-07,26,382!2025-11-05,24,382-->
   - requirement / types ::@:: system requirements, user requirements <!--SR:!2025-11-07,26,382!2025-11-06,25,382-->
@@ -425,7 +425,7 @@ The content is in teaching order.
 - [requirements elicitation](../../../../general/requirements%20elicitation.md) ::@:: It is the practice of researching and discovering the requirements of a system from users, customers, and other stakeholders. <!--SR:!2025-11-05,24,382!2025-10-27,15,362-->
   - requirements elicitation / names ::@:: The practice is also sometimes referred to as "requirement gathering". \(__this course__: use _requirements capture_\) <!--SR:!2025-11-07,26,382!2025-11-07,26,382-->
   - requirements elicitation / goals ::@:: Learn about the problem that needs a solution. Specify the required features and constraints that the client understands and can approve. <!--SR:!2025-11-06,25,382!2025-11-07,26,382-->
-  - requirements elicitation / non-goals ::@:: It specifies the _problem_, not the solution. While it does specifies behaviors of the final software system, it does not _specify_ how the system do them. <!--SR:!2025-11-06,25,382!2025-10-26,14,362-->
+  - requirements elicitation / non-goals ::@:: It specifies the _problem_, not the solution. While it does specifies behaviors of the final software system, it does not _specify_ how the system do them. <!--SR:!2025-11-06,25,382!2026-01-07,73,382-->
   - requirements elicitation / importance ::@:: We are overly optimistic. If we do not research requirements, we may think we know every detail, until when we actually develop the system at which point you discover ambiguous, forgotten, or undefined details. <p> This increases error. So researching requirements _reduces error_. <!--SR:!2025-11-07,26,382!2025-11-07,26,382-->
     - requirements elicitation / importance / failures ::@:: Major causes of software development failures or problems: changing requirements, incomplete requirements, unneeded system, unrealistic expectations, user involvement lacking, etc. <!--SR:!2025-11-07,26,382!2025-11-07,26,382-->
     - requirements elicitation / importance / cost ::@:: Whenever there is a defect, the later we discover it, the higher the cost it takes to fix it \(usually grows exponentially\). This is the cheapest when we are specifying the requirements, being the first step. <!--SR:!2025-11-07,26,382!2025-11-05,24,382-->

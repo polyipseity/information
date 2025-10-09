@@ -278,7 +278,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2025-11-26,67,327!2025-12-14,82,344!2025-12-06,75,327!2025-12-09,77,344-->
 
-  - On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!2025-11-22,63,327!2025-12-06,75,344!2025-10-26,41,307-->
+  - On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!2025-11-22,63,327!2025-12-06,75,344!2026-04-18,174,327-->
 
 - [General topology](general%20topology.md)
 
@@ -308,7 +308,7 @@ There are {@{several historically important set-theoretic statements}@} {@{impli
 
 - [Abstract algebra](abstract%20algebra.md)
 
-  - {@{[Hahn embedding theorem](Hahn%20embedding%20theorem.md)}@}: {@{Every ordered abelian group _G_}@} {@{order-embeds as a subgroup}@} of {@{the additive group $\mathbb {R} ^{\Omega }$}@} endowed with {@{a [lexicographical order](lexicographical%20order.md)}@}, where Ω is {@{the set of Archimedean equivalence classes of _G_}@}. This equivalence was {@{conjectured by Hahn in 1907}@}. <!--SR:!2025-12-06,75,344!2025-12-13,81,344!2025-12-07,76,344!2025-12-15,83,344!2025-12-11,79,344!2025-11-26,67,327!2025-10-26,41,307-->
+  - {@{[Hahn embedding theorem](Hahn%20embedding%20theorem.md)}@}: {@{Every ordered abelian group _G_}@} {@{order-embeds as a subgroup}@} of {@{the additive group $\mathbb {R} ^{\Omega }$}@} endowed with {@{a [lexicographical order](lexicographical%20order.md)}@}, where Ω is {@{the set of Archimedean equivalence classes of _G_}@}. This equivalence was {@{conjectured by Hahn in 1907}@}. <!--SR:!2025-12-06,75,344!2025-12-13,81,344!2025-12-07,76,344!2025-12-15,83,344!2025-12-11,79,344!2025-11-26,67,327!2026-04-15,171,327-->
 
 ## stronger forms of the negation of AC
 

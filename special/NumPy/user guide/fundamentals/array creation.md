@@ -50,7 +50,7 @@ Traceback (most recent call last):
 OverflowError: Python integer 128 out of bounds for int8
 ```
 
-{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2026-01-17,347,350!2026-01-22,351,350!2026-01-09,340,350!2026-01-24,353,350!2026-01-23,352,350!2025-10-27,276,330!2025-10-26,275,330-->
+{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2026-01-17,347,350!2026-01-22,351,350!2026-01-09,340,350!2026-01-24,353,350!2026-01-23,352,350!2025-10-27,276,330!2029-03-31,1252,350-->
 
 ```Python
 >>> import numpy as np
@@ -70,7 +70,7 @@ The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed 
 
 ## intrinsic NumPy array creation functions
 
-NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [array creation routines](../../../API%20reference/generated/array%20creation%20routines.md)}@}. These functions {@{can be split into roughly three categories}@}, based on the dimension of the array they create: <!--SR:!2026-01-13,344,350!2025-10-26,276,330-->
+NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [array creation routines](../../../API%20reference/generated/array%20creation%20routines.md)}@}. These functions {@{can be split into roughly three categories}@}, based on the dimension of the array they create: <!--SR:!2026-01-13,344,350!2029-04-04,1256,350-->
 
 1. 1D arrays
 2. 2D arrays

@@ -123,7 +123,7 @@ In {@{the reverse direction}@}, since {@{$A=G+G'$ is a ${\mathcal {P} }$-positio
 
 ## proof of the theorem
 
-We prove that {@{all positions are equivalent to a nimber}@} by {@{[structural induction](structural%20induction.md)}@}. {@{The more specific result}@}, that {@{the given game's initial position must be equivalent to a nimber}@}, shows {@{that the game is itself equivalent to a nimber}@}. <!--SR:!2025-11-21,256,330!2025-10-26,235,330!2025-12-12,273,330!2025-11-02,18,366!2025-11-02,18,366-->
+We prove that {@{all positions are equivalent to a nimber}@} by {@{[structural induction](structural%20induction.md)}@}. {@{The more specific result}@}, that {@{the given game's initial position must be equivalent to a nimber}@}, shows {@{that the game is itself equivalent to a nimber}@}. <!--SR:!2025-11-21,256,330!2028-09-29,1069,350!2025-12-12,273,330!2025-11-02,18,366!2025-11-02,18,366-->
 
 Consider {@{a position $G=\{G_{1},G_{2},\ldots ,G_{k}\}$}@}. By {@{the [induction hypothesis](mathematical%20induction.md)}@}, {@{all of the options are equivalent to nimbers, say $G_{i}\approx *n_{i}$}@}. So let {@{$G'=\{*n_{1},*n_{2},\ldots ,*n_{k}\}$}@}. We will show that {@{$G\approx *m$, where $m$ is the [mex \(minimum exclusion\)](mex%20(mathematics).md) of the numbers $n_{1},n_{2},\ldots ,n_{k}$}@}, that is, {@{the smallest non-negative integer not equal to some $n_{i}$}@}. <!--SR:!2025-12-26,284,330!2025-12-09,271,330!2027-12-09,827,330!2027-05-19,670,330!2025-12-16,276,330!2026-01-02,290,330-->
 

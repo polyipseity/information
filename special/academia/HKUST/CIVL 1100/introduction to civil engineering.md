@@ -950,7 +950,7 @@ wave
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2028-05-16,1176,377-->
-- earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2028-09-16,1261,380-->
+- earthquake→::@::←fire <!--SR:!2030-10-05,1805,355!2028-09-16,1261,380-->
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2028-04-23,1037,286-->
 - flood→::@::←strong wind <!--SR:!2028-01-02,845,300!2026-02-20,467,317-->
 - strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2029-02-23,1284,314-->

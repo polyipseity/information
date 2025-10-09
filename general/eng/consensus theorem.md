@@ -23,7 +23,7 @@ tags:
 
 > {@{![[Karnaugh map](Karnaugh%20map.md) of _AB_ ∨ _AC_ ∨ _BC_.](../../archives/Wikimedia%20Commons/Karnaugh%20map%20KV%20Race%20Hazard%2010.svg)}@}
 >
-> {@{[Karnaugh map](Karnaugh%20map.md) of _AB_ ∨ _AC_ ∨ _BC_}@}. {@{Omitting the red rectangle does not change the covered area}@}. <!--SR:!2025-10-26,176,310!2026-01-28,265,330!2026-01-27,264,330-->
+> {@{[Karnaugh map](Karnaugh%20map.md) of _AB_ ∨ _AC_ ∨ _BC_}@}. {@{Omitting the red rectangle does not change the covered area}@}. <!--SR:!2027-11-19,754,330!2026-01-28,265,330!2026-01-27,264,330-->
 
 In {@{[Boolean algebra](Boolean%20algebra%20(logic).md)}@}, {@{the __consensus theorem__ or __rule of consensus__}@}<sup>[\[1\]](#^ref-1)</sup> is {@{the identity: $$xy\vee {\bar {x} }z\vee yz=xy\vee {\bar {x} }z$$}@} {@{The __consensus__ or __resolvent__ of the terms $xy$ and ${\bar {x} }z$}@} is {@{$yz$}@}. It is {@{the conjunction of all the unique literals of the terms, excluding the literal that appears unnegated in one term and negated in the other}@}. If {@{$y$ includes a term that is negated in $z$ \(or vice versa\) (annotation: e.g. $y = ab$, $z = \bar a b$, then $a$ is the term)}@}, {@{the consensus term $yz$ is false}@}; in other words, {@{there is no consensus term}@}. <!--SR:!2026-01-14,253,330!2026-02-23,285,330!2025-10-27,177,310!2026-01-12,251,330!2026-02-28,290,330!2027-07-30,679,330!2026-01-17,256,330!2026-01-15,254,330!2026-01-06,248,330-->
 

@@ -29,7 +29,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2028-01-04,947,314!2030-11-21,1908,400-->
 - description ::@:: suspension bridge in Kobe, Japan <!--SR:!2028-04-20,1132,367!2029-07-06,1496,395-->
-- image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2028-11-30,1310,380!2025-10-26,436,400-->
+- image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2028-11-30,1310,380!2030-08-05,1744,400-->
 - length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2028-09-24,1187,372-->
 
 ## Beijing National Stadium
@@ -45,7 +45,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2029-05-24,1384,327!2026-03-07,555,397-->
-- height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2030-02-12,1672,385-->
+- height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2026-03-22,147,200!2030-02-12,1672,385-->
 - image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2031-08-18,2124,400!2026-01-10,498,400-->
 - shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2029-03-17,1417,392-->
 

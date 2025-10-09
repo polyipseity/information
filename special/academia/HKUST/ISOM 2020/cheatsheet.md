@@ -66,7 +66,7 @@ The cheatsheet is provided during the final examination.
 
 - `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2029-03-16,1253,350!2029-05-15,1300,350-->
 - `+` ::@:: combine two lists / strings <!--SR:!2029-05-18,1302,350!2025-10-27,288,330-->
-- `in` ::@:: check existence in a list / string <!--SR:!2029-03-28,1263,350!2025-10-26,287,330-->
+- `in` ::@:: check existence in a list / string <!--SR:!2029-03-28,1263,350!2029-05-30,1312,350-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2029-04-27,1284,350-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2029-05-02,1288,350!2029-05-19,1303,350-->
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
@@ -82,7 +82,7 @@ The cheatsheet is provided during the final examination.
 
 - `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2029-01-26,1214,350-->
 - `!=` ::@:: is not equal? <!--SR:!2029-03-05,1244,350!2029-04-14,1273,350-->
-- `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2029-05-13,1298,350-->
+- `<` ::@:: is less than? <!--SR:!2029-05-24,1306,350!2029-05-13,1298,350-->
 - `>` ::@:: is greater than? <!--SR:!2029-03-07,1245,350!2029-05-17,1301,350-->
 - `<=` ::@:: is less than or equal to? <!--SR:!2029-04-19,1278,350!2029-05-06,1293,350-->
 - `>=` ::@:: is greater than or equal to? <!--SR:!2029-03-30,1264,350!2029-03-04,1243,350-->

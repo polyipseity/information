@@ -32,7 +32,7 @@ Every Vitali set $V$ is {@{uncountable}@}, and {@{$v-u$ is irrational for any $u
 >
 > {@{A possible enumeration of the positive rational numbers}@} <!--SR:!2025-12-25,299,349!2026-01-31,328,349-->
 
-A Vitali set is {@{non-measurable}@}. To show this, we {@{assume that $V$ is measurable and we derive a contradiction}@}. Let {@{$q_{1},q_{2},\dots$ be an enumeration of the rational numbers in $[-1,1]$}@} \(recall that {@{the rational numbers are [countable](countable%20set.md)}@}\). From {@{the construction of $V$}@}, we can show that {@{the translated sets $V_{k}=V+q_{k}=\{v+q_{k}:v\in V\}$, $k=1,2,\dots$ are pairwise disjoint}@}. \(If not, then {@{there exists distinct $v,u\in V$ and $k,\ell \in \mathbb {N}$}@} such that {@{$v+q_{k}=u+q_{\ell }\implies v-u=q_{\ell }-q_{k}\in \mathbb {Q}$, a contradiction}@}.\) <!--SR:!2025-10-26,247,330!2027-04-10,649,330!2028-11-15,1118,350!2025-11-01,253,330!2028-10-30,1104,350!2026-07-17,427,310!2025-10-27,248,330!2026-09-07,465,310-->
+A Vitali set is {@{non-measurable}@}. To show this, we {@{assume that $V$ is measurable and we derive a contradiction}@}. Let {@{$q_{1},q_{2},\dots$ be an enumeration of the rational numbers in $[-1,1]$}@} \(recall that {@{the rational numbers are [countable](countable%20set.md)}@}\). From {@{the construction of $V$}@}, we can show that {@{the translated sets $V_{k}=V+q_{k}=\{v+q_{k}:v\in V\}$, $k=1,2,\dots$ are pairwise disjoint}@}. \(If not, then {@{there exists distinct $v,u\in V$ and $k,\ell \in \mathbb {N}$}@} such that {@{$v+q_{k}=u+q_{\ell }\implies v-u=q_{\ell }-q_{k}\in \mathbb {Q}$, a contradiction}@}.\) <!--SR:!2028-11-28,1129,350!2027-04-10,649,330!2028-11-15,1118,350!2025-11-01,253,330!2028-10-30,1104,350!2026-07-17,427,310!2025-10-27,248,330!2026-09-07,465,310-->
 
 Next, note that {@{$$[0,1]\subseteq \bigcup _{k}V_{k}\subseteq [-1,2].$$}@} To {@{see the first inclusion}@}, consider {@{any real number $r$ in $[0,1]$}@} and let $v$ be {@{the representative in $V$ for the equivalence class $[r]$}@}; then {@{$r-v=q_{i}$ for some rational number $q_{i}$ in $[-1,1]$}@} which {@{implies that $r$ is in $V_{i}$}@}. <!--SR:!2025-11-30,276,330!2028-11-20,1122,350!2025-11-02,254,330!2026-02-14,339,349!2028-05-17,961,349!2025-10-29,250,330-->
 
@@ -56,7 +56,7 @@ In {@{1980, [Saharon Shelah](Saharon%20Shelah.md)}@} proved that {@{it is not po
 
 - [Banach–Tarski paradox](Banach–Tarski%20paradox.md) ::@:: – Geometric theorem <!--SR:!2026-02-28,351,349!2026-01-04,307,349-->
 - [Carathéodory's criterion](Carathéodory's%20criterion.md) ::@:: – necessary and sufficient condition for a measurable set <!--SR:!2027-04-30,654,329!2028-05-26,979,349-->
-- [Non-measurable set](non-measurable%20set.md) ::@:: – Set which cannot be assigned a meaningful "volume" <!--SR:!2025-10-26,247,330!2025-11-20,267,330-->
+- [Non-measurable set](non-measurable%20set.md) ::@:: – Set which cannot be assigned a meaningful "volume" <!--SR:!2028-11-29,1130,350!2025-11-20,267,330-->
 - [Outer measure](outer%20measure.md) ::@:: – Mathematical function <!--SR:!2026-02-19,343,349!2026-01-08,311,349-->
 - [Infinite parity function](parity%20function.md#infinite%20version) ::@:: – Boolean function whose value is 1 if the input vector has an odd number of ones <!--SR:!2026-01-26,324,349!2028-11-06,1110,350-->
 
