@@ -26,6 +26,10 @@ tags:
 - [quiz 5](quiz%205.md)
 - [quiz 6](quiz%206.md)
 - [quiz 7](quiz%207.md)
+- [quiz 8](quiz%208.md)
+- [quiz 9](quiz%209.md)
+- [quiz 10](quiz%2010.md)
+- [quiz 11](quiz%2011.md)
 
 ## week 1 lecture
 
@@ -180,3 +184,13 @@ tags:
 ## week 4 lecture
 
 \(none\)
+
+## week 5 pre-lecture
+
+## week 5 lecture
+
+\(none\)
+
+## week 6 pre-lecture
+
+## week 6 lecture

@@ -102,7 +102,7 @@ The content is in teaching order.
   - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management
   - COMP 3111H / rules
   - COMP 3111H / project ::2:: specification \(from system requirements\) → implementation and testing
-- [§ week 1 pre-lecture](#week%201%20pre%20lecture)
+- [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [questions § week 1 lecture](questions/index.md#week%201%20lecture)
 
 ## week 1 lab
@@ -185,7 +185,7 @@ The content is in teaching order.
 
 - datetime: 2025-09-10T12:30:00+08:00/2025-09-10T14:20:00+08:00, PT1H50M
 - topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
-- [§ week 2 pre-lecture](#week%202%20pre%20lecture)
+- [§ week 2 pre-lecture](#week%202%20pre-lecture)
 - [questions § week 2 lecture](questions/index.md#week%202%20lecture)
 
 ## week 2 lab
@@ -383,7 +383,7 @@ The content is in teaching order.
 
 - datetime: 2025-09-17T12:30:00+08:00/2025-09-17T14:20:00+08:00, PT1H50M
 - topic: software development; project risks; project planning; software development process; agile; unified process
-- [§ week 3 pre-lecture](#week%203%20pre%20lecture)
+- [§ week 3 pre-lecture](#week%203%20pre-lecture)
 - [questions § week 3 lecture](questions/index.md#week%203%20lecture)
 
 ## week 3 lab
@@ -479,7 +479,7 @@ The content is in teaching order.
 
 - datetime: 2025-09-24T12:30:00+08:00/2025-09-24T14:20:00+08:00, PT1H50M
 - status: canceled
-- [§ week 4 pre-lecture](#week%204%20pre%20lecture)
+- [§ week 4 pre-lecture](#week%204%20pre-lecture)
 - [questions § week 4 lecture](questions/index.md#week%204%20lecture)
 
 ---
@@ -505,8 +505,62 @@ The content is in teaching order.
 - datetime: 2025-09-25T18:00:00+08:00/2025-09-25T19:50:00+08:00, PT1H50M
 - topic:
 - COMP 3111H
-  - COMP 3111H / lab 3
-- assignment: [lab 3](assignments/lab%203/index.md)
+  - COMP 3111H / lab 3 ::@:: Lab 3 focuses on creating JavaFX UIs using Scene Builder and integrating them into an IntelliJ Maven project.
+    - COMP 3111H / lab 3 / objectives ::@:: Build a simple UI, link it to Java code, use JDK 21, IntelliJ 2022+, and Scene Builder 19+.
+    - COMP 3111H / lab 3 / tools ::@:: Install _Java SE Development Kit_ 21 for the compiler and runtime. Use _IntelliJ IDEA_ version 2022 or newer as the IDE. Download and install _Scene Builder_ 19+ (recommended 22.0.0 for Java 17+).
+    - COMP 3111H / lab 3 / JavaFX ::@:: A framework built on Java that supplies libraries for building graphical user interfaces (GUIs). It provides standard controls—buttons, menus, text fields—and supports custom components.
+    - COMP 3111H / lab 3 / scene builder ::@:: Visual design tool where you drag and drop _JavaFX_ UI elements onto a canvas. It generates an _.fxml_ file that describes the layout in XML; JavaFX reads this at runtime to construct the interface. <p> Many apps encode GUIs in markup (XML, HTML); writing them by hand can be error‑prone and tedious. Scene Builder visualises the structure, making it easier to understand and modify complex layouts quickly.
+      - COMP 3111H / lab 3 / scene builder / drag-and-drop ::@:: Select a component from the library panel. Drag it onto the design surface; drop where you want it positioned. The tool automatically creates the corresponding XML tags in the _.fxml_ file.
+    - COMP 3111H / lab 3 / linking Java and JavaFX ::@:: Design your UI in Scene Builder and export the _.fxml_ file to `src/main/resources`. In the controller class (e.g., _HelloController_), annotate fields with `@FXML` and implement event handlers. Link the controller in the FXML header: `fx:controller="your.package.HelloController"`.
+    - COMP 3111H / lab 3 / running ::@:: Use IntelliJ's "Run" configuration for a JavaFX Application. Verify that clicking the button invokes the controller method and updates the UI as expected. If problems occur, check the console output for stack traces and confirm that the `fx:controller` path matches the package of your controller class.
+<!-- - assignment: [lab 3](assignments/lab%203/index.md) -->
+
+## week 5 pre-lecture
+
+- topic:
+- quiz: [quiz 8](questions/quiz%208.md)
+- quiz: [quiz 9](questions/quiz%209.md)
+- [questions § week 5 pre-lecture](questions/index.md#week%205%20pre-lecture)
+
+## week 5 lecture
+
+- datetime: 2025-10-01T12:30:00+08:00/2025-10-01T14:20:00+08:00, PT1H50M
+- status: unscheduled; public holiday: National Day
+- [§ week 5 pre-lecture](#week%205%20pre-lecture)
+- [questions § week 5 lecture](questions/index.md#week%205%20lecture)
+
+## week 5 lab
+
+- datetime: 2025-10-02T18:00:00+08:00/2025-10-02T19:50:00+08:00, PT1H50M
+- topic:
+- COMP 3111H
+  - COMP 3111H / lab 4 ::@:: UML data modeling (class & use-case diagrams)
+    - COMP 3111H / lab 4 / objectives ::@:: - Gain hands‑on experience drawing _UML Class Diagrams_ and _Use‑Case Diagrams_. <br/> - Learn to model relationships, cardinalities, inheritance, and associations accurately. <br/> - Practice using an online diagramming tool (draw.io) integrated with Google Drive for collaborative work.
+    - COMP 3111H / lab 4 / draw.io ::@:: Web‑based application that supports flowcharts, ER diagrams, UML diagrams, etc. Fully integrated with Google Workspace; diagrams can be auto‑saved to a Google Drive folder or Gmail account. Offers editing options for color, line type, and connector points directly on each shape.
+    - COMP 3111H / lab 4 / generalization ::@:: It is possible to model _multiple inheritance_. For example, in a UNO game, the following cards may be modeled like below: <p> - `PlusTwoCard` ⟶ `SkipCard` <br/> - `PlusFourWildCard` ⟶ `SkipCard` and `WildCard`.
+<!-- - assignment: [lab 4](assignments/lab%204/index.md) -->
+
+## week 6 pre-lecture
+
+- topic:
+- quiz: [quiz 10](questions/quiz%2010.md)
+- quiz: [quiz 11](questions/quiz%2011.md)
+- [questions § week 6 pre-lecture](questions/index.md#week%206%20pre-lecture)
+
+## week 6 lecture
+
+- datetime: 2025-10-08T12:30:00+08:00/2025-10-08T14:20:00+08:00, PT1H50M
+- topic:
+- [§ week 6 pre-lecture](#week%206%20pre-lecture)
+- [questions § week 6 lecture](questions/index.md#week%206%20lecture)
+
+## week 6 lab
+
+- datetime: 2025-10-09T18:00:00+08:00/2025-10-09T19:50:00+08:00, PT1H50M
+- topic:
+- COMP 3111H
+  - COMP 3111H / lab 5
+- assignment: [lab 5](assignments/lab%205/index.md)
 
 ## aftermath
 

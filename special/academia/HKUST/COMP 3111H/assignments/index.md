@@ -18,4 +18,6 @@ tags:
 
 - [lab 1](lab%201/index.md)
 - [lab 2](lab%202/index.md)
-- [lab 3](lab%203/index.md)
+<!-- - [lab 3](lab%203/index.md) -->
+<!-- - [lab 4](lab%204/index.md) -->
+- [lab 5](lab%205/index.md)
