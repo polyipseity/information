@@ -16,7 +16,7 @@ tags:
 
 ## binary channel
 
-{@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where  
+{@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where
 
 - $A>0$ ::@:: is the pulse amplitude, and
 - $p(t)$ ::@:: is a _shaping pulse_ of unit energy (e.g., a rectangular or raised‑cosine pulse). Here, we assume it is simply a unit rectangular pulse lasting for symbol time $T$.
@@ -35,7 +35,7 @@ Thus {@{the decision statistic $V$}@} conditioned on {@{the transmitted bit}@} i
 
 ## bit error rate
 
-In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}.  
+In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}.
 
 The following section develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions made about {@{the transmitted waveform, the receiver structure, the noise statistics}@} and finally the mathematical derivation of {@{the BER in terms of the Q‑function and signal energy}@}.
 
@@ -70,7 +70,7 @@ $$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$
 
 In {@{a binary antipodal system}@}, {@{the probability of error}@} is governed by {@{the tail probability of a Gaussian distribution}@}; hence it {@{decays exponentially with the ratio}@} {@{$\frac{2 A^2T}{N_0} = \frac{2 E_b}{N_0}$}@}. Because {@{the noise variance}@} scales {@{linearly with the symbol duration $T$}@}, {@{longer symbols}@} provide {@{more averaging and reduce $\sigma^2_{n_T}$}@}, improving {@{reliability}@}.
 
-Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}.  
+Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}.
 
 ## signal energy
 

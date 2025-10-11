@@ -310,7 +310,7 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 We see:
 
 - `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`.
-- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation).  
+- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation).
 - `ChildCovariant[+T]` ::@:: redeclares the same type parameter as _covariant_.
 - `ChildContravariant[-T]` ::@:: causes compilation error.
 
@@ -329,7 +329,7 @@ Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant pare
 > val q2: Parent[Any] = ChildCovariant[Int](1)
 > ```
 >
-> {@{All assignments}@} {@{compile}@}.  
+> {@{All assignments}@} {@{compile}@}.
 
 {@{All assignments}@} {@{compile}@}. Because {@{`Parent` is covariant}@}, {@{a `ChildInvariant[T]` or `ChildCovariant[T]`}@} can be treated as {@{a `Parent[U]` whenever `T <: U`}@}. {@{The variance of the _child_'s own type parameter}@} does not {@{affect this relationship}@}.
 
