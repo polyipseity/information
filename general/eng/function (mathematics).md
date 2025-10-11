@@ -355,7 +355,7 @@ If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ an
 - (annotation: idempotency, image of domain) ::@:: $$f(f^{-1}(f(A)))=f(A)$$ <!--SR:!2026-10-27,467,325!2026-02-23,293,330-->
 - (annotation: idempotency, pre-image of codomain) ::@:: $$f^{-1}(f(f^{-1}(C)))=f^{-1}(C)$$ <!--SR:!2026-07-03,399,367!2026-04-25,338,350-->
 
-{@{The preimage by _f_ of an element _y_ of the codomain}@} is sometimes called, in some contexts, {@{the [fiber](fiber%20(mathematics).md) of _y_ under __f__}@}. <!--SR:!2025-10-27,197,330!2026-04-16,329,350-->
+{@{The preimage by _f_ of an element _y_ of the codomain}@} is sometimes called, in some contexts, {@{the [fiber](fiber%20(mathematics).md) of _y_ under __f__}@}. <!--SR:!2028-04-14,900,350!2026-04-16,329,350-->
 
 {@{If a function _f_ has an inverse \(see below\)}@}, {@{this inverse is denoted $f^{-1}$}@}. In this case {@{$f^{-1}(C)$ may denote either the image by $f^{-1}$ or the preimage by _f_ of _C_}@}. This is {@{not a problem, as these sets are equal}@}. {@{The notation $f(A)$ and $f^{-1}(C)$}@} may be {@{ambiguous in the case of sets that contain some subsets as elements}@}, such as {@{$\{x,\{x\}\}$}@}. In this case, {@{some care may be needed}@}, for example, by {@{using square brackets $f[A],f^{-1}[C]$ for images and preimages of subsets}@} and {@{ordinary parentheses for images and preimages of elements}@}. <!--SR:!2026-06-28,400,365!2026-03-04,302,350!2026-05-05,348,350!2026-06-08,381,367!2026-05-09,352,350!2026-03-30,326,350!2026-07-05,401,367!2026-02-07,277,347!2026-02-23,293,330!2026-03-21,318,350-->
 

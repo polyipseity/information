@@ -87,7 +87,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Each association must have an unique name.}@} <!--SR:!2025-10-27,17,300-->
+> - solution: {@{No. Each association must have an unique name.}@} <!--SR:!2026-01-08,73,320-->
 
 ---
 
@@ -95,7 +95,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!2025-10-27,17,300-->
+> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!2026-01-09,74,320-->
 
 ---
 
@@ -111,7 +111,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!2025-10-27,17,300-->
+> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!2026-01-05,70,320-->
 
 ---
 
@@ -119,7 +119,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!2025-10-27,17,300-->
+> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!2026-01-03,68,320-->
 
 ---
 
@@ -127,7 +127,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!2025-10-27,17,300-->
+> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!2026-01-06,71,320-->
 
 ## week 3 pre-lecture
 

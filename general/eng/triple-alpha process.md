@@ -25,7 +25,7 @@ Nuclear fusion reaction of two helium-4 nuclei {@{produces [beryllium-8](berylli
 - 2nd step ::@:: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2025-11-13,99,150!2026-09-07,407,270-->
   - 2nd step / energy release ::@:: +7.367 MeV <!--SR:!2025-11-06,164,230!2026-01-08,313,250-->
 
-The net energy release of the process is {@{7.275 MeV}@}. <!--SR:!2025-10-27,285,270-->
+The net energy release of the process is {@{7.275 MeV}@}. <!--SR:!2028-10-06,1075,290-->
 
 As a side effect of the process, {@{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}@} when {@{the temperature rises above 2×10<sup>8</sup> K}@}, called {@{[_alpha capture_](alpha%20process.md)}@}: <!--SR:!2025-10-30,299,290!2026-08-02,503,330!2027-05-09,768,330-->
 

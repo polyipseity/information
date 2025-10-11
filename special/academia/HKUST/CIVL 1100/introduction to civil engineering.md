@@ -99,7 +99,7 @@ The content is in teaching order.
   - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2031-09-25,2207,417-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
+    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2030-10-18,1817,352!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
       - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2030-01-29,1589,315!2030-06-07,1790,394-->
       - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2028-01-27,1074,374-->
@@ -594,7 +594,7 @@ nuclear
 - agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2029-10-20,1582,392-->
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
-- ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2025-10-27,398,335-->
+- ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2030-11-13,1843,355-->
 - chemical→::@::←civil <!--SR:!2026-01-19,455,337!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
 - computer→::@::←electrical <!--SR:!2026-08-12,643,347!2026-04-16,450,315-->

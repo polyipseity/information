@@ -50,7 +50,7 @@ Traceback (most recent call last):
 OverflowError: Python integer 128 out of bounds for int8
 ```
 
-{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2026-01-17,347,350!2026-01-22,351,350!2026-01-09,340,350!2026-01-24,353,350!2026-01-23,352,350!2025-10-27,276,330!2029-03-31,1252,350-->
+{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2026-01-17,347,350!2026-01-22,351,350!2026-01-09,340,350!2026-01-24,353,350!2026-01-23,352,350!2029-04-05,1256,350!2029-03-31,1252,350-->
 
 ```Python
 >>> import numpy as np
@@ -64,7 +64,7 @@ unsigned c: [4294967293 4294967293 4294967293] uint32
 signed c: [-3 -3 -3] int64
 ```
 
-Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will assign {@{a new type that satisfies all of the array elements involved in the computation}@}, here {@{`uint32` and `int32`}@} can both be {@{represented in as `int64`}@}. <!--SR:!2025-11-07,285,330!2026-01-02,335,350!2025-11-14,292,330!2026-03-11,139,310!2025-10-14,5,365!2025-10-14,5,365-->
+Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will assign {@{a new type that satisfies all of the array elements involved in the computation}@}, here {@{`uint32` and `int32`}@} can both be {@{represented in as `int64`}@}. <!--SR:!2025-11-07,285,330!2026-01-02,335,350!2025-11-14,292,330!2026-03-11,139,310!2025-11-21,25,385!2025-11-21,25,385-->
 
 The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}. <!--SR:!2026-01-10,341,350!2025-11-08,286,330!2026-01-03,335,350-->
 
@@ -122,7 +122,7 @@ array([[1., 0., 0., 0., 0.],
        [0., 0., 1., 0., 0.]])
 ```
 
-{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can define either {@{a square 2D array with given values along the diagonal}@} _or_ {@{if given a 2D array returns a 1D array that is only the diagonal elements}@}. {@{The two array creation functions}@} can be helpful while {@{doing linear algebra}@}, as such: <!--SR:!2026-03-12,140,310!2029-03-22,1246,350!2025-10-14,5,365!2025-10-14,5,365!2025-10-14,5,365-->
+{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can define either {@{a square 2D array with given values along the diagonal}@} _or_ {@{if given a 2D array returns a 1D array that is only the diagonal elements}@}. {@{The two array creation functions}@} can be helpful while {@{doing linear algebra}@}, as such: <!--SR:!2026-03-12,140,310!2029-03-22,1246,350!2025-11-20,24,385!2025-11-22,26,385!2025-11-22,26,385-->
 
 ```Python
 >>> import numpy as np
@@ -314,7 +314,7 @@ array([[0., 0.],
 
 ## creating arrays from raw bytes through the use of strings or buffers
 
-There are {@{a variety of approaches one can use}@}. If the file has {@{a relatively simple format}@} then one can write {@{a simple I/O library}@} and use {@{the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly}@} \(mind {@{your byteorder though}@}!\). If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2029-03-23,1247,350!2029-02-28,1230,350!2026-03-13,140,310!2025-12-26,328,350!2025-12-30,332,350!2026-01-14,344,350!2025-12-19,321,350!2025-10-14,5,365!2025-10-14,5,365-->
+There are {@{a variety of approaches one can use}@}. If the file has {@{a relatively simple format}@} then one can write {@{a simple I/O library}@} and use {@{the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly}@} \(mind {@{your byteorder though}@}!\). If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2029-03-23,1247,350!2029-02-28,1230,350!2026-03-13,140,310!2025-12-26,328,350!2025-12-30,332,350!2026-01-14,344,350!2025-12-19,321,350!2025-11-20,24,385!2025-11-22,26,385-->
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 

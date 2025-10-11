@@ -783,7 +783,7 @@ The content is in teaching order.
   - [MIPS](MIPS.md)
     - [§ data instructions](MIPS.md#bitwise%20instructions): `mflo`, `mfhi`
   - MIPS architecture / multiplication ::@:: The product register is `$HI:$LO`. That is, `$HI` is its upper half bits and `$LO` is its lower half bits. <!--SR:!2025-12-21,156,441!2026-01-03,164,441-->
-    - MIPS architecture / multiplication / overflow ::@:: If you consider the entire product register `$HI:$LO` together, multiplication never overflows. However, if you force yourself to consider one register only \(i.e. if `$LO` can store the product\), then an overflow occurs if `$HI` bits are not all 0 for unsigned multiplication or `$HI` bits are not all the sign bit of `$LO` for signed multiplication. \(__this course__: Consider one register only.\) <!--SR:!2025-12-31,162,442!2025-10-27,106,422-->
+    - MIPS architecture / multiplication / overflow ::@:: If you consider the entire product register `$HI:$LO` together, multiplication never overflows. However, if you force yourself to consider one register only \(i.e. if `$LO` can store the product\), then an overflow occurs if `$HI` bits are not all 0 for unsigned multiplication or `$HI` bits are not all the sign bit of `$LO` for signed multiplication. \(__this course__: Consider one register only.\) <!--SR:!2025-12-31,162,442!2027-06-28,609,442-->
 - MIPS architecture
   - [MIPS](MIPS.md)
     - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `srl`, `sra`

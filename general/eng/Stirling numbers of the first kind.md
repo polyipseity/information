@@ -23,7 +23,7 @@ In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics
 
 {@{Signed Stirling numbers of the first kind}@} are {@{the coefficients $s(n,k)$ in the expansion of the [falling factorial](falling%20and%20rising%20factorials.md) $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1)$$}@} into {@{powers of the variable $x$: $$(x)_{n}=\sum _{k=0}^{n}s(n,k)x^{k},$$}@} <!--SR:!2025-11-26,306,330!2026-11-18,548,310!2028-04-19,957,330-->
 
-For example, $(x)_{3}=x(x-1)(x-2)=x^{3}-3x^{2}+2x$, leading to {@{the values $s(3,3)=1$, $s(3,2)=-3$, and $s(3,1)=2$}@}. <!--SR:!2025-10-27,280,330-->
+For example, $(x)_{3}=x(x-1)(x-2)=x^{3}-3x^{2}+2x$, leading to {@{the values $s(3,3)=1$, $s(3,2)=-3$, and $s(3,1)=2$}@}. <!--SR:!2029-04-22,1273,350-->
 
 {@{The unsigned Stirling numbers}@} may also be defined {@{algebraically as the coefficients of the [rising factorial](falling%20and%20rising%20factorials.md): $$x^{\overline {n} }=x(x+1)\cdots (x+n-1)=\sum _{k=0}^{n}\left[{n \atop k}\right]x^{k}$$}@}. <!--SR:!2025-12-08,316,330!2025-12-05,313,330-->
 
@@ -83,7 +83,7 @@ Below is {@{a [triangular array](triangular%20array.md) of unsigned values for t
 
 ### simple identities
 
-Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \atop 0}\right]=\delta _{n}$$}@} and {@{$\left[{0 \atop k}\right]=0$ if $k>0$, or more generally $\left[{n \atop k}\right]=0$ if _k_ > _n_}@}. Also {@{$$\left[{n \atop 1}\right]=(n-1)!,\quad \left[{n \atop n}\right]=1,\quad \left[{n \atop n-1}\right]={n \choose 2},$$}@} and {@{$$\left[{n \atop n-2}\right]={\frac {3n-1}{4} }{n \choose 3}\quad {\text{ and } }\quad \left[{n \atop n-3}\right]={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2025-10-27,280,330!2025-12-01,309,330!2027-10-18,829,330!2025-11-08,292,330!2027-02-05,537,270-->
+Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \atop 0}\right]=\delta _{n}$$}@} and {@{$\left[{0 \atop k}\right]=0$ if $k>0$, or more generally $\left[{n \atop k}\right]=0$ if _k_ > _n_}@}. Also {@{$$\left[{n \atop 1}\right]=(n-1)!,\quad \left[{n \atop n}\right]=1,\quad \left[{n \atop n-1}\right]={n \choose 2},$$}@} and {@{$$\left[{n \atop n-2}\right]={\frac {3n-1}{4} }{n \choose 3}\quad {\text{ and } }\quad \left[{n \atop n-3}\right]={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2029-04-23,1274,350!2025-12-01,309,330!2027-10-18,829,330!2025-11-08,292,330!2027-02-05,537,270-->
 
 {@{Similar relationships involving the Stirling numbers}@} hold for {@{the [Bernoulli polynomials](Bernoulli%20polynomials.md)}@}. {@{Many relations for the Stirling numbers}@} shadow {@{similar relations on the [binomial coefficients](binomial%20coefficient.md)}@}. {@{The study of these 'shadow relationships'}@} is termed {@{[umbral calculus](umbral%20calculus.md) and culminates in the theory of [Sheffer sequences](Sheffer%20sequence.md)}@}. {@{Generalizations of the [Stirling numbers](Stirling%20number.md) of both kinds to arbitrary complex-valued inputs}@} may be {@{extended through the relations of these triangles to the [Stirling convolution polynomials](Stirling%20polynomials.md#Stirling%20convolution%20polynomials)}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-11-16,298,330!2027-11-13,849,330!2025-12-03,312,330!2025-11-27,307,330!2027-10-22,833,330!2028-02-18,910,330!2028-02-14,909,330!2026-11-26,556,310-->
 
@@ -101,7 +101,7 @@ Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \
 > - choose {@{the five elements that go into the three-cycle and the two-cycle}@}, choose {@{the elements of the three-cycle}@} and take into account that {@{three elements generate two three-cycles}@}: {@{$${n \choose 5}{5 \choose 3}\times 2$$}@}
 > - choose {@{the four elements of the four-cycle}@} and take into account that {@{four elements generate six four-cycles}@}: {@{$${n \choose 4}\times 6.$$}@}
 >
-> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2029-04-17,1270,350!2027-11-04,841,330!2028-02-05,901,330!2025-11-01,286,330!2025-11-26,306,330!2028-01-25,892,330!2025-11-17,256,270!2025-10-27,88,368!2026-11-11,393,388!2026-11-21,402,388!2027-01-09,441,388!2025-10-28,89,368!2026-11-22,403,388-->
+> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2029-04-17,1270,350!2027-11-04,841,330!2028-02-05,901,330!2025-11-01,286,330!2025-11-26,306,330!2028-01-25,892,330!2025-11-17,256,270!2027-01-18,448,388!2026-11-11,393,388!2026-11-21,402,388!2027-01-09,441,388!2025-10-28,89,368!2026-11-22,403,388-->
 
 Note that all the combinatorial proofs above {@{use either binomials or multinomials of $n$}@}. <!--SR:!2026-12-09,564,310-->
 

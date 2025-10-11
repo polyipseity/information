@@ -100,7 +100,7 @@ With {@{the foresight of knowing that there are uncountable sets}@}, we can wond
 
 > {@{![Enumeration for countable number of countable sets](../../archives/Wikimedia%20Commons/Countablepath.svg)}@}
 >
-> {@{Enumeration for countable number of countable sets}@} <!--SR:!2025-12-29,286,330!2025-10-27,236,330-->
+> {@{Enumeration for countable number of countable sets}@} <!--SR:!2025-12-29,286,330!2028-10-07,1076,350-->
 
 For example, given {@{countable sets ${\textbf {a} },{\textbf {b} },{\textbf {c} },\dots$}@}, we first {@{assign each element of each set a tuple}@}, then we {@{assign each tuple an index using a variant of the triangular enumeration we saw above}@}: {@{$${\begin{array}{c|c|c }{\text{Index} }&{\text{Tuple} }&{\text{Element} }\\\hline 0&(0,0)&{\textbf {a} }_{0}\\1&(0,1)&{\textbf {a} }_{1}\\2&(1,0)&{\textbf {b} }_{0}\\3&(0,2)&{\textbf {a} }_{2}\\4&(1,1)&{\textbf {b} }_{1}\\5&(2,0)&{\textbf {c} }_{0}\\6&(0,3)&{\textbf {a} }_{3}\\7&(1,2)&{\textbf {b} }_{2}\\8&(2,1)&{\textbf {c} }_{1}\\9&(3,0)&{\textbf {d} }_{0}\\10&(0,4)&{\textbf {a} }_{4}\\\vdots &&\end{array} }$$}@} We need {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md) to index _all_ the sets ${\textbf {a} },{\textbf {b} },{\textbf {c} },\dots$ simultaneously}@}. <!--SR:!2025-12-11,272,330!2027-07-25,722,330!2025-11-07,246,330!2026-10-29,505,310!2026-06-21,401,310-->
 

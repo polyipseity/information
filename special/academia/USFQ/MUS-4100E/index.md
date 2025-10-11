@@ -291,7 +291,7 @@ The content is in teaching order.
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md)
 - [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing <!--SR:!2026-05-02,333,372!2025-12-22,242,372-->
 - [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie. <!--SR:!2026-05-15,346,372!2027-11-17,788,372-->
-  - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2025-10-27,180,352!2026-01-27,238,352-->
+  - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2028-03-15,870,372!2026-01-27,238,352-->
   - Count Basie / works ::@:: "Wind Machine" — Count Basie <!--SR:!2027-03-14,609,412!2026-10-10,475,392-->
 - [Cotton Club](../../../../general/Cotton%20Club.md) ::@:: It was a 20th-century nightclub in New York City, originally in Harlem, NYC. They were white only, but had black performers, playing "_jungle music_". They also had a national radio show. <!--SR:!2027-06-01,676,412!2026-05-10,341,372-->
 - [Duke Ellington](../../../../general/Duke%20Ellington.md) (1899–1974) ::@:: He was a bandleader, composer, and pianist, leading the Duke Ellington Orchestra. He developed his style in the Cotton Club, which was called "_jungle music_" early on. He composed many pieces that have become jazz _standards_. <!--SR:!2027-06-18,685,412!2026-10-01,466,392-->
@@ -346,7 +346,7 @@ The content is in teaching order.
   - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2027-04-28,644,416!2027-07-01,698,416-->
   - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2027-06-24,691,416!2026-09-30,465,396-->
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2026-11-16,481,356!2026-05-18,349,376-->
-  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli <!--SR:!2025-10-27,193,376!2027-06-20,687,416-->
+  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli <!--SR:!2028-07-10,987,396!2027-06-20,687,416-->
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2026-05-21,352,376!2026-11-28,493,356-->
   - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." — Frank Vignola, jazz guitarist <!--SR:!2026-06-20,382,396!2027-05-22,666,416-->
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2027-05-03,649,416!2027-05-08,654,416-->
@@ -493,7 +493,7 @@ The content is in teaching order.
   - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2025-10-28,147,422!2025-10-31,150,422-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2028-02-10,837,442!2027-02-28,538,422-->
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2026-09-04,388,402!2027-03-01,559,422-->
-  - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke <!--SR:!2028-01-11,811,442!2025-10-27,146,422-->
+  - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke <!--SR:!2028-01-11,811,442!2028-02-14,840,442-->
 - [Kenny Clarke](../../../../general/Kenny%20Clarke.md) \(1914–1985\) ::@:: American jazz drummer and bandleader; drummer at Minton's Playhouse <!--SR:!2027-11-28,774,442!2025-11-01,151,422-->
   - Kenny Clarke / effects ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles. <!--SR:!2025-10-31,150,422!2028-02-11,838,442-->
 - assignment: \(none\)
@@ -509,7 +509,7 @@ The content is in teaching order.
   - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow <!--SR:!2025-10-30,149,422!2028-01-21,820,442-->
     - cool jazz / characteristics / vs. bebop ::@:: Essentially opposite of bebop: classical, fast, improvised, relaxed, remix, monophonic; simply invert the characteristics listed above <!--SR:!2028-01-27,825,442!2025-11-01,151,422-->
 - [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2026-09-08,391,402!2027-11-30,775,442-->
-  - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis <!--SR:!2025-10-27,146,422!2025-10-27,146,422-->
+  - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis <!--SR:!2028-02-20,846,442!2028-02-15,841,442-->
 - [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool". <!--SR:!2028-02-08,835,442!2027-03-05,563,422-->
   - Chet Baker / old age ::@:: When he was in his 50s, he was old and ugly after drugs. Later, he was found dead in Amsterdam after apparently falling out of a window. <!--SR:!2028-01-26,824,442!2025-11-01,151,422-->
   - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2026-08-14,387,402!2027-05-09,570,422-->
@@ -534,7 +534,7 @@ The content is in teaching order.
 - [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. <!--SR:!2025-11-01,151,422!2028-01-15,815,442-->
 - [Joao Gilberto](../../../../general/Joao%20Gilberto.md) \(1913–2019\) ::@:: He was a Brazilian guitarist, singer, and composer who was a pioneer of the musical genre of bossa nova in the late 1950s. Around the world, he was often called the "father of bossa nova". <!--SR:!2028-02-02,830,442!2025-10-29,148,422-->
   - Joao Gilberto / works ::@:: "Desafinado" \(1959\) — Joao Gilberto <!--SR:!2027-02-24,554,422!2028-01-28,826,442-->
-- [Sérgio Mendes](../../../../general/Sérgio%20Mendes.md) \(1941–2024\) ::@:: He continued with the bossa nova and samba movement, and mixed Brazilian music with American music. <p> His career took off with worldwide hits by his band Brasil '66. <!--SR:!2025-10-27,146,422!2027-11-24,770,442-->
+- [Sérgio Mendes](../../../../general/Sérgio%20Mendes.md) \(1941–2024\) ::@:: He continued with the bossa nova and samba movement, and mixed Brazilian music with American music. <p> His career took off with worldwide hits by his band Brasil '66. <!--SR:!2028-02-16,842,442!2027-11-24,770,442-->
   - Sérgio Mendes / works ::@:: "Mas que nada" \(1963\) — Brasil '66 <!--SR:!2028-02-12,839,442!2027-12-05,780,442-->
 - assignment: \(none\)
 
@@ -556,10 +556,10 @@ The content is in teaching order.
 - hard bop
   - hard bop / musicians ::@:: Art Blakely, Clifford Brown, Miles Davis, Lee Morgan, Max Roach, Horace Silver <!--SR:!2028-02-09,836,442!2027-12-13,787,442-->
 - [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-10-31,150,422!2027-12-12,786,442-->
-- [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers. <!--SR:!2025-10-27,146,422!2028-01-09,810,442-->
+- [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers. <!--SR:!2028-02-18,844,442!2028-01-09,810,442-->
   - Art Blakely / effects ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians. <!--SR:!2028-01-25,823,442!2025-10-28,147,422-->
 - [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers. <!--SR:!2028-01-21,820,442!2027-05-05,567,422-->
-  - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver <!--SR:!2028-01-29,827,442!2025-10-27,146,422-->
+  - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver <!--SR:!2028-01-29,827,442!2028-02-19,845,442-->
 - [Clifford Brown](../../../../general/Clifford%20Brown.md) \(1930–1956\) ::@:: He was an American jazz trumpeter, pianist and composer. He died at the age of 25 in a car crash with his pianist Richie Powell. <p> He formed a band with Max Roach, a drummer, which formed the typical hard bop sound. <!--SR:!2025-10-29,148,422!2027-03-04,562,422-->
   - Clifford Brown / works ::@:: "Sandu" \(1955\) — Clifford Brown & Max Roach <!--SR:!2025-10-31,150,422!2025-10-28,147,422-->
 - [Lee Morgan](../../../../general/Lee%20Morgan.md) \(1938–1972\) ::@:: He was an American jazz trumpeter and composer. <p> He was part of the Jazz Messengers. He was known for his hit "Sidewinder". He was shot dead by his wife at 33 while at the gig. <!--SR:!2027-12-14,788,442!2027-02-27,557,422-->
@@ -571,7 +571,7 @@ The content is in teaching order.
   - local: 2025-04-02T21:30:00+08:00/2025-04-02T22:50:00+08:00, PT1H20M
 - [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2028-01-12,812,442!2028-01-24,823,442-->
   - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2028-01-22,821,442!2025-10-28,147,422-->
-  - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2027-12-01,776,442!2025-10-27,146,422-->
+  - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2027-12-01,776,442!2028-02-19,845,442-->
   - head / typical arrangement ::@:: jazz: head in → solo → head out <!--SR:!2027-12-22,794,442!2028-01-27,825,442-->
 - [chorus](../../../../general/refrain.md) ::@:: the line or lines that are repeated in poetry or in music <!--SR:!2027-12-18,791,442!2027-12-08,783,442-->
 - trading ::@:: instrumentalists take turns playing 2, 4, 8, or 16 measures of improvisation <!--SR:!2028-01-30,828,442!2027-12-21,794,442-->
@@ -589,7 +589,7 @@ The content is in teaching order.
     - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Boplicity" \(1949\) — Miles Davis <!--SR:!2027-02-03,538,422!2027-05-12,572,422-->
   - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2028-01-04,806,442!2027-02-19,549,422-->
     - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2028-01-09,809,442!2025-10-31,150,422-->
-- [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2027-05-21,579,422!2025-10-27,146,422-->
+- [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2027-05-21,579,422!2028-02-20,846,442-->
   - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums. <!--SR:!2026-11-14,425,402!2027-03-07,543,422-->
 - [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis. <!--SR:!2027-02-28,558,422!2027-03-15,550,422-->
   - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis <!--SR:!2027-01-26,532,422!2025-10-31,150,422-->
@@ -616,10 +616,10 @@ The content is in teaching order.
 - Miles Davis
   - Miles Davis / genres
     - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then Jimmy died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis <!--SR:!2027-03-03,561,422!2027-05-13,573,422-->
-  - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured. <!--SR:!2025-10-27,146,422!2025-10-29,148,422-->
+  - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured. <!--SR:!2028-02-17,843,442!2025-10-29,148,422-->
   - Miles Davis / 1980s ::@:: The instructor had not idea how to quantify the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis <!--SR:!2025-10-31,150,422!2027-02-25,555,422-->
   - Miles Davis / death ::@:: He died in 1991 from pneumonia. <!--SR:!2027-12-16,789,442!2025-10-29,148,422-->
-  - Miles Davis / quotes ::@:: His quotes involve innovating \(playing what is not there yet\), not fearing mistakes, playing like yourself, etc. <!--SR:!2027-12-07,782,442!2025-10-27,146,422-->
+  - Miles Davis / quotes ::@:: His quotes involve innovating \(playing what is not there yet\), not fearing mistakes, playing like yourself, etc. <!--SR:!2027-12-07,782,442!2028-02-14,840,442-->
 - assignment: watch "How Coltrane Broke "My Favorite Things" (feat. Adam Neely)" \(<https://youtu.be/Bg1RGmyl-_A>\)
 
 ## week 13 lecture 2

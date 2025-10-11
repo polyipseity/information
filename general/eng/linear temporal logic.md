@@ -53,7 +53,7 @@ The additional logical operators are defined as follows:
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2025-12-12,272,343-->
 
 - __r__<!-- markdown separator -->elease ::@:: ψ __R__ φ ≡ ¬\(¬ψ __U__ ¬φ\) \(φ remains true until and including once ψ becomes true. If ψ never becomes true, φ must remain true forever. ψ __r__<!-- markdown separator -->eleases φ.\) <!--SR:!2026-05-10,388,310!2025-11-17,268,337-->
-- __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2026-11-06,525,317!2025-10-27,250,337-->
+- __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2026-11-06,525,317!2029-01-05,1166,357-->
 - __g__<!-- markdown separator -->lobally ::@:: __G__ ψ ≡ __false__ __R__ ψ ≡ ¬<!-- markdown separator -->__F__ ¬ψ \(ψ always remains true\) <!--SR:!2025-12-26,301,350!2025-11-12,264,337-->
 
 ### weak until and strong release

@@ -13,7 +13,7 @@ How to control the output?
 
 ## print
 
-Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, pass {@{`end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed}@}. Since {@{`end` is by default a newline `\n`}@}, {@{a newline is always printed at the end}@} when {@{you only do `print(value)`}@}. <!--SR:!2025-12-25,61,310!2025-12-29,64,310!2025-12-29,64,310!2025-12-26,62,310!2025-10-27,17,301!2025-10-27,17,301!2025-10-27,17,301-->
+Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, pass {@{`end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed}@}. Since {@{`end` is by default a newline `\n`}@}, {@{a newline is always printed at the end}@} when {@{you only do `print(value)`}@}. <!--SR:!2025-12-25,61,310!2025-12-29,64,310!2025-12-29,64,310!2025-12-26,62,310!2026-01-04,69,321!2026-01-07,72,321!2026-01-05,70,321-->
 
 ## clear
 

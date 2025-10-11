@@ -65,12 +65,12 @@ The cheatsheet is provided during the final examination.
 ## list / string operations
 
 - `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2029-03-16,1253,350!2029-05-15,1300,350-->
-- `+` ::@:: combine two lists / strings <!--SR:!2029-05-18,1302,350!2025-10-27,288,330-->
+- `+` ::@:: combine two lists / strings <!--SR:!2029-05-18,1302,350!2029-06-04,1316,350-->
 - `in` ::@:: check existence in a list / string <!--SR:!2029-03-28,1263,350!2029-05-30,1312,350-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2029-04-27,1284,350-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2029-05-02,1288,350!2029-05-19,1303,350-->
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
-- `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
+- `list.count()` ::@:: count the occurrence of the input item <!--SR:!2029-06-03,1315,350!2025-10-28,289,330-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2029-03-10,1247,350!2025-10-29,290,330-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->

@@ -37,7 +37,7 @@ SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude s
 
 ### pitch detection \(SonicVisualiser\)
 
-SonicVisualiser supports {@{many pitch detection algorithms}@}. <!--SR:!2025-10-27,96,375-->
+SonicVisualiser supports {@{many pitch detection algorithms}@}. <!--SR:!2027-03-07,496,395-->
 
 ### plugins \(SonicVisualiser\)
 

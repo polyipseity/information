@@ -65,7 +65,7 @@ __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is 
 - left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2027-10-13,751,292!2027-05-13,618,312-->
 - left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2027-03-25,583,312!2026-05-31,335,252-->
 
-__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2025-10-27,213,272!2025-11-23,173,272-->
+__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2027-05-29,579,272!2025-11-23,173,272-->
 
 - right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2026-05-25,359,292!2026-12-10,544,312-->
 - right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2026-08-14,414,292!2026-10-20,508,312-->
@@ -126,7 +126,7 @@ It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$
 
 > {@{![Permutohedron of the symmetric group S<sub>4</sub>](../../archives/Wikimedia%20Commons/Symmetric%20group%204;%20permutohedron%203D;%20numbers.svg)}@}
 >
-> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2025-10-27,89,377!2026-08-18,323,377-->
+> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2027-02-05,466,397!2026-08-18,323,377-->
 
 {@{The set of permutations on _n_ items}@} can be {@{given the structure of a [partial order](partially%20ordered%20set.md#partial%20order)}@}, called {@{the __weak order of permutations__}@}, which {@{forms a [lattice](lattice%20(order).md)}@}. <!--SR:!2025-11-02,95,377!2025-11-02,95,377!2025-11-03,95,377!2025-11-04,96,377-->
 

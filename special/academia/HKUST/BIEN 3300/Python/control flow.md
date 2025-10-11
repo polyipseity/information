@@ -20,7 +20,7 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2025-11-26,37,290!2025-10-27,17,307!2025-10-27,17,307-->
+The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2025-11-26,37,290!2026-01-10,75,327!2026-01-10,75,327-->
 
 An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2025-12-19,56,310-->
 
@@ -31,9 +31,9 @@ else:
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2025-12-18,55,310!2025-10-27,17,307!2025-10-27,17,307-->
+The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2025-12-18,55,310!2026-01-10,75,327!2026-01-10,75,327-->
 
-In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2025-12-24,60,310!2025-10-27,17,307-->
+In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2025-12-24,60,310!2026-01-10,75,327-->
 
 ```Python
 if condition1:
@@ -64,7 +64,7 @@ for loop_variables in iterable:
   statement_block
 ```
 
-Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that for {@{each element in the iterable}@}, {@{the loop variables are assigned that element}@} and then {@{the statement block is executed}@}. <!--SR:!2025-12-25,61,310!2025-12-17,54,310!2025-10-27,17,307!2025-10-27,17,307-->
+Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that for {@{each element in the iterable}@}, {@{the loop variables are assigned that element}@} and then {@{the statement block is executed}@}. <!--SR:!2025-12-25,61,310!2025-12-17,54,310!2026-01-10,75,327!2026-01-10,75,327-->
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!2025-12-19,56,310!2025-12-23,59,310!2025-12-17,54,310-->
 
@@ -75,7 +75,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2025-12-27,63,310!2025-10-27,17,307!2025-10-27,17,307!2025-10-27,17,307!2025-10-27,17,307-->
+The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2025-12-27,63,310!2026-01-10,75,327!2026-01-10,75,327!2026-01-10,75,327!2026-01-10,75,327-->
 
 If {@{there are no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2025-12-30,65,310!2025-12-27,63,310-->
 

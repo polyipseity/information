@@ -699,7 +699,7 @@ tags:
 >
 > Assume we use the KNN classification algorithm with K=3 on new data (1,1). Which class will this new data be predicted as?
 >
-> - solution: {@{+}@} <!--SR:!2025-10-27,236,330-->
+> - solution: {@{+}@} <!--SR:!2028-10-02,1071,350-->
 
 ## _k_-means clustering
 

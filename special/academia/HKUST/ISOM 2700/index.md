@@ -132,7 +132,7 @@ The content is in teaching order.
   - Gantt chart / finding capacity ::@:: If there is a bottleneck, this equals the found flow rate. <!--SR:!2028-03-20,884,358!2026-05-27,366,358-->
   - Gantt chart / finding cycle time ::@:: Find a regular pattern. Then find the time between two colors being outputted. <p> This is the reciprocal of flow rate, _by definition_. <!--SR:!2026-05-29,368,358!2026-06-15,359,318-->
   - Gantt chart / finding average work-in-process (WIP) inventory ::@:: Find a regular pattern that repeats. Then find the area covered with color, which has the unit unit-time. Divide it by the duration of the regular pattern. <!--SR:!2027-06-25,659,338!2027-06-09,650,338-->
-- cumulative inflow/outflow chart ::@:: A cumulative chart with two lines, with the _x_-axis being time and _y_-axis being the number of units. One line is the _cumulative inflow_, which increases by 1 every time a flow unit enters the process. The other line is the _cumulative outflow_, which increases by 1 every time a flow unit exits the process. <!--SR:!2026-06-04,374,358!2025-10-27,196,338-->
+- cumulative inflow/outflow chart ::@:: A cumulative chart with two lines, with the _x_-axis being time and _y_-axis being the number of units. One line is the _cumulative inflow_, which increases by 1 every time a flow unit enters the process. The other line is the _cumulative outflow_, which increases by 1 every time a flow unit exits the process. <!--SR:!2026-06-04,374,358!2028-04-26,912,358-->
   - cumulative inflow/outflow chart / _x_-gap ::@:: The _x_-gap at a particular _y_ is the flow time for the _y_-th unit. The average _x_-gap is the average flow time. <!--SR:!2026-06-08,378,358!2026-06-16,380,358-->
   - cumulative inflow/outflow chart / _y_-gap ::@:: The _y_-gap at a particular _x_ is the WIP inventory at time _x_. The average _y_-gap is the average WIP inventory. <!--SR:!2026-05-30,369,358!2026-05-24,363,358-->
   - cumulative inflow/outflow chart / slope ::@:: The average slope of the cumulative inflow is the input flow rate. The average slope of the cumulative output flow rate. <p> These two average slopes should be the same for a _stable process_. <!--SR:!2028-03-15,880,358!2026-05-28,367,358-->
@@ -609,10 +609,10 @@ The content is in teaching order.
   - forecasting / types ::@:: tactical \(short-term\) vs. strategic \(long-term\) <br/> qualitative \(subjective\) vs. quantitative \(objective\) <!--SR:!2025-10-31,158,431!2028-04-06,894,451-->
   - forecasting / principles ::@:: data: aggregate forecasts are usually more accurate <br/> error: has errors, never perfect <br/> uncertainty: the longer the time horizon, the more uncertain <br/> use: balance business acumen and quantitative analysis <!--SR:!2025-10-30,157,431!2025-10-28,155,429-->
   - forecasting / methods ::@:: consensus building, forecast combination, market research, prediction markets <!--SR:!2025-10-28,155,429!2025-11-02,160,431-->
-  - forecasting / biases ::@:: behavioral bias may arise, e.g. anchoring, group thinking, overconfidence, etc. <!--SR:!2025-10-27,154,429!2025-10-30,157,431-->
+  - forecasting / biases ::@:: behavioral bias may arise, e.g. anchoring, group thinking, overconfidence, etc. <!--SR:!2028-04-20,906,449!2025-10-30,157,431-->
 - [time series](../../../../general/time%20series.md) ::@:: It is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data. <!--SR:!2025-10-30,157,429!2025-11-01,159,429-->
   - time series / forecasting ::@:: A form of _extrapolation_ in time: It assumes data in the past is useful for the future, i.e. old patterns continue in the future. Thus, it could not respond to breakthroughs or emerging new trends. <!--SR:!2028-03-02,864,451!2025-11-02,160,431-->
-  - time series / components ::@:: random variation, seasonality, trend \(shrink/grow\) <!--SR:!2025-10-27,154,429!2028-04-11,898,449-->
+  - time series / components ::@:: random variation, seasonality, trend \(shrink/grow\) <!--SR:!2028-04-17,903,449!2028-04-11,898,449-->
   - time series / forecasting
     - time series / forecasting / issues ::@:: autocorrelation, noise control/reduction, seasonality modeling \(e.g. seasonality index\), structural break, trend modeling \(e.g. double exponential smoothing\), etc. <!--SR:!2028-03-25,884,451!2025-10-29,156,429-->
     - time series / forecasting / tradeoffs ::@:: responsiveness \(capture recent changes by relying more on recent data\) vs. robustness/stability \(smoothing to reduce noise\) <!--SR:!2025-10-31,158,429!2025-10-31,158,429-->
@@ -622,7 +622,7 @@ The content is in teaching order.
   - moving average / simple ::@:: $$F_t = \frac 1 n (A_{t - 1} + \cdots + A_{t - n}) \,,$$ i.e. take the average of the last _n_ values as the prediction. _n_ is the sampling/look-back window. <!--SR:!2028-03-23,882,451!2025-11-01,159,431-->
   - moving average / sampling window ::@:: The sampling/look-back window is specified by a number _n_. <p> Larger values smooth out noise \(_robustness_/_stability_\), while smaller values is more _responsive_. <!--SR:!2025-11-01,159,431!2025-10-31,158,431-->
   - moving average / weighted ::@:: $$F_t = w_1 A_{t - 1} + \cdots + w_n A_{t - n} \,,$$ where the _n_ weights $w_i$ sum up to 1. <p> Simple moving average is a special case where $w_i = 1 / n$ for all _i_. <!--SR:!2027-08-01,647,431!2028-03-07,868,449-->
-    - moving average / weighted / weights ::@:: The weights may be selected by trial and error. <p> A reasonable assignment is allocating more weight to recent data. This increases _responsiveness_ against _robustness_/_stability_. <!--SR:!2025-10-27,154,429!2028-03-16,875,449-->
+    - moving average / weighted / weights ::@:: The weights may be selected by trial and error. <p> A reasonable assignment is allocating more weight to recent data. This increases _responsiveness_ against _robustness_/_stability_. <!--SR:!2028-04-16,902,449!2028-03-16,875,449-->
   - moving average / simple
     - moving average / simple / advantages & disadvantages ::@:: It is based on average past demand, and assigns equal importance to each observation. <p> It requires carrying large amounts of historical data, and data before the sampling window are entirely ignored. <!--SR:!2025-10-31,158,429!2025-10-31,158,429-->
   - moving average / weighted
@@ -635,7 +635,7 @@ The content is in teaching order.
   - mean absolute error / note ::@:: \(__this course__: It is called _mean absolute deviation_ \(_MAD_\) instead...? It seems like misnomer, since _deviation_ compares the observation with the _observation mean_ rather than the _predictions_.\) <!--SR:!2028-02-12,848,449!2027-05-02,613,429-->
 - [tracking signal](../../../../general/tracking%20signal.md) \(TS\) ::@:: It monitors any forecasts that have been made in comparison with actuals, and warns when there are unexpected departures of the outcomes from the forecasts. <!--SR:!2025-10-29,156,429!2028-04-13,900,449-->
   - tracking signal / definition ::@:: The formula for this tracking signal is: $${\text{Tracking signal} }={\frac {\Sigma (a_{t}-f_{t})}{\text{MAD} } }$$ where _a<sub>t</sub>_ is the actual value of the quantity being forecast, and _f<sub>t</sub>_ is the forecast. MAD is the [mean absolute deviation](../../../../general/mean%20absolute%20deviation.md). The formula for the MAD is: $${\text{MAD} }={\frac {\Sigma \left|a_{t}-f_{t}\right|}{n} }$$ where _n_ is the number of periods. <!--SR:!2027-05-14,625,429!2028-02-24,858,451-->
-    - tracking signal / definition / full ::@:: The entire formula for tracking signal is: $${\text{Tracking signal} }={\frac {\Sigma (a_{t}-f_{t})}{ {\frac {1}{n} }\Sigma \left|a_{t}-f_{t}\right|} } \,.$$ <!--SR:!2028-03-15,875,449!2025-10-27,154,429-->
+    - tracking signal / definition / full ::@:: The entire formula for tracking signal is: $${\text{Tracking signal} }={\frac {\Sigma (a_{t}-f_{t})}{ {\frac {1}{n} }\Sigma \left|a_{t}-f_{t}\right|} } \,.$$ <!--SR:!2028-03-15,875,449!2028-04-19,905,449-->
 - mean absolute error
   - mean absolute error / measure ::@:: It accounts for both overshooting and undershooting of the observations. It measures the average deviation from true value. <!--SR:!2028-02-26,859,449!2028-04-01,890,451-->
 - tracking signal
@@ -650,7 +650,7 @@ The content is in teaching order.
 - inventory
   - inventory / types ::@:: raw materials, work-in-progress, finished goods, supplies, etc. <!--SR:!2025-10-30,157,431!2028-03-04,865,449-->
 - [field inventory management](../../../../general/field%20inventory%20management.md) ::@:: It is the task of understanding the stock mix of a company and the handling of the different demands placed on that stock. The demands are influenced by both external and internal factors and are balanced by the creation of purchase order requests to keep supplies at a reasonable or prescribed level. <!--SR:!2028-04-12,899,449!2027-03-24,581,429-->
-  - field inventory management / goal ::@:: match \(inventory\) supply with demand <!--SR:!2025-10-27,154,429!2028-03-16,876,451-->
+  - field inventory management / goal ::@:: match \(inventory\) supply with demand <!--SR:!2028-04-18,904,449!2028-03-16,876,451-->
   - field inventory management / importance ::@:: convergence point of supply chain and customer touch-point <br/> inventory can be the largest asset of a firm <br/> multiple stakeholders involved <!--SR:!2027-04-28,611,429!2025-11-01,159,431-->
   - field inventory management / components ::@:: inventory tracking, order management, purchasing, reporting and analysis, shipping and delivery, transfer management, etc. <!--SR:!2027-05-28,637,429!2025-10-29,156,429-->
     - field inventory management / components / new ::@:: artificial intelligence \(AI\), big data, blockchain, internet of things \(IoT\), etc. <!--SR:!2025-10-28,155,431!2027-04-27,610,429-->
@@ -659,18 +659,18 @@ The content is in teaching order.
     - field inventory management / challenges / control difficulty ::@:: demand uncertainty, quality variance, random delivery lead-time <!--SR:!2028-03-05,866,449!2025-11-02,160,431-->
 - inventory
   - inventory / types ::@:: buffer, cycle, pipeline, safety, seasonal <!--SR:!2028-04-09,896,449!2028-02-28,861,449-->
-    - inventory / types / pipeline ::@:: related to units in a ongoing process; recall Little's law <!--SR:!2025-10-27,154,429!2028-03-10,870,449-->
-    - inventory / types / seasonal ::@:: fixed capacity but variable demand, e.g. festival products <!--SR:!2025-10-27,154,429!2025-11-01,159,429-->
+    - inventory / types / pipeline ::@:: related to units in a ongoing process; recall Little's law <!--SR:!2028-04-15,901,449!2028-03-10,870,449-->
+    - inventory / types / seasonal ::@:: fixed capacity but variable demand, e.g. festival products <!--SR:!2028-04-20,906,449!2025-11-01,159,429-->
     - inventory / types / cycle ::@:: related to economics of scale, as it is usually beneficial to produce units in batches <!--SR:!2028-03-26,885,451!2028-03-17,876,449-->
     - inventory / types / buffer ::@:: buffers between activities in a process to enhance activity independence and robustness <!--SR:!2025-11-01,159,431!2028-02-18,853,451-->
     - inventory / types / safety ::@:: to hedge _unpredictable_ demand variations; tradeoff is ordering too few \(to meet unpredictable demand\) vs. too many \(and incur high holding costs\) <!--SR:!2028-03-17,877,451!2028-04-04,892,449-->
 - field inventory management
-  - field inventory management / models ::@:: economic order quantity \(EOQ\) model, fixed-time period model \(optional\), newsvendor model <!--SR:!2025-10-27,154,429!2025-10-30,157,429-->
+  - field inventory management / models ::@:: economic order quantity \(EOQ\) model, fixed-time period model \(optional\), newsvendor model <!--SR:!2028-04-19,905,449!2025-10-30,157,429-->
     - field inventory management / models / economic order quantity ::@:: used for deterministic demand and long lifecycle products \(holdable for a long time without depreciation\) <!--SR:!2028-03-09,869,449!2028-03-24,882,449-->
     - field inventory management / models / newsvendor ::@:: used for uncertain demand and short lifecycle products \(becomes valueless after a short time\) <!--SR:!2028-02-27,860,449!2027-08-04,648,429-->
     - field inventory management / models / fixed-time period ::@:: \(__this course__: optional\) usually used for ordering a group of items together <!--SR:!2028-03-08,869,451!2028-02-15,850,449-->
 - [economic order quantity](../../../../general/economic%20order%20quantity.md) \(EOQ\) ::@:: It is the order quantity that minimizes the total holding costs and ordering costs in inventory management. It is one of the oldest classical production scheduling models. <!--SR:!2028-02-23,857,451!2028-03-27,886,451-->
-  - economic order quantity / outputs ::@:: order frequency, order quantity <!--SR:!2025-10-28,155,429!2025-10-27,154,429-->
+  - economic order quantity / outputs ::@:: order frequency, order quantity <!--SR:!2025-10-28,155,429!2028-04-18,904,449-->
   - economic order quantity / assumptions ::@:: constant demand rate, constant delivery lead time \(after ordering\), constant holding cost, constant ordering cost <!--SR:!2025-10-30,157,431!2025-10-31,158,429-->
   - economic order quantity / graph ::@:: Under the assumptions of EOQ, the graph of inventory \(y-axis\) against time \(x-axis\) has a sawtooth pattern. <p> A sawtooth pattern starts with a vertical line ascending from zero to a fixed positive number, then linearly declines to zero. Then the pattern repeats. <!--SR:!2027-05-20,630,429!2025-10-30,157,429-->
     - economic order quantity / graph / interpretation ::@:: In a sawtooth, several things can be identified: <p> D: _Demand_ is the absolute slope of the declining portion of the sawtooth. <br/> L: _Delivery lead time_ is how long you need to wait after order to get the inventory. <br/> Q: _Order quantity_ is the height of the sawtooth. The vertical ascending portion of the sawtooth is when the shipment arrives. <!--SR:!2025-11-02,160,431!2028-04-05,893,449-->

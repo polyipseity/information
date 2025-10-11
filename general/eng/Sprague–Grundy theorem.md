@@ -13,7 +13,7 @@ tags:
 
 In {@{[combinatorial game theory](combinatorial%20game%20theory.md)}@}, the {@{__Sprague–Grundy theorem__}@} states that {@{every [impartial game](impartial%20game.md) under the [normal play convention](normal%20play%20convention.md) is equivalent to a one-heap game of [nim](Nim.md)}@}, or {@{to an infinite generalization of nim}@}. It can therefore be {@{represented as a [natural number](natural%20number.md), the size of the heap in its equivalent game of nim}@}, as {@{an [ordinal number](ordinal%20number.md) in the infinite generalization}@}, or alternatively as {@{a [nimber](nimber.md), the value of that one-heap game in an algebraic system whose addition operation combines multiple heaps to form a single equivalent heap in nim}@}. <!--SR:!2026-07-28,430,310!2025-12-12,273,330!2026-03-08,316,290!2025-12-08,270,330!2026-03-25,329,290!2027-06-03,682,330!2026-03-13,318,290-->
 
-{@{The __Grundy value__ or __nim-value__ of any impartial game}@} is {@{the unique nimber that the game is equivalent to}@}. In the case of {@{a game whose positions are indexed by the natural numbers}@} \(like {@{nim itself, which is indexed by its heap sizes}@}\), {@{the sequence of nimbers for successive positions of the game}@} is {@{called the __nim-sequence__ of the game}@}. <!--SR:!2025-12-14,275,330!2025-11-08,246,330!2027-11-23,762,330!2025-12-27,285,330!2025-11-13,250,330!2025-10-14,5,351-->
+{@{The __Grundy value__ or __nim-value__ of any impartial game}@} is {@{the unique nimber that the game is equivalent to}@}. In the case of {@{a game whose positions are indexed by the natural numbers}@} \(like {@{nim itself, which is indexed by its heap sizes}@}\), {@{the sequence of nimbers for successive positions of the game}@} is {@{called the __nim-sequence__ of the game}@}. <!--SR:!2025-12-14,275,330!2025-11-08,246,330!2027-11-23,762,330!2025-12-27,285,330!2025-11-13,250,330!2025-11-19,23,371-->
 
 {@{The Sprague–Grundy theorem and its proof}@} encapsulate the main results of a theory discovered {@{independently by [R. P. Sprague](Roland%20Sprague.md) \(1936\)<sup>[\[1\]](#^ref-1)</sup> and [P. M. Grundy](Patrick%20Michael%20Grundy.md) \(1939\)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-14,275,330!2027-01-20,519,270-->
 
@@ -137,7 +137,7 @@ Or consider the case that {@{the next player moves in the component $*m$ to the 
 
 Finally, suppose instead that {@{the next player moves in the component $G'$ to the option $*n_{i}$}@}. If {@{$n_{i}<m$ \(annotation: $n_i < m$ is used instead of $*n_i < *m$ because numbers but not games can be compared.\)}@} then {@{the previous player moves in $*m$ to $*n_{i}$}@}; otherwise, if {@{$n_{i}>m$}@}, {@{the previous player moves in $*n_{i}$ to $*m$}@}; in either case {@{the result is a position plus itself}@}. \(It is {@{not possible that $n_{i}=m$}@} because {@{$m$ was defined to be different from all the $n_{i}$}@}.\) <!--SR:!2025-11-15,251,330!2025-12-17,276,330!2027-10-29,782,330!2026-01-05,292,330!2025-12-12,258,290!2025-11-02,18,366!2025-11-02,18,366!2025-11-02,18,366-->
 
-In summary, we have {@{$G\approx G'$ and $G'\approx *m$}@}. By {@{transitivity}@}, we conclude that {@{$G\approx *m$, as desired}@}. <!--SR:!2025-11-11,247,330!2025-11-12,250,330!2025-10-27,236,330-->
+In summary, we have {@{$G\approx G'$ and $G'\approx *m$}@}. By {@{transitivity}@}, we conclude that {@{$G\approx *m$, as desired}@}. <!--SR:!2025-11-11,247,330!2025-11-12,250,330!2028-10-04,1073,350-->
 
 ## development
 
