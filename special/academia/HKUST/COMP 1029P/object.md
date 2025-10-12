@@ -13,7 +13,7 @@ A Python class is never complete without teaching objects! \(Sounds oddly famili
 
 ## class
 
-To {@{create an object}@}, one needs to {@{first create a class}@}. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2027-09-22,1032,350!2025-10-29,19,338!2025-10-28,18,338-->
+To {@{create an object}@}, one needs to {@{first create a class}@}. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2027-09-22,1032,350!2025-10-29,19,338!2026-01-18,82,358-->
 
 ```Python
 class Name:

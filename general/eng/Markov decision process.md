@@ -98,7 +98,7 @@ In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Pu
 
 #### prioritized sweeping
 
-In this variant, the steps are {@{preferentially applied to states which are in some way important}@} – whether based on {@{the algorithm \(there were large changes in $V$ or $\pi$ around those states recently\)}@} or based on {@{use \(those states are near the starting state, or otherwise of interest to the person or program using the algorithm\)}@}. <!--SR:!2026-02-10,336,349!2025-10-28,233,329!2026-02-23,347,349-->
+In this variant, the steps are {@{preferentially applied to states which are in some way important}@} – whether based on {@{the algorithm \(there were large changes in $V$ or $\pi$ around those states recently\)}@} or based on {@{use \(those states are near the starting state, or otherwise of interest to the person or program using the algorithm\)}@}. <!--SR:!2026-02-10,336,349!2027-12-08,771,329!2026-02-23,347,349-->
 
 ### computational complexity
 

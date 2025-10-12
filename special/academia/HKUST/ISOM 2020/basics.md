@@ -249,7 +249,7 @@ If {@{you do not want a newline to be printed automatically afterwards}@}, `prin
 
 ## variable
 
-To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2028-03-10,987,342!2025-10-28,327,342-->
+To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2028-03-10,987,342!2030-01-14,1539,362-->
 
 ```Python
 variableName = 1 + 2
@@ -275,7 +275,7 @@ Below are common data types:
 
 Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2027-11-15,893,342!2027-01-23,661,330!2029-04-28,1344,383-->
 
-To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2029-03-26,1305,362!2025-10-28,325,342!2028-05-18,1040,342!2027-09-10,831,342!2029-02-06,1256,350-->
+To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2029-03-26,1305,362!2030-01-04,1529,362!2028-05-18,1040,342!2027-09-10,831,342!2029-02-06,1256,350-->
 
 ### data type conversion
 

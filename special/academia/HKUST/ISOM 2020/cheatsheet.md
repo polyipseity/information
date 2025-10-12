@@ -59,8 +59,8 @@ The cheatsheet is provided during the final examination.
 - `round()` ::@:: round off the input value <!--SR:!2029-05-11,1297,350!2029-03-15,1251,350-->
 - `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
 - `int()` ::@:: convert input to integer <!--SR:!2029-02-01,1219,350!2029-04-22,1280,350-->
-- `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2029-01-17,1206,350-->
-- `str()` ::@:: convert input to str <!--SR:!2029-05-04,1291,350!2025-10-28,290,330-->
+- `float()` ::@:: convert input to float <!--SR:!2029-06-06,1317,350!2029-01-17,1206,350-->
+- `str()` ::@:: convert input to str <!--SR:!2029-05-04,1291,350!2029-06-09,1320,350-->
 
 ## list / string operations
 
@@ -70,7 +70,7 @@ The cheatsheet is provided during the final examination.
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2029-04-27,1284,350-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2029-05-02,1288,350!2029-05-19,1303,350-->
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
-- `list.count()` ::@:: count the occurrence of the input item <!--SR:!2029-06-03,1315,350!2025-10-28,289,330-->
+- `list.count()` ::@:: count the occurrence of the input item <!--SR:!2029-06-03,1315,350!2029-06-05,1316,350-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2029-03-10,1247,350!2025-10-29,290,330-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->

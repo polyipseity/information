@@ -444,10 +444,10 @@ The content is in teaching order.
   - local: 2025-03-12T21:30:00+08:00/2025-03-12T22:50:00+08:00, PT1H20M
 - swing music
   - swing music / to bebop music ::@:: Swing was becoming commercialized and formulaic. Some musicians got tired. <p> Some musicians adapted swing music to smaller groups, some of which were looser with many solos. They focused more on improvisation and standards \(popular songs\). <!--SR:!2028-01-29,827,442!2027-06-06,593,422-->
-- [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. It can be considered as the start of modern jazz. <p> The name comes from the rhythm. <!--SR:!2025-10-28,147,422!2025-10-29,148,422-->
+- [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. It can be considered as the start of modern jazz. <p> The name comes from the rhythm. <!--SR:!2028-02-21,846,442!2025-10-29,148,422-->
   - bebop / beginning ::@:: It began to develop in the late 1930s and early 1940s. Early recordings did not exist during 1942 to 1944 because of musicians' strike. <p> So some people think bebop suddenly appeared instead of being developed. The public thought the music was new instead of being gradually introduced to it. <!--SR:!2027-02-24,554,422!2027-12-23,795,442-->
   - bebop / characteristics ::@:: advanced harmony, fast tempo, virtuosic improvisation <!--SR:!2025-10-30,149,422!2028-02-11,838,442-->
-  - bebop / rhythm section ::@:: changes in bass, drums, guitar, and piano <!--SR:!2025-10-28,147,422!2025-10-30,149,422-->
+  - bebop / rhythm section ::@:: changes in bass, drums, guitar, and piano <!--SR:!2028-02-21,846,442!2025-10-30,149,422-->
     - bebop / rhythm section / drums ::@:: Ride cymbals instead of bass drums produce beats, which feels faster and lighter. Bass drums and snare are for rhythmic accents \(e.g. kicks, punches\). Tempo is faster, making it not intended for dancing. <!--SR:!2027-05-15,575,422!2025-11-01,151,422-->
     - bebop / rhythm section / piano ::@:: Radical changes occur. Dissonance becomes essential instead of common. Sustained chords become kicks and punches with the drums. It uses the same vocabulary as the horns during solo. <!--SR:!2025-10-29,148,422!2027-05-07,568,422-->
     - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2025-10-30,149,422!2027-12-24,796,442-->
@@ -490,7 +490,7 @@ The content is in teaching order.
   - local: 2025-03-19T21:30:00+08:00/2025-03-19T22:50:00+08:00, PT1H20M
 - [Thelonious Monk](../../../../general/Thelonious%20Monk.md) \(1917–1982\) ::@:: American composer and pianist, with very distinctive, unique, and unusual style <!--SR:!2025-11-01,151,422!2027-12-17,790,442-->
   - Thelonious Monk / uniqueness ::@:: schizophrenic; strange personality reflected in the music: crazy, demented <!--SR:!2028-01-07,808,442!2025-10-30,149,422-->
-  - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2025-10-28,147,422!2025-10-31,150,422-->
+  - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2028-02-23,848,442!2025-10-31,150,422-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2028-02-10,837,442!2027-02-28,538,422-->
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2026-09-04,388,402!2027-03-01,559,422-->
   - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke <!--SR:!2028-01-11,811,442!2028-02-14,840,442-->
@@ -517,9 +517,9 @@ The content is in teaching order.
 - [Gerry Mulligan](../../../../general/Gerry%20Mulligan.md) \(1927–1996\) ::@:: He was an American jazz saxophonist, clarinetist, composer and arranger. <p> He made the baritone sax popular in jazz as solo. He also struggled with drugs. <!--SR:!2025-10-29,148,422!2025-10-30,149,422-->
   - Gerry Mulligan / & Chet Baker ::@:: He worked with Chet Baker, making records with no harmonic instruments \(i.e. no guitars and pianos\). The horns can be more harmonic and improvisational. <!--SR:!2025-10-29,148,422!2025-10-29,148,422-->
   - Gerry Mulligan / works ::@:: "Speak Low" \(1953\) — Chet Baker & Gerry Mulligan <!--SR:!2028-02-04,832,442!2027-11-22,768,442-->
-- [Stan Getz](../../../../general/Stan%20Getz.md) \(1927–1991\) ::@:: He was an American jazz saxophonist from Philadelphia. Playing primarily the tenor saxophone, Getz was known as "__The Sound__" because of his warm, lyrical tone \("airy" sounds\). <p> He also struggled with drugs. <!--SR:!2028-02-03,831,442!2025-10-28,147,422-->
+- [Stan Getz](../../../../general/Stan%20Getz.md) \(1927–1991\) ::@:: He was an American jazz saxophonist from Philadelphia. Playing primarily the tenor saxophone, Getz was known as "__The Sound__" because of his warm, lyrical tone \("airy" sounds\). <p> He also struggled with drugs. <!--SR:!2028-02-03,831,442!2028-02-26,851,442-->
   - Stan Getz / works ::@:: "The Girl from Impanema" \(1964\) — Joao Gilberto & Stan Getz <br/> "Just Friends" — Chet Baker & Stan Getz: Even though he and Chet Baker hated each other, they had had many collaborations. <!--SR:!2027-03-20,554,422!2027-12-06,781,442-->
-  - Stan Getz / effects ::@:: He was responsible for bossa nova and samba for being part of jazz. He went to Brazil, heard the music, and infused it with jazz elements. This changed music. <!--SR:!2025-10-29,148,422!2025-10-28,147,422-->
+  - Stan Getz / effects ::@:: He was responsible for bossa nova and samba for being part of jazz. He went to Brazil, heard the music, and infused it with jazz elements. This changed music. <!--SR:!2025-10-29,148,422!2028-02-27,852,442-->
 - assignment: \(none\)
 
 ## week 11 lecture 2
@@ -528,7 +528,7 @@ The content is in teaching order.
   - local: 2025-03-26T21:30:00+08:00/2025-03-26T22:50:00+08:00, PT1H20M
 - [bossa nova](../../../../general/bossa%20nova.md) ::@:: It is a relaxed style of samba developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil. <p> United States people went crazy for this music, so they still study it in jazz education to this day. <!--SR:!2027-06-04,591,422!2028-02-07,834,442-->
   - bossa nova / characteristics ::@:: "swaying" motion; swinging eighth notes; lyrical themes include women, love, longing, homesickness, and nature <!--SR:!2028-01-10,811,442!2028-01-31,829,442-->
-  - bossa nova / figures ::@:: Antonio Carlos, a composer <br/> Joao Gilberto, a guitarist <br/> Vinicius de Moraes, a poet and lyricist <!--SR:!2027-03-30,562,422!2025-10-28,147,422-->
+  - bossa nova / figures ::@:: Antonio Carlos, a composer <br/> Joao Gilberto, a guitarist <br/> Vinicius de Moraes, a poet and lyricist <!--SR:!2027-03-30,562,422!2028-02-24,849,442-->
 - [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer. <!--SR:!2028-01-20,819,442!2025-10-31,150,422-->
   - Antônio Carlos Jobim / effects ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century. <!--SR:!2027-12-01,777,442!2027-04-15,576,422-->
 - [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. <!--SR:!2025-11-01,151,422!2028-01-15,815,442-->
@@ -557,11 +557,11 @@ The content is in teaching order.
   - hard bop / musicians ::@:: Art Blakely, Clifford Brown, Miles Davis, Lee Morgan, Max Roach, Horace Silver <!--SR:!2028-02-09,836,442!2027-12-13,787,442-->
 - [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-10-31,150,422!2027-12-12,786,442-->
 - [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers. <!--SR:!2028-02-18,844,442!2028-01-09,810,442-->
-  - Art Blakely / effects ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians. <!--SR:!2028-01-25,823,442!2025-10-28,147,422-->
+  - Art Blakely / effects ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians. <!--SR:!2028-01-25,823,442!2028-02-22,847,442-->
 - [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers. <!--SR:!2028-01-21,820,442!2027-05-05,567,422-->
   - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver <!--SR:!2028-01-29,827,442!2028-02-19,845,442-->
 - [Clifford Brown](../../../../general/Clifford%20Brown.md) \(1930–1956\) ::@:: He was an American jazz trumpeter, pianist and composer. He died at the age of 25 in a car crash with his pianist Richie Powell. <p> He formed a band with Max Roach, a drummer, which formed the typical hard bop sound. <!--SR:!2025-10-29,148,422!2027-03-04,562,422-->
-  - Clifford Brown / works ::@:: "Sandu" \(1955\) — Clifford Brown & Max Roach <!--SR:!2025-10-31,150,422!2025-10-28,147,422-->
+  - Clifford Brown / works ::@:: "Sandu" \(1955\) — Clifford Brown & Max Roach <!--SR:!2025-10-31,150,422!2028-02-25,850,442-->
 - [Lee Morgan](../../../../general/Lee%20Morgan.md) \(1938–1972\) ::@:: He was an American jazz trumpeter and composer. <p> He was part of the Jazz Messengers. He was known for his hit "Sidewinder". He was shot dead by his wife at 33 while at the gig. <!--SR:!2027-12-14,788,442!2027-02-27,557,422-->
 - assignment: [concert 2](assignments/concert%202/index.md)
 
@@ -570,7 +570,7 @@ The content is in teaching order.
 - datetime: 2025-04-02T08:30:00-05:00/2025-04-02T09:50:00-05:00, PT1H20M
   - local: 2025-04-02T21:30:00+08:00/2025-04-02T22:50:00+08:00, PT1H20M
 - [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2028-01-12,812,442!2028-01-24,823,442-->
-  - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2028-01-22,821,442!2025-10-28,147,422-->
+  - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2028-01-22,821,442!2028-02-22,847,442-->
   - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2027-12-01,776,442!2028-02-19,845,442-->
   - head / typical arrangement ::@:: jazz: head in → solo → head out <!--SR:!2027-12-22,794,442!2028-01-27,825,442-->
 - [chorus](../../../../general/refrain.md) ::@:: the line or lines that are repeated in poetry or in music <!--SR:!2027-12-18,791,442!2027-12-08,783,442-->
@@ -607,7 +607,7 @@ The content is in teaching order.
   - Miles Davis / genres
     - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "Kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2027-03-05,542,422!2026-08-15,388,402-->
 - Miles Davis Quintet
-  - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2026-08-19,392,402!2025-10-28,147,422-->
+  - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2026-08-19,392,402!2028-02-27,852,442-->
     - Miles Davis Quintet / Second Great Quintet / Tony Williams ::@:: On drums. He was a towering virtuoso and could change directions rhythmically at any moment. So he was very exciting to listen to. <!--SR:!2028-02-02,830,442!2028-02-01,829,442-->
     - Miles Davis Quintet / Second Great Quintet / Ron Carter ::@:: On bass. His bass lines are clear and strong. He could manipulate the harmony along with Herbie. He allowed other musicians to stretch without worrying about the bass. <!--SR:!2028-01-26,824,442!2027-04-21,581,422-->
     - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique. <!--SR:!2025-10-30,149,422!2027-03-02,560,422-->

@@ -19,7 +19,7 @@ Runtime errors occur when {@{something error or unexpected}@} happens. The progr
 
 ## catching errors
 
-Sometimes, we can {@{handle some errors using `try...except...else`}@}. It consists of {@{a statement block, and one or more error types \(optional\), error names \(optional\)}@}, {@{error handler statement blocks, and a no-error statement block \(optional\)}@}: <!--SR:!2026-12-22,796,330!2025-10-28,458,310!2025-10-29,19,343-->
+Sometimes, we can {@{handle some errors using `try...except...else`}@}. It consists of {@{a statement block, and one or more error types \(optional\), error names \(optional\)}@}, {@{error handler statement blocks, and a no-error statement block \(optional\)}@}: <!--SR:!2026-12-22,796,330!2031-03-16,1965,330!2025-10-29,19,343-->
 
 ```Python
 try:

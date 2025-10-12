@@ -94,7 +94,7 @@ An alternative to {@{the estimation of the required return by the capital asset 
 
 ### expected return
 
-{@{The expected return \(or required rate of return for investors\)}@} can be calculated with {@{the "[dividend capitalization](dividend%20discount%20model.md) model"}@}, which is {@{$$K_{cs}={\frac { {\text{Dividend} }_{\text{Payment/Share} }(1+{\text{Growth}_{\text{rate} } })}{ {\text{Price} }_{\text{Market} } } }+{\text{Growth} }_{\text{rate} } \,.$$}@}  \(annotation: Note {@{the dividend in the above equation is this year's dividend}@}. However, we need to {@{use the next year's dividend in the numerator}@}, so {@{the equation multiplies this year's dividend by one plus growth rate}@}.\) <!--SR:!2026-07-22,292,330!2026-09-29,349,350!2026-06-25,270,330!2025-10-29,86,353!2025-10-28,85,353!2025-10-28,85,353-->
+{@{The expected return \(or required rate of return for investors\)}@} can be calculated with {@{the "[dividend capitalization](dividend%20discount%20model.md) model"}@}, which is {@{$$K_{cs}={\frac { {\text{Dividend} }_{\text{Payment/Share} }(1+{\text{Growth}_{\text{rate} } })}{ {\text{Price} }_{\text{Market} } } }+{\text{Growth} }_{\text{rate} } \,.$$}@}  \(annotation: Note {@{the dividend in the above equation is this year's dividend}@}. However, we need to {@{use the next year's dividend in the numerator}@}, so {@{the equation multiplies this year's dividend by one plus growth rate}@}.\) <!--SR:!2026-07-22,292,330!2026-09-29,349,350!2026-06-25,270,330!2025-10-29,86,353!2026-12-17,415,373!2026-12-18,416,373-->
 
 ### comments
 

@@ -152,7 +152,7 @@ If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time
     3. Enqueue {@{the new node into the rear of}@} the second queue.
 4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2028-12-15,1151,350!2025-10-31,257,330!2025-12-07,289,330!2028-12-09,1142,350!2025-11-29,282,330!2028-12-03,1142,350!2026-10-21,505,310!2027-02-25,562,310!2027-05-09,678,330!2028-10-25,1111,350!2025-12-08,290,330-->
 
-Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a dictionary which maps the symbols to binary codes as follows}@}: <!--SR:!2025-10-28,255,330!2027-12-10,831,330-->
+Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a dictionary which maps the symbols to binary codes as follows}@}: <!--SR:!2029-01-06,1166,350!2027-12-10,831,330-->
 
 1. {@{Start with current node}@} set to the root.
 2. If {@{node is not a leaf node}@}, label {@{the edge to the left child as _0_ and the edge to the right child as _1_}@}. Repeat {@{the process at both the left child and the right child}@}. <!--SR:!2025-11-27,281,330!2025-11-06,262,330!2028-09-16,1079,350!2025-11-11,266,330-->

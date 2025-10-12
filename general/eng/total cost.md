@@ -52,7 +52,7 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 - Profit ::@:: = TR – TC or \(P-ATC\)\*Q <!--SR:!2026-03-10,332,341!2026-02-28,324,341-->
 - Loss ::@:: = TC – TR \(if positive\) <!--SR:!2026-02-11,310,341!2026-01-22,294,330-->
 - Break Even Point: ::@:: value of Quantity of goods where Average Revenue = Average Total Cost <!--SR:!2026-02-15,313,341!2028-06-29,976,341-->
-- Profit Maximizing Condition: ::@:: Marginal Revenue = Marginal Cost <!--SR:!2025-10-28,220,321!2026-02-26,322,341-->
+- Profit Maximizing Condition: ::@:: Marginal Revenue = Marginal Cost <!--SR:!2028-06-30,976,341!2026-02-26,322,341-->
 <!-- - Marginal Revenue =The rate of change in Total Revenue with Quantity -->
 
 ## see also

@@ -12,7 +12,7 @@ tags:
 
 - This article is about {@{the mathematical game of strategy}@}. For the programming language, see [Nim (programming language)](Nim%20(programming%20language).md).<!-- For other uses, see [Nim (disambiguation)](NIM.md).--> <!--SR:!2025-10-29,294,341-->
 
-__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2025-10-28,293,341!2025-11-24,317,341-->
+__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2026-03-27,150,321!2025-11-24,317,341-->
 
 Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}. <!--SR:!2025-11-02,298,341!2025-10-31,296,341-->
 
@@ -82,7 +82,7 @@ The evolution graph of the game of nim with three heaps is {@{the same as three 
 
 Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and {@{there is an easily calculated way to determine which player will win and which winning moves are open to that player}@}. <!--SR:!2025-11-11,306,341!2025-11-20,313,341-->
 
-The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes, i.e., the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows: <!--SR:!2025-10-28,293,341!2027-11-29,796,321!2028-09-11,1086,341!2029-05-24,1309,350-->
+The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes, i.e., the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows: <!--SR:!2028-07-20,996,341!2027-11-29,796,321!2028-09-11,1086,341!2029-05-24,1309,350-->
 
 ```text
   Binary   Decimal
@@ -170,7 +170,7 @@ from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprag
 
 ### the 21 game
 
-- see ::@:: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2025-12-04,321,341!2025-10-28,293,341-->
+- see ::@:: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2025-12-04,321,341!2029-08-08,1380,361-->
 
 The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2025-12-19,334,341!2025-11-01,297,341!2025-11-12,307,341!2025-11-07,303,341!2025-10-29,294,341!2025-11-06,302,341!2026-12-25,617,341-->
 
@@ -253,7 +253,7 @@ A generalization of multi-heap nim was called {@{"nim<sub>_k_</sub>" or "index-_
 
 The winning strategy is as follows: Like in ordinary multi-heap nim, one {@{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}@}. In ordinary nim {@{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}@}. In the generalization to index-_k_ nim, {@{one forms the sum of each binary digit modulo _k_ + 1 (this is no longer the XOR-sum, but a generalization of it)}@}. <!--SR:!2028-02-29,905,301!2026-08-12,507,330!2026-12-06,602,341-->
 
-Again, the winning strategy is {@{to move such that this sum is zero for every digit}@}. Indeed, the value thus computed is {@{zero for the final position}@}, and given {@{a configuration of heaps for which this value is zero}@}, {@{any change of at most _k_ heaps will make the value non-zero}@}. Conversely, given {@{a configuration with non-zero value}@}, one can {@{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}@}. <!--SR:!2025-10-28,293,341!2025-11-07,303,341!2025-11-02,298,341!2025-11-23,316,341!2028-10-15,1113,341!2026-03-19,387,310-->
+Again, the winning strategy is {@{to move such that this sum is zero for every digit}@}. Indeed, the value thus computed is {@{zero for the final position}@}, and given {@{a configuration of heaps for which this value is zero}@}, {@{any change of at most _k_ heaps will make the value non-zero}@}. Conversely, given {@{a configuration with non-zero value}@}, one can {@{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}@}. <!--SR:!2029-08-07,1379,361!2025-11-07,303,341!2025-11-02,298,341!2025-11-23,316,341!2028-10-15,1113,341!2026-03-19,387,310-->
 
 ### building nim
 

@@ -299,7 +299,7 @@ Markov chains have been {@{employed in a wide range of topics across the natural
 
 {@{Markovian systems}@} appear {@{extensively in [thermodynamics](thermodynamics.md) and [statistical mechanics](statistical%20mechanics.md)}@}, whenever {@{probabilities are used to represent unknown or unmodelled details of the system}@}, if {@{it can be assumed that the dynamics are time-invariant}@}, and that {@{no relevant history need be considered which is not already included in the state description}@}.<sup>[\[61\]](#^ref-61)</sup><sup>[\[62\]](#^ref-62)</sup> For example, {@{a thermodynamic state}@} operates {@{under a probability distribution that is difficult or expensive to acquire}@}. Therefore, {@{Markov Chain Monte Carlo method}@} can be used to {@{draw samples randomly from a black-box to approximate the probability distribution of attributes over a range of objects}@}.<sup>[\[62\]](#^ref-62)</sup> <!--SR:!2026-03-17,365,359!2026-04-09,385,359!2026-04-09,387,367!2026-04-05,384,367!2026-04-06,383,367!2026-03-11,360,359!2026-03-19,368,359!2026-03-13,363,359!2026-04-15,391,367-->
 
-Markov chains are used in {@{[lattice QCD](lattice%20QCD.md)}@} simulations.<sup>[\[63\]](#^ref-63)</sup> <!--SR:!2025-10-28,249,330-->
+Markov chains are used in {@{[lattice QCD](lattice%20QCD.md)}@} simulations.<sup>[\[63\]](#^ref-63)</sup> <!--SR:!2028-12-04,1133,350-->
 
 ### chemistry
 

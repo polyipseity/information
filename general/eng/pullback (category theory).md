@@ -96,7 +96,7 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
   - the pullback of _s_ and _h_ is given by _t_ : _Q_ → _P_ and _u_ : _Q_ → _D_ ,
   - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_. <!--SR:!2026-02-25,249,270-->
 
-  Graphically this means that {@{two pullback squares, placed side by side and sharing one morphism}@}, form {@{a larger pullback square when ignoring the inner shared morphism}@}. {@{$${\begin{array}{ccccc}Q&{\xrightarrow {t} }&P&{\xrightarrow {r} }&A\\\downarrow _{u}&&\downarrow _{s}&&\downarrow _{f}\\D&{\xrightarrow {h} }&B&{\xrightarrow {g} }&C\end{array} }$$}@} <!--SR:!2025-10-30,91,374!2025-10-28,89,374!2025-11-01,93,374-->
+  Graphically this means that {@{two pullback squares, placed side by side and sharing one morphism}@}, form {@{a larger pullback square when ignoring the inner shared morphism}@}. {@{$${\begin{array}{ccccc}Q&{\xrightarrow {t} }&P&{\xrightarrow {r} }&A\\\downarrow _{u}&&\downarrow _{s}&&\downarrow _{f}\\D&{\xrightarrow {h} }&B&{\xrightarrow {g} }&C\end{array} }$$}@} <!--SR:!2025-10-30,91,374!2027-02-01,461,394!2025-11-01,93,374-->
 
 - {@{Any category with pullbacks and products}@} {@{has equalizers}@}. <!--SR:!2026-01-16,271,330!2026-05-21,340,290-->
 

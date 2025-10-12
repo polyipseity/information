@@ -135,7 +135,7 @@ return _chain.from_iterable(await _gather(
 - [gasoline/petrol](gasoline.md):@:fuel for [motor vehicles](motor%20vehicle.md) <!--SR:!2027-12-30,1211,314-->
 - [naphtha](naphtha.md):@:production of [plastics](plastic.md) and [town gas](coal%20gas.md) <!--SR:!2025-11-24,533,234-->
 - [jet fuel](jet%20fuel.md):@:fuel for [aeroplanes](airplane.md) <!--SR:!2027-04-11,999,294-->
-- [kerosene](kerosene.md):@:fuel for domestic use <!--SR:!2025-10-28,637,294-->
+- [kerosene](kerosene.md):@:fuel for domestic use <!--SR:!2032-12-10,2600,314-->
 - [fuel oil](fuel%20oil.md):@:fuel for [power plants](power%20station.md) and [ships](ship.md) <!--SR:!2025-11-18,613,274-->
 - [diesel fuel](diesel%20fuel.md):@:fuel for [buses](bus.md) and [trucks](truck.md) <!--SR:!2027-12-04,896,254-->
 - [paraffin wax](paraffin%20wax.md):@:[candles](candle.md), [lubrication](lubrication.md) <!--SR:!2029-08-26,1643,314-->

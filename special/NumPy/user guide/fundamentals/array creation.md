@@ -78,7 +78,7 @@ NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [
 
 ### 1D array creation functions
 
-{@{The 1D array creation functions}@} e.g. {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace") and [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} generally {@{need at least two inputs, `start` and `stop`}@}. <!--SR:!2025-10-28,277,330!2025-11-05,284,330!2026-01-24,353,350-->
+{@{The 1D array creation functions}@} e.g. {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace") and [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} generally {@{need at least two inputs, `start` and `stop`}@}. <!--SR:!2029-04-13,1263,350!2025-11-05,284,330!2026-01-24,353,350-->
 
 {@{[`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} creates {@{arrays with regularly incrementing values}@}. Check the documentation for complete information and examples. A few examples are shown: <!--SR:!2029-03-06,1233,350!2029-03-21,1246,350-->
 
@@ -200,7 +200,7 @@ array([[[1., 1.],
         [1., 1.]]])
 ```
 
-{@{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}@} will {@{create an array filled with random values between 0 and 1}@}. It is included with {@{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}@}. Below, two arrays are {@{created with shapes (2,3) and (2,3,2), respectively}@}. The seed is set to 42 so {@{you can reproduce these pseudorandom numbers}@}: <!--SR:!2027-11-29,859,330!2026-01-14,344,350!2027-12-10,800,330!2025-10-28,277,330!2029-01-07,1187,350-->
+{@{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}@} will {@{create an array filled with random values between 0 and 1}@}. It is included with {@{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}@}. Below, two arrays are {@{created with shapes (2,3) and (2,3,2), respectively}@}. The seed is set to 42 so {@{you can reproduce these pseudorandom numbers}@}: <!--SR:!2027-11-29,859,330!2026-01-14,344,350!2027-12-10,800,330!2029-04-17,1267,350!2029-01-07,1187,350-->
 
 ```Python
 >>> import numpy as np

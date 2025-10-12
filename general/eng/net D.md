@@ -23,7 +23,7 @@ tags:
 
 ## examples
 
-- The notation "net 30" indicates ::@:: that full payment is expected within 30 days. If a \$1000 invoice has the terms "net 30", the buyer must pay the full \$1000 within 30 days. <!--SR:!2028-01-28,835,330!2025-10-28,203,310-->
+- The notation "net 30" indicates ::@:: that full payment is expected within 30 days. If a \$1000 invoice has the terms "net 30", the buyer must pay the full \$1000 within 30 days. <!--SR:!2028-01-28,835,330!2028-03-17,871,330-->
 - The notation "2% 10, net 30" indicates ::@:: that a 2% discount can be taken by the buyer only if payment is received in full within 10 days of the date of the invoice, and that full payment is expected within 30 days, For example, if a \$1000 invoice has the terms, "2% 10, net 30", the buyer can take a 2% discount \(\$1000 x .02 = \$20\) and make a payment of \$980 within 10 days or pay the full \$1000 within 30 days. <!--SR:!2025-11-29,246,330!2026-01-13,281,330-->
 
 ## usage

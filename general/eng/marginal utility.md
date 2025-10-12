@@ -9,7 +9,7 @@ tags:
 
 # marginal utility
 
-In {@{[mainstream economics](mainstream%20economics.md)}@}, __marginal utility__ describes {@{the change in _[utility](utility.md)_ (pleasure or satisfaction resulting from the consumption) of one unit of a good or service}@}.<sup>[\[1\]](#^ref-1)</sup> Marginal utility can be {@{positive, negative, or zero}@}. {@{Negative marginal utility}@} implies that {@{every additional unit consumed of a commodity causes more harm than good, leading to a decrease in overall utility}@}. In contrast, {@{positive marginal utility}@} indicates that {@{every additional unit consumed increases overall utility}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-06,277,330!2025-11-18,287,330!2025-11-26,294,330!2025-10-28,269,330!2027-07-14,745,330!2028-09-03,1083,350!2025-10-31,272,330-->
+In {@{[mainstream economics](mainstream%20economics.md)}@}, __marginal utility__ describes {@{the change in _[utility](utility.md)_ (pleasure or satisfaction resulting from the consumption) of one unit of a good or service}@}.<sup>[\[1\]](#^ref-1)</sup> Marginal utility can be {@{positive, negative, or zero}@}. {@{Negative marginal utility}@} implies that {@{every additional unit consumed of a commodity causes more harm than good, leading to a decrease in overall utility}@}. In contrast, {@{positive marginal utility}@} indicates that {@{every additional unit consumed increases overall utility}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-06,277,330!2025-11-18,287,330!2025-11-26,294,330!2029-03-12,1231,350!2027-07-14,745,330!2028-09-03,1083,350!2025-10-31,272,330-->
 
 In the context of {@{[cardinal utility](cardinal%20utility.md)}@}, {@{liberal economists}@} {@{postulate a __law of diminishing marginal utility__}@}. This law states that {@{the first unit of consumption of a good or service}@} yields {@{more satisfaction or utility than the subsequent units}@}, and there is {@{a continuing reduction in satisfaction or utility for greater amounts}@}. As {@{consumption increases}@}, {@{the additional satisfaction or utility gained from each additional unit consumed}@} {@{falls}@}, a concept known as {@{___diminishing marginal utility___}@}. This idea is used by economics to {@{determine the optimal quantity of a good or service that a consumer is willing to purchase}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-16,285,330!2027-05-30,639,310!2025-11-25,293,330!2029-01-02,1179,350!2025-10-29,270,330!2028-12-15,1166,350!2025-11-07,278,330!2027-08-17,759,330!2025-11-06,25,372!2025-11-06,25,372!2025-11-06,25,372-->
 
@@ -27,7 +27,7 @@ Initially, {@{the term utility}@} {@{equated usefulness with the production of p
 
 {@{Contemporary mainstream economic theory}@} frequently {@{defers metaphysical questions}@}, and merely notes or assumes that {@{preference structures conforming to certain rules can be usefully _proxied_ by associating goods, services, or their uses with quantities}@}, and {@{_defines_ "utility" as such a quantification}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-11-11,281,330!2028-02-06,889,330!2025-11-24,292,330!2026-10-28,505,405-->
 
-In {@{any standard framework}@}, the same object may {@{have different marginal utilities for different people, reflecting different preferences or individual circumstances}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-10-28,271,330!2025-11-05,276,330-->
+In {@{any standard framework}@}, the same object may {@{have different marginal utilities for different people, reflecting different preferences or individual circumstances}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-03-19,1238,350!2025-11-05,276,330-->
 
 ## law of diminishing marginal utility
 
@@ -79,7 +79,7 @@ Price is determined by {@{both marginal utility and marginal cost, and here is t
 
 > {@{![Diminishing marginal utility, given quantification](../../archives/Wikimedia%20Commons/UtilityQuantified.svg)}@}
 >
-> {@{Diminishing marginal utility, given quantification}@} <!--SR:!2028-02-04,888,330!2025-10-28,269,330-->
+> {@{Diminishing marginal utility, given quantification}@} <!--SR:!2028-02-04,888,330!2029-03-11,1230,350-->
 
 Under {@{the [special case](special%20case.md) in which usefulness can be quantified}@}, {@{the change in utility of moving from state $S_{1}$ to state $S_{2}$}@} is {@{$$\Delta U=U(S_{2})-U(S_{1}).$$}@} Moreover, if {@{$S_{1}$ and $S_{2}$ are distinguishable by values of just one variable $g$, which is itself quantified}@}, then it {@{becomes possible to speak of the ratio of the marginal utility of the change in $g$ to the size of that change}@}: {@{$$\left.{\frac {\Delta U}{\Delta g} }\right|_{\text{c.p.} },$$}@} where {@{"[c.p.](ceteris%20paribus.md)" indicates that the _only_ [independent variable](dependent%20and%20independent%20variables.md) to change is $g$}@}. <!--SR:!2026-10-01,500,310!2025-11-07,278,330!2028-09-02,1082,350!2025-11-15,285,330!2027-09-17,783,330!2028-10-19,1120,350!2025-11-03,275,330-->
 

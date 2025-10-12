@@ -121,7 +121,7 @@ In general, however, {@{the electric field cannot be described independently of 
 
 - Main article: ::@:: [Charge density](charge%20density.md) <!--SR:!2026-05-04,345,351!2026-07-01,397,362-->
 
-{@{The equations of electromagnetism}@} are best {@{described in a continuous description}@}. However, charges are {@{sometimes best described as discrete points}@}; for example, some models may {@{describe [electrons](electron.md) as point sources}@} where {@{charge density is infinite on an infinitesimal section of space}@}. <!--SR:!2026-05-08,349,351!2026-05-13,354,351!2026-06-10,381,362!2026-05-10,351,351!2025-10-28,199,342-->
+{@{The equations of electromagnetism}@} are best {@{described in a continuous description}@}. However, charges are {@{sometimes best described as discrete points}@}; for example, some models may {@{describe [electrons](electron.md) as point sources}@} where {@{charge density is infinite on an infinitesimal section of space}@}. <!--SR:!2026-05-08,349,351!2026-05-13,354,351!2026-06-10,381,362!2026-05-10,351,351!2028-05-22,937,362-->
 
 {@{A charge $q$ located at $\mathbf {r} _{0}$}@} can be described mathematically as {@{a charge density ⁠$\rho (\mathbf {r} )=q\delta (\mathbf {r} -\mathbf {r} _{0})$}@}⁠, where {@{the [Dirac delta function](Dirac%20delta%20function.md) \(in three dimensions\) is used}@}. Conversely, {@{a charge distribution}@} can be {@{approximated by many small point charges}@}. <!--SR:!2026-07-07,403,371!2026-07-02,398,362!2026-07-13,409,371!2026-06-25,391,362!2026-05-03,344,351-->
 

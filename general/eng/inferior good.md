@@ -43,7 +43,7 @@ Others are {@{very inconsistent across geographic regions or cultures}@}. {@{The
 
 > ![generic Australian beer nuts](../../archives/Wikimedia%20Commons/Home%20brand%20beer%20nuts.jpg)
 >
-> An item such as {@{non-branded grocery products}@} are common inferior goods. There is {@{no set criteria of what constitutes an inferior good}@}, but economists refer to an inferior good as {@{any item preferred less when disposable consumer income increases}@}. <!--SR:!2025-10-28,263,330!2028-11-10,1128,350!2028-09-13,1083,350-->
+> An item such as {@{non-branded grocery products}@} are common inferior goods. There is {@{no set criteria of what constitutes an inferior good}@}, but economists refer to an inferior good as {@{any item preferred less when disposable consumer income increases}@}. <!--SR:!2029-02-08,1199,350!2028-11-10,1128,350!2028-09-13,1083,350-->
 
 {@{The shift in consumer demand for an inferior good}@} can be explained by {@{two natural economic phenomena}@}: {@{The substitution effect and the income effect}@}. These effects {@{describe and validate the movement of the demand curve}@} {@{in \(independent\) response to increasing income and relative cost of other goods}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-08-31,1071,350!2025-12-01,290,330!2025-11-12,275,330!2028-12-20,1159,350!2025-12-06,294,330-->
 

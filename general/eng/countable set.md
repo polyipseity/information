@@ -21,7 +21,7 @@ The concept is attributed to {@{[Georg Cantor](Georg%20Cantor.md)}@}, who {@{pro
 
 Although {@{the terms "countable" and "countably infinite" as defined here are quite common}@}, {@{the terminology is not universal}@}.<sup>[\[1\]](#^ref-1)</sup> An alternative style {@{uses _countable_ to mean what is here called countably infinite}@}, and {@{_at most countable_ to mean what is here called countable}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-01-03,290,330!2027-11-14,808,330!2027-05-24,673,330!2026-11-04,509,310-->
 
-{@{The terms _enumerable_<sup>[\[4\]](#^ref-4)</sup> and __denumerable__}@}<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> may {@{also be used, e.g. referring to countable and countably infinite respectively}@},<sup>[\[7\]](#^ref-7)</sup> {@{definitions vary}@} and care is needed respecting {@{the difference with [recursively enumerable](recursively%20enumerable%20language.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-12-03,819,330!2026-09-03,459,310!2025-10-28,237,330!2027-12-29,839,330-->
+{@{The terms _enumerable_<sup>[\[4\]](#^ref-4)</sup> and __denumerable__}@}<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> may {@{also be used, e.g. referring to countable and countably infinite respectively}@},<sup>[\[7\]](#^ref-7)</sup> {@{definitions vary}@} and care is needed respecting {@{the difference with [recursively enumerable](recursively%20enumerable%20language.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-12-03,819,330!2026-09-03,459,310!2028-10-12,1080,350!2027-12-29,839,330-->
 
 ## definition
 
@@ -106,7 +106,7 @@ For example, given {@{countable sets ${\textbf {a} },{\textbf {b} },{\textbf {c}
 
 > Theorem — {@{The set of all finite-length [sequences](sequence.md)}@} of natural numbers is countable. <!--SR:!2025-12-26,284,330-->
 
-This set is {@{the union of the length-1 sequences, the length-2 sequences, the length-3 sequences}@}, each {@{of which is a countable set \(finite Cartesian product\)}@}. So we are talking about {@{a countable union of countable sets}@}, which is {@{countable by the previous theorem}@}. <!--SR:!2025-12-29,286,330!2025-10-28,237,330!2026-01-03,290,330!2025-11-28,262,330-->
+This set is {@{the union of the length-1 sequences, the length-2 sequences, the length-3 sequences}@}, each {@{of which is a countable set \(finite Cartesian product\)}@}. So we are talking about {@{a countable union of countable sets}@}, which is {@{countable by the previous theorem}@}. <!--SR:!2025-12-29,286,330!2028-10-08,1076,350!2026-01-03,290,330!2025-11-28,262,330-->
 
 > Theorem — {@{The set of all finite [subsets](subset.md)}@} of the natural numbers is countable. <!--SR:!2026-01-07,277,290-->
 

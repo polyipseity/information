@@ -51,7 +51,7 @@ __Eq.2__ is {@{also $N$-periodic (in index $n$)}@}. In __Eq.2__, each $X_k$ is {
 
 ### linearity
 
-The DFT is {@{a linear transform}@}, i.e. if {@{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}@}, then {@{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}@}. <!--SR:!2029-10-29,1511,376!2030-05-16,1667,376!2025-10-28,345,356-->
+The DFT is {@{a linear transform}@}, i.e. if {@{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}@}, then {@{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}@}. <!--SR:!2029-10-29,1511,376!2030-05-16,1667,376!2030-06-10,1686,376-->
 
 ### time and frequency reversal
 

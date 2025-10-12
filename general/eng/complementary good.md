@@ -39,7 +39,7 @@ An example of this would be {@{the demand for [cars](car.md) and [petrol](gasoli
 
 {@{Few goods}@} behave as {@{perfect complements}@}.<sup>[\[6\]](#^ref-6)</sup> One example is {@{a left shoe and a right}@}; shoes are {@{naturally sold in pairs}@}, and the ratio between {@{sales of left and right shoes will never shift noticeably from 1:1}@}. <!--SR:!2025-11-28,293,330!2025-11-12,279,330!2028-09-25,1097,350!2028-09-26,1099,350!2028-11-06,1131,350-->
 
-{@{The degree of complementarity}@}, however, does not {@{have to be mutual}@}; it can be {@{measured by the [cross price elasticity of demand](cross%20elasticity%20of%20demand.md)}@}. In {@{the case of video games}@}, a specific video game \(the complement good\) {@{has to be consumed with a video game console \(the base good\)}@}. It does not {@{work the other way: a video game console does not have to be consumed with that game}@}. <!--SR:!2025-10-28,267,330!2028-09-01,1078,350!2025-11-14,281,330!2028-11-21,1143,350!2028-12-23,1167,350!2025-11-29,294,330-->
+{@{The degree of complementarity}@}, however, does not {@{have to be mutual}@}; it can be {@{measured by the [cross price elasticity of demand](cross%20elasticity%20of%20demand.md)}@}. In {@{the case of video games}@}, a specific video game \(the complement good\) {@{has to be consumed with a video game console \(the base good\)}@}. It does not {@{work the other way: a video game console does not have to be consumed with that game}@}. <!--SR:!2029-02-26,1217,350!2028-09-01,1078,350!2025-11-14,281,330!2028-11-21,1143,350!2028-12-23,1167,350!2025-11-29,294,330-->
 
 ### example
 

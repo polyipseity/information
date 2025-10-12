@@ -17,16 +17,16 @@ Note that when you call `print`, even if you have not added newlines to the stri
 
 ## clear
 
-{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!2025-12-24,60,310!2025-10-28,17,317!2025-10-28,17,317-->
+{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!2025-12-24,60,310!2026-01-13,77,337!2026-01-13,77,337-->
 
 ```Python
 for _ in range(4):
   print("\n" * 25)
 ```
 
-Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!2025-12-23,59,310!2025-10-28,17,317-->
+Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!2025-12-23,59,310!2026-01-13,77,337-->
 
-If your console is an actual console, then you can call {@{a system command using `os.system`}@}, which is {@{`cls` on Windows and `clear` on UNIX systems}@}. One can detect {@{whether the current OS is Windows}@} by writing {@{`os.name == "nt"`}@}. <!--SR:!2026-01-01,67,310!2025-12-30,65,310!2025-10-28,17,317!2025-10-28,17,317-->
+If your console is an actual console, then you can call {@{a system command using `os.system`}@}, which is {@{`cls` on Windows and `clear` on UNIX systems}@}. One can detect {@{whether the current OS is Windows}@} by writing {@{`os.name == "nt"`}@}. <!--SR:!2026-01-01,67,310!2025-12-30,65,310!2026-01-12,76,337!2026-01-13,77,337-->
 
 ```Python
 import os

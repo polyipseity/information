@@ -227,7 +227,7 @@ personal assistance
 
 #### revenue streams
 
-The revenue streams building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2028-02-28,1009,294!2025-10-28,419,317!2026-11-18,655,317-->
+The revenue streams building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2028-02-28,1009,294!2030-11-07,1836,337!2026-11-18,655,317-->
 
 ##### revenue stream examples
 
@@ -298,4 +298,4 @@ Business model fit can be achieved by {@{reiteration between changing the value 
 
 ## comparison with other models
 
-The business model canvas can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections}@}: {@{"feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2028-06-20,985,289!2026-07-04,473,270!2027-05-24,776,329!2025-10-28,18,327!2025-10-28,18,327!2025-10-28,18,327-->
+The business model canvas can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections}@}: {@{"feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2028-06-20,985,289!2026-07-04,473,270!2027-05-24,776,329!2026-01-18,82,347!2026-01-16,80,347!2026-01-17,81,347-->

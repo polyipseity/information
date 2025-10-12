@@ -36,7 +36,7 @@ We went over some leadership theory and did some group activities, basically.
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2025-12-03,293,330!2027-12-06,799,330-->
   - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2029-02-07,1199,350!2028-11-10,1130,350-->
   - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2027-08-12,748,330!2029-02-03,1196,350-->
-  - John Heron self and peer feedback ::@:: Suitable for gather personal feedback. <!--SR:!2025-10-28,264,330!2025-10-31,267,330-->
+  - John Heron self and peer feedback ::@:: Suitable for gather personal feedback. <!--SR:!2029-02-11,1202,350!2025-10-31,267,330-->
 - 6 feedback guidelines ::@:: behavior, comfortable, no buts, own it, sift & sort, timely <!--SR:!2025-12-02,292,330!2027-10-01,785,330-->
   - 6 feedback guidelines / behavior ::@:: Focus on things that can be changed, not personality. <!--SR:!2025-12-04,294,330!2027-10-22,802,330-->
   - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2029-02-04,1198,350!2027-08-27,755,330-->
