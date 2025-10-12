@@ -320,3 +320,110 @@ For each \(grouping of\) _use cases_, produce {@{a use case _specification_ \(no
 To {@{draw a use case diagram}@}, identify {@{its main elements}@}. Then, draw {@{a large _rectangle_ to represent the _system boundary_}@}. {@{_Within_}@} the system boundary, draw {@{an _oval_ for each _use case_ with its name}@}. {@{_Outside_}@} the system boundary, draw {@{a _stick figure_ for each _actor_ with its name}@}. Finally, for each {@{actor potentially initiating a use case}@}, draw {@{an _solid arrow_ pointing from the actor to the use case}@}, indicating {@{an _unidirectional association_ with the _implicit_ association name "use"}@}. Optionally, identify {@{_communication_ associations \(flow of information between a \(system\) actor and a use case\)}@}, and draw {@{a _solid line_ \(no arrow as it is _bidirectional_\) connecting the actor and the use case}@}. No need to {@{_name_ the association}@} as {@{the "communication" association name is _implied_ in the context of a use case diagram}@}.
 
 In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \(kinds of classes\)}@}. So {@{_generalization_}@} also {@{applies to actors and use cases}@}, indicated by {@{a _dashed arrow_ with a _hollow_ triangle as the arrow head}@}, pointing from {@{the sub-actors to the super-actor}@}. Again, using generalization is {@{a _design decision_}@}. \(__this course__: Do _not_ use {@{generalization for use cases}@} in our project. It is {@{_unnecessary_ and often used _incorrectly_}@}.\)
+
+### use case specification
+
+{@{A detailed use‑case description}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 items: {@{name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)}@}\)
+
+1. __Name__ ::@:: concise title written as an active‑voice verb phrase in the present tense.
+2. __Brief description__ ::@:: a short \(one-sentence\) summary of the scenario.
+3. __Actors__ ::@:: the participants initiating the use case, optionally illustrated with a use case diagram fragment.
+4. __Preconditions__ \(if any\) ::@:: conditions that must hold before the use case can start; they state _what_ is required, not _how_ it is achieved.
+5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered.
+6. __Postconditions__ \(if any\) ::@:: the state that must hold after completion if it matters to stakeholders or for subsequent use cases.
+7. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow.
+8. __Special (non‑functional) requirements__ \(if any\) ::@:: any constraints such as performance or security that apply to this scenario.
+
+#### use case preconditions
+
+In use‑case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "{@{how}@}"\).
+
+Preconditions serve to keep {@{each use‑case description independent of others}@} by focusing only on {@{the necessary state of both the system and its participants}@}. They are typically written in {@{a declarative style}@} (e.g., {@{"The user is logged in"}@}) and are considered {@{necessary but not sufficient for the use case to proceed}@}, considering that starting a use case {@{always requires an actor to do something}@}.
+
+#### use case postconditions
+
+{@{A postcondition}@} captures {@{the state that the system must be in after the conclusion of a use case}@}, provided that this final state {@{matters to an actor or influences subsequent behaviour}@}, e.g. {@{"after withdrawal, the account balance must remain non‑negative"}@} in an ATM withdrawal use case. {@{Postconditions are written}@} when {@{the outcome of the scenario is non‑obvious}@} or when {@{the resulting state will act as a precondition for another use case}@}. They help {@{readers—developers, testers, and stakeholders}@}—to understand {@{what has changed in the system}@} and ensure that {@{the intended effects of the interaction have been achieved}@} (e.g., {@{"The order record is saved in the database"}@}).
+
+#### use case flow of events
+
+{@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step‑by‑step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface → instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\)
+
+- Optional behavior ::@:: – Actions that may occur _in addition_ to the normal flow but are not required for completion.
+- Variant behavior ::@:: – A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop‑up informs the user and jumps to "SelectCourse".
+- Exceptional behavior ::@:: – Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm".
+
+From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}.
+
+{@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event‑response orientation}@} that focuses on {@{what happens rather than how it is implemented}@}.
+
+> [!example] __branching using `if`__
+>
+> The syntax for {@{branching}@} using {@{`if`}@}:
+>
+> ```text
+> n.  If <boolean‑expression>
+>     n.1  <declarative‑statement>
+>     n.2  <declarative‑statement>
+>     ...
+> n+1.
+> ```
+
+<!-- markdownlint MD028 -->
+
+> [!example] __iteration using `for`__
+>
+> The syntax for {@{iteration}@} using {@{`for`}@}:
+>
+> ```text
+> n.  For <iteration‑expression>
+>     n.1  <declarative‑statement>
+>     n.2  <declarative‑statement>
+>     ...
+> n+1.
+> ```
+
+<!-- markdownlint MD028 -->
+
+> [!example] __iteration using `while`__
+>
+> The syntax for {@{iteration}@} using {@{`while`}@}:
+>
+> ```text
+> n.  While <boolean‑expression>
+>     n.1  <declarative‑statement>
+>     n.2  <declarative‑statement>
+>     ...
+> n+1.
+> ```
+
+#### use case extension points
+
+{@{An _extension point_}@} is {@{a _named_ location in the flow}@} where {@{additional behaviour may be inserted}@}. They come in three forms: \(annotation: 3 items: {@{single location, set of discrete locations, region}@}\)
+
+- _single location_ ::@:: occurs at a single place (e.g., "ValidateTerm" in a course registration system)
+- _set of discrete locations_ ::@:: occurs at multiple places (e.g., "ConfirmSelection" used after both adding and dropping courses)
+- _region_ ::@:: a matched pair of points that delimit a set of positions, which are suitably named to make clear that they are matched (e.g., from "BeginEditingSchedule" to "EndEditingSchedule" in a course registration system)
+
+{@{Extension points}@} are mainly employed to {@{host alternative flows}@}, allowing {@{optional, variant, or exceptional behaviour to be attached in a modular way}@} without {@{cluttering the basic sequence}@}.
+
+#### use case alternative flows
+
+{@{An _alternative flow_}@} describes {@{a path that diverges from the normal (basic) sequence of actions}@} in order to {@{capture infrequently used, variant, or exceptional behaviour}@}. {@{Each alternative}@} is {@{numbered (A1, A2, ...)}@} and given {@{a name that is unique within the use case}@}, reflecting {@{its purpose}@}. {@{The first line of an alternative flow}@} indicates {@{where it can be triggered}@}: \(annotation: 3 items: {@{specific, bounded, general}@}\)
+
+- __Specific__ ::@:: "At {extension point} when ...", "At {extension point} if ..."
+- __Bounded__ ::@:: "At any point between {extension point 1} and {extension point 2} ..."
+- __General__ ::@:: "At any time in the flow of events ..."
+
+{@{The body}@} lists {@{the steps that occur while the alternative is active}@}. Crucially, {@{every alternative flow—whether optional, variant, or exceptional}@}—must {@{explicitly state where control returns to the main flow}@}: typically {@{the original extension point \(typically optional and exceptional\)}@}, {@{another designated point \(typically variant and exceptional\)}@}, or {@{the end of the use case if it terminates there \(typically exceptional\)}@}. {@{This explicit return}@} ensures that readers understand {@{how the alternative integrates with the overall scenario}@} and prevents {@{ambiguity about the system's subsequent behaviour}@}.
+
+#### use case subflows
+
+{@{A _subflow_}@} is {@{a self‑contained segment of behaviour}@} that is {@{referenced from the main flow of events}@} to {@{improve readability and structure}@}. Subflows are {@{__atomic__ in the sense}@} that they have {@{a clear purpose but are not independent use cases}@}; they remain {@{part of the same scenario}@}. They should be {@{numbered (S1, S2, ...)}@} and given {@{unique \(within the use case\), active names}@} that {@{indicate their intent}@}, e.g. {@{"CreateSchedule", "ModifySchedule"}@}. {@{The main flow references a subflow}@} with {@{the phrase "Perform subflow &lt;subflow‑name&gt;".}@} Subflows are meant to encapsulate {@{repetitive or complex sequences without creating new use cases}@}; therefore, {@{excessive nesting of subflows}@} should be {@{avoided to keep the specification concise and comprehensible}@}.
+
+### use case detail level
+
+{@{The goal of a use‑case specification}@} is to provide {@{sufficient detail so that all stakeholders—developers, testers, business users, and customers—agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}.
+
+When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low‑value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}.
+
+To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}.

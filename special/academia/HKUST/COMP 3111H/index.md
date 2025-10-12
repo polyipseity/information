@@ -517,8 +517,48 @@ The content is in teaching order.
 
 ## week 5 pre-lecture
 
-- topic:
+- topic: use case specification; basic flow; extension point; alternative flow; subflow; non-functional requirement; validation
+- requirements elicitation
+- UML
+  - [§ use case specification](UML.md#use%20case%20specification)
+  - [§ use case preconditions](UML.md#use%20case%20preconditions)
+  - [§ use case postconditions](UML.md#use%20case%20postconditions)
+  - [§ use case flow of events](UML.md#use%20case%20flow%20of%20events)
+  - [§ use case extension points](UML.md#use%20case%20extension%20points)
+  - [§ use case alternative flows](UML.md#use%20case%20alternative%20flows)
+  - [§ use case subflows](UML.md#use%20case%20subflows)
+  - [§ use case detail level](UML.md#use%20case%20detal%20level)
 - quiz: [quiz 8](questions/quiz%208.md)
+- [non-functional requirement](../../../../general/non-functional%20requirement.md) ::@:: It is a requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviours. They are contrasted with functional requirements that define specific behavior or functions. <p> It places _constraints_ on use cases or the system.
+  - non-functional requirement / discovery ::@:: A key challenge highlighted was that non‑functional requirements often remain implicit until they surface during validation. <p> To mitigate this, read each requirement statement line‑by‑line, identify the hidden constraint, and classify it into one of the NFR categories.
+  - non-functional requirement / categories ::@:: design quality, documentation, hardware, implementation, interface \(user, system\), management, performance, physical environment, security
+    - non-functional requirement / categories / design quality ::@:: reliability, supportability, maintainability; e.g., "No software faults should require a user reset."
+    - non-functional requirement / categories / documentation ::@:: who the docs are for and what they contain; e.g., "User manuals must be written in plain English."
+    - non-functional requirement / categories / hardware ::@:: platform constraints, e.g. implementation platform, memory size, storage size, etc.
+    - non-functional requirement / categories / implementation :;@:: language choices, error handling standards, etc.
+    - non-functional requirement / categories / interface ::@:: UI learnability/usability and external system formats/timing; e.g., "Any user who knows how to read a digital watch and understand international time should be able to use our watch."
+    - non-functional requirement / categories / management ::@:: backup, installation, maintenance procedures
+    - non-functional requirement / categories / performance ::@:: speed, throughput, response time, accuracy; e.g., "Display must update within 5 min after GPS blackout."
+    - non-functional requirement / categories / physical environment ::@:: abnormal conditions, distributed operations, etc.
+    - non-functional requirement / categories / security ::@:: access control, data access, physical access, system access, etc.
+  - non-functional requirement / specification ::@:: Record them either as supplementary constraints on top of use cases or as system‑wide constraints. <p> _Operational_ NFRs can be attached to _administration_ use cases (e.g., "Login" for security) or expressed at the system level when they affect overall architecture. Administration use cases address operational concerns such as system start‑up, shutdown, backup, and security policies.
+- [software verification and validation](../../../../general/software%20verification%20and%20validation.md) ::@:: It is the process of checking that a software system meets specifications and requirements so that it fulfills its intended purpose. It may also be referred to as software quality control. It is normally the responsibility of software testers as part of the software development lifecycle.
+  - software verification and validation / simple definition ::@:: In simple terms, software verification is: "Assuming we should build X, does our software achieve its goals without any bugs or gaps?" On the other hand, software validation is: "Was X what we should have built? Does X meet the high-level requirements?"
+  - software verification and validation / characteristics ::@:: completeness, consistency, clarity, correctness, realism
+    - software verification and validation / characteristics / completeness ::@:: every feature and exception must be described; the SRS should cover all stakeholder interests <p> example: Missing boundary behaviour near GPS accuracy limits → add a rule that zone changes only after five minutes.
+    - software verification and validation / characteristics / consistency ::@:: no internal contradictions; requirements must align logically with each other <p> example: Contradictory upgrade requirements → revise one to resolve conflict.
+    - software verification and validation / characteristics / clarity ::@:: unambiguous language that yields a single interpretation for any reader <p> example: Ambiguity about daylight‑saving handling → explicitly state the policy in the spec, e.g. explicitly requiring DST support.
+    - software verification and validation / characteristics / correctness ::@:: faithfully reflects what the client actually wants <p> Claim of only 24 time zones when half‑hour offsets exist → broaden requirement to cover all legal zones.
+    - software verification and validation / characteristics / realism ::@:: feasible within time, cost, and technical constraints
+  - software verification and validation / methods ::@:: Acceptance tests are the primary means to validate a system _implementation_ satisfies the requirements. They are prescribed later in the _testing_ phase. <p> They are conducted with clients or end users, who confirm that implemented features satisfy the written requirements.
+- requirements elicitation
+  - requirements elicitation / workflow ::@:: - Capture data requirements → domain model / class diagram. <br/> - Capture functional requirements → use case model, diagram and specifications. <br/> - Capture non‑functional constraints as described above. <br/> - Validate the entire SRS against completeness, consistency, clarity, correctness, and realism. <br/> - Refine through iterative cycles: add test cases, produce analysis and design models, then implement.
+- UML
+  - [§ domain models](UML.md#domain%20models) ::@:: Use class diagrams to depict entities, attributes, and associations; this informs data persistence and object interactions.
+  - [§ use case models](UML.md#use%20case%20models) ::@:: The use‑case diagram lists actors and system functions; each use case is further detailed by a flow of events that sequences actions and decision points.
+- software verification and validation
+- software requirements specification
+  - software requirements specification / iteration ::@:: The SRS is a living artifact that evolves with stakeholder feedback, forming the foundation for all later phases (analysis, design, implementation). <p> Early iterations produce high‑level _domain_, _use‑case_ models, and _nonfunctional_ requirements; subsequent passes add detail, test cases to the _test model_, matching use case realizations to the _analysis model_, and matching use case realizations to the _design model_. <p> We can see use cases _drive_ subsequent development.
 - quiz: [quiz 9](questions/quiz%209.md)
 - [questions § week 5 pre-lecture](questions/index.md#week%205%20pre-lecture)
 
@@ -537,7 +577,7 @@ The content is in teaching order.
   - COMP 3111H / lab 4 ::@:: UML data modeling (class & use-case diagrams)
     - COMP 3111H / lab 4 / objectives ::@:: - Gain hands‑on experience drawing _UML Class Diagrams_ and _Use‑Case Diagrams_. <br/> - Learn to model relationships, cardinalities, inheritance, and associations accurately. <br/> - Practice using an online diagramming tool (draw.io) integrated with Google Drive for collaborative work.
     - COMP 3111H / lab 4 / draw.io ::@:: Web‑based application that supports flowcharts, ER diagrams, UML diagrams, etc. Fully integrated with Google Workspace; diagrams can be auto‑saved to a Google Drive folder or Gmail account. Offers editing options for color, line type, and connector points directly on each shape.
-    - COMP 3111H / lab 4 / generalization ::@:: It is possible to model _multiple inheritance_. For example, in a UNO game, the following cards may be modeled like below: <p> - `PlusTwoCard` ⟶ `SkipCard` <br/> - `PlusFourWildCard` ⟶ `SkipCard` and `WildCard`.
+    - COMP 3111H / lab 4 / multiple generalization ::@:: It is possible to model _multiple inheritance_. For example, in a UNO game, the following cards may be modeled like below: <p> - `PlusTwoCard` ⟶ `SkipCard` <br/> - `PlusFourWildCard` ⟶ `SkipCard` and `WildCard`.
 <!-- - assignment: [lab 4](assignments/lab%204/index.md) -->
 
 ## week 6 pre-lecture
