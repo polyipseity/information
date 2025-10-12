@@ -1,5 +1,3 @@
---index-url https://pypi.org/simple/
-
 aiohttp>=3.9.0
 aioshutil>=1.2.0
 anyio>=3.6.0
