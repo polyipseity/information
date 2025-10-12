@@ -503,7 +503,7 @@ The content is in teaching order.
 ## week 4 lab
 
 - datetime: 2025-09-25T18:00:00+08:00/2025-09-25T19:50:00+08:00, PT1H50M
-- topic:
+- topic: JavaFX; scene builder
 - COMP 3111H
   - COMP 3111H / lab 3 ::@:: Lab 3 focuses on creating JavaFX UIs using Scene Builder and integrating them into an IntelliJ Maven project.
     - COMP 3111H / lab 3 / objectives ::@:: Build a simple UI, link it to Java code, use JDK 21, IntelliJ 2022+, and Scene Builder 19+.
@@ -569,16 +569,49 @@ The content is in teaching order.
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
 - [questions § week 5 lecture](questions/index.md#week%205%20lecture)
 
+---
+
+> Dear Comp3111/H Students,
+>
+> To synchronize the progress of L1 and L2, we will not have lecture for both L1 and L2 this week. But please make sure to complete all the necessary quizzes online before the deadlines : \)
+>
+> Regards,
+>
+> \[redacted\]
+
 ## week 5 lab
 
 - datetime: 2025-10-02T18:00:00+08:00/2025-10-02T19:50:00+08:00, PT1H50M
-- topic:
+- topic: UML modeling; draw.io; project demonstration
 - COMP 3111H
   - COMP 3111H / lab 4 ::@:: UML data modeling (class & use-case diagrams)
     - COMP 3111H / lab 4 / objectives ::@:: - Gain hands‑on experience drawing _UML Class Diagrams_ and _Use‑Case Diagrams_. <br/> - Learn to model relationships, cardinalities, inheritance, and associations accurately. <br/> - Practice using an online diagramming tool (draw.io) integrated with Google Drive for collaborative work.
     - COMP 3111H / lab 4 / draw.io ::@:: Web‑based application that supports flowcharts, ER diagrams, UML diagrams, etc. Fully integrated with Google Workspace; diagrams can be auto‑saved to a Google Drive folder or Gmail account. Offers editing options for color, line type, and connector points directly on each shape.
     - COMP 3111H / lab 4 / multiple generalization ::@:: It is possible to model _multiple inheritance_. For example, in a UNO game, the following cards may be modeled like below: <p> - `PlusTwoCard` ⟶ `SkipCard` <br/> - `PlusFourWildCard` ⟶ `SkipCard` and `WildCard`.
+  - COMP 3111H / project
+    - COMP 3111H / project / demonstration
 <!-- - assignment: [lab 4](assignments/lab%204/index.md) -->
+
+---
+
+> Dear Students,
+>
+> Please note the lab 4 schedule change:
+>
+> Old schedule:
+> Lab 4           Week \# 6
+>
+> New schedule:
+> Lab 4               Week \# 5 \(2nd October and 3rd October\)
+>
+> The schedule is updated on Canvas as well.
+>
+> Reminder: In lab 4 I will present the project demo, and discuss the project requirements \(available on Canvas as well\). Furthermore, if you got any questions regarding project requirements you can feel free to email me or attend the lab 4 session.
+>
+> Thanks.
+>
+> Regards,
+> COMP3111 Teaching Team
 
 ## week 6 pre-lecture
 
