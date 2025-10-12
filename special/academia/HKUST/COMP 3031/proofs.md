@@ -296,13 +296,13 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{`x < elem`}@}, `incl` recurses {@{into the left child: `NonEmpty(elem, l.incl(x), r)`}@}. By {@{the induction hypothesis}@}, {@{`l.incl(x).contains(x)` is `true`}@}; consequently {@{the whole expression evaluates to `true`}@}.
 > - {@{The case `x > elem`}@} is {@{analogous with the right child}@}.
 >
-> Thus {@{law 2 holds for all trees}@}.
+> Thus {@{law 2 holds for all trees}@}.
 
 <!-- markdownlint MD028 -->
 
 > [!example] __proving non‑insertion preserves membership: base case__
 >
-> The proof {@{mirrors law 2}@} but keeps {@{track of a distinct element $y$}@}.
+> The proof {@{mirrors law 2}@} but keeps {@{track of a distinct element $y$}@}.
 >
 > {@{Base}@}: for {@{an empty tree}@},
 >

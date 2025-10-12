@@ -505,9 +505,9 @@ The content is in teaching order.
 - datetime: 2025-09-25T18:00:00+08:00/2025-09-25T19:50:00+08:00, PT1H50M
 - topic:
 - COMP 3111H
-  - COMP 3111H / lab 3 ::@:: Lab 3 focuses on creating JavaFX UIs using Scene Builder and integrating them into an IntelliJ Maven project.
-    - COMP 3111H / lab 3 / objectives ::@:: Build a simple UI, link it to Java code, use JDK 21, IntelliJ 2022+, and Scene Builder 19+.
-    - COMP 3111H / lab 3 / tools ::@:: Install _Java SE Development Kit_ 21 for the compiler and runtime. Use _IntelliJ IDEA_ version 2022 or newer as the IDE. Download and install _Scene Builder_ 19+ (recommended 22.0.0 for Java 17+).
+  - COMP 3111H / lab 3 ::@:: Lab 3 focuses on creating JavaFX UIs using Scene Builder and integrating them into an IntelliJ Maven project.
+    - COMP 3111H / lab 3 / objectives ::@:: Build a simple UI, link it to Java code, use JDK 21, IntelliJ 2022+, and Scene Builder 19+.
+    - COMP 3111H / lab 3 / tools ::@:: Install _Java SE Development Kit_ 21 for the compiler and runtime. Use _IntelliJ IDEA_ version 2022 or newer as the IDE. Download and install _Scene Builder_ 19+ (recommended 22.0.0 for Java 17+).
     - COMP 3111H / lab 3 / JavaFX ::@:: A framework built on Java that supplies libraries for building graphical user interfaces (GUIs). It provides standard controls—buttons, menus, text fields—and supports custom components.
     - COMP 3111H / lab 3 / scene builder ::@:: Visual design tool where you drag and drop _JavaFX_ UI elements onto a canvas. It generates an _.fxml_ file that describes the layout in XML; JavaFX reads this at runtime to construct the interface. <p> Many apps encode GUIs in markup (XML, HTML); writing them by hand can be error‑prone and tedious. Scene Builder visualises the structure, making it easier to understand and modify complex layouts quickly.
       - COMP 3111H / lab 3 / scene builder / drag-and-drop ::@:: Select a component from the library panel. Drag it onto the design surface; drop where you want it positioned. The tool automatically creates the corresponding XML tags in the _.fxml_ file.
