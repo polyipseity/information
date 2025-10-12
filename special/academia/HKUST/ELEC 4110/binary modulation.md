@@ -51,7 +51,7 @@ For {@{a transmitted '1'}@}: {@{$$P_e^{(1)} = P(N_T < -AT) = Q\!\left(\frac{AT}{
 
 For {@{a transmitted '0'}@}: {@{$$P_e^{(0)} = P(N_T > AT) = Q\!\left(\frac{AT}{\sigma_{n_T} }\right) = Q\!\left(\sqrt{\frac{2A^2T}{N_0} }\right) = Q\left(\sqrt {\frac{2E_b} {N_0} } \right) \,,$$}@} where {@{$E_b = A^2 T$}@} is {@{the signal \(excluding the noise\) power \(see below\)}@}.
 
-Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,,$$}@}. Notice how {@{the input bit probabilities}@} do not {@{affect the BER}@}.
+Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,.$$}@} Notice how {@{the input bit probabilities}@} do not {@{affect the BER}@}.
 
 ### bit error rate with arbitrary threshold
 
