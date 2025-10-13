@@ -641,7 +641,7 @@ The content is in teaching order.
   - assertion / uses ::@:: Assertions can help a programmer read the code, help a compiler compile it, or help the program detect its own defects.
   - assertion / conditions ::@:: Precondition assertions check inputs before a routine executes; postcondition assertions verify outputs after execution.
   - assertion / reasoning ::@:: Forward reasoning (pre → post; what will happen) is intuitive but may introduce irrelevant facts that increase in number hopelessly; backward reasoning (post → pre; what should happen) guides test case creation and bug reproduction.
-    - assertion / reasoning / forward ::@:: Simulate the program's execution step‑by‑step starting from a known _precondition_ to predict the resulting _postcondition_. <p> _Example:_ Given `x` is even, after executing `x = x + 3; y = 2 * x;`, forward reasoning tells us `y = 2*(x+3)` and that `y` will be even (since adding 3 to an even number yields odd, then doubling makes it even again).  
+    - assertion / reasoning / forward ::@:: Simulate the program's execution step‑by‑step starting from a known _precondition_ to predict the resulting _postcondition_. <p> _Example:_ Given `x` is even, after executing `x = x + 3; y = 2 * x;`, forward reasoning tells us `y = 2*(x+3)` and that `y` will be even (since adding 3 to an even number yields odd, then doubling makes it even again).
     - assertion / reasoning / backward ::@:: Work backwards from a desired _postcondition_ to deduce the necessary _preconditions_ that must hold before execution. It may also be used to _deduce_ the required inputs to achieve a _goal_ or reproduce a _bug_. <p> _Example:_ To guarantee after running `x = x + 3; y = 2 * x;` that `y > x`, backward reasoning solves `2*(x+3) > x` → `x > -3`. Thus, the precondition needed is "`x` is an integer larger than `-3`."
   - assertion / uses
     - assertion / uses / typical ::@:: verifying array bounds, non‑null pointers, expected file states, invariant maintenance across method calls, etc.
@@ -749,9 +749,22 @@ The content is in teaching order.
 ## week 6 lab
 
 - datetime: 2025-10-09T18:00:00+08:00/2025-10-09T19:50:00+08:00, PT1H50M
-- topic:
+- topic: Git; GitHub
 - COMP 3111H
-  - COMP 3111H / lab 5
+  - COMP 3111H / lab 5 ::@:: team development on GitHub
+    - COMP 3111H / lab 5 / summary ::@:: The lab lets teams practice real‑world collaboration using GitHub: create a team repo, clone it locally, experiment with branching, submit pull requests (PRs), and review code.
+    - COMP 3111H / lab 5 / GitHub import ::@:: One designated person (ideally the leader) imports the project's GitHub repo as a new "Lab 5" repo to keep it separate from the main project.
+    - COMP 3111H / lab 5 / clone ::@:: Every member clones the newly created team repo onto their machine: `git clone <repo‑url>`. Alternatively, you may use command line or IntelliJ's VCS integration; consistency is key so that all branches are tracked correctly.
+    - COMP 3111H / lab 5 / new branch ::@:: Create a new branch: `git checkout -b <feature‑name>`. It automatically switches to it.
+    - COMP 3111H / lab 5 / commit ::@:: Edit files, stage (`git add .`), and commit (`git commit -m "..."`).
+    - COMP 3111H / lab 5 / push ::@:: Push the branch to GitHub: `git push --set-upstream origin <feature‑name>`.
+    - COMP 3111H / lab 5 / GitHub pull requests \(PRs\) ::@:: 1. On GitHub, click "New pull request" and choose your feature branch against `main`. <br/> 2. Fill in a descriptive title and optional checklist or template. <br/> 3. Add reviewers (e.g., teammates, TA). <br/> 4. Submit the PR; the reviewer(s) will comment, approve, or request changes. <br/> 5. Once approved, merge into `main` (either via "Merge pull request" button or command line).
+    - COMP 3111H / lab 5 / GitHub issues ::@:: Write an issue before starting a branch: "Issue \#1 – server‑connection feature". Name the corresponding branch, e.g. `issue‑1_server-connection`. Link PRs to issues; GitHub will auto‑close the issue when the PR is merged.
+    - COMP 3111H / lab 5 / GitHub projects ::@:: Use GitHub's Project board to track tasks, assign labels, and move cards through columns (e.g., "To Do → In Progress → Done"). This visual aid keeps everyone aware of ongoing work and deadlines.
+    - COMP 3111H / lab 5 / GitHub templates ::@:: Create markdown templates in the `.github/ISSUE_TEMPLATE` and `.github/PULL_REQUEST_TEMPLATE` folders. Templates standardise information (e.g., steps to reproduce, test coverage) and reduce review overhead.
+    - COMP 3111H / lab 5 / GitHub network ::@:: The "Network" view shows how branches diverge and merge, helping you spot conflicts or orphaned commits early.
+    - COMP 3111H / lab 5 / GitHub wiki ::@:: Use the repository Wiki to maintain design docs, setup guides, or any shared knowledge that evolves during the course.
+    - COMP 3111H / lab 5 / GitHub Actions ::@:: Configure actions in `.github/workflows/`, e.g. run tests on every PR (`push` and `pull_request`), auto‑deploy a staging environment after merging into `main`, etc. Actions keep code quality high by catching bugs before they hit the main branch.
 - assignment: [lab 5](assignments/lab%205/index.md)
 
 ## aftermath
