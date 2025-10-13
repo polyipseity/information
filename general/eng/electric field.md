@@ -171,7 +171,7 @@ Both {@{the [electric current density](electric%20current%20density.md) and the 
 
 As {@{__E__ and __B__ fields are coupled}@}, it would be {@{misleading to split this expression into "electric" and "magnetic" contributions}@}. In particular, {@{an electrostatic field in any given frame of reference in general}@} {@{transforms into a field with a magnetic component in a relatively moving frame}@}. Accordingly, {@{decomposing the electromagnetic field into an electric and magnetic component}@} is {@{frame-specific, and similarly for the associated energy}@}. <!--SR:!2026-04-29,340,346!2025-12-21,239,330!2026-06-28,394,362!2026-07-19,415,371!2026-02-01,270,330!2026-01-28,249,331-->
 
-{@{The total energy _U_<sub>EM</sub> stored in the electromagnetic field in a given volume _V_}@} is {@{$$U_{\text{EM} }={\frac {1}{2} }\int _{V}\left(\varepsilon |\mathbf {E} |^{2}+{\frac {1}{\mu } }|\mathbf {B} |^{2}\right)dV\,.$$}@} <!--SR:!2025-10-30,200,342!2027-02-21,505,290-->
+{@{The total energy _U_<sub>EM</sub> stored in the electromagnetic field in a given volume _V_}@} is {@{$$U_{\text{EM} }={\frac {1}{2} }\int _{V}\left(\varepsilon |\mathbf {E} |^{2}+{\frac {1}{\mu } }|\mathbf {B} |^{2}\right)dV\,.$$}@} <!--SR:!2027-09-10,680,342!2027-02-21,505,290-->
 
 ## electric displacement field
 

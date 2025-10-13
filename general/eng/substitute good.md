@@ -23,7 +23,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 >
 > Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2026-02-06,353,350!2028-11-20,1142,350-->
 
-{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2028-10-11,1110,350!2026-11-18,537,310!2025-10-30,268,330-->
+{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2028-10-11,1110,350!2026-11-18,537,310!2029-03-07,1224,350-->
 
 {@{A product's occasion for use}@} describes {@{when, where and how it is used}@}.<sup>[\[3\]](#^ref-3)</sup> For example, orange juice and soft drinks are {@{both beverages}@} but are {@{used by consumers in different occasions \(i.e. breakfast vs during the day\)}@}. <!--SR:!2029-02-17,1210,350!2028-10-22,1119,350!2028-02-18,897,330!2026-01-25,119,390-->
 
@@ -65,7 +65,7 @@ The cross-price elasticity may be {@{positive or negative, depending on whether 
 
 Perfect substitutes have {@{a [linear utility](linear%20utility.md) function and a constant [marginal rate of substitution](marginal%20rate%20of%20substitution.md)}@}, see figure 3.<sup>[\[7\]](#^ref-7)</sup> If {@{goods X and Y are perfect substitutes}@}, {@{any different consumption bundle will result in the consumer obtaining the same utility level}@} for {@{all the points on the indifference curve \(utility function\)}@}.<sup>[\[8\]](#^ref-8)</sup> Let {@{a consumption bundle be represented by \(X,Y\)}@}, then, a consumer of perfect substitutes would {@{receive the same level of utility from \(20,10\) or \(30,0\)}@}. <!--SR:!2025-11-28,293,330!2025-11-23,289,330!2026-10-04,504,310!2025-11-13,280,330!2028-10-20,1117,350!2026-01-26,343,350-->
 
-Consumers of perfect substitutes {@{base their rational decision-making process on prices only}@}. Evidently, the consumer will {@{choose the [cheapest](expense.md) bundle to maximise their profits}@}.<sup>[\[8\]](#^ref-8)</sup> If {@{the prices of the goods differed}@}, there would be {@{no demand for the more expensive good}@}. {@{Producers and sellers of perfect substitute goods}@} directly {@{compete with each other, that is, they are known to be in direct [price competition](price%20war.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-04,273,330!2025-10-30,268,330!2025-11-11,278,330!2025-11-27,292,330!2028-11-09,1134,350!2028-11-15,1138,350-->
+Consumers of perfect substitutes {@{base their rational decision-making process on prices only}@}. Evidently, the consumer will {@{choose the [cheapest](expense.md) bundle to maximise their profits}@}.<sup>[\[8\]](#^ref-8)</sup> If {@{the prices of the goods differed}@}, there would be {@{no demand for the more expensive good}@}. {@{Producers and sellers of perfect substitute goods}@} directly {@{compete with each other, that is, they are known to be in direct [price competition](price%20war.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-04,273,330!2029-03-09,1226,350!2025-11-11,278,330!2025-11-27,292,330!2028-11-09,1134,350!2028-11-15,1138,350-->
 
 An example of perfect substitutes is {@{butter from two different producers}@}; the producer may be {@{different but their purpose and usage are the same}@}. <!--SR:!2025-11-24,290,330!2028-08-04,1056,350-->
 

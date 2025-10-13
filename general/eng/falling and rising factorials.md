@@ -29,7 +29,7 @@ When {@{$x$ is a positive integer}@}, {@{$(x)_{n}$}@} gives {@{the number of [_n
 
 ## examples and combinatorial interpretation
 
-{@{The first few falling factorials}@} are as follows: {@{$${\begin{alignedat}{2}(x)_{0}&&&=1\\(x)_{1}&&&=x\\(x)_{2}&=x(x-1)&&=x^{2}-x\\(x)_{3}&=x(x-1)(x-2)&&=x^{3}-3x^{2}+2x\\(x)_{4}&=x(x-1)(x-2)(x-3)&&=x^{4}-6x^{3}+11x^{2}-6x\end{alignedat} }$$}@} <!--SR:!2025-10-30,284,330!2029-01-08,1195,350-->
+{@{The first few falling factorials}@} are as follows: {@{$${\begin{alignedat}{2}(x)_{0}&&&=1\\(x)_{1}&&&=x\\(x)_{2}&=x(x-1)&&=x^{2}-x\\(x)_{3}&=x(x-1)(x-2)&&=x^{3}-3x^{2}+2x\\(x)_{4}&=x(x-1)(x-2)(x-3)&&=x^{4}-6x^{3}+11x^{2}-6x\end{alignedat} }$$}@} <!--SR:!2029-05-14,1292,350!2029-01-08,1195,350-->
 
 {@{The first few rising factorials}@} are as follows: {@{$${\begin{alignedat}{2}x^{(0)}&&&=1\\x^{(1)}&&&=x\\x^{(2)}&=x(x+1)&&=x^{2}+x\\x^{(3)}&=x(x+1)(x+2)&&=x^{3}+3x^{2}+2x\\x^{(4)}&=x(x+1)(x+2)(x+3)&&=x^{4}+6x^{3}+11x^{2}+6x\end{alignedat} }$$}@} <!--SR:!2029-02-16,1225,350!2028-10-09,1123,350-->
 
@@ -41,7 +41,7 @@ When {@{the variable $x$ is a positive integer}@}, {@{the number $(x)_{n}$}@} is
 
 The rising and falling factorials are {@{simply related to one another}@}: {@{$${\begin{alignedat}{2}{(x)}_{n}&={(x-n+1)}^{(n)}&&=(-1)^{n}(-x)^{(n)},\\x^{(n)}&={(x+n-1)}_{n}&&=(-1)^{n}(-x)_{n}.\end{alignedat} }$$}@} (annotation: The middle expression is trivial to obtain, while the rightmost expression can be obtained by {@{negating the term inside parentheses and multiplying by $(-1)^n$ outside}@}.) <!--SR:!2028-11-23,1160,350!2025-11-03,288,330!2029-02-25,1232,350-->
 
-Falling and rising factorials of integers are {@{directly related to the ordinary [factorial](factorial.md)}@}: {@{$${\begin{aligned}n!&=1^{(n)}=(n)_{n},\\[6pt](m)_{n}&={\frac {m!}{(m-n)!} },\\[6pt]m^{(n)}&={\frac {(m+n-1)!}{(m-1)!} }.\end{aligned} }$$}@} <!--SR:!2025-10-30,284,330!2028-10-13,1126,350-->
+Falling and rising factorials of integers are {@{directly related to the ordinary [factorial](factorial.md)}@}: {@{$${\begin{aligned}n!&=1^{(n)}=(n)_{n},\\[6pt](m)_{n}&={\frac {m!}{(m-n)!} },\\[6pt]m^{(n)}&={\frac {(m+n-1)!}{(m-1)!} }.\end{aligned} }$$}@} <!--SR:!2029-05-15,1293,350!2028-10-13,1126,350-->
 
 {@{Rising factorials of half integers}@} are {@{directly related to the [double factorial](double%20factorial.md)}@}: {@{$${\begin{aligned}\left[{\frac {1}{2} }\right]^{(n)}={\frac {(2n-1)!!}{2^{n} } },\quad \left[{\frac {2m+1}{2} }\right]^{(n)}={\frac {(2(n+m)-1)!!}{2^{n}(2m-1)!!} }.\end{aligned} }$$}@} <!--SR:!2027-08-07,764,330!2025-12-13,264,270!2026-05-14,345,250-->
 

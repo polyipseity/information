@@ -41,11 +41,11 @@ These numbers can be calculated by {@{considering the orbits as [conjugancy clas
 
 ### signs
 
-{@{The signs of the signed Stirling numbers of the first kind}@} depend only on {@{the parity of _n_ − _k_. $$s(n,k)=(-1)^{n-k}\left[{n \atop k}\right].$$}@} <!--SR:!2025-10-30,284,330!2025-11-13,295,330-->
+{@{The signs of the signed Stirling numbers of the first kind}@} depend only on {@{the parity of _n_ − _k_. $$s(n,k)=(-1)^{n-k}\left[{n \atop k}\right].$$}@} <!--SR:!2029-05-14,1292,350!2025-11-13,295,330-->
 
 ## recurrence relation
 
-{@{The unsigned Stirling numbers of the first kind}@} follow {@{the [recurrence relation](recurrence%20relation.md) $$\left[{n+1 \atop k}\right]=n\left[{n \atop k}\right]+\left[{n \atop k-1}\right]$$ for $k>0$}@}, with {@{the boundary conditions $$\left[{0 \atop 0}\right]=1\quad {\text{and} }\quad \left[{n \atop 0}\right]=\left[{0 \atop n}\right]=0$$ for $n>0$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-02-15,908,330!2025-11-26,306,330!2025-10-30,283,330-->
+{@{The unsigned Stirling numbers of the first kind}@} follow {@{the [recurrence relation](recurrence%20relation.md) $$\left[{n+1 \atop k}\right]=n\left[{n \atop k}\right]+\left[{n \atop k-1}\right]$$ for $k>0$}@}, with {@{the boundary conditions $$\left[{0 \atop 0}\right]=1\quad {\text{and} }\quad \left[{n \atop 0}\right]=\left[{0 \atop n}\right]=0$$ for $n>0$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-02-15,908,330!2025-11-26,306,330!2028-05-26,939,330-->
 
 It follows immediately that {@{the signed Stirling numbers of the first kind}@} satisfy {@{the recurrence $$s(n+1,k)= -n\cdot s(n,k)+s(n,k-1) \,.$$}@} <!--SR:!2028-01-26,893,330!2026-04-04,350,290-->
 

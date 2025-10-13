@@ -44,7 +44,7 @@ Using {@{sum of products}@}, {@{all logical statements which yield true results 
 
 ## logic formula minimization
 
-{@{Minimization \(simplification\) of combinational logic formulas}@} is done using {@{the following rules based on the [laws of Boolean algebra](Boolean%20algebra.md#laws)}@}: <!--SR:!2025-10-30,188,310!2026-03-10,292,330-->
+{@{Minimization \(simplification\) of combinational logic formulas}@} is done using {@{the following rules based on the [laws of Boolean algebra](Boolean%20algebra.md#laws)}@}: <!--SR:!2028-01-15,807,330!2026-03-10,292,330-->
 
 - (annotation: distributivity) ::@:: $${\begin{aligned}(A\vee B)\wedge (A\vee C)&=A\vee (B\wedge C)\\(A\wedge B)\vee (A\wedge C)&=A\wedge (B\vee C)\end{aligned} }$$ <!--SR:!2027-04-15,542,330!2026-02-28,290,330-->
 - (annotation: absorption) ::@:: $${\begin{aligned}A\vee (A\wedge B)&=A\\A\wedge (A\vee B)&=A\end{aligned} }$$ <!--SR:!2026-02-10,272,330!2026-03-11,293,330-->

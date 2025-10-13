@@ -11,7 +11,7 @@ tags:
 
 __Neutrino oscillation__ is {@{a [quantum mechanical](quantum%20mechanics.md) phenomenon in which a [neutrino](neutrino.md) created with a specific [lepton](lepton.md) [family number](lepton%20number.md) ("lepton flavor": [electron](electron%20neutrino.md), [muon](muon%20nutrino.md), or [tau](tau%20neutrino.md)) can later be [measured](measurement%20in%20quantum%20mechanics.md) to have a different lepton family number}@}. The probability of measuring a particular [flavor](flavour%20(particle%20physics).md) for a neutrino {@{varies between three known states, as it propagates through [space](space.md)}@}. <!--SR:!2028-03-25,1038,350!2027-06-02,783,330-->
 
-The experimental discovery of neutrino oscillation, and thus neutrino mass, by {@{the [Super-Kamiokande Observatory](Super-Kamiokande.md) and the [Sudbury Neutrino Observatory](Sudbury%20Neutrino%20Observatory.md)}@} was {@{recognized with the 2015 [Nobel Prize in Physics](Nobel%20Prize%20in%20Physics.md)}@}. <!--SR:!2028-01-30,909,290!2025-10-30,304,290-->
+The experimental discovery of neutrino oscillation, and thus neutrino mass, by {@{the [Super-Kamiokande Observatory](Super-Kamiokande.md) and the [Sudbury Neutrino Observatory](Sudbury%20Neutrino%20Observatory.md)}@} was {@{recognized with the 2015 [Nobel Prize in Physics](Nobel%20Prize%20in%20Physics.md)}@}. <!--SR:!2028-01-30,909,290!2029-03-08,1225,310-->
 
 ## references
 

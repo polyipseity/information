@@ -109,7 +109,7 @@ Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S ca
 
 ### depth-first search
 
-{@{An alternative algorithm for topological sorting}@} is {@{based on [depth-first search](depth-first%20search.md)}@}. The algorithm {@{loops through each node of the graph, in an arbitrary order}@}, initiating {@{a depth-first search that terminates when it hits any node that has already been visited}@} since {@{the beginning of the topological sort or the node has no outgoing edges \(i.e., a leaf node\)}@}: <!--SR:!2025-11-05,271,359!2026-01-09,319,359!2026-04-07,395,371!2028-10-26,1124,371!2025-10-30,266,359-->
+{@{An alternative algorithm for topological sorting}@} is {@{based on [depth-first search](depth-first%20search.md)}@}. The algorithm {@{loops through each node of the graph, in an arbitrary order}@}, initiating {@{a depth-first search that terminates when it hits any node that has already been visited}@} since {@{the beginning of the topological sort or the node has no outgoing edges \(i.e., a leaf node\)}@}: <!--SR:!2025-11-05,271,359!2026-01-09,319,359!2026-04-07,395,371!2028-10-26,1124,371!2029-06-02,1311,379-->
 
 <pre>
 <i>L</i> ← Empty list that will contain the sorted nodes
@@ -305,7 +305,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 >     - Let {@{_w_ be the weight of the edge from _u_ to _v_}@}.
 >     - Relax {@{the edge: if _d_\[_v_\] \> _d_\[_u_\] + _w_}@}, set
 >       - {@{_d_\[_v_\] ← _d_\[_u_\] + _w_}@},
->       - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2026-04-04,393,371!2025-10-30,259,351!2026-06-22,458,379!2026-06-07,446,379!2026-06-12,450,379!2026-02-12,330,359!2026-04-07,395,371!2026-01-27,335,358!2028-05-20,962,339!2026-04-16,401,371!2027-03-05,621,334-->
+>       - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2026-04-04,393,371!2029-04-07,1255,371!2026-06-22,458,379!2026-06-07,446,379!2026-06-12,450,379!2026-02-12,330,359!2026-04-07,395,371!2026-01-27,335,358!2028-05-20,962,339!2026-04-16,401,371!2027-03-05,621,334-->
 
 Equivalently:
 

@@ -65,7 +65,7 @@ In contrast, {@{the sum $\sum _{i=0}^{n}i^{k}$ in the standard basis}@} is {@{gi
 
 {@{The Lah numbers $L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }$}@} are {@{sometimes called Stirling numbers of the third kind}@}.<sup>[\[6\]](#^ref-6)</sup> By convention, {@{$L(0,0)=1$ and $L(n,k)=0$ if $n<k$ or $k=0<n$}@}. <!--SR:!2025-11-15,295,330!2025-11-27,305,330!2025-12-02,309,330-->
 
-These numbers are {@{coefficients expressing falling factorials in terms of rising factorials and vice versa}@}: {@{<p> $x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}\quad$ and $\quad (x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$}@} <!--SR:!2025-10-30,280,330!2025-12-10,316,330-->
+These numbers are {@{coefficients expressing falling factorials in terms of rising factorials and vice versa}@}: {@{<p> $x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}\quad$ and $\quad (x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$}@} <!--SR:!2029-04-26,1274,350!2025-12-10,316,330-->
 
 As above, this means they {@{express the change of basis between the bases $(x)_{0},(x)_{1},(x)_{2},\cdots$ and $x^{(0)},x^{(1)},x^{(2)},\cdots$, completing the diagram}@}. In particular, {@{one formula is the inverse of the other}@}, thus: {@{$$\sum _{j=k}^{n}(-1)^{j-k}L(n,j)L(j,k)=\delta _{n,k}.$$}@} <!--SR:!2025-12-02,309,330!2025-11-13,294,330!2025-11-23,302,330-->
 

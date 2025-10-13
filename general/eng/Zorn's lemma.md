@@ -201,7 +201,7 @@ More generally, {@{strengthening the axiom of dependent choice to higher ordinal
 
 The {@{1970 film}@} {@{_[Zorns Lemma](Zorns%20Lemma.md)_}@} is named after the lemma. <!--SR:!2028-06-03,974,350!2026-02-18,331,350-->
 
-The lemma was referenced on {@{_[The Simpsons](The%20Simpsons.md)_}@} in the episode "{@{[Bart's New Friend](Bart's%20New%20Friend.md)}@}".<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2025-10-30,236,330!2026-03-10,346,350-->
+The lemma was referenced on {@{_[The Simpsons](The%20Simpsons.md)_}@} in the episode "{@{[Bart's New Friend](Bart's%20New%20Friend.md)}@}".<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2027-12-24,785,330!2026-03-10,346,350-->
 
 ## see also
 

@@ -446,11 +446,11 @@ The content is in teaching order.
   - swing music / to bebop music ::@:: Swing was becoming commercialized and formulaic. Some musicians got tired. <p> Some musicians adapted swing music to smaller groups, some of which were looser with many solos. They focused more on improvisation and standards \(popular songs\). <!--SR:!2028-01-29,827,442!2027-06-06,593,422-->
 - [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. It can be considered as the start of modern jazz. <p> The name comes from the rhythm. <!--SR:!2028-02-21,846,442!2028-02-29,853,442-->
   - bebop / beginning ::@:: It began to develop in the late 1930s and early 1940s. Early recordings did not exist during 1942 to 1944 because of musicians' strike. <p> So some people think bebop suddenly appeared instead of being developed. The public thought the music was new instead of being gradually introduced to it. <!--SR:!2027-02-24,554,422!2027-12-23,795,442-->
-  - bebop / characteristics ::@:: advanced harmony, fast tempo, virtuosic improvisation <!--SR:!2025-10-30,149,422!2028-02-11,838,442-->
-  - bebop / rhythm section ::@:: changes in bass, drums, guitar, and piano <!--SR:!2028-02-21,846,442!2025-10-30,149,422-->
+  - bebop / characteristics ::@:: advanced harmony, fast tempo, virtuosic improvisation <!--SR:!2028-03-08,860,442!2028-02-11,838,442-->
+  - bebop / rhythm section ::@:: changes in bass, drums, guitar, and piano <!--SR:!2028-02-21,846,442!2028-03-07,859,442-->
     - bebop / rhythm section / drums ::@:: Ride cymbals instead of bass drums produce beats, which feels faster and lighter. Bass drums and snare are for rhythmic accents \(e.g. kicks, punches\). Tempo is faster, making it not intended for dancing. <!--SR:!2027-05-15,575,422!2025-11-01,151,422-->
     - bebop / rhythm section / piano ::@:: Radical changes occur. Dissonance becomes essential instead of common. Sustained chords become kicks and punches with the drums. It uses the same vocabulary as the horns during solo. <!--SR:!2027-07-16,625,422!2027-05-07,568,422-->
-    - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2025-10-30,149,422!2027-12-24,796,442-->
+    - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2028-03-06,858,442!2027-12-24,796,442-->
     - bebop / rhythm section / guitar ::@:: It no longer plays chords on all 4 beats. It becomes amplified and can play melody lines \(like the horns\) and advanced chords. <!--SR:!2028-01-10,810,442!2025-11-01,151,422-->
   - bebop / characteristics
     - bebop / characteristics / harmonic improvisation ::@:: Melody is created from harmony instead of the other way around. Before, improvisation was generalized and not specific to harmony. Now, number of possible melody is larger, adding variety, creating extensions and/or tensions. <!--SR:!2028-01-22,821,442!2028-01-19,818,442-->
@@ -489,7 +489,7 @@ The content is in teaching order.
 - datetime: 2025-03-19T08:30:00-05:00/2025-03-19T09:50:00-05:00, PT1H20M
   - local: 2025-03-19T21:30:00+08:00/2025-03-19T22:50:00+08:00, PT1H20M
 - [Thelonious Monk](../../../../general/Thelonious%20Monk.md) \(1917–1982\) ::@:: American composer and pianist, with very distinctive, unique, and unusual style <!--SR:!2025-11-01,151,422!2027-12-17,790,442-->
-  - Thelonious Monk / uniqueness ::@:: schizophrenic; strange personality reflected in the music: crazy, demented <!--SR:!2028-01-07,808,442!2025-10-30,149,422-->
+  - Thelonious Monk / uniqueness ::@:: schizophrenic; strange personality reflected in the music: crazy, demented <!--SR:!2028-01-07,808,442!2028-03-07,859,442-->
   - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2028-02-23,848,442!2025-10-31,150,422-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2028-02-10,837,442!2027-02-28,538,422-->
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2026-09-04,388,402!2027-03-01,559,422-->
@@ -506,7 +506,7 @@ The content is in teaching order.
   - cool jazz / period ::@:: It mostly refer to cool jazz music during 1949 to 1959, though some say it ended in 1955. <p> "Birth of the Cool" — Miles Davis: It marks the beginning. <!--SR:!2028-02-13,840,442!2028-01-23,822,442-->
   - cool jazz / racial issues ::@:: It was popular among white musicians and on the west coast. Again black musicians were angry white musicians were getting all the credits. <!--SR:!2027-11-25,771,442!2025-11-01,151,422-->
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\) <!--SR:!2028-02-05,833,442!2025-11-01,151,422-->
-  - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow <!--SR:!2025-10-30,149,422!2028-01-21,820,442-->
+  - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow <!--SR:!2027-07-20,628,422!2028-01-21,820,442-->
     - cool jazz / characteristics / vs. bebop ::@:: Essentially opposite of bebop: classical, fast, improvised, relaxed, remix, monophonic; simply invert the characteristics listed above <!--SR:!2028-01-27,825,442!2025-11-01,151,422-->
 - [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2026-09-08,391,402!2027-11-30,775,442-->
   - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis <!--SR:!2028-02-20,846,442!2028-02-15,841,442-->
@@ -514,7 +514,7 @@ The content is in teaching order.
   - Chet Baker / old age ::@:: When he was in his 50s, he was old and ugly after drugs. Later, he was found dead in Amsterdam after apparently falling out of a window. <!--SR:!2028-01-26,824,442!2025-11-01,151,422-->
   - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2026-08-14,387,402!2027-05-09,570,422-->
   - Chet Baker / films ::@:: _Let's Get Lost_, a documentary made the year he died, and "Born to be Blue", a biography motion picture. <!--SR:!2028-01-17,817,442!2028-02-03,831,442-->
-- [Gerry Mulligan](../../../../general/Gerry%20Mulligan.md) \(1927–1996\) ::@:: He was an American jazz saxophonist, clarinetist, composer and arranger. <p> He made the baritone sax popular in jazz as solo. He also struggled with drugs. <!--SR:!2028-03-03,856,442!2025-10-30,149,422-->
+- [Gerry Mulligan](../../../../general/Gerry%20Mulligan.md) \(1927–1996\) ::@:: He was an American jazz saxophonist, clarinetist, composer and arranger. <p> He made the baritone sax popular in jazz as solo. He also struggled with drugs. <!--SR:!2028-03-03,856,442!2028-03-05,857,442-->
   - Gerry Mulligan / & Chet Baker ::@:: He worked with Chet Baker, making records with no harmonic instruments \(i.e. no guitars and pianos\). The horns can be more harmonic and improvisational. <!--SR:!2028-03-01,854,442!2028-02-28,852,442-->
   - Gerry Mulligan / works ::@:: "Speak Low" \(1953\) — Chet Baker & Gerry Mulligan <!--SR:!2028-02-04,832,442!2027-11-22,768,442-->
 - [Stan Getz](../../../../general/Stan%20Getz.md) \(1927–1991\) ::@:: He was an American jazz saxophonist from Philadelphia. Playing primarily the tenor saxophone, Getz was known as "__The Sound__" because of his warm, lyrical tone \("airy" sounds\). <p> He also struggled with drugs. <!--SR:!2028-02-03,831,442!2028-02-26,851,442-->
@@ -543,8 +543,8 @@ The content is in teaching order.
 - datetime: 2025-03-31T08:30:00-05:00/2025-03-31T09:00:00-05:00
   - local: 2025-03-31T21:30:00+08:00/2025-03-31T22:00:00+08:00
 - quiz: [quiz 3](questions/quiz%203.md)
-- [hard bop](../../../../general/hard%20bop.md) ::@:: It is a subgenre of jazz that is an extension of bebop (or "bop") music. Journalists and record companies began using the term in the mid-1950s to describe a new current within jazz that incorporated influences from rhythm and blues, gospel music, and blues, especially in saxophone and piano playing. <!--SR:!2027-05-20,578,422!2025-10-30,149,422-->
-  - hard bop / characteristics ::@:: blues scale, call and response, driving 2 and 4 hits, pedal points, the "shuffle", suspended chords <!--SR:!2027-12-13,786,442!2025-10-30,149,422-->
+- [hard bop](../../../../general/hard%20bop.md) ::@:: It is a subgenre of jazz that is an extension of bebop (or "bop") music. Journalists and record companies began using the term in the mid-1950s to describe a new current within jazz that incorporated influences from rhythm and blues, gospel music, and blues, especially in saxophone and piano playing. <!--SR:!2027-05-20,578,422!2028-03-09,861,442-->
+  - hard bop / characteristics ::@:: blues scale, call and response, driving 2 and 4 hits, pedal points, the "shuffle", suspended chords <!--SR:!2027-12-13,786,442!2028-03-11,863,442-->
     - hard bop / characteristics / the "shuffle" ::@:: swinging drum groove from the United States Midwest; also called heartbeat of the blues <!--SR:!2028-01-05,806,442!2028-02-06,834,442-->
   - hard bop / motivation ::@:: a type of hot jazz, created as a reaction to cool jazz by musicians not liking it; not intended for dancing but danceable <!--SR:!2025-10-31,150,422!2025-10-31,150,422-->
   - hard bop / characteristics
@@ -552,7 +552,7 @@ The content is in teaching order.
   - hard bop / vs. cool jazz ::@:: Cool jazz is more classical and restrained. More popular among white musicians. Hot jazz is more blues and gospel. More popular among black musicians. <!--SR:!2028-02-13,840,442!2028-01-28,826,442-->
 - [rhythm and blues](../../../../general/rhythm%20and%20blues.md) \(R&B\) ::@:: It is a genre of popular music that originated within Black American communities in the 1940s. The term was originally used by record companies to describe recordings marketed predominantly to African Americans, at a time when "rocking, jazz based music ... \[with a\] heavy, insistent beat" was starting to become more popular. <!--SR:!2027-06-08,594,422!2028-02-07,834,442-->
   - rhythm and blues / influences ::@:: African American styles, blues, gospel, jazz <!--SR:!2027-12-10,784,442!2025-11-01,151,422-->
-  - rhythm and blues / works ::@:: "Blueberry Hill" \(1956\) — Fats Domino <!--SR:!2025-10-30,149,422!2025-10-30,149,422-->
+  - rhythm and blues / works ::@:: "Blueberry Hill" \(1956\) — Fats Domino <!--SR:!2028-03-08,860,442!2028-03-10,862,442-->
 - hard bop
   - hard bop / musicians ::@:: Art Blakely, Clifford Brown, Miles Davis, Lee Morgan, Max Roach, Horace Silver <!--SR:!2028-02-09,836,442!2027-12-13,787,442-->
 - [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-10-31,150,422!2027-12-12,786,442-->
@@ -610,7 +610,7 @@ The content is in teaching order.
   - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2026-08-19,392,402!2028-02-27,852,442-->
     - Miles Davis Quintet / Second Great Quintet / Tony Williams ::@:: On drums. He was a towering virtuoso and could change directions rhythmically at any moment. So he was very exciting to listen to. <!--SR:!2028-02-02,830,442!2028-02-01,829,442-->
     - Miles Davis Quintet / Second Great Quintet / Ron Carter ::@:: On bass. His bass lines are clear and strong. He could manipulate the harmony along with Herbie. He allowed other musicians to stretch without worrying about the bass. <!--SR:!2028-01-26,824,442!2027-04-21,581,422-->
-    - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique. <!--SR:!2025-10-30,149,422!2027-03-02,560,422-->
+    - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique. <!--SR:!2028-03-04,856,442!2027-03-02,560,422-->
     - Miles Davis Quintet / Second Great Quintet / Herbie Hancock ::@:: On piano. New harmonies. <!--SR:!2027-11-29,775,442!2027-06-02,589,422-->
     - Miles Davis Quintet / Second Great Quintet / free jazz ::@:: Often, they ignore the form or harmony during some parts of a song. This was somewhat extending into free jazz. <!--SR:!2028-01-06,807,442!2027-05-14,574,422-->
 - Miles Davis

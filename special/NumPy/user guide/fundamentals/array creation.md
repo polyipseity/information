@@ -92,7 +92,7 @@ array([2., 3., 4., 5., 6., 7., 8., 9.])
 array([2. , 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9])
 ```
 
-Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2026-01-01,333,350!2029-03-13,1240,350!2026-01-16,346,350!2025-10-30,279,330!2029-03-15,1242,350!2025-11-01,280,330!2025-12-24,326,350-->
+Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2026-01-01,333,350!2029-03-13,1240,350!2026-01-16,346,350!2029-04-21,1269,350!2029-03-15,1242,350!2025-11-01,280,330!2025-12-24,326,350-->
 
 {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2029-04-01,1255,350!2025-11-09,287,330!2025-12-21,323,350-->
 

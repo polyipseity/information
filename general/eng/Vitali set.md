@@ -14,7 +14,7 @@ In [mathematics](mathematics.md), {@{a __Vitali set__}@} is {@{an elementary exa
 
 ## measurable sets
 
-Certain sets have {@{a definite 'length' or 'mass'}@}. For instance, {@{the [interval](interval%20(mathematics).md) \[0, 1\] is deemed to have length 1}@}; more generally, {@{an interval \[_a_, _b_\], _a_ ≤ _b_, is deemed to have length _b_<!-- markdown separator --> − <!-- markdown separator -->_a_}@}. If {@{we think of such intervals as metal rods with uniform density}@}, {@{they likewise have well-defined masses}@}. {@{The set \[0, 1\] ∪ \[2, 3\]}@} is {@{composed of two intervals of length one}@}, so {@{we take its total length to be 2}@}. In terms of mass, we have {@{two rods of mass 1, so the total mass is 2}@}. <!--SR:!2025-11-03,255,330!2026-02-22,346,349!2025-10-30,251,330!2025-12-21,296,349!2025-11-14,263,330!2028-12-11,1139,350!2026-01-03,306,349!2026-01-26,325,349!2025-10-31,252,330-->
+Certain sets have {@{a definite 'length' or 'mass'}@}. For instance, {@{the [interval](interval%20(mathematics).md) \[0, 1\] is deemed to have length 1}@}; more generally, {@{an interval \[_a_, _b_\], _a_ ≤ _b_, is deemed to have length _b_<!-- markdown separator --> − <!-- markdown separator -->_a_}@}. If {@{we think of such intervals as metal rods with uniform density}@}, {@{they likewise have well-defined masses}@}. {@{The set \[0, 1\] ∪ \[2, 3\]}@} is {@{composed of two intervals of length one}@}, so {@{we take its total length to be 2}@}. In terms of mass, we have {@{two rods of mass 1, so the total mass is 2}@}. <!--SR:!2025-11-03,255,330!2026-02-22,346,349!2028-12-21,1148,350!2025-12-21,296,349!2025-11-14,263,330!2028-12-11,1139,350!2026-01-03,306,349!2026-01-26,325,349!2025-10-31,252,330-->
 
 There is {@{a natural question here}@}: if {@{_E_ is an arbitrary subset of the real line, does it have a 'mass' or 'total length'}@}? As an example, we might ask {@{what is the mass of the set of [rational numbers](rational%20number.md) between 0 and 1}@}, given that {@{the mass of the interval \[0, 1\] is 1}@}. {@{The rationals}@} are {@{[dense](dense%20set.md) in the reals}@}, so {@{any value between and including 0 and 1 may appear reasonable}@}. <!--SR:!2026-01-31,329,349!2026-02-23,347,349!2026-07-03,413,309!2028-05-28,982,349!2026-02-24,124,310!2028-02-12,899,349!2025-11-21,25,378-->
 
@@ -42,7 +42,7 @@ Apply {@{the Lebesgue measure to these inclusions using [sigma additivity](sigma
 
 No Vitali set has {@{the [property of Baire](property%20of%20Baire.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2027-07-07,716,330-->
 
-By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banach measure](Banach%20measure.md) 0}@}. This {@{does not create any contradictions}@} since {@{Banach measures are not countably additive, but only finitely additive}@}. <!--SR:!2025-10-30,251,330!2026-01-30,327,349!2025-11-02,254,330!2028-07-02,1007,349-->
+By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banach measure](Banach%20measure.md) 0}@}. This {@{does not create any contradictions}@} since {@{Banach measures are not countably additive, but only finitely additive}@}. <!--SR:!2028-12-22,1149,350!2026-01-30,327,349!2025-11-02,254,330!2028-07-02,1007,349-->
 
 ## role of the axiom of choice
 

@@ -139,7 +139,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{If the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2025-10-30,18,318-->
+> - solution: {@{If the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2026-01-15,77,338-->
 
 ---
 
@@ -147,7 +147,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{You need to consider the multiplicities for each subclass individually \(and also the superclass if the generalization is incomplete\), and then find the _least relaxed multiplicities_ that can accommodate the multiplicities found above. You may add a note next to the superclass multiplicity with text describing the multiplicities for each subclass. <p> You will likely need to use real-world knowledge, common sense, or application domain knowledge.}@} <!--SR:!2025-10-30,18,318-->
+> - solution: {@{You need to consider the multiplicities for each subclass individually \(and also the superclass if the generalization is incomplete\), and then find the _least relaxed multiplicities_ that can accommodate the multiplicities found above. You may add a note next to the superclass multiplicity with text describing the multiplicities for each subclass. <p> You will likely need to use real-world knowledge, common sense, or application domain knowledge.}@} <!--SR:!2025-12-25,56,318-->
 
 ---
 
@@ -163,7 +163,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@} <!--SR:!2025-10-30,18,318-->
+> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@} <!--SR:!2025-12-25,56,318-->
 
 ---
 
