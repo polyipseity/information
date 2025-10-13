@@ -23,7 +23,7 @@ tags:
 
 ### insertion sort
 
-{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}: <!--SR:!2025-10-29,2,250!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-11,15,290-->
+{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}: <!--SR:!2025-11-05,7,270!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-11,15,290-->
 
 > [!example] __insertion sort__
 >

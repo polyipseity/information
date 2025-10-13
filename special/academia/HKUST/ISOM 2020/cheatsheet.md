@@ -29,7 +29,7 @@ The cheatsheet is provided during the final examination.
 
 ## data types
 
-- `int` ::@:: integer <!--SR:!2029-05-08,1294,350!2025-10-29,290,330-->
+- `int` ::@:: integer <!--SR:!2029-05-08,1294,350!2029-06-11,1321,350-->
 - `float` ::@:: floating point <!--SR:!2029-03-06,1245,350!2029-02-24,1237,350-->
 - `bool` ::@:: `True` or `False` <!--SR:!2029-05-20,1304,350!2029-01-25,1213,350-->
 - `str` ::@:: string <!--SR:!2029-01-08,1199,350!2029-02-21,1233,350-->
@@ -72,9 +72,9 @@ The cheatsheet is provided during the final examination.
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2029-06-03,1315,350!2029-06-05,1316,350-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
-- `len()` ::@:: return the number of elements in the input list <!--SR:!2029-03-10,1247,350!2025-10-29,290,330-->
+- `len()` ::@:: return the number of elements in the input list <!--SR:!2029-03-10,1247,350!2029-06-12,1322,350-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->
-- `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2025-10-29,290,330-->
+- `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2029-06-08,1318,350-->
 - `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2029-03-27,1262,350!2029-03-01,1241,350-->
 - `range()` ::@:: create a number sequence starting from zero <!--SR:!2029-04-13,1276,350!2029-05-17,1300,350-->
 

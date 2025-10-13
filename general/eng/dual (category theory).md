@@ -34,7 +34,7 @@ _Duality_ is the observation that {@{σ is true for some category _C_ if and onl
 
 ## examples
 
-- {@{A morphism $f\colon A\to B$}@} is {@{a [monomorphism](monomorphism.md) if $f\circ g=f\circ h$ implies $g=h$}@}. Performing the dual operation, we get the statement that {@{$g\circ f=h\circ f$ implies $g=h$}@}. For {@{a morphism $f\colon B\to A$, this is precisely what it means for _f_ to be an [epimorphism](epimorphism.md)}@}. In short, the property of {@{being a monomorphism is dual to the property of being an epimorphism}@}. <!--SR:!2026-01-16,288,330!2025-10-29,209,310!2026-01-17,289,330!2026-01-12,284,330!2026-01-16,288,330-->
+- {@{A morphism $f\colon A\to B$}@} is {@{a [monomorphism](monomorphism.md) if $f\circ g=f\circ h$ implies $g=h$}@}. Performing the dual operation, we get the statement that {@{$g\circ f=h\circ f$ implies $g=h$}@}. For {@{a morphism $f\colon B\to A$, this is precisely what it means for _f_ to be an [epimorphism](epimorphism.md)}@}. In short, the property of {@{being a monomorphism is dual to the property of being an epimorphism}@}. <!--SR:!2026-01-16,288,330!2028-04-19,903,330!2026-01-17,289,330!2026-01-12,284,330!2026-01-16,288,330-->
 
 Applying duality, this means that {@{a morphism in some category _C_ is a monomorphism}@} {@{if and only if the reverse morphism in the opposite category _C_<sup>op</sup> is an epimorphism}@}. <!--SR:!2026-01-13,285,330!2026-01-12,284,330-->
 

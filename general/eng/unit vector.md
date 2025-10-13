@@ -71,7 +71,7 @@ They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat 
 
 ### general unit vectors
 
-- Main article: ::@:: [Orthogonal coordinates](orthogonal%20coordinates.md) <!--SR:!2025-10-29,198,319!2026-03-20,306,339-->
+- Main article: ::@:: [Orthogonal coordinates](orthogonal%20coordinates.md) <!--SR:!2028-03-20,873,339!2026-03-20,306,339-->
 
 Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geometry](geometry.md)}@}:<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-04-04,321,339-->
 

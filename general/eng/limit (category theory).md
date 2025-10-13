@@ -246,7 +246,7 @@ There are {@{several ways to remember the modern terminology}@}. First of all, <
 ## see also
 
 - [Cartesian closed category](Cartesian%20closed%20category.md) – ::@:: Type of category in category theory <!--SR:!2026-03-18,334,353!2025-12-06,251,338-->
-- [Equaliser \(mathematics\)](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2025-12-20,257,338!2025-10-29,216,333-->
+- [Equaliser \(mathematics\)](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2025-12-20,257,338!2028-07-09,984,353-->
 - [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2026-03-19,335,353!2025-12-28,253,338-->
 - [Product \(category theory\)](product%20(category%20theory).md) – ::@:: Generalized object in category theory <!--SR:!2026-05-13,379,358!2027-07-13,694,338-->
 

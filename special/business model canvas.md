@@ -267,10 +267,10 @@ subscription fee
 - advertising→::@::←asset sale <!--SR:!2028-11-24,1127,294!2026-05-10,528,317-->
 - asset sale→::@::←brokerage fee <!--SR:!2026-07-10,582,294!2026-06-24,487,274-->
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2027-03-24,639,257!2028-11-07,1146,274-->
-- lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2025-10-29,328,274-->
+- lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2028-04-15,899,274-->
 - licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2026-10-23,507,254-->
 - usage fee→::@::←subscription fee <!--SR:!2028-06-09,1037,274!2026-07-06,378,277-->
-- subscription fee→::@::←_(end)_ <!--SR:!2025-12-28,417,294!2025-10-29,365,277-->
+- subscription fee→::@::←_(end)_ <!--SR:!2025-12-28,417,294!2028-08-05,1011,277-->
 
 <!--/pytextgen-->
 

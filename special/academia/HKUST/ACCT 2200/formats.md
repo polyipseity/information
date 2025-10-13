@@ -520,7 +520,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{sales in Feb}@}           | {@{&dollar;300<br/>\(&dollar;500×80%×75%\)}@}        | {@{&dollar;100<br/>\(&dollar;500×80%×25%\)}@}        |
 > | {@{sales in Mar}@}           | {@{&dollar;200<br/>\(&dollar;1&nbsp;000×20%\)}@}     | {@{&dollar;600<br/>\(&dollar;1&nbsp;000×80%×75%\)}@} |
 > | {@{sales in Apr}@}           |                                                      | {@{&dollar;500<br/>\(&dollar;2&nbsp;500×20%\)}@}     |
-> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2027-08-14,667,420!2027-10-25,728,420!2027-09-21,699,420!2027-10-27,730,420!2027-08-26,677,420!2027-08-20,672,420!2027-08-12,665,420!2027-09-07,687,420!2027-10-13,718,420!2027-03-10,505,400!2027-09-12,691,420!2027-09-24,702,420!2025-10-29,135,400!2027-08-27,678,420!2027-10-09,715,420-->
+> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2027-08-14,667,420!2027-10-25,728,420!2027-09-21,699,420!2027-10-27,730,420!2027-08-26,677,420!2027-08-20,672,420!2027-08-12,665,420!2027-09-07,687,420!2027-10-13,718,420!2027-03-10,505,400!2027-09-12,691,420!2027-09-24,702,420!2027-11-05,737,420!2027-08-27,678,420!2027-10-09,715,420-->
 
 - delayed cash receipts or payments ::@:: column headers, row headers <!--SR:!2027-10-24,728,420!2027-04-12,531,400-->
   - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)... <!--SR:!2027-08-30,680,420!2027-09-27,704,420-->
@@ -541,5 +541,5 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} | <!--SR:!2027-10-23,727,420!2027-09-29,706,420!2027-08-24,675,420!2027-08-19,671,420!2027-09-08,688,420!2027-09-18,696,420!2025-10-31,137,400!2025-11-01,138,400!2027-10-04,711,420!2027-09-01,682,420!2025-10-30,136,400!2027-10-31,733,420!2025-11-01,138,400!2025-10-30,136,400!2027-08-13,666,420!2027-08-18,670,420!2027-10-22,726,420!2027-08-25,676,420!2027-08-31,681,420!2027-10-14,719,420-->
 
 - standard cost card ::@:: column headers, row headers <!--SR:!2025-10-30,136,400!2027-09-13,692,420-->
-  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2027-08-29,679,420!2025-10-29,135,400-->
+  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2027-08-29,679,420!2027-04-22,540,400-->
   - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit <!--SR:!2027-10-10,716,420!2026-08-25,378,400-->

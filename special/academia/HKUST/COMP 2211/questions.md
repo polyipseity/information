@@ -1286,7 +1286,7 @@ tags:
 
 > Q7. Name 3 hyperparameters in pooling layers.
 >
-> - solution: {@{pooling operation, pool size, stride}@} <!--SR:!2025-10-29,238,330-->
+> - solution: {@{pooling operation, pool size, stride}@} <!--SR:!2028-10-19,1086,350-->
 
 <!-- markdownlint MD028 -->
 

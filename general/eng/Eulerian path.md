@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2025-12-13,298,336!2026-03-10,372,362!2025-10-29,261,342!2026-03-26,386,362!2028-10-03,1102,362!2026-02-11,353,362!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2026-02-02,346,362!2026-03-17,379,362-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2025-12-13,298,336!2026-03-10,372,362!2028-04-12,896,342!2026-03-26,386,362!2028-10-03,1102,362!2026-02-11,353,362!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2026-02-02,346,362!2026-03-17,379,362-->
 
 ### Fleury's algorithm
 
@@ -169,7 +169,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 > {@{![An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20satisfies%20the%20balanced%20set%20condition%20and%20is%20therefore%20an%20Eulerian%20mixed%20graph.svg)}@}
 >
-> {@{An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.}@} <!--SR:!2028-11-05,1129,362!2025-10-29,262,342-->
+> {@{An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.}@} <!--SR:!2028-11-05,1129,362!2028-04-18,902,342-->
 
 ## see also
 

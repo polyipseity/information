@@ -238,18 +238,18 @@ The content is in teaching order.
   - Data Protection Directive / new rights to be considered ::@:: right of access, right to be forgotten <!--SR:!2025-11-03,88,373!2025-10-30,84,373-->
 - [intellectual property](../../../../general/intellectual%20property.md) \(IP\) ::@:: It is a category of property that includes intangible creations of the human intellect. There are many types of intellectual property, and some countries recognize more than others. The best-known types are patents, copyrights, trademarks, and trade secrets. <!--SR:!2025-10-30,84,373!2025-11-03,88,373-->
   - intellectual property / trade secrets ::@:: IP belonging to businesses that are not in the public domain <!--SR:!2025-11-04,89,373!2025-11-03,88,373-->
-  - intellectual property / copyrights ::@:: statutory grant protecting IP from being copied without permissions \(in most cases\) for the life of the author plus 70 years \(United States\) <!--SR:!2025-11-09,94,373!2025-10-29,83,373-->
+  - intellectual property / copyrights ::@:: statutory grant protecting IP from being copied without permissions \(in most cases\) for the life of the author plus 70 years \(United States\) <!--SR:!2025-11-09,94,373!2026-12-30,427,393-->
   - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\)  <p> \(__this course__: A question with this as the correct answer appeared in the midterm examination, but there was no option for this. So the question was given full marks.\) <!--SR:!2025-11-08,93,373!2025-11-03,88,373-->
   - intellectual property / digital challenges ::@:: compactness, difficulty of classification \(e.g. software\), difficulty of establishing uniqueness, ease of replication, ease of transmission <!--SR:!2025-11-04,89,373!2025-11-02,87,373-->
 - [Digital Millennium Copyright Act](../../../../general/Digital%20Millennium%20Copyright%20Act.md) \(DMCA\) ::@:: It is a 1998 United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization \(WIPO\). <!--SR:!2025-10-31,85,373!2025-11-06,91,373-->
-  - Digital Millennium Copyright Act / circumvention ::@:: illegal to circumvent  technology-based protections of copyrighted materials <!--SR:!2025-10-29,83,373!2025-10-30,84,373-->
+  - Digital Millennium Copyright Act / circumvention ::@:: illegal to circumvent  technology-based protections of copyrighted materials <!--SR:!2027-01-01,429,393!2025-10-30,84,373-->
 
 ## week 2 lecture 3
 
 - datetime: 2025-07-09T09:00:00+09:00/2025-07-09T10:40:00+09:00, PT1H40M
   - local: 2025-07-09T08:00:00+08:00/2025-07-09T09:40:00+08:00, PT1H40M
 - topic: data ethics
-- [big data ethics](../../../../general/big%20data%20ethics.md) ::@:: It refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data. <!--SR:!2025-10-29,83,373!2025-11-10,95,373-->
+- [big data ethics](../../../../general/big%20data%20ethics.md) ::@:: It refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data. <!--SR:!2027-01-03,431,393!2025-11-10,95,373-->
 - ethics
   - ethics / traditions ::@:: 3 major traditions: deontology, utilitarianism, virtue ethics <!--SR:!2025-11-03,88,373!2025-11-04,89,373-->
     - ethics / traditions / virtue ethics ::@:: Explored by Aristotle. Focuses on people: if a person has good character, the person does ethical actions. <!--SR:!2025-11-04,89,373!2025-11-06,91,373-->
@@ -310,7 +310,7 @@ The content is in teaching order.
   - IT infrastructure / hardware trends
     - IT infrastructure / hardware trends / better processors ::@:: multi-core processors, power-efficient microprocessors <!--SR:!2025-11-01,86,373!2025-11-04,89,373-->
   - IT infrastructure / software trends ::@:: Linux, open-source software, outsourcing, service-oriented architecture \(SOA\), web services, web software <!--SR:!2025-11-04,89,373!2025-11-08,93,373-->
-- [open-source software](../../../../general/open-source%20software.md) ::@:: It is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose. <!--SR:!2025-11-04,89,373!2025-10-29,83,373-->
+- [open-source software](../../../../general/open-source%20software.md) ::@:: It is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose. <!--SR:!2025-11-04,89,373!2027-01-02,430,393-->
   - open-source software / characteristics ::@:: They are usually produced by communities of programmers. Users can freely obtain and modify them \(under some mild conditions\). <!--SR:!2025-11-09,94,373!2025-11-09,94,373-->
   - open-source software / examples ::@:: Apache web server, Mozilla Firebox, OpenOffice <!--SR:!2025-11-06,91,373!2026-12-19,418,393-->
 - [Linux](../../../../general/Linux.md) ::@:: An open-source operating systems used in high-performance computing. It is used in Android, local area networks \(LAN\), mobile devices, web servers, etc. <!--SR:!2025-11-04,89,373!2025-11-03,88,373-->
@@ -325,7 +325,7 @@ The content is in teaching order.
 - [outsourcing](../../../../general/outsourcing.md) ::@:: It is a business practice in which companies use external providers to carry out business processes that would otherwise be handled internally. <!--SR:!2025-11-05,90,373!2025-11-01,86,373-->
   - outsourcing / examples ::@:: cloud services, enterprise software, mashups, outsourcing, software packages, etc. <!--SR:!2025-11-03,88,373!2025-11-07,92,373-->
 - IT infrastructure
-  - IT infrastructure / challenges ::@:: change, governance, management <!--SR:!2025-11-08,93,373!2025-10-29,83,373-->
+  - IT infrastructure / challenges ::@:: change, governance, management <!--SR:!2025-11-08,93,373!2026-12-31,428,393-->
     - IT infrastructure / challenges / change ::@:: Firms shrink and grow, so do IT infrastructure. So it needs to be flexible and scalable. <p> Cloud and mobile computing requires changing policies and procedures to manage them. Contractual agreements with companies providing them needs to be changed as well. <!--SR:!2025-11-04,89,373!2025-11-02,87,373-->
     - IT infrastructure / challenges / management/governance ::@:: cost allocation between departments or divisions <br/> control and organization of IT infrastructure: centralized \(decision making is by a single IT department\), decentralized \(decision making is by individual departments separately\) <!--SR:!2025-11-10,95,373!2027-01-05,435,393-->
   - IT infrastructure / competitive forces model ::@:: external factors: competing IT infrastructure, competing services, market demand for services <br/> internal factors: IT assessment, IT infrastructure and strategy, business strategy <!--SR:!2025-11-04,89,373!2025-11-04,89,373-->
@@ -355,11 +355,11 @@ The content is in teaching order.
     - relational database / primary keys ::@:: A key used to identify records in the current table. It is unique to each record in the current table. Other tables reference records in the current table using this key. <p> Many RDBMS requires at least one of this key for each record. <!--SR:!2025-11-02,87,373!2025-11-03,88,373-->
     - relational database / foreign keys ::@:: A key used to identify records in a different table. It references primary keys of records in the other table. <!--SR:!2025-11-04,89,373!2025-11-07,92,373-->
   - relational database / operations ::@:: common operations: join, project, select, etc. <!--SR:!2025-11-03,88,373!2026-12-26,424,393-->
-    - relational database / operations / select ::@:: Return a subset of records that meet user-specified criteria. <!--SR:!2025-10-29,83,373!2026-12-20,419,393-->
+    - relational database / operations / select ::@:: Return a subset of records that meet user-specified criteria. <!--SR:!2026-12-29,426,393!2026-12-20,419,393-->
     - relational database / operations / join ::@:: Combine multiple tables in a user-specified way to provide more information available in individual tables. <!--SR:!2025-11-06,91,373!2025-11-03,88,373-->
     - relational database / operations / project ::@:: Return a table with a user-specified subset of its attributes. <!--SR:!2025-11-03,88,373!2025-11-03,88,373-->
 - database
-  - database / capabilities ::@:: data definition, data dictionary, data manipulation language, report generation <!--SR:!2025-11-04,89,373!2025-10-29,83,373-->
+  - database / capabilities ::@:: data definition, data dictionary, data manipulation language, report generation <!--SR:!2025-11-04,89,373!2026-12-27,424,393-->
     - database / capabilities / data definition ::@:: Specify database contents. They are used to create tables and specify their fields. <!--SR:!2025-11-06,91,373!2026-12-21,420,393-->
     - database / capabilities / data dictionary ::@:: A special table that stores database metadata, including data definition. <!--SR:!2025-11-07,92,373!2025-11-05,90,373-->
     - database / capabilities / data manipulation language ::@:: A language to read from and write to the database. The language is commonly SQL \(structured query language\), often slightly modified. <!--SR:!2025-11-03,88,373!2025-11-07,92,373-->

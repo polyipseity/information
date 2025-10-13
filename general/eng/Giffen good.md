@@ -31,7 +31,7 @@ It has been suggested by {@{Etsusuke Masuda and [Peter Newman](Peter%20Kenneth%2
 
 ## analysis
 
-For {@{almost all products}@}, {@{the demand curve has a negative slope}@}: {@{as the price increases, quantity demanded for the good decreases}@}. \(See [Supply and demand](supply%20and%20demand.md) for background.\) <!--SR:!2025-11-22,282,330!2028-11-05,1126,350!2025-10-29,263,330-->
+For {@{almost all products}@}, {@{the demand curve has a negative slope}@}: {@{as the price increases, quantity demanded for the good decreases}@}. \(See [Supply and demand](supply%20and%20demand.md) for background.\) <!--SR:!2025-11-22,282,330!2028-11-05,1126,350!2029-02-14,1204,350-->
 
 Giffen goods are {@{the exception to this general rule}@}. Unlike {@{other goods or services}@}, {@{the price point at which supply and demand meet}@} results in {@{higher prices and greater demand}@} whenever {@{market forces recognize a change in supply and demand for Giffen goods}@}. As a result, when {@{price goes up, the quantity demanded also goes up}@}. To be {@{a true Giffen good}@}, {@{the good's price}@} must be {@{the only thing that changes to produce a change in quantity demanded}@}. <!--SR:!2025-11-22,282,330!2025-11-30,289,330!2026-02-19,128,310!2028-08-17,1060,350!2028-12-23,1161,350!2025-11-07,270,330!2025-12-02,290,330!2025-11-08,271,330!2025-11-08,24,372-->
 

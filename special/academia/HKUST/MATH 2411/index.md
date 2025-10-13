@@ -99,7 +99,7 @@ The content is in teaching order.
   - inferential statistics / procedures ::@:: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2026-02-12,361,290!2026-02-11,350,290-->
     - inferential statistics / procedures / analysis of variance ::@:: used to test the difference between two or more means <!--SR:!2028-05-17,970,330!2026-03-23,415,310-->
     - inferential statistics / procedures / estimation of parameters ::@:: estimate unknown parameters of a population based on a sample of the population <!--SR:!2029-09-24,1438,350!2027-04-08,716,330-->
-    - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-10-29,273,270!2026-11-29,613,310-->
+    - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2028-08-23,1029,290!2026-11-29,613,310-->
     - inferential statistics / procedures / hypothesis testing ::@:: test a statement about the unknown parameters <!--SR:!2028-04-07,1019,350!2026-02-04,387,310-->
     - inferential statistics / procedures / probability distribution ::@:: mathematical function that gives the probabilities of occurrence of possible outcomes for an experiment <!--SR:!2029-04-20,1313,350!2029-02-05,1198,310-->
     - inferential statistics / procedures / regression ::@:: estimate the relationships between a dependent variable (output) and one or more independent variables (inputs) <!--SR:!2028-04-20,1031,350!2028-10-19,1174,350-->

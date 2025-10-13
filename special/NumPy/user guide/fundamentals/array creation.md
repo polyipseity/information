@@ -31,7 +31,7 @@ NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@
 
 - a list of numbers will create ::@:: a 1D array, <!--SR:!2028-11-07,1142,350!2026-01-05,337,350-->
 - a list of lists will create ::@:: a 2D array, <!--SR:!2025-11-04,283,330!2029-03-09,1235,350-->
-- further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy. <!--SR:!2025-10-29,278,330!2026-01-21,350,350-->
+- further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy. <!--SR:!2028-05-06,920,330!2026-01-21,350,350-->
 
 ```Python
 >>> import numpy as np
@@ -106,7 +106,7 @@ array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 
 ### 2D array creation functions
 
-{@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-10-29,278,330!2027-11-18,837,330!2029-03-07,1234,350-->
+{@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2029-04-19,1268,350!2027-11-18,837,330!2029-03-07,1234,350-->
 
 {@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2029-01-30,1205,350!2029-02-10,1214,350!2029-03-23,1248,350!2026-01-07,339,350-->
 

@@ -50,7 +50,7 @@ Let $a, b \in \mathbb N_0$ and {@{$b \ne 0$. Prove that there exists two natural
 
 ## co-primality of consecutive Fibonacci numbers
 
-Prove that {@{any two consecutive elements of the Fibonacci sequence}@} are {@{relatively prime}@}. {@{The Fibonacci sequence}@} is defined {@{recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}. <!--SR:!2028-06-21,1000,340!2025-10-31,25,370!2025-10-29,23,370!2025-10-30,24,370-->
+Prove that {@{any two consecutive elements of the Fibonacci sequence}@} are {@{relatively prime}@}. {@{The Fibonacci sequence}@} is defined {@{recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}. <!--SR:!2028-06-21,1000,340!2025-10-31,25,370!2026-02-26,120,390!2025-10-30,24,370-->
 
 - strategy ::@:: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction. <!--SR:!2029-05-28,1349,360!2027-09-19,836,340-->
 
@@ -107,7 +107,7 @@ Let {@{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}@}. <!--
 - strategy ::@:: Prove by induction. Use the definition of $\ge$. <!--SR:!2027-07-20,804,340!2025-11-06,327,340-->
 
 1. base case ::@:: Without loss of generality, fix $a \in \mathbb N$. When $b = 1$. then $$a \cdot b = a \cdot 1 = a \cdot S(0) = a + a \cdot 0 = a + 0 = a$$. Thus the theorem is proved when $b = 1$. <!--SR:!2026-05-22,465,320!2029-09-10,1432,360-->
-2. induction ::@:: Assume $a \cdot b \ge a$ for some $b \in \mathbb N_{\ne 0}$. Consider $S(b)$: $$\begin{aligned} a \cdot S(b) & = a + a \cdot b \\ & \ge a \cdot b && \text{definition of }\ge \\ & \ge a && \text{transitivity of }\ge \end{aligned}$$. Thus if the theorem is true for $b$, then it is also true for $S(b)$. By induction, the theorem is true for all $b \in \mathbb N_{\ne 0}$. <!--SR:!2025-10-29,320,340!2025-11-09,327,340-->
+2. induction ::@:: Assume $a \cdot b \ge a$ for some $b \in \mathbb N_{\ne 0}$. Consider $S(b)$: $$\begin{aligned} a \cdot S(b) & = a + a \cdot b \\ & \ge a \cdot b && \text{definition of }\ge \\ & \ge a && \text{transitivity of }\ge \end{aligned}$$. Thus if the theorem is true for $b$, then it is also true for $S(b)$. By induction, the theorem is true for all $b \in \mathbb N_{\ne 0}$. <!--SR:!2029-12-05,1498,360!2025-11-09,327,340-->
 
 ## pigeonhole principle: distance and equilateral triangle
 
