@@ -5,19 +5,19 @@ Robot C HP=100
 Robot D HP=100
 Robot E HP=100
 Robot F HP=100
-. D A 
-E . B 
-F . C 
+. D A
+E . B
+F . C
 Fail: If robot A moves along the direction west by 2 step(s), it will hit another robot along the path, so the position remains unchanged
-. D A 
-E . B 
-F . C 
+. D A
+E . B
+F . C
 Fail: If robot B moves along the direction west by 2 step(s), it will hit another robot along the path, so the position remains unchanged
-. D A 
-E . B 
-F . C 
+. D A
+E . B
+F . C
 Fail: If robot C moves along the direction west by 3 step(s), it will hit another robot along the path, so the position remains unchanged
-. D A 
-E . B 
-F . C 
+. D A
+E . B
+F . C
 === Game Ended ===

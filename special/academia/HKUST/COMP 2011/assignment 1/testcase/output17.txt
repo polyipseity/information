@@ -2,19 +2,19 @@ The initial game information:
 Robot A HP=100
 Robot B HP=100
 Robot C HP=100
-A B C 
-. . . 
-. . . 
+A B C
+. . .
+. . .
 Fail: If robot A moves along the direction south by 3 step(s), it will move outside a boundary, so the position remains unchanged
-A B C 
-. . . 
-. . . 
+A B C
+. . .
+. . .
 Fail: If robot B moves along the direction south by 4 step(s), it will move outside a boundary, so the position remains unchanged
-A B C 
-. . . 
-. . . 
+A B C
+. . .
+. . .
 Fail: If robot C moves along the direction south by 5 step(s), it will move outside a boundary, so the position remains unchanged
-A B C 
-. . . 
-. . . 
+A B C
+. . .
+. . .
 === Game Ended ===

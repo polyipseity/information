@@ -1,7 +1,7 @@
 Lab3 has 6 test cases in 3 pairs:
 
 Test 1: Encrypt "COMP" with key 11
-Explanation: 
+Explanation:
 CO -> 66 + 11 = 77 -> CZ
 MP -> 327 + 11 = 338 -> NA
 
@@ -9,7 +9,7 @@ Test 2: Encrypt "AAZZ" with key 0
 Explanation:
 AA -> 0 + 0 = 0 -> AA
 ZZ -> 675 + 0 = 675 -> ZZ
-This case tests the boundary values.  
+This case tests the boundary values.
 
 Test 3: Encrypt "YEAH" with key 600
 Explanation:

@@ -6,23 +6,23 @@ Robot D HP=100
 Robot E HP=100
 Robot F HP=100
 Robot G HP=100
-A 
-B 
-C 
-D 
-E 
-F 
-G 
+A
+B
+C
+D
+E
+F
+G
 Success: Robot G shoots F
 Robot F health point is reduced from 100 to 0
 Robot F is being destroyed by G
-A 
-B 
-C 
-D 
-E 
-. 
-G 
+A
+B
+C
+D
+E
+.
+G
 == Health points of alive robots ==
 Robot A HP=100
 Robot B HP=99
@@ -33,13 +33,13 @@ Robot G HP=100
 Success: Robot G shoots E
 Robot E health point is reduced from 100 to 0
 Robot E is being destroyed by G
-A 
-B 
-C 
-D 
-. 
-. 
-G 
+A
+B
+C
+D
+.
+.
+G
 == Health points of alive robots ==
 Robot A HP=100
 Robot B HP=99
@@ -49,13 +49,13 @@ Robot G HP=100
 Success: Robot G shoots D
 Robot D health point is reduced from 100 to 0
 Robot D is being destroyed by G
-A 
-B 
-C 
-. 
-. 
-. 
-G 
+A
+B
+C
+.
+.
+.
+G
 == Health points of alive robots ==
 Robot A HP=100
 Robot B HP=99
@@ -71,13 +71,13 @@ Robot G HP=100
 Success: Robot G shoots C
 Robot C health point is reduced from 1 to 0
 Robot C is being destroyed by G
-A 
-B 
-. 
-. 
-. 
-. 
-G 
+A
+B
+.
+.
+.
+.
+G
 == Health points of alive robots ==
 Robot A HP=100
 Robot B HP=99
@@ -85,13 +85,13 @@ Robot G HP=100
 Success: Robot G shoots B
 Robot B health point is reduced from 99 to 0
 Robot B is being destroyed by G
-A 
-. 
-. 
-. 
-. 
-. 
-G 
+A
+.
+.
+.
+.
+.
+G
 == Health points of alive robots ==
 Robot A HP=100
 Robot G HP=100

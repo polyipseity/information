@@ -7,4 +7,4 @@ Enter the output mode:
 Quadrant for the empty cell: 3
   0 1
 0:A A
-1:A  
+1:A

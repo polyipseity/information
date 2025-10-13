@@ -4,17 +4,17 @@ Game Ranking will show after each operation.
 Game over when input 0 0.
 ================ Game Leaderboard ==============
 Rank  Name  Score
-1 vtpczxeg  7908.37    
+1 vtpczxeg  7908.37
 ================ Game Leaderboard ==============
 Rank  Name  Score
-1 vtpczxeg  7908.37    
-2 ngbpzm    7285.84    
+1 vtpczxeg  7908.37
+2 ngbpzm    7285.84
 ================ Game Leaderboard ==============
 Rank  Name  Score
-1 ngbpzm    7285.84    
-2 vtpczxeg  1809.9     
+1 ngbpzm    7285.84
+2 vtpczxeg  1809.9
 ================ Game Leaderboard ==============
 Rank  Name  Score
-1 ngbpzm    4701.48    
-2 vtpczxeg  1809.9     
+1 ngbpzm    4701.48
+2 vtpczxeg  1809.9
 Game Over.

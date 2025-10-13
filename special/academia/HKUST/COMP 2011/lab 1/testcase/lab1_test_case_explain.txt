@@ -9,11 +9,11 @@ The perimeter of the rectangle is 14
 Test case 2: The input width 0 is invalid, so an error message is displayed
 
 Please input the width of the rectangle: 0
-Please input the height of the rectangle: 5  
+Please input the height of the rectangle: 5
 Error: the width and height must be positive!
 
 Test case 3: The input height -5 is invalid, so an error message is displayed
 
 Please input the width of the rectangle: 5
-Please input the height of the rectangle: -5 
+Please input the height of the rectangle: -5
 Error: the width and height must be positive!

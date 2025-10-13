@@ -2,325 +2,325 @@
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 10 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 8 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 increase course array size to 4
 7 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 3 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 increase course array size to 8
 291 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 132 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 100 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 76 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 increase course array size to 16
 98 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 1 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 2 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 4 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 52 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 33 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-Enter the course id: 
-Enter a name: 
+Enter your option:
+Enter the course id:
+Enter a name:
 21 is successfully inserted
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
+Enter your option:
 === Student List ([sid, name, star_rank count]) ===
 No items in the Student list
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
-course_id : 10, name : History, stars_count : 
+Enter your option:
+course_id : 10, name : History, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 8, name : Expression, stars_count : 
+course_id : 8, name : Expression, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 7, name : Business, stars_count : 
+course_id : 7, name : Business, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 3, name : Vocabulary, stars_count : 
+course_id : 3, name : Vocabulary, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 291, name : Writing, stars_count : 
+course_id : 291, name : Writing, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 132, name : Speaking, stars_count : 
+course_id : 132, name : Speaking, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 100, name : Oral, stars_count : 
+course_id : 100, name : Oral, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 76, name : Speech, stars_count : 
+course_id : 76, name : Speech, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 98, name : C++, stars_count : 
+course_id : 98, name : C++, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 1, name : Python, stars_count : 
+course_id : 1, name : Python, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 2, name : Java, stars_count : 
+course_id : 2, name : Java, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 4, name : C, stars_count : 
+course_id : 4, name : C, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 52, name : Go, stars_count : 
+course_id : 52, name : Go, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 33, name : Perl, stars_count : 
+course_id : 33, name : Perl, stars_count :
 *     0
 **    0
 ***   0
 ****  0
 ***** 0
-course_id : 21, name : Rust, stars_count : 
+course_id : 21, name : Rust, stars_count :
 *     0
 **    0
 ***   0
@@ -329,14 +329,14 @@ course_id : 21, name : Rust, stars_count :
 === Menu ===
 1: Display student list
 2: Display courses
-3: Display star_ranks of course 
+3: Display star_ranks of course
 4: Insert a new student to the student list
 5: Insert a new course to the course list
 6: Insert a new star_rank to the star_rank list
 7: Delete a star_rank by student id and course id
 8: Delete a course by course id
 9: Exit the system
-Enter your option: 
+Enter your option:
 reduce course array size to 8
 reduce course array size to 4
 reduce course array size to 2
