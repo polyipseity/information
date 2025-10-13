@@ -69,8 +69,8 @@ The content is in teaching order.
 - [modular programming](../../../../general/modular%20programming.md) ::@:: It is a programming paradigm that emphasizes organizing the functions of a codebase into independent modules – each providing an aspect of a computer program in its entirety without providing other aspects.
   - modular programming / motivation ::@:: Humans cannot understand things that are too _complex_. Often, we break down a complex systems into _modules_, parts of a system that makes sense to _consider separately_ and interact with other modules. This is known as _divide and conquer_.
   - modular programming / module ::@:: It is a part of a system that can be _considered separately_. To model _interactions_ with other modules, they are limited to _interfaces_, which _abstracts_ and _encapsulates_ a module via _information hiding_.
-    - modular programming / module / abstraction ::@:: The internals of a module are hidden away. Interaction is defined via its interface only. The usage of the module by other modules can be understood by looking at its interface only \(ideally\). This reduces complexity of the system.
-    - modular programming / module / encapsulation ::@:: When we want to modify a module, we only need to modify the module without changing other modules \(ideally\). The internals of a module can be changed without affecting other modules \(ideally\). This reduces maintenance burden.
+    - modular programming / module / abstraction ::@:: The internals of a module are hidden away. Interaction is defined via its interface only. The usage of the module by other modules can be understood by looking at its interface only \(ideally\). This reduces complexity of _understanding_ the system.
+    - modular programming / module / encapsulation ::@:: When we want to modify a module, we only need to modify the module without changing other modules \(ideally\). The internals of a module can be changed without affecting other modules \(ideally\). This reduces _maintenance_ burden.
   - modular programming / advantages ::@:: bug reduction, _incremental_ development, maintainability, productive teams, reusability <p> This makes software development _more predictable_, leading to better cost and time estimation.
 - [engineer](../../../../general/engineer.md) ::@:: It is a practitioner of engineering. <p> They apply ingenuity, mathematics, and scientific knowledge to develop _solutions_ \(e.g. materials, structures, _systems_\) for specific _problems_. They need consider _limitations_ from cost, practicality, regulation, and safety.
   - engineer / vs. scientist ::@:: The former builds things for _quality_ \(e.g. avoiding engineering failures\) while the latter builds things for discovering _new_ things \(e.g. scientific breakthroughs\).
@@ -615,8 +615,127 @@ The content is in teaching order.
 
 ## week 6 pre-lecture
 
-- topic:
+- topic: implementation; defensive programming; code review; refactoring; debugging; configuration management
+- [implementation](../../../../general/implementation.md) ::@:: It is the realization of an application, execution of a plan, idea, model, design, specification, standard, algorithm, policy, or the administration or management of a process or objective.
+- systems development life cycle
+  - systems development life cycle / implementation ::@:: It occurs after design, before testing – the "Construction" phase of the engineering workflow. <p> It Involves turning design artifacts into executable _modules_ (classes, binaries, scripts) and _subsystems_. It requires a clear integration plan and disciplined version‑control usage.
+- implementation
+  - implementation / module ::@:: It is a replaceable component that implements specific interfaces, e.g. auth module, user module.
+  - implementation / subsystem ::@:: They group related modules for manageability, e.g. login subsystem = auth module + user module.
+  - implementation / examples ::@:: source files (`.java`/`.cs`), compiled binaries (DLL/EXE), shell scripts, configuration bundles, etc.
+- modular programming
+- implementation
+  - implementation / activities ::@:: generation → modularization → packaging → deployment
+    - implementation / activities / generation ::@:: Generate source code for each class using suitable algorithms and data structures.
+    - implementation / activities / modularization ::@:: Assign classes to language‑specific modules; this decision is often guided by encapsulation rules and package boundaries.
+    - implementation / activities / packaging ::@:: Compile and link modules into a coherent _executable module_, requiring _version control_ to track changes across builds, and also _integration plan_.
+    - implementation / activities / deployment ::@:: Deploy the final binaries onto target nodes or runtime environments.
+- [defensive programming](../../../../general/defensive%20programming.md) ::@:: It is a form of defensive design intended to develop programs that are capable of detecting potential security abnormalities and make predetermined responses. It ensures the continuing function of a piece of software under unforeseen circumstances.
+  - defensive programming / simple definition ::@:: Protect yourself at all times! Never trust anyone! <p> Check all data from external sources. Check all input parameters. Handle bad inputs.
+  - defensive programming / scenarios ::@:: Defensive programming practices are often used where high availability, safety, or security is needed.
+  - defensive programming / techniques ::@:: assertion, code refactoring, code review, validation, etc.
+  - defensive programming / validation ::@:: Separate code into two layers: _validation classes_ that cleanse input, and _internal classes_ that assume clean data. <p> Example: a student registration system checks IDs and emails before storing them.
+    - defensive programming / validation / validation ::@:: Validation converts raw user input (GUI, CLI, files, streams) to the proper types before any business logic runs. These are like "barricade" classes.
+    - defensive programming / validation / internal ::@:: Internal code can be written faster because it does not need to re‑check every assumption.
+- [assertion](../../../../general/assertion%20(software%20development).md) ::@:: In computer programming, specifically when using the imperative programming paradigm, an assertion is a predicate (a Boolean-valued function over the state space, usually expressed as a logical proposition using the variables of a program) connected to a point in the program, that always should evaluate to true at that point in code execution.
+  - assertion / uses ::@:: Assertions can help a programmer read the code, help a compiler compile it, or help the program detect its own defects.
+  - assertion / conditions ::@:: Precondition assertions check inputs before a routine executes; postcondition assertions verify outputs after execution.
+  - assertion / reasoning ::@:: Forward reasoning (pre → post; what will happen) is intuitive but may introduce irrelevant facts that increase in number hopelessly; backward reasoning (post → pre; what should happen) guides test case creation and bug reproduction.
+    - assertion / reasoning / forward ::@:: Simulate the program's execution step‑by‑step starting from a known _precondition_ to predict the resulting _postcondition_. <p> _Example:_ Given `x` is even, after executing `x = x + 3; y = 2 * x;`, forward reasoning tells us `y = 2*(x+3)` and that `y` will be even (since adding 3 to an even number yields odd, then doubling makes it even again).  
+    - assertion / reasoning / backward ::@:: Work backwards from a desired _postcondition_ to deduce the necessary _preconditions_ that must hold before execution. It may also be used to _deduce_ the required inputs to achieve a _goal_ or reproduce a _bug_. <p> _Example:_ To guarantee after running `x = x + 3; y = 2 * x;` that `y > x`, backward reasoning solves `2*(x+3) > x` → `x > -3`. Thus, the precondition needed is "`x` is an integer larger than `-3`."
+  - assertion / uses
+    - assertion / uses / typical ::@:: verifying array bounds, non‑null pointers, expected file states, invariant maintenance across method calls, etc.
+  - assertion / documentation ::@:: Document and verify contract conditions—use them to express both _what should happen_ and _what must never happen_.
+  - assertion / vs. error handling ::@:: eserve error‑handling mechanisms for recoverable faults; assertions are for impossible or programmer errors that should crash the program.
+  - assertion / side effects ::@:: Avoid embedding side effects in assertions because some runtimes may strip them out in release builds.
+  - assertion / examples ::@:: The assertion guards against division‑by‑zero errors during debugging but can be removed in release builds without affecting performance. <p> Example in C\#: <p> `// Precondition: denominator != 0` <br/> `Debug.Assert(denominator != 0, "Denominator is unexpectedly equal to 0.");` <br/> `double result = numerator / denominator;`
+- [code review](../../../../general/code%20review.md) ::@:: It is a software quality assurance activity in which one or more people examine the source code of a computer program, either after implementation or during the development process. <p> It is kinda like an _offline_ version of _pair programming_.
+  - code review / uses ::@:: Peer reviews catch bugs early, expose design flaws \(articulate decisions\), and enforce coding standards before integration. Juniors can also learn without hurting code quality. <p> While it holds both authors and reviewers _accountable_, it is _not_ for assessing performance. Reviewers should find faults in code (but not in people). Reviewers should be voluntary.
+  - code review / artifacts ::@:: coherent module \(sometimes called "inspection"\), completed code \("incremental review"\), design document, spec, etc.
+  - code review / participants ::@:: It should involve at least one other developer not writing the code. It can be a group of developers.
+  - code review / format ::@:: The review process can be formal (in‑person meeting) or informal (email/instant chat). Best to prepare by distributing the artifacts in advance. Often discovery happens during preparation instead of meeting.
+  - code review / goals ::@:: verifying specifications, inspecting coherent modules, ensuring incremental code quality, etc.
+  - code review / focuses ::@:: coding standards \(automated tools can be better\), common problem types, error-prone code, security
+  - code review / techniques ::@:: Walkthroughs where the author presents the artifact; defect discovery only or fix brainstorming; targeted checks for known defect patterns; use of checklists (e.g., "Are all public methods documented?").
+  - code review / vs. testing ::@:: Reviews or inspections can be considered as part of testing, as they both detect faults to improve quality.
+- [code refactoring](../../../../general/code%20refactoring.md) ::@:: In computer programming and software design, it is the process of restructuring existing source code—changing the _factoring_—without changing its external behavior.
+  - code refactoring / uses ::@:: Refactoring is intended to improve the design, structure, and/or implementation of the software (its non-functional attributes), while preserving its functionality.
+  - code refactoring / motivation ::@:: Good code should be _executable_, _maintainable_ \(allow change\), and _clear_ \(communicate well to readers\). <p> Unchecked growth turns code into "code rot".
+  - code refactoring / low-level ::@:: It targets code readability: renaming variables/methods, extracting constants, moving duplicated logic into helper methods, inlining small routines, or reordering statements for cohesion.
+  - code refactoring / high-level ::@:: It aims at architectural improvement: replacing unsafe idioms with safer constructs, clarifying ambiguous logic, optimizing performance hotspots, and applying design patterns where appropriate. <p> They are often not well-supported by tools but are much more _important_.
+  - code refactoring / IDE support ::@:: IDE support \(e.g. Eclipse, IntelliJ IDEA, Visual Studio\) offers automated renaming, extraction, inlining, and signature changes; however, high‑level refactoring, while more important, still requires manual judgment.
+  - code refactoring / examples ::@:: For example, refactoring a "_god_ class" into several classes by looking for "_natural_ homes" for each functionality: <p> 1. Identify clusters of related attributes and operations (e.g., `AddItem`, `CheckOutItem`). <br/> 2. Move these groups into cohesive classes (e.g., `Catalog`, `Person`) to reduce cross‑cutting concerns. <br/> 3. Replace transient associations with explicit attribute and method arguments, thereby clarifying data ownership and lifecycle.
+  - code refactoring / refactoring plan ::@:: Assuming you have enough time: <p> 1. First, write unit tests that capture the current external behavior of the existing system. <br/> 2. Refactor the code base to remove obvious smells (duplicate logic, magic numbers) while preserving functionality. <br/> 3. Finally, add the new feature incrementally, verifying against the established test suite.
+  - code refactoring / timing ::@:: Ideally performed continuously during development—like how unit tests are written—to maintain a clean codebase that supports rapid feature addition.
+    - code refactoring / timing / late vs. early ::@:: Late‑project refactoring is risky because it can introduce regressions and delays delivery; early investment pays off with higher developer morale and lower maintenance costs (ROI estimates up to 500%).
+  - code refactoring / effort ::@:: Although refactoring incurs _upfront_ effort, it pays dividends in reduced defect rates, easier feature integration, and higher team productivity. The _overall_ effort becomes lower.
+  - code refactoring / culture ::@:: Adopt a culture of continuous improvement: write tests first, refactor as you go, and review code regularly to keep the system maintainable.
 - quiz: [quiz 10](questions/quiz%2010.md)
+- defensive programming
+  - defensive programming / principles ::@:: avoiding bugs before they are written, failing fast to make bugs observable, making bugs impossible by design; debugging is _last resort_
+  - defensive programming / making bugs impossible ::@:: discipline, language guarantees, self-imposed restrictions, well-tested protocols or libraries
+    - defensive programming / making bugs impossible / language guarantees ::@:: Treat the language as a safety net: Java, for instance, prevents memory‑overwrite bugs by using managed arrays and bounds checks.
+    - defensive programming / making bugs impossible / well-tested protocols or libraries ::@:: Rely on well‑tested protocols or libraries to guarantee correctness—TCP/IP guarantees packet order; Java `BigInteger` throws on overflow instead of silently wrapping.
+    - defensive programming / making bugs impossible / self-imposed restrictions ::@:: Adopt self‑imposed conventions that eliminate whole classes of defects: hierarchical locking eliminates deadlocks, banning recursion removes infinite‑recursion stack overflows, immutable collections guarantee behavioral equality across threads.
+    - defensive programming / making bugs impossible / discipline ::@:: Discipline is essential; once you "make it impossible", you must keep the rules in force—forgetting a lock order can re‑introduce a deadlock you thought was gone.
+  - defensive programming / avoiding bugs ::@:: simple and modular, think before code
+    - defensive programming / avoiding bugs / think before code ::@:: Think first: plan the data flow and error handling, then code. "If you're writing lots of trivial bugs, you're also probably creating hard‑to‑track ones."
+    - defensive programming / avoiding bugs / don'ts ::@:: Don't rely on the compiler to catch everything—especially in concurrency or time‑sensitive systems where race conditions can slip through. Don't rely on debugging, especially when deadlines are tight.
+    - defensive programming / avoiding bugs / simple and modular ::@:: Keep code simple and modular with well-documented specs; a flat monolith is harder to reason about than a collection of well‑encapsulated modules.
+  - defensive programming / failing fast ::@:: Use assertions to capture invariants as soon as they are violated: `assert(i < a.length): "Value not found in a[]"` aborts the program right where the assumption fails. <p> Insert precondition checks and consistency checks early; if a check fails, halt execution rather than letting the error propagate.
+  - defensive programming / bug observability ::@:: A loop that assumes `k` is present \(`while(true)`\) will throw an exception if the guarantee is broken—this makes the failure obvious. <p> Making the loop "safe" by adding `i < a.length` hides the root cause: you no longer know whether `k` was actually missing or whether another bug caused it. Adding an assertion \(`assert(i < a.length): "Value not found in a[]"`\) restores visibility and documents the invariant, turning silent failures into explicit errors.
+- [debugging](../../../../general/debugging.md) ::@:: It is the process of finding the root cause, workarounds, and possible fixes for bugs.
+  - debugging / "the first bug" ::@:: The first recorded "bug" was a moth stuck in a relay on the Harvard Mark 1 computer \(1947\); it shows how small hardware errors can cascade into system failures.
+  - debugging / localization ::@:: binary-search debugging, modularity, etc.
+    - debugging / localization / modularity ::@:: Modularity allows one to add or remove modules one-by-one and locate the module the bug appears in. It also helps with reasoning, as you can easily inspect intermediate values across interfaces between modules.
+    - debugging / localization / binary-search debugging ::@:: Binary‑search debugging helps isolate faults quickly: divide the code into halves, test each half, repeat until you find the offending segment.
+  - debugging / techniques ::@:: common mistakes, exclusion, stale binaries
+  - debugging / exclusion ::@:: Start by asking "where can't it be?"—e.g., a typo in an identifier will never affect runtime logic, but a swapped argument order will.
+  - debugging / common mistakes ::@:: Look for common mistakes: reversed arguments (`Collection.copy(src, dest)`), `==` vs. `.equals()`, uninitialized variables, deep vs. shallow copy errors.
+  - debugging / stale binaries ::@:: Always recompile and verify you are debugging the current source; stale binaries can mislead.
+- assertion
+  - assertion / production ::@:: The goal of placing assertions in production: to stop execution as close to the defect as possible; a debugger will stop at the check, and you can explore nearby only to locate the problem.
+    - assertion / production / inclusion ::@:: Production inclusion depends on context: if a failure would corrupt data, abort immediately; if the error is benign, you might allow continued operation with a warning.
+- [regression testing](../../../../general/regression%20testing.md) ::@:: It is re-running functional and non-functional tests to ensure that previously developed and tested software still performs as expected after a change. If not, that would be called a _regression_.
+  - regression testing / workflow ::@:: After fixing a bug, add a test that reproduces it and run the full suite to guard against regressions. <p> Frequent regression testing cycles catch newly introduced bugs early and build confidence in the code base.
+  - regression testing / automation ::@:: Automate regression testing; keep tests concise and focused: remove redundant or obsolete tests to reduce noise and regression testing time.
+- debugging
+  - debugging / vs. testing ::@:: The latter reveals a problem exist. The former further pinpoints its location and cause.
+  - debugging / occurrences ::@:: Typical industry defect rate ≈ 10 bugs per 1,000 lines; many surface only after integration or from real user reports.
+  - debugging / steps ::@:: (1) clarify the symptom, (2) reproduce it deterministically and create a test case, (3) debug to find root cause and fix, (4) re‑run all tests.
+  - debugging / getting unstuck ::@:: When debugging fails, consider whether external assumptions have changed (OS updates, disk space), document the system anew, seek help from peers \(see your own blind spots\), or walk away \(prefer efficiency over latency\).
+- [configuration management](../../../../general/configuration%20management.md) \(CM\) ::@:: It is a management process for establishing and maintaining consistency of a product's performance, functional, and physical attributes with its requirements, design, and operational information throughout its life.
+  - configuration management / simple definition ::@:: It manages, controls, and monitor _changes_ to lifecycle _artifacts_, so that cost-effective or urgent changes are prioritized and changes are traceable.
+  - configuration management / components ::@:: change management, version management, system building, release management
+- [change management](../../../../general/change%20management%20(engineering).md) \(CM\) ::@:: It in systems engineering is the process of requesting, determining attainability, planning, implementing, and evaluating of changes to a system. Its main goals are to support the processing and traceability of changes to an interconnected set of factors.
+  - change management / simple definition ::@:: It ensues system evolution is _managed_.
+  - change management / configuration items ::@:: They are artifacts for which we want to control changes: datadata, documents, plans, procedures, programs, specifications, etc.
+  - change management / activities ::@:: It supports many activities: audit, control, identify, report, support, etc.
+  - change management / software library ::@:: To support change management, the library provides facilities to store, label, and identify versions, and tracks status of configuration items.
+    - change management / software library / hierarchy ::@:: \(local\) <br/> - developer's workspace: everyday development; check-in/check-out configuration items to/from master directory <br/> master directory: stores and tracks promotions for other developers; after software QA, they are uploaded to software repository <br/> software repository: stores and tracks releases for users <br/> \(remote\)
+- [change control](../../../../general/change%20control.md) ::@:: Within quality management systems (QMS) and information technology (IT) systems, it is a process—either formal or informal—used to ensure that changes to a product or system are introduced in a controlled and coordinated manner.
+  - change control / baseline ::@:: It is a snapshot of the system; any modification must pass review before becoming part of the baseline. <p> \(__this course__: It may also refer to a time/phase after which any changes must be _formalized_ and _controlled_.\)
+    - change control / baseline / addition ::@:: To add configuration items, it needs to pass a set of _formal_ review procedures, usually at a _milestone_. Then it becomes part of the software library and is checked-in to the master directory.
+    - change control / baseline / modification ::@:: To modify configuration items, the configuration item to replace the old one needs to pass a set of _formal_ review procedures, similar to addition. _Version management_ is needed.
+  - change control / simple definition ::@:: It is a \(__this course__: _formal_\) process to make changes to a project.
+  - change control / workflow ::@:: request → evaluate → implement & quality assurance → promote & release
+    - change control / workflow / request ::@:: user \(external request\) or developer \(internal request\) submits change request
+    - change control / workflow / evaluate ::@:: authority assesses merit, cost, impact; may queue, approve, or deny
+    - change control / workflow / implement & quality assurance ::@:: item is checked out, modified, then checked in after QA; this establishes a new _baseline_ for further QA and testing
+    - change control / workflow / promote & release ::@:: approved changes are released to developers \(promotion\); and users \(release\) after auditing all changes again
+  - change control / audits ::@:: They verify that each step of the change process was followed correctly; usually performed by a Quality Assurance team. <p> This is done by a QA group if there is one in the organization.
+  - change control / status reports ::@:: They keep all stakeholders informed about who made which changes and why—critical for coordination, accountability, and governance.
+- [version control](../../../../general/version%20control.md) ::@:: It is the software engineering practice of controlling, organizing, and tracking different versions in history of computer files; primarily source code text files, but generally any type of file.
+  - version control / names ::@:: revision control, source control, source code management \(__this course__: use _version management_\)
+  - version control / concepts ::@:: branch, codeline, variant, version, evolution graph, etc.
+    - version control / concepts / codeline ::@:: It is a linear history of an item where every new revision directly supersedes its predecessor; think of it as the "main" trunk that evolves over time with each commit creating a newer version. <p> There is a separate codeline for each branch.
+    - version control / concepts / version ::@:: It is a specific, immutable snapshot of a configuration item (e.g., `v2.1.4`); once created it never changes, and all modifications produce a distinct new version rather than overwriting the old one.
+    - version control / concepts / branch ::@:: It is a diverging path off the main codeline that allows _parallel_  or experimentation; branches can be merged back later, enabling isolated feature work without disrupting the stable trunk.
+    - version control / concepts / variant ::@:: It is a _co‑existing_ configuration of an item tailored for different environments or use cases (e.g., Windows builds vs. Linux builds), each variant may follow its own codeline and versioning scheme while sharing common core code.
+    - version control / concepts / evolution graph ::@:: It visualizes the history: nodes represent versions, edges indicate derivations or merges.
+- implementation
+  - implementation / summary ::@:: Implement classes (operations) in modules, then group modules into subsystems. Integrate all subsystems into a final system and assign executable modules to processing nodes (in distributed contexts).
+  - implementation / quality ::@:: It depends on _continuous improvement_ via defensive programming, rigorous code review, refactoring practices, effective debugging, and robust configuration management.
 - quiz: [quiz 11](questions/quiz%2011.md)
 - [questions § week 6 pre-lecture](questions/index.md#week%206%20pre-lecture)
 

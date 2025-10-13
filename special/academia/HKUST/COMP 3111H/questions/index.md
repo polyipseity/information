@@ -187,10 +187,16 @@ tags:
 
 ## week 5 pre-lecture
 
+\(none\)
+
 ## week 5 lecture
 
 \(none\)
 
 ## week 6 pre-lecture
 
+\(none\)
+
 ## week 6 lecture
+
+\(none\)
