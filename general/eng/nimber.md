@@ -27,7 +27,7 @@ Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} w
 
 - Main article: [Nim](Nim.md)
 
-Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup>
+Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves}@} depend {@{only on the position and not on which of the two players is currently moving}@}, and where {@{the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup>
 
 ### Cram
 

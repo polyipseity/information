@@ -51,7 +51,7 @@ Bijective proofs prove that {@{two sets have the same number of elements}@} by {
 
 - see: [double counting (proof technique)](double%20counting%20(proof%20technique).md)
 
-Double counting is {@{a technique that equates two expressions that count the size of a set in two ways}@}.
+{@{Double counting}@} is {@{a technique}@} that {@{equates two expressions that count the size of a set in two ways}@}.
 
 ## pigeonhole principle
 

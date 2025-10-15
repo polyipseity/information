@@ -93,7 +93,7 @@ Associations of {@{different degree}@} are {@{drawn differently}@}. An associati
 
 {@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity–relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}.
 
-To {@{specify multiplicity}@}, specify {@{the _minimum cardinality_ \(min count\) and _maximum cardinality_ \(max count\)}@} on {@{the _other_ class \(not the _current_ class\)}@}. Both are {@{inclusive}@}. {@{_Cardinality_}@} can be {@{any _nonnegative_ integer}@}, or {@{the special wildcard `*` representing infinity}@}. Then, write it using {@{`<min card>..<max card>`}@}. There are {@{shorthands for some multiplicities}@}:
+To {@{specify multiplicity}@}, specify {@{the _minimum cardinality_ \(min count\) and _maximum cardinality_ \(max count\)}@} on {@{the _other_ class \(not the _current_ class\)}@}. Both are {@{inclusive}@}. {@{_Cardinality_}@} can be {@{any _nonnegative_ integer}@}, or {@{the special wildcard `*` representing infinity}@}. Then, write it using {@{`<min card>..<max card>`}@}. There are {@{shorthands for some multiplicities}@} for {@{`1..` and `0..*`}@}:
 
 - `1` ::@:: `1..1`
 - `*` ::@:: `0..*`
@@ -188,9 +188,9 @@ There are {@{4 major solutions}@}: {@{many attributes in a class, multi-valued a
 
 An {@{_attribute constraint_}@} constrains {@{an _attribute_ of a class}@}. It can be indicated by {@{`{<boolean expr>}` next to the attribute or on a note linked with the class by a dashed line}@}, which represents {@{an expression that must always be true}@}, e.g. {@{`balance: money {balance >= 100}`}@}.
 
-An {@{_operation constraint_}@} constrains {@{an _operation_ of a class}@}. It can be indicated by {@{`{<boolean expr>}` next to the operation or on a _note_ linked with the class by a _dashed_ line}@}, which represents {@{an expression that must always be true}@}, e.g. {@{`balance(): money {balance() >= 100}`}@}.
+An {@{_operation constraint_}@} constrains {@{an _operation_ of a class}@}. It can be indicated by {@{`{<boolean expr>}` next to the operation}@} or {@{on a _note_ linked with the class by a _dashed_ line}@}, which represents {@{an expression that must always be true}@}, e.g. {@{`balance(): money {balance() >= 100}`}@}.
 
-An {@{_association constraint_}@} constrains {@{an _association_}@}. It can involve {@{one association only}@}, which is indicated by {@{`{<constraint 1>, ..., <constraint N>}` next to the association}@}. It can involve {@{multiple associations}@}, which is indicated by {@{a _dashed line_ with text like `{<constraint 1>, ..., <constraint N>}` next to it}@}. Some constraints {@{make the _dashed line_ a _dashed arrow_ instead}@}. Example association constraints include:
+An {@{_association constraint_}@} constrains {@{an _association_}@}. It can involve {@{one association only}@}, which is indicated by {@{`{<constraint 1>, ..., <constraint N>}` next to the association}@}. It can involve {@{multiple associations}@}, which is indicated by {@{a _dashed line_ with text like `{<constraint 1>, ..., <constraint N>}` next to it}@}. Some constraints {@{make the _dashed line_ a _dashed arrow_ instead}@}. Example association constraints include: \(annotation: 3 items: {@{ordering, subset, xor}@}\)
 
 - association constraint: ordering ::@:: `{ordered, FIFO}`, `{ordered, LIFO}`, etc.; for one association
 - association constraint: subset ::@:: `{subset}`; the specialized \(subset\) association has a _dashed arrow_ towards the general \(superset\) association
@@ -219,7 +219,7 @@ It is {@{developed _incrementally_ and _concurrently_}@} with {@{the use case mo
 
 Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _singular form noun_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}.
 
-Best practices:
+{@{Best practices}@}: \(annotation: 5 items: {@{action/operation, implementation, irrelevant}@}; {@{vague; redundant; dependent; role}@}\)
 
 - action/operation class, implementation class, irrelevant class ::@:: Eliminate.
 - vague class ::@:: Eliminate or make specific.
@@ -233,7 +233,7 @@ To actually {@{specify the class}@}, specify {@{its name \(singular form noun\) 
 
 Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _active voice verb_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}.
 
-Best practices:
+{@{Best practices}@}: \(annotation: 5 items: {@{action/operation, implementation, irrelevant}@}; {@{ternary; derivable; vague; redundant}@}\)
 
 - action/operation association, implementation association, irrelevant association ::@:: Eliminate.
 - ternary association ::@:: Decompose into binary associations. \(__this course__: We do not consider ternary associations anyway...\)
@@ -249,7 +249,7 @@ Identify {@{_data_ needed to be stored by classes or associations}@}. Often they
 
 It should correspond to either {@{a _noun_ followed by _possessive_ phrases \(e.g. a person's _date of birth_\)}@} or {@{_adjectives_ \(e.g. _fall_ semester\)}@}. The latter are often {@{_enumerated_ values}@}.
 
-Best practices:
+{@{Best practices}@}: \(annotation: 4 items: {@{irrelevant; independent}@}; {@{association; identifier}@}\)
 
 - irrelevant attribute ::@:: Eliminate, to make the class _coherent_ and _simple_.
 - independent attribute ::@:: Consider application requirements and potentially convert them into classes or eliminate.

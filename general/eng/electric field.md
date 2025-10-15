@@ -167,11 +167,11 @@ Both {@{the [electric current density](electric%20current%20density.md) and the 
 
 ## energy in the electric field
 
-{@{The total energy per unit volume stored by the [electromagnetic field](electromagnetic%20field.md)}@} is<sup>[\[19\]](#^ref-19)</sup> {@{$$u_{\text{EM} }={\frac {\varepsilon }{2} }|\mathbf {E} |^{2}+{\frac {1}{2\mu } }|\mathbf {B} |^{2}$$}@} where {@{_ε_ is the [permittivity](permittivity.md) of the medium in which the field exists, $\mu$ its [magnetic permeability](magnetic%20permeability.md), and __E__ and __B__ are the electric and magnetic field vectors}@}.
+{@{The total energy per unit volume}@} stored by {@{the [electromagnetic field](electromagnetic%20field.md)}@} is<sup>[\[19\]](#^ref-19)</sup> {@{$$u_{\text{EM} }={\frac {\varepsilon }{2} }|\mathbf {E} |^{2}+{\frac {1}{2\mu } }|\mathbf {B} |^{2}$$}@} where {@{_ε_ is the [permittivity](permittivity.md) of the medium in which the field exists, $\mu$ its [magnetic permeability](magnetic%20permeability.md)}@}, and {@{__E__ and __B__ are the electric and magnetic field vectors}@}.
 
 As {@{__E__ and __B__ fields are coupled}@}, it would be {@{misleading to split this expression into "electric" and "magnetic" contributions}@}. In particular, {@{an electrostatic field in any given frame of reference in general}@} {@{transforms into a field with a magnetic component in a relatively moving frame}@}. Accordingly, {@{decomposing the electromagnetic field into an electric and magnetic component}@} is {@{frame-specific, and similarly for the associated energy}@}.
 
-{@{The total energy _U_<sub>EM</sub> stored in the electromagnetic field in a given volume _V_}@} is {@{$$U_{\text{EM} }={\frac {1}{2} }\int _{V}\left(\varepsilon |\mathbf {E} |^{2}+{\frac {1}{\mu } }|\mathbf {B} |^{2}\right)dV\,.$$}@}
+{@{The total energy _U_<sub>EM</sub>}@} stored in {@{the electromagnetic field in a given volume _V_}@} is {@{$$U_{\text{EM} }={\frac {1}{2} }\int _{V}\left(\varepsilon |\mathbf {E} |^{2}+{\frac {1}{\mu } }|\mathbf {B} |^{2}\right)dV\,.$$}@}
 
 ## electric displacement field
 

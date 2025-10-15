@@ -12,7 +12,7 @@ tags:
 
 - This article is about {@{the mathematical game of strategy}@}. For the programming language, see [Nim (programming language)](Nim%20(programming%20language).md).<!-- For other uses, see [Nim (disambiguation)](NIM.md).-->
 
-__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}.
+__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}.
 
 Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}.
 
@@ -82,7 +82,7 @@ The evolution graph of the game of nim with three heaps is {@{the same as three 
 
 Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and {@{there is an easily calculated way to determine which player will win and which winning moves are open to that player}@}.
 
-The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes, i.e., the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows:
+The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes}@}, i.e., {@{the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows:
 
 ```text
   Binary   Decimal

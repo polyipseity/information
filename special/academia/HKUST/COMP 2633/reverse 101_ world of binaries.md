@@ -24,7 +24,7 @@ Assuming {@{you are using Linux}@}. For developers, {@{compiling a C program}@} 
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures.
 
-Instead, we are more interested in {@{the compilation process itself}@}. We like to think of compilation as a single process, but {@{it is really composed of several steps: preprocessing (`-E`), then compilation (`-S`), then assembly (`-c`), and finally linking (none)}@}.
+Instead, we are more interested in {@{the compilation process itself}@}. We like to think of {@{compilation as a single process}@}, but it is {@{really composed of several steps}@}: {@{preprocessing \(`-E`\), then compilation \(`-S`\)}@}, then {@{assembly \(`-c`\), and finally linking \(none\)}@}.
 
 Preprocessing {@{transforms source program (text) into modified source program (still text)}@}. GCC internally {@{uses the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}.
 

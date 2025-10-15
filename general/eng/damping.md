@@ -91,14 +91,14 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > __underdamped__
 >
-> When $0 < \zeta < 1$, {@{the system resembles [simple harmonic motion](simple%20harmonic%20motion.md) with its [amplitude](amplitude.md) [modulated](modulation.md) by $e^{-\lambda t}$}@}. This is {@{common in the natural world due to small amounts of [dissipation](dissipation.md)}@}. The equation is:
+> When $0 < \zeta < 1$, {@{the system resembles [simple harmonic motion](simple%20harmonic%20motion.md) with its _maximum_ [amplitude](amplitude.md) [modulated](modulation.md) by $e^{-\lambda t}$}@}. This is {@{common in the natural world due to small amounts of [dissipation](dissipation.md)}@}. The equation is:
 >
-> {@{$$x(t) = A e^{-\lambda t} \cos(\omega t + \varphi)$$}@}
+> {@{$$x(t) = A_{\text{max} } e^{-\lambda t} \cos(\omega t + \varphi)$$}@}
 >
 > - where
 >   - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
 >   - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{1 - \zeta^2}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
->   - initial properties: $A$ is {@{the initial [amplitude](amplitude.md)}@} and {@{$\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$}@} is {@{the initial phase}@}
+>   - initial properties: {@{$A_{\text{max} } = \sqrt{A_0^2 + \left(\frac {v_0 + \lambda A} \omega \right)^2}$}@} is {@{the _maximum_ [amplitude](amplitude.md)}@} and {@{$\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$}@} is {@{the initial phase}@}
 
 <!-- markdownlint MD028 -->
 
