@@ -231,7 +231,7 @@ To actually {@{specify the class}@}, specify {@{its name \(singular form noun\) 
 
 ### modeling associations
 
-Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _active voice verb_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}.
+Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{an _active voice verb_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}.
 
 {@{Best practices}@}: \(annotation: 5 items: {@{action/operation, implementation, irrelevant}@}; {@{ternary; derivable; vague; redundant}@}\)
 

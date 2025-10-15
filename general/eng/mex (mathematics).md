@@ -10,7 +10,7 @@ tags:
 
 # mex
 
-In [mathematics](mathematics.md), {@{the __mex__ \("<!-- markdown separator -->__m__<!-- markdown separator -->inimum __ex__<!-- markdown separator -->cluded value"\)}@} of {@{a [subset](subset.md) of a [well-ordered](well-order.md) set is the smallest value from the whole set that does not belong to the subset}@}. That is, it is {@{the [minimum](maximum%20and%20minimum.md) value of the [complement set](complement%20(set%20theory).md)}@}.
+In [mathematics](mathematics.md), {@{the __mex__ \("<!-- markdown separator -->__m__<!-- markdown separator -->inimum __ex__<!-- markdown separator -->cluded value"\)}@} of {@{a [subset](subset.md) of a [well-ordered](well-order.md) set}@} is {@{the smallest value from the whole set that does not belong to the subset}@}. That is, it is {@{the [minimum](maximum%20and%20minimum.md) value of the [complement set](complement%20(set%20theory).md)}@}.
 
 Beyond sets, {@{[subclasses](subclass%20(set%20theory).md) of well-ordered [classes](class%20(set%20theory).md) have minimum excluded values}@}. {@{Minimum excluded values of subclasses of the [ordinal numbers](ordinal%20number.md)}@} are {@{used in [combinatorial game theory](combinatorial%20game%20theory.md)}@} to {@{assign [nim-values](Sprague–Grundy%20theorem.md) to [impartial games](impartial%20game.md)}@}. According to {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, {@{the nim-value of a game position}@} is {@{the minimum excluded value of the class of values of the positions that can be reached in a single move from the given position}@}.<sup>[\[1\]](#^ref-1)</sup>
 

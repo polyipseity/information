@@ -219,7 +219,7 @@ The content is in teaching order.
   - non-obvious relationship awareness / processing ::@:: name standardization → merging → matching
   - non-obvious relationship awareness / outputs ::@:: NORA alerts
 - ethics
-  - ethics / steps ::@:: 5 steps: identify and state facts → define conflicts, lemmas, and values involved → identify stakeholders → identify reasonable options → identify potential consequences
+  - ethics / steps ::@:: 5 steps: <p> 1. identify and state facts <br/> 2. define conflicts, lemmas, and values involved <br/> 3. identify stakeholders <br/> 4. identify reasonable options <br/> 5. identify potential consequences
 - [privacy](../../../../generala/privacy.md) ::@:: It is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively.
   - privacy / United States ::@:: First Amendment: freedom of speech <br/> Fourth Amendment: unreasonable search and seizure <br/> additional federal statues: Privacy Act of 1974, etc.
 - [FTC fair information practice](../../../../general/FTC%20fair%20information%20practice.md) \(FTC FIP\) ::@:: They are US FTC guidelines that represent widely accepted concepts concerning fair information practice in an electronic marketplace.
@@ -260,7 +260,7 @@ The content is in teaching order.
     - big data ethics / dimensions / data ethics ::@:: consent, data breach, privacy, trust
     - big data ethics / dimensions / algorithm ethics ::@:: design philosophy, explainabiility, machine bias, model transparency
     - big data ethics / dimensions / practice ethics ::@:: fairness, human rights, presentation bias
-  - big data ethics / privacy ::@:: businesses: Big data is increasingly needed for competitive advantage with significant investment. <br/> consumers: Awareness of data ethics is increasing. <br/> criminals: Identity theft becomes easier with better technology. <br/> legislators: Respond to consumer concerns by legislating laws that restrict businesses.
+  - big data ethics / privacy ::@:: - businesses: Big data is increasingly needed for competitive advantage with significant investment. <br/> - consumers: Awareness of data ethics is increasing. <br/> - criminals: Identity theft becomes easier with better technology. <br/> - legislators: Respond to consumer concerns by legislating laws that restrict businesses.
     - big data ethics / privacy / protected information ::@:: other personal information, personally identifiable information \(PII\), sensitive information
     - big data ethics / privacy / personally identifiable information \(PII\) ::@:: Identifies a personal directly or indirectly. <p> examples: addresses, bank accounts, name, email addresses, telephone numbers, zip codes, etc.
     - big data ethics / privacy / sensitive information ::@:: Information those disclosure can be detrimental to the person. <p> examples: age, criminal records, ethnicity, gender, health information, political opinions, race, religious beliefs, etc.

@@ -50,7 +50,7 @@ If {@{vectors are identified with [column vectors](column%20matrix.md)}@}, the d
 
 > {@{![Calculating bond angles of a symmetrical [tetrahedral molecular geometry](tetrahedral%20molecular%20geometry.md) using a dot product](../../archives/Wikimedia%20Commons/Tetrahedral%20angle%20calculation.svg)}@}
 >
-> Calculating {@{bond angles of a symmetrical [tetrahedral molecular geometry](tetrahedral%20molecular%20geometry.md) using a dot product}@}
+> Calculating {@{bond angles of a symmetrical [tetrahedral molecular geometry](tetrahedral%20molecular%20geometry.md)}@} using {@{a dot product}@}
 
 In {@{[Euclidean space](Euclidean%20space.md)}@}, {@{a [Euclidean vector](Euclidean%20vector.md)}@} is {@{a geometric object that possesses both a magnitude and a direction}@}. A vector can be {@{pictured as an arrow}@}. {@{Its magnitude}@} is {@{its length}@}, and {@{its direction is the direction to which the arrow points}@}. {@{The [magnitude](magnitude%20(mathematics).md) of a vector $\mathbf {a}$}@} is denoted by {@{$\left\|\mathbf {a} \right\|$}@}. {@{The dot product of two Euclidean vectors $\mathbf {a}$ and $\mathbf {b}$}@} is defined by<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[1\]](#^ref-1)</sup> {@{$$\mathbf {a} \cdot \mathbf {b} =\left\|\mathbf {a} \right\|\left\|\mathbf {b} \right\|\cos \theta ,$$ where $\theta$ is the [angle](angle.md) between $\mathbf {a}$ and $\mathbf {b}$}@}.
 

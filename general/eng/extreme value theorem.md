@@ -12,7 +12,7 @@ In [mathematics](mathematics.md), the __extreme value theorem__ states that {@{i
 
 > __extreme value theorem__
 >
-> {@{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $l, u \in I$ such that $$f(l) \le f(x) \le f(u) \qquad \forall x \in I$$.}@}
+> Given {@{a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$}@}, there exists {@{$l, u \in I$}@} such that {@{$$f(l) \le f(x) \le f(u) \qquad \forall x \in I \,.$$}@}
 
 The extreme value theorem is more specific than the related {@{__boundedness theorem__}@}. It states {@{a [continuous function](continuous%20function.md) on a closed interval is [bounded](bounded%20function.md) on that interval}@}.
 
