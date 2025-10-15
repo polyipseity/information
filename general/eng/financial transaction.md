@@ -39,7 +39,7 @@ Transactions that {@{use credit involve a deferred payment for the goods or serv
 
 ### internal and external transactions
 
-External transactions are {@{any business transactions that involve more than one party}@}. For example, {@{a company buying [inventory](inventory.md) from a supplier}@} would be considered external. {@{All cash and credit transactions}@} are external, since {@{they affect the finances of more than one person or group}@}.<sup>[\[25\]](#^ref-25)</sup> On the other hand, internal transactions {@{only affect one business}@}. {@{Shifting goods between different [departments](departmentalization.md) in a business}@} is an internal transaction, since it {@{does not change the overall finances of the company}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2029-06-03,1338,350!2025-11-02,315,330!2029-08-15,1395,350!2026-11-15,601,330!2028-09-15,1132,350!2026-10-17,579,330!2027-08-31,819,330-->
+External transactions are {@{any business transactions that involve more than one party}@}. For example, {@{a company buying [inventory](inventory.md) from a supplier}@} would be considered external. {@{All cash and credit transactions}@} are external, since {@{they affect the finances of more than one person or group}@}.<sup>[\[25\]](#^ref-25)</sup> On the other hand, internal transactions {@{only affect one business}@}. {@{Shifting goods between different [departments](departmentalization.md) in a business}@} is an internal transaction, since it {@{does not change the overall finances of the company}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2029-06-03,1338,350!2029-10-10,1438,350!2029-08-15,1395,350!2026-11-15,601,330!2028-09-15,1132,350!2026-10-17,579,330!2027-08-31,819,330-->
 
 ## see also
 

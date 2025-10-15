@@ -21,11 +21,11 @@ tags:
 
 > - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-12-04,290,330!2025-12-01,288,330-->
 > - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2025-12-02,289,330!2025-12-09,294,330-->
-> - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2027-05-03,562,270!2025-11-02,179,230-->
+> - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2027-05-03,562,270!2027-06-07,582,250-->
 
 {@{__Kruskal's algorithm__}@}<sup>[\[1\]](#^ref-1)</sup> finds {@{a [minimum spanning forest](minimum%20spanning%20tree.md) of an undirected [edge-weighted graph](glossary%20of%20graph%20theory.md#weighted%20graph)}@}. If {@{the graph is [connected](connectivity%20(graph%20theory).md)}@}, it {@{finds a [minimum spanning tree](minimum%20spanning%20tree.md)}@}. It is {@{a [greedy algorithm](greedy%20algorithm.md) that in each step adds to the forest the lowest-weight edge that will not form a [cycle](cycle%20(graph%20theory).md)}@}.<sup>[\[2\]](#^ref-2)</sup> {@{The key steps of the algorithm}@} are {@{[sorting](sorting.md) and the use of a [disjoint-set data structure](disjoint-set%20data%20structure.md) to detect cycles}@}. Its running time is {@{dominated by the time to sort all of the graph edges by their weight}@}. <!--SR:!2029-01-11,1174,350!2025-11-04,266,330!2025-11-14,275,330!2029-02-09,1198,350!2027-12-07,845,330!2028-12-31,1167,350!2025-11-30,286,330!2025-12-09,294,330-->
 
-{@{A minimum spanning tree of a connected weighted graph}@} is {@{a connected subgraph, without cycles, for which the sum of the weights of all the edges in the subgraph is minimal}@}. For {@{a disconnected graph}@}, {@{a minimum spanning forest}@} is {@{composed of a minimum spanning tree for each [connected component](component%20(graph%20theory).md)}@}. <!--SR:!2025-11-02,264,330!2025-11-28,285,330!2025-11-28,285,330!2025-12-09,294,330!2027-07-03,721,330-->
+{@{A minimum spanning tree of a connected weighted graph}@} is {@{a connected subgraph, without cycles, for which the sum of the weights of all the edges in the subgraph is minimal}@}. For {@{a disconnected graph}@}, {@{a minimum spanning forest}@} is {@{composed of a minimum spanning tree for each [connected component](component%20(graph%20theory).md)}@}. <!--SR:!2029-02-14,1200,350!2025-11-28,285,330!2025-11-28,285,330!2025-12-09,294,330!2027-07-03,721,330-->
 
 This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2026-10-27,514,310!2027-11-18,830,330!2026-04-03,331,290!2026-01-24,285,270-->
 
@@ -112,7 +112,7 @@ The proof {@{consists of two parts}@}. First, it is proved that {@{the algorithm
 
 ### spanning tree
 
-Let $G$ be {@{a connected, weighted graph}@} and let $Y$ be {@{the subgraph of $G$ produced by the algorithm}@}. $Y$ {@{cannot have a cycle}@}, as {@{by definition an edge is not added if it results in a cycle}@}. $Y$ {@{cannot be disconnected}@}, since {@{the first encountered edge that joins two components of $Y$ would have been added by the algorithm}@}. Thus, {@{$Y$ is a spanning tree of $G$}@}. <!--SR:!2025-11-26,283,330!2028-10-29,1115,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-08,294,330!2025-11-02,265,330!2025-11-07,268,330-->
+Let $G$ be {@{a connected, weighted graph}@} and let $Y$ be {@{the subgraph of $G$ produced by the algorithm}@}. $Y$ {@{cannot have a cycle}@}, as {@{by definition an edge is not added if it results in a cycle}@}. $Y$ {@{cannot be disconnected}@}, since {@{the first encountered edge that joins two components of $Y$ would have been added by the algorithm}@}. Thus, {@{$Y$ is a spanning tree of $G$}@}. <!--SR:!2025-11-26,283,330!2028-10-29,1115,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-08,294,330!2029-02-25,1211,350!2025-11-07,268,330-->
 
 ### minimality
 

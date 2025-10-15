@@ -23,7 +23,7 @@ Petroleum is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of
 
 ## uses
 
-Petroleum is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}. <!--SR:!2025-12-23,583,254!2025-11-02,602,274!2027-07-24,1019,294-->
+Petroleum is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}. <!--SR:!2025-12-23,583,254!2032-02-19,2300,294!2027-07-24,1019,294-->
 
 ### fuels
 

@@ -72,7 +72,7 @@ The demand curve is {@{generally downward-sloping, but for some goods it is upwa
 
 As with {@{the supply curve}@}, {@{the concept of a demand curve}@} requires that {@{the purchaser be a perfect competitor}@}—that is, that the purchaser {@{have no influence over the market price}@}. This is true because {@{each point on the demand curve answers the question, "If buyers are _faced with_ this potential price, how much of the product will they purchase?"}@} But, if {@{a buyer has market power \(that is, the amount he buys influences the price\)}@}, he is {@{not "faced with" any given price}@}, and we must use {@{a more complicated model, of [monopsony](monopsony.md)}@}. <!--SR:!2029-02-17,1215,350!2028-02-04,850,330!2029-01-24,1197,350!2025-12-27,324,350!2028-08-22,1075,350!2025-11-03,24,381!2025-11-04,25,381!2025-11-05,26,381-->
 
-As with {@{supply curves}@}, economists distinguish between {@{the demand curve for an individual and the demand curve for a market}@}. The market demand curve is {@{obtained by adding the quantities from the individual demand curves at each price}@}. <!--SR:!2029-03-19,1240,350!2025-11-02,276,330!2026-01-30,352,350-->
+As with {@{supply curves}@}, economists distinguish between {@{the demand curve for an individual and the demand curve for a market}@}. The market demand curve is {@{obtained by adding the quantities from the individual demand curves at each price}@}. <!--SR:!2029-03-19,1240,350!2029-04-17,1262,350!2026-01-30,352,350-->
 
 Common determinants of demand are:
 

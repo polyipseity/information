@@ -324,7 +324,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="a5defa"--><!-- The following content is generated at 2024-01-28T09:35:09.995261+08:00. Any edits will be overridden! -->
 
 - hydrogen ion:@:colorless <!--SR:!2030-03-04,2219,329-->
-- sodium ion:@:colorless <!--SR:!2025-11-02,919,293-->
+- sodium ion:@:colorless <!--SR:!2033-03-18,2693,293-->
 - potassium ion:@:colorless <!--SR:!2029-06-22,2017,324-->
 - copper(I) ion:@:_(n/a)_ <!--SR:!2027-06-23,1081,276-->
 - silver ion:@:colorless <!--SR:!2027-03-01,1295,279-->

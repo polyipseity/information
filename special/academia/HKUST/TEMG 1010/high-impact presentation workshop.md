@@ -10,7 +10,7 @@ tags:
 
 - HKUST TEMG 1010
 - datetime: 2024-11-09T09:30:00+08:00/2024-11-09T12:30:00+08:00, PT3H
-- topic ::@:: high-impact presentation <!--SR:!2025-11-02,268,330!2025-11-27,287,330-->
+- topic ::@:: high-impact presentation <!--SR:!2029-03-06,1220,350!2025-11-27,287,330-->
 - venue: AIS Common A (Rm 4380)
 
 The speaker talked about how to give a high-impact presentation. While I may not be the most interested in the content, it is still very useful to me.

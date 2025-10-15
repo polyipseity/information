@@ -404,7 +404,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(a + np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-11-02,242,330-->
+> - solution: {@{`print(a + np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2028-11-10,1104,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1366,7 +1366,7 @@ tags:
 > 2. Producing wrong predictions due to model implementation issues.
 > 3. Obscuring the legal responsibilities.
 >
-> - solution: {@{1, 2, 3}@} <!--SR:!2025-11-02,242,330-->
+> - solution: {@{1, 2, 3}@} <!--SR:!2028-11-09,1103,350-->
 
 <!-- markdownlint MD028 -->
 

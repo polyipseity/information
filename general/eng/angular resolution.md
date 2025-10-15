@@ -9,7 +9,7 @@ tags:
 
 # angular resolution
 
-{@{The colloquial use of the term "resolution"}@} sometimes {@{causes confusion}@}; when {@{an optical system}@} is said to {@{have a high resolution or high angular resolution}@}, it means that {@{the perceived distance, or actual angular distance, between resolved neighboring objects is small}@}. {@{The value that quantifies this property, _θ_}@}, which is given by {@{the [Rayleigh criterion](#Rayleigh's%20criterion)}@}, is {@{low for a system with a high resolution}@}. <!--SR:!2030-05-19,1678,370!2030-07-17,1726,370!2025-11-02,18,326!2025-11-02,18,326!2025-11-02,18,326!2025-11-02,18,326!2025-11-02,18,326!2025-11-02,18,326-->
+{@{The colloquial use of the term "resolution"}@} sometimes {@{causes confusion}@}; when {@{an optical system}@} is said to {@{have a high resolution or high angular resolution}@}, it means that {@{the perceived distance, or actual angular distance, between resolved neighboring objects is small}@}. {@{The value that quantifies this property, _θ_}@}, which is given by {@{the [Rayleigh criterion](#Rayleigh's%20criterion)}@}, is {@{low for a system with a high resolution}@}. <!--SR:!2030-05-19,1678,370!2030-07-17,1726,370!2026-01-20,79,346!2026-01-21,80,346!2026-01-20,79,346!2026-01-23,82,346!2026-01-19,78,346!2026-01-22,81,346-->
 
 ## Rayleigh's criterion
 

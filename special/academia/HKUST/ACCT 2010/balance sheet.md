@@ -19,7 +19,7 @@ tags:
 
 ## examples
 
-- [`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) ::@:: ![`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) <!--SR:!2025-11-02,208,270!2027-01-24,568,310-->
+- [`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) ::@:: ![`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) <!--SR:!2027-05-18,562,270!2027-01-24,568,310-->
 - [`Cascadia Wikimedians User Group - Balance sheet as of Dec 31, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Balance%20sheet%20as%20of%20Dec%2031,%202015.jpg) ::@:: ![`Cascadia Wikimedians User Group - Balance sheet as of Dec 31, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Balance%20sheet%20as%20of%20Dec%2031,%202015.jpg) <!--SR:!2027-11-28,762,290!2026-08-03,425,310-->
 
 ## format

@@ -85,7 +85,7 @@ To compensate for {@{being the weakest link in the chain of processes}@}, the bo
 
 ### eliminating non-value activities
 
-In {@{removing all non-value activities}@}, you reduce {@{the amount of redundant tasks performed by the bottlenecked machine}@} and hence {@{maximize efficiency}@}. Removing the waste operations results in {@{a shorter cycle time hence allowing the machine to complete each process in less time}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-05,292,330!2025-11-02,187,310!2026-03-03,290,330!2025-12-15,227,330-->
+In {@{removing all non-value activities}@}, you reduce {@{the amount of redundant tasks performed by the bottlenecked machine}@} and hence {@{maximize efficiency}@}. Removing the waste operations results in {@{a shorter cycle time hence allowing the machine to complete each process in less time}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-05,292,330!2028-01-12,801,330!2026-03-03,290,330!2025-12-15,227,330-->
 
 ### provide a constant buffer stock upstream
 

@@ -55,7 +55,7 @@ Below is {@{a [triangular array](triangular%20array.md) of values for the Stirli
 | __9__            | 0     | 1     | 255   | 3025  | 7770  | 6951  | 2646  | 462   | 36    | 1     |        |
 | __10__           | 0     | 1     | 511   | 9330  | 34105 | 42525 | 22827 | 5880  | 750   | 45    | 1      |
 
-As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2025-11-02,282,330!2025-11-28,304,330-->
+As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2029-05-08,1283,350!2025-11-28,304,330-->
 
 ## properties
 

@@ -275,7 +275,7 @@ Other routines {@{use similar syntax to join ndarrays}@}. Check the routine's do
 
 ## reading arrays from disk, either from standard or custom formats
 
-This is {@{the most common case of large array creation}@}. The details {@{depend greatly on the format of data on disk}@}. This section gives {@{general pointers on how to handle various formats}@}. For {@{more detailed examples of IO}@} look at {@{[how to read and write files](../how-tos/reading%20and%20writing%20files.md)}@}. <!--SR:!2026-01-11,342,350!2025-11-02,281,330!2029-03-01,1229,350!2026-01-19,348,350!2026-01-20,349,350-->
+This is {@{the most common case of large array creation}@}. The details {@{depend greatly on the format of data on disk}@}. This section gives {@{general pointers on how to handle various formats}@}. For {@{more detailed examples of IO}@} look at {@{[how to read and write files](../how-tos/reading%20and%20writing%20files.md)}@}. <!--SR:!2026-01-11,342,350!2029-05-04,1279,350!2029-03-01,1229,350!2026-01-19,348,350!2026-01-20,349,350-->
 
 ### standard binary formats
 

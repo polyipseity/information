@@ -14,7 +14,7 @@ tags:
 
 __Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2026-03-27,150,321!2025-11-24,317,341-->
 
-Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}. <!--SR:!2025-11-02,298,341!2029-08-23,1392,361-->
+Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}. <!--SR:!2029-08-31,1398,361!2029-08-23,1392,361-->
 
 ## history
 
@@ -194,7 +194,7 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to {@{reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34,...) and control the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2025-11-17,310,341!2026-12-11,606,341!2025-11-02,298,341-->
+A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to {@{reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34,...) and control the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2025-11-17,310,341!2026-12-11,606,341!2029-09-01,1399,361-->
 
 ### a multiple-heap rule
 
@@ -253,7 +253,7 @@ A generalization of multi-heap nim was called {@{"nim<sub>_k_</sub>" or "index-_
 
 The winning strategy is as follows: Like in ordinary multi-heap nim, one {@{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}@}. In ordinary nim {@{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}@}. In the generalization to index-_k_ nim, {@{one forms the sum of each binary digit modulo _k_ + 1 (this is no longer the XOR-sum, but a generalization of it)}@}. <!--SR:!2028-02-29,905,301!2026-08-12,507,330!2026-12-06,602,341-->
 
-Again, the winning strategy is {@{to move such that this sum is zero for every digit}@}. Indeed, the value thus computed is {@{zero for the final position}@}, and given {@{a configuration of heaps for which this value is zero}@}, {@{any change of at most _k_ heaps will make the value non-zero}@}. Conversely, given {@{a configuration with non-zero value}@}, one can {@{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}@}. <!--SR:!2029-08-07,1379,361!2025-11-07,303,341!2025-11-02,298,341!2025-11-23,316,341!2028-10-15,1113,341!2026-03-19,387,310-->
+Again, the winning strategy is {@{to move such that this sum is zero for every digit}@}. Indeed, the value thus computed is {@{zero for the final position}@}, and given {@{a configuration of heaps for which this value is zero}@}, {@{any change of at most _k_ heaps will make the value non-zero}@}. Conversely, given {@{a configuration with non-zero value}@}, one can {@{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}@}. <!--SR:!2029-08-07,1379,361!2025-11-07,303,341!2029-09-02,1400,361!2025-11-23,316,341!2028-10-15,1113,341!2026-03-19,387,310-->
 
 ### building nim
 

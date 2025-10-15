@@ -147,7 +147,7 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-11-04,25,373!2025-11-03,24,373!2025-11-02,23,373-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-11-04,25,373!2025-11-03,24,373!2026-02-28,118,393-->
 
 ```Python
 # pytextgen generate data
@@ -201,10 +201,10 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:36.998975+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`++` <br/> `--` <!--SR:!2025-11-03,24,373!2025-11-02,23,373-->
+- _(begin)_→::@::←`++` <br/> `--` <!--SR:!2025-11-03,24,373!2026-03-03,121,393-->
 - `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2025-11-04,25,373!2025-11-03,24,373-->
-- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2025-11-02,23,373!2025-11-04,25,373-->
-- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2025-11-02,23,373!2025-11-02,23,373-->
+- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2026-03-03,121,393!2025-11-04,25,373-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2026-03-01,119,393!2026-03-02,120,393-->
 
 <!--/pytextgen-->
 
@@ -218,7 +218,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2025-11-03,24,373!2025-11-04,25,373!2025-11-04,25,373!2025-11-02,23,373!2025-11-02,23,373-->
+Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2025-11-03,24,373!2025-11-04,25,373!2025-11-04,25,373!2026-02-27,117,393!2026-03-02,120,393-->
 
 ```Python
 # pytextgen generate data
@@ -288,7 +288,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2025-11-02,23,373!2025-11-04,25,373!2025-11-03,24,373-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2026-02-28,118,393!2025-11-04,25,373!2025-11-03,24,373-->
 
 ```Python
 # pytextgen generate data

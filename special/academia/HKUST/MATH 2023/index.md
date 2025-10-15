@@ -78,7 +78,7 @@ The content is in teaching order.
 - datetime: 2025-02-06T13:30:00+08:00/2025-02-06T14:50:00+08:00
 - [dot product](../../../../general/dot%20product.md)
   - dot product / algebraically ::@:: It is the sum of the products of the corresponding entries of the two sequences of numbers. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2026-07-04,398,367!2025-11-03,203,347-->
-  - dot product / geometrically ::@:: It is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2026-07-14,408,367!2025-11-02,202,347-->
+  - dot product / geometrically ::@:: It is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2026-07-14,408,367!2028-06-26,967,367-->
   - dot product / properties
     - dot product / properties / magnitude ::@:: $\vec v \cdot \vec v = \lvert \vec v \rvert^2$ <!--SR:!2026-07-13,407,367!2026-07-13,407,367-->
     - dot product / properties / commutativity ::@:: $\vec v \cdot \vec w = \vec w \cdot \vec v$ <!--SR:!2026-07-11,405,367!2026-07-10,404,367-->
