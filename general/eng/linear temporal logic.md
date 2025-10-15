@@ -108,7 +108,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 >
 > - _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2025-12-25,300,350!2025-11-10,262,337-->
 > - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2026-03-21,371,363!2026-01-09,312,350-->
-> - _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2027-03-04,629,343!2025-11-01,254,330-->
+> - _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2027-03-04,629,343!2029-01-07,1163,350-->
 > - _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2026-03-20,370,363!2026-02-08,335,350-->
 
 | Special temporal properties                                                          |                                                                                      |                                                                        |

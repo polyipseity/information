@@ -27,7 +27,7 @@ Conversely, when {@{personal income decreases}@}, {@{demand for luxury goods dro
 
 With {@{increasing accessibility to luxury goods}@},<sup>[\[4\]](#^ref-4)</sup> {@{new product categories have been created}@} within the luxury market, called {@{"accessible luxury" or "mass luxury"}@}. These are meant {@{specifically for the [middle class](middle%20class.md), sometimes called the "aspiring class" in this context}@}. Because {@{luxury has diffused into the masses}@}, {@{defining the word}@} has become more difficult.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2028-10-13,1106,350!2025-11-08,270,330!2025-11-10,272,330!2028-08-06,1052,350!2025-11-13,275,330!2028-09-30,1092,350-->
 
-Whereas {@{luxury often refers to certain types of products}@}, luxury is {@{not restricted to physical goods; services can also be luxury}@}. Likewise, from {@{the consumer perspective}@}, luxury is {@{an experience defined as "hedonic escapism"}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-01,265,330!2025-12-01,290,330!2028-07-30,1046,350!2025-11-25,285,330-->
+Whereas {@{luxury often refers to certain types of products}@}, luxury is {@{not restricted to physical goods; services can also be luxury}@}. Likewise, from {@{the consumer perspective}@}, luxury is {@{an experience defined as "hedonic escapism"}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-02-19,1206,350!2025-12-01,290,330!2028-07-30,1046,350!2025-11-25,285,330-->
 
 ### confusion with normal goods
 
@@ -104,7 +104,7 @@ In {@{2012, [China](economy%20of%20China.md)}@} surpassed {@{[Japan](economy%20o
 
 {@{The advertising expenditure for the average luxury brand}@} is {@{5-15% of sales [revenue](revenue.md)}@}, or {@{about 25% with the inclusion of other communications}@} such as {@{[public relations](public%20relations.md), events, and sponsorships}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2028-10-31,1120,350!2027-07-18,728,330!2028-11-22,1139,350!2025-11-03,23,373-->
 
-{@{A rather small group}@} in comparison, the wealthy {@{tend to be extremely influential}@}.<sup>[\[29\]](#^ref-29)</sup> Once {@{a brand gets an "endorsement" from members of this group}@}, then {@{the brand can be defined as a true "luxury" brand}@}. An example of {@{different product lines in the same brand}@} is found {@{in the automotive industry}@}, with {@{"entry-level" cars marketed to younger, less wealthy consumers, and higher-cost models for older and more wealthy consumers}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2025-11-03,265,330!2028-07-21,1039,350!2025-11-14,276,330!2025-11-14,276,330!2025-11-28,287,330!2025-11-01,265,330!2025-11-30,289,330-->
+{@{A rather small group}@} in comparison, the wealthy {@{tend to be extremely influential}@}.<sup>[\[29\]](#^ref-29)</sup> Once {@{a brand gets an "endorsement" from members of this group}@}, then {@{the brand can be defined as a true "luxury" brand}@}. An example of {@{different product lines in the same brand}@} is found {@{in the automotive industry}@}, with {@{"entry-level" cars marketed to younger, less wealthy consumers, and higher-cost models for older and more wealthy consumers}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2025-11-03,265,330!2028-07-21,1039,350!2025-11-14,276,330!2025-11-14,276,330!2025-11-28,287,330!2029-02-18,1205,350!2025-11-30,289,330-->
 
 ## economics
 

@@ -159,7 +159,7 @@ return await conversion_table(
 
 - [Celsius](Celsius.md):@:from [Fahrenheit](Fahrenheit.md): x °F ≘ (x − 32) × 5/9 °C, to [Fahrenheit](Fahrenheit.md): x °C ≘ (x × 9/5 + 32) °F <!--SR:!2027-01-07,853,330-->
 - [Kelvin](Kelvin.md):@:from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) × 5/9 K, to [Fahrenheit](Fahrenheit.md): x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2026-11-13,639,250-->
-- [Rankine](Rankine%20scale.md):@:from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) °R, to [Fahrenheit](Fahrenheit.md): x °R ≘ (x − 459.67) °F <!--SR:!2025-11-01,476,310-->
+- [Rankine](Rankine%20scale.md):@:from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) °R, to [Fahrenheit](Fahrenheit.md): x °R ≘ (x − 459.67) °F <!--SR:!2029-11-16,1476,310-->
 
 <!--/pytextgen-->
 

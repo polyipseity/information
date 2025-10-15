@@ -172,7 +172,7 @@ from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprag
 
 - see ::@:: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2025-12-04,321,341!2029-08-08,1380,361-->
 
-The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2025-12-19,334,341!2025-11-01,297,341!2025-11-12,307,341!2025-11-07,303,341!2029-08-11,1382,361!2025-11-06,302,341!2026-12-25,617,341-->
+The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2025-12-19,334,341!2029-08-27,1395,361!2025-11-12,307,341!2025-11-07,303,341!2029-08-11,1382,361!2025-11-06,302,341!2026-12-25,617,341-->
 
 The 21 game can also be {@{played with different numbers, e.g., "Add at most 5; lose on 34"}@}. <!--SR:!2025-11-19,312,341-->
 
@@ -234,7 +234,7 @@ but then three objects cannot be taken out in one move.
 
 ### Grundy's game
 
-In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2026-04-21,417,321!2028-11-17,1140,341!2025-11-01,297,341-->
+In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2026-04-21,417,321!2028-11-17,1140,341!2029-08-30,1398,361-->
 
 ### greedy nim
 
@@ -265,7 +265,7 @@ _n_-d nim is played on {@{a $k_{1}\times \dots \times k_{n}$ board}@}, whereon {
 
 ### graph nim
 
-The starting board is {@{a disconnected graph}@}, and players {@{take turns to remove adjacent vertices}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-11-01,297,341!2025-12-11,328,341-->
+The starting board is {@{a disconnected graph}@}, and players {@{take turns to remove adjacent vertices}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2029-08-28,1396,361!2025-12-11,328,341-->
 
 ### candy nim
 

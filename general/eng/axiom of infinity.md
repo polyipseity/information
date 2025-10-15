@@ -19,7 +19,7 @@ In {@{the [formal language](formal%20language.md) of the Zermelo–Fraenkel axio
 
 In technical language, this formal expression is interpreted as "{@{[there exists](existential%20quantification.md) a [set](set%20(mathematics).md) 𝐼 \(the set that is postulated to be infinite\) such that the [empty set](empty%20set.md) is an element of it}@} and, {@{for every element $x$ of 𝐼, there exists an element $y$ of 𝐼 consisting of just the elements of $x$ and $x$ itself}@}." <!--SR:!2025-11-28,262,330!2026-10-09,483,310-->
 
-This [formula](well-formed%20formula.md) can be abbreviated as: {@{$$\exists I\,(\varnothing \in I\,\land \,\forall x\,(x\in I\Rightarrow \,(x\cup \{x\})\in I)).$$}@} <!--SR:!2025-11-01,240,330-->
+This [formula](well-formed%20formula.md) can be abbreviated as: {@{$$\exists I\,(\varnothing \in I\,\land \,\forall x\,(x\in I\Rightarrow \,(x\cup \{x\})\in I)).$$}@} <!--SR:!2028-01-02,792,330-->
 
 Some mathematicians may call {@{a set built this way an [inductive set](inductive%20set.md)}@}. <!--SR:!2025-11-09,247,330-->
 
@@ -45,7 +45,7 @@ To {@{extract the natural numbers}@}, we need {@{a definition of which sets are 
 
 ### alternative method
 
-{@{An alternative method}@} is the following. Let {@{$\Phi (x)$ be the formula that says "x is inductive"}@}; i.e. {@{$\Phi (x)=(\emptyset \in x\wedge \forall y(y\in x\to (y\cup \{y\}\in x)))$}@}. Informally, what we will do is {@{take the intersection of all inductive sets}@}. More formally, we wish to {@{prove the existence of a unique set $W$ such that <p> $\forall x(x\in W\leftrightarrow \forall I(\Phi (I)\to x\in I)).$ \(\*\)}@} <!--SR:!2025-12-19,278,330!2025-12-03,266,330!2025-12-08,270,330!2025-11-01,241,330!2025-11-26,260,330-->
+{@{An alternative method}@} is the following. Let {@{$\Phi (x)$ be the formula that says "x is inductive"}@}; i.e. {@{$\Phi (x)=(\emptyset \in x\wedge \forall y(y\in x\to (y\cup \{y\}\in x)))$}@}. Informally, what we will do is {@{take the intersection of all inductive sets}@}. More formally, we wish to {@{prove the existence of a unique set $W$ such that <p> $\forall x(x\in W\leftrightarrow \forall I(\Phi (I)\to x\in I)).$ \(\*\)}@} <!--SR:!2025-12-19,278,330!2025-12-03,266,330!2025-12-08,270,330!2028-11-01,1096,350!2025-11-26,260,330-->
 
 For existence, we will {@{use the Axiom of Infinity combined with the [Axiom schema of specification](axiom%20schema%20of%20specification.md)}@}. Let {@{$I$ be an inductive set guaranteed by the Axiom of Infinity}@}. Then we {@{use the axiom schema of specification to define our set $W=\{x\in I:\forall J(\Phi (J)\to x\in J)\}$}@} – i.e. {@{$W$ is the set of all elements of $I$, which also happen to be elements of every other inductive set}@}. This clearly {@{satisfies the hypothesis of \(\*\)}@}, since {@{if $x\in W$, then $x$ is in every inductive set, and if $x$ is in every inductive set, it is in particular in $I$, so it must also be in $W$}@}. <!--SR:!2027-07-28,720,330!2026-01-06,293,330!2027-09-08,741,330!2026-03-09,314,290!2025-12-15,276,330!2025-11-20,255,330-->
 

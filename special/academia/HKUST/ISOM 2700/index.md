@@ -94,7 +94,7 @@ The content is in teaching order.
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2026-12-31,512,310!2027-04-20,559,310-->
     - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2026-11-17,482,310!2026-08-19,421,310-->
     - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2026-06-24,365,310!2025-11-30,227,330-->
-  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2026-12-01,496,310!2025-11-01,185,270-->
+  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2026-12-01,496,310!2027-09-29,697,290-->
 
 ## week 1 lecture 2
 
@@ -602,7 +602,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-26T10:30:00+08:00/2025-03-26T11:50:00+08:00, PT1H20M
 - topic: forecasting: qualitative and qualitative approaches, time series forecasting models
-- [demand forecasting](../../../../general/demand%20forecasting.md) ::@:: It involves the prediction of the quantity of goods and services that will be demanded by consumers or business customers at a future point in time. <!--SR:!2025-11-01,159,429!2028-03-31,889,451-->
+- [demand forecasting](../../../../general/demand%20forecasting.md) ::@:: It involves the prediction of the quantity of goods and services that will be demanded by consumers or business customers at a future point in time. <!--SR:!2028-05-16,927,449!2028-03-31,889,451-->
   - demand forecasting / use ::@:: capacity planning, inventory management, revenue optimization, supply chain management, etc. <!--SR:!2028-03-12,873,451!2027-07-27,642,429-->
   - demand forecasting / types ::@:: dependent demand: derived from other products or services <br/> independent demand: final customer demand, not derivable from other products or services <!--SR:!2028-04-26,911,449!2028-03-30,887,449-->
 - [forecasting](../../../../general/forecasting.md) ::@:: It is the process of making predictions based on past and present data. Later these can be compared with what actually happens. <!--SR:!2028-03-11,872,451!2028-04-12,899,449-->
@@ -610,7 +610,7 @@ The content is in teaching order.
   - forecasting / principles ::@:: data: aggregate forecasts are usually more accurate <br/> error: has errors, never perfect <br/> uncertainty: the longer the time horizon, the more uncertain <br/> use: balance business acumen and quantitative analysis <!--SR:!2028-05-10,923,451!2028-04-21,906,449-->
   - forecasting / methods ::@:: consensus building, forecast combination, market research, prediction markets <!--SR:!2028-04-22,907,449!2025-11-02,160,431-->
   - forecasting / biases ::@:: behavioral bias may arise, e.g. anchoring, group thinking, overconfidence, etc. <!--SR:!2028-04-20,906,449!2028-05-07,920,451-->
-- [time series](../../../../general/time%20series.md) ::@:: It is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data. <!--SR:!2027-09-04,674,429!2025-11-01,159,429-->
+- [time series](../../../../general/time%20series.md) ::@:: It is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data. <!--SR:!2027-09-04,674,429!2028-05-23,934,449-->
   - time series / forecasting ::@:: A form of _extrapolation_ in time: It assumes data in the past is useful for the future, i.e. old patterns continue in the future. Thus, it could not respond to breakthroughs or emerging new trends. <!--SR:!2028-03-02,864,451!2025-11-02,160,431-->
   - time series / components ::@:: random variation, seasonality, trend \(shrink/grow\) <!--SR:!2028-04-17,903,449!2028-04-11,898,449-->
   - time series / forecasting
@@ -619,8 +619,8 @@ The content is in teaching order.
 - [moving average](../../../../general/moving%20average.md) ::@:: It is a calculation to analyze data points by creating a series of averages of different selections of the full data set. <!--SR:!2028-03-13,874,451!2025-11-02,160,431-->
   - moving average / types ::@:: naive, simple, weighted, exponential, etc. <!--SR:!2028-04-25,910,449!2028-03-06,867,449-->
   - moving average / naive ::@:: $$F_t = A_{t - 1} \,,$$ i.e. take the last value as the prediction. It is highly sensitive to noise and does not account for trends. <!--SR:!2028-04-13,900,449!2028-02-16,851,449-->
-  - moving average / simple ::@:: $$F_t = \frac 1 n (A_{t - 1} + \cdots + A_{t - n}) \,,$$ i.e. take the average of the last _n_ values as the prediction. _n_ is the sampling/look-back window. <!--SR:!2028-03-23,882,451!2025-11-01,159,431-->
-  - moving average / sampling window ::@:: The sampling/look-back window is specified by a number _n_. <p> Larger values smooth out noise \(_robustness_/_stability_\), while smaller values is more _responsive_. <!--SR:!2025-11-01,159,431!2028-05-20,932,451-->
+  - moving average / simple ::@:: $$F_t = \frac 1 n (A_{t - 1} + \cdots + A_{t - n}) \,,$$ i.e. take the average of the last _n_ values as the prediction. _n_ is the sampling/look-back window. <!--SR:!2028-03-23,882,451!2028-05-27,938,451-->
+  - moving average / sampling window ::@:: The sampling/look-back window is specified by a number _n_. <p> Larger values smooth out noise \(_robustness_/_stability_\), while smaller values is more _responsive_. <!--SR:!2028-05-25,936,451!2028-05-20,932,451-->
   - moving average / weighted ::@:: $$F_t = w_1 A_{t - 1} + \cdots + w_n A_{t - n} \,,$$ where the _n_ weights $w_i$ sum up to 1. <p> Simple moving average is a special case where $w_i = 1 / n$ for all _i_. <!--SR:!2027-08-01,647,431!2028-03-07,868,449-->
     - moving average / weighted / weights ::@:: The weights may be selected by trial and error. <p> A reasonable assignment is allocating more weight to recent data. This increases _responsiveness_ against _robustness_/_stability_. <!--SR:!2028-04-16,902,449!2028-03-16,875,449-->
   - moving average / simple
@@ -651,7 +651,7 @@ The content is in teaching order.
   - inventory / types ::@:: raw materials, work-in-progress, finished goods, supplies, etc. <!--SR:!2028-05-11,924,451!2028-03-04,865,449-->
 - [field inventory management](../../../../general/field%20inventory%20management.md) ::@:: It is the task of understanding the stock mix of a company and the handling of the different demands placed on that stock. The demands are influenced by both external and internal factors and are balanced by the creation of purchase order requests to keep supplies at a reasonable or prescribed level. <!--SR:!2028-04-12,899,449!2027-03-24,581,429-->
   - field inventory management / goal ::@:: match \(inventory\) supply with demand <!--SR:!2028-04-18,904,449!2028-03-16,876,451-->
-  - field inventory management / importance ::@:: convergence point of supply chain and customer touch-point <br/> inventory can be the largest asset of a firm <br/> multiple stakeholders involved <!--SR:!2027-04-28,611,429!2025-11-01,159,431-->
+  - field inventory management / importance ::@:: convergence point of supply chain and customer touch-point <br/> inventory can be the largest asset of a firm <br/> multiple stakeholders involved <!--SR:!2027-04-28,611,429!2028-05-26,937,451-->
   - field inventory management / components ::@:: inventory tracking, order management, purchasing, reporting and analysis, shipping and delivery, transfer management, etc. <!--SR:!2027-05-28,637,429!2027-08-22,662,429-->
     - field inventory management / components / new ::@:: artificial intelligence \(AI\), big data, blockchain, internet of things \(IoT\), etc. <!--SR:!2028-04-28,913,451!2027-04-27,610,429-->
   - field inventory management / challenges ::@:: control difficulty, high costs <!--SR:!2028-03-29,887,449!2028-04-08,896,451-->
@@ -660,9 +660,9 @@ The content is in teaching order.
 - inventory
   - inventory / types ::@:: buffer, cycle, pipeline, safety, seasonal <!--SR:!2028-04-09,896,449!2028-02-28,861,449-->
     - inventory / types / pipeline ::@:: related to units in a ongoing process; recall Little's law <!--SR:!2028-04-15,901,449!2028-03-10,870,449-->
-    - inventory / types / seasonal ::@:: fixed capacity but variable demand, e.g. festival products <!--SR:!2028-04-20,906,449!2025-11-01,159,429-->
+    - inventory / types / seasonal ::@:: fixed capacity but variable demand, e.g. festival products <!--SR:!2028-04-20,906,449!2028-05-17,928,449-->
     - inventory / types / cycle ::@:: related to economics of scale, as it is usually beneficial to produce units in batches <!--SR:!2028-03-26,885,451!2028-03-17,876,449-->
-    - inventory / types / buffer ::@:: buffers between activities in a process to enhance activity independence and robustness <!--SR:!2025-11-01,159,431!2028-02-18,853,451-->
+    - inventory / types / buffer ::@:: buffers between activities in a process to enhance activity independence and robustness <!--SR:!2028-05-28,939,451!2028-02-18,853,451-->
     - inventory / types / safety ::@:: to hedge _unpredictable_ demand variations; tradeoff is ordering too few \(to meet unpredictable demand\) vs. too many \(and incur high holding costs\) <!--SR:!2028-03-17,877,451!2028-04-04,892,449-->
 - field inventory management
   - field inventory management / models ::@:: economic order quantity \(EOQ\) model, fixed-time period model \(optional\), newsvendor model <!--SR:!2028-04-19,905,449!2028-05-02,915,449-->
@@ -681,7 +681,7 @@ The content is in teaching order.
     - economic order quantity / cost / graph ::@:: In a graph of cost per time \(y-axis\) against order quantity \(x-axis\): The holding cost curve increases linearly from the origin. The order/setup cost curve decreases quickly at first, then decreases increasingly slowly. The total cost curve is U-shaped, and has a _minimum_. Its corresponding order quantity is the _optimal order quantity_. <p> Note that for EOQ, where the holding cost curve and order/setup cost curve _intersects_ is the optimal order quantity. <!--SR:!2028-04-10,897,449!2027-03-28,584,429-->
   - economic order quantity / optimal solution ::@:: The optimal order quantity is: $$Q^* = \sqrt {\frac {2 \times \text{demand rate} \times \text{order or setup cost} } {\text{holding cost} } } \,.$$ <!--SR:!2027-07-11,630,431!2027-07-22,638,429-->
     - economic order quantity / optimal solution / derivation ::@:: $$\begin{aligned} C & = HQ / 2 + SD / Q \\ C' & = H / 2 - SD / Q^2 \\ 0 & = H / 2 - SD / Q^2 \\ Q & = \sqrt{\frac {2SD} H} \end{aligned}$$ <!--SR:!2027-09-03,673,431!2026-06-15,318,389-->
-    - economic order quantity / optimal solution / cost ::@:: The optimal total cost _per time_ is: $$T^* = \sqrt{2 \times \text{demand rate} \times \text{order or setup cost} \times \text{holding cost} } \,.$$ Also, the optimal order cost and optimal holding cost are equal \(divide the above expression by 2\): $$\sqrt{\frac {\text{demand rate} \times \text{order or setup cost} \times \text{holding cost} } 2} \,.$$ <!--SR:!2027-07-31,646,429!2025-11-01,159,431-->
+    - economic order quantity / optimal solution / cost ::@:: The optimal total cost _per time_ is: $$T^* = \sqrt{2 \times \text{demand rate} \times \text{order or setup cost} \times \text{holding cost} } \,.$$ Also, the optimal order cost and optimal holding cost are equal \(divide the above expression by 2\): $$\sqrt{\frac {\text{demand rate} \times \text{order or setup cost} \times \text{holding cost} } 2} \,.$$ <!--SR:!2027-07-31,646,429!2028-05-24,935,451-->
       - economic order quantity / optimal solution / cost / derivation ::@:: $$\begin{aligned} T^* & = HQ^* / 2 + SD / Q^* \\ & = \frac H 2 \sqrt{\frac {2SD} H} + SD \sqrt{\frac H {2SD} } \\ & = \sqrt{SDH / 2} + \sqrt{SDH / 2} \\ & = \sqrt{2SDH} \,. \end{aligned}$$ <!--SR:!2027-06-02,641,429!2027-08-28,668,429-->
     - economic order quantity / optimal solution / cost per unit ::@:: The optimal cost _per unit_ is: $$\frac {T^*} D = \sqrt{\frac {2 \times \text{order or setup cost} \times \text{holding cost} } {\text{demand rate} } } \,.$$ As demand rate increases, cost per unit decreases \(_economics of scale_\). <!--SR:!2028-04-11,898,449!2028-04-25,910,449-->
     - economic order quantity / optimal solution / inventory turnover ::@:: The optimal inventory turnover _per time_ is: $$\frac D {Q^* / 2} = D \sqrt {\frac {2H} {DS} } = \sqrt{\frac {2 \times \text{demand rate} \times \text{holding cost} } {\text{order or setup cost} } } \,.$$ The intuition is that if holding cost is high or ordering cost is low, we should turn the inventory more frequently. <!--SR:!2026-09-18,420,409!2027-01-01,471,409-->

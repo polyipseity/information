@@ -48,7 +48,7 @@ Soil Contamination in Kwu Tung North — Case Study (Aug 2013)
 
 Land Contamination Assessment in Hong Kong
 
-- Environmental Impact Assessment Ordinance (EIAO) requirements ::@:: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation report (RR) <!--SR:!2025-11-01,299,230!2028-04-26,1046,310-->
+- Environmental Impact Assessment Ordinance (EIAO) requirements ::@:: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation report (RR) <!--SR:!2027-09-20,688,230!2028-04-26,1046,310-->
 
 <!-- TODO: expand -->
 

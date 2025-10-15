@@ -148,7 +148,7 @@ The content is in teaching order.
   - [§ normal balances](../../../../general/trial%20balance.md#normal%20balances)
 - [adjusting entries](../../../../general/adjusting%20entries.md) ::@:: journal entries usually made at the end of an accounting period to allocate income and expenditure to the period in which they actually occurred <!--SR:!2026-01-07,367,354!2029-02-27,1244,354-->
   - [§ adjusting entries](../../../../general/adjusting%20entries.md#adjusting%20entries)
-- [retained earnings](../../../../general/retained%20earnings.md) ::@:: accumulated net income of the corporation that is retained by the corporation at a particular point in time <!--SR:!2026-11-05,580,334!2025-11-01,318,354-->
+- [retained earnings](../../../../general/retained%20earnings.md) ::@:: accumulated net income of the corporation that is retained by the corporation at a particular point in time <!--SR:!2026-11-05,580,334!2030-01-25,1546,374-->
   - [§ retained earnings](../../../../general/retained%20earnings.md#retained%20earnings)
 
 ## week 3 lecture 2
@@ -486,7 +486,7 @@ The content is in teaching order.
     - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2026-03-30,377,383!2026-04-13,371,383-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2028-08-31,1080,383!2028-07-29,1055,383-->
     - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2026-04-08,385,383!2026-01-13,314,383-->
-    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2026-03-20,352,383!2025-11-01,239,363-->
+    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2026-03-20,352,383!2028-03-25,875,363-->
 
 ## week 11 lecture 2
 

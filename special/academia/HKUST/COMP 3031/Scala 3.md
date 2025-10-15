@@ -265,7 +265,7 @@ Scala lets us annotate {@{variance explicitly}@}: <!--SR:!2025-11-24,28,409-->
 
 {@{A type constructor `C[T]`}@} is {@{_covariant_ (`+T`)}@} if, for {@{all types `A <: B`, we have `C[A] <: C[B]`}@}. This mirrors the intuitive idea that {@{a collection of more specific elements}@} is also {@{a collection of more general ones}@}. For instance, given {@{`NonEmpty <: IntSet`}@}, covariance would imply {@{`List[NonEmpty] <: List[IntSet]`}@}. Covariance is safe for {@{immutable collections where elements are never mutated after construction}@}. It is unsafe for {@{mutable collections that allow element updates}@}. <!--SR:!2025-11-22,26,409!2025-11-24,28,409!2025-11-23,27,409!2025-11-23,27,409!2025-11-23,27,409!2025-11-21,25,400!2025-11-23,27,409!2025-11-24,28,409!2025-11-22,26,409-->
 
-{@{A type constructor `D[T]`}@} is {@{_contravariant_ (`-T`)}@} if {@{for all types `A <: B`, we have `D[B] <: D[A]` \(note `A` and `B` are reversed\)}@}. This is less intuitive but arises naturally in {@{function types and certain consumer roles}@}. For example, a {@{comparator that can compare any `IntSet`}@} can also compare {@{specifically `NonEmpty` sets}@}, hence {@{`Comparator[IntSet] <: Comparator[NonEmpty]`}@}. Contravariance is safe for {@{types that only consume values of type `T` (e.g., function parameters)}@}. It is unsafe for {@{types that produce values of type `T`}@}. <!--SR:!2025-11-22,26,409!2025-11-22,26,409!2025-11-21,25,400!2025-11-21,25,400!2025-11-24,28,409!2025-11-24,28,409!2025-11-01,5,360!2025-11-24,28,409!2025-11-21,25,400-->
+{@{A type constructor `D[T]`}@} is {@{_contravariant_ (`-T`)}@} if {@{for all types `A <: B`, we have `D[B] <: D[A]` \(note `A` and `B` are reversed\)}@}. This is less intuitive but arises naturally in {@{function types and certain consumer roles}@}. For example, a {@{comparator that can compare any `IntSet`}@} can also compare {@{specifically `NonEmpty` sets}@}, hence {@{`Comparator[IntSet] <: Comparator[NonEmpty]`}@}. Contravariance is safe for {@{types that only consume values of type `T` (e.g., function parameters)}@}. It is unsafe for {@{types that produce values of type `T`}@}. <!--SR:!2025-11-22,26,409!2025-11-22,26,409!2025-11-21,25,400!2025-11-21,25,400!2025-11-24,28,409!2025-11-24,28,409!2025-11-26,25,380!2025-11-24,28,409!2025-11-21,25,400-->
 
 {@{A type constructor `E[T]`}@} is {@{_invariant_ (no prefix)}@} if {@{neither covariance nor contravariance holds}@}. This is {@{the default}@} and safest choice when {@{neither relationship is appropriate}@}. Invariance is common for {@{mutable collections that both produce and consume elements}@}, as {@{mixing subtypes and supertypes}@} could lead to {@{type errors}@}. For {@{a bad example}@}, see {@{Java arrays \(not Scala arrays\), which are covariant but _inappropriately_ so}@}. <!--SR:!2025-11-24,28,409!2025-11-23,27,409!2025-11-21,25,395!2025-11-21,25,395!2025-11-23,27,400!2025-11-21,25,400!2025-11-24,28,409!2025-11-22,26,409!2025-11-21,25,395!2025-11-22,26,409-->
 
@@ -423,7 +423,7 @@ In Scala, {@{an _abstract class_}@} serves as {@{a partial blueprint for concret
 > ```
 <!--SR:!2025-11-22,26,400!2025-11-24,28,409-->
 
-Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile‑time error}@}. <!--SR:!2025-11-22,26,395!2025-11-21,25,400!2025-11-22,26,400!2025-11-22,26,409!2025-11-01,5,360!2025-11-22,26,400-->
+Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile‑time error}@}. <!--SR:!2025-11-22,26,395!2025-11-21,25,400!2025-11-22,26,400!2025-11-22,26,409!2025-11-25,24,380!2025-11-22,26,400-->
 
 > [!example] __`EmptySet` definition__
 >
@@ -968,7 +968,7 @@ For‑expressions also support {@{pattern matching in _generator_ positions}@}. 
 >
 > {@{The resulting sequence}@} contains {@{phone numbers beginning with the country code `"852"`}@}. <!--SR:!2025-11-21,25,400!2025-11-22,26,400!2025-11-23,27,409!2025-11-24,28,409-->
 
-Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2025-11-24,28,409!2025-11-01,5,360!2025-11-24,28,420-->
+Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2025-11-24,28,409!2025-11-25,24,380!2025-11-24,28,420-->
 
 {@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}. <!--SR:!2025-11-24,28,409!2025-11-23,27,409!2025-11-21,25,395!2025-11-21,25,400!2025-11-24,28,409-->
 

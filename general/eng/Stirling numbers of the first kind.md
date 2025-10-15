@@ -13,7 +13,7 @@ tags:
 
 # Stirling numbers of the first kind
 
-In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics.md)}@}, __Stirling numbers of the first kind__ {@{arise in the study of permutations}@}. In particular, {@{the unsigned Stirling numbers of the first kind}@} count {@{[permutations](permutation.md) according to their number of [cycles](cycles%20and%20fixed%20points.md) (counting [fixed points](fixed%20point%20(mathematics).md) as cycles of length one)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-09-01,793,330!2028-02-17,910,330!2029-05-15,1292,350!2025-11-01,285,330-->
+In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics.md)}@}, __Stirling numbers of the first kind__ {@{arise in the study of permutations}@}. In particular, {@{the unsigned Stirling numbers of the first kind}@} count {@{[permutations](permutation.md) according to their number of [cycles](cycles%20and%20fixed%20points.md) (counting [fixed points](fixed%20point%20(mathematics).md) as cycles of length one)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-09-01,793,330!2028-02-17,910,330!2029-05-15,1292,350!2029-05-21,1297,350-->
 
 {@{The Stirling numbers of the first and [second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@} can be {@{understood as inverses of one another when viewed as [triangular matrices](triangular%20matrix.md)}@}. This article is devoted to {@{specifics of Stirling numbers of the first kind}@}. {@{Identities linking the two kinds}@} appear in the article on [Stirling numbers](Stirling%20number.md). <!--SR:!2025-11-22,303,330!2028-01-31,897,330!2025-11-22,303,330!2029-05-11,1290,350-->
 
@@ -101,7 +101,7 @@ Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \
 > - choose {@{the five elements that go into the three-cycle and the two-cycle}@}, choose {@{the elements of the three-cycle}@} and take into account that {@{three elements generate two three-cycles}@}: {@{$${n \choose 5}{5 \choose 3}\times 2$$}@}
 > - choose {@{the four elements of the four-cycle}@} and take into account that {@{four elements generate six four-cycles}@}: {@{$${n \choose 4}\times 6.$$}@}
 >
-> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2029-04-17,1270,350!2027-11-04,841,330!2028-02-05,901,330!2025-11-01,286,330!2025-11-26,306,330!2028-01-25,892,330!2025-11-17,256,270!2027-01-18,448,388!2026-11-11,393,388!2026-11-21,402,388!2027-01-09,441,388!2027-01-20,449,388!2026-11-22,403,388-->
+> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2029-04-17,1270,350!2027-11-04,841,330!2028-02-05,901,330!2029-05-24,1300,350!2025-11-26,306,330!2028-01-25,892,330!2025-11-17,256,270!2027-01-18,448,388!2026-11-11,393,388!2026-11-21,402,388!2027-01-09,441,388!2027-01-20,449,388!2026-11-22,403,388-->
 
 Note that all the combinatorial proofs above {@{use either binomials or multinomials of $n$}@}. <!--SR:!2026-12-09,564,310-->
 

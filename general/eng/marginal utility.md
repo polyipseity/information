@@ -36,7 +36,7 @@ In {@{any standard framework}@}, the same object may {@{have different marginal 
 __Assumptions__ -
 
 1. All the units of a commodity must be ::@:: identical, i.e., some in all respects - in size, colour, design, quality, etc. <!--SR:!2025-11-15,285,330!2027-04-19,678,330-->
-2. The unit of the good must be ::@:: standard, e.g., a bottle of cold drink, a pair of shoes, a full mango, etc. The units not be too small or too large. <!--SR:!2027-12-11,845,330!2025-11-01,273,330-->
+2. The unit of the good must be ::@:: standard, e.g., a bottle of cold drink, a pair of shoes, a full mango, etc. The units not be too small or too large. <!--SR:!2027-12-11,845,330!2029-04-01,1247,350-->
 3. There should be no change in taste ::@:: of the consumer during the process of consumption. <!--SR:!2025-11-10,281,330!2025-11-14,284,330-->
 4. The utility is ::@:: measurable. <!--SR:!2025-11-12,282,330!2025-11-09,280,330-->
 5. The consumer is ::@:: rational while taking consumption decisions. <!--SR:!2025-11-16,285,330!2025-11-25,293,330-->
@@ -55,7 +55,7 @@ As mentioned earlier in this article, there are instances where {@{marginal util
 
 ## marginalist theory
 
-{@{[Marginalism](marginalism.md)}@} is {@{an economic theory and method of analysis}@} that suggests that {@{individuals make economic decisions}@} by {@{weighing the benefits of consuming an additional unit of a good or service against the cost of acquiring it}@}. In other words, {@{value}@} is determined by {@{the additional utility of satisfaction provided by each extra unit consumed}@}. <!--SR:!2025-11-20,289,330!2028-03-06,872,330!2025-11-01,273,330!2025-11-10,19,354!2025-11-14,23,374!2025-11-14,23,374-->
+{@{[Marginalism](marginalism.md)}@} is {@{an economic theory and method of analysis}@} that suggests that {@{individuals make economic decisions}@} by {@{weighing the benefits of consuming an additional unit of a good or service against the cost of acquiring it}@}. In other words, {@{value}@} is determined by {@{the additional utility of satisfaction provided by each extra unit consumed}@}. <!--SR:!2025-11-20,289,330!2028-03-06,872,330!2029-03-31,1246,350!2025-11-10,19,354!2025-11-14,23,374!2025-11-14,23,374-->
 
 ### market price and diminishing marginal utility
 

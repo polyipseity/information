@@ -99,7 +99,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: \(r\_t\) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2027-12-03,952,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: \(r\_e\) A set of instructions for making [food](../../../general/food.md). <!--SR:!2031-12-20,2357,428!2028-12-03,1409,408-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: \(r\_t\) One who receives. <!--SR:!2026-01-23,558,408!2028-10-10,1115,308-->
-- [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2030-12-14,1938,368-->
+- [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence. <!--SR:!2033-05-06,2743,428!2030-12-14,1938,368-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: \(r\_t\) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2028-06-25,1215,372!2028-09-29,1291,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: \(r\_r\) A source or sink of something. <!--SR:!2027-10-20,1003,330!2027-03-11,779,290-->
 - [retaliate](https://en.wiktionary.org/wiki/retaliate) ::@:: \(r\_e\) To do something harmful or negative to get revenge for some harm; to fight back or respond in kind to an injury or affront. <!--SR:!2025-12-20,140,416!2025-12-20,140,416-->
@@ -109,7 +109,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [scared](https://en.wiktionary.org/wiki/scared) ::@:: \(s\_d\) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2026-08-18,718,416-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: \(s\_s\) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2026-01-10,480,332!2031-04-21,2121,412-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: \(s\_l\) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2026-09-06,549,244-->
-- [substitute](https://en.wiktionary.org/wiki/substitute) ::@:: \(s\_e\) To use in place of something else, with the same function. <!--SR:!2025-12-24,144,416!2025-11-01,101,396-->
+- [substitute](https://en.wiktionary.org/wiki/substitute) ::@:: \(s\_e\) To use in place of something else, with the same function. <!--SR:!2025-12-24,144,416!2027-04-29,544,416-->
 - [substitutability](https://en.wiktionary.org/wiki/substitutability) ::@:: \(s\_y\) The quality of being substitutable; the capacity to be substituted. <!--SR:!2025-12-25,145,416!2025-12-04,124,396-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::@:: \(s\_m\) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2026-05-25,647,410!2028-08-16,1304,390-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::@:: \(t\_e\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2026-10-23,679,332!2031-03-18,2094,412-->

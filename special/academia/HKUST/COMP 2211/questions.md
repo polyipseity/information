@@ -115,7 +115,7 @@ tags:
 > 3. Python is a dynamically typed language
 > 4. Python is popular and has a large community
 >
-> - solution: {@{3}@} <!--SR:!2025-11-01,241,330-->
+> - solution: {@{3}@} <!--SR:!2028-10-30,1094,350-->
 
 ## Python fundamentals for artificial intelligence
 

@@ -29,7 +29,7 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2028-11-15,1134,350!2028-09-19,1088,350-->
   - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2028-12-13,1156,350!2029-01-09,1176,350-->
   - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2025-12-03,293,330!2028-08-06,1054,350-->
-  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-11-01,267,330!2028-12-07,1151,350-->
+  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2029-03-02,1217,350!2028-12-07,1151,350-->
   - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2025-11-02,268,330!2025-12-02,292,330-->
   - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-12-04,294,330!2029-01-06,1175,350-->
   - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-11-03,269,330!2025-11-30,290,330-->

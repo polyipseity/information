@@ -255,7 +255,7 @@ To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2029-08-08,1412,362!2025-11-01,329,342!2027-09-13,834,342!2028-01-02,925,342!2025-11-10,335,342-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2029-08-08,1412,362!2030-01-27,1548,362!2027-09-13,834,342!2028-01-02,925,342!2025-11-10,335,342-->
 
 Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-11-16,608,330!2028-07-18,1097,350!2025-11-07,28,419!2025-11-07,28,419-->
 
@@ -289,4 +289,4 @@ We can convert a value (`value`) into other data types using {@{`float(value)`, 
 
 ## input
 
-We can request user input {@{using `input(prompt)`, where `prompt` is an (optional) value (not necessarily a `str`) to be printed (like `print(...)`, but without automatically printing a newline and only accepts a single argument) before asking for input}@}. Note that some Juypter notebooks {@{automatically adds a space after printing the string, while other environments do not}@}. The user input ends when {@{user enters a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces, but not the newline the user typed at the end to confirm the input}@}. <!--SR:!2026-05-28,478,340!2029-09-11,1451,380!2029-11-03,1487,380!2025-11-01,328,360-->
+We can request user input {@{using `input(prompt)`, where `prompt` is an (optional) value (not necessarily a `str`) to be printed (like `print(...)`, but without automatically printing a newline and only accepts a single argument) before asking for input}@}. Note that some Juypter notebooks {@{automatically adds a space after printing the string, while other environments do not}@}. The user input ends when {@{user enters a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces, but not the newline the user typed at the end to confirm the input}@}. <!--SR:!2026-05-28,478,340!2029-09-11,1451,380!2029-11-03,1487,380!2029-01-25,1181,360-->

@@ -102,4 +102,4 @@ simplicity: remove complexity or hassle
 
 ## usage
 
-Mark down {@{customer pains with crosses}@} on the map. Optionally, mark down {@{current industry focuses with red points}@}. Then, identify {@{new unaddressed customer pains}@}. <!--SR:!2025-11-01,418,319!2025-12-20,413,270!2030-05-05,1674,330-->
+Mark down {@{customer pains with crosses}@} on the map. Optionally, mark down {@{current industry focuses with red points}@}. Then, identify {@{new unaddressed customer pains}@}. <!--SR:!2030-11-17,1842,339!2025-12-20,413,270!2030-05-05,1674,330-->

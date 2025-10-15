@@ -48,7 +48,7 @@ The three components of financial statements are {@{[statement of cash flows](ca
 
 - see: [cash flow statement](cash%20flow%20statement.md)
 
-The statement of cash flows is also called {@{cash flow statement}@}. <!--SR:!2025-11-01,319,355-->
+The statement of cash flows is also called {@{cash flow statement}@}. <!--SR:!2030-02-09,1561,375-->
 
 The statement of cash flows {@{considers the inputs and outputs in concrete cash within a stated period}@}. The general template of a cash flow statement is as follows: {@{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}@} <!--SR:!2027-06-18,772,330!2027-01-12,651,330-->
 

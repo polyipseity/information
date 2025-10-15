@@ -23,13 +23,13 @@ The algorithm was developed {@{in 1930}@} by {@{[Czech](Czechs.md) mathematician
 
 > {@{![Prim's algorithm](../../archives/Wikimedia%20Commons/Prim's%20algorithm.svg)}@}
 >
-> {@{Prim's algorithm starting at vertex A}@}. In the third step, {@{edges BD and AB both have weight 2, so BD is chosen arbitrarily}@}. After that step, {@{AB is no longer a candidate for addition to the tree}@} because {@{it links two nodes that are already in the tree}@}. <!--SR:!2025-11-01,264,330!2025-11-23,280,330!2027-11-07,820,330!2029-02-05,1195,350!2025-12-09,294,330-->
+> {@{Prim's algorithm starting at vertex A}@}. In the third step, {@{edges BD and AB both have weight 2, so BD is chosen arbitrarily}@}. After that step, {@{AB is no longer a candidate for addition to the tree}@} because {@{it links two nodes that are already in the tree}@}. <!--SR:!2029-02-17,1204,350!2025-11-23,280,330!2027-11-07,820,330!2029-02-05,1195,350!2025-12-09,294,330-->
 
 ## description
 
 The algorithm may informally be described as performing the following steps:
 
-1. Initialize ::@:: a tree with a single vertex, chosen arbitrarily from the graph. <!--SR:!2025-11-25,282,330!2025-11-01,263,330-->
+1. Initialize ::@:: a tree with a single vertex, chosen arbitrarily from the graph. <!--SR:!2025-11-25,282,330!2029-02-16,1203,350-->
 2. Grow ::@:: the tree by one edge: Of the edges that connect the tree to vertices not yet in the tree, find the minimum-weight edge, and transfer it to the tree. <!--SR:!2025-12-07,292,330!2028-02-04,877,330-->
 3. Repeat ::@:: step 2 \(until all vertices are in the tree\). <!--SR:!2025-11-15,276,330!2025-12-08,293,330-->
 
