@@ -108,7 +108,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 For {@{a star-to-delta \(_N_ = 3\)}@} this reduces to: {@{$${\begin{aligned}R_{\mathrm {ab} }&=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }+{\frac {1}{R_{c} } }\right)={\frac {R_{a}R_{b}(R_{a}R_{b}+R_{a}R_{c}+R_{b}R_{c})}{R_{a}R_{b}R_{c} } }\\&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\end{aligned} }$$}@} <!--SR:!2025-11-14,178,310!2025-11-19,173,310-->
 
-For {@{a series reduction \(_N_ = 2\)}@} this reduces to: {@{$$R_{\mathrm {ab} }=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }\right)={\frac {R_{a}R_{b}(R_{a}+R_{b})}{R_{a}R_{b} } }=R_{a}+R_{b}$$}@} <!--SR:!2026-05-17,333,349!2025-10-31,169,310-->
+For {@{a series reduction \(_N_ = 2\)}@} this reduces to: {@{$$R_{\mathrm {ab} }=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }\right)={\frac {R_{a}R_{b}(R_{a}+R_{b})}{R_{a}R_{b} } }=R_{a}+R_{b}$$}@} <!--SR:!2026-05-17,333,349!2027-10-26,725,330-->
 
 For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of the resistor because ${\tbinom {1}{2} }=0$}@}. <!--SR:!2026-05-31,343,349!2026-06-18,360,360-->
 

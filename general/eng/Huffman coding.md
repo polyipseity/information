@@ -110,7 +110,7 @@ In general, {@{a Huffman code need not be unique}@}. Thus {@{the set of Huffman 
 
 > ![Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED".](../../archives/Wikimedia%20Commons/Huffman%20coding%20visualisation.svg)
 >
-> {@{Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED"}@}. In {@{steps 2 to 6}@}, the letters are {@{sorted by increasing frequency}@}, and {@{the least frequent two at each step are combined and reinserted into the list}@}, and {@{a partial tree is constructed}@}. The final tree in step 6 is {@{traversed to generate the dictionary in step 7}@}. Step 8 {@{uses it to encode the message}@}. <!--SR:!2025-10-31,258,330!2025-11-25,279,330!2025-11-13,268,330!2027-09-04,768,330!2028-09-12,1075,350!2025-11-08,265,330!2028-12-12,1148,350-->
+> {@{Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED"}@}. In {@{steps 2 to 6}@}, the letters are {@{sorted by increasing frequency}@}, and {@{the least frequent two at each step are combined and reinserted into the list}@}, and {@{a partial tree is constructed}@}. The final tree in step 6 is {@{traversed to generate the dictionary in step 7}@}. Step 8 {@{uses it to encode the message}@}. <!--SR:!2029-01-18,1175,350!2025-11-25,279,330!2025-11-13,268,330!2027-09-04,768,330!2028-09-12,1075,350!2025-11-08,265,330!2028-12-12,1148,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -150,7 +150,7 @@ If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time
     1. Dequeue {@{the two nodes with the lowest weight by examining the fronts of both queues}@}. (annotation: It is possible that {@{the two nodes are from the same queue}@}, so {@{the first two nodes of each queue should be inspected}@}.)
     2. Create {@{a new internal node, with the two just-removed nodes as children \(either node can be either child\)}@} and {@{the sum of their weights as the new weight}@}.
     3. Enqueue {@{the new node into the rear of}@} the second queue.
-4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2028-12-15,1151,350!2025-10-31,257,330!2025-12-07,289,330!2028-12-09,1142,350!2025-11-29,282,330!2028-12-03,1142,350!2026-10-21,505,310!2027-02-25,562,310!2027-05-09,678,330!2028-10-25,1111,350!2025-12-08,290,330-->
+4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2028-12-15,1151,350!2029-01-12,1169,350!2025-12-07,289,330!2028-12-09,1142,350!2025-11-29,282,330!2028-12-03,1142,350!2026-10-21,505,310!2027-02-25,562,310!2027-05-09,678,330!2028-10-25,1111,350!2025-12-08,290,330-->
 
 Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a dictionary which maps the symbols to binary codes as follows}@}: <!--SR:!2029-01-06,1166,350!2027-12-10,831,330-->
 

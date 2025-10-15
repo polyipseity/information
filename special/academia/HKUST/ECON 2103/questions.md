@@ -55,7 +55,7 @@ tags:
 
 > Q4. How many chicken wings should a perfectly rational person buy and eat? The chicken wings cost $5 each.
 >
-> - solution: {@{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}@} <!--SR:!2025-10-31,307,330-->
+> - solution: {@{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}@} <!--SR:!2028-08-02,1006,330-->
 
 <!-- markdownlint MD028 -->
 

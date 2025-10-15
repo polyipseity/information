@@ -72,7 +72,7 @@ A' B' C'
 0  0  0           Bob has no moves, so Alice wins.
 ```
 
-We can {@{combine it with our [first example](#example%20Nim%20game)}@} to {@{get a combined game with six heaps: $A$, $B$, $C$, $A'$, $B'$, and $C'$}@}: <!--SR:!2025-12-08,270,330!2025-10-31,240,330-->
+We can {@{combine it with our [first example](#example%20Nim%20game)}@} to {@{get a combined game with six heaps: $A$, $B$, $C$, $A'$, $B'$, and $C'$}@}: <!--SR:!2025-12-08,270,330!2028-10-27,1092,350-->
 
 #### combined game
 

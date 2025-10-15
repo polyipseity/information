@@ -33,7 +33,7 @@ This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) i
 
 The algorithm performs the following steps:
 
-- Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2025-10-31,263,330!2026-11-30,536,310-->
+- Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2029-02-15,1203,350!2026-11-30,536,310-->
 - Sort ::@:: the graph edges by weight. <!--SR:!2025-12-08,294,330!2025-12-07,293,330-->
 - Loop through ::@:: the edges of the graph, in ascending sorted order by their weight. For each edge: <!--SR:!2027-11-02,807,330!2025-11-12,273,330-->
   - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-12-09,294,330!2028-12-13,1153,350-->
@@ -222,7 +222,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-11-07,268,330!2029-01-04,1170,350!2025-11-11,272,330-->
 
-Finally, other variants of {@{a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads}@} to remove {@{edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which runs {@{the sequential algorithm on _p_ subgraphs}@}, then merges {@{those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-29,286,330!2025-11-10,272,330!2026-02-12,125,310!2025-10-31,20,366!2025-10-31,20,366-->
+Finally, other variants of {@{a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads}@} to remove {@{edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which runs {@{the sequential algorithm on _p_ subgraphs}@}, then merges {@{those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-29,286,330!2025-11-10,272,330!2026-02-12,125,310!2026-02-11,103,386!2026-02-11,103,386-->
 
 ## see also
 

@@ -21,7 +21,7 @@ Let {@{$C$ be a [category](category%20(mathematics).md) and let $X_{1}$ and $X_{
 
 {@{The definition of a coproduct}@} can be {@{extended to an arbitrary [family](indexed%20family.md) of objects indexed by a set $J$}@}. {@{The coproduct of the family $\left\{X_{j}:j\in J\right\}$}@} is {@{an object $X$ together with a collection of [morphisms](morphism.md) $i_{j}:X_{j}\to X$}@} such that, {@{for any object $Y$ and any collection of morphisms $f_{j}:X_{j}\to Y$ there exists a unique morphism $f:X\to Y$ such that $f_{j}=f\circ i_{j}$}@}. That is, the following {@{diagram [commutes](commutative%20diagram.md) for each $j\in J$: <p> &emsp; ![Commutative diagram for [coproducts](coproduct.md)](../../archives/Wikimedia%20Commons/Coproduct-01.svg)}@} {@{The coproduct $X$ of the family $\left\{X_{j}\right\}$}@} is often denoted {@{$\coprod _{j\in J}X_{j}$ or $\bigoplus _{j\in J}X_{j}$}@}. <!--SR:!2026-02-04,287,330!2026-02-06,289,330!2027-11-06,759,330!2027-11-26,775,330!2026-01-02,260,330!2027-06-09,659,330!2026-01-27,281,330!2026-01-05,263,330-->
 
-Sometimes {@{the morphism $f:X\to Y$}@} may be denoted {@{$\coprod _{j\in J}f_{j}$ to indicate its dependence on the individual $f_{j}$<!-- LaTeX separator -->s}@}. <!--SR:!2027-07-12,684,330!2025-10-31,195,310-->
+Sometimes {@{the morphism $f:X\to Y$}@} may be denoted {@{$\coprod _{j\in J}f_{j}$ to indicate its dependence on the individual $f_{j}$<!-- LaTeX separator -->s}@}. <!--SR:!2027-07-12,684,330!2028-02-15,837,330-->
 
 ## examples
 

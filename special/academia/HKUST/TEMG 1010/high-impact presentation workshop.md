@@ -19,7 +19,7 @@ The speaker talked about how to give a high-impact presentation. While I may not
 
 When presenting, {@{content}@} is an important aspect. <!--SR:!2025-11-27,287,330-->
 
-- introduction ::@:: Introduce your content from the large picture to the objective at hand. <!--SR:!2025-11-28,288,330!2025-10-31,266,330-->
+- introduction ::@:: Introduce your content from the large picture to the objective at hand. <!--SR:!2025-11-28,288,330!2029-02-24,1212,350-->
 - forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2025-11-29,290,330!2029-01-19,1184,350-->
 
 ## action

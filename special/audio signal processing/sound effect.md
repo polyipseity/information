@@ -33,7 +33,7 @@ Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies,
 
 ### amplitude scaling \(sinusoidal\)
 
-{@{_Amplitude scaling_}@} is done by {@{simply multiplying \(or adding if in logarithmic scale, e.g. dB\) the amplitude}@} by {@{a factor \(or as a function of time\)}@} for {@{each STFT frame}@}. <!--SR:!2026-04-27,229,330!2026-03-16,140,310!2025-10-31,25,369!2026-02-24,118,389-->
+{@{_Amplitude scaling_}@} is done by {@{simply multiplying \(or adding if in logarithmic scale, e.g. dB\) the amplitude}@} by {@{a factor \(or as a function of time\)}@} for {@{each STFT frame}@}. <!--SR:!2026-04-27,229,330!2026-03-16,140,310!2026-03-08,128,389!2026-02-24,118,389-->
 
 ### pitch scaling \(sinusoidal\)
 

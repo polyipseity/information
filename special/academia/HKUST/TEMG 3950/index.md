@@ -255,7 +255,7 @@ The content is in teaching order.
 ## week 13 lecture
 
 - datetime: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
-- To be successful in business, you need to eat/kill the competition. Right? ::@:: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2025-10-31,412,397!2030-03-18,1689,397-->
+- To be successful in business, you need to eat/kill the competition. Right? ::@:: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2031-12-12,2233,417!2030-03-18,1689,397-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)

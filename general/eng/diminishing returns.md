@@ -58,7 +58,7 @@ If {@{50 people are employed}@}, {@{at some point, increasing the number of empl
 
 {@{Further along the production curve at, for example 100 employees}@}, {@{floor space is likely getting crowded}@}, there are {@{too many people operating the machines and in the building, and workers are getting in each other's way}@}. {@{Increasing the number of employees by two percent \(from 100 to 102 employees\)}@} would {@{increase output by less than two percent and this is called "diminishing returns"}@}. <!--SR:!2025-11-10,101,381!2025-11-06,97,381!2025-11-07,98,381!2025-11-10,101,381!2025-11-11,102,381-->
 
-After {@{achieving the point of maximum output}@}, {@{employing additional workers}@}, this will {@{give __negative returns__}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-11-11,102,381!2025-11-01,93,381!2025-10-31,92,381-->
+After {@{achieving the point of maximum output}@}, {@{employing additional workers}@}, this will {@{give __negative returns__}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-11-11,102,381!2025-11-01,93,381!2027-02-24,481,401-->
 
 Through {@{each of these examples}@}, {@{the floor space and capital of the factor remained constant}@}, i.e., {@{these inputs were held constant}@}. By {@{only increasing the number of people}@}, {@{eventually the productivity and efficiency of the process moved from increasing returns to diminishing returns}@}. <!--SR:!2025-11-10,101,381!2025-11-08,99,381!2025-11-11,102,381!2025-11-10,101,381!2025-11-04,96,381-->
 
@@ -97,7 +97,7 @@ To {@{demonstrate diminishing returns}@}, {@{two conditions are satisfied}@}; {@
 This works intuitively;
 
 1. If ${In \over Out}$ is positive, ::@:: since negative inputs and outputs are impossible, <!--SR:!2025-11-01,93,381!2025-11-07,98,381-->
-2. And ${\delta Out \over \delta In}$ is positive, ::@:: since a positive return for inputs is required for diminishing _returns_ <!--SR:!2025-10-31,92,381!2025-11-05,96,381-->
+2. And ${\delta Out \over \delta In}$ is positive, ::@:: since a positive return for inputs is required for diminishing _returns_ <!--SR:!2027-02-25,482,401!2025-11-05,96,381-->
 
 - (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next, <!--SR:!2025-11-02,94,381!2025-11-09,100,381-->
 

@@ -82,7 +82,7 @@ The content is in teaching order.
 - datetime: 2024-09-04T13:30:00+08:00/2024-09-04T14:50:00+08:00
 - course logistics
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)
-  - artificial intelligence / definition ::@:: no widely accepted definition <!--SR:!2025-12-18,321,350!2025-10-31,283,350-->
+  - artificial intelligence / definition ::@:: no widely accepted definition <!--SR:!2025-12-18,321,350!2029-07-21,1359,370-->
     - artificial intelligence / definition / Alan Turing ::@:: AI is the __science and engineering__ of __making intelligent machines__, especially intelligent computer programs. <!--SR:!2025-12-30,333,350!2028-06-27,1024,350-->
   - artificial intelligence / characteristics ::@:: AI borrows characteristics from human intelligence and applies them as algorithms in a computer-friendly way. <!--SR:!2026-01-16,346,350!2026-01-09,340,350-->
   - artificial intelligence / reasons for studying ::@:: AI is versatile (skillful), brighter career, skill of the century <!--SR:!2025-12-25,328,350!2028-11-25,1159,352-->

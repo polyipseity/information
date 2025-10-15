@@ -35,7 +35,7 @@ When a unit vector in space is {@{expressed in [Cartesian notation](Cartesian%20
 
 - See also: ::@:: [Jacobian matrix](Jacobian%20matrix.md) <!--SR:!2026-04-07,324,339!2026-03-25,311,339-->
 
-{@{The three [orthogonal](orthogonal.md) unit vectors appropriate to cylindrical symmetry}@} are: (annotation: 3 items: {@{$\boldsymbol {\hat \rho}$, $\boldsymbol {\hat \varphi}$, $\boldsymbol {\hat z}$}@}) <!--SR:!2026-03-31,317,339!2025-10-31,200,319-->
+{@{The three [orthogonal](orthogonal.md) unit vectors appropriate to cylindrical symmetry}@} are: (annotation: 3 items: {@{$\boldsymbol {\hat \rho}$, $\boldsymbol {\hat \varphi}$, $\boldsymbol {\hat z}$}@}) <!--SR:!2026-03-31,317,339!2028-03-30,881,339-->
 
 - ${\boldsymbol {\hat {\rho } } }$ \(also designated $\mathbf {\hat {e} }$ or ${\boldsymbol {\hat {s} } }$\), ::@:: representing the direction along which the distance of the point from the axis of symmetry is measured; <!--SR:!2026-04-04,321,339!2026-04-08,325,339-->
 - ${\boldsymbol {\hat {\varphi } } }$, ::@:: representing the direction of the motion that would be observed if the point were rotating counterclockwise about the [symmetry axis](symmetry%20axis.md); <!--SR:!2026-04-10,327,339!2026-03-21,307,339-->

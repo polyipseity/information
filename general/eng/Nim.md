@@ -14,7 +14,7 @@ tags:
 
 __Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2026-03-27,150,321!2025-11-24,317,341-->
 
-Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}. <!--SR:!2025-11-02,298,341!2025-10-31,296,341-->
+Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}. <!--SR:!2025-11-02,298,341!2029-08-23,1392,361-->
 
 ## history
 
@@ -141,7 +141,7 @@ _Proof:_ Notice that {@{the nim-sum \(⊕\)}@} obeys {@{the usual [associative](
 
 Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a move, and _y_<sub>1</sub>, ..., _y<sub>n</sub>_ the corresponding sizes after a move}@}. Let {@{_s_ = _x_<sub>1</sub> ⊕ ... ⊕ _x<sub>n</sub>_ and _t_ = _y_<sub>1</sub> ⊕ ... ⊕ _y<sub>n</sub>_}@}. If {@{the move was in heap _k_}@}, we have {@{_x<sub>i</sub>_ = _y<sub>i</sub>_ for all _i_ ≠ _k_, and _x<sub>k</sub>_ > _y<sub>k</sub>_}@}. By the properties of ⊕ mentioned above, we have {@{$${\begin{aligned}t&=0\oplus t\\&=s\oplus s\oplus t\\&=s\oplus (x_{1}\oplus \cdots \oplus x_{n})\oplus (y_{1}\oplus \cdots \oplus y_{n})\\&=s\oplus (x_{1}\oplus y_{1})\oplus \cdots \oplus (x_{n}\oplus y_{n})\\&=s\oplus 0\oplus \cdots \oplus 0\oplus (x_{k}\oplus y_{k})\oplus 0\oplus \cdots \oplus 0\\&=s\oplus x_{k}\oplus y_{k}\\[10pt](*)\quad t&=s\oplus x_{k}\oplus y_{k}\end{aligned} }$$}@} <!--SR:!2029-07-27,1369,361!2029-07-24,1367,361!2025-11-24,317,341!2025-12-10,288,290!2028-01-04,823,321-->
 
-The theorem follows by {@{induction on the length of the game from these two lemmas}@}. <!--SR:!2025-10-31,296,341-->
+The theorem follows by {@{induction on the length of the game from these two lemmas}@}. <!--SR:!2029-08-25,1394,361-->
 
 __Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2029-03-31,1267,350!2025-11-08,304,341-->
 
@@ -245,7 +245,7 @@ Let {@{the largest number of stones in a pile be _m_ and the second largest numb
 - If _p_<sub>_n_</sub> is odd, ::@:: the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2026-12-18,612,341!2027-10-03,824,330-->
 - If _p_<sub>_n_</sub> is even, ::@:: the largest heap is removed entirely, leaving an even number of largest heaps. <!--SR:!2025-11-24,317,341!2028-10-31,1127,341-->
 
-Thus, there exists {@{a move to a state where _p_<sub>_m_</sub> is even}@}. Conversely, if {@{_p_<sub>_m_</sub> is even, if any move is possible (_p_<sub>_m_</sub> ≠ 0)}@}, then {@{it must take the game to a state where _p_<sub>_m_</sub> is odd}@}. The final position of the game is {@{even (_p_<sub>_m_</sub> = 0)}@}. Hence, {@{each position of the game with _p_<sub>_m_</sub> even must be a _P_ position}@}. <!--SR:!2025-10-31,296,341!2026-12-24,616,341!2029-07-18,1362,361!2025-11-14,307,341!2025-11-14,307,341-->
+Thus, there exists {@{a move to a state where _p_<sub>_m_</sub> is even}@}. Conversely, if {@{_p_<sub>_m_</sub> is even, if any move is possible (_p_<sub>_m_</sub> ≠ 0)}@}, then {@{it must take the game to a state where _p_<sub>_m_</sub> is odd}@}. The final position of the game is {@{even (_p_<sub>_m_</sub> = 0)}@}. Hence, {@{each position of the game with _p_<sub>_m_</sub> even must be a _P_ position}@}. <!--SR:!2029-08-24,1393,361!2026-12-24,616,341!2029-07-18,1362,361!2025-11-14,307,341!2025-11-14,307,341-->
 
 ### index-_k_ nim
 

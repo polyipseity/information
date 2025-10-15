@@ -84,7 +84,7 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
 
 - In {@{any category with a [terminal object](terminal%20object.md) _T_}@}, {@{the pullback _X_ ×<sub>_T_</sub> _Y_}@} is {@{just the ordinary [product](product%20(category%20theory).md) _X_ × _Y_}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-02,94,374!2027-02-15,473,394!2025-11-02,94,374-->
 
-- {@{[Monomorphisms](monomorphism.md)}@} are {@{stable under pullback}@}: if {@{the arrow _f_ in the diagram is monic}@}, then so is {@{the arrow _p_<sub>2</sub>}@}. Similarly, if {@{_g_ is monic, then so is _p_<sub>1</sub>}@}.<sup>[\[3\]](#^ref-3)</sup> \(annotation: {@{_p_<sub>2</sub> and _p_<sub>1</sub>}@} are {@{respectively arrows opposite to _f_ or _g_ in the commutative diagram}@}.\) <!--SR:!2025-10-31,92,374!2025-10-31,92,374!2025-10-31,92,374!2027-02-08,466,394!2025-11-01,93,374!2027-02-06,465,394!2027-02-02,461,394-->
+- {@{[Monomorphisms](monomorphism.md)}@} are {@{stable under pullback}@}: if {@{the arrow _f_ in the diagram is monic}@}, then so is {@{the arrow _p_<sub>2</sub>}@}. Similarly, if {@{_g_ is monic, then so is _p_<sub>1</sub>}@}.<sup>[\[3\]](#^ref-3)</sup> \(annotation: {@{_p_<sub>2</sub> and _p_<sub>1</sub>}@} are {@{respectively arrows opposite to _f_ or _g_ in the commutative diagram}@}.\) <!--SR:!2027-02-19,476,394!2027-02-17,474,394!2027-02-18,475,394!2027-02-08,466,394!2025-11-01,93,374!2027-02-06,465,394!2027-02-02,461,394-->
 
 - {@{[Isomorphisms](isomorphism.md)}@} are {@{also stable}@}, and hence, for example, {@{_X_ ×<sub>_X_</sub> _Y_ ≅ _Y_ for any map _Y_ → _X_}@} \(where {@{the implied map _X_ → _X_ is the identity}@}\). <!--SR:!2025-11-03,95,374!2025-11-02,94,374!2025-11-03,95,374!2025-11-01,93,374-->
 

@@ -325,7 +325,7 @@ The content is in teaching order.
 - [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2026-09-28,463,396!2026-02-17,259,356-->
   - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2027-06-21,688,416!2027-05-16,660,416-->
   - Glenn Miller / works ::@:: "In The Mood" — Glenn Miller <br/> "Moonlight Serendade" — Glenn Miller <!--SR:!2026-09-29,464,396!2027-06-09,676,416-->
-- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2026-11-14,479,356!2025-10-31,197,376-->
+- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2026-11-14,479,356!2028-08-10,1014,396-->
   - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2026-11-02,497,396!2027-06-10,677,416-->
   - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2026-11-15,480,356!2027-04-06,627,416-->
 - [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2027-04-20,636,416!2027-04-23,639,416-->
@@ -490,12 +490,12 @@ The content is in teaching order.
   - local: 2025-03-19T21:30:00+08:00/2025-03-19T22:50:00+08:00, PT1H20M
 - [Thelonious Monk](../../../../general/Thelonious%20Monk.md) \(1917–1982\) ::@:: American composer and pianist, with very distinctive, unique, and unusual style <!--SR:!2025-11-01,151,422!2027-12-17,790,442-->
   - Thelonious Monk / uniqueness ::@:: schizophrenic; strange personality reflected in the music: crazy, demented <!--SR:!2028-01-07,808,442!2028-03-07,859,442-->
-  - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2028-02-23,848,442!2025-10-31,150,422-->
+  - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2028-02-23,848,442!2028-03-12,863,442-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2028-02-10,837,442!2027-02-28,538,422-->
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2026-09-04,388,402!2027-03-01,559,422-->
   - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke <!--SR:!2028-01-11,811,442!2028-02-14,840,442-->
 - [Kenny Clarke](../../../../general/Kenny%20Clarke.md) \(1914–1985\) ::@:: American jazz drummer and bandleader; drummer at Minton's Playhouse <!--SR:!2027-11-28,774,442!2025-11-01,151,422-->
-  - Kenny Clarke / effects ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles. <!--SR:!2025-10-31,150,422!2028-02-11,838,442-->
+  - Kenny Clarke / effects ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles. <!--SR:!2028-03-15,866,442!2028-02-11,838,442-->
 - assignment: \(none\)
 
 ## week 11 lecture
@@ -529,7 +529,7 @@ The content is in teaching order.
 - [bossa nova](../../../../general/bossa%20nova.md) ::@:: It is a relaxed style of samba developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil. <p> United States people went crazy for this music, so they still study it in jazz education to this day. <!--SR:!2027-06-04,591,422!2028-02-07,834,442-->
   - bossa nova / characteristics ::@:: "swaying" motion; swinging eighth notes; lyrical themes include women, love, longing, homesickness, and nature <!--SR:!2028-01-10,811,442!2028-01-31,829,442-->
   - bossa nova / figures ::@:: Antonio Carlos, a composer <br/> Joao Gilberto, a guitarist <br/> Vinicius de Moraes, a poet and lyricist <!--SR:!2027-03-30,562,422!2028-02-24,849,442-->
-- [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer. <!--SR:!2028-01-20,819,442!2025-10-31,150,422-->
+- [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer. <!--SR:!2028-01-20,819,442!2028-03-18,869,442-->
   - Antônio Carlos Jobim / effects ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century. <!--SR:!2027-12-01,777,442!2027-04-15,576,422-->
 - [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. <!--SR:!2025-11-01,151,422!2028-01-15,815,442-->
 - [Joao Gilberto](../../../../general/Joao%20Gilberto.md) \(1913–2019\) ::@:: He was a Brazilian guitarist, singer, and composer who was a pioneer of the musical genre of bossa nova in the late 1950s. Around the world, he was often called the "father of bossa nova". <!--SR:!2028-02-02,830,442!2028-03-01,854,442-->
@@ -546,7 +546,7 @@ The content is in teaching order.
 - [hard bop](../../../../general/hard%20bop.md) ::@:: It is a subgenre of jazz that is an extension of bebop (or "bop") music. Journalists and record companies began using the term in the mid-1950s to describe a new current within jazz that incorporated influences from rhythm and blues, gospel music, and blues, especially in saxophone and piano playing. <!--SR:!2027-05-20,578,422!2028-03-09,861,442-->
   - hard bop / characteristics ::@:: blues scale, call and response, driving 2 and 4 hits, pedal points, the "shuffle", suspended chords <!--SR:!2027-12-13,786,442!2028-03-11,863,442-->
     - hard bop / characteristics / the "shuffle" ::@:: swinging drum groove from the United States Midwest; also called heartbeat of the blues <!--SR:!2028-01-05,806,442!2028-02-06,834,442-->
-  - hard bop / motivation ::@:: a type of hot jazz, created as a reaction to cool jazz by musicians not liking it; not intended for dancing but danceable <!--SR:!2025-10-31,150,422!2025-10-31,150,422-->
+  - hard bop / motivation ::@:: a type of hot jazz, created as a reaction to cool jazz by musicians not liking it; not intended for dancing but danceable <!--SR:!2028-03-13,864,442!2028-03-12,863,442-->
   - hard bop / characteristics
     - hard bop / characteristics / musical ::@:: blues or lyrical melodies, emphasis on beats 2 and 4, harmonize head instead of playing contrapuntal, slow or medium tempo, smaller ensembles <!--SR:!2028-02-12,839,442!2026-01-01,72,402-->
   - hard bop / vs. cool jazz ::@:: Cool jazz is more classical and restrained. More popular among white musicians. Hot jazz is more blues and gospel. More popular among black musicians. <!--SR:!2028-02-13,840,442!2028-01-28,826,442-->
@@ -555,13 +555,13 @@ The content is in teaching order.
   - rhythm and blues / works ::@:: "Blueberry Hill" \(1956\) — Fats Domino <!--SR:!2028-03-08,860,442!2028-03-10,862,442-->
 - hard bop
   - hard bop / musicians ::@:: Art Blakely, Clifford Brown, Miles Davis, Lee Morgan, Max Roach, Horace Silver <!--SR:!2028-02-09,836,442!2027-12-13,787,442-->
-- [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-10-31,150,422!2027-12-12,786,442-->
+- [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2028-03-16,867,442!2027-12-12,786,442-->
 - [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers. <!--SR:!2028-02-18,844,442!2028-01-09,810,442-->
   - Art Blakely / effects ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians. <!--SR:!2028-01-25,823,442!2028-02-22,847,442-->
 - [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers. <!--SR:!2028-01-21,820,442!2027-05-05,567,422-->
   - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver <!--SR:!2028-01-29,827,442!2028-02-19,845,442-->
 - [Clifford Brown](../../../../general/Clifford%20Brown.md) \(1930–1956\) ::@:: He was an American jazz trumpeter, pianist and composer. He died at the age of 25 in a car crash with his pianist Richie Powell. <p> He formed a band with Max Roach, a drummer, which formed the typical hard bop sound. <!--SR:!2028-03-03,856,442!2027-03-04,562,422-->
-  - Clifford Brown / works ::@:: "Sandu" \(1955\) — Clifford Brown & Max Roach <!--SR:!2025-10-31,150,422!2028-02-25,850,442-->
+  - Clifford Brown / works ::@:: "Sandu" \(1955\) — Clifford Brown & Max Roach <!--SR:!2028-03-11,862,442!2028-02-25,850,442-->
 - [Lee Morgan](../../../../general/Lee%20Morgan.md) \(1938–1972\) ::@:: He was an American jazz trumpeter and composer. <p> He was part of the Jazz Messengers. He was known for his hit "Sidewinder". He was shot dead by his wife at 33 while at the gig. <!--SR:!2027-12-14,788,442!2027-02-27,557,422-->
 - assignment: [concert 2](assignments/concert%202/index.md)
 
@@ -588,11 +588,11 @@ The content is in teaching order.
     - Miles Davis / genres / bebop ::@:: He caught the middle end of the bebop era, as he moved to New York City in 1944 and bebop started in 1939. He worked with Charlie Parker and Dizzy Gillespie. Unfortunately, he was not virtuosic enough to be a great bebop player. <p> "Donna Lee" \(1947\) — Miles Davis <!--SR:!2027-11-23,769,442!2027-02-01,537,422-->
     - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Boplicity" \(1949\) — Miles Davis <!--SR:!2027-02-03,538,422!2027-05-12,572,422-->
   - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2028-01-04,806,442!2027-02-19,549,422-->
-    - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2028-01-09,809,442!2025-10-31,150,422-->
+    - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2028-01-09,809,442!2028-03-13,864,442-->
 - [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2027-05-21,579,422!2028-02-20,846,442-->
   - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums. <!--SR:!2026-11-14,425,402!2027-03-07,543,422-->
 - [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis. <!--SR:!2027-02-28,558,422!2027-03-15,550,422-->
-  - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis <!--SR:!2027-01-26,532,422!2025-10-31,150,422-->
+  - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis <!--SR:!2027-01-26,532,422!2028-03-14,865,442-->
 - assignment
   - watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\)
   - quiz \(assignment\): [1959](questions/index.md#1959)
@@ -617,7 +617,7 @@ The content is in teaching order.
   - Miles Davis / genres
     - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then Jimmy died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis <!--SR:!2027-03-03,561,422!2027-05-13,573,422-->
   - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured. <!--SR:!2028-02-17,843,442!2028-03-04,857,442-->
-  - Miles Davis / 1980s ::@:: The instructor had not idea how to quantify the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis <!--SR:!2025-10-31,150,422!2027-02-25,555,422-->
+  - Miles Davis / 1980s ::@:: The instructor had not idea how to quantify the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis <!--SR:!2028-03-10,861,442!2027-02-25,555,422-->
   - Miles Davis / death ::@:: He died in 1991 from pneumonia. <!--SR:!2027-12-16,789,442!2028-03-02,855,442-->
   - Miles Davis / quotes ::@:: His quotes involve innovating \(playing what is not there yet\), not fearing mistakes, playing like yourself, etc. <!--SR:!2027-12-07,782,442!2028-02-14,840,442-->
 - assignment: watch "How Coltrane Broke "My Favorite Things" (feat. Adam Neely)" \(<https://youtu.be/Bg1RGmyl-_A>\)

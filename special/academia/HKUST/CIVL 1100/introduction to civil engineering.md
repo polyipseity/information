@@ -1015,7 +1015,7 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2029-02-17,1418,350-->
+- _(begin)_→::@::←HSBC Main Building <!--SR:!2030-05-18,1660,337!2029-02-17,1418,350-->
 - HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2027-12-21,958,354-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2030-02-16,1596,340!2025-11-06,317,297-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2030-03-17,1613,332-->
