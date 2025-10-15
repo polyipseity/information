@@ -67,14 +67,14 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {@{$m$ is the object [mass](mass.md)}@}
 > - {@{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}@}
 > - {@{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}@}
-> - {@{$A=|c|$ is the [amplitude](amplitude.md)}@}
+> - {@{$A=|c|$ is the _maximum_ [amplitude](amplitude.md)}@}
 > - {@{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}@} <!--SR:!2029-04-24,1455,330!2026-01-26,499,270!2027-04-24,813,270!2027-12-26,1174,360!2028-08-18,1362,360!2027-10-29,1046,340!2026-10-01,579,340!2028-09-11,1302,320!2025-11-14,491,300-->
 
 <!-- markdownlint MD028 -->
 
 > [!tip] tips
 >
-> - [mnemonic](mnemonic.md) ::@:: The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the initial position of the system in the [phase space](phase%20space.md). <!--SR:!2027-05-28,809,273!2026-04-23,376,339-->
+> - [mnemonic](mnemonic.md) ::@:: The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its _maximum_ [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the initial position of the system in the [phase space](phase%20space.md). <!--SR:!2027-05-28,809,273!2026-04-23,376,339-->
 
 ## energy
 
@@ -87,7 +87,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {@{$m$ is the object [mass](mass.md)}@}
 > - {@{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}@}
 > - {@{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}@}
-> - {@{$A=|c|$ is the [amplitude](amplitude.md)}@}
+> - {@{$A=|c|$ is the _maximum_ [amplitude](amplitude.md)}@}
 > - {@{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}@} <!--SR:!2028-06-18,979,296!2030-01-15,1761,376!2029-08-24,1646,376!2026-09-23,728,336!2026-01-08,514,316!2029-05-29,1576,376!2027-04-05,852,336-->
 
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:

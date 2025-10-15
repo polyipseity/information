@@ -16,7 +16,7 @@ tags:
 
 ## binary channel
 
-{@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-10,14,290-->  
+{@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-08,12,270!2025-11-12,16,290!2025-11-11,15,290-->
 
 - $A>0$ ::@:: is the pulse amplitude, and <!--SR:!2025-11-12,16,290!2025-11-12,16,290-->
 - $p(t)$ ::@:: is a _shaping pulse_ of unit energy (e.g., a rectangular or raised‑cosine pulse). Here, we assume it is simply a unit rectangular pulse lasting for symbol time $T$. <!--SR:!2025-11-11,15,290!2025-11-11,15,290-->
@@ -35,7 +35,7 @@ Thus {@{the decision statistic $V$}@} conditioned on {@{the transmitted bit}@} i
 
 ## bit error rate
 
-In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}. <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290-->  
+In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}. <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290-->
 
 The following section develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions made about {@{the transmitted waveform, the receiver structure, the noise statistics}@} and finally the mathematical derivation of {@{the BER in terms of the Q‑function and signal energy}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-10,14,290-->
 
@@ -51,7 +51,7 @@ For {@{a transmitted '1'}@}: {@{$$P_e^{(1)} = P(N_T < -AT) = Q\!\left(\frac{AT}{
 
 For {@{a transmitted '0'}@}: {@{$$P_e^{(0)} = P(N_T > AT) = Q\!\left(\frac{AT}{\sigma_{n_T} }\right) = Q\!\left(\sqrt{\frac{2A^2T}{N_0} }\right) = Q\left(\sqrt {\frac{2E_b} {N_0} } \right) \,,$$}@} where {@{$E_b = A^2 T$}@} is {@{the signal \(excluding the noise\) power \(see below\)}@}. <!--SR:!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290-->
 
-Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,,$$}@}. Notice how {@{the input bit probabilities}@} do not {@{affect the BER}@}. <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
+Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,.$$}@} Notice how {@{the input bit probabilities}@} do not {@{affect the BER}@}. <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
 
 ### bit error rate with arbitrary threshold
 
@@ -70,7 +70,7 @@ $$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$ <!--SR:!2025
 
 In {@{a binary antipodal system}@}, {@{the probability of error}@} is governed by {@{the tail probability of a Gaussian distribution}@}; hence it {@{decays exponentially with the ratio}@} {@{$\frac{2 A^2T}{N_0} = \frac{2 E_b}{N_0}$}@}. Because {@{the noise variance}@} scales {@{linearly with the symbol duration $T$}@}, {@{longer symbols}@} provide {@{more averaging and reduce $\sigma^2_{n_T}$}@}, improving {@{reliability}@}. <!--SR:!2025-11-10,14,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-11,15,290-->
 
-Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}. <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-08,12,270!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290-->  
+Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}. <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-08,12,270!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290-->
 
 ## signal energy
 

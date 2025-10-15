@@ -334,7 +334,7 @@ Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant pare
 > val q2: Parent[Any] = ChildCovariant[Int](1)
 > ```
 >
-> {@{All assignments}@} {@{compile}@}. <!--SR:!2025-11-23,27,420!2025-11-23,27,420!2025-11-24,28,420!2025-11-23,27,420-->  
+> {@{All assignments}@} {@{compile}@}. <!--SR:!2025-11-23,27,420!2025-11-23,27,420!2025-11-24,28,420!2025-11-23,27,420-->
 
 {@{All assignments}@} {@{compile}@}. Because {@{`Parent` is covariant}@}, {@{a `ChildInvariant[T]` or `ChildCovariant[T]`}@} can be treated as {@{a `Parent[U]` whenever `T <: U`}@}. {@{The variance of the _child_'s own type parameter}@} does not {@{affect this relationship}@}. <!--SR:!2025-11-24,28,420!2025-11-22,26,420!2025-11-24,28,420!2025-11-23,27,420!2025-11-24,28,420!2025-11-23,27,420!2025-11-24,28,420-->
 

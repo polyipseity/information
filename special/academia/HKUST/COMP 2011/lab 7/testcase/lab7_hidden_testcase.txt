@@ -1,11 +1,11 @@
 Lab 7 has 6 test cases:
 
-Test 1: 
+Test 1:
 Student Name: Amy    , ID: 1, YearOfStudy: Year 4
 
 Explain: Only one student in the queue, no need to reorder.
 
-Test 2: 
+Test 2:
 Student Name: Leon   , ID: 1, YearOfStudy: Year 2
 Student Name: James  , ID: 2, YearOfStudy: Year 1
 Student Name: Charlie, ID: 3, YearOfStudy: Year 4
@@ -17,7 +17,7 @@ Student Name: Hanna  , ID: 8, YearOfStudy: Year 2
 
 Explain: A normal case. Reorder with bubble sort.
 
-Test 3: 
+Test 3:
 Student Name: Lana   , ID: 1, YearOfStudy: Year 1
 Student Name: Ben    , ID: 2, YearOfStudy: Year 2
 Student Name: Tommy  , ID: 3, YearOfStudy: Year 3
@@ -26,7 +26,7 @@ Student Name: Emily  , ID: 5, YearOfStudy: Year 1
 
 Explain: A normal case. Reorder with bubble sort.
 
-Test 4: 
+Test 4:
 Student Name: Karen  , ID: 1, YearOfStudy: Year 1
 Student Name: June   , ID: 2, YearOfStudy: Year 3
 Student Name: Jackie , ID: 3, YearOfStudy: Year 2
@@ -34,7 +34,7 @@ Student Name: Earnst , ID: 4, YearOfStudy: Year 1
 
 Explain: The first student should be reordered to the third place.
 
-Test 5: 
+Test 5:
 Student Name: Richard, ID: 1, YearOfStudy: Year 2
 Student Name: Penny  , ID: 2, YearOfStudy: Year 2
 

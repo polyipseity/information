@@ -1,17 +1,17 @@
 The initial game information:
 Robot T HP=301
 Robot Z HP=300
-Z . . 
-. . . 
-. . T 
+Z . .
+. . .
+. . T
 Success: Robot Z moves along the direction east by 2 step(s)
-. . Z 
-. . . 
-. . T 
+. . Z
+. . .
+. . T
 Success: Robot T moves along the direction north by 1 step(s)
-. . Z 
-. . T 
-. . . 
+. . Z
+. . T
+. . .
 Success: Robot Z hits T
 Robot T health point is reduced from 301 to 101
 == Health points of alive robots ==
@@ -28,19 +28,19 @@ Robot T health point is reduced from 101 to 1
 Robot T HP=1
 Robot Z HP=200
 Success: Robot T moves along the direction west by 1 step(s)
-. . Z 
-. T . 
-. . . 
+. . Z
+. T .
+. . .
 Success: Robot T moves along the direction north by 1 step(s)
-. T Z 
-. . . 
-. . . 
+. T Z
+. . .
+. . .
 Success: Robot T hits Z
 Robot Z health point is reduced from 200 to 0
 Robot Z is being destroyed by T
-. T . 
-. . . 
-. . . 
+. T .
+. . .
+. . .
 == Health points of alive robots ==
 Robot T HP=1
 === Game Ended ===

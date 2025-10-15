@@ -2,15 +2,15 @@ The initial game information:
 Robot A HP=100
 Robot B HP=100
 Robot C HP=100
-. . . 
-. . . 
-A B C 
+. . .
+. . .
+A B C
 Success: Robot A moves along the direction north by 1 step(s)
-. . . 
-A . . 
-. B C 
+. . .
+A . .
+. B C
 Success: Robot B moves along the direction north by 2 step(s)
-. B . 
-A . . 
-. . C 
+. B .
+A . .
+. . C
 === Game Ended ===

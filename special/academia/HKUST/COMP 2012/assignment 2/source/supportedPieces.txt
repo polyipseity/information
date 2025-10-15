@@ -40,7 +40,7 @@ Chancellor (C): Moves like a Rook and Knight combined
   a   b   c   d   e   f   g   h
 
 
-Dabbaba (D): Leap 2 squares orthogonally 
+Dabbaba (D): Leap 2 squares orthogonally
 ---------------------------------
 |   |   |   |   |   |   |   |   | 8
 ---------------------------------
@@ -122,7 +122,7 @@ Shogi Knight (G): A forward-only Knight
 |   |   |   |   |   |   |   |   | 1
 ---------------------------------
   a   b   c   d   e   f   g   h
-  
+
 
 Hare (H): Moves without capturing like a Knight, captures like a Bishop
 ---------------------------------

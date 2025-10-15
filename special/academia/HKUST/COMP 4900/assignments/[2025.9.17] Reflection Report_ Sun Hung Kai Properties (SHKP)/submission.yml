@@ -1,0 +1,29 @@
+assignment:
+  comments: {}
+  content: Here is the reflection report template, and some sample reflection reports for
+    your reference.
+  grade:
+    entered: 1
+    graded anonymously: false
+    possible: 1
+  id: 396357
+  properties:
+    allowed attempts: 3
+    attempts: 1
+    available:
+      end: 2025-09-24 23:59:00+08:00
+      start: 2025-09-10 17:00:00+08:00
+    due: 2025-09-24 23:59:00+08:00
+    points: 1
+    submitting:
+    - a text entry box
+    - a website url
+    - a file upload
+  submissions:
+  - datetime: 2025-09-24 18:56:00+08:00
+    id: -1
+  title: '[2025.9.17] Reflection Report: Sun Hung Kai Properties (SHKP)'
+course:
+  id: 64636
+  name: COMP4900 (T1-T3)
+type: submission/Canvas/canvas.ust.hk

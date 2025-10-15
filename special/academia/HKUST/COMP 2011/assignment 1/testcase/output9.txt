@@ -1,12 +1,12 @@
 The initial game information:
 Robot A HP=100
-A 
+A
 Fail: If robot A moves along the direction east by 1 step(s), it will move outside a boundary, so the position remains unchanged
-A 
+A
 Fail: If robot A moves along the direction north by 1 step(s), it will move outside a boundary, so the position remains unchanged
-A 
+A
 Fail: If robot A moves along the direction south by 1 step(s), it will move outside a boundary, so the position remains unchanged
-A 
+A
 Fail: If robot A moves along the direction west by 1 step(s), it will move outside a boundary, so the position remains unchanged
-A 
+A
 === Game Ended ===

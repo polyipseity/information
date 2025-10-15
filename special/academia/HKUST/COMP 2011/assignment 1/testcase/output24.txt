@@ -1,7 +1,7 @@
 The initial game information:
 Robot A HP=100
 Robot B HP=201
-A B 
+A B
 Success: Robot A hits B
 Robot B health point is reduced from 201 to 1
 == Health points of alive robots ==
@@ -10,7 +10,7 @@ Robot B HP=1
 Success: Robot A hits B
 Robot B health point is reduced from 1 to 0
 Robot B is being destroyed by A
-A . 
+A .
 == Health points of alive robots ==
 Robot A HP=100
 Fail: Robot A cannot hit any target
