@@ -382,9 +382,9 @@ The content is in teaching order.
 - datetime: 2025-09-12T15:30:00+08:00/2025-09-12T16:20:00+08:00, PT50M
 - topic: probability theory
 - random variable
-  - random variable / description ::@:: A real‑valued random variable $X$ is described by its cumulative distribution function (CDF) $F_X(x)=P(X<x)$ and, if it possesses a density, by the probability density function (PDF) $f_X(x)=dF_X(x)/dx$.
+  - random variable / description ::@:: A real‑valued random variable $X$ is described by its cumulative distribution function (CDF) $F_X(x)=P(X \le x)$ and, if it possesses a density, by the probability density function (PDF) $f_X(x)=dF_X(x)/dx$.
 - joint probability distribution
-  - joint probability distribution / independence ::@:: For two variables $X,Y$, the joint CDF $F_{XY}(x,y)=P(X<x,\;Y<y)$ factorizes into the product of marginals iff $X$ and $Y$ are independent. For multiple variables, they must be _mutually_ independent, and vice versa <p> Independence can also be checked via the joint PDF: $f_{XY}(x,y)=f_X(x)f_Y(y)$.
+  - joint probability distribution / independence ::@:: For two variables $X,Y$, the joint CDF $F_{XY}(x,y)=P(X<x,\;Y<y)$ factorizes into the product of marginals iff $X$ and $Y$ are independent. For multiple variables, they must be _mutually_ independent, and vice versa. <p> Independence can also be checked via the joint PDF: $f_{XY}(x,y)=f_X(x)f_Y(y)$.
 - random variable
   - random variable / expectation ::@:: The expectation of a single variable follow from its PDF: $$\mathbb{E}\{X\}=\int x\,f_X(x)\,dx \,.$$
   - random variable / variance ::@:: The variance of a single variable follow from its PDF: $$\operatorname{Var}\{X\}=\int (x-\mu)^2 f_X(x)\,dx \,.$$
@@ -400,7 +400,7 @@ The content is in teaching order.
   - Q-function / computation ::@:: There is no closed-form expression for it. A table of values or computers must be used. <p> In MATLAB, use the `qfunc(x)` function or `1 - normcdf(x)`.
 - multivariate normal distribution
   - multivariate normal distribution / standard random vector ::@:: A __standard Gaussian random vector__ $\mathbf{w}\in\mathbb{R}^{n}$ is an $n$-dimensional random variable whose components are independent, zero‑mean, unit‑variance normal variables. Its probability density function is $$f_{\mathbf{w}}(\mathbf{w})=\frac{1}{(2\pi)^{\,n/2}}\exp\!\Bigl(-\tfrac12 \,\mathbf{w}^{T}\mathbf{w}\Bigr),$$ which shows that the joint distribution factorises into the product of \(n\) one‑dimensional standard normal PDFs and that its covariance matrix equals the identity matrix.
-  - multivariate normal distribution / random vector ::@:: A vector $\mathbf{x}\in\mathbb{R}^n$ is Gaussian if it equals a linear transformation of a standard normal vector plus a shift: $$\mathbf{x}=A\mathbf{w}+b \,.$$ <p> Its covariance matrix is $$K=\operatorname{Cov}\{\mathbf{x}\}=AA^{T} \,.$$
+  - multivariate normal distribution / random vector ::@:: A vector $\mathbf{x}\in\mathbb{R}^n$ is Gaussian if it equals a linear transformation of a standard normal vector $\mathbf w$ plus a shift $\mathbf b$: $$\mathbf{x}=A\mathbf{w}+b \,.$$ <p> Its _mean_ vector is $\mathbf b$. Its _covariance_ matrix is $$K=\operatorname{Cov}\{\mathbf{x}\}=AA^{T} \,.$$
   - multivariate normal distribution / communications theory ::@:: These properties make Gaussian vectors convenient for modelling multiple‑antenna channels.
 - [sample mean](../../../../general/sample%20mean%20and%20covariance.md)
   - sample mean / equation ::@:: Given _N_ samples of a random variable _X_, its _sample mean_ is: $$\overline X = \frac 1 N \sum_{k = 1}^N X_k \,.$$
