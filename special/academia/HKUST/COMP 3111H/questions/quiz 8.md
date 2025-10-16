@@ -25,8 +25,8 @@ tags:
 
 ## hints
 
-1. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view.
-2. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow.
-3. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view.
-4. UML / [§ use case specification](../UML.md#use%20case%20specification) ::@:: A detailed use case specification is structured around several key elements. The specification should remain concise yet exhaustive enough for developers, testers, and users to understand precisely what the system must do. The elements are: \(annotation: 8 items: name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)\)
-5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered.
+1. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2025-10-20,4,270!2025-10-20,4,270-->
+2. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow. <!--SR:!2025-10-20,4,270!2025-10-20,4,270-->
+3. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2025-10-20,4,270!2025-10-20,4,270-->
+4. UML / [§ use case specification](../UML.md#use%20case%20specification) ::@:: A detailed use case specification is structured around several key elements. The specification should remain concise yet exhaustive enough for developers, testers, and users to understand precisely what the system must do. The elements are: \(annotation: 8 items: name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)\) <!--SR:!2025-10-19,3,250!2025-10-19,3,250-->
+5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered. <!--SR:!2025-10-20,4,270!2025-10-20,4,270-->

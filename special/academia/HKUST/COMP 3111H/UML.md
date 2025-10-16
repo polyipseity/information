@@ -93,7 +93,7 @@ Associations of {@{different degree}@} are {@{drawn differently}@}. An associati
 
 {@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity–relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}. <!--SR:!2026-01-04,69,322!2026-01-18,82,341!2026-01-04,70,322!2026-01-21,85,350!2026-01-15,79,341!2025-12-20,57,310!2026-01-19,83,341-->
 
-To {@{specify multiplicity}@}, specify {@{the _minimum cardinality_ \(min count\) and _maximum cardinality_ \(max count\)}@} on {@{the _other_ class \(not the _current_ class\)}@}. Both are {@{inclusive}@}. {@{_Cardinality_}@} can be {@{any _nonnegative_ integer}@}, or {@{the special wildcard `*` representing infinity}@}. Then, write it using {@{`<min card>..<max card>`}@}. There are {@{shorthands for some multiplicities}@} for {@{`1..` and `0..*`}@}: <!--SR:!2026-01-17,81,341!2026-01-21,85,350!2026-01-21,85,350!2025-12-29,65,322!2026-01-20,84,350!2026-01-04,69,322!2026-01-03,69,322!2026-01-03,68,322!2026-01-21,85,350-->
+To {@{specify multiplicity}@}, specify {@{the _minimum cardinality_ \(min count\) and _maximum cardinality_ \(max count\)}@} on {@{the _other_ class \(not the _current_ class\)}@}. Both are {@{inclusive}@}. {@{_Cardinality_}@} can be {@{any _nonnegative_ integer}@}, or {@{the special wildcard `*` representing infinity}@}. Then, write it using {@{`<min card>..<max card>`}@}. There are {@{shorthands for some multiplicities}@} for {@{`1..` and `0..*`}@}: <!--SR:!2026-01-17,81,341!2026-01-21,85,350!2026-01-21,85,350!2025-12-29,65,322!2026-01-20,84,350!2026-01-04,69,322!2026-01-03,69,322!2026-01-03,68,322!2026-01-21,85,350!2025-10-21,5,367-->
 
 - `1` ::@:: `1..1` <!--SR:!2026-01-20,84,350!2026-01-17,81,341-->
 - `*` ::@:: `0..*` <!--SR:!2026-01-06,71,322!2026-01-18,82,341-->
@@ -188,9 +188,9 @@ There are {@{4 major solutions}@}: {@{many attributes in a class, multi-valued a
 
 An {@{_attribute constraint_}@} constrains {@{an _attribute_ of a class}@}. It can be indicated by {@{`{<boolean expr>}` next to the attribute or on a note linked with the class by a dashed line}@}, which represents {@{an expression that must always be true}@}, e.g. {@{`balance: money {balance >= 100}`}@}. <!--SR:!2026-01-07,72,322!2026-01-02,68,322!2026-01-19,83,341!2026-01-19,83,341!2026-01-17,81,341-->
 
-An {@{_operation constraint_}@} constrains {@{an _operation_ of a class}@}. It can be indicated by {@{`{<boolean expr>}` next to the operation}@} or {@{on a _note_ linked with the class by a _dashed_ line}@}, which represents {@{an expression that must always be true}@}, e.g. {@{`balance(): money {balance() >= 100}`}@}. <!--SR:!2026-01-02,68,322!2026-01-20,84,350!2025-12-23,56,321!2026-01-18,82,341!2026-01-18,82,341-->
+An {@{_operation constraint_}@} constrains {@{an _operation_ of a class}@}. It can be indicated by {@{`{<boolean expr>}` next to the operation}@} or {@{on a _note_ linked with the class by a _dashed_ line}@}, which represents {@{an expression that must always be true}@}, e.g. {@{`balance(): money {balance() >= 100}`}@}. <!--SR:!2026-01-02,68,322!2026-01-20,84,350!2025-12-23,56,321!2026-01-18,82,341!2026-01-18,82,341!2025-10-21,5,367-->
 
-An {@{_association constraint_}@} constrains {@{an _association_}@}. It can involve {@{one association only}@}, which is indicated by {@{`{<constraint 1>, ..., <constraint N>}` next to the association}@}. It can involve {@{multiple associations}@}, which is indicated by {@{a _dashed line_ with text like `{<constraint 1>, ..., <constraint N>}` next to it}@}. Some constraints {@{make the _dashed line_ a _dashed arrow_ instead}@}. Example association constraints include: \(annotation: 3 items: {@{ordering, subset, xor}@}\) <!--SR:!2026-01-17,81,341!2025-12-27,63,310!2026-01-05,70,322!2025-12-30,66,322!2026-01-20,84,350!2026-01-21,85,350!2026-01-17,81,341-->
+An {@{_association constraint_}@} constrains {@{an _association_}@}. It can involve {@{one association only}@}, which is indicated by {@{`{<constraint 1>, ..., <constraint N>}` next to the association}@}. It can involve {@{multiple associations}@}, which is indicated by {@{a _dashed line_ with text like `{<constraint 1>, ..., <constraint N>}` next to it}@}. Some constraints {@{make the _dashed line_ a _dashed arrow_ instead}@}. Example association constraints include: \(annotation: 3 items: {@{ordering, subset, xor}@}\) <!--SR:!2026-01-17,81,341!2025-12-27,63,310!2026-01-05,70,322!2025-12-30,66,322!2026-01-20,84,350!2026-01-21,85,350!2026-01-17,81,341!2025-10-21,5,367-->
 
 - association constraint: ordering ::@:: `{ordered, FIFO}`, `{ordered, LIFO}`, etc.; for one association <!--SR:!2026-01-06,71,322!2026-01-06,71,322-->
 - association constraint: subset ::@:: `{subset}`; the specialized \(subset\) association has a _dashed arrow_ towards the general \(superset\) association <!--SR:!2026-01-08,73,322!2026-01-05,70,322-->
@@ -219,7 +219,7 @@ It is {@{developed _incrementally_ and _concurrently_}@} with {@{the use case mo
 
 Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _singular form noun_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}. <!--SR:!2026-01-29,91,374!2026-01-31,92,374!2026-02-01,93,374!2026-01-17,80,374-->
 
-{@{Best practices}@}: \(annotation: 5 items: {@{action/operation, implementation, irrelevant}@}; {@{vague; redundant; dependent; role}@}\)
+{@{Best practices}@}: \(annotation: 5 items: {@{action/operation, implementation, irrelevant}@}; {@{vague; redundant; dependent; role}@}\) <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 - action/operation class, implementation class, irrelevant class ::@:: Eliminate. <!--SR:!2026-01-17,80,374!2026-01-27,89,374-->
 - vague class ::@:: Eliminate or make specific. <!--SR:!2026-01-27,89,374!2026-02-01,93,374-->
@@ -233,7 +233,7 @@ To actually {@{specify the class}@}, specify {@{its name \(singular form noun\) 
 
 Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{an _active voice verb_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}. <!--SR:!2026-02-02,94,374!2026-01-09,70,354!2026-02-02,94,374!2026-01-27,89,374-->
 
-{@{Best practices}@}: \(annotation: 5 items: {@{action/operation, implementation, irrelevant}@}; {@{ternary; derivable; vague; redundant}@}\)
+{@{Best practices}@}: \(annotation: 5 items: {@{action/operation, implementation, irrelevant}@}; {@{ternary; derivable; vague; redundant}@}\) <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 - action/operation association, implementation association, irrelevant association ::@:: Eliminate. <!--SR:!2026-02-01,93,374!2026-02-02,94,374-->
 - ternary association ::@:: Decompose into binary associations. \(__this course__: We do not consider ternary associations anyway...\) <!--SR:!2026-01-28,90,374!2026-01-31,92,374-->
@@ -249,7 +249,7 @@ Identify {@{_data_ needed to be stored by classes or associations}@}. Often they
 
 It should correspond to either {@{a _noun_ followed by _possessive_ phrases \(e.g. a person's _date of birth_\)}@} or {@{_adjectives_ \(e.g. _fall_ semester\)}@}. The latter are often {@{_enumerated_ values}@}. <!--SR:!2026-02-01,93,374!2026-01-22,85,374!2026-01-17,80,374-->
 
-{@{Best practices}@}: \(annotation: 4 items: {@{irrelevant; independent}@}; {@{association; identifier}@}\)
+{@{Best practices}@}: \(annotation: 4 items: {@{irrelevant; independent}@}; {@{association; identifier}@}\) <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 - irrelevant attribute ::@:: Eliminate, to make the class _coherent_ and _simple_. <!--SR:!2026-02-02,94,374!2026-02-01,93,374-->
 - independent attribute ::@:: Consider application requirements and potentially convert them into classes or eliminate. <!--SR:!2026-02-01,93,374!2026-01-19,82,374-->
@@ -323,38 +323,38 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 
 ### use case specification
 
-{@{A detailed use case specification}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 items: {@{name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)}@}\)
+{@{A detailed use case specification}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 items: {@{name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)}@}\) <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-19,3,347-->
 
-1. __Name__ ::@:: concise title written as an active‑voice verb phrase in the present tense.
-2. __Brief description__ ::@:: a short \(one-sentence\) summary of the scenario.
-3. __Actors__ ::@:: the participants initiating the use case, optionally illustrated with a use case diagram fragment.
-4. __Preconditions__ \(if any\) ::@:: conditions that must hold before the use case can start; they state _what_ is required, not _how_ it is achieved.
-5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered.
-6. __Postconditions__ \(if any\) ::@:: the state that must hold after completion if it matters to stakeholders or for subsequent use cases.
-7. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow.
-8. __Special (non‑functional) requirements__ \(if any\) ::@:: any constraints such as performance or security that apply to this scenario.
+1. __Name__ ::@:: concise title written as an active‑voice verb phrase in the present tense. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+2. __Brief description__ ::@:: a short \(one-sentence\) summary of the scenario. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+3. __Actors__ ::@:: the participants initiating the use case, optionally illustrated with a use case diagram fragment. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+4. __Preconditions__ \(if any\) ::@:: conditions that must hold before the use case can start; they state _what_ is required, not _how_ it is achieved. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+6. __Postconditions__ \(if any\) ::@:: the state that must hold after completion if it matters to stakeholders or for subsequent use cases. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+7. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+8. __Special (non‑functional) requirements__ \(if any\) ::@:: any constraints such as performance or security that apply to this scenario. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
 
 #### use case preconditions
 
-In use‑case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "{@{how}@}"\).
+In use‑case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "{@{how}@}"\). <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
-Preconditions serve to keep {@{each use‑case description independent of others}@} by focusing only on {@{the necessary state of both the system and its participants}@}. They are typically written in {@{a declarative style}@} (e.g., {@{"The user is logged in"}@}) and are considered {@{necessary but not sufficient for the use case to proceed}@}, considering that starting a use case {@{always requires an actor to do something}@}.
+Preconditions serve to keep {@{each use‑case description independent of others}@} by focusing only on {@{the necessary state of both the system and its participants}@}. They are typically written in {@{a declarative style}@} (e.g., {@{"The user is logged in"}@}) and are considered {@{necessary but not sufficient for the use case to proceed}@}, considering that starting a use case {@{always requires an actor to do something}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 #### use case postconditions
 
-{@{A postcondition}@} captures {@{the state that the system must be in after the conclusion of a use case}@}, provided that this final state {@{matters to an actor or influences subsequent behaviour}@}, e.g. {@{"after withdrawal, the account balance must remain non‑negative"}@} in an ATM withdrawal use case. {@{Postconditions are written}@} when {@{the outcome of the scenario is non‑obvious}@} or when {@{the resulting state will act as a precondition for another use case}@}. They help {@{readers—developers, testers, and stakeholders}@}—to understand {@{what has changed in the system}@} and ensure that {@{the intended effects of the interaction have been achieved}@} (e.g., {@{"The order record is saved in the database"}@}).
+{@{A postcondition}@} captures {@{the state that the system must be in after the conclusion of a use case}@}, provided that this final state {@{matters to an actor or influences subsequent behaviour}@}, e.g. {@{"after withdrawal, the account balance must remain non‑negative"}@} in an ATM withdrawal use case. {@{Postconditions are written}@} when {@{the outcome of the scenario is non‑obvious}@} or when {@{the resulting state will act as a precondition for another use case}@}. They help {@{readers—developers, testers, and stakeholders}@}—to understand {@{what has changed in the system}@} and ensure that {@{the intended effects of the interaction have been achieved}@} (e.g., {@{"The order record is saved in the database"}@}). <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 #### use case flow of events
 
-{@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step‑by‑step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface → instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\)
+{@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step‑by‑step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface → instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\) <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
-- Optional behavior ::@:: – Actions that may occur _in addition_ to the normal flow but are not required for completion.
-- Variant behavior ::@:: – A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop‑up informs the user and jumps to "SelectCourse".
-- Exceptional behavior ::@:: – Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm".
+- Optional behavior ::@:: – Actions that may occur _in addition_ to the normal flow but are not required for completion. <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+- Variant behavior ::@:: – A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop‑up informs the user and jumps to "SelectCourse". <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+- Exceptional behavior ::@:: – Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm". <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
 
-From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}.
+From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
-{@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event‑response orientation}@} that focuses on {@{what happens rather than how it is implemented}@}.
+{@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event‑response orientation}@} that focuses on {@{what happens rather than how it is implemented}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 > [!example] __branching using `if`__
 >
@@ -367,6 +367,7 @@ From there, {@{optional, variant, or exceptional behaviour}@} can be attached th
 >     ...
 > n+1.
 > ```
+<!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -381,6 +382,7 @@ From there, {@{optional, variant, or exceptional behaviour}@} can be attached th
 >     ...
 > n+1.
 > ```
+<!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -395,35 +397,36 @@ From there, {@{optional, variant, or exceptional behaviour}@} can be attached th
 >     ...
 > n+1.
 > ```
+<!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
 
 #### use case extension points
 
-{@{An _extension point_}@} is {@{a _named_ location in the flow}@} where {@{additional behaviour may be inserted}@}. They come in three forms: \(annotation: 3 items: {@{single location, set of discrete locations, region}@}\)
+{@{An _extension point_}@} is {@{a _named_ location in the flow}@} where {@{additional behaviour may be inserted}@}. They come in three forms: \(annotation: 3 items: {@{single location, set of discrete locations, region}@}\) <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
-- _single location_ ::@:: occurs at a single place (e.g., "ValidateTerm" in a course registration system)
-- _set of discrete locations_ ::@:: occurs at multiple places (e.g., "ConfirmSelection" used after both adding and dropping courses)
-- _region_ ::@:: a matched pair of points that delimit a set of positions, which are suitably named to make clear that they are matched (e.g., from "BeginEditingSchedule" to "EndEditingSchedule" in a course registration system)
+- _single location_ ::@:: occurs at a single place (e.g., "ValidateTerm" in a course registration system) <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+- _set of discrete locations_ ::@:: occurs at multiple places (e.g., "ConfirmSelection" used after both adding and dropping courses) <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+- _region_ ::@:: a matched pair of points that delimit a set of positions, which are suitably named to make clear that they are matched (e.g., from "BeginEditingSchedule" to "EndEditingSchedule" in a course registration system) <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
 
-{@{Extension points}@} are mainly employed to {@{host alternative flows}@}, allowing {@{optional, variant, or exceptional behaviour to be attached in a modular way}@} without {@{cluttering the basic sequence}@}.
+{@{Extension points}@} are mainly employed to {@{host alternative flows}@}, allowing {@{optional, variant, or exceptional behaviour to be attached in a modular way}@} without {@{cluttering the basic sequence}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 #### use case alternative flows
 
-{@{An _alternative flow_}@} describes {@{a path that diverges from the normal (basic) sequence of actions}@} in order to {@{capture infrequently used, variant, or exceptional behaviour}@}. {@{Each alternative}@} is {@{numbered (A1, A2, ...)}@} and given {@{a name that is unique within the use case}@}, reflecting {@{its purpose}@}. {@{The first line of an alternative flow}@} indicates {@{where it can be triggered}@}: \(annotation: 3 items: {@{specific, bounded, general}@}\)
+{@{An _alternative flow_}@} describes {@{a path that diverges from the normal (basic) sequence of actions}@} in order to {@{capture infrequently used, variant, or exceptional behaviour}@}. {@{Each alternative}@} is {@{numbered (A1, A2, ...)}@} and given {@{a name that is unique within the use case}@}, reflecting {@{its purpose}@}. {@{The first line of an alternative flow}@} indicates {@{where it can be triggered}@}: \(annotation: 3 items: {@{specific, bounded, general}@}\) <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
-- __Specific__ ::@:: "At {extension point} when ...", "At {extension point} if ..."
-- __Bounded__ ::@:: "At any point between {extension point 1} and {extension point 2} ..."
-- __General__ ::@:: "At any time in the flow of events ..."
+- __Specific__ ::@:: "At {extension point} when ...", "At {extension point} if ..." <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+- __Bounded__ ::@:: "At any point between {extension point 1} and {extension point 2} ..." <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
+- __General__ ::@:: "At any time in the flow of events ..." <!--SR:!2025-10-21,5,367!2025-10-21,5,367-->
 
-{@{The body}@} lists {@{the steps that occur while the alternative is active}@}. Crucially, {@{every alternative flow—whether optional, variant, or exceptional}@}—must {@{explicitly state where control returns to the main flow}@}: typically {@{the original extension point \(typically optional and exceptional\)}@}, {@{another designated point \(typically variant and exceptional\)}@}, or {@{the end of the use case if it terminates there \(typically exceptional\)}@}. {@{This explicit return}@} ensures that readers understand {@{how the alternative integrates with the overall scenario}@} and prevents {@{ambiguity about the system's subsequent behaviour}@}.
+{@{The body}@} lists {@{the steps that occur while the alternative is active}@}. Crucially, {@{every alternative flow—whether optional, variant, or exceptional}@}—must {@{explicitly state where control returns to the main flow}@}: typically {@{the original extension point \(typically optional and exceptional\)}@}, {@{another designated point \(typically variant and exceptional\)}@}, or {@{the end of the use case if it terminates there \(typically exceptional\)}@}. {@{This explicit return}@} ensures that readers understand {@{how the alternative integrates with the overall scenario}@} and prevents {@{ambiguity about the system's subsequent behaviour}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 #### use case subflows
 
-{@{A _subflow_}@} is {@{a self‑contained segment of behaviour}@} that is {@{referenced from the main flow of events}@} to {@{improve readability and structure}@}. Subflows are {@{__atomic__ in the sense}@} that they have {@{a clear purpose but are not independent use cases}@}; they remain {@{part of the same scenario}@}. They should be {@{numbered (S1, S2, ...)}@} and given {@{unique \(within the use case\), active names}@} that {@{indicate their intent}@}, e.g. {@{"CreateSchedule", "ModifySchedule"}@}. {@{The main flow references a subflow}@} with {@{the phrase "Perform subflow &lt;subflow‑name&gt;".}@} Subflows are meant to encapsulate {@{repetitive or complex sequences without creating new use cases}@}; therefore, {@{excessive nesting of subflows}@} should be {@{avoided to keep the specification concise and comprehensible}@}.
+{@{A _subflow_}@} is {@{a self‑contained segment of behaviour}@} that is {@{referenced from the main flow of events}@} to {@{improve readability and structure}@}. Subflows are {@{__atomic__ in the sense}@} that they have {@{a clear purpose but are not independent use cases}@}; they remain {@{part of the same scenario}@}. They should be {@{numbered (S1, S2, ...)}@} and given {@{unique \(within the use case\), active names}@} that {@{indicate their intent}@}, e.g. {@{"CreateSchedule", "ModifySchedule"}@}. {@{The main flow references a subflow}@} with {@{the phrase "Perform subflow &lt;subflow‑name&gt;".}@} Subflows are meant to encapsulate {@{repetitive or complex sequences without creating new use cases}@}; therefore, {@{excessive nesting of subflows}@} should be {@{avoided to keep the specification concise and comprehensible}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
 ### use case detail level
 
-{@{The goal of a use‑case specification}@} is to provide {@{sufficient detail so that all stakeholders—developers, testers, business users, and customers—agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}.
+{@{The goal of a use‑case specification}@} is to provide {@{sufficient detail so that all stakeholders—developers, testers, business users, and customers—agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
-When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low‑value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}.
+When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low‑value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->
 
-To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}.
+To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}. <!--SR:!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367!2025-10-21,5,367-->

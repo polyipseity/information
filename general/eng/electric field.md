@@ -167,11 +167,11 @@ Both {@{the [electric current density](electric%20current%20density.md) and the 
 
 ## energy in the electric field
 
-{@{The total energy per unit volume}@} stored by {@{the [electromagnetic field](electromagnetic%20field.md)}@} is<sup>[\[19\]](#^ref-19)</sup> {@{$$u_{\text{EM} }={\frac {\varepsilon }{2} }|\mathbf {E} |^{2}+{\frac {1}{2\mu } }|\mathbf {B} |^{2}$$}@} where {@{_ε_ is the [permittivity](permittivity.md) of the medium in which the field exists, $\mu$ its [magnetic permeability](magnetic%20permeability.md)}@}, and {@{__E__ and __B__ are the electric and magnetic field vectors}@}. <!--SR:!2027-12-09,771,330!2025-12-19,219,291!2026-10-29,468,331-->
+{@{The total energy per unit volume}@} stored by {@{the [electromagnetic field](electromagnetic%20field.md)}@} is<sup>[\[19\]](#^ref-19)</sup> {@{$$u_{\text{EM} }={\frac {\varepsilon }{2} }|\mathbf {E} |^{2}+{\frac {1}{2\mu } }|\mathbf {B} |^{2}$$}@} where {@{_ε_ is the [permittivity](permittivity.md) of the medium in which the field exists, $\mu$ its [magnetic permeability](magnetic%20permeability.md)}@}, and {@{__E__ and __B__ are the electric and magnetic field vectors}@}. <!--SR:!2027-12-09,771,330!2025-12-19,219,291!2026-10-29,468,331!2025-10-21,5,372!2025-10-21,5,372-->
 
 As {@{__E__ and __B__ fields are coupled}@}, it would be {@{misleading to split this expression into "electric" and "magnetic" contributions}@}. In particular, {@{an electrostatic field in any given frame of reference in general}@} {@{transforms into a field with a magnetic component in a relatively moving frame}@}. Accordingly, {@{decomposing the electromagnetic field into an electric and magnetic component}@} is {@{frame-specific, and similarly for the associated energy}@}. <!--SR:!2026-04-29,340,346!2025-12-21,239,330!2026-06-28,394,362!2026-07-19,415,371!2026-02-01,270,330!2026-01-28,249,331-->
 
-{@{The total energy _U_<sub>EM</sub>}@} stored in {@{the electromagnetic field in a given volume _V_}@} is {@{$$U_{\text{EM} }={\frac {1}{2} }\int _{V}\left(\varepsilon |\mathbf {E} |^{2}+{\frac {1}{\mu } }|\mathbf {B} |^{2}\right)dV\,.$$}@} <!--SR:!2027-09-10,680,342!2027-02-21,505,290-->
+{@{The total energy _U_<sub>EM</sub>}@} stored in {@{the electromagnetic field in a given volume _V_}@} is {@{$$U_{\text{EM} }={\frac {1}{2} }\int _{V}\left(\varepsilon |\mathbf {E} |^{2}+{\frac {1}{\mu } }|\mathbf {B} |^{2}\right)dV\,.$$}@} <!--SR:!2027-09-10,680,342!2027-02-21,505,290!2025-10-21,5,372-->
 
 ## electric displacement field
 
