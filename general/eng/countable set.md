@@ -90,7 +90,7 @@ In a similar manner, {@{the set of [algebraic numbers](algebraic%20number.md)}@}
 
 Sometimes {@{more than one mapping is useful}@}: a set $A$ to be shown as countable is {@{one-to-one mapped \(injection\) to another set $B$}@}, then $A$ is proved {@{as countable if $B$ is one-to-one mapped to the set of natural numbers}@}. For example, {@{the set of positive [rational numbers](rational%20number.md)}@} can {@{easily be one-to-one mapped to the set of natural number pairs \(2-tuples\) because $p/q$ maps to $(p,q)$}@}. Since {@{the set of natural number pairs is one-to-one mapped \(actually one-to-one correspondence or bijection\) to the set of natural numbers as shown above}@}, {@{the positive rational number set}@} is {@{proved as countable}@}. <!--SR:!2027-08-04,725,330!2025-11-12,250,330!2026-10-17,498,310!2027-12-14,832,330!2027-11-08,791,330!2026-01-03,290,330!2026-01-07,294,330!2026-01-07,294,330-->
 
-> Theorem — Any {@{finite [union](union%20(set%20theory).md) of countable sets}@} is countable.<sup>[\[24\]](#^ref-24)</sup><sup>[\[25\]](#^ref-25)</sup><sup>[\[e\]](#^ref-e)</sup> <!--SR:!2025-11-03,242,330-->
+> Theorem — Any {@{finite [union](union%20(set%20theory).md) of countable sets}@} is countable.<sup>[\[24\]](#^ref-24)</sup><sup>[\[25\]](#^ref-25)</sup><sup>[\[e\]](#^ref-e)</sup> <!--SR:!2028-11-08,1101,350-->
 
 With {@{the foresight of knowing that there are uncountable sets}@}, we can wonder {@{whether or not this last result can be pushed any further}@}. The answer is {@{"yes" and "no", we can extend it, but we need to assume a new axiom to do so}@}. <!--SR:!2026-02-11,281,290!2025-11-08,246,330!2025-11-28,262,330-->
 

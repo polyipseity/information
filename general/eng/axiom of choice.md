@@ -328,7 +328,7 @@ There are {@{models of Zermelo-Fraenkel set theory}@} in which {@{the axiom of c
 
 - There is {@{an infinite set of real numbers}@} without {@{a countably infinite subset}@}. <!--SR:!2025-12-07,76,344!2025-12-13,81,344-->
 
-- {@{The real numbers}@} are {@{a countable union of countable sets}@}.<sup>[\[38\]](#^ref-38)</sup> This does not {@{imply that the real numbers are countable}@}: As pointed out above, to {@{show that a countable union of countable sets is itself countable}@} requires {@{the [Axiom of countable choice](axiom%20of%20countable%20choice.md)}@}. <!--SR:!2025-11-24,65,327!2025-11-30,70,327!2025-11-29,69,327!2025-11-22,63,327!2025-11-03,48,324-->
+- {@{The real numbers}@} are {@{a countable union of countable sets}@}.<sup>[\[38\]](#^ref-38)</sup> This does not {@{imply that the real numbers are countable}@}: As pointed out above, to {@{show that a countable union of countable sets is itself countable}@} requires {@{the [Axiom of countable choice](axiom%20of%20countable%20choice.md)}@}. <!--SR:!2025-11-24,65,327!2025-11-30,70,327!2025-11-29,69,327!2025-11-22,63,327!2026-06-03,212,344-->
 
 - There is {@{a field}@} with {@{no algebraic closure}@}. <!--SR:!2025-11-07,48,307!2025-12-11,79,344-->
 

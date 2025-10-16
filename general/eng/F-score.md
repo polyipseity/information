@@ -25,7 +25,7 @@ tags:
 
 ## definition
 
-The traditional {@{F-measure or balanced F-score (__F<sub>1</sub> score__)}@} is {@{the [harmonic mean](harmonic%20mean.md#two%20numbers) of [precision and recall](precision%20and%20recall.md)}@}: {@{$$F_1 = \left( \frac {\text{recall}^{-1} + \text{precision}^{-1} } 2 \right)^{-1} = \frac 2 {\text{recall}^{-1} + \text{precision}^{-1} } = 2 \frac {\text{recall} \cdot \text{precision} } {\text{recall} + \text{precision} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$}@}. <!--SR:!2025-11-03,333,290!2027-06-05,734,290!2026-03-15,415,270-->
+The traditional {@{F-measure or balanced F-score (__F<sub>1</sub> score__)}@} is {@{the [harmonic mean](harmonic%20mean.md#two%20numbers) of [precision and recall](precision%20and%20recall.md)}@}: {@{$$F_1 = \left( \frac {\text{recall}^{-1} + \text{precision}^{-1} } 2 \right)^{-1} = \frac 2 {\text{recall}^{-1} + \text{precision}^{-1} } = 2 \frac {\text{recall} \cdot \text{precision} } {\text{recall} + \text{precision} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$}@}. <!--SR:!2029-07-07,1342,310!2027-06-05,734,290!2026-03-15,415,270-->
 
 ## references
 

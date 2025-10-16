@@ -24,7 +24,7 @@ Assuming {@{you are using Linux}@}. For developers, {@{compiling a C program}@} 
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures. <!--SR:!2026-01-15,394,365!2025-11-29,357,365-->
 
-Instead, we are more interested in {@{the compilation process itself}@}. We like to think of {@{compilation as a single process}@}, but it is {@{really composed of several steps}@}: {@{preprocessing \(`-E`\), then compilation \(`-S`\)}@}, then {@{assembly \(`-c`\), and finally linking \(none\)}@}. <!--SR:!2025-12-28,380,365!2028-11-23,1121,343!2025-10-21,5,378!2025-10-21,5,378!2025-10-21,5,378-->
+Instead, we are more interested in {@{the compilation process itself}@}. We like to think of {@{compilation as a single process}@}, but it is {@{really composed of several steps}@}: {@{preprocessing \(`-E`\), then compilation \(`-S`\)}@}, then {@{assembly \(`-c`\), and finally linking \(none\)}@}. <!--SR:!2025-12-28,380,365!2028-11-23,1121,343!2025-11-30,27,398!2025-11-30,27,398!2025-11-30,27,398-->
 
 Preprocessing {@{transforms source program (text) into modified source program (still text)}@}. GCC internally {@{uses the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2025-12-22,374,365!2028-11-26,1212,365!2026-05-09,415,303-->
 
@@ -118,7 +118,7 @@ To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64
 
 ### stack and functions in assembly
 
-x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2025-11-03,333,357!2025-12-26,378,363!2026-12-13,635,330-->
+x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2030-04-23,1632,377!2025-12-26,378,363!2026-12-13,635,330-->
 
 - `push <data>` ::@:: Copy `<data>` to the address pointed by `esp`/`rsp` and then decrement `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not `<data>`). It can also be 2 bytes if explicitly specified (`push word <data>`), Note that flags are also manipulated. <!--SR:!2028-10-12,1167,350!2028-09-04,1129,365-->
 - `pop <dest>` ::@:: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture \(but not the value "type" at the stack top\). It can also be 2 bytes if explicitly specified \(`pop word <dest>`\). Note that flags are also manipulated. <!--SR:!2027-07-20,779,345!2028-10-29,1102,343-->

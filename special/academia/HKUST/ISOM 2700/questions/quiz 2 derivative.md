@@ -20,7 +20,7 @@ tags:
 > What is the average service rate \(per hour\)?
 >
 > - solution: {@{20 customers per hour}@}
-> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2025-11-03,152,310!2026-03-23,266,330-->
+> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2027-08-16,651,330!2026-03-23,266,330-->
 
 <!-- markdownlint MD028 -->
 

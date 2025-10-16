@@ -78,7 +78,7 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 ### Hierholzer's algorithm
 
-{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}: <!--SR:!2025-11-03,265,342!2026-03-08,372,362-->
+{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}: <!--SR:!2029-04-08,1252,362!2026-03-08,372,362-->
 
 - Choose {@{any starting vertex _v_}@}, and {@{follow a trail of edges from that vertex until returning to _v_}@}. It is {@{not possible to get stuck at any vertex other than _v_}@}, because {@{the even degree of all vertices ensures that, when the trail enters another vertex _w_ there must be an unused edge leaving _w_}@}. {@{The tour formed in this way}@} is {@{a closed tour, but may not cover all the vertices and edges of the initial graph}@}.
 - As long as {@{there exists a vertex _u_ that belongs to the current tour but that has adjacent edges not part of the tour}@}, start {@{another trail from _u_, following unused edges until returning to _u_}@}, and {@{join the tour formed in this way to the previous tour}@}.
@@ -163,13 +163,13 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 > {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >
-> {@{An even mixed graph}@} that {@{violates the balanced set condition and is therefore not Eulerian}@}. <!--SR:!2027-12-30,820,342!2025-11-05,256,342!2025-10-21,5,370-->
+> {@{An even mixed graph}@} that {@{violates the balanced set condition and is therefore not Eulerian}@}. <!--SR:!2027-12-30,820,342!2025-11-05,256,342!2025-11-29,26,390-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20satisfies%20the%20balanced%20set%20condition%20and%20is%20therefore%20an%20Eulerian%20mixed%20graph.svg)}@}
 >
-> {@{An even mixed graph}@} that {@{satisfies the balanced set condition and is therefore an Eulerian mixed graph}@}. <!--SR:!2028-11-05,1129,362!2028-04-18,902,342!2025-10-21,5,370-->
+> {@{An even mixed graph}@} that {@{satisfies the balanced set condition and is therefore an Eulerian mixed graph}@}. <!--SR:!2028-11-05,1129,362!2028-04-18,902,342!2025-11-28,25,390-->
 
 ## see also
 

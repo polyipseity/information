@@ -35,7 +35,7 @@ From {@{a [macroeconomic](macroeconomics.md) perspective}@}, the PPF illustrates
 
 > {@{![figure 2: unbiased expansion of a production possibility frontier](../../archives/Wikimedia%20Commons/PPF%20expansion.svg)}@}
 >
-> figure 2: {@{unbiased expansion of a production possibility frontier}@} <!--SR:!2025-11-03,309,330!2028-07-19,1080,350-->
+> figure 2: {@{unbiased expansion of a production possibility frontier}@} <!--SR:!2029-09-09,1406,350!2028-07-19,1080,350-->
 
 {@{The two main determinants}@} of {@{the position of the PPF at any given time}@} are {@{the state of [technology](technology.md) and management expertise \(which are reflected in the available [production functions](production%20function.md)\)}@} and {@{the available quantities of [factors of production](factors%20of%20production.md) \(materials, direct labor, and factory overhead\)}@}. <!--SR:!2027-10-29,804,290!2026-01-14,120,390!2026-01-14,120,390!2026-01-14,120,390-->
 

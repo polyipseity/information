@@ -1023,7 +1023,7 @@ tags:
 >
 > You classify all inputs with a final value y >= 0.5 as positive. What is the problem with this network?
 >
-> - solution: {@{y is always >= 0.5, so the classification is always positive.}@} <!--SR:!2025-11-03,243,330-->
+> - solution: {@{y is always >= 0.5, so the classification is always positive.}@} <!--SR:!2028-11-13,1106,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1072,7 +1072,7 @@ tags:
 > 4. (199, 99)
 >
 > - solution: {@{3}@}
-> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2025-11-03,243,330!2025-12-13,276,330-->
+> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2028-11-12,1105,350!2025-12-13,276,330-->
 
 <!-- markdownlint MD028 -->
 

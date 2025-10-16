@@ -84,7 +84,7 @@ Initial and terminal objects may also {@{be characterized in terms of [universal
 
 ### relation to other categorical constructions
 
-{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object}@} in {@{a suitable category}@}. <!--SR:!2026-02-05,301,337!2027-11-03,734,332!2025-10-21,5,376-->
+{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object}@} in {@{a suitable category}@}. <!--SR:!2026-02-05,301,337!2027-11-03,734,332!2025-11-30,27,396-->
 
 - {@{A [universal morphism](universal%20morphism.md) from an object _X_ to a functor _U_}@} can be defined as {@{an initial object in the [comma category](comma%20category.md) \(_X_ ↓ _U_\)}@}. Dually, {@{a universal morphism from _U_ to _X_}@} is {@{a terminal object in \(_U_ ↓ _X_\)}@}.
 - {@{The limit of a diagram _F_}@} is {@{a terminal object in Cone\(_F_\), the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Dually, {@{a colimit of _F_}@} is {@{an initial object in the category of cones from _F_}@}.

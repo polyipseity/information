@@ -32,7 +32,7 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2029-03-02,1217,350!2028-12-07,1151,350-->
   - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2029-03-09,1223,350!2025-12-02,292,330-->
   - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-12-04,294,330!2029-01-06,1175,350-->
-  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-11-03,269,330!2025-11-30,290,330-->
+  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2029-03-13,1226,350!2025-11-30,290,330-->
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2025-12-03,293,330!2027-12-06,799,330-->
   - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2029-02-07,1199,350!2028-11-10,1130,350-->
   - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2027-08-12,748,330!2029-02-03,1196,350-->

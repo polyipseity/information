@@ -44,7 +44,7 @@ According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five 
 - __Transmitting__ ::@:: information about changes in the relative importance of different end-products and factors of production. <!--SR:!2027-12-02,848,330!2028-02-10,888,330-->
 - __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2027-11-19,824,330!2027-08-28,774,330-->
 - __Providing__ an incentive to owners of resources ::@:: to direct them into the most highly remunerated uses <!--SR:!2025-11-06,273,330!2025-11-19,284,330-->
-- __Distributing__ ::@:: output among the owners of resources <!--SR:!2025-11-03,269,330!2025-11-18,283,330-->
+- __Distributing__ ::@:: output among the owners of resources <!--SR:!2029-03-11,1224,350!2025-11-18,283,330-->
 - __Rationing__ ::@:: fixed supplies of goods among consumers. <!--SR:!2028-02-15,892,330!2025-11-25,289,330-->
 
 ## price and value

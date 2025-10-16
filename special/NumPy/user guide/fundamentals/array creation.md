@@ -40,7 +40,7 @@ NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@
 >>> a3D = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 ```
 
-When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2025-11-03,282,330!2026-01-04,336,350!2029-02-04,1209,350!2029-03-28,1252,350!2026-01-18,348,350!2029-03-02,1231,350-->
+When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2029-05-09,1283,350!2026-01-04,336,350!2029-02-04,1209,350!2029-03-28,1252,350!2026-01-18,348,350!2029-03-02,1231,350-->
 
 ```Python
 >>> import numpy as np

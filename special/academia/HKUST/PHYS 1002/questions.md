@@ -450,7 +450,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 3. It was produced by previous massive stars which expelled some heavy elements during the explosions when they died.
 > 4. It was produced by fission of even heavier elements in the Sun.
 >
-> - solution: {@{3}@} <!--SR:!2025-11-03,367,381-->
+> - solution: {@{3}@} <!--SR:!2031-01-31,1915,401-->
 
 ## 2024-07-30
 

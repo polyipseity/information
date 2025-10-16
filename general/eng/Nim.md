@@ -12,7 +12,7 @@ tags:
 
 - This article is about {@{the mathematical game of strategy}@}. For the programming language, see [Nim (programming language)](Nim%20(programming%20language).md).<!-- For other uses, see [Nim (disambiguation)](NIM.md).--> <!--SR:!2029-08-10,1381,361-->
 
-__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2026-03-27,150,321!2025-11-24,317,341!2025-10-21,5,360-->
+__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2026-03-27,150,321!2025-11-24,317,341!2025-11-28,25,380-->
 
 Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}. <!--SR:!2029-08-31,1398,361!2029-08-23,1392,361-->
 
@@ -82,7 +82,7 @@ The evolution graph of the game of nim with three heaps is {@{the same as three 
 
 Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and {@{there is an easily calculated way to determine which player will win and which winning moves are open to that player}@}. <!--SR:!2025-11-11,306,341!2025-11-20,313,341-->
 
-The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes}@}, i.e., {@{the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows: <!--SR:!2028-07-20,996,341!2027-11-29,796,321!2028-09-11,1086,341!2029-05-24,1309,350!2025-10-21,5,360-->
+The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes}@}, i.e., {@{the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows: <!--SR:!2028-07-20,996,341!2027-11-29,796,321!2028-09-11,1086,341!2029-05-24,1309,350!2025-11-29,26,380-->
 
 ```text
   Binary   Decimal
@@ -157,7 +157,7 @@ _Proof of Lemma 2:_ ::@:: Let _d_ be the position of the leftmost (most signific
 
 ### the subtraction game
 
-In another game which is commonly known as {@{nim (but is better called the [subtraction game](subtraction%20game.md))}@}, {@{an upper bound is imposed on the number of objects that can be removed in a turn}@}. Instead of {@{removing arbitrarily many objects}@}, a player can {@{only remove 1 or 2 or ... or _k_ at a time}@}. This game is commonly played in practice {@{with only one heap}@}. <!--SR:!2028-11-18,1141,341!2025-11-03,299,341!2025-11-09,304,341!2025-11-07,303,341!2025-11-03,299,341-->
+In another game which is commonly known as {@{nim (but is better called the [subtraction game](subtraction%20game.md))}@}, {@{an upper bound is imposed on the number of objects that can be removed in a turn}@}. Instead of {@{removing arbitrarily many objects}@}, a player can {@{only remove 1 or 2 or ... or _k_ at a time}@}. This game is commonly played in practice {@{with only one heap}@}. <!--SR:!2028-11-18,1141,341!2029-09-04,1401,361!2025-11-09,304,341!2025-11-07,303,341!2029-09-05,1402,361-->
 
 Bouton's analysis {@{carries over easily to the general multiple-heap version of this game}@}. The only difference is that {@{as a first step, before computing the nim-sums}@} we {@{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}@}. If {@{this makes all the heaps of size zero (in misère play)}@}, the winning move is {@{to take _k_ objects from one of the heaps}@}. In particular, in {@{ideal play from a single heap of _n_ objects}@}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2028-10-20,1117,341!2027-12-28,819,321!2026-05-02,422,310!2026-08-17,511,330!2028-04-26,931,301!2028-11-06,1130,341-->
 
@@ -269,7 +269,7 @@ The starting board is {@{a disconnected graph}@}, and players {@{take turns to r
 
 ### candy nim
 
-Candy nim is {@{a version of normal-play nim in which players try to achieve two goals at the same time}@}: {@{taking the last object (in this case, candy) and taking the maximum number of candies by the end of the game}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-11-03,299,341!2025-11-22,315,341-->
+Candy nim is {@{a version of normal-play nim in which players try to achieve two goals at the same time}@}: {@{taking the last object (in this case, candy) and taking the maximum number of candies by the end of the game}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-09-06,1403,361!2025-11-22,315,341-->
 
 ## see also
 

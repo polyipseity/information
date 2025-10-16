@@ -198,7 +198,7 @@ Coulomb's law can be used to {@{gain insight into the form of the magnetic field
 
 > {@{![Feynman diagram - Moller scattering 1](../../archives/Wikimedia%20Commons/Feynman%20diagram%20-%20Moller%20scattering%201.svg)}@}
 >
-> {@{The most basic Feynman diagram}@} for {@{QED interaction between two fermions}@} <!--SR:!2026-06-12,391,370!2025-11-03,209,339!2026-05-28,377,370-->
+> {@{The most basic Feynman diagram}@} for {@{QED interaction between two fermions}@} <!--SR:!2026-06-12,391,370!2028-07-05,975,359!2026-05-28,377,370-->
 
 {@{The __Coulomb potential__}@} admits {@{continuum states \(with _E_ \> 0\)}@}, describing {@{electron-proton [scattering](scattering%20theory.md#theory)}@}, as well as {@{discrete bound states, representing the hydrogen atom}@}.<sup>[\[31\]](#^ref-31)</sup> It can also be derived {@{within the [non-relativistic limit](non-relativistic%20quantum%20electrodynamics.md) between two charged particles}@}, as follows: <!--SR:!2026-05-27,376,370!2026-03-24,322,351!2026-06-12,392,370!2026-05-14,363,370!2027-01-06,515,310-->
 
