@@ -198,7 +198,7 @@ To {@{prove the inclusion–exclusion principle for the cardinality of sets}@}, 
 
 - [Boole's inequality](Boole's%20inequality.md) – ::@:: Inequality applying to probability spaces <!--SR:!2028-02-03,855,331!2025-12-31,349,351-->
 - [combinatorial principles](combinatorial%20principles.md) – ::@:: Methods used in combinatorics <!--SR:!2025-11-15,307,330!2025-12-22,341,351-->
-- [maximum-minimums identity](maximum-minimums%20identity.md) – ::@:: Relates the maximum element of a set of numbers and the minima of its non-empty subsets <!--SR:!2028-08-16,1094,351!2025-11-04,298,330-->
+- [maximum-minimums identity](maximum-minimums%20identity.md) – ::@:: Relates the maximum element of a set of numbers and the minima of its non-empty subsets <!--SR:!2028-08-16,1094,351!2029-07-28,1362,350-->
 - [necklace problem](necklace%20problem.md)
 - [pigeonhole principle](pigeonhole%20principle.md) – ::@:: If there are more items than boxes holding them, one box must contain at least two items <!--SR:!2025-11-19,313,340!2025-12-29,347,351-->
 - [Schuette–Nesbitt formula](Schuette–Nesbitt%20formula.md) – ::@:: mathematical formula in probability theory <!--SR:!2026-10-16,499,300!2028-04-01,953,330-->

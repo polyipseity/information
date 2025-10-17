@@ -224,7 +224,7 @@ One important difference is {@{service recovery}@}. When {@{an error occurs in s
 1. [Price](price.md) \(actually fixed by marketing, but lower bounded by production cost\): ::@:: purchase price, use costs, maintenance costs, upgrade costs, disposal costs <!--SR:!2025-11-17,186,270!2026-05-16,333,290-->
 2. [Quality](quality%20(business).md): ::@:: specification and compliance <!--SR:!2026-01-05,258,330!2025-12-20,244,330-->
 3. [Time](time.md): ::@:: productive [lead time](lead%20time.md), information lead time, [punctuality](punctuality.md) <!--SR:!2026-02-23,281,290!2026-02-01,278,330-->
-4. [Flexibility](flexibility%20(engineering).md): ::@:: mix \(capacity to change the [proportions](proportionality%20(mathematics).md) between quantities produced in the system\), volume \(capacity to increase system [output](output%20(economics).md)\), gamma \(capacity to expand the product family in the system\) <!--SR:!2025-11-04,186,270!2027-12-19,800,330-->
+4. [Flexibility](flexibility%20(engineering).md): ::@:: mix \(capacity to change the [proportions](proportionality%20(mathematics).md) between quantities produced in the system\), volume \(capacity to increase system [output](output%20(economics).md)\), gamma \(capacity to expand the product family in the system\) <!--SR:!2027-10-06,701,290!2027-12-19,800,330-->
 5. Stock [availability](availability.md)
 6. Ecological Soundness: ::@:: biological and [environmental impacts](environmental%20impact%20assessment.md) of the system under study. <!--SR:!2028-01-24,830,330!2026-01-30,276,330-->
 

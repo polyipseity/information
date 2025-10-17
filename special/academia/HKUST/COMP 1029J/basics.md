@@ -147,7 +147,7 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-11-04,25,373!2026-03-08,125,393!2026-02-28,118,393-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-03-14,130,393!2026-03-08,125,393!2026-02-28,118,393-->
 
 ```Python
 # pytextgen generate data
@@ -202,8 +202,8 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:36.998975+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`++` <br/> `--` <!--SR:!2026-03-09,126,393!2026-03-03,121,393-->
-- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2025-11-04,25,373!2026-03-09,126,393-->
-- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2026-03-03,121,393!2025-11-04,25,373-->
+- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2026-03-14,130,393!2026-03-09,126,393-->
+- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2026-03-03,121,393!2026-03-14,130,393-->
 - `+` <br/> `-`→::@::←_(end)_ <!--SR:!2026-03-01,119,393!2026-03-02,120,393-->
 
 <!--/pytextgen-->
@@ -212,13 +212,13 @@ return _chain.from_iterable(await _gather(
 
 - `++` <br/> `--`:@:increment a numerical variable by 1 <br/> decrement a numerical variable by 1 <!--SR:!2026-03-09,126,393-->
 - `*` <br/> `/` <br/> `%`:@:multiplication <br/> division; if both operands are of integral types, then round-towards-zero division <br/> remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2026-03-08,125,393-->
-- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2025-11-04,25,373-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2026-03-15,131,393-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2026-03-07,124,393!2025-11-04,25,373!2025-11-04,25,373!2026-02-27,117,393!2026-03-02,120,393-->
+Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2026-03-07,124,393!2026-03-15,131,393!2026-03-15,131,393!2026-02-27,117,393!2026-03-02,120,393-->
 
 ```Python
 # pytextgen generate data
@@ -288,7 +288,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2026-02-28,118,393!2025-11-04,25,373!2026-03-09,126,393-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2026-02-28,118,393!2026-03-15,131,393!2026-03-09,126,393-->
 
 ```Python
 # pytextgen generate data

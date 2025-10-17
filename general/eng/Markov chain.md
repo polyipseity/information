@@ -275,7 +275,7 @@ To {@{find the stationary probability distribution vector}@}, we must next {@{fi
 |                                | {@{System state is fully observable}@}                          | {@{System state is partially observable}@}                                                                    |
 | ------------------------------ | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | {@{__System is autonomous__}@} | {@{Markov chain}@}                                              | {@{[Hidden Markov model](hidden%20Markov%20model.md)}@}                                                       |
-| {@{__System is controlled__}@} | {@{[Markov decision process](Markov%20decision%20process.md)}@} | {@{[Partially observable Markov decision process](partially%20observable%20Markov%20decision%20process.md)}@} | <!--SR:!2026-04-29,403,367!2026-03-10,359,359!2026-03-10,363,367!2025-12-14,289,341!2025-12-29,284,347!2026-04-13,389,367!2025-11-04,185,347!2026-04-26,400,367-->
+| {@{__System is controlled__}@} | {@{[Markov decision process](Markov%20decision%20process.md)}@} | {@{[Partially observable Markov decision process](partially%20observable%20Markov%20decision%20process.md)}@} | <!--SR:!2026-04-29,403,367!2026-03-10,359,359!2026-03-10,363,367!2025-12-14,289,341!2025-12-29,284,347!2026-04-13,389,367!2028-04-11,889,367!2026-04-26,400,367-->
 
 ### Bernoulli scheme
 

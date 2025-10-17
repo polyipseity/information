@@ -26,7 +26,7 @@ A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, wh
 - {@{$S$}@} is {@{a [set](set%20(mathematics).md) of states called the _state space_}@}. {@{The state space}@} may be {@{discrete or continuous, like the [set of real numbers](real%20number.md)}@}.
 - {@{$A$}@} is {@{a set of actions called the _action space_}@} \(alternatively, {@{$A_{s}$}@} is {@{the set of actions available from state $s$}@}\). As for state, this set may be {@{discrete or continuous}@}.
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
-- {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}. <!--SR:!2025-12-06,281,332!2027-11-01,798,332!2025-12-26,296,332!2027-07-29,734,332!2025-11-04,255,332!2025-11-08,259,332!2025-12-11,127,400!2025-12-05,122,400!2025-12-11,127,400!2025-12-05,122,400!2025-12-17,132,400!2025-12-19,134,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-18,133,400!2025-12-17,132,400-->
+- {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}. <!--SR:!2025-12-06,281,332!2027-11-01,798,332!2025-12-26,296,332!2027-07-29,734,332!2029-01-15,1168,352!2025-11-08,259,332!2025-12-11,127,400!2025-12-05,122,400!2025-12-11,127,400!2025-12-05,122,400!2025-12-17,132,400!2025-12-19,134,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-18,133,400!2025-12-17,132,400-->
 
 {@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}. <!--SR:!2025-11-05,256,332!2025-11-09,260,332-->
 
@@ -58,7 +58,7 @@ An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic
 
 In this example, we have
 
-- $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2025-11-04,255,332!2025-11-06,257,332-->
+- $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2029-01-14,1167,352!2025-11-06,257,332-->
 - $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2025-12-07,282,332!2025-11-10,261,332-->
 - $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2025-11-10,261,332!2025-12-25,295,332-->
 - $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2027-09-19,774,332!2028-02-16,836,330-->
@@ -74,7 +74,7 @@ The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2027-02-12,545,272!2026-02-03,301,292-->
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2026-06-08,362,270!2026-09-04,462,312-->
 
-{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-02-14,339,349!2027-11-10,762,329!2026-01-26,325,349!2026-01-04,305,349!2025-11-05,26,385!2025-11-04,25,385-->
+{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-02-14,339,349!2027-11-10,762,329!2026-01-26,325,349!2026-01-04,305,349!2025-11-05,26,385!2026-03-16,132,405-->
 
 ### notable variants
 

@@ -26,9 +26,9 @@ The game of nim was the subject of [Martin Gardner](Martin%20Gardner.md)'s Febru
 
 ## game play and illustration
 
-Nim is typically played as {@{a [misère game](misère.md#misère%20game), in which the player to take the last object loses}@}. Nim can also be {@{played as a "normal play" game whereby the player taking the last object wins}@}. In either normal play or a misère game, when {@{there is exactly one heap with at least two objects}@}, {@{the player who takes next can easily win}@}. If {@{this removes either all or all but one objects from the heap that has two or more}@}, then {@{no heaps will have more than one object}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. If {@{the player leaves an even number of non-zero heaps (as the player would do in normal play)}@}, {@{the player takes last}@}; if {@{the player leaves an odd number of heaps (as the player would do in misère play)}@}, then {@{the other player takes last}@}. <!--SR:!2025-11-24,317,341!2025-11-23,316,341!2025-11-24,317,341!2025-11-10,305,341!2025-11-04,300,341!2025-11-15,308,341!2028-04-12,969,341!2025-11-13,308,341!2025-11-23,316,341!2025-12-18,333,341!2025-11-09,304,341-->
+Nim is typically played as {@{a [misère game](misère.md#misère%20game), in which the player to take the last object loses}@}. Nim can also be {@{played as a "normal play" game whereby the player taking the last object wins}@}. In either normal play or a misère game, when {@{there is exactly one heap with at least two objects}@}, {@{the player who takes next can easily win}@}. If {@{this removes either all or all but one objects from the heap that has two or more}@}, then {@{no heaps will have more than one object}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. If {@{the player leaves an even number of non-zero heaps (as the player would do in normal play)}@}, {@{the player takes last}@}; if {@{the player leaves an odd number of heaps (as the player would do in misère play)}@}, then {@{the other player takes last}@}. <!--SR:!2025-11-24,317,341!2025-11-23,316,341!2025-11-24,317,341!2025-11-10,305,341!2029-09-16,1412,361!2025-11-15,308,341!2028-04-12,969,341!2025-11-13,308,341!2025-11-23,316,341!2025-12-18,333,341!2025-11-09,304,341-->
 
-The normal game is {@{between two players and is played with three heaps of any number of objects}@}. The two players {@{alternate taking any number of objects from any one of the heaps}@}. The goal is {@{to be the last to take an object}@}. In misère play, the goal is {@{instead to ensure that the opponent is forced to take the last remaining object}@}. <!--SR:!2026-12-18,612,341!2029-07-22,1365,361!2025-11-04,300,341!2029-07-16,1360,361-->
+The normal game is {@{between two players and is played with three heaps of any number of objects}@}. The two players {@{alternate taking any number of objects from any one of the heaps}@}. The goal is {@{to be the last to take an object}@}. In misère play, the goal is {@{instead to ensure that the opponent is forced to take the last remaining object}@}. <!--SR:!2026-12-18,612,341!2029-07-22,1365,361!2029-09-12,1408,361!2029-07-16,1360,361-->
 
 The following example of a normal game is played between fictional players [Bob and Alice](Alice%20and%20Bob.md), who start with heaps of three, four and five objects.
 
@@ -145,7 +145,7 @@ The theorem follows by {@{induction on the length of the game from these two lem
 
 __Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2029-03-31,1267,350!2025-11-08,304,341-->
 
-_Proof of Lemma 1:_ ::@:: If there is no possible move, then the lemma is [vacuously true](vacuous%20truth.md) (and the first player loses the normal play game by definition). Otherwise, any move in heap _k_ will produce _t_ = _x<sub>k</sub>_ ⊕ _y<sub>k</sub>_ from (*). This number is nonzero, since _x<sub>k</sub>_ ≠ _y<sub>k</sub>_. <!--SR:!2025-11-23,316,341!2025-11-04,300,341-->
+_Proof of Lemma 1:_ ::@:: If there is no possible move, then the lemma is [vacuously true](vacuous%20truth.md) (and the first player loses the normal play game by definition). Otherwise, any move in heap _k_ will produce _t_ = _x<sub>k</sub>_ ⊕ _y<sub>k</sub>_ from (*). This number is nonzero, since _x<sub>k</sub>_ ≠ _y<sub>k</sub>_. <!--SR:!2025-11-23,316,341!2029-09-11,1407,361-->
 
 __Lemma 2__. ::@:: If _s_ ≠ 0, it is possible to make a move so that _t_ = 0. <!--SR:!2025-11-24,317,341!2025-11-23,316,341-->
 
@@ -166,7 +166,7 @@ Bouton's analysis {@{carries over easily to the general multiple-heap version of
 
 This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-12-24,301,301-->
 
-from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2025-11-04,300,341-->
+from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2029-09-13,1409,361-->
 
 ### the 21 game
 

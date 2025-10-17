@@ -29,7 +29,7 @@ Suppose that {@{the parameter $\theta$ = \($\theta _{1},\theta _{2},\dots ,\thet
 
 ## advantages and disadvantages
 
-The method of moments is {@{fairly simple}@} and {@{yields [consistent estimators](consistent%20estimator.md) \(under very weak assumptions\)}@}, though {@{these estimators are often [biased](bias%20of%20an%20estimator.md)}@}. <!--SR:!2025-11-07,241,330!2027-04-22,644,330!2025-11-04,239,330-->
+The method of moments is {@{fairly simple}@} and {@{yields [consistent estimators](consistent%20estimator.md) \(under very weak assumptions\)}@}, though {@{these estimators are often [biased](bias%20of%20an%20estimator.md)}@}. <!--SR:!2025-11-07,241,330!2027-04-22,644,330!2028-10-24,1085,350-->
 
 It is an alternative to {@{the [method of maximum likelihood](maximum%20likelihood%20estimation.md)}@}. <!--SR:!2025-11-26,256,330-->
 

@@ -22,7 +22,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also
 
 ## definition
 
-An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides $n$, $m$ is a divisor of $n$, $m$ is a factor of $n$, or $n$ is a multiple of $m$}@}. If {@{$m$ does not divide $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-08,238,330!2025-11-07,237,330!2025-11-04,234,330!2025-12-20,272,330!2025-12-23,274,330-->
+An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides $n$, $m$ is a divisor of $n$, $m$ is a factor of $n$, or $n$ is a multiple of $m$}@}. If {@{$m$ does not divide $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-08,238,330!2025-11-07,237,330!2028-10-03,1064,350!2025-12-20,272,330!2025-12-23,274,330-->
 
 There are {@{two conventions, distinguished by whether $m$ is permitted to be zero}@}: <!--SR:!2025-11-21,249,330-->
 

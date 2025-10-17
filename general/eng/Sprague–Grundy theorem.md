@@ -19,7 +19,7 @@ In {@{[combinatorial game theory](combinatorial%20game%20theory.md)}@}, the {@{_
 
 ## definitions
 
-For {@{the purposes of the Sprague–Grundy theorem}@}, a ___game___ is {@{a two-player [sequential game](sequential%20game.md) of [perfect information](perfect%20information.md)}@} satisfying {@{the _ending condition_ \(all games come to an end: there are no infinite lines of play\) and the _normal play condition_ \(a player who cannot move loses\)}@}. <!--SR:!2025-11-04,243,330!2025-12-30,287,330!2026-01-03,290,330-->
+For {@{the purposes of the Sprague–Grundy theorem}@}, a ___game___ is {@{a two-player [sequential game](sequential%20game.md) of [perfect information](perfect%20information.md)}@} satisfying {@{the _ending condition_ \(all games come to an end: there are no infinite lines of play\) and the _normal play condition_ \(a player who cannot move loses\)}@}. <!--SR:!2028-11-16,1108,350!2025-12-30,287,330!2026-01-03,290,330-->
 
 At {@{any given point in the game}@}, a player's ___position___ is {@{the set of ___moves___ they are allowed to make}@}. As an example, we can define {@{the _zero game_ to be the two-player game where neither player has any legal moves}@}. Referring to {@{the two players as $A$ \(for Alice\) and $B$ \(for Bob\)}@}, we would {@{denote their positions as $(A,B)=(\{\},\{\})$}@}, since {@{the set of moves each player can make is empty}@}. <!--SR:!2028-09-21,1063,350!2025-12-11,272,330!2025-11-16,253,330!2025-12-06,268,330!2026-01-02,289,330!2025-12-22,281,330-->
 

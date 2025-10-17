@@ -27,7 +27,7 @@ For example, $(x)_{3}=x(x-1)(x-2)=x^{3}-3x^{2}+2x$, leading to {@{the values $s(
 
 {@{The unsigned Stirling numbers}@} may also be defined {@{algebraically as the coefficients of the [rising factorial](falling%20and%20rising%20factorials.md): $$x^{\overline {n} }=x(x+1)\cdots (x+n-1)=\sum _{k=0}^{n}\left[{n \atop k}\right]x^{k}$$}@}. <!--SR:!2025-12-08,316,330!2025-12-05,313,330-->
 
-{@{The notations used on this page for Stirling numbers}@} are {@{not universal, and may conflict with notations in other sources}@}; {@{the square bracket notation $\left[{n \atop k}\right]$}@} is {@{also common notation for the [Gaussian coefficients](Gaussian%20binomial%20coefficient.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-07,315,330!2025-11-04,288,330!2029-04-30,1279,350!2028-01-18,887,330-->
+{@{The notations used on this page for Stirling numbers}@} are {@{not universal, and may conflict with notations in other sources}@}; {@{the square bracket notation $\left[{n \atop k}\right]$}@} is {@{also common notation for the [Gaussian coefficients](Gaussian%20binomial%20coefficient.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-07,315,330!2029-06-12,1316,350!2029-04-30,1279,350!2028-01-18,887,330-->
 
 ### definition by permutation
 
@@ -51,7 +51,7 @@ It follows immediately that {@{the signed Stirling numbers of the first kind}@} 
 
 > __Algebraic proof__
 >
-> We prove the recurrence relation using {@{the definition of Stirling numbers in terms of rising factorials}@}. {@{Distributing the last term of the product}@}, we have {@{$$x^{\overline {n+1} }=x(x+1)\cdots (x+n-1)(x+n)=n\cdot x^{\overline {n} }+x\cdot x^{\overline {n} }.$$}@} {@{The coefficient of $x^{k}$ on the left-hand side of this equation}@} is {@{$\left[{n+1 \atop k}\right]$}@}. {@{The coefficient of $x^{k}$ in $n\cdot x^{\overline {n} }$}@} is {@{$n\cdot \left[{n \atop k}\right]$}@}, while {@{the coefficient of $x^{k}$ in $x\cdot x^{\overline {n} }$}@} is {@{$\left[{n \atop k-1}\right]$}@}. Since {@{the two sides are equal as polynomials}@}, {@{the coefficients of $x^{k}$ on both sides must be equal, and the result follows}@}. <!--SR:!2025-11-30,308,330!2025-12-01,310,330!2027-11-24,856,330!2029-05-05,1285,350!2025-11-29,308,330!2025-11-04,288,330!2029-04-28,1280,350!2026-12-04,564,310!2025-11-07,291,330!2025-11-09,293,330!2029-04-24,1274,350-->
+> We prove the recurrence relation using {@{the definition of Stirling numbers in terms of rising factorials}@}. {@{Distributing the last term of the product}@}, we have {@{$$x^{\overline {n+1} }=x(x+1)\cdots (x+n-1)(x+n)=n\cdot x^{\overline {n} }+x\cdot x^{\overline {n} }.$$}@} {@{The coefficient of $x^{k}$ on the left-hand side of this equation}@} is {@{$\left[{n+1 \atop k}\right]$}@}. {@{The coefficient of $x^{k}$ in $n\cdot x^{\overline {n} }$}@} is {@{$n\cdot \left[{n \atop k}\right]$}@}, while {@{the coefficient of $x^{k}$ in $x\cdot x^{\overline {n} }$}@} is {@{$\left[{n \atop k-1}\right]$}@}. Since {@{the two sides are equal as polynomials}@}, {@{the coefficients of $x^{k}$ on both sides must be equal, and the result follows}@}. <!--SR:!2025-11-30,308,330!2025-12-01,310,330!2027-11-24,856,330!2029-05-05,1285,350!2025-11-29,308,330!2029-06-13,1317,350!2029-04-28,1280,350!2026-12-04,564,310!2025-11-07,291,330!2025-11-09,293,330!2029-04-24,1274,350-->
 
 <!-- markdownlint MD028 -->
 

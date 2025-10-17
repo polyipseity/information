@@ -30,7 +30,7 @@ You can use these methods to {@{create ndarrays or [structured arrays](structure
 NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@}. {@{Lists and tuples}@} are defined {@{using `[...]` and `(...)`, respectively}@}. Lists and tuples can define ndarray creation: <!--SR:!2029-03-24,1249,350!2029-03-08,1236,350!2026-01-18,348,350-->
 
 - a list of numbers will create ::@:: a 1D array, <!--SR:!2028-11-07,1142,350!2026-01-05,337,350-->
-- a list of lists will create ::@:: a 2D array, <!--SR:!2025-11-04,283,330!2029-03-09,1235,350-->
+- a list of lists will create ::@:: a 2D array, <!--SR:!2029-05-18,1291,350!2029-03-09,1235,350-->
 - further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy. <!--SR:!2028-05-06,920,330!2026-01-21,350,350-->
 
 ```Python
@@ -288,7 +288,7 @@ Examples of {@{formats that cannot be read directly but for which it is not hard
 
 ### common ASCII formats
 
-{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2025-11-04,283,330!2029-04-28,1275,350!2026-01-03,335,350!2026-01-23,352,350!2028-06-27,1033,350!2029-03-17,1243,350!2029-02-22,1224,350-->
+{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2029-05-17,1290,350!2029-04-28,1275,350!2026-01-03,335,350!2026-01-23,352,350!2028-06-27,1033,350!2029-03-17,1243,350!2029-02-22,1224,350-->
 
 ```shell
 $ cat simple.csv

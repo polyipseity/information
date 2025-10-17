@@ -50,7 +50,7 @@ That is, functors must {@{preserve [identity morphisms](morphism.md#definition) 
 
 There are {@{many constructions in mathematics that would be functors}@} but {@{for the fact that they "turn morphisms around" and "reverse composition"}@}. We then define {@{a __contravariant functor__ _F_ from _C_ to _D_}@} as a mapping that <!--SR:!2026-02-17,316,346!2025-11-17,224,326!2026-03-25,348,357-->
 
-- (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_, <!--SR:!2026-02-12,311,346!2025-11-04,227,326-->
+- (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_, <!--SR:!2026-02-12,311,346!2028-08-14,1014,346-->
 - (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2026-04-13,364,357!2026-03-22,346,357-->
   - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2026-03-14,340,357!2026-02-18,317,346-->
   - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_. <!--SR:!2026-04-06,357,357!2026-01-22,294,330-->

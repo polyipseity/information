@@ -53,7 +53,7 @@ The FASB [Accounting Standards Codification](Accounting%20Standards%20Codificati
 
 ## IAS 36 framework
 
-Impairment is {@{currently governed by [IAS 36](list%20of%20International%20Financial%20Reporting%20Standards.md)}@}. The impairment cost is calculated using either the Incurred Loss Model or the Expected Loss Model. <!--SR:!2025-11-04,211,270-->
+Impairment is {@{currently governed by [IAS 36](list%20of%20International%20Financial%20Reporting%20Standards.md)}@}. The impairment cost is calculated using either the Incurred Loss Model or the Expected Loss Model. <!--SR:!2028-01-08,795,290-->
 
 ### Incurred Loss Model
 
