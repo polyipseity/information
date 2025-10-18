@@ -46,7 +46,7 @@ By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banac
 
 ## role of the axiom of choice
 
-{@{The construction of Vitali sets given above}@} uses {@{the [axiom of choice](axiom%20of%20choice.md)}@}. The question arises: {@{is the axiom of choice needed to prove the existence of sets that are not Lebesgue measurable}@}? {@{The answer is yes}@}, provided that {@{[inaccessible cardinals](inaccessible%20cardinal.md) are consistent with the most common axiomatization of set theory, so-called [ZFC](Zermelo–Fraenkel%20set%20theory.md)}@}.
+{@{The construction of Vitali sets given above}@} uses {@{the [axiom of choice](axiom%20of%20choice.md)}@}. The question arises: {@{is the axiom of choice needed to prove the existence of sets that are not Lebesgue measurable}@}? {@{The answer is yes}@}, provided that {@{[inaccessible cardinals](inaccessible%20cardinal.md) are consistent}@} with {@{the most common axiomatization of set theory, so-called [ZFC](Zermelo–Fraenkel%20set%20theory.md)}@}.
 
 In {@{1964, [Robert Solovay](Robert%20M.%20Solovay.md)}@} constructed {@{a model of Zermelo–Fraenkel set theory without the axiom of choice where all sets of real numbers are Lebesgue measurable}@}. This is {@{known as the [Solovay model](Solovay%20model.md)}@}.<sup>[\[3\]](#^ref-3)</sup> In his proof, Solovay assumed that {@{the existence of inaccessible cardinals is [consistent](consistency.md) with the other axioms of Zermelo-Fraenkel set theory, i.e. that it creates no contradictions}@}. This assumption is {@{widely believed to be true by set theorists}@}, but {@{it cannot be proven in ZFC alone}@}.<sup>[\[4\]](#^ref-4)</sup>
 

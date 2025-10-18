@@ -70,7 +70,7 @@ An individual will {@{typically be able to [partially order](partially%20ordered
 
 > A pioneer farmer had five sacks of grain, with no way of selling them or buying more. He had five possible uses: as basic feed for himself, food to build strength, food for his chickens for dietary variation, an ingredient for making whisky and feed for his parrots to amuse him. Then the farmer lost one sack of grain. Instead of {@{reducing every activity by a fifth}@}, the farmer {@{simply starved the parrots as they were of less utility than the other four uses}@}; in other words {@{they were on the margin}@}. And {@{it is on the margin, and not with a view to the big picture, that we make economic decisions}@}.<sup>[\[7\]](#^ref-7)</sup>
 
-However, if {@{there _is_ a complementarity across uses}@}, then {@{an amount added can bring things past a desired tipping point}@}, or {@{an amount subtracted cause them to fall short}@}. In such cases, {@{the marginal utility of a good or service might actually be _increasing_}@}.
+However, if {@{there _is_ a complementarity across uses}@}, then {@{an amount added can bring things past a desired tipping point}@}, or {@{an amount subtracted cause them to fall short}@}. In such cases, {@{the marginal utility of a good or service}@} might {@{actually be _increasing_}@}.
 
 Without {@{the presumption that utility is quantified}@}, the _diminishing_ of utility should not {@{be taken to be itself an [arithmetic](elementary%20arithmetic.md) [subtraction](subtraction.md)}@}. It is {@{the movement from use of higher to lower priority}@}, and {@{may be no more than a purely [ordinal](ranking.md) change}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[8\]](#^ref-8)</sup>
 

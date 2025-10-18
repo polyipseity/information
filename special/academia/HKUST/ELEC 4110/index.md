@@ -384,7 +384,7 @@ The content is in teaching order.
 - random variable
   - random variable / description ::@:: A real‑valued random variable $X$ is described by its cumulative distribution function (CDF) $F_X(x)=P(X \le x)$ and, if it possesses a density, by the probability density function (PDF) $f_X(x)=dF_X(x)/dx$.
 - joint probability distribution
-  - joint probability distribution / independence ::@:: For two variables $X,Y$, the joint CDF $F_{XY}(x,y)=P(X<x,\;Y<y)$ factorizes into the product of marginals iff $X$ and $Y$ are independent. For multiple variables, they must be _mutually_ independent, and vice versa. <p> Independence can also be checked via the joint PDF: $f_{XY}(x,y)=f_X(x)f_Y(y)$.
+  - joint probability distribution / independence ::@:: For two variables $X,Y$, the joint CDF $F_{XY}(x,y)=P(X \le x,\;Y \le y)$ factorizes into the product of marginals iff $X$ and $Y$ are independent. For multiple variables, they must be _mutually_ independent, and vice versa. <p> Independence can also be checked via the joint PDF: $f_{XY}(x,y)=f_X(x)f_Y(y)$.
 - random variable
   - random variable / expectation ::@:: The expectation of a single variable follow from its PDF: $$\mathbb{E}\{X\}=\int x\,f_X(x)\,dx \,.$$
   - random variable / variance ::@:: The variance of a single variable follow from its PDF: $$\operatorname{Var}\{X\}=\int (x-\mu)^2 f_X(x)\,dx \,.$$

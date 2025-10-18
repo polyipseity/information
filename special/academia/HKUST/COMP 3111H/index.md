@@ -660,7 +660,7 @@ The content is in teaching order.
   - code review / format ::@:: The review process can be formal (in‑person meeting) or informal (email/instant chat). Best to prepare by distributing the artifacts in advance. Often discovery happens during preparation instead of meeting.
   - code review / goals ::@:: verifying specifications, inspecting coherent modules, ensuring incremental code quality, etc.
   - code review / focuses ::@:: coding standards \(automated tools can be better\), common problem types, error-prone code, security
-  - code review / techniques ::@:: Walkthroughs where the author presents the artifact; defect discovery only or fix brainstorming; targeted checks for known defect patterns; use of checklists (e.g., "Are all public methods documented?").
+  - code review / techniques ::@:: - walkthroughs where the author presents the artifact <br/> - defect discovery only or fix brainstorming <br/> - targeted checks for known defect patterns <br/> - use of checklists (e.g., "Are all public methods documented?").
   - code review / vs. testing ::@:: Reviews or inspections can be considered as part of testing, as they both detect faults to improve quality.
 - [code refactoring](../../../../general/code%20refactoring.md) ::@:: In computer programming and software design, it is the process of restructuring existing source code—changing the _factoring_—without changing its external behavior.
   - code refactoring / uses ::@:: Refactoring is intended to improve the design, structure, and/or implementation of the software (its non-functional attributes), while preserving its functionality.
