@@ -45,7 +45,7 @@ Falling and rising factorials of integers are {@{directly related to the ordinar
 
 {@{Rising factorials of half integers}@} are {@{directly related to the [double factorial](double%20factorial.md)}@}: {@{$${\begin{aligned}\left[{\frac {1}{2} }\right]^{(n)}={\frac {(2n-1)!!}{2^{n} } },\quad \left[{\frac {2m+1}{2} }\right]^{(n)}={\frac {(2(n+m)-1)!!}{2^{n}(2m-1)!!} }.\end{aligned} }$$}@} <!--SR:!2027-08-07,764,330!2025-12-13,264,270!2026-05-14,345,250-->
 
-The falling and rising factorials can be used to {@{express a [binomial coefficient](binomial%20coefficient.md)}@}: {@{$${\begin{aligned}{\frac {(x)_{n} }{n!} }&={\binom {x}{n} },\\[6pt]{\frac {x^{(n)} }{n!} } & = \binom {x+n-1} n = \left(\!\! \binom x n \!\!\right).\end{aligned} }$$}@} (annotation: The above is obvious, but the below is also {@{a multiset coefficient}@}.) Thus {@{many identities on binomial coefficients carry over to the falling and rising factorials}@}. <!--SR:!2029-06-18,1322,350!2027-11-12,850,330!2025-11-05,290,330!2027-08-23,785,330-->
+The falling and rising factorials can be used to {@{express a [binomial coefficient](binomial%20coefficient.md)}@}: {@{$${\begin{aligned}{\frac {(x)_{n} }{n!} }&={\binom {x}{n} },\\[6pt]{\frac {x^{(n)} }{n!} } & = \binom {x+n-1} n = \left(\!\! \binom x n \!\!\right).\end{aligned} }$$}@} (annotation: The above is obvious, but the below is also {@{a multiset coefficient}@}.) Thus {@{many identities on binomial coefficients carry over to the falling and rising factorials}@}. <!--SR:!2029-06-18,1322,350!2027-11-12,850,330!2029-06-20,1323,350!2027-08-23,785,330-->
 
 The rising and falling factorials are {@{well defined in any [unital](ring%20(mathematics).md) [ring](ring%20(mathematics).md)}@}, and therefore $x$ can be {@{taken to be, for example, a [complex number](complex%20number.md), including negative integers, or a [polynomial](polynomial.md) with complex coefficients, or any [complex-valued function](complex%20analysis.md)}@}. <!--SR:!2029-02-28,1236,350!2027-10-27,837,330-->
 
@@ -73,7 +73,7 @@ There is also a connection formula for {@{the ratio of two rising factorials}@} 
 
 Additionally, we can {@{expand generalized exponent laws and negative rising and falling powers}@} through the following identities:<sup>[\[11\]](#^ref-11)</sup><sup>[\[52\]](#^ref-52)</sup> <!--SR:!2029-01-16,1201,350-->
 
-- generalized exponent law for falling factorial ::@:: $$(x)_{m+n}=(x)_{m}(x-m)_{n}=(x)_{n}(x-n)_{m}$$ <!--SR:!2025-11-05,290,330!2029-03-19,1250,350-->
+- generalized exponent law for falling factorial ::@:: $$(x)_{m+n}=(x)_{m}(x-m)_{n}=(x)_{n}(x-n)_{m}$$ <!--SR:!2029-06-21,1324,350!2029-03-19,1250,350-->
 - generalized exponent law for rising factorial ::@:: $$x^{(m+n)}=x^{(m)}(x+m)^{(n)}=x^{(n)}(x+n)^{(m)}$$ <!--SR:!2028-11-21,1158,350!2028-11-29,1165,350-->
 - negative rising factorial ::@:: $$x^{(-n)}={\frac {\Gamma (x-n)}{\Gamma (x)} }={\frac {(x-n-1)!}{(x-1)!} }={\frac {1}{(x-n)^{(n)} } }={\frac {1}{(x-1)_{n} } }={\frac {1}{(x-1)(x-2)\cdots (x-n)} }$$ <!--SR:!2028-04-27,905,290!2026-11-15,550,310-->
 - negative falling factorial ::@:: $$(x)_{-n}={\frac {\Gamma (x+1)}{\Gamma (x+n+1)} }={\frac {x!}{(x+n)!} }={\frac {1}{(x+n)_{n} } }={\frac {1}{(x+1)^{(n)} } }={\frac {1}{(x+1)(x+2)\cdots (x+n)} }$$ <!--SR:!2026-06-14,396,290!2025-11-07,242,270-->

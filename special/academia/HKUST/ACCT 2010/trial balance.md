@@ -41,4 +41,4 @@ tags:
   - (root) / adjusted ::@:: Write the account balance in either debit or credit. If the balance is zero (for accounts which had a balance before adjustment), write a "-" on the side of the account's normal balance (normally debit or normally credit?). <p> Remember to calculate and check the total debit and credit. <!--SR:!2026-10-08,489,310!2027-04-09,646,330-->
 - variations ::@:: unadjusted trial balance: Only show unadjusted. <p> adjusted trial balance: Only show adjusted. <p> post-closing trial balance: Shows the balance after closing the books. <!--SR:!2027-06-15,629,310!2026-11-01,496,310-->
 - retained earnings ::@:: Retained earnings should not be adjusted, since this is part of closing the books, but trial balances, including adjusted, are usually prepared before closing the books (exception: post-closing trial balance). <!--SR:!2027-09-23,764,330!2025-12-25,294,330-->
-- validation ::@:: Total debit always equal total credits for all sections. <!--SR:!2028-12-06,1133,350!2025-11-05,255,330-->
+- validation ::@:: Total debit always equal total credits for all sections. <!--SR:!2028-12-06,1133,350!2029-01-10,1162,350-->

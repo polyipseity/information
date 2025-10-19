@@ -21,13 +21,13 @@ In the study of economics, {@{the term _[marginal](marginalism.md)_}@} refers to
 
 ## utility
 
-{@{[Utility](utility.md)}@} is {@{an economic concept that refers to the level of satisfaction or benefit that individuals derive from consuming a particular good or service}@}, which is {@{quantified using units known as __utils__ (derived from the Spanish word for _useful_)}@}. However, {@{determining the exact level of utility that a consumer experiences}@} can be {@{a challenging and abstract task}@}. To overcome this challenge, economists rely on {@{the consent of __revealed preferences__}@}, where {@{they observe the choices made by consumers and use this information to rank consumption options from the least preferred to the most desirable}@}. <!--SR:!2025-11-19,288,330!2025-11-05,276,330!2025-11-13,283,330!2025-11-18,287,330!2027-12-10,844,330!2029-03-17,1235,350!2025-11-13,283,330-->
+{@{[Utility](utility.md)}@} is {@{an economic concept that refers to the level of satisfaction or benefit that individuals derive from consuming a particular good or service}@}, which is {@{quantified using units known as __utils__ (derived from the Spanish word for _useful_)}@}. However, {@{determining the exact level of utility that a consumer experiences}@} can be {@{a challenging and abstract task}@}. To overcome this challenge, economists rely on {@{the consent of __revealed preferences__}@}, where {@{they observe the choices made by consumers and use this information to rank consumption options from the least preferred to the most desirable}@}. <!--SR:!2025-11-19,288,330!2029-04-19,1261,350!2025-11-13,283,330!2025-11-18,287,330!2027-12-10,844,330!2029-03-17,1235,350!2025-11-13,283,330-->
 
 Initially, {@{the term utility}@} {@{equated usefulness with the production of pleasure and avoidance of pain}@} by {@{moral philosophers, Jeremy Bentham and John Stuart Mill}@}.<sup>[\[5\]](#^ref-5)</sup> In line with this philosophy, the concept of utility was {@{defined as "the feelings of pleasure and pain"<sup>[\[6\]](#^ref-6)</sup> and further as a "_quantity_ of feeling"}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-11-14,284,330!2026-01-21,313,290!2027-06-29,717,330!2026-02-04,352,350-->
 
 {@{Contemporary mainstream economic theory}@} frequently {@{defers metaphysical questions}@}, and merely notes or assumes that {@{preference structures conforming to certain rules can be usefully _proxied_ by associating goods, services, or their uses with quantities}@}, and {@{_defines_ "utility" as such a quantification}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-11-11,281,330!2028-02-06,889,330!2025-11-24,292,330!2026-10-28,505,405-->
 
-In {@{any standard framework}@}, the same object may {@{have different marginal utilities for different people, reflecting different preferences or individual circumstances}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-03-19,1238,350!2025-11-05,276,330-->
+In {@{any standard framework}@}, the same object may {@{have different marginal utilities for different people, reflecting different preferences or individual circumstances}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-03-19,1238,350!2028-05-07,914,330-->
 
 ## law of diminishing marginal utility
 
@@ -87,7 +87,7 @@ Under {@{the [special case](special%20case.md) in which usefulness can be quanti
 
 ## history
 
-Economists sought to {@{explain how prices are determined}@}, and in this pursuit, they {@{developed the concept of marginal utility}@}. The term "marginal utility", credited to {@{the [Austrian](Austrian%20school%20of%20economics.md) economist [Friedrich von Wieser](Friedrich%20von%20Wieser.md) by [Alfred Marshall](Alfred%20Marshall.md)}@},<sup>[\[24\]](#^ref-24)</sup> was {@{a translation of Wieser's term _Grenznutzen_ ("border-use")}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2029-03-22,1238,350!2025-11-05,276,330!2026-07-31,459,310!2029-04-11,1255,350-->
+Economists sought to {@{explain how prices are determined}@}, and in this pursuit, they {@{developed the concept of marginal utility}@}. The term "marginal utility", credited to {@{the [Austrian](Austrian%20school%20of%20economics.md) economist [Friedrich von Wieser](Friedrich%20von%20Wieser.md) by [Alfred Marshall](Alfred%20Marshall.md)}@},<sup>[\[24\]](#^ref-24)</sup> was {@{a translation of Wieser's term _Grenznutzen_ ("border-use")}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2029-03-22,1238,350!2029-04-18,1260,350!2026-07-31,459,310!2029-04-11,1255,350-->
 
 ### proto-marginalist approaches
 

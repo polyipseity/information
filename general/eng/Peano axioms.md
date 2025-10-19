@@ -25,7 +25,7 @@ The Peano axioms {@{define the arithmetical properties of _[natural numbers](nat
 
 The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!2029-06-02,1342,350-->
 
-1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2025-11-05,327,345!2025-12-19,363,345-->
+1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2030-02-11,1559,365!2025-12-19,363,345-->
 
 {@{Peano's original formulation}@} of the axioms {@{used 1 instead of 0 as the "first" natural number}@}, while the axioms in {@{_[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2029-11-22,1495,365!2025-11-14,23,376!2025-11-15,24,376-->
 

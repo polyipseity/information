@@ -33,7 +33,7 @@ In {@{the [mathematical](mathematics.md) theory of [directed graphs](directed%20
 >
 > {@{The yellow [directed acyclic graph](directed%20acyclic%20graph.md) is the condensation of the blue directed graph}@}. It is formed by {@{contracting each strongly connected component of the blue graph into a single yellow vertex}@}. <!--SR:!2026-08-09,414,297!2027-10-31,813,337!2025-11-09,261,337-->
 
-If {@{each strongly connected component is [contracted](edge%20contraction.md#vertex%20identification) to a single vertex}@}, {@{the resulting graph is a [directed acyclic graph](directed%20acyclic%20graph.md), the __condensation__ of _G_<!-- markdown separator -->}@}. A directed graph is {@{acyclic [if and only if](if%20and%20only%20if.md) it has no strongly connected subgraphs with more than one vertex}@}, because {@{a [directed cycle](cycle%20(graph%20theory).md) is strongly connected}@} and {@{every non-trivial strongly connected component contains at least one directed cycle}@}. <!--SR:!2027-10-02,790,337!2026-01-05,307,337!2028-03-01,906,337!2025-11-05,257,337!2027-09-21,780,337-->
+If {@{each strongly connected component is [contracted](edge%20contraction.md#vertex%20identification) to a single vertex}@}, {@{the resulting graph is a [directed acyclic graph](directed%20acyclic%20graph.md), the __condensation__ of _G_<!-- markdown separator -->}@}. A directed graph is {@{acyclic [if and only if](if%20and%20only%20if.md) it has no strongly connected subgraphs with more than one vertex}@}, because {@{a [directed cycle](cycle%20(graph%20theory).md) is strongly connected}@} and {@{every non-trivial strongly connected component contains at least one directed cycle}@}. <!--SR:!2027-10-02,790,337!2026-01-05,307,337!2028-03-01,906,337!2029-02-07,1190,357!2027-09-21,780,337-->
 
 ## algorithms
 
@@ -67,7 +67,7 @@ Strongly connected components are also used to {@{compute the [Dulmage–Mendels
 
 ## related results
 
-{@{A directed graph is strongly connected}@} {@{if and only if it has an [ear decomposition](ear%20decomposition.md)}@}, {@{a partition of the edges into a sequence of directed paths and cycles}@} such {@{that the first subgraph in the sequence is a cycle}@}, and {@{each subsequent subgraph is either a cycle sharing one vertex with previous subgraphs, or a path sharing its two endpoints with previous subgraphs}@}. <!--SR:!2025-11-05,257,337!2025-11-13,264,337!2025-11-15,266,337!2026-09-11,484,317!2026-01-02,254,277-->
+{@{A directed graph is strongly connected}@} {@{if and only if it has an [ear decomposition](ear%20decomposition.md)}@}, {@{a partition of the edges into a sequence of directed paths and cycles}@} such {@{that the first subgraph in the sequence is a cycle}@}, and {@{each subsequent subgraph is either a cycle sharing one vertex with previous subgraphs, or a path sharing its two endpoints with previous subgraphs}@}. <!--SR:!2029-02-11,1194,357!2025-11-13,264,337!2025-11-15,266,337!2026-09-11,484,317!2026-01-02,254,277-->
 
 According to {@{[Robbins' theorem](Robbins'%20theorem.md)}@}, {@{an undirected graph}@} may be {@{[oriented](orientation%20(graph%20theory).md) in such a way that it becomes strongly connected}@}, {@{if and only if it is [2-edge-connected](k-edge-connected%20graph.md)}@}. {@{One way to prove this result}@} is to {@{find an ear decomposition of the underlying undirected graph and then orient each ear consistently}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2027-10-05,793,337!2025-12-29,301,337!2028-01-26,867,337!2027-07-31,739,337!2028-02-06,876,337!2026-05-18,381,297-->
 

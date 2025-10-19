@@ -28,7 +28,7 @@ A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, wh
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
 - {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}. <!--SR:!2025-12-06,281,332!2027-11-01,798,332!2025-12-26,296,332!2027-07-29,734,332!2029-01-15,1168,352!2025-11-08,259,332!2025-12-11,127,400!2025-12-05,122,400!2025-12-11,127,400!2025-12-05,122,400!2025-12-17,132,400!2025-12-19,134,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-18,133,400!2025-12-17,132,400-->
 
-{@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}. <!--SR:!2025-11-05,256,332!2025-11-09,260,332-->
+{@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}. <!--SR:!2029-01-19,1171,352!2025-11-09,260,332-->
 
 ### optimization objective
 
@@ -74,7 +74,7 @@ The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2027-02-12,545,272!2026-02-03,301,292-->
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2026-06-08,362,270!2026-09-04,462,312-->
 
-{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-02-14,339,349!2027-11-10,762,329!2026-01-26,325,349!2026-01-04,305,349!2025-11-05,26,385!2026-03-16,132,405-->
+{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-02-14,339,349!2027-11-10,762,329!2026-01-26,325,349!2026-01-04,305,349!2026-03-25,140,405!2026-03-16,132,405-->
 
 ### notable variants
 
@@ -118,7 +118,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 
 {@{Constrained Markov decision processes \(CMDPS\)}@} are {@{extensions to Markov decision process \(MDPs\)}@}. There are {@{three fundamental differences}@} between MDPs and CMDPs.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-02-01,329,349!2026-01-22,321,349!2028-04-20,952,349-->
 
-- There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2025-11-05,256,332!2027-10-29,796,332-->
+- There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2029-01-18,1170,352!2027-10-29,796,332-->
 - CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2028-01-09,862,332!2025-12-29,299,332-->
 - The final policy ::@:: depends on the starting state. <!--SR:!2025-11-07,258,332!2025-11-06,257,332-->
 

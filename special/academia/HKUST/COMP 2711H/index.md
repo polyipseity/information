@@ -310,7 +310,7 @@ The content is in teaching order.
 - topic: graphs, trees, paths, walks
 - [graph theory](../../../../general/graph%20theory.md)
   - graph theory / graph ::@:: A __graph__ is denoted $G = (V, E)$, where $V$ is a finite set of __vertices__ and _E_ is a finite set of __edges__. <!--SR:!2026-08-27,548,397!2026-05-08,458,397-->
-  - graph theory / edge ::@:: An __edge__ in a graph $G = (V, E)$ is a two-element set $\set{u, v} \subseteq V$, which represents a connection between the vertex _u_ and _v_. <!--SR:!2026-05-28,475,397!2025-11-05,304,377-->
+  - graph theory / edge ::@:: An __edge__ in a graph $G = (V, E)$ is a two-element set $\set{u, v} \subseteq V$, which represents a connection between the vertex _u_ and _v_. <!--SR:!2026-05-28,475,397!2030-02-21,1569,397-->
   - graph theory / loop ::@:: A __loop__ is an edge connecting a vertex to itself, i.e. $\set{u, u}$. But in this course, we do not consider graphs with this case. Graphs without this case (and without _multiple edges_) are called __simple__. <!--SR:!2026-07-18,514,397!2026-05-17,465,397-->
   - graph theory / neighbor ::@:: If an edge connects two vertices, the two vertices are said to be __neighbors__ of each other. <!--SR:!2026-05-08,457,397!2026-03-28,396,377-->
   - graph theory / complement of a graph ::@:: The __complement of a graph__ $G = (V, E)$ is denoted $\overline G = (V, \overline E)$, where $\set{u, v} \in \overline E \equiv \set{u, v} \notin E$. That is, the graph has the same vertices, but for all possible edges between the vertices in the graph, if the edge is present in $G$ then it is not in $\overline G$, and vice versa. <!--SR:!2026-08-10,534,397!2026-05-15,463,397-->

@@ -10,7 +10,7 @@ tags:
 
 - HKUST TEMG 1010
 - datetime: 2024-11-15T18:00:00+08:00/2024-11-17T18:00:00+08:00, PT2D
-- topic ::@:: leadership <!--SR:!2025-11-05,270,330!2025-12-04,294,330-->
+- topic ::@:: leadership <!--SR:!2029-03-22,1233,350!2025-12-04,294,330-->
 - venue: Sai Wan Beach, Sai Kung (22.397184500616234, 114.3714295354873)
 
 So many tiring and wet activities... While some of them were fun, I would have more fun doing my own things. But whatever, it did kind of teach conversational skills and leadership.

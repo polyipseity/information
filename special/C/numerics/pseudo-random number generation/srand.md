@@ -9,7 +9,7 @@ tags:
 
 # `srand`
 
-- _defined in {@{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}@}_ <!--SR:!2025-11-05,554,310-->
+- _defined in {@{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}@}_ <!--SR:!2032-05-07,2375,330-->
 
 ```C
 void srand(unsigned seed);

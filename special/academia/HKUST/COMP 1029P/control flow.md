@@ -20,7 +20,7 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-10-09,736,330!2025-11-05,26,389!2025-11-05,26,389-->
+The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-10-09,736,330!2026-03-26,141,409!2026-03-25,140,409-->
 
 An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2026-09-05,710,330-->
 
@@ -33,7 +33,7 @@ else:
 
 The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-09-16,720,330!2026-03-20,136,409!2026-03-20,136,409-->
 
-In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2028-07-01,1256,350!2025-11-05,26,389-->
+In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2028-07-01,1256,350!2026-03-25,140,409-->
 
 ```Python
 if condition1:
@@ -53,7 +53,7 @@ if condition:
   pass # required, otherwise error
 ```
 
-Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2027-05-07,892,330!2025-11-05,26,387!2026-03-12,129,407!2026-03-19,135,407-->
+Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2027-05-07,892,330!2026-03-26,141,407!2026-03-12,129,407!2026-03-19,135,407-->
 
 ## iteration
 
@@ -75,7 +75,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330!2025-11-05,26,389!2025-11-05,26,389!2026-03-14,131,409!2025-11-05,26,389-->
+The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330!2026-03-26,141,409!2026-03-25,140,409!2026-03-14,131,409!2026-03-26,141,409-->
 
 If {@{there are no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2025-12-04,323,365-->
 

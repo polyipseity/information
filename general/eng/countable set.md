@@ -94,7 +94,7 @@ Sometimes {@{more than one mapping is useful}@}: a set $A$ to be shown as counta
 
 With {@{the foresight of knowing that there are uncountable sets}@}, we can wonder {@{whether or not this last result can be pushed any further}@}. The answer is {@{"yes" and "no", we can extend it, but we need to assume a new axiom to do so}@}. <!--SR:!2026-02-11,281,290!2025-11-08,246,330!2025-11-28,262,330-->
 
-> Theorem — \(Assuming {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}\) The {@{union of countably many countable sets}@} is countable.<sup>[\[f\]](#^ref-f)</sup> <!--SR:!2026-01-06,293,330!2025-11-05,244,330-->
+> Theorem — \(Assuming {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}\) The {@{union of countably many countable sets}@} is countable.<sup>[\[f\]](#^ref-f)</sup> <!--SR:!2026-01-06,293,330!2028-11-26,1117,350-->
 
 <!-- markdownlint MD028 -->
 

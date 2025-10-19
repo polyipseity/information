@@ -21,7 +21,7 @@ The most common method is [cryogenic distillation](#cryogenic%20distillation).
 
 - see: [fractional distillation](fractional%20distillation.md).
 
-Pure gases are separated by {@{cooling air until it [liquefies](liquefaction.md). Then [distill](distillation.md) the components at their boiling points.}@} <!--SR:!2025-11-05,300,190-->
+Pure gases are separated by {@{cooling air until it [liquefies](liquefaction.md). Then [distill](distillation.md) the components at their boiling points.}@} <!--SR:!2026-04-06,152,170-->
 
 ```Python
 # pytextgen generate data
@@ -54,7 +54,7 @@ return await memorize_seq(
 - _(begin)_→::@::←Filter air to remove [dust](dust.md). <!--SR:!2026-06-02,834,330!2028-03-10,1410,350-->
 - Filter air to remove [dust](dust.md).→::@::←Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K. <!--SR:!2026-10-12,825,270!2026-11-16,956,330-->
 - Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.→::@::←Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md). <!--SR:!2026-02-25,474,230!2026-04-24,369,170-->
-- Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→::@::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2025-11-05,491,230!2030-08-08,1742,270-->
+- Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→::@::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2028-12-14,1135,230!2030-08-08,1742,270-->
 - Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K.→::@::←Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top. <!--SR:!2027-06-13,733,230!2026-05-24,514,230-->
 - Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top.→::@::←Products are warmed against incoming air to ambient temperatures. <!--SR:!2026-02-05,666,270!2027-05-11,849,230-->
 - Products are warmed against incoming air to ambient temperatures.→::@::←_(end)_ <!--SR:!2028-03-04,1405,350!2028-05-28,1240,290-->

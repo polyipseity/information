@@ -74,7 +74,7 @@ For the generalisations, _n_ and _m_ can be {@{any value > 0, and they may be th
 
 Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2025-11-18,311,341!2029-05-23,1309,350!2026-01-16,312,301!2027-10-25,794,301-->
 
-While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2025-11-05,301,341!2026-12-07,603,341!2026-12-23,615,341-->
+While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2029-09-17,1412,361!2026-12-07,603,341!2026-12-23,615,341-->
 
 Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2026-01-06,350,341!2026-12-31,622,341-->
 
@@ -104,7 +104,7 @@ An equivalent procedure, which is often easier to perform mentally, is to {@{exp
 2 =                 2          What is left after canceling 1s and 4s
 ```
 
-In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2029-05-20,1306,350!2027-01-09,631,341!2027-01-02,624,341!2025-11-05,301,341!2025-11-15,308,341!2025-12-10,327,341!2028-05-16,947,301-->
+In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2029-05-20,1306,350!2027-01-09,631,341!2027-01-02,624,341!2029-09-19,1414,361!2025-11-15,308,341!2025-12-10,327,341!2028-05-16,947,301-->
 
 - _A_ ⊕ _X_ = 3 ⊕ 2 = 1 [Since (011) ⊕ (010) = 001]
 - _B_ ⊕ _X_ = 4 ⊕ 2 = 6
@@ -133,7 +133,7 @@ In a misère game with heaps of sizes three, four and five, the strategy would b
 
 ## proof of the winning formula
 
-The soundness of the optimal strategy described above was demonstrated by {@{C. Bouton}@}. <!--SR:!2025-11-05,301,341-->
+The soundness of the optimal strategy described above was demonstrated by {@{C. Bouton}@}. <!--SR:!2029-09-18,1413,361-->
 
 __Theorem__. ::@:: In a normal nim game, the player making the first move has a winning strategy if and only if the nim-sum of the sizes of the heaps is not zero. Otherwise, the second player has a winning strategy. <!--SR:!2029-08-15,1385,361!2025-11-18,311,341-->
 

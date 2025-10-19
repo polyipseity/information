@@ -258,7 +258,7 @@ The content is in teaching order.
 - datetime: 2025-02-05T08:30:00-05:00/2025-02-05T09:50:00-05:00, PT1H20M
   - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00, PT1H20M
 - [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2026-10-28,499,398!2026-11-27,529,398-->
-  - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2026-03-08,312,378!2025-11-05,208,358-->
+  - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2026-03-08,312,378!2028-08-21,1020,378-->
 - [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them ; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection <!--SR:!2026-09-26,478,398!2026-11-05,507,398-->
   - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-11-14,215,358!2026-11-07,509,398-->
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-11-09,211,358!2026-10-03,484,398-->

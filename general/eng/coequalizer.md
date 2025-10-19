@@ -25,7 +25,7 @@ More explicitly, {@{a coequalizer of the parallel morphisms _f_ and _g_}@} can b
 
 As with {@{all [universal constructions](universal%20construction.md)}@}, {@{a coequalizer, if it exists, is unique [up to](up%20to.md) a unique [isomorphism](isomorphism.md)}@} \(this is why, {@{by abuse of language, one sometimes speaks of "the" coequalizer of two parallel arrows}@}\). <!--SR:!2025-12-20,255,330!2025-12-12,248,330!2025-12-16,251,330-->
 
-It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimorphism.md) in any category}@}. <!--SR:!2025-12-12,248,330!2025-11-05,183,270-->
+It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimorphism.md) in any category}@}. <!--SR:!2025-12-12,248,330!2027-09-30,694,290-->
 
 ## examples
 
@@ -42,7 +42,7 @@ It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimo
 ## properties
 
 - Every coequalizer ::@:: is an epimorphism. <!--SR:!2027-10-05,752,330!2025-12-05,242,330-->
-- In a [topos](topos.md), ::@:: every [epimorphism](epimorphism.md) is the coequalizer of its kernel pair. <!--SR:!2025-12-17,179,230!2025-11-05,112,210-->
+- In a [topos](topos.md), ::@:: every [epimorphism](epimorphism.md) is the coequalizer of its kernel pair. <!--SR:!2025-12-17,179,230!2026-10-12,341,230-->
 
 ## special cases
 

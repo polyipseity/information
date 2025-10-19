@@ -30,7 +30,7 @@ tags:
 - dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted. <!--SR:!2026-07-13,432,310!2027-06-12,694,330-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity <!--SR:!2026-04-08,308,290!2027-02-08,539,270-->
   - totals / format ::@:: Indent totals at least twice. <p> Add a (over)line above totals. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals. <!--SR:!2026-05-23,353,290!2026-08-04,426,310-->
-- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-11-20,266,330!2025-11-05,255,330-->
+- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-11-20,266,330!2029-01-15,1167,350-->
 - casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-12-12,282,330!2025-12-22,291,330-->
 - (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+) <!--SR:!2027-09-24,765,330!2025-11-06,255,330-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-12-16,286,330!2025-11-11,259,330-->

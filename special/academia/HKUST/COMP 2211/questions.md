@@ -259,7 +259,7 @@ tags:
 >   return False
 > ```
 >
-> - solution: {@{C}@} <!--SR:!2025-11-05,245,330-->
+> - solution: {@{C}@} <!--SR:!2028-11-29,1120,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1429,7 +1429,7 @@ tags:
 > 2. The present captures information about the future.
 > 3. Once the present is known, history may be thrown away.
 >
-> - solution: {@{1, 3}@} <!--SR:!2025-11-05,245,330-->
+> - solution: {@{1, 3}@} <!--SR:!2028-11-27,1118,350-->
 
 <!-- markdownlint MD028 -->
 

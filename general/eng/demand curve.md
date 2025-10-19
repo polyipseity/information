@@ -61,7 +61,7 @@ The slope of the market industry demand curve is {@{greater than the slope of th
 
 ## shift of a demand curve
 
-{@{The shift of a demand curve takes place}@} when {@{there is a change in any non-price determinant of demand}@}, resulting in {@{a new demand curve}@}.<sup>[\[11\]](#^ref-11)</sup> {@{Non-price determinants of demand}@} are those things that {@{will cause demand to change even if prices remain the same}@}—in other words, the things whose changes might {@{cause a consumer to buy more or less of a good even if the good's own price remained unchanged}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2028-10-21,1114,350!2028-12-17,1159,350!2028-10-29,1120,350!2025-12-02,291,330!2025-11-05,270,330!2028-09-24,1092,350-->
+{@{The shift of a demand curve takes place}@} when {@{there is a change in any non-price determinant of demand}@}, resulting in {@{a new demand curve}@}.<sup>[\[11\]](#^ref-11)</sup> {@{Non-price determinants of demand}@} are those things that {@{will cause demand to change even if prices remain the same}@}—in other words, the things whose changes might {@{cause a consumer to buy more or less of a good even if the good's own price remained unchanged}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2028-10-21,1114,350!2028-12-17,1159,350!2028-10-29,1120,350!2025-12-02,291,330!2029-03-21,1232,350!2028-09-24,1092,350-->
 
 {@{Some of the more important factors}@} are {@{the prices of related goods \(both [substitutes](substitute%20good.md) and [complements](complementary%20good.md)\), income, population, and expectations}@}. However, demand is {@{the willingness and ability of a consumer to purchase a good _under the prevailing circumstances_}@}; so, {@{any circumstance that affects the consumer's willingness or ability to buy the good or service in question}@} can be {@{a non-price determinant of demand}@}. As an example, {@{weather could be a factor in the demand for beer at a baseball game}@}. <!--SR:!2028-12-05,1149,350!2028-07-19,1038,350!2028-11-13,1132,350!2027-11-09,778,330!2028-11-07,1127,350!2028-12-10,1154,350-->
 
@@ -108,7 +108,7 @@ The elasticity of demand usually will {@{vary depending on the price}@}. If {@{t
 
 ## taxes and subsidies
 
-{@{A sales tax on the commodity}@} does not {@{directly change the demand curve}@}, if {@{the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}. <!--SR:!2029-01-13,1178,350!2027-12-08,837,330!2025-11-05,269,330!2028-08-15,1060,350!2025-11-23,66,370-->
+{@{A sales tax on the commodity}@} does not {@{directly change the demand curve}@}, if {@{the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}. <!--SR:!2029-01-13,1178,350!2027-12-08,837,330!2029-03-20,1231,350!2028-08-15,1060,350!2025-11-23,66,370-->
 
 If {@{the price axis in the graph represents the price before addition of tax and/or subtraction of subsidy}@} then {@{the demand curve moves inward when a tax is introduced, and outward when a subsidy is introduced}@}. <!--SR:!2027-09-06,767,330!2028-12-24,1165,350-->
 
