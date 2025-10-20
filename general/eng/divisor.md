@@ -45,7 +45,7 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 >
 > Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-12-25,276,330!2026-12-10,516,310!2025-11-12,241,330!2028-09-26,1058,350-->
 
-- 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2025-11-19,247,330!2025-11-06,235,330-->
+- 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2025-11-19,247,330!2028-10-07,1066,350-->
 - The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3. <!--SR:!2025-12-12,265,330!2025-11-28,255,330-->
 - The positive divisors of 42 ::@:: are 1, 2, 3, 6, 7, 14, 21, 42. <!--SR:!2028-10-08,1068,350!2025-11-09,238,330-->
 - The [set](set%20(mathematics).md) of all positive divisors of 60, $A=\{1,2,3,4,5,6,10,12,15,20,30,60\}$, [partially ordered](partially%20ordered%20set.md) by divisibility, has ::@:: the [Hasse diagram](Hasse%20diagram.md): <p> ![Lattice of the divisors of 60, including the prime factorisation of each number](../../archives/Wikimedia%20Commons/Lattice%20of%20the%20divisibility%20of%2060;%20factors.svg) <!--SR:!2025-11-18,246,330!2025-12-23,274,330-->
@@ -75,7 +75,7 @@ If {@{the [prime factorization](integer%20factorization.md) of $n$ is given by $
 
 For every natural $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs.) <!--SR:!2025-12-24,275,330!2025-11-22,250,330-->
 
-Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2026-03-21,249,250!2026-04-21,340,290!2026-09-15,458,310!2025-11-06,236,330-->
+Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2026-03-21,249,250!2026-04-21,340,290!2026-09-15,458,310!2028-10-19,1078,350-->
 
 ## in abstract algebra
 

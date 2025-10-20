@@ -58,7 +58,7 @@ An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic
 
 In this example, we have
 
-- $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2029-01-14,1167,352!2025-11-06,257,332-->
+- $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2029-01-14,1167,352!2029-01-26,1177,352-->
 - $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2025-12-07,282,332!2025-11-10,261,332-->
 - $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2025-11-10,261,332!2025-12-25,295,332-->
 - $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2027-09-19,774,332!2028-02-16,836,330-->
@@ -120,7 +120,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 
 - There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2029-01-18,1170,352!2027-10-29,796,332-->
 - CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2028-01-09,862,332!2025-12-29,299,332-->
-- The final policy ::@:: depends on the starting state. <!--SR:!2025-11-07,258,332!2025-11-06,257,332-->
+- The final policy ::@:: depends on the starting state. <!--SR:!2025-11-07,258,332!2029-01-22,1173,352-->
 
 {@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (annotation: An example is {@{the natural policy gradient primal-dual method}@}.) <!--SR:!2028-05-14,970,349!2026-01-30,327,349!2027-04-16,640,329-->
 
@@ -206,7 +206,7 @@ In addition, {@{transition probability}@} is {@{sometimes written $\Pr(s,a,s')$,
 - [Quantum finite automata](quantum%20finite%20automaton.md)
 - [Partially observable Markov decision process](partially%20observable%20Markov%20decision%20process.md)
 - [Dynamic programming](dynamic%20programming.md)
-- [Bellman equation](Bellman%20equation.md) for ::@:: applications to economics. <!--SR:!2025-11-08,259,332!2025-11-06,257,332-->
+- [Bellman equation](Bellman%20equation.md) for ::@:: applications to economics. <!--SR:!2025-11-08,259,332!2029-01-27,1178,352-->
 - [Hamilton–Jacobi–Bellman equation](Hamilton–Jacobi–Bellman%20equation.md)
 - [Optimal control](optimal%20control.md)
 - [Recursive economics](recursive%20economics.md)

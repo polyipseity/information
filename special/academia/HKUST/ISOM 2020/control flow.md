@@ -20,7 +20,7 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-06-03,1051,350!2025-11-06,27,402!2025-11-06,27,402-->
+The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-06-03,1051,350!2026-04-01,146,422!2026-04-02,147,422-->
 
 An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2028-05-12,1031,350-->
 
@@ -31,7 +31,7 @@ else:
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-03-02,977,350!2025-11-06,27,402!2026-03-31,146,422-->
+The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-03-02,977,350!2026-04-02,147,422!2026-03-31,146,422-->
 
 In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2028-06-17,1061,350!2026-03-24,140,422-->
 
@@ -53,7 +53,7 @@ if condition:
   pass # required, otherwise error
 ```
 
-Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350!2025-11-06,27,400!2026-03-30,145,420!2025-11-06,27,400-->
+Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350!2026-04-05,150,420!2026-03-30,145,420!2026-04-02,147,420-->
 
 ## iteration
 
@@ -68,7 +68,7 @@ for loop_variables in iterable:
   statement_block
 ```
 
-Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that for {@{each element in the iterable}@}, {@{the loop variables are assigned that element}@} and then {@{the statement block is executed}@}. <!--SR:!2029-01-02,1199,352!2028-02-09,870,332!2025-11-06,27,402!2025-11-06,27,402-->
+Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that for {@{each element in the iterable}@}, {@{the loop variables are assigned that element}@} and then {@{the statement block is executed}@}. <!--SR:!2029-01-02,1199,352!2028-02-09,870,332!2026-04-03,148,422!2026-04-06,151,422-->
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!2025-12-28,359,352!2025-12-25,356,352!2025-12-27,358,352-->
 
@@ -90,7 +90,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2026-04-11,433,371!2025-11-06,27,402!2025-11-06,27,402!2025-11-06,27,402!2025-11-06,27,402-->
+The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2026-04-11,433,371!2026-04-05,150,422!2026-04-04,149,422!2026-04-04,149,422!2026-04-03,148,422-->
 
 If {@{there are no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2026-05-12,459,377!2026-05-06,454,377-->
 

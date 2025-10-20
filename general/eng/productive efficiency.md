@@ -11,7 +11,7 @@ tags:
 
 > {@{![an example production possibilities frontier](../../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
 >
-> An example PPF: {@{points B, C and D are all productively efficient}@}, but {@{an economy at A would not be, because D involves more production of both goods}@}. Point X {@{cannot be achieved}@}. <!--SR:!2025-11-15,281,330!2025-11-06,276,330!2025-11-16,283,330!2029-03-16,1232,350-->
+> An example PPF: {@{points B, C and D are all productively efficient}@}, but {@{an economy at A would not be, because D involves more production of both goods}@}. Point X {@{cannot be achieved}@}. <!--SR:!2025-11-15,281,330!2029-04-18,1259,350!2025-11-16,283,330!2029-03-16,1232,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -39,7 +39,7 @@ Due to {@{the nature and culture of [monopolistic](monopoly.md) companies}@}, th
 
 {@{A generalisation of these}@} is {@{the so-called directional distance function}@}, where {@{one can select any direction (or orientation) for measuring the production efficiency}@}. <!--SR:!2028-08-24,1071,350!2025-11-28,293,330!2025-11-17,283,330-->
 
-{@{The most popular for estimating production efficiency}@} are {@{[data envelopment analysis](data%20envelopment%20analysis.md)<sup>[\[6\]](#^ref-6)</sup> and [stochastic frontier analysis](stochastic%20frontier%20analysis.md)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-11-06,276,330!2026-02-08,323,290-->
+{@{The most popular for estimating production efficiency}@} are {@{[data envelopment analysis](data%20envelopment%20analysis.md)<sup>[\[6\]](#^ref-6)</sup> and [stochastic frontier analysis](stochastic%20frontier%20analysis.md)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-04-19,1260,350!2026-02-08,323,290-->
 
 See the recent book by Sickles and Zelenyuk (2019) for comprehensive coverage of the theory<!-- <sup>[_[which?](Wikipedia:Manual%20of%20Style_Words%20to%20watch.md#unsupported%20attributions)_]</sup> --> and related estimation and many references therein.<sup>[\[8\]](#^ref-8)</sup>
 

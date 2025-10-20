@@ -158,7 +158,7 @@ tags:
 >
 > Your code should be at most one line.
 >
-> - solution: {@{`print(numpy.zeros((3, 5)))`}@} <!--SR:!2025-11-06,246,330-->
+> - solution: {@{`print(numpy.zeros((3, 5)))`}@} <!--SR:!2028-12-02,1122,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -599,7 +599,7 @@ tags:
 
 > Q10. (simple) State __one__ advantage and __one__ disadvantage of the naive Bayes classifier.
 >
-> - solution: {@{(for reference) It is easy to implement. But its accuracy is low for a small dataset.}@} <!--SR:!2025-11-06,246,330-->
+> - solution: {@{(for reference) It is easy to implement. But its accuracy is low for a small dataset.}@} <!--SR:!2028-12-03,1123,350-->
 
 ## _k_-nearest neighbors
 

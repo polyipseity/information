@@ -141,7 +141,7 @@ The content is in teaching order.
     - artificial intelligence / Python / advantages ::@:: easy to integrate with other programming languages; easy to learn and read; popular and large community; vast AI ecosystem of libraries, tools, and examples <!--SR:!2025-12-24,327,350!2028-03-15,953,350-->
     - artificial intelligence / Python / disadvantages ::@:: design limitations; unsuitable for mobile and game development; speed limitations (addressed by interfacing native code with Python) <!--SR:!2028-03-17,942,350!2027-10-03,803,332-->
 - [Python](../../../../general/Python%20(programming%20language).md)
-  - Python / version ::@:: We use Python 3.10.2. Check your version via `print(sys.version)` after `import sys`. <!--SR:!2025-11-06,289,350!2029-08-21,1385,370-->
+  - Python / version ::@:: We use Python 3.10.2. Check your version via `print(sys.version)` after `import sys`. <!--SR:!2029-08-27,1390,370!2029-08-21,1385,370-->
   - advanced Python
     - advanced Python / `type(value)` ::@:: Returns the type of `value`. When the type is printed, it produces, for example, `<class 'int'>`. <!--SR:!2025-12-25,328,350!2028-11-20,1155,352-->
     - advanced Python / list comprehension ::@:: `[<expression> for <element> in <iterable> if <condition>]` <p> `if <condition>` is optional. It produces a `list` consisting of elements after evaluating `<expression>` on each `<element>` in `<iterable>`. If `<condition>` is present and returns false for an `<element>`, `<expression>` is not evaluated and not added to the `list`. <!--SR:!2025-12-24,326,350!2026-01-14,344,350-->
@@ -577,7 +577,7 @@ ID: 23456789
 
 - datetime: 2024-10-04T13:30:00+08:00/2024-10-04T14:50:00+08:00
 - Euclidean distance ::@:: $$d(\mathbf x, \mathbf y) = \sqrt{ \sum_{k = 1}^n (x_k - y_k)^2 }$$ <p> Sometimes, the _squared Euclidean distance_ is used instead if we only care about relative distances, which omits the square root. <!--SR:!2028-12-06,1166,352!2028-02-28,915,332-->
-- Manhattan distance ::@:: $$d(\mathbf x, \mathbf y) = \sum_{k = 1}^n \lvert x_k - y_k \rvert$$ <!--SR:!2028-11-23,1157,352!2025-11-06,289,350-->
+- Manhattan distance ::@:: $$d(\mathbf x, \mathbf y) = \sum_{k = 1}^n \lvert x_k - y_k \rvert$$ <!--SR:!2028-11-23,1157,352!2029-08-26,1389,370-->
 - cosine distance ::@:: $$d(\mathbf x, \mathbf y) = 1 - \frac {\langle \mathbf x, \mathbf y \rangle} {\lVert \mathbf x \rVert_2 \lVert \mathbf y \rVert_2} \,,$$ where $\langle \mathbf x, \mathbf y \rangle$ is the dot product of __x__ and __y__, and $\lVert \mathbf x \rVert_2$ is the length/magnitude (2-norm) of __x__. <p> Ranges from 0 (100% similar, same direction) to 2 (absolutely different, opposite direction). (We disregard complex conjugation here.) <!--SR:!2029-07-29,1366,370!2027-05-14,695,332-->
 - Hamming distance ::@:: Suppose there are two data with _n_ binary (true or false, 1 or 0) variables. Their __Hamming distance__ is the number of binary variable that differs between them. It ranges from 0 to _n_. <o> This distance function may be used if the variables are discrete _binary_ instead of continuous.  <p> It is essentially equivalent to the Manhattan distance for binary data. <!--SR:!2028-10-18,1113,350!2027-12-07,874,350-->
   - Hamming distance / non-binary ::@:: For non-binary \(more than 2 values per variable\) data, this is simply the number of variables that differ between two data. <p> In this case, it is _not_ equvalent to the Manhattan distance. <!--SR:!2027-12-01,798,438!2027-05-17,577,418-->

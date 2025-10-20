@@ -28,7 +28,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `file <path>` ::@:: load binary file to debug <!--SR:!2029-03-08,1281,350!2028-09-17,1147,350-->
 - `finish` ::@:: run until the current function returns <!--SR:!2029-07-12,1379,350!2027-08-31,828,330-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2026-03-12,423,365!2028-08-07,1111,365-->
-- `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-11-06,297,345!2028-05-31,976,345-->
+- `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2029-09-15,1409,365!2028-05-31,976,345-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2028-07-14,1097,350!2027-07-09,792,330-->
 - `next` ::@:: go to the next (source) line <!--SR:!2028-02-19,973,350!2027-09-04,832,330-->
 - `ni` ::@:: go to the next instruction <!--SR:!2028-10-11,1167,350!2029-02-06,1260,350-->
@@ -45,15 +45,15 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 - `rc` ::@:: reverse continue <!--SR:!2026-03-10,421,365!2026-03-13,424,365-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2027-10-23,881,365!2026-03-04,415,365-->
-- `rn` ::@:: rewind to the previous (source) line <!--SR:!2025-11-06,297,345!2029-01-25,1253,365-->
+- `rn` ::@:: rewind to the previous (source) line <!--SR:!2029-09-14,1408,365!2029-01-25,1253,365-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2026-03-05,416,365!2026-03-07,418,365-->
 - `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2026-04-14,402,325!2029-04-07,1285,365-->
-- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2028-08-30,1129,365!2025-11-06,297,345-->
+- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2028-08-30,1129,365!2029-09-10,1404,365-->
 
 ### `pwndbg`
 
 - `pwndbg>` color (may differ depending on your configuration) ::@:: cyan: program is running; red: program is not running <!--SR:!2028-05-06,1045,350!2026-10-27,537,310-->
-- `checksec` ::@:: print the binary security settings <!--SR:!2026-01-03,366,365!2025-11-06,297,345-->
+- `checksec` ::@:: print the binary security settings <!--SR:!2026-01-03,366,365!2029-09-16,1410,365-->
 - `down` ::@:: move down the backtrace or call stack <!--SR:!2027-03-26,702,330!2028-08-29,1133,350-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2027-05-21,743,330!2027-07-29,795,330-->
 

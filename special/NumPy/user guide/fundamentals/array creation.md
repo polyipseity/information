@@ -102,7 +102,7 @@ Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/nump
 array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 ```
 
-{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2025-11-06,285,330!2029-03-31,1254,350!2025-12-31,333,350!2026-01-13,344,350-->
+{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2029-05-28,1299,350!2029-03-31,1254,350!2025-12-31,333,350!2026-01-13,344,350-->
 
 ### 2D array creation functions
 

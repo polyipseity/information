@@ -223,7 +223,7 @@ The content is in teaching order.
 - [privacy](../../../../generala/privacy.md) ::@:: It is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively. <!--SR:!2027-01-09,436,393!2025-11-08,93,373-->
   - privacy / United States ::@:: First Amendment: freedom of speech <br/> Fourth Amendment: unreasonable search and seizure <br/> additional federal statues: Privacy Act of 1974, etc. <!--SR:!2025-11-07,92,373!2027-01-30,453,393-->
 - [FTC fair information practice](../../../../general/FTC%20fair%20information%20practice.md) \(FTC FIP\) ::@:: They are US FTC guidelines that represent widely accepted concepts concerning fair information practice in an electronic marketplace. <!--SR:!2025-11-08,93,373!2027-01-30,452,393-->
-  - FTC fair information practice / uses ::@:: They are the basis of most US and European privacy laws. They are based on mutuality of interest between data controllers and individuals. <!--SR:!2025-11-06,91,373!2027-02-06,459,393-->
+  - FTC fair information practice / uses ::@:: They are the basis of most US and European privacy laws. They are based on mutuality of interest between data controllers and individuals. <!--SR:!2027-02-18,469,393!2027-02-06,459,393-->
   - FTC fair information practice / extension ::@:: They were restated and extended by FTC in 1998 to provide guidelines for online privacy. <p> They addressed legal gray areas, which are \(then\) new situations not covered by old laws. <!--SR:!2027-02-15,467,393!2027-02-03,457,393-->
   - FTC fair information practice / examples ::@:: COPPA, Do-Not-Track Online Act of 2011, Gramm–Leach–Bliley Act, HIPAA, etc. <!--SR:!2027-01-15,441,393!2027-01-04,434,393-->
   - FTC fair information practice / principles ::@:: access/participation, awareness/notice \(core\), choice/consent \(core\), enforcement, security <!--SR:!2027-02-05,458,393!2025-11-10,95,373-->
@@ -241,7 +241,7 @@ The content is in teaching order.
   - intellectual property / copyrights ::@:: statutory grant protecting IP from being copied without permissions \(in most cases\) for the life of the author plus 70 years \(United States\) <!--SR:!2025-11-09,94,373!2026-12-30,427,393-->
   - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\)  <p> \(__this course__: A question with this as the correct answer appeared in the midterm examination, but there was no option for this. So the question was given full marks.\) <!--SR:!2025-11-08,93,373!2027-01-25,448,393-->
   - intellectual property / digital challenges ::@:: compactness, difficulty of classification \(e.g. software\), difficulty of establishing uniqueness, ease of replication, ease of transmission <!--SR:!2027-02-05,458,393!2027-01-24,448,393-->
-- [Digital Millennium Copyright Act](../../../../general/Digital%20Millennium%20Copyright%20Act.md) \(DMCA\) ::@:: It is a 1998 United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization \(WIPO\). <!--SR:!2027-01-14,440,393!2025-11-06,91,373-->
+- [Digital Millennium Copyright Act](../../../../general/Digital%20Millennium%20Copyright%20Act.md) \(DMCA\) ::@:: It is a 1998 United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization \(WIPO\). <!--SR:!2027-01-14,440,393!2027-02-20,471,393-->
   - Digital Millennium Copyright Act / circumvention ::@:: illegal to circumvent  technology-based protections of copyrighted materials <!--SR:!2027-01-01,429,393!2027-01-08,435,393-->
 
 ## week 2 lecture 3
@@ -252,13 +252,13 @@ The content is in teaching order.
 - [big data ethics](../../../../general/big%20data%20ethics.md) ::@:: It refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data. <!--SR:!2027-01-03,431,393!2025-11-10,95,373-->
 - ethics
   - ethics / traditions ::@:: 3 major traditions: deontology, utilitarianism, virtue ethics <!--SR:!2027-01-28,451,393!2027-01-28,450,393-->
-    - ethics / traditions / virtue ethics ::@:: Explored by Aristotle. Focuses on people: if a person has good character, the person does ethical actions. <!--SR:!2027-02-08,461,393!2025-11-06,91,373-->
+    - ethics / traditions / virtue ethics ::@:: Explored by Aristotle. Focuses on people: if a person has good character, the person does ethical actions. <!--SR:!2027-02-08,461,393!2027-02-20,471,393-->
     - ethics / traditions / deontology ::@:: Explored by Immanuel Kant. Focuses on processes: categorical imperatives: if an action \(process\) is not right, it is unethical for _anyone_ to take this action. <!--SR:!2027-02-05,458,393!2025-11-09,94,373-->
     - ethics / traditions / utilitarianism ::@:: Explored by John Stuart Mill. Focuses on consequences: cost—benefit analysis. <!--SR:!2027-02-07,460,393!2027-01-27,450,393-->
 - big data ethics
   - big data ethics / dimensions ::@:: 3 dimensions: algorithm ethics, data ethics, practice ethics <!--SR:!2027-02-10,462,393!2027-02-06,459,393-->
     - big data ethics / dimensions / data ethics ::@:: consent, data breach, privacy, trust <!--SR:!2027-02-07,460,393!2027-01-20,444,393-->
-    - big data ethics / dimensions / algorithm ethics ::@:: design philosophy, explainabiility, machine bias, model transparency <!--SR:!2025-11-06,91,373!2027-01-26,450,393-->
+    - big data ethics / dimensions / algorithm ethics ::@:: design philosophy, explainabiility, machine bias, model transparency <!--SR:!2027-02-17,468,393!2027-01-26,450,393-->
     - big data ethics / dimensions / practice ethics ::@:: fairness, human rights, presentation bias <!--SR:!2027-02-02,456,393!2027-01-18,442,393-->
   - big data ethics / privacy ::@:: - businesses: Big data is increasingly needed for competitive advantage with significant investment. <br/> - consumers: Awareness of data ethics is increasing. <br/> - criminals: Identity theft becomes easier with better technology. <br/> - legislators: Respond to consumer concerns by legislating laws that restrict businesses. <!--SR:!2027-02-07,460,393!2026-09-26,328,373-->
     - big data ethics / privacy / protected information ::@:: other personal information, personally identifiable information \(PII\), sensitive information <!--SR:!2025-11-10,95,373!2027-01-03,433,393-->
@@ -266,13 +266,13 @@ The content is in teaching order.
     - big data ethics / privacy / sensitive information ::@:: Information those disclosure can be detrimental to the person. <p> examples: age, criminal records, ethnicity, gender, health information, political opinions, race, religious beliefs, etc. <!--SR:!2027-01-29,452,393!2025-11-09,94,373-->
     - big data ethics / privacy / other personal information ::@:: Any other non-PII information that leads to PII when combined. <p> examples: IP addresses, cookies \(created during website visits and stored locally\), preferences, etc. <!--SR:!2027-01-16,441,393!2027-01-19,443,393-->
   - big data ethics / machine bias ::@:: Algorithms may be biased against certain types of people. This decreases algorithm accuracy. For example, drug possession alerts may use irrelevant information causing bias, leading to wrong predictions. <!--SR:!2027-02-04,457,393!2027-02-01,455,393-->
-  - big data ethics / model transparency ::@:: Algorithms are transparent to the public. This is important so that the public can be aware how they are processed by algorithms and monitor for any biases, problems, etc. <!--SR:!2025-11-06,91,373!2025-11-10,95,373-->
+  - big data ethics / model transparency ::@:: Algorithms are transparent to the public. This is important so that the public can be aware how they are processed by algorithms and monitor for any biases, problems, etc. <!--SR:!2027-02-21,472,393!2025-11-10,95,373-->
   - big data ethics / design philosophy ::@:: It describes how ethical situations \(e.g. dilemmas\) are handled by algorithms. This is greatly influenced by ethical traditions. <!--SR:!2025-11-08,93,373!2027-02-05,458,393-->
   - big data ethics / explainability ::@:: Making algorithms understandable and transparent can address users' requirement to assess safety and scrutinize decision making. <!--SR:!2027-02-11,463,393!2027-01-30,453,393-->
   - big data ethics / presentation bias ::@:: When data is presented, the visualization can be \(psychologically\) deceiving. This may be unintentional or intentional. <p> examples: a 3D pie chart that makes data "closer" to the screen have a larger visual size, deceptive scaling, etc. <!--SR:!2025-11-09,94,373!2025-11-09,94,373-->
   - big data ethics / fairness ::@:: Attempts to correct algorithmic bias \(model bias\) to make it more "fair". <!--SR:!2027-01-20,445,393!2027-02-08,461,393-->
   - big data ethics / human rights ::@:: These rights are considered inherent and inalienable, meaning they belong to every individual simply by virtue of being human, regardless of characteristics. <p> Algorithms are no exception. They should respect these rights. <!--SR:!2027-02-09,462,393!2027-01-10,440,393-->
-  - big data ethics / legislation ::@:: United States: Children's Online Privacy Protection Act \(COPPA, 2000\), Gramm–Leach–Bliley Act \(GLBA, 1999\), Health Insurance Portability and Accountability Acct \(HIPAA, 1996\), U.S. Privacy Act \(1970\) <br/> United States \(by states\): Californian Consumer Privacy Act \(CCPA\), Massachusetts Data Protection Act <!--SR:!2025-11-06,91,373!2027-02-02,455,393-->
+  - big data ethics / legislation ::@:: United States: Children's Online Privacy Protection Act \(COPPA, 2000\), Gramm–Leach–Bliley Act \(GLBA, 1999\), Health Insurance Portability and Accountability Acct \(HIPAA, 1996\), U.S. Privacy Act \(1970\) <br/> United States \(by states\): Californian Consumer Privacy Act \(CCPA\), Massachusetts Data Protection Act <!--SR:!2027-02-20,471,393!2027-02-02,455,393-->
 - assignment: [quiz 4](questions/quiz%204.md)
 
 ## week 2 lecture 4
@@ -280,7 +280,7 @@ The content is in teaching order.
 - datetime: 2025-07-10T09:00:00+09:00/2025-07-10T10:40:00+09:00, PT1H40M
   - local: 2025-07-10T08:00:00+08:00/2025-07-10T09:40:00+08:00, PT1H40M.
 - topic: IT infrastructure, emerging technologies
-- [IT infrastructure](../../../../general/IT%20infrastructure.md) ::@:: It is the set of physical devices and software required to operate an enterprise. <!--SR:!2025-11-06,91,373!2027-02-04,457,393-->
+- [IT infrastructure](../../../../general/IT%20infrastructure.md) ::@:: It is the set of physical devices and software required to operate an enterprise. <!--SR:!2027-02-16,467,393!2027-02-04,457,393-->
   - IT infrastructure / services ::@:: application, computing, data, physical facilities management, telecommunications, etc. <!--SR:!2027-01-06,433,393!2027-01-24,448,393-->
   - IT infrastructure / evolution ::@:: general-purpose mainframes/minicomputers \(1959\) → personal computers \(1981\) → client/server \(1983\) → enterprise computing \(1992\) → cloud computing, mobile computing \(2000\) <!--SR:!2027-02-12,464,393!2025-11-08,93,373-->
     - IT infrastructure / evolution / general-purpose mainframes/minicomputers ::@:: Mainframes are very large computers. Minicomputers connect to mainframes to access computing resources. Computing is _centralized_. <!--SR:!2027-01-26,449,393!2025-11-07,92,373-->
@@ -303,7 +303,7 @@ The content is in teaching order.
   - cloud computing / services ::@:: It provides on-demand computing services, e.g. infrastructure as a service \(IaaS\), platform as a service \(PaaS\), software as a service \(SaaS\), etc. <!--SR:!2027-01-21,446,393!2027-02-01,455,393-->
   - cloud computing / types ::@:: private cloud \(private to a business\), public cloud  \(shared with other businesses\) <!--SR:!2027-02-07,460,393!2025-11-10,95,373-->
     - cloud computing / types / this course ::@:: \(__this course__: The instructor thinks that cloud computing can never be private, because it uses the _internet_ which can be _eavesdropped_. Appeared in the midterm examination.\) <!--SR:!2025-12-26,121,395!2025-12-26,121,395-->
-  - cloud computing / advantages ::@:: allow companies to reduce IT investments <!--SR:!2025-11-06,91,373!2027-02-06,459,393-->
+  - cloud computing / advantages ::@:: allow companies to reduce IT investments <!--SR:!2027-02-18,469,393!2027-02-06,459,393-->
   - cloud computing / disadvantages ::@:: reliability \(accessibility of the data anytime\), security \(capability of the service provider to protect data from hackers\); both due to relying on the services of other companies <p> \(__this course__: The midterm examination asked us to elaborate of these two major problems.\) <!--SR:!2027-02-13,465,393!2025-11-07,92,373-->
 - [green computing](../../../../general/green%20computing.md) ::@:: It is the study and practice of environmentally sustainable computing or IT. <p> It covers practices and technologies for IT infrastructure, mainly to reduce power consumption. \(2% of United States power demand comes from IT infrastructure.\) <!--SR:!2027-01-30,453,393!2027-01-01,428,393-->
 - IT infrastructure
@@ -312,11 +312,11 @@ The content is in teaching order.
   - IT infrastructure / software trends ::@:: Linux, open-source software, outsourcing, service-oriented architecture \(SOA\), web services, web software <!--SR:!2027-02-08,461,393!2025-11-08,93,373-->
 - [open-source software](../../../../general/open-source%20software.md) ::@:: It is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose. <!--SR:!2027-02-06,459,393!2027-01-02,430,393-->
   - open-source software / characteristics ::@:: They are usually produced by communities of programmers. Users can freely obtain and modify them \(under some mild conditions\). <!--SR:!2025-11-09,94,373!2025-11-09,94,373-->
-  - open-source software / examples ::@:: Apache web server, Mozilla Firebox, OpenOffice <!--SR:!2025-11-06,91,373!2026-12-19,418,393-->
+  - open-source software / examples ::@:: Apache web server, Mozilla Firebox, OpenOffice <!--SR:!2027-02-21,472,393!2026-12-19,418,393-->
 - [Linux](../../../../general/Linux.md) ::@:: An open-source operating systems used in high-performance computing. It is used in Android, local area networks \(LAN\), mobile devices, web servers, etc. <!--SR:!2027-02-04,457,393!2027-02-01,455,393-->
   - Linux / Unix-like ::@:: It is Unix-like. Unix is a multitasking, multi-user operating system developed by Bell Laboratories. <!--SR:!2027-01-29,452,393!2027-01-06,436,393-->
 - [web platform](../../../../general/web%20platform.md) ::@:: It is a collection of technologies developed as open standards by the World Wide Web Consortium and other standardization bodies. <!--SR:!2027-02-04,457,393!2027-01-20,445,393-->
-  - web platform / software ::@:: HTML/HTML5, Java, Python, Ruby, etc. <!--SR:!2025-11-06,91,373!2027-01-26,450,393-->
+  - web platform / software ::@:: HTML/HTML5, Java, Python, Ruby, etc. <!--SR:!2027-02-21,472,393!2027-01-26,450,393-->
 - [web service](../../../../general/web%20service.md) ::@:: They are software components that exchange information using web standards and languages. <p> examples: extensible markup language \(XML\) <!--SR:!2027-01-25,449,393!2027-02-02,456,393-->
 - [XML](../../../../general.XML) \(extensible markup language\) ::@:: It is a markup language and file format for storing, transmitting, and reconstructing data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. <!--SR:!2025-11-10,95,373!2027-02-09,462,393-->
   - XML / vs. HTML ::@:: It is more flexible and powerful than HTML. Its tag allows computers to process data automatically. <!--SR:!2027-01-22,446,393!2027-01-10,436,393-->
@@ -339,11 +339,11 @@ The content is in teaching order.
 - topic: foundations of business intelligence
 - [data hierarchy](../../../../general/data%20hierarchy.md) ::@:: It refers to the systematic organization of data, often in hierarchical form. Data organization involves characters, fields, records, files and so on. <!--SR:!2027-01-18,443,393!2025-11-08,93,373-->
   - data hierarchy / the hierarchy ::@:: database ← file ← record ← field ← byte \(8 bits; some ancient computers use 7 bits\) ← bit <!--SR:!2027-01-21,445,393!2026-09-05,312,373-->
-- [file system](../../../../general/file%20system.md) ::@:: It governs file organization and access. <!--SR:!2025-11-06,91,373!2025-11-07,92,373-->
+- [file system](../../../../general/file%20system.md) ::@:: It governs file organization and access. <!--SR:!2027-02-19,470,393!2025-11-07,92,373-->
   - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features \(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy <!--SR:!2026-06-07,242,353!2027-01-15,439,393-->
 - [database](../../../../general/database.md) ::@:: It is an organized collection of data or a type of data store based on the use of a database management system \(DBMS\), the software that interacts with end users, applications, and the database itself to capture and analyze the data. <!--SR:!2027-01-27,450,393!2027-01-28,451,393-->
   - database / physical file systems ::@:: Before digital databases, databases were physical file systems. <p> \(__this course__: The instructor used his work at the New York State Department of Taxation and Finance to illustrate this.\) <!--SR:!2026-02-22,159,428!2026-02-04,143,428-->
-  - database / uses ::@:: It centralizes data \(for better data security and easier management\), decouples data and programs, eliminate data inconsistency, and eliminate data redundancy. It can serve many other applications. <!--SR:!2027-02-05,458,393!2025-11-06,91,373-->
+  - database / uses ::@:: It centralizes data \(for better data security and easier management\), decouples data and programs, eliminate data inconsistency, and eliminate data redundancy. It can serve many other applications. <!--SR:!2027-02-05,458,393!2027-02-18,469,393-->
   - database / database management system \(DBMS\) ::@:: It is an interface between databases and applications. It separates data into physical and logical views. <!--SR:!2027-01-28,451,393!2027-01-29,451,393-->
 - [relational database](../../../../general/relational%20database.md) \(RDB\) ::@:: It is a database based on the relational model of data, as proposed by E. F. Codd in 1970. <!--SR:!2027-01-30,453,393!2025-11-07,92,373-->
   - relational database / relational database management system \(RDBMS\) ::@:: It is a type of database management system that stores data in a structured format using rows and columns. <!--SR:!2027-01-19,444,393!2027-02-13,465,393-->
@@ -356,19 +356,19 @@ The content is in teaching order.
     - relational database / foreign keys ::@:: A key used to identify records in a different table. It references primary keys of records in the other table. <!--SR:!2027-02-07,460,393!2025-11-07,92,373-->
   - relational database / operations ::@:: common operations: join, project, select, etc. <!--SR:!2027-01-28,451,393!2026-12-26,424,393-->
     - relational database / operations / select ::@:: Return a subset of records that meet user-specified criteria. <!--SR:!2026-12-29,426,393!2026-12-20,419,393-->
-    - relational database / operations / join ::@:: Combine multiple tables in a user-specified way to provide more information available in individual tables. <!--SR:!2025-11-06,91,373!2027-01-29,452,393-->
+    - relational database / operations / join ::@:: Combine multiple tables in a user-specified way to provide more information available in individual tables. <!--SR:!2027-02-17,468,393!2027-01-29,452,393-->
     - relational database / operations / project ::@:: Return a table with a user-specified subset of its attributes. <!--SR:!2027-02-02,456,393!2027-01-31,454,393-->
 - database
   - database / capabilities ::@:: data definition, data dictionary, data manipulation language, report generation <!--SR:!2027-02-06,459,393!2026-12-27,424,393-->
-    - database / capabilities / data definition ::@:: Specify database contents. They are used to create tables and specify their fields. <!--SR:!2025-11-06,91,373!2026-12-21,420,393-->
+    - database / capabilities / data definition ::@:: Specify database contents. They are used to create tables and specify their fields. <!--SR:!2027-02-19,470,393!2026-12-21,420,393-->
     - database / capabilities / data dictionary ::@:: A special table that stores database metadata, including data definition. <!--SR:!2025-11-07,92,373!2027-02-11,463,393-->
     - database / capabilities / data manipulation language ::@:: A language to read from and write to the database. The language is commonly SQL \(structured query language\), often slightly modified. <!--SR:!2027-01-30,453,393!2025-11-07,92,373-->
     - database / capabilities / report generation ::@:: Create polished reports from data. It is not a mandatory feature, but is a often seen feature in many DBMS. <!--SR:!2027-01-23,447,393!2027-01-13,439,393-->
   - database / design ::@:: conceptual/logical design \(how data is presented to applications\), physical design \(how data is stored\) <!--SR:!2027-01-31,453,393!2027-01-29,452,393-->
     - database / design / process ::@:: Identify relationships between entities. Attempt to eliminate data redundancy. A common technique is _normalization_, which streamlines complex data groupings to minimize awkward \(many-to-many\) relationships and data redundancy. <!--SR:!2027-02-11,463,393!2025-11-10,95,373-->
   - database / consistency ::@:: Referential integrity rules are used to ensure data consistency in a database. Relationships between data remain consistent. <!--SR:!2025-11-10,95,373!2027-01-27,451,393-->
-- [entity–relationship model](../../../../general/entity–relationship%20model.md) \(ER model\) ::@:: It describes interrelated things of interest in a specific domain of knowledge. <!--SR:!2025-11-10,95,373!2025-11-06,91,373-->
-  - entity–relationship model / the model ::@:: A basic ER model \(entity–relationship diagram, ERD\) is composed of entity types \(which classify the things of interest\) and specifies relationships that can exist between entities \(instances of those entity types\). <p> Often, relationships are described logically \(e.g. one-to-one, one-to-many, many-to-many, etc.\) and semantically \(described using words, in both directions\). <!--SR:!2025-11-10,95,373!2025-11-06,91,373-->
+- [entity–relationship model](../../../../general/entity–relationship%20model.md) \(ER model\) ::@:: It describes interrelated things of interest in a specific domain of knowledge. <!--SR:!2025-11-10,95,373!2027-02-18,469,393-->
+  - entity–relationship model / the model ::@:: A basic ER model \(entity–relationship diagram, ERD\) is composed of entity types \(which classify the things of interest\) and specifies relationships that can exist between entities \(instances of those entity types\). <p> Often, relationships are described logically \(e.g. one-to-one, one-to-many, many-to-many, etc.\) and semantically \(described using words, in both directions\). <!--SR:!2025-11-10,95,373!2027-02-19,470,393-->
 
 ## week 3 lecture 2
 

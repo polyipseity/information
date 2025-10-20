@@ -482,7 +482,7 @@ The content is in teaching order.
 - graph theory
   - graph theory / distance ::@:: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices. <!--SR:!2026-10-04,582,409!2025-11-15,291,369-->
   - graph theory / eccentricity ::@:: The __eccentricity__ of a vertex in a graph is the maximum distance it can have with any vertex in the same graph. <!--SR:!2026-04-23,419,389!2025-11-28,318,369-->
-  - graph theory / center ::@:: The __center__ of a graph is a vertex with the minimum eccentricity among all of its vertices. <!--SR:!2025-11-06,283,369!2026-09-20,570,409-->
+  - graph theory / center ::@:: The __center__ of a graph is a vertex with the minimum eccentricity among all of its vertices. <!--SR:!2029-10-14,1438,389!2026-09-20,570,409-->
   - graph theory / radius ::@:: The __radius__ of a graph is the minimum eccentricity of its vertices, i.e. the eccentricity of its center. <!--SR:!2025-11-07,284,369!2026-04-24,420,389-->
   - graph theory / diameter ::@:: The __diameter__ of a graph is the maximum distances any pair of vertices (repeats allowed) can have. <!--SR:!2027-04-10,732,408!2026-09-04,557,409-->
 - theorem: radius and diameter of a graph ::@:: For any graph, the following relationship holds: radius ≤ diameter ≤ 2 · radius. <p> To prove this, draw its diameter (which is a shortest path between the two points) and its center. Consider the case if the center is in the diameter path and if not in the diameter path. <!--SR:!2025-11-20,295,369!2026-09-13,527,388-->

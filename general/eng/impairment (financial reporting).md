@@ -15,7 +15,7 @@ __Impairment__ of {@{assets is the diminishing in quality, strength, amount, or 
 
 ## history
 
-Asset impairment was first addressed by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) \(IASB\)}@} in {@{[IAS 16](IAS%2016.md), which became effective in 1983}@}.<sup>[\[2\]](#^ref-2)</sup> It was replaced by {@{[IAS 36](list%20of%20International%20Financial%20Reporting%20Standards.md), effective July 1999}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-11-18,513,310!2025-12-19,216,250!2025-11-06,195,250-->
+Asset impairment was first addressed by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) \(IASB\)}@} in {@{[IAS 16](IAS%2016.md), which became effective in 1983}@}.<sup>[\[2\]](#^ref-2)</sup> It was replaced by {@{[IAS 36](list%20of%20International%20Financial%20Reporting%20Standards.md), effective July 1999}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-11-18,513,310!2025-12-19,216,250!2027-09-14,677,270-->
 
 In {@{[United States](United%20States.md) [GAAP](accounting%20standard.md)}@}, {@{the [Financial Accounting Standards Board](Financial%20Accounting%20Standards%20Board.md) \(FASB\)}@} introduced the concept in {@{1995 with the release of [SFAS 121](list%20of%20FASB%20pronouncements.md)}@}.<sup>[\[3\]](#^ref-3)</sup> SFAS 121 was subsequently replaced by {@{[SFAS 144](list%20of%20FASB%20pronouncements.md) in August 2001}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-01-17,294,330!2027-08-27,739,330!2027-01-14,494,250!2025-11-12,216,270-->
 

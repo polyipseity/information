@@ -68,7 +68,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 
 {@{Every countably infinite set}@} is {@{countable}@}, and {@{every infinite countable set}@} is {@{countably infinite}@}. Furthermore, {@{any subset of the natural numbers is countable}@}, and more generally: <!--SR:!2025-12-10,272,330!2026-09-25,481,310!2025-11-29,263,330!2025-12-10,272,330!2025-11-09,247,330-->
 
-> Theorem — A subset of {@{a countable set is countable}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-11-06,245,330-->
+> Theorem — A subset of {@{a countable set is countable}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2028-12-01,1121,350-->
 
 {@{The set of all [ordered pairs](ordered%20pair.md) of natural numbers}@}, {@{the [Cartesian product](Cartesian%20product.md) of two sets of natural numbers, $\mathbb {N} \times \mathbb {N}$}@} is {@{countably infinite}@}, as can be seen by {@{following a path like the one in the picture}@}: <!--SR:!2025-11-12,248,330!2025-11-23,258,330!2027-06-09,686,330!2025-12-17,276,330-->
 

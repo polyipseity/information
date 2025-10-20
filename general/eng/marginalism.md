@@ -70,7 +70,7 @@ An individual will {@{typically be able to [partially order](partially%20ordered
 
 > A pioneer farmer had five sacks of grain, with no way of selling them or buying more. He had five possible uses: as basic feed for himself, food to build strength, food for his chickens for dietary variation, an ingredient for making whisky and feed for his parrots to amuse him. Then the farmer lost one sack of grain. Instead of {@{reducing every activity by a fifth}@}, the farmer {@{simply starved the parrots as they were of less utility than the other four uses}@}; in other words {@{they were on the margin}@}. And {@{it is on the margin, and not with a view to the big picture, that we make economic decisions}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-09-14,813,330!2026-01-09,367,347!2026-01-03,361,347!2025-11-14,322,347-->
 
-However, if {@{there _is_ a complementarity across uses}@}, then {@{an amount added can bring things past a desired tipping point}@}, or {@{an amount subtracted cause them to fall short}@}. In such cases, {@{the marginal utility of a good or service might actually be _increasing_}@}. <!--SR:!2025-11-06,312,330!2027-02-09,656,330!2026-01-07,365,347!2028-10-25,1087,347-->
+However, if {@{there _is_ a complementarity across uses}@}, then {@{an amount added can bring things past a desired tipping point}@}, or {@{an amount subtracted cause them to fall short}@}. In such cases, {@{the marginal utility of a good or service might actually be _increasing_}@}. <!--SR:!2029-09-26,1420,350!2027-02-09,656,330!2026-01-07,365,347!2028-10-25,1087,347-->
 
 Without {@{the presumption that utility is quantified}@}, the _diminishing_ of utility should not {@{be taken to be itself an [arithmetic](elementary%20arithmetic.md) [subtraction](subtraction.md)}@}. It is {@{the movement from use of higher to lower priority}@}, and {@{may be no more than a purely [ordinal](ranking.md) change}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[8\]](#^ref-8)</sup> <!--SR:!2028-12-16,1198,350!2026-01-11,369,347!2025-12-17,350,347!2026-10-07,557,327-->
 
@@ -102,7 +102,7 @@ When {@{indifference curves (which are essentially graphs of instantaneous rates
 
 At {@{the highest level of generality}@}, a marginal cost is {@{a marginal [opportunity cost](opportunity%20cost.md)}@}. In most contexts, marginal cost refers to {@{marginal _[pecuniary](money.md)_ cost, that is to say marginal cost measured by forgone money}@}. <!--SR:!2028-02-16,956,347!2028-12-09,1192,350!2025-12-16,349,347-->
 
-A thorough-going marginalism sees marginal cost as {@{increasing under the law of diminishing marginal utility}@}, because {@{applying resources to one application reduces their availability to other applications}@}. Neoclassical economics {@{tends to disregard this argument}@}, but {@{to see marginal costs as increasing in consequence of [diminishing returns](diminishing%20returns.md)}@}. <!--SR:!2028-05-27,1034,347!2027-09-16,813,330!2025-11-06,314,330!2027-03-31,708,347-->
+A thorough-going marginalism sees marginal cost as {@{increasing under the law of diminishing marginal utility}@}, because {@{applying resources to one application reduces their availability to other applications}@}. Neoclassical economics {@{tends to disregard this argument}@}, but {@{to see marginal costs as increasing in consequence of [diminishing returns](diminishing%20returns.md)}@}. <!--SR:!2028-05-27,1034,347!2027-09-16,813,330!2029-10-10,1434,350!2027-03-31,708,347-->
 
 ## application to price theory
 

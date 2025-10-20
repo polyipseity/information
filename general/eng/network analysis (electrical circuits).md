@@ -164,7 +164,7 @@ For {@{some common elements where this is not possible}@}, {@{specialized method
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | This section __contains [instructions, advice, or how-to content](https://en.wikipedia.org/wiki/Wikipedia:What%20Wikipedia%20is%20not#NOTHOWTO)__. Please help [rewrite the content](https://en.wikipedia.org/w/index.php?title=Network_analysis_(electrical_circuits)&action=edit) so that it is more encyclopedic or [move](m_Help_Transwiki.md) it to [Wikiversity](https://en.wikiversity.org/wiki/), [Wikibooks](b_.md), or [Wikivoyage](voy_.md). _\(October 2022\)_ | -->
 
-- Main article: ::@:: [mesh analysis](mesh%20analysis.md) <!--SR:!2026-07-24,390,360!2025-11-06,174,310-->
+- Main article: ::@:: [mesh analysis](mesh%20analysis.md) <!--SR:!2026-07-24,390,360!2027-11-22,746,330-->
 
 [Mesh](mesh.md) ::@:: — a loop that does not contain an inner loop. <!--SR:!2026-02-02,248,330!2026-05-15,331,349-->
 

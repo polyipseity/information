@@ -110,7 +110,7 @@ Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@
 
 ## Stirling numbers with negative integral values
 
-The Stirling numbers can be {@{extended to negative integral values, but not all authors do so in the same way}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup><sup>[\[12\]](#^ref-12)</sup> Regardless of {@{the approach taken}@}, it is worth noting that {@{Stirling numbers of first and second kind are connected by the relations}@}: {@{$${\biggl [}{n \atop k}{\biggr ]}={\biggl \{}{\!-k\! \atop \!-n\!}{\biggr \} }\quad {\text{and} }\quad {\biggl \{}{\!n\! \atop \!k\!}{\biggr \} }={\biggl [}{-k \atop -n}{\biggr ]}$$}@} when {@{_n_ and _k_ are nonnegative integers}@}. So we have the following table for $\left[{-n \atop -k}\right]$: <!--SR:!2025-12-05,312,330!2025-12-08,314,330!2029-04-09,1261,350!2025-11-06,287,330!2025-11-28,306,330-->
+The Stirling numbers can be {@{extended to negative integral values, but not all authors do so in the same way}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup><sup>[\[12\]](#^ref-12)</sup> Regardless of {@{the approach taken}@}, it is worth noting that {@{Stirling numbers of first and second kind are connected by the relations}@}: {@{$${\biggl [}{n \atop k}{\biggr ]}={\biggl \{}{\!-k\! \atop \!-n\!}{\biggr \} }\quad {\text{and} }\quad {\biggl \{}{\!n\! \atop \!k\!}{\biggr \} }={\biggl [}{-k \atop -n}{\biggr ]}$$}@} when {@{_n_ and _k_ are nonnegative integers}@}. So we have the following table for $\left[{-n \atop -k}\right]$: <!--SR:!2025-12-05,312,330!2025-12-08,314,330!2029-04-09,1261,350!2028-06-10,947,330!2025-11-28,306,330-->
 
 | _n_\\_k_ | __−1__ | __−2__ | __−3__ | __−4__ | __−5__ |
 | --------:| ------:| ------:| ------:| ------:| ------:|
