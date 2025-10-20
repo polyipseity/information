@@ -15,3 +15,8 @@ tags:
 - HKUST FINA 3103
 
 ## children
+
+- [homework 1](homework%201/index.md)
+- [homework 2](homework%202/index.md)
+- [homework 3](homework%203/index.md)
+- [homework 4](homework%204/index.md)

@@ -252,7 +252,52 @@ The content is in teaching order.
 ## week 2 lecture
 
 - datetime: 2025-09-09T15:00:00+08:00/2025-09-09T16:20:00+08:00, PT1H20M
-- topic:
+- topic: interest rate; compound interest; holding period return; expected return; variance; normal distribution
+- [interest rate](../../../../general/interest%20rate.md) ::@:: It is the amount of interest due per period, as a proportion of the amount lent, deposited, or borrowed. Interest rate periods are ordinarily a year and are often annualized when not.
+  - interest rate / lending ::@:: It is the cost a borrower pays to a lender, expressed as a percentage of the loan amount (e.g., borrowing \$1&nbsp;000 at 10% yields a \$100 interest payment).
+  - interest rate / nominal rate, real rate ::@:: Rates can be quoted nominally or in real terms; the relationship $1+r = \frac{1+i}{1+\pi}$ links real rate $r$, nominal rate $i$, and inflation $\pi$, which approximates to $r ≈ i - π$ when rates are small and periods are short.
+    - interest rate / nominal, real / difference ::@:: Understanding this distinction is essential for comparing returns across time periods and adjusting for purchasing‑power changes.
+  - interest rate / factors ::@:: money demand and supply, government actions, monetary policy, credit risk, etc.
+    - interest rate / factors / money demand and supply ::@:: The supply of loanable funds (household savings funneled through banks) meets the demand from businesses needing capital, forming the core market mechanism.
+    - interest rate / factors / government actions ::@:: They—spending levels, bond issuance, and net fiscal position—shift the supply‑demand balance by altering how much money is available for borrowing.
+    - interest rate / factors / monetary policy ::@:: It and market expectations, particularly anticipated inflation, also influence lenders' required compensation; higher expected inflation typically raises nominal rates.
+    - interest rate / factors / credit risk ::@:: It (default probability) adds a further premium: riskier borrowers demand higher yields to compensate lenders.
+    - interest rate / factors
+  - interest rate / risk-free rate ::@:: It represents the return on an investment with virtually no default risk. It serves as a baseline for evaluating other assets: any excess return above this benchmark is considered a "risk premium".
+    - interest rate / risk-free rate / proxies ::@:: Government securities such as US Treasury bills or Secured Overnight Financing Rate \(SOFR\) are common proxies. The choice of risk‑free asset matters—using a T‑Bill rate versus SOFR can slightly shift the computed premiums and ratios.
+  - interest rate / annual percentage rate \(APR\) ::@:: It specifies the nominal yearly rate, but compounding frequency (daily, e.g. bank accounts; monthly, e.g. leases, mortgages; semi‑annual, e.g. US bonds) determines the effective yield over a year.
+  - interest rate / effective annual rate \(EAR\) ::@:: It is calculated as $(1 + r/n)^n - 1$, where $r$ is APR and $n$ the number of compounding periods per year; \(assuming nonnegative rates\) EAR ≥ APR when compounding occurs more than once annually, and vice versa.
+    - interest rate / effective annual rate / example ::@:: A one‑year CD with a 5% APR compounded semi‑annually yields an EAR of 5.0625%, slightly higher than the stated rate.
+- [compound interest](../../../../general/compound%20interest.md) ::@:: It is interest accumulated from a principal sum and previously accumulated interest. It is the result of reinvesting or retaining interest that would otherwise be paid out, or of the accumulation of debts from a borrower.
+  - compound interest / continuous compounding ::@:: When the number of compounding periods per year increases without limit, continuous compounding occurs, in which case the effective annual rate approaches an upper limit of _e_<sup>_r_</sup> − 1. Continuous compounding can be regarded as letting the compounding period become infinitesimally small, achieved by taking the [limit](../../../../general/limit%20(mathematics).md) as _n_ goes to [infinity](../../../../general/infinity.md).
+    - compound interest / continuous compounding / formula ::@:: The amount after _t_ periods of continuous compounding can be expressed in terms of the initial amount _P_<sub>0</sub> as: $$P(t)=P_{0}e^{rt}.$$ Or, finding the interest rate $r$: $$r = \frac 1 t \ln \left(\frac {P_t} {P_0}\right) \,.$$
+    - compound interest / continuous compounding / use ::@:: It simplifies many formulas (e.g., exponential growth models) and often approximates real‑world scenarios for high‑frequency financial instruments.
+- [holding period return](../../../../general/holding%20period%20return.md) \(HPR\) ::@:: It is the return on an asset or portfolio over the whole period during which it was held. It is one of the simplest and most important measures of investment performance.
+  - holding period return / calculation ::@:: HPR is the change in value of an investment, asset or portfolio over a particular period. It is the entire gain or loss, which is the sum [income](../../../../general/income.md) and [capital gains](../../../../general/capital%20gains.md), divided by the value at the beginning of the period. <p> &emsp; __HPR__ = \(End Value - Initial Value\) / Initial Value <p> where the End Value includes income, such as dividends, earned on the investment: $$HPR_{n}\ =\ {\frac {\text{Income}+P_{n+1}-P_{n} }{P_{n} } }$$ where $P_{n}$ is the value at the start of the holding period and $\text{Income}+P_{n+1}$ is the total value at the end of the holding period.
+  - holding period return / annualization ::@:: Often, we want the return over an year instead of some arbitrary periods. We assume, whenever you receive a cash flow, you _immediately reinvest_ it into the same asset. <p> Then, for each cash flow in the year, calculate the non-annual returns. Then simply multiply them altogether.
+  - holding period return / random variable ::@:: Both price changes and dividend payouts are uncertain; thus HPR is a random variable whose distribution reflects market volatility.
+    - holding period return / random variable / estimation ::@:: Time‑series data (monthly or yearly returns) allow empirical estimation of expected return and risk measures.
+- [expected return](../../../../general/expected%20return.md) ::@:: It  on a financial investment is the expected value of its return (of the profit on the investment). It is a measure of the center of the distribution of the random variable that is the return.
+  - expected return / formula ::@:: For a finite set of economic states $\{s_i\}$, each with probability $p(s_i)$ and asset return $r(s_i)$, the expected return is $\mu = \sum p(s_i) r(s_i)$.
+  - expected return / interpretation ::@:: This weighted average captures forward‑looking investor expectations; higher probabilities for favorable states elevate $\mu$.
+  - expected return / formula
+    - expected return / formula / example ::@:: Example calculation: a portfolio with returns 20%, 5%, 1% and -10% in four scenarios (probabilities 5%, 40%, 40%, 15%) yields $\mu = 1.9\%$.
+  - expected return / moment ::@:: It is the _1st_ moment of return as a random variable.
+- [variance](../../../../general/variance.md) ::@:: __Variance__ is the expected value of the squared deviation from the mean of a random variable. It is often represented by $\sigma ^{2}$, $s^{2}$, $\operatorname {Var} (X)$, $V(X)$, or $\mathbb {V} (X)$.
+  - variance / discrete random variable ::@:: The variance of a discrete random variable is $$\operatorname{Var}(X) = \sum_{x \in \mathcal X} \left((x - \mu)^2 p(x) \right) \,.$$ This is only defined if the above sum and $\mu$ exists, so it is possible for a discrete random variable to have undefined variance.
+  - variance / standard deviation ::@:: Taking the square root gives standard deviation $\sigma$, often called volatility; larger $\sigma$ implies a wider spread of possible outcomes.
+  - variance / example ::@:: Example calculation: a portfolio with returns 20%, 5%, 1% and -10% in four scenarios (probabilities 5%, 40%, 40%, 15%) yields $\mu = 1.9\%$. <p> The variance is $0.42\%$ \(alternatively expressed as $0.0042$ or $42\%\%$\) and SD is $6.5\%$, indicating moderate risk relative to the mean.
+  - variance / percentage ::@:: When calculating variance or standard deviation, avoid using percentage. If you do use it, note the number for variance is in units of _double_ percent %%, where 1%% = 0.0001. <p> \(__this course__: Show the final answer of variance and SD in percentage.\)
+  - variance / moment ::@:: It is the _2nd_ centralized moment of a random variable.
+- [normal distribution](../../../../general/normal%20distribution.md) ::@:: The __normal distribution__ or __Gaussian distribution__ is important in statistics and is often used in the natural and social sciences to represent real-valued random variables whose distributions are not known. Their importance is partly due to the central limit theorem. It is denoted $\mathcal N(\mu, \sigma^2)$, where $\mu \in \mathbb R$ is the mean and $\sigma^2 \in \mathbb R_{> 0}$ is the variance. <p> \(When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance.\)
+- [68–95–99.7 rule](../../../../general/68–95–99.7%20rule.md) ::@:: It is a shorthand used to remember the percentage of values that lie within an interval estimate in a normal distribution: approximately 68%, 95%, and 99.7% of the values lie within one, two, and three standard deviations of the mean, respectively.
+- variance
+  - variance / interpretation ::@:: A lager standard deviation \($\sigma$\) indicates that realized values are more widely dispersed around the mean, meaning outcomes vary considerably from one another. When $\sigma$ equals zero, the outcome is certain and always equal to the mean, so any increase in $\sigma$ makes future returns increasingly unpredictable.
+- expected return
+  - expected return / estimation ::@:: With observed returns $(r_1,\dots,r_n)$, the sample mean $$\bar{r} = \frac{1}{n}\sum r_t$$ approximates expected return. <p> These plug‑in estimators are unbiased for large samples and form the basis for most portfolio calculations.
+  - expected return / vs. realized return ::@:: From today's viewpoint, we look at _expected return_ \($\sigma$\) as a forward‑looking estimate of the average outcome and assess _risk_ through its variance or standard deviation \($\sigma^2, \sigma$\), assuming we know the return distribution. <p> In contrast, the _realized return_ is what actually occurred, measured after the fact; observing many past returns lets us infer the underlying distribution $p(s)$ and $r(s)$ and then use that empirical knowledge to predict future performance.
+- variance
+  - variance / estimation ::@:: With observed returns $(r_1,\dots,r_n)$,sample variance $$\hat{\sigma}^2 = \frac{1}{n-1}\sum (r_t - \bar{r})^2$$ estimates risk. \(__this course__: Use $n - 1$ instead of _n_ as the divisor.\) <p> These plug‑in estimators are unbiased for large samples and form the basis for most portfolio calculations.
 
 ## week 2 lecture 2
 
@@ -270,6 +315,83 @@ The content is in teaching order.
 > If you are requesting the recording, make sure to follow the instructions provided in the syllabus or in Lecture Slide #1.
 >
 > Please note that there will be __no class on Thursday, September 11__, as I will be attending a conference.
+
+## week 3 lecture
+
+- datetime: 2025-09-16T15:00:00+08:00/2025-09-16T16:20:00+08:00, PT1H20M
+- topic: skewness; kurtosis; two-moment decision model; risk premium; Sharpe ratio; value at risk
+- [skewness](../../../../general/skewness.md) ::@:: It in probability theory and statistics is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean.
+  - skewness / formula ::@:: $$\gamma_1 = \frac{E[(r-\mu)^3]}{\sigma^3}$$ A normal distribution is _symmetric_ and thus has zero skewness. <p> \(__this course__: $\sigma$ uses _unbiased_ estimator.\)
+  - skewness / direction ::@:: Intuitively for graphs, a distribution is __left-skewed__ or __negative-skewed__ if _its tail is on the left_, and vice versa for __right-skewed__ or __positive-skewed__. Otherwise, it is __unskewed__. Intuitively for numbers, a distribution is left-skewed if its mean is on the left of (smaller than) its median, and vice versa for right-skewed. Otherwise, it is unskewed. (But actually, said intuition is very very wrong sometimes... See the item below.)
+  - [skewness § relationship of mean and median](../../../../general/skewness.md#relationship%20of%20mean%20and%20median) ::@:: The above intuition is _usually_ correct if the distribution is unimodal. But in general, there are no direct relationships between skewness, mean, and median. Furthermore, an unskewed distribution is not necessarily symmetric. But its converse, a symmetric distribution is unskewed, is true.
+  - skewness / interpretation ::@:: It indicates asymmetry: positive skew means rare big gains and common small losses; negative skew implies rare large losses and common small gains. <p> These moments help assess whether mean‑variance metrics fully capture an asset's risk profile.
+  - skewness / moment ::@:: It is the normalized _3rd_ centralized moment of a random variable.
+- [kurtosis](../../../../general/kurtosis.md) ::@:: It refers to the degree of tailedness in the probability distribution of a real-valued, random variable in probability theory and statistics.
+  - kurtosis / formula ::@:: $$\gamma_2 = \frac{E[(r-\mu)^4]}{\sigma^4}$$ <p> \(__this course__: Use _excess kurtosis_ instead, even though the lecture slides call it simply "_kurtosis_". $\sigma$ uses _unbiased_ estimator.\)
+  - kurtosis / excess kurtosis
+    - kurtosis / excess kurtosis / formula ::@:: $$\gamma_2 = \frac{E[(r-\mu)^4]}{\sigma^4} - 3$$ A normal distribution has a kurtosis of 3, thus an _excess_ kurtosis of 0. <p> \(__this course__: Use _excess kurtosis_ instead, even though the lecture slides call it simply "_kurtosis_". $\sigma$ uses _unbiased_ estimator.\)
+    - kurtosis / excess kurtosis / interpretation ::@:: It gauges tail heaviness; excess kurtosis >&nbsp;0 signals fat tails and higher likelihood of extreme events than a normal distribution predicts. <p> These moments help assess whether mean‑variance metrics fully capture an asset's risk profile. <p> For example, positive excess kurtosis means variance/SD _underestimates_ extreme events.
+  - kurtosis / moment ::@:: It is the normalized _4th_ centralized moment of a random variable.
+- [two-moment decision model](../../../../general/two-moment%20decision%20model.md) ::@:: It is a model that describes or prescribes the process of making decisions in a context in which the decision-maker is faced with random variables whose realizations cannot be known in advance, and in which choices are made based on knowledge of two moments of those random variables.
+  - two-moment decision model / names ::@:: mean-variance analysis \(__this course__: Uses the name _mean-variance investor_\)
+  - two-moment decision model / assumptions ::@:: Investors focus on two attributes: expected return (higher is better) and variance/volatility (lower is preferable). Higher-order moments, e.g. skewness, kurtosis, are _ignored_. <p> The trade‑off assumption—"higher return comes with higher risk"—underpins many modern portfolio theories.
+  - two-moment decision model / risk aversion ::@:: Risk‑averse investors will prefer assets or portfolios that maximize return for a given level of volatility.
+  - two-moment decision model / moments ::@:: The two moments are almost always the mean—that is, the expected value, which is the first moment about zero—and the variance, which is the second moment about the mean (or the standard deviation, which is the square root of the variance).
+- [risk premium](../../../../general/risk%20premium.md) ::@:: It is a measure of excess return that is required by an individual to compensate being subjected to an increased level of risk. It is used widely in finance and economics, the general definition being the expected risky [return](../../../../general/rate%20of%20return.md) less the [risk-free return](../../../../general/risk-free%20interest%20rate.md), as demonstrated by the formula below.
+  - risk premium / formula ::@:: It is used widely in finance and economics, the general definition being the expected risky [return](../../../../general/rate%20of%20return.md) less the [risk-free return](../../../../general/risk-free%20interest%20rate.md), as demonstrated by the formula below. $$\text{risk premium}=E(r)-r_{f} \,,$$ where $E(r)$ is the risky expected rate of return and $r_{f}$ is the risk-free return.
+  - risk premium / nature ::@:: The value of this forward‑looking \(unobservable\) figure is theoretical and depends on investors' risk assessments rather than observable market prices alone.
+- [Sharpe ratio](../../../../general/Sharpe%20ratio.md) ::@:: It measures the performance of an investment such as a security or portfolio compared to a risk-free asset, after adjusting for its risk. <p> It represents the additional amount of return that an investor receives per unit of increase in risk. It provides a unitless measure of efficiency.
+  - Sharpe ratio / name ::@:: It was named after William F. Sharpe, who developed it in 1966. He won the Nobel prize in 1990.
+  - Sharpe ratio / formula ::@:: It is defined as the difference between the returns of the investment and the risk-free return, divided by the standard deviation of the investment returns: $$\text{SR} = \frac{\mu - r_f}{\sigma} \,.$$
+  - Sharpe ratio / interpretation ::@:: A higher SR indicates better compensation per unit of risk; investors compare assets to choose those with superior SRs.
+  - Sharpe ratio / example ::@:: With $r_f=4.3\%$, Apple's mean 6.5% and SD 8% give $\text{SR}_{AAPL} = \frac{2.2}{8} ≈ 0.275$; Amazon's mean 7.8% and SD 20% yield $\text{SR}_{AMZN} = \frac{3.5}{20} ≈ 0.175$. Apple offers a higher Sharpe ratio, suggesting better risk‑adjusted performance.
+- [value at risk](../../../../general/value%20at%20risk.md) \(VaR\) ::@:: It is a measure of the risk of loss of investment/capital. It estimates how much a set of investments might lose (with a given probability), given normal market conditions, in a set time period such as a day.
+  - value at risk / definition ::@:: It is the threshold loss value such that there is a specified probability $p$ (commonly 5% or 10%) that actual losses exceed it.
+    - value at risk / definition / inversion ::@:: The probability level is about equally often specified as one minus the probability of a VaR break, so that one-day 5% VaR would be called a one-day 95% VaR instead. This generally does not lead to confusion because the probability of VaR breaks is almost always small, certainly less than 50%. <p> \(__this course__: We do not invert _p_.\)
+  - value at risk / normal distribution ::@:: Under normality, VaR = $\bar{r} + z_p \hat{\sigma}$, where $z_{0.05} ≈ -1.65$ and $z_{0.01} = -2.33$; for non‑normal returns, empirical percentiles (e.g., Excel's `PERCENTILE`) compute VaR directly from data.
+  - value at risk / example ::@:: For a portfolio with mean 2% and SD 5%, the 5%/95% VaR is $2 - 1.65 \times 5 ≈ -6.25\%$, meaning there's a 5% chance of losing more than 6.25%.
+  - value at risk / non-normality ::@::
+- interest rate
+  - interest rate / risk-free rate
+    - interest rate / risk-free rate / historical ::@:: Historical risk‑free rates have been slightly positive, reflecting real economic growth and inflation expectations.
+  - interest rate / historical ::@:: Riskier assets generally deliver higher average returns to compensate for their volatility; this is observable across asset classes (equities vs bonds).
+    - interest rate / historical / correlation ::@:: Returns on risky assets often move together—high correlation arises from shared macroeconomic drivers—yet they tend to be serially uncorrelated \(i.e. uncorrelated over short periods of time\), implying no predictable momentum or reversal patterns over short horizons.
+
+## week 3 lecture 2
+
+- datetime: 2025-09-18T15:00:00+08:00/2025-09-18T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 4 lecture
+
+- datetime: 2025-09-23T15:00:00+08:00/2025-09-23T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 4 lecture 2
+
+- datetime: 2025-09-25T15:00:00+08:00/2025-09-25T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 5 lecture
+
+- datetime: 2025-09-30T15:00:00+08:00/2025-09-30T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 5 lecture 2
+
+- datetime: 2025-10-02T15:00:00+08:00/2025-10-02T16:20:00+08:00, PT1H20M
+- topic:
+- assignment: [homework 1](assignments/homework%201/index.md)
+
+## week 6 lecture
+
+- datetime: 2025-10-07T15:00:00+08:00/2025-10-07T16:20:00+08:00, PT1H20M
+- status: unscheduled; public holiday: Day after Mid-Autumn Festival
+
+## week 6 lecture 2
+
+- datetime: 2025-10-09T15:00:00+08:00/2025-10-09T16:20:00+08:00, PT1H20M
+- topic:
 
 ## aftermath
 
