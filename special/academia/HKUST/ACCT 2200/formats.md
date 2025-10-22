@@ -329,7 +329,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - activity cost allocation
   - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2026-01-05,218,330!2026-02-24,268,330-->
-  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2026-01-31,244,330!2025-11-07,184,330-->
+  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2026-01-31,244,330!2028-02-24,839,350-->
 
 ## activity cost driver - setups
 

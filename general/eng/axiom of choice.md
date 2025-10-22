@@ -162,7 +162,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
   - {@{[Well-ordering theorem](well-ordering%20theorem.md)}@}: {@{Every set can be well-ordered}@}. Consequently, {@{every [cardinal](cardinal%20number.md)}@} has {@{an [initial ordinal](initial%20ordinal.md#initial%20ordinal%20of%20a%20cardinal)}@}. <!--SR:!2025-12-06,75,344!2025-12-14,82,344!2025-12-09,78,344!2025-11-21,62,327-->
 
-  - {@{[Zorn's lemma](Zorn's%20lemma.md)}@}: {@{Every non-empty [partially ordered set](partially%20ordered%20set.md)}@} in which {@{every chain \(_i.e._, totally ordered subset\) has an upper bound}@} {@{contains at least one maximal element}@}. <!--SR:!2025-12-01,70,327!2025-11-21,62,327!2025-11-07,48,307!2025-12-15,83,344-->
+  - {@{[Zorn's lemma](Zorn's%20lemma.md)}@}: {@{Every non-empty [partially ordered set](partially%20ordered%20set.md)}@} in which {@{every chain \(_i.e._, totally ordered subset\) has an upper bound}@} {@{contains at least one maximal element}@}. <!--SR:!2025-12-01,70,327!2025-11-21,62,327!2026-05-27,201,327!2025-12-15,83,344-->
 
   - {@{[Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}: {@{Every partially ordered set}@} has {@{a maximal chain}@}. Equivalently, in {@{any partially ordered set}@}, {@{every chain can be extended to a maximal chain}@}. <!--SR:!2025-12-11,79,344!2025-11-23,64,327!2025-11-20,61,327!2025-12-10,78,344!2025-12-09,77,344-->
 
@@ -216,7 +216,7 @@ Examples of {@{category-theoretic statements}@} which {@{require choice}@} inclu
 
 - Every small [category](category%20(mathematics).md) ::@:: has a [skeleton](skeleton%20(category%20theory).md). <!--SR:!2025-12-15,83,344!2025-12-05,75,344-->
 - If two small categories are weakly equivalent, ::@:: then they are [equivalent](equivalence%20of%20categories.md). <!--SR:!2025-11-26,67,327!2025-12-09,77,344-->
-- Every continuous functor on a small-complete category which satisfies the appropriate solution set condition has a [left-adjoint](adjoint%20functors.md) ::@:: \(the Freyd adjoint functor theorem\). <!--SR:!2025-12-14,82,344!2025-11-07,48,307-->
+- Every continuous functor on a small-complete category which satisfies the appropriate solution set condition has a [left-adjoint](adjoint%20functors.md) ::@:: \(the Freyd adjoint functor theorem\). <!--SR:!2025-12-14,82,344!2026-04-06,150,307-->
 
 ## weaker forms
 
@@ -234,7 +234,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - {@{The [ultrafilter lemma](ultrafilter%20lemma.md#the%20ultrafilter%20lemma) \(with ZF\)}@} can be used to {@{prove the Axiom of choice for finite sets}@}: Given {@{$I\neq \varnothing$ and a collection $\left(X_{i}\right)_{i\in I}$ of non-empty finite sets}@}, {@{their product $\prod _{i\in I}X_{i}$ is not empty}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2025-11-25,66,327!2025-12-12,80,344!2025-12-04,74,344!2025-12-11,79,344-->
 
-  - {@{The [union](union%20(set%20theory).md)}@} of {@{any countable family of [countable sets](countable%20sets.md)}@} is {@{countable}@} \(this requires {@{[countable choice](axiom%20of%20countable%20choice.md) but not the full axiom of choice}@}\). <!--SR:!2025-12-14,82,344!2025-12-11,79,344!2025-11-29,69,327!2025-11-07,48,307-->
+  - {@{The [union](union%20(set%20theory).md)}@} of {@{any countable family of [countable sets](countable%20sets.md)}@} is {@{countable}@} \(this requires {@{[countable choice](axiom%20of%20countable%20choice.md) but not the full axiom of choice}@}\). <!--SR:!2025-12-14,82,344!2025-12-11,79,344!2025-11-29,69,327!2026-05-26,200,327-->
 
   - If {@{the set _A_ is [infinite](infinite%20set.md)}@}, then there exists {@{an [injection](injective%20function.md) from the [natural numbers](natural%20number.md) __N__ to _A_}@} \(see {@{[Dedekind infinite](Dedekind%20infinite.md)}@}\).<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2025-11-28,68,327!2025-12-10,79,344!2025-12-03,73,344-->
 
@@ -330,7 +330,7 @@ There are {@{models of Zermelo-Fraenkel set theory}@} in which {@{the axiom of c
 
 - {@{The real numbers}@} are {@{a countable union of countable sets}@}.<sup>[\[38\]](#^ref-38)</sup> This does not {@{imply that the real numbers are countable}@}: As pointed out above, to {@{show that a countable union of countable sets is itself countable}@} requires {@{the [Axiom of countable choice](axiom%20of%20countable%20choice.md)}@}. <!--SR:!2025-11-24,65,327!2025-11-30,70,327!2025-11-29,69,327!2025-11-22,63,327!2026-06-03,212,344-->
 
-- There is {@{a field}@} with {@{no algebraic closure}@}. <!--SR:!2025-11-07,48,307!2025-12-11,79,344-->
+- There is {@{a field}@} with {@{no algebraic closure}@}. <!--SR:!2026-05-25,199,327!2025-12-11,79,344-->
 
 - In {@{all models of ZF¬C}@} there is {@{a vector space with no basis}@}. <!--SR:!2025-12-01,70,327!2025-11-26,67,327-->
 

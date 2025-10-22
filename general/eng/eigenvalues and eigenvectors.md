@@ -133,7 +133,7 @@ Going a step further, taking {@{the [conjugate transpose](conjugate%20transpos.m
 
 Suppose that $A$ has {@{an eigenbasis, or equivalently $n$ [linear independent](linear%20independence.md) eigenvectors $\mathbf v_1, \ldots, \mathbf v_n$ with associated eigenvalues $\lambda_1, \ldots, \lambda_n$}@}. The eigenvalues need not be distinct. Define {@{a [square matrix](square%20matrix.md) $Q$ whose columns are the $n$ linearly independent eigenvectors of $A$}@}, {@{$$Q := \begin{bmatrix} \mathbf v_1 & \cdots & \mathbf v_n \end{bmatrix}$$}@}. <!--SR:!2029-07-21,1433,370!2028-07-18,1142,370!2025-12-01,404,370-->
 
-Since each column of $Q$ is an eigenvector of $A$, {@{left multiplying $Q$ by $A$ scales each column of $Q$ by its associated eigenvalue}@}, {@{$$AQ = \begin{bmatrix} \lambda_1 \mathbf v_1 & \cdots & \lambda_n \mathbf v_n \end{bmatrix}$$}@}. <!--SR:!2025-11-07,329,310!2030-06-21,1739,390-->
+Since each column of $Q$ is an eigenvector of $A$, {@{left multiplying $Q$ by $A$ scales each column of $Q$ by its associated eigenvalue}@}, {@{$$AQ = \begin{bmatrix} \lambda_1 \mathbf v_1 & \cdots & \lambda_n \mathbf v_n \end{bmatrix}$$}@}. <!--SR:!2029-09-21,1414,330!2030-06-21,1739,390-->
 
 With the scaled $Q$ ($AQ$) in mind, we can {@{express the same scaled $Q$ ($AQ$) in an alternative way}@} by {@{defining a [diagonal matrix](diagonal%20matrix.md) $\Lambda$ where each diagonal element $\Lambda_{ii}$ is the eigenvalue associated with the $i$-th column of $Q$}@}. Then, {@{$$AQ = Q\Lambda$$}@}. <!--SR:!2030-02-02,1627,390!2027-02-13,721,350!2030-08-10,1775,390-->
 

@@ -37,7 +37,7 @@ The algorithm performs the following steps:
 - Sort ::@:: the graph edges by weight. <!--SR:!2025-12-08,294,330!2025-12-07,293,330-->
 - Loop through ::@:: the edges of the graph, in ascending sorted order by their weight. For each edge: <!--SR:!2027-11-02,807,330!2025-11-12,273,330-->
   - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-12-09,294,330!2028-12-13,1153,350-->
-  - If not, ::@:: add the edge to the forest, combining two trees into a single tree. <!--SR:!2025-11-07,269,330!2025-11-09,271,330-->
+  - If not, ::@:: add the edge to the forest, combining two trees into a single tree. <!--SR:!2029-03-14,1223,350!2025-11-09,271,330-->
 
 At {@{the termination of the algorithm}@}, {@{the forest forms a minimum spanning forest of the graph}@}. If {@{the graph is connected}@}, the forest {@{has a single component and forms a minimum spanning tree}@}. <!--SR:!2025-12-04,290,330!2029-01-19,1182,350!2025-12-08,294,330!2025-12-02,289,330-->
 
@@ -112,7 +112,7 @@ The proof {@{consists of two parts}@}. First, it is proved that {@{the algorithm
 
 ### spanning tree
 
-Let $G$ be {@{a connected, weighted graph}@} and let $Y$ be {@{the subgraph of $G$ produced by the algorithm}@}. $Y$ {@{cannot have a cycle}@}, as {@{by definition an edge is not added if it results in a cycle}@}. $Y$ {@{cannot be disconnected}@}, since {@{the first encountered edge that joins two components of $Y$ would have been added by the algorithm}@}. Thus, {@{$Y$ is a spanning tree of $G$}@}. <!--SR:!2025-11-26,283,330!2028-10-29,1115,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-08,294,330!2029-02-25,1211,350!2025-11-07,268,330-->
+Let $G$ be {@{a connected, weighted graph}@} and let $Y$ be {@{the subgraph of $G$ produced by the algorithm}@}. $Y$ {@{cannot have a cycle}@}, as {@{by definition an edge is not added if it results in a cycle}@}. $Y$ {@{cannot be disconnected}@}, since {@{the first encountered edge that joins two components of $Y$ would have been added by the algorithm}@}. Thus, {@{$Y$ is a spanning tree of $G$}@}. <!--SR:!2025-11-26,283,330!2028-10-29,1115,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-08,294,330!2029-02-25,1211,350!2029-03-16,1225,350-->
 
 ### minimality
 
@@ -220,7 +220,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >     {@{<b>return</b> E<sub>f</sub>}@}
 > </pre> <!--SR:!2029-01-30,1190,350!2025-11-27,284,330!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2025-12-01,288,330!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2025-12-08,294,330!2029-01-17,1181,350!2025-11-08,270,330!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2025-11-30,286,330!2025-12-09,294,330-->
 
-Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-11-07,268,330!2029-01-04,1170,350!2025-11-11,272,330-->
+Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-03-13,1222,350!2029-01-04,1170,350!2025-11-11,272,330-->
 
 Finally, other variants of {@{a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads}@} to remove {@{edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which runs {@{the sequential algorithm on _p_ subgraphs}@}, then merges {@{those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-29,286,330!2025-11-10,272,330!2026-02-12,125,310!2026-02-11,103,386!2026-02-11,103,386-->
 

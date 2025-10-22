@@ -11,7 +11,7 @@ tags:
 
 > {@{![An example of a demand curve shifting.](../../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
-> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2025-11-07,271,330!2028-07-31,1048,350!2025-12-04,293,330!2028-10-13,1107,350!2027-06-23,721,330-->
+> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2029-03-29,1238,350!2028-07-31,1048,350!2025-12-04,293,330!2028-10-13,1107,350!2027-06-23,721,330-->
 
 A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [inverse demand function](inverse%20demand%20function.md)}@},<sup>[\[1\]](#^ref-1)</sup> {@{a relationship between the price of a certain [commodity](commodity.md) \(the _y_-axis\) and the quantity of that commodity that is demanded at that price \(the _x_-axis\)}@}. {@{Demand curves}@} can be used either for {@{the price-quantity relationship for an individual consumer \(an __individual demand curve__\)}@}, or for {@{all consumers in a particular market \(a __market demand curve__\)}@}. <!--SR:!2028-11-17,1135,350!2025-12-02,291,330!2028-02-05,842,330!2025-11-17,26,381!2025-11-17,26,381-->
 
@@ -27,7 +27,7 @@ Demand curves are {@{estimated by a variety of techniques}@}.<sup>[\[4\]](#^ref-
 
 ## shape of the demand curve
 
-In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2028-09-09,1081,350!2027-05-18,692,330!2025-11-07,271,330-->
+In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2028-09-09,1081,350!2027-05-18,692,330!2028-04-24,899,330-->
 
 For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-12-20,1162,350!2028-10-29,1121,350!2028-10-28,1120,350!2028-11-08,1128,350!2028-11-22,1140,350!2028-09-18,1087,350!2028-08-18,1062,350!2028-08-28,1070,350!2025-12-02,291,330-->
 

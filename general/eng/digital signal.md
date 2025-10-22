@@ -76,7 +76,7 @@ In {@{communications}@}, {@{sources of interference}@} are {@{usually present, a
 
 - Main article: ::@:: [Logic level](logic%20level.md) <!--SR:!2026-02-13,275,330!2025-12-13,227,330-->
 
-{@{A [waveform](waveform.md) that switches representing the two states of a [Boolean](Boolean%20logic.md) value \(0 and 1, or low and high, or false and true\)}@} is referred to as {@{a _digital signal_ or _logic signal_ or _binary signal_ when it is interpreted in terms of only two possible digits}@}. <!--SR:!2026-02-08,270,330!2025-11-07,192,310-->
+{@{A [waveform](waveform.md) that switches representing the two states of a [Boolean](Boolean%20logic.md) value \(0 and 1, or low and high, or false and true\)}@} is referred to as {@{a _digital signal_ or _logic signal_ or _binary signal_ when it is interpreted in terms of only two possible digits}@}. <!--SR:!2026-02-08,270,330!2028-02-16,831,330-->
 
 The two states are usually {@{represented by some measurement of an electrical property}@}: {@{[Voltage](electric%20potential.md) is the most common, but [current](electric%20current.md) is used in some logic families}@}. {@{Two ranges of voltages}@} are {@{typically defined for each logic family, which are frequently not directly adjacent}@}. The signal is {@{low when in the low range and high when in the high range}@}, and {@{in between the two ranges the behavior can vary between different types of gates}@}. <!--SR:!2026-01-30,267,330!2026-01-08,250,330!2026-01-25,263,330!2026-02-02,264,330!2026-03-09,294,330!2025-12-28,240,330-->
 

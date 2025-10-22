@@ -425,7 +425,7 @@ Markov chain models have been used in {@{advanced baseball analysis since 1960}@
 
 ### Markov text generators
 
-Markov processes can also be used to {@{[generate superficially real-looking text](natural%20language%20generation.md)}@} given {@{a sample document}@}. Markov processes are used in {@{a variety of recreational "[parody generator](parody%20generator.md)" software}@} \(see {@{[dissociated press](dissociated%20press.md)}@}, Jeff Harrison,<sup>[\[103\]](#^ref-103)</sup> {@{[Mark V. Shaney](Mark%20V.%20Shaney.md)}@},<sup>[\[104\]](#^ref-104)</sup><sup>[\[105\]](#^ref-105)</sup> and Academias Neutronium\). {@{Several open-source text generation libraries using Markov chains}@} exist. <!--SR:!2026-03-14,362,359!2026-03-31,377,359!2028-02-02,877,347!2025-11-07,256,339!2026-03-28,351,301!2026-03-25,371,359-->
+Markov processes can also be used to {@{[generate superficially real-looking text](natural%20language%20generation.md)}@} given {@{a sample document}@}. Markov processes are used in {@{a variety of recreational "[parody generator](parody%20generator.md)" software}@} \(see {@{[dissociated press](dissociated%20press.md)}@}, Jeff Harrison,<sup>[\[103\]](#^ref-103)</sup> {@{[Mark V. Shaney](Mark%20V.%20Shaney.md)}@},<sup>[\[104\]](#^ref-104)</sup><sup>[\[105\]](#^ref-105)</sup> and Academias Neutronium\). {@{Several open-source text generation libraries using Markov chains}@} exist. <!--SR:!2026-03-14,362,359!2026-03-31,377,359!2028-02-02,877,347!2029-02-13,1194,359!2026-03-28,351,301!2026-03-25,371,359-->
 
 ### probabilistic forecasting
 

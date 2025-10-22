@@ -31,7 +31,7 @@ However, {@{the classification of normal and luxury goods}@} {@{vary from person
 
 > {@{![change in demand for both normal goods and luxury goods due to a change in income](../../archives/Wikimedia%20Commons/Income%20consumption.jpg)}@}
 >
-> The graph shows {@{the change in demand for both normal goods and luxury goods due to a change in income}@}. When {@{the income rises from 500 to 700}@}, {@{the quantity demanded for normal goods rises from 800 to 900}@}. <!--SR:!2025-11-16,277,330!2025-11-07,271,330!2025-11-17,278,330!2029-03-01,1216,350-->
+> The graph shows {@{the change in demand for both normal goods and luxury goods due to a change in income}@}. When {@{the income rises from 500 to 700}@}, {@{the quantity demanded for normal goods rises from 800 to 900}@}. <!--SR:!2025-11-16,277,330!2029-03-28,1237,350!2025-11-17,278,330!2029-03-01,1216,350-->
 
 ### normal goods and consumer behaviour
 

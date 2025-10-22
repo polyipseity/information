@@ -98,11 +98,11 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### star-to-delta transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{\mathrm {ac} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{b} } }\\R_{\mathrm {ab} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\\R_{\mathrm {bc} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{a} } }\end{aligned} }$$ \(annotation: 2 variables per term above, 1 below; 3 terms above, 1 below\) <!--SR:!2026-08-31,338,270!2025-11-07,60,270-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{\mathrm {ac} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{b} } }\\R_{\mathrm {ab} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\\R_{\mathrm {bc} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{a} } }\end{aligned} }$$ \(annotation: 2 variables per term above, 1 below; 3 terms above, 1 below\) <!--SR:!2026-08-31,338,270!2026-04-15,159,270-->
 
 ### general form of network node elimination
 
-- Main article: ::@:: [Star-mesh transform](star-mesh%20transform.md) <!--SR:!2025-11-07,175,310!2026-04-13,305,349-->
+- Main article: ::@:: [Star-mesh transform](star-mesh%20transform.md) <!--SR:!2027-12-02,755,330!2026-04-13,305,349-->
 
 {@{The star-to-delta and series-resistor transformations}@} are {@{special cases of the general resistor network node elimination algorithm}@}. {@{Any node connected by _N_ resistors \(_R_<sub>1</sub> … _R<sub>N</sub>_\) to nodes __1__ … ___N___}@} can be {@{replaced by ${\tbinom {N}{2} }$ resistors interconnecting the remaining _N_ nodes}@}. {@{The resistance between any two nodes _x, y_}@} is given by: {@{$$R_{\mathrm {xy} }=R_{x}R_{y}\sum _{i=1}^{N}{\frac {1}{R_{i} } }$$}@} <!--SR:!2026-02-03,249,330!2026-06-08,351,349!2026-01-18,236,330!2026-04-27,318,349!2026-03-24,285,330!2026-07-18,352,320-->
 

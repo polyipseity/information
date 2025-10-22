@@ -76,7 +76,7 @@ Additionally, we can {@{expand generalized exponent laws and negative rising and
 - generalized exponent law for falling factorial ::@:: $$(x)_{m+n}=(x)_{m}(x-m)_{n}=(x)_{n}(x-n)_{m}$$ <!--SR:!2029-06-21,1324,350!2029-03-19,1250,350-->
 - generalized exponent law for rising factorial ::@:: $$x^{(m+n)}=x^{(m)}(x+m)^{(n)}=x^{(n)}(x+n)^{(m)}$$ <!--SR:!2028-11-21,1158,350!2028-11-29,1165,350-->
 - negative rising factorial ::@:: $$x^{(-n)}={\frac {\Gamma (x-n)}{\Gamma (x)} }={\frac {(x-n-1)!}{(x-1)!} }={\frac {1}{(x-n)^{(n)} } }={\frac {1}{(x-1)_{n} } }={\frac {1}{(x-1)(x-2)\cdots (x-n)} }$$ <!--SR:!2028-04-27,905,290!2026-11-15,550,310-->
-- negative falling factorial ::@:: $$(x)_{-n}={\frac {\Gamma (x+1)}{\Gamma (x+n+1)} }={\frac {x!}{(x+n)!} }={\frac {1}{(x+n)_{n} } }={\frac {1}{(x+1)^{(n)} } }={\frac {1}{(x+1)(x+2)\cdots (x+n)} }$$ <!--SR:!2026-06-14,396,290!2025-11-07,242,270-->
+- negative falling factorial ::@:: $$(x)_{-n}={\frac {\Gamma (x+1)}{\Gamma (x+n+1)} }={\frac {x!}{(x+n)!} }={\frac {1}{(x+n)_{n} } }={\frac {1}{(x+1)^{(n)} } }={\frac {1}{(x+1)(x+2)\cdots (x+n)} }$$ <!--SR:!2026-06-14,396,290!2028-05-11,916,290-->
 
 Finally, {@{[duplication](multiplication%20theorem.md) and [multiplication formulas](multiplication%20theorem.md)}@} for {@{the falling and rising factorials}@} provide {@{the next relations}@}: \(annotation: 4 items: {@{multiplication formula for falling factorial, multiplication formula for rising factorial, multiplication formula for rising factorial in its base, duplication formula for rising factorial}@}\) <!--SR:!2028-05-29,941,330!2025-11-26,23,369!2025-11-26,23,369!2025-11-27,24,369-->
 

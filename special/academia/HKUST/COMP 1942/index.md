@@ -130,7 +130,7 @@ The content is in teaching order.
 - datetime: 2024-03-04T18:00:00+08:00/2024-03-04T19:00:00+08:00
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
 - [FP-growth algorithm § overview](../../../../general/FP-growth%20algorithm.md#overview)
-- Jaccard's coefficient for binary data ::@:: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2025-11-07,386,377!2026-03-02,501,397-->
+- Jaccard's coefficient for binary data ::@:: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2031-04-21,1991,397!2026-03-02,501,397-->
 - matching coefficient for binary data ::@:: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2026-02-23,494,397!2026-03-09,508,397-->
 
 ## week 6 lecture 2
@@ -338,7 +338,7 @@ The content is in teaching order.
 
 - datetime: 2024-04-10T09:00:00+08:00/2024-04-10T10:30:00+08:00
 - [recurrent neural network](../../../../general/recurrent%20neural%20network.md)
-  - basic RNN ::@:: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks) <!--SR:!2027-01-06,715,357!2025-11-07,386,377-->
+  - basic RNN ::@:: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks) <!--SR:!2027-01-06,715,357!2031-04-22,1992,397-->
   - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
   - [§ gated recurrent unit](../../../../general/recurrent%20neural%20network.md#gated%20recurrent%20unit)
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
@@ -415,7 +415,7 @@ The content is in teaching order.
 - web database ranking considerations ::@:: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2030-03-15,1686,397!2026-03-28,526,397-->
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
-    - HITS algorithm variant ::@:: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2025-11-07,386,377!2026-02-23,494,397-->
+    - HITS algorithm variant ::@:: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2031-04-20,1990,397!2026-02-23,494,397-->
     - HITS algorithm termination ::@:: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2025-12-14,416,388!2026-12-21,743,408-->
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)

@@ -21,7 +21,7 @@ The equation can {@{take various forms}@}, including: <!--SR:!2028-05-16,958,330
 - $A=OE+L$ (i.e. ${\text{Assets} }={\text{Liabilities} }+{\text{Owner’s Equity} }$)
 - $A=SE+L$ (i.e. ${\text{Assets} }={\text{Shareholders’ Equity} }+{\text{Liabilities} }$) <sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup>
 
-The [formula](formula.md) can {@{also be rearranged}@}, e.g.: <!--SR:!2025-11-07,320,330-->
+The [formula](formula.md) can {@{also be rearranged}@}, e.g.: <!--SR:!2029-11-02,1456,350-->
 
 - $A-L=OE$ (i.e. ${\text{Assets} }-{\text{Liabilities} }={\text{Owner’s Equity} }$)
 - $A-L=SE$ (i.e. ${\text{Assets} }-{\text{Liabilities} }={\text{Shareholders’ Equity} }$) <sup>[\[1\]](#^ref-1)</sup>

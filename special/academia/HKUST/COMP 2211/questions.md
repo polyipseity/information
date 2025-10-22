@@ -72,7 +72,7 @@ tags:
 > 4. Content mining
 >
 > - solution: {@{4}@}
-> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2025-11-07,247,330!2025-11-21,257,330-->
+> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2028-12-08,1127,350!2025-11-21,257,330-->
 
 <!-- markdownlint MD028 -->
 

@@ -84,7 +84,7 @@ The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is define
 
 - see: [general/even and odd functions](../../general/even%20and%20odd%20functions.md)
 
-A sequence is {@{even or symmetric}@} iff {@{$f[-n] = f[n]$}@}. A sequence is {@{odd or antisymmetric}@} iff {@{$f[-n] = -f[n]$}@}. <!--SR:!2030-01-22,1585,381!2025-12-11,385,361!2026-01-04,405,361!2025-11-07,359,361-->
+A sequence is {@{even or symmetric}@} iff {@{$f[-n] = f[n]$}@}. A sequence is {@{odd or antisymmetric}@} iff {@{$f[-n] = -f[n]$}@}. <!--SR:!2030-01-22,1585,381!2025-12-11,385,361!2026-01-04,405,361!2030-09-20,1778,381-->
 
 ## convolution
 

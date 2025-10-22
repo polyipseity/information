@@ -52,7 +52,7 @@ The content is in teaching order.
     - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2025-12-10,62,310!2025-12-07,60,310-->
     - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2025-12-12,64,310!2025-11-30,54,310-->
     - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2025-12-13,65,310!2025-12-13,65,310-->
-    - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2025-12-03,57,310!2025-11-07,33,270-->
+    - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2025-12-03,57,310!2026-03-14,127,290-->
     - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!2025-12-08,61,310!2025-12-10,63,310-->
 - FINA 3810
   - FINA 3810 / current topics

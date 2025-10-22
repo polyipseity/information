@@ -55,7 +55,7 @@ Under {@{[monopoly](monopolistic%20competition.md)}@}, one firm is {@{a sole sel
 
 ## marginal revenue curve and marginal cost curve
 
-A company will {@{stop producing a product/service}@} when {@{marginal revenue (money the company earns from each additional sale) equals marginal cost (the cost the company costs to produce an additional unit)}@}. Therefore, a company is {@{making money when MR is greater than marginal cost (MC)}@}. And when {@{MC = MR, it is called profit maximization}@}. After this point; {@{the company can no longer make a profit}@}. Therefore, {@{it is in their interest to stop production}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-12-15,308,337!2025-11-07,277,337!2025-12-16,309,337!2029-02-01,1204,357!2029-01-18,1193,357!2029-02-19,1217,357-->
+A company will {@{stop producing a product/service}@} when {@{marginal revenue (money the company earns from each additional sale) equals marginal cost (the cost the company costs to produce an additional unit)}@}. Therefore, a company is {@{making money when MR is greater than marginal cost (MC)}@}. And when {@{MC = MR, it is called profit maximization}@}. After this point; {@{the company can no longer make a profit}@}. Therefore, {@{it is in their interest to stop production}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-12-15,308,337!2029-05-16,1286,357!2025-12-16,309,337!2029-02-01,1204,357!2029-01-18,1193,357!2029-02-19,1217,357-->
 
 ## relationship between marginal revenue and elasticity
 
