@@ -327,7 +327,7 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 
 1. __Name__ ::@:: concise title written as an active‑voice verb phrase in the present tense.
 2. __Brief description__ ::@:: a short \(one-sentence\) summary of the scenario.
-3. __Actors__ ::@:: the participants initiating the use case, optionally illustrated with a use case diagram fragment.
+3. __Actors__ ::@:: the participants initiating the use case; it may be listed or illustrated with a use case diagram fragment showing the actor and the use case.
 4. __Preconditions__ \(if any\) ::@:: conditions that must hold before the use case can start; they state _what_ is required, not _how_ it is achieved.
 5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered.
 6. __Postconditions__ \(if any\) ::@:: the state that must hold after completion if it matters to stakeholders or for subsequent use cases.
@@ -354,7 +354,7 @@ Preconditions serve to keep {@{each use‑case description independent of others
 
 From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points; typically inclusive, but best to specify)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}.
 
-{@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event‑response orientation}@} that focuses on {@{what happens rather than how it is implemented}@}.
+{@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event‑response orientation}@} \(i.e. {@{the user does something, then the system does something, etc.}@}\) that focuses on {@{what happens rather than how it is implemented}@}.
 
 > [!example] __branching using `if`__
 >
@@ -400,9 +400,9 @@ From there, {@{optional, variant, or exceptional behaviour}@} can be attached th
 
 {@{An _extension point_}@} is {@{a _named_ location in the flow}@} where {@{additional behaviour may be inserted}@}. They come in three forms: \(annotation: 3 items: {@{single location, set of discrete locations, region}@}\)
 
-- _single location_ ::@:: occurs at a single place (e.g., "ValidateTerm" in a course registration system)
-- _set of discrete locations_ ::@:: occurs at multiple places (e.g., "ConfirmSelection" used after both adding and dropping courses)
-- _region_ ::@:: a matched pair of points that delimit a set of positions, which are suitably named to make clear that they are matched (e.g., from "BeginEditingSchedule" to "EndEditingSchedule" in a course registration system)
+- _single location_ ::@:: occurs at a single place (e.g., `{Validate Term}` in a course registration system)
+- _set of discrete locations_ ::@:: occurs at multiple places (e.g., `{Confirm Selection}` used after both adding and dropping courses)
+- _region_ ::@:: a matched pair of points that delimit a set of positions, which are suitably named to make clear that they are matched (e.g., from `{Begin Editing Schedule}` to `{End Editing Schedule}` in a course registration system)
 
 {@{Extension points}@} are mainly employed to {@{host alternative flows}@}, allowing {@{optional, variant, or exceptional behaviour to be attached in a modular way}@} without {@{cluttering the basic sequence}@}.
 
