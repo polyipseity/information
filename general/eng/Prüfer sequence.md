@@ -96,7 +96,7 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 
 > [!info]- code
 >
-> ```psuedocode
+> ```pseudocode
 >  8 for each value i in a do
 >  9     for each node j in T do
 > 10         if degree[j] = 1 then
@@ -139,7 +139,7 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 
 > [!info]- code
 >
-> ```psuedocode
+> ```pseudocode
 > 15 u ← v ← 0
 > 16 for each node i in T
 > 17     if degree[i] = 1 then

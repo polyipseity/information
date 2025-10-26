@@ -59,7 +59,7 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
 
 > [!info]- code
 >
-> ```psuedocode
+> ```pseudocode
 > algorithm Kruskal(G) is
 >     F:= ∅
 >     for each v in G.V do
@@ -160,7 +160,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 
 > [!info]- code
 >
-> ```psuedocode
+> ```pseudocode
 > function filter_kruskal(G) is
 >     if |G.E| < kruskal_threshold:
 >         return kruskal(G)

@@ -189,7 +189,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >
 > {@{Right hand side}@}:
 >
-> ```psuedocode
+> ```pseudocode
 > x :: xs1
 >   = x :: xs1.reverse.reverse  // by inductive hypothesis
 > ```
