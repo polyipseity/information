@@ -155,7 +155,7 @@ In principle, nodal analysis uses {@{[Kirchhoff's current law](Kirchhoff's%20cur
 
 For {@{some common elements where this is not possible}@}, {@{specialized methods are developed}@}. For example, {@{a concept called supernode}@} is used for {@{circuits with independent voltage sources}@}.<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;2-12 - 2-13&hairsp;</sup> <!--SR:!2026-01-24,239,330!2026-01-27,242,330!2026-07-08,377,360!2027-11-12,738,330-->
 
-1. \(annotation: label, reference\) ::@:: Label all __nodes__ in the circuit. Arbitrarily select any node as reference. <!--SR:!2026-07-11,380,360!2025-11-08,176,310-->
+1. \(annotation: label, reference\) ::@:: Label all __nodes__ in the circuit. Arbitrarily select any node as reference. <!--SR:!2026-07-11,380,360!2027-12-03,755,330-->
 2. \(annotation: variables\) ::@:: Define a voltage variable from every remaining node to the reference. These voltage variables must be defined as voltage rises with respect to the reference node. <!--SR:!2026-07-09,378,360!2025-11-29,189,310-->
 3. \(annotation: KCL\) ::@:: Write a KCL equation for every node except the reference. <!--SR:!2026-07-18,386,360!2026-07-27,393,360-->
 4. \(annotation: solving\) ::@:: Solve the resulting system of equations. <!--SR:!2026-06-06,349,349!2026-07-29,395,360-->

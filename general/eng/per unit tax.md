@@ -11,7 +11,7 @@ tags:
 
 # per unit tax
 
-{@{A __per unit tax__, or __specific tax__}@}, is {@{a [tax](tax.md) that is defined as a fixed amount for each unit of a good or service sold}@}, such as {@{cents per kilogram}@}. It is thus {@{proportional to the particular quantity of a product sold, regardless of its price}@}. {@{[Excise](excise.md) taxes}@}, for instance, fall into this tax category. By contrast, {@{an [ad valorem](ad%20valorem%20tax.md) tax}@} is {@{a charge based on a fixed percentage of the product value}@}. Per unit taxes have {@{administrative advantages when it is easy to measure quantities of the product or service being sold}@}. <!--SR:!2025-11-15,282,330!2027-09-19,781,330!2029-04-07,1249,350!2025-11-08,276,330!2027-05-26,701,330!2027-10-16,801,330!2028-12-18,1165,350!2028-12-07,1156,350-->
+{@{A __per unit tax__, or __specific tax__}@}, is {@{a [tax](tax.md) that is defined as a fixed amount for each unit of a good or service sold}@}, such as {@{cents per kilogram}@}. It is thus {@{proportional to the particular quantity of a product sold, regardless of its price}@}. {@{[Excise](excise.md) taxes}@}, for instance, fall into this tax category. By contrast, {@{an [ad valorem](ad%20valorem%20tax.md) tax}@} is {@{a charge based on a fixed percentage of the product value}@}. Per unit taxes have {@{administrative advantages when it is easy to measure quantities of the product or service being sold}@}. <!--SR:!2025-11-15,282,330!2027-09-19,781,330!2029-04-07,1249,350!2029-04-24,1263,350!2027-05-26,701,330!2027-10-16,801,330!2028-12-18,1165,350!2028-12-07,1156,350-->
 
 ## effect on supply curve
 

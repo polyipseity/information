@@ -65,7 +65,7 @@ These definitions make it manifest that {@{there is a bijection $$\{ {\text{Spac
 
 This space (annotation: ${\text{Iso} }(\mathbb {R} ^{n}\rightarrow V)$) admits {@{a left action by the group of isometries of $V$}@}, that is, {@{$R\in {\text{GL} }(V)$ such that $\phi (\cdot ,\cdot )=\phi (R\cdot ,R\cdot )$}@}, with the action {@{given by composition: $R*C=R\circ C$}@}. <!--SR:!2026-04-28,341,344!2027-03-09,570,324!2026-04-13,333,344-->
 
-This space (annotation: ${\text{Iso} }(\mathbb {R} ^{n}\rightarrow V)$) also admits {@{a right action by the group of isometries of $\mathbb {R} ^{n}$}@}, that is, {@{$R_{ij}\in {\text{O} }(n)\subset {\text{Mat} }_{n\times n}(\mathbb {R} )$ (annotation: the group of $n \times n$ orthogonal matrices)}@}, with the action again {@{given by composition: $C*R_{ij}=C\circ R_{ij}$}@}. <!--SR:!2025-12-07,222,324!2025-11-08,202,324!2026-04-20,333,344-->
+This space (annotation: ${\text{Iso} }(\mathbb {R} ^{n}\rightarrow V)$) also admits {@{a right action by the group of isometries of $\mathbb {R} ^{n}$}@}, that is, {@{$R_{ij}\in {\text{O} }(n)\subset {\text{Mat} }_{n\times n}(\mathbb {R} )$ (annotation: the group of $n \times n$ orthogonal matrices)}@}, with the action again {@{given by composition: $C*R_{ij}=C\circ R_{ij}$}@}. <!--SR:!2025-12-07,222,324!2027-08-23,653,324!2026-04-20,333,344-->
 
 ## as a principal homogeneous space
 

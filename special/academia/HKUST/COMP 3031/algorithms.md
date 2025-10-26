@@ -50,7 +50,7 @@ tags:
 >     if (x < y) x :: xs else y :: insert(x, ys)
 > }
 > ```
-<!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-08,12,270-->
+<!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-12-21,43,290-->
 
 {@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290-->
 
@@ -71,7 +71,7 @@ tags:
 >     val (fst, snd) = xs.splitAt(n)
 >     merge(msort(fst), msort(snd))
 > ```
-<!--SR:!2025-11-11,15,290!2025-11-10,14,290!2025-11-08,12,270-->
+<!--SR:!2025-11-11,15,290!2025-11-10,14,290!2025-12-21,43,290-->
 
 The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub‑lists}@}. <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-10,14,290-->
 

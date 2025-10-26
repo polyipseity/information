@@ -26,6 +26,6 @@ Some common syscalls are provided below:
 - \(`$v0`=5\) `read_int` ::@:: Read a line as an integer. <p> output: `$v0` \(`$2`\) is the integer read. <!--SR:!2026-02-11,255,330!2026-02-10,254,330-->
 - \(`$v0`=6\) `read_float` ::@:: Read a line as a float. <p> output: `$f0` is the float read. <!--SR:!2027-01-28,497,310!2025-12-09,191,310-->
 - \(`$v0`=7\) `read_double` ::@:: Read a line as a double. <p> output: `$f1:$f0` is the double read. <!--SR:!2026-02-24,264,330!2026-02-09,253,330-->
-- \(`$v0`=8\) `read_string` ::@:: Read a line to a string buffer of a specified size. The string is _null-terminated_, so maximum string size is 1 less than the buffer size. `$at` \(`$1`\) will be cobbled. <p> input: `$a0` \(`$4`\) is the string buffer. `$a1` \(`$5`\) is the string buffer size. <!--SR:!2025-11-08,173,310!2027-01-27,496,310-->
+- \(`$v0`=8\) `read_string` ::@:: Read a line to a string buffer of a specified size. The string is _null-terminated_, so maximum string size is 1 less than the buffer size. `$at` \(`$1`\) will be cobbled. <p> input: `$a0` \(`$4`\) is the string buffer. `$a1` \(`$5`\) is the string buffer size. <!--SR:!2027-04-28,536,310!2027-01-27,496,310-->
 - \(`$v0`=9\) `sbrk` ::@:: Allocate memory of a specified size from the heap. <p> input: `$a0` \(`$4`\) is the memory size required. <br/> output: `$v0` \(`$2`\) is the address of the allocated memory. <!--SR:!2026-02-19,259,330!2026-02-26,266,330-->
 - \(`$v0`=10\) `exit` ::@:: Terminate the program. <!--SR:!2027-11-14,737,330!2026-02-10,254,330-->

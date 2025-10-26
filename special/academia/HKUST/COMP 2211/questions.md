@@ -593,7 +593,7 @@ tags:
 >
 > What is the motivation behind such a formula?
 >
-> - solution: {@{To avoid floating-point underflow.}@} <!--SR:!2025-11-08,247,330-->
+> - solution: {@{To avoid floating-point underflow.}@} <!--SR:!2028-12-09,1127,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1196,7 +1196,7 @@ tags:
 > 1. Write down the resulting pixel intensities at each coordinate.
 > 2. Desmond is not satisfied with the above algorithm. Name another algorithm which can produce better results.
 >
-> - solution: {@{For 1, the image remains unchanged. <p> For 2, we can use histogram equalization instead of contrast stretching as used here.}@} <!--SR:!2025-11-08,248,330-->
+> - solution: {@{For 1, the image remains unchanged. <p> For 2, we can use histogram equalization instead of contrast stretching as used here.}@} <!--SR:!2028-12-10,1128,350-->
 
 <!-- markdownlint MD028 -->
 

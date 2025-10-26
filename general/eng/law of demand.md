@@ -44,7 +44,7 @@ Skipping forward to 1890, economist [Alfred Marshall](Alfred%20Marshall.md) docu
 
 > {@{![Anything that affects the buying decision other than the product price will shift the demand curve.](../../archives/Wikimedia%20Commons/Change%20in%20demand.png)}@}
 >
-> {@{Anything that affects the buying decision other than the product price will shift the demand curve}@}. Considering {@{our example of mortgage rates}@}; with {@{a higher mortgage rate, demand curve will shift to the left from D0 to D1}@}. This means that {@{there is less demand for the housing market at every price}@}. On the other hand, with {@{lower mortgage rate demand curve shifts to the right from D0 to D2}@}, meaning {@{there is more demand for the housing market at every price}@}. <!--SR:!2029-04-11,1257,350!2026-01-23,344,349!2025-11-08,279,330!2026-01-28,348,349!2026-01-22,343,349!2025-11-09,279,330!2026-01-11,334,349-->
+> {@{Anything that affects the buying decision other than the product price will shift the demand curve}@}. Considering {@{our example of mortgage rates}@}; with {@{a higher mortgage rate, demand curve will shift to the left from D0 to D1}@}. This means that {@{there is less demand for the housing market at every price}@}. On the other hand, with {@{lower mortgage rate demand curve shifts to the right from D0 to D2}@}, meaning {@{there is more demand for the housing market at every price}@}. <!--SR:!2029-04-11,1257,350!2026-01-23,344,349!2029-05-03,1272,350!2026-01-28,348,349!2026-01-22,343,349!2025-11-09,279,330!2026-01-11,334,349-->
 
 ## mathematical description
 

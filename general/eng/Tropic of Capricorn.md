@@ -15,7 +15,7 @@ Using a continuously updated formula, the circle is {@{currently 23°26′10.0�
 
 ## name
 
-This line of [latitude](latitude.md) was named {@{after the [constellation](constellation.md) [Capricornus](Capricornus.md) during last centuries [BCE](Common%20Era..md)}@}, as {@{the [Sun](Sun.md) was there on the [December solstice](December%20solstice.md)}@}. Due to {@{westward [precession of the equinoxes](axial%20precession.md)}@}, this is {@{no longer the case}@}. The current constellation is {@{[Sagittarius](Sagittarius%20(constellation).md)}@}. <!--SR:!2028-04-25,918,290!2027-11-19,872,290!2027-09-04,815,290!2025-11-09,18,324!2025-11-08,17,324-->
+This line of [latitude](latitude.md) was named {@{after the [constellation](constellation.md) [Capricornus](Capricornus.md) during last centuries [BCE](Common%20Era..md)}@}, as {@{the [Sun](Sun.md) was there on the [December solstice](December%20solstice.md)}@}. Due to {@{westward [precession of the equinoxes](axial%20precession.md)}@}, this is {@{no longer the case}@}. The current constellation is {@{[Sagittarius](Sagittarius%20(constellation).md)}@}. <!--SR:!2028-04-25,918,290!2027-11-19,872,290!2027-09-04,815,290!2025-11-09,18,324!2026-01-25,78,344-->
 
 ## references
 

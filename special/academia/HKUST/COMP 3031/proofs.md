@@ -216,7 +216,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >   = x :: xs1                              // induction hypothesis on xs1
 > ```
 >
-> Thus {@{`xs.reverse.reverse = xs` holds for all lists}@}. <!--SR:!2025-11-11,15,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-08,12,270!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
+> Thus {@{`xs.reverse.reverse = xs` holds for all lists}@}. <!--SR:!2025-11-11,15,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290!2025-12-23,45,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
 
 ### proving `map` is distributive over concatenation
 
@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z <ｘ$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-08,12,270!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-10,14,290!2025-12-09,31,270!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290-->
 
 ### proving set union property
 
@@ -365,7 +365,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >
 > For {@{any sets $x$ and $y$ and element $e$}@}, {@{$$x.\text{union}(y).\text{contains}(e) = x.\text{contains}(e)\; \lor\; y.\text{contains}(e)$$}@} <!--SR:!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290-->
 
-The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-08,12,270!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
+The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290!2025-12-21,43,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
 
 > [!example] __`IntSet.union` property proof: part 1__
 >
@@ -404,4 +404,4 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > - {@{_Base case_}@}: Consider {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}.
 > - {@{_Inductive step_}@}: Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.
 >
-> This {@{finishes the proof}@}. <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-08,12,270!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->
+> This {@{finishes the proof}@}. <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-10,14,290!2025-12-21,43,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->

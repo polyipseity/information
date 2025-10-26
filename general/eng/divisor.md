@@ -22,7 +22,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also
 
 ## definition
 
-An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides $n$, $m$ is a divisor of $n$, $m$ is a factor of $n$, or $n$ is a multiple of $m$}@}. If {@{$m$ does not divide $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-08,238,330!2028-10-19,1077,350!2028-10-03,1064,350!2025-12-20,272,330!2025-12-23,274,330-->
+An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides $n$, $m$ is a divisor of $n$, $m$ is a factor of $n$, or $n$ is a multiple of $m$}@}. If {@{$m$ does not divide $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-10-25,1082,350!2028-10-19,1077,350!2028-10-03,1064,350!2025-12-20,272,330!2025-12-23,274,330-->
 
 There are {@{two conventions, distinguished by whether $m$ is permitted to be zero}@}: <!--SR:!2025-11-21,249,330-->
 
@@ -67,7 +67,7 @@ There are some elementary rules:
 
 {@{Any positive divisor of $n$}@} is {@{a product of [prime divisors](prime%20number.md#unique%20factorization) of $n$ raised to some power}@}. This is a consequence of {@{the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. <!--SR:!2026-01-05,284,330!2025-12-08,262,330!2025-11-26,253,330-->
 
-A number $n$ is said to be {@{[perfect](perfect%20number.md) if it equals the sum of its proper divisors}@}, {@{[deficient](deficient%20number.md) if the sum of its proper divisors is less than $n$}@}, and {@{[abundant](abundant%20number.md) if this sum exceeds $n$}@}. <!--SR:!2025-12-30,279,330!2025-11-28,255,330!2025-11-08,237,330-->
+A number $n$ is said to be {@{[perfect](perfect%20number.md) if it equals the sum of its proper divisors}@}, {@{[deficient](deficient%20number.md) if the sum of its proper divisors is less than $n$}@}, and {@{[abundant](abundant%20number.md) if this sum exceeds $n$}@}. <!--SR:!2025-12-30,279,330!2025-11-28,255,330!2028-10-21,1078,350-->
 
 {@{The total number of positive divisors of $n$}@} is {@{a [multiplicative function](multiplicative%20function.md) $d(n)$}@}, meaning that {@{when two numbers $m$ and $n$ are [relatively prime](coprime%20integers.md), then $d(mn)=d(m)\times d(n)$}@}. For instance, {@{$d(42)=8=2\times 2\times 2=d(2)\times d(3)\times d(7)$}@}; {@{the eight divisors of 42 are 1, 2, 3, 6, 7, 14, 21 and 42}@}. However, the number of positive divisors is {@{not a totally multiplicative function}@}: if {@{the two numbers $m$ and $n$ share a common divisor, then it might not be true that $d(mn)=d(m)\times d(n)$}@}. {@{The sum of the positive divisors of $n$}@} is {@{another multiplicative function $\sigma (n)$}@} \(for example, {@{$\sigma (42)=96=3\times 4\times 8=\sigma (2)\times \sigma (3)\times \sigma (7)=1+2+3+6+7+14+21+42$}@}\). Both of these functions are examples of {@{[divisor functions](divisor%20function.md)}@}. <!--SR:!2025-12-13,266,330!2026-01-03,282,330!2025-12-18,270,330!2025-12-08,262,330!2025-11-15,244,330!2027-08-21,721,330!2026-01-02,281,330!2025-12-23,274,330!2027-06-13,682,330!2027-03-20,561,310!2026-01-15,292,330-->
 

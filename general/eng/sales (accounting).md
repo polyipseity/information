@@ -62,7 +62,7 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 > | 9-7        | {@{Cash}@}                                           | {@{490.00}@} |              |
 > |            | {@{Sales Discounts}@}                                | {@{10.00}@}  |              |
 > |            | &ensp;{@{Accounts Receivable \(Customer A\)}@}       |              | {@{500.00}@} |
-> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              | <!--SR:!2027-03-25,504,401!2027-04-03,513,401!2027-03-26,504,401!2025-11-10,101,381!2025-11-11,102,381!2025-11-09,100,381!2027-03-21,501,401!2027-03-28,507,401!2025-11-08,99,381!2025-11-09,100,381!2027-03-19,499,401!2025-11-09,100,381!2027-04-08,517,401!2025-11-08,99,381!2027-04-09,518,401!2027-03-29,508,401-->
+> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              | <!--SR:!2027-03-25,504,401!2027-04-03,513,401!2027-03-26,504,401!2025-11-10,101,381!2025-11-11,102,381!2025-11-09,100,381!2027-03-21,501,401!2027-03-28,507,401!2027-04-11,519,401!2025-11-09,100,381!2027-03-19,499,401!2025-11-09,100,381!2027-04-08,517,401!2027-04-12,520,401!2027-04-09,518,401!2027-03-29,508,401-->
 
 {@{__Revenue__ or __Sales__ reported on the income statement}@} are {@{net sales after deducting Sales Returns and Allowances and Sales Discounts}@}. <!--SR:!2025-11-09,100,381!2027-03-27,506,401-->
 
@@ -72,7 +72,7 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 | {@{Sales}@}                             |               | {@{\$2,000.00}@} |
 | {@{Less Sales returns and allowances}@} | {@{\$20.00}@} |                  |
 | {@{Sales discounts}@}                   | {@{\$10.00}@} | {@{\$30.00}@}    |
-| {@{Net sales}@}                         |               | {@{\$1,970.00}@} | <!--SR:!2027-03-18,498,401!2027-03-17,497,401!2025-11-08,99,381!2025-11-08,99,381!2025-11-11,102,381!2025-11-11,102,381!2027-03-22,502,401!2025-11-10,101,381!2025-11-11,102,381!2025-11-10,101,381-->
+| {@{Net sales}@}                         |               | {@{\$1,970.00}@} | <!--SR:!2027-03-18,498,401!2027-03-17,497,401!2027-04-10,518,401!2027-04-11,519,401!2025-11-11,102,381!2025-11-11,102,381!2027-03-22,502,401!2025-11-10,101,381!2025-11-11,102,381!2025-11-10,101,381-->
 
 ## unique definitions
 
@@ -81,10 +81,10 @@ When {@{the US government reports [wholesale](wholesale.md) sales}@}, this {@{in
 ## other terms
 
 - [Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\) <!--SR:!2025-11-09,100,381!2025-11-09,100,381-->
-- [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2025-11-08,99,381!2025-11-09,100,381-->
+- [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2027-04-13,521,401!2025-11-09,100,381-->
 - [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2027-04-03,512,401!2027-04-01,510,401-->
 - [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-11-10,101,381!2027-04-02,511,401-->
-- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2026-11-10,369,381!2025-11-08,99,381-->
+- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2026-11-10,369,381!2026-11-20,377,381-->
 
 ## references
 

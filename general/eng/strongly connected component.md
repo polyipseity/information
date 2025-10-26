@@ -57,7 +57,7 @@ Although {@{Kosaraju's algorithm is conceptually simple}@}, {@{Tarjan's and the 
 
 ### generating random strongly connected graphs
 
-{@{Peter M. Maurer}@} describes {@{an algorithm for generating random strongly connected graphs}@},<sup>[\[9\]](#^ref-9)</sup> based on {@{a modification of an algorithm for [strong connectivity augmentation](strong%20connectivity%20augmentation.md)}@}, the problem of {@{adding as few edges as possible to make a graph strongly connected}@}. When used in conjunction with {@{the Gilbert or Erdős-Rényi models with node relabelling}@}, the algorithm is capable of {@{generating any strongly connected graph on _n_ nodes, without restriction on the kinds of structures that can be generated}@}. <!--SR:!2025-11-08,260,337!2025-11-16,267,337!2027-10-10,797,337!2027-03-14,610,317!2026-01-07,254,277!2026-05-02,369,297-->
+{@{Peter M. Maurer}@} describes {@{an algorithm for generating random strongly connected graphs}@},<sup>[\[9\]](#^ref-9)</sup> based on {@{a modification of an algorithm for [strong connectivity augmentation](strong%20connectivity%20augmentation.md)}@}, the problem of {@{adding as few edges as possible to make a graph strongly connected}@}. When used in conjunction with {@{the Gilbert or Erdős-Rényi models with node relabelling}@}, the algorithm is capable of {@{generating any strongly connected graph on _n_ nodes, without restriction on the kinds of structures that can be generated}@}. <!--SR:!2028-04-02,876,337!2025-11-16,267,337!2027-10-10,797,337!2027-03-14,610,317!2026-01-07,254,277!2026-05-02,369,297-->
 
 ## applications
 

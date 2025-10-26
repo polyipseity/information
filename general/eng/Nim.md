@@ -47,7 +47,7 @@ The following example of a normal game is played between fictional players [Bob 
 
 ## winning positions
 
-The practical strategy to win at the game of nim is {@{for a player to get the other into one of the following positions}@}, and {@{every successive turn afterwards they should be able to make one of the smaller positions}@}. Only the last move {@{changes between misère and normal play}@}. <!--SR:!2025-11-24,317,341!2025-11-23,316,341!2025-11-08,304,341-->
+The practical strategy to win at the game of nim is {@{for a player to get the other into one of the following positions}@}, and {@{every successive turn afterwards they should be able to make one of the smaller positions}@}. Only the last move {@{changes between misère and normal play}@}. <!--SR:!2025-11-24,317,341!2025-11-23,316,341!2029-10-03,1425,361-->
 
 | __2 heaps__ | __3 heaps__ | __4 heaps__     |
 | ----------- | ----------- | --------------- |
@@ -143,7 +143,7 @@ Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a 
 
 The theorem follows by {@{induction on the length of the game from these two lemmas}@}. <!--SR:!2029-08-25,1394,361-->
 
-__Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2029-03-31,1267,350!2025-11-08,304,341-->
+__Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2029-03-31,1267,350!2029-10-06,1428,361-->
 
 _Proof of Lemma 1:_ ::@:: If there is no possible move, then the lemma is [vacuously true](vacuous%20truth.md) (and the first player loses the normal play game by definition). Otherwise, any move in heap _k_ will produce _t_ = _x<sub>k</sub>_ ⊕ _y<sub>k</sub>_ from (*). This number is nonzero, since _x<sub>k</sub>_ ≠ _y<sub>k</sub>_. <!--SR:!2025-11-23,316,341!2029-09-11,1407,361-->
 
@@ -257,7 +257,7 @@ Again, the winning strategy is {@{to move such that this sum is zero for every d
 
 ### building nim
 
-Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins, starting with the next player that would move. This game is denoted _BN(n,s)_}@}. <!--SR:!2025-11-08,304,341!2025-11-23,316,341!2025-11-23,316,341!2029-04-03,1269,350!2025-12-17,332,341-->
+Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins, starting with the next player that would move. This game is denoted _BN(n,s)_}@}. <!--SR:!2029-10-04,1426,361!2025-11-23,316,341!2025-11-23,316,341!2029-04-03,1269,350!2025-12-17,332,341-->
 
 ### higher-dimensional nim
 

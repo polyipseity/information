@@ -13,7 +13,7 @@ Too advanced, so inheritance will be described in very simple terms.
 
 ## inheritance
 
-{@{The idea of inheritance}@} is the have {@{a base class containing common behaviors}@}, and then derive {@{classes that inherit behaviors from the base class}@} and then add {@{their own behaviors on top of it}@}. In practice, this means {@{methods and fields from the base class}@} are {@{usable and overridable in derived classes and other places}@}. <!--SR:!2031-03-03,1965,330!2029-02-04,1425,350!2025-11-09,18,336!2025-11-08,17,336!2025-11-08,17,336!2026-01-05,61,336-->
+{@{The idea of inheritance}@} is the have {@{a base class containing common behaviors}@}, and then derive {@{classes that inherit behaviors from the base class}@} and then add {@{their own behaviors on top of it}@}. In practice, this means {@{methods and fields from the base class}@} are {@{usable and overridable in derived classes and other places}@}. <!--SR:!2031-03-03,1965,330!2029-02-04,1425,350!2025-11-09,18,336!2026-01-29,82,356!2026-01-29,82,356!2026-01-05,61,336-->
 
 To inherit a class, one use {@{the `extends` keyword, like `class Derived extends Base`}@}. Only {@{one class}@} can be inherited. <!--SR:!2027-06-17,881,330!2028-11-06,1351,350-->
 

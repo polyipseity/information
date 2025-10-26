@@ -86,7 +86,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >   def prepend[U >: T](elem: U): List[U] = Cons(elem, this)
 > ```
 >
-> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-08,12,270!2025-11-11,15,290!2025-11-12,16,290-->
+> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290!2025-12-10,32,270!2025-11-11,15,290!2025-11-12,16,290-->
 
 This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]` \(where `Apple` and `Orange` are _direct_ subclasses of `Fruit`\)}@} yields {@{a `List[Fruit]`}@}. <!--SR:!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290-->
 
@@ -137,7 +137,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out‑of‑range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-08,12,270!2025-11-12,16,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-12,16,290-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out‑of‑range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-12-21,43,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-10,14,290!2025-11-12,16,290-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2025-11-10,14,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-11,15,290-->
 
@@ -314,7 +314,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >       (new ::(x, more)) :: pack(rest)
 > ```
 >
-> In {@{the return type of `pack`}@}, {@{`::[T]`}@} is used to {@{represent _nonempty_ lists}@}. <!--SR:!2025-11-13,17,310!2025-11-13,17,310!2025-11-08,12,290!2025-11-13,17,310!2025-11-13,17,310-->
+> In {@{the return type of `pack`}@}, {@{`::[T]`}@} is used to {@{represent _nonempty_ lists}@}. <!--SR:!2025-11-13,17,310!2025-11-13,17,310!2025-12-13,35,290!2025-11-13,17,310!2025-11-13,17,310-->
 
 In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->
 
@@ -328,7 +328,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > ```
 <!--SR:!2025-11-11,15,290!2025-11-11,15,290-->
 
-As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-11-08,12,270!2025-11-12,16,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-13,17,310-->
+As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-12-21,43,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-13,17,310-->
 
 ### reduce
 
@@ -400,7 +400,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2025-11-12,16,290!202
 >       case x :: xs  => xs.foldLeft(op(z, x))(op)
 > ```
 >
-> {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2025-11-13,17,310!2025-11-08,12,290!2025-11-13,17,310!2025-11-13,17,310-->
+> {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2025-11-13,17,310!2025-12-24,46,310!2025-11-13,17,310!2025-11-13,17,310-->
 
 {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2025-11-10,14,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-13,17,310!2025-11-13,17,310-->
 
