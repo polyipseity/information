@@ -52,7 +52,7 @@ Proposed on {@{the cusp of the [First Industrial Revolution](Industrial%20Revolu
 
 ## example
 
-{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities and this is called __increasing returns__}@}. <!--SR:!2025-11-09,100,381!2027-04-12,520,401!2027-03-18,500,401!2025-11-11,102,381!2027-03-26,505,401!2026-11-12,372,381-->
+{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities and this is called __increasing returns__}@}. <!--SR:!2027-04-15,522,401!2027-04-12,520,401!2027-03-18,500,401!2025-11-11,102,381!2027-03-26,505,401!2026-11-12,372,381-->
 
 If {@{50 people are employed}@}, {@{at some point, increasing the number of employees by two percent \(from 50 to 51 employees\)}@} would {@{increase output by two percent and this is called __constant returns__}@}. <!--SR:!2027-04-02,511,401!2027-04-01,510,401!2026-11-21,378,381-->
 
@@ -68,11 +68,11 @@ Further, examine something such as {@{the [Human Development Index](Human%20Deve
 
 ## mathematics
 
-Signify ::@:: $Output=O\ ,\ Input=I\ ,\ O=f(I)$ <!--SR:!2025-11-09,100,381!2027-03-31,510,401-->
+Signify ::@:: $Output=O\ ,\ Input=I\ ,\ O=f(I)$ <!--SR:!2027-04-17,524,401!2027-03-31,510,401-->
 
 Increasing Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)<f(2\cdot I)$ <!--SR:!2027-04-15,523,401!2027-03-24,503,401-->
 
-Constant Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)=f(2\cdot I)$ <!--SR:!2025-11-09,100,381!2025-11-11,102,381-->
+Constant Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)=f(2\cdot I)$ <!--SR:!2027-04-19,526,401!2025-11-11,102,381-->
 
 Diminishing Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)>f(2\cdot I)$ <!--SR:!2027-03-25,504,401!2027-02-16,474,401-->
 
@@ -80,7 +80,7 @@ Diminishing Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)>f(2\cdot I)$
 
 There is {@{a widely recognised production function in economics}@}: {@{_Q= f\(NR, L, K, t, E\)_}@}: <!--SR:!2027-04-04,512,401!2027-04-04,513,401-->
 
-- The point of diminishing returns can be realised, by ::@:: use of the second derivative in the above production function. <!--SR:!2025-11-09,100,381!2027-04-07,516,401-->
+- The point of diminishing returns can be realised, by ::@:: use of the second derivative in the above production function. <!--SR:!2027-04-12,519,401!2027-04-07,516,401-->
 - Which can be simplified to: ::@:: _Q= f\(L,K\)_. <!--SR:!2025-11-11,102,381!2027-03-20,501,401-->
 - This signifies that output \(Q\) is dependent on a function of all variable \(L\) and fixed \(K\) inputs in the production process. This is the basis to understand. What is important to understand after this is the math behind __marginal product.__ _MP= ΔTP/ ΔL._ <sup>[\[21\]](#^ref-21)</sup>
 - This formula is important to relate back to diminishing rates of return. It finds the change in total product divided by change in labour.
@@ -90,27 +90,27 @@ There is {@{a widely recognised production function in economics}@}: {@{_Q= f\(N
 
 Start from {@{the equation for the marginal product}@}: {@{${\Delta Out \over \Delta In_{1} }={ {f(In_{1}+\Delta In_{1},In_{2})-f(In_{1},In_{2})} \over \Delta In_{1} }$}@} <!--SR:!2025-11-11,102,381!2025-11-11,102,381-->
 
-To {@{demonstrate diminishing returns}@}, {@{two conditions are satisfied}@}; {@{marginal product is positive, and marginal product is decreasing}@}. <!--SR:!2027-04-11,519,401!2027-04-08,516,401!2025-11-09,100,381-->
+To {@{demonstrate diminishing returns}@}, {@{two conditions are satisfied}@}; {@{marginal product is positive, and marginal product is decreasing}@}. <!--SR:!2027-04-11,519,401!2027-04-08,516,401!2027-04-20,527,401-->
 
-{@{[Elasticity](output%20elasticity.md), a function of input and output}@}, {@{$\epsilon ={In \over Out}\cdot {\delta Out \over \delta In}$}@}, can be {@{taken for small input changes}@}. If {@{the above two conditions are satisfied}@}, then {@{$0<\epsilon <1$}@}.<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2027-03-17,499,401!2025-11-10,101,381!2025-11-09,100,381!2027-03-17,497,401!2025-11-09,100,381-->
+{@{[Elasticity](output%20elasticity.md), a function of input and output}@}, {@{$\epsilon ={In \over Out}\cdot {\delta Out \over \delta In}$}@}, can be {@{taken for small input changes}@}. If {@{the above two conditions are satisfied}@}, then {@{$0<\epsilon <1$}@}.<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2027-03-17,499,401!2025-11-10,101,381!2027-04-18,525,401!2027-03-17,497,401!2027-04-20,527,401-->
 
 This works intuitively;
 
 1. If ${In \over Out}$ is positive, ::@:: since negative inputs and outputs are impossible, <!--SR:!2027-03-07,491,401!2027-04-05,514,401-->
 2. And ${\delta Out \over \delta In}$ is positive, ::@:: since a positive return for inputs is required for diminishing _returns_ <!--SR:!2027-02-25,482,401!2027-03-25,505,401-->
 
-- (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next, <!--SR:!2027-03-08,491,401!2025-11-09,100,381-->
+- (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next, <!--SR:!2027-03-08,491,401!2026-11-26,382,381-->
 
 1. {@{${\delta Out \over Out}$}@} is {@{relative change in output}@}, {@{${\delta In \over In}$}@} is {@{relative change in input}@}
-2. {@{The relative change in output}@} is {@{smaller than the relative change in input}@}; ~input requires {@{increasing effort to change output}@}~ <!--SR:!2027-03-22,502,401!2027-04-06,515,401!2027-04-15,523,401!2025-11-09,100,381!2027-04-01,511,401!2027-03-20,500,401!2027-03-28,506,401-->
+2. {@{The relative change in output}@} is {@{smaller than the relative change in input}@}; ~input requires {@{increasing effort to change output}@}~ <!--SR:!2027-03-22,502,401!2027-04-06,515,401!2027-04-15,523,401!2027-04-16,523,401!2027-04-01,511,401!2027-03-20,500,401!2027-03-28,506,401-->
 
 - (annotation: $\frac {\partial Out} {Out} < \frac {\partial In} {In}$) ::@:: Then ${\delta Out \over Out}/{\delta In \over In}={In \over Out}\cdot {\delta Out \over \delta In}=\epsilon <1$ <!--SR:!2025-11-10,101,381!2027-03-27,506,401-->
 
 ## returns and costs
 
-There is {@{an inverse relationship}@} between {@{returns of inputs and the cost of production}@},<sup>[\[24\]](#^ref-24)</sup> although {@{other features such as input market conditions can also affect production costs}@}. Suppose that {@{a kilogram of seed costs one [dollar](dollar.md)}@}, and {@{this price does not change}@}. Assume {@{for simplicity that there are no [fixed costs](fixed%20cost.md)}@}. One kilogram of seeds {@{yields one ton of crop}@}, so {@{the first ton of the crop costs one dollar to produce}@}. That is, for {@{the first ton of output}@}, the [marginal cost](marginal%20cost.md) as well as {@{the average cost of the output is 1 per ton}@}. If {@{there are no other changes}@}, then if {@{the second kilogram of seeds applied to land produces only half the output of the first \(showing diminishing returns\)}@}, the marginal cost would {@{equal 1 per half ton of output, or 2 per ton}@}, and the average cost is {@{2 per 3/2 tons of output, or 4/3 per ton of output}@}. Similarly, if {@{the third kilogram of seeds yields only a quarter ton}@}, then the marginal cost {@{equals 1 per quarter ton or 4 per ton}@}, and the average cost is {@{3 per 7/4 tons, or 12/7 per ton of output}@}. Thus, {@{diminishing marginal returns}@} imply {@{increasing marginal costs and increasing average costs}@}. <!--SR:!2027-03-26,506,401!2025-11-09,100,381!2027-03-23,502,401!2027-03-14,494,401!2027-03-16,496,401!2027-03-19,499,401!2027-03-19,500,401!2027-03-30,509,401!2027-03-13,493,401!2025-11-09,100,381!2027-04-02,512,401!2026-11-11,372,381!2025-11-10,101,381!2027-03-18,498,401!2027-04-14,522,401!2025-11-11,102,381!2026-08-06,313,381!2025-11-09,100,381!2027-04-09,518,401-->
+There is {@{an inverse relationship}@} between {@{returns of inputs and the cost of production}@},<sup>[\[24\]](#^ref-24)</sup> although {@{other features such as input market conditions can also affect production costs}@}. Suppose that {@{a kilogram of seed costs one [dollar](dollar.md)}@}, and {@{this price does not change}@}. Assume {@{for simplicity that there are no [fixed costs](fixed%20cost.md)}@}. One kilogram of seeds {@{yields one ton of crop}@}, so {@{the first ton of the crop costs one dollar to produce}@}. That is, for {@{the first ton of output}@}, the [marginal cost](marginal%20cost.md) as well as {@{the average cost of the output is 1 per ton}@}. If {@{there are no other changes}@}, then if {@{the second kilogram of seeds applied to land produces only half the output of the first \(showing diminishing returns\)}@}, the marginal cost would {@{equal 1 per half ton of output, or 2 per ton}@}, and the average cost is {@{2 per 3/2 tons of output, or 4/3 per ton of output}@}. Similarly, if {@{the third kilogram of seeds yields only a quarter ton}@}, then the marginal cost {@{equals 1 per quarter ton or 4 per ton}@}, and the average cost is {@{3 per 7/4 tons, or 12/7 per ton of output}@}. Thus, {@{diminishing marginal returns}@} imply {@{increasing marginal costs and increasing average costs}@}. <!--SR:!2027-03-26,506,401!2027-04-13,520,401!2027-03-23,502,401!2027-03-14,494,401!2027-03-16,496,401!2027-03-19,499,401!2027-03-19,500,401!2027-03-30,509,401!2027-03-13,493,401!2027-04-14,521,401!2027-04-02,512,401!2026-11-11,372,381!2025-11-10,101,381!2027-03-18,498,401!2027-04-14,522,401!2025-11-11,102,381!2026-08-06,313,381!2027-04-21,528,401!2027-04-09,518,401-->
 
-Cost is measured {@{in terms of [opportunity cost](opportunity%20cost.md)}@}. In this case the law also {@{applies to societies}@} – {@{the opportunity cost of producing a single unit of a good}@} {@{generally increases as a society attempts to produce more of that good}@}. This explains {@{the bowed-out shape of the [production possibilities frontier](production%20possibilities%20frontier.md)}@}. <!--SR:!2027-02-23,481,401!2027-03-23,503,401!2027-03-30,509,401!2025-11-09,100,381!2025-11-10,101,381-->
+Cost is measured {@{in terms of [opportunity cost](opportunity%20cost.md)}@}. In this case the law also {@{applies to societies}@} – {@{the opportunity cost of producing a single unit of a good}@} {@{generally increases as a society attempts to produce more of that good}@}. This explains {@{the bowed-out shape of the [production possibilities frontier](production%20possibilities%20frontier.md)}@}. <!--SR:!2027-02-23,481,401!2027-03-23,503,401!2027-03-30,509,401!2027-04-21,528,401!2025-11-10,101,381-->
 
 ## justification
 
@@ -118,7 +118,7 @@ Cost is measured {@{in terms of [opportunity cost](opportunity%20cost.md)}@}. In
 
 Part of the reason {@{one input is altered _ceteris paribus_}@}, is {@{the idea of disposability of inputs}@}.<sup>[\[25\]](#^ref-25)</sup> With {@{this assumption}@}, essentially that {@{some inputs are above the efficient level}@}. Meaning, they can {@{decrease without perceivable impact on output}@}, after the manner of {@{excessive fertiliser on a field}@}. <!--SR:!2025-11-10,101,381!2027-03-07,490,401!2025-11-10,101,381!2027-03-28,508,401!2027-04-13,521,401!2027-03-31,509,401-->
 
-If {@{input disposability is assumed}@}, then {@{increasing the principal input, while decreasing those excess inputs}@}, could {@{result in the same "diminished return"}@}, as if {@{the principal input was changed _certeris paribus_}@}. While <!-- considered -->considering {@{"hard" inputs, like labour and assets}@}, diminishing returns {@{would hold true}@}. In {@{the modern accounting era}@} where {@{inputs can be traced back to movements of financial capital}@}, the same case may {@{reflect constant, or increasing returns}@}. <!--SR:!2025-11-10,101,381!2026-09-23,349,381!2027-04-09,517,401!2025-11-09,100,381!2027-04-06,514,401!2025-11-10,101,381!2025-11-11,102,381!2027-03-15,495,401!2025-11-11,102,381-->
+If {@{input disposability is assumed}@}, then {@{increasing the principal input, while decreasing those excess inputs}@}, could {@{result in the same "diminished return"}@}, as if {@{the principal input was changed _certeris paribus_}@}. While <!-- considered -->considering {@{"hard" inputs, like labour and assets}@}, diminishing returns {@{would hold true}@}. In {@{the modern accounting era}@} where {@{inputs can be traced back to movements of financial capital}@}, the same case may {@{reflect constant, or increasing returns}@}. <!--SR:!2025-11-10,101,381!2026-09-23,349,381!2027-04-09,517,401!2027-04-16,523,401!2027-04-06,514,401!2025-11-10,101,381!2025-11-11,102,381!2027-03-15,495,401!2025-11-11,102,381-->
 
 It is necessary to be {@{clear of the "fine structure"<sup>[\[4\]](#^ref-4)</sup> of the inputs before proceeding}@}. In this, {@{_ceteris paribus_ is disambiguating}@}. <!--SR:!2027-03-28,507,401!2027-03-27,507,401-->
 

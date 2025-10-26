@@ -16,7 +16,7 @@ tags:
 In [mathematics](mathematics.md), a __permutation__ of a [set](set%20(mathematics).md) can {@{mean one of two different things}@}: <!--SR:!2025-11-15,306,330-->
 
 - an arrangement of ::@:: its members in a [sequence](sequence.md) or [linear order](total%20order.md), or <!--SR:!2025-11-17,308,330!2025-11-21,312,330-->
-- the act or process of ::@:: changing the linear order of an ordered set.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-11-18,309,330!2025-11-09,300,330-->
+- the act or process of ::@:: changing the linear order of an ordered set.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-11-18,309,330!2029-08-04,1364,350-->
 
 An example of the first meaning is {@{the six permutations (orderings) of the set {1, 2, 3}<!-- flashcard separator -->}@}: written as [tuples](tuple.md), they are {@{(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), and (3, 2, 1)}@}. {@{[Anagrams](anagram.md) of a word whose letters are all different}@} are also permutations: the letters are {@{already ordered in the original word, and the anagram reorders them}@}. {@{The study of permutations of [finite sets](finite%20set.md)}@} is an important topic in {@{[combinatorics](combinatorics.md) and [group theory](group%20theory.md)}@}. <!--SR:!2025-11-21,312,330!2025-11-17,308,330!2025-11-15,306,330!2025-11-18,309,330!2025-11-16,307,330!2025-11-19,310,330-->
 

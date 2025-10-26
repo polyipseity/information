@@ -47,7 +47,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 
 {@{A cut is _minimum_}@} if {@{the size or weight of the cut is not larger than the size of any other cut}@}. The illustration on the right shows {@{a minimum cut: the size of this cut is 2}@}, and {@{there is no cut of size 1 because the graph is [bridgeless](bridge%20(graph%20theory).md)}@}. <!--SR:!2025-11-25,303,330!2025-12-05,310,330!2028-04-14,950,330!2027-03-24,669,330-->
 
-{@{The [max-flow min-cut theorem](max-flow%20min-cut%20theorem.md)}@} proves that {@{the maximum [network flow](flow%20network.md) and the sum of the cut-edge weights of any minimum cut that separates the source and the sink are equal}@}. There are {@{[polynomial-time](time%20complexity.md#polynomial%20time) methods to solve the min-cut problem}@}, notably {@{the [Edmonds–Karp algorithm](Edmonds–Karp%20algorithm.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-09,289,330!2026-12-08,563,310!2025-11-30,307,330!2026-11-13,540,310-->
+{@{The [max-flow min-cut theorem](max-flow%20min-cut%20theorem.md)}@} proves that {@{the maximum [network flow](flow%20network.md) and the sum of the cut-edge weights of any minimum cut that separates the source and the sink are equal}@}. There are {@{[polynomial-time](time%20complexity.md#polynomial%20time) methods to solve the min-cut problem}@}, notably {@{the [Edmonds–Karp algorithm](Edmonds–Karp%20algorithm.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-06-18,1317,350!2026-12-08,563,310!2025-11-30,307,330!2026-11-13,540,310-->
 
 ## maximum cut
 

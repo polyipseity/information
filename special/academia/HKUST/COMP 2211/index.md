@@ -104,7 +104,7 @@ The content is in teaching order.
 - status: online: typhoon signal 8
 - artificial intelligence
   - artificial intelligence / advantages ::@:: available always, digital assistance, faster decisions, innovation (new inventions), reduction in human errors, repetitive work helping, taking risks instead of humans <!--SR:!2027-07-04,729,330!2028-03-22,947,350-->
-  - artificial intelligence / disadvantages ::@:: high cost of creation and maintenance, lack out-of-the-box thinking, make humans lazy, unemotional, unemployment <!--SR:!2026-11-21,570,330!2025-11-09,292,350-->
+  - artificial intelligence / disadvantages ::@:: high cost of creation and maintenance, lack out-of-the-box thinking, make humans lazy, unemotional, unemployment <!--SR:!2026-11-21,570,330!2029-09-07,1398,370-->
   - artificial intelligence / prerequisites ::@:: algorithms, data analysis, mathematics, programming, will to learn <!--SR:!2026-01-07,339,350!2028-12-10,1170,352-->
   - artificial intelligence / periods
     - artificial intelligence / periods / 1950–1956 ::@:: birth of artificial intelligence <!--SR:!2026-07-01,444,310!2026-08-01,466,312-->
@@ -620,7 +620,7 @@ ID: 23456789
 
 - datetime: 2024-10-09T13:30:00+08:00/2024-10-09T14:50:00+08:00
 - [cluster analysis](../../../../general/cluster%20analysis.md) ::@:: __Cluster analysis__ or __clustering__ is the task of grouping a set of objects in such a way that objects in the same group (called a __cluster__) are more similar (in some specific sense defined by the analyst) to each other than to those in other groups (clusters). <!--SR:!2026-01-04,336,350!2027-08-27,775,332-->
-  - cluster analysis / motivations ::@:: finding features useful later for categorization, labeling a large data set may be costly <!--SR:!2028-11-24,1158,352!2025-11-09,291,350-->
+  - cluster analysis / motivations ::@:: finding features useful later for categorization, labeling a large data set may be costly <!--SR:!2028-11-24,1158,352!2029-09-09,1400,370-->
   - cluster analysis / applications ::@:: group people of similar body size, organize text documents by their content similarities, segment customers in marketing, segment image into regions (image segmentation) <!--SR:!2026-05-30,421,310!2028-04-02,967,350-->
 - [_k_-means clustering](../../../../general/k-means%20clustering.md) ::@:: __<!-- markdown separator -->_k_-means clustering__ is a method of vector quantization, originally from signal processing, that aims to partition _n_ observations into _k_ clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. <!--SR:!2026-10-01,511,312!2025-12-18,322,350-->
   - _k_-means clustering / characteristics ::@:: does not require data to be labeled, hyperparameter _k_, parametric (centroid locations), unsupervised <!--SR:!2027-06-01,704,330!2027-02-06,615,330-->
@@ -1163,7 +1163,7 @@ ID: 23456789
       - ethics of artificial intelligence / AI principles / European Union Principles / diversity, non-discrimination and fairness ::@:: Unfair bias must be avoided... <!--SR:!2026-06-19,446,398!2026-07-09,463,401-->
       - ethics of artificial intelligence / AI principles / European Union Principles / societal and environmental well-being ::@:: AI systems should benefit all human beings... <!--SR:!2026-10-19,548,406!2026-08-28,505,406-->
       - ethics of artificial intelligence / AI principles / European Union Principles / accountability ::@:: Mechanisms should be implemented to ensure responsibility and accountability for AI systems... <!--SR:!2026-03-08,340,386!2026-07-17,469,399-->
-    - ethics of artificial intelligence / AI principles / common grounds ::@:: It seems like most principles can be synthesized into 5 fundamental principles: <p> autonomy <br/> beneficence <br/> non-maleficence <br/> justice <br/> explicability <!--SR:!2025-11-09,258,365!2028-09-25,1079,379-->
+    - ethics of artificial intelligence / AI principles / common grounds ::@:: It seems like most principles can be synthesized into 5 fundamental principles: <p> autonomy <br/> beneficence <br/> non-maleficence <br/> justice <br/> explicability <!--SR:!2029-05-22,1290,385!2028-09-25,1079,379-->
       - ethics of artificial intelligence / AI principles / common grounds / autonomy ::@:: People should be able to make their own decisions, e.g. human-in-the-loop, privacy protection <!--SR:!2025-12-10,270,361!2026-10-12,542,406-->
       - ethics of artificial intelligence / AI principles / common grounds / beneficence ::@:: Society at large should benefit <!--SR:!2026-07-26,475,402!2026-08-10,489,402-->
       - ethics of artificial intelligence / AI principles / common grounds / non-maleficence ::@:: Harmful consequences should be avoided, e.g. systems should be robust <!--SR:!2028-11-08,1119,381!2026-10-16,545,405-->
@@ -1176,7 +1176,7 @@ ID: 23456789
     - ethics of artificial intelligence / fairness / examples of unfairness ::@:: Face recognition in Google Photos misclassifies black people. <p> A search query in XING orders less qualified male candidates higher than the more qualified female candidate. <!--SR:!2026-06-15,442,398!2026-08-03,483,402-->
     - ethics of artificial intelligence / fairness / causes ::@:: limited features, sample size disparity, skewed samples, tainted samples <!--SR:!2026-10-13,542,405!2026-03-15,362,386-->
       - ethics of artificial intelligence / fairness / causes / skewed sample ::@:: If some initial bias happens, such bias may compound over time: future observations confirm prediction and fewer opportunities to make observations that contradict prediction. <!--SR:!2026-07-08,462,402!2026-03-25,374,382-->
-      - ethics of artificial intelligence / fairness / causes / tainted examples ::@:: For example, word embeddings may lead to gender stereotypes if they are present in the text one learns from. <!--SR:!2026-02-08,338,386!2025-11-09,245,361-->
+      - ethics of artificial intelligence / fairness / causes / tainted examples ::@:: For example, word embeddings may lead to gender stereotypes if they are present in the text one learns from. <!--SR:!2026-02-08,338,386!2029-03-06,1213,381-->
       - ethics of artificial intelligence / fairness / causes / limited features ::@:: Some features may be less informative for a minority group. <!--SR:!2026-03-02,353,386!2026-03-20,369,382-->
       - ethics of artificial intelligence / fairness / causes / sample size disparity ::@:: Training data from a minority group is sparse. <!--SR:!2026-03-01,333,382!2026-08-01,481,401-->
   - ethics of artificial intelligence / moral decision ::@:: Philosophers usually consider machines as not capable of making _moral decisions_. <p> However, one can try to _find properties such that machines could act morally_: beliefs about the world, moral knowledge, the possibility to compute what consequences one's own action can have, and pro-attitudes (intentions). Then machines may be considered as _moral agents_. <!--SR:!2027-11-03,816,366!2026-02-04,334,382-->

@@ -17,7 +17,7 @@ In the context of {@{[cardinal utility](cardinal%20utility.md)}@}, {@{liberal ec
 
 In the study of economics, {@{the term _[marginal](marginalism.md)_}@} refers to {@{a small change, starting from some baseline level}@}. [Philip Wicksteed](Philip%20Wicksteed.md) explained the term as follows: <!--SR:!2029-01-04,1180,350!2027-08-01,746,330-->
 
-> {@{Marginal considerations}@} are {@{considerations which concern a slight increase or diminution of the stock of anything which we possess or are considering}@}.<sup>[\[4\]](#^ref-4)</sup> Another way to think of the term marginal is {@{the cost or benefit of the next unit used or consumed}@}, for example {@{the benefit that you might get from consuming a piece of chocolate}@}. The key to understanding marginality is {@{through [marginal analysis](marginalism.md)}@}. Marginal analysis examines {@{the additional benefits of an activity compared to additional costs sustained by that same activity}@}. In practice, companies use marginal analysis to {@{assist them in [maximizing](maximization%20(psychology).md) their potential profits}@} and often used when {@{making decisions about expanding or reducing production}@}. <!--SR:!2029-01-21,1192,350!2025-11-21,290,330!2028-11-02,1131,350!2029-05-01,1271,350!2025-11-11,281,330!2025-11-09,280,330!2026-02-23,133,310!2026-03-11,123,393-->
+> {@{Marginal considerations}@} are {@{considerations which concern a slight increase or diminution of the stock of anything which we possess or are considering}@}.<sup>[\[4\]](#^ref-4)</sup> Another way to think of the term marginal is {@{the cost or benefit of the next unit used or consumed}@}, for example {@{the benefit that you might get from consuming a piece of chocolate}@}. The key to understanding marginality is {@{through [marginal analysis](marginalism.md)}@}. Marginal analysis examines {@{the additional benefits of an activity compared to additional costs sustained by that same activity}@}. In practice, companies use marginal analysis to {@{assist them in [maximizing](maximization%20(psychology).md) their potential profits}@} and often used when {@{making decisions about expanding or reducing production}@}. <!--SR:!2029-01-21,1192,350!2025-11-21,290,330!2028-11-02,1131,350!2029-05-01,1271,350!2025-11-11,281,330!2029-05-05,1273,350!2026-02-23,133,310!2026-03-11,123,393-->
 
 ## utility
 
@@ -38,7 +38,7 @@ __Assumptions__ -
 1. All the units of a commodity must be ::@:: identical, i.e., some in all respects - in size, colour, design, quality, etc. <!--SR:!2025-11-15,285,330!2027-04-19,678,330-->
 2. The unit of the good must be ::@:: standard, e.g., a bottle of cold drink, a pair of shoes, a full mango, etc. The units not be too small or too large. <!--SR:!2027-12-11,845,330!2029-04-01,1247,350-->
 3. There should be no change in taste ::@:: of the consumer during the process of consumption. <!--SR:!2025-11-10,281,330!2025-11-14,284,330-->
-4. The utility is ::@:: measurable. <!--SR:!2025-11-12,282,330!2025-11-09,280,330-->
+4. The utility is ::@:: measurable. <!--SR:!2025-11-12,282,330!2029-05-07,1275,350-->
 5. The consumer is ::@:: rational while taking consumption decisions. <!--SR:!2025-11-16,285,330!2025-11-25,293,330-->
 6. There must be a continuity in ::@:: consumption and if a break in the continuity is necessary, the time interval between the consumption of two units must be short. <!--SR:!2025-11-26,294,330!2025-11-22,290,330-->
 7. There should be no change in the price ::@:: of substitute goods.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2028-12-11,1161,350!2029-04-23,1264,350-->

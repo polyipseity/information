@@ -50,7 +50,7 @@ In [marketing](marketing.md), complementary goods {@{give additional [market pow
 
 ## gross complements
 
-Sometimes {@{the complement-relationship between two goods is not intuitive}@} and must be {@{verified by inspecting the cross-elasticity of demand using market data}@}. <!--SR:!2025-11-09,276,330!2027-12-04,798,330-->
+Sometimes {@{the complement-relationship between two goods is not intuitive}@} and must be {@{verified by inspecting the cross-elasticity of demand using market data}@}. <!--SR:!2029-04-18,1256,350!2027-12-04,798,330-->
 
 {@{Mosak's definition}@} states "{@{a good $x$ is a gross complement of $y$ if ${\frac {\partial f_{x}(p,\omega )}{\partial p_{y} } }$ is negative}@}, where {@{$f_{i}(p,\omega )$ for $i=1,2,\ldots ,n$ denotes the ordinary individual demand for a certain good}@}." In fact, in Mosak's case, $x$ is {@{not a gross complement of $y$ but $y$ is a gross complement of $x$}@}. The elasticity {@{does not need to be symmetrical}@}. Thus, $y$ is {@{a gross complement of $x$ while $x$ can simultaneously be a gross substitutes for $y$}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-01-08,1178,350!2028-12-19,1164,350!2027-10-08,808,330!2028-11-13,1137,350!2028-08-09,1060,350!2025-11-29,294,330-->
 

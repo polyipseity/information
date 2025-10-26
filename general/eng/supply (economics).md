@@ -73,7 +73,7 @@ By convention in {@{the context of [supply and demand](supply%20and%20demand.md)
 
 ## shape of the short-run supply curve
 
-{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price would be necessary to induce the firm to produce more and more output}@}. <!--SR:!2025-11-09,275,330!2026-09-23,492,310!2027-08-11,757,330!2028-12-24,1167,350!2025-11-09,275,330!2026-10-13,509,310!2025-11-20,285,330-->
+{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price would be necessary to induce the firm to produce more and more output}@}. <!--SR:!2029-04-20,1258,350!2026-09-23,492,310!2027-08-11,757,330!2028-12-24,1167,350!2029-04-17,1255,350!2026-10-13,509,310!2025-11-20,285,330-->
 
 ## from firm to market supply curve
 
@@ -99,7 +99,7 @@ __Complexity of production:__ Much depends on {@{the complexity of the productio
 
 __Time to respond:__ ::@:: The more time a producer has to respond to price changes the more elastic the supply. For example, a cotton farmer cannot immediately respond to an increase in the price of soybeans. <!--SR:!2027-12-20,849,330!2025-11-10,275,330-->
 
-__Excess capacity:__ ::@:: A producer who has unused capacity can quickly respond to price changes in his market assuming that variable factors are readily available. <!--SR:!2025-11-09,276,330!2028-12-27,1168,350-->
+__Excess capacity:__ ::@:: A producer who has unused capacity can quickly respond to price changes in his market assuming that variable factors are readily available. <!--SR:!2029-04-19,1257,350!2028-12-27,1168,350-->
 
 __Inventories:__ ::@:: A producer who has a supply of goods or available storage capacity can quickly respond to price changes. <!--SR:!2025-11-12,277,330!2028-11-02,1124,350-->
 

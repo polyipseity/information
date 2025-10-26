@@ -270,7 +270,7 @@ tags:
 > 3. `M * C`, where `C` is an array of shape (4, 1)
 > 4. `M * D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{3}@} <!--SR:!2025-11-09,249,330-->
+> - solution: {@{3}@} <!--SR:!2028-12-23,1140,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -644,7 +644,7 @@ tags:
 > 4. None of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-11-09,248,330!2026-06-06,395,310-->
+> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2028-02-10,823,330!2026-06-06,395,310-->
 
 <!-- markdownlint MD028 -->
 

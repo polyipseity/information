@@ -294,7 +294,7 @@ The content is in teaching order.
     - "change in _demand_" vs "change in _quantity demanded_"
     - change in demand ::@:: change in the relation between quantity demanded at each price <!--SR:!2026-08-01,514,402!2025-12-28,315,371-->
       - change in demand / graph ::@:: Usually, we move the demand curve horizontally, not vertically. Note that for a straight line, these two produce the same results. <!--SR:!2026-08-31,539,402!2025-12-25,311,371-->
-      - change in demand / factors ::@:: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2028-04-26,982,371!2025-11-09,277,366-->
+      - change in demand / factors ::@:: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2028-04-26,982,371!2028-08-12,1007,366-->
         - change in demand / factors / consumer preferences ::@:: What consumers prefer. For example, fashion may affect it. <!--SR:!2026-02-10,348,371!2026-05-22,454,391-->
         - change in demand / factors / income ::@:: What consumers buy responds to their incomes. Examples include normal goods, inferior goods, etc. <!--SR:!2026-08-21,530,402!2026-08-17,527,402-->
 - types of goods ::@:: ordinary goods ← normal goods (luxury/superior goods, necessity goods), Giffen goods → inferior goods <!--SR:!2027-12-02,860,351!2026-04-04,390,379-->

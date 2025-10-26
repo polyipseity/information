@@ -66,7 +66,7 @@ By definition, {@{a set $S$ is _countable_}@} if {@{there exists a [bijection](b
 
 As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if {@{there is a [bijection](bijection.md) between $S$ and all of $\mathbb {N}$}@}. As examples, consider {@{the sets $A=\{1,2,3,\dots \}$, the set of positive [integers](integer.md), and $B=\{0,2,4,6,\dots \}$, the set of even integers}@}. We can show {@{these sets are countably infinite by exhibiting a bijection to the natural numbers}@}. This can be achieved using {@{the assignments $n\leftrightarrow n+1$ and $n\leftrightarrow 2n$}@}, so that {@{$${\begin{matrix}0\leftrightarrow 1,&1\leftrightarrow 2,&2\leftrightarrow 3,&3\leftrightarrow 4,&4\leftrightarrow 5,&\ldots \\[6pt]0\leftrightarrow 0,&1\leftrightarrow 2,&2\leftrightarrow 4,&3\leftrightarrow 6,&4\leftrightarrow 8,&\ldots \end{matrix} }$$}@} <!--SR:!2025-11-28,262,330!2025-11-19,255,330!2025-11-18,255,330!2027-04-07,634,330!2027-11-04,798,330!2025-11-29,263,330!2025-11-14,250,330-->
 
-{@{Every countably infinite set}@} is {@{countable}@}, and {@{every infinite countable set}@} is {@{countably infinite}@}. Furthermore, {@{any subset of the natural numbers is countable}@}, and more generally: <!--SR:!2025-12-10,272,330!2026-09-25,481,310!2025-11-29,263,330!2025-12-10,272,330!2025-11-09,247,330-->
+{@{Every countably infinite set}@} is {@{countable}@}, and {@{every infinite countable set}@} is {@{countably infinite}@}. Furthermore, {@{any subset of the natural numbers is countable}@}, and more generally: <!--SR:!2025-12-10,272,330!2026-09-25,481,310!2025-11-29,263,330!2025-12-10,272,330!2028-12-07,1124,350-->
 
 > Theorem — A subset of {@{a countable set is countable}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2028-12-01,1121,350-->
 

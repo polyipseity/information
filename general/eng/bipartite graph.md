@@ -70,7 +70,7 @@ According to {@{the [strong perfect graph theorem](strong%20perfect%20graph%20th
 
 ### degree
 
-For a vertex, {@{the number of adjacent vertices}@} is {@{called the [degree](degree%20(graph%20theory).md) of the vertex and is denoted $\deg v$}@}. {@{The [degree sum formula](handshaking%20lemma.md) for a bipartite graph}@} states that<sup>[\[24\]](#^ref-24)</sup> {@{$$\sum _{v\in V}\deg v=\sum _{u\in U}\deg u=|E|\,.$$}@} <!--SR:!2029-02-27,1227,350!2025-11-09,285,330!2028-11-12,1142,350!2028-12-28,1178,350-->
+For a vertex, {@{the number of adjacent vertices}@} is {@{called the [degree](degree%20(graph%20theory).md) of the vertex and is denoted $\deg v$}@}. {@{The [degree sum formula](handshaking%20lemma.md) for a bipartite graph}@} states that<sup>[\[24\]](#^ref-24)</sup> {@{$$\sum _{v\in V}\deg v=\sum _{u\in U}\deg u=|E|\,.$$}@} <!--SR:!2029-02-27,1227,350!2029-06-03,1302,350!2028-11-12,1142,350!2028-12-28,1178,350-->
 
 {@{The degree sequence of a bipartite graph}@} is {@{the pair of lists each containing the degrees of the two parts $U$ and $V$}@}. For example, {@{the complete bipartite graph _K_<sub>3,5</sub>}@} has {@{degree sequence $(5,5,5),(3,3,3,3,3)$}@}. {@{[Isomorphic](graph%20isomorphism.md) bipartite graphs}@} have {@{the same degree sequence}@}. However, the degree sequence {@{does not, in general, uniquely identify a bipartite graph; in some cases, non-isomorphic bipartite graphs may have the same degree sequence}@}. <!--SR:!2027-11-01,822,330!2027-03-18,661,330!2025-11-14,290,330!2029-04-03,1253,350!2029-02-03,1205,350!2029-02-20,1219,350!2029-05-22,1293,350-->
 

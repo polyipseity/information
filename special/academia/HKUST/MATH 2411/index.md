@@ -706,7 +706,7 @@ The content is in teaching order.
   - simple linear estimator / _R_: hypothesis testing of estimators ::@:: `summary(<model>)`, where `<model>` can be obtained by `lm(<y>~<x>[, data=<dataframe>])`. But note that the null hypothesis are respectively $\beta_0 = 0$ and $\beta_1 = 0$. <!--SR:!2027-04-02,667,417!2026-07-14,462,397-->
   - simple linear estimator / prediction ::@:: $$\hat y_{\mathrm{new} } = a + b x_{\mathrm{new} } \,,$$ which is a _point estimate_ of $y_{\mathrm{new} }$. <!--SR:!2027-04-07,672,417!2027-04-05,673,417-->
     - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!2026-08-06,312,277!2026-04-18,368,377-->
-  - simple linear estimator / _R_: prediction ::@:: For a point estimate, use `predict(<model>, data.frame(x=<new x>))`. For an interval estimate, use `predict(<model>, data.frame(x=<new x>), interval="prediction", level=<confidence level>)`. <!--SR:!2026-02-08,330,377!2025-11-09,238,357-->
+  - simple linear estimator / _R_: prediction ::@:: For a point estimate, use `predict(<model>, data.frame(x=<new x>))`. For an interval estimate, use `predict(<model>, data.frame(x=<new x>), interval="prediction", level=<confidence level>)`. <!--SR:!2026-02-08,330,377!2029-01-18,1166,377-->
 
 ## week 13 tutorial
 

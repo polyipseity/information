@@ -12,7 +12,7 @@ tags:
 
 # Darboux's theorem (analysis)
 
-In [mathematics](mathematics.md), __{@{Darboux's}@} theorem__ is {@{a [theorem](theorem.md) in [real analysis](real%20analysis.md), named after [Jean Gaston Darboux](Jean%20Gaston%20Darboux.md)}@}. <!--SR:!2031-01-27,1982,330!2025-11-09,495,310-->
+In [mathematics](mathematics.md), __{@{Darboux's}@} theorem__ is {@{a [theorem](theorem.md) in [real analysis](real%20analysis.md), named after [Jean Gaston Darboux](Jean%20Gaston%20Darboux.md)}@}. <!--SR:!2031-01-27,1982,330!2031-08-30,2120,330-->
 
 ## Darboux's theorem
 

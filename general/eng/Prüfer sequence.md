@@ -82,7 +82,7 @@ The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each no
 >  7     {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1}@}
 > </pre> <!--SR:!2026-07-08,474,387!2026-05-30,444,387!2026-06-19,458,387!2026-06-01,446,387!2026-05-31,445,387!2026-07-06,472,387!2026-06-24,463,387!2026-07-02,470,387-->
 
-Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2026-02-07,365,363!2026-02-26,379,363!2025-11-09,273,343-->
+Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2026-02-07,365,363!2026-02-26,379,363!2029-05-20,1288,363-->
 
 <pre>
  8 <b>for</b> each value <i>i</i> in <i>a</i> <b>do</b>

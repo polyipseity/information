@@ -28,7 +28,7 @@ A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, wh
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
 - {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}. <!--SR:!2025-12-06,281,332!2027-11-01,798,332!2025-12-26,296,332!2027-07-29,734,332!2029-01-15,1168,352!2029-02-04,1184,352!2025-12-11,127,400!2025-12-05,122,400!2025-12-11,127,400!2025-12-05,122,400!2025-12-17,132,400!2025-12-19,134,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-18,133,400!2025-12-17,132,400-->
 
-{@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}. <!--SR:!2029-01-19,1171,352!2025-11-09,260,332-->
+{@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}. <!--SR:!2029-01-19,1171,352!2029-02-11,1190,352-->
 
 ### optimization objective
 
@@ -88,7 +88,7 @@ In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, {@{step one (va
 
 Instead of {@{repeating step two to convergence}@}, it may be {@{formulated and solved as a set of linear equations}@}. These equations are merely obtained by {@{making $s=s'$ in the step two equation}@}.<!-- <sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> --> Thus, {@{repeating step two to convergence}@} can be {@{interpreted as solving the linear equations by [relaxation](relaxation%20(iterative%20method).md)}@}. <!--SR:!2026-02-21,345,349!2025-12-25,299,349!2026-02-13,338,349!2026-02-12,338,349!2026-02-26,349,349-->
 
-This variant has the advantage that {@{there is a definite stopping condition}@}: when {@{the array $\pi$ does not change in the course of applying step 1 to all states}@}, {@{the algorithm is completed}@}. <!--SR:!2026-02-13,338,349!2025-11-09,243,329!2026-02-01,329,349-->
+This variant has the advantage that {@{there is a definite stopping condition}@}: when {@{the array $\pi$ does not change in the course of applying step 1 to all states}@}, {@{the algorithm is completed}@}. <!--SR:!2026-02-13,338,349!2028-01-21,803,329!2026-02-01,329,349-->
 
 Policy iteration is usually {@{slower than value iteration for a large number of possible states}@}. <!--SR:!2026-02-06,332,349-->
 
@@ -169,7 +169,7 @@ Another application of MDP process in {@{[machine learning](machine%20learning.m
 
 In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of: <!--SR:!2026-02-26,349,349!2026-01-27,325,349-->
 
-- a set _x_ ::@:: of possible inputs, <!--SR:!2025-12-06,281,332!2025-11-09,260,332-->
+- a set _x_ ::@:: of possible inputs, <!--SR:!2025-12-06,281,332!2029-02-12,1191,352-->
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2029-01-31,1181,352!2025-12-15,285,332-->
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2027-01-21,567,312!2025-12-07,282,332-->
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2025-12-06,281,332!2027-10-27,794,332-->

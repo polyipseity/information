@@ -103,6 +103,6 @@ See also [Vim help files](https://vimhelp.org/).
 
 ### list of options
 
-- ignorecase, ic ::@:: ignore case in search <!--SR:!2025-11-09,758,328!2026-01-11,800,328-->
+- ignorecase, ic ::@:: ignore case in search <!--SR:!2035-03-31,3429,348!2026-01-11,800,328-->
 - incsearch, is ::@:: highlight while typing search <!--SR:!2033-02-23,2801,333!2029-06-03,1487,273-->
 - hlsearch, hls ::@:: highlight last search matches <!--SR:!2033-06-30,2904,330!2025-12-26,784,328-->

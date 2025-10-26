@@ -200,7 +200,7 @@ tags:
 > 4. (300 airplanes, 25000 cars) and (200 airplanes, 40000 cars)
 >
 > - solution: {@{2}@}
-> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@} <!--SR:!2029-07-06,1358,350!2025-11-09,316,330-->
+> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@} <!--SR:!2029-07-06,1358,350!2029-10-19,1440,350-->
 
 ### chapter 4 lecture
 

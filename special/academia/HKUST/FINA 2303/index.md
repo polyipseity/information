@@ -255,7 +255,7 @@ The content is in teaching order.
   - effective annual rate / motivation ::@:: Always use this rather than the other one when comparing interest rates (e.g. annual IRR) for decision-making! It can also be used to value non-annual cash flows. <!--SR:!2026-08-25,426,381!2026-07-28,401,383-->
   - effective annual rate / conversion between durations ::@:: If the time duration is multiplied by $k$ is multiplied by $k$, you need to do an exponentiation: $$r_{\text{new} } = (1 + r_{\text{old} })^k - 1 \,.$$ Importantly, do _not_ simply just multiply by $k$! <p> Note: EAR requires the duration to be a year. If not, it would be just effective interest rate (EIR). <!--SR:!2026-08-12,413,383!2026-08-08,409,381-->
   - effective annual rate / vs. annual percentage rate ::@:: We see that EAR equals APR if the interest rate is compounded annually. Otherwise, EAR > APR if the interest rate is compounded more frequently than annually, and EAR < APR if the interest rate is compounded less frequently than annually. <!--SR:!2026-09-11,443,383!2026-08-21,422,381-->
-  - effective annual rate / to annual percentage rate ::@:: $$\text{APR} = m \left((1 + \text{EAR})^{1 / m} - 1\right) \,,$$ where $m$ is the number of compounding in a year. <!--SR:!2026-08-10,411,381!2025-11-09,191,341-->
+  - effective annual rate / to annual percentage rate ::@:: $$\text{APR} = m \left((1 + \text{EAR})^{1 / m} - 1\right) \,,$$ where $m$ is the number of compounding in a year. <!--SR:!2026-08-10,411,381!2028-04-23,896,361-->
 - [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
 - [TAPPS/week 3 lecture 2](assignments/TAPPS/week%203%20lecture%202.md)
 - readings: chapter 5 (skip 5.3)

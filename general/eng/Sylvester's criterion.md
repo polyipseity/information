@@ -23,7 +23,7 @@ Sylvester's criterion states that {@{a _n_ × _n_ Hermitian matrix _M_ is positi
 - ${}\quad \vdots$
 - _M_ itself.
 
-In other words, {@{all of the _leading_ [principal minors](principal%20minor.md) must be positive}@}. By {@{using appropriate permutations of rows and columns of _M_}@}, it can also be shown that {@{the positivity of _any_ nested sequence of _n_ principal minors of _M_ is equivalent to _M_ being positive-definite}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-11-09,173,310!2026-01-31,243,330!2026-02-03,246,330-->
+In other words, {@{all of the _leading_ [principal minors](principal%20minor.md) must be positive}@}. By {@{using appropriate permutations of rows and columns of _M_}@}, it can also be shown that {@{the positivity of _any_ nested sequence of _n_ principal minors of _M_ is equivalent to _M_ being positive-definite}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-20,741,330!2026-01-31,243,330!2026-02-03,246,330-->
 
 An analogous theorem holds for {@{characterizing [positive-semidefinite](positive-semidefinite%20matrix.md) Hermitian matrices}@}, except that {@{it is no longer sufficient to consider only the _leading_ principal minors}@} as illustrated by the Hermitian matrix {@{$${\begin{pmatrix}0&0&-1\\0&-1&0\\-1&0&0\end{pmatrix} }\quad {\text{with eigenvectors} }\quad {\begin{pmatrix}0\\1\\0\end{pmatrix} },\quad {\begin{pmatrix}1\\0\\1\end{pmatrix} }\quad {\text{and} }\quad {\begin{pmatrix}1\\0\\-1\end{pmatrix} }.$$}@} {@{A Hermitian matrix _M_ is positive-semidefinite}@} {@{if and only if _all_ [principal minors](principal%20minor.md) of _M_ are nonnegative}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-26,286,330!2026-03-12,272,330!2026-03-22,282,330!2026-03-21,281,330!2026-03-08,268,330-->
 
