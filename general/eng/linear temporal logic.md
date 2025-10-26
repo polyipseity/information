@@ -84,7 +84,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 
 ## equivalences
 
-Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the useful equivalences that extend standard equivalences among the usual logical operators}@}.
+Let {@{φ, ψ, and ρ}@} be {@{LTL formulas}@}. The following tables list {@{some of the useful equivalences}@} that extend {@{standard equivalences among the usual logical operators}@}.
 
 | Distributivity                                                                                    |                                                                                                   |                                                                                                          |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |

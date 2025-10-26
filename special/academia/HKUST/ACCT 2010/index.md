@@ -523,7 +523,7 @@ The content is in teaching order.
   - financing activities
     - financing activities / methods ::@:: direct method, indirect method (both are essentially the same for financing activities)
     - financing activities / calculation ::@:: borrow short-term loans for _cash_: inflow (+) <br/> repay short-term loans in _cash_: outflow (−) <br> issue bonds for _cash_: inflow (+) <br/> repay bonds in _cash_: outflow (−) <br/> issue stock in _cash_: inflow (+) <br/> repurchase stock for _cash_: outflow (−) <br/> pay _cash_ dividends: outflow (−)
-    - financing activities / interpretation ::@:: The long-term growth of a company is normally financed from 3 sources: internally generated funds; the issuance of shares; and money borrowed on a long-term basis <br/> Statement of cash flows shows how management has selected to fund its growth <br/> Financial analysts use this information to evaluate the capital structure & growth potential of a business
+    - financing activities / interpretation ::@:: - The long-term growth of a company is normally financed from 3 sources: internally generated funds; the issuance of shares; and money borrowed on a long-term basis. <br/> - Statement of cash flows shows how management has selected to fund its growth. <br/> - Financial analysts use this information to evaluate the capital structure & growth potential of a business.
 
 ## week 12 lecture 2
 

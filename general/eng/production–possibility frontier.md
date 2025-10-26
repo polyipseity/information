@@ -70,7 +70,7 @@ Points that are unattainable can be {@{achieved through [external trade](interna
 
 Specifically, at {@{all points on the frontier}@}, the economy achieves {@{[productive efficiency](productive%20efficiency.md): no more output of any good can be achieved from the given inputs without sacrificing output of some good}@}.
 
-Some [productive efficient](productive%20efficiency.md) points are {@{[Pareto efficient](pareto%20efficiency.md): impossible to find any trade that will make no consumer worse off}@}. Pareto efficiency is achieved when {@{the [marginal rate of transformation](#marginal%20rate%20of%20transformation) (slope of the frontier/opportunity cost of goods) is equal to all consumers' [marginal rate of substitution](marginal%20rate%20of%20substitution.md)}@}.
+{@{Some [productive efficient](productive%20efficiency.md) points}@} are {@{[Pareto efficient](pareto%20efficiency.md): impossible to find any trade that will make no consumer worse off}@}. {@{Pareto efficiency}@} is achieved when {@{the [marginal rate of transformation](#marginal%20rate%20of%20transformation) \(slope of the frontier/opportunity cost of goods\)}@} is equal to {@{all consumers' [marginal rate of substitution](marginal%20rate%20of%20substitution.md)}@}.
 
 Similarly, not all Pareto efficient points on the frontier are {@{[allocative efficient](allocative%20efficiency.md). Allocative efficient is only achieved when the economy produces at quantities that match societal preference}@}.
 

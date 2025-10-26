@@ -52,15 +52,15 @@ Proposed on {@{the cusp of the [First Industrial Revolution](Industrial%20Revolu
 
 ## example
 
-{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities and this is called __increasing returns__}@}.
+{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities}@} and this is called {@{__increasing returns__}@}.
 
-If {@{50 people are employed}@}, {@{at some point, increasing the number of employees by two percent \(from 50 to 51 employees\)}@} would {@{increase output by two percent and this is called __constant returns__}@}.
+If {@{50 people are employed}@}, {@{at some point, increasing the number of employees by two percent \(from 50 to 51 employees\)}@} would {@{increase output by two percent}@} and this is called {@{__constant returns__}@}.
 
 {@{Further along the production curve at, for example 100 employees}@}, {@{floor space is likely getting crowded}@}, there are {@{too many people operating the machines and in the building, and workers are getting in each other's way}@}. {@{Increasing the number of employees by two percent \(from 100 to 102 employees\)}@} would {@{increase output by less than two percent and this is called "diminishing returns"}@}.
 
 After {@{achieving the point of maximum output}@}, {@{employing additional workers}@}, this will {@{give __negative returns__}@}.<sup>[\[18\]](#^ref-18)</sup>
 
-Through {@{each of these examples}@}, {@{the floor space and capital of the factor remained constant}@}, i.e., {@{these inputs were held constant}@}. By {@{only increasing the number of people}@}, eventually {@{the productivity and efficiency of the process}@} moved {@{from increasing returns to diminishing returns}@}.
+Through {@{each of these examples}@}, {@{the floor space and capital of the factor}@} remained {@{constant}@}, i.e., {@{these inputs were held constant}@}. By {@{only increasing the number of people}@}, eventually {@{the productivity and efficiency of the process}@} moved {@{from increasing returns to diminishing returns}@}.
 
 To {@{understand this concept thoroughly}@}, acknowledge {@{the importance of __marginal output__ or [marginal returns](marginal%20return.md)}@}. {@{Returns eventually diminish}@} because {@{economists measure productivity with regard to additional units \(marginal\)}@}. {@{Additional inputs}@} {@{significantly impact efficiency or returns more in the initial stages}@}.<sup>[\[19\]](#^ref-19)</sup> {@{The point in the process before returns begin to diminish}@} is {@{considered the optimal level}@}. Being able to {@{recognize this point is beneficial}@}, as {@{other variables in the production function can be altered rather than continually increasing labor}@}.
 

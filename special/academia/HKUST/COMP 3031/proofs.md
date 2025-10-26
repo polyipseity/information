@@ -326,7 +326,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z = y$}@} – `incl(y)` {@{returns the node as-is}@}.
 > - If {@{$z < x$ and $z < y$ \($z$ is smallest, i.e. $z < x < y$ or $z < y < x$\)}@} – the search {@{continues into the right child: `r.incl(y).contains(x)`}@}. By {@{induction hypothesis the property holds there}@}; consequently {@{both sides reduce into the same expression}@}.
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
-> - If {@{$x < z < y$ or $y < z <ｘ$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
+> - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
 > {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}.
 

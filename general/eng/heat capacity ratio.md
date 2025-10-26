@@ -27,7 +27,7 @@ tags:
 
 ## ideal gas relations
 
-[Mayer's relation](Mayer's%20relation.md) {@{provides a convenient way to deduce $C_V$ from the more easily found and commonly tabulated $C_p$}@}.
+{@{[Mayer's relation](Mayer's%20relation.md)}@} provides {@{a convenient way to deduce $C_V$}@} from {@{the more easily found and commonly tabulated $C_p$}@}.
 
 ### relation with degrees of freedom
 

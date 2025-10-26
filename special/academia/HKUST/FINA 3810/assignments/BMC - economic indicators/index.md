@@ -44,7 +44,7 @@ You should input the BMC class Code \(\[redacted\]\), or you will get 0 mark.
   - gross domestic product / nominal GDP ::@:: The raw GDP figure given by the equations above is called the nominal, historical, or current GDP.
   - gross domestic product / real GDP ::@:: The GDP adjusted for changes in money value in this way is called the real GDP.
   - gross domestic product / economic growth
-    - gross domestic product / economic growth / nominal, real ::@:: The former subtracted by the latter in percentage is simply the inflation percentage.
+    - gross domestic product / economic growth / nominal, real ::@:: When rates are small and periods are short, the inflation rate in percentage can be approximated by subtracting the former by the latter, both in percentages.
     - gross domestic product / economic growth / recession ::@:: It is defined as two or more successive quarters of negative real GDP growth.
 - [inflation](../../../../general/inflation.md) ::@:: It is an increase in the average price of goods and services in terms of money. This increase is measured using a price index, typically a consumer price index \(CPI\).
   - inflation / measures ::@:: The consumer price index \(CPI\), the personal consumption expenditures price index \(PCEPI\) and the GDP deflator are some examples of broad price indices.

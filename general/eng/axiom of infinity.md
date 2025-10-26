@@ -19,9 +19,9 @@ In {@{the [formal language](formal%20language.md) of the Zermelo–Fraenkel axio
 
 In technical language, this formal expression is interpreted as "{@{[there exists](existential%20quantification.md) a [set](set%20(mathematics).md) 𝐼 \(the set that is postulated to be infinite\) such that the [empty set](empty%20set.md) is an element of it}@} and, {@{for every element $x$ of 𝐼, there exists an element $y$ of 𝐼 consisting of just the elements of $x$ and $x$ itself}@}."
 
-This [formula](well-formed%20formula.md) can be abbreviated as: {@{$$\exists I\,(\varnothing \in I\,\land \,\forall x\,(x\in I\Rightarrow \,(x\cup \{x\})\in I)).$$}@}
+{@{This [formula](well-formed%20formula.md)}@} can be abbreviated as: {@{$$\exists I\,(\varnothing \in I\,\land \,\forall x\,(x\in I\Rightarrow \,(x\cup \{x\})\in I)).$$}@}
 
-Some mathematicians may call {@{a set built this way an [inductive set](inductive%20set.md)}@}.
+{@{Some mathematicians}@} may call {@{a set built this way}@} {@{an [inductive set](inductive%20set.md)}@}.
 
 ## interpretation and consequences
 
