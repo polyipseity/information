@@ -45,6 +45,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 ## examples
 
 - {@{The [empty set](empty%20set.md)}@} is {@{the unique initial object in __Set__, the [category of sets](category%20of%20sets.md)}@}. {@{Every one-element set \([singleton](singleton%20(mathematics).md)\)}@} is {@{a terminal object in this category}@}; there are {@{no zero objects}@}. Similarly, {@{the empty space}@} is {@{the unique initial object in __Top__, the [category of topological spaces](category%20of%20topological%20spaces.md)}@} and {@{every one-point space is a terminal object in this category}@}.
+
 - In {@{the category __[Rel](category%20of%20relations.md)__ of sets and relations}@}, {@{the empty set}@} is {@{the unique initial object, the unique terminal object, and hence the unique zero object}@}.
 
 > {@{![Center: the zero object. <br/> Left half: all elements of an object maps to zero, the terminal morphism. <br/> Right half: 0 maps to 0, the initial monomorphism.](../../archives/Wikimedia%20Commons/Terminal%20and%20initial%20object.svg)}@}
@@ -52,15 +53,25 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 > {@{Morphisms of pointed sets}@}. The image also {@{applies to algebraic zero objects}@}
 
 - In {@{the category of [pointed sets](pointed%20set.md)}@} \(whose {@{objects are non-empty sets together with a distinguished element; a morphism from \(_A_, <!-- markdown separator -->_a_\) to \(_B_, <!-- markdown separator -->_b_\) being a function _f_ : _A_ → _B_ with _f_\(_a_\) = _b_}@}\), {@{every singleton is a zero object}@}. Similarly, in {@{the category of [pointed topological spaces](pointed%20space.md)}@}, {@{every singleton is a zero object}@}.
+
 - In {@{__Grp__, the [category of groups](category%20of%20groups.md)}@}, {@{any [trivial group](trivial%20group.md) is a zero object}@}. The trivial object is also {@{a zero object in __Ab__, the [category of abelian groups](category%20of%20abelian%20groups.md), __Rng__ the [category of pseudo-rings](category%20of%20pseudo-rings.md#rings%20without%20identity)}@}, {@{__<!-- markdown separator -->_R_-Mod__, the [category of modules](category%20of%20modules.md) over a ring, and ___K_-Vect__, the [category of vector spaces](category%20of%20vector%20spaces.md) over a field}@}. See {@{_[Zero object \(algebra\)](zero%20object%20(algebra).md)_}@} for details. This is {@{the origin of the term "zero object"}@}.
+
 - In {@{__Ring__, the [category of rings](category%20of%20rings.md) with unity and unity-preserving morphisms}@}, {@{the ring of [integers](integer.md) __Z__}@} is {@{an initial object}@}. {@{The [zero ring](zero%20ring.md) consisting only of a single element 0 = 1}@} is {@{a terminal object}@}.
+
 - In {@{__Rig__, the category of [rigs](rig%20(mathematics).md#terminology) with unity and unity-preserving morphisms}@}, {@{the rig of [natural numbers](natural%20number.md) __N__}@} is {@{an initial object}@}. {@{The zero rig, which is the [zero ring](zero%20ring.md), consisting only of a single element 0 = 1}@} is {@{a terminal object}@}.
+
 - In {@{__Field__, the [category of fields](category%20of%20fields.md#category%20of%20fields)}@}, there are {@{no initial or terminal objects}@}. However, in {@{the subcategory of fields of fixed characteristic}@}, {@{the [prime field](prime%20field.md#prime%20field) is an initial object}@}.
+
 - {@{Any [partially ordered set](partially%20ordered%20set.md) \(_P_, ≤\)}@} can be {@{interpreted as a category}@}: {@{the objects are the elements of _P_, and there is a single morphism from _x_ to _y_ [if and only if](if%20and%20only%20if.md) _x_ ≤ _y_}@}. This category has {@{an initial object if and only if _P_ has a [least element](least%20element.md)}@}; it has {@{a terminal object if and only if _P_ has a [greatest element](greatest%20element.md)}@}.
+
 - {@{__Cat__, the [category of small categories](category%20of%20small%20categories.md) with [functors](functor.md) as morphisms}@} has {@{the empty category, __0__ \(with no objects and no morphisms\), as initial object}@} and {@{the terminal category, __1__ \(with a single object with a single identity morphism\), as terminal object}@}.
+
 - In {@{the category of [schemes](scheme%20(mathematics).md)}@}, {@{Spec\(__Z__\), the [prime spectrum](spectrum%20of%20a%20ring.md) of the ring of integers}@}, is {@{a terminal object}@}. {@{The empty scheme \(equal to the prime spectrum of the [zero ring](zero%20ring.md)\)}@} is {@{an initial object}@}.
+
 - {@{A [limit](limit%20(category%20theory).md) of a [diagram](diagram%20(category%20theory).md) _F_}@} may be {@{characterised as a terminal object in the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Likewise, {@{a colimit of _F_}@} may be characterised as {@{an initial object in the category of co-cones from _F_}@}.
+
 - In {@{the category __Ch<sub>_R_</sub>__ of chain complexes over a commutative ring _R_}@}, {@{the zero complex}@} is {@{a zero object}@}.
+
 - In {@{a [short exact sequence](exact%20sequence.md) of the form 0 → _a_ → _b_ → _c_ → 0}@}, {@{the initial and terminal objects}@} are {@{the anonymous zero object}@}. This is used {@{frequently in [cohomology theories](cohomology.md)}@}.
 
 ## properties

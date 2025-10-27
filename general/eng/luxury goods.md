@@ -73,7 +73,7 @@ Though {@{often verging on the meaningless in modern marketing}@}, "luxury" rema
 
 ### characteristics
 
-Luxury goods have {@{high [income elasticity of demand](income%20elasticity%20of%20demand.md)}@}: as {@{people become wealthier}@}, they will {@{buy proportionately more luxury goods}@}. This also means that {@{should there be a decline in income}@}, {@{its demand will drop more than proportionately}@}. {@{The income elasticity of demand}@} is {@{not constant with respect to income and may change signs at different income levels}@}. That is to say, {@{a luxury good may become a [necessity good](necessity%20good.md) or even an [inferior good](inferior%20good.md) at different income levels}@}.
+Luxury goods have {@{high [income elasticity of demand](income%20elasticity%20of%20demand.md)}@}: as {@{people become wealthier}@}, they will {@{buy proportionately more luxury goods}@}. This also means that {@{should there be a decline in income}@}, {@{its demand will drop more than proportionately}@}. {@{The income elasticity of demand}@} is {@{not constant with respect to income and may change signs at different income levels}@}. That is to say, {@{a luxury good}@} may become {@{a [necessity good](necessity%20good.md) or even an [inferior good](inferior%20good.md) at different income levels}@}.
 
 Some luxury products have been claimed to be {@{examples of [Veblen goods](Veblen%20good.md)}@}, with {@{a positive [price elasticity of demand](price%20elasticity%20of%20demand.md)}@}: for example, making a perfume {@{more expensive can increase its perceived value as a luxury good}@} to such an extent that {@{sales can go up, rather than down}@}. However, [Veblen goods](Veblen%20good.md) are {@{not synonymous with luxury goods}@}.
 
