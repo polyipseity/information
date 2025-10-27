@@ -467,6 +467,65 @@ The content is in teaching order.
     - [§ proving set properties](proofs.md#proving%20set%20properties): proving set properties
     - [§ proving set union property](proofs.md#proving%20set%20properties): proving set union property
 
+## week 6 lab
+
+- datetime: 2025-10-06T15:00:00+08:00/2025-10-06T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 6 lecture
+
+- datetime: 2025-10-07T12:00:00+08:00/2025-10-07T13:20:00+08:00, PT1H20M
+- status: unscheduled; public holiday: National Day
+
+## week 6 lecture 2
+
+- datetime: 2025-10-09T12:00:00+08:00/2025-10-09T13:20:00+08:00, PT1H20M
+- topic: lazy evaluation, `LazyList`, infinite sequences, infinite sequence examples
+- [lazy evaluation](../../../../general/lazy%20evaluation.md) ::@:: It is an evaluation strategy which delays the evaluation of an expression until its value is needed (non-strict evaluation) and which avoids repeated evaluations (by the use of sharing).
+- Scala
+  - Scala / [lazy evaluation](lazy%20evaluation.md)
+    - [§ motivation](lazy%20evaluation.md#motivation): motivation for lazy evaluation
+    - [§ lazy list](lazy%20evaluation.md#lazy%20list): `LazyList`
+    - [§ lazy list properties](lazy%20evaluation.md#lazy%20list%20properties): laziness of `LazyList`, `LazyList.head`, `LazyList.tail`
+    - [§ lazy list construction](lazy%20evaluation.md#lazy%20list%20construction): `LazyList.cons`, `LazyList.apply`, `LazyList.range`, laziness of `LazyList` construction
+    - [§ lazy list operations](lazy%20evaluation.md#lazy%20list%20operations): `LazyList.filter`, laziness of `LazyList` operations, `#::`
+    - [§ lazy evaluation](lazy%20evaluation.md#lazy%20evaluation): by-name parameters, `lazy val`
+    - [§ lazy list implementation](lazy%20evaluation.md#lazy%20list%20implementation): `LazyList` implementations
+    - [§ infinite sequences](lazy%20evaluation.md#infinite%20sequences): infinite sequences
+    - [§ infinite sequence operations](lazy%20evaluation.md#infinite%20sequence%20operations): infinite sequence operations, divergence of infinite sequence operations
+    - [§ infinite sequence examples](lazy%20evaluation.md#infinite%20sequence%20examples): sieve of Eratosthenes, lazy fixed iteration, water pouring problem
+    - [§ lazy evaluation in other languages](lazy%20evaluation.md#lazy%20evaluation%20in%20other%20languages): lazy evaluation in Haskell, lazy evaluation in OCaml
+
+## week 7 lab
+
+- datetime: 2025-10-13T15:00:00+08:00/2025-10-13T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 7 lecture
+
+- datetime: 2025-10-14T12:00:00+08:00/2025-10-14T13:20:00+08:00, PT1H20M
+- status: unscheduled; special leave for conference
+
+## week 7 lecture 2
+
+- datetime: 2025-10-16T12:00:00+08:00/2025-10-16T13:20:00+08:00, PT1H20M
+- status: unscheduled; special leave for conference
+
+## week 8 lab
+
+- datetime: 2025-10-20T15:00:00+08:00/2025-10-20T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 8 lecture
+
+- datetime: 2025-10-21T12:00:00+08:00/2025-10-21T13:20:00+08:00, PT1H20M
+- status: unscheduled; special leave for conference
+
+## week 8 lecture 2
+
+- datetime: 2025-10-23T12:00:00+08:00/2025-10-23T13:20:00+08:00, PT1H20M
+- topic:
+
 ## aftermath
 
 ### total
