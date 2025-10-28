@@ -39,7 +39,7 @@ The number of registers {@{is a balancing act: it should not be too few or too m
 
 ## memory
 
-The main memory is usually {@{a physical RAM}@}. It can {@{store much data, much more than the registers}@}. <!--SR:!2026-03-01,270,330!2025-11-10,175,310-->
+The main memory is usually {@{a physical RAM}@}. It can {@{store much data, much more than the registers}@}. <!--SR:!2026-03-01,270,330!2027-12-05,755,330-->
 
 In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{values need to be transferred from _registers_ to the main memory, and vice versa}@}. <!--SR:!2026-03-05,274,330!2026-04-12,293,330-->
 
@@ -232,7 +232,7 @@ The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, an
 - shift \(shamt\) ::@:: 5 bits; R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!2026-06-06,347,350!2027-08-06,658,335-->
 - funct ::@:: 6 bits; R format: opcode of the instruction, and is almost always used instead of the opcode field <!--SR:!2026-05-23,333,350!2026-04-24,304,350-->
 - imm ::@:: 16 bits; I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2025-12-27,209,335!2026-05-23,333,355-->
-- pseudo-address ::@:: 26 bits; J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2025-11-10,162,315!2026-06-20,361,355-->
+- pseudo-address ::@:: 26 bits; J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2027-03-30,505,315!2026-06-20,361,355-->
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}. <!--SR:!2026-04-15,295,350-->
 
@@ -282,7 +282,7 @@ The 32 registers are used as follows:
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2026-03-13,281,330!2026-04-13,293,330-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2026-02-04,248,330!2026-04-14,294,330-->
 > - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\) <!--SR:!2026-03-05,274,330!2027-03-17,534,310-->
-> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2026-04-06,286,330!2025-11-10,175,310-->
+> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2026-04-06,286,330!2027-05-07,543,310-->
 
 The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}. <!--SR:!2026-12-12,494,401!2026-11-23,475,401!2027-02-02,533,401!2026-11-23,473,401!2027-01-11,520,401!2026-11-16,471,401!2026-11-04,458,401-->
 

@@ -185,7 +185,7 @@ return _chain.from_iterable(await _gather(
 - [nickel](nickel.md):@:Ni<sup>2+</sup> <!--SR:!2027-06-10,1190,350-->
 - [tin](tin.md):@:Sn<sup>2+</sup> <!--SR:!2028-04-27,1437,350-->
 - [lead](lead.md):@:Pb<sup>2+</sup> <!--SR:!2026-05-15,866,330-->
-- [antimony](antimony.md):@:Sb<sup>3+</sup> <!--SR:!2025-11-10,332,210-->
+- [antimony](antimony.md):@:Sb<sup>3+</sup> <!--SR:!2028-07-30,993,230-->
 - [bismuth](bismuth.md):@:Bi<sup>3+</sup> <!--SR:!2026-11-28,673,290-->
 - [copper](copper.md):@:Cu<sup>2+</sup> <!--SR:!2031-03-12,2161,330-->
 - [tungsten](tungsten.md):@:W<sup>3+</sup> <!--SR:!2032-04-12,2467,330-->

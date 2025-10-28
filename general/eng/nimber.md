@@ -59,7 +59,7 @@ For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}
 
 {@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2026-03-01,339,345!2027-12-10,780,290-->
 
-Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-02-12,325,345!2025-11-10,248,330-->
+Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-02-12,325,345!2028-12-15,1131,350-->
 
 Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2026-02-27,337,345!2026-02-02,293,290!2028-09-27,1067,350!2025-12-24,282,330!2026-12-17,540,330!2028-07-16,1008,353-->
 

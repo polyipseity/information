@@ -557,7 +557,7 @@ tags:
 > 3. $P(E \mid F) = P(E)$
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-11-19,256,330!2025-11-10,250,330-->
+> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-11-19,256,330!2028-12-24,1140,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1049,7 +1049,7 @@ tags:
 
 > Q12. Consider an MLP network with one input layer, one hidden layer and one output layer. The activation function for the output layer is softmax (to be followed with cross-entropy loss), and the activation function for the hidden layer is the step function. Please explain whether there will be a problem if we train this network using gradient descent and why.
 >
-> - solution: {@{The activation function, the step function, for the hidden layer has a derivative of 0 at every point it is defined (henceforth, assume the derivative is 0, even for the point where the derivative is undefined). So the calculated gradient for the hidden layer is always 0 no matter how large the error output is. Gradient descent never updates their weights.}@} <!--SR:!2025-11-10,250,330-->
+> - solution: {@{The activation function, the step function, for the hidden layer has a derivative of 0 at every point it is defined (henceforth, assume the derivative is 0, even for the point where the derivative is undefined). So the calculated gradient for the hidden layer is always 0 no matter how large the error output is. Gradient descent never updates their weights.}@} <!--SR:!2028-12-25,1141,350-->
 
 <!-- markdownlint MD028 -->
 

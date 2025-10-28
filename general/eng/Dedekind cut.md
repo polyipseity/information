@@ -52,7 +52,7 @@ Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C
 
 - See also: [Construction of the real numbers § Construction by Dedekind cuts](construction%20of%20the%20real%20numbers.md#construction%20by%20Dedekind%20cuts)
 
-{@{A typical Dedekind cut of the [rational numbers](rational%20number.md) $\mathbb {Q}$}@} is given by {@{the partition $(A,B)$ with <p> $A=\{a\in \mathbb {Q} :a^{2}<2{\text{ or } }a<0\},$ <br/> $B=\{b\in \mathbb {Q} :b^{2}\geq 2{\text{ and } }b\geq 0\}.$}@}<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-11-10,248,330!2025-12-25,283,330-->
+{@{A typical Dedekind cut of the [rational numbers](rational%20number.md) $\mathbb {Q}$}@} is given by {@{the partition $(A,B)$ with <p> $A=\{a\in \mathbb {Q} :a^{2}<2{\text{ or } }a<0\},$ <br/> $B=\{b\in \mathbb {Q} :b^{2}\geq 2{\text{ and } }b\geq 0\}.$}@}<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2028-12-16,1132,350!2025-12-25,283,330-->
 
 This cut represents {@{the [irrational number](irrational%20number.md) ${\sqrt {2} }$}@} in Dedekind's construction. The essential idea is that we use a set $A$, which is the set of all rational numbers whose squares are less than 2, to "represent" number ${\sqrt {2} }$, and further, by defining properly arithmetic operators over these sets \(addition, subtraction, multiplication, and division\), these sets \(together with these arithmetic operations\) form the familiar real numbers. <!--SR:!2028-11-03,1099,350-->
 

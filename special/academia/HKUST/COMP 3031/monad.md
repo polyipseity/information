@@ -18,19 +18,19 @@ tags:
 
 - HKUST COMP 3031
 
-In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290-->
+In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2026-01-04,55,310!2025-11-12,16,290-->
 
-{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`‑comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290-->
+{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`‑comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2026-01-05,56,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2026-01-06,57,310!2025-11-12,16,290!2025-11-11,15,290-->
 
 ## motivation
 
-{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2025-11-12,16,290!2025-11-10,14,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290-->
+{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290-->
 
-Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tuples, trees, even random number streams}@}—can participate in {@{a _for_ comprehension}@}. Further, such objects are called {@{_monads_}@} in {@{functional programming}@}, and they provide {@{a powerful abstraction for structuring programs}@}. <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
+Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tuples, trees, even random number streams}@}—can participate in {@{a _for_ comprehension}@}. Further, such objects are called {@{_monads_}@} in {@{functional programming}@}, and they provide {@{a powerful abstraction for structuring programs}@}. <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
 
 ### generator
 
-{@{A minimal abstraction}@} for producing {@{random values of some type `T`}@} is the following trait: <!--SR:!2025-11-10,14,290!2025-11-10,14,290-->
+{@{A minimal abstraction}@} for producing {@{random values of some type `T`}@} is the following trait: <!--SR:!2026-01-04,55,310!2026-01-05,56,310-->
 
 > [!example] __`Generator` definition__
 >
@@ -54,7 +54,7 @@ Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tup
 > ```
 <!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
 
-Using {@{the same pattern}@} one can define {@{a boolean generator}@}: <!--SR:!2025-11-10,14,290!2025-11-12,16,290-->
+Using {@{the same pattern}@} one can define {@{a boolean generator}@}: <!--SR:!2026-01-03,54,310!2025-11-12,16,290-->
 
 > [!example] __boolean generator__
 >
@@ -76,11 +76,11 @@ and {@{a pair generator}@} that produces {@{two independent random integers}@}: 
 > val pairs = new Generator[(Int, Int)]:
 >   def generate() = (integers.generate(), integers.generate())
 > ```
-<!--SR:!2025-11-10,14,290!2025-11-10,14,290-->
+<!--SR:!2026-01-07,58,310!2026-01-04,55,310-->
 
 #### generator monad
 
-Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher‑order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-10,14,290!2025-11-12,16,290-->
+Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher‑order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2026-01-03,54,310!2025-11-12,16,290-->
 
 > [!example] __`Generator.map`__
 >
@@ -116,7 +116,7 @@ With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinc
 > ```
 <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-11,15,290-->
 
-and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!2025-11-10,14,290!2025-11-10,14,290-->
+and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!2026-01-03,54,310!2026-01-06,57,310-->
 
 > [!example] __pair generator using `flatMap`__
 >
@@ -128,7 +128,7 @@ and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!2025-
 > ```
 <!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
 
-The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-10,14,290-->
+The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2026-01-04,55,310-->
 
 #### generator monad recursion
 
@@ -150,7 +150,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >     tail <- lists
 >   yield head :: tail
 > ```
-<!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290-->
+<!--SR:!2025-11-11,15,290!2025-11-12,16,290!2026-01-03,54,310-->
 
 {@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290-->
 
@@ -163,7 +163,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >   case Inner(left: Tree, right: Tree)
 >   case Leaf(x: Int)
 > ```
-<!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290-->
+<!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2026-01-05,56,310-->
 
 we can generate {@{leaves and inner nodes}@} by combining {@{existing generators}@}: <!--SR:!2025-11-12,16,290!2025-11-12,16,290-->
 
@@ -181,7 +181,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 >     tree   <- if (cutoff) leaves else inners
 >   yield tree
 > ```
-<!--SR:!2025-11-10,14,290!2025-11-12,16,290-->
+<!--SR:!2026-01-06,57,310!2025-11-12,16,290-->
 
 #### generator monad usage
 
@@ -212,9 +212,9 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 > }
 > ```
 >
-> which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!2025-11-10,14,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290-->
+> which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!2026-01-05,56,310!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290-->
 
-The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290-->
+The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2026-01-04,55,310-->
 
 > [!example] ___ScalaCheck___
 >
@@ -225,7 +225,7 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 >   (l1 ++ l2).size == l1.size + l2.size
 > }
 > ```
-<!--SR:!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290-->
+<!--SR:!2026-01-03,54,310!2025-11-12,16,290!2025-11-12,16,290-->
 
 ScalaCheck integrates {@{with ScalaTest or can run stand‑alone}@}, providing a systematic way to {@{validate program behaviour without hand‑crafted test data}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
 
@@ -243,7 +243,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand‑alone}@}, providing a
 > }
 > def unit[T](x: T): M[T]
 > ```
-<!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290-->
+<!--SR:!2025-11-12,16,290!2025-11-12,16,290!2026-01-04,55,310-->
 
 {@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290-->
 
@@ -254,7 +254,7 @@ In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type it
 For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must hold: \(annotation: 3 items: {@{associativity, left identity, right identity}@}\) <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
 
 - __Associativity__ ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2025-11-12,16,290!2025-11-12,16,290-->
-- __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)` <!--SR:!2025-11-12,16,290!2025-11-10,14,290-->
+- __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)` <!--SR:!2025-11-12,16,290!2026-01-07,58,310-->
 - __Right Identity (Right Unit Law)__ ::@:: `m.flatMap(unit) == m` <!--SR:!2025-11-11,15,290!2025-11-11,15,290-->
 
 {@{These laws}@} ensure that {@{monadic chaining behaves predictably}@}, enabling {@{reasoning about code and allowing optimizations}@}. <!--SR:!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290-->
@@ -273,13 +273,13 @@ Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@}
 > ```
 <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290-->
 
-Because {@{every monad supports this construction}@}, it is often convenient to {@{expose a dedicated `map` method for clarity}@}. <!--SR:!2025-11-12,16,290!2025-11-10,14,290-->
+Because {@{every monad supports this construction}@}, it is often convenient to {@{expose a dedicated `map` method for clarity}@}. <!--SR:!2025-11-12,16,290!2026-01-03,54,310-->
 
 ## examples
 
 {@{Typical examples}@} include: \(annotation: 4 items: {@{`List`, `Set`, `Option`, `Generator`}@}\) <!--SR:!2025-11-12,16,290!2025-11-12,16,290-->
 
-- `List`: ::@:: `unit(x) = List(x)` <!--SR:!2025-11-12,16,290!2025-11-10,14,290-->
+- `List`: ::@:: `unit(x) = List(x)` <!--SR:!2025-11-12,16,290!2026-01-07,58,310-->
 - `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!2025-11-11,15,290!2025-11-12,16,290-->
 - `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
 - `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!2025-11-11,15,290!2025-11-12,16,290-->
@@ -323,11 +323,11 @@ For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by
 > ```
 <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290-->
 
-Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left‑unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right‑unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-10,14,290-->
+Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left‑unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right‑unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2026-01-05,56,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2026-01-06,57,310-->
 
 ## `Try`
 
-While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2025-11-10,14,290-->
+While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2026-01-06,57,310-->
 
 - no effect on function type ::@:: The types of functions that may throw are not reflected in the signature (unlike Java's `throws` clause). <!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
 - cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries. <!--SR:!2025-11-11,15,290!2025-11-12,16,290-->
@@ -384,6 +384,6 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 
 Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
 
-One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left‑unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non‑fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non‑fatal exception propagates outward}@} ({@{the "bullet‑proof" principle}@}\). <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-10,14,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
+One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left‑unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non‑fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non‑fatal exception propagates outward}@} ({@{the "bullet‑proof" principle}@}\). <!--SR:!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2026-01-05,56,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
 
 In {@{general practice}@}, {@{monad-like type \(which are not true monads\)}@} aims to capture {@{some computation _effect_}@} and treating it as {@{_data_ and hence part of the _type_}@}. When {@{this effect is a _side effect_ \(e.g. throwing exceptions\)}@}, then {@{the left identity law may not hold}@} as {@{the side effect is captured and represented by monad-like type data instead}@}. <!--SR:!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->

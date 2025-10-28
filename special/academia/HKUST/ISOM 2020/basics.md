@@ -255,7 +255,7 @@ To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2029-08-08,1412,362!2030-01-27,1548,362!2027-09-13,834,342!2028-01-02,925,342!2025-11-10,335,342-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2029-08-08,1412,362!2030-01-27,1548,362!2027-09-13,834,342!2028-01-02,925,342!2030-03-07,1578,362-->
 
 Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-11-16,608,330!2028-07-18,1097,350!2026-04-15,159,439!2026-04-13,157,439-->
 

@@ -51,7 +51,7 @@ For a contrasting example, if {@{_n_ = 9}@}, then $\lambda (n)=\varphi (n)=6$ an
 
 ## properties of the Carmichael function
 
-In this section, {@{an [integer](integer.md) $n$ is divisible by a nonzero integer $m$}@} if {@{there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} <!--SR:!2026-02-15,326,341!2025-11-10,229,321!2026-01-28,313,341-->
+In this section, {@{an [integer](integer.md) $n$ is divisible by a nonzero integer $m$}@} if {@{there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} <!--SR:!2026-02-15,326,341!2028-08-20,1014,341!2026-01-28,313,341-->
 
 ### a consequence of minimality of _λ_\(_n_\)
 

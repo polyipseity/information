@@ -59,8 +59,8 @@ An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic
 In this example, we have
 
 - $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2029-01-14,1167,352!2029-01-26,1177,352-->
-- $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2025-12-07,282,332!2025-11-10,261,332-->
-- $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2025-11-10,261,332!2025-12-25,295,332-->
+- $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2025-12-07,282,332!2029-02-15,1193,352-->
+- $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2029-02-16,1194,352!2025-12-25,295,332-->
 - $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2027-09-19,774,332!2028-02-16,836,330-->
 
 ## algorithms

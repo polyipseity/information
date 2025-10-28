@@ -149,7 +149,7 @@ quantity surveyor
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2028-05-20,1116,337-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2028-12-29,1209,335!2028-09-19,1202,335-->
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2029-01-03,1250,317!2026-11-22,579,295-->
-- engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2028-08-25,1177,325-->
+- engineering geologist→::@::←environmental consultant <!--SR:!2030-04-08,1610,325!2028-08-25,1177,325-->
 - environmental consultant→::@::←quantity surveyor <!--SR:!2027-12-11,903,320!2026-04-23,456,280-->
 - quantity surveyor→::@::←_(end)_ <!--SR:!2027-06-02,873,360!2026-02-13,409,340-->
 

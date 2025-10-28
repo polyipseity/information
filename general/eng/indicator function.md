@@ -35,7 +35,7 @@ The function $\mathbf {1} _{A}$ is sometimes denoted {@{_I<sub>A</sub>_, _χ<sub
 
 {@{The term "[characteristic function](characteristic%20function%20(probability%20theory).md)"}@} has {@{an unrelated meaning in [classic probability theory](probability%20theory.md)}@}. For this reason, {@{[traditional probabilists](list%20of%20mathematical%20probabilists.md)}@} use {@{the term __indicator function__ for the function defined here almost exclusively}@}, while {@{mathematicians in other fields are more likely to use the term _characteristic function_<sup>[\[a\]](#^ref-a)</sup> to describe the function that indicates membership in a set}@}. <!--SR:!2026-01-17,294,330!2028-09-25,1057,350!2025-11-16,244,330!2028-01-19,838,330!2025-12-20,272,330-->
 
-In {@{[fuzzy logic](fuzzy%20logic.md) and [modern many-valued logic](many-valued%20logic.md)}@}, {@{predicates}@} are {@{the [characteristic functions](characteristic%20function%20(probability%20theory).md) of a [probability distribution](probability%20distribution.md)}@}. That is, {@{the strict true/false valuation of the predicate}@} is replaced by {@{a quantity interpreted as the degree of truth}@}. <!--SR:!2027-11-11,794,330!2028-09-16,1050,350!2027-10-08,768,330!2025-11-27,254,330!2025-11-10,239,330-->
+In {@{[fuzzy logic](fuzzy%20logic.md) and [modern many-valued logic](many-valued%20logic.md)}@}, {@{predicates}@} are {@{the [characteristic functions](characteristic%20function%20(probability%20theory).md) of a [probability distribution](probability%20distribution.md)}@}. That is, {@{the strict true/false valuation of the predicate}@} is replaced by {@{a quantity interpreted as the degree of truth}@}. <!--SR:!2027-11-11,794,330!2028-09-16,1050,350!2027-10-08,768,330!2025-11-27,254,330!2028-11-01,1087,350-->
 
 ## basic properties
 
@@ -103,7 +103,7 @@ Although {@{indicator functions are not smooth}@}, they {@{admit [weak derivativ
 ## notes
 
 1. a. The [Greek letter](Greek%20alphabet.md) _χ_ appears because ::@:: it is the initial letter of the Greek word χαρακτήρ, which is the ultimate origin of the word _characteristic_. <a id="^ref-a"></a>^ref-a <!--SR:!2026-07-20,416,310!2025-11-28,255,330-->
-2. b. The set of all indicator functions on _X_ can be {@{identified with ${\mathcal {P} }(X)$, the [power set](power%20set.md) of _X_}@}. Consequently, {@{both sets are sometimes denoted by $2^{X}$}@}. This is a special case {@{\( $Y=\{0,1\}=2$\) of the notation $Y^{X}$ for the set of all functions $f:X\to Y$}@}. <a id="^ref-b"></a>^ref-b <!--SR:!2026-01-16,293,330!2025-12-30,279,330!2025-11-10,240,330-->
+2. b. The set of all indicator functions on _X_ can be {@{identified with ${\mathcal {P} }(X)$, the [power set](power%20set.md) of _X_}@}. Consequently, {@{both sets are sometimes denoted by $2^{X}$}@}. This is a special case {@{\( $Y=\{0,1\}=2$\) of the notation $Y^{X}$ for the set of all functions $f:X\to Y$}@}. <a id="^ref-b"></a>^ref-b <!--SR:!2026-01-16,293,330!2025-12-30,279,330!2028-11-06,1092,350-->
 
 ## references
 
