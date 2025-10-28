@@ -85,7 +85,7 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
 >             {@{F&nbsp;:= F ∪ { {u, v} }<!-- flashcard separator -->}@}
 >             {@{UNION(FIND-SET(u), FIND-SET(v))}@}
 >     {@{<b>return</b> F}@}
-> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2025-11-11,272,330!2025-12-08,294,330!2025-12-01,287,330!2025-11-12,273,330!2029-01-05,1171,350!2025-11-27,284,330!2025-12-03,289,330-->
+> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2029-04-03,1239,350!2025-12-08,294,330!2025-12-01,287,330!2025-11-12,273,330!2029-01-05,1171,350!2025-11-27,284,330!2025-12-03,289,330-->
 
 ## complexity
 
@@ -220,7 +220,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >     {@{<b>return</b> E<sub>f</sub>}@}
 > </pre> <!--SR:!2029-01-30,1190,350!2025-11-27,284,330!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2025-12-01,288,330!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2025-12-08,294,330!2029-01-17,1181,350!2029-03-28,1236,350!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2025-11-30,286,330!2025-12-09,294,330-->
 
-Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-03-13,1222,350!2029-01-04,1170,350!2025-11-11,272,330-->
+Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-03-13,1222,350!2029-01-04,1170,350!2029-04-04,1240,350-->
 
 Finally, other variants of {@{a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads}@} to remove {@{edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which runs {@{the sequential algorithm on _p_ subgraphs}@}, then merges {@{those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-29,286,330!2029-04-08,1245,350!2026-02-12,125,310!2026-02-11,103,386!2026-02-11,103,386-->
 

@@ -51,7 +51,7 @@ The content is in teaching order.
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. <!--SR:!2025-12-04,62,310!2025-12-05,63,310-->
   - finance / fields ::@:: 3 main fields: asset pricing, corporate finance, market microstructure <!--SR:!2025-12-04,62,310!2025-11-26,55,310-->
     - finance / fields / asset pricing ::@:: Calculate asset _fair price_. <p> examples: Black–Scholes–Merton model \(a mathematical model\) <!--SR:!2025-12-05,63,310!2025-12-04,62,310-->
-    - finance / fields / corporate finance ::@:: Calculate _firm value_ and decision making based on it. <p> examples: Modigliani–Miller theorem \(capital structure irrelevance principle\) <!--SR:!2025-11-11,43,290!2026-01-03,84,350-->
+    - finance / fields / corporate finance ::@:: Calculate _firm value_ and decision making based on it. <p> examples: Modigliani–Miller theorem \(capital structure irrelevance principle\) <!--SR:!2026-04-30,170,310!2026-01-03,84,350-->
     - finance / fields / market microstructure ::@:: Relation between _market quality_ and environment, mechanisms, trading rules, etc. <!--SR:!2025-12-04,62,310!2025-12-03,61,310-->
 - FINA 3103
   - FINA 3103 / objectives ::@:: Investigate asset pricing and market \(micro\)structure. Invest _wisely_ under different market structures, different trading rules, and uncertainty. <!--SR:!2025-12-04,62,310!2025-12-06,63,310-->

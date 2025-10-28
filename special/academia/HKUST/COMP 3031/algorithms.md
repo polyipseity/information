@@ -23,7 +23,7 @@ tags:
 
 ### insertion sort
 
-{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}: <!--SR:!2025-12-02,27,290!2025-11-12,16,290!2025-11-11,15,290!2026-01-07,58,310!2025-11-11,15,290-->
+{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}: <!--SR:!2025-12-02,27,290!2025-11-12,16,290!2026-01-11,61,310!2026-01-07,58,310!2026-01-08,58,310-->
 
 > [!example] __insertion sort__
 >
@@ -35,9 +35,9 @@ tags:
 >   case y :: ys  => insert(y, isort(ys))
 > }
 > ```
-<!--SR:!2025-11-11,15,290!2025-11-11,15,290-->
+<!--SR:!2026-01-10,60,310!2026-01-13,63,310-->
 
-{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is: <!--SR:!2026-01-04,55,310!2025-11-11,15,290!2025-11-11,15,290-->
+{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is: <!--SR:!2026-01-04,55,310!2026-01-08,58,310!2026-01-11,61,310-->
 
 > [!example] __insertion sort insertion__
 >
@@ -56,7 +56,7 @@ tags:
 
 ### merge sort
 
-{@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}: <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290-->
+{@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}: <!--SR:!2025-11-12,16,290!2026-01-08,58,310!2025-11-12,16,290-->
 
 > [!example] __merge sort__
 >
@@ -71,13 +71,13 @@ tags:
 >     val (fst, snd) = xs.splitAt(n)
 >     merge(msort(fst), msort(snd))
 > ```
-<!--SR:!2025-11-11,15,290!2026-01-06,57,310!2025-12-21,43,290-->
+<!--SR:!2026-01-09,59,310!2026-01-06,57,310!2025-12-21,43,290-->
 
 The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub‑lists}@}. <!--SR:!2026-01-05,56,310!2026-01-04,55,310!2026-01-07,58,310-->
 
 #### merge sort splitting
 
-{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2026-01-04,55,310!2025-11-11,15,290-->
+{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2026-01-04,55,310!2026-01-13,63,310-->
 
 > [!example] __merge sort splitting__
 >
@@ -87,9 +87,9 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 > val (label, value) = pair
 > val (fst, snd) = xs.splitAt(n)
 > ```
-<!--SR:!2025-11-12,16,290!2026-01-05,56,310!2025-11-11,15,290!2026-01-06,57,310-->
+<!--SR:!2025-11-12,16,290!2026-01-05,56,310!2026-01-12,62,310!2026-01-06,57,310-->
 
-One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!2025-11-11,15,290!2026-01-05,56,310-->
+One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!2026-01-08,58,310!2026-01-05,56,310-->
 
 > [!example] __`List.splitAt`__
 >
@@ -100,7 +100,7 @@ One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!2
 >   def splitAt(n: Int): (List[A], List[A]) =
 >     (xs.take(n), xs.drop(n))
 > ```
-<!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
+<!--SR:!2025-11-12,16,290!2026-01-09,59,310-->
 
 ### merge sort merging
 
@@ -126,7 +126,7 @@ The compiler guarantees that {@{all possible shapes of the input lists}@} are ha
 
 ### sorting arbitrary types
 
-To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}: <!--SR:!2025-11-11,15,290!2026-01-06,57,310!2026-01-06,57,310!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
+To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}: <!--SR:!2026-01-12,62,310!2026-01-06,57,310!2026-01-06,57,310!2025-11-12,16,290!2026-01-09,59,310!2026-01-12,62,310-->
 
 > [!example] __merge sort with comparator__
 >
@@ -148,9 +148,9 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 >     val (fst, snd) = xs.splitAt(n)
 >     merge(msort(fst)(lt), msort(snd)(lt))
 > ```
-<!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290-->
+<!--SR:!2025-11-12,16,290!2026-01-10,60,310!2025-11-12,16,290-->
 
-{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290-->
+{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2025-11-12,16,290!2026-01-10,60,310!2026-01-11,61,310!2026-01-13,63,310!2026-01-12,62,310-->
 
 > [!example] __using merge sort with comparator__
 >
@@ -168,4 +168,4 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > ```
 <!--SR:!2026-01-07,58,310!2026-01-04,55,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
 
-These examples demonstrate how Scala's {@{type inference and higher‑order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!2026-01-07,58,310!2025-11-11,15,290-->
+These examples demonstrate how Scala's {@{type inference and higher‑order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!2026-01-07,58,310!2026-01-13,63,310-->

@@ -21,7 +21,7 @@ tags:
 
 ## word coder
 
-{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive‑text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2026-01-07,58,310!2026-01-07,58,310!2025-11-12,16,290!2026-01-03,54,310!2025-11-11,15,290!2026-01-07,58,310!2025-11-12,16,290-->
+{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive‑text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2026-01-07,58,310!2026-01-07,58,310!2025-11-12,16,290!2026-01-03,54,310!2026-01-13,63,310!2026-01-07,58,310!2025-11-12,16,290-->
 
 > [!example] __mnemonics__
 >
@@ -30,13 +30,13 @@ tags:
 > ```Scala
 > val mnemonics = Map('2' -> "ABC", '3' -> "DEF", /* ... */ '9' -> "WXYZ")
 > ```
-<!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290-->
+<!--SR:!2025-11-12,16,290!2026-01-13,63,310!2026-01-12,62,310!2026-01-13,63,310!2026-01-13,63,310!2025-11-12,16,290-->
 
-The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!2026-01-06,57,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290-->
+The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!2026-01-06,57,310!2025-11-12,16,290!2025-11-12,16,290!2026-01-13,63,310!2026-01-13,63,310-->
 
 ### `Coder`
 
-{@{A natural way to structure the solution}@} is {@{a small class}@} that encapsulates {@{the dictionary and all derived data structures}@}: <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2026-01-06,57,310-->
+{@{A natural way to structure the solution}@} is {@{a small class}@} that encapsulates {@{the dictionary and all derived data structures}@}: <!--SR:!2025-11-12,16,290!2026-01-13,63,310!2026-01-06,57,310-->
 
 > [!example] __`Coder`__
 >
@@ -51,7 +51,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 #### `Coder.charCode`
 
-{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for‑comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2025-11-12,16,290!2026-01-06,57,310!2026-01-06,57,310!2025-11-11,15,290-->
+{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for‑comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2025-11-12,16,290!2026-01-06,57,310!2026-01-06,57,310!2026-01-12,62,310-->
 
 > [!example] __`Coder.charCode`__
 >
@@ -64,11 +64,11 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 >     letter <- letters
 >   yield letter -> digit
 > ```
-<!--SR:!2025-11-12,16,290!2025-11-11,15,290!2025-11-12,16,290!2026-01-04,55,310-->
+<!--SR:!2025-11-12,16,290!2026-01-13,63,310!2025-11-12,16,290!2026-01-04,55,310-->
 
 #### `Coder.wordCode`
 
-With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeric string it represents}@}.  The method simply {@{upper‑cases the word and looks up each character}@}: <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2026-01-06,57,310!2025-11-11,15,290-->
+With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeric string it represents}@}.  The method simply {@{upper‑cases the word and looks up each character}@}: <!--SR:!2025-11-12,16,290!2026-01-13,63,310!2026-01-06,57,310!2026-01-12,62,310-->
 
 > [!example] __`Coder.wordCode`__
 >
@@ -78,7 +78,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private def wordCode(word: String): String =
 >   word.toUpperCase.map(charCode)
 > ```
-<!--SR:!2026-01-03,54,310!2025-11-11,15,290!2025-11-12,16,290!2026-01-05,56,310-->
+<!--SR:!2026-01-03,54,310!2026-01-12,62,310!2025-11-12,16,290!2026-01-05,56,310-->
 
 #### `Coder.wordsForNum`
 
@@ -92,11 +92,11 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private val wordsForNum: Map[String, List[String]] =
 >   words.groupBy(wordCode).withDefaultValue(Nil)
 > ```
-<!--SR:!2025-11-11,15,290!2025-11-11,15,290!2026-01-03,54,310!2026-01-07,58,310!2025-11-11,15,290!2025-11-12,16,290-->
+<!--SR:!2026-01-11,61,310!2026-01-12,62,310!2026-01-03,54,310!2026-01-07,58,310!2026-01-13,63,310!2025-11-12,16,290-->
 
 ### `Coder.encode`
 
-{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!2026-01-06,57,310!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290-->
+{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!2026-01-06,57,310!2026-01-11,61,310!2025-11-12,16,290!2025-11-12,16,290!2026-01-13,63,310!2026-01-12,62,310!2025-11-12,16,290-->
 
 > [!example] __`Coder.encode`__
 >
@@ -111,13 +111,13 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 >     rest       <- encode(number.drop(splitPoint))
 >   } yield word :: rest
 > ```
-<!--SR:!2026-01-07,58,310!2025-11-11,15,290!2026-01-05,56,310!2025-11-11,15,290!2026-01-04,55,310!2025-11-11,15,290!2025-11-11,15,290-->
+<!--SR:!2026-01-07,58,310!2026-01-13,63,310!2026-01-05,56,310!2026-01-12,62,310!2026-01-04,55,310!2026-01-12,62,310!2026-01-12,62,310-->
 
 {@{This comprehension}@} enumerates {@{all ways of partitioning the digit string into dictionary words}@}, accumulating {@{each complete phrase as a list}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
 
 ### word coder usage
 
-{@{A minimal test harness}@} {@{demonstrates usage}@}: <!--SR:!2026-01-04,55,310!2025-11-11,15,290-->
+{@{A minimal test harness}@} {@{demonstrates usage}@}: <!--SR:!2026-01-04,55,310!2026-01-12,62,310-->
 
 > [!example] __word coder results__
 >
@@ -129,22 +129,22 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 >                          "rocks","socks","sucks","works","pack"))
 >   println(coder.encode(number).map(_.mkString(" ")))
 > ```
-<!--SR:!2025-11-11,15,290!2026-01-04,55,310-->
+<!--SR:!2026-01-13,63,310!2026-01-04,55,310-->
 
 Thus the implementation finds {@{all valid mnemonic phrases in a handful of lines}@}. <!--SR:!2026-01-04,55,310-->
 
 ### word coder conclusion
 
-{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23‑29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!2026-01-05,56,310!2025-11-11,15,290!2025-11-12,16,290!2025-11-11,15,290!2025-11-11,15,290!2026-01-05,56,310!2025-11-11,15,290!2026-01-06,57,310!2025-11-11,15,290!2025-11-11,15,290!2025-11-11,15,290-->
+{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23‑29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!2026-01-05,56,310!2026-01-13,63,310!2025-11-12,16,290!2026-01-12,62,310!2026-01-13,63,310!2026-01-05,56,310!2026-01-12,62,310!2026-01-06,57,310!2026-01-13,63,310!2026-01-13,63,310!2026-01-11,61,310-->
 
 {@{The concise implementation}@} hinges on {@{several features of Scala's collection library}@}: \(annotation: 4 items: {@{concise, fast, safe, universal}@}\) <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290-->
 
-- _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!2025-11-11,15,290!2025-11-12,16,290-->
-- _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
-- _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!2025-11-11,15,290!2026-01-05,56,310-->
+- _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!2026-01-12,62,310!2025-11-12,16,290-->
+- _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2025-11-12,16,290!2026-01-13,63,310-->
+- _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!2026-01-12,62,310!2026-01-05,56,310-->
 - _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!2025-11-12,16,290!2025-11-12,16,290-->
 
-These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!2025-11-12,16,290!2025-11-11,15,290-->
+These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!2025-11-12,16,290!2026-01-12,62,310-->
 
 ## database
 
@@ -185,9 +185,9 @@ To retrieve {@{the titles of books written by an author}@} whose {@{name begins 
 >   if a.startsWith("Bird,")
 > } yield b.title
 > ```
-<!--SR:!2025-11-11,15,290!2025-11-11,15,290-->
+<!--SR:!2026-01-13,63,310!2026-01-12,62,310-->
 
-The same syntax can be used to {@{find all books whose title}@} contains {@{the word "Program"}@}: <!--SR:!2026-01-07,58,310!2025-11-11,15,290-->
+The same syntax can be used to {@{find all books whose title}@} contains {@{the word "Program"}@}: <!--SR:!2026-01-07,58,310!2026-01-12,62,310-->
 
 > [!example] __simple database query filtering by title__
 >
@@ -196,11 +196,11 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 > ```Scala
 > for (b <- books if b.title.indexOf("Program") >= 0) yield b.title
 > ```
-<!--SR:!2025-11-11,15,290!2025-11-11,15,290-->
+<!--SR:!2026-01-12,62,310!2026-01-12,62,310-->
 
 ### complex database queries
 
-{@{A slightly more involved query}@} finds {@{authors}@} who appear in {@{at least two distinct book records}@}: <!--SR:!2025-11-12,16,290!2025-11-11,15,290!2026-01-06,57,310-->
+{@{A slightly more involved query}@} finds {@{authors}@} who appear in {@{at least two distinct book records}@}: <!--SR:!2025-11-12,16,290!2026-01-12,62,310!2026-01-06,57,310-->
 
 > [!example] __complex database query filtering by author with duplicates__
 >
@@ -216,9 +216,9 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 >   if a1 == a2
 > } yield a1
 > ```
-<!--SR:!2026-01-04,55,310!2025-11-12,16,290!2025-11-11,15,290-->
+<!--SR:!2026-01-04,55,310!2025-11-12,16,290!2026-01-12,62,310-->
 
-Running {@{this against the sample list}@} returns {@{each qualifying author twice}@}, because {@{the pair of book records}@} can be {@{ordered in two ways}@}. To {@{eliminate duplicates}@} we may {@{impose an ordering on the books}@} by {@{changing `if b1 != b2` to `b1.title < b2.title`}@}. However, {@{an author who has written three books}@} will still {@{appear three times}@}, as there are {@{3 ways to choose 2 books from 3 books}@}.  {@{A straightforward remedy}@} is to {@{call `distinct` on the result}@}: <!--SR:!2025-11-12,16,290!2026-01-05,56,310!2025-11-12,16,290!2026-01-03,54,310!2025-11-11,15,290!2025-11-11,15,290!2025-11-12,16,290!2026-01-07,58,310!2025-11-11,15,290!2026-01-04,55,310!2025-11-12,16,290!2025-11-12,16,290-->
+Running {@{this against the sample list}@} returns {@{each qualifying author twice}@}, because {@{the pair of book records}@} can be {@{ordered in two ways}@}. To {@{eliminate duplicates}@} we may {@{impose an ordering on the books}@} by {@{changing `if b1 != b2` to `b1.title < b2.title`}@}. However, {@{an author who has written three books}@} will still {@{appear three times}@}, as there are {@{3 ways to choose 2 books from 3 books}@}.  {@{A straightforward remedy}@} is to {@{call `distinct` on the result}@}: <!--SR:!2025-11-12,16,290!2026-01-05,56,310!2025-11-12,16,290!2026-01-03,54,310!2026-01-12,62,310!2026-01-13,63,310!2025-11-12,16,290!2026-01-07,58,310!2026-01-13,63,310!2026-01-04,55,310!2025-11-12,16,290!2025-11-12,16,290-->
 
 > [!example] __complex database query filtering by author__
 >
@@ -235,13 +235,13 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > } yield a1
 > repeated.distinct  // removes duplicate author names
 > ```
-<!--SR:!2026-01-04,55,310!2025-11-11,15,290!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
+<!--SR:!2026-01-04,55,310!2026-01-12,62,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290-->
 
-{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2026-01-05,56,310!2025-11-11,15,290!2025-11-11,15,290!2026-01-05,56,310!2026-01-05,56,310!2025-11-11,15,290!2026-01-06,57,310-->
+{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2026-01-05,56,310!2026-01-12,62,310!2026-01-13,63,310!2026-01-05,56,310!2026-01-05,56,310!2026-01-13,63,310!2026-01-06,57,310-->
 
 ### translating queries to higher-order functions
 
-{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher‑order functions as: <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-11,15,290-->
+{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher‑order functions as: <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2026-01-13,63,310-->
 
 > [!example] __simple database query filtering by author__
 >
@@ -251,4 +251,4 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > books.flatMap(b =>
 >   b.authors.withFilter(a => a.startsWith("Bird")).map(_ => b.title))
 > ```
-<!--SR:!2026-01-04,55,310!2026-01-05,56,310!2025-11-11,15,290-->
+<!--SR:!2026-01-04,55,310!2026-01-05,56,310!2025-12-24,43,290-->

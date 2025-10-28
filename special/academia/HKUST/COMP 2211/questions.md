@@ -462,7 +462,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: take a look at the "axis" argument that appears in many common NumPy functions.
 >
-> - solution: {@{`numpy.min(a, axis=1)`, `numpy.min(a, axis=-1)`}@} <!--SR:!2025-11-11,251,330-->
+> - solution: {@{`numpy.min(a, axis=1)`, `numpy.min(a, axis=-1)`}@} <!--SR:!2028-12-26,1141,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -529,7 +529,7 @@ tags:
 > 2. The naive Bayes classifier is uses a labeled dataset.
 > 3. The naive Bayes classifier assumes independence of events (features).
 >
-> - solution: {@{2, 3}@} <!--SR:!2025-11-11,251,330-->
+> - solution: {@{2, 3}@} <!--SR:!2028-12-27,1142,350-->
 
 <!-- markdownlint MD028 -->
 

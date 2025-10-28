@@ -618,7 +618,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. E
 >
 > - solution: {@{5}@}
-> - explanation: {@{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}@} <!--SR:!2025-11-11,345,367!2025-11-20,352,367-->
+> - explanation: {@{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}@} <!--SR:!2030-08-16,1739,387!2025-11-20,352,367-->
 
 <!-- markdownlint MD028 -->
 

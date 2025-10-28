@@ -48,7 +48,7 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 
 {@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-05,276,330!2026-01-27,293,330!2025-12-27,267,330!2027-12-21,820,330!2026-01-17,285,330!2027-12-23,821,330-->
 
-{@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}. <!--SR:!2025-11-11,102,381!2025-11-11,102,381-->
+{@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}. <!--SR:!2027-04-28,533,401!2027-04-25,530,401-->
 
 In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded that {@{they found the "sales total" metric very useful}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2027-04-27,533,401!2027-04-24,530,401-->
 
@@ -62,7 +62,7 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 > | 9-7        | {@{Cash}@}                                           | {@{490.00}@} |              |
 > |            | {@{Sales Discounts}@}                                | {@{10.00}@}  |              |
 > |            | &ensp;{@{Accounts Receivable \(Customer A\)}@}       |              | {@{500.00}@} |
-> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              | <!--SR:!2027-03-25,504,401!2027-04-03,513,401!2027-03-26,504,401!2027-04-23,529,401!2025-11-11,102,381!2027-04-11,518,401!2027-03-21,501,401!2027-03-28,507,401!2027-04-11,519,401!2027-04-17,524,401!2027-03-19,499,401!2027-04-10,517,401!2027-04-08,517,401!2027-04-12,520,401!2027-04-09,518,401!2027-03-29,508,401-->
+> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              | <!--SR:!2027-03-25,504,401!2027-04-03,513,401!2027-03-26,504,401!2027-04-23,529,401!2027-04-29,534,401!2027-04-11,518,401!2027-03-21,501,401!2027-03-28,507,401!2027-04-11,519,401!2027-04-17,524,401!2027-03-19,499,401!2027-04-10,517,401!2027-04-08,517,401!2027-04-12,520,401!2027-04-09,518,401!2027-03-29,508,401-->
 
 {@{__Revenue__ or __Sales__ reported on the income statement}@} are {@{net sales after deducting Sales Returns and Allowances and Sales Discounts}@}. <!--SR:!2027-04-19,526,401!2027-03-27,506,401-->
 
@@ -72,7 +72,7 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 | {@{Sales}@}                             |               | {@{\$2,000.00}@} |
 | {@{Less Sales returns and allowances}@} | {@{\$20.00}@} |                  |
 | {@{Sales discounts}@}                   | {@{\$10.00}@} | {@{\$30.00}@}    |
-| {@{Net sales}@}                         |               | {@{\$1,970.00}@} | <!--SR:!2027-03-18,498,401!2027-03-17,497,401!2027-04-10,518,401!2027-04-11,519,401!2025-11-11,102,381!2025-11-11,102,381!2027-03-22,502,401!2027-04-28,534,401!2025-11-11,102,381!2027-04-22,528,401-->
+| {@{Net sales}@}                         |               | {@{\$1,970.00}@} | <!--SR:!2027-03-18,498,401!2027-03-17,497,401!2027-04-10,518,401!2027-04-11,519,401!2027-04-30,535,401!2027-04-23,528,401!2027-03-22,502,401!2027-04-28,534,401!2027-04-24,529,401!2027-04-22,528,401-->
 
 ## unique definitions
 

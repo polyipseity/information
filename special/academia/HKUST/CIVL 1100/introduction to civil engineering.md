@@ -403,7 +403,7 @@ Water Cube
 - Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2028-06-07,1108,324!2026-12-13,761,370-->
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2028-12-06,1264,340!2027-12-22,971,290-->
-- CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
+- CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2029-04-11,1247,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2029-06-05,1359,314!2027-04-10,766,325-->
 - Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2028-10-12,1235,357!2028-07-09,1140,340-->
 - Water Cube→::@::←_(end)_ <!--SR:!2032-04-02,2364,421!2027-09-14,985,377-->

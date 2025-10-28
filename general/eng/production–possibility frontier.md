@@ -21,7 +21,7 @@ This tradeoff is usually considered for {@{an [economy](economy.md), but also ap
 >
 > figure 1: {@{a production possibilities frontier}@} <!--SR:!2028-11-05,1166,350!2029-06-28,1352,350-->
 
-PPFs are normally {@{drawn as bulging upwards or outwards from the origin ("concave" when viewed from the origin)}@}, but {@{they can be represented as bulging downward (inwards) or linear (straight), depending on a number of assumptions}@}. <!--SR:!2025-11-11,317,330!2027-10-23,844,330-->
+PPFs are normally {@{drawn as bulging upwards or outwards from the origin ("concave" when viewed from the origin)}@}, but {@{they can be represented as bulging downward (inwards) or linear (straight), depending on a number of assumptions}@}. <!--SR:!2029-10-29,1448,350!2027-10-23,844,330-->
 
 {@{An outward shift of the PPC}@} results from {@{growth of the availability of inputs}@}, such as {@{[physical capital](physical%20capital.md) or [labour](work%20(human%20activity).md), or from technological progress in knowledge of how to transform inputs into outputs}@}. Such a shift reflects, for instance, {@{[economic growth](economic%20growth.md) of an economy already operating at its full productivity (on the PPF)}@}, which means that {@{more of _both_ outputs can now be produced during the specified period of time without sacrificing the output of either good}@}. Conversely, {@{the PPF will shift inward}@} if {@{the labour force shrinks, the supply of raw materials is depleted, or a [natural disaster](natural%20disaster.md) decreases the stock of physical capital}@}. <!--SR:!2029-10-11,1435,350!2028-12-06,1191,350!2027-03-20,686,330!2027-05-26,725,330!2028-06-24,1059,350!2028-11-29,1186,350!2029-06-11,1338,350-->
 

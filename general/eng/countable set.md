@@ -15,7 +15,7 @@ In [mathematics](mathematics.md), a [set](set%20(mathematics).md) is __countable
 
 In more technical terms, {@{assuming the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}, a set is {@{_countable_ if its [cardinality](cardinality.md) \(the number of elements of the set\) is not greater than that of the natural numbers}@}. A countable set {@{that is not finite is said to be __countably infinite__}@}. <!--SR:!2026-07-09,419,310!2026-02-16,301,290!2027-09-01,751,330-->
 
-The concept is attributed to {@{[Georg Cantor](Georg%20Cantor.md)}@}, who {@{proved the existence of [uncountable sets](uncountable%20set.md), that is, sets that are not countable}@}; for example {@{the set of the [real numbers](real%20number.md)}@}. <!--SR:!2025-12-15,276,330!2025-11-11,249,330!2027-11-12,806,330-->
+The concept is attributed to {@{[Georg Cantor](Georg%20Cantor.md)}@}, who {@{proved the existence of [uncountable sets](uncountable%20set.md), that is, sets that are not countable}@}; for example {@{the set of the [real numbers](real%20number.md)}@}. <!--SR:!2025-12-15,276,330!2028-12-20,1135,350!2027-11-12,806,330-->
 
 ## a note on terminology
 

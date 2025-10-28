@@ -13,7 +13,7 @@ tags:
 
 > {@{![Permutation with one of its inversions highlighted.](../../archives/Wikimedia%20Commons/Inversion%20qtl1.svg)}@}
 >
-> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2025-12-14,294,332!2025-12-15,295,332!2027-10-01,790,332!2025-11-11,270,332-->
+> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2025-12-14,294,332!2025-12-15,295,332!2027-10-01,790,332!2029-04-05,1241,352-->
 
 In {@{[computer science](computer%20science.md) and [discrete mathematics](discrete%20mathematics.md)}@}, {@{an __inversion__}@} in {@{a sequence is a pair of elements that are out of their natural [order](total%20order.md)}@}. <!--SR:!2029-01-17,1177,352!2025-11-21,278,332!2025-11-20,277,332-->
 

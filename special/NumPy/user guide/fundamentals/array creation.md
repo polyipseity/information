@@ -232,7 +232,7 @@ array([[[0, 0, 0],
 
 ## replicating, joining, or mutating existing arrays
 
-Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2026-01-05,337,350!2029-01-31,1206,350!2026-01-14,344,350!2025-11-11,289,330!2026-01-06,338,350-->
+Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2026-01-05,337,350!2029-01-31,1206,350!2026-01-14,344,350!2029-06-20,1317,350!2026-01-06,338,350-->
 
 ```Python
 >>> import numpy as np
@@ -256,7 +256,7 @@ a =  [1 2 3 4] b =  [2 3]
 
 For more information and examples look at [copies and Views](../quickstart.md#copies%20and%20views).
 
-There are {@{a number of routines to join existing arrays}@} e.g. {@{[`numpy.vstack`](../../API%20reference/generated/numpy.vstack.md#numpy.vstack "numpy.vstack"), [`numpy.hstack`](../../API%20reference/generated/numpy.hstack.md#numpy.hstack "numpy.hstack"), and [`numpy.block`](../../API%20reference/generated/numpy.block.md#numpy.block "numpy.block")}@}. Here is an example of {@{joining four 2-by-2 arrays into a 4-by-4 array using `block`}@}: <!--SR:!2029-03-24,1247,350!2025-12-27,329,350!2025-11-11,290,330-->
+There are {@{a number of routines to join existing arrays}@} e.g. {@{[`numpy.vstack`](../../API%20reference/generated/numpy.vstack.md#numpy.vstack "numpy.vstack"), [`numpy.hstack`](../../API%20reference/generated/numpy.hstack.md#numpy.hstack "numpy.hstack"), and [`numpy.block`](../../API%20reference/generated/numpy.block.md#numpy.block "numpy.block")}@}. Here is an example of {@{joining four 2-by-2 arrays into a 4-by-4 array using `block`}@}: <!--SR:!2029-03-24,1247,350!2025-12-27,329,350!2029-06-23,1320,350-->
 
 ```Python
 >>> import numpy as np
