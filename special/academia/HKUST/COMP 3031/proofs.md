@@ -192,7 +192,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >
 > {@{Right hand side}@}:
 >
-> ```psuedocode
+> ```pseudocode
 > x :: xs1
 >   = x :: xs1.reverse.reverse  // by inductive hypothesis
 > ```
@@ -331,7 +331,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z = y$}@} – `incl(y)` {@{returns the node as-is}@}.
 > - If {@{$z < x$ and $z < y$ \($z$ is smallest, i.e. $z < x < y$ or $z < y < x$\)}@} – the search {@{continues into the right child: `r.incl(y).contains(x)`}@}. By {@{induction hypothesis the property holds there}@}; consequently {@{both sides reduce into the same expression}@}.
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
-> - If {@{$x < z < y$ or $y < z <ｘ$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
+> - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
 > {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2025-11-12,16,290!2026-01-12,62,310!2026-01-03,54,310!2026-01-13,63,310!2025-11-12,16,290!2026-01-08,58,310!2026-01-05,56,310!2026-01-04,55,310!2026-01-06,57,310!2026-01-13,63,310!2026-01-04,55,310!2025-11-12,16,290!2025-11-12,16,290!2026-01-04,55,310!2026-01-04,55,310!2025-12-09,31,270!2026-01-06,57,310!2025-11-12,16,290!2026-01-03,54,310!2025-11-12,16,290!2026-01-05,56,310-->
 
@@ -399,7 +399,7 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 >
 > We need to prove {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. {@{This restriction is required}@} because {@{`NonEmpty(z, l, r)` is not necessarily a BST}@} if it is {@{directly constructed from arbitrarily trees `l` and `r`}@}.
 >
-> First we observe that {@{`incl` does not change the element in the root node}@}. So the only way to {@{obtain a `NonEmpty(z, l, r)`}@} is by {@{starting with `Empty.incl(z) == NonEmpty(z, Empty, Empty)`}@}. We can perform {@{another induction}@}, starting with {@{`NonEmpty(z, Empty, Empty)` and _exclusively_ using `incl` to build up the `IntSet`}@}
+> First we observe that {@{`incl` does not change the element in the root node}@}. So the only way to {@{obtain a `NonEmpty(z, l, r)`}@} is by {@{starting with `Empty.incl(z) == NonEmpty(z, Empty, Empty)`}@}. We can perform {@{another induction}@}, starting with {@{`NonEmpty(z, Empty, Empty)` and _exclusively_ using `incl` to build up the `IntSet`}@}:
 >
 > - {@{_Base case_}@}: Consider {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}.
 > - {@{_Inductive step_}@}: Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.

@@ -1,0 +1,17 @@
+assignment:
+  comments: {}
+  content: ''
+  grade:
+    entered: 26
+    graded anonymously: null
+    possible: 30
+  id: 401543
+  properties: {}
+  submissions:
+  - datetime: 2025-10-03 23:59:00+08:00
+    id: -1
+  title: Homework Assignment 1
+course:
+  id: 65327
+  name: FINA3103 (L4)
+type: submission/Canvas/canvas.ust.hk

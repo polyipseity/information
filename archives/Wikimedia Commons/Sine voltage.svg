@@ -1,0 +1,7 @@
+<svg width="216mm" height="225mm" version="1.1" viewBox="0 0 216 225" xmlns="http://www.w3.org/2000/svg"><rect width="216" height="225" fill="#fff"/>
+ <g fill="none"><path d="m15 124h196m-192 98v-214" stroke="#000"/>
+ <g stroke-width=".5" stroke="#000"><path d="m15 204h4m-4-159h136m-136 23h74m-61 144h154m-130-96v-42m92 122v-143m-31 1s0 66 0 70m74-4v102" stroke="#888"/><circle cx="103" cy="203" r="8" stroke="#008"/><circle cx="61" cy="97" r="8" stroke="#008"/><circle cx="124" cy="84" r="8"/><circle cx="153" cy="97" r="8"/></g>
+ <path d="m19 124c80-275 88 275 168 0" stroke="#f00"/></g>
+ <path d="m202 120 12 4-12 4 3-4m-190-110l4-12 4 12-4-3"/><path d="m148 57-4-12-4 12 4-3m-4 138 4 12 4-12-4 3m-35-83 4 12 4-12-4 3m4-57-4-12-4 12 4-3m-65 57 4 12 4-12-4 3m4-35-4-12-4 12 4-3m-21 131-12 4 12 4-3-4m147-4 12 4-12 4 3-4" fill="#888"/>
+ <g font-family="Times" font-size="16px" text-anchor="middle"><text x="124" y="90"  fill="#00b">1<tspan x="153" y="102" >2</tspan><tspan x="61" y="103" >3</tspan><tspan x="102" y="208">4</tspan></text><text x="9" y="129" >0</text>
+ <g font-style="italic"><text x="9" y="11">u</text><text x="9" y="48">û</text><text x="202" y="118">t</text><text x="8" y="207">-û</text></g></g></svg>

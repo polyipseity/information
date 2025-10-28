@@ -164,7 +164,7 @@ The content is in teaching order.
   - futures contract / mark‑to‑market
     - futures contract / mark‑to‑market / futures price ::@:: At inception \(time 0\) the short sets a _futures price_ $F_{0,T}$ at which they will sell the asset to the long, with delivery on maturity $T$. After each trading day the market quotes a new futures price $F_{t,T}$. <!--SR:!2025-11-14,23,368!2025-11-14,23,368-->
     - futures contract / mark‑to‑market / daily profit and loss ::@:: - The long's daily P&L is $$\text{P\&L}_t = \text{contract size} \times (F_{t,T}-F_{(t-1),T}) \,.$$ The short's daily P&L is the negative of this value; gains for one side are losses for the other, maintaining a zero‑sum game. <p> To remember this, the long wants higher futures price \(which is correlated with the current spot price\). <!--SR:!2025-11-15,24,368!2025-11-16,25,368-->
-    - futures contract / mark‑to‑market / posting profit and loss ::@:: At the _end_ of every day, after accounting for interest on each trader's margin account, the daily profit and loss is posted to each trader's margin account according to their positions. <p> Intuitively, if a trader holds a _long_ position from time 0 to time $t$, its _accumulated_ P&L from the trade is: $$F_{t, T} - F_{0, T} \,,$$ and _negated_ for the short. Note this accumulated value ignores the time value of money \(risk-free interest\). <!--SR:!2025-11-14,23,368!2025-12-26,50,348-->
+    - futures contract / mark‑to‑market / posting profit and loss ::@:: At the _end_ of every day, after accounting for interest on each trader's margin account, the daily profit and loss is posted to each trader's margin account according to their positions. <p> Intuitively, if a trader holds a _long_ position from time 0 to time $t$, its _accumulated_ P&L from the trade is: $$F_{t, T} - F_{0, T} \,,$$ and _negated_ for the short. Note this accumulated value ignores the time value of money \(risk-free interest\), as the margin account already earns risk-free interest. <!--SR:!2025-11-14,23,368!2025-12-26,50,348-->
   - futures contract / settlement ::@:: Futures may settle _physically_ \(delivery of the underlying asset\) or _in cash_ \(net payment\). <!--SR:!2025-11-16,25,368!2025-11-16,25,368-->
     - futures contract / settlement / physical ::@:: Some futures \(e.g., agricultural products, energy, metals\) settle by physical delivery of the underlying asset. <p> The final settlement price is usually the spot price at maturity \(as P&L from changes in future price are marked-to-market daily\), but some contracts specify a particular index or formula. <!--SR:!2025-11-15,24,368!2025-11-14,23,368-->
     - futures contract / settlement / in cash ::@:: Most financial futures \(e.g., equity indices, interest rates\) settle in cash. The final settlement price is usually the spot price at maturity \(as P&L from changes in future price are marked-to-market daily\), but some contracts specify a particular index or formula. <!--SR:!2026-01-31,84,368!2026-01-30,83,368-->
@@ -178,7 +178,7 @@ The content is in teaching order.
       - futures contract / mark-to-market / example / account for interest ::@:: - Margin balance after Δt days \(or weeks\) grows at the continuously‑compounded rate \(r\): $$M_{\Delta t}=M_0\,e^{r\Delta t}$$ <br/> - _Example:_ 6% per annum, one week \($\Delta t=1/52$\) → $\$237{,}500 \times e^{0.06/52}\approx\$237{,}774.20$ <!--SR:!2025-11-15,24,368!2025-11-16,25,368-->
         - futures contract / mark-to-market / example / account for interest / duration ::@:: Treat a year to have 365 days or 52 weeks. <!--SR:!2025-11-14,23,368!2025-11-14,23,368-->
       - futures contract / mark-to-market / example / compute maintenance margin ::@:: - Maintenance margin = Maintenance-margin-of-initial-margin% × Initial-margin \(or a fixed amount\). <br/> - _Example:_ 80% of initial → $0.8×\$237{,}500 = \$190{,}000$. <!--SR:!2025-11-13,18,348!2025-11-14,23,368-->
-      - futures contract / mark-to-market / example / compute margin call trigger ::@:: - Assuming futures price always equal spot, _loss_ on the _long_ position when spot falls to $X$ is $$L = N_{\text{contracts}}\times(\text{contract size})\times(S_0-X) = N_0 (S_0 - X)$$ <br/>  - The margin account after realizing this loss becomes $$M_{\Delta t} - L$$ <br/> - Set this equal to the maintenance level and solve for X: $$\begin{aligned} M_{\Delta t} - N_0\,(S_0-X) & = \text{Maintenance} \\ X & = S_0 - \frac{M_{\Delta t}-\text{Maintenance}}{N_0} \,. \end{aligned}$$ <!--SR:!2026-01-06,59,348!2025-12-23,48,348-->
+      - futures contract / mark-to-market / example / compute margin call trigger ::@:: - Assuming futures price always equal spot, _loss_ on the _long_ position when spot falls to $X$ is $$L = N_{\text{contracts} }\times(\text{contract size})\times(S_0-X) = N_0 (S_0 - X)$$ <br/>  - The margin account after realizing this loss becomes $$M_{\Delta t} - L$$ <br/> - Set this equal to the maintenance level and solve for X: $$\begin{aligned} M_{\Delta t} - N_0\,(S_0-X) & = \text{Maintenance} \\ X & = S_0 - \frac{M_{\Delta t}-\text{Maintenance} }{N_0} \,. \end{aligned}$$ <!--SR:!2026-01-06,59,348!2025-12-23,48,348-->
       - futures contract / mark-to-market / example / interpret results ::@:: - If the market moves such that the futures price falls below the calculated $X$, the trader's margin balance would dip under maintenance and a margin call is issued. <br/> - Conversely, if the price stays above $X$, no call occurs and the position can remain open. <br/> - If the price is exactly $X$ \(very unlikely\), it depends on the exchange. <!--SR:!2025-11-15,24,368!2025-11-14,23,368-->
 
 ## week 3 lecture
@@ -302,12 +302,75 @@ The content is in teaching order.
 
 - datetime: 2025-09-29T10:30:00+08:00/2025-09-29T11:50:00+08:00, PT1H20M
 - topic:
+- forward curve
+  - forward curve / forward interest rate ::@:: A forward rate $f_{t_0,t_1,t_2}$ is the implied continuously-compounded rate for the period $[t_1,t_2]$, known today at time $t_0$.
+    - forward curve / forward interest rate / parity ::@:: All interest rates here are _\(annualized\) continuously-compounded_. <p> It links the spot rates from $t_0$ to $t_1$ and $t_0$ to $t_2$: $$f_{t_0,t_1,t_2}=\frac{r_{t_0,t_2}(t_2-t_0)-r_{t_0,t_1}(t_1-t_0)}{\,t_2-t_1\,}.$$ <p> Example: with $r_{t_0,3m}=3\%$ and $r_{t_0,9m}=5\%$, the forward rate for months 3–9 is $6\%$.
+    - forward curve / forward interest rate / intuition ::@:: Multiply the interest rate by duration to get the return over that duration. Subtract returns such that you get the return over a certain duration. Finally, divide by the duration to get the interest rate.
+    - forward curve / forward interest rate / investment ::@:: You cannot invest at forward interest rate _directly_. But you can use a synthetic investment, forward rate agreement, and Eurodollar futures, etc.
+    - forward curve / forward interest rate / synthetic investment ::@:: Borrow $-\$1\,000\,000e^{-0.03\times\frac{3}{12} }$ at 3% for 3 months: payoff in 3 months $-\$1\,000\,000$. Then, invest the same amount at 5% for 9 months: payoff in 9 months $+\$1\,000\,000 e^{-0.03\times\frac{3}{12} }e^{0.05\times\frac{9}{12} }$. <p> Net cash-flow is as-if you invest \$1M at 3 months and receive its return at 9 months at the rate 6%, same as the forward interest rate.
+- [forward rate agreement](../../../../general/forward%20rate%20agreement.md) \(FRA\) ::@:: It is an interest rate derivative (IRD). In particular, it is a linear IRD with strong associations with interest rate swaps (IRSs).
+  - forward rate agreement / simple definition ::@:: An OTC contract fixing the interest rate for a future period $[t_1,t_2]$ on a notional amount. Typically, the payoff is transferred at $t_1$.
+  - forward rate agreement / payoff ::@:: All interest rates here are _\(annualized\) simple interests_. Long-position payoff at $t_1$: $$\frac{(r_{\text{fut} }-r_{\text{FRA} })(t_2-t_1)}{1+r_{\text{fut} }(t_2-t_1)}\,\text{Notional} \,$$ where $r_{\text{fut} }$ is the _unknown_ future interest rate at time $t_1$.
+    - forward rate agreement / long position / intuition ::@:: For a long position, higher $r_{\text{fut} }$ is better. The difference with $r_{\text{FRA} }$ is the _excess_ simple interest rate. Multiply it by the time period to get the return at time $t_2$. Then divide by $1 + r_{\text{fut} } (t_2 - t_1)$ to discount this return back to time $t_1$.
+  - forward rate agreement / quote ::@:: Both $r_{\text{fut} }$ and the "forward price" $r_{\text{FRA} }$ are quoted as _annualized simple interest rate_.
+  - forward rate agreement / no arbitrage ::@:: The FRA rate $r_{\text{FRA} }$ equals the forward rate $f_{t_0,t_1,t_2}$ once simple vs. continuous compounding is reconciled (e.g., $6.0909\%$ ≈ $e^{0.06\times0.5}-1$).
+  - forward rate agreement / example ::@:: You receive \$1M in 3 months and wish to invest it for the next 6 months. <p> Short an FRA at $6.0909\%$ \(by default, _annualized simple interest_\). If the _annualized simple_ market rate after 3 months is 8%, you lose $\$9\,178.27$ from the FRA after 3 months, offsetting a higher investment cost; if the rate is 4%, you receive $\$10\,454.50$, again neutralising the deviation. In both cases the total proceeds at month 9 equal $\$1\,030\,454.53$, matching the synthetic investment result.
+- [repurchase agreement](../../../../general/repurchase%20agreement.md) ::@:: It is a form of secured short-term borrowing, usually, though not always, using government securities as collateral. A contracting party sells a security to a lender and, by agreement between the two parties, repurchases the security back shortly afterwards, at a slightly higher contracted price.
+  - repurchase agreement / simple definition ::@:: - Repo: a seller sells a security today and agrees to repurchase it later at a higher price; the difference is the repo rate. Effectively, borrowing cash against the security collateral. <br/> - Reverse-repo: viewed from the buyer's side, effectively borrowing the security against cash collateral.
+  - repurchase agreement / uses ::@:: Repos are used for short-term funding (seller obtains cash) or \(almost\) risk-free investing (lender earns the repo rate). It can also be used for leverage.
+    - repurchase agreement / uses / long forward ::@:: Buy a bond and immediately enter a repo using that bond as collateral – equivalent to holding a long forward on the bond. <p> Intuitively, a repo is a long forward, but additionally you sell the underlying now. By also buying the underlying now, this converts the repo to a long forward.
+      - repurchase agreement / uses / long forward / timing ::@:: If you have the money to enter a repo, simply buying the received underlying now works. But if you do not, you need to borrow the money, buy it, and then enter the the repo \(_without_ buying the underlying again, as you have already bought it _once_\). It is the same as above except you need to repay the loan. <p> The timing of cash flows (the "chicken or egg" problem) is resolved by borrowing first and then buying the collateral from the same bank.
+    - repurchase agreement / uses / short forward ::@:: Establishing a short position: borrow a bond via reverse-repo, sell it, then hedge with a repo – analogous to a short forward. <p> Intuitively, a reverse-repo is a short forward, but additionally you buy the underlying now. By also selling the underlying now, this converts the repo to a short forward.
+      - repurchase agreement / uses / short forward / timing ::@:: If you have the money to enter a reverse-repo, simply selling the received underlying now works. But if you do not, you need to borrow the underlying, sell it, and then enter the the reverse-repo \(_without_ selling the received underlying, as you have already sold it _once_\). It is the same as above except you need to repay the underlying. <p> The timing of cash flows (the "chicken or egg" problem) is resolved by borrowing first and then buying the collateral from the same bank.
+    - repurchase agreement / uses / leverage ::@:: For long forward, notice we can use the received money to buy another underlying to synthesize another long forward. For short forward, notice we can sell the underlying to synthesize another short forward. <p> In both cases, we leverage our positions, as no additional investment is needed. Every buying/selling of the underlying can be treated as a _long_/_short_ position on the underlying. Buying/selling the underlying _n_ times gives a leverage of _n_.
+  - repurchase agreement / haircut ::@:: Borrowers must post collateral exceeding the loan's notional amount; this excess is called a haircut. <p> Above, we see we can use \(ideal\) repos or reverse-repos to leverage unlimited number of times without the counterparty knowing. Haircuts limit the leverage.
+    - repurchase agreement / haircut / market stress ::@:: Haircuts are typically modest under normal conditions but can widen dramatically during market stress, raising funding costs.
+  - repurchase agreement / convergence trade ::@:: - _On-run_ \(more liquid\) 30-year Treasuries usually trade at slightly lower yields \(higher prices\) than similar _off-run_ \(less liquid\) issues; a spread is expected to narrow ("converge"). <br/> - Trade setup: buy the cheaper off-run bond and repo it (financing the long); short the expensive on-run bond via reverse-repo. <br/> - Profit arises from the narrowing spread, independent of overall market direction – a classic relative-value arbitrage.
+    - repurchase agreement / convergence trade / forwards ::@:: We get the same effect by entering a long forward on the cheaper off-run bond and a short forward on the expensive on-run bond.
+- [basis point](../../../../general/basis%20point.md) ::@:: It is one hundredth of 1 percentage point. Changes of interest rates are often stated in basis points.
+- [Long-Term Capital Management](../../../../general/Long-Term%20Capital%20Management.md) \(LTCM\) ::@:: It was a highly leveraged hedge fund. In 1998, it received a $3.6 billion bailout from a group of 14 banks, in a deal brokered and put together by the Federal Reserve Bank of New York.
+  - Long-Term Capital Management / core strategy ::@:: It used high leverage (often >20× equity) to amplify small mispricings in spreads between similar assets. <p> Low-risk spread trades, diversified across many pairs, but highly correlated when market stress amplified correlations.
+  - Long-Term Capital Management / collapse ::@:: Low-risk spread trades, diversified across many pairs, but highly correlated when market stress amplified correlations. <p> Exogenous shocks (Asian crisis, Russian default, etc.) widening spreads and eroding liquidity; simultaneous unwinding by other funds caused a cascade of losses.
+    - Long-Term Capital Management / collapse / market stress ::@:: Even small mis-estimated correlations can explode under stressed conditions; statistical models are fragile when data is scarce or non-stationary.
+    - Long-Term Capital Management / collapse / counterparty risk ::@:: Counterparty risk was amplified because trades were split across many counterparties, hiding the true concentration and leverage.
+  - Long-Term Capital Management / bailout ::@:: The Federal Reserve's bailout (≈\$3.6 bn) prevented a broader contagion, illustrating how interconnected derivatives can threaten systemic stability.
 - assignment: [homework 1](assignments/homework%201/index.md)
 
 ## week 5 lecture 2
 
 - datetime: 2025-10-01T10:30:00+08:00/2025-10-01T11:50:00+08:00, PT1H20M
-- status: unscheduled; public holiday
+- status: unscheduled; public holiday: National Day
+
+## week 6 lecture
+
+- datetime: 2025-10-06T10:30:00+08:00/2025-10-06T11:50:00+08:00, PT1H20M
+- topic:
+
+## week 6 lecture 2
+
+- datetime: 2025-10-08T10:30:00+08:00/2025-10-08T11:50:00+08:00, PT1H20M
+- topic:
+
+## week 7 lecture
+
+- datetime: 2025-10-13T10:30:00+08:00/2025-10-13T11:50:00+08:00, PT1H20M
+- topic:
+
+## week 7 lecture 2
+
+- datetime: 2025-10-15T10:30:00+08:00/2025-10-15T11:50:00+08:00, PT1H20M
+- topic:
+- assignment: [homework 2](assignments/homework%202/index.md)
+
+## week 8 lecture
+
+- datetime: 2025-10-20T10:30:00+08:00/2025-10-20T11:50:00+08:00, PT1H20M
+- topic:
+
+## week 8 lecture 2
+
+- datetime: 2025-10-22T10:30:00+08:00/2025-10-22T11:50:00+08:00, PT1H20M
+- topic:
 
 ## aftermath
 

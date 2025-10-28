@@ -59,7 +59,7 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
 
 > [!info]- code
 >
-> ```psuedocode
+> ```pseudocode
 > algorithm Kruskal(G) is
 >     F:= ∅
 >     for each v in G.V do
@@ -91,7 +91,7 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
 
 For {@{a graph with _E_ edges and _V_ vertices}@}, Kruskal's algorithm can be shown to {@{run in time _O_\(_E_ log _E_\) time}@}, with {@{simple data structures}@}. Here, {@{_O_ expresses the time in [big O notation](big%20O%20notation.md), and log is a [logarithm](logarithm.md) to any base \(since inside _O_-notation logarithms to all bases are equivalent, because they are the same up to a constant factor\)}@}. This time bound is {@{often written instead as _O_\(_E_ log _V_\)}@}, which is {@{equivalent for graphs with no isolated vertices}@}, because {@{for these graphs _V_/2 ≤ _E_ \< _V_<sup>2</sup>}@} and {@{the logarithms of _V_ and _E_ are again within a constant factor of each other}@}. <!--SR:!2028-09-24,1087,350!2027-01-15,573,310!2025-11-29,285,330!2025-12-07,293,330!2026-10-21,509,310!2035-03-15,3522,350!2025-12-08,294,330!2029-03-09,1219,350-->
 
-To {@{achieve this bound}@}, first {@{sort the edges by weight using a [comparison sort](comparison%20sort.md) in _O_\(_E_ log _E_\) time}@}. Once sorted, it is {@{possible to loop through the edges in sorted order in constant time per edge}@}. Next, {@{use a [disjoint-set data structure](disjoint-set%20data%20structure.md)}@}, with {@{a set of vertices for each component, to keep track of which vertices are in which components}@}. Creating {@{this structure, with a separate set for each vertex}@}, takes {@{_V_ operations and _O_\(_V_\) time}@}. {@{The final iteration through all edges}@} performs {@{two find operations and possibly one union operation per edge}@}. These operations take {@{[amortized time](amortized%20analysis.md) _O_\(_α_\(_V_\)\) time per operation}@}, giving {@{worst-case total time _O_\(_E_ _α_\(_V_\)\) for this loop}@}, where {@{_α_ is the extremely slowly growing [inverse Ackermann function](Ackermann%20function.md#inverse)}@}. {@{This part of the time bound}@} is {@{much smaller than the time for the sorting step}@}, so {@{the total time for the algorithm can be simplified to the time for the sorting step}@}. <!--SR:!2029-02-21,1208,350!2027-10-18,795,330!2029-02-16,1201,350!2028-04-13,889,330!2027-11-13,817,330!2029-01-22,1183,350!2025-12-17,277,290!2029-01-11,1176,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-03,290,330!2028-02-19,889,330!2029-01-01,1167,350!2025-12-07,293,330!2027-10-25,811,330-->
+To {@{achieve this bound}@}, first {@{sort the edges by weight using a [comparison sort](comparison%20sort.md) in _O_\(_E_ log _E_\) time}@}. Once sorted, it is {@{possible to loop through the edges in sorted order in constant time per edge}@}. Next, use {@{a [disjoint-set data structure](disjoint-set%20data%20structure.md)}@}, with {@{a set of vertices for each component, to keep track of which vertices are in which components}@}. Creating {@{this structure, with a separate set for each vertex}@}, takes {@{_V_ operations and _O_\(_V_\) time}@}. {@{The final iteration through all edges}@} performs {@{two find operations and possibly one union operation per edge}@}. These operations take {@{[amortized time](amortized%20analysis.md) _O_\(_α_\(_V_\)\) time per operation}@}, giving {@{worst-case total time _O_\(_E_ _α_\(_V_\)\) for this loop}@}, where {@{_α_ is the extremely slowly growing [inverse Ackermann function](Ackermann%20function.md#inverse)}@}. {@{This part of the time bound}@} is {@{much smaller than the time for the sorting step}@}, so {@{the total time for the algorithm can be simplified to the time for the sorting step}@}. <!--SR:!2029-02-21,1208,350!2027-10-18,795,330!2029-02-16,1201,350!2028-04-13,889,330!2027-11-13,817,330!2029-01-22,1183,350!2025-12-17,277,290!2029-01-11,1176,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-03,290,330!2028-02-19,889,330!2029-01-01,1167,350!2025-12-07,293,330!2027-10-25,811,330-->
 
 In cases {@{where the edges are already sorted}@}, or {@{where they have small enough integer weight to allow [integer sorting](integer%20sorting.md) algorithms such as [counting sort](counting%20sort.md) or [radix sort](radix%20sort.md) to sort them in linear time}@}, {@{the disjoint set operations are the slowest remaining part of the algorithm}@} and {@{the total time is _O_\(_E_ _α_\(_V_\)\)}@}. <!--SR:!2027-07-11,729,330!2026-05-30,365,290!2025-12-01,287,330!2025-11-30,287,330-->
 
@@ -160,7 +160,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 
 > [!info]- code
 >
-> ```psuedocode
+> ```pseudocode
 > function filter_kruskal(G) is
 >     if |G.E| < kruskal_threshold:
 >         return kruskal(G)

@@ -182,7 +182,7 @@ The content is in teaching order.
     - COMP 3031 / lab 0 / navigation ::@:: When a test throws `NotImplementedError`, locate the call site via the stack trace (`Lists.scala:25` for example). Hover over the method name in the editor to see its signature and documentation. Use "Go to Definition" (Ctrl/Cmd‑click or right‑click) to jump straight to the offending implementation. Replace placeholder `???` with a proper algorithm before re‑running tests. <!--SR:!2025-11-16,20,364!2025-11-16,20,364-->
     - COMP 3031 / lab 0 / IDE tips ::@:: - New lines are auto‑indented; manual indentation uses Tab/Shift‑Tab. <br/> - Do not rename existing methods or classes, as automated grading relies on their names. <br/> - View compiler warnings/errors by clicking the "Problems" pane in VS Code. <br/> - Documentation for Scala \(<https://scala-lang.org/api/3.x/>\) and Java \(<https://docs.oracle.com/en/java/javase/25/docs/api/index.html>\) is available online if IDE hover support falls short. <!--SR:!2025-11-16,20,364!2025-11-16,20,364-->
     - COMP 3031 / lab 0 / test ::@:: In a terminal inside the project, start sbt and then run `~test` to enable watch mode; every file save automatically re‑runs tests. For targeted testing use `testOnly`, e.g. `testOnly org.example.*Slow org.example.MyTest1`. <!--SR:!2025-11-16,20,364!2025-12-02,28,344-->
-    - COMP 3031 / lab 0 / REPL ::@:: Launch the REPL with `console` from sbt (`scala>` prompt). Evaluate expressions directly, e.g., `List(3,7,2)` or import lab methods: `import lab0.Lists._`. Exit the REPL back to sbt with `Ctrl+D`. For multiline input use Alt+Enter (or Option+Enter on macOS after setting "Use Option as Meta key" in Terminal preferences). <!--SR:!2025-12-22,43,344!2025-11-16,20,364-->
+    - COMP 3031 / lab 0 / REPL ::@:: Launch the REPL with `console` from sbt (`scala>` prompt). <p> Evaluate expressions directly, e.g., `List(3,7,2)` or import lab methods: `import lab0.Lists.*`. Exit the REPL back to sbt with `Ctrl+D`. <p> For multiline input use Alt+Enter (or Option+Enter on macOS after setting "Use Option as Meta key" in Terminal preferences). <!--SR:!2025-12-22,43,344!2025-11-16,20,364-->
     - COMP 3031 / lab 0 / worksheet ::@:: Create a file ending in `.worksheet.sc`; each line is executed automatically and its result shown as a comment. Save the file to trigger re‑evaluation; auto‑save is enabled by default. <!--SR:!2025-11-16,20,364!2025-11-16,20,364-->
     - COMP 3031 / lab 0 / troubleshooting ::@:: - If sbt fails, run `sbt clean cleanFile` or delete the global cache (`rm -r ~/.sbt`). <br/> - If IDE features like hover or go‑to‑definition are broken, manually import the build via the "m" icon → "Import build", then restart VS Code. <br/> - Address Bloop server warnings by following the on‑screen prompts ("Turn off old server"). <!--SR:!2025-11-16,20,364!2025-11-16,20,364-->
     - COMP 3031 / lab 0 / coding ::@:: - `Lists.scala` implements two tail‑recursive functions: <br/> &emsp; - `sum(xs: List[Int])`: accumulates list elements, returning `0` for an empty list. <br/> &emsp; - `max(xs: List[Int])`: throws `NoSuchElementException` on an empty list; otherwise returns the maximum value by comparing head with accumulator. <br/> - `ListsSuite.scala` contains sanity checks (e.g., one plus one equals two) and additional tests: <br/> &emsp; - Verifies that `sum(Nil)` yields `0`. <br/> &emsp; - Confirms that calling `max(Nil)` raises the expected exception, using a try‑catch block to fail if no exception occurs. <!--SR:!2025-11-16,20,364!2025-11-16,20,364-->
@@ -265,7 +265,7 @@ The content is in teaching order.
 - COMP 3031
   - COMP 3031 / lab 1
     - COMP 3031 / lab 1 / functional programming ::@:: All solutions must avoid state mutation: you cannot use `var`, loops such as `while`, or explicit `return` statements. The Scala collection package `scala.collection.mutable` is forbidden; only immutable collections may be employed. <!--SR:!2025-11-14,18,364!2025-11-16,20,364-->
-    - COMP 3031 / lab 1 / Pascal's triangle You are asked to compute the value that appears in a particular column `c` (0‑based) of row `r` in Pascal’s triangle. The triangle is defined such that every entry on its edges equals 1, and each interior entry equals the sum of the two numbers directly above it. Your implementation must be purely recursive—no loops or mutable state are allowed.
+    - COMP 3031 / lab 1 / Pascal's triangle You are asked to compute the value that appears in a particular column `c` (0‑based) of row `r` in Pascal's triangle. The triangle is defined such that every entry on its edges equals 1, and each interior entry equals the sum of the two numbers directly above it. Your implementation must be purely recursive—no loops or mutable state are allowed.
       - COMP 3031 / lab 1 / Pascal's triangle / solution ::@:: The function checks whether the requested position lies on an edge (`c == 0` or `c == r`). If so, it returns 1 immediately. Otherwise it recursively evaluates the two parents: `pascal(c-1, r-1)` for the upper‑left value and `pascal(c, r-1)` for the upper‑right value, then returns their sum. This straightforward recursion follows exactly the mathematical definition of Pascal's triangle. <!--SR:!2025-11-14,18,364!2025-11-14,18,364-->
     - COMP 3031 / lab 1 / parentheses balancing ::@:: Given a list of characters representing a string, determine whether all parentheses in the sequence are properly matched and nested. The function must be tail‑recursive, cannot use mutation, and should handle arbitrary other characters by ignoring them. <!--SR:!2025-11-16,20,364!2025-11-16,20,364-->
       - COMP 3031 / lab 1 / parentheses balancing / solution ::@:: An inner helper `rec(chars: List[Char], acc: Int)` processes the list one element at a time while keeping an accumulator that counts unmatched opening brackets. When encountering `'('`, it increments `acc`; for `')'` it decrements; any other character leaves `acc` unchanged. If `acc` ever becomes negative, the function returns false immediately because a closing bracket has no matching opener. When the list ends, the string is balanced only if `acc` equals zero. The outer function simply calls this helper with an initial accumulator of 0. <!--SR:!2025-11-14,18,364!2025-11-16,20,364-->
@@ -466,6 +466,139 @@ The content is in teaching order.
     - [§ set properties](proofs.md#set%20properties): set properties
     - [§ proving set properties](proofs.md#proving%20set%20properties): proving set properties
     - [§ proving set union property](proofs.md#proving%20set%20properties): proving set union property
+
+## week 6 lab
+
+- datetime: 2025-10-06T15:00:00+08:00/2025-10-06T16:20:00+08:00, PT1H20M
+- topic: pattern matching; for expression
+- COMP 3031
+  - COMP 3031 / exercise 2 ::@:: Deepen understanding of _pattern matching_ in Scala/functional style by tackling three concrete problems: triangle detection, symbolic differentiation, and expression simplification.
+    - COMP 3031 / exercise 2 / detecting triangles ::@:: Return all unique directed cycles of length 3 with distinct nodes. Use a non‑recursive `for` comprehension; assume each cycle appears only once.
+      - COMP 3031 / exercise 2 / detecting triangles / definitions ::@:: - `type NodeId = Int` <br/> - `type DirectedEdge = (NodeId, NodeId)` <br/> - `type DirectedGraph = List[DirectedEdge]`
+      - COMP 3031 / exercise 2 / detecting triangles / solution ::@:: Enforce an ordering rule on the vertices of the triangle to guarantee a canonical representation. You can chain three edge selections with guards, requiring 2 `<` comparisons. An alternative concise form use _case extractors_ and _references_ to previous values: ``case (`b`, c) <- edges if a < c``, `case (`c`,`a`) <- edges` etc.
+    - COMP 3031 / exercise 2 / symbolic partial derivative ::@:: Symbolically find the partial derivative. Implement the function `deriv`.
+      - COMP 3031 / exercise 2 / symbolic partial derivative / definitions ::@:: `enum Expr` with 4 case classes: <p> - `case Number(x: Int)` <br/> - `case Var(name: String)` <br/> - `case Sum(e1: Expr, e2: Expr)` <br/> - `case Prod(e1: Expr, e2: Expr)` <p> To avoid naming `Expr`, `import Expr.*` is used.
+      - COMP 3031 / exercise 2 / symbolic partial derivative / solution ::@:: Pattern match on the expression tree according to the following rules: <p> - `Number(_)` → `Number(0)` (constant derivative) <br/> - `Var(name)` → `Number(1)` if `name == v`, else `Number(0)` <br/> - `Sum(l,r)` → `Sum(deriv(l,v), deriv(r,v))` (linearity) <br/> - `Prod(l,r)` → `Sum(Prod(deriv(l,v), r), Prod(l, deriv(r,v)))` \(product rule\)
+    - COMP 3031 / exercise 2 / expression simplifier ::@:: Reduce algebraic expressions by applying arithmetic identities. Convert the derivative output into a more readable form (e.g. `Sum(Sum(Prod(Var("x"), Number(1)), Prod(Number(1), Var("x"))), Number(0))` is simplified to `Prod(Var("x"), Number(2))`).
+      - COMP 3031 / exercise 2 / expression simplifier / solution ::@:: Recursively simplify sub‑expressions, then apply pattern‑based rewrites: <p> - `Sum(a,b)`: If both are numbers → add them. If one operand is `Number(0)` → return the other. If operands equal → collapse to `Prod(Number(2), x)`. <br/> - `Prod(a,b)`: Numeric multiplication if both numbers. Zero handling: any factor `0` → `Number(0)`. Identity handling: factor `1` removed. <br/> - Base cases (`Number`, `Var`) return unchanged.
+      - COMP 3031 / exercise 2 / expression simplifier / limitations ::@:: Current rules miss deeper simplifications (e.g., nested sums or products). <p> Suggested improvement: Convert expression to a _normalized form_ such as a sum of product terms, each term being a list of factors. Then perform arithmetic on the normalized representation and reconstruct the final expression from it. <p> It is an open-ended problem, because there is no good definition of the "_most simplified_ form" of an arbitrary expression.
+
+## week 6 lecture
+
+- datetime: 2025-10-07T12:00:00+08:00/2025-10-07T13:20:00+08:00, PT1H20M
+- status: unscheduled; public holiday: National Day
+
+## week 6 lecture 2
+
+- datetime: 2025-10-09T12:00:00+08:00/2025-10-09T13:20:00+08:00, PT1H20M
+- topic: lazy evaluation; `LazyList`; infinite sequences; infinite sequence examples
+- [lazy evaluation](../../../../general/lazy%20evaluation.md) ::@:: It is an evaluation strategy which delays the evaluation of an expression until its value is needed (non-strict evaluation) and which avoids repeated evaluations (by the use of sharing).
+- Scala
+  - Scala / [lazy evaluation](lazy%20evaluation.md)
+    - [§ motivation](lazy%20evaluation.md#motivation): motivation for lazy evaluation
+    - [§ lazy list](lazy%20evaluation.md#lazy%20list): `LazyList`
+    - [§ lazy list properties](lazy%20evaluation.md#lazy%20list%20properties): laziness of `LazyList`, `LazyList.head`, `LazyList.tail`
+    - [§ lazy list construction](lazy%20evaluation.md#lazy%20list%20construction): `LazyList.cons`, `LazyList.apply`, `LazyList.range`, laziness of `LazyList` construction
+    - [§ lazy list operations](lazy%20evaluation.md#lazy%20list%20operations): `LazyList.filter`, laziness of `LazyList` operations, `#::`
+    - [§ lazy evaluation](lazy%20evaluation.md#lazy%20evaluation): by-name parameters, `lazy val`
+    - [§ lazy list implementation](lazy%20evaluation.md#lazy%20list%20implementation): `LazyList` implementations
+    - [§ infinite sequences](lazy%20evaluation.md#infinite%20sequences): infinite sequences
+    - [§ infinite sequence operations](lazy%20evaluation.md#infinite%20sequence%20operations): infinite sequence operations, divergence of infinite sequence operations
+    - [§ infinite sequence examples](lazy%20evaluation.md#infinite%20sequence%20examples): sieve of Eratosthenes, lazy fixed iteration, water pouring problem
+    - [§ lazy evaluation in other languages](lazy%20evaluation.md#lazy%20evaluation%20in%20other%20languages): lazy evaluation in Haskell, lazy evaluation in OCaml
+
+## week 7 lab
+
+- datetime: 2025-10-13T15:00:00+08:00/2025-10-13T16:20:00+08:00, PT1H20M
+- topic: Huffman coding; Huffman tree
+- [Huffman coding](../../../../general/Huffman%20coding.md) ::@:: It is a particular type of optimal prefix code that is commonly used for lossless data compression.
+- COMP 3031
+  - COMP 3031 / lab 3 ::@:: Implement Huffman coding using Scala.
+    - COMP 3031 / lab 3 / Huffman coding ::@:: A loss‑less compression scheme that assigns variable‑length bit strings to characters. Characters that occur more frequently receive shorter codes; rare ones get longer codes. <p> The optimality of a code depends on the match between the character frequencies in the text and the weights stored in the tree.
+    - COMP 3031 / lab 3 / Huffman tree ::@:: Every Huffman code can be visualized as a binary tree whose leaves are the symbols to encode. A leaf node stores a character and its weight (frequency); an internal node stores the combined weight of all leaves beneath it. <p> The set of characters in any subtree is simply the union of the character sets of its child subtrees.
+    - COMP 3031 / lab 3 / Huffman encoding ::@:: To encode a symbol, start at the root and traverse down to the leaf that contains that symbol. Append a `0` for each left branch taken, and a `1` for each right branch; the resulting bit list is the code for that character.
+    - COMP 3031 / lab 3 / Huffman decoding ::@:: Begin at the root of the tree and read bits sequentially. A `0` moves to the left child; a `1` moves to the right child. Upon reaching a leaf, output its character and restart from the root for the next bit sequence.
+    - COMP 3031 / lab 3 / Huffman data types ::@:: - `CodeTree`: `sealed abstract class CodeTree` <br/> - `Fork`: `case class Fork(left: CodeTree, right: CodeTree, chars: List[Char], weight: Int) extends CodeTree` <br/> &emsp; It contains the union of characters from both children and a combined weight. <br/> - `Leaf`: `case class Leaf(char: Char, weight: Int) extends CodeTree` <br/> &emsp; It holds a single character and its frequency.
+      - COMP 3031 / lab 3 / Huffman data types / utilities ::@:: - `weight(tree)` – returns the total weight stored in a tree (pattern‑matched on `Fork` or `Leaf`). <br/> - `chars(tree)` – yields the list of characters represented by a tree (again via pattern matching).
+      - COMP 3031 / lab 3 / Huffman data types / construction ::@:: `makeCodeTree(left, right)` automatically builds a `Fork` node, concatenating character lists and summing weights.
+    - COMP 3031 / lab 3 / Huffman tree construction ::@:: frequency counting → leaves → combine iteratively <p> `createCodeTree` – orchestrates the above steps: frequency counting → leaf list → iterative combining → return single tree.
+      - COMP 3031 / lab 3 / Huffman tree construction / frequency counting ::@:: `times` – produce `List[(Char, Int)]` of character frequencies. Implemented either with a fold over the list or by using a mutable map for efficiency.
+      - COMP 3031 / lab 3 / Huffman tree construction / leaves ::@:: `makeOrderedLeafList` – convert frequency pairs into sorted `Leaf` nodes (ascending weight). Uses an insertion routine that keeps the list ordered after each addition.
+      - COMP 3031 / lab 3 / Huffman tree construction / singleton check ::@:: `singleton` – tests whether only one tree remains in a list.
+      - COMP 3031 / lab 3 / Huffman tree construction / combine ::@:: `combine` – removes the first two elements of the list, merges them into a new `Fork`, and re‑inserts it while preserving order.
+      - COMP 3031 / lab 3 / Huffman tree construction / iterate ::@:: `until` – repeatedly applies `combine` until `singleton` returns true; the remaining tree is the optimal code tree.
+    - COMP 3031 / lab 3 / Huffman decoding implementation ::@:: decode character → decode
+      - COMP 3031 / lab 3 / Huffman decoding implementation / decode character ::@:: Recursive helper `decodeIt(subTree, bits)` traverses the tree based on current bit; when a leaf is reached it emits the character and restarts from the root.
+      - COMP 3031 / lab 3 / Huffman decoding implementation / decode ::@:: The top‑level `decode(tree, bits)` simply invokes this helper with the original tree as starting point.
+    - COMP 3031 / lab 3 / Huffman encoding implementation ::@:: `encode(tree)(text)` traverses the tree for each character in `text` to accumulate its bit sequence. <p> An inner function `bitsOf(tree)(c)` performs the traversal: <p> - If the current node is a leaf matching `c`, it returns an empty list (all bits have been collected). <br/> - Otherwise, it recurses into the appropriate child (`left` if `c` belongs to that subtree, otherwise `right`) and prefixes the corresponding bit (`0` or `1`).
+    - COMP 3031 / lab 3 / code table ::@:: It is a list of `(Char, List[Bit])` pairs.
+      - COMP 3031 / lab 3 / code table / conversion ::@:: `convert(tree)` walks the tree once to build this table, carrying along the current prefix of bits; it reverses the prefix at each leaf so that the resulting bit lists are in correct order.
+      - COMP 3031 / lab 3 / code table / merge ::@:: `mergeCodeTables(a,b)` simply concatenates two tables (`a ::: b`).
+      - COMP 3031 / lab 3 / code table / lookup ::@:: `codeBits(table)(char)` looks up a character's code in the table and returns its bit list; an error is thrown if the character isn't present.
+      - COMP 3031 / lab 3 / code table / encode ::@:: `quickEncode(tree)(text)` first converts the tree into a table, then maps each character of `text` to its pre‑computed bit list via `codeBits`, flattening the result.
+
+## week 7 lecture
+
+- datetime: 2025-10-14T12:00:00+08:00/2025-10-14T13:20:00+08:00, PT1H20M
+- status: unscheduled; special leave for conference
+
+## week 7 lecture 2
+
+- datetime: 2025-10-16T12:00:00+08:00/2025-10-16T13:20:00+08:00, PT1H20M
+- status: unscheduled; special leave for conference
+
+## week 8 lab
+
+- datetime: 2025-10-20T15:00:00+08:00/2025-10-20T16:20:00+08:00, PT1H20M
+- topic: look-and-say sequence; lazy sequences
+- [look-and-say sequence](../../../../general/look-and-say%20sequence.md) ::@:: It is the sequence of integers in which to generate a member of the sequence from the previous member, read off the digits of the previous member, counting the number of digits in groups of the same digit.
+- COMP 3031
+  - COMP 3031 / exercise 3 ::@:: Deepen understanding of Scala's lazy collections by implementing and manipulating infinite streams—generating the look‑and‑say sequence, building lazy lists of arithmetic progressions, binary strings, and palindromes, and interleaving multiple streams—thereby reinforcing concepts of laziness, recursion, and functional stream composition.
+    - COMP 3031 / exercise 3 / look-and-say sequence ::@:: - Identify the next term in the series that begins `1, 1 1, 2 1, 1 2 1 1, 1 1 1 2 2 1, 3 1 2 2 1 1, ...`. <br/> - Encode each term as a `List[Int]` and write a function `nextLine(currentLine: List[Int]): List[Int]` that produces the succeeding list. <br/> - Construct an infinite lazy sequence (`LazyList[List[Int]]`) named `funSeq` that starts with `[1]` and repeatedly applies `nextLine` to generate all following terms, using `#::` (or `LazyList.cons`) to build the stream.
+      - COMP 3031 / exercise 3 / look-and-say sequence / identification ::@:: Essentially, reading the sequence aloud yields the next sequence: <p> `1, 1 1, 2 1, 1 2 1 1, 1 1 1 2 2 1, 3 1 2 2 1 1, 1 3 1 1 2 2 2 1, ...`
+      - COMP 3031 / exercise 3 / look-and-say sequence / `nextLine` ::@:: Uses a left fold to accumulate runs of equal numbers and increment their counts. Reverse the sequence at the end. <p> _References_ may be used in patter matching: ``case `x` :: count :: rest => ...``.
+      - COMP 3031 / exercise 3 / look-and-say sequence / `funSeq` ::@:: Starts with `[1]` and recursively maps `nextLine` over itself to generate the infinite stream: <p> `lazy val funSeq: LazyList[List[Int]] = (1 :: Nil) #:: funSeq.map(nextLine)`
+    - COMP 3031 / exercise 3 / lazy sequences ::@:: - Create a lazy list of squares for every integer ≥ 1. <br/> - Generate an infinite lazy list of _all non‑empty binary strings_ built from the characters `"0"` and `"1"`, where each string appears eventually in the stream (order is irrelevant). <br/> - From that string stream, produce a lazy list containing only the palindromic strings (strings equal to their reverse). <br/> - Show an alternative construction of the palindrome stream _without_ using `filter`. <br/> - Given another potentially finite or infinite lazy list called `otherCodes`, interleave it with the palindrome stream to form a new stream `allCodes`.
+      - COMP 3031 / exercise 3 / lazy sequences / `squares` ::@:: Builds on `LazyList.from(1)` and applies a simple squaring transformation: <p> `val squares: LazyList[Int] = LazyList.from(1).map(x => x * x)`
+      - COMP 3031 / exercise 3 / lazy sequences / `palCodes` ::@:: Retains only those binary strings that read the same forwards and backwards.: <p> `val palCodes: LazyList[String] = codes.filter(x => x.reverse == x)`
+        - COMP 3031 / exercise 3 / lazy sequences / `palCodes` / for-comprehension ::@:: Constructs each palindrome explicitly by sandwiching a middle segment (`""`, `"0"`, or `"1"`) between a string and its reverse: <p> `val palCodes = "0" #:: "1" #:: (for (c <- codes; middle  <- "" :: "0" :: "1" :: Nil) yield c + middle + c.reverse)`
+      - COMP 3031 / exercise 3 / lazy sequences / interleaving ::@:: Alternates elements from `xs` and `ys`; if one list is exhausted it appends the remainder of the other: <p> Pattern match on both `xs` and `ys` using a tuple: `(xs, ys)`. Then split cases as: `case (x #:: xr, y #:: yr)`, `case (LazyList(), ys)`, `case (xs, LazyList())`. <p> Usage: `interleave(palCodes, otherCodes)`: Merges the palindrome stream with an external source of codes to produce a single lazy list containing both kinds of strings in alternating order.
+
+## week 8 lecture
+
+- datetime: 2025-10-21T12:00:00+08:00/2025-10-21T13:20:00+08:00, PT1H20M
+- status: unscheduled; special leave for conference
+
+## week 8 lecture 2
+
+- datetime: 2025-10-23T12:00:00+08:00/2025-10-23T13:20:00+08:00, PT1H20M
+- topic: contextual abstraction; `using`; `given`; context inference; type class; conditional `given`; recursive `given` resolution; type class extension; type class in other languages
+- [monkey patch](../../../../general/monkey%20patch.md) ::@:: It is the act of dynamically modifying the runtime code (not the source code) of a dynamic programming language, and it is the information (data/code) used to modify the runtime code.
+- [dependency injection](../../../../general/dependency%20injection.md) ::@:: It is a programming technique in which an object or function receives other objects or functions that it requires, as opposed to creating them internally.
+- Scala
+  - Scala / [context](context.md)
+    - [§ motivation](context.md#motivation): context motivation
+    - [§ higher-order functions](context.md#higher-order%20functions): context motivation using higher-order functions
+    - [§ `using`](context.md#`using`): `using`, explicitly provide `using`, implicitly infer `using`
+    - [§ `using` syntax](context.md#`using`%20syntax): `using` in method, `using` in method call, `using` multiple parameters, `using` in multiple parameter lists, anonymous `using` clauses
+    - [§ context bound](context.md#context%20bound): context bound
+    - [§ `given`](context.md#`given`): `given`, `given` instance, anonymous `given` instance, `summon`
+    - [§ importing `given`s](context.md#importing%20`given`s): import `given`s by name, import `given`s by type, import `given`s by wildcard
+    - [§ context inference](context.md#context%20inference): context inference
+    - [§ type class](context.md#type%20class): type class
+    - [§ type class pattern](context.md#type%20class%20pattern): type class pattern
+    - [§ retroactive extension](context.md#retroactive%20extension): retroactive extension
+    - [§ conditional `given`](context.md#conditional%20`given`): conditional `given`
+    - [§ recursive `given` resolution](context.md#recursive%20`given`%20resolution): recursive `given` resolution
+    - [§ extension methods](context.md#extension%20methods): extension methods
+    - [§ type class in other languages](context.md#type%20class%20in%20other%20languages): type class in other languages, type class in Haskell, type class in Rust
+
+## week 9 lab
+
+- datetime: 2025-10-27T15:00:00+08:00/2025-10-27T16:20:00+08:00, PT1H20M
+- topic:
+- COMP 3031
+  - COMP 3031 / lab 4
 
 ## aftermath
 

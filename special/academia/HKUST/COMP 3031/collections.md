@@ -75,11 +75,11 @@ Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` 
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2026-01-12,62,310-->
 
-However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list (e.g. `prepend(elem: T): List[T]`)}@} {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!2025-12-24,43,290!2026-01-07,58,310!2026-01-08,58,310!2026-01-07,58,310!2026-01-13,63,310-->
+However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!2025-12-24,43,290!2026-01-07,58,310!2026-01-08,58,310!2026-01-07,58,310!2026-01-13,63,310-->
 
 > [!example] __implementing `prepend` on `List`__
 >
-> However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list (e.g. `prepend(elem: T): List[T]`)}@} {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
+> However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
 >
 > ```Scala
 > trait List[+T]:
@@ -88,7 +88,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >
 > This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!2026-01-05,56,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-07,58,310!2025-11-12,16,290!2025-12-25,44,290!2025-12-10,32,270!2026-01-13,63,310!2025-11-12,16,290-->
 
-This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]` \(where `Apple` and `Orange` are _direct_ subclasses of `Fruit`\)}@} yields {@{a `List[Fruit]`}@}. <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2026-01-13,63,310!2025-11-18,7,270!2026-01-13,63,310-->
+This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2026-01-13,63,310!2025-11-18,7,270!2026-01-13,63,310-->
 
 An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}: <!--SR:!2026-01-08,58,310!2026-01-03,54,310!2025-11-12,16,290!2025-11-12,16,290-->
 
@@ -314,7 +314,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >       (new ::(x, more)) :: pack(rest)
 > ```
 >
-> In {@{the return type of `pack`}@}, {@{`::[T]`}@} is used to {@{represent _nonempty_ lists}@}. <!--SR:!2025-11-13,17,310!2025-11-13,17,310!2025-12-13,35,290!2025-11-13,17,310!2025-11-13,17,310-->
+> In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2025-11-13,17,310!2025-11-13,17,310!2025-12-13,35,290!2025-11-13,17,310!2025-11-13,17,310-->
 
 In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!2025-11-12,16,290!2025-11-12,16,290!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->
 
@@ -328,7 +328,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > ```
 <!--SR:!2026-01-09,59,310!2026-01-08,58,310-->
 
-As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-12-21,43,290!2025-11-12,16,290!2026-01-05,56,310!2026-01-09,59,310!2025-11-13,17,310-->
+As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-12-21,43,290!2025-11-12,16,290!2026-01-05,56,310!2026-01-09,59,310!2025-11-13,17,310-->
 
 ### reduce
 

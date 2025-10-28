@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (http://matplotlib.sourceforge.net/) -->
+<!--<svg width="363pt" height="249pt" viewBox="0 0 363 249"  -->
+<svg width="726pt" height="498pt" viewBox="0 0 363 249"
+   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1" >
+   <title>Plot of Sinc function</title>
+   <desc>Hand Developed Plot</desc>
+<filter id="colorAdd"><feComposite in="SourceGraphic" in2="BackgroundImage" operator="arithmetic" k2="1" k3="1"/></filter>
+<defs>
+  <clipPath id="p6f2ce2e590268a37d1274742917e3f35">
+    <rect x="7.200000" y="29.200000" width="334.800000" height="213.592547"/>
+  </clipPath>
+</defs>
+<rect height="249" width="363" fill="white" />
+
+<g fill="none" stroke="black" stroke-width="1.0">
+    <path d="M7,197 H342" />
+    <path d="M175.0,29 V241" />
+</g>
+<g fill="none" stroke="black" stroke-width="0.5">
+    <path d="
+       M175.0,228.5 h4 M175.0,165.8 h4 M175.0,134.6 h4
+       M175.0,103.4 h4 M175.0, 72.2 h4 M175.0, 41.0 h4" />
+    <g transform="translate(172,3)" text-anchor="end" stroke="#6030D0" 
+        font-size="10" font-family="Arial" stroke-width="0.25" fill="#6030D0" >
+        <text y="41.0">1.0</text>
+        <text y="72.2">0.8</text>
+        <text y="103.4">0.6</text>
+        <text y="134.6">0.4</text>
+        <text y="165.8">0.2</text>
+        <text y="228.5">-0.2</text>
+    </g>
+
+   <path d="
+        M175.0, 33.2 h2 M175.0, 48.8 h2 M175.0, 56.6 h2 M175.0, 64.4 h2
+        M175.0, 80.0 h2 M175.0, 87.8 h2 M175.0, 95.6 h2 M175.0,111.2 h2
+        M175.0,119.0 h2 M175.0,126.8 h2 M175.0,142.4 h2 M175.0,150.2 h2
+        M175.0,158.0 h2 M175.0,173.6 h2 M175.0,181.4 h2 M175.0,189.2 h2
+        M175.0,204.8 h2 M175.0,212.6 h2 M175.0,220.4 h2 M175.0,236.0 h2" />
+
+    <path d="
+        M224.5,197 v-4 M274.0,197 v-4 M323.5,197 v-4
+        M124.7,197 v-4 M 75.2,197 v-4 M 25.7,197 v-4" />
+
+    <g transform="translate(0,208)" text-anchor="middle" stroke="#6030D0" 
+        font-size="10" font-family="Arial" stroke-width="0.25" fill="#6030D0" >
+        <text x="25.7">-6</text>
+        <text x="75.2">-4</text>
+        <text x="124.7">-2</text>
+        <text x="224.5">2</text>
+        <text x="274.0">4</text>
+        <text x="323.5">6</text>
+    </g>
+
+    <path d="
+        M 13.5,197 v-2 M 38.2,197 v-2 M 50.5,197 v-2 M 63.0,197 v-2
+        M 87.5,197 v-2 M100.0,197 v-2 M112.5,197 v-2 M137.0,197 v-2
+        M149.5,197 v-2 M162.0,197 v-2 M187.0,197 v-2 M199.5,197 v-2
+        M211.7,197 v-2 M236.5,197 v-2 M249.0,197 v-2 M261.5,197 v-2
+        M286.0,197 v-2 M298.5,197 v-2 M311.0,197 v-2 M335.8,197 v-2" />
+</g>
+
+
+<g transform="translate(100,197)scale(.710,.78)" fill="none" stroke-width="1.5">
+    <path stroke="#4080F0" d="M-105.0,-0.0 C-102.7,2.2 -100.4,4.4 -98.0,6.5
+C-94.4,9.4 -90.3,12.0 -85.8,11.5 C-81.0,11.0 -76.9,7.4 -73.5,3.9
+L-66.5,-4.0 C-64.3,-6.5 -62.1,-9.0 -59.5,-11.0 C-55.8,-13.8 -51.5,-15.2 -47.2,-13.0
+C-42.1,-10.4 -38.4,-4.8 -35.0,-0.0 L-28.0,9.8 C-24.6,14.2 -19.7,19.9 -14.0,17.8
+C-7.4,15.4 -3.3,6.2 0.0,0.0 L7.0,-13.4 C9.7,-18.1 14.8,-27.9 21.0,-25.2
+C24.2,-23.9 26.3,-20.1 28.0,-17.0 C30.9,-11.7 33.0,-5.8 35.0,-0.0 L43.8,25.7
+C45.6,30.8 47.6,36.4 50.8,40.6 C52.0,42.2 53.9,44.1 56.0,43.2 C58.6,42.3 60.2,38.5 61.2,36.0
+C64.7,27.7 66.5,18.4 68.2,9.5 L75.3,-34.0 L87.5,-127.3 L94.5,-171.7
+C95.9,-178.7 97.3,-186.0 99.8,-192.7 C100.5,-194.7 102.2,-200.0 105.0,-200.0
+C107.8,-200.0 109.5,-194.7 110.3,-192.7 C112.7,-186.0 114.1,-178.7 115.5,-171.7 L122.5,-127.3
+L134.8,-34.0 L141.8,9.5 C143.5,18.4 145.3,27.7 148.8,36.0
+C149.8,38.5 151.4,42.3 154.0,43.2 C156.1,44.1 158.0,42.2 159.3,40.6 C162.4,36.4 164.4,30.8 166.2,25.7
+L173.2,5.1 C175.4,-1.2 177.5,-7.5 180.2,-13.4 C182.4,-18.2 186.5,-27.2 192.5,-25.5
+C198.2,-23.8 202.0,-15.3 204.8,-10.1 L211.8,3.3 C214.8,8.8 219.3,17.5 225.8,18.2
+C231.7,18.9 236.4,12.1 239.8,7.5 L246.8,-2.5 C248.9,-5.4 251.1,-8.3 253.8,-10.6
+C256.8,-13.3 260.4,-14.9 264.2,-13.8 C268.4,-12.7 271.8,-9.2 274.8,-6.0 L281.8,2.0
+C283.9,4.4 286.2,6.7 288.8,8.6 C291.9,10.9 295.5,12.1 299.2,11.3 C304.7,10.1 309.1,5.6 313.3,1.7
+L315.0,0.0 " />
+</g>
+<g font-size="7" font-family="Times" font-style="italic"
+   stroke="none" fill="#6030D0" text-anchor="middle">
+   <text x="175" y="12">sin(&#x3C0;x)</text>
+   <text x="175" y="19">&#x3C0;x</text>
+   <text font-size="8" x="351" y="195">x</text>
+</g>
+<path stroke="#6030D0" fill="none" stroke-width="0.5" d="M164,14.2 h22" />
+
+</svg>

@@ -640,8 +640,8 @@ tags:
 >
 > 1. It can only be used for classification.
 > 2. It can only be used for regression.
-> 3. It assumes that all data are of the same scale
-> 4. None of the above
+> 3. It assumes that all data are of the same scale.
+> 4. None of the above.
 >
 > - solution: {@{4}@}
 > - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2028-02-10,823,330!2026-06-06,395,310-->

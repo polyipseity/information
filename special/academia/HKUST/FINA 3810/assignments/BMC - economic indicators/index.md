@@ -44,7 +44,7 @@ You should input the BMC class Code \(\[redacted\]\), or you will get 0 mark.
   - gross domestic product / nominal GDP ::@:: The raw GDP figure given by the equations above is called the nominal, historical, or current GDP. <!--SR:!2026-01-12,66,310!2026-01-12,66,310-->
   - gross domestic product / real GDP ::@:: The GDP adjusted for changes in money value in this way is called the real GDP. <!--SR:!2026-01-02,58,310!2026-01-06,61,310-->
   - gross domestic product / economic growth
-    - gross domestic product / economic growth / nominal, real ::@:: The former subtracted by the latter in percentage is simply the inflation percentage. <!--SR:!2026-01-13,67,310!2025-12-16,41,290-->
+    - gross domestic product / economic growth / nominal, real ::@:: When rates are small and periods are short, the inflation rate in percentage can be approximated by subtracting the former by the latter, both in percentages. <!--SR:!2026-01-13,67,310!2025-12-16,41,290-->
     - gross domestic product / economic growth / recession ::@:: It is defined as two or more successive quarters of negative real GDP growth. <!--SR:!2026-01-04,59,310!2026-01-12,66,310-->
 - [inflation](../../../../general/inflation.md) ::@:: It is an increase in the average price of goods and services in terms of money. This increase is measured using a price index, typically a consumer price index \(CPI\). <!--SR:!2025-12-31,56,310!2026-01-08,63,310-->
   - inflation / measures ::@:: The consumer price index \(CPI\), the personal consumption expenditures price index \(PCEPI\) and the GDP deflator are some examples of broad price indices. <!--SR:!2026-01-13,67,310!2026-01-12,66,310-->

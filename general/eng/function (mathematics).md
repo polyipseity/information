@@ -346,7 +346,7 @@ On the other hand, {@{the _[inverse image](inverse%20image.md#inverse%20image)_ 
 
 By {@{definition of a function}@}, {@{the image of an element _x_ of the domain}@} is {@{always a single element of the codomain}@}. However, {@{the preimage $f^{-1}(y)$ of an element _y_ of the codomain}@} {@{may be [empty](empty%20set.md) or contain any number of elements}@}. For example, if {@{_f_ is the function from the integers to themselves that maps every integer to 0}@}, then {@{$f^{-1}(0)=\mathbb {Z}$}@}. <!--SR:!2026-05-02,345,350!2026-03-08,306,350!2026-06-25,395,367!2026-06-07,380,367!2026-06-02,376,365!2026-04-13,326,350!2026-05-04,347,350-->
 
-If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ and _D_ are subsets of _Y_}@}, then one has the following properties: (annotation: 6 items: {@{monotonicity, domain; monotonicity, codomain; domain expansion; codomain contraction; idempotency, image of domain; idempotency, pre-image of codomain}@}) <!--SR:!2026-04-15,328,350!2026-07-04,400,367!2027-08-13,640,327-->
+If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ and _D_ are subsets of _Y_}@}, then one has the following properties: \(annotation: 6 items: {@{monotonicity, domain; monotonicity, codomain}@}; {@{domain expansion; codomain contraction}@}; {@{idempotency, image of domain; idempotency, pre-image of codomain}@}\) <!--SR:!2026-04-15,328,350!2026-07-04,400,367!2027-08-13,640,327-->
 
 - (annotation: monotonicity, domain) ::@:: $$A\subseteq B\Longrightarrow f(A)\subseteq f(B)$$ <!--SR:!2026-05-04,347,350!2025-12-27,248,330-->
 - (annotation: monotonicity, codomain) ::@:: $$C\subseteq D\Longrightarrow f^{-1}(C)\subseteq f^{-1}(D)$$ <!--SR:!2026-07-03,405,365!2026-03-10,308,350-->

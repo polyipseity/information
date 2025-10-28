@@ -27,7 +27,7 @@ In {@{[category theory](category%20theory.md)}@}, {@{the __product__ of two \(or
 
 ### product of two objects
 
-Fix {@{a category $C$}@}. Let {@{$X_{1}$ and $X_{2}$ be objects of $C$}@}. {@{A product of $X_{1}$ and $X_{2}$}@} is {@{an object $X$, typically denoted $X_{1}\times X_{2}$}@}, {@{equipped with a pair of morphisms $\pi _{1}:X\to X_{1}$, $\pi _{2}:X\to X_{2}$ satisfying the following [universal property](universal%20property.md)}@}: <!--SR:!2025-12-29,269,330!2026-01-03,271,330!2025-12-03,250,330!2025-12-04,251,330!2028-09-21,1047,350-->
+Fix {@{a category $C$}@}. Let {@{$X_{1}$ and $X_{2}$ be objects of $C$}@}. {@{A product of $X_{1}$ and $X_{2}$}@} is {@{an object $X$, typically denoted $X_{1}\times X_{2}$}@}, equipped with {@{a pair of morphisms $\pi _{1}:X\to X_{1}$, $\pi _{2}:X\to X_{2}$ satisfying the following [universal property](universal%20property.md)}@}: <!--SR:!2025-12-29,269,330!2026-01-03,271,330!2025-12-03,250,330!2025-12-04,251,330!2028-09-21,1047,350-->
 
 - For every object $Y$ and every pair of morphisms $f_{1}:Y\to X_{1}$, $f_{2}:Y\to X_{2}$, ::@:: there exists a unique morphism $f:Y\to X_{1}\times X_{2}$ such that the following diagram [commutes](commutative%20diagram.md): <p> ![Universal property of the product](../../archives/Wikimedia%20Commons/CategoricalProduct-03.svg) <!--SR:!2027-06-09,667,330!2025-12-08,254,330-->
 
