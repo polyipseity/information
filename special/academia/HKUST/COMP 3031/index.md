@@ -524,7 +524,26 @@ The content is in teaching order.
 ## week 8 lecture 2
 
 - datetime: 2025-10-23T12:00:00+08:00/2025-10-23T13:20:00+08:00, PT1H20M
-- topic:
+- topic: contextual abstraction, `using`, `given`, context inference, type class, conditional `given`, recursive `given` resolution, type class extension, type class in other languages
+- [monkey patch](../../../../general/monkey%20patch.md) ::@:: It is the act of dynamically modifying the runtime code (not the source code) of a dynamic programming language, and it is the information (data/code) used to modify the runtime code.
+- [dependency injection](../../../../general/dependency%20injection.md) ::@:: It is a programming technique in which an object or function receives other objects or functions that it requires, as opposed to creating them internally.
+- Scala
+  - Scala / [context](context.md)
+    - [§ motivation](context.md#motivation): context motivation
+    - [§ higher-order functions](context.md#higher-order%20functions): context motivation using higher-order functions
+    - [§ `using`](context.md#`using`): `using`, explicitly provide `using`, implicitly infer `using`
+    - [§ `using` syntax](context.md#`using`%20syntax): `using` in method, `using` in method call, `using` multiple parameters, `using` in multiple parameter lists, anonymous `using` clauses
+    - [§ context bound](context.md#context%20bound): context bound
+    - [§ `given`](context.md#`given`): `given`, `given` instance, anonymous `given` instance, `summon`
+    - [§ importing `given`s](context.md#importing%20`given`s): import `given`s by name, import `given`s by type, import `given`s by wildcard
+    - [§ context inference](context.md#context%20inference): context inference
+    - [§ type class](context.md#type%20class): type class
+    - [§ type class pattern](context.md#type%20class%20pattern): type class pattern
+    - [§ retroactive extension](context.md#retroactive%20extension): retroactive extension
+    - [§ conditional `given`](context.md#conditional%20`given`): conditional `given`
+    - [§ recursive `given` resolution](context.md#recursive%20`given`%20resolution): recursive `given` resolution
+    - [§ extension methods](context.md#extension%20methods): extension methods
+    - [§ type class in other languages](context.md#type%20class%20in%20other%20languages): type class in other languages, type class in Haskell, type class in Rust
 
 ## aftermath
 

@@ -11,7 +11,7 @@ aliases:
   - Scala lazy evaluation
   - Scala lazy evaluations
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3031/lazy_evaluations
+  - flashcard/active/special/academia/HKUST/COMP_3031/lazy_evaluation
   - language/in/English
 ---
 
