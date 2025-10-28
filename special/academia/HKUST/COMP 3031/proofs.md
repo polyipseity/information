@@ -393,7 +393,7 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 >
 > We need to prove {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. {@{This restriction is required}@} because {@{`NonEmpty(z, l, r)` is not necessarily a BST}@} if it is {@{directly constructed from arbitrarily trees `l` and `r`}@}.
 >
-> First we observe that {@{`incl` does not change the element in the root node}@}. So the only way to {@{obtain a `NonEmpty(z, l, r)`}@} is by {@{starting with `Empty.incl(z) == NonEmpty(z, Empty, Empty)`}@}. We can perform {@{another induction}@}, starting with {@{`NonEmpty(z, Empty, Empty)` and _exclusively_ using `incl` to build up the `IntSet`}@}
+> First we observe that {@{`incl` does not change the element in the root node}@}. So the only way to {@{obtain a `NonEmpty(z, l, r)`}@} is by {@{starting with `Empty.incl(z) == NonEmpty(z, Empty, Empty)`}@}. We can perform {@{another induction}@}, starting with {@{`NonEmpty(z, Empty, Empty)` and _exclusively_ using `incl` to build up the `IntSet`}@}:
 >
 > - {@{_Base case_}@}: Consider {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}.
 > - {@{_Inductive step_}@}: Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.

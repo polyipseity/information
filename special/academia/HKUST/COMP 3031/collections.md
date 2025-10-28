@@ -73,11 +73,11 @@ Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` 
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}.
 
-However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list (e.g. `prepend(elem: T): List[T]`)}@} {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
+However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
 
 > [!example] __implementing `prepend` on `List`__
 >
-> However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list (e.g. `prepend(elem: T): List[T]`)}@} {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
+> However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
 >
 > ```Scala
 > trait List[+T]:
@@ -86,7 +86,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >
 > This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}.
 
-This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]` \(where `Apple` and `Orange` are _direct_ subclasses of `Fruit`\)}@} yields {@{a `List[Fruit]`}@}.
+This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}.
 
 An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}:
 

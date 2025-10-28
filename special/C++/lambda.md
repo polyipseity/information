@@ -12,9 +12,9 @@ tags:
 
 ## lambda capture
 
-If the capture-default is `&`, subsequent simple captures {@{must not begin with `&`}@}.
+If {@{the capture-default is `&`}@}, subsequent simple captures {@{must not begin with `&`}@}.
 
-If the capture-default is `=`, subsequent simple captures {@{must begin with `&`. Since C++17, `*this` is also allowed. Since C++20, `this` is also allowed}@}.
+If {@{the capture-default is `=`}@}, subsequent simple captures {@{must begin with `&`}@}. Since {@{C++17}@}, {@{`*this` is also allowed}@}. Since {@{C++20}@}, {@{`this` is also allowed}@}.
 
 ## references
 

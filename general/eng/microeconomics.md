@@ -57,7 +57,7 @@ Economists commonly {@{consider themselves microeconomists or macroeconomists}@}
 
 - see: [consumer choice](consumer%20choice.md)
 
-Consumer demand theory {@{relates [preferences](preference%20(economics).md) for the consumption of both [goods](goods.md) and services to the consumption expenditures}@}; ultimately, {@{this relationship between preferences and consumption expenditures}@} is used to {@{relate preferences to [consumer demand curves](supply%20and%20demand.md)}@}. {@{The link between personal preferences, consumption and the [demand curve](demand%20curve.md)}@} is {@{one of the most closely studied relations in economics}@}. It is a way of {@{analyzing how consumers may achieve [equilibrium](economic%20equilibrium.md) between preferences and expenditures}@} by {@{maximizing [utility](utility.md) subject to consumer [budget constraints](budget%20constraint.md)}@}.
+Consumer demand theory {@{relates [preferences](preference%20(economics).md) for the consumption of both [goods](goods.md) and services to the consumption expenditures}@}; ultimately, {@{this relationship between preferences and consumption expenditures}@} is used to {@{relate preferences to [consumer demand curves](supply%20and%20demand.md)}@}. {@{The link between personal preferences, consumption and the [demand curve](demand%20curve.md)}@} is {@{one of the most closely studied relations in economics}@}. It is a way of analyzing {@{how consumers may achieve [equilibrium](economic%20equilibrium.md)}@} between {@{preferences and expenditures}@} by maximizing {@{[utility](utility.md) subject to consumer [budget constraints](budget%20constraint.md)}@}.
 
 ### production theory
 

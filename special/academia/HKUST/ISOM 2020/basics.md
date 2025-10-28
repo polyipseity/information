@@ -245,7 +245,7 @@ In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and
 
 Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}.
 
-If {@{you do not want a newline to be printed automatically afterwards}@}, `print` has {@{the `end` argument, which is used like `print(..., end=...)`}@}. The value passed to it {@{must be either a `str` or `None`, and `None` is the default value if you do not specify `end` and represents a newline, explaining why a newline is automatically printed without using `end`}@}. If `end` is used, then {@{after printing the passed objects as strings, the string passed to `end` is also printed (or if `end` is `None`, a newline is printed)}@}. For example, {@{`print(..., end="")` disables automatically printing a newline afterwards, while `print(..., end=" ")` automatically prints a space instead of a newline afterwards}@}.
+If {@{you do not want a newline to be printed automatically afterwards}@}, `print` has {@{the `end` argument, which is used like `print(..., end=...)`}@}. The value passed to it {@{must be either a `str` or `None`, and `None` is the default value if you do not specify `end` and represents a newline, explaining why a newline is automatically printed without using `end`}@}. If `end` is used, then after {@{printing the passed objects as strings}@}, {@{the string passed to `end`}@} is also {@{printed (or if `end` is `None`, a newline is printed)}@}. For example, {@{`print(..., end="")` disables automatically printing a newline afterwards, while `print(..., end=" ")` automatically prints a space instead of a newline afterwards}@}.
 
 ## variable
 

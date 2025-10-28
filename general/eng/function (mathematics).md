@@ -346,7 +346,7 @@ On the other hand, {@{the _[inverse image](inverse%20image.md#inverse%20image)_ 
 
 By {@{definition of a function}@}, {@{the image of an element _x_ of the domain}@} is {@{always a single element of the codomain}@}. However, {@{the preimage $f^{-1}(y)$ of an element _y_ of the codomain}@} {@{may be [empty](empty%20set.md) or contain any number of elements}@}. For example, if {@{_f_ is the function from the integers to themselves that maps every integer to 0}@}, then {@{$f^{-1}(0)=\mathbb {Z}$}@}.
 
-If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ and _D_ are subsets of _Y_}@}, then one has the following properties: (annotation: 6 items: {@{monotonicity, domain; monotonicity, codomain; domain expansion; codomain contraction; idempotency, image of domain; idempotency, pre-image of codomain}@})
+If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ and _D_ are subsets of _Y_}@}, then one has the following properties: \(annotation: 6 items: {@{monotonicity, domain; monotonicity, codomain}@}; {@{domain expansion; codomain contraction}@}; {@{idempotency, image of domain; idempotency, pre-image of codomain}@}\)
 
 - (annotation: monotonicity, domain) ::@:: $$A\subseteq B\Longrightarrow f(A)\subseteq f(B)$$
 - (annotation: monotonicity, codomain) ::@:: $$C\subseteq D\Longrightarrow f^{-1}(C)\subseteq f^{-1}(D)$$

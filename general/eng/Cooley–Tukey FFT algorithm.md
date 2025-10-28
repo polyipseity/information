@@ -93,12 +93,12 @@ In {@{[pseudocode](pseudocode.md)}@}, {@{the below procedure}@} could be written
 >
 > <pre>
 > {@{<i>X</i><sub>0,...,<i>N</i>−1</sub>}@} ← {@{<b>ditfft2</b>(<i>x</i>, <i>N</i>, <i>s</i>)}@}:             {@{<i>DFT of (x</i><sub>0</sub>, <i>x<sub>s</sub></i>, <i>x</i><sub>2<i>s</i></sub>, ..., <i>x</i><sub>(<i>N</i>-1)<i>s</i></sub>):}@}
->     <b>if</b> {@{<i>N</i> = 1}@} <b>then</b>
+>     {@{<b>if</b> <i>N</i> = 1}@} <b>then</b>
 >         {@{<i>X</i><sub>0</sub> ← <i>x</i><sub>0</sub>}@}                                     {@{<i>trivial size-1 DFT base case</i>}@}
 >     <b>else</b>
 >         {@{<i>X</i><sub>0,...,<i>N</i>/2−1</sub>}@} ← {@{<b>ditfft2</b>(<i>x</i>, <i>N</i>/2, 2<i>s</i>)}@}             {@{<i>DFT of (x</i><sub>0</sub>, <i>x</i><sub>2<i>s</i></sub>, <i>x</i><sub>4<i>s</i></sub>, ..., <i>x</i><sub>(<i>N</i>-2)<i>s</i></sub>)}@}
 >         {@{<i>X<sub>N</sub></i><sub>/2,...,<i>N</i>−1</sub>}@} ← {@{<b>ditfft2</b>(<i>x</i>+s, <i>N</i>/2, 2<i>s</i>)}@}           {@{<i>DFT of (x<sub>s</sub></i>, <i>x<sub>s</sub></i><sub>+2<i>s</i></sub>, <i>x<sub>s</sub></i><sub>+4<i>s</i></sub>, ..., <i>x</i><sub>(<i>N</i>-1)<i>s</i></sub>)}@}
->         <b>for</b> {@{k = 0 to (N/2)-1}@} <b>do</b>                      {@{<i>combine DFTs of two halves:</i>}@}
+>         {@{<b>for</b> k = 0 to (N/2)-1}@} <b>do</b>                      {@{<i>combine DFTs of two halves:</i>}@}
 >             p ← {@{<i>X<sub>k</sub></i>}@}
 >             q ← {@{exp(−2π<i>i</i>/<i>N</i> <i>k</i>) <i>X<sub>k</sub></i><sub>+<i>N</i>/2</sub>}@}
 >             {@{<i>X<sub>k</sub></i> ← p + q}@}
@@ -204,12 +204,12 @@ The following is {@{pseudocode for iterative radix-2 FFT algorithm}@} implemente
 >
 >     {@{bit-reverse-copy(a, A)}@}
 >     <i>n</i> ← {@{<i>a</i>.length}@}
->     <b>for</b> {@{<i>s</i> = 1 <b>to</b> log(<i>n</i>)}@} <b>do</b>
+>     {@{<b>for</b> <i>s</i> = 1 <b>to</b> log(<i>n</i>)}@} <b>do</b>
 >         <i>m</i> ← {@{2<sup><i>s</i></sup>}@}
 >         {@{<i>ω</i><sub><i>m</i></sub> ← exp(−2π<i>i</i>/<i>m</i>)}@}
->         <b>for</b> {@{<i>k</i> = 0 <b>to</b> <i>n</i>-1 <b>by</b> <i>m</i>}@} <b>do</b>
+>         {@{<b>for</b> <i>k</i> = 0 <b>to</b> <i>n</i>-1 <b>by</b> <i>m</i>}@} <b>do</b>
 >             {@{<i>ω</i> ← 1}@}
->             <b>for</b> {@{<i>j</i> = 0 <b>to</b> <i>m</i>/<i>2</i> – 1}@} <b>do</b>
+>             {@{<b>for</b> <i>j</i> = 0 <b>to</b> <i>m</i>/<i>2</i> – 1}@} <b>do</b>
 >                 {@{<i>t</i> ← <i>ω</i> <i>A</i>[<i>k</i> + <i>j</i> + <i>m</i>/2]}@}
 >                 {@{<i>u</i> ← <i>A</i>[<i>k</i> + <i>j</i>]}@}
 >                 {@{<i>A</i>[<i>k</i> + <i>j</i>] ← <i>u</i> + <i>t</i>}@}
@@ -253,7 +253,7 @@ The following is {@{pseudocode for iterative radix-2 FFT algorithm}@} implemente
 >     <b>output:</b> {@{Array <i>A</i> of size <i>n</i>.}@}
 >
 >     <i>n</i> ← {@{<i>a</i>.length}@}
->     <b>for</b> {@{<i>k</i> = 0 <i>to</i> <i>n</i> – 1}@} <b>do</b>
+>     {@{<b>for</b> <i>k</i> = 0 <i>to</i> <i>n</i> – 1}@} <b>do</b>
 >         {@{<i>A</i>[rev(k)] := <i>a</i>[k]}@}
 > </pre>
 
