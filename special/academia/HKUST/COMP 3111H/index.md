@@ -362,7 +362,7 @@ The content is in teaching order.
   - software development process / abstraction or generality ::@:: - spiral: Allows using other processes for the actual development and testing. <br/> - waterfall: As a direct implementation of the general SDLC.
   - software development process / adaptable to changes ::@:: - agile: By its nature. <br/> - phased release: Releases happen over time. <br/> - spiral: Planning happens periodically.
   - software development process / incremental ::@:: - agile: Many sprints are needed. <br/> - phased release: Many releases are needed. <br/> - prototyping: Many prototypes are needed. <br/> - spiral: Many spirals are needed.
-  - software development process / risk assessment ::@:: spiral: The only process to explicitly integrate risk analysis.
+  - software development process / risk assessment ::@:: - spiral: The only process to explicitly integrate risk analysis.
 - [unified process](../../../../general/unified%20process.md) ::@:: It is an iterative and incremental software development process framework. <p> It is not simply a process, but rather an extensible framework which should be customized for specific organizations or projects.
   - unified process / cycle ::@:: inception → elaboration → construction → transition
     - unified process / cycle / inception ::@:: Gather requirements. See if the requirements are feasible. Decide if to continue with the project or not.
