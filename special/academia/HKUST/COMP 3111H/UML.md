@@ -19,7 +19,7 @@ tags:
 
 ## classes
 
-{@{A _class_}@} represents {@{a _type_ of object in the application domain}@}. _Instances_ of a class have {@{_common_ attributes, operations, relations with other objects, and semantics}@}, which are {@{_classified_ by the class \(a _classifier_\)}@}. There can be {@{many instances of a class}@}. It can be considered as {@{a "factory" for creating new instances of it}@}. <!--SR:!2026-01-14,78,341!2026-01-03,68,322!2026-01-03,69,322!2026-01-08,73,322!2026-01-05,70,322!2026-01-20,84,350-->
+{@{A _class_}@} represents {@{a _type_ of object in the application domain}@}. _Instances_ of a class have {@{_common_ states \(attributes\), behaviors \(operations\), relations with other objects, and semantics}@}, which are {@{_classified_ by the class \(a _classifier_\)}@}. There can be {@{many instances of a class}@}. It can be considered as {@{a "factory" for creating new instances of it}@}. <!--SR:!2026-01-14,78,341!2026-01-03,68,322!2026-01-03,69,322!2026-01-08,73,322!2026-01-05,70,322!2026-01-20,84,350-->
 
 A good class should {@{capture exactly one abstract object in the application domain}@}. It should have {@{one major theme \(not too general, no mixing of concepts\)}@}. {@{Abstract objects _outside_ the application domain}@}, e.g. {@{physical objects not represented by the digital system}@}, should {@{not be modeled at all}@}! An example is {@{physical passbooks issued by a bank}@}. They are {@{physical objects not represented by the bank's digital system}@}. They should be {@{excluded if you are only designing the digital system}@}. <!--SR:!2026-01-15,79,341!2026-01-03,69,322!2025-12-25,58,321!2026-01-17,81,341!2026-01-19,83,341!2025-12-29,65,322!2026-01-07,72,322!2026-01-04,70,322-->
 

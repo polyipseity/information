@@ -101,7 +101,7 @@ The content is in teaching order.
   - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc. <!--SR:!2025-12-14,66,310!2025-12-15,67,310-->
   - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!2025-12-12,64,310!2025-12-15,67,310-->
   - COMP 3111H / rules
-  - COMP 3111H / project ::2:: specification \(from system requirements\) → implementation and testing
+  - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [questions § week 1 lecture](questions/index.md#week%201%20lecture)
 
@@ -241,11 +241,11 @@ The content is in teaching order.
   - systems development life cycle / motivation ::@:: It _structures_ software development. The phases allows for _control_ and _management_, e.g. deliverables, _milestones_. <!--SR:!2026-01-31,94,371!2026-02-05,97,378-->
   - systems development life cycle / milestone ::@:: It is a management _decision point_, where the management can make major decisions. <!--SR:!2025-12-18,56,343!2025-12-23,60,358-->
 - [project management](../../../../general/project%20management.md) ::@:: It is the process of supervising the work of a team to achieve all project goals within the given constraints. <!--SR:!2026-01-24,88,363!2026-01-26,90,371-->
-  - project management / 4Ps ::@:: A _project_ involves _people_ \(input\) using _processes_ \(input\) to produce _products_ \(output\) according to requirements from the application domain \(input\). <!--SR:!2026-01-03,66,351!2026-01-12,74,358-->
+  - project management / 4Ps ::@:: A _project_ \(center\) involves _people_ \(input\) using _processes_ \(input\) to produce _products_ \(output\) according to requirements from the application domain \(input\). <!--SR:!2026-01-03,66,351!2026-01-12,74,358-->
     - project management / 4Ps / process ::@:: set of activities: tools \(support\), workflows, etc. <!--SR:!2026-02-01,94,371!2026-02-02,95,371-->
     - project management / 4Ps / people ::@:: stakeholders: clients, developers, end users, etc. <!--SR:!2026-01-26,89,371!2026-02-04,96,378-->
     - project management / 4Ps / product ::@:: set of artifacts: code, manuals, models, etc. <!--SR:!2025-12-22,59,358!2026-01-26,89,371-->
-    - project management / 4Ps / project ::@:: It requires _control_, _management_, and _control_. It involves a _project plan_. <!--SR:!2025-12-18,56,343!2026-01-25,88,363-->
+    - project management / 4Ps / project ::@:: It requires _planning_, _management_, and _control_. It involves a _project plan_. <!--SR:!2025-12-18,56,343!2026-01-25,88,363-->
       - project management / 4Ps / project / plan ::@:: activities & tasks, monitoring & reporting, organization, resources, risks, schedule, scope \(i.e. constraints and objectives; e.g. budget, time, etc.\) <!--SR:!2025-12-24,61,358!2025-11-30,38,323-->
 - [software development process](../../../../general/software%20development%20process.md) ::@:: It prescribes a process for developing software. It typically divides an overall effort into smaller steps or sub-processes that are intended to ensure high-quality results. The process may describe specific deliverables – artifacts to be created and completed. <p> \(__this course__: It is a process _template_ that is _adaptable_ for different application domains. It aids in _dividing_ work.\) <!--SR:!2026-01-27,91,378!2026-01-13,75,358-->
 - project management
@@ -309,7 +309,7 @@ The content is in teaching order.
   - software prototyping / disadvantages ::@:: incomplete process \(engineering the final product may need a separate process\), invisible to management \(e.g. the number of prototypes needed\), missing or sparse docs <!--SR:!2026-01-14,76,366!2026-02-11,103,386-->
 - [spiral model](../../../../general/spiral%20model.md) ::@:: It is a risk-driven software development process model. Based on the unique risk patterns of a given project, the spiral model guides a team to adopt elements of one or more process models, such as incremental, waterfall, or evolutionary prototyping. <!--SR:!2026-02-11,103,386!2025-12-08,45,346-->
   - spiral model / steps ::@:: plan → risk analysis → \(EITHER go OR no go\) → engineer → evaluate → \(repeat until we have a complete system\) <!--SR:!2026-01-15,76,366!2026-01-12,73,366-->
-  - spiral model / the spiral ::@:: The 4 quadrants of a 2D plane are respectively the 4 steps \(clockwise from quadrant II\), and the process is represented by arrowheads spiraling outwards. <!--SR:!2026-02-11,103,386!2026-02-11,103,386-->
+  - spiral model / the spiral ::@:: The 4 quadrants of a 2D plane are respectively the 4 steps \(clockwise from the _x_-axis between quadrant II and III\), and the process is represented by arrowheads spiraling outwards. <!--SR:!2026-02-11,103,386!2026-02-11,103,386-->
   - spiral model / advantages ::@:: incorporates risk evaluation, incorporates user feedback to better meet expectations \(from evaluate and plan\), iterative and incremental <!--SR:!2025-12-08,45,346!2026-02-10,103,386-->
   - spiral model / disadvantages ::@:: expertise on risk evaluation required, for internal development rather than contract development as you know all the requirements, phases are not elaborated \(a separate process may be used\) <!--SR:!2026-01-10,72,366!2026-01-14,75,366-->
 - [software release life cycle](../../../../general/software%20release%20life%20cycle)
@@ -362,7 +362,7 @@ The content is in teaching order.
   - software development process / abstraction or generality ::@:: - spiral: Allows using other processes for the actual development and testing. <br/> - waterfall: As a direct implementation of the general SDLC. <!--SR:!2026-01-25,88,363!2026-02-03,95,378-->
   - software development process / adaptable to changes ::@:: - agile: By its nature. <br/> - phased release: Releases happen over time. <br/> - spiral: Planning happens periodically. <!--SR:!2026-01-26,89,371!2025-12-28,61,351-->
   - software development process / incremental ::@:: - agile: Many sprints are needed. <br/> - phased release: Many releases are needed. <br/> - prototyping: Many prototypes are needed. <br/> - spiral: Many spirals are needed. <!--SR:!2026-01-07,69,351!2025-12-30,63,351-->
-  - software development process / risk assessment ::@:: spiral: The only process to explicitly integrate risk analysis. <!--SR:!2026-02-09,101,378!2026-01-31,94,371-->
+  - software development process / risk assessment ::@:: - spiral: The only process to explicitly integrate risk analysis. <!--SR:!2026-02-09,101,378!2026-01-31,94,371-->
 - [unified process](../../../../general/unified%20process.md) ::@:: It is an iterative and incremental software development process framework. <p> It is not simply a process, but rather an extensible framework which should be customized for specific organizations or projects. <!--SR:!2026-02-04,96,378!2025-12-19,57,351-->
   - unified process / cycle ::@:: inception → elaboration → construction → transition <!--SR:!2026-01-26,89,371!2026-02-01,95,371-->
     - unified process / cycle / inception ::@:: Gather requirements. See if the requirements are feasible. Decide if to continue with the project or not. <!--SR:!2026-02-04,97,386!2026-01-13,74,366-->
