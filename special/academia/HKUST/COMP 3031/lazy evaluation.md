@@ -114,9 +114,9 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > LazyList.range(1000, 10000).filter(isPrime)(1)
 > ```
 >
-> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
+> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308-->
 
-Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}.
+Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310-->
 
 {@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}.  For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}.  In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}: <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
 
@@ -131,7 +131,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   else tail.filter(p)
 > ```
 >
-> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by‑name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310-->
+> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by‑name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
 
 {@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}: <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
 
@@ -180,9 +180,9 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 > }
 > ```
 >
-> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
+> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-06,4,310-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-17,15,290!2025-11-05,4,285!2025-11-05,4,285!2025-11-17,15,290!2025-11-05,4,285!2025-11-05,4,285!2025-11-04,3,265!2025-11-05,4,285!2025-11-05,4,285-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-17,15,290!2025-11-05,4,285!2025-11-05,4,285!2025-11-17,15,290!2025-11-05,4,285!2025-11-05,4,285!2025-11-04,3,265!2025-11-05,4,285!2025-11-05,4,285!2025-11-06,4,310-->
 
 ## lazy evaluation
 
@@ -205,7 +205,7 @@ For {@{an example}@} of {@{`lazy val`}@}: <!--SR:!2025-11-05,4,285!2025-11-05,4,
 >
 > When evaluating {@{an expression that mixes these constructs}@}, {@{the side‑effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308-->
 
-When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side‑effects occur}@} in the order {@{the values are first required}@}.
+When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side‑effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310-->
 
 ## infinite sequences
 
@@ -239,7 +239,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > nats.filter(_ % 4 == 0)
 > ```
 >
-> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
+> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
 
 {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}.
 
@@ -393,7 +393,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > let guesses = 1 : map improve guesses
 > ```
 >
-> Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
+> Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
 
 Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}.
 

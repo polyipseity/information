@@ -99,8 +99,7 @@ To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implici
 > def sort[T](xs: List[T])(using ord: Ordering[T]): List[T] = ...
 > ```
 >
-> Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}.
-<!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
+> Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
 
 Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!2025-11-05,4,270!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
 
@@ -117,7 +116,7 @@ Now {@{callers}@} need not {@{supply it explicitly \(though it could if it choos
 >
 > The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-05,4,270-->
 
-The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}, as in the above example.
+The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}, as in the above example. <!--SR:!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
 
 ### `using` syntax
 
@@ -143,9 +142,9 @@ When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} v
 > sort(strings)  // compiler finds `Ordering.String`
 > ```
 >
-> However, {@{explicit passing}@} is {@{usually unnecessary}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2025-11-06,4,309!2000-01-01,1,250!2000-01-01,1,250!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307-->
+> However, {@{explicit passing}@} is {@{usually unnecessary}@}. <!--SR:!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,309!2025-11-06,4,308!2025-11-06,4,308-->
 
-However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above.
+However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
 
 {@{The syntax for `using` clauses}@} is {@{flexible}@}. {@{A single clause}@} may contain {@{multiple parameters}@}: <!--SR:!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
 
@@ -203,11 +202,11 @@ This is equivalent to explicitly {@{passing a named `ord` through every call tha
 >   println(sort(xs))
 > ```
 >
-> Intuitively, this may be interpreted as {@{`T` "satisfying" the trait `Ordering`}@}, i.e. having {@{a defined ordering}@}. <!--SR:!2000-01-01,1,250!2025-11-06,4,309!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289-->
+> Intuitively, this may be interpreted as {@{`T` "satisfying" the trait `Ordering`}@}, i.e. having {@{a defined ordering}@}. <!--SR:!2025-11-06,4,308!2025-11-06,4,309!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289-->
 
-Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}.
+Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2025-11-06,4,308!2025-11-06,4,308-->
 
-More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2025-11-06,4,289!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
+More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2025-11-06,4,289!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,308!2025-11-06,4,308-->
 
 ## `given`
 
@@ -291,7 +290,7 @@ Since {@{the actual names of given instances}@} are {@{irrelevant to resolution}
 >     }
 > ```
 >
-> {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-05,4,270!2000-01-01,1,250-->
+> {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,307!2025-11-06,4,307-->
 
 {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}.
 
@@ -310,7 +309,7 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >   sort(xs)  // uses `listOrdering[List[Int]]`, then uses `Ordering.Int` inside `listOrdering`
 > ```
 >
-> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
+> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,308-->
 
 For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289-->
 
@@ -325,7 +324,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 >     if c != 0 then c else ob.compare(x._2, y._2)
 > ```
 >
-> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2000-01-01,1,250!2000-01-01,1,250-->
+> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,308!2025-11-06,4,308-->
 
 ## context inference
 
@@ -419,7 +418,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >     if xn < yn then -1 else if xn > yn then 1 else 0
 > ```
 >
-> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
+> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
 
 Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}.
 
@@ -459,7 +458,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2025-11-05,4,2
 >   }
 > ```
 >
-> No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2025-11-06,4,309!2025-11-06,4,307!2025-11-06,4,307-->
+> No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308-->
 
 No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}.
 
@@ -476,7 +475,7 @@ No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the
 >     compare :: a -> a -> Int
 > ```
 >
-> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,307!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
+> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
 
 {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}.
 
