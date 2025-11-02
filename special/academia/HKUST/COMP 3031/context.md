@@ -271,11 +271,11 @@ Since {@{the actual names of given instances}@} are {@{irrelevant to resolution}
 
 ### conditional `given`
 
-{@{A given instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
+{@{A given instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
 
 > [!example] __conditional `given`__
 >
-> {@{A given instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_}@}. For example {@{a give instance that order lists}@} yields:
+> {@{A given instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields:
 >
 > ```Scala
 > given listOrdering[A](using ord: Ordering[A]): Ordering[List[A]] with
@@ -291,8 +291,6 @@ Since {@{the actual names of given instances}@} are {@{irrelevant to resolution}
 > ```
 >
 > {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,307!2025-11-06,4,307-->
-
-{@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}.
 
 In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on type and its type parameter}@}. In the example above, {@{`listOrdering[T]`}@} pattern matches on {@{`T`}@} for {@{the pattern `List[U]`}@}. <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
 
@@ -420,8 +418,6 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >
 > Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
 
-Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}.
-
 ### extension methods
 
 {@{A type‑class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
@@ -460,8 +456,6 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2025-11-05,4,2
 >
 > No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308-->
 
-No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}.
-
 ### type class in other languages
 
 {@{Haskell}@} treats {@{type classes}@} as {@{a first‑class feature of the language}@}.  {@{The standard library}@} defines {@{an `Ordering` data type}@} ({@{`data Ordering = LT | EQ | GT`}@}) and declares {@{the class}@} <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289!2025-11-05,4,270-->
@@ -475,9 +469,9 @@ No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the
 >     compare :: a -> a -> Int
 > ```
 >
-> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
+> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
 
-{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}.
+{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built‑in}@}, Haskell's {@{type‑class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}.
 
 {@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
 

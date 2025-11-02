@@ -118,11 +118,11 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 
 Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310-->
 
-{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}.  For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}.  In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}: <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
+{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}: <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
 
 > [!example] __`LazyList.filter`__
 >
-> {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production‑grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: 
+> For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}: 
 >
 > ```Scala
 > def filter(p: A => Boolean): LazyList[A] =
@@ -240,8 +240,6 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > ```
 >
 > {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
-
-{@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}.
 
 {@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-18,16,290!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
 
@@ -394,8 +392,6 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```
 >
 > Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
-
-Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}.
 
 {@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
 
