@@ -469,9 +469,9 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2025-11-05,4,2
 >     compare :: a -> a -> Int
 > ```
 >
-> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308!2025-11-06,4,308-->
+> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310!2025-11-06,4,310-->
 
-{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built‑in}@}, Haskell's {@{type‑class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}.
+{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built‑in}@}, Haskell's {@{type‑class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
 
 {@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2025-11-06,4,289!2025-11-06,4,289!2025-11-05,4,270!2025-11-06,4,289!2025-11-06,4,289!2025-11-06,4,289-->
 

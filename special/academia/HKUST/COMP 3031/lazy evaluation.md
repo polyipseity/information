@@ -122,7 +122,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 > [!example] __`LazyList.filter`__
 >
-> For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}: 
+> For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}:
 >
 > ```Scala
 > def filter(p: A => Boolean): LazyList[A] =
@@ -131,7 +131,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   else tail.filter(p)
 > ```
 >
-> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by‑name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
+> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by‑name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
 
 {@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}: <!--SR:!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
 
@@ -168,7 +168,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` three times}@}—once for {@{each element taken}@}—leading to {@{unnecessary work and potential performance degradation}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by‑name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2025-11-05,4,285!2025-11-18,16,290!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-17,15,290!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285!2025-11-05,4,285-->
 
-{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production‑grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}:
+{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production‑grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311!2025-11-06,4,311-->
 
 > [!example] __`LazyList.state`__
 >
