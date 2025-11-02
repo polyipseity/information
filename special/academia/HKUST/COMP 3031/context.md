@@ -198,7 +198,7 @@ This is equivalent to explicitly {@{passing a named `ord` through every call tha
 
 Intuitively, this may be interpreted as {@{`T` "satisfying" the trait `Ordering`}@}, i.e. having {@{a defined ordering}@}.
 
-More generally, {@{any definition `def f[T : U1 ... : Un](ps) : R`}@} is expanded to {@{`def f[T](ps)(using U1[T], …, Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}.
+More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}.
 
 ## `given`
 
@@ -297,9 +297,9 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >   sort(xs)  // uses `listOrdering[List[Int]]`, then uses `Ordering.Int` inside `listOrdering`
 > ```
 >
-> {@{The compiler}@} first builds {@{`Ordering[List[Int]]`}@}, then builds {@{`Ordering[Int]`}@}, and finally {@{supplies it to `sort`}@}.
+> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}.
 
-{@{The compiler}@} first builds {@{`Ordering[List[Int]]`}@}, then builds {@{`Ordering[Int]`}@}, and finally {@{supplies it to `sort`}@}.
+{@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}.
 
 For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}:
 
@@ -464,9 +464,9 @@ No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the
 >     compare :: a -> a -> Int
 > ```
 >
-> which specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}.
+> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}.
 
-which specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}.
+{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}.  Because {@{the mechanism is built‑in}@}, {@{Haskell's type‑class system}@} is simpler {@{to reason about}@} than Scala's {@{more general contextual parameters}@}.
 
 {@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like:
 
@@ -480,6 +480,6 @@ which specifies {@{how values of any type `a` can be compared}@}.  Because {@{th
 > }
 > ```
 
-{@{The syntax}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}.
+{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}.
 
 {@{Other functional and dependently‑typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type‑class‑like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala‑style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}.

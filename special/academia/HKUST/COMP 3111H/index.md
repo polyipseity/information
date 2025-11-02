@@ -101,7 +101,7 @@ The content is in teaching order.
   - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc.
   - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management
   - COMP 3111H / rules
-  - COMP 3111H / project ::2:: specification \(from system requirements\) → implementation and testing
+  - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [questions § week 1 lecture](questions/index.md#week%201%20lecture)
 
@@ -241,11 +241,11 @@ The content is in teaching order.
   - systems development life cycle / motivation ::@:: It _structures_ software development. The phases allows for _control_ and _management_, e.g. deliverables, _milestones_.
   - systems development life cycle / milestone ::@:: It is a management _decision point_, where the management can make major decisions.
 - [project management](../../../../general/project%20management.md) ::@:: It is the process of supervising the work of a team to achieve all project goals within the given constraints.
-  - project management / 4Ps ::@:: A _project_ involves _people_ \(input\) using _processes_ \(input\) to produce _products_ \(output\) according to requirements from the application domain \(input\).
+  - project management / 4Ps ::@:: A _project_ \(center\) involves _people_ \(input\) using _processes_ \(input\) to produce _products_ \(output\) according to requirements from the application domain \(input\).
     - project management / 4Ps / process ::@:: set of activities: tools \(support\), workflows, etc.
     - project management / 4Ps / people ::@:: stakeholders: clients, developers, end users, etc.
     - project management / 4Ps / product ::@:: set of artifacts: code, manuals, models, etc.
-    - project management / 4Ps / project ::@:: It requires _control_, _management_, and _control_. It involves a _project plan_.
+    - project management / 4Ps / project ::@:: It requires _planning_, _management_, and _control_. It involves a _project plan_.
       - project management / 4Ps / project / plan ::@:: activities & tasks, monitoring & reporting, organization, resources, risks, schedule, scope \(i.e. constraints and objectives; e.g. budget, time, etc.\)
 - [software development process](../../../../general/software%20development%20process.md) ::@:: It prescribes a process for developing software. It typically divides an overall effort into smaller steps or sub-processes that are intended to ensure high-quality results. The process may describe specific deliverables – artifacts to be created and completed. <p> \(__this course__: It is a process _template_ that is _adaptable_ for different application domains. It aids in _dividing_ work.\)
 - project management
@@ -309,7 +309,7 @@ The content is in teaching order.
   - software prototyping / disadvantages ::@:: incomplete process \(engineering the final product may need a separate process\), invisible to management \(e.g. the number of prototypes needed\), missing or sparse docs
 - [spiral model](../../../../general/spiral%20model.md) ::@:: It is a risk-driven software development process model. Based on the unique risk patterns of a given project, the spiral model guides a team to adopt elements of one or more process models, such as incremental, waterfall, or evolutionary prototyping.
   - spiral model / steps ::@:: plan → risk analysis → \(EITHER go OR no go\) → engineer → evaluate → \(repeat until we have a complete system\)
-  - spiral model / the spiral ::@:: The 4 quadrants of a 2D plane are respectively the 4 steps \(clockwise from quadrant II\), and the process is represented by arrowheads spiraling outwards.
+  - spiral model / the spiral ::@:: The 4 quadrants of a 2D plane are respectively the 4 steps \(clockwise from the _x_-axis between quadrant II and III\), and the process is represented by arrowheads spiraling outwards.
   - spiral model / advantages ::@:: incorporates risk evaluation, incorporates user feedback to better meet expectations \(from evaluate and plan\), iterative and incremental
   - spiral model / disadvantages ::@:: expertise on risk evaluation required, for internal development rather than contract development as you know all the requirements, phases are not elaborated \(a separate process may be used\)
 - [software release life cycle](../../../../general/software%20release%20life%20cycle)

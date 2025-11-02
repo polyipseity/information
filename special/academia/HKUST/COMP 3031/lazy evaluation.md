@@ -236,21 +236,19 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > nats.filter(_ % 4 == 0)
 > ```
 >
-> {@{Both approaches}@} generate {@{each element on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}.
+> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}.
 
-{@{Both approaches}@} generate {@{each element on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}.
+{@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}.
 
-{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}:
-
-Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}.
+{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}.
 
 ### infinite sequence examples
 
-{@{The classic algorithm}@} for {@{generating primes}@} can be expressed {@{succinctly with lazy lists}@}:
+{@{The classic algorithm for generating primes}@}, {@{sieve of Eratosthenes}@}, can be expressed {@{succinctly with lazy lists}@}:
 
 > [!example] __sieve of Eratosthenes__
 >
-> {@{The classic algorithm}@} for {@{generating primes}@} can be expressed {@{succinctly with lazy lists}@}:
+> {@{The classic algorithm for generating primes}@}, {@{sieve of Eratosthenes}@}, can be expressed {@{succinctly with lazy lists}@}:
 >
 > ```Scala
 > def sieve(s: LazyList[Int]): LazyList[Int] =
@@ -259,9 +257,9 @@ Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all element
 > val primes = sieve(from(2))
 > ```
 >
-> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate composites}@}.
+> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}.
 
-{@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate composites}@}.
+{@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}.
 
 {@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}:
 
@@ -290,9 +288,9 @@ Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all element
 > sqrtSeq(2).filter(isGoodEnough(_, 2))
 > ```
 >
-> {@{The first element that satisfies `isGoodEnough`}@} is {@{the desired square root}@}.
+> {@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}.
 
-{@{The first element that satisfies `isGoodEnough`}@} is {@{the desired square root}@}.
+{@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}.
 
 {@{A combinatorial search problem}@}, such as {@{filling glasses to a target volume}@}, can be encoded with {@{lazy lists of state transitions}@}:
 
