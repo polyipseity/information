@@ -75,7 +75,7 @@ Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` 
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2026-01-12,62,310-->
 
-However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!2025-12-24,43,290!2026-01-07,58,310!2026-01-08,58,310!2026-01-07,58,310!2026-01-13,63,310-->
+However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!2025-12-24,43,290!2026-01-07,58,310!2026-01-08,58,310!2026-01-07,58,310!2026-01-13,63,310!2025-11-05,4,323-->
 
 > [!example] __implementing `prepend` on `List`__
 >
@@ -86,9 +86,9 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >   def prepend[U >: T](elem: U): List[U] = Cons(elem, this)
 > ```
 >
-> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!2026-01-05,56,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-07,58,310!2025-11-12,16,290!2025-12-25,44,290!2025-12-10,32,270!2026-01-13,63,310!2025-11-12,16,290-->
+> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!2026-01-05,56,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-07,58,310!2025-11-12,16,290!2025-12-25,44,290!2025-12-10,32,270!2026-01-13,63,310!2025-11-12,16,290!2025-11-05,4,323-->
 
-This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2026-01-13,63,310!2025-11-18,7,270!2026-01-13,63,310-->
+This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2025-11-12,16,290!2026-01-07,58,310!2025-11-12,16,290!2025-11-12,16,290!2025-11-12,16,290!2026-01-13,63,310!2025-11-18,7,270!2026-01-13,63,310!2025-11-05,4,323-->
 
 An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}: <!--SR:!2026-01-08,58,310!2026-01-03,54,310!2025-11-12,16,290!2025-11-12,16,290-->
 

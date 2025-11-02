@@ -15,7 +15,7 @@ A __telescope__ is {@{a device used to observe distant objects by their emission
 
 - see: [space telescope](space%20telescope.md)
 
-Since the [atmosphere](atmosphere%20of%20Earth.md) is {@{opaque for most of the electromagnetic spectrum, only a few bands can be observed from the Earth's surface}@}. These observable bands are {@{from visible to near-infrared and a portion of the radio-wave part of the spectrum}@}. For this reason there are {@{no X-ray or far-infrared ground-based telescopes}@} as these {@{have to be observed from orbit}@}. Even if a wavelength is observable from the ground, it might still be advantageous to place a telescope on a satellite due to issues such as {@{[clouds](cloud.md), [astronomical seeing](astronomical%20seeing.md) and [light pollution](light%20pollution.md#effect%20on%20astronomy)}@}. <!--SR:!2028-11-08,1215,350!2027-10-28,838,290!2028-05-10,919,290!2026-01-12,354,290-->
+Since the [atmosphere](atmosphere%20of%20Earth.md) is {@{opaque for most of the electromagnetic spectrum, only a few bands can be observed from the Earth's surface}@}. These observable bands are {@{from visible to near-infrared and a portion of the radio-wave part of the spectrum}@}. For this reason there are {@{no X-ray or far-infrared ground-based telescopes}@} as these {@{have to be observed from orbit}@}. Even if a wavelength is observable from the ground, it might still be advantageous to place a telescope on a satellite due to issues such as {@{[clouds](cloud.md), [astronomical seeing](astronomical%20seeing.md) and [light pollution](light%20pollution.md#effect%20on%20astronomy)}@}. <!--SR:!2028-11-08,1215,350!2027-10-28,838,290!2028-05-10,919,290!2026-01-12,354,290!2025-11-19,17,338-->
 
 ## by electromagnetic spectrum
 
