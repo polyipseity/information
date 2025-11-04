@@ -762,7 +762,7 @@ The content is in teaching order.
   - revenue management / capacity-based ::@:: fixed and perishable resources, widely used in transport industries <!--SR:!2026-01-07,168,445!2025-12-25,160,448-->
   - revenue management / price-based ::@:: dynamic pricing, markdown pricing, surge pricing, etc. <!--SR:!2025-12-31,161,448!2025-12-26,163,445-->
   - revenue management / motivation ::@:: Increasing revenue without increasing cost increases gross margin and net margin significantly. <!--SR:!2026-01-04,165,445!2026-01-04,165,445-->
-  - revenue management / applications ::@:: car rental, dynamic pricing \(e.g. airplane tickets gets more expensive as flight time approaches\), media & broadcasting, price differentiation \(e.g. different classes\), retailing <!--SR:!2025-11-12,119,425!2026-01-11,172,448-->
+  - revenue management / applications ::@:: car rental, dynamic pricing \(e.g. airplane tickets gets more expensive as flight time approaches\), media & broadcasting, price differentiation \(e.g. different classes\), retailing <!--SR:!2027-10-01,688,445!2026-01-11,172,448-->
   - revenue management / key ::@:: Using demand, supply, and _analytics_ to perform _customer segmentation_ based on _time_ and _quality_. <!--SR:!2025-12-28,165,445!2026-01-05,166,448-->
   - revenue management / goal ::@:: To match supply with demand on a customer basis. <!--SR:!2026-01-05,166,448!2026-01-10,171,445-->
 - [Littlewood's rule](../../../../general/Littlewood's%20rule.md) ::@:: The earliest revenue management model is known as \(_this_\), developed by Ken Littlewood while working at British Overseas Airways Corporation. <!--SR:!2026-01-02,163,445!2025-12-23,158,448-->
@@ -864,7 +864,7 @@ The content is in teaching order.
   - bullwhip effect / solutions ::@:: collaborative planning, forecasting, replenishment, etc. <!--SR:!2026-01-04,165,448!2026-01-05,166,448-->
 - supply chain
   - supply chain / recent developments ::@:: AI, COVID-19 pandemic, automation, risk mitigation, US—China trade/tariffs, etc. <!--SR:!2026-01-05,166,448!2026-01-06,167,445-->
-    - supply chain / recent developments / COVID-19 pandemic ::@:: economic slowdown, increased delivery time, inflation, shortage of products <!--SR:!2026-01-03,171,448!2025-11-12,119,428-->
+    - supply chain / recent developments / COVID-19 pandemic ::@:: economic slowdown, increased delivery time, inflation, shortage of products <!--SR:!2026-01-03,171,448!2027-10-11,698,448-->
     - supply chain / recent developments / risk mitigation ::@:: Firms need to focus more on mitigation hidden risks. <p> regionalization \(produce closer\), single-sourcing to multi-sourcing, sustainability, tradeoff between efficiency \(cost\) and robustness \(risk\) <!--SR:!2026-01-09,170,448!2026-01-03,164,448-->
     - supply chain / recent developments / opportunities ::@:: Firms need contingency plan to deal with recent disruptions in supply chains. Thus there may be rich opportunities for risk management in supply chains. <!--SR:!2026-01-09,170,445!2026-01-04,165,448-->
     - supply chain / recent developments / tariffs ::@:: Tariffs by the second Trump administration and retaliation is impacting the global economy and financial markets. <p> It may lead to disorderly economic decoupling. Or not, instead lengthening supply chains and making it more complex and less visible, e.g. products going through intermediate countries, etc. <!--SR:!2026-01-01,162,445!2026-01-06,167,445-->

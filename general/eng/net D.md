@@ -32,7 +32,7 @@ tags:
 
 Legally speaking, net 30 means that {@{buyer will pay seller in full on or before the 30th calendar day \(including weekends and holidays\)}@} of {@{when the goods were dispatched by the seller or the services were fully provided}@}. {@{Transit time is included when counting the days}@}, i.e. a purchase in transit for 7 days before receipt has {@{just 23 additional days until payment is due to the seller}@}. Net 30 payment terms typically have {@{an interest penalty for not meeting these terms}@} and they {@{begin accruing on the 31st day after dispatch}@}. The same happens with net 60, but {@{60 days are given for payment}@}, interest penalties {@{begin on the 61st day}@} and thus a purchase in transit for 7 days has {@{now 53 days until payment is due to the seller}@}. <!--SR:!2025-11-25,243,330!2026-12-18,518,310!2025-12-27,267,330!2026-01-14,282,330!2027-04-25,633,330!2025-11-30,247,330!2025-11-19,238,330!2026-01-15,283,330!2026-01-13,281,330-->
 
-In {@{certain markets such as the United Kingdom}@}, a construction such as {@{"net 30, end of the month" or "Net Monthly Account"}@} indicates that {@{payment in full is expected by the end of the month following the month of the invoice}@}. <!--SR:!2025-11-12,232,330!2026-01-24,290,330!2026-01-06,276,330-->
+In {@{certain markets such as the United Kingdom}@}, a construction such as {@{"net 30, end of the month" or "Net Monthly Account"}@} indicates that {@{payment in full is expected by the end of the month following the month of the invoice}@}. <!--SR:!2028-09-30,1053,350!2026-01-24,290,330!2026-01-06,276,330-->
 
 ## see also
 

@@ -83,7 +83,7 @@ To {@{clearly distinguish the [market price](market%20value.md) of shares}@} fro
 
 ### net book value of long term assets
 
-Book value is often {@{used interchangeably with _net book value_ or _carrying value_}@}, which is {@{the original acquisition cost less accumulated [depreciation](depreciation.md), [depletion](depletion%20(accounting).md) or [amortization](amortization%20(accounting).md)}@}. Book value is the term which means {@{the value of the firm as per the books of the company}@}. It is the value {@{at which the assets are valued in the balance sheet of the company as on the given date}@}. <!--SR:!2026-01-07,276,330!2025-11-12,232,330!2028-09-08,1035,350!2027-06-03,661,330-->
+Book value is often {@{used interchangeably with _net book value_ or _carrying value_}@}, which is {@{the original acquisition cost less accumulated [depreciation](depreciation.md), [depletion](depletion%20(accounting).md) or [amortization](amortization%20(accounting).md)}@}. Book value is the term which means {@{the value of the firm as per the books of the company}@}. It is the value {@{at which the assets are valued in the balance sheet of the company as on the given date}@}. <!--SR:!2026-01-07,276,330!2028-10-01,1054,350!2028-09-08,1035,350!2027-06-03,661,330-->
 
 ## see also
 

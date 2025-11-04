@@ -29,7 +29,7 @@ tags:
 - quit application of window::@::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2026-08-28,640,190!2026-11-16,887,270-->
 - close dialog::@::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
 - toggle program on taskbar::@::⊞Win+(taskbar #) <!--SR:!2031-02-02,2126,290!2026-08-17,894,270-->
-- open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2027-03-25,610,230!2025-11-12,257,250-->
+- open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2027-03-25,610,230!2027-08-17,643,250-->
 - cycle taskbar::@::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2027-11-04,997,230!2026-06-30,570,210-->
 - peek at desktop::@::⊞Win+Comma <!--SR:!2027-11-01,1058,270!2031-06-02,2164,290-->
 - manage external displays::@::⊞Win+P <!--SR:!2027-08-05,1009,250!2029-04-01,1303,250-->

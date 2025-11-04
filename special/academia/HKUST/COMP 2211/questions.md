@@ -756,7 +756,7 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops. Hint: look at the `numpy.argmin` function.
 >
-> - solution: {@{`numpy.argmin(dists, axis=1)`, `numpy.argmin(dists, axis=-1)`}@} <!--SR:!2025-11-12,251,330-->
+> - solution: {@{`numpy.argmin(dists, axis=1)`, `numpy.argmin(dists, axis=-1)`}@} <!--SR:!2028-12-28,1142,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1383,7 +1383,7 @@ tags:
 
 > Q4. (medium) One of the problems with setting principles for AI is that the principles may conflict with each other. With regards to the collection of healthcare data, which 2 principles have a conflict?
 >
-> - solution: {@{__Autonomy__ and __beneficence__. The former says people should have control over their use of data, but people not agreeing to their data being used means healthcare models based on said healthcare data is less accurate, which harms the society.}@} <!--SR:!2025-11-12,251,330-->
+> - solution: {@{__Autonomy__ and __beneficence__. The former says people should have control over their use of data, but people not agreeing to their data being used means healthcare models based on said healthcare data is less accurate, which harms the society.}@} <!--SR:!2028-12-29,1143,350-->
 
 <!-- markdownlint MD028 -->
 

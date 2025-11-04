@@ -43,7 +43,7 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 
 > {@{![Plot of the number of divisors of integers from 1 to 1000. [Prime numbers](prime%20number.md) have exactly 2 divisors, and [highly composite numbers](highly%20composite%20number.md) are in bold.](../../archives/Wikimedia%20Commons/Highly%20composite%20numbers.svg)}@}
 >
-> Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-12-25,276,330!2026-12-10,516,310!2025-11-12,241,330!2028-09-26,1058,350-->
+> Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-12-25,276,330!2026-12-10,516,310!2028-11-14,1098,350!2028-09-26,1058,350-->
 
 - 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2025-11-19,247,330!2028-10-07,1066,350-->
 - The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3. <!--SR:!2025-12-12,265,330!2025-11-28,255,330-->

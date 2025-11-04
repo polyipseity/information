@@ -236,7 +236,7 @@ There is no {@{_natural_ interpretation of multiplying vectors to obtain another
 
 - [Cartesian coordinate robot](Cartesian%20coordinate%20robot.md)
 - [Horizontal and vertical](horizontal%20and%20vertical.md)
-- [Jones diagram](Jones%20diagram.md), ::@:: which plots four variables rather than two <!--SR:!2025-11-12,209,329!2026-04-24,344,349-->
+- [Jones diagram](Jones%20diagram.md), ::@:: which plots four variables rather than two <!--SR:!2028-06-20,951,349!2026-04-24,344,349-->
 - [Orthogonal coordinates](orthogonal%20coordinates.md)
 - [Polar coordinate system](polar%20coordinate%20system.md)
 - [Regular grid](regular%20grid.md)

@@ -15,7 +15,7 @@ tags:
 >
 > ![A demo for Kruskal's algorithm to find minimum spanning tree on a 2D plane.](../../archives/Wikimedia%20Commons/KruskalDemo.gif)
 >
-> {@{Animation of Kruskal's algorithm on a [complete graph](complete%20graph.md) with weights based on Euclidean distance}@} <!--SR:!2025-11-12,103,383-->
+> {@{Animation of Kruskal's algorithm on a [complete graph](complete%20graph.md) with weights based on Euclidean distance}@} <!--SR:!2027-05-11,545,403-->
 
 <!-- markdownlint MD028 -->
 
@@ -35,7 +35,7 @@ The algorithm performs the following steps:
 
 - Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2029-02-15,1203,350!2026-11-30,536,310-->
 - Sort ::@:: the graph edges by weight. <!--SR:!2025-12-08,294,330!2025-12-07,293,330-->
-- Loop through ::@:: the edges of the graph, in ascending sorted order by their weight. For each edge: <!--SR:!2027-11-02,807,330!2025-11-12,273,330-->
+- Loop through ::@:: the edges of the graph, in ascending sorted order by their weight. For each edge: <!--SR:!2027-11-02,807,330!2029-04-14,1249,350-->
   - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-12-09,294,330!2028-12-13,1153,350-->
   - If not, ::@:: add the edge to the forest, combining two trees into a single tree. <!--SR:!2029-03-14,1223,350!2029-04-02,1240,350-->
 
@@ -85,7 +85,7 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
 >             {@{F&nbsp;:= F ∪ { {u, v} }<!-- flashcard separator -->}@}
 >             {@{UNION(FIND-SET(u), FIND-SET(v))}@}
 >     {@{<b>return</b> F}@}
-> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2029-04-03,1239,350!2025-12-08,294,330!2025-12-01,287,330!2025-11-12,273,330!2029-01-05,1171,350!2025-11-27,284,330!2025-12-03,289,330-->
+> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2029-04-03,1239,350!2025-12-08,294,330!2025-12-01,287,330!2029-04-13,1248,350!2029-01-05,1171,350!2025-11-27,284,330!2025-12-03,289,330-->
 
 ## complexity
 

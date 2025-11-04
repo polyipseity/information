@@ -98,7 +98,7 @@ The income elasticity of demand allows businesses to {@{analyse and further pred
 
 {@{[Advertising elasticity of demand](advertising%20elasticity%20of%20demand.md)}@} measures {@{the effectiveness of an advertising campaign as to generate new sales}@}. To calculate the advertising elasticity of demand, {@{the percentage change in quantity demanded is divided by the percentage change in advertising expenditures}@}.<sup>[\[17\]](#^ref-17)</sup> {@{$$AED={\frac {\%\ {\text{change in quantity demanded} } }{\%\ {\text{change in spending on advertising} } } }={\frac {\Delta Q_{d}/Q_{d} }{\Delta A/A} }$$}@} <!--SR:!2026-01-24,345,349!2028-11-28,1151,350!2027-06-17,721,330!2028-12-08,1159,350-->
 
-A business utilises the advertising elasticity of demand to {@{measure the effectiveness of advertising on generating new sales}@}. A positive elasticity indicates {@{success for the advertisement as demand for the goods has increased}@}. However, this measurement is also subject to {@{the availability of substitutes, [consumer behaviours](consumer%20behaviour.md) and price points of the good being advertised}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-01-30,350,349!2025-11-12,282,330!2028-07-26,1049,349-->
+A business utilises the advertising elasticity of demand to {@{measure the effectiveness of advertising on generating new sales}@}. A positive elasticity indicates {@{success for the advertisement as demand for the goods has increased}@}. However, this measurement is also subject to {@{the availability of substitutes, [consumer behaviours](consumer%20behaviour.md) and price points of the good being advertised}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-01-30,350,349!2029-05-18,1283,350!2028-07-26,1049,349-->
 
 ## exceptions to the law of demand
 

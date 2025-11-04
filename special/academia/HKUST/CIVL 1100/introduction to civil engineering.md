@@ -461,7 +461,7 @@ testing materials
 - procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2027-07-08,836,301-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2026-12-04,557,255-->
-- safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2025-11-12,407,340-->
+- safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2031-02-03,1909,360-->
 - scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
 - surveying building site→::@::←testing materials <!--SR:!2027-05-31,687,260!2027-07-25,790,292-->
 - testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2028-02-19,1041,327-->
@@ -1094,7 +1094,7 @@ water tower
 
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
+- _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2032-09-15,2499,420-->
 - bridge→::@::←building <!--SR:!2027-01-09,715,350!2026-01-07,496,400-->
 - building→::@::←dam <!--SR:!2029-02-06,1371,381!2027-09-27,983,381-->
 - dam→::@::←power plant <!--SR:!2025-12-12,367,301!2028-05-20,1022,278-->

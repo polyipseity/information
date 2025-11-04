@@ -31,7 +31,7 @@ On {@{the short run}@}, the firm has {@{some costs that are fixed independently 
 
 > {@{![Long Run Marginal Cost](../../archives/Wikimedia%20Commons/Long%20run%20marginal%20cost.png)}@}
 >
-> {@{Long Run Marginal Cost (annotation: as an example only)}@} <!--SR:!2025-11-12,221,332!2026-03-01,315,352-->
+> {@{Long Run Marginal Cost (annotation: as an example only)}@} <!--SR:!2028-08-19,1011,352!2026-03-01,315,352-->
 
 {@{[The long run](long%20run%20and%20short%20run.md)}@} is defined as {@{the length of time in which no input is fixed}@}. {@{Everything, including building size and machinery}@}, can be {@{chosen optimally for the quantity of output that is desired}@}. As a result, even if {@{short-run marginal cost rises because of capacity constraints}@}, {@{long-run marginal cost can be constant}@}. Or, there may be {@{increasing or decreasing [returns to scale](returns%20to%20scale.md) if technological or management productivity changes with the quantity}@}. Or, there may be {@{both, as in the diagram at the right}@}, in which {@{the marginal cost first falls \(increasing returns to scale\) and then rises \(decreasing returns to scale\)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-05,318,352!2026-03-20,329,352!2026-03-03,317,352!2025-11-27,221,332!2026-04-02,339,352!2026-04-06,343,352!2026-02-20,308,352!2025-12-20,254,334!2026-03-09,321,352-->
 

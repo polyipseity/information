@@ -39,7 +39,7 @@ The overall reaction (noting that the elements are [ionized](ionization.md)) is:
 
 ### the p–p I branch
 
-The p–p I branch is: {@{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}@}. The complete chain releases {@{a net energy of 26.732 MeV}@} but {@{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}@}. The p–p I branch is dominant {@{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}@}, the p–p chain proceeds at slow rate, resulting in {@{a low production of <sup>4</sup>He}@}. <!--SR:!2026-04-03,295,210!2027-01-30,592,250!2026-01-28,341,250!2027-03-02,574,290!2025-11-12,339,290-->
+The p–p I branch is: {@{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}@}. The complete chain releases {@{a net energy of 26.732 MeV}@} but {@{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}@}. The p–p I branch is dominant {@{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}@}, the p–p chain proceeds at slow rate, resulting in {@{a low production of <sup>4</sup>He}@}. <!--SR:!2026-04-03,295,210!2027-01-30,592,250!2026-01-28,341,250!2027-03-02,574,290!2029-08-09,1366,310-->
 
 - p–p I branch / energy release ::@:: 12.859 MeV <!--SR:!2026-06-26,294,175!2028-09-13,1052,315-->
 

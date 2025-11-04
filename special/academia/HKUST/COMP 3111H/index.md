@@ -101,7 +101,7 @@ The content is in teaching order.
   - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc. <!--SR:!2025-12-14,66,310!2025-12-15,67,310-->
   - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!2025-12-12,64,310!2025-12-15,67,310-->
   - COMP 3111H / rules
-  - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing <!--SR:!2025-11-07,5,398!2025-11-07,5,398-->
+  - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing <!--SR:!2025-12-10,28,418!2025-12-10,28,418-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [questions § week 1 lecture](questions/index.md#week%201%20lecture)
 

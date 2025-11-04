@@ -443,7 +443,7 @@ The content is in teaching order.
   - share capital / accounting
     - share capital / accounting / issue ::@:: debit asset "Cash", credit equity "Common stock", credit equity "Additional paid-in capital" <!--SR:!2027-04-30,670,356!2026-09-09,518,403-->
     - share capital / accounting / repurchase ::@:: debit contra-equity "Treasury stock" (using cost), credit asset "Cash" <!--SR:!2026-03-10,358,376!2026-04-20,375,376-->
-    - share capital / accounting / reissue (after repurchase) ::@:: debit asset "Cash" (using actual received cash), credit contra-equity "Treasury stock" (using corresponding cost), credit or debit equity "Additional paid-in capital" (to balance the entry) <!--SR:!2026-10-01,536,403!2025-11-12,247,363-->
+    - share capital / accounting / reissue (after repurchase) ::@:: debit asset "Cash" (using actual received cash), credit contra-equity "Treasury stock" (using corresponding cost), credit or debit equity "Additional paid-in capital" (to balance the entry) <!--SR:!2026-10-01,536,403!2028-04-27,897,363-->
 
 ## week 10 lecture 2
 
