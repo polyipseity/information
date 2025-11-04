@@ -290,11 +290,11 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 {@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`‑expression}@}. <!--SR:!2026-01-09,59,310!2026-01-13,63,310!2026-01-16,65,310-->
 
-{@{Associativity}@} guarantee that {@{nested `for`-expressions can always be collapsed into a single `for`-expression}@}: <!--SR:!2026-01-12,62,310!2026-01-14,63,310-->
+{@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!2026-01-12,62,310!2026-01-14,63,310-->
 
 > [!example] __flatten `for`-expressions__
 >
-> {@{Associativity}@} guarantees that {@{nested `for`-expressions can always be flattened into a single `for`-expression}@}:
+> {@{Associativity}@} guarantees that {@{nested `for`-expressions}@} can {@{always be flattened into a single `for`-expression}@}:
 >
 > ```Scala
 > for {

@@ -67,7 +67,7 @@ The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$
 
 - see: [Lambert series](Lambert%20series.md)
 
-The _Lambert series_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {LG} (a_{n};x)=\sum _{n=1}^{\infty }a_{n}{\frac {x^{n} }{1-x^{n} } }\,.$$}@} Note that in a Lambert series {@{the index _n_ starts at 1, not at 0, as the first term would otherwise be undefined}@}. <!--SR:!2028-11-15,1162,350!2026-07-19,409,270!2029-08-23,1380,350-->
+The _Lambert series_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {LG} (a_{n};x)=\sum _{n=1}^{\infty }a_{n}{\frac {x^{n} }{1-x^{n} } }\,.$$}@} Note that in a Lambert series {@{the index _n_ starts at 1, not at 0}@}, as {@{the first term would otherwise be undefined}@}. <!--SR:!2028-11-15,1162,350!2026-07-19,409,270!2029-08-23,1380,350-->
 
 The Lambert series coefficients in the power series expansions {@{$$b_{n}:=[x^{n}]\operatorname {LG} (a_{n};x)$$ (where $[x^n]$ means extracting the coefficient of the indeterminate $x^n$) for integers _n_ ≥ 1}@} are {@{related by the [divisor sum](divisor%20sum%20identities.md) $$b_{n}=\sum _{d|n}a_{d}\,.$$}@} <!--SR:!2025-12-27,299,290!2027-07-08,705,290-->
 
@@ -401,9 +401,7 @@ As an observation, we may approach the question by {@{counting the number of way
 
 ### implicit generating functions and the Lagrange inversion formula
 
-One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@} <!--SR:!2028-04-12,961,330!2026-05-12,395,270!2028-04-07,957,330-->
-
-{@{The Lagrange Inversion Theorem}@} is {@{a tool used to explicitly evaluate solutions to such equations}@}. <!--SR:!2029-02-17,1237,350!2029-08-25,1382,350-->
+One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@} {@{The Lagrange Inversion Theorem}@} is {@{a tool used to explicitly evaluate solutions to such equations}@}. <!--SR:!2028-04-12,961,330!2026-05-12,395,270!2028-04-07,957,330!2029-02-17,1237,350!2029-08-25,1382,350-->
 
 > {@{__Lagrange Inversion Formula__}@} — Let {@{$\phi (z)\in C[[z]]$ be a formal power series with a non-zero constant term}@}. Then {@{the functional equation $$T(z)=z\phi (T(z))$$}@} admits {@{a unique solution in $T(z)\in C[[z]]$, which satisfies $$[z^{n}]T(z)=[z^{n-1}]{\frac {1}{n} }(\phi (z))^{n}$$ (annotation: the formula does _not_ imply $T(z) = \frac z n (\phi(z))^n$)}@} where the notation $[z^{n}]F(z)$ {@{returns the coefficient of $z^{n}$ in $F(z)$}@}. <!--SR:!2027-04-10,626,310!2027-06-07,682,290!2025-12-28,300,290!2026-04-08,194,210!2026-09-28,546,330-->
 
