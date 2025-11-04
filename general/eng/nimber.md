@@ -86,7 +86,7 @@ The following tables exhibit {@{addition and multiplication among the first 16 n
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD059 -->
 
-This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<sup>2<sup>_n_</sup></sup>}@}. \(If you prefer simple text tables, they are [here](https://en.wikipedia.org/w/index.php?title=Nimber&oldid=383699838).\) <!--SR:!2025-11-13,251,330!2026-02-16,328,345-->
+This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<sup>2<sup>_n_</sup></sup>}@}. \(If you prefer simple text tables, they are [here](https://en.wikipedia.org/w/index.php?title=Nimber&oldid=383699838).\) <!--SR:!2029-01-04,1148,350!2026-02-16,328,345-->
 
 <!-- markdownlint-restore -->
 

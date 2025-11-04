@@ -15,7 +15,7 @@ tags:
 
 > {@{![Supply and demand curves with economic equilibrium of price and quantity sold](../../archives/Wikimedia%20Commons/Supply-demand-equilibrium.svg)}@}
 >
-> {@{Supply and demand curves with [economic equilibrium](economic%20equilibrium.md) of price and quantity sold}@} <!--SR:!2029-01-03,1181,350!2025-11-13,285,330-->
+> {@{Supply and demand curves with [economic equilibrium](economic%20equilibrium.md) of price and quantity sold}@} <!--SR:!2029-01-03,1181,350!2029-06-08,1303,350-->
 
 <!-- markdownlint MD028 -->
 

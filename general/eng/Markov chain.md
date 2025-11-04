@@ -367,7 +367,7 @@ Markov models have also been used to {@{analyze web navigation behavior of users
 
 ### statistics
 
-{@{Markov chain methods}@} have also become very important for {@{generating sequences of random numbers}@} to {@{accurately reflect very complicated desired probability distributions}@}, via {@{a process called [Markov chain Monte Carlo](Markov%20chain%20Monte%20Carlo.md) \(MCMC\)}@}. In recent years this has revolutionized {@{the practicability of [Bayesian inference](Bayesian%20inference.md) methods}@}, allowing {@{a wide range of [posterior distributions](posterior%20probability.md) to be simulated}@} and {@{their parameters found numerically}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2026-04-20,395,367!2026-04-24,398,367!2026-04-10,388,367!2026-04-01,380,367!2026-04-14,390,367!2025-11-13,262,330!2026-01-22,319,341-->
+{@{Markov chain methods}@} have also become very important for {@{generating sequences of random numbers}@} to {@{accurately reflect very complicated desired probability distributions}@}, via {@{a process called [Markov chain Monte Carlo](Markov%20chain%20Monte%20Carlo.md) \(MCMC\)}@}. In recent years this has revolutionized {@{the practicability of [Bayesian inference](Bayesian%20inference.md) methods}@}, allowing {@{a wide range of [posterior distributions](posterior%20probability.md) to be simulated}@} and {@{their parameters found numerically}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2026-04-20,395,367!2026-04-24,398,367!2026-04-10,388,367!2026-04-01,380,367!2026-04-14,390,367!2029-02-19,1194,350!2026-01-22,319,341-->
 
 ### economics and finance
 

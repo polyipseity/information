@@ -57,7 +57,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}. <!--SR:!2026-01-12,62,310!2026-01-03,54,310!2026-01-15,64,310-->
 
-{@{The basic list API}@} exposes {@{three core methods}@}: \(annotation: 3 items: {@{`head`, `tail`, `isEmpty`}@}\) <!--SR:!2026-01-04,55,310!2026-01-08,58,310!2025-11-13,17,310-->
+{@{The basic list API}@} exposes {@{three core methods}@}: \(annotation: 3 items: {@{`head`, `tail`, `isEmpty`}@}\) <!--SR:!2026-01-04,55,310!2026-01-08,58,310!2026-01-24,72,330-->
 
 - `head`, ::@:: which returns the first element; <!--SR:!2026-01-05,56,310!2026-01-04,55,310-->
 - `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2026-01-14,63,310!2026-01-12,62,310-->
@@ -314,9 +314,9 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >       (new ::(x, more)) :: pack(rest)
 > ```
 >
-> In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2025-11-13,17,310!2025-11-13,17,310!2025-12-13,35,290!2025-11-13,17,310!2025-11-13,17,310-->
+> In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2026-01-26,74,330!2026-01-24,72,330!2025-12-13,35,290!2026-01-27,75,330!2026-01-25,73,330-->
 
-In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!2026-01-18,67,310!2026-01-14,63,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->
+In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!2026-01-18,67,310!2026-01-14,63,310!2026-01-22,70,330!2026-01-27,75,330!2026-01-28,76,330-->
 
 > [!example] __`pack` example__
 >
@@ -328,7 +328,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > ```
 <!--SR:!2026-01-09,59,310!2026-01-08,58,310-->
 
-As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-12-21,43,290!2026-01-18,67,310!2026-01-05,56,310!2026-01-09,59,310!2025-11-13,17,310-->
+As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-12-21,43,290!2026-01-18,67,310!2026-01-05,56,310!2026-01-09,59,310!2026-01-25,73,330-->
 
 ### reduce
 
@@ -354,7 +354,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 > ```
 <!--SR:!2026-01-13,63,310!2026-01-08,58,310-->
 
-{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-01-14,63,310!2026-01-17,66,310!2026-01-14,63,310!2026-01-04,55,310!2026-01-03,54,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->
+{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-01-14,63,310!2026-01-17,66,310!2026-01-14,63,310!2026-01-04,55,310!2026-01-03,54,310!2026-01-28,76,330!2026-01-23,71,330!2026-01-25,73,330!2026-01-23,71,330-->
 
 > [!example] __`foldLeft`__
 >
@@ -365,9 +365,9 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 > def product(xs: List[Int]) = xs.foldLeft(1)(_ * _)
 > def stringify(xs: List[Int]) = xs.foldLeft("")(_ + _.toString)  # `String` is not a subtype of `Int`
 > ```
-<!--SR:!2026-01-04,55,310!2026-01-05,56,310!2026-01-12,62,310!2026-01-15,64,310!2026-01-17,66,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310!2025-11-13,17,310-->
+<!--SR:!2026-01-04,55,310!2026-01-05,56,310!2026-01-12,62,310!2026-01-15,64,310!2026-01-17,66,310!2026-01-22,70,330!2026-01-28,76,330!2026-01-23,71,330!2026-01-24,72,330-->
 
-{@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}: <!--SR:!2026-01-04,55,310!2026-01-17,66,310!2025-11-13,17,310-->
+{@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}: <!--SR:!2026-01-04,55,310!2026-01-17,66,310!2026-01-28,76,330-->
 
 > [!example] __`reduceRight`, `foldRight`__
 >
@@ -377,7 +377,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 > def concat[T](xs: List[T], ys: List[T]): List[T] =
 >   xs.foldRight(ys)(_ :: _)
 > ```
-<!--SR:!2026-01-07,58,310!2026-01-10,60,310!2025-11-13,17,310-->
+<!--SR:!2026-01-07,58,310!2026-01-10,60,310!2026-01-27,75,330-->
 
 {@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!2026-01-04,55,310!2026-01-18,67,310!2026-01-11,61,310!2026-01-11,61,310!2026-01-08,58,310!2026-01-14,63,310!2026-01-15,64,310!2026-01-12,62,310-->
 
@@ -400,9 +400,9 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 >       case x :: xs  => xs.foldLeft(op(z, x))(op)
 > ```
 >
-> {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2025-11-13,17,310!2025-12-24,46,310!2025-11-13,17,310!2025-11-13,17,310-->
+> {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2026-01-22,70,330!2025-12-24,46,310!2026-01-26,74,330!2026-01-25,73,330-->
 
-{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2026-01-06,57,310!2026-01-06,57,310!2026-01-11,61,310!2025-11-13,17,310!2025-11-13,17,310-->
+{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2026-01-06,57,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-24,72,330!2026-01-26,74,330-->
 
 > [!example] __`foldLeft` example__
 >

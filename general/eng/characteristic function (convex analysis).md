@@ -24,7 +24,7 @@ Let {@{$X$ be a [set](set%20(mathematics).md), and let $A$ be a [subset](subset.
 Let {@{$\mathbf {1} _{A}:X\to \mathbb {R}$}@} denote {@{the usual indicator function: $$\mathbf {1} _{A}(x):={\begin{cases}1,&x\in A;\\0,&x\not \in A.\end{cases} }$$}@} If one adopts the conventions that (annotation: the conventions are {@{related to arithmetic operations and infinities}@}) <!--SR:!2026-01-04,283,330!2025-12-12,265,330!2025-11-28,255,330-->
 
 - (annotation: multiplication with positive infinity) ::@:: for any $a\in \mathbb {R} \cup \{+\infty \}$, $a+(+\infty )=+\infty$ and $a(+\infty )=+\infty$, except $0(+\infty )=0$; <!--SR:!2025-12-11,264,330!2026-01-14,291,330-->
-- (annotation: division by 0) ::@:: ${\frac {1}{0} }=+\infty$; and <!--SR:!2025-11-13,241,330!2025-12-07,261,330-->
+- (annotation: division by 0) ::@:: ${\frac {1}{0} }=+\infty$; and <!--SR:!2028-11-15,1098,350!2025-12-07,261,330-->
 - (annotation: division by positive infinity) ::@:: ${\frac {1}{+\infty } }=0$; <!--SR:!2027-09-25,749,330!2025-12-25,276,330-->
 
 then {@{the indicator and characteristic functions are related}@} by {@{the equations $$\mathbf {1} _{A}(x)={\frac {1}{1+\chi _{A}(x)} }$$ and $$\chi _{A}(x)=(+\infty )\left(1-\mathbf {1} _{A}(x)\right).$$}@} <!--SR:!2026-01-17,294,330!2028-02-24,864,330-->

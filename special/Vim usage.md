@@ -70,7 +70,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## edit
 
-- delete under cursor ::@:: <ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2029-05-14,1812,367!2025-11-13,762,328-->
+- delete under cursor ::@:: <ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2029-05-14,1812,367!2032-09-16,2499,328-->
 - delete from cursor to ([motion](#motion)) ::@:: d([motion](#motion)) <!--SR:!2027-08-21,1197,330!2027-08-28,1204,333-->
 - delete lines ::@:: \[[repeat N](#^repeatN)\]dd <!--SR:!2028-09-23,1610,353!2026-01-07,796,328-->
 - undo ::@:: \[[repeat N](#^repeatN)\]u <!--SR:!2028-12-13,1627,333!2031-11-11,2215,333-->

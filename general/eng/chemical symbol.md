@@ -21,7 +21,7 @@ __Chemical symbols__ are {@{abbreviations for [chemical substances](chemical%20s
 - {@{The [mass number](mass%20number.md)}@} is shown in {@{the left superscript position}@}. This specifies {@{the [isotope](isotope.md)}@}.
 - {@{The [atomic number](atomic%20number.md)}@} may be shown in {@{the left subscript position}@}.
 - {@{The state of [ionization](ionization.md) or an [excited state](excited%20state.md)}@} may be shown in {@{the right superscript position}@}.
-- {@{The number of atoms}@} may be shown in {@{the right subscript position}@}. It is implicitly {@{one}@} if omitted. <!--SR:!2026-09-07,852,290!2030-04-22,1969,330!2028-06-30,1496,350!2027-01-17,999,330!2025-11-13,659,310!2026-01-17,771,330!2027-02-14,1019,330!2026-10-23,936,330!2026-09-08,903,330!2027-04-10,1146,350-->
+- {@{The number of atoms}@} may be shown in {@{the right subscript position}@}. It is implicitly {@{one}@} if omitted. <!--SR:!2026-09-07,852,290!2030-04-22,1969,330!2028-06-30,1496,350!2027-01-17,999,330!2033-08-04,2821,330!2026-01-17,771,330!2027-02-14,1019,330!2026-10-23,936,330!2026-09-08,903,330!2027-04-10,1146,350-->
 
 ## references
 

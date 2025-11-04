@@ -49,7 +49,7 @@ We can {@{visualize [contours](contour%20line.md) of _f_}@} given by {@{_f_\(_x_
 
 Suppose we {@{walk along the contour line with _g_ = _c_}@}. We are interested in {@{finding points where _f_ almost does not change as we walk}@}, since {@{these points might be maxima}@}. <!--SR:!2026-03-28,287,330!2026-03-07,266,330!2026-01-26,240,330-->
 
-There are {@{two ways this could happen}@}: <!--SR:!2025-11-13,174,310-->
+There are {@{two ways this could happen}@}: <!--SR:!2027-12-02,749,330-->
 
 1. \(annotation: nonzero gradient\) ::@:: We could touch a contour line of _f_, since by definition _f_ does not change as we walk along its contour lines. This would mean that the tangents to the contour lines of _f_ and _g_ are parallel here. <!--SR:!2025-11-21,182,310!2025-11-30,179,310-->
 2. \(annotation: zero gradient\) ::@:: We have reached a "level" part of _f_, meaning that _f_ does not change in any direction. <!--SR:!2027-11-26,745,330!2027-11-27,745,330-->
@@ -200,7 +200,7 @@ In order to {@{solve this problem with a numerical optimization technique}@}, we
 
 First, we compute {@{the partial derivative of the unconstrained problem with respect to each variable}@}: {@{$${\begin{aligned}&{\frac {\partial {\mathcal {L} } }{\partial x} }=2x+2x\lambda \\[5pt]&{\frac {\partial {\mathcal {L} } }{\partial \lambda } }=x^{2}-1~.\end{aligned} }$$}@} If {@{the target function is not easily differentiable}@}, {@{the differential with respect to each variable}@} can be {@{approximated as $${\begin{aligned}{\frac {\ \partial {\mathcal {L} }\ }{\partial x} }\approx {\frac { {\mathcal {L} }(x+\varepsilon ,\lambda )-{\mathcal {L} }(x,\lambda )}{\varepsilon } },\\[5pt]{\frac {\ \partial {\mathcal {L} }\ }{\partial \lambda } }\approx {\frac { {\mathcal {L} }(x,\lambda +\varepsilon )-{\mathcal {L} }(x,\lambda )}{\varepsilon } },\end{aligned} }$$}@} where {@{$\varepsilon$ is a small value}@}. <!--SR:!2026-02-12,255,330!2027-04-18,555,310!2026-03-20,279,330!2026-04-04,294,330!2026-04-03,294,330!2026-02-04,248,330-->
 
-Next, we compute {@{the magnitude of the gradient}@}, which is {@{the square root of the sum of the squares of the partial derivatives}@}: {@{$${\begin{aligned}h(x,\lambda )&={\sqrt {(2x+2x\lambda )^{2}+(x^{2}-1)^{2}\ } }\\[4pt]&\approx {\sqrt {\left({\frac {\ {\mathcal {L} }(x+\varepsilon ,\lambda )-{\mathcal {L} }(x,\lambda )\ }{\varepsilon } }\right)^{2}+\left({\frac {\ {\mathcal {L} }(x,\lambda +\varepsilon )-{\mathcal {L} }(x,\lambda )\ }{\varepsilon } }\right)^{2}\ } }~.\end{aligned} }$$}@} \(Since {@{magnitude is always non-negative}@}, {@{optimizing over the squared-magnitude}@} is {@{equivalent to optimizing over the magnitude}@}. Thus, {@{the "square root" may be omitted from these equations with no expected difference in the results of optimization}@}.\) <!--SR:!2026-01-27,241,330!2026-03-11,270,330!2025-11-13,174,310!2026-02-02,246,330!2026-02-02,244,330!2026-03-08,268,330!2026-03-26,285,330-->
+Next, we compute {@{the magnitude of the gradient}@}, which is {@{the square root of the sum of the squares of the partial derivatives}@}: {@{$${\begin{aligned}h(x,\lambda )&={\sqrt {(2x+2x\lambda )^{2}+(x^{2}-1)^{2}\ } }\\[4pt]&\approx {\sqrt {\left({\frac {\ {\mathcal {L} }(x+\varepsilon ,\lambda )-{\mathcal {L} }(x,\lambda )\ }{\varepsilon } }\right)^{2}+\left({\frac {\ {\mathcal {L} }(x,\lambda +\varepsilon )-{\mathcal {L} }(x,\lambda )\ }{\varepsilon } }\right)^{2}\ } }~.\end{aligned} }$$}@} \(Since {@{magnitude is always non-negative}@}, {@{optimizing over the squared-magnitude}@} is {@{equivalent to optimizing over the magnitude}@}. Thus, {@{the "square root" may be omitted from these equations with no expected difference in the results of optimization}@}.\) <!--SR:!2026-01-27,241,330!2026-03-11,270,330!2027-11-30,747,330!2026-02-02,246,330!2026-02-02,244,330!2026-03-08,268,330!2026-03-26,285,330-->
 
 {@{The critical points of _h_}@} occur at {@{_x_ = 1 and _x_ = −1, just as in ${\mathcal {L} }~$}@}. Unlike {@{the critical points in ${\mathcal {L} }\,$}@}, however, the critical points in _h_ {@{occur at local minima}@}, so {@{numerical optimization techniques can be used to find them}@}. <!--SR:!2026-03-10,269,330!2026-02-12,255,330!2026-02-12,255,330!2026-02-17,257,330!2026-03-29,288,330-->
 
@@ -237,7 +237,7 @@ Considering {@{the PDE problems with constraints}@}, i.e., the study of {@{the p
 - [Gittins index](Gittins%20index.md)
 - [Karush–Kuhn–Tucker conditions](Karush–Kuhn–Tucker%20conditions.md): ::@:: generalization of the method of Lagrange multipliers <!--SR:!2027-11-08,729,330!2027-11-15,741,330-->
 - [Lagrange multipliers on Banach spaces](Lagrange%20multipliers%20on%20Banach%20spaces.md): ::@:: another generalization of the method of Lagrange multipliers <!--SR:!2026-02-12,255,330!2026-01-29,242,330-->
-- [Lagrange multiplier test](Lagrange%20multiplier%20test.md) ::@:: in maximum likelihood estimation <!--SR:!2025-11-13,174,310!2026-01-23,237,330-->
+- [Lagrange multiplier test](Lagrange%20multiplier%20test.md) ::@:: in maximum likelihood estimation <!--SR:!2027-12-01,748,330!2026-01-23,237,330-->
 - [Lagrangian relaxation](Lagrangian%20relaxation.md)
 
 ## references

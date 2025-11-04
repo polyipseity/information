@@ -979,7 +979,7 @@ tags:
 
 > Q5. Explain why activation functions have to be non-linear.
 >
-> - solution: {@{A MLP without activation functions is a linear transformation, so it can only separate linearly separable data. Activation functions are designed to make this not the case. However, if the activation function is linear, then the MLP is still a linear transformation, which defeats the purpose of activation functions. So they have to nonlinear for them to be useful in practice.}@} <!--SR:!2025-11-13,252,330-->
+> - solution: {@{A MLP without activation functions is a linear transformation, so it can only separate linearly separable data. Activation functions are designed to make this not the case. However, if the activation function is linear, then the MLP is still a linear transformation, which defeats the purpose of activation functions. So they have to nonlinear for them to be useful in practice.}@} <!--SR:!2029-01-06,1150,350-->
 
 <!-- markdownlint MD028 -->
 

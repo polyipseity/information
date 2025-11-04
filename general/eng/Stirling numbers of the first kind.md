@@ -41,7 +41,7 @@ These numbers can be calculated by {@{considering the orbits as [conjugancy clas
 
 ### signs
 
-{@{The signs of the signed Stirling numbers of the first kind}@} depend only on {@{the parity of _n_ − _k_. $$s(n,k)=(-1)^{n-k}\left[{n \atop k}\right].$$}@} <!--SR:!2029-05-14,1292,350!2025-11-13,295,330-->
+{@{The signs of the signed Stirling numbers of the first kind}@} depend only on {@{the parity of _n_ − _k_. $$s(n,k)=(-1)^{n-k}\left[{n \atop k}\right].$$}@} <!--SR:!2029-05-14,1292,350!2029-07-17,1342,350-->
 
 ## recurrence relation
 

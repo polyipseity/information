@@ -28,7 +28,7 @@ According to the second meaning, a permutation of a [set](set%20(mathematics).md
 
 {@{The collection of all permutations of a set}@} form {@{a [group](group%20(mathematics).md) called the [symmetric group](symmetric%20group.md) of the set}@}. {@{The group operation}@} is {@{the [composition](function%20composition.md) of functions (performing one rearrangement after the other), which results in another function (rearrangement)}@}. The properties of permutations do not {@{depend on the nature of the elements being permuted, only on their number}@}, so {@{one often considers the standard set $S=\{1,2,\ldots ,n\}$}@}. <!--SR:!2025-11-14,305,330!2029-08-17,1376,350!2025-11-16,307,330!2025-11-14,305,330!2025-11-20,311,330!2025-11-20,311,330-->
 
-In elementary combinatorics, {@{the ___k_-permutations__, or [partial permutations](partial%20permutation.md)}@}, are {@{the ordered arrangements of _k_ distinct elements selected from a set}@}. When {@{_k_ is equal to the size of the set}@}, these are {@{the permutations in the previous sense}@}. <!--SR:!2025-11-13,304,330!2025-11-21,312,330!2025-11-17,308,330!2025-11-14,305,330-->
+In elementary combinatorics, {@{the ___k_-permutations__, or [partial permutations](partial%20permutation.md)}@}, are {@{the ordered arrangements of _k_ distinct elements selected from a set}@}. When {@{_k_ is equal to the size of the set}@}, these are {@{the permutations in the previous sense}@}. <!--SR:!2029-08-29,1385,350!2025-11-21,312,330!2025-11-17,308,330!2025-11-14,305,330-->
 
 ## see also
 
