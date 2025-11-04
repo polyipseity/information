@@ -205,7 +205,7 @@ Most often, {@{the weights}@} used in implementations of Huffman coding represen
 
 ### length-limited Huffman coding/minimum variance Huffman coding
 
-{@{__Length-limited Huffman coding__}@} is {@{a variant where the goal is still to achieve a minimum weighted path length}@}, but {@{there is an additional restriction that the length of each codeword must be less than a given constant}@}. {@{The [package-merge algorithm](package-merge%20algorithm.md)}@} {@{solves this problem with a simple [greedy](greedy%20algorithm.md) approach very similar to that used by Huffman's algorithm}@}. Its time complexity is {@{$O(nL)$, where $L$ is the maximum length of a codeword}@}. No algorithm is {@{known to solve this problem in [$O(n)$ or $O(n\log n)$](big%20O%20notation.md#orders%20of%20common%20functions) time}@}, unlike {@{the presorted and unsorted conventional Huffman problems, respectively}@}.
+{@{__Length-limited Huffman coding__}@} is {@{a variant where the goal is still to achieve a minimum weighted path length}@}, but there is {@{an additional restriction that the length of each codeword must be less than a given constant}@}. {@{The [package-merge algorithm](package-merge%20algorithm.md)}@} {@{solves this problem with a simple [greedy](greedy%20algorithm.md) approach very similar to that used by Huffman's algorithm}@}. Its time complexity is {@{$O(nL)$, where $L$ is the maximum length of a codeword}@}. No algorithm is {@{known to solve this problem in [$O(n)$ or $O(n\log n)$](big%20O%20notation.md#orders%20of%20common%20functions) time}@}, unlike {@{the presorted and unsorted conventional Huffman problems, respectively}@}.
 
 ### Huffman coding with unequal letter costs
 

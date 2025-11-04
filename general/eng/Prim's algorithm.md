@@ -85,7 +85,7 @@ Let _P_ be {@{a connected, weighted [graph](graph%20theory.md)}@}. At {@{every i
 
 ## parallel algorithm
 
-> {@{![Distributed adjacency matrix as used by parallel version of the Prim algorithm.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Distributed_adjacency_matrix_for_parallel_prim.png/220px-Distributed_adjacency_matrix_for_parallel_prim.png)}@}
+> {@{![Distributed adjacency matrix as used by parallel version of the Prim algorithm.](../../archives/Wikimedia%20Commons/Distributed%20adjacency%20matrix%20for%20parallel%20prim.png)}@}
 >
 > {@{The adjacency matrix distributed between multiple processors for parallel Prim's algorithm}@}. In {@{each iteration of the algorithm}@}, {@{every processor updates its part of _C_}@} by {@{inspecting the row of the newly inserted vertex in its set of columns in the adjacency matrix}@}. The results are then {@{collected and the next vertex to include in the MST is selected globally}@}.
 

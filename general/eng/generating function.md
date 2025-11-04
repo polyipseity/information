@@ -67,7 +67,7 @@ The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$
 
 - see: [Lambert series](Lambert%20series.md)
 
-The _Lambert series_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {LG} (a_{n};x)=\sum _{n=1}^{\infty }a_{n}{\frac {x^{n} }{1-x^{n} } }\,.$$}@} Note that in a Lambert series {@{the index _n_ starts at 1, not at 0, as the first term would otherwise be undefined}@}.
+The _Lambert series_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {LG} (a_{n};x)=\sum _{n=1}^{\infty }a_{n}{\frac {x^{n} }{1-x^{n} } }\,.$$}@} Note that in a Lambert series {@{the index _n_ starts at 1, not at 0}@}, as {@{the first term would otherwise be undefined}@}.
 
 The Lambert series coefficients in the power series expansions {@{$$b_{n}:=[x^{n}]\operatorname {LG} (a_{n};x)$$ (where $[x^n]$ means extracting the coefficient of the indeterminate $x^n$) for integers _n_ ≥ 1}@} are {@{related by the [divisor sum](divisor%20sum%20identities.md) $$b_{n}=\sum _{d|n}a_{d}\,.$$}@}
 
@@ -401,9 +401,7 @@ As an observation, we may approach the question by {@{counting the number of way
 
 ### implicit generating functions and the Lagrange inversion formula
 
-One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@}
-
-{@{The Lagrange Inversion Theorem}@} is {@{a tool used to explicitly evaluate solutions to such equations}@}.
+One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@} {@{The Lagrange Inversion Theorem}@} is {@{a tool used to explicitly evaluate solutions to such equations}@}.
 
 > {@{__Lagrange Inversion Formula__}@} — Let {@{$\phi (z)\in C[[z]]$ be a formal power series with a non-zero constant term}@}. Then {@{the functional equation $$T(z)=z\phi (T(z))$$}@} admits {@{a unique solution in $T(z)\in C[[z]]$, which satisfies $$[z^{n}]T(z)=[z^{n-1}]{\frac {1}{n} }(\phi (z))^{n}$$ (annotation: the formula does _not_ imply $T(z) = \frac z n (\phi(z))^n$)}@} where the notation $[z^{n}]F(z)$ {@{returns the coefficient of $z^{n}$ in $F(z)$}@}.
 

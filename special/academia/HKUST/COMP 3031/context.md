@@ -204,11 +204,11 @@ More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_de
 
 ## `given`
 
-Scala 3 introduces {@{_given instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}:
+Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}:
 
 > [!example] __`Ordering.Int`__
 >
-> Scala 3 introduces {@{_given instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}:
+> Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}:
 >
 > ```Scala
 > object Ordering:
@@ -257,15 +257,15 @@ There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 
 - by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}`
 - by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given`
 
-Since {@{the actual names of given instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}.
+Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}.
 
 ### conditional `given`
 
-{@{A given instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields:
+{@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields:
 
 > [!example] __conditional `given`__
 >
-> {@{A given instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields:
+> {@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields:
 >
 > ```Scala
 > given listOrdering[A](using ord: Ordering[A]): Ordering[List[A]] with
@@ -316,27 +316,27 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 
 ## context inference
 
-When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the above example\)}@}, the compiler looks for {@{a _given instance_ that}@}: \(annotation: 2 items: {@{compatible, visible}@}\)
+When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the above example\)}@}, the compiler looks for {@{a _`given` instance_ that}@}: \(annotation: 2 items: {@{compatible, visible}@}\)
 
 - compatible ::@:: Has a compatible type.
 - visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`.
 
 If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\)
 
-- lexical scope ::@:: Visible given instances in the lexical scope, including inherited, imported and defined instances.
+- lexical scope ::@:: Visible `given` instances in the lexical scope, including inherited, imported and defined instances.
 - companion objects ::@:: Companion objects of `T`, its super‑classes, its type arguments, super-classes of its type arguments, etc.
 - enclosing objects ::@:: For inner classes, outer enclosing objects.
 
 {@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}.
 
-If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ when one of the following is satisfied}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\)
+If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ one}@}. {@{A candidate is _more specific_ than another}@} when {@{at least one of the following 4 items hold}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\)
 
-- specificity, lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or
-- specificity, hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass.
-- specificity, subtyping ::@:: A definition that has a type that is a subclass of the type of the other definition is more specific.
-- specificity, generic instance ::@:: A definition that has a type that is a generic instance \(e.g. `Type[Int]`\) of the type of the other definition \(e.g. `Type[T]` where `T` is generic\) is more specific.
+- specificity: lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or
+- specificity: hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass.
+- specificity: subtyping ::@:: A definition that has a type that is a subclass of the type of the other definition is more specific.
+- specificity: generic instance ::@:: A definition that has a type that is a generic instance \(e.g. `Type[Int]`\) of the type of the other definition \(e.g. `Type[T]` where `T` is generic\) is more specific.
 
-Thus you can provide {@{multiple givens}@} and rely on Scala's rules to pick {@{the appropriate one automatically}@}.
+Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {@{the appropriate one automatically}@}.
 
 ## type class
 

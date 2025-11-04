@@ -116,7 +116,7 @@ The raw moment of {@{a convolution $h(t)=(f*g)(t)=\int _{-\infty }^{\infty }f(\t
 
 - Main article: [Cumulant](cumulant.md)
 
-{@{The first raw moment and the second and third _unnormalized central_ moments are additive}@} in the sense that if {@{_X_ and _Y_ are [independent](independence%20(probability%20theory).md) random variables}@} then {@{$${\begin{aligned}m_{1}(X+Y)&=m_{1}(X)+m_{1}(Y)\\\operatorname {Var} (X+Y)&=\operatorname {Var} (X)+\operatorname {Var} (Y)\\\mu _{3}(X+Y)&=\mu _{3}(X)+\mu _{3}(Y)\end{aligned} }$$}@} \(These can also {@{hold for variables that satisfy weaker conditions than independence}@}. {@{The first always holds (annotation: i.e. _X_ and _Y_ can be _any_ random variables)}@}; if {@{the second holds, the variables are called [uncorrelated](correlation.md)}@}\).
+{@{The first raw moment and the second and third _unnormalized central_ moments are additive}@} in the sense that if {@{_X_ and _Y_ are [independent](independence%20(probability%20theory).md) random variables}@} then {@{$${\begin{aligned}m_{1}(X+Y)&=m_{1}(X)+m_{1}(Y)\\\operatorname {Var} (X+Y)&=\operatorname {Var} (X)+\operatorname {Var} (Y)\\\mu _{3}(X+Y)&=\mu _{3}(X)+\mu _{3}(Y)\end{aligned} }$$}@} \(These can also {@{hold for variables that satisfy weaker conditions than independence}@}. {@{The first}@} {@{always holds \(annotation: i.e. _X_ and _Y_ can be _any arbitrary_ random variables\)}@}; if {@{the second holds}@}, {@{the variables are called [uncorrelated](correlation.md)}@}\).
 
 In fact, these are {@{the first three cumulants}@} and {@{all cumulants share this additivity property}@}.
 
