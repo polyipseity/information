@@ -363,7 +363,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 > ```Scala
 > def sum(xs: List[Int]) = xs.foldLeft(0)(_ + _)
 > def product(xs: List[Int]) = xs.foldLeft(1)(_ * _)
-> def stringify(xs: List[Int]) = xs.foldLeft("")(_ + _.toString)  # `String` is not a subtype of `Int`
+> def stringify(xs: List[Int]) = xs.foldLeft("")(_ + _.toString)  // `String` is not a subtype of `Int`
 > ```
 <!--SR:!2026-01-04,55,310!2026-01-05,56,310!2026-01-12,62,310!2026-01-15,64,310!2026-01-17,66,310!2026-01-22,70,330!2026-01-28,76,330!2026-01-23,71,330!2026-01-24,72,330-->
 

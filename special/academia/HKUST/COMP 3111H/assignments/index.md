@@ -21,3 +21,5 @@ tags:
 <!-- - [lab 3](lab%203/index.md) -->
 <!-- - [lab 4](lab%204/index.md) -->
 - [lab 5](lab%205/index.md)
+- [lab 6](lab%206/index.md)
+- [lab 7](lab%207/index.md)

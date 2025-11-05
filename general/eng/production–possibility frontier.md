@@ -68,7 +68,7 @@ Production-Possibility Frontier delineates {@{the maximum amount/quantities of o
 
 Points that are unattainable can be {@{achieved through [external trade](international%20trade.md) and [economic growth](economic%20growth.md)}@}. Examples include {@{importations of resources and technology, and the increase in the production of goods and services}@}. <!--SR:!2029-10-10,1433,350!2028-02-03,923,330-->
 
-Specifically, at {@{all points on the frontier}@}, the economy achieves {@{[productive efficiency](productive%20efficiency.md): no more output of any good can be achieved from the given inputs without sacrificing output of some good}@}. <!--SR:!2028-07-30,1090,350!2029-07-05,1358,350-->
+Specifically, at {@{all points on the frontier}@}, the economy achieves {@{[productive efficiency](productive%20efficiency.md)}@}: {@{no more output of any good}@} can be {@{achieved from the given inputs without sacrificing output of some good}@}. <!--SR:!2028-07-30,1090,350!2029-07-05,1358,350-->
 
 {@{Some [productive efficient](productive%20efficiency.md) points}@} are {@{[Pareto efficient](pareto%20efficiency.md): impossible to find any trade that will make no consumer worse off}@}. {@{Pareto efficiency}@} is achieved when {@{the [marginal rate of transformation](#marginal%20rate%20of%20transformation) \(slope of the frontier/opportunity cost of goods\)}@} is equal to {@{all consumers' [marginal rate of substitution](marginal%20rate%20of%20substitution.md)}@}. <!--SR:!2027-02-27,616,310!2028-09-14,1040,330!2025-12-07,25,380!2025-12-06,24,380!2025-12-08,26,380-->
 
