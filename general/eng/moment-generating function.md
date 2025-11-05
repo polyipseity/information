@@ -58,7 +58,7 @@ Here are {@{some examples of the moment-generating function and the characterist
 
 > __flashcards__
 >
-> - [degenerate](degenerate%20distribution.md) $\delta _{a}$ ::@:: $M_X(t) = e^{ta}$, $\varphi_X(t) = e^{ita}$ <!--SR:!2025-11-15,235,330!2025-12-09,255,330-->
+> - [degenerate](degenerate%20distribution.md) $\delta _{a}$ ::@:: $M_X(t) = e^{ta}$, $\varphi_X(t) = e^{ita}$ <!--SR:!2028-10-18,1068,350!2025-12-09,255,330-->
 > - [Bernoulli](Bernoulli%20distribution.md) $P(X=1)=p$ ::@:: $M_X(t) = 1-p+pe^{t}$, $\varphi_X(t) = 1-p+pe^{it}$ <!--SR:!2026-01-12,280,330!2026-01-17,285,330-->
 > - [binomial](binomial%20distribution.md) $B(n,p)$ ::@:: $M_X(t) = \left(1-p+pe^{t}\right)^{n}$, $\varphi_X(t) = \left(1-p+pe^{it}\right)^{n}$ <!--SR:!2027-01-27,544,310!2028-01-21,840,330-->
 > - [Poisson](Poisson%20distribution.md) $\operatorname {Pois} (\lambda )$ ::@:: $M_X(t) = e^{\lambda (e^{t}-1)}$, $\varphi_X(t) = e^{\lambda (e^{it}-1)}$ <!--SR:!2026-02-18,236,270!2026-01-28,294,330-->
@@ -119,7 +119,7 @@ As an example, consider {@{$X\sim {\text{Chi-Squared} }$ with $k$ degrees of fre
 
 __[Characteristic function](characteristic%20function%20(probability%20theory).md)__
 
-&emsp; {@{The [characteristic function](characteristic%20function%20(probability%20theory).md) $\varphi _{X}(t)$}@} is {@{related to the moment-generating function via $\varphi _{X}(t)=M_{iX}(t)=M_{X}(it)$}@}: the characteristic function is {@{the moment-generating function of _iX_ or the moment generating function of _X_ evaluated on the imaginary axis}@}. This function can also be viewed as {@{the [Fourier transform](Fourier%20transform.md) of the [probability density function](probability%20density%20function.md)}@}, which can therefore {@{be deduced from it by inverse Fourier transform}@}. <!--SR:!2025-12-30,270,330!2027-12-18,818,330!2025-12-03,250,330!2026-01-23,290,330!2025-11-15,234,330-->
+&emsp; {@{The [characteristic function](characteristic%20function%20(probability%20theory).md) $\varphi _{X}(t)$}@} is {@{related to the moment-generating function via $\varphi _{X}(t)=M_{iX}(t)=M_{X}(it)$}@}: the characteristic function is {@{the moment-generating function of _iX_ or the moment generating function of _X_ evaluated on the imaginary axis}@}. This function can also be viewed as {@{the [Fourier transform](Fourier%20transform.md) of the [probability density function](probability%20density%20function.md)}@}, which can therefore {@{be deduced from it by inverse Fourier transform}@}. <!--SR:!2025-12-30,270,330!2027-12-18,818,330!2025-12-03,250,330!2026-01-23,290,330!2028-10-12,1062,350-->
 
 __[Cumulant-generating function](cumulant-generating%20function.md)__
 

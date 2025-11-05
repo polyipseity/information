@@ -45,7 +45,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2026-01-26,239,330!2026-05-29,347,350-->
   - materials requisition form / table
     - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2026-01-25,238,342!2026-02-20,264,342-->
-    - materials requisition form / table / row headers ::@:: material description, (materials...), total cost <!--SR:!2026-04-29,328,350!2025-11-15,182,310-->
+    - materials requisition form / table / row headers ::@:: material description, (materials...), total cost <!--SR:!2026-04-29,328,350!2028-01-05,781,330-->
 
 ## direct labor time ticket
 

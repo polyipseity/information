@@ -61,7 +61,7 @@ C$: [cost structure](#cost%20structure)
 
 - _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2029-01-20,1282,317!2028-05-07,1159,357-->
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2029-07-24,1433,314!2028-06-04,1008,297-->
-- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-11-15,166,254!2027-08-16,813,297-->
+- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2027-06-26,588,274!2027-08-16,813,297-->
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2026-12-04,394,214!2027-10-17,846,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2028-08-17,1093,277!2028-01-07,928,277-->
@@ -166,7 +166,7 @@ risk reduction
 - _(begin)_→::@::←accessibility <!--SR:!2028-05-27,1069,297!2028-11-02,1294,354-->
 - accessibility→::@::←brand or status <!--SR:!2028-01-05,926,274!2026-08-06,537,274-->
 - brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2028-04-23,948,254-->
-- convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2029-03-02,1213,277-->
+- convenience or usability→::@::←cost reduction <!--SR:!2029-12-29,1505,294!2029-03-02,1213,277-->
 - cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2026-11-14,469,197-->
 - customization→::@::←design <!--SR:!2028-03-14,915,277!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2027-08-08,822,277!2025-11-19,225,234-->

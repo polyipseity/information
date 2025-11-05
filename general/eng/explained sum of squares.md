@@ -31,7 +31,7 @@ In {@{some cases \(see below\)}@}: {@{[total sum of squares](total%20sum%20of%20
 
 ## partitioning in simple linear regression
 
-The following equality, stating that {@{the total sum of squares \(TSS\) equals the residual sum of squares \(=SSE: the sum of squared errors of prediction\) plus the explained sum of squares \(SSR: the sum of squares due to regression or explained sum of squares\)}@}, is {@{generally true in simple linear regression}@}: {@{$$\sum _{i=1}^{n}\left(y_{i}-{\bar {y} }\right)^{2}=\sum _{i=1}^{n}\left(y_{i}-{\hat {y} }_{i}\right)^{2}+\sum _{i=1}^{n}\left({\hat {y} }_{i}-{\bar {y} }\right)^{2}.$$}@} <!--SR:!2027-08-26,729,330!2025-12-20,276,330!2025-11-15,248,330-->
+The following equality, stating that {@{the total sum of squares \(TSS\) equals the residual sum of squares \(=SSE: the sum of squared errors of prediction\) plus the explained sum of squares \(SSR: the sum of squares due to regression or explained sum of squares\)}@}, is {@{generally true in simple linear regression}@}: {@{$$\sum _{i=1}^{n}\left(y_{i}-{\bar {y} }\right)^{2}=\sum _{i=1}^{n}\left(y_{i}-{\hat {y} }_{i}\right)^{2}+\sum _{i=1}^{n}\left({\hat {y} }_{i}-{\bar {y} }\right)^{2}.$$}@} <!--SR:!2027-08-26,729,330!2025-12-20,276,330!2028-12-21,1132,350-->
 
 ### simple derivation
 

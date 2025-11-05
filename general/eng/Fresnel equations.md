@@ -61,7 +61,7 @@ In {@{the diagram on the right}@}, {@{an incident [plane wave](plane%20wave.md) 
 
 > {@{![Power coefficients: air to glass](../../archives/Wikimedia%20Commons/Fresnel%20power%20air-to-glass.svg)}@}
 >
-> {@{Power coefficients: air to glass}@} <!--SR:!2025-11-15,125,290!2026-02-15,213,340-->
+> {@{Power coefficients: air to glass}@} <!--SR:!2027-03-29,499,310!2026-02-15,213,340-->
 
 <!-- markdownlint MD028 -->
 

@@ -67,7 +67,7 @@ Strongly connected components are also used to {@{compute the [Dulmage–Mendels
 
 ## related results
 
-{@{A directed graph is strongly connected}@} {@{if and only if it has an [ear decomposition](ear%20decomposition.md)}@}, {@{a partition of the edges into a sequence of directed paths and cycles}@} such {@{that the first subgraph in the sequence is a cycle}@}, and {@{each subsequent subgraph is either a cycle sharing one vertex with previous subgraphs, or a path sharing its two endpoints with previous subgraphs}@}. <!--SR:!2029-02-11,1194,357!2029-03-29,1232,357!2025-11-15,266,337!2026-09-11,484,317!2026-01-02,254,277-->
+{@{A directed graph is strongly connected}@} {@{if and only if it has an [ear decomposition](ear%20decomposition.md)}@}, {@{a partition of the edges into a sequence of directed paths and cycles}@} such {@{that the first subgraph in the sequence is a cycle}@}, and {@{each subsequent subgraph is either a cycle sharing one vertex with previous subgraphs, or a path sharing its two endpoints with previous subgraphs}@}. <!--SR:!2029-02-11,1194,357!2029-03-29,1232,357!2029-04-09,1241,357!2026-09-11,484,317!2026-01-02,254,277-->
 
 According to {@{[Robbins' theorem](Robbins'%20theorem.md)}@}, {@{an undirected graph}@} may be {@{[oriented](orientation%20(graph%20theory).md) in such a way that it becomes strongly connected}@}, {@{if and only if it is [2-edge-connected](k-edge-connected%20graph.md)}@}. {@{One way to prove this result}@} is to {@{find an ear decomposition of the underlying undirected graph and then orient each ear consistently}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2027-10-05,793,337!2025-12-29,301,337!2028-01-26,867,337!2027-07-31,739,337!2028-02-06,876,337!2026-05-18,381,297-->
 

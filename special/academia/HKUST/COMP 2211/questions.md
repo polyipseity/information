@@ -795,7 +795,7 @@ tags:
 > 4. Customer segmentation
 >
 > - solution: {@{4}@}
-> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2025-11-15,254,330!2026-01-01,290,330-->
+> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2029-01-16,1158,350!2026-01-01,290,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -847,7 +847,7 @@ tags:
 > 4. Every parameter must be updated during an epoch.
 >
 > - solution: {@{1}@}
-> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2025-11-15,254,330!2025-12-26,285,330-->
+> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2029-01-15,1157,350!2025-12-26,285,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1298,7 +1298,7 @@ tags:
 > 4. The higher the dropout rate, the better the model performance.
 >
 > - solution: {@{3, 4}@}
-> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2028-09-02,1047,350!2025-11-15,253,330-->
+> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2028-09-02,1047,350!2029-01-13,1155,350-->
 
 ## minimax & alpha–beta pruning
 

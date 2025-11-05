@@ -16,7 +16,7 @@ Substitute goods are {@{commodity which the consumer demanded to be used in plac
 Economic theory describes {@{two goods as being close substitutes if three conditions hold}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-24,290,330-->
 
 1. products have the same or similar performance ::@:: characteristics <!--SR:!2028-08-25,1073,350!2029-03-27,1241,350-->
-2. products have the same or similar occasion ::@:: for use and <!--SR:!2028-12-13,1160,350!2025-11-15,282,330-->
+2. products have the same or similar occasion ::@:: for use and <!--SR:!2028-12-13,1160,350!2029-05-25,1287,350-->
 3. products are sold in ::@:: the same geographic area <!--SR:!2028-09-14,1088,350!2028-12-03,1153,350-->
 
 > {@{![Figure 1: If the price of x_i increases, then demand for x_j increases](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20substitutes%20xi%20xj.svg)}@}

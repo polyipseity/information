@@ -54,7 +54,7 @@ Similarly, {@{any set with four elements can be given two non-isomorphic group s
 
 7. For {@{technical reasons}@}, {@{the category __Ban__<sub>1</sub> of [Banach spaces](Banach%20spaces.md) and [linear contractions](contraction%20(operator%20theory).md)}@} is often {@{equipped not with the "obvious" forgetful functor}@} but {@{the functor _U_<sub>1</sub> : __Ban__<sub>1</sub> → __Set__ which maps a Banach space to its \(closed\) [unit ball](unit%20ball.md)}@}. <!--SR:!2026-03-16,335,344!2026-04-25,342,304!2026-03-23,340,344!2026-09-27,455,310-->
 
-8. {@{The category __Cat__ whose objects are small categories and whose morphisms are functors}@} can be {@{made concrete by sending}@} {@{each category __C__ to the set containing its objects and morphisms}@}. Functors can be {@{simply viewed as functions acting on the objects and morphisms}@}. <!--SR:!2027-05-06,645,330!2026-01-07,277,330!2025-11-15,235,330!2026-03-25,342,344-->
+8. {@{The category __Cat__ whose objects are small categories and whose morphisms are functors}@} can be {@{made concrete by sending}@} {@{each category __C__ to the set containing its objects and morphisms}@}. Functors can be {@{simply viewed as functions acting on the objects and morphisms}@}. <!--SR:!2027-05-06,645,330!2026-01-07,277,330!2028-10-19,1069,350!2026-03-25,342,344-->
 
 ## counter-examples
 

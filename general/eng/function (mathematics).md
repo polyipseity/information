@@ -96,7 +96,7 @@ A function is formed by {@{three sets, the _domain_ $X$, the _codomain_ $Y$, and
 
 - Main article: [Partial function](partial%20function.md)
 
-{@{Partial functions}@} are defined {@{similarly to ordinary functions, with the "total" condition removed}@}. That is, {@{a _partial function_ from _X_ to _Y_}@} is {@{a binary relation _R_ between _X_ and _Y_ such that, for every $x\in X$, there is _at most one_ _y_ in _Y_ such that $(x,y)\in R$}@}. <!--SR:!2026-05-11,353,350!2026-03-18,316,350!2025-12-17,239,330!2025-11-15,214,330-->
+{@{Partial functions}@} are defined {@{similarly to ordinary functions, with the "total" condition removed}@}. That is, {@{a _partial function_ from _X_ to _Y_}@} is {@{a binary relation _R_ between _X_ and _Y_ such that, for every $x\in X$, there is _at most one_ _y_ in _Y_ such that $(x,y)\in R$}@}. <!--SR:!2026-05-11,353,350!2026-03-18,316,350!2025-12-17,239,330!2028-07-14,972,350-->
 
 Using {@{functional notation}@}, this means that, {@{given $x\in X$, either $f(x)$ is in _Y_, or it is undefined}@}. <!--SR:!2026-04-29,342,350!2026-04-14,327,350-->
 
@@ -451,7 +451,7 @@ Function spaces play {@{a fundamental role in advanced mathematical analysis}@},
 
 > {@{![Together, the two square roots of all nonnegative real numbers form a single smooth curve.](../../archives/Wikimedia%20Commons/Function%20with%20two%20values%201.svg)}@}
 >
-> Together, {@{the two square roots of all nonnegative real numbers}@} {@{form a single smooth curve}@}. <!--SR:!2026-04-11,323,350!2026-06-25,398,365!2025-11-15,211,330-->
+> Together, {@{the two square roots of all nonnegative real numbers}@} {@{form a single smooth curve}@}. <!--SR:!2026-04-11,323,350!2026-06-25,398,365!2028-07-02,960,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -491,7 +491,7 @@ Except for {@{computer-language terminology}@}, "function" has {@{the usual math
 - [successor](successor%20function.md), and
 - [projection](projection%20function.md) functions
 
-\(annotation: {@{general recursive functions}@}\) via {@{the operators}@} \(annotation: 3 items: {@{composition, primitive recursion, minimization}@}\) <!--SR:!2027-05-23,583,327!2025-11-16,25,392!2025-11-15,24,392-->
+\(annotation: {@{general recursive functions}@}\) via {@{the operators}@} \(annotation: 3 items: {@{composition, primitive recursion, minimization}@}\) <!--SR:!2027-05-23,583,327!2025-11-16,25,392!2026-03-27,132,412-->
 
 - [composition](#function%20composition),
 - [primitive recursion](primitive%20recursion.md), and
