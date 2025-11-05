@@ -1,0 +1,74 @@
+assignment:
+  comments: {}
+  content: 'Submit the URL of your team repo for assessment
+
+
+
+    Only one group member need to submit the team repo URL
+
+
+
+    Criteria of assessment for the team repo:
+
+
+
+
+
+
+
+
+
+    Must be a private repository;
+
+
+
+    Must have invited all team members and the following TA(s) as collaborator;
+
+
+
+    Must contain an audit record showing that every team member had already made at
+    least one pull request (the “Trivial PR”) and approved it;
+
+
+
+    Must display the content of README.md showing the Team ID, members’ contact information
+    (name, email ID, GitHub ID), and individual task assignment
+
+
+
+
+
+
+
+
+
+
+
+
+    Please Invite following TA as a collaborator to your GitHub Repositorey
+
+
+    [redacted]'
+  grade:
+    entered: 2
+    graded anonymously: false
+    possible: 2
+  id: 396407
+  properties:
+    allowed attempts: 5
+    attempts: 1
+    available:
+      end: 2025-10-17 23:59:00+08:00
+      start: 2025-10-08 00:00:00+08:00
+    due: 2025-10-17 23:59:00+08:00
+    points: 2
+    submitting:
+    - a text entry box or a website url
+  submissions:
+  - datetime: 2025-10-17 13:23:00+08:00
+    id: -1
+  title: Lab 5 Submission
+course:
+  id: 64514
+  name: COMP3111/H
+type: submission/Canvas/canvas.ust.hk
