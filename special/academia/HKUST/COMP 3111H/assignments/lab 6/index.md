@@ -23,7 +23,7 @@ tags:
 
 ---
 
-Submit the source file "main.java" that you have fixed through Canvas \(file upload\), with a comment block describing __WHERE__ the bug is, __WHY__ it generates error, and __HOW__ it has been fixed.  
+Submit the source file "main.java" that you have fixed through Canvas \(file upload\), with a comment block describing __WHERE__ the bug is, __WHY__ it generates error, and __HOW__ it has been fixed.
 
 Be reminded that the modified code also needs to be provided.
 

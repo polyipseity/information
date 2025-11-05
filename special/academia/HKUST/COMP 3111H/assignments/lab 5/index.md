@@ -15,7 +15,7 @@ tags:
 
 ---
 
-- title: Lab 5 submission
+- title: Lab 5 Submission
 - due: 2025-10-17T23:59:59+08:00
 - points: 2
 - submitting: text entry box, website url

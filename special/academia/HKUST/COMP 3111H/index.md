@@ -34,6 +34,7 @@ The content is in teaching order.
 
 ## children
 
+- [UML](UML.md)
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
@@ -185,6 +186,20 @@ The content is in teaching order.
 
 - datetime: 2025-09-10T12:30:00+08:00/2025-09-10T14:20:00+08:00, PT1H50M
 - topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
+- [UML](UML.md)
+  - [§ common mistakes](UML.md#common%20mistakes)
+  - [§ common mistakes: bad name](UML.md#common%20mistakes%20bad%20name)
+  - [§ common mistakes: "has" relation](UML.md#common%20mistakes%20"has"%20relation)
+  - [§ common mistakes: ER model](UML.md#common%20mistakes%20ER%20model)
+  - [§ common mistakes: unary association roles](UML.md#common%20mistakes%20unary%20association%20roles)
+  - [§ common mistakes: implementation details](UML.md#common%20mistakes%20implementation%20details)
+  - [§ common mistakes: association class](UML.md#common%20mistakes%20association%20class)
+  - [§ common mistakes: uniqueness of names](UML.md#common%20mistakes%20uniqueness%20of%20names)
+  - [§ common mistakes: XOR associations](UML.md#common%20mistakes%20XOR%20associations)
+  - [§ common mistakes: operations as associations](UML.md#common%20mistakes%20operations%20as%20associations)
+  - [§ common mistakes: redundant associations](UML.md#common%20mistakes%20redundant%20associations)
+  - [§ common mistakes: real world knowledge](UML.md#common%20mistakes%20real%20world%20knowledge)
+  - [§ common mistakes: misusing modeling elements](UML.md#common%20mistakes%20misusing%20modeling%20elements)
 - [§ week 2 pre-lecture](#week%202%20pre-lecture)
 - [questions § week 2 lecture](questions/index.md#week%202%20lecture)
 
@@ -386,8 +401,16 @@ The content is in teaching order.
 ## week 3 lecture
 
 - datetime: 2025-09-17T12:30:00+08:00/2025-09-17T14:20:00+08:00, PT1H50M
-- topic: software development; project risks; project planning; software development process; agile; unified process
-- [§ week 3 pre-lecture](#week%203%20pre-lecture)
+- topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
+- [UML](UML.md)
+  - [§ common mistakes: modeling out-of-scope entities](UML.md#common%20mistakes%20modeling%20out-of-scope%20entities)
+  - [§ common mistakes: not using notes](UML.md#common%20mistakes%20not%20using%20notes)
+  - [§ common mistakes: multiple links between the same pair of objects](UML.md#common%20mistakes%20multiple%20links%20between%20the%20same%20pair%20of%20objects)
+  - [§ common mistakes: generalization and multiplicity](UML.md#common%20mistakes%20generalization%20and%20multiplicity)
+  - [§ common mistakes: missing generalization coverage](UML.md#common%20mistakes%20missing%20generalization%20coverage)
+  - [§ common mistakes: missing association constraints](UML.md#common%20mistakes%20missing%20association%20constraints)
+  - [§ common mistakes: not using specialized associations](UML.md#common%20mistakes%20not%20using%20specialized%20associations)
+- [§ week 2 pre-lecture](#week%202%20pre-lecture)
 - [questions § week 3 lecture](questions/index.md#week%203%20lecture)
 
 ## week 3 lab
@@ -746,8 +769,13 @@ The content is in teaching order.
 ## week 6 lecture
 
 - datetime: 2025-10-08T12:30:00+08:00/2025-10-08T14:20:00+08:00, PT1H50M
-- topic:
-- [§ week 6 pre-lecture](#week%206%20pre-lecture)
+- topic: software development; project risks; project planning; software development process; agile; unified process; requirements capture; domain model; modeling classes; modeling associations; modeling attributes; use case model; actor; use case diagram
+- [UML](UML.md)
+  - [§ common mistakes](UML.md#common%20mistakes)
+  - [§ common mistakes: use case scope](UML.md#common%20mistakes%20use%20case%20scope)
+  - [§ common mistakes: misusing use case generalization](UML.md#common%20mistakes%20misusing%20use%20case%20generalization)
+- [§ week 3 pre-lecture](#week%203%20pre-lecture)
+- [§ week 4 pre-lecture](#week%204%20pre-lecture)
 - [questions § week 6 lecture](questions/index.md#week%206%20lecture)
 
 ## week 6 lab
@@ -770,6 +798,299 @@ The content is in teaching order.
     - COMP 3111H / lab 5 / GitHub wiki ::@:: Use the repository Wiki to maintain design docs, setup guides, or any shared knowledge that evolves during the course.
     - COMP 3111H / lab 5 / GitHub Actions ::@:: Configure actions in `.github/workflows/`, e.g. run tests on every PR (`push` and `pull_request`), auto‑deploy a staging environment after merging into `main`, etc. Actions keep code quality high by catching bugs before they hit the main branch.
 - assignment: [lab 5](assignments/lab%205/index.md)
+
+## week 7 pre-lecture
+
+- topic: testing; test design; basis path testing
+- __Course objectives__
+  - Grasp why testing is essential for software quality.
+  - Identify three fundamental test case types (equivalence, boundary, random) and how to generate them.
+  - Understand component‑level vs system‑level testing principles.
+  - Learn practical strategies for designing unit, integration, and system tests.
+- unified process
+  - unified process / testing ::@:: Testing happens throughout the 4 phases of UP: inception → elaboration → construction → transition. <p> It is more emphasized during the middle two phases: elaboration and construction.
+    - unified process / testing / inception ::@:: Set up initial test strategy; focus on early architecture validation.
+    - unified process / testing / elaboration ::@:: Run executable architectural baseline tests to confirm core design choices.
+    - unified process / testing / construction ::@:: Perform heavy _integration/system testing_ for each incremental build.
+    - unified process / testing / transition ::@:: Emphasize _defect correction_ and _regression testing_; reuse existing cases as regressions.
+    - unified process / testing / test cases ::@:: Remove obsolete test cases. Refine some test cases into regression test cases. Add new test cases for each new build.
+- [software testing](../../../../general/software%20testing.md) ::@:: It is the act of checking whether software satisfies expectations.
+  - software testing / failures ::@:: Skipping testing can lead to \(catastrophic\) failures: Mars polar lander crash, Vancouver Stock Exchange, rocket self-destruct, etc.
+    - software testing / failures / rocket self‑destruct ::@:: Ariane 5 rocket: 16‑bit conversion error, disabled exception handler, crashed program, exploded rocket → 1 billion USD loss
+    - software testing / failures / Mars polar lander crash ::@:: sensor logic bug caused premature engine shutdown 130 feet above the surface → 120 million USD loss
+    - software testing / failures / Vancouver Stock Exchange ::@:: truncation instead of rounding led to a drastic index drop in the long-term due to repeated truncation; illustrates subtle software bugs can have huge economic impact
+  - software testing / goals ::@:: Find discrepancies between _expected_ and _actual_ behaviour, e.g. finding bugs. <p> There are 2 aspects: _validation_ and _verification_.
+    - software testing / goals / validation ::@:: Does the product meet user requirements? Perform _acceptance tests_.
+    - software testing / goals / verification ::@:: Is the implementation correct? Most _unit/integration tests_ focus here.
+  - software testing / non-goals ::@:: It cannot show the _absence_ of software errors, e.g. ensuring no bugs.
+  - software testing / constraints ::@:: Exhaustive testing is infeasible; sometimes, a trillion runs would be required for a small example. <p> Further, testing is inherently destructive – you deliberately try to make the system fail, but developers often lack incentive to test their own code because they do not want to make it fail.
+  - software testing / planning ::@:: It consists of a _testing strategy_ \(what? how? coverage?\), _schedule_ \(when\), and resource estimate \(human, system, etc.\).
+    - software testing / planning / goals ::@:: Without planning, attempting all inputs (e.g., $1 \le x,y,z \le 10\,000$) is impossible. A well‑designed test suite balances _coverage_ against _cost_. It should be _small enough_ to _finish quickly_, but also _large enough_ to properly _validate and verify_ the software. <!-- Up to 40% of project effort can be spent on testing; planning saves time and money. -->
+  - software testing / input partitioning ::@:: An important aspect of test planning is to partition all possible valid and invalid inputs. 3 important concepts: _ideal partitioning_, _execution equivalence_, and _revealing subdomains_.
+    - software testing / input partitioning / ideal partitioning ::@:: Split inputs into equivalence classes where the program has the _same behavior_. <p> However, this requires a precise definition of "_same behavior_" to be translated into practice.
+    - software testing / input partitioning / execution equivalence ::@:: A _naive_ definition of "_same behavior_". Inputs are equivalent if the program _takes the same sequence of steps_. <p> However, it is highly dependent on the actual implementation \(as we are considering the _steps_ a program takes\), which may be buggy itself.
+    - software testing / input partitioning / revealing subdomains ::@:: A _better_ definition of "_same behavior_". Inputs are equivalent if the program _either_ runs correctly _or_ incorrectly on all of them. <p> A _subdomain_ is a _subset_ of the set of all possible inputs. It is _revealing_ for a particular error _E_ if inputs in the subdomain are equivalent \(using the above definition\) and if the program has error _E_, it is revealed by testing. <p> This improves upon _execution equivalence_ by relying _less_ on the actual implementation.
+    - software testing / input partitioning / heuristics ::@:: Use _program‑dependent_ information (compiler diagnostics, control flow, data structures). Combine with _program‑independent_ cues (algorithms, domain knowledge, specifications). _Multiple heuristics_ are combined in practice, e.g. mixing execution equivalence and revealing subdomains. <p> A good heuristic yields _few subdomains_ yet _high probability_ of revealing errors \(in some class of errors _E_\).
+- [test case](../../../../general/test%20case%20(software).md) ::@:: It is a specification of the inputs, execution conditions, testing procedure, and expected results that define a single test to be executed to achieve a particular software testing objective, such as to exercise a particular program path or to verify compliance with a specific requirement.
+  - test case / properties ::@:: what to test, what conditions, how to test, expected result
+  - test case / simple definition ::@:: It is one way to test the system: <p> 1. Select input data or configuration. <br/> 2. Specify the expected outcome (including error codes). <br/> 3. Execute and record actual result. <br/> 4. Compare against expectation.
+  - test case / taxonomy ::@:: black-box testing, regression testing \(mix\), white-box testing
+    - test case / taxonomy / white-box ::@:: "_Testing-in-the-small_": Uses internal knowledge; verifies component logic, requires source code.
+    - test case / taxonomy / black-box ::@:: "_Testing-in-the-large_": Tests based on specification; no source access needed.
+    - test case / taxonomy / regression ::@:: Re‑tests after _changes_ to ensure _no new defects appear_; mixes white and black box techniques.
+  - test case / documentation ::@:: recommended fields: name, description → target component, target operation → test type, test value\(s\) → verification \(expected result\), notes on verification <p> It takes a lot of time and effort to generate these information!!
+    - test case / documentation / test type ::@:: black/white box; valid/invalid input/output; etc.
+- [white-box testing](../../../../general/white-box%20testing.md) ::@:: It is a method of software testing that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing).
+  - white-box testing / strategies ::@:: basis path testing, condition testing, data-flow testing, loop testing, etc.
+    - white-box testing / strategies / basis path testing ::@:: Cover every _independent path_ at least once.
+    - white-box testing / strategies / condition testing ::@:: Exercise each _decision_'s true/false branches.
+    - white-box testing / strategies / loop testing ::@:: Hit loop _boundaries_ \(e.g. starting values, ending values\) and _interior_ iterations.
+    - white-box testing / strategies / data‑flow testing ::@:: Ensure all internal data structures are validated.
+- [basis path testing](../../../../general/basis%20path%20testing.md) ::@:: It is a white box method for designing test cases. The method analyzes the control-flow graph of a program to find a set of linearly independent paths of execution.
+  - basis path testing / motivation ::@:: Running every statement is insufficient. Some errors only appear when a particular branch is _not taken_.
+  - basis path testing / steps ::@:: 1. Draw the _statement graph_: a node for each statement \(_short-circuiting operators_ are considered multiple statements\), edges for control flow. Label "T" \(true\) and "F" \(false\) for branching. <br/> 2. Draw the _flow graph_: collapse blocks of consecutive statements that are always executed together. <br/> 3. Compute _cyclomatic complexity_ $V(G)$ via any of formulas below. <br/> 4. Identify a _basis set_ consisting of _at most_ $V(G)$ _independent paths_; the basis paths should traverse all _edges_ \(not all _nodes_\), and each path must traverse at least _one new edge_. <br/> 5. Create test cases that exercise each path; guarantee every statement runs at least once.
+- [control-flow graph](../../../../general/control-flow%20graph.md) \(CFG\) ::@:: It is a representation, using graph notation, of all paths that might be traversed through a function during its execution
+  - control-flow graph / definition ::@:: It is the directed graph of the basic blocks of the function (the nodes of the graph) and the control flow between them (the edges of the graph).
+  - control-flow graph / basic block ::@:: It is a straight-line code sequence with no branches in except to the entry and no branches out except at the exit.
+  - control-flow graph / construction ::@:: First, draw the _statement graph_ _line-by-line_, including _starting_ and _ending_ statements. Use _statement number_. Label "T" \(true\) and "F" \(false\) for branching. Note _short-circuiting operators_ are considered _separate statements_ even if they appear in line. <p> Then, collapse blocks of consecutive statements that are always executed together. These blocks are _basic blocks_. Reassign _flow graph number_. Still label "T" \(true\) and "F" \(false\) for branching. Also, add a _flow graph number_ to _statement number_ mapping \(__this course__: __important__\).
+- [cyclomatic complexity](../../../../general/cyclomatic%20complexity.md) ::@:: It is a software metric used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code. It was developed by Thomas J. McCabe, Sr. in 1976.
+  - cyclomatic complexity / basis set ::@:: It consists of _at most_ $V(G)$ _independent paths_; the basis paths should traverse all _edges_ \(not all _nodes_\), and each path must traverse at least _one new edge_. <p> It is _not unique_. It is the _minimum_ number of test cases required. <p> \(__this course__: When writing a independent path, use _statement number_, not _flow graph number_.\)
+  - cyclomatic complexity / formulas ::@:: edges & nodes, decision points, regions
+    - cyclomatic complexity / formulas / edges & nodes ::@:: $$E - N + 2P\,,$$ where $E$ is the number of edges, $N$ is the number of nodes, and $P$ is the number of connected components \(CCs\). <p> For a single program \(1 CC\), it simplifies to $E - N + 2$.
+    - cyclomatic complexity / formulas / decision points ::@:: $$\pi - s + 2\,,$$ where $\pi$ is the number of _binary_ decision points \(predicates\) and $s$ is the number of exit points. <p> For a single-exit program, it simplifies to $\pi + 1$.
+    - cyclomatic complexity / formulas / regions ::@:: It is the number of regions partitioned by the flow graph, including the _outside_ "region".
+  - cyclomatic complexity / interpretation ::@:: The value reflects the logical richness of the procedure; higher values mean more _testing effort_ or less _maintainability_.
+    - cyclomatic complexity / interpretation / too high ::@:: If too high \(__this course__: say &gt;10\), then consider additionally strategies: branch reduction, basis path generation, modularization, etc.
+- basis path testing
+  - basis path testing / basis set ::@:: It can be used to prepare test cases that tests _every edge_ at least once \(_not every path_ at least once\). <p> Note that the number of independent paths in a basis set \(hence, the _minimum_ number of necessary test cases\) can be less than $V(G)$ because some paths may overlap in executed statements.
+  - basis path testing / scope ::@:: It should _always_ be applied to _critical components_, and ideally should apply to _all components_.
+  - basis path testing / benefits ::@:: Every statement executes at least once. Both sides of control flow decisions are taken at least once. All of these are done without enumerating every possible input combination. <p> Thus, it helps uncover defects tied to specific branches or loop conditions.
+  - basis path testing / limitations ::@:: It is _systematic_ but still limited to _control-flow coverage_, not data-space or interaction coverage, thus not _exhaustive_.
+- quiz: [quiz 12](questions/quiz%2012.md)
+- [questions § week 7 pre-lecture](questions/index.md#week%207%20pre-lecture)
+
+## week 7 lecture
+
+- datetime: 2025-10-15T12:30:00+08:00/2025-10-15T14:20:00+08:00, PT1H50M
+- topic: use case diagram; use case specification; basic flow; extension point; alternative flow; subflow
+- [UML](UML.md)
+  - [§ common mistakes](UML.md#common%20mistakes)
+  - [§ common mistakes: redundant associations](UML.md#common%20mistakes%20redundant%20associations)
+  - [§ common mistakes: IO as actors](UML.md#common%20mistakes%20IO%20as%20actors)
+  - [§ common mistakes: nonfunctional requirements as use case](UML.md#common%20mistakes%20nonfunctional%20requirements%20as%20use%20case)
+- [§ week 5 pre-lecture](#week%205%20pre-lecture)
+- [questions § week 7 lecture](questions/index.md#week%207%20lecture)
+
+## week 7 lab
+
+- datetime: 2025-10-16T18:00:00+08:00/2025-10-16T19:50:00+08:00, PT1H50M
+- topic: debugging in IntelliJ IDEA
+- COMP 3111H
+  - COMP 3111H / lab 6 ::@:: clone → run to see error → set breakpoint → identify bug → fix bug
+    - COMP 3111H / lab 6 / breakpoint ::@:: In IntelliJ IDEA, click in the left gutter to toggle a red dot, marking a breakpoint. Start debugging with "Debug" (`Shift+F9`) so execution pauses at this spot. Use the "Resume Program" button (`F9`) to continue execution until the next breakpoint.
+    - COMP 3111H / lab 6 / code step-through ::@:: Use "Step Over" (`F8`) and "Step Into" (`F7`) to respectively traverse over and into method calls, watching the state evolve line by line.
+    - COMP 3111H / lab 6 / state debugging ::@:: While stopped at a breakpoint, examine the current state in the "Variables" pane.
+    - COMP 3111H / lab 6 / stacktrace ::@:: Trace the call stack to understand why an exception is thrown or a value is incorrect.
+- assignment: [lab 6](assignments/lab%206/index.md)
+
+## week 8 pre-lecture
+
+- topic: \(none\)
+- status: unscheduled
+- [questions § week 8 pre-lecture](questions/index.md#week%208%20pre-lecture)
+
+## week 8 lecture
+
+- datetime: 2025-10-22T12:30:00+08:00/2025-10-22T14:20:00+08:00, PT1H50M
+- topic: use case diagram; non-functional requirement; validation; implementation; defensive programming; code review; refactoring; debugging; configuration management
+- [UML](UML.md)
+  - [§ common mistakes](UML.md#common%20mistakes)
+  - [§ common mistakes: wrong initiating actors](UML.md#common%20mistakes%20wrong%20initiating%20actors)
+  - [§ common mistakes: not using actor generalization](UML.md#common%20mistakes%20not%20using%20actor%20generalization)
+  - [§ common mistakes: use case without initiating actors](UML.md#common%20mistakes%20use%20case%20without%20initiating%20actors)
+  - [§ common mistakes: missing nonfunctional requirements](UML.md#common%20mistakes%20missing%20nonfunctional%20requirements)
+- basis path testing
+  - basis path testing / redundant paths ::@:: In practice, redundant paths are added \(i.e. more test cases\) for safety, especially when boundary or error conditions might be missed otherwise. <p> \(__this course__: In examinations, do _not_ add redundant paths when asked for independent paths.\)
+- COMP 3111H
+  - COMP 3111H / midterm examination ::@:: The mid‑term will be a one‑hour quiz that tests the basics of software engineering concepts (e.g., use‑case diagrams, class diagrams, testing). It is designed to confirm whether you have grasped the fundamental material from the first part of the course; nothing trickier than last year's format. <p> Historically the average score has hovered around 78–79%, so students who attend lectures and study regularly tend to perform well.
+    - COMP 3111H / midterm examination / multiple choice questions ::@:: Roughly 10–20% of marks, usually three options per question. These questions will be straightforward and test recognition of concepts \(e.g., "What is a functional requirement?"\).
+    - COMP 3111H / midterm examination / short questions ::@:: Questions that ask you to match items or fill in blanks; e.g., map UML symbols to their meanings, list functional vs non‑functional requirements. No _precise_ memorization required – just recall the core definitions and relationships.
+    - COMP 3111H / midterm examination / class diagrams ::@:: You may be asked to draw missing parts of a class diagram \(multiplicities, composition/aggregation diamonds\). Pay special attention to "contain" vs "compose"; only composition uses a filled diamond.
+    - COMP 3111H / midterm examination / use case diagrams ::@:: Given a short scenario, first list all functionalities \(operations\), then group them into use cases. The instructor will give you a paragraph and expect you to extract the relevant operations before sketching a use‑case diagram. <p> If the question only asks for _functionalities_, simply list all functionalities; no need to group them into use cases.
+- [§ week 6 pre-lecture](#week%206%20pre-lecture)
+- [§ week 7 pre-lecture](#week%207%20pre-lecture)
+- [questions § week 8 lecture](questions/index.md#week%208%20lecture)
+
+## week 8 lab
+
+- datetime: 2025-10-23T18:00:00+08:00/2025-10-23T19:50:00+08:00, PT1H50M
+- topic: unit testing; JUnit 5
+- COMP 3111H
+  - COMP 3111H / lab 7 ::@:: unit testing using JUnit 5
+    - COMP 3111H / lab 7 / unit test ::@:: - __Define Input__ – Choose values that exercise the target function. <br/> - __Specify Expected Outcome__ – Know what the correct result should be. <br/> - __Invoke Function__ – Call the method with your chosen input. <br/> - __Assert Equality__ – Compare the actual output to the expected outcome using JUnit assertions.
+    - COMP 3111H / lab 7 / inputs ::@:: Include common cases as well as edge or boundary values. Aim for a minimal set of tests that still covers all logical branches. <p> Ideally, the developer who wrote the function should write its tests because they best understand the intended behavior.
+    - COMP 3111H / lab 7 / test framework ::@:: Uses JUnit 5; students must migrate any existing JUnit 4 code to version 5.
+    - COMP 3111H / lab 7 / run tests ::@:: Execute all tests via IntelliJ's built‑in runner or the command line. Review the test report to confirm that every test passes (100% success). Generate a coverage report; at least 10% of lines should be covered by your tests.
+    - COMP 3111H / lab 7 / test-driven development \(TDD\) ::@:: Tests are written before implementing the corresponding code. <p> Benefits include fewer bugs, improved collaboration, and tests that double as documentation.
+      - COMP 3111H / lab 7 / test-driven development / steps ::@:: 1. Write a test first. <br/> 2. Implement minimal logic to make the test pass. <br/> 3. Refactor both code and test for clarity while ensuring all tests remain green.
+- assignment: [lab 7](assignments/lab%207/index.md)
+
+## week 9 pre-lecture
+
+- topic:
+- quiz: [quiz 13](questions/quiz%2013.md)
+- quiz: [quiz 14](questions/quiz%2014.md)
+- [questions § week 9 pre-lecture](questions/index.md#week%209%20pre-lecture)
+
+## week 9 lecture
+
+- datetime: 2025-10-22T12:30:00+08:00/2025-10-22T14:20:00+08:00, PT1H50M
+- status: unscheduled; public holiday: Chung Yeung Festival
+- [§ week 9 pre-lecture](#week%209%20pre-lecture)
+- [questions § week 9 lecture](questions/index.md#week%209%20lecture)
+
+---
+
+> Dear Comp3111 Students,
+>
+> We don't have class today in order to synchronize the progress with L1 \(public holiday yesterday\). Thanks.
+>
+> Regards,
+>
+> \[redacted\]
+
+## midterm examination
+
+- datetime: 2025-10-29T12:00:00+08:00/2025-10-29T13:00:00+08:00, PT1H
+- venue: Lecture Theater A
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: question ×5 \(with subquestions\)
+- grades: 95/100 → 96/100
+  - statistics
+    - timestamps: 2025-10-30T14:52:04+08:00 → 2025-10-31T12:50:24+08:00
+    - mean: 79.68 \(provided: 80.13872832\) → 80.95
+    - standard deviation: ? → ?
+    - low: 0 \(provided: 37\) → 0
+    - lower quartile: 75 → 76
+    - median: 81.5 → 83.75
+    - upper quartile: 87.38 → 89
+    - high: 96 \(provided: 96\) → 97
+    - distribution: ? → ?
+    - data: ? → ?
+  - breakdown
+    - question 1 \(multiple choice questions\): 14/15 → 14/15
+    - question 2 \(short questions\): 24/25 → 24/25
+    - question 3 \(software development process matching\): 8/10 → 8/10
+    - question 4 \(UML diagram\): 34/35 → 35/35
+    - question 5 \(use case functionalities\): 15/15 → 15/15
+- report
+  - What do quality design goals help _most_ in reducing the complexity of? \(–1\) ::@:: _Designing_ the system, not _building_ the system.
+  - software development complexity matching \(0\) ::@:: - application domain: often complex problems <br/> - communication between stakeholders: different background, different vocabularies, inherent ambiguity <br/> - managing large projects: requires division of labor and coordination; both difficult <br/> - coding: complicated engineering process
+  - software engineer skills \(0\) ::@:: - communication: Because software projects are often large and require a team to work on them, so communication with other developers is important. <br/> - project management: Because software projects are often large, they require planning and division of labor, which requires project management skills. <br/> - etc.
+  - attribute multiplicity notation \(–1\) ::@:: `name: type [min..max]`. Wrote `[3]` instead.
+  - software development process matching \(–2\) ::@:: Correct \(got them swapped\): <p> - waterfall: rigorous and formalized process <br/> - spiral: planning helps meet user expectations
+  - UML diagram \(–1\) ::@:: No one knows why a point was deducted... Rectified \(see below\).
+  - use case functionalities \(0\) ::@:: When asked for "use case _functionalities_" rather than "use case _diagram_", you should simply list out the functionalities required by each actor. Do not include implementation details in the functionalities, e.g. the medium through which communication happens,etc.
+- check
+  - datetime: 2025-10-30T18:00:00+08:00/2025-10-30T19:30:00+08:00, PT1H30M
+  - venue: Room 2465, Academic Building
+  - report
+    - UML diagram \(+1\) ::@:: No one knows why a point was deducted...
+
+---
+
+> Dear COMP3111 Students,
+>
+> Just a reminder about the midterm quiz on Oct29 \(12nn-1pm\) in LTA \(H, L1, L2 altogether in LTA\). It's a closed book exam, and it covers the following topics L01-L09:
+>
+> \#1 - Introduction <br/>
+> \#2 - Modeling Software Systems using UML <br/>
+> \#3 - Software Development <br/>
+> \#4 - Domain Modeling and Use Case Modeling <br/>
+> \#5 - Use Case Specification and Non-Functional Requirements
+>
+> Regards, <br/>
+> Kenneth
+>
+> Regards,
+>
+> \[redacted\]
+
+---
+
+> Dear Students,
+>
+> __Lab 8 and paper checking session arrangements are as follows:__
+>
+> Lab 8: <br/>
+> The first LA1 session for lab 8 will be used/replaced by a paper checking session \(more details in this email\). <br/>
+> We will have only one session for Lab 8 tomorrow \(Friday\) from 10:30 am to 12:20 pm in Room 2465. A Zoom recording will be available for this lab in case you are unable to join the session. And that will be our last lab. There will be no lab sessions after that \(unless required or announced\).
+>
+> __Paper Checking:__ <br/>
+> We will have our paper checking session today \(30-October-2025, Thursday\) from 06:00-07:30 pm in Room 2465
+>
+> __Things to consider when you come for a paper checking session:__ <br/>
+> 1\) Please bring your student ID and give it to the TA to get your exam. Return the exam paper to get your student ID back <br/>
+> 2\) Please don't take pictures/videos of your exam and exam solution \(if we find that, we will take strict action\) <br/>
+> 3\) Please don't leave the exam checking venue with the exam or the exam solution <br/>
+> 4\) We will have a limited number of exam solutions available in the venue (10 copies only), so you have to share the solution with others. <br/>
+> 5\) If you cannot join today's paper checking session, you can ask your friend to check the exam on your behalf. <br/>
+> 6\) There will be no other paper checking session after today.
+>
+> Regards, <br/>
+> COMP3111 Teaching Team
+
+## week 9 lab
+
+- datetime: 2025-10-30T18:00:00+08:00/2025-10-30T19:50:00+08:00, PT1H50M
+- topic:
+
+---
+
+> Dear Students,
+>
+> __Lab 8 and paper checking session arrangements are as follows:__
+>
+> Lab 8: <br/>
+> The first LA1 session for lab 8 will be used/replaced by a paper checking session \(more details in this email\). <br/>
+> We will have only one session for Lab 8 tomorrow \(Friday\) from 10:30 am to 12:20 pm in Room 2465. A Zoom recording will be available for this lab in case you are unable to join the session. And that will be our last lab. There will be no lab sessions after that \(unless required or announced\).
+>
+> __Paper Checking:__ <br/>
+> We will have our paper checking session today \(30-October-2025, Thursday\) from 06:00-07:30 pm in Room 2465
+>
+> __Things to consider when you come for a paper checking session:__ <br/>
+> 1\) Please bring your student ID and give it to the TA to get your exam. Return the exam paper to get your student ID back <br/>
+> 2\) Please don't take pictures/videos of your exam and exam solution \(if we find that, we will take strict action\) <br/>
+> 3\) Please don't leave the exam checking venue with the exam or the exam solution <br/>
+> 4\) We will have a limited number of exam solutions available in the venue (10 copies only), so you have to share the solution with others. <br/>
+> 5\) If you cannot join today's paper checking session, you can ask your friend to check the exam on your behalf. <br/>
+> 6\) There will be no other paper checking session after today.
+>
+> Regards, <br/>
+> COMP3111 Teaching Team
+
+## week 10 pre-lecture
+
+- topic:
+- quiz: [quiz 15](questions/quiz%2015.md)
+- quiz: [quiz 16](questions/quiz%2016.md)
+- [questions § week 10 pre-lecture](questions/index.md#week%2010%20pre-lecture)
+
+## week 10 lecture
+
+- datetime: 2025-10-22T12:30:00+08:00/2025-10-22T14:20:00+08:00, PT1H50M
+- topic: implementation; defensive programming; code review; refactoring; debugging; configuration management
+- [§ week 8 pre-lecture](#week%208%20pre-lecture)
+- [questions § week 10 lecture](questions/index.md#week%2010%20lecture)
+
+## week 10 lab
+
+- datetime: 2025-11-06T18:00:00+08:00/2025-11-06T19:50:00+08:00, PT1H50M
+- topic:
 
 ## aftermath
 

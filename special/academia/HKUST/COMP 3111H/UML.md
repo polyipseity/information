@@ -13,7 +13,7 @@ tags:
 
 # unified modeling language
 
-- see: [general/Unified Modeling Language](../../../../general/Unified%20Modeling%20Language.md)
+- see: [general/Unified Modeling Language](../../../../general/Unified%20Modeling%20Language.md), [UML](UML.md)
 
 {@{__Unified Modeling Language__ \(__UML__\)}@} is {@{a general-purpose, object-oriented, visual modeling language}@} that provides {@{a way to visualize the architecture and design of a system}@}; like {@{a blueprint}@}.
 
@@ -37,7 +37,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 ## attributes
 
-{@{An _attribute_}@} represents {@{a _data value_ held by the class}@}. It has {@{6 major properties \(and possibly more\)}@}: {@{name, type, visibility}@}, {@{initial value, multiplicity, and mutability}@}.
+{@{An _attribute_}@} represents {@{a _data value_ held by the class}@}. It has {@{6 major properties \(and possibly more\)}@}: {@{name, type, visibility}@}, {@{initial value, multiplicity, and mutability}@}. It is {@{a _classifier_}@} for {@{_values_}@}. For {@{modeling using the simplest possible model \(__this course__: may be used in this course\)}@}, {@{_name_ and _type_}@} should {@{always be specified}@}.
 
 {@{The _name_}@} of an attribute describes {@{the _semantics_ for the data value}@}. It should be {@{_unique_ \(including attributes and operations\) in a class}@}. For {@{modeling using the simplest possible model \(__this course__: may be used in this course\)}@}, it should {@{always be specified}@}.
 
@@ -47,15 +47,15 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{The _initial value_}@} of an attribute describe {@{the initial value for the data value if _unspecified_}@}. It is {@{_optional_}@}, and by default {@{requires the data value to be _specified_ since there is no initial value}@}.
 
-{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default {@{is 1}@}.
+{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default {@{is 1}@}. Its syntax is {@{the same as that for association multiplicity}@} but {@{inside square brackets `[]`}@}, i.e. {@{`[min..max]`}@}. \(__this course__: Tested in the midterm examination.\)
 
-{@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}.
+{@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}. Its syntax is {@{writing the property inside curly brackets `{}`}@}, i.e. {@{`{readOnly}`}@}.
 
-{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> = <initial value>`}@}.
+{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> <multiplicity> <mutability> = <initial value>`}@}.
 
 ## operations
 
-{@{An _operation_}@} represents {@{a _function_ or _transformation_ that can be applied to or by instances of the class}@}. It has {@{4 major properties \(and possibly more\)}@}: {@{operation name, parameter names, result type, and visibility}@}. {@{The first 3 properties}@} is known as {@{the _operation signature_}@}. For {@{modeling using the simplest possible model \(__this course__: may be used in this course\)}@}, the operation signature should {@{always be specified}@}.
+{@{An _operation_}@} represents {@{a _function_ or _transformation_ that can be applied to or by instances of the class}@}. It has {@{4 major properties \(and possibly more\)}@}: {@{operation name, parameter names, result type, and visibility}@}. {@{The first 3 properties}@} is known as {@{the _operation signature_}@}. It is {@{a _classifier_}@} for {@{_methods_}@}. For {@{modeling using the simplest possible model \(__this course__: may be used in this course\)}@}, the operation signature should {@{always be specified}@}.
 
 {@{An instance of an operation}@} is called {@{a _method_}@}. This matters because there {@{can be several methods implementing the same operation \(a _polymorphic_ operation\)}@}. One way to do this is via {@{_overriding_ to achieve _polymorphism_}@}.
 
@@ -354,6 +354,8 @@ Preconditions serve to keep {@{each use‑case description independent of others
 
 From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points; typically inclusive, but best to specify)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}.
 
+There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering the basic flows}@}. {@{Each basic flow}@} comes with {@{its own _preconditions_ and _postconditions_}@}, which are also indicated by {@{numbering them}@}.
+
 {@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event‑response orientation}@} \(i.e. {@{the user does something, then the system does something, etc.}@}\) that focuses on {@{what happens rather than how it is implemented}@}.
 
 > [!example] __branching using `if`__
@@ -427,3 +429,157 @@ From there, {@{optional, variant, or exceptional behaviour}@} can be attached th
 When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low‑value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}.
 
 To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}.
+
+## common mistakes
+
+There are {@{many possible mistakes}@} when {@{learning to draw UML diagrams}@}. Here describes {@{some of the most common ones}@}.
+
+### common mistakes: bad name
+
+Students frequently use {@{the same term}@} for both {@{a class and an attribute}@} or choose {@{names that reflect programming constructs}@} (e.g., {@{"int" or "string"}@}) instead of {@{domain terms}@}. This occurs when {@{the analyst's mental model}@} is still {@{tightly coupled to code rather than to the problem space}@}. The result is {@{a diagram that looks syntactically correct}@} but fails to communicate {@{intent to stakeholders}@}. To remedy this, insist on using {@{vocabulary from the application domain}@} for {@{every classifier and attribute name}@}, and verify {@{each name against a glossary}@} <!-- or requirement traceability matrix --> before {@{committing it to the diagram}@}.
+
+In the banking example, when an association is {@{for the result of an operation}@}, students often think {@{use the action as the association name}@} (e.g., {@{`Customer` creates `Account`}@}). In UML, {@{naming an association}@} expresses {@{its relationship}@}, not {@{an invoked action}@}. {@{The correct practice}@} is to name {@{associations based on their semantic contribution}@} (e.g., {@{`Customer` holds `Account`}@}) rather than {@{operation verbs}@}.
+
+### common mistakes: "has" relation
+
+{@{Many "Has" associations}@} are better {@{represented as simple associations}@} rather than {@{aggregations or compositions}@}. Yet students often {@{default to aggregation}@} because they see {@{a part‑whole phrase in natural language}@} and automatically {@{apply the adornment}@}. This mistake arises from {@{a lack of judgment}@} about {@{the life cycle coupling between objects}@}. Evaluate whether {@{the part can exist independently}@}; if so, {@{use aggregation}@}. If {@{the part's existence is strictly tied to the whole}@}, {@{use composition}@}. When {@{uncertain}@}, lean toward {@{a plain association to avoid over‑engineering}@}.
+
+In the {@{banking example}@}, students sometimes mark {@{a "has‑a" relationship between `Account` and `Transaction`}@} as {@{an aggregation or composition}@}, implying that {@{a transaction belongs to a particular account}@}. In reality, a transaction often {@{involves multiple accounts}@}; there is {@{no account that a transaction belongs to}@}. This should be modeled with {@{a regular association}@}. Another example is {@{composition between `Customer` and `Account`}@} when {@{a customer owns an account}@}, but {@{composition}@} implies that {@{the accounts are integral to the existence of customers}@}. The proper modeling is {@{still a regular association}@}. {@{Aggregation or composition}@} should only be used when {@{the part is highly dependent on the whole}@}.
+
+### common mistakes: ER model
+
+{@{The placement of cardinalities}@} differs between {@{ER models and UML class diagrams}@}. Students who copy {@{ER notations directly into UML}@} often {@{misinterpret constraints}@} \(e.g., writing {@{`0..1` on both ends}@} when only {@{one side should be optional}@}\). This confusion is rooted in treating {@{UML as a database schema tool}@} rather than {@{a behavioral model}@}. Clarify that {@{UML multiplicity}@} applies to {@{object relationships at runtime}@}, whereas {@{ER cardinalities}@} describe {@{persistent data constraints}@}. When translating {@{an ER diagram into UML}@}, {@{reassess each association's semantics}@} before {@{assigning cardinalities}@}.
+
+### common mistakes: unary association roles
+
+When {@{two instances of the same class}@} are {@{linked (e.g., "manages" or "friend"; i.e. _unary_ associations)}@}, students sometimes {@{omit role names}@}, leading to {@{ambiguity about which end represents which role}@}, e.g. {@{the manager and the subordinate}@}. This mistake occurs because they assume {@{symmetry in the relationship}@}. _Always_ provide distinct role names at {@{each end of a unary association}@}; for {@{binary associations}@}, {@{the roles should be added}@} whenever {@{the roles are not obvious from the association name}@}. <!-- This disambiguates navigation and clarifies intent. -->
+
+### common mistakes: implementation details
+
+Many students think that once {@{a class diagram is complete}@}, it can be {@{directly turned into code with little modification}@}. This misconception leads to {@{diagrams that are too fine‑grained}@} (e.g., {@{modeling every private field}@}) or omit {@{necessary abstraction layers}@}. Remember that UML models should capture {@{essential structure and behavior at the appropriate level of abstraction}@}; {@{refine or abstract}@} as needed before {@{mapping to implementation}@}.
+
+An example involves treating {@{internal object identifiers (OIDs)}@} as {@{regular attributes}@} and then using {@{those same attributes}@} to {@{represent relationships}@} – for example, {@{`personID`, `vehicleID`, `loanID`, `ownerID`, etc.}@} {@{Other attributes}@} that are {@{internal details}@} include {@{"type" attributes associated with relationships}@}, e.g. {@{`customerType`, `ownerID`, etc.}@} When students {@{simply copy these attributes into their diagrams}@} they create {@{unnecessary data fields}@} that clutter {@{the model}@} and hide {@{the true cardinality of relationships}@}. The root cause is a misunderstanding that identifiers are {@{always required in the diagram}@}; in reality they belong to {@{the underlying database implementation}@}, not {@{the conceptual model}@}. The fix is straightforward: remove {@{all OID attributes from the class diagram}@}, replace {@{each with an association to the appropriate target class}@}, and then annotate {@{the association with the correct multiplicity}@} (e.g., {@{a `Person` or`Company`}@} "owns" {@{zero or more `Car`s}@}). This keeps the diagram {@{focused on structural relationships}@} rather than {@{persistence details}@}.
+
+### common mistakes: association class
+
+When {@{an association}@} requires {@{attributes or operations}@}, students sometimes {@{attach them directly to one end}@} rather than creating {@{an explicit association class}@}. This leads to {@{a cluttered diagram}@} and obscures the fact that {@{the relationship itself has its own identity}@}. Use {@{an association class}@} ({@{a separate rectangle}@} connected to {@{the association line by a _dashed line_}@}) whenever {@{the link carries state or behaviour}@}.
+
+### common mistakes: uniqueness of names
+
+{@{The collection of class and association names}@} must be {@{unique}@}. Students often {@{overlook this rule}@}, especially in {@{large diagrams with many similar entities}@}, resulting in {@{name collisions that confuse readers and tooling}@}. Before {@{finalizing a diagram}@}, run {@{a quick consistency check}@}—either {@{manually}@} or using {@{a UML tool's validation feature}@}—to ensure {@{every class and association has a distinct identifier}@}.
+
+### common mistakes: XOR associations
+
+A frequent mistake is {@{the construction of exclusive-or \(XOR\) associations}@} that either {@{duplicate each other}@} or do not reflect {@{the business rules stated in the requirements}@}. For instance, students often draw both {@{a "OwnsPersonal" and an "OwnsCorporate" association}@} from {@{`Car` to `Person` and `Company`}@}, respectively, without recognising that a car can {@{have only one owner who may be either a person or a company but not both}@}. {@{Multiplicities for XOR associations}@} are frequently {@{set incorrectly}@}: If {@{`1` is used on the owner's side}@}, it allows {@{multiple owners for a single car}@}. If {@{`0..1` is used on the owner's side}@}, it allows {@{no owners for a single car}@}. The remedy is to {@{use `1` on the owner's side to ensure a car has an owner}@}, and then {@{enforce an exclusive-or (XOR) constraint between the two associations}@} to ensure that {@{only one of the owner types is present}@}. {@{The exclusive-or \(XOR\) constraint}@} is denoted by {@{a _dashed line_ connecting the two associations with the label text `{xor}`}@}.
+
+Sometimes, {@{an alternative}@} to {@{using XOR associations}@} is {@{using generalization}@}. Using the same car example, {@{`Person` and `Company`}@} may be {@{generalized to a superclass `Owner`}@}, and then {@{the two associations with an XOR constraint between them}@} becomes {@{a single association: `Owner` _owns_ `Car`}@}.
+
+### common mistakes: operations as associations
+
+A frequent slip is drawing a {@{line between two classes}@} to represent {@{an operation that one class performs on another}@}. Operations are {@{not structural links}@}; they belong {@{inside a class box or in a separate operation diagram}@}. {@{Mixing them with associations}@} confuses {@{the modeler}@} and obscures {@{true dependencies}@}. To fix this, keep {@{operations within the class where they reside}@} and use {@{associations only}@} for {@{persistent relationships such as ownership or participation}@}.
+
+### common mistakes: redundant associations
+
+In {@{a UML class diagram}@}, it is common to introduce {@{an association}@} simply because {@{two classes appear to "talk" to each other}@} in {@{the problem description}@}.  However, when {@{several associations}@} share {@{the same participants and multiplicities}@}, {@{some of them may be redundant}@}: they can be {@{inferred from others without being drawn explicitly}@}.  For example, if {@{`Person` _owns_ `Car` and `Loan` _is for_ `Car`}@}, then {@{a direct association between `Person` and `Loan` is unnecessary}@} because {@{the relationship "a person's car loans"}@} can be {@{derived by following the two existing links}@} ({@{`Person` → `Car` → `Loan`}@}). {@{Redundant associations}@} clutter {@{the diagram, obscure intent}@}, and may lead to {@{inconsistent multiplicities}@}. {@{A systematic way to eliminate them}@} is to check {@{whether one can reach the target class through a chain of existing associations}@} whose {@{roles and multiplicities}@} satisfy {@{the same constraints as the proposed direct link}@}, and additionally, {@{the semantics of the association to be eliminated}@} can be {@{derived}@} \(see below\). If so, {@{omit the redundant association}@}; keep {@{only the minimal set}@} that preserves {@{all required navigations and cardinality rules}@}.
+
+Nevertheless, not {@{every seemingly superfluous link}@} is {@{truly dispensable}@}. When {@{three associations}@} involve {@{the same classes}@} but {@{the third association}@} carry {@{distinct semantic roles or constraints from the other two associations}@}, then {@{all of them must be kept}@}.  For instance, {@{`Customer` _owns_ `Account` and `Transaction` _is against_ `Account`}@} are separate from {@{`Customer` _makes_ `Transaction`}@} because {@{the customer making the transaction}@} can be {@{different from the owners of the accounts involved in an transaction}@}. In these cases, {@{the third association}@} conveys {@{unique information from the other two associations}@} and {@{omitting the third association}@} would erase {@{critical business rules}@}.
+
+Another example involves {@{generalization}@}. For instance, {@{`Employee` generalizes `Manager`}@}, and {@{both `Employee` and `Manager` manages sales as a use case}@}. If {@{every scenario a `Manager` can take in the use case}@} is {@{also takable by the `Employee`}@}, then we do not {@{need an arrow from `Manager` to "manage sales"}@}. However, if there are {@{scenarios a `Manager` can additionally take compared to an `Employee`}@}, {@{both arrows from `Employee` and `Manager` to "manage sales"}@} are {@{needed as these two arrows convey somewhat different semantics}@}.
+
+### common mistakes: real world knowledge
+
+{@{Real world knowledge}@} is {@{important when constructing UML diagrams}@}, e.g. {@{setting multiplicities, etc.}@}
+
+{@{Multiplicity}@} tells the modeler {@{how many instances participate in a relationship}@}. {@{Leaving it blank or marking it with "?"}@} when {@{the domain knowledge suggests a clear bound}@} (e.g., {@{a `Bank`}@} can issue {@{zero or more `CreditCards`}@}) leads to {@{ambiguity}@}. The fix is to infer {@{multiplicities from real‑world constraints}@} and annotate {@{them explicitly, such as `0..*` for unlimited or `1` for mandatory}@}.
+
+### common mistakes: misusing modeling elements
+
+In the banking example, students sometimes add {@{a XOR operator between `Savings` and `Checking`}@} to {@{indicate exclusivity}@}. However, UML does not {@{support XOR on generalizations}@}; it only applies to {@{associations that are mutually exclusive}@}. {@{The correct way}@} is to note {@{in documentation}@} or use {@{`{disjoint}` and `{complete}` constraints}@}, but avoid {@{visual XOR symbols that UML does not support}@}.
+
+### common mistakes: modeling out-of-scope entities
+
+In the banking example, {@{a `Passbook` should not be represented}@} because {@{it is outside the system}@}. Yet many diagrams add {@{a separate class for it}@}. This mistake stems from treating {@{every real‑world object as a candidate class}@} without considering {@{whether it is part of the _system_ being considered}@}. The fix is to model {@{only classes in the _system_ required by the problem statement}@}.
+
+Often but not always, {@{out-of-scope entities}@}, when {@{wrongly represented in the system}@}, are {@{not connected to any other class by associations}@}. So {@{a class without associations to other classes}@} may be {@{a sign that the class is out-of-scope}@}.
+
+### common mistakes: not using notes
+
+When there are {@{semantics not modeled by standard modeling elements}@}, use {@{notes containing brief text}@}.
+
+In the banking example, marking {@{a `Transaction`'s "IsAgainst" association to `Account`}@} with {@{`1..2`}@} when the requirement is that {@{a transfer \(`Transfer`\)}@} involves {@{exactly two accounts}@} but {@{a deposit \(`Deposit`\) or withdrawal \(`Withdrawl`\)}@} involves {@{one}@}. Students often generalize {@{`Transaction`}@} and have {@{the 3 types of transactions as subclasses}@}. This is {@{okay}@}, but apart from {@{marking the "IsAgainst" association to `Account` with `1..2`}@}, also refine {@{multiplicities at the subclass level}@} by {@{adding an extra note describing the details}@} (e.g., for {@{`Transfer`}@}, use {@{`2`}@}; in {@{`Deposit` and `Withdrawal`}@}, set {@{it to `1`}@}).
+
+### common mistakes: multiple links between the same pair of objects
+
+{@{An association}@} represents {@{a collection of links}@}, and {@{for the same pair of objects}@}, there is {@{at most one link}@}. Sometimes, {@{the requirements}@} may require {@{possibly more than one link between the same pair of objects}@}. In this case, replace {@{the association}@} by {@{a class \(not an _association class_\)}@}, and the class {@{connects the two classes originally connected by the association}@}.
+
+In the course enrollment system example, there may be {@{multiple enrollments}@} between {@{a `Student` and a `Course`}@}, e.g. {@{retaking a failed course}@}. In that case, {@{an association \(including association class\)}@} is {@{inappropriate}@} and should be replaced by {@{a class `Enrollment`}@} connecting {@{`Student` and `Course` with two new associations}@}.
+
+However, sometimes that {@{at most one link can be created between the same pair of objects}@} can be {@{useful}@}. In said cases, you may instead want to replace {@{the class connecting other two classes by two associations}@} with {@{an association}@} instead.
+
+\(__this course__: __Important__. Tested in the midterm examination.\)
+
+### common mistakes: generalization and multiplicity
+
+When {@{a subclass}@} participates in {@{an association that other subclasses also uses}@}, students sometimes fail to {@{adjust the multiplicities appropriately}@} when generalizing {@{these subclasses as a superclass}@} and then replacing {@{common associations on the subclasses with an association on the superclass}@}. They may copy {@{the exact cardinalities from one of the subclass association}@} without considering {@{the more restrictive bounds of other subclass associations}@}. The mistake occurs because the learner overlooks that {@{the resulting association on the superclass}@} must satisfy {@{the original set of associations on the subclasses}@}. Correcting this requires either taking {@{the maximum of the lower bounds and the minimum of the upper bounds}@}, and then adding {@{a note to indicate multiplicities for each subclass}@}; or defining {@{the association for each subclass}@} if {@{the semantics differ}@} \(i.e. do not {@{replace the common associations on the subclasses with an association on the superclass}@}\).
+
+### common mistakes: missing generalization coverage
+
+Students often draw {@{a generalization hierarchy}@} but do not indicate whether {@{the subclasses are disjoint, overlapping, complete, or incomplete}@}. This omission leads to {@{ambiguous models}@} where {@{an instance}@} could {@{belong to multiple subclasses or none at all}@}. The cause is usually {@{a lack of attention to the domain rules}@} that dictate {@{exclusivity and completeness}@}. To fix this, add the {@{appropriate coverage notation}@} (e.g., {@{`{disjoint, complete}`}@}) next to {@{the generalization arrow}@} so that the diagram conveys whether {@{instances must belong to exactly one subclass or may belong to several}@}.
+
+### common mistakes: missing association constraints
+
+Students sometimes model {@{an association between two classes}@} without specifying {@{whether it is ordered, unique, or has subset/xor constraints}@} (e.g., {@{a car}@} can be owned by {@{either a company or a person}@} but {@{not both}@}). The error comes from treating {@{associations as unqualified links}@}. To correct this, add {@{the appropriate OCL constraint syntax}@} \(e.g. {@{`{xor}`, `{subset}`, `{ordered, FIFO}`}@}\) on {@{the association line}@}.
+
+### common mistakes: not using specialized associations
+
+{@{Complex relationships}@} such as {@{dependencies, realizations, or usages}@} are {@{frequently omitted or modeled by simple associations}@} because students think they are {@{unnecessary for a data model}@}. This leads to models that cannot capture {@{how classes influence one another during execution}@}. The fix is to include {@{these relationship types where relevant}@}—use {@{a dependency arrow}@} when {@{a class's implementation relies on another}@}, or {@{a realization arrow}@} to link {@{an interface with its implementing classes}@}.
+
+\(__this course__: __Important__. So far, it seems like we just need to {@{know about them}@} but {@{no need to use them}@}... Is it?\)
+
+### common mistakes: use case scope
+
+A frequent pitfall arises when students craft {@{use cases}@} that are {@{either too granular or too sweeping}@}, which undermines {@{the very purpose of a _use case_ as a _classifier_}@} for {@{a complete, actor‑initiated _scenario_}@}. When a use case is {@{split into many tiny fragments}@}—such as {@{separate cases}@} for {@{"Validate Student ID", "Select Course", and "Confirm Registration"}@}—the diagram becomes {@{cluttered with redundant elements}@} that merely {@{state different parts of a complete interaction}@}. This fragmentation often occurs because analysts mistake {@{every user action or system step}@} for {@{a distinct functional requirement}@}, driven by a desire to {@{capture everything explicitly}@}. The result is {@{a fragmented model}@} where {@{the overarching business process ("Register for Courses")}@} is {@{obscured}@}, making it hard to trace {@{responsibilities and evaluate completeness}@}.
+
+Conversely, when {@{a use case}@} is {@{too broad}@}—encompassing {@{"Manage Course Catalog", "Handle Billing", and "Process Enrollment"}@} in {@{one single box}@}—it loses {@{its focus}@} and fails to represent {@{a coherent interaction}@}. {@{Such monolithic cases}@} arise from {@{an over‑generalization mindset}@}: analysts aim for {@{minimalism}@} by collapsing {@{all related actions into one umbrella}@}, thinking that fewer {@{diagrams mean less work}@}. However, the consequence is {@{a lack of clarity}@} about who {@{initiates the use case}@}, what {@{steps are involved}@}, and how {@{the system's response should be measured}@}.
+
+The core issue lies in misunderstanding {@{the definition of a use case}@} as {@{a _classifier_ that encapsulates a complete scenario initiated by an actor}@}. To remedy this, first identify {@{each distinct business goal from the actor's perspective}@}—what value {@{does the actor receive}@}? {@{Each goal}@} becomes {@{a single use case with a clear name}@} (e.g., {@{"Register for Courses"}@}). Then, within {@{that use case}@}, document {@{the full sequence of events}@}: {@{success path}@} and any {@{necessary alternative flows}@}. Avoid creating {@{separate cases}@} for {@{low‑level operations}@} unless they constitute {@{an independent business process}@}. By aligning {@{each use case}@} with {@{one complete scenario driven by an actor}@}, the model remains {@{both manageable and expressive}@}, faithfully reflecting {@{the system's intended behavior}@}.
+
+### common mistakes: misusing use case generalization
+
+{@{Misusing use‑case generalization}@} often {@{occurs}@}.
+
+\(__this course__: __Important__. Use case generalization is {@{easily misused}@}. Further, it is {@{not needed in the course}@}. So {@{don't use it}@}.\)
+
+### common mistakes: IO as actors
+
+{@{Input or output \(IO\) devices}@} are {@{_never_ actors}@}.
+
+In the billing example, {@{the handheld device used by meter readers}@} is {@{occasionally labeled an actor}@}, despite being {@{merely a data entry tool}@}. The mistake stems from treating {@{any physical interface that can "perform" an action as an actor}@}, rather than recognizing {@{it as part of the human's interaction channel}@}. Fix this by documenting {@{such interfaces as system components or input devices}@}, {@{not actors}@}.
+
+### common mistakes: nonfunctional requirements as use case
+
+{@{_Non‑functional requirements_}@} such as {@{"login", "10% discount", or "by email"}@} are {@{mistakenly modeled as ordinary use cases or part of them}@}. For example, in the movie shop example, {@{"by email"}@} should not be part of {@{use case functionality "receive overdue notice"}@};  that is, {@{how the notice is received}@} is {@{not important}@}. Another example is {@{"login"}@}, which is {@{a _security_ non-functional requirement}@}. It may be represented by {@{an _administration use case_}@} instead.
+
+### common mistakes: wrong initiating actors
+
+{@{The initiating actors of a use case}@} should be {@{the actor _outside_ the system}@} that {@{_directly_ interacts with the system}@}. A common example is {@{an actor acting on behalf of another person}@}; in such cases, {@{that other person should not be the initiating actor}@}. For example, if {@{a customer can buy a movie through an online system or via an employee}@}, there should be {@{two arrows pointing from customer and employee to "buy movie"}@} in {@{the use case diagram}@}, with the former for {@{buying via the online system}@} and the latter for {@{buying via an employee}@}.
+
+### common mistakes: not using actor generalization
+
+There is a tendency to {@{_duplicate functionality across actors_ without justification}@} and overlook {@{_actor hierarchy and role reuse_}@}. The requirement {@{"A sales clerk must look up customer information"}@} is sometimes drawn as {@{separate arrows to the same use case}@} for {@{every type of clerk \(e.g. cashier, manager\)}@}. In practice, {@{the same _Lookup Customer_ action}@} is {@{the same by any staff member}@}; UML encourages {@{such reuse}@} through {@{actor generalization}@} rather than {@{duplicating the association}@}. Failure to do so inflates {@{the diagram}@} and obscures the fact that {@{the operation is common across roles}@}.
+
+However, as mentioned above, if {@{the subactor can perform additional actions for the use case}@}, then {@{the association from the subactor to the same use case}@} is {@{not redundant}@}.
+
+### common mistakes: use case without initiating actors
+
+A frequent source of confusion in {@{use case modeling and use case diagram}@} is the appearance of {@{a use case that has no clear initiating actor}@}. When a diagram shows {@{an isolated oval labeled}@}, for example, {@{"Prepare Bill" or "Produce Payment Report"}@}, yet none {@{of the surrounding actors}@} are {@{connected to it with a solid arrow}@} \(also includes {@{having only communication associations}@}\), readers immediately {@{wonder who starts this activity}@}. {@{This situation typically arises}@} when students translate {@{functional requirements verbatim into use‑case names}@} without first asking {@{_who_ will trigger that action in the real system}@}.
+
+The consequences of {@{leaving a use case uninitiated}@} are {@{twofold}@}. First, it breaks {@{the fundamental UML rule}@} that {@{every use case}@} must be {@{triggered by at least one actor}@}; otherwise the model becomes {@{ambiguous and incomplete}@}. Second, {@{such orphaned use cases}@} often indicate {@{an over‑splitting of functionality}@}: the activity may {@{actually belong to another, already‑identified use case}@}. For instance, {@{"Prepare Bill" might simply be a sub‑step within "Bill Customer"}@}, or it could be part of {@{the overall billing workflow}@} that is initiated by {@{a meter reader's reading entry}@} \(so {@{"Enter Meter Reading"}@} can also be {@{merged into "Bill Customer"}@}\).
+
+To {@{resolve this issue}@}, begin by reviewing {@{the business scenario for each orphaned use case}@} and asking {@{which actor ultimately performs the first step}@}. If {@{no external actor can initiate the action}@}, then the activity should likely be {@{merged into an existing use case that does have an initiator}@}. For example, if {@{"Produce Payment Report" is only ever invoked}@} after {@{some payments have been processed}@}, it makes sense to fold {@{"Produce Payment Report" into the broader "Process Payment" use case}@}.
+
+When a use case appears to have {@{only communication associations}@}—such as {@{sending a message to another system component}@}—but {@{no direct actor link}@}, examine {@{the surrounding context}@} for {@{a higher‑level use case that initiates the communication chain}@}. Often the communication is {@{merely a side effect of a larger transaction}@}. Merge {@{the isolated case into that parent use case}@} and represent {@{the communication as an internal step}@} or {@{a secondary activity within the merged use case}@}.
+
+### common mistakes: missing nonfunctional requirements
+
+{@{Nonfunctional requirements}@} (e.g. {@{performance, reliability, security}@}) should be represented {@{alongside functional ones}@}. Yet students often leave {@{these out of their use‑case diagrams or class models}@}, resulting in {@{a specification that looks complete}@} but misses {@{critical quality attributes}@}. The root cause is the misconception that UML only describes {@{behaviour and structure}@}. To fix this, add {@{text describing nonfunctional requirements}@} to {@{the relevant use cases; or the entire system for whole-system requirements}@}.
