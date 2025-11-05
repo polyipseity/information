@@ -81,7 +81,7 @@ In {@{[pseudocode](pseudocode.md)}@}, {@{the below procedure}@} could be written
 >         for k = 0 to (N/2)-1 do                      combine DFTs of two halves:
 >             p ← Xk
 >             q ← exp(−2πi/N k) Xk+N/2
->             Xk ← p + q 
+>             Xk ← p + q
 >             Xk+N/2 ← p − q
 >         end for
 >     end if
@@ -175,12 +175,12 @@ The following is {@{pseudocode for iterative radix-2 FFT algorithm}@} implemente
 > algorithm iterative-fft is
 >     input: Array a of n complex values where n is a power of 2.
 >     output: Array A the DFT of a.
->  
+>
 >     bit-reverse-copy(a, A)
->     n ← a.length 
+>     n ← a.length
 >     for s = 1 to log(n) do
 >         m ← 2s
->         ωm ← exp(−2πi/m) 
+>         ωm ← exp(−2πi/m)
 >         for k = 0 to n-1 by m do
 >             ω ← 1
 >             for j = 0 to m/2 – 1 do
@@ -189,7 +189,7 @@ The following is {@{pseudocode for iterative radix-2 FFT algorithm}@} implemente
 >                 A[k + j] ← u + t
 >                 A[k + j + m/2] ← u – t
 >                 ω ← ω ωm
->    
+>
 >     return A
 > ```
 
@@ -237,7 +237,7 @@ The following is {@{pseudocode for iterative radix-2 FFT algorithm}@} implemente
 > algorithm bit-reverse-copy(a,A) is
 >     input: Array a of n complex values where n is a power of 2.
 >     output: Array A of size n.
-> 
+>
 >     n ← a.length
 >     for k = 0 to n – 1 do
 >         A[rev(k)] := a[k]
