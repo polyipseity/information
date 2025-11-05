@@ -82,7 +82,7 @@ The content is in teaching order.
 - over-the-counter
   - over-the-counter / derivative popularity :: Much more popular than exchange-traded derivatives. Their notational value is several times the world GDP \(about \$100 trillion\).
 - derivative
-  - derivative / makeup ::@:: \(most popular\) interest rate \(almost 80%\) &gt; foreign exchange \(almost 20%\) &gt; equity &gt; credit &gt; commodities \(least popular\)
+  - derivative / makeup ::@:: \(most popular\) <br/> 1. interest rate \(almost 80%\) <br/> 2. foreign exchange \(almost 20%\) <br/> 3. equity &gt; credit &gt; commodities <br/> \(least popular\)
   - derivative / popularity ::@:: It has become very popular since the Cobe Global Markets opened in 1973, especially after 2000 and even more so after 2020.
   - derivative / brief history ::@:: We started with somewhat normal derivatives, e.g. equity options, forex futures, swaps, etec.; and they have gotten more weird over time, e.g. catastrophe options, credit derivatives, energy derivatives, exotic options, weather derivatives, etc. <p> Maybe in the future we will get derivatives on climate, liquidity, political risk, or even other derivatives...
   - derivative / risks ::@:: counterparty risk, hidden tail risk, leverage, etc.

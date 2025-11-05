@@ -11,7 +11,7 @@ tags:
 
 See also [Vim help files](https://vimhelp.org/).
 
-- help with \[subject\] ::@:: <ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul>
+- help with \[subject\] ::@:: - :h[elp] [subject] <br/> - &lt;F1&gt; <br/> - &lt;Help&gt;
 
 ## autocomplete
 
@@ -70,7 +70,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## edit
 
-- delete under cursor ::@:: <ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul>
+- delete under cursor ::@:: - \[[repeat N](#^repeatN)\]x <br/> - \[[repeat N](#^repeatN)\]Delete
 - delete from cursor to ([motion](#motion)) ::@:: d([motion](#motion))
 - delete lines ::@:: \[[repeat N](#^repeatN)\]dd
 - undo ::@:: \[[repeat N](#^repeatN)\]u

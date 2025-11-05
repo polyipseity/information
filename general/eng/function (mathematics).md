@@ -96,7 +96,7 @@ A function is formed by {@{three sets, the _domain_ $X$, the _codomain_ $Y$, and
 
 - Main article: [Partial function](partial%20function.md)
 
-{@{Partial functions}@} are defined {@{similarly to ordinary functions, with the "total" condition removed}@}. That is, {@{a _partial function_ from _X_ to _Y_}@} is {@{a binary relation _R_ between _X_ and _Y_ such that, for every $x\in X$, there is _at most one_ _y_ in _Y_ such that $(x,y)\in R$}@}.
+{@{Partial functions}@} are defined {@{similarly to ordinary functions, with the "total" condition removed}@}. That is, {@{a _partial function_ from _X_ to _Y_}@} is {@{a binary relation _R_ between _X_ and _Y_}@} such that, for {@{every $x\in X$, there is _at most one_ _y_ in _Y_ such that $(x,y)\in R$}@}.
 
 Using {@{functional notation}@}, this means that, {@{given $x\in X$, either $f(x)$ is in _Y_, or it is undefined}@}.
 

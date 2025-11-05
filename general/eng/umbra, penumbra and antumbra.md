@@ -29,7 +29,7 @@ The [distance](lunar%20distance.md) from the [Moon](Moon.md) to the [apex](apex%
 
 ## penumbra
 
-The {@{__penumbra__}@} (from the [Latin](Latin.md) {@{_paene_ "almost, nearly" and _umbra_ "shadow"}@}) is {@{the region in which only a portion of the light source is obscured by the [occluding](occultation.md) body}@}. An observer in the penumbra experiences {@{a [partial eclipse](solar%20eclipse.md#partial%20eclipse)}@}. An alternative definition is {@{that the penumbra is the region where _some_ or _all_ of the light source is obscured (i.e., the [umbra](#umbra) is a subset of the penumbra)}@}.
+The {@{__penumbra__}@} (from the [Latin](Latin.md) {@{_paene_ "almost, nearly" and _umbra_ "shadow"}@}) is {@{the region in which only a portion of the light source is obscured by the [occluding](occultation.md) body}@}. An observer in the penumbra experiences {@{a [partial eclipse](solar%20eclipse.md#partial%20eclipse)}@}. An alternative definition is that {@{the penumbra}@} is {@{the region where _some_ or _all_ of the light source is obscured}@} \(i.e., {@{the [umbra](#umbra)}@} is {@{a subset of the penumbra}@}\).
 
 The penumbra of a round body occluding a round light source forms {@{a [frustum](frustum.md) subtracted by the [umbra](#umbra) [cone](cone.md)}@}. The shape can be visualized by {@{drawing two lines, one from the light source top to the round body bottom, the other from the light source bottom to the round body top}@}. Then the frustum is {@{the portion enclosed by the two lines and behind the round body, minus the umbra cone}@}.
 

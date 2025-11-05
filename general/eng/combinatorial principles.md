@@ -9,7 +9,7 @@ tags:
 
 # combinatorial principles
 
-In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__ are commonly recognized and used}@}.
+In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__}@} are {@{commonly recognized and used}@}.
 
 {@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}.
 
@@ -57,7 +57,7 @@ Bijective proofs prove that {@{two sets have the same number of elements}@} by {
 
 - see: [pigeonhole principle](pigeonhole%20principle.md)
 
-The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, {@{demonstrate the existence of some element in a set with some specific properties}@}.
+The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, demonstrate {@{the existence of some element in a set}@} with {@{some specific properties}@}.
 
 ## method of distinguished element
 

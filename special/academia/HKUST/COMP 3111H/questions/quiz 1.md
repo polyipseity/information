@@ -26,7 +26,7 @@ tags:
 ## hints
 
 1. source lines of code / acronyms ::@:: LLOC: logical lines of code; logical SLOC <br/> LOC: lines of code; physical SLOC <br/> MLOC: million lines of code <br/> SLOC: source lines of code
-2. source lines of code / examples ::@:: Rome: Total War &lt; Boeing 787 &lt; F-35 Fighter Jet &lt; Windows 7 &lt; Windows 10 &lt; Facebook &lt; Mac OS X &lt; luxury passenger car
+2. source lines of code / examples ::@:: \(less\) <br/> 1. Rome: Total War <br/> 2. Boeing 787 &lt; F-35 Fighter Jet <br/> 3. Windows 7 &lt; Windows 10 <br/> 4. Facebook <br/> 5. Mac OS X <br/> 6. luxury passenger car <br/> \(more\)
 3. software engineering / characteristics ::@:: disciplined \(engineering principles\), multi-person, multi-version, problem solving \(solves real user problems\), quality \(e.g. economic, efficient, reliable, etc.\)
 4. software engineering / activities ::@:: knowledge acquisition, modeling, problem solving, rationale management, etc.
 5. programming complexity / mitigations / characteristics ::@:: correct, efficient, evolvable, interoperable, maintainable, portable, productive, reliable, repairable, reusable, robust, timely, usable, verifiable, visible, etc.

@@ -348,7 +348,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 > ```Scala
 > def sum(xs: List[Int]) = xs.foldLeft(0)(_ + _)
 > def product(xs: List[Int]) = xs.foldLeft(1)(_ * _)
-> def stringify(xs: List[Int]) = xs.foldLeft("")(_ + _.toString)  # `String` is not a subtype of `Int`
+> def stringify(xs: List[Int]) = xs.foldLeft("")(_ + _.toString)  // `String` is not a subtype of `Int`
 > ```
 
 {@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}:
