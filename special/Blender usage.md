@@ -43,7 +43,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - select all::@::A <!--SR:!2033-06-01,2835,316!2026-06-24,964,336-->
 - select none::@::Alt+A <!--SR:!2027-10-06,1139,276!2027-02-16,744,256-->
-- invert selection::@::Ctrl+I <!--SR:!2025-11-14,592,250!2026-06-13,892,296-->
+- invert selection::@::Ctrl+I <!--SR:!2031-07-24,2078,270!2026-06-13,892,296-->
 - hide selection::@::H <!--SR:!2032-06-22,2432,290!2029-03-31,1582,310-->
 - reveal hidden::@::Alt+H <!--SR:!2029-06-11,1524,270!2029-02-13,1529,276-->
 - toggle toolbar::@::T <!--SR:!2028-08-22,1422,310!2030-03-14,1680,296-->

@@ -53,7 +53,7 @@ Common determinants of supply are:
 1. Prices of ::@:: inputs, including wages <!--SR:!2025-11-23,294,330!2026-01-29,351,350-->
 2. The technology ::@:: used, [productivity](productivity.md) <!--SR:!2025-12-25,322,350!2026-01-16,340,350-->
 3. Firms' ::@:: expectations about future prices <!--SR:!2028-12-04,1158,350!2025-12-26,323,350-->
-4. Number of ::@:: suppliers (for a market supply curve) <!--SR:!2025-11-14,286,330!2029-01-13,1188,350-->
+4. Number of ::@:: suppliers (for a market supply curve) <!--SR:!2029-06-13,1307,350!2029-01-13,1188,350-->
 
 ### demand schedule
 

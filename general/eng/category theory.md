@@ -108,7 +108,7 @@ Using {@{the language of category theory}@}, {@{many areas of mathematical study
 
 - Main articles: [Equivalence of categories](equivalence%20of%20categories.md) and [Isomorphism of categories](isomorphism%20of%20categories.md)
 
-It is a natural question to ask: under {@{which conditions can two categories be considered _essentially the same_}@}, in the sense that {@{theorems about one category can readily be transformed into theorems about the other category}@}? {@{The major tool one employs to describe such a situation}@} is called {@{_equivalence of categories_}@}, which is given by {@{appropriate functors between two categories}@}. Categorical equivalence has found {@{[numerous applications](equivalence%20of%20categories.md#examples) in mathematics}@}. <!--SR:!2026-01-14,288,330!2025-11-14,240,330!2025-12-13,264,330!2025-12-16,266,330!2026-01-04,281,330!2026-01-03,281,330-->
+It is a natural question to ask: under {@{which conditions can two categories be considered _essentially the same_}@}, in the sense that {@{theorems about one category can readily be transformed into theorems about the other category}@}? {@{The major tool one employs to describe such a situation}@} is called {@{_equivalence of categories_}@}, which is given by {@{appropriate functors between two categories}@}. Categorical equivalence has found {@{[numerous applications](equivalence%20of%20categories.md#examples) in mathematics}@}. <!--SR:!2026-01-14,288,330!2028-11-10,1092,350!2025-12-13,264,330!2025-12-16,266,330!2026-01-04,281,330!2026-01-03,281,330-->
 
 ### further concepts and results
 

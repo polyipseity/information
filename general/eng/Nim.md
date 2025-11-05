@@ -245,7 +245,7 @@ Let {@{the largest number of stones in a pile be _m_ and the second largest numb
 - If _p_<sub>_n_</sub> is odd, ::@:: the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2026-12-18,612,341!2027-10-03,824,330-->
 - If _p_<sub>_n_</sub> is even, ::@:: the largest heap is removed entirely, leaving an even number of largest heaps. <!--SR:!2025-11-24,317,341!2028-10-31,1127,341-->
 
-Thus, there exists {@{a move to a state where _p_<sub>_m_</sub> is even}@}. Conversely, if {@{_p_<sub>_m_</sub> is even, if any move is possible (_p_<sub>_m_</sub> ≠ 0)}@}, then {@{it must take the game to a state where _p_<sub>_m_</sub> is odd}@}. The final position of the game is {@{even (_p_<sub>_m_</sub> = 0)}@}. Hence, {@{each position of the game with _p_<sub>_m_</sub> even must be a _P_ position}@}. <!--SR:!2029-08-24,1393,361!2026-12-24,616,341!2029-07-18,1362,361!2025-11-14,307,341!2025-11-14,307,341-->
+Thus, there exists {@{a move to a state where _p_<sub>_m_</sub> is even}@}. Conversely, if {@{_p_<sub>_m_</sub> is even, if any move is possible (_p_<sub>_m_</sub> ≠ 0)}@}, then {@{it must take the game to a state where _p_<sub>_m_</sub> is odd}@}. The final position of the game is {@{even (_p_<sub>_m_</sub> = 0)}@}. Hence, {@{each position of the game with _p_<sub>_m_</sub> even must be a _P_ position}@}. <!--SR:!2029-08-24,1393,361!2026-12-24,616,341!2029-07-18,1362,361!2029-10-25,1441,361!2029-10-24,1440,361-->
 
 ### index-_k_ nim
 

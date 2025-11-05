@@ -53,7 +53,7 @@ return await memorize_table(
 - [electron affinity](#electron%20affinity)→::@::←[electronegativity](#electronegativity) <!--SR:!2034-10-23,3276,350!2026-05-09,810,330-->
 - [electronegativity](#electronegativity)→::@::←[ionization energy](#ionization%20energy) <!--SR:!2026-05-30,701,250!2031-08-28,2295,330-->
 - [ionization energy](#ionization%20energy)→::@::←[metallic character](#metallic%20character) <!--SR:!2026-06-12,788,290!2026-04-10,386,190-->
-- [metallic character](#metallic%20character)→::@::←[valence](#valence) <!--SR:!2025-11-14,439,310!2026-06-30,850,330-->
+- [metallic character](#metallic%20character)→::@::←[valence](#valence) <!--SR:!2029-08-06,1361,310!2026-06-30,850,330-->
 - [valence](#valence)→::@::←_(end)_ <!--SR:!2027-10-01,1278,350!2027-04-23,982,290-->
 
 <!--/pytextgen-->

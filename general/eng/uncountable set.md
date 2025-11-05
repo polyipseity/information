@@ -46,8 +46,8 @@ A more abstract example of an uncountable set is {@{the set of all countable [or
 
 If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\aleph_1$)}@}: <!--SR:!2026-01-04,291,330!2027-11-21,813,330-->
 
-- not less than or equal to ::@:: $\kappa \nleq \aleph _{0};$ <!--SR:!2025-11-14,251,330!2025-12-31,287,330-->
-- greater than ::@:: $\kappa >\aleph _{0};$ and <!--SR:!2027-08-16,737,330!2025-11-14,251,330-->
+- not less than or equal to ::@:: $\kappa \nleq \aleph _{0};$ <!--SR:!2029-01-06,1149,350!2025-12-31,287,330-->
+- greater than ::@:: $\kappa >\aleph _{0};$ and <!--SR:!2027-08-16,737,330!2029-01-01,1144,350-->
 - greater than or equal to $\kappa \geq \aleph _{1}$, where $\aleph _{1}=|\omega _{1}|$ and $\omega _{1}$ is the least [initial ordinal](von%20Neumann%20cardinal%20assignment.md#initial%20ordinal%20of%20a%20cardinal) greater than $\omega .$
 
 However, these {@{may all be different if the axiom of choice fails}@}. So it is {@{not obvious which one is the appropriate generalization of "uncountability"}@} when the axiom fails. It may be best to {@{avoid using the word in this case and specify which of these one means}@}. <!--SR:!2027-05-16,667,330!2027-11-14,807,330!2026-06-03,392,310-->

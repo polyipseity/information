@@ -53,7 +53,7 @@ As described above, {@{the starting vertex for the algorithm}@} will {@{be chose
 
 > ![The generation of a maze using a randomized Prim's algorithm. This maze is 30x20 in size.](../../archives/Wikimedia%20Commons/MAZE%2030x20%20Prim.ogv)
 >
-> Prim's algorithm has {@{many applications, such as in the [generation](maze%20generation%20algorithm.md) of this maze}@}, which {@{applies Prim's algorithm to a randomly weighted}@} [grid graph](lattice%20graph.md). <!--SR:!2025-11-14,275,330!2028-02-13,884,330-->
+> Prim's algorithm has {@{many applications, such as in the [generation](maze%20generation%20algorithm.md) of this maze}@}, which {@{applies Prim's algorithm to a randomly weighted}@} [grid graph](lattice%20graph.md). <!--SR:!2029-04-24,1257,350!2028-02-13,884,330-->
 
 {@{The time complexity of Prim's algorithm}@} depends on {@{the data structures used for the graph and for ordering the edges by weight}@}, which can be done {@{using a [priority queue](priority%20queue.md)}@}. The following table shows the typical choices: <!--SR:!2029-03-29,1236,350!2029-02-11,1200,350!2028-11-16,1131,350-->
 

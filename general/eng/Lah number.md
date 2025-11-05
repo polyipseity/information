@@ -59,7 +59,7 @@ For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {re
 
 ## identities and relations
 
-The Lah numbers {@{satisfy a variety of identities and relations}@}. <!--SR:!2025-11-14,294,330-->
+The Lah numbers {@{satisfy a variety of identities and relations}@}. <!--SR:!2029-07-18,1342,350-->
 
 In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {@{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}@} where {@{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}@}. <!--SR:!2026-11-04,536,310!2029-06-16,1317,350-->
 

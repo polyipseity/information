@@ -39,7 +39,7 @@ In {@{[fuzzy logic](fuzzy%20logic.md) and [modern many-valued logic](many-valued
 
 ## basic properties
 
-{@{The _indicator_ or _characteristic_ [function](function%20(mathematics).md) of a subset _A_ of some set _X_}@} {@{[maps](map%20(mathematics).md) elements of _X_ to the [range](range%20of%20a%20function.md) $\{0,1\}$}@}. <!--SR:!2025-11-14,242,330!2025-11-26,253,330-->
+{@{The _indicator_ or _characteristic_ [function](function%20(mathematics).md) of a subset _A_ of some set _X_}@} {@{[maps](map%20(mathematics).md) elements of _X_ to the [range](range%20of%20a%20function.md) $\{0,1\}$}@}. <!--SR:!2028-11-19,1101,350!2025-11-26,253,330-->
 
 This mapping is {@{[surjective](surjective%20function.md) only when _A_ is a non-empty [proper subset](subset.md) of _X_}@}. If {@{$A\equiv X$, then $\mathbf {1} _{A}=1$}@}. By a similar argument, if {@{$A\equiv \emptyset$ then $\mathbf {1} _{A}=0$}@}. <!--SR:!2025-11-16,245,330!2028-10-18,1077,350!2025-12-09,263,330-->
 

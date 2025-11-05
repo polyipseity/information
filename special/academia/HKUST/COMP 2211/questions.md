@@ -139,7 +139,7 @@ tags:
 > Q3. What does `print(len(r"\n Desmond is a good guy na!\n"))` output?
 >
 > - solution: {@{`30`}@}
-> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2025-11-14,253,330!2025-12-11,274,330-->
+> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2029-01-13,1156,350!2025-12-11,274,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -817,7 +817,7 @@ tags:
 > 3. Perform principal component analysis (PCA)
 > 4. Shuffle the dataset
 >
-> - solution: {@{4}@} <!--SR:!2025-11-14,253,330-->
+> - solution: {@{4}@} <!--SR:!2029-01-14,1157,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -893,7 +893,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2, 4}@}
-> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-12-09,272,330!2025-11-14,252,330-->
+> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-12-09,272,330!2029-01-08,1151,350-->
 
 <!-- markdownlint MD028 -->
 

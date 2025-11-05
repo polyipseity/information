@@ -35,7 +35,7 @@ An example of substitute goods are {@{tea and coffee}@}. These two goods {@{sati
 
 Formally, good $x_{j}$ is {@{a substitute for good $x_{i}$}@} if {@{when the [price](price.md) of $x_{i}$ rises the [demand](demand.md) for $x_{j}$ rises}@}, see figure 1. <!--SR:!2025-11-28,293,330!2029-01-14,1184,350-->
 
-Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is a substitute for $x_{i}$}@} if: {@{${\frac {\partial x_{j} }{\partial p_{i} } }>0$}@}. <!--SR:!2025-11-14,281,330!2028-10-30,1126,350!2026-01-29,346,350-->
+Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is a substitute for $x_{i}$}@} if: {@{${\frac {\partial x_{j} }{\partial p_{i} } }>0$}@}. <!--SR:!2029-05-20,1283,350!2028-10-30,1126,350!2026-01-29,346,350-->
 
 ## cross elasticity of demand
 
@@ -97,7 +97,7 @@ The common misconception is that {@{[competitive equilibrium](competitive%20equi
 
 ### within-category and cross-category substitutes
 
-{@{__Within-category substitutes__}@} are {@{goods that are members of the same taxonomic category}@} such as {@{goods sharing common attributes}@} \(e.g., chocolate, chairs, station wagons\). <!--SR:!2025-11-14,281,330!2025-11-27,292,330!2026-01-31,348,350-->
+{@{__Within-category substitutes__}@} are {@{goods that are members of the same taxonomic category}@} such as {@{goods sharing common attributes}@} \(e.g., chocolate, chairs, station wagons\). <!--SR:!2029-05-19,1282,350!2025-11-27,292,330!2026-01-31,348,350-->
 
 {@{__Cross-category substitutes__}@} are {@{goods that are members of different taxonomic categories but can satisfy the same goal}@}. {@{A person who wants chocolate but cannot acquire it}@}, for example, might {@{instead buy ice cream to satisfy the goal of having a dessert}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2029-02-14,1207,350!2027-11-14,823,330!2025-11-27,292,330!2028-08-20,1069,350-->
 

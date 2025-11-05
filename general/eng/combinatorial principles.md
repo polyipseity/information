@@ -9,7 +9,7 @@ tags:
 
 # combinatorial principles
 
-In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__ are commonly recognized and used}@}. <!--SR:!2029-06-13,1325,350!2025-11-14,305,330-->
+In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__ are commonly recognized and used}@}. <!--SR:!2029-06-13,1325,350!2028-08-16,1006,330-->
 
 {@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}. <!--SR:!2025-11-17,308,330!2029-06-11,1324,350!2025-11-15,306,330!2025-11-19,310,330!2029-06-01,1315,350!2026-05-06,381,290-->
 
@@ -25,7 +25,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: [rule of product](rule%20of%20product.md)
 
-{@{The rule of product}@} is {@{another intuitive principle}@} stating that if there are {@{_a_ ways to do something and _b_ ways to do another thing}@}, then there are {@{_a_ · _b_ ways to do both things}@}. <!--SR:!2026-12-28,613,330!2028-02-26,927,330!2025-11-21,312,330!2025-11-14,18,364-->
+{@{The rule of product}@} is {@{another intuitive principle}@} stating that if there are {@{_a_ ways to do something and _b_ ways to do another thing}@}, then there are {@{_a_ · _b_ ways to do both things}@}. <!--SR:!2026-12-28,613,330!2028-02-26,927,330!2025-11-21,312,330!2026-02-14,92,384-->
 
 ## inclusion–exclusion principle
 
@@ -57,7 +57,7 @@ Bijective proofs prove that {@{two sets have the same number of elements}@} by {
 
 - see: [pigeonhole principle](pigeonhole%20principle.md)
 
-The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, {@{demonstrate the existence of some element in a set with some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2025-11-14,305,330-->
+The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, {@{demonstrate the existence of some element in a set with some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2029-09-07,1393,350-->
 
 ## method of distinguished element
 

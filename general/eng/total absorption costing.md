@@ -27,7 +27,7 @@ tags:
 
 - Service or use basis: ::@:: If the benefit obtained by various departments from the overheads can be measured, overheads can be apportioned on that basis. <!--SR:!2026-06-15,243,330!2026-06-07,237,330-->
 - Survey basis: ::@:: If amount of overhead can't be measured survey basis can be applied. For example, if it can be noted that a supervisor is giving 60% of their time to one department and 40% to another, their wage can be apportioned on that basis. <!--SR:!2026-08-17,297,350!2026-06-19,246,330-->
-- Ability to pay basis: ::@:: In this case the apportionment may depend on the factors like total sale/profitability. This may not be a fair case always as some departments may have to take most of the burden. <!--SR:!2026-06-06,236,330!2025-11-14,29,290-->
+- Ability to pay basis: ::@:: In this case the apportionment may depend on the factors like total sale/profitability. This may not be a fair case always as some departments may have to take most of the burden. <!--SR:!2026-06-06,236,330!2026-03-10,116,310-->
 
 ## secondary apportionment
 
@@ -35,7 +35,7 @@ With the process of {@{primary apportionment or distribution}@}, {@{the loading 
 
 ### absorption
 
-{@{Each job}@} while {@{moving through the production department}@} should {@{get its share of overhead}@}. {@{This process of distribution of overheads}@} is called {@{absorption}@}. There can be {@{a number of methods of absorption of overheads}@}, consideration should be given to {@{the type of industry, manufacturing process, nature of industry etc.}@} {@{The various methods of absorption}@} are \(annotation: 5 items: {@{direct material cost percentage rate, direct labor cost percentage rate, prime cost percentage rate, labor hour rate, machine hour rate}@}\) <!--SR:!2026-06-21,248,330!2026-06-23,250,330!2026-06-24,251,330!2026-06-12,241,330!2026-06-16,244,330!2026-06-08,237,330!2026-03-24,175,310!2026-06-24,251,330!2025-11-14,28,290-->
+{@{Each job}@} while {@{moving through the production department}@} should {@{get its share of overhead}@}. {@{This process of distribution of overheads}@} is called {@{absorption}@}. There can be {@{a number of methods of absorption of overheads}@}, consideration should be given to {@{the type of industry, manufacturing process, nature of industry etc.}@} {@{The various methods of absorption}@} are \(annotation: 5 items: {@{direct material cost percentage rate, direct labor cost percentage rate, prime cost percentage rate, labor hour rate, machine hour rate}@}\) <!--SR:!2026-06-21,248,330!2026-06-23,250,330!2026-06-24,251,330!2026-06-12,241,330!2026-06-16,244,330!2026-06-08,237,330!2026-03-24,175,310!2026-06-24,251,330!2026-03-09,115,310-->
 
 - Direct material cost percentage rate
 - Direct labour cost percentage rate
