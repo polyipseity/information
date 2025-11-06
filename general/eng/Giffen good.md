@@ -43,7 +43,7 @@ Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}:
 >
 > —&hairsp;Alfred Marshall, _Principles of Economics_ \(1895 ed.\)<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-12-25,1163,350!2029-04-26,1259,350!2026-02-10,350,349!2028-11-03,1124,350!2028-01-22,870,330!2025-11-20,281,330!2025-11-19,280,330-->
 
-There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4\]](#^ref-4)</sup>  \(annotation: 3 items: {@{inferiority, un-substitutability, substantiality}@}; for {@{sufficient conditions}@}: replace {@{inferiority with income effect &gt; substitution effect}@}\) <!--SR:!2028-12-24,1162,350!2026-03-15,121,394-->
+There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4\]](#^ref-4)</sup>  \(annotation: 3 items: {@{inferiority, un-substitutability, substantiality}@}; for {@{sufficient conditions}@}: replace {@{inferiority with income effect &gt; substitution effect}@}\) <!--SR:!2028-12-24,1162,350!2026-03-15,121,394!2025-11-11,5,359!2025-11-11,5,359-->
 
 1. the good in question ::@:: must be an [inferior good](inferior%20good.md), <!--SR:!2029-04-28,1261,350!2028-09-23,1087,350-->
 2. there must be a lack of ::@:: close [substitute goods](substitute%20good.md), and <!--SR:!2028-12-19,1160,350!2028-11-04,1125,350-->
