@@ -43,7 +43,7 @@ Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is 
 
 > {@{![Figure 2: Graphical example of substitute goods](../../archives/Wikimedia%20Commons/Substitute%20good%20chart.jpg)}@}
 >
-> Figure 2: {@{Graphical example of substitute goods}@} <!--SR:!2025-11-27,292,330!2025-11-18,285,330-->
+> Figure 2: {@{Graphical example of substitute goods}@} <!--SR:!2025-11-27,292,330!2029-06-12,1302,350-->
 
 {@{The relationship between [demand schedules](demand%20curve.md)}@} determines {@{whether goods are classified as substitutes or complements}@}. {@{The [cross-price elasticity of demand](cross%20elasticity%20of%20demand.md)}@} shows {@{the relationship between two goods}@}, it captures {@{the responsiveness of the quantity demanded of one good to a change in price of another good}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-23,289,330!2028-10-12,1111,350!2029-01-01,1174,350!2028-08-21,1069,350!2028-10-23,1120,350-->
 
@@ -129,7 +129,7 @@ Additionally substitute goods have {@{a large impact on markets, consumer and se
 
 1. Markets characterised by close/perfect substitute goods experience {@{great [volatility](volatility%20(finance).md) in prices}@}.<sup>[\[22\]](#^ref-22)</sup> This volatility {@{negatively impacts producers' profits, as it is possible to earn higher profits in markets with fewer substitute products}@}. That is, perfect substitute results in {@{profits being driven down to zero as seen in perfectly competitive markets equilibrium}@}.
 2. As a result of {@{the intense competition caused the availability of substitute goods}@}, {@{low quality products can arise}@}. Since {@{prices are reduced to capture a larger share of the market}@}, firms try to {@{reduce their utilisation of resources which in turn will reduce their costs}@}.<sup>[\[22\]](#^ref-22)</sup>
-3. In a market with close/perfect substitutes, customers have {@{a wide range of products to choose from}@}. As {@{the number of substitutes increase}@}, the probability that {@{every consumer selects what is right for them also increases}@}.<sup>[\[22\]](#^ref-22)</sup> That is, consumers can {@{reach a higher overall utility level from the availability of substitute products}@}. <!--SR:!2025-11-29,294,330!2027-09-12,783,330!2026-08-16,471,310!2028-12-06,1155,350!2025-11-18,285,330!2027-08-11,751,330!2027-06-27,727,330!2025-11-20,286,330!2028-01-21,835,330!2026-02-02,349,350!2026-03-01,119,395-->
+3. In a market with close/perfect substitutes, customers have {@{a wide range of products to choose from}@}. As {@{the number of substitutes increase}@}, the probability that {@{every consumer selects what is right for them also increases}@}.<sup>[\[22\]](#^ref-22)</sup> That is, consumers can {@{reach a higher overall utility level from the availability of substitute products}@}. <!--SR:!2025-11-29,294,330!2027-09-12,783,330!2026-08-16,471,310!2028-12-06,1155,350!2029-06-11,1301,350!2027-08-11,751,330!2027-06-27,727,330!2025-11-20,286,330!2028-01-21,835,330!2026-02-02,349,350!2026-03-01,119,395-->
 
 ## see also
 

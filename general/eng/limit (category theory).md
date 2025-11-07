@@ -63,7 +63,7 @@ It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if
 
 {@{A __colimit__ of a diagram $F:J\to C$}@} is {@{a co-cone $(L,\phi )$ of $F$}@} such that {@{for any other co-cone $(N,\psi )$ of $F$ there exists a unique morphism $u:L\to N$ such that $u\circ \phi _{X}=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal co-cone](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg)}@} <!--SR:!2026-04-16,358,358!2025-12-11,252,338!2026-02-16,309,353!2027-11-05,772,338-->
 
-Colimits are also referred to as {@{_[universal co-cones](universal%20co-cone.md#universal%20cones)_}@}. They can be {@{characterized as [initial objects](initial%20object.md)}@} in {@{the [category of co-cones](category%20of%20co-cones.md#category%20of%20cones) from $F$}@}. <!--SR:!2026-03-13,329,353!2026-05-06,372,358!2025-11-18,231,338-->
+Colimits are also referred to as {@{_[universal co-cones](universal%20co-cone.md#universal%20cones)_}@}. They can be {@{characterized as [initial objects](initial%20object.md)}@} in {@{the [category of co-cones](category%20of%20co-cones.md#category%20of%20cones) from $F$}@}. <!--SR:!2026-03-13,329,353!2026-05-06,372,358!2028-10-28,1075,358-->
 
 As with {@{limits}@}, {@{if a diagram $F$ has a colimit then this colimit is unique up to a unique isomorphism}@}. <!--SR:!2026-01-09,276,330!2026-02-22,315,353-->
 

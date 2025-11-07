@@ -26,7 +26,7 @@ It is straightforward to show that {@{a Dedekind cut among the real numbers is u
 A Dedekind cut is {@{a partition of the rationals $\mathbb {Q}$ into two subsets $A$ and $B$}@} such that <!--SR:!2028-10-29,1093,350-->
 
 1. non-emptyness ::@:: $A$ is nonempty. <!--SR:!2025-11-26,260,330!2028-09-22,1064,350-->
-2. non-emptyness of complement ::@:: $A\neq \mathbb {Q}$ \(equivalently, $B$ is nonempty\). <!--SR:!2025-12-14,275,330!2025-11-18,255,330-->
+2. non-emptyness of complement ::@:: $A\neq \mathbb {Q}$ \(equivalently, $B$ is nonempty\). <!--SR:!2025-12-14,275,330!2029-01-21,1160,350-->
 3. downward closure ::@:: If $x,y\in \mathbb {Q}$, $x<y$, and $y\in A$, then $x\in A$. \($A$ is "closed downwards".\) <!--SR:!2025-12-20,279,330!2025-12-27,283,330-->
 4. no greatest element ::@:: If $x\in A$, then there exists a $y\in A$ such that $y>x$. \($A$ does not contain a greatest element.\) <!--SR:!2028-12-21,1136,350!2028-01-01,841,330-->
 
@@ -44,7 +44,7 @@ For example if {@{_A_ and _B_ only contain [rational numbers](rational%20number.
 
 ## ordering of cuts
 
-Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C_, _D_\) \(of the same superset\)}@} if {@{_A_ is a proper subset of _C_}@}. Equivalently, if {@{_D_ is a proper subset of _B_}@}, {@{the cut \(_A_, _B_\) is again _less than_ \(_C_, _D_\)}@}. In this way, {@{set inclusion can be used to represent the ordering of numbers}@}, and {@{all other relations \(_greater than_, _less than or equal to_, _equal to_, and so on\) can be similarly created from set relations}@}. <!--SR:!2025-11-18,255,330!2027-06-16,691,330!2028-10-24,1090,350!2027-07-30,725,330!2025-12-10,272,330!2026-01-01,288,330-->
+Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C_, _D_\) \(of the same superset\)}@} if {@{_A_ is a proper subset of _C_}@}. Equivalently, if {@{_D_ is a proper subset of _B_}@}, {@{the cut \(_A_, _B_\) is again _less than_ \(_C_, _D_\)}@}. In this way, {@{set inclusion can be used to represent the ordering of numbers}@}, and {@{all other relations \(_greater than_, _less than or equal to_, _equal to_, and so on\) can be similarly created from set relations}@}. <!--SR:!2029-01-22,1161,350!2027-06-16,691,330!2028-10-24,1090,350!2027-07-30,725,330!2025-12-10,272,330!2026-01-01,288,330-->
 
 {@{The set of all Dedekind cuts}@} is {@{itself a linearly ordered set \(of sets\)}@}. Moreover, {@{the set of Dedekind cuts has the [least-upper-bound property](least-upper-bound%20property.md)}@}, i.e., {@{every nonempty subset of it that has any upper bound has a _least_ upper bound}@}. Thus, {@{constructing the set of Dedekind cuts}@} serves the purpose of {@{embedding the original ordered set _S_, which might not have had the least-upper-bound property}@}, within {@{a \(usually larger\) linearly ordered set that does have this useful property}@}. <!--SR:!2028-09-02,1048,350!2025-12-04,267,330!2026-01-01,289,330!2025-12-13,274,330!2025-12-26,284,330!2025-12-10,272,330!2029-01-05,1149,350-->
 

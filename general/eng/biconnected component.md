@@ -23,7 +23,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected component__ or __
 
 {@{The classic [sequential algorithm](sequential%20algorithm.md) for computing biconnected components in a connected [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@} is due to {@{[John Hopcroft](John%20Hopcroft.md) and [Robert Tarjan](Robert%20Tarjan.md) \(1973\)}@}.<sup>[\[2\]](#^ref-2)</sup> It runs in {@{[linear time](time%20complexity.md#linear%20time)}@}, and is {@{based on [depth-first search](depth-first%20search.md)}@}. This algorithm is also outlined as {@{Problem 22-2 of [Introduction to Algorithms](Introduction%20to%20Algorithms.md) \(both 2nd and 3rd editions\)}@}. <!--SR:!2026-03-23,333,290!2026-12-02,484,270!2028-11-09,1101,350!2027-10-01,775,335!2027-11-04,754,290-->
 
-The idea is to {@{run a depth-first search while maintaining the following information}@}: <!--SR:!2025-11-18,255,330-->
+The idea is to {@{run a depth-first search while maintaining the following information}@}: <!--SR:!2029-01-24,1163,350-->
 
 1. depth ::@:: the depth of each vertex in the depth-first-search tree \(once it gets visited\), and <!--SR:!2026-01-21,306,335!2027-07-04,638,315-->
 2. lowpoint ::@:: for each vertex _v_, the lowest depth of neighbors of all descendants of _v_ \(including _v_ itself\) in the depth-first-search tree, called the __lowpoint__. <!--SR:!2026-03-27,331,290!2026-09-30,486,315-->

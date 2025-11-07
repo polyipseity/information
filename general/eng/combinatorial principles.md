@@ -19,7 +19,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: [rule of sum](addition%20principle.md)
 
-{@{The rule of sum}@} is {@{an intuitive principle}@} stating that if there are {@{_a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing)}@}, and {@{the two events cannot both occur (or the two things can't both be done)}@}, then there are {@{_a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md)}@} is equal to {@{the size of their union}@}. <!--SR:!2029-06-02,1316,350!2028-06-09,957,330!2025-11-18,309,330!2026-01-15,305,290!2026-02-27,103,384!2026-02-21,98,384!2026-02-24,100,384-->
+{@{The rule of sum}@} is {@{an intuitive principle}@} stating that if there are {@{_a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing)}@}, and {@{the two events cannot both occur (or the two things can't both be done)}@}, then there are {@{_a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md)}@} is equal to {@{the size of their union}@}. <!--SR:!2029-06-02,1316,350!2028-06-09,957,330!2029-09-27,1409,350!2026-01-15,305,290!2026-02-27,103,384!2026-02-21,98,384!2026-02-24,100,384-->
 
 ## rule of product
 
@@ -39,7 +39,7 @@ Generally, according to this principle, if {@{_A_<sub>1</sub>, …, _A<sub>n</su
 
 - see: [rule of division (combinatorics)](rule%20of%20division%20(combinatorics).md)
 
-The rule of division states that {@{there are _n/d_ ways to do a task}@} if {@{it can be done using a procedure that can be carried out in _n_ ways}@}, and for {@{every way _w_, exactly _d_ of the _n_ ways of the procedure correspond to way _w_}@}. <!--SR:!2029-05-26,1310,350!2025-11-18,309,330!2029-05-27,1311,350-->
+The rule of division states that {@{there are _n/d_ ways to do a task}@} if {@{it can be done using a procedure that can be carried out in _n_ ways}@}, and for {@{every way _w_, exactly _d_ of the _n_ ways of the procedure correspond to way _w_}@}. <!--SR:!2029-05-26,1310,350!2029-09-26,1408,350!2029-05-27,1311,350-->
 
 ## bijective proof
 

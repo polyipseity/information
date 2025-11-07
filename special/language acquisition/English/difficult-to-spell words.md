@@ -49,7 +49,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [deprecation](https://en.wiktionary.org/wiki/deprecation) ::@:: \(d_n\) The act of deprecating. <!--SR:!2026-03-15,158,429!2026-03-15,158,429-->
 - [depreciate](https://en.wiktionary.org/wiki/depreciate) ::@:: \(d_e\) To lessen in price or estimated value; to lower the worth of. <!--SR:!2026-03-16,159,429!2026-02-03,118,409-->
 - [depreciation](https://en.wiktionary.org/wiki/depreciation) ::@:: \(d_n\) The measurement of the decline in value of assets. Not to be confused with impairment, which is the measurement of the unplanned, extraordinary decline in value of assets. <!--SR:!2026-03-14,157,429!2026-03-16,159,429-->
-- [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::@:: \(d\_s\) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2026-11-28,838,433-->
+- [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::@:: \(d\_s\) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2032-12-29,2598,412!2026-11-28,838,433-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::@:: \(d\_e\) To make different. <!--SR:!2029-05-28,1545,364!2027-12-28,1109,344-->
 - [discipline](https://en.wiktionary.org/wiki/discipline) ::@:: \(d_e\) A controlled behaviour; self-control. <!--SR:!2026-01-31,140,423!2026-01-29,138,423-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::@:: \(d\_e\) That dissipates or causes dissipation. <!--SR:!2029-11-18,1685,364!2027-12-25,1054,344-->

@@ -15,13 +15,13 @@ The __law of supply__ is {@{a fundamental principle of [economic theory](economi
 
 In short, the law of supply is {@{a positive relationship between quantity supplied and price}@}, and is {@{the reason for the upward slope of the supply curve}@}. <!--SR:!2025-11-25,293,330!2025-11-26,294,330-->
 
-{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {@{dispute the law of supply, arguing that the supply curve for mass-produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down, and conversely, if demand is very low, unit prices go up}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-11-18,287,330!2025-11-25,293,330!2025-11-26,294,330-->
+{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {@{dispute the law of supply, arguing that the supply curve for mass-produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down, and conversely, if demand is very low, unit prices go up}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-06-23,1313,350!2025-11-25,293,330!2025-11-26,294,330-->
 
 ## definition
 
 A supply is {@{a good or [service](service%20(economics).md) that [producers](production%20(economics).md) are willing to provide}@}. The law of supply determines {@{the quantity of supply at a given price}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-25,293,330!2025-11-26,294,330-->
 
-{@{The [law of supply and demand](supply%20and%20demand.md)}@} states that, for a given product, if {@{the quantity demanded exceeds the quantity supplied, then the price increases, which decreases the demand ([law of demand](law%20of%20demand.md)) and increases the supply (law of supply)—and vice versa}@}—until {@{the quantity supplied equals the quantity demanded}@}. <!--SR:!2029-06-16,1307,350!2025-11-26,294,330!2025-11-18,287,330-->
+{@{The [law of supply and demand](supply%20and%20demand.md)}@} states that, for a given product, if {@{the quantity demanded exceeds the quantity supplied, then the price increases, which decreases the demand ([law of demand](law%20of%20demand.md)) and increases the supply (law of supply)—and vice versa}@}—until {@{the quantity supplied equals the quantity demanded}@}. <!--SR:!2029-06-16,1307,350!2025-11-26,294,330!2029-06-22,1312,350-->
 
 For example, a job paying £20/hr attracts {@{more interest than a job paying £15/hr}@}, and a high [interest rate](interest%20rate.md) attracts {@{lenders and deters borrowers}@}. <!--SR:!2029-06-02,1294,350!2029-06-17,1308,350-->
 

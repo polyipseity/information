@@ -30,7 +30,7 @@ Each row represents {@{an actual class while each column represents a predicted 
 
 ## error report
 
-An __error report__ {@{is a related table that can be constructed from a confusion matrix}@}. The column headers are, in order, {@{(actual) class, number of cases (# cases), number of errors (# errors), and percentage error (% error)}@}. The row headers are {@{all possible classes, with an additional "total" at the end that considers all classes at once}@}. <!--SR:!2028-09-13,1184,310!2028-09-13,1144,290!2025-11-18,367,270-->
+An __error report__ {@{is a related table that can be constructed from a confusion matrix}@}. The column headers are, in order, {@{(actual) class, number of cases (# cases), number of errors (# errors), and percentage error (% error)}@}. The row headers are {@{all possible classes, with an additional "total" at the end that considers all classes at once}@}. <!--SR:!2028-09-13,1184,310!2028-09-13,1144,290!2029-08-28,1379,290-->
 
 > [!example] examples
 >

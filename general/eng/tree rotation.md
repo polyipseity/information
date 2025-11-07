@@ -134,7 +134,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 >
 > _Can {@{the rotation distance between two binary trees be computed in polynomial time}@}?_
 >
-> [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2025-11-18,255,330-->
+> [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2029-01-26,1165,350-->
 
 {@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2027-07-13,712,330!2027-12-08,826,330!2025-12-31,288,330!2025-12-01,264,330-->
 

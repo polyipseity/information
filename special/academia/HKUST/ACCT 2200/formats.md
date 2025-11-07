@@ -345,7 +345,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - activity cost driver - setups
   - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2027-08-26,681,330!2026-03-13,285,330-->
-  - activity cost driver - setups / row headers ::@:: activity cost pool, number of units produced, average units per batch, number of setups <!--SR:!2025-11-18,170,310!2026-02-06,250,330-->
+  - activity cost driver - setups / row headers ::@:: activity cost pool, number of units produced, average units per batch, number of setups <!--SR:!2027-05-06,534,310!2026-02-06,250,330-->
 
 ## total manufacturing overhead
 

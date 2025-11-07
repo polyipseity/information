@@ -83,7 +83,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2033-02-22,2800,333!2026-04-26,761,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2027-05-03,1066,270!2025-12-25,783,328-->
-- repeat last search ::@:: n <!--SR:!2027-02-27,1125,333!2025-11-18,767,328-->
+- repeat last search ::@:: n <!--SR:!2027-02-27,1125,333!2035-05-20,3470,348-->
 - repeat last search reversed ::@:: N <!--SR:!2032-11-23,2731,333!2027-07-07,1088,288-->
 - repeat last search forward ::@:: /\<Enter\> <!--SR:!2027-06-26,1080,293!2027-09-29,1159,293-->
 - repeat last search backward ::@:: ?\<Enter\> <!--SR:!2029-10-17,1826,313!2031-11-16,2257,288-->

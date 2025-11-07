@@ -72,7 +72,7 @@ For the generalisations, _n_ and _m_ can be {@{any value > 0, and they may be th
 
 ## mathematical theory
 
-Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2025-11-18,311,341!2029-05-23,1309,350!2026-01-16,312,301!2027-10-25,794,301-->
+Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2029-11-20,1463,361!2029-05-23,1309,350!2026-01-16,312,301!2027-10-25,794,301-->
 
 While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2029-09-17,1412,361!2026-12-07,603,341!2026-12-23,615,341-->
 
@@ -135,7 +135,7 @@ In a misère game with heaps of sizes three, four and five, the strategy would b
 
 The soundness of the optimal strategy described above was demonstrated by {@{C. Bouton}@}. <!--SR:!2029-09-18,1413,361-->
 
-__Theorem__. ::@:: In a normal nim game, the player making the first move has a winning strategy if and only if the nim-sum of the sizes of the heaps is not zero. Otherwise, the second player has a winning strategy. <!--SR:!2029-08-15,1385,361!2025-11-18,311,341-->
+__Theorem__. ::@:: In a normal nim game, the player making the first move has a winning strategy if and only if the nim-sum of the sizes of the heaps is not zero. Otherwise, the second player has a winning strategy. <!--SR:!2029-08-15,1385,361!2028-10-09,1056,341-->
 
 _Proof:_ Notice that {@{the nim-sum \(⊕\)}@} obeys {@{the usual [associative](associative%20property.md) and [commutative](commutative%20property.md) laws of addition \(+\)}@} and also satisfies {@{an additional property, _x_ ⊕ _x_ = 0}@}. <!--SR:!2028-06-02,952,330!2025-11-22,26,378!2025-11-22,26,378-->
 
@@ -240,7 +240,7 @@ In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of ob
 
 Greedy nim is a variation wherein {@{the players are restricted to choosing stones from only the largest pile}@}.<sup>[\[10\]](#^ref-10)</sup> It is {@{a finite [impartial game](impartial%20game.md)}@}. Greedy nim misère has {@{the same rules as greedy nim, but the last player able to make a move loses}@}. <!--SR:!2029-08-09,1380,361!2029-05-31,1315,350!2025-12-20,335,341-->
 
-Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {@{considering the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2025-12-09,326,341!2029-11-05,1450,361!2027-04-15,643,341!2029-08-13,1383,361!2026-01-07,351,341!2025-11-24,317,341!2025-11-18,311,341!2025-11-21,314,341-->
+Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {@{considering the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2025-12-09,326,341!2029-11-05,1450,361!2027-04-15,643,341!2029-08-13,1383,361!2026-01-07,351,341!2025-11-24,317,341!2029-11-19,1462,361!2025-11-21,314,341-->
 
 - If _p_<sub>_n_</sub> is odd, ::@:: the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2026-12-18,612,341!2027-10-03,824,330-->
 - If _p_<sub>_n_</sub> is even, ::@:: the largest heap is removed entirely, leaving an even number of largest heaps. <!--SR:!2025-11-24,317,341!2028-10-31,1127,341-->
