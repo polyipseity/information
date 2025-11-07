@@ -818,7 +818,7 @@ The content is in teaching order.
 - second-price sealed-bid auction
   - second-price sealed-bid auction / proof of dominance of truthful bidding
 - revenue equivalence
-  - revenue equivalence / derivation ::@:: You can construct the CDF for the revenue first \(FPSBA: $\max\left\{\frac {n - 1} n a, \frac {n - 1} n b, \ldots \right\}$, SPSBA: $\max\set{a, b, \ldots}$\), and then differentiate it to find its PDF, and finally find its expected value \(integrated over the possible revenue range with nonzero probability\). <!--SR:!2025-12-26,154,432!2025-11-16,114,414-->
+  - revenue equivalence / derivation ::@:: You can construct the CDF for the revenue first \(FPSBA: $\max\left\{\frac {n - 1} n a, \frac {n - 1} n b, \ldots \right\}$, SPSBA: $\max\set{a, b, \ldots}$\), and then differentiate it to find its PDF, and finally find its expected value \(integrated over the possible revenue range with nonzero probability\). <!--SR:!2025-12-26,154,432!2027-08-22,644,434-->
 
 ## week 12 lecture
 

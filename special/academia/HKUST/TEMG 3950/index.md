@@ -91,7 +91,7 @@ The content is in teaching order.
 - [d.school design thinking bootleg § define](../../../d.school%20design%20thinking%20bootleg.md#define)
 - [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
   - "how might we" statement
-    - "how might we" statement examples ::@:: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2025-11-16,369,295!2030-01-17,1645,375-->
+    - "how might we" statement examples ::@:: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2030-01-05,1511,315!2030-01-17,1645,375-->
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
 - [assignment W5](assignment%20W5/assignment%20W5.md)
 
@@ -210,7 +210,7 @@ The content is in teaching order.
 - datetime: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
 - critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2027-09-19,925,361!2029-09-24,1522,381-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
-  - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2029-02-11,1358,381!2025-11-16,419,381-->
+  - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2029-02-11,1358,381!2031-11-08,2183,401-->
   - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2028-02-18,1044,361!2026-01-14,470,381-->
 - nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2025-12-14,445,381-->
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2029-02-12,1359,381!2025-11-18,421,381-->

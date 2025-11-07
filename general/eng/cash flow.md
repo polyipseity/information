@@ -93,7 +93,7 @@ And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotatio
 | &emsp;Taxes                          | -5            |               |
 | {@{__Cash flow from investments__}@} |               | {@{__-10__}@} |
 | &emsp;Purchased capital              | -10           |               |
-| {@{__Total__}@}                      |               | {@{__60__}@}  | <!--SR:!2025-12-01,255,330!2025-12-06,259,330!2026-01-19,293,330!2025-11-16,242,330!2026-01-20,294,330!2025-11-19,243,330-->
+| {@{__Total__}@}                      |               | {@{__60__}@}  | <!--SR:!2025-12-01,255,330!2025-12-06,259,330!2026-01-19,293,330!2028-11-20,1100,350!2026-01-20,294,330!2025-11-19,243,330-->
 
 The net cash flow only {@{provides a limited amount of information}@}. Compare, for instance, the cash flows over three years of two companies: <!--SR:!2025-11-22,248,330-->
 

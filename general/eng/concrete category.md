@@ -28,7 +28,7 @@ It is customary to call {@{the morphisms in a concrete category _homomorphisms_ 
 
 ## remarks
 
-Contrary to intuition, concreteness is {@{not a [property](property%20(philosophy).md) that a category may or may not satisfy}@}, but {@{rather a structure with which a category may or may not be equipped}@}. In particular, a category _C_ may {@{admit several faithful functors into __Set__}@}. Hence there may be {@{several concrete categories \(_C_, _U_\) all corresponding to the same category _C_}@}. <!--SR:!2026-03-17,336,344!2027-06-16,676,330!2025-11-16,236,330!2026-02-18,315,344-->
+Contrary to intuition, concreteness is {@{not a [property](property%20(philosophy).md) that a category may or may not satisfy}@}, but {@{rather a structure with which a category may or may not be equipped}@}. In particular, a category _C_ may {@{admit several faithful functors into __Set__}@}. Hence there may be {@{several concrete categories \(_C_, _U_\) all corresponding to the same category _C_}@}. <!--SR:!2026-03-17,336,344!2027-06-16,676,330!2028-10-25,1074,350!2026-02-18,315,344-->
 
 In practice, however, {@{the choice of faithful functor is often clear}@} and in this case we {@{simply speak of the "concrete category _C_"}@}. For example, "{@{the concrete category __Set__}@}" means {@{the pair \(__Set__, _I_\) where _I_ denotes the [identity functor](identity%20functor.md#identity%20functor) __Set__ → __Set__}@}. <!--SR:!2026-03-20,337,344!2026-01-03,276,330!2026-01-31,301,344!2026-03-20,337,344-->
 

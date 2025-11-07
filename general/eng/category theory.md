@@ -40,8 +40,8 @@ tags:
 #### examples
 
 - The category __[Set](category%20of%20sets.md)__
-  - As the class of objects ${\text{ob} }({\text{Set} })$, ::@:: we choose the class of all sets. <!--SR:!2026-01-13,289,330!2025-11-16,242,330-->
-  - As the class of morphisms ${\text{hom} }({\text{Set} })$, ::@:: we choose the class of all [functions](function%20(mathematics).md). Therefore, for two objects _A_ and _B_, i.e. sets, we have ${\text{hom} }(A,B)$ to be the class of all functions ⁠$f$⁠ such that ⁠$f:A\mapsto B$⁠. <!--SR:!2025-12-13,264,330!2025-11-16,242,330-->
+  - As the class of objects ${\text{ob} }({\text{Set} })$, ::@:: we choose the class of all sets. <!--SR:!2026-01-13,289,330!2028-11-21,1101,350-->
+  - As the class of morphisms ${\text{hom} }({\text{Set} })$, ::@:: we choose the class of all [functions](function%20(mathematics).md). Therefore, for two objects _A_ and _B_, i.e. sets, we have ${\text{hom} }(A,B)$ to be the class of all functions ⁠$f$⁠ such that ⁠$f:A\mapsto B$⁠. <!--SR:!2025-12-13,264,330!2028-11-21,1101,350-->
   - The composition of morphisms ⁠$\circ$ ::@::⁠ is simply the usual [function composition](function%20composition.md), i.e. for two morphisms ⁠$f:A\mapsto B$⁠ and ⁠$g:B\mapsto C$⁠, we have ⁠$g\circ f:A\mapsto C$⁠, $(g\circ f)(x)=g(f(x))$, which is obviously associative. Furthermore, for every object _A_ we have the identity morphism ${\text{id} }_{A}$ to be the identity map ${\text{id} }_{A}:A\mapsto A$, ${\text{id} }_{A}(x)=x$ on _A_ <!--SR:!2025-11-27,251,330!2025-12-11,263,330-->
 
 ### morphisms

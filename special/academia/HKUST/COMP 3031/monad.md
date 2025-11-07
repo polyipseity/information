@@ -290,7 +290,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 {@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`‑expression}@}. <!--SR:!2026-01-09,59,310!2026-01-13,63,310!2026-01-16,65,310-->
 
-{@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!2026-01-12,62,310!2026-01-14,63,310!2025-11-16,4,330-->
+{@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!2026-01-12,62,310!2026-01-14,63,310!2025-12-03,17,350-->
 
 > [!example] __flatten `for`-expressions__
 >
@@ -303,7 +303,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 > } yield z
 > == for { x <- m; y <- f(x); z <- g(y) } yield z
 > ```
-<!--SR:!2026-01-16,65,310!2026-01-09,59,310!2025-11-16,4,330-->
+<!--SR:!2026-01-16,65,310!2026-01-09,59,310!2025-12-03,17,350-->
 
 {@{The right‑unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left‑unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!2026-01-11,61,310!2026-01-15,64,310!2026-01-18,67,310!2026-01-16,65,310!2026-01-09,59,310!2026-01-16,65,310!2026-01-17,66,310!2026-01-08,58,310-->
 

@@ -88,7 +88,7 @@ To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a
 
 Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2025-11-26,344,345!2029-08-18,1420,365!2027-03-02,697,345-->
 
-It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2025-11-16,337,345-->
+It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2030-04-01,1597,365-->
 
 To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} requires {@{the induction axiom due to the way multiplication is defined}@}: <!--SR:!2028-01-04,848,325!2026-02-08,120,392!2026-02-07,119,392-->
 
@@ -127,7 +127,7 @@ This form of the induction axiom, called {@{_strong induction_, is a consequence
 - proving the naturals are well-ordered / base case ::@:: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2026-08-24,541,325!2027-06-05,760,330-->
 - proving the naturals are well-ordered / induction ::@:: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2026-05-20,469,325!2029-03-30,1255,325-->
 
-Thus, by {@{the strong induction principle}@}, for {@{every _n_ ∈ __N__, _n_ ∉ _X_}@}. Thus, {@{_X_ ∩ __N__ = ∅}@}, which {@{[contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2027-12-07,778,285!2028-01-14,946,345!2026-03-15,121,396!2025-11-16,25,376!2025-11-16,25,376-->
+Thus, by {@{the strong induction principle}@}, for {@{every _n_ ∈ __N__, _n_ ∉ _X_}@}. Thus, {@{_X_ ∩ __N__ = ∅}@}, which {@{[contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2027-12-07,778,285!2028-01-14,946,345!2026-03-15,121,396!2026-03-28,132,396!2026-03-27,131,396-->
 
 ## references
 

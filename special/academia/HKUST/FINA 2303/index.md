@@ -157,7 +157,7 @@ The content is in teaching order.
 - time value of money
   - time value of money / timeline ::@:: This tool can visualize cash inflows and outflows easily. It is a number line staring from time 0 on the left. Label cash inflows (positive; e.g. return), cash outflows (negative; e.g. investments), and their amounts under the number line. <!--SR:!2026-06-21,382,368!2026-06-23,384,368-->
   - time value of money / future value ::@:: Move the cash flow forward in time: $FV = PV \cdot (1 + r)^t$, where $t$ is the number of time periods forward (beware of off-by-one error). <!--SR:!2026-07-04,394,368!2026-06-22,383,368-->
-    - time value of money / future value / compounding ::@:: Future value uses compound interest instead of simple interest. In the former, interest is earned on principal only. In the latter, interest is earned on principal and interest received. <p> Given a long enough time, compound interest gives much money money than simple interest. On a graph, compound interest increases exponentially while simple interest increases linearly. <!--SR:!2026-07-05,395,368!2025-11-16,208,348-->
+    - time value of money / future value / compounding ::@:: Future value uses compound interest instead of simple interest. In the former, interest is earned on principal only. In the latter, interest is earned on principal and interest received. <p> Given a long enough time, compound interest gives much money money than simple interest. On a graph, compound interest increases exponentially while simple interest increases linearly. <!--SR:!2026-07-05,395,368!2028-08-05,993,368-->
   - time value of money / present value ::@:: Move the cash flow backward in time: $PV = \frac {FV} {(1 + r)^t}$, where $t$ is the number of time periods backwards (beware of off-by-one error). <!--SR:!2026-07-06,396,368!2026-05-29,359,368-->
   - time value of money / combining cash flow ::@:: Only cash flows at the same time can be added together. Cash flows at different time must be converted to cash flows at the same time by either compounding or discounting cash flows. <!--SR:!2026-03-23,292,348!2027-11-04,719,348-->
 - [financial calculator](../../../../general/financial%20calculator.md)
@@ -166,7 +166,7 @@ The content is in teaching order.
 - time value of money
   - time value of money / finding number of periods ::@:: $N = \frac {\ln(FV / PV)} {\ln(1 + r)} = \frac {\ln FV - \ln PV} {\ln(1 + r)}$, which has units of period (usually year) <!--SR:!2026-07-17,406,368!2026-07-20,409,368-->
   - time value of money / finding interest rate ::@:: $r = (FV / PV)^{1 / N} - 1$ <!--SR:!2026-06-26,387,368!2026-07-16,405,368-->
-- [rule of 72](../../../../general/rule%20of%2072.md) (or 70 or 69.3) ::@:: How long does it take to double your investment? This rule gives a rough approximation. <p> The rule states, to double your investment, the interest rate per period in _percentage_ multiplied by the number of periods should be approximately 72. <!--SR:!2025-11-16,208,348!2025-11-21,212,348-->
+- [rule of 72](../../../../general/rule%20of%2072.md) (or 70 or 69.3) ::@:: How long does it take to double your investment? This rule gives a rough approximation. <p> The rule states, to double your investment, the interest rate per period in _percentage_ multiplied by the number of periods should be approximately 72. <!--SR:!2028-08-06,994,368!2025-11-21,212,348-->
 - [questions § week 2 lecture](questions.md#week%202%20lecture)
 - [TAPPS/week 2 lecture](assignments/TAPPS/week%202%20lecture.md)
 - readings: chapter 4

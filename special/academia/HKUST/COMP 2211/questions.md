@@ -60,7 +60,7 @@ tags:
 > 3. Neurobiology
 > 4. Cognition science
 >
-> - solution: {@{2}@} <!--SR:!2025-11-16,255,330-->
+> - solution: {@{2}@} <!--SR:!2029-01-25,1166,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -610,7 +610,7 @@ tags:
 > 3. O(n), O(1)
 > 4. O(1), O(n)
 >
-> - solution: {@{4 (in a computation model where storage takes constant time)}@} <!--SR:!2025-11-16,255,330-->
+> - solution: {@{4 (in a computation model where storage takes constant time)}@} <!--SR:!2029-01-19,1160,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1589,7 +1589,7 @@ tags:
 > Q16. (medium) True or false: Consider a Markov chain with a state space $\{ S_1, S_2, \cdots, S_N \}$ and a discount factor $\gamma \in (0, 1)$. Each $V_1(S_1), V_1(S_2), \cdots, V_1(S_N)$ is finite. Then, using _value iteration_, $\lim_{n\to\infty} V_n(\text{state}_i)$ converges for any $\text{state}_i \in \text{state space}$.
 >
 > - solution: {@{true}@}
-> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-11-16,254,330!2027-01-12,512,310-->
+> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2029-01-22,1163,350!2027-01-12,512,310-->
 
 <!-- markdownlint MD028 -->
 

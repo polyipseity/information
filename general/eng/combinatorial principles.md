@@ -9,7 +9,7 @@ tags:
 
 # combinatorial principles
 
-In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__}@} are {@{commonly recognized and used}@}. <!--SR:!2029-06-13,1325,350!2028-08-16,1006,330!2025-11-11,5,354-->
+In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__}@} are {@{commonly recognized and used}@}. <!--SR:!2029-06-13,1325,350!2028-08-16,1006,330!2025-12-10,24,374-->
 
 {@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}. <!--SR:!2025-11-17,308,330!2029-06-11,1324,350!2029-09-09,1394,350!2025-11-19,310,330!2029-06-01,1315,350!2026-05-06,381,290-->
 
@@ -19,7 +19,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: [rule of sum](addition%20principle.md)
 
-{@{The rule of sum}@} is {@{an intuitive principle}@} stating that if there are {@{_a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing)}@}, and {@{the two events cannot both occur (or the two things can't both be done)}@}, then there are {@{_a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md)}@} is equal to {@{the size of their union}@}. <!--SR:!2029-06-02,1316,350!2028-06-09,957,330!2025-11-18,309,330!2026-01-15,305,290!2025-11-16,20,364!2026-02-21,98,384!2025-11-16,20,364-->
+{@{The rule of sum}@} is {@{an intuitive principle}@} stating that if there are {@{_a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing)}@}, and {@{the two events cannot both occur (or the two things can't both be done)}@}, then there are {@{_a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md)}@} is equal to {@{the size of their union}@}. <!--SR:!2029-06-02,1316,350!2028-06-09,957,330!2025-11-18,309,330!2026-01-15,305,290!2026-02-27,103,384!2026-02-21,98,384!2026-02-24,100,384-->
 
 ## rule of product
 
@@ -57,13 +57,13 @@ Bijective proofs prove that {@{two sets have the same number of elements}@} by {
 
 - see: [pigeonhole principle](pigeonhole%20principle.md)
 
-The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, demonstrate {@{the existence of some element in a set}@} with {@{some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2029-09-07,1393,350!2025-11-11,5,354-->
+The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, demonstrate {@{the existence of some element in a set}@} with {@{some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2029-09-07,1393,350!2025-12-10,24,374-->
 
 ## method of distinguished element
 
 - see: [method of distinguished element](method%20of%20distinguished%20element.md)
 
-The method of distinguished element {@{singles out a "distinguished element" of a set to prove some result}@}. <!--SR:!2025-11-16,307,330-->
+The method of distinguished element {@{singles out a "distinguished element" of a set to prove some result}@}. <!--SR:!2029-09-15,1399,350-->
 
 ## generating function
 
@@ -75,7 +75,7 @@ Generating functions can be thought of as {@{polynomials with infinitely many te
 
 - see: [recurrence relation](recurrence%20relation.md)
 
-A recurrence relation {@{defines each term of a sequence in terms of the preceding terms}@}. Recurrence relations may {@{lead to previously unknown properties of a sequence}@}, but {@{generally [closed-form expressions](closed-form%20expression.md) for the terms of a sequence are more desired}@}. <!--SR:!2025-11-16,307,330!2029-06-20,1331,350!2029-05-21,1306,350-->
+A recurrence relation {@{defines each term of a sequence in terms of the preceding terms}@}. Recurrence relations may {@{lead to previously unknown properties of a sequence}@}, but {@{generally [closed-form expressions](closed-form%20expression.md) for the terms of a sequence are more desired}@}. <!--SR:!2029-09-16,1400,350!2029-06-20,1331,350!2029-05-21,1306,350-->
 
 ## references
 

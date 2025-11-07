@@ -80,7 +80,7 @@ For {@{[liquid assets](market%20liquidity.md) \("tradeables"\)}@}, {@{spot–for
 
 - \(annotation: income\) ::@:: pays income, and if so whether this is on a discrete or continuous basis <!--SR:!2026-01-02,67,310!2025-12-22,58,310-->
 - \(annotation: storage\) ::@:: incurs storage costs <!--SR:!2025-12-22,58,310!2025-12-28,63,310-->
-- \(annotation: use\) ::@:: is regarded as \(annotation: investment asset, consumption asset\) <!--SR:!2025-11-16,26,270!2025-12-22,58,310-->
+- \(annotation: use\) ::@:: is regarded as \(annotation: investment asset, consumption asset\) <!--SR:!2026-02-25,101,290!2025-12-22,58,310-->
   - an _investment asset_, ::@:: i.e. an asset held primarily for investment purposes \(e.g. gold, financial securities\); <!--SR:!2025-12-22,58,310!2026-01-02,67,310-->
   - or a _consumption asset_, ::@:: i.e. an asset held primarily for consumption \(e.g. oil, iron ore etc.\) <!--SR:!2025-12-27,62,310!2025-12-25,60,310-->
 

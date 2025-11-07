@@ -21,7 +21,7 @@ Treating {@{zinc [salts](salt%20(chemistry).md) with a [base](base%20(chemistry)
 > 2.
 >
 > - {@{Zn(OH)<sub>2</sub>(s) + 2OH<sup>-</sup>(aq) → \[Zn(OH)<sub>4</sub>\]<sup>2-</sup>(aq)}@}
-> - {@{Zn(OH)<sub>2</sub>(s) + 4NH<sub>3</sub>(aq) → \[Zn(NH<sub>3</sub>)<sub>4</sub>\]<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq)}@} <!--SR:!2027-03-31,1045,330!2030-11-06,1934,310!2025-11-16,237,270-->
+> - {@{Zn(OH)<sub>2</sub>(s) + 4NH<sub>3</sub>(aq) → \[Zn(NH<sub>3</sub>)<sub>4</sub>\]<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq)}@} <!--SR:!2027-03-31,1045,330!2030-11-06,1934,310!2028-04-28,894,290-->
 
 ## references
 

@@ -11,7 +11,7 @@ tags:
 
 > {@{![an example production possibilities frontier](../../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
 >
-> An example PPF: {@{points B, C and D are all productively efficient}@}, but {@{an economy at A would not be, because D involves more production of both goods}@}. Point X {@{cannot be achieved}@}. <!--SR:!2029-05-17,1279,350!2029-04-18,1259,350!2025-11-16,283,330!2029-03-16,1232,350-->
+> An example PPF: {@{points B, C and D are all productively efficient}@}, but {@{an economy at A would not be, because D involves more production of both goods}@}. Point X {@{cannot be achieved}@}. <!--SR:!2029-05-17,1279,350!2029-04-18,1259,350!2029-05-27,1288,350!2029-03-16,1232,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -29,7 +29,7 @@ Productive efficiency is {@{an aspect of [economic efficiency](economic%20effici
 
 In {@{[long-run equilibrium](long%20run%20and%20short%20run.md) for perfectly competitive markets}@}, productive efficiency occurs at {@{[the base](perfect%20competition.md#results) of the [average total cost curve](average%20cost.md)}@} — i.e. where {@{[marginal cost](marginal%20cost.md) equals average total cost — for each good}@}. <!--SR:!2029-04-15,1254,350!2027-03-18,653,330!2027-03-01,639,330-->
 
-Due to {@{the nature and culture of [monopolistic](monopoly.md) companies}@}, they may {@{not be productively efficient}@} because of {@{[X-inefficiency](X-inefficiency.md)}@}, whereby {@{companies operating in a monopoly}@} have {@{less of an incentive to maximize output due to lack of competition}@}. However, due to {@{[economies of scale](economies%20of%20scale.md)}@} it can be possible for {@{the profit-maximizing level of output of monopolistic companies to occur}@} with {@{a lower price to the consumer than perfectly competitive companies}@}. <!--SR:!2025-11-16,282,330!2027-06-21,709,330!2026-03-17,138,310!2027-06-02,707,330!2028-09-24,1097,350!2029-03-31,1244,350!2025-11-26,23,367!2025-11-26,23,367-->
+Due to {@{the nature and culture of [monopolistic](monopoly.md) companies}@}, they may {@{not be productively efficient}@} because of {@{[X-inefficiency](X-inefficiency.md)}@}, whereby {@{companies operating in a monopoly}@} have {@{less of an incentive to maximize output due to lack of competition}@}. However, due to {@{[economies of scale](economies%20of%20scale.md)}@} it can be possible for {@{the profit-maximizing level of output of monopolistic companies to occur}@} with {@{a lower price to the consumer than perfectly competitive companies}@}. <!--SR:!2029-05-28,1289,350!2027-06-21,709,330!2026-03-17,138,310!2027-06-02,707,330!2028-09-24,1097,350!2029-03-31,1244,350!2025-11-26,23,367!2025-11-26,23,367-->
 
 ## theoretical measures
 
