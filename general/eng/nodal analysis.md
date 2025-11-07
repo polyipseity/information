@@ -23,7 +23,7 @@ Nodal analysis is {@{possible when all the circuit elements' branch constitutive
 
 ## procedure
 
-1. \(annotation: label\) ::@:: Note all connected wire segments in the circuit. These are the _nodes_ of nodal analysis. <!--SR:!2025-11-17,180,310!2026-04-13,306,346-->
+1. \(annotation: label\) ::@:: Note all connected wire segments in the circuit. These are the _nodes_ of nodal analysis. <!--SR:!2027-12-31,774,330!2026-04-13,306,346-->
 2. \(annotation: reference\) ::@:: Select one node as the [ground](ground%20(electricity).md) reference. The choice does not affect the element voltages \(but it does affect the nodal voltages\) and is just a matter of convention. Choosing the node with the most connections can simplify the analysis. For a circuit of _N_ nodes the number of nodal equations is _N_<!-- markdown separator -->−1. <!--SR:!2026-05-23,336,346!2026-04-01,294,346-->
 3. \(annotation: variables\) ::@:: Assign a variable for each node whose voltage is unknown. If the voltage is already known, it is not necessary to assign a variable. <!--SR:!2026-05-05,324,346!2026-01-29,243,330-->
 4. \(annotation: KCL\) ::@:: For each unknown voltage, form an equation based on Kirchhoff's Current Law \(i.e. add together all currents leaving from the node and mark the sum equal to zero\). The current between two nodes is equal to the voltage of the node where the current exits minus the voltage of the node where the current enters the node, both divided by the resistance between the two nodes. <!--SR:!2025-12-18,207,326!2026-03-27,289,330-->

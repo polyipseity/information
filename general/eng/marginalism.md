@@ -36,7 +36,7 @@ On such assumptions, each increase would be {@{put to the specific, feasible, pr
 
 - see: [marginal utility](marginal%20utility.md)
 
-{@{The marginal utility of a good or service}@} is {@{the utility of its [marginal use](marginal%20use.md)}@}. Under {@{the assumption of economic rationality}@}, it is {@{the utility of its least urgent possible use}@} _from_ {@{the best feasible combination of actions in which its use is included}@}. <!--SR:!2028-12-08,1191,350!2028-06-23,995,347!2026-01-09,367,347!2026-01-13,371,347!2025-11-17,325,347-->
+{@{The marginal utility of a good or service}@} is {@{the utility of its [marginal use](marginal%20use.md)}@}. Under {@{the assumption of economic rationality}@}, it is {@{the utility of its least urgent possible use}@} _from_ {@{the best feasible combination of actions in which its use is included}@}. <!--SR:!2028-12-08,1191,350!2028-06-23,995,347!2026-01-09,367,347!2026-01-13,371,347!2030-02-18,1554,367-->
 
 > [!example] marginal utility definition
 >
@@ -56,7 +56,7 @@ In 20th century [mainstream economics](mainstream%20economics.md), the term "[ut
 
 #### quantified marginal utility
 
-Under {@{the [special case](special%20case.md) in which usefulness can be quantified}@}, {@{the change in utility of moving from state $S_{1}$ to state $S_{2}$}@} is {@{$$\Delta U=U(S_{2})-U(S_{1})$$}@}. <!--SR:!2025-12-13,346,347!2029-09-07,1406,350!2025-11-17,325,347-->
+Under {@{the [special case](special%20case.md) in which usefulness can be quantified}@}, {@{the change in utility of moving from state $S_{1}$ to state $S_{2}$}@} is {@{$$\Delta U=U(S_{2})-U(S_{1})$$}@}. <!--SR:!2025-12-13,346,347!2029-09-07,1406,350!2030-02-17,1553,367-->
 
 Moreover, if {@{$S_{1}$ and $S_{2}$ are distinguishable by values of just one variable $g$}@}, which is {@{itself quantified}@}, then it becomes possible to {@{speak of the ratio of the marginal utility of the change in $g$, to the size of that change}@}: {@{$$\left.{\frac {\Delta U}{\Delta g} }\right|_{c.p.}$$ (where "[c.p.](ceteris%20paribus.md)" indicates that the _only_ [independent variable](dependent%20and%20independent%20variables.md) to change is $g$)}@}. <!--SR:!2028-09-04,1048,347!2029-07-02,1369,367!2029-09-20,1431,367!2028-06-03,1038,347-->
 

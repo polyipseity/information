@@ -21,17 +21,17 @@ In {@{[telecommunications](telecommunications.md)}@}, {@{an __eye pattern__, als
 
 From {@{a mathematical perspective}@}, an eye pattern is a visualization of {@{the [probability density function](probability%20density%20function.md) \(PDF\) of the signal}@}, {@{[modulo](modular%20arithmetic.md) the [unit interval](unit%20interval%20(data%20transmission).md) \(UI\)}@}. In other words, it shows the probability of {@{the signal being at each possible voltage across the duration of the UI}@}. Typically {@{a [color ramp](false%20color.md#pseudocolor) is applied to the PDF}@} in order to {@{make small brightness differences easier to visualize}@}. <!--SR:!2025-11-26,62,310!2025-11-21,58,310!2025-11-30,65,310!2025-11-19,56,310!2025-11-25,61,310!2025-11-28,63,310-->
 
-{@{Several [system](system.md) performance measurements}@} can be derived by {@{analyzing the display}@}. If the signals are {@{too long, too short, poorly synchronized with the system clock}@}, {@{too high, too low, too [noisy](noise%20(electronics).md)}@}, or {@{too slow to change, or have too much undershoot or [overshoot](overshoot%20(signal).md)}@}, this can be {@{observed from the eye diagram}@}. {@{An open eye pattern}@} corresponds to {@{minimal signal [distortion](distortion.md)}@}. {@{Distortion of the signal [waveform](waveform.md)}@} due to {@{[intersymbol interference](intersymbol%20interference.md) and noise}@} appears as {@{closure of the eye pattern}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-19,56,310!2025-11-20,57,310!2025-11-25,61,310!2025-11-27,63,310!2025-11-18,55,310!2025-11-24,60,310!2025-11-20,57,310!2025-11-26,62,310!2025-11-17,54,310!2025-11-29,64,310!2025-11-17,54,310-->
+{@{Several [system](system.md) performance measurements}@} can be derived by {@{analyzing the display}@}. If the signals are {@{too long, too short, poorly synchronized with the system clock}@}, {@{too high, too low, too [noisy](noise%20(electronics).md)}@}, or {@{too slow to change, or have too much undershoot or [overshoot](overshoot%20(signal).md)}@}, this can be {@{observed from the eye diagram}@}. {@{An open eye pattern}@} corresponds to {@{minimal signal [distortion](distortion.md)}@}. {@{Distortion of the signal [waveform](waveform.md)}@} due to {@{[intersymbol interference](intersymbol%20interference.md) and noise}@} appears as {@{closure of the eye pattern}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-19,56,310!2025-11-20,57,310!2025-11-25,61,310!2025-11-27,63,310!2025-11-18,55,310!2025-11-24,60,310!2025-11-20,57,310!2025-11-26,62,310!2026-07-09,234,330!2025-11-29,64,310!2026-07-08,233,330-->
 
 ## calculation
 
 ### source data
 
-{@{The first step of computing an eye pattern}@} is normally to {@{obtain the waveform being analyzed in a quantized form}@}. This may be done by {@{measuring an actual electrical system}@} with {@{an oscilloscope of sufficient bandwidth}@}, or by creating {@{synthetic data with a [circuit simulator](circuit%20simulator.md)}@} in order to {@{evaluate the signal integrity of a proposed design}@}. {@{A combination of the two approaches}@} may be used as well: simulating the effects of {@{an arbitrary circuit or [transmission line](transmission%20line.md) on a measured signal}@}, perhaps to determine {@{whether a signal will still be intelligible after passing through a long cable}@}. {@{[Interpolation](interpolation.md)}@} may also be applied at this time in order to {@{increase the number of samples per unit interval \(UI\)}@} and produce {@{a smooth, gap-free plot}@} which is {@{more visually appealing and easier to understand}@}. <!--SR:!2025-11-26,62,310!2025-11-30,65,310!2025-11-28,63,310!2025-11-28,63,310!2025-11-22,58,310!2025-12-01,66,310!2025-12-01,66,310!2025-11-28,63,310!2025-11-17,54,310!2025-11-23,59,310!2025-11-18,55,310!2025-11-30,65,310!2025-11-17,54,310-->
+{@{The first step of computing an eye pattern}@} is normally to {@{obtain the waveform being analyzed in a quantized form}@}. This may be done by {@{measuring an actual electrical system}@} with {@{an oscilloscope of sufficient bandwidth}@}, or by creating {@{synthetic data with a [circuit simulator](circuit%20simulator.md)}@} in order to {@{evaluate the signal integrity of a proposed design}@}. {@{A combination of the two approaches}@} may be used as well: simulating the effects of {@{an arbitrary circuit or [transmission line](transmission%20line.md) on a measured signal}@}, perhaps to determine {@{whether a signal will still be intelligible after passing through a long cable}@}. {@{[Interpolation](interpolation.md)}@} may also be applied at this time in order to {@{increase the number of samples per unit interval \(UI\)}@} and produce {@{a smooth, gap-free plot}@} which is {@{more visually appealing and easier to understand}@}. <!--SR:!2025-11-26,62,310!2025-11-30,65,310!2025-11-28,63,310!2025-11-28,63,310!2025-11-22,58,310!2025-12-01,66,310!2025-12-01,66,310!2025-11-28,63,310!2026-07-11,236,330!2025-11-23,59,310!2025-11-18,55,310!2025-11-30,65,310!2026-07-12,237,330-->
 
 ### slicing
 
-Next, {@{the position of each sample within the UI}@} must be {@{determined}@}. There are {@{several methods for doing this}@} depending on {@{the characteristics of the signal and the capabilities of the oscilloscope and software}@} in use. This step is {@{critically important}@} for {@{accurate visualization of [jitter](jitter.md) in the eye}@}. <!--SR:!2025-11-27,63,310!2025-11-27,63,310!2025-11-25,61,310!2025-11-26,62,310!2025-11-17,54,310!2025-11-20,57,310-->
+Next, {@{the position of each sample within the UI}@} must be {@{determined}@}. There are {@{several methods for doing this}@} depending on {@{the characteristics of the signal and the capabilities of the oscilloscope and software}@} in use. This step is {@{critically important}@} for {@{accurate visualization of [jitter](jitter.md) in the eye}@}. <!--SR:!2025-11-27,63,310!2025-11-27,63,310!2025-11-25,61,310!2025-11-26,62,310!2026-07-12,237,330!2025-11-20,57,310-->
 
 #### triggering
 
@@ -39,9 +39,9 @@ Next, {@{the position of each sample within the UI}@} must be {@{determined}@}. 
 
 #### fixed rate
 
-A simple way to have {@{the eye pattern display jitter in the signal}@} is to estimate {@{the [symbol rate](symbol%20rate.md) of the signal}@} \(perhaps by counting {@{the average number of zero crossings in a known window of time}@}\) and acquiring {@{many UIs in a single oscilloscope capture}@}. {@{The first zero crossing in the capture}@} is {@{located and declared to be the start of the first UI}@}, and {@{the remainder of the waveform}@} is divided {@{into chunks one UI long}@}. <!--SR:!2025-11-19,56,310!2025-12-02,67,310!2025-11-17,54,310!2025-11-21,58,310!2025-11-30,65,310!2025-11-18,55,310!2025-11-25,61,310!2025-11-24,60,310-->
+A simple way to have {@{the eye pattern display jitter in the signal}@} is to estimate {@{the [symbol rate](symbol%20rate.md) of the signal}@} \(perhaps by counting {@{the average number of zero crossings in a known window of time}@}\) and acquiring {@{many UIs in a single oscilloscope capture}@}. {@{The first zero crossing in the capture}@} is {@{located and declared to be the start of the first UI}@}, and {@{the remainder of the waveform}@} is divided {@{into chunks one UI long}@}. <!--SR:!2025-11-19,56,310!2025-12-02,67,310!2026-07-09,234,330!2025-11-21,58,310!2025-11-30,65,310!2025-11-18,55,310!2025-11-25,61,310!2025-11-24,60,310-->
 
-This approach can {@{work adequately}@} for {@{stable signals in which the symbol rate remains exactly the same over time}@}, however {@{inaccuracies in the system}@} mean that {@{some drift is inevitable}@} so it is {@{rarely used in practice}@}. In {@{some protocols, such as [SATA](SATA.md)}@}, {@{the symbol rate is intentionally varied}@} by use of {@{[spread spectrum clocking](spread%20spectrum%20clocking.md#clock%20signal%20generation)}@}, so {@{assuming a fixed rate}@} will lead to the eye {@{grossly exaggerating the actual jitter present on the signal}@}. \(While {@{spread spectrum modulation on a clock}@} is {@{technically jitter in the strict sense}@}, {@{receivers for these systems}@} are designed to {@{track the modulation}@}. {@{The only jitter of interest to a signal integrity engineer}@} is jitter {@{much faster than the modulation rate}@}, which {@{the receiver cannot track effectively}@}.\) <!--SR:!2025-11-21,58,310!2025-11-21,58,310!2025-11-21,58,310!2025-11-23,59,310!2025-11-28,63,310!2025-11-21,58,310!2025-11-28,63,310!2025-11-26,62,310!2025-11-17,54,310!2025-11-21,58,310!2025-11-23,59,310!2025-11-20,57,310!2025-11-17,54,310!2025-11-19,56,310!2025-11-26,62,310!2025-11-22,58,310!2025-11-19,56,310-->
+This approach can {@{work adequately}@} for {@{stable signals in which the symbol rate remains exactly the same over time}@}, however {@{inaccuracies in the system}@} mean that {@{some drift is inevitable}@} so it is {@{rarely used in practice}@}. In {@{some protocols, such as [SATA](SATA.md)}@}, {@{the symbol rate is intentionally varied}@} by use of {@{[spread spectrum clocking](spread%20spectrum%20clocking.md#clock%20signal%20generation)}@}, so {@{assuming a fixed rate}@} will lead to the eye {@{grossly exaggerating the actual jitter present on the signal}@}. \(While {@{spread spectrum modulation on a clock}@} is {@{technically jitter in the strict sense}@}, {@{receivers for these systems}@} are designed to {@{track the modulation}@}. {@{The only jitter of interest to a signal integrity engineer}@} is jitter {@{much faster than the modulation rate}@}, which {@{the receiver cannot track effectively}@}.\) <!--SR:!2025-11-21,58,310!2025-11-21,58,310!2025-11-21,58,310!2025-11-23,59,310!2025-11-28,63,310!2025-11-21,58,310!2025-11-28,63,310!2025-11-26,62,310!2026-07-08,233,330!2025-11-21,58,310!2025-11-23,59,310!2025-11-20,57,310!2026-07-09,234,330!2025-11-19,56,310!2025-11-26,62,310!2025-11-22,58,310!2025-11-19,56,310-->
 
 #### reference clock
 
@@ -49,7 +49,7 @@ With {@{some protocols, such as [HDMI](HDMI.md)}@}, {@{a reference clock}@} is s
 
 #### clock recovery
 
-{@{Most high speed serial signals}@}, such as {@{[PCIe](PCIe.md), [DisplayPort](DisplayPort.md), and most variants of [Ethernet](ethernet.md)}@}, use {@{a [line code](line%20code.md)}@} which is intended to allow {@{easy [clock recovery](clock%20recovery.md) by means of a [PLL](PLL.md)}@}. Since this is {@{how the actual receiver works}@}, {@{the most accurate way to slice data}@} for the eye pattern is to implement {@{a PLL with the same characteristics in software}@}. {@{Correct PLL configuration}@} allows for the eye to conceal {@{the effects of spread spectrum clocking}@} and other {@{long-term variation in the symbol rate}@} which {@{do not contribute to errors at the receiver}@}, while still {@{displaying higher frequency jitter}@}. <!--SR:!2025-11-24,60,310!2025-12-01,66,310!2025-11-27,63,310!2025-12-01,66,310!2025-11-27,63,310!2025-11-29,64,310!2025-11-26,62,310!2025-11-19,56,310!2025-11-19,56,310!2025-11-17,54,310!2025-11-19,56,310!2025-12-01,66,310-->
+{@{Most high speed serial signals}@}, such as {@{[PCIe](PCIe.md), [DisplayPort](DisplayPort.md), and most variants of [Ethernet](ethernet.md)}@}, use {@{a [line code](line%20code.md)}@} which is intended to allow {@{easy [clock recovery](clock%20recovery.md) by means of a [PLL](PLL.md)}@}. Since this is {@{how the actual receiver works}@}, {@{the most accurate way to slice data}@} for the eye pattern is to implement {@{a PLL with the same characteristics in software}@}. {@{Correct PLL configuration}@} allows for the eye to conceal {@{the effects of spread spectrum clocking}@} and other {@{long-term variation in the symbol rate}@} which {@{do not contribute to errors at the receiver}@}, while still {@{displaying higher frequency jitter}@}. <!--SR:!2025-11-24,60,310!2025-12-01,66,310!2025-11-27,63,310!2025-12-01,66,310!2025-11-27,63,310!2025-11-29,64,310!2025-11-26,62,310!2025-11-19,56,310!2025-11-19,56,310!2026-07-08,233,330!2025-11-19,56,310!2025-12-01,66,310-->
 
 ### integration
 
@@ -77,11 +77,11 @@ The eye pattern of {@{a [NRZ](non-return-to-zero.md) \(annotation: non-return-to
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20example.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!2025-11-24,60,310!2025-11-18,55,310!2025-11-17,54,310-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!2025-11-24,60,310!2025-11-18,55,310!2026-07-12,237,330-->
 
 ### MLT-3
 
-The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level transmit\) signal}@} should consist of {@{three clearly distinct levels \(nominally -1, 0, +1 from bottom to top\)}@}. {@{The 0 level}@} should be located {@{at zero volts}@} and {@{the overall shape}@} should be {@{symmetric about the horizontal axis}@}. {@{The +1 and -1 states}@} should {@{have equal amplitude}@}. There should be {@{smooth transitions from the 0 state to the +1 and -1 states}@}, however there should be {@{no direct transitions from the -1 to +1 state}@} \(which would indicate the signal is {@{PAM-3 rather than MLT-3}@}\). <!--SR:!2025-11-18,55,310!2025-11-20,57,310!2025-11-24,60,310!2025-11-24,60,310!2025-11-24,60,310!2025-11-17,54,310!2025-11-29,64,310!2025-11-27,63,310!2025-11-30,65,310!2025-12-02,67,310!2025-11-24,60,310-->
+The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level transmit\) signal}@} should consist of {@{three clearly distinct levels \(nominally -1, 0, +1 from bottom to top\)}@}. {@{The 0 level}@} should be located {@{at zero volts}@} and {@{the overall shape}@} should be {@{symmetric about the horizontal axis}@}. {@{The +1 and -1 states}@} should {@{have equal amplitude}@}. There should be {@{smooth transitions from the 0 state to the +1 and -1 states}@}, however there should be {@{no direct transitions from the -1 to +1 state}@} \(which would indicate the signal is {@{PAM-3 rather than MLT-3}@}\). <!--SR:!2025-11-18,55,310!2025-11-20,57,310!2025-11-24,60,310!2025-11-24,60,310!2025-11-24,60,310!2026-07-10,235,330!2025-11-29,64,310!2025-11-27,63,310!2025-11-30,65,310!2025-12-02,67,310!2025-11-24,60,310-->
 
 > {@{![Eye pattern of a 125 Mbit/s MLT-3 signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20MLT3.png)}@}
 >
@@ -97,7 +97,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 ### PSK
 
-- Main article: ::@:: [Phase-shift keying](phase-shift%20keying.md) <!--SR:!2025-11-17,54,310!2025-11-29,64,310-->
+- Main article: ::@:: [Phase-shift keying](phase-shift%20keying.md) <!--SR:!2026-07-08,233,330!2025-11-29,64,310-->
 
 > {@{![Eye pattern of a binary PSK system](../../archives/Wikimedia%20Commons/Binary%20PSK%20eye%20diagram.svg)}@}
 >
@@ -105,7 +105,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 >
 > {@{![Eye pattern of the same system with multipath interference \(MI\) effects added](../../archives/Wikimedia%20Commons/Multipath%20system%20eye%20diagram.svg)}@}
 >
-> {@{Eye pattern}@} of {@{the same system}@} with {@{multipath interference \(MI\) effects added}@} <!--SR:!2025-11-30,65,310!2025-11-23,59,310!2025-12-02,67,310!2025-11-17,54,310!2025-12-02,67,310!2025-11-23,59,310!2025-11-28,63,310-->
+> {@{Eye pattern}@} of {@{the same system}@} with {@{multipath interference \(MI\) effects added}@} <!--SR:!2025-11-30,65,310!2025-11-23,59,310!2025-12-02,67,310!2026-07-09,234,330!2025-12-02,67,310!2025-11-23,59,310!2025-11-28,63,310-->
 
 ## channel effects
 
@@ -117,8 +117,8 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 {@{The eye pattern for a signal with emphasis}@} may be mistaken for that of {@{a PAM signal}@} at first glance, however {@{closer inspection}@} reveals {@{some key differences}@}. Most notably, {@{an emphasized signal}@} has {@{a limited set of legal transitions}@}: <!--SR:!2025-11-25,61,310!2025-11-28,63,310!2025-12-01,66,310!2025-11-18,55,310!2025-11-19,56,310!2025-11-18,55,310-->
 
-- Strong state to corresponding weak state ::@:: \(1-1 or 0-0 bit pattern\) <!--SR:!2025-11-17,54,310!2025-11-29,64,310-->
-- Strong state to opposite strong state ::@:: \(second transition of a 1-0-1 or 0-1-0 bit pattern\) <!--SR:!2025-11-17,54,310!2025-12-02,67,310-->
+- Strong state to corresponding weak state ::@:: \(1-1 or 0-0 bit pattern\) <!--SR:!2026-07-12,237,330!2025-11-29,64,310-->
+- Strong state to opposite strong state ::@:: \(second transition of a 1-0-1 or 0-1-0 bit pattern\) <!--SR:!2026-07-11,236,330!2025-12-02,67,310-->
 - Weak state to opposite strong state ::@:: \(second transition of a 1-1-0 or 0-0-1 bit pattern\) <!--SR:!2025-11-21,58,310!2025-11-26,62,310-->
 
 {@{An emphasized signal}@} will never {@{transition from a weak state to the corresponding strong state}@}, {@{a weak state to another weak state}@}, or {@{remain in the same strong state for more than one UI}@}. {@{A PAM signal}@} also normally {@{has equally spaced levels}@} while {@{emphasized levels}@} are normally {@{closer to the nominal signal level}@}. <!--SR:!2025-11-21,58,310!2025-12-01,66,310!2025-12-02,67,310!2025-11-30,65,310!2025-11-28,63,310!2025-12-02,67,310!2025-11-30,65,310!2025-12-02,67,310-->
@@ -129,7 +129,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 ### high-frequency loss
 
-{@{Loss \(annotation: power loss\)}@} of {@{printed circuit board traces and cables}@} {@{increases with frequency due to [dielectric loss](dielectric%20loss.md)}@}, which causes {@{the channel}@} to {@{behave as a [low-pass filter](low-pass%20filter.md)}@}. {@{The effect of this}@} is {@{an increase in signal rise/fall time}@}. If {@{the data rate is high enough or the channel is lossy enough}@}, the signal {@{may not even reach its full value}@} during {@{a fast 0–1–0 or 1–0–1 transition}@}, and only {@{stabilize after a run of several identical bits}@}. This results in {@{vertical closure of the eye}@}. <!--SR:!2025-11-30,65,310!2025-11-17,54,310!2025-11-28,63,310!2025-11-17,54,310!2025-12-02,67,310!2025-11-18,55,310!2025-11-28,63,310!2025-11-27,63,310!2025-11-30,65,310!2025-11-24,60,310!2025-11-20,57,310!2025-11-27,63,310-->
+{@{Loss \(annotation: power loss\)}@} of {@{printed circuit board traces and cables}@} {@{increases with frequency due to [dielectric loss](dielectric%20loss.md)}@}, which causes {@{the channel}@} to {@{behave as a [low-pass filter](low-pass%20filter.md)}@}. {@{The effect of this}@} is {@{an increase in signal rise/fall time}@}. If {@{the data rate is high enough or the channel is lossy enough}@}, the signal {@{may not even reach its full value}@} during {@{a fast 0–1–0 or 1–0–1 transition}@}, and only {@{stabilize after a run of several identical bits}@}. This results in {@{vertical closure of the eye}@}. <!--SR:!2025-11-30,65,310!2026-07-10,235,330!2025-11-28,63,310!2026-07-11,236,330!2025-12-02,67,310!2025-11-18,55,310!2025-11-28,63,310!2025-11-27,63,310!2025-11-30,65,310!2025-11-24,60,310!2025-11-20,57,310!2025-11-27,63,310-->
 
 The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a lossy channel}@} – {@{an RG-188 coaxial cable}@} {@{approximately 12 feet \(3.7 m\) in length}@}. {@{This channel}@} has {@{loss increasing in a fairly linear fashion}@} {@{from 0.1 dB at DC to 9 dB at 6 GHz}@}. <!--SR:!2025-11-21,58,310!2025-11-20,57,310!2025-11-29,64,310!2025-11-18,55,310!2025-11-28,63,310!2025-11-23,59,310!2025-12-02,67,310-->
 
@@ -159,7 +159,7 @@ In the image below, {@{an additional three inches of cable}@} is {@{added to the
 
 ## measurements
 
-There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}:<sup>[\[4\]](#^ref-4)</sup> \(annotation: 2 items: {@{amplitude measurements, time measurements}@}\) <!--SR:!2025-11-20,57,310!2025-12-01,66,310!2025-11-17,54,310-->
+There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}:<sup>[\[4\]](#^ref-4)</sup> \(annotation: 2 items: {@{amplitude measurements, time measurements}@}\) <!--SR:!2025-11-20,57,310!2025-12-01,66,310!2026-07-10,235,330-->
 
 Amplitude measurements
 

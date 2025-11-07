@@ -13,7 +13,7 @@ tags:
 >
 > {@{__Example of a normal good:__}@} As {@{income increases from _B1_ to _B3_}@}, {@{the outward movement of utility curve _I_}@} dictates that {@{the quantity of good _X<sup>1</sup>_ increases in tandem}@}. Therefore, {@{_X<sup>1</sup>_ is a normal good}@}. Put another way, {@{the positively sloped income consumption curve}@} demonstrates that {@{_X<sup>1</sup>_ is normal}@}. {@{The [Engel curve](Engel%20curve.md) of _X<sup>1</sup>_}@} would {@{also be positively sloped}@}. <!--SR:!2025-11-29,288,330!2028-12-21,1160,350!2028-12-22,1162,350!2028-02-19,852,330!2028-12-28,1167,350!2028-08-27,1070,350!2025-12-06,294,330!2028-12-27,1167,350!2028-08-17,1061,350!2027-10-23,765,330-->
 
-In [economics](economics.md), a __normal good__ is {@{a type of a [good](goods.md) which experiences an increase in demand due to an increase in income}@}, unlike {@{[inferior goods](inferior%20good.md), for which the opposite is observed}@}. When {@{there is an increase in a person's income, for example due to a wage rise}@}, {@{a good for which the demand rises due to the wage increase}@}, is referred as a normal good. Conversely, {@{the demand for normal goods declines when the income decreases}@}, for example due to {@{a wage decrease or layoffs}@}. <!--SR:!2028-08-24,1065,350!2028-11-27,1143,350!2025-11-17,278,330!2028-08-12,1057,350!2027-08-08,753,330!2025-11-25,285,330-->
+In [economics](economics.md), a __normal good__ is {@{a type of a [good](goods.md) which experiences an increase in demand due to an increase in income}@}, unlike {@{[inferior goods](inferior%20good.md), for which the opposite is observed}@}. When {@{there is an increase in a person's income, for example due to a wage rise}@}, {@{a good for which the demand rises due to the wage increase}@}, is referred as a normal good. Conversely, {@{the demand for normal goods declines when the income decreases}@}, for example due to {@{a wage decrease or layoffs}@}. <!--SR:!2028-08-24,1065,350!2028-11-27,1143,350!2028-05-22,917,330!2028-08-12,1057,350!2027-08-08,753,330!2025-11-25,285,330-->
 
 ## analysis
 
@@ -31,7 +31,7 @@ However, {@{the classification of normal and luxury goods}@} {@{vary from person
 
 > {@{![change in demand for both normal goods and luxury goods due to a change in income](../../archives/Wikimedia%20Commons/Income%20consumption.jpg)}@}
 >
-> The graph shows {@{the change in demand for both normal goods and luxury goods due to a change in income}@}. When {@{the income rises from 500 to 700}@}, {@{the quantity demanded for normal goods rises from 800 to 900}@}. <!--SR:!2029-05-03,1264,350!2029-03-28,1237,350!2025-11-17,278,330!2029-03-01,1216,350-->
+> The graph shows {@{the change in demand for both normal goods and luxury goods due to a change in income}@}. When {@{the income rises from 500 to 700}@}, {@{the quantity demanded for normal goods rises from 800 to 900}@}. <!--SR:!2029-05-03,1264,350!2029-03-28,1237,350!2029-05-07,1267,350!2029-03-01,1216,350-->
 
 ### normal goods and consumer behaviour
 

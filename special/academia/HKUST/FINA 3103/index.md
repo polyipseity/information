@@ -107,7 +107,7 @@ The content is in teaching order.
 - [fixed income](../../../../general/fixed%20income.md) ::@:: It refers to any type of investment under which the borrower or issuer is obliged to make payments of a fixed amount on a fixed schedule. <!--SR:!2025-12-08,65,310!2026-04-28,166,310-->
 - [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ... <!--SR:!2026-03-17,129,390!2026-03-18,130,390-->
   - derivative / elements ::@:: tradeable item, future act, future act price, future act time <!--SR:!2025-12-03,61,310!2025-12-06,63,310-->
-    - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!2025-11-26,55,310!2025-11-17,44,290-->
+    - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!2025-11-26,55,310!2026-05-13,177,310-->
     - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2025-12-03,61,310!2025-12-03,61,310-->
     - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2025-12-05,63,310!2025-12-05,63,310-->
     - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!2025-12-08,65,310!2025-12-07,64,310-->
@@ -119,7 +119,7 @@ The content is in teaching order.
 - [decentralized finance](../../../../general/decentralized%20finance.md) \(DeFi\) ::@:: It provides financial instruments and services through smart contracts on a programmable, permissionless blockchain. This approach reduces the need for intermediaries such as brokerages, exchanges, or banks. <!--SR:!2026-05-04,171,310!2025-11-20,47,290-->
   - decentralized finance / technologies ::@:: blockchain, crypto, etc. <!--SR:!2025-12-05,63,310!2025-11-26,55,310-->
   - decentralized finance / advantages ::@:: democratize finance, efficient \(in some aspects\), robust, etc. <!--SR:!2025-12-04,62,310!2025-11-27,56,310-->
-  - decentralized finance / decentralized exchanges \(DEX\) ::@:: They are a type of cryptocurrency exchange, which allow for either direct peer-to-peer, or Automated Market Maker \(AMM\) liquidity pool cryptocurrency transactions to take place without the need for an intermediary. The lack of an intermediary differentiates them from centralized exchanges \(CEX\). <!--SR:!2025-11-17,44,290!2025-12-03,61,310-->
+  - decentralized finance / decentralized exchanges \(DEX\) ::@:: They are a type of cryptocurrency exchange, which allow for either direct peer-to-peer, or Automated Market Maker \(AMM\) liquidity pool cryptocurrency transactions to take place without the need for an intermediary. The lack of an intermediary differentiates them from centralized exchanges \(CEX\). <!--SR:!2026-05-12,176,310!2025-12-03,61,310-->
     - decentralized finance / decentralized exchanges / examples ::@:: PancakeSwap, Uniswap, etc. <!--SR:!2025-12-06,63,310!2025-12-07,64,310-->
 
 ## week 1 lecture 2

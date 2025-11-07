@@ -225,7 +225,7 @@ The dot product can also be defined as {@{the sum of the products of the compone
 >
 > An illustration of {@{the cross product}@} <!--SR:!2026-02-15,283,332!2026-03-06,291,332-->
 
-The cross product __a__ × __b__ is defined so that {@{__a__, __b__, and __a__ × __b__ also becomes a right-handed system}@} \(although {@{__a__ and __b__ are not necessarily [orthogonal](orthogonal.md)}@}\). This is {@{the [right-hand rule](right-hand%20rule.md)}@}. <!--SR:!2025-11-17,198,312!2026-06-17,388,359!2026-05-06,347,352-->
+The cross product __a__ × __b__ is defined so that {@{__a__, __b__, and __a__ × __b__ also becomes a right-handed system}@} \(although {@{__a__ and __b__ are not necessarily [orthogonal](orthogonal.md)}@}\). This is {@{the [right-hand rule](right-hand%20rule.md)}@}. <!--SR:!2028-03-25,859,332!2026-06-17,388,359!2026-05-06,347,352-->
 
 {@{The length of __a__ × __b__}@} can be interpreted as {@{the area of the parallelogram having __a__ and __b__ as sides}@}. <!--SR:!2026-05-01,347,352!2026-06-17,388,359-->
 

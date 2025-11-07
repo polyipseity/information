@@ -31,7 +31,7 @@ A set $S$ is {@{_countable_}@} if: <!--SR:!2027-11-25,816,330-->
 - countable, function from ::@:: There exists an [injective function](injective%20function.md) from $S$ to $\mathbb {N}$.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2028-11-06,1100,350!2027-07-01,700,330-->
 - countable, function to ::@:: $S$ is empty or there exists a [surjective function](surjective%20function.md) from $\mathbb {N}$ to $S$.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2027-05-26,675,330!2026-10-27,503,310-->
 - countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2029-01-17,1158,350!2026-07-06,416,310-->
-- countable, finiteness ::@:: $S$ is either [finite](finite%20set.md) \($|S|<\aleph _{0}$\) or countably infinite.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-17,254,330!2027-12-13,818,330-->
+- countable, finiteness ::@:: $S$ is either [finite](finite%20set.md) \($|S|<\aleph _{0}$\) or countably infinite.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-01-20,1160,350!2027-12-13,818,330-->
 
 All of these definitions are {@{equivalent}@}. <!--SR:!2025-11-24,259,330-->
 
@@ -110,7 +110,7 @@ This set is {@{the union of the length-1 sequences, the length-2 sequences, the 
 
 > Theorem — {@{The set of all finite [subsets](subset.md)}@} of the natural numbers is countable. <!--SR:!2026-01-07,277,290-->
 
-{@{The elements of any finite subset}@} can be {@{ordered into a finite sequence}@}. There are {@{only countably many finite sequences}@}, so {@{also there are only countably many finite subsets}@}. <!--SR:!2025-11-17,254,330!2026-01-04,291,330!2027-12-07,822,330!2027-11-19,798,330-->
+{@{The elements of any finite subset}@} can be {@{ordered into a finite sequence}@}. There are {@{only countably many finite sequences}@}, so {@{also there are only countably many finite subsets}@}. <!--SR:!2029-01-18,1158,350!2026-01-04,291,330!2027-12-07,822,330!2027-11-19,798,330-->
 
 > Theorem — Let $S$ and $T$ be sets.
 >

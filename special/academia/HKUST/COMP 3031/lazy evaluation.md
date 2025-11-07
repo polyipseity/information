@@ -51,7 +51,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 > ```
 <!--SR:!2025-11-28,16,305!2025-11-28,16,305!2025-11-29,17,305!2025-11-27,15,305-->
 
-or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!2025-11-17,15,290!2025-11-27,15,305!2025-11-28,16,305-->
+or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!2026-01-17,61,310!2025-11-27,15,305!2025-11-28,16,305-->
 
 > [!example] __`LazyList.apply`__
 >
@@ -83,7 +83,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```Scala
 > LazyList.range(1000, 10000)   // equivalent to (1000 until 10000).to(LazyList)
 > ```
-<!--SR:!2025-11-28,16,305!2025-11-17,15,290!2025-11-28,16,305-->
+<!--SR:!2025-11-28,16,305!2026-01-18,62,310!2025-11-28,16,305-->
 
 {@{A hand‑rolled recursive function}@} illustrates {@{the laziness}@}: <!--SR:!2025-11-28,16,305!2025-11-29,17,305-->
 
@@ -166,7 +166,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 > ```
 <!--SR:!2025-11-29,17,305!2025-11-28,16,305!2025-11-28,16,305!2025-11-28,16,305!2025-11-29,17,305!2025-11-27,15,305!2025-11-28,16,305!2025-11-27,15,305!2025-11-28,16,305-->
 
-Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` three times}@}—once for {@{each element taken}@}—leading to {@{unnecessary work and potential performance degradation}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by‑name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2025-11-27,15,305!2025-11-18,16,290!2025-11-28,16,305!2025-11-28,16,305!2025-11-29,17,305!2025-11-17,15,290!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-29,17,305-->
+Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` three times}@}—once for {@{each element taken}@}—leading to {@{unnecessary work and potential performance degradation}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by‑name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2025-11-27,15,305!2025-11-18,16,290!2025-11-28,16,305!2025-11-28,16,305!2025-11-29,17,305!2026-01-19,63,310!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-29,17,305-->
 
 {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production‑grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331-->
 
@@ -182,7 +182,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 >
 > ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-29,17,305!2025-11-27,15,305!2025-11-28,16,305!2025-11-29,17,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-28,16,305!2025-11-30,18,330-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2025-11-28,16,305!2025-11-27,15,305!2025-11-29,17,305!2025-11-17,15,290!2025-11-27,15,305!2025-11-27,15,305!2025-11-17,15,290!2025-11-29,17,305!2025-11-28,16,305!2025-11-24,12,285!2025-11-28,16,305!2025-11-28,16,305!2025-11-30,18,330-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2025-11-28,16,305!2025-11-27,15,305!2025-11-29,17,305!2026-01-16,60,310!2025-11-27,15,305!2025-11-27,15,305!2026-01-13,57,310!2025-11-29,17,305!2025-11-28,16,305!2025-11-24,12,285!2025-11-28,16,305!2025-11-28,16,305!2025-11-30,18,330-->
 
 ## lazy evaluation
 
@@ -209,7 +209,7 @@ When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{
 
 ## infinite sequences
 
-Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{represent sequences having infinite elements}@}: <!--SR:!2025-11-17,15,290!2025-11-29,17,305!2025-11-28,16,305-->
+Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{represent sequences having infinite elements}@}: <!--SR:!2026-01-19,63,310!2025-11-29,17,305!2025-11-28,16,305-->
 
 > [!example] __`LazyList` of all natural numbers__
 >
@@ -260,7 +260,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >
 > {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328!2025-11-29,17,328-->
 
-{@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2025-11-28,16,305!2025-11-28,16,305!2025-11-17,15,290-->
+{@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2025-11-28,16,305!2025-11-28,16,305!2026-01-14,58,310-->
 
 > [!example] __lazy fixed iteration__
 >
@@ -316,7 +316,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >           prev.updated(f, prev(f) - amount).updated(t, prev(t) + amount)
 >   // more ...
 > ```
-> <!--SR:!2025-11-17,15,290!2025-11-28,16,305!2025-11-29,17,305-->
+> <!--SR:!2026-01-18,62,310!2025-11-28,16,305!2025-11-29,17,305-->
 
 Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{generated}@}: <!--SR:!2025-11-27,15,305!2025-11-27,15,305!2025-11-27,15,305-->
 
@@ -333,7 +333,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 > ```
 <!--SR:!2025-11-27,15,305!2025-11-28,16,305!2025-11-27,15,305-->
 
-{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2025-11-29,17,305!2025-11-17,15,290!2025-11-28,16,305-->
+{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2025-11-29,17,305!2026-01-15,59,310!2025-11-28,16,305-->
 
 > [!example] __water pouring problem search__
 >
@@ -402,7 +402,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```Ocaml
 > let rec alternate = 0 :: 1 :: alternate
 > ```
-<!--SR:!2025-11-17,15,290!2025-11-27,15,305!2025-11-27,15,305!2025-11-18,16,290!2025-11-18,16,290-->
+<!--SR:!2026-01-13,57,310!2025-11-27,15,305!2025-11-27,15,305!2025-11-18,16,290!2025-11-18,16,290-->
 
 However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2025-11-28,16,305!2025-11-27,15,305!2025-11-27,15,305!2025-11-29,17,305!2025-11-29,17,305-->
 

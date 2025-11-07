@@ -173,7 +173,7 @@ A [morphism](morphism.md) {@{_f_ : _a_ → _b_}@} is called <!--SR:!2025-12-18,2
 
 - (annotation: isomorphism & retraction) ::@:: _f_ is a monomorphism and a retraction; (annotation: we just need to additionally prove that $g \circ f = 1_a$: $f \circ g = 1_b \implies f \circ (g \circ f) = f \circ 1_a \implies g \circ f = 1_a$) <!--SR:!2026-06-24,398,310!2026-04-26,339,290-->
 - (annotation: isomorphism & section) ::@:: _f_ is an epimorphism and a section; (annotation: we just need to additionally prove that $f \circ g = 1_b$: $g \circ f = 1_a \implies (f \circ g) \circ f = 1_b \circ f \implies f \circ g = 1_b$) <!--SR:!2026-01-20,294,330!2026-12-03,487,310-->
-- (annotation: isomorphism) ::@:: _f_ is an isomorphism. <!--SR:!2025-12-26,275,330!2025-11-17,243,330-->
+- (annotation: isomorphism) ::@:: _f_ is an isomorphism. <!--SR:!2025-12-26,275,330!2028-11-28,1107,350-->
 
 {@{Relations among morphisms \(such as _fg_ = _h_\)}@} can {@{most conveniently be represented with [commutative diagrams](commutative%20diagram.md)}@}, where {@{the objects are represented as points and the morphisms as arrows}@}. <!--SR:!2025-12-29,276,330!2028-01-30,844,330!2025-12-22,272,330-->
 

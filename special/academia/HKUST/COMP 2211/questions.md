@@ -344,7 +344,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`a[a >= numpy.average(a)]`, `a[a >= numpy.mean(a)]`}@} <!--SR:!2025-11-17,255,330-->
+> - solution: {@{`a[a >= numpy.average(a)]`, `a[a >= numpy.mean(a)]`}@} <!--SR:!2029-01-24,1164,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1037,7 +1037,7 @@ tags:
 >
 > Hint: Draw a graph of the above equations. Track the dependencies.
 >
-> - solution: {@{$$\begin{aligned} \frac {\partial e} {\partial a} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial a} = d \cdot b = (b + 1) \cdot b = 30 \\ \frac {\partial e} {\partial b} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial b} + \frac {\partial e} {\partial d} \frac {\partial d} {\partial b} = d \cdot a + c \cdot 1 = (b + 1) \cdot a + (a \cdot b) = 22 \end{aligned}$$}@} <!--SR:!2025-11-17,255,330-->
+> - solution: {@{$$\begin{aligned} \frac {\partial e} {\partial a} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial a} = d \cdot b = (b + 1) \cdot b = 30 \\ \frac {\partial e} {\partial b} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial b} + \frac {\partial e} {\partial d} \frac {\partial d} {\partial b} = d \cdot a + c \cdot 1 = (b + 1) \cdot a + (a \cdot b) = 22 \end{aligned}$$}@} <!--SR:!2029-01-25,1165,350-->
 
 <!-- markdownlint MD028 -->
 

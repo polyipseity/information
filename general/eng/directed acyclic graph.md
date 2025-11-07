@@ -145,7 +145,7 @@ For instance, when {@{one cell of a [spreadsheet](spreadsheet.md) changes}@}, it
 
 ### data processing networks
 
-{@{A directed acyclic graph}@} may be used to {@{represent a network of processing elements}@}. In this representation, data enters {@{a processing element through its incoming edges and leaves the element through its outgoing edges}@}. <!--SR:!2025-11-17,275,330!2026-03-29,385,358!2026-04-21,404,370-->
+{@{A directed acyclic graph}@} may be used to {@{represent a network of processing elements}@}. In this representation, data enters {@{a processing element through its incoming edges and leaves the element through its outgoing edges}@}. <!--SR:!2029-04-28,1258,350!2026-03-29,385,358!2026-04-21,404,370-->
 
 For instance, in {@{electronic circuit design}@}, {@{static [combinational logic](combinational%20logic.md) blocks}@} can be represented as {@{an acyclic system of [logic gates](logic%20gate.md) that computes a function of an input}@}, where {@{the input and output of the function are represented as individual [bits](bit.md)}@}. In general, {@{the output of these blocks cannot be used as the input}@} unless {@{it is captured by a register or state element which maintains its acyclic properties}@}.<sup>[\[34\]](#^ref-34)</sup> {@{Electronic circuit schematics either on paper or in a database}@} are {@{a form of directed acyclic graphs}@} using instances or components to {@{form a directed reference to a lower level component}@}. {@{Electronic circuits themselves}@} are {@{not necessarily acyclic or directed}@}. <!--SR:!2025-12-31,312,350!2026-04-22,407,370!2026-04-30,414,370!2025-11-19,277,350!2026-08-02,443,310!2029-01-25,1187,358!2026-02-23,357,358!2029-01-08,1169,350!2026-03-24,383,370!2029-04-12,1258,370!2026-03-23,378,358-->
 
