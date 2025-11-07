@@ -23,11 +23,11 @@ tags:
 
 ### insertion sort
 
-{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
+{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub-list}@}:
 
 > [!example] __insertion sort__
 >
-> The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
+> The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub-list}@}:
 >
 > ```Scala
 > def isort(xs: List[Int]): List[Int] = xs match {
@@ -50,15 +50,15 @@ tags:
 > }
 > ```
 
-{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}.
+{@{The worst-case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub-list}@}.
 
 ### merge sort
 
-{@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}:
+{@{The classic divide-and-conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}:
 
 > [!example] __merge sort__
 >
-> {@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}:
+> {@{The classic divide-and-conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}:
 >
 > ```Scala
 > def msort(xs: List[Int]): List[Int] =
@@ -70,7 +70,7 @@ tags:
 >     merge(msort(fst), msort(snd))
 > ```
 
-The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub‑lists}@}.
+The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub-lists}@}.
 
 #### merge sort splitting
 
@@ -85,11 +85,11 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 > val (fst, snd) = xs.splitAt(n)
 > ```
 
-One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
+One could {@{re-implement `splitAt`}@} as {@{an extension method}@}:
 
 > [!example] __`List.splitAt`__
 >
-> One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
+> One could {@{re-implement `splitAt`}@} as {@{an extension method}@}:
 >
 > ```Scala
 > extension [A](xs: List[A])
@@ -120,11 +120,11 @@ The compiler guarantees that {@{all possible shapes of the input lists}@} are ha
 
 ### sorting arbitrary types
 
-To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}:
+To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less-than predicate}@}:
 
 > [!example] __merge sort with comparator__
 >
-> {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}:
+> {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less-than predicate}@}:
 >
 > ```Scala
 > def msort[T](xs: List[T])(lt: (T, T) => Boolean): List[T] =
@@ -160,4 +160,4 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > msort(xs)( (x, y) => x < y )
 > ```
 
-These examples demonstrate how Scala's {@{type inference and higher‑order functions}@} enable {@{concise yet powerful generic algorithms}@}.
+These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}.

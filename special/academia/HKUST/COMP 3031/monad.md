@@ -20,7 +20,7 @@ tags:
 
 In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}.
 
-{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`‑comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}.
+{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}.
 
 ## motivation
 
@@ -76,7 +76,7 @@ and {@{a pair generator}@} that produces {@{two independent random integers}@}:
 
 #### generator monad
 
-Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher‑order methods}@}. {@{An extension}@} that adds {@{`map`}@} is
+Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher-order methods}@}. {@{An extension}@} that adds {@{`map`}@} is
 
 > [!example] __`Generator.map`__
 >
@@ -124,11 +124,11 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 
 #### generator monad recursion
 
-{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non‑empty}@} and then {@{constructing it accordingly}@}:
+{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}:
 
 > [!example] __integer list generator__
 >
-> For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non‑empty}@} and then {@{constructing it accordingly}@}
+> For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}
 >
 > ```Scala
 > def lists: Generator[List[Int]] =
@@ -174,11 +174,11 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 
 #### generator monad usage
 
-{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post‑condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}:
+{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}:
 
 > [!example] __unit test__
 >
-> {@{Unit tests}@} traditionally {@{supply concrete inputs and check a post‑condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}:
+> {@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}:
 >
 > ```Scala
 > def test[T](g: Generator[T], numTimes: Int = 100)(test: T => Boolean): Unit =
@@ -214,7 +214,7 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 > }
 > ```
 
-ScalaCheck integrates {@{with ScalaTest or can run stand‑alone}@}, providing a systematic way to {@{validate program behaviour without hand‑crafted test data}@}.
+ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}.
 
 ## definition
 
@@ -273,7 +273,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 ## significance for `for`-expressions
 
-{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`‑expression}@}.
+{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}.
 
 {@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}:
 
@@ -289,7 +289,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 > == for { x <- m; y <- f(x); z <- g(y) } yield z
 > ```
 
-{@{The right‑unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left‑unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}).
+{@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}).
 
 ## `Option`
 
@@ -306,7 +306,7 @@ For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by
 > }
 > ```
 
-Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left‑unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right‑unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}.
+Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left-unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right-unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}.
 
 ## `Try`
 
@@ -364,6 +364,6 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 
 Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}.
 
-One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left‑unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non‑fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non‑fatal exception propagates outward}@} ({@{the "bullet‑proof" principle}@}\).
+One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left-unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non-fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non-fatal exception propagates outward}@} ({@{the "bullet-proof" principle}@}\).
 
 In {@{general practice}@}, {@{monad-like type \(which are not true monads\)}@} aims to capture {@{some computation _effect_}@} and treating it as {@{_data_ and hence part of the _type_}@}. When {@{this effect is a _side effect_ \(e.g. throwing exceptions\)}@}, then {@{the left identity law may not hold}@} as {@{the side effect is captured and represented by monad-like type data instead}@}.

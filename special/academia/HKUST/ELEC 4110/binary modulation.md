@@ -10,22 +10,22 @@ tags:
 
 # binary modulation
 
-{@{The simplest analytical model}@}, often called the {@{__binary channel__ or __binary symmetric channel with additive white Gaussian noise__ (__AWGN__)}@}, reduces {@{the whole communication link to a black box}@} that accepts {@{binary input symbols at the transmitter and produces binary output symbols at the receiver}@}. {@{All intermediate physical‑layer details}@} – {@{propagation, multipath, fading, etc.}@} – are {@{absorbed into this single stochastic channel model}@}.
+{@{The simplest analytical model}@}, often called the {@{__binary channel__ or __binary symmetric channel with additive white Gaussian noise__ (__AWGN__)}@}, reduces {@{the whole communication link to a black box}@} that accepts {@{binary input symbols at the transmitter and produces binary output symbols at the receiver}@}. {@{All intermediate physical-layer details}@} – {@{propagation, multipath, fading, etc.}@} – are {@{absorbed into this single stochastic channel model}@}.
 
-{@{This simple binary channel model}@} underpins {@{many higher‑level analyses in digital communications}@}: it provides the baseline against which {@{coding gains, diversity techniques, or more complex modulation schemes}@} are measured.  In practice, {@{real systems}@} often {@{deviate from this idealization}@} due to {@{multipath fading, colored noise, timing errors and non‑binary signalling}@}; nevertheless, it remains {@{a cornerstone of communication theory}@}.
+{@{This simple binary channel model}@} underpins {@{many higher-level analyses in digital communications}@}: it provides the baseline against which {@{coding gains, diversity techniques, or more complex modulation schemes}@} are measured.  In practice, {@{real systems}@} often {@{deviate from this idealization}@} due to {@{multipath fading, colored noise, timing errors and non-binary signalling}@}; nevertheless, it remains {@{a cornerstone of communication theory}@}.
 
 ## binary channel
 
 {@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where
 
 - $A>0$ ::@:: is the pulse amplitude, and
-- $p(t)$ ::@:: is a _shaping pulse_ of unit energy (e.g., a rectangular or raised‑cosine pulse). Here, we assume it is simply a unit rectangular pulse lasting for symbol time $T$.
+- $p(t)$ ::@:: is a _shaping pulse_ of unit energy (e.g., a rectangular or raised-cosine pulse). Here, we assume it is simply a unit rectangular pulse lasting for symbol time $T$.
 
-{@{The transmitted signal}@} is thus {@{$$s_k(t) = \pm A\,p(t), \qquad 0 \le t < T \,.$$}@} {@{The channel}@} adds {@{white Gaussian noise $n(t)$ to the waveform}@}, yielding {@{the received continuous‑time signal}@} {@{$$r(t)= s_k(t)+ n(t).   \tag{1}$$}@} Here {@{$n(t)$}@} is {@{a __Gaussian process__ with zero mean}@} and {@{autocorrelation function}@} {@{$$R_n(t_1, t_2)=E\{n(t_1) n(t_2)\}= \frac{N_0}{2}\,\delta(t_1 - t_2),$$}@} where {@{$N_0/2$}@} is {@{the two-sided power spectral density of the noise}@}. \(annotation: If {@{one-sided \(no negative frequencies\)}@}, then {@{the power spectral density is $N_0$}@}. This explains {@{the division by 2}@}.\)
+{@{The transmitted signal}@} is thus {@{$$s_k(t) = \pm A\,p(t), \qquad 0 \le t < T \,.$$}@} {@{The channel}@} adds {@{white Gaussian noise $n(t)$ to the waveform}@}, yielding {@{the received continuous-time signal}@} {@{$$r(t)= s_k(t)+ n(t).   \tag{1}$$}@} Here {@{$n(t)$}@} is {@{a __Gaussian process__ with zero mean}@} and {@{autocorrelation function}@} {@{$$R_n(t_1, t_2)=E\{n(t_1) n(t_2)\}= \frac{N_0}{2}\,\delta(t_1 - t_2),$$}@} where {@{$N_0/2$}@} is {@{the two-sided power spectral density of the noise}@}. \(annotation: If {@{one-sided \(no negative frequencies\)}@}, then {@{the power spectral density is $N_0$}@}. This explains {@{the division by 2}@}.\)
 
 ## receiver
 
-{@{The receiver}@} performs {@{a _matched filter_}@} (or equivalently, {@{an integral over one symbol period}@}) to {@{maximise the signal‑to‑noise ratio}@}: {@{$$V = \int_{0}^{T} r(t)\,dt.$$}@}
+{@{The receiver}@} performs {@{a _matched filter_}@} (or equivalently, {@{an integral over one symbol period}@}) to {@{maximise the signal-to-noise ratio}@}: {@{$$V = \int_{0}^{T} r(t)\,dt.$$}@}
 
 Because {@{$s_k(t)=\pm A\,p(t)$}@} and {@{$p(t)$}@} is {@{assumed to be a rectangular pulse of duration $T$}@}, {@{the deterministic part of $V$}@} equals {@{$$E[V|b_k=1]   = +AT,\qquad  E[V|b_k=0]   = -AT.$$}@}
 
@@ -37,11 +37,11 @@ Thus {@{the decision statistic $V$}@} conditioned on {@{the transmitted bit}@} i
 
 In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}.
 
-The following section develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions made about {@{the transmitted waveform, the receiver structure, the noise statistics}@} and finally the mathematical derivation of {@{the BER in terms of the Q‑function and signal energy}@}.
+The following section develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions made about {@{the transmitted waveform, the receiver structure, the noise statistics}@} and finally the mathematical derivation of {@{the BER in terms of the Q-function and signal energy}@}.
 
-Let {@{the prior probabilities}@} be {@{$$P(b_k=0)=p_0,\qquad P(b_k=1)=p_1,$$}@} with {@{$p_0+p_1=1$}@}. {@{The a‑priori bit error probabilities}@} are {@{no longer equal}@}; they become {@{$$P_e^{(0)} = P(\hat b_k \neq 0 | b_k=0),\qquad P_e^{(1)} = P(\hat b_k \neq 1 | b_k=1).$$}@} {@{The overall BER}@} is {@{the weighted sum}@} {@{$$P_e = p_0\,P_e^{(0)} + p_1\,P_e^{(1)} \,.$$}@}
+Let {@{the prior probabilities}@} be {@{$$P(b_k=0)=p_0,\qquad P(b_k=1)=p_1,$$}@} with {@{$p_0+p_1=1$}@}. {@{The a-priori bit error probabilities}@} are {@{no longer equal}@}; they become {@{$$P_e^{(0)} = P(\hat b_k \neq 0 | b_k=0),\qquad P_e^{(1)} = P(\hat b_k \neq 1 | b_k=1).$$}@} {@{The overall BER}@} is {@{the weighted sum}@} {@{$$P_e = p_0\,P_e^{(0)} + p_1\,P_e^{(1)} \,.$$}@}
 
-Below, we split {@{the analysis into two conditioned cases}@}. Then we avoid dealing with {@{mixed‑distribution integrals that are analytically intractable}@}.
+Below, we split {@{the analysis into two conditioned cases}@}. Then we avoid dealing with {@{mixed-distribution integrals that are analytically intractable}@}.
 
 ### bit error rate with zero threshold
 
@@ -62,7 +62,7 @@ For {@{a transmitted '1'}@} {@{the error event}@} is {@{$\{AT+N_T=V\le V_{\!th}\
 For {@{a transmitted '0'}@} {@{the error event}@} is {@{$\{-AT+N_T=V>V_{\!th}\}$}@}, giving
 $$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$
 
-{@{The overall BER with priors $p_0,p_1$}@} is therefore {@{$$\boxed{P_e(V_{\!th})= p_0\,Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right) +p_1\,Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right)} \,.$$}@} {@{Setting $V_{\!th}=0$}@} recovers {@{the zero‑threshold result above}@}.
+{@{The overall BER with priors $p_0,p_1$}@} is therefore {@{$$\boxed{P_e(V_{\!th})= p_0\,Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right) +p_1\,Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right)} \,.$$}@} {@{Setting $V_{\!th}=0$}@} recovers {@{the zero-threshold result above}@}.
 
 ### bit error rate insight
 
@@ -76,20 +76,20 @@ Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability
 
 {@{The _signal energy_ \(excluding noise energy\) transmitted during one symbol}@} is {@{$$E_s = \int_{0}^{T} s_k^2(t)\,dt = A^2 \!\int_{0}^{T} p^2(t)\,dt = A^2 T \,,$$}@} since {@{$p(t)$}@} has {@{unit energy \(assumed to be a rectangular pulse of duration $T$\)}@}.
 
-With {@{non‑equiprobable bits}@} {@{the average energy per bit}@} is {@{$$E_b = p_0\,E_s^{(0)} + p_1\,E_s^{(1)} = (p_0+p_1) A^2 T = A^2 T,$$}@} because {@{both symbols}@} have {@{the same magnitude $A$ and duration $T$}@}. Thus, regardless of {@{the bit priors}@}, {@{$$E_b = A^2 T.$$}@} Note if {@{the two antipodal signals}@} had {@{different amplitudes}@}, the expression would {@{involve $p_0$ and $p_1$ explicitly}@}.
+With {@{non-equiprobable bits}@} {@{the average energy per bit}@} is {@{$$E_b = p_0\,E_s^{(0)} + p_1\,E_s^{(1)} = (p_0+p_1) A^2 T = A^2 T,$$}@} because {@{both symbols}@} have {@{the same magnitude $A$ and duration $T$}@}. Thus, regardless of {@{the bit priors}@}, {@{$$E_b = A^2 T.$$}@} Note if {@{the two antipodal signals}@} had {@{different amplitudes}@}, the expression would {@{involve $p_0$ and $p_1$ explicitly}@}.
 
 ## signal-to-noise ratio
 
-{@{The _signal‑to‑noise ratio_ (SNR) per bit}@} is then {@{$$\frac{E_b}{N_0/2} = \frac{AT^2}{N_0/2} = \frac{2A^2T}{N_0}.$$}@} Thus, {@{the BER for _zero threshold_ can be expressed compactly}@} as {@{$$\boxed{\text{BER}=Q\!\left(\sqrt{\dfrac{2E_b}{N_0} }\right) \qquad V_{\!th} = 0} \,.$$}@} It is {@{a classic result}@} for {@{binary antipodal signaling over an AWGN channel}@}.
+{@{The _signal-to-noise ratio_ (SNR) per bit}@} is then {@{$$\frac{E_b}{N_0/2} = \frac{AT^2}{N_0/2} = \frac{2A^2T}{N_0}.$$}@} Thus, {@{the BER for _zero threshold_ can be expressed compactly}@} as {@{$$\boxed{\text{BER}=Q\!\left(\sqrt{\dfrac{2E_b}{N_0} }\right) \qquad V_{\!th} = 0} \,.$$}@} It is {@{a classic result}@} for {@{binary antipodal signaling over an AWGN channel}@}.
 
 ## using Q-function
 
-{@{The _Q‑function_}@} is {@{the tail probability of a standard normal random variable}@}: {@{$$Q(x)\;=\;\Pr\{Z > x\}\quad \text{with } Z\sim\mathcal N(0,1) \;=\;\frac{1}{\sqrt{2\pi} }\int_{x}^{\infty} e^{-t^{2}/2}\,\mathrm dt \,.$$}@} It may be calculated by {@{using well‑tabulated Q‑functions}@} apart from {@{numerical integration or simulation}@}. However, most textbooks provide {@{a Q‑table up to $x \approx 3$}@}; beyond that, {@{entries become negligible}@}.
+{@{The _Q-function_}@} is {@{the tail probability of a standard normal random variable}@}: {@{$$Q(x)\;=\;\Pr\{Z > x\}\quad \text{with } Z\sim\mathcal N(0,1) \;=\;\frac{1}{\sqrt{2\pi} }\int_{x}^{\infty} e^{-t^{2}/2}\,\mathrm dt \,.$$}@} It may be calculated by {@{using well-tabulated Q-functions}@} apart from {@{numerical integration or simulation}@}. However, most textbooks provide {@{a Q-table up to $x \approx 3$}@}; beyond that, {@{entries become negligible}@}.
 
-For {@{large positive arguments}@}, $Q(x)$ can be approximated by {@{$$Q(x)\approx\frac{1}{\sqrt{2\pi}\,x}e^{-x^{2}/2} \,,$$}@} which is {@{asymptotically exact as $x\to\infty$}@}. {@{This approximation}@} simplifies {@{analytical work when deriving closed‑form BER expressions}@}. It shows the function is {@{a strictly decreasing function}@}: {@{larger thresholds}@} lead to {@{smaller tail probabilities}@}; it also {@{rapid decays}@} for {@{large $x$}@}.
+For {@{large positive arguments}@}, $Q(x)$ can be approximated by {@{$$Q(x)\approx\frac{1}{\sqrt{2\pi}\,x}e^{-x^{2}/2} \,,$$}@} which is {@{asymptotically exact as $x\to\infty$}@}. {@{This approximation}@} simplifies {@{analytical work when deriving closed-form BER expressions}@}. It shows the function is {@{a strictly decreasing function}@}: {@{larger thresholds}@} lead to {@{smaller tail probabilities}@}; it also {@{rapid decays}@} for {@{large $x$}@}.
 
 ## using error function
 
-{@{The Q‑function}@} can be written in terms of {@{the _complementary_ error function $\operatorname{erfc}$}@}: {@{$$Q(x)=\frac12\,\operatorname{erfc}\!\left(\frac{x}{\sqrt{2} }\right) =\frac12-\frac12\,\operatorname{erf}\!\left(\frac{x}{\sqrt{2} }\right),$$}@} where {@{the ordinary error function}@} is {@{$$\operatorname{erf}(z)= \frac{2}{\sqrt{\pi} }\int_{0}^{z} e^{-t^2}\,dt.$$}@}
+{@{The Q-function}@} can be written in terms of {@{the _complementary_ error function $\operatorname{erfc}$}@}: {@{$$Q(x)=\frac12\,\operatorname{erfc}\!\left(\frac{x}{\sqrt{2} }\right) =\frac12-\frac12\,\operatorname{erf}\!\left(\frac{x}{\sqrt{2} }\right),$$}@} where {@{the ordinary error function}@} is {@{$$\operatorname{erf}(z)= \frac{2}{\sqrt{\pi} }\int_{0}^{z} e^{-t^2}\,dt.$$}@}
 
 {@{These identities are useful}@} when {@{numerical tables or software libraries}@} provide {@{$\operatorname{erfc}$ rather than $Q$}@}. For example, the equation for {@{the BER using zero threshold}@}: {@{$$\boxed{\text{BER}= \frac12\,\operatorname{erfc}\!\left(\sqrt{\dfrac{E_b}{N_0} }\right)} \,,$$}@} and the equation for {@{the BER using arbitrary threshold}@}: {@{$$\boxed{\text{BER}(V_{\!th})= p_{0}\,\tfrac12\,\operatorname{erfc}\!\left(\dfrac{AT+V_{\!th} } {\sqrt{2\,\sigma^2_{n_T} } }\right) +p_{1}\,\tfrac12\,\operatorname{erfc}\!\left(\dfrac{AT-V_{\!th} } {\sqrt{2\,\sigma^2_{n_T} } }\right)} \,.$$}@}

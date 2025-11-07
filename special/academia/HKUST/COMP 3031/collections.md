@@ -21,7 +21,7 @@ tags:
 
 ## hierarchy
 
-{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java‑backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}.
+{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}.
 
 {@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}.
 
@@ -63,7 +63,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}.
 
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non‑empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}.
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}.
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}.
 
@@ -103,7 +103,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 ### list methods
 
-Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked‑list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example:
+Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example:
 
 > [!example] __list construction__
 >
@@ -133,7 +133,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > }
 > ```
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out‑of‑range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}.
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}.
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}.
 
@@ -187,7 +187,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 >   }
 > ```
 
-Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear‑time implementation}@} would use {@{an accumulator}@}.
+Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}.
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}:
 
@@ -304,11 +304,11 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as:
 >
 > In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}.
 
-In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained:
+In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained:
 
 > [!example] __`pack` example__
 >
-> Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained:
+> Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained:
 >
 > ```Scala
 > def encode[T](xs: List[T]): List[(T, Int)] =
@@ -385,11 +385,11 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 >
 > {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}.
 
-{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
+{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
 
 > [!example] __`foldLeft` example__
 >
-> For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
+> For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
 >
 > ```Scala
 > def reverse[T](xs: List[T]): List[T] =
@@ -398,7 +398,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly‑linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32‑element blocks}@}; this design gives {@{roughly logarithmic‑time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}.
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}.
 
 Vectors are constructed {@{in exactly the same way as lists}@}:
 
@@ -447,7 +447,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 > 6 to 1 by -2       // 6,4,2
 > ```
 
-Because ranges are {@{lazy and small}@}, they provide {@{constant‑time `contains`, `head`, `last` and indexing}@}.
+Because ranges are {@{lazy and small}@}, they provide {@{constant-time `contains`, `head`, `last` and indexing}@}.
 
 ## sequence methods
 
@@ -457,11 +457,11 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `forall(p)` ::@:: Returns `true` only if every element satisfies `p`. For empty sequences it returns `true`.
 - `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length.
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences.
-- `flatMap(f)` ::@:: Applies a collection‑valued function to each element and concatenates the results.
+- `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results.
 - `sum`, `product` ::@:: Aggregate numeric collections.
 - `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`).
 
-These operations are typically implemented via {@{recursion or tail‑recursion}@} over {@{the underlying list structure}@}.
+These operations are typically implemented via {@{recursion or tail-recursion}@} over {@{the underlying list structure}@}.
 
 > [!example] __combinations__
 >
@@ -475,7 +475,7 @@ These operations are typically implemented via {@{recursion or tail‑recursion}
 
 > [!example] __scalar product__
 >
-> Given {@{two numeric vectors of equal length}@}, {@{their scalar product}@} is {@{the sum of element‑wise products}@}. In Scala this can be expressed concisely:
+> Given {@{two numeric vectors of equal length}@}, {@{their scalar product}@} is {@{the sum of element-wise products}@}. In Scala this can be expressed concisely:
 >
 > ```Scala
 > def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =

@@ -47,11 +47,11 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{The _initial value_}@} of an attribute describe {@{the initial value for the data value if _unspecified_}@}. It is {@{_optional_}@}, and by default {@{requires the data value to be _specified_ since there is no initial value}@}.
 
-{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default {@{is 1}@}. Its syntax is {@{the same as that for association multiplicity}@} but {@{inside square brackets `[]`}@}, i.e. {@{`[min..max]`}@}. \(__this course__: Tested in the midterm examination.\)
+{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default {@{is 1}@}. Its syntax is {@{the same as that for association multiplicity}@} but {@{inside square brackets `[]`}@}, i.e. {@{`[min..max]`}@}, e.g. {@{`accounts: Account [0..10]`}@}. \(__this course__: Tested in the midterm examination.\)
 
-{@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}. Its syntax is {@{writing the property inside curly brackets `{}`}@}, i.e. {@{`{readOnly}`}@}.
+{@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}. Its syntax is {@{writing the property inside curly brackets `{}`}@}, i.e. {@{`{readOnly}`}@}, e.g. {@{`account: Account {readonly}`}@}.
 
-{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> <multiplicity> <mutability> = <initial value>`}@}.
+{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> <multiplicity> <mutability> = <initial value>`}@}, e.g. {@{`+accounts: Account [0..10] {readOnly} = []`}@}.
 
 ## operations
 
@@ -293,7 +293,7 @@ Below is an example of {@{_roles_ \(actor _description_\) in a course registrati
 
 A use case must {@{deliver _value_}@} to an actor, e.g. {@{_individual_ functions}@} most likely {@{do not make good use cases}@}. To do so, prefer {@{_longer_ and _extensive_ use cases}@} over {@{smaller use cases}@}; in other words, {@{_real_ and _complete_ use cases}@} are preferred over {@{_sub-cases_ of aforementioned use cases}@}. These preferred use cases can be obtained, after {@{identifying _individual_ use cases \(sub-cases\)}@}, by {@{_grouping_ \(and eliminate redundant\) use cases together}@}.
 
-{@{A _scenario_}@} is {@{the concrete _instantiation_ of a use case}@}. Think of it as {@{a _single run‑through_ of the use case}@} from {@{the viewpoint of one particular actor}@}. Scenarios provide {@{a focused, informal description}@} that shows {@{how the system behaves in a real situation}@}. When {@{developing requirements}@} you can adopt either {@{a top‑down approach}@}—start with {@{abstract use cases and refine them into scenarios}@}—or {@{a bottom‑up approach}@}—begin with {@{detailed scenarios and then generalize to broader use cases}@}. In {@{practice}@} most analysts {@{blend both viewpoints}@}.
+{@{A _scenario_}@} is {@{the concrete _instantiation_ of a use case}@}. Think of it as {@{a _single run-through_ of the use case}@} from {@{the viewpoint of one particular actor}@}. Scenarios provide {@{a focused, informal description}@} that shows {@{how the system behaves in a real situation}@}. When {@{developing requirements}@} you can adopt either {@{a top-down approach}@}—start with {@{abstract use cases and refine them into scenarios}@}—or {@{a bottom-up approach}@}—begin with {@{detailed scenarios and then generalize to broader use cases}@}. In {@{practice}@} most analysts {@{blend both viewpoints}@}.
 
 In {@{UML terms}@}, a use case is {@{a _stereotype_ of a class \(a kind of class\)}@}; it's {@{a _classifier_}@} that {@{represents a set of interactions}@}. {@{A _scenario_}@}, on the other hand, is {@{an _instance_ of that classifier}@}.
 
@@ -305,7 +305,7 @@ To {@{_identify_ use cases and scenarios}@}, ask {@{these questions for each act
 - internal notifications ::@:: Which events must the system notify the actor about?
 - administration ::@:: How will the system be supported and maintained?
 
-When {@{naming a use case}@}, use {@{a _present‑tense_, _active‑voice_ _verb phrase_ from the actor's perspective}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Follow this with {@{a brief purpose statement that outlines the functionality}@} in {@{terms familiar to domain experts}@} \(use {@{glossary or data dictionary terminology}@}\).
+When {@{naming a use case}@}, use {@{a _present-tense_, _active-voice_ _verb phrase_ from the actor's perspective}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Follow this with {@{a brief purpose statement that outlines the functionality}@} in {@{terms familiar to domain experts}@} \(use {@{glossary or data dictionary terminology}@}\).
 
 After {@{identifying use cases and scenarios}@}, we can {@{_expand_ the role \(actor _description_\) of each actor}@} by {@{adding use cases for that actor}@}. Also, write {@{a document listing the use cases}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Finally, {@{_group_ use cases}@} so that the use cases are {@{_real_ and _complete_ rather than being sub-cases}@}, and give {@{a name for each grouping}@}; and {@{_eliminate_ _redundant_ use cases}@}, e.g. {@{when a use case is a _composition_ of two or more other use cases}@}. Henceforth, we will call these groups {@{simply "use cases"}@}.
 
@@ -325,47 +325,47 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 
 {@{A detailed use case specification}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 items: {@{name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)}@}\)
 
-1. __Name__ ::@:: concise title written as an active‑voice verb phrase in the present tense.
+1. __Name__ ::@:: concise title written as an active-voice verb phrase in the present tense.
 2. __Brief description__ ::@:: a short \(one-sentence\) summary of the scenario.
 3. __Actors__ ::@:: the participants initiating the use case; it may be listed or illustrated with a use case diagram fragment showing the actor and the use case.
 4. __Preconditions__ \(if any\) ::@:: conditions that must hold before the use case can start; they state _what_ is required, not _how_ it is achieved.
-5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered.
+5. __Flow of events__ ::@:: a step-by-step narrative of actions performed by actors and the system, written declaratively and numbered.
 6. __Postconditions__ \(if any\) ::@:: the state that must hold after completion if it matters to stakeholders or for subsequent use cases.
 7. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow.
-8. __Special (non‑functional) requirements__ \(if any\) ::@:: any constraints such as performance or security that apply to this scenario.
+8. __Special (non-functional) requirements__ \(if any\) ::@:: any constraints such as performance or security that apply to this scenario.
 
 #### use case preconditions
 
-In use‑case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "{@{how}@}"\).
+In use-case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "{@{how}@}"\).
 
-Preconditions serve to keep {@{each use‑case description independent of others}@} by focusing only on {@{the necessary state of both the system and its participants}@}. They are typically written in {@{a declarative style}@} (e.g., {@{"The user is logged in"}@}) and are considered {@{necessary but not sufficient for the use case to proceed}@}, considering that starting a use case {@{always requires an actor to do something}@}.
+Preconditions serve to keep {@{each use-case description independent of others}@} by focusing only on {@{the necessary state of both the system and its participants}@}. They are typically written in {@{a declarative style}@} (e.g., {@{"The user is logged in"}@}) and are considered {@{necessary but not sufficient for the use case to proceed}@}, considering that starting a use case {@{always requires an actor to do something}@}.
 
 #### use case postconditions
 
-{@{A postcondition}@} captures {@{the state that the system must be in after the conclusion of a use case}@}, provided that this final state {@{matters to an actor or influences subsequent behaviour}@}, e.g. {@{"after withdrawal, the account balance must remain non‑negative"}@} in an ATM withdrawal use case. {@{Postconditions are written}@} when {@{the outcome of the scenario is non‑obvious}@} or when {@{the resulting state will act as a precondition for another use case}@}. They help {@{readers—developers, testers, and stakeholders}@}—to understand {@{what has changed in the system}@} and ensure that {@{the intended effects of the interaction have been achieved}@} \(e.g., "{@{The order record}@} is {@{saved in the database}@}"\).
+{@{A postcondition}@} captures {@{the state that the system must be in after the conclusion of a use case}@}, provided that this final state {@{matters to an actor or influences subsequent behaviour}@}, e.g. {@{"after withdrawal, the account balance must remain non-negative"}@} in an ATM withdrawal use case. {@{Postconditions are written}@} when {@{the outcome of the scenario is non-obvious}@} or when {@{the resulting state will act as a precondition for another use case}@}. They help {@{readers—developers, testers, and stakeholders}@}—to understand {@{what has changed in the system}@} and ensure that {@{the intended effects of the interaction have been achieved}@} \(e.g., "{@{The order record}@} is {@{saved in the database}@}"\).
 
 #### use case flow of events
 
-{@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step‑by‑step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface → instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\)
+{@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step-by-step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface → instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\)
 
 - Optional behavior ::@:: – Actions that may occur _in addition_ to the normal flow but are not required for completion.
-- Variant behavior ::@:: – A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop‑up informs the user and jumps to "SelectCourse".
+- Variant behavior ::@:: – A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop-up informs the user and jumps to "SelectCourse".
 - Exceptional behavior ::@:: – Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm".
 
 From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points; typically inclusive, but best to specify)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}.
 
 There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering the basic flows}@}. {@{Each basic flow}@} comes with {@{its own _preconditions_ and _postconditions_}@}, which are also indicated by {@{numbering them}@}.
 
-{@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event‑response orientation}@} \(i.e. {@{the user does something, then the system does something, etc.}@}\) that focuses on {@{what happens rather than how it is implemented}@}.
+{@{The structure}@} also supports {@{__branching__ (`if` statements) and __loops__ (`for`, `while`)}@} to model {@{conditional decisions and repeated actions}@}. However, {@{repetition is used sparingly}@} to keep {@{the narrative readable}@}; the emphasis is on {@{an event-response orientation}@} \(i.e. {@{the user does something, then the system does something, etc.}@}\) that focuses on {@{what happens rather than how it is implemented}@}.
 
 > [!example] __branching using `if`__
 >
 > The syntax for {@{branching}@} using {@{`if`}@}:
 >
 > ```text
-> n.  If <boolean‑expression>
->     n.1  <declarative‑statement>
->     n.2  <declarative‑statement>
+> n.  If <boolean-expression>
+>     n.1  <declarative-statement>
+>     n.2  <declarative-statement>
 >     ...
 > n+1.
 > ```
@@ -377,9 +377,9 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 > The syntax for {@{iteration}@} using {@{`for`}@}:
 >
 > ```text
-> n.  For <iteration‑expression>
->     n.1  <declarative‑statement>
->     n.2  <declarative‑statement>
+> n.  For <iteration-expression>
+>     n.1  <declarative-statement>
+>     n.2  <declarative-statement>
 >     ...
 > n+1.
 > ```
@@ -391,9 +391,9 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 > The syntax for {@{iteration}@} using {@{`while`}@}:
 >
 > ```text
-> n.  While <boolean‑expression>
->     n.1  <declarative‑statement>
->     n.2  <declarative‑statement>
+> n.  While <boolean-expression>
+>     n.1  <declarative-statement>
+>     n.2  <declarative-statement>
 >     ...
 > n+1.
 > ```
@@ -420,13 +420,13 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 
 #### use case subflows
 
-{@{A _subflow_}@} is {@{a self‑contained segment of behaviour}@} that is {@{referenced from the main flow of events}@} to {@{improve readability and structure}@}. Subflows are {@{__atomic__ in the sense}@} that they have {@{a clear purpose but are not independent use cases}@}; they remain {@{part of the same scenario}@}. They should be {@{numbered (S1, S2, ...)}@} and given {@{unique \(within the use case\), active names}@} that {@{indicate their intent}@}, e.g. {@{"CreateSchedule", "ModifySchedule"}@}. {@{The main flow references a subflow}@} with {@{the phrase "Perform subflow &lt;subflow‑name&gt;".}@} Subflows are meant to encapsulate {@{repetitive or complex sequences without creating new use cases}@}; therefore, {@{excessive nesting of subflows}@} should be {@{avoided to keep the specification concise and comprehensible}@}.
+{@{A _subflow_}@} is {@{a self-contained segment of behaviour}@} that is {@{referenced from the main flow of events}@} to {@{improve readability and structure}@}. Subflows are {@{__atomic__ in the sense}@} that they have {@{a clear purpose but are not independent use cases}@}; they remain {@{part of the same scenario}@}. They should be {@{numbered (S1, S2, ...)}@} and given {@{unique \(within the use case\), active names}@} that {@{indicate their intent}@}, e.g. {@{"CreateSchedule", "ModifySchedule"}@}. {@{The main flow references a subflow}@} with {@{the phrase "Perform subflow &lt;subflow-name&gt;".}@} Subflows are meant to encapsulate {@{repetitive or complex sequences without creating new use cases}@}; therefore, {@{excessive nesting of subflows}@} should be {@{avoided to keep the specification concise and comprehensible}@}.
 
 ### use case detail level
 
-{@{The goal of a use‑case specification}@} is to provide {@{sufficient detail so that all stakeholders—developers, testers, business users, and customers—agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}.
+{@{The goal of a use-case specification}@} is to provide {@{sufficient detail so that all stakeholders—developers, testers, business users, and customers—agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}.
 
-When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low‑value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}.
+When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low-value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}.
 
 To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}.
 
@@ -442,9 +442,9 @@ In the banking example, when an association is {@{for the result of an operation
 
 ### common mistakes: "has" relation
 
-{@{Many "Has" associations}@} are better {@{represented as simple associations}@} rather than {@{aggregations or compositions}@}. Yet students often {@{default to aggregation}@} because they see {@{a part‑whole phrase in natural language}@} and automatically {@{apply the adornment}@}. This mistake arises from {@{a lack of judgment}@} about {@{the life cycle coupling between objects}@}. Evaluate whether {@{the part can exist independently}@}; if so, {@{use aggregation}@}. If {@{the part's existence is strictly tied to the whole}@}, {@{use composition}@}. When {@{uncertain}@}, lean toward {@{a plain association to avoid over‑engineering}@}.
+{@{Many "Has" associations}@} are better {@{represented as simple associations}@} rather than {@{aggregations or compositions}@}. Yet students often {@{default to aggregation}@} because they see {@{a part-whole phrase in natural language}@} and automatically {@{apply the adornment}@}. This mistake arises from {@{a lack of judgment}@} about {@{the life cycle coupling between objects}@}. Evaluate whether {@{the part can exist independently}@}; if so, {@{use aggregation}@}. If {@{the part's existence is strictly tied to the whole}@}, {@{use composition}@}. When {@{uncertain}@}, lean toward {@{a plain association to avoid over-engineering}@}.
 
-In the {@{banking example}@}, students sometimes mark {@{a "has‑a" relationship between `Account` and `Transaction`}@} as {@{an aggregation or composition}@}, implying that {@{a transaction belongs to a particular account}@}. In reality, a transaction often {@{involves multiple accounts}@}; there is {@{no account that a transaction belongs to}@}. This should be modeled with {@{a regular association}@}. Another example is {@{composition between `Customer` and `Account`}@} when {@{a customer owns an account}@}, but {@{composition}@} implies that {@{the accounts are integral to the existence of customers}@}. The proper modeling is {@{still a regular association}@}. {@{Aggregation or composition}@} should only be used when {@{the part is highly dependent on the whole}@}.
+In the {@{banking example}@}, students sometimes mark {@{a "has-a" relationship between `Account` and `Transaction`}@} as {@{an aggregation or composition}@}, implying that {@{a transaction belongs to a particular account}@}. In reality, a transaction often {@{involves multiple accounts}@}; there is {@{no account that a transaction belongs to}@}. This should be modeled with {@{a regular association}@}. Another example is {@{composition between `Customer` and `Account`}@} when {@{a customer owns an account}@}, but {@{composition}@} implies that {@{the accounts are integral to the existence of customers}@}. The proper modeling is {@{still a regular association}@}. {@{Aggregation or composition}@} should only be used when {@{the part is highly dependent on the whole}@}.
 
 ### common mistakes: ER model
 
@@ -456,7 +456,7 @@ When {@{two instances of the same class}@} are {@{linked (e.g., "manages" or "fr
 
 ### common mistakes: implementation details
 
-Many students think that once {@{a class diagram is complete}@}, it can be {@{directly turned into code with little modification}@}. This misconception leads to {@{diagrams that are too fine‑grained}@} (e.g., {@{modeling every private field}@}) or omit {@{necessary abstraction layers}@}. Remember that UML models should capture {@{essential structure and behavior at the appropriate level of abstraction}@}; {@{refine or abstract}@} as needed before {@{mapping to implementation}@}.
+Many students think that once {@{a class diagram is complete}@}, it can be {@{directly turned into code with little modification}@}. This misconception leads to {@{diagrams that are too fine-grained}@} (e.g., {@{modeling every private field}@}) or omit {@{necessary abstraction layers}@}. Remember that UML models should capture {@{essential structure and behavior at the appropriate level of abstraction}@}; {@{refine or abstract}@} as needed before {@{mapping to implementation}@}.
 
 An example involves treating {@{internal object identifiers (OIDs)}@} as {@{regular attributes}@} and then using {@{those same attributes}@} to {@{represent relationships}@} – for example, {@{`personID`, `vehicleID`, `loanID`, `ownerID`, etc.}@} {@{Other attributes}@} that are {@{internal details}@} include {@{"type" attributes associated with relationships}@}, e.g. {@{`customerType`, `ownerID`, etc.}@} When students {@{simply copy these attributes into their diagrams}@} they create {@{unnecessary data fields}@} that clutter {@{the model}@} and hide {@{the true cardinality of relationships}@}. The root cause is a misunderstanding that identifiers are {@{always required in the diagram}@}; in reality they belong to {@{the underlying database implementation}@}, not {@{the conceptual model}@}. The fix is straightforward: remove {@{all OID attributes from the class diagram}@}, replace {@{each with an association to the appropriate target class}@}, and then annotate {@{the association with the correct multiplicity}@} (e.g., {@{a `Person` or`Company`}@} "owns" {@{zero or more `Car`s}@}). This keeps the diagram {@{focused on structural relationships}@} rather than {@{persistence details}@}.
 
@@ -472,7 +472,7 @@ When {@{an association}@} requires {@{attributes or operations}@}, students some
 
 A frequent mistake is {@{the construction of exclusive-or \(XOR\) associations}@} that either {@{duplicate each other}@} or do not reflect {@{the business rules stated in the requirements}@}. For instance, students often draw both {@{a "OwnsPersonal" and an "OwnsCorporate" association}@} from {@{`Car` to `Person` and `Company`}@}, respectively, without recognising that a car can {@{have only one owner who may be either a person or a company but not both}@}. {@{Multiplicities for XOR associations}@} are frequently {@{set incorrectly}@}: If {@{`1` is used on the owner's side}@}, it allows {@{multiple owners for a single car}@}. If {@{`0..1` is used on the owner's side}@}, it allows {@{no owners for a single car}@}. The remedy is to {@{use `1` on the owner's side to ensure a car has an owner}@}, and then {@{enforce an exclusive-or (XOR) constraint between the two associations}@} to ensure that {@{only one of the owner types is present}@}. {@{The exclusive-or \(XOR\) constraint}@} is denoted by {@{a _dashed line_ connecting the two associations with the label text `{xor}`}@}.
 
-Sometimes, {@{an alternative}@} to {@{using XOR associations}@} is {@{using generalization}@}. Using the same car example, {@{`Person` and `Company`}@} may be {@{generalized to a superclass `Owner`}@}, and then {@{the two associations with an XOR constraint between them}@} becomes {@{a single association: `Owner` _owns_ `Car`}@}.
+Sometimes, {@{an alternative}@} to {@{using XOR associations}@} is {@{using generalization}@}. Using the same car example, {@{`Person` and `Company`}@} may be {@{generalized to a superclass `Owner` with `{complete, disjoint}` coverage}@}, and then {@{the two associations with an XOR constraint between them}@} becomes {@{a single association: `Owner` _owns_ `Car`}@}.
 
 ### common mistakes: operations as associations
 
@@ -484,13 +484,13 @@ In {@{a UML class diagram}@}, it is common to introduce {@{an association}@} sim
 
 Nevertheless, not {@{every seemingly superfluous link}@} is {@{truly dispensable}@}. When {@{three associations}@} involve {@{the same classes}@} but {@{the third association}@} carry {@{distinct semantic roles or constraints from the other two associations}@}, then {@{all of them must be kept}@}.  For instance, {@{`Customer` _owns_ `Account` and `Transaction` _is against_ `Account`}@} are separate from {@{`Customer` _makes_ `Transaction`}@} because {@{the customer making the transaction}@} can be {@{different from the owners of the accounts involved in an transaction}@}. In these cases, {@{the third association}@} conveys {@{unique information from the other two associations}@} and {@{omitting the third association}@} would erase {@{critical business rules}@}.
 
-Another example involves {@{generalization}@}. For instance, {@{`Employee` generalizes `Manager`}@}, and {@{both `Employee` and `Manager` manages sales as a use case}@}. If {@{every scenario a `Manager` can take in the use case}@} is {@{also takable by the `Employee`}@}, then we do not {@{need an arrow from `Manager` to "manage sales"}@}. However, if there are {@{scenarios a `Manager` can additionally take compared to an `Employee`}@}, {@{both arrows from `Employee` and `Manager` to "manage sales"}@} are {@{needed as these two arrows convey somewhat different semantics}@}.
+Another example involves {@{generalization}@}. For instance, {@{`Employee` generalizes `Manager`}@}, and {@{both `Employee` and `Manager` manages sales as a use case}@}. If {@{every scenario a `Manager` can take in the use case}@} is {@{also takable by the `Employee`}@}, then we do not {@{need an arrow from `Manager` to "manage sales"}@}. However, if there are {@{functionalities a `Manager` can _additionally_ take compared to an `Employee`}@}, {@{both arrows from `Employee` and `Manager` to "manage sales"}@} are {@{needed as these two arrows convey somewhat different semantics}@}.
 
 ### common mistakes: real world knowledge
 
 {@{Real world knowledge}@} is {@{important when constructing UML diagrams}@}, e.g. {@{setting multiplicities, etc.}@}
 
-{@{Multiplicity}@} tells the modeler {@{how many instances participate in a relationship}@}. {@{Leaving it blank or marking it with "?"}@} when {@{the domain knowledge suggests a clear bound}@} (e.g., {@{a `Bank`}@} can issue {@{zero or more `CreditCards`}@}) leads to {@{ambiguity}@}. The fix is to infer {@{multiplicities from real‑world constraints}@} and annotate {@{them explicitly, such as `0..*` for unlimited or `1` for mandatory}@}.
+{@{Multiplicity}@} tells the modeler {@{how many instances participate in a relationship}@}. {@{Leaving it blank or marking it with "?"}@} when {@{the domain knowledge suggests a clear bound}@} (e.g., {@{a `Bank`}@} can issue {@{zero or more `CreditCards`}@}) leads to {@{ambiguity}@}. The fix is to infer {@{multiplicities from real-world constraints}@} and annotate {@{them explicitly, such as `*` for unlimited or `1` for mandatory}@}.
 
 ### common mistakes: misusing modeling elements
 
@@ -498,7 +498,7 @@ In the banking example, students sometimes add {@{a XOR operator between `Saving
 
 ### common mistakes: modeling out-of-scope entities
 
-In the banking example, {@{a `Passbook` should not be represented}@} because {@{it is outside the system}@}. Yet many diagrams add {@{a separate class for it}@}. This mistake stems from treating {@{every real‑world object as a candidate class}@} without considering {@{whether it is part of the _system_ being considered}@}. The fix is to model {@{only classes in the _system_ required by the problem statement}@}.
+In the banking example, {@{a `Passbook` should not be represented}@} because {@{it is outside the system}@}. Yet many diagrams add {@{a separate class for it}@}. This mistake stems from treating {@{every real-world object as a candidate class}@} without considering {@{whether it is part of the _system_ being considered}@}. The fix is to model {@{only classes in the _system_ required by the problem statement}@}.
 
 Often but not always, {@{out-of-scope entities}@}, when {@{wrongly represented in the system}@}, are {@{not connected to any other class by associations}@}. So {@{a class without associations to other classes}@} may be {@{a sign that the class is out-of-scope}@}.
 
@@ -538,15 +538,15 @@ Students sometimes model {@{an association between two classes}@} without specif
 
 ### common mistakes: use case scope
 
-A frequent pitfall arises when students craft {@{use cases}@} that are {@{either too granular or too sweeping}@}, which undermines {@{the very purpose of a _use case_ as a _classifier_}@} for {@{a complete, actor‑initiated _scenario_}@}. When a use case is {@{split into many tiny fragments}@}—such as {@{separate cases}@} for {@{"Validate Student ID", "Select Course", and "Confirm Registration"}@}—the diagram becomes {@{cluttered with redundant elements}@} that merely {@{state different parts of a complete interaction}@}. This fragmentation often occurs because analysts mistake {@{every user action or system step}@} for {@{a distinct functional requirement}@}, driven by a desire to {@{capture everything explicitly}@}. The result is {@{a fragmented model}@} where {@{the overarching business process ("Register for Courses")}@} is {@{obscured}@}, making it hard to trace {@{responsibilities and evaluate completeness}@}.
+A frequent pitfall arises when students craft {@{use cases}@} that are {@{either too granular or too sweeping}@}, which undermines {@{the very purpose of a _use case_ as a _classifier_}@} for {@{a complete, actor-initiated _scenario_}@}. When a use case is {@{split into many tiny fragments}@}—such as {@{separate cases}@} for {@{"Validate Student ID", "Select Course", and "Confirm Registration"}@}—the diagram becomes {@{cluttered with redundant elements}@} that merely {@{state different parts of a complete interaction}@}. This fragmentation often occurs because analysts mistake {@{every user action or system step}@} for {@{a distinct functional requirement}@}, driven by a desire to {@{capture everything explicitly}@}. The result is {@{a fragmented model}@} where {@{the overarching business process ("Register for Courses")}@} is {@{obscured}@}, making it hard to trace {@{responsibilities and evaluate completeness}@}.
 
-Conversely, when {@{a use case}@} is {@{too broad}@}—encompassing {@{"Manage Course Catalog", "Handle Billing", and "Process Enrollment"}@} in {@{one single box}@}—it loses {@{its focus}@} and fails to represent {@{a coherent interaction}@}. {@{Such monolithic cases}@} arise from {@{an over‑generalization mindset}@}: analysts aim for {@{minimalism}@} by collapsing {@{all related actions into one umbrella}@}, thinking that fewer {@{diagrams mean less work}@}. However, the consequence is {@{a lack of clarity}@} about who {@{initiates the use case}@}, what {@{steps are involved}@}, and how {@{the system's response should be measured}@}.
+Conversely, when {@{a use case}@} is {@{too broad}@}—encompassing {@{"Manage Course Catalog", "Handle Billing", and "Process Enrollment"}@} in {@{one single box}@}—it loses {@{its focus}@} and fails to represent {@{a coherent interaction}@}. {@{Such monolithic cases}@} arise from {@{an over-generalization mindset}@}: analysts aim for {@{minimalism}@} by collapsing {@{all related actions into one umbrella}@}, thinking that fewer {@{diagrams mean less work}@}. However, the consequence is {@{a lack of clarity}@} about who {@{initiates the use case}@}, what {@{steps are involved}@}, and how {@{the system's response should be measured}@}.
 
-The core issue lies in misunderstanding {@{the definition of a use case}@} as {@{a _classifier_ that encapsulates a complete scenario initiated by an actor}@}. To remedy this, first identify {@{each distinct business goal from the actor's perspective}@}—what value {@{does the actor receive}@}? {@{Each goal}@} becomes {@{a single use case with a clear name}@} (e.g., {@{"Register for Courses"}@}). Then, within {@{that use case}@}, document {@{the full sequence of events}@}: {@{success path}@} and any {@{necessary alternative flows}@}. Avoid creating {@{separate cases}@} for {@{low‑level operations}@} unless they constitute {@{an independent business process}@}. By aligning {@{each use case}@} with {@{one complete scenario driven by an actor}@}, the model remains {@{both manageable and expressive}@}, faithfully reflecting {@{the system's intended behavior}@}.
+The core issue lies in misunderstanding {@{the definition of a use case}@} as {@{a _classifier_ that encapsulates a complete scenario initiated by an actor}@}. To remedy this, first identify {@{each distinct business goal from the actor's perspective}@}—what value {@{does the actor receive}@}? {@{Each goal}@} becomes {@{a single use case with a clear name}@} (e.g., {@{"Register for Courses"}@}). Then, within {@{that use case}@}, document {@{the full sequence of events}@}: {@{success path}@} and any {@{necessary alternative flows}@}. Avoid creating {@{separate cases}@} for {@{low-level operations}@} unless they constitute {@{an independent business process}@}. By aligning {@{each use case}@} with {@{one complete scenario driven by an actor}@}, the model remains {@{both manageable and expressive}@}, faithfully reflecting {@{the system's intended behavior}@}.
 
 ### common mistakes: misusing use case generalization
 
-{@{Misusing use‑case generalization}@} often {@{occurs}@}.
+{@{Misusing use-case generalization}@} often {@{occurs}@}.
 
 \(__this course__: __Important__. Use case generalization is {@{easily misused}@}. Further, it is {@{not needed in the course}@}. So {@{don't use it}@}.\)
 
@@ -558,7 +558,7 @@ In the billing example, {@{the handheld device used by meter readers}@} is {@{oc
 
 ### common mistakes: nonfunctional requirements as use case
 
-{@{_Non‑functional requirements_}@} such as {@{"login", "10% discount", or "by email"}@} are {@{mistakenly modeled as ordinary use cases or part of them}@}. For example, in the movie shop example, {@{"by email"}@} should not be part of {@{use case functionality "receive overdue notice"}@};  that is, {@{how the notice is received}@} is {@{not important}@}. Another example is {@{"login"}@}, which is {@{a _security_ non-functional requirement}@}. It may be represented by {@{an _administration use case_}@} instead.
+{@{_Non-functional requirements_}@} such as {@{"login", "10% discount", or "by email"}@} are {@{mistakenly modeled as ordinary use cases or part of them}@}. For example, in the movie shop example, {@{"by email"}@} should not be part of {@{use case functionality "receive overdue notice"}@};  that is, {@{how the notice is received}@} is {@{not important}@}. Another example is {@{"login"}@}, which is {@{a _security_ non-functional requirement}@}. It may be represented by {@{an _administration use case_}@} instead.
 
 ### common mistakes: wrong initiating actors
 
@@ -568,18 +568,18 @@ In the billing example, {@{the handheld device used by meter readers}@} is {@{oc
 
 There is a tendency to {@{_duplicate functionality across actors_ without justification}@} and overlook {@{_actor hierarchy and role reuse_}@}. The requirement {@{"A sales clerk must look up customer information"}@} is sometimes drawn as {@{separate arrows to the same use case}@} for {@{every type of clerk \(e.g. cashier, manager\)}@}. In practice, {@{the same _Lookup Customer_ action}@} is {@{the same by any staff member}@}; UML encourages {@{such reuse}@} through {@{actor generalization}@} rather than {@{duplicating the association}@}. Failure to do so inflates {@{the diagram}@} and obscures the fact that {@{the operation is common across roles}@}.
 
-However, as mentioned above, if {@{the subactor can perform additional actions for the use case}@}, then {@{the association from the subactor to the same use case}@} is {@{not redundant}@}.
+However, as mentioned above, if {@{the subactor can perform _additional_ functionalities for the use case}@}, then {@{the association from the subactor to the same use case}@} is {@{_not_ redundant}@}.
 
 ### common mistakes: use case without initiating actors
 
-A frequent source of confusion in {@{use case modeling and use case diagram}@} is the appearance of {@{a use case that has no clear initiating actor}@}. When a diagram shows {@{an isolated oval labeled}@}, for example, {@{"Prepare Bill" or "Produce Payment Report"}@}, yet none {@{of the surrounding actors}@} are {@{connected to it with a solid arrow}@} \(also includes {@{having only communication associations}@}\), readers immediately {@{wonder who starts this activity}@}. {@{This situation typically arises}@} when students translate {@{functional requirements verbatim into use‑case names}@} without first asking {@{_who_ will trigger that action in the real system}@}.
+A frequent source of confusion in {@{use case modeling and use case diagram}@} is the appearance of {@{a use case that has no clear initiating actor}@}. When a diagram shows {@{an isolated oval labeled}@}, for example, {@{"Prepare Bill" or "Produce Payment Report"}@}, yet none {@{of the surrounding actors}@} are {@{connected to it with a solid arrow}@} \(also includes {@{having only communication associations}@}\), readers immediately {@{wonder who starts this activity}@}. {@{This situation typically arises}@} when students translate {@{functional requirements verbatim into use-case names}@} without first asking {@{_who_ will trigger that action in the real system}@}.
 
-The consequences of {@{leaving a use case uninitiated}@} are {@{twofold}@}. First, it breaks {@{the fundamental UML rule}@} that {@{every use case}@} must be {@{triggered by at least one actor}@}; otherwise the model becomes {@{ambiguous and incomplete}@}. Second, {@{such orphaned use cases}@} often indicate {@{an over‑splitting of functionality}@}: the activity may {@{actually belong to another, already‑identified use case}@}. For instance, {@{"Prepare Bill" might simply be a sub‑step within "Bill Customer"}@}, or it could be part of {@{the overall billing workflow}@} that is initiated by {@{a meter reader's reading entry}@} \(so {@{"Enter Meter Reading"}@} can also be {@{merged into "Bill Customer"}@}\).
+The consequences of {@{leaving a use case uninitiated}@} are {@{twofold}@}. First, it breaks {@{the fundamental UML rule}@} that {@{every use case}@} must be {@{triggered by at least one actor}@}; otherwise the model becomes {@{ambiguous and incomplete}@}. Second, {@{such orphaned use cases}@} often indicate {@{an over-splitting of functionality}@}: the activity may {@{actually belong to another, already-identified use case}@}. For instance, {@{"Prepare Bill" might simply be a sub-step within "Bill Customer"}@}, or it could be part of {@{the overall billing workflow}@} that is initiated by {@{a meter reader's reading entry}@} \(so {@{"Enter Meter Reading"}@} can also be {@{merged into "Bill Customer"}@}\).
 
 To {@{resolve this issue}@}, begin by reviewing {@{the business scenario for each orphaned use case}@} and asking {@{which actor ultimately performs the first step}@}. If {@{no external actor can initiate the action}@}, then the activity should likely be {@{merged into an existing use case that does have an initiator}@}. For example, if {@{"Produce Payment Report" is only ever invoked}@} after {@{some payments have been processed}@}, it makes sense to fold {@{"Produce Payment Report" into the broader "Process Payment" use case}@}.
 
-When a use case appears to have {@{only communication associations}@}—such as {@{sending a message to another system component}@}—but {@{no direct actor link}@}, examine {@{the surrounding context}@} for {@{a higher‑level use case that initiates the communication chain}@}. Often the communication is {@{merely a side effect of a larger transaction}@}. Merge {@{the isolated case into that parent use case}@} and represent {@{the communication as an internal step}@} or {@{a secondary activity within the merged use case}@}.
+When a use case appears to have {@{only communication associations}@}—such as {@{sending a message to another system component}@}—but {@{no direct actor link}@}, examine {@{the surrounding context}@} for {@{a higher-level use case that initiates the communication chain}@}. Often the communication is {@{merely a side effect of a larger transaction}@}. Merge {@{the isolated case into that parent use case}@} and represent {@{the communication as an internal step}@} or {@{a secondary activity within the merged use case}@}.
 
 ### common mistakes: missing nonfunctional requirements
 
-{@{Nonfunctional requirements}@} (e.g. {@{performance, reliability, security}@}) should be represented {@{alongside functional ones}@}. Yet students often leave {@{these out of their use‑case diagrams or class models}@}, resulting in {@{a specification that looks complete}@} but misses {@{critical quality attributes}@}. The root cause is the misconception that UML only describes {@{behaviour and structure}@}. To fix this, add {@{text describing nonfunctional requirements}@} to {@{the relevant use cases; or the entire system for whole-system requirements}@}.
+{@{Nonfunctional requirements}@} (e.g. {@{performance, reliability, security}@}) should be represented {@{alongside functional ones}@}. Yet students often leave {@{these out of their use-case diagrams or class models}@}, resulting in {@{a specification that looks complete}@} but misses {@{critical quality attributes}@}. The root cause is the misconception that UML only describes {@{behaviour and structure}@}. To fix this, add {@{text describing nonfunctional requirements}@} to {@{the relevant use cases; or the entire system for whole-system requirements}@}.

@@ -33,7 +33,7 @@ To assert that {@{an implementation of a set actually behaves as a set}@}, we st
 
 - __Empty contains nothing__ ::@:: $$\text{Empty.contains}(x) = \text{false}$$
 - __Insertion guarantees presence__ ::@:: $$s.\text{incl}(x).\text{contains}(x) = \text{true}$$
-- __Non‑insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$
+- __Non-insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$
 
 These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} contains {@{nothing}@}; {@{inserting an element}@} guarantees that it is {@{now present}@}; and {@{inserting another element}@} does not {@{disturb the membership status of unrelated elements}@}.
 
@@ -46,7 +46,7 @@ The familiar principle of {@{natural induction on the natural numbers}@} states 
 
 For {@{lists, trees, etc.}@}, the analogous principle is {@{_structural induction_}@}.
 
-A list can be {@{either `Nil` or an element cons‑ed onto another list (`x :: xs`)}@}. To prove {@{a property $P(\texttt{xs})$ for all lists}@}, we show:
+A list can be {@{either `Nil` or an element cons-ed onto another list (`x :: xs`)}@}. To prove {@{a property $P(\texttt{xs})$ for all lists}@}, we show:
 
 1. \(annotation: structural induction on lists\) __Base case__: ::@:: $P(\texttt{Nil})$ holds.
 2. \(annotation: structural induction on lists\) __Inductive step__: ::@:: For any element `x` and any sublist `xs`, if $P(\texttt{xs})$ holds then so does $P(\texttt{x :: xs})$.
@@ -58,13 +58,13 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is:
 
 - inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$.
-- induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub‑trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$.
+- induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub-trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$.
 
 The proof is typically structured as {@{a base case (leaves)}@} followed by {@{an inductive step for each node constructor}@}. The technique guarantees that {@{any property established in this way}@} holds for {@{all trees, no matter how deeply nested}@}.
 
 ## referential transparency
 
-{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub‑expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}.
+{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}.
 
 ## proofs
 
@@ -124,15 +124,15 @@ Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs 
 >
 > {@{__Base case (`xs = Nil`).__}@}
 >
-> - Left‑hand side: `(Nil ::: ys) ::: zs` reduces {@{by the first clause to `ys ::: zs`}@}.
-> - Right‑hand side: `Nil ::: (ys ::: zs)` reduces, {@{again by the first clause, to `ys ::: zs`}@}.
+> - Left-hand side: `(Nil ::: ys) ::: zs` reduces {@{by the first clause to `ys ::: zs`}@}.
+> - Right-hand side: `Nil ::: (ys ::: zs)` reduces, {@{again by the first clause, to `ys ::: zs`}@}.
 > - Both sides are {@{identical, so the base case holds}@}.
 >
 > {@{__Inductive step (`xs = x :: xs1`).__}@}
 >
 > Assume {@{the property for `xs1`}@}; we must show it for {@{`x :: xs1`}@}.
 >
-> {@{Left‑hand side}@}:
+> {@{Left-hand side}@}:
 >
 > ```pseudocode
 > ((x :: xs1) ::: ys) ::: zs
@@ -141,7 +141,7 @@ Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs 
 >   = x :: (xs1 ::: (ys ::: zs))  // induction hypothesis
 > ```
 >
-> {@{Right‑hand side}@}:
+> {@{Right-hand side}@}:
 >
 > ```pseudocode
 > (x :: xs1) ::: (ys ::: zs)
@@ -176,7 +176,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 
 > [!example] __proof: part 1__
 >
-> {@{__Base case (`xs = Nil`).__}@} {@{`Nil.reverse.reverse`}@} reduces to {@{`Nil`, matching the right‑hand side}@}.
+> {@{__Base case (`xs = Nil`).__}@} {@{`Nil.reverse.reverse`}@} reduces to {@{`Nil`, matching the right-hand side}@}.
 >
 > {@{__Inductive step (`xs = x :: xs1`).__}@}
 >
@@ -284,7 +284,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 <!-- markdownlint MD028 -->
 
-> [!example] __proving non‑insertion preserves membership: inductive step__
+> [!example] __proving non-insertion preserves membership: inductive step__
 >
 > {@{Inductive step}@}: assume {@{$P(s)$ holds for a subtree $s$}@}; we must show it for {@{`NonEmpty(elem, l, r)`}@}. That is,
 >
@@ -300,7 +300,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 <!-- markdownlint MD028 -->
 
-> [!example] __proving non‑insertion preserves membership: base case__
+> [!example] __proving non-insertion preserves membership: base case__
 >
 > The proof {@{mirrors law 2}@} but keeps {@{track of a distinct element $y$}@}.
 >
@@ -314,7 +314,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 <!-- markdownlint MD028 -->
 
-> [!example] __proving non‑insertion preserves membership: inductive step__
+> [!example] __proving non-insertion preserves membership: inductive step__
 >
 > {@{Inductive step}@}: consider {@{`NonEmpty(elem, l, r)`}@} and assume {@{$y \neq x$}@}. We need to show:
 >

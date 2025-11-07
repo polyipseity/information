@@ -21,7 +21,7 @@ tags:
 
 ## motivation
 
-In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth‑first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}.
+In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth-first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}.
 
 ## lazy list
 
@@ -34,17 +34,17 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 {@{A lazy list}@} is defined by {@{two core fields}@}: {@{`LazyList.head` and `LazyList.tail`}@}.
 
 - `LazyList.head` ::@:: The first element, which may be computed lazily.
-- `LazyList.tail` ::@:: A _by‑name_ parameter that represents the rest of the list; it is evaluated only when needed and its result is memoised so that subsequent accesses reuse the same value.
+- `LazyList.tail` ::@:: A _by-name_ parameter that represents the rest of the list; it is evaluated only when needed and its result is memoised so that subsequent accesses reuse the same value.
 
 {@{The standard implementation}@} in Scala keeps {@{a lazy `state` field}@} that holds either {@{an empty state or a cons cell with head and tail}@}.  {@{This state}@} is computed {@{on first access, cached, and never recomputed}@}.
 
 ### lazy list construction
 
-{@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by‑name \(lazy\)}@}:
+{@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by-name \(lazy\)}@}:
 
 > [!example] __`LazyList.cons`__
 >
-> {@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by‑name \(lazy\)}@}:
+> {@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by-name \(lazy\)}@}:
 >
 > ```Scala
 > val xs = LazyList.cons(1, LazyList.cons(2, LazyList.empty))
@@ -67,7 +67,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > {@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}:
 >
 > ```Scala
-> val xs1 = ??? #:: LazyList.empty          // a single‑element list (head unspecified)
+> val xs1 = ??? #:: LazyList.empty          // a single-element list (head unspecified)
 > val xs2 = 1 #:: (??? : LazyList[Int])     // head is 1, tail unspecified
 > ```
 
@@ -81,11 +81,11 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > LazyList.range(1000, 10000)   // equivalent to (1000 until 10000).to(LazyList)
 > ```
 
-{@{A hand‑rolled recursive function}@} illustrates {@{the laziness}@}:
+{@{A hand-rolled recursive function}@} illustrates {@{the laziness}@}:
 
 > [!example] __lazy construction__
 >
-> {@{A hand‑rolled recursive function}@} illustrates {@{the laziness}@}:
+> {@{A hand-rolled recursive function}@} illustrates {@{the laziness}@}:
 >
 > ```Scala
 > def lazyRange(lo: Int, hi: Int): LazyList[Int] =
@@ -96,7 +96,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 >   else lo :: listRange(lo + 1, hi)
 > ```
 >
-> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by‑name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}.
+> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}.
 
 ### lazy list operations
 
@@ -114,11 +114,11 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 
 Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}.
 
-{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}:
+{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}:
 
 > [!example] __`LazyList.filter`__
 >
-> For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily‑filtered sublist}@}:
+> For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}:
 >
 > ```Scala
 > def filter(p: A => Boolean): LazyList[A] =
@@ -127,7 +127,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   else tail.filter(p)
 > ```
 >
-> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by‑name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}.
+> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by-name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}.
 
 {@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}:
 
@@ -142,16 +142,16 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 ### lazy list implementation
 
-{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by‑name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance:
+{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance:
 
 > [!example] __naive `LazyList` implementation__
 >
-> {@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by‑name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance:
+> {@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance:
 >
 > ```Scala
 > object TailLazyList {
 >   def cons[T](hd: T, tl: => TailLazyList[T]) =
->     new TailLazyList[T] {          // tail is a by‑name parameter
+>     new TailLazyList[T] {          // tail is a by-name parameter
 >       def isEmpty = false
 >       def head   = hd
 >       def tail   = tl              // recomputed on every access
@@ -160,13 +160,13 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 > }
 > ```
 
-Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` three times}@}—once for {@{each element taken}@}—leading to {@{unnecessary work and potential performance degradation}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by‑name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}).
+Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` three times}@}—once for {@{each element taken}@}—leading to {@{unnecessary work and potential performance degradation}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}).
 
-{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production‑grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}:
+{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}:
 
 > [!example] __`LazyList.state`__
 >
-> {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production‑grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}:
+> {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}:
 >
 > ```Scala
 > class LazyList[+T](init: => State[T]) {
@@ -182,7 +182,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 
 Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\)
 
-- __By‑name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail.
+- __By-name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail.
 - __`lazy val`__ ::@:: – a value that is evaluated at most once, on first use.
 
 For {@{an example}@} of {@{`lazy val`}@}:
@@ -197,9 +197,9 @@ For {@{an example}@} of {@{`lazy val`}@}:
 > def z() = { println("z"); 3 }        // function, evaluated each call
 > ```
 >
-> When evaluating {@{an expression that mixes these constructs}@}, {@{the side‑effects occur}@} in the order {@{the values are first required}@}.
+> When evaluating {@{an expression that mixes these constructs}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}.
 
-When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side‑effects occur}@} in the order {@{the values are first required}@}.
+When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}.
 
 ## infinite sequences
 

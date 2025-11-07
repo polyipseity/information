@@ -88,7 +88,7 @@ To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a
 
 Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}.
 
-It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}.
+It is easy to see that {@{$S(0)$}@} is {@{the multiplicative [right identity](identity%20element.md)}@}: {@{$$a\cdot S(0)=a+(a\cdot 0)=a+0=a \,.$$}@}
 
 To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} requires {@{the induction axiom due to the way multiplication is defined}@}:
 
