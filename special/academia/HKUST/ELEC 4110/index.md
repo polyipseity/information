@@ -98,6 +98,7 @@ The content is in teaching order.
   - periodic function / arithmetic operation ::@:: Performing arithmetic operations between two periodic functions may _not_ yield a periodic function. This happens when their angular frequencies do not have a least common multiple \(LCM\). For example, this happens when one of angular frequency is _irrational_.
   - periodic function / aperiodic ::@:: If a function is not periodic, then it is _aperiodic_. This happens if a positive $T$ such that $s(t + T) = s(t)$ for all $t$ does not exist.
 - [Fourier transform](../../../../general/Fourier%20transform.md) ::@:: It is an integral transform that takes a function as input, and outputs another function that describes the extent to which various frequencies are present in the original function. The output of the transform is a complex-valued function of frequency.
+  - Fourier transform / [transclude](transcludes/Fourier%20transform.md)
   - Fourier transform / intuition ::@:: Any periodic waveform can be decomposed into an infinite sum of sinusoids (Fourier series). <p> Non-periodic signals are represented by the continuous-frequency Fourier transform, which also uses sinusoidal basis functions.
   - Fourier transform / real signals ::@:: For real signals each sinusoid contributes a positive-frequency term plus its complex conjugate at negative frequency; this explains the two-sided nature of the spectrum in the exponential form.
 - periodic function
