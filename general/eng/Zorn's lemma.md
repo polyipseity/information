@@ -103,7 +103,7 @@ __\#3 - For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_.
 
 Suppose {@{_x_ is an element of _I_}@}. Then {@{there exists an ideal _J_ ∈ _T_ such that _x_ is in _J_}@}. If {@{_r_ ∈ _R_}@}, then {@{_rx_ is an element of _J_ and hence an element of _I_}@}. Thus, {@{_I_ is an ideal in _R_}@}.
 
-Now, we show that {@{_I_ is a _proper_ ideal}@}. An ideal is {@{equal to _R_}@} {@{[if and only if](if%20and%20only%20if.md) it contains 1}@}. \(It is clear that {@{if it is _R_ then it contains 1}@}; on the other hand, {@{if it contains 1 and _r_ is an arbitrary element of _R_, then _r_<!-- markdown separator -->1 = _r_ is an element of the ideal}@}, and {@{so the ideal is equal to _R_}@}.\) So, if {@{_I_ were equal to _R_}@}, then {@{it would contain 1}@}, and that means {@{one of the members of _T_ would contain 1}@} and {@{would thus be equal to _R_ – but _R_ is explicitly excluded from _P_}@}.
+Now, we show that {@{_I_ is a _proper_ ideal}@}. An ideal is {@{equal to _R_}@} {@{[if and only if](if%20and%20only%20if.md) it contains 1}@}. \(It is clear that {@{if it is _R_ then it contains 1}@}; on the other hand, if {@{it contains 1 and _r_ is an arbitrary element of _R_}@}, then {@{_r_<!-- markdown separator -->1 = _r_ is an element of the ideal}@}, and so {@{the ideal is equal to _R_}@}.\) So, if {@{_I_ were equal to _R_}@}, then {@{it would contain 1}@}, and that means {@{one of the members of _T_ would contain 1}@} and {@{would thus be equal to _R_ – but _R_ is explicitly excluded from _P_}@}.
 
 {@{The hypothesis of Zorn's lemma has been checked}@}, and thus {@{there is a maximal element in _P_}@}, in other words {@{a maximal ideal in _R_}@}.
 

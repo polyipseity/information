@@ -9,7 +9,7 @@ tags:
 
 # neutrino
 
-A __neutrino__ (/njuːˈtriːnoʊ/ _new-TREE-noh_; denoted by {@{the Greek letter [ν](nu%20(letter).md)}@}) is {@{a [fermion](fermion.md) (an [elementary particle](elementary%20particlee.md) with [spin of ⁠1/2](spin-1/2.md⁠)) that interacts only via the [weak interaction](weak%20interaction.md) and [gravity](gravity.md)}@}. The neutrino is so named because {@{it is [electrically](electric%20charge.md) neutral and because its [rest mass](invariant%20mass.md) is so small (-ino) that it was long thought to be [zero](massless%20particle.md)}@}. The rest mass of the neutrino is {@{much smaller than that of the other known elementary particles (excluding massless particles)}@}.
+A __neutrino__ (/njuːˈtriːnoʊ/ _new-TREE-noh_; denoted by {@{the Greek letter [ν](nu%20(letter).md)}@}) is {@{a [fermion](fermion.md) (an [elementary particle](elementary%20particlee.md) with [spin of ⁠1/2](spin-1/2.md⁠)) that interacts only via the [weak interaction](weak%20interaction.md) and [gravity](gravity.md)}@}. The neutrino is so named because it is {@{[electrically](electric%20charge.md) neutral and because its [rest mass](invariant%20mass.md) is so small \(-ino\)}@} that it was {@{long thought to be [zero](massless%20particle.md)}@}. The rest mass of the neutrino is {@{much smaller than that of the other known elementary particles (excluding massless particles)}@}.
 
 ## references
 

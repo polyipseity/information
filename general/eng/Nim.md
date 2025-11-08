@@ -80,7 +80,7 @@ Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [pos
 
 The evolution graph of the game of nim with three heaps is {@{the same as three branches of the evolution graph of the [Ulam–Warburton automaton](Ulam–Warburton%20automaton.md)}@}.<sup>[\[9\]](#^ref-9)</sup>
 
-Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and {@{there is an easily calculated way to determine which player will win and which winning moves are open to that player}@}.
+Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and there is {@{an easily calculated way}@} to determine {@{which player will win and which winning moves are open to that player}@}.
 
 The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes}@}, i.e., {@{the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows:
 
@@ -114,7 +114,7 @@ The only heap that is reduced is heap A, so the winning move is to {@{reduce the
 
 As a particular simple case, if {@{there are only two heaps left}@}, the strategy is to {@{reduce the number of objects in the bigger heap to make the heaps equal}@}. After that, no matter what move the opponent makes, the player can {@{make the same move on the other heap, guaranteeing that they take the last object}@}.
 
-When {@{played as a misère game}@}, nim strategy is {@{different only when the normal play move would leave only heaps of size one}@}. In that case, the correct move is to {@{leave an odd number of heaps of size one (in normal play, the correct move would be to leave an even number of such heaps)}@}.
+When {@{played as a misère game}@}, nim strategy is {@{different only when the normal play move would leave only heaps of size one}@}. In that case, the correct move is to {@{leave an odd number of heaps of size one}@} \(in {@{normal play}@}, the correct move would be to {@{leave an even number of such heaps}@}\).
 
 These strategies for normal play and a misère game are {@{the same until the number of heaps with at least two objects is exactly equal to one}@}. At that point, the next player {@{removes either all objects (or all but one) from the heap that has two or more}@}, so {@{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. In normal play, the player {@{leaves an even number of non-zero heaps, so the same player takes last}@}; in misère play, the player {@{leaves an odd number of non-zero heaps, so the other player takes last}@}.
 
@@ -174,7 +174,7 @@ from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprag
 
 The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}.
 
-The 21 game can also be {@{played with different numbers, e.g., "Add at most 5; lose on 34"}@}.
+{@{The 21 game}@} can also be played with {@{different numbers}@}, e.g., {@{"Add at most 5; lose on 34"}@}.
 
 A sample game of 21 in which the second player follows the winning strategy:
 
@@ -194,7 +194,7 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to {@{reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34,...) and control the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}.
+A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}.
 
 ### a multiple-heap rule
 

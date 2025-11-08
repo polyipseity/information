@@ -13,7 +13,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 {@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}.
 
-{@{Many combinatorial identities}@} arise from {@{[double counting](double%20counting%20(proof%20technique).md) methods or the [method of distinguished element](method%20of%20distinguished%20element.md)}@}. {@{[Generating functions](generating%20function.md) and [recurrence relations](recurrence%20relation.md)}@} are {@{powerful tools that can be used to manipulate sequences, and can describe if not resolve many combinatorial situations}@}.
+{@{Many combinatorial identities}@} arise from {@{[double counting](double%20counting%20(proof%20technique).md) methods or the [method of distinguished element](method%20of%20distinguished%20element.md)}@}. {@{[Generating functions](generating%20function.md) and [recurrence relations](recurrence%20relation.md)}@} are {@{powerful tools that can be used to manipulate sequences}@}, and can {@{describe if not resolve many combinatorial situations}@}.
 
 ## rule of sum
 

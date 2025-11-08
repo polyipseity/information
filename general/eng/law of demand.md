@@ -112,7 +112,7 @@ Giffen goods {@{violate the law of demand}@} due to {@{the [income effect](consu
 
 ### expectation of change in the price of commodity
 
-If {@{an increase in the price of a commodity causes households to expect the price of a commodity to increase further}@}, they may {@{start purchasing a greater amount of the commodity even at the presently increased price}@}.<sup>[\[6\]](#^ref-6)</sup> Similarly, if {@{the household expects the price of the commodity to decrease}@}, it may {@{postpone its purchases}@}. Thus, some argue that {@{the law of demand is violated in such cases}@}. In this case, the demand curve {@{does not slope down from left to right; instead, it presents a backward slope from the top right to down left}@}. This curve is known as {@{an exceptional demand curve}@}.
+If {@{an increase in the price of a commodity}@} causes {@{households to expect the price of a commodity to increase further}@}, they may start {@{purchasing a greater amount of the commodity even at the presently increased price}@}.<sup>[\[6\]](#^ref-6)</sup> Similarly, if {@{the household expects the price of the commodity to decrease}@}, it may {@{postpone its purchases}@}. Thus, some argue that {@{the law of demand is violated in such cases}@}. In this case, the demand curve {@{does not slope down from left to right; instead, it presents a backward slope from the top right to down left}@}. This curve is known as {@{an exceptional demand curve}@}.
 
 ### basic or necessary goods
 
