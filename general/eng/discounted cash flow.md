@@ -33,7 +33,7 @@ tags:
 
 > {@{![[Flowchart](flowchart.md) for a typical DCF valuation, with each step detailed in the text](../../archives/Wikimedia%20Commons/DCFMDPD.gif)}@}
 >
-> [Flowchart](flowchart.md) for {@{a typical DCF valuation, with each step detailed in the text}@} \(click on image to see at full size\) <!--SR:!2025-11-20,204,310!2026-02-05,282,330-->
+> [Flowchart](flowchart.md) for {@{a typical DCF valuation, with each step detailed in the text}@} \(click on image to see at full size\) <!--SR:!2028-04-13,875,330!2026-02-05,282,330-->
 
 <!-- markdownlint MD028 -->
 

@@ -13,7 +13,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 {@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}. <!--SR:!2029-09-24,1407,350!2029-06-11,1324,350!2029-09-09,1394,350!2029-10-03,1414,350!2029-06-01,1315,350!2026-05-06,381,290-->
 
-{@{Many combinatorial identities}@} arise from {@{[double counting](double%20counting%20(proof%20technique).md) methods or the [method of distinguished element](method%20of%20distinguished%20element.md)}@}. {@{[Generating functions](generating%20function.md) and [recurrence relations](recurrence%20relation.md)}@} are {@{powerful tools that can be used to manipulate sequences, and can describe if not resolve many combinatorial situations}@}. <!--SR:!2025-11-20,311,330!2029-05-10,1297,350!2025-11-21,312,330!2029-10-04,1415,350-->
+{@{Many combinatorial identities}@} arise from {@{[double counting](double%20counting%20(proof%20technique).md) methods or the [method of distinguished element](method%20of%20distinguished%20element.md)}@}. {@{[Generating functions](generating%20function.md) and [recurrence relations](recurrence%20relation.md)}@} are {@{powerful tools that can be used to manipulate sequences, and can describe if not resolve many combinatorial situations}@}. <!--SR:!2029-10-11,1421,350!2029-05-10,1297,350!2025-11-21,312,330!2029-10-04,1415,350-->
 
 ## rule of sum
 
@@ -69,7 +69,7 @@ The method of distinguished element {@{singles out a "distinguished element" of 
 
 - see: [generating function](generating%20function.md)
 
-Generating functions can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2026-05-06,417,310!2028-01-12,903,330!2025-11-20,311,330!2029-09-21,1404,350-->
+Generating functions can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2026-05-06,417,310!2028-01-12,903,330!2029-10-12,1422,350!2029-09-21,1404,350-->
 
 ## recurrence relation
 

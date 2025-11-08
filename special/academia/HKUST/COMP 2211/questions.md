@@ -382,7 +382,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(a * np.ones((2211, 1), dtype=int))`, `print(a + np.zeros((2211, 1), dtype=int))`}@} <!--SR:!2025-11-20,257,330-->
+> - solution: {@{`print(a * np.ones((2211, 1), dtype=int))`, `print(a + np.zeros((2211, 1), dtype=int))`}@} <!--SR:!2029-02-01,1169,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -653,7 +653,7 @@ tags:
 > 1. continuous variable
 > 2. categorical variable
 >
-> - solution: {@{1, 1, 2}@} <!--SR:!2025-11-20,256,330-->
+> - solution: {@{1, 1, 2}@} <!--SR:!2029-01-30,1167,350-->
 
 <!-- markdownlint MD028 -->
 

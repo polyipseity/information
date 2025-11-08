@@ -13,9 +13,9 @@ tags:
 
 ## operations
 
-{@{_Drill down/up_}@} allows the user to {@{navigate among levels of data}@} ranging from {@{the most summarized (up) to the most detailed (down)}@}. The more summarized the data level, {@{the more dimensions are collapsed and thus hidden}@}, and vice versa. <!--SR:!2028-08-31,1195,350!2027-08-14,865,330!2025-12-18,365,290!2025-11-20,18,327-->
+{@{_Drill down/up_}@} allows the user to {@{navigate among levels of data}@} ranging from {@{the most summarized (up) to the most detailed (down)}@}. The more summarized the data level, {@{the more dimensions are collapsed and thus hidden}@}, and vice versa. <!--SR:!2028-08-31,1195,350!2027-08-14,865,330!2025-12-18,365,290!2026-02-12,84,347-->
 
-{@{_Rollup_}@} involves {@{summarizing the data along a dimension}@}. {@{The summarization rule}@} may be {@{an [aggregate function](aggregate%20function.md)}@}, such as {@{computing the average, max, min, sum, or a custom formula}@}. <!--SR:!2026-12-16,626,310!2026-01-11,419,310!2026-06-02,525,310!2025-11-20,18,327!2026-02-07,80,347-->
+{@{_Rollup_}@} involves {@{summarizing the data along a dimension}@}. {@{The summarization rule}@} may be {@{an [aggregate function](aggregate%20function.md)}@}, such as {@{computing the average, max, min, sum, or a custom formula}@}. <!--SR:!2026-12-16,626,310!2026-01-11,419,310!2026-06-02,525,310!2026-02-12,84,347!2026-02-07,80,347-->
 
 ## references
 

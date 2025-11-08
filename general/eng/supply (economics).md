@@ -73,7 +73,7 @@ By convention in {@{the context of [supply and demand](supply%20and%20demand.md)
 
 ## shape of the short-run supply curve
 
-{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price would be necessary to induce the firm to produce more and more output}@}. <!--SR:!2029-04-20,1258,350!2026-09-23,492,310!2027-08-11,757,330!2028-12-24,1167,350!2029-04-17,1255,350!2026-10-13,509,310!2025-11-20,285,330-->
+{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price would be necessary to induce the firm to produce more and more output}@}. <!--SR:!2029-04-20,1258,350!2026-09-23,492,310!2027-08-11,757,330!2028-12-24,1167,350!2029-04-17,1255,350!2026-10-13,509,310!2028-06-18,941,330-->
 
 ## from firm to market supply curve
 

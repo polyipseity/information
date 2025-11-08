@@ -37,7 +37,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
 - description ::@:: stadium in Beijing, China <!--SR:!2027-01-19,777,330!2029-03-15,1438,370-->
-- image ::@:: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2030-07-17,1820,400!2025-11-20,457,400-->
+- image ::@:: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2030-07-17,1820,400!2032-09-19,2495,420-->
 - shape ::@:: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2030-04-24,1736,392!2031-07-04,2124,405-->
 
 ## Burj Al Arab

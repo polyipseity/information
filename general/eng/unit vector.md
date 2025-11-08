@@ -49,7 +49,7 @@ They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat 
 
 {@{The vectors ${\boldsymbol {\hat {\rho } } }$ and ${\boldsymbol {\hat {\varphi } } }$}@} are {@{functions of $\varphi$, and are _not_ constant in direction}@}. When {@{differentiating or integrating in cylindrical coordinates}@}, {@{these unit vectors themselves must also be operated on}@}. {@{The derivatives with respect to $\varphi$}@} are: <!--SR:!2026-03-27,313,339!2026-03-18,304,339!2026-04-06,323,339!2026-03-26,312,339!2026-03-12,298,339-->
 
-- (annotation: $\frac {\partial \boldsymbol {\hat \rho} } {\partial \varphi}$) ::@:: $${\frac {\partial {\boldsymbol {\hat {\rho } } } }{\partial \varphi } }=-\sin \varphi \mathbf {\hat {x} } +\cos \varphi \mathbf {\hat {y} } ={\boldsymbol {\hat {\varphi } } }$$ <!--SR:!2026-03-28,314,339!2025-11-20,210,319-->
+- (annotation: $\frac {\partial \boldsymbol {\hat \rho} } {\partial \varphi}$) ::@:: $${\frac {\partial {\boldsymbol {\hat {\rho } } } }{\partial \varphi } }=-\sin \varphi \mathbf {\hat {x} } +\cos \varphi \mathbf {\hat {y} } ={\boldsymbol {\hat {\varphi } } }$$ <!--SR:!2026-03-28,314,339!2027-09-15,664,319-->
 - (annotation: $\frac {\partial \boldsymbol {\hat \varphi} } {\partial \varphi}$) ::@:: $${\frac {\partial {\boldsymbol {\hat {\varphi } } } }{\partial \varphi } }=-\cos \varphi \mathbf {\hat {x} } -\sin \varphi \mathbf {\hat {y} } =-{\boldsymbol {\hat {\rho } } }$$ <!--SR:!2026-03-26,312,339!2026-07-09,370,299-->
 - (annotation: $\frac {\partial \boldsymbol {\hat z} } {\partial \varphi}$) ::@:: $${\frac {\partial \mathbf {\hat {z} } }{\partial \varphi } }=\mathbf {0} .$$ <!--SR:!2026-03-23,309,339!2026-03-28,314,339-->
 

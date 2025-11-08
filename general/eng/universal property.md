@@ -108,7 +108,7 @@ Given {@{a functor $F:{\mathcal {J} }\to {\mathcal {C} }$ \(thought of as an obj
 
 ### existence and uniqueness
 
-Defining {@{a quantity does not guarantee its existence}@}. Given {@{a functor $F:{\mathcal {C} }\to {\mathcal {D} }$ and an object $X$ of ${\mathcal {D} }$}@}, there {@{may or may not exist a universal morphism from $X$ to $F$}@}. If, however, {@{a universal morphism $(A,u)$ does exist}@}, then {@{it is essentially unique}@}. Specifically, it is {@{unique [up to](up%20to.md) a _unique_ [isomorphism](isomorphism.md)}@}: if {@{$(A',u')$ is another pair, then there exists a unique isomorphism $k:A\to A'$ such that $u'=F(k)\circ u$}@}. This is easily seen by {@{substituting $(A,u')$ in the definition of a universal morphism}@}. <!--SR:!2025-12-30,276,330!2028-04-27,909,330!2026-01-11,285,330!2025-12-30,276,330!2025-12-29,275,330!2025-12-15,263,330!2025-11-20,244,330!2025-12-14,262,330-->
+Defining {@{a quantity does not guarantee its existence}@}. Given {@{a functor $F:{\mathcal {C} }\to {\mathcal {D} }$ and an object $X$ of ${\mathcal {D} }$}@}, there {@{may or may not exist a universal morphism from $X$ to $F$}@}. If, however, {@{a universal morphism $(A,u)$ does exist}@}, then {@{it is essentially unique}@}. Specifically, it is {@{unique [up to](up%20to.md) a _unique_ [isomorphism](isomorphism.md)}@}: if {@{$(A',u')$ is another pair, then there exists a unique isomorphism $k:A\to A'$ such that $u'=F(k)\circ u$}@}. This is easily seen by {@{substituting $(A,u')$ in the definition of a universal morphism}@}. <!--SR:!2025-12-30,276,330!2028-04-27,909,330!2026-01-11,285,330!2025-12-30,276,330!2025-12-29,275,330!2025-12-15,263,330!2028-12-04,1110,350!2025-12-14,262,330-->
 
 It is {@{the pair $(A,u)$ which is essentially unique in this fashion}@}. {@{The object $A$ itself}@} is {@{only unique up to isomorphism}@}. Indeed, if {@{$(A,u)$ is a universal morphism and $k:A\to A'$ is any isomorphism}@} then {@{the pair $(A',u')$, where $u'=F(k)\circ u$ is also a universal morphism}@}. <!--SR:!2026-01-13,286,330!2028-03-17,877,330!2025-12-17,265,330!2026-01-16,290,330!2026-01-10,284,330-->
 
@@ -143,7 +143,7 @@ Universal constructions (annotation: i.e. universal properties) are {@{more gene
 
 ## history
 
-{@{Universal properties of various topological constructions}@} were {@{presented by [Pierre Samuel](Pierre%20Samuel.md) in 1948}@}. They were later used {@{extensively by [Bourbaki](Nicolas%20Bourbaki.md)}@}. {@{The closely related concept of adjoint functors}@} was {@{introduced independently by [Daniel Kan](Daniel%20Kan.md) in 1958}@}. <!--SR:!2025-12-19,267,330!2026-02-26,295,290!2027-11-21,800,330!2026-01-10,284,330!2025-11-20,219,270-->
+{@{Universal properties of various topological constructions}@} were {@{presented by [Pierre Samuel](Pierre%20Samuel.md) in 1948}@}. They were later used {@{extensively by [Bourbaki](Nicolas%20Bourbaki.md)}@}. {@{The closely related concept of adjoint functors}@} was {@{introduced independently by [Daniel Kan](Daniel%20Kan.md) in 1958}@}. <!--SR:!2025-12-19,267,330!2026-02-26,295,290!2027-11-21,800,330!2026-01-10,284,330!2028-02-24,826,290-->
 
 ## see also
 

@@ -75,7 +75,7 @@ Therefore, it is essential to {@{be aware of the elasticity of demand}@}. A mono
 
 __Example 1:__ Suppose {@{consumers want to buy an additional lipstick}@}. If {@{the consumer is willing to pay \$50 for this extra lipstick}@}, {@{the marginal income of the purchase is \$50}@}. However, {@{the more lipsticks consumers have, the less they pay for the next lipstick}@}. This is because as {@{consumers accumulate more and more lipsticks}@}, {@{the benefits of having an additional lipstick will be reduced}@}. <!--SR:!2029-01-25,1197,357!2028-04-17,946,337!2025-11-24,291,337!2028-03-05,915,337!2027-06-20,727,337!2025-12-13,306,337-->
 
-__Example 2:__ Suppose customers are {@{considering buying 10 computers}@}. If {@{the marginal income of the 11th computer}@} is {@{\$2}@}, and {@{the computer company}@} is willing to {@{sell the 11th component to maximize its consumer interest}@}, {@{the company's marginal income is \$2}@} and {@{consumers' marginal income is \$2}@}. <!--SR:!2025-12-13,306,337!2026-03-07,135,317!2029-01-12,1188,357!2025-11-20,24,380!2025-11-22,26,380!2025-11-21,25,380!2025-11-20,24,380-->
+__Example 2:__ Suppose customers are {@{considering buying 10 computers}@}. If {@{the marginal income of the 11th computer}@} is {@{\$2}@}, and {@{the computer company}@} is willing to {@{sell the 11th component to maximize its consumer interest}@}, {@{the company's marginal income is \$2}@} and {@{consumers' marginal income is \$2}@}. <!--SR:!2025-12-13,306,337!2026-03-07,135,317!2029-01-12,1188,357!2026-03-28,128,400!2025-11-22,26,380!2025-11-21,25,380!2026-03-27,127,400-->
 
 ## law of diminishing marginal returns
 

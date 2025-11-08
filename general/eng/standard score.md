@@ -72,7 +72,7 @@ In {@{process control applications}@}, the Z value provides {@{an assessment of 
 
 > {@{![_z_ score (1) for student A shown on a standard normal distribution graph](../../archives/Wikimedia%20Commons/Z%20score%20for%20Students%20A.png)}@}
 >
-> {@{The _z_ score for Student A was 1}@}, meaning Student A was {@{1 standard deviation above the mean}@}. Thus, Student A {@{performed in the 84.13 percentile on the SAT}@}. <!--SR:!2026-01-13,268,330!2025-12-12,242,330!2025-11-20,208,310!2026-01-06,263,330-->
+> {@{The _z_ score for Student A was 1}@}, meaning Student A was {@{1 standard deviation above the mean}@}. Thus, Student A {@{performed in the 84.13 percentile on the SAT}@}. <!--SR:!2026-01-13,268,330!2025-12-12,242,330!2028-05-04,896,330!2026-01-06,263,330-->
 
 When {@{scores are measured on different scales}@}, they may be {@{converted to z-scores to aid comparison}@}. Dietz et al.<sup>[\[9\]](#^ref-9)</sup> give the following example, comparing {@{student scores on the \(old\) [SAT](SAT.md) and [ACT](ACT%20(test).md) high school tests}@}. The table shows {@{the mean and standard deviation for total scores on the SAT and ACT}@}. Suppose that student A scored 1800 on the SAT, and student B scored 24 on the ACT. Which {@{student performed better relative to other test-takers}@}? <!--SR:!2026-01-22,276,330!2025-12-26,255,330!2025-12-26,253,330!2026-01-22,275,330!2025-12-18,247,330-->
 

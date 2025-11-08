@@ -181,14 +181,14 @@ Note that the floating-point register operands must be {@{even numbered for doub
 
 - absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2027-10-09,689,424!2026-10-19,389,404-->
 - absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-12-01,132,404!2025-11-21,126,404-->
-- add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-11-20,125,404!2027-10-02,682,424-->
+- add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2027-10-12,691,424!2027-10-02,682,424-->
 - add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-11-21,126,404!2025-11-23,128,404-->
 - branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-12-02,133,404!2025-11-23,128,404-->
 - branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2026-11-19,416,404!2025-11-29,130,404-->
-- compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-11-20,125,404!2025-11-20,125,404-->
+- compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2027-10-16,695,424!2027-10-09,688,424-->
 - compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-11-24,129,404!2025-11-22,127,404-->
 - compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2027-10-06,686,424!2025-11-22,127,404-->
-- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-11-23,128,404!2025-11-20,126,404-->
+- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-11-23,128,404!2027-10-17,696,424-->
 - compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-11-21,126,404!2027-10-04,685,424-->
 - compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2027-10-08,688,424!2027-10-07,687,424-->
 - compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2026-06-13,209,384!2025-11-21,126,404-->
@@ -198,7 +198,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-12-04,135,404!2025-12-01,132,404-->
 - compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2027-10-03,683,424!2027-09-22,673,424-->
 - divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-11-27,128,404!2025-11-21,126,404-->
-- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-11-20,125,404!2025-11-23,128,404-->
+- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-10-10,689,424!2025-11-23,128,404-->
 - load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2027-09-27,678,424!2025-11-23,128,404-->
 - load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2025-11-22,127,404!2026-07-28,303,384-->
 - multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-11-22,127,404!2025-11-28,129,404-->
@@ -325,7 +325,7 @@ The convention is {@{the entry point \(first instruction to be executed when a p
 
 In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2026-03-03,272,330!2026-03-13,281,330!2026-03-07,276,330!2027-11-25,746,330!2026-02-11,255,330!2026-02-25,266,330-->
 
-To {@{convert structured control flow statements into assembly}@} manually, {@{identify _basic blocks_, which is a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph can be constructed out of these basic blocks}@}. Finally, {@{_label_ the basic blocks at their beginnings and add conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2026-04-12,292,330!2026-02-06,250,330!2026-04-09,289,330!2025-11-20,185,310!2026-03-15,282,330!2026-04-08,288,330!2026-01-25,238,330!2026-02-28,269,330!2026-02-26,267,330!2026-04-13,293,330!2026-01-26,239,330-->
+To {@{convert structured control flow statements into assembly}@} manually, {@{identify _basic blocks_, which is a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph can be constructed out of these basic blocks}@}. Finally, {@{_label_ the basic blocks at their beginnings and add conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2026-04-12,292,330!2026-02-06,250,330!2026-04-09,289,330!2028-01-24,795,330!2026-03-15,282,330!2026-04-08,288,330!2026-01-25,238,330!2026-02-28,269,330!2026-02-26,267,330!2026-04-13,293,330!2026-01-26,239,330-->
 
 To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps to the basic blocks, then the basic blocks each ending with a jump to the exit label, and finally the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label, then comparison and conditional jump to the exit label, the code, and finally a jump to the loop label}@}. You can extrapolate the rest for yourself. You may also simplify the code. <!--SR:!2026-03-17,284,330!2025-12-07,189,310!2026-03-03,272,330!2026-03-02,271,330-->
 
@@ -410,13 +410,13 @@ MIPS optionally supports {@{IEEE754 single-precision and double-precision format
 
 It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\) <!--SR:!2025-11-22,127,404!2025-12-02,133,404!2025-11-21,126,404!2025-11-22,127,404!2025-11-29,130,404!2025-12-04,135,404!2027-09-28,679,424!2027-09-25,677,424!2027-10-03,684,424!2025-11-23,128,404-->
 
-It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions: <!--SR:!2025-11-21,126,404!2025-11-20,125,404!2025-11-20,125,404!2027-09-27,678,424-->
+It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions: <!--SR:!2025-11-21,126,404!2027-10-17,696,424!2027-10-14,693,424!2027-09-27,678,424-->
 
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2027-10-11,691,424!2027-10-04,684,424-->
-- comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2025-11-20,126,404!2025-11-22,127,404-->
+- comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2027-10-20,699,424!2025-11-22,127,404-->
 - data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-11-30,131,404!2026-07-18,295,384-->
-- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-11-27,128,404!2025-11-20,125,404-->
-- signedness ::@:: All operations are always signed. <!--SR:!2025-11-20,125,404!2025-11-24,129,404-->
+- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-11-27,128,404!2027-10-13,692,424-->
+- signedness ::@:: All operations are always signed. <!--SR:!2027-10-15,694,424!2025-11-24,129,404-->
 
 ## miscellaneous
 

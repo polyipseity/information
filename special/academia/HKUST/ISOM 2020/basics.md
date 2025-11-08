@@ -267,7 +267,7 @@ ISOM 2020 note: {@{`+=`, `-=`, `*=`, `/=`, etc.}@} are {@{not taught and should 
 
 Below are common data types:
 
-- `NoneType` :@: The type for the `None` value. <!--SR:!2025-11-20,345,342-->
+- `NoneType` :@: The type for the `None` value. <!--SR:!2030-05-02,1624,362-->
 - `bool` :@: A boolean, which is either `True` or `False`. Note that `bool`s are also `int`s. In particular, `True == 1` and `False == 0`, and can be used in arithmetic operators. <!--SR:!2029-01-25,1255,362-->
 - `float` :@: A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. `float` can hold integers as well, with only the internal representation being different from `int`. Example: `1.`, `3.14`, `9.20`, `2e3` (2×10<sup>3</sup>). <!--SR:!2027-05-03,726,330-->
 - `int` :@: An integer. Example: `42`. <!--SR:!2029-08-09,1413,362-->

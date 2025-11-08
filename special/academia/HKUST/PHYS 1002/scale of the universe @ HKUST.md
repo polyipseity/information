@@ -67,7 +67,7 @@ return await memorize_seq(
 - [Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m→::@::←[Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m <!--SR:!2026-08-13,463,250!2026-12-25,579,250-->
 - [Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m→::@::←[Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m <!--SR:!2027-02-04,515,226!2027-08-17,807,286-->
 - [Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m→::@::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia) <!--SR:!2026-08-20,533,270!2027-12-07,899,306-->
-- [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→::@::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2025-11-20,382,318!2027-01-11,655,318-->
+- [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→::@::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2029-03-26,1222,318!2027-01-11,655,318-->
 - [Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth)→::@::←_(end)_ <!--SR:!2026-12-08,619,318!2026-11-07,592,310-->
 
 <!--/pytextgen-->

@@ -17,7 +17,7 @@ In {@{the field of [mathematics](mathematics.md) known as [convex analysis](conv
 
 ## definition
 
-Let {@{$X$ be a [set](set%20(mathematics).md), and let $A$ be a [subset](subset.md) of $X$}@}. The __characteristic function__ of $A$ is the function {@{$$\chi _{A}:X\to \mathbb {R} \cup \{+\infty \}$$}@} taking {@{values in the [extended real number line](extended%20real%20number%20line.md) defined by $$\chi _{A}(x):={\begin{cases}0,&x\in A;\\+\infty ,&x\not \in A.\end{cases} }$$}@} <!--SR:!2025-12-08,262,330!2025-12-18,270,330!2025-11-20,248,330-->
+Let {@{$X$ be a [set](set%20(mathematics).md), and let $A$ be a [subset](subset.md) of $X$}@}. The __characteristic function__ of $A$ is the function {@{$$\chi _{A}:X\to \mathbb {R} \cup \{+\infty \}$$}@} taking {@{values in the [extended real number line](extended%20real%20number%20line.md) defined by $$\chi _{A}(x):={\begin{cases}0,&x\in A;\\+\infty ,&x\not \in A.\end{cases} }$$}@} <!--SR:!2025-12-08,262,330!2025-12-18,270,330!2028-12-21,1127,350-->
 
 ## relationship with the indicator function
 

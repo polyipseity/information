@@ -179,7 +179,7 @@ The content is in teaching order.
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2027-08-20,918,381!2025-12-20,450,381-->
   - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2026-05-05,528,341-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
-- "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2029-02-27,1367,381!2025-11-20,423,381-->
+- "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2029-02-27,1367,381!2031-12-03,2204,401-->
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2026-02-03,483,381-->
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2029-08-19,1494,381!2026-01-18,473,381-->
