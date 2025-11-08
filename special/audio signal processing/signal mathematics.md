@@ -21,13 +21,14 @@ tags:
 >
 > {@{$$f(x, t) = A \cos(kx \pm \omega t + \phi) + D$$}@}
 >
-> - where
->   - $f(x, t)$ is {@{displacement at position $x$ and time $t$}@}.
->   - $A$ is {@{amplitude, i.e. maximum displacement}@}.
->   - $k$ is {@{angular wavenumber or angular spatial frequency}@}.
->   - $\omega$ is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
->   - $\phi$ is {@{initial phase offset}@}.
->   - $D$ is {@{equilibrium offset}@}.
+> where
+>
+> - {@{$f(x, t)$}@} is {@{displacement at position $x$ and time $t$}@}.
+> - {@{$A$}@} is {@{amplitude, i.e. maximum displacement}@}.
+> - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
+> - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
+> - {@{$\phi$}@} is {@{initial phase offset}@}.
+> - {@{$D$}@} is {@{equilibrium offset}@}.
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {@{digital signals (discrete signals)}@}. In that case, usually {@{the time is discretized}@}. So the equation becomes:
 
@@ -35,14 +36,15 @@ In signal processing, apart from analog signals (continuous signals), we also de
 >
 > {@{$$f(x)[n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} <!-- markdownlint-disable-line MD011 -->
 >
-> - where
->   - $f(x)[n]$ is {@{displacement at position $x$ and sample (discrete time step) $n$}@}. <!-- markdownlint-disable-line MD011 -->
->   - $T$ is {@{sampling interval, which equals the reciprocal of sampling frequency $T = 1 / f_s$}@}.
->   - $A$ is {@{amplitude, i.e. maximum displacement}@}.
->   - $k$ is {@{angular wavenumber or angular spatial frequency}@}.
->   - $\omega$ is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
->   - $\phi$ is {@{initial phase offset}@}.
->   - $D$ is {@{equilibrium offset}@}.
+> where
+>
+> - {@{$f(x)[n]$}@} is {@{displacement at position $x$ and sample (discrete time step) $n$}@}. <!-- markdownlint-disable-line MD011 -->
+> - {@{$T$}@} is {@{sampling interval, which equals the reciprocal of sampling frequency $T = 1 / f_s$}@}.
+> - {@{$A$}@} is {@{amplitude, i.e. maximum displacement}@}.
+> - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
+> - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
+> - {@{$\phi$}@} is {@{initial phase offset}@}.
+> - {@{$D$}@} is {@{equilibrium offset}@}.
 
 For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}.
 

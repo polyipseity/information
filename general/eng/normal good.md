@@ -13,7 +13,7 @@ tags:
 >
 > {@{__Example of a normal good:__}@} As {@{income increases from _B1_ to _B3_}@}, {@{the outward movement of utility curve _I_}@} dictates that {@{the quantity of good _X<sup>1</sup>_ increases in tandem}@}. Therefore, {@{_X<sup>1</sup>_ is a normal good}@}. Put another way, {@{the positively sloped income consumption curve}@} demonstrates that {@{_X<sup>1</sup>_ is normal}@}. {@{The [Engel curve](Engel%20curve.md) of _X<sup>1</sup>_}@} would {@{also be positively sloped}@}.
 
-In [economics](economics.md), a __normal good__ is {@{a type of a [good](goods.md) which experiences an increase in demand due to an increase in income}@}, unlike {@{[inferior goods](inferior%20good.md), for which the opposite is observed}@}. When {@{there is an increase in a person's income, for example due to a wage rise}@}, {@{a good for which the demand rises due to the wage increase}@}, is referred as a normal good. Conversely, {@{the demand for normal goods declines when the income decreases}@}, for example due to {@{a wage decrease or layoffs}@}.
+In [economics](economics.md), a __normal good__ is {@{a type of a [good](goods.md) which experiences an increase in demand due to an increase in income}@}, unlike {@{[inferior goods](inferior%20good.md), for which the opposite is observed}@}. When there is {@{an increase in a person's income, for example due to a wage rise}@}, {@{a good for which the demand rises due to the wage increase}@}, is referred as {@{a normal good}@}. Conversely, the demand for {@{normal goods declines when the income decreases}@}, for example due to {@{a wage decrease or layoffs}@}.
 
 ## analysis
 

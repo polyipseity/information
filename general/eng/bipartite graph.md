@@ -74,7 +74,7 @@ For a vertex, {@{the number of adjacent vertices}@} is {@{called the [degree](de
 
 {@{The degree sequence of a bipartite graph}@} is {@{the pair of lists each containing the degrees of the two parts $U$ and $V$}@}. For example, {@{the complete bipartite graph _K_<sub>3,5</sub>}@} has {@{degree sequence $(5,5,5),(3,3,3,3,3)$}@}. {@{[Isomorphic](graph%20isomorphism.md) bipartite graphs}@} have {@{the same degree sequence}@}. However, {@{the degree sequence}@} does not, {@{in general, uniquely identify a bipartite graph}@}; in some cases, {@{non-isomorphic bipartite graphs may have the same degree sequence}@}.
 
-{@{The [bipartite realization problem](bipartite%20realization%20problem.md)}@} is {@{the problem of finding a simple bipartite graph with the degree sequence being two given lists of natural numbers}@}. ({@{Trailing zeros may be ignored}@} since {@{they are trivially realized by adding an appropriate number of isolated vertices to the digraph}@}.)
+{@{The [bipartite realization problem](bipartite%20realization%20problem.md)}@} is {@{the problem of finding a simple bipartite graph with the degree sequence being two given lists of natural numbers}@}. ({@{Trailing zeros may be ignored}@} since they are {@{trivially realized}@} by {@{adding an appropriate number of isolated vertices to the digraph}@}.)
 
 ### relation to hypergraphs and directed graphs
 

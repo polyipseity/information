@@ -44,8 +44,10 @@ tags:
 >
 > - {@{$\operatorname{Cin}(x)=\int _0 ^x \! \frac {1 - \cos t} t \,\mathrm{d}t$}@}
 > - {@{$\operatorname{Ci}(x)=\int _\infty ^x \! \frac{\cos t} t \,\mathrm{d}t = \gamma + \ln x - \operatorname{Cin}(x)$}@}
-> - where
->   - $\gamma$ is the [Euler's constant](Euler's%20constant.md)
+>
+> where
+>
+> - {@{$\gamma$}@} is {@{the [Euler's constant](Euler's%20constant.md)}@}
 
 ## references
 

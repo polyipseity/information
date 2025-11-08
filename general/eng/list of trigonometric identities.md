@@ -321,11 +321,13 @@ return await memorize_map(
 
 > __linear combination of sine and cosine__
 >
+> - conditions: {@{$(a, b) \ne (0, 0)$}@}
+>
 > {@{$$a \cos x + b \sin x = c \cos(x + \varphi)$$}@}
 >
-> - where
->   - {@{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$, assuming $\arctan(\pm \infty) = \pm \pi / 2$}@}
-> - conditions: {@{$(a, b) \ne (0, 0)$}@}
+> where
+>
+> - {@{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}@}, assuming {@{$\arctan(\pm \infty) = \pm \pi / 2$}@}
 
 <!-- markdownlint MD028 -->
 

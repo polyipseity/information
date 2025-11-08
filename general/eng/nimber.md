@@ -37,7 +37,7 @@ Cram is {@{a game often played on a rectangular board}@} in which {@{players tak
 
 ### Northcott's game
 
-In {@{Northcott's game}@}, {@{<!-- pegs -->a token for each player are placed along a <!-- column -->row with a finite number of spaces}@}. Each turn {@{each player must move the piece <!-- up -->left or <!-- down -->right the column, but may not move past the other player's piece}@}. {@{Several <!-- columns -->rows are stacked together}@} to add complexity. {@{The player that can no longer make any moves}@} loses. Unlike {@{many other nimber related games}@}, {@{the number of spaces between the two tokens on each row}@} are {@{the sizes of the Nim heaps}@}. If {@{your opponent increases the number of spaces between two tokens, just decrease it on your next move}@}. Else, {@{play the game of Nim and make the Nim-sum of the number of spaces between the tokens on each row be 0}@}.<sup>[\[3\]](#^ref-3)</sup>
+In {@{Northcott's game}@}, {@{<!-- pegs -->a token for each player are placed along a <!-- column -->row with a finite number of spaces}@}. Each turn each player must {@{move the piece <!-- up -->left or <!-- down -->right the column}@}, but may not {@{move past the other player's piece}@}. {@{Several <!-- columns -->rows are stacked together}@} to add complexity. {@{The player that can no longer make any moves}@} loses. Unlike {@{many other nimber related games}@}, {@{the number of spaces between the two tokens on each row}@} are {@{the sizes of the Nim heaps}@}. If {@{your opponent increases the number of spaces between two tokens, just decrease it on your next move}@}. Else, {@{play the game of Nim and make the Nim-sum of the number of spaces between the tokens on each row be 0}@}.<sup>[\[3\]](#^ref-3)</sup>
 
 ### Hackenbush
 

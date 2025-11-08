@@ -21,20 +21,31 @@ tags:
 >
 > {@{$$pV^n = C$$}@}
 >
-> - where
->   - {@{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), $n$ is the __polytropic index__, and $C$ is a [constant](constant%20(mathematics).md)}@}
+> where
+>
+> - {@{$p$}@} is {@{the [pressure](pressure.md)}@}
+> - {@{$V$}@} is {@{the [volume](volume.md)}@}
+> - {@{$n$}@} is {@{the __polytropic index__}@}
+> - {@{$C$}@} is {@{a [constant](constant%20(mathematics).md)}@}
 
 ## relation between polytropic index and energy transfer ratio
 
 > __relation between polytropic index and energy transfer ratio__
 >
+> - conditions: {@{[ideal gas](ideal%20gas.md)}@}
+>
 > {@{$$pV^{\gamma - K(\gamma - 1)} = C$$}@}
 >
-> - where
->   - {@{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}@}
->   - {@{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio}@}
->   - {@{thus the __polytropic index__ is $n = \gamma - K(\gamma - 1)$}@}
-> - conditions: {@{[ideal gas](ideal%20gas.md)}@}
+> where
+>
+> - {@{state variables}@}
+>   - {@{$p$}@} is {@{the [pressure](pressure.md)}@}
+>   - {@{$V$}@} is {@{the [volume](volume.md)}@}
+>   - {@{$C$}@} is {@{a [constant](constant%20(mathematics).md)}@}
+> - {@{$\gamma$}@} is {@{the [heat capacity ratio](heat%20capacity%20ratio.md)}@}
+> - {@{$K = \frac{\delta Q}{\delta W}$}@} is {@{the energy transfer ratio}@}
+>
+> Thus, {@{the __polytropic index__}@} is {@{$n = \gamma - K(\gamma - 1)$}@}. In particular, we see the index interpolates {@{between $\gamma$ and 1}@} when $K$ {@{varies between 0 \(isentropic\) and 1 \(isothermic\)}@}.
 
 The relation between polytropic index and energy transfer ratio can be derived as follows: $$\begin{aligned}
 U & = \frac f 2 nRT = \frac {nRT} {\gamma - 1} \\

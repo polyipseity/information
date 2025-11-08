@@ -43,7 +43,7 @@ __Number of suppliers:__ ::@:: The market supply curve is the horizontal summati
 
 __Government policies and regulations:__ ::@:: [Government intervention](market%20intervention.md) can have a significant effect on supply.<sup>[\[7\]](#^ref-7)</sup> Government intervention can take many forms including environmental and health regulations, hour and wage laws, taxes, electrical and natural gas rates and zoning and land use regulations.<sup>[\[8\]](#^ref-8)</sup>
 
-This list is {@{not exhaustive}@}. {@{All facts and circumstances that are relevant to a seller's willingness or ability to produce and sell goods}@} can affect supply.<sup>[\[9\]](#^ref-9)</sup> For example, if {@{the forecast is for snow}@} retail sellers will respond by {@{increasing their stocks of snow sleds or skis or winter clothing or bread and milk}@}.
+This list is {@{not exhaustive}@}. {@{All facts and circumstances}@} that are {@{relevant to a seller's willingness or ability to produce and sell goods}@} can {@{affect supply}@}.<sup>[\[9\]](#^ref-9)</sup> For example, if {@{the forecast is for snow}@} retail sellers will respond by {@{increasing their stocks of snow sleds or skis or winter clothing or bread and milk}@}.
 
 ### cases that violate the law of supply/exceptional cases to the law of supply
 

@@ -17,9 +17,10 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > {@{$$\begin{aligned} F_\mathrm{net} = m \frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = -kx \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} +\frac{k}m x & = 0 \end{aligned}$$}@}
 >
-> - where
->   - [function](function%20(mathematics).md) properties: {@{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}@}
->   - [oscillator](oscillation.md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}@}
+> where
+>
+> - [function](function%20(mathematics).md) properties: {@{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}@}
+> - [oscillator](oscillation.md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}@}
 
 For better physical meaning, it can be rewritten as:
 
@@ -27,9 +28,10 @@ For better physical meaning, it can be rewritten as:
 >
 > {@{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega^2 x = 0$$}@}
 >
-> - where
->   - [function](function%20(mathematics).md) properties: {@{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}@}
->   - [oscillator](oscillation.md) properties: {@{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}@}
+> where
+>
+> - [function](function%20(mathematics).md) properties: {@{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}@}
+> - [oscillator](oscillation.md) properties: {@{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}@}
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 
@@ -63,6 +65,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > 2. {@{$x(t)=A\cos(\omega{t}+\phi)$}@}
 >
 > where
+>
 > - {@{$k$ is the [spring constant](Hooke's%20law.md)}@}
 > - {@{$m$ is the object [mass](mass.md)}@}
 > - {@{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}@}
@@ -83,6 +86,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > {@{$$\begin{aligned} K(t) & = \frac12 k A^2 \sin^2(\omega t + \phi) \\ U(t) & = \frac12 k A^2 \cos^2(\omega t + \phi) \\ E = K + U & = \frac12 k A^2 \end{aligned}$$}@}
 >
 > where
+>
 > - {@{$k$ is the spring constant}@}
 > - {@{$m$ is the object [mass](mass.md)}@}
 > - {@{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}@}
@@ -123,9 +127,10 @@ E & = K + U \\
 >
 > {@{$$\begin{aligned} \vec{F} & = -k \vec{x} \\ \omega & = \sqrt{\frac k m} \\ T & = 2\pi \sqrt{\frac m k} \end{aligned}$$}@}
 >
-> - where
->     - output properties: {@{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}@}
->     - [spring](spring%20(device).md) properties: {@{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}@}
+> where
+>
+> - output properties: {@{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}@}
+> - [spring](spring%20(device).md) properties: {@{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}@}
 
 ### mass of a simple pendulum
 
@@ -133,10 +138,11 @@ E & = K + U \\
 >
 > {@{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2} } = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}@}
 >
-> - where
->     - output properties: {@{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}@}
->     - [pendulum](pendulum.md) properties: {@{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}@}
->     - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@}
+> where
+>
+> - output properties: {@{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}@}
+> - [pendulum](pendulum.md) properties: {@{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}@}
+> - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@}
 
 ### mass of a physical pendulum
 
@@ -144,10 +150,11 @@ E & = K + U \\
 >
 > {@{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}@}
 >
-> - where
->     - output properties: {@{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}@}
->     - [pendulum](pendulum.md) properties: {@{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}@}
->     - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@}
+> where
+>
+> - output properties: {@{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}@}
+> - [pendulum](pendulum.md) properties: {@{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}@}
+> - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@}
 
 ## references
 

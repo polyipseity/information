@@ -94,17 +94,17 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 >     {@{childCount&nbsp;:= 0}@}
 >     {@{isArticulation&nbsp;:= <b>false</b>}@}
 >
->     <b>for each</b> {@{ni <b>in</b> adj[i]}@} <b>do</b>
->         <b>if</b> {@{<b>not</b> visited[ni]}@} <b>then</b>
+>     {@{<b>for each</b> ni <b>in</b> adj[i]}@} <b>do</b>
+>         {@{<b>if</b> <b>not</b> visited[ni]}@} <b>then</b>
 >             {@{parent[ni]&nbsp;:= i}@}
 >             {@{GetArticulationPoints(ni, d + 1)}@}
 >             {@{childCount&nbsp;:= childCount + 1}@}
 >             <b>if</b> {@{low[ni] ≥ depth[i]}@} <b>then</b>
 >                 {@{isArticulation&nbsp;:= <b>true</b>}@}
 >             {@{low[i]&nbsp;:= Min (low[i], low[ni])}@}
->         <b>else if</b> {@{ni ≠ parent[i]}@} <b>then</b>
+>         {@{<b>else if</b> ni ≠ parent[i]}@} <b>then</b>
 >             {@{low[i]&nbsp;:= Min (low[i], depth[ni])}@}
->     <b>if</b> {@{(parent[i] ≠ <b>null</b> <b>and</b> isArticulation) <b>or</b> (parent[i] = <b>null</b> <b>and</b> childCount &gt; 1)}@} <b>then</b>
+>     {@{<b>if</b> (parent[i] ≠ <b>null</b> <b>and</b> isArticulation) <b>or</b> (parent[i] = <b>null</b> <b>and</b> childCount &gt; 1)}@} <b>then</b>
 >         {@{Output i as articulation point}@}
 > </pre>
 

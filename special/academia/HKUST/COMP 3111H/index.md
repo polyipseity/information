@@ -849,7 +849,7 @@ The content is in teaching order.
 - [basis path testing](../../../../general/basis%20path%20testing.md) ::@:: It is a white box method for designing test cases. The method analyzes the control-flow graph of a program to find a set of linearly independent paths of execution.
   - basis path testing / motivation ::@:: Running every statement is insufficient. Some errors only appear when a particular branch is _not taken_.
   - basis path testing / steps ::@:: 1. Draw the _statement graph_: a node for each statement \(_short-circuiting operators_ are considered multiple statements\), edges for control flow. Label "T" \(true\) and "F" \(false\) for branching. <br/> 2. Draw the _flow graph_: collapse blocks of consecutive statements that are always executed together. <br/> 3. Compute _cyclomatic complexity_ $V(G)$ via any of formulas below. <br/> 4. Identify a _basis set_ consisting of _at most_ $V(G)$ _independent paths_; the basis paths should traverse all _edges_ \(not all _nodes_\), and each path must traverse at least _one new edge_. <br/> 5. Create test cases that exercise each path; guarantee every statement runs at least once.
-- [control-flow graph](../../../../general/control-flow%20graph.md) \(CFG\) ::@:: It is a representation, using graph notation, of all paths that might be traversed through a function during its execution
+- [control-flow graph](../../../../general/control-flow%20graph.md) \(CFG\) ::@:: It is a representation, using graph notation, of all paths that might be traversed through a function during its execution.
   - control-flow graph / definition ::@:: It is the directed graph of the basic blocks of the function (the nodes of the graph) and the control flow between them (the edges of the graph).
   - control-flow graph / basic block ::@:: It is a straight-line code sequence with no branches in except to the entry and no branches out except at the exit.
   - control-flow graph / construction ::@:: First, draw the _statement graph_ _line-by-line_, including _starting_ and _ending_ statements. Use _statement number_. Label "T" \(true\) and "F" \(false\) for branching. Note _short-circuiting operators_ are considered _separate statements_ even if they appear in line. <p> Then, collapse blocks of consecutive statements that are always executed together. These blocks are _basic blocks_. Reassign _flow graph number_. Still label "T" \(true\) and "F" \(false\) for branching. Also, add a _flow graph number_ to _statement number_ mapping \(__this course__: __important__\).
@@ -858,7 +858,7 @@ The content is in teaching order.
   - cyclomatic complexity / formulas ::@:: edges & nodes, decision points, regions
     - cyclomatic complexity / formulas / edges & nodes ::@:: $$E - N + 2P\,,$$ where $E$ is the number of edges, $N$ is the number of nodes, and $P$ is the number of connected components \(CCs\). <p> For a single program \(1 CC\), it simplifies to $E - N + 2$.
     - cyclomatic complexity / formulas / decision points ::@:: $$\pi - s + 2\,,$$ where $\pi$ is the number of _binary_ decision points \(predicates\) and $s$ is the number of exit points. <p> For a single-exit program, it simplifies to $\pi + 1$.
-    - cyclomatic complexity / formulas / regions ::@:: It is the number of regions partitioned by the flow graph, including the _outside_ "region".
+    - cyclomatic complexity / formulas / regions ::@:: Assuming there is a single program \(1 CC\). It is the number of regions partitioned by the flow graph, including the _outside_ "region".
   - cyclomatic complexity / interpretation ::@:: The value reflects the logical richness of the procedure; higher values mean more _testing effort_ or less _maintainability_.
     - cyclomatic complexity / interpretation / too high ::@:: If too high \(__this course__: say &gt;10\), then consider additionally strategies: branch reduction, basis path generation, modularization, etc.
 - basis path testing
@@ -887,7 +887,7 @@ The content is in teaching order.
 - topic: debugging in IntelliJ IDEA
 - COMP 3111H
   - COMP 3111H / lab 6 ::@:: clone → run to see error → set breakpoint → identify bug → fix bug
-    - COMP 3111H / lab 6 / breakpoint ::@:: In IntelliJ IDEA, click in the left gutter to toggle a red dot, marking a breakpoint. Start debugging with "Debug" (`Shift+F9`) so execution pauses at this spot. Use the "Resume Program" button (`F9`) to continue execution until the next breakpoint.
+    - COMP 3111H / lab 6 / breakpoint ::@:: In IntelliJ IDEA, click in the left gutter to toggle a red dot, marking a breakpoint. <p> Start debugging with "Debug" (`Shift+F9`) so execution pauses at this spot. Use the "Resume Program" button (`F9`) to continue execution until the next breakpoint.
     - COMP 3111H / lab 6 / code step-through ::@:: Use "Step Over" (`F8`) and "Step Into" (`F7`) to respectively traverse over and into method calls, watching the state evolve line by line.
     - COMP 3111H / lab 6 / state debugging ::@:: While stopped at a breakpoint, examine the current state in the "Variables" pane.
     - COMP 3111H / lab 6 / stacktrace ::@:: Trace the call stack to understand why an exception is thrown or a value is incorrect.
@@ -994,7 +994,7 @@ The content is in teaching order.
   - attribute multiplicity notation \(–1\) ::@:: `name: type [min..max]`. Wrote `[3]` instead.
   - software development process matching \(–2\) ::@:: Correct \(got them swapped\): <p> - waterfall: rigorous and formalized process <br/> - spiral: planning helps meet user expectations
   - UML diagram \(–1\) ::@:: No one knows why a point was deducted... Rectified \(see below\).
-  - use case functionalities \(0\) ::@:: When asked for "use case _functionalities_" rather than "use case _diagram_", you should simply list out the functionalities required by each actor. Do not include implementation details in the functionalities, e.g. the medium through which communication happens,etc.
+  - use case functionalities \(0\) ::@:: When asked for "use case _functionalities_" rather than "use case _diagram_", you should simply list out the functionalities required by each actor. Do not include implementation details in the functionalities, e.g. the medium through which communication happens, etc.
 - check
   - datetime: 2025-10-30T18:00:00+08:00/2025-10-30T19:30:00+08:00, PT1H30M
   - venue: Room 2465, Academic Building

@@ -279,7 +279,7 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 
 ### standard binary formats
 
-{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@})
+{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} \(there may be {@{others for which it is possible to read and convert to NumPy arrays}@} so check {@{the last section}@} as well\)
 
 - HDF5 ::@:: h5py
 - FITS ::@:: Astropy

@@ -48,7 +48,7 @@ That is, functors must {@{preserve [identity morphisms](morphism.md#definition) 
 
 - See also: [Covariance and contravariance \(computer science\)](covariance%20and%20contravariance%20(computer%20science).md)
 
-There are {@{many constructions in mathematics that would be functors}@} but {@{for the fact that they "turn morphisms around" and "reverse composition"}@}. We then define {@{a __contravariant functor__ _F_ from _C_ to _D_}@} as a mapping that
+There are {@{many constructions in mathematics that would be functors}@} but for the fact that they {@{"turn morphisms around" and "reverse composition"}@}. We then define {@{a __contravariant functor__ _F_ from _C_ to _D_}@} as a mapping that
 
 - (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_,
 - (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition)

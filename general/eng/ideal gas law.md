@@ -17,10 +17,16 @@ The __ideal gas law__, also called the __general gas equation__, is {@{the [equa
 >
 > {@{$$p V = n R T = N k_\text{B} T$$}@}
 >
-> - where
->   - [state variables](state%20variable.md): {@{$p$ is the absolute [pressure](pressure.md) of the gas, $V$ is the [volume](volume.md) of the gas, $T$ is the [absolute temperature](thermodynamic%20temperature.md) of the gas, $n$ is the [amount of substance](amount%20of%20substance.md) (i.e. number of moles) of the gas, and $N$ is the [number of particles](particle%20number.md) of the gas}@}
->   - {@{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}@}
->   - {@{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}@}
+> where
+>
+> - {@{[state variables](state%20variable.md)}@}
+>   - {@{$p$}@} is {@{the absolute [pressure](pressure.md) of the gas}@}
+>   - {@{$V$}@} is {@{the [volume](volume.md) of the gas}@}
+>   - {@{$T$}@} is {@{the [absolute temperature](thermodynamic%20temperature.md) of the gas}@}
+>   - {@{$n$}@} is {@{the [amount of substance](amount%20of%20substance.md) \(i.e. number of moles\) of the gas}@}
+>   - {@{$N$}@} is {@{the [number of particles](particle%20number.md) of the gas}@}
+> - {@{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$}@} is {@{the [gas constant](gas%20constant.md)}@}
+> - {@{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$}@} is {@{the [Boltzmann constant](Boltzmann%20constant.md)}@}
 
 ## energy associated with a gas
 
