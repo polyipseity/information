@@ -289,7 +289,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`numpy.zeros((1920, 1080), dtype=numpy.uint8)`, `numpy.full((1920, 1080), fill_value=0, dtype=numpy.uint8)`}@} <!--SR:!2025-11-19,256,330-->
+> - solution: {@{`numpy.zeros((1920, 1080), dtype=numpy.uint8)`, `numpy.full((1920, 1080), fill_value=0, dtype=numpy.uint8)`}@} <!--SR:!2029-01-29,1167,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -557,7 +557,7 @@ tags:
 > 3. $P(E \mid F) = P(E)$
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-11-19,256,330!2028-12-24,1140,350-->
+> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2028-03-17,849,330!2028-12-24,1140,350-->
 
 <!-- markdownlint MD028 -->
 

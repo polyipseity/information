@@ -25,8 +25,8 @@ tags:
 
 ## hints
 
-1. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2025-11-19,16,290!2025-11-19,16,290-->
-2. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow. <!--SR:!2025-11-19,16,290!2025-11-19,16,290-->
-3. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2025-11-19,16,290!2025-11-19,16,290-->
+1. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2026-01-25,67,310!2026-01-25,67,310-->
+2. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow. <!--SR:!2026-01-25,67,310!2026-01-25,67,310-->
+3. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2026-01-25,67,310!2026-01-25,67,310-->
 4. UML / [§ use case specification](../UML.md#use%20case%20specification) ::@:: A detailed use case specification is structured around several key elements. The specification should remain concise yet exhaustive enough for developers, testers, and users to understand precisely what the system must do. The elements are: \(annotation: 8 items: name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)\) <!--SR:!2025-12-02,21,250!2025-12-15,33,270-->
-5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered. <!--SR:!2025-11-19,16,290!2025-11-19,16,290-->
+5. __Flow of events__ ::@:: a step‑by‑step narrative of actions performed by actors and the system, written declaratively and numbered. <!--SR:!2026-01-25,67,310!2026-01-25,67,310-->

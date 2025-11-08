@@ -106,7 +106,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 {@{The star-to-delta and series-resistor transformations}@} are {@{special cases of the general resistor network node elimination algorithm}@}. {@{Any node connected by _N_ resistors \(_R_<sub>1</sub> … _R<sub>N</sub>_\) to nodes __1__ … ___N___}@} can be {@{replaced by ${\tbinom {N}{2} }$ resistors interconnecting the remaining _N_ nodes}@}. {@{The resistance between any two nodes _x, y_}@} is given by: {@{$$R_{\mathrm {xy} }=R_{x}R_{y}\sum _{i=1}^{N}{\frac {1}{R_{i} } }$$}@} <!--SR:!2026-02-03,249,330!2026-06-08,351,349!2026-01-18,236,330!2026-04-27,318,349!2026-03-24,285,330!2026-07-18,352,320-->
 
-For {@{a star-to-delta \(_N_ = 3\)}@} this reduces to: {@{$${\begin{aligned}R_{\mathrm {ab} }&=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }+{\frac {1}{R_{c} } }\right)={\frac {R_{a}R_{b}(R_{a}R_{b}+R_{a}R_{c}+R_{b}R_{c})}{R_{a}R_{b}R_{c} } }\\&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\end{aligned} }$$}@} <!--SR:!2027-12-19,765,330!2025-11-19,173,310-->
+For {@{a star-to-delta \(_N_ = 3\)}@} this reduces to: {@{$${\begin{aligned}R_{\mathrm {ab} }&=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }+{\frac {1}{R_{c} } }\right)={\frac {R_{a}R_{b}(R_{a}R_{b}+R_{a}R_{c}+R_{b}R_{c})}{R_{a}R_{b}R_{c} } }\\&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\end{aligned} }$$}@} <!--SR:!2027-12-19,765,330!2027-12-06,747,330-->
 
 For {@{a series reduction \(_N_ = 2\)}@} this reduces to: {@{$$R_{\mathrm {ab} }=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }\right)={\frac {R_{a}R_{b}(R_{a}+R_{b})}{R_{a}R_{b} } }=R_{a}+R_{b}$$}@} <!--SR:!2026-05-17,333,349!2027-10-26,725,330-->
 

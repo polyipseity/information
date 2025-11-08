@@ -42,7 +42,7 @@ A more abstract example of an uncountable set is {@{the set of all countable [or
 
 - Main article: [Dedekind-infinite set](Dedekind-infinite%20set.md)
 
-{@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}. <!--SR:!2027-12-04,823,330!2025-11-19,255,330!2026-02-03,294,290!2026-03-07,321,290!2027-11-25,815,330!2025-12-14,275,330-->
+{@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}. <!--SR:!2027-12-04,823,330!2029-01-29,1167,350!2026-02-03,294,290!2026-03-07,321,290!2027-11-25,815,330!2025-12-14,275,330-->
 
 If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\aleph_1$)}@}: <!--SR:!2026-01-04,291,330!2027-11-21,813,330-->
 

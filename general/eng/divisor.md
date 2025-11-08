@@ -18,7 +18,7 @@ tags:
 >
 > {@{The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10}@} <!--SR:!2025-12-24,275,330!2027-12-06,814,330-->
 
-In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also called a __factor__ of $n$}@}, is {@{an [integer](integer.md) $m$ that may be multiplied by some integer to produce $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of $m$}@}. An integer $n$ is {@{__divisible__ or __evenly divisible__ by another integer $m$ if $m$ is a divisor of $n$}@}; this implies {@{dividing $n$ by $m$ leaves no remainder}@}. <!--SR:!2025-12-25,276,330!2026-01-14,291,330!2025-11-19,247,330!2025-11-27,254,330!2025-12-11,264,330!2026-01-16,293,330-->
+In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also called a __factor__ of $n$}@}, is {@{an [integer](integer.md) $m$ that may be multiplied by some integer to produce $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of $m$}@}. An integer $n$ is {@{__divisible__ or __evenly divisible__ by another integer $m$ if $m$ is a divisor of $n$}@}; this implies {@{dividing $n$ by $m$ leaves no remainder}@}. <!--SR:!2025-12-25,276,330!2026-01-14,291,330!2028-12-18,1125,350!2025-11-27,254,330!2025-12-11,264,330!2026-01-16,293,330-->
 
 ## definition
 
@@ -45,7 +45,7 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 >
 > Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-12-25,276,330!2026-12-10,516,310!2028-11-14,1098,350!2028-09-26,1058,350-->
 
-- 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2025-11-19,247,330!2028-10-07,1066,350-->
+- 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2028-12-19,1126,350!2028-10-07,1066,350-->
 - The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3. <!--SR:!2025-12-12,265,330!2025-11-28,255,330-->
 - The positive divisors of 42 ::@:: are 1, 2, 3, 6, 7, 14, 21, 42. <!--SR:!2028-10-08,1068,350!2028-10-23,1079,350-->
 - The [set](set%20(mathematics).md) of all positive divisors of 60, $A=\{1,2,3,4,5,6,10,12,15,20,30,60\}$, [partially ordered](partially%20ordered%20set.md) by divisibility, has ::@:: the [Hasse diagram](Hasse%20diagram.md): <p> ![Lattice of the divisors of 60, including the prime factorisation of each number](../../archives/Wikimedia%20Commons/Lattice%20of%20the%20divisibility%20of%2060;%20factors.svg) <!--SR:!2028-12-15,1123,350!2025-12-23,274,330-->

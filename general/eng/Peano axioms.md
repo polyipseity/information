@@ -33,7 +33,7 @@ The next four axioms describe {@{the [equality](equality%20(mathematics).md) [re
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-2. 2nd axiom ::@:: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2027-09-12,850,345!2025-11-19,337,345-->
+2. 2nd axiom ::@:: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2027-09-12,850,345!2030-04-05,1598,365-->
 3. 3rd axiom ::@:: For all natural numbers _x_ and _y_, if _x_ = _y_, then _y_ = _x_. That is, equality is [symmetric](symmetric%20relation.md). <!--SR:!2027-03-03,698,345!2029-05-21,1349,365-->
 4. 4th axiom ::@:: For all natural numbers _x_, _y_ and _z_, if _x_ = _y_ and _y_ = _z_, then _x_ = _z_. That is, equality is [transitive](transitive%20relation.md). <!--SR:!2029-10-28,1475,365!2028-03-20,991,345-->
 5. 5th axiom ::@:: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2029-05-07,1338,365!2029-12-23,1518,365-->

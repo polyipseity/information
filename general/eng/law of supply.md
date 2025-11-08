@@ -11,7 +11,7 @@ tags:
 
 # law of supply
 
-The __law of supply__ is {@{a fundamental principle of [economic theory](economics.md#theory)}@} which states that, {@{keeping other factors constant, an increase in sales price results in an increase in quantity [supplied](supply%20(economics).md)}@}.<sup>[\[1\]](#^ref-1)</sup> In other words, there is {@{a direct relationship between price and quantity}@}: quantities respond {@{in the same direction as price changes}@}. This means that {@{producers and manufacturers are willing to offer more of a product for sale on the [market](market%20(economics).md) at higher prices}@}, as {@{increasing production is a way of increasing profits}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-19,288,330!2025-11-26,294,330!2029-05-28,1292,350!2026-08-07,466,310!2029-05-06,1274,350!2025-12-04,18,354-->
+The __law of supply__ is {@{a fundamental principle of [economic theory](economics.md#theory)}@} which states that, {@{keeping other factors constant, an increase in sales price results in an increase in quantity [supplied](supply%20(economics).md)}@}.<sup>[\[1\]](#^ref-1)</sup> In other words, there is {@{a direct relationship between price and quantity}@}: quantities respond {@{in the same direction as price changes}@}. This means that {@{producers and manufacturers are willing to offer more of a product for sale on the [market](market%20(economics).md) at higher prices}@}, as {@{increasing production is a way of increasing profits}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-06-25,1314,350!2025-11-26,294,330!2029-05-28,1292,350!2026-08-07,466,310!2029-05-06,1274,350!2025-12-04,18,354-->
 
 In short, the law of supply is {@{a positive relationship between quantity supplied and price}@}, and is {@{the reason for the upward slope of the supply curve}@}. <!--SR:!2025-11-25,293,330!2025-11-26,294,330-->
 
@@ -27,7 +27,7 @@ For example, a job paying £20/hr attracts {@{more interest than a job paying £
 
 ## affecting factors
 
-There are {@{various non-price determinants that can cause a shift in a supply curve}@}.<sup>[\[6\]](#^ref-6)</sup> For example, if {@{the costs of production, such as wages, decrease}@}, then {@{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}@}. If {@{the number of suppliers increases, or if the capacity of a factory producing the goods increases}@}, {@{the quantity supplied will increase}@}. <!--SR:!2027-07-08,739,330!2025-11-19,288,330!2025-11-20,289,330!2025-11-20,289,330!2025-11-21,290,330-->
+There are {@{various non-price determinants that can cause a shift in a supply curve}@}.<sup>[\[6\]](#^ref-6)</sup> For example, if {@{the costs of production, such as wages, decrease}@}, then {@{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}@}. If {@{the number of suppliers increases, or if the capacity of a factory producing the goods increases}@}, {@{the quantity supplied will increase}@}. <!--SR:!2027-07-08,739,330!2029-06-26,1315,350!2025-11-20,289,330!2025-11-20,289,330!2025-11-21,290,330-->
 
 Other factors can include {@{government policy}@}—{@{government subsidies to encourage certain products decreases the overall cost of production}@}. However, {@{government [taxation](tax.md) can cause the cost of production to rise}@}. For some products, such as {@{in agriculture, the quantity supplied is dependent on the weather}@}. <!--SR:!2029-06-07,1299,350!2025-11-26,294,330!2025-11-25,293,330!2025-11-25,293,330-->
 

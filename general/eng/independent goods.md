@@ -11,7 +11,7 @@ tags:
 
 > {@{![two goods that are independent have a zero cross price elasticity of demand](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20independent.svg)}@}
 >
-> {@{Two goods that are independent have a zero cross price elasticity of demand}@}: {@{as the price of good Y rises, the demand for good X stays constant}@}. <!--SR:!2029-02-06,1203,350!2025-11-19,285,330!2029-06-08,1299,350-->
+> {@{Two goods that are independent have a zero cross price elasticity of demand}@}: {@{as the price of good Y rises, the demand for good X stays constant}@}. <!--SR:!2029-02-06,1203,350!2029-06-08,1297,350!2029-06-08,1299,350-->
 
 __Independent goods__ are {@{[goods](goods.md) that have a zero [cross elasticity of demand](cross%20elasticity%20of%20demand.md)}@}. {@{Changes in the price of one good}@} will {@{have no effect on the [demand](demand.md) for an independent good}@}. Thus {@{independent goods}@} are {@{neither [complements](complementary%20good.md) nor [substitutes](substitute%20good.md)}@}. <!--SR:!2025-11-29,294,330!2025-11-20,286,330!2029-02-16,1210,350!2029-04-09,1253,350!2029-04-20,1262,350-->
 

@@ -70,7 +70,7 @@ The content is in teaching order.
   - capital market / financial and information flows ::@:: _Capital flows_ from households and investors to firms _via_ financial regulators, institutions, or intermediaries. <p> _Information_ flows from firms to households and investors _via_ accounting regulators, auditors, or information intermediaries. <p> The financial intermediaries and information intermediaries _exchange_ capital and information with each other. <!--SR:!2026-03-04,107,330!2025-12-08,51,330-->
 - financial reporting
   - financial reporting / importance ::@:: Many economics depressions are linked to poor quality accounting information, e.g. the Great Depression \(1929–39\), savings and loans crisis \(1980s–early 90s\), Asian financial crisis \(1997–98\), dot-com bubble \(2000–02\), global financial crisis \(2007–09\), etc. <!--SR:!2026-03-02,105,330!2026-01-11,80,350-->
-  - financial reporting / essential characteristics ::@:: _Identify_, _measure_, and _communicate_ financial information of economic entities to interested parties. Users can then _allocate_ capital _efficiently_, ensuring capital markets are efficient. <!--SR:!2025-12-08,51,330!2025-11-19,33,310-->
+  - financial reporting / essential characteristics ::@:: _Identify_, _measure_, and _communicate_ financial information of economic entities to interested parties. Users can then _allocate_ capital _efficiently_, ensuring capital markets are efficient. <!--SR:!2025-12-08,51,330!2026-04-09,141,330-->
 - ACCT 3010
   - ACCT 3010 / introduction
     - ACCT 3010 / introduction / artificial intelligence

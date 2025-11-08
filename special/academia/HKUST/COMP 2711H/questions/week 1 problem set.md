@@ -79,7 +79,7 @@ We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%2
 
 ## fundamental theorem of arithmetic (existence)
 
-We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {@{every natural number $n \ge 2$ can be written as a product of prime numbers}@}. <!--SR:!2025-11-19,337,340-->
+We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {@{every natural number $n \ge 2$ can be written as a product of prime numbers}@}. <!--SR:!2030-03-20,1582,360-->
 
 - strategy ::@:: It is easier to prove this using contradiction than using induction. <!--SR:!2029-03-02,1246,340!2026-03-17,405,320-->
 

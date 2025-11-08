@@ -43,7 +43,7 @@ Given {@{a family $\left(X_{i}\right)_{i\in I}$ of objects}@}, {@{a __product__ 
 
 - For every object $Y$ and every $I$-indexed family of morphisms $f_{i}:Y\to X_{i}$, ::@::there exists a unique morphism $f:Y\to X$ such that the following diagrams commute for all $i\in I:$ <p> ![Universal product of the product](../../archives/Wikimedia%20Commons/Cat%20product.svg) <!--SR:!2027-10-14,756,330!2028-01-13,823,330-->
 
-The product is denoted {@{$\prod _{i\in I}X_{i}$}@}. If {@{$I=\{1,\ldots ,n\}$}@}, then it is denoted {@{$X_{1}\times \cdots \times X_{n}$}@} and the product of morphisms is denoted {@{$\langle f_{1},\ldots ,f_{n}\rangle$}@}. <!--SR:!2028-10-30,1078,350!2025-11-19,238,330!2027-12-28,812,330!2026-01-04,275,330-->
+The product is denoted {@{$\prod _{i\in I}X_{i}$}@}. If {@{$I=\{1,\ldots ,n\}$}@}, then it is denoted {@{$X_{1}\times \cdots \times X_{n}$}@} and the product of morphisms is denoted {@{$\langle f_{1},\ldots ,f_{n}\rangle$}@}. <!--SR:!2028-10-30,1078,350!2028-11-05,1082,350!2027-12-28,812,330!2026-01-04,275,330-->
 
 ### equational definition
 

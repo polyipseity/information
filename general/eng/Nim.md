@@ -110,7 +110,7 @@ In normal play, the winning strategy is {@{to finish every move with a nim-sum o
 - _B_ ⊕ _X_ = 4 ⊕ 2 = 6
 - _C_ ⊕ _X_ = 5 ⊕ 2 = 7
 
-The only heap that is reduced is heap A, so the winning move is to {@{reduce the size of heap A to 1 (by removing two objects)}@}. <!--SR:!2025-11-19,312,341-->
+The only heap that is reduced is heap A, so the winning move is to {@{reduce the size of heap A to 1 (by removing two objects)}@}. <!--SR:!2029-11-21,1463,361-->
 
 As a particular simple case, if {@{there are only two heaps left}@}, the strategy is to {@{reduce the number of objects in the bigger heap to make the heaps equal}@}. After that, no matter what move the opponent makes, the player can {@{make the same move on the other heap, guaranteeing that they take the last object}@}. <!--SR:!2029-06-19,1331,350!2029-05-24,1308,350!2029-09-22,1416,361-->
 
@@ -174,7 +174,7 @@ from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprag
 
 The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2025-12-19,334,341!2029-08-27,1395,361!2029-10-22,1440,361!2029-09-30,1423,361!2029-08-11,1382,361!2029-09-24,1418,361!2026-12-25,617,341-->
 
-The 21 game can also be {@{played with different numbers, e.g., "Add at most 5; lose on 34"}@}. <!--SR:!2025-11-19,312,341-->
+The 21 game can also be {@{played with different numbers, e.g., "Add at most 5; lose on 34"}@}. <!--SR:!2029-11-22,1464,361-->
 
 A sample game of 21 in which the second player follows the winning strategy:
 
@@ -206,7 +206,7 @@ In another variation of nim, besides {@{removing any number of objects from a si
 
 - see ::@:: [Kayles](Kayles.md) <!--SR:!2025-12-15,330,341!2025-11-20,313,341-->
 
-Yet another variation of nim is {@{"circular nim", wherein any number of objects are placed in a circle}@} and {@{two players alternately remove one, two or three adjacent objects}@}. For example, starting with a circle of ten objects, <!--SR:!2025-11-19,312,341!2029-07-28,1370,361-->
+Yet another variation of nim is {@{"circular nim", wherein any number of objects are placed in a circle}@} and {@{two players alternately remove one, two or three adjacent objects}@}. For example, starting with a circle of ten objects, <!--SR:!2029-11-23,1465,361!2029-07-28,1370,361-->
 
 ```text
 . . . . . . . . . .

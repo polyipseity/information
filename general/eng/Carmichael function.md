@@ -152,7 +152,7 @@ The set of values of the Carmichael function has {@{counting function<sup>[\[12\
 
 ## use in cryptography
 
-The Carmichael function is {@{important in [cryptography](cryptography.md)}@} due to {@{its use in the [RSA encryption algorithm](RSA%20(cryptosystem).md)}@}. <!--SR:!2025-11-19,255,330!2028-09-06,1051,350-->
+The Carmichael function is {@{important in [cryptography](cryptography.md)}@} due to {@{its use in the [RSA encryption algorithm](RSA%20(cryptosystem).md)}@}. <!--SR:!2029-01-27,1165,350!2028-09-06,1051,350-->
 
 ## proof of Theorem 1
 

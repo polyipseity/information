@@ -77,7 +77,7 @@ The content is in teaching order.
 - datetime: 2024-09-10T13:30:00+08:00/2024-09-10T14:50:00+08:00
 - [management accounting](../../../../general/management%20accounting.md)
   - [management accounting](../../../../general/management%20accounting.md) / objectives ::@:: internal reporting <!--SR:!2029-01-06,1227,357!2029-01-05,1226,357-->
-  - [management accounting](../../../../general/management%20accounting.md) / users ::@:: managers <!--SR:!2025-11-19,324,337!2029-05-19,1331,357-->
+  - [management accounting](../../../../general/management%20accounting.md) / users ::@:: managers <!--SR:!2030-01-01,1504,357!2029-05-19,1331,357-->
   - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2027-10-09,788,297!2028-04-12,976,317-->
   - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2027-08-28,815,337!2025-11-25,330,337-->
 - [§ week 1 review](questions.md#week%201%20review)
@@ -125,7 +125,7 @@ The content is in teaching order.
 - datetime: 2024-09-17T13:30:00+08:00/2024-09-17T14:50:00+08:00
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [accounting equation](../../../../general/accounting%20equation.md) ::@:: $$\text{assets (A)} = \text{liabilities (L)} + \text{stockholders' equity (SE)}$$ <!--SR:!2025-11-20,325,337!2029-01-10,1230,357-->
-  - [financial transaction](../../../../general/financial%20transaction.md) / principles ::@:: Each transaction affects _at least_ two accounts. The account names and change direction (debit or credit) are identified. Ensure that the account equation holds after a transaction. <!--SR:!2025-11-19,324,337!2026-11-11,599,337-->
+  - [financial transaction](../../../../general/financial%20transaction.md) / principles ::@:: Each transaction affects _at least_ two accounts. The account names and change direction (debit or credit) are identified. Ensure that the account equation holds after a transaction. <!--SR:!2029-12-31,1503,357!2026-11-11,599,337-->
   - [accounting equation](../../../../general/accounting%20equation.md) / A restaurant buys meat patties for $6&nbsp;000 in cash. ::@:: A, L, and SE do not change at all. The only change is that the amount under two accounts in A changed in opposite direction, i.e. transferred from the cash asset account to the inventory asset account. <!--SR:!2025-11-21,326,337!2028-11-20,1189,357-->
   - [accounting equation](../../../../general/accounting%20equation.md) / A restaurant buys meat patties for $6&nbsp;000 _on credit_ (promise to pay later). ::@:: A increases by $6&nbsp;000, and L increases by $6&nbsp;000, balancing the accounting equation. Upon settlement of the liability (fulfilled the promise to pay), A decreases by $6&nbsp;000, and L decreases by $6&nbsp;000, still balancing the accounting equation. Overall, A, L, and SE do not change. <!--SR:!2025-11-20,325,337!2028-12-12,1206,357-->
 - [chart of accounts](../../../../general/chart%20of%20accounts.md) ::@:: list of financial accounts and their identifiers, grouped into categories <!--SR:!2029-07-09,1370,357!2029-06-07,1346,357-->

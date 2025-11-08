@@ -101,7 +101,7 @@ The content is in teaching order.
 - [behavioural finance](../../../../general/behavioural%20finance.md) ::@:: It is the study of the influence of psychology on the behaviour of investors or financial analysts. It assumes that investors are not always rational, have limits to their self-control and are influenced by their own biases. <!--SR:!2025-11-26,55,310!2025-11-27,56,310-->
 - efficient-market hypothesis
   - efficient-market hypothesis / reality
-    - efficient-market hypothesis / reality / reasons ::@:: framing \(e.g. effect of salience\), information, luck, sophistication, skills, etc. <!--SR:!2025-11-19,46,290!2026-05-03,170,310-->
+    - efficient-market hypothesis / reality / reasons ::@:: framing \(e.g. effect of salience\), information, luck, sophistication, skills, etc. <!--SR:!2026-05-23,185,310!2026-05-03,170,310-->
 - [performance appraisal](../../../../general/performance%20appraisal.md) ::@:: It is a periodic and systematic process whereby the job performance of an employee is documented and evaluated. <!--SR:!2025-12-07,64,310!2025-11-25,54,310-->
   - performance appraisal / finance ::@:: need to separate the skill of portfolio manager from luck <!--SR:!2025-12-08,65,310!2025-12-03,61,310-->
 - [fixed income](../../../../general/fixed%20income.md) ::@:: It refers to any type of investment under which the borrower or issuer is obliged to make payments of a fixed amount on a fixed schedule. <!--SR:!2025-12-08,65,310!2026-04-28,166,310-->
