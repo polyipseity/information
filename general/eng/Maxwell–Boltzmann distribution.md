@@ -19,13 +19,17 @@ tags:
 
 > __Maxwell–Boltzmann distribution in [three-dimensional space](three-dimensional%20space.md)__
 >
+> - conditions: {@{requires [kinetic theory of gases](kinetic%20theory%20of%20gases.md), which applies to [ideal gases](ideal%20gas.md) and approximates [real gases](real%20gas.md)}@}
+>
 > {@{$$\begin{aligned} f(\vec{v}) \,\mathrm{d}^3\vec{v} & = \left(\frac{m}{2\pi k T}\right)^\frac32 \exp\left( -\frac{m\lvert\vec{v}\rvert^2}{2kT} \right) \,\mathrm{d}^3\vec{v} \\ f(v) \,\mathrm{d}v & = 4\pi v^2 \left(\frac{m}{2\pi k T}\right)^\frac32 \exp\left(-\frac{mv^2}{2kT}\right) \,\mathrm{d}v \end{aligned}$$}@}
 >
-> - where
->   - [function](function%20(mathematics).md) properties: {@{$f(\vec{v})$ is a [probability density function](probability%20density%20function.md), showing the fraction of [particles](particle.md) within an infinitesimal element of the three-dimensional velocity space $\mathrm{d}^3\vec{v}$ centered on a velocity vector $\vec{v}$, properly normalized such that $\int f(\vec{v}) \,\mathrm{d}^3\vec{v}$ over all velocity vectors is unity; and $f(v)$ is another [probability density function](probability%20density%20function.md), showing the density of [particles](particle.md) with velocity $v$, properly normalized such that $\int_0^\infty f(v) \,\mathrm{d}v$ is unity}@}
->   - system properties: {@{$m$ is the [particle](particle.md) [mass](mass.md) and $T$ is the [thermodynamic temperature](thermodynamic%20temperature.md)}@}
->   - {@{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}@}
-> - conditions: {@{requires [kinetic theory of gases](kinetic%20theory%20of%20gases.md), which applies to [ideal gases](ideal%20gas.md) and approximates [real gases](real%20gas.md)}@} <!--SR:!2025-12-25,70,138!2027-09-23,990,298!2027-12-04,1033,298!2026-10-08,717,318!2026-02-22,484,278-->
+> where
+>
+> - [function](function%20(mathematics).md) properties
+>   - {@{$f(\vec{v})$}@} is {@{a [probability density function](probability%20density%20function.md)}@}, showing {@{the fraction of [particles](particle.md) within an infinitesimal element of the three-dimensional velocity space $\mathrm{d}^3\vec{v}$}@} centered on {@{a velocity vector $\vec{v}$}@}, {@{properly normalized}@} such that {@{$\int f(\vec{v}) \,\mathrm{d}^3\vec{v}$ over all velocity vectors is unity}@}
+>   - {@{$f(v)$}@} is {@{another [probability density function](probability%20density%20function.md)}@}, showing {@{the density of [particles](particle.md) with velocity $v$}@}, {@{properly normalized}@} such that {@{$\int_0^\infty f(v) \,\mathrm{d}v$ is unity}@}
+> - system properties: $m$ is {@{the [particle](particle.md) [mass](mass.md)}@} and $T$ is {@{the [thermodynamic temperature](thermodynamic%20temperature.md)}@}
+> - {@{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$}@} is {@{the [Boltzmann constant](Boltzmann%20constant.md)}@} <!--SR:!2025-12-25,70,138!2027-09-23,990,298!2027-12-04,1033,298!2026-10-08,717,318!2026-02-22,484,278-->
 
 ## typical speeds
 

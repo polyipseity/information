@@ -43,7 +43,7 @@ __Number of suppliers:__ ::@:: The market supply curve is the horizontal summati
 
 __Government policies and regulations:__ ::@:: [Government intervention](market%20intervention.md) can have a significant effect on supply.<sup>[\[7\]](#^ref-7)</sup> Government intervention can take many forms including environmental and health regulations, hour and wage laws, taxes, electrical and natural gas rates and zoning and land use regulations.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-10-11,507,310!2029-05-01,1265,350-->
 
-This list is {@{not exhaustive}@}. {@{All facts and circumstances that are relevant to a seller's willingness or ability to produce and sell goods}@} can affect supply.<sup>[\[9\]](#^ref-9)</sup> For example, if {@{the forecast is for snow}@} retail sellers will respond by {@{increasing their stocks of snow sleds or skis or winter clothing or bread and milk}@}. <!--SR:!2029-04-22,1259,350!2029-05-30,1290,350!2029-04-06,1245,350!2027-05-30,707,330-->
+This list is {@{not exhaustive}@}. {@{All facts and circumstances}@} that are {@{relevant to a seller's willingness or ability to produce and sell goods}@} can {@{affect supply}@}.<sup>[\[9\]](#^ref-9)</sup> For example, if {@{the forecast is for snow}@} retail sellers will respond by {@{increasing their stocks of snow sleds or skis or winter clothing or bread and milk}@}. <!--SR:!2029-04-22,1259,350!2029-05-30,1290,350!2029-04-06,1245,350!2027-05-30,707,330-->
 
 ### cases that violate the law of supply/exceptional cases to the law of supply
 
@@ -73,7 +73,7 @@ By convention in {@{the context of [supply and demand](supply%20and%20demand.md)
 
 ## shape of the short-run supply curve
 
-{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price would be necessary to induce the firm to produce more and more output}@}. <!--SR:!2029-04-20,1258,350!2026-09-23,492,310!2027-08-11,757,330!2028-12-24,1167,350!2029-04-17,1255,350!2026-10-13,509,310!2028-06-18,941,330-->
+{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price}@} would be necessary to induce {@{the firm to produce more and more output}@}. <!--SR:!2029-04-20,1258,350!2026-09-23,492,310!2027-08-11,757,330!2028-12-24,1167,350!2029-04-17,1255,350!2026-10-13,509,310!2028-06-18,941,330-->
 
 ## from firm to market supply curve
 

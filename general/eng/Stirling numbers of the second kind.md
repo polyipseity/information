@@ -71,11 +71,9 @@ Another recurrence relation is {@{given by $$\left\lbrace {\begin{matrix}n\\k\en
 
 ### simple identities
 
-Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets necessarily means dividing it into one set of size 2 and _n_ − 2 sets of size 1. Therefore we need only pick those two elements}@}; <!--SR:!2029-05-12,1286,350!2028-07-22,977,330-->
+Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets}@} necessarily means {@{dividing it into one set of size 2 and _n_ − 2 sets of size 1}@}. Therefore we need {@{only pick those two elements}@}; and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty}@}, so {@{2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since we want {@{_unordered_ pairs rather than _ordered_ pairs}@} we {@{divide this last number by 2}@}, giving the result above. <!--SR:!2029-05-12,1286,350!2028-07-22,977,330!2027-09-17,798,330!2027-12-04,862,330!2025-11-26,303,330!2028-01-22,885,330-->
 
-and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty, so 2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since {@{we want _unordered_ pairs rather than _ordered_ pairs we divide this last number by 2}@}, giving the result above. <!--SR:!2027-09-17,798,330!2027-12-04,862,330!2025-11-26,303,330!2028-01-22,885,330-->
-
-{@{Another explicit expansion of the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}. <!--SR:!2025-11-21,299,330!2028-03-16,927,330-->
+{@{Another explicit expansion}@} of {@{the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}.
 
 ### identities
 

@@ -17,8 +17,10 @@ tags:
 >
 > {@{$$c^2 = a^2 + b^2 - 2 a b \cos \gamma$$}@}
 >
-> - where
->   - {@{$a, b, c$ are the sides of a [triangle](triangle.md), and $\gamma$ is the angle opposite to side $c$}@} <!--SR:!2026-02-16,545,310!2027-10-31,1094,350-->
+> where
+>
+> - {@{$a, b, c$}@} are {@{the sides of a [triangle](triangle.md)}@}
+> - {@{$\gamma$}@} is {@{the angle opposite to side $c$}@} <!--SR:!2026-02-16,545,310!2027-10-31,1094,350-->
 
 ## references
 

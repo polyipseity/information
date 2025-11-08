@@ -21,13 +21,14 @@ tags:
 >
 > {@{$$f(x, t) = A \cos(kx \pm \omega t + \phi) + D$$}@}
 >
-> - where
->   - $f(x, t)$ is {@{displacement at position $x$ and time $t$}@}.
->   - $A$ is {@{amplitude, i.e. maximum displacement}@}.
->   - $k$ is {@{angular wavenumber or angular spatial frequency}@}.
->   - $\omega$ is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
->   - $\phi$ is {@{initial phase offset}@}.
->   - $D$ is {@{equilibrium offset}@}. <!--SR:!2026-02-15,381,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350-->
+> where
+>
+> - {@{$f(x, t)$}@} is {@{displacement at position $x$ and time $t$}@}.
+> - {@{$A$}@} is {@{amplitude, i.e. maximum displacement}@}.
+> - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
+> - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
+> - {@{$\phi$}@} is {@{initial phase offset}@}.
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-02-15,381,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350-->
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {@{digital signals (discrete signals)}@}. In that case, usually {@{the time is discretized}@}. So the equation becomes: <!--SR:!2028-08-08,1142,350!2029-03-01,1307,350-->
 
@@ -35,14 +36,15 @@ In signal processing, apart from analog signals (continuous signals), we also de
 >
 > {@{$$f(x)[n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} <!-- markdownlint-disable-line MD011 -->
 >
-> - where
->   - $f(x)[n]$ is {@{displacement at position $x$ and sample (discrete time step) $n$}@}. <!-- markdownlint-disable-line MD011 -->
->   - $T$ is {@{sampling interval, which equals the reciprocal of sampling frequency $T = 1 / f_s$}@}.
->   - $A$ is {@{amplitude, i.e. maximum displacement}@}.
->   - $k$ is {@{angular wavenumber or angular spatial frequency}@}.
->   - $\omega$ is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
->   - $\phi$ is {@{initial phase offset}@}.
->   - $D$ is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330-->
+> where
+>
+> - {@{$f(x)[n]$}@} is {@{displacement at position $x$ and sample (discrete time step) $n$}@}. <!-- markdownlint-disable-line MD011 -->
+> - {@{$T$}@} is {@{sampling interval, which equals the reciprocal of sampling frequency $T = 1 / f_s$}@}.
+> - {@{$A$}@} is {@{amplitude, i.e. maximum displacement}@}.
+> - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
+> - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
+> - {@{$\phi$}@} is {@{initial phase offset}@}.
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330-->
 
 For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}. <!--SR:!2029-05-20,1370,350-->
 

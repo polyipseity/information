@@ -91,7 +91,7 @@ tags:
 
 ## week 3 lecture 2
 
-> Coca‑Cola Company \(KO\) earns its revenue by selling beverage concentrates to bottling partners around the world, such as Coca‑Cola FEMSA in Mexico and Coca‑Cola Europacific Partners covering Europe and Asia. Because these bottlers operate in a variety of currencies, KO is exposed to foreign‑exchange risk. In addition, KO holds equity interests in some bottlers—about 19% in FEMSA—which are accounted for as either equity‑method investments or available‑for‑sale \(AFS\) securities, giving rise to unrealized gains and losses. What OCI items that could appear on Coca‑Cola's financial statements arise from these currency exposures and the valuation changes of those equity holdings?
+> Coca-Cola Company \(KO\) earns its revenue by selling beverage concentrates to bottling partners around the world, such as Coca-Cola FEMSA in Mexico and Coca-Cola Europacific Partners covering Europe and Asia. Because these bottlers operate in a variety of currencies, KO is exposed to foreign-exchange risk. In addition, KO holds equity interests in some bottlers—about 19% in FEMSA—which are accounted for as either equity-method investments or available-for-sale \(AFS\) securities, giving rise to unrealized gains and losses. What OCI items that could appear on Coca-Cola's financial statements arise from these currency exposures and the valuation changes of those equity holdings?
 >
 > 1. cash flow hedge gains/losses
 > 2. unrealized gains/losses on available-for-sale \(AFS\) securities
@@ -110,7 +110,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{\(for reference only\) The U.S. is likely to remain solvent over the next decade, but its fiscal position will become increasingly precarious. Current spending patterns and entitlement obligations suggest that without substantial policy shifts—either in revenue growth or expenditure restraint—the debt trajectory could outpace economic growth, tightening the budgetary space for future priorities. This scenario underscores the need for structural reforms \(tax, spending, or both\) if the U.S. wants to avoid compromising its long‑term economic resilience.}@} <!--SR:!2025-11-29,28,287-->
+> - solution: {@{\(for reference only\) The U.S. is likely to remain solvent over the next decade, but its fiscal position will become increasingly precarious. Current spending patterns and entitlement obligations suggest that without substantial policy shifts—either in revenue growth or expenditure restraint—the debt trajectory could outpace economic growth, tightening the budgetary space for future priorities. This scenario underscores the need for structural reforms \(tax, spending, or both\) if the U.S. wants to avoid compromising its long-term economic resilience.}@} <!--SR:!2025-11-29,28,287-->
 
 ## week 4 lecture 2
 

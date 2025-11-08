@@ -94,17 +94,17 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 >     {@{childCount&nbsp;:= 0}@}
 >     {@{isArticulation&nbsp;:= <b>false</b>}@}
 >
->     <b>for each</b> {@{ni <b>in</b> adj[i]}@} <b>do</b>
->         <b>if</b> {@{<b>not</b> visited[ni]}@} <b>then</b>
+>     {@{<b>for each</b> ni <b>in</b> adj[i]}@} <b>do</b>
+>         {@{<b>if</b> <b>not</b> visited[ni]}@} <b>then</b>
 >             {@{parent[ni]&nbsp;:= i}@}
 >             {@{GetArticulationPoints(ni, d + 1)}@}
 >             {@{childCount&nbsp;:= childCount + 1}@}
 >             <b>if</b> {@{low[ni] ≥ depth[i]}@} <b>then</b>
 >                 {@{isArticulation&nbsp;:= <b>true</b>}@}
 >             {@{low[i]&nbsp;:= Min (low[i], low[ni])}@}
->         <b>else if</b> {@{ni ≠ parent[i]}@} <b>then</b>
+>         {@{<b>else if</b> ni ≠ parent[i]}@} <b>then</b>
 >             {@{low[i]&nbsp;:= Min (low[i], depth[ni])}@}
->     <b>if</b> {@{(parent[i] ≠ <b>null</b> <b>and</b> isArticulation) <b>or</b> (parent[i] = <b>null</b> <b>and</b> childCount &gt; 1)}@} <b>then</b>
+>     {@{<b>if</b> (parent[i] ≠ <b>null</b> <b>and</b> isArticulation) <b>or</b> (parent[i] = <b>null</b> <b>and</b> childCount &gt; 1)}@} <b>then</b>
 >         {@{Output i as articulation point}@}
 > </pre> <!--SR:!2026-01-16,301,335!2025-11-24,260,335!2025-12-24,284,335!2026-10-18,501,315!2025-12-25,285,335!2026-01-10,296,335!2028-04-03,865,335!2025-11-26,262,335!2025-11-27,263,335!2027-11-23,769,290!2026-09-10,467,310!2027-04-17,552,275!2028-01-31,855,330!2027-06-20,628,315!2026-10-19,501,315!2026-09-04,416,295!2026-09-22,426,295!2026-09-24,480,310-->
 

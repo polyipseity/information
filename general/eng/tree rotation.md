@@ -132,7 +132,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 
 > __Unsolved problem in computer science__:
 >
-> _Can {@{the rotation distance between two binary trees be computed in polynomial time}@}?_
+> _Can {@{the rotation distance between two binary trees}@} be {@{computed in polynomial time}@}?_
 >
 > [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2029-01-26,1165,350-->
 

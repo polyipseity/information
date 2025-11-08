@@ -334,7 +334,7 @@ When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the a
 If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!2025-11-26,14,290!2025-11-28,16,309!2025-11-27,15,309!2025-11-28,16,309!2025-11-29,17,309!2025-11-29,17,309!2025-11-28,16,309!2025-11-27,15,309-->
 
 - lexical scope ::@:: Visible `given` instances in the lexical scope, including inherited, imported and defined instances. <!--SR:!2025-11-27,15,309!2025-11-29,17,309-->
-- companion objects ::@:: Companion objects of `T`, its super‑classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2025-11-28,16,309!2025-11-26,14,290-->
+- companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2025-11-28,16,309!2025-11-26,14,290-->
 - enclosing objects ::@:: For inner classes, outer enclosing objects. <!--SR:!2025-11-29,17,309!2025-11-27,15,309-->
 
 {@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2025-11-28,16,309!2025-11-28,16,309!2025-11-27,15,309!2025-11-27,15,309-->
@@ -350,11 +350,11 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 ## type class
 
-In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type‑class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!2025-11-26,14,290!2025-11-27,15,309!2025-11-27,15,309!2025-11-26,14,290!2025-11-27,15,309!2025-11-28,16,309!2025-11-28,16,309-->
+In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!2025-11-26,14,290!2025-11-27,15,309!2025-11-27,15,309!2025-11-26,14,290!2025-11-27,15,309!2025-11-28,16,309!2025-11-28,16,309-->
 
-{@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad‑hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2025-11-27,15,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309-->
+{@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2025-11-27,15,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309-->
 
-{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built‑in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine‑grained control over polymorphic behaviour}@}. <!--SR:!2025-11-27,15,309!2025-11-27,15,309!2025-11-28,16,309!2025-11-27,15,309!2025-11-27,15,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-28,16,309!2025-11-29,17,309!2025-11-29,17,309!2025-11-29,17,309-->
+{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!2025-11-27,15,309!2025-11-27,15,309!2025-11-28,16,309!2025-11-27,15,309!2025-11-27,15,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-28,16,309!2025-11-29,17,309!2025-11-29,17,309!2025-11-29,17,309-->
 
 ### type class pattern
 
@@ -420,11 +420,11 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 
 ### extension methods
 
-{@{A type‑class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2025-11-27,15,309!2025-11-27,15,309!2025-11-28,16,309-->
+{@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2025-11-27,15,309!2025-11-27,15,309!2025-11-28,16,309-->
 
 > [!example] __type class extension methods__
 >
-> {@{A type‑class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}:
+> {@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}:
 >
 > ```Scala
 > trait Ordering[A]:
@@ -458,7 +458,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2025-11-26,14,
 
 ### type class in other languages
 
-{@{Haskell}@} treats {@{type classes}@} as {@{a first‑class feature of the language}@}.  {@{The standard library}@} defines {@{an `Ordering` data type}@} ({@{`data Ordering = LT | EQ | GT`}@}) and declares {@{the class}@} <!--SR:!2025-11-29,17,309!2025-11-28,16,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-28,16,309!2025-11-26,14,290-->
+{@{Haskell}@} treats {@{type classes}@} as {@{a first-class feature of the language}@}.  {@{The standard library}@} defines {@{an `Ordering` data type}@} ({@{`data Ordering = LT | EQ | GT`}@}) and declares {@{the class}@} <!--SR:!2025-11-29,17,309!2025-11-28,16,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-28,16,309!2025-11-26,14,290-->
 
 > [!example] __type class in Haskell__
 >
@@ -471,7 +471,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2025-11-26,14,
 >
 > {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2025-11-30,18,330!2025-11-29,17,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-29,17,330-->
 
-{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built‑in}@}, Haskell's {@{type‑class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331-->
+{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331-->
 
 {@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2025-11-28,16,309!2025-11-27,15,309!2025-11-26,14,290!2025-11-29,17,309!2025-11-27,15,309!2025-11-29,17,309-->
 
@@ -488,4 +488,4 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2025-11-26,14,
 
 {@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2025-11-28,16,309!2025-11-26,14,290!2025-11-26,14,290!2025-11-27,15,309!2025-11-29,17,309!2025-11-28,16,309-->
 
-{@{Other functional and dependently‑typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type‑class‑like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala‑style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2025-11-27,15,309!2025-11-29,17,309!2025-11-26,14,290!2025-11-26,14,290!2025-11-29,17,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309-->
+{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2025-11-27,15,309!2025-11-29,17,309!2025-11-26,14,290!2025-11-26,14,290!2025-11-29,17,309!2025-11-29,17,309!2025-11-27,15,309!2025-11-29,17,309!2025-11-27,15,309-->

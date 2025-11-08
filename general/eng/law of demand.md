@@ -112,7 +112,7 @@ Giffen goods {@{violate the law of demand}@} due to {@{the [income effect](consu
 
 ### expectation of change in the price of commodity
 
-If {@{an increase in the price of a commodity causes households to expect the price of a commodity to increase further}@}, they may {@{start purchasing a greater amount of the commodity even at the presently increased price}@}.<sup>[\[6\]](#^ref-6)</sup> Similarly, if {@{the household expects the price of the commodity to decrease}@}, it may {@{postpone its purchases}@}. Thus, some argue that {@{the law of demand is violated in such cases}@}. In this case, the demand curve {@{does not slope down from left to right; instead, it presents a backward slope from the top right to down left}@}. This curve is known as {@{an exceptional demand curve}@}. <!--SR:!2028-10-29,1128,350!2028-06-22,948,330!2025-12-19,314,349!2028-11-18,1125,349!2026-01-29,349,349!2028-01-20,876,330!2028-12-27,1174,350-->
+If {@{an increase in the price of a commodity}@} causes {@{households to expect the price of a commodity to increase further}@}, they may start {@{purchasing a greater amount of the commodity even at the presently increased price}@}.<sup>[\[6\]](#^ref-6)</sup> Similarly, if {@{the household expects the price of the commodity to decrease}@}, it may {@{postpone its purchases}@}. Thus, some argue that {@{the law of demand is violated in such cases}@}. In this case, the demand curve {@{does not slope down from left to right; instead, it presents a backward slope from the top right to down left}@}. This curve is known as {@{an exceptional demand curve}@}. <!--SR:!2028-10-29,1128,350!2028-06-22,948,330!2025-12-19,314,349!2028-11-18,1125,349!2026-01-29,349,349!2028-01-20,876,330!2028-12-27,1174,350-->
 
 ### basic or necessary goods
 

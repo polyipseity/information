@@ -25,9 +25,10 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > {@{$$\begin{aligned} F_\mathrm{net} = m\frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = F(t) -k x - c \frac{\mathrm{d}x}{\mathrm{d}t} \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \frac{c}m \frac{\mathrm{d}x}{\mathrm{d}t} + \frac{k}m x & = \frac{F(t)}m \end{aligned}$$}@}
 >
-> - where
->   - [function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is {@{the [net force](net%20force.md)}@}, $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@}, and $t$ is {@{the [time](time.md)}@}
->   - [oscillator](oscillation.md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@} and $m$ is {@{the [mass](mass.md)}@}, $c$ is {@{the _viscous damping coefficient_}@}, and $F(t)$ is {@{the driving [force](force.md)}@} <!--SR:!2025-11-28,489,312!2027-10-28,1092,352!2027-02-17,855,332!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336!2025-12-04,18,336-->
+> where
+>
+> - [function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is {@{the [net force](net%20force.md)}@}, $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@}, and $t$ is {@{the [time](time.md)}@}
+> - [oscillator](oscillation.md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@} and $m$ is {@{the [mass](mass.md)}@}, $c$ is {@{the _viscous damping coefficient_}@}, and $F(t)$ is {@{the driving [force](force.md)}@} <!--SR:!2025-11-28,489,312!2027-10-28,1092,352!2027-02-17,855,332!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336!2025-12-04,18,336-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -35,9 +36,10 @@ For better physical meaning, it can be rewritten as:
 >
 > {@{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + 2 \zeta \omega_n \frac{\mathrm{d}x}{\mathrm{d}t} + \omega_n^2 x = \frac{F(t)}m$$}@}
 >
-> - where
->   - [function](function%20(mathematics).md) properties: $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@} and $t$ is {@{the [time](time.md)}@}
->   - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural (undamped) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, $c$ is {@{the _viscous damping coefficient_}@}, and $F(t)$ is {@{the driving [force](force.md)}@} <!--SR:!2026-05-25,604,312!2027-05-18,960,352!2028-06-23,1108,270!2025-12-03,17,336!2025-12-04,18,336!2025-12-04,18,336!2025-11-27,11,316!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336-->
+> where
+>
+> - [function](function%20(mathematics).md) properties: $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@} and $t$ is {@{the [time](time.md)}@}
+> - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural (undamped) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, $c$ is {@{the _viscous damping coefficient_}@}, and $F(t)$ is {@{the driving [force](force.md)}@} <!--SR:!2026-05-25,604,312!2027-05-18,960,352!2028-06-23,1108,270!2025-12-03,17,336!2025-12-04,18,336!2025-12-04,18,336!2025-11-27,11,316!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336-->
 
 The above [inhomogeneous ordinary differential equation](ordinary%20differential%20equation.md#^nonhomogeneous) can always {@{be solved exactly for any driving [force](force.md), usually by first solving the homogeneous counterpart of the above equation}@}. <!--SR:!2026-03-29,561,312-->
 
@@ -75,14 +77,17 @@ The solution is as below, which matches with our physical intuition:
 
 > __driven, damped harmonic oscillator with step input__
 >
+> - conditions: {@{$\lvert\zeta\rvert < 1, x(0) = x'(0) = 0$}@}
+>
 > {@{$$x(t) = x_F \left(1 - e^{-\lambda t}\frac{\cos(\omega t + \varphi)}{\cos \varphi} \right)$$}@}
 >
-> - conditions: {@{$\lvert\zeta\rvert < 1, x(0) = x'(0) = 0$}@}
-> - where
->   - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
->   - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural (undamped) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{1 - \zeta^2}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
->   - [phase space](phase%20space.md): {@{$x_F = \frac{F(t)}{m \omega_n^2} = \frac{F(t)}k$}@} is {@{steady-state equilibrium position with the driving [force](force.md) $F(t)$}@} and {@{$\varphi = -\arcsin \zeta$}@} is {@{the initial [phase](phase%20(waves).md)}@}
 > - sine variant: {@{all $\cos$ in the main expression}@} are {@{replaced by $\sin$}@} and {@{$\varphi = \arccos \zeta$}@} <!--SR:!2025-12-28,227,212!2027-05-10,884,312!2028-07-14,1290,352!2026-01-11,470,272!2026-03-13,284,232!2027-01-02,828,332!2025-12-04,18,336!2025-12-03,17,336!2025-12-04,18,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336!2025-11-28,12,316!2025-12-03,17,336!2025-12-03,17,336!2025-12-04,18,336!2025-11-27,11,316!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336-->
+>
+> where
+>
+> - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
+> - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural (undamped) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{1 - \zeta^2}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
+> - [phase space](phase%20space.md): {@{$x_F = \frac{F(t)}{m \omega_n^2} = \frac{F(t)}k$}@} is {@{steady-state equilibrium position with the driving [force](force.md) $F(t)$}@} and {@{$\varphi = -\arcsin \zeta$}@} is {@{the initial [phase](phase%20(waves).md)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -122,11 +127,12 @@ The transient solution can be found {@{from the homogeneous equation}@}. The ste
 >
 > {@{$$x(t) = A \cos(\omega_d t + \varphi)$$}@}
 >
-> - where
->   - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
->   - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural (undamped) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{1 - \zeta^2}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
->   - [force](force.md) properties: {@{$F(t) = F_\mathrm{max} \cos(\omega_d t)$}@} is {@{the driving [force](force.md)}@} with {@{max value $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$}@}, and {@{$Z_m = \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left( \omega_n^2 - \omega_d^2 \right)^2}$}@} is {@{the [mechanical impedance](mechanical%20impedance.md) or [linear response function](linear%20response%20function.md)}@}
->   - [phase space](phase%20space.md): {@{$A = \frac{F_\mathrm{max} }{m \omega_d Z_m}$}@} is {@{steady-state [amplitude](amplitude.md)}@} and {@{$\varphi = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi$}@} is {@{the initial [phase](phase%20(waves).md) for any [integer](integer.md) $n$}@}, which is {@{usually chosen such that $\varphi \in (-\pi, 0]$}@} to {@{always represent a phase lag}@}
+> where
+>
+> - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
+> - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural (undamped) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{1 - \zeta^2}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
+> - [force](force.md) properties: {@{$F(t) = F_\mathrm{max} \cos(\omega_d t)$}@} is {@{the driving [force](force.md)}@} with {@{max value $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$}@}, and {@{$Z_m = \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left( \omega_n^2 - \omega_d^2 \right)^2}$}@} is {@{the [mechanical impedance](mechanical%20impedance.md) or [linear response function](linear%20response%20function.md)}@}
+> - [phase space](phase%20space.md): {@{$A = \frac{F_\mathrm{max} }{m \omega_d Z_m}$}@} is {@{steady-state [amplitude](amplitude.md)}@} and {@{$\varphi = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi$}@} is {@{the initial [phase](phase%20(waves).md) for any [integer](integer.md) $n$}@}, which is {@{usually chosen such that $\varphi \in (-\pi, 0]$}@} to {@{always represent a phase lag}@}
 > - {@{[resonance](resonance.md)}@}: {@{Resonance happens}@} when {@{the [amplitude](amplitude.md) is maximum}@}. {@{The resonant [angular frequency](angular%20frequency.md)}@} is {@{$\omega_r = \omega_n \sqrt{1 - 2 \zeta^2}$}@}, thus {@{resonance only occurs}@} for {@{significantly underdamped systems}@} where {@{$\zeta < 1 / \sqrt 2 \approx 0.707\,106\,781$}@}.
 > - {@{transient solution}@}: In {@{the full solution}@}, {@{the transient solution}@} is {@{added onto the steady-state solution}@} and can be {@{found from solving the homogeneous equation}@}. {@{Adding the transient solution}@} is required to {@{match any [initial values](initial%20value%20problem.md)}@}. It represents {@{the system's response to the prior state}@} before being {@{applied the driving [force](force.md)}@}. Usually, {@{it can be ignored}@} as it {@{decays quickly if the system is [damped](damping.md)}@}. <!--SR:!2030-11-30,1896,332!2027-10-09,908,292!2028-08-28,1323,350!2029-07-14,1476,312!2026-02-26,165,172!2026-10-26,347,192!2026-04-22,504,252!2026-02-21,548,312!2027-02-04,813,332!2026-03-28,572,312!2026-02-05,576,336!2025-12-04,18,336!2025-12-04,18,336!2025-12-04,18,336!2025-12-03,17,336!2025-11-27,11,316!2025-11-27,11,316!2025-12-03,17,336!2025-11-27,11,316!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336!2025-12-03,17,336!2025-11-28,12,316!2025-12-04,18,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-04,18,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336!2025-12-04,18,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336!2025-12-04,18,336!2025-12-03,17,336-->
 
@@ -151,8 +157,9 @@ Through [nondimensionalization](nondimensionalization.md), the equation below {@
 >
 > {@{$$\frac{\mathrm{d}^2 q}{\mathrm{d}\tau^2} + 2 \zeta \frac{\mathrm{d} q}{\mathrm{d}\tau} + q = f(\tau)$$}@}
 >
-> - where
->   - properties: $\tau$ is {@{the [independent variable](dependent%20and%20independent%29variables.md)}@}, $q$ is {@{the [dependent variable](dependent%20and%20independent%29variables.md)}@}, $\zeta$ is {@{the damping ratio}@}, and $f(\tau)$ is {@{the [forcing function](forcing%20function%20(differential%20equations).md)}@} <!--SR:!2027-01-31,820,332!2026-11-19,758,332!2025-12-04,18,336!2025-12-04,18,336!2025-12-03,17,336-->
+> where
+>
+> - properties: $\tau$ is {@{the [independent variable](dependent%20and%20independent%29variables.md)}@}, $q$ is {@{the [dependent variable](dependent%20and%20independent%29variables.md)}@}, $\zeta$ is {@{the damping ratio}@}, and $f(\tau)$ is {@{the [forcing function](forcing%20function%20(differential%20equations).md)}@} <!--SR:!2027-01-31,820,332!2026-11-19,758,332!2025-12-04,18,336!2025-12-04,18,336!2025-12-03,17,336-->
 
 In terms of properties, the universal oscillator equation is {@{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}@}. <!--SR:!2027-06-03,898,332-->
 

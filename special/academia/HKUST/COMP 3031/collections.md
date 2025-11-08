@@ -21,7 +21,7 @@ tags:
 
 ## hierarchy
 
-{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java‑backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!2026-01-10,60,310!2026-01-12,62,310!2026-01-05,56,310!2026-01-09,59,310!2026-01-09,59,310!2026-01-12,62,310!2026-01-12,62,310!2026-01-07,58,310!2026-01-15,64,310!2026-01-10,60,310-->
+{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!2026-01-10,60,310!2026-01-12,62,310!2026-01-05,56,310!2026-01-09,59,310!2026-01-09,59,310!2026-01-12,62,310!2026-01-12,62,310!2026-01-07,58,310!2026-01-15,64,310!2026-01-10,60,310-->
 
 {@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}. <!--SR:!2026-01-06,57,310!2026-01-15,64,310!2026-01-16,65,310-->
 
@@ -65,7 +65,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!2026-01-07,58,310!2026-01-06,57,310!2026-01-14,63,310!2026-01-11,61,310!2026-01-16,65,310-->
 
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non‑empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-01-17,66,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-03,54,310!2026-01-03,54,310!2026-01-11,61,310!2026-01-06,57,310!2026-01-15,64,310!2026-01-12,62,310!2026-01-10,60,310!2026-01-04,55,310!2026-01-07,58,310!2026-01-04,55,310!2026-01-10,60,310!2026-01-05,56,310!2026-01-16,65,310!2026-01-16,65,310-->
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-01-17,66,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-03,54,310!2026-01-03,54,310!2026-01-11,61,310!2026-01-06,57,310!2026-01-15,64,310!2026-01-12,62,310!2026-01-10,60,310!2026-01-04,55,310!2026-01-07,58,310!2026-01-04,55,310!2026-01-10,60,310!2026-01-05,56,310!2026-01-16,65,310!2026-01-16,65,310-->
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!2026-01-08,58,310!2026-01-06,57,310!2026-01-12,62,310!2026-01-09,59,310-->
 
@@ -105,7 +105,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 ### list methods
 
-Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked‑list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-01-17,66,310!2026-01-03,54,310!2026-01-04,55,310!2026-01-05,56,310!2026-01-06,57,310!2026-01-13,63,310!2026-01-03,54,310!2026-01-14,63,310-->
+Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-01-17,66,310!2026-01-03,54,310!2026-01-04,55,310!2026-01-05,56,310!2026-01-06,57,310!2026-01-13,63,310!2026-01-03,54,310!2026-01-14,63,310-->
 
 > [!example] __list construction__
 >
@@ -137,7 +137,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2026-01-16,65,310!2026-01-12,62,310!2026-01-11,61,310!2026-01-15,64,310!2026-01-18,67,310!2026-01-05,56,310!2026-01-16,65,310-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out‑of‑range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-01-18,67,310!2026-01-07,58,310!2026-01-14,63,310!2025-12-21,43,290!2026-01-17,66,310!2026-01-07,58,310!2026-01-05,56,310!2026-01-05,56,310!2026-01-16,65,310-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-01-18,67,310!2026-01-07,58,310!2026-01-14,63,310!2025-12-21,43,290!2026-01-17,66,310!2026-01-07,58,310!2026-01-05,56,310!2026-01-05,56,310!2026-01-16,65,310-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-01-06,57,310!2026-01-09,59,310!2026-01-04,55,310!2026-01-08,58,310-->
 
@@ -194,7 +194,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!2026-01-13,63,310!2026-01-10,60,310-->
 
-Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear‑time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-01-12,62,310!2026-01-03,54,310!2026-01-10,60,310!2026-01-05,56,310!2026-01-06,57,310-->
+Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-01-12,62,310!2026-01-03,54,310!2026-01-10,60,310!2026-01-05,56,310!2026-01-06,57,310-->
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}: <!--SR:!2026-01-16,65,310!2026-01-05,56,310-->
 
@@ -316,11 +316,11 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >
 > In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2026-01-26,74,330!2026-01-24,72,330!2025-12-13,35,290!2026-01-27,75,330!2026-01-25,73,330-->
 
-In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!2026-01-18,67,310!2026-01-14,63,310!2026-01-22,70,330!2026-01-27,75,330!2026-01-28,76,330-->
+In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained: <!--SR:!2026-01-18,67,310!2026-01-14,63,310!2026-01-22,70,330!2026-01-27,75,330!2026-01-28,76,330-->
 
 > [!example] __`pack` example__
 >
-> Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained:
+> Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained:
 >
 > ```Scala
 > def encode[T](xs: List[T]): List[(T, Int)] =
@@ -402,11 +402,11 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 >
 > {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2026-01-22,70,330!2025-12-24,46,310!2026-01-26,74,330!2026-01-25,73,330-->
 
-{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2026-01-06,57,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-24,72,330!2026-01-26,74,330-->
+{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2026-01-06,57,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-24,72,330!2026-01-26,74,330-->
 
 > [!example] __`foldLeft` example__
 >
-> For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
+> For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
 >
 > ```Scala
 > def reverse[T](xs: List[T]): List[T] =
@@ -416,7 +416,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly‑linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32‑element blocks}@}; this design gives {@{roughly logarithmic‑time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-01-07,58,310!2026-01-07,58,310!2026-01-18,67,310!2026-01-12,62,310!2026-01-13,63,310!2026-01-06,57,310!2026-01-03,54,310!2026-01-04,55,310!2026-01-04,55,310!2026-01-07,58,310!2026-01-16,65,310-->
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-01-07,58,310!2026-01-07,58,310!2026-01-18,67,310!2026-01-12,62,310!2026-01-13,63,310!2026-01-06,57,310!2026-01-03,54,310!2026-01-04,55,310!2026-01-04,55,310!2026-01-07,58,310!2026-01-16,65,310-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!2026-01-03,54,310-->
 
@@ -468,7 +468,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 > ```
 <!--SR:!2026-01-03,54,310-->
 
-Because ranges are {@{lazy and small}@}, they provide {@{constant‑time `contains`, `head`, `last` and indexing}@}. <!--SR:!2026-01-16,65,310!2026-01-12,62,310-->
+Because ranges are {@{lazy and small}@}, they provide {@{constant-time `contains`, `head`, `last` and indexing}@}. <!--SR:!2026-01-16,65,310!2026-01-12,62,310-->
 
 ## sequence methods
 
@@ -478,11 +478,11 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `forall(p)` ::@:: Returns `true` only if every element satisfies `p`. For empty sequences it returns `true`. <!--SR:!2026-01-09,59,310!2026-01-08,58,310-->
 - `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length. <!--SR:!2026-01-15,64,310!2026-01-16,65,310-->
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-01-12,62,310!2026-01-04,55,310-->
-- `flatMap(f)` ::@:: Applies a collection‑valued function to each element and concatenates the results. <!--SR:!2026-01-10,60,310!2026-01-04,55,310-->
+- `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results. <!--SR:!2026-01-10,60,310!2026-01-04,55,310-->
 - `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!2026-01-11,61,310!2026-01-16,65,310-->
 - `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!2026-01-06,57,310!2026-01-18,67,310-->
 
-These operations are typically implemented via {@{recursion or tail‑recursion}@} over {@{the underlying list structure}@}. <!--SR:!2026-01-16,65,310!2026-01-17,66,310-->
+These operations are typically implemented via {@{recursion or tail-recursion}@} over {@{the underlying list structure}@}. <!--SR:!2026-01-16,65,310!2026-01-17,66,310-->
 
 > [!example] __combinations__
 >
@@ -497,7 +497,7 @@ These operations are typically implemented via {@{recursion or tail‑recursion}
 
 > [!example] __scalar product__
 >
-> Given {@{two numeric vectors of equal length}@}, {@{their scalar product}@} is {@{the sum of element‑wise products}@}. In Scala this can be expressed concisely:
+> Given {@{two numeric vectors of equal length}@}, {@{their scalar product}@} is {@{the sum of element-wise products}@}. In Scala this can be expressed concisely:
 >
 > ```Scala
 > def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
