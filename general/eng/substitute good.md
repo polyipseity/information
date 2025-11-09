@@ -87,7 +87,7 @@ Imperfect substitutes have {@{a low cross-elasticity of demand}@}. If {@{two bra
 
 ### gross and net substitutes
 
-If {@{two goods are imperfect substitutes}@}, economists can {@{distinguish them as gross substitutes or net substitutes}@}. Good $x_{j}$ is {@{a __gross substitute__ for good $x_{i}$ if, when the price of good $x_{i}$ increases, spending on good $x_{j}$ increases}@}, as described above. Gross substitutability is {@{not a symmetric relationship}@}. Even if {@{$x_{j}$ is a gross substitute for $x_{i}$}@}, it {@{may not be true that $x_{i}$ is a gross substitute for $x_{j}$}@}. <!--SR:!2028-09-22,1092,350!2029-01-06,1178,350!2026-01-30,347,350!2029-01-05,1177,350!2028-06-17,941,330-->
+If {@{two goods are imperfect substitutes}@}, economists can {@{distinguish them as gross substitutes or net substitutes}@}. Good $x_{j}$ is {@{a __gross substitute__ for good $x_{i}$ if, when the price of good $x_{i}$ increases, spending on good $x_{j}$ increases}@}, as described above. Gross substitutability is {@{not a symmetric relationship}@}. Even if {@{$x_{j}$ is a gross substitute for $x_{i}$}@}, it {@{may not be true that $x_{i}$ is a gross substitute for $x_{j}$}@}. <!--SR:!2028-09-22,1092,350!2029-01-06,1178,350!2026-01-30,347,350!2029-01-05,1177,350!2028-06-17,941,330!2025-11-13,5,362-->
 
 {@{Two goods}@} are {@{__net substitutes__}@} when {@{the demand for good X increases when the price of good Y increases}@} and {@{the utility derived from the substitute remains constant}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2028-12-05,1151,350!2026-03-16,130,395!2026-03-17,131,395!2026-03-17,131,395-->
 

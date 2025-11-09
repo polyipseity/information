@@ -147,7 +147,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363-->
+> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363!2025-11-13,4,344!2025-11-13,4,344-->
 
 <!-- markdownlint MD028 -->
 
@@ -157,7 +157,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!2026-10-23,717,323!2026-11-08,727,323-->
+> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!2026-10-23,717,323!2026-11-08,727,323!2025-11-13,4,344!2025-11-13,4,344-->
 
 ## references
 

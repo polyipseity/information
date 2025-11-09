@@ -20,7 +20,7 @@ tags:
 > where
 >
 > - {@{$a, b, c$}@} are {@{the sides of a [triangle](triangle.md)}@}
-> - {@{$\gamma$}@} is {@{the angle opposite to side $c$}@} <!--SR:!2026-02-16,545,310!2027-10-31,1094,350-->
+> - {@{$\gamma$}@} is {@{the angle opposite to side $c$}@} <!--SR:!2026-02-16,545,310!2027-10-31,1094,350!2025-11-13,4,288!2025-11-13,4,288!2025-11-13,4,288-->
 
 ## references
 
