@@ -91,7 +91,7 @@ Associations of {@{different degree}@} are {@{drawn differently}@}. An associati
 
 ### association multiplicity
 
-{@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity–relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}.
+{@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity—relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}.
 
 To {@{specify multiplicity}@}, specify {@{the _minimum cardinality_ \(min count\) and _maximum cardinality_ \(max count\)}@} on {@{the _other_ class \(not the _current_ class\)}@}. Both are {@{inclusive}@}. {@{_Cardinality_}@} can be {@{any _nonnegative_ integer}@}, or {@{the special wildcard `*` representing infinity}@}. Then, write it using {@{`<min card>..<max card>`}@}. There are {@{shorthands for some multiplicities}@} for {@{`1..` and `0..*`}@}:
 
@@ -281,9 +281,9 @@ For {@{each identified actor}@}, ask: {@{What roles do they play during interact
 
 Below is an example of {@{_roles_ \(actor _description_\) in a course registration system}@}:
 
-- course registration system, student – ::@:: enrolls, selects alternatives, changes schedule.
-- course registration system, instructor – ::@:: declares teaching assignments, views enrollments.
-- course registration system, billing system – ::@:: external system that receives registration data to bill students.
+- course registration system, student ::@:: — enrolls, selects alternatives, changes schedule.
+- course registration system, instructor ::@:: — declares teaching assignments, views enrollments.
+- course registration system, billing system ::@:: — external system that receives registration data to bill students.
 
 {@{Actors}@} are represented by {@{_stick figures_ with annotating text showing their _names_}@}.
 
@@ -348,9 +348,9 @@ Preconditions serve to keep {@{each use-case description independent of others}@
 
 {@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step-by-step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface → instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\)
 
-- Optional behavior ::@:: – Actions that may occur _in addition_ to the normal flow but are not required for completion.
-- Variant behavior ::@:: – A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop-up informs the user and jumps to "SelectCourse".
-- Exceptional behavior ::@:: – Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm".
+- Optional behavior ::@:: — Actions that may occur _in addition_ to the normal flow but are not required for completion.
+- Variant behavior ::@:: — A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop-up informs the user and jumps to "SelectCourse".
+- Exceptional behavior ::@:: — Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm".
 
 From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points; typically inclusive, but best to specify)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}.
 
@@ -430,6 +430,127 @@ When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into ov
 
 To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}.
 
+## analysis models
+
+{@{The analysis phase}@} of a software project often expands {@{the number of conceptual classes by up to five times compared with earlier stages}@}. In this phase, analysis focuses on {@{functional requirements only}@}; {@{implementation details}@} such as {@{programming‑language types or UI layouts}@} are {@{deliberately omitted}@}.
+
+{@{Class descriptions}@} are {@{intentionally kept abstract and independent}@} of {@{any specific programming language or implementation framework}@}. {@{Attribute types}@} describe {@{real‑world concepts rather than concrete data types}@}; {@{behavior}@} is captured through {@{textual responsibilities instead of method signatures}@}, and {@{relationships between classes}@} are defined in terms of {@{conceptual associations, not low‑level references}@}.
+
+### analysis classes
+
+{@{An analysis class}@} can be {@{one of three stereotypes}@}: {@{_boundary_, _control_, or _entity_}@}. {@{Each stereotype}@} represents {@{a distinct aspect of the system}@} and guides {@{later design decisions}@}.
+
+- boundary classes ::@:: model interactions with actors
+- entity classes ::@:: encapsulate long‑lived domain data
+- control classes ::@:: coordinate behaviour that does not naturally belong to either boundary or entity
+
+{@{Partitioning a use case}@} distributes {@{responsibilities across boundary, entity and control classes}@}. {@{Boundary classes}@} handle {@{environment and external interaction}@}, {@{entity classes}@} manage {@{data storage and processing}@}, and {@{control classes}@} implement {@{the specific logic of the use case}@}. {@{This separation}@} facilitates {@{localization of changes and improves maintainability}@} by resulting in {@{a stable system}@}. In practice, we need to {@{make many judgement calls}@} to {@{place the functionalities in their best places}@}. {@{_Design patterns_}@} can help with this.
+
+#### boundary classes
+
+{@{A boundary class}@} models {@{interactions between the system and actors}@}. It abstracts {@{user interface elements}@} such as {@{windows, forms or device interfaces}@}. {@{Its description}@} remains at {@{a high conceptual level}@}; it does not {@{detail individual buttons or menu items}@}.
+
+It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<boundary>>`}@}; second, it can appear as {@{a circle with an `T` shape extending outward \(typically leftward\)}@}, looking like {@{a push button on a circle}@}. \(__this course__: Use {@{the second way}@}.\)
+
+{@{Boundary classes}@} are derived from {@{use‑case descriptions}@} by beginning with {@{the actors}@} and determining {@{what forms, windows or messages}@} they require to {@{interact with the system}@}. The focus is on {@{functional elements}@}—{@{data entry and response}@}—not on {@{visual layout details}@}. When {@{naming and describing these interfaces}@}, practitioners should adopt {@{the terminology that users themselves employ}@}, ensuring the model remains {@{close to real‑world language and user expectations}@}.
+
+When {@{specifying boundaries class for a model}@}, begin by creating {@{a single boundary object for every actor—use case combination}@}. For {@{human actors}@} this object represents {@{the main user‑interface window through which they interact with the system}@}, while for {@{non‑human or external system actors}@} it stands for {@{the communication endpoint that connects to those systems}@}. {@{This one‑to‑one mapping}@} keeps {@{boundary responsibilities focused and simplifies later refinement}@}. If possible, {@{reuse the same boundary object}@} for an actor, e.g. {@{the boundary object `ProfessorUI` for the actor `Professor`}@}.
+
+{@{Boundary objects}@} interact {@{only with control objects and actors}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in the system interface}@}. {@{Actors}@} interact {@{only with boundary objects}@}. These result in a {@{well structured and maintainable}@} system.
+
+#### entity classes
+
+{@{Entity classes}@} model {@{long-lived and often persistent information}@}. They represent {@{real‑world concepts}@} such as {@{people, events, courses, or departments}@}. They are treated as {@{dynamic objects within the analysis model}@} but typically correspond to {@{persistent data stored in a database}@}.
+
+It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<entity>>`}@}; second, it can appear as {@{a circle with an underline under it}@}. \(__this course__: Use {@{the second way}@}.\)
+
+To {@{specify entity classes for a model}@}, dissect {@{each use‑case scenario}@} and asking {@{which domain entities must participate in that flow}@}. By tracing {@{the steps of a scenario}@}—such as {@{retrieving data, performing calculations or persisting results}@}—you can pinpoint {@{the concrete entity classes}@} that are {@{necessary to fulfil the use case's responsibilities}@}. \(e.g. {@{`Course`, `CourseOffering`, and `Professor`}@} in {@{a course registration system}@}\) The process is somewhat similar to {@{constructing a domain model}@}.
+
+{@{Entity objects}@} interact {@{only with control objects}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in information}@}. These result in a {@{well structured and maintainable}@} system.
+
+#### control classes
+
+{@{A control class}@} models {@{control, coordination, sequencing, or transactions}@} for {@{one or more use cases}@}. It typically has {@{no direct counterpart in the application domain}@}; instead, it provides {@{the "glue" tieing other classes together in one or more use cases}@}. It may represent {@{control specific to use case}@} or {@{business logic}@} \(e.g. {@{calculations, complex derivations}@}\). {@{Each control object}@} should be {@{tied to at most one actor}@} to {@{localize changes to business or control logic}@}.
+
+It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<control>>`}@}; second, it can appear as {@{a circle with an arrowhead pointing to the left overlapping on the top edge of the circle}@}. \(__this course__: Use {@{the second way}@}.\)
+
+To {@{specify control classes for a model}@}, start by creating {@{a single control object for every actor—use case pair}@}, assigning it the task of {@{steering the sequence of events that realize the use case}@}, e.g. {@{`SelectCoursesToTeachMgr`}@} in {@{a course registration system}@}. If {@{the logic is intricate}@}, {@{split the responsibilities}@} across {@{several control objects}@}; conversely, {@{simple or overlapping flows}@} may be {@{merged to avoid redundancy}@}. Importantly, {@{each control object}@} should {@{belong to no more than one actor}@}—this restriction {@{isolates changes and keeps the system's behaviour tightly scoped}@} to {@{the actor that initiated it}@}.
+
+{@{Control objects}@} interact {@{with boundary, entity, and other control objects}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in business or control logic}@}. These result in a {@{well structured and maintainable}@} system.
+
+## design models
+
+{@{The analysis phase}@} establishes {@{a conceptual model}@} using {@{boundary, entity, and control classes}@}, while {@{the design phase}@} translates {@{this model into concrete implementation classes}@}.
+
+{@{Clear separation of concerns, low coupling, high cohesion}@}, {@{active‑class identification, and adherence to SOLID principles}@} help produce {@{a robust, maintainable system}@} that can {@{adapt to evolving requirements}@}.
+
+### design classes
+
+{@{A _design class_}@} is {@{a fully specified component}@} that has been {@{completed to the point where it can be translated directly into code}@}. It represents {@{a problem‑domain concept \(analysis\) whose behavior and interface have been completely defined}@}, enabling developers to {@{implement it using solution‑domain (technology) classes}@}. Design classes form {@{the core of the system's architecture}@} and serve as {@{the blueprint for subsequent implementation phases}@}.
+
+{@{Boundary classes}@} are determined by {@{the choice of user‑interface or communication technologies}@}. They act as {@{the system's interface layer}@}, translating {@{external input into internal data structures}@} and presenting {@{output back to users or other systems}@}. By {@{encapsulating UI logic}@}, boundary classes keep {@{presentation concerns separate from business rules}@}.
+
+{@{Entity classes}@} are determined by {@{the choice of technology for data persistence and management}@}. These classes model {@{domain objects that correspond to database tables or other storage mechanisms}@}. They contain {@{attributes and basic operations}@} required for {@{CRUD (create‑read‑update‑delete) interactions}@}, thereby bridging {@{the gap between in‑memory representations and durable storage}@}.
+
+{@{Control classes}@} are determined by {@{system behavior across multiple concerns}@} such as {@{distribution, performance, and transactions}@}. They determine whether {@{a separate design class}@} is {@{necessary on each node}@}, decide when to {@{merge with boundary classes for efficiency}@}, and enforce {@{transaction management}@}.
+
+In practice, {@{design classes}@} are described by {@{the syntax of the programming language}@}. When {@{refining an analysis model into design model}@} you should perform these activities: \(annotation: 4 items: {@{reuse, complete, restructure, optimize}@}\)
+
+- _select reusable components_ ::@:: — choose class libraries and design patterns that can be leveraged across the system.
+- _complete the specification_ ::@:: — add attributes, associations, operations, types, visibility, and constraints; identify which classes are active (i.e., perform behavior).
+- _restructure the design model_ ::@:: — introduce new associations and use inheritance to increase reuse among related classes.
+- _optimize the design model_ ::@:: — revise access paths, collapse redundant classes, and apply caching or lazy evaluation to improve performance.
+
+### active classes
+
+An active class owns its own thread of control and is usually either a boundary or a control class. It is identified by performance, throughput or availability requirements, or when distribution across multiple nodes is required. Active classes are shown with a thicker border in diagrams to distinguish them from passive ones.
+
+{@{An _active class_}@} runs {@{its own thread of control}@} and is typically a {@{boundary or control class}@}. They are shown with {@{_a thicker border_ in class diagrams}@} to {@{distinguish them from passive ones}@}. It is identified by {@{performance, throughput or availability requirements}@}; when {@{distribution across multiple nodes}@} is required; or {@{other requirements}@}.
+
+- performance, throughput, availability ::@:: e.g., real‑time input handling may require a dedicated active object for fast response
+- system distribution ::@:: e.g., one active object per node and additional objects for inter‑node communication enable distributed operation
+- other requirements ::@:: Some require an active object capable of initiating or monitoring activity, e.g., system startup/termination, liveness guarantees, deadlock or starvation avoidance, dynamic reconfiguration of nodes, managing connection capacity, etc,
+
+## cohesion and coupling
+
+In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely coupled_ classes}@}, balancing {@{these often competing goals}@}. {@{The 7±2 rule}@} guides {@{acceptable coupling}@}. The rule—originating from {@{cognitive psychology's limits on working‑memory capacity}@}—suggests that {@{a class or component}@} should expose {@{no more than seven (plus or minus two) other classes, modules, or interfaces}@}.
+
+{@{_Cohesion_}@} measures {@{how many distinct responsibilities a class bears}@}; {@{the most cohesive design}@} is {@{one that performs a single, well‑defined function}@}. {@{_Coupling_}@} {@{counts and categorizes a class's dependencies on others}@}; {@{minimal, simple connections}@} yield {@{the lowest coupling}@}, reducing {@{interclass interference and enhancing maintainability}@}.
+
+### cohesion
+
+{@{The spectrum of cohesion}@} ranges from classes that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well‑defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal &lt; procedural &lt; communicational &lt; sequential &lt; functional}@}\)
+
+1. __Coincidental__ ::@:: — the class has no discernible function.
+2. __Logical__ ::@:: — it groups several related but distinct responsibilities.
+3. __Temporal__ ::@:: — its operations are bundled together simply because they occur at the same time.
+4. __Procedural__ ::@:: — methods must be executed in a specific sequence.
+5. __Communicational__ ::@:: — all operations work on the same data stream or structure.
+6. __Sequential__ ::@:: — the output of one operation feeds directly into another within the class.
+7. __Functional__ ::@:: — the class has one clear, singular responsibility.
+
+### coupling
+
+{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. \(annotation: 7 items: {@{no direct &lt; data &lt; stamp &lt; control &lt; external &lt; common &lt; content}@}\)
+
+1. __No direct__ ::@:: — classes have no relationship.
+2. __Data__ ::@:: — classes communicate solely through primitive data or simple value objects (ideal).
+3. __Stamp__ ::@:: — a fragment of a larger structure is passed as an argument.
+4. __Control__ ::@:: — decision‑making information such as flags or switches is shared.
+5. __External__ ::@:: — both classes rely on external environment resources.
+6. __Common__ ::@:: — multiple classes share a global data area or singleton.
+7. __Content__ ::@:: — one class accesses the internal data or control information of another (to be avoided).
+
+### SOLID principles
+
+{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object‑oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution, interface segregation, dependency inversion}@}\)
+
+- _Single Responsibility Principle_ ::@:: Each class has one responsibility.
+- _Open—Closed Principle_ ::@:: Classes accept extension but resist modification.
+- _Liskov Substitution Principle_ ::@:: Subclasses must be substitutable for superclasses.
+- _Interface Segregation Principle_ ::@:: Clients should not depend on unused interfaces.
+- _Dependency Inversion Principle_ ::@:: High‑level modules should _not_ depend on low-level modules. Both should depend on abstractions. Further, details should depend on abstractions, not the reverse.
+
 ## common mistakes
 
 There are {@{many possible mistakes}@} when {@{learning to draw UML diagrams}@}. Here describes {@{some of the most common ones}@}.
@@ -458,7 +579,7 @@ When {@{two instances of the same class are linked}@}, i.e. {@{_unary_ associati
 
 Many students think that once {@{a class diagram is complete}@}, it can be {@{directly turned into code with little modification}@}. This misconception leads to {@{diagrams that are too fine-grained}@} (e.g., {@{modeling every private field}@}) or omit {@{necessary abstraction layers}@}. Remember that UML models should capture {@{essential structure and behavior at the appropriate level of abstraction}@}; {@{refine or abstract}@} as needed before {@{mapping to implementation}@}.
 
-An example involves treating {@{internal object identifiers (OIDs)}@} as {@{regular attributes}@} and then using {@{those same attributes}@} to {@{represent relationships}@} – for example, {@{`personID`, `vehicleID`, `loanID`, `ownerID`, etc.}@} {@{Other attributes}@} that are {@{internal details}@} include {@{"type" attributes associated with relationships}@}, e.g. {@{`customerType`, `ownerID`, etc.}@} When students {@{simply copy these attributes into their diagrams}@} they create {@{unnecessary data fields}@} that clutter {@{the model}@} and hide {@{the true cardinality of relationships}@}. The root cause is a misunderstanding that identifiers are {@{always required in the diagram}@}; in reality they belong to {@{the underlying database implementation}@}, not {@{the conceptual model}@}. The fix is straightforward: remove {@{all OID attributes from the class diagram}@}, replace {@{each with an association to the appropriate target class}@}, and then annotate {@{the association with the correct multiplicity}@} (e.g., {@{a `Person` or `Company`}@} "owns" {@{zero or more `Car`s}@}). This keeps the diagram {@{focused on structural relationships}@} rather than {@{persistence details}@}.
+An example involves treating {@{internal object identifiers (OIDs)}@} as {@{regular attributes}@} and then using {@{those same attributes}@} to {@{represent relationships}@} — for example, {@{`personID`, `vehicleID`, `loanID`, `ownerID`, etc.}@} {@{Other attributes}@} that are {@{internal details}@} include {@{"type" attributes associated with relationships}@}, e.g. {@{`customerType`, `ownerID`, etc.}@} When students {@{simply copy these attributes into their diagrams}@} they create {@{unnecessary data fields}@} that clutter {@{the model}@} and hide {@{the true cardinality of relationships}@}. The root cause is a misunderstanding that identifiers are {@{always required in the diagram}@}; in reality they belong to {@{the underlying database implementation}@}, not {@{the conceptual model}@}. The fix is straightforward: remove {@{all OID attributes from the class diagram}@}, replace {@{each with an association to the appropriate target class}@}, and then annotate {@{the association with the correct multiplicity}@} (e.g., {@{a `Person` or `Company`}@} "owns" {@{zero or more `Car`s}@}). This keeps the diagram {@{focused on structural relationships}@} rather than {@{persistence details}@}.
 
 ### common mistakes: association class
 
