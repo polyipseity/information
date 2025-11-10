@@ -51,7 +51,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}. Its syntax is {@{writing the property inside curly brackets `{}`}@}, i.e. {@{`{readOnly}`}@}, e.g. {@{`account: Account {readonly}`}@}.
 
-{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> <multiplicity> <mutability> = <initial value>`}@}, e.g. {@{`+accounts: Account [0..10] {readOnly} = []`}@}.
+{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> <multiplicity> <mutability> = <initial value>`}@}, e.g. {@{`+ accounts: Account [0..10] {readOnly} = []`}@}.
 
 ## operations
 

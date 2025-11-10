@@ -26,6 +26,8 @@ tags:
 > where
 >
 > - {@{$R_\mathrm{val}$}@} is {@{the ___R_-value__ of a barrier}@} that has {@{[heat flux](heat%20flux.md) of $\phi_q$ through it when exposed to a [temperature](temperature.md) difference of $\Delta T$}@}
+>
+> Thus {@{a higher _R_-value}@} implies {@{better insulation}@}.
 
 ## references
 
