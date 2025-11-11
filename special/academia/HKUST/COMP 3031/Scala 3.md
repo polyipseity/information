@@ -1308,7 +1308,7 @@ Examples of fully qualified names:
 
 ## runtime
 
-Scala runs on {@{the Java Virtual Machine \(JVM\)}@}, which {@{provides platform independence and access to a vast ecosystem of Java libraries}@}. Scala {@{code is compiled into Java bytecode}@}, allowing {@{seamless interoperability with Java code}@}.
+Scala runs on {@{the Java Virtual Machine \(JVM\)}@}, which {@{provides platform independence and access to a vast ecosystem of Java libraries}@}. Scala code is {@{compiled into Java bytecode}@}, allowing {@{seamless interoperability with Java code}@}.
 
 ### dynamic binding
 

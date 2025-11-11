@@ -195,7 +195,7 @@ For a more sophisticated example: $${\begin{aligned}&\phi :\mathbb {R} ^{4}\to \
 
 If {@{_f_\(_x_<sub>1</sub>, …, _x<sub>n</sub>_\) is such a complex valued function}@}, it may be {@{decomposed as $$f(x_{1},\ldots ,x_{n})=g(x_{1},\ldots ,x_{n})+ih(x_{1},\ldots ,x_{n}),$$}@} where {@{_g_ and _h_ are real-valued functions}@}. In other words, {@{the study of the complex valued functions}@} {@{reduces easily to the study of the pairs of real valued functions}@}.
 
-This reduction {@{works for the general properties}@}. However, for {@{an explicitly given function}@}, such as: $$z(x,y,\alpha ,a,q)={\frac {q}{2\pi } }\left[\ln \left(x+iy-ae^{i\alpha }\right)-\ln \left(x+iy+ae^{-i\alpha }\right)\right]$$ {@{the computation of the real and the imaginary part may be difficult}@}.
+This reduction {@{works for the general properties}@}. However, for {@{an explicitly given function}@}, such as: $$z(x,y,\alpha ,a,q)={\frac {q}{2\pi } }\left[\ln \left(x+iy-ae^{i\alpha }\right)-\ln \left(x+iy+ae^{-i\alpha }\right)\right]$$ {@{the computation of the real and the imaginary part}@} may {@{be difficult}@}.
 
 ## applications
 

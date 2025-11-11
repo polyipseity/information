@@ -11,9 +11,9 @@ tags:
 
 In [microeconomics](microeconomics.md), __substitute goods__ are {@{two goods that can be used for the same purpose by consumers}@}.<sup>[\[1\]](#^ref-1)</sup> That is, {@{a [consumer](consumer.md) perceives both goods as similar or comparable}@}, so that {@{having more of one good causes the consumer to desire less of the other good}@}. Contrary to {@{[complementary goods](complementary%20good.md) and [independent goods](independent%20goods.md)}@}, substitute goods may {@{replace each other in use due to changing economic conditions}@}.<sup>[\[2\]](#^ref-2)</sup> An example of substitute goods is {@{[Coca-Cola](Coca-Cola.md) and [Pepsi](Pepsi.md)}@}; the interchangeable aspect of these goods is due to {@{the similarity of the purpose they serve, i.e. fulfilling customers' desire for a soft drink}@}. These types of substitutes can be referred to as {@{close substitutes}@}.<sup>[\[3\]](#^ref-3)</sup>
 
-Substitute goods are {@{commodity which the consumer demanded to be used in place of another good}@}.
+{@{Substitute goods}@} are {@{commodity}@} which the consumer {@{demanded to be used in place of another good}@}.
 
-Economic theory describes {@{two goods as being close substitutes if three conditions hold}@}:<sup>[\[3\]](#^ref-3)</sup>
+{@{Economic theory}@} describes {@{two goods as being close substitutes if three conditions hold}@}:<sup>[\[3\]](#^ref-3)</sup> \(annotation: 3 items: {@{same or similar performance, same or similar occasion, same geographic area}@}\)
 
 1. products have the same or similar performance ::@:: characteristics
 2. products have the same or similar occasion ::@:: for use and

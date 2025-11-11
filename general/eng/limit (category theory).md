@@ -190,7 +190,7 @@ For {@{a given diagram _F_ : _J_ → _C_ and functor _G_ : _C_ → _D_}@}, if {@
 
 {@{A functor _G_ __lifts limits uniquely__ for a diagram _F_}@} if {@{there is a unique preimage cone \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) such that \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) is a limit of _F_ and _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\) \(annotation: "unique" means there can be multiple preimage cones, and _exactly_ one is a limit\)}@}. One can show that {@{_G_ lifts limits uniquely if and only if it lifts limits and is [amnestic](amnestic%20functor.md)}@} \(annotation: that is, {@{if _Ff_ is an identity morphism then _f_ is an identity morphism}@}\).
 
-Lifting of limits is clearly {@{related to preservation of limits}@}. If {@{_G_ lifts limits for a diagram _F_ and _GF_ has a limit}@}, then {@{_F_ also has a limit and _G_ preserves the limits of _F_ (annotation: note that limits are essentially unique up to unique isomorphisms)}@}. It follows that:
+{@{Lifting of limits}@} is clearly {@{related to preservation of limits}@}. If {@{_G_ lifts limits for a diagram _F_ and _GF_ has a limit}@}, then {@{_F_ also has a limit and _G_ preserves the limits of _F_}@}. \(annotation: note that {@{limits}@} are {@{essentially unique up to unique isomorphisms}@}.\) It follows that:
 
 - If _G_ lifts limits of all shape _J_ and _D_ has all limits of shape _J_, ::@:: then _C_ also has all limits of shape _J_ and _G_ preserves these limits.
 - If _G_ lifts all small limits and _D_ is complete, ::@:: then _C_ is also complete and _G_ is continuous.
