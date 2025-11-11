@@ -33,6 +33,8 @@ tags:
 - [quiz 12](quiz%2012.md)
 - [quiz 13](quiz%2013.md)
 - [quiz 14](quiz%2014.md)
+- [quiz 15](quiz%2015.md)
+- [quiz 16](quiz%2016.md)
 
 ## week 1 lecture
 
