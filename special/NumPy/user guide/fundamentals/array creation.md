@@ -64,7 +64,7 @@ unsigned c: [4294967293 4294967293 4294967293] uint32
 signed c: [-3 -3 -3] int64
 ```
 
-Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will assign {@{a new type that satisfies all of the array elements involved in the computation}@}, here {@{`uint32` and `int32`}@} can both be {@{represented in as `int64`}@}. <!--SR:!2029-05-30,1300,350!2026-01-02,335,350!2029-07-05,1329,350!2026-03-11,139,310!2025-11-21,25,385!2025-11-21,25,385-->
+Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will assign {@{a new type that satisfies all of the array elements involved in the computation}@}, here {@{`uint32` and `int32`}@} can both be {@{represented in as `int64`}@}. <!--SR:!2029-05-30,1300,350!2026-01-02,335,350!2029-07-05,1329,350!2026-03-11,139,310!2026-03-31,130,405!2026-04-01,131,405-->
 
 The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}. <!--SR:!2026-01-10,341,350!2029-06-02,1302,350!2026-01-03,335,350-->
 
@@ -279,7 +279,7 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 
 ### standard binary formats
 
-{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} \(there may be {@{others for which it is possible to read and convert to NumPy arrays}@} so check {@{the last section}@} as well\) <!--SR:!2029-02-11,1215,350!2026-01-22,351,350!2029-06-12,1310,350!2029-07-16,1338,350!2025-11-14,5,370-->
+{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} \(there may be {@{others for which it is possible to read and convert to NumPy arrays}@} so check {@{the last section}@} as well\) <!--SR:!2029-02-11,1215,350!2026-01-22,351,350!2029-06-12,1310,350!2029-07-16,1338,350!2025-12-17,26,390-->
 
 - HDF5 ::@:: h5py <!--SR:!2026-01-07,339,350!2029-06-19,1317,350-->
 - FITS ::@:: Astropy <!--SR:!2027-12-08,851,330!2025-12-22,324,350-->

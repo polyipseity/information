@@ -33,7 +33,7 @@ In most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md), wa
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md), typically in [centimeters](centimetre.md) \(cm\)}@} <!--SR:!2027-04-30,927,330!2027-12-08,1128,350!2025-11-13,4,305-->
+> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md), typically in [centimeters](centimetre.md) \(cm\)}@} <!--SR:!2027-04-30,927,330!2027-12-08,1128,350!2025-12-09,18,325-->
 
 In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {@{the number of [radians](radian.md) per unit distance. It is sometimes called __angular wavenumber__ (symbol $k$)}@}: <!--SR:!2025-11-25,495,310-->
 
@@ -43,7 +43,7 @@ In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {@{
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md)}@} <!--SR:!2025-12-30,520,310!2027-08-22,1046,350!2025-11-13,4,305-->
+> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md)}@} <!--SR:!2025-12-30,520,310!2027-08-22,1046,350!2025-12-08,17,325-->
 
 ## references
 

@@ -44,7 +44,7 @@ Macroeconomics encompasses {@{a variety of concepts and variables}@}, but {@{abo
 
 > {@{![[Circulation in macroeconomics](circular%20flow%20of%20income.md)](../../archives/Wikimedia%20Commons/Circulation%20in%20macroeconomics.svg)}@}
 >
-> {@{[Circulation in macroeconomics](circular%20flow%20of%20income.md)}@} <!--SR:!2026-04-24,159,310!2025-11-21,47,290-->
+> {@{[Circulation in macroeconomics](circular%20flow%20of%20income.md)}@} <!--SR:!2026-04-24,159,310!2026-05-26,186,310-->
 
 ### time frame
 

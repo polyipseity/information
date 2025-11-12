@@ -15,9 +15,9 @@ When [neutrino detectors](neutrino%20detector.md) became {@{sensitive enough to 
 
 ## resolution
 
-- see: ::@:: [Mikheyev–Smirnov–Wolfenstein effect](Mikheyev–Smirnov–Wolfenstein%20effect.md), [neutrino oscillation](neutrino%20oscillation.md) <!--SR:!2025-11-13,4,306!2025-11-13,4,306-->
+- see: ::@:: [Mikheyev–Smirnov–Wolfenstein effect](Mikheyev–Smirnov–Wolfenstein%20effect.md), [neutrino oscillation](neutrino%20oscillation.md) <!--SR:!2025-12-08,17,326!2025-12-08,17,326-->
 
-{@{The solar neutrino problem}@} was resolved with {@{an improved understanding of the properties of neutrinos}@}. According to {@{the Standard Model of particle physics}@}, there are {@{three flavors of neutrinos}@}: {@{[_electron neutrinos_](electron%20neutrino.md), [_muon neutrinos_](muon%20neutrino.md), and [_tau neutrinos_](tau%20neutrino.md)}@}. {@{Electron neutrinos}@} are {@{the ones produced in the Sun and the ones detected by the above-mentioned experiments}@}, in particular {@{the chlorine-detector Homestake Mine experiment}@}. <!--SR:!2027-08-03,841,330!2029-08-26,1378,310!2025-11-13,4,306!2025-11-13,4,306!2025-11-13,4,306!2025-11-13,4,306!2025-11-13,4,306!2025-11-13,4,306-->
+{@{The solar neutrino problem}@} was resolved with {@{an improved understanding of the properties of neutrinos}@}. According to {@{the Standard Model of particle physics}@}, there are {@{three flavors of neutrinos}@}: {@{[_electron neutrinos_](electron%20neutrino.md), [_muon neutrinos_](muon%20neutrino.md), and [_tau neutrinos_](tau%20neutrino.md)}@}. {@{Electron neutrinos}@} are {@{the ones produced in the Sun and the ones detected by the above-mentioned experiments}@}, in particular {@{the chlorine-detector Homestake Mine experiment}@}. <!--SR:!2027-08-03,841,330!2029-08-26,1378,310!2025-12-07,16,326!2025-12-09,18,326!2025-12-09,18,326!2025-12-07,16,326!2025-12-09,18,326!2025-12-08,17,326-->
 
 Strong evidence for {@{[neutrino oscillation](neutrino%20oscillation.md) came in 1998}@} from the [Super-Kamiokande](Super-Kamiokande.md) collaboration in Japan. <!--SR:!2028-06-26,1029,290-->
 

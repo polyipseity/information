@@ -80,7 +80,7 @@ And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotatio
 - Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2026-04-10,324,290!2027-06-24,686,330-->
 - Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends. <!--SR:!2027-08-27,734,330!2026-09-30,465,310-->
 
-{@{The sum of the three components above}@} will be {@{the total cash flow of a company}@}. <!--SR:!2026-01-20,294,330!2025-11-21,247,330-->
+{@{The sum of the three components above}@} will be {@{the total cash flow of a company}@}. <!--SR:!2026-01-20,294,330!2028-12-19,1124,350-->
 
 ## examples
 

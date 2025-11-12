@@ -79,7 +79,7 @@ For {@{all positive integers _a_ and _b_}@} it holds that <p> {@{$\lambda (\math
 
 ### exponential cycle length
 
-If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the prime factorization $n=p_{1}^{r_{1} }p_{2}^{r_{2} }\cdots p_{k}^{r_{k} }$ of _n_}@}, then {@{for all _a_ \(including those not coprime to _n_\) and all _r_ ≥ _r_<sub>max</sub>, $$a^{r}\equiv a^{\lambda (n)+r}{\pmod {n} }.$$}@} In particular, {@{for [square-free](square-free%20integer.md) _n_ \( _r_<sub>max</sub> = 1\), for all _a_ we have $$a\equiv a^{\lambda (n)+1}{\pmod {n} }.$$}@} <!--SR:!2028-03-01,898,341!2027-03-22,603,321!2025-11-21,239,321-->
+If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the prime factorization $n=p_{1}^{r_{1} }p_{2}^{r_{2} }\cdots p_{k}^{r_{k} }$ of _n_}@}, then {@{for all _a_ \(including those not coprime to _n_\) and all _r_ ≥ _r_<sub>max</sub>, $$a^{r}\equiv a^{\lambda (n)+r}{\pmod {n} }.$$}@} In particular, {@{for [square-free](square-free%20integer.md) _n_ \( _r_<sub>max</sub> = 1\), for all _a_ we have $$a\equiv a^{\lambda (n)+1}{\pmod {n} }.$$}@} <!--SR:!2028-03-01,898,341!2027-03-22,603,321!2028-10-15,1059,341-->
 
 > [!tip] tips
 >
@@ -103,7 +103,7 @@ There, the table entry in row number 26 at column
 
 - % LoL \> ⁠4/5⁠   → 60.49
 
-indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 have {@{_λ_\(_n_\) \> _n_<sup>⁠4/5⁠</sup>}@} meaning that the majority of the _λ_ values is {@{exponential in the length _l_<!-- markdown separator --> := log<sub>2</sub>\(_n_\) of the input _n_}@}, namely {@{$$\left(2^{\frac {4}{5} }\right)^{l}=2^{\frac {4l}{5} }=\left(2^{l}\right)^{\frac {4}{5} }=n^{\frac {4}{5} }.$$}@} <!--SR:!2026-02-01,316,341!2026-10-17,429,270!2025-11-21,75,359-->
+indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 have {@{_λ_\(_n_\) \> _n_<sup>⁠4/5⁠</sup>}@} meaning that the majority of the _λ_ values is {@{exponential in the length _l_<!-- markdown separator --> := log<sub>2</sub>\(_n_\) of the input _n_}@}, namely {@{$$\left(2^{\frac {4}{5} }\right)^{l}=2^{\frac {4l}{5} }=\left(2^{l}\right)^{\frac {4}{5} }=n^{\frac {4}{5} }.$$}@} <!--SR:!2026-02-01,316,341!2026-10-17,429,270!2026-11-30,374,379-->
 
 | _ν_ | _n_ = 2<sup>_ν_</sup> – 1 | sum <br/> $\sum _{i\leq n}\lambda (i)$ | average <br/> ${\tfrac {1}{n} }\sum _{i\leq n}\lambda (i)$ | Erdős average | Erdős /exact average | LoL average | % LoL \> ⁠4/5⁠ | % LoL \> ⁠7/8⁠ |
 | ---:| -------------------------:| --------------------------------------:| ----------------------------------------------------------:| -------------:| --------------------:| -----------:| --------------:| --------------:|

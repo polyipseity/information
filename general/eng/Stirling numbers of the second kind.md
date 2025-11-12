@@ -35,7 +35,7 @@ The notations used on this page for Stirling numbers are {@{not universal, and m
 
 Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2025-12-01,307,330!2025-12-08,313,330!2029-05-31,1301,350!2028-02-29,915,330-->
 
-Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-11-21,299,330!2026-12-01,560,310-->
+Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-08-12,1360,350!2026-12-01,560,310-->
 
 ## table of values
 
@@ -71,9 +71,9 @@ Another recurrence relation is {@{given by $$\left\lbrace {\begin{matrix}n\\k\en
 
 ### simple identities
 
-Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets}@} necessarily means {@{dividing it into one set of size 2 and _n_ − 2 sets of size 1}@}. Therefore we need {@{only pick those two elements}@}; and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty}@}, so {@{2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since we want {@{_unordered_ pairs rather than _ordered_ pairs}@} we {@{divide this last number by 2}@}, giving the result above. <!--SR:!2029-05-12,1286,350!2028-07-22,977,330!2027-09-17,798,330!2027-12-04,862,330!2025-11-26,303,330!2028-01-22,885,330!2025-11-13,4,327!2025-11-13,4,327!2025-11-13,4,327!2025-11-13,4,327-->
+Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets}@} necessarily means {@{dividing it into one set of size 2 and _n_ − 2 sets of size 1}@}. Therefore we need {@{only pick those two elements}@}; and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty}@}, so {@{2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since we want {@{_unordered_ pairs rather than _ordered_ pairs}@} we {@{divide this last number by 2}@}, giving the result above. <!--SR:!2029-05-12,1286,350!2028-07-22,977,330!2027-09-17,798,330!2027-12-04,862,330!2025-11-26,303,330!2028-01-22,885,330!2025-12-10,19,347!2025-12-10,19,347!2025-12-10,19,347!2025-12-10,19,347-->
 
-{@{Another explicit expansion}@} of {@{the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}. <!--SR:!2025-11-13,4,327!2025-11-13,4,327!2025-11-13,4,327-->
+{@{Another explicit expansion}@} of {@{the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}. <!--SR:!2025-12-10,19,347!2025-12-10,19,347!2025-12-10,19,347-->
 
 ### identities
 

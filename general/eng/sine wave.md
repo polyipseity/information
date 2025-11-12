@@ -18,7 +18,7 @@ tags:
 > where
 >
 > - [function](function%20(mathematics).md) properties: {@{$y$}@} is {@{[displacement](displacement%20(geometry).md) at [position](position%20(geometry).md) $x$ and [time](time.md) $t$}@}, and for {@{$\pm$}@}, {@{positive is moving left and negative is moving right}@}
-> - [wave](wave.md) properties: {@{$A$}@} is {@{[amplitude](amplitude.md)}@}, {@{$k$}@} is {@{[angular wavenumber](wavenumber.md)}@}, {@{$\omega$}@} is {@{[angular frequency](angular%20frequency.md)}@}, {@{$\phi$}@} is {@{phase offset}@}, and {@{$D$}@} is {@{equilibrium offset}@} <!--SR:!2026-09-15,746,334!2029-11-06,1607,334!2027-08-27,884,294!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303!2025-11-12,4,303-->
+> - [wave](wave.md) properties: {@{$A$}@} is {@{[amplitude](amplitude.md)}@}, {@{$k$}@} is {@{[angular wavenumber](wavenumber.md)}@}, {@{$\omega$}@} is {@{[angular frequency](angular%20frequency.md)}@}, {@{$\phi$}@} is {@{phase offset}@}, and {@{$D$}@} is {@{equilibrium offset}@} <!--SR:!2026-09-15,746,334!2029-11-06,1607,334!2027-08-27,884,294!2025-12-07,16,323!2025-12-09,18,323!2025-12-07,16,323!2025-12-08,17,323!2025-12-09,18,323!2025-12-07,16,323!2025-12-09,18,323!2025-12-08,17,323!2025-12-08,17,323!2025-12-09,18,323!2025-12-07,16,323!2025-12-08,17,323-->
 
 <!-- markdownlint MD028 -->
 

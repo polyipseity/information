@@ -90,7 +90,7 @@ tags:
 > What is the maximum standard deviation to ensure a process capability index of 2?
 >
 > - solution: {@{0.025&nbsp;cm}@}
-> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2026-03-24,267,330!2025-11-21,170,310-->
+> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2026-03-24,267,330!2027-11-20,729,330-->
 
 <!-- markdownlint MD028 -->
 

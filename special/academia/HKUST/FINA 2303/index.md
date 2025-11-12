@@ -71,7 +71,7 @@ The content is in teaching order.
 - topic: introduction
 - logistics
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. <!--SR:!2026-02-28,283,330!2026-01-29,267,330-->
-  - finance / reasons for studying ::@:: For making decisions that apply to all levels and scales: Choose what supplies? How to raise money? Launch a new product? Produce or outsource production? <!--SR:!2025-11-21,197,310!2027-09-16,715,330-->
+  - finance / reasons for studying ::@:: For making decisions that apply to all levels and scales: Choose what supplies? How to raise money? Launch a new product? Produce or outsource production? <!--SR:!2028-03-15,845,330!2027-09-16,715,330-->
 - thinking aloud paired problem solving \(TAPPS\) ::@:: The _explainer_ explains to the _listener_. The former talks two thirds of the time. The latter seeks clarifications and shares own ideas. <!--SR:!2027-07-16,673,330!2027-06-09,642,330-->
   - thinking aloud paired problem solving \(TAPPS\) / submission ::@:: Submit either hard copy or on Canvas (after class). Submit one copy per group. Write down your answer. Put down names and student IDs of contributing members (2 to 3 members). <!--SR:!2027-08-01,687,330!2026-02-02,271,330-->
 - [finance](../../../../general/finance.md)
@@ -166,7 +166,7 @@ The content is in teaching order.
 - time value of money
   - time value of money / finding number of periods ::@:: $N = \frac {\ln(FV / PV)} {\ln(1 + r)} = \frac {\ln FV - \ln PV} {\ln(1 + r)}$, which has units of period (usually year) <!--SR:!2026-07-17,406,368!2026-07-20,409,368-->
   - time value of money / finding interest rate ::@:: $r = (FV / PV)^{1 / N} - 1$ <!--SR:!2026-06-26,387,368!2026-07-16,405,368-->
-- [rule of 72](../../../../general/rule%20of%2072.md) (or 70 or 69.3) ::@:: How long does it take to double your investment? This rule gives a rough approximation. <p> The rule states, to double your investment, the interest rate per period in _percentage_ multiplied by the number of periods should be approximately 72. <!--SR:!2028-08-06,994,368!2025-11-21,212,348-->
+- [rule of 72](../../../../general/rule%20of%2072.md) (or 70 or 69.3) ::@:: How long does it take to double your investment? This rule gives a rough approximation. <p> The rule states, to double your investment, the interest rate per period in _percentage_ multiplied by the number of periods should be approximately 72. <!--SR:!2028-08-06,994,368!2028-08-31,1014,368-->
 - [questions § week 2 lecture](questions.md#week%202%20lecture)
 - [TAPPS/week 2 lecture](assignments/TAPPS/week%202%20lecture.md)
 - readings: chapter 4

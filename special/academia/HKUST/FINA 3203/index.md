@@ -44,7 +44,7 @@ The content is in teaching order.
 - [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ... <!--SR:!2025-12-01,66,310!2025-11-30,65,310-->
   - derivative / elements ::@:: tradeable item, future act, future act price, future act time <!--SR:!2025-11-30,65,310!2025-11-28,63,310-->
     - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!2026-07-08,233,330!2025-11-27,63,310-->
-    - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2025-11-21,58,310!2025-11-21,58,310-->
+    - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2026-08-02,254,330!2026-08-03,255,330-->
     - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2026-07-29,251,330!2025-11-29,64,310-->
     - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!2026-07-13,237,330!2026-07-19,242,330-->
   - derivative / examples ::@:: exotic option, forward/future, option, etc. <!--SR:!2025-11-26,62,310!2026-07-17,241,330-->

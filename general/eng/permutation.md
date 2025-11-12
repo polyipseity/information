@@ -15,10 +15,10 @@ tags:
 
 In [mathematics](mathematics.md), a __permutation__ of a [set](set%20(mathematics).md) can {@{mean one of two different things}@}: <!--SR:!2029-09-11,1396,350-->
 
-- an arrangement of ::@:: its members in a [sequence](sequence.md) or [linear order](total%20order.md), or <!--SR:!2029-09-22,1405,350!2025-11-21,312,330-->
+- an arrangement of ::@:: its members in a [sequence](sequence.md) or [linear order](total%20order.md), or <!--SR:!2029-09-22,1405,350!2029-10-11,1420,350-->
 - the act or process of ::@:: changing the linear order of an ordered set.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-09-24,1406,350!2029-08-04,1364,350-->
 
-An example of the first meaning is {@{the six permutations (orderings) of the set {1, 2, 3}<!-- flashcard separator -->}@}: written as [tuples](tuple.md), they are {@{(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), and (3, 2, 1)}@}. {@{[Anagrams](anagram.md) of a word whose letters are all different}@} are also permutations: the letters are {@{already ordered in the original word, and the anagram reorders them}@}. {@{The study of permutations of [finite sets](finite%20set.md)}@} is an important topic in {@{[combinatorics](combinatorics.md) and [group theory](group%20theory.md)}@}. <!--SR:!2025-11-21,312,330!2029-09-23,1406,350!2029-09-13,1398,350!2029-09-23,1405,350!2029-09-19,1403,350!2029-10-06,1417,350-->
+An example of the first meaning is {@{the six permutations (orderings) of the set {1, 2, 3}<!-- flashcard separator -->}@}: written as [tuples](tuple.md), they are {@{(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), and (3, 2, 1)}@}. {@{[Anagrams](anagram.md) of a word whose letters are all different}@} are also permutations: the letters are {@{already ordered in the original word, and the anagram reorders them}@}. {@{The study of permutations of [finite sets](finite%20set.md)}@} is an important topic in {@{[combinatorics](combinatorics.md) and [group theory](group%20theory.md)}@}. <!--SR:!2029-10-10,1419,350!2029-09-23,1406,350!2029-09-13,1398,350!2029-09-23,1405,350!2029-09-19,1403,350!2029-10-06,1417,350-->
 
 Permutations are used in {@{almost every branch of mathematics and in many other fields of science}@}. In [computer science](computer%20science.md), they are used for {@{analyzing [sorting algorithms](sorting%20algorithm.md)}@}; in [quantum physics](quantum%20mechanics.md), for {@{describing states of particles}@}; and in [biology](biology.md), for {@{describing [RNA](RNA.md) sequences}@}. <!--SR:!2029-08-28,1385,350!2029-09-25,1407,350!2027-01-04,619,330!2028-01-05,897,330-->
 
@@ -28,7 +28,7 @@ According to the second meaning, a permutation of a [set](set%20(mathematics).md
 
 {@{The collection of all permutations of a set}@} form {@{a [group](group%20(mathematics).md) called the [symmetric group](symmetric%20group.md) of the set}@}. {@{The group operation}@} is {@{the [composition](function%20composition.md) of functions}@} \(performing {@{one rearrangement after the other}@}\), which results in {@{another function \(rearrangement\)}@}. The properties of permutations do not {@{depend on the nature of the elements being permuted, only on their number}@}, so one often {@{considers the standard set $S=\{1,2,\ldots ,n\}$}@}. <!--SR:!2029-09-05,1391,350!2029-08-17,1376,350!2029-09-20,1404,350!2029-09-04,1390,350!2029-10-11,1421,350!2029-10-10,1420,350!2025-12-04,18,362!2025-12-04,18,362-->
 
-In elementary combinatorics, {@{the ___k_-permutations__, or [partial permutations](partial%20permutation.md)}@}, are {@{the ordered arrangements of _k_ distinct elements selected from a set}@}. When {@{_k_ is equal to the size of the set}@}, these are {@{the permutations in the previous sense}@}. <!--SR:!2029-08-29,1385,350!2025-11-21,312,330!2029-09-24,1407,350!2029-08-30,1385,350-->
+In elementary combinatorics, {@{the ___k_-permutations__, or [partial permutations](partial%20permutation.md)}@}, are {@{the ordered arrangements of _k_ distinct elements selected from a set}@}. When {@{_k_ is equal to the size of the set}@}, these are {@{the permutations in the previous sense}@}. <!--SR:!2029-08-29,1385,350!2029-10-12,1421,350!2029-09-24,1407,350!2029-08-30,1385,350-->
 
 ## see also
 

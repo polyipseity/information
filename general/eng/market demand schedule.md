@@ -9,7 +9,7 @@ tags:
 
 # market demand schedule
 
-In [economics](economics.md), a __market demand schedule__ is {@{a tabulation of the quantity of a good that all consumers in a market will purchase at a given price}@}. At {@{any given price}@}, the corresponding value on the demand schedule is {@{the sum of all consumers' quantities demanded at that price}@}. <!--SR:!2029-06-01,1295,350!2025-11-21,290,330!2029-03-29,1245,350-->
+In [economics](economics.md), a __market demand schedule__ is {@{a tabulation of the quantity of a good that all consumers in a market will purchase at a given price}@}. At {@{any given price}@}, the corresponding value on the demand schedule is {@{the sum of all consumers' quantities demanded at that price}@}. <!--SR:!2029-06-01,1295,350!2029-07-05,1322,350!2029-03-29,1245,350-->
 
 Generally, there is {@{an inverse relationship between the price and the quantity demanded}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The graphical representation of a demand schedule}@} is {@{called a [demand curve](demand%20curve.md)}@}. <!--SR:!2029-04-02,1248,350!2029-06-10,1303,350!2029-05-05,1274,350-->
 

@@ -151,7 +151,7 @@ The content is in teaching order.
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2027-08-04,704,340-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2026-06-09,371,360!2026-05-09,367,360-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-12-29,256,340!2025-11-26,230,340-->
-- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-11-21,227,340!2026-05-07,365,360-->
+- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2028-10-14,1058,360!2026-05-07,365,360-->
   - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2026-04-30,358,360!2026-06-07,369,360-->
   - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2026-05-14,371,360!2026-05-08,366,360-->
     - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2026-04-30,358,360!2026-06-16,378,360-->
@@ -654,13 +654,13 @@ The content is in teaching order.
   - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2025-11-30,153,438!2025-12-01,154,438-->
 - [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2025-12-09,161,441!2025-12-06,158,438-->
 - [_The Shape of Jazz to Come_](../../../../general/The%20Shape%20of%20Jazz%20to%20Come.md) ::@:: It is the third album by the jazz musician Ornette Coleman. Released on Atlantic Records in 1959, it was his debut on the label and his first album featuring the working quartet including himself, trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. <!--SR:!2025-11-26,150,438!2025-11-24,148,438-->
-  - _The Shape of Jazz to Come_ / uniqueness ::@:: It did not employ a chordal instrument such as a piano or guitar. <!--SR:!2025-12-08,160,441!2025-11-21,145,438-->
+  - _The Shape of Jazz to Come_ / uniqueness ::@:: It did not employ a chordal instrument such as a piano or guitar. <!--SR:!2025-12-08,160,441!2028-04-03,864,458-->
 - [Cecil Taylor](../../../../general/Cecil%20Taylor.md) \(1929–2018\) ::@:: He was an American pianist and poet. <p> Taylor was classically trained and was one of the pioneers of free jazz \(avant-garde jazz\). <p> He used every part of the piano. <!--SR:!2025-11-24,148,438!2025-12-12,164,441-->
-  - Cecil Taylor / works ::@:: "Free Improvisation No #3" — Cecil Taylor <!--SR:!2025-11-26,150,438!2025-11-21,145,438-->
+  - Cecil Taylor / works ::@:: "Free Improvisation No #3" — Cecil Taylor <!--SR:!2025-11-26,150,438!2028-04-05,866,458-->
 - [Eric Dolphy](../../../../general/Eric%20Dolphy.md) \(1928–1964\) ::@:: He was an American jazz multi-instrumentalist, composer, and bandleader. <p> His use of the bass clarinet \(and flute\) helped to establish the unconventional instrument within jazz. <p> He died after falling into a diabetic coma in 1964. <!--SR:!2027-07-14,639,438!2025-12-12,164,442-->
   - Eric Dolphy / works ::@:: "Out to Lunch!" \(1964\) — Eric Dolphy <!--SR:!2025-12-12,164,442!2025-12-03,156,442-->
 - [Albert Ayler](../../../../general/Albert%20Ayler.md) \(1936–1970\) ::@:: He was an American avant-garde jazz saxophonist and composer. <p> He embraced free jazz more than anyone \(some critics say it does not adhere to free jazz\). He became a free jazz movement leader before his suicide. <!--SR:!2025-12-03,156,438!2027-02-02,476,421-->
-  - Albert Ayler / works ::@:: "Ghost Variations" / _Spiritual Unity_ \(1965\) — Albert Ayler <!--SR:!2025-11-21,145,438!2025-12-06,158,441-->
+  - Albert Ayler / works ::@:: "Ghost Variations" / _Spiritual Unity_ \(1965\) — Albert Ayler <!--SR:!2028-04-09,870,458!2025-12-06,158,441-->
 - assignment: \(none\)
 
 ## week 14 lecture 2
@@ -754,7 +754,7 @@ The content is in teaching order.
 - [Robert Glasper](../../../../general/Robert%20Glasper.md) \(1978–\) ::@:: He is an American pianist, record producer, songwriter, and musical arranger. His music embodies numerous musical genres, primarily centered around jazz. Glasper has won five Grammy Awards from 11 nominations. <!--SR:!2025-12-02,155,442!2025-12-05,158,441-->
   - Robert Glasper / works ::@:: "Stella By Starlight" \(2014\) — Robert Glasper <br/> _Black Radio_ \(2012\) — Robert Glasper: his breakout album, which won a Grammy for Best R&B Album <br/> _Black Radio III_ \(2022\) — Robert Glasper: also won a Grammar for Best R&B Album <!--SR:!2025-12-05,158,441!2025-12-09,161,441-->
   - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2025-11-27,151,438!2025-11-25,149,438-->
-- [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2025-12-07,159,438!2025-11-21,145,438-->
+- [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2025-12-07,159,438!2028-04-04,865,458-->
   - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2025-12-02,155,441!2025-11-29,152,438-->
   - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-11-25,149,438!2025-12-26,163,454-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2025-12-01,154,441!2025-12-09,161,438-->

@@ -80,7 +80,7 @@ Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [pos
 
 The evolution graph of the game of nim with three heaps is {@{the same as three branches of the evolution graph of the [Ulam–Warburton automaton](Ulam–Warburton%20automaton.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-02-02,583,281-->
 
-Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and there is {@{an easily calculated way}@} to determine {@{which player will win and which winning moves are open to that player}@}. <!--SR:!2029-10-17,1436,361!2028-10-22,1067,341!2025-11-14,5,366-->
+Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and there is {@{an easily calculated way}@} to determine {@{which player will win and which winning moves are open to that player}@}. <!--SR:!2029-10-17,1436,361!2028-10-22,1067,341!2025-12-16,25,386-->
 
 The key to the theory of the game is {@{the [binary](binary%20number.md) [digital sum](digital%20sum%20in%20base%20b.md) of the heap sizes}@}, i.e., {@{the sum (in binary), neglecting all carries from one digit to another}@}. This operation is {@{also known as "[bitwise xor](bitwise%20operation.md#XOR)" or "vector addition over [__GF__(2)](finite%20field.md)" (bitwise addition modulo 2)}@}. Within [combinatorial game theory](combinatorial%20game%20theory.md) it is usually called {@{the __nim-sum__, as it will be called here}@}. The nim-sum of _x_ and _y_ is written {@{_x_ ⊕ _y_ to distinguish it from the ordinary sum, _x_ + _y_}@}. An example of the calculation with heaps of size 3, 4, and 5 is as follows: <!--SR:!2028-07-20,996,341!2027-11-29,796,321!2028-09-11,1086,341!2029-05-24,1309,350!2025-11-29,26,380-->
 
@@ -114,7 +114,7 @@ The only heap that is reduced is heap A, so the winning move is to {@{reduce the
 
 As a particular simple case, if {@{there are only two heaps left}@}, the strategy is to {@{reduce the number of objects in the bigger heap to make the heaps equal}@}. After that, no matter what move the opponent makes, the player can {@{make the same move on the other heap, guaranteeing that they take the last object}@}. <!--SR:!2029-06-19,1331,350!2029-05-24,1308,350!2029-09-22,1416,361-->
 
-When {@{played as a misère game}@}, nim strategy is {@{different only when the normal play move would leave only heaps of size one}@}. In that case, the correct move is to {@{leave an odd number of heaps of size one}@} \(in {@{normal play}@}, the correct move would be to {@{leave an even number of such heaps}@}\). <!--SR:!2029-08-14,1384,361!2028-05-17,997,341!2029-11-18,1462,361!2025-11-14,5,366!2025-11-14,5,366-->
+When {@{played as a misère game}@}, nim strategy is {@{different only when the normal play move would leave only heaps of size one}@}. In that case, the correct move is to {@{leave an odd number of heaps of size one}@} \(in {@{normal play}@}, the correct move would be to {@{leave an even number of such heaps}@}\). <!--SR:!2029-08-14,1384,361!2028-05-17,997,341!2029-11-18,1462,361!2025-12-17,26,386!2025-12-17,26,386-->
 
 These strategies for normal play and a misère game are {@{the same until the number of heaps with at least two objects is exactly equal to one}@}. At that point, the next player {@{removes either all objects (or all but one) from the heap that has two or more}@}, so {@{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. In normal play, the player {@{leaves an even number of non-zero heaps, so the same player takes last}@}; in misère play, the player {@{leaves an odd number of non-zero heaps, so the other player takes last}@}. <!--SR:!2026-12-29,621,341!2026-12-06,603,341!2027-11-30,797,321!2029-11-12,1457,361!2025-12-16,331,341!2029-05-13,1303,350-->
 
@@ -174,7 +174,7 @@ from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprag
 
 The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2025-12-19,334,341!2029-08-27,1395,361!2029-10-22,1440,361!2029-09-30,1423,361!2029-08-11,1382,361!2029-09-24,1418,361!2026-12-25,617,341-->
 
-{@{The 21 game}@} can also be played with {@{different numbers}@}, e.g., {@{"Add at most 5; lose on 34"}@}. <!--SR:!2029-11-22,1464,361!2025-11-14,5,366!2025-11-14,5,366-->
+{@{The 21 game}@} can also be played with {@{different numbers}@}, e.g., {@{"Add at most 5; lose on 34"}@}. <!--SR:!2029-11-22,1464,361!2025-12-16,25,386!2025-12-17,26,386-->
 
 A sample game of 21 in which the second player follows the winning strategy:
 
@@ -194,13 +194,13 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!2026-12-11,606,341!2029-09-01,1399,361!2025-11-14,5,366-->
+A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!2026-12-11,606,341!2029-09-01,1399,361!2025-12-17,26,386-->
 
 ### a multiple-heap rule
 
 - see ::@:: [Wythoff's game](Wythoff's%20game.md) <!--SR:!2025-12-05,322,341!2028-10-08,1108,341-->
 
-In another variation of nim, besides {@{removing any number of objects from a single heap}@}, one is {@{permitted to remove the same number of objects from each heap}@}. <!--SR:!2025-11-21,314,341!2027-10-22,851,341-->
+In another variation of nim, besides {@{removing any number of objects from a single heap}@}, one is {@{permitted to remove the same number of objects from each heap}@}. <!--SR:!2029-12-08,1478,361!2027-10-22,851,341-->
 
 ### circular nim
 
@@ -240,7 +240,7 @@ In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of ob
 
 Greedy nim is a variation wherein {@{the players are restricted to choosing stones from only the largest pile}@}.<sup>[\[10\]](#^ref-10)</sup> It is {@{a finite [impartial game](impartial%20game.md)}@}. Greedy nim misère has {@{the same rules as greedy nim, but the last player able to make a move loses}@}. <!--SR:!2029-08-09,1380,361!2029-05-31,1315,350!2025-12-20,335,341-->
 
-Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {@{considering the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2025-12-09,326,341!2029-11-05,1450,361!2027-04-15,643,341!2029-08-13,1383,361!2026-01-07,351,341!2025-11-24,317,341!2029-11-19,1462,361!2025-11-21,314,341-->
+Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {@{considering the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2025-12-09,326,341!2029-11-05,1450,361!2027-04-15,643,341!2029-08-13,1383,361!2026-01-07,351,341!2025-11-24,317,341!2029-11-19,1462,361!2029-12-07,1477,361-->
 
 - If _p_<sub>_n_</sub> is odd, ::@:: the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2026-12-18,612,341!2027-10-03,824,330-->
 - If _p_<sub>_n_</sub> is even, ::@:: the largest heap is removed entirely, leaving an even number of largest heaps. <!--SR:!2025-11-24,317,341!2028-10-31,1127,341-->

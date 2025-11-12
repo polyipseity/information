@@ -27,7 +27,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 {@{A __biconnected__ [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@} is {@{a connected graph that is not broken into disconnected pieces by deleting any single vertex \(and its incident edges\)}@}. <!--SR:!2025-12-20,280,332!2028-01-27,862,332-->
 
-{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2025-11-21,257,332!2026-12-06,501,312-->
+{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2029-02-10,1177,352!2026-12-06,501,312-->
 
 ## examples
 
@@ -39,7 +39,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
 >
-> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2025-11-24,260,332!2025-11-25,261,332!2025-11-13,4,332!2025-11-13,4,332!2025-11-13,4,332-->
+> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2025-11-24,260,332!2025-11-25,261,332!2025-12-09,18,352!2025-12-09,18,352!2025-12-10,19,352-->
 
 <!-- markdownlint MD028 -->
 

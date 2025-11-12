@@ -15,7 +15,7 @@ tags:
 >
 > {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2025-12-14,294,332!2025-12-15,295,332!2027-10-01,790,332!2029-04-05,1241,352-->
 
-In {@{[computer science](computer%20science.md) and [discrete mathematics](discrete%20mathematics.md)}@}, {@{an __inversion__}@} in {@{a sequence is a pair of elements that are out of their natural [order](total%20order.md)}@}. <!--SR:!2029-01-17,1177,352!2025-11-21,278,332!2029-05-14,1271,352-->
+In {@{[computer science](computer%20science.md) and [discrete mathematics](discrete%20mathematics.md)}@}, {@{an __inversion__}@} in {@{a sequence is a pair of elements that are out of their natural [order](total%20order.md)}@}. <!--SR:!2029-01-17,1177,352!2029-05-18,1274,352!2029-05-14,1271,352-->
 
 ## definitions
 
@@ -45,7 +45,7 @@ For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{th
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD059 -->
 
-{@{Three similar vectors are in use}@} that {@{condense the inversions of a permutation into a vector that uniquely determines it}@}. They are often called {@{_inversion vector_ or _[Lehmer code](lehmer%20code.md)_}@}. \(A list of sources is found [here](https://en.wikiversity.org/wiki/Inversion%20(discrete%20mathematics)).\) <!--SR:!2025-12-15,296,332!2029-02-19,1203,352!2025-11-21,278,332-->
+{@{Three similar vectors are in use}@} that {@{condense the inversions of a permutation into a vector that uniquely determines it}@}. They are often called {@{_inversion vector_ or _[Lehmer code](lehmer%20code.md)_}@}. \(A list of sources is found [here](https://en.wikiversity.org/wiki/Inversion%20(discrete%20mathematics)).\) <!--SR:!2025-12-15,296,332!2029-02-19,1203,352!2029-05-19,1275,352-->
 
 <!-- markdownlint-restore -->
 

@@ -39,7 +39,7 @@ In {@{[set theory](set%20theory.md)}@}, where a function is defined as {@{a part
 
 ## algebraic properties
 
-If {@{_f_ : _X_ → _Y_ is any function}@}, then {@{_f_ ∘ id<sub>_X_</sub> = _f_ = id<sub>_Y_</sub> ∘ _f_, where "∘" denotes [function composition](function%20composition.md)}@}.<sup>[\[4\]](#^ref-4)</sup> In particular, {@{id<sub>_X_</sub>}@} is {@{the [identity element](identity%20element.md) of the [monoid](monoid.md) of all functions from _X_ to _X_ \(under function composition\)}@}. <!--SR:!2026-02-08,285,330!2026-01-14,266,330!2026-01-31,277,330!2025-11-21,205,310-->
+If {@{_f_ : _X_ → _Y_ is any function}@}, then {@{_f_ ∘ id<sub>_X_</sub> = _f_ = id<sub>_Y_</sub> ∘ _f_, where "∘" denotes [function composition](function%20composition.md)}@}.<sup>[\[4\]](#^ref-4)</sup> In particular, {@{id<sub>_X_</sub>}@} is {@{the [identity element](identity%20element.md) of the [monoid](monoid.md) of all functions from _X_ to _X_ \(under function composition\)}@}. <!--SR:!2026-02-08,285,330!2026-01-14,266,330!2026-01-31,277,330!2028-04-25,886,330-->
 
 Since {@{the identity element of a monoid is [unique](unique%20(mathematics).md)}@},<sup>[\[5\]](#^ref-5)</sup> one can alternately define {@{the identity function on _M_ to be this identity element}@}. Such a definition generalizes to the concept of {@{an [identity morphism](identity%20morphism.md#identity) in [category theory](category%20theory.md), where the [endomorphisms](endomorphism.md) of _M_ need not be functions}@}. <!--SR:!2026-02-18,294,330!2026-01-25,275,330!2026-02-08,285,330-->
 

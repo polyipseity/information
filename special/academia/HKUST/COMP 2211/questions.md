@@ -72,7 +72,7 @@ tags:
 > 4. Content mining
 >
 > - solution: {@{4}@}
-> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2028-12-08,1127,350!2025-11-21,257,330-->
+> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2028-12-08,1127,350!2029-02-03,1170,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -506,7 +506,7 @@ tags:
 >
 > Your code should be at most five lines, and should not contain any loops. Try not to hard-code the numbers "2211" and "300" into your code.
 >
-> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - T) ** 2, axis=-1))`}@} <!--SR:!2025-11-21,258,330-->
+> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - T) ** 2, axis=-1))`}@} <!--SR:!2029-02-07,1174,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1524,7 +1524,7 @@ tags:
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
 > - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-11-21,258,330!2025-12-23,283,330-->
+> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2029-02-06,1173,350!2025-12-23,283,330-->
 
 <!-- markdownlint MD028 -->
 

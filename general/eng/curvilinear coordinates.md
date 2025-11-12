@@ -220,7 +220,7 @@ In {@{an orthonormal right-handed basis}@}, {@{the third-order [alternating tens
 
 In {@{a general curvilinear basis}@} {@{the same tensor may be expressed}@} as {@{$${\boldsymbol {\mathcal {E} } }={\mathcal {E} }_{ijk}\mathbf {b} ^{i}\otimes \mathbf {b} ^{j}\otimes \mathbf {b} ^{k}={\mathcal {E} }^{ijk}\mathbf {b} _{i}\otimes \mathbf {b} _{j}\otimes \mathbf {b} _{k}$$}@} <!--SR:!2026-01-07,76,336!2025-12-17,58,310!2025-12-16,57,310-->
 
-It can also be shown that {@{$${\mathcal {E} }^{ijk}={\cfrac {1}{J} }\varepsilon _{ijk}={\cfrac {1}{+{\sqrt {g} } } }\varepsilon _{ijk}$$}@} <!--SR:!2025-11-21,37,305-->
+It can also be shown that {@{$${\mathcal {E} }^{ijk}={\cfrac {1}{J} }\varepsilon _{ijk}={\cfrac {1}{+{\sqrt {g} } } }\varepsilon _{ijk}$$}@} <!--SR:!2026-04-25,155,325-->
 
 ### Christoffel symbols
 
@@ -232,7 +232,7 @@ It can also be shown that {@{$${\mathcal {E} }^{ijk}={\cfrac {1}{J} }\varepsilon
 
 1. {@{__[Dot product](dot%20product.md):__}@} <p> {@{The scalar product of two vectors in curvilinear coordinates}@} is<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;32&hairsp;</sup> {@{$$\mathbf {u} \cdot \mathbf {v} =u^{i}v_{i}=u_{i}v^{i}=g_{ij}u^{i}v^{j}=g^{ij}u_{i}v_{j}$$}@} <!--SR:!2026-01-08,77,336!2025-12-29,69,336!2025-11-27,42,307-->
 
-2. {@{__[Cross product](cross%20product.md):__}@} <p> {@{The [cross product](cross%20product.md) of two vectors}@} is given by<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;32–34&hairsp;</sup> {@{$$\mathbf {u} \times \mathbf {v} =\epsilon _{ijk}{u}_{j}{v}_{k}\mathbf {e} _{i}$$}@} where {@{$\epsilon _{ijk}$ is the [permutation symbol](permutation%20symbol.md) and $\mathbf {e} _{i}$ is a Cartesian basis vector}@}. In {@{curvilinear coordinates, the equivalent expression}@} is {@{$$\mathbf {u} \times \mathbf {v} =[(\mathbf {b} _{m}\times \mathbf {b} _{n})\cdot \mathbf {b} _{s}]u^{m}v^{n}\mathbf {b} ^{s}={\mathcal {E} }_{smn}u^{m}v^{n}\mathbf {b} ^{s}$$}@} where {@{${\mathcal {E} }_{ijk}$ is the [third-order alternating tensor](#the%20alternating%20tensor)}@}. <!--SR:!2025-11-24,39,290!2026-01-13,81,345!2026-03-17,119,290!2025-12-12,51,316!2025-12-16,57,310!2025-11-21,35,305!2025-11-28,42,307-->
+2. {@{__[Cross product](cross%20product.md):__}@} <p> {@{The [cross product](cross%20product.md) of two vectors}@} is given by<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;32–34&hairsp;</sup> {@{$$\mathbf {u} \times \mathbf {v} =\epsilon _{ijk}{u}_{j}{v}_{k}\mathbf {e} _{i}$$}@} where {@{$\epsilon _{ijk}$ is the [permutation symbol](permutation%20symbol.md) and $\mathbf {e} _{i}$ is a Cartesian basis vector}@}. In {@{curvilinear coordinates, the equivalent expression}@} is {@{$$\mathbf {u} \times \mathbf {v} =[(\mathbf {b} _{m}\times \mathbf {b} _{n})\cdot \mathbf {b} _{s}]u^{m}v^{n}\mathbf {b} ^{s}={\mathcal {E} }_{smn}u^{m}v^{n}\mathbf {b} ^{s}$$}@} where {@{${\mathcal {E} }_{ijk}$ is the [third-order alternating tensor](#the%20alternating%20tensor)}@}. <!--SR:!2025-11-24,39,290!2026-01-13,81,345!2026-03-17,119,290!2025-12-12,51,316!2025-12-16,57,310!2026-04-18,148,325!2025-11-28,42,307-->
 
 ## vector and tensor calculus in three-dimensional curvilinear coordinates
 
