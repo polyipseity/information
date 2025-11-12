@@ -37,7 +37,7 @@ Whether a product {@{exists may depend on $C$ or on $X_{1}$ and $X_{2}$}@}. If {
 
 ### product of an arbitrary family
 
-Instead of {@{two objects}@}, we can {@{start with an arbitrary family of objects [indexed](index%20set.md) by a set $I$}@}. <!--SR:!2026-01-21,288,330!2025-11-22,241,330-->
+Instead of {@{two objects}@}, we can {@{start with an arbitrary family of objects [indexed](index%20set.md) by a set $I$}@}. <!--SR:!2026-01-21,288,330!2028-11-23,1097,350-->
 
 Given {@{a family $\left(X_{i}\right)_{i\in I}$ of objects}@}, {@{a __product__ of the family}@} is {@{an object $X$ equipped with morphisms $\pi _{i}:X\to X_{i}$, satisfying the following universal property}@}: <!--SR:!2026-01-11,279,330!2028-10-07,1059,350!2028-10-03,1056,350-->
 

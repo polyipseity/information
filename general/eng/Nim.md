@@ -137,7 +137,7 @@ The soundness of the optimal strategy described above was demonstrated by {@{C. 
 
 __Theorem__. ::@:: In a normal nim game, the player making the first move has a winning strategy if and only if the nim-sum of the sizes of the heaps is not zero. Otherwise, the second player has a winning strategy. <!--SR:!2029-08-15,1385,361!2028-10-09,1056,341-->
 
-_Proof:_ Notice that {@{the nim-sum \(⊕\)}@} obeys {@{the usual [associative](associative%20property.md) and [commutative](commutative%20property.md) laws of addition \(+\)}@} and also satisfies {@{an additional property, _x_ ⊕ _x_ = 0}@}. <!--SR:!2028-06-02,952,330!2025-11-22,26,378!2025-11-22,26,378-->
+_Proof:_ Notice that {@{the nim-sum \(⊕\)}@} obeys {@{the usual [associative](associative%20property.md) and [commutative](commutative%20property.md) laws of addition \(+\)}@} and also satisfies {@{an additional property, _x_ ⊕ _x_ = 0}@}. <!--SR:!2028-06-02,952,330!2026-04-05,134,398!2026-04-06,135,398-->
 
 Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a move, and _y_<sub>1</sub>, ..., _y<sub>n</sub>_ the corresponding sizes after a move}@}. Let {@{_s_ = _x_<sub>1</sub> ⊕ ... ⊕ _x<sub>n</sub>_ and _t_ = _y_<sub>1</sub> ⊕ ... ⊕ _y<sub>n</sub>_}@}. If {@{the move was in heap _k_}@}, we have {@{_x<sub>i</sub>_ = _y<sub>i</sub>_ for all _i_ ≠ _k_, and _x<sub>k</sub>_ > _y<sub>k</sub>_}@}. By the properties of ⊕ mentioned above, we have {@{$${\begin{aligned}t&=0\oplus t\\&=s\oplus s\oplus t\\&=s\oplus (x_{1}\oplus \cdots \oplus x_{n})\oplus (y_{1}\oplus \cdots \oplus y_{n})\\&=s\oplus (x_{1}\oplus y_{1})\oplus \cdots \oplus (x_{n}\oplus y_{n})\\&=s\oplus 0\oplus \cdots \oplus 0\oplus (x_{k}\oplus y_{k})\oplus 0\oplus \cdots \oplus 0\\&=s\oplus x_{k}\oplus y_{k}\\[10pt](*)\quad t&=s\oplus x_{k}\oplus y_{k}\end{aligned} }$$}@} <!--SR:!2029-07-27,1369,361!2029-07-24,1367,361!2025-11-24,317,341!2025-12-10,288,290!2028-01-04,823,321-->
 
@@ -161,7 +161,7 @@ In another game which is commonly known as {@{nim (but is better called the [sub
 
 Bouton's analysis {@{carries over easily to the general multiple-heap version of this game}@}. The only difference is that {@{as a first step, before computing the nim-sums}@} we {@{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}@}. If {@{this makes all the heaps of size zero (in misère play)}@}, the winning move is {@{to take _k_ objects from one of the heaps}@}. In particular, in {@{ideal play from a single heap of _n_ objects}@}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2028-10-20,1117,341!2027-12-28,819,321!2026-05-02,422,310!2026-08-17,511,330!2028-04-26,931,301!2028-11-06,1130,341-->
 
-- 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2025-11-28,182,290!2025-11-22,315,341-->
+- 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2025-11-28,182,290!2029-12-13,1482,361-->
 - 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2028-09-28,1101,341!2026-01-03,308,301-->
 
 This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-12-24,301,301-->
@@ -269,7 +269,7 @@ The starting board is {@{a disconnected graph}@}, and players {@{take turns to r
 
 ### candy nim
 
-Candy nim is {@{a version of normal-play nim in which players try to achieve two goals at the same time}@}: {@{taking the last object (in this case, candy) and taking the maximum number of candies by the end of the game}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-09-06,1403,361!2025-11-22,315,341-->
+Candy nim is {@{a version of normal-play nim in which players try to achieve two goals at the same time}@}: {@{taking the last object (in this case, candy) and taking the maximum number of candies by the end of the game}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-09-06,1403,361!2029-12-07,1476,361-->
 
 ## see also
 

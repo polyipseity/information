@@ -55,7 +55,7 @@ The content is in teaching order.
     - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2028-09-27,1147,357!2029-01-12,1232,357-->
     - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / indicators ::@:: operation/performance, financial position, cash flow <!--SR:!2026-11-18,575,317!2027-12-25,906,337-->
   - [financial accounting](../../../../general/financial%20accounting.md) / know how the business is doing financially ::@:: How much money/assets are being generated, spent, saved, and how much are there now? <!--SR:!2029-12-19,1493,357!2026-08-03,509,317-->
-  - [financial accounting](../../../../general/financial%20accounting.md) / legal compliance ::@:: company laws, tax laws, rules and regulations for listed entities, ... <!--SR:!2029-01-04,1225,357!2025-11-22,327,337-->
+  - [financial accounting](../../../../general/financial%20accounting.md) / legal compliance ::@:: company laws, tax laws, rules and regulations for listed entities, ... <!--SR:!2029-01-04,1225,357!2030-01-17,1517,357-->
 
 ## week 1 lecture 2
 
@@ -68,7 +68,7 @@ The content is in teaching order.
   - [financial accounting § statement of cash flows](../../../../general/financial%20accounting.md#statement%20of%20cash%20flows) ::@:: Shows the movement of cash and cash equivalent under _operating_, _investing_, and _financing_ (this categorization may be tested in the examinations) activities of a reporting entity for the reporting period, usually 12 months. <!--SR:!2026-08-31,524,317!2026-01-03,315,297-->
 - [financial accounting](../../../../general/financial%20accounting.md) / practical reasons ::@:: record transactions, compliance with legislation and regulation <!--SR:!2026-05-12,447,317!2029-02-08,1253,357-->
 - [financial accounting](../../../../general/financial%20accounting.md) / theoretical reasons ::@:: communicate financial information to external entities, signaling by the quality of financial statements, market reacts to financial statements <!--SR:!2028-02-09,886,297!2028-04-09,938,337-->
-- [financial accounting](../../../../general/financial%20accounting.md) / prepared by... ::@:: theoretically/legally: the board of directors; in practice: accounting and finance people, certified public accountants (CPAs) <!--SR:!2025-11-22,327,337!2027-02-16,676,337-->
+- [financial accounting](../../../../general/financial%20accounting.md) / prepared by... ::@:: theoretically/legally: the board of directors; in practice: accounting and finance people, certified public accountants (CPAs) <!--SR:!2030-01-18,1518,357!2027-02-16,676,337-->
 - [financial accounting](../../../../general/financial%20accounting.md) / prepared for... ::@:: Stewardship-wise, shareholders. For decision making, all other stakeholders, such as creditors, corporate social responsibility (CSR) activists, government agencies, (environment, social, and governance (ESG)) investors, retirement funds, etc. <!--SR:!2028-05-13,954,297!2029-03-22,1286,357-->
 - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: Generally Accepted Accounting Principles (GAAP), including financial reporting standards (FRS), company laws, and listing rules <!--SR:!2028-04-10,939,337!2026-08-26,518,317-->
 

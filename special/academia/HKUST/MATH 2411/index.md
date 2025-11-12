@@ -189,7 +189,7 @@ The content is in teaching order.
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2029-08-21,1410,350!2026-01-19,375,310-->
     - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2028-10-20,1175,350!2028-06-20,1079,350-->
   - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2027-07-14,772,330!2029-04-22,1256,310-->
-    - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2026-12-02,527,270!2025-11-22,290,270-->
+    - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2026-12-02,527,270!2028-11-19,1093,290-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2028-09-23,1148,350!2027-03-30,715,330-->
     - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2028-07-08,1091,350!2028-05-21,1057,350-->
   - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2028-04-04,1016,350!2029-01-20,1247,350-->

@@ -73,7 +73,7 @@ A number $n$ is said to be {@{[perfect](perfect%20number.md) if it equals the su
 
 If {@{the [prime factorization](integer%20factorization.md) of $n$ is given by $$n=p_{1}^{\nu _{1} }\,p_{2}^{\nu _{2} }\cdots p_{k}^{\nu _{k} }$$}@} then {@{the number of positive divisors of $n$ is $$d(n)=(\nu _{1}+1)(\nu _{2}+1)\cdots (\nu _{k}+1),$$}@} and {@{each of the divisors has the form $$p_{1}^{\mu _{1} }\,p_{2}^{\mu _{2} }\cdots p_{k}^{\mu _{k} }$$}@} where {@{$0\leq \mu _{i}\leq \nu _{i}$ for each $1\leq i\leq k$}@}. <!--SR:!2026-06-02,384,310!2027-06-18,686,330!2025-11-23,251,330!2027-01-01,545,310-->
 
-For every natural $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs.) <!--SR:!2025-12-24,275,330!2025-11-22,250,330-->
+For every natural $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs.) <!--SR:!2025-12-24,275,330!2029-01-08,1143,350-->
 
 Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2026-03-21,249,250!2026-04-21,340,290!2026-09-15,458,310!2028-10-19,1078,350-->
 

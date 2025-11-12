@@ -146,7 +146,7 @@ Demand management has {@{a defined set of processes, capabilities and recommende
 
 - see: [energy demand management](energy%20demand%20management.md)
 
-{@{[Energy demand management](energy%20demand%20management.md)}@}, also known as {@{demand-side management \(DSM\) or demand-side response \(DSR\)}@}, is {@{the modification of consumer demand for energy through various methods}@} such as {@{financial incentives and behavioral change through education}@}. <!--SR:!2026-01-14,328,344!2028-06-09,989,344!2025-12-06,298,344!2025-11-22,26,383-->
+{@{[Energy demand management](energy%20demand%20management.md)}@}, also known as {@{demand-side management \(DSM\) or demand-side response \(DSR\)}@}, is {@{the modification of consumer demand for energy through various methods}@} such as {@{financial incentives and behavioral change through education}@}. <!--SR:!2026-01-14,328,344!2028-06-09,989,344!2025-12-06,298,344!2026-04-10,139,403-->
 
 ## see also
 

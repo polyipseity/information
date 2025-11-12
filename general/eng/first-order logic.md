@@ -335,7 +335,7 @@ If {@{a sentence φ evaluates to _true_}@} under {@{a given interpretation _M_}@
 
 ### algebraizations
 
-{@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways}@} of eliminating {@{quantified variables from first-order logic}@} that do not involve {@{replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\) <!--SR:!2027-02-24,463,382!2027-01-30,441,382!2027-02-05,448,382!2026-07-30,289,346!2025-11-28,34,324!2026-11-03,365,364!2025-11-22,26,392-->
+{@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways}@} of eliminating {@{quantified variables from first-order logic}@} that do not involve {@{replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\) <!--SR:!2027-02-24,463,382!2027-01-30,441,382!2027-02-05,448,382!2026-07-30,289,346!2025-11-28,34,324!2026-11-03,365,364!2026-04-13,142,412-->
 
 - [Cylindric algebra](cylindric%20algebra.md), ::@:: by [Alfred Tarski](Alfred%20Tarski.md), et al.; <!--SR:!2026-10-05,346,364!2026-11-22,381,364-->
 - [Polyadic algebra](polyadic%20algebra.md), ::@:: by [Paul Halmos](Paul%20Halmos.md); <!--SR:!2026-07-21,281,346!2026-12-09,395,364-->

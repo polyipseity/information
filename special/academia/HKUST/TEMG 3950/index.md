@@ -215,7 +215,7 @@ The content is in teaching order.
 - nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2025-12-14,445,381-->
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2029-02-12,1359,381!2031-11-22,2195,401-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2027-12-31,1023,381!2027-02-15,768,361-->
-- casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2029-05-25,1426,381!2025-11-22,425,381-->
+- casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2029-05-25,1426,381!2031-12-17,2216,401-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2027-01-03,679,341!2028-08-09,1210,381-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2030-09-09,1782,361!2027-09-30,938,361-->

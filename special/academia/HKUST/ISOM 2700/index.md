@@ -572,8 +572,8 @@ The content is in teaching order.
     - high: ? → ?
     - distribution: ? → ?
 - report
-  - "careless" mistake \(–1\) ::@:: Somehow the activity with the highest capacity \(lowest utilization\) instead of the highest utilization is found instead... <!--SR:!2025-11-22,151,439!2025-11-30,160,439-->
-  - capable vs. in control \(–1\) ::@:: Process capability is about meeting specifications, while process control is about not having assignable variations. <!--SR:!2025-11-22,151,439!2028-04-17,883,459-->
+  - "careless" mistake \(–1\) ::@:: Somehow the activity with the highest capacity \(lowest utilization\) instead of the highest utilization is found instead... <!--SR:!2028-05-17,907,459!2025-11-30,160,439-->
+  - capable vs. in control \(–1\) ::@:: Process capability is about meeting specifications, while process control is about not having assignable variations. <!--SR:!2028-05-16,906,459!2028-04-17,883,459-->
 - check
   - datetime
     - 2025-04-09T14:30:00+08:00/2025-04-09T17:00:00+08:00, PT2H30M

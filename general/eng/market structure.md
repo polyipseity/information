@@ -101,7 +101,7 @@ The number of enterprises is {@{small, entry and exit from the market are restri
 
 __Monopoly:__
 
-The number of enterprises is {@{only one, access is restricted or completely blocked}@}, and the products produced and sold are {@{unique and cannot be replaced by other products}@}. The company has {@{strong control and influence over the price of the entire market}@}. <!--SR:!2026-01-15,328,340!2026-03-15,379,358!2025-11-22,282,330-->
+The number of enterprises is {@{only one, access is restricted or completely blocked}@}, and the products produced and sold are {@{unique and cannot be replaced by other products}@}. The company has {@{strong control and influence over the price of the entire market}@}. <!--SR:!2026-01-15,328,340!2026-03-15,379,358!2029-05-31,1286,350-->
 
 ## importance of market structure
 

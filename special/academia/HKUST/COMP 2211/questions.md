@@ -83,7 +83,7 @@ tags:
 > 3. Keras
 > 4. scikit-learn
 >
-> - solution: {@{4}@} <!--SR:!2025-11-22,258,330-->
+> - solution: {@{4}@} <!--SR:!2029-02-09,1175,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -513,7 +513,7 @@ tags:
 > Q32. Are there any differences between the output from `print(str(a))` and `print(repr(a))`? Assume `a` is a NumPy array.
 >
 > - solution: {@{Yes. Try it out yourself!}@}
-> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-11-22,259,330!2027-11-22,761,330-->
+> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2029-02-11,1177,350!2027-11-22,761,330-->
 
 ## naive Bayes classifier
 
@@ -680,7 +680,7 @@ tags:
 > Using the L1 distance metric and KNN classification algorithm, propose 2 ways to produce new images from <!-- a given image -->the first image, such that the produced images have the same L1 distances to <!-- the original image -->the first image as the second image.
 >
 > - solution: {@{One solution is masking out certain pixels in the first image such that the sum of masked out pixels equals the L1 distance. <p> Another solution is adjusting the brightness of the first image.}@}
-> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2027-07-27,708,330!2025-11-22,259,330-->
+> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2027-07-27,708,330!2029-02-12,1178,350-->
 
 <!-- markdownlint MD028 -->
 

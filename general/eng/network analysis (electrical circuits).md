@@ -135,7 +135,7 @@ Consider {@{n impedances that are connected in __series__}@}. {@{The voltage $V_
 
 - Main article: ::@:: [current division](current%20division.md) <!--SR:!2026-01-19,237,330!2026-06-11,353,360-->
 
-Consider {@{n admittances that are connected in __parallel__}@}. {@{The current $I_{i}$ through any admittance}@} $Y_{i}$ is {@{$$I_{i}=Y_{i}V=\left({\frac {Y_{i} }{Y_{1}+Y_{2}+\cdots +Y_{n} } }\right)I$$ for $i=1,2,...,n$}@}. <!--SR:!2026-02-08,253,330!2026-07-16,384,360!2025-11-22,186,310-->
+Consider {@{n admittances that are connected in __parallel__}@}. {@{The current $I_{i}$ through any admittance}@} $Y_{i}$ is {@{$$I_{i}=Y_{i}V=\left({\frac {Y_{i} }{Y_{1}+Y_{2}+\cdots +Y_{n} } }\right)I$$ for $i=1,2,...,n$}@}. <!--SR:!2026-02-08,253,330!2026-07-16,384,360!2028-02-02,802,330-->
 
 #### special case: current division of two parallel components
 
@@ -363,7 +363,7 @@ In linear analysis, {@{the components of the network are assumed to be unchangin
 
 - See also: ::@:: [Spintronics](spintronics.md) <!--SR:!2026-04-06,298,349!2026-01-26,241,330-->
 
-{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-07-18,386,360!2026-07-22,388,360!2025-11-22,186,310!2026-03-08,275,330!2026-01-25,240,330!2026-04-01,293,330-->
+{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-07-18,386,360!2026-07-22,388,360!2028-02-03,803,330!2026-03-08,275,330!2026-01-25,240,330!2026-04-01,293,330-->
 
 ## see also
 

@@ -95,7 +95,7 @@ And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotatio
 | &emsp;Purchased capital              | -10           |               |
 | {@{__Total__}@}                      |               | {@{__60__}@}  | <!--SR:!2025-12-01,255,330!2025-12-06,259,330!2026-01-19,293,330!2028-11-20,1100,350!2026-01-20,294,330!2028-11-25,1102,350-->
 
-The net cash flow only {@{provides a limited amount of information}@}. Compare, for instance, the cash flows over three years of two companies: <!--SR:!2025-11-22,248,330-->
+The net cash flow only {@{provides a limited amount of information}@}. Compare, for instance, the cash flows over three years of two companies: <!--SR:!2028-12-29,1133,350-->
 
 |                                 | Company A  |            |            | Company B  |            |            |
 | ------------------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -103,7 +103,7 @@ The net cash flow only {@{provides a limited amount of information}@}. Compare, 
 | {@{Cash flow from operations}@} | +20M       | +21M       | +22M       | +10M       | +11M       | +12M       |
 | {@{Cash flow from financing}@}  | +5M        | +5M        | +5M        | +5M        | +5M        | +5M        |
 | {@{Cash flow from investment}@} | -15M       | -15M       | -15M       | 0M         | 0M         | 0M         |
-| {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       | <!--SR:!2025-12-22,272,330!2025-11-22,248,330!2028-11-20,1101,350!2025-12-26,275,330-->
+| {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       | <!--SR:!2025-12-22,272,330!2028-12-30,1134,350!2028-11-20,1101,350!2025-12-26,275,330-->
 
 Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2028-12-09,1116,350!2026-01-10,286,330!2027-07-05,695,330-->
 

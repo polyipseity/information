@@ -110,7 +110,7 @@ The content is in teaching order.
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2026-02-02,296,341!2026-03-14,326,341-->
   - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2027-04-08,554,310!2028-03-13,887,341-->
   - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2026-02-01,295,341!2025-12-15,255,330-->
-    - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-11-22,237,330!2026-02-03,297,341-->
+    - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2028-11-09,1083,350!2026-02-03,297,341-->
     - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2028-01-14,840,341!2026-02-17,306,341-->
   - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2025-12-14,254,330!2027-11-11,772,330-->
 - assignment: (none)
@@ -648,7 +648,7 @@ The content is in teaching order.
 
 - datetime: 2025-04-14T08:30:00-05:00/2025-04-14T09:50:00-05:00, PT1H20M
   - local: 2025-04-14T21:30:00+08:00/2025-04-14T22:50:00+08:00, PT1H20M
-- [free jazz](../../../../general/free%20jazz.md) ::@:: It is a style of avant-garde jazz or an experimental approach to jazz improvisation that developed in the late 1950s and early 1960s, when musicians attempted to change or break down jazz conventions, such as regular tempos, tones, and chord changes. <!--SR:!2025-11-24,148,438!2025-11-22,146,438-->
+- [free jazz](../../../../general/free%20jazz.md) ::@:: It is a style of avant-garde jazz or an experimental approach to jazz improvisation that developed in the late 1950s and early 1960s, when musicians attempted to change or break down jazz conventions, such as regular tempos, tones, and chord changes. <!--SR:!2025-11-24,148,438!2028-04-14,874,458-->
   - free jazz / motivation ::@:: Musicians during this period believed that the bebop and modal jazz that had been played before them was too limiting, and became preoccupied with creating something new. <!--SR:!2025-11-24,148,438!2025-12-05,157,438-->
   - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2025-12-04,157,438!2025-11-28,152,442-->
   - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2025-11-30,153,438!2025-12-01,154,438-->
@@ -667,7 +667,7 @@ The content is in teaching order.
 
 - datetime: 2025-04-16T08:30:00-05:00/2025-04-16T09:50:00-05:00, PT1H20M
   - local: 2025-04-16T21:30:00+08:00/2025-04-16T22:50:00+08:00, PT1H20M
-- [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll. <!--SR:!2025-11-22,146,438!2025-11-29,152,438-->
+- [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll. <!--SR:!2028-04-13,873,458!2025-11-29,152,438-->
   - jazz fusion / motivation ::@:: Acoustic jazz had been pushed to its limits. So musicians found new inspirations in rock music and funk. <!--SR:!2025-12-03,156,438!2025-11-24,148,438-->
   - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2025-11-25,149,438!2025-11-29,152,438-->
   - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2025-12-06,158,438!2025-12-07,159,438-->
@@ -698,7 +698,7 @@ The content is in teaching order.
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass <!--SR:!2027-07-07,632,438!2025-12-11,163,441-->
   - Oscar Peterson / works ::@:: "C Jam Blues" \(1964\) — Oscar Peterson <br/> _Night Train_ <br/> _The Sound of the Trio_ <br/> _We Get Requests_ <!--SR:!2025-12-10,162,442!2025-11-26,150,441-->
   - Oscar Peterson / effects ::@:: Many pianist were influenced by him and played in his style, e.g. Benny Green, Gene harris, Monty Alexander, Phineas Neworn, etc. \(and the instructor\) <!--SR:!2025-12-07,159,438!2025-12-11,163,441-->
-- [Bill Evans](../../../../general/Bill%20Evans.md) \(1929–1980\) ::@:: He was an American jazz pianist and composer who worked primarily as the leader of his trio. His use of impressionist harmony, block chords, innovative chord voicing, and trademark rhythmically independent "singing" melodic lines continue to influence jazz pianists today. <!--SR:!2025-11-22,146,438!2027-07-06,631,438-->
+- [Bill Evans](../../../../general/Bill%20Evans.md) \(1929–1980\) ::@:: He was an American jazz pianist and composer who worked primarily as the leader of his trio. His use of impressionist harmony, block chords, innovative chord voicing, and trademark rhythmically independent "singing" melodic lines continue to influence jazz pianists today. <!--SR:!2028-04-15,875,458!2027-07-06,631,438-->
   - Bill Evans / early life ::@:: He was left-handed. He was trained in an university. He became famous with Miles Davis. He was lyrical and not as bluesy as Oscar Peterson. <!--SR:!2025-11-30,153,438!2025-12-08,160,438-->
   - Bill Evans / trio ::@:: piano: Bill Evans <br/> drums: Paul Motion <br/> bass: Scott Lafaro <!--SR:!2025-11-29,152,438!2025-12-08,160,441-->
     - Bill Evans / trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential <!--SR:!2025-12-10,162,438!2025-12-09,161,442-->
@@ -709,7 +709,7 @@ The content is in teaching order.
   - Hammond organ / use ::@:: It is popular in gospel music. It was brought to jazz by Jimmy Smith in the 1950s. <!--SR:!2025-12-06,158,438!2025-12-06,158,438-->
   - Hammond organ / trio ::@:: drums, guitar, organ <!--SR:!2025-12-01,154,438!2025-12-01,154,438-->
 - [Jimmy Smith](../../../../general/Jimmy%20Smith%20(musician).md) \(1928–2005\) ::@:: He was an American jazz musician who helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music. <!--SR:!2025-11-27,151,438!2025-12-10,162,441-->
-  - Jimmy Smith / works ::@:: "Back At The Chicken Shack" \(1963\) — Jimmy Smith, Phil Upchurch <!--SR:!2025-11-22,146,438!2025-12-01,154,438-->
+  - Jimmy Smith / works ::@:: "Back At The Chicken Shack" \(1963\) — Jimmy Smith, Phil Upchurch <!--SR:!2028-04-16,876,458!2025-12-01,154,438-->
 - [Shirley Scott](../../../../general/Shirley%20Scott.md) \(1934–2002\) ::@:: She was an American jazz organist. Her music was noted for its mixture of bebop, blues, and gospel elements. She was known by the nickname "Queen of the Organ". <p> She had 40 records as a leader. <!--SR:!2025-11-26,150,438!2025-12-05,158,442-->
   - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio <!--SR:!2025-11-26,150,438!2025-11-28,152,442-->
 - [Joey DeFrancesco](../../../../general/Joey%20DeFrancesco.md) \(1971–2022\) ::@:: He was a virtuosic organist. He got his start with Davis Miles at 17. <p> He had 30 records as a leader. he died of heart attack at 51. <!--SR:!2025-12-01,154,438!2025-11-30,153,438-->
