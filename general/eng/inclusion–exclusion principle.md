@@ -74,9 +74,9 @@ An analogous simplification is possible in the case of {@{a general measure spac
 
 ## other formulas
 
-The principle is sometimes stated in the form<sup>[\[9\]](#^ref-9)</sup> that says that if {@{$$g(A)=\sum _{S\subseteq A}f(S)$$}@} then {@{$$f(A)=\sum _{S\subseteq A}(-1)^{|A|-|S|}g(S) \qquad \textbf{(2)}$$ <a id="math_2"></a>}@}. (annotation: How to understand this? Let there be {@{a universal set $S$ and their subsets}@}. Let each subset \(including $S$\) {@{has two numerical properties, which are given ("measured") by $f(X)$ and $g(X)$ for any subset $X$}@}. Then the above formula {@{relates the two properties of any subset together using the inclusion–exclusion principle}@}. In a way, this is {@{an abstraction and generalization of the more intuitive formulas above}@}.)
+The principle is sometimes stated in the form<sup>[\[9\]](#^ref-9)</sup> that says that if {@{$$g(A)=\sum _{S\subseteq A}f(S)$$}@} then {@{$$f(A)=\sum _{S\subseteq A}(-1)^{|A|-|S|}g(S) \qquad \textbf{(2)}$$ <a id="math_2"></a>}@}. \(annotation: How to {@{understand this}@}? Let there be {@{a universal set $S$ and their subsets}@}. Let each subset \(including $S$\) {@{has two numerical properties, which are given ("measured") by $f(X)$ and $g(X)$ for any subset $X$}@}. Then the above formula {@{relates the two properties of any subset together using the inclusion–exclusion principle}@}. In a way, this is {@{an abstraction and generalization of the more intuitive formulas above}@}.\)
 
-{@{The combinatorial and the probabilistic version of the inclusion–exclusion principle}@} are instances of (__[2](#math_2)__).
+{@{The combinatorial and the probabilistic version}@} of {@{the inclusion–exclusion principle}@} are instances of (__[2](#math_2)__). \(annotation: Take {@{the combinatorial version}@} as an example. Interpret {@{$f(S)$}@} as {@{the number of elements _exactly_ does not belong to the sets _not_ indexed by $S$}@}. Then {@{$g(S)$}@} has an interpretation of {@{the number of elements that _at least_ belong to the sets _not_ indexed by $S$}@}. To {@{extract the combinatorial version}@}, use {@{$g(\varnothing)$}@}, standing for {@{the number of elements that _at least_ belong to no sets}@}, which is {@{simply the number of all elements}@}. {@{Analogous reasoning}@} applies for {@{the probabilistic version}@}.\)
 
 > __Proof__
 >

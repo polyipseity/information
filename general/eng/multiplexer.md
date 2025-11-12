@@ -117,7 +117,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 {@{The following 4-to-1 multiplexer}@} is constructed from {@{[3-state buffers](3-state%20buffers.md#tri-state%20buffer) and AND gates \(the AND gates are acting as the decoder\)}@}: <p> {@{![a 4-to-1 mux realized from 3-state buffers and AND gates](../../archives/Wikimedia%20Commons/Mux%20from%203%20state%20buffers.png)}@}
 
-{@{The subscripts on the $I_{n}$ inputs}@} indicate {@{the decimal value of the binary control inputs at which that input is let through}@}.
+{@{The subscripts on the $I_{n}$ inputs}@} indicate {@{the decimal value of the binary control inputs}@} at which that {@{input is let through}@}.
 
 > {@{![4:1 MUX circuit using 3 input AND and other gates](../../archives/Wikimedia%20Commons/4to1%20MUX%20using%20basic%20gates.jpg)}@}
 >

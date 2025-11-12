@@ -46,7 +46,7 @@ The concept of a supply curve assumes that {@{firms are perfect competitors, hav
 
 Economists distinguish between {@{the supply curve of an individual firm and the market supply curve}@}. The market supply curve shows {@{the total quantity supplied by all firms, so it is the sum of the quantities supplied by all suppliers at each potential price (that is, the individual firms' supply curves are added horizontally)}@}.
 
-Economists distinguish between {@{short-run and long-run supply curve}@}. _Short run_ refers to {@{a time period during which one or more inputs are fixed (typically [physical capital](physical%20capital.md)), and the number of firms in the industry is also fixed (if it is a market supply curve)}@}. _Long run_ refers to {@{a time period during which new firms enter or existing firms exit and all inputs can be adjusted fully to any price change}@}. Long-run supply curves are {@{flatter than short-run counterparts (with quantity more sensitive to price, more elastic supply)}@}.
+Economists distinguish between {@{short-run and long-run supply curve}@}. {@{_Short run_}@} refers to {@{a time period during which one or more inputs are fixed}@} \(typically {@{[physical capital](physical%20capital.md)}@}\), and {@{the number of firms in the industry}@} is {@{also fixed \(if it is a market supply curve\)}@}. {@{_Long run_}@} refers to {@{a time period during which new firms enter or existing firms exit}@} and {@{all inputs can be adjusted fully to any price change}@}. {@{Long-run supply curves}@} are {@{flatter than short-run counterparts}@} \(with {@{quantity more sensitive to price, more elastic supply}@}\).
 
 Common determinants of supply are:
 

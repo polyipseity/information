@@ -48,7 +48,7 @@ For {@{any morphism of the form $f:X\to F(A')$ in ${\mathcal {D} }$}@}, there ex
 
 We can {@{[dualize](dual%20(category%20theory).md) this categorical concept}@}. {@{A __universal morphism from $F$ to $X$<!-- LaTeX separator -->__}@} is {@{a unique pair $(A,u:F(A)\to X)$ that satisfies the following universal property}@}:
 
-For {@{any morphism of the form $f:F(A')\to X$ in ${\mathcal {D} }$}@}, there {@{exists a _unique_ morphism $h:A'\to A$ in ${\mathcal {C} }$ (annotation: the uniqueness requirement is imposed on $h$, _not_ $F(h)$) such that the following diagram commutes: <p> ![The most important arrow here is $u: F(A) \to X$ which establishes the universal property.](../../archives/Wikimedia%20Commons/Universal%20definition%20dualized.svg)}@} <p> (annotation: The dual concept has {@{an intuition analogous to that for the above}@}.)
+For {@{any morphism of the form $f:F(A')\to X$ in ${\mathcal {D} }$}@}, there {@{exists a _unique_ morphism $h:A'\to A$ in ${\mathcal {C} }$ (annotation: the uniqueness requirement is imposed on $h$, _not_ $F(h)$) such that the following diagram commutes}@}: <p> {@{![The most important arrow here is $u: F(A) \to X$ which establishes the universal property.](../../archives/Wikimedia%20Commons/Universal%20definition%20dualized.svg)}@} <p> (annotation: The dual concept has {@{an intuition analogous to that for the above}@}.)
 
 Note that {@{in each definition, the arrows are reversed}@}. Both definitions are {@{necessary to describe universal constructions which appear in mathematics}@}; but they also {@{arise due to the inherent duality present in category theory}@}. In either case, we say that {@{the pair $(A,u)$ which behaves as above satisfies a universal property}@}.
 

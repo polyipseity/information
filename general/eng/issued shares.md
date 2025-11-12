@@ -9,7 +9,7 @@ tags:
 
 # issued shares
 
-In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After allotment, {@{a subscriber becomes a shareholder, though usually that also requires formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup>
+In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After {@{allotment}@}, {@{a subscriber becomes a shareholder}@}, though usually that also requires {@{formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup>
 
 ## overview
 

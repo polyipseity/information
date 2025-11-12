@@ -157,7 +157,19 @@ When {@{a generic function is invoked}@}, the compiler examines {@{the concrete 
 >
 > The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}.
 
-The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}.
+The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}:
+
+> [!example]
+>
+> In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}:
+>
+> ```Scala
+> def left[T](left: T, right: T): T = left
+> left(1, true)          // `T` inferred as `Int | Boolean` (union type)
+> left(1, true: AnyVal)  // `T` inferred as `AnyVal`
+> ```
+>
+> In {@{the first function call}@}, `T` is {@{inferred to be the union of `Int` and `Boolean`}@}. In {@{the second function call}@}, `T` is {@{inferred to be `AnyVal`}@}, which is {@{the _most specific_ common superclass of `Int` and `AnyVal`}@}. {@{The exact rules}@} are {@{complicated}@} and we {@{won't get into details here}@}.
 
 Inference is {@{not always possible}@}; if a function has {@{multiple polymorphic parameters whose types are interdependent}@} or if {@{no arguments provide enough information}@}, the programmer must {@{specify the type explicitly}@}. However, for {@{most common patterns—especially single-parameter generic functions}@}—the compiler can {@{resolve the type without assistance}@}.
 
@@ -290,7 +302,35 @@ Consider {@{covariance}@}: if {@{`C[+T]` is covariant}@}, then {@{`C[A] <: C[B]`
 
 Consider {@{contravariance}@}: if {@{`C[-T]` is contravariant}@}, then {@{`C[B] <: C[A]` for `A <: B`}@}. If `C[T]` had {@{a method that returns a `T`}@}, then `C[B]` would have {@{a method that returns a `B`}@}. However, since {@{`A <: B`}@}, this method could be {@{expected to return an `A`}@}, which violates the expectation that {@{`C[B]` only produces `B`}@}. Thus, allowing {@{contravariant types to appear in output positions}@} would also {@{break substitutability}@}.
 
-By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime errors}@}.
+To check {@{variance in a class _definition_ `A` in general}@}, consider {@{the _possible variance_ a _type_ can have}@}. It can be {@{either invariant, covariant, or contravariant}@}.
+
+{@{The types of `val`s in a class}@} \(and {@{method `def`s}@} are considered as {@{`val`s of the function type}@}\) are {@{covariant}@}. Then, {@{recursively evaluate the variance}@} of {@{the _inner types_ in types with type parameters}@}, e.g. {@{`T[X]`}@} where {@{`T[X]` has a known variance}@} and {@{the variance of `X` needs to be evaluated}@}. \(Note that {@{function types such as `X => Y`}@} are considered as {@{`Function2[X, Y]`}@}, so they are also {@{types with type parameters}@}.\) To {@{evaluate `X`}@}, inspect {@{the variance of the type parameter in the _definition_ of `T`}@}. If {@{`U` is invariant \(`U`\)}@}, then {@{`X` is invariant}@}. If {@{`U` is covariant \(`+U`\)}@}, then {@{`X` has the _same_ variance as `T[X]`}@}. If {@{`U` is contravariant \(`-U`\)}@}, then {@{`X` has the _opposite_ variance as `T[X]`}@}. {@{Recursively repeat this process}@} until {@{there are no more unevaluated inner types}@}.
+
+Finally, compare {@{the _possible variance_ a _type_ can have versus its _actual variance_}@}. For {@{types that are not type parameters of `A`}@}, we can {@{simply ignore them}@}. For {@{types that are type parameters of `A`}@}, check if {@{the type parameter variance is compatible with the possible variance}@}: {@{_possibly_ invariant type}@} is compatible with {@{invariant type parameters}@}, {@{_possibly_ covariant type}@} is compatible with {@{invariant or covariant type parameters}@}, and {@{_possibly_ contravariant type}@} is compatible with {@{invariant or contravariant type parameters}@}.
+
+> [!example] __variance check__
+>
+> Consider {@{the following class definition}@}:
+>
+> ```Scala
+> class A[T, +U, -V]:
+>   val a1: T = ???                      // `T`; possible: covariant, actual: invariant
+>   val a2: U = ???                      // `U`; possible: covariant, actual: covariant
+>   // val a3: V = ???                   // `V`; possible: covariant, actual: contravariant
+>   val b1: T => Unit = ???              // `T`; possible: contravariant, actual: invariant
+>   // val b2: U => Unit = ???           // `U`; possible: contravariant, actual: invariant
+>   val b3: V => Unit = ???              // `V`; possible: contravariant, actual: invariant
+>   def c1(in: T): Unit = ???            // same reasoning as `b1`
+>   // def c2(in: U): Unit = ???         // same reasoning as `b2`
+>   def c3(in: V): Unit = ???            // same reasoning as `b3`
+>   val d1: A[T, U, V] = ???             // interesting...
+>   val d2: A[T, V, U] => Unit = ???     // interesting...
+>   // val d3: A[T, U, V] => Unit = ???  // interesting...
+> ```
+>
+> {@{Commented out code}@} {@{fails to compile}@}. Try to {@{run the above algorithm}@} on this code.
+
+By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime` errors}@}.
 
 ##### variance and inheritance
 
@@ -310,9 +350,9 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 We see:
 
 - `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`.
-- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation).
-- `ChildCovariant[+T]` ::@:: redeclares the same type parameter as _covariant_.
-- `ChildContravariant[-T]` ::@:: causes compilation error.
+- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation), passed to but distinct from the covariant type parameter `T` of `Parent`.
+- `ChildCovariant[+T]` ::@:: declares its type parameter `T` as _covariant_, passed to but distinct from the covariant type parameter `T` of `Parent`.
+- `ChildContravariant[-T]` ::@:: causes compilation error, as `T` is passed to the covariant type parameter `T` of `Parent`.
 
 Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant parent}@}:
 
@@ -380,7 +420,7 @@ Attempting to {@{declare a contravariant child}@} results in {@{a compilation er
 
 To {@{summarize}@}: \(annotation: 3 items: {@{variance of supertype, variance of subtype, opposite variances}@}\)
 
-- variance of supertype ::@:: Subclass variance does not alter the covariance of its supertype when assigning to the superclass type.
+- variance of supertype ::@:: Subclass variance does not alter the variance of its supertype when assigning to the superclass type.
 - variance of subtype ::@:: Subtyping of subclass instances depends on the subclass's own variance annotation; invariant subclasses forbid widening assignments, while covariant ones permit them.
 - opposite variances ::@:: Contravariance cannot be combined with a covariant position \(and vice versa for covariance\) in the same class hierarchy, as the language forbids it to maintain type-soundness.
 
@@ -908,11 +948,11 @@ Here each subclass inherits {@{a uniform `eval` implementation}@} that relies on
 >
 > where `s` denotes {@{a sequence of generators and filters}@}, and `e` is {@{an expression whose value becomes an element of the resulting collection}@}.
 
-{@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to a collection}@} (such as {@{a `Seq`, `Set`, or any type that implements `GenTraversableOnce`}@}), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
+{@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to something _traversable_}@} \(such as {@{a `Seq`, `Set`, or any type that implements `map`, `flatMap`, and `withFilter`}@}\), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
 
 > [!example] __`for` generator__
 >
-> {@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to a collection}@} (such as {@{a `Seq`, `Set`, or any type that implements `GenTraversableOnce`}@}), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
+> {@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to something _traversable_}@} \(such as {@{a `Seq`, `Set`, or any type that implements `map`, `flatMap`, and `withFilter`}@}\), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
 >
 > ```Scala
 > for i <- 1 until n yield i * 2
@@ -948,7 +988,7 @@ Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elem
 
 Note that `for` expressions {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of is usually the same type as the starting collection type}@}.
 
-{@{These rules}@} enable {@{concise expression of complex iterations}@}, automatically translating into {@{calls to `map`, `flatMap`, and `filter` behind the scenes}@}. In summary, {@{`for` expressions}@} {@{enhance readability}@} by hiding {@{the boilerplate of nested function calls while preserving the underlying functional structure}@}.
+{@{These rules}@} enable {@{concise expression of complex iterations}@}, automatically translating into {@{calls to `map`, `flatMap`, and `withFilter` behind the scenes}@}. In summary, {@{`for` expressions}@} {@{enhance readability}@} by hiding {@{the boilerplate of nested function calls while preserving the underlying functional structure}@}.
 
 #### for expression examples
 
