@@ -400,7 +400,7 @@ The content is in teaching order.
   - Q-function / probability ::@:: $$Q(x) := P[X > x] \implies P[X \le x] = 1 - Q(x) \,,$$ where $X$ follows a standard normal distribution, i.e. with mean 0 and standard deviation 1. <p> For a normal distribution $Y$ with mean $\mu_Y$ and standard deviation $\sigma_Y$ \(variance $\sigma_Y^2$\), we compute $$P[Y > y] = Q\left(\frac {y - \mu_Y} {\sigma_Y} \right) \implies P[Y \le y] = 1 - Q\left(\frac {y - \mu_Y} {\sigma_Y} \right) \,.$$
   - Q-function / computation ::@:: There is no closed-form expression for it. A table of values or computers must be used. <p> In MATLAB, use the `qfunc(x)` function or `1 - normcdf(x)`.
 - multivariate normal distribution
-  - multivariate normal distribution / standard random vector ::@:: A __standard Gaussian random vector__ $\mathbf{w}\in\mathbb{R}^{n}$ is an $n$-dimensional random variable whose components are independent, zero-mean, unit-variance normal variables. Its probability density function is $$f_{\mathbf{w}}(\mathbf{w})=\frac{1}{(2\pi)^{\,n/2}}\exp\!\Bigl(-\tfrac12 \,\mathbf{w}^{T}\mathbf{w}\Bigr),$$ which shows that the joint distribution factorises into the product of \(n\) one-dimensional standard normal PDFs and that its covariance matrix equals the identity matrix.
+  - multivariate normal distribution / standard random vector ::@:: A __standard Gaussian random vector__ $\mathbf{w}\in\mathbb{R}^{n}$ is an $n$-dimensional random variable whose components are independent, zero-mean, unit-variance normal variables. Its probability density function is $$f_{\mathbf{w} }(\mathbf{w})=\frac{1}{(2\pi)^{\,n/2} }\exp\!\Bigl(-\tfrac12 \,\mathbf{w}^{T}\mathbf{w}\Bigr),$$ which shows that the joint distribution factorises into the product of \(n\) one-dimensional standard normal PDFs and that its covariance matrix equals the identity matrix.
   - multivariate normal distribution / random vector ::@:: A vector $\mathbf{x}\in\mathbb{R}^n$ is Gaussian if it equals a linear transformation of a standard normal vector $\mathbf w$ plus a shift $\mathbf b$: $$\mathbf{x}=A\mathbf{w}+b \,.$$ <p> Its _mean_ vector is $\mathbf b$. Its _covariance_ matrix is $$K=\operatorname{Cov}\{\mathbf{x}\}=AA^{T} \,.$$
   - multivariate normal distribution / communications theory ::@:: These properties make Gaussian vectors convenient for modelling multiple-antenna channels.
 - [sample mean](../../../../general/sample%20mean%20and%20covariance.md)
@@ -452,12 +452,23 @@ The content is in teaching order.
     - [§ bit error rate with zero threshold](binary%20modulation.md#bit%20error%20rate%20with%20zero%20threshold)
     - [§ bit error rate with arbitrary threshold](binary%20modulation.md#bit%20error%20rate%20with%20arbitrary%20threshold)
     - [§ bit error rate insight](binary%20modulation.md#bit%20error%20rate%20insight)
-    - [§ using Q-function](binary%20mo2dulation.md#using%20Q-function)
+    - [§ using Q-function](binary%20modulation.md#using%20Q-function)
 
 ## week 3 lecture 2
 
 - datetime: 2025-09-18T09:00:00+08:00/2025-09-18T10:20:00+08:00, PT1H20M
-- topic:
+- topic: binary modulation optimization; bit error rate optimization; filter optimization
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
+    - [§ bit error rate with zero threshold](binary%20modulation.md#bit%20error%20rate%20with%20zero%20threshold)
+    - [§ bit error rate with arbitrary threshold](binary%20modulation.md#bit%20error%20rate%20with%20arbitrary%20threshold)
+    - [§ bit error rate insight](binary%20modulation.md#bit%20error%20rate%20insight)
+    - [§ using Q-function](binary%20modulation.md#using%20Q-function)
+    - [§ optimization](binary%20modulation.md#optimization)
+    - [§ bit error rate optimization](binary%20modulation.md#bit%20error%20rate%20optimization)
+    - [§ filter optimization](binary%20modulation.md#filter%20optimization)
+    - [§ response of LTI system to WSS random signal](binary%20modulation.md#response%20of%20LTI%20system%20to%20WSS%20random%20signal)
 
 ## week 3 tutorial
 
@@ -467,7 +478,62 @@ The content is in teaching order.
 ## week 4 lecture
 
 - datetime: 2025-09-23T09:00:00+08:00/2025-09-23T10:20:00+08:00, PT1H20M
-- topic:
+- topic: matched filter; correlator
+- status: online
+- [matched filter](../../../../general/matched%20filter.md) ::@:: The output of the __matched filter__ is given by correlating a known delayed signal, or _template_, with an unknown signal to detect the presence of the template in the unknown signal. This is equivalent to convolving the unknown signal with a conjugated time-reversed version of the template.
+  - matched filter / optimality ::@:: The matched filter is the optimal linear filter for maximizing the signal-to-noise ratio \(SNR\) in the presence of additive stochastic noise.
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ matched filter](binary%20modulation.md#matched%20filter)
+    - [§ correlator](binary%20modulation.md#correlator)
+    - [§ energy optimization](binary%20modulation.md#energy%20optimization)
+- [signal modulation](../../../../general/signal%20modulation.md) ::@:: It is the process of varying one or more properties of a periodic waveform in electronics and telecommunication for the purpose of transmitting information.
+- [non-return-to-zero](../../../../general/non-return-to-zero.md) ::@:: The line code is a binary code in which ones are represented by one significant condition, usually a positive voltage, while zeros are represented by some other significant condition, usually a negative voltage, with no other neutral or rest condition.
+  - non-return-to-zero / bipolar ::@:: _One_ is represented by one physical level (usually a positive voltage), while _zero_ is represented by another level (usually a negative voltage). <p> \(__this course__: use the name "_antipodal signaling_"\)
+    - non-return-to-zero / bipolar / signals ::@:: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = -A && t \in [0, T] \\ s_1(t) & = A && t \in [0, T] \end{aligned}$$
+  - non-return-to-zero / unipolar ::@:: _One_ is represented by a DC bias on the transmission line (conventionally positive), while _zero_ is represented by the absence of bias – the line at 0 volts or grounded. <p> \(__this course__: use the name "_non-return to zero_" \(NRZ\)\)
+    - non-return-to-zero / unipolar / signals ::@:: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = 0 && t \in [0, T] \\ s_1(t) & = A && t \in [0, T] \end{aligned}$$
+- [amplitude-shift keying](../../../../general/amplitude-shift%20keying.md) \(ASK\) ::@:: It is a form of amplitude modulation that represents digital data as variations in the amplitude of a carrier wave. For example, if each symbol represents a single bit, then the carrier signal could be transmitted at nominal amplitude when the input value is 1, but transmitted at reduced amplitude or not at all when the input value is 0.
+  - amplitude-shift keying / signals ::@:: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = 0 && t \in [0, T] \\ s_1(t) & = A \cos(\omega t + \theta) && t \in [0, T] \end{aligned}$$ for some constant $\omega$ and $\theta$. Note we usually choose $\omega$ such that $\omega T$ is a multiple of $2\pi$ to ensure smooth phase transition between symbols.
+- [phase-shift keying](../../../../general/phase-shift%20keying.md) \(PSK\) ::@:: It is a digital modulation process which conveys data by changing (modulating) the phase of a constant frequency carrier wave. The modulation is accomplished by varying the sine and cosine inputs at a precise time.
+  - phase-shift keying / binary phase-shift keying \(BPSK\) ::@:: It is the simplest form of phase shift keying (PSK). It uses two phases which are separated by 180° and so can also be termed 2-PSK.
+    - phase-shift keying / binary phase-shift keying / signals ::@:: Note this is only one of the _possible_ implementations: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = -A \cos(\omega t + \theta) && t \in [0, T] \\ s_1(t) & = A \cos(\omega t + \theta) && t \in [0, T] \end{aligned}$$ for some constant $\omega$ and $\theta$. Note we usually choose $\omega$ such that $\omega T$ is a multiple of $2\pi$ to ensure smooth phase transition between symbols.
+- [frequency-shift keying](../../../../general/frequency-shift%20keying.md) ::@:: It is a frequency modulation scheme in which digital information is encoded on a carrier signal by periodically shifting the frequency of the carrier between several discrete frequencies.
+  - frequency-shift keying / signals ::@:: Note this is only one of the _possible_ implementations: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = A \cos(\omega_1 t + \theta) && t \in [0, T] \\ s_1(t) & = A \cos(\omega_2 t + \theta) && t \in [0, T] \end{aligned}$$ for some constant $\omega_1$, $\omega_2$, and $\theta$. Note we usually choose $\omega_1$ and $\omega_2$ such that $\omega_1 \ne \omega_2$ and $\omega_1 T$ and $\omega_2 T$ are both multiples of $2\pi$ to ensure smooth phase transition between symbols.
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ modulation schemes](binary%20modulation.md#modulation%20schemes)
+    - [§ bipolar non-return-to-zero](binary%20modulation.md#bipolar%20non-return-to-zero)
+    - [§ polar non-return-to-zero](binary%20modulation.md#polar%20non-return-to-zero)
+    - [§ amplitude-shift keying](binary%20modulation.md#amplitude-shift%20keying)
+    - [§ phase-shift keying](binary%20modulation.md#phase-shift%20keying)
+    - [§ frequency-shift keying](binary%20modulation.md#frequency-shift%20keying)
+
+---
+
+__<big><big>Arrangement on Tue lecture (23/9)</big></big>__
+
+> Dear students
+>
+> in view of the typhoon, let's do zoom lecture tomorrow at 9:00am. The physical lecture will resume on Thursday hopefully. Thanks
+>
+> \[redacted\]
+>
+> here is the zoom link
+>
+> \[redacted\]
+
+---
+
+> __<big><big>Zoom Recording and whiteboard for Tue Lecture (23/9)</big></big>__
+>
+> Hi Students
+>
+> Here is the whiteboard pdf \(in file\) and zoom recording. See you on Thursday.
+>
+> Recording:
+>
+> \[redacted\]
 
 ## week 4 lecture 2
 
@@ -492,6 +558,61 @@ The content is in teaching order.
 ## week 5 tutorial
 
 - datetime: 2025-10-03T15:30:00+08:00/2025-10-03T16:20:00+08:00, PT50M
+- topic:
+
+## week 6 lecture
+
+- datetime: 2025-10-07T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 6 lecture 2
+
+- datetime: 2025-10-09T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 6 tutorial
+
+- datetime: 2025-10-10T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
+- topic:
+
+## week 7 lecture
+
+- datetime: 2025-10-14T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- status: canceled; sickness
+
+---
+
+> __<big><big>Cancellation of Lecture on 14 October (Tue)</big></big>__
+>
+> Dear students
+>
+> I am sorry that the lecture tomorrow \(14 October 09:00-10:20am\) will be cancelled due to a medical appointment that I cannot reschedule. The lecture will be resumed on Thursday. Thanks a lot
+>
+> \[redacted\]
+
+## week 7 lecture 2
+
+- datetime: 2025-10-16T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 7 tutorial
+
+- datetime: 2025-10-17T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
+- topic:
+
+## week 8 lecture
+
+- datetime: 2025-10-21T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 8 lecture 2
+
+- datetime: 2025-10-23T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 8 tutorial
+
+- datetime: 2025-10-24T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
 - topic:
 
 ## aftermath
