@@ -68,7 +68,7 @@ In {@{English, this first-order sentence}@} reads:
 &emsp; {@{the elements of $X$ are not pairwise disjoint}@} or <br/>
 &emsp; there {@{exists a set $C$ such that its intersection with any of the elements of $X$ contains exactly one element}@}.
 
-This guarantees for {@{any [partition of a set](partition%20of%20a%20set.md) $X$}@} {@{the existence of a subset $C$ of $X$ containing exactly one element from each part of the partition}@}.
+This guarantees for {@{any [partition of a set](partition%20of%20a%20set.md) $X$}@} {@{the existence of a subset $C$ of $X$}@} containing {@{exactly one element from each part of the partition}@}.
 
 Another equivalent axiom {@{only considers collections $X$}@} that are {@{essentially powersets of other sets}@}:
 

@@ -304,7 +304,7 @@ Consider {@{contravariance}@}: if {@{`C[-T]` is contravariant}@}, then {@{`C[B] 
 
 To check {@{variance in a class _definition_ `A` in general}@}, consider {@{the _possible variance_ a _type_ can have}@}. It can be {@{either invariant, covariant, or contravariant}@}.
 
-{@{The types of `val`s in a class}@} \(and {@{method `def`s}@} are considered as {@{`val`s of the function type}@}\) are {@{covariant}@}. Then, {@{recursively evaluate the variance}@} of {@{the _inner types_ in types with type parameters}@}, e.g. {@{`T[X]`}@} where {@{`T[X]` has a known variance}@} and {@{the variance of `X` needs to be evaluated}@}. \(Note that {@{function types such as `X => Y`}@} are considered as {@{`Function2[X, Y]`}@}, so they are also {@{types with type parameters}@}.\) To {@{evaluate `X`}@}, inspect {@{the variance of the type parameter in the _definition_ of `T`}@}. If {@{`U` is invariant \(`U`\)}@}, then {@{`X` is invariant}@}. If {@{`U` is covariant \(`+U`\)}@}, then {@{`X` has the _same_ variance as `T[X]`}@}. If {@{`U` is contravariant \(`-U`\)}@}, then {@{`X` has the _opposite_ variance as `T[X]`}@}. {@{Recursively repeat this process}@} until {@{there are no more unevaluated inner types}@}.
+{@{The types of `val`s in a class}@} \(and {@{method `def`s}@} are considered as {@{`val`s of the function type}@}\) are {@{covariant}@}. Then, {@{recursively evaluate the variance}@} of {@{the _inner types_ in types with type parameters}@}, e.g. {@{`T[X]`}@} where {@{`T[X]` has a known variance}@} and {@{the variance of `X` needs to be evaluated}@}. \(Note that {@{function types such as `X => Y`}@} are considered as {@{`Function1[X, Y]`}@}, so they are also {@{types with type parameters}@}.\) To {@{evaluate `X`}@}, inspect {@{the variance of the type parameter in the _definition_ of `T`}@}. If {@{`U` is invariant \(`U`\)}@}, then {@{`X` is invariant}@}. If {@{`U` is covariant \(`+U`\)}@}, then {@{`X` has the _same_ variance as `T[X]`}@}. If {@{`U` is contravariant \(`-U`\)}@}, then {@{`X` has the _opposite_ variance as `T[X]`}@}. {@{Recursively repeat this process}@} until {@{there are no more unevaluated inner types}@}.
 
 Finally, compare {@{the _possible variance_ a _type_ can have versus its _actual variance_}@}. For {@{types that are not type parameters of `A`}@}, we can {@{simply ignore them}@}. For {@{types that are type parameters of `A`}@}, check if {@{the type parameter variance is compatible with the possible variance}@}: {@{_possibly_ invariant type}@} is compatible with {@{invariant type parameters}@}, {@{_possibly_ covariant type}@} is compatible with {@{invariant or covariant type parameters}@}, and {@{_possibly_ contravariant type}@} is compatible with {@{invariant or contravariant type parameters}@}.
 
@@ -334,11 +334,11 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 
 ##### variance and inheritance
 
-{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}:
+{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}:
 
 > [!example] __hierarchy__
 >
-> {@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}:
+> {@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}:
 >
 > ```Scala
 > trait Parent[+T]                                              // covariant in T
@@ -1120,11 +1120,11 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > e1.map(x => e2)
 > ```
 
-{@{A more elaborate form}@} that mixes {@{generators and guards}@}:
+{@{A more elaborate form of _for_}@} that mixes {@{generators and guards}@}:
 
 > [!example] __rewriting `for` guard__
 >
-> {@{A more elaborate form}@} that mixes {@{generators and guards}@}:
+> {@{A more elaborate form of _for_}@} that mixes {@{generators and guards}@}:
 >
 > ```Scala
 > for x <- e1 if pred; s yield e2
@@ -1136,11 +1136,11 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > for x <- e1.withFilter(x => pred); s yield e2
 > ```
 
-and {@{a nested generator}@}:
+{@{Another form of _for_}@} that has {@{a nested generator}@}:
 
 > [!example] __rewriting `for` nested generators__
 >
-> and {@{a nested generator}@}:
+> {@{Another form of _for_}@} that has {@{a nested generator}@}:
 >
 > ```Scala
 > for x <- e1; y <- e2; s yield e3

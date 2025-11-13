@@ -66,7 +66,7 @@ The content is in teaching order.
   - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making
 - organization types ::@:: manufacturing company, merchandising company, service company
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products
-  - merchandising company ::@:: sell manufactured goods; wholesalers: to other businesses; retailers: to the general public
+  - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public
   - service company ::@:: provide service to clients or customers
 - cost classifications ::@:: manufacturing, relevance, timing, traceability, variability
   - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing

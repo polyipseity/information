@@ -15,9 +15,9 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Graph%20connectivity%20sidebar) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Graph%20connectivity%20sidebar) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AGraph%20connectivity%20sidebar) | -->
 
-In {@{[graph theory](graph%20theory.md)}@}, a __biconnected graph__ is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph has no [articulation vertices](biconnected%20component.md)}@}.
+In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected graph__}@} is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph}@} has {@{no [articulation vertices](biconnected%20component.md)}@}.
 
-{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity, except that the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}.
+{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity}@}, except that {@{the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}.
 
 This property is especially {@{useful in maintaining a graph with a two-fold [redundancy](redundancy%20(engineering).md)}@}, to {@{prevent disconnection upon the removal of a single [edge](glossary%20of%20graph%20theory.md#edge) \(or connection\)}@}.
 
