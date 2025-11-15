@@ -176,12 +176,13 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 > ```Scala
 > def sort[T](xs: List[T])(using Ordering[T]): List[T] =
 >   ...  // omitted
->   merge(sort(fst), sort(snd)) …
+>   merge(sort(fst), sort(snd))
+>   ...  // omitted
 > ```
 >
 > can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}.
 
-This is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}.
+{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}.
 
 ### context bound
 
@@ -282,7 +283,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 >
 > {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}.
 
-In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on type and its type parameter}@}. In the example above, {@{`listOrdering[T]`}@} pattern matches on {@{`T`}@} for {@{the pattern `List[U]`}@}.
+In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}.
 
 ### recursive `given` resolution
 

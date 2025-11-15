@@ -12,7 +12,7 @@ tags:
 
 # average cost
 
-In {@{[economics](economics.md)}@}, {@{__average cost__ \(__AC__\) or __unit cost__}@} is {@{equal to [total cost](total%20cost.md) \(TC\) divided by the number of units of a [good](goods.md) produced \(the [output](output%20(economics).md) Q\): $$AC={\frac {TC}{Q} }.$$}@}
+In {@{[economics](economics.md)}@}, {@{__average cost__ \(__AC__\) or __unit cost__}@} is equal to {@{[total cost](total%20cost.md) \(TC\) divided by the number of units of a [good](goods.md) produced \(the [output](output%20(economics).md) Q\)}@}: {@{$$AC={\frac {TC}{Q} } \,.$$}@}
 
 {@{Average cost is an important factor}@} in {@{determining how businesses will choose to [price](pricing.md) their products}@}.
 
@@ -53,7 +53,7 @@ When {@{average cost is declining as output increases}@}, {@{marginal cost is le
 
 {@{Other special cases}@} for {@{average cost and marginal cost appear frequently}@}:
 
-- {@{Constant marginal cost/high [fixed costs](fixed%20cost.md)}@}: {@{each additional [unit of production](unit%20of%20production.md) is produced at constant additional expense per unit}@}. {@{The average cost curve}@} {@{slopes down continuously, approaching marginal cost}@}. An example is {@{[hydroelectric](hydroelectric.md) generation}@}, which has {@{no fuel expense, limited maintenance expenses and a high up-front fixed cost \(ignoring irregular maintenance costs or useful lifespan\)}@}. {@{Industries with fixed marginal costs}@}, such as {@{electrical transmission networks}@}, may {@{meet the conditions for a [natural monopoly](natural%20monopoly.md)}@}, because {@{once capacity is built, the marginal cost to the incumbent of serving an additional customer is always lower than the average cost for a potential competitor}@}. {@{The high fixed capital costs}@} are {@{a [barrier to entry](barrier%20to%20entry.md)}@}.
+- {@{Constant marginal cost/high [fixed costs](fixed%20cost.md)}@}: {@{each additional [unit of production](unit%20of%20production.md) is produced at constant additional expense per unit}@}. {@{The average cost curve}@} {@{slopes down continuously, approaching marginal cost}@}. An example is {@{[hydroelectric](hydroelectric.md) generation}@}, which has {@{no fuel expense, limited maintenance expenses and a high up-front fixed cost \(ignoring irregular maintenance costs or useful lifespan\)}@}. {@{Industries with fixed marginal costs}@}, such as {@{electrical transmission networks}@}, may {@{meet the conditions for a [natural monopoly](natural%20monopoly.md)}@}, because {@{once capacity is built}@}, {@{the marginal cost to the incumbent of serving an additional customer}@} is {@{always lower than the average cost for a potential competitor}@}. {@{The high fixed capital costs}@} are {@{a [barrier to entry](barrier%20to%20entry.md)}@}.
 
 - {@{Two popular pricing mechanisms}@} are {@{[average cost pricing](average%20cost%20pricing.md) \(or rate of return regulation\) and marginal cost pricing}@}. {@{A monopoly produces where its average cost curve meets the market demand curve under average cost pricing}@}, referred to as {@{the average cost pricing equilibrium}@}.
 

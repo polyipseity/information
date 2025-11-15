@@ -32,7 +32,7 @@ For sequences, {@{inversions according to the element-based definition are not u
 
 ### inversion number
 
-{@{The __inversion number__ ${\mathtt {inv} }(X)$<sup>[\[10\]](#^ref-10)</sup>}@} of {@{a sequence $X=\langle x_{1},\dots ,x_{n}\rangle$}@}, is {@{the [cardinality](cardinality.md) of the inversion set}@}. It is {@{a common measure of sortedness \(sometimes called presortedness\) of a permutation<sup>[\[5\]](#^ref-5)</sup> or sequence}@}.<sup>[\[9\]](#^ref-9)</sup> The inversion number is {@{between 0 and ${\frac {n(n-1)}{2} }$ inclusive}@}. {@{A permutation and its inverse}@} have {@{the same inversion number}@}.
+{@{The __inversion number__ ${\mathtt {inv} }(X)$<sup>[\[10\]](#^ref-10)</sup>}@} of {@{a sequence $X=\langle x_{1},\dots ,x_{n}\rangle$}@}, is {@{the [cardinality](cardinality.md) of the inversion set}@}. It is {@{a common measure of sortedness \(sometimes called presortedness\)}@} of {@{a permutation<sup>[\[5\]](#^ref-5)</sup> or sequence}@}.<sup>[\[9\]](#^ref-9)</sup> The inversion number is {@{between 0 and ${\frac {n(n-1)}{2} }$ inclusive}@}. {@{A permutation and its inverse}@} have {@{the same inversion number}@}.
 
 For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{the sequence is ordered}@}. Also, {@{when $n=2m$ is even}@}, {@{${\mathtt {inv} }(\langle m+1,m+2,\dots ,2m,1,2,\dots ,m\rangle )=m^{2}$}@} \(because {@{each pair $(1\leq i\leq m<j\leq 2m)$ is an inversion}@}\). This last example shows that {@{a set that is intuitively "nearly sorted" can still have a quadratic number of inversions}@}.
 
