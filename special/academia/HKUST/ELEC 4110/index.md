@@ -33,8 +33,13 @@ The content is in teaching order.
 
 ## children
 
+- [M-ary transmission](M-ary%20transmission.md)
+- [M-FSK](M-FSK.md)
+- [M-PSK](M-PSK.md)
+- [M-QAM](M-QAM.md)
 - [assignments](assignments/index.md)
 - [questions](questions.md)
+- [transcludes/Fourier transform](transcludes/Fourier%20transform.md)
 
 ## week 1 lecture
 
@@ -538,7 +543,20 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 4 lecture 2
 
 - datetime: 2025-09-25T09:00:00+08:00/2025-09-25T10:20:00+08:00, PT1H20M
-- topic:
+- topic: signal space; signal space motivation; signal space applications; geometric-domain representation; basis; coordinates; constellation diagram; Gram–Schmidt process
+- ELEC 4110
+  - ELEC 4110 / [signal space](signal%20space.md)
+    - [§ motivation](signal%20space.md#motivation)
+    - [§ applications](signal%20space.md#applications)
+    - [§ receiver optimization](signal%20space.md#receiver%20optimization)
+    - [§ M-ary modulation](signal%20space.md#M-ary%20modulation)
+    - [§ geometric domain](signal%20space.md#geometric%20domain)
+    - [§ basis](signal%20space.md#basis)
+    - [§ coordinates](signal%20space.md#coordinates)
+    - [§ definition](signal%20space.md#definition)
+    - [§ energy](signal%20space.md#energy)
+    - [§ constellation diagram](signal%20space.md#constellation%20diagram)
+    - [§ Gram–Schmidt process](signal%20space.md#Gram–Schmidt%20process)
 
 ## week 4 tutorial
 
@@ -548,12 +566,55 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 5 lecture
 
 - datetime: 2025-09-30T09:00:00+08:00/2025-09-30T10:20:00+08:00, PT1H20M
-- topic:
+- topic: signal space algebraic properties; inner product; vector space; Gram–Schmidt process; signal space examples; binary modulation; binary channel; binary receiver; bit error rate
+- ELEC 4110
+  - ELEC 4110 / [signal space](signal%20space.md)
+    - [§ properties](signal%20space.md#properties)
+    - [§ algebraic properties](signal%20space.md#algebraic%20properties)
+    - [§ inner product](signal%20space.md#inner%20product)
+    - [§ geometric concepts](signal%20space.md#geometric%20concepts)
+    - [§ coordinate representation](signal%20space.md#coordinate%20representation)
+    - [§ orthogonality and orthonormality](signal%20space.md#orthogonality%20and%20orthonormality)
+    - [§ linear transformations](signal%20space.md#linear%20transformations)
+    - [§ linear independence](signal%20space.md#linear%20independence)
+    - [§ triangle inequality](signal%20space.md#triangle%20inequality)
+    - [§ Cauchy–Schwarz inequality](signal%20space.md#Cauchy–Schwarz%20inequality)
+    - [§ Pythagorean relation](signal%20space.md#Pythagorean%20relation)
+    - [§ Gram–Schmidt process](signal%20space.md#Gram–Schmidt%20process)
+    - [§ examples](signal%20space.md#examples)
+    - [§ sinusoidal examples](signal%20space.md#sinusoidal%20examples)
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ binary channel](binary%20modulation.md#binary%20channel)
+    - [§ receiver](binary%20modulation.md#receiver)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
 
 ## week 5 lecture 2
 
 - datetime: 2025-10-02T09:00:00+08:00/2025-10-02T10:20:00+08:00, PT1H20M
-- topic:
+- topic: binary receiver; bit error rate; M-ary transmission; constellation diagram; M-PSK; M-QAM; M-FSK; optimal M-ary receiver; noise vector; minimum distance decision rule
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ receiver](binary%20modulation.md#receiver)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
+- [_M_-ary transmission](../../../../general/M-ary%20transmission.md) ::@:: It is a type of digital modulation. Instead of sending one bit at a time as in binary, multiple messages, M, are sent. The binary data stream is divided into n tuples, where n = log₂ M bits. The signals can be represented as different frequencies, as in MFSK.
+  - _M_-ary transmission / advantages ::@:: This type of transmission results in reduced channel _bandwidth_ \(compared to halving the symbol time, which doubles the bandwidth\) at the expense of higher bit error rates.
+- ELEC 4110
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
+    - [§ background](M-ary%20transmission.md#background)
+    - [§ energy and power](M-ary%20transmission.md#energy%20and%20power)
+    - [§ bandwidth](M-ary%20transmission.md#bandwidth)
+    - [§ digital modulation](M-ary%20transmission.md#digital%20modulation)
+    - [§ signal space](M-ary%20transmission.md#signal%20space)
+    - [§ constellation diagram](M-ary%20transmission.md#constellation%20diagram)
+    - [§ modulation families](M-ary%20transmission.md#modulation%20families)
+    - [§ M-PSK](M-ary%20transmission.md#M-PSK)
+    - [§ M-QAM](M-ary%20transmission.md#M-QAM)
+    - [§ M-FSK](M-ary%20transmission.md#M-FSK)
+    - [§ optimal receiver](M-ary%20transmission.md#optimal%20receiver)
+    - [§ channel](M-ary%20transmission.md#channel)
+    - [§ noise vector](M-ary%20transmission.md#noise%20vector)
+    - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
 
 ## week 5 tutorial
 
@@ -563,12 +624,26 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 6 lecture
 
 - datetime: 2025-10-07T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
-- topic:
+- status: unscheduled; public holiday: Day after Mid-Autumn Festival
 
 ## week 6 lecture 2
 
 - datetime: 2025-10-09T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
-- topic:
+- topic: minimum distance decision rule; energy optimization; M-ary transmission implementation; M-FSK; M-pSK; M-QAM
+- ELEC 4110
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
+    - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
+    - [§ error analysis for minimum distance](M-ary%20transmission.md#error%20analysis%20for%20minimum%20distance)
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ energy optimization](binary%20modulation.md#energy%20optimization)
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
+    - [§ implementation](M-ary%20transmission.md#implementation)
+    - [§ complexity](M-ary%20transmission.md#complexity)
+    - [§ constellation diagram](M-ary%20transmission.md#constellation%20diagram)
+    - [§ M-FSK](M-ary%20transmission.md#M-FSK)
+    - [§ M-PSK](M-ary%20transmission.md#M-PSK)
+    - [§ M-QAM](M-ary%20transmission.md#M-QAM)
+    - [§ peak-to-average power ratio](M-ary%20transmission.md#peak-to-average%20power%20ratio)
 
 ## week 6 tutorial
 
@@ -593,7 +668,12 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 7 lecture 2
 
 - datetime: 2025-10-16T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
-- topic:
+- topic: ???
+- ELEC 4110
+  - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
+    - [§ effects of bandwidth and power](M-ary%20transmission.md#effects%20of%20bandwidth%20and%20power)
+    - [§ decision regions](M-ary%20transmission.md#decision%20regions)
+    - [§ maximum likelihood](M-ary%20transmission.md#maximum%20likelihood)
 
 ## week 7 tutorial
 
