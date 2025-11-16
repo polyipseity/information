@@ -432,16 +432,16 @@ To summarize, {@{a single use case}@} should capture {@{a complete, meaningful t
 
 ## analysis models
 
-{@{The analysis phase}@} of a software project often expands {@{the number of conceptual classes by up to five times compared with earlier stages}@}. In this phase, analysis focuses on {@{functional requirements only}@}; {@{implementation details}@} such as {@{programming‑language types or UI layouts}@} are {@{deliberately omitted}@}.
+{@{The analysis phase}@} of a software project often expands {@{the number of conceptual classes by up to five times compared with earlier stages}@}. In this phase, analysis focuses on {@{functional requirements only}@}; {@{implementation details}@} such as {@{programming-language types or UI layouts}@} are {@{deliberately omitted}@}.
 
-{@{Class descriptions}@} are {@{intentionally kept abstract and independent}@} of {@{any specific programming language or implementation framework}@}. {@{Attribute types}@} describe {@{real‑world concepts rather than concrete data types}@}; {@{behavior}@} is captured through {@{textual responsibilities instead of method signatures}@}, and {@{relationships between classes}@} are defined in terms of {@{conceptual associations, not low‑level references}@}.
+{@{Class descriptions}@} are {@{intentionally kept abstract and independent}@} of {@{any specific programming language or implementation framework}@}. {@{Attribute types}@} describe {@{real-world concepts rather than concrete data types}@}; {@{behavior}@} is captured through {@{textual responsibilities instead of method signatures}@}, and {@{relationships between classes}@} are defined in terms of {@{conceptual associations, not low-level references}@}.
 
 ### analysis classes
 
 {@{An analysis class}@} can be {@{one of three stereotypes}@}: {@{_boundary_, _control_, or _entity_}@}. {@{Each stereotype}@} represents {@{a distinct aspect of the system}@} and guides {@{later design decisions}@}.
 
 - boundary classes ::@:: model interactions with actors
-- entity classes ::@:: encapsulate long‑lived domain data
+- entity classes ::@:: encapsulate long-lived domain data
 - control classes ::@:: coordinate behaviour that does not naturally belong to either boundary or entity
 
 {@{Partitioning a use case}@} distributes {@{responsibilities across boundary, entity and control classes}@}. {@{Boundary classes}@} handle {@{environment and external interaction}@}, {@{entity classes}@} manage {@{data storage and processing}@}, and {@{control classes}@} implement {@{the specific logic of the use case}@}. {@{This separation}@} facilitates {@{_localization_ of changes}@} and improves {@{maintainability and _traceability_ \(to use cases\)}@} by resulting in {@{a _stable system_}@}. This means if there is {@{a change in requirements}@}, we start {@{from the use case diagram}@}, identify {@{affected actors}@}, and then {@{trace through boundary, control, and entity classes}@}; this {@{minimizes effort to change requirements}@}.
@@ -454,19 +454,19 @@ In practice, we need to {@{make many judgement calls}@} to {@{place the function
 
 It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<boundary>>`}@}; second, it can appear as {@{a circle with an `T` shape extending outward \(typically leftward\)}@}, looking like {@{a push button on a circle}@}. \(__this course__: Use {@{the second way}@}.\)
 
-{@{Boundary classes}@} are derived from {@{use‑case descriptions}@} by beginning with {@{the actors}@} and determining {@{what forms, windows or messages}@} they require to {@{interact with the system}@}. The focus is on {@{functional elements}@}—{@{data entry and response}@}—not on {@{visual layout details}@}. When {@{naming and describing these interfaces}@}, practitioners should adopt {@{the terminology that users themselves employ}@}, ensuring the model remains {@{close to real‑world language and user expectations}@}.
+{@{Boundary classes}@} are derived from {@{use-case descriptions}@} by beginning with {@{the actors}@} and determining {@{what forms, windows or messages}@} they require to {@{interact with the system}@}. The focus is on {@{functional elements}@}—{@{data entry and response}@}—not on {@{visual layout details}@}. When {@{naming and describing these interfaces}@}, practitioners should adopt {@{the terminology that users themselves employ}@}, ensuring the model remains {@{close to real-world language and user expectations}@}.
 
-When {@{specifying boundaries class for a model}@}, begin by creating {@{a single boundary object for every actor—use case combination}@}. For {@{human actors}@} this object represents {@{the main user‑interface window through which they interact with the system}@}, while for {@{non‑human or external system actors}@} it stands for {@{the communication endpoint that connects to those systems}@}. {@{This one‑to‑one mapping}@} keeps {@{boundary responsibilities focused and simplifies later refinement}@}. If possible, {@{reuse the same boundary object}@} for an actor, e.g. {@{the boundary object `ProfessorUI` for the actor `Professor`}@}, which includes {@{`CreateScheduleUI`, `SelectCoursesUI` among others}@}.
+When {@{specifying boundaries class for a model}@}, begin by creating {@{a single boundary object for every actor—use case combination}@}. For {@{human actors}@} this object represents {@{the main user-interface window through which they interact with the system}@}, while for {@{non-human or external system actors}@} it stands for {@{the communication endpoint that connects to those systems}@}. {@{This one-to-one mapping}@} keeps {@{boundary responsibilities focused and simplifies later refinement}@}. If possible, {@{reuse the same boundary object}@} for an actor, e.g. {@{the boundary object `ProfessorUI` for the actor `Professor`}@}, which includes {@{`CreateScheduleUI`, `SelectCoursesUI` among others}@}.
 
 {@{Boundary objects}@} interact {@{only with control objects and actors}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in the system interface}@}. {@{Actors}@} interact {@{only with boundary objects}@}. These result in a {@{well structured and maintainable}@} system.
 
 #### entity classes
 
-{@{Entity classes}@} model {@{long-lived and often persistent information}@}. They represent {@{real‑world concepts}@} such as {@{people, events, courses, or departments}@}. They are treated as {@{dynamic objects within the analysis model}@} but typically correspond to {@{persistent data stored in a database}@}.
+{@{Entity classes}@} model {@{long-lived and often persistent information}@}. They represent {@{real-world concepts}@} such as {@{people, events, courses, or departments}@}. They are treated as {@{dynamic objects within the analysis model}@} but typically correspond to {@{persistent data stored in a database}@}.
 
 It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<entity>>`}@}; second, it can appear as {@{a circle with an underline under it}@}. \(__this course__: Use {@{the second way}@}.\)
 
-To {@{specify entity classes for a model}@}, dissect {@{each use‑case scenario}@} and asking {@{which domain entities must participate in that flow}@}. By tracing {@{the steps of a scenario}@}—such as {@{retrieving data, performing calculations or persisting results}@}—you can pinpoint {@{the concrete entity classes}@} that are {@{necessary to fulfil the use case's responsibilities}@}. \(e.g. {@{`Course`, `CourseOffering`, and `Professor`}@} in {@{a course registration system}@}\) The process is somewhat similar to {@{constructing a domain model}@}.
+To {@{specify entity classes for a model}@}, dissect {@{each use-case scenario}@} and asking {@{which domain entities must participate in that flow}@}. By tracing {@{the steps of a scenario}@}—such as {@{retrieving data, performing calculations or persisting results}@}—you can pinpoint {@{the concrete entity classes}@} that are {@{necessary to fulfil the use case's responsibilities}@}. \(e.g. {@{`Course`, `CourseOffering`, and `Professor`}@} in {@{a course registration system}@}\) The process is somewhat similar to {@{constructing a domain model}@}.
 
 {@{Entity objects}@} interact {@{only with control objects}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in information}@}. These result in a {@{well structured and maintainable}@} system.
 
@@ -484,15 +484,15 @@ To {@{specify control classes for a model}@}, start by creating {@{a single cont
 
 {@{The analysis phase}@} establishes {@{a conceptual model}@} using {@{boundary, entity, and control classes}@}, while {@{the design phase}@} translates {@{this model into concrete implementation classes}@}.
 
-{@{Clear separation of concerns, low coupling, high cohesion}@}, {@{active‑class identification, and adherence to SOLID principles}@} help produce {@{a robust, maintainable system}@} that can {@{adapt to evolving requirements}@}.
+{@{Clear separation of concerns, low coupling, high cohesion}@}, {@{active-class identification, and adherence to SOLID principles}@} help produce {@{a robust, maintainable system}@} that can {@{adapt to evolving requirements}@}.
 
 ### design classes
 
-{@{A _design class_}@} is {@{a fully specified component}@} that has been {@{completed to the point where it can be translated directly into code}@}. It represents {@{a problem‑domain concept \(analysis\) whose behavior and interface have been completely defined}@}, enabling developers to {@{implement it using solution‑domain (technology) classes}@}. Design classes form {@{the core of the system's architecture}@} and serve as {@{the blueprint for subsequent implementation phases}@}.
+{@{A _design class_}@} is {@{a fully specified component}@} that has been {@{completed to the point where it can be translated directly into code}@}. It represents {@{a problem-domain concept \(analysis\) whose behavior and interface have been completely defined}@}, enabling developers to {@{implement it using solution-domain (technology) classes}@}. Design classes form {@{the core of the system's architecture}@} and serve as {@{the blueprint for subsequent implementation phases}@}.
 
-{@{Boundary classes}@} are determined by {@{the choice of user‑interface or communication technologies}@}. They act as {@{the system's interface layer}@}, translating {@{external input into internal data structures}@} and presenting {@{output back to users or other systems}@}. By {@{encapsulating UI logic}@}, boundary classes keep {@{presentation concerns separate from business rules}@}.
+{@{Boundary classes}@} are determined by {@{the choice of user-interface or communication technologies}@}. They act as {@{the system's interface layer}@}, translating {@{external input into internal data structures}@} and presenting {@{output back to users or other systems}@}. By {@{encapsulating UI logic}@}, boundary classes keep {@{presentation concerns separate from business rules}@}.
 
-{@{Entity classes}@} are determined by {@{the choice of technology for data persistence and management}@}. These classes model {@{domain objects that correspond to database tables or other storage mechanisms}@}. They contain {@{attributes and basic operations}@} required for {@{CRUD (create‑read‑update‑delete) interactions}@}, thereby bridging {@{the gap between in‑memory representations and durable storage}@}.
+{@{Entity classes}@} are determined by {@{the choice of technology for data persistence and management}@}. These classes model {@{domain objects that correspond to database tables or other storage mechanisms}@}. They contain {@{attributes and basic operations}@} required for {@{CRUD (create-read-update-delete) interactions}@}, thereby bridging {@{the gap between in-memory representations and durable storage}@}.
 
 {@{Control classes}@} are determined by {@{system behavior across multiple concerns}@} such as {@{distribution, performance, and transactions}@}. They determine whether {@{a separate design class}@} is {@{necessary on each node}@}, decide when to {@{merge with boundary classes for efficiency}@}, and enforce {@{transaction management}@}.
 
@@ -507,19 +507,19 @@ In practice, {@{design classes}@} are described by {@{the syntax of the programm
 
 {@{An _active class_}@} runs {@{its own thread of control}@} and is typically a {@{boundary or control class}@}. They are shown with {@{_a thicker border_ in class diagrams}@} to {@{distinguish them from passive ones}@}. It is identified by {@{performance, throughput or availability requirements}@}; when {@{distribution across multiple nodes}@} is required; or {@{other requirements}@}.
 
-- performance, throughput, availability ::@:: e.g., real‑time input handling may require a dedicated active object for fast response
-- system distribution ::@:: e.g., one active object per node and additional objects for inter‑node communication enable distributed operation
+- performance, throughput, availability ::@:: e.g., real-time input handling may require a dedicated active object for fast response
+- system distribution ::@:: e.g., one active object per node and additional objects for inter-node communication enable distributed operation
 - other requirements ::@:: Some require an active object capable of initiating or monitoring activity, e.g., system startup/termination, liveness guarantees, deadlock or starvation avoidance, dynamic reconfiguration of nodes, managing connection capacity, etc,
 
 ## cohesion and coupling
 
-In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely coupled_ classes}@}, balancing {@{these often competing goals}@}. {@{The 7±2 rule}@} guides {@{acceptable coupling}@}. The rule—originating from {@{cognitive psychology's limits on working‑memory capacity}@}—suggests that {@{a class or component}@} should expose {@{no more than seven (plus or minus two) other classes, modules, or interfaces}@}.
+In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely coupled_ classes}@}, balancing {@{these often competing goals}@}. {@{The 7±2 rule}@} guides {@{acceptable coupling}@}. The rule—originating from {@{cognitive psychology's limits on working-memory capacity}@}—suggests that {@{a class or component}@} should expose {@{no more than seven (plus or minus two) other classes, modules, or interfaces}@}.
 
-{@{_Cohesion_}@} measures {@{how many distinct responsibilities a class bears}@}; {@{the most cohesive design}@} is {@{one that performs a single, well‑defined function}@}. {@{_Coupling_}@} {@{counts and categorizes a class's dependencies on others}@}; {@{minimal, simple connections}@} yield {@{the lowest coupling}@}, reducing {@{interclass interference and enhancing maintainability}@}.
+{@{_Cohesion_}@} measures {@{how many distinct responsibilities a class bears}@}; {@{the most cohesive design}@} is {@{one that performs a single, well-defined function}@}. {@{_Coupling_}@} {@{counts and categorizes a class's dependencies on others}@}; {@{minimal, simple connections}@} yield {@{the lowest coupling}@}, reducing {@{interclass interference and enhancing maintainability}@}.
 
 ### cohesion
 
-{@{The spectrum of cohesion}@} ranges from classes that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well‑defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal &lt; procedural &lt; communicational &lt; sequential &lt; functional}@}\)
+{@{The spectrum of cohesion}@} ranges from classes that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal &lt; procedural &lt; communicational &lt; sequential &lt; functional}@}\)
 
 1. __Coincidental__ ::@:: — the class has no discernible function.
 2. __Logical__ ::@:: — it groups several related but distinct responsibilities.
@@ -536,20 +536,20 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 1. __No direct__ ::@:: — classes have no relationship.
 2. __Data__ ::@:: — classes communicate solely through primitive data or simple value objects (ideal).
 3. __Stamp__ ::@:: — a fragment of a larger structure is passed as an argument.
-4. __Control__ ::@:: — decision‑making information such as flags or switches is shared.
+4. __Control__ ::@:: — decision-making information such as flags or switches is shared.
 5. __External__ ::@:: — both classes rely on external environment resources.
 6. __Common__ ::@:: — multiple classes share a global data area or singleton.
 7. __Content__ ::@:: — one class accesses the internal data or control information of another (to be _avoided_).
 
 ### SOLID principles
 
-{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object‑oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution, interface segregation, dependency inversion}@}\)
+{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution, interface segregation, dependency inversion}@}\)
 
 - _Single Responsibility Principle_ ::@:: Each class has one responsibility.
 - _Open—Closed Principle_ ::@:: Classes accept extension but resist modification.
 - _Liskov Substitution Principle_ ::@:: Subclasses must be substitutable for superclasses.
 - _Interface Segregation Principle_ ::@:: Clients should not depend on unused interfaces.
-- _Dependency Inversion Principle_ ::@:: High‑level modules should _not_ depend on low-level modules. Both should depend on abstractions. Further, details should depend on abstractions, not the reverse.
+- _Dependency Inversion Principle_ ::@:: High-level modules should _not_ depend on low-level modules. Both should depend on abstractions. Further, details should depend on abstractions, not the reverse.
 
 ## state machine diagrams
 
@@ -557,7 +557,7 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 {@{A state machine diagram}@} is represented by {@{large rectangle with slightly rounded corners}@}. It contains {@{the class name at top}@}, separated by {@{a horizontal line}@} from {@{the state machine diagram below}@} in the rectangle.
 
-When {@{constructing a state‑machine diagram}@}, we begin by {@{listing every possible state the class can occupy}@}. Next, we identify {@{the conditions or triggers}@} that determine {@{which state the class is in at any time}@}. Finally, for {@{each state}@} we specify how it {@{responds to incoming events or messages}@} and detail {@{the actions executed when those events occur}@}.
+When {@{constructing a state-machine diagram}@}, we begin by {@{listing every possible state the class can occupy}@}. Next, we identify {@{the conditions or triggers}@} that determine {@{which state the class is in at any time}@}. Finally, for {@{each state}@} we specify how it {@{responds to incoming events or messages}@} and detail {@{the actions executed when those events occur}@}.
 
 {@{Not every class}@} needs {@{a state machine diagram}@}. They are best suited for {@{classes exhibiting _critical_ or significant _dynamic_ behavior}@}—such as {@{bank accounts, traffic lights, or user interfaces}@}. They provide {@{a concise visual representation}@} of {@{an object's possible behaviors and interactions over time and multiple use cases}@} for {@{clarity and communication to stakeholders}@}.
 
@@ -575,7 +575,7 @@ When {@{constructing a state‑machine diagram}@}, we begin by {@{listing every 
 
 ### transitions
 
-{@{A _transition_}@} connects {@{an origin (source) state to a target state and}@} is {@{triggered by an event}@}. Transitions can be {@{self‑loops when source and target are the same}@}. They occur {@{_instantaneously_, cannot be _interrupted_}@}, and may {@{carry _optional adornments_}@}: {@{an event trigger, guard condition, and effect list}@}.
+{@{A _transition_}@} connects {@{an origin (source) state to a target state and}@} is {@{triggered by an event}@}. Transitions can be {@{self-loops when source and target are the same}@}. They occur {@{_instantaneously_, cannot be _interrupted_}@}, and may {@{carry _optional adornments_}@}: {@{an event trigger, guard condition, and effect list}@}.
 
 For {@{self-transitions}@}, {@{the adornments are listed inside the state}@}. For {@{transitions to other states}@}, {@{an arrow}@} is {@{drawn from the source object to the target}@}, and {@{all adornments are listed}@} next to it. {@{The syntax}@} for {@{a transition}@} is {@{`event trigger [guard condition] / effect list`}@}.
 
@@ -595,15 +595,15 @@ An {@{_event_}@} is {@{something that happens at an _instantaneous_ point in tim
 
 {@{A _time event_}@} represents either {@{an absolute point in time (e.g., `when(date=2025-11-11)`)}@} or {@{a relative delay (e.g., `after(7 seconds)`)}@}. It causes {@{a transition when the specified moment arrives}@}, and it can be used to model {@{timed actions}@} such as {@{automatic state changes or periodic checks}@}.
 
-{@{A _signal event_}@} is {@{an _asynchronous message_ represented by a _stereotyped_ class (`<<signal>>`)}@}. It carries {@{a package of information between objects}@} without {@{waiting for a response}@} and is commonly employed in {@{real‑time system specifications}@} to model {@{non-blocking communication}@}.
+{@{A _signal event_}@} is {@{an _asynchronous message_ represented by a _stereotyped_ class (`<<signal>>`)}@}. It carries {@{a package of information between objects}@} without {@{waiting for a response}@} and is commonly employed in {@{real-time system specifications}@} to model {@{non-blocking communication}@}.
 
 {@{Events in a state machine}@} are {@{handled _sequentially_}@}: {@{each event}@} is {@{examined one at a time}@} and, if {@{no transition matches it}@}, {@{the event is simply _ignored_}@}. {@{At most a _single_ transition}@} may {@{fire for any given event}@}; if {@{two transitions could fire simultaneously}@} the choice becomes {@{nondeterministic (a race condition)}@} and usually indicates {@{a specification error}@}. Consequently, {@{every state transition}@} must be triggered by {@{a distinct event to avoid ambiguity}@}.
 
-{@{A state}@} can be {@{exited either automatically or non‑automatically}@}. {@{_Automatic_ transitions}@} {@{fire immediately once the state's internal activity (if any) finishes}@}, occurring when {@{there are transitions without any _adornments_ \(labels\)}@}; {@{_non‑automatic_ transitions}@} are driven by {@{an explicit event}@} that occurs while {@{the object remains in that state}@}.
+{@{A state}@} can be {@{exited either automatically or non-automatically}@}. {@{_Automatic_ transitions}@} {@{fire immediately once the state's internal activity (if any) finishes}@}, occurring when {@{there are transitions without any _adornments_ \(labels\)}@}; {@{_non-automatic_ transitions}@} are driven by {@{an explicit event}@} that occurs while {@{the object remains in that state}@}.
 
 ### actions and activities
 
-In a state machine, {@{_actions_}@} are {@{instantaneous, uninterruptible steps}@} that occur {@{during transitions or at state entry/exit}@}, while {@{_activities_}@} are {@{time‑consuming tasks that can be interrupted}@} and run {@{while the object remains in the state}@}. {@{A state}@} may exhibit {@{one of several behaviors}@}: \(annotation: 5 items: {@{no behavior, adornment, `do`, `entry`, `exit`}@}\)
+In a state machine, {@{_actions_}@} are {@{instantaneous, uninterruptible steps}@} that occur {@{during transitions or at state entry/exit}@}, while {@{_activities_}@} are {@{time-consuming tasks that can be interrupted}@} and run {@{while the object remains in the state}@}. {@{A state}@} may exhibit {@{one of several behaviors}@}: \(annotation: 5 items: {@{no behavior, adornment, `do`, `entry`, `exit`}@}\)
 
 - no behavior ::@:: it may do nothing and simply wait for an event to exit the state
 - \(action\) adornment ::@:: execute a \(potentially guarded\) transition whose effect list runs when its trigger occurs, e.g. `help / display help`, etc.
@@ -612,7 +612,7 @@ In a state machine, {@{_actions_}@} are {@{instantaneous, uninterruptible steps}
 
 ### composite states
 
-{@{A _composite state machine diagram_}@} represents {@{a higher‑level state \(_superstate_\)}@} that {@{contains one or more nested state machines \(_substates_\)}@}. {@{The outer state}@} encapsulates {@{its sub‑states}@}, allowing the model to hide {@{internal complexity}@}. {@{Each nested diagram}@} can be treated as {@{an independent behavioral unit}@}. {@{The nested state machine}@} may be {@{_sequential_ or _concurrent_}@}.
+{@{A _composite state machine diagram_}@} represents {@{a higher-level state \(_superstate_\)}@} that {@{contains one or more nested state machines \(_substates_\)}@}. {@{The outer state}@} encapsulates {@{its sub-states}@}, allowing the model to hide {@{internal complexity}@}. {@{Each nested diagram}@} can be treated as {@{an independent behavioral unit}@}. {@{The nested state machine}@} may be {@{_sequential_ or _concurrent_}@}.
 
 {@{A composite state}@} is indicated by {@{a glasses-looking symbol on the bottom right corner}@}. Actually, the symbol is supposed to be {@{two states connected together}@}. Alternatively, to {@{show the substates as well}@}, simply {@{draw another state machine diagram inside the state}@}.
 
@@ -622,17 +622,17 @@ There can be {@{direct transitions}@} from {@{a specific region}@} to {@{outside
 
 #### sequential composite states
 
-{@{A _sequential_ composite state machine diagram}@} \(also called {@{a choice or "or" composite}@}\) models situations in which {@{an object occupies _exactly one_ of several sub‑states at any time}@}. {@{The selection among these sub‑states}@} is governed by {@{an exclusive condition}@}, meaning that {@{the outer state}@} behaves as though it were {@{in one particular nested state based on the current context}@}. This construct is useful for {@{_abstracting_ or _generalizing_ a set of mutually exclusive behaviors}@}.
+{@{A _sequential_ composite state machine diagram}@} \(also called {@{a choice or "or" composite}@}\) models situations in which {@{an object occupies _exactly one_ of several sub-states at any time}@}. {@{The selection among these sub-states}@} is governed by {@{an exclusive condition}@}, meaning that {@{the outer state}@} behaves as though it were {@{in one particular nested state based on the current context}@}. This construct is useful for {@{_abstracting_ or _generalizing_ a set of mutually exclusive behaviors}@}.
 
 Inside {@{a sequential composite state}@}, it should have {@{an initial state}@}. It need not {@{have an final state}@}, as {@{outside transitions outgoing the overall composite state}@} can represent {@{exiting the state}@}.
 
 #### concurrent composite states
 
-{@{A _concurrent_ composite state machine diagram}@} \(also known as {@{a parallel or "and" composite}@}\) allows an object to be {@{simultaneously in one sub‑state from each of several independent _regions_}@}. {@{The conjunction of these sub‑states}@} captures {@{multi‑threaded or concurrent behavior}@}, where {@{the overall state}@} reflects {@{the combination of all active region states}@}. {@{Concurrency arises}@} when an object ca be {@{partitioned into subsets of attributes and links}@}. Each region can evolve {@{independently}@}, and {@{transitions in one region}@} do not {@{preclude activity in another}@}.
+{@{A _concurrent_ composite state machine diagram}@} \(also known as {@{a parallel or "and" composite}@}\) allows an object to be {@{simultaneously in one sub-state from each of several independent _regions_}@}. {@{The conjunction of these sub-states}@} captures {@{multi-threaded or concurrent behavior}@}, where {@{the overall state}@} reflects {@{the combination of all active region states}@}. {@{Concurrency arises}@} when an object ca be {@{partitioned into subsets of attributes and links}@}. Each region can evolve {@{independently}@}, and {@{transitions in one region}@} do not {@{preclude activity in another}@}.
 
 Inside {@{a concurrent composite state}@}, {@{each region}@} should have {@{an initial state}@} and {@{one or more final states}@}. {@{The regions}@} are separated by {@{_dashed horizontal lines_}@}.
 
-For {@{concurrent composite states}@}, there can be {@{transitions involving multiple source or target states simultaneously}@}, which model either {@{splitting control flow across concurrent regions \(_fork_\)}@} or {@{synchronizing concurrent sub‑states \(_join_\)}@}. It is indicated by {@{a _synchronization bar_ \(a vertical line outside the composite state\)}@}, with {@{potentially multiple arrows targeting one side of the bar}@} and {@{potentially multiple arrows originating from the other side of the bar}@}. Their semantics are:
+For {@{concurrent composite states}@}, there can be {@{transitions involving multiple source or target states simultaneously}@}, which model either {@{splitting control flow across concurrent regions \(_fork_\)}@} or {@{synchronizing concurrent sub-states \(_join_\)}@}. It is indicated by {@{a _synchronization bar_ \(a vertical line outside the composite state\)}@}, with {@{potentially multiple arrows targeting one side of the bar}@} and {@{potentially multiple arrows originating from the other side of the bar}@}. Their semantics are:
 
 - _fork_: multiple target states ::@:: — after firing a transition from a source state, all target states become enabled concurrently.
 - _join_: multiple source states ::@:: — a transition into the target state fires only after _all_ source transitions have completed, enabling coordinated actions.
