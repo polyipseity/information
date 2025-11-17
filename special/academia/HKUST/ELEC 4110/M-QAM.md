@@ -18,10 +18,54 @@ tags:
 
 For {@{symbol index $m = 0, \ldots, M - 1$}@} {@{the waveform}@} is {@{$$s_m(t)=I_m\,\sqrt{\frac{2E}{T_s} }\;\cos(2\pi f_c t)+Q_m\,\sqrt{\frac{2E}{T_s} }\;\sin(2\pi f_c t), \qquad 0\le t<T_s\,,$$}@} where {@{$I_m$ and $Q_m$ are the in-phase and quadrature amplitudes}@} chosen from {@{a rectangular grid}@} (e.g., {@{$\{-3,-1,1,3\}$ for 16-QAM}@}). {@{The scaling factor $\sqrt{2E/T_s}$}@} ensures that {@{each symbol has unit average energy $E$}@} before {@{any overall power scaling is applied}@}.
 
+Typically, {@{$\alpha = \sqrt{E}$ is written}@} so that {@{$\alpha$ represents half of the spacing between symbols}@}.
+
 ## constellation
 
 {@{An $M$-ary QAM constellation}@} forms {@{a rectangular grid of points in the two-dimensional signal space}@}. {@{The horizontal axis}@} represents {@{the in-phase component}@} and {@{the vertical axis}@} {@{the quadrature component}@}, resulting in {@{$\sqrt{M}\times\sqrt{M}$ equally spaced points}@}. This arrangement {@{maximizes Euclidean distance between adjacent symbols}@} while {@{keeping the average power bounded}@}.
 
+Assume {@{equiprobable symbols and AWGN}@}. {@{The decision regions}@} for {@{an $M$-ary QAM constellation}@} are {@{rectangular cells that surround each lattice point}@}. For {@{a square grid with spacing $d$}@}, {@{the horizontal and vertical boundaries}@} lie {@{midway between adjacent points}@}, so {@{the region associated with the symbol}@} at {@{coordinates $(i,j)$}@} is {@{$$R_{i,j}=\Bigl\{(x,y)\;\big|\;(i-\tfrac12)d \le x < (i+\tfrac12)d,\; (j-\tfrac12)d \le y < (j+\tfrac12)d\Bigr\} \,,$$}@} and {@{the receiver}@} simply selects {@{the symbol whose cell contains the received in-phase and quadrature components}@}. {@{The formula above}@} assumes {@{interior points only}@} and does not {@{account for symbols on the outer edges of the grid}@}. To {@{accommodate boundary points}@}, one can {@{extend each outermost cell to infinity}@} along {@{the corresponding axis}@}.
+
 ## comparison with M-PSK
 
 In practice, {@{16-QAM}@} is {@{more popular than 16-PSK}@}. Both uses {@{sixteen symbols}@}, but QAM distributes {@{points on a rectangular grid}@}, allowing {@{the constellation}@} to be {@{expanded along both amplitude axes}@}. {@{This layout}@} achieves {@{higher spectral efficiency for a given minimum distance requirement}@} because it can maintain {@{larger symbol separations at lower energy per bit}@} than PSK, whose points are {@{confined to a circle}@} and must be {@{packed more tightly in phase}@}. As a result, 16-QAM delivers {@{superior error performance at moderate SNRs}@} and is therefore {@{the preferred choice for many high-rate communication systems}@}.
+
+In particular, when {@{$M > 4$}@}, {@{M-QAM}@} is {@{better than M-PSK}@} in the sense that it {@{achieves a higher spectral efficiency at lower SNR per bit}@}.
+
+## energy
+
+Using {@{$E = \alpha^2$}@}. To calculate {@{the average symbol energy $E_s$}@}, we sum up {@{the squares of the coordinates of all points and divide by $M$}@}. Start with {@{positive $x$-coordinates}@}: {@{$$\alpha^2 + (3\alpha)^2 + (5\alpha)^2 + \cdots = E \sum_{k = 1}^{\sqrt M / 2} (2k - 1)^2 \,.$$}@} Multiply by {@{2 for the negative $x$-coordinates, $\sqrt{M}$ for the number of rows, and finally 2 for the $y$-coordinates}@}: {@{$$4E \sqrt M \sum_{k = 1}^{\sqrt M / 2} (2k - 1)^2 \,.$$}@} Finally, divide by {@{$M$ for the average symbol energy $E_s$}@}: {@{$$\boxed{E_s = \frac {4E} {\sqrt M} \sum_{k = 1}^{\sqrt M / 2} (2k - 1)^2} \,.$$}@}
+
+This equation is {@{unwieldy for large $M$}@}: {@{$$\boxed{E_s = \frac {4E} {\sqrt M} \sum_{k = 1}^{\sqrt M / 2} (2k - 1)^2} \,.$$}@} Using {@{the sum of odd squares}@}: {@{$$\sum_{k = 1}^n k^2 = \frac {n(2n + 1)(2n - 1)} 3 \,,$$}@} we have {@{$$\boxed{E_s = \frac {4E} {\sqrt M} \frac {\sqrt M(\sqrt M + 1)(\sqrt M - 1)} 6 = \frac 2 3 E (M - 1) } \,,$$}@} which is {@{much easier to use}@}. Conversely, {@{$E$}@} can be {@{written from $E_s$}@} by: {@{$$\boxed{E = \frac {3 E_s} {2(M - 1)} } \,.$$}@}
+
+## error analysis
+
+{@{A M-QAM}@} can be analyzed as {@{two independent M-PAM}@}, each having {@{$\sqrt M = 2^{k / 2}$ points}@}. This is possible because {@{the noise variance in the two coordinates}@} are {@{independent and both have a variance of $N_0 / 2$}@}.
+
+Assuming {@{equiprobable bits and AWGN}@}, {@{a $\sqrt M$-PAM}@} has the error probability: {@{$$\boxed {P_{\mathrm{\sqrt M-PAM} } = 2 (1 - 1 / \sqrt M) Q\left(\sqrt {\frac {2E} {N_0} } \right) = \frac {2\left(\sqrt M - 1\right)} {\sqrt M} Q\left(\sqrt {\frac 3 {M - 1} \frac {E_s} {N_0} } \right) } \,.$$}@} The number within {@{$Q(\cdot)$}@} is obtained by considering {@{half the shortest distance is $\sqrt E$ and the noise variance is $N_0 / 2$}@}. The factor {@{$2(1 - \sqrt M)$}@} is obtained by considering {@{the error regions for each transmitted symbol is two-sided}@}, so {@{multiply by 2}@}, but {@{except those on the edges}@}, so {@{further multiply by $1 - 1 / \sqrt M$}@}.
+
+Then, we see {@{the M-QAM symbol error probability $P_M$}@} is: {@{$$\boxed{P_{eM} = 1 - (1 - P_{\sqrt M} )^2 \approx 1 - (1 - 2P_{\sqrt M}) = 2P_{\sqrt M} } \,,$$}@} where {@{the approximation in the middle}@} is accurate for {@{small $P_{\sqrt M}$}@}.
+
+Compare {@{M-QAM with M-PSK}@}. Their {@{symbol error probabilities are}@}: {@{$$\begin{aligned} P_{\text{M-QAM} } & \approx 4Q\left(\sqrt{\frac 3 {M - 1} \frac {E_s} {N_0} } \right) \\ P_{\text{M-PSK} } & \approx 2 Q\left(\sqrt{\frac {2E_s \sin^2(\pi / M) } {N_0} } \right) \,. \end{aligned}$$}@} Compare {@{the factors multiplying $E_s$}@}. Observe {@{the _gain_ of M-QAM over M-PSK}@}, i.e. {@{how much larger the argument to $Q(\cdot)$ is for a fixed $E_s$}@}: {@{$$\text{gain} = \frac {3 / (M - 1)} {2 \sin^2(\pi / M) } \,.$$}@} As {@{$M$ increases}@}, this gain {@{increases rapidly}@}. In particular, when {@{$M > 4$}@}, {@{M-QAM}@} is {@{better than M-PSK}@} in the sense that it {@{achieves a higher spectral efficiency at lower SNR per bit}@}.
+
+### symbol error probability bounds
+
+For {@{$M$-quadrature amplitude keying}@} {@{the exact symbol-error probability}@} can be {@{_tightly bounded_ by simple analytic expressions}@} that involve {@{only the ratio $E_s/N_0$ and the constellation size $M$}@}. In particular, for {@{all $M\ge2$}@}: {@{$$Q\!\left(\sqrt{\frac {3E_s} {(M - 1)N_0} } \right) \;\leq\;P_{eM}\;\leq\; 4\,Q\!\left(\sqrt{\frac {3E_s} {(M - 1)N_0} } \right) \,.$$}@} {@{This upper bound}@} becomes {@{asymptotically exact \("very tight"\)}@} as {@{$E_s/N_0$ increases}@}, as {@{4 is also the average number of nearest symbols}@}. Here, we see {@{increasing the _symbol_ SNR $E_s / N_0$}@} {@{decreases the symbol error probability}@}, while {@{increasing $M$}@} {@{increases it}@}.
+
+{@{The _lower bound_}@} can be obtained {@{using the minimum distance arguments outlined in [M-ary transmission §  error analysis for minimum distance](M-ary%20transmission.md#error%20analysis%20for%20minimum%20distance)}@}; here, {@{half of the minimum distance $d / 2$}@} is: {@{$$\boxed{\frac d 2 = \sqrt{E} = \sqrt{\frac {3E_s} {2(M - 1)} } } \,.$$}@} However, {@{the _upper bound_}@} obtained would have had {@{a factor of $M - 1$ instead of 4}@}. To obtain {@{the factor 4}@}, we need to consider {@{the error regions}@}. For {@{a fixed constellation point}@}, consider {@{the union of the error regions of the 4 nearest point}@} and compare it against {@{the union of the error regions of the $M - 5$ other points}@}. We see {@{the former fully contains the latter as a subset}@}. So {@{the union bound}@} can be {@{made much tighter}@} by noting {@{the error regions contributed by the $M - 5$ other points}@} are {@{already contained in the union of the error regions for the nearest 4 points}@}, and thus {@{can be discarded}@}, resulting in {@{the factor 4 instead of $M - 1$}@}.
+
+### bit error probability
+
+In {@{M-quadrature amplitude modulation}@} the {@{bit-error probability}@} is {@{not fixed by the modulation order alone}@}; it also depends on {@{how bits are mapped to constellation points (the labeling scheme)}@}.  For {@{ordinary binary coding}@}, {@{a symbol error}@} can {@{flip several bits}@}, whereas {@{Gray coding}@} ensures that {@{adjacent symbols differ in only one bit}@}.  
+
+Consequently, with {@{Gray coding}@} {@{most symbol errors}@}—those that are {@{statistically most likely}@} because the receiver is {@{confused between neighboring points}@}—result in {@{exactly one erroneous bit}@}, greatly reducing {@{the overall bit-error rate}@}. Thus, we have {@{the following approximation for modulation schemes using Gray coding}@}: {@{$$\boxed{P_{e, b} \approx \frac {P_{e, M} } k = \frac {P_{e, M} } {\log_2 M} } \,,$$}@} which is {@{accurate when SNR is moderate to high}@}.
+
+## bit coding
+
+In {@{an $M$-ary QAM constellation}@} {@{the symbols}@} are arranged on {@{a two-dimensional grid}@}, typically {@{$\sqrt{M}\times\sqrt{M}$}@}.  {@{Each symbol}@} is indexed by {@{an integer $k\in[0,M-1]$}@} whose {@{binary representation of length $\log_2 M$}@} is {@{used as the bit pattern}@}.  With {@{this natural mapping}@} {@{the most significant bit changes only}@} when {@{traversing rows or columns}@}, but {@{adjacent symbols}@} may {@{differ in several bits}@}.
+
+{@{Gray coding for QAM}@} aims to {@{minimize the Hamming distance between neighboring points}@} so that {@{a single symbol error}@} results in {@{at most one erroneous bit}@}.  {@{A Gray code}@} can be generated by first constructing {@{a one-dimensional Gray sequence of length $\sqrt{M}$}@} (using {@{the recursive "mirror and toggle" method}@}), then forming {@{the two-dimensional grid}@} by pairing {@{every element of the sequence with every other}@}, preserving {@{the Gray property along both axes}@}.
+
+{@{The assignment of Gray codes to QAM points}@} is done {@{row-by-row}@}: the{@{ Gray index}@} for {@{a point at coordinates $(i,j)$}@} is obtained by {@{concatenating the $j$-th Gray bit (for the column) with the $i$-th Gray bit (for the row)}@}.  This yields a labeling where {@{horizontal and vertical neighbors differ in only one bit}@}, and {@{diagonal neighbors differ in only two bits}@}, thereby reducing {@{the average bit-error probability}@} under {@{additive white Gaussian noise}@}.
+
+{@{Another possible assignment \(different from above\)}@} for {@{16-QAM}@} is as follows. First, write {@{$[00, 01, 10, 11]$ in Z-order at the top left quadrant}@}. Then {@{mirror this quadrant across both axes}@} to {@{generate the remaining quadrants}@}. {@{These}@} are {@{the upper 2 bits}@}. For {@{the lower 2 bits}@}, for {@{each quadrant in Z-order}@}, write {@{the corresponding element of $[00, 01, 10, 11]$ 4 times}@}. \(__this course__: Maybe {@{use this}@}?\)
