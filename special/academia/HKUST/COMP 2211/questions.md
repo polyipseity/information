@@ -567,7 +567,7 @@ tags:
 > 2. $P(B_1 \cap \cdots \cap B_n|E) = \frac{ P(E | B_1 \cap \cdots \cap B_n)P(B_1 \cap \cdots \cap B_n) }{ P(E) }$
 > 3. $P(B_1 \cap \cdots \cap B_n | E_1 \cap \cdots \cap E_n) = \frac{ P(B_1 \cap \cdots \cap B_n \cap E_1 \cap \cdots \cap E_n) }{ P(E_1 \cap \cdots \cap E_n) }$
 >
-> - solution: {@{none}@} <!--SR:!2025-11-25,261,330-->
+> - solution: {@{none}@} <!--SR:!2029-02-23,1186,350-->
 
 <!-- markdownlint MD028 -->
 

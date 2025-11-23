@@ -146,7 +146,7 @@ The content is in teaching order.
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00, PT1H20M
 - [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2026-06-19,381,360!2026-10-01,451,320-->
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2026-04-29,357,360!2026-05-13,370,360-->
-  - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-11-25,229,340!2026-06-11,373,360-->
+  - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2028-01-13,779,340!2026-06-11,373,360-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2026-06-22,384,360!2026-05-05,363,360-->
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2027-08-04,704,340-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2026-06-09,371,360!2026-05-09,367,360-->
@@ -669,7 +669,7 @@ The content is in teaching order.
   - local: 2025-04-16T21:30:00+08:00/2025-04-16T22:50:00+08:00, PT1H20M
 - [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll. <!--SR:!2028-04-13,873,458!2025-11-29,152,438-->
   - jazz fusion / motivation ::@:: Acoustic jazz had been pushed to its limits. So musicians found new inspirations in rock music and funk. <!--SR:!2025-12-03,156,438!2028-04-24,882,458-->
-  - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2025-11-25,149,438!2025-11-29,152,438-->
+  - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2028-05-06,893,458!2025-11-29,152,438-->
   - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2025-12-06,158,438!2025-12-07,159,438-->
   - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report <!--SR:!2025-12-04,157,438!2025-12-07,159,438-->
 - [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations. <!--SR:!2025-12-08,160,438!2025-11-29,152,438-->
@@ -728,7 +728,7 @@ The content is in teaching order.
 - [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages. <!--SR:!2028-04-21,880,458!2025-11-28,152,441-->
 - neo-bop
   - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions. <!--SR:!2025-12-04,156,438!2025-12-05,158,441-->
-  - neo-bop / criticisms ::@:: Miles Davis hated it. He thought the music was moving backwards. <!--SR:!2025-11-25,149,438!2025-12-05,158,442-->
+  - neo-bop / criticisms ::@:: Miles Davis hated it. He thought the music was moving backwards. <!--SR:!2028-04-30,887,458!2025-12-05,158,442-->
 - jazz
   - jazz / education ::@:: Since the 1980s, jazz has become more accessible and educational, with competitions, conservatories, and festivals appearing. <!--SR:!2025-11-30,153,438!2025-12-03,156,441-->
 - [Wynton Marsalis](../../../../general/Wynton%20Marsalis.md) \(1961–\) ::@:: He is an American trumpeter, composer, and music instructor, who is currently the artistic director of Jazz at Lincoln Center. He has been active in promoting classical and jazz music, often to young audiences. Marsalis has won nine Grammy Awards. <!--SR:!2025-12-03,156,438!2025-12-01,154,438-->
@@ -749,14 +749,14 @@ The content is in teaching order.
   - jazz / 2000s ::@:: Many musicians grew up with hip hop and jazz. They started experimenting with new grooves and rap. <!--SR:!2025-12-01,154,438!2025-12-07,159,438-->
 - [Roy Hargrove](../../../../general/Roy%20Hargrove.md) \(1969–2018\) ::@:: He was an American jazz musician and composer whose principal instruments were the trumpet and flugelhorn. He achieved critical acclaim after winning two Grammy Awards for differing styles of jazz in 1998 and 2002. <!--SR:!2025-12-03,156,441!2025-12-02,155,441-->
   - Roy Hargrove / effects ::@:: He founded the band The RH Factor. He combined traditional bebop and jazz with hip hop, which started the trend to mix jazz with hip hop or rhythm & blues. <!--SR:!2025-12-09,161,438!2025-12-08,160,438-->
-  - Roy Hargrove / works ::@:: "Strasbourg St Denis" \(2008\) — Roy Hargrove Quintet <!--SR:!2025-11-25,149,438!2025-12-03,156,438-->
+  - Roy Hargrove / works ::@:: "Strasbourg St Denis" \(2008\) — Roy Hargrove Quintet <!--SR:!2028-05-05,892,458!2025-12-03,156,438-->
   - Roy Hargrove / later life ::@:: He struggled with alcohol and drugs. He died of heart attack at 49. <!--SR:!2025-12-08,160,438!2025-12-01,154,438-->
 - [Robert Glasper](../../../../general/Robert%20Glasper.md) \(1978–\) ::@:: He is an American pianist, record producer, songwriter, and musical arranger. His music embodies numerous musical genres, primarily centered around jazz. Glasper has won five Grammy Awards from 11 nominations. <!--SR:!2025-12-02,155,442!2025-12-05,158,441-->
   - Robert Glasper / works ::@:: "Stella By Starlight" \(2014\) — Robert Glasper <br/> _Black Radio_ \(2012\) — Robert Glasper: his breakout album, which won a Grammy for Best R&B Album <br/> _Black Radio III_ \(2022\) — Robert Glasper: also won a Grammar for Best R&B Album <!--SR:!2025-12-05,158,441!2025-12-09,161,441-->
-  - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2025-11-27,151,438!2025-11-25,149,438-->
+  - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2025-11-27,151,438!2028-05-01,888,458-->
 - [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2025-12-07,159,438!2028-04-04,865,458-->
   - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2025-12-02,155,441!2025-11-29,152,438-->
-  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-11-25,149,438!2025-12-26,163,454-->
+  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2028-05-02,889,458!2025-12-26,163,454-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2025-12-01,154,441!2025-12-09,161,438-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2025-12-03,156,438!2025-12-08,160,438-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2025-11-28,152,442!2025-11-27,151,442-->

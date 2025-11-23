@@ -12,7 +12,7 @@ tags:
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#General%20references), but __it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(June 2015\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
 - This article is about {@{an integer that is a factor of another integer}@}. For {@{a number used to divide another number in a division operation}@}, see {@{[Division \(mathematics\)](division%20(mathematics).md)}@}. For other uses, see [Divisor \(disambiguation\)](divisor%20(disambiguation).md).
-- "Divisible" redirects here. For {@{divisibility of groups}@}, see {@{[Divisible group](divisible%20group.md)}@}. <!--SR:!2025-11-26,253,330!2025-11-25,252,330!2026-01-17,294,330!2025-11-26,253,330!2025-12-31,280,330-->
+- "Divisible" redirects here. For {@{divisibility of groups}@}, see {@{[Divisible group](divisible%20group.md)}@}. <!--SR:!2025-11-26,253,330!2029-01-15,1147,350!2026-01-17,294,330!2025-11-26,253,330!2025-12-31,280,330-->
 
 > {@{![The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10](../../archives/Wikimedia%20Commons/Cuisenaire%20ten.JPG)}@}
 >

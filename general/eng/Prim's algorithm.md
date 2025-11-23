@@ -29,7 +29,7 @@ The algorithm was developed {@{in 1930}@} by {@{[Czech](Czechs.md) mathematician
 
 The algorithm may informally be described as performing the following steps:
 
-1. Initialize ::@:: a tree with a single vertex, chosen arbitrarily from the graph. <!--SR:!2025-11-25,282,330!2029-02-16,1203,350-->
+1. Initialize ::@:: a tree with a single vertex, chosen arbitrarily from the graph. <!--SR:!2029-06-05,1288,350!2029-02-16,1203,350-->
 2. Grow ::@:: the tree by one edge: Of the edges that connect the tree to vertices not yet in the tree, find the minimum-weight edge, and transfer it to the tree. <!--SR:!2025-12-07,292,330!2028-02-04,877,330-->
 3. Repeat ::@:: step 2 \(until all vertices are in the tree\). <!--SR:!2029-04-22,1254,350!2025-12-08,293,330-->
 
@@ -66,7 +66,7 @@ As described above, {@{the starting vertex for the algorithm}@} will {@{be chose
 > __flashcards__
 >
 > - [adjacency matrix](adjacency%20matrix.md), searching ::@:: $O(\lvert V \rvert^{2})$ <!--SR:!2026-12-13,547,310!2026-04-16,345,310-->
-> - [binary heap](binary%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O((\lvert V \rvert + \lvert E \rvert)\log \lvert V \rvert)=O(\lvert E \rvert \log \lvert V \rvert)$ <!--SR:!2025-11-25,99,210!2026-04-06,334,290-->
+> - [binary heap](binary%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O((\lvert V \rvert + \lvert E \rvert)\log \lvert V \rvert)=O(\lvert E \rvert \log \lvert V \rvert)$ <!--SR:!2026-06-16,203,210!2026-04-06,334,290-->
 > - [Fibonacci heap](Fibonacci%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O(\lvert E \rvert + \lvert V \rvert \log \lvert V \rvert)$ <!--SR:!2026-02-03,106,250!2026-05-13,275,210-->
 
 A simple implementation of Prim's, using {@{an [adjacency matrix](adjacency%20matrix.md) or an [adjacency list](adjacency%20list.md) graph representation}@} and {@{linearly searching an array of weights to find the minimum weight edge to add}@}, requires {@{[O](big%20O%20notation.md)\(\|V\|<sup>2</sup>\) running time}@}. However, {@{this running time can be greatly improved}@} by {@{using [heaps](heap%20(data%20structure).md) to implement finding minimum weight edges in the algorithm's inner loop}@}. <!--SR:!2027-02-06,552,310!2028-02-09,842,330!2025-12-09,294,330!2025-12-07,292,330!2026-10-16,338,381-->
@@ -77,7 +77,7 @@ Using {@{a simple [binary heap](binary%20heap.md) data structure}@}, Prim's algo
 
 > {@{![Diagram to assist in proof of Prim's algorithm.](../../archives/Wikimedia%20Commons/Prim's%20algorithm%20proof.svg)}@}
 >
-> {@{Demonstration of proof}@}. In this case, {@{the graph _Y<sub>1</sub>_ = _Y_ − _f_ + _e_ is already equal to _Y_}@}. In general, {@{the process may need to be repeated}@}. <!--SR:!2025-12-08,293,330!2025-11-25,282,330!2027-11-01,818,330!2025-11-26,283,330-->
+> {@{Demonstration of proof}@}. In this case, {@{the graph _Y<sub>1</sub>_ = _Y_ − _f_ + _e_ is already equal to _Y_}@}. In general, {@{the process may need to be repeated}@}. <!--SR:!2025-12-08,293,330!2029-06-06,1289,350!2027-11-01,818,330!2025-11-26,283,330-->
 
 ## proof of correctness
 

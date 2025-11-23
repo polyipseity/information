@@ -51,7 +51,7 @@ The content is in teaching order.
 - [economics](../../../../general/economics.md) ::@:: It is a behavioral science that studies the production, distribution, and consumption of goods and services. <!--SR:!2026-07-18,241,330!2026-08-04,255,330-->
   - economics / objectives ::@:: Maximize _utility_, subject to _constraints_. Constraints are important because people have _limited_ resources. <!--SR:!2026-08-11,260,330!2025-11-27,63,310-->
   - economics / finance ::@:: a subfield of economics <p> _utility_: _expected_ return <br/> _constraint_: _affordable_ risk <!--SR:!2026-07-28,250,330!2026-08-04,255,330-->
-    - economics / finance / risk ::@:: It is important because we assume people are _risk-averse_. <!--SR:!2025-11-25,61,310!2025-11-29,64,310-->
+    - economics / finance / risk ::@:: It is important because we assume people are _risk-averse_. <!--SR:!2026-08-20,268,330!2025-11-29,64,310-->
 - derivative
   - derivative / usage ::@:: There are many usage. A major one is to hedge or to mitigate risk in the underlying, by entering into a derivative contract whose value moves in the opposite direction to their underlying position and cancels part or all of it out. <p> You may prefer some types of risk while disliking other types of risk. Derivatives are _convenient_, _flexible_, and _low cost_ enough to hedge those unwanted risks. <!--SR:!2026-08-12,261,330!2026-04-24,172,310-->
   - derivative / examples
@@ -61,7 +61,7 @@ The content is in teaching order.
     - derivative / examples / "the big short" ::@:: In 2006: An investor \(John Paulson\) cannot short houses, and housing stocks may be costly to short. But the investor can short APX subprime _index_, short _collateralized debt obligations_ \(CDOs\), buy _credit default swaps_, etc. <p> Derivatives allow the investor to _circumvent_ market restrictions and _speculate_. <!--SR:!2026-05-11,182,310!2026-08-08,258,330-->
     - derivative / examples / call option ::@:: A CEO is compensated with firm shares that cannot be easily sold to motivate the CEO. But this may make the CEO not take profitable but _risky_ projects. Adding _call options_ to the firm shares allow the CEO to _earn more_ if a risky project succeeds, and _lose less_ if it fails. <!--SR:!2025-11-28,63,310!2026-08-09,259,330-->
   - derivative / returns relation ::@:: Investing in a stock \(_long position_\) is assumed to have _linear_ returns. Shorting a stock \(_short position_\) is assumed to also have linear returns but in the _opposite direction_ \(negate the slope\). <p> Derivatives generally have _nonlinear_ returns. This may allow better matching to _risk aversion_, which models the utility function as nonlinear. <!--SR:!2026-07-09,234,330!2026-05-23,191,310-->
-  - derivative / history ::@:: Even in ancient times \(e.g. BC\), people already have this concept... <!--SR:!2025-12-02,67,310!2025-11-25,61,310-->
+  - derivative / history ::@:: Even in ancient times \(e.g. BC\), people already have this concept... <!--SR:!2025-12-02,67,310!2026-08-19,267,330-->
   - derivative / popularity ::@:: Most sectors use derivatives, forex \(foreign exchange\), and interest rate. Only some sectors use commodity, credit, and equity. <!--SR:!2025-12-01,66,310!2025-12-02,67,310-->
 
 ## week 1 lecture 2

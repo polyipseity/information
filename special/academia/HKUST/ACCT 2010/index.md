@@ -79,7 +79,7 @@ The content is in teaching order.
   - [management accounting](../../../../general/management%20accounting.md) / objectives ::@:: internal reporting <!--SR:!2029-01-06,1227,357!2029-01-05,1226,357-->
   - [management accounting](../../../../general/management%20accounting.md) / users ::@:: managers <!--SR:!2030-01-01,1504,357!2029-05-19,1331,357-->
   - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2027-10-09,788,297!2028-04-12,976,317-->
-  - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2027-08-28,815,337!2025-11-25,330,337-->
+  - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2027-08-28,815,337!2030-02-06,1534,357-->
 - [§ week 1 review](questions.md#week%201%20review)
 
 ## week 2 lecture 2
@@ -104,7 +104,7 @@ The content is in teaching order.
   - [§ equity](../../../../general/equity%20(finance).md#equity)
 - [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2025-11-26,331,337!2025-11-26,331,337-->
   - [§ revenue](../../../../general/revenue.md#revenue)
-  - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2029-01-11,1231,357!2025-11-25,330,337-->
+  - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2029-01-11,1231,357!2030-02-07,1535,357-->
 - [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2026-09-09,531,317!2028-10-02,1150,357-->
   - [§ expense](../../../../general/expense.md#expense)
   - [expense](../../../../general/expense.md) / loss ::@:: decrease in assets or increase in liabilities from peripheral activities (side activities) <!--SR:!2030-02-05,1534,357!2029-12-26,1499,357-->

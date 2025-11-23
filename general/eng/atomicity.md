@@ -13,7 +13,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-__Atomicity__ is {@{the number of atoms in a [molecule](molecule.md)}@}. <!--SR:!2025-11-25,741,330-->
+__Atomicity__ is {@{the number of atoms in a [molecule](molecule.md)}@}. <!--SR:!2035-02-18,3372,350-->
 
 ## classification
 

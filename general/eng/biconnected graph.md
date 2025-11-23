@@ -39,7 +39,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
 >
-> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2029-02-26,1190,352!2025-11-25,261,332!2025-12-09,18,352!2025-12-09,18,352!2025-12-10,19,352-->
+> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2029-02-26,1190,352!2029-03-03,1194,352!2025-12-09,18,352!2025-12-09,18,352!2025-12-10,19,352-->
 
 <!-- markdownlint MD028 -->
 
@@ -51,7 +51,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/5%20Node%20Not-Biconnected.svg)}@}
 >
-> {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2025-11-25,261,332!2029-02-03,1171,352-->
+> {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2029-03-04,1195,352!2029-02-03,1171,352-->
 
 __Nonseparable \(or 2-connected\) graphs \(or blocks\) with n nodes \(sequence {@{[A002218](https://oeis.org/A002218)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)__ <!--SR:!2026-08-24,379,252-->
 

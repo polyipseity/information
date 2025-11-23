@@ -131,7 +131,7 @@ Similarly, a three-dimensional Cartesian system defines {@{a division of space i
 
 ### Euclidean transformations
 
-{@{The [Euclidean transformations](Euclidean%20plane%20isometry.md) or __Euclidean motions__}@} are {@{the \([bijective](bijective.md)\) mappings of points of the [Euclidean plane](Euclidean%20plane.md) to themselves which preserve distances between points}@}. There are {@{four types of these mappings \(also called isometries\)}@}: {@{[translations](translation%20(geometry).md), [rotations](rotation%20(mathematics).md), [reflections](reflection%20(mathematics).md) and [glide reflections](glide%20reflection.md) (annotation: translation + reflection)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-05-28,371,362!2025-11-25,221,329!2025-12-29,248,330!2026-04-23,343,349-->
+{@{The [Euclidean transformations](Euclidean%20plane%20isometry.md) or __Euclidean motions__}@} are {@{the \([bijective](bijective.md)\) mappings of points of the [Euclidean plane](Euclidean%20plane.md) to themselves which preserve distances between points}@}. There are {@{four types of these mappings \(also called isometries\)}@}: {@{[translations](translation%20(geometry).md), [rotations](rotation%20(mathematics).md), [reflections](reflection%20(mathematics).md) and [glide reflections](glide%20reflection.md) (annotation: translation + reflection)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-05-28,371,362!2026-03-19,114,309!2025-12-29,248,330!2026-04-23,343,349-->
 
 #### translation
 
@@ -139,7 +139,7 @@ Similarly, a three-dimensional Cartesian system defines {@{a division of space i
 
 #### rotation
 
-To {@{[rotate](rotation%20(geometry).md) a figure [counterclockwise](clockwise.md) around the origin by some angle $\theta$}@} is equivalent to {@{replacing every point with coordinates \(_x_,_y_\) by the point with coordinates \(_x'_,_y'_\)}@}, where {@{$${\begin{aligned}x'&=x\cos \theta -y\sin \theta \\y'&=x\sin \theta +y\cos \theta .\end{aligned} }$$}@} Thus: {@{$$(x',y')=((x\cos \theta -y\sin \theta \,),(x\sin \theta +y\cos \theta \,)).$$}@} <!--SR:!2026-01-24,269,330!2026-06-13,385,362!2026-08-23,379,302!2025-11-25,217,329-->
+To {@{[rotate](rotation%20(geometry).md) a figure [counterclockwise](clockwise.md) around the origin by some angle $\theta$}@} is equivalent to {@{replacing every point with coordinates \(_x_,_y_\) by the point with coordinates \(_x'_,_y'_\)}@}, where {@{$${\begin{aligned}x'&=x\cos \theta -y\sin \theta \\y'&=x\sin \theta +y\cos \theta .\end{aligned} }$$}@} Thus: {@{$$(x',y')=((x\cos \theta -y\sin \theta \,),(x\sin \theta +y\cos \theta \,)).$$}@} <!--SR:!2026-01-24,269,330!2026-06-13,385,362!2026-08-23,379,302!2028-08-06,985,349-->
 
 #### reflection
 

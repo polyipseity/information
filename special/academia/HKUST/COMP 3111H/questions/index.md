@@ -178,7 +178,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{_Associations_ represent _results_ of operations, but not the operation _itself_. <p> For example, you most likely should _not_ have an association with the name "shows", which is likely an operation rather than its result.}@} <!--SR:!2025-11-25,33,298-->
+> - solution: {@{_Associations_ represent _results_ of operations, but not the operation _itself_. <p> For example, you most likely should _not_ have an association with the name "shows", which is likely an operation rather than its result.}@} <!--SR:!2026-04-11,137,318-->
 
 ## week 4 pre-lecture
 

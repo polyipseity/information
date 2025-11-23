@@ -64,7 +64,7 @@ The content is in teaching order.
 - programming complexity
   - programming complexity / problems
     - programming complexity / problems / development ::@:: does not meet user requirements, difficult to measure progress, over budget, over time, etc. <!--SR:!2025-12-07,60,310!2026-05-21,180,310-->
-      - programming complexity / problems / development / statistics ::@:: \(2012\) For _large_ software projects in _decreasing_ proportion: <p> 1. deliver less value <br/> 2. over budget <br/> 3. company threatening <br/> 4. over time <br/> 5. etc. <!--SR:!2025-12-23,34,210!2025-11-25,47,290-->
+      - programming complexity / problems / development / statistics ::@:: \(2012\) For _large_ software projects in _decreasing_ proportion: <p> 1. deliver less value <br/> 2. over budget <br/> 3. company threatening <br/> 4. over time <br/> 5. etc. <!--SR:!2025-12-23,34,210!2026-05-29,185,310-->
   - programming complexity / mitigations ::@:: There are many desirable _characteristics_ considered part of quality. It is impossible and unnecessary to achieve all of them. <p> Instead, we should under the client's _goals_ and _prioritize_ certain characteristics. This reduces complexity somewhat. <!--SR:!2026-05-13,176,310!2026-04-20,156,310-->
     - programming complexity / mitigations / characteristics ::@:: correct, efficient, evolvable, interoperable, maintainable, portable, productive, reliable, repairable, reusable, robust, timely, usable, verifiable, visible, etc. <!--SR:!2026-05-06,170,310!2026-05-22,181,310-->
 - [modular programming](../../../../general/modular%20programming.md) ::@:: It is a programming paradigm that emphasizes organizing the functions of a codebase into independent modules – each providing an aspect of a computer program in its entirety without providing other aspects. <!--SR:!2025-12-06,59,310!2025-11-30,54,310-->
@@ -585,7 +585,7 @@ The content is in teaching order.
   - [§ use case models](UML.md#use%20case%20models) ::@:: The use-case diagram lists actors and system functions; each use case is further detailed by a flow of events that sequences actions and decision points. <!--SR:!2025-11-28,25,401!2025-11-29,26,401-->
 - software verification and validation
 - software requirements specification
-  - software requirements specification / iteration ::@:: The SRS is a living artifact that evolves with stakeholder feedback, forming the foundation for all later phases (analysis, design, implementation). <p> Early iterations produce high-level _domain_, _use-case_ models, and _nonfunctional_ requirements; subsequent passes add detail, test cases to the _test model_, matching use case realizations to the _analysis model_ and _design model_. <p> We can see use cases _drive_ subsequent development. <!--SR:!2025-11-29,26,401!2025-11-25,17,361-->
+  - software requirements specification / iteration ::@:: The SRS is a living artifact that evolves with stakeholder feedback, forming the foundation for all later phases (analysis, design, implementation). <p> Early iterations produce high-level _domain_, _use-case_ models, and _nonfunctional_ requirements; subsequent passes add detail, test cases to the _test model_, matching use case realizations to the _analysis model_ and _design model_. <p> We can see use cases _drive_ subsequent development. <!--SR:!2025-11-29,26,401!2026-01-28,64,361-->
 - quiz: [quiz 9](questions/quiz%209.md)
 - [questions § week 5 pre-lecture](questions/index.md#week%205%20pre-lecture)
 

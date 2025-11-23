@@ -13,7 +13,7 @@ tags:
 
 # Wien approximation
 
-{@{__Wien's approximation__ \(also sometimes called __Wien's law__ or the __Wien distribution law__\)}@} is {@{a [law](scientific%20law.md) of [physics](physics.md) used to describe the [spectrum](spectrum.md) of thermal radiation}@} \(frequently called {@{the [blackbody](black%20body.md) function}@}\). <!--SR:!2025-11-25,366,310!2026-01-07,62,315!2026-01-06,61,315-->
+{@{__Wien's approximation__ \(also sometimes called __Wien's law__ or the __Wien distribution law__\)}@} is {@{a [law](scientific%20law.md) of [physics](physics.md) used to describe the [spectrum](spectrum.md) of thermal radiation}@} \(frequently called {@{the [blackbody](black%20body.md) function}@}\). <!--SR:!2030-03-14,1570,330!2026-01-07,62,315!2026-01-06,61,315-->
 
 ## details
 

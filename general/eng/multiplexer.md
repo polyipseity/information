@@ -125,7 +125,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 ### chaining multiplexers and mux trees
 
-{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2026-03-18,300,344!2026-04-30,341,344!2025-12-25,238,330!2026-05-01,342,344!2025-11-25,210,324!2026-04-03,316,344!2026-03-19,301,344-->
+{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2026-03-18,300,344!2026-04-30,341,344!2025-12-25,238,330!2026-05-01,342,344!2028-06-20,938,344!2026-04-03,316,344!2026-03-19,301,344-->
 
 ### list of ICs which provide multiplexing
 

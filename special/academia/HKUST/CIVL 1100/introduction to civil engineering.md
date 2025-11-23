@@ -191,7 +191,7 @@ water and sewage treatment system
 
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←bridge <!--SR:!2031-10-27,2233,417!2025-11-25,470,394-->
+- _(begin)_→::@::←bridge <!--SR:!2031-10-27,2233,417!2032-10-23,2524,414-->
 - bridge→::@::←building <!--SR:!2029-04-13,1437,392!2028-12-06,1324,380-->
 - building→::@::←dam <!--SR:!2027-02-03,782,360!2026-03-05,544,400-->
 - dam→::@::←pipeline <!--SR:!2027-01-05,615,244!2026-03-12,518,341-->

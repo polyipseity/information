@@ -76,7 +76,7 @@ Every piece of data in Scala has {@{a type}@}. <!--SR:!2025-11-28,57,310-->
 - `Boolean` ::@:: Either true or false. Example: `true`, `false` <!--SR:!2025-12-06,63,310!2025-11-29,58,310-->
 - `Char` ::@:: A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2025-11-26,55,310!2025-12-10,67,310-->
 - `Double` ::@:: A floating point number with double precision \(15 to 17 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2025-11-28,57,310!2025-12-09,66,310-->
-- `Float` ::@:: A floating point number with single precision \(6 to 9 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2025-12-07,64,310!2025-11-25,54,310-->
+- `Float` ::@:: A floating point number with single precision \(6 to 9 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2025-12-07,64,310!2026-07-15,232,330-->
 - `Int` ::@:: An integer. Example: `42` <!--SR:!2025-12-06,63,310!2025-12-05,63,310-->
 
 {@{This categorization of "primitive types"}@} is not {@{very _rigorous_}@}. See {@{_top types_}@} instead. <!--SR:!2026-04-14,143,415!2026-04-18,147,429!2026-04-05,135,420-->
@@ -423,7 +423,7 @@ In Scala, {@{an _abstract class_}@} serves as {@{a partial blueprint for concret
 > ```
 <!--SR:!2026-04-11,140,420!2026-05-01,158,429-->
 
-Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile-time error}@}. <!--SR:!2026-04-12,141,415!2026-04-04,134,420!2026-04-12,141,420!2026-04-16,145,429!2025-11-25,24,380!2026-04-12,141,420-->
+Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile-time error}@}. <!--SR:!2026-04-12,141,415!2026-04-04,134,420!2026-04-12,141,420!2026-04-16,145,429!2026-03-30,125,400!2026-04-12,141,420-->
 
 > [!example] __`EmptySet` definition__
 >
@@ -767,9 +767,9 @@ Traits therefore provide {@{a flexible way}@} to {@{compose behavior}@}, enablin
 
 Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2025-12-04,62,310!2025-12-04,62,310!2025-12-05,63,310!2025-11-28,57,310!2025-11-27,56,310!2025-12-05,63,310!2025-11-28,57,310-->
 
-Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2025-12-08,65,310!2025-12-08,65,310!2025-12-03,61,310!2025-11-25,54,310!2025-11-28,57,310!2025-12-06,63,310-->
+Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2025-12-08,65,310!2025-12-08,65,310!2025-12-03,61,310!2026-07-20,237,330!2025-11-28,57,310!2025-12-06,63,310-->
 
-Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!2025-11-26,55,310!2025-12-04,62,310!2025-11-25,54,310!2025-12-10,67,310!2025-12-10,67,310!2025-12-03,61,310!2025-12-05,63,310!2025-12-04,62,310-->
+Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!2025-11-26,55,310!2025-12-04,62,310!2026-07-19,236,330!2025-12-10,67,310!2025-12-10,67,310!2025-12-03,61,310!2025-12-05,63,310!2025-12-04,62,310-->
 
 Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2025-12-07,64,310!2025-11-29,58,310-->
 
@@ -968,7 +968,7 @@ For-expressions also support {@{pattern matching in _generator_ positions}@}. Th
 >
 > {@{The resulting sequence}@} contains {@{phone numbers beginning with the country code `"852"`}@}. <!--SR:!2026-04-04,134,420!2026-04-12,141,420!2026-04-24,152,429!2026-05-02,159,429-->
 
-Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2026-04-26,153,429!2025-11-25,24,380!2026-05-06,163,440-->
+Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2026-04-26,153,429!2026-03-31,126,400!2026-05-06,163,440-->
 
 {@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}. <!--SR:!2026-05-01,158,429!2026-04-21,149,429!2026-04-04,134,415!2026-04-07,137,420!2026-05-01,158,429-->
 
