@@ -126,7 +126,7 @@ The content is in teaching order.
 - [tail call](../../../../general/tail%20call.md) ::@:: It is a subroutine call performed as the final action of a procedure. <!--SR:!2026-01-27,94,367!2026-01-26,93,367-->
   - tail call / tail recursion ::@:: If the target of a tail is the same subroutine, the subroutine is said to be __tail recursive__, which is a special case of direct recursion. __Tail recursion__ \(or __tail-end recursion__\) is particularly useful, and is often easy to optimize in implementations. <!--SR:!2026-01-23,90,367!2026-01-26,93,367-->
     - tail call / tail recursion / substitution model ::@:: Assume _no side effects_. Under the substitution model, a tail-recursive function, when it calls itself, the expression _only contains_ a function call to itself. No matter how many times recursion occurs, the expression "_size_" will not explode. <!--SR:!2026-01-24,91,367!2026-01-02,69,347-->
-  - tail call / tail-call elimination ::@:: Tail calls can be implemented without adding a new stack frame to the call stack. Most of the frame of the current procedure is no longer needed, and can be replaced by the frame of the tail call, modified as appropriate \(similar to overlay for processes, but for function calls\). The program can then jump to the called subroutine. Producing such code instead of a standard call sequence is called __tail-call elimination__ or __tail-call optimization__. <!--SR:!2026-01-01,68,347!2025-11-23,39,327-->
+  - tail call / tail-call elimination ::@:: Tail calls can be implemented without adding a new stack frame to the call stack. Most of the frame of the current procedure is no longer needed, and can be replaced by the frame of the tail call, modified as appropriate \(similar to overlay for processes, but for function calls\). The program can then jump to the called subroutine. Producing such code instead of a standard call sequence is called __tail-call elimination__ or __tail-call optimization__. <!--SR:!2026-01-01,68,347!2026-05-16,174,347-->
     - tail call / tail-call elimination / Scala 3 ::@:: In a function, only tail calls to itself are _optimized_. To ensure this is the case \(or emit a compiler error otherwise\), use the _annotation_ `@scala.annotation.tailrec`. <!--SR:!2026-01-02,69,347!2026-01-27,94,367-->
 - Scala
   - Scala / Scala 3
@@ -163,7 +163,7 @@ The content is in teaching order.
     - [§ extension methods](Scala%203.md#extension%20methods): extension methods
 - rewriting
   - rewriting / substitution model
-    - rewriting / substitution model / class ::@:: Assume _no side effects_. For the Scala 3 expression `c.f(y_1, ..., y_m)` where `r` is the name used by the extension definition, it is rewritten to: $$[c/r] [y_1/f_1, \ldots, y_m/f_m] E \,.$$ That is, we replace function arguments, and then replace the name `r` used by the extension definition. \(__this course__: Use this model. And we do the above 2 substitutions simultaneously.\) <!--SR:!2025-11-23,39,327!2026-01-26,93,367-->
+    - rewriting / substitution model / class ::@:: Assume _no side effects_. For the Scala 3 expression `c.f(y_1, ..., y_m)` where `r` is the name used by the extension definition, it is rewritten to: $$[c/r] [y_1/f_1, \ldots, y_m/f_m] E \,.$$ That is, we replace function arguments, and then replace the name `r` used by the extension definition. \(__this course__: Use this model. And we do the above 2 substitutions simultaneously.\) <!--SR:!2026-05-17,175,347!2026-01-26,93,367-->
 - Scala
   - Scala / Scala 3
     - [§ syntax](Scala%203.md#syntax): syntax

@@ -70,7 +70,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 If {@{$V_{2}=V_{1}$ implies $I_{2}=I_{1}$ for all \(real\) values of _V_<sub>1</sub>}@}, then {@{with respect to terminals ab and xy, circuit 1 and circuit 2 are equivalent}@}. <!--SR:!2026-01-27,242,330!2026-06-05,348,349-->
 
-The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}. For {@{more than one port}@}, then it must be defined that {@{the currents and voltages between all pairs of corresponding ports must bear the same relationship}@}. For instance, {@{star and delta networks are effectively three port networks}@} and hence {@{require three simultaneous equations to fully specify their equivalence}@}. <!--SR:!2026-07-24,390,360!2026-04-19,311,349!2025-11-23,187,310!2026-05-27,340,349!2026-05-02,322,349-->
+The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}. For {@{more than one port}@}, then it must be defined that {@{the currents and voltages between all pairs of corresponding ports must bear the same relationship}@}. For instance, {@{star and delta networks are effectively three port networks}@} and hence {@{require three simultaneous equations to fully specify their equivalence}@}. <!--SR:!2026-07-24,390,360!2026-04-19,311,349!2028-02-04,803,330!2026-05-27,340,349!2026-05-02,322,349-->
 
 ### impedances in series and in parallel
 

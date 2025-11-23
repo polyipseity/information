@@ -23,7 +23,7 @@ The algorithm was developed {@{in 1930}@} by {@{[Czech](Czechs.md) mathematician
 
 > {@{![Prim's algorithm](../../archives/Wikimedia%20Commons/Prim's%20algorithm.svg)}@}
 >
-> {@{Prim's algorithm starting at vertex A}@}. In the third step, {@{edges BD and AB both have weight 2, so BD is chosen arbitrarily}@}. After that step, {@{AB is no longer a candidate for addition to the tree}@} because {@{it links two nodes that are already in the tree}@}. <!--SR:!2029-02-17,1204,350!2025-11-23,280,330!2027-11-07,820,330!2029-02-05,1195,350!2025-12-09,294,330-->
+> {@{Prim's algorithm starting at vertex A}@}. In the third step, {@{edges BD and AB both have weight 2, so BD is chosen arbitrarily}@}. After that step, {@{AB is no longer a candidate for addition to the tree}@} because {@{it links two nodes that are already in the tree}@}. <!--SR:!2029-02-17,1204,350!2029-05-19,1273,350!2027-11-07,820,330!2029-02-05,1195,350!2025-12-09,294,330-->
 
 ## description
 
@@ -47,7 +47,7 @@ In more detail, it may be implemented following the [pseudocode](pseudocode.md) 
 
 As described above, {@{the starting vertex for the algorithm}@} will {@{be chosen arbitrarily}@}, because {@{the first iteration of the main loop of the algorithm will have a set of vertices in _Q_ that all have equal weights}@}, and {@{the algorithm will automatically start a new tree in _F_}@} when {@{it completes a spanning tree of each connected component of the input graph}@}. The algorithm may be modified to {@{start with any particular vertex _s_ by setting _C_\[_s_\] to be a number smaller than the other values of _C_ \(for instance, zero\)}@}, and it may be modified to {@{only find a single spanning tree rather than an entire spanning forest \(matching more closely the informal description\)}@} by {@{stopping whenever it encounters another vertex flagged as having no associated edge}@}. <!--SR:!2029-01-09,1174,350!2025-12-07,292,330!2027-09-08,775,330!2027-09-27,779,330!2029-04-21,1253,350!2026-06-08,372,290!2027-10-26,811,330!2027-10-04,786,330-->
 
-{@{Different variations of the algorithm}@} {@{differ from each other in how the set _Q_ is implemented}@}: as {@{a simple [linked list](linked%20list.md) or [array](array%20(data%20structure).md) of vertices, or as a more complicated [priority queue](priority%20queue.md) data structure}@}. This choice leads to {@{differences in the [time complexity](time%20complexity.md) of the algorithm}@}. In general, {@{a priority queue will be quicker at finding the vertex _v_ with minimum cost}@}, but {@{will entail more expensive updates when the value of _C_\[_w_\] changes}@}. <!--SR:!2025-11-23,280,330!2027-10-09,800,330!2026-10-14,505,310!2025-12-08,293,330!2025-12-09,294,330!2026-12-04,541,310-->
+{@{Different variations of the algorithm}@} {@{differ from each other in how the set _Q_ is implemented}@}: as {@{a simple [linked list](linked%20list.md) or [array](array%20(data%20structure).md) of vertices, or as a more complicated [priority queue](priority%20queue.md) data structure}@}. This choice leads to {@{differences in the [time complexity](time%20complexity.md) of the algorithm}@}. In general, {@{a priority queue will be quicker at finding the vertex _v_ with minimum cost}@}, but {@{will entail more expensive updates when the value of _C_\[_w_\] changes}@}. <!--SR:!2029-05-20,1274,350!2027-10-09,800,330!2026-10-14,505,310!2025-12-08,293,330!2025-12-09,294,330!2026-12-04,541,310-->
 
 ## time complexity
 

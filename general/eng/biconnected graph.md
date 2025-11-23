@@ -15,9 +15,9 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Graph%20connectivity%20sidebar) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Graph%20connectivity%20sidebar) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AGraph%20connectivity%20sidebar) | -->
 
-In {@{[graph theory](graph%20theory.md)}@}, a __biconnected graph__ is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph has no [articulation vertices](biconnected%20component.md)}@}. <!--SR:!2025-12-21,281,332!2025-12-22,282,332!2025-11-28,262,330!2025-11-23,259,332-->
+In {@{[graph theory](graph%20theory.md)}@}, a __biconnected graph__ is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph has no [articulation vertices](biconnected%20component.md)}@}. <!--SR:!2025-12-21,281,332!2025-12-22,282,332!2025-11-28,262,330!2029-02-18,1183,352-->
 
-{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity, except that the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2025-12-22,282,332!2025-11-23,259,332-->
+{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity, except that the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2025-12-22,282,332!2029-02-21,1186,352-->
 
 This property is especially {@{useful in maintaining a graph with a two-fold [redundancy](redundancy%20(engineering).md)}@}, to {@{prevent disconnection upon the removal of a single [edge](glossary%20of%20graph%20theory.md#edge) \(or connection\)}@}. <!--SR:!2026-01-11,297,332!2028-04-05,903,332-->
 

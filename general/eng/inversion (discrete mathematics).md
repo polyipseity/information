@@ -34,7 +34,7 @@ For sequences, {@{inversions according to the element-based definition are not u
 
 {@{The __inversion number__ ${\mathtt {inv} }(X)$<sup>[\[10\]](#^ref-10)</sup>}@} of {@{a sequence $X=\langle x_{1},\dots ,x_{n}\rangle$}@}, is {@{the [cardinality](cardinality.md) of the inversion set}@}. It is {@{a common measure of sortedness \(sometimes called presortedness\) of a permutation<sup>[\[5\]](#^ref-5)</sup> or sequence}@}.<sup>[\[9\]](#^ref-9)</sup> The inversion number is {@{between 0 and ${\frac {n(n-1)}{2} }$ inclusive}@}. {@{A permutation and its inverse}@} have {@{the same inversion number}@}. <!--SR:!2029-05-17,1274,352!2029-04-19,1250,352!2027-10-28,812,332!2025-11-24,281,332!2029-05-05,1265,352!2029-04-30,1260,352!2025-12-16,296,332-->
 
-For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{the sequence is ordered}@}. Also, {@{when $n=2m$ is even}@}, {@{${\mathtt {inv} }(\langle m+1,m+2,\dots ,2m,1,2,\dots ,m\rangle )=m^{2}$}@} \(because {@{each pair $(1\leq i\leq m<j\leq 2m)$ is an inversion}@}\). This last example shows that {@{a set that is intuitively "nearly sorted" can still have a quadratic number of inversions}@}. <!--SR:!2027-03-31,599,312!2025-12-14,294,332!2025-12-14,294,332!2027-12-08,842,332!2028-03-21,911,332!2025-11-23,280,332-->
+For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{the sequence is ordered}@}. Also, {@{when $n=2m$ is even}@}, {@{${\mathtt {inv} }(\langle m+1,m+2,\dots ,2m,1,2,\dots ,m\rangle )=m^{2}$}@} \(because {@{each pair $(1\leq i\leq m<j\leq 2m)$ is an inversion}@}\). This last example shows that {@{a set that is intuitively "nearly sorted" can still have a quadratic number of inversions}@}. <!--SR:!2027-03-31,599,312!2025-12-14,294,332!2025-12-14,294,332!2027-12-08,842,332!2028-03-21,911,332!2029-05-30,1284,352-->
 
 {@{The inversion number}@} is {@{the number of crossings in the arrow diagram of the permutation}@},<sup>[\[6\]](#^ref-6)</sup> {@{the permutation's [Kendall tau distance](Kendall%20tau%20distance.md) from the identity permutation}@}, and {@{the sum of each of the inversion related vectors defined below}@}. <!--SR:!2025-11-25,282,332!2027-11-25,833,332!2026-11-12,535,312!2025-12-20,300,332-->
 
@@ -65,7 +65,7 @@ __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is 
 - left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2027-10-13,751,292!2027-05-13,618,312-->
 - left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2027-03-25,583,312!2026-05-31,335,252-->
 
-__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2027-05-29,579,272!2025-11-23,173,272-->
+__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2027-05-29,579,272!2027-09-07,653,292-->
 
 - right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2026-05-25,359,292!2026-12-10,544,312-->
 - right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2026-08-14,414,292!2026-10-20,508,312-->

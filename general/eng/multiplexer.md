@@ -62,7 +62,7 @@ In {@{[analog circuit](analog%20circuit.md) design}@}, a multiplexer is {@{a spe
 
 ## digital multiplexers
 
-In {@{[digital circuit](digital%20circuit.md) design}@}, the selector wires are {@{of digital value}@}. In the case of {@{a 2-to-1 multiplexer}@}, {@{a logic value of 0 would connect $I_{0}$ to the output}@} while {@{a logic value of 1 would connect $I_{1}$ to the output}@}. In {@{larger multiplexers}@}, the number of selector pins is {@{equal to $\left\lceil \log _{2}(n)\right\rceil$ where $n$ is the number of inputs}@}. <!--SR:!2026-04-07,320,344!2025-11-23,208,324!2026-05-01,342,344!2026-04-29,340,344!2026-04-15,328,344!2026-04-23,334,344!2026-03-27,309,344-->
+In {@{[digital circuit](digital%20circuit.md) design}@}, the selector wires are {@{of digital value}@}. In the case of {@{a 2-to-1 multiplexer}@}, {@{a logic value of 0 would connect $I_{0}$ to the output}@} while {@{a logic value of 1 would connect $I_{1}$ to the output}@}. In {@{larger multiplexers}@}, the number of selector pins is {@{equal to $\left\lceil \log _{2}(n)\right\rceil$ where $n$ is the number of inputs}@}. <!--SR:!2026-04-07,320,344!2028-06-16,936,344!2026-05-01,342,344!2026-04-29,340,344!2026-04-15,328,344!2026-04-23,334,344!2026-03-27,309,344-->
 
 For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} and {@{17 to 32 inputs would require no fewer than 5 selector pins}@}. {@{The binary value expressed on these selector pins}@} {@{determines the selected input pin}@}. <!--SR:!2026-04-16,329,344!2026-04-15,328,344!2025-12-27,240,330!2026-04-14,327,344-->
 

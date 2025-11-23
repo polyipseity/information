@@ -34,7 +34,7 @@ Assembly {@{transforms assembly program (text) into relocatable object (binary)}
 
 Linking {@{transforms relocatable object (binary) into an ELF file (binary)}@}, which is the final product we want. GCC internally {@{uses the program `ld`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc <input>.o -o <output>`, which outputs the ELF file as `<output>`}@}. <!--SR:!2027-08-14,828,343!2026-02-18,421,365!2025-12-17,371,365-->
 
-It is okay that one does not understand everything above. The most important part is that {@{a source file is transformed into assembly program, which is finally transformed into the ELF file}@}. {@{Reversing the ELF file into the assembly program}@} is easy as {@{assembly has a mostly direct correspondence with instructions in the ELF file}@}, but {@{reversing the assembly program into the original source program}@} is difficult as {@{language constructs can be compiled into assembly in a multitude of ways, losing information in the process}@}. Reversing is somewhat about the latter, but more accurately is about {@{understanding the program behavior from the assembly without the source program}@}. And to do so, we need to {@{learn assembly}@}. <!--SR:!2029-05-20,1350,363!2030-06-17,1676,377!2028-04-22,1028,350!2028-11-08,1194,363!2030-02-07,1573,377!2025-11-23,351,365!2029-06-29,1395,377-->
+It is okay that one does not understand everything above. The most important part is that {@{a source file is transformed into assembly program, which is finally transformed into the ELF file}@}. {@{Reversing the ELF file into the assembly program}@} is easy as {@{assembly has a mostly direct correspondence with instructions in the ELF file}@}, but {@{reversing the assembly program into the original source program}@} is difficult as {@{language constructs can be compiled into assembly in a multitude of ways, losing information in the process}@}. Reversing is somewhat about the latter, but more accurately is about {@{understanding the program behavior from the assembly without the source program}@}. And to do so, we need to {@{learn assembly}@}. <!--SR:!2029-05-20,1350,363!2030-06-17,1676,377!2028-04-22,1028,350!2028-11-08,1194,363!2030-02-07,1573,377!2030-09-17,1759,385!2029-06-29,1395,377-->
 
 ## assembly language
 
@@ -72,7 +72,7 @@ Below is a list of common instructions (in learning order):
 - `and <dest> <src>` ::@:: Bitwise and the value at `<dest>` with `<src>`. <!--SR:!2025-11-26,354,363!2029-06-22,1377,363-->
 - `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2026-01-18,397,365!2028-08-17,1119,350-->
 - `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2025-12-23,375,365!2026-01-08,387,363-->
-- `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2026-01-14,393,365!2025-11-23,348,357-->
+- `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2026-01-14,393,365!2030-07-27,1707,377-->
 - `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2029-05-24,1367,377!2028-08-11,1115,350-->
 - `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2029-01-15,1239,365!2030-01-28,1564,377-->
 - `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2030-01-24,1547,363!2029-08-02,1409,363-->

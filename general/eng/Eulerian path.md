@@ -94,7 +94,7 @@ This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md
 >
 > <!-- - [v](https://en.wikipedia.org/wiki/Template:Hamiltonian%20platonic%20graphs.svg) -->
 > <!-- - [t](https://en.wikipedia.org/wiki/Template_talk:Hamiltonian%20platonic%20graphs.svg) -->
-> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2027-04-19,632,302!2027-11-23,832,342!2027-08-05,683,316!2026-07-30,456,322!2025-11-23,268,342-->
+> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2027-04-19,632,302!2027-11-23,832,342!2027-08-05,683,316!2026-07-30,456,322!2029-05-10,1264,362-->
 
 ## counting Eulerian circuits
 

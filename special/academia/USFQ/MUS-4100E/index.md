@@ -638,10 +638,10 @@ The content is in teaching order.
 - [_Giant Steps_](../../../../general/Giant%20Steps.md) ::@:: It is a studio album by the jazz musician John Coltrane. <p> The record is regarded as one of the most influential jazz albums of all time. Many of its tracks have become practice templates for jazz saxophonists. <!--SR:!2025-11-27,151,438!2025-12-05,158,441-->
   - _Giant Steps_ / characteristics ::@:: Structurally opposite of _Kind of Blue_, with extreme harmonic sophistication. Both of them want to maximize expression. <!--SR:!2025-12-11,163,441!2027-02-03,477,422-->
   - _Giant Steps_ / structure ::@:: 16-bar AB form, complex chord progression based on major thirds, up tempo swing <!--SR:!2025-12-05,158,442!2025-12-03,156,442-->
-  - _Giant Steps_ / effects ::@:: The tune is hard \(even for piano players\), and often considered as a improvisation "test". <p> It set new jazz composition and improvisation standards. <!--SR:!2025-11-23,147,438!2025-12-10,162,438-->
+  - _Giant Steps_ / effects ::@:: The tune is hard \(even for piano players\), and often considered as a improvisation "test". <p> It set new jazz composition and improvisation standards. <!--SR:!2028-04-20,879,458!2025-12-10,162,438-->
 - John Coltrane
   - John Coltrane / modal jazz ::@:: He used the soprano saxophone instead of tenor. <p> "My Favorite Things" \(1961\) — John Coltrane <br/> "Part 1, Acknowledgement" \(1965\) — John Coltrane <br/> "Trane" — John Coltrane, Johnny Hartman <!--SR:!2025-11-26,150,438!2025-12-06,158,438-->
-  - John Coltrane / later life ::@:: He died at 40 from liver failure. <!--SR:!2025-12-06,158,438!2025-11-23,147,438-->
+  - John Coltrane / later life ::@:: He died at 40 from liver failure. <!--SR:!2025-12-06,158,438!2028-04-22,881,458-->
 - assignment: \(none\)
 
 ## week 14 lecture
@@ -689,7 +689,7 @@ The content is in teaching order.
 - datetime: 2025-04-21T08:30:00-05:00/2025-04-21T09:50:00-05:00, PT1H20M
   - local: 2025-04-21T21:30:00+08:00/2025-04-21T22:50:00+08:00, PT1H20M
 - [Nat King Cole](../../../../general/Nat%20King%20Cole.md) \(1919–1965\) ::@:: He was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts. <p> He popularized the piano trio: bass, guitar, and piano. <!--SR:!2025-11-28,152,442!2025-12-02,155,441-->
-  - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2025-12-04,157,442!2025-11-23,147,438-->
+  - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2025-12-04,157,442!2028-04-23,882,458-->
   - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\) <!--SR:!2025-11-26,150,438!2025-12-05,158,441-->
   - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2025-11-28,152,441!2025-12-03,156,441-->
   - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2026-01-18,169,455!2026-01-24,175,455-->
@@ -723,9 +723,9 @@ The content is in teaching order.
 - datetime: 2025-04-23T08:30:00-05:00/2025-04-23T09:50:00-05:00, PT1H20M
   - local: 2025-04-23T21:30:00+08:00/2025-04-23T22:50:00+08:00, PT1H20M
 - jazz
-  - jazz / 1980s ::@:: After the jazz fusion era, many jazz musicians returned to traditional bebop, creating neo-bop or post-bop, etc. <!--SR:!2025-11-23,147,438!2025-12-04,157,442-->
+  - jazz / 1980s ::@:: After the jazz fusion era, many jazz musicians returned to traditional bebop, creating neo-bop or post-bop, etc. <!--SR:!2028-04-19,878,458!2025-12-04,157,442-->
 - [neo-bop](../../../../general/neo-bop.md) ::@:: It refers to a style of jazz that gained popularity in the 1980s among musicians who found greater aesthetic affinity for acoustically based, swinging, melodic forms of jazz than for free jazz and jazz fusion that had gained prominence in the 1960s and 1970s. <!--SR:!2027-07-24,648,441!2025-12-06,158,438-->
-- [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages. <!--SR:!2025-11-23,147,438!2025-11-28,152,441-->
+- [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages. <!--SR:!2028-04-21,880,458!2025-11-28,152,441-->
 - neo-bop
   - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions. <!--SR:!2025-12-04,156,438!2025-12-05,158,441-->
   - neo-bop / criticisms ::@:: Miles Davis hated it. He thought the music was moving backwards. <!--SR:!2025-11-25,149,438!2025-12-05,158,442-->

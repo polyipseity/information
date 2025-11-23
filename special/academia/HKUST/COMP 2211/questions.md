@@ -1517,7 +1517,7 @@ tags:
 >
 > Is $M$ a Markov chain? Explain your answer.
 >
-> - solution: {@{Yes. <p> The key is to realize that knowing the entire state history does not allow us to make better predictions than knowing only the current state. The key difference from the previous question is that the entire state history in the context of the previous Markov chain is encoded as the current state in the context of this Markov chain.}@} <!--SR:!2025-11-23,259,330-->
+> - solution: {@{Yes. <p> The key is to realize that knowing the entire state history does not allow us to make better predictions than knowing only the current state. The key difference from the previous question is that the entire state history in the context of the previous Markov chain is encoded as the current state in the context of this Markov chain.}@} <!--SR:!2029-02-15,1180,350-->
 
 <!-- markdownlint MD028 -->
 

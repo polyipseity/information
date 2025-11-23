@@ -182,13 +182,13 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2027-10-09,689,424!2026-10-19,389,404-->
 - absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-12-01,132,404!2027-10-23,701,424-->
 - add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2027-10-12,691,424!2027-10-02,682,424-->
-- add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2027-10-18,696,424!2025-11-23,128,404-->
-- branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-12-02,133,404!2025-11-23,128,404-->
+- add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2027-10-18,696,424!2027-11-03,710,424-->
+- branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-12-02,133,404!2027-04-21,514,404-->
 - branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2026-11-19,416,404!2025-11-29,130,404-->
 - compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2027-10-16,695,424!2027-10-09,688,424-->
 - compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-11-24,129,404!2027-10-27,704,424-->
 - compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2027-10-06,686,424!2027-10-25,702,424-->
-- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-11-23,128,404!2027-10-17,696,424-->
+- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2027-11-04,711,424!2027-10-17,696,424-->
 - compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2027-10-22,700,424!2027-10-04,685,424-->
 - compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2027-10-08,688,424!2027-10-07,687,424-->
 - compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2026-06-13,209,384!2027-10-19,697,424-->
@@ -198,11 +198,11 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-12-04,135,404!2025-12-01,132,404-->
 - compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2027-10-03,683,424!2027-09-22,673,424-->
 - divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-11-27,128,404!2027-10-22,700,424-->
-- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-10-10,689,424!2025-11-23,128,404-->
-- load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2027-09-27,678,424!2025-11-23,128,404-->
+- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-10-10,689,424!2027-11-02,709,424-->
+- load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2027-09-27,678,424!2027-10-31,707,424-->
 - load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2027-10-30,707,424!2026-07-28,303,384-->
 - multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-10-26,703,424!2025-11-28,129,404-->
-- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-11-23,128,404!2025-11-29,130,404-->
+- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-11-01,708,424!2025-11-29,130,404-->
 - negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-11-24,129,404!2025-12-01,132,404-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-10-20,698,424!2027-10-29,706,424-->
 - store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-03-25,492,404!2026-06-07,275,384-->
@@ -408,7 +408,7 @@ A common interruption cause is {@{signed integer overflow in arithmetic operatio
 
 MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}. <!--SR:!2025-11-24,129,404!2025-11-24,129,404-->
 
-It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\) <!--SR:!2027-10-23,700,424!2025-12-02,133,404!2027-10-21,699,424!2027-10-26,703,424!2025-11-29,130,404!2025-12-04,135,404!2027-09-28,679,424!2027-09-25,677,424!2027-10-03,684,424!2025-11-23,128,404-->
+It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\) <!--SR:!2027-10-23,700,424!2025-12-02,133,404!2027-10-21,699,424!2027-10-26,703,424!2025-11-29,130,404!2025-12-04,135,404!2027-09-28,679,424!2027-09-25,677,424!2027-10-03,684,424!2027-11-05,712,424-->
 
 It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions: <!--SR:!2027-10-21,699,424!2027-10-17,696,424!2027-10-14,693,424!2027-09-27,678,424-->
 

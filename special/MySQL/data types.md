@@ -42,4 +42,4 @@ tags:
     - `TINYTEXT` ::@:: Up to 2<sup>8</sup>−1 bytes of string. <!--SR:!2026-12-09,823,330!2030-07-04,1928,350-->
     - `TEXT` ::@:: Up to 2<sup>16</sup>−1 bytes of string. <!--SR:!2027-12-06,971,290!2030-10-04,1988,350-->
     - `MEDIUMTEXT` ::@:: Up to 2<sup>24</sup>−1 bytes of string. <!--SR:!2028-10-07,1323,330!2029-03-05,1548,350-->
-    - `LONGTEXT` ::@:: Up to 2<sup>32</sup>−1 bytes of string. <!--SR:!2025-11-23,527,290!2026-01-03,466,290-->
+    - `LONGTEXT` ::@:: Up to 2<sup>32</sup>−1 bytes of string. <!--SR:!2031-09-17,2124,310!2026-01-03,466,290-->
