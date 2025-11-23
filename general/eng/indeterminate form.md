@@ -87,7 +87,7 @@ return await memorize_map(
 
 #### x→∞
 
-To {@{derive the equivalent infinitesimals}@} when {@{$x \to \pm\infty$}@}, {@{replace all $x$ with $\frac 1 x$}@} in {@{the [equivalent infinitesimals when $x \to 0^\pm$](#x→0)}@} \({@{$x \to +\infty$}@} becomes {@{$x \to 0^+$}@}, {@{$x \to -\infty$ becomes $x \to 0^-$}@}\). <!--SR:!2029-08-13,1460,364!2025-11-29,85,353!2025-11-24,81,353!2025-11-30,86,353!2025-11-24,81,353!2025-11-24,81,353!2025-11-30,86,353-->
+To {@{derive the equivalent infinitesimals}@} when {@{$x \to \pm\infty$}@}, {@{replace all $x$ with $\frac 1 x$}@} in {@{the [equivalent infinitesimals when $x \to 0^\pm$](#x→0)}@} \({@{$x \to +\infty$}@} becomes {@{$x \to 0^+$}@}, {@{$x \to -\infty$ becomes $x \to 0^-$}@}\). <!--SR:!2029-08-13,1460,364!2025-11-29,85,353!2026-12-21,392,373!2025-11-30,86,353!2026-12-22,393,373!2026-12-21,392,373!2025-11-30,86,353-->
 
 ### L'Hôpital's rule
 

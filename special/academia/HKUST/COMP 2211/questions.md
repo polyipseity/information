@@ -1576,7 +1576,7 @@ tags:
 
 > Q14. (medium) Given a typical _transition probability matrix_ $\mathbf M$, a (vertex-based) rewards $\mathbf R$, and a discount factor $\gamma \in (0, 1)$, how to compute the exact expected reward starting from state $s$, $V(s)$?
 >
-> - solution: {@{Solve for the exact solution for $\mathbf V$ in $$\mathbf V = \mathbf R + \gamma \mathbf M \mathbf V \,.$$ <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-11-24,260,330-->
+> - solution: {@{Solve for the exact solution for $\mathbf V$ in $$\mathbf V = \mathbf R + \gamma \mathbf M \mathbf V \,.$$ <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2028-04-01,859,330-->
 
 <!-- markdownlint MD028 -->
 

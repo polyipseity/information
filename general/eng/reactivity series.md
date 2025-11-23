@@ -305,7 +305,7 @@ return _chain.from_iterable(await _gather(
 - [lead](lead.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-03-23,812,290-->
 - [antimony](antimony.md):@:heat or physical extraction <!--SR:!2030-03-29,1742,310-->
 - [bismuth](bismuth.md):@:heat or physical extraction <!--SR:!2032-04-24,2468,330-->
-- [copper](copper.md):@:heat or physical extraction <!--SR:!2025-11-24,662,310-->
+- [copper](copper.md):@:heat or physical extraction <!--SR:!2033-09-09,2846,330-->
 - [tungsten](tungsten.md):@:heat or physical extraction <!--SR:!2028-05-06,1446,350-->
 - [mercury](mercury%20(element).md):@:heat or physical extraction <!--SR:!2026-03-04,765,330-->
 - [silver](silver.md):@:heat or physical extraction <!--SR:!2026-12-04,963,330-->

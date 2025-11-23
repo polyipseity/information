@@ -184,7 +184,7 @@ Applying {@{the recursive formula to calculate $X(n\Delta _{t},m\Delta _{f})$}@}
 <!-- markdownlint-disable-next-line MD024 -->
 #### constraint
 
-{@{$$\exp {(-j2\pi pm\Delta _{t}\Delta _{f})}=\exp {(-j\pi p^{2}\Delta _{t}\Delta _{f})}\cdot \exp {(j\pi (p-m)^{2}\Delta _{t}\Delta _{f})}\cdot \exp {(-j\pi m^{2}\Delta _{t}\Delta _{f})}$$}@} so {@{$$\begin{aligned} X(n\Delta _{t},m\Delta _{f}) & =\Delta _{t}\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} } \\ X(n\Delta _{t},m\Delta _{f}) & =\Delta _{t}e^{-j \pi m^{2}\Delta _{t}\Delta _{f} }\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j\pi p^{2}\Delta _{t}\Delta _{f} }e^{j\pi (p-m)^{2}\Delta _{t}\Delta _{f} } \end{aligned}$$}@} <!--SR:!2026-04-10,202,310!2025-11-24,98,289-->
+{@{$$\exp {(-j2\pi pm\Delta _{t}\Delta _{f})}=\exp {(-j\pi p^{2}\Delta _{t}\Delta _{f})}\cdot \exp {(j\pi (p-m)^{2}\Delta _{t}\Delta _{f})}\cdot \exp {(-j\pi m^{2}\Delta _{t}\Delta _{f})}$$}@} so {@{$$\begin{aligned} X(n\Delta _{t},m\Delta _{f}) & =\Delta _{t}\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} } \\ X(n\Delta _{t},m\Delta _{f}) & =\Delta _{t}e^{-j \pi m^{2}\Delta _{t}\Delta _{f} }\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j\pi p^{2}\Delta _{t}\Delta _{f} }e^{j\pi (p-m)^{2}\Delta _{t}\Delta _{f} } \end{aligned}$$}@} <!--SR:!2026-04-10,202,310!2026-08-31,280,289-->
 
 ### implementation comparison
 

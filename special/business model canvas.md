@@ -174,7 +174,7 @@ risk reduction
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2029-07-23,1433,314-->
 - performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
 - price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2026-12-09,621,274-->
-- risk reduction→::@::←_(end)_ <!--SR:!2028-09-17,1081,297!2025-11-24,358,257-->
+- risk reduction→::@::←_(end)_ <!--SR:!2028-09-17,1081,297!2029-06-08,1292,277-->
 
 <!--/pytextgen-->
 

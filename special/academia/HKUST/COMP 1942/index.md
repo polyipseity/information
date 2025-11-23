@@ -183,7 +183,7 @@ The content is in teaching order.
 - [lift chart § construction](../../../lift%20chart.md#construction)
 - [lift chart § interpretation](../../../lift%20chart.md#interpretation)
 - [lift chart § decile-wise](../../../lift%20chart.md#decile-wise)
-- other classification performance measures ::@:: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2025-11-24,447,331!2027-11-16,1034,367-->
+- other classification performance measures ::@:: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2031-06-24,2038,351!2027-11-16,1034,367-->
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 
 ## week 8 lecture 1

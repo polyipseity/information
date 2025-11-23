@@ -278,7 +278,7 @@ workmanship
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
-- budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
+- budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2031-12-02,2199,375-->
 - construction management→::@::←economics <!--SR:!2028-12-24,1196,275!2028-01-11,997,320-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2027-03-28,697,280-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2028-07-28,1159,340-->
@@ -1102,7 +1102,7 @@ water tower
 - storage facility→::@::←tunnel <!--SR:!2028-01-16,826,280!2030-10-08,1835,360-->
 - tunnel→::@::←unusual structure <!--SR:!2027-03-28,714,267!2026-04-05,535,340-->
 - unusual structure→::@::←water tower <!--SR:!2029-04-18,1267,310!2026-03-29,369,290-->
-- water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2027-09-20,893,321-->
+- water tower→::@::←_(end)_ <!--SR:!2032-08-30,2471,407!2027-09-20,893,321-->
 
 <!--/pytextgen-->
 

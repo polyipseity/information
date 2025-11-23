@@ -154,7 +154,7 @@ A combination of zero or more of the following in any order:
 
 ### width
 
-An integer or {@{`*` specifying the minimum width}@}. The result is {@{padded with spaces}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}@}. <!--SR:!2025-11-24,572,317!2025-12-11,623,329!2027-04-02,763,269-->
+An integer or {@{`*` specifying the minimum width}@}. The result is {@{padded with spaces}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}@}. <!--SR:!2032-09-29,2501,337!2025-12-11,623,329!2027-04-02,763,269-->
 
 ### precision
 

@@ -133,7 +133,7 @@ return _chain.from_iterable(await _gather(
 
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md):@:[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md) <!--SR:!2027-07-02,862,254-->
 - [gasoline/petrol](gasoline.md):@:fuel for [motor vehicles](motor%20vehicle.md) <!--SR:!2027-12-30,1211,314-->
-- [naphtha](naphtha.md):@:production of [plastics](plastic.md) and [town gas](coal%20gas.md) <!--SR:!2025-11-24,533,234-->
+- [naphtha](naphtha.md):@:production of [plastics](plastic.md) and [town gas](coal%20gas.md) <!--SR:!2030-09-19,1760,254-->
 - [jet fuel](jet%20fuel.md):@:fuel for [aeroplanes](airplane.md) <!--SR:!2027-04-11,999,294-->
 - [kerosene](kerosene.md):@:fuel for domestic use <!--SR:!2032-12-10,2600,314-->
 - [fuel oil](fuel%20oil.md):@:fuel for [power plants](power%20station.md) and [ships](ship.md) <!--SR:!2032-04-19,2344,294-->

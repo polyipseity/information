@@ -107,7 +107,7 @@ The content is in teaching order.
   - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2029-01-11,1231,357!2025-11-25,330,337-->
 - [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2026-09-09,531,317!2028-10-02,1150,357-->
   - [§ expense](../../../../general/expense.md#expense)
-  - [expense](../../../../general/expense.md) / loss ::@:: decrease in assets or increase in liabilities from peripheral activities (side activities) <!--SR:!2025-11-24,329,337!2029-12-26,1499,357-->
+  - [expense](../../../../general/expense.md) / loss ::@:: decrease in assets or increase in liabilities from peripheral activities (side activities) <!--SR:!2030-02-05,1534,357!2029-12-26,1499,357-->
 - [consolidated financial statement](../../../../general/consolidated%20financial%20statement.md) (CFS) ::@:: a financial statement in which the parent company and all its subsidiaries are presented as those of a single economic entity <!--SR:!2028-08-19,1114,357!2027-07-19,775,337-->
 - [balance sheet](../../../../general/balance%20sheet.md)
   - [ACCT 2010/balance sheet](balance%20sheet.md)

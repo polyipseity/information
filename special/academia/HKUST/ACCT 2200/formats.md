@@ -233,7 +233,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2026-02-07,251,330!2026-02-03,247,330-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2026-03-03,275,330!2025-12-23,220,330-->
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2027-07-31,661,330!2026-02-12,256,330-->
-  - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2028-03-25,864,350!2025-11-24,176,310-->
+  - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2028-03-25,864,350!2027-12-26,762,330-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2026-07-26,378,310!2026-05-27,345,350-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2026-05-30,348,350!2026-02-25,269,330-->
 - production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-23,372,361!2026-07-04,382,361-->

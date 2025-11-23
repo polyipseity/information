@@ -635,7 +635,7 @@ The content is in teaching order.
 - [simple linear regression](../../../../general/simple%20linear%20regression.md) ::@:: ... if there is only one variable called _explanatory variable_, labeled by _x_, used to explain our target variable _y_. <!--SR:!2026-09-11,507,397!2027-05-17,715,417-->
   - simple linear regression / note ::@:: It is nowhere close to "simple" mathematically... <!--SR:!2027-05-20,715,417!2027-05-01,699,417-->
 - [regression analysis](../../../../general/regression%20analysis.md)
-  - regression analysis / brief history ::@:: Around the turn of the 20th century, geneticist Francis Galton discovered "regression toward the mean". Later, Sir Francis Galton referred to this as "regression toward mediocrity". <!--SR:!2025-11-24,270,377!2027-03-23,657,417-->
+  - regression analysis / brief history ::@:: Around the turn of the 20th century, geneticist Francis Galton discovered "regression toward the mean". Later, Sir Francis Galton referred to this as "regression toward mediocrity". <!--SR:!2029-09-16,1392,397!2027-03-23,657,417-->
 - [scatter plot](../../../../general/scatter%20plot.md) ::@:: It is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. <!--SR:!2029-04-08,1265,397!2026-08-05,475,397-->
   - scatter plot / simple linear regression ::@:: In elementary mathematics, $y = mx + c$ is a perfect line on a graph. In statistics, things are never too clean. Data do not perfectly fit onto a line on a scatter plot. <!--SR:!2027-04-20,685,417!2026-04-27,402,397-->
   - scatter plot / _R_ ::@:: `plot(<x>, <y>, main=<title>, ylab=<y label>, xlab=<x label>)` <!--SR:!2026-08-31,496,397!2027-05-30,725,417-->

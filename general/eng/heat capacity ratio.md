@@ -44,7 +44,7 @@ tags:
 > where
 >
 > - {@{$\gamma$}@} is {@{the heat capacity ratio}@}
-> - {@{$f$}@} is {@{the thermally accessible [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}@} <!--SR:!2027-07-02,801,250!2027-02-16,558,290!2025-11-24,494,310!2025-12-08,17,326!2025-12-09,18,326!2025-12-09,18,326-->
+> - {@{$f$}@} is {@{the thermally accessible [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}@} <!--SR:!2027-07-02,801,250!2027-02-16,558,290!2031-09-13,2119,330!2025-12-08,17,326!2025-12-09,18,326!2025-12-09,18,326-->
 
 #### derivation
 

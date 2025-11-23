@@ -36,7 +36,7 @@ Haloalkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble i
 
 ### substitution
 
-To produce [amines](amine.md), haloalkanes can {@{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}@}. Likewise, [acyl halides](acyl%20halide.md) can {@{react similarly to give primary [amides](amide.md)}@}. <!--SR:!2026-09-16,801,272!2025-11-24,619,272-->
+To produce [amines](amine.md), haloalkanes can {@{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}@}. Likewise, [acyl halides](acyl%20halide.md) can {@{react similarly to give primary [amides](amide.md)}@}. <!--SR:!2026-09-16,801,272!2032-05-01,2350,292-->
 
 #### hydrolysis
 

@@ -49,7 +49,7 @@ In MIPS, to address a memory location, we need {@{a base address and an offset}@
 
 ### endianness
 
-When {@{addressing multiple bytes}@}, it is important to {@{take note of _endianness_: _big endian_ and _little endian_}@}. {@{A _big-endian_ system}@} stores {@{the most significant byte of a word at the smallest memory address and the least significant byte \(word _end_\) at the largest}@}. {@{A _little-endian_ system}@} stores {@{the least-significant byte \(word _end_\) at the smallest address}@}. It also describes {@{the order of byte transmission over a digital link}@}. Using a familiar example, when {@{you write numbers, you start with the most significant digit and end with the least significant digit from left to right}@}. This is {@{analogous to _big endian_}@}. <!--SR:!2026-03-13,281,330!2026-02-28,269,330!2026-04-14,294,330!2025-11-24,189,310!2026-03-01,270,330!2026-02-28,269,330!2026-03-07,276,330!2026-07-10,342,381!2026-11-29,484,401-->
+When {@{addressing multiple bytes}@}, it is important to {@{take note of _endianness_: _big endian_ and _little endian_}@}. {@{A _big-endian_ system}@} stores {@{the most significant byte of a word at the smallest memory address and the least significant byte \(word _end_\) at the largest}@}. {@{A _little-endian_ system}@} stores {@{the least-significant byte \(word _end_\) at the smallest address}@}. It also describes {@{the order of byte transmission over a digital link}@}. Using a familiar example, when {@{you write numbers, you start with the most significant digit and end with the least significant digit from left to right}@}. This is {@{analogous to _big endian_}@}. <!--SR:!2026-03-13,281,330!2026-02-28,269,330!2026-04-14,294,330!2028-02-17,815,330!2026-03-01,270,330!2026-02-28,269,330!2026-03-07,276,330!2026-07-10,342,381!2026-11-29,484,401-->
 
 For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}. <!--SR:!2026-08-30,413,383!2026-08-19,408,383-->
 
@@ -186,7 +186,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-12-02,133,404!2027-04-21,514,404-->
 - branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2026-11-19,416,404!2025-11-29,130,404-->
 - compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2027-10-16,695,424!2027-10-09,688,424-->
-- compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-11-24,129,404!2027-10-27,704,424-->
+- compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2027-11-06,712,424!2027-10-27,704,424-->
 - compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2027-10-06,686,424!2027-10-25,702,424-->
 - compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2027-11-04,711,424!2027-10-17,696,424-->
 - compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2027-10-22,700,424!2027-10-04,685,424-->
@@ -203,12 +203,12 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2027-10-30,707,424!2026-07-28,303,384-->
 - multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-10-26,703,424!2025-11-28,129,404-->
 - multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-11-01,708,424!2025-11-29,130,404-->
-- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-11-24,129,404!2025-12-01,132,404-->
+- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-11-11,717,424!2025-12-01,132,404-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-10-20,698,424!2027-10-29,706,424-->
 - store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-03-25,492,404!2026-06-07,275,384-->
 - store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-11-30,131,404!2025-12-02,133,404-->
 - subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-12-03,134,404!2027-10-24,701,424-->
-- subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2027-09-26,677,424!2025-11-24,129,404-->
+- subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2027-09-26,677,424!2027-11-12,718,424-->
 
 ### miscellaneous instructions
 
@@ -366,7 +366,7 @@ Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. _Callee-saved_ means {@{the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value cannot change during the procedure, just that the register value must be restored before returning}@}. One way to do so is {@{if the registers need to be modified during the procedure, save them to the stack and restore them before returning}@}. _Caller-saved_ means {@{there is no guarantee that the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value _must_ change during the procedure, just that the caller cannot _rely_ on it being the same}@}. <!--SR:!2026-10-28,452,401!2026-10-24,448,401!2026-12-29,505,401!2026-12-27,503,401!2026-08-01,361,381!2026-11-21,473,401-->
 
-If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}. <!--SR:!2025-11-28,129,404!2027-10-24,702,424!2025-11-24,129,404-->
+If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}. <!--SR:!2025-11-28,129,404!2027-10-24,702,424!2027-11-05,711,424-->
 
 ## memory layout
 
@@ -406,7 +406,7 @@ A common interruption cause is {@{signed integer overflow in arithmetic operatio
 
 ## floating point
 
-MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}. <!--SR:!2025-11-24,129,404!2025-11-24,129,404-->
+MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}. <!--SR:!2027-11-07,713,424!2027-11-06,712,424-->
 
 It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\) <!--SR:!2027-10-23,700,424!2025-12-02,133,404!2027-10-21,699,424!2027-10-26,703,424!2025-11-29,130,404!2025-12-04,135,404!2027-09-28,679,424!2027-09-25,677,424!2027-10-03,684,424!2027-11-05,712,424-->
 
@@ -416,7 +416,7 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2027-10-20,699,424!2027-10-25,702,424-->
 - data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-11-30,131,404!2026-07-18,295,384-->
 - immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-11-27,128,404!2027-10-13,692,424-->
-- signedness ::@:: All operations are always signed. <!--SR:!2027-10-15,694,424!2025-11-24,129,404-->
+- signedness ::@:: All operations are always signed. <!--SR:!2027-10-15,694,424!2027-11-04,710,424-->
 
 ## miscellaneous
 

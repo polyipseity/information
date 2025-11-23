@@ -30,7 +30,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-__Cash flow__, {@{in general, refers to payments made into or out of a business, project, or financial product}@}.<sup>[\[1\]](#^ref-1)</sup> It can also {@{refer more specifically to a real or virtual movement of [money](cash.md)}@}. <!--SR:!2026-01-17,291,330!2025-11-24,250,330-->
+__Cash flow__, {@{in general, refers to payments made into or out of a business, project, or financial product}@}.<sup>[\[1\]](#^ref-1)</sup> It can also {@{refer more specifically to a real or virtual movement of [money](cash.md)}@}. <!--SR:!2026-01-17,291,330!2029-01-06,1139,350-->
 
 - Cash flow, in its narrow sense, is ::@:: a [payment](payment.md) \(in a [currency](currency.md)\), especially from one [central bank](central%20bank.md) account to another. The term 'cash flow' is mostly used to describe payments that are expected to happen in the future, are thus uncertain, and therefore need to be [forecast](cash%20flow%20forecasting.md) with cash flows. <!--SR:!2026-08-25,408,270!2028-03-15,875,330-->
 - A cash flow \(CF\) is determined by ::@:: its time _t_, [nominal amount](real%20and%20nominal%20value.md) _N_, currency CCY, and account A; symbolically, CF = CF\(_t_, _N_, CCY, A\). <!--SR:!2026-04-06,320,290!2028-11-27,1106,350-->

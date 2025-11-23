@@ -129,4 +129,4 @@ tags:
 > 6. The G/G/1 model cannot be used for non-random inter-arrival time and/or non-random service time.
 > 7. The M/M/1 model is a special case of the G/G/1 model.
 >
-> - solution: {@{1, 2, 7}@} <!--SR:!2025-11-24,173,310-->
+> - solution: {@{1, 2, 7}@} <!--SR:!2027-12-10,746,330-->

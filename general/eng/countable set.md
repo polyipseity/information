@@ -33,7 +33,7 @@ A set $S$ is {@{_countable_}@} if: <!--SR:!2027-11-25,816,330-->
 - countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2029-01-17,1158,350!2026-07-06,416,310-->
 - countable, finiteness ::@:: $S$ is either [finite](finite%20set.md) \($|S|<\aleph _{0}$\) or countably infinite.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-01-20,1160,350!2027-12-13,818,330-->
 
-All of these definitions are {@{equivalent}@}. <!--SR:!2025-11-24,259,330-->
+All of these definitions are {@{equivalent}@}. <!--SR:!2029-02-13,1177,350-->
 
 A set $S$ is {@{_countably [infinite](infinite%20set.md)_}@} if: <!--SR:!2025-12-04,267,330-->
 
