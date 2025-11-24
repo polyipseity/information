@@ -31,7 +31,7 @@ Suppose that {@{the parameter $\theta$ = \($\theta _{1},\theta _{2},\dots ,\thet
 
 The method of moments is {@{fairly simple}@} and {@{yields [consistent estimators](consistent%20estimator.md) \(under very weak assumptions\)}@}, though {@{these estimators are often [biased](bias%20of%20an%20estimator.md)}@}. <!--SR:!2028-11-11,1100,350!2027-04-22,644,330!2028-10-24,1085,350-->
 
-It is an alternative to {@{the [method of maximum likelihood](maximum%20likelihood%20estimation.md)}@}. <!--SR:!2025-11-26,256,330-->
+It is an alternative to {@{the [method of maximum likelihood](maximum%20likelihood%20estimation.md)}@}. <!--SR:!2029-02-06,1168,350-->
 
 However, in some cases {@{the likelihood equations may be intractable without computers}@}, whereas {@{the method-of-moments estimators can be computed much more quickly and easily}@}. Due to {@{easy computability}@}, method-of-moments estimates may be {@{used as the first approximation to the solutions of the likelihood equations}@}, and {@{successive improved approximations may then be found}@} by {@{the [Newton–Raphson method](Newton's%20method.md)}@}. In this way {@{the method of moments can assist in finding maximum likelihood estimates}@}. <!--SR:!2027-08-03,712,330!2028-12-22,1133,350!2026-01-01,285,330!2025-12-09,267,330!2025-12-25,279,330!2027-11-12,798,330!2027-07-22,712,330-->
 

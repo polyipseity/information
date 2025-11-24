@@ -1389,7 +1389,7 @@ tags:
 
 > Q5. (medium) State __two__ ways to reduce the chances of introducing an unfair bias in an AI system.
 >
-> - solution: {@{(for reference) Ensure the training data used for the model is free from bias. <br/> Performing regular tests and audits. <br/> Ensure that the training data includes some samples from minority groups.}@} <!--SR:!2025-11-26,262,330-->
+> - solution: {@{(for reference) Ensure the training data used for the model is free from bias. <br/> Performing regular tests and audits. <br/> Ensure that the training data includes some samples from minority groups.}@} <!--SR:!2029-03-01,1191,350-->
 
 <!-- markdownlint MD028 -->
 

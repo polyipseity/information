@@ -13,7 +13,7 @@ tags:
 
 > {@{![schematic representation of a category with objects _X_, _Y_, _Z_ and morphisms _f_, _g_](../../archives/Wikimedia%20Commons/Commutative%20diagram%20for%20morphism.svg)}@}
 >
-> {@{Schematic representation of a category}@} with {@{objects _X_, _Y_, _Z_ and morphisms _f_, _g_, _g_ ∘ _f_}@}. \({@{The category's three identity morphisms 1<sub>_X_</sub>, 1<sub>_Y_</sub> and 1<sub>_Z_</sub>}@}, if {@{explicitly represented, would appear as three arrows, from the letters _X_, _Y_, and _Z_ to themselves, respectively}@}.\) <!--SR:!2025-12-02,255,330!2025-11-26,251,330!2028-12-24,1128,350!2025-11-29,254,330!2025-11-29,254,330-->
+> {@{Schematic representation of a category}@} with {@{objects _X_, _Y_, _Z_ and morphisms _f_, _g_, _g_ ∘ _f_}@}. \({@{The category's three identity morphisms 1<sub>_X_</sub>, 1<sub>_Y_</sub> and 1<sub>_Z_</sub>}@}, if {@{explicitly represented, would appear as three arrows, from the letters _X_, _Y_, and _Z_ to themselves, respectively}@}.\) <!--SR:!2025-12-02,255,330!2029-01-18,1149,350!2028-12-24,1128,350!2025-11-29,254,330!2025-11-29,254,330-->
 
 {@{__Category theory__}@} is {@{a general theory of [mathematical structures](mathematical%20structure.md) and their relations}@}. It was introduced by {@{[Samuel Eilenberg](Samuel%20Eilenberg.md) and [Saunders Mac Lane](Saunders%20Mac%20Lane.md) in the middle of the 20th century}@} in their {@{foundational work on [algebraic topology](algebraic%20topology.md)}@}.<sup>[\[1\]](#^ref-1)</sup> Category theory is used in {@{almost all areas of mathematics}@}. In particular, {@{many constructions of new [mathematical objects](mathematical%20object.md) from previous ones that appear similarly in several contexts}@} are {@{conveniently expressed and unified in terms of categories}@}. Examples include {@{[quotient spaces](quotient%20space.md), [direct products](direct%20product.md), completion, and [duality](duality%20(mathematics).md)}@}. <!--SR:!2025-12-22,270,330!2026-01-19,293,330!2026-01-24,277,290!2029-01-07,1140,350!2025-12-21,271,330!2025-12-15,265,330!2027-10-25,780,330!2026-08-31,412,270-->
 
@@ -73,7 +73,7 @@ tags:
 
 {@{A \(__covariant__\) functor _F_ from a category _C_ to a category _D_}@}, written {@{_F_ : _C_ → _D_}@}, consists of: <!--SR:!2026-01-13,287,330!2025-12-12,263,330-->
 
-- (annotation: covariant functor definition, object) ::@:: for each object _x_ in _C_, an object _F_\(_x_\) in _D_; and <!--SR:!2025-11-26,251,330!2025-11-28,253,330-->
+- (annotation: covariant functor definition, object) ::@:: for each object _x_ in _C_, an object _F_\(_x_\) in _D_; and <!--SR:!2029-01-13,1144,350!2025-11-28,253,330-->
 - (annotation: covariant functor definition, morphism) ::@:: for each morphism _f_ : _x_ → _y_ in _C_, a morphism _F_\(_f_\) : _F_\(_x_\) → _F_\(_y_\) in _D_, <!--SR:!2026-01-04,281,330!2026-01-13,289,330-->
 - (annotation: covariant functor definition, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-12-17,250,329!2026-03-17,342,349-->
 
@@ -82,7 +82,7 @@ such that the following two properties hold:
 - (annotation: covariant functor property, identity) ::@:: For every object _x_ in _C_, _F_\(1<sub>_x_</sub>\) = 1<sub>_F_\(_x_\)</sub>; <!--SR:!2026-01-12,286,330!2026-01-20,294,330-->
 - (annotation: covariant functor property, composition) ::@:: For all morphisms _f_ : _x_ → _y_ and _g_ : _y_ → _z_, _F_\(_g_ ∘ _f_\) = _F_\(_g_\) ∘ _F_\(_f_\). <!--SR:!2025-12-11,263,330!2025-12-11,263,330-->
 
-{@{A __contravariant__ functor _F_: _C_ → _D_}@} is {@{like a covariant functor, except that it "turns morphisms around" \("reverses all the arrows"\)}@}. More specifically, {@{every morphism _f_ : _x_ → _y_ in _C_ must be assigned to a morphism _F_\(_f_\) : _F_\(_y_\) → _F_\(_x_\) in _D_}@}. \(annotation: Then the second property above becomes: {@{for all morphisms _f_ : _x_ → _y_ and _g_ : _y_ → _z_}@}, {@{_F_\(_g_ ∘ _f_\) = _F_\(_f_\) ∘ _F_\(_g_\)}@}.\) In other words, a contravariant functor acts as {@{a covariant functor from the [opposite category](opposite%20category.md) _C_<sup>op</sup> to _D_}@}. <!--SR:!2025-12-20,268,330!2025-11-26,250,330!2025-12-11,263,330!2028-12-10,1117,350!2028-12-18,1123,350!2025-12-15,24,373-->
+{@{A __contravariant__ functor _F_: _C_ → _D_}@} is {@{like a covariant functor, except that it "turns morphisms around" \("reverses all the arrows"\)}@}. More specifically, {@{every morphism _f_ : _x_ → _y_ in _C_ must be assigned to a morphism _F_\(_f_\) : _F_\(_y_\) → _F_\(_x_\) in _D_}@}. \(annotation: Then the second property above becomes: {@{for all morphisms _f_ : _x_ → _y_ and _g_ : _y_ → _z_}@}, {@{_F_\(_g_ ∘ _f_\) = _F_\(_f_\) ∘ _F_\(_g_\)}@}.\) In other words, a contravariant functor acts as {@{a covariant functor from the [opposite category](opposite%20category.md) _C_<sup>op</sup> to _D_}@}. <!--SR:!2025-12-20,268,330!2029-01-12,1143,350!2025-12-11,263,330!2028-12-10,1117,350!2028-12-18,1123,350!2025-12-15,24,373-->
 
 ## natural transformations
 

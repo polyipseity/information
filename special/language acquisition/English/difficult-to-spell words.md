@@ -66,7 +66,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [governance](https://en.wiktionary.org/wiki/governance) ::@:: \(g\_e\) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2029-01-18,1434,350-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: \(g\_e\) Assure that something will be done. <!--SR:!2028-08-18,1225,363!2027-01-08,585,283-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: \(h\_e\) Perceive things that are not actually present. <!--SR:!2032-08-01,2482,408!2026-11-06,723,348-->
-- [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it. <!--SR:!2025-11-28,133,413!2025-11-26,131,413-->
+- [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it. <!--SR:!2025-11-28,133,413!2027-12-03,737,433-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: \(h\_c\) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: \(i\_y\) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2029-02-19,1470,364!2027-07-05,933,344-->
 - [impoverished](https://en.wiktionary.org/wiki/impoverished) ::@:: \(i\_d\) Reduced to poverty. <!--SR:!2025-12-18,138,416!2025-12-12,132,416-->

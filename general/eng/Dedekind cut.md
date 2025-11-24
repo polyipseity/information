@@ -25,7 +25,7 @@ It is straightforward to show that {@{a Dedekind cut among the real numbers is u
 
 A Dedekind cut is {@{a partition of the rationals $\mathbb {Q}$ into two subsets $A$ and $B$}@} such that <!--SR:!2028-10-29,1093,350-->
 
-1. non-emptyness ::@:: $A$ is nonempty. <!--SR:!2025-11-26,260,330!2028-09-22,1064,350-->
+1. non-emptyness ::@:: $A$ is nonempty. <!--SR:!2029-02-22,1184,350!2028-09-22,1064,350-->
 2. non-emptyness of complement ::@:: $A\neq \mathbb {Q}$ \(equivalently, $B$ is nonempty\). <!--SR:!2025-12-14,275,330!2029-01-21,1160,350-->
 3. downward closure ::@:: If $x,y\in \mathbb {Q}$, $x<y$, and $y\in A$, then $x\in A$. \($A$ is "closed downwards".\) <!--SR:!2025-12-20,279,330!2025-12-27,283,330-->
 4. no greatest element ::@:: If $x\in A$, then there exists a $y\in A$ such that $y>x$. \($A$ does not contain a greatest element.\) <!--SR:!2028-12-21,1136,350!2028-01-01,841,330-->

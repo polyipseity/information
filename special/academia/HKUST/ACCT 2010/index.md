@@ -102,7 +102,7 @@ The content is in teaching order.
   - [§ liability](../../../../general/liability%20(financial%20accounting).md#liability)
 - [equity](../../../../general/equity%20(finance).md) ::@:: ownership interest in property that may be offset by debts or other liabilities; stockholder's equity: financing provided by owners and business operations <!--SR:!2028-02-18,902,337!2027-02-16,670,337-->
   - [§ equity](../../../../general/equity%20(finance).md#equity)
-- [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2025-11-26,331,337!2025-11-26,331,337-->
+- [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2030-02-10,1537,357!2030-02-08,1535,357-->
   - [§ revenue](../../../../general/revenue.md#revenue)
   - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2029-01-11,1231,357!2030-02-07,1535,357-->
 - [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2026-09-09,531,317!2028-10-02,1150,357-->
@@ -347,7 +347,7 @@ The content is in teaching order.
 ## week 8 lecture 2
 
 - datetime: 2024-10-24T13:30:00+08:00/2024-10-24T14:50:00+08:00
-- [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX) ::@:: Money spent in buying and improving (repairs may or may not be included, depending on the repair nature) _fixed_ assets. <p> If insufficient, it limits operation capacity. If excessive, there is excess capacity. <!--SR:!2026-08-10,490,403!2025-11-26,280,376-->
+- [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX) ::@:: Money spent in buying and improving (repairs may or may not be included, depending on the repair nature) _fixed_ assets. <p> If insufficient, it limits operation capacity. If excessive, there is excess capacity. <!--SR:!2026-08-10,490,403!2029-11-07,1442,396-->
 - [fixed asset](../../../../general/fixed%20asset.md) ::@:: It is is a term used in accounting for assets and property that may not easily be converted into cash. It may be tangible or intangible, but usually only tangible ones are referred as such; intangible ones are directly referred by a more specific name. <p> IAS 16.6 defines it as _tangible items_ that (a) are held for use in the production or supply of goods or services, for rental to others, or for administrative purposes and (b) are expected to be used during more than one period. <!--SR:!2028-08-02,1057,383!2027-03-18,634,356-->
   - tangible asset ::@:: They are assets that have a physical substance. Examples include land (_not_ depreciable), assets subject to _depreciation_, natural resources subject to _depletion_, etc. <!--SR:!2027-12-19,870,376!2026-03-25,372,383-->
   - [intangible asset](../../../../general/intangible%20asset.md) ::@:: It is an asset that lacks physical substance. Definite-life examples include copyrights, franchises, patents, rights-of-use, etc. Indefinite-life examples include goodwill, trademarks, etc. <!--SR:!2026-10-04,538,403!2026-07-08,465,396-->

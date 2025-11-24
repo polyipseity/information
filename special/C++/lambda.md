@@ -12,9 +12,9 @@ tags:
 
 ## lambda capture
 
-If {@{the capture-default is `&`}@}, subsequent simple captures {@{must not begin with `&`}@}. <!--SR:!2026-01-09,425,310!2025-11-26,14,290-->
+If {@{the capture-default is `&`}@}, subsequent simple captures {@{must not begin with `&`}@}. <!--SR:!2026-01-09,425,310!2026-01-22,57,310-->
 
-If {@{the capture-default is `=`}@}, subsequent simple captures {@{must begin with `&`}@}. Since {@{C++17}@}, {@{`*this` is also allowed}@}. Since {@{C++20}@}, {@{`this` is also allowed}@}. <!--SR:!2026-09-10,303,190!2025-11-26,14,290!2025-11-26,14,290!2025-11-26,14,290!2025-11-26,14,290!2025-11-26,14,290-->
+If {@{the capture-default is `=`}@}, subsequent simple captures {@{must begin with `&`}@}. Since {@{C++17}@}, {@{`*this` is also allowed}@}. Since {@{C++20}@}, {@{`this` is also allowed}@}. <!--SR:!2026-09-10,303,190!2026-01-21,56,310!2026-01-23,58,310!2026-01-20,55,310!2026-01-23,58,310!2026-01-22,57,310-->
 
 ## references
 

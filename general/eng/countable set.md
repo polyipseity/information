@@ -136,7 +136,7 @@ If {@{there is a set that is a standard model \(see [inner model](inner%20model.
 
 was {@{seen as paradoxical in the early days of set theory}@}; see {@{[Skolem's paradox](Skolem's%20paradox.md)}@} for more. <!--SR:!2029-01-23,1161,350!2025-11-30,263,330-->
 
-{@{The minimal standard model}@} includes {@{all the [algebraic numbers](algebraic%20number.md) and all effectively computable [transcendental numbers](transcendental%20number.md), as well as many other kinds of numbers}@}. <!--SR:!2026-01-06,293,330!2025-11-26,214,270-->
+{@{The minimal standard model}@} includes {@{all the [algebraic numbers](algebraic%20number.md) and all effectively computable [transcendental numbers](transcendental%20number.md), as well as many other kinds of numbers}@}. <!--SR:!2026-01-06,293,330!2028-02-18,814,290-->
 
 ## total orders
 

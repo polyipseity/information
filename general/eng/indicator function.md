@@ -39,7 +39,7 @@ In {@{[fuzzy logic](fuzzy%20logic.md) and [modern many-valued logic](many-valued
 
 ## basic properties
 
-{@{The _indicator_ or _characteristic_ [function](function%20(mathematics).md) of a subset _A_ of some set _X_}@} {@{[maps](map%20(mathematics).md) elements of _X_ to the [range](range%20of%20a%20function.md) $\{0,1\}$}@}. <!--SR:!2028-11-19,1101,350!2025-11-26,253,330-->
+{@{The _indicator_ or _characteristic_ [function](function%20(mathematics).md) of a subset _A_ of some set _X_}@} {@{[maps](map%20(mathematics).md) elements of _X_ to the [range](range%20of%20a%20function.md) $\{0,1\}$}@}. <!--SR:!2028-11-19,1101,350!2029-01-21,1152,350-->
 
 This mapping is {@{[surjective](surjective%20function.md) only when _A_ is a non-empty [proper subset](subset.md) of _X_}@}. If {@{$A\equiv X$, then $\mathbf {1} _{A}=1$}@}. By a similar argument, if {@{$A\equiv \emptyset$ then $\mathbf {1} _{A}=0$}@}. <!--SR:!2028-12-11,1121,350!2028-10-18,1077,350!2025-12-09,263,330-->
 
@@ -61,9 +61,9 @@ __[Covariance](covariance.md)__ <br/> ::@:: &emsp;&emsp; $\operatorname {Cov} (\
 
 ## characteristic function in recursion theory, Gödel's and Kleene's representing function
 
-{@{[Kurt Gödel](Kurt%20Gödel.md)}@} described {@{the _representing function_}@} in {@{his 1934 paper "On undecidable propositions of formal mathematical systems"}@} \(the "¬" indicates {@{logical inversion, i.e. "NOT"}@}\):<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;42&hairsp;</sup> <!--SR:!2026-01-07,285,330!2027-10-19,776,330!2027-12-09,818,330!2025-11-26,253,330-->
+{@{[Kurt Gödel](Kurt%20Gödel.md)}@} described {@{the _representing function_}@} in {@{his 1934 paper "On undecidable propositions of formal mathematical systems"}@} \(the "¬" indicates {@{logical inversion, i.e. "NOT"}@}\):<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;42&hairsp;</sup> <!--SR:!2026-01-07,285,330!2027-10-19,776,330!2027-12-09,818,330!2029-01-19,1150,350-->
 
-> There shall {@{correspond to each class or relation _R_}@} a representing function {@{$\phi (x_{1},\ldots x_{n})=0$ if $R(x_{1},\ldots x_{n})$ and $\phi (x_{1},\ldots x_{n})=1$ if $\neg R(x_{1},\ldots x_{n})$}@}. <!--SR:!2025-11-26,253,330!2026-01-17,294,330-->
+> There shall {@{correspond to each class or relation _R_}@} a representing function {@{$\phi (x_{1},\ldots x_{n})=0$ if $R(x_{1},\ldots x_{n})$ and $\phi (x_{1},\ldots x_{n})=1$ if $\neg R(x_{1},\ldots x_{n})$}@}. <!--SR:!2029-01-20,1151,350!2026-01-17,294,330-->
 
 {@{[Kleene](Stephen%20Cole%20Kleene.md)}@} offers up {@{the same definition in the context of the [primitive recursive functions](primitive%20recursive%20function.md)}@} as {@{a function _φ_ of a predicate _P_ takes on values 0 if the predicate is true and 1 if the predicate is false}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-01-07,1142,350!2027-06-17,681,330!2028-12-28,1133,350-->
 

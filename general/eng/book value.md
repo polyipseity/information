@@ -79,7 +79,7 @@ To {@{clearly distinguish the [market price](market%20value.md) of shares}@} fro
 
 ### new share issues and dilution
 
-{@{The issue of more shares}@} {@{does not necessarily decrease the value of the current owner}@}. While {@{it is correct that when the number of shares is doubled}@} {@{the EPS will be cut in half}@}, it is {@{too simple to be the full story}@}. It all depends on {@{how much was paid for the new shares and what return the new capital earns once invested}@}. See the discussion at {@{[stock dilution](stock%20dilution.md)}@}. <!--SR:!2026-01-05,276,330!2025-12-30,271,330!2028-11-30,1102,350!2025-12-09,255,330!2025-12-01,248,330!2025-11-26,244,330!2025-12-24,266,330-->
+{@{The issue of more shares}@} {@{does not necessarily decrease the value of the current owner}@}. While {@{it is correct that when the number of shares is doubled}@} {@{the EPS will be cut in half}@}, it is {@{too simple to be the full story}@}. It all depends on {@{how much was paid for the new shares and what return the new capital earns once invested}@}. See the discussion at {@{[stock dilution](stock%20dilution.md)}@}. <!--SR:!2026-01-05,276,330!2025-12-30,271,330!2028-11-30,1102,350!2025-12-09,255,330!2025-12-01,248,330!2028-12-09,1109,350!2025-12-24,266,330-->
 
 ### net book value of long term assets
 

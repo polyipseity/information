@@ -21,7 +21,7 @@ In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics
 
 ### definition by algebra
 
-{@{Signed Stirling numbers of the first kind}@} are {@{the coefficients $s(n,k)$ in the expansion of the [falling factorial](falling%20and%20rising%20factorials.md) $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1)$$}@} into {@{powers of the variable $x$: $$(x)_{n}=\sum _{k=0}^{n}s(n,k)x^{k},$$}@} <!--SR:!2025-11-26,306,330!2026-11-18,548,310!2028-04-19,957,330-->
+{@{Signed Stirling numbers of the first kind}@} are {@{the coefficients $s(n,k)$ in the expansion of the [falling factorial](falling%20and%20rising%20factorials.md) $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1)$$}@} into {@{powers of the variable $x$: $$(x)_{n}=\sum _{k=0}^{n}s(n,k)x^{k},$$}@} <!--SR:!2028-08-26,1004,330!2026-11-18,548,310!2028-04-19,957,330-->
 
 For example, $(x)_{3}=x(x-1)(x-2)=x^{3}-3x^{2}+2x$, leading to {@{the values $s(3,3)=1$, $s(3,2)=-3$, and $s(3,1)=2$}@}. <!--SR:!2029-04-22,1273,350-->
 
@@ -45,7 +45,7 @@ These numbers can be calculated by {@{considering the orbits as [conjugancy clas
 
 ## recurrence relation
 
-{@{The unsigned Stirling numbers of the first kind}@} follow {@{the [recurrence relation](recurrence%20relation.md) $$\left[{n+1 \atop k}\right]=n\left[{n \atop k}\right]+\left[{n \atop k-1}\right]$$ for $k>0$}@}, with {@{the boundary conditions $$\left[{0 \atop 0}\right]=1\quad {\text{and} }\quad \left[{n \atop 0}\right]=\left[{0 \atop n}\right]=0$$ for $n>0$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-02-15,908,330!2025-11-26,306,330!2028-05-26,939,330-->
+{@{The unsigned Stirling numbers of the first kind}@} follow {@{the [recurrence relation](recurrence%20relation.md) $$\left[{n+1 \atop k}\right]=n\left[{n \atop k}\right]+\left[{n \atop k-1}\right]$$ for $k>0$}@}, with {@{the boundary conditions $$\left[{0 \atop 0}\right]=1\quad {\text{and} }\quad \left[{n \atop 0}\right]=\left[{0 \atop n}\right]=0$$ for $n>0$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-02-15,908,330!2029-09-14,1388,350!2028-05-26,939,330-->
 
 It follows immediately that {@{the signed Stirling numbers of the first kind}@} satisfy {@{the recurrence $$s(n+1,k)= -n\cdot s(n,k)+s(n,k-1) \,.$$}@} <!--SR:!2028-01-26,893,330!2026-04-04,350,290-->
 
@@ -101,7 +101,7 @@ Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \
 > - choose {@{the five elements that go into the three-cycle and the two-cycle}@}, choose {@{the elements of the three-cycle}@} and take into account that {@{three elements generate two three-cycles}@}: {@{$${n \choose 5}{5 \choose 3}\times 2$$}@}
 > - choose {@{the four elements of the four-cycle}@} and take into account that {@{four elements generate six four-cycles}@}: {@{$${n \choose 4}\times 6.$$}@}
 >
-> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2029-04-17,1270,350!2027-11-04,841,330!2028-02-05,901,330!2029-05-24,1300,350!2025-11-26,306,330!2028-01-25,892,330!2028-07-09,965,290!2027-01-18,448,388!2026-11-11,393,388!2026-11-21,402,388!2027-01-09,441,388!2027-01-20,449,388!2026-11-22,403,388-->
+> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2029-04-17,1270,350!2027-11-04,841,330!2028-02-05,901,330!2029-05-24,1300,350!2029-09-15,1389,350!2028-01-25,892,330!2028-07-09,965,290!2027-01-18,448,388!2026-11-11,393,388!2026-11-21,402,388!2027-01-09,441,388!2027-01-20,449,388!2026-11-22,403,388-->
 
 Note that all the combinatorial proofs above {@{use either binomials or multinomials of $n$}@}. <!--SR:!2026-12-09,564,310-->
 

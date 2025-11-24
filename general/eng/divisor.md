@@ -12,7 +12,7 @@ tags:
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#General%20references), but __it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(June 2015\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
 - This article is about {@{an integer that is a factor of another integer}@}. For {@{a number used to divide another number in a division operation}@}, see {@{[Division \(mathematics\)](division%20(mathematics).md)}@}. For other uses, see [Divisor \(disambiguation\)](divisor%20(disambiguation).md).
-- "Divisible" redirects here. For {@{divisibility of groups}@}, see {@{[Divisible group](divisible%20group.md)}@}. <!--SR:!2025-11-26,253,330!2029-01-15,1147,350!2026-01-17,294,330!2025-11-26,253,330!2025-12-31,280,330-->
+- "Divisible" redirects here. For {@{divisibility of groups}@}, see {@{[Divisible group](divisible%20group.md)}@}. <!--SR:!2029-01-24,1155,350!2029-01-15,1147,350!2026-01-17,294,330!2029-01-22,1153,350!2025-12-31,280,330-->
 
 > {@{![The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10](../../archives/Wikimedia%20Commons/Cuisenaire%20ten.JPG)}@}
 >
@@ -65,7 +65,7 @@ There are some elementary rules:
 
 {@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2025-12-16,268,330!2025-12-17,269,330!2026-01-10,288,330-->
 
-{@{Any positive divisor of $n$}@} is {@{a product of [prime divisors](prime%20number.md#unique%20factorization) of $n$ raised to some power}@}. This is a consequence of {@{the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. <!--SR:!2026-01-05,284,330!2025-12-08,262,330!2025-11-26,253,330-->
+{@{Any positive divisor of $n$}@} is {@{a product of [prime divisors](prime%20number.md#unique%20factorization) of $n$ raised to some power}@}. This is a consequence of {@{the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. <!--SR:!2026-01-05,284,330!2025-12-08,262,330!2029-01-23,1154,350-->
 
 A number $n$ is said to be {@{[perfect](perfect%20number.md) if it equals the sum of its proper divisors}@}, {@{[deficient](deficient%20number.md) if the sum of its proper divisors is less than $n$}@}, and {@{[abundant](abundant%20number.md) if this sum exceeds $n$}@}. <!--SR:!2025-12-30,279,330!2025-11-28,255,330!2028-10-21,1078,350-->
 
