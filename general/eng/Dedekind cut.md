@@ -72,7 +72,7 @@ This allows {@{the basic arithmetic operations on the real numbers to be defined
 
 In the general case of {@{an arbitrary linearly ordered set _X_}@}, a __cut__ is {@{a pair $(A,B)$ such that $A\cup B=X$ and $a\in A$, $b\in B$ imply $a<b$}@}. Some authors {@{add the requirement that both _A_ and _B_ are nonempty}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-02,413,310!2025-12-10,272,330!2026-01-03,290,330-->
 
-If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called a __gap__}@}. {@{A linearly ordered set endowed with the order topology is compact}@} {@{if and only if it has no gap}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-01,264,330!2025-12-02,265,330!2029-03-04,1192,350!2025-12-03,266,330-->
+If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called a __gap__}@}. {@{A linearly ordered set endowed with the order topology is compact}@} {@{if and only if it has no gap}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-03-18,1203,350!2025-12-02,265,330!2029-03-04,1192,350!2025-12-03,266,330-->
 
 ### surreal numbers
 

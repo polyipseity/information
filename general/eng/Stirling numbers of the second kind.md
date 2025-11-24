@@ -11,7 +11,7 @@ tags:
 
 # Stirling numbers of the second kind
 
-In [mathematics](mathematics.md), particularly in {@{[combinatorics](combinatorics.md)}@}, {@{a __Stirling number of the second kind__ (or __Stirling partition number__)}@} is {@{the number of ways to [partition a set](partition%20of%20a%20set.md) of _n_ objects into _k_ non-empty subsets}@} and is denoted by {@{$S(n,k)$ or $\textstyle \left\{ {n \atop k}\right\}$}@}.<sup>[\[1\]](#^ref-1)</sup> Stirling numbers of the second kind occur in {@{the field of [mathematics](mathematics.md) called [combinatorics](combinatorics.md) and the study of [partitions](integer%20partition.md)}@}. They are named {@{after [James Stirling](James%20Stirling%20(mathematician).md)}@}. <!--SR:!2025-12-05,309,330!2025-12-05,309,330!2025-12-12,316,330!2025-12-09,313,330!2028-02-26,912,330!2025-12-01,306,330-->
+In [mathematics](mathematics.md), particularly in {@{[combinatorics](combinatorics.md)}@}, {@{a __Stirling number of the second kind__ (or __Stirling partition number__)}@} is {@{the number of ways to [partition a set](partition%20of%20a%20set.md) of _n_ objects into _k_ non-empty subsets}@} and is denoted by {@{$S(n,k)$ or $\textstyle \left\{ {n \atop k}\right\}$}@}.<sup>[\[1\]](#^ref-1)</sup> Stirling numbers of the second kind occur in {@{the field of [mathematics](mathematics.md) called [combinatorics](combinatorics.md) and the study of [partitions](integer%20partition.md)}@}. They are named {@{after [James Stirling](James%20Stirling%20(mathematician).md)}@}. <!--SR:!2025-12-05,309,330!2025-12-05,309,330!2025-12-12,316,330!2025-12-09,313,330!2028-02-26,912,330!2029-09-23,1392,350-->
 
 {@{The Stirling numbers of the [first](Stirling%20numbers%20of%20the%20first%20kind.md) and second kind}@} can be {@{understood as inverses of one another when viewed as [triangular matrices](triangular%20matrix.md)}@}. This article is {@{devoted to specifics of Stirling numbers of the second kind}@}. {@{Identities linking the two kinds}@} appear in the article on [Stirling numbers](Stirling%20number.md). <!--SR:!2029-09-11,1384,350!2029-09-07,1381,350!2029-09-09,1383,350!2025-12-09,314,330-->
 
@@ -33,7 +33,7 @@ The notations used on this page for Stirling numbers are {@{not universal, and m
 
 - see: [Bell number](Bell%20number.md)
 
-Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2025-12-01,307,330!2025-12-08,313,330!2029-05-31,1301,350!2028-02-29,915,330-->
+Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2029-09-28,1397,350!2025-12-08,313,330!2029-05-31,1301,350!2028-02-29,915,330-->
 
 Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-08-12,1360,350!2026-12-01,560,310-->
 
@@ -143,7 +143,7 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### rhyming schemes
 
-{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa), 3 rhyme schemes using two rhymes (aab, aba, abb), and 1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2025-12-01,305,330!2028-03-22,931,330!2025-12-06,310,330!2027-08-18,704,310!2025-12-12,316,330!2029-09-19,1390,350-->
+{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa), 3 rhyme schemes using two rhymes (aab, aba, abb), and 1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2029-09-21,1390,350!2028-03-22,931,330!2025-12-06,310,330!2027-08-18,704,310!2025-12-12,316,330!2029-09-19,1390,350-->
 
 ## variants
 

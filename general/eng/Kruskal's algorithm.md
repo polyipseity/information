@@ -19,7 +19,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-12-04,290,330!2025-12-01,288,330-->
+> - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-12-04,290,330!2029-07-05,1312,350-->
 > - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2025-12-02,289,330!2025-12-09,294,330-->
 > - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2027-05-03,562,270!2027-06-07,582,250-->
 
@@ -85,7 +85,7 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
 >             {@{F&nbsp;:= F ∪ { {u, v} }<!-- flashcard separator -->}@}
 >             {@{UNION(FIND-SET(u), FIND-SET(v))}@}
 >     {@{<b>return</b> F}@}
-> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2029-04-03,1239,350!2025-12-08,294,330!2025-12-01,287,330!2029-04-13,1248,350!2029-01-05,1171,350!2029-06-11,1292,350!2025-12-03,289,330-->
+> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2029-04-03,1239,350!2025-12-08,294,330!2029-07-03,1310,350!2029-04-13,1248,350!2029-01-05,1171,350!2029-06-11,1292,350!2025-12-03,289,330-->
 
 ## complexity
 
@@ -93,7 +93,7 @@ For {@{a graph with _E_ edges and _V_ vertices}@}, Kruskal's algorithm can be sh
 
 To {@{achieve this bound}@}, first {@{sort the edges by weight using a [comparison sort](comparison%20sort.md) in _O_\(_E_ log _E_\) time}@}. Once sorted, it is {@{possible to loop through the edges in sorted order in constant time per edge}@}. Next, use {@{a [disjoint-set data structure](disjoint-set%20data%20structure.md)}@}, with {@{a set of vertices for each component, to keep track of which vertices are in which components}@}. Creating {@{this structure, with a separate set for each vertex}@}, takes {@{_V_ operations and _O_\(_V_\) time}@}. {@{The final iteration through all edges}@} performs {@{two find operations and possibly one union operation per edge}@}. These operations take {@{[amortized time](amortized%20analysis.md) _O_\(_α_\(_V_\)\) time per operation}@}, giving {@{worst-case total time _O_\(_E_ _α_\(_V_\)\) for this loop}@}, where {@{_α_ is the extremely slowly growing [inverse Ackermann function](Ackermann%20function.md#inverse)}@}. {@{This part of the time bound}@} is {@{much smaller than the time for the sorting step}@}, so {@{the total time for the algorithm can be simplified to the time for the sorting step}@}. <!--SR:!2029-02-21,1208,350!2027-10-18,795,330!2029-02-16,1201,350!2028-04-13,889,330!2027-11-13,817,330!2029-01-22,1183,350!2025-12-17,277,290!2029-01-11,1176,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-03,290,330!2028-02-19,889,330!2029-01-01,1167,350!2025-12-07,293,330!2027-10-25,811,330-->
 
-In cases {@{where the edges are already sorted}@}, or {@{where they have small enough integer weight to allow [integer sorting](integer%20sorting.md) algorithms such as [counting sort](counting%20sort.md) or [radix sort](radix%20sort.md) to sort them in linear time}@}, {@{the disjoint set operations are the slowest remaining part of the algorithm}@} and {@{the total time is _O_\(_E_ _α_\(_V_\)\)}@}. <!--SR:!2027-07-11,729,330!2026-05-30,365,290!2025-12-01,287,330!2029-06-29,1307,350-->
+In cases {@{where the edges are already sorted}@}, or {@{where they have small enough integer weight to allow [integer sorting](integer%20sorting.md) algorithms such as [counting sort](counting%20sort.md) or [radix sort](radix%20sort.md) to sort them in linear time}@}, {@{the disjoint set operations are the slowest remaining part of the algorithm}@} and {@{the total time is _O_\(_E_ _α_\(_V_\)\)}@}. <!--SR:!2027-07-11,729,330!2026-05-30,365,290!2029-07-01,1308,350!2029-06-29,1307,350-->
 
 ## example
 
@@ -218,7 +218,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
 >             {@{E<sub>f</sub> = E<sub>f</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
 >     {@{<b>return</b> E<sub>f</sub>}@}
-> </pre> <!--SR:!2029-01-30,1190,350!2029-06-18,1299,350!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2025-12-01,288,330!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2025-12-08,294,330!2029-01-17,1181,350!2029-03-28,1236,350!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2028-07-01,944,330!2025-12-09,294,330-->
+> </pre> <!--SR:!2029-01-30,1190,350!2029-06-18,1299,350!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2029-07-04,1311,350!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2025-12-08,294,330!2029-01-17,1181,350!2029-03-28,1236,350!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2028-07-01,944,330!2025-12-09,294,330-->
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-03-13,1222,350!2029-01-04,1170,350!2029-04-04,1240,350-->
 

@@ -45,7 +45,7 @@ The content is in teaching order.
   - IT3000504 / objectives ::@:: Learn key macroeconomic concepts to analyze the real world: CPI, GDP, PPP, central bank, exchange rate, interest rates, investment, money supply, unemployment, etc. <p> Use and understand formal language, mathematics, and models in macroeconomics to understand real world implications. <!--SR:!2025-12-04,58,310!2025-12-11,63,310-->
 - [macroeconomics](../../../../general/macroeconomics.md) ::@:: It is a branch of economics that deals with the performance, structure, behavior, and decision-making of an economy as a whole. This includes regional, national, and global economies. <!--SR:!2025-12-12,64,310!2025-12-09,62,310-->
   - macroeconomics / vs. microeconomics ::@:: The former deals with _aggregate_ economic variables. The latter deals with at a individual level, e.g. households, individuals, single markets, etc. <!--SR:!2025-12-10,63,310!2025-12-08,61,310-->
-  - macroeconomics / aggregate variables ::@:: GDP, growth rate, interest rate, unemployment, etc. <!--SR:!2025-12-01,55,310!2025-12-09,61,310-->
+  - macroeconomics / aggregate variables ::@:: GDP, growth rate, interest rate, unemployment, etc. <!--SR:!2026-07-27,238,330!2025-12-09,61,310-->
 
 ## week 1 lecture 2
 
@@ -56,7 +56,7 @@ The content is in teaching order.
   - microeconomics / vs. macroeconomics ::@:: Microeconomics focuses on the study of individual markets, sectors, or industries as opposed to the economy as a whole, which is studied in macroeconomics. <!--SR:!2025-12-15,67,310!2025-12-15,67,310-->
 - macroeconomics
   - macroeconomics / vs. microeconomics
-- [gross domestic product](../../../../general/gross%20domestic%20product.md) \(GDP\) ::@:: It is a monetary measure of the total market value of all the final goods and services produced and rendered in a specific time period by a country or countries. <!--SR:!2025-12-01,55,310!2025-12-11,63,310-->
+- [gross domestic product](../../../../general/gross%20domestic%20product.md) \(GDP\) ::@:: It is a monetary measure of the total market value of all the final goods and services produced and rendered in a specific time period by a country or countries. <!--SR:!2026-07-29,240,330!2025-12-11,63,310-->
   - gross domestic product / measure ::@:: GDP is often used to measure the economic activity of a country or region. <!--SR:!2025-12-10,62,310!2025-12-12,64,310-->
   - gross domestic product / income ::@:: Theoretically, income equals expenditure, because a dollar spent by one is another dollar received by the other. <p> So it also measures the total income of everyone in a specific time period by a country. <!--SR:!2025-12-09,61,310!2025-12-03,57,310-->
 - [circular flow of income](../../../../general/circular%20flow%20of%20income.md) ::@:: It is a model of the economy in which the major exchanges are represented as flows of money, goods and services, etc. between economic agents. <p> The circular flow analysis is the basis of national accounts and hence of macroeconomics. <!--SR:!2026-05-30,186,310!2025-12-13,65,310-->
@@ -66,7 +66,7 @@ The content is in teaching order.
     - circular flow of income / two-sector model / missing sectors ::@:: The model assumes that there is no financial sector \(borrowing, lending, saving, etc.\), no government sector \(government purchases, taxes, etc.\), and no foreign sector \(currencies, exports, financial assets, imports, etc.\). <!--SR:!2026-05-25,183,310!2025-12-04,58,310-->
 - gross domestic product
   - gross domestic product / keywords ::@:: domestic production, final, market value, time period, goods and services <!--SR:!2025-12-05,58,310!2025-12-10,62,310-->
-    - gross domestic product / keywords / market value ::@:: Use the market value of goods and services measured in the same unit \(currency\). Goods and services without market value are excluded. <!--SR:!2025-12-01,55,310!2025-12-15,67,310-->
+    - gross domestic product / keywords / market value ::@:: Use the market value of goods and services measured in the same unit \(currency\). Goods and services without market value are excluded. <!--SR:!2026-07-28,239,330!2025-12-15,67,310-->
     - gross domestic product / keywords / final ::@:: Final goods and services are intended for end users \(households\). Intermediate goods and services are those used by businesses to produce other goods and services within the accounting year. <!--SR:!2025-12-13,65,310!2025-12-08,61,310-->
     - gross domestic product / keywords / goods and services ::@:: Goods are usually _tangible_. Services are usually _intangible_. <!--SR:!2025-12-09,62,310!2025-12-02,56,310-->
     - gross domestic product / keywords / domestic ::@:: Any production \(not consumption\) that occurs in a country counts, whether by citizens or foreigners. <!--SR:!2025-12-07,60,310!2025-12-03,57,310-->
@@ -83,7 +83,7 @@ The content is in teaching order.
   - gross domestic product / per capita ::@:: GDP can be adjusted for population growth, also called _Per-capita GDP_ or _GDP per person_. This measures the average production of a person in the country. <!--SR:!2025-12-13,65,310!2025-12-13,65,310-->
     - gross domestic product / per capita / advantages ::@:: The major advantage of GDP per capita as an indicator of the standard of living is that it is measured frequently, widely, and consistently. <!--SR:!2025-12-02,56,310!2025-12-11,63,310-->
   - gross domestic product / nominal GDP ::@:: The raw GDP figure given by the equations above is called the nominal, historical, or current GDP. <!--SR:!2025-12-10,63,310!2025-12-05,58,310-->
-  - gross domestic product / real GDP ::@:: The GDP adjusted for changes in money value in this way is called the real GDP. <!--SR:!2025-12-10,63,310!2025-12-01,55,310-->
+  - gross domestic product / real GDP ::@:: The GDP adjusted for changes in money value in this way is called the real GDP. <!--SR:!2025-12-10,63,310!2026-07-30,241,330-->
     - gross domestic product / real GDP / motivations ::@:: When comparing GDP figures from one year to another, compensating for changes in the value of money—for the effects of inflation or deflation is desirable. To make it more meaningful for year-to-year comparisons, a nominal GDP may be multiplied by the ratio between the value of money in the year the GDP was measured and the value of money in a base year. <!--SR:!2025-12-06,59,310!2025-12-09,62,310-->
     - gross domestic product / real GDP / base year ::@:: Prices of this year are used to compute the real GDP of all years. The nominal GDP of this year equals the real GDP via the definition. <!--SR:!2026-04-18,154,310!2025-12-14,66,310-->
 

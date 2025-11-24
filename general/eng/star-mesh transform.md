@@ -29,7 +29,7 @@ It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbit
 
 When _N_ is:
 
-1. For a single dangling resistor, ::@:: the transform eliminates the resistor. <!--SR:!2025-12-01,191,310!2026-01-28,242,330-->
+1. For a single dangling resistor, ::@:: the transform eliminates the resistor. <!--SR:!2028-03-06,826,330!2026-01-28,242,330-->
 2. For two resistors, ::@:: the "star" is simply the two resistors in series, and the transform yields a single equivalent resistor. <!--SR:!2026-02-08,253,330!2026-01-03,205,310-->
 3. The special case of three resistors ::@:: is better known as the [Y-Δ transform](Y-Δ%20transform.md). Since the result also has three resistors, this transform has an inverse Δ-Y transform. <!--SR:!2026-02-06,251,330!2026-04-02,294,330-->
 

@@ -22,7 +22,7 @@ So many tiring and wet activities... While some of them were fun, I would have m
 
 We went over some leadership theory and did some group activities, basically.
 
-- [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2025-12-01,291,330!2028-12-29,1168,350-->
+- [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2029-07-16,1323,350!2028-12-29,1168,350-->
   - Johari window / open area ::@:: known to self × known to others <!--SR:!2028-11-18,1136,350!2028-10-05,1100,350-->
   - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2028-08-23,1067,350!2028-09-12,1082,350-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2025-12-03,293,330!2025-12-03,293,330-->
@@ -43,7 +43,7 @@ We went over some leadership theory and did some group activities, basically.
   - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2028-07-26,1044,350!2025-12-04,294,330-->
   - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2028-12-17,1159,350!2029-01-24,1188,350-->
   - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2028-10-03,1100,350!2027-08-31,759,330-->
-  - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-12-01,291,330!2025-12-03,293,330-->
+  - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2029-07-17,1324,350!2025-12-03,293,330-->
 - [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2028-04-28,903,330!2029-01-04,1173,350-->
 - [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2026-10-31,516,310!2029-03-27,1237,350-->
 - [situational leadership theory](../../../../general/situational%20leadership%20theory.md) — Hersey and Blanchard ::@:: supporting, coaching, delegating, directing <!--SR:!2025-12-04,294,330!2025-12-03,293,330-->

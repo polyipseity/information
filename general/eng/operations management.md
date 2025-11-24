@@ -74,7 +74,7 @@ The idea of the [production line](production%20line.md) has been used multiple t
 
 > {@{![Marshall's [flax](flax.md) mill in [Holbeck](Holbeck.md). The textile industry is the prototypical example of the English industrial revolution.](../../archives/Wikimedia%20Commons/Marshall%27s%20flax-mill,%20Holbeck,%20Leeds%20-%20interior%20-%20c.1800.jpg)}@}
 >
-> {@{Marshall's [flax](flax.md) mill in [Holbeck](Holbeck.md)}@}. {@{The textile industry}@} is {@{the prototypical example of the English industrial revolution}@}. <!--SR:!2026-02-07,284,330!2026-02-01,278,330!2026-01-26,275,330!2025-12-01,228,330-->
+> {@{Marshall's [flax](flax.md) mill in [Holbeck](Holbeck.md)}@}. {@{The textile industry}@} is {@{the prototypical example of the English industrial revolution}@}. <!--SR:!2026-02-07,284,330!2026-02-01,278,330!2026-01-26,275,330!2028-09-29,1033,350-->
 
 Before the [First Industrial Revolution](First%20Industrial%20Revolution.md), work was mainly done through two systems: [domestic system](domestic%20system.md) and [craft guilds](craft%20guilds.md). In the domestic system [merchants](merchants.md) took materials to homes where artisans performed the necessary work, craft guilds on the other hand were associations of [artisans](artisans.md) which passed work from one shop to another, for example: leather was tanned by a [tanner](tanner%20(occupation).md), passed to [curriers](curriers.md), and finally arrived at [shoemakers](shoemakers.md) and [saddlers](saddle.md).
 

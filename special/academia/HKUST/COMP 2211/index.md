@@ -705,7 +705,7 @@ ID: 23456789
 - datetime: 2024-10-18T13:30:00+08:00/2024-10-18T14:50:00+08:00
 - [perceptron](../../../../general/perceptron.md)
   - perceptron / scikit-learn ::@:: `sklearn.linear_model.Perceptron(eta0=<learning rate>)` → `fit(training_x, training_y)` → `coef_`, `intercept_`, `predict(new_x)` <!--SR:!2027-04-23,687,343!2026-02-13,370,363-->
-  - perceptron / stopping condition ::@:: We can limit the maximum training time, maximum number of training cycles/epochs, or require minimum accuracy. <!--SR:!2029-07-14,1330,363!2025-12-01,289,343-->
+  - perceptron / stopping condition ::@:: We can limit the maximum training time, maximum number of training cycles/epochs, or require minimum accuracy. <!--SR:!2029-07-14,1330,363!2029-08-26,1364,363-->
   - perceptron / error trends ::@:: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2028-06-03,1029,363!2026-01-24,354,363-->
   - perceptron / terminologies ::@:: __learning__: process of updating weights; __epoch__: one cycle through the full training dataset (not simply one _iteration_) <!--SR:!2029-04-09,1257,363!2025-12-02,290,343-->
   - perceptron / [decision boundary](../../../../general/decision%20boundary.md) ::@:: For example: $$y = \begin{cases} 0 & \text{if }0.5x_1 + 0.5x_2 - 0.8 \le 0 \\ 1 & \text{otherwise} \end{cases}$$ <!--SR:!2026-03-04,384,363!2026-03-02,383,363-->

@@ -258,7 +258,7 @@ The content is in teaching order. Extra information and corrections are included
 - [Moon](../../../../general/Moon.md)
   - [§ orbit](../../../../general/Moon.md#orbit)
   - [Moon](../../../../general/Moon.md) / [average orbital distance](../../../../general/lunar%20distance.md) ::@:: 384&nbsp;400 km, about 30 times the diameter of Earth <!--SR:!2027-12-19,837,337!2029-08-30,1472,375-->
-  - [Moon](../../../../general/Moon.md) / orbital direction ::@:: counterclockwise viewed from north; prograde to Earth's rotation direction <!--SR:!2026-01-23,454,379!2025-12-01,408,379-->
+  - [Moon](../../../../general/Moon.md) / orbital direction ::@:: counterclockwise viewed from north; prograde to Earth's rotation direction <!--SR:!2026-01-23,454,379!2031-09-16,2115,399-->
   - [Moon](../../../../general/Moon.md) / rotation direction ::@:: counterclockwise viewed from north; prograde to its own rotation direction, prograde to Earth's rotation direction <!--SR:!2026-03-05,490,379!2028-03-28,1080,379-->
   - [Moon](../../../../general/Moon.md) / synodic [orbital period](../../../../general/orbital%20period.md) (with respect to [Sun](../../../../general/Sun.md)) ::@:: about 29.5 days <!--SR:!2027-05-30,816,359!2030-03-12,1630,379-->
   - [Moon](../../../../general/Moon.md) / synodic [rotation period](../../../../general/rotation%20period%20(astronomy).md) (with respect to the [Sun](../../../../general/Sun.md)) ::@:: about 29.5 days = synodic orbital period (due to tidal locking) <!--SR:!2030-09-06,1810,399!2030-12-02,1883,399-->
@@ -683,7 +683,7 @@ The content is in teaching order. Extra information and corrections are included
   - [Stefan–Boltzmann law](../../../../general/Stefan–Boltzmann%20law.md)
   - [Wien approximation](../../../../general/Wien%20approximation.md)
   - measuring [star](../../../../general/star.md) radii / examples ::@:: A star is 625 times as luminous of the Sun, but with half of the temperature of the Sun (in Kelvin). By $L = 4\pi r^2 \varepsilon \sigma T^4 \implies L \propto T^4 r^2 \implies r \propto \sqrt{L / T^4} = L^{0.5} / T^2$, so that star's radius is $\sqrt{625} / 0.5^2 = 25 / 0.25 = 100$ times that of the Sun. <!--SR:!2030-10-05,1794,392!2026-03-12,474,392-->
-  - measuring [star](../../../../general/star.md) radii / range for [stars](../../../../general/star.md) ::@:: ~0.01 _R_<sub>☉</sub> to ~1800 _R_<sub>☉</sub>, _R_<sub>☉</sub> is the Sun's radius; excluding neutron stars <!--SR:!2025-12-01,396,392!2026-06-02,486,352-->
+  - measuring [star](../../../../general/star.md) radii / range for [stars](../../../../general/star.md) ::@:: ~0.01 _R_<sub>☉</sub> to ~1800 _R_<sub>☉</sub>, _R_<sub>☉</sub> is the Sun's radius; excluding neutron stars <!--SR:!2031-09-22,2121,412!2026-06-02,486,352-->
 - [Hertzsprung–Russell diagram](../../../../general/Hertzsprung–Russell%20diagram.md)
   - [Hertzsprung–Russell diagram](../../../../general/Hertzsprung–Russell%20diagram.md) / star radii ::@:: Consider the equation $L = 4\pi r^2 \varepsilon \sigma T^4 \implies L \propto T^4 r^2$. As the graph is a log–log plot, apply logarithm on the above equation: $\log L = 4 \log T + 2 \log r + \text{const}$. Also note that the temperature axis is inverted. So we can see for a constant star radii $r$, the line is slopped from top-left to bottom-right as temperature $T$ decreases. Increasing star radii $r$ pushes the line to the top right while remaining parallel, and vice versa, like contour lines. <!--SR:!2025-12-28,364,332!2028-10-03,1131,372-->
     - [Hertzsprung–Russell diagram](../../../../general/Hertzsprung–Russell%20diagram.md) / star radii / relations ::@:: The white dwarf strip has a similar slope to the line corresponding to a fixed star radii, while the main sequence strip is steeper than the aforementioned line, as temperature is correlated with star radii for main sequence stars. Giants and supergiants have larger star radii to have high luminosity due to their lower temperature. White dwarfs have smaller star radii to have low luminosity due to their high temperature. <!--SR:!2025-12-12,402,392!2031-08-04,2081,412-->
@@ -748,7 +748,7 @@ The content is in teaching order. Extra information and corrections are included
   - [reflection nebula](../../../../general/reflection%20nebula.md) / examples ::@:: NGC 1435, in Pleiades (star cluster) <!--SR:!2028-07-24,1008,284!2028-04-23,924,345-->
   - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md)
 - [dark nebula](../../../../general/dark%20nebula.md) ::@:: dense clouds of gas and dust blocking the light of distant stars <!--SR:!2027-10-30,969,425!2025-12-12,390,384-->
-  - [dark nebula](../../../../general/dark%20nebula.md) / examples ::@:: Barnard 68; IC 2944 (with Bok globules) <!--SR:!2026-08-04,480,264!2025-12-01,369,384-->
+  - [dark nebula](../../../../general/dark%20nebula.md) / examples ::@:: Barnard 68; IC 2944 (with Bok globules) <!--SR:!2026-08-04,480,264!2031-03-25,1940,404-->
   - [extinction](../../../../general/extinction%20(astronomy).md)
     - [§ interstellar reddening](../../../../general/extinction%20(astronomy).md#interstellar%20reddening)
       - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md)

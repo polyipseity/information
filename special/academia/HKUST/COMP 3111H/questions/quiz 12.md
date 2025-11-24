@@ -25,7 +25,7 @@ tags:
 
 ## hints
 
-1. UML / [§ association generalizations](UML.md#association%20generalizations) ::@:: _Generalization_ represent a "is-a" or "kind-of" relationship between _subclasses_ and a _superclass_. The subclasses are said to be the _same kind_, and should have _similar_ \(but not the same\) attributes, operations, and associations. It is represented by _inheritance_ in object-oriented programming languages. It allows us to _simplify_ diagrams for _clarity_. <!--SR:!2025-12-01,15,290!2025-12-02,16,290-->
+1. UML / [§ association generalizations](UML.md#association%20generalizations) ::@:: _Generalization_ represent a "is-a" or "kind-of" relationship between _subclasses_ and a _superclass_. The subclasses are said to be the _same kind_, and should have _similar_ \(but not the same\) attributes, operations, and associations. It is represented by _inheritance_ in object-oriented programming languages. It allows us to _simplify_ diagrams for _clarity_. <!--SR:!2026-01-28,58,310!2025-12-02,16,290-->
 2. association constraint: xor ::@:: `{xor}`; a _dashed line_ linking two associations; exactly one of the two associations can be _instantiated_ \(have _instances_ or _links_\) <!--SR:!2025-12-02,16,290!2025-12-02,16,290-->
 3. basis path testing / benefits ::@:: Every statement executes at least once. Both sides of control flow decisions are taken at least once. All of these are done without enumerating every possible input combination. <p> Thus, it helps uncover defects tied to specific branches or loop conditions. <!--SR:!2025-12-02,16,290!2025-12-02,16,290-->
 4. software testing / goals / verification ::@:: Is the implementation correct? Most _unit/integration tests_ focus here. <!--SR:!2025-12-02,16,290!2025-12-02,16,290-->

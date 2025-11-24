@@ -59,7 +59,7 @@ They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat 
 
 - (annotation: $\mathbf {\hat r}$, Cartesian basis) ::@:: $$\mathbf {\hat {r} } =\sin \theta \cos \varphi \mathbf {\hat {x} } +\sin \theta \sin \varphi \mathbf {\hat {y} } +\cos \theta \mathbf {\hat {z} }$$ (annotation: memorize the effect of $\varphi$, and then the effect of $\theta$) <!--SR:!2027-11-07,719,299!2027-02-07,479,279-->
 - (annotation: $\boldsymbol {\hat \theta}$, Cartesian basis) ::@:: $${\boldsymbol {\hat {\theta } } }=\cos \theta \cos \varphi \mathbf {\hat {x} } +\cos \theta \sin \varphi \mathbf {\hat {y} } -\sin \theta \mathbf {\hat {z} }$$ (annotation: memorize the effect of $\varphi$, and then the effect of $\theta$) <!--SR:!2026-06-06,297,259!2026-07-30,332,259-->
-- (annotation: $\boldsymbol {\hat \varphi}$, Cartesian basis) ::@:: $${\boldsymbol {\hat {\varphi } } }=-\sin \varphi \mathbf {\hat {x} } +\cos \varphi \mathbf {\hat {y} }$$ (annotation: memorize the effect of $\varphi$, and then the effect of $\theta$; the latter of which is null, as in cylindrical coordinates) <!--SR:!2025-12-01,217,319!2026-03-21,307,339-->
+- (annotation: $\boldsymbol {\hat \varphi}$, Cartesian basis) ::@:: $${\boldsymbol {\hat {\varphi } } }=-\sin \varphi \mathbf {\hat {x} } +\cos \varphi \mathbf {\hat {y} }$$ (annotation: memorize the effect of $\varphi$, and then the effect of $\theta$; the latter of which is null, as in cylindrical coordinates) <!--SR:!2027-10-28,696,319!2026-03-21,307,339-->
 
 {@{The spherical unit vectors}@} depend on {@{both $\varphi$ and $\theta$}@}, and hence there are {@{5 possible non-zero derivatives}@}. For a more complete description, see {@{[Jacobian matrix and determinant](Jacobian%20matrix%20and%20determinant.md)}@}. The non-zero derivatives are: <!--SR:!2026-04-08,325,339!2026-04-02,319,339!2026-04-07,324,339!2026-04-03,320,339-->
 
@@ -94,7 +94,7 @@ In general, a coordinate system may be {@{uniquely specified using a number of [
 
 Thus the right versors {@{extend the notion of [imaginary units](imaginary%20unit.md) found in the [complex plane](complex%20plane.md)}@}, where the right versors now {@{range over the [2-sphere](2-sphere.md#dimensionality) $\mathbb {S} ^{2}\subset \mathbb {R} ^{3}\subset \mathbb {H}$}@} rather than {@{the pair {i, –i} in the complex plane}@}. <!--SR:!2027-01-06,465,299!2026-03-25,311,339!2028-07-14,957,339-->
 
-By extension, {@{a __right quaternion__}@} is {@{a real multiple of a right versor}@}. <!--SR:!2025-12-01,217,319!2026-04-06,323,339-->
+By extension, {@{a __right quaternion__}@} is {@{a real multiple of a right versor}@}. <!--SR:!2028-07-16,958,339!2026-04-06,323,339-->
 
 ## see also
 

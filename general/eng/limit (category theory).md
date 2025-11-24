@@ -115,11 +115,11 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 
 {@{A given diagram _F_ : _J_ → _C_}@} {@{may or may not have a limit \(or colimit\) in _C_}@}. Indeed, there {@{may not even be a cone to _F_, let alone a universal cone}@}. <!--SR:!2026-04-27,366,358!2025-12-06,249,330!2025-12-11,252,338-->
 
-{@{A category _C_ is said to __have limits of shape _J_<!-- markdown separator -->__}@} if {@{every diagram of shape _J_ has a limit in _C_}@}. Specifically, a category _C_ is said to <!--SR:!2026-05-09,375,358!2025-12-01,244,330-->
+{@{A category _C_ is said to __have limits of shape _J_<!-- markdown separator -->__}@} if {@{every diagram of shape _J_ has a limit in _C_}@}. Specifically, a category _C_ is said to <!--SR:!2026-05-09,375,358!2028-12-18,1113,350-->
 
 - __have products__ ::@:: if it has limits of shape _J_ for every _small_ discrete category _J_ \(it need not have large products\), <!--SR:!2028-12-10,1106,350!2025-12-02,245,330-->
 - __have equalizers__ ::@:: if it has limits of shape $\bullet \rightrightarrows \bullet$ \(i.e. every parallel pair of morphisms has an equalizer\), <!--SR:!2027-11-15,782,338!2026-03-28,340,345-->
-- __have pullbacks__ ::@:: if it has limits of shape $\bullet \rightarrow \bullet \leftarrow \bullet$ \(i.e. every pair of morphisms with common codomain has a pullback\). <!--SR:!2025-12-01,244,330!2028-02-08,865,345-->
+- __have pullbacks__ ::@:: if it has limits of shape $\bullet \rightarrow \bullet \leftarrow \bullet$ \(i.e. every pair of morphisms with common codomain has a pullback\). <!--SR:!2028-12-15,1110,350!2028-02-08,865,345-->
 
 {@{A __[complete category](complete%20category.md)__}@} is {@{a category that has all small limits}@} \(i.e. {@{all limits of shape _J_ for every small category _J_}@}\). <!--SR:!2026-05-12,378,358!2025-12-08,251,330!2025-12-05,248,330-->
 

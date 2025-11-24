@@ -1122,7 +1122,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & \times & 4      & \times & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline \end{array}$$}@} <!--SR:!2025-12-01,266,330-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & \times & 4      & \times & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline \end{array}$$}@} <!--SR:!2029-03-26,1211,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1457,7 +1457,7 @@ tags:
 > 4. $X_0$ is a state.
 > 5. None of the above.
 >
-> - solution: {@{2}@} <!--SR:!2025-12-01,266,330-->
+> - solution: {@{2}@} <!--SR:!2029-03-24,1209,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-12-23,283,330!2025-12-01,266,330-->
+> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-12-23,283,330!2029-03-25,1210,350-->
 
 <!-- markdownlint MD028 -->
 

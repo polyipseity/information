@@ -141,7 +141,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 60 years
 >
 > - solution: {@{2}@}
-> - explanation: {@{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}@} <!--SR:!2025-12-01,325,270!2028-12-12,1141,290-->
+> - explanation: {@{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}@} <!--SR:!2029-04-03,1219,290!2028-12-12,1141,290-->
 
 <!-- markdownlint MD028 -->
 

@@ -180,7 +180,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2027-11-01,704,424-->
 
 - absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2027-10-09,689,424!2026-10-19,389,404-->
-- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-12-01,132,404!2027-10-23,701,424-->
+- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2027-12-06,735,424!2027-10-23,701,424-->
 - add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2027-10-12,691,424!2027-10-02,682,424-->
 - add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2027-10-18,696,424!2027-11-03,710,424-->
 - branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-12-02,133,404!2027-04-21,514,404-->
@@ -195,7 +195,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2027-09-21,672,424!2027-10-16,696,424-->
 - compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2027-11-28,728,424!2027-09-30,681,424-->
 - compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2027-10-10,690,424!2027-11-14,716,424-->
-- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-12-04,135,404!2025-12-01,132,404-->
+- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-12-04,135,404!2027-12-05,734,424-->
 - compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2027-10-03,683,424!2027-09-22,673,424-->
 - divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-11-03,706,424!2027-10-22,700,424-->
 - divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-10-10,689,424!2027-11-02,709,424-->
@@ -203,7 +203,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2027-10-30,707,424!2026-07-28,303,384-->
 - multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-10-26,703,424!2027-11-15,717,424-->
 - multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-11-01,708,424!2027-11-16,717,424-->
-- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-11-11,717,424!2025-12-01,132,404-->
+- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-11-11,717,424!2027-12-04,733,424-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-10-20,698,424!2027-10-29,706,424-->
 - store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-03-25,492,404!2026-06-07,275,384-->
 - store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-05-19,535,404!2025-12-02,133,404-->

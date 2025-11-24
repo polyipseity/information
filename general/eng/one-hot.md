@@ -40,7 +40,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 
 ##### advantages
 
-- Determining the state ::@:: has a low and constant cost of accessing one [flip-flop](flip-flop%20(electronics).md) <!--SR:!2025-12-01,230,330!2026-01-05,259,330-->
+- Determining the state ::@:: has a low and constant cost of accessing one [flip-flop](flip-flop%20(electronics).md) <!--SR:!2028-10-09,1043,350!2026-01-05,259,330-->
 - Changing the state ::@:: has the constant cost of accessing two flip-flops <!--SR:!2026-01-20,271,330!2026-01-05,259,330-->
 - (annotation: design) Easy to ::@:: design and modify <!--SR:!2026-01-26,276,330!2026-10-08,450,310-->
 - (annotation: states) Easy to ::@:: detect illegal states <!--SR:!2026-01-18,269,330!2025-12-02,231,330-->
