@@ -20,7 +20,7 @@ The speaker talked about how to give a high-impact presentation. While I may not
 When presenting, {@{content}@} is an important aspect. <!--SR:!2029-06-25,1306,350-->
 
 - introduction ::@:: Introduce your content from the large picture to the objective at hand. <!--SR:!2029-06-30,1310,350!2029-02-24,1212,350-->
-- forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2025-11-29,290,330!2029-01-19,1184,350-->
+- forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2029-07-15,1324,350!2029-01-19,1184,350-->
 
 ## action
 
@@ -37,12 +37,12 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2029-07-12,1322,35
   - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer. <!--SR:!2028-03-06,906,330!2029-01-06,1174,350-->
 - microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects. <!--SR:!2025-12-03,293,330!2025-12-01,291,330-->
 - speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2029-06-29,1310,350!2029-01-12,1178,350-->
-- filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead. <!--SR:!2025-11-29,290,330!2028-02-02,880,330-->
+- filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead. <!--SR:!2029-07-11,1320,350!2028-02-02,880,330-->
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question. <!--SR:!2025-11-30,290,330!2029-07-02,1312,350-->
 - pitch ::@:: Try to have lower pitch (most of the time) to make you feel more authoritative and serious. <!--SR:!2025-12-01,291,330!2029-07-05,1315,350-->
-- Mark Zuckerberg ::@:: He is not known to be a good speaker, unlike Steve Jobs. There is a reason why he seems robotic... He lacks variety when presenting. <!--SR:!2025-11-29,289,330!2025-11-30,290,330-->
+- Mark Zuckerberg ::@:: He is not known to be a good speaker, unlike Steve Jobs. There is a reason why he seems robotic... He lacks variety when presenting. <!--SR:!2029-07-08,1317,350!2025-11-30,290,330-->
   - Mark Zuckerberg / presentation problems ::@:: curled arms, curled fingers, mostly looking up, touching hands (makes one wants to rub), tone almost always going up, too many on-body movement <!--SR:!2026-11-04,521,310!2026-09-11,473,310-->
-- finger ::@:: Try to not curl your fingers (and arms). Try to not point your fingers downward, and instead point horizontally. <!--SR:!2029-03-04,1219,350!2025-11-29,289,330-->
+- finger ::@:: Try to not curl your fingers (and arms). Try to not point your fingers downward, and instead point horizontally. <!--SR:!2029-03-04,1219,350!2029-07-09,1318,350-->
 - hand ::@:: Most of the time, your hand palm should face inward. Sometimes it is okay to vary this, but too much of hand palm facing outward makes you look unserious or too exciting. <!--SR:!2026-11-17,531,310!2028-12-25,1166,350-->
 - authoritative vs. lively ::@:: It depends on context. Usually it is best to strike a balance. <!--SR:!2025-12-04,294,330!2027-09-02,772,330-->
 - mistake ::@:: Do not be afraid of mistakes. Audience will not notice a few minor mistakes. <!--SR:!2025-12-04,294,330!2025-12-01,291,330-->
@@ -53,4 +53,4 @@ You will present well if {@{you have a good attitude towards your presentation}@
 
 - feeling ::@:: Try to feel like you were Obama presenting something. <!--SR:!2029-03-13,1225,350!2028-08-16,1061,350-->
 - belief ::@:: Authentically believe in what you are saying. <!--SR:!2025-12-03,293,330!2027-08-05,741,330-->
-- objective ::@:: Intend to contribute, not to convince or impress. Focus out. Become congruent. <!--SR:!2025-11-29,289,330!2025-12-02,292,330-->
+- objective ::@:: Intend to contribute, not to convince or impress. Focus out. Become congruent. <!--SR:!2029-07-10,1319,350!2025-12-02,292,330-->

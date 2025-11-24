@@ -21,26 +21,26 @@ tags:
 
 ## motivation
 
-In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth-first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}. <!--SR:!2026-02-01,66,325!2025-11-29,17,305!2026-01-30,64,325!2026-01-30,64,325!2026-02-06,70,325!2025-11-29,17,305!2026-01-31,65,325!2026-02-03,67,325!2026-01-26,60,325!2025-11-29,17,305-->
+In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth-first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}. <!--SR:!2026-02-01,66,325!2026-02-11,74,325!2026-01-30,64,325!2026-01-30,64,325!2026-02-06,70,325!2026-02-08,71,325!2026-01-31,65,325!2026-02-03,67,325!2026-01-26,60,325!2026-02-10,73,325-->
 
 ## lazy list
 
-In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!2026-01-29,63,325!2026-01-21,64,310!2025-11-29,17,305!2026-01-27,61,325!2026-01-28,62,325!2026-01-30,64,325!2026-01-31,65,325-->
+In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!2026-01-29,63,325!2026-01-21,64,310!2026-02-09,72,325!2026-01-27,61,325!2026-01-28,62,325!2026-01-30,64,325!2026-01-31,65,325-->
 
 ### lazy list properties
 
-{@{A lazy list}@} behaves like {@{a normal Scala `Seq`}@} with respect to {@{most operations}@}: {@{mapping, filtering, folding, etc.}@}  However, {@{all of these operations}@} are {@{_lazy_}@} – they produce {@{new lazy lists whose tails are computed only on demand}@}.  Because {@{the tail is not evaluated}@} until {@{it is accessed}@} (via {@{`head`, `tail`, or an operation that forces evaluation}@}), a lazy list can represent {@{infinite sequences}@} such as {@{the natural numbers or prime numbers}@} without ever allocating {@{more than the required portion of the sequence}@}. <!--SR:!2025-11-29,17,305!2026-02-02,66,325!2026-01-27,61,325!2026-02-04,68,325!2026-02-07,71,325!2025-11-29,17,305!2025-11-29,17,305!2026-02-07,71,325!2026-01-26,60,325!2026-01-22,65,310!2026-02-02,66,325!2026-01-27,61,325!2026-01-27,61,325-->
+{@{A lazy list}@} behaves like {@{a normal Scala `Seq`}@} with respect to {@{most operations}@}: {@{mapping, filtering, folding, etc.}@}  However, {@{all of these operations}@} are {@{_lazy_}@} – they produce {@{new lazy lists whose tails are computed only on demand}@}.  Because {@{the tail is not evaluated}@} until {@{it is accessed}@} (via {@{`head`, `tail`, or an operation that forces evaluation}@}), a lazy list can represent {@{infinite sequences}@} such as {@{the natural numbers or prime numbers}@} without ever allocating {@{more than the required portion of the sequence}@}. <!--SR:!2026-02-10,73,325!2026-02-02,66,325!2026-01-27,61,325!2026-02-04,68,325!2026-02-07,71,325!2026-02-12,75,325!2026-02-10,73,325!2026-02-07,71,325!2026-01-26,60,325!2026-01-22,65,310!2026-02-02,66,325!2026-01-27,61,325!2026-01-27,61,325-->
 
-{@{A lazy list}@} is defined by {@{two core fields}@}: {@{`LazyList.head` and `LazyList.tail`}@}. <!--SR:!2025-11-29,17,305!2026-01-28,62,325!2026-01-30,64,325-->
+{@{A lazy list}@} is defined by {@{two core fields}@}: {@{`LazyList.head` and `LazyList.tail`}@}. <!--SR:!2026-02-10,73,325!2026-01-28,62,325!2026-01-30,64,325-->
 
 - `LazyList.head` ::@:: The first element, which may be computed lazily. <!--SR:!2026-02-03,67,325!2026-02-05,69,325-->
 - `LazyList.tail` ::@:: A _by-name_ parameter that represents the rest of the list; it is evaluated only when needed and its result is memoised so that subsequent accesses reuse the same value. <!--SR:!2026-01-26,60,325!2026-02-01,66,325-->
 
-{@{The standard implementation}@} in Scala keeps {@{a lazy `state` field}@} that holds either {@{an empty state or a cons cell with head and tail}@}.  {@{This state}@} is computed {@{on first access, cached, and never recomputed}@}. <!--SR:!2026-02-06,70,325!2025-11-29,17,305!2026-02-07,71,325!2025-11-29,17,305!2026-02-04,68,325-->
+{@{The standard implementation}@} in Scala keeps {@{a lazy `state` field}@} that holds either {@{an empty state or a cons cell with head and tail}@}.  {@{This state}@} is computed {@{on first access, cached, and never recomputed}@}. <!--SR:!2026-02-06,70,325!2026-02-10,73,325!2026-02-07,71,325!2026-02-09,72,325!2026-02-04,68,325-->
 
 ### lazy list construction
 
-{@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by-name \(lazy\)}@}: <!--SR:!2025-11-29,17,305!2025-11-29,17,305!2026-02-03,67,325!2026-02-07,71,325-->
+{@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by-name \(lazy\)}@}: <!--SR:!2026-02-08,71,325!2026-02-12,75,325!2026-02-03,67,325!2026-02-07,71,325-->
 
 > [!example] __`LazyList.cons`__
 >
@@ -49,7 +49,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 > ```Scala
 > val xs = LazyList.cons(1, LazyList.cons(2, LazyList.empty))
 > ```
-<!--SR:!2026-02-04,68,325!2026-02-06,70,325!2025-11-29,17,305!2026-01-29,63,325-->
+<!--SR:!2026-02-04,68,325!2026-02-06,70,325!2026-02-11,74,325!2026-01-29,63,325-->
 
 or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!2026-01-17,61,310!2026-01-30,64,325!2026-02-07,71,325-->
 
@@ -60,9 +60,9 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```Scala
 > val ys = LazyList(1, 2, 3)
 > ```
-<!--SR:!2026-01-26,60,325!2026-01-27,61,325!2025-11-29,17,305-->
+<!--SR:!2026-01-26,60,325!2026-01-27,61,325!2026-02-11,74,325-->
 
-{@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!2026-02-01,66,325!2026-02-05,69,325!2025-11-29,17,305!2026-01-26,60,325-->
+{@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!2026-02-01,66,325!2026-02-05,69,325!2026-02-10,73,325!2026-01-26,60,325-->
 
 > [!example] __`#::`__
 >
@@ -72,7 +72,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > val xs1 = ??? #:: LazyList.empty          // a single-element list (head unspecified)
 > val xs2 = 1 #:: (??? : LazyList[Int])     // head is 1, tail unspecified
 > ```
-<!--SR:!2026-01-31,65,325!2026-01-23,66,310!2025-11-29,17,305!2026-01-26,60,325-->
+<!--SR:!2026-01-31,65,325!2026-01-23,66,310!2026-02-11,74,325!2026-01-26,60,325-->
 
 {@{The companion object}@} also offers {@{a range constructor}@} that is {@{lazy by default}@}: <!--SR:!2026-02-06,70,325!2026-02-01,66,325!2026-01-26,60,325-->
 
@@ -85,7 +85,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```
 <!--SR:!2026-02-06,70,325!2026-01-18,62,310!2026-02-05,69,325-->
 
-{@{A hand-rolled recursive function}@} illustrates {@{the laziness}@}: <!--SR:!2026-02-06,70,325!2025-11-29,17,305-->
+{@{A hand-rolled recursive function}@} illustrates {@{the laziness}@}: <!--SR:!2026-02-06,70,325!2026-02-08,71,325-->
 
 > [!example] __lazy construction__
 >
@@ -100,7 +100,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 >   else lo :: listRange(lo + 1, hi)
 > ```
 >
-> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-29,17,330!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328-->
+> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2026-02-17,80,350!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328-->
 
 ### lazy list operations
 
@@ -114,11 +114,11 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > LazyList.range(1000, 10000).filter(isPrime)(1)
 > ```
 >
-> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-29,17,330!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328-->
+> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2026-02-17,80,350!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328-->
 
-Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2025-11-29,17,330!2026-02-12,76,350!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330-->
+Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2026-02-16,79,350!2026-02-12,76,350!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330-->
 
-{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!2026-01-31,65,325!2025-11-29,17,305!2026-02-03,67,325!2026-02-01,65,325!2025-11-29,17,305!2025-11-29,17,305!2026-02-06,70,325!2026-02-07,71,325!2026-02-05,69,325!2026-01-28,62,325!2025-11-29,17,305!2026-02-07,71,325!2025-11-29,17,305-->
+{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!2026-01-31,65,325!2026-02-11,74,325!2026-02-03,67,325!2026-02-01,65,325!2026-02-08,71,325!2026-02-09,72,325!2026-02-06,70,325!2026-02-07,71,325!2026-02-05,69,325!2026-01-28,62,325!2026-02-09,72,325!2026-02-07,71,325!2026-02-09,72,325-->
 
 > [!example] __`LazyList.filter`__
 >
@@ -131,9 +131,9 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   else tail.filter(p)
 > ```
 >
-> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by-name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-29,17,331!2025-11-30,18,331!2025-11-30,18,331-->
+> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by-name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2026-02-18,81,351!2025-11-30,18,331!2025-11-30,18,331-->
 
-{@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}: <!--SR:!2025-11-29,17,305!2026-02-01,65,325!2025-11-29,17,305!2026-01-29,63,325!2025-11-29,17,305!2025-11-29,17,305!2026-02-04,68,325-->
+{@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}: <!--SR:!2026-02-11,74,325!2026-02-01,65,325!2026-02-10,73,325!2026-01-29,63,325!2026-02-08,71,325!2026-02-12,75,325!2026-02-04,68,325-->
 
 > [!example] __`#::` preserves laziness__
 >
@@ -147,7 +147,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 ### lazy list implementation
 
-{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance: <!--SR:!2025-11-29,17,305!2026-02-05,69,325!2026-01-29,63,325!2026-02-04,68,325!2026-02-03,67,325!2025-11-29,17,305!2026-02-07,71,325!2025-11-29,17,305!2025-11-29,17,305-->
+{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance: <!--SR:!2026-02-11,74,325!2026-02-05,69,325!2026-01-29,63,325!2026-02-04,68,325!2026-02-03,67,325!2026-02-11,74,325!2026-02-07,71,325!2026-02-09,72,325!2026-02-09,72,325-->
 
 > [!example] __naive `LazyList` implementation__
 >
@@ -164,9 +164,9 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   val empty = ???                  // omitted
 > }
 > ```
-<!--SR:!2025-11-29,17,305!2026-02-01,65,325!2026-02-01,65,325!2026-02-06,70,325!2025-11-29,17,305!2026-01-27,61,325!2026-02-03,67,325!2026-01-26,60,325!2026-02-06,70,325-->
+<!--SR:!2026-02-10,73,325!2026-02-01,65,325!2026-02-01,65,325!2026-02-06,70,325!2026-02-09,72,325!2026-01-27,61,325!2026-02-03,67,325!2026-01-26,60,325!2026-02-06,70,325-->
 
-Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` three times}@}—once for {@{each element taken}@}—leading to {@{unnecessary work and potential performance degradation}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-02-01,66,325!2026-01-21,64,310!2026-02-03,67,325!2026-02-07,71,325!2025-11-29,17,305!2026-01-19,63,310!2026-01-30,64,325!2026-01-26,60,325!2026-01-29,63,325!2026-01-26,60,325!2026-01-26,60,325!2026-01-29,63,325!2026-01-30,64,325!2025-11-29,17,305-->
+Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` three times}@}—once for {@{each element taken}@}—leading to {@{unnecessary work and potential performance degradation}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-02-01,66,325!2026-01-21,64,310!2026-02-03,67,325!2026-02-07,71,325!2026-02-12,75,325!2026-01-19,63,310!2026-01-30,64,325!2026-01-26,60,325!2026-01-29,63,325!2026-01-26,60,325!2026-01-26,60,325!2026-01-29,63,325!2026-01-30,64,325!2026-02-11,74,325-->
 
 {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331-->
 
@@ -180,15 +180,15 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 > }
 > ```
 >
-> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-01-27,61,325!2026-01-31,65,325!2026-01-26,60,325!2025-11-29,17,305!2026-01-30,64,325!2026-02-01,65,325!2025-11-29,17,305!2026-01-28,62,325!2026-01-26,60,325!2026-02-04,68,325!2025-11-30,18,330-->
+> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-01-27,61,325!2026-01-31,65,325!2026-01-26,60,325!2026-02-12,75,325!2026-01-30,64,325!2026-02-01,65,325!2026-02-10,73,325!2026-01-28,62,325!2026-01-26,60,325!2026-02-04,68,325!2025-11-30,18,330-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-02-03,67,325!2026-01-26,60,325!2025-11-29,17,305!2026-01-16,60,310!2026-01-28,62,325!2026-01-31,65,325!2026-01-13,57,310!2025-11-29,17,305!2026-02-05,69,325!2026-01-12,49,305!2026-02-04,68,325!2026-02-04,68,325!2025-11-30,18,330-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-02-03,67,325!2026-01-26,60,325!2026-02-11,74,325!2026-01-16,60,310!2026-01-28,62,325!2026-01-31,65,325!2026-01-13,57,310!2026-02-09,72,325!2026-02-05,69,325!2026-01-12,49,305!2026-02-04,68,325!2026-02-04,68,325!2025-11-30,18,330-->
 
 ## lazy evaluation
 
-Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\) <!--SR:!2026-01-27,61,325!2026-01-29,63,325!2026-01-28,62,325!2026-02-01,66,325!2025-11-29,17,305-->
+Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\) <!--SR:!2026-01-27,61,325!2026-01-29,63,325!2026-01-28,62,325!2026-02-01,66,325!2026-02-12,75,325-->
 
-- __By-name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail. <!--SR:!2026-01-26,60,325!2025-11-29,17,305-->
+- __By-name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail. <!--SR:!2026-01-26,60,325!2026-02-10,73,325-->
 - __`lazy val`__ ::@:: – a value that is evaluated at most once, on first use. <!--SR:!2026-02-05,69,325!2026-02-05,69,325-->
 
 For {@{an example}@} of {@{`lazy val`}@}: <!--SR:!2026-02-05,69,325!2026-02-04,68,325-->
@@ -203,13 +203,13 @@ For {@{an example}@} of {@{`lazy val`}@}: <!--SR:!2026-02-05,69,325!2026-02-04,6
 > def z() = { println("z"); 3 }        // function, evaluated each call
 > ```
 >
-> When evaluating {@{an expression that mixes these constructs}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,328!2025-11-29,17,328-->
+> When evaluating {@{an expression that mixes these constructs}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,328!2026-02-17,80,348-->
 
-When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-29,17,330-->
+When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2026-02-16,79,350-->
 
 ## infinite sequences
 
-Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{represent sequences having infinite elements}@}: <!--SR:!2026-01-19,63,310!2025-11-29,17,305!2026-02-01,65,325-->
+Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{represent sequences having infinite elements}@}: <!--SR:!2026-01-19,63,310!2026-02-12,75,325!2026-02-01,65,325-->
 
 > [!example] __`LazyList` of all natural numbers__
 >
@@ -223,7 +223,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 
 ### infinite sequence operations
 
-{@{Other infinite sequences}@} may be obtained by {@{mapping or filtering an infinite sequence}@}. For example, {@{the list of multiples of four}@} is expressed as: <!--SR:!2026-02-01,66,325!2026-01-31,65,325!2025-11-29,17,305-->
+{@{Other infinite sequences}@} may be obtained by {@{mapping or filtering an infinite sequence}@}. For example, {@{the list of multiples of four}@} is expressed as: <!--SR:!2026-02-01,66,325!2026-01-31,65,325!2026-02-11,74,325-->
 
 > [!example] __deriving infinite sequences__
 >
@@ -239,13 +239,13 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > nats.filter(_ % 4 == 0)
 > ```
 >
-> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-29,17,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-29,17,331!2025-11-30,18,331-->
+> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2026-02-18,81,351!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2026-02-18,81,351!2025-11-30,18,331-->
 
-{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2025-11-29,17,305!2026-02-02,66,325!2025-11-29,17,305!2026-02-03,67,325!2026-01-30,64,325!2026-01-24,67,310!2026-01-26,60,325!2025-11-29,17,305!2026-01-28,62,325!2026-01-29,63,325!2025-11-29,17,305-->
+{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-02-08,71,325!2026-02-02,66,325!2026-02-08,71,325!2026-02-03,67,325!2026-01-30,64,325!2026-01-24,67,310!2026-01-26,60,325!2026-02-08,71,325!2026-01-28,62,325!2026-01-29,63,325!2026-02-11,74,325-->
 
 ### infinite sequence examples
 
-{@{The classic algorithm for generating primes}@}, {@{sieve of Eratosthenes}@}, can be expressed {@{succinctly with lazy lists}@}: <!--SR:!2026-01-28,62,325!2025-11-29,17,305!2026-01-31,65,325-->
+{@{The classic algorithm for generating primes}@}, {@{sieve of Eratosthenes}@}, can be expressed {@{succinctly with lazy lists}@}: <!--SR:!2026-01-28,62,325!2026-02-10,73,325!2026-01-31,65,325-->
 
 > [!example] __sieve of Eratosthenes__
 >
@@ -258,7 +258,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > val primes = sieve(from(2))
 > ```
 >
-> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328!2025-11-29,17,328-->
+> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328!2026-02-16,79,348-->
 
 {@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2026-02-07,71,325!2026-02-01,65,325!2026-01-14,58,310-->
 
@@ -273,9 +273,9 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >   guesses
 > }
 > ```
-<!--SR:!2025-11-29,17,305!2025-11-29,17,305!2026-01-22,65,310-->
+<!--SR:!2026-02-10,73,325!2026-02-08,71,325!2026-01-22,65,310-->
 
-{@{A predicate}@} can then {@{filter for a sufficiently accurate approximation}@}: <!--SR:!2025-11-29,17,305!2026-01-27,61,325-->
+{@{A predicate}@} can then {@{filter for a sufficiently accurate approximation}@}: <!--SR:!2026-02-11,74,325!2026-01-27,61,325-->
 
 > [!example] __lazy fixed iteration extraction__
 >
@@ -290,7 +290,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >
 > {@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}. <!--SR:!2025-11-30,18,330!2025-11-30,18,330!2025-11-30,18,328!2025-11-30,18,328-->
 
-{@{A combinatorial search problem}@}, such as {@{filling glasses to a target volume}@}, can be encoded with {@{lazy lists of state transitions}@}: <!--SR:!2026-01-26,60,325!2025-11-29,17,305!2025-11-29,17,305-->
+{@{A combinatorial search problem}@}, such as {@{filling glasses to a target volume}@}, can be encoded with {@{lazy lists of state transitions}@}: <!--SR:!2026-01-26,60,325!2026-02-12,75,325!2026-02-08,71,325-->
 
 > [!example] __water pouring problem__
 >
@@ -316,7 +316,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >           prev.updated(f, prev(f) - amount).updated(t, prev(t) + amount)
 >   // more ...
 > ```
-> <!--SR:!2026-01-18,62,310!2026-02-02,66,325!2025-11-29,17,305-->
+> <!--SR:!2026-01-18,62,310!2026-02-02,66,325!2026-02-10,73,325-->
 
 Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{generated}@}: <!--SR:!2026-01-29,63,325!2026-01-28,62,325!2026-01-26,60,325-->
 
@@ -333,7 +333,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 > ```
 <!--SR:!2026-01-30,64,325!2026-02-03,67,325!2026-02-01,66,325-->
 
-{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2025-11-29,17,305!2026-01-15,59,310!2026-02-02,66,325-->
+{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2026-02-11,74,325!2026-01-15,59,310!2026-02-02,66,325-->
 
 > [!example] __water pouring problem search__
 >
@@ -356,9 +356,9 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 >     current #:: from(more, explored ++ more.map(_.endState))
 >   }
 > ```
-<!--SR:!2026-01-26,60,325!2026-01-30,64,325!2025-11-29,17,305-->
+<!--SR:!2026-01-26,60,325!2026-01-30,64,325!2026-02-09,72,325-->
 
-{@{A sequence of solution paths}@} is obtained by {@{filtering paths that reach the target amount}@}: <!--SR:!2025-11-29,17,305!2026-02-06,70,325-->
+{@{A sequence of solution paths}@} is obtained by {@{filtering paths that reach the target amount}@}: <!--SR:!2026-02-12,75,325!2026-02-06,70,325-->
 
 > [!example] __water pouring problem solution__
 >
@@ -375,13 +375,13 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 >     p     <- paths if p.endState.contains(target)
 >   yield p
 > ```
-<!--SR:!2026-02-06,70,325!2025-11-29,17,305-->
+<!--SR:!2026-02-06,70,325!2026-02-09,72,325-->
 
 ## lazy evaluation in other languages
 
-In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core language}@} rather than {@{added as a library feature}@}. <!--SR:!2025-11-29,17,305!2026-02-01,66,325!2026-02-03,67,325!2026-02-04,68,325-->
+In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core language}@} rather than {@{added as a library feature}@}. <!--SR:!2026-02-12,75,325!2026-02-01,66,325!2026-02-03,67,325!2026-02-04,68,325-->
 
-{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `:`}@}: <!--SR:!2026-01-26,60,325!2025-11-29,17,305!2025-11-29,17,305!2025-11-29,17,305!2026-01-20,63,310!2026-01-26,60,325!2026-01-27,61,325!2026-02-04,68,325-->
+{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `:`}@}: <!--SR:!2026-01-26,60,325!2026-02-12,75,325!2026-02-08,71,325!2026-02-12,75,325!2026-01-20,63,310!2026-01-26,60,325!2026-01-27,61,325!2026-02-04,68,325-->
 
 > [!example] __Haskell lazy evaluation example__
 >
@@ -391,9 +391,9 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > let guesses = 1 : map improve guesses
 > ```
 >
-> Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-29,17,331!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331-->
+> Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331!2026-02-18,81,351!2025-11-30,18,331!2025-11-30,18,331!2025-11-30,18,331-->
 
-{@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2025-11-29,17,305!2026-02-04,68,325!2025-11-29,17,305!2026-02-06,70,325!2026-01-28,62,325-->
+{@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2026-02-12,75,325!2026-02-04,68,325!2026-02-09,72,325!2026-02-06,70,325!2026-01-28,62,325-->
 
 > [!example] __OCaml cyclic data structure example__
 >
@@ -404,7 +404,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```
 <!--SR:!2026-01-13,57,310!2026-01-26,60,325!2026-02-01,66,325!2026-01-24,67,310!2026-01-20,63,310-->
 
-However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-02-05,69,325!2026-01-26,60,325!2026-01-29,63,325!2025-11-29,17,305!2025-11-29,17,305-->
+However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-02-05,69,325!2026-01-26,60,325!2026-01-29,63,325!2026-02-12,75,325!2026-02-08,71,325-->
 
 > [!example] __OCaml lazy evaluation example__
 >
@@ -413,6 +413,6 @@ However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the 
 > ```Ocaml
 > let rec guesses = Stream.cons (fun () -> (1, Stream.map improve guesses))
 > ```
-<!--SR:!2026-02-02,66,325!2025-11-29,17,305!2026-02-02,66,325!2026-02-06,70,325!2026-01-26,60,325-->
+<!--SR:!2026-02-02,66,325!2026-02-09,72,325!2026-02-02,66,325!2026-02-06,70,325!2026-01-26,60,325-->
 
 Thus, while Haskell relies on {@{implicit laziness for all lists}@}, OCaml requires {@{explicit constructs to defer computation}@}. {@{Scala's `LazyList`}@} is {@{similar in spirit to Haskell lists}@} but requires {@{explicit construction like OCaml}@}. <!--SR:!2026-02-05,69,325!2026-02-05,69,325!2026-02-07,71,325!2026-02-07,71,325!2026-01-31,65,325-->

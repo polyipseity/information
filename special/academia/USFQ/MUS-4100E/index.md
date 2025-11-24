@@ -667,12 +667,12 @@ The content is in teaching order.
 
 - datetime: 2025-04-16T08:30:00-05:00/2025-04-16T09:50:00-05:00, PT1H20M
   - local: 2025-04-16T21:30:00+08:00/2025-04-16T22:50:00+08:00, PT1H20M
-- [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll. <!--SR:!2028-04-13,873,458!2025-11-29,152,438-->
+- [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll. <!--SR:!2028-04-13,873,458!2028-05-28,911,458-->
   - jazz fusion / motivation ::@:: Acoustic jazz had been pushed to its limits. So musicians found new inspirations in rock music and funk. <!--SR:!2025-12-03,156,438!2028-04-24,882,458-->
-  - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2028-05-06,893,458!2025-11-29,152,438-->
+  - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2028-05-06,893,458!2028-05-29,912,458-->
   - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2025-12-06,158,438!2025-12-07,159,438-->
   - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report <!--SR:!2025-12-04,157,438!2025-12-07,159,438-->
-- [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations. <!--SR:!2025-12-08,160,438!2025-11-29,152,438-->
+- [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations. <!--SR:!2025-12-08,160,438!2028-05-27,910,458-->
   - Herbie Hancock / works ::@:: "Watermelon Man" \(1963\) — Herbie Hancock <br/> "Chameleon" \(1973\) — Herbie Hancock <br/> "I Thought It Was You" \(1979\) — Herbie Hancock: disco groove <br/> "Rokit" \(1983\) — Herbie Hancock <!--SR:!2025-12-09,161,438!2025-12-08,160,438-->
 - [Chick Corea](../../../../general/Chick%20Corea.md) \(2021\) ::@:: He was an American jazz pianist, composer, bandleader and occasional percussionist. <p> As a member of Miles Davis's band in the late 1960s, he participated in the birth of jazz fusion. In the 1970s he formed Return to Forever. <p> He has won 28 Grammy Awards and was nominated 72 times for the award. <!--SR:!2025-12-04,157,438!2025-12-04,157,442-->
   - Chick Corea / works ::@:: "Spain" \(1973\) — Chick Corea <!--SR:!2025-12-02,155,438!2025-12-01,154,438-->
@@ -700,7 +700,7 @@ The content is in teaching order.
   - Oscar Peterson / effects ::@:: Many pianist were influenced by him and played in his style, e.g. Benny Green, Gene harris, Monty Alexander, Phineas Neworn, etc. \(and the instructor\) <!--SR:!2025-12-07,159,438!2025-12-11,163,441-->
 - [Bill Evans](../../../../general/Bill%20Evans.md) \(1929–1980\) ::@:: He was an American jazz pianist and composer who worked primarily as the leader of his trio. His use of impressionist harmony, block chords, innovative chord voicing, and trademark rhythmically independent "singing" melodic lines continue to influence jazz pianists today. <!--SR:!2028-04-15,875,458!2027-07-06,631,438-->
   - Bill Evans / early life ::@:: He was left-handed. He was trained in an university. He became famous with Miles Davis. He was lyrical and not as bluesy as Oscar Peterson. <!--SR:!2025-11-30,153,438!2025-12-08,160,438-->
-  - Bill Evans / trio ::@:: piano: Bill Evans <br/> drums: Paul Motion <br/> bass: Scott Lafaro <!--SR:!2025-11-29,152,438!2025-12-08,160,441-->
+  - Bill Evans / trio ::@:: piano: Bill Evans <br/> drums: Paul Motion <br/> bass: Scott Lafaro <!--SR:!2028-05-26,909,458!2025-12-08,160,441-->
     - Bill Evans / trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential <!--SR:!2025-12-10,162,438!2025-12-09,161,442-->
   - Bill Evans / works ::@:: "What Is This Thing Called Love?" \(1960\) — Bill Evans trio <br/> _Conversations with Myself_ <br/> _Live at Town Hall_ <br/> _Portrait in Jazz_ <br/> _Sunday at the Village Vanguard_ <br/> _Waltz for Debby_ <!--SR:!2028-05-08,894,458!2028-05-11,897,458-->
   - Bill Evans / later life ::@:: He struggled with heroin, and then cocaine. He died at 51 from hepatitis, pneumonia, liver failure, and stomach ulcers. <!--SR:!2028-05-07,893,458!2025-12-07,159,438-->
@@ -734,8 +734,8 @@ The content is in teaching order.
 - [Wynton Marsalis](../../../../general/Wynton%20Marsalis.md) \(1961–\) ::@:: He is an American trumpeter, composer, and music instructor, who is currently the artistic director of Jazz at Lincoln Center. He has been active in promoting classical and jazz music, often to young audiences. Marsalis has won nine Grammy Awards. <!--SR:!2025-12-03,156,438!2025-12-01,154,438-->
   - Wynton Marsalis / effects ::@:: He is from New Orleans \(the birthplace!\). He brought bebop roots into jazz. He brought jazz into education. <!--SR:!2025-12-09,161,442!2025-12-04,156,438-->
   - Wynton Marsalis / family ::@:: He comes from a musical family. <!--SR:!2025-11-30,153,438!2025-12-04,157,438-->
-  - Wynton Marsalis / works ::@:: "Cherokee" \(1993\) — Wynton Marsalis <!--SR:!2025-12-02,155,438!2025-11-29,152,438-->
-- [Christian McBride](../../../../general/Christian%20McBride.md) \(1972–\) ::@:: He is an American jazz bassist, composer and arranger. He has appeared on more than 400 recordings as a sideman, and is a nine-time Grammy Award winner. <!--SR:!2025-11-30,153,438!2025-11-29,152,438-->
+  - Wynton Marsalis / works ::@:: "Cherokee" \(1993\) — Wynton Marsalis <!--SR:!2025-12-02,155,438!2028-05-22,905,458-->
+- [Christian McBride](../../../../general/Christian%20McBride.md) \(1972–\) ::@:: He is an American jazz bassist, composer and arranger. He has appeared on more than 400 recordings as a sideman, and is a nine-time Grammy Award winner. <!--SR:!2025-11-30,153,438!2028-05-22,905,458-->
   - Christian McBride / works ::@:: "Easy Walker" \(2013\) — Christian McBride Trio <!--SR:!2025-12-07,159,438!2025-12-09,161,441-->
 - neo-bop
   - neo-bop / players ::@:: Brian Blade \(drums\) <br/> Christian McBride <br/> Joshua Redman \(saxophone\) <br/> Pete Bernstein \(guitar\) <br/> Wynton Marsalis <!--SR:!2028-05-16,901,458!2025-12-07,159,438-->
@@ -755,13 +755,13 @@ The content is in teaching order.
   - Robert Glasper / works ::@:: "Stella By Starlight" \(2014\) — Robert Glasper <br/> _Black Radio_ \(2012\) — Robert Glasper: his breakout album, which won a Grammy for Best R&B Album <br/> _Black Radio III_ \(2022\) — Robert Glasper: also won a Grammar for Best R&B Album <!--SR:!2025-12-05,158,441!2025-12-09,161,441-->
   - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2028-05-20,905,458!2028-05-01,888,458-->
 - [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2025-12-07,159,438!2028-04-04,865,458-->
-  - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2025-12-02,155,441!2025-11-29,152,438-->
+  - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2025-12-02,155,441!2028-05-21,904,458-->
   - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2028-05-02,889,458!2025-12-26,163,454-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2025-12-01,154,441!2025-12-09,161,438-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2025-12-03,156,438!2025-12-08,160,438-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2028-05-30,914,462!2028-05-22,907,462-->
   - Corey Henry / works ::@:: "Billie Jean" \(2016\) — Cory Henry feat. Jacob Collier: originally a 1983 single by Michael Jackson <!--SR:!2028-06-01,916,462!2025-12-10,162,441-->
-- [jazz rap](../../../../general/jazz%20rap.md) ::@:: It is a fusion of jazz and hip hop music, as well as an alternative hip-hop subgenre, that developed in the late 1980s and early 1990s. <!--SR:!2025-11-29,152,438!2025-12-02,155,441-->
+- [jazz rap](../../../../general/jazz%20rap.md) ::@:: It is a fusion of jazz and hip hop music, as well as an alternative hip-hop subgenre, that developed in the late 1980s and early 1990s. <!--SR:!2028-05-24,907,458!2025-12-02,155,441-->
   - jazz rap / works ::@:: "For Free?" \(2015\) — Kendrick Lamar: lots of profanity <!--SR:!2025-12-07,159,438!2025-12-09,161,441-->
 - assignment: \(none\)
 

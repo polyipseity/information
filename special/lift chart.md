@@ -27,7 +27,7 @@ To construct a lift chart, first select {@{an attribute as the outcome attribute
 >
 > {@{A quick example}@} below.
 >
-> {@{![lift chart example](attachments/Pasted%20image%2020240322145601.png)}@} <!--SR:!2025-11-29,425,290!2026-01-24,156,322-->
+> {@{![lift chart example](attachments/Pasted%20image%2020240322145601.png)}@} <!--SR:!2030-08-07,1712,310!2026-01-24,156,322-->
 
 ### decile-wise
 

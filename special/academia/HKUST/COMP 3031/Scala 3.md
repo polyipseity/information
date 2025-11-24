@@ -71,9 +71,9 @@ Every piece of data in Scala has {@{a type}@}. <!--SR:!2026-08-06,251,330-->
 
 ### primitive types
 
-{@{Primitive types}@} are {@{the most basic types in Scala}@} and {@{make up all other types}@}. The list of primitive types are {@{as in Java}@}, but {@{are capitalized}@}. <!--SR:!2025-12-04,62,310!2025-11-29,58,310!2025-12-10,67,310!2025-12-07,64,310!2025-11-29,58,310-->
+{@{Primitive types}@} are {@{the most basic types in Scala}@} and {@{make up all other types}@}. The list of primitive types are {@{as in Java}@}, but {@{are capitalized}@}. <!--SR:!2025-12-04,62,310!2026-08-07,251,330!2025-12-10,67,310!2025-12-07,64,310!2026-08-08,252,330-->
 
-- `Boolean` ::@:: Either true or false. Example: `true`, `false` <!--SR:!2025-12-06,63,310!2025-11-29,58,310-->
+- `Boolean` ::@:: Either true or false. Example: `true`, `false` <!--SR:!2025-12-06,63,310!2026-08-11,255,330-->
 - `Char` ::@:: A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2026-07-25,241,330!2025-12-10,67,310-->
 - `Double` ::@:: A floating point number with double precision \(15 to 17 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-08-02,247,330!2025-12-09,66,310-->
 - `Float` ::@:: A floating point number with single precision \(6 to 9 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2025-12-07,64,310!2026-07-15,232,330-->
@@ -771,7 +771,7 @@ Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> t
 
 Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!2026-07-23,239,330!2025-12-04,62,310!2026-07-19,236,330!2025-12-10,67,310!2025-12-10,67,310!2025-12-03,61,310!2025-12-05,63,310!2025-12-04,62,310-->
 
-Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2025-12-07,64,310!2025-11-29,58,310-->
+Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2025-12-07,64,310!2026-08-10,254,330-->
 
 ### anonymous functions
 
@@ -1174,7 +1174,7 @@ Thus, {@{the _for_ notation}@} serves as a bridge between {@{functional programm
 
 ## definitions
 
-To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2025-11-29,58,310!2026-08-04,249,330!2025-12-06,63,310!2025-12-08,65,310!2025-12-09,66,310!2025-12-03,61,310!2025-12-06,63,310!2026-08-06,251,330!2025-12-08,65,310!2026-07-30,245,330!2025-12-05,63,310-->
+To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2026-08-07,251,330!2026-08-04,249,330!2025-12-06,63,310!2025-12-08,65,310!2025-12-09,66,310!2025-12-03,61,310!2025-12-06,63,310!2026-08-06,251,330!2025-12-08,65,310!2026-07-30,245,330!2025-12-05,63,310-->
 
 Expressions can be {@{parameterized}@}. Use {@{`def <name>(<parm name 1>: <parm type 1>, ... <parm name N>: <parm type N>): <return type> = <expr>`}@}. {@{`<return type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. Expressions are evaluated by {@{replacing each occurrence of `<para name K>` by the actual parameters}@} when {@{the function is evaluated \(see [§ evaluation](#evaluation)\)}@}. <!--SR:!2026-08-05,250,330!2026-05-20,182,310!2025-12-07,64,310!2025-12-04,62,310!2025-12-09,66,310!2025-12-04,62,310-->
 
@@ -1245,7 +1245,7 @@ Repeated parameters are especially handy for {@{constructing collections without
 
 ## evaluation
 
-The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!2025-12-03,61,310!2025-11-29,58,310!2025-12-07,64,310!2025-12-08,65,310!2025-12-03,61,310-->
+The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!2025-12-03,61,310!2026-08-11,255,330!2025-12-07,64,310!2025-12-08,65,310!2025-12-03,61,310-->
 
 ### tail recursion
 
@@ -1253,7 +1253,7 @@ Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reus
 
 ## scoping
 
-Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!2026-07-22,238,330!2026-07-31,246,330!2025-11-29,58,310!2025-12-03,61,310!2025-12-03,61,310!2026-07-24,240,330!2025-12-05,63,310-->
+Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!2026-07-22,238,330!2026-07-31,246,330!2026-08-09,253,330!2025-12-03,61,310!2025-12-03,61,310!2026-07-24,240,330!2025-12-05,63,310-->
 
 Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\) according to the _source code_ \(lexical scoping\)}@}. <!--SR:!2025-12-07,64,310!2025-12-05,63,310!2026-07-30,245,330!2025-12-04,62,310-->
 

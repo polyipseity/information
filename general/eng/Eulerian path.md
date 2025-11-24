@@ -163,7 +163,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 > {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >
-> {@{An even mixed graph}@} that {@{violates the balanced set condition and is therefore not Eulerian}@}. <!--SR:!2027-12-30,820,342!2029-02-23,1206,362!2025-11-29,26,390-->
+> {@{An even mixed graph}@} that {@{violates the balanced set condition and is therefore not Eulerian}@}. <!--SR:!2027-12-30,820,342!2029-02-23,1206,362!2026-04-20,142,410-->
 
 <!-- markdownlint MD028 -->
 

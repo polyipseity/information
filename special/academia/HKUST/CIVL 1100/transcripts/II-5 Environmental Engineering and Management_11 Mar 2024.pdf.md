@@ -102,7 +102,7 @@ return await memorize_seq(
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2028-01-05,874,295!2026-09-09,523,315-->
 - (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2026-01-14,87,135-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2026-02-18,299,295!2027-07-10,770,315-->
-- (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2028-11-04,1162,355-->
+- (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2031-11-07,2169,395!2028-11-04,1162,355-->
 
 <!--/pytextgen-->
 
@@ -309,7 +309,7 @@ Noise Levels and Causes
 Properties of Sound Waves
 
 - sound level calculation ::@:: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2027-08-20,891,330!2028-12-22,1301,350-->
-  - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2025-11-29,369,290!2027-12-14,927,330-->
+  - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2029-12-29,1491,310!2027-12-14,927,330-->
 
 ## page 26
 
