@@ -96,7 +96,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Dedekind_cut) fro
 4. In the second line, {@{$\geq$ may be replaced by $>$ without any difference}@} as {@{there is no solution for $x^{2}=2$ in $\mathbb {Q}$ and $b=0$ is already forbidden by the first condition}@}. This results in {@{the equivalent expression $$B=\{b\in \mathbb {Q} :b^{2}>2{\text{ and } }b>0\}.$$}@} <a id="^ref-4"></a>^ref-4
 5. R. Engelking, General Topology, I.3 <a id="^ref-5"></a>^ref-5
 6. Jun-Iti Nagata, Modern General Topology, Second revised edition, Theorem VIII.2, p. 461. Actually, the theorem holds in the setting of generalized ordered spaces, but in this more general setting pseudo-gaps should be taken into account. <a id="^ref-6"></a>^ref-6
-7. <a id="CITEREFAlling1987"></a> Alling, Norman L. \(1987\). _Foundations of Analysis over Surreal Number Fields_. Mathematics Studies 141. North-Holland. [ISBN](ISBN.md) [0-444-70226-1](https://en.wikipedia.org/wiki/Special:BookSources/0-444-70226-1). <a id="^ref-7"></a>^ref-7 <!--SR:!2025-12-22,281,330!2025-11-27,261,330!2029-01-22,1162,350-->
+7. <a id="CITEREFAlling1987"></a> Alling, Norman L. \(1987\). _Foundations of Analysis over Surreal Number Fields_. Mathematics Studies 141. North-Holland. [ISBN](ISBN.md) [0-444-70226-1](https://en.wikipedia.org/wiki/Special:BookSources/0-444-70226-1). <a id="^ref-7"></a>^ref-7 <!--SR:!2025-12-22,281,330!2029-02-26,1187,350!2029-01-22,1162,350-->
 
 ## references
 

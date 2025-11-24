@@ -765,7 +765,7 @@ Traits therefore provide {@{a flexible way}@} to {@{compose behavior}@}, enablin
 
 ## expressions
 
-Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2025-12-04,62,310!2025-12-04,62,310!2025-12-05,63,310!2025-11-28,57,310!2025-11-27,56,310!2025-12-05,63,310!2025-11-28,57,310-->
+Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2025-12-04,62,310!2025-12-04,62,310!2025-12-05,63,310!2025-11-28,57,310!2026-07-31,246,330!2025-12-05,63,310!2025-11-28,57,310-->
 
 Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2025-12-08,65,310!2025-12-08,65,310!2025-12-03,61,310!2026-07-20,237,330!2025-11-28,57,310!2025-12-06,63,310-->
 
@@ -1174,7 +1174,7 @@ Thus, {@{the _for_ notation}@} serves as a bridge between {@{functional programm
 
 ## definitions
 
-To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2025-11-29,58,310!2025-11-28,57,310!2025-12-06,63,310!2025-12-08,65,310!2025-12-09,66,310!2025-12-03,61,310!2025-12-06,63,310!2025-11-28,57,310!2025-12-08,65,310!2025-11-27,56,310!2025-12-05,63,310-->
+To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2025-11-29,58,310!2025-11-28,57,310!2025-12-06,63,310!2025-12-08,65,310!2025-12-09,66,310!2025-12-03,61,310!2025-12-06,63,310!2025-11-28,57,310!2025-12-08,65,310!2026-07-30,245,330!2025-12-05,63,310-->
 
 Expressions can be {@{parameterized}@}. Use {@{`def <name>(<parm name 1>: <parm type 1>, ... <parm name N>: <parm type N>): <return type> = <expr>`}@}. {@{`<return type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. Expressions are evaluated by {@{replacing each occurrence of `<para name K>` by the actual parameters}@} when {@{the function is evaluated \(see [§ evaluation](#evaluation)\)}@}. <!--SR:!2025-11-28,57,310!2026-05-20,182,310!2025-12-07,64,310!2025-12-04,62,310!2025-12-09,66,310!2025-12-04,62,310-->
 
@@ -1253,9 +1253,9 @@ Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reus
 
 ## scoping
 
-Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!2026-07-22,238,330!2025-11-27,56,310!2025-11-29,58,310!2025-12-03,61,310!2025-12-03,61,310!2026-07-24,240,330!2025-12-05,63,310-->
+Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!2026-07-22,238,330!2026-07-31,246,330!2025-11-29,58,310!2025-12-03,61,310!2025-12-03,61,310!2026-07-24,240,330!2025-12-05,63,310-->
 
-Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\) according to the _source code_ \(lexical scoping\)}@}. <!--SR:!2025-12-07,64,310!2025-12-05,63,310!2025-11-27,56,310!2025-12-04,62,310-->
+Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\) according to the _source code_ \(lexical scoping\)}@}. <!--SR:!2025-12-07,64,310!2025-12-05,63,310!2026-07-30,245,330!2025-12-04,62,310-->
 
 Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2025-12-10,67,310!2025-12-05,63,310!2025-12-09,66,310!2026-02-03,100,379!2025-12-13,56,350!2026-01-25,92,370-->
 

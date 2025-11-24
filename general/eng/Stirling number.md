@@ -19,7 +19,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 - see: [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)
 
-{@{Several different notations for Stirling numbers}@} are in use. {@{Ordinary (signed) __Stirling numbers of the first kind__}@} are commonly denoted: {@{$$s(n,k)\,.$$}@} <!--SR:!2027-12-22,879,330!2025-11-27,305,330!2025-12-08,314,330-->
+{@{Several different notations for Stirling numbers}@} are in use. {@{Ordinary (signed) __Stirling numbers of the first kind__}@} are commonly denoted: {@{$$s(n,k)\,.$$}@} <!--SR:!2027-12-22,879,330!2029-09-22,1395,350!2025-12-08,314,330-->
 
 {@{__Unsigned Stirling numbers of the first kind__}@}, which count {@{the number of [permutations](permutation.md) of _n_ elements with _k_ disjoint [cycles](cyclic%20permutation.md)}@}, are denoted: {@{$${\biggl [}{n \atop k}{\biggr ]}=c(n,k)=|s(n,k)|=(-1)^{n-k}s(n,k)\,$$}@} <!--SR:!2029-08-23,1369,350!2028-05-06,969,330!2028-02-04,898,330-->
 
@@ -49,7 +49,7 @@ Falling factorials define, {@{up to scaling, the same polynomials as [binomial c
 
 ### example
 
-{@{Expressing a polynomial in the basis of falling factorials}@} is {@{useful for calculating sums of the polynomial evaluated at consecutive integers}@}. Indeed, {@{the sum of falling factorials up to _n_ (exclusive) with fixed _k_}@} can expressed as {@{another falling factorial (for $k\neq -1$) $$\sum _{0\leq i<n}(i)_{k}={\frac {(n)_{k+1} }{k+1} }$$}@} (annotation: The above {@{suspiciously looks like definite integration of _i<sup>k</sup>_ from 0 to _n_... but with discrete summation}@}.) This can be proved by {@{[induction](mathematical%20induction.md)}@}. <!--SR:!2025-11-27,304,330!2029-07-11,1337,350!2025-12-07,313,330!2026-07-22,418,290!2027-07-27,688,310!2027-11-20,854,330-->
+{@{Expressing a polynomial in the basis of falling factorials}@} is {@{useful for calculating sums of the polynomial evaluated at consecutive integers}@}. Indeed, {@{the sum of falling factorials up to _n_ (exclusive) with fixed _k_}@} can expressed as {@{another falling factorial (for $k\neq -1$) $$\sum _{0\leq i<n}(i)_{k}={\frac {(n)_{k+1} }{k+1} }$$}@} (annotation: The above {@{suspiciously looks like definite integration of _i<sup>k</sup>_ from 0 to _n_... but with discrete summation}@}.) This can be proved by {@{[induction](mathematical%20induction.md)}@}. <!--SR:!2029-09-10,1383,350!2029-07-11,1337,350!2025-12-07,313,330!2026-07-22,418,290!2027-07-27,688,310!2027-11-20,854,330-->
 
 For example, {@{the sum of fourth powers of integers up to _n_ (this time with _n_ included)}@}, is: {@{$${\begin{aligned}\sum _{i=0}^{n}i^{4}&=\sum _{i=0}^{n}\sum _{k=0}^{4}{\biggl \{}{\!4\! \atop \!k\!}{\biggr \} }(i)_{k}=\sum _{k=0}^{4}{\biggl \{}{\!4\! \atop \!k\!}{\biggr \} }\sum _{i=0}^{n}(i)_{k}=\sum _{k=0}^{4}{\biggl \{}{\!4\! \atop \!k\!}{\biggr \} }{\frac {(n{+}1)_{k+1} }{k{+}1} }\\[10mu]&={\biggl \{}{\!4\! \atop \!1\!}{\biggr \} }{\frac {(n{+}1)_{2} }{2} }+{\biggl \{}{\!4\! \atop \!2\!}{\biggr \} }{\frac {(n{+}1)_{3} }{3} }+{\biggl \{}{\!4\! \atop \!3\!}{\biggr \} }{\frac {(n{+}1)_{4} }{4} }+{\biggl \{}{\!4\! \atop \!4\!}{\biggr \} }{\frac {(n{+}1)_{5} }{5} }\\[8mu]&={\frac {1}{2} }(n{+}1)_{2}+{\frac {7}{3} }(n{+}1)_{3}+{\frac {6}{4} }(n{+}1)_{4}+{\frac {1}{5} }(n{+}1)_{5}\,.\end{aligned} }$$}@} Here the Stirling numbers can be computed from {@{their definition as the number of partitions of 4 elements into _k_ non-empty unlabeled subsets}@}. <!--SR:!2025-12-03,310,330!2026-06-25,369,250!2026-04-11,394,310-->
 
@@ -63,7 +63,7 @@ In contrast, {@{the sum $\sum _{i=0}^{n}i^{k}$ in the standard basis}@} is {@{gi
 
 - see: [Lah numbers](Lah%20number.md)
 
-{@{The Lah numbers $L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }$}@} are {@{sometimes called Stirling numbers of the third kind}@}.<sup>[\[6\]](#^ref-6)</sup> By convention, {@{$L(0,0)=1$ and $L(n,k)=0$ if $n<k$ or $k=0<n$}@}. <!--SR:!2029-07-19,1342,350!2025-11-27,305,330!2025-12-02,309,330-->
+{@{The Lah numbers $L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }$}@} are {@{sometimes called Stirling numbers of the third kind}@}.<sup>[\[6\]](#^ref-6)</sup> By convention, {@{$L(0,0)=1$ and $L(n,k)=0$ if $n<k$ or $k=0<n$}@}. <!--SR:!2029-07-19,1342,350!2029-09-15,1388,350!2025-12-02,309,330-->
 
 These numbers are {@{coefficients expressing falling factorials in terms of rising factorials and vice versa}@}: {@{<p> $x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}\quad$ and $\quad (x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$}@} <!--SR:!2029-04-26,1274,350!2025-12-10,316,330-->
 

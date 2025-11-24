@@ -18,7 +18,7 @@ tags:
 >
 > {@{The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10}@} <!--SR:!2025-12-24,275,330!2027-12-06,814,330-->
 
-In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also called a __factor__ of $n$}@}, is {@{an [integer](integer.md) $m$ that may be multiplied by some integer to produce $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of $m$}@}. An integer $n$ is {@{__divisible__ or __evenly divisible__ by another integer $m$ if $m$ is a divisor of $n$}@}; this implies {@{dividing $n$ by $m$ leaves no remainder}@}. <!--SR:!2025-12-25,276,330!2026-01-14,291,330!2028-12-18,1125,350!2025-11-27,254,330!2025-12-11,264,330!2026-01-16,293,330-->
+In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also called a __factor__ of $n$}@}, is {@{an [integer](integer.md) $m$ that may be multiplied by some integer to produce $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of $m$}@}. An integer $n$ is {@{__divisible__ or __evenly divisible__ by another integer $m$ if $m$ is a divisor of $n$}@}; this implies {@{dividing $n$ by $m$ leaves no remainder}@}. <!--SR:!2025-12-25,276,330!2026-01-14,291,330!2028-12-18,1125,350!2029-01-30,1160,350!2025-12-11,264,330!2026-01-16,293,330-->
 
 ## definition
 
@@ -54,14 +54,14 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 
 There are some elementary rules:
 
-- (annotation: transitivity) ::@:: If $a\mid b$ and $b\mid c$, then $a\mid c;$ that is, divisibility is a [transitive relation](transitive%20relation.md). <!--SR:!2025-12-13,266,330!2025-11-27,254,330-->
+- (annotation: transitivity) ::@:: If $a\mid b$ and $b\mid c$, then $a\mid c;$ that is, divisibility is a [transitive relation](transitive%20relation.md). <!--SR:!2025-12-13,266,330!2029-01-29,1159,350-->
 - (annotation: associate) ::@:: If $a\mid b$ and $b\mid a$, then $a=b$ or $a=-b$. \(That is, $a$ and $b$ are [associates](divisibility%20(ring%20theory).md).\) <!--SR:!2025-12-09,263,330!2025-12-20,272,330-->
 - (annotation: linearity) ::@:: If $a\mid b$ and $a\mid c$, then $a\mid (b+c)$ holds, as does $a\mid (b-c)$.<sup>[\[a\]](#^ref-a)</sup> However, if $a\mid b$ and $c\mid b$, then $(a+c)\mid b$ does _not_ always hold \(for example, $2\mid 6$ and $3\mid 6$ but 5 does not divide 6\). <!--SR:!2026-01-09,287,330!2025-12-05,259,330-->
 - (annotation: multiplication) ::@:: $a\mid b\iff ac\mid bc$ for nonzero $c$. This follows immediately from writing $ka=b\iff kac=bc$. <!--SR:!2026-01-01,281,330!2025-12-12,265,330-->
 - (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If $a\mid bc$, and $\gcd(a,b)=1$, then $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2028-10-29,1085,350!2028-11-30,1110,350-->
 - (annotation: prime divisibility) ::@:: If $p$ is a prime number and $p\mid ab$ then $p\mid a$ or $p\mid b$ (annotation: or both). <!--SR:!2025-12-07,261,330!2025-12-31,280,330-->
 
-{@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2026-01-08,286,330!2026-04-18,339,290!2025-12-24,275,330!2028-11-17,1100,350!2025-11-27,254,330!2027-10-14,765,330-->
+{@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2026-01-08,286,330!2026-04-18,339,290!2025-12-24,275,330!2028-11-17,1100,350!2029-01-28,1158,350!2027-10-14,765,330-->
 
 {@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2025-12-16,268,330!2025-12-17,269,330!2026-01-10,288,330-->
 

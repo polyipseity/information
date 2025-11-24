@@ -177,7 +177,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 ## floating-point instructions
 
-Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2025-11-27,128,404-->
+Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2027-11-01,704,424-->
 
 - absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2027-10-09,689,424!2026-10-19,389,404-->
 - absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-12-01,132,404!2027-10-23,701,424-->
@@ -197,7 +197,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2027-10-10,690,424!2025-11-28,129,404-->
 - compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-12-04,135,404!2025-12-01,132,404-->
 - compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2027-10-03,683,424!2027-09-22,673,424-->
-- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-11-27,128,404!2027-10-22,700,424-->
+- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-11-03,706,424!2027-10-22,700,424-->
 - divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-10-10,689,424!2027-11-02,709,424-->
 - load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2027-09-27,678,424!2027-10-31,707,424-->
 - load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2027-10-30,707,424!2026-07-28,303,384-->
@@ -415,7 +415,7 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2027-10-11,691,424!2027-10-04,684,424-->
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2027-10-20,699,424!2027-10-25,702,424-->
 - data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-11-30,131,404!2026-07-18,295,384-->
-- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-11-27,128,404!2027-10-13,692,424-->
+- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2027-11-02,705,424!2027-10-13,692,424-->
 - signedness ::@:: All operations are always signed. <!--SR:!2027-10-15,694,424!2027-11-04,710,424-->
 
 ## miscellaneous

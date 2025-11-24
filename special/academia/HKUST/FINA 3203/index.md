@@ -43,13 +43,13 @@ The content is in teaching order.
   - FINA 3203 / logistics
 - [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ... <!--SR:!2025-12-01,66,310!2025-11-30,65,310-->
   - derivative / elements ::@:: tradeable item, future act, future act price, future act time <!--SR:!2025-11-30,65,310!2025-11-28,63,310-->
-    - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!2026-07-08,233,330!2025-11-27,63,310-->
+    - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!2026-07-08,233,330!2026-06-08,193,310-->
     - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2026-08-02,254,330!2026-08-03,255,330-->
     - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2026-07-29,251,330!2025-11-29,64,310-->
     - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!2026-07-13,237,330!2026-07-19,242,330-->
   - derivative / examples ::@:: exotic option, forward/future, option, etc. <!--SR:!2026-08-21,268,330!2026-07-17,241,330-->
 - [economics](../../../../general/economics.md) ::@:: It is a behavioral science that studies the production, distribution, and consumption of goods and services. <!--SR:!2026-07-18,241,330!2026-08-04,255,330-->
-  - economics / objectives ::@:: Maximize _utility_, subject to _constraints_. Constraints are important because people have _limited_ resources. <!--SR:!2026-08-11,260,330!2025-11-27,63,310-->
+  - economics / objectives ::@:: Maximize _utility_, subject to _constraints_. Constraints are important because people have _limited_ resources. <!--SR:!2026-08-11,260,330!2026-08-26,272,330-->
   - economics / finance ::@:: a subfield of economics <p> _utility_: _expected_ return <br/> _constraint_: _affordable_ risk <!--SR:!2026-07-28,250,330!2026-08-04,255,330-->
     - economics / finance / risk ::@:: It is important because we assume people are _risk-averse_. <!--SR:!2026-08-20,268,330!2025-11-29,64,310-->
 - derivative

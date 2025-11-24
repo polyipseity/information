@@ -10,14 +10,14 @@ tags:
 
 - HKUST TEMG 1010
 - datetime: 2024-11-09T09:30:00+08:00/2024-11-09T12:30:00+08:00, PT3H
-- topic ::@:: high-impact presentation <!--SR:!2029-03-06,1220,350!2025-11-27,287,330-->
+- topic ::@:: high-impact presentation <!--SR:!2029-03-06,1220,350!2029-06-26,1307,350-->
 - venue: AIS Common A (Rm 4380)
 
 The speaker talked about how to give a high-impact presentation. While I may not be the most interested in the content, it is still very useful to me.
 
 ## content
 
-When presenting, {@{content}@} is an important aspect. <!--SR:!2025-11-27,287,330-->
+When presenting, {@{content}@} is an important aspect. <!--SR:!2029-06-25,1306,350-->
 
 - introduction ::@:: Introduce your content from the large picture to the objective at hand. <!--SR:!2025-11-28,288,330!2029-02-24,1212,350-->
 - forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2025-11-29,290,330!2029-01-19,1184,350-->
@@ -33,10 +33,10 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-11-28,289,330
   - hand gesture / width ::@:: Hand gesture can be classified into off-body movement and on-body movement. You should have both, but too many on-body movement makes you look nervous. <!--SR:!2028-03-04,905,330!2028-02-18,892,330-->
   - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level hand gestures make the presentation less energetic. <!--SR:!2029-03-23,1234,350!2025-12-04,294,330-->
   - hand gesture / bouncing ::@:: Do not bounce your hand gesture! Changing your hand gesture continuously without stopping also makes you look nervous. <!--SR:!2028-02-24,897,330!2025-11-28,288,330-->
-- leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience. <!--SR:!2025-11-27,287,330!2028-02-17,891,330-->
+- leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience. <!--SR:!2029-06-24,1305,350!2028-02-17,891,330-->
   - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer. <!--SR:!2028-03-06,906,330!2029-01-06,1174,350-->
 - microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects. <!--SR:!2025-12-03,293,330!2025-12-01,291,330-->
-- speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2025-11-27,288,330!2029-01-12,1178,350-->
+- speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2029-06-29,1310,350!2029-01-12,1178,350-->
 - filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead. <!--SR:!2025-11-29,290,330!2028-02-02,880,330-->
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question. <!--SR:!2025-11-30,290,330!2025-11-28,288,330-->
 - pitch ::@:: Try to have lower pitch (most of the time) to make you feel more authoritative and serious. <!--SR:!2025-12-01,291,330!2025-11-28,289,330-->

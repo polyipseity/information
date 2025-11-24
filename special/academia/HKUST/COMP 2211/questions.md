@@ -352,7 +352,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: use `numpy.argsort`.
 >
-> - solution: {@{`a[numpy.argsort(a)[-2]]`}@} <!--SR:!2025-11-27,263,330-->
+> - solution: {@{`a[numpy.argsort(a)[-2]]`}@} <!--SR:!2029-03-08,1197,350-->
 
 <!-- markdownlint MD028 -->
 

@@ -55,7 +55,7 @@ Any category {@{with [fibre products](pullback%20(category%20theory).md) \(pullb
 
 ## see also
 
-- [Coequaliser](coequalizer.md), ::@:: the [dual](dual%20(category%20theory).md) notion, obtained by reversing the arrows in the equaliser definition. <!--SR:!2025-11-27,245,330!2026-01-26,292,330-->
+- [Coequaliser](coequalizer.md), ::@:: the [dual](dual%20(category%20theory).md) notion, obtained by reversing the arrows in the equaliser definition. <!--SR:!2028-12-16,1115,350!2026-01-26,292,330-->
 - [Coincidence theory](coincidence%20theory.md), ::@:: a topological approach to equaliser sets in [topological spaces](topological%20space.md). <!--SR:!2028-09-26,1050,350!2026-01-04,275,330-->
 - [Pullback](pullback%20(category%20theory).md), ::@:: a special [limit](limit%20(category%20theory).md) that can be constructed from equalisers and products. <!--SR:!2025-12-27,254,290!2027-12-17,818,330-->
 

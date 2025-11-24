@@ -169,7 +169,7 @@ Assuming that {@{translations are not used \(that is, $b_{1}=b_{2}=0$\)}@} trans
 
 {@{The augmented matrix that represents the [composition](function%20composition.md) of two affine transformations}@} is obtained by {@{multiplying their augmented matrices}@}. <!--SR:!2026-06-14,386,362!2026-03-13,310,349-->
 
-{@{Some affine transformations that are not Euclidean transformations}@} have {@{received specific names}@}. <!--SR:!2025-11-27,222,329!2026-03-16,313,349-->
+{@{Some affine transformations that are not Euclidean transformations}@} have {@{received specific names}@}. <!--SR:!2028-08-25,1002,349!2026-03-16,313,349-->
 
 #### scaling
 

@@ -56,7 +56,7 @@ The content is in teaching order.
 - course logistics
 - [management accounting](../../../../general/management%20accounting.md)
   - management accounting / purpose ::@:: decision-making orientation: provide useful information to internal managers for making decisions <!--SR:!2026-02-12,285,330!2026-02-20,293,330-->
-  - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2025-11-27,208,310!2028-01-20,822,330-->
+  - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2028-05-07,892,330!2028-01-20,822,330-->
     - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2026-02-09,282,330!2028-04-12,872,330-->
     - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2026-02-18,291,330!2026-02-13,286,330-->
     - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2028-01-08,811,330!2027-06-05,592,310-->
@@ -81,7 +81,7 @@ The content is in teaching order.
 - [fixed cost](../../../../general/fixed%20cost.md) ::@:: costs that do not change regardless of the activity level (within a reasonable range); average cost or per-unit cost varies inversely with the activity level <!--SR:!2027-08-30,642,310!2026-02-08,281,330-->
 - [manufacturing cost](../../../../general/manufacturing%20cost.md) ::@:: all costs to produce the physical product; direct materials cost + direct labor cost + manufacturing overhead cost <!--SR:!2026-02-17,290,330!2026-02-11,284,330-->
   - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2026-02-12,285,330!2026-02-21,294,330-->
-  - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2025-11-27,208,310-->
+  - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2028-05-06,891,330-->
   - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2026-02-14,287,330-->
   - prime cost ::@:: direct materials + direct labor <!--SR:!2026-02-09,282,330!2028-02-06,835,330-->
   - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2026-02-09,282,330-->

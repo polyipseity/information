@@ -85,7 +85,7 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
 >             {@{F&nbsp;:= F ∪ { {u, v} }<!-- flashcard separator -->}@}
 >             {@{UNION(FIND-SET(u), FIND-SET(v))}@}
 >     {@{<b>return</b> F}@}
-> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2029-04-03,1239,350!2025-12-08,294,330!2025-12-01,287,330!2029-04-13,1248,350!2029-01-05,1171,350!2025-11-27,284,330!2025-12-03,289,330-->
+> </pre> <!--SR:!2029-01-16,1178,350!2027-11-16,829,330!2029-04-03,1239,350!2025-12-08,294,330!2025-12-01,287,330!2029-04-13,1248,350!2029-01-05,1171,350!2029-06-11,1292,350!2025-12-03,289,330-->
 
 ## complexity
 
@@ -104,7 +104,7 @@ In cases {@{where the edges are already sorted}@}, or {@{where they have small e
 | ![Kruskal's algorithm example step 3](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%203.svg) | {@{The next edge, __DF__ with length 6}@}, is {@{highlighted using much the same method}@}.                                                                                                                                                                                                                                 |
 | ![Kruskal's algorithm example step 4](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%204.svg) | {@{The next-shortest edges are __AB__ and __BE__, both with length 7}@}. __AB__ is {@{chosen arbitrarily, and is highlighted}@}. The edge __BD__ has been {@{highlighted in red}@}, because {@{there already exists a path \(in green\) between __B__ and __D__, so it would form a cycle \(__ABD__\) if it were chosen}@}. |
 | ![Kruskal's algorithm example step 5](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%205.svg) | The process {@{continues to highlight the next-smallest edge, __BE__ with length 7}@}. Many more edges are {@{highlighted in red at this stage}@}: __BC__ because {@{it would form the loop __BCE__}@}, __DE__ because {@{it would form the loop __DEBA__}@}, and __FE__ because {@{it would form __FEBAD__}@}.             |
-| ![Kruskal's algorithm example step 6](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%206.svg) | Finally, the process {@{finishes with the edge __EG__ of length 9}@}, and {@{the minimum spanning tree is found}@}.                                                                                                                                                                                                         | <!--SR:!2028-12-02,1144,350!2025-11-27,284,330!2028-10-24,1111,350!2025-12-08,294,330!2029-03-22,1229,350!2029-05-01,1263,350!2025-11-30,287,330!2029-01-03,1168,350!2027-11-26,826,330!2027-05-11,686,330!2028-10-28,1115,350!2025-12-07,293,330!2029-06-12,1294,350!2029-03-19,1227,350!2028-11-09,1124,350!2025-12-04,290,330!2025-12-18,300,350-->
+| ![Kruskal's algorithm example step 6](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%206.svg) | Finally, the process {@{finishes with the edge __EG__ of length 9}@}, and {@{the minimum spanning tree is found}@}.                                                                                                                                                                                                         | <!--SR:!2028-12-02,1144,350!2029-06-17,1298,350!2028-10-24,1111,350!2025-12-08,294,330!2029-03-22,1229,350!2029-05-01,1263,350!2025-11-30,287,330!2029-01-03,1168,350!2027-11-26,826,330!2027-05-11,686,330!2028-10-28,1115,350!2025-12-07,293,330!2029-06-12,1294,350!2029-03-19,1227,350!2028-11-09,1124,350!2025-12-04,290,330!2025-12-18,300,350-->
 
 ## proof of correctness
 
@@ -218,7 +218,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
 >             {@{E<sub>f</sub> = E<sub>f</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
 >     {@{<b>return</b> E<sub>f</sub>}@}
-> </pre> <!--SR:!2029-01-30,1190,350!2025-11-27,284,330!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2025-12-01,288,330!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2025-12-08,294,330!2029-01-17,1181,350!2029-03-28,1236,350!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2025-11-30,286,330!2025-12-09,294,330-->
+> </pre> <!--SR:!2029-01-30,1190,350!2029-06-18,1299,350!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2025-12-01,288,330!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2025-12-08,294,330!2029-01-17,1181,350!2029-03-28,1236,350!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2025-11-30,286,330!2025-12-09,294,330-->
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-03-13,1222,350!2029-01-04,1170,350!2029-04-04,1240,350-->
 

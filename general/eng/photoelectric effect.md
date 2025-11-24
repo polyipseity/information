@@ -14,7 +14,7 @@ The __photoelectric effect__ is {@{the ejection of [electrons](electron.md) from
 
 A {@{[photocell](photocell.md)}@} can be used to observe the effect. It consists of {@{a [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube}@}. When the photocathode is shone by light, {@{emitted electrons escape to the anode}@}, {@{producing an [electric current](electric%20current.md)}@}. The current is called {@{photoelectric current, a kind of [photocurrent](photocurrent.md)}@}. <!--SR:!2028-07-02,1518,310!2027-11-26,934,230!2026-09-26,975,290!2026-03-25,786,250!2028-08-08,1542,310-->
 
-If the light frequency is lower than the {@{threshold frequency}@}, {@{no photoemission occurs}@}. Otherwise, {@{immediate photoemission occurs}@}. {@{Light [intensity](intensity.md) or duration of exposure}@} does not affect photoemission of a single electron. {@{Light intensity}@} only affects the photoelectric current. <!--SR:!2027-05-27,1273,350!2030-06-16,2093,330!2029-06-12,1740,310!2025-11-27,693,270!2027-08-30,1285,310-->
+If the light frequency is lower than the {@{threshold frequency}@}, {@{no photoemission occurs}@}. Otherwise, {@{immediate photoemission occurs}@}. {@{Light [intensity](intensity.md) or duration of exposure}@} does not affect photoemission of a single electron. {@{Light intensity}@} only affects the photoelectric current. <!--SR:!2027-05-27,1273,350!2030-06-16,2093,330!2029-06-12,1740,310!2033-01-22,2613,290!2027-08-30,1285,310-->
 
 Emitted electrons have {@{different}@} initial kinetic energies. The maximum kinetic energy of an electron {@{increases with light frequency}@} given that the threshold frequency is exceeded. <!--SR:!2026-02-07,882,330!2027-03-01,1077,290-->
 

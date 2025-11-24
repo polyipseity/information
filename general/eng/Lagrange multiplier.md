@@ -182,7 +182,7 @@ We use Lagrange multipliers to {@{find the point of maximum entropy, $\ {\vec {p
 
 > {@{![Lagrange multipliers cause the critical points to occur at saddle points \(Example __5__\).](../../archives/Wikimedia%20Commons/Lagnum1.png)}@}
 >
-> Lagrange multipliers {@{cause the critical points to occur at saddle points \(Example __5__\)}@}. <!--SR:!2025-11-27,187,310!2026-01-25,239,330-->
+> Lagrange multipliers {@{cause the critical points to occur at saddle points \(Example __5__\)}@}. <!--SR:!2028-02-07,802,330!2026-01-25,239,330-->
 
 <!-- markdownlint MD028 -->
 

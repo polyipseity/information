@@ -19,7 +19,7 @@ Any tax will {@{raise cost of production hence shift the supply curve to the lef
 
 ## tobacco taxation
 
-The term specific tax is {@{mostly connected to tobacco taxation}@}. Using specific taxes has proved to be {@{one of the most effective ways to reduce consumption}@}, whereas {@{ad valorem tax which is based on a per cent of product value may lead to substitution to cheaper brands}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-11-27,292,330!2027-06-22,723,330!2027-08-18,754,330-->
+The term specific tax is {@{mostly connected to tobacco taxation}@}. Using specific taxes has proved to be {@{one of the most effective ways to reduce consumption}@}, whereas {@{ad valorem tax which is based on a per cent of product value may lead to substitution to cheaper brands}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-07-19,1330,350!2027-06-22,723,330!2027-08-18,754,330-->
 
 ## references
 
