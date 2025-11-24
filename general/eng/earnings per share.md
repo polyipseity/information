@@ -40,7 +40,7 @@ In the United States, {@{the [Financial Accounting Standards Board](Financial%20
 
 ## calculation
 
-{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares}@} are {@{subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative}@} \(i.e. dividends {@{accumulate as payable if unpaid in the given accounting year}@}\), {@{annual dividends}@} are {@{deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-11-28,253,330!2025-12-10,262,330!2028-03-19,878,330!2026-12-18,523,310!2027-07-22,704,330!2026-01-19,293,330!2027-08-17,726,330!2026-02-13,91,384!2026-02-27,103,384!2026-02-21,98,384-->
+{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares}@} are {@{subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative}@} \(i.e. dividends {@{accumulate as payable if unpaid in the given accounting year}@}\), {@{annual dividends}@} are {@{deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2029-01-22,1151,350!2025-12-10,262,330!2028-03-19,878,330!2026-12-18,523,310!2027-07-22,704,330!2026-01-19,293,330!2027-08-17,726,330!2026-02-13,91,384!2026-02-27,103,384!2026-02-21,98,384-->
 
 __Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2026-11-18,495,310!2028-10-29,1083,350-->
 

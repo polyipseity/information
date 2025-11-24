@@ -101,7 +101,7 @@ Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J
 
 __\#3 - For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_.__
 
-Suppose {@{_x_ is an element of _I_}@}. Then {@{there exists an ideal _J_ ∈ _T_ such that _x_ is in _J_}@}. If {@{_r_ ∈ _R_}@}, then {@{_rx_ is an element of _J_ and hence an element of _I_}@}. Thus, {@{_I_ is an ideal in _R_}@}. <!--SR:!2026-01-01,291,338!2025-11-28,264,338!2026-03-06,344,350!2026-02-19,331,350!2027-11-03,798,330-->
+Suppose {@{_x_ is an element of _I_}@}. Then {@{there exists an ideal _J_ ∈ _T_ such that _x_ is in _J_}@}. If {@{_r_ ∈ _R_}@}, then {@{_rx_ is an element of _J_ and hence an element of _I_}@}. Thus, {@{_I_ is an ideal in _R_}@}. <!--SR:!2026-01-01,291,338!2029-04-14,1233,358!2026-03-06,344,350!2026-02-19,331,350!2027-11-03,798,330-->
 
 Now, we show that {@{_I_ is a _proper_ ideal}@}. An ideal is {@{equal to _R_}@} {@{[if and only if](if%20and%20only%20if.md) it contains 1}@}. \(It is clear that {@{if it is _R_ then it contains 1}@}; on the other hand, if {@{it contains 1 and _r_ is an arbitrary element of _R_}@}, then {@{_r_<!-- markdown separator -->1 = _r_ is an element of the ideal}@}, and so {@{the ideal is equal to _R_}@}.\) So, if {@{_I_ were equal to _R_}@}, then {@{it would contain 1}@}, and that means {@{one of the members of _T_ would contain 1}@} and {@{would thus be equal to _R_ – but _R_ is explicitly excluded from _P_}@}. <!--SR:!2026-02-26,337,350!2025-12-26,286,338!2026-02-24,335,350!2026-03-17,353,350!2028-03-10,843,330!2026-03-10,347,350!2026-02-27,338,350!2026-03-16,352,350!2026-01-21,309,350!2026-03-13,349,350!2025-12-05,14,361-->
 

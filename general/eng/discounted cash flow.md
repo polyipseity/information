@@ -27,7 +27,7 @@ tags:
 >
 > - {@{__Free Cash Flow Projections:__}@} {@{Projections of the amount of Cash produced by a company's business operations}@} after {@{paying for operating expenses and capital expenditures}@}.<sup>[\[1\]](#^ref-1)</sup>
 > - {@{__Discount Rate:__}@} {@{The cost of capital \(Debt and Equity\)}@} for the business. {@{This rate, which acts like an interest rate on future Cash inflows}@}, is used to {@{convert them into current dollar equivalents}@}.
-> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period}@} \({@{typical for a DCF analysis}@} is {@{either a 5-year projection period or, occasionally, a 10-year projection period}@}\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-09,758,330!2027-07-09,638,290!2027-06-19,661,330!2027-07-23,687,330!2027-01-13,498,310!2025-12-15,242,330!2027-08-03,614,407!2025-11-28,117,387!2025-11-29,118,387!2026-02-05,128,390!2026-01-30,123,390!2026-02-06,129,390!2026-02-01,125,390!2026-02-07,130,390-->
+> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period}@} \({@{typical for a DCF analysis}@} is {@{either a 5-year projection period or, occasionally, a 10-year projection period}@}\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-09,758,330!2027-07-09,638,290!2027-06-19,661,330!2027-07-23,687,330!2027-01-13,498,310!2025-12-15,242,330!2027-08-03,614,407!2027-08-08,618,407!2025-11-29,118,387!2026-02-05,128,390!2026-01-30,123,390!2026-02-06,129,390!2026-02-01,125,390!2026-02-07,130,390-->
 
 <!-- markdownlint MD028 -->
 

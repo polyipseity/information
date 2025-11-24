@@ -47,7 +47,7 @@ If {@{$A$ and $B$ are two subsets of $X$}@}, then {@{$${\begin{aligned}\mathbf {
 
 As suggested by the previous example, the indicator function is {@{a useful notational device in [combinatorics](combinatorics.md)}@}. The notation is {@{used in other places as well}@}, for instance in {@{[probability theory](probability%20theory.md)}@}: if {@{_X_ is a [probability space](probability%20space.md) with probability measure $\operatorname {P}$ and _A_ is a [measurable set](measure%20(mathematics).md)}@}, then {@{$\mathbf {1} _{A}$ becomes a [random variable](random%20variable.md) whose [expected value](expected%20value.md) is equal to the probability of _A_}@}: {@{$$\operatorname {E} (\mathbf {1} _{A})=\int _{X}\mathbf {1} _{A}(x)\,d\operatorname {P} =\int _{A}d\operatorname {P} =\operatorname {P} (A).$$}@} This identity is used in {@{a simple proof of [Markov's inequality](Markov's%20inequality.md)}@}. <!--SR:!2028-10-02,1062,350!2026-01-10,288,330!2025-12-21,272,330!2027-09-21,755,330!2026-01-15,292,330!2026-01-02,281,330!2027-07-29,711,330-->
 
-In many cases, such as {@{[order theory](order%20theory.md)}@}, {@{the inverse of the indicator function (annotation: "inverse" means elements of the subset are mapped to 0 instead of 1, and vice versa) may be defined}@}. This is commonly called {@{the [generalized Möbius function](incidence%20algebra.md)}@}, as {@{a generalization of the inverse of the indicator function in elementary [number theory](number%20theory.md)}@}, {@{the [Möbius function](Möbius%20function.md)}@}. \(See paragraph below about {@{the use of the inverse in classical recursion theory}@}.\) <!--SR:!2028-12-23,1129,350!2028-12-20,1127,350!2026-01-04,283,330!2027-03-16,560,310!2025-11-28,255,330!2026-01-06,103,384-->
+In many cases, such as {@{[order theory](order%20theory.md)}@}, {@{the inverse of the indicator function (annotation: "inverse" means elements of the subset are mapped to 0 instead of 1, and vice versa) may be defined}@}. This is commonly called {@{the [generalized Möbius function](incidence%20algebra.md)}@}, as {@{a generalization of the inverse of the indicator function in elementary [number theory](number%20theory.md)}@}, {@{the [Möbius function](Möbius%20function.md)}@}. \(See paragraph below about {@{the use of the inverse in classical recursion theory}@}.\) <!--SR:!2028-12-23,1129,350!2028-12-20,1127,350!2026-01-04,283,330!2027-03-16,560,310!2029-02-07,1167,350!2026-01-06,103,384-->
 
 ## mean, variance and covariance
 
@@ -102,7 +102,7 @@ Although {@{indicator functions are not smooth}@}, they {@{admit [weak derivativ
 
 ## notes
 
-1. a. The [Greek letter](Greek%20alphabet.md) _χ_ appears because ::@:: it is the initial letter of the Greek word χαρακτήρ, which is the ultimate origin of the word _characteristic_. <a id="^ref-a"></a>^ref-a <!--SR:!2026-07-20,416,310!2025-11-28,255,330-->
+1. a. The [Greek letter](Greek%20alphabet.md) _χ_ appears because ::@:: it is the initial letter of the Greek word χαρακτήρ, which is the ultimate origin of the word _characteristic_. <a id="^ref-a"></a>^ref-a <!--SR:!2026-07-20,416,310!2029-01-31,1160,350-->
 2. b. The set of all indicator functions on _X_ can be {@{identified with ${\mathcal {P} }(X)$, the [power set](power%20set.md) of _X_}@}. Consequently, {@{both sets are sometimes denoted by $2^{X}$}@}. This is a special case {@{\( $Y=\{0,1\}=2$\) of the notation $Y^{X}$ for the set of all functions $f:X\to Y$}@}. <a id="^ref-b"></a>^ref-b <!--SR:!2026-01-16,293,330!2025-12-30,279,330!2028-11-06,1092,350-->
 
 ## references

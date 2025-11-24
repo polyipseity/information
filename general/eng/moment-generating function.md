@@ -115,7 +115,7 @@ As an example, consider {@{$X\sim {\text{Chi-Squared} }$ with $k$ degrees of fre
 
 ## relation to other functions
 
-{@{Related to the moment-generating function}@} are {@{a number of other [transforms](integral%20transform.md) that are common in probability theory}@}: (annotation: 3 listed below: {@{characteristic function, cumulant-generating function, probability generating function}@}) <!--SR:!2025-11-28,246,330!2026-01-27,293,330!2027-12-07,810,330-->
+{@{Related to the moment-generating function}@} are {@{a number of other [transforms](integral%20transform.md) that are common in probability theory}@}: (annotation: 3 listed below: {@{characteristic function, cumulant-generating function, probability generating function}@}) <!--SR:!2028-12-21,1119,350!2026-01-27,293,330!2027-12-07,810,330-->
 
 __[Characteristic function](characteristic%20function%20(probability%20theory).md)__
 

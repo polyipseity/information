@@ -47,7 +47,7 @@ The content is in teaching order.
   - ACCT 3010 / objectives ::@:: environment, financial reporting frameworks, standard-setting process <!--SR:!2025-12-06,63,319!2025-12-08,65,319-->
   - ACCT 3010 / approach ::@:: mix both user perspective and preparer perspective <!--SR:!2026-05-09,175,319!2025-12-17,73,319-->
   - ACCT 3010 / class participation
-  - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc. <!--SR:!2025-11-28,63,310!2026-08-24,271,330-->
+  - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc. <!--SR:!2026-08-26,271,330!2026-08-24,271,330-->
     - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development <!--SR:!2025-12-09,66,319!2025-12-08,65,319-->
     - ACCT 3010 / introduction / artificial intelligence ::@:: It _probably_ changes accounting, but would not replace accountants using AIs... \(or maybe not... who knows?\) <!--SR:!2025-12-07,64,319!2025-12-07,64,319-->
 - [questions § week 1 lecture](questions.md#week%201%20lecture)

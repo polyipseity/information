@@ -132,7 +132,7 @@ The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete cat
 > - __Ord__ ::@:: objects: preordered sets <br/> morphisms: monotone-increasing functions <!--SR:!2026-08-07,385,290!2027-12-29,820,330-->
 > - __Mon__ ::@:: objects: monoids <br/> morphisms: monoid homomorphisms <!--SR:!2026-01-20,294,330!2025-12-26,275,330-->
 > - __Grp__ ::@:: objects: groups <br/> morphisms: group homomorphisms <!--SR:!2026-01-17,291,330!2025-12-25,274,330-->
-> - __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms <!--SR:!2025-11-28,253,330!2025-12-22,272,330-->
+> - __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms <!--SR:!2029-01-23,1152,350!2025-12-22,272,330-->
 > - __Ring__ ::@:: objects: rings <br/> morphisms: ring homomorphisms <!--SR:!2025-12-21,271,330!2025-12-23,272,330-->
 > - __Field__ ::@:: objects: fields <br/> morphisms: field homomorphisms <!--SR:!2025-12-25,274,330!2025-12-21,271,330-->
 > - ___R_-Mod__ ::@:: objects: _R_-modules, where _R_ is a ring <br/> morphisms: _R_-module homomorphisms <!--SR:!2025-12-26,275,330!2026-01-20,294,330-->

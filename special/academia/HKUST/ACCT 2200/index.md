@@ -71,7 +71,7 @@ The content is in teaching order.
 - cost classifications ::@:: manufacturing, relevance, timing, traceability, variability <!--SR:!2026-06-27,366,310!2026-02-14,287,330-->
   - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing <!--SR:!2026-02-17,290,330!2026-02-19,292,330-->
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2026-02-12,285,330!2026-02-15,288,330-->
-  - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2025-11-28,209,310-->
+  - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->
   - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2026-02-20,293,330!2026-02-10,283,330-->
   - types of costs / variability ::@:: variable vs. fixed <!--SR:!2026-02-16,289,330!2026-02-09,282,330-->
 - [direct costs](../../../../general/direct%20costs.md) ::@:: convenient and easily traceable to a cost object, e.g. cost of labors and materials to produce a product <!--SR:!2026-02-08,281,330!2026-02-10,283,330-->

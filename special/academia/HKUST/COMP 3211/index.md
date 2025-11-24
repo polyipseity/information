@@ -611,7 +611,7 @@ The content is in teaching order.
     - data: ? → ?
 - report
   - breadth-first search, depth-first search, A\* search \(0\) ::@:: Take note of how states are deduplicated. In the exam, BFS and DFS deduplicates _generated_ states, while A\* search deduplicates _visited_/_expanded_ states \(wording: "ancestors"\). <p> It turns out it is very easy to get this wrong if you try to run the algorithm by hand... For BFS and DFS, it is easy to get the depth wrong, since the depth is based on _generation_ instead of _expansion_. For A\* search, it is troublesome in general, since the same state may be generated multiple times with different _g_ and thus _f_ values, so these generated states are considered distinct. <!--SR:!2026-08-26,400,396!2026-08-03,383,395-->
-  - depth-first search \(–1\) ::@:: Apparently, when expanding a node, the lecture slides generate a single unvisited child instead of generating all children at a time. <!--SR:!2025-11-28,156,428!2028-05-14,900,448-->
+  - depth-first search \(–1\) ::@:: Apparently, when expanding a node, the lecture slides generate a single unvisited child instead of generating all children at a time. <!--SR:!2028-05-25,909,448!2028-05-14,900,448-->
   - DPLL algorithm \(–1\) ::@:: Yeah, you need to follow the exact checking order on the lecture slides... <!--SR:!2028-05-05,891,448!2028-05-10,896,448-->
 - check
   - datetime: 2025-04-10T19:00:00+08:00/2025-04-10T20:30:00+08:00, PT1H30M

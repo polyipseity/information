@@ -59,7 +59,7 @@ tags:
 - a [retraction](section%20(category%20theory).md) ::@:: if a right inverse of _f_ exists, i.e. if there exists a morphism _g_ : _b_ → _a_ with _f_ ∘ _g_ = 1<sub>_b_</sub>. (annotation: intuitively, _f_ inverts _g_ on the class of objects _and_ the object itself) <!--SR:!2026-01-01,279,330!2028-02-15,856,330-->
 - a [section](section%20(category%20theory).md) ::@:: if a left inverse of _f_ exists, i.e. if there exists a morphism _g_ : _b_ → _a_ with _g_ ∘ _f_ = 1<sub>_a_</sub>. (annotation: intuitively, _f_ is invertible (by _g_) on the class of objects _and_ the object itself) <!--SR:!2025-12-17,268,330!2025-11-30,255,330-->
 
-{@{Every retraction is an epimorphism (annotation: $h_1 \circ f = h_2 \circ f \implies h_1 \circ (f \circ g) = h_2 \circ (f \circ g) \implies h_1 = h_2$)}@}, and {@{every section is a monomorphism (annotation: $f \circ h_1 = f \circ h_2 \implies (g \circ f) \circ h_1 = (g \circ f) \circ h_2 \implies h_1 = h_2$)}@}. Furthermore, the following three statements are equivalent: (annotation: the statements are equivalent to {@{isomorphism}@}) <!--SR:!2026-12-13,494,310!2026-12-29,503,310!2025-11-28,252,330-->
+{@{Every retraction is an epimorphism (annotation: $h_1 \circ f = h_2 \circ f \implies h_1 \circ (f \circ g) = h_2 \circ (f \circ g) \implies h_1 = h_2$)}@}, and {@{every section is a monomorphism (annotation: $f \circ h_1 = f \circ h_2 \implies (g \circ f) \circ h_1 = (g \circ f) \circ h_2 \implies h_1 = h_2$)}@}. Furthermore, the following three statements are equivalent: (annotation: the statements are equivalent to {@{isomorphism}@}) <!--SR:!2026-12-13,494,310!2026-12-29,503,310!2029-01-25,1154,350-->
 
 - (annotation: isomorphism & retraction) ::@:: _f_ is a monomorphism and a retraction; (annotation: we just need to additionally prove that $g \circ f = 1_a$: $f \circ g = 1_b \implies f \circ (g \circ f) = f \circ 1_a \implies g \circ f = 1_a$) <!--SR:!2027-11-08,782,330!2027-03-28,557,310-->
 - (annotation: isomorphism & section) ::@:: _f_ is an epimorphism and a section; (annotation: we just need to additionally prove that $f \circ g = 1_b$: $g \circ f = 1_a \implies (f \circ g) \circ f = 1_b \circ f \implies f \circ g = 1_b$) <!--SR:!2025-12-03,256,330!2026-11-12,499,310-->
@@ -73,7 +73,7 @@ tags:
 
 {@{A \(__covariant__\) functor _F_ from a category _C_ to a category _D_}@}, written {@{_F_ : _C_ → _D_}@}, consists of: <!--SR:!2026-01-13,287,330!2025-12-12,263,330-->
 
-- (annotation: covariant functor definition, object) ::@:: for each object _x_ in _C_, an object _F_\(_x_\) in _D_; and <!--SR:!2029-01-13,1144,350!2025-11-28,253,330-->
+- (annotation: covariant functor definition, object) ::@:: for each object _x_ in _C_, an object _F_\(_x_\) in _D_; and <!--SR:!2029-01-13,1144,350!2029-01-24,1153,350-->
 - (annotation: covariant functor definition, morphism) ::@:: for each morphism _f_ : _x_ → _y_ in _C_, a morphism _F_\(_f_\) : _F_\(_x_\) → _F_\(_y_\) in _D_, <!--SR:!2026-01-04,281,330!2026-01-13,289,330-->
 - (annotation: covariant functor definition, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-12-17,250,329!2026-03-17,342,349-->
 

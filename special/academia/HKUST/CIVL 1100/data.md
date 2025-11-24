@@ -65,7 +65,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 - description ::@:: skyscraper in the central business district of Beijing, China <!--SR:!2026-02-12,475,332!2031-06-06,2106,407-->
 - height ::@:: roof: 234 m <!--SR:!2028-02-12,896,260!2026-03-08,556,397-->
 - image ::@:: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2028-05-24,1161,380!2026-01-09,498,400-->
-- shape ::@:: big pants <!--SR:!2025-11-28,469,385!2025-12-25,483,400-->
+- shape ::@:: big pants <!--SR:!2032-09-01,2469,405!2025-12-25,483,400-->
 
 ## CN Tower
 
@@ -189,7 +189,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
-- description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2025-11-28,471,390-->
+- description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2032-10-17,2515,410-->
 - height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2026-03-19,421,301!2027-12-02,1051,350-->
 - image ::@:: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2028-05-09,1149,380!2025-12-14,472,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->::@:: concrete–steel composite <!--SR:!2027-02-14,599,281!2026-02-24,538,401-->

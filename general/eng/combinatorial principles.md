@@ -51,7 +51,7 @@ Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub
 
 - see: ::@:: [double counting (proof technique)](double%20counting%20(proof%20technique).md) <!--SR:!2025-12-15,24,386!2025-12-17,26,386-->
 
-{@{Double counting}@} is {@{a technique}@} that {@{equates two expressions that count the size of a set in two ways}@}. <!--SR:!2028-06-22,967,330!2026-03-26,120,390!2025-11-28,25,370-->
+{@{Double counting}@} is {@{a technique}@} that {@{equates two expressions that count the size of a set in two ways}@}. <!--SR:!2028-06-22,967,330!2026-03-26,120,390!2026-04-02,125,390-->
 
 ## pigeonhole principle
 

@@ -64,7 +64,7 @@ The content is in teaching order.
   - programming paradigm / common ::@:: concurrent, dependently-typed, functional, imperative, logic, object-oriented, parallel, etc. <!--SR:!2025-11-29,58,310!2025-12-10,67,310-->
 - [imperative programming](../../../../general/imperative%20programming.md) ::@:: It is a programming paradigm of software that uses statements that change a program's state. <!--SR:!2025-12-04,62,310!2025-12-03,61,310-->
   - imperative programming / important elements ::@:: control structures, mutation, etc. <!--SR:!2025-12-10,67,310!2025-12-03,61,310-->
-  - imperative programming / physical correspondence ::@:: It has strong correspondence with physical entities. <p> control structure ↔ jump <br/> field ↔ memory cell <br/> variable ↔ register <br/> variable assignment ↔ store \(instruction\) <br/> variable dereferencing ↔ load \(instruction\) <br/> ... <!--SR:!2025-12-06,63,310!2025-11-28,57,310-->
+  - imperative programming / physical correspondence ::@:: It has strong correspondence with physical entities. <p> control structure ↔ jump <br/> field ↔ memory cell <br/> variable ↔ register <br/> variable assignment ↔ store \(instruction\) <br/> variable dereferencing ↔ load \(instruction\) <br/> ... <!--SR:!2025-12-06,63,310!2026-08-01,246,330-->
 - [von Neumann architecture](../../../../general/von%20Neumann%20architecture.md) ::@:: control unit, processing unit, memory, storage, input/output mechanisms <!--SR:!2026-03-17,126,290!2025-12-05,63,310-->
   - von Neumann architecture / von Neumann bottleneck ::@:: The use of the same bus to fetch instructions and data leads to the von Neumann bottleneck, the limited throughput \(data transfer rate\) between the central processing unit \(CPU\) and memory compared to the amount of memory. This seriously limits the effective processing speed when the CPU is required to perform minimal processing on large amounts of data. The CPU is continually forced to wait for needed data to move to or from memory. <!--SR:!2025-12-03,61,310!2025-12-09,66,310-->
     - von Neumann architecture / von Neumann bottleneck / trend ::@:: Since CPU speed and memory size have increased much faster than the throughput between them, the bottleneck has become more of a problem, a problem whose severity increases with every new generation of CPU. <!--SR:!2025-12-04,62,310!2025-11-29,58,310-->
@@ -72,15 +72,15 @@ The content is in teaching order.
   - theory / for programming ::@:: data type\(s\), operation\(s\) on data type\(s\), law\(s\) on data and operations <br/> usually no mutations \(but possible with some difficulty\) <!--SR:!2025-12-09,66,310!2025-12-06,63,310-->
   - theory / mutation ::@:: A theory without mutation is usually much less complex than one with mutation. Mutation makes theories hard to understand. So most theories do not admit mutation. <p> For programming, this leads to _functional programming_. <!--SR:!2025-11-29,58,310!2025-12-09,66,310-->
 - [functional programming](../../../../general/functional%20programming.md) ::@:: It is a programming paradigm where programs are constructed by applying and composing functions. <!--SR:!2025-11-29,58,310!2025-12-03,61,310-->
-  - functional programming / missing elements ::@:: imperative control structures, no mutations \(__this course__: In a _restricted sense_, these elements are strictly _forbidden_.\) <!--SR:!2025-11-28,57,310!2025-12-08,65,310-->
+  - functional programming / missing elements ::@:: imperative control structures, no mutations \(__this course__: In a _restricted sense_, these elements are strictly _forbidden_.\) <!--SR:!2026-08-03,248,330!2025-12-08,65,310-->
   - functional programming / important elements ::@:: functions \(as first-class citizens\), immutable data types \(__this course__: In a _wide sense_, these elements are _emphasized_ on, but unmentioned elements \(e.g. above\) are not strictly forbidden.\) <!--SR:!2026-05-04,171,310!2025-12-07,64,310-->
-  - functional programming / function ::@:: As first-class citizens, they can be composed, definable anywhere, passed as parameters, etc. <!--SR:!2025-11-28,57,310!2025-11-29,58,310-->
+  - functional programming / function ::@:: As first-class citizens, they can be composed, definable anywhere, passed as parameters, etc. <!--SR:!2026-08-04,249,330!2025-11-29,58,310-->
   - functional programming / examples ::@:: restricted: FP, Pure Lisp, XPath, XQuery, XSLT, etc. <br/> wider: Clojure, F\#, Haskell, Lips, Ocaml, Racket, SML, Scala, Scheme, etc. <!--SR:!2025-12-07,64,310!2025-12-03,61,310-->
 - COMP 3031
   - COMP 3031 / recommended books
 - [Scala](../../../../general/Scala%20(programming%20language).md) ::@:: It is a strongly statically typed high-level general-purpose programming language that supports both object-oriented programming and functional programming. <p> \(__this course__: Use Scala 3.\) <!--SR:!2025-11-29,58,310!2025-12-07,64,310-->
   - Scala / Scala 3: [Scala 3](Scala%203.md)
-- [programming language](../../../../general/programming%20language.md) ::@:: It is an artificial language for expressing computer programs. <!--SR:!2025-11-28,57,310!2025-12-08,65,310-->
+- [programming language](../../../../general/programming%20language.md) ::@:: It is an artificial language for expressing computer programs. <!--SR:!2026-08-05,250,330!2025-12-08,65,310-->
   - programming language / elements ::@:: primitive expressions, composition of expressions, abstraction of expressions \(giving names to expressions\) <!--SR:!2025-12-04,62,310!2025-12-04,62,310-->
 - [read–eval–print loop](../../../../general/read–eval–print%20loop.md) \(REPL\) ::@:: It is a simple interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise. <!--SR:!2026-05-05,171,310!2025-12-05,63,310-->
 - Scala
@@ -88,9 +88,9 @@ The content is in teaching order.
     - [§ primitive types](Scala%203.md#primitive%20types): `Boolean`, `Int`, `Double`
     - [§ expressions](Scala%203.md#expressions): expressions, arithmetic expressions
     - [§ definitions](Scala%203.md#definitions): `def`
-- [rewriting](../../../../general/rewriting.md) ::@:: It covers a wide range of methods of replacing subterms of a formula with other terms. <!--SR:!2025-11-29,58,310!2025-11-28,57,310-->
+- [rewriting](../../../../general/rewriting.md) ::@:: It covers a wide range of methods of replacing subterms of a formula with other terms. <!--SR:!2025-11-29,58,310!2026-08-04,249,330-->
   - rewriting / substitution model ::@:: It is a way to _evaluate_ expressions _without side effects_. To evaluate a _function call_, each parameter to the function is evaluated from left to right. Then, replace the function call with the _function expression_, while _substituting_ each occurrence of the parameter name with the parameter value. <p> It is formalized in lambda calculus. <!--SR:!2025-12-04,62,310!2025-11-29,58,310-->
-- [divergence](../../../../general/divergence%20(computer%20science).md) ::@:: A computation is said to __diverge__ if it does not terminate or terminates in an exceptional state. Otherwise it is said to __converge__. <!--SR:!2025-11-28,57,310!2025-11-29,58,310-->
+- [divergence](../../../../general/divergence%20(computer%20science).md) ::@:: A computation is said to __diverge__ if it does not terminate or terminates in an exceptional state. Otherwise it is said to __converge__. <!--SR:!2026-08-06,251,330!2025-11-29,58,310-->
   - divergence / example ::@:: Scala 3: `def loop: Int = loop; loop` <!--SR:!2025-12-09,66,310!2025-12-06,63,310-->
 - [evaluation strategy](../../../../general/evaluation%20strategy.md) ::@:: It is a set of rules for evaluating expressions. <!--SR:!2025-11-29,58,310!2025-12-05,63,310-->
   - evaluation strategy / Scala 3 ::@:: 2 major evaluation strategies: call by name \(e.g., `def`, `=> <type>`\), call by value \(e.g., `val`\) <!--SR:!2025-12-06,63,310!2025-12-08,65,310-->
@@ -108,8 +108,8 @@ The content is in teaching order.
 - Scala
   - Scala / Scala 3
     - [§ scoping](Scala%203.md#scoping): scope creation, lexical scoping, shadowing
-- [scope](../../../../general/scope%20(computer%20science).md) ::@:: It of a name binding \(an association of a name to an entity, such as a variable\) is the part of a program where the name binding is valid; that is, where the name can be used to refer to the entity. <!--SR:!2025-11-28,57,310!2025-12-03,61,310-->
-  - scope / motivation ::@:: It helps to avoid _namespace pollution_. <!--SR:!2025-11-28,57,310!2025-11-28,57,310-->
+- [scope](../../../../general/scope%20(computer%20science).md) ::@:: It of a name binding \(an association of a name to an entity, such as a variable\) is the part of a program where the name binding is valid; that is, where the name can be used to refer to the entity. <!--SR:!2026-08-03,248,330!2025-12-03,61,310-->
+  - scope / motivation ::@:: It helps to avoid _namespace pollution_. <!--SR:!2026-08-06,251,330!2026-08-02,247,330-->
   - scope / lexical scoping ::@:: With it, a name always refers to its lexical context. This is a property of the program text and is made independent of the runtime call stack by the language implementation. <!--SR:!2025-12-06,63,310!2025-12-05,63,310-->
 - Scala
   - Scala / Scala 3

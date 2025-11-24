@@ -39,7 +39,7 @@ Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be
 
 ## table of values
 
-Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2028-04-02,939,330!2025-11-28,187,250-->
+Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2028-04-02,939,330!2027-09-15,656,270-->
 
 | ___k___\\___n___ | __0__ | __1__ | __2__ | __3__ | __4__ | __5__ | __6__ | __7__ | __8__ | __9__ | __10__ |
 | ----------------:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| ------:|
@@ -55,7 +55,7 @@ Below is {@{a [triangular array](triangular%20array.md) of values for the Stirli
 | __9__            | 0     | 1     | 255   | 3025  | 7770  | 6951  | 2646  | 462   | 36    | 1     |        |
 | __10__           | 0     | 1     | 511   | 9330  | 34105 | 42525 | 22827 | 5880  | 750   | 45    | 1      |
 
-As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2029-05-08,1283,350!2025-11-28,304,330-->
+As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2029-05-08,1283,350!2029-09-12,1384,350-->
 
 ## properties
 
@@ -65,7 +65,7 @@ Stirling numbers of the second kind {@{obey the recurrence relation $$\left\{ {n
 
 For instance, the number 25 in column _k_ = 3 and row _n_ = 5 is given by 25 = 7 + (3×6), where 7 is the number above and to the left of 25, 6 is the number above 25 and 3 is the column containing the 6.
 
-To prove this recurrence, observe that {@{a partition of the ⁠$n+1$⁠ objects into _k_ nonempty subsets either contains the ⁠$(n+1)$⁠-th object as a singleton or it does not}@}. The number of ways that the singleton is {@{one of the subsets is given by $$\left\{ {n \atop k-1}\right\}$$ since we must partition the remaining _n_ objects into the available ⁠$k-1$⁠ subsets}@}. In the other case {@{the ⁠$(n+1)$⁠-th object belongs to a subset containing other objects}@}. The number of ways is {@{given by $$k\left\{ {n \atop k}\right\}$$}@} since {@{we partition all objects other than the ⁠$(n+1)$⁠-th into _k_ subsets, and then we are left with _k_ choices for inserting object ⁠$n+1$}@}⁠. {@{Summing these two values}@} gives the desired result. <!--SR:!2025-12-10,314,330!2027-06-11,653,310!2025-12-10,314,330!2025-11-28,302,330!2028-08-17,996,330!2027-11-15,849,330-->
+To prove this recurrence, observe that {@{a partition of the ⁠$n+1$⁠ objects into _k_ nonempty subsets either contains the ⁠$(n+1)$⁠-th object as a singleton or it does not}@}. The number of ways that the singleton is {@{one of the subsets is given by $$\left\{ {n \atop k-1}\right\}$$ since we must partition the remaining _n_ objects into the available ⁠$k-1$⁠ subsets}@}. In the other case {@{the ⁠$(n+1)$⁠-th object belongs to a subset containing other objects}@}. The number of ways is {@{given by $$k\left\{ {n \atop k}\right\}$$}@} since {@{we partition all objects other than the ⁠$(n+1)$⁠-th into _k_ subsets, and then we are left with _k_ choices for inserting object ⁠$n+1$}@}⁠. {@{Summing these two values}@} gives the desired result. <!--SR:!2025-12-10,314,330!2027-06-11,653,310!2025-12-10,314,330!2029-08-31,1372,350!2028-08-17,996,330!2027-11-15,849,330-->
 
 Another recurrence relation is {@{given by $$\left\lbrace {\begin{matrix}n\\k\end{matrix} }\right\rbrace ={\frac {k^{n} }{k!} }-\sum _{r=0}^{k-1}{\frac {\left\lbrace {\begin{matrix}n\\r\end{matrix} }\right\rbrace }{(k-r)!} }\,,$$}@} which follows from evaluating $\sum _{r=0}^{n}\left\{ {n \atop r}\right\}(x)_{r}=x^{n}$ at $x=k$. (annotation: The details are {@{$$\begin{aligned} \sum_{r = 0}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r & = k^n \\ \begin{Bmatrix} n \\ k \end{Bmatrix} (k)_k & = k^n - \sum_{r = 0}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r - \sum_{r = k + 1}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r \\ \begin{Bmatrix} n \\ k \end{Bmatrix} k! & = k^n - \sum_{r = 0}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r && (k)_r = 0\text{ for }r > k \\ \begin{Bmatrix} n \\ k \end{Bmatrix} & = \frac {k^n} {k!} - \sum_{r = 0}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} \frac 1 {(k - r)!} \,. \end{aligned}$$}@}) <!--SR:!2026-05-02,311,230!2025-12-12,261,270-->
 
@@ -121,7 +121,7 @@ For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of th
 
 If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-12-26,196,250!2026-04-01,314,250-->
 
-{@{A uniformly valid approximation}@} also exists: for {@{all _k_ such that 1 < _k_ < _n_}@}, one has $$\left\{ {n \atop k}\right\}\sim {\sqrt {\frac {v-1}{v(1-G)} } }\left({\frac {v-1}{v-G} }\right)^{n-k}{\frac {k^{n} }{n^{k} } }e^{k(1-G)}\left({n \atop k}\right),$$ where {@{$v=n/k$, and $G\in (0,1)$ is the unique solution to $G=ve^{G-v}$}@}.<sup>[\[14\]](#^ref-14)</sup> Relative error is {@{bounded by about $0.066/n$}@}. <!--SR:!2027-10-02,812,330!2025-11-28,303,330!2026-02-17,210,250!2026-08-06,439,270-->
+{@{A uniformly valid approximation}@} also exists: for {@{all _k_ such that 1 < _k_ < _n_}@}, one has $$\left\{ {n \atop k}\right\}\sim {\sqrt {\frac {v-1}{v(1-G)} } }\left({\frac {v-1}{v-G} }\right)^{n-k}{\frac {k^{n} }{n^{k} } }e^{k(1-G)}\left({n \atop k}\right),$$ where {@{$v=n/k$, and $G\in (0,1)$ is the unique solution to $G=ve^{G-v}$}@}.<sup>[\[14\]](#^ref-14)</sup> Relative error is {@{bounded by about $0.066/n$}@}. <!--SR:!2027-10-02,812,330!2029-09-13,1385,350!2026-02-17,210,250!2026-08-06,439,270-->
 
 ### unimodality
 

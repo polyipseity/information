@@ -15,7 +15,7 @@ tags:
 
 ## effect on supply curve
 
-Any tax will {@{raise cost of production hence shift the supply curve to the left}@}. In {@{the case of specific tax}@}, the shift will be {@{purely parallel because the amount of tax is the same at all prices}@}. That amount is illustrated in {@{the distance between the supply curve with taxation and the one without taxation}@}. Specific tax are {@{indirect tax}@}. This will {@{raise the supply curve vertically by the amount of the tax}@}, and new curve will {@{be parallel to the original curve}@}. <!--SR:!2029-06-16,1304,350!2029-03-04,1222,350!2029-06-11,1300,350!2025-11-28,293,330!2028-12-17,1162,350!2028-12-15,1161,350!2028-12-09,1157,350-->
+Any tax will {@{raise cost of production hence shift the supply curve to the left}@}. In {@{the case of specific tax}@}, the shift will be {@{purely parallel because the amount of tax is the same at all prices}@}. That amount is illustrated in {@{the distance between the supply curve with taxation and the one without taxation}@}. Specific tax are {@{indirect tax}@}. This will {@{raise the supply curve vertically by the amount of the tax}@}, and new curve will {@{be parallel to the original curve}@}. <!--SR:!2029-06-16,1304,350!2029-03-04,1222,350!2029-06-11,1300,350!2029-07-24,1334,350!2028-12-17,1162,350!2028-12-15,1161,350!2028-12-09,1157,350-->
 
 ## tobacco taxation
 

@@ -21,7 +21,7 @@ If {@{the [cost function](cost%20curve.md) $C$ is continuous and [differentiable
 
 > {@{![Short Run Marginal Cost](../../archives/Wikimedia%20Commons/Short%20run%20marginal%20cost.png)}@}
 >
-> {@{Short Run Marginal Cost}@} <!--SR:!2026-03-19,329,352!2025-11-28,237,332-->
+> {@{Short Run Marginal Cost}@} <!--SR:!2026-03-19,329,352!2028-11-15,1083,352-->
 
 {@{Short run marginal cost}@} is {@{the change in total cost when an additional output is produced in the short run and some costs are fixed}@}. On the right side of the page, the short-run marginal cost forms {@{a U-shape, with quantity on the x-axis and cost per unit on the y-axis}@}. <!--SR:!2026-02-27,313,352!2025-12-22,256,334!2028-04-12,911,352-->
 

@@ -630,8 +630,8 @@ The content is in teaching order.
   - John Coltrane / capabilities ::@:: composer, tensor saxophone player <!--SR:!2025-12-08,160,438!2025-11-30,153,438-->
   - John Coltrane / effects ::@:: Most influential jazz artist on the saxophone. He pushed improvisation and jazz harmony to new extremes. <!--SR:!2025-12-05,157,438!2025-12-02,155,438-->
   - John Coltrane / early life ::@:: He missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957. <!--SR:!2025-12-11,163,441!2025-12-06,158,438-->
-  - John Coltrane / periods ::@:: early: hard bop, sheets of sound <br/> middle: modal jazz <br/> late: experimental jazz, free jazz <!--SR:!2028-05-17,902,458!2025-11-28,152,441-->
-- [sheets of sound](../../../../general/sheets%20of%20sound.md) ::@:: It was a term coined in 1958 by DownBeat magazine jazz critic Ira Gitler to describe the new, unique improvisational style of John Coltrane. <!--SR:!2028-05-10,896,458!2025-11-28,152,441-->
+  - John Coltrane / periods ::@:: early: hard bop, sheets of sound <br/> middle: modal jazz <br/> late: experimental jazz, free jazz <!--SR:!2028-05-17,902,458!2028-06-02,917,461-->
+- [sheets of sound](../../../../general/sheets%20of%20sound.md) ::@:: It was a term coined in 1958 by DownBeat magazine jazz critic Ira Gitler to describe the new, unique improvisational style of John Coltrane. <!--SR:!2028-05-10,896,458!2028-05-24,908,461-->
   - sheets of sound / detail ::@:: John Coltrane could improvise vertically by traversing all harmonies in the progression. <!--SR:!2025-11-30,153,438!2025-12-02,155,438-->
 - John Coltrane
   - John Coltrane / & Miles Davis ::@:: He joined Miles Davis's band in 1955. He played in all Prestige records with him. His sheets of sound contrasts with Miles playing lyrically. <p> "Blue Train" \(1957\) — John Coltrane, Miles Davis <!--SR:!2025-12-06,158,438!2025-12-08,160,438-->
@@ -650,7 +650,7 @@ The content is in teaching order.
   - local: 2025-04-14T21:30:00+08:00/2025-04-14T22:50:00+08:00, PT1H20M
 - [free jazz](../../../../general/free%20jazz.md) ::@:: It is a style of avant-garde jazz or an experimental approach to jazz improvisation that developed in the late 1950s and early 1960s, when musicians attempted to change or break down jazz conventions, such as regular tempos, tones, and chord changes. <!--SR:!2028-04-27,885,458!2028-04-14,874,458-->
   - free jazz / motivation ::@:: Musicians during this period believed that the bebop and modal jazz that had been played before them was too limiting, and became preoccupied with creating something new. <!--SR:!2028-04-28,886,458!2025-12-05,157,438-->
-  - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2025-12-04,157,438!2025-11-28,152,442-->
+  - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2025-12-04,157,438!2028-05-28,912,462-->
   - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2025-11-30,153,438!2025-12-01,154,438-->
 - [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2025-12-09,161,441!2025-12-06,158,438-->
 - [_The Shape of Jazz to Come_](../../../../general/The%20Shape%20of%20Jazz%20to%20Come.md) ::@:: It is the third album by the jazz musician Ornette Coleman. Released on Atlantic Records in 1959, it was his debut on the label and his first album featuring the working quartet including himself, trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. <!--SR:!2028-05-04,890,458!2028-04-29,887,458-->
@@ -680,18 +680,18 @@ The content is in teaching order.
   - bass guitar / Jaco Pastorius ::@:: It was definitely a rhythms section instrument. <p> Then in the mid-1970s, Jaco Pastorius changed it forever... <!--SR:!2025-12-05,158,441!2025-12-08,160,438-->
 - [Jaco Pastorius](../../../../general/Jaco%20Pastorius.md) \(1951–1987\) ::@:: He was from Florida. He was killed in a fight trying to get into a club. <p> He was fully established as sole band bass player for the recording of _Heavy Weather_ \(Columbia, 1977\), which contained the Grammy-nominated hit "Birdland". <!--SR:!2025-12-08,160,438!2028-05-21,906,458-->
   - Jaco Pastorius / works ::@:: "Donna Lee" — Jaco Pastorius <br/> _Heavy Weather_ \(1977\) — Weather Report <!--SR:!2025-12-09,161,441!2028-04-25,883,458-->
-- [Mahavishnu Orchestra](../../../../general/Mahavishnu%20Orchestra.md) ::@:: It was a jazz fusion band formed in New York City in 1971, led by English guitarist John McLaughlin. <p> It made guitar a rock fusion instrument. <!--SR:!2025-12-09,161,438!2025-11-28,152,441-->
-  - Mahavishnu Orchestra / works ::@:: "Birds of Fire" \(1973\) — Mahavishnu Orchestra <!--SR:!2025-12-10,162,438!2025-11-28,152,441-->
+- [Mahavishnu Orchestra](../../../../general/Mahavishnu%20Orchestra.md) ::@:: It was a jazz fusion band formed in New York City in 1971, led by English guitarist John McLaughlin. <p> It made guitar a rock fusion instrument. <!--SR:!2025-12-09,161,438!2028-05-27,911,461-->
+  - Mahavishnu Orchestra / works ::@:: "Birds of Fire" \(1973\) — Mahavishnu Orchestra <!--SR:!2025-12-10,162,438!2028-05-25,909,461-->
 - assignment: \(none\)
 
 ## week 15 lecture
 
 - datetime: 2025-04-21T08:30:00-05:00/2025-04-21T09:50:00-05:00, PT1H20M
   - local: 2025-04-21T21:30:00+08:00/2025-04-21T22:50:00+08:00, PT1H20M
-- [Nat King Cole](../../../../general/Nat%20King%20Cole.md) \(1919–1965\) ::@:: He was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts. <p> He popularized the piano trio: bass, guitar, and piano. <!--SR:!2025-11-28,152,442!2025-12-02,155,441-->
+- [Nat King Cole](../../../../general/Nat%20King%20Cole.md) \(1919–1965\) ::@:: He was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts. <p> He popularized the piano trio: bass, guitar, and piano. <!--SR:!2028-05-31,915,462!2025-12-02,155,441-->
   - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2025-12-04,157,442!2028-04-23,882,458-->
   - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\) <!--SR:!2028-05-09,895,458!2025-12-05,158,441-->
-  - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2025-11-28,152,441!2025-12-03,156,441-->
+  - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2027-09-29,670,441!2025-12-03,156,441-->
   - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2026-01-18,169,455!2026-01-24,175,455-->
 - [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2025-12-02,155,441!2025-12-04,156,438-->
   - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2028-05-16,901,458!2025-12-06,158,438-->
@@ -711,7 +711,7 @@ The content is in teaching order.
 - [Jimmy Smith](../../../../general/Jimmy%20Smith%20(musician).md) \(1928–2005\) ::@:: He was an American jazz musician who helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music. <!--SR:!2028-05-15,900,458!2025-12-10,162,441-->
   - Jimmy Smith / works ::@:: "Back At The Chicken Shack" \(1963\) — Jimmy Smith, Phil Upchurch <!--SR:!2028-04-16,876,458!2025-12-01,154,438-->
 - [Shirley Scott](../../../../general/Shirley%20Scott.md) \(1934–2002\) ::@:: She was an American jazz organist. Her music was noted for its mixture of bebop, blues, and gospel elements. She was known by the nickname "Queen of the Organ". <p> She had 40 records as a leader. <!--SR:!2028-05-12,898,458!2025-12-05,158,442-->
-  - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio <!--SR:!2028-05-14,900,458!2025-11-28,152,442-->
+  - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio <!--SR:!2028-05-14,900,458!2028-05-29,913,462-->
 - [Joey DeFrancesco](../../../../general/Joey%20DeFrancesco.md) \(1971–2022\) ::@:: He was a virtuosic organist. He got his start with Davis Miles at 17. <p> He had 30 records as a leader. he died of heart attack at 51. <!--SR:!2025-12-01,154,438!2025-11-30,153,438-->
   - Joey DeFrancesco / works ::@:: "Fly me to the Moon" \(1999\) — Joey DeFrancesco Trio <!--SR:!2025-12-06,158,438!2025-12-04,157,438-->
 - Hammond organ
@@ -725,7 +725,7 @@ The content is in teaching order.
 - jazz
   - jazz / 1980s ::@:: After the jazz fusion era, many jazz musicians returned to traditional bebop, creating neo-bop or post-bop, etc. <!--SR:!2028-04-19,878,458!2025-12-04,157,442-->
 - [neo-bop](../../../../general/neo-bop.md) ::@:: It refers to a style of jazz that gained popularity in the 1980s among musicians who found greater aesthetic affinity for acoustically based, swinging, melodic forms of jazz than for free jazz and jazz fusion that had gained prominence in the 1960s and 1970s. <!--SR:!2027-07-24,648,441!2025-12-06,158,438-->
-- [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages. <!--SR:!2028-04-21,880,458!2025-11-28,152,441-->
+- [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages. <!--SR:!2028-04-21,880,458!2028-05-26,910,461-->
 - neo-bop
   - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions. <!--SR:!2025-12-04,156,438!2025-12-05,158,441-->
   - neo-bop / criticisms ::@:: Miles Davis hated it. He thought the music was moving backwards. <!--SR:!2028-04-30,887,458!2025-12-05,158,442-->
@@ -759,8 +759,8 @@ The content is in teaching order.
   - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2028-05-02,889,458!2025-12-26,163,454-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2025-12-01,154,441!2025-12-09,161,438-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2025-12-03,156,438!2025-12-08,160,438-->
-- [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2025-11-28,152,442!2028-05-22,907,462-->
-  - Corey Henry / works ::@:: "Billie Jean" \(2016\) — Cory Henry feat. Jacob Collier: originally a 1983 single by Michael Jackson <!--SR:!2025-11-28,152,442!2025-12-10,162,441-->
+- [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2028-05-30,914,462!2028-05-22,907,462-->
+  - Corey Henry / works ::@:: "Billie Jean" \(2016\) — Cory Henry feat. Jacob Collier: originally a 1983 single by Michael Jackson <!--SR:!2028-06-01,916,462!2025-12-10,162,441-->
 - [jazz rap](../../../../general/jazz%20rap.md) ::@:: It is a fusion of jazz and hip hop music, as well as an alternative hip-hop subgenre, that developed in the late 1980s and early 1990s. <!--SR:!2025-11-29,152,438!2025-12-02,155,441-->
   - jazz rap / works ::@:: "For Free?" \(2015\) — Kendrick Lamar: lots of profanity <!--SR:!2025-12-07,159,438!2025-12-09,161,441-->
 - assignment: \(none\)

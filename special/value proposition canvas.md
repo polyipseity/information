@@ -259,7 +259,7 @@ conclusion: make progress
 - _(begin)_→::@::←hypothesis: extract hypotheses <!--SR:!2029-11-04,1534,329!2029-03-30,1422,367-->
 - hypothesis: extract hypotheses→::@::←hypothesis: prioritize hypotheses <!--SR:!2030-05-24,1756,369!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→::@::←test: design tests <!--SR:!2026-07-28,572,309!2026-08-01,542,270-->
-- test: design tests→::@::←test: prioritize tests <!--SR:!2028-10-26,1201,329!2025-11-28,450,310-->
+- test: design tests→::@::←test: prioritize tests <!--SR:!2028-10-26,1201,329!2031-03-13,1931,330-->
 - test: prioritize tests→::@::←test: run tests <!--SR:!2026-12-27,705,329!2026-04-24,515,310-->
 - test: run tests→::@::←conclusion: capture findings <!--SR:!2028-09-16,1129,289!2025-11-30,404,309-->
 - conclusion: capture findings→::@::←conclusion: make progress <!--SR:!2027-01-14,704,329!2030-08-10,1728,329-->

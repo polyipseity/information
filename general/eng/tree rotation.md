@@ -13,7 +13,7 @@ tags:
 >
 > {@{Generic tree rotations.}@} <!--SR:!2025-12-14,275,330!2025-12-19,278,330-->
 
-In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2029-01-17,1158,350!2027-04-08,635,330!2025-12-31,287,330!2029-01-03,1146,350!2025-11-28,262,330!2028-01-11,800,330-->
+In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2029-01-17,1158,350!2027-04-08,635,330!2025-12-31,287,330!2029-01-03,1146,350!2029-03-07,1195,350!2028-01-11,800,330-->
 
 There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2028-08-27,1043,350!2026-05-31,393,310!2029-02-08,1174,350!2026-06-07,353,290-->
 
@@ -122,7 +122,7 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 
 > {@{![Pictorial description of how rotations cause rebalancing in an AVL tree.](../../archives/Wikimedia%20Commons/Tree%20Rebalancing.gif)}@}
 >
-> {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2026-12-15,528,310!2025-11-28,222,270-->
+> {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2026-12-15,528,310!2028-03-15,838,290-->
 
 A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2027-11-24,816,330!2025-12-16,276,330!2025-12-03,266,330!2025-12-25,283,330!2029-01-11,1153,350!2025-12-24,282,330!2025-12-23,281,330-->
 
