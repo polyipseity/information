@@ -51,7 +51,7 @@ The content is in teaching order.
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
   - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::@:: "The purpose of a business is to create and keep a customer." <!--SR:!2026-09-02,634,335!2026-05-10,562,355-->
-  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2026-07-15,597,335!2025-11-30,395,315-->
+  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2026-07-15,597,335!2030-08-15,1719,335-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
   - [§ customer validation](../../../../general/customer%20development.md#customer%20validation)
@@ -143,7 +143,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2025-11-30,65,155!2028-09-13,1158,315-->
+  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2026-04-24,145,175!2028-09-13,1158,315-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture

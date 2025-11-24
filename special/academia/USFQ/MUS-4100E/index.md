@@ -627,12 +627,12 @@ The content is in teaching order.
 - datetime: 2025-04-09T08:30:00-05:00/2025-04-09T09:50:00-05:00, PT1H20M
   - local: 2025-04-09T21:30:00+08:00/2025-04-09T22:50:00+08:00, PT1H20M
 - [John Coltrane](../../../../general/John%20Coltrane.md) \(1926–1967\) ::@:: He was an American jazz saxophonist, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-12-07,159,438!2025-12-04,157,442-->
-  - John Coltrane / capabilities ::@:: composer, tensor saxophone player <!--SR:!2025-12-08,160,438!2025-11-30,153,438-->
+  - John Coltrane / capabilities ::@:: composer, tensor saxophone player <!--SR:!2025-12-08,160,438!2027-10-01,670,438-->
   - John Coltrane / effects ::@:: Most influential jazz artist on the saxophone. He pushed improvisation and jazz harmony to new extremes. <!--SR:!2025-12-05,157,438!2025-12-02,155,438-->
   - John Coltrane / early life ::@:: He missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957. <!--SR:!2025-12-11,163,441!2025-12-06,158,438-->
   - John Coltrane / periods ::@:: early: hard bop, sheets of sound <br/> middle: modal jazz <br/> late: experimental jazz, free jazz <!--SR:!2028-05-17,902,458!2028-06-02,917,461-->
 - [sheets of sound](../../../../general/sheets%20of%20sound.md) ::@:: It was a term coined in 1958 by DownBeat magazine jazz critic Ira Gitler to describe the new, unique improvisational style of John Coltrane. <!--SR:!2028-05-10,896,458!2028-05-24,908,461-->
-  - sheets of sound / detail ::@:: John Coltrane could improvise vertically by traversing all harmonies in the progression. <!--SR:!2025-11-30,153,438!2025-12-02,155,438-->
+  - sheets of sound / detail ::@:: John Coltrane could improvise vertically by traversing all harmonies in the progression. <!--SR:!2028-06-04,917,458!2025-12-02,155,438-->
 - John Coltrane
   - John Coltrane / & Miles Davis ::@:: He joined Miles Davis's band in 1955. He played in all Prestige records with him. His sheets of sound contrasts with Miles playing lyrically. <p> "Blue Train" \(1957\) — John Coltrane, Miles Davis <!--SR:!2025-12-06,158,438!2025-12-08,160,438-->
 - [_Giant Steps_](../../../../general/Giant%20Steps.md) ::@:: It is a studio album by the jazz musician John Coltrane. <p> The record is regarded as one of the most influential jazz albums of all time. Many of its tracks have become practice templates for jazz saxophonists. <!--SR:!2028-05-17,902,458!2025-12-05,158,441-->
@@ -651,7 +651,7 @@ The content is in teaching order.
 - [free jazz](../../../../general/free%20jazz.md) ::@:: It is a style of avant-garde jazz or an experimental approach to jazz improvisation that developed in the late 1950s and early 1960s, when musicians attempted to change or break down jazz conventions, such as regular tempos, tones, and chord changes. <!--SR:!2028-04-27,885,458!2028-04-14,874,458-->
   - free jazz / motivation ::@:: Musicians during this period believed that the bebop and modal jazz that had been played before them was too limiting, and became preoccupied with creating something new. <!--SR:!2028-04-28,886,458!2025-12-05,157,438-->
   - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2025-12-04,157,438!2028-05-28,912,462-->
-  - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2025-11-30,153,438!2025-12-01,154,438-->
+  - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2028-06-05,918,458!2025-12-01,154,438-->
 - [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2025-12-09,161,441!2025-12-06,158,438-->
 - [_The Shape of Jazz to Come_](../../../../general/The%20Shape%20of%20Jazz%20to%20Come.md) ::@:: It is the third album by the jazz musician Ornette Coleman. Released on Atlantic Records in 1959, it was his debut on the label and his first album featuring the working quartet including himself, trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. <!--SR:!2028-05-04,890,458!2028-04-29,887,458-->
   - _The Shape of Jazz to Come_ / uniqueness ::@:: It did not employ a chordal instrument such as a piano or guitar. <!--SR:!2025-12-08,160,441!2028-04-03,864,458-->
@@ -699,20 +699,20 @@ The content is in teaching order.
   - Oscar Peterson / works ::@:: "C Jam Blues" \(1964\) — Oscar Peterson <br/> _Night Train_ <br/> _The Sound of the Trio_ <br/> _We Get Requests_ <!--SR:!2025-12-10,162,442!2028-05-15,901,461-->
   - Oscar Peterson / effects ::@:: Many pianist were influenced by him and played in his style, e.g. Benny Green, Gene harris, Monty Alexander, Phineas Neworn, etc. \(and the instructor\) <!--SR:!2025-12-07,159,438!2025-12-11,163,441-->
 - [Bill Evans](../../../../general/Bill%20Evans.md) \(1929–1980\) ::@:: He was an American jazz pianist and composer who worked primarily as the leader of his trio. His use of impressionist harmony, block chords, innovative chord voicing, and trademark rhythmically independent "singing" melodic lines continue to influence jazz pianists today. <!--SR:!2028-04-15,875,458!2027-07-06,631,438-->
-  - Bill Evans / early life ::@:: He was left-handed. He was trained in an university. He became famous with Miles Davis. He was lyrical and not as bluesy as Oscar Peterson. <!--SR:!2025-11-30,153,438!2025-12-08,160,438-->
+  - Bill Evans / early life ::@:: He was left-handed. He was trained in an university. He became famous with Miles Davis. He was lyrical and not as bluesy as Oscar Peterson. <!--SR:!2028-06-03,916,458!2025-12-08,160,438-->
   - Bill Evans / trio ::@:: piano: Bill Evans <br/> drums: Paul Motion <br/> bass: Scott Lafaro <!--SR:!2028-05-26,909,458!2025-12-08,160,441-->
     - Bill Evans / trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential <!--SR:!2025-12-10,162,438!2025-12-09,161,442-->
   - Bill Evans / works ::@:: "What Is This Thing Called Love?" \(1960\) — Bill Evans trio <br/> _Conversations with Myself_ <br/> _Live at Town Hall_ <br/> _Portrait in Jazz_ <br/> _Sunday at the Village Vanguard_ <br/> _Waltz for Debby_ <!--SR:!2028-05-08,894,458!2028-05-11,897,458-->
   - Bill Evans / later life ::@:: He struggled with heroin, and then cocaine. He died at 51 from hepatitis, pneumonia, liver failure, and stomach ulcers. <!--SR:!2028-05-07,893,458!2025-12-07,159,438-->
   - Bill Evans / effects ::@:: He brought _quartal harmony_ in jazz, which refers to building chords in 4ths instead of 3rds. <br/> He also influenced many pianists to play in the interactive style, e.g. Bill Charlap, Brad Mehldau, Keith Jarrett, etc. \(and the instructor\) <!--SR:!2025-12-07,159,438!2025-12-12,164,442-->
-- [Hammond organ](../../../../general/Hammond%20organ.md) ::@:: It is an electric organ invented by Laurens Hammond and John M. Hanert, first manufactured in 1935. <!--SR:!2025-12-11,163,441!2025-11-30,153,438-->
+- [Hammond organ](../../../../general/Hammond%20organ.md) ::@:: It is an electric organ invented by Laurens Hammond and John M. Hanert, first manufactured in 1935. <!--SR:!2025-12-11,163,441!2028-05-31,913,458-->
   - Hammond organ / use ::@:: It is popular in gospel music. It was brought to jazz by Jimmy Smith in the 1950s. <!--SR:!2025-12-06,158,438!2025-12-06,158,438-->
   - Hammond organ / trio ::@:: drums, guitar, organ <!--SR:!2025-12-01,154,438!2025-12-01,154,438-->
 - [Jimmy Smith](../../../../general/Jimmy%20Smith%20(musician).md) \(1928–2005\) ::@:: He was an American jazz musician who helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music. <!--SR:!2028-05-15,900,458!2025-12-10,162,441-->
   - Jimmy Smith / works ::@:: "Back At The Chicken Shack" \(1963\) — Jimmy Smith, Phil Upchurch <!--SR:!2028-04-16,876,458!2025-12-01,154,438-->
 - [Shirley Scott](../../../../general/Shirley%20Scott.md) \(1934–2002\) ::@:: She was an American jazz organist. Her music was noted for its mixture of bebop, blues, and gospel elements. She was known by the nickname "Queen of the Organ". <p> She had 40 records as a leader. <!--SR:!2028-05-12,898,458!2025-12-05,158,442-->
   - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio <!--SR:!2028-05-14,900,458!2028-05-29,913,462-->
-- [Joey DeFrancesco](../../../../general/Joey%20DeFrancesco.md) \(1971–2022\) ::@:: He was a virtuosic organist. He got his start with Davis Miles at 17. <p> He had 30 records as a leader. he died of heart attack at 51. <!--SR:!2025-12-01,154,438!2025-11-30,153,438-->
+- [Joey DeFrancesco](../../../../general/Joey%20DeFrancesco.md) \(1971–2022\) ::@:: He was a virtuosic organist. He got his start with Davis Miles at 17. <p> He had 30 records as a leader. he died of heart attack at 51. <!--SR:!2025-12-01,154,438!2028-06-04,917,458-->
   - Joey DeFrancesco / works ::@:: "Fly me to the Moon" \(1999\) — Joey DeFrancesco Trio <!--SR:!2025-12-06,158,438!2025-12-04,157,438-->
 - Hammond organ
   - Hammond organ / notable organists ::@:: Larry Gouldings, Larry Young \(first to play modal jazz on organ\), Joey DeFrancesco, Shirley Scott, Tony Monaco <!--SR:!2028-05-18,903,458!2025-12-05,157,438-->
@@ -730,12 +730,12 @@ The content is in teaching order.
   - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions. <!--SR:!2025-12-04,156,438!2025-12-05,158,441-->
   - neo-bop / criticisms ::@:: Miles Davis hated it. He thought the music was moving backwards. <!--SR:!2028-04-30,887,458!2025-12-05,158,442-->
 - jazz
-  - jazz / education ::@:: Since the 1980s, jazz has become more accessible and educational, with competitions, conservatories, and festivals appearing. <!--SR:!2025-11-30,153,438!2025-12-03,156,441-->
+  - jazz / education ::@:: Since the 1980s, jazz has become more accessible and educational, with competitions, conservatories, and festivals appearing. <!--SR:!2028-06-05,918,458!2025-12-03,156,441-->
 - [Wynton Marsalis](../../../../general/Wynton%20Marsalis.md) \(1961–\) ::@:: He is an American trumpeter, composer, and music instructor, who is currently the artistic director of Jazz at Lincoln Center. He has been active in promoting classical and jazz music, often to young audiences. Marsalis has won nine Grammy Awards. <!--SR:!2025-12-03,156,438!2025-12-01,154,438-->
   - Wynton Marsalis / effects ::@:: He is from New Orleans \(the birthplace!\). He brought bebop roots into jazz. He brought jazz into education. <!--SR:!2025-12-09,161,442!2025-12-04,156,438-->
-  - Wynton Marsalis / family ::@:: He comes from a musical family. <!--SR:!2025-11-30,153,438!2025-12-04,157,438-->
+  - Wynton Marsalis / family ::@:: He comes from a musical family. <!--SR:!2028-06-02,915,458!2025-12-04,157,438-->
   - Wynton Marsalis / works ::@:: "Cherokee" \(1993\) — Wynton Marsalis <!--SR:!2025-12-02,155,438!2028-05-22,905,458-->
-- [Christian McBride](../../../../general/Christian%20McBride.md) \(1972–\) ::@:: He is an American jazz bassist, composer and arranger. He has appeared on more than 400 recordings as a sideman, and is a nine-time Grammy Award winner. <!--SR:!2025-11-30,153,438!2028-05-22,905,458-->
+- [Christian McBride](../../../../general/Christian%20McBride.md) \(1972–\) ::@:: He is an American jazz bassist, composer and arranger. He has appeared on more than 400 recordings as a sideman, and is a nine-time Grammy Award winner. <!--SR:!2028-06-01,914,458!2028-05-22,905,458-->
   - Christian McBride / works ::@:: "Easy Walker" \(2013\) — Christian McBride Trio <!--SR:!2025-12-07,159,438!2025-12-09,161,441-->
 - neo-bop
   - neo-bop / players ::@:: Brian Blade \(drums\) <br/> Christian McBride <br/> Joshua Redman \(saxophone\) <br/> Pete Bernstein \(guitar\) <br/> Wynton Marsalis <!--SR:!2028-05-16,901,458!2025-12-07,159,438-->

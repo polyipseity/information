@@ -41,8 +41,8 @@ The content is in teaching order.
 - topic: logistics; introduction to derivatives
 - FINA 3203
   - FINA 3203 / logistics
-- [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ... <!--SR:!2025-12-01,66,310!2025-11-30,65,310-->
-  - derivative / elements ::@:: tradeable item, future act, future act price, future act time <!--SR:!2025-11-30,65,310!2026-08-27,272,330-->
+- [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ... <!--SR:!2025-12-01,66,310!2026-09-04,278,330-->
+  - derivative / elements ::@:: tradeable item, future act, future act price, future act time <!--SR:!2026-09-06,280,330!2026-08-27,272,330-->
     - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!2026-07-08,233,330!2026-06-08,193,310-->
     - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2026-08-02,254,330!2026-08-03,255,330-->
     - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2026-07-29,251,330!2026-09-05,280,330-->
@@ -74,7 +74,7 @@ The content is in teaching order.
   - exchange-traded derivative contract / examples ::@:: futures, options \(on futures and stocks\) <!--SR:!2026-01-01,82,344!2025-12-26,77,344-->
 - [clearing house](../../../../general/clearing%20house%20(finance).md) ::@:: It is a financial institution formed to facilitate the exchange \(i.e., _clearance_\) of payments, securities, or derivatives transactions. The clearing house stands between two clearing firms \(also known as member firms or participants\). <!--SR:!2025-12-24,75,344!2025-12-24,75,344-->
 - [over-the-counter](../../../../general/over-the-counter%20(finance).md) \(OTC\) ::@:: It is done directly between two parties, without the supervision of an exchange. It is contrasted with exchange trading, which occurs via exchanges. <p> In an OTC trade, the price is not necessarily publicly disclosed. <!--SR:!2025-12-26,77,344!2025-12-26,77,344-->
-  - over-the-counter / characteristics ::@:: customized contracts, exotic contracts, mediated by dealers, not a place <!--SR:!2025-11-30,55,324!2025-12-22,73,344-->
+  - over-the-counter / characteristics ::@:: customized contracts, exotic contracts, mediated by dealers, not a place <!--SR:!2026-05-25,176,324!2025-12-22,73,344-->
   - over-the-counter / disadvantages ::@:: counterparty risk, less liquid, opaque, systemic risk \(if major dealers are distressed\) <!--SR:!2026-01-02,83,344!2025-12-28,78,344-->
   - over-the-counter / examples ::@:: exotic options, forwards, structured products, swaps <!--SR:!2025-12-23,74,344!2025-12-27,78,344-->
 - exchange-traded derivative contract

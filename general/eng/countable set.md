@@ -76,7 +76,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 >
 > {@{The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers}@} <!--SR:!2026-10-22,498,310!2026-09-01,459,310-->
 
-{@{The resulting [mapping](map%20(mathematics).md)}@} proceeds as follows: {@{$$0\leftrightarrow (0,0),1\leftrightarrow (1,0),2\leftrightarrow (0,1),3\leftrightarrow (2,0),4\leftrightarrow (1,1),5\leftrightarrow (0,2),6\leftrightarrow (3,0),\ldots$$}@} This mapping {@{covers all such ordered pairs}@}. <!--SR:!2025-12-12,273,330!2025-11-30,263,330!2028-10-31,1095,350-->
+{@{The resulting [mapping](map%20(mathematics).md)}@} proceeds as follows: {@{$$0\leftrightarrow (0,0),1\leftrightarrow (1,0),2\leftrightarrow (0,1),3\leftrightarrow (2,0),4\leftrightarrow (1,1),5\leftrightarrow (0,2),6\leftrightarrow (3,0),\ldots$$}@} This mapping {@{covers all such ordered pairs}@}. <!--SR:!2025-12-12,273,330!2029-03-16,1202,350!2028-10-31,1095,350-->
 
 {@{This form of triangular mapping}@} {@{[recursively](recursion.md) generalizes to $n$-[tuples](tuple.md) of natural numbers}@}, i.e., {@{$(a_{1},a_{2},a_{3},\dots ,a_{n})$ where $a_{i}$ and $n$ are natural numbers}@}, by {@{repeatedly mapping the first two elements of an $n$-tuple to a natural number}@}. For example, $(0,2,3)$ can be {@{written as $((0,2),3)$}@}. Then $(0,2)$ {@{maps to 5 so $((0,2),3)$ maps to $(5,3)$}@}, then {@{$(5,3)$ maps to 39}@}. Since {@{a different 2-tuple, that is a pair such as $(a,b)$}@}, maps to {@{a different natural number}@}, {@{a difference between two n-tuples by a single element}@} is {@{enough to ensure the n-tuples being mapped to different natural numbers}@}. So, {@{an injection from the set of $n$-tuples to the set of natural numbers $\mathbb {N}$ is proved}@}. For {@{the set of $n$-tuples made by the Cartesian product of finitely many different sets}@}, {@{each element in each tuple has the correspondence to a natural number}@}, so {@{every tuple can be written in natural numbers}@} then {@{the same logic is applied to prove the theorem}@}. <!--SR:!2025-12-10,272,330!2026-02-03,294,290!2027-11-05,800,330!2026-02-14,305,290!2029-03-11,1198,350!2029-03-10,1198,350!2027-10-30,796,330!2029-01-30,1167,350!2025-12-18,277,330!2029-02-05,1171,350!2029-02-14,1179,350!2026-06-09,398,310!2026-01-05,292,330!2028-10-20,1086,350!2027-12-28,839,330!2027-12-11,829,330-->
 
@@ -134,7 +134,7 @@ If {@{there is a set that is a standard model \(see [inner model](inner%20model.
 - countable ::@:: subsets of _M_, hence countable, <!--SR:!2027-11-24,814,330!2028-12-19,1135,350-->
 - uncountable ::@:: but uncountable from the point of view of _M_, <!--SR:!2025-12-02,265,330!2027-11-24,816,330-->
 
-was {@{seen as paradoxical in the early days of set theory}@}; see {@{[Skolem's paradox](Skolem's%20paradox.md)}@} for more. <!--SR:!2029-01-23,1161,350!2025-11-30,263,330-->
+was {@{seen as paradoxical in the early days of set theory}@}; see {@{[Skolem's paradox](Skolem's%20paradox.md)}@} for more. <!--SR:!2029-01-23,1161,350!2029-03-15,1201,350-->
 
 {@{The minimal standard model}@} includes {@{all the [algebraic numbers](algebraic%20number.md) and all effectively computable [transcendental numbers](transcendental%20number.md), as well as many other kinds of numbers}@}. <!--SR:!2026-01-06,293,330!2028-02-18,814,290-->
 

@@ -322,6 +322,6 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 See [Water Cube](../../../../general/Water%20Cube.md).
 
-- description ::@:: swimming center in Beijing, China <!--SR:!2029-01-23,1380,366!2025-11-30,475,394-->
+- description ::@:: swimming center in Beijing, China <!--SR:!2029-01-23,1380,366!2032-12-01,2558,414-->
 - image ::@:: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2026-01-29,514,400!2026-03-27,561,400-->
 - shape ::@:: cube covered with bubbles <!--SR:!2028-11-16,1338,390!2027-08-03,945,350-->

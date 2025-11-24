@@ -33,7 +33,7 @@ In {@{a [flow network](flow%20network.md)}@}, {@{an __s–t cut__}@} is {@{a cut
 
 {@{A __cut__ _C_ = (_S_, _T_)}@} is {@{a partition of _V_ of a graph _G_ = (_V_, _E_) into two subsets _S_ and _T_}@}. {@{The __cut-set__ of a cut _C_ = (_S_, _T_)}@} is {@{the set {(_u_, _v_) ∈ _E_ | _u_ ∈ _S_, _v_ ∈ _T_} of edges that have one endpoint in _S_ and the other endpoint in _T_}@}. If {@{_s_ and _t_ are specified vertices of the graph _G_}@}, then {@{an ___s_–_t_ cut__}@} is {@{a cut in which _s_ belongs to the set _S_ and _t_ belongs to the set _T_}@}. <!--SR:!2025-12-11,316,330!2026-11-16,543,310!2027-11-17,849,330!2025-12-03,308,330!2029-09-03,1378,350!2026-12-05,562,310!2026-12-24,573,310-->
 
-In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2025-12-03,308,330!2025-11-30,307,330!2028-04-23,958,330!2025-12-11,316,330!2028-04-04,941,330-->
+In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2025-12-03,308,330!2029-10-02,1402,350!2028-04-23,958,330!2025-12-11,316,330!2028-04-04,941,330-->
 
 {@{A __bond__}@} is {@{a cut-set that does not have any other cut-set as a proper subset}@}. <!--SR:!2025-12-02,307,330!2025-12-04,309,330-->
 
@@ -47,7 +47,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 
 {@{A cut is _minimum_}@} if {@{the size or weight of the cut is not larger than the size of any other cut}@}. The illustration on the right shows {@{a minimum cut: the size of this cut is 2}@}, and {@{there is no cut of size 1 because the graph is [bridgeless](bridge%20(graph%20theory).md)}@}. <!--SR:!2029-09-02,1377,350!2025-12-05,310,330!2028-04-14,950,330!2027-03-24,669,330-->
 
-{@{The [max-flow min-cut theorem](max-flow%20min-cut%20theorem.md)}@} proves that {@{the maximum [network flow](flow%20network.md) and the sum of the cut-edge weights of any minimum cut that separates the source and the sink are equal}@}. There are {@{[polynomial-time](time%20complexity.md#polynomial%20time) methods to solve the min-cut problem}@}, notably {@{the [Edmonds–Karp algorithm](Edmonds–Karp%20algorithm.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-06-18,1317,350!2026-12-08,563,310!2025-11-30,307,330!2026-11-13,540,310-->
+{@{The [max-flow min-cut theorem](max-flow%20min-cut%20theorem.md)}@} proves that {@{the maximum [network flow](flow%20network.md) and the sum of the cut-edge weights of any minimum cut that separates the source and the sink are equal}@}. There are {@{[polynomial-time](time%20complexity.md#polynomial%20time) methods to solve the min-cut problem}@}, notably {@{the [Edmonds–Karp algorithm](Edmonds–Karp%20algorithm.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-06-18,1317,350!2026-12-08,563,310!2029-10-04,1404,350!2026-11-13,540,310-->
 
 ## maximum cut
 
@@ -65,7 +65,7 @@ Note that {@{min-cut and max-cut}@} are {@{_not_ [dual](linear%20programming.md#
 
 ## sparsest cut
 
-{@{The __sparsest cut problem__}@} is to {@{bipartition the vertices}@} so as to {@{minimize the ratio of the number of edges across the cut divided by the number of vertices in the smaller half of the partition}@}. {@{This objective function}@} favors {@{solutions that are both sparse (few edges crossing the cut) and balanced (close to a bisection)}@}. The problem is {@{known to be NP-hard}@}, and {@{the best known approximation algorithm}@} is {@{an $O({\sqrt {\log n} })$ approximation due to [Arora, Rao & Vazirani (2009)](#^ref-8)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-04-16,686,330!2025-12-31,112,290!2025-12-07,312,330!2026-11-23,550,310!2025-11-30,307,330!2029-04-12,1263,350!2026-02-25,295,250!2026-01-17,101,384-->
+{@{The __sparsest cut problem__}@} is to {@{bipartition the vertices}@} so as to {@{minimize the ratio of the number of edges across the cut divided by the number of vertices in the smaller half of the partition}@}. {@{This objective function}@} favors {@{solutions that are both sparse (few edges crossing the cut) and balanced (close to a bisection)}@}. The problem is {@{known to be NP-hard}@}, and {@{the best known approximation algorithm}@} is {@{an $O({\sqrt {\log n} })$ approximation due to [Arora, Rao & Vazirani (2009)](#^ref-8)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-04-16,686,330!2025-12-31,112,290!2025-12-07,312,330!2026-11-23,550,310!2028-09-09,1014,330!2029-04-12,1263,350!2026-02-25,295,250!2026-01-17,101,384-->
 
 ## cut space
 

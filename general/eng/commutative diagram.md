@@ -28,7 +28,7 @@ A commutative diagram often consists of {@{three parts: (annotation: objects, mo
 
 ### arrow symbols
 
-In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with different arrow usages}@}: <!--SR:!2026-01-24,274,330!2026-01-18,269,330!2025-11-30,229,330-->
+In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with different arrow usages}@}: <!--SR:!2026-01-24,274,330!2026-01-18,269,330!2028-10-07,1042,350-->
 
 - A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-08-12,368,290!2027-05-08,577,310-->
 - An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2027-12-19,789,330!2026-07-31,330,250-->

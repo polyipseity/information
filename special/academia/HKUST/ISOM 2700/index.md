@@ -93,7 +93,7 @@ The content is in teaching order.
   - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2026-01-11,263,330!2026-02-01,277,330-->
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2026-12-31,512,310!2027-04-20,559,310-->
     - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2026-11-17,482,310!2026-08-19,421,310-->
-    - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2026-06-24,365,310!2025-11-30,227,330-->
+    - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2026-06-24,365,310!2028-09-23,1028,350-->
   - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2026-12-01,496,310!2027-09-29,697,290-->
 
 ## week 1 lecture 2
@@ -572,7 +572,7 @@ The content is in teaching order.
     - high: ? → ?
     - distribution: ? → ?
 - report
-  - "careless" mistake \(–1\) ::@:: Somehow the activity with the highest capacity \(lowest utilization\) instead of the highest utilization is found instead... <!--SR:!2028-05-17,907,459!2025-11-30,160,439-->
+  - "careless" mistake \(–1\) ::@:: Somehow the activity with the highest capacity \(lowest utilization\) instead of the highest utilization is found instead... <!--SR:!2028-05-17,907,459!2028-07-12,955,459-->
   - capable vs. in control \(–1\) ::@:: Process capability is about meeting specifications, while process control is about not having assignable variations. <!--SR:!2028-05-16,906,459!2028-04-17,883,459-->
 - check
   - datetime

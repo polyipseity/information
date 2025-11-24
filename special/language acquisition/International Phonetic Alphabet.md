@@ -898,7 +898,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg):@:[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) <!--SR:!2025-12-04,13,310-->
 - ![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg):@:[voiced velar fricative](voiced%20velar%20fricative.md) <!--SR:!2025-12-22,49,210-->
 - ![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg):@:[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) <!--SR:!2025-12-03,12,310-->
-- ![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg):@:[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) <!--SR:!2025-11-30,2,210-->
+- ![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg):@:[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) <!--SR:!2025-12-01,1,190-->
 - ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav):@:[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) <!--SR:!2025-12-06,11,291-->
 - ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg):@:[voiced alveolar fricative](voiced%20alveolar%20fricative.md) <!--SR:!2026-12-10,644,275-->
 - ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg):@:[voiced postalveolar fricative](voiced%20postalveolar%20fricative.md) <!--SR:!2025-12-03,14,150-->
@@ -947,7 +947,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɘːd\] <!--SR:!2026-01-29,67,150-->
 - [mid central vowel](mid%20central%20vowel.md):@:[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\] <!--SR:!2026-05-07,162,138-->
 - [r-colored mid central vowel](r-colored%20vowel.md):@:[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\] <!--SR:!2026-08-26,295,238-->
-- [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**e**d_ \[bɛd\] <!--SR:!2025-11-30,109,158-->
+- [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**e**d_ \[bɛd\] <!--SR:!2026-05-21,172,158-->
 - [nasalized open-mid front unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand" <!--SR:!2025-12-01,18,130-->
 - [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɜːd\] <!--SR:!2028-02-25,1039,278-->
 - [r-colored open-mid central unrounded vowel](r-colored%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɝːd\] <!--SR:!2027-06-10,581,297-->

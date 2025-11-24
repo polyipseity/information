@@ -193,7 +193,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2027-10-08,688,424!2027-10-07,687,424-->
 - compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2026-06-13,209,384!2027-10-19,697,424-->
 - compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2027-09-21,672,424!2027-10-16,696,424-->
-- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-11-30,131,404!2027-09-30,681,424-->
+- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2027-11-28,728,424!2027-09-30,681,424-->
 - compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2027-10-10,690,424!2027-11-14,716,424-->
 - compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-12-04,135,404!2025-12-01,132,404-->
 - compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2027-10-03,683,424!2027-09-22,673,424-->
@@ -206,7 +206,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-11-11,717,424!2025-12-01,132,404-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-10-20,698,424!2027-10-29,706,424-->
 - store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-03-25,492,404!2026-06-07,275,384-->
-- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-11-30,131,404!2025-12-02,133,404-->
+- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-05-19,535,404!2025-12-02,133,404-->
 - subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-12-03,134,404!2027-10-24,701,424-->
 - subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2027-09-26,677,424!2027-11-12,718,424-->
 
@@ -414,7 +414,7 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2027-10-11,691,424!2027-10-04,684,424-->
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2027-10-20,699,424!2027-10-25,702,424-->
-- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-11-30,131,404!2026-07-18,295,384-->
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2027-11-22,722,424!2026-07-18,295,384-->
 - immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2027-11-02,705,424!2027-10-13,692,424-->
 - signedness ::@:: All operations are always signed. <!--SR:!2027-10-15,694,424!2027-11-04,710,424-->
 

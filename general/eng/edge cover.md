@@ -29,7 +29,7 @@ Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that 
 
 A __minimum edge covering__ is {@{an edge covering of smallest possible size}@}. {@{The __edge covering number__ _ρ_\(_G_\)}@} is {@{the size of a minimum edge covering}@}. The following figure shows examples of minimum edge coverings \(again, the set _C_ is marked with red\). <p> {@{![examples of minimum edge coverings](../../archives/Wikimedia%20Commons/Minimum-edge-cover.svg)}@} <!--SR:!2025-12-07,269,330!2026-06-24,403,310!2025-12-11,272,330!2026-11-20,514,310-->
 
-Note that the figure on the right is {@{not only an edge cover but also a [matching](matching%20(graph%20theory).md)}@}. In particular, it is {@{a [perfect matching](perfect%20matching.md): a matching _M_ in which every vertex is incident with exactly one edge in _M_}@}. {@{A perfect matching \(if it exists\)}@} is {@{always a minimum edge covering}@}. <!--SR:!2025-11-30,263,330!2026-12-16,529,310!2025-12-04,267,330!2025-12-02,265,330-->
+Note that the figure on the right is {@{not only an edge cover but also a [matching](matching%20(graph%20theory).md)}@}. In particular, it is {@{a [perfect matching](perfect%20matching.md): a matching _M_ in which every vertex is incident with exactly one edge in _M_}@}. {@{A perfect matching \(if it exists\)}@} is {@{always a minimum edge covering}@}. <!--SR:!2029-03-18,1204,350!2026-12-16,529,310!2025-12-04,267,330!2025-12-02,265,330-->
 
 ### examples
 

@@ -132,7 +132,7 @@ tags:
 
 > Q2. What does `print(len("hehehaha"))` output?
 >
-> - solution: {@{`8`}@} <!--SR:!2025-11-30,265,330-->
+> - solution: {@{`8`}@} <!--SR:!2029-03-20,1206,350-->
 
 <!-- markdownlint MD028 -->
 
