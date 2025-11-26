@@ -13,7 +13,7 @@ tags:
 
 > {@{![Zorn's lemma can be used to show that every connected [graph](graph%20(discrete%20mathematics).md) has a [spanning tree](spanning%20tree.md).](../../archives/Wikimedia%20Commons/4x4%20grid%20spanning%20tree.svg)}@}
 >
-> Zorn's lemma can be used to {@{show that every connected [graph](graph%20(discrete%20mathematics).md) has a [spanning tree](spanning%20tree.md)}@}. {@{The set of all sub-graphs that are trees is ordered by inclusion}@}, and {@{the union of a chain is an upper bound}@}. Zorn's lemma says that {@{a maximal tree must exist}@}, which {@{is a spanning tree since the graph is connected}@}.<sup>[\[1\]](#^ref-1)</sup> Zorn's lemma is {@{not needed for finite graphs, such as the one pictured here}@}. <!--SR:!2026-02-18,331,350!2025-12-02,267,338!2028-06-07,980,350!2026-01-20,308,350!2026-03-14,350,350!2026-01-22,310,350!2026-03-02,340,350-->
+> Zorn's lemma can be used to {@{show that every connected [graph](graph%20(discrete%20mathematics).md) has a [spanning tree](spanning%20tree.md)}@}. {@{The set of all sub-graphs that are trees is ordered by inclusion}@}, and {@{the union of a chain is an upper bound}@}. Zorn's lemma says that {@{a maximal tree must exist}@}, which {@{is a spanning tree since the graph is connected}@}.<sup>[\[1\]](#^ref-1)</sup> Zorn's lemma is {@{not needed for finite graphs, such as the one pictured here}@}. <!--SR:!2026-02-18,331,350!2029-04-27,1242,358!2028-06-07,980,350!2026-01-20,308,350!2026-03-14,350,350!2026-01-22,310,350!2026-03-02,340,350-->
 
 __Zorn's lemma__, also known as the {@{__Kuratowski–Zorn lemma__}@}, is {@{a proposition of [set theory](set%20theory.md)}@}. It states that {@{a [partially ordered set](partially%20ordered%20set.md) containing [upper bounds](upper%20and%20lower%20bounds.md) for every [chain](total%20order.md#chains) \(that is, every [totally ordered](total%20order.md) [subset](subset.md)\)}@} {@{[necessarily](necessity%20and%20sufficiency.md) contains at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}. <!--SR:!2027-06-10,685,330!2026-03-03,341,350!2027-05-24,661,330!2026-02-15,328,350-->
 
@@ -47,7 +47,7 @@ Zorn's lemma can then be stated as:
 >
 > Then {@{$P$ has at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}. <!--SR:!2026-03-11,348,350!2026-02-19,332,350!2025-12-05,270,338!2026-03-17,353,350!2028-02-17,896,350!2025-12-04,120,394!2025-12-10,125,394!2027-08-28,635,414-->
 
-In fact, {@{property \(1\) is redundant}@}, since {@{property \(2\) says, in particular, that the empty chain has an upper bound in $P$}@}, implying {@{$P$ is nonempty}@}. However, in practice, {@{one often checks \(1\) and then verifies \(2\) only for nonempty chains}@}, since {@{the case of the empty chain is taken care by \(1\)}@}. <!--SR:!2025-12-02,267,338!2028-07-14,1004,350!2026-01-22,310,350!2026-03-03,341,350!2028-01-27,871,338-->
+In fact, {@{property \(1\) is redundant}@}, since {@{property \(2\) says, in particular, that the empty chain has an upper bound in $P$}@}, implying {@{$P$ is nonempty}@}. However, in practice, {@{one often checks \(1\) and then verifies \(2\) only for nonempty chains}@}, since {@{the case of the empty chain is taken care by \(1\)}@}. <!--SR:!2029-04-28,1243,358!2028-07-14,1004,350!2026-01-22,310,350!2026-03-03,341,350!2028-01-27,871,338-->
 
 In {@{the terminology of Bourbaki}@}, a partially ordered set is called {@{__inductive__}@} if {@{each chain has an upper bound in the set \(in particular, the set is then nonempty\)}@}.<sup>[\[10\]](#^ref-10)</sup> Then the lemma can be stated as: <!--SR:!2028-06-11,984,350!2026-02-18,330,350!2026-05-11,362,298-->
 
@@ -57,7 +57,7 @@ For some applications, the following variant may be useful.
 
 > __Corollary__ — <sup>[\[12\]](#^ref-12)</sup> Let {@{$P$ be a partially ordered set in which every chain has an upper bound and $a$ an element in $P$}@}. Then {@{there exists a maximal element $b$ in $P$ such that $b\geq a$}@}. <!--SR:!2026-12-27,505,310!2025-12-03,268,338-->
 
-Indeed, let {@{$Q=\{x\in P\mid x\geq a\}$ with the partial ordering from $P$}@}. Then, for {@{a chain in $Q$}@}, {@{an upper bound in $P$ is in $Q$}@} and so {@{$Q$ satisfies the hypothesis of Zorn's lemma}@} and {@{a maximal element in $Q$ is a maximal element in $P$ as well}@}. <!--SR:!2025-12-02,250,330!2026-02-02,106,258!2026-03-13,317,290!2026-03-20,125,400!2026-03-19,124,400-->
+Indeed, let {@{$Q=\{x\in P\mid x\geq a\}$ with the partial ordering from $P$}@}. Then, for {@{a chain in $Q$}@}, {@{an upper bound in $P$ is in $Q$}@} and so {@{$Q$ satisfies the hypothesis of Zorn's lemma}@} and {@{a maximal element in $Q$ is a maximal element in $P$ as well}@}. <!--SR:!2028-03-06,825,330!2026-02-02,106,258!2026-03-13,317,290!2026-03-20,125,400!2026-03-19,124,400-->
 
 ## example applications
 
@@ -169,7 +169,7 @@ Given {@{a set $X$ of nonempty sets and its union $U:=\bigcup X$ \(which exists 
 
 - See also: [Axiom of choice § Equivalents](axiom%20of%20choice.md#equivalents)
 
-Zorn's lemma is {@{equivalent \(in [ZF](Zermelo–Fraenkel%20set%20theory.md)\) to three main results}@}: (annotation: {@{[Hausdorff maximal principle](Hausdorff%20maximal%20principle.md), [axiom of choice](axiom%20of%20choice.md), [well-ordering theorem](well-ordering%20theorem.md)}@}) <!--SR:!2026-01-24,312,350!2025-12-02,250,330-->
+Zorn's lemma is {@{equivalent \(in [ZF](Zermelo–Fraenkel%20set%20theory.md)\) to three main results}@}: (annotation: {@{[Hausdorff maximal principle](Hausdorff%20maximal%20principle.md), [axiom of choice](axiom%20of%20choice.md), [well-ordering theorem](well-ordering%20theorem.md)}@}) <!--SR:!2026-01-24,312,350!2029-01-14,1139,350-->
 
 1. [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)
 2. [Axiom of choice](axiom%20of%20choice.md)

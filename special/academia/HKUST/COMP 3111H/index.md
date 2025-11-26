@@ -42,13 +42,13 @@ The content is in teaching order.
 
 - topic: introduction; complexity of software development; handling complexity; software engineering
 - [software engineering](../../../../general/software%20engineering.md) ::@:: It is a branch of both computer science and engineering focused on designing, developing, testing, and maintaining software applications. It involves applying engineering principles and computer programming expertise to develop software systems that meet user needs. <!--SR:!2025-12-09,61,310!2025-12-09,62,310-->
-- [source lines of code](../../../../general/source%20lines%20of%20code.md) \(SLOC\) ::@:: It is a software metric used to measure the size of a computer program by counting the number of lines in the text of the program's source code. <!--SR:!2025-12-02,56,310!2025-12-10,62,310-->
+- [source lines of code](../../../../general/source%20lines%20of%20code.md) \(SLOC\) ::@:: It is a software metric used to measure the size of a computer program by counting the number of lines in the text of the program's source code. <!--SR:!2026-08-02,243,330!2025-12-10,62,310-->
   - source lines of code / acronyms ::@:: - LLOC: logical lines of code; logical SLOC <br/> - LOC: lines of code; physical SLOC <br/> - MLOC: million lines of code <br/> - SLOC: source lines of code <!--SR:!2026-07-21,233,330!2025-12-08,61,310-->
   - source lines of code / examples ::@:: \(less\) <br/> 1. Rome: Total War <br/> 2. Boeing 787 &lt; F-35 Fighter Jet <br/> 3. Windows 7 &lt; Windows 10 <br/> 4. Facebook <br/> 5. Mac OS X <br/> 6. luxury passenger car <br/> \(more\) <!--SR:!2026-03-13,126,290!2026-02-20,93,250-->
   - source lines of code / effort ::@:: Effort is not _linearly_ proportional to source lines of code!! <!--SR:!2025-12-11,63,310!2025-12-10,63,310-->
 - [software maintenance](../../../../general/software%20maintenance.md) ::@:: It is the modification of software after delivery. <p> It is often considered lower skilled and less rewarding than new development. As such, it is a common target for outsourcing or offshoring. <!--SR:!2026-05-14,165,310!2025-12-10,63,310-->
   - software maintenance / complexity ::@:: It can be complex. Indeed, given the large amount of existing software, it uses the most time of most developers. <!--SR:!2025-12-07,60,310!2025-12-04,58,310-->
-- [programming complexity](../../../../general/programming%20complexity.md) ::@:: It is a term that includes software properties that affect internal interactions. <!--SR:!2025-12-07,60,310!2025-12-02,56,310-->
+- [programming complexity](../../../../general/programming%20complexity.md) ::@:: It is a term that includes software properties that affect internal interactions. <!--SR:!2025-12-07,60,310!2026-08-04,245,330-->
   - programming complexity / sources ::@:: application domain, communication, management, tools <!--SR:!2025-12-10,63,310!2025-12-09,61,310-->
     - programming complexity / sources / application domain ::@:: A problem is often _complex_ and outside the domain of most developers \(i.e. not _domain experts_\). <!--SR:!2025-12-13,65,310!2025-12-14,66,310-->
     - programming complexity / sources / communication ::@:: Clients and developers have different _background_, _vocabulary_, etc. which is made worse by _ambiguity_ of human languages. <!--SR:!2025-12-06,59,310!2025-12-08,61,310-->
@@ -84,7 +84,7 @@ The content is in teaching order.
   - software engineering / activities ::@:: knowledge acquisition, modeling, problem solving, rationale management, etc. <!--SR:!2025-12-12,64,310!2025-12-09,62,310-->
     - software engineering / activities / modeling ::@:: Model user requirement. Model the system to be built. <!--SR:!2025-12-09,62,310!2026-04-23,158,310-->
     - software engineering / activities / problem solving ::@:: _Systematically_ \(but not _algorithmically_ as there are changes\) find an appropriate solution according to the user requirement. Note that user requirements can _change_ or be clarified over time. <!--SR:!2025-12-13,65,310!2025-12-03,57,310-->
-    - software engineering / activities / knowledge acquisition ::@:: Knowledge about the problem needs to be learnt on the go. It may also need to be _unlearnt_ due to changing requirements or misunderstandings. You may even need to _start over_. <!--SR:!2025-12-02,56,310!2025-12-02,56,310-->
+    - software engineering / activities / knowledge acquisition ::@:: Knowledge about the problem needs to be learnt on the go. It may also need to be _unlearnt_ due to changing requirements or misunderstandings. You may even need to _start over_. <!--SR:!2026-08-03,244,330!2026-05-24,173,310-->
     - software engineering / activities / rationale management ::@:: As acquired knowledge, solutions \(new technologies\), user requirements _change_, we need to _revisit_ decisions and their rationale. <!--SR:!2025-12-10,62,310!2025-12-08,61,310-->
 - quiz: [quiz 1](questions/quiz%201.md)
 

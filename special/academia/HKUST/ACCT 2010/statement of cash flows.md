@@ -24,7 +24,7 @@ tags:
 
 ## format
 
-- header ::@:: company name, `(Consolidated) Statement of Cash Flows`, duration, (monetary unit) <!--SR:!2025-12-02,276,330!2027-11-18,808,330-->
+- header ::@:: company name, `(Consolidated) Statement of Cash Flows`, duration, (monetary unit) <!--SR:!2029-05-18,1263,350!2027-11-18,808,330-->
   - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2027-10-21,788,330!2027-10-26,798,330-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2028-12-31,1154,350!2029-03-09,1207,350-->
 - dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted. <!--SR:!2027-01-15,560,310!2027-06-20,698,330-->

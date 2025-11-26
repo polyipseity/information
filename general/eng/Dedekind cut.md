@@ -38,7 +38,7 @@ It is {@{more symmetrical to use the \(_A_, _B_\) notation for Dedekind cuts}@},
 
 If {@{the ordered set _S_ is complete}@}, then, {@{for every Dedekind cut \(_A_, _B_\) of _S_}@}, {@{the set _B_ must have a minimal element _b_}@}, hence we must have that {@{_A_ is the [interval](interval%20(mathematics).md) \(−∞, _b_\), and _B_ the interval \[_b_, +∞\)}@}. In this case, we say that {@{_b_ _is represented by_ the cut \(_A_, _B_\)}@}. <!--SR:!2025-12-29,285,330!2025-12-21,280,330!2026-01-02,289,330!2025-12-30,287,330!2028-12-26,1140,350-->
 
-{@{The important purpose of the Dedekind cut}@} is to {@{work with number sets that are _not_ complete}@}. The cut itself can {@{represent a number not in the original collection of numbers \(most often [rational numbers](rational%20number.md)\)}@}. The cut can represent {@{a number _b_}@}, even though {@{the numbers contained in the two sets _A_ and _B_ do not actually include the number _b_ that their cut represents}@}. <!--SR:!2025-12-02,265,330!2025-12-28,284,330!2027-09-10,745,330!2025-12-18,277,330!2025-12-10,272,330-->
+{@{The important purpose of the Dedekind cut}@} is to {@{work with number sets that are _not_ complete}@}. The cut itself can {@{represent a number not in the original collection of numbers \(most often [rational numbers](rational%20number.md)\)}@}. The cut can represent {@{a number _b_}@}, even though {@{the numbers contained in the two sets _A_ and _B_ do not actually include the number _b_ that their cut represents}@}. <!--SR:!2029-03-22,1206,350!2025-12-28,284,330!2027-09-10,745,330!2025-12-18,277,330!2025-12-10,272,330-->
 
 For example if {@{_A_ and _B_ only contain [rational numbers](rational%20number.md)}@}, they can still be {@{cut at ${\sqrt {2} }$}@} by {@{putting every negative rational number in _A_, along with every non-negative rational number whose square is less than 2}@}; similarly {@{_B_ would contain every positive rational number whose square is greater than or equal to 2}@}. Even though {@{there is no rational value for ${\sqrt {2} }$}@}, if {@{the rational numbers are partitioned into _A_ and _B_ this way}@}, {@{the partition itself represents an [irrational number](irrational%20number.md)}@}. <!--SR:!2029-02-10,1174,350!2027-11-12,806,330!2025-12-10,272,330!2025-12-19,278,330!2025-12-27,285,330!2027-04-11,639,330!2025-12-10,272,330-->
 
@@ -72,7 +72,7 @@ This allows {@{the basic arithmetic operations on the real numbers to be defined
 
 In the general case of {@{an arbitrary linearly ordered set _X_}@}, a __cut__ is {@{a pair $(A,B)$ such that $A\cup B=X$ and $a\in A$, $b\in B$ imply $a<b$}@}. Some authors {@{add the requirement that both _A_ and _B_ are nonempty}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-02,413,310!2025-12-10,272,330!2026-01-03,290,330-->
 
-If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called a __gap__}@}. {@{A linearly ordered set endowed with the order topology is compact}@} {@{if and only if it has no gap}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-03-18,1203,350!2025-12-02,265,330!2029-03-04,1192,350!2025-12-03,266,330-->
+If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called a __gap__}@}. {@{A linearly ordered set endowed with the order topology is compact}@} {@{if and only if it has no gap}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-03-18,1203,350!2029-03-21,1205,350!2029-03-04,1192,350!2025-12-03,266,330-->
 
 ### surreal numbers
 

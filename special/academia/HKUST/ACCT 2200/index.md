@@ -104,7 +104,7 @@ The content is in teaching order.
     - job costing / vs. process costing / cost accumulation ::@:: accumulates per customer/project/job; accumulates per process <!--SR:!2026-07-08,402,368!2026-01-24,266,348-->
     - job costing / vs. process costing / product type ::@:: unique products and services (e.g. construction projects); homogeneous products and services (e.g. soft drinks) <!--SR:!2027-12-19,808,348!2026-02-14,282,348-->
     - job costing / vs. process costing / report types ::@:: job cost sheet per customer/project/job; production report per process <!--SR:!2026-07-05,399,368!2026-05-30,369,368-->
-  - job cost / manufacturing costs ::@:: direct materials, direct labor, manufacturing overhead; add them together <!--SR:!2026-06-04,374,368!2025-12-02,227,348-->
+  - job cost / manufacturing costs ::@:: direct materials, direct labor, manufacturing overhead; add them together <!--SR:!2026-06-04,374,368!2028-11-21,1085,368-->
   - job cost / source documents ::@:: documents to assign direct costs to jobs; direct materials: materials requisition form, direct labor: labor time ticket <!--SR:!2026-01-21,263,348!2026-06-20,390,368-->
   - job cost / materials requisition form: [formats § materials requisition form](formats.md#materials%20requisition%20form)
   - job cost / (direct) labor time ticket: [formats § job cost sheet](formats.md#labor%20time%20ticket)

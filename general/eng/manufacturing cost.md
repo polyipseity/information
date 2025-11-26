@@ -23,7 +23,7 @@ tags:
 
 ## manufacturing overhead
 
-{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2026-01-19,269,330!2026-01-30,276,330!2025-12-02,229,330-->
+{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2026-01-19,269,330!2026-01-30,276,330!2028-10-06,1039,350-->
 
 ### manufacturing overhead includes
 

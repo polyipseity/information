@@ -33,7 +33,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 Stirling numbers express {@{coefficients in expansions of [falling and rising factorials](falling%20and%20rising%20factorials.md) (also known as the Pochhammer symbol) as polynomials}@}. <!--SR:!2029-09-26,1398,350-->
 
-That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}. <!--SR:!2025-12-02,309,330!2027-03-15,548,270!2026-01-23,308,290-->
+That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}. <!--SR:!2029-10-07,1405,350!2027-03-15,548,270!2026-01-23,308,290-->
 
 Note that {@{$\ (x)_{0}\equiv 1\ ,$ by convention}@}, because {@{it is an [empty product](empty%20product.md)}@}. {@{The notations $\ x^{\underline {n} }{\ }$ for the falling factorial and $\ x^{\overline {n} }{\ }$ for the rising factorial}@} are also often used.<sup>[\[5\]](#^ref-5)</sup> (Confusingly, {@{the Pochhammer symbol that many use for _falling_ factorials}@} is {@{used in [special functions](special%20functions.md) for _rising_ factorials}@}.) <!--SR:!2029-07-02,1329,350!2029-04-10,1262,350!2029-04-07,1260,350!2029-08-26,1372,350!2025-12-04,311,330-->
 
@@ -63,11 +63,11 @@ In contrast, {@{the sum $\sum _{i=0}^{n}i^{k}$ in the standard basis}@} is {@{gi
 
 - see: [Lah numbers](Lah%20number.md)
 
-{@{The Lah numbers $L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }$}@} are {@{sometimes called Stirling numbers of the third kind}@}.<sup>[\[6\]](#^ref-6)</sup> By convention, {@{$L(0,0)=1$ and $L(n,k)=0$ if $n<k$ or $k=0<n$}@}. <!--SR:!2029-07-19,1342,350!2029-09-15,1388,350!2025-12-02,309,330-->
+{@{The Lah numbers $L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }$}@} are {@{sometimes called Stirling numbers of the third kind}@}.<sup>[\[6\]](#^ref-6)</sup> By convention, {@{$L(0,0)=1$ and $L(n,k)=0$ if $n<k$ or $k=0<n$}@}. <!--SR:!2029-07-19,1342,350!2029-09-15,1388,350!2029-10-08,1406,350-->
 
 These numbers are {@{coefficients expressing falling factorials in terms of rising factorials and vice versa}@}: {@{<p> $x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}\quad$ and $\quad (x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$}@} <!--SR:!2029-04-26,1274,350!2025-12-10,316,330-->
 
-As above, this means they {@{express the change of basis between the bases $(x)_{0},(x)_{1},(x)_{2},\cdots$ and $x^{(0)},x^{(1)},x^{(2)},\cdots$, completing the diagram}@}. In particular, {@{one formula is the inverse of the other}@}, thus: {@{$$\sum _{j=k}^{n}(-1)^{j-k}L(n,j)L(j,k)=\delta _{n,k}.$$}@} <!--SR:!2025-12-02,309,330!2029-07-13,1338,350!2029-08-24,1370,350-->
+As above, this means they {@{express the change of basis between the bases $(x)_{0},(x)_{1},(x)_{2},\cdots$ and $x^{(0)},x^{(1)},x^{(2)},\cdots$, completing the diagram}@}. In particular, {@{one formula is the inverse of the other}@}, thus: {@{$$\sum _{j=k}^{n}(-1)^{j-k}L(n,j)L(j,k)=\delta _{n,k}.$$}@} <!--SR:!2028-09-12,1015,330!2029-07-13,1338,350!2029-08-24,1370,350-->
 
 Similarly, {@{composing the change of basis from $x^{(n)}$ to $x^{n}$ with the change of basis from $x^{n}$ to $(x)_{n}$}@} gives {@{the change of basis directly from $x^{(n)}$ to $(x)_{n}$}@}: {@{$$L(n,k)=\sum _{j=k}^{n}{\biggl [}{n \atop j}{\biggr ]}{\biggl \{}{\!j\! \atop \!k\!}{\biggr \} },$$}@} and similarly for other compositions. In {@{terms of matrices}@}, if {@{$L$ denotes the matrix with entries $L_{nk}=L(n,k)$ and $L^{-}$ denotes the matrix with entries $L_{nk}^{-}=(-1)^{n-k}L(n,k)$}@}, then {@{one is the inverse of the other: $L^{-}=L^{-1}$}@}. Composing {@{the matrix of unsigned Stirling numbers of the first kind with the matrix of Stirling numbers of the second kind}@} gives {@{the Lah numbers: $L=|s|\cdot S$}@}. <!--SR:!2025-12-05,312,330!2028-04-12,949,330!2026-02-08,312,290!2029-09-29,1400,350!2028-03-18,930,330!2025-12-09,315,330!2028-02-03,898,330!2026-01-08,340,346-->
 

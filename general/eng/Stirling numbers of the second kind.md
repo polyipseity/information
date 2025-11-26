@@ -77,7 +77,7 @@ Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2}
 
 ### identities
 
-{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-12-02,306,330!2028-03-26,935,330-->
+{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2029-09-25,1393,350!2028-03-26,935,330-->
 
 - increment by binomial coefficient ::@:: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}{n \choose j}\left\{ {j \atop k}\right\}$$ \(annotation: Choose _n_ - _j_ elements from _n_ + 1 elements to form a maybe empty partition. Add the 1 element to ensure it is nonempty. Partition the remaining _j_ elements into _k_ partitions.\) <!--SR:!2025-12-05,256,270!2027-07-16,679,310-->
 - increment by combinatorial argument ::@:: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}(k+1)^{n-j}\left\{ {j \atop k}\right\}$$ \(annotation: Each summation term finds the number given that the $j + 1$-th element is _not_ in a partition with any element before it _and_ elements after the $j + 1$-th are in a partition with any element before it. The uniqueness is easily seen. The completeness is seen by considering the maximum of the minimums of the partitions.\) <!--SR:!2026-06-03,285,250!2025-12-16,263,270-->
@@ -91,7 +91,7 @@ This can be derived by {@{using [inclusion-exclusion](inclusion–exclusion%20pr
 
 Additionally, this formula is {@{a special case of the _k_-th [forward difference](finite%20difference.md) of the [monomial](monomial.md) $x^{n}$ evaluated at _x_ = 0}@}: {@{$$\Delta ^{k}x^{n}=\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}(x+j)^{n}.$$}@} Because {@{the [Bernoulli polynomials](Bernoulli%20polynomials.md) may be written in terms of these forward differences}@}, one {@{immediately obtains a relation in the [Bernoulli numbers](bernoulli%20number.md)}@}: {@{$$B_{m}(0) = \sum_{k = 0}^m \frac {(-1)^k} {k + 1} \left.\left(\Delta^k x^m\right)\right|_{x = 0} = \sum _{k=0}^{m}{\frac {(-1)^{k}k!}{k+1} }\left\{ {m \atop k}\right\}.$$}@} <!--SR:!2025-12-14,262,270!2026-03-26,310,250!2026-06-20,394,290!2026-12-03,560,310!2026-01-21,182,210-->
 
-The evaluation of {@{incomplete exponential [Bell polynomial](Bell%20polynomials.md) _B_<sub>_n_,_k_</sub>(_x_<sub>1</sub>,_x_<sub>2</sub>,...) on the sequence of ones}@} equals {@{a Stirling number of the second kind: $$\left\{ {n \atop k}\right\}=B_{n,k}(1,1,\dots ,1) \,.$$}@} <!--SR:!2028-02-10,900,330!2025-12-02,254,270-->
+The evaluation of {@{incomplete exponential [Bell polynomial](Bell%20polynomials.md) _B_<sub>_n_,_k_</sub>(_x_<sub>1</sub>,_x_<sub>2</sub>,...) on the sequence of ones}@} equals {@{a Stirling number of the second kind: $$\left\{ {n \atop k}\right\}=B_{n,k}(1,1,\dots ,1) \,.$$}@} <!--SR:!2028-02-10,900,330!2027-10-21,688,270-->
 
 Another explicit formula given in {@{the _NIST Handbook of Mathematical Functions_}@} is {@{$$\left\{ {n \atop k}\right\}=\sum _{\begin{array}{c}c_{1}+\ldots +c_{k}=n-k\\c_{1},\ldots ,\ c_{k}\ \geq \ 0\end{array} }1^{c_{1} }2^{c_{2} }\cdots k^{c_{k} } \,.$$}@} <!--SR:!2025-12-12,316,330!2026-11-12,361,230-->
 

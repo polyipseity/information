@@ -17,7 +17,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - cycle forward ::@:: \<Tab\> <!--SR:!2026-06-18,886,348!2025-12-30,788,328-->
 - cycle backward ::@:: \<Ctrl\>+p <!--SR:!2026-01-16,805,328!2026-11-07,912,288-->
-- show possibilities ::@:: \<Ctrl\>+d <!--SR:!2028-09-13,1179,213!2025-12-02,306,228-->
+- show possibilities ::@:: \<Ctrl\>+d <!--SR:!2028-09-13,1179,213!2028-08-11,983,248-->
 
 ## pattern
 

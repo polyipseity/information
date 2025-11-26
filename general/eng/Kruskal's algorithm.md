@@ -20,7 +20,7 @@ tags:
 <!-- markdownlint MD028 -->
 
 > - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-12-04,290,330!2029-07-05,1312,350-->
-> - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2025-12-02,289,330!2025-12-09,294,330-->
+> - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2029-07-08,1314,350!2025-12-09,294,330-->
 > - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2027-05-03,562,270!2027-06-07,582,250-->
 
 {@{__Kruskal's algorithm__}@}<sup>[\[1\]](#^ref-1)</sup> finds {@{a [minimum spanning forest](minimum%20spanning%20tree.md) of an undirected [edge-weighted graph](glossary%20of%20graph%20theory.md#weighted%20graph)}@}. If {@{the graph is [connected](connectivity%20(graph%20theory).md)}@}, it {@{finds a [minimum spanning tree](minimum%20spanning%20tree.md)}@}. It is {@{a [greedy algorithm](greedy%20algorithm.md) that in each step adds to the forest the lowest-weight edge that will not form a [cycle](cycle%20(graph%20theory).md)}@}.<sup>[\[2\]](#^ref-2)</sup> {@{The key steps of the algorithm}@} are {@{[sorting](sorting.md) and the use of a [disjoint-set data structure](disjoint-set%20data%20structure.md) to detect cycles}@}. Its running time is {@{dominated by the time to sort all of the graph edges by their weight}@}. <!--SR:!2029-01-11,1174,350!2029-02-26,1210,350!2029-04-18,1251,350!2029-02-09,1198,350!2027-12-07,845,330!2028-12-31,1167,350!2029-06-24,1302,350!2025-12-09,294,330-->
@@ -39,7 +39,7 @@ The algorithm performs the following steps:
   - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-12-09,294,330!2028-12-13,1153,350-->
   - If not, ::@:: add the edge to the forest, combining two trees into a single tree. <!--SR:!2029-03-14,1223,350!2029-04-02,1240,350-->
 
-At {@{the termination of the algorithm}@}, {@{the forest forms a minimum spanning forest of the graph}@}. If {@{the graph is connected}@}, the forest {@{has a single component and forms a minimum spanning tree}@}. <!--SR:!2025-12-04,290,330!2029-01-19,1182,350!2025-12-08,294,330!2025-12-02,289,330-->
+At {@{the termination of the algorithm}@}, {@{the forest forms a minimum spanning forest of the graph}@}. If {@{the graph is connected}@}, the forest {@{has a single component and forms a minimum spanning tree}@}. <!--SR:!2025-12-04,290,330!2029-01-19,1182,350!2025-12-08,294,330!2029-07-09,1315,350-->
 
 ## pseudocode
 
@@ -122,7 +122,7 @@ We show that {@{the following proposition ___P___ is true by [induction](mathema
 - Now assume {@{___P___ is true for some non-final edge set _F_}@} and {@{let _T_ be a minimum spanning tree that contains _F_}@}.
   - If {@{the next chosen edge _e_ is also in _T_}@}, then {@{___P___ is true for _F_ + _e_}@}.
   - Otherwise, if {@{_e_ is not in _T_}@} then {@{_T_ + _e_ has a cycle _C_}@}. The cycle _C_ contains {@{edges which do not belong to _F_ + _e_}@}, since {@{_e_ does not form a cycle when added to _F_ but does in _T_}@}. Let {@{_f_ be an edge which is in _C_ but not in _F_ + _e_}@}. Note that {@{_f_ also belongs to _T_, since _f_ belongs to _T_ + _e_ but not _F_ + _e_}@}. By ___P___, {@{_f_ has not been considered by the algorithm}@}. _f_ {@{must therefore have a weight at least as large as _e_}@}. Then {@{_T_ − _f_ + _e_ is a tree, and it has the same or less weight as _T_}@}. However {@{since _T_ is a minimum spanning tree then _T_ − _f_ + _e_ has the same weight as _T_}@}, otherwise {@{we get a contradiction and _T_ would not be a minimum spanning tree}@}. So {@{_T_ − _f_ + _e_ is a minimum spanning tree containing _F_ + _e_}@} and {@{again ___P___ holds}@}.
-- Therefore, by {@{the principle of induction}@}, {@{___P___ holds when _F_ has become a spanning tree}@}, which is {@{only possible if _F_ is a minimum spanning tree itself}@}. <!--SR:!2029-02-20,1205,350!2029-01-06,1170,350!2029-04-02,1239,350!2025-12-08,294,330!2025-12-03,290,330!2028-11-26,1138,350!2028-10-22,1110,350!2025-12-08,294,330!2029-06-20,1300,350!2025-12-02,288,330!2029-04-20,1254,350!2028-11-03,1119,350!2027-05-20,622,310!2025-12-07,293,330!2025-12-07,293,330!2026-12-17,551,310!2029-06-22,1301,350!2027-08-26,765,330!2027-10-03,794,330!2029-03-06,1217,350!2029-03-04,1217,350!2025-12-08,294,330!2029-06-20,1299,350-->
+- Therefore, by {@{the principle of induction}@}, {@{___P___ holds when _F_ has become a spanning tree}@}, which is {@{only possible if _F_ is a minimum spanning tree itself}@}. <!--SR:!2029-02-20,1205,350!2029-01-06,1170,350!2029-04-02,1239,350!2025-12-08,294,330!2025-12-03,290,330!2028-11-26,1138,350!2028-10-22,1110,350!2025-12-08,294,330!2029-06-20,1300,350!2029-07-04,1310,350!2029-04-20,1254,350!2028-11-03,1119,350!2027-05-20,622,310!2025-12-07,293,330!2025-12-07,293,330!2026-12-17,551,310!2029-06-22,1301,350!2027-08-26,765,330!2027-10-03,794,330!2029-03-06,1217,350!2029-03-04,1217,350!2025-12-08,294,330!2029-06-20,1299,350-->
 
 ## parallel algorithm
 

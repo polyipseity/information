@@ -1002,7 +1002,7 @@ tags:
 > 3. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a more curvatured decision boundary than well-fitted model.
 > 4. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a less curvatured decision boundary than well-fitted model.
 >
-> - solution: {@{1, 3}@} <!--SR:!2025-12-02,267,330-->
+> - solution: {@{1, 3}@} <!--SR:!2029-03-31,1215,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1280,7 +1280,7 @@ tags:
 > 3. It is not a differentiable operation.
 > 4. The number of learnable parameters in a pooling layer is the same as the filter size.
 >
-> - solution: {@{3, 4}@} <!--SR:!2025-12-02,267,330-->
+> - solution: {@{3, 4}@} <!--SR:!2029-03-30,1214,350-->
 
 <!-- markdownlint MD028 -->
 

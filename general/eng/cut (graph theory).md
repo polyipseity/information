@@ -27,7 +27,7 @@ tags:
 
 In {@{[graph theory](graph%20theory.md)}@}, a __cut__ is {@{a [partition](partition%20of%20a%20set.md) of the [vertices](vertex%20(graph%20theory).md) of a [graph](graph%20(discrete%20mathematics).md) into two [disjoint subsets](disjoint%20sets.md)}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Any cut}@} determines {@{a __cut-set__, the set of edges that have one endpoint in each subset of the partition}@}. {@{These edges}@} are {@{said to __cross__ the cut}@}. In {@{a [connected graph](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{each cut-set}@} determines {@{a unique cut}@}, and in some cases cuts are {@{identified with their cut-sets rather than with their vertex partitions}@}. <!--SR:!2029-09-05,1380,350!2029-08-02,1354,350!2029-04-27,1274,350!2029-07-20,1342,350!2025-12-05,310,330!2025-12-06,311,330!2025-12-06,311,330!2029-09-24,1393,350!2029-08-17,1366,350!2025-12-15,24,367-->
 
-In {@{a [flow network](flow%20network.md)}@}, {@{an __s–t cut__}@} is {@{a cut that requires the [_source_](glossary%20of%20graph%20theory.md#direction) and the [_sink_](glossary%20of%20graph%20theory.md#direction) to be in different subsets}@}, and its _cut-set_ only consists of {@{edges going from the source's side to the sink's side}@}. {@{The _capacity_ of an s–t cut}@} is defined as {@{the sum of the capacity of each edge in the _cut-set_}@}. <!--SR:!2025-12-09,314,330!2025-12-07,312,330!2027-03-30,674,330!2027-10-27,832,330!2025-12-02,307,330!2025-12-08,313,330-->
+In {@{a [flow network](flow%20network.md)}@}, {@{an __s–t cut__}@} is {@{a cut that requires the [_source_](glossary%20of%20graph%20theory.md#direction) and the [_sink_](glossary%20of%20graph%20theory.md#direction) to be in different subsets}@}, and its _cut-set_ only consists of {@{edges going from the source's side to the sink's side}@}. {@{The _capacity_ of an s–t cut}@} is defined as {@{the sum of the capacity of each edge in the _cut-set_}@}. <!--SR:!2025-12-09,314,330!2025-12-07,312,330!2027-03-30,674,330!2027-10-27,832,330!2029-09-29,1397,350!2025-12-08,313,330-->
 
 ## definition
 
@@ -35,7 +35,7 @@ In {@{a [flow network](flow%20network.md)}@}, {@{an __s–t cut__}@} is {@{a cut
 
 In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2025-12-03,308,330!2029-10-02,1402,350!2028-04-23,958,330!2025-12-11,316,330!2028-04-04,941,330-->
 
-{@{A __bond__}@} is {@{a cut-set that does not have any other cut-set as a proper subset}@}. <!--SR:!2025-12-02,307,330!2025-12-04,309,330-->
+{@{A __bond__}@} is {@{a cut-set that does not have any other cut-set as a proper subset}@}. <!--SR:!2029-09-30,1398,350!2025-12-04,309,330-->
 
 ## minimum cut
 

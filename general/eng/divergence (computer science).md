@@ -12,15 +12,15 @@ tags:
 
 - {@{"Terminating"}@} redirects here. For other uses, see {@{[Termination](termination%20(disambiguation).md)}@}. <!--SR:!2026-07-17,229,330!2025-12-09,62,310-->
 
-In {@{[computer science](computer%20science.md)}@}, {@{a computation is said to __diverge__}@} if {@{it does not terminate or terminates in an exceptional [state](state%20(computer%20science).md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;377&hairsp;</sup> Otherwise {@{it is said to __converge__}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> In domains where {@{computations are expected to be infinite}@}, such as {@{[process calculi](process%20calculi.md)}@}, a computation is said to diverge if {@{it fails to be productive \(i.e. to continue producing an action within a finite amount of time\)}@}. <!--SR:!2025-12-09,62,310!2025-12-15,67,310!2026-07-18,230,330!2025-12-14,66,310!2025-12-14,66,310!2025-12-02,56,310!2025-12-12,64,310-->
+In {@{[computer science](computer%20science.md)}@}, {@{a computation is said to __diverge__}@} if {@{it does not terminate or terminates in an exceptional [state](state%20(computer%20science).md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;377&hairsp;</sup> Otherwise {@{it is said to __converge__}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> In domains where {@{computations are expected to be infinite}@}, such as {@{[process calculi](process%20calculi.md)}@}, a computation is said to diverge if {@{it fails to be productive \(i.e. to continue producing an action within a finite amount of time\)}@}. <!--SR:!2025-12-09,62,310!2025-12-15,67,310!2026-07-18,230,330!2025-12-14,66,310!2025-12-14,66,310!2026-08-02,243,330!2025-12-12,64,310-->
 
 ## definitions
 
-{@{Various subfields of computer science}@} use {@{varying, but mathematically precise, definitions}@} of what it means for {@{a computation to converge or diverge}@}. <!--SR:!2025-12-02,56,310!2025-12-13,65,310!2025-12-11,63,310-->
+{@{Various subfields of computer science}@} use {@{varying, but mathematically precise, definitions}@} of what it means for {@{a computation to converge or diverge}@}. <!--SR:!2026-08-01,242,330!2025-12-13,65,310!2025-12-11,63,310-->
 
 ### rewriting
 
-In {@{[abstract rewriting](abstract%20rewriting.md)}@}, {@{an [abstract rewriting system](abstract%20rewriting%20system.md) is called convergent}@} if it is {@{both [confluent](confluent%20(abstract%20rewriting).md) and [terminating](abstract%20rewriting%20system.md#termination%20and%20convergence)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-14,66,310!2025-12-10,63,310!2025-12-02,56,310-->
+In {@{[abstract rewriting](abstract%20rewriting.md)}@}, {@{an [abstract rewriting system](abstract%20rewriting%20system.md) is called convergent}@} if it is {@{both [confluent](confluent%20(abstract%20rewriting).md) and [terminating](abstract%20rewriting%20system.md#termination%20and%20convergence)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-14,66,310!2025-12-10,63,310!2026-08-03,244,330-->
 
 The notation {@{_t_ ↓ _n_}@} means that {@{_t_ reduces to normal form _n_}@} in {@{zero or more [reductions](reduction%20(abstract%20rewriting).md)}@}, {@{_t_<!-- markdown separator -->↓}@} means {@{_t_ reduces to some normal form in zero or more reductions}@}, and {@{_t_<!-- markdown separator -->↑}@} means {@{_t_ does not reduce to a normal form}@}; the latter is {@{impossible in a terminating rewriting system}@}. <!--SR:!2025-12-03,57,310!2026-07-26,237,330!2025-12-04,58,310!2025-12-04,58,310!2025-12-06,59,310!2025-12-15,67,310!2025-12-13,65,310!2025-12-08,61,310-->
 

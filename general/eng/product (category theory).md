@@ -79,7 +79,7 @@ Other examples:
 
 ## discussion
 
-An example {@{in which the product does not exist}@}: In {@{the category of fields}@}, {@{the product $\mathbb {Q} \times F_{p}$ does not exist}@}, since {@{there is no field with homomorphisms to both $\mathbb {Q}$ and $F_{p}$}@}. <!--SR:!2025-12-03,250,330!2025-12-13,256,330!2025-12-02,249,330!2025-12-22,264,330-->
+An example {@{in which the product does not exist}@}: In {@{the category of fields}@}, {@{the product $\mathbb {Q} \times F_{p}$ does not exist}@}, since {@{there is no field with homomorphisms to both $\mathbb {Q}$ and $F_{p}$}@}. <!--SR:!2025-12-03,250,330!2025-12-13,256,330!2028-03-08,827,330!2025-12-22,264,330-->
 
 Another example: {@{An [empty product](empty%20product.md) \(that is, $I$ is the [empty set](empty%20set.md)\)}@} is {@{the same as a [terminal object](terminal%20object.md) (annotation: an empty product degenerates into requiring an unique morphism from every object)}@}, and {@{some categories, such as the category of [infinite groups](infinite%20group.md)}@}, {@{do not have a terminal object}@}: given {@{any infinite group $G$}@} there are {@{infinitely many morphisms $\mathbb {Z} \to G$, so $G$ cannot be terminal}@}. <!--SR:!2025-12-04,251,330!2025-12-31,272,330!2025-12-09,255,330!2027-12-19,804,330!2026-01-17,285,330!2026-12-01,508,310-->
 

@@ -136,7 +136,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured <!--SR:!2026-02-10,254,330!2026-01-24,237,330-->
   - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\) <!--SR:!2026-05-16,334,350!2026-03-04,276,330-->
-  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2025-12-02,162,290!2026-01-24,237,330-->
+  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2027-09-17,654,310!2026-01-24,237,330-->
 
 ## income statement (cost of goods sold)
 
