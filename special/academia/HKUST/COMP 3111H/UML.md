@@ -13,6 +13,10 @@ tags:
 
 # unified modeling language
 
+- COMP 3111H
+
+---
+
 - see: [general/Unified Modeling Language](../../../../general/Unified%20Modeling%20Language.md), [UML](UML.md)
 
 {@{__Unified Modeling Language__ \(__UML__\)}@} is {@{a general-purpose, object-oriented, visual modeling language}@} that provides {@{a way to visualize the architecture and design of a system}@}; like {@{a blueprint}@}.
@@ -458,7 +462,7 @@ It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary 
 
 When {@{specifying boundaries class for a model}@}, begin by creating {@{a single boundary object for every actor—use case combination}@}. For {@{human actors}@} this object represents {@{the main user-interface window through which they interact with the system}@}, while for {@{non-human or external system actors}@} it stands for {@{the communication endpoint that connects to those systems}@}. {@{This one-to-one mapping}@} keeps {@{boundary responsibilities focused and simplifies later refinement}@}. If possible, {@{reuse the same boundary object}@} for an actor, e.g. {@{the boundary object `ProfessorUI` for the actor `Professor`}@}, which includes {@{`CreateScheduleUI`, `SelectCoursesUI` among others}@}.
 
-{@{Boundary objects}@} interact {@{only with control objects and actors}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in the system interface}@}. {@{Actors}@} interact {@{only with boundary objects}@}. These result in a {@{well structured and maintainable}@} system.
+{@{Boundary objects}@} interact {@{only with control objects and actors}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in the system interface}@}. {@{Actors}@} interact {@{only with boundary objects}@}. They must _not_ {@{interact with other boundary objects directly}@}. These result in a {@{well structured and maintainable}@} system.
 
 #### entity classes
 
@@ -793,4 +797,4 @@ When a use case appears to have {@{only communication associations}@}—such as 
 
 ### common mistakes: missing nonfunctional requirements
 
-{@{Nonfunctional requirements}@} (e.g. {@{performance, reliability, security}@}) should be represented {@{alongside functional ones}@}. Yet students often leave {@{these out of their use-case diagrams or class models}@}, resulting in {@{a specification that looks complete}@} but misses {@{critical quality attributes}@}. The root cause is the misconception that UML only describes {@{behaviour and structure}@}. To fix this, add {@{text describing nonfunctional requirements}@} to {@{the relevant use cases; or the entire system for whole-system requirements}@}.
+{@{Nonfunctional requirements}@} (e.g. {@{performance, reliability, security}@}) should be represented {@{alongside functional ones}@}. Yet students often leave {@{these out of their use-case diagrams or class models}@}, resulting in {@{a specification that looks complete}@} but misses {@{critical quality attributes}@}. {@{The root cause}@} is {@{the misconception that UML only describes behaviour and structure}@}. To {@{fix this}@}, add {@{text describing nonfunctional requirements}@} to {@{the relevant use cases}@}; or {@{the entire system for whole-system requirements}@}.

@@ -1263,6 +1263,60 @@ The content is in teaching order.
 - datetime: 2025-11-06T18:00:00+08:00/2025-11-06T19:50:00+08:00, PT1H50M
 - status: unscheduled
 
+## week 11 pre-lecture
+
+- topic:
+- [software design patterns](software%20design%20patterns.md)
+  - [§ application](software%20design%20patterns.md#application)
+  - [§ problems with inheritance](software%20design%20patterns.md#problems%20with%20inheritance)
+  - [§ principles](software%20design%20patterns.md#principles)
+  - [§ strategy pattern](software%20design%20patterns.md#strategy%20pattern)
+  - [§ categories](software%20design%20patterns.md#categories)
+  - [§ documentation](software%20design%20patterns.md#documentation)
+  - [§ observer pattern](software%20design%20patterns.md#observer%20pattern)
+- quiz: [quiz 17](questions/quiz%2017.md)
+- [software design patterns](software%20design%20patterns.md)
+  - [§ mediator pattern](software%20design%20patterns.md#mediator%20pattern)
+  - [§ proxy pattern](software%20design%20patterns.md#proxy%20pattern)
+  - [§ bridge pattern](software%20design%20patterns.md#bridge%20pattern)
+  - [§ singleton pattern](software%20design%20patterns.md#singleton%20pattern)
+  - [§ factory pattern](software%20design%20patterns.md#factory%20pattern)
+  - [§ usage](software%20design%20patterns.md#usage)
+  - [§ advantages](software%20design%20patterns.md#advantages)
+  - [§ disadvantages](software%20design%20patterns.md#disadvantages)
+  - [§ anti-patterns](software%20design%20patterns.md#anti-patterns)
+  - [§ spaghetti code](software%20design%20patterns.md#spaghetti%20code)
+  - [§ god class](software%20design%20patterns.md#god%20class)
+- quiz: [quiz 18](questions/quiz%2018.md)
+- [questions § week 11 pre-lecture](questions/index.md#week%2011%20pre-lecture)
+
+## week 11 lab
+
+- datetime: 2025-11-13T18:00:00+08:00/2025-11-13T19:50:00+08:00, PT1H50M
+- status: unscheduled
+
+## week 12 pre-lecture
+
+- topic:
+- quiz: [quiz 19](questions/quiz%2019.md)
+- quiz: [quiz 20](questions/quiz%2020.md)
+- [questions § week 12 pre-lecture](questions/index.md#week%2012%20pre-lecture)
+
+## week 12 lab
+
+- datetime: 2025-11-20T18:00:00+08:00/2025-11-20T19:50:00+08:00, PT1H50M
+- status: unscheduled
+
+## week 13 pre-lecture
+
+- topic: \(none\)
+- [questions § week 13 pre-lecture](questions/index.md#week%2013%20pre-lecture)
+
+## week 13 lab
+
+- datetime: 2025-11-27T18:00:00+08:00/2025-11-27T19:50:00+08:00, PT1H50M
+- status: unscheduled
+
 ## aftermath
 
 ### total
