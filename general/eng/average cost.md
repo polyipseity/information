@@ -35,7 +35,7 @@ In {@{[economics](economics.md)}@}, {@{__average cost__ \(__AC__\) or __unit cos
 
 ## long-run average cost
 
-{@{Long-run average cost}@} is {@{the unit cost of producing a certain output when all inputs, even [physical capital](physical%20capital.md), are variable}@}. {@{The [behavioral assumption](behavioral%20assumption.md)}@} is that {@{the firm will choose that combination of inputs that produce the desired quantity at the lowest possible cost}@}. <!--SR:!2026-03-06,317,342!2027-02-10,557,322!2028-01-30,789,330!2025-12-03,240,330-->
+{@{Long-run average cost}@} is {@{the unit cost of producing a certain output when all inputs, even [physical capital](physical%20capital.md), are variable}@}. {@{The [behavioral assumption](behavioral%20assumption.md)}@} is that {@{the firm will choose that combination of inputs that produce the desired quantity at the lowest possible cost}@}. <!--SR:!2026-03-06,317,342!2027-02-10,557,322!2028-01-30,789,330!2028-02-03,792,330-->
 
 {@{A long-run average cost curve}@} is typically {@{downward sloping at relatively low levels of output, and upward or downward sloping at relatively high levels of output}@}. Most commonly, {@{the long-run average cost curve is U-shaped}@}, by definition {@{reflecting economies of scale where negatively sloped and diseconomies of scale where positively sloped}@}. <!--SR:!2026-03-06,317,342!2026-03-30,336,342!2026-02-04,293,342!2026-03-30,336,342-->
 
@@ -68,7 +68,7 @@ When {@{average cost is declining as output increases}@}, {@{marginal cost is le
 1. {@{The Average Fixed Cost curve \(AFC\)}@} starts {@{from a height and goes on declining continuously as production increases}@}.
 2. {@{The Average Variable Cost curve, Average Cost curve and the Marginal Cost curve}@} start {@{from a height, reach the minimum points, then rise sharply and continuously}@}.
 3. {@{The Average Fixed Cost curve}@} {@{approaches zero asymptotically}@}. {@{The Average Variable Cost curve}@} is {@{never parallel to or as high as the Average Cost curve}@} due to {@{the existence of positive Average Fixed Costs at all levels of production}@}; but {@{the Average Variable Cost curve asymptotically approaches the Average Cost curve from below}@}.
-4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves, though the Average Variable Cost curve attains the minimum point prior to that of the Average Cost curve}@}. <!--SR:!2026-01-16,277,342!2027-01-07,539,322!2027-10-24,754,330!2027-09-24,742,330!2026-01-24,284,342!2028-01-12,836,342!2027-09-03,641,413!2027-08-25,634,413!2027-08-04,616,413!2025-12-04,121,393!2025-12-03,120,393!2027-03-30,483,393-->
+4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves, though the Average Variable Cost curve attains the minimum point prior to that of the Average Cost curve}@}. <!--SR:!2026-01-16,277,342!2027-01-07,539,322!2027-10-24,754,330!2027-09-24,742,330!2026-01-24,284,342!2028-01-12,836,342!2027-09-03,641,413!2027-08-25,634,413!2027-08-04,616,413!2025-12-04,121,393!2027-09-08,644,413!2027-03-30,483,393-->
 
 ## see also
 

@@ -38,7 +38,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="5c03"--><!-- The following content is generated at 2024-01-04T20:17:51.851124+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←constructions, car and ship bodies <!--SR:!2025-12-03,733,330!2027-08-27,1249,350-->
+- _(begin)_→::@::←constructions, car and ship bodies <!--SR:!2035-01-16,3331,350!2027-08-27,1249,350-->
 - constructions, car and ship bodies→::@::←_(end)_ <!--SR:!2026-11-30,962,330!2026-03-31,680,310-->
 
 <!--/pytextgen-->

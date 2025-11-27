@@ -374,7 +374,7 @@ The content is in teaching order.
   - [§ overview](../../../../general/principal%20component%20analysis.md#overview)
   - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
   - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
-    - § computing PCA using the covariance method > matrix __X__ ::@:: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2025-12-03,405,377!2026-03-23,522,397-->
+    - § computing PCA using the covariance method > matrix __X__ ::@:: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2031-08-27,2093,397!2026-03-23,522,397-->
     - § computing PCA using the covariance method > covariance matrix __C__ ::@:: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2031-03-17,1961,397!2030-02-18,1661,397-->
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::@:: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2029-12-17,1615,397!2028-06-15,1157,377-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)

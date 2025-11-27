@@ -632,7 +632,7 @@ tags:
 
 > Q4. To select the best K for our problem, we often divide our data into the training set, validation set, and test set, and check the performance of some K on the validation set. Explain why we do this on the validation set but not the training or test set.
 >
-> - solution: {@{(for reference) If we were to do so on the training set, the optimal K would have been 1. If we were to do so on the test set, then it would have defeated the purpose of the test data – reflecting the performance of our model on unseen data.}@} <!--SR:!2025-12-03,268,330-->
+> - solution: {@{(for reference) If we were to do so on the training set, the optimal K would have been 1. If we were to do so on the test set, then it would have defeated the purpose of the test data – reflecting the performance of our model on unseen data.}@} <!--SR:!2029-04-05,1219,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -748,7 +748,7 @@ tags:
 >        [0.78, 0.15, 0.10]])
 > ```
 >
-> - solution: {@{0, 1, 0, 2}@} <!--SR:!2025-12-03,268,330-->
+> - solution: {@{0, 1, 0, 2}@} <!--SR:!2029-04-04,1218,350-->
 
 <!-- markdownlint MD028 -->
 

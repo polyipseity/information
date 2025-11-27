@@ -269,7 +269,7 @@ conclusion: make progress
 
 ### test card
 
-When designing tests, you can use {@{test cards}@}. Test cards have {@{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2025-12-03,412,270-->
+When designing tests, you can use {@{test cards}@}. Test cards have {@{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270-->
 
 One test card is insufficient. Design {@{a series of experiments, rank them by cruicalness, and run experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2026-01-15,484,329-->
 

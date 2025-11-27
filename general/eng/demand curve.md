@@ -75,7 +75,7 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 - Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2028-11-21,1139,350!2029-01-07,1174,350-->
 - Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2027-09-12,772,330!2028-10-30,1122,350-->
 - Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2027-07-13,724,330!2027-05-28,698,330-->
-- Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2025-12-03,292,330!2028-12-25,1166,350-->
+- Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2028-07-23,963,330!2028-12-25,1166,350-->
 
 ### factors affecting market demand
 
@@ -100,11 +100,11 @@ There is {@{movement _along_ a demand curve}@} when {@{a change in price causes 
 
 - see: [price elasticity of demand](price%20elasticity%20of%20demand.md)
 
-{@{The price elasticity of demand}@} is {@{a measure of the sensitivity of the quantity variable, Q, to changes in the price variable, P}@}. Its value answers {@{the question of how much the quantity will change in percentage terms after a 1% change in the price}@}. This is thus important in {@{determining how revenue will change}@}. The elasticity is {@{negative because the price rises, and the quantity demanded falls, a consequence of the [law of demand](law%20of%20demand.md)}@}. <!--SR:!2028-12-23,1164,350!2028-11-03,1125,350!2025-12-03,292,330!2028-12-14,1157,350!2028-09-27,1095,350-->
+{@{The price elasticity of demand}@} is {@{a measure of the sensitivity of the quantity variable, Q, to changes in the price variable, P}@}. Its value answers {@{the question of how much the quantity will change in percentage terms after a 1% change in the price}@}. This is thus important in {@{determining how revenue will change}@}. The elasticity is {@{negative because the price rises, and the quantity demanded falls, a consequence of the [law of demand](law%20of%20demand.md)}@}. <!--SR:!2028-12-23,1164,350!2028-11-03,1125,350!2028-07-24,964,330!2028-12-14,1157,350!2028-09-27,1095,350-->
 
 The elasticity of demand indicates {@{how sensitive the demand for a good is to a price change}@}. If {@{the elasticity's [absolute value](absolute%20value.md) is between zero and 1, demand is said to be inelastic}@}; if {@{it equals 1, demand is "unitary elastic"}@}; if {@{it is greater than 1, demand is elastic}@}. A small value—inelastic demand—implies that {@{changes in price have little influence on demand}@}. High elasticity indicates that {@{consumers will respond to a price rise by buying much less of the good}@}. For examples of elasticities of particular goods, see the article section, ["Selected price elasticities"](price%20elasticity%20of%20demand.md#selected%20price%20elasticities). <!--SR:!2028-08-24,1067,350!2028-11-04,1126,350!2029-04-12,1249,350!2029-03-18,1230,350!2028-10-23,1116,350!2028-08-08,1055,350-->
 
-The elasticity of demand usually will {@{vary depending on the price}@}. If {@{the demand curve is linear}@}, {@{demand is inelastic at high prices and elastic at low prices, with unitary elasticity somewhere in between}@}. There does exist {@{a family of demand curves with constant elasticity for all prices}@}. They have {@{the demand equation $Q=aP^{c}$, where _c_ is the elasticity of demand and _a_ is a parameter for the size of the market}@}. These demand curves are {@{smoothly curving with steep slopes for high values of price and gentle slopes for low values}@}. <!--SR:!2028-12-19,1161,350!2025-12-03,292,330!2027-03-13,577,310!2025-12-05,294,330!2025-12-05,294,330!2028-10-20,1113,350-->
+The elasticity of demand usually will {@{vary depending on the price}@}. If {@{the demand curve is linear}@}, {@{demand is inelastic at high prices and elastic at low prices, with unitary elasticity somewhere in between}@}. There does exist {@{a family of demand curves with constant elasticity for all prices}@}. They have {@{the demand equation $Q=aP^{c}$, where _c_ is the elasticity of demand and _a_ is a parameter for the size of the market}@}. These demand curves are {@{smoothly curving with steep slopes for high values of price and gentle slopes for low values}@}. <!--SR:!2028-12-19,1161,350!2029-07-27,1332,350!2027-03-13,577,310!2025-12-05,294,330!2025-12-05,294,330!2028-10-20,1113,350-->
 
 ## taxes and subsidies
 
@@ -116,7 +116,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 
 - When the demand curve is perfectly inelastic \(vertical demand curve\), ::@:: all taxes are borne by the consumer. <!--SR:!2028-10-06,1101,350!2028-07-16,1036,350-->
 - When the demand curve is perfectly elastic \(horizontal demand curve\), ::@:: all taxes are borne by the supplier. <!--SR:!2028-10-30,1121,350!2028-01-16,829,330-->
-- If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2027-07-19,737,330!2025-12-03,292,330-->
+- If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2027-07-19,737,330!2029-07-31,1336,350-->
 
 ## derived demand
 

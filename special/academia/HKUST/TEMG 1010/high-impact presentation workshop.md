@@ -28,14 +28,14 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2029-07-12,1322,35
 
 - facial expression ::@:: Smile naturally. Not enough smile makes your presentation less engaging. Too much smile makes you look unnatural, and maybe even creepy... <!--SR:!2026-04-18,402,368!2026-04-13,397,368-->
 - facial movement ::@:: Exaggerate your facial movement as much as you can. Do not worry about being over-exaggerated — it is very difficult to do so even if you try really hard, and others would very unlikely to interpret it as over-exaggerated. <!--SR:!2029-02-26,1224,368!2025-12-27,290,348-->
-- looking direction ::@:: If you look up, it seems like you are recalling something from your memory. If you look down, it seems like you are feeling something. When presenting, avoid both of these, and look at the audience directly. <!--SR:!2025-12-03,293,330!2029-07-30,1336,350-->
+- looking direction ::@:: If you look up, it seems like you are recalling something from your memory. If you look down, it seems like you are feeling something. When presenting, avoid both of these, and look at the audience directly. <!--SR:!2029-08-04,1340,350!2029-07-30,1336,350-->
 - hand gesture ::@:: Somewhat arbitrary. It does not need to have any specific meaning, but it should sync with your speech. Another thing is that your hand gesture should vary naturally. <!--SR:!2029-07-28,1334,350!2029-07-17,1325,350-->
   - hand gesture / width ::@:: Hand gesture can be classified into off-body movement and on-body movement. You should have both, but too many on-body movement makes you look nervous. <!--SR:!2028-03-04,905,330!2028-02-18,892,330-->
   - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level hand gestures make the presentation less energetic. <!--SR:!2029-03-23,1234,350!2025-12-04,294,330-->
   - hand gesture / bouncing ::@:: Do not bounce your hand gesture! Changing your hand gesture continuously without stopping also makes you look nervous. <!--SR:!2028-02-24,897,330!2029-07-01,1311,350-->
 - leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience. <!--SR:!2029-06-24,1305,350!2028-02-17,891,330-->
   - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer. <!--SR:!2028-03-06,906,330!2029-01-06,1174,350-->
-- microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects. <!--SR:!2025-12-03,293,330!2029-07-24,1331,350-->
+- microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects. <!--SR:!2029-08-03,1339,350!2029-07-24,1331,350-->
 - speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2029-06-29,1310,350!2029-01-12,1178,350-->
 - filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead. <!--SR:!2029-07-11,1320,350!2028-02-02,880,330-->
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question. <!--SR:!2029-07-15,1323,350!2029-07-02,1312,350-->
@@ -52,5 +52,5 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2029-07-12,1322,35
 You will present well if {@{you have a good attitude towards your presentation}@}. <!--SR:!2028-11-28,1145,350-->
 
 - feeling ::@:: Try to feel like you were Obama presenting something. <!--SR:!2029-03-13,1225,350!2028-08-16,1061,350-->
-- belief ::@:: Authentically believe in what you are saying. <!--SR:!2025-12-03,293,330!2027-08-05,741,330-->
+- belief ::@:: Authentically believe in what you are saying. <!--SR:!2029-08-01,1337,350!2027-08-05,741,330-->
 - objective ::@:: Intend to contribute, not to convince or impress. Focus out. Become congruent. <!--SR:!2029-07-10,1319,350!2029-07-29,1335,350-->

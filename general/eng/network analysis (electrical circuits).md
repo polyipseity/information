@@ -94,7 +94,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### delta-to-star transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ \(annotation: mnemonic: 2 variables per term above, 1 below; 1 terms above, 3 below; inverse\) <!--SR:!2025-12-03,66,260!2025-12-21,62,260-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ \(annotation: mnemonic: 2 variables per term above, 1 below; 1 terms above, 3 below; inverse\) <!--SR:!2026-01-04,32,240!2025-12-21,62,260-->
 
 #### star-to-delta transformation equations
 
@@ -341,7 +341,7 @@ A popular form of {@{specifying the small signal equivalent circuit amongst tran
 >
 > {@{\[z\] parameter equivalent circuit showing dependent voltage generators}@} <!--SR:!2027-01-31,470,309!2026-01-23,225,329-->
 
-There will {@{always be dependent generators in a two-port parameter equivalent circuit}@}. This applies to {@{the \[h\] parameters as well as to the \[z\] and any other kind}@}. These dependencies {@{must be preserved when developing the equations in a larger linear network analysis}@}. <!--SR:!2026-05-28,341,349!2026-05-12,329,349!2025-12-03,193,310-->
+There will {@{always be dependent generators in a two-port parameter equivalent circuit}@}. This applies to {@{the \[h\] parameters as well as to the \[z\] and any other kind}@}. These dependencies {@{must be preserved when developing the equations in a larger linear network analysis}@}. <!--SR:!2026-05-28,341,349!2026-05-12,329,349!2028-03-16,834,330-->
 
 #### piecewise linear method
 

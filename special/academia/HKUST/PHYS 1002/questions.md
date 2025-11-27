@@ -194,7 +194,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 366 days
 >
 > - solution: {@{4}@}
-> - explanation: {@{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}@} <!--SR:!2028-04-28,1062,352!2025-12-03,322,272-->
+> - explanation: {@{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}@} <!--SR:!2028-04-28,1062,352!2029-04-07,1221,292-->
 
 ## 2024-07-09
 
@@ -427,7 +427,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. All of these stars take the same time to get to the main sequence
 >
 > - solution: {@{4}@}
-> - explanation: {@{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}@} <!--SR:!2025-12-03,391,381!2026-02-11,448,381-->
+> - explanation: {@{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}@} <!--SR:!2031-07-05,2040,401!2026-02-11,448,381-->
 
 <!-- markdownlint MD028 -->
 

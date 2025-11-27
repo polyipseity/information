@@ -91,7 +91,7 @@ The content is in teaching order.
   - PERMA limitations ::@:: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2026-03-28,422,377!2025-12-15,317,357-->
 - activity 1: PERMA assessment and reflection ::@:: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2026-04-23,443,377!2026-04-21,442,377-->
 - activity 2: STRONG debriefing
-  - STRONG debriefing / debrief ::@:: STRONG assess your job interests, NOT your job skills! <!--SR:!2026-04-13,435,377!2025-12-03,308,357-->
+  - STRONG debriefing / debrief ::@:: STRONG assess your job interests, NOT your job skills! <!--SR:!2026-04-13,435,377!2030-01-21,1510,377-->
 
 ## week 5 tutorial
 

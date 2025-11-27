@@ -42,7 +42,7 @@ The content is in teaching order.
 - topic: logistics; introduction; Bloomberg account; Bloomberg Market Concepts; 2025 Bloomberg Global Trading Challenge
 - FINA 3810
   - FINA 3810 / logistics
-  - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options, etc. <!--SR:!2025-12-03,57,310!2026-07-26,237,330-->
+  - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options, etc. <!--SR:!2026-08-06,246,330!2026-07-26,237,330-->
     - FINA 3810 / current topics / artificial intelligence \(AI\) ::@:: Is AI coming for finance jobs? Agentic AI, e.g. AlphaGPT, and so much more! <!--SR:!2026-07-31,241,330!2025-12-08,61,310-->
     - FINA 3810 / current topics / zero-day options ::@:: Why did S&P 500 suddenly drop? How did Goldman Sachs \(GS\) and Bank of America \(BoA\) interpret it differently? What are zero-day options and how they may cause a sudden drop? <!--SR:!2025-12-10,63,310!2026-07-21,233,330-->
 - [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform. <!--SR:!2025-12-09,62,310!2025-12-06,59,310-->
@@ -52,7 +52,7 @@ The content is in teaching order.
     - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2025-12-10,62,310!2025-12-07,60,310-->
     - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2025-12-12,64,310!2026-07-22,234,330-->
     - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2025-12-13,65,310!2025-12-13,65,310-->
-    - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2025-12-03,57,310!2026-03-14,127,290-->
+    - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2026-05-27,175,310!2026-03-14,127,290-->
     - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!2025-12-08,61,310!2025-12-10,63,310-->
 - FINA 3810
   - FINA 3810 / current topics

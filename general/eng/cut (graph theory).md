@@ -31,9 +31,9 @@ In {@{a [flow network](flow%20network.md)}@}, {@{an __s–t cut__}@} is {@{a cut
 
 ## definition
 
-{@{A __cut__ _C_ = (_S_, _T_)}@} is {@{a partition of _V_ of a graph _G_ = (_V_, _E_) into two subsets _S_ and _T_}@}. {@{The __cut-set__ of a cut _C_ = (_S_, _T_)}@} is {@{the set {(_u_, _v_) ∈ _E_ | _u_ ∈ _S_, _v_ ∈ _T_} of edges that have one endpoint in _S_ and the other endpoint in _T_}@}. If {@{_s_ and _t_ are specified vertices of the graph _G_}@}, then {@{an ___s_–_t_ cut__}@} is {@{a cut in which _s_ belongs to the set _S_ and _t_ belongs to the set _T_}@}. <!--SR:!2025-12-11,316,330!2026-11-16,543,310!2027-11-17,849,330!2025-12-03,308,330!2029-09-03,1378,350!2026-12-05,562,310!2026-12-24,573,310-->
+{@{A __cut__ _C_ = (_S_, _T_)}@} is {@{a partition of _V_ of a graph _G_ = (_V_, _E_) into two subsets _S_ and _T_}@}. {@{The __cut-set__ of a cut _C_ = (_S_, _T_)}@} is {@{the set {(_u_, _v_) ∈ _E_ | _u_ ∈ _S_, _v_ ∈ _T_} of edges that have one endpoint in _S_ and the other endpoint in _T_}@}. If {@{_s_ and _t_ are specified vertices of the graph _G_}@}, then {@{an ___s_–_t_ cut__}@} is {@{a cut in which _s_ belongs to the set _S_ and _t_ belongs to the set _T_}@}. <!--SR:!2025-12-11,316,330!2026-11-16,543,310!2027-11-17,849,330!2029-10-05,1402,350!2029-09-03,1378,350!2026-12-05,562,310!2026-12-24,573,310-->
 
-In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2025-12-03,308,330!2029-10-02,1402,350!2028-04-23,958,330!2025-12-11,316,330!2028-04-04,941,330-->
+In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2029-10-03,1400,350!2029-10-02,1402,350!2028-04-23,958,330!2025-12-11,316,330!2028-04-04,941,330-->
 
 {@{A __bond__}@} is {@{a cut-set that does not have any other cut-set as a proper subset}@}. <!--SR:!2029-09-30,1398,350!2025-12-04,309,330-->
 

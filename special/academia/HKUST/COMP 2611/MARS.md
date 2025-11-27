@@ -20,7 +20,7 @@ To invoke a system call, {@{specify the service to be called in `$v0` \(`$2`\) a
 Some common syscalls are provided below:
 
 - \(`$v0`=1\) `print_int` ::@:: Print an integer. <p> input: `$a0` \(`$4`\) is the integer to be printed. <!--SR:!2026-02-23,263,330!2028-02-08,807,330-->
-- \(`$v0`=2\) `print_float` ::@:: Print a float. <p> input: `$f12` is the float to be printed. <!--SR:!2026-02-15,255,330!2025-12-03,185,310-->
+- \(`$v0`=2\) `print_float` ::@:: Print a float. <p> input: `$f12` is the float to be printed. <!--SR:!2026-02-15,255,330!2028-02-12,801,330-->
 - \(`$v0`=3\) `print_double` ::@:: Print a double. <p> input: `$f13:$f12` is the double to be printed. <!--SR:!2026-03-18,275,330!2026-02-11,255,330-->
 - \(`$v0`=4\) `print_string` ::@:: Print a _null-terminated_ string. `$at` \(`$1`\) will be cobbled. <p> input: `$a0` \(`$4`\) is the address of the _null-terminated_ string to be printed. <!--SR:!2026-04-05,293,330!2026-03-24,281,330-->
 - \(`$v0`=5\) `read_int` ::@:: Read a line as an integer. <p> output: `$v0` \(`$2`\) is the integer read. <!--SR:!2026-02-11,255,330!2026-02-10,254,330-->

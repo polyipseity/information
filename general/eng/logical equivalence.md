@@ -43,7 +43,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 - [material equivalence](if%20and%20only%20if.md) & [material implication](material%20implication%20(rule%20of%20inference).md) ::@:: $$p\iff q\equiv (p\implies q)\wedge (q\implies p)$$ <!--SR:!2029-11-24,1501,370!2030-05-15,1638,370-->
 - [material equivalence](if%20and%20only%20if.md) & inner [negation](negation.md) ::@:: $$p\iff q\equiv \neg p\iff \neg q$$ <!--SR:!2029-08-27,1429,370!2029-10-18,1473,370-->
 - [material equivalence](if%20and%20only%20if.md) & primitives ::@:: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2028-09-25,1147,350!2025-12-07,355,350-->
-- [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::@:: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2025-12-03,350,350!2028-03-27,1006,350-->
+- [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::@:: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2030-07-13,1683,370!2028-03-27,1006,350-->
 
 where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}. <!--SR:!2029-11-20,1489,361-->
 
