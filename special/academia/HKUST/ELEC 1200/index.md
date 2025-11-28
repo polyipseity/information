@@ -787,7 +787,7 @@ The content is in teaching order.
 - data link layer
   - data link layer / functions ::@:: error correction, error detection, framing, link access
   - data link layer / framing ::@:: Encapsulate _datagrams_, some data to be transferred, into _frames_ by adding _header_ and _trailer_.
-  - data link layer / link access ::@:: If the communication medium is shared, it also manages channel access \(e.g. timing to avoid interference\). <br/> _MAC addresses_ \(different from _IP addresses_\) is used to identify packet source and destination. It detects or avoids collisions, and determines where frames start and end.
+  - data link layer / link access ::@:: If the communication medium is shared, it also manages channel access \(e.g. timing to avoid interference\). <p> _MAC addresses_ \(different from _IP addresses_\) is used to identify packet source and destination. It detects or avoids collisions, and determines where frames start and end.
   - data link layer / error detection ::@:: Errors are caused by transmission attenuation and noise. The receiver may _detect_ errors, and _requests_ the sender to _retransmit_ or _drop_ the frame.
   - data link layer / error correction ::@:: Errors are caused by transmission attenuation and noise. The receiver may _detect_ errors and _correct_ them without frame retransmission or dropping.
   - data link layer / implementation ::@:: It is often implemented in an _adapter_ using a _firmware_ \(a type of software\). <p> The sender performs framing and link access. The receiver performs extraction, error detection, and error correction.

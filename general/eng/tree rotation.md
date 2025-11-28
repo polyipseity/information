@@ -61,7 +61,7 @@ Root = Pivot
 
 This is a {@{constant time}@} operation.
 
-The programmer must {@{also make sure that the root's parent points to the pivot after the rotation}@}. Also, the programmer should note that {@{this operation may result in a new root for the entire tree and take care to update pointers accordingly}@}.
+The programmer must also make sure that {@{the root's parent points to the pivot after the rotation}@}. Also, the programmer should note that {@{this operation may result in a new root for the entire tree}@} and take care to {@{update pointers accordingly}@}.
 
 ## inorder invariance
 

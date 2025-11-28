@@ -16,9 +16,9 @@ tags:
 
 ## definitions
 
-An _[explicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$$, where $x$ is an [independent variable](dependent%20and%20independent%29variables.md), $y(x)$ is a [function](function%20(mathematics).md) of $x$, $y^{(d)}(x)$ are $d$-th [derivatives](derivative%20.md) of $y(x)$, and $F$ is a [formula](formula.md)}@}.
+{@{An _[explicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$$, where $x$ is {@{an [independent variable](dependent%20and%20independent%29variables.md)}@}, $y(x)$ is {@{a [function](function%20(mathematics).md) of $x$}@}, $y^{(d)}(x)$ are {@{$d$-th [derivatives](derivative%20.md) of $y(x)$}@}, and $F$ is {@{a [formula](formula.md)}@}.
 
-An _[implicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using the same notations as above.
+{@{An _[implicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using the same notations as above.
 
 ### classifications
 
@@ -61,31 +61,31 @@ Ordinary differential equations are furthered classified:
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
-> {@{An ODE where $F$ does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly.}@}
+> {@{An ODE}@} where $F$ {@{does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly}@}.
 
 <!-- markdownlint MD028 -->
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
-> {@{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}@}
+> {@{An [linear](#^linear) ODE}@} where {@{there are no constant terms ($r(x)=0$)}@}.
 
 <!-- markdownlint MD028 -->
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
-> {@{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}@}
+> {@{An ODE where $F$}@} can be written as {@{a [linear combination](linear%20combination.md) of the derivatives of $y$}@} with {@{the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$}@}. {@{The constant term $r(x)$}@} is also called {@{the _source term_}@}.
 
 <!-- markdownlint MD028 -->
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
-> {@{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}@}
+> {@{An [linear](#^linear) ODE}@} that is {@{not [homogeneous](#^homogeneous)}@}.
 
 <!-- markdownlint MD028 -->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
-> {@{An ODE that is not [linear](#^linear).}@}
+> {@{An ODE}@} that is {@{not [linear](#^linear)}@}.
 
 ### exact solutions
 

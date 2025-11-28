@@ -31,7 +31,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 ## expansions of falling and rising factorials
 
-Stirling numbers express {@{coefficients in expansions of [falling and rising factorials](falling%20and%20rising%20factorials.md) (also known as the Pochhammer symbol) as polynomials}@}.
+Stirling numbers express {@{coefficients in expansions of [falling and rising factorials](falling%20and%20rising%20factorials.md)}@} (also known as {@{the Pochhammer symbol}@}) as {@{polynomials}@}.
 
 That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}.
 

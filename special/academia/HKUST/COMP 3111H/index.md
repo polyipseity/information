@@ -565,13 +565,13 @@ The content is in teaching order.
     - non-functional requirement / categories / implementation ::@:: language choices, error handling standards, etc.
     - non-functional requirement / categories / interface ::@:: UI learnability/usability and external system formats/timing; e.g., "Any user who knows how to read a digital watch and understand international time should be able to use our watch."
     - non-functional requirement / categories / management ::@:: backup, installation, maintenance procedures
-    - non-functional requirement / categories / performance ::@:: speed, throughput, response time, accuracy; e.g., "Display must update within 5 min after GPS blackout."
+    - non-functional requirement / categories / performance ::@:: accuracy, response time, speed, throughput <br/> e.g., "Display must update within 5 min after GPS blackout."
     - non-functional requirement / categories / physical environment ::@:: abnormal conditions, distributed operations, etc.
     - non-functional requirement / categories / security ::@:: access control, data access, physical access, system access, etc.
   - non-functional requirement / specification ::@:: Record them either as supplementary constraints on top of use cases or as system-wide constraints. <p> _Operational_ NFRs can be attached to _administration_ use cases (e.g., "Login" for security) or expressed at the system level when they affect overall architecture. Administration use cases address operational concerns such as system start-up, shutdown, backup, and security policies.
 - [software verification and validation](../../../../general/software%20verification%20and%20validation.md) ::@:: It is the process of checking that a software system meets specifications and requirements so that it fulfills its intended purpose. It may also be referred to as software quality control. It is normally the responsibility of software testers as part of the software development lifecycle.
   - software verification and validation / simple definition ::@:: In simple terms, software verification is: "Assuming we should build X, does our software achieve its goals without any bugs or gaps?" On the other hand, software validation is: "Was X what we should have built? Does X meet the high-level requirements?"
-  - software verification and validation / characteristics ::@:: completeness, consistency, clarity, correctness, realism
+  - software verification and validation / characteristics ::@:: clarity, completeness, consistency, correctness, realism
     - software verification and validation / characteristics / completeness ::@:: every feature and exception must be described; the SRS should cover all stakeholder interests <p> example: Missing boundary behaviour near GPS accuracy limits → add a rule that zone changes only after five minutes.
     - software verification and validation / characteristics / consistency ::@:: no internal contradictions; requirements must align logically with each other <p> example: Contradictory upgrade requirements → revise one to resolve conflict.
     - software verification and validation / characteristics / clarity ::@:: unambiguous language that yields a single interpretation for any reader <p> example: Ambiguity about daylight-saving handling → explicitly state the policy in the spec, e.g. explicitly requiring DST support.
@@ -681,7 +681,7 @@ The content is in teaching order.
   - code review / artifacts ::@:: coherent module \(sometimes called "inspection"\), completed code \("incremental review"\), design document, spec, etc.
   - code review / participants ::@:: It should involve at least one other developer not writing the code. It can be a group of developers.
   - code review / format ::@:: The review process can be formal (in-person meeting) or informal (email/instant chat). Best to prepare by distributing the artifacts in advance. Often discovery happens during preparation instead of meeting.
-  - code review / goals ::@:: verifying specifications, inspecting coherent modules, ensuring incremental code quality, etc.
+  - code review / goals ::@:: ensuring incremental code quality, inspecting coherent modules, verifying specifications, etc.
   - code review / focuses ::@:: coding standards \(automated tools can be better\), common problem types, error-prone code, security
   - code review / techniques ::@:: - walkthroughs where the author presents the artifact <br/> - defect discovery only or fix brainstorming <br/> - targeted checks for known defect patterns <br/> - use of checklists (e.g., "Are all public methods documented?").
   - code review / vs. testing ::@:: Reviews or inspections can be considered as part of testing, as they both detect faults to improve quality.

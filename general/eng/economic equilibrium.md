@@ -94,7 +94,7 @@ $${\begin{alignedat}{2}Q_{s}&=125+1.5\cdot P\\Q_{d}&=189-2.25\cdot P\\\\Q_{s}&=Q
 
 In the diagram, depicting {@{simple set of supply and demand curves}@}, {@{the quantity demanded and supplied at price __P__}@} are equal.
 
-{@{At any price above __P__ supply exceeds demand}@}, while {@{at a price below __P__ the quantity demanded exceeds that supplied}@}. In other words, {@{prices where demand and supply are out of balance}@} are termed {@{points of disequilibrium, creating shortages and oversupply}@}. Changes in {@{the conditions of demand or supply}@} will {@{shift the demand or supply curves}@}. This will {@{cause changes in the equilibrium price and quantity in the market}@}.
+At {@{any price above __P__ supply exceeds demand}@}, while at {@{a price below __P__ the quantity demanded exceeds that supplied}@}. In other words, {@{prices where demand and supply are out of balance}@} are termed {@{points of disequilibrium, creating shortages and oversupply}@}. Changes in {@{the conditions of demand or supply}@} will {@{shift the demand or supply curves}@}. This will {@{cause changes in the equilibrium price and quantity in the market}@}.
 
 Consider the following demand and supply schedule:
 
