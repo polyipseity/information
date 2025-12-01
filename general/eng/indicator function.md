@@ -19,7 +19,7 @@ tags:
 
 In {@{[mathematics](mathematics.md)}@}, {@{an __indicator function__ or a __characteristic function__}@} of {@{a [subset](subset.md) of a [set](set%20(mathematics).md) is a [function](function%20(mathematics).md) that maps elements of the subset to one, and all other elements to zero}@}. That is, if {@{_A_ is a subset of some set _X_}@}, then {@{$\mathbf {1} _{A}(x)=1$ if $x\in A$, and $\mathbf {1} _{A}(x)=0$ otherwise}@}, where {@{$\mathbf {1} _{A}$ is a common notation for the indicator function}@}. Other common notations are {@{$I_{A}$, and $\chi _{A}$}@}. <!--SR:!2028-11-22,1103,350!2028-11-18,1101,350!2027-09-24,756,330!2028-11-13,1097,350!2029-01-25,1155,350!2025-12-14,267,330!2029-01-09,1143,350-->
 
-{@{The indicator function of _A_}@} is {@{the [Iverson bracket](Iverson%20bracket.md) of the property of belonging to _A_}@}; that is, {@{$$\mathbf {1} _{A}(x)=[x\in A].$$}@} For example, {@{the [Dirichlet function](Dirichlet%20function.md)}@} is {@{the indicator function of the [rational numbers](rational%20number.md) as a subset of the [real numbers](real%20number.md)}@}. <!--SR:!2025-12-19,271,330!2025-12-06,260,330!2028-10-24,1081,350!2028-11-23,1104,350!2027-08-03,716,330-->
+{@{The indicator function of _A_}@} is {@{the [Iverson bracket](Iverson%20bracket.md) of the property of belonging to _A_}@}; that is, {@{$$\mathbf {1} _{A}(x)=[x\in A].$$}@} For example, {@{the [Dirichlet function](Dirichlet%20function.md)}@} is {@{the indicator function of the [rational numbers](rational%20number.md) as a subset of the [real numbers](real%20number.md)}@}. <!--SR:!2025-12-19,271,330!2029-03-03,1183,350!2028-10-24,1081,350!2028-11-23,1104,350!2027-08-03,716,330-->
 
 ## definition
 

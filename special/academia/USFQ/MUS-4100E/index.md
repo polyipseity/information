@@ -629,19 +629,19 @@ The content is in teaching order.
 - [John Coltrane](../../../../general/John%20Coltrane.md) \(1926–1967\) ::@:: He was an American jazz saxophonist, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-12-07,159,438!2027-10-29,694,442-->
   - John Coltrane / capabilities ::@:: composer, tensor saxophone player <!--SR:!2025-12-08,160,438!2027-10-01,670,438-->
   - John Coltrane / effects ::@:: Most influential jazz artist on the saxophone. He pushed improvisation and jazz harmony to new extremes. <!--SR:!2028-06-30,938,458!2028-06-14,925,458-->
-  - John Coltrane / early life ::@:: He missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957. <!--SR:!2025-12-11,163,441!2025-12-06,158,438-->
+  - John Coltrane / early life ::@:: He missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957. <!--SR:!2025-12-11,163,441!2027-10-28,691,438-->
   - John Coltrane / periods ::@:: early: hard bop, sheets of sound <br/> middle: modal jazz <br/> late: experimental jazz, free jazz <!--SR:!2028-05-17,902,458!2028-06-02,917,461-->
 - [sheets of sound](../../../../general/sheets%20of%20sound.md) ::@:: It was a term coined in 1958 by DownBeat magazine jazz critic Ira Gitler to describe the new, unique improvisational style of John Coltrane. <!--SR:!2028-05-10,896,458!2028-05-24,908,461-->
   - sheets of sound / detail ::@:: John Coltrane could improvise vertically by traversing all harmonies in the progression. <!--SR:!2028-06-04,917,458!2028-06-14,925,458-->
 - John Coltrane
-  - John Coltrane / & Miles Davis ::@:: He joined Miles Davis's band in 1955. He played in all Prestige records with him. His sheets of sound contrasts with Miles playing lyrically. <p> "Blue Train" \(1957\) — John Coltrane, Miles Davis <!--SR:!2025-12-06,158,438!2025-12-08,160,438-->
+  - John Coltrane / & Miles Davis ::@:: He joined Miles Davis's band in 1955. He played in all Prestige records with him. His sheets of sound contrasts with Miles playing lyrically. <p> "Blue Train" \(1957\) — John Coltrane, Miles Davis <!--SR:!2028-06-30,937,458!2025-12-08,160,438-->
 - [_Giant Steps_](../../../../general/Giant%20Steps.md) ::@:: It is a studio album by the jazz musician John Coltrane. <p> The record is regarded as one of the most influential jazz albums of all time. Many of its tracks have become practice templates for jazz saxophonists. <!--SR:!2028-05-17,902,458!2028-07-06,944,461-->
   - _Giant Steps_ / characteristics ::@:: Structurally opposite of _Kind of Blue_, with extreme harmonic sophistication. Both of them want to maximize expression. <!--SR:!2025-12-11,163,441!2027-02-03,477,422-->
   - _Giant Steps_ / structure ::@:: 16-bar AB form, complex chord progression based on major thirds, up tempo swing <!--SR:!2028-07-12,950,462!2028-06-27,937,462-->
   - _Giant Steps_ / effects ::@:: The tune is hard \(even for piano players\), and often considered as a improvisation "test". <p> It set new jazz composition and improvisation standards. <!--SR:!2028-04-20,879,458!2025-12-10,162,438-->
 - John Coltrane
-  - John Coltrane / modal jazz ::@:: He used the soprano saxophone instead of tenor. <p> "My Favorite Things" \(1961\) — John Coltrane <br/> "Part 1, Acknowledgement" \(1965\) — John Coltrane <br/> "Trane" — John Coltrane, Johnny Hartman <!--SR:!2028-05-06,892,458!2025-12-06,158,438-->
-  - John Coltrane / later life ::@:: He died at 40 from liver failure. <!--SR:!2025-12-06,158,438!2028-04-22,881,458-->
+  - John Coltrane / modal jazz ::@:: He used the soprano saxophone instead of tenor. <p> "My Favorite Things" \(1961\) — John Coltrane <br/> "Part 1, Acknowledgement" \(1965\) — John Coltrane <br/> "Trane" — John Coltrane, Johnny Hartman <!--SR:!2028-05-06,892,458!2028-07-05,942,458-->
+  - John Coltrane / later life ::@:: He died at 40 from liver failure. <!--SR:!2028-07-03,940,458!2028-04-22,881,458-->
 - assignment: \(none\)
 
 ## week 14 lecture
@@ -652,7 +652,7 @@ The content is in teaching order.
   - free jazz / motivation ::@:: Musicians during this period believed that the bebop and modal jazz that had been played before them was too limiting, and became preoccupied with creating something new. <!--SR:!2028-04-28,886,458!2028-07-02,940,458-->
   - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2028-06-25,934,458!2028-05-28,912,462-->
   - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2028-06-05,918,458!2028-06-08,920,458-->
-- [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2025-12-09,161,441!2025-12-06,158,438-->
+- [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2025-12-09,161,441!2028-07-04,941,458-->
 - [_The Shape of Jazz to Come_](../../../../general/The%20Shape%20of%20Jazz%20to%20Come.md) ::@:: It is the third album by the jazz musician Ornette Coleman. Released on Atlantic Records in 1959, it was his debut on the label and his first album featuring the working quartet including himself, trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. <!--SR:!2028-05-04,890,458!2028-04-29,887,458-->
   - _The Shape of Jazz to Come_ / uniqueness ::@:: It did not employ a chordal instrument such as a piano or guitar. <!--SR:!2025-12-08,160,441!2028-04-03,864,458-->
 - [Cecil Taylor](../../../../general/Cecil%20Taylor.md) \(1929–2018\) ::@:: He was an American pianist and poet. <p> Taylor was classically trained and was one of the pioneers of free jazz \(avant-garde jazz\). <p> He used every part of the piano. <!--SR:!2028-04-26,884,458!2025-12-12,164,441-->
@@ -660,7 +660,7 @@ The content is in teaching order.
 - [Eric Dolphy](../../../../general/Eric%20Dolphy.md) \(1928–1964\) ::@:: He was an American jazz multi-instrumentalist, composer, and bandleader. <p> His use of the bass clarinet \(and flute\) helped to establish the unconventional instrument within jazz. <p> He died after falling into a diabetic coma in 1964. <!--SR:!2027-07-14,639,438!2025-12-12,164,442-->
   - Eric Dolphy / works ::@:: "Out to Lunch!" \(1964\) — Eric Dolphy <!--SR:!2025-12-12,164,442!2028-06-27,937,462-->
 - [Albert Ayler](../../../../general/Albert%20Ayler.md) \(1936–1970\) ::@:: He was an American avant-garde jazz saxophonist and composer. <p> He embraced free jazz more than anyone \(some critics say it does not adhere to free jazz\). He became a free jazz movement leader before his suicide. <!--SR:!2027-10-16,682,438!2027-02-02,476,421-->
-  - Albert Ayler / works ::@:: "Ghost Variations" / _Spiritual Unity_ \(1965\) — Albert Ayler <!--SR:!2028-04-09,870,458!2025-12-06,158,441-->
+  - Albert Ayler / works ::@:: "Ghost Variations" / _Spiritual Unity_ \(1965\) — Albert Ayler <!--SR:!2028-04-09,870,458!2028-07-13,950,461-->
 - assignment: \(none\)
 
 ## week 14 lecture 2
@@ -670,7 +670,7 @@ The content is in teaching order.
 - [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll. <!--SR:!2028-04-13,873,458!2028-05-28,911,458-->
   - jazz fusion / motivation ::@:: Acoustic jazz had been pushed to its limits. So musicians found new inspirations in rock music and funk. <!--SR:!2028-06-19,929,458!2028-04-24,882,458-->
   - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2028-05-06,893,458!2028-05-29,912,458-->
-  - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2025-12-06,158,438!2025-12-07,159,438-->
+  - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2028-06-29,936,458!2025-12-07,159,438-->
   - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report <!--SR:!2028-06-23,932,458!2025-12-07,159,438-->
 - [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations. <!--SR:!2025-12-08,160,438!2028-05-27,910,458-->
   - Herbie Hancock / works ::@:: "Watermelon Man" \(1963\) — Herbie Hancock <br/> "Chameleon" \(1973\) — Herbie Hancock <br/> "I Thought It Was You" \(1979\) — Herbie Hancock: disco groove <br/> "Rokit" \(1983\) — Herbie Hancock <!--SR:!2025-12-09,161,438!2025-12-08,160,438-->
@@ -694,7 +694,7 @@ The content is in teaching order.
   - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2027-09-29,670,441!2028-07-02,942,461-->
   - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2026-01-18,169,455!2026-01-24,175,455-->
 - [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2028-06-19,930,461!2028-06-17,926,458-->
-  - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2028-05-16,901,458!2025-12-06,158,438-->
+  - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2028-05-16,901,458!2028-07-02,939,458-->
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass <!--SR:!2027-07-07,632,438!2025-12-11,163,441-->
   - Oscar Peterson / works ::@:: "C Jam Blues" \(1964\) — Oscar Peterson <br/> _Night Train_ <br/> _The Sound of the Trio_ <br/> _We Get Requests_ <!--SR:!2025-12-10,162,442!2028-05-15,901,461-->
   - Oscar Peterson / effects ::@:: Many pianist were influenced by him and played in his style, e.g. Benny Green, Gene harris, Monty Alexander, Phineas Neworn, etc. \(and the instructor\) <!--SR:!2025-12-07,159,438!2025-12-11,163,441-->
@@ -706,14 +706,14 @@ The content is in teaching order.
   - Bill Evans / later life ::@:: He struggled with heroin, and then cocaine. He died at 51 from hepatitis, pneumonia, liver failure, and stomach ulcers. <!--SR:!2028-05-07,893,458!2025-12-07,159,438-->
   - Bill Evans / effects ::@:: He brought _quartal harmony_ in jazz, which refers to building chords in 4ths instead of 3rds. <br/> He also influenced many pianists to play in the interactive style, e.g. Bill Charlap, Brad Mehldau, Keith Jarrett, etc. \(and the instructor\) <!--SR:!2025-12-07,159,438!2025-12-12,164,442-->
 - [Hammond organ](../../../../general/Hammond%20organ.md) ::@:: It is an electric organ invented by Laurens Hammond and John M. Hanert, first manufactured in 1935. <!--SR:!2025-12-11,163,441!2028-05-31,913,458-->
-  - Hammond organ / use ::@:: It is popular in gospel music. It was brought to jazz by Jimmy Smith in the 1950s. <!--SR:!2025-12-06,158,438!2025-12-06,158,438-->
+  - Hammond organ / use ::@:: It is popular in gospel music. It was brought to jazz by Jimmy Smith in the 1950s. <!--SR:!2028-07-06,943,458!2028-07-08,945,458-->
   - Hammond organ / trio ::@:: drums, guitar, organ <!--SR:!2028-06-06,918,458!2028-06-07,919,458-->
 - [Jimmy Smith](../../../../general/Jimmy%20Smith%20(musician).md) \(1928–2005\) ::@:: He was an American jazz musician who helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music. <!--SR:!2028-05-15,900,458!2025-12-10,162,441-->
   - Jimmy Smith / works ::@:: "Back At The Chicken Shack" \(1963\) — Jimmy Smith, Phil Upchurch <!--SR:!2028-04-16,876,458!2028-06-09,921,458-->
 - [Shirley Scott](../../../../general/Shirley%20Scott.md) \(1934–2002\) ::@:: She was an American jazz organist. Her music was noted for its mixture of bebop, blues, and gospel elements. She was known by the nickname "Queen of the Organ". <p> She had 40 records as a leader. <!--SR:!2028-05-12,898,458!2028-07-10,948,462-->
   - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio <!--SR:!2028-05-14,900,458!2028-05-29,913,462-->
 - [Joey DeFrancesco](../../../../general/Joey%20DeFrancesco.md) \(1971–2022\) ::@:: He was a virtuosic organist. He got his start with Davis Miles at 17. <p> He had 30 records as a leader. he died of heart attack at 51. <!--SR:!2028-06-10,922,458!2028-06-04,917,458-->
-  - Joey DeFrancesco / works ::@:: "Fly me to the Moon" \(1999\) — Joey DeFrancesco Trio <!--SR:!2025-12-06,158,438!2028-06-28,937,458-->
+  - Joey DeFrancesco / works ::@:: "Fly me to the Moon" \(1999\) — Joey DeFrancesco Trio <!--SR:!2028-07-01,938,458!2028-06-28,937,458-->
 - Hammond organ
   - Hammond organ / notable organists ::@:: Larry Gouldings, Larry Young \(first to play modal jazz on organ\), Joey DeFrancesco, Shirley Scott, Tony Monaco <!--SR:!2028-05-18,903,458!2028-07-01,939,458-->
 - assignment: \(none\)
@@ -724,7 +724,7 @@ The content is in teaching order.
   - local: 2025-04-23T21:30:00+08:00/2025-04-23T22:50:00+08:00, PT1H20M
 - jazz
   - jazz / 1980s ::@:: After the jazz fusion era, many jazz musicians returned to traditional bebop, creating neo-bop or post-bop, etc. <!--SR:!2028-04-19,878,458!2028-07-03,942,462-->
-- [neo-bop](../../../../general/neo-bop.md) ::@:: It refers to a style of jazz that gained popularity in the 1980s among musicians who found greater aesthetic affinity for acoustically based, swinging, melodic forms of jazz than for free jazz and jazz fusion that had gained prominence in the 1960s and 1970s. <!--SR:!2027-07-24,648,441!2025-12-06,158,438-->
+- [neo-bop](../../../../general/neo-bop.md) ::@:: It refers to a style of jazz that gained popularity in the 1980s among musicians who found greater aesthetic affinity for acoustically based, swinging, melodic forms of jazz than for free jazz and jazz fusion that had gained prominence in the 1960s and 1970s. <!--SR:!2027-07-24,648,441!2028-07-07,944,458-->
 - [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages. <!--SR:!2028-04-21,880,458!2028-05-26,910,461-->
 - neo-bop
   - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions. <!--SR:!2028-06-21,930,458!2028-07-07,945,461-->

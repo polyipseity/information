@@ -45,7 +45,7 @@ Under these assumptions, {@{an infinite-horizon decision problem}@} takes the fo
 
 ### Bellman's principle of optimality
 
-{@{The dynamic programming method}@} breaks {@{this decision problem into smaller subproblems}@}. {@{Bellman's _principle of optimality_}@} describes how to do this: <!--SR:!2029-05-04,1253,350!2025-12-06,280,330!2029-05-05,1254,350-->
+{@{The dynamic programming method}@} breaks {@{this decision problem into smaller subproblems}@}. {@{Bellman's _principle of optimality_}@} describes how to do this: <!--SR:!2029-05-04,1253,350!2029-06-02,1274,350!2029-05-05,1254,350-->
 
 {@{Principle of Optimality}@}: An optimal policy has the property that {@{whatever the initial state and initial decision are}@}, {@{the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision}@}. \(See Bellman, 1957, Chap. III.3.\)<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup><sup>[\[13\]](#^ref-13)</sup> <!--SR:!2029-04-05,1230,350!2025-12-11,281,330!2028-10-07,1087,350-->
 

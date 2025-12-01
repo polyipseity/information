@@ -98,7 +98,7 @@ In {@{three dimensions}@}, {@{the [cross product](cross%20product.md) of two vec
 
 ### matrix-vector multiplication
 
-{@{The product of a matrix _A<sub>ij</sub>_ with a column vector _v<sub>j</sub>_}@} is: {@{$$\mathbf {u} _{i}=(\mathbf {A} \mathbf {v} )_{i}=\sum _{j=1}^{N}A_{ij}v_{j}$$}@} equivalent to {@{$$u^{i}={A^{i} }_{j}v^{j}$$}@} This is {@{a special case}@} of {@{matrix multiplication}@}. <!--SR:!2025-12-06,43,290!2025-12-25,61,310!2025-12-31,66,310!2026-01-01,67,310!2025-12-27,63,310-->
+{@{The product of a matrix _A<sub>ij</sub>_ with a column vector _v<sub>j</sub>_}@} is: {@{$$\mathbf {u} _{i}=(\mathbf {A} \mathbf {v} )_{i}=\sum _{j=1}^{N}A_{ij}v_{j}$$}@} equivalent to {@{$$u^{i}={A^{i} }_{j}v^{j}$$}@} This is {@{a special case}@} of {@{matrix multiplication}@}. <!--SR:!2026-05-28,173,310!2025-12-25,61,310!2025-12-31,66,310!2026-01-01,67,310!2025-12-27,63,310-->
 
 ### matrix multiplication
 

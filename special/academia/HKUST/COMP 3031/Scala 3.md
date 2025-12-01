@@ -73,11 +73,11 @@ Every piece of data in Scala has {@{a type}@}. <!--SR:!2026-08-06,251,330-->
 
 {@{Primitive types}@} are {@{the most basic types in Scala}@} and {@{make up all other types}@}. The list of primitive types are {@{as in Java}@}, but {@{are capitalized}@}. <!--SR:!2026-08-28,267,330!2026-08-07,251,330!2025-12-10,67,310!2025-12-07,64,310!2026-08-08,252,330-->
 
-- `Boolean` ::@:: Either true or false. Example: `true`, `false` <!--SR:!2025-12-06,63,310!2026-08-11,255,330-->
+- `Boolean` ::@:: Either true or false. Example: `true`, `false` <!--SR:!2026-09-08,276,330!2026-08-11,255,330-->
 - `Char` ::@:: A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2026-07-25,241,330!2025-12-10,67,310-->
 - `Double` ::@:: A floating point number with double precision \(15 to 17 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-08-02,247,330!2025-12-09,66,310-->
 - `Float` ::@:: A floating point number with single precision \(6 to 9 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2025-12-07,64,310!2026-07-15,232,330-->
-- `Int` ::@:: An integer. Example: `42` <!--SR:!2025-12-06,63,310!2026-08-29,267,330-->
+- `Int` ::@:: An integer. Example: `42` <!--SR:!2026-09-08,276,330!2026-08-29,267,330-->
 
 {@{This categorization of "primitive types"}@} is not {@{very _rigorous_}@}. See {@{_top types_}@} instead. <!--SR:!2026-04-14,143,415!2026-04-18,147,429!2026-04-05,135,420-->
 
@@ -767,7 +767,7 @@ Traits therefore provide {@{a flexible way}@} to {@{compose behavior}@}, enablin
 
 Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2026-08-21,260,330!2026-09-02,272,330!2026-08-26,264,330!2026-08-01,246,330!2026-07-31,246,330!2026-09-01,270,330!2026-08-05,250,330-->
 
-Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2025-12-08,65,310!2025-12-08,65,310!2026-08-19,259,330!2026-07-20,237,330!2026-08-03,248,330!2025-12-06,63,310-->
+Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2025-12-08,65,310!2025-12-08,65,310!2026-08-19,259,330!2026-07-20,237,330!2026-08-03,248,330!2026-09-05,273,330-->
 
 Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!2026-07-23,239,330!2026-08-29,268,330!2026-07-19,236,330!2025-12-10,67,310!2025-12-10,67,310!2026-08-25,265,330!2026-09-02,271,330!2026-08-27,266,330-->
 
@@ -1174,7 +1174,7 @@ Thus, {@{the _for_ notation}@} serves as a bridge between {@{functional programm
 
 ## definitions
 
-To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2026-08-07,251,330!2026-08-04,249,330!2025-12-06,63,310!2025-12-08,65,310!2025-12-09,66,310!2026-08-24,264,330!2025-12-06,63,310!2026-08-06,251,330!2025-12-08,65,310!2026-07-30,245,330!2026-09-07,276,330-->
+To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2026-08-07,251,330!2026-08-04,249,330!2026-09-08,276,330!2025-12-08,65,310!2025-12-09,66,310!2026-08-24,264,330!2026-09-04,272,330!2026-08-06,251,330!2025-12-08,65,310!2026-07-30,245,330!2026-09-07,276,330-->
 
 Expressions can be {@{parameterized}@}. Use {@{`def <name>(<parm name 1>: <parm type 1>, ... <parm name N>: <parm type N>): <return type> = <expr>`}@}. {@{`<return type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. Expressions are evaluated by {@{replacing each occurrence of `<para name K>` by the actual parameters}@} when {@{the function is evaluated \(see [§ evaluation](#evaluation)\)}@}. <!--SR:!2026-08-05,250,330!2026-05-20,182,310!2025-12-07,64,310!2026-08-26,265,330!2025-12-09,66,310!2026-09-01,271,330-->
 

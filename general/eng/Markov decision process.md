@@ -26,7 +26,7 @@ A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, wh
 - {@{$S$}@} is {@{a [set](set%20(mathematics).md) of states called the _state space_}@}. {@{The state space}@} may be {@{discrete or continuous, like the [set of real numbers](real%20number.md)}@}.
 - {@{$A$}@} is {@{a set of actions called the _action space_}@} \(alternatively, {@{$A_{s}$}@} is {@{the set of actions available from state $s$}@}\). As for state, this set may be {@{discrete or continuous}@}.
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
-- {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}. <!--SR:!2025-12-06,281,332!2027-11-01,798,332!2025-12-26,296,332!2027-07-29,734,332!2029-01-15,1168,352!2029-02-04,1184,352!2025-12-11,127,400!2027-10-02,666,420!2025-12-11,127,400!2027-10-07,671,420!2025-12-17,132,400!2025-12-19,134,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-06,123,400!2025-12-11,127,400!2025-12-18,133,400!2025-12-17,132,400-->
+- {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}. <!--SR:!2029-06-16,1288,352!2027-11-01,798,332!2025-12-26,296,332!2027-07-29,734,332!2029-01-15,1168,352!2029-02-04,1184,352!2025-12-11,127,400!2027-10-02,666,420!2025-12-11,127,400!2027-10-07,671,420!2025-12-17,132,400!2025-12-19,134,400!2025-12-11,127,400!2027-10-08,671,420!2025-12-11,127,400!2027-10-09,672,420!2025-12-11,127,400!2025-12-18,133,400!2025-12-17,132,400-->
 
 {@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}. <!--SR:!2029-01-19,1171,352!2029-02-11,1190,352-->
 
@@ -169,10 +169,10 @@ Another application of MDP process in {@{[machine learning](machine%20learning.m
 
 In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of: <!--SR:!2026-02-26,349,349!2026-01-27,325,349-->
 
-- a set _x_ ::@:: of possible inputs, <!--SR:!2025-12-06,281,332!2029-02-12,1191,352-->
+- a set _x_ ::@:: of possible inputs, <!--SR:!2029-06-12,1284,352!2029-02-12,1191,352-->
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2029-01-31,1181,352!2025-12-15,285,332-->
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2027-01-21,567,312!2025-12-07,282,332-->
-- an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2025-12-06,281,332!2027-10-27,794,332-->
+- an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2029-06-13,1285,352!2027-10-27,794,332-->
 - a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and \(annotation: This makes the automata "learn" from an input.\) <!--SR:!2027-12-28,792,292!2026-10-10,493,312-->
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2027-10-18,786,332!2028-01-14,865,332-->
 

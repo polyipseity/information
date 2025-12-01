@@ -47,7 +47,7 @@ On the other hand, the related problem of {@{finding a smallest [vertex cover](v
 ## see also
 
 - [Vertex cover](vertex%20cover.md)
-- [Set cover](set%20cover%20problem.md) – ::@:: the edge cover problem is a special case of the set cover problem: the elements of the _universe_ are vertices, and each _subset_ covers exactly two elements. <!--SR:!2027-04-05,597,290!2025-12-06,268,330-->
+- [Set cover](set%20cover%20problem.md) – ::@:: the edge cover problem is a special case of the set cover problem: the elements of the _universe_ are vertices, and each _subset_ covers exactly two elements. <!--SR:!2027-04-05,597,290!2029-04-11,1222,350-->
 
 ## notes
 

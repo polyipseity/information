@@ -174,7 +174,7 @@ The steps for naming an organic compound are:
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2026-02-13,329,207!2027-03-29,824,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!2026-06-29,450,207-->
 - (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!2026-06-08,527,225-->
-- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2025-12-06,562,267-->
+- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2031-09-03,2097,287-->
 - [modify punctuations](#modify%20punctuations)→::@::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2026-05-05,523,253!2027-10-24,1227,307-->
 - prefix notation for _cis_–_trans_ isomerism→::@::←_(end)_ <!--SR:!2029-08-16,1975,382!2027-07-03,1153,307-->
 
@@ -459,7 +459,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCHO}@}
 > - prefix: {@{oxo- (=O), formyl- (-CHO)}@}
 > - suffix: {@{-al (=O), -carbaldehyde (-CHO)}@}
-> - infix: {@{(locant)}@} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2032-06-02,2690,342!2025-12-06,174,150!2033-01-15,2684,305!2028-10-10,1730,387-->
+> - infix: {@{(locant)}@} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2032-06-02,2690,342!2026-12-30,389,170!2033-01-15,2684,305!2028-10-10,1730,387-->
 
 <!-- markdownlint MD028 -->
 

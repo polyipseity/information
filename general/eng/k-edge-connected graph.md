@@ -11,7 +11,7 @@ tags:
 
 # k-edge-connected graph
 
-In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md)}@} is ___k_-edge-connected__ if {@{it remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ edges are removed}@}. <!--SR:!2026-01-14,290,330!2025-12-06,259,330!2028-02-24,861,330-->
+In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md)}@} is ___k_-edge-connected__ if {@{it remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ edges are removed}@}. <!--SR:!2026-01-14,290,330!2029-03-01,1181,350!2028-02-24,861,330-->
 
 {@{The __edge-connectivity__ of a graph}@} is {@{the largest _k_ for which the graph is _k_-edge-connected}@}. <!--SR:!2026-01-20,294,330!2027-08-04,715,330-->
 

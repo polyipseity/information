@@ -360,7 +360,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Total Manufacturing Overhead Cost}@} | {@{&dollar;&emsp;3&nbsp;500}@} | {@{&dollar;&emsp;4&nbsp;200}@} | {@{&dollar;&emsp;7&nbsp;700}@} | <!--SR:!2026-05-18,336,350!2026-05-18,336,350!2026-05-19,337,350!2026-02-08,252,330!2026-05-22,340,350!2026-02-07,251,330!2026-02-11,255,330!2026-05-03,331,350!2026-03-01,273,330!2026-01-28,241,330!2026-03-21,293,330!2026-05-24,342,350!2026-04-24,323,350!2026-01-30,243,330!2026-05-01,330,350!2026-02-23,267,330-->
 
 - total manufacturing overhead
-  - total manufacturing overhead / column headers ::@:: activity cost pool, (activity pools...), total manufacturing overhead cost <!--SR:!2026-04-24,323,350!2025-12-06,188,310-->
+  - total manufacturing overhead / column headers ::@:: activity cost pool, (activity pools...), total manufacturing overhead cost <!--SR:!2026-04-24,323,350!2028-02-23,809,330-->
   - total manufacturing overhead / row headers ::@:: activity cost pool, (processes...), total <!--SR:!2026-02-27,271,330!2026-02-10,254,330-->
 
 ## contribution margin income statement

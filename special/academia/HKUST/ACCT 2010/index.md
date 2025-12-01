@@ -381,7 +381,7 @@ The content is in teaching order.
 - depreciation
   - depreciation / change ::@:: If net book value or residual value changes, the expense is calculated using net book value, residual value, and remaining useful life or production. <!--SR:!2027-02-14,602,356!2026-08-22,502,403-->
 - [asset turnover](../../../../general/asset%20turnover.md)
-  - fixed asset turnover ::@:: $$\frac {\text{net sales} } {\text{average net fixed assets} }$$ The average _net fixed_ assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that the _net_ means accumulated depreciation needs to be less from fixed assets first for both balances. <!--SR:!2026-01-12,313,383!2025-12-06,267,363-->
+  - fixed asset turnover ::@:: $$\frac {\text{net sales} } {\text{average net fixed assets} }$$ The average _net fixed_ assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that the _net_ means accumulated depreciation needs to be less from fixed assets first for both balances. <!--SR:!2026-01-12,313,383!2028-08-02,970,363-->
     - fixed asset turnover / interpretation ::@:: It measures how efficient management is at using _fixed_ assets to generate sales. Usually, high means effective management, low may mean there is a problem with using one or more fixed assets. <!--SR:!2026-01-16,317,383!2027-03-27,643,363-->
 - [§ week 8 review](questions.md#week%208%20review)
 

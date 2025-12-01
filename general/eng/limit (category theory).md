@@ -43,7 +43,7 @@ One is most often interested in the case where {@{the category $J$ is a [small](
 
 Let {@{$F:J\to C$ be a diagram of shape $J$ in a category $C$}@}. {@{A __[cone](cone%20(category%20theory).md)__ to $F$}@} is {@{an object $N$ of $C$ together with a family $\psi _{X}:N\to F(X)$ of morphisms indexed by the objects $X$ of $J$}@}, such that {@{for every morphism $f:X\to Y$ in $J$, we have $F(f)\circ \psi _{X}=\psi _{Y}$}@}. <!--SR:!2026-04-23,362,358!2026-02-25,314,345!2026-05-08,374,358!2027-08-30,728,330-->
 
-{@{A __limit__ of the diagram $F:J\to C$}@} is {@{a cone $(L,\phi )$ to $F$}@} such that {@{for every cone $(N,\psi )$ to $F$ there exists a _unique_ morphism $u:N\to L$ such that $\phi _{X}\circ u=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal cone](../../archives/Wikimedia%20Commons/Functor%20cone%20%28extended%29.svg)}@} <!--SR:!2028-09-07,1013,345!2025-12-06,249,330!2026-02-06,301,345!2027-05-02,576,318-->
+{@{A __limit__ of the diagram $F:J\to C$}@} is {@{a cone $(L,\phi )$ to $F$}@} such that {@{for every cone $(N,\psi )$ to $F$ there exists a _unique_ morphism $u:N\to L$ such that $\phi _{X}\circ u=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal cone](../../archives/Wikimedia%20Commons/Functor%20cone%20%28extended%29.svg)}@} <!--SR:!2028-09-07,1013,345!2029-01-09,1130,350!2026-02-06,301,345!2027-05-02,576,318-->
 
 One says that the cone $(N,\psi )$ {@{factors through the cone $(L,\phi )$ with the unique factorization $u$}@}. {@{The morphism $u$}@} is sometimes called {@{the __mediating morphism__}@}. <!--SR:!2026-04-21,362,358!2026-03-03,320,345!2026-04-28,368,358-->
 
@@ -113,7 +113,7 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 
 ### existence of limits
 
-{@{A given diagram _F_ : _J_ → _C_}@} {@{may or may not have a limit \(or colimit\) in _C_}@}. Indeed, there {@{may not even be a cone to _F_, let alone a universal cone}@}. <!--SR:!2026-04-27,366,358!2025-12-06,249,330!2025-12-11,252,338-->
+{@{A given diagram _F_ : _J_ → _C_}@} {@{may or may not have a limit \(or colimit\) in _C_}@}. Indeed, there {@{may not even be a cone to _F_, let alone a universal cone}@}. <!--SR:!2026-04-27,366,358!2029-01-10,1131,350!2025-12-11,252,338-->
 
 {@{A category _C_ is said to __have limits of shape _J_<!-- markdown separator -->__}@} if {@{every diagram of shape _J_ has a limit in _C_}@}. Specifically, a category _C_ is said to <!--SR:!2026-05-09,375,358!2028-12-18,1113,350-->
 
@@ -152,7 +152,7 @@ Note that {@{both the limit and the colimit functors}@} are {@{[_covariant_](cov
 
 - See also: [Limit and colimit of presheaves](limit%20and%20colimit%20of%20presheaves.md)
 
-One can use {@{[Hom functors](hom%20functor.md)}@} to {@{relate limits and colimits in a category _C_ to limits in __Set__, the [category of sets](category%20of%20sets.md)}@}. This follows, {@{in part, from the fact the covariant Hom functor Hom\(_N_, –\) : _C_ → __Set__ [preserves all limits](#preservation%20of%20limits) in _C_}@}. By {@{duality}@}, {@{the contravariant Hom functor must take colimits to limits}@}. <!--SR:!2028-12-29,1122,350!2025-12-16,255,338!2026-03-14,328,345!2025-12-06,249,330!2026-03-26,339,345-->
+One can use {@{[Hom functors](hom%20functor.md)}@} to {@{relate limits and colimits in a category _C_ to limits in __Set__, the [category of sets](category%20of%20sets.md)}@}. This follows, {@{in part, from the fact the covariant Hom functor Hom\(_N_, –\) : _C_ → __Set__ [preserves all limits](#preservation%20of%20limits) in _C_}@}. By {@{duality}@}, {@{the contravariant Hom functor must take colimits to limits}@}. <!--SR:!2028-12-29,1122,350!2025-12-16,255,338!2026-03-14,328,345!2029-01-08,1129,350!2026-03-26,339,345-->
 
 If {@{a diagram _F_ : _J_ → _C_ has a limit in _C_, denoted by lim _F_}@}, there is {@{a [canonical isomorphism](canonical%20isomorphism.md) $$\operatorname {Hom} (N,\lim F)\cong \lim \operatorname {Hom} (N,F-)$$}@} (annotation: The covariant Hom functor {@{sends the limit object $\lim F$ to $\operatorname{Hom}(N, \lim F)$}@}. As the covariant Hom functor preserves limits, it is {@{also the limit object of $\operatorname{Hom}(N, F-)$}@}.) which is {@{natural in the variable _N_}@}. Here {@{the functor Hom\(_N_, _F_<!-- markdown separator -->–\) is the composition of the Hom functor Hom\(_N_, –\) with _F_ (annotation: i.e. Hom\(_N_, –\) ∘ _F_: _J_ → __Set__, composable since _J_ → _C_ → __Set__)}@}. This isomorphism is {@{the unique one which respects the limiting cones}@}. <!--SR:!2026-03-30,345,358!2026-01-07,258,333!2025-12-13,255,330!2026-05-01,370,358!2026-03-03,291,290!2026-06-23,345,290!2026-04-01,320,305-->
 
@@ -245,7 +245,7 @@ There are {@{several ways to remember the modern terminology}@}. First of all, <
 
 ## see also
 
-- [Cartesian closed category](Cartesian%20closed%20category.md) – ::@:: Type of category in category theory <!--SR:!2026-03-18,334,353!2025-12-06,251,338-->
+- [Cartesian closed category](Cartesian%20closed%20category.md) – ::@:: Type of category in category theory <!--SR:!2026-03-18,334,353!2029-02-16,1168,358-->
 - [Equaliser \(mathematics\)](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2025-12-20,257,338!2028-07-09,984,353-->
 - [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2026-03-19,335,353!2025-12-28,253,338-->
 - [Product \(category theory\)](product%20(category%20theory).md) – ::@:: Generalized object in category theory <!--SR:!2026-05-13,379,358!2027-07-13,694,338-->

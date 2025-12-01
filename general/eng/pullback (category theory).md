@@ -70,7 +70,7 @@ Another example of a pullback comes from {@{the theory of [fiber bundles](fiber%
 
 ### preimages and intersections
 
-{@{[Preimages](preimage.md#inverse%20image) of sets under functions}@} can be {@{described as pullbacks as follows}@}: <!--SR:!2026-01-05,262,330!2025-12-06,238,330-->
+{@{[Preimages](preimage.md#inverse%20image) of sets under functions}@} can be {@{described as pullbacks as follows}@}: <!--SR:!2026-01-05,262,330!2028-11-25,1085,350-->
 
 Suppose {@{_f_ : _A_ → _B_, _B_<sub>0</sub> ⊆ _B_}@}. Let {@{_g_ be the [inclusion map](inclusion%20map.md) _B_<sub>0</sub> ↪ _B_}@}. Then {@{a pullback of _f_ and _g_ \(in __Set__\)}@} is given by {@{the preimage _f_<sup>−1</sup>\[_B_<sub>0</sub>\]}@} together with {@{the inclusion of the preimage in _A_ <p> &emsp; _f_<sup>−1</sup>\[_B_<sub>0</sub>\] ↪ _A_ <p> and the restriction of _f_ to _f_<sup>−1</sup>\[_B_<sub>0</sub>\] <p> &emsp; _f_<sup>−1</sup>\[_B_<sub>0</sub>\] → _B_<sub>0</sub>}@}. <!--SR:!2026-02-10,290,330!2026-02-06,287,330!2026-01-22,276,330!2025-12-26,255,330!2027-04-06,558,310-->
 

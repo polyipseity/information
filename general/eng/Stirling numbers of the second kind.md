@@ -61,7 +61,7 @@ As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table
 
 ### recurrence relation
 
-Stirling numbers of the second kind {@{obey the recurrence relation $$\left\{ {n+1 \atop k}\right\}=k\left\{ {n \atop k}\right\}+\left\{ {n \atop k-1}\right\}\quad {\text{for} }\;0<k<n$$}@} with {@{initial conditions $$\left\{ {n \atop n}\right\}=1\quad {\text{ for} }\;n\geq 0\quad {\text{ and } }\quad \left\{ {n \atop 0}\right\}=\left\{ {0 \atop n}\right\}=0\quad {\text{ for } }n>0{\text{.} }$$}@} <!--SR:!2026-06-19,395,290!2025-12-06,310,330-->
+Stirling numbers of the second kind {@{obey the recurrence relation $$\left\{ {n+1 \atop k}\right\}=k\left\{ {n \atop k}\right\}+\left\{ {n \atop k-1}\right\}\quad {\text{for} }\;0<k<n$$}@} with {@{initial conditions $$\left\{ {n \atop n}\right\}=1\quad {\text{ for} }\;n\geq 0\quad {\text{ and } }\quad \left\{ {n \atop 0}\right\}=\left\{ {0 \atop n}\right\}=0\quad {\text{ for } }n>0{\text{.} }$$}@} <!--SR:!2026-06-19,395,290!2029-10-24,1418,350-->
 
 For instance, the number 25 in column _k_ = 3 and row _n_ = 5 is given by 25 = 7 + (3×6), where 7 is the number above and to the left of 25, 6 is the number above 25 and 3 is the column containing the 6.
 
@@ -113,7 +113,7 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-12-06,63,130-->
+If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2026-03-01,85,130-->
 
 ### asymptotic approximation
 
@@ -143,7 +143,7 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### rhyming schemes
 
-{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa), 3 rhyme schemes using two rhymes (aab, aba, abb), and 1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2029-09-21,1390,350!2028-03-22,931,330!2025-12-06,310,330!2027-08-18,704,310!2025-12-12,316,330!2029-09-19,1390,350-->
+{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa), 3 rhyme schemes using two rhymes (aab, aba, abb), and 1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2029-09-21,1390,350!2028-03-22,931,330!2029-10-24,1418,350!2027-08-18,704,310!2025-12-12,316,330!2029-09-19,1390,350-->
 
 ## variants
 

@@ -36,7 +36,7 @@ There are {@{two things to note}@} about the general solution above. One, {@{the
 
 ### arbitrary conditions
 
-It is okay to impose arbitrary conditions to get $n$ conditions to solve for the $n$ [function](function%20(mathematics).md) [coefficients](coefficient.md) $c_i(x)$ because {@{we are simply trying to find a solution and do not need to care about the uniqueness of it}@}. More generally, an additional assumption to solve a problem is called an {@{[ansatz](ansatz.md)}@}. <!--SR:!2027-01-20,840,330!2025-12-06,519,310-->
+It is okay to impose arbitrary conditions to get $n$ conditions to solve for the $n$ [function](function%20(mathematics).md) [coefficients](coefficient.md) $c_i(x)$ because {@{we are simply trying to find a solution and do not need to care about the uniqueness of it}@}. More generally, an additional assumption to solve a problem is called an {@{[ansatz](ansatz.md)}@}. <!--SR:!2027-01-20,840,330!2032-01-11,2227,330-->
 
 ### reduction of order
 
