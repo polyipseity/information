@@ -149,7 +149,7 @@ Countable sets can be {@{[totally ordered](total%20order.md) in various ways}@},
   - The usual order of {@{integers}@} \(..., −3, −2, −1, 0, 1, 2, 3, ...\)
   - The usual order of {@{rational numbers}@} \({@{Cannot be explicitly written as an ordered list!}@}\) <!--SR:!2025-12-23,281,330!2025-12-21,280,330!2025-12-28,285,330!2025-12-10,272,330!2025-12-31,288,330!2029-02-06,1172,350!2025-12-22,281,330-->
 
-In {@{both examples of well orders here}@}, {@{any subset has a _least element_}@}; and in {@{both examples of non-well orders}@}, {@{_some_ subsets do not have a _least element_}@}. This is {@{the key definition that determines whether a total order is also a well order}@}. <!--SR:!2026-11-05,509,310!2025-12-05,268,330!2028-09-27,1068,350!2026-01-09,277,290!2025-12-05,268,330-->
+In {@{both examples of well orders here}@}, {@{any subset has a _least element_}@}; and in {@{both examples of non-well orders}@}, {@{_some_ subsets do not have a _least element_}@}. This is {@{the key definition that determines whether a total order is also a well order}@}. <!--SR:!2026-11-05,509,310!2029-04-07,1219,350!2028-09-27,1068,350!2026-01-09,277,290!2028-05-09,886,330-->
 
 ## see also
 

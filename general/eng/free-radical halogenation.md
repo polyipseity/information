@@ -39,7 +39,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="fda0"--><!-- The following content is generated at 2024-01-04T20:17:51.801148+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2025-12-05,690,317!2028-01-31,1280,339-->
+- _(begin)_→::@::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2034-03-09,3016,337!2028-01-31,1280,339-->
 - [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→::@::←[propagation](chain%20propagation.md) <!--SR:!2029-05-17,1754,359!2028-12-18,1523,299-->
 - [propagation](chain%20propagation.md)→::@::←[termination](chain%20termination.md) <!--SR:!2027-08-02,1238,357!2027-08-29,1169,339-->
 - [termination](chain%20termination.md)→::@::←_(end)_ <!--SR:!2028-11-17,1614,359!2029-05-11,1749,359-->

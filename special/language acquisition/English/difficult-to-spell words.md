@@ -96,7 +96,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: \(p\_e\) An introduction to a [document](../../../general/document.md). <!--SR:!2031-02-20,2089,392!2027-10-22,1001,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: \(p\_e\) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2028-07-17,1286,390-->
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: \(p\_y\) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2026-08-07,327,176-->
-- [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: \(r\_t\) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2027-12-03,952,308-->
+- [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: \(r\_t\) The act of receiving or having been received. <!--SR:!2033-04-16,2689,408!2027-12-03,952,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: \(r\_e\) A set of instructions for making [food](../../../general/food.md). <!--SR:!2031-12-20,2357,428!2028-12-03,1409,408-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: \(r\_t\) One who receives. <!--SR:!2026-01-23,558,408!2028-10-10,1115,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence. <!--SR:!2033-05-06,2743,428!2030-12-14,1938,368-->

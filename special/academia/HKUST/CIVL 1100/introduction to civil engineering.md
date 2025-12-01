@@ -86,7 +86,7 @@ The content is in teaching order.
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2029-10-27,1605,387-->
-  - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2025-12-05,478,392-->
+  - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2032-12-07,2559,412-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2030-01-04,1674,370-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)

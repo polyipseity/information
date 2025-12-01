@@ -29,7 +29,7 @@ The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!20
 
 {@{Peano's original formulation}@} of the axioms {@{used 1 instead of 0 as the "first" natural number}@}, while the axioms in {@{_[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2029-11-22,1495,365!2026-03-15,121,396!2026-03-21,126,396-->
 
-The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2025-12-05,351,345!2027-12-29,930,345!2027-08-23,830,345-->
+The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2030-06-27,1665,365!2027-12-29,930,345!2027-08-23,830,345-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
@@ -95,7 +95,7 @@ To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} require
 - multiplicative left identity / base case ::@:: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2027-10-02,861,345!2029-05-16,1345,365-->
 - multiplication left identity / induction ::@:: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2025-12-07,333,305!2026-08-09,527,322-->
 
-Therefore, by {@{the induction axiom}@} {@{$S(0)$}@} is {@{the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}@}. <!--SR:!2030-04-12,1604,365!2029-05-05,1320,350!2025-12-16,25,382!2025-12-05,14,362-->
+Therefore, by {@{the induction axiom}@} {@{$S(0)$}@} is {@{the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}@}. <!--SR:!2030-04-12,1604,365!2029-05-05,1320,350!2025-12-16,25,382!2026-02-14,71,382-->
 
 Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semiring.md)}@}. <!--SR:!2027-01-11,572,285!2026-10-28,520,285-->
 

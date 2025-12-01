@@ -56,7 +56,7 @@ There are some elementary rules:
 
 - (annotation: transitivity) ::@:: If $a\mid b$ and $b\mid c$, then $a\mid c;$ that is, divisibility is a [transitive relation](transitive%20relation.md). <!--SR:!2025-12-13,266,330!2029-01-29,1159,350-->
 - (annotation: associate) ::@:: If $a\mid b$ and $b\mid a$, then $a=b$ or $a=-b$. \(That is, $a$ and $b$ are [associates](divisibility%20(ring%20theory).md).\) <!--SR:!2025-12-09,263,330!2025-12-20,272,330-->
-- (annotation: linearity) ::@:: If $a\mid b$ and $a\mid c$, then $a\mid (b+c)$ holds, as does $a\mid (b-c)$.<sup>[\[a\]](#^ref-a)</sup> However, if $a\mid b$ and $c\mid b$, then $(a+c)\mid b$ does _not_ always hold \(for example, $2\mid 6$ and $3\mid 6$ but 5 does not divide 6\). <!--SR:!2026-01-09,287,330!2025-12-05,259,330-->
+- (annotation: linearity) ::@:: If $a\mid b$ and $a\mid c$, then $a\mid (b+c)$ holds, as does $a\mid (b-c)$.<sup>[\[a\]](#^ref-a)</sup> However, if $a\mid b$ and $c\mid b$, then $(a+c)\mid b$ does _not_ always hold \(for example, $2\mid 6$ and $3\mid 6$ but 5 does not divide 6\). <!--SR:!2026-01-09,287,330!2028-04-07,854,330-->
 - (annotation: multiplication) ::@:: $a\mid b\iff ac\mid bc$ for nonzero $c$. This follows immediately from writing $ka=b\iff kac=bc$. <!--SR:!2026-01-01,281,330!2025-12-12,265,330-->
 - (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If $a\mid bc$, and $\gcd(a,b)=1$, then $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2028-10-29,1085,350!2028-11-30,1110,350-->
 - (annotation: prime divisibility) ::@:: If $p$ is a prime number and $p\mid ab$ then $p\mid a$ or $p\mid b$ (annotation: or both). <!--SR:!2025-12-07,261,330!2025-12-31,280,330-->

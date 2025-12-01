@@ -21,7 +21,7 @@ There exists {@{an inconsistency in different descriptions as to the definition 
 
 > {@{![tree rotation](../../archives/Wikimedia%20Commons/Tree%20rotation.png)}@}
 >
-> {@{tree rotation}@} <!--SR:!2027-11-09,803,330!2025-12-05,268,330-->
+> {@{tree rotation}@} <!--SR:!2027-11-09,803,330!2029-04-12,1224,350-->
 
 <!-- markdownlint MD028 -->
 

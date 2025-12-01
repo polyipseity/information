@@ -34,7 +34,7 @@ By {@{omitting the first two requirements (annotation: non-emptyness of both $A$
 
 ## representations
 
-It is {@{more symmetrical to use the \(_A_, _B_\) notation for Dedekind cuts}@}, but {@{each of _A_ and _B_ does determine the other}@}. It can be {@{a simplification, in terms of notation if nothing more}@}, to {@{concentrate on one "half" — say, the lower one}@} — and {@{call any downward-closed set _A_ without greatest element a "Dedekind cut"}@}. <!--SR:!2028-12-06,1125,350!2028-11-03,1098,350!2029-02-04,1169,350!2025-12-05,268,330!2027-05-01,588,310-->
+It is {@{more symmetrical to use the \(_A_, _B_\) notation for Dedekind cuts}@}, but {@{each of _A_ and _B_ does determine the other}@}. It can be {@{a simplification, in terms of notation if nothing more}@}, to {@{concentrate on one "half" — say, the lower one}@} — and {@{call any downward-closed set _A_ without greatest element a "Dedekind cut"}@}. <!--SR:!2028-12-06,1125,350!2028-11-03,1098,350!2029-02-04,1169,350!2029-04-06,1218,350!2027-05-01,588,310-->
 
 If {@{the ordered set _S_ is complete}@}, then, {@{for every Dedekind cut \(_A_, _B_\) of _S_}@}, {@{the set _B_ must have a minimal element _b_}@}, hence we must have that {@{_A_ is the [interval](interval%20(mathematics).md) \(−∞, _b_\), and _B_ the interval \[_b_, +∞\)}@}. In this case, we say that {@{_b_ _is represented by_ the cut \(_A_, _B_\)}@}. <!--SR:!2025-12-29,285,330!2025-12-21,280,330!2026-01-02,289,330!2025-12-30,287,330!2028-12-26,1140,350-->
 

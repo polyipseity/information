@@ -198,7 +198,7 @@ A similar version is the "100 game": {@{Two players start from 0 and alternately
 
 ### a multiple-heap rule
 
-- see ::@:: [Wythoff's game](Wythoff's%20game.md) <!--SR:!2025-12-05,322,341!2028-10-08,1108,341-->
+- see ::@:: [Wythoff's game](Wythoff's%20game.md) <!--SR:!2030-01-24,1511,361!2028-10-08,1108,341-->
 
 In another variation of nim, besides {@{removing any number of objects from a single heap}@}, one is {@{permitted to remove the same number of objects from each heap}@}. <!--SR:!2029-12-08,1478,361!2027-10-22,851,341-->
 
