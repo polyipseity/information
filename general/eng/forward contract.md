@@ -120,7 +120,7 @@ where $y\%p.a$. is {@{the convenience yield over the life of the contract}@}. Si
 
 ## relationship between the forward price and the expected future spot price
 
-- Main articles: ::@:: [Normal backwardation](normal%20backwardation.md) and [Contango](contango.md) <!--SR:!2025-12-23,58,310!2025-12-07,42,290-->
+- Main articles: ::@:: [Normal backwardation](normal%20backwardation.md) and [Contango](contango.md) <!--SR:!2025-12-23,58,310!2026-05-24,168,310-->
 
 > {@{![Graph showing contango and normal backwardation market conditions in the forward market](../../archives/Wikimedia%20Commons/Contangobackwardation.png)}@}
 >
@@ -152,7 +152,7 @@ Compared to {@{their futures counterparts}@}, {@{forwards \(especially [Forward 
 
 Conversely, in {@{markets with easily accessible spot prices or basis rates}@}, in particular {@{the [Foreign exchange market](foreign%20exchange%20market.md) and [OIS market](overnight%20indexed%20swap.md)}@}, forwards are usually {@{quoted using premium points or forward points}@}. That is using {@{the spot price or basis rate as reference}@} forwards are quoted as {@{the difference in [pips](percentage%20in%20point.md) between the outright price and the spot price}@} for {@{FX}@}, or {@{the difference in [basis points](basis%20point.md) between the forward rate and the basis rate}@} for {@{interest rate swaps and forward rate agreements}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-12-22,58,310!2025-12-22,58,310!2025-12-18,54,310!2025-12-23,58,310!2025-12-22,58,310!2025-12-31,65,310!2025-12-26,61,310!2025-12-22,58,310-->
 
-Note: {@{The term _outright_}@} is used in {@{the futures markets in a similar way}@} but is contrasted with {@{futures spreads instead of premium points}@}, which is {@{more than just a quoting convention}@}, and in particular involves {@{the simultaneous transaction in two outright futures}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-12-22,57,310!2025-12-20,56,310!2026-01-02,67,310!2025-12-31,65,310!2025-12-07,42,290-->
+Note: {@{The term _outright_}@} is used in {@{the futures markets in a similar way}@} but is contrasted with {@{futures spreads instead of premium points}@}, which is {@{more than just a quoting convention}@}, and in particular involves {@{the simultaneous transaction in two outright futures}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-12-22,57,310!2025-12-20,56,310!2026-01-02,67,310!2025-12-31,65,310!2026-05-22,166,310-->
 
 ## rational pricing
 
@@ -175,7 +175,7 @@ At {@{time $T$}@} the investor can {@{reverse the trades that were executed at t
 
 {@{The sum of the inflows in 1.' and 2.'}@} equals {@{$F_{t,T}-S_{t}e^{r(T-t)}$}@}, which {@{by hypothesis, is positive}@}. This is {@{an arbitrage profit}@}. Consequently, and assuming that {@{the non-arbitrage condition holds}@}, we have {@{a contradiction}@}. This is called {@{a cash and carry arbitrage}@} because you {@{"carry" the asset until maturity}@}. <!--SR:!2025-12-30,64,310!2025-12-22,58,310!2025-12-21,57,310!2025-12-23,58,310!2026-01-02,67,310!2025-12-24,59,310!2025-12-28,63,310!2026-01-02,67,310-->
 
-__Case 2:__ Suppose that {@{$F_{t,T}<S_{t}e^{r(T-t)}$}@}. Then an investor can do {@{the reverse of what he has done above in case 1}@}. This means {@{selling one unit of the asset \(annotation: borrowing the asset first if unowned\)}@}, {@{investing this money into a bank account}@} and {@{entering a long forward contract costing 0}@}. <!--SR:!2026-02-24,89,290!2025-12-07,43,290!2025-12-30,64,310!2025-12-18,54,310!2025-12-31,65,310-->
+__Case 2:__ Suppose that {@{$F_{t,T}<S_{t}e^{r(T-t)}$}@}. Then an investor can do {@{the reverse of what he has done above in case 1}@}. This means {@{selling one unit of the asset \(annotation: borrowing the asset first if unowned\)}@}, {@{investing this money into a bank account}@} and {@{entering a long forward contract costing 0}@}. <!--SR:!2026-02-24,89,290!2026-05-28,172,310!2025-12-30,64,310!2025-12-18,54,310!2025-12-31,65,310-->
 
 Note: if you look at {@{the [convenience yield](convenience%20yield.md) page}@}, you will see that if {@{there are finite assets/inventory}@}, {@{the reverse cash and carry arbitrage}@} is {@{not always possible}@}. It would depend on {@{the elasticity of demand for forward contracts and such like}@}. <!--SR:!2025-12-22,58,310!2025-12-28,62,310!2025-12-31,65,310!2025-12-29,63,310!2025-12-24,59,310-->
 

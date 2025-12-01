@@ -133,7 +133,7 @@ Other logical symbols include the following:
 - For every integer _n_ ≥ 0, there is a collection of [_n_-_ary_](arity.md), or _n_-_place_, _[predicate symbols](predicate%20symbol.md)_. Because they represent [relations](finitary%20relation.md) between _n_ elements, they are also called _relation symbols_. For each arity _n_, there is an infinite supply of them: <p> ::@:: &emsp; _P_<sup>_n_</sup><sub>0</sub>, _P_<sup>_n_</sup><sub>1</sub>, _P_<sup>_n_</sup><sub>2</sub>, _P_<sup>_n_</sup><sub>3</sub>, ... <!--SR:!2026-11-19,379,364!2026-10-10,350,364-->
 - For every integer _n_ ≥ 0, there are infinitely many _n_-ary _function symbols_: <p> ::@:: &emsp; _f<sup> n</sup>_<sub>0</sub>, _f<sup> n</sup>_<sub>1</sub>, _f<sup> n</sup>_<sub>2</sub>, _f<sup> n</sup>_<sub>3</sub>, ... <!--SR:!2026-11-12,376,364!2026-09-15,324,364-->
 
-When {@{the arity of a predicate symbol or function symbol}@} is {@{clear from context}@}, {@{the superscript _n_}@} is {@{often omitted}@}. <!--SR:!2026-08-24,289,344!2026-11-02,364,364!2026-12-11,397,364!2025-12-07,25,402-->
+When {@{the arity of a predicate symbol or function symbol}@} is {@{clear from context}@}, {@{the superscript _n_}@} is {@{often omitted}@}. <!--SR:!2026-08-24,289,344!2026-11-02,364,364!2026-12-11,397,364!2026-04-22,136,422-->
 
 In {@{this traditional approach}@}, there is {@{only one language of first-order logic}@}.<sup>[\[13\]](#^ref-13)</sup> This approach is {@{still common}@}, especially in {@{philosophically oriented books}@}. <!--SR:!2027-02-18,457,382!2027-02-04,447,382!2026-11-01,365,364!2026-10-15,351,364-->
 

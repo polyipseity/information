@@ -55,7 +55,7 @@ The DFT is {@{a linear transform}@}, i.e. if {@{${\mathcal {F} }(\{x_{n}\})_{k}=
 
 ### time and frequency reversal
 
-Reversing the time (i.e. {@{replacing $n$ by $N-n$}@}) in $x_{n}$ corresponds to {@{reversing the frequency (i.e. $k$ by $N-k$)}@}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{N-n}\})_{k}=X_{N-k}$$}@}. <!--SR:!2028-06-05,1088,356!2028-09-02,1158,356!2025-12-07,379,356-->
+Reversing the time (i.e. {@{replacing $n$ by $N-n$}@}) in $x_{n}$ corresponds to {@{reversing the frequency (i.e. $k$ by $N-k$)}@}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{N-n}\})_{k}=X_{N-k}$$}@}. <!--SR:!2028-06-05,1088,356!2028-09-02,1158,356!2031-01-02,1852,376-->
 
 ### conjugation in time
 

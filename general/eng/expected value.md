@@ -61,7 +61,7 @@ More than {@{a hundred years later, in 1814, [Pierre-Simon Laplace](Pierre-Simon
 
 When {@{"E" is used to denote "expected value"}@}, authors use {@{a variety of stylizations}@}: the expectation operator can be {@{stylized as E \(upright\), _E_ \(italic\), or $\mathbb {E}$ \(in [blackboard bold](blackboard%20bold.md)\)}@}, while a variety of {@{bracket notations \(such as E\(_X_\), E\[_X_\], and E<!-- markdown separator -->_X_\) are all used}@}. <!--SR:!2025-12-19,274,330!2025-12-13,268,330!2026-01-06,287,330!2026-01-07,288,330-->
 
-Another popular notation is {@{μ<sub>_X_</sub>}@}. {@{⟨<!-- markdown separator -->_X_<!-- markdown separator -->⟩, ⟨<!-- markdown separator -->_X_<!-- markdown separator -->⟩<sub>av</sub>, and ${\overline {X} }$}@} are commonly used in {@{physics}@}.<sup>[\[11\]](#^ref-11)</sup> {@{M\(_X_\)}@} is used in {@{Russian-language literature}@}. <!--SR:!2026-03-15,345,347!2026-01-12,293,330!2025-12-07,248,327!2026-01-13,294,330!2026-01-06,288,330-->
+Another popular notation is {@{μ<sub>_X_</sub>}@}. {@{⟨<!-- markdown separator -->_X_<!-- markdown separator -->⟩, ⟨<!-- markdown separator -->_X_<!-- markdown separator -->⟩<sub>av</sub>, and ${\overline {X} }$}@} are commonly used in {@{physics}@}.<sup>[\[11\]](#^ref-11)</sup> {@{M\(_X_\)}@} is used in {@{Russian-language literature}@}. <!--SR:!2026-03-15,345,347!2026-01-12,293,330!2029-01-02,1122,347!2026-01-13,294,330!2026-01-06,288,330-->
 
 ## definition
 

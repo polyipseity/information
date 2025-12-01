@@ -59,7 +59,7 @@ An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic
 In this example, we have
 
 - $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2029-01-14,1167,352!2029-01-26,1177,352-->
-- $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2025-12-07,282,332!2029-02-15,1193,352-->
+- $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2029-06-19,1290,352!2029-02-15,1193,352-->
 - $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2029-02-16,1194,352!2025-12-25,295,332-->
 - $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2027-09-19,774,332!2028-02-16,836,330-->
 
@@ -171,7 +171,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 
 - a set _x_ ::@:: of possible inputs, <!--SR:!2029-06-12,1284,352!2029-02-12,1191,352-->
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2029-01-31,1181,352!2025-12-15,285,332-->
-- a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2027-01-21,567,312!2025-12-07,282,332-->
+- a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2027-01-21,567,312!2029-06-18,1289,352-->
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2029-06-13,1285,352!2027-10-27,794,332-->
 - a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and \(annotation: This makes the automata "learn" from an input.\) <!--SR:!2027-12-28,792,292!2026-10-10,493,312-->
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2027-10-18,786,332!2028-01-14,865,332-->

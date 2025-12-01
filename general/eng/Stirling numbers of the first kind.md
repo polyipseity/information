@@ -27,7 +27,7 @@ For example, $(x)_{3}=x(x-1)(x-2)=x^{3}-3x^{2}+2x$, leading to {@{the values $s(
 
 {@{The unsigned Stirling numbers}@} may also be defined {@{algebraically as the coefficients of the [rising factorial](falling%20and%20rising%20factorials.md): $$x^{\overline {n} }=x(x+1)\cdots (x+n-1)=\sum _{k=0}^{n}\left[{n \atop k}\right]x^{k}$$}@}. <!--SR:!2025-12-08,316,330!2029-11-05,1431,350-->
 
-{@{The notations used on this page for Stirling numbers}@} are {@{not universal, and may conflict with notations in other sources}@}; {@{the square bracket notation $\left[{n \atop k}\right]$}@} is {@{also common notation for the [Gaussian coefficients](Gaussian%20binomial%20coefficient.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-07,315,330!2029-06-12,1316,350!2029-04-30,1279,350!2028-01-18,887,330-->
+{@{The notations used on this page for Stirling numbers}@} are {@{not universal, and may conflict with notations in other sources}@}; {@{the square bracket notation $\left[{n \atop k}\right]$}@} is {@{also common notation for the [Gaussian coefficients](Gaussian%20binomial%20coefficient.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-11-16,1440,350!2029-06-12,1316,350!2029-04-30,1279,350!2028-01-18,887,330-->
 
 ### definition by permutation
 

@@ -91,7 +91,7 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 - [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2025-12-18,245,330!2027-12-09,792,330-->
 - [Two-out-of-five code](two-out-of-five%20code.md) – ::@:: Error-detection code for decimal digits, widely used in barcoding and at one time in telephone exchanges <!--SR:!2027-12-10,794,330!2027-05-21,639,330-->
 - [Bi-quinary coded decimal](bi-quinary%20coded%20decimal.md) – ::@:: Numeral encoding scheme <!--SR:!2027-09-26,737,330!2028-01-22,826,330-->
-- [Gray code](gray%20code.md) – ::@:: Ordering of binary values, used for positioning and error correction <!--SR:!2026-01-30,277,330!2025-12-07,234,330-->
+- [Gray code](gray%20code.md) – ::@:: Ordering of binary values, used for positioning and error correction <!--SR:!2026-01-30,277,330!2028-11-06,1065,350-->
 - [Kronecker delta](Kronecker%20delta.md) – ::@:: Mathematical function of two variables; outputs 1 if they are equal, 0 otherwise <!--SR:!2025-12-21,247,330!2026-01-26,276,330-->
 - [Indicator vector](indicator%20vector.md)
 - [Serial decimal](serial%20decimal.md) – ::@:: computer numeric representation is one in which ten bits are reserved for each digit <!--SR:!2028-01-30,831,330!2026-11-25,492,310-->

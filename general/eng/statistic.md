@@ -25,7 +25,7 @@ Some examples of statistics are:
 
 - "In a recent survey of Americans, __52%__ of women say global warming is happening."
 
-In this case, {@{"52%" is a statistic}@}, namely {@{the percentage of women in the survey sample who believe in global warming}@}. {@{The population}@} is {@{the [set](set%20(mathematics).md) of all women in the United States}@}, and {@{the population parameter being estimated}@} is {@{the percentage of _all_ women in the United States, not just those surveyed, who believe in global warming}@}. <!--SR:!2026-01-31,277,330!2026-01-19,270,330!2026-02-12,289,330!2025-12-07,234,330!2026-01-20,271,330!2026-01-24,274,330-->
+In this case, {@{"52%" is a statistic}@}, namely {@{the percentage of women in the survey sample who believe in global warming}@}. {@{The population}@} is {@{the [set](set%20(mathematics).md) of all women in the United States}@}, and {@{the population parameter being estimated}@} is {@{the percentage of _all_ women in the United States, not just those surveyed, who believe in global warming}@}. <!--SR:!2026-01-31,277,330!2026-01-19,270,330!2026-02-12,289,330!2028-11-05,1064,350!2026-01-20,271,330!2026-01-24,274,330-->
 
 - "The manager of a large hotel located near Disney World indicated that 20 selected guests had a mean length of stay equal to __5.6__ days."
 
@@ -33,7 +33,7 @@ In this example, {@{"5.6 days" is a statistic}@}, namely {@{the mean length of s
 
 There are {@{a variety of functions}@} that are used to {@{calculate statistics}@}. Some include: <!--SR:!2025-12-30,255,330!2026-01-26,276,330-->
 
-- (annotation: central location statistics) ::@:: [Sample mean](sample%20mean.md), [sample median](sample%20median.md#medians%20for%20samples), and [sample mode](mode%20(statistics).md) <!--SR:!2025-12-07,236,330!2025-12-21,247,330-->
+- (annotation: central location statistics) ::@:: [Sample mean](sample%20mean.md), [sample median](sample%20median.md#medians%20for%20samples), and [sample mode](mode%20(statistics).md) <!--SR:!2028-11-14,1073,350!2025-12-21,247,330-->
 - (annotation: dispersion statistics) ::@:: [Sample variance](sample%20variance.md#sample%20variance) and sample [standard deviation](standard%20deviation.md) <!--SR:!2028-02-01,833,330!2026-02-18,294,330-->
 - Sample [quantiles](quantile.md) ::@:: besides the [median](median.md), e.g., [quartiles](quartile.md) and [percentiles](percentile.md) <!--SR:!2026-01-12,264,330!2026-02-06,283,330-->
 - [Test statistics](test%20statistic.md), ::@:: such as [t-statistic](t-statistic.md), [chi-squared statistic](chi-squared%20statistic.md), [f statistic](F-test.md) <!--SR:!2026-02-10,287,330!2025-12-23,249,330-->

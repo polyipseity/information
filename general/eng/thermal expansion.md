@@ -31,7 +31,7 @@ tags:
 > where
 >
 > - {@{$\alpha_A$}@} is {@{the __coefficient of area thermal expansion__, $A$ is the [area](area.md)}@}
-> - {@{$\frac{\mathrm{d}A}{\mathrm{d}T}$}@} is {@{the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2026-07-27,714,330!2030-07-21,1804,330!2025-12-08,17,333!2025-12-07,16,333!2025-12-08,17,333-->
+> - {@{$\frac{\mathrm{d}A}{\mathrm{d}T}$}@} is {@{the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2026-07-27,714,330!2030-07-21,1804,330!2025-12-08,17,333!2026-02-21,76,353!2025-12-08,17,333-->
 
 ### volume expansion
 
@@ -43,7 +43,7 @@ tags:
 >
 > - {@{$\alpha_V$}@} is {@{the __coefficient of volume thermal expansion__}@}
 > - {@{$V$}@} is {@{the [volume](volume.md)}@}
-> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330!2025-12-09,18,333!2025-12-07,16,333!2025-12-08,17,333!2025-12-07,16,333!2025-12-09,18,333-->
+> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330!2025-12-09,18,333!2026-02-21,76,353!2025-12-08,17,333!2026-02-20,75,353!2025-12-09,18,333-->
 
 #### isotropic materials
 
@@ -55,7 +55,7 @@ tags:
 >
 > where
 >
-> - {@{$\alpha$}@} is {@{the coefficient of thermal expansion}@}, with {@{the subscripts $L$, $A$, and $V$}@} denoting {@{respectively [length](length.md), [area](area.md), and [volume](volume.md)}@} <!--SR:!2027-09-26,1072,350!2027-07-28,1023,350!2028-04-18,1150,310!2025-12-07,16,333!2025-12-09,18,333!2025-12-08,17,333-->
+> - {@{$\alpha$}@} is {@{the coefficient of thermal expansion}@}, with {@{the subscripts $L$, $A$, and $V$}@} denoting {@{respectively [length](length.md), [area](area.md), and [volume](volume.md)}@} <!--SR:!2027-09-26,1072,350!2027-07-28,1023,350!2028-04-18,1150,310!2026-02-21,76,353!2025-12-09,18,333!2025-12-08,17,333-->
 
 We can derive the above equations for a $n$-dimensional coefficient:
 

@@ -62,7 +62,7 @@ In addition to {@{formalizing mathematics}@}, category theory is also used to {@
 There are {@{many equivalent definitions of a category}@}.<sup>[\[a\]](#^ref-a)</sup> One commonly used definition is as follows. A __category__ _C_ consists of (annotation: {@{objects, morphisms/arrows, domain/source, codomain/target, composition of morphisms}@}) <!--SR:!2025-12-18,268,330!2026-01-17,293,330-->
 
 - a [class](class%20(set%20theory).md) ob\(_C_\) ::@:: of __[objects](mathematical%20object.md)__, <!--SR:!2026-01-14,290,330!2026-01-06,283,330-->
-- a class mor\(_C_\) (annotation: or hom\(_C_\)) ::@:: of __[morphisms](morphism.md)__ or __arrows__, <!--SR:!2025-12-07,259,330!2025-12-27,276,330-->
+- a class mor\(_C_\) (annotation: or hom\(_C_\)) ::@:: of __[morphisms](morphism.md)__ or __arrows__, <!--SR:!2029-02-27,1178,350!2025-12-27,276,330-->
 - a __domain__ or __source__ class function ::@:: dom: mor\(C\) → ob\(C\), <!--SR:!2025-12-27,276,330!2025-12-23,272,330-->
 - a __codomain__ or __target__ class function ::@:: cod: mor\(C\) → ob\(C\), <!--SR:!2028-02-29,866,330!2025-12-27,276,330-->
 - for every three objects _a_, _b_ and _c_, ::@:: a binary operation hom\(_a_, _b_\) × hom\(_b_, _c_\) → hom\(_a_, _c_\) called __composition of morphisms__. Here hom\(_a_, _b_\) denotes the subclass of morphisms _f_ in mor\(_C_\) such that dom\(f\) = _a_ and cod\(f\) = _b_. Morphisms in this subclass are written _f_ : _a_ → _b_, and the composite of _f_ : _a_ → _b_ and _g_ : _b_ → _c_ is often written as _g_ ∘ _f_ or _gf_. <!--SR:!2025-12-31,278,330!2025-12-28,276,330-->

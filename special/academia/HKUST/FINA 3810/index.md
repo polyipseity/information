@@ -49,7 +49,7 @@ The content is in teaching order.
   - Bloomberg Terminal / Bloomberg News ::@:: Bloomberg TV & Video, front page, key news themes, natural language search, news categories, social monitor, top news, etc. <!--SR:!2026-08-06,244,330!2026-06-01,178,310-->
     - Bloomberg Terminal / Bloomberg News / top news ::@:: `TOP <GO>` <!--SR:!2026-08-16,255,330!2025-12-11,63,310-->
     - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!2025-12-09,62,310!2026-08-05,246,330-->
-    - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2025-12-10,62,310!2025-12-07,60,310-->
+    - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2025-12-10,62,310!2026-08-26,262,330-->
     - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2025-12-12,64,310!2026-07-22,234,330-->
     - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2025-12-13,65,310!2025-12-13,65,310-->
     - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2026-05-27,175,310!2026-03-14,127,290-->
@@ -61,7 +61,7 @@ The content is in teaching order.
   - Bloomberg Terminal / login
   - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\) <!--SR:!2026-07-30,241,330!2026-05-15,174,310-->
 - FINA 3810
-  - FINA 3810 / trading strategy ::@:: Join the 2025 Bloomberg Global Trading Challenge or the course-level internal trading challenge. <!--SR:!2025-12-07,60,310!2025-12-11,63,310-->
+  - FINA 3810 / trading strategy ::@:: Join the 2025 Bloomberg Global Trading Challenge or the course-level internal trading challenge. <!--SR:!2026-08-25,261,330!2025-12-11,63,310-->
     - FINA 3810 / trading strategy / tips ::@:: Apply theory to trading, realizing that theories can be wrong to some extent. Combine expert knowledge and technical skills. Timing is everything \(e.g. instrument, timing, trade, etc.\). Read and interpret more financial news. <!--SR:!2025-12-15,67,310!2026-08-12,251,330-->
 - quiz: [testing](questions/testing.md)
 

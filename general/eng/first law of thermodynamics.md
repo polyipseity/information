@@ -19,7 +19,7 @@ The __first law of thermodynamics__ is {@{a formulation of [conservation of ener
 >
 > - {@{$\Delta U$}@} is {@{the change in [internal energy](internal%20energy.md) of the [thermodynamic system](thermodynamic%20system.md)}@}
 > - {@{$Q$}@} is {@{the [heat](heat.md) supplied to the system}@}
-> - {@{$W$}@} is {@{the [thermodynamic work](work%20(thermodynamics).md) done on the surroundings}@} <!--SR:!2027-06-02,982,350!2027-07-20,941,330!2025-12-07,16,318!2025-12-08,17,318!2025-12-09,18,318!2025-12-09,18,318!2025-12-08,17,318-->
+> - {@{$W$}@} is {@{the [thermodynamic work](work%20(thermodynamics).md) done on the surroundings}@} <!--SR:!2027-06-02,982,350!2027-07-20,941,330!2026-02-16,71,338!2025-12-08,17,318!2025-12-09,18,318!2025-12-09,18,318!2025-12-08,17,318-->
 
 ## references
 
