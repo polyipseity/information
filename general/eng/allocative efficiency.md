@@ -15,7 +15,7 @@ __Allocative efficiency__ is {@{a state of the economy in which production is al
 
 In {@{[economics](economics.md)}@}, allocative efficiency entails {@{production at the point on the [production possibilities frontier](production–possibility%20frontier.md) that is optimal for society}@}. <!--SR:!2026-02-09,355,352!2026-01-26,343,352-->
 
-In {@{[contract theory](contract%20theory.md)}@}, allocative efficiency is achieved {@{in a contract in which the skill demanded by the offering party and the skill of the agreeing party are the same}@}. <!--SR:!2026-02-14,359,356!2025-12-04,298,334-->
+In {@{[contract theory](contract%20theory.md)}@}, allocative efficiency is achieved {@{in a contract in which the skill demanded by the offering party and the skill of the agreeing party are the same}@}. <!--SR:!2026-02-14,359,356!2028-08-23,993,334-->
 
 Resource allocation efficiency includes two aspects:
 
@@ -50,7 +50,7 @@ __Optimal product mix__ ::@:: <p> The combination of products produced by the ec
 >
 > {@{Allocative Efficiency example}@} <!--SR:!2026-02-16,361,356!2029-01-03,1180,354-->
 
-From the graph we can see that at the output of 40, the marginal cost of good is $6 while the price that consumer is willing to pay is $15. It means {@{the marginal utility of the consumer is higher than the marginal cost}@}. The optimal level of the output is 70, where {@{the marginal cost equals to marginal utility}@}. At the output of 40, {@{this product or service is under-consumed by the society}@}. By increasing the output to 70, the price will fall to $11. Meanwhile, the society would {@{benefit from consuming more of the good or service}@}. <!--SR:!2029-01-19,1176,356!2025-12-04,298,334!2029-08-19,1357,354!2028-10-14,1116,354-->
+From the graph we can see that at the output of 40, the marginal cost of good is $6 while the price that consumer is willing to pay is $15. It means {@{the marginal utility of the consumer is higher than the marginal cost}@}. The optimal level of the output is 70, where {@{the marginal cost equals to marginal utility}@}. At the output of 40, {@{this product or service is under-consumed by the society}@}. By increasing the output to 70, the price will fall to $11. Meanwhile, the society would {@{benefit from consuming more of the good or service}@}. <!--SR:!2029-01-19,1176,356!2029-08-30,1365,354!2029-08-19,1357,354!2028-10-14,1116,354-->
 
 ### an example of allocation inefficiency
 

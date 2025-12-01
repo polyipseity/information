@@ -125,7 +125,7 @@ If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20n
 
 ### unimodality
 
-For {@{fixed $n$}@}, $\left\{ {n \atop k}\right\}$ is {@{unimodal, that is, the sequence increases and then decreases}@}. The maximum is {@{attained for at most two consecutive values of _k_}@}. That is, there is {@{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}@} Looking at the table of values above, {@{the first few values for $k_{n}$}@} are {@{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}@} <!--SR:!2029-09-06,1381,350!2028-05-04,965,330!2025-12-04,308,330!2028-01-19,886,330!2028-04-18,952,330!2026-09-28,448,250-->
+For {@{fixed $n$}@}, $\left\{ {n \atop k}\right\}$ is {@{unimodal, that is, the sequence increases and then decreases}@}. The maximum is {@{attained for at most two consecutive values of _k_}@}. That is, there is {@{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}@} Looking at the table of values above, {@{the first few values for $k_{n}$}@} are {@{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}@} <!--SR:!2029-09-06,1381,350!2028-05-04,965,330!2029-10-10,1406,350!2028-01-19,886,330!2028-04-18,952,330!2026-09-28,448,250-->
 
 When {@{$n$ is large}@}, {@{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\log n} },$$}@} and {@{the maximum value of the Stirling number}@} can be {@{approximated with $$\log \left\{ {n \atop k_{n} }\right\}=n\log n-n\log \log n-n+O(n\log \log n/\log n).$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2028-03-04,918,330!2026-03-26,210,250!2026-12-07,562,310!2026-12-27,449,230-->
 
@@ -165,7 +165,7 @@ Denote {@{the _n_ objects to partition}@} by {@{the integers 1, 2, ..., _n_}@}. 
 
 - [Stirling number](Stirling%20number.md)
 - [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)
-- [Bell number](Bell%20number.md) – ::@:: the number of partitions of a set with _n_ members <!--SR:!2025-12-12,316,330!2025-12-04,308,330-->
+- [Bell number](Bell%20number.md) – ::@:: the number of partitions of a set with _n_ members <!--SR:!2025-12-12,316,330!2029-10-09,1405,350-->
 - [Stirling polynomials](Stirling%20polynomials.md)
 - [twelvefold way](twelvefold%20way.md)
 - learning materials related to [partition related number triangles](https://en.wikiversity.org/wiki/partition_related_number_triangles) at Wikiversity

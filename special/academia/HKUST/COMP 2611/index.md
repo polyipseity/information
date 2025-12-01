@@ -324,7 +324,7 @@ The content is in teaching order.
   - single-precision floating-point format
 - [double-precision floating-point format](../../../../genral/double-precision%20floating-point%20format.md) (`double`) ::@:: 64-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 11 exponent bits, and 52 significand bits (precision is 53 bits). <!--SR:!2027-06-11,669,411!2027-05-29,658,411-->
   - double-precision floating-point format / precision ::@:: about 16 significant _decimal_ digits (15 to 17) <!--SR:!2027-07-09,689,411!2027-07-08,688,411-->
-  - double-precision floating-point format / exponent range ::@:: 2<sup>−1022</sup> ≈ 10<sup>−308</sup> to 2<sup>+1023</sup> ≈ 10<sup>+308</sup> <!--SR:!2026-02-03,223,371!2025-12-04,183,371-->
+  - double-precision floating-point format / exponent range ::@:: 2<sup>−1022</sup> ≈ 10<sup>−308</sup> to 2<sup>+1023</sup> ≈ 10<sup>+308</sup> <!--SR:!2026-02-03,223,371!2028-06-16,925,391-->
     - double-precision floating-point format / exponent range / mnemonic ::@:: Compare the exponents with that of single-precision... notice that "0" is inserted as the 2nd digit. Hmm... <!--SR:!2027-05-04,637,411!2027-04-13,619,411-->
 - [IEEE 754](../../../../general/IEEE%20754.md) ::@:: a technical standard for floating-point arithmetic originally established in 1985 by the Institute of Electrical and Electronics Engineers \(IEEE\) <!--SR:!2027-06-26,682,411!2027-04-11,617,411-->
   - IEEE 754 / history (brief) ::@:: It was developed in response to divergence of representations, which can cause portability issues for scientific code. Now it is almost universally adopted. <!--SR:!2027-06-05,663,411!2027-05-23,652,411-->

@@ -35,7 +35,7 @@ In {@{a [flow network](flow%20network.md)}@}, {@{an __s–t cut__}@} is {@{a cut
 
 In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2029-10-03,1400,350!2029-10-02,1402,350!2028-04-23,958,330!2025-12-11,316,330!2028-04-04,941,330-->
 
-{@{A __bond__}@} is {@{a cut-set that does not have any other cut-set as a proper subset}@}. <!--SR:!2029-09-30,1398,350!2025-12-04,309,330-->
+{@{A __bond__}@} is {@{a cut-set that does not have any other cut-set as a proper subset}@}. <!--SR:!2029-09-30,1398,350!2029-10-14,1410,350-->
 
 ## minimum cut
 
@@ -59,7 +59,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 
 {@{A cut is _maximum_}@} if {@{the size of the cut is not smaller than the size of any other cut}@}. The illustration on the right shows {@{a maximum cut: the size of the cut is equal to 5}@}, and {@{there is no cut of size 6, or |_E_| (the number of edges), because the graph is not [bipartite](bipartite%20graph.md) (there is an [odd cycle](cycle%20graph.md#terminology))}@}. <!--SR:!2025-12-11,316,330!2025-12-06,312,330!2027-12-17,858,330!2025-12-11,316,330-->
 
-In general, {@{finding a maximum cut}@} is {@{computationally hard}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The max-cut problem}@} is {@{one of [Karp's 21 NP-complete problems](Karp's%2021%20NP-complete%20problems.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The max-cut problem is {@{also [APX-hard](APX.md), meaning that there is no polynomial-time approximation scheme for it unless [P = NP](P%20versus%20NP%20problem.md)}@}.<sup>[\[5\]](#^ref-5)</sup> However, it can be {@{approximated to within a constant [approximation ratio](approximation%20algorithm.md) using [semidefinite programming](semidefinite%20programming.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-11,316,330!2029-04-15,1265,350!2025-12-04,309,330!2028-02-15,905,330!2027-08-04,695,310!2028-05-03,965,330-->
+In general, {@{finding a maximum cut}@} is {@{computationally hard}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The max-cut problem}@} is {@{one of [Karp's 21 NP-complete problems](Karp's%2021%20NP-complete%20problems.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The max-cut problem is {@{also [APX-hard](APX.md), meaning that there is no polynomial-time approximation scheme for it unless [P = NP](P%20versus%20NP%20problem.md)}@}.<sup>[\[5\]](#^ref-5)</sup> However, it can be {@{approximated to within a constant [approximation ratio](approximation%20algorithm.md) using [semidefinite programming](semidefinite%20programming.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-11,316,330!2029-04-15,1265,350!2029-10-15,1411,350!2028-02-15,905,330!2027-08-04,695,310!2028-05-03,965,330-->
 
 Note that {@{min-cut and max-cut}@} are {@{_not_ [dual](linear%20programming.md#duality) problems in the [linear programming](linear%20programming.md) sense}@}, even though {@{one gets from one problem to other by changing min to max in the [objective function](loss%20function.md)}@}. {@{The max-flow problem}@} is {@{the dual of the min-cut problem}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-05-03,1279,350!2025-12-06,312,330!2029-06-25,1323,350!2028-03-25,935,330!2028-04-24,958,330-->
 

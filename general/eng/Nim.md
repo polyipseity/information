@@ -170,7 +170,7 @@ from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprag
 
 ### the 21 game
 
-- see ::@:: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2025-12-04,321,341!2029-08-08,1380,361-->
+- see ::@:: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2030-01-19,1507,361!2029-08-08,1380,361-->
 
 The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2025-12-19,334,341!2029-08-27,1395,361!2029-10-22,1440,361!2029-09-30,1423,361!2029-08-11,1382,361!2029-09-24,1418,361!2026-12-25,617,341-->
 

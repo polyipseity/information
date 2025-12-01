@@ -55,7 +55,7 @@ The row sums are $1,1,3,13,73,501,4051,37633,\dots$ (sequence [A000262](https://
 
 Let {@{$x^{(n)}$ represent the [rising factorial](falling%20and%20rising%20factorials.md) $x(x+1)(x+2)\cdots (x+n-1)$ and let $(x)_{n}$ represent the [falling factorial](falling%20and%20rising%20factorials.md) $x(x-1)(x-2)\cdots (x-n+1)$}@}. The Lah numbers are {@{the coefficients that express each of these families of polynomials in terms of the other}@}. Explicitly, {@{$$x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}$$and$$(x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$$}@} (annotation: The change of basis to the falling factorials uses {@{unsigned while that to the rising factorials uses signed}@}.) <!--SR:!2029-09-05,1381,350!2025-12-10,316,330!2029-05-23,1296,350!2028-05-18,978,330-->
 
-For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {red}1}x(x-1)(x-2)$$and$$x(x-1)(x-2)={\color {red}6}x-{\color {red}6}x(x+1)+{\color {red}1}x(x+1)(x+2),$$}@} where {@{the coefficients 6, 6, and 1 are exactly the Lah numbers $L(3,1)$, $L(3,2)$, and $L(3,3)$}@}. <!--SR:!2026-01-03,309,290!2025-12-04,311,330-->
+For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {red}1}x(x-1)(x-2)$$and$$x(x-1)(x-2)={\color {red}6}x-{\color {red}6}x(x+1)+{\color {red}1}x(x+1)(x+2),$$}@} where {@{the coefficients 6, 6, and 1 are exactly the Lah numbers $L(3,1)$, $L(3,2)$, and $L(3,3)$}@}. <!--SR:!2026-01-03,309,290!2028-09-20,1021,330-->
 
 ## identities and relations
 
@@ -69,7 +69,7 @@ In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [St
 
 ### recurrence relations
 
-The Lah numbers satisfy {@{the recurrence relations $${\begin{aligned}L(n+1,k)&=(n+k)L(n,k)+L(n,k-1)\\&=k(k+1)L(n,k+1)+2kL(n,k)+L(n,k-1)\end{aligned} }$$}@} (annotation: The above can be derived combinatorically by {@{using the method of distinguished element}@}.) where {@{$L(n,0)=\delta _{n}$, the [Kronecker delta](kronecker%20delta.md), and $L(n,k)=0$ for all $k>n$}@}. <!--SR:!2027-10-05,685,270!2029-09-30,1401,350!2025-12-04,311,330-->
+The Lah numbers satisfy {@{the recurrence relations $${\begin{aligned}L(n+1,k)&=(n+k)L(n,k)+L(n,k-1)\\&=k(k+1)L(n,k+1)+2kL(n,k)+L(n,k-1)\end{aligned} }$$}@} (annotation: The above can be derived combinatorically by {@{using the method of distinguished element}@}.) where {@{$L(n,0)=\delta _{n}$, the [Kronecker delta](kronecker%20delta.md), and $L(n,k)=0$ for all $k>n$}@}. <!--SR:!2027-10-05,685,270!2029-09-30,1401,350!2029-10-22,1418,350-->
 
 ### exponential generating function
 

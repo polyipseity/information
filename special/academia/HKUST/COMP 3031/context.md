@@ -339,7 +339,7 @@ If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{com
 
 {@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2026-02-05,69,329!2026-02-06,70,329!2026-01-28,62,329!2026-01-28,62,329-->
 
-If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ one}@}. {@{A candidate is _more specific_ than another}@} when {@{at least one of the following 4 items hold}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\) <!--SR:!2026-02-06,70,329!2026-01-21,56,310!2026-01-15,51,309!2026-02-07,71,329!2025-12-04,18,351!2025-12-04,18,351-->
+If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ one}@}. {@{A candidate is _more specific_ than another}@} when {@{at least one of the following 4 items hold}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\) <!--SR:!2026-02-06,70,329!2026-01-21,56,310!2026-01-15,51,309!2026-02-07,71,329!2026-03-04,90,371!2026-03-03,89,371-->
 
 - specificity: lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or <!--SR:!2026-02-05,69,329!2026-01-27,61,329-->
 - specificity: hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass. <!--SR:!2026-01-20,55,310!2026-02-13,76,329-->

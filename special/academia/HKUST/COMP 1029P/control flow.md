@@ -77,7 +77,7 @@ while condition:
 
 The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330!2026-03-26,141,409!2026-03-25,140,409!2026-03-14,131,409!2026-03-26,141,409-->
 
-If {@{there are no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2025-12-04,323,365-->
+If {@{there are no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2030-05-09,1617,385-->
 
 ```Python
 for loop_variables in iterable:

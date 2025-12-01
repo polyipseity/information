@@ -37,7 +37,7 @@ However, in some cases {@{the likelihood equations may be intractable without co
 
 In some cases, {@{infrequent with large samples but less infrequent with small samples}@}, the estimates given by the method of moments are {@{outside of the parameter space}@} \(as shown in the example below\); it {@{does not make sense to rely on them then}@}. That problem {@{never arises in the method of [maximum likelihood](maximum%20likelihood%20estimation.md)}@}.<sup>[\[3\]](#^ref-3)</sup> Also, estimates by the method of moments are not {@{necessarily [sufficient statistics](sufficient%20statistic.md)}@}, i.e., they {@{sometimes fail to take into account all relevant information in the sample}@}. <!--SR:!2027-12-16,829,330!2026-01-12,294,330!2026-01-09,291,330!2028-12-23,1133,350!2028-12-04,1117,350!2025-12-11,25,367-->
 
-When {@{estimating other structural parameters}@} \(e.g., {@{parameters of a [utility function](utility.md), instead of parameters of a known probability distribution}@}\), {@{appropriate probability distributions may not be known}@}, and {@{moment-based estimates may be preferred to maximum likelihood estimation}@}. <!--SR:!2025-12-04,263,330!2027-11-29,811,330!2026-10-12,487,310!2026-01-10,292,330-->
+When {@{estimating other structural parameters}@} \(e.g., {@{parameters of a [utility function](utility.md), instead of parameters of a known probability distribution}@}\), {@{appropriate probability distributions may not be known}@}, and {@{moment-based estimates may be preferred to maximum likelihood estimation}@}. <!--SR:!2029-03-15,1197,350!2027-11-29,811,330!2026-10-12,487,310!2026-01-10,292,330-->
 
 ## alternative method of moments
 

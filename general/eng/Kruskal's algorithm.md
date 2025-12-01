@@ -19,7 +19,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-12-04,290,330!2029-07-05,1312,350-->
+> - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2029-07-16,1320,350!2029-07-05,1312,350-->
 > - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2029-07-08,1314,350!2025-12-09,294,330-->
 > - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2027-05-03,562,270!2027-06-07,582,250-->
 
@@ -39,7 +39,7 @@ The algorithm performs the following steps:
   - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-12-09,294,330!2028-12-13,1153,350-->
   - If not, ::@:: add the edge to the forest, combining two trees into a single tree. <!--SR:!2029-03-14,1223,350!2029-04-02,1240,350-->
 
-At {@{the termination of the algorithm}@}, {@{the forest forms a minimum spanning forest of the graph}@}. If {@{the graph is connected}@}, the forest {@{has a single component and forms a minimum spanning tree}@}. <!--SR:!2025-12-04,290,330!2029-01-19,1182,350!2025-12-08,294,330!2029-07-09,1315,350-->
+At {@{the termination of the algorithm}@}, {@{the forest forms a minimum spanning forest of the graph}@}. If {@{the graph is connected}@}, the forest {@{has a single component and forms a minimum spanning tree}@}. <!--SR:!2029-07-17,1321,350!2029-01-19,1182,350!2025-12-08,294,330!2029-07-09,1315,350-->
 
 ## pseudocode
 
@@ -104,7 +104,7 @@ In cases {@{where the edges are already sorted}@}, or {@{where they have small e
 | ![Kruskal's algorithm example step 3](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%203.svg) | {@{The next edge, __DF__ with length 6}@}, is {@{highlighted using much the same method}@}.                                                                                                                                                                                                                                 |
 | ![Kruskal's algorithm example step 4](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%204.svg) | {@{The next-shortest edges are __AB__ and __BE__, both with length 7}@}. __AB__ is {@{chosen arbitrarily, and is highlighted}@}. The edge __BD__ has been {@{highlighted in red}@}, because {@{there already exists a path \(in green\) between __B__ and __D__, so it would form a cycle \(__ABD__\) if it were chosen}@}. |
 | ![Kruskal's algorithm example step 5](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%205.svg) | The process {@{continues to highlight the next-smallest edge, __BE__ with length 7}@}. Many more edges are {@{highlighted in red at this stage}@}: __BC__ because {@{it would form the loop __BCE__}@}, __DE__ because {@{it would form the loop __DEBA__}@}, and __FE__ because {@{it would form __FEBAD__}@}.             |
-| ![Kruskal's algorithm example step 6](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%206.svg) | Finally, the process {@{finishes with the edge __EG__ of length 9}@}, and {@{the minimum spanning tree is found}@}.                                                                                                                                                                                                         | <!--SR:!2028-12-02,1144,350!2029-06-17,1298,350!2028-10-24,1111,350!2025-12-08,294,330!2029-03-22,1229,350!2029-05-01,1263,350!2029-06-28,1306,350!2029-01-03,1168,350!2027-11-26,826,330!2027-05-11,686,330!2028-10-28,1115,350!2025-12-07,293,330!2029-06-12,1294,350!2029-03-19,1227,350!2028-11-09,1124,350!2025-12-04,290,330!2025-12-18,300,350-->
+| ![Kruskal's algorithm example step 6](../../archives/Wikimedia%20Commons/Kruskal%20Algorithm%206.svg) | Finally, the process {@{finishes with the edge __EG__ of length 9}@}, and {@{the minimum spanning tree is found}@}.                                                                                                                                                                                                         | <!--SR:!2028-12-02,1144,350!2029-06-17,1298,350!2028-10-24,1111,350!2025-12-08,294,330!2029-03-22,1229,350!2029-05-01,1263,350!2029-06-28,1306,350!2029-01-03,1168,350!2027-11-26,826,330!2027-05-11,686,330!2028-10-28,1115,350!2025-12-07,293,330!2029-06-12,1294,350!2029-03-19,1227,350!2028-11-09,1124,350!2029-07-18,1322,350!2025-12-18,300,350-->
 
 ## proof of correctness
 

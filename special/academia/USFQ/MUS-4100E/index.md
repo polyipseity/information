@@ -626,7 +626,7 @@ The content is in teaching order.
 
 - datetime: 2025-04-09T08:30:00-05:00/2025-04-09T09:50:00-05:00, PT1H20M
   - local: 2025-04-09T21:30:00+08:00/2025-04-09T22:50:00+08:00, PT1H20M
-- [John Coltrane](../../../../general/John%20Coltrane.md) \(1926–1967\) ::@:: He was an American jazz saxophonist, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-12-07,159,438!2025-12-04,157,442-->
+- [John Coltrane](../../../../general/John%20Coltrane.md) \(1926–1967\) ::@:: He was an American jazz saxophonist, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-12-07,159,438!2027-10-29,694,442-->
   - John Coltrane / capabilities ::@:: composer, tensor saxophone player <!--SR:!2025-12-08,160,438!2027-10-01,670,438-->
   - John Coltrane / effects ::@:: Most influential jazz artist on the saxophone. He pushed improvisation and jazz harmony to new extremes. <!--SR:!2025-12-05,157,438!2028-06-14,925,458-->
   - John Coltrane / early life ::@:: He missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957. <!--SR:!2025-12-11,163,441!2025-12-06,158,438-->
@@ -650,7 +650,7 @@ The content is in teaching order.
   - local: 2025-04-14T21:30:00+08:00/2025-04-14T22:50:00+08:00, PT1H20M
 - [free jazz](../../../../general/free%20jazz.md) ::@:: It is a style of avant-garde jazz or an experimental approach to jazz improvisation that developed in the late 1950s and early 1960s, when musicians attempted to change or break down jazz conventions, such as regular tempos, tones, and chord changes. <!--SR:!2028-04-27,885,458!2028-04-14,874,458-->
   - free jazz / motivation ::@:: Musicians during this period believed that the bebop and modal jazz that had been played before them was too limiting, and became preoccupied with creating something new. <!--SR:!2028-04-28,886,458!2025-12-05,157,438-->
-  - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2025-12-04,157,438!2028-05-28,912,462-->
+  - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2028-06-25,934,458!2028-05-28,912,462-->
   - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2028-06-05,918,458!2028-06-08,920,458-->
 - [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2025-12-09,161,441!2025-12-06,158,438-->
 - [_The Shape of Jazz to Come_](../../../../general/The%20Shape%20of%20Jazz%20to%20Come.md) ::@:: It is the third album by the jazz musician Ornette Coleman. Released on Atlantic Records in 1959, it was his debut on the label and his first album featuring the working quartet including himself, trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. <!--SR:!2028-05-04,890,458!2028-04-29,887,458-->
@@ -671,10 +671,10 @@ The content is in teaching order.
   - jazz fusion / motivation ::@:: Acoustic jazz had been pushed to its limits. So musicians found new inspirations in rock music and funk. <!--SR:!2028-06-19,929,458!2028-04-24,882,458-->
   - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2028-05-06,893,458!2028-05-29,912,458-->
   - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2025-12-06,158,438!2025-12-07,159,438-->
-  - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report <!--SR:!2025-12-04,157,438!2025-12-07,159,438-->
+  - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report <!--SR:!2028-06-23,932,458!2025-12-07,159,438-->
 - [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations. <!--SR:!2025-12-08,160,438!2028-05-27,910,458-->
   - Herbie Hancock / works ::@:: "Watermelon Man" \(1963\) — Herbie Hancock <br/> "Chameleon" \(1973\) — Herbie Hancock <br/> "I Thought It Was You" \(1979\) — Herbie Hancock: disco groove <br/> "Rokit" \(1983\) — Herbie Hancock <!--SR:!2025-12-09,161,438!2025-12-08,160,438-->
-- [Chick Corea](../../../../general/Chick%20Corea.md) \(2021\) ::@:: He was an American jazz pianist, composer, bandleader and occasional percussionist. <p> As a member of Miles Davis's band in the late 1960s, he participated in the birth of jazz fusion. In the 1970s he formed Return to Forever. <p> He has won 28 Grammy Awards and was nominated 72 times for the award. <!--SR:!2025-12-04,157,438!2025-12-04,157,442-->
+- [Chick Corea](../../../../general/Chick%20Corea.md) \(2021\) ::@:: He was an American jazz pianist, composer, bandleader and occasional percussionist. <p> As a member of Miles Davis's band in the late 1960s, he participated in the birth of jazz fusion. In the 1970s he formed Return to Forever. <p> He has won 28 Grammy Awards and was nominated 72 times for the award. <!--SR:!2028-06-24,933,458!2028-07-05,944,462-->
   - Chick Corea / works ::@:: "Spain" \(1973\) — Chick Corea <!--SR:!2028-06-13,924,458!2028-06-09,921,458-->
 - [bass guitar](../../../../general/bass%20guitar.md) ::@:: It is the lowest-pitched member of the guitar family. It is similar in appearance and construction to an electric but with a longer neck and scale length. <!--SR:!2028-05-19,904,458!2025-12-09,161,441-->
   - bass guitar / Jaco Pastorius ::@:: It was definitely a rhythms section instrument. <p> Then in the mid-1970s, Jaco Pastorius changed it forever... <!--SR:!2025-12-05,158,441!2025-12-08,160,438-->
@@ -689,11 +689,11 @@ The content is in teaching order.
 - datetime: 2025-04-21T08:30:00-05:00/2025-04-21T09:50:00-05:00, PT1H20M
   - local: 2025-04-21T21:30:00+08:00/2025-04-21T22:50:00+08:00, PT1H20M
 - [Nat King Cole](../../../../general/Nat%20King%20Cole.md) \(1919–1965\) ::@:: He was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts. <p> He popularized the piano trio: bass, guitar, and piano. <!--SR:!2028-05-31,915,462!2028-06-23,934,461-->
-  - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2025-12-04,157,442!2028-04-23,882,458-->
+  - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2028-07-04,943,462!2028-04-23,882,458-->
   - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\) <!--SR:!2028-05-09,895,458!2025-12-05,158,441-->
   - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2027-09-29,670,441!2028-07-02,942,461-->
   - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2026-01-18,169,455!2026-01-24,175,455-->
-- [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2028-06-19,930,461!2025-12-04,156,438-->
+- [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2028-06-19,930,461!2028-06-17,926,458-->
   - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2028-05-16,901,458!2025-12-06,158,438-->
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass <!--SR:!2027-07-07,632,438!2025-12-11,163,441-->
   - Oscar Peterson / works ::@:: "C Jam Blues" \(1964\) — Oscar Peterson <br/> _Night Train_ <br/> _The Sound of the Trio_ <br/> _We Get Requests_ <!--SR:!2025-12-10,162,442!2028-05-15,901,461-->
@@ -713,7 +713,7 @@ The content is in teaching order.
 - [Shirley Scott](../../../../general/Shirley%20Scott.md) \(1934–2002\) ::@:: She was an American jazz organist. Her music was noted for its mixture of bebop, blues, and gospel elements. She was known by the nickname "Queen of the Organ". <p> She had 40 records as a leader. <!--SR:!2028-05-12,898,458!2025-12-05,158,442-->
   - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio <!--SR:!2028-05-14,900,458!2028-05-29,913,462-->
 - [Joey DeFrancesco](../../../../general/Joey%20DeFrancesco.md) \(1971–2022\) ::@:: He was a virtuosic organist. He got his start with Davis Miles at 17. <p> He had 30 records as a leader. he died of heart attack at 51. <!--SR:!2028-06-10,922,458!2028-06-04,917,458-->
-  - Joey DeFrancesco / works ::@:: "Fly me to the Moon" \(1999\) — Joey DeFrancesco Trio <!--SR:!2025-12-06,158,438!2025-12-04,157,438-->
+  - Joey DeFrancesco / works ::@:: "Fly me to the Moon" \(1999\) — Joey DeFrancesco Trio <!--SR:!2025-12-06,158,438!2028-06-28,937,458-->
 - Hammond organ
   - Hammond organ / notable organists ::@:: Larry Gouldings, Larry Young \(first to play modal jazz on organ\), Joey DeFrancesco, Shirley Scott, Tony Monaco <!--SR:!2028-05-18,903,458!2025-12-05,157,438-->
 - assignment: \(none\)
@@ -723,17 +723,17 @@ The content is in teaching order.
 - datetime: 2025-04-23T08:30:00-05:00/2025-04-23T09:50:00-05:00, PT1H20M
   - local: 2025-04-23T21:30:00+08:00/2025-04-23T22:50:00+08:00, PT1H20M
 - jazz
-  - jazz / 1980s ::@:: After the jazz fusion era, many jazz musicians returned to traditional bebop, creating neo-bop or post-bop, etc. <!--SR:!2028-04-19,878,458!2025-12-04,157,442-->
+  - jazz / 1980s ::@:: After the jazz fusion era, many jazz musicians returned to traditional bebop, creating neo-bop or post-bop, etc. <!--SR:!2028-04-19,878,458!2028-07-03,942,462-->
 - [neo-bop](../../../../general/neo-bop.md) ::@:: It refers to a style of jazz that gained popularity in the 1980s among musicians who found greater aesthetic affinity for acoustically based, swinging, melodic forms of jazz than for free jazz and jazz fusion that had gained prominence in the 1960s and 1970s. <!--SR:!2027-07-24,648,441!2025-12-06,158,438-->
 - [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages. <!--SR:!2028-04-21,880,458!2028-05-26,910,461-->
 - neo-bop
-  - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions. <!--SR:!2025-12-04,156,438!2025-12-05,158,441-->
+  - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions. <!--SR:!2028-06-21,930,458!2025-12-05,158,441-->
   - neo-bop / criticisms ::@:: Miles Davis hated it. He thought the music was moving backwards. <!--SR:!2028-04-30,887,458!2025-12-05,158,442-->
 - jazz
   - jazz / education ::@:: Since the 1980s, jazz has become more accessible and educational, with competitions, conservatories, and festivals appearing. <!--SR:!2028-06-05,918,458!2028-06-28,938,461-->
 - [Wynton Marsalis](../../../../general/Wynton%20Marsalis.md) \(1961–\) ::@:: He is an American trumpeter, composer, and music instructor, who is currently the artistic director of Jazz at Lincoln Center. He has been active in promoting classical and jazz music, often to young audiences. Marsalis has won nine Grammy Awards. <!--SR:!2028-06-26,936,458!2028-06-12,924,458-->
-  - Wynton Marsalis / effects ::@:: He is from New Orleans \(the birthplace!\). He brought bebop roots into jazz. He brought jazz into education. <!--SR:!2025-12-09,161,442!2025-12-04,156,438-->
-  - Wynton Marsalis / family ::@:: He comes from a musical family. <!--SR:!2028-06-02,915,458!2025-12-04,157,438-->
+  - Wynton Marsalis / effects ::@:: He is from New Orleans \(the birthplace!\). He brought bebop roots into jazz. He brought jazz into education. <!--SR:!2025-12-09,161,442!2028-06-22,931,458-->
+  - Wynton Marsalis / family ::@:: He comes from a musical family. <!--SR:!2028-06-02,915,458!2028-06-29,938,458-->
   - Wynton Marsalis / works ::@:: "Cherokee" \(1993\) — Wynton Marsalis <!--SR:!2028-06-15,926,458!2028-05-22,905,458-->
 - [Christian McBride](../../../../general/Christian%20McBride.md) \(1972–\) ::@:: He is an American jazz bassist, composer and arranger. He has appeared on more than 400 recordings as a sideman, and is a nine-time Grammy Award winner. <!--SR:!2028-06-01,914,458!2028-05-22,905,458-->
   - Christian McBride / works ::@:: "Easy Walker" \(2013\) — Christian McBride Trio <!--SR:!2025-12-07,159,438!2025-12-09,161,441-->

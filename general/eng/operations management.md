@@ -262,7 +262,7 @@ In {@{_[production planning](production%20planning.md)_}@}, there is a basic dis
 
 {@{The MPS}@} can be seen as {@{a kind of aggregate planning for production coming in two fundamentally opposing varieties}@}: {@{plans which try to [chase](aggregate%20planning.md#chase%20plans) demand}@} and {@{[level](aggregate%20planning.md#level%20plans) plans which try to keep uniform capacity utilization}@}. {@{Many models have been proposed}@} to solve MPS problems: (annotation: 3 items: {@{analytical models, exact optimization algorithm models, heuristic models}@}) <!--SR:!2026-02-12,288,330!2026-01-12,263,330!2027-11-18,764,330!2026-01-27,276,330!2026-01-17,268,330!2028-01-25,831,330-->
 
-- Analytical models ::@:: \(e.g. Magee Boodman model\) <!--SR:!2028-02-14,831,330!2025-12-04,231,330-->
+- Analytical models ::@:: \(e.g. Magee Boodman model\) <!--SR:!2028-02-14,831,330!2028-10-21,1052,350-->
 - Exact optimization algorithmic models ::@:: \(e.g. [LP](linear%20programming.md) and [ILP](integer%20programming.md#canonical%20and%20standard%20form%20for%20ILPs)\) <!--SR:!2026-01-28,274,330!2026-02-14,290,330-->
 - [Heuristic](heuristic.md) models ::@:: \(e.g. Aucamp model\). <!--SR:!2027-12-11,794,330!2026-01-11,263,330-->
 

@@ -590,7 +590,7 @@ nuclear
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←agricultural <!--SR:!2030-10-29,1805,330!2025-12-04,477,392-->
+- _(begin)_→::@::←agricultural <!--SR:!2030-10-29,1805,330!2032-12-02,2555,412-->
 - agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2029-10-20,1582,392-->
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
@@ -849,7 +849,7 @@ Tsing Ma Bridge
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2028-07-19,1018,320!2026-03-31,447,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2026-04-03,502,340-->
 - Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2028-10-02,1199,327-->
-- Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2025-12-04,479,330-->
+- Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2031-11-23,2180,350-->
 
 <!--/pytextgen-->
 

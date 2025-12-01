@@ -96,7 +96,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 - description ::@:: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2026-10-10,595,292!2032-06-07,2402,407-->
 - height ::@:: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2026-02-26,167,161!2027-05-21,813,352-->
 - image ::@:: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2029-03-31,1399,380!2026-03-05,542,400-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ebde3927-b7ca-4808-9e3c-bf6078be3654 -->::@:: reinforced concrete <!--SR:!2026-11-22,655,360!2025-12-04,469,400-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ebde3927-b7ca-4808-9e3c-bf6078be3654 -->::@:: reinforced concrete <!--SR:!2026-11-22,655,360!2032-12-08,2561,420-->
 
 ## Colosseum
 

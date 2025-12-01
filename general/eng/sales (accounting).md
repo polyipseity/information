@@ -17,7 +17,7 @@ tags:
 
 # sales
 
-In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial accounting](financial%20accounting.md)}@}, {@{__net sales__}@} are {@{operating [revenues](revenue.md) earned by a company for selling its products or rendering its services}@}. Also referred to as {@{__revenue__}@}, they are reported directly on {@{the [income statement](income%20statement.md) as _Sales_ or _Net sales_}@}. <!--SR:!2025-12-26,266,330!2029-01-19,1143,350!2027-06-12,668,330!2025-12-04,251,330!2025-12-29,269,330-->
+In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial accounting](financial%20accounting.md)}@}, {@{__net sales__}@} are {@{operating [revenues](revenue.md) earned by a company for selling its products or rendering its services}@}. Also referred to as {@{__revenue__}@}, they are reported directly on {@{the [income statement](income%20statement.md) as _Sales_ or _Net sales_}@}. <!--SR:!2025-12-26,266,330!2029-01-19,1143,350!2027-06-12,668,330!2029-01-25,1148,350!2025-12-29,269,330-->
 
 In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2026-01-01,272,330!2028-12-12,1112,350!2027-01-19,541,310-->
 
