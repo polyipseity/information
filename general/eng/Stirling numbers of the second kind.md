@@ -143,7 +143,7 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### rhyming schemes
 
-{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa), 3 rhyme schemes using two rhymes (aab, aba, abb), and 1 rhyme scheme using three rhymes (abc)}@}.
+{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa)}@}, {@{3 rhyme schemes using two rhymes (aab, aba, abb)}@}, and {@{1 rhyme scheme using three rhymes (abc)}@}.
 
 ## variants
 

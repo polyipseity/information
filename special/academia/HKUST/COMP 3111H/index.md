@@ -559,7 +559,7 @@ The content is in teaching order.
 - [non-functional requirement](../../../../general/non-functional%20requirement.md) ::@:: It is a requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviours. They are contrasted with functional requirements that define specific behavior or functions. <p> It places _constraints_ on use cases or the system.
   - non-functional requirement / discovery ::@:: A key challenge highlighted was that non-functional requirements often remain implicit until they surface during validation. <p> To mitigate this, read each requirement statement line-by-line, identify the hidden constraint, and classify it into one of the NFR categories.
   - non-functional requirement / categories ::@:: design quality, documentation, hardware, implementation, interface \(user, system\), management, performance, physical environment, security
-    - non-functional requirement / categories / design quality ::@:: reliability, supportability, maintainability; e.g., "No software faults should require a user reset."
+    - non-functional requirement / categories / design quality ::@:: maintainability, reliability, supportability; e.g., "No software faults should require a user reset."
     - non-functional requirement / categories / documentation ::@:: who the docs are for and what they contain; e.g., "User manuals must be written in plain English."
     - non-functional requirement / categories / hardware ::@:: platform constraints, e.g. implementation platform, memory size, storage size, etc.
     - non-functional requirement / categories / implementation ::@:: language choices, error handling standards, etc.

@@ -34,9 +34,9 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 
 ### Volterra's function
 
-- see: [Volterra's function](Volterra's%20function.md)
+- see: ::@:: [Volterra's function](Volterra's%20function.md)
 
-Volterra's function is constructed {@{using increasingly smaller modified copies of $f(x) = x^2 \sin(1 / x)$, mirrored and then placed on the removed intervals of [Smith–Volterra–Cantor set](Smith–Volterra–Cantor%20set.md)}@}.
+{@{Volterra's function}@} is constructed {@{using increasingly smaller modified copies of $f(x) = x^2 \sin(1 / x)$}@}, {@{mirrored and then placed on the removed intervals of [Smith–Volterra–Cantor set](Smith–Volterra–Cantor%20set.md)}@}.
 
 - derivative
   - derivative integrability

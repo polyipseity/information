@@ -19,7 +19,7 @@ When {@{two goods are complements}@}, they experience {@{_joint demand_ - the de
 
 {@{All non-complementary goods}@} can be {@{considered substitutes}@}.<sup>[\[4\]](#^ref-4)</sup> If {@{$x$ and $y$ are rough complements in an everyday sense}@}, then consumers are {@{[willing to pay](willingness%20to%20pay.md) more for each [marginal unit](marginal%20product.md) of good $x$ as they accumulate more $y$}@}. The opposite is {@{true for substitutes}@}: the consumer is {@{willing to pay less for each marginal unit of good "$z$" as it accumulates more of good "$y$"}@}.
 
-Complementarity may be driven by {@{[psychological processes](psychology.md) in which the consumption of one good \(e.g., cola\) stimulates demand for its complements \(e.g., a cheeseburger\)}@}. Consumption of a food or beverage {@{[activates a goal](goal%20setting.md) to consume its complements}@}: {@{foods that consumers believe would taste better together}@}. {@{Drinking cola}@} increases {@{consumers' willingness to pay for a cheeseburger}@}. This effect appears to be {@{contingent on [consumer perceptions](consumer%20behaviour.md) of these relationships rather than their sensory properties}@}.<sup>[\[5\]](#^ref-5)</sup>
+Complementarity may be driven by {@{[psychological processes](psychology.md) in which the consumption of one good \(e.g., cola\) stimulates demand for its complements \(e.g., a cheeseburger\)}@}. Consumption of a food or beverage {@{[activates a goal](goal%20setting.md) to consume its complements}@}: {@{foods that consumers believe would taste better together}@}. {@{Drinking cola}@} increases {@{consumers' willingness to pay for a cheeseburger}@}. This effect appears to be {@{contingent on [consumer perceptions](consumer%20behaviour.md) of these relationships}@} rather than {@{their sensory properties}@}.<sup>[\[5\]](#^ref-5)</sup>
 
 ## examples
 
@@ -39,7 +39,7 @@ An example of this would be {@{the demand for [cars](car.md) and [petrol](gasoli
 
 {@{Few goods}@} behave as {@{perfect complements}@}.<sup>[\[6\]](#^ref-6)</sup> One example is {@{a left shoe and a right}@}; shoes are {@{naturally sold in pairs}@}, and the ratio between {@{sales of left and right shoes will never shift noticeably from 1:1}@}.
 
-{@{The degree of complementarity}@}, however, does not {@{have to be mutual}@}; it can be {@{measured by the [cross price elasticity of demand](cross%20elasticity%20of%20demand.md)}@}. In {@{the case of video games}@}, a specific video game \(the complement good\) {@{has to be consumed with a video game console \(the base good\)}@}. It does not {@{work the other way: a video game console does not have to be consumed with that game}@}.
+{@{The degree of complementarity}@}, however, does not {@{have to be mutual}@}; it can be {@{measured by the [cross price elasticity of demand](cross%20elasticity%20of%20demand.md)}@}. In {@{the case of video games}@}, a specific video game \(the complement good\) {@{has to be consumed with a video game console \(the base good\)}@}. It does not {@{work the other way}@}: {@{a video game console}@} {@{does not have to be consumed with that game}@}.
 
 ### example
 
@@ -52,7 +52,7 @@ In [marketing](marketing.md), complementary goods {@{give additional [market pow
 
 Sometimes {@{the complement-relationship between two goods is not intuitive}@} and must be {@{verified by inspecting the cross-elasticity of demand using market data}@}.
 
-{@{Mosak's definition}@} states "{@{a good $x$ is a gross complement of $y$ if ${\frac {\partial f_{x}(p,\omega )}{\partial p_{y} } }$ is negative}@}, where {@{$f_{i}(p,\omega )$ for $i=1,2,\ldots ,n$ denotes the ordinary individual demand for a certain good}@}." In fact, in Mosak's case, $x$ is {@{not a gross complement of $y$ but $y$ is a gross complement of $x$}@}. The elasticity {@{does not need to be symmetrical}@}. Thus, $y$ is {@{a gross complement of $x$ while $x$ can simultaneously be a gross substitutes for $y$}@}.<sup>[\[7\]](#^ref-7)</sup>
+{@{Mosak's definition}@} states "{@{a good $x$ is a gross complement of $y$ if ${\frac {\partial f_{x}(p,\omega )}{\partial p_{y} } }$ is negative}@}, where {@{$f_{i}(p,\omega )$ for $i=1,2,\ldots ,n$ denotes the ordinary individual demand for a certain good}@}." In fact, in Mosak's case, $x$ is {@{not a gross complement of $y$ but $y$ is a gross complement of $x$}@}. The elasticity {@{does not need to be symmetrical}@}. Thus, $y$ is {@{a gross complement of $x$}@} while $x$ can {@{simultaneously be a gross substitutes for $y$}@}.<sup>[\[7\]](#^ref-7)</sup>
 
 ### proof
 

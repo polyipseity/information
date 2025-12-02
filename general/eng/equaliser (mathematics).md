@@ -35,7 +35,7 @@ Of course, all of this presumes {@{an algebraic context where the kernel of a fu
 
 ## in category theory
 
-Equalisers can be defined by {@{a [universal property](universal%20property.md)}@}, which allows {@{the notion to be generalised from the [category of sets](category%20of%20sets.md) to arbitrary [categories](category%20theory.md)}@}.
+{@{Equalisers}@} can be defined by {@{a [universal property](universal%20property.md)}@}, which allows {@{the notion to be generalised}@} from {@{the [category of sets](category%20of%20sets.md) to arbitrary [categories](category%20theory.md)}@}.
 
 In the general context, {@{_X_ and _Y_ are objects}@}, while {@{_f_ and _g_ are morphisms from _X_ to _Y_}@}. These {@{objects and morphisms}@} form {@{a [diagram](commutative%20diagram.md) in the category in question}@}, and the equaliser is {@{simply the [limit](limit%20(category%20theory).md) of that diagram}@}.
 

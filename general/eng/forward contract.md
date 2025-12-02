@@ -170,8 +170,8 @@ __Case 1:__ Suppose that {@{$F_{t,T}>S_{t}e^{r(T-t)}$}@}. Then an investor can {
 
 At {@{time $T$}@} the investor can {@{reverse the trades that were executed at time $t$}@}. Specifically, and {@{mirroring the trades 1., 2. and 3}@}. the investor
 
-1. ' \(annotation: overpriced forward; repay money\) ::@:: repays the loan to the bank. The inflow to the investor is $-S_{t}e^{r(T-t)}$;
-2. ' \(annotation: overpriced forward; settle forward\) ::@:: settles the short forward contract by selling the asset for $F_{t,T}$. The cash inflow to the investor is now $F_{t,T}$ because the buyer receives $S_{T}$ from the investor.
+1. '<!-- This prime character is intentional. --> \(annotation: overpriced forward; repay money\) ::@:: repays the loan to the bank. The inflow to the investor is $-S_{t}e^{r(T-t)}$;
+2. '<!-- This prime character is intentional. --> \(annotation: overpriced forward; settle forward\) ::@:: settles the short forward contract by selling the asset for $F_{t,T}$. The cash inflow to the investor is now $F_{t,T}$ because the buyer receives $S_{T}$ from the investor.
 
 {@{The sum of the inflows in 1.' and 2.'}@} equals {@{$F_{t,T}-S_{t}e^{r(T-t)}$}@}, which {@{by hypothesis, is positive}@}. This is {@{an arbitrage profit}@}. Consequently, and assuming that {@{the non-arbitrage condition holds}@}, we have {@{a contradiction}@}. This is called {@{a cash and carry arbitrage}@} because you {@{"carry" the asset until maturity}@}.
 

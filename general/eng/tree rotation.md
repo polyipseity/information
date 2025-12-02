@@ -122,9 +122,9 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 
 > {@{![Pictorial description of how rotations cause rebalancing in an AVL tree.](../../archives/Wikimedia%20Commons/Tree%20Rebalancing.gif)}@}
 >
-> {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@}
+> {@{Pictorial description}@} of how {@{rotations cause rebalancing in an AVL tree}@}.
 
-A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}.
+A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1}@} whilst {@{the side opposite the rotation decreases its height similarly}@}. Therefore, one can {@{strategically apply rotations to nodes}@} whose {@{left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} apply {@{this operation automatically}@}. {@{A type of tree which uses this rebalancing technique}@} is {@{the [AVL tree](AVL%20tree.md)}@}.
 
 ## rotation distance
 
@@ -136,7 +136,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 >
 > [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md)
 
-{@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}.
+{@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance}@} is {@{symmetric, positive when given two different trees}@}, and satisfies {@{the [triangle inequality](triangle%20inequality.md)}@}.
 
 It is {@{an [open problem](open%20problem.md)}@} whether there exists {@{a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem}@} admit {@{polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup>
 

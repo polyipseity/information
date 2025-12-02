@@ -14,7 +14,7 @@ tags:
 
 In {@{[economics](economics.md)}@}, {@{__average cost__ \(__AC__\) or __unit cost__}@} is equal to {@{[total cost](total%20cost.md) \(TC\) divided by the number of units of a [good](goods.md) produced \(the [output](output%20(economics).md) Q\)}@}: {@{$$AC={\frac {TC}{Q} } \,.$$}@}
 
-{@{Average cost is an important factor}@} in {@{determining how businesses will choose to [price](pricing.md) their products}@}.
+{@{Average cost is an important factor}@} in determining {@{how businesses will choose to [price](pricing.md) their products}@}.
 
 ## short-run average cost
 
@@ -35,7 +35,7 @@ In {@{[economics](economics.md)}@}, {@{__average cost__ \(__AC__\) or __unit cos
 
 ## long-run average cost
 
-{@{Long-run average cost}@} is {@{the unit cost of producing a certain output when all inputs, even [physical capital](physical%20capital.md), are variable}@}. {@{The [behavioral assumption](behavioral%20assumption.md)}@} is that {@{the firm will choose that combination of inputs that produce the desired quantity at the lowest possible cost}@}.
+{@{Long-run average cost}@} is {@{the unit cost of producing a certain output when all inputs, even [physical capital](physical%20capital.md), are variable}@}. {@{The [behavioral assumption](behavioral%20assumption.md)}@} is that {@{the firm will choose that combination of inputs}@} that produce {@{the desired quantity at the lowest possible cost}@}.
 
 {@{A long-run average cost curve}@} is typically {@{downward sloping at relatively low levels of output, and upward or downward sloping at relatively high levels of output}@}. Most commonly, {@{the long-run average cost curve is U-shaped}@}, by definition {@{reflecting economies of scale where negatively sloped and diseconomies of scale where positively sloped}@}.
 
@@ -68,7 +68,7 @@ When {@{average cost is declining as output increases}@}, {@{marginal cost is le
 1. {@{The Average Fixed Cost curve \(AFC\)}@} starts {@{from a height and goes on declining continuously as production increases}@}.
 2. {@{The Average Variable Cost curve, Average Cost curve and the Marginal Cost curve}@} start {@{from a height, reach the minimum points, then rise sharply and continuously}@}.
 3. {@{The Average Fixed Cost curve}@} {@{approaches zero asymptotically}@}. {@{The Average Variable Cost curve}@} is {@{never parallel to or as high as the Average Cost curve}@} due to {@{the existence of positive Average Fixed Costs at all levels of production}@}; but {@{the Average Variable Cost curve asymptotically approaches the Average Cost curve from below}@}.
-4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves, though the Average Variable Cost curve attains the minimum point prior to that of the Average Cost curve}@}.
+4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves}@}, though {@{the Average Variable Cost curve}@} attains {@{the minimum point prior to that of the Average Cost curve}@}.
 
 ## see also
 

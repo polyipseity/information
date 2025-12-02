@@ -38,7 +38,7 @@ tags:
 
 In {@{[computer science](computer%20science.md) and [information theory](information%20theory.md)}@}, {@{a __Huffman code__}@} is {@{a particular type of optimal [prefix code](prefix%20code.md) that is commonly used for [lossless data compression](lossless%20compression.md)}@}. {@{The process of finding or using such a code}@} is {@{__Huffman coding__}@}, {@{an algorithm developed by [David A. Huffman](David%20A.%20Huffman.md) while he was a [Sc.D.](Doctor%20of%20Science.md) student at [MIT](Massachusetts%20Institute%20of%20Technology.md)}@}, and published in {@{the 1952 paper "A Method for the Construction of Minimum-Redundancy Codes"}@}.<sup>[\[1\]](#^ref-1)</sup>
 
-The output from Huffman's algorithm can be viewed as {@{a [variable-length code](variable-length%20code.md) table for encoding a source symbol \(such as a character in a file\)}@}. The algorithm derives this table from {@{the estimated probability or frequency of occurrence \(_weight_\) for each possible value of the source symbol}@}. As in {@{other [entropy encoding](entropy%20coding.md) methods}@}, {@{more common symbols are generally represented using fewer bits than less common symbols}@}. Huffman's method can be {@{efficiently implemented}@}, finding a code in {@{time [linear](time%20complexity.md#linear%20time) to the number of input weights if these weights are sorted}@}.<sup>[\[2\]](#^ref-2)</sup> However, although {@{optimal among methods encoding symbols separately (symbols are encoded into integral, as opposed to fractional, numbers of bits)}@}, Huffman coding {@{[is not always optimal](#optimality) among all compression methods}@} - it is {@{replaced with [arithmetic coding](arithmetic%20coding.md)<sup>[\[3\]](#^ref-3)</sup> or [asymmetric numeral systems](asymmetric%20numeral%20systems.md)<sup>[\[4\]](#^ref-4)</sup> if a better compression ratio is required}@}.
+The output from Huffman's algorithm can be viewed as {@{a [variable-length code](variable-length%20code.md) table for encoding a source symbol \(such as a character in a file\)}@}. The algorithm derives this table from {@{the estimated probability or frequency of occurrence \(_weight_\) for each possible value of the source symbol}@}. As in {@{other [entropy encoding](entropy%20coding.md) methods}@}, {@{more common symbols are generally represented using fewer bits than less common symbols}@}. Huffman's method can be {@{efficiently implemented}@}, finding a code in {@{time [linear](time%20complexity.md#linear%20time) to the number of input weights if these weights are sorted}@}.<sup>[\[2\]](#^ref-2)</sup> However, although {@{optimal among methods encoding symbols separately}@} \(symbols are {@{encoded into integral, as opposed to fractional, numbers of bits}@}\), Huffman coding {@{[is not always optimal](#optimality) among all compression methods}@} - it is {@{replaced with [arithmetic coding](arithmetic%20coding.md)<sup>[\[3\]](#^ref-3)</sup> or [asymmetric numeral systems](asymmetric%20numeral%20systems.md)<sup>[\[4\]](#^ref-4)</sup> if a better compression ratio is required}@}.
 
 ## history
 
@@ -48,7 +48,7 @@ In doing so, {@{Huffman outdid Fano}@}, who {@{had worked with [Claude Shannon](
 
 ## terminology
 
-Huffman coding uses {@{a specific method for choosing the representation for each symbol}@}, resulting in {@{a [prefix code](prefix%20code.md) \(sometimes called "prefix-free codes"}@}, that is, {@{the bit string representing some particular symbol is never a prefix of the bit string representing any other symbol}@}\). Huffman coding is {@{such a widespread method for creating prefix codes}@} that {@{the term "Huffman code" is widely used as a synonym for "prefix code" even when such a code is not produced by Huffman's algorithm}@}.
+Huffman coding uses {@{a specific method for choosing the representation for each symbol}@}, resulting in {@{a [prefix code](prefix%20code.md) \(sometimes called "prefix-free codes"}@}, that is, {@{the bit string representing some particular symbol is never a prefix of the bit string representing any other symbol}@}\). Huffman coding is {@{such a widespread method for creating prefix codes}@} that {@{the term "Huffman code" is widely used as a synonym for "prefix code"}@} even when {@{such a code is not produced by Huffman's algorithm}@}.
 
 ## problem definition
 
@@ -83,7 +83,7 @@ __Goal__.
 
 ### example
 
-We give an example of {@{the result of Huffman coding for a code with five characters and given weights}@}. We will {@{not verify that it minimizes _L_ over all codes}@}, but we will {@{compute _L_ and compare it to the [Shannon entropy](entropy%20(information%20theory).md) _H_ of the given set of weights}@}; the result is {@{nearly optimal}@}.
+We give an example of {@{the result of Huffman coding}@} for {@{a code with five characters and given weights}@}. We will {@{not verify that it minimizes _L_ over all codes}@}, but we will {@{compute _L_ and compare it to the [Shannon entropy](entropy%20(information%20theory).md) _H_ of the given set of weights}@}; the result is {@{nearly optimal}@}.
 
 |                        |                                                                                        |       |       |       |       |       |                    |
 |:----------------------:|:--------------------------------------------------------------------------------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:------------------:|
@@ -100,7 +100,7 @@ For {@{any code that is _biunique_}@}, meaning that {@{the code is [_uniquely de
 
 As {@{defined by [Shannon \(1948\)](A%20Mathematical%20Theory%20of%20Communication.md)}@}, {@{the information content _h_ \(in bits\) of each symbol _a_<sub>i</sub> with non-null probability}@} is {@{$$h(a_{i})=\log _{2}{1 \over w_{i} }.$$}@} {@{The [entropy](entropy%20(information%20theory).md) _H_ \(in bits\)}@} is {@{the weighted sum, across all symbols _a_<sub>_i_</sub> with non-zero probability _w_<sub>_i_</sub>, of the information content of each symbol}@}: {@{$$H(A)=\sum _{w_{i}>0}w_{i}h(a_{i})=\sum _{w_{i}>0}w_{i}\log _{2}{1 \over w_{i} }=-\sum _{w_{i}>0}w_{i}\log _{2}{w_{i} }.$$}@} \(Note: {@{A symbol with zero probability has zero contribution to the entropy}@}, since {@{$\lim _{w\to 0^{+} }w\log _{2}w=0$}@}. So for simplicity, {@{symbols with zero probability}@} can be {@{left out of the formula above}@}.\)
 
-As {@{a consequence of [Shannon's source coding theorem](Shannon's%20source%20coding%20theorem.md)}@}, the entropy is {@{a measure of the smallest codeword length that is theoretically possible for the given alphabet with associated weights}@}. In this example, the weighted average codeword length is {@{2.25 bits per symbol}@}, only {@{slightly larger than the calculated entropy of 2.205 bits per symbol}@}. So {@{not only is this code optimal in the sense that no other feasible code performs better}@}, but {@{it is very close to the theoretical limit established by Shannon}@}.
+As {@{a consequence of [Shannon's source coding theorem](Shannon's%20source%20coding%20theorem.md)}@}, the entropy is {@{a measure of the smallest codeword length that is theoretically possible for the given alphabet with associated weights}@}. In this example, the weighted average codeword length is {@{2.25 bits per symbol}@}, only {@{slightly larger than the calculated entropy of 2.205 bits per symbol}@}. So {@{not only is this code optimal}@} in the sense that {@{no other feasible code performs better}@}, but it is {@{very close to the theoretical limit established by Shannon}@}.
 
 In general, {@{a Huffman code need not be unique}@}. Thus {@{the set of Huffman codes for a given probability distribution}@} is {@{a non-empty subset of the codes minimizing $L(C)$ for that probability distribution}@}. \(However, for {@{each minimizing codeword length assignment}@}, there exists {@{at least one Huffman code with those lengths}@}.\)
 
@@ -169,7 +169,7 @@ Generally speaking, {@{the process of decompression}@} is {@{simply a matter of 
 
 ## main properties
 
-{@{The probabilities used}@} can be {@{generic ones for the application domain that are based on average experience, or they can be the actual frequencies found in the text being compressed}@}. This requires that {@{a [frequency table](frequency%20(statistics).md) must be stored with the compressed text}@}. See {@{the [Decompression](#decompression) section above}@} for {@{more information about the various techniques employed for this purpose}@}.
+{@{The probabilities used}@} can be {@{generic ones for the application domain that are based on average experience}@}, or they can be {@{the actual frequencies found in the text being compressed}@}. This requires that {@{a [frequency table](frequency%20(statistics).md)}@} {@{must be stored with the compressed text}@}. See {@{the [Decompression](#decompression) section above}@} for {@{more information about the various techniques employed for this purpose}@}.
 
 ### optimality
 

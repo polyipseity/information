@@ -13,7 +13,7 @@ tags:
 
 > {@{![schematic representation of a category with objects _X_, _Y_, _Z_ and morphisms _f_, _g_](../../archives/Wikimedia%20Commons/Commutative%20diagram%20for%20morphism.svg)}@}
 >
-> {@{Schematic representation of a category}@} with {@{objects _X_, _Y_, _Z_ and morphisms _f_, _g_, _g_ ∘ _f_}@}. \({@{The category's three identity morphisms 1<sub>_X_</sub>, 1<sub>_Y_</sub> and 1<sub>_Z_</sub>}@}, if {@{explicitly represented, would appear as three arrows, from the letters _X_, _Y_, and _Z_ to themselves, respectively}@}.\)
+> {@{Schematic representation of a category}@} with {@{objects _X_, _Y_, _Z_ and morphisms _f_, _g_, _g_ ∘ _f_}@}. \({@{The category's three identity morphisms 1<sub>_X_</sub>, 1<sub>_Y_</sub> and 1<sub>_Z_</sub>}@}, if {@{explicitly represented}@}, would appear as {@{three arrows, from the letters _X_, _Y_, and _Z_ to themselves, respectively}@}.\)
 
 {@{__Category theory__}@} is {@{a general theory of [mathematical structures](mathematical%20structure.md) and their relations}@}. It was introduced by {@{[Samuel Eilenberg](Samuel%20Eilenberg.md) and [Saunders Mac Lane](Saunders%20Mac%20Lane.md) in the middle of the 20th century}@} in their {@{foundational work on [algebraic topology](algebraic%20topology.md)}@}.<sup>[\[1\]](#^ref-1)</sup> Category theory is used in {@{almost all areas of mathematics}@}. In particular, {@{many constructions of new [mathematical objects](mathematical%20object.md) from previous ones that appear similarly in several contexts}@} are {@{conveniently expressed and unified in terms of categories}@}. Examples include {@{[quotient spaces](quotient%20space.md), [direct products](direct%20product.md), completion, and [duality](duality%20(mathematics).md)}@}.
 

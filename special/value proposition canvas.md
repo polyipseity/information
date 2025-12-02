@@ -269,10 +269,10 @@ conclusion: make progress
 
 ### test card
 
-When designing tests, you can use {@{test cards}@}. Test cards have {@{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}@}.
+When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}.
 
-One test card is insufficient. Design {@{a series of experiments, rank them by cruicalness, and run experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}@}.
+{@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}.
 
 ## evolve
 
-Evolve is {@{improving and reinvent yourself constantly}@}.
+{@{Evolve}@} is {@{improving and reinvent yourself constantly}@}.

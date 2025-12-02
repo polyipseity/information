@@ -783,7 +783,7 @@ The content is in teaching order.
   - data link layer / terminology ::@:: There are _nodes_. There are _links_ between nodes, representing communication channels. A packet is a _frame_, which encapsulates a _datagram_.
 - OSI model
   - OSI model / packet ::@:: Data are often transmitted in a group of bits. Then, each layer, starting from the top to the bottom \(excluding the physical layer\) adds additional header or trailer information, forming a packet.
-    - OSI model / packet / names ::@:: application layer: message <br/> transport layer: segment <br/> network layer: datagram <br/> data link layer: frame
+    - OSI model / packet / names ::@:: - application layer: message <br/> - transport layer: segment <br/> - network layer: datagram <br/> - data link layer: frame
 - data link layer
   - data link layer / functions ::@:: error correction, error detection, framing, link access
   - data link layer / framing ::@:: Encapsulate _datagrams_, some data to be transferred, into _frames_ by adding _header_ and _trailer_.

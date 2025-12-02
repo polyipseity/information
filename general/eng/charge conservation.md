@@ -17,7 +17,7 @@ In {@{[physics](physics.md)}@}, {@{__charge conservation__}@} is {@{the principl
 
 This does not mean that {@{individual positive and negative charges cannot be created or destroyed}@}. {@{Electric charge}@} is {@{carried by [subatomic particles](subatomic%20particle.md) such as [electrons](electron.md) and [protons](proton.md)}@}. {@{[Charged particles](charged%20particle.md)}@} can be {@{created and destroyed in elementary particle reactions}@}. In {@{[particle physics](particle%20physics.md)}@}, charge conservation means that {@{in reactions that create charged particles, equal numbers of positive and negative particles are always created}@}, keeping {@{the net amount of charge unchanged}@}. Similarly, when {@{particles are destroyed}@}, {@{equal numbers of positive and negative charges are destroyed}@}. This property is {@{supported without exception by all empirical observations so far}@}.<sup>[\[1\]](#^ref-1)</sup>
 
-Although conservation of charge requires that {@{the total quantity of charge in the universe is constant}@}, it leaves open {@{the question of what that quantity is}@}. {@{Most evidence}@} indicates that {@{the net charge in the universe is zero}@};<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> that is, {@{there are equal quantities of positive and negative charge}@}.
+Although conservation of charge requires that {@{the total quantity of charge in the universe is constant}@}, it leaves open {@{the question of what that quantity is}@}. {@{Most evidence}@} indicates that {@{the net charge in the universe is zero}@};<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> that is, there are {@{equal quantities of positive and negative charge}@}.
 
 ## history
 

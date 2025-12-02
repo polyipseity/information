@@ -85,7 +85,7 @@ Note: not all assumptions that can be made for individual supply functions ::@::
 
 ## the shape of the market supply curve
 
-{@{The [law of supply](law%20of%20supply.md)}@} dictates that {@{all other things remaining equal, an increase in the price of the good in question results in an increase in quantity supplied}@}. In other words, {@{the supply curve slopes upwards}@}.<sup>[\[15\]](#^ref-15)</sup> However, there are {@{exceptions to the law of supply. Not all supply curves slope upwards}@}.<sup>[\[16\]](#^ref-16)</sup>
+{@{The [law of supply](law%20of%20supply.md)}@} dictates that {@{all other things remaining equal}@}, {@{an increase in the price of the good in question results in an increase in quantity supplied}@}. In other words, {@{the supply curve slopes upwards}@}.<sup>[\[15\]](#^ref-15)</sup> However, there are {@{exceptions to the law of supply}@}. Not all {@{supply curves slope upwards}@}.<sup>[\[16\]](#^ref-16)</sup>
 
 {@{Some [heterodox economists](heterodox%20economics.md)}@}, such as {@{[Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md)}@}, dispute {@{this theory of the supply curve, arguing that the supply curve for mass produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down}@}, and conversely, if {@{demand is very low, unit prices go up}@}.<sup>[\[17\]](#^ref-17)</sup><sup>[\[18\]](#^ref-18)</sup> This corresponds to {@{[economies of scale](economies%20of%20scale.md)}@}.<!-- <sup>\[_[citation needed](Wikipedia:Citation%20needed.md)_\]</sup> -->
 

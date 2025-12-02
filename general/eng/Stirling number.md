@@ -67,7 +67,7 @@ In contrast, {@{the sum $\sum _{i=0}^{n}i^{k}$ in the standard basis}@} is {@{gi
 
 These numbers are {@{coefficients expressing falling factorials in terms of rising factorials and vice versa}@}: {@{<p> $x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}\quad$ and $\quad (x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$}@}
 
-As above, this means they {@{express the change of basis between the bases $(x)_{0},(x)_{1},(x)_{2},\cdots$ and $x^{(0)},x^{(1)},x^{(2)},\cdots$, completing the diagram}@}. In particular, {@{one formula is the inverse of the other}@}, thus: {@{$$\sum _{j=k}^{n}(-1)^{j-k}L(n,j)L(j,k)=\delta _{n,k}.$$}@}
+As above, this means they express {@{the change of basis between the bases $(x)_{0},(x)_{1},(x)_{2},\cdots$ and $x^{(0)},x^{(1)},x^{(2)},\cdots$}@}, {@{completing the diagram}@}. In particular, {@{one formula is the inverse of the other}@}, thus: {@{$$\sum _{j=k}^{n}(-1)^{j-k}L(n,j)L(j,k)=\delta _{n,k}.$$}@}
 
 Similarly, {@{composing the change of basis from $x^{(n)}$ to $x^{n}$ with the change of basis from $x^{n}$ to $(x)_{n}$}@} gives {@{the change of basis directly from $x^{(n)}$ to $(x)_{n}$}@}: {@{$$L(n,k)=\sum _{j=k}^{n}{\biggl [}{n \atop j}{\biggr ]}{\biggl \{}{\!j\! \atop \!k\!}{\biggr \} },$$}@} and similarly for other compositions. In {@{terms of matrices}@}, if {@{$L$ denotes the matrix with entries $L_{nk}=L(n,k)$ and $L^{-}$ denotes the matrix with entries $L_{nk}^{-}=(-1)^{n-k}L(n,k)$}@}, then {@{one is the inverse of the other: $L^{-}=L^{-1}$}@}. Composing {@{the matrix of unsigned Stirling numbers of the first kind with the matrix of Stirling numbers of the second kind}@} gives {@{the Lah numbers: $L=|s|\cdot S$}@}.
 

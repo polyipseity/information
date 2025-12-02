@@ -428,9 +428,9 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 
 ### use case detail level
 
-{@{The goal of a use-case specification}@} is to provide {@{sufficient detail so that all stakeholders—developers, testers, business users, and customers—agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}.
+{@{The goal of a use-case specification}@} is to provide {@{sufficient detail so that all stakeholders}@}—{@{developers, testers, business users, and customers}@}—{@{agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}.
 
-When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low-value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}.
+When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low-value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_}@}, {@{_Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}.
 
 To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}.
 
@@ -462,7 +462,7 @@ It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary 
 
 When {@{specifying boundaries class for a model}@}, begin by creating {@{a single boundary object for every actor—use case combination}@}. For {@{human actors}@} this object represents {@{the main user-interface window through which they interact with the system}@}, while for {@{non-human or external system actors}@} it stands for {@{the communication endpoint that connects to those systems}@}. {@{This one-to-one mapping}@} keeps {@{boundary responsibilities focused and simplifies later refinement}@}. If possible, {@{reuse the same boundary object}@} for an actor, e.g. {@{the boundary object `ProfessorUI` for the actor `Professor`}@}, which includes {@{`CreateScheduleUI`, `SelectCoursesUI` among others}@}.
 
-{@{Boundary objects}@} interact {@{only with control objects and actors}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in the system interface}@}. {@{Actors}@} interact {@{only with boundary objects}@}. They must _not_ {@{interact with other boundary objects directly}@}. These result in a {@{well structured and maintainable}@} system.
+{@{Boundary objects}@} interact {@{only with control objects and actors}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in the system interface}@}. {@{Actors}@} interact {@{only with boundary objects}@}. They should {@{_never_ interact with other boundary objects}@} directly. These result in a {@{well structured and maintainable}@} system.
 
 #### entity classes
 
