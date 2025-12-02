@@ -65,7 +65,7 @@ Note that {@{min-cut and max-cut}@} are {@{_not_ [dual](linear%20programming.md#
 
 ## sparsest cut
 
-{@{The __sparsest cut problem__}@} is to {@{bipartition the vertices}@} so as to {@{minimize the ratio of the number of edges across the cut divided by the number of vertices in the smaller half of the partition}@}. {@{This objective function}@} favors {@{solutions that are both sparse (few edges crossing the cut) and balanced (close to a bisection)}@}. The problem is {@{known to be NP-hard}@}, and {@{the best known approximation algorithm}@} is {@{an $O({\sqrt {\log n} })$ approximation due to [Arora, Rao & Vazirani (2009)](#^ref-8)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-04-16,686,330!2025-12-31,112,290!2028-09-29,1027,330!2026-11-23,550,310!2028-09-09,1014,330!2029-04-12,1263,350!2026-02-25,295,250!2026-01-17,101,384-->
+{@{The __sparsest cut problem__}@} is to {@{bipartition the vertices}@} so as to {@{minimize the ratio of the number of edges across the cut}@} divided by {@{the number of vertices in the smaller half of the partition}@}. {@{This objective function}@} favors {@{solutions that are both sparse (few edges crossing the cut) and balanced (close to a bisection)}@}. The problem is {@{known to be NP-hard}@}, and {@{the best known approximation algorithm}@} is {@{an $O({\sqrt {\log n} })$ approximation due to [Arora, Rao & Vazirani (2009)](#^ref-8)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-04-16,686,330!2025-12-31,112,290!2028-09-29,1027,330!2026-11-23,550,310!2028-09-09,1014,330!2029-04-12,1263,350!2026-02-25,295,250!2026-01-17,101,384-->
 
 ## cut space
 

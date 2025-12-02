@@ -33,6 +33,12 @@ tags:
 - [quiz 12](quiz%2012.md)
 - [quiz 13](quiz%2013.md)
 - [quiz 14](quiz%2014.md)
+- [quiz 15](quiz%2015.md)
+- [quiz 16](quiz%2016.md)
+- [quiz 17](quiz%2017.md)
+- [quiz 18](quiz%2018.md)
+- [quiz 19](quiz%2019.md)
+- [quiz 20](quiz%2020.md)
 
 ## week 1 lecture
 
@@ -233,5 +239,29 @@ tags:
 \(none\)
 
 ## week 10 lecture
+
+\(none\)
+
+## week 11 pre-lecture
+
+\(none\)
+
+## week 11 lecture
+
+\(none\)
+
+## week 12 pre-lecture
+
+\(none\)
+
+## week 12 lecture
+
+\(none\)
+
+## week 13 pre-lecture
+
+\(none\)
+
+## week 13 lecture
 
 \(none\)

@@ -15,13 +15,13 @@ The __law of supply__ is {@{a fundamental principle of [economic theory](economi
 
 In short, the law of supply is {@{a positive relationship between quantity supplied and price}@}, and is {@{the reason for the upward slope of the supply curve}@}. <!--SR:!2029-07-20,1333,350!2029-08-01,1344,350-->
 
-{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {@{dispute the law of supply, arguing that the supply curve for mass-produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down, and conversely, if demand is very low, unit prices go up}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-06-23,1313,350!2029-07-19,1332,350!2029-07-31,1343,350-->
+{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {@{dispute the law of supply}@}, arguing that {@{the supply curve for mass-produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down}@}, and conversely, if {@{demand is very low, unit prices go up}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-06-23,1313,350!2029-07-19,1332,350!2029-07-31,1343,350-->
 
 ## definition
 
 A supply is {@{a good or [service](service%20(economics).md) that [producers](production%20(economics).md) are willing to provide}@}. The law of supply determines {@{the quantity of supply at a given price}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-07-22,1335,350!2029-07-29,1341,350-->
 
-{@{The [law of supply and demand](supply%20and%20demand.md)}@} states that, for a given product, if {@{the quantity demanded exceeds the quantity supplied, then the price increases, which decreases the demand ([law of demand](law%20of%20demand.md)) and increases the supply (law of supply)—and vice versa}@}—until {@{the quantity supplied equals the quantity demanded}@}. <!--SR:!2029-06-16,1307,350!2029-08-02,1345,350!2029-06-22,1312,350-->
+{@{The [law of supply and demand](supply%20and%20demand.md)}@} states that, for {@{a given product}@}, if {@{the quantity demanded exceeds the quantity supplied}@}, then {@{the price increases}@}, which {@{decreases the demand ([law of demand](law%20of%20demand.md)) and increases the supply (law of supply)}@}—and {@{vice versa}@}—until {@{the quantity supplied equals the quantity demanded}@}. <!--SR:!2029-06-16,1307,350!2029-08-02,1345,350!2029-06-22,1312,350-->
 
 For example, a job paying £20/hr attracts {@{more interest than a job paying £15/hr}@}, and a high [interest rate](interest%20rate.md) attracts {@{lenders and deters borrowers}@}. <!--SR:!2029-06-02,1294,350!2029-06-17,1308,350-->
 
@@ -29,7 +29,7 @@ For example, a job paying £20/hr attracts {@{more interest than a job paying £
 
 There are {@{various non-price determinants that can cause a shift in a supply curve}@}.<sup>[\[6\]](#^ref-6)</sup> For example, if {@{the costs of production, such as wages, decrease}@}, then {@{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}@}. If {@{the number of suppliers increases, or if the capacity of a factory producing the goods increases}@}, {@{the quantity supplied will increase}@}. <!--SR:!2027-07-08,739,330!2029-06-26,1315,350!2029-07-02,1320,350!2029-07-03,1321,350!2029-07-04,1321,350-->
 
-Other factors can include {@{government policy}@}—{@{government subsidies to encourage certain products decreases the overall cost of production}@}. However, {@{government [taxation](tax.md) can cause the cost of production to rise}@}. For some products, such as {@{in agriculture, the quantity supplied is dependent on the weather}@}. <!--SR:!2029-06-07,1299,350!2029-07-30,1342,350!2029-07-21,1334,350!2029-07-18,1331,350-->
+{@{Other factors \(annotation: affecting supply\)}@} can include {@{government policy}@}—{@{government subsidies}@} to {@{encourage certain products decreases the overall cost of production}@}. However, {@{government [taxation](tax.md)}@} can {@{cause the cost of production to rise}@}. For {@{some products, such as in agriculture}@}, {@{the quantity supplied}@} is {@{dependent on the weather}@}. <!--SR:!2029-06-07,1299,350!2029-07-30,1342,350!2029-07-21,1334,350!2029-07-18,1331,350-->
 
 ## see also
 

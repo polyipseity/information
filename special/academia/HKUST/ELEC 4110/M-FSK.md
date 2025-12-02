@@ -1,0 +1,57 @@
+---
+aliases:
+  - ELEC 4110 M-FSK
+  - ELEC4110 M-FSK
+  - M-FSK
+tags:
+  - flashcard/active/special/academia/HKUST/ELEC_4110/M-FSK
+  - language/in/English
+---
+
+# _M_-FSK
+
+- see: [general/multiple frequency-shift keying](../../../../general/multiple%20frequency-shift%20keying.md)
+
+{@{_Frequency shift keying_ (M-FSK)}@} assigns {@{$\log_2M$ bits to one of $M$ distinct orthogonal carrier frequencies}@}. {@{Each symbol}@} is represented by {@{a single tone at a different frequency}@}, which makes FSK {@{inherently robust against amplitude fading and nonlinearities}@}—an advantage in {@{power-limited or highly distorted channels}@}. However, {@{the required bandwidth}@} expands {@{linearly with $M$}@}, as {@{each additional frequency}@} must be {@{accommodated within the channel spectrum}@}.
+
+## waveforms
+
+{@{The transmitted waveform corresponding to symbol index $m = 0, \ldots, M - 1$}@} is {@{a single tone at one of $M$ distinct frequencies}@}: {@{$$s_m(t)=A\,\cos \!\bigl(2\pi(f_c+\Delta f_m)t\bigr), \qquad 0\le t<T_s \,,$$}@} where {@{$f_c = n / T_s$ for some positive integer $n$ and $\Delta f_m$ denotes the frequency offset for symbol $m$}@}. {@{The offsets are chosen}@} such that {@{the tones are orthogonal over the interval $T_s$}@} (e.g., {@{$\Delta f_m=m\,\Delta f_{\min}$ where $\Delta f_{\min} = 1 / T_s$}@}). Again, {@{setting $A=\sqrt{2E/T_s}$}@} gives {@{each tone an average energy $E$}@}.
+
+## constellation
+
+{@{The constellation for $M$-ary FSK}@} is {@{a set of $M$ distinct tones}@}, each represented by {@{a point at a different frequency}@} (or equivalently, {@{the unit vectors in the $M$-dimensional constellation}@}).
+
+Assume {@{equiprobable symbols and AWGN}@}. {@{The decision regions}@} for {@{$M$-ary FSK}@} are determined by comparing {@{the received signal's projection onto each orthogonal tone}@}. In {@{a coherent receiver}@}, the signal is {@{correlated with every basis vector $\mathbf{e}_k$}@} (each representing {@{a distinct frequency}@}), and {@{the symbol corresponding to the largest correlation magnitude}@} is {@{selected}@}. Thus, {@{each decision region}@} consists of {@{all vectors whose inner product with one particular unit vector exceeds those with all others}@}, forming {@{$M$ orthogonal slices in an $M$-dimensional Euclidean space}@}: {@{$$\bigl\{\,\mathbf{r}\;|\;\arg\max_k |\langle \mathbf{r},\mathbf{e}_k\rangle|^2 = k\bigr\}\,.$$}@}
+
+## error analysis
+
+For {@{error analysis}@}, assume {@{_equiprobable_ bits and AWGN noise}@}. Then, {@{the optimal detector}@} is {@{the minimum distance rule}@}.
+
+Consider {@{projection onto a _unnormalized_ basis $\set{s_m(t)}$ with $M$ symbols}@}. Assume {@{waveform $s_k(t)$ is transmitted}@}. Then, {@{the received signal}@} has {@{the coefficients}@}: {@{$$\mathbf y_i = \begin{cases} E_s + n_i & \text{if}~i = k \\ n_i & \text{otherwise} \,, \end{cases}$$}@} where {@{$n_i$ are iid zero-mean normal random variables of variance $\sigma^2 = E_s \frac {N_0} 2$}@}. The detector {@{chooses the coordinate}@} by {@{subtracting $E_s / 2$ \(equal symbol energies\) from every coordinate}@} and {@{chooses the maximum one}@}, so {@{the coefficients become}@}: {@{$$y_i = \begin{cases} \frac {E_s} 2 + n_i & \text{if}~i = k \\ n_i - \frac {E_s} 2 & \text{otherwise} \,. \end{cases}$$}@}
+
+{@{The correct decision}@} is made when {@{given the received $k$-th coordinate value $\frac {E_s} 2 + n_k$}@}, it is {@{larger than all others coordinates $n_i - \frac {E_s} 2$}@}. So we have: {@{$$\begin{aligned} P_{ek} & = 1 - \frac 1 {\sqrt{\pi E_s N_0} } \int_{-\infty}^\infty \left(1-Q\left(\frac {y_k + E_s / 2} {\sqrt{E_s N_0 / 2} }\right)\right)^{M - 1} \exp\left(-\frac {(y_k - E_s / 2)^2} {E_s N_0}\right) \,\mathrm dy_k \\ & = 1 - \frac 1 {\sqrt{\pi E_s N_0} } \int_{-\infty}^\infty \left(1-Q\left(\frac {y_k'} {\sqrt{E_s N_0 / 2} }\right)\right)^{M - 1} \exp\left(-\frac {(y_k' - E_s)^2} {E_s N_0}\right) \,\mathrm dy_k' \\ & = 1 - \frac 1 {\sqrt{\pi E_s N_0} } \int_{-\infty}^\infty \left(1-Q\left(\frac {y_k'} {\sqrt{E_s N_0 / 2} }\right)\right)^{M - 1} \exp\left(-\frac {\left(\frac {y_k'} {\sqrt{E_s N_0 / 2} } - \sqrt{\frac {2E_s} {N_0} } \right)^2} 2\right) \,\mathrm dy_k' \,. \end{aligned}$$}@} By substituting {@{$y_k'' = \frac {y_k'} {\sqrt{E_s N_0 / 2} } = \frac {y_k + E_s / 2} {\sqrt{E_s N_0 / 2} }$}@}, we obtain {@{$$\boxed{P_{ek} = 1 - \frac 1 {\sqrt{2\pi} } \int_{-\infty}^\infty (1-Q(y_k''))^{M - 1} \exp\left(-\frac {\left(y_k'' - \sqrt{\frac {2E_s} {N_0} } \right)^2} 2\right) \,\mathrm dy_k''} \,,$$}@} or equivalently {@{$$\boxed{P_{ek} = 1 - \frac 1 {\sqrt{2\pi} } \int_{-\infty}^\infty \left(1-Q\left(x + \sqrt{\frac {2 E_s} {N_0} } \right)\right)^{M - 1} \exp\left(-\frac {x^2} 2\right) \,\mathrm dx} \,.$$}@} Intuitively, {@{the coordinate space}@} is {@{scaled by $1 / \sqrt{E_s N_0 / 2}$ in all directions}@} such that {@{the random variables above all have variance 1}@}. {@{$x$ here}@} is {@{the actual received $k$-th coordinate scaled by the above factor}@}. This means {@{the noise for other coordinates needs to all not exceed $x + E_s / \sqrt{E_s N_0 / 2} = x + \sqrt{\frac {2E_s} {N_0} }$}@}, yielding {@{the above formula intuitively}@}.
+
+Since {@{the signal set is _geometrically symmetric_}@}, so {@{$P_{ei} = P_{ek}$ for every $i$}@} and {@{the _symbol_ error probability}@} is {@{$$P_{eM} = \frac 1 M \sum_{1 \le i \le M} P_{ei} = P_{ek} \,.$$}@}
+
+From {@{the formula for _symbol_ error probability}@}: {@{$$\boxed{P_{eM} = 1 - \frac 1 {\sqrt{2\pi} } \int_{-\infty}^\infty \left(1-Q\left(x + \sqrt{\frac {2 E_s} {N_0} } \right)\right)^{M - 1} \exp\left(-\frac {x^2} 2\right) \,\mathrm dx} \,,$$}@} we see {@{increasing the SNR $\frac {2E_s} {N_0}$}@} {@{_decreases_ the error probability}@}. Meanwhile, {@{increasing $M$}@} also {@{_increases_ the error probability}@}. If {@{_bit_ energy $E_b$ is considered}@}, remember {@{$E_s = E_b \log_2 M$}@}. In this case, {@{fixing $E_b$}@}, {@{increasing $M$}@} {@{_increases_ the error probability when bSNR $2 E_b / N_0$ is low}@} and {@{_decreases_ when bSNR $2 E_b / N_0$ is high}@}. As {@{$M \to \infty$}@}, if {@{bSNR $E_b / N_0$ exceeds about -1.59&nbsp;dB}@}, \(i.e. {@{_Shannon limit_. which is $1 / \log_2 e \approx 0.693$}@}\) then {@{$P_{eM} \to 0$; and otherwise $P_{eM} \to 1$}@}.
+
+### bit error probability
+
+{@{_Bit errors_}@} are {@{different from _symbol_ errors}@}. Due to {@{geometric symmetry}@}, whenever {@{a symbol error occurs}@}, {@{the other $M - 1$ symbols are equally likely}@}. So, {@{_about_ half of the bits}@} are {@{wrong on average}@}. This gives {@{an approximation formula for _bit_ error probability}@}: {@{$$\boxed{P_e \approx \frac 1 2 P_{eM} } \,.$$}@}
+
+For {@{a precise derivation}@} where {@{$k = \log_2 M$}@}, whenever {@{a symbol error occurs}@}, {@{the other $M - 1 = 2^k - 1$ symbols are equally likely}@}. {@{The probability of a $n$-bit error occurring per symbol}@} is: {@{$$\binom k n \frac {P_{eM} } {M - 1} \,.$$}@} So {@{the average number of error bits per symbol of $k$ bits}@} is: {@{$$\sum_{n = 1}^k n \binom k n \frac {P_{eM} } {M - 1} = \frac {P_{eM} } {M - 1} \sum_{n = 1}^k n \binom k n = \frac {P_{eM} } {M - 1} \sum_{n = 1}^k \frac {k!} {(n - 1)! (k - n)!} \,$$}@} and {@{the _bit_ error probability}@} is: {@{$$\begin{aligned} P_e & = \frac {P_{eM} } {M - 1} \frac 1 k \sum_{n = 1}^k \frac {k!} {(n - 1)! (k - n)!} \\ & = \frac {P_{eM} } {M - 1} \sum_{n = 1}^k \frac {(k - 1)!} {(n - 1)! ((k - 1) - (n - 1))!} \\ & = \frac {P_{eM} } {M - 1} \sum_{n = 1}^k \binom {k - 1} {n - 1} = \frac {P_{eM} } {M - 1} \sum_{n = 0}^{k - 1} \binom {k - 1} n \\ & = \frac {P_{eM} } {M - 1} (1 + 1)^{k - 1} = \frac {P_{eM} } {M - 1} \frac M 2 \,. \end{aligned}$$}@} Thus, we have {@{$$\boxed{P_e = \frac {P_{eM} } {M - 1} \frac M 2 = \frac {P_{eM} } 2 \frac M {M - 1} } \,.$$}@} and as {@{$M \to \infty$}@}, {@{$P_e \to P_{eM} / 2$}@}.
+
+### symbol error probability bounds
+
+In general, {@{exact evaluation of $P_{eM}$}@} requires {@{multi-dimensional integrals}@}. {@{The union bound}@}, which is {@{a upper bound of $P_{eM}$}@} replaces this by {@{a sum over pairwise error events}@}: {@{$$P_{eM} \leq \frac 1 M \sum_{m=1}^{M}\sum_{\substack{k=1\\k\neq m} }^{M} P(s_k \mid s_m) \,,$$}@} assuming {@{_equiprobable_ bits}@}.
+
+In the case of {@{M-FSK}@}, using {@{the pairwise symbol error probability formula for minimum distance}@}, {@{$P(s_k \mid s_m)$}@} equals: {@{$$\boxed{P(s_k \mid s_m) = Q\left(\frac {\sqrt{2E_s} } {2\sqrt{N_0 / 2} } \right) = Q\left(\sqrt{\frac {E_s} {N_0} } \right) }$$}@} by considering {@{projections on the _normalized_ basis}@}, so {@{$d = \sqrt 2 \sqrt E_s = \sqrt{2E_s}$}@} and {@{$\sigma_n^2 = N_0 / 2$}@}. This applies for {@{every combination of $s_k$ and $s_m$ where $k \ne m$}@}, so {@{_symbol_ error upper bound}@}: {@{$$\boxed{P_{eM} \le (M - 1) Q\left(\sqrt{\frac {E_s} {N_0} } \right)} \,,$$}@} \(annotation: Note {@{this can also be obtained}@} from {@{the upper bound derivation in [M-ary transmission §  error analysis for minimum distance](M-ary%20transmission.md#error%20analysis%20for%20minimum%20distance)}@}.\) and consequently for {@{_bit_ error upper bound}@}: {@{$$\boxed{P_{eB} = \frac M {2(M - 1)} P_{eM} \le \frac M 2 Q\left(\sqrt{\frac {E_s} {N_0} } \right)} \,.$$}@} Using {@{an approximation quite accurate for $x \ge 3$}@} \(different from {@{the approximation mentioned in binary modulation}@}\): {@{$$Q(x) \le \frac 1 2 e^{-x^2 / 2} \,,$$}@} the above is usually rewritten as {@{$$\boxed{P_{eB} \approx \frac M 4 \exp\left(\frac {E_s} {2N_0} \right) = \frac M 4 \exp\left(\frac {kE_b} {2N_0} \right) } \,.$$}@}
+
+{@{The _bit_ error union bound}@} is {@{exact when $M = 2$}@}, is {@{tight for moderate to high signal-to-noise ratios and small $M$}@}.
+
+### error analysis using simulation
+
+In practice, {@{_simulation_}@} is {@{often used}@} instead. As {@{the bit error rate is small}@}, {@{simulation takes a long time}@} to {@{produce an accurate approximation}@}.
+
+Using {@{simulations}@}, we can show {@{the union bound}@} is {@{a good approximation in most cases}@}. \(We do not know {@{_a priori_}@} if {@{the union bound is a good approximation}@}.\)

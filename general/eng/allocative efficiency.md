@@ -9,13 +9,13 @@ tags:
 
 # allocative efficiency
 
-__Allocative efficiency__ is {@{a state of the economy in which production is aligned with the preferences of consumers and producers}@}; in particular, {@{the set of outputs is chosen so as to maximize the [social welfare](economic%20surplus.md) of society}@}.<sup>[\[1\]](#^ref-1)</sup> This is achieved if {@{every produced good or service has a [marginal benefit](marginal%20utility.md) equal to the [marginal cost](marginal%20cost.md) of production}@}. <!--SR:!2027-11-05,821,334!2028-09-12,1009,334!2027-05-27,697,336-->
+__Allocative efficiency__ is {@{a state of the economy in which production is aligned with the preferences of consumers and producers}@}; in particular, {@{the set of outputs is chosen}@} so as to {@{maximize the [social welfare](economic%20surplus.md) of society}@}.<sup>[\[1\]](#^ref-1)</sup> This is achieved if {@{every produced good or service has a [marginal benefit](marginal%20utility.md) equal to the [marginal cost](marginal%20cost.md) of production}@}. <!--SR:!2027-11-05,821,334!2028-09-12,1009,334!2027-05-27,697,336-->
 
 ## description
 
 In {@{[economics](economics.md)}@}, allocative efficiency entails {@{production at the point on the [production possibilities frontier](production–possibility%20frontier.md) that is optimal for society}@}. <!--SR:!2026-02-09,355,352!2026-01-26,343,352-->
 
-In {@{[contract theory](contract%20theory.md)}@}, allocative efficiency is achieved {@{in a contract in which the skill demanded by the offering party and the skill of the agreeing party are the same}@}. <!--SR:!2026-02-14,359,356!2028-08-23,993,334-->
+In {@{[contract theory](contract%20theory.md)}@}, {@{allocative efficiency is achieved}@} in a contract in which {@{the skill demanded by the offering party and the skill of the agreeing party}@} are {@{the same}@}. <!--SR:!2026-02-14,359,356!2028-08-23,993,334-->
 
 Resource allocation efficiency includes two aspects:
 
@@ -28,7 +28,7 @@ Although there are {@{different standards of evaluation for the concept of alloc
 
 In {@{the single-price model}@}, at the point of allocative efficiency price is {@{equal to marginal cost}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> At this point {@{the social surplus is maximized with no [deadweight loss](deadweight%20loss.md)}@} (the latter being {@{the value society puts on that level of output produced minus the value of resources used to achieve that level}@}). Allocative efficiency is {@{the main tool of welfare analysis}@} to {@{measure the impact of markets and public policy}@} upon {@{society and subgroups being made better or worse off}@}. <!--SR:!2029-09-22,1385,354!2026-02-07,354,356!2029-01-01,1162,356!2029-05-30,1294,354!2029-06-19,1311,354!2029-06-12,1305,354!2025-12-11,25,383-->
 
-It is possible to {@{have [Pareto efficiency](Pareto%20efficiency.md) without allocative efficiency}@}: in such a situation, it is {@{impossible to reallocate resources in such a way that someone gains and no one loses (hence we have Pareto efficiency)}@}, yet {@{it would be possible to reallocate in such a way that gainers gain more than losers lose}@} (hence {@{with such a reallocation, we do not have allocative efficiency}@}).<sup>[\[5\]](#^ref-5)</sup><sup>[\[397\]](#^ref-397)</sup> <!--SR:!2026-02-17,362,356!2027-06-21,726,334!2028-08-21,992,334!2026-02-18,363,356-->
+It is possible to {@{have [Pareto efficiency](Pareto%20efficiency.md) without allocative efficiency}@}: in such a situation, it is {@{impossible to reallocate resources in such a way that someone gains and no one loses}@} (hence we have {@{Pareto efficiency}@}), yet it would be {@{possible to reallocate in such a way that gainers gain more than losers lose}@} (hence {@{with such a reallocation, we do not have allocative efficiency}@}).<sup>[\[5\]](#^ref-5)</sup><sup>[\[397\]](#^ref-397)</sup> <!--SR:!2026-02-17,362,356!2027-06-21,726,334!2028-08-21,992,334!2026-02-18,363,356-->
 
 Also, for {@{an extensive discussion of various types of allocative efficiency in a production context and their estimations}@} see [Sickles](Robin%20Sickles.md) and Zelenyuk (2019, Chapter 3, etc).<sup>[\[6\]](#^ref-6)</sup> In view of {@{the Pareto efficiency measurement method}@}, it is {@{difficult to use in actual operation}@}, including the use of {@{human and material resources}@}, which is {@{hard to achieve a full range of efficiency allocation}@}, and it is mainly to {@{make judgments from the allocation of funds; therefore, analyzing the funds in the stock market}@}. Allocation efficiency is used to determine {@{the efficiency of resource allocation in the capital market}@}. <!--SR:!2027-04-06,669,334!2029-09-16,1381,354!2029-06-10,1304,354!2028-06-19,1027,356!2025-12-31,298,294!2029-01-24,1180,356!2026-02-14,75,383-->
 

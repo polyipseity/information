@@ -159,7 +159,19 @@ When {@{a generic function is invoked}@}, the compiler examines {@{the concrete 
 >
 > The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}. <!--SR:!2026-04-07,137,420!2026-05-01,158,429!2026-04-20,148,429!2026-04-28,156,440!2026-04-26,154,440-->
 
-The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. <!--SR:!2026-03-05,108,395!2026-04-18,147,429!2026-04-06,136,420!2026-04-04,134,420!2026-04-09,139,420-->
+The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}: <!--SR:!2026-03-05,108,395!2026-04-18,147,429!2026-04-06,136,420!2026-04-04,134,420!2026-04-09,139,420-->
+
+> [!example]
+>
+> In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}:
+>
+> ```Scala
+> def left[T](left: T, right: T): T = left
+> left(1, true)          // `T` inferred as `Int | Boolean` (union type)
+> left(1, true: AnyVal)  // `T` inferred as `AnyVal`
+> ```
+>
+> In {@{the first function call}@}, `T` is {@{inferred to be the union of `Int` and `Boolean`}@}. In {@{the second function call}@}, `T` is {@{inferred to be `AnyVal`}@}, which is {@{the _most specific_ common superclass of `Int` and `AnyVal`}@}. {@{The exact rules}@} are {@{complicated}@} and we {@{won't get into details here}@}.
 
 Inference is {@{not always possible}@}; if a function has {@{multiple polymorphic parameters whose types are interdependent}@} or if {@{no arguments provide enough information}@}, the programmer must {@{specify the type explicitly}@}. However, for {@{most common patterns—especially single-parameter generic functions}@}—the compiler can {@{resolve the type without assistance}@}. <!--SR:!2026-04-13,142,420!2026-04-27,154,429!2026-04-20,148,420!2026-04-15,144,429!2026-05-01,158,429!2026-04-24,152,429-->
 
@@ -294,15 +306,43 @@ Consider {@{covariance}@}: if {@{`C[+T]` is covariant}@}, then {@{`C[A] <: C[B]`
 
 Consider {@{contravariance}@}: if {@{`C[-T]` is contravariant}@}, then {@{`C[B] <: C[A]` for `A <: B`}@}. If `C[T]` had {@{a method that returns a `T`}@}, then `C[B]` would have {@{a method that returns a `B`}@}. However, since {@{`A <: B`}@}, this method could be {@{expected to return an `A`}@}, which violates the expectation that {@{`C[B]` only produces `B`}@}. Thus, allowing {@{contravariant types to appear in output positions}@} would also {@{break substitutability}@}. <!--SR:!2026-05-02,159,429!2026-04-02,132,415!2026-03-06,109,395!2026-04-27,154,429!2026-04-03,133,415!2026-04-20,148,429!2026-04-08,138,420!2026-04-15,144,429!2026-04-03,133,415!2026-04-11,140,415-->
 
-By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime errors}@}. <!--SR:!2026-04-24,152,429!2026-05-02,159,429!2026-04-09,139,420-->
+To check {@{variance in a class _definition_ `A` in general}@}, consider {@{the _possible variance_ a _type_ can have}@}. It can be {@{either invariant, covariant, or contravariant}@}.
+
+{@{The types of `val`s in a class}@} \(and {@{method `def`s}@} are considered as {@{`val`s of the function type}@}\) are {@{covariant}@}. Then, {@{recursively evaluate the variance}@} of {@{the _inner types_ in types with type parameters}@}, e.g. {@{`T[X]`}@} where {@{`T[X]` has a known variance}@} and {@{the variance of `X` needs to be evaluated}@}. \(Note that {@{function types such as `X => Y`}@} are considered as {@{`Function1[X, Y]`}@}, so they are also {@{types with type parameters}@}.\) To {@{evaluate `X`}@}, inspect {@{the variance of the type parameter in the _definition_ of `T`}@}. If {@{`U` is invariant \(`U`\)}@}, then {@{`X` is invariant}@}. If {@{`U` is covariant \(`+U`\)}@}, then {@{`X` has the _same_ variance as `T[X]`}@}. If {@{`U` is contravariant \(`-U`\)}@}, then {@{`X` has the _opposite_ variance as `T[X]`}@}. {@{Recursively repeat this process}@} until {@{there are no more unevaluated inner types}@}.
+
+Finally, compare {@{the _possible variance_ a _type_ can have versus its _actual variance_}@}. For {@{types that are not type parameters of `A`}@}, we can {@{simply ignore them}@}. For {@{types that are type parameters of `A`}@}, check if {@{the type parameter variance is compatible with the possible variance}@}: {@{_possibly_ invariant type}@} is compatible with {@{invariant type parameters}@}, {@{_possibly_ covariant type}@} is compatible with {@{invariant or covariant type parameters}@}, and {@{_possibly_ contravariant type}@} is compatible with {@{invariant or contravariant type parameters}@}.
+
+> [!example] __variance check__
+>
+> Consider {@{the following class definition}@}:
+>
+> ```Scala
+> class A[T, +U, -V]:
+>   val a1: T = ???                      // `T`; possible: covariant, actual: invariant
+>   val a2: U = ???                      // `U`; possible: covariant, actual: covariant
+>   // val a3: V = ???                   // `V`; possible: covariant, actual: contravariant
+>   val b1: T => Unit = ???              // `T`; possible: contravariant, actual: invariant
+>   // val b2: U => Unit = ???           // `U`; possible: contravariant, actual: invariant
+>   val b3: V => Unit = ???              // `V`; possible: contravariant, actual: invariant
+>   def c1(in: T): Unit = ???            // same reasoning as `b1`
+>   // def c2(in: U): Unit = ???         // same reasoning as `b2`
+>   def c3(in: V): Unit = ???            // same reasoning as `b3`
+>   val d1: A[T, U, V] = ???             // interesting...
+>   val d2: A[T, V, U] => Unit = ???     // interesting...
+>   // val d3: A[T, U, V] => Unit = ???  // interesting...
+> ```
+>
+> {@{Commented out code}@} {@{fails to compile}@}. Try to {@{run the above algorithm}@} on this code.
+
+By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime` errors}@}. <!--SR:!2026-04-24,152,429!2026-05-02,159,429!2026-04-09,139,420-->
 
 ##### variance and inheritance
 
-{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2026-04-22,151,440!2026-05-04,161,440!2026-05-06,163,440!2026-03-16,113,420!2026-04-21,150,440-->
+{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2026-04-22,151,440!2026-05-04,161,440!2026-05-06,163,440!2026-03-16,113,420!2026-04-21,150,440-->
 
 > [!example] __hierarchy__
 >
-> {@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}:
+> {@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}:
 >
 > ```Scala
 > trait Parent[+T]                                              // covariant in T
@@ -315,9 +355,9 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 We see:
 
 - `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`. <!--SR:!2026-04-27,155,440!2026-05-05,162,440-->
-- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation). <!--SR:!2026-04-20,149,440!2026-04-29,157,440-->
-- `ChildCovariant[+T]` ::@:: redeclares the same type parameter as _covariant_. <!--SR:!2026-04-28,156,440!2026-05-04,161,440-->
-- `ChildContravariant[-T]` ::@:: causes compilation error. <!--SR:!2026-03-14,112,420!2026-04-27,155,440-->
+- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation), passed to but distinct from the covariant type parameter `T` of `Parent`. <!--SR:!2026-04-20,149,440!2026-04-29,157,440-->
+- `ChildCovariant[+T]` ::@:: declares its type parameter `T` as _covariant_, passed to but distinct from the covariant type parameter `T` of `Parent`. <!--SR:!2026-04-28,156,440!2026-05-04,161,440-->
+- `ChildContravariant[-T]` ::@:: causes compilation error, as `T` is passed to the covariant type parameter `T` of `Parent`. <!--SR:!2026-03-14,112,420!2026-04-27,155,440-->
 
 Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant parent}@}: <!--SR:!2026-04-28,156,440!2026-05-02,159,440-->
 
@@ -387,7 +427,7 @@ Attempting to {@{declare a contravariant child}@} results in {@{a compilation er
 
 To {@{summarize}@}: \(annotation: 3 items: {@{variance of supertype, variance of subtype, opposite variances}@}\) <!--SR:!2026-04-27,155,440!2026-04-20,149,440-->
 
-- variance of supertype ::@:: Subclass variance does not alter the covariance of its supertype when assigning to the superclass type. <!--SR:!2026-04-21,150,440!2026-04-22,151,440-->
+- variance of supertype ::@:: Subclass variance does not alter the variance of its supertype when assigning to the superclass type. <!--SR:!2026-04-21,150,440!2026-04-22,151,440-->
 - variance of subtype ::@:: Subtyping of subclass instances depends on the subclass's own variance annotation; invariant subclasses forbid widening assignments, while covariant ones permit them. <!--SR:!2026-04-29,157,440!2026-04-21,150,440-->
 - opposite variances ::@:: Contravariance cannot be combined with a covariant position \(and vice versa for covariance\) in the same class hierarchy, as the language forbids it to maintain type-soundness. <!--SR:!2026-04-22,151,440!2026-05-04,161,440-->
 
@@ -936,11 +976,11 @@ Here each subclass inherits {@{a uniform `eval` implementation}@} that relies on
 >
 > where `s` denotes {@{a sequence of generators and filters}@}, and `e` is {@{an expression whose value becomes an element of the resulting collection}@}. <!--SR:!2026-04-10,140,420!2026-04-23,151,429!2026-04-20,148,415!2026-04-07,137,420!2026-04-25,153,429!2026-04-11,140,420!2026-04-10,140,420-->
 
-{@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to a collection}@} (such as {@{a `Seq`, `Set`, or any type that implements `GenTraversableOnce`}@}), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in <!--SR:!2026-04-18,147,429!2026-05-02,159,429!2026-04-05,135,420!2026-04-13,142,420!2026-04-20,148,429!2026-04-20,148,420!2026-04-24,152,429-->
+{@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to something _traversable_}@} \(such as {@{a `Seq`, `Set`, or any type that implements `map`, `flatMap`, and `withFilter`}@}\), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in <!--SR:!2026-04-18,147,429!2026-05-02,159,429!2026-04-05,135,420!2026-04-13,142,420!2026-04-20,148,429!2026-04-20,148,420!2026-04-24,152,429-->
 
 > [!example] __`for` generator__
 >
-> {@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to a collection}@} (such as {@{a `Seq`, `Set`, or any type that implements `GenTraversableOnce`}@}), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
+> {@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to something _traversable_}@} \(such as {@{a `Seq`, `Set`, or any type that implements `map`, `flatMap`, and `withFilter`}@}\), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
 >
 > ```Scala
 > for i <- 1 until n yield i * 2
@@ -976,7 +1016,7 @@ Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elem
 
 Note that `for` expressions {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of is usually the same type as the starting collection type}@}. <!--SR:!2026-05-02,159,429!2026-04-29,156,429!2026-04-30,157,429-->
 
-{@{These rules}@} enable {@{concise expression of complex iterations}@}, automatically translating into {@{calls to `map`, `flatMap`, and `filter` behind the scenes}@}. In summary, {@{`for` expressions}@} {@{enhance readability}@} by hiding {@{the boilerplate of nested function calls while preserving the underlying functional structure}@}. <!--SR:!2026-04-27,154,429!2026-04-27,154,429!2026-04-08,138,420!2026-04-22,150,429!2026-04-06,136,420!2026-04-21,149,429-->
+{@{These rules}@} enable {@{concise expression of complex iterations}@}, automatically translating into {@{calls to `map`, `flatMap`, and `withFilter` behind the scenes}@}. In summary, {@{`for` expressions}@} {@{enhance readability}@} by hiding {@{the boilerplate of nested function calls while preserving the underlying functional structure}@}. <!--SR:!2026-04-27,154,429!2026-04-27,154,429!2026-04-08,138,420!2026-04-22,150,429!2026-04-06,136,420!2026-04-21,149,429-->
 
 #### for expression examples
 
@@ -1112,11 +1152,11 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```
 <!--SR:!2026-04-30,157,429!2026-04-15,144,429-->
 
-{@{A more elaborate form}@} that mixes {@{generators and guards}@}: <!--SR:!2026-05-01,158,429!2026-04-10,140,420-->
+{@{A more elaborate form of _for_}@} that mixes {@{generators and guards}@}: <!--SR:!2026-05-01,158,429!2026-04-10,140,420-->
 
 > [!example] __rewriting `for` guard__
 >
-> {@{A more elaborate form}@} that mixes {@{generators and guards}@}:
+> {@{A more elaborate form of _for_}@} that mixes {@{generators and guards}@}:
 >
 > ```Scala
 > for x <- e1 if pred; s yield e2
@@ -1129,11 +1169,11 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```
 <!--SR:!2026-05-01,158,429!2026-04-07,137,420!2026-04-24,152,429-->
 
-and {@{a nested generator}@}: <!--SR:!2026-04-28,155,429-->
+{@{Another form of _for_}@} that has {@{a nested generator}@}: <!--SR:!2026-04-28,155,429-->
 
 > [!example] __rewriting `for` nested generators__
 >
-> and {@{a nested generator}@}:
+> {@{Another form of _for_}@} that has {@{a nested generator}@}:
 >
 > ```Scala
 > for x <- e1; y <- e2; s yield e3
@@ -1255,7 +1295,7 @@ Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reus
 
 Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!2026-07-22,238,330!2026-07-31,246,330!2026-08-09,253,330!2026-08-20,260,330!2026-08-21,261,330!2026-07-24,240,330!2026-09-03,272,330-->
 
-Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\) according to the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!2026-06-12,190,310-->
+Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!2026-06-12,190,310-->
 
 Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2025-12-10,67,310!2026-08-31,269,330!2025-12-09,66,310!2026-02-03,100,379!2025-12-13,56,350!2026-01-25,92,370-->
 
@@ -1347,7 +1387,7 @@ Examples of fully qualified names:
 
 ## runtime
 
-Scala runs on {@{the Java Virtual Machine \(JVM\)}@}, which {@{provides platform independence and access to a vast ecosystem of Java libraries}@}. Scala {@{code is compiled into Java bytecode}@}, allowing {@{seamless interoperability with Java code}@}. <!--SR:!2026-04-07,137,420!2026-04-05,135,420!2026-04-09,139,420!2026-04-26,153,429-->
+Scala runs on {@{the Java Virtual Machine \(JVM\)}@}, which {@{provides platform independence and access to a vast ecosystem of Java libraries}@}. Scala code is {@{compiled into Java bytecode}@}, allowing {@{seamless interoperability with Java code}@}. <!--SR:!2026-04-07,137,420!2026-04-05,135,420!2026-04-09,139,420!2026-04-26,153,429-->
 
 ### dynamic binding
 

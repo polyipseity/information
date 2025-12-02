@@ -170,8 +170,8 @@ __Case 1:__ Suppose that {@{$F_{t,T}>S_{t}e^{r(T-t)}$}@}. Then an investor can {
 
 At {@{time $T$}@} the investor can {@{reverse the trades that were executed at time $t$}@}. Specifically, and {@{mirroring the trades 1., 2. and 3}@}. the investor <!--SR:!2026-01-02,67,310!2026-01-02,67,310!2025-12-22,58,310-->
 
-1. ' \(annotation: overpriced forward; repay money\) ::@:: repays the loan to the bank. The inflow to the investor is $-S_{t}e^{r(T-t)}$; <!--SR:!2025-12-26,61,310!2025-12-29,63,310-->
-2. ' \(annotation: overpriced forward; settle forward\) ::@:: settles the short forward contract by selling the asset for $F_{t,T}$. The cash inflow to the investor is now $F_{t,T}$ because the buyer receives $S_{T}$ from the investor. <!--SR:!2025-12-26,61,310!2026-04-01,119,290-->
+1. '<!-- This prime character is intentional. --> \(annotation: overpriced forward; repay money\) ::@:: repays the loan to the bank. The inflow to the investor is $-S_{t}e^{r(T-t)}$; <!--SR:!2025-12-26,61,310!2025-12-29,63,310-->
+2. '<!-- This prime character is intentional. --> \(annotation: overpriced forward; settle forward\) ::@:: settles the short forward contract by selling the asset for $F_{t,T}$. The cash inflow to the investor is now $F_{t,T}$ because the buyer receives $S_{T}$ from the investor. <!--SR:!2025-12-26,61,310!2026-04-01,119,290-->
 
 {@{The sum of the inflows in 1.' and 2.'}@} equals {@{$F_{t,T}-S_{t}e^{r(T-t)}$}@}, which {@{by hypothesis, is positive}@}. This is {@{an arbitrage profit}@}. Consequently, and assuming that {@{the non-arbitrage condition holds}@}, we have {@{a contradiction}@}. This is called {@{a cash and carry arbitrage}@} because you {@{"carry" the asset until maturity}@}. <!--SR:!2025-12-30,64,310!2025-12-22,58,310!2025-12-21,57,310!2025-12-23,58,310!2026-01-02,67,310!2025-12-24,59,310!2025-12-28,63,310!2026-01-02,67,310-->
 

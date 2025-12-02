@@ -134,9 +134,9 @@ Management accounting is {@{an applied discipline used in various industries}@}.
 
 ## resources and continuous learning
 
-There are a variety of ways to keep current and continue to build one's knowledge base in the field of management accounting. [Certified Management Accountants](Certified%20Management%20Accountant.md) (CMAs) are {@{required to achieve continuing education hours every year, similar to a [Certified Public Accountant](Certified%20Public%20Accountant.md)}@}. A company may {@{also have research and training materials available for use in a corporate owned library. This is more common in [Fortune 500](fortune%20500.md) companies who have the resources to fund this type of training medium}@}. <!--SR:!2025-12-12,324,290!2029-04-12,1223,310-->
+There are a variety of ways to keep current and continue to build one's knowledge base in the field of management accounting. [Certified Management Accountants](Certified%20Management%20Accountant.md) (CMAs) are {@{required to achieve continuing education hours every year, similar to a [Certified Public Accountant](Certified%20Public%20Accountant.md)}@}. A company may also have {@{research and training materials available for use}@} in {@{a corporate owned library}@}. This is {@{more common in [Fortune 500](fortune%20500.md) companies}@} who have {@{the resources to fund this type of training medium}@}. <!--SR:!2025-12-12,324,290!2029-04-12,1223,310-->
 
-There are {@{also journals, online articles and blogs available}@}. The journal _Cost Management_ ([ISSN](ISSN.md) [1092-8057](https://www.worldcat.org/search?fq=x0:jrnl&q=n2:1092-8057))<sup>[\[22\]](#^ref-22)</sup> and the Institute of Management Accounting (IMA) site are sources which include _[Management Accounting Quarterly](Institute%20of%20Management%20Accountants.md)_ and _Strategic Finance_ publications. <!--SR:!2027-09-20,843,330-->
+There are also {@{journals, online articles and blogs available}@}. The journal _Cost Management_ ([ISSN](ISSN.md) [1092-8057](https://www.worldcat.org/search?fq=x0:jrnl&q=n2:1092-8057))<sup>[\[22\]](#^ref-22)</sup> and the Institute of Management Accounting (IMA) site are sources which include _[Management Accounting Quarterly](Institute%20of%20Management%20Accountants.md)_ and _Strategic Finance_ publications. <!--SR:!2027-09-20,843,330-->
 
 ## tasks and services provided
 

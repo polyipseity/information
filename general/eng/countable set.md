@@ -11,7 +11,7 @@ tags:
 
 - "Countable" redirects here. For {@{the linguistic concept}@}, see {@{[Count noun](count%20noun.md)}@}. For {@{the statistical concept}@}, see {@{[Count data](count%20data.md)}@}. For {@{the company}@}, see {@{[Countable \(app\)](Countable%20(company).md)}@}. Not to be confused with {@{[\(recursively\) enumerable sets](computably%20enumerable%20set.md)}@}. <!--SR:!2028-08-20,1037,350!2026-07-08,418,310!2025-12-28,285,330!2027-08-05,730,330!2027-12-03,823,330!2025-12-25,283,330!2026-01-07,294,330-->
 
-In [mathematics](mathematics.md), a [set](set%20(mathematics).md) is __countable__ {@{if either it is [finite](finite%20set.md) or it can be made in [one to one correspondence](bijection.md) with the set of [natural numbers](natural%20number.md)}@}.<sup>[\[a\]](#^ref-a)</sup> Equivalently, a set is _countable_ if {@{there exists an [injective function](injective%20function.md) from it into the natural numbers}@}; this means that {@{each element in the set may be associated to a unique natural number, or that the elements of the set can be counted one at a time}@}, although {@{the counting may never finish due to an infinite number of elements}@}. <!--SR:!2029-01-05,1149,350!2027-11-22,810,330!2029-01-31,1167,350!2026-04-03,332,290-->
+In [mathematics](mathematics.md), a [set](set%20(mathematics).md) is __countable__ {@{if either it is [finite](finite%20set.md) or it can be made in [one to one correspondence](bijection.md) with the set of [natural numbers](natural%20number.md)}@}.<sup>[\[a\]](#^ref-a)</sup> Equivalently, a set is _countable_ if {@{there exists an [injective function](injective%20function.md) from it into the natural numbers}@}; this means that {@{each element in the set}@} may be {@{associated to a unique natural number}@}, or that {@{the elements of the set can be counted one at a time}@}, although {@{the counting may never finish due to an infinite number of elements}@}. <!--SR:!2029-01-05,1149,350!2027-11-22,810,330!2029-01-31,1167,350!2026-04-03,332,290-->
 
 In more technical terms, {@{assuming the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}, a set is {@{_countable_ if its [cardinality](cardinality.md) \(the number of elements of the set\) is not greater than that of the natural numbers}@}. A countable set {@{that is not finite is said to be __countably infinite__}@}. <!--SR:!2026-07-09,419,310!2026-02-16,301,290!2027-09-01,751,330-->
 
@@ -136,7 +136,7 @@ If {@{there is a set that is a standard model \(see [inner model](inner%20model.
 
 was {@{seen as paradoxical in the early days of set theory}@}; see {@{[Skolem's paradox](Skolem's%20paradox.md)}@} for more. <!--SR:!2029-01-23,1161,350!2029-03-15,1201,350-->
 
-{@{The minimal standard model}@} includes {@{all the [algebraic numbers](algebraic%20number.md) and all effectively computable [transcendental numbers](transcendental%20number.md), as well as many other kinds of numbers}@}. <!--SR:!2026-01-06,293,330!2028-02-18,814,290-->
+{@{The minimal standard model}@} includes {@{all the [algebraic numbers](algebraic%20number.md)}@} and {@{all effectively computable [transcendental numbers](transcendental%20number.md)}@}, as well as {@{many other kinds of numbers}@}. <!--SR:!2026-01-06,293,330!2028-02-18,814,290-->
 
 ## total orders
 

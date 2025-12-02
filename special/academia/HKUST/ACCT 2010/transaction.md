@@ -58,7 +58,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> Company E {@{estimated its aircraft, which had had a net book value of \$10&nbsp;000, had their future cash flows below the net book value; using the discounted cash flow method, the new fair value was \$8000}@}
+> Company E estimated {@{its aircraft, which had had a net book value of \$10&nbsp;000}@}, had {@{their future cash flows below the net book value}@}; using {@{the discounted cash flow method}@}, {@{the new fair value was \$8000}@}
 >
 > | December 31, 2024                           | {@{Debit}@} | {@{Credit}@} |
 > | ------------------------------------------- |:-----------:|:------------:|

@@ -33,8 +33,13 @@ The content is in teaching order.
 
 ## children
 
+- [M-ary transmission](M-ary%20transmission.md)
+- [M-FSK](M-FSK.md)
+- [M-PSK](M-PSK.md)
+- [M-QAM](M-QAM.md)
 - [assignments](assignments/index.md)
 - [questions](questions.md)
+- [transcludes/Fourier transform](transcludes/Fourier%20transform.md)
 
 ## week 1 lecture
 
@@ -370,7 +375,7 @@ The content is in teaching order.
   - independence / equivalence ::@:: The following statements are equivalent: <ul> <li>_A_ and _B_ are independent.</li> <li>_A_ and _B_<sup>c</sup> are independent.</li> <li>_A_<sup>c</sup> and _B_ are independent.</li> <li>_A_<sup>c</sup> and _B_<sup>c</sup> are independent.</li> </ul> The above can be seen by seeing that the complement of an event is uniquely defined by the event. There is a one-to-one correspondence between a set and its complement (unless the sample space is the empty set, which is impossible for probability). <!--SR:!2026-02-10,88,369!2026-02-02,81,369-->
   - independence / vs. disjoint ::@:: Independent is not disjoint. End of story. <!--SR:!2026-02-11,89,369!2026-02-05,84,369-->
   - independence / pairwise independence ::@:: A finite set of events is __pairwise independent__ iff any two events from the set is _independent_. <p> Pairwise independence does NOT automatically imply _mutual independence_. <!--SR:!2026-02-17,94,369!2026-02-06,85,369-->
-  - independence / mutual independence ::@:: A finite set of _n_ events is __mutually independent__ iff any 2 ≤ _k_ ≤ _n_ events from the set is _independent_. For the _independence_ of 2 ≤ _k_ events, this is simply: $$P\left(\bigcap_{i = 1}^k A_k \right) = \prod_{i = 1}^k A_k \,.$$ <p> Mutual independence automatically implies _pairwise independence_. However, note that the above statement must hold for all 2 ≤ _k_ ≤ _n_, not just _k_ = _n_. It is possible to create a sample space such that three events _A_, _B_, and _C_ are independent but none of the three events are _pairwise independent_. <!--SR:!2026-02-01,80,369!2026-02-06,85,369-->
+  - independence / mutual independence ::@:: A finite set of _n_ events is __mutually independent__ iff any 2 ≤ _k_ ≤ _n_ events from the set is _independent_. For the _independence_ of 2 ≤ _k_ events, this is simply: $$P\left(\bigcap_{i = 1}^k A_k \right) = \prod_{i = 1}^k A_k \,.$$ <p> Mutual independence automatically implies _pairwise independence_. However, note that the above statement must hold for all 2 ≤ _k_ ≤ _n_, not just _k_ = _n_. It is possible to create a sample space such that the set of three events _A_, _B_, and _C_ is independent but no pairs from the three events are _pairwise independent_. <!--SR:!2026-02-01,80,369!2026-02-06,85,369-->
 - [uncorrelatedness](../../../../general/uncorrelatedness%20(probability%20theory).md) ::@:: In [probability theory](../../../../general/probability%20theory.md) and [statistics](../../../../general/statistics.md), two real-valued [random variables](../../../../general/random%20variable.md), $X$, $Y$, are said to be __uncorrelated__ if their [covariance](../../../../general/covariance.md), $\operatorname {cov} [X,Y]=\operatorname {E} [XY]-\operatorname {E} [X]\operatorname {E} [Y]$, is zero. If two variables are uncorrelated, there is no linear relationship between them. <!--SR:!2026-02-03,82,369!2026-02-05,84,369-->
   - uncorrelatedness / independence ::@:: If $X$ and $Y$ are independent, with finite second moments, then they are uncorrelated. However, not all uncorrelated variables are independent. <p> In particular, joint Gaussianity guarantees that zero covariance actually implies independence, bridging the two separability notions. <!--SR:!2026-02-11,89,369!2026-02-11,89,369-->
 - [Markov's inequality](../../../../general/Markov's%20inequality.md) ::@:: In probability theory, it gives an upper bound on the probability that a non-negative random variable is greater than or equal to some positive constant. <p> It is tight in the sense that for each chosen positive constant, there exists a random variable such that the inequality is in fact an equality. <!--SR:!2026-02-06,85,369!2026-02-11,89,369-->
@@ -400,7 +405,7 @@ The content is in teaching order.
   - Q-function / probability ::@:: $$Q(x) := P[X > x] \implies P[X \le x] = 1 - Q(x) \,,$$ where $X$ follows a standard normal distribution, i.e. with mean 0 and standard deviation 1. <p> For a normal distribution $Y$ with mean $\mu_Y$ and standard deviation $\sigma_Y$ \(variance $\sigma_Y^2$\), we compute $$P[Y > y] = Q\left(\frac {y - \mu_Y} {\sigma_Y} \right) \implies P[Y \le y] = 1 - Q\left(\frac {y - \mu_Y} {\sigma_Y} \right) \,.$$ <!--SR:!2026-04-13,135,401!2026-04-10,133,401-->
   - Q-function / computation ::@:: There is no closed-form expression for it. A table of values or computers must be used. <p> In MATLAB, use the `qfunc(x)` function or `1 - normcdf(x)`. <!--SR:!2026-04-13,135,401!2026-04-08,131,401-->
 - multivariate normal distribution
-  - multivariate normal distribution / standard random vector ::@:: A __standard Gaussian random vector__ $\mathbf{w}\in\mathbb{R}^{n}$ is an $n$-dimensional random variable whose components are independent, zero-mean, unit-variance normal variables. Its probability density function is $$f_{\mathbf{w}}(\mathbf{w})=\frac{1}{(2\pi)^{\,n/2}}\exp\!\Bigl(-\tfrac12 \,\mathbf{w}^{T}\mathbf{w}\Bigr),$$ which shows that the joint distribution factorises into the product of \(n\) one-dimensional standard normal PDFs and that its covariance matrix equals the identity matrix. <!--SR:!2026-01-23,64,361!2026-01-08,52,361-->
+  - multivariate normal distribution / standard random vector ::@:: A __standard Gaussian random vector__ $\mathbf{w}\in\mathbb{R}^{n}$ is an $n$-dimensional random variable whose components are independent, zero-mean, unit-variance normal variables. Its probability density function is $$f_{\mathbf{w} }(\mathbf{w})=\frac{1}{(2\pi)^{\,n/2} }\exp\!\Bigl(-\tfrac12 \,\mathbf{w}^{T}\mathbf{w}\Bigr),$$ which shows that the joint distribution factorises into the product of \(n\) one-dimensional standard normal PDFs and that its covariance matrix equals the identity matrix. <!--SR:!2026-01-23,64,361!2026-01-08,52,361-->
   - multivariate normal distribution / random vector ::@:: A vector $\mathbf{x}\in\mathbb{R}^n$ is Gaussian if it equals a linear transformation of a standard normal vector $\mathbf w$ plus a shift $\mathbf b$: $$\mathbf{x}=A\mathbf{w}+b \,.$$ <p> Its _mean_ vector is $\mathbf b$. Its _covariance_ matrix is $$K=\operatorname{Cov}\{\mathbf{x}\}=AA^{T} \,.$$ <!--SR:!2026-03-30,123,401!2026-01-30,73,381-->
   - multivariate normal distribution / communications theory ::@:: These properties make Gaussian vectors convenient for modelling multiple-antenna channels. <!--SR:!2026-04-12,134,401!2026-04-05,128,401-->
 - [sample mean](../../../../general/sample%20mean%20and%20covariance.md)
@@ -435,7 +440,7 @@ The content is in teaching order.
   - moment / description ::@:: A full joint distribution can yield all moments; the reverse is not true for general processes. <p> For Gaussian processes, first-order and second-order moments uniquely determine the entire process. <!--SR:!2026-01-31,79,369!2026-02-22,98,385-->
 - [stationary process](../../../../general/stationary%20process.md) ::@:: It is a stochastic process whose statistical properties, such as mean and variance, do not change over time. More formally, the joint probability distribution of the process remains the same when shifted in time. This implies that the process is statistically consistent across different time periods. <!--SR:!2026-02-06,85,369!2026-02-16,93,369-->
   - stationary process / strict-sense stationary ::@:: Formally, let $\left\{X_{t}\right\}$ be a [stochastic process](../../../../general/stochastic%20process.md) and let $F_{X}(x_{t_{1}+\tau },\ldots ,x_{t_{n}+\tau })$ represent the [cumulative distribution function](../../../../general/cumulative%20distribution%20function.md) of the [unconditional](../../../../general/marginal%20distribution.md) \(i.e., with no reference to any particular starting value\) [joint distribution](../../../../general/joint%20distribution.md) of $\left\{X_{t}\right\}$ at times $t_{1}+\tau ,\ldots ,t_{n}+\tau$. Then, $\left\{X_{t}\right\}$ is said to be __strictly stationary__, __strongly stationary__ or __strict-sense stationary__ if $$F_{X}(x_{t_{1}+\tau },\ldots ,x_{t_{n}+\tau })=F_{X}(x_{t_{1} },\ldots ,x_{t_{n} })\quad {\text{for all } }\tau ,t_{1},\ldots ,t_{n}\in \mathbb {R} {\text{ and for all } }n\in \mathbb {N} _{>0}$$ Since $\tau$ does not affect $F_{X}(\cdot )$, $F_{X}$ is independent of time. <!--SR:!2026-02-16,93,369!2026-01-19,66,349-->
-  - stationary process / weak-sense stationary ::@:: So, a [continuous time](../../../../general/continuous%20time.md#continuous%20time) [random process](../../../../general/random%20process.md) $\left\{X_{t}\right\}$ which is WSS has the following restrictions on its mean function $m_{X}(t)\triangleq \operatorname {E} [X_{t}]$ and [autocovariance](../../../../general/autocovariance.md) function $K_{XX}(t_{1},t_{2})\triangleq \operatorname {E} [(X_{t_{1} }-m_{X}(t_{1}))(X_{t_{2} }-m_{X}(t_{2}))]$: $${\begin{aligned}&m_{X}(t)=m_{X}(t+\tau )&&{\text{for all } }\tau ,t\in \mathbb {R} \\&K_{XX}(t_{1},t_{2})=K_{XX}(t_{1}-t_{2},0)&&{\text{for all } }t_{1},t_{2}\in \mathbb {R} \\&\operatorname {E} [X_{t}^{2}]<\infty &&{\text{for all } }t\in \mathbb {R} \end{aligned} }$$ <p> For Gaussian processes, strict-sense stationary and weak-sense stationary are equivalent. <p> \(__this course__: The instructor did not mention the last condition. Maybe omit it...?\) <!--SR:!2026-02-13,90,369!2025-12-17,41,329-->
+  - stationary process / weak-sense stationary ::@:: So, a [continuous time](../../../../general/continuous%20time.md#continuous%20time) [random process](../../../../general/random%20process.md) $\left\{X_{t}\right\}$ which is WSS has the following restrictions on its mean function $m_{X}(t)\triangleq \operatorname {E} [X_{t}]$ and [autocovariance](../../../../general/autocovariance.md) function $K_{XX}(t_{1},t_{2})\triangleq \operatorname {E} [(X_{t_{1} }-m_{X}(t_{1}))(X_{t_{2} }-m_{X}(t_{2}))]$: $${\begin{aligned}&m_{X}(t)=m_{X}(t+\tau )&&{\text{for all } }\tau ,t\in \mathbb {R} \\&K_{XX}(t_{1},t_{2})=K_{XX}(t_{1}-t_{2},0)&&{\text{for all } }t_{1},t_{2}\in \mathbb {R} \\&\operatorname {E} \left[{\lvert X_{t} \rvert}^{2}\right]<\infty &&{\text{for all } }t\in \mathbb {R} \end{aligned} }$$ <p> For Gaussian processes, strict-sense stationary and weak-sense stationary are equivalent. <p> \(__this course__: The instructor did not mention the last condition. Maybe omit it...?\) <!--SR:!2026-02-13,90,369!2025-12-17,41,329-->
 - additive white Gaussian noise
   - additive white Gaussian noise / moments ::@:: - 1st moment: mean is usually zero → first-order moment trivial. <br/> - 2nd moment: autocovariance is $R_X(\tau)=\sigma^2\delta(\tau) = (N_0 / 2) \delta(\tau)$, where $\tau = t_2 - t_1$ is the time difference; power spectral density \(_Fourier transform_ of autocovariance\) $S_X(f) = \sigma^2 = N_0 / 2$ is flat (white). Knowing $\sigma^2 = N_0 / 2$ fully specifies the noise process. <!--SR:!2026-02-11,89,369!2026-02-03,82,369-->
 - [white noise](../../../../general/white%20noise.md) ::@:: It is a random signal having equal intensity at different frequencies, giving it a constant power spectral density. <!--SR:!2026-02-16,93,369!2026-01-31,79,369-->
@@ -452,12 +457,23 @@ The content is in teaching order.
     - [§ bit error rate with zero threshold](binary%20modulation.md#bit%20error%20rate%20with%20zero%20threshold)
     - [§ bit error rate with arbitrary threshold](binary%20modulation.md#bit%20error%20rate%20with%20arbitrary%20threshold)
     - [§ bit error rate insight](binary%20modulation.md#bit%20error%20rate%20insight)
-    - [§ using Q-function](binary%20mo2dulation.md#using%20Q-function)
+    - [§ using Q-function](binary%20modulation.md#using%20Q-function)
 
 ## week 3 lecture 2
 
 - datetime: 2025-09-18T09:00:00+08:00/2025-09-18T10:20:00+08:00, PT1H20M
-- topic:
+- topic: binary modulation optimization; bit error rate optimization; filter optimization
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
+    - [§ bit error rate with zero threshold](binary%20modulation.md#bit%20error%20rate%20with%20zero%20threshold)
+    - [§ bit error rate with arbitrary threshold](binary%20modulation.md#bit%20error%20rate%20with%20arbitrary%20threshold)
+    - [§ bit error rate insight](binary%20modulation.md#bit%20error%20rate%20insight)
+    - [§ using Q-function](binary%20modulation.md#using%20Q-function)
+    - [§ optimization](binary%20modulation.md#optimization)
+    - [§ bit error rate optimization](binary%20modulation.md#bit%20error%20rate%20optimization)
+    - [§ filter optimization](binary%20modulation.md#filter%20optimization)
+    - [§ response of LTI system to WSS random signal](binary%20modulation.md#response%20of%20LTI%20system%20to%20WSS%20random%20signal)
 
 ## week 3 tutorial
 
@@ -467,12 +483,80 @@ The content is in teaching order.
 ## week 4 lecture
 
 - datetime: 2025-09-23T09:00:00+08:00/2025-09-23T10:20:00+08:00, PT1H20M
-- topic:
+- topic: matched filter; correlator
+- status: online
+- [matched filter](../../../../general/matched%20filter.md) ::@:: The output of the __matched filter__ is given by correlating a known delayed signal, or _template_, with an unknown signal to detect the presence of the template in the unknown signal. This is equivalent to convolving the unknown signal with a conjugated time-reversed version of the template.
+  - matched filter / optimality ::@:: The matched filter is the optimal linear filter for maximizing the signal-to-noise ratio \(SNR\) in the presence of additive stochastic noise.
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ matched filter](binary%20modulation.md#matched%20filter)
+    - [§ correlator](binary%20modulation.md#correlator)
+    - [§ energy optimization](binary%20modulation.md#energy%20optimization)
+- [signal modulation](../../../../general/signal%20modulation.md) ::@:: It is the process of varying one or more properties of a periodic waveform in electronics and telecommunication for the purpose of transmitting information.
+- [non-return-to-zero](../../../../general/non-return-to-zero.md) ::@:: The line code is a binary code in which ones are represented by one significant condition, usually a positive voltage, while zeros are represented by some other significant condition, usually a negative voltage, with no other neutral or rest condition.
+  - non-return-to-zero / bipolar ::@:: _One_ is represented by one physical level (usually a positive voltage), while _zero_ is represented by another level (usually a negative voltage). <p> \(__this course__: use the name "_antipodal signaling_"\)
+    - non-return-to-zero / bipolar / signals ::@:: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = -A && t \in [0, T] \\ s_1(t) & = A && t \in [0, T] \end{aligned}$$
+  - non-return-to-zero / unipolar ::@:: _One_ is represented by a DC bias on the transmission line (conventionally positive), while _zero_ is represented by the absence of bias – the line at 0 volts or grounded. <p> \(__this course__: use the name "_non-return to zero_" \(NRZ\)\)
+    - non-return-to-zero / unipolar / signals ::@:: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = 0 && t \in [0, T] \\ s_1(t) & = A && t \in [0, T] \end{aligned}$$
+- [amplitude-shift keying](../../../../general/amplitude-shift%20keying.md) \(ASK\) ::@:: It is a form of amplitude modulation that represents digital data as variations in the amplitude of a carrier wave. For example, if each symbol represents a single bit, then the carrier signal could be transmitted at nominal amplitude when the input value is 1, but transmitted at reduced amplitude or not at all when the input value is 0.
+  - amplitude-shift keying / signals ::@:: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = 0 && t \in [0, T] \\ s_1(t) & = A \cos(\omega t + \theta) && t \in [0, T] \end{aligned}$$ for some constant $\omega$ and $\theta$. Note we usually choose $\omega$ such that $\omega T$ is a multiple of $2\pi$ to ensure smooth phase transition between symbols.
+- [phase-shift keying](../../../../general/phase-shift%20keying.md) \(PSK\) ::@:: It is a digital modulation process which conveys data by changing (modulating) the phase of a constant frequency carrier wave. The modulation is accomplished by varying the sine and cosine inputs at a precise time.
+  - phase-shift keying / binary phase-shift keying \(BPSK\) ::@:: It is the simplest form of phase shift keying (PSK). It uses two phases which are separated by 180° and so can also be termed 2-PSK.
+    - phase-shift keying / binary phase-shift keying / signals ::@:: Note this is only one of the _possible_ implementations: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = -A \cos(\omega t + \theta) && t \in [0, T] \\ s_1(t) & = A \cos(\omega t + \theta) && t \in [0, T] \end{aligned}$$ for some constant $\omega$ and $\theta$. Note we usually choose $\omega$ such that $\omega T$ is a multiple of $2\pi$ to ensure smooth phase transition between symbols.
+- [frequency-shift keying](../../../../general/frequency-shift%20keying.md) ::@:: It is a frequency modulation scheme in which digital information is encoded on a carrier signal by periodically shifting the frequency of the carrier between several discrete frequencies.
+  - frequency-shift keying / signals ::@:: Note this is only one of the _possible_ implementations: Note this is only one of the _possible_ implementations: $$\begin{aligned} s_0(t) & = A \cos(\omega_1 t + \theta) && t \in [0, T] \\ s_1(t) & = A \cos(\omega_2 t + \theta) && t \in [0, T] \end{aligned}$$ for some constant $\omega_1$, $\omega_2$, and $\theta$. Note we usually choose $\omega_1$ and $\omega_2$ such that $\omega_1 \ne \omega_2$ and $\omega_1 T$ and $\omega_2 T$ are both multiples of $2\pi$ to ensure smooth phase transition between symbols.
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ modulation schemes](binary%20modulation.md#modulation%20schemes)
+    - [§ bipolar non-return-to-zero](binary%20modulation.md#bipolar%20non-return-to-zero)
+    - [§ polar non-return-to-zero](binary%20modulation.md#polar%20non-return-to-zero)
+    - [§ amplitude-shift keying](binary%20modulation.md#amplitude-shift%20keying)
+    - [§ phase-shift keying](binary%20modulation.md#phase-shift%20keying)
+    - [§ frequency-shift keying](binary%20modulation.md#frequency-shift%20keying)
+
+---
+
+__<big><big>Arrangement on Tue lecture (23/9)</big></big>__
+
+> Dear students
+>
+> in view of the typhoon, let's do zoom lecture tomorrow at 9:00am. The physical lecture will resume on Thursday hopefully. Thanks
+>
+> \[redacted\]
+>
+> here is the zoom link
+>
+> \[redacted\]
+
+---
+
+> __<big><big>Zoom Recording and whiteboard for Tue Lecture (23/9)</big></big>__
+>
+> Hi Students
+>
+> Here is the whiteboard pdf \(in file\) and zoom recording. See you on Thursday.
+>
+> Recording:
+>
+> \[redacted\]
 
 ## week 4 lecture 2
 
 - datetime: 2025-09-25T09:00:00+08:00/2025-09-25T10:20:00+08:00, PT1H20M
-- topic:
+- topic: signal space; signal space motivation; signal space applications; geometric-domain representation; basis; coordinates; constellation diagram; Gram–Schmidt process
+- ELEC 4110
+  - ELEC 4110 / [signal space](signal%20space.md)
+    - [§ motivation](signal%20space.md#motivation)
+    - [§ applications](signal%20space.md#applications)
+    - [§ receiver optimization](signal%20space.md#receiver%20optimization)
+    - [§ M-ary modulation](signal%20space.md#M-ary%20modulation)
+    - [§ geometric domain](signal%20space.md#geometric%20domain)
+    - [§ basis](signal%20space.md#basis)
+    - [§ coordinates](signal%20space.md#coordinates)
+    - [§ definition](signal%20space.md#definition)
+    - [§ energy](signal%20space.md#energy)
+    - [§ constellation diagram](signal%20space.md#constellation%20diagram)
+    - [§ Gram–Schmidt process](signal%20space.md#Gram–Schmidt%20process)
 
 ## week 4 tutorial
 
@@ -482,16 +566,142 @@ The content is in teaching order.
 ## week 5 lecture
 
 - datetime: 2025-09-30T09:00:00+08:00/2025-09-30T10:20:00+08:00, PT1H20M
-- topic:
+- topic: signal space algebraic properties; inner product; vector space; Gram–Schmidt process; signal space examples; binary modulation; binary channel; binary receiver; bit error rate
+- ELEC 4110
+  - ELEC 4110 / [signal space](signal%20space.md)
+    - [§ properties](signal%20space.md#properties)
+    - [§ algebraic properties](signal%20space.md#algebraic%20properties)
+    - [§ inner product](signal%20space.md#inner%20product)
+    - [§ geometric concepts](signal%20space.md#geometric%20concepts)
+    - [§ coordinate representation](signal%20space.md#coordinate%20representation)
+    - [§ orthogonality and orthonormality](signal%20space.md#orthogonality%20and%20orthonormality)
+    - [§ linear transformations](signal%20space.md#linear%20transformations)
+    - [§ linear independence](signal%20space.md#linear%20independence)
+    - [§ triangle inequality](signal%20space.md#triangle%20inequality)
+    - [§ Cauchy–Schwarz inequality](signal%20space.md#Cauchy–Schwarz%20inequality)
+    - [§ Pythagorean relation](signal%20space.md#Pythagorean%20relation)
+    - [§ Gram–Schmidt process](signal%20space.md#Gram–Schmidt%20process)
+    - [§ examples](signal%20space.md#examples)
+    - [§ sinusoidal examples](signal%20space.md#sinusoidal%20examples)
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ binary channel](binary%20modulation.md#binary%20channel)
+    - [§ receiver](binary%20modulation.md#receiver)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
 
 ## week 5 lecture 2
 
 - datetime: 2025-10-02T09:00:00+08:00/2025-10-02T10:20:00+08:00, PT1H20M
-- topic:
+- topic: binary receiver; bit error rate; M-ary transmission; constellation diagram; M-PSK; M-QAM; M-FSK; optimal M-ary receiver; noise vector; minimum distance decision rule
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ receiver](binary%20modulation.md#receiver)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
+- [_M_-ary transmission](../../../../general/M-ary%20transmission.md) ::@:: It is a type of digital modulation. Instead of sending one bit at a time as in binary, multiple messages, M, are sent. The binary data stream is divided into n tuples, where n = log₂ M bits. The signals can be represented as different frequencies, as in MFSK.
+  - _M_-ary transmission / advantages ::@:: This type of transmission results in reduced channel _bandwidth_ \(compared to halving the symbol time, which doubles the bandwidth\) at the expense of higher bit error rates.
+- ELEC 4110
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
+    - [§ background](M-ary%20transmission.md#background)
+    - [§ energy and power](M-ary%20transmission.md#energy%20and%20power)
+    - [§ bandwidth](M-ary%20transmission.md#bandwidth)
+    - [§ digital modulation](M-ary%20transmission.md#digital%20modulation)
+    - [§ signal space](M-ary%20transmission.md#signal%20space)
+    - [§ constellation diagram](M-ary%20transmission.md#constellation%20diagram)
+    - [§ modulation families](M-ary%20transmission.md#modulation%20families)
+    - [§ M-PSK](M-ary%20transmission.md#M-PSK)
+    - [§ M-QAM](M-ary%20transmission.md#M-QAM)
+    - [§ M-FSK](M-ary%20transmission.md#M-FSK)
+    - [§ optimal receiver](M-ary%20transmission.md#optimal%20receiver)
+    - [§ channel](M-ary%20transmission.md#channel)
+    - [§ noise vector](M-ary%20transmission.md#noise%20vector)
+    - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
 
 ## week 5 tutorial
 
 - datetime: 2025-10-03T15:30:00+08:00/2025-10-03T16:20:00+08:00, PT50M
+- topic:
+
+## week 6 lecture
+
+- datetime: 2025-10-07T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- status: unscheduled; public holiday: Day after Mid-Autumn Festival
+
+## week 6 lecture 2
+
+- datetime: 2025-10-09T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
+- topic: minimum distance decision rule; energy optimization; M-ary transmission implementation; M-FSK; M-pSK; M-QAM
+- ELEC 4110
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
+    - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
+    - [§ error analysis for minimum distance](M-ary%20transmission.md#error%20analysis%20for%20minimum%20distance)
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ energy optimization](binary%20modulation.md#energy%20optimization)
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
+    - [§ implementation](M-ary%20transmission.md#implementation)
+    - [§ complexity](M-ary%20transmission.md#complexity)
+    - [§ constellation diagram](M-ary%20transmission.md#constellation%20diagram)
+    - [§ M-FSK](M-ary%20transmission.md#M-FSK)
+    - [§ M-PSK](M-ary%20transmission.md#M-PSK)
+    - [§ M-QAM](M-ary%20transmission.md#M-QAM)
+    - [§ peak-to-average power ratio](M-ary%20transmission.md#peak-to-average%20power%20ratio)
+
+## week 6 tutorial
+
+- datetime: 2025-10-10T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
+- topic:
+
+## week 7 lecture
+
+- datetime: 2025-10-14T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- status: canceled; sickness
+
+---
+
+> __<big><big>Cancellation of Lecture on 14 October (Tue)</big></big>__
+>
+> Dear students
+>
+> I am sorry that the lecture tomorrow \(14 October 09:00-10:20am\) will be cancelled due to a medical appointment that I cannot reschedule. The lecture will be resumed on Thursday. Thanks a lot
+>
+> \[redacted\]
+
+## week 7 lecture 2
+
+- datetime: 2025-10-16T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
+- topic: ???
+- ELEC 4110
+  - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
+    - [§ effects of bandwidth and power](M-ary%20transmission.md#effects%20of%20bandwidth%20and%20power)
+    - [§ decision regions](M-ary%20transmission.md#decision%20regions)
+    - [§ maximum likelihood](M-ary%20transmission.md#maximum%20likelihood)
+
+## week 7 tutorial
+
+- datetime: 2025-10-17T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
+- topic:
+
+## week 8 lecture
+
+- datetime: 2025-10-21T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- topic:
+- [channel capacity](../../../../general/channel%20capacity.md) ::@:: It in electrical engineering, computer science, and information theory, is the theoretical maximum rate at which information can be reliably transmitted over a communication channel.
+- [Shannon–Hartley theorem](../../../../general/Shannon–Hartley%20theorem.md) ::@:: It tells the maximum rate at which information can be transmitted over a communications channel of a specified bandwidth in the presence of noise.
+  - Shannon–Hartley theorem / noisy-channel coding theorem ::@:: It is an application of the noisy-channel coding theorem to the archetypal case of a continuous-time analog communications channel subject to Gaussian noise.
+  - Shannon–Hartley theorem / conditions ::@:: The theorem establishes Shannon's channel capacity for such a communication link, a bound on the maximum amount of error-free information per time unit that can be transmitted with a specified bandwidth in the presence of the noise interference, assuming that the signal power is bounded, and that the Gaussian noise process is characterized by a known power or power spectral density.
+  - Shannon–Hartley theorem / statement ::@:: It gives the maximum achievable data rate of a noisy channel: $$C=B\log_{2}\!\left(1+\frac{S}{N}\right)\quad(\text{bits/s}) \,,$$ where $B$ is the bandwidth (Hz), $S$ the average received signal power, and $N$ the noise power over that band.  The ratio $S/N$ is the linear signal-to-noise (or carrier-to-noise) ratio.  $C$ represents an upper bound on the net information rate—excluding any error-correction overhead—and holds for additive white Gaussian noise channels.
+    - Shannon–Hartley theorem / statement / noise ::@:: For AWGN of _two-sided_ PSD $N_0 / 2$, this means its _one-sided_ PSD is $N_0$, which is the noise power per frequency. The noise power over the bandwidth $B$ is then $N = N_0 B$.
+    - Shannon–Hartley theorem / statement / spectral efficiency ::@:: Rearranging the formula, we get _spectral efficiency_: $$\frac C B = \log_2\!\left(1+\frac{S}{N}\right)\quad(\text{bits/s/Hz}) \,.$$ We see to increase spectral efficiency, we have to increase the signal-to-noise power ratio $S / N$.
+    - Shannon–Hartley theorem / statement / energy efficiency ::@:: Often, when discussing _energy efficiency_, we use SNR per symbol $E_s / N_0$ or _SNR per bit_ $E_b / N_0$. Using the latter, we have: $$\frac {E_b} {N_0} = \frac {ST_b} {N / B} = \frac B C \frac S N = \frac B C \left(2^{C / B} - 1 \right) \,.$$
+    - Shannon–Hartley theorem / statement / Shannon limit ::@:: We want to find the minimum _SNR per bit_ $E_b / N_0$ for any useful bits to be transmitted. Using $$\frac {E_b} {N_0} = \frac B C \left(2^{C / B} - 1 \right) \,,$$ take the limit as $C / B \to 0$ \(approaching sending no data\), then we have $$\frac {E_b} {N_0} \to \frac 1 {\log_2 e} = \ln 2 \approx 0.693 \approx -1.59~\text{dB} \,.$$ That is, given AWGN noise of _two-sided_ PSD $N_0 / 2$, the above is the lowest SNR per bit possible for us to send any data through the channel.
+
+## week 8 lecture 2
+
+- datetime: 2025-10-23T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 8 tutorial
+
+- datetime: 2025-10-24T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
 - topic:
 
 ## aftermath

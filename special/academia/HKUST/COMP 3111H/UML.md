@@ -13,6 +13,10 @@ tags:
 
 # unified modeling language
 
+- COMP 3111H
+
+---
+
 - see: [general/Unified Modeling Language](../../../../general/Unified%20Modeling%20Language.md), [UML](UML.md)
 
 {@{__Unified Modeling Language__ \(__UML__\)}@} is {@{a general-purpose, object-oriented, visual modeling language}@} that provides {@{a way to visualize the architecture and design of a system}@}; like {@{a blueprint}@}. <!--SR:!2026-01-17,81,341!2026-01-03,69,322!2025-12-24,57,321!2026-01-03,68,322-->
@@ -51,7 +55,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}. Its syntax is {@{writing the property inside curly brackets `{}`}@}, i.e. {@{`{readOnly}`}@}, e.g. {@{`account: Account {readonly}`}@}. <!--SR:!2026-01-21,85,350!2026-01-21,85,350!2026-01-17,81,341!2026-01-17,81,341!2025-12-11,25,400!2025-12-11,25,396!2025-12-18,27,412-->
 
-{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> <multiplicity> <mutability> = <initial value>`}@}, e.g. {@{`+accounts: Account [0..10] {readOnly} = []`}@}. <!--SR:!2026-01-04,69,322!2026-01-17,81,341!2026-01-18,82,341!2025-12-12,21,392-->
+{@{The syntax}@} to {@{describe an attribute}@} is {@{`<visibility> <name> : <type> <multiplicity> <mutability> = <initial value>`}@}, e.g. {@{`+ accounts: Account [0..10] {readOnly} = []`}@}. <!--SR:!2026-01-04,69,322!2026-01-17,81,341!2026-01-18,82,341!2025-12-12,21,392-->
 
 ## operations
 
@@ -91,7 +95,7 @@ Associations of {@{different degree}@} are {@{drawn differently}@}. An associati
 
 ### association multiplicity
 
-{@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity–relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}. <!--SR:!2026-01-04,69,322!2026-01-18,82,341!2026-01-04,70,322!2026-01-21,85,350!2026-01-15,79,341!2025-12-20,57,310!2026-01-19,83,341-->
+{@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity—relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}. <!--SR:!2026-01-04,69,322!2026-01-18,82,341!2026-01-04,70,322!2026-01-21,85,350!2026-01-15,79,341!2025-12-20,57,310!2026-01-19,83,341-->
 
 To {@{specify multiplicity}@}, specify {@{the _minimum cardinality_ \(min count\) and _maximum cardinality_ \(max count\)}@} on {@{the _other_ class \(not the _current_ class\)}@}. Both are {@{inclusive}@}. {@{_Cardinality_}@} can be {@{any _nonnegative_ integer}@}, or {@{the special wildcard `*` representing infinity}@}. Then, write it using {@{`<min card>..<max card>`}@}. There are {@{shorthands for some multiplicities}@} for {@{`1..` and `0..*`}@}: <!--SR:!2026-01-17,81,341!2026-01-21,85,350!2026-01-21,85,350!2025-12-29,65,322!2026-01-20,84,350!2026-01-04,69,322!2026-01-03,69,322!2026-01-03,68,322!2026-01-21,85,350!2026-04-13,135,407-->
 
@@ -281,9 +285,9 @@ For {@{each identified actor}@}, ask: {@{What roles do they play during interact
 
 Below is an example of {@{_roles_ \(actor _description_\) in a course registration system}@}: <!--SR:!2026-01-27,89,374-->
 
-- course registration system, student – ::@:: enrolls, selects alternatives, changes schedule. <!--SR:!2026-01-29,91,374!2026-02-03,95,374-->
-- course registration system, instructor – ::@:: declares teaching assignments, views enrollments. <!--SR:!2026-01-18,81,374!2026-02-02,94,374-->
-- course registration system, billing system – ::@:: external system that receives registration data to bill students. <!--SR:!2025-12-16,53,354!2026-01-25,87,374-->
+- course registration system, student ::@:: — enrolls, selects alternatives, changes schedule. <!--SR:!2026-01-29,91,374!2026-02-03,95,374-->
+- course registration system, instructor ::@:: — declares teaching assignments, views enrollments. <!--SR:!2026-01-18,81,374!2026-02-02,94,374-->
+- course registration system, billing system ::@:: — external system that receives registration data to bill students. <!--SR:!2025-12-16,53,354!2026-01-25,87,374-->
 
 {@{Actors}@} are represented by {@{_stick figures_ with annotating text showing their _names_}@}. <!--SR:!2026-01-24,86,374!2026-01-26,88,374-->
 
@@ -346,11 +350,11 @@ Preconditions serve to keep {@{each use-case description independent of others}@
 
 #### use case flow of events
 
-{@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step-by-step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface → instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\) <!--SR:!2026-04-15,137,407!2026-04-04,128,407!2026-04-15,137,407!2026-04-08,131,407!2026-04-01,125,407!2026-04-11,134,407!2026-03-31,124,407!2026-04-01,125,407!2026-04-15,137,407!2026-04-13,135,407!2026-03-31,124,407!2026-04-12,135,407!2026-04-01,125,407-->
+{@{The _flow of events_}@} is {@{a concise \(avoid excessive jargons\), step-by-step narrative}@} that describes {@{exactly what the actors and the system must do to carry out a use case}@}. It does _not_ describe {@{how they are done, thus ignoring use case interactions}@}. It is written {@{declaratively in the form of "&lt;entity&gt; &lt;action&gt;"}@}, e.g., {@{"the actor enters a name"}@}; and each action is {@{numbered in temporal order}@}. The flow begins with {@{the __basic flow__}@}, which represents {@{the most common, normal path from start to finish}@}; this sequence is {@{mandatory and must be fully specified}@}. An example in a course registration system is: {@{instructor selects "Choose courses" → system displays interface}@} → {@{instructor specifies term/year → system shows available courses for that term}@}. Only then, {@{alternative flows are added}@}: \(annotation: 3 items: {@{optional, variant, exceptional}@}\) <!--SR:!2026-04-15,137,407!2026-04-04,128,407!2026-04-15,137,407!2026-04-08,131,407!2026-04-01,125,407!2026-04-11,134,407!2026-03-31,124,407!2026-04-01,125,407!2026-04-15,137,407!2026-04-13,135,407!2026-03-31,124,407!2026-04-12,135,407!2026-04-01,125,407-->
 
-- Optional behavior ::@:: – Actions that may occur _in addition_ to the normal flow but are not required for completion. <!--SR:!2026-04-02,126,407!2026-04-16,138,407-->
-- Variant behavior ::@:: – A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop-up informs the user and jumps to "SelectCourse". <!--SR:!2026-04-11,134,407!2026-04-16,138,407-->
-- Exceptional behavior ::@:: – Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm". <!--SR:!2026-04-02,126,407!2026-04-01,125,407-->
+- Optional behavior ::@:: — Actions that may occur _in addition_ to the normal flow but are not required for completion. <!--SR:!2026-04-02,126,407!2026-04-16,138,407-->
+- Variant behavior ::@:: — A different sequence of steps that can _replace_ part of the normal flow under certain conditions. <p> example: If a schedule already exists when creating one, a pop-up informs the user and jumps to "SelectCourse". <!--SR:!2026-04-11,134,407!2026-04-16,138,407-->
+- Exceptional behavior ::@:: — Steps that _handle abnormal situations_ (e.g., invalid input or system errors) and usually lead back to a normal state or terminate the use case. <p> example: If the instructor enters an invalid term, the system shows an error and resumes at "EnterTerm". <!--SR:!2026-04-02,126,407!2026-04-01,125,407-->
 
 From there, {@{optional, variant, or exceptional behaviour}@} can be attached through {@{__alternative flows__ (A1, A2...) that diverge at designated _extension points_}@}. {@{These alternatives}@} may be {@{specific (triggered at a particular step)}@}, {@{bounded (occurring between two extension points; typically inclusive, but best to specify)}@}, or {@{general (starting anywhere in the flow)}@}. {@{Each alternative}@} must explicitly state where {@{control returns to the main sequence}@}—usually {@{the original extension point, another named point, or the end of the use case}@}. <!--SR:!2026-04-14,136,407!2026-04-09,132,407!2026-04-12,135,407!2026-04-04,128,407!2026-04-01,125,407!2026-04-13,135,407!2026-04-05,129,407!2026-03-31,124,407!2026-03-31,124,407-->
 
@@ -427,11 +431,220 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 
 ### use case detail level
 
-{@{The goal of a use-case specification}@} is to provide {@{sufficient detail so that all stakeholders—developers, testers, business users, and customers—agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}. <!--SR:!2026-04-13,135,407!2026-04-17,139,407!2026-04-08,131,407!2026-04-01,125,407!2026-04-15,137,407!2026-03-31,124,407-->
+{@{The goal of a use-case specification}@} is to provide {@{sufficient detail so that all stakeholders}@}—{@{developers, testers, business users, and customers}@}—{@{agree on what the system must do}@}. For example, {@{the _basic flow_}@} should {@{unambiguously describe the required behaviour}@}; {@{any ambiguity}@} triggers {@{questions such as "What does this mean?" and should be resolved}@}. <!--SR:!2026-04-13,135,407!2026-04-17,139,407!2026-04-08,131,407!2026-04-01,125,407!2026-04-15,137,407!2026-03-31,124,407-->
 
-When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low-value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_, _Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}. <!--SR:!2026-04-08,131,407!2026-04-09,132,407!2026-04-15,137,407!2026-04-15,137,407!2026-04-11,134,407!2026-04-01,125,407!2026-04-08,131,407!2026-04-10,133,407-->
+When {@{decomposing behaviour into use cases}@}, avoid {@{fragmenting it into overly small, low-value steps}@} (e.g., {@{_Select Product_, _Enter Order Information_}@}, {@{_Enter Shipping Information_, _Enter Payment Information_, _Confirm Order_}@} should be {@{combined into _Place Order_}@}). {@{Each use case}@} should represent {@{an interaction that provides independent value to the user}@}; otherwise the decomposition becomes {@{counterproductive and increases maintenance effort}@}. This balance ensures {@{clarity without sacrificing cohesion}@}. <!--SR:!2026-04-08,131,407!2026-04-09,132,407!2026-04-15,137,407!2026-04-15,137,407!2026-04-11,134,407!2026-04-01,125,407!2026-04-08,131,407!2026-04-10,133,407-->
 
 To summarize, {@{a single use case}@} should capture {@{a complete, meaningful transaction or activity}@}, with {@{optional subflows handling any complex internal sequences}@}. It should _not_ {@{communicate _directly_ with other use cases}@}, as use cases are {@{_independent_ by design}@}. <!--SR:!2026-04-08,131,407!2026-03-31,124,407!2026-04-01,125,407!2026-04-01,125,407!2026-04-10,133,407-->
+
+## analysis models
+
+{@{The analysis phase}@} of a software project often expands {@{the number of conceptual classes by up to five times compared with earlier stages}@}. In this phase, analysis focuses on {@{functional requirements only}@}; {@{implementation details}@} such as {@{programming-language types or UI layouts}@} are {@{deliberately omitted}@}.
+
+{@{Class descriptions}@} are {@{intentionally kept abstract and independent}@} of {@{any specific programming language or implementation framework}@}. {@{Attribute types}@} describe {@{real-world concepts rather than concrete data types}@}; {@{behavior}@} is captured through {@{textual responsibilities instead of method signatures}@}, and {@{relationships between classes}@} are defined in terms of {@{conceptual associations, not low-level references}@}.
+
+### analysis classes
+
+{@{An analysis class}@} can be {@{one of three stereotypes}@}: {@{_boundary_, _control_, or _entity_}@}. {@{Each stereotype}@} represents {@{a distinct aspect of the system}@} and guides {@{later design decisions}@}.
+
+- boundary classes ::@:: model interactions with actors
+- entity classes ::@:: encapsulate long-lived domain data
+- control classes ::@:: coordinate behaviour that does not naturally belong to either boundary or entity
+
+{@{Partitioning a use case}@} distributes {@{responsibilities across boundary, entity and control classes}@}. {@{Boundary classes}@} handle {@{environment and external interaction}@}, {@{entity classes}@} manage {@{data storage and processing}@}, and {@{control classes}@} implement {@{the specific logic of the use case}@}. {@{This separation}@} facilitates {@{_localization_ of changes}@} and improves {@{maintainability and _traceability_ \(to use cases\)}@} by resulting in {@{a _stable system_}@}. This means if there is {@{a change in requirements}@}, we start {@{from the use case diagram}@}, identify {@{affected actors}@}, and then {@{trace through boundary, control, and entity classes}@}; this {@{minimizes effort to change requirements}@}.
+
+In practice, we need to {@{make many judgement calls}@} to {@{place the functionalities in their best places}@}. {@{_Design patterns_}@} can help with this.
+
+#### boundary classes
+
+{@{A boundary class}@} models {@{interactions between the system and actors}@}. It abstracts {@{user interface elements}@} such as {@{windows, forms or device interfaces}@}. {@{Its description}@} remains at {@{a high conceptual level}@}; it does not {@{detail individual buttons or menu items}@}.
+
+It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<boundary>>`}@}; second, it can appear as {@{a circle with an `T` shape extending outward \(typically leftward\)}@}, looking like {@{a push button on a circle}@}. \(__this course__: Use {@{the second way}@}.\)
+
+{@{Boundary classes}@} are derived from {@{use-case descriptions}@} by beginning with {@{the actors}@} and determining {@{what forms, windows or messages}@} they require to {@{interact with the system}@}. The focus is on {@{functional elements}@}—{@{data entry and response}@}—not on {@{visual layout details}@}. When {@{naming and describing these interfaces}@}, practitioners should adopt {@{the terminology that users themselves employ}@}, ensuring the model remains {@{close to real-world language and user expectations}@}.
+
+When {@{specifying boundaries class for a model}@}, begin by creating {@{a single boundary object for every actor—use case combination}@}. For {@{human actors}@} this object represents {@{the main user-interface window through which they interact with the system}@}, while for {@{non-human or external system actors}@} it stands for {@{the communication endpoint that connects to those systems}@}. {@{This one-to-one mapping}@} keeps {@{boundary responsibilities focused and simplifies later refinement}@}. If possible, {@{reuse the same boundary object}@} for an actor, e.g. {@{the boundary object `ProfessorUI` for the actor `Professor`}@}, which includes {@{`CreateScheduleUI`, `SelectCoursesUI` among others}@}.
+
+{@{Boundary objects}@} interact {@{only with control objects and actors}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in the system interface}@}. {@{Actors}@} interact {@{only with boundary objects}@}. They should {@{_never_ interact with other boundary objects}@} directly. These result in a {@{well structured and maintainable}@} system.
+
+#### entity classes
+
+{@{Entity classes}@} model {@{long-lived and often persistent information}@}. They represent {@{real-world concepts}@} such as {@{people, events, courses, or departments}@}. They are treated as {@{dynamic objects within the analysis model}@} but typically correspond to {@{persistent data stored in a database}@}.
+
+It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<entity>>`}@}; second, it can appear as {@{a circle with an underline under it}@}. \(__this course__: Use {@{the second way}@}.\)
+
+To {@{specify entity classes for a model}@}, dissect {@{each use-case scenario}@} and asking {@{which domain entities must participate in that flow}@}. By tracing {@{the steps of a scenario}@}—such as {@{retrieving data, performing calculations or persisting results}@}—you can pinpoint {@{the concrete entity classes}@} that are {@{necessary to fulfil the use case's responsibilities}@}. \(e.g. {@{`Course`, `CourseOffering`, and `Professor`}@} in {@{a course registration system}@}\) The process is somewhat similar to {@{constructing a domain model}@}.
+
+{@{Entity objects}@} interact {@{only with control objects}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in information}@}. These result in a {@{well structured and maintainable}@} system.
+
+#### control classes
+
+{@{A control class}@} models {@{control, coordination, sequencing, or transactions}@} for {@{one or more use cases}@}. It typically has {@{no direct counterpart in the application domain}@}; instead, it provides {@{the "glue" tieing other classes together in one or more use cases}@}. It may represent {@{control specific to use case}@} or {@{business logic}@} \(e.g. {@{calculations, complex derivations}@}\). {@{Each control object}@} should be {@{tied to at most one actor}@} to {@{localize changes to business or control logic}@}.
+
+It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary class box}@} {@{above whose name}@} carries {@{the stereotype `<<control>>`}@}; second, it can appear as {@{a circle with an arrowhead pointing to the left overlapping on the top edge of the circle}@}. \(__this course__: Use {@{the second way}@}.\)
+
+To {@{specify control classes for a model}@}, start by creating {@{a single control object for every actor—use case pair}@}, assigning it the task of {@{steering the sequence of events that realize the use case}@}, e.g. {@{`SelectCoursesToTeachMgr`}@} in {@{a course registration system}@}. If {@{the logic is intricate}@}, {@{split the responsibilities}@} across {@{several control objects}@}; conversely, {@{simple or overlapping flows}@} may be {@{merged to avoid redundancy}@}. Importantly, {@{each control object}@} should {@{belong to no more than one actor}@}—this restriction {@{isolates changes and keeps the system's behavior tightly scoped}@} to {@{the actor that initiated it}@}.
+
+{@{Control objects}@} interact {@{with boundary, entity, and other control objects}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in business or control logic}@}. These result in a {@{well structured and maintainable}@} system.
+
+## design models
+
+{@{The analysis phase}@} establishes {@{a conceptual model}@} using {@{boundary, entity, and control classes}@}, while {@{the design phase}@} translates {@{this model into concrete implementation classes}@}.
+
+{@{Clear separation of concerns, low coupling, high cohesion}@}, {@{active-class identification, and adherence to SOLID principles}@} help produce {@{a robust, maintainable system}@} that can {@{adapt to evolving requirements}@}.
+
+### design classes
+
+{@{A _design class_}@} is {@{a fully specified component}@} that has been {@{completed to the point where it can be translated directly into code}@}. It represents {@{a problem-domain concept \(analysis\) whose behavior and interface have been completely defined}@}, enabling developers to {@{implement it using solution-domain (technology) classes}@}. Design classes form {@{the core of the system's architecture}@} and serve as {@{the blueprint for subsequent implementation phases}@}.
+
+{@{Boundary classes}@} are determined by {@{the choice of user-interface or communication technologies}@}. They act as {@{the system's interface layer}@}, translating {@{external input into internal data structures}@} and presenting {@{output back to users or other systems}@}. By {@{encapsulating UI logic}@}, boundary classes keep {@{presentation concerns separate from business rules}@}.
+
+{@{Entity classes}@} are determined by {@{the choice of technology for data persistence and management}@}. These classes model {@{domain objects that correspond to database tables or other storage mechanisms}@}. They contain {@{attributes and basic operations}@} required for {@{CRUD (create-read-update-delete) interactions}@}, thereby bridging {@{the gap between in-memory representations and durable storage}@}.
+
+{@{Control classes}@} are determined by {@{system behavior across multiple concerns}@} such as {@{distribution, performance, and transactions}@}. They determine whether {@{a separate design class}@} is {@{necessary on each node}@}, decide when to {@{merge with boundary classes for efficiency}@}, and enforce {@{transaction management}@}.
+
+In practice, {@{design classes}@} are described by {@{the syntax of the programming language}@}. When {@{refining an analysis model into design model}@} you should perform these activities: \(annotation: 4 items: {@{reuse, complete, restructure, optimize}@}\)
+
+- _select reusable components_ ::@:: — choose class libraries \(e.g. networking, logging, etc.\) and design patterns \(e.g. factory, observer, singleton, strategy, etc.\) that can be leveraged across the system.
+- _complete the specification_ ::@:: — add _attributes_, _associations_, _operations_, types, visibility, and _constraints_ \(in OCL or natural language\); identify which classes are active (i.e., perform behavior).
+- _restructure the design model_ ::@:: — introduce new _associations_, use _inheritance_, and _refactor_ duplicated code to common classes to increase reuse among related classes.
+- _optimize the design model_ ::@:: — revise access paths with _interfaces or mediators_ to avoid _cycles_, collapse redundant or tightly _coupled_ classes, and apply _caching or lazy evaluation_ to improve performance.
+
+### active classes
+
+{@{An _active class_}@} runs {@{its own thread of control}@} and is typically a {@{boundary or control class}@}. They are shown with {@{_a thicker border_ in class diagrams}@} to {@{distinguish them from passive ones}@}. It is identified by {@{performance, throughput or availability requirements}@}; when {@{distribution across multiple nodes}@} is required; or {@{other requirements}@}.
+
+- performance, throughput, availability ::@:: e.g., real-time input handling may require a dedicated active object for fast response
+- system distribution ::@:: e.g., one active object per node and additional objects for inter-node communication enable distributed operation
+- other requirements ::@:: Some require an active object capable of initiating or monitoring activity, e.g., system startup/termination, liveness guarantees, deadlock or starvation avoidance, dynamic reconfiguration of nodes, managing connection capacity, etc,
+
+## cohesion and coupling
+
+In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely coupled_ classes}@}, balancing {@{these often competing goals}@}. {@{The 7±2 rule}@} guides {@{acceptable coupling}@}. The rule—originating from {@{cognitive psychology's limits on working-memory capacity}@}—suggests that {@{a class or component}@} should expose {@{no more than seven (plus or minus two) other classes, modules, or interfaces}@}.
+
+{@{_Cohesion_}@} measures {@{how many distinct responsibilities a class bears}@}; {@{the most cohesive design}@} is {@{one that performs a single, well-defined function}@}. {@{_Coupling_}@} {@{counts and categorizes a class's dependencies on others}@}; {@{minimal, simple connections}@} yield {@{the lowest coupling}@}, reducing {@{interclass interference and enhancing maintainability}@}.
+
+### cohesion
+
+{@{The spectrum of cohesion}@} ranges from classes that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal &lt; procedural &lt; communicational &lt; sequential &lt; functional}@}\)
+
+1. __Coincidental__ ::@:: — the class has no discernible function.
+2. __Logical__ ::@:: — it groups several related but distinct responsibilities.
+3. __Temporal__ ::@:: — its operations are bundled together simply because they occur at the same time.
+4. __Procedural__ ::@:: — methods must be executed in a specific sequence.
+5. __Communicational__ ::@:: — all operations work on the same data stream or structure.
+6. __Sequential__ ::@:: — the output of one operation feeds directly into another within the class.
+7. __Functional__ ::@:: — the class has one clear, singular responsibility.
+
+### coupling
+
+{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. The list from {@{lowest coupling to highest coupling}@} is: \(annotation: 7 items: {@{no direct &lt; data &lt; stamp &lt; control &lt; external &lt; common &lt; content}@}\)
+
+1. __No direct__ ::@:: — classes have no relationship.
+2. __Data__ ::@:: — classes communicate solely through primitive data or simple value objects (ideal).
+3. __Stamp__ ::@:: — a fragment of a larger structure is passed as an argument.
+4. __Control__ ::@:: — decision-making information such as flags or switches is shared.
+5. __External__ ::@:: — both classes rely on external environment resources.
+6. __Common__ ::@:: — multiple classes share a global data area or singleton.
+7. __Content__ ::@:: — one class accesses the internal data or control information of another (to be _avoided_).
+
+### SOLID principles
+
+{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution, interface segregation, dependency inversion}@}\)
+
+- _Single Responsibility Principle_ ::@:: Each class has one responsibility.
+- _Open—Closed Principle_ ::@:: Classes accept extension but resist modification.
+- _Liskov Substitution Principle_ ::@:: Subclasses must be substitutable for superclasses.
+- _Interface Segregation Principle_ ::@:: Clients should not depend on unused interfaces.
+- _Dependency Inversion Principle_ ::@:: High-level modules should _not_ depend on low-level modules. Both should depend on abstractions. Further, details should depend on abstractions, not the reverse.
+
+## state machine diagrams
+
+{@{A _state machine diagram_}@} is {@{a directed graph}@} that models {@{the lifetime behavior of a single _object_ \(loosely speaking, _class_\)}@}. It contains {@{_every_ possible states and transitions}@}. {@{Nodes}@} represent {@{states}@} and {@{arcs \(arrows, directed edges\)}@} denote {@{transitions triggered by events}@}. The diagram shows {@{all possible messages an object can send or receive}@} during {@{its life cycle}@}.
+
+{@{A state machine diagram}@} is represented by {@{large rectangle with slightly rounded corners}@}. It contains {@{the class name at top}@}, separated by {@{a horizontal line}@} from {@{the state machine diagram below}@} in the rectangle.
+
+When {@{constructing a state-machine diagram}@}, we begin by {@{listing every possible state the class can occupy}@}. Next, we identify {@{the conditions or triggers}@} that determine {@{which state the class is in at any time}@}. Finally, for {@{each state}@} we specify how it {@{responds to incoming events or messages}@} and detail {@{the actions executed when those events occur}@}.
+
+{@{Not every class}@} needs {@{a state machine diagram}@}. They are best suited for {@{classes exhibiting _critical_ or significant _dynamic_ behavior}@}—such as {@{bank accounts, traffic lights, or user interfaces}@}. They provide {@{a concise visual representation}@} of {@{an object's possible behaviors and interactions over time and multiple use cases}@} for {@{clarity and communication to stakeholders}@}.
+
+### states
+
+{@{A _state_}@} represents {@{a period in which an object}@} {@{satisfies certain conditions, performs actions, or waits for events}@}. States have {@{duration}@} and may be {@{named (e.g., _InCredit_) or anonymous \(_anonymous states_\)}@}. Prefer {@{named ones over anonymous ones}@} so that {@{stakeholders can understand them}@}. They can be identified by {@{attribute values, links to other objects, or both}@}.
+
+{@{A state}@} is drawn as {@{a rectangle with slightly rounded corners}@}. If it {@{has a name}@}, then {@{its name is also indicated}@}. If it {@{has self-transition adornments}@}, then {@{a horizontal line is added}@} to separate {@{the name \(if any\)}@}, and below the line {@{the self-transitions are listed}@}.
+
+#### initial and final states
+
+{@{Each diagram}@} must contain {@{at most one _initial state_}@} that marks {@{the entry point of the object's life cycle}@}. {@{_Final states_}@} indicate {@{termination \(object deleted or destructed\)}@}; a diagram may have {@{multiple final states}@}, and {@{no explicit initial or final state}@} implies {@{looping behavior}@}.
+
+{@{An initial state}@} is drawn as {@{a solid black circle}@}. {@{A final state}@} is drawn as {@{a solid black circle with another hollow circle surrounding it}@}. They are treated as {@{states}@} with respect to {@{other things in the state machine diagram}@}. They typically do not {@{need a name}@}.
+
+### transitions
+
+{@{A _transition_}@} connects {@{an origin (source) state to a target state and}@} is {@{triggered by an event}@}. Transitions can be {@{self-loops when source and target are the same}@}. They occur {@{_instantaneously_, cannot be _interrupted_}@}, and may {@{carry _optional adornments_}@}: {@{an event trigger, guard condition, and effect list}@}.
+
+For {@{self-transitions}@}, {@{the adornments are listed inside the state}@}. For {@{transitions to other states}@}, {@{an arrow}@} is {@{drawn from the source object to the target}@}, and {@{all adornments are listed}@} next to it. {@{The syntax}@} for {@{a transition}@} is {@{`event trigger [guard condition] / effect list`}@}.
+
+An {@{_event trigger_}@} specifies {@{the _event name_ that _triggers_ a transition, optionally with _parameters_}@} which will be available to {@{the transition's effects or activities in the _target state_}@}.
+
+{@{A _guard condition_}@} is {@{a Boolean expression evaluated when the event occurs}@}. {@{The transition _fires_}@} {@{only if the guard evaluates to true}@}. Guards are {@{passive and evaluated at the time of the event}@}. It is written in terms of {@{parameters of the event, attributes, and links of the _source object_}@}.
+
+An {@{_effect list_}@} contains {@{one or more atomic actions}@} (e.g., {@{calling operations, sending messages}@}) that {@{execute _immediately_ after a transition fires}@}. Effects may refer to {@{_source object_ operations, attributes, links, and event parameters}@}. {@{The atomic actions}@} are {@{separated by _semicolons_ `;`}@} and {@{executed _sequentially_}@}.
+
+### events
+
+An {@{_event_}@} is {@{something that happens at an _instantaneous_ point in time}@}. It can be classified as: \(annotation: 4 items: {@{call, change, signal, time}@}\)
+
+{@{A _call event_}@} is triggered by {@{the receipt of a _synchronous call_}@}. The event trigger contains {@{the operation name and its parameters}@}, which are {@{exactly the same as the parameters passed to the invoked operation}@}.
+
+{@{A _change event_}@} occurs whenever {@{a Boolean expression that depends _solely_ on the _source object state_}@} {@{changes from false to true}@}, e.g. {@{`when(balance < 0)`}@}. {@{The condition}@} is {@{evaluated _continuously_}@}; unlike {@{a guard}@}, which is {@{checked only when encountered}@}, a change event {@{_actively_ monitors its expression}@}. Because {@{it has no parameters}@}, {@{any transition triggered by a change event}@} relies {@{entirely on the _source object_'s current state}@}.
+
+{@{A _time event_}@} represents either {@{an absolute point in time (e.g., `when(date=2025-11-11)`)}@} or {@{a relative delay (e.g., `after(7 seconds)`)}@}. It causes {@{a transition when the specified moment arrives}@}, and it can be used to model {@{timed actions}@} such as {@{automatic state changes or periodic checks}@}.
+
+{@{A _signal event_}@} is {@{an _asynchronous message_ represented by a _stereotyped_ class (`<<signal>>`)}@}. It carries {@{a package of information between objects}@} without {@{waiting for a response}@} and is commonly employed in {@{real-time system specifications}@} to model {@{non-blocking communication}@}.
+
+{@{Events in a state machine}@} are {@{handled _sequentially_}@}: {@{each event}@} is {@{examined one at a time}@} and, if {@{no transition matches it}@}, {@{the event is simply _ignored_}@}. {@{At most a _single_ transition}@} may {@{fire for any given event}@}; if {@{two transitions could fire simultaneously}@} the choice becomes {@{nondeterministic (a race condition)}@} and usually indicates {@{a specification error}@}. Consequently, {@{every state transition}@} must be triggered by {@{a distinct event to avoid ambiguity}@}.
+
+{@{A state}@} can be {@{exited either automatically or non-automatically}@}. {@{_Automatic_ transitions}@} {@{fire immediately once the state's internal activity (if any) finishes}@}, occurring when {@{there are transitions without any _adornments_ \(labels\)}@}; {@{_non-automatic_ transitions}@} are driven by {@{an explicit event}@} that occurs while {@{the object remains in that state}@}.
+
+### actions and activities
+
+In a state machine, {@{_actions_}@} are {@{instantaneous, uninterruptible steps}@} that occur {@{during transitions or at state entry/exit}@}, while {@{_activities_}@} are {@{time-consuming tasks that can be interrupted}@} and run {@{while the object remains in the state}@}. {@{A state}@} may exhibit {@{one of several behaviors}@}: \(annotation: 5 items: {@{no behavior, adornment, `do`, `entry`, `exit`}@}\)
+
+- no behavior ::@:: it may do nothing and simply wait for an event to exit the state
+- \(action\) adornment ::@:: execute a \(potentially guarded\) transition whose effect list runs when its trigger occurs, e.g. `help / display help`, etc.
+- \(activity\) `do` ::@:: perform a continuous activity (e.g., looping operations), e.g. `do / collect telemetry`, etc.
+- \(action\) `entry`, `exit` ::@:: run entry/exit _actions_ \(not _activities_\) each time the state is entered or left, e.g. `entry / set echo to star; clear password`, `exit / set echo to normal`, etc.
+
+### composite states
+
+{@{A _composite state machine diagram_}@} represents {@{a higher-level state \(_superstate_\)}@} that {@{contains one or more nested state machines \(_substates_\)}@}. {@{The outer state}@} encapsulates {@{its sub-states}@}, allowing the model to hide {@{internal complexity}@}. {@{Each nested diagram}@} can be treated as {@{an independent behavioral unit}@}. {@{The nested state machine}@} may be {@{_sequential_ or _concurrent_}@}.
+
+{@{A composite state}@} is indicated by {@{a glasses-looking symbol on the bottom right corner}@}. Actually, the symbol is supposed to be {@{two states connected together}@}. Alternatively, to {@{show the substates as well}@}, simply {@{draw another state machine diagram inside the state}@}.
+
+For {@{an overall composite state}@}, {@{a transition that _ends_ at its _boundary_ \(but no further inside\)}@} is equivalent to {@{entering the all of its initial states for all regions}@}; when this occurs {@{all entry actions for the state of every region entered}@} are executed. {@{A transition that _starts_ from its _boundary_ \(but no further inside\)}@} is equivalent to {@{exiting all of its states for all regions}@}; when this occurs {@{all exit actions for the state of every region}@} are executed.
+
+There can be {@{direct transitions}@} from {@{a specific region}@} to {@{outside the composite state or to the composite state _itself_}@}, or from {@{outside the composite state or the composite state _itself_}@} to {@{a specific region}@}. For {@{_concurrent_ composite states}@}, there can even be {@{transitions with multiple source and target states}@} \(see below\).
+
+#### sequential composite states
+
+{@{A _sequential_ composite state machine diagram}@} \(also called {@{a choice or "or" composite}@}\) models situations in which {@{an object occupies _exactly one_ of several sub-states at any time}@}. {@{The selection among these sub-states}@} is governed by {@{an exclusive condition}@}, meaning that {@{the outer state}@} behaves as though it were {@{in one particular nested state based on the current context}@}. This construct is useful for {@{_abstracting_ or _generalizing_ a set of mutually exclusive behaviors}@}.
+
+Inside {@{a sequential composite state}@}, it should have {@{an initial state}@}. It need not {@{have an final state}@}, as {@{outside transitions outgoing the overall composite state}@} can represent {@{exiting the state}@}.
+
+#### concurrent composite states
+
+{@{A _concurrent_ composite state machine diagram}@} \(also known as {@{a parallel or "and" composite}@}\) allows an object to be {@{simultaneously in one sub-state from each of several independent _regions_}@}. {@{The conjunction of these sub-states}@} captures {@{multi-threaded or concurrent behavior}@}, where {@{the overall state}@} reflects {@{the combination of all active region states}@}. {@{Concurrency arises}@} when an object ca be {@{partitioned into subsets of attributes and links}@}. Each region can evolve {@{independently}@}, and {@{transitions in one region}@} do not {@{preclude activity in another}@}.
+
+Inside {@{a concurrent composite state}@}, {@{each region}@} should have {@{an initial state}@} and {@{one or more final states}@}. {@{The regions}@} are separated by {@{_dashed horizontal lines_}@}.
+
+For {@{concurrent composite states}@}, there can be {@{transitions involving multiple source or target states simultaneously}@}, which model either {@{splitting control flow across concurrent regions \(_fork_\)}@} or {@{synchronizing concurrent sub-states \(_join_\)}@}. It is indicated by {@{a _synchronization bar_ \(a vertical line outside the composite state\)}@}, with {@{potentially multiple arrows targeting one side of the bar}@} and {@{potentially multiple arrows originating from the other side of the bar}@}. Their semantics are:
+
+- _fork_: multiple target states ::@:: — after firing a transition from a source state, all target states become enabled concurrently.
+- _join_: multiple source states ::@:: — a transition into the target state fires only after _all_ source transitions have completed, enabling coordinated actions.
+
+Without {@{a synchronization bar}@}, {@{a transition}@} can {@{only have one source and target state}@}, and {@{multiple transitions}@} are {@{mutually exclusive; only one path is taken}@}.
 
 ## common mistakes
 
@@ -461,7 +674,7 @@ When {@{two instances of the same class are linked}@}, i.e. {@{_unary_ associati
 
 Many students think that once {@{a class diagram is complete}@}, it can be {@{directly turned into code with little modification}@}. This misconception leads to {@{diagrams that are too fine-grained}@} (e.g., {@{modeling every private field}@}) or omit {@{necessary abstraction layers}@}. Remember that UML models should capture {@{essential structure and behavior at the appropriate level of abstraction}@}; {@{refine or abstract}@} as needed before {@{mapping to implementation}@}. <!--SR:!2025-12-13,27,400!2025-12-12,26,400!2025-12-12,26,396!2025-12-11,25,396!2025-12-13,27,400!2025-12-13,27,396!2025-12-13,27,400!2025-12-11,25,396-->
 
-An example involves treating {@{internal object identifiers (OIDs)}@} as {@{regular attributes}@} and then using {@{those same attributes}@} to {@{represent relationships}@} – for example, {@{`personID`, `vehicleID`, `loanID`, `ownerID`, etc.}@} {@{Other attributes}@} that are {@{internal details}@} include {@{"type" attributes associated with relationships}@}, e.g. {@{`customerType`, `ownerID`, etc.}@} When students {@{simply copy these attributes into their diagrams}@} they create {@{unnecessary data fields}@} that clutter {@{the model}@} and hide {@{the true cardinality of relationships}@}. The root cause is a misunderstanding that identifiers are {@{always required in the diagram}@}; in reality they belong to {@{the underlying database implementation}@}, not {@{the conceptual model}@}. The fix is straightforward: remove {@{all OID attributes from the class diagram}@}, replace {@{each with an association to the appropriate target class}@}, and then annotate {@{the association with the correct multiplicity}@} (e.g., {@{a `Person` or `Company`}@} "owns" {@{zero or more `Car`s}@}). This keeps the diagram {@{focused on structural relationships}@} rather than {@{persistence details}@}. <!--SR:!2025-12-11,25,396!2025-12-12,26,396!2025-12-11,25,396!2025-12-12,26,396!2025-12-11,25,396!2025-12-11,25,396!2025-12-11,25,400!2025-12-11,25,400!2025-12-12,26,396!2025-12-11,25,400!2025-12-12,26,396!2025-12-12,26,396!2025-12-11,25,396!2025-12-13,27,396!2025-12-13,27,396!2025-12-13,27,400!2025-12-12,26,400!2025-12-11,25,396!2025-12-11,25,396!2025-12-13,27,400!2025-12-12,26,396!2025-12-11,25,400!2025-12-11,25,396-->
+An example involves treating {@{internal object identifiers (OIDs)}@} as {@{regular attributes}@} and then using {@{those same attributes}@} to {@{represent relationships}@} — for example, {@{`personID`, `vehicleID`, `loanID`, `ownerID`, etc.}@} {@{Other attributes}@} that are {@{internal details}@} include {@{"type" attributes associated with relationships}@}, e.g. {@{`customerType`, `ownerID`, etc.}@} When students {@{simply copy these attributes into their diagrams}@} they create {@{unnecessary data fields}@} that clutter {@{the model}@} and hide {@{the true cardinality of relationships}@}. The root cause is a misunderstanding that identifiers are {@{always required in the diagram}@}; in reality they belong to {@{the underlying database implementation}@}, not {@{the conceptual model}@}. The fix is straightforward: remove {@{all OID attributes from the class diagram}@}, replace {@{each with an association to the appropriate target class}@}, and then annotate {@{the association with the correct multiplicity}@} (e.g., {@{a `Person` or `Company`}@} "owns" {@{zero or more `Car`s}@}). This keeps the diagram {@{focused on structural relationships}@} rather than {@{persistence details}@}. <!--SR:!2025-12-11,25,396!2025-12-12,26,396!2025-12-11,25,396!2025-12-12,26,396!2025-12-11,25,396!2025-12-11,25,396!2025-12-11,25,400!2025-12-11,25,400!2025-12-12,26,396!2025-12-11,25,400!2025-12-12,26,396!2025-12-12,26,396!2025-12-11,25,396!2025-12-13,27,396!2025-12-13,27,396!2025-12-13,27,400!2025-12-12,26,400!2025-12-11,25,396!2025-12-11,25,396!2025-12-13,27,400!2025-12-12,26,396!2025-12-11,25,400!2025-12-11,25,396-->
 
 ### common mistakes: association class
 
@@ -587,4 +800,4 @@ When a use case appears to have {@{only communication associations}@}—such as 
 
 ### common mistakes: missing nonfunctional requirements
 
-{@{Nonfunctional requirements}@} (e.g. {@{performance, reliability, security}@}) should be represented {@{alongside functional ones}@}. Yet students often leave {@{these out of their use-case diagrams or class models}@}, resulting in {@{a specification that looks complete}@} but misses {@{critical quality attributes}@}. The root cause is the misconception that UML only describes {@{behaviour and structure}@}. To fix this, add {@{text describing nonfunctional requirements}@} to {@{the relevant use cases; or the entire system for whole-system requirements}@}. <!--SR:!2025-12-13,27,396!2025-12-12,26,400!2025-12-13,27,396!2025-12-11,25,396!2025-12-11,25,400!2025-12-11,25,400!2025-12-12,26,396!2025-12-12,26,396!2025-12-12,26,396-->
+{@{Nonfunctional requirements}@} (e.g. {@{performance, reliability, security}@}) should be represented {@{alongside functional ones}@}. Yet students often leave {@{these out of their use-case diagrams or class models}@}, resulting in {@{a specification that looks complete}@} but misses {@{critical quality attributes}@}. {@{The root cause}@} is {@{the misconception that UML only describes behaviour and structure}@}. To {@{fix this}@}, add {@{text describing nonfunctional requirements}@} to {@{the relevant use cases}@}; or {@{the entire system for whole-system requirements}@}. <!--SR:!2025-12-13,27,396!2025-12-12,26,400!2025-12-13,27,396!2025-12-11,25,396!2025-12-11,25,400!2025-12-11,25,400!2025-12-12,26,396!2025-12-12,26,396!2025-12-12,26,396-->

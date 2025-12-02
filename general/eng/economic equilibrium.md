@@ -30,7 +30,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 
 > {@{![Competitive Equilibrium: Price equates supply and demand.](../../archives/Wikimedia%20Commons/Price%20of%20market%20balance.gif)}@}
 >
-> {@{Competitive Equilibrium: Price equates supply and demand.}@} <!--SR:!2025-12-11,128,397!2027-04-01,483,397-->
+> {@{Competitive Equilibrium}@}: {@{Price equates supply and demand}@}. <!--SR:!2025-12-11,128,397!2027-04-01,483,397-->
 
 <!-- markdownlint MD028 -->
 
@@ -94,7 +94,7 @@ $${\begin{alignedat}{2}Q_{s}&=125+1.5\cdot P\\Q_{d}&=189-2.25\cdot P\\\\Q_{s}&=Q
 
 In the diagram, depicting {@{simple set of supply and demand curves}@}, {@{the quantity demanded and supplied at price __P__}@} are equal. <!--SR:!2029-03-01,1222,350!2026-01-23,341,345-->
 
-{@{At any price above __P__ supply exceeds demand}@}, while {@{at a price below __P__ the quantity demanded exceeds that supplied}@}. In other words, {@{prices where demand and supply are out of balance}@} are termed {@{points of disequilibrium, creating shortages and oversupply}@}. Changes in {@{the conditions of demand or supply}@} will {@{shift the demand or supply curves}@}. This will {@{cause changes in the equilibrium price and quantity in the market}@}. <!--SR:!2029-07-22,1333,350!2025-12-17,311,345!2029-09-22,1398,365!2026-01-23,341,345!2026-01-14,334,345!2026-01-14,333,345!2026-01-05,326,345-->
+At {@{any price above __P__ supply exceeds demand}@}, while at {@{a price below __P__ the quantity demanded exceeds that supplied}@}. In other words, {@{prices where demand and supply are out of balance}@} are termed {@{points of disequilibrium, creating shortages and oversupply}@}. Changes in {@{the conditions of demand or supply}@} will {@{shift the demand or supply curves}@}. This will {@{cause changes in the equilibrium price and quantity in the market}@}. <!--SR:!2029-07-22,1333,350!2025-12-17,311,345!2029-09-22,1398,365!2026-01-23,341,345!2026-01-14,334,345!2026-01-14,333,345!2026-01-05,326,345-->
 
 Consider the following demand and supply schedule:
 

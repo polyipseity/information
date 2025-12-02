@@ -107,7 +107,7 @@ It is often more helpful to plot the magnitude spectrum in {@{a logarithmic scal
 
 - see: [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)
 
-To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}@}. <!--SR:!2030-07-04,1717,393!2029-09-15,1380,373-->
+To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$}@} \(see {@{[`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)}@}\). <!--SR:!2030-07-04,1717,393!2029-09-15,1380,373-->
 
 ## zero padding
 
