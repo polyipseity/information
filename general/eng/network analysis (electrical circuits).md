@@ -48,12 +48,19 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 > __flashcards__
 >
 > - {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](terminal%20(electronics).md) into which, or out of which, current may flow.}@}
+>
 > - {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined. A conductor with a substantially zero resistance is considered to be a node for the purpose of analysis.}@}
+>
 > - {@{__Branch__}@}: {@{The component\(s\) joining two nodes.}@}
+>
 > - {@{__[Mesh](mesh%20analysis.md)__}@}: {@{A group of branches within a network joined so as to form a complete loop such that there is no other loop inside it.}@}
+>
 > - {@{__[Port](port%20(circuit%20theory).md)__}@}: {@{Two terminals where the current into one is identical to the current out of the other.}@}
+>
 > - {@{__[Circuit](electrical%20circuit.md)__}@}: {@{A current from one terminal of a [generator](generator%20(circuit%20theory).md)}@}, through {@{load component\(s\) and back into the other terminal}@}. A circuit is, in this sense, {@{a one-port network and is a trivial case to analyse}@}. If {@{there is any connection to any other circuits}@} then {@{a non-trivial network has been formed and at least two ports must exist}@}. Often, {@{"circuit" and "network" are used interchangeably}@}, but {@{many analysts reserve "network" to mean an idealised model consisting of ideal components}@}.<sup>[\[1\]](#^ref-1)</sup>
+>
 > - {@{__[Transfer function](transfer%20function.md)__}@}: The relationship of {@{the currents and/or voltages between two ports}@}. Most often, {@{an input port and an output port are discussed}@} and the transfer function is {@{described as gain or attenuation}@}.
+>
 > - {@{__Component transfer function__}@}: For {@{a two-terminal component \(i.e. one-port component\)}@}, {@{the current and voltage are taken as the input and output}@} and the transfer function will {@{have units of impedance or admittance \(it is usually a matter of arbitrary convenience whether voltage or current is considered the input\)}@}. {@{A three \(or more\) terminal component}@} effectively has {@{two \(or more\) ports}@} and {@{the transfer function cannot be expressed as a single impedance}@}. The usual approach is to {@{express the transfer function as a matrix of parameters}@}. These parameters can be {@{impedances}@}, but there is {@{a large number of other approaches \(see [two-port network](two-port%20network.md)\)}@}.
 
 ## equivalent circuits

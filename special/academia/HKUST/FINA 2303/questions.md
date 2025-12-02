@@ -1304,7 +1304,7 @@ tags:
 > 2. SolarWinds
 >
 > - solution: {@{1}@}
-> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then either Rackspace is underpriced or SolarWinds is overpriced. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@}
+> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then Rackspace is underpriced, SolarWinds is overpriced, or both. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@}
 
 <!-- markdownlint MD028 -->
 
