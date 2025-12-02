@@ -66,7 +66,7 @@ Sampling errors and biases are {@{induced by the sample design}@}. They include 
 
 - see: [non-sampling error](non-sampling%20error.md)
 
-Non-sampling errors are other errors which can impact final survey estimates, caused by problems in data collection, processing, or sample design. Such errors may include {@{over-coverage, under-coverage, measurement error, processing error, participation bias, etc.}@}:
+Non-sampling errors are other errors which can impact final survey estimates, caused by problems in data collection, processing, or sample design. Such errors may include {@{over-coverage, under-coverage}@}, {@{measurement error, processing error, participation bias, etc.}@}:
 
 - over-coverage ::@:: inclusion of data from outside of the population
 - under-coverage ::@:: sampling frame does not include elements in the population

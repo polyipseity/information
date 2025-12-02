@@ -9,7 +9,7 @@ tags:
 
 # allocative efficiency
 
-__Allocative efficiency__ is {@{a state of the economy in which production is aligned with the preferences of consumers and producers}@}; in particular, {@{the set of outputs is chosen so as to maximize the [social welfare](economic%20surplus.md) of society}@}.<sup>[\[1\]](#^ref-1)</sup> This is achieved if {@{every produced good or service has a [marginal benefit](marginal%20utility.md) equal to the [marginal cost](marginal%20cost.md) of production}@}.
+__Allocative efficiency__ is {@{a state of the economy in which production is aligned with the preferences of consumers and producers}@}; in particular, {@{the set of outputs is chosen}@} so as to {@{maximize the [social welfare](economic%20surplus.md) of society}@}.<sup>[\[1\]](#^ref-1)</sup> This is achieved if {@{every produced good or service has a [marginal benefit](marginal%20utility.md) equal to the [marginal cost](marginal%20cost.md) of production}@}.
 
 ## description
 

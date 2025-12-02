@@ -65,7 +65,7 @@ Note that {@{min-cut and max-cut}@} are {@{_not_ [dual](linear%20programming.md#
 
 ## sparsest cut
 
-{@{The __sparsest cut problem__}@} is to {@{bipartition the vertices}@} so as to {@{minimize the ratio of the number of edges across the cut divided by the number of vertices in the smaller half of the partition}@}. {@{This objective function}@} favors {@{solutions that are both sparse (few edges crossing the cut) and balanced (close to a bisection)}@}. The problem is {@{known to be NP-hard}@}, and {@{the best known approximation algorithm}@} is {@{an $O({\sqrt {\log n} })$ approximation due to [Arora, Rao & Vazirani (2009)](#^ref-8)}@}.<sup>[\[8\]](#^ref-8)</sup>
+{@{The __sparsest cut problem__}@} is to {@{bipartition the vertices}@} so as to {@{minimize the ratio of the number of edges across the cut}@} divided by {@{the number of vertices in the smaller half of the partition}@}. {@{This objective function}@} favors {@{solutions that are both sparse (few edges crossing the cut) and balanced (close to a bisection)}@}. The problem is {@{known to be NP-hard}@}, and {@{the best known approximation algorithm}@} is {@{an $O({\sqrt {\log n} })$ approximation due to [Arora, Rao & Vazirani (2009)](#^ref-8)}@}.<sup>[\[8\]](#^ref-8)</sup>
 
 ## cut space
 

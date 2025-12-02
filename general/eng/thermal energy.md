@@ -9,7 +9,7 @@ tags:
 
 # thermal energy
 
-The term __"thermal energy"__ is {@{used loosely in various contexts in [physics](physics.md) and [engineering](engineering.md), generally related to the [kinetic energy](kinetic%20energy.md) of vibrating and colliding [atoms](atom.md) in a substance}@}.
+The term __"thermal energy"__ is {@{used loosely in various contexts in [physics](physics.md) and [engineering](engineering.md)}@}, generally related to {@{the [kinetic energy](kinetic%20energy.md) of vibrating and colliding [atoms](atom.md) in a substance}@}.
 
 ## references
 

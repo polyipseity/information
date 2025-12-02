@@ -25,7 +25,7 @@ The first step in all the branches is {@{the fusion of two [protons](proton.md) 
 
 - 1st step / energy release ::@:: 0.42 MeV
 
-The [positron](positron.md) will {@{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md). Including this annihilation and the energy of the neutrino}@}, the net reaction {@{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV }$$}@}, which is the same as the [PEP reaction](#the%20PEP%20reaction). The relative amounts of energy {@{going to the neutrino and to the other products is variable}@}.
+{@{The [positron](positron.md)}@} will {@{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md)}@}. Including {@{this annihilation and the energy of the neutrino}@}, the net reaction {@{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV }$$}@}, which is {@{the same as the [PEP reaction](#the%20PEP%20reaction)}@}. {@{The relative amounts of energy}@} going to {@{the neutrino and to the other products is variable}@}.
 
 - 1st step + annihilation / energy release ::@:: 1.442 MeV
 

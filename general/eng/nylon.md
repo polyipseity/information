@@ -17,9 +17,9 @@ tags:
 
 ### nomenclature
 
-One number indicates {@{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}@}.
+{@{One number}@} indicates {@{a homopolymer}@} based on {@{one type of [amino acid](amino%20acid.md)}@} with {@{the specified number of [carbons](carbon.md)}@}.
 
-Two numbers indicate {@{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}@}.
+{@{Two numbers}@} indicate {@{a dyadic homopolymer}@} based on {@{one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md)}@}. {@{The first number}@} indicates {@{the number of [carbons](carbon.md) in the diamine}@}, while {@{the second one indicates in the dicarboxylic acid}@}.
 
 ## properties
 

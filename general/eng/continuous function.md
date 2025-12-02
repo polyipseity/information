@@ -19,7 +19,7 @@ tags:
 
 #### continuity at a point
 
-There are {@{several ways}@} to define whether a function is _continuous_ at a point. The most common one {@{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}@}.
+There are {@{several ways}@} to define {@{whether a function is _continuous_ at a point}@}. The most common one is {@{in terms of [limits](limit%20of%20a%20function.md)}@}. {@{A function $f$ is continuous at a point $c$}@} iff {@{$\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}@}.
 
 > [!tip] tips
 >
@@ -29,13 +29,13 @@ There are {@{several ways}@} to define whether a function is _continuous_ at a p
 
 #### global continuity
 
-There are {@{several incompatible definitions}@} of the (global) continuity of a function, depending on the nature of its domain.
+There are {@{several incompatible definitions}@} of {@{the (global) continuity of a function}@}, depending on {@{the nature of its domain}@}.
 
-A function is continuous on an open [interval](interval%20(mathematics).md) {@{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}@}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {@{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}@}.
+A function is {@{continuous on an open [interval](interval%20(mathematics).md)}@} if {@{the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}@}. A function is {@{continuous on a semi-open or closed [interval](interval%20(mathematics).md)}@} if {@{the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval}@}, and {@{the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}@}.
 
-A function that {@{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}@}, is _continuous everywhere_. It is also {@{often simply called a continuous function}@}. Sometimes, a function that {@{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}@} is also called a continuous function, but it is {@{not continuous everywhere}@}. For example, {@{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}@}, which are continuous in its domain. In {@{contexts interested in the partial functions' behavior near exceptional points}@}, they are called _discontinuous functions_ instead, confusingly.
+A function that {@{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}@}, is {@{_continuous everywhere_}@}. It is also {@{often simply called a continuous function}@}. Sometimes, a function that is {@{continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}@} is also {@{called a continuous function}@}, but it is {@{not continuous everywhere}@}. For example, {@{[partial functions](partial%20function.md)}@} that have {@{a domain of all reals except at [isolated points](isolated%20point.md)}@}, which are {@{continuous in its domain}@}. In {@{contexts interested in the partial functions' behavior near exceptional points}@}, they are called {@{_discontinuous functions_ instead, confusingly}@}.
 
-A __discontinuous function__ is {@{a function that is _not continuous_. By this definition, a function is either continuous or discontinuous}@}.
+{@{A __discontinuous function__}@} is {@{a function that is _not continuous_}@}. By this definition, a function is {@{either continuous or discontinuous}@}.
 
 > [!tip] tips
 >

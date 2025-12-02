@@ -145,7 +145,7 @@ Since {@{efficient priority queue data structures require O\(log _n_\) time per 
 If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time%20complexity.md#linear%20time) \(O\(_n_\)\) method to create a Huffman tree using two [queues](queue%20(abstract%20data%20type).md)}@}, the first one {@{containing the initial weights \(along with pointers to the associated leaves\), and combined weights \(along with pointers to the trees\) being put in the back of the second queue}@}. This assures that {@{the lowest weight is always kept at the front of one of the two queues}@}:
 
 1. Start with {@{as many leaves as there are symbols}@}.
-2. Enqueue {@{all leaf nodes into the first queue}@} \(by {@{probability in increasing order so that the least likely item is in the head of the queue}@}\).
+2. Enqueue {@{all leaf nodes into the first queue}@} \(by {@{probability in increasing order}@} so that {@{the least likely item is in the head of the queue}@}\).
 3. While {@{there is more than one node}@} in the queues:
     1. Dequeue {@{the two nodes with the lowest weight by examining the fronts of both queues}@}. (annotation: It is possible that {@{the two nodes are from the same queue}@}, so {@{the first two nodes of each queue should be inspected}@}.)
     2. Create {@{a new internal node, with the two just-removed nodes as children \(either node can be either child\)}@} and {@{the sum of their weights as the new weight}@}.

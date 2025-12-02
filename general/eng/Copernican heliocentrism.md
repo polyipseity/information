@@ -22,11 +22,11 @@ The model uses ideas such as:
 - [apparent retrograde motion](apparent%20retrograde%20motion.md) ::@:: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets.
 - [stars](star.md) ::@:: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md).
 
-The model has several advantages: {@{simpler and more elegant}@}, and naturally explains several phenomenons: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is not without disadvantages: {@{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}@}, and {@{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}@}.
+The model has {@{several advantages}@}: {@{simpler and more elegant}@}, and naturally {@{explains several phenomenons}@}: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md)}@}, changing {@{brightness of planets}@}, and motion of {@{[inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is {@{not without disadvantages}@}: {@{not more accurate than old models}@} \(due to {@{the incorrect assumption of perfectly circular orbits}@}\), and {@{[Earth](Earth.md) needs to move in very high speed}@}, which is {@{generally thought to be improbable at the time}@}.
 
 ## Copernican theory
 
-The Copernican order of spheres {@{from the [Sun](Sun.md) outward}@} is:
+{@{The Copernican order of spheres}@} {@{from the [Sun](Sun.md) outward}@} is:
 
 ```Python
 # pytextgen generate data

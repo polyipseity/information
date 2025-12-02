@@ -101,7 +101,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
 > - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{1 - \zeta^2}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
-> - initial properties: {@{$A_{\text{max} } = \sqrt{A_0^2 + \left(\frac {v_0 + \lambda A} \omega \right)^2}$}@} is {@{the _maximum_ [amplitude](amplitude.md)}@} and {@{$\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$}@} is {@{the initial phase}@}
+> - initial properties: {@{$A_{\text{max} } = \sqrt{A_0^2 + \left(\frac {v_0 + \lambda A_0} \omega \right)^2}$}@} is {@{the _maximum_ [amplitude](amplitude.md)}@} and {@{$\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A_0}\omega, A_0\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A_0\right)$}@} is {@{the initial phase}@}
 
 <!-- markdownlint MD028 -->
 

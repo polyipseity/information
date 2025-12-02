@@ -8,7 +8,7 @@ tags:
 
 # marginalism
 
-__Marginalism__ is {@{a theory of [economics](economics.md)}@} that {@{attempts to explain the discrepancy in the value of goods and services by reference to their secondary, or marginal, utility}@}. It states that {@{the reason why the price of diamonds is higher than that of water}@}, for example, owes to {@{the greater additional satisfaction of the diamonds over the water}@}. Thus, while {@{the water has greater total utility, the diamond has greater [marginal utility](marginal%20utility.md)}@}.
+__Marginalism__ is {@{a theory of [economics](economics.md)}@} that {@{attempts to explain the discrepancy in the value of goods and services}@} by {@{reference to their secondary, or marginal, utility}@}. It states that {@{the reason why the price of diamonds is higher than that of water}@}, for example, owes to {@{the greater additional satisfaction of the diamonds over the water}@}. Thus, while {@{the water has greater total utility, the diamond has greater [marginal utility](marginal%20utility.md)}@}.
 
 Although {@{the central concept of marginalism is that of marginal utility}@}, marginalists, following the lead of [Alfred Marshall](Alfred%20Marshall.md), drew upon {@{the idea of [marginal physical productivity](marginal%20product.md) in explanation of [cost](cost.md)}@}. The [neoclassical](neoclassical%20economics.md) tradition that emerged from [British](United%20Kingdom%20of%20Great%20Britain%20and%20Ireland.md) marginalism {@{abandoned the concept of [utility](utility.md) and gave [marginal rates of substitution](marginal%20rate%20of%20substitution.md) a more fundamental role in analysis}@}. Marginalism is an integral part of {@{[mainstream economic](mainstream%20economics.md) theory}@}.
 
