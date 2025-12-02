@@ -55,7 +55,7 @@ The row sums are $1,1,3,13,73,501,4051,37633,\dots$ (sequence [A000262](https://
 
 Let {@{$x^{(n)}$ represent the [rising factorial](falling%20and%20rising%20factorials.md) $x(x+1)(x+2)\cdots (x+n-1)$}@} and let {@{$(x)_{n}$ represent the [falling factorial](falling%20and%20rising%20factorials.md) $x(x-1)(x-2)\cdots (x-n+1)$}@}. The Lah numbers are {@{the coefficients that express each of these families of polynomials in terms of the other}@}. Explicitly, {@{$$x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}$$and$$(x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$$}@} (annotation: The change of basis to the falling factorials uses {@{unsigned while that to the rising factorials uses signed}@}.)
 
-For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {red}1}x(x-1)(x-2)$$and$$x(x-1)(x-2)={\color {red}6}x-{\color {red}6}x(x+1)+{\color {red}1}x(x+1)(x+2),$$}@} where {@{the coefficients 6, 6, and 1 are exactly the Lah numbers $L(3,1)$, $L(3,2)$, and $L(3,3)$}@}.
+For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {red}1}x(x-1)(x-2)$$ and $$x(x-1)(x-2)={\color {red}6}x-{\color {red}6}x(x+1)+{\color {red}1}x(x+1)(x+2),$$}@} where {@{the coefficients 6, 6, and 1}@} are {@{exactly the Lah numbers $L(3,1)$, $L(3,2)$, and $L(3,3)$}@}.
 
 ## identities and relations
 

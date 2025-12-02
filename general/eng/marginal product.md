@@ -14,7 +14,7 @@ tags:
 >
 > {@{Average physical product \(APP\), marginal physical product \(MPP\)}@}
 
-In {@{[economics](economics.md) and in particular [neoclassical economics](neoclassical%20economics.md)}@}, {@{the __marginal product__ or __marginal physical productivity__}@} of {@{an input \([factor of production](factor%20of%20production.md)\)}@} is {@{the change in output resulting from employing one more unit of a particular input}@} \(for instance, {@{the change in output when a firm's labor is increased from five to six units}@}\), {@{assuming that the quantities of other inputs are kept constant}@}.<sup>[\[1\]](#^ref-1)</sup>
+In {@{[economics](economics.md) and in particular [neoclassical economics](neoclassical%20economics.md)}@}, {@{the __marginal product__ or __marginal physical productivity__}@} of {@{an input \([factor of production](factor%20of%20production.md)\)}@} is {@{the change in output resulting from employing one more unit of a particular input}@} \(for instance, {@{the change in output when a firm's labor is increased from five to six units}@}\), assuming that {@{the quantities of other inputs are kept constant}@}.<sup>[\[1\]](#^ref-1)</sup>
 
 {@{The marginal product of a given input}@} can be expressed<sup>[\[2\]](#^ref-2)</sup> as: <p> {@{$$MP={\frac {\Delta Y}{\Delta X} }$$}@} where {@{$\Delta X$ is the change in the firm's use of the input \(conventionally a one-unit change\) and $\Delta Y$ is the change in the quantity of output produced \(resulting from the change in the input\)}@}. Note that {@{the quantity $Y$ of the "product"}@} is typically {@{defined ignoring [external costs and benefits](externalities.md)}@}.
 

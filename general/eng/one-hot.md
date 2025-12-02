@@ -24,7 +24,7 @@ tags:
 | {@{6}@}                     | {@{110}@}                          | {@{00111111}@}                             | {@{01000000}@} |
 | {@{7}@}                     | {@{111}@}                          | {@{01111111}@}                             | {@{10000000}@} |
 
-In {@{[digital circuits](digital%20circuits.md) and [machine learning](machine%20learning.md)}@}, {@{a __one-hot__}@} is {@{a group of [bits](bit.md) among which the legal combinations of values are only those with a single high \(1\) bit and all the others low \(0\)}@}.<sup>[\[1\]](#^ref-1)</sup> {@{A similar implementation in which all bits are '1' except one '0'}@} is sometimes called {@{__one-cold__}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[statistics](statistics.md)}@}, {@{[dummy variables](dummy%20variable%20(statistics).md)}@} represent {@{a similar technique for representing [categorical data](categorical%20data.md)}@}.
+In {@{[digital circuits](digital%20circuits.md) and [machine learning](machine%20learning.md)}@}, {@{a __one-hot__}@} is {@{a group of [bits](bit.md)}@} among which {@{the legal combinations of values are only those with a single high \(1\) bit and all the others low \(0\)}@}.<sup>[\[1\]](#^ref-1)</sup> {@{A similar implementation in which all bits are '1' except one '0'}@} is sometimes called {@{__one-cold__}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[statistics](statistics.md)}@}, {@{[dummy variables](dummy%20variable%20(statistics).md)}@} represent {@{a similar technique for representing [categorical data](categorical%20data.md)}@}.
 
 ## applications
 

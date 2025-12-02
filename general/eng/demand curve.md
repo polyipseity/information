@@ -11,7 +11,7 @@ tags:
 
 > {@{![An example of a demand curve shifting.](../../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
-> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@}
+> {@{An example of a demand curve shifting}@}. {@{_D1_ and _D2_}@} are {@{alternative positions of the demand curve}@}, {@{_S_}@} is {@{the supply curve}@}, and {@{_P_ and _Q_}@} are {@{price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@}
 
 A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [inverse demand function](inverse%20demand%20function.md)}@},<sup>[\[1\]](#^ref-1)</sup> {@{a relationship between the price of a certain [commodity](commodity.md) \(the _y_-axis\)}@} and {@{the quantity of that commodity that is demanded at that price \(the _x_-axis\)}@}. {@{Demand curves}@} can be used either for {@{the price-quantity relationship for an individual consumer \(an __individual demand curve__\)}@}, or for {@{all consumers in a particular market \(a __market demand curve__\)}@}.
 
@@ -124,7 +124,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 >
 > {@{Derived demand}@}
 
-The demand for goods can be further divorced into {@{the demand markets for final and [intermediate goods](intermediate%20good.md)}@}. An intermediate good is {@{a good utilized in the process of creating another good, effectively named the [final good](final%20good.md)}@}.<sup>[\[17\]](#^ref-17)</sup> It is important to note that {@{the cooperation of several inputs in many circumstances yields a final good}@} and thus {@{the demand for these goods is _derived_ from the demand of the final product}@}; this concept is {@{known as [derived demand](derived%20demand.md)}@}.<sup>[\[18\]](#^ref-18)</sup> {@{The relationship between the intermediate goods and the final good}@} is {@{direct and positive as demand for a final product increases demand for the intermediate goods used to make it}@}.
+The demand for goods can be further divorced into {@{the demand markets for final and [intermediate goods](intermediate%20good.md)}@}. An intermediate good is {@{a good utilized in the process of creating another good, effectively named the [final good](final%20good.md)}@}.<sup>[\[17\]](#^ref-17)</sup> It is important to note that {@{the cooperation of several inputs in many circumstances yields a final good}@} and thus {@{the demand for these goods is _derived_ from the demand of the final product}@}; this concept is {@{known as [derived demand](derived%20demand.md)}@}.<sup>[\[18\]](#^ref-18)</sup> {@{The relationship between the intermediate goods and the final good}@} is {@{direct and positive}@} as {@{demand for a final product increases demand for the intermediate goods used to make it}@}.
 
 In order to {@{construct a derived demand curve}@}, {@{specific assumptions must be made and values held constant}@}. {@{The supply curves for other inputs, demand curve for the final good, and production conditions}@} must all be held constant to {@{ascertain an effective derived demand curve}@}.<sup>[\[18\]](#^ref-18)</sup>
 

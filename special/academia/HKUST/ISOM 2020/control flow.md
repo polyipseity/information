@@ -46,7 +46,7 @@ else:
 
 {@{The semantics of `if...elif...else`}@} can be found by {@{considering the semantics of chaining `if...else`}@}: {@{The statement block after the first `true` condition}@} is {@{executed}@}. If there are {@{no `true` conditions}@}, {@{the statement block after `else` is executed}@} if {@{there is an `else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `true` condition \(inclusive\)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `true` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `else` statement block if there is one}@}.
 
-If {@{there are no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example:
+If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example:
 
 ```Python
 if condition:
@@ -72,7 +72,7 @@ Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}.
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}.
 
-If {@{there are no statements to be executed in a `for`-iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example:
+If there are {@{no statements to be executed in a `for`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example:
 
 ```Python
 for loop_variables in iterable:
@@ -92,7 +92,7 @@ while condition:
 
 The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}.
 
-If {@{there are no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example:
+If there are {@{no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example:
 
 ```Python
 while condition:

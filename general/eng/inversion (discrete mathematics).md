@@ -22,7 +22,7 @@ In {@{[computer science](computer%20science.md) and [discrete mathematics](discr
 <!-- markdownlint-disable-next-line MD024 -->
 ### inversion
 
-Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__ of $\pi$ between $i$ and $j$}@} if {@{$i<j$ and $\pi (i)>\pi (j)$}@}. The inversion is indicated by {@{an ordered pair containing either the places $(i,j)$<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> or the elements ${\bigl (}\pi (i),\pi (j){\bigr )}$}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup>
+Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__ of $\pi$ between $i$ and $j$}@} if {@{$i<j$ and $\pi (i)>\pi (j)$}@}. The inversion is indicated by {@{an ordered pair}@} containing {@{either the places $(i,j)$<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> or the elements ${\bigl (}\pi (i),\pi (j){\bigr )}$}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup>
 
 {@{The [inversion set](#example%20all%20permutations%20of%20four%20elements)}@} is {@{the set of all inversions}@}. {@{A permutation's inversion set using place-based notation}@} is {@{the same as the [inverse permutation's](permutation.md#definition) inversion set using element-based notation}@} with {@{the two components of each ordered pair exchanged}@}. Likewise, {@{a permutation's inversion set using element-based notation}@} is {@{the same as the inverse permutation's inversion set using place-based notation}@} with {@{the two components of each ordered pair exchanged}@}.<sup>[\[6\]](#^ref-6)</sup>
 

@@ -67,7 +67,7 @@ When {@{average cost is declining as output increases}@}, {@{marginal cost is le
 
 1. {@{The Average Fixed Cost curve \(AFC\)}@} starts {@{from a height and goes on declining continuously as production increases}@}.
 2. {@{The Average Variable Cost curve, Average Cost curve and the Marginal Cost curve}@} start {@{from a height, reach the minimum points, then rise sharply and continuously}@}.
-3. {@{The Average Fixed Cost curve}@} {@{approaches zero asymptotically}@}. {@{The Average Variable Cost curve}@} is {@{never parallel to or as high as the Average Cost curve}@} due to {@{the existence of positive Average Fixed Costs at all levels of production}@}; but {@{the Average Variable Cost curve asymptotically approaches the Average Cost curve from below}@}.
+3. {@{The Average Fixed Cost curve}@} {@{approaches zero asymptotically}@}. {@{The Average Variable Cost curve}@} is {@{never parallel to or as high as the Average Cost curve}@} due to {@{the existence of positive Average Fixed Costs at all levels of production}@}; but {@{the Average Variable Cost curve}@} {@{asymptotically approaches the Average Cost curve from below}@}.
 4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves}@}, though {@{the Average Variable Cost curve}@} attains {@{the minimum point prior to that of the Average Cost curve}@}.
 
 ## see also
