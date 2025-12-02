@@ -184,7 +184,7 @@ The content is in teaching order.
 - [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, pianist, singer; first jazz composer to notate jazz
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized)
-  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz
+  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythm commonly used in jazz and pop Music; essential rhythm found in early jazz
   - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories...
@@ -677,7 +677,7 @@ The content is in teaching order.
 - [Chick Corea](../../../../general/Chick%20Corea.md) \(1941–2021\) ::@:: He was an American jazz pianist, composer, bandleader and occasional percussionist. <p> As a member of Miles Davis's band in the late 1960s, he participated in the birth of jazz fusion. In the 1970s he formed Return to Forever. <p> He has won 28 Grammy Awards and was nominated 72 times for the award.
   - Chick Corea / works ::@:: "Spain" \(1973\) — Chick Corea
 - [bass guitar](../../../../general/bass%20guitar.md) ::@:: It is the lowest-pitched member of the guitar family. It is similar in appearance and construction to an electric but with a longer neck and scale length.
-  - bass guitar / Jaco Pastorius ::@:: It was definitely a rhythms section instrument. <p> Then in the mid-1970s, Jaco Pastorius changed it forever...
+  - bass guitar / Jaco Pastorius ::@:: It was definitely a rhythm section instrument. <p> Then in the mid-1970s, Jaco Pastorius changed it forever...
 - [Jaco Pastorius](../../../../general/Jaco%20Pastorius.md) \(1951–1987\) ::@:: He was from Florida. He was killed in a fight trying to get into a club. <p> He was fully established as sole band bass player for the recording of _Heavy Weather_ \(Columbia, 1977\), which contained the Grammy-nominated hit "Birdland".
   - Jaco Pastorius / works ::@:: "Donna Lee" — Jaco Pastorius <br/> _Heavy Weather_ \(1977\) — Weather Report
 - [Mahavishnu Orchestra](../../../../general/Mahavishnu%20Orchestra.md) ::@:: It was a jazz fusion band formed in New York City in 1971, led by English guitarist John McLaughlin. <p> It made guitar a rock fusion instrument.

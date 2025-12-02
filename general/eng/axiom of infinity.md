@@ -63,7 +63,7 @@ This says that {@{_x_ is non-empty and for every element _y_ of _x_ there is ano
 
 ## independence
 
-The axiom of infinity cannot {@{be proved from the other axioms of ZFC if they are consistent}@}. \(To see why, note that {@{ZFC $\vdash$ Con\(ZFC − Infinity\) (annotation: ZFC implies the consistency of ZFC without the axiom of infinity) and use Gödel's [Second incompleteness theorem](Gödel's%20incompleteness%20theorems.md)}@}.\)
+{@{The axiom of infinity}@} cannot be {@{proved from the other axioms of ZFC if they are consistent}@}. \(To see why, note that {@{ZFC $\vdash$ Con\(ZFC − Infinity\)}@} \(annotation: {@{ZFC}@} implies {@{the consistency of ZFC without the axiom of infinity}@}\) and use {@{Gödel's [Second incompleteness theorem](Gödel's%20incompleteness%20theorems.md)}@}.\)
 
 {@{The negation of the axiom of infinity}@} cannot {@{be derived from the rest of the axioms of ZFC, if they are consistent}@}. \(This is tantamount to saying that {@{ZFC is consistent, if the other axioms are consistent}@}.\) Thus, {@{ZFC implies neither the axiom of infinity nor its negation and is compatible with either}@}.
 

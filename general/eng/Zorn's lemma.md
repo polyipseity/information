@@ -97,7 +97,7 @@ Because {@{_T_ contains at least one element}@}, and {@{that element contains at
 
 __\#2 - For every _x_, _y_ ∈ _I_, the sum _x_ + _y_ is in _I_.__
 
-Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. [Without loss of generality](without%20loss%20of%20generality.md), {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_, which shows that _x_ + _y_ is a member of _I_}@}.
+Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. {@{[Without loss of generality](without%20loss%20of%20generality.md)}@} {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_}@}, which shows that {@{_x_ + _y_ is a member of _I_}@}.
 
 __\#3 - For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_.__
 

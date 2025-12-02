@@ -15,7 +15,7 @@ __Allocative efficiency__ is {@{a state of the economy in which production is al
 
 In {@{[economics](economics.md)}@}, allocative efficiency entails {@{production at the point on the [production possibilities frontier](production–possibility%20frontier.md) that is optimal for society}@}.
 
-In {@{[contract theory](contract%20theory.md)}@}, allocative efficiency is achieved {@{in a contract in which the skill demanded by the offering party and the skill of the agreeing party are the same}@}.
+In {@{[contract theory](contract%20theory.md)}@}, {@{allocative efficiency is achieved}@} in a contract in which {@{the skill demanded by the offering party and the skill of the agreeing party}@} are {@{the same}@}.
 
 Resource allocation efficiency includes two aspects:
 

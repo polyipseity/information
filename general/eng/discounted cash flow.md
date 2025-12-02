@@ -134,7 +134,7 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 
 ## integrated future value
 
-To {@{address the lack of integration of the short and long term importance}@}, {@{value and risks associated with natural and social capital into the traditional DCF calculation}@}, companies are {@{valuing their environmental, social and governance \(ESG\) performance}@} through {@{an [Integrated Management](integrated%20management.md) approach to reporting}@}, that {@{expands DCF or Net Present Value to Integrated Future Value \(IntFV\)}@}.<sup>[\[16\]](#^ref-16)</sup>
+To {@{address the lack of integration}@} of {@{the short and long term importance, value and risks}@} associated with {@{natural and social capital}@} into {@{the traditional DCF calculation}@}, companies are valuing {@{their environmental, social and governance \(ESG\) performance}@} through {@{an [Integrated Management](integrated%20management.md) approach to reporting}@}, that expands {@{DCF or Net Present Value to Integrated Future Value \(IntFV\)}@}.<sup>[\[16\]](#^ref-16)</sup>
 
 This allows companies to {@{value their investments not just for their financial return}@} but also {@{the long term environmental and social return of their investments}@}. By {@{highlighting environmental, social and governance performance in reporting}@}, decision makers have the opportunity to {@{identify new areas for value creation that are not revealed through traditional financial reporting}@}. As an example, {@{the [social cost of carbon](social%20cost%20of%20carbon.md)}@} is {@{one value that can be incorporated into Integrated Future Value calculations}@} to {@{encompass the damage to society from greenhouse gas emissions that result from an investment}@}.
 

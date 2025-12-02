@@ -31,7 +31,7 @@ In most circumstances {@{the demand curve has a negative slope, and therefore sl
 
 For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup>
 
-The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup>
+The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation}@} can be converted to {@{the inverse equation}@} by {@{solving for P}@}: {@{$$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup>
 
 ### curvature
 
@@ -104,7 +104,7 @@ There is {@{movement _along_ a demand curve}@} when {@{a change in price causes 
 
 The elasticity of demand indicates {@{how sensitive the demand for a good is to a price change}@}. If {@{the elasticity's [absolute value](absolute%20value.md) is between zero and 1, demand is said to be inelastic}@}; if {@{it equals 1, demand is "unitary elastic"}@}; if {@{it is greater than 1, demand is elastic}@}. A small value—inelastic demand—implies that {@{changes in price have little influence on demand}@}. High elasticity indicates that {@{consumers will respond to a price rise by buying much less of the good}@}. For examples of elasticities of particular goods, see the article section, ["Selected price elasticities"](price%20elasticity%20of%20demand.md#selected%20price%20elasticities).
 
-The elasticity of demand usually will {@{vary depending on the price}@}. If {@{the demand curve is linear}@}, {@{demand is inelastic at high prices and elastic at low prices, with unitary elasticity somewhere in between}@}. There does exist {@{a family of demand curves with constant elasticity for all prices}@}. They have {@{the demand equation $Q=aP^{c}$, where _c_ is the elasticity of demand and _a_ is a parameter for the size of the market}@}. These demand curves are {@{smoothly curving with steep slopes for high values of price and gentle slopes for low values}@}.
+The elasticity of demand usually will {@{vary depending on the price}@}. If {@{the demand curve is linear}@}, {@{demand is inelastic at high prices and elastic at low prices, with unitary elasticity somewhere in between}@}. There does exist {@{a family of demand curves with constant elasticity for all prices}@}. They have {@{the demand equation $Q=aP^{c}$}@}, where {@{_c_ is the elasticity of demand and _a_ is a parameter for the size of the market}@}. These demand curves are {@{smoothly curving with steep slopes for high values of price and gentle slopes for low values}@}.
 
 ## taxes and subsidies
 

@@ -117,7 +117,7 @@ There are {@{three equivalent definitions}@} of the process.<sup>[\[40\]](#^ref-
 
 > {@{![The continuous time Markov chain is characterized by the transition rates, the derivatives with respect to time of the transition probabilities between states i and j.](../../archives/Wikimedia%20Commons/Intensities%20vs%20transition%20probabilities.svg)}@}
 >
-> {@{The continuous time Markov chain}@} is characterized by {@{the transition rates}@}, {@{the derivatives with respect to time of the transition probabilities between states i and j}@}.
+> {@{The continuous time Markov chain}@} is characterized by {@{the transition rates}@}, {@{the derivatives with respect to time}@} of {@{the transition probabilities between states i and j}@}.
 
 Let {@{$X_{t}$ be the random variable describing the state of the process at time _t_}@}, and assume {@{the process is in a state _i_ at time _t_}@}. Then, knowing {@{$X_{t}=i$, $X_{t+h}=j$ is independent of previous values $\left(X_{s}:s<t\right)$}@}, and as {@{_h_ → 0 for all _j_ and for all _t_}@}, <p> {@{$$\Pr(X(t+h)=j\mid X(t)=i)=\delta _{ij}+q_{ij}h+o(h),$$}@} where {@{$\delta _{ij}$ is the [Kronecker delta](Kronecker%20delta.md)}@}, using {@{the [little-o notation](big%20O%20notation.md#little-o%20notation)}@}. (annotation: It somewhat looks like {@{the definition of derivative if you divide both sides by $h$}@}...) The $q_{ij}$ can be seen as {@{measuring how quickly the transition from _i_ to _j_ happens}@}.
 
