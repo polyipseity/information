@@ -89,7 +89,7 @@ More formally, a commutative diagram is {@{a visualization of a diagram indexed 
 
 - a node ::@:: for every object in the index category, <!--SR:!2026-02-15,291,330!2026-01-13,264,330-->
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2027-04-24,564,310!2028-01-23,777,330-->
-- the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2026-01-24,274,330!2025-12-08,235,330-->
+- the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2026-01-24,274,330!2028-11-08,1066,350-->
 
 Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2028-10-18,1051,350!2026-01-26,276,330!2028-01-15,819,330-->
 

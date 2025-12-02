@@ -19,7 +19,7 @@ tags:
 
 ## examples
 
-- [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) ::@:: ![`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) <!--SR:!2025-12-08,234,270!2027-01-10,556,310-->
+- [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) ::@:: ![`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) <!--SR:!2027-08-27,627,270!2027-01-10,556,310-->
   - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) / note ::@:: It is using the direct method instead of indirect method, however... The format otherwise looks pretty good. <!--SR:!2027-10-05,773,330!2029-05-21,1262,350-->
 
 ## format

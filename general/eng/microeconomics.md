@@ -138,7 +138,7 @@ Competition acts as {@{a regulatory mechanism for market systems, with governmen
 
 The concept of "market type" is {@{different from the concept of "market structure"}@}. Nevertheless, there are {@{a variety of [types of markets](market%20(economics).md#types%20of%20markets)}@}. <!--SR:!2029-07-10,1361,350!2029-03-28,1280,350-->
 
-{@{The different market structures}@} produce {@{cost curves<sup>[\[23\]](#^ref-23)</sup> based on the type of structure present}@}. {@{The different curves}@} are developed based on {@{the costs of production}@}, specifically the graph contains {@{marginal cost, average total cost, average variable cost, average fixed cost}@}, and {@{marginal revenue, which is sometimes equal to the demand, average revenue, and price}@} in {@{a price-taking firm}@}. <!--SR:!2026-04-18,423,310!2026-03-19,362,270!2028-03-01,845,290!2025-12-08,26,378!2026-04-07,122,398!2026-04-18,132,398!2025-12-08,26,378-->
+{@{The different market structures}@} produce {@{cost curves<sup>[\[23\]](#^ref-23)</sup> based on the type of structure present}@}. {@{The different curves}@} are developed based on {@{the costs of production}@}, specifically the graph contains {@{marginal cost, average total cost, average variable cost, average fixed cost}@}, and {@{marginal revenue, which is sometimes equal to the demand, average revenue, and price}@} in {@{a price-taking firm}@}. <!--SR:!2026-04-18,423,310!2026-03-19,362,270!2028-03-01,845,290!2026-04-19,132,398!2026-04-07,122,398!2026-04-18,132,398!2026-04-19,132,398-->
 
 ### perfect competition
 

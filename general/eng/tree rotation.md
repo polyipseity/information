@@ -39,7 +39,7 @@ Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as sta
 >
 > {@{Pictorial description of how rotations are made.}@} <!--SR:!2025-12-20,279,330!2025-12-28,285,330-->
 
-When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2025-12-08,270,330!2026-06-23,403,310!2025-12-27,283,330!2025-12-15,276,330-->
+When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2029-04-22,1231,350!2026-06-23,403,310!2025-12-27,283,330!2025-12-15,276,330-->
 
 Consider the terminology of {@{__Root__ for the parent node of the subtrees to rotate}@}, {@{__Pivot__ for the node which will become the new parent node}@}, {@{__RS__ for the side of rotation and __OS__ for the opposite side of rotation}@}. For the root Q in the diagram above, __RS__ is C and __OS__ is P. Using these terms, the pseudo code for the rotation is: <!--SR:!2029-02-25,1187,350!2028-10-23,1089,350!2029-01-03,1147,350-->
 

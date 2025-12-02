@@ -134,7 +134,7 @@ In other words, {@{the expected payoff to the speculator at maturity}@} is: <p> 
 
 Thus, if {@{the speculators expect to profit}@}, {@{$E(S_{T})-K>0$ <br/> $E(S_{T})>K$ <br/> $E(S_{T})>F_{0}$}@}, as {@{$K=F_{0}$ when they enter the contract}@} <!--SR:!2026-01-02,67,310!2025-12-22,58,310!2025-12-19,55,310-->
 
-{@{This market situation}@}, where {@{$E(S_{T})>F_{0}$}@}, is referred to as {@{[normal backwardation](normal%20backwardation.md)}@}. {@{Forward/futures prices}@} {@{converge with the spot price at maturity}@}, as can be seen from {@{the previous relationships}@} by {@{letting T go to 0}@} \(see also {@{[basis](basis%20(options).md)}@}\); then {@{normal backwardation}@} implies that {@{futures prices for a certain maturity are increasing over time}@}. {@{The opposite situation}@}, where {@{$E(S_{T})<F_{0}$}@}, is referred to as {@{[contango](contango.md)}@}. Likewise, {@{contango}@} implies that {@{futures prices for a certain maturity are falling over time}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-08,43,290!2026-01-01,66,310!2025-12-18,54,310!2025-12-22,58,310!2025-12-21,57,310!2025-12-22,57,310!2025-12-28,63,310!2026-01-02,67,310!2025-12-23,58,310!2025-12-08,43,290!2025-12-25,60,310!2025-12-19,55,310!2026-01-02,67,310!2025-12-28,62,310!2025-12-22,57,310-->
+{@{This market situation}@}, where {@{$E(S_{T})>F_{0}$}@}, is referred to as {@{[normal backwardation](normal%20backwardation.md)}@}. {@{Forward/futures prices}@} {@{converge with the spot price at maturity}@}, as can be seen from {@{the previous relationships}@} by {@{letting T go to 0}@} \(see also {@{[basis](basis%20(options).md)}@}\); then {@{normal backwardation}@} implies that {@{futures prices for a certain maturity are increasing over time}@}. {@{The opposite situation}@}, where {@{$E(S_{T})<F_{0}$}@}, is referred to as {@{[contango](contango.md)}@}. Likewise, {@{contango}@} implies that {@{futures prices for a certain maturity are falling over time}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-05-27,170,310!2026-01-01,66,310!2025-12-18,54,310!2025-12-22,58,310!2025-12-21,57,310!2025-12-22,57,310!2025-12-28,63,310!2026-01-02,67,310!2025-12-23,58,310!2026-05-29,172,310!2025-12-25,60,310!2025-12-19,55,310!2026-01-02,67,310!2025-12-28,62,310!2025-12-22,57,310-->
 
 ## futures versus forwards
 
@@ -181,7 +181,7 @@ Note: if you look at {@{the [convenience yield](convenience%20yield.md) page}@},
 
 ### extensions to the forward pricing formula
 
-Suppose that {@{$FV_{T}(X)$}@} is {@{the time value of cash flows _X_ at the contract expiration time $T$}@}. {@{The [forward price](forward%20price.md)}@} is then given by {@{the formula}@}: {@{$$F_{t,T}=S_{t}e^{r(T-t)}-FV_{T}({\text{all cash flows over the life of the contract} })$$}@} <!--SR:!2025-12-22,57,310!2025-12-23,58,310!2026-01-02,67,310!2025-12-24,59,310!2025-12-08,43,290-->
+Suppose that {@{$FV_{T}(X)$}@} is {@{the time value of cash flows _X_ at the contract expiration time $T$}@}. {@{The [forward price](forward%20price.md)}@} is then given by {@{the formula}@}: {@{$$F_{t,T}=S_{t}e^{r(T-t)}-FV_{T}({\text{all cash flows over the life of the contract} })$$}@} <!--SR:!2025-12-22,57,310!2025-12-23,58,310!2026-01-02,67,310!2025-12-24,59,310!2026-05-30,173,310-->
 
 {@{The cash flows}@} can be in the form of {@{[dividends](dividend.md) from the asset}@}, or {@{costs of maintaining the asset}@}. <!--SR:!2025-12-27,62,310!2025-12-20,56,310!2025-12-22,58,310-->
 

@@ -34,7 +34,7 @@ Let {@{_J_ be a small category}@} and let {@{_C_<sup>_J_</sup> be the [category 
 If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equivalent: <!--SR:!2025-12-21,260,330-->
 
 - (annotation: cone) ::@:: ψ is a cone from _N_ to _F_ <!--SR:!2026-04-10,353,352!2026-01-26,290,330-->
-- (annotation: cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from Δ\(_N_\) to _F_ <!--SR:!2025-12-08,251,330!2026-04-06,350,352-->
+- (annotation: cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from Δ\(_N_\) to _F_ <!--SR:!2029-01-21,1140,350!2026-04-06,350,352-->
 - (annotation: cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(Δ ↓ _F_\) (annotation: note that this is actually a slice category, meaning the _F_ on the right is more accurately the functor that maps the only object in __1__ to the diagram _F_) <!--SR:!2027-06-10,600,310!2027-06-29,673,332-->
 
 {@{The dual statements}@} are also equivalent: <!--SR:!2026-01-29,292,330-->

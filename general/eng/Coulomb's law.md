@@ -97,7 +97,7 @@ For {@{a volume charge distribution \(such as charge within a bulk metal\)}@} wh
 
 ## Coulomb constant
 
-{@{The constant of proportionality, ${\frac {1}{4\pi \varepsilon _{0} } }$, in Coulomb's law}@}: {@{$$\mathbf {F} _{1}={\frac {q_{1}q_{2} }{4\pi \varepsilon _{0} } }{ {\hat {\mathbf {r} } }_{12} \over {|\mathbf {r} _{12}|}^{2} }$$}@} is {@{a consequence of historical choices for units}@}.<sup>[\[19\]](#^ref-19)</sup><sup>:&hairsp;4–2&hairsp;</sup> <!--SR:!2026-07-06,410,370!2025-12-08,216,320!2026-05-09,360,370-->
+{@{The constant of proportionality, ${\frac {1}{4\pi \varepsilon _{0} } }$, in Coulomb's law}@}: {@{$$\mathbf {F} _{1}={\frac {q_{1}q_{2} }{4\pi \varepsilon _{0} } }{ {\hat {\mathbf {r} } }_{12} \over {|\mathbf {r} _{12}|}^{2} }$$}@} is {@{a consequence of historical choices for units}@}.<sup>[\[19\]](#^ref-19)</sup><sup>:&hairsp;4–2&hairsp;</sup> <!--SR:!2026-07-06,410,370!2027-11-03,695,320!2026-05-09,360,370-->
 
 {@{The constant $\varepsilon _{0}$}@} is {@{the [vacuum electric permittivity](vacuum%20permittivity.md)}@}.<sup>[\[22\]](#^ref-22)</sup> Using {@{the [CODATA](CODATA.md) 2022 recommended value for $\varepsilon _{0}$}@},<sup>[\[23\]](#^ref-23)</sup> the Coulomb constant<sup>[\[24\]](#^ref-24)</sup> is {@{$$k_{\text{e} }={\frac {1}{4\pi \varepsilon _{0} } }=8.987\ 551\ 7862(14)\times 10^{9}\ \mathrm {N{\cdot }m^{2}{\cdot }C^{-2} }$$}@} <!--SR:!2026-05-08,359,370!2028-11-03,1079,370!2026-06-25,399,370!2025-12-11,203,290-->
 

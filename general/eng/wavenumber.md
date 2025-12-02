@@ -43,7 +43,7 @@ In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {@{
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md)}@} <!--SR:!2025-12-30,520,310!2027-08-22,1046,350!2025-12-08,17,325-->
+> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md)}@} <!--SR:!2025-12-30,520,310!2027-08-22,1046,350!2026-02-25,79,345-->
 
 ## references
 

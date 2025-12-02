@@ -49,7 +49,7 @@ Einstein notation can be {@{applied in slightly different ways}@}. Typically, {@
 In terms of {@{[covariance and contravariance of vectors](covariance%20and%20contravariance%20of%20vectors.md)}@}, <!--SR:!2026-01-01,67,310-->
 
 - upper indices ::@:: represent components of [contravariant vectors](covariance%20and%20contravariance%20of%20vectors.md) \([vectors](coordinate%20vector.md)\), <!--SR:!2025-12-31,66,310!2025-12-29,64,310-->
-- lower indices ::@:: represent components of [covariant](covariant%20vector.md) vectors \([covectors](covector.md)\). <!--SR:!2025-12-08,44,290!2025-12-24,60,310-->
+- lower indices ::@:: represent components of [covariant](covariant%20vector.md) vectors \([covectors](covector.md)\). <!--SR:!2026-06-03,177,310!2025-12-24,60,310-->
 
 They {@{transform contravariantly or covariantly}@}, respectively, with respect to {@{[change of basis](change%20of%20basis.md)}@}. <!--SR:!2025-12-31,66,310!2025-12-31,66,310-->
 

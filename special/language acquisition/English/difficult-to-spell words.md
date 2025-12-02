@@ -125,7 +125,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: \(v\_e\) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2030-03-08,1719,396-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: \(v\_s\) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2030-12-22,1938,344-->
 - [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions. <!--SR:!2025-12-12,142,413!2025-12-12,142,413-->
-- [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile. <!--SR:!2025-12-08,138,413!2028-01-24,778,433-->
+- [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile. <!--SR:!2028-01-25,778,433!2028-01-24,778,433-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: \(v\_r\) To do or offer to do something voluntarily. <!--SR:!2030-03-21,1819,392!2029-01-07,1369,372-->
 - [weigh](https://en.wiktionary.org/wiki/weigh) ::@:: \(w\_h\) To determine the weight of an object. <!--SR:!2025-12-19,139,416!2025-12-23,143,416-->
 - [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens. <!--SR:!2025-12-12,132,416!2025-12-13,133,416-->

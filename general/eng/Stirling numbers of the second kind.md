@@ -21,7 +21,7 @@ In [mathematics](mathematics.md), particularly in {@{[combinatorics](combinatori
 
 {@{The Stirling numbers of the first kind}@} may be characterized as {@{the numbers that arise when one expresses powers of an indeterminate _x_ in terms of the [falling factorials](falling%20and%20rising%20factorials.md)<sup>[\[3\]](#^ref-3)</sup> $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1).$$}@} (In particular, {@{(_x_)<sub>0</sub> = 1 because it is an [empty product](empty%20product.md)}@}.) <!--SR:!2028-05-16,977,330!2029-09-01,1375,350!2029-09-22,1392,350-->
 
-{@{Stirling numbers of the second kind}@} satisfy {@{the relation $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(x)_{k}=x^{n}.$$}@} <!--SR:!2025-12-08,312,330!2026-01-01,276,270-->
+{@{Stirling numbers of the second kind}@} satisfy {@{the relation $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(x)_{k}=x^{n}.$$}@} <!--SR:!2029-10-31,1423,350!2026-01-01,276,270-->
 
 ## notation
 
@@ -33,7 +33,7 @@ The notations used on this page for Stirling numbers are {@{not universal, and m
 
 - see: [Bell number](Bell%20number.md)
 
-Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2029-09-28,1397,350!2025-12-08,313,330!2029-05-31,1301,350!2028-02-29,915,330-->
+Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2029-09-28,1397,350!2029-11-07,1430,350!2029-05-31,1301,350!2028-02-29,915,330-->
 
 Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-08-12,1360,350!2026-12-01,560,310-->
 
@@ -159,7 +159,7 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### reduced Stirling numbers of the second kind
 
-Denote {@{the _n_ objects to partition}@} by {@{the integers 1, 2, ..., _n_}@}. Define {@{the reduced Stirling numbers of the second kind}@}, denoted {@{$S^{d}(n,k)$}@}, to be {@{the number of ways to partition the integers 1, 2, ..., _n_ into _k_ nonempty subsets}@} such that {@{all elements in each subset have pairwise distance at least _d_}@}. That is, for {@{any integers _i_ and _j_ in a given subset}@}, it is {@{required that $|i-j|\geq d$}@}. It has been shown that these numbers {@{satisfy $$S^{d}(n,k)=S(n-d+1,k-d+1),n\geq k\geq d$$ \(hence the name "reduced"\)}@}.<sup>[\[18\]](#^ref-18)</sup> \(annotation: This can be proved by {@{proving bases cases}@} and their connections to {@{the familiar Stirling numbers numbers of the second kind}@}, {@{derive a recurrence relation}@} \(simpler than you think, if you consider {@{adding a last element _n_}@}\), and then {@{prove by induction}@}.\) Observe \(both by {@{definition and by the reduction formula}@}\), that {@{$S^{1}(n,k)=S(n,k)$, the familiar Stirling numbers of the second kind}@}. <!--SR:!2025-12-08,312,330!2029-09-13,1383,350!2025-12-12,316,330!2027-09-23,804,330!2029-10-28,1421,350!2026-04-19,324,250!2025-12-25,108,290!2029-08-16,1365,350!2025-12-12,66,343!2025-12-27,82,363!2025-12-21,77,363!2025-12-21,77,363!2025-12-30,85,363!2026-01-07,92,363!2025-12-29,84,363!2026-01-08,93,363-->
+Denote {@{the _n_ objects to partition}@} by {@{the integers 1, 2, ..., _n_}@}. Define {@{the reduced Stirling numbers of the second kind}@}, denoted {@{$S^{d}(n,k)$}@}, to be {@{the number of ways to partition the integers 1, 2, ..., _n_ into _k_ nonempty subsets}@} such that {@{all elements in each subset have pairwise distance at least _d_}@}. That is, for {@{any integers _i_ and _j_ in a given subset}@}, it is {@{required that $|i-j|\geq d$}@}. It has been shown that these numbers {@{satisfy $$S^{d}(n,k)=S(n-d+1,k-d+1),n\geq k\geq d$$ \(hence the name "reduced"\)}@}.<sup>[\[18\]](#^ref-18)</sup> \(annotation: This can be proved by {@{proving bases cases}@} and their connections to {@{the familiar Stirling numbers numbers of the second kind}@}, {@{derive a recurrence relation}@} \(simpler than you think, if you consider {@{adding a last element _n_}@}\), and then {@{prove by induction}@}.\) Observe \(both by {@{definition and by the reduction formula}@}\), that {@{$S^{1}(n,k)=S(n,k)$, the familiar Stirling numbers of the second kind}@}. <!--SR:!2029-10-30,1422,350!2029-09-13,1383,350!2025-12-12,316,330!2027-09-23,804,330!2029-10-28,1421,350!2026-04-19,324,250!2025-12-25,108,290!2029-08-16,1365,350!2025-12-12,66,343!2025-12-27,82,363!2025-12-21,77,363!2025-12-21,77,363!2025-12-30,85,363!2026-01-07,92,363!2025-12-29,84,363!2026-01-08,93,363-->
 
 ## see also
 

@@ -19,7 +19,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 - see: [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)
 
-{@{Several different notations for Stirling numbers}@} are in use. {@{Ordinary (signed) __Stirling numbers of the first kind__}@} are commonly denoted: {@{$$s(n,k)\,.$$}@} <!--SR:!2027-12-22,879,330!2029-09-22,1395,350!2025-12-08,314,330-->
+{@{Several different notations for Stirling numbers}@} are in use. {@{Ordinary (signed) __Stirling numbers of the first kind__}@} are commonly denoted: {@{$$s(n,k)\,.$$}@} <!--SR:!2027-12-22,879,330!2029-09-22,1395,350!2029-11-11,1434,350-->
 
 {@{__Unsigned Stirling numbers of the first kind__}@}, which count {@{the number of [permutations](permutation.md) of _n_ elements with _k_ disjoint [cycles](cyclic%20permutation.md)}@}, are denoted: {@{$${\biggl [}{n \atop k}{\biggr ]}=c(n,k)=|s(n,k)|=(-1)^{n-k}s(n,k)\,$$}@} <!--SR:!2029-08-23,1369,350!2028-05-06,969,330!2028-02-04,898,330-->
 
@@ -53,7 +53,7 @@ Falling factorials define, {@{up to scaling, the same polynomials as [binomial c
 
 For example, {@{the sum of fourth powers of integers up to _n_ (this time with _n_ included)}@}, is: {@{$${\begin{aligned}\sum _{i=0}^{n}i^{4}&=\sum _{i=0}^{n}\sum _{k=0}^{4}{\biggl \{}{\!4\! \atop \!k\!}{\biggr \} }(i)_{k}=\sum _{k=0}^{4}{\biggl \{}{\!4\! \atop \!k\!}{\biggr \} }\sum _{i=0}^{n}(i)_{k}=\sum _{k=0}^{4}{\biggl \{}{\!4\! \atop \!k\!}{\biggr \} }{\frac {(n{+}1)_{k+1} }{k{+}1} }\\[10mu]&={\biggl \{}{\!4\! \atop \!1\!}{\biggr \} }{\frac {(n{+}1)_{2} }{2} }+{\biggl \{}{\!4\! \atop \!2\!}{\biggr \} }{\frac {(n{+}1)_{3} }{3} }+{\biggl \{}{\!4\! \atop \!3\!}{\biggr \} }{\frac {(n{+}1)_{4} }{4} }+{\biggl \{}{\!4\! \atop \!4\!}{\biggr \} }{\frac {(n{+}1)_{5} }{5} }\\[8mu]&={\frac {1}{2} }(n{+}1)_{2}+{\frac {7}{3} }(n{+}1)_{3}+{\frac {6}{4} }(n{+}1)_{4}+{\frac {1}{5} }(n{+}1)_{5}\,.\end{aligned} }$$}@} Here the Stirling numbers can be computed from {@{their definition as the number of partitions of 4 elements into _k_ non-empty unlabeled subsets}@}. <!--SR:!2028-09-16,1018,330!2026-06-25,369,250!2026-04-11,394,310-->
 
-In contrast, {@{the sum $\sum _{i=0}^{n}i^{k}$ in the standard basis}@} is {@{given by [Faulhaber's formula](Faulhaber's%20formula.md), which in general is more complicated}@}. <!--SR:!2029-10-07,1406,350!2025-12-08,314,330-->
+In contrast, {@{the sum $\sum _{i=0}^{n}i^{k}$ in the standard basis}@} is {@{given by [Faulhaber's formula](Faulhaber's%20formula.md), which in general is more complicated}@}. <!--SR:!2029-10-07,1406,350!2029-11-10,1433,350-->
 
 ## as inverse matrices
 
@@ -110,7 +110,7 @@ Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@
 
 ## Stirling numbers with negative integral values
 
-The Stirling numbers can be {@{extended to negative integral values, but not all authors do so in the same way}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup><sup>[\[12\]](#^ref-12)</sup> Regardless of {@{the approach taken}@}, it is worth noting that {@{Stirling numbers of first and second kind are connected by the relations}@}: {@{$${\biggl [}{n \atop k}{\biggr ]}={\biggl \{}{\!-k\! \atop \!-n\!}{\biggr \} }\quad {\text{and} }\quad {\biggl \{}{\!n\! \atop \!k\!}{\biggr \} }={\biggl [}{-k \atop -n}{\biggr ]}$$}@} when {@{_n_ and _k_ are nonnegative integers}@}. So we have the following table for $\left[{-n \atop -k}\right]$: <!--SR:!2029-10-29,1424,350!2025-12-08,314,330!2029-04-09,1261,350!2028-06-10,947,330!2029-09-24,1396,350-->
+The Stirling numbers can be {@{extended to negative integral values, but not all authors do so in the same way}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup><sup>[\[12\]](#^ref-12)</sup> Regardless of {@{the approach taken}@}, it is worth noting that {@{Stirling numbers of first and second kind are connected by the relations}@}: {@{$${\biggl [}{n \atop k}{\biggr ]}={\biggl \{}{\!-k\! \atop \!-n\!}{\biggr \} }\quad {\text{and} }\quad {\biggl \{}{\!n\! \atop \!k\!}{\biggr \} }={\biggl [}{-k \atop -n}{\biggr ]}$$}@} when {@{_n_ and _k_ are nonnegative integers}@}. So we have the following table for $\left[{-n \atop -k}\right]$: <!--SR:!2029-10-29,1424,350!2029-11-12,1435,350!2029-04-09,1261,350!2028-06-10,947,330!2029-09-24,1396,350-->
 
 | _n_\\_k_ | __−1__ | __−2__ | __−3__ | __−4__ | __−5__ |
 | --------:| ------:| ------:| ------:| ------:| ------:|

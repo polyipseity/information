@@ -23,7 +23,7 @@ tags:
 > __flashcards__
 >
 > - __Common symbols__ ::@:: _q_ <!--SR:!2025-12-26,251,330!2026-02-05,282,330-->
-> - __[SI unit](SI%20unit.md)__ ::@:: [Coulomb](coulomb.md) \(C\) <!--SR:!2025-12-18,244,330!2025-12-08,235,330-->
+> - __[SI unit](SI%20unit.md)__ ::@:: [Coulomb](coulomb.md) \(C\) <!--SR:!2025-12-18,244,330!2028-11-11,1069,350-->
 > - __Other units__ ::@:: - [elementary charge](elementary%20charge.md) <br/> - [faraday](faraday%20constant.md) <br/> - [ampere-hour](ampere-hour.md) <!--SR:!2025-12-14,241,330!2026-01-31,277,330-->
 > - __In [SI base units](SI%20base%20unit.md)__ ::@:: A⋅s <!--SR:!2025-12-19,244,330!2026-02-14,290,330-->
 > - __[Extensive](intensive%20and%20extensive%20properties.md)?__ :@: yes <!--SR:!2026-01-29,275,330-->

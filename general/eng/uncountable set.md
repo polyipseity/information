@@ -17,7 +17,7 @@ In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [
 
 There are {@{many equivalent characterizations of uncountability}@}. A set _X_ is {@{uncountable if and only if any of the following conditions hold}@}: <!--SR:!2027-05-07,659,330!2028-03-01,874,330-->
 
-- injective function ::@:: There is no [injective function](injective%20function.md) \(hence no [bijection](bijection.md)\) from _X_ to the set of natural numbers. <!--SR:!2026-10-23,492,310!2025-12-08,270,330-->
+- injective function ::@:: There is no [injective function](injective%20function.md) \(hence no [bijection](bijection.md)\) from _X_ to the set of natural numbers. <!--SR:!2026-10-23,492,310!2029-04-21,1230,350-->
 - ω-sequence, surjective function ::@:: _X_ is nonempty and for every ω-[sequence](sequence.md) of elements of _X_, there exists at least one element of X not included in it. That is, _X_ is nonempty and there is no [surjective function](surjective%20function.md) from the natural numbers to _X_. <!--SR:!2026-06-28,403,310!2026-06-28,368,290-->
 - cardinality using not equal to ::@:: The [cardinality](cardinality.md) of _X_ is neither finite nor equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md)\). <!--SR:!2027-10-26,789,330!2027-05-25,673,330-->
 - cardinality using greater than ::@:: The set _X_ has cardinality strictly greater than $\aleph _{0}$. <!--SR:!2027-11-20,811,330!2027-08-01,724,330-->

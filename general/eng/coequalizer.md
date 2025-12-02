@@ -33,7 +33,7 @@ It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimo
 
 - {@{The coequalizer in the [category of groups](category%20of%20groups.md)}@} is {@{very similar}@}. Here {@{if _f_, _g_ : _X_ → _Y_ are [group homomorphisms](group%20homomorphism.md)}@}, their coequalizer is {@{the [quotient](quotient%20group.md) of _Y_ by the [normal closure](normal%20closure%20(group%20theory).md) of the set $$S=\{f(x)g(x)^{-1}\mid x\in X\}$$}@} <!--SR:!2025-12-20,255,330!2025-12-15,251,330!2025-12-17,252,330!2027-01-23,476,270-->
 
-- For {@{[abelian groups](abelian%20group.md)}@} {@{the coequalizer is particularly simple}@}. It is {@{just the [factor group](factor%20group.md) _Y_ / im\(_f_ – _g_\)}@}. \(This is {@{the [cokernel](cokernel.md) of the morphism _f_ – _g_}@}; see the next section\). (annotation: Think of {@{the cokernel in linear algebra}@} for better intuition.) <!--SR:!2027-05-16,586,310!2026-01-14,274,330!2026-04-23,324,290!2025-12-08,245,330!2026-01-13,273,330-->
+- For {@{[abelian groups](abelian%20group.md)}@} {@{the coequalizer is particularly simple}@}. It is {@{just the [factor group](factor%20group.md) _Y_ / im\(_f_ – _g_\)}@}. \(This is {@{the [cokernel](cokernel.md) of the morphism _f_ – _g_}@}; see the next section\). (annotation: Think of {@{the cokernel in linear algebra}@} for better intuition.) <!--SR:!2027-05-16,586,310!2026-01-14,274,330!2026-04-23,324,290!2028-12-27,1115,350!2026-01-13,273,330-->
 
 - In {@{the [category of topological spaces](category%20of%20topological%20spaces.md)}@}, {@{the circle object _S_<sup>1</sup>}@} can be viewed as {@{the coequalizer of the two inclusion maps from the standard 0-simplex to the standard 1-simplex}@}. <!--SR:!2026-09-09,435,310!2026-02-08,294,330!2026-05-08,325,270-->
 

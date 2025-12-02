@@ -767,7 +767,7 @@ Traits therefore provide {@{a flexible way}@} to {@{compose behavior}@}, enablin
 
 Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2026-08-21,260,330!2026-09-02,272,330!2026-08-26,264,330!2026-08-01,246,330!2026-07-31,246,330!2026-09-01,270,330!2026-08-05,250,330-->
 
-Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2025-12-08,65,310!2025-12-08,65,310!2026-08-19,259,330!2026-07-20,237,330!2026-08-03,248,330!2026-09-05,273,330-->
+Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2026-09-17,283,330!2026-09-19,285,330!2026-08-19,259,330!2026-07-20,237,330!2026-08-03,248,330!2026-09-05,273,330-->
 
 Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!2026-07-23,239,330!2026-08-29,268,330!2026-07-19,236,330!2025-12-10,67,310!2025-12-10,67,310!2026-08-25,265,330!2026-09-02,271,330!2026-08-27,266,330-->
 
@@ -1174,7 +1174,7 @@ Thus, {@{the _for_ notation}@} serves as a bridge between {@{functional programm
 
 ## definitions
 
-To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2026-08-07,251,330!2026-08-04,249,330!2026-09-08,276,330!2025-12-08,65,310!2025-12-09,66,310!2026-08-24,264,330!2026-09-04,272,330!2026-08-06,251,330!2025-12-08,65,310!2026-07-30,245,330!2026-09-07,276,330-->
+To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}. <!--SR:!2026-08-07,251,330!2026-08-04,249,330!2026-09-08,276,330!2026-09-16,282,330!2025-12-09,66,310!2026-08-24,264,330!2026-09-04,272,330!2026-08-06,251,330!2026-09-18,284,330!2026-07-30,245,330!2026-09-07,276,330-->
 
 Expressions can be {@{parameterized}@}. Use {@{`def <name>(<parm name 1>: <parm type 1>, ... <parm name N>: <parm type N>): <return type> = <expr>`}@}. {@{`<return type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. Expressions are evaluated by {@{replacing each occurrence of `<para name K>` by the actual parameters}@} when {@{the function is evaluated \(see [§ evaluation](#evaluation)\)}@}. <!--SR:!2026-08-05,250,330!2026-05-20,182,310!2026-09-11,278,330!2026-08-26,265,330!2025-12-09,66,310!2026-09-01,271,330-->
 
@@ -1245,7 +1245,7 @@ Repeated parameters are especially handy for {@{constructing collections without
 
 ## evaluation
 
-The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!2026-08-22,262,330!2026-08-11,255,330!2026-09-14,281,330!2025-12-08,65,310!2026-08-18,258,330-->
+The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!2026-08-22,262,330!2026-08-11,255,330!2026-09-14,281,330!2026-09-15,281,330!2026-08-18,258,330-->
 
 ### tail recursion
 

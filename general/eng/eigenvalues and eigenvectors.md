@@ -25,7 +25,7 @@ For {@{finite-[dimensional](dimension%20(vector%20space).md) [vector spaces](vec
 
 > [!tip] tips
 >
-> - geometric interpretation ::@:: Consider the action $\mathbf x \mapsto A \mathbf x$. (Right) eigenvectors $\mathbf x'$ of the [matrix](matrix%20(mathematics).md) $A$ are identified with lines through the origin that are parallel to the vectors and are sent to themselves or the set of zero $\set 0$ after the action: $$A \mathbf x' = \lambda \mathbf x'$$. Note that $\lambda$ can be zero. <!--SR:!2026-09-29,581,335!2025-12-08,410,375-->
+> - geometric interpretation ::@:: Consider the action $\mathbf x \mapsto A \mathbf x$. (Right) eigenvectors $\mathbf x'$ of the [matrix](matrix%20(mathematics).md) $A$ are identified with lines through the origin that are parallel to the vectors and are sent to themselves or the set of zero $\set 0$ after the action: $$A \mathbf x' = \lambda \mathbf x'$$. Note that $\lambda$ can be zero. <!--SR:!2026-09-29,581,335!2031-09-12,2104,395-->
 
 ## overview
 

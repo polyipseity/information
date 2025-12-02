@@ -48,7 +48,7 @@ When {@{the population mean and the population standard deviation are unknown}@}
 In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where: <!--SR:!2025-12-13,243,330-->
 
 - ${\bar {x} }$ ::@:: is the [mean](mean.md) of the sample, <!--SR:!2026-01-10,266,330!2025-12-15,245,330-->
-- _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2025-12-08,240,330!2025-12-17,247,330-->
+- _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2028-12-07,1095,350!2025-12-17,247,330-->
 
 Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2025-12-21,251,330!2025-12-25,252,330!2025-12-13,244,330!2025-12-16,246,330-->
 

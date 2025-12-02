@@ -72,7 +72,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 - In {@{the category __Ch<sub>_R_</sub>__ of chain complexes over a commutative ring _R_}@}, {@{the zero complex}@} is {@{a zero object}@}. <!--SR:!2027-04-12,522,406!2027-04-07,517,406!2027-03-31,511,406-->
 
-- In {@{a [short exact sequence](exact%20sequence.md) of the form 0 → _a_ → _b_ → _c_ → 0}@}, {@{the initial and terminal objects}@} are {@{the anonymous zero object}@}. This is used {@{frequently in [cohomology theories](cohomology.md)}@}. <!--SR:!2027-04-19,527,406!2027-04-16,525,406!2027-04-10,520,406!2025-12-08,125,395-->
+- In {@{a [short exact sequence](exact%20sequence.md) of the form 0 → _a_ → _b_ → _c_ → 0}@}, {@{the initial and terminal objects}@} are {@{the anonymous zero object}@}. This is used {@{frequently in [cohomology theories](cohomology.md)}@}. <!--SR:!2027-04-19,527,406!2027-04-16,525,406!2027-04-10,520,406!2027-10-11,672,415-->
 
 ## properties
 

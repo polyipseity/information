@@ -67,7 +67,7 @@ return await memorize_seq(
 > where
 >
 > - {@{$\gamma$}@} is {@{the [heat capacity ratio](heat%20capacity%20ratio.md)}@}
-> - {@{$r = \frac{V_1}{V_2}$}@} is {@{the [compression ratio](compression%20ratio.md)}@} \(i.e. {@{the ratio of the [volume](volume.md) at its maximum over that at its minimum}@}\) <!--SR:!2026-09-27,639,270!2026-01-27,526,310!2025-12-09,18,331!2025-12-09,18,331!2025-12-08,17,331!2026-02-21,76,351-->
+> - {@{$r = \frac{V_1}{V_2}$}@} is {@{the [compression ratio](compression%20ratio.md)}@} \(i.e. {@{the ratio of the [volume](volume.md) at its maximum over that at its minimum}@}\) <!--SR:!2026-09-27,639,270!2026-01-27,526,310!2025-12-09,18,331!2025-12-09,18,331!2026-02-27,81,351!2026-02-21,76,351-->
 
 ## references
 
