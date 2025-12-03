@@ -95,7 +95,7 @@ Note: not all assumptions that can be made for individual supply functions ::@::
 
 Significant determinants include:
 
-{@{__Complexity of production:__}@} Much depends on {@{the complexity of the production process}@}. Textile production is {@{relatively simple}@}. {@{The labor}@} is {@{largely unskilled}@} and {@{production facilities}@} are {@{little more than buildings}@}—{@{no special structures are needed}@}. Thus, {@{the PES for textiles is elastic}@}. On the other hand, the PES for {@{specific types of motor vehicles is relatively inelastic}@}. Auto manufacture is {@{a multi-stage process that requires specialized equipment, skilled labor, a large suppliers network and large R&D costs}@}.
+{@{__Complexity of production:__}@} Much depends on {@{the complexity of the production process}@}. Textile production is {@{relatively simple}@}. {@{The labor}@} is {@{largely unskilled}@} and {@{production facilities}@} are {@{little more than buildings}@}—{@{no special structures are needed}@}. Thus, {@{the PES for textiles is elastic}@}. On the other hand, the PES for {@{specific types of motor vehicles is relatively inelastic}@}. {@{Auto manufacture}@} is {@{a multi-stage process}@} that requires {@{specialized equipment, skilled labor, a large suppliers network and large R&D costs}@}.
 
 __Time to respond:__ ::@:: The more time a producer has to respond to price changes the more elastic the supply. For example, a cotton farmer cannot immediately respond to an increase in the price of soybeans.
 
