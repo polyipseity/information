@@ -49,11 +49,11 @@ According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five 
 
 ## price and value
 
-{@{The [paradox of value](paradox%20of%20value.md)}@} was {@{observed and debated by [classical economists](classical%20economics.md)}@}. {@{[Adam Smith](Adam%20Smith.md)}@} described {@{what is now called the _diamond – water paradox_}@}: {@{diamonds command a higher price than water}@}, yet {@{water is essential for life and diamonds are merely ornamentation}@}. {@{[Use value](use%20value.md)}@} was supposed to {@{give some measure of usefulness, later refined as [marginal benefit](marginal%20utility.md)}@} while {@{[exchange value](exchange%20value.md)}@} was {@{the measure of how much one good was in terms of another, namely what is now called [relative price](relative%20price.md)}@}.<!-- <sup>\[_[dubious](Wikipedia:Accuracy%20dispute.md#disputed%20statement) – [discuss](Talk:Price.md#dubious)_\]</sup> -->
+{@{The [paradox of value](paradox%20of%20value.md)}@} was {@{observed and debated by [classical economists](classical%20economics.md)}@}. {@{[Adam Smith](Adam%20Smith.md)}@} described {@{what is now called the _diamond – water paradox_}@}: {@{diamonds command a higher price than water}@}, yet {@{water is essential for life and diamonds are merely ornamentation}@}. {@{[Use value](use%20value.md)}@} was supposed to {@{give some measure of usefulness, later refined as [marginal benefit](marginal%20utility.md)}@} while {@{[exchange value](exchange%20value.md)}@} was {@{the measure of how much one good was in terms of another}@}, namely {@{what is now called [relative price](relative%20price.md)}@}.<sup>\[_[dubious](Wikipedia:Accuracy%20dispute.md#disputed%20statement) – [discuss](Talk:Price.md#dubious)_\]</sup>
 
 ### negative prices
 
-- see: [negative pricing](negative%20pricing.md), [2020 Russia–Saudi Arabia oil price war](2020%20Russia–Saudi%20Arabia%20oil%20price%20war.md)
+- see: ::@:: [negative pricing](negative%20pricing.md), [2020 Russia–Saudi Arabia oil price war](2020%20Russia–Saudi%20Arabia%20oil%20price%20war.md)
 
 {@{[Negative prices](negative%20pricing.md)}@} are {@{very unusual but possible under certain circumstances}@}. Effectively, {@{the owner or producer of an item}@} {@{pays the "buyer" to take it off their hands}@}.
 

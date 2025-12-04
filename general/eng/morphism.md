@@ -19,7 +19,7 @@ Morphisms and categories {@{recur in much of contemporary mathematics}@}. Origin
 
 A [category](category%20(mathematics).md) _C_ consists of {@{two [classes](class%20(set%20theory).md), one of objects and the other of morphisms}@}. There are {@{two objects that are associated to every morphism, the source and the target}@}. {@{A _morphism_ _f_ _from_ _X_ _to_ _Y_}@} is {@{a morphism with source _X_ and target _Y_}@}; it is commonly written as {@{_f_ : _X_ → _Y_ or $X \overset f \to Y$}@} the latter form {@{being better suited for [commutative diagrams](commutative%20diagram.md)}@}.
 
-For {@{many common categories}@}, objects are {@{[sets](set%20(mathematics).md) \(often with some additional structure\)}@} and morphisms are {@{[functions](function%20(mathematics).md) from an object to another object}@}. Therefore, {@{the source and the target of a morphism}@ are often called {@{domain and codomain respectively}@}.
+For {@{many common categories}@}, objects are {@{[sets](set%20(mathematics).md) \(often with some additional structure\)}@} and morphisms are {@{[functions](function%20(mathematics).md) from an object to another object}@}. Therefore, {@{the source and the target of a morphism}@} are often called {@{domain and codomain respectively}@}.
 
 Morphisms are {@{equipped with a [partial binary operation](binary%20operation.md#terminology), called composition}@}. {@{The composition of two morphisms _f_ and _g_}@} is {@{defined precisely when the target of _f_ is the source of _g_}@}, and is {@{denoted _g_ ∘ _f_ \(or sometimes simply _gf_\)}@}. The source of _g_ ∘ _f_ is {@{the source of _f_, and the target of _g_ ∘ _f_ is the target of _g_}@}. The composition {@{satisfies two [axioms](axiom.md): (annotation: they are identity, associativity)}@}
 
