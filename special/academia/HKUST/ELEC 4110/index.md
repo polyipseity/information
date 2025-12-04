@@ -652,7 +652,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 
 ## week 7 lecture
 
-- datetime: 2025-10-14T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- datetime: 2025-10-14T09:00:00+08:00/2025-10-14T10:20:00+08:00, PT1H20M
 - status: canceled; sickness
 
 ---
@@ -667,41 +667,92 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 
 ## week 7 lecture 2
 
-- datetime: 2025-10-16T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
-- topic: ???
+- datetime: 2025-10-16T09:00:00+08:00/2025-10-16T10:20:00+08:00, PT1H20M
+- topic: optimal receiver; noise vector; minimum distance decision rule; maximum likelihood decision rule
 - ELEC 4110
-  - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
     - [§ effects of bandwidth and power](M-ary%20transmission.md#effects%20of%20bandwidth%20and%20power)
+    - [§ optimal receiver](M-ary%20transmission.md#optimal%20receiver)
+    - [§ noise vector](M-ary%20transmission.md#noise%20vector)
+    - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
     - [§ decision regions](M-ary%20transmission.md#decision%20regions)
     - [§ maximum likelihood](M-ary%20transmission.md#maximum%20likelihood)
 
 ## week 7 tutorial
 
-- datetime: 2025-10-17T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
+- datetime: 2025-10-17T15:30:00+08:00/2025-10-17T16:20:00+08:00, PT50M
 - topic:
 
 ## week 8 lecture
 
-- datetime: 2025-10-21T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
+- datetime: 2025-10-21T09:00:00+08:00/2025-10-21T10:20:00+08:00, PT1H20M
+- topic: minimum distance decision rule; maximum likelihood decision rule; M-ary transmission error analysis; M-FSK; M-FSK error analysis
+- ELEC 4110
+  - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
+    - [§ decision regions](M-ary%20transmission.md#decision%20regions)
+    - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
+    - [§ maximum likelihood](M-ary%20transmission.md#maximum%20likelihood)
+    - [§ error analysis for minimum distance](M-ary%20transmission.md#error%20analysis%20for%20minimum%20distance)
+  - ELEC 4110 / [M-FSK](M-FSK.md)
+    - [§ waveforms](M-FSK.md#waveforms)
+    - [§ constellation](M-FSK.md#constellation)
+    - [§ error analysis](M-FSK.md#error%20analysis)
+
+## week 8 lecture 2
+
+- datetime: 2025-10-23T09:00:00+08:00/2025-10-23T10:20:00+08:00, PT1H20M
+- topic: M-FSK; M-FSK error analysis; M-FSK error bounds; M-QAM; M-QAM error analysis; M-QAM error bounds
+- ELEC 4110
+  - ELEC 4110 / [M-FSK](M-FSK.md)
+    - [§ error analysis](M-FSK.md#error%20analysis)
+    - [§ bit error probability](M-FSK.md#bit%20error%20probability)
+    - [§ symbol error probability bounds](M-FSK.md#symbol%20error%20probability%20bounds)
+    - [§ error analysis using simulation](M-FSK.md#error%20analysis%20using%20simulation)
+  - ELEC 4110 / [M-PSK](M-PSK.md)
+    - [§ waveforms](M-PSK.md#waveforms)
+    - [§ constellation](M-PSK.md#constellation)
+    - [§ special cases](M-PSK.md#special%20cases)
+    - [§ error analysis](M-PSK.md#error%20analysis)
+    - [§ symbol error probability bounds](M-PSK.md#symbol%20error%20probability%20bounds)
+    - [§ bit coding](M-PSK.md#bit%20coding)
+    - [§ bit error probability](M-PSK.md#bit%20error%20probability)
+  - ELEC 4110 / [M-QAM](M-QAM.md)
+    - [§ waveforms](M-QAM.md#waveforms)
+    - [§ constellation](M-QAM.md#constellation)
+    - [§ energy](M-QAM.md#energy)
+    - [§ error analysis](M-QAM.md#error%20analysis)
+    - [§ symbol error probability bounds](M-QAM.md#symbol%20error%20probability%20bounds)
+    - [§ bit coding](M-QAM.md#bit%20coding)
+    - [§ bit error probability](M-QAM.md#bit%20error%20probability)
+    - [§ comparison with M-PSK](M-QAM.md#comparison%20with%20M-PSK)
+
+## week 8 tutorial
+
+- datetime: 2025-10-24T15:30:00+08:00/2025-10-24T16:20:00+08:00, PT50M
 - topic:
+
+## week 9 lecture
+
+- datetime: 2025-10-28T09:00:00+08:00/2025-10-28T10:20:00+08:00, PT1H20M
+- topic: channel capacity; noisy-channel coding theorem; Shannon limit
 - [channel capacity](../../../../general/channel%20capacity.md) ::@:: It in electrical engineering, computer science, and information theory, is the theoretical maximum rate at which information can be reliably transmitted over a communication channel.
 - [Shannon–Hartley theorem](../../../../general/Shannon–Hartley%20theorem.md) ::@:: It tells the maximum rate at which information can be transmitted over a communications channel of a specified bandwidth in the presence of noise.
   - Shannon–Hartley theorem / noisy-channel coding theorem ::@:: It is an application of the noisy-channel coding theorem to the archetypal case of a continuous-time analog communications channel subject to Gaussian noise.
   - Shannon–Hartley theorem / conditions ::@:: The theorem establishes Shannon's channel capacity for such a communication link, a bound on the maximum amount of error-free information per time unit that can be transmitted with a specified bandwidth in the presence of the noise interference, assuming that the signal power is bounded, and that the Gaussian noise process is characterized by a known power or power spectral density.
   - Shannon–Hartley theorem / statement ::@:: It gives the maximum achievable data rate of a noisy channel: $$C=B\log_{2}\!\left(1+\frac{S}{N}\right)\quad(\text{bits/s}) \,,$$ where $B$ is the bandwidth (Hz), $S$ the average received signal power, and $N$ the noise power over that band.  The ratio $S/N$ is the linear signal-to-noise (or carrier-to-noise) ratio.  $C$ represents an upper bound on the net information rate—excluding any error-correction overhead—and holds for additive white Gaussian noise channels.
-    - Shannon–Hartley theorem / statement / noise ::@:: For AWGN of _two-sided_ PSD $N_0 / 2$, this means its _one-sided_ PSD is $N_0$, which is the noise power per frequency. The noise power over the bandwidth $B$ is then $N = N_0 B$.
-    - Shannon–Hartley theorem / statement / spectral efficiency ::@:: Rearranging the formula, we get _spectral efficiency_: $$\frac C B = \log_2\!\left(1+\frac{S}{N}\right)\quad(\text{bits/s/Hz}) \,.$$ We see to increase spectral efficiency, we have to increase the signal-to-noise power ratio $S / N$.
-    - Shannon–Hartley theorem / statement / energy efficiency ::@:: Often, when discussing _energy efficiency_, we use SNR per symbol $E_s / N_0$ or _SNR per bit_ $E_b / N_0$. Using the latter, we have: $$\frac {E_b} {N_0} = \frac {ST_b} {N / B} = \frac B C \frac S N = \frac B C \left(2^{C / B} - 1 \right) \,.$$
-    - Shannon–Hartley theorem / statement / Shannon limit ::@:: We want to find the minimum _SNR per bit_ $E_b / N_0$ for any useful bits to be transmitted. Using $$\frac {E_b} {N_0} = \frac B C \left(2^{C / B} - 1 \right) \,,$$ take the limit as $C / B \to 0$ \(approaching sending no data\), then we have $$\frac {E_b} {N_0} \to \frac 1 {\log_2 e} = \ln 2 \approx 0.693 \approx -1.59~\text{dB} \,.$$ That is, given AWGN noise of _two-sided_ PSD $N_0 / 2$, the above is the lowest SNR per bit possible for us to send any data through the channel.
+  - Shannon–Hartley theorem / noise ::@:: For AWGN of _two-sided_ PSD $N_0 / 2$, this means its _one-sided_ PSD is $N_0$, which is the noise power per frequency. The noise power over the bandwidth $B$ is then $N = N_0 B$.
+  - Shannon–Hartley theorem / spectral efficiency ::@:: Rearranging the formula, we get _spectral efficiency_: $$\eta := \frac C B = \log_2\!\left(1+\frac{S}{N}\right)\quad(\text{bits/s/Hz}) \,.$$ We see to increase spectral efficiency, we have to increase the signal-to-noise power ratio $S / N$. <p> The above gives an _upper bound_ for spectral efficiency $\eta$ given a fixed SNR $S / N$.
+  - Shannon–Hartley theorem / energy efficiency ::@:: Often, when discussing _energy efficiency_, we use SNR per symbol $E_s / N_0$ or _SNR per bit_ $E_b / N_0$. Using the latter, we have: $$\frac {E_b} {N_0} = \frac {ST_b} {N / B} = \frac B C \frac S N = \frac B C \left(2^{C / B} - 1 \right) = \frac {2^\eta - 1} {\eta} \,.$$ An alternative is directly using _SNR_ $S / N$: $$\frac {E_b} {N_0} = \frac {2^\eta - 1} {\eta} \implies \text{SNR} = \frac {E_b C} {N_0 B} = 2^\eta - 1 \,.$$ <p> The above gives an _lower bound_ for SNR or SNR per bit given a fixed spectral efficiency $\eta$. As a result, one may define the _normalized SNR_: $$\text{SNR}_{\text{norm} } = \frac {\text{SNR} } {2^\eta - 1}$$ to easily compare the _actual_ SNR with its lower bound.
+  - Shannon–Hartley theorem / Shannon limit ::@:: We want to find the minimum _SNR per bit_ $E_b / N_0$ for any useful bits to be transmitted. Using $$\frac {E_b} {N_0} = \frac {2^\eta - 1} {\eta} \,,$$ take the limit as $\eta \to 0$ \(approaching zero spectral efficiency, i.e. approaching sending no data\), then we have $$\frac {E_b} {N_0} \to \frac 1 {\log_2 e} = \ln 2 \approx 0.693 \approx -1.59~\text{dB} \,.$$ That is, given AWGN noise of _two-sided_ PSD $N_0 / 2$, the above is the lowest SNR per bit possible for us to send any data through the channel.
 
-## week 8 lecture 2
+## week 9 lecture 2
 
-- datetime: 2025-10-23T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
+- datetime: 2025-10-30T09:00:00+08:00/2025-10-30T10:20:00+08:00, PT1H20M
 - topic:
 
-## week 8 tutorial
+## week 9 tutorial
 
-- datetime: 2025-10-24T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
+- datetime: 2025-10-31T15:30:00+08:00/2025-10-31T16:20:00+08:00, PT50M
 - topic:
 
 ## aftermath
