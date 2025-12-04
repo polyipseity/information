@@ -1,0 +1,38 @@
+assignment:
+  comments: {}
+  content: 'Make an individual submission of a PDF file through Canvas with the following
+    information included:
+
+
+    Source code for a JUnit Test Case (with at least 2 tests)
+
+
+
+    Test report showing all the tests have been passed (100% successful)
+
+
+
+    Coverage report showing the coverage (10% or higher)'
+  grade:
+    entered: 2
+    graded anonymously: false
+    possible: 2
+  id: 396409
+  properties:
+    available:
+      end: 2025-11-14 23:59:00+08:00
+      start: null
+    due: 2025-11-14 23:59:00+08:00
+    file types:
+    - pdf
+    points: 2
+    submitting:
+    - a file upload
+  submissions:
+  - datetime: 2025-11-14 22:55:00+08:00
+    id: -1
+  title: Lab 7 Submission
+course:
+  id: 64514
+  name: COMP3111/H
+type: submission/Canvas/canvas.ust.hk
