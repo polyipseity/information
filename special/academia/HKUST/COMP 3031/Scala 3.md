@@ -159,7 +159,7 @@ When {@{a generic function is invoked}@}, the compiler examines {@{the concrete 
 >
 > The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}. <!--SR:!2026-04-07,137,420!2026-05-01,158,429!2026-04-20,148,429!2026-04-28,156,440!2026-04-26,154,440-->
 
-The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}: <!--SR:!2026-03-05,108,395!2026-04-18,147,429!2026-04-06,136,420!2026-04-04,134,420!2026-04-09,139,420-->
+The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}: <!--SR:!2026-03-05,108,395!2026-04-18,147,429!2026-04-06,136,420!2026-04-04,134,420!2026-04-09,139,420!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435-->
 
 > [!example]
 >
@@ -171,7 +171,7 @@ The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{T
 > left(1, true: AnyVal)  // `T` inferred as `AnyVal`
 > ```
 >
-> In {@{the first function call}@}, `T` is {@{inferred to be the union of `Int` and `Boolean`}@}. In {@{the second function call}@}, `T` is {@{inferred to be `AnyVal`}@}, which is {@{the _most specific_ common superclass of `Int` and `AnyVal`}@}. {@{The exact rules}@} are {@{complicated}@} and we {@{won't get into details here}@}.
+> In {@{the first function call}@}, `T` is {@{inferred to be the union of `Int` and `Boolean`}@}. In {@{the second function call}@}, `T` is {@{inferred to be `AnyVal`}@}, which is {@{the _most specific_ common superclass of `Int` and `AnyVal`}@}. {@{The exact rules}@} are {@{complicated}@} and we {@{won't get into details here}@}. <!--SR:!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435-->
 
 Inference is {@{not always possible}@}; if a function has {@{multiple polymorphic parameters whose types are interdependent}@} or if {@{no arguments provide enough information}@}, the programmer must {@{specify the type explicitly}@}. However, for {@{most common patterns—especially single-parameter generic functions}@}—the compiler can {@{resolve the type without assistance}@}. <!--SR:!2026-04-13,142,420!2026-04-27,154,429!2026-04-20,148,420!2026-04-15,144,429!2026-05-01,158,429!2026-04-24,152,429-->
 
@@ -306,11 +306,11 @@ Consider {@{covariance}@}: if {@{`C[+T]` is covariant}@}, then {@{`C[A] <: C[B]`
 
 Consider {@{contravariance}@}: if {@{`C[-T]` is contravariant}@}, then {@{`C[B] <: C[A]` for `A <: B`}@}. If `C[T]` had {@{a method that returns a `T`}@}, then `C[B]` would have {@{a method that returns a `B`}@}. However, since {@{`A <: B`}@}, this method could be {@{expected to return an `A`}@}, which violates the expectation that {@{`C[B]` only produces `B`}@}. Thus, allowing {@{contravariant types to appear in output positions}@} would also {@{break substitutability}@}. <!--SR:!2026-05-02,159,429!2026-04-02,132,415!2026-03-06,109,395!2026-04-27,154,429!2026-04-03,133,415!2026-04-20,148,429!2026-04-08,138,420!2026-04-15,144,429!2026-04-03,133,415!2026-04-11,140,415-->
 
-To check {@{variance in a class _definition_ `A` in general}@}, consider {@{the _possible variance_ a _type_ can have}@}. It can be {@{either invariant, covariant, or contravariant}@}.
+To check {@{variance in a class _definition_ `A` in general}@}, consider {@{the _possible variance_ a _type_ can have}@}. It can be {@{either invariant, covariant, or contravariant}@}. <!--SR:!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435-->
 
-{@{The types of `val`s in a class}@} \(and {@{method `def`s}@} are considered as {@{`val`s of the function type}@}\) are {@{covariant}@}. Then, {@{recursively evaluate the variance}@} of {@{the _inner types_ in types with type parameters}@}, e.g. {@{`T[X]`}@} where {@{`T[X]` has a known variance}@} and {@{the variance of `X` needs to be evaluated}@}. \(Note that {@{function types such as `X => Y`}@} are considered as {@{`Function1[X, Y]`}@}, so they are also {@{types with type parameters}@}.\) To {@{evaluate `X`}@}, inspect {@{the variance of the type parameter in the _definition_ of `T`}@}. If {@{`U` is invariant \(`U`\)}@}, then {@{`X` is invariant}@}. If {@{`U` is covariant \(`+U`\)}@}, then {@{`X` has the _same_ variance as `T[X]`}@}. If {@{`U` is contravariant \(`-U`\)}@}, then {@{`X` has the _opposite_ variance as `T[X]`}@}. {@{Recursively repeat this process}@} until {@{there are no more unevaluated inner types}@}.
+{@{The types of `val`s in a class}@} \(and {@{method `def`s}@} are considered as {@{`val`s of the function type}@}\) are {@{covariant}@}. Then, {@{recursively evaluate the variance}@} of {@{the _inner types_ in types with type parameters}@}, e.g. {@{`T[X]`}@} where {@{`T[X]` has a known variance}@} and {@{the variance of `X` needs to be evaluated}@}. \(Note that {@{function types such as `X => Y`}@} are considered as {@{`Function1[X, Y]`}@}, so they are also {@{types with type parameters}@}.\) To {@{evaluate `X`}@}, inspect {@{the variance of the type parameter in the _definition_ of `T`}@}. If {@{`U` is invariant \(`U`\)}@}, then {@{`X` is invariant}@}. If {@{`U` is covariant \(`+U`\)}@}, then {@{`X` has the _same_ variance as `T[X]`}@}. If {@{`U` is contravariant \(`-U`\)}@}, then {@{`X` has the _opposite_ variance as `T[X]`}@}. {@{Recursively repeat this process}@} until {@{there are no more unevaluated inner types}@}. <!--SR:!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435-->
 
-Finally, compare {@{the _possible variance_ a _type_ can have versus its _actual variance_}@}. For {@{types that are not type parameters of `A`}@}, we can {@{simply ignore them}@}. For {@{types that are type parameters of `A`}@}, check if {@{the type parameter variance is compatible with the possible variance}@}: {@{_possibly_ invariant type}@} is compatible with {@{invariant type parameters}@}, {@{_possibly_ covariant type}@} is compatible with {@{invariant or covariant type parameters}@}, and {@{_possibly_ contravariant type}@} is compatible with {@{invariant or contravariant type parameters}@}.
+Finally, compare {@{the _possible variance_ a _type_ can have versus its _actual variance_}@}. For {@{types that are not type parameters of `A`}@}, we can {@{simply ignore them}@}. For {@{types that are type parameters of `A`}@}, check if {@{the type parameter variance is compatible with the possible variance}@}: {@{_possibly_ invariant type}@} is compatible with {@{invariant type parameters}@}, {@{_possibly_ covariant type}@} is compatible with {@{invariant or covariant type parameters}@}, and {@{_possibly_ contravariant type}@} is compatible with {@{invariant or contravariant type parameters}@}. <!--SR:!2025-12-07,4,415!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435-->
 
 > [!example] __variance check__
 >
@@ -332,13 +332,13 @@ Finally, compare {@{the _possible variance_ a _type_ can have versus its _actual
 >   // val d3: A[T, U, V] => Unit = ???  // interesting...
 > ```
 >
-> {@{Commented out code}@} {@{fails to compile}@}. Try to {@{run the above algorithm}@} on this code.
+> {@{Commented out code}@} {@{fails to compile}@}. Try to {@{run the above algorithm}@} on this code. <!--SR:!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435!2025-12-09,6,435-->
 
 By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime` errors}@}. <!--SR:!2026-04-24,152,429!2026-05-02,159,429!2026-04-09,139,420-->
 
 ##### variance and inheritance
 
-{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2026-04-22,151,440!2026-05-04,161,440!2026-05-06,163,440!2026-03-16,113,420!2026-04-21,150,440-->
+{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2026-04-22,151,440!2026-05-04,161,440!2026-05-06,163,440!2026-03-16,113,420!2026-04-21,150,440!2025-12-09,6,435-->
 
 > [!example] __hierarchy__
 >
@@ -350,7 +350,7 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 > case class ChildCovariant[+T](v: T)        extends Parent[T]
 > // case class ChildContravariant[-T](v: T) extends Parent[T]  // ❌ compilation error
 > ```
-<!--SR:!2026-04-21,150,440!2026-04-27,155,440!2026-04-22,151,440!2026-04-29,157,440!2026-04-27,155,440-->
+<!--SR:!2026-04-21,150,440!2026-04-27,155,440!2026-04-22,151,440!2026-04-29,157,440!2026-04-27,155,440!2025-12-09,6,435-->
 
 We see:
 
@@ -1169,7 +1169,7 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```
 <!--SR:!2026-05-01,158,429!2026-04-07,137,420!2026-04-24,152,429-->
 
-{@{Another form of _for_}@} that has {@{a nested generator}@}: <!--SR:!2026-04-28,155,429-->
+{@{Another form of _for_}@} that has {@{a nested generator}@}: <!--SR:!2026-04-28,155,429!2025-12-09,6,435-->
 
 > [!example] __rewriting `for` nested generators__
 >
@@ -1184,7 +1184,7 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```Scala
 > e1.flatMap(x => for y <- e2; s yield e3)
 > ```
-<!--SR:!2026-04-22,150,429!2026-04-06,136,420-->
+<!--SR:!2026-04-22,150,429!2026-04-06,136,420!2025-12-09,6,435-->
 
 An example is {@{the prime-pair generator}@}: <!--SR:!2026-04-20,148,429-->
 
@@ -1295,7 +1295,7 @@ Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reus
 
 Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!2026-07-22,238,330!2026-07-31,246,330!2026-08-09,253,330!2026-08-20,260,330!2026-08-21,261,330!2026-07-24,240,330!2026-09-03,272,330-->
 
-Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!2026-06-12,190,310-->
+Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!2026-06-12,190,310!2025-12-09,6,435-->
 
 Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2025-12-10,67,310!2026-08-31,269,330!2025-12-09,66,310!2026-02-03,100,379!2025-12-13,56,350!2026-01-25,92,370-->
 

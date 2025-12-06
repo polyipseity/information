@@ -188,7 +188,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >
 > can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!2026-01-21,56,310!2026-02-07,71,329!2026-02-13,76,329!2026-02-13,76,329!2026-01-20,55,310-->
 
-{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!2026-01-22,57,310!2026-02-05,69,329!2026-01-23,58,310!2026-02-02,67,329-->
+{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!2026-01-22,57,310!2026-02-05,69,329!2026-01-23,58,310!2026-02-02,67,329!2025-12-10,5,351-->
 
 ### context bound
 

@@ -166,7 +166,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 ### fit
 
-Fit is when {@{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}@}. To {@{check fit}@}, {@{put two ticks on the pair}@} if there is {@{a matching pair in the customer profile and the value map}@}, and {@{cross out those without any matches}@}. A strong fit indicates {@{customer satisfaction, market differentiation, and value creation}@}. <!--SR:!2026-04-02,508,310!2031-03-06,1930,330!2027-03-28,763,345-->
+Fit is when {@{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}@}. To {@{check fit}@}, {@{put two ticks on the pair}@} if there is {@{a matching pair in the customer profile and the value map}@}, and {@{cross out those without any matches}@}. A strong fit indicates {@{customer satisfaction, market differentiation, and value creation}@}. <!--SR:!2026-04-02,508,310!2031-03-06,1930,330!2027-03-28,763,345!2025-12-10,4,330!2025-12-10,4,330!2025-12-10,4,330-->
 
 However, checking the fit on paper like above is {@{not enough}@}. Fit happens in three stages: {@{problem–solution fit, product–market fit, and business model fit}@}. To achieve these three fits requires {@{a nonlinear and iterative process}@}. Value proposition design allows quick {@{design, test, and repeat}@}. <!--SR:!2028-02-14,1083,349!2026-06-10,472,249!2031-03-14,1955,349!2027-06-24,897,330-->
 
@@ -269,10 +269,10 @@ conclusion: make progress
 
 ### test card
 
-When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270-->
+When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270!2025-12-10,4,330!2025-12-10,4,330!2025-12-10,4,330-->
 
-{@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2026-01-15,484,329-->
+{@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2026-01-15,484,329!2025-12-10,4,330!2025-12-10,4,330!2025-12-10,4,330!2025-12-10,4,330!2025-12-10,4,330-->
 
 ## evolve
 
-{@{Evolve}@} is {@{improving and reinvent yourself constantly}@}. <!--SR:!2026-07-25,632,329-->
+{@{Evolve}@} is {@{improving and reinvent yourself constantly}@}. <!--SR:!2026-07-25,632,329!2025-12-10,4,330-->

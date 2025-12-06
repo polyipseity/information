@@ -16,9 +16,9 @@ tags:
 
 ## definitions
 
-{@{An _[explicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$$, where $x$ is {@{an [independent variable](dependent%20and%20independent%29variables.md)}@}, $y(x)$ is {@{a [function](function%20(mathematics).md) of $x$}@}, $y^{(d)}(x)$ are {@{$d$-th [derivatives](derivative%20.md) of $y(x)$}@}, and $F$ is {@{a [formula](formula.md)}@}. <!--SR:!2028-01-12,1135,344-->
+{@{An _[explicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$$, where $x$ is {@{an [independent variable](dependent%20and%20independent%29variables.md)}@}, $y(x)$ is {@{a [function](function%20(mathematics).md) of $x$}@}, $y^{(d)}(x)$ are {@{$d$-th [derivatives](derivative%20.md) of $y(x)$}@}, and $F$ is {@{a [formula](formula.md)}@}. <!--SR:!2028-01-12,1135,344!2025-12-07,4,334!2025-12-07,4,334!2025-12-07,4,334!2025-12-07,4,334-->
 
-{@{An _[implicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using the same notations as above. <!--SR:!2028-01-30,1149,344-->
+{@{An _[implicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using the same notations as above. <!--SR:!2028-01-30,1149,344!2025-12-07,4,334-->
 
 ### classifications
 
@@ -61,31 +61,31 @@ Ordinary differential equations are furthered classified:
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
-> {@{An ODE}@} where $F$ {@{does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly}@}. <!--SR:!2032-03-10,2295,330-->
+> {@{An ODE}@} where $F$ {@{does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly}@}. <!--SR:!2032-03-10,2295,330!2025-12-07,4,334-->
 
 <!-- markdownlint MD028 -->
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
-> {@{An [linear](#^linear) ODE}@} where {@{there are no constant terms ($r(x)=0$)}@}. <!--SR:!2026-04-28,653,310-->
+> {@{An [linear](#^linear) ODE}@} where {@{there are no constant terms ($r(x)=0$)}@}. <!--SR:!2026-04-28,653,310!2025-12-07,4,334-->
 
 <!-- markdownlint MD028 -->
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
-> {@{An ODE where $F$}@} can be written as {@{a [linear combination](linear%20combination.md) of the derivatives of $y$}@} with {@{the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$}@}. {@{The constant term $r(x)$}@} is also called {@{the _source term_}@}. <!--SR:!2029-04-30,1481,310-->
+> {@{An ODE where $F$}@} can be written as {@{a [linear combination](linear%20combination.md) of the derivatives of $y$}@} with {@{the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$}@}. {@{The constant term $r(x)$}@} is also called {@{the _source term_}@}. <!--SR:!2029-04-30,1481,310!2025-12-07,4,334!2025-12-07,4,334!2025-12-07,4,334!2025-12-07,4,334-->
 
 <!-- markdownlint MD028 -->
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
-> {@{An [linear](#^linear) ODE}@} that is {@{not [homogeneous](#^homogeneous)}@}. <!--SR:!2027-09-27,1127,350-->
+> {@{An [linear](#^linear) ODE}@} that is {@{not [homogeneous](#^homogeneous)}@}. <!--SR:!2027-09-27,1127,350!2025-12-07,4,334-->
 
 <!-- markdownlint MD028 -->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
-> {@{An ODE}@} that is {@{not [linear](#^linear)}@}. <!--SR:!2027-06-12,1050,350-->
+> {@{An ODE}@} that is {@{not [linear](#^linear)}@}. <!--SR:!2027-06-12,1050,350!2025-12-07,4,334-->
 
 ### exact solutions
 
