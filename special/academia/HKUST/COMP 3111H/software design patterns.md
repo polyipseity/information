@@ -48,7 +48,7 @@ When {@{`fly()`}@} is {@{added to `Duck`}@}, all ducks—including those that {@
 
 ## principles
 
-A {@{key principle in design patter}@} is {@{"_Program to an interface, not an implementation_"}@}. Write {@{code that talks to abstractions (interfaces or abstract super‑types)}@} instead of {@{concrete classes}@}. {@{Abstractions}@} represent {@{aspects that stay the same}@}, while {@{concrete classes}@} represent {@{aspects that vary}@}. This keeps the {@{system flexible, maintainable, and extensible}@}.
+A {@{key principle in design pattern}@} is {@{"_Program to an interface, not an implementation_"}@}. Write {@{code that talks to abstractions (interfaces or abstract super‑types)}@} instead of {@{concrete classes}@}. {@{Abstractions}@} represent {@{aspects that stay the same}@}, while {@{concrete classes}@} represent {@{aspects that vary}@}. This keeps the {@{system flexible, maintainable, and extensible}@}.
 
 In the {@{SimUDuck example}@}, a duck's behaviors—{@{flying and quacking}@}—are {@{not hard‑coded}@} in the {@{base `Duck` class}@}. Instead: (annotation: 3 items: {@{interfaces, concrete classes, composition}@})
 
