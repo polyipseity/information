@@ -33,11 +33,18 @@ The content is in teaching order.
 
 ## children
 
+- [DSSS](DSSS.md)
 - [M-ary transmission](M-ary%20transmission.md)
 - [M-FSK](M-FSK.md)
 - [M-PSK](M-PSK.md)
 - [M-QAM](M-QAM.md)
+- [OFDM](OFDM.md)
 - [assignments](assignments/index.md)
+- [cellular network](cellular%20network.md)
+- [channel access method](channel%20access%20method.md)
+- [diversity scheme](diversity%20scheme.md)
+- [multipath propagation](multipath%20propagation.md)
+- [power control](power%20control.md)
 - [questions](questions.md)
 - [transcludes/Fourier transform](transcludes/Fourier%20transform.md)
 
@@ -478,7 +485,15 @@ The content is in teaching order.
 ## week 3 tutorial
 
 - datetime: 2025-09-19T15:30:00+08:00/2025-09-19T16:20:00+08:00, PT50M
-- topic:
+- topic: Fourier transform; transfer function; frequency response; impulse response
+- [§ week 1 lecture](#week%201%20lecture)
+- [§ week 2 lecture](#week%202%20lecture)
+- [transfer function](../../../../general/transfer%20function.md) ::@:: It of a system, sub-system, or component is a mathematical function that models the system's output for each possible input. It is widely used in electronic engineering tools like circuit simulators and control systems.
+  - transfer function / continuous-time LTI systems ::@:: For [continuous-time](../../../../general/continuous-time.md#continuous%20time) input signal $x(t)$ and output $y(t)$, dividing the Laplace transform of the output, $Y(s)={\mathcal {L} }\left\{y(t)\right\}$, by the Laplace transform of the input, $X(s)={\mathcal {L} }\left\{x(t)\right\}$, yields the system's transfer function $H(s)$: $$H(s)={\frac {Y(s)}{X(s)} }={\frac { {\mathcal {L} }\left\{y(t)\right\} }{ {\mathcal {L} }\left\{x(t)\right\} } }$$ which can be rearranged as: $$Y(s)=H(s)\;X(s)\,.$$
+- [frequency response](../../../../general/frequency%20response.md) ::@:: It of a system is the quantitative measure of the magnitude and phase of the output as a function of input frequency. The frequency response is widely used in the design and analysis of systems, such as audio equipment and control systems, where they simplify mathematical analysis by converting governing differential equations into algebraic equations.
+  - frequency response / transfer function ::@:: The frequency response is closely related to the [transfer function](../../../../general/transfer%20function.md) in linear systems, which is the [Laplace transform](../../../../general/Laplace%20transform.md) of the impulse response. They are equivalent when the real part $\sigma$ of the transfer function's complex variable $s=\sigma +j\omega$ is zero.
+- [impulse response](../../../../general/impulse%20response.md) ::@:: It of a [dynamic system](../../../../general/dynamic%20system.md) is its output when presented with a brief input signal, called an [impulse](../../../../general/Dirac%20delta%20function.md) \(δ\(_t_\)\). More generally, an impulse response is the reaction of any dynamic system in response to some external change.
+  - impulse response / transfer function ::@:: It is usually easier to analyze systems using [transfer functions](../../../../general/transfer%20function.md) as opposed to impulse responses. The transfer function is the [Laplace transform](../../../../general/Laplace%20transform.md) of the impulse response. The Laplace transform of a system's output may be determined by the multiplication of the transfer function with the input's Laplace transform in the [complex plane](../../../../general/complex%20plane.md), also known as the [frequency domain](../../../../general/frequency%20domain.md). An [inverse Laplace transform](../../../../general/inverse%20Laplace%20transform.md) of this result will yield the output in the [time domain](../../../../general/time%20domain.md).
 
 ## week 4 lecture
 
@@ -561,7 +576,13 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 4 tutorial
 
 - datetime: 2025-09-26T15:30:00+08:00/2025-09-26T16:20:00+08:00, PT50M
-- topic:
+- topic: binary modulation
+- [§ week 2 lecture 2](#week%202%20lecture%202)
+- [§ week 3 lecture](#week%203%20lecture)
+- [§ week 3 lecture 2](#week%203%20lecture%202)
+- [§ week 4 lecture](#week%204%20lecture)
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
 
 ## week 5 lecture
 
@@ -619,17 +640,22 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 5 tutorial
 
 - datetime: 2025-10-03T15:30:00+08:00/2025-10-03T16:20:00+08:00, PT50M
-- topic:
+- topic: signal space
+- [§ week 4 lecture 2](#week%204%20lecture%202)
+- [§ week 5 lecture](#week%205%20lecture)
+- ELEC 4110
+  - ELEC 4110 / [signal space](signal%20space.md)
 
 ## week 6 lecture
 
 - datetime: 2025-10-07T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
 - status: unscheduled; public holiday: Day after Mid-Autumn Festival
+- assignment: [homework 1](homework%201/index.md)
 
 ## week 6 lecture 2
 
 - datetime: 2025-10-09T09:00:00+08:00/2025-10-09T10:20:00+08:00, PT1H20M
-- topic: minimum distance decision rule; energy optimization; M-ary transmission implementation; M-FSK; M-pSK; M-QAM
+- topic: minimum distance decision rule; energy optimization; M-ary transmission implementation; M-FSK; M-pSK; M-QAM; decibel watt
 - ELEC 4110
   - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
     - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
@@ -644,11 +670,23 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
     - [§ M-PSK](M-ary%20transmission.md#M-PSK)
     - [§ M-QAM](M-ary%20transmission.md#M-QAM)
     - [§ peak-to-average power ratio](M-ary%20transmission.md#peak-to-average%20power%20ratio)
+- [decibel watt](../../../../general/decibel%20watt.md) (dBW) ::@:: It is a unit for the measurement of the strength of a signal expressed in decibels relative to one watt. It is used because of its capability to express both very large and very small values of power in a short range of number.
+  - decibel watt / examples ::@:: 1 milliwatt = −30 dBW, 1 watt = 0 dBW, 10 watts = 10 dBW, 100 watts = 20 dBW, and 1,000,000 W = 60 dBW
+  - decibel watt / formulas ::@:: $${\text{Power in dBW} }=10\log _{10}{\frac {\text{Power} }{1\mathrm {W} } }$$ and also $${\text{Power in W} }=10^{\frac {\text{Power in dBW} }{10} }$$ Compare dBW to [dBm](../../../../general/dBm.md), which is referenced to one milliwatt \(0.001 W\).
+- [dBm](../../../../general/dBm.md) ::@:: It is a unit of power level expressed using a logarithmic decibel (dB) scale respective to one milliwatt (mW). It is commonly used by radio, microwave and fiber-optical communication technicians & engineers to measure the power of system transmissions on a log scale, which can express both very large and very small values in a short form.
+  - dBm / vs. dBW ::@:: dBW is a similar unit measured relative to one watt (1000 mW) rather than a milliwatt.
+  - dBm / formulas ::@:: To express an arbitrary power _P_ in mW as _x_ in dBm, the following expression may be used: $${\begin{aligned}x&=10\log _{10}{\frac {P}{1~{\text{mW} } } }\end{aligned} }$$ Conversely, to express an arbitrary power level _x_ in dBm, as _P_ in mW: $${\begin{aligned}P&=1~{\text{mW} }\cdot 10^{ {x}/{10} }\end{aligned} }$$
 
 ## week 6 tutorial
 
 - datetime: 2025-10-10T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
-- topic:
+- topic: signal space; M-ary transmission
+- [§ week 5 lecture 2](#week%205%20lecture%202)
+- [§ week 6 lecture](#week%206%20lecture)
+- [§ week 6 lecture 2](#week%206%20lecture%202)
+- ELEC 4110
+  - ELEC 4110 / [signal space](signal%20space.md)
+  - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
 
 ## week 7 lecture
 
@@ -681,7 +719,16 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 7 tutorial
 
 - datetime: 2025-10-17T15:30:00+08:00/2025-10-17T16:20:00+08:00, PT50M
-- topic:
+- topic: M-ary transmission; M-FSK; M-PSK; M-QAM
+- [§ week 7 lecture](#week%207%20lecture)
+- [§ week 7 lecture 2](#week%207%20lecture%202)
+- [§ week 8 lecture](#week%208%20lecture)
+- [§ week 8 lecture 2](#week%208%20lecture%202)
+- ELEC 4110
+  - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
+  - ELEC 4110 / [M-FSK](M-FSK.md)
+  - ELEC 4110 / [M-PSK](M-PSK.md)
+  - ELEC 4110 / [M-QAM](M-QAM.md)
 
 ## week 8 lecture
 
@@ -729,31 +776,250 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 ## week 8 tutorial
 
 - datetime: 2025-10-24T15:30:00+08:00/2025-10-24T16:20:00+08:00, PT50M
-- topic:
+- topic: channel capacity; noisy-channel coding theorem; Shannon limit; multipath propagation; M-ary transmission; M-FSK; M-PSK; M-QAM
+- [§ week 8 lecture](#week%208%20lecture)
+- [§ week 8 lecture 2](#week%208%20lecture%202)
+- [§ week 9 lecture](#week%209%20lecture)
+- [§ week 9 lecture 2](#week%209%20lecture%202)
+- [channel capacity](../../../../general/channel%20capacity.md)
+- [Shannon–Hartley theorem](../../../../general/Shannon–Hartley%20theorem.md)
+  - Shannon–Hartley theorem / Shannon limit
+- ELEC 4110
+  - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
+  - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
+  - ELEC 4110 / [M-FSK](M-FSK.md)
+  - ELEC 4110 / [M-PSK](M-PSK.md)
+  - ELEC 4110 / [M-QAM](M-QAM.md)
 
 ## week 9 lecture
 
 - datetime: 2025-10-28T09:00:00+08:00/2025-10-28T10:20:00+08:00, PT1H20M
-- topic: channel capacity; noisy-channel coding theorem; Shannon limit
+- topic: channel capacity; noisy-channel coding theorem; Shannon limit; path loss; multipath propagation; multipath fading
 - [channel capacity](../../../../general/channel%20capacity.md) ::@:: It in electrical engineering, computer science, and information theory, is the theoretical maximum rate at which information can be reliably transmitted over a communication channel.
 - [Shannon–Hartley theorem](../../../../general/Shannon–Hartley%20theorem.md) ::@:: It tells the maximum rate at which information can be transmitted over a communications channel of a specified bandwidth in the presence of noise.
   - Shannon–Hartley theorem / noisy-channel coding theorem ::@:: It is an application of the noisy-channel coding theorem to the archetypal case of a continuous-time analog communications channel subject to Gaussian noise.
   - Shannon–Hartley theorem / conditions ::@:: The theorem establishes Shannon's channel capacity for such a communication link, a bound on the maximum amount of error-free information per time unit that can be transmitted with a specified bandwidth in the presence of the noise interference, assuming that the signal power is bounded, and that the Gaussian noise process is characterized by a known power or power spectral density.
   - Shannon–Hartley theorem / statement ::@:: It gives the maximum achievable data rate of a noisy channel: $$C=B\log_{2}\!\left(1+\frac{S}{N}\right)\quad(\text{bits/s}) \,,$$ where $B$ is the bandwidth (Hz), $S$ the average received signal power, and $N$ the noise power over that band.  The ratio $S/N$ is the linear signal-to-noise (or carrier-to-noise) ratio.  $C$ represents an upper bound on the net information rate—excluding any error-correction overhead—and holds for additive white Gaussian noise channels.
-  - Shannon–Hartley theorem / noise ::@:: For AWGN of _two-sided_ PSD $N_0 / 2$, this means its _one-sided_ PSD is $N_0$, which is the noise power per frequency. The noise power over the bandwidth $B$ is then $N = N_0 B$.
+  - Shannon–Hartley theorem / noise ::@:: For AWGN of _two-sided_ PSD $N_0 / 2$, this means its _one-sided_ PSD is $N_0$, which is the noise power per _nonnegative_ frequency. The noise power over the bandwidth $B$ is then $N = N_0 B$.
   - Shannon–Hartley theorem / spectral efficiency ::@:: Rearranging the formula, we get _spectral efficiency_: $$\eta := \frac C B = \log_2\!\left(1+\frac{S}{N}\right)\quad(\text{bits/s/Hz}) \,.$$ We see to increase spectral efficiency, we have to increase the signal-to-noise power ratio $S / N$. <p> The above gives an _upper bound_ for spectral efficiency $\eta$ given a fixed SNR $S / N$.
   - Shannon–Hartley theorem / energy efficiency ::@:: Often, when discussing _energy efficiency_, we use SNR per symbol $E_s / N_0$ or _SNR per bit_ $E_b / N_0$. Using the latter, we have: $$\frac {E_b} {N_0} = \frac {ST_b} {N / B} = \frac B C \frac S N = \frac B C \left(2^{C / B} - 1 \right) = \frac {2^\eta - 1} {\eta} \,.$$ An alternative is directly using _SNR_ $S / N$: $$\frac {E_b} {N_0} = \frac {2^\eta - 1} {\eta} \implies \text{SNR} = \frac {E_b C} {N_0 B} = 2^\eta - 1 \,.$$ <p> The above gives an _lower bound_ for SNR or SNR per bit given a fixed spectral efficiency $\eta$. As a result, one may define the _normalized SNR_: $$\text{SNR}_{\text{norm} } = \frac {\text{SNR} } {2^\eta - 1}$$ to easily compare the _actual_ SNR with its lower bound.
   - Shannon–Hartley theorem / Shannon limit ::@:: We want to find the minimum _SNR per bit_ $E_b / N_0$ for any useful bits to be transmitted. Using $$\frac {E_b} {N_0} = \frac {2^\eta - 1} {\eta} \,,$$ take the limit as $\eta \to 0$ \(approaching zero spectral efficiency, i.e. approaching sending no data\), then we have $$\frac {E_b} {N_0} \to \frac 1 {\log_2 e} = \ln 2 \approx 0.693 \approx -1.59~\text{dB} \,.$$ That is, given AWGN noise of _two-sided_ PSD $N_0 / 2$, the above is the lowest SNR per bit possible for us to send any data through the channel.
+- ELEC 4110
+  - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
+    - [§ fundamental limits](M-ary%20transmission.md#fundamental%20limits)
+    - [§ fundamental limits vs. modulation families](M-ary%20transmission.md#fundamental%20limits%20vs.%20modulation%20families)
+- [error correction code](../../../../general/error%20correction%20code.md) (ECC) ::@:: It is a technique used for controlling errors in data transmission over unreliable or noisy communication channels.
+  - error correction code / names ::@:: channel coding, error correction code (ECC), forward error correction (FEC)
+- [path loss](../../../../general/path%20loss.md) ::@:: It is the reduction in power density (attenuation) of an electromagnetic wave as it propagates through space.
+  - path loss / loss exponent ::@:: In the study of wireless communications, path loss can be represented by the path loss exponent, whose value is normally in the range of 2 to 4 (where 2 is for propagation in free space, 4 is for relatively lossy environments and for the case of full specular reflection from the earth surface—the so-called flat earth model). In some environments, such as buildings, stadiums and other indoor environments, the path loss exponent can reach values in the range of 4 to 6. On the other hand, a tunnel may act as a waveguide, resulting in a path loss exponent less than 2.
+    - path loss / loss exponent / formula ::@:: Path loss is usually expressed in [dB](../../../../general/decibel.md). In its simplest form, the path loss can be calculated using the formula $$L=10n\log _{10}(d)+C$$ where $L$ is the path loss in decibels, $n$ is the path loss exponent, $d$ is the distance between the transmitter and the receiver, usually measured in meters, and $C$ is a constant which accounts for system losses.
+  - path loss / radio engineer formula ::@:: Radio and antenna engineers use the following simplified formula \(derived from the [Friis Transmission Formula](../../../../general/Friis%20transmission%20equation.md)\) for the signal path loss between the feed points of two [isotropic](../../../../general/isotropic.md) antennas in free space: Path loss in [dB](../../../../general/decibel.md): $$L=20\log _{10}\left({\frac {4\pi d}{\lambda } }\right)$$ where $L$ is the path loss in decibels, $\lambda$ is the wavelength and $d$ is the transmitter-receiver distance in the same units as the wavelength.
+- ELEC 4110
+  - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
+    - [§ path loss](multipath%20propagation.md#path%20loss)
+    - [§ multipath fading](multipath%20propagation.md#multipath%20fading)
+    - [§ multipath fading model](multipath%20propagation.md#multipath%20fading%20model)
 
 ## week 9 lecture 2
 
 - datetime: 2025-10-30T09:00:00+08:00/2025-10-30T10:20:00+08:00, PT1H20M
-- topic:
+- topic: multipath propagation; multipath fading; delay spread; coherence bandwidth; frequency-flat fading; frequency-selective fading; Rayleigh fading
+- ELEC 4110
+  - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
+    - [§ multipath fading model](multipath%20propagation.md#multipath%20fading%20model)
+    - [§ delay spread](multipath%20propagation.md#delay%20spread)
+    - [§ coherence bandwidth](multipath%20propagation.md#coherence%20bandwidth)
+    - [§ frequency-flat fading](multipath%20propagation.md#frequency-flat%20fading)
+    - [§ frequency-selective fading](multipath%20propagation.md#frequency-selective%20fading)
+    - [§ Rayleigh fading](multipath%20propagation.md#Rayleigh%20fading)
+    - [§ Rayleigh fading model](multipath%20propagation.md#Rayleigh%20fading%20model)
+- assignment: [homework 2](homework%202/index.md)
 
 ## week 9 tutorial
 
 - datetime: 2025-10-31T15:30:00+08:00/2025-10-31T16:20:00+08:00, PT50M
-- topic:
+- topic: channel capacity; noisy-channel coding theorem; Shannon limit; multipath propagation
+- [§ week 9 lecture](#week%209%20lecture)
+- [§ week 9 lecture 2](#week%209%20lecture%202)
+- [channel capacity](../../../../general/channel%20capacity.md)
+- [Shannon–Hartley theorem](../../../../general/Shannon–Hartley%20theorem.md)
+  - Shannon–Hartley theorem / Shannon limit
+- ELEC 4110
+  - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
+
+## week 10 lecture
+
+- datetime: 2025-11-04T09:00:00+08:00/2025-11-04T10:20:00+08:00, PT1H20M
+- topic: multipath fading; Doppler spread; Doppler shift; coherence time; fast fading; slow fading; Doppler power spectral density; fading types; fading mitigations; Rayleigh fading error analysis
+- ELEC 4110
+  - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
+    - [§ multipath fading model](multipath%20propagation.md#multipath%20fading%20model)
+    - [§ Doppler spread](multipath%20propagation.md#Doppler%20spread)
+    - [§ Doppler shift](multipath%20propagation.md#Doppler%20shift)
+    - [§ coherence time](multipath%20propagation.md#coherence%20time)
+    - [§ Doppler power spectral density](multipath%20propagation.md#Doppler%20power%20spectral%20density)
+    - [§ Rayleigh fading Doppler power spectral density](multipath%20propagation.md#Rayleigh%20fading%20Doppler%20power%20spectral%20density)
+    - [§ fading types](multipath%20propagation.md#fading%20types)
+    - [§ fading mitigations](multipath%20propagation.md#fading%20mitigations)
+    - [§ Rayleigh fading error analysis](multipath%20propagation.md#Rayleigh520fading%20error%20analysis)
+
+## week 10 lecture 2
+
+- datetime: 2025-11-06T09:00:00+08:00/2025-11-06T10:20:00+08:00, PT1H20M
+- topic: fading mitigations; line-of-sight fading; power control; open-loop power control; closed-loop power control; diversity scheme; diversity; time diversity; frequency diversity; spatial diversity
+- ELEC 4110
+  - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
+    - [§ fading mitigations](multipath%20propagation.md#fading%20mitigations)
+    - [§ fading mitigation examples](multipath%20propagation.md#fading%20mitigation%20examples)
+    - [§ line-of-sight fading](multipath%20propagation.md#line-of-sight%20fading)
+    - [§ fading examples](multipath%20propagation.md#fading%20examples)
+  - ELEC 4110 / [power control](power%20control.md)
+    - [§ open-loop power control](power%20control.md#open-loop%20power%20control)
+    - [§ closed-loop power control](power%20control.md#closed-loop%20power%20control)
+    - [§ advantages and disadvantages](power%20control.md#advantages%20and%20disadvantages)
+    - [§ optimality](power%20control.md#optimality)
+  - ELEC 4110 / [diversity scheme](diversity%20scheme.md)
+    - [§ diversity](diversity%20scheme.md#diversity)
+    - [§ time and frequency diversity](diversity%20scheme.md#time%20and%20frequency%20diversity)
+    - [§ spatial diversity](diversity%20scheme.md#spatial%20diversity)
+    - [§ receiver-antenna diversity](diversity%20scheme.md#receiver-antenna%20diversity)
+    - [§ transmit-antenna diversity](diversity%20scheme.md#transmit-antenna%20diversity)
+
+## week 10 tutorial
+
+- datetime: 2025-11-07T15:30:00+08:00/2025-11-07T16:20:00+08:00, PT50M
+- topic: multipath propagation; diversity scheme
+- [§ week 10 lecture](#week%2010%20lecture)
+- [§ week 10 lecture 2](#week%2010%20lecture%202)
+- ELEC 4110
+  - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
+  - ELEC 4110 / [diversity scheme](diversity%20scheme.md)
+
+## week 11 lecture
+
+- datetime: 2025-11-11T09:00:00+08:00/2025-11-11T10:20:00+08:00, PT1H20M
+- topic: spatial diversity; space–time block code; diversity combining; selection combining; equal-gain combining; maximal-ratio combining
+- ELEC 4110
+  - ELEC 4110 / [diversity scheme](diversity%20scheme.md)
+    - [§ spatial diversity](diversity%20scheme.md#spatial%20diversity)
+    - [§ receiver-antenna diversity](diversity%20scheme.md#receiver-antenna%20diversity)
+    - [§ transmit-antenna diversity](diversity%20scheme.md#transmit-antenna%20diversity)
+    - [§ space–time block code](diversity%20scheme.md#space–time%20block%20code)
+    - [§ diversity combining](diversity%20scheme.md#diversity%20combining)
+    - [§ diversity combining error analysis](diversity%20scheme.md#diversity%20combining%20error%20analysis)
+    - [§ selection combining](diversity%20scheme.md#selection%20combining)
+    - [§ equal-gain combining](diversity%20scheme.md#equal-gain%20combining)
+    - [§ maximal-ratio combining](diversity%20scheme.md#maximal-ratio%20combining)
+
+## week 11 lecture 2
+
+- datetime: 2025-11-13T09:00:00+08:00/2025-11-13T10:20:00+08:00, PT1H20M
+- topic: diversity combining; selection combining; equal-gain combining; maximal-ratio combining; implementing diversity combining; direct-sequence spread spectrum; spread spectrum; spreading; despreading; DS-CDMA
+- ELEC 4110
+  - ELEC 4110 / [diversity scheme](diversity%20scheme.md)
+    - [§ diversity combining](diversity%20scheme.md#diversity%20combining)
+    - [§ selection combining](diversity%20scheme.md#selection%20combining)
+    - [§ equal-gain combining](diversity%20scheme.md#equal-gain%20combining)
+    - [§ maximal-ratio combining](diversity%20scheme.md#maximal-ratio%20combining)
+    - [§ implementing diversity combining](diversity%20scheme.md#implementing%20diversity%20combining)
+  - ELEC 4110 / [DSSS](DSSS.md)
+    - [§ spread spectrum](DSSS.md#spread%20spectrum)
+    - [§ spreading](DSSS.md#spreading)
+    - [§ spreading in time domain](DSSS.md#spreading%20in%20time%20domain)
+    - [§ spreading in frequency domain](DSSS.md#spreading%20in%20frequency%20domain)
+    - [§ despreading](DSSS.md#despreading)
+    - [§ advantages](DSSS.md#advantages)
+    - [§ DS-CDMA](DSSS.md#DS-CDMA)
+
+## week 11 tutorial
+
+- datetime: 2025-11-14T15:30:00+08:00/2025-11-14T16:20:00+08:00, PT50M
+- topic: homework 2
+- assignment: [homework 2](assignments/homework%202.md)
+
+## week 12 lecture
+
+- datetime: 2025-11-18T09:00:00+08:00/2025-11-18T10:20:00+08:00, PT1H20M
+- status: unscheduled; midterm examination
+- [§ midterm examination](#midterm%20examination)
+
+## midterm examination
+
+## week 12 lecture 2
+
+- datetime: 2025-11-20T09:00:00+08:00/2025-11-20T10:20:00+08:00, PT1H20M
+- topic: direct-sequence spread spectrum; spreading; despreading; DS-CDMA; pseudo-noise code; intersymbol inteference; effective SINR; rake receiver; DSSS implementation; rake receiver implementation; channel access method; time division multiple access; frequency division multiple access; code division multiple access; orthogonal resource partitioning
+- ELEC 4110
+  - ELEC 4110 / [DSSS](DSSS.md)
+    - [§ spreading](DSSS.md#spreading)
+    - [§ despreading](DSSS.md#despreading)
+    - [§ advantages](DSSS.md#advantages)
+    - [§ DS-CDMA](DSSS.md#DS-CDMA)
+    - [§ pseudo-noise code](DSSS.md#pseudo-noise%20code)
+    - [§ intersymbol interference](DSSS.md#intersymbol%20interference)
+    - [§ effective SINR](DSSS.md#effective%20SINR)
+    - [§ rake receiver](DSSS.md#rake%20receiver)
+    - [§ performance](DSSS.md#performance)
+    - [§ implementation](DSSS.md#implementation)
+    - [§ time and power considerations](DSSS.md#time%20and%20power%20considerations)
+    - [§ rake receiver architecture](DSSS.md#rake%20receiver%20architecture)
+    - [§ implementation with a single RF chain](DSSS.md#implementation%20with%20a%20single%20RF%20chain)
+  - ELEC 4110 / [channel access method](channel%20access%20method.md)
+    - [§ time division multiple access](channel%20access%20method.md#time%20division%20multiple%20access)
+    - [§ frequency division multiple access](channel%20access%20method.md#frequency%20division%20multiple%20access)
+    - [§ code division multiple access](channel%20access%20method.md#code%20division%20multiple%20access)
+    - [§ orthogonal resource partitioning](channel%20access%20method.md#orthogonal%20resource%20partitioning)
+    - [§ FDMA vs. TDMA](channel%20access%20method.md#FDMA%20vs.%20TDMA)
+
+## week 12 tutorial
+
+- datetime: 2025-11-21T15:30:00+08:0/2025-11-21T16:20:00+08:00, PT50M
+- topic: homework 3
+- assignment: [homework 3](assignments/homework%203.md)
+
+## week 13 lecture
+
+- datetime: 2025-11-25T09:00:00+08:00/2025-11-25T10:20:00+08:00, PT1H20M
+- topic: time division multiple access; frequency division multiple access; code division multiple access; deterministic CDMA; random CDMA; random access; cellular network; path loss in cellular network
+- ELEC 4110
+  - ELEC 4110 / [channel access method](channel%20access%20method.md)
+    - [§ time division multiple access](channel%20access%20method.md#time%20division%20multiple%20access)
+    - [§ frequency division multiple access](channel%20access%20method.md#frequency%20division%20multiple%20access)
+    - [§ hybrid FDMA/TDMA](channel%20access%20method.md#hybrid%20FDMA/TDMA)
+    - [§ code division multiple access](channel%20access%20method.md#code%20division%20multiple%20access)
+    - [§ FDMA vs. TDMA](channel%20access%20method.md#FDMA%20vs.%20TDMA)
+    - [§ deterministic CDMA](channel%20access%20method.md#deterministic%20CDMA)
+    - [§ random CDMA](channel%20access%20method.md#random%20CDMA)
+    - [§ effective SINR of random CDMA](channel%20access%20method.md#effective%20SINR%20of%20random%20CDMA)
+    - [§ random access](channel%20access%20method.md#random%20access)
+  - ELEC 4110 / [cellular network](cellular%20network.md)
+    - [§ path loss](channel%20access%20method.md#path%20loss)
+
+## week 13 lecture 2
+
+- datetime: 2025-11-27T09:00:00+08:00/2025-11-27T10:20:00+08:00, PT1H20M
+- topic: cellular network; history of cellular network; path loss in cellular network; cellular network architecture; cellular network frequency reuse; cellular network link budgeting; cellular network handover
+- ELEC 4110
+  - ELEC 4110 / [cellular network](cellular%20network.md)
+    - [§ history](cellular%20network.md#history)
+    - [§ path loss](cellular%20network.md#path%20loss)
+    - [§ architecture](cellular%20network.md#architecture)
+    - [§ principles](cellular%20network.md#principles)
+    - [§ frequency reuse](cellular%20network.md#frequency%20reuse)
+    - [§ link budgeting](cellular%20network.md#link%20budgeting)
+    - [§ handover](cellular%20network.md#handover)
+    - [§ handover examples](cellular%20network.md#handover%20examples)
+- [§ final examination](#final%20examination)
+- assignment: [homework 3](homework%203/index.md)
+- assignment: [project](project/index.md)
+
+## week 13 tutorial
+
+- datetime: 2025-11-28T15:30:00+08:00/2025-11-28T16:20:00+08:00, PT50M
+- topic: midterm examination
+- [§ midterm examination](#midterm-examination)
+
+## final examination
 
 ## aftermath
 
