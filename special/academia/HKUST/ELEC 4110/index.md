@@ -1017,7 +1017,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 
 - datetime: 2025-11-28T15:30:00+08:00/2025-11-28T16:20:00+08:00, PT50M
 - topic: midterm examination
-- [§ midterm examination](#midterm-examination)
+- [§ midterm examination](#midterm%20examination)
 
 ## final examination
 

@@ -519,11 +519,11 @@ In practice, {@{design classes}@} are described by {@{the syntax of the programm
 
 In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely coupled_ classes}@}, balancing {@{these often competing goals}@}. {@{The 7±2 rule}@} guides {@{acceptable coupling}@}. The rule—originating from {@{cognitive psychology's limits on working-memory capacity}@}—suggests that {@{a class or component}@} should expose {@{no more than seven (plus or minus two) other classes, modules, or interfaces}@}.
 
-{@{_Cohesion_}@} measures {@{how many distinct responsibilities a class bears}@}; {@{the most cohesive design}@} is {@{one that performs a single, well-defined function}@}. {@{_Coupling_}@} {@{counts and categorizes a class's dependencies on others}@}; {@{minimal, simple connections}@} yield {@{the lowest coupling}@}, reducing {@{interclass interference and enhancing maintainability}@}.
+{@{_Cohesion_}@} measures {@{how many distinct responsibilities a _class_ bears}@}; {@{the most cohesive design}@} is {@{one that performs a single, well-defined function}@}. {@{_Coupling_}@} {@{counts and categorizes a _class_'s dependencies on others}@}; {@{minimal, simple connections}@} yield {@{the lowest coupling}@}, reducing {@{interclass interference and enhancing maintainability}@}.
 
 ### cohesion
 
-{@{The spectrum of cohesion}@} ranges from classes that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal &lt; procedural &lt; communicational &lt; sequential &lt; functional}@}\)
+{@{The spectrum of cohesion}@} ranges from _classes_ that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal}@} &lt; {@{procedural &lt; communicational &lt; sequential &lt; functional}@}\)
 
 1. __Coincidental__ ::@:: — the class has no discernible function.
 2. __Logical__ ::@:: — it groups several related but distinct responsibilities.
@@ -535,7 +535,7 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 ### coupling
 
-{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. The list from {@{lowest coupling to highest coupling}@} is: \(annotation: 7 items: {@{no direct &lt; data &lt; stamp &lt; control &lt; external &lt; common &lt; content}@}\)
+{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. The list from {@{lowest coupling to highest coupling}@} is: \(annotation: 7 items: {@{no direct &lt; data &lt; stamp}@} &lt; {@{control &lt; external &lt; common &lt; content}@}\)
 
 1. __No direct__ ::@:: — classes have no relationship.
 2. __Data__ ::@:: — classes communicate solely through primitive data or simple value objects (ideal).
@@ -581,13 +581,13 @@ When {@{constructing a state-machine diagram}@}, we begin by {@{listing every po
 
 {@{A _transition_}@} connects {@{an origin (source) state to a target state and}@} is {@{triggered by an event}@}. Transitions can be {@{self-loops when source and target are the same}@}. They occur {@{_instantaneously_, cannot be _interrupted_}@}, and may {@{carry _optional adornments_}@}: {@{an event trigger, guard condition, and effect list}@}.
 
-For {@{self-transitions}@}, {@{the adornments are listed inside the state}@}. For {@{transitions to other states}@}, {@{an arrow}@} is {@{drawn from the source object to the target}@}, and {@{all adornments are listed}@} next to it. {@{The syntax}@} for {@{a transition}@} is {@{`event trigger [guard condition] / effect list`}@}.
+For {@{self-transitions}@}, {@{the adornments are listed inside the state}@}. For {@{transitions to other states}@}, {@{an arrow}@} is {@{drawn from the source state to the target}@}, and {@{all adornments are listed}@} next to it. {@{The syntax}@} for {@{a transition}@} is {@{`event trigger [guard condition] / effect list`}@}.
 
 An {@{_event trigger_}@} specifies {@{the _event name_ that _triggers_ a transition, optionally with _parameters_}@} which will be available to {@{the transition's effects or activities in the _target state_}@}.
 
-{@{A _guard condition_}@} is {@{a Boolean expression evaluated when the event occurs}@}. {@{The transition _fires_}@} {@{only if the guard evaluates to true}@}. Guards are {@{passive and evaluated at the time of the event}@}. It is written in terms of {@{parameters of the event, attributes, and links of the _source object_}@}.
+{@{A _guard condition_}@} is {@{a Boolean expression evaluated when the event occurs}@}. {@{The transition _fires_}@} {@{only if the guard evaluates to true}@}. Guards are {@{passive and evaluated at the time of the event}@}. It is written in terms of {@{parameters of the event, attributes, and links of the object in _source state_}@}.
 
-An {@{_effect list_}@} contains {@{one or more atomic actions}@} (e.g., {@{calling operations, sending messages}@}) that {@{execute _immediately_ after a transition fires}@}. Effects may refer to {@{_source object_ operations, attributes, links, and event parameters}@}. {@{The atomic actions}@} are {@{separated by _semicolons_ `;`}@} and {@{executed _sequentially_}@}.
+An {@{_effect list_}@} contains {@{one or more atomic actions}@} (e.g., {@{calling operations, sending messages}@}) that {@{execute _immediately_ after a transition fires}@}. Effects may refer to {@{_source state_ operations, attributes, links, and event parameters}@}. {@{The atomic actions}@} are {@{separated by _semicolons_ `;`}@} and {@{executed _sequentially_}@}.
 
 ### events
 
@@ -595,7 +595,7 @@ An {@{_event_}@} is {@{something that happens at an _instantaneous_ point in tim
 
 {@{A _call event_}@} is triggered by {@{the receipt of a _synchronous call_}@}. The event trigger contains {@{the operation name and its parameters}@}, which are {@{exactly the same as the parameters passed to the invoked operation}@}.
 
-{@{A _change event_}@} occurs whenever {@{a Boolean expression that depends _solely_ on the _source object state_}@} {@{changes from false to true}@}, e.g. {@{`when(balance < 0)`}@}. {@{The condition}@} is {@{evaluated _continuously_}@}; unlike {@{a guard}@}, which is {@{checked only when encountered}@}, a change event {@{_actively_ monitors its expression}@}. Because {@{it has no parameters}@}, {@{any transition triggered by a change event}@} relies {@{entirely on the _source object_'s current state}@}.
+{@{A _change event_}@} occurs whenever {@{a Boolean expression that depends _solely_ on the _source state_}@} {@{changes from false to true}@}, e.g. {@{`when(balance < 0)`}@}. {@{The condition}@} is {@{evaluated _continuously_}@}; unlike {@{a guard}@}, which is {@{checked only when encountered}@}, a change event {@{_actively_ monitors its expression}@}. Because {@{it has no parameters}@}, {@{any transition triggered by a change event}@} relies {@{entirely on the _source state_}@}.
 
 {@{A _time event_}@} represents either {@{an absolute point in time (e.g., `when(date=2025-11-11)`)}@} or {@{a relative delay (e.g., `after(7 seconds)`)}@}. It causes {@{a transition when the specified moment arrives}@}, and it can be used to model {@{timed actions}@} such as {@{automatic state changes or periodic checks}@}.
 
