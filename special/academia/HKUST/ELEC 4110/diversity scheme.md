@@ -78,9 +78,9 @@ These techniques can be combined depending on system requirements and channel co
 
 ### diversity combining error analysis
 
-In a diversity system each branch experiences independent fading.  At high SNR the dominant error event is that _every_ branch's instantaneous SNR falls below the decision threshold.  Since the branches are independent, $$P_{\text{error} }\;\approx\; \prod_{i=1}^{L}\Pr(\gamma_i<\gamma_{\!th}) \;\propto\; \left(\frac{1}{\text{SNR} }\right)^{L} \,,$$ so the _symbol_ error rate behaves like $$\boxed{\text{SER}\;\approx\;\frac{C}{(\text{SNR})^{L} } }$$ with $L$ being the _diversity order_.  The constant $C$ varies with the combining rule, modulation, channel statistics, etc., and is captured by the _diversity gain_.
+In a diversity system each branch experiences independent fading.  At high SNR the dominant error event is that _every_ branch's instantaneous SNR falls below the decision threshold.  Since the branches are independent, $$P_{\text{error} }\;\approx\; \prod_{i=1}^{L}\Pr(\gamma_i<\gamma_{\!th}) \;\propto\; \left(\frac{1}{D \cdot \text{SNR} }\right)^{L} \,,$$ so the _symbol_ error rate behaves like $$\boxed{\text{SER}\;\approx\;\frac{C}{(D \cdot \text{SNR})^{L} } }$$ with $L$ being the _diversity order_.  The constant $C$ varies with the combining rule, channel statistics, etc., and is captured by the _diversity gain_. The constant $D$ varies with the modulation scheme, e.g. $D = 4$ for BPSK at high SNR.
 
-While the constant $C$ varies according to the _diversity gain_, most diversity schemes share this same power-law asymptotic dependence, so they share the same asymptotic slope $-D$ on a log‑log SER vs. SNR plot; only the prefactor $C$ differs.
+While the constant $C$ varies according to the _diversity gain_ and $D$ varies according to the modulation scheme, most diversity schemes share this same power-law asymptotic dependence, so they share the same asymptotic slope $-L$ on a log‑log SER vs. SNR plot; only the prefactor $C$ and $D$ differs.
 
 ### selection combining
 

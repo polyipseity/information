@@ -27,6 +27,7 @@ The content is in teaching order.
   - scheme
     - homework ×3: 15%
     - midterm examination: 25%
+      - cheatsheet: 1, A4-sized, double-sided, handwritten
     - project: 10%
     - final examination: 50%
       - cheatsheet: 1, A4-sized, double-sided, handwritten
@@ -937,6 +938,27 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - topic: homework 2
 - assignment: [homework 2](assignments/homework%202.md)
 
+---
+
+> __<big><big>Solution of HW2</big></big>__
+>
+> Hi folks
+>
+> I have asked thr TA to give a tutorial today to go over the solution of HW2. Thanks
+>
+> \[redacted\]
+
+---
+
+> __<big><big>Tutorial-w11-Homework2</big></big>__
+>
+> Dear ELEC4110 students,
+>
+> Here's the file for today's tutorial on solving HW2. <u>Tutorial-10_on_ELEC4110.pdf</u>
+>
+> Warm regards, <br/>
+> TA
+
 ## week 12 lecture
 
 - datetime: 2025-11-18T09:00:00+08:00/2025-11-18T10:20:00+08:00, PT1H20M
@@ -944,6 +966,85 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - [§ midterm examination](#midterm%20examination)
 
 ## midterm examination
+
+- datetime: 2025‑11‑18T08:45:00+08:00/2025‑11‑18T10:20:00+08:00, PT1H35M  
+- venue: Room 4502, Academic Building
+- format
+  - calculator: yes
+  - cheatsheet: yes (A4 double‑sided handwritten)
+  - referencing: closed book, closed notes
+  - provided: Q-function table, Fourier transform table, key formulas
+  - questions: question ×4 (with subquestions)
+- grades: 80/100 → 90/100
+  - statistics
+    - timestamps: 2025‑11‑25T16:07+08:00 → 2025‑12‑02T11:09+08:00
+    - count: 42 → 42
+    - mean: 38.48 → 38.26
+    - standard deviation: 18.43 → 19.57
+    - low: 16 → 16
+    - lower quartile: 26 → 25
+    - median: 31.5 → 32
+    - upper quartile: 44.75 → 45
+    - high: 83 → 90
+    - graph: ![`midterm examination analysis.svg`](attachments/midterm%20examination%20analysis.svg) → ![`midterm examination analysis (1).svg`](attachments/midterm%20examination%20analysis%20(1).svg)
+    - data: [`midterm examination data.csv`](attachments/midterm%20examination%20data.csv) → [`midterm examination data (1).csv`](attachments/midterm%20examination%20data%20(1).csv)
+  - breakdown
+    - question 1 (Fourier transform): 5/10 → 5/10
+    - question 2 (transfer function): 20/20 → 20/20
+    - question 3 (binary modulation): 30/40 → 40/40
+    - question 4 (M-QAM): 25/30 → 25/30
+- report
+  - Fourier transform (-5) ::@:: Did not apply the table correctly when finding the FT of $e^{\lvert t \rvert} \cos(2t)$.
+  - M-QAM / details (-3) ::@:: Probably missing some details, one of them being not labeling the constellation diagram using Gray code.
+  - M-QAM / coverage (-2) ::@:: The last subquestion is about finding coverage, which was unexpected given the syllabus, but still managed to guess 3 marks.
+- check
+  - datetime
+    - 2025‑12‑01T09:00:00+08:00/2025‑12‑01T12:00:00+08:00, PT3H
+    - 2025‑12‑01T14:00:00+08:00/2025‑12‑01T18:00:00+08:00, PT4H
+  - venue: Room 4030, Academic Building
+  - report
+    - missing marks (+5) ::@:: The TA missed adding 5 marks.
+    - binary modulation / matched filter (+5) ::@:: The correct matched filter is $s_1^*(T - t) - s_2^*(T - t)$, which is what I wrote, and the lecture slides simplify it to $s_1(T - t) - s_2(T - t)$ because the signals are real. The TA was not familiar enough so thought the conjugated version is incorrect.
+
+---
+
+> __<big><big>Midterm Date \[ Important !!! \]</big></big>__
+>
+> Dear ELEC 4110 students,
+>
+> The midterm date will be __18 Nov in class.__
+>
+> Warm regards, <br/>
+> TA
+
+---
+
+> __<big><big>Midterm details</big></big>__
+>
+> Dear Students
+>
+> the mid term will be held on 18 Nov 08:45-10:20am in the classroom. Please arrive at the classroom before 08:35am. You can bring an A4 size double-sided cheat sheet (handwritten) and a calculator. The scope of the midterm will cover chapter 1-chapter 6 (MQAM). You will put down the answer directly on the question paper and submit the question paper at the end. I will try to setup the questions so that you will have more than sufficient time to finish all the questions.
+>
+> Thanks a lot
+>
+> \[redacted\]
+
+---
+
+> __<big><big>Midterm paper checking session and marking details</big></big>__
+>
+> Dear ELEC4110 Students,
+>
+> A midterm paper-checking session is arranged on __9a.m.—12a.m.__  and __2p.m.—6p.m.__  Mon, 1 Dec, __Room 4030__, Academic building. <br/>
+> And some details about marking: <br/>
+> __\[Q4(c)\]__ : While the question did not specify high SNR, the operating region that Q( ) &lt; 1x10^{-4} implies that the SNR is sufficiently high for the approximation to be valid. Also, solution of adding multiple Q function terms corresponding to different pairwise error probability (i.e. without taking the final step approximation that the sum of Q function ~ Q( ) of the bottleneck terms) is also valid. Full marks is given under the above two situations. <br/>
+> __\[Q3(f)\]__: clear to use the old filter with the new input as "<u>image.png</u>" <br/>
+> __\[Q4(e)\]__: No fading is involved in this part. This is merely testing how to compute coverage given the PHY requirement.
+>
+> If you have any other questions, pls contact me \[redacted\] <br/>
+> :) <br/>
+> Bests, <br/>
+> TA
 
 ## week 12 lecture 2
 
@@ -976,6 +1077,17 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - datetime: 2025-11-21T15:30:00+08:0/2025-11-21T16:20:00+08:00, PT50M
 - topic: homework 3
 - assignment: [homework 3](assignments/homework%203.md)
+
+---
+
+> __<big><big>Tutorial-w12-Homework3</big></big>__
+>
+> Dear ELEC4110 students,
+>
+> Here's the file for the tutorial on solving HW3.  <u>Tutorial-11_on_ELEC4110.pdf</u>
+>
+> Warm regards, <br/>
+> TA
 
 ## week 13 lecture
 
@@ -1019,7 +1131,67 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - topic: midterm examination
 - [§ midterm examination](#midterm%20examination)
 
+---
+
+> __<big><big>Tutorial time to go over midterm solutions</big></big>__
+>
+> Dear ELEC 4110 students,
+>
+> A tutorial to go over midterm solutions is arranged on __Fri 15:30 - 16:10, 28, Nov.__
+>
+> Bests, <br/>
+> TA
+
 ## final examination
+
+- datetime: 2025‑12‑08T16:30:00+08:00/2025‑12‑08T19:30:00+08:00, PT3H  
+- venue: LG5 conference room, Academic Building
+- format
+  - calculator: yes
+  - cheatsheet: yes (A4 double‑sided handwritten)
+  - referencing: closed book, closed notes
+  - provided: Q-function table, Fourier transform table, key formulas
+  - questions: ???
+- grades: ?/100 → ?/100
+  - statistics
+    - timestamps: 2025‑12‑??T??:??+08:00 → 2025‑12‑??T??:??+08:00
+    - count: ? → ?
+    - mean: ? → ?
+    - standard deviation: ? → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? → ?
+    - upper quartile: ? → ?
+    - high: ? → ?
+    - graph: ![`final examination analysis.svg`](attachments/final%20examination%20analysis.svg) → ![`final examination analysis (1).svg`](attachments/final%20examination%20analysis%20(1).svg)
+    - data: [`final examination data.csv`](attachments/final%20examination%20data.csv) → [`final examination data (1).csv`](attachments/final%20examination%20data%20(1).csv)
+  - breakdown: ???
+- report: ???
+- check
+  - datetime: ???
+  - venue: ???
+  - report: ???
+
+---
+
+- ELEC 4110
+  - ELEC 4110 / final examination
+    - ELEC 4110 / final examination / question type ::@:: - _Multiple‑choice & True/False_: Broad coverage of many chapters. <br/> - _Long questions_: Standard assignment‑style problems. Scenario‑based analyses (e.g., link budget, extending coverage, required diversity order). Each long question may have multiple parts.
+    - ELEC 4110 / final examination / resources provided ::@:: Q-function table. Fourier transform table. Key formulas (except union bound) supplied in the paper. A4 double-sided handwritten cheatsheet allowed.
+    - ELEC 4110 / final examination / timing & difficulty ::@:: Sufficient time to finish all questions; no time‑pressure issues. Balanced difficulty: not too easy (avoids uniformly high scores), not too hard (avoids many zeros). Scoring is relative ("scaling") – grades reflect true knowledge gaps, not careless errors.
+    - ELEC 4110 / final examination / expectations & support ::@:: Students encouraged to use remaining weeks to address gaps highlighted by midterm distribution. TA/Instructor available for clarification; schedule via email first.
+
+---
+
+> __<big><big>Scope of Final Exam + summary</big></big>__
+>
+> Dear Students
+>
+> Please be reminded that in the final exam, Q-function table and Fourier Transform table will be given. In addition, you can bring an A4 size (double sided) handwritten cheatsheet. The scope of the final exam will include everything from midterm + m9 fading channels, m10 diversity, m11 spread spectrum (no OFDM), m12 Resource Partitioning, m13 Cellular architecture only (no evolution onwards). Only those covered in the lecture will be included in the exam. Furthermore, I have just uploaded a summary to help you to do the revision.
+>
+> Thanks very much and feel free to let me know if you have any further questions. Good luck
+>
+> \[redacted\]
 
 ## aftermath
 
