@@ -7,7 +7,7 @@ aliases:
   - software design pattern
   - software design patterns
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3111H/software_design_pattern
+  - flashcard/active/special/academia/HKUST/COMP_3111H/software_design_patterns
   - language/in/English
 ---
 
@@ -21,7 +21,7 @@ tags:
 
 {@{A design pattern}@} is {@{a general, reusable solution to a commonly occurring problem in software design}@}. It represents a {@{problem/solution pair}@} within a {@{specific context}@} and describes {@{how and why a particular design approach resolves nonfunctional requirements}@} such as {@{scalability, maintainability, and performance}@}.
 
-{@{Design patterns}@} are {@{not finished implementations}@} that can be {@{directly translated into code}@}. Instead, they serve as {@{templates or blueprints}@}—describing {@{the structure, behavior, and interactions between classes or objects}@}—without specifying {@{the exact types or instances involved}@}. They emphasize {@{relationships such as inheritance and delegation}@}, enabling developers to {@{build flexible and extensible systems}@}.
+{@{Design patterns}@} are {@{not finished implementations}@} that can be {@{directly translated into code}@}. Instead, they serve as {@{templates or blueprints}@}—describing {@{the structure, behavior, and interactions between classes or objects}@}—without specifying {@{the exact types or instances involved}@}. They emphasize {@{relationships such as _inheritance_ (is-a) and _delegation_ (asks-to-do)}@}, enabling developers to {@{build flexible and extensible systems}@}.
 
 {@{Patterns}@} facilitate {@{code reuse}@} by providing {@{proven, tested solutions to recurring design challenges}@}. They help {@{novice developers learn by example}@}, guiding them to {@{adopt expert-level design practices}@}. {@{A pattern catalog}@} compiles {@{useful patterns tailored to a specific domain or context}@}, acting as a {@{reference for effective software design decisions}@}.
 
@@ -41,7 +41,7 @@ When {@{`fly()`}@} is {@{added to `Duck`}@}, all ducks—including those that {@
 
 - \(annotation: capability hiding\) ::@:: _Hard to know duck behaviors_ – Shared base behavior hides actual subclass capabilities.  
 - \(annotation: new behaviors\) ::@:: _Can't easily add new behaviors_ – New actions (like dancing) are hard to support without changing existing classes.
-- \(annotation: rippling effect\) ::@:: _Changes affect all ducks_ – Adding a method to the base class impacts all subclasses, causing ripple effects.  
+- \(annotation: rippling effect\) ::@:: _Changes affect all ducks_ – Adding or modifying a method to the base class impacts all subclasses, causing ripple effects.  
 - \(annotation: runtime modification\) ::@:: _Runtime changes are risky_ – Modifying behavior at runtime may lead to unexpected behavior.  
 
 {@{Rigid inheritance}@} leads to {@{unintended behavior, inconsistency, and high maintenance}@}. It highlights the {@{need for flexible, context-aware design patterns}@}—solutions that {@{emerge from real-world practice}@}, not {@{single problems}@}.
@@ -126,12 +126,12 @@ In essence, {@{the Observer pattern}@} establishes {@{a dynamic relationship}@} 
 
 {@{The key components of the observer pattern}@} are: (annotations: 4 items: {@{subject, observer, concrete subject, concrete observers}@})
 
-- _Subject_: ::@:: An object that maintains a list of observers and provides methods to register, remove, and notify them of state changes. It may also maintain internal state that is shared with observers.
-- _Observer_: ::@:: A general interface or class that defines a method (typically `update()`) to be called when the subject's state changes. Observers implement this interface and react to updates based on their own logic.
+- _Subject_: ::@:: An _interface_ (`<<interface>>`) representing an object that maintains a list of observers and provides methods to register, remove, and notify them of state changes. It maintains a list of observers (dependency arrow from _Subject_ to _Observer_ named `observers`).
+- _Observer_: ::@:: A general _interface_ (`<<interface>>`) or class that defines a method (typically `update()`) to be called when the subject's state changes. Observers implement this interface and react to updates based on their own logic.
 - _Concrete Subject_: ::@:: A class that implements the subject interface and manages its state and list of observers. It may provide operations to get or set its state, and trigger notifications when the state changes.
-- _Concrete Observers_: ::@:: Classes that implement the observer interface and respond to state changes by querying the subject for the subset of state they are responsible for.
+- _Concrete Observers_: ::@:: Classes that implement the observer interface and respond to state changes by querying the subject for the subset of state they are responsible for. It may know the _Subject_ (dependency arrow from _Concrete Observer_ to _Concrete Subject_ named `subject`),
 
-{@{An issue with the observer pattern}@} is that {@{an event-notification protocol is needed}@} to establish {@{how and when the subject announces events}@}. {@{The protocol}@} must define {@{which events the subject should announce}@}—such as {@{a change in data or a financial metric}@}—and whether {@{every event should be broadcast to every observer}@}. {@{It should also specify}@} if subjects can {@{define different kinds of events}@} and enable observers {@{to subscribe selectively}@}, based on {@{the subset of state they are responsible for monitoring}@}.
+{@{An issue with the observer pattern}@} is that {@{an event-notification protocol is needed}@} to establish {@{how and when the subject announces events}@}. {@{The protocol}@} must define {@{which events the subject should announce}@}—such as {@{a change in data or a financial metric}@}—and whether {@{every event should be broadcast to every observer}@}. {@{It should also specify}@} if subjects can {@{define different kinds of events}@} and enable observers {@{to subscribe selectively}@}, based on {@{the subset of state they are responsible for monitoring}@}. Lastly, in {@{concurrent environments}@}, the pattern needs to take care of {@{thread safety and synchronization}@}.
 
 ## mediator pattern
 
@@ -139,10 +139,10 @@ In essence, {@{the Observer pattern}@} establishes {@{a dynamic relationship}@} 
 
 There are {@{4 key components in the mediator pattern}@}: (annotation: 4 items: {@{mediator, colleague, concrete mediator, concrete colleague}@})
 
-- `Mediator` ::@:: – defines how colleagues talk and knows all of them. It receives events and coordinates actions.  
-- `Colleague` ::@:: – any component that uses the mediator for communication; it doesn't know other colleagues.  
-- `ConcreteMediator` ::@:: – implements `Mediator`, holds references to real colleagues, and contains the coordination logic.  
-- `ConcreteColleague` ::@:: – implements `Colleague`, talks only to the mediator.
+- `Mediator` ::@:: – an _interface_ (`<<interface>>`) that defines how colleagues talk and knows all of them. It receives events and coordinates actions.  
+- `Colleague` ::@:: – an _interface_ (`<<interface>>`) representing any component that uses the mediator for communication; it only knows `Mediator` doesn't know other colleagues.
+- `ConcreteMediator` ::@:: – implements `Mediator`, holds references to `ConcreteColleague`s, and contains the coordination logic.  
+- `ConcreteColleague` ::@:: – implements `Colleague`, talks only to the mediator via its interface `Mediator`.
 
 {@{A component (e.g., calendar)}@} emits {@{an event (`weekend`, `trashDay`)}@}. {@{The mediator}@} receives {@{the event}@}, decides {@{what should happen}@}, and {@{calls methods on the relevant colleagues (e.g., reset alarm, start sprinkler)}@}. {@{Example}@}: when {@{the alarm rings}@}, the mediator {@{checks if it's a weekend or trash day}@} and then {@{tells the coffee pot or shower to act}@}.
 
@@ -199,11 +199,9 @@ It may be used when {@{both an abstraction and its implementation need independe
 
 ## singleton pattern
 
-{@{A _singleton_}@} is {@{a _creational_ design pattern}@} that {@{guarantees a class has _exactly one_ instance}@} and {@{provides a global point of access to it}@}.
+{@{A _singleton_}@} is {@{a _creational_ design pattern}@} that {@{guarantees a class has _exactly one_ instance}@} and {@{provides a global point of access to it}@}. {@{Typical use cases}@} include {@{thread pools, caches, dialog boxes}@}, {@{logging facilities, system-wide configuration managers (e.g., `System.out`)}@}, or {@{any object whose multiple instances would be redundant or harmful}@}.
 
-When {@{an object represents a shared resource or service}@}, creating {@{multiple instances}@} can lead to {@{inconsistent state, wasted memory, or conflicting operations}@}. {@{The singleton pattern}@} solves this by enforcing {@{a single instance}@}, preventing {@{other parts of the program from constructing additional objects}@}, and exposing {@{that sole instance in a convenient way}@}.
-
-{@{Typical use cases}@} include {@{thread pools, caches, dialog boxes}@}, {@{logging facilities, system-wide configuration managers (e.g., `System.out`)}@}, or {@{any object whose multiple instances would be redundant or harmful}@}.
+When {@{an object represents a shared resource or service}@}, creating {@{multiple instances}@} can lead to {@{inconsistent state, wasted memory, or conflicting operations}@}. {@{The singleton pattern}@} solves this by enforcing {@{a single instance}@}, preventing {@{other parts of the program from constructing additional objects}@}, and exposing {@{that sole instance in a convenient way}@}. In {@{concurrent environments}@}, the pattern needs to take care of {@{thread safety and synchronization}@}.
 
 There are {@{3 core components to the singleton pattern}@}: (annotation: 3 items: {@{instance storage, controlled creation, access method}@})
 
@@ -213,11 +211,15 @@ There are {@{3 core components to the singleton pattern}@}: (annotation: 3 items
 
 {@{The singleton pattern}@} provides a {@{controlled, globally accessible instance}@} while preventing {@{accidental duplication}@}. It's {@{ideal for shared resources}@} that must {@{remain unique across an application}@}.
 
+## multiton pattern
+
+{@{A _multiton_}@} generalises {@{a singleton}@} by keeping {@{a controlled set of instances keyed by a unique identifier}@} (e.g., {@{an enum or string}@}). It stores {@{objects in a thread‑safe map}@} and lazily {@{creates one instance per key through `getInstance(key)`}@}. This pattern is ideal for {@{shared but differentiated resources}@}—like {@{per‑URL connection pools or module loggers}@}—while still {@{preventing accidental duplication}@}.
+
 ## factory pattern
 
 {@{The factory pattern}@} is {@{a _creational_ design pattern}@} that {@{provides a single place where objects of varying concrete types are created at run time}@}, instead of {@{scattering `new` calls throughout the codebase}@}.
 
-Typically, a method that creates {@{different subclasses directly with `new`}@} is {@{closed for modification}@}, but {@{_not_ open for extension}@}. Adding a new type {@{forces changes to every place where the factory logic lives}@}.
+Typically, a method that creates {@{different subclasses directly with `new`}@} is {@{_closed_ for modification}@}, but {@{_not_ open for extension}@}. violating {@{the _open‑closed principle_}@}. Adding a new type {@{forces changes to every place where the factory logic lives}@}.
 
 {@{The solution using the factory pattern}@} is: First, extract {@{all creation logic into one class (`SimplePizzaFactory`)}@}. Then, let {@{clients ask this factory for a product by passing a type identifier}@}. The factory returns {@{an instance of the requested concrete subclass}@}, leaving the rest of the system unchanged. Finally, refactor {@{users to use the factory}@}.
 

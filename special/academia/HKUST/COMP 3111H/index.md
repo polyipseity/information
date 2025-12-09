@@ -37,6 +37,9 @@ The content is in teaching order.
 - [UML](UML.md)
 - [assignments](assignments/index.md)
 - [questions](questions.md)
+- [software design patterns](software%20design%20patterns.md)
+- [software project management](software%20project%20management.md)
+- [software quality assurance](software%20quality%20assurance.md)
 
 ## week 1 pre-lecture
 
@@ -904,7 +907,7 @@ The content is in teaching order.
 ## week 8 lecture
 
 - datetime: 2025-10-22T12:30:00+08:00/2025-10-22T14:20:00+08:00, PT1H50M
-- topic: use case diagram; non-functional requirement; validation; implementation; defensive programming; code review; refactoring; debugging; configuration management
+- topic: use case diagram; non-functional requirement; validation; implementation; defensive programming; code review; refactoring; debugging; configuration management; midterm examination review
 - [UML](UML.md)
   - [§ common mistakes](UML.md#common%20mistakes)
   - [§ common mistakes: wrong initiating actors](UML.md#common%20mistakes%20wrong%20initiating%20actors)
@@ -921,7 +924,36 @@ The content is in teaching order.
     - COMP 3111H / midterm examination / use case diagrams ::@:: Given a short scenario, first list all functionalities \(operations\), then group them into use cases. The instructor will give you a paragraph and expect you to extract the relevant operations before sketching a use-case diagram. <p> If the question only asks for _functionalities_, simply list all functionalities; no need to group them into use cases.
 - [§ week 6 pre-lecture](#week%206%20pre-lecture)
 - [§ week 7 pre-lecture](#week%207%20pre-lecture)
+- [§ midterm examination](#midterm%20examination)
 - [questions § week 8 lecture](questions/index.md#week%208%20lecture)
+
+---
+
+- MC
+- Short term questions Mapping questions Fill up the missing words tell him the exact.notations for UML or functional and non functional requiremetns
+  - Understand the software engineering skills: What is software engineering? What is programming in the large? What do we do in programming in the large? No need to list one by one, but need to know some of them. He will give one software engineering skill and ask what it does in mapping.
+  - UML notations: What is a triangle? What is a diamond? What is a filled diamond? What is an association class?
+  - What is related Transactions.  He will show you something wrong, and you need to fix it.  Once you’re related you’re related.
+- Different software Development methods
+  - Example: Waterfall, AGILE, phase release, DLCs
+  - He will give you different situations and you need to link the methods up
+- The first 3 types of  questions are quite simple
+- Class diagram (keep this as your last)
+  - Read 1 or 2 paragraphs
+  - He gives you a class diagram and many things missing, and help him fill up some things like diamonds multiplicity (if he as a triangle you need to have that)
+  - Think if a diamond is necessary or not
+  - Look at words like contain or compose (could be wrong)
+- Use case diagram (simple he said)
+  - He will give 1 or 2 paragraphs
+  - Help him identify the functionality
+  - Get the functionality first, then gather them as use cases
+  - In Inheritance, you will need to add some curly brackets.
+  - See if he wants functionality (he was operations and list them out) or he wants use case
+  - Unless he says based on the functionality, make a use case diagram
+    - Example: You enter a meeting, you process then you get the build
+- The exam is not tricky! Very straightforward
+- Understand non-functional and functional!
+- No need to remember a lot of the words, just think in general; expected finish time is 45 mins
 
 ## week 8 lab
 
@@ -1067,7 +1099,7 @@ The content is in teaching order.
 ## midterm examination
 
 - datetime: 2025-10-29T12:00:00+08:00/2025-10-29T13:00:00+08:00, PT1H
-- venue: Lecture Theater A
+- venue: Lecture Theater A, Academic Building
 - format
   - calculator: no
   - cheatsheet: no
@@ -1084,8 +1116,8 @@ The content is in teaching order.
     - median: 81.5 → 83.75
     - upper quartile: 87.38 → 89
     - high: 96 \(provided: 96\) → 97
-    - distribution: ? → ?
     - data: ? → ?
+    - graph: ? → ?
   - breakdown
     - question 1 \(multiple choice questions\): 14/15 → 14/15
     - question 2 \(short questions\): 24/25 → 24/25
@@ -1269,7 +1301,7 @@ The content is in teaching order.
 
 ## week 11 pre-lecture
 
-- topic:
+- topic: software design pattern; strategy pattern; observer pattern; mediator pattern; proxy pattern; bridge pattern; singleton pattern; factory pattern; anti-pattern; spaghetti code; god class
 - [software design patterns](software%20design%20patterns.md)
   - [§ application](software%20design%20patterns.md#application)
   - [§ problems with inheritance](software%20design%20patterns.md#problems%20with%20inheritance)
@@ -1294,6 +1326,13 @@ The content is in teaching order.
 - quiz: [quiz 18](questions/quiz%2018.md)
 - [questions § week 11 pre-lecture](questions/index.md#week%2011%20pre-lecture)
 
+## week 11 lecture
+
+- datetime: 2025-11-12T12:30:00+08:00/2025-11-12T14:20:00+08:00, PT1H50M
+- topic: systems design; systems analysis; use case analysis; analysis class; design class; cohesion; coupling; SOLID principles; state machine diagram
+- [§ week 10 pre-lecture](#week%2010%20pre-lecture)
+- [questions § week 11 lecture](questions/index.md#week%2011%20lecture)
+
 ## week 11 lab
 
 - datetime: 2025-11-13T18:00:00+08:00/2025-11-13T19:50:00+08:00, PT1H50M
@@ -1301,10 +1340,58 @@ The content is in teaching order.
 
 ## week 12 pre-lecture
 
-- topic:
+- topic: software quality assurance; product quality; project quality; process quality; people quality; software project management; software development plan; project tracking and control
+- [software quality assurance](software%20quality%20assurance.md)
+  - [§ overview](software%20quality%20assurance.md#overview)
+  - [§ purpose and importance](software%20quality%20assurance.md#purpose%20and%20importance)
+  - [§ aspects](software%20quality%20assurance.md#aspects)
+  - [§ activities](software%20quality%20assurance.md#activities)
+  - [§ standards](software%20quality%20assurance.md#standards)
+  - [§ metrics](software%20quality%20assurance.md#metrics)
+  - [§ product quality](software%20quality%20assurance.md#product%20quality)
+  - [§ design goals](software%20quality%20assurance.md#design%20goals)
+  - [§ system design metrics](software%20quality%20assurance.md#system%20design%20metrics)
+  - [§ implementation metrics](software%20quality%20assurance.md#implementation%20metrics)
+  - [§ reliability approaches](software%20quality%20assurance.md#reliability%20approaches)
+  - [§ project quality](software%20quality%20assurance.md#project%20quality)
+  - [§ formal technical reviews](software%20quality%20assurance.md#formal%20technical%20reviews)
+  - [§ software configuration management](software%20quality%20assurance.md#software%20configuration%20management)
+  - [§ process quality](software%20quality%20assurance.md#process%20quality)
+  - [§ ISO 9000-3](software%20quality%20assurance.md#ISO%209000-3)
+  - [§ SEI Capability Maturity Model](software%20quality%20assurance.md#SEI%20Capability%20Maturity%20Model)
+  - [§ people quality](software%20quality%20assurance.md#people%20quality)
+  - [§ People Capability Maturity Model](software%20quality%20assurance.md#People%20Capability%20Maturity%20Model)
 - quiz: [quiz 19](questions/quiz%2019.md)
+- [software project management](software%20project%20management.md)
+  - [§ purpose](software%20project%20management.md#purpose)
+  - [§ software development plan](software%20project%20management.md#software%20development%20plan)
+  - [§ deliverables](software%20project%20management.md#deliverables)
+  - [§ development environment](software%20project%20management.md#development%20environment)
+  - [§ work-breakdown structure](software%20project%20management.md#work-breakdown%20structure)
+  - [§ staffing and organization](software%20project%20management.md#staffing%20and%20organization)
+  - [§ schedules](software%20project%20management.md#schedules)
+  - [§ Gantt chart](software%20project%20management.md#Gantt%20chart)
+  - [§ PERT chart](software%20project%20management.md#PERT%20chart)
+  - [§ estimates](software%20project%20management.md#estimates)
+  - [§ function-point counting](software%20project%20management.md#function-point%20counting)
+  - [§ PERT estimation](software%20project%20management.md#PERT%20estimation)
+  - [§ planning poker](software%20project%20management.md#planning%20poker)
+  - [§ parametric models](software%20project%20management.md#parametric%20models)
+  - [§ estimation risk mitigation](software%20project%20management.md#estimation%20risk%20mitigation)
+  - [§ metrics plan](software%20project%20management.md#metrics%20plan)
+  - [§ risk planning](software%20project%20management.md#risk%20planning)
+  - [§ time-phased budget](software%20project%20management.md#time-phased%20budget)
+  - [§ project tracking and control](software%20project%20management.md#project%20tracking%20and%20control)
+  - [§ project tracking and control methods](software%20project%20management.md#project%20tracking%20and%20control%20methods)
 - quiz: [quiz 20](questions/quiz%2020.md)
 - [questions § week 12 pre-lecture](questions/index.md#week%2012%20pre-lecture)
+
+## week 12 lecture
+
+- datetime: 2025-11-19T12:30:00+08:00/2025-11-19T14:20:00+08:00, PT1H50M
+- topic: software design pattern; strategy pattern; observer pattern; mediator pattern; proxy pattern; bridge pattern; singleton pattern; factory pattern; anti-pattern; spaghetti code; god class
+- [§ week 11 pre-lecture](#week%2011%20pre-lecture)
+- [questions § week 12 lecture](questions/index.md#week%2012%20lecture)
 
 ## week 12 lab
 
@@ -1316,10 +1403,68 @@ The content is in teaching order.
 - topic: \(none\)
 - [questions § week 13 pre-lecture](questions/index.md#week%2013%20pre-lecture)
 
+## week 13 lecture
+
+- datetime: 2025-11-26T12:30:00+08:00/2025-11-26T14:20:00+08:00, PT1H50M
+- topic: final examination review
+- [§ week 12 pre-lecture](#week%2012%20pre-lecture)
+- [§ final examination](#final%20examination)
+- [questions § week 13 lecture](questions/index.md#week%2013%20lecture)
+
+---
+
+- multiple choice questions (1+2: 20~30%)
+- short-answer questions (1+2: 20~30%)
+- class diagram (20~30%; difficult)
+- basis path testing (10~15%)
+- state machine diagram (10%; difficult)
+- design patterns: design principles (10%)
+- black-box testing (10%)
+
 ## week 13 lab
 
 - datetime: 2025-11-27T18:00:00+08:00/2025-11-27T19:50:00+08:00, PT1H50M
 - status: unscheduled
+
+## final examination
+
+- datetime: 2025-12-09T08:30:00+08:00/2025-12-09T10:30:00+08:00, PT2H
+- venue: LG4 Multi-purpose Room (Lift 6), Academic Building
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: question ×? \(with subquestions\)
+- grades: ??/100 → ??/100
+  - statistics
+    - timestamps: 2025-12-??T??:??:??+08:00 → 2025-12-??T??:??:??+08:00
+    - mean: ? → ?
+    - standard deviation: ? → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? → ?
+    - upper quartile: ? → ?
+    - high: ? → ?
+    - data: ? → ?
+    - graph: ? → ?
+  - breakdown: ???
+- report: ???
+- check
+  - datetime: 2025-12-??T18:00:00+08:00/2025-12-??T19:30:00+08:00, PT?H??M
+  - venue: ???
+  - report: ???
+
+---
+
+> Dear COMP3111 Students,
+>
+> Just a reminder about the final exam next week (09 Dec, TUE, 08:30-10:30). The exam is only 2hrs long. Please arrive the exam venue (LG4 Multi-purpose Room, Lift 6) at around 08:20. The exam is only __2hrs long__. It’s a __closed-book exam__, and it will cover __all the topics__ in COMP3111.
+>
+> \[redacted\]
+>
+> Regards, <br/>
+> \[redacted\]
 
 ## aftermath
 
