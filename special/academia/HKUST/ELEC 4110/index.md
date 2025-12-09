@@ -1122,6 +1122,12 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
     - [§ handover](cellular%20network.md#handover)
     - [§ handover examples](cellular%20network.md#handover%20examples)
 - [§ final examination](#final%20examination)
+- ELEC 4110
+  - ELEC 4110 / final examination
+    - ELEC 4110 / final examination / question type ::@:: - _Multiple‑choice & True/False_: Broad coverage of many chapters. <br/> - _Long questions_: Standard assignment‑style problems. Scenario‑based analyses (e.g., link budget, extending coverage, required diversity order). Each long question may have multiple parts.
+    - ELEC 4110 / final examination / resources provided ::@:: Q-function table. Fourier transform table. Key formulas (except union bound) supplied in the paper. A4 double-sided handwritten cheatsheet allowed.
+    - ELEC 4110 / final examination / timing & difficulty ::@:: Sufficient time to finish all questions; no time‑pressure issues. Balanced difficulty: not too easy (avoids uniformly high scores), not too hard (avoids many zeros). Scoring is relative ("scaling") – grades reflect true knowledge gaps, not careless errors.
+    - ELEC 4110 / final examination / expectations & support ::@:: Students encouraged to use remaining weeks to address gaps highlighted by midterm distribution. TA/Instructor available for clarification; schedule via email first.
 - assignment: [homework 3](homework%203/index.md)
 - assignment: [project](project/index.md)
 
@@ -1171,15 +1177,6 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
   - datetime: ???
   - venue: ???
   - report: ???
-
----
-
-- ELEC 4110
-  - ELEC 4110 / final examination
-    - ELEC 4110 / final examination / question type ::@:: - _Multiple‑choice & True/False_: Broad coverage of many chapters. <br/> - _Long questions_: Standard assignment‑style problems. Scenario‑based analyses (e.g., link budget, extending coverage, required diversity order). Each long question may have multiple parts.
-    - ELEC 4110 / final examination / resources provided ::@:: Q-function table. Fourier transform table. Key formulas (except union bound) supplied in the paper. A4 double-sided handwritten cheatsheet allowed.
-    - ELEC 4110 / final examination / timing & difficulty ::@:: Sufficient time to finish all questions; no time‑pressure issues. Balanced difficulty: not too easy (avoids uniformly high scores), not too hard (avoids many zeros). Scoring is relative ("scaling") – grades reflect true knowledge gaps, not careless errors.
-    - ELEC 4110 / final examination / expectations & support ::@:: Students encouraged to use remaining weeks to address gaps highlighted by midterm distribution. TA/Instructor available for clarification; schedule via email first.
 
 ---
 
