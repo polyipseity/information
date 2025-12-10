@@ -44,6 +44,8 @@ The content is in teaching order.
 - [cellular network](cellular%20network.md)
 - [channel access method](channel%20access%20method.md)
 - [diversity scheme](diversity%20scheme.md)
+- [`final examination cheatsheet.pdf`](attachments/final%20examination%20cheatsheet.pdf)
+- [`midterm examination cheatsheet.pdf`](attachments/midterm%20examination%20cheatsheet.pdf)
 - [multipath propagation](multipath%20propagation.md)
 - [power control](power%20control.md)
 - [questions](questions.md)
@@ -972,6 +974,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - format
   - calculator: yes
   - cheatsheet: yes (A4 double‑sided handwritten)
+    - [`midterm examination cheatsheet.pdf`](attachments/midterm%20examination%20cheatsheet.pdf)
   - referencing: closed book, closed notes
   - provided: Q-function table, Fourier transform table, key formulas
   - questions: question ×4 (with subquestions)
@@ -1155,6 +1158,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - format
   - calculator: yes
   - cheatsheet: yes (A4 double‑sided handwritten)
+    - [`final examination cheatsheet.pdf`](attachments/final%20examination%20cheatsheet.pdf)
   - referencing: closed book, closed notes
   - provided: Q-function table, Fourier transform table, key formulas
   - questions: ???

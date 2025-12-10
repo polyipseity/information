@@ -321,7 +321,7 @@ For each \(grouping of\) _use cases_, produce {@{a use case _specification_ \(no
 
 {@{A _use case diagram_ \(_context_ diagram\)}@} is {@{a graphical depiction of a user's possible interactions with a system}@}. Its main elements are {@{_actors_ and \(groupings of\) _use cases_}@}.
 
-To {@{draw a use case diagram}@}, identify {@{its main elements}@}. Then, draw {@{a large _rectangle_ to represent the _system boundary_}@}. {@{_Within_}@} the system boundary, draw {@{an _oval_ for each _use case_ with its name}@}. {@{_Outside_}@} the system boundary, draw {@{a _stick figure_ for each _actor_ with its name}@}. Finally, for each {@{actor potentially initiating a use case}@}, draw {@{an _solid arrow_ pointing from the actor to the use case}@}, indicating {@{an _unidirectional association_ with the _implicit_ association name "use"}@}. Optionally, identify {@{_communication_ associations \(flow of information between a \(system\) actor and a use case\)}@}, and draw {@{a _solid line_ \(no arrow as it is _bidirectional_\) connecting the actor and the use case}@}. No need to {@{_name_ the association}@} as {@{the "communication" association name is _implied_ in the context of a use case diagram}@}.
+To {@{draw a use case diagram}@}, identify {@{its main elements}@}. Then, draw {@{a large _rectangle_ to represent the _system boundary_}@}. _Within_ {@{the system boundary}@}, draw {@{an _oval_ for each _use case_ with its name}@}. {@{_Outside_}@} the system boundary, draw {@{a _stick figure_ for each _actor_ with its name}@}. Finally, for each {@{actor potentially initiating a use case}@}, draw {@{an _solid arrow_ pointing from the actor to the use case}@}, indicating {@{an _unidirectional association_ with the _implicit_ association name "use"}@}. Optionally, identify {@{_communication_ associations \(flow of information between a \(system\) actor and a use case\)}@}, and draw {@{a _solid line_ \(no arrow as it is _bidirectional_\) connecting the actor and the use case}@}. No need to {@{_name_ the association}@} as {@{the "communication" association name is _implied_ in the context of a use case diagram}@}.
 
 In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \(kinds of classes\)}@}. So {@{_generalization_}@} also {@{applies to actors and use cases}@}, indicated by {@{a _dashed arrow_ with a _hollow_ triangle as the arrow head}@}, pointing from {@{the sub-actors to the super-actor}@}. Again, using generalization is {@{a _design decision_}@}. \(__this course__: Do _not_ use {@{generalization for use cases}@} in our project. It is {@{_unnecessary_ and often used _incorrectly_}@}.\)
 
@@ -336,7 +336,7 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 5. __Flow of events__ ::@:: a step-by-step narrative of actions performed by actors and the system, written declaratively and numbered.
 6. __Postconditions__ \(if any\) ::@:: the state that must hold after completion if it matters to stakeholders or for subsequent use cases.
 7. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow.
-8. __Special (non-functional) requirements__ \(if any\) ::@:: any constraints such as performance or security that apply to this scenario.
+8. __Special (nonfunctional) requirements__ \(if any\) ::@:: any constraints such as performance or security that apply to this scenario.
 
 #### use case preconditions
 
@@ -436,7 +436,7 @@ To summarize, {@{a single use case}@} should capture {@{a complete, meaningful t
 
 ## analysis models
 
-{@{The analysis phase}@} of a software project often expands {@{the number of conceptual classes by up to five times compared with earlier stages}@}. In this phase, analysis focuses on {@{functional requirements only}@}; {@{implementation details}@} such as {@{programming-language types or UI layouts}@} are {@{deliberately omitted}@}.
+{@{The analysis phase}@} of a software project often expands {@{the number of conceptual classes by up to five times compared with earlier stages}@}. In this phase, analysis focuses on {@{_functional_ requirements only (and excludes _nonfunctional_ requirements)}@}; {@{implementation details}@} such as {@{programming-language types or UI layouts}@} are {@{deliberately omitted}@}.
 
 {@{Class descriptions}@} are {@{intentionally kept abstract and independent}@} of {@{any specific programming language or implementation framework}@}. {@{Attribute types}@} describe {@{real-world concepts rather than concrete data types}@}; {@{behavior}@} is captured through {@{textual responsibilities instead of method signatures}@}, and {@{relationships between classes}@} are defined in terms of {@{conceptual associations, not low-level references}@}.
 
@@ -472,7 +472,7 @@ It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary 
 
 To {@{specify entity classes for a model}@}, dissect {@{each use-case scenario}@} and asking {@{which domain entities must participate in that flow}@}. By tracing {@{the steps of a scenario}@}—such as {@{retrieving data, performing calculations or persisting results}@}—you can pinpoint {@{the concrete entity classes}@} that are {@{necessary to fulfil the use case's responsibilities}@}. \(e.g. {@{`Course`, `CourseOffering`, and `Professor`}@} in {@{a course registration system}@}\) The process is somewhat similar to {@{constructing a domain model}@}.
 
-{@{Entity objects}@} interact {@{only with control objects}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in information}@}. These result in a {@{well structured and maintainable}@} system.
+{@{Entity objects}@} interact {@{only with control objects}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in information}@}. They should {@{_never_ interact with other entity objects}@} directly. These result in a {@{well structured and maintainable}@} system.
 
 #### control classes
 
@@ -773,7 +773,7 @@ In the billing example, {@{the handheld device used by meter readers}@} is {@{oc
 
 ### common mistakes: nonfunctional requirements as use case
 
-{@{_Non-functional requirements_}@} such as {@{"login", "10% discount", or "by email"}@} are {@{mistakenly modeled as ordinary use cases or part of them}@}. For example, in the movie shop example, {@{"by email"}@} should not be part of {@{use case functionality "receive overdue notice"}@};  that is, {@{how the notice is received}@} is {@{not important}@}. Another example is {@{"login"}@}, which is {@{a _security_ non-functional requirement}@}. It may be represented by {@{an _administration use case_}@} instead.
+{@{_Nonfunctional requirements_}@} such as {@{"login", "10% discount", or "by email"}@} are {@{mistakenly modeled as ordinary use cases or part of them}@}. For example, in the movie shop example, {@{"by email"}@} should not be part of {@{use case functionality "receive overdue notice"}@};  that is, {@{how the notice is received}@} is {@{not important}@}. Another example is {@{"login"}@}, which is {@{a _security_ nonfunctional requirement}@}. It may be represented by {@{an _administration use case_}@} instead.
 
 ### common mistakes: wrong initiating actors
 
