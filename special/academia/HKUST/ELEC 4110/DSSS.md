@@ -4,8 +4,8 @@ aliases:
   - ELEC 4110 DSSS
   - ELEC 4110 direct sequence spread spectrum
   - ELEC 4110 direct-sequence spread spectrum
+  - ELEC4110 DSSS
   - ELEC4110 direct sequence spread spectrum
-  - ELEC4110 direct-sequence spread spectrum
   - ELEC4110 direct-sequence spread spectrum
   - direct sequence spread spectrum
   - direct-sequence spread spectrum

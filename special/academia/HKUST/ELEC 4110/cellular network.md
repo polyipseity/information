@@ -26,7 +26,7 @@ The {@{first commercially available mobile phone emerged in 1973}@}, yet it was 
 
 ## architecture
 
-{@{Mobile users}@} connect to {@{the _Base Station (BTS)_}@} via {@{radio}@}. {@{Several BTSs}@} are linked {@{through a _Backhaul_ to a _Base Station Controller (BSC)_}@}; {@{multiple BSCs}@} forward {@{traffic to the core, the _Mobile Switching Center (MSC)_}@}.   {@{The MSC}@} interfaces with the {@{_Public Switched Telephone Network (PSTN)_}@} for {@{voice and the Internet for data}@}.
+{@{Mobile users}@} connect to {@{the _Base Transceiver Station (BTS)_}@} via {@{radio}@}. {@{Several BTSs}@} are linked {@{through a _Backhaul_ to a _Base Station Controller (BSC)_}@}; {@{multiple BSCs}@} forward {@{traffic to the core, the _Mobile Switching Center (MSC)_}@}.   {@{The MSC}@} interfaces with the {@{_Public Switched Telephone Network (PSTN)_}@} for {@{voice and the Internet for data}@}.
 
 The {@{_BSC–MSC backhaul_}@} is {@{typically the capacity limiter}@}: all {@{BTS‑to‑core traffic}@} must {@{pass through it}@}, so its {@{bandwidth often caps overall system throughput}@}.
 

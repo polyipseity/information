@@ -27,7 +27,7 @@ Its {@{effectiveness hinges on the assumption}@} that {@{uplink and downlink exp
 ## closed-loop power control  
 
 {@{_Closed-loop power control_}@} adds a {@{feedback step}@} that allows the {@{receiver to influence the transmitter's output}@}.  
-After sending a signal, the receiver measures {@{its received power (or other quality metric) and sends back a command}@}—often called {@{TPC or a similar control message}@}—indicating whether the transmitter should {@{increase, decrease, or keep its current power level}@}. The transmitter then {@{adjusts accordingly}@}.
+After {@{sending a signal}@}, the receiver measures {@{its received power (or other quality metric) and sends back a command}@}—often called {@{TPC or a similar control message}@}—indicating whether the transmitter should {@{increase, decrease, or keep its current power level}@}. The transmitter then {@{adjusts accordingly}@}.
 
 {@{This iterative process}@} is used during {@{active data transmission in almost all mobile systems}@} (e.g., {@{CDMA, WCDMA, LTE, Bluetooth, etc.}@}). Because it reacts to {@{real‑time channel variations and interference conditions}@}, {@{closed-loop control}@} can maintain a {@{target received signal quality}@} with {@{much higher precision than open-loop methods}@}, though it {@{requires additional signalling overhead}@}.
 

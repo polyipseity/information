@@ -130,7 +130,7 @@ Demand management has {@{a defined set of processes, capabilities and recommende
 
 ## criticism
 
-{@{[E. F. Schumacher](E.%20F.%20Schumacher.md)}@} challenges {@{the prevailing economic assumption that fulfilling demand is the purpose of economic activity}@}, offering {@{a framework of what he calls "[Buddhist economics](Buddhist%20economics.md)"}@} in which {@{wise demands, fulfilling genuine human needs, are distinguished from unwise demands}@}, arising from {@{the [five intellectual impairments](five%20hindrances.md) recognized by Buddhism}@}:<sup>[\[15\]](#^ref-15)</sup>
+{@{[E. F. Schumacher](E.%20F.%20Schumacher.md)}@} challenges {@{the prevailing economic assumption that fulfilling demand is the purpose of economic activity}@}, offering {@{a framework of what he calls "[Buddhist economics](Buddhist%20economics.md)"}@} in which {@{wise demands, fulfilling genuine human needs}@}, are {@{distinguished from unwise demands}@}, arising from {@{the [five intellectual impairments](five%20hindrances.md) recognized by Buddhism}@}:<sup>[\[15\]](#^ref-15)</sup>
 
 > {@{The cultivation and expansion of needs}@} is {@{the antithesis of wisdom}@}. It is also {@{the antithesis of freedom and peace}@}. {@{Every increase of needs}@} tends to {@{increase one's dependence on outside forces over which one cannot have control}@}, and therefore {@{increases existential fear}@}. Only by {@{a reduction of needs}@} can one {@{promote a genuine reduction in those tensions}@} which are {@{the ultimate causes of strife and war}@}.<sup>[\[16\]](#^ref-16)</sup>
 
