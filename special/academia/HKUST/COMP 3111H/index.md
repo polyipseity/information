@@ -1119,9 +1119,9 @@ The content is in teaching order.
     - data: ? → ?
     - graph: ? → ?
   - breakdown
-    - question 1 \(multiple choice questions\): 14/15 → 14/15
+    - question 1 \(multiple choice questions ×15\): 14/15 → 14/15
     - question 2 \(short questions\): 24/25 → 24/25
-    - question 3 \(software development process matching\): 8/10 → 8/10
+    - question 3 \(software development process matching ×10\): 8/10 → 8/10
     - question 4 \(UML diagram\): 34/35 → 35/35
     - question 5 \(use case functionalities\): 15/15 → 15/15
 - report
@@ -1159,6 +1159,10 @@ The content is in teaching order.
 
 ---
 
+Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 34 ; Q5 (Max: 15) = 15 ; Total (Max: 100) = 95 ;
+
+---
+
 > Dear Students,
 >
 > __Lab 8 and paper checking session arrangements are as follows:__
@@ -1180,6 +1184,10 @@ The content is in teaching order.
 >
 > Regards, <br/>
 > COMP3111 Teaching Team
+
+---
+
+Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5 (Max: 15) = 15 ; Total (Max: 100) = 96 ;
 
 ## week 9 lab
 
@@ -1435,25 +1443,40 @@ The content is in teaching order.
   - cheatsheet: no
   - referencing: closed book, closed notes
   - provided: \(none\)
-  - questions: question ×? \(with subquestions\)
-- grades: ??/100 → ??/100
+  - questions: question ×8 \(with subquestions\)
+- grades: 84/100 → 89/100
   - statistics
-    - timestamps: 2025-12-??T??:??:??+08:00 → 2025-12-??T??:??:??+08:00
-    - mean: ? → ?
-    - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
+    - timestamps: 2025-12-09T21:09:28+08:00 → 2025-12-11T19:49:30+08:00
+    - mean: 62.77 (provided: 62.77298851) → 65.21
+    - standard deviation: ? (provided: 11.07796413) → ?
+    - low: 29.5 (provided: 29.5) → 29.5
+    - lower quartile: 56 → 58.31
+    - median: 63 → 66.25
+    - upper quartile: 71.19 → 73.5
+    - high: 86.5 (provided: 86.5) → 89
     - data: ? → ?
     - graph: ? → ?
-  - breakdown: ???
-- report: ???
+  - breakdown
+    - question 1 \(multiple choice questions ×12\): 6/6 → 6/6
+    - question 2 \(true-or-false questions ×10\): 5/5 → 5/5
+    - question 3 \(short questions\): 24/24 → 24/24
+    - question 4 \(UML diagram\): 28/30 → 28/30
+    - question 5 \(basis path testing\): 5/15 → 10/15
+    - question 6 \(state machine diagram\): 9/9 → 9/9
+    - question 7 \(software design patter principles ×4\): 4/4 → 4/4
+    - question 8 \(boundary value testing ×2\): 4/7 → 4/7
+- report
+  - software development process / prototyping (–1) ::@:: It is part of the _definition_ lifecycle phase, not the _elaboration_ lifecycle phase.
+  - UML diagram / long paragraphs (0) ::@:: 5 very long paragraphs in 3 pages. Many information are useless or already provided in the given initial attributes or the UML diagram. Only very few attributes and several UML elements need to be added.
+  - UML diagram / XOR constraints (–2) ::@:: Missing `{xor}` constraint between two schedule associations. The two associations connect the same two objects. They both have a multiplicity of `1` on one side and `*` on the other. <p> Originally I wanted to add it, but then decided to remove it because I thought then the object that can be linked to `*` number of the other object can only have one of the associations. Turns out it is okay to add in this case. <p> And some research online reveals that the semantics of the `{xor}` constraint is not that clear anyway... see ["Opposing views on the UML {xor} constraint"](https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/) ([archived](https://web.archive.org/web/20251211140959/https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/)).
+  - basis path testing / VBA `Raise` (–5) ::@:: `Raise` should be throwing an exception, so it should exit the function early. But the official solution treats it as a normal statement. Hmm... I should ask if I remember this.
+  - basis path testing / test value format (–5; +5) ::@:: The test value format the solution wants looks like `(field) = (value) AND (field) = (value)`, but I did not write it that way. And the example test value it provides do not provide any clue of this.
+  - boundary value testing / multiple conditions (–3) ::@:: The problem defines a valid input by three conditions: at least six characters, the first character is restricted, and the second and third characters are also restricted. <p> For each condition, define a domain for violating at least that condition. Finally add a "everything-else" domain, which are the valid inputs. <p> For boundary value tests, a minimum of 3 (instead of 5 that I wrote) test values are enough. The 3 test values comes from n−1, n, and n+1 boundary tests to test for at least six characters. Then make the n−1 test value to also violate the other two conditions to reuse it.
 - check
-  - datetime: 2025-12-??T18:00:00+08:00/2025-12-??T19:30:00+08:00, PT?H??M
-  - venue: ???
-  - report: ???
+  - datetime: 2025-12-10T11:30:00+08:00/2025-12-10T12:30:00+08:00, PT1H
+  - venue: Lecture Theater G, Academic Building
+  - report
+    - basis path testing / test value format (+5) ::@:: Luckily I wrote down my test value format... Regraded for everyone in the end.
 
 ---
 
@@ -1466,9 +1489,53 @@ The content is in teaching order.
 > Regards, <br/>
 > \[redacted\]
 
+---
+
+Q1 (Max: 6) = 6 ; Q2 (Max: 5) = 5 ; Q3 (Max: 24) = 23 ; Q4 (Max: 30) = 28 ; Q5 (Max: 15) = 5 ; Q6 (Max: 9) = 9 ; Q7 (Max: 4) = 4 ; Q8 (Max: 7) = 4 ; Total (Max: 100) = 84 ;
+
+---
+
+> Dear Students,
+>
+> The final exam marks have been released on Canvas. You can also check the question-wise scores in the comments.
+>
+> The final exam stats  are as follows:
+>
+> Max                          86.5 <br/>
+> Min                          29.5 <br/>
+> Average               62.77298851 <br/>
+> Standard deviation    11.07796413
+>
+> We will have our paper checking session tomorrow. See the details below:
+>
+> <u>COMP3111 Exam appeal session</u>
+>
+> &emsp; Date: 10 Dec 2025 (Wed)
+>
+> &emsp; Time: 11:30 am - 12:30 pm (1 hour duration)
+>
+> &emsp; Venue:__LTG__
+>
+> __Things to consider when you come for the paper checking session:__
+>
+> 1) Please bring your student ID and give it to the TA to get your exam. Return the exam paper to get your student ID back
+> 2) Please don't take pictures/videos of your exam and exam solution (if we catch someone taking pictures/videos, we will take strict action)
+> 3) Please don't leave the exam checking venue with the exam or the exam solution
+> 4) We will have a limited number of exam solutions available in the venue (10 copies only), so you have to share the solution with others.
+> 5) If you cannot join tomorrow's paper checking session, you can ask your friend to check the exam on your behalf. One student can get and check one paper at a time.
+> 6) There will be no other paper checking session after tomorrow.
+> 7) If any mark changes in any question, please mention it to TA so that TA can mark down the changes for you on a seprate sheet.
+>
+> Regards, <br/>
+> COMP3111 Teaching Team
+
+---
+
+Q1 (Max: 6) = 6 ; Q2 (Max: 5) = 5 ; Q3 (Max: 24) = 23 ; Q4 (Max: 30) = 28 ; Q5 (Max: 15) = 10 ; Q6 (Max: 9) = 9 ; Q7 (Max: 4) = 4 ; Q8 (Max: 7) = 4 ; Total (Max: 100) = 89 ;
+
 ## aftermath
 
 ### total
 
-- grades: ?/100
+- grades: 94.8/100
   - statistics: ?

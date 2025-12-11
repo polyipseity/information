@@ -198,7 +198,7 @@ An {@{_association constraint_}@} constrains {@{an _association_}@}. It can invo
 
 - association constraint: ordering ::@:: `{ordered, FIFO}`, `{ordered, LIFO}`, etc.; for one association, with the text placed closer to the class to be ordered
 - association constraint: subset ::@:: `{subset}`; the specialized \(subset\) association has a _dashed arrow_ towards the general \(superset\) association
-- association constraint: xor ::@:: `{xor}`; a _dashed line_ linking two associations; exactly one of the two associations can be _instantiated_ \(have _instances_ or _links_\)
+- association constraint: xor ::@:: `{xor}`; a _dashed line_ linking two associations; exactly one of the two associations can be _instantiated_ \(have _instances_ or _links_\) <p> The semantics of `{xor}` is a bit muddy... see ["Opposing views on the UML {xor} constraint"](https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/) ([archived](https://web.archive.org/web/20251211140959/https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/)).
 
 For {@{constraints in general}@}, UML provides {@{a text-based _formal_ constraint specification language}@} called {@{_Object Constraint Language \(OCL\)_}@}, similar to {@{C++ or Java}@}. \(__this course__: {@{not covered}@}\)
 
