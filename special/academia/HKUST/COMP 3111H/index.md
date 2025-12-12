@@ -926,6 +926,7 @@ The content is in teaching order.
 - [§ week 7 pre-lecture](#week%207%20pre-lecture)
 - [§ midterm examination](#midterm%20examination)
 - [questions § week 8 lecture](questions/index.md#week%208%20lecture)
+- assignment: [activity 1](assignments/activity%201/index.md)
 
 ---
 
@@ -1400,6 +1401,8 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5
 - topic: software design pattern; strategy pattern; observer pattern; mediator pattern; proxy pattern; bridge pattern; singleton pattern; factory pattern; anti-pattern; spaghetti code; god class
 - [§ week 11 pre-lecture](#week%2011%20pre-lecture)
 - [questions § week 12 lecture](questions/index.md#week%2012%20lecture)
+- assignment: [activity 2 - documentation](assignments/activity%202%20-%20documentation/index.md)
+- assignment: [activity 2 - source code](assignments/activity%202%20-%20source%20code/index.md)
 
 ## week 12 lab
 

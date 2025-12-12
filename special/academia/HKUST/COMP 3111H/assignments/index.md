@@ -16,6 +16,9 @@ tags:
 
 ## children
 
+- [activity 1](activity%201/index.md)
+- [activity 2 - documentation](activity%202%20-%20documentation/index.md)
+- [activity 2 - source code](activity%202%20-%20source%20code/index.md)
 - [lab 1](lab%201/index.md)
 - [lab 2](lab%202/index.md)
 <!-- - [lab 3](lab%203/index.md) -->

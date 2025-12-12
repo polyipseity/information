@@ -1,0 +1,98 @@
+assignment:
+  comments:
+    3600350:
+      attachments: []
+      author: '[redacted]'
+      content: 'Invited TA on Github and details in Readme (Max: 3) = 3 ; Group details
+        provided in pdf (Max: 2) = 2 ; Use case Diagram (Max: 5) = 5 ; Class Diagram
+        (Max:10) = 10 ; Use case specifications (Max: 10) = 10 ; Total (Max: 30) =
+        30 ; Comments (if any) = ; Grader Name (TA) = [redacted] ([redacted])
+        ;'
+      datetime: 2025-12-02 00:55:00+08:00
+      id: 3600350
+  content: 'Based on the project problem statement, work together with your teammates
+    to prepare the following information and have it integrated into a single document
+    in PDF format:
+
+
+    class diagram (team score) [teamwork]
+
+
+
+    use-case diagram (team score) [teamwork]
+
+
+
+    use-case specifications for all 3 tasks (individual score) [individual work]
+
+
+
+
+
+
+    NOTE: One submission per team (Only the Team leader should submit the PDF file
+    and GitHub repository link in the comment).
+
+    At the top of the document, indicate in the document (i.e., pdf file you submit
+    for activity 1) how the 3 tasks are allocated within the team. Individual scores
+    could vary depending on the sub-scores attained in the task-specific (use-case
+    specifications).
+
+    The TA will also review your team project repository on GitHub to ensure a proper
+    README file is present showing the Team ID, members’ personal particulars (emails,
+    Names, Student ID, GitHub ID), and individual task assignment. Ensure your GitHub
+    repository is private.
+
+    Here is the list of TAs'' GitHub accounts for you to invite them as collaborators:
+
+
+
+
+    NAME
+
+
+
+    EMAIL
+
+
+
+    GitHub Account
+
+
+
+
+
+
+
+    [redacted]
+
+
+
+    [redacted]
+
+
+
+    [redacted]'
+  grade:
+    entered: 30
+    graded anonymously: false
+    possible: 30
+  id: 396382
+  properties:
+    available:
+      end: 2025-10-24 23:59:00+08:00
+      start: null
+    due: 2025-10-24 23:59:00+08:00
+    file types:
+    - pdf
+    points: 30
+    submitting:
+    - a file upload
+  submissions:
+  - datetime: 2025-10-24 23:25:00+08:00
+    id: -1
+  title: Activity 1
+course:
+  id: 64514
+  name: COMP3111/H
+type: submission/Canvas/canvas.ust.hk
