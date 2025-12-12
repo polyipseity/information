@@ -168,6 +168,7 @@ commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
             "rebase",
             "--exec",
             f"{quote(git_exe)} commit --amend --gpg-sign --no-edit --no-verify",
+            "--rebase-merges",
             "--root",
         )
 
