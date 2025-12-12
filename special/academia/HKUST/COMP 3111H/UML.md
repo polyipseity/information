@@ -547,12 +547,12 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 ### SOLID principles
 
-{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution, interface segregation, dependency inversion}@}\)
+{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution}@}, {@{interface segregation, dependency inversion}@}\)
 
 - _Single Responsibility Principle_ ::@:: Each class has one responsibility.
 - _Open—Closed Principle_ ::@:: Classes accept extension but resist modification.
 - _Liskov Substitution Principle_ ::@:: Subclasses must be substitutable for superclasses.
-- _Interface Segregation Principle_ ::@:: Clients should not depend on unused interfaces.
+- _Interface Segregation Principle_ ::@:: Clients should not be _forced_ to depend on unused interfaces.
 - _Dependency Inversion Principle_ ::@:: High-level modules should _not_ depend on low-level modules. Both should depend on abstractions. Further, details should depend on abstractions, not the reverse.
 
 ## state machine diagrams
@@ -618,7 +618,7 @@ In a state machine, {@{_actions_}@} are {@{instantaneous, uninterruptible steps}
 
 {@{A _composite state machine diagram_}@} represents {@{a higher-level state \(_superstate_\)}@} that {@{contains one or more nested state machines \(_substates_\)}@}. {@{The outer state}@} encapsulates {@{its sub-states}@}, allowing the model to hide {@{internal complexity}@}. {@{Each nested diagram}@} can be treated as {@{an independent behavioral unit}@}. {@{The nested state machine}@} may be {@{_sequential_ or _concurrent_}@}.
 
-{@{A composite state}@} is indicated by {@{a glasses-looking symbol on the bottom right corner}@}. Actually, the symbol is supposed to be {@{two states connected together}@}. Alternatively, to {@{show the substates as well}@}, simply {@{draw another state machine diagram inside the state}@}.
+{@{A composite state}@} is indicated by {@{a glasses-looking symbol on the bottom right corner}@}. Actually, the symbol is supposed to be {@{two states connected together by a horizontal solid line}@}. Alternatively, to {@{show the substates as well}@}, simply {@{draw another state machine diagram inside the state}@}.
 
 For {@{an overall composite state}@}, {@{a transition that _ends_ at its _boundary_ \(but no further inside\)}@} is equivalent to {@{entering the all of its initial states for all regions}@}; when this occurs {@{all entry actions for the state of every region entered}@} are executed. {@{A transition that _starts_ from its _boundary_ \(but no further inside\)}@} is equivalent to {@{exiting all of its states for all regions}@}; when this occurs {@{all exit actions for the state of every region}@} are executed.
 

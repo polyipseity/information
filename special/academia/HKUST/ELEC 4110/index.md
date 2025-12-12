@@ -621,7 +621,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
   - ELEC 4110 / [binary modulation](binary%20modulation.md)
     - [§ receiver](binary%20modulation.md#receiver)
     - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
-- [_M_-ary transmission](../../../../general/M-ary%20transmission.md) ::@:: It is a type of digital modulation. Instead of sending one bit at a time as in binary, multiple messages, M, are sent. The binary data stream is divided into n tuples, where n = log₂ M bits. The signals can be represented as different frequencies, as in MFSK.
+- [_M_-ary transmission](../../../../general/M-ary%20transmission.md) ::@:: It is a type of digital modulation. Instead of sending one bit at a time as in binary, multiple messages, M, are sent. The binary data stream is divided into _n_ tuples, where _n_=log₂&nbsp;_M_ bits. The signals can be represented as different frequencies, as in MFSK.
   - _M_-ary transmission / advantages ::@:: This type of transmission results in reduced channel _bandwidth_ \(compared to halving the symbol time, which doubles the bandwidth\) at the expense of higher bit error rates.
 - ELEC 4110
   - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
