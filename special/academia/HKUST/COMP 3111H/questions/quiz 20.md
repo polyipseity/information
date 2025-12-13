@@ -5,6 +5,7 @@ aliases:
   - HKUST COMP 3111H quiz 20
   - HKUST COMP3111H quiz 20
 tags:
+  - date/2025/11/25
   - flashcard/active/special/academia/HKUST/COMP_3111H/questions/quiz_20
   - language/in/English
 ---
