@@ -25,4 +25,4 @@ tags:
 
 ## hints
 
-1. Bloomberg Terminal / graph / normalize ::@:: In the Y-axis options choose "Normalize" to set all series to a common base \(e.g., 100% on a chosen date\). This lets you compare relative performance rather than absolute price levels. <!--SR:!2026-01-12,66,310!2025-12-09,38,290-->
+1. Bloomberg Terminal / graph / normalize ::@:: In the Y-axis options choose "Normalize" to set all series to a common base \(e.g., 100% on a chosen date\). This lets you compare relative performance rather than absolute price levels. <!--SR:!2026-01-12,66,310!2026-05-11,153,310-->

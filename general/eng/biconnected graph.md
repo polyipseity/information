@@ -15,7 +15,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Graph%20connectivity%20sidebar) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Graph%20connectivity%20sidebar) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AGraph%20connectivity%20sidebar) | -->
 
-In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected graph__}@} is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph}@} has {@{no [articulation vertices](biconnected%20component.md)}@}. <!--SR:!2025-12-21,281,332!2025-12-22,282,332!2029-03-05,1193,350!2029-02-18,1183,352!2025-12-07,4,340!2025-12-07,4,340-->
+In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected graph__}@} is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph}@} has {@{no [articulation vertices](biconnected%20component.md)}@}. <!--SR:!2025-12-21,281,332!2025-12-22,282,332!2029-03-05,1193,350!2029-02-18,1183,352!2025-12-29,20,360!2025-12-27,18,360-->
 
 {@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity}@}, except that {@{the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2025-12-22,282,332!2029-02-21,1186,352!2025-12-18,12,340-->
 
@@ -39,7 +39,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
 >
-> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2029-02-26,1190,352!2029-03-03,1194,352!2025-12-09,18,352!2025-12-09,18,352!2025-12-10,19,352-->
+> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2029-02-26,1190,352!2029-03-03,1194,352!2026-03-04,85,372!2026-03-05,86,372!2025-12-10,19,352-->
 
 <!-- markdownlint MD028 -->
 

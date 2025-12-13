@@ -596,7 +596,7 @@ The content is in teaching order.
   - document-term matrix / rows, columns ::@:: In a document-term matrix, rows correspond to documents in the collection and columns correspond to terms. <!--SR:!2026-01-23,143,413!2026-01-24,144,417-->
 - bag-of-words model
   - bag-of-words model / preprocessing ::@:: 7 items: determine scope → tokenize → normalize cases → normalize spelling → remove stop words → stem → generate TDM <!--SR:!2026-01-28,147,415!2026-01-23,143,413-->
-- [vector space model](../../../../general/vector%20space%20model.md) ::@:: It is an algebraic model for representing text documents \(or more generally, items\) as vectors such that the distance between vectors represents the relevance between the documents. <!--SR:!2025-12-09,99,395!2026-01-20,140,413-->
+- [vector space model](../../../../general/vector%20space%20model.md) ::@:: It is an algebraic model for representing text documents \(or more generally, items\) as vectors such that the distance between vectors represents the relevance between the documents. <!--SR:!2027-06-03,541,415!2026-01-20,140,413-->
   - vector space model / bag-of-words model ::@:: For text processing, often the vector elements represent the number of occurrences of a term in a document in a bag-of-words model. <!--SR:!2026-01-21,141,413!2026-01-22,142,415-->
 - [tf–idf](../../../../general/tf–idf.md) ::@:: It is a measure of importance of a word to a document in a collection or corpus, adjusted for the fact that some words appear more frequently in general. <!--SR:!2026-01-24,144,417!2026-01-23,143,415-->
   - tf–idf / term frequency ::@:: It is the relative frequency of term _t_ within document _d_. <!--SR:!2026-01-22,142,413!2026-01-17,138,417-->

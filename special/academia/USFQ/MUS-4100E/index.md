@@ -652,7 +652,7 @@ The content is in teaching order.
   - free jazz / motivation ::@:: Musicians during this period believed that the bebop and modal jazz that had been played before them was too limiting, and became preoccupied with creating something new. <!--SR:!2028-04-28,886,458!2028-07-02,940,458-->
   - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_ <!--SR:!2028-06-25,934,458!2028-05-28,912,462-->
   - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony. <!--SR:!2028-06-05,918,458!2028-06-08,920,458-->
-- [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2025-12-09,161,441!2028-07-04,941,458-->
+- [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_. <!--SR:!2028-08-05,970,461!2028-07-04,941,458-->
 - [_The Shape of Jazz to Come_](../../../../general/The%20Shape%20of%20Jazz%20to%20Come.md) ::@:: It is the third album by the jazz musician Ornette Coleman. Released on Atlantic Records in 1959, it was his debut on the label and his first album featuring the working quartet including himself, trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. <!--SR:!2028-05-04,890,458!2028-04-29,887,458-->
   - _The Shape of Jazz to Come_ / uniqueness ::@:: It did not employ a chordal instrument such as a piano or guitar. <!--SR:!2028-07-24,959,461!2028-04-03,864,458-->
 - [Cecil Taylor](../../../../general/Cecil%20Taylor.md) \(1929–2018\) ::@:: He was an American pianist and poet. <p> Taylor was classically trained and was one of the pioneers of free jazz \(avant-garde jazz\). <p> He used every part of the piano. <!--SR:!2028-04-26,884,458!2025-12-12,164,441-->
@@ -673,14 +673,14 @@ The content is in teaching order.
   - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2028-06-29,936,458!2028-07-17,953,458-->
   - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report <!--SR:!2028-06-23,932,458!2028-07-15,951,458-->
 - [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations. <!--SR:!2028-07-21,956,458!2028-05-27,910,458-->
-  - Herbie Hancock / works ::@:: "Watermelon Man" \(1963\) — Herbie Hancock <br/> "Chameleon" \(1973\) — Herbie Hancock <br/> "I Thought It Was You" \(1979\) — Herbie Hancock: disco groove <br/> "Rokit" \(1983\) — Herbie Hancock <!--SR:!2025-12-09,161,438!2028-07-22,957,458-->
+  - Herbie Hancock / works ::@:: "Watermelon Man" \(1963\) — Herbie Hancock <br/> "Chameleon" \(1973\) — Herbie Hancock <br/> "I Thought It Was You" \(1979\) — Herbie Hancock: disco groove <br/> "Rokit" \(1983\) — Herbie Hancock <!--SR:!2028-07-25,959,458!2028-07-22,957,458-->
 - [Chick Corea](../../../../general/Chick%20Corea.md) \(1941–2021\) ::@:: He was an American jazz pianist, composer, bandleader and occasional percussionist. <p> As a member of Miles Davis's band in the late 1960s, he participated in the birth of jazz fusion. In the 1970s he formed Return to Forever. <p> He has won 28 Grammy Awards and was nominated 72 times for the award. <!--SR:!2028-06-24,933,458!2028-07-05,944,462-->
   - Chick Corea / works ::@:: "Spain" \(1973\) — Chick Corea <!--SR:!2028-06-13,924,458!2028-06-09,921,458-->
-- [bass guitar](../../../../general/bass%20guitar.md) ::@:: It is the lowest-pitched member of the guitar family. It is similar in appearance and construction to an electric but with a longer neck and scale length. <!--SR:!2028-05-19,904,458!2025-12-09,161,441-->
+- [bass guitar](../../../../general/bass%20guitar.md) ::@:: It is the lowest-pitched member of the guitar family. It is similar in appearance and construction to an electric but with a longer neck and scale length. <!--SR:!2028-05-19,904,458!2028-08-06,971,461-->
   - bass guitar / Jaco Pastorius ::@:: It was definitely a rhythm section instrument. <p> Then in the mid-1970s, Jaco Pastorius changed it forever... <!--SR:!2027-11-01,696,441!2028-07-17,952,458-->
 - [Jaco Pastorius](../../../../general/Jaco%20Pastorius.md) \(1951–1987\) ::@:: He was from Florida. He was killed in a fight trying to get into a club. <p> He was fully established as sole band bass player for the recording of _Heavy Weather_ \(Columbia, 1977\), which contained the Grammy-nominated hit "Birdland". <!--SR:!2028-07-23,958,458!2028-05-21,906,458-->
-  - Jaco Pastorius / works ::@:: "Donna Lee" — Jaco Pastorius <br/> _Heavy Weather_ \(1977\) — Weather Report <!--SR:!2025-12-09,161,441!2028-04-25,883,458-->
-- [Mahavishnu Orchestra](../../../../general/Mahavishnu%20Orchestra.md) ::@:: It was a jazz fusion band formed in New York City in 1971, led by English guitarist John McLaughlin. <p> It made guitar a rock fusion instrument. <!--SR:!2025-12-09,161,438!2028-05-27,911,461-->
+  - Jaco Pastorius / works ::@:: "Donna Lee" — Jaco Pastorius <br/> _Heavy Weather_ \(1977\) — Weather Report <!--SR:!2028-07-28,962,461!2028-04-25,883,458-->
+- [Mahavishnu Orchestra](../../../../general/Mahavishnu%20Orchestra.md) ::@:: It was a jazz fusion band formed in New York City in 1971, led by English guitarist John McLaughlin. <p> It made guitar a rock fusion instrument. <!--SR:!2028-07-26,960,458!2028-05-27,911,461-->
   - Mahavishnu Orchestra / works ::@:: "Birds of Fire" \(1973\) — Mahavishnu Orchestra <!--SR:!2025-12-10,162,438!2028-05-25,909,461-->
 - assignment: \(none\)
 
@@ -701,7 +701,7 @@ The content is in teaching order.
 - [Bill Evans](../../../../general/Bill%20Evans.md) \(1929–1980\) ::@:: He was an American jazz pianist and composer who worked primarily as the leader of his trio. His use of impressionist harmony, block chords, innovative chord voicing, and trademark rhythmically independent "singing" melodic lines continue to influence jazz pianists today. <!--SR:!2028-04-15,875,458!2027-07-06,631,438-->
   - Bill Evans / early life ::@:: He was left-handed. He was trained in an university. He became famous with Miles Davis. He was lyrical and not as bluesy as Oscar Peterson. <!--SR:!2028-06-03,916,458!2028-07-15,950,458-->
   - Bill Evans / trio ::@:: piano: Bill Evans <br/> drums: Paul Motion <br/> bass: Scott Lafaro <!--SR:!2028-05-26,909,458!2028-07-26,961,461-->
-    - Bill Evans / trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential <!--SR:!2025-12-10,162,438!2025-12-09,161,442-->
+    - Bill Evans / trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential <!--SR:!2025-12-10,162,438!2028-08-04,969,462-->
   - Bill Evans / works ::@:: "What Is This Thing Called Love?" \(1960\) — Bill Evans trio <br/> _Conversations with Myself_ <br/> _Live at Town Hall_ <br/> _Portrait in Jazz_ <br/> _Sunday at the Village Vanguard_ <br/> _Waltz for Debby_ <!--SR:!2028-05-08,894,458!2028-05-11,897,458-->
   - Bill Evans / later life ::@:: He struggled with heroin, and then cocaine. He died at 51 from hepatitis, pneumonia, liver failure, and stomach ulcers. <!--SR:!2028-05-07,893,458!2028-07-14,950,458-->
   - Bill Evans / effects ::@:: He brought _quartal harmony_ in jazz, which refers to building chords in 4ths instead of 3rds. <br/> He also influenced many pianists to play in the interactive style, e.g. Bill Charlap, Brad Mehldau, Keith Jarrett, etc. \(and the instructor\) <!--SR:!2028-07-11,947,458!2025-12-12,164,442-->
@@ -732,11 +732,11 @@ The content is in teaching order.
 - jazz
   - jazz / education ::@:: Since the 1980s, jazz has become more accessible and educational, with competitions, conservatories, and festivals appearing. <!--SR:!2028-06-05,918,458!2028-06-28,938,461-->
 - [Wynton Marsalis](../../../../general/Wynton%20Marsalis.md) \(1961–\) ::@:: He is an American trumpeter, composer, and music instructor, who is currently the artistic director of Jazz at Lincoln Center. He has been active in promoting classical and jazz music, often to young audiences. Marsalis has won nine Grammy Awards. <!--SR:!2028-06-26,936,458!2028-06-12,924,458-->
-  - Wynton Marsalis / effects ::@:: He is from New Orleans \(the birthplace!\). He brought bebop roots into jazz. He brought jazz into education. <!--SR:!2025-12-09,161,442!2028-06-22,931,458-->
+  - Wynton Marsalis / effects ::@:: He is from New Orleans \(the birthplace!\). He brought bebop roots into jazz. He brought jazz into education. <!--SR:!2028-08-09,974,462!2028-06-22,931,458-->
   - Wynton Marsalis / family ::@:: He comes from a musical family. <!--SR:!2028-06-02,915,458!2028-06-29,938,458-->
   - Wynton Marsalis / works ::@:: "Cherokee" \(1993\) — Wynton Marsalis <!--SR:!2028-06-15,926,458!2028-05-22,905,458-->
 - [Christian McBride](../../../../general/Christian%20McBride.md) \(1972–\) ::@:: He is an American jazz bassist, composer and arranger. He has appeared on more than 400 recordings as a sideman, and is a nine-time Grammy Award winner. <!--SR:!2028-06-01,914,458!2028-05-22,905,458-->
-  - Christian McBride / works ::@:: "Easy Walker" \(2013\) — Christian McBride Trio <!--SR:!2028-07-12,948,458!2025-12-09,161,441-->
+  - Christian McBride / works ::@:: "Easy Walker" \(2013\) — Christian McBride Trio <!--SR:!2028-07-12,948,458!2028-08-07,972,461-->
 - neo-bop
   - neo-bop / players ::@:: Brian Blade \(drums\) <br/> Christian McBride <br/> Joshua Redman \(saxophone\) <br/> Pete Bernstein \(guitar\) <br/> Wynton Marsalis <!--SR:!2028-05-16,901,458!2028-07-14,950,458-->
 - assignment: \(none\)
@@ -748,21 +748,21 @@ The content is in teaching order.
 - jazz
   - jazz / 2000s ::@:: Many musicians grew up with hip hop and jazz. They started experimenting with new grooves and rap. <!--SR:!2028-06-11,923,458!2028-07-13,949,458-->
 - [Roy Hargrove](../../../../general/Roy%20Hargrove.md) \(1969–2018\) ::@:: He was an American jazz musician and composer whose principal instruments were the trumpet and flugelhorn. He achieved critical acclaim after winning two Grammy Awards for differing styles of jazz in 1998 and 2002. <!--SR:!2027-10-22,688,441!2028-06-20,931,461-->
-  - Roy Hargrove / effects ::@:: He founded the band The RH Factor. He combined traditional bebop and jazz with hip hop, which started the trend to mix jazz with hip hop or rhythm & blues. <!--SR:!2025-12-09,161,438!2028-07-16,951,458-->
+  - Roy Hargrove / effects ::@:: He founded the band The RH Factor. He combined traditional bebop and jazz with hip hop, which started the trend to mix jazz with hip hop or rhythm & blues. <!--SR:!2028-07-27,961,458!2028-07-16,951,458-->
   - Roy Hargrove / works ::@:: "Strasbourg St Denis" \(2008\) — Roy Hargrove Quintet <!--SR:!2028-05-05,892,458!2028-06-18,928,458-->
   - Roy Hargrove / later life ::@:: He struggled with alcohol and drugs. He died of heart attack at 49. <!--SR:!2028-07-25,960,458!2028-06-10,922,458-->
 - [Robert Glasper](../../../../general/Robert%20Glasper.md) \(1978–\) ::@:: He is an American pianist, record producer, songwriter, and musical arranger. His music embodies numerous musical genres, primarily centered around jazz. Glasper has won five Grammy Awards from 11 nominations. <!--SR:!2028-06-21,932,462!2028-07-09,947,461-->
-  - Robert Glasper / works ::@:: "Stella By Starlight" \(2014\) — Robert Glasper <br/> _Black Radio_ \(2012\) — Robert Glasper: his breakout album, which won a Grammy for Best R&B Album <br/> _Black Radio III_ \(2022\) — Robert Glasper: also won a Grammar for Best R&B Album <!--SR:!2027-11-02,697,441!2025-12-09,161,441-->
+  - Robert Glasper / works ::@:: "Stella By Starlight" \(2014\) — Robert Glasper <br/> _Black Radio_ \(2012\) — Robert Glasper: his breakout album, which won a Grammy for Best R&B Album <br/> _Black Radio III_ \(2022\) — Robert Glasper: also won a Grammar for Best R&B Album <!--SR:!2027-11-02,697,441!2028-08-03,968,461-->
   - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2028-05-20,905,458!2028-05-01,888,458-->
 - [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2028-07-09,945,458!2028-04-04,865,458-->
   - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2028-06-18,929,461!2028-05-21,904,458-->
   - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2028-05-02,889,458!2025-12-26,163,454-->
-- [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2028-06-13,925,461!2025-12-09,161,438-->
+- [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2028-06-13,925,461!2028-07-24,958,458-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2028-06-20,930,458!2028-07-20,955,458-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2028-05-30,914,462!2028-05-22,907,462-->
   - Corey Henry / works ::@:: "Billie Jean" \(2016\) — Cory Henry feat. Jacob Collier: originally a 1983 single by Michael Jackson <!--SR:!2028-06-01,916,462!2025-12-10,162,441-->
 - [jazz rap](../../../../general/jazz%20rap.md) ::@:: It is a fusion of jazz and hip hop music, as well as an alternative hip-hop subgenre, that developed in the late 1980s and early 1990s. <!--SR:!2028-05-24,907,458!2028-06-22,933,461-->
-  - jazz rap / works ::@:: "For Free?" \(2015\) — Kendrick Lamar: lots of profanity <!--SR:!2028-07-16,952,458!2025-12-09,161,441-->
+  - jazz rap / works ::@:: "For Free?" \(2015\) — Kendrick Lamar: lots of profanity <!--SR:!2028-07-16,952,458!2028-07-29,963,461-->
 - assignment: \(none\)
 
 ## week 16 lecture 2

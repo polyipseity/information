@@ -21,7 +21,7 @@ The __CNO cycle__ (for {@{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxyge
 
 ## cold CNO cycles
 
-Under {@{typical conditions found in stars}@}, catalytic hydrogen burning by the CNO cycles is {@{limited by [proton captures](proton%20capture.md)}@}. Specifically, {@{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced}@} is faster than {@{the timescale for fusion}@}. Because of the long timescales involved, the cold CNO cycles {@{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}@}. <!--SR:!2027-09-30,867,330!2029-05-03,1353,350!2029-09-13,1386,310!2026-12-11,592,310!2025-12-08,3,286-->
+Under {@{typical conditions found in stars}@}, catalytic hydrogen burning by the CNO cycles is {@{limited by [proton captures](proton%20capture.md)}@}. Specifically, {@{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced}@} is faster than {@{the timescale for fusion}@}. Because of the long timescales involved, the cold CNO cycles {@{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}@}. <!--SR:!2027-09-30,867,330!2029-05-03,1353,350!2029-09-13,1386,310!2026-12-11,592,310!2025-12-17,8,286-->
 
 ### CNO-I
 
@@ -42,7 +42,7 @@ This cycle is now understood as {@{being the first part of a larger process, the
 - 6th step ::@:: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2027-03-25,541,230!2029-02-12,1288,350-->
   - 6th step / energy release (& half-life if available) ::@:: 4.96 MeV <!--SR:!2026-02-11,382,290!2027-09-07,852,330-->
 
-...where {@{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}@}. After {@{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}@}, {@{the total energy released in one cycle}@} is {@{26.73 MeV}@}. <!--SR:!2027-05-12,771,330!2028-03-14,842,270!2028-04-29,1000,310!2025-12-09,4,306-->
+...where {@{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}@}. After {@{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}@}, {@{the total energy released in one cycle}@} is {@{26.73 MeV}@}. <!--SR:!2027-05-12,771,330!2028-03-14,842,270!2028-04-29,1000,310!2025-12-27,18,326-->
 
 ## references
 

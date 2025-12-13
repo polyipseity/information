@@ -9,7 +9,7 @@ tags:
 
 # chromatic aberration
 
-In [optics](optics.md), {@{__chromatic aberration__ (__CA__)}@}, also called {@{__chromatic distortion__, __color aberration__, __color fringing__, or __purple fringing__}@}, is {@{a failure of a [lens](lens.md) to [focus](focus%20(optics).md) all [colors](color.md) to the same point}@}. It is caused by {@{[dispersion](dispersion%20(optics).md): the [refractive index](refractive%20index.md) of the lens elements varies with the [wavelength](wavelength.md) of [light](light.md)}@}. The refractive index of most transparent materials {@{decreases with increasing wavelength}@}. <!--SR:!2027-12-24,969,350!2025-12-09,334,290!2027-12-09,927,330!2028-05-29,992,290!2028-06-17,1102,350-->
+In [optics](optics.md), {@{__chromatic aberration__ (__CA__)}@}, also called {@{__chromatic distortion__, __color aberration__, __color fringing__, or __purple fringing__}@}, is {@{a failure of a [lens](lens.md) to [focus](focus%20(optics).md) all [colors](color.md) to the same point}@}. It is caused by {@{[dispersion](dispersion%20(optics).md): the [refractive index](refractive%20index.md) of the lens elements varies with the [wavelength](wavelength.md) of [light](light.md)}@}. The refractive index of most transparent materials {@{decreases with increasing wavelength}@}. <!--SR:!2027-12-24,969,350!2029-08-16,1346,310!2027-12-09,927,330!2028-05-29,992,290!2028-06-17,1102,350-->
 
 ## references
 

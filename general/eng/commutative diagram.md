@@ -41,7 +41,7 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
 
 ### verifying commutativity
 
-{@{Commutativity makes sense}@} for {@{a [polygon](polygon.md) of any finite number of sides \(including just 1 or 2\)}@}, and a diagram is commutative {@{if every polygonal subdiagram is commutative}@}. <!--SR:!2026-01-19,270,330!2025-12-09,236,330!2028-10-28,1059,350-->
+{@{Commutativity makes sense}@} for {@{a [polygon](polygon.md) of any finite number of sides \(including just 1 or 2\)}@}, and a diagram is commutative {@{if every polygonal subdiagram is commutative}@}. <!--SR:!2026-01-19,270,330!2028-11-22,1079,350!2028-10-28,1059,350-->
 
 Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of different paths in the diagram may not give the same result}@}. <!--SR:!2026-02-13,290,330!2026-01-28,275,330-->
 

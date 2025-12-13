@@ -8,7 +8,7 @@ tags:
 
 # marginalism
 
-__Marginalism__ is {@{a theory of [economics](economics.md)}@} that {@{attempts to explain the discrepancy in the value of goods and services}@} by {@{reference to their secondary, or marginal, utility}@}. It states that {@{the reason why the price of diamonds is higher than that of water}@}, for example, owes to {@{the greater additional satisfaction of the diamonds over the water}@}. Thus, while {@{the water has greater total utility, the diamond has greater [marginal utility](marginal%20utility.md)}@}. <!--SR:!2029-07-25,1389,367!2029-03-06,1185,347!2030-05-11,1617,367!2029-08-12,1403,367!2025-12-09,342,347!2025-12-10,5,370-->
+__Marginalism__ is {@{a theory of [economics](economics.md)}@} that {@{attempts to explain the discrepancy in the value of goods and services}@} by {@{reference to their secondary, or marginal, utility}@}. It states that {@{the reason why the price of diamonds is higher than that of water}@}, for example, owes to {@{the greater additional satisfaction of the diamonds over the water}@}. Thus, while {@{the water has greater total utility, the diamond has greater [marginal utility](marginal%20utility.md)}@}. <!--SR:!2029-07-25,1389,367!2029-03-06,1185,347!2030-05-11,1617,367!2029-08-12,1403,367!2030-05-29,1632,367!2025-12-10,5,370-->
 
 Although {@{the central concept of marginalism is that of marginal utility}@}, marginalists, following the lead of [Alfred Marshall](Alfred%20Marshall.md), drew upon {@{the idea of [marginal physical productivity](marginal%20product.md) in explanation of [cost](cost.md)}@}. The [neoclassical](neoclassical%20economics.md) tradition that emerged from [British](United%20Kingdom%20of%20Great%20Britain%20and%20Ireland.md) marginalism {@{abandoned the concept of [utility](utility.md) and gave [marginal rates of substitution](marginal%20rate%20of%20substitution.md) a more fundamental role in analysis}@}. Marginalism is an integral part of {@{[mainstream economic](mainstream%20economics.md) theory}@}. <!--SR:!2028-10-15,1132,347!2030-03-02,1563,367!2026-01-16,324,290!2029-07-07,1373,367-->
 
@@ -120,7 +120,7 @@ Both neoclassical economics and thorough-going marginalism could be said to {@{e
 
 Marginalists in the tradition of {@{[Marshall](Alfred%20Marshall.md) and neoclassical economists}@} tend to represent the supply curve for any producer as {@{a curve of marginal pecuniary costs objectively determined by physical processes, with an upward slope determined by [diminishing returns](diminishing%20returns.md)}@}. <!--SR:!2029-12-06,1495,367!2027-02-06,640,327-->
 
-A more thorough-going marginalism represents the supply curve as {@{a _complementary demand curve_ – where the demand is _for_ money and the purchase is made _with_ a good or service}@}.<sup>[\[10\]](#^ref-10)</sup> The shape of that curve is then {@{determined by marginal rates of substitution of money for that good or service}@}. <!--SR:!2026-01-10,368,347!2025-12-09,288,287-->
+A more thorough-going marginalism represents the supply curve as {@{a _complementary demand curve_ – where the demand is _for_ money and the purchase is made _with_ a good or service}@}.<sup>[\[10\]](#^ref-10)</sup> The shape of that curve is then {@{determined by marginal rates of substitution of money for that good or service}@}. <!--SR:!2026-01-10,368,347!2029-01-31,1149,307-->
 
 ### markets
 

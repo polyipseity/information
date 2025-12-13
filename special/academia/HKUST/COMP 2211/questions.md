@@ -194,7 +194,7 @@ tags:
 
 > Q8. Return the maximum value within a NumPy array `a`.
 >
-> - solution: {@{`numpy.max(a)`, `a.max()`}@} <!--SR:!2025-12-09,272,330-->
+> - solution: {@{`numpy.max(a)`, `a.max()`}@} <!--SR:!2029-04-26,1234,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -224,7 +224,7 @@ tags:
 > 3. `M + C`, where `C` is an array of shape (5, 3)
 > 4. `M + D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{4}@} <!--SR:!2025-12-09,272,330-->
+> - solution: {@{4}@} <!--SR:!2029-05-03,1241,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -360,7 +360,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: the last question might help.
 >
-> - solution: {@{`students[numpy.argsort(marks)[-len(students) // 4:]]`}@} <!--SR:!2025-12-09,272,330-->
+> - solution: {@{`students[numpy.argsort(marks)[-len(students) // 4:]]`}@} <!--SR:!2029-04-30,1238,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -893,7 +893,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2, 4}@}
-> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-12-09,272,330!2029-01-08,1151,350-->
+> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2029-04-29,1237,350!2029-01-08,1151,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2}@}
-> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2028-08-20,1036,350!2025-12-09,272,330-->
+> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2028-08-20,1036,350!2029-05-02,1240,350-->
 
 ## multilayer perceptron
 
@@ -916,7 +916,7 @@ tags:
 > 3. MLP is a feed-forward neural network designed to work exactly as human brains learn.
 > 4. To use MLP for supervised learning, we always need to apply a suitable loss function at the end of the network.
 >
-> - solution: {@{4}@} <!--SR:!2025-12-09,272,330-->
+> - solution: {@{4}@} <!--SR:!2029-04-28,1236,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1261,7 +1261,7 @@ tags:
 >
 > Explain which method is better and why?
 >
-> - solution: {@{Actually they are the same thing. The mathematical operations are the same.}@} <!--SR:!2025-12-09,272,330-->
+> - solution: {@{Actually they are the same thing. The mathematical operations are the same.}@} <!--SR:!2029-05-01,1239,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1321,7 +1321,7 @@ tags:
 > 3. Dijkstra's
 > 4. Bellman-Ford
 >
-> - solution: {@{2}@} <!--SR:!2025-12-09,272,330-->
+> - solution: {@{2}@} <!--SR:!2029-05-04,1242,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1488,7 +1488,7 @@ tags:
 >
 > Using the definition of a Markov chain, justify or refute the student's claim.
 >
-> - solution: {@{No. <p> Simply consider a Markov chain with 1 state that always transit back to itself. Or consider that one can run a Markov chain infinitely many times, but a Markov chain (usually) has finitely many states, so by the pigeonhole principle, at least one state must repeat itself.}@} <!--SR:!2025-12-09,272,330-->
+> - solution: {@{No. <p> Simply consider a Markov chain with 1 state that always transit back to itself. Or consider that one can run a Markov chain infinitely many times, but a Markov chain (usually) has finitely many states, so by the pigeonhole principle, at least one state must repeat itself.}@} <!--SR:!2029-04-27,1235,350-->
 
 <!-- markdownlint MD028 -->
 

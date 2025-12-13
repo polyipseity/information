@@ -25,7 +25,7 @@ There are two main ways to describe entropy: {@{the macroscopic description from
 >
 > where
 >
-> - {@{$\mathrm{d}S$}@} is {@{the infinitesimal entropy change due to the infinitesimal received [heat](heat.md) $\delta Q_\text{in}$}@} \({@{[inexact differential](inexact%20differential.md)}@}\) at {@{instantaneous [temperature](temperature.md) $T$}@} <!--SR:!2028-08-07,1233,310!2026-02-06,411,310!2025-12-09,18,320!2025-12-09,18,320!2025-12-09,18,320-->
+> - {@{$\mathrm{d}S$}@} is {@{the infinitesimal entropy change due to the infinitesimal received [heat](heat.md) $\delta Q_\text{in}$}@} \({@{[inexact differential](inexact%20differential.md)}@}\) at {@{instantaneous [temperature](temperature.md) $T$}@} <!--SR:!2028-08-07,1233,310!2026-02-06,411,310!2026-03-02,83,340!2026-03-02,83,340!2026-03-02,83,340-->
 
 ## references
 

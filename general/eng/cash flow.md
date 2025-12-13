@@ -72,7 +72,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 - Changing in net working capital: ::@:: it is the cost or revenue related to the company's short-term asset like inventory. <!--SR:!2026-11-18,502,310!2026-01-18,292,330-->
 - [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment. <!--SR:!2026-11-29,518,310!2026-11-24,505,310-->
 
-{@{The sum of the three component above}@} will be {@{the cash flow for a project}@}. <!--SR:!2025-12-09,261,330!2029-01-10,1142,350-->
+{@{The sum of the three component above}@} will be {@{the cash flow for a project}@}. <!--SR:!2029-03-11,1188,350!2029-01-10,1142,350-->
 
 And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2029-02-12,1167,350!2028-12-02,1110,350!2026-01-17,291,330-->
 

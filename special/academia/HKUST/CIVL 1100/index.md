@@ -78,7 +78,7 @@ The content is in teaching order.
   - symbol of moment about point $P$ ::@:: $M_P$ <!--SR:!2029-07-20,1488,370!2029-04-15,1413,370-->
   - torque conventions ::@:: __counterclockwise positive__, clockwise negative <!--SR:!2027-08-15,918,350!2029-01-07,1315,361-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
-    - application of principles of moments ::@:: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2025-12-09,388,310!2027-03-06,731,330-->
+    - application of principles of moments ::@:: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2030-06-28,1662,330!2027-03-06,731,330-->
 - [bending](../../../../general/bending.md)
   - bending conditions ::@:: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2028-07-27,1082,321!2028-12-24,1301,361-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)

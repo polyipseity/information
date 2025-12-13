@@ -46,7 +46,7 @@ else:
 
 {@{The semantics of `if...elif...else`}@} can be found by {@{considering the semantics of chaining `if...else`}@}: {@{The statement block after the first `true` condition}@} is {@{executed}@}. If there are {@{no `true` conditions}@}, {@{the statement block after `else` is executed}@} if {@{there is an `else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `true` condition \(inclusive\)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `true` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `else` statement block if there is one}@}. <!--SR:!2026-07-11,611,310!2027-04-01,807,323!2026-01-01,98,385!2026-01-06,103,385!2026-01-06,103,385!2026-01-06,103,385!2026-01-06,103,385!2026-01-06,103,385!2026-01-06,103,385!2026-01-04,101,385!2026-01-06,103,385!2026-01-06,103,385!2026-01-05,102,385!2026-01-03,100,385!2026-01-06,103,385-->
 
-If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-05-02,467,378!2026-05-01,466,378!2026-05-03,468,378!2025-12-09,5,388-->
+If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-05-02,467,378!2026-05-01,466,378!2026-05-03,468,378!2026-01-06,28,408-->
 
 ```Python
 if condition:
@@ -77,7 +77,7 @@ while condition:
 
 The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330!2026-03-26,141,409!2026-03-25,140,409!2026-03-14,131,409!2026-03-26,141,409-->
 
-If there are {@{no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2030-05-09,1617,385!2025-12-09,5,388-->
+If there are {@{no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2030-05-09,1617,385!2026-01-04,26,408-->
 
 ```Python
 for loop_variables in iterable:

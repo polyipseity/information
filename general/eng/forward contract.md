@@ -91,7 +91,7 @@ For {@{an asset that provides __no income__}@}, {@{the relationship between the 
 For {@{an asset that pays __known income__}@}, the relationship becomes: <!--SR:!2025-12-18,54,310-->
 
 - Discrete: ::@:: $F_{0}=(S_{0}-I)e^{rT}$ \(annotation: where $I=$ the present value of the discrete income at time $t_{0}<T$\) <!--SR:!2025-12-18,54,310!2026-01-02,67,310-->
-- Continuous: ::@:: $F_{0}=S_{0}e^{(r-q)T}$ \(annotation: where $q\%p.a$. is the continuously compounded dividend yield over the life of the contract\) <!--SR:!2026-01-01,66,310!2025-12-09,44,290-->
+- Continuous: ::@:: $F_{0}=S_{0}e^{(r-q)T}$ \(annotation: where $q\%p.a$. is the continuously compounded dividend yield over the life of the contract\) <!--SR:!2026-01-01,66,310!2026-06-05,178,310-->
 
 where $I=$ {@{the present value of the discrete income at time $t_{0}<T$}@}, and $q\%p.a$. is {@{the continuously compounded dividend yield over the life of the contract}@}. {@{The intuition}@} is that when {@{an asset pays income}@}, there is {@{a benefit to holding the asset rather than the forward}@} because you get to {@{receive this income}@}. Hence {@{the income \($I$ or $q$\)}@} must be {@{subtracted to reflect this benefit}@}. An example of {@{an asset which pays discrete income}@} might be {@{a [stock](stock.md)}@}, and an example of {@{an asset which pays a continuous yield}@} might be {@{a [foreign currency](foreign%20currency.md) or a [stock index](stock%20index.md)}@}. <!--SR:!2025-12-25,60,310!2025-12-18,54,310!2025-12-18,54,310!2025-12-23,58,310!2026-01-02,67,310!2025-12-31,65,310!2026-01-01,66,310!2025-12-25,60,310!2026-01-02,67,310!2025-12-22,58,310!2025-12-30,64,310!2025-12-27,61,310-->
 

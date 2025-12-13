@@ -76,7 +76,7 @@ C$: [cost structure](#cost%20structure)
 
 The customer segments building block shows {@{the different groups an organization is trying to serve}@}. Customers are the heart of any business model because {@{without them, no business can work}@}. <!--SR:!2027-01-10,711,294!2027-02-22,786,334-->
 
-{@{Customers}@} should be {@{separated into different segments}@} if they have {@{different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships)}@}, {@{very different profitability, or needing different aspects of your products}@}. <!--SR:!2029-05-14,1274,277!2026-02-21,76,349!2025-12-09,18,329!2026-02-26,80,349-->
+{@{Customers}@} should be {@{separated into different segments}@} if they have {@{different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships)}@}, {@{very different profitability, or needing different aspects of your products}@}. <!--SR:!2029-05-14,1274,277!2026-02-21,76,349!2026-03-04,85,349!2026-02-26,80,349-->
 
 ##### customer segment examples
 
@@ -172,7 +172,7 @@ risk reduction
 - design→::@::←newness <!--SR:!2027-08-08,822,277!2027-12-05,746,254-->
 - newness→::@::←performance <!--SR:!2026-02-01,312,277!2027-12-06,913,277-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2029-07-23,1433,314-->
-- performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
+- performing the job well→::@::←price <!--SR:!2030-07-28,1692,314!2026-03-24,455,274-->
 - price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2026-12-09,621,274-->
 - risk reduction→::@::←_(end)_ <!--SR:!2028-09-17,1081,297!2029-06-08,1292,277-->
 
@@ -180,7 +180,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2025-12-09,357,277!2029-09-22,1477,314-->
+The channels building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2029-09-18,1379,297!2029-09-22,1477,314-->
 
 #### customer relationships
 

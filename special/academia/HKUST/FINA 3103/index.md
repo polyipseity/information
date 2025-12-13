@@ -168,7 +168,7 @@ The content is in teaching order.
   - index / finance ::@:: It indicates the price performance of a basket \(combination\) of securities. <p> Some derivatives are priced based on indices. <!--SR:!2026-01-22,89,370!2026-01-24,91,370-->
   - index / characteristics ::@:: debt or equity, coverage, geographical coverage, sector coverage <!--SR:!2025-12-29,66,350!2026-01-22,90,370-->
   - index / examples ::@:: Barclays: debt <br/> DJI: equity, narrow coverage, general sectors, country <br/> HSCI: broad coverage <br/> HSI: narrow coverage, general sectors <br/> HSI-Fin: sectoral <br/> MSCI: regional <br/> Merrill: debt <br/> S&P&nbsp;500: debt, broad coverage <!--SR:!2026-03-02,113,330!2026-04-01,126,327-->
-  - index / weighing ::@:: 2 common methodology: value-weighted, price-weighted <!--SR:!2026-01-16,85,370!2025-12-09,52,347-->
+  - index / weighing ::@:: 2 common methodology: value-weighted, price-weighted <!--SR:!2026-01-16,85,370!2026-08-18,252,367-->
     - index / weighing / price-weighted ::@:: Sum the price of all stocks included in the index. Finally, divide by a divisor, which is initially 1. <p> The divisor is adjusted to mitigate drastic price changes due to stock mergers and splits. <p> examples: Dow Jones Index \(DJI\), etc. <!--SR:!2026-01-22,90,370!2026-01-15,84,367-->
     - index / weighing / value-weighted ::@:: _Market capitalization_ of a stock is the number of outstanding stock multiplied by its price. <p> Sum the market capitalization of all stocks in the index. Divide by the sum of the market capitalization of all stocks in the index at an initial time. Finally, multiply by 100. <p> It is not affected by stock mergers and splits. <p> examples: FTSE&nbsp;100, Hang Seng Index, Nasdaq Composite, S&P&nbsp;500, etc. <!--SR:!2026-01-16,85,370!2026-06-02,185,350-->
 - [primary market](../../../../general/primary%20market.md) ::@:: It is the part of the capital market that deals with the issuance and sale of securities to purchasers directly by the issuer, with the issuer being paid the proceeds. <!--SR:!2026-05-31,183,347!2026-01-22,90,370-->
@@ -189,7 +189,7 @@ The content is in teaching order.
 - [over-the-counter](../../../../general/over-the-counter%20(finance).md) \(OTC\) ::@:: It is done directly between two parties, without the supervision of an exchange. It is contrasted with exchange trading, which occurs via exchanges. <p> In an OTC trade, the price is not necessarily publicly disclosed. <!--SR:!2026-01-14,83,370!2026-01-22,90,370-->
   - over-the-counter / characteristics ::@:: customized contracts, exotic contracts, mediated by dealers, not a place <!--SR:!2026-01-15,84,367!2025-12-26,63,350-->
   - over-the-counter / disadvantages ::@:: counterparty risk, less liquid, opaque, systemic risk \(if major dealers are distressed\) <!--SR:!2026-01-22,90,370!2026-01-21,89,367-->
-  - over-the-counter / examples ::@:: exotic options, forwards, structured products, swaps <p> \(__this course__: typically bonds\) <!--SR:!2025-12-09,52,347!2026-01-20,88,370-->
+  - over-the-counter / examples ::@:: exotic options, forwards, structured products, swaps <p> \(__this course__: typically bonds\) <!--SR:!2026-08-19,253,367!2026-01-20,88,370-->
 - stock exchange
   - stock exchange / competition ::@:: There are multiple exchanges in the United States. This competition benefits users. <p> However, there are unintended consequences, e.g. enabling high-frequency trading \(HFT\), enabling latency arbitrage, etc. <!--SR:!2025-12-20,58,350!2026-01-22,90,370-->
 - order book

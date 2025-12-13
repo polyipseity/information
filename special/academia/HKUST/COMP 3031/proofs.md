@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-01-16,65,310!2026-01-12,62,310!2026-01-03,54,310!2026-01-13,63,310!2026-01-15,64,310!2026-01-08,58,310!2026-01-05,56,310!2026-01-04,55,310!2026-01-06,57,310!2026-01-13,63,310!2026-01-04,55,310!2026-01-17,66,310!2026-01-16,65,310!2026-01-04,55,310!2026-01-04,55,310!2025-12-09,31,270!2026-01-06,57,310!2026-01-15,64,310!2026-01-03,54,310!2026-01-17,66,310!2026-01-05,56,310-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-01-16,65,310!2026-01-12,62,310!2026-01-03,54,310!2026-01-13,63,310!2026-01-15,64,310!2026-01-08,58,310!2026-01-05,56,310!2026-01-04,55,310!2026-01-06,57,310!2026-01-13,63,310!2026-01-04,55,310!2026-01-17,66,310!2026-01-16,65,310!2026-01-04,55,310!2026-01-04,55,310!2026-04-02,114,290!2026-01-06,57,310!2026-01-15,64,310!2026-01-03,54,310!2026-01-17,66,310!2026-01-05,56,310-->
 
 ### proving set union property
 

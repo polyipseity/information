@@ -22,11 +22,11 @@ The model uses ideas such as:
 - [apparent retrograde motion](apparent%20retrograde%20motion.md) ::@:: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2027-10-01,882,341!2028-10-24,1224,361-->
 - [stars](star.md) ::@:: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2027-01-01,678,341!2031-01-05,1876,381-->
 
-The model has {@{several advantages}@}: {@{simpler and more elegant}@}, and naturally {@{explains several phenomenons}@}: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md)}@}, changing {@{brightness of planets}@}, and motion of {@{[inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is {@{not without disadvantages}@}: {@{not more accurate than old models}@} \(due to {@{the incorrect assumption of perfectly circular orbits}@}\), and {@{[Earth](Earth.md) needs to move in very high speed}@}, which is {@{generally thought to be improbable at the time}@}. <!--SR:!2031-05-12,1981,381!2028-10-03,1200,361!2028-12-09,1261,361!2031-05-14,1983,381!2025-12-08,4,343!2025-12-08,4,343!2025-12-08,4,343!2025-12-08,4,343!2025-12-08,4,343!2025-12-08,4,343!2025-12-08,4,343-->
+The model has {@{several advantages}@}: {@{simpler and more elegant}@}, and naturally {@{explains several phenomenons}@}: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md)}@}, changing {@{brightness of planets}@}, and motion of {@{[inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is {@{not without disadvantages}@}: {@{not more accurate than old models}@} \(due to {@{the incorrect assumption of perfectly circular orbits}@}\), and {@{[Earth](Earth.md) needs to move in very high speed}@}, which is {@{generally thought to be improbable at the time}@}. <!--SR:!2031-05-12,1981,381!2028-10-03,1200,361!2028-12-09,1261,361!2031-05-14,1983,381!2025-12-28,19,363!2025-12-29,20,363!2025-12-29,20,363!2025-12-28,19,363!2025-12-29,20,363!2025-12-27,18,363!2025-12-29,20,363-->
 
 ## Copernican theory
 
-{@{The Copernican order of spheres}@} {@{from the [Sun](Sun.md) outward}@} is: <!--SR:!2028-12-11,1265,350!2025-12-08,4,343-->
+{@{The Copernican order of spheres}@} {@{from the [Sun](Sun.md) outward}@} is: <!--SR:!2028-12-11,1265,350!2025-12-29,20,363-->
 
 ```Python
 # pytextgen generate data

@@ -10,9 +10,9 @@ tags:
 
 # divergence
 
-- {@{"Terminating"}@} redirects here. For other uses, see {@{[Termination](termination%20(disambiguation).md)}@}. <!--SR:!2026-07-17,229,330!2025-12-09,62,310-->
+- {@{"Terminating"}@} redirects here. For other uses, see {@{[Termination](termination%20(disambiguation).md)}@}. <!--SR:!2026-07-17,229,330!2026-09-07,272,330-->
 
-In {@{[computer science](computer%20science.md)}@}, {@{a computation is said to __diverge__}@} if {@{it does not terminate or terminates in an exceptional [state](state%20(computer%20science).md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;377&hairsp;</sup> Otherwise {@{it is said to __converge__}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> In domains where {@{computations are expected to be infinite}@}, such as {@{[process calculi](process%20calculi.md)}@}, a computation is said to diverge if {@{it fails to be productive \(i.e. to continue producing an action within a finite amount of time\)}@}. <!--SR:!2025-12-09,62,310!2025-12-15,67,310!2026-07-18,230,330!2025-12-14,66,310!2025-12-14,66,310!2026-08-02,243,330!2025-12-12,64,310-->
+In {@{[computer science](computer%20science.md)}@}, {@{a computation is said to __diverge__}@} if {@{it does not terminate or terminates in an exceptional [state](state%20(computer%20science).md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;377&hairsp;</sup> Otherwise {@{it is said to __converge__}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> In domains where {@{computations are expected to be infinite}@}, such as {@{[process calculi](process%20calculi.md)}@}, a computation is said to diverge if {@{it fails to be productive \(i.e. to continue producing an action within a finite amount of time\)}@}. <!--SR:!2026-09-06,271,330!2025-12-15,67,310!2026-07-18,230,330!2025-12-14,66,310!2025-12-14,66,310!2026-08-02,243,330!2025-12-12,64,310-->
 
 ## definitions
 
@@ -24,11 +24,11 @@ In {@{[abstract rewriting](abstract%20rewriting.md)}@}, {@{an [abstract rewritin
 
 The notation {@{_t_ ↓ _n_}@} means that {@{_t_ reduces to normal form _n_}@} in {@{zero or more [reductions](reduction%20(abstract%20rewriting).md)}@}, {@{_t_<!-- markdown separator -->↓}@} means {@{_t_ reduces to some normal form in zero or more reductions}@}, and {@{_t_<!-- markdown separator -->↑}@} means {@{_t_ does not reduce to a normal form}@}; the latter is {@{impossible in a terminating rewriting system}@}. <!--SR:!2026-08-09,249,330!2026-07-26,237,330!2026-08-15,254,330!2026-08-14,253,330!2026-08-20,257,330!2025-12-15,67,310!2025-12-13,65,310!2026-09-01,267,330-->
 
-In {@{the [lambda calculus](lambda%20calculus.md)}@} {@{an expression is divergent}@} if it has {@{no [normal form](normal%20form%20(abstract%20rewriting).md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-09,62,310!2026-08-24,260,330!2026-07-28,239,330-->
+In {@{the [lambda calculus](lambda%20calculus.md)}@} {@{an expression is divergent}@} if it has {@{no [normal form](normal%20form%20(abstract%20rewriting).md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-09-04,269,330!2026-08-24,260,330!2026-07-28,239,330-->
 
 ### denotational semantics
 
-In {@{[denotational semantics](denotational%20semantics.md)}@} {@{an [object function](function%20(computer%20science).md)}@} {@{_f_ : _A_ → _B_}@} can be modelled as {@{a [mathematical function](function%20(mathematics).md)}@} {@{$f:A\cup \{\perp \}\rightarrow B\cup \{\perp \}$}@} where {@{⊥ \([bottom](bottom%20element.md)\)}@} indicates that {@{the object function or its [argument](argument%20(computer%20science).md) diverges}@}. <!--SR:!2026-09-02,268,330!2025-12-11,63,310!2026-08-19,256,330!2026-07-27,238,330!2025-12-12,64,310!2025-12-14,66,310!2025-12-09,62,310-->
+In {@{[denotational semantics](denotational%20semantics.md)}@} {@{an [object function](function%20(computer%20science).md)}@} {@{_f_ : _A_ → _B_}@} can be modelled as {@{a [mathematical function](function%20(mathematics).md)}@} {@{$f:A\cup \{\perp \}\rightarrow B\cup \{\perp \}$}@} where {@{⊥ \([bottom](bottom%20element.md)\)}@} indicates that {@{the object function or its [argument](argument%20(computer%20science).md) diverges}@}. <!--SR:!2026-09-02,268,330!2025-12-11,63,310!2026-08-19,256,330!2026-07-27,238,330!2025-12-12,64,310!2025-12-14,66,310!2026-09-03,268,330-->
 
 ### concurrency theory
 

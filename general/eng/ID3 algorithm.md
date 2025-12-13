@@ -19,7 +19,7 @@ Throughout the algorithm, the decision tree is constructed by {@{letting the int
 
 ### properties
 
-One problem with using {@{the [information gain](information%20gain%20(decision%20tree).md) to select the attribute to split on is that it is generally larger if the attribute has more possible values, making it favor those attributes}@}. A solution to this is {@{use the [information gain ratio](information%20gain%20ratio.md) instead, like in the [C4.5 algorithm](C4.5%20algorithm.md)}@}. <!--SR:!2026-08-20,652,330!2025-12-09,420,310-->
+One problem with using {@{the [information gain](information%20gain%20(decision%20tree).md) to select the attribute to split on is that it is generally larger if the attribute has more possible values, making it favor those attributes}@}. A solution to this is {@{use the [information gain ratio](information%20gain%20ratio.md) instead, like in the [C4.5 algorithm](C4.5%20algorithm.md)}@}. <!--SR:!2026-08-20,652,330!2029-07-02,1301,310-->
 
 ## references
 

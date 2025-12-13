@@ -21,13 +21,13 @@ In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial
 
 In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2026-01-01,272,330!2028-12-12,1112,350!2027-01-19,541,310-->
 
-Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2025-12-09,255,330!2026-01-04,274,330!2026-01-23,290,330!2028-10-09,1061,350!2026-01-05,275,330!2026-01-04,275,330!2026-01-06,276,330-->
+Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2029-02-18,1167,350!2026-01-04,274,330!2026-01-23,290,330!2028-10-09,1061,350!2026-01-05,275,330!2026-01-04,275,330!2026-01-06,276,330-->
 
 |   |                 |   |       |
 | - | --------------- | - | ----- |
 |   | Consulting fee. |   | 20000 |
 
-A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[double-entry bookkeeping](double-entry%20bookkeeping.md)}@}, {@{a sale of [merchandise](merchandise.md)}@} is recorded {@{in the [general journal](general%20journal.md) as a [debit](debits%20and%20credits.md) to cash or [accounts receivable](accounts%20receivable.md) and a [credit](debits%20and%20credits.md) to the sales account}@}.<sup>[\[3\]](#^ref-3)</sup> The amount recorded is {@{the actual monetary value of the transaction, not the [list price](list%20price.md) of the merchandise}@}. {@{A [discount](discounts%20and%20allowances.md) from list price}@} {@{might be noted if it applies to the sale}@}. <!--SR:!2027-11-28,802,330!2028-11-26,1098,350!2025-12-09,255,330!2027-06-14,606,310!2026-01-23,290,330!2028-11-11,1087,350!2027-06-08,665,330-->
+A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[double-entry bookkeeping](double-entry%20bookkeeping.md)}@}, {@{a sale of [merchandise](merchandise.md)}@} is recorded {@{in the [general journal](general%20journal.md) as a [debit](debits%20and%20credits.md) to cash or [accounts receivable](accounts%20receivable.md) and a [credit](debits%20and%20credits.md) to the sales account}@}.<sup>[\[3\]](#^ref-3)</sup> The amount recorded is {@{the actual monetary value of the transaction, not the [list price](list%20price.md) of the merchandise}@}. {@{A [discount](discounts%20and%20allowances.md) from list price}@} {@{might be noted if it applies to the sale}@}. <!--SR:!2027-11-28,802,330!2028-11-26,1098,350!2029-02-17,1166,350!2027-06-14,606,310!2026-01-23,290,330!2028-11-11,1087,350!2027-06-08,665,330-->
 
 {@{Fees for services}@} are {@{recorded separately from sales of merchandise}@}, but {@{the bookkeeping transactions for recording "sales" of services}@} are {@{similar to those for recording sales of tangible goods}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2028-09-29,1051,350!2028-10-04,1055,350!2026-01-07,275,330!2027-06-29,681,330-->
 
@@ -76,7 +76,7 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 
 ## unique definitions
 
-When {@{the US government}@} {@{reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-21,46,361!2027-03-26,505,401!2025-12-09,27,402-->
+When {@{the US government}@} {@{reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-21,46,361!2027-03-26,505,401!2026-05-09,151,422-->
 
 ## other terms
 

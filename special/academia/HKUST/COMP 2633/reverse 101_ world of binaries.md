@@ -164,6 +164,6 @@ While analyzing a program, sometimes we want to {@{change the program behavior, 
 Some commo tools are:
 
 - GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2029-04-03,1312,363!2028-08-06,1110,365-->
-- `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2025-12-10,362,357!2025-12-09,364,365-->
+- `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2025-12-10,362,357!2030-12-05,1822,385-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also patch code: right-click, press "Patch Instruction", and type assembly code. Best for more complicated patches. <!--SR:!2027-08-11,825,343!2030-11-12,1805,385-->
 - Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2027-11-22,882,343!2029-02-12,1272,365-->

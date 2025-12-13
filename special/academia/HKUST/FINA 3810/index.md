@@ -45,10 +45,10 @@ The content is in teaching order.
   - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options, etc. <!--SR:!2026-08-06,246,330!2026-07-26,237,330-->
     - FINA 3810 / current topics / artificial intelligence \(AI\) ::@:: Is AI coming for finance jobs? Agentic AI, e.g. AlphaGPT, and so much more! <!--SR:!2026-07-31,241,330!2026-08-29,264,330-->
     - FINA 3810 / current topics / zero-day options ::@:: Why did S&P 500 suddenly drop? How did Goldman Sachs \(GS\) and Bank of America \(BoA\) interpret it differently? What are zero-day options and how they may cause a sudden drop? <!--SR:!2025-12-10,63,310!2026-07-21,233,330-->
-- [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform. <!--SR:!2025-12-09,62,310!2026-08-22,259,330-->
+- [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform. <!--SR:!2026-09-05,270,330!2026-08-22,259,330-->
   - Bloomberg Terminal / Bloomberg News ::@:: Bloomberg TV & Video, front page, key news themes, natural language search, news categories, social monitor, top news, etc. <!--SR:!2026-08-06,244,330!2026-06-01,178,310-->
     - Bloomberg Terminal / Bloomberg News / top news ::@:: `TOP <GO>` <!--SR:!2026-08-16,255,330!2025-12-11,63,310-->
-    - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!2025-12-09,62,310!2026-08-05,246,330-->
+    - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!2026-09-07,272,330!2026-08-05,246,330-->
     - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2025-12-10,62,310!2026-08-26,262,330-->
     - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2025-12-12,64,310!2026-07-22,234,330-->
     - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2025-12-13,65,310!2025-12-13,65,310-->
@@ -56,7 +56,7 @@ The content is in teaching order.
     - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!2026-08-28,263,330!2025-12-10,63,310-->
 - FINA 3810
   - FINA 3810 / current topics
-    - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!2025-12-14,66,310!2025-12-09,61,310-->
+    - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!2025-12-14,66,310!2026-09-03,268,330-->
 - Bloomberg Terminal
   - Bloomberg Terminal / login
   - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\) <!--SR:!2026-07-30,241,330!2026-05-15,174,310-->

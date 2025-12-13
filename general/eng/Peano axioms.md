@@ -95,7 +95,7 @@ To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} require
 - multiplicative left identity / base case ::@:: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2027-10-02,861,345!2029-05-16,1345,365-->
 - multiplication left identity / induction ::@:: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2029-10-14,1407,325!2026-08-09,527,322-->
 
-Therefore, by {@{the induction axiom}@} {@{$S(0)$}@} is {@{the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication}@} is {@{commutative and [distributes over](distributive%20property.md) addition}@}: {@{$$a\cdot (b+c)=(a\cdot b)+(a\cdot c) \,.$$}@} <!--SR:!2030-04-12,1604,365!2029-05-05,1320,350!2025-12-16,25,382!2026-02-14,71,382!2025-12-09,5,364!2025-12-09,5,364-->
+Therefore, by {@{the induction axiom}@} {@{$S(0)$}@} is {@{the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication}@} is {@{commutative and [distributes over](distributive%20property.md) addition}@}: {@{$$a\cdot (b+c)=(a\cdot b)+(a\cdot c) \,.$$}@} <!--SR:!2030-04-12,1604,365!2029-05-05,1320,350!2025-12-16,25,382!2026-02-14,71,382!2026-01-02,24,384!2026-01-03,25,384-->
 
 Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semiring.md)}@}. <!--SR:!2027-01-11,572,285!2026-10-28,520,285-->
 
