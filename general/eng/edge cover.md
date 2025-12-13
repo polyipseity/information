@@ -33,7 +33,7 @@ Note that the figure on the right is {@{not only an edge cover but also a [match
 
 ### examples
 
-- The set of all edges ::@:: is an edge cover, assuming that there are no degree-0 vertices. <!--SR:!2029-04-14,1226,350!2025-12-10,272,330-->
+- The set of all edges ::@:: is an edge cover, assuming that there are no degree-0 vertices. <!--SR:!2029-04-14,1226,350!2029-05-06,1243,350-->
 - The [complete bipartite graph](complete%20bipartite%20graph.md) _K<sub>m,n</sub>_ ::@:: has edge covering number max\(_m_, _n_\). <!--SR:!2027-12-06,811,330!2025-12-29,286,330-->
 
 ## algorithms

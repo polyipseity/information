@@ -638,7 +638,7 @@ The content is in teaching order.
 - [_Giant Steps_](../../../../general/Giant%20Steps.md) ::@:: It is a studio album by the jazz musician John Coltrane. <p> The record is regarded as one of the most influential jazz albums of all time. Many of its tracks have become practice templates for jazz saxophonists. <!--SR:!2028-05-17,902,458!2028-07-06,944,461-->
   - _Giant Steps_ / characteristics ::@:: Structurally opposite of _Kind of Blue_, with extreme harmonic sophistication. Both of them want to maximize expression. <!--SR:!2025-12-11,163,441!2027-02-03,477,422-->
   - _Giant Steps_ / structure ::@:: 16-bar AB form, complex chord progression based on major thirds, up tempo swing <!--SR:!2028-07-12,950,462!2028-06-27,937,462-->
-  - _Giant Steps_ / effects ::@:: The tune is hard \(even for piano players\), and often considered as a improvisation "test". <p> It set new jazz composition and improvisation standards. <!--SR:!2028-04-20,879,458!2025-12-10,162,438-->
+  - _Giant Steps_ / effects ::@:: The tune is hard \(even for piano players\), and often considered as a improvisation "test". <p> It set new jazz composition and improvisation standards. <!--SR:!2028-04-20,879,458!2028-08-02,966,458-->
 - John Coltrane
   - John Coltrane / modal jazz ::@:: He used the soprano saxophone instead of tenor. <p> "My Favorite Things" \(1961\) — John Coltrane <br/> "Part 1, Acknowledgement" \(1965\) — John Coltrane <br/> "Trane" — John Coltrane, Johnny Hartman <!--SR:!2028-05-06,892,458!2028-07-05,942,458-->
   - John Coltrane / later life ::@:: He died at 40 from liver failure. <!--SR:!2028-07-03,940,458!2028-04-22,881,458-->
@@ -681,7 +681,7 @@ The content is in teaching order.
 - [Jaco Pastorius](../../../../general/Jaco%20Pastorius.md) \(1951–1987\) ::@:: He was from Florida. He was killed in a fight trying to get into a club. <p> He was fully established as sole band bass player for the recording of _Heavy Weather_ \(Columbia, 1977\), which contained the Grammy-nominated hit "Birdland". <!--SR:!2028-07-23,958,458!2028-05-21,906,458-->
   - Jaco Pastorius / works ::@:: "Donna Lee" — Jaco Pastorius <br/> _Heavy Weather_ \(1977\) — Weather Report <!--SR:!2028-07-28,962,461!2028-04-25,883,458-->
 - [Mahavishnu Orchestra](../../../../general/Mahavishnu%20Orchestra.md) ::@:: It was a jazz fusion band formed in New York City in 1971, led by English guitarist John McLaughlin. <p> It made guitar a rock fusion instrument. <!--SR:!2028-07-26,960,458!2028-05-27,911,461-->
-  - Mahavishnu Orchestra / works ::@:: "Birds of Fire" \(1973\) — Mahavishnu Orchestra <!--SR:!2025-12-10,162,438!2028-05-25,909,461-->
+  - Mahavishnu Orchestra / works ::@:: "Birds of Fire" \(1973\) — Mahavishnu Orchestra <!--SR:!2028-07-31,964,458!2028-05-25,909,461-->
 - assignment: \(none\)
 
 ## week 15 lecture
@@ -696,19 +696,19 @@ The content is in teaching order.
 - [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2028-06-19,930,461!2028-06-17,926,458-->
   - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2028-05-16,901,458!2028-07-02,939,458-->
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass <!--SR:!2027-07-07,632,438!2025-12-11,163,441-->
-  - Oscar Peterson / works ::@:: "C Jam Blues" \(1964\) — Oscar Peterson <br/> _Night Train_ <br/> _The Sound of the Trio_ <br/> _We Get Requests_ <!--SR:!2025-12-10,162,442!2028-05-15,901,461-->
+  - Oscar Peterson / works ::@:: "C Jam Blues" \(1964\) — Oscar Peterson <br/> _Night Train_ <br/> _The Sound of the Trio_ <br/> _We Get Requests_ <!--SR:!2028-08-09,973,462!2028-05-15,901,461-->
   - Oscar Peterson / effects ::@:: Many pianist were influenced by him and played in his style, e.g. Benny Green, Gene harris, Monty Alexander, Phineas Neworn, etc. \(and the instructor\) <!--SR:!2028-07-10,946,458!2025-12-11,163,441-->
 - [Bill Evans](../../../../general/Bill%20Evans.md) \(1929–1980\) ::@:: He was an American jazz pianist and composer who worked primarily as the leader of his trio. His use of impressionist harmony, block chords, innovative chord voicing, and trademark rhythmically independent "singing" melodic lines continue to influence jazz pianists today. <!--SR:!2028-04-15,875,458!2027-07-06,631,438-->
   - Bill Evans / early life ::@:: He was left-handed. He was trained in an university. He became famous with Miles Davis. He was lyrical and not as bluesy as Oscar Peterson. <!--SR:!2028-06-03,916,458!2028-07-15,950,458-->
   - Bill Evans / trio ::@:: piano: Bill Evans <br/> drums: Paul Motion <br/> bass: Scott Lafaro <!--SR:!2028-05-26,909,458!2028-07-26,961,461-->
-    - Bill Evans / trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential <!--SR:!2025-12-10,162,438!2028-08-04,969,462-->
+    - Bill Evans / trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential <!--SR:!2028-08-01,965,458!2028-08-04,969,462-->
   - Bill Evans / works ::@:: "What Is This Thing Called Love?" \(1960\) — Bill Evans trio <br/> _Conversations with Myself_ <br/> _Live at Town Hall_ <br/> _Portrait in Jazz_ <br/> _Sunday at the Village Vanguard_ <br/> _Waltz for Debby_ <!--SR:!2028-05-08,894,458!2028-05-11,897,458-->
   - Bill Evans / later life ::@:: He struggled with heroin, and then cocaine. He died at 51 from hepatitis, pneumonia, liver failure, and stomach ulcers. <!--SR:!2028-05-07,893,458!2028-07-14,950,458-->
   - Bill Evans / effects ::@:: He brought _quartal harmony_ in jazz, which refers to building chords in 4ths instead of 3rds. <br/> He also influenced many pianists to play in the interactive style, e.g. Bill Charlap, Brad Mehldau, Keith Jarrett, etc. \(and the instructor\) <!--SR:!2028-07-11,947,458!2025-12-12,164,442-->
 - [Hammond organ](../../../../general/Hammond%20organ.md) ::@:: It is an electric organ invented by Laurens Hammond and John M. Hanert, first manufactured in 1935. <!--SR:!2025-12-11,163,441!2028-05-31,913,458-->
   - Hammond organ / use ::@:: It is popular in gospel music. It was brought to jazz by Jimmy Smith in the 1950s. <!--SR:!2028-07-06,943,458!2028-07-08,945,458-->
   - Hammond organ / trio ::@:: drums, guitar, organ <!--SR:!2028-06-06,918,458!2028-06-07,919,458-->
-- [Jimmy Smith](../../../../general/Jimmy%20Smith%20(musician).md) \(1928–2005\) ::@:: He was an American jazz musician who helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music. <!--SR:!2028-05-15,900,458!2025-12-10,162,441-->
+- [Jimmy Smith](../../../../general/Jimmy%20Smith%20(musician).md) \(1928–2005\) ::@:: He was an American jazz musician who helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music. <!--SR:!2028-05-15,900,458!2028-08-07,971,461-->
   - Jimmy Smith / works ::@:: "Back At The Chicken Shack" \(1963\) — Jimmy Smith, Phil Upchurch <!--SR:!2028-04-16,876,458!2028-06-09,921,458-->
 - [Shirley Scott](../../../../general/Shirley%20Scott.md) \(1934–2002\) ::@:: She was an American jazz organist. Her music was noted for its mixture of bebop, blues, and gospel elements. She was known by the nickname "Queen of the Organ". <p> She had 40 records as a leader. <!--SR:!2028-05-12,898,458!2028-07-10,948,462-->
   - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio <!--SR:!2028-05-14,900,458!2028-05-29,913,462-->
@@ -760,7 +760,7 @@ The content is in teaching order.
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2028-06-13,925,461!2028-07-24,958,458-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2028-06-20,930,458!2028-07-20,955,458-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2028-05-30,914,462!2028-05-22,907,462-->
-  - Corey Henry / works ::@:: "Billie Jean" \(2016\) — Cory Henry feat. Jacob Collier: originally a 1983 single by Michael Jackson <!--SR:!2028-06-01,916,462!2025-12-10,162,441-->
+  - Corey Henry / works ::@:: "Billie Jean" \(2016\) — Cory Henry feat. Jacob Collier: originally a 1983 single by Michael Jackson <!--SR:!2028-06-01,916,462!2028-08-06,970,461-->
 - [jazz rap](../../../../general/jazz%20rap.md) ::@:: It is a fusion of jazz and hip hop music, as well as an alternative hip-hop subgenre, that developed in the late 1980s and early 1990s. <!--SR:!2028-05-24,907,458!2028-06-22,933,461-->
   - jazz rap / works ::@:: "For Free?" \(2015\) — Kendrick Lamar: lots of profanity <!--SR:!2028-07-16,952,458!2028-07-29,963,461-->
 - assignment: \(none\)

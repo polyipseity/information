@@ -86,7 +86,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >   def prepend[U >: T](elem: U): List[U] = Cons(elem, this)
 > ```
 >
-> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!2026-01-05,56,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-07,58,310!2026-01-14,63,310!2025-12-25,44,290!2025-12-10,32,270!2026-01-13,63,310!2026-01-16,65,310!2026-03-04,93,363-->
+> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!2026-01-05,56,310!2026-01-06,57,310!2026-01-11,61,310!2026-01-07,58,310!2026-01-14,63,310!2025-12-25,44,290!2026-04-07,118,290!2026-01-13,63,310!2026-01-16,65,310!2026-03-04,93,363-->
 
 This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-01-17,66,310!2026-01-07,58,310!2026-01-16,65,310!2026-01-15,64,310!2026-01-16,65,310!2026-01-13,63,310!2025-12-15,27,290!2026-01-13,63,310!2026-03-04,93,363-->
 

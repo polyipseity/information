@@ -43,7 +43,7 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 
 {@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, {@{knowing the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}. <!--SR:!2026-01-22,275,330!2025-12-29,256,330!2026-01-31,282,330!2026-01-22,275,330!2026-02-04,285,330-->
 
-When {@{the population mean and the population standard deviation are unknown}@}, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-12-10,240,330!2026-02-03,285,330!2028-01-02,816,330-->
+When {@{the population mean and the population standard deviation are unknown}@}, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2028-12-06,1092,350!2026-02-03,285,330!2028-01-02,816,330-->
 
 In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where: <!--SR:!2025-12-13,243,330-->
 

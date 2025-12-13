@@ -9,7 +9,7 @@ tags:
 
 # combinatorial principles
 
-In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__}@} are {@{commonly recognized and used}@}. <!--SR:!2029-06-13,1325,350!2028-08-16,1006,330!2025-12-10,24,374-->
+In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__}@} are {@{commonly recognized and used}@}. <!--SR:!2029-06-13,1325,350!2028-08-16,1006,330!2026-04-10,121,394-->
 
 {@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}. <!--SR:!2029-09-24,1407,350!2029-06-11,1324,350!2029-09-09,1394,350!2029-10-03,1414,350!2029-06-01,1315,350!2026-05-06,381,290-->
 
@@ -57,7 +57,7 @@ Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub
 
 - see: :;@:: [pigeonhole principle](pigeonhole%20principle.md)
 
-{@{The pigeonhole principle}@} states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, demonstrate {@{the existence of some element in a set}@} with {@{some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2029-09-07,1393,350!2025-12-10,24,374!2025-12-17,26,386-->
+{@{The pigeonhole principle}@} states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, demonstrate {@{the existence of some element in a set}@} with {@{some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2029-09-07,1393,350!2026-04-09,120,394!2025-12-17,26,386-->
 
 ## method of distinguished element
 

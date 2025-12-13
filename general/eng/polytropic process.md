@@ -45,7 +45,7 @@ tags:
 > - {@{$\gamma$}@} is {@{the [heat capacity ratio](heat%20capacity%20ratio.md)}@}
 > - {@{$K = \frac{\delta Q}{\delta W}$}@} is {@{the energy transfer ratio}@}
 >
-> Thus, {@{the __polytropic index__}@} is {@{$n = \gamma - K(\gamma - 1)$}@}. In particular, we see the index interpolates {@{between $\gamma$ and 1}@} when $K$ {@{varies between 0 \(isentropic\) and 1 \(isothermic\)}@}. <!--SR:!2027-03-22,468,210!2026-01-30,532,310!2026-12-15,444,270!2029-01-11,1287,310!2026-03-31,314,329!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-10,19,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359-->
+> Thus, {@{the __polytropic index__}@} is {@{$n = \gamma - K(\gamma - 1)$}@}. In particular, we see the index interpolates {@{between $\gamma$ and 1}@} when $K$ {@{varies between 0 \(isentropic\) and 1 \(isothermic\)}@}. <!--SR:!2027-03-22,468,210!2026-01-30,532,310!2026-12-15,444,270!2029-01-11,1287,310!2026-03-31,314,329!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2026-03-17,97,379!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359!2025-12-11,20,359-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows: $$\begin{aligned}
 U & = \frac f 2 nRT = \frac {nRT} {\gamma - 1} \\

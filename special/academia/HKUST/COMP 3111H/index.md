@@ -42,14 +42,14 @@ The content is in teaching order.
 
 - topic: introduction; complexity of software development; handling complexity; software engineering
 - [software engineering](../../../../general/software%20engineering.md) ::@:: It is a branch of both computer science and engineering focused on designing, developing, testing, and maintaining software applications. It involves applying engineering principles and computer programming expertise to develop software systems that meet user needs. <!--SR:!2026-08-22,256,330!2026-09-06,271,330-->
-- [source lines of code](../../../../general/source%20lines%20of%20code.md) \(SLOC\) ::@:: It is a software metric used to measure the size of a computer program by counting the number of lines in the text of the program's source code. <!--SR:!2026-08-02,243,330!2025-12-10,62,310-->
+- [source lines of code](../../../../general/source%20lines%20of%20code.md) \(SLOC\) ::@:: It is a software metric used to measure the size of a computer program by counting the number of lines in the text of the program's source code. <!--SR:!2026-08-02,243,330!2026-09-08,272,330-->
   - source lines of code / acronyms ::@:: - LLOC: logical lines of code; logical SLOC <br/> - LOC: lines of code; physical SLOC <br/> - MLOC: million lines of code <br/> - SLOC: source lines of code <!--SR:!2026-07-21,233,330!2026-08-31,266,330-->
   - source lines of code / examples ::@:: \(less\) <br/> 1. Rome: Total War <br/> 2. Boeing 787 &lt; F-35 Fighter Jet <br/> 3. Windows 7 &lt; Windows 10 <br/> 4. Facebook <br/> 5. Mac OS X <br/> 6. luxury passenger car <br/> \(more\) <!--SR:!2026-03-13,126,290!2026-02-20,93,250-->
-  - source lines of code / effort ::@:: Effort is not _linearly_ proportional to source lines of code!! <!--SR:!2025-12-11,63,310!2025-12-10,63,310-->
-- [software maintenance](../../../../general/software%20maintenance.md) ::@:: It is the modification of software after delivery. <p> It is often considered lower skilled and less rewarding than new development. As such, it is a common target for outsourcing or offshoring. <!--SR:!2026-05-14,165,310!2025-12-10,63,310-->
+  - source lines of code / effort ::@:: Effort is not _linearly_ proportional to source lines of code!! <!--SR:!2025-12-11,63,310!2026-09-10,274,330-->
+- [software maintenance](../../../../general/software%20maintenance.md) ::@:: It is the modification of software after delivery. <p> It is often considered lower skilled and less rewarding than new development. As such, it is a common target for outsourcing or offshoring. <!--SR:!2026-05-14,165,310!2026-09-09,273,330-->
   - software maintenance / complexity ::@:: It can be complex. Indeed, given the large amount of existing software, it uses the most time of most developers. <!--SR:!2026-08-19,255,330!2026-08-16,255,330-->
 - [programming complexity](../../../../general/programming%20complexity.md) ::@:: It is a term that includes software properties that affect internal interactions. <!--SR:!2026-08-22,258,330!2026-08-04,245,330-->
-  - programming complexity / sources ::@:: application domain, communication, management, tools <!--SR:!2025-12-10,63,310!2026-09-01,266,330-->
+  - programming complexity / sources ::@:: application domain, communication, management, tools <!--SR:!2026-09-12,276,330!2026-09-01,266,330-->
     - programming complexity / sources / application domain ::@:: A problem is often _complex_ and outside the domain of most developers \(i.e. not _domain experts_\). <!--SR:!2025-12-13,65,310!2025-12-14,66,310-->
     - programming complexity / sources / communication ::@:: Clients and developers have different _background_, _vocabulary_, etc. which is made worse by _ambiguity_ of human languages. <!--SR:!2026-08-19,256,330!2026-09-01,267,330-->
     - programming complexity / sources / management ::@:: _Dividing_ a project and _reassembling_ it is difficult. _Coordination_ between different _parts_ and _people_ is also difficult. <!--SR:!2025-12-15,67,310!2026-04-24,159,310-->
@@ -57,7 +57,7 @@ The content is in teaching order.
   - programming complexity / problems ::@:: development, quality <!--SR:!2026-08-15,254,330!2025-12-11,63,310-->
     - programming complexity / problems / quality ::@:: - abandonment: London Stock Exchange; after 5 years of development <br/> - inflexible <br/> - unreliable: Ariane 5 \(rocket\) <br/> - unsafe: London Ambulance Service; fell twice in 1992 <br/> - _etc._ <!--SR:!2026-03-31,128,290!2026-05-24,181,310-->
       - programming complexity / problems / quality / examples ::@:: A small software update to Amazon, a large and complex website, caused \$2.8 million in lost revenue. <!--SR:!2026-05-12,175,310!2025-12-14,66,310-->
-- [Ariane 5](../../../../general/Ariane%205.md) ::@:: It is a retired European heavy-lift space launch vehicle operated by Arianespace for the European Space Agency \(ESA\). <!--SR:!2026-05-27,187,310!2025-12-10,62,310-->
+- [Ariane 5](../../../../general/Ariane%205.md) ::@:: It is a retired European heavy-lift space launch vehicle operated by Arianespace for the European Space Agency \(ESA\). <!--SR:!2026-05-27,187,310!2026-09-08,272,330-->
   - Ariane 5 / notable launches
     - Ariane 5 / notable launches / first test flight ::@:: Ariane 5's first test flight \(Ariane 5 Flight 501\) on 4 June 1996 failed, with the rocket self-destructing 37 seconds after launch because of a malfunction in the control software. <!--SR:!2026-05-16,178,310!2026-07-27,238,330-->
       - Ariane 5 / notable launches / first test flight / cause ::@:: A data conversion from 64-bit floating-point value to 16-bit signed integer value to be stored in a variable representing horizontal bias caused a processor trap \(operand error\) because the floating-point value was too large to be represented by a 16-bit signed integer. <!--SR:!2026-07-29,240,330!2026-05-18,177,310-->
@@ -72,7 +72,7 @@ The content is in teaching order.
   - modular programming / module ::@:: It is a part of a system that can be _considered separately_. To model _interactions_ with other modules, they are limited to _interfaces_, which _abstracts_ and _encapsulates_ a module via _information hiding_. <!--SR:!2026-09-02,267,330!2026-08-08,248,330-->
     - modular programming / module / abstraction ::@:: The internals of a module are hidden away. Interaction is defined via its interface only. The usage of the module by other modules can be understood by looking at its interface only \(ideally\). This reduces complexity of _understanding_ the system. <!--SR:!2026-08-14,253,330!2026-08-22,259,330-->
     - modular programming / module / encapsulation ::@:: When we want to modify a module, we only need to modify the module without changing other modules \(ideally\). The internals of a module can be changed without affecting other modules \(ideally\). This reduces _maintenance_ burden. <!--SR:!2026-08-10,250,330!2026-08-20,256,330-->
-  - modular programming / advantages ::@:: bug reduction, _incremental_ development, maintainability, productive teams, reusability <p> This makes software development _more predictable_, leading to better cost and time estimation. <!--SR:!2025-12-10,63,310!2025-12-14,66,310-->
+  - modular programming / advantages ::@:: bug reduction, _incremental_ development, maintainability, productive teams, reusability <p> This makes software development _more predictable_, leading to better cost and time estimation. <!--SR:!2026-09-11,275,330!2025-12-14,66,310-->
 - [engineer](../../../../general/engineer.md) ::@:: It is a practitioner of engineering. <p> They apply ingenuity, mathematics, and scientific knowledge to develop _solutions_ \(e.g. materials, structures, _systems_\) for specific _problems_. They need consider _limitations_ from cost, practicality, regulation, and safety. <!--SR:!2026-05-21,182,310!2026-08-27,263,330-->
   - engineer / vs. scientist ::@:: The former builds things for _quality_ \(e.g. avoiding engineering failures\) while the latter builds things for discovering _new_ things \(e.g. scientific breakthroughs\). <!--SR:!2025-12-12,64,310!2026-08-17,255,330-->
 - software engineering
@@ -85,7 +85,7 @@ The content is in teaching order.
     - software engineering / activities / modeling ::@:: Model user requirement. Model the system to be built. <!--SR:!2026-09-05,270,330!2026-04-23,158,310-->
     - software engineering / activities / problem solving ::@:: _Systematically_ \(but not _algorithmically_ as there are changes\) find an appropriate solution according to the user requirement. Note that user requirements can _change_ or be clarified over time. <!--SR:!2025-12-13,65,310!2026-08-06,246,330-->
     - software engineering / activities / knowledge acquisition ::@:: Knowledge about the problem needs to be learnt on the go. It may also need to be _unlearnt_ due to changing requirements or misunderstandings. You may even need to _start over_. <!--SR:!2026-08-03,244,330!2026-05-24,173,310-->
-    - software engineering / activities / rationale management ::@:: As acquired knowledge, solutions \(new technologies\), user requirements _change_, we need to _revisit_ decisions and their rationale. <!--SR:!2025-12-10,62,310!2026-08-28,263,330-->
+    - software engineering / activities / rationale management ::@:: As acquired knowledge, solutions \(new technologies\), user requirements _change_, we need to _revisit_ decisions and their rationale. <!--SR:!2026-09-08,272,330!2026-08-28,263,330-->
 - quiz: [quiz 1](questions/quiz%201.md)
 
 ## week 1 lecture
@@ -97,12 +97,12 @@ The content is in teaching order.
   - COMP 3111H / textbook ::@:: _Object-Oriented Software Engineering: Using UML, Patterns, and Java, 3/E_, B. Bruegge and A.H. Dutoit, Pearson Education, Inc., 2010. <!--SR:!2026-07-26,237,330!2026-07-19,231,330-->
   - COMP 3111H / tools ::@:: Git, GitHub, Java, <https://app.diagrams.net/>; lab notes, web resources <!--SR:!2026-09-04,269,330!2026-08-09,249,330-->
   - COMP 3111H / grading
-  - COMP 3111H / objectives ::@:: _disciplined_ approach to software development, theoretical and practical aspects of software engineering <!--SR:!2026-07-18,230,330!2025-12-10,62,310-->
+  - COMP 3111H / objectives ::@:: _disciplined_ approach to software development, theoretical and practical aspects of software engineering <!--SR:!2026-07-18,230,330!2026-09-08,272,330-->
   - COMP 3111H / course intended learning outcomes \(CILO\)
   - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc. <!--SR:!2025-12-14,66,310!2025-12-15,67,310-->
   - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!2025-12-12,64,310!2025-12-15,67,310-->
   - COMP 3111H / rules
-  - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing <!--SR:!2025-12-10,28,418!2025-12-10,28,418-->
+  - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing <!--SR:!2026-05-16,157,438!2026-05-18,159,438-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [questions § week 1 lecture](questions/index.md#week%201%20lecture)
 

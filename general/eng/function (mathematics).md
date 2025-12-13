@@ -96,7 +96,7 @@ A function is formed by {@{three sets, the _domain_ $X$, the _codomain_ $Y$, and
 
 - Main article: [Partial function](partial%20function.md)
 
-{@{Partial functions}@} are defined {@{similarly to ordinary functions, with the "total" condition removed}@}. That is, {@{a _partial function_ from _X_ to _Y_}@} is {@{a binary relation _R_ between _X_ and _Y_}@} such that, for {@{every $x\in X$, there is _at most one_ _y_ in _Y_ such that $(x,y)\in R$}@}. <!--SR:!2026-05-11,353,350!2026-03-18,316,350!2025-12-17,239,330!2028-07-14,972,350!2025-12-10,24,392-->
+{@{Partial functions}@} are defined {@{similarly to ordinary functions, with the "total" condition removed}@}. That is, {@{a _partial function_ from _X_ to _Y_}@} is {@{a binary relation _R_ between _X_ and _Y_}@} such that, for {@{every $x\in X$, there is _at most one_ _y_ in _Y_ such that $(x,y)\in R$}@}. <!--SR:!2026-05-11,353,350!2026-03-18,316,350!2025-12-17,239,330!2028-07-14,972,350!2026-04-18,129,412-->
 
 Using {@{functional notation}@}, this means that, {@{given $x\in X$, either $f(x)$ is in _Y_, or it is undefined}@}. <!--SR:!2026-04-29,342,350!2026-04-14,327,350-->
 
@@ -290,7 +290,7 @@ On the other hand, {@{if a function's domain is continuous}@}, a table can {@{gi
 | 1.292 | 0.961387 |
 | 1.293 | 0.961662 |
 
-Before {@{the advent of handheld calculators and personal computers}@}, such tables were {@{often compiled and published for functions such as logarithms and trigonometric functions}@}. <!--SR:!2025-12-10,233,330!2026-04-24,336,350-->
+Before {@{the advent of handheld calculators and personal computers}@}, such tables were {@{often compiled and published for functions such as logarithms and trigonometric functions}@}. <!--SR:!2028-11-02,1058,350!2026-04-24,336,350-->
 
 ### bar chart
 
@@ -310,7 +310,7 @@ There are {@{a number of standard functions}@} that occur frequently: <!--SR:!20
 - For {@{every set _X_ and every [singleton set](singleton%20set.md) {_s_}<!-- flashcard separator -->}@}, there is {@{a unique function from _X_ to {_s_}<!-- flashcard separator-->}@}, which {@{maps every element of _X_ to _s_}@}. This is {@{a surjection \(see below\) unless _X_ is the empty set}@}. (annotation: category theory: {@{terminal objects in __Set__}@})
 - Given {@{a function $f:X\to Y$}@}, {@{the _canonical surjection_ of _f_ onto its image $f(X)=\{f(x)\mid x\in X\}$}@} is {@{the function from _X_ to _f_\(_X_\) that maps _x_ to _f_\(_x_\)}@}.
 - For {@{every [subset](subset.md) _A_ of a set _X_}@}, {@{the [inclusion map](inclusion%20map.md) of _A_ into _X_}@} is {@{the injective \(see below\) function that maps every element of _A_ to itself}@}.
-- {@{The [identity function](identity%20function.md) on a set _X_}@}, often {@{denoted by id<sub>_X_</sub>}@}, is {@{the inclusion of _X_ into itself}@}. <!--SR:!2028-08-03,974,350!2028-07-27,983,350!2026-02-24,294,330!2026-04-24,337,350!2026-06-14,387,367!2028-03-24,883,350!2025-12-10,127,410!2025-12-20,136,410!2025-12-11,128,410!2027-11-20,711,430!2025-12-13,130,410!2025-12-13,130,410!2025-12-13,130,410!2025-12-13,130,410!2027-05-11,518,410!2025-12-22,138,410!2025-12-11,128,410!2027-11-06,698,430!2025-12-21,137,410!2025-12-13,130,410!2025-12-22,138,410!2025-12-10,127,410!2025-12-15,132,410!2025-12-13,130,410!2027-11-07,699,430-->
+- {@{The [identity function](identity%20function.md) on a set _X_}@}, often {@{denoted by id<sub>_X_</sub>}@}, is {@{the inclusion of _X_ into itself}@}. <!--SR:!2028-08-03,974,350!2028-07-27,983,350!2026-02-24,294,330!2026-04-24,337,350!2026-06-14,387,367!2028-03-24,883,350!2027-11-21,711,430!2025-12-20,136,410!2025-12-11,128,410!2027-11-20,711,430!2025-12-13,130,410!2025-12-13,130,410!2025-12-13,130,410!2025-12-13,130,410!2027-05-11,518,410!2025-12-22,138,410!2025-12-11,128,410!2027-11-06,698,430!2025-12-21,137,410!2025-12-13,130,410!2025-12-22,138,410!2027-11-23,713,430!2025-12-15,132,410!2025-12-13,130,410!2027-11-07,699,430-->
 
 ### function composition
 

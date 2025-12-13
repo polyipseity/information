@@ -190,7 +190,7 @@ Coulomb's law can be used to {@{gain insight into the form of the magnetic field
 
 ## Coulomb potential
 
-- See also: ::@:: [Electric potential](electric%20potential.md) <!--SR:!2025-12-10,218,320!2026-06-24,398,370-->
+- See also: ::@:: [Electric potential](electric%20potential.md) <!--SR:!2028-07-30,963,340!2026-06-24,398,370-->
 
 ### quantum field theory
 

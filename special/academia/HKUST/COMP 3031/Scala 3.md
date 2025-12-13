@@ -71,10 +71,10 @@ Every piece of data in Scala has {@{a type}@}. <!--SR:!2026-08-06,251,330-->
 
 ### primitive types
 
-{@{Primitive types}@} are {@{the most basic types in Scala}@} and {@{make up all other types}@}. The list of primitive types are {@{as in Java}@}, but {@{are capitalized}@}. <!--SR:!2026-08-28,267,330!2026-08-07,251,330!2025-12-10,67,310!2026-09-12,279,330!2026-08-08,252,330-->
+{@{Primitive types}@} are {@{the most basic types in Scala}@} and {@{make up all other types}@}. The list of primitive types are {@{as in Java}@}, but {@{are capitalized}@}. <!--SR:!2026-08-28,267,330!2026-08-07,251,330!2026-09-28,292,330!2026-09-12,279,330!2026-08-08,252,330-->
 
 - `Boolean` ::@:: Either true or false. Example: `true`, `false` <!--SR:!2026-09-08,276,330!2026-08-11,255,330-->
-- `Char` ::@:: A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2026-07-25,241,330!2025-12-10,67,310-->
+- `Char` ::@:: A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2026-07-25,241,330!2026-09-29,293,330-->
 - `Double` ::@:: A floating point number with double precision \(15 to 17 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-08-02,247,330!2026-09-24,289,330-->
 - `Float` ::@:: A floating point number with single precision \(6 to 9 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2026-09-09,276,330!2026-07-15,232,330-->
 - `Int` ::@:: An integer. Example: `42` <!--SR:!2026-09-08,276,330!2026-08-29,267,330-->
@@ -809,7 +809,7 @@ Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Par
 
 Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2026-09-17,283,330!2026-09-19,285,330!2026-08-19,259,330!2026-07-20,237,330!2026-08-03,248,330!2026-09-05,273,330-->
 
-Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!2026-07-23,239,330!2026-08-29,268,330!2026-07-19,236,330!2025-12-10,67,310!2025-12-10,67,310!2026-08-25,265,330!2026-09-02,271,330!2026-08-27,266,330-->
+Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!2026-07-23,239,330!2026-08-29,268,330!2026-07-19,236,330!2026-09-28,292,330!2026-09-29,293,330!2026-08-25,265,330!2026-09-02,271,330!2026-08-27,266,330-->
 
 Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,277,330!2026-08-10,254,330-->
 
@@ -1297,7 +1297,7 @@ Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}
 
 Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!2026-06-12,190,310!2026-01-14,36,455-->
 
-Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2025-12-10,67,310!2026-08-31,269,330!2026-09-24,289,330!2026-02-03,100,379!2025-12-13,56,350!2026-01-25,92,370-->
+Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2026-09-30,294,330!2026-08-31,269,330!2026-09-24,289,330!2026-02-03,100,379!2025-12-13,56,350!2026-01-25,92,370-->
 
 ## syntax
 

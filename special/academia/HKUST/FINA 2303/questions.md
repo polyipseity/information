@@ -881,7 +881,7 @@ tags:
 > 3. &lt;10%
 > 4. insufficient information
 >
-> - solution: {@{2}@} <!--SR:!2025-12-10,146,432-->
+> - solution: {@{2}@} <!--SR:!2028-04-16,858,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1018,7 +1018,7 @@ tags:
 > 2. geometric average annual return
 > 3. realized annual return
 >
-> - solution: {@{1}@} <!--SR:!2025-12-10,146,432-->
+> - solution: {@{1}@} <!--SR:!2028-04-15,857,452-->
 
 ## week 12 lecture 2
 

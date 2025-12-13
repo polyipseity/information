@@ -39,7 +39,7 @@ return await memorize_table(
 <!--pytextgen generate section="4125"--><!-- The following content is generated at 2024-01-04T20:17:51.726621+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←coins, jewellery <!--SR:!2027-06-05,1186,350!2027-05-12,1166,350-->
-- coins, jewellery→::@::←_(end)_ <!--SR:!2026-09-05,956,330!2025-12-10,747,330-->
+- coins, jewellery→::@::←_(end)_ <!--SR:!2026-09-05,956,330!2035-04-02,3400,350-->
 
 <!--/pytextgen-->
 

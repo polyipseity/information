@@ -503,7 +503,7 @@ To {@{specify control classes for a model}@}, start by creating {@{a single cont
 
 {@{Control classes}@} are determined by {@{system behavior across multiple concerns}@} such as {@{distribution, performance, and transactions}@}. They determine whether {@{a separate design class}@} is {@{necessary on each node}@}, decide when to {@{merge with boundary classes for efficiency}@}, and enforce {@{transaction management}@}. <!--SR:!2025-12-11,5,396!2025-12-11,5,396!2026-01-05,27,415!2025-12-11,5,398!2025-12-11,5,398!2025-12-11,5,399!2026-01-04,26,415-->
 
-In practice, {@{design classes}@} are described by {@{the syntax of the programming language}@}. When {@{refining an analysis model into design model}@} you should perform these activities: \(annotation: 4 items: {@{reuse, complete, restructure, optimize}@}\) <!--SR:!2025-12-11,5,396!2025-12-11,5,396!2025-12-11,5,399!2025-12-10,4,376-->
+In practice, {@{design classes}@} are described by {@{the syntax of the programming language}@}. When {@{refining an analysis model into design model}@} you should perform these activities: \(annotation: 4 items: {@{reuse, complete, restructure, optimize}@}\) <!--SR:!2025-12-11,5,396!2025-12-11,5,396!2025-12-11,5,399!2025-12-31,21,396-->
 
 - _select reusable components_ ::@:: — choose class libraries \(e.g. networking, logging, etc.\) and design patterns \(e.g. factory, observer, singleton, strategy, etc.\) that can be leveraged across the system. <!--SR:!2025-12-11,5,396!2025-12-11,5,396-->
 - _complete the specification_ ::@:: — add _attributes_, _associations_, _operations_, types, visibility, and _constraints_ \(in OCL or natural language\); identify which classes are active (i.e., perform behavior). <!--SR:!2025-12-11,5,399!2026-01-06,28,414-->
@@ -516,7 +516,7 @@ In practice, {@{design classes}@} are described by {@{the syntax of the programm
 
 - performance, throughput, availability ::@:: e.g., real-time input handling may require a dedicated active object for fast response <!--SR:!2026-01-04,26,415!2025-12-11,5,396-->
 - system distribution ::@:: e.g., one active object per node and additional objects for inter-node communication enable distributed operation <!--SR:!2026-01-06,28,414!2025-12-11,5,396-->
-- other requirements ::@:: Some require an active object capable of initiating or monitoring activity, e.g., system startup/termination, liveness guarantees, deadlock or starvation avoidance, dynamic reconfiguration of nodes, managing connection capacity, etc, <!--SR:!2025-12-10,4,376!2025-12-11,5,398-->
+- other requirements ::@:: Some require an active object capable of initiating or monitoring activity, e.g., system startup/termination, liveness guarantees, deadlock or starvation avoidance, dynamic reconfiguration of nodes, managing connection capacity, etc, <!--SR:!2025-12-31,21,396!2025-12-11,5,398-->
 
 ## cohesion and coupling
 
@@ -526,19 +526,19 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 ### cohesion
 
-{@{The spectrum of cohesion}@} ranges from classes that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal &lt; procedural &lt; communicational &lt; sequential &lt; functional}@}\) <!--SR:!2025-12-11,5,399!2025-12-11,5,396!2025-12-11,5,399!2025-12-10,4,376!2025-12-11,5,396!2025-12-10,4,379!2025-12-31,22,395-->
+{@{The spectrum of cohesion}@} ranges from classes that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal &lt; procedural &lt; communicational &lt; sequential &lt; functional}@}\) <!--SR:!2025-12-11,5,399!2025-12-11,5,396!2025-12-11,5,399!2025-12-31,21,396!2025-12-11,5,396!2025-12-30,20,399!2025-12-31,22,395-->
 
 1. __Coincidental__ ::@:: — the class has no discernible function. <!--SR:!2026-01-04,26,415!2025-12-11,5,399-->
 2. __Logical__ ::@:: — it groups several related but distinct responsibilities. <!--SR:!2025-12-11,5,398!2026-01-06,28,414-->
 3. __Temporal__ ::@:: — its operations are bundled together simply because they occur at the same time. <!--SR:!2026-01-06,28,415!2025-12-11,5,398-->
 4. __Procedural__ ::@:: — methods must be executed in a specific sequence. <!--SR:!2025-12-11,5,399!2025-12-11,5,396-->
 5. __Communicational__ ::@:: — all operations work on the same data stream or structure. <!--SR:!2026-01-06,28,414!2025-12-11,5,398-->
-6. __Sequential__ ::@:: — the output of one operation feeds directly into another within the class. <!--SR:!2025-12-10,4,379!2026-01-05,27,415-->
+6. __Sequential__ ::@:: — the output of one operation feeds directly into another within the class. <!--SR:!2025-12-31,21,399!2026-01-05,27,415-->
 7. __Functional__ ::@:: — the class has one clear, singular responsibility. <!--SR:!2025-12-11,5,398!2026-01-04,26,415-->
 
 ### coupling
 
-{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. The list from {@{lowest coupling to highest coupling}@} is: \(annotation: 7 items: {@{no direct &lt; data &lt; stamp &lt; control &lt; external &lt; common &lt; content}@}\) <!--SR:!2026-01-04,26,414!2025-12-11,5,399!2025-12-11,5,399!2025-12-10,4,379!2026-01-06,28,415!2025-12-11,5,399!2025-12-11,5,396!2025-12-10,4,376-->
+{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. The list from {@{lowest coupling to highest coupling}@} is: \(annotation: 7 items: {@{no direct &lt; data &lt; stamp &lt; control &lt; external &lt; common &lt; content}@}\) <!--SR:!2026-01-04,26,414!2025-12-11,5,399!2025-12-11,5,399!2025-12-31,21,399!2026-01-06,28,415!2025-12-11,5,399!2025-12-11,5,396!2025-12-30,20,396-->
 
 1. __No direct__ ::@:: — classes have no relationship. <!--SR:!2026-01-06,28,415!2025-12-11,5,398-->
 2. __Data__ ::@:: — classes communicate solely through primitive data or simple value objects (ideal). <!--SR:!2025-12-11,5,399!2025-12-11,5,396-->
@@ -550,7 +550,7 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 ### SOLID principles
 
-{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution, interface segregation, dependency inversion}@}\) <!--SR:!2025-12-11,5,396!2025-12-11,5,396!2026-01-06,28,414!2025-12-11,5,399!2025-12-11,5,396!2026-01-05,27,414!2026-01-06,28,414!2026-01-06,28,414!2025-12-10,4,379-->
+{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution, interface segregation, dependency inversion}@}\) <!--SR:!2025-12-11,5,396!2025-12-11,5,396!2026-01-06,28,414!2025-12-11,5,399!2025-12-11,5,396!2026-01-05,27,414!2026-01-06,28,414!2026-01-06,28,414!2025-12-30,20,399-->
 
 - _Single Responsibility Principle_ ::@:: Each class has one responsibility. <!--SR:!2025-12-11,5,396!2025-12-11,5,396-->
 - _Open—Closed Principle_ ::@:: Classes accept extension but resist modification. <!--SR:!2025-12-11,5,396!2025-12-11,5,396-->
@@ -642,7 +642,7 @@ Inside {@{a concurrent composite state}@}, {@{each region}@} should have {@{an i
 For {@{concurrent composite states}@}, there can be {@{transitions involving multiple source or target states simultaneously}@}, which model either {@{splitting control flow across concurrent regions \(_fork_\)}@} or {@{synchronizing concurrent sub-states \(_join_\)}@}. It is indicated by {@{a _synchronization bar_ \(a vertical line outside the composite state\)}@}, with {@{potentially multiple arrows targeting one side of the bar}@} and {@{potentially multiple arrows originating from the other side of the bar}@}. Their semantics are: <!--SR:!2026-01-06,28,414!2025-12-11,5,396!2025-12-11,5,396!2025-12-11,5,399!2025-12-11,5,396!2025-12-11,5,399!2025-12-11,5,396-->
 
 - _fork_: multiple target states ::@:: — after firing a transition from a source state, all target states become enabled concurrently. <!--SR:!2025-12-11,5,396!2025-12-11,5,396-->
-- _join_: multiple source states ::@:: — a transition into the target state fires only after _all_ source transitions have completed, enabling coordinated actions. <!--SR:!2025-12-11,5,399!2025-12-10,4,376-->
+- _join_: multiple source states ::@:: — a transition into the target state fires only after _all_ source transitions have completed, enabling coordinated actions. <!--SR:!2025-12-11,5,399!2025-12-31,21,396-->
 
 Without {@{a synchronization bar}@}, {@{a transition}@} can {@{only have one source and target state}@}, and {@{multiple transitions}@} are {@{mutually exclusive; only one path is taken}@}. <!--SR:!2025-12-11,5,399!2025-12-11,5,399!2025-12-11,5,396!2025-12-11,5,396!2025-12-11,5,399-->
 

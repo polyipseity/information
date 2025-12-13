@@ -72,7 +72,7 @@ If we use the second-order induction axiom, it is {@{possible to define [additio
 
 #### addition
 
-[Addition](addition.md#natural%20numbers) is {@{a function that [maps](map%20(mathematics).md) two natural numbers (two elements of __N__) to another one}@}. It is defined [recursively](recursion.md) as: {@{$${\begin{aligned}a+0&=a,&{\textrm {(1)} }\\a+S(b)&=S(a+b).&{\textrm {(2)} }\end{aligned} }$$}@} <!--SR:!2025-12-10,354,345!2030-03-04,1574,365-->
+[Addition](addition.md#natural%20numbers) is {@{a function that [maps](map%20(mathematics).md) two natural numbers (two elements of __N__) to another one}@}. It is defined [recursively](recursion.md) as: {@{$${\begin{aligned}a+0&=a,&{\textrm {(1)} }\\a+S(b)&=S(a+b).&{\textrm {(2)} }\end{aligned} }$$}@} <!--SR:!2030-07-16,1679,365!2030-03-04,1574,365-->
 
 For example:
 

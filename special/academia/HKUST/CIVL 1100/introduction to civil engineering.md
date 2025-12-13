@@ -78,7 +78,7 @@ The content is in teaching order.
     - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2029-11-27,1620,392-->
     - [water engineering](#water%20engineering)
     - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2030-08-02,1750,347!2030-01-07,1661,390-->
-    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-12-10,338,230!2026-12-14,739,352-->
+    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!2026-11-01,696,319-->
@@ -710,7 +710,7 @@ soil liquefaction
 - debris flow→::@::←landslide <!--SR:!2029-03-09,1357,355!2028-08-11,1199,355-->
 - landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
 - rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2028-11-14,1199,290-->
-- soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2029-07-18,1392,315-->
+- soil liquefaction→::@::←_(end)_ <!--SR:!2033-01-07,2585,412!2029-07-18,1392,315-->
 
 <!--/pytextgen-->
 

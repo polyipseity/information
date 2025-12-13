@@ -181,7 +181,7 @@ Another exact nested sum expansion for these Stirling numbers is computed by {@{
 
 {@{The _n_-th [derivative](derivative.md) of the _μ_-th power of the [natural logarithm](natural%20logarithm.md)}@} involves {@{the signed Stirling numbers of the first kind}@}: {@{$${\operatorname {d} ^{n}\!(\ln x)^{\mu } \over \operatorname {d} \!x^{n} }=x^{-n}\sum _{k=1}^{n}s(n,n+1-k)\mu ^{\underline {k} }(\ln x)^{\mu -k},$$}@} where {@{$\mu ^{\underline {i} }$ is the [falling factorial](falling%20and%20rising%20factorials.md), and $s(n,n+1-k)$ is the signed Stirling number}@}. <!--SR:!2026-01-28,304,289!2026-03-22,342,291!2026-01-09,45,130!2026-12-21,535,309-->
 
-It can be proved by {@{using [mathematical induction](mathematical%20induction.md)}@}. <!--SR:!2025-12-10,322,351-->
+It can be proved by {@{using [mathematical induction](mathematical%20induction.md)}@}. <!--SR:!2030-03-16,1557,371-->
 
 ### other formulas
 
