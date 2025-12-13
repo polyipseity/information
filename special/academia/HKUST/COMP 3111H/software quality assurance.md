@@ -41,7 +41,7 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 
 ## aspects
 
-{@{Quality _assurance_}@} defines {@{organizational standards}@} to produce {@{high quality software}@}. {@{Quality _planning_}@} selects and tailors {@{relevant standards for a specific product}@}. {@{Quality _control_}@} verifies that {@{these standards are followed}@} through {@{audits, inspections, and metrics collection}@}. Together they form the {@{_WHAT_ (standards)}, _HOW_ (methods), and _MONITOR_ (enforcement)}@} of SQA.
+{@{Quality _assurance_}@} defines {@{organizational standards}@} to produce {@{high quality software}@}. {@{Quality _planning_}@} selects and tailors {@{relevant standards for a specific product}@}. {@{Quality _control_}@} verifies that {@{these standards are followed}@} through {@{audits, inspections, and metrics collection}@}. Together they form the {@{_WHAT_ (standards), _HOW_ (methods), and _MONITOR_ (enforcement)}@} of SQA.
 
 {@{Quality}@} is achieved at {@{several levels}@}: {@{_product quality_}@} focuses on {@{defect reduction in the final artifact}@}; {@{_project quality_}@} concerns {@{schedule, cost, and scope adherence}@}; {@{_process quality_}@} involves the {@{effectiveness of development practices}@}; {@{_people quality_}@} addresses {@{skills, training, and teamwork}@}. {@{Each level}@} relies on {@{targeted SQA activities}@} to {@{measure and enhance performance}@}, which follows the {@{four interlinked steps}@}: (annotation: 4 items: {@{define → measure → track → feedback}@}).
 
@@ -72,6 +72,8 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 ### metrics
 
 {@{A _metric_}@} is {@{any measurable quantity related to a software product, process or artifact}@}. {@{Metrics}@} serve {@{two main purposes}@}: {@{_control_}@} – they allow {@{planning and management of effort, time and budget}@}; and {@{_prediction_}@} – they can {@{forecast associated quality attributes}@} (e.g., {@{cyclomatic complexity predicts maintenance ease}@}). Because {@{metrics are objective}@}, they replace {@{subjective judgments in assessing quality}@}.
+
+An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, which is {@{the degree to which the design specifications are followed during manufacturing}@}.
 
 ## product quality
 
