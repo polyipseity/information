@@ -31,6 +31,22 @@ The content is in teaching order.
 
 ## children
 
+- Scala
+  - Scala / [actor model](actor%20model.md)
+  - Scala / [algorithms](algorithms.md)
+  - Scala / [collections](collections.md)
+  - Scala / [context](context.md)
+  - Scala / [futures and promises](futures%20and%20promises.md)
+  - Scala / [imperative programming](imperative%20programming.md)
+  - Scala / [kind](kind.md)
+  - Scala / [lazy evaluation](lazy%20evaluation.md)
+  - Scala / [Lisp](Lisp.md)
+  - Scala / [logic programming](logic%20programming.md)
+  - Scala / [monad](monad.md)
+  - Scala / [proofs](proofs.md)
+  - Scala / [reactive programming](reactive%20programming.md)
+  - [Scala 3](Scala%203.md)
+  - Scala / [state](state.md)
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
@@ -582,7 +598,8 @@ The content is in teaching order.
     - [§ `using`](context.md#`using`): `using`, explicitly provide `using`, implicitly infer `using`
     - [§ `using` syntax](context.md#`using`%20syntax): `using` in method, `using` in method call, `using` multiple parameters, `using` in multiple parameter lists, anonymous `using` clauses
     - [§ context bound](context.md#context%20bound): context bound
-    - [§ `given`](context.md#`given`): `given`, `given` instance, anonymous `given` instance, `summon`
+    - [§ `given`](context.md#`given`): `given`, `given` instance, anonymous `given` instance
+    - [§ `summon`](context.md#`summon`): `summon`
     - [§ importing `given`s](context.md#importing%20`given`s): import `given`s by name, import `given`s by type, import `given`s by wildcard
     - [§ context inference](context.md#context%20inference): context inference
     - [§ type class](context.md#type%20class): type class
@@ -596,9 +613,185 @@ The content is in teaching order.
 ## week 9 lab
 
 - datetime: 2025-10-27T15:00:00+08:00/2025-10-27T16:20:00+08:00, PT1H20M
-- topic:
-- COMP 3031
-  - COMP 3031 / lab 4
+
+## week 9 lecture
+
+- datetime: 2025-10-28T12:00:00+08:00/2025-10-28T13:20:00+08:00, PT1H20M
+
+## week 9 lecture 2
+
+- datetime: 2025-10-30T12:00:00+08:00/2025-10-30T13:20:00+08:00, PT1H20M
+- topic: monoid; kind; type function; monad; context management; execution context; opaque type alias
+- Scala
+  - Scala / [context](context.md)
+    - [§ monoid example](context.md#monoid%20example)
+  - Scala / [kind](kind.md)
+    - [§ type functions](kind.md#type%20functions)
+    - [§ monad example](kind.md#monad%20example)
+    - [§ monad example motivation](kind.md#monad%20example%20motivation)
+    - [§ monad related kinds](kind.md#monad%20related%20kinds)
+    - [§ other languages](kind.md#other%20languages)
+  - Scala / [context](context.md)
+    - [§ context management](context.md#context%20management)
+    - [§ execution contexts](context.md#execution%20contexts)
+    - [§ opaque type aliases for safety](context.md#opaque%20type%20aliases%20for%20safety)
+
+## week 10 lab
+
+- datetime: 2025-11-03T15:00:00+08:00/2025-11-03T16:20:00+08:00, PT1H20M
+
+## week 10 lecture
+
+- datetime: 2025-11-04T12:00:00+08:00/2025-11-04T13:20:00+08:00, PT1H20M
+- topic: state; substitution model; statefulness; `var`; operational equivalence; loops; digital circuit example
+- Scala
+  - Scala / [state](state.md)
+    - [§ substitution model](state.md#substitution%20model)
+    - [§ statefulness](state.md#statefulness)
+    - [§ `var`](state.md#`var`)
+    - [§ operational equivalence](state.md#operational%20equivalence)
+  - Scala / [imperative programming](imperative%20programming.md)
+    - [§ loops](imperative%20programming.md#loops)
+    - [§ repeat loops](imperative%20programming.md#repeat%20loops)
+    - [§ for-loops](imperative%20programming.md#for-loops)
+    - [§ digital circuit example](imperative%20programming.md#digital%20circuit%20example)
+    - [§ circuit description language](imperative%20programming.md#circuit%20description%20language)
+    - [§ simulation engine](imperative%20programming.md#simulation%20engine)
+
+## week 10 lecture 2
+
+- datetime: 2025-11-06T12:00:00+08:00/2025-11-06T13:20:00+08:00, PT1H20M
+- topic: observer pattern; reactive programming; functional reactive programming; signal; signal dependency tracking; context passing example; implicit function type
+- Scala
+  - Scala / [reactive programming](reactive%20programming.md)
+    - [§ observer pattern](reactive%20programming.md#observer%20pattern)
+    - [§ observer pattern example](reactive%20programming.md#observer%20pattern%20example)
+    - [§ shortcomings of the observer pattern](reactive%20programming.md#shortcomings%20of%20the%20observer%20pattern)
+    - [§ functional reactive programming](reactive%20programming.md#functional%20reactive%20programming)
+    - [§ signals](reactive%20programming.md#signals)
+    - [§ signal example](reactive%20programming.md#signal%20example)
+    - [§ signal reassignment](reactive%20programming.md#signal%20reassignment)
+    - [§ signal implementation](reactive%20programming.md#signal%20implementation)
+    - [§ dependency tracking](reactive%20programming.md#dependency%20tracking)
+  - Scala / [context](context.md)
+    - [§ implicit function types](context.md#implicit%20function%20types)
+
+## week 11 lab
+
+- datetime: 2025-11-10T15:00:00+08:00/2025-11-10T16:20:00+08:00, PT1H20M
+
+## week 11 lecture
+
+- datetime: 2025-11-11T12:00:00+08:00/2025-11-11T13:20:00+08:00, PT1H20M
+- topic: Lisp; Scheme; Lisp program; Lisp data; interpreter; tokenizer; parser; Lisp syntax; Lisp syntactic sugar
+- Scala
+  - Scala / [Lisp](Lisp.md)
+    - [§ Lisp](Lisp.md#Lisp)
+    - [§ Lisp programs](Lisp.md#Lisp%20programs)
+    - [§ Lisp data](Lisp.md#Lisp%20data)
+    - [§ interpreter](Lisp.md#interpreter)
+    - [§ internal representation](Lisp.md#internal%20representation)
+    - [§ tokenizer](Lisp.md#tokenizer)
+    - [§ parser](Lisp.md#parser)
+    - [§ syntax](Lisp.md#syntax)
+    - [§ syntactic sugar](Lisp.md#syntactic%20sugar)
+    - [§ characteristics](Lisp.md#characteristics)
+  
+## week 11 lecture 2
+
+- datetime: 2025-11-13T12:00:00+08:00/2025-11-13T13:20:00+08:00, PT1H20M
+- topic: evaluator; environment; closure; dynamic scoping; lexical scoping; Lisp recursion
+- Scala
+  - Scala / [Lisp](Lisp.md)
+    - [§ evaluator](Lisp.md#evaluator)
+    - [§ environment](Lisp.md#environment)
+    - [§ predefined bindings](Lisp.md#predefined%20bindings)
+    - [§ evaluation rules](Lisp.md#evaluation%20rules)
+    - [§ closure](Lisp.md#closure)
+    - [§ scoping](Lisp.md#scoping)
+    - [§ recursion](Lisp.md#recursion)
+    - [§ global environment](Lisp.md#global%20environment)
+    - [§ usage](Lisp.md#usage)
+    - [§ extension](Lisp.md#extension)
+
+## week 12 lab
+
+- datetime: 2025-11-17T15:00:00+08:00/2025-11-17T16:20:00+08:00, PT1H20M
+
+## week 12 lecture
+
+- datetime: 2025-11-18T12:00:00+08:00/2025-11-18T13:20:00+08:00, PT1H20M
+- topic: logic programming; Prolog; Prolog basics; deductive information retrieval; Prolog implementation; unification; complexity of unification
+- Scala
+  - Scala / [logic programming](logic%20programming.md)
+    - [§ Prolog](logic%20programming.md#Prolog)
+    - [§ Prolog basics](logic%20programming.md#Prolog%20basics)
+    - [§ deductive information retrieval](logic%20programming.md#deductive%20information%20retrieval)
+    - [§ negation as failure](logic%20programming.md#negation%20as%20failure)
+    - [§ recursion](logic%20programming.md#recursion)
+    - [§ representation](logic%20programming.md#representation)
+    - [§ asymmetric unification](logic%20programming.md#asymmetric%20unification)
+    - [§ unification](logic%20programming.md#unification)
+    - [§ complexity of unification](logic%20programming.md#complexity%20of%20unification)
+
+## week 12 lecture 2
+
+- datetime: 2025-11-20T12:00:00+08:00/2025-11-20T13:20:00+08:00, PT1H20M
+- topic: backtracking; Prolog implementation; formal reasoning; soundness; completeness; problems with negation
+- Scala
+  - Scala / [logic programming](logic%20programming.md)
+    - [§ backtracking](logic%20programming.md#backtracking)
+    - [§ backtracking implementation](logic%20programming.md#backtracking%20implementation)
+    - [§ implementation](logic%20programming.md#implementation)
+    - [§ formal reasoning](logic%20programming.md#formatl%20reasoning)
+    - [§ soundness](logic%20programming.md#soundness)
+    - [§ completeness](logic%20programming.md#completeness)
+    - [§ problems with negation](logic%20programming.md#problems%20with%20negation)
+
+## week 13 lab
+
+- datetime: 2025-11-24T15:00:00+08:00/2025-11-24T16:20:00+08:00, PT1H20M
+
+## week 13 lecture
+
+- datetime: 2025-11-25T12:00:00+08:00/2025-11-25T13:20:00+08:00, PT1H20M
+- topic: asynchronous programming; continuation-passing style; callback; direct style; future; `Future`; promise; `Promise`; transformation on futures; dataflow programming; future execution
+- Scala
+  - Scala / [futures and promises](futures%20and%20promises.md)
+    - [§ motivation](futures%20and%20promises.md#motivation)
+    - [§ continuation-passing style](futures%20and%20promises.md#continuation-passing%20style)
+    - [§ drawbacks of CPS](futures%20and%20promises.md#drawbacks%20of%20CPS)
+    - [§ CPS to direct style](futures%20and%20promises.md#CPS%20to%20direct%20style)
+    - [§ future](futures%20and%20promises.md#future)
+    - [§ promise](futures%20and%20promises.md#promise)
+    - [§ transformations](futures%20and%20promises.md#transformations)
+    - [§ for-comprehensions](futures%20and%20promises.md#for-comprehensions)
+    - [§ dataflow programming](futures%20and%20promises.md#dataflow%20programming)
+    - [§ execution context](futures%20and%20promises.md#execution%20context)
+    - [§ API mitigation](futures%20and%20promises.md#API%20mitigation)
+
+## week 13 lecture 2
+
+- datetime: 2025-11-27T12:00:00+08:00/2025-11-27T13:20:00+08:00, PT1H20M
+- topic: synchronization; actor model; actor; actor state; actor lifecycle; message passing; message processing; actor application
+- Scala
+  - Scala / [actor model](actor%20model.md)
+    - [§ motivation](actor%20model.md#motivation)
+    - [§ actor vs. thread](actor%20model.md#actor%20vs.%20thread)
+    - [§ avoiding synchronization](actor%20model.md#avoiding%20synchronization)
+    - [§ history](actor%20model.md#history)
+    - [§ actor](actor%20model.md#actor)
+    - [§ actor creation](actor%20model.md#actor%20creation)
+    - [§ message passing](actor%20model.md#message%20processing)
+    - [§ actor state](actor%20model.md#actor%20state)
+    - [§ actor lifecycle](actor%20model.md#actor%20lifecycle)
+    - [§ entry point](actor%20model.md#entry%20point)
+    - [§ actor encapsulation](actor%20model.md#actor%20encapsulation)
+    - [§ message processing](actor%20model.md#message%20processing)
+    - [§ bank account example](actor%20model.md#bank%20account%20example)
+    - [§ message delivery](actor%20model.md#message%20delivery)
+    - [§ web client example](actor%20model.md#web%20client%20example)
+    - [§ actor application](actor%20model.md#actor%20application)
 
 ## aftermath
 
