@@ -31,7 +31,16 @@ The content is in teaching order.
 
 ## children
 
+- [arbitrage pricing theory](arbitrage%20pricing%20theory.md)
 - [assignments](assignments/index.md)
+- [behavioural finance](behavioural%20finance.md)
+- [capital asset pricing model](capital%20asset%20pricing%20model.md)
+- [efficient frontier](efficient%20frontier.md)
+- [efficient-market hypothesis](efficient-market%20hypothesis.md)
+- [fixed income](fixed%20income.md)
+- [forward and futures](forward%20and%20futures.md)
+- [investment fund](investment%20fund.md)
+- [option](option.md)
 - [questions](questions.md)
 
 ## week 1 lecture
@@ -553,7 +562,233 @@ The content is in teaching order.
 ## week 6 lecture 2
 
 - datetime: 2025-10-09T15:00:00+08:00/2025-10-09T16:20:00+08:00, PT1H20M
+- topic: Markowitz model; portfolio opportunity set; efficient frontier
+- FINA 3103
+  - FINA 3013 / [efficient frontier](efficient%20frontier.md)
+    - [§ mathematical representation](efficient%20frontier.md#mathematical%20representation)
+    - [§ visualization](efficient%20frontier.md#visualization)
+    - [§ visualizing opportunity set](efficient%20frontier.md#visualizing%20opportunity%20set)
+    - [§ visualizing CAL](efficient%20frontier.md#visualizing%20CAL)
+    - [§ visualizing short selling and leverage](efficient%20frontier.md#visualizing%20short%20selling%20and%20leverage)
+
+## week 7 lecture
+
+- datetime: 2025-10-14T15:00:00+08:00/2025-10-14T16:20:00+08:00, PT1H20M
 - topic:
+- FINA 3103
+  - FINA 3103 / [capital asset pricing model](capital%20asset%20pricing%20model.md)
+    - [§ history](capital%20asset%20pricing%20model.md#history)
+    - [§ background](capital%20asset%20pricing%20model.md#background)  
+    - [§ market portfolio](capital%20asset%20pricing%20model.md#market%20portfolio)  
+    - [§ tangent portfolio](capital%20asset%20pricing%20model.md#tangent%20portfolio)  
+    - [§ assumptions](capital%20asset%20pricing%20model.md#assumptions)  
+    - [§ derivation](capital%20asset%20pricing%20model.md#derivation)  
+    - [§ CAPM equation](capital%20asset%20pricing%20model.md#CAPM%20equation)  
+    - [§ beta](capital%20asset%20pricing%20model.md#beta)  
+    - [§ portfolio CAPM](capital%20asset%20pricing%20model.md#portfolio%20CAPM)  
+    - [§ security market line](capital%20asset%20pricing%20model.md#security%20market%20line)  
+    - [§ empirical testing](capital%20asset%20pricing%20model.md#empirical%20testing)  
+    - [§ alpha](capital%20asset%20pricing%20model.md#alpha)  
+    - [§ sigma](capital%20asset%20pricing%20model.md#sigma)  
+    - [§ validity](capital%20asset%20pricing%20model.md#validity)  
+    - [§ advantages and disadvantages](capital%20asset%20pricing%20model.md#advantages%20and%20disadvantages)
+
+## week 7 lecture 2
+
+- datetime: 2025-10-16T15:00:00+08:00/2025-10-16T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [arbitrage pricing theory](arbitrage%20pricing%20theory.md)
+    - [§ single index model](arbitrage%20pricing%20theory.md#single%20index%20model)
+    - [§ variance and covariance under SIM](arbitrage%20pricing%20theory.md#variance%20and%20covariance%20under%20SIM)  
+    - [§ CAPM and SIM](arbitrage%20pricing%20theory.md#CAPM%20and%20SIM)  
+    - [§ SIM limitations](arbitrage%20pricing%20theory.md#SIM%20limitations)  
+    - [§ multiple factors model](arbitrage%20pricing%20theory.md#multiples%20factors%20model)  
+    - [§ factor-mimicking portfolio](arbitrage%20pricing%20theory.md#factor-mimicking%20portfolio)  
+    - [§ interpretation of multiple factors model](arbitrage%20pricing%20theory.md#interpretation%20of%20multiple%20factors%20model)  
+    - [§ background](arbitrage%20pricing%20theory.md#background)  
+    - [§ APT formula](arbitrage%20pricing%20theory.md#APT%20formula)  
+    - [§ arbitrage](arbitrage%20pricing%20theory.md#abitrage)  
+    - [§ APT and multiple factors model](arbitrage%20pricing%20theory.md#APT%20and%20multiple%20factors%20model)  
+    - [§ advantages and disadvantages](arbitrage%20pricing%20theory.md#advantages%20and%20disadvantages)
+
+## week 8 lecture
+
+- datetime: 2025-10-21T15:00:00+08:00/2025-10-21T16:20:00+08:00, PT1H20M
+- status: unscheduled; midterm examination
+
+## week 8 lecture 2
+
+- datetime: 2025-10-23T15:00:00+08:00/2025-10-23T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [capital asset pricing model](capital%20asset%20pricing%20model.md)
+  - FINA 3103 / [arbitrage pricing theory](arbitrage%20pricing%20theory.md)
+
+## week 9 lecture
+
+- datetime: 2025-10-28T15:00:00+08:00/2025-10-28T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [arbitrage pricing theory](arbitrage%20pricing%20theory.md)
+    - [§ law of one price](arbitrage%20pricing%20theory.md#law%20of%20one%20price)  
+    - [§ factors](arbitrage%20pricing%20theory.md#factors)
+    - [§ hypothesis testing](arbitrage%20pricing%20theory.md#hypothesis%20testing)
+    - [§ Fama–French three-factor model](arbitrage%20pricing%20theory.md#Fama–French%20three-factor%20model)
+    - [§ Carhart four-factor model](arbitrage%20pricing%20theory.md#Carhart%20four-factor%20model)
+
+## week 9 lecture 2
+
+- datetime: 2025-10-30T15:00:00+08:00/2025-10-30T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [investment fund](investment%20fund.md)
+    - [§ net asset value](investment%20fund.md#net%20asset%20value)
+    - [§ asset under management](investment%20fund.md#asset%20under%20management)  
+    - [§ types](investment%20fund.md#types)  
+    - [§ open-end funds](investment%20fund.md#open-end%20funds)  
+    - [§ closed-end funds](investment%20fund.md#closed-end%20funds)  
+    - [§ exchange-traded funds](investment%20fund.md#exchange-traded%20funds)  
+    - [§ real estate investment trusts](investment%20fund.md#real%20estate%20investment%20trusts)  
+    - [§ hedge funds](investment%20fund.md#hedge%20funds)  
+    - [§ taxation](investment%20fund.md#taxation)  
+    - [§ management styles](investment%20fund.md#management%20styles)  
+    - [§ performance evaluation](investment%20fund.md#performance%20evaluation)
+
+## week 10 lecture
+
+- datetime: 2025-11-04T15:00:00+08:00/2025-11-04T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [investment fund](investment%20fund.md)
+    - [§ style analysis](investment%20fund.md#style%20analysis)  
+    - [§ risk-adjusted performance measures](investment%20fund.md#risk-adjusted%20performance%20measures)  
+    - [§ estimating the measures](investment%20fund.md#estimating%20the%20measures)  
+    - [§ market timing strategy](investment%20fund.md#market%20timing%20strategy)
+
+## week 10 lecture 2
+
+- datetime: 2025-11-06T15:00:00+08:00/2025-11-06T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [efficient-market hypothesis](efficient-market%20hypothesis.md)
+    - [§ definition](efficient-market%20hypothesis.md#definition)
+    - [§ assumptions](efficient-market%20hypothesis.md#assumptions)  
+    - [§ types of information](efficient-market%20hypothesis.md#types%20of%20information)  
+    - [§ mechanism](efficient-market%20hypothesis.md#mechanism)  
+    - [§ three forms of market efficiency](efficient-market%20hypothesis.md#three%20forms%20of%20market%20efficiency)  
+    - [§ static vs. dynamic efficiency](efficient-market%20hypothesis.md#static%20vs.%20dynamic%20efficiency)  
+    - [§ weak-form efficiency](efficient-market%20hypothesis.md#weak-form%20efficiency)  
+    - [§ evidence for weak-form efficiency](efficient-market%20hypothesis.md#evidence%20for%20weak-form%20efficiency)  
+    - [§ semi-strong-form efficiency](efficient-market%20hypothesis.md#semi-strong-form%20efficiency)  
+    - [§ evidence for semi-strong-form efficiency](efficient-market%20hypothesis.md#evidence%20for%20semi-strong-form%20efficiency)  
+    - [§ strong-form efficiency](efficient-market%20hypothesis.md#strong-form%20efficiency)  
+    - [§ no-trade theorem and noise trading](efficient-market%20hypothesis.md#no-trade%20theorem%20and%20noise%20trading)  
+    - [§ evidence for strong-form efficiency](efficient-market%20hypothesis.md#evidence%20for%20strong-form%20efficiency)  
+    - [§ implications](efficient-market%20hypothesis.md#implications)
+
+## week 11 lecture
+
+- datetime: 2025-11-11T15:00:00+08:00/2025-11-11T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [behavioural finance](behavioural%20finance.md)
+    - [§ motivation](behavioural%20finance.md#motivation)  
+    - [§ projection bias](behavioural%20finance.md#projection%20bias)  
+    - [§ overconfidence](behavioural%20finance.md#overconfidence)  
+    - [§ inattention](behavioural%20finance.md#inattention)  
+    - [§ inattention model](behavioural%20finance.md#inattention%20model)  
+    - [§ framing](behavioural%20finance.md#framing)  
+    - [§ propsect theory](behavioural%20finance.md#propsect%20theory)  
+    - [§ endowment and disposition effects](behavioural%20finance.md#endowment%20and%20disposition%20effects)
+
+## week 11 lecture 2
+
+- datetime: 2025-11-13T15:00:00+08:00/2025-11-13T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [fixed income](fixed%20income.md)
+    - [§ definition](fixed%20income.md#definition)  
+    - [§ valuation](fixed%20income.md#valuation)  
+    - [§ zero-coupon bonds](fixed%20income.md#zero-coupon%20bonds)  
+    - [§ coupon bonds](fixed%20income.md#coupon%20bonds)  
+    - [§ yield to maturity](fixed%20income.md#yield%20to%20maturity)  
+    - [§ yield curve](fixed%20income.md#yield%20curve)  
+    - [§ spot rate](fixed%20income.md#spot%20rate)  
+    - [§ spot rate versus YTM](fixed%20income.md#spot%20rate%20versus%20YTM)  
+    - [§ forward rate](fixed%20income.md#forward%20rate)  
+    - [§ risks](fixed%20income.md#risk)  
+    - [§ yield decomposition](fixed%20income.md#yield%20decomposition)  
+    - [§ interest rate risk and duration](fixed%20income.md#interest%20rate%20risk%20and%20duration)  
+    - [§ convexity correction](fixed%20income.md#convexity%20correction)  
+    - [§ portfolio duration](fixed%20income.md#portfolio%20duration)  
+    - [§ immunization](fixed%20income.md#immunization)  
+    - [§ limitations of immunization](fixed%20income.md#limitations%20of%20immunization)  
+    - [§ portfolio strategies](fixed%20income.md#portfolio%20strategies)
+
+## week 12 lecture
+
+- datetime: 2025-11-18T15:00:00+08:00/2025-11-18T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [forward and futures](forward%20and%20futures.md)
+    - [§ derivatives](forward%20and%20futures.md#derivatives)  
+    - [§ motivation](forward%20and%20futures.md#moti​vation)  
+    - [§ history](forward%20and%20futures.md#history)  
+    - [§ forward](forward%20and%20futures.md#forward)  
+    - [§ futures](forward%20and%20futures.md#futures)  
+    - [§ market-to-market mechanism](forward%20and%20futures.md#market-to-market%20mechanism)  
+    - [§ counterparty risk and clearing house](forward%20and%20futures.md#counterparty%20risk%20and%20clearing%20house)  
+    - [§ pricing](forward%20and%20futures.md#pricing)  
+    - [§ payoffs](forward%20and%20futures.md#payoffs)  
+    - [§ replicating portfolio](forward%20and%20futures.md#replicating%20portfolio)  
+    - [§ contango and backwardation](forward%20and%20futures.md#contango%20and%20backwardation)  
+    - [§ holding cost and convenience yield](forward%20and%20futures.md#holding%20cost%20and%20convenience%20yield)  
+    - [§ pricing examples](forward%20and%20futures.md#pricing%20examples)  
+    - [§ implied rates](forward%20and%20futures.md#implied%20rates)  
+    - [§ basis trading](forward%20and%20futures.md#basis%20trading)  
+    - [§ hedging](forward%20and%20futures.md#hedging)
+
+## week 12 lecture 2
+
+- datetime: 2025-11-20T15:00:00+08:00/2025-11-20T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [forward and futures](forward%20and%20futures.md)
+
+## week 13 lecture
+
+- datetime: 2025-11-25T15:00:00+08:00/2025-11-25T16:20:00+08:00, PT1H20M
+- topic:
+- FINA 3103
+  - FINA 3103 / [option](option.md)
+    - [§ option rights](option.md#option%20rights)  
+    - [§ option styles](option.md#option%20styles)  
+    - [§ contract specification](option.md#contract%20specification)  
+    - [§ payoff and profit](option.md#payoff%20and%20profit)  
+    - [§ moneyness](option.md#moneyness)  
+    - [§ trading strategies](option.md#trading%20strategies)  
+    - [§ protective put](option.md#protective%20put)  
+    - [§ money spread](option.md#money%20spread)  
+    - [§ straddle](option.md#straddle)  
+    - [§ put–call parity](option.md#put–call%20parity)  
+    - [§ put–call arbitrage](option.md#put–call%20arbitrage)  
+    - [§ valuation](option.md#valuation)  
+    - [§ binomial options pricing model](option.md#binomial%20options%20pricing%20model)  
+    - [§ recursive binomial options pricing model](option.md#recursive%20binomial%20options%20pricing%20model)  
+    - [§ Black–Scholes model](option.md#Black–Scholes%20model)  
+    - [§ implied volatility](option.md#implied%20volatility)  
+    - [§ interpretation of the Black–Scholes model](option.md#interpretation%20of%20the%20Black–Scholes%20model)  
+    - [§ Long-Term Capital Management example](option.md#Long-Term%20Capital%20Management%20example)
+
+## week 13 lecture 2
+
+- datetime: 2025-11-27T15:00:00+08:00/2025-11-27T16:20:00+08:00, PT1H20M
+- status: unscheduled
+
+---
+
+> We’ve finished covering all the course material, so there will be __no class on Thursday__. I’ll be in my office, so anyone with questions or discussions is welcome to drop by without an appointment.
 
 ## aftermath
 
