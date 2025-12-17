@@ -54,7 +54,9 @@ For puts the situation is reversed: if $S_T<K$ it is _in-the-money_ and the payo
 
 ## trading strategies
 
-Options can be combined in many ways to shape payoff profiles that suit a trader’s risk‑return preferences. Typical combinations include the _protective put_, the _money spread_ (also called bull call spread) and the _straddle_. These constructions act as tools for managing exposure rather than pure speculation. These three strategies respectively illustrate how option combinations can be used to hedge, limit risk or capture volatility.
+Options can be combined in many ways to shape payoff profiles that suit a trader’s risk‑return preferences. It can draw any desired payoff using a portfolio of options, provided that liquidity exists for the needed options.
+
+Typical combinations include the _protective put_, the _money spread_ (also called _bull call spread_) and the _straddle_. These constructions act as tools for managing exposure rather than pure speculation. These three strategies respectively illustrate how option combinations can be used to hedge, limit risk or capture volatility.
 
 ### protective put
 
@@ -88,7 +90,7 @@ When $C+\dfrac{K}{(1+r)^T}$ does not equal $P+S_0$, an arbitrageur can lock in a
 
 ## valuation
 
-Unlike forwards and futures where the payoff is linear, and thus valuation is relatively simple; an option has nonlinear payoff, and thus valuation is much more complicated.
+Unlike forwards and futures where the payoff is linear, and thus valuation is relatively simple; an option has nonlinear payoff, and thus valuation is much more complicated. There are three main ways: binomial options pricing model, Black–Scholes model, and Monte-Carlo simulation-based method.
 
 ### binomial options pricing model
 
