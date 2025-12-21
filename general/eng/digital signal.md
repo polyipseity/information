@@ -26,7 +26,7 @@ In a digital signal, {@{the physical quantity representing the information}@} ma
 
 > {@{![A received digital signal may be impaired by [noise](noise.md) and [distortions](distortion.md) without necessarily affecting the digits](../../archives/Wikimedia%20Commons/Digital-signal-noise.svg)}@}
 >
-> A received digital signal may be {@{impaired by [noise](noise.md) and [distortions](distortion.md) without necessarily affecting the digits}@} <!--SR:!2026-01-06,248,330!2025-12-14,228,330-->
+> A received digital signal may be {@{impaired by [noise](noise.md) and [distortions](distortion.md) without necessarily affecting the digits}@} <!--SR:!2026-01-06,248,330!2028-10-13,1034,350-->
 
 ## definitions
 

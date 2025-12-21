@@ -41,7 +41,7 @@ Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Cash%20flow) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(January 2024\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-Cash flows are often {@{transformed into measures that give information e.g. on a company's value and situation}@}: <!--SR:!2025-12-14,265,330-->
+Cash flows are often {@{transformed into measures that give information e.g. on a company's value and situation}@}: <!--SR:!2029-04-03,1206,350-->
 
 - (annotation: value) ::@:: to determine a project's [rate of return](accounting%20rate%20of%20return.md) or value. The time of cash flows into and out of projects are used as inputs in financial models such as [internal rate of return](internal%20rate%20of%20return.md) and [net present value](net%20present%20value.md). <!--SR:!2026-01-20,294,330!2027-10-19,766,330-->
 - (annotation: liquidity) ::@:: to determine problems with a business's [liquidity](accounting%20liquidity.md). Being profitable does not necessarily mean being liquid. A company can fail because of a shortage of cash even while profitable. <!--SR:!2027-10-27,781,330!2027-07-31,713,330-->

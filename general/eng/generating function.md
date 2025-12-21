@@ -183,7 +183,7 @@ Multiplication of ordinary generating functions yields {@{a discrete [convolutio
 For {@{integers _m_ ≥ 1}@}, we have {@{the following two analogous identities for the modified generating functions enumerating the shifted sequence variants of ⟨ _g_<sub>_n_ − _m_</sub> ⟩ and ⟨ _g_<sub>_n_ + _m_</sub> ⟩}@}, respectively: <!--SR:!2029-02-04,1227,350!2028-12-29,1198,350-->
 
 - shift coefficients right (to higher order) ::@:: $$z^{m}G(z)=\sum _{n=m}^{\infty }g_{n-m}z^{n}$$ <!--SR:!2028-07-29,992,330!2027-02-10,624,310-->
-- discard leading coefficients and shift coefficients left (to lower order) ::@:: $${\frac {G(z)-g_{0}-g_{1}z-\cdots -g_{m-1}z^{m-1} }{z^{m} } }=\sum _{n=0}^{\infty }g_{n+m}z^{n}$$ <!--SR:!2026-03-17,359,310!2025-12-14,289,290-->
+- discard leading coefficients and shift coefficients left (to lower order) ::@:: $${\frac {G(z)-g_{0}-g_{1}z-\cdots -g_{m-1}z^{m-1} }{z^{m} } }=\sum _{n=0}^{\infty }g_{n+m}z^{n}$$ <!--SR:!2026-03-17,359,310!2029-02-27,1171,310-->
 
 #### differentiation and integration of generating functions
 

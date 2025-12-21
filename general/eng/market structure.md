@@ -69,7 +69,7 @@ __Quick Reference to Basic Market Structures__
 >
 > {@{Karl Marx}@} <!--SR:!2026-01-11,325,340-->
 
-The correct sequence of the market structure from {@{most to least competitive}@} is {@{perfect competition, imperfect competition, oligopoly, and pure monopoly}@}. <!--SR:!2026-01-04,319,340!2025-12-14,301,340-->
+The correct sequence of the market structure from {@{most to least competitive}@} is {@{perfect competition, imperfect competition, oligopoly, and pure monopoly}@}. <!--SR:!2026-01-04,319,340!2029-10-23,1409,360-->
 
 {@{The main criteria by which one can distinguish between different market structures}@} are: {@{the number and size of firms and [consumers](consumer.md) in the market, the type of [goods](product%20(business).md) and [services](service%20(economics).md) being traded, and the degree to which [information](information.md) can flow freely}@}. In today's time, {@{Karl Marx's theory about political influence on market}@} makes sense as {@{firms and industry are affected strongly by the regulation, taxes, tariffs, patents imposed by the government}@}. These affect {@{the barriers to entry and exit for the firms in the market}@}. <!--SR:!2026-01-17,330,340!2026-02-05,314,290!2029-05-02,1263,350!2025-12-19,305,340!2026-01-14,327,340-->
 

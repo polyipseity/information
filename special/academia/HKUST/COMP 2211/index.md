@@ -234,7 +234,7 @@ Circumference: 628.3185307179587
     - advanced Python / inheritance / syntax ::@:: See [Python inheritance syntax](#^Python-inheritance-syntax). <!--SR:!2025-12-23,326,350!2026-01-11,342,350-->
     - advanced Python / inheritance / example ::@:: See [Python inheritance example](#^Python-inheritance-example). <!--SR:!2026-01-01,335,350!2027-11-15,861,350-->
   - advanced Python / module ::@:: A __module__ is a bunch of related code in a Python (`.py`) file. <!--SR:!2025-12-23,326,350!2028-12-08,1168,352-->
-  - advanced Python / package ::@:: A __package__ is a directory of _modules_. <!--SR:!2025-12-14,319,350!2029-08-04,1371,370-->
+  - advanced Python / package ::@:: A __package__ is a directory of _modules_. <!--SR:!2030-02-25,1534,370!2029-08-04,1371,370-->
   - advanced Python / library ::@:: A __library__ is a collection of _packages_. <!--SR:!2028-11-21,1155,352!2029-12-06,1471,370-->
   - advanced Python / `import` ::@:: The `import` keyword  can be used to import external modules. <!--SR:!2025-12-21,323,350!2029-09-02,1395,370-->
     - advanced Python / `import` directly ::@:: `import <module> [as <name>]` <br/> `import <package>.<module> [as <name>]` <p> The module is accessible as `<module>` or `<package>.<module>`. If `as <name>` is present, then it is accessible as `<name>`. <!--SR:!2025-12-28,331,350!2029-03-22,1250,352-->

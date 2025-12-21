@@ -32,7 +32,7 @@ tags:
 - dollar sign ::@:: There is no need to add it. It is supposed to be done in a spreadsheet anyway. <!--SR:!2029-05-04,1247,350!2026-10-01,483,310-->
 - total ::@:: Calculate the total debit and credit for unadjusted, adjustments, and adjusted. The debit and credit should always equal. <!--SR:!2027-05-27,680,330!2029-03-02,1202,350-->
 - negative number ::@:: There should be no negative numbers. <!--SR:!2029-01-21,1169,350!2029-02-14,1188,350-->
-- casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-05-07,1249,350!2025-12-14,284,330-->
+- casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-05-07,1249,350!2029-06-29,1293,350-->
 - (root) ::@:: accounts: 1 column <br/> unadjusted: 2 columns <br> adjustments: ≥2 columns <br/> adjusted: 2 columns <!--SR:!2025-12-15,285,330!2029-06-09,1276,350-->
   - (root) / accounts ::@:: A row for each account. Write the account caption. The last account should be "Total". <!--SR:!2026-08-30,455,310!2026-08-26,451,310-->
   - (root) / unadjusted ::@:: Write the account balance in either debit or credit. If the balance is zero (for accounts which will have a balance after adjustment), write a "-" on the side of the account's normal balance (normally debit or normally credit?). <p> Remember to calculate and check the total debit and credit. <!--SR:!2029-03-21,1216,350!2029-02-20,1193,350-->

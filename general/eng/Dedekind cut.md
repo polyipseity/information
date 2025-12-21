@@ -26,7 +26,7 @@ It is straightforward to show that {@{a Dedekind cut among the real numbers is u
 A Dedekind cut is {@{a partition of the rationals $\mathbb {Q}$ into two subsets $A$ and $B$}@} such that <!--SR:!2028-10-29,1093,350-->
 
 1. non-emptyness ::@:: $A$ is nonempty. <!--SR:!2029-02-22,1184,350!2028-09-22,1064,350-->
-2. non-emptyness of complement ::@:: $A\neq \mathbb {Q}$ \(equivalently, $B$ is nonempty\). <!--SR:!2025-12-14,275,330!2029-01-21,1160,350-->
+2. non-emptyness of complement ::@:: $A\neq \mathbb {Q}$ \(equivalently, $B$ is nonempty\). <!--SR:!2029-05-25,1258,350!2029-01-21,1160,350-->
 3. downward closure ::@:: If $x,y\in \mathbb {Q}$, $x<y$, and $y\in A$, then $x\in A$. \($A$ is "closed downwards".\) <!--SR:!2025-12-20,279,330!2025-12-27,283,330-->
 4. no greatest element ::@:: If $x\in A$, then there exists a $y\in A$ such that $y>x$. \($A$ does not contain a greatest element.\) <!--SR:!2028-12-21,1136,350!2028-01-01,841,330-->
 
@@ -82,7 +82,7 @@ If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called 
 
 - Main article: [Dedekind–MacNeille completion](Dedekind–MacNeille%20completion.md)
 
-More generally, if {@{_S_ is a [partially ordered set](partially%20ordered%20set.md)}@}, {@{a _completion_ of _S_}@} means {@{a [complete lattice](complete%20lattice.md) _L_ with an order-embedding of _S_ into _L_}@}. {@{The notion of _complete lattice_}@} {@{generalizes the least-upper-bound property of the reals}@}. <!--SR:!2025-12-14,275,330!2028-10-13,1080,350!2025-12-15,276,330!2029-02-12,1175,350!2029-03-13,1200,350-->
+More generally, if {@{_S_ is a [partially ordered set](partially%20ordered%20set.md)}@}, {@{a _completion_ of _S_}@} means {@{a [complete lattice](complete%20lattice.md) _L_ with an order-embedding of _S_ into _L_}@}. {@{The notion of _complete lattice_}@} {@{generalizes the least-upper-bound property of the reals}@}. <!--SR:!2029-05-21,1254,350!2028-10-13,1080,350!2025-12-15,276,330!2029-02-12,1175,350!2029-03-13,1200,350-->
 
 {@{One completion of _S_}@} is {@{the set of its _downwardly closed_ subsets, ordered by [inclusion](subset.md)}@}. {@{A related completion that preserves all existing sups and infs of _S_}@} is obtained by the following construction: For {@{each subset _A_ of _S_}@}, let {@{_A_<sup>u</sup> denote the set of upper bounds of _A_, and let _A_<sup>l</sup> denote the set of lower bounds of _A_}@}. \(These operators form {@{a [Galois connection](Galois%20connection.md)}@}.\) Then {@{the [Dedekind–MacNeille completion](Dedekind–MacNeille%20completion.md) of _S_}@} consists of {@{all subsets _A_ for which \(_A_<sup>u</sup>\)<sup>l</sup> = _A_; it is ordered by inclusion}@}. {@{The Dedekind-MacNeille completion}@} is {@{the smallest complete lattice with _S_ embedded in it}@}. <!--SR:!2029-04-30,1237,350!2026-12-01,520,310!2027-07-23,720,330!2026-12-11,527,310!2029-05-01,1238,350!2027-11-13,806,330!2027-12-06,825,330!2027-01-11,549,310!2028-08-18,1035,350!2027-09-18,751,330-->
 

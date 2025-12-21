@@ -19,7 +19,7 @@ tags:
 
 {@{The device of the authorised capital}@} is used to {@{limit or control the ability of the directors to issue or allot new shares}@}, which {@{may have consequences in the control of a company or otherwise alter the balance of control between shareholders}@}. {@{Such an issue of shares to new shareholders}@} may also {@{shift the profit distribution balance}@}, for example, if {@{new shares are issued at face value and not at market value}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-01-19,273,330!2026-02-02,284,330!2027-03-11,564,310!2026-01-01,259,330!2028-11-10,1073,350!2026-01-02,259,330-->
 
-{@{The requirement for a company to have a set authorised capital}@} was abolished in {@{Australia in 2001}@}, and in {@{the United Kingdom, it was abolished under the [Companies Act 2006](Companies%20Act%202006.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-15,246,330!2026-02-15,293,330!2025-12-14,244,330-->
+{@{The requirement for a company to have a set authorised capital}@} was abolished in {@{Australia in 2001}@}, and in {@{the United Kingdom, it was abolished under the [Companies Act 2006](Companies%20Act%202006.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-15,246,330!2026-02-15,293,330!2028-02-29,807,330-->
 
 ## see also
 

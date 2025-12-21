@@ -31,7 +31,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2025-12-14,181,310!2026-03-25,266,330-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2028-02-05,783,330!2026-03-25,266,330-->
 
 <!-- markdownlint MD028 -->
 

@@ -39,7 +39,7 @@ The next four axioms describe {@{the [equality](equality%20(mathematics).md) [re
 5. 5th axiom ::@:: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2029-05-07,1338,365!2029-12-23,1518,365-->
 <!-- markdownlint-restore -->
 
-The remaining axioms {@{define the arithmetical properties of the natural numbers}@}. The naturals are {@{assumed to be closed under a single-valued "[successor](successor%20function.md)" [function](function%20(mathematics).md) _S_}@}. <!--SR:!2027-12-07,908,345!2025-12-14,358,345-->
+The remaining axioms {@{define the arithmetical properties of the natural numbers}@}. The naturals are {@{assumed to be closed under a single-valued "[successor](successor%20function.md)" [function](function%20(mathematics).md) _S_}@}. <!--SR:!2027-12-07,908,345!2030-08-12,1702,365-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->

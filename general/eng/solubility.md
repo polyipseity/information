@@ -161,7 +161,7 @@ return (
 > carbonates
 >
 > - general solubility: {@{<span style="color: red;">insoluble</span>}@}
-> - exception(s): {@{group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds}@} <!--SR:!2025-12-14,813,248!2026-06-11,643,230-->
+> - exception(s): {@{group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds}@} <!--SR:!2033-09-15,2832,268!2026-06-11,643,230-->
 
 <!-- markdownlint MD028 -->
 

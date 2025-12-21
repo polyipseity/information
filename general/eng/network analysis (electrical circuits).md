@@ -358,7 +358,7 @@ In this method, {@{the transfer function of the non-linear device}@} is {@{broke
 
 {@{The commonly accepted values for the transition point voltage}@} are {@{0.7V for silicon devices and 0.3V for germanium devices}@}. {@{An even simpler model of the diode, sometimes used in switching applications}@}, is {@{short circuit for forward voltages and open circuit for reverse voltages}@}. <!--SR:!2026-07-17,385,360!2026-01-24,239,330!2026-04-12,304,349!2026-04-14,306,349-->
 
-{@{The model of a forward biased pn junction having an approximately constant 0.7V}@} is also {@{a much used approximation for transistor base-emitter junction voltage in amplifier design}@}. <!--SR:!2026-05-19,332,349!2025-12-14,208,340-->
+{@{The model of a forward biased pn junction having an approximately constant 0.7V}@} is also {@{a much used approximation for transistor base-emitter junction voltage in amplifier design}@}. <!--SR:!2026-05-19,332,349!2027-11-22,708,340-->
 
 The piecewise method is {@{similar to the small signal method}@} in that {@{linear network analysis techniques can only be applied if the signal stays within certain bounds}@}. If {@{the signal crosses a discontinuity point then the model is no longer valid for linear analysis purposes}@}. The model does {@{have the advantage over small signal}@} however, in that it is {@{equally applicable to signal and dc bias}@}. These can therefore {@{both be analysed in the same operations and will be linearly superimposable}@}. <!--SR:!2026-06-04,347,349!2026-05-25,338,349!2026-07-19,385,360!2026-01-29,244,330!2026-01-29,244,330!2026-06-08,351,349-->
 

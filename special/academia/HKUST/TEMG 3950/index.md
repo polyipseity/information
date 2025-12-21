@@ -212,7 +212,7 @@ The content is in teaching order.
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2029-02-11,1358,381!2031-11-08,2183,401-->
   - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2028-02-18,1044,361!2026-01-14,470,381-->
-- nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2025-12-14,445,381-->
+- nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2032-04-21,2320,401-->
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2029-02-12,1359,381!2031-11-22,2195,401-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2027-12-31,1023,381!2027-02-15,768,361-->
 - casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2029-05-25,1426,381!2031-12-17,2216,401-->

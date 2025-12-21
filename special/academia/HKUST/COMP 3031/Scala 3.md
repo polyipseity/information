@@ -815,7 +815,7 @@ Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,
 
 ### anonymous functions
 
-{@{Anonymous functions}@} allow us to {@{define functions without _naming_ them}@}. The full syntax is {@{`(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) => <expr>`}@}. {@{The return type}@} {@{cannot be specified and is inferred from `<expr>`}@}. {@{The argument types}@} {@{can be omitted if it can be inferred}@}, e.g. {@{when defining an anonymous function to pass to an argument in a function call}@}. If {@{there is exactly 1 argument with an omitted argument type}@}, then {@{parentheses \(`()`\) are optional}@}. <!--SR:!2026-02-01,98,379!2026-01-24,91,370!2026-02-01,98,379!2026-02-05,102,379!2026-01-04,71,359!2026-01-30,96,379!2026-01-30,96,379!2025-12-14,57,350!2026-01-29,96,379!2026-01-27,94,370-->
+{@{Anonymous functions}@} allow us to {@{define functions without _naming_ them}@}. The full syntax is {@{`(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) => <expr>`}@}. {@{The return type}@} {@{cannot be specified and is inferred from `<expr>`}@}. {@{The argument types}@} {@{can be omitted if it can be inferred}@}, e.g. {@{when defining an anonymous function to pass to an argument in a function call}@}. If {@{there is exactly 1 argument with an omitted argument type}@}, then {@{parentheses \(`()`\) are optional}@}. <!--SR:!2026-02-01,98,379!2026-01-24,91,370!2026-02-01,98,379!2026-02-05,102,379!2026-01-04,71,359!2026-01-30,96,379!2026-01-30,96,379!2026-09-20,280,370!2026-01-29,96,379!2026-01-27,94,370-->
 
 For some reason, {@{call-by-name syntax}@} {@{does not work with anonymous functions}@}. <!--SR:!2026-02-02,99,379!2026-02-05,102,379-->
 
@@ -1224,7 +1224,7 @@ Scala 3 supports {@{multiple parameter lists}@}, e.g. {@{`def <name>(<param list
 
 When {@{you call the function \(function application\)}@}, you need to {@{provide _all_ arguments in _all_ parameter lists}@} with {@{the _same_ grouping as the function parameter lists}@} too. To support this, {@{function application}@} is {@{left-associative}@}, i.e. {@{`f(a)(b)` is `(f(a))(b)`}@}. <!--SR:!2026-01-29,96,379!2026-01-23,90,370!2026-02-04,101,379!2026-02-02,99,379!2026-01-24,91,370!2026-02-05,102,379-->
 
-Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_}@}. However, if {@{you use one parameter list for each argument}@}, then you are {@{currying a function}@} by converting {@{the function into a sequence of functions that each takes a single argument}@}. <!--SR:!2026-02-05,102,379!2026-01-24,91,370!2025-12-14,57,350!2026-01-23,90,370!2026-01-27,94,370-->
+Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_}@}. However, if {@{you use one parameter list for each argument}@}, then you are {@{currying a function}@} by converting {@{the function into a sequence of functions that each takes a single argument}@}. <!--SR:!2026-02-05,102,379!2026-01-24,91,370!2026-09-20,280,370!2026-01-23,90,370!2026-01-27,94,370-->
 
 ### extension methods
 

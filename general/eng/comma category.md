@@ -21,7 +21,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __comma category__}@} \(a special c
 
 ## definition
 
-{@{The most general comma category construction}@} {@{involves two [functors](functor.md) with the same codomain}@}. Often {@{one of these will have domain __1__ \(the one-object one-morphism category\)}@}. {@{Some accounts of category theory}@} {@{consider only these special cases}@}, but the term comma category is {@{actually much more general}@}. <!--SR:!2025-12-31,264,338!2026-02-17,302,342!2026-03-31,336,342!2026-03-13,325,354!2025-12-14,250,330!2026-02-21,308,354-->
+{@{The most general comma category construction}@} {@{involves two [functors](functor.md) with the same codomain}@}. Often {@{one of these will have domain __1__ \(the one-object one-morphism category\)}@}. {@{Some accounts of category theory}@} {@{consider only these special cases}@}, but the term comma category is {@{actually much more general}@}. <!--SR:!2025-12-31,264,338!2026-02-17,302,342!2026-03-31,336,342!2026-03-13,325,354!2029-01-30,1143,350!2026-02-21,308,354-->
 
 ### general form
 

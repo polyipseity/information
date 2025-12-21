@@ -102,7 +102,7 @@ In {@{definitions that allow the divisor to be 0}@}, {@{the relation of divisibi
 ## notes
 
 1. a. $a\mid b,\,a\mid c$ $\Rightarrow \exists j\colon ja=b,\,\exists k\colon ka=c$ $\Rightarrow \exists j,k\colon (j+k)a=b+c$ $\Rightarrow a\mid (b+c)$. Similarly, $a\mid b,\,a\mid c$ $\Rightarrow \exists j\colon ja=b,\,\exists k\colon ka=c$ $\Rightarrow \exists j,k\colon (j-k)a=b-c$ $\Rightarrow a\mid (b-c)$. <a id="^ref-a"></a>^ref-a
-2. b. $\gcd$ refers to ::@:: the [greatest common divisor](greatest%20common%20divisor.md). <a id="^ref-b"></a>^ref-b <!--SR:!2026-01-05,284,330!2025-12-14,267,330-->
+2. b. $\gcd$ refers to ::@:: the [greatest common divisor](greatest%20common%20divisor.md). <a id="^ref-b"></a>^ref-b <!--SR:!2026-01-05,284,330!2029-04-17,1220,350-->
 
 ## citations
 

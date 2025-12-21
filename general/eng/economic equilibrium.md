@@ -10,7 +10,7 @@ tags:
 
 # economic equilibrium
 
-In [economics](economics.md), __economic equilibrium__ is {@{a situation in which economic forces such as [supply and demand](supply%20and%20demand.md) are balanced}@} and {@{in the absence of external influences the ([equilibrium](https://en.wiktionary.org/wiki/equilibrium)) values of economic variables will not change}@}. For example, in {@{the standard text [perfect competition](perfect%20competition.md)}@}, equilibrium occurs at {@{the point at which quantity demanded and quantity supplied are equal}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-12-14,309,345!2026-01-08,329,345!2027-09-17,781,330!2026-01-23,341,345-->
+In [economics](economics.md), __economic equilibrium__ is {@{a situation in which economic forces such as [supply and demand](supply%20and%20demand.md) are balanced}@} and {@{in the absence of external influences the ([equilibrium](https://en.wiktionary.org/wiki/equilibrium)) values of economic variables will not change}@}. For example, in {@{the standard text [perfect competition](perfect%20competition.md)}@}, equilibrium occurs at {@{the point at which quantity demanded and quantity supplied are equal}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-12-19,1466,365!2026-01-08,329,345!2027-09-17,781,330!2026-01-23,341,345-->
 
 __Market equilibrium__ in this case is {@{a condition where a market [price](price.md) is established through competition such that the amount of goods or services sought by [buyers](supply%20and%20demand.md) is equal to the amount of goods or services produced by [sellers](supply%20and%20demand.md)}@}. This price is often called {@{the __competitive price__ or [market clearing](market%20clearing.md) price}@} and will {@{tend not to change unless demand or supply changes, and quantity is called the "competitive quantity" or market clearing quantity}@}. But {@{the concept of _equilibrium_ in economics}@} also applies to {@{[imperfectly competitive](imperfect%20competition.md) markets, where it takes the form of a [Nash equilibrium](Nash%20equilibrium.md)}@}. <!--SR:!2026-09-20,506,325!2026-01-14,334,345!2026-01-20,339,345!2026-01-20,339,345!2026-01-22,340,345-->
 
@@ -22,7 +22,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 
 {@{Three basic properties of equilibrium in general}@} have been proposed by [Huw Dixon](Huw%20Dixon.md).<sup>[\[2\]](#^ref-2)</sup> These are: <!--SR:!2027-06-05,722,345-->
 
-- Equilibrium property P1: ::@:: The behavior of agents is consistent. <!--SR:!2025-12-14,308,345!2028-10-10,1110,350-->
+- Equilibrium property P1: ::@:: The behavior of agents is consistent. <!--SR:!2029-12-12,1459,365!2028-10-10,1110,350-->
 - Equilibrium property P2: ::@:: No agent has an incentive to change its behavior. <!--SR:!2026-01-16,335,345!2028-03-13,937,345-->
 - Equilibrium property P3: ::@:: Equilibrium is the outcome of some dynamic process (stability). <!--SR:!2025-12-18,312,345!2028-01-10,829,330-->
 

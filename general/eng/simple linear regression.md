@@ -119,7 +119,7 @@ Since {@{$\operatorname {Var} (y_{d})=\sigma ^{2}$ \(a fixed but unknown paramet
 1. the errors in the regression ::@:: are [normally distributed](normal%20distribution.md) \(the so-called _classic regression_ assumption\), or <!--SR:!2026-02-05,283,330!2026-01-15,267,330-->
 2. the number of observations _n_ ::@:: is sufficiently large, in which case the estimator is approximately normally distributed. <!--SR:!2026-02-16,292,330!2026-01-05,259,330-->
 
-{@{The latter case}@} is justified by {@{the [central limit theorem](central%20limit%20theorem.md)}@}. <!--SR:!2026-01-13,265,330!2025-12-14,241,330-->
+{@{The latter case}@} is justified by {@{the [central limit theorem](central%20limit%20theorem.md)}@}. <!--SR:!2026-01-13,265,330!2028-12-17,1099,350-->
 
 #### normality assumption
 
