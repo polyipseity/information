@@ -170,7 +170,7 @@ Another application of MDP process in {@{[machine learning](machine%20learning.m
 In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of: <!--SR:!2026-02-26,349,349!2026-01-27,325,349-->
 
 - a set _x_ ::@:: of possible inputs, <!--SR:!2029-06-12,1284,352!2029-02-12,1191,352-->
-- a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2029-01-31,1181,352!2025-12-15,285,332-->
+- a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2029-01-31,1181,352!2029-07-05,1298,352-->
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2027-01-21,567,312!2029-06-18,1289,352-->
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2029-06-13,1285,352!2027-10-27,794,332-->
 - a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and \(annotation: This makes the automata "learn" from an input.\) <!--SR:!2027-12-28,792,292!2026-10-10,493,312-->

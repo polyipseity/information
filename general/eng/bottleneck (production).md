@@ -33,7 +33,7 @@ Another example is in {@{a [surface-mount technology](surface-mount%20technology
 
 ### accumulation
 
-When {@{input comes in faster than the speed of the process}@}, {@{accumulation starts to occur}@}. This means that the machine either {@{does not have enough capacity, is not being fully utilized or has an under-qualified operator}@}. This method is {@{not effective at identifying bottlenecks where the queues are at several process steps}@}, as {@{there are multiple processes with accumulation}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-12-27,238,330!2026-01-15,254,330!2026-02-15,276,330!2026-01-14,252,330!2025-12-15,227,330-->
+When {@{input comes in faster than the speed of the process}@}, {@{accumulation starts to occur}@}. This means that the machine either {@{does not have enough capacity, is not being fully utilized or has an under-qualified operator}@}. This method is {@{not effective at identifying bottlenecks where the queues are at several process steps}@}, as {@{there are multiple processes with accumulation}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-12-27,238,330!2026-01-15,254,330!2026-02-15,276,330!2026-01-14,252,330!2028-10-10,1030,350-->
 
 ### throughput
 
@@ -85,7 +85,7 @@ To compensate for {@{being the weakest link in the chain of processes}@}, the bo
 
 ### eliminating non-value activities
 
-In {@{removing all non-value activities}@}, you reduce {@{the amount of redundant tasks performed by the bottlenecked machine}@} and hence {@{maximize efficiency}@}. Removing the waste operations results in {@{a shorter cycle time hence allowing the machine to complete each process in less time}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-05,292,330!2028-01-12,801,330!2026-03-03,290,330!2025-12-15,227,330-->
+In {@{removing all non-value activities}@}, you reduce {@{the amount of redundant tasks performed by the bottlenecked machine}@} and hence {@{maximize efficiency}@}. Removing the waste operations results in {@{a shorter cycle time hence allowing the machine to complete each process in less time}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-05,292,330!2028-01-12,801,330!2026-03-03,290,330!2028-10-09,1029,350-->
 
 ### provide a constant buffer stock upstream
 

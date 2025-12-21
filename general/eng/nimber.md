@@ -37,7 +37,7 @@ Cram is {@{a game often played on a rectangular board}@} in which {@{players tak
 
 ### Northcott's game
 
-In {@{Northcott's game}@}, {@{<!-- pegs -->a token for each player are placed along a <!-- column -->row with a finite number of spaces}@}. Each turn each player must {@{move the piece <!-- up -->left or <!-- down -->right the column}@}, but may not {@{move past the other player's piece}@}. {@{Several <!-- columns -->rows are stacked together}@} to add complexity. {@{The player that can no longer make any moves}@} loses. Unlike {@{many other nimber related games}@}, {@{the number of spaces between the two tokens on each row}@} are {@{the sizes of the Nim heaps}@}. If your opponent {@{increases the number of spaces between two tokens}@}, just {@{decrease it on your next move}@}. Else, play {@{the game of Nim}@} and make {@{the Nim-sum of the number of spaces between the tokens on each row be 0}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-18,353,353!2027-05-01,638,325!2028-03-08,842,330!2027-12-26,837,330!2025-12-17,276,330!2028-07-05,999,353!2026-02-12,325,345!2026-02-21,332,345!2026-02-11,324,345!2027-04-26,634,325!2025-12-15,24,371!2026-01-02,23,373!2026-01-02,23,373-->
+In {@{Northcott's game}@}, {@{<!-- pegs -->a token for each player are placed along a <!-- column -->row with a finite number of spaces}@}. Each turn each player must {@{move the piece <!-- up -->left or <!-- down -->right the column}@}, but may not {@{move past the other player's piece}@}. {@{Several <!-- columns -->rows are stacked together}@} to add complexity. {@{The player that can no longer make any moves}@} loses. Unlike {@{many other nimber related games}@}, {@{the number of spaces between the two tokens on each row}@} are {@{the sizes of the Nim heaps}@}. If your opponent {@{increases the number of spaces between two tokens}@}, just {@{decrease it on your next move}@}. Else, play {@{the game of Nim}@} and make {@{the Nim-sum of the number of spaces between the tokens on each row be 0}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-18,353,353!2027-05-01,638,325!2028-03-08,842,330!2027-12-26,837,330!2025-12-17,276,330!2028-07-05,999,353!2026-02-12,325,345!2026-02-21,332,345!2026-02-11,324,345!2027-04-26,634,325!2026-04-13,119,391!2026-01-02,23,373!2026-01-02,23,373-->
 
 ### Hackenbush
 
@@ -94,7 +94,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber addition}@} \(sequence {@{[A003987](https://oeis.org/A003987)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > This is also {@{the [Cayley table](cayley%20table.md) of [Z<sub>2</sub><sup>4</sup>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups) – or the table of [bitwise](bitwise%20operation.md) [XOR](exclusive%20or.md) operations}@}. <br/>
-> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2028-07-15,968,313!2029-02-16,1181,350!2027-10-01,657,285!2025-12-15,260,333!2027-05-03,642,325-->
+> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2028-07-15,968,313!2029-02-16,1181,350!2027-10-01,657,285!2029-03-22,1193,353!2027-05-03,642,325-->
 
 <!-- markdownlint MD028 -->
 

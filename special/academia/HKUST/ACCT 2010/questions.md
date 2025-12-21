@@ -201,7 +201,7 @@ tags:
 > 2. Asset + Liabilities = Stockholders' Equity
 > 3. Asset - Liabilities = Stockholders' Equity
 >
-> - solution: {@{2}@} <!--SR:!2025-12-15,347,342-->
+> - solution: {@{2}@} <!--SR:!2030-06-05,1633,362-->
 
 <!-- markdownlint MD028 -->
 

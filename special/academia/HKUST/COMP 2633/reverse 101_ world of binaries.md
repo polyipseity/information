@@ -93,7 +93,7 @@ An assembly file {@{does not solely consists of instructions}@}. It also {@{cont
 - `.bss` ::@:: It contains uninitialized data, that is, a memory space for our program to initialize data on during its execution. It has read and write permissions. For C, this corresponds to global and static variables that are uninitialized. <!--SR:!2029-05-25,1354,363!2026-01-06,385,365-->
 - `.text` ::@:: It contains the code of our program. It has read and execute permissions. For C, this corresponds to functions. <!--SR:!2027-10-22,873,357!2028-03-01,982,350-->
 
-A key idea in assembly that {@{code and data are treated the same}@}. Indeed, data is represented by {@{instructions (but should not be executed by our program) as well}@}. Some common data instructions include: <!--SR:!2030-10-20,1777,377!2025-12-15,369,365-->
+A key idea in assembly that {@{code and data are treated the same}@}. Indeed, data is represented by {@{instructions (but should not be executed by our program) as well}@}. Some common data instructions include: <!--SR:!2030-10-20,1777,377!2031-01-05,1847,385-->
 
 - `db <data>...` ::@:: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2029-09-30,1438,365!2029-02-13,1273,365-->
 - `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2030-06-30,1693,383!2029-07-11,1391,363-->

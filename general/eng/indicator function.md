@@ -15,7 +15,7 @@ tags:
 
 > {@{![A three-dimensional plot of an indicator function, shown over a square two-dimensional domain \(set _X_\): the "raised" portion overlays those two-dimensional points which are members of the "indicated" subset \(_A_\).](../../archives/Wikimedia%20Commons/Indicator%20function%20illustration.png)}@}
 >
-> {@{A three-dimensional plot of an indicator function}@}, shown over {@{a square two-dimensional domain \(set _X_\)}@}: {@{the "raised" portion}@} {@{overlays those two-dimensional points which are members of the "indicated" subset \(_A_\)}@}. <!--SR:!2027-09-11,746,330!2029-03-17,1195,350!2025-12-15,268,330!2025-12-25,276,330!2025-12-29,278,330-->
+> {@{A three-dimensional plot of an indicator function}@}, shown over {@{a square two-dimensional domain \(set _X_\)}@}: {@{the "raised" portion}@} {@{overlays those two-dimensional points which are members of the "indicated" subset \(_A_\)}@}. <!--SR:!2027-09-11,746,330!2029-03-17,1195,350!2029-04-18,1220,350!2025-12-25,276,330!2025-12-29,278,330-->
 
 In {@{[mathematics](mathematics.md)}@}, {@{an __indicator function__ or a __characteristic function__}@} of {@{a [subset](subset.md) of a [set](set%20(mathematics).md) is a [function](function%20(mathematics).md) that maps elements of the subset to one, and all other elements to zero}@}. That is, if {@{_A_ is a subset of some set _X_}@}, then {@{$\mathbf {1} _{A}(x)=1$ if $x\in A$, and $\mathbf {1} _{A}(x)=0$ otherwise}@}, where {@{$\mathbf {1} _{A}$ is a common notation for the indicator function}@}. Other common notations are {@{$I_{A}$, and $\chi _{A}$}@}. <!--SR:!2028-11-22,1103,350!2028-11-18,1101,350!2027-09-24,756,330!2028-11-13,1097,350!2029-01-25,1155,350!2029-04-12,1215,350!2029-01-09,1143,350-->
 
@@ -25,7 +25,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{an __indicator function__ or a __char
 
 {@{The indicator function of a subset _A_ of a set _X_}@} is {@{a function $$\mathbf {1} _{A}\colon X\to \{0,1\}$$}@} defined {@{as [$$\mathbf {1} _{A}(x):={\begin{cases}1~&{\text{ if } }~x\in A~,\\0~&{\text{ if } }~x\notin A~.\end{cases} }$$](https://en.wikipedia.org/w/index.php?title=Special:MathWikibase&qid=Q371983)}@} {@{The [Iverson bracket](Iverson%20bracket.md)}@} provides {@{the equivalent notation, $[x\in A]$ or ⟦<!-- markdown separator -->_x_ ∈ _A_<!-- markdown separator -->⟧}@}, to be used instead of $\mathbf {1}_{A}(x)\,$. <!--SR:!2026-01-03,282,330!2026-01-14,291,330!2025-12-20,272,330!2026-01-16,293,330!2025-12-31,280,330-->
 
-The function $\mathbf {1} _{A}$ is sometimes denoted {@{_I<sub>A</sub>_, _χ<sub>A</sub>_, _K<sub>A</sub>_, or even just _A_}@}.<sup>[\[a\]](#^ref-a)</sup><sup>[\[b\]](#^ref-b)</sup> <!--SR:!2025-12-15,268,330-->
+The function $\mathbf {1} _{A}$ is sometimes denoted {@{_I<sub>A</sub>_, _χ<sub>A</sub>_, _K<sub>A</sub>_, or even just _A_}@}.<sup>[\[a\]](#^ref-a)</sup><sup>[\[b\]](#^ref-b)</sup> <!--SR:!2029-04-20,1222,350-->
 
 ## notation and terminology
 

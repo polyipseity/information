@@ -52,7 +52,7 @@ The content is in teaching order.
   - programming complexity / sources ::@:: application domain, communication, management, tools <!--SR:!2026-09-12,276,330!2026-09-01,266,330-->
     - programming complexity / sources / application domain ::@:: A problem is often _complex_ and outside the domain of most developers \(i.e. not _domain experts_\). <!--SR:!2026-09-24,285,330!2026-09-29,289,330-->
     - programming complexity / sources / communication ::@:: Clients and developers have different _background_, _vocabulary_, etc. which is made worse by _ambiguity_ of human languages. <!--SR:!2026-08-19,256,330!2026-09-01,267,330-->
-    - programming complexity / sources / management ::@:: _Dividing_ a project and _reassembling_ it is difficult. _Coordination_ between different _parts_ and _people_ is also difficult. <!--SR:!2025-12-15,67,310!2026-04-24,159,310-->
+    - programming complexity / sources / management ::@:: _Dividing_ a project and _reassembling_ it is difficult. _Coordination_ between different _parts_ and _people_ is also difficult. <!--SR:!2026-10-02,291,330!2026-04-24,159,310-->
     - programming complexity / sources / tools ::@:: Creating useful _tools_ for software development is also complex. Indeed, creating the tools themselves also require software engineering. <!--SR:!2026-04-21,157,310!2026-08-21,258,330-->
   - programming complexity / problems ::@:: development, quality <!--SR:!2026-08-15,254,330!2026-09-05,268,330-->
     - programming complexity / problems / quality ::@:: - abandonment: London Stock Exchange; after 5 years of development <br/> - inflexible <br/> - unreliable: Ariane 5 \(rocket\) <br/> - unsafe: London Ambulance Service; fell twice in 1992 <br/> - _etc._ <!--SR:!2026-03-31,128,290!2026-05-24,181,310-->
@@ -99,8 +99,8 @@ The content is in teaching order.
   - COMP 3111H / grading
   - COMP 3111H / objectives ::@:: _disciplined_ approach to software development, theoretical and practical aspects of software engineering <!--SR:!2026-07-18,230,330!2026-09-08,272,330-->
   - COMP 3111H / course intended learning outcomes \(CILO\)
-  - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc. <!--SR:!2026-09-28,288,330!2025-12-15,67,310-->
-  - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!2026-09-17,279,330!2025-12-15,67,310-->
+  - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc. <!--SR:!2026-09-28,288,330!2026-10-03,292,330-->
+  - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!2026-09-17,279,330!2026-10-05,294,330-->
   - COMP 3111H / rules
   - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing <!--SR:!2026-05-16,157,438!2026-05-18,159,438-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)

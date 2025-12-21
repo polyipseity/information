@@ -53,7 +53,7 @@ The content is in teaching order.
   - local: 2025-09-04T09:30:00+08:00/2025-09-04T10:45:00+08:00, PT1H15M
 - topic: measuring a nation's income
 - [microeconomics](../../../../general/microeconomics.md) ::@:: It is a branch of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of scarce resources and the interactions among these individuals and firms. <!--SR:!2026-09-27,287,330!2026-08-07,247,330-->
-  - microeconomics / vs. macroeconomics ::@:: Microeconomics focuses on the study of individual markets, sectors, or industries as opposed to the economy as a whole, which is studied in macroeconomics. <!--SR:!2025-12-15,67,310!2025-12-15,67,310-->
+  - microeconomics / vs. macroeconomics ::@:: Microeconomics focuses on the study of individual markets, sectors, or industries as opposed to the economy as a whole, which is studied in macroeconomics. <!--SR:!2026-10-03,292,330!2026-10-02,291,330-->
 - macroeconomics
   - macroeconomics / vs. microeconomics
 - [gross domestic product](../../../../general/gross%20domestic%20product.md) \(GDP\) ::@:: It is a monetary measure of the total market value of all the final goods and services produced and rendered in a specific time period by a country or countries. <!--SR:!2026-07-29,240,330!2026-09-13,276,330-->
@@ -66,7 +66,7 @@ The content is in teaching order.
     - circular flow of income / two-sector model / missing sectors ::@:: The model assumes that there is no financial sector \(borrowing, lending, saving, etc.\), no government sector \(government purchases, taxes, etc.\), and no foreign sector \(currencies, exports, financial assets, imports, etc.\). <!--SR:!2026-05-25,183,310!2026-08-12,251,330-->
 - gross domestic product
   - gross domestic product / keywords ::@:: domestic production, final, market value, time period, goods and services <!--SR:!2026-08-07,245,330!2026-09-08,272,330-->
-    - gross domestic product / keywords / market value ::@:: Use the market value of goods and services measured in the same unit \(currency\). Goods and services without market value are excluded. <!--SR:!2026-07-28,239,330!2025-12-15,67,310-->
+    - gross domestic product / keywords / market value ::@:: Use the market value of goods and services measured in the same unit \(currency\). Goods and services without market value are excluded. <!--SR:!2026-07-28,239,330!2026-10-04,293,330-->
     - gross domestic product / keywords / final ::@:: Final goods and services are intended for end users \(households\). Intermediate goods and services are those used by businesses to produce other goods and services within the accounting year. <!--SR:!2026-09-23,284,330!2026-08-31,266,330-->
     - gross domestic product / keywords / goods and services ::@:: Goods are usually _tangible_. Services are usually _intangible_. <!--SR:!2026-09-03,268,330!2026-05-22,171,310-->
     - gross domestic product / keywords / domestic ::@:: Any production \(not consumption\) that occurs in a country counts, whether by citizens or foreigners. <!--SR:!2026-08-24,260,330!2026-08-08,248,330-->

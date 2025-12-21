@@ -25,7 +25,7 @@ In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](gr
 
 ## definition
 
-Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that each vertex in _G_ is incident with at least one edge in _C_}@}. The set _C_ is said to {@{_cover_ the vertices of _G_}@}. The following figure shows examples of edge coverings in two graphs \(the set _C_ is marked with red\). <p> {@{![examples of edge coverings in two graphs](../../archives/Wikimedia%20Commons/Edge-cover.svg)}@} <!--SR:!2027-11-09,804,330!2029-05-24,1257,350!2025-12-15,276,330!2026-01-06,293,330-->
+Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that each vertex in _G_ is incident with at least one edge in _C_}@}. The set _C_ is said to {@{_cover_ the vertices of _G_}@}. The following figure shows examples of edge coverings in two graphs \(the set _C_ is marked with red\). <p> {@{![examples of edge coverings in two graphs](../../archives/Wikimedia%20Commons/Edge-cover.svg)}@} <!--SR:!2027-11-09,804,330!2029-05-24,1257,350!2029-05-29,1261,350!2026-01-06,293,330-->
 
 A __minimum edge covering__ is {@{an edge covering of smallest possible size}@}. {@{The __edge covering number__ _ρ_\(_G_\)}@} is {@{the size of a minimum edge covering}@}. The following figure shows examples of minimum edge coverings \(again, the set _C_ is marked with red\). <p> {@{![examples of minimum edge coverings](../../archives/Wikimedia%20Commons/Minimum-edge-cover.svg)}@} <!--SR:!2029-04-17,1227,350!2026-06-24,403,310!2029-04-27,1233,350!2026-11-20,514,310-->
 

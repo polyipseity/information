@@ -40,7 +40,7 @@ Inclusion maps are seen in {@{[algebraic topology](algebraic%20topology.md)}@} w
 ## see also
 
 - [Cofibration](cofibration.md) – ::@:: continuous mapping between topological spaces <!--SR:!2026-12-14,457,270!2027-10-12,764,330-->
-- [Identity function](identity%20function.md) – ::@:: In mathematics, a function that always returns the same value that was used as its argument <!--SR:!2029-02-13,1163,350!2025-12-15,260,330-->
+- [Identity function](identity%20function.md) – ::@:: In mathematics, a function that always returns the same value that was used as its argument <!--SR:!2029-02-13,1163,350!2029-03-12,1183,350-->
 
 ## references
 

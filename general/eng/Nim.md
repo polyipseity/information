@@ -204,7 +204,7 @@ In another variation of nim, besides {@{removing any number of objects from a si
 
 ### circular nim
 
-- see ::@:: [Kayles](Kayles.md) <!--SR:!2025-12-15,330,341!2029-12-01,1472,361-->
+- see ::@:: [Kayles](Kayles.md) <!--SR:!2030-03-13,1549,361!2029-12-01,1472,361-->
 
 Yet another variation of nim is {@{"circular nim", wherein any number of objects are placed in a circle}@} and {@{two players alternately remove one, two or three adjacent objects}@}. For example, starting with a circle of ten objects, <!--SR:!2029-11-23,1465,361!2029-07-28,1370,361-->
 

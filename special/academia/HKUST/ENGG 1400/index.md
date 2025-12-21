@@ -88,7 +88,7 @@ The content is in teaching order.
   - relationships ::@:: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2026-04-25,445,377!2026-05-03,453,377-->
   - meaning & purpose ::@:: For example, you probably want to have a job or two jobs that make both meaning and money. <!--SR:!2029-09-26,1431,377!2026-04-20,441,377-->
   - accomplishment ::@:: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2025-12-16,318,357!2026-05-02,452,377-->
-  - PERMA limitations ::@:: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2026-03-28,422,377!2025-12-15,317,357-->
+  - PERMA limitations ::@:: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2026-03-28,422,377!2030-03-18,1554,377-->
 - activity 1: PERMA assessment and reflection ::@:: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2026-04-23,443,377!2026-04-21,442,377-->
 - activity 2: STRONG debriefing
   - STRONG debriefing / debrief ::@:: STRONG assess your job interests, NOT your job skills! <!--SR:!2026-04-13,435,377!2030-01-21,1510,377-->

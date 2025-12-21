@@ -105,7 +105,7 @@ To use our running examples, notice that in {@{both the [first](#example%20Nim%2
 
 ## First Lemma
 
-As {@{an intermediate step to proving the main theorem}@}, we show that {@{for every position $G$ and every ${\mathcal {P} }$-position $A$}@}, {@{the equivalence $G\approx A+G$ holds}@}. By {@{the above definition of equivalence}@}, this amounts to {@{showing that $G+H$ and $A+G+H$ share an outcome class for all $H$}@} \(annotation: That {@{$G$ is separated into $G + H$}@} is {@{mostly irrelevant for proving Lemma 1}@}. It is more for {@{matching with the definition}@}, and will be {@{used in Lemma 2 instead}@}.\). <!--SR:!2028-11-15,1108,350!2028-12-08,1124,350!2025-12-15,276,330!2029-04-26,1233,350!2027-08-29,735,330!2026-01-06,103,383!2026-01-06,103,383!2026-01-06,103,383!2026-01-06,103,383-->
+As {@{an intermediate step to proving the main theorem}@}, we show that {@{for every position $G$ and every ${\mathcal {P} }$-position $A$}@}, {@{the equivalence $G\approx A+G$ holds}@}. By {@{the above definition of equivalence}@}, this amounts to {@{showing that $G+H$ and $A+G+H$ share an outcome class for all $H$}@} \(annotation: That {@{$G$ is separated into $G + H$}@} is {@{mostly irrelevant for proving Lemma 1}@}. It is more for {@{matching with the definition}@}, and will be {@{used in Lemma 2 instead}@}.\). <!--SR:!2028-11-15,1108,350!2028-12-08,1124,350!2029-05-31,1263,350!2029-04-26,1233,350!2027-08-29,735,330!2026-01-06,103,383!2026-01-06,103,383!2026-01-06,103,383!2026-01-06,103,383-->
 
 Suppose that {@{$G+H$ is a ${\mathcal {P} }$-position}@}. Then {@{the previous player has a winning strategy for $A+G+H$}@}: respond to {@{moves in $A$ according to their winning strategy for $A$ \(which exists by virtue of $A$ being a ${\mathcal {P} }$-position\)}@}, and respond to {@{moves in $G+H$ according to their winning strategy for $G+H$ \(which exists for the analogous reason\)}@}. So {@{$A+G+H$ must also be a ${\mathcal {P} }$-position}@}. <!--SR:!2025-12-31,288,330!2028-12-12,1129,350!2027-12-19,774,290!2028-10-25,1091,350!2027-12-14,818,330-->
 
@@ -115,7 +115,7 @@ As {@{these are the only two cases}@}, {@{the lemma holds}@}. <!--SR:!2027-08-20
 
 ## Second Lemma
 
-As a further step, we show that {@{$G\approx G'$ if and only if $G+G'$ is a ${\mathcal {P} }$-position}@}. <!--SR:!2025-12-15,276,330-->
+As a further step, we show that {@{$G\approx G'$ if and only if $G+G'$ is a ${\mathcal {P} }$-position}@}. <!--SR:!2029-05-30,1262,350-->
 
 In the forward direction, suppose that {@{$G\approx G'$}@}. Applying {@{the definition of equivalence with $H=G$}@}, we find that {@{$G'+G$ \(which is equal to $G+G'$ by [commutativity](commutative%20property.md) of addition\)}@} is {@{in the same outcome class as $G+G$}@}. But {@{$G+G$ must be a ${\mathcal {P} }$-position}@}: for {@{every move made in one copy of $G$}@}, the previous player can {@{respond with the same move in the other copy, and so always make the last move}@}. <!--SR:!2026-02-11,303,290!2029-01-26,1163,350!2027-04-25,598,310!2026-01-06,293,330!2027-11-07,802,330!2025-12-28,285,330!2026-01-10,69,366-->
 

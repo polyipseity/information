@@ -102,14 +102,14 @@ The content is in teaching order.
     - "Chank" (1998) — John Scofield
     - "Strasbourg" (2008) — Roy Hargrove
     - "Black Radio" (2012) — Robert Glasper
-  - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2029-02-19,1163,350!2025-12-15,255,330-->
+  - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2029-02-19,1163,350!2029-02-24,1167,350-->
   - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2026-12-12,507,310!2026-03-17,329,341-->
 - [music](../../../../general/music.md)
   - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2026-02-21,310,341!2026-01-04,270,330-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2027-08-14,715,330!2027-07-25,705,341-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2026-02-02,296,341!2026-03-14,326,341-->
   - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2027-04-08,554,310!2028-03-13,887,341-->
-  - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2026-02-01,295,341!2025-12-15,255,330-->
+  - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2026-02-01,295,341!2029-02-20,1163,350-->
     - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2028-11-09,1083,350!2026-02-03,297,341-->
     - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2028-01-14,840,341!2026-02-17,306,341-->
   - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2029-02-12,1156,350!2027-11-11,772,330-->
@@ -165,7 +165,7 @@ The content is in teaching order.
   - [syncopation](../../../../general/syncopation.md)
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!2026-06-10,342,320-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2026-06-17,379,360!2025-12-15,249,340-->
+  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2026-06-17,379,360!2029-02-23,1166,360-->
 - quiz \(attendance\): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
 
 ## week 2 lecture 2

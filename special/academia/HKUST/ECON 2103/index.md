@@ -453,7 +453,7 @@ The content is in teaching order.
   - price controls / motivation ::@:: People may believe the equilibrium price is not appropriate or desirable from their perspective. <!--SR:!2027-02-27,684,410!2027-01-07,640,410-->
 - [price ceiling](../../../../general/price%20ceiling.md) ::@:: It is a government- or group-imposed price control, or limit, on how high a price is charged for a product, commodity, or service. Examples include rent control. <!--SR:!2027-02-13,672,410!2027-03-03,687,410-->
   - [rent regulation](../../../../general/rent%20regulation.md) ::@:: It is a system of laws for the rental market of dwellings, with controversial effects on affordability of housing and tenancies. <!--SR:!2027-02-19,676,410!2027-01-28,659,410-->
-- [price floor](../../../../general/price%20floor.md) ::@:: It is a government- or group-imposed price control or limit on how low a price can be charged for a product, good, commodity, or service. Examples include minimum wage. <!--SR:!2025-12-15,299,370!2027-02-04,664,410-->
+- [price floor](../../../../general/price%20floor.md) ::@:: It is a government- or group-imposed price control or limit on how low a price can be charged for a product, good, commodity, or service. Examples include minimum wage. <!--SR:!2030-02-08,1516,390!2027-02-04,664,410-->
   - [minimum wage](../../../../general/minimum%20wage.md) ::@:: It is the lowest remuneration that employers can legally pay their employees—the price floor below which employees may not sell their labor. <!--SR:!2027-03-15,697,410!2027-03-05,689,410-->
 - price controls
   - price controls / motivation

@@ -25,7 +25,7 @@ tags:
   - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2025-12-16,286,330!2027-04-03,643,330-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2029-04-19,1239,350!2028-12-16,1141,350-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2028-07-08,937,330!2026-09-06,434,290-->
-- total ::@:: Calculate the total for each column and each row. <!--SR:!2025-12-15,285,330!2025-12-17,287,330-->
+- total ::@:: Calculate the total for each column and each row. <!--SR:!2029-07-01,1294,350!2025-12-17,287,330-->
   - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2026-04-15,350,290!2029-01-14,1166,350-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-12-20,290,330!2029-03-03,1202,350-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-03-25,1219,350!2029-01-01,1155,350-->

@@ -114,7 +114,7 @@ For {@{the [intersection graphs](intersection%20graph.md) of $n$ [line segments]
 
 As a simple example, suppose that {@{a set $P$ of people are all seeking jobs from among a set $J$ of jobs, with not all people suitable for all jobs}@}. This situation can be modeled as {@{a bipartite graph $(P,J,E)$ where an edge connects each job-seeker with each suitable job}@}.<sup>[\[37\]](#^ref-37)</sup> {@{A [perfect matching](perfect%20matching.md)}@} describes {@{a way of simultaneously satisfying all job-seekers and filling all jobs}@}; {@{[Hall's marriage theorem](Hall's%20marriage%20theorem.md)}@} provides {@{a characterization of the bipartite graphs which allow perfect matchings}@}. {@{The [National Resident Matching Program](National%20Resident%20Matching%20Program.md)}@} applies {@{graph matching methods to solve this problem for [U.S. medical student](medical%20education%20in%20the%20United%20States.md) job-seekers and [hospital residency](residency%20(medicine).md) jobs}@}.<sup>[\[38\]](#^ref-38)</sup> <!--SR:!2028-11-27,1154,350!2029-01-01,1183,350!2028-10-11,1115,350!2028-12-01,1157,350!2028-11-13,1142,350!2029-04-06,1255,350!2029-02-19,1222,350!2027-12-14,854,330-->
 
-{@{The [Dulmage–Mendelsohn decomposition](Dulmage–Mendelsohn%20decomposition.md)}@} is {@{a structural decomposition of bipartite graphs that is useful in finding maximum matchings}@}.<sup>[\[39\]](#^ref-39)</sup> <!--SR:!2025-12-15,290,290!2027-11-08,827,330-->
+{@{The [Dulmage–Mendelsohn decomposition](Dulmage–Mendelsohn%20decomposition.md)}@} is {@{a structural decomposition of bipartite graphs that is useful in finding maximum matchings}@}.<sup>[\[39\]](#^ref-39)</sup> <!--SR:!2029-03-03,1174,310!2027-11-08,827,330-->
 
 ## additional applications
 

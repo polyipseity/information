@@ -13,7 +13,7 @@ tags:
 
 > {@{![Permutation with one of its inversions highlighted.](../../archives/Wikimedia%20Commons/Inversion%20qtl1.svg)}@}
 >
-> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2029-08-21,1346,352!2025-12-15,295,332!2027-10-01,790,332!2029-04-05,1241,352-->
+> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2029-08-21,1346,352!2029-08-23,1347,352!2027-10-01,790,332!2029-04-05,1241,352-->
 
 In {@{[computer science](computer%20science.md) and [discrete mathematics](discrete%20mathematics.md)}@}, {@{an __inversion__}@} in {@{a sequence is a pair of elements that are out of their natural [order](total%20order.md)}@}. <!--SR:!2029-01-17,1177,352!2029-05-18,1274,352!2029-05-14,1271,352-->
 
@@ -38,14 +38,14 @@ For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{th
 
 {@{The inversion number}@} is {@{the number of crossings in the arrow diagram of the permutation}@},<sup>[\[6\]](#^ref-6)</sup> {@{the permutation's [Kendall tau distance](Kendall%20tau%20distance.md) from the identity permutation}@}, and {@{the sum of each of the inversion related vectors defined below}@}. <!--SR:!2029-06-14,1297,352!2027-11-25,833,332!2026-11-12,535,312!2025-12-20,300,332-->
 
-{@{Other measures of sortedness}@} include {@{the minimum number of elements that can be deleted from the sequence to yield a fully sorted sequence}@}, {@{the number and lengths of sorted "runs" within the sequence}@}, {@{the Spearman footrule \(sum of distances of each element from its sorted position\)}@}, and {@{the smallest number of exchanges needed to sort the sequence}@}.<sup>[\[11\]](#^ref-11)</sup> {@{Standard [comparison sorting](comparison%20sort.md) algorithms}@} can be {@{adapted to compute the inversion number in time O\(_n_ log _n_\)}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2029-06-13,1296,352!2029-03-25,1231,352!2029-08-11,1340,352!2026-12-26,556,312!2025-12-15,295,332!2029-07-12,1315,352!2028-01-18,863,332-->
+{@{Other measures of sortedness}@} include {@{the minimum number of elements that can be deleted from the sequence to yield a fully sorted sequence}@}, {@{the number and lengths of sorted "runs" within the sequence}@}, {@{the Spearman footrule \(sum of distances of each element from its sorted position\)}@}, and {@{the smallest number of exchanges needed to sort the sequence}@}.<sup>[\[11\]](#^ref-11)</sup> {@{Standard [comparison sorting](comparison%20sort.md) algorithms}@} can be {@{adapted to compute the inversion number in time O\(_n_ log _n_\)}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2029-06-13,1296,352!2029-03-25,1231,352!2029-08-11,1340,352!2026-12-26,556,312!2029-08-26,1350,352!2029-07-12,1315,352!2028-01-18,863,332-->
 
 ### inversion related vectors
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD059 -->
 
-{@{Three similar vectors are in use}@} that {@{condense the inversions of a permutation into a vector that uniquely determines it}@}. They are often called {@{_inversion vector_ or _[Lehmer code](lehmer%20code.md)_}@}. \(A list of sources is found [here](https://en.wikiversity.org/wiki/Inversion%20(discrete%20mathematics)).\) <!--SR:!2025-12-15,296,332!2029-02-19,1203,352!2029-05-19,1275,352-->
+{@{Three similar vectors are in use}@} that {@{condense the inversions of a permutation into a vector that uniquely determines it}@}. They are often called {@{_inversion vector_ or _[Lehmer code](lehmer%20code.md)_}@}. \(A list of sources is found [here](https://en.wikiversity.org/wiki/Inversion%20(discrete%20mathematics)).\) <!--SR:!2029-08-29,1353,352!2029-02-19,1203,352!2029-05-19,1275,352-->
 
 <!-- markdownlint-restore -->
 
@@ -82,7 +82,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2027-10-19,807,332!2028-02-22,889,332!2029-01-21,1180,352!2029-05-15,1272,352!2029-05-06,1265,352!2026-10-18,506,312!2027-07-19,733,332!2027-05-01,678,332!2026-09-15,489,312!2028-03-10,902,332-->
 
-{@{The default order of the table}@} is {@{reverse colex order by $\pi$}@}, which is the same as {@{colex order by $l$}@}. {@{Lex order by $\pi$}@} is the same as {@{lex order by $r$}@}. <!--SR:!2025-12-17,297,332!2027-01-28,473,252!2025-12-15,295,332!2026-03-15,126,388!2026-03-16,127,388-->
+{@{The default order of the table}@} is {@{reverse colex order by $\pi$}@}, which is the same as {@{colex order by $l$}@}. {@{Lex order by $\pi$}@} is the same as {@{lex order by $r$}@}. <!--SR:!2025-12-17,297,332!2027-01-28,473,252!2029-08-28,1352,352!2026-03-15,126,388!2026-03-16,127,388-->
 
 > {@{__3-element permutations for comparison__}@}
 >

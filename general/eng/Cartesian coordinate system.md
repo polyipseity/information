@@ -200,7 +200,7 @@ The usual way of orienting the plane, with {@{the positive _x_-axis pointing rig
 
 When {@{pointing the thumb away from the origin along an axis towards positive}@}, {@{the curvature of the fingers}@} indicates {@{a positive rotation along that axis}@}. <!--SR:!2026-07-02,398,362!2026-04-05,325,349!2027-10-14,744,330-->
 
-Regardless of {@{the rule used to orient the plane}@}, {@{rotating the coordinate system will preserve the orientation}@}. {@{Switching any one axis}@} will {@{reverse the orientation}@}, but {@{switching both will leave the orientation unchanged}@}. <!--SR:!2025-12-15,237,330!2026-03-08,305,349!2026-01-05,255,330!2026-05-06,349,349!2026-06-13,385,362-->
+Regardless of {@{the rule used to orient the plane}@}, {@{rotating the coordinate system will preserve the orientation}@}. {@{Switching any one axis}@} will {@{reverse the orientation}@}, but {@{switching both will leave the orientation unchanged}@}. <!--SR:!2028-11-30,1081,350!2026-03-08,305,349!2026-01-05,255,330!2026-05-06,349,349!2026-06-13,385,362-->
 
 ### in three dimensions
 
@@ -214,7 +214,7 @@ Regardless of {@{the rule used to orient the plane}@}, {@{rotating the coordinat
 >
 > Fig. 8 – {@{The right-handed Cartesian coordinate system indicating the coordinate planes}@} <!--SR:!2026-05-08,351,349!2026-06-09,381,362-->
 
-Once {@{the _x_- and _y_-axes are specified}@}, they {@{determine the [line](line%20(geometry).md) along which the _z_-axis should lie}@}, but {@{there are two possible orientations for this line}@}. The two possible coordinate systems, which result are called {@{'right-handed' and 'left-handed'}@}.<sup>[\[13\]](#^ref-13)</sup> The standard orientation, where {@{the _xy_-plane is horizontal and the _z_-axis points up}@} \(and the _x_- and the _y_-axis form {@{a positively oriented two-dimensional coordinate system in the _xy_-plane if observed from _above_ the _xy_-plane}@}\) is called {@{__right-handed__ or __positive__}@}. <!--SR:!2026-06-11,383,362!2026-05-22,365,362!2025-12-24,244,330!2026-06-15,387,362!2026-04-04,324,349!2025-12-15,237,330!2026-04-06,326,349-->
+Once {@{the _x_- and _y_-axes are specified}@}, they {@{determine the [line](line%20(geometry).md) along which the _z_-axis should lie}@}, but {@{there are two possible orientations for this line}@}. The two possible coordinate systems, which result are called {@{'right-handed' and 'left-handed'}@}.<sup>[\[13\]](#^ref-13)</sup> The standard orientation, where {@{the _xy_-plane is horizontal and the _z_-axis points up}@} \(and the _x_- and the _y_-axis form {@{a positively oriented two-dimensional coordinate system in the _xy_-plane if observed from _above_ the _xy_-plane}@}\) is called {@{__right-handed__ or __positive__}@}. <!--SR:!2026-06-11,383,362!2026-05-22,365,362!2025-12-24,244,330!2026-06-15,387,362!2026-04-04,324,349!2028-11-29,1080,350!2026-04-06,326,349-->
 
 > {@{![3D Cartesian coordinate handedness](../../archives/Wikimedia%20Commons/3D%20Cartesian%20Coodinate%20Handedness.jpg)}@}
 >

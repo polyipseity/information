@@ -280,7 +280,7 @@ A function can be represented as {@{a table of values}@}. If {@{the domain of a 
 | __4__    | 4 | 8  | 12 | 16 | 20 |
 | __5__    | 5 | 10 | 15 | 20 | 25 |
 
-On the other hand, {@{if a function's domain is continuous}@}, a table can {@{give the values of the function at specific values of the domain}@}. If {@{an intermediate value is needed}@}, {@{[interpolation](interpolation.md)}@} can be used to {@{estimate the value of the function}@}. For example, {@{a portion of a table for the sine function}@} might be {@{given as follows, with values rounded to 6 decimal places}@}: <!--SR:!2026-07-01,403,365!2026-07-03,399,367!2026-03-03,301,350!2026-04-22,334,350!2026-03-16,314,350!2026-03-16,314,350!2025-12-15,238,330-->
+On the other hand, {@{if a function's domain is continuous}@}, a table can {@{give the values of the function at specific values of the domain}@}. If {@{an intermediate value is needed}@}, {@{[interpolation](interpolation.md)}@} can be used to {@{estimate the value of the function}@}. For example, {@{a portion of a table for the sine function}@} might be {@{given as follows, with values rounded to 6 decimal places}@}: <!--SR:!2026-07-01,403,365!2026-07-03,399,367!2026-03-03,301,350!2026-04-22,334,350!2026-03-16,314,350!2026-03-16,314,350!2028-12-02,1083,350-->
 
 | _x_   | sin _x_  |
 |:-----:|:--------:|
@@ -310,7 +310,7 @@ There are {@{a number of standard functions}@} that occur frequently: <!--SR:!20
 - For {@{every set _X_ and every [singleton set](singleton%20set.md) {_s_}<!-- flashcard separator -->}@}, there is {@{a unique function from _X_ to {_s_}<!-- flashcard separator-->}@}, which {@{maps every element of _X_ to _s_}@}. This is {@{a surjection \(see below\) unless _X_ is the empty set}@}. (annotation: category theory: {@{terminal objects in __Set__}@})
 - Given {@{a function $f:X\to Y$}@}, {@{the _canonical surjection_ of _f_ onto its image $f(X)=\{f(x)\mid x\in X\}$}@} is {@{the function from _X_ to _f_\(_X_\) that maps _x_ to _f_\(_x_\)}@}.
 - For {@{every [subset](subset.md) _A_ of a set _X_}@}, {@{the [inclusion map](inclusion%20map.md) of _A_ into _X_}@} is {@{the injective \(see below\) function that maps every element of _A_ to itself}@}.
-- {@{The [identity function](identity%20function.md) on a set _X_}@}, often {@{denoted by id<sub>_X_</sub>}@}, is {@{the inclusion of _X_ into itself}@}. <!--SR:!2028-08-03,974,350!2028-07-27,983,350!2026-02-24,294,330!2026-04-24,337,350!2026-06-14,387,367!2028-03-24,883,350!2027-11-21,711,430!2025-12-20,136,410!2027-11-25,714,430!2027-11-20,711,430!2027-12-17,734,430!2027-12-11,728,430!2027-12-10,727,430!2027-12-09,726,430!2027-05-11,518,410!2025-12-22,138,410!2027-11-26,715,430!2027-11-06,698,430!2025-12-21,137,410!2027-12-08,725,430!2025-12-22,138,410!2027-11-23,713,430!2025-12-15,132,410!2027-12-16,733,430!2027-11-07,699,430-->
+- {@{The [identity function](identity%20function.md) on a set _X_}@}, often {@{denoted by id<sub>_X_</sub>}@}, is {@{the inclusion of _X_ into itself}@}. <!--SR:!2028-08-03,974,350!2028-07-27,983,350!2026-02-24,294,330!2026-04-24,337,350!2026-06-14,387,367!2028-03-24,883,350!2027-11-21,711,430!2025-12-20,136,410!2027-11-25,714,430!2027-11-20,711,430!2027-12-17,734,430!2027-12-11,728,430!2027-12-10,727,430!2027-12-09,726,430!2027-05-11,518,410!2025-12-22,138,410!2027-11-26,715,430!2027-11-06,698,430!2025-12-21,137,410!2027-12-08,725,430!2025-12-22,138,410!2027-11-23,713,430!2027-12-23,738,430!2027-12-16,733,430!2027-11-07,699,430-->
 
 ### function composition
 
