@@ -140,7 +140,7 @@ For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3<
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2026-06-03,326,261!2025-12-12,86,150-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2026-06-03,326,261!2026-04-19,128,150-->
 
 ### small values
 
@@ -162,7 +162,7 @@ For {@{prime powers _p_<sup>_r_</sup>, _r_ <!-- \> -->≥ 1}@}, if {@{$$a^{p^{r-
 
 ### sharpening the result for higher powers of two
 
-For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason we cannot {@{do the same for higher powers of odd primes}@} is that _a_ would {@{have had _multiple_ possible forms}@}, one for {@{each positive integer less than _p_}@}: {@{1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$}@} for {@{all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2028-02-14,884,341!2026-02-19,330,341!2027-09-18,676,290!2027-03-18,605,321!2025-12-12,226,270!2026-03-08,325,301!2026-05-20,371,301!2026-08-16,452,321!2026-10-13,488,326!2026-02-19,91,384!2026-02-18,90,384!2026-02-20,92,384!2026-03-12,100,385-->
+For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason we cannot {@{do the same for higher powers of odd primes}@} is that _a_ would {@{have had _multiple_ possible forms}@}, one for {@{each positive integer less than _p_}@}: {@{1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$}@} for {@{all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2028-02-14,884,341!2026-02-19,330,341!2027-09-18,676,290!2027-03-18,605,321!2028-04-12,852,290!2026-03-08,325,301!2026-05-20,371,301!2026-08-16,452,321!2026-10-13,488,326!2026-02-19,91,384!2026-02-18,90,384!2026-02-20,92,384!2026-03-12,100,385-->
 
 ### integers with multiple prime factors
 

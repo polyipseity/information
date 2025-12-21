@@ -46,7 +46,7 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 > Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-12-25,276,330!2026-12-10,516,310!2028-11-14,1098,350!2028-09-26,1058,350-->
 
 - 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2028-12-19,1126,350!2028-10-07,1066,350-->
-- The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3. <!--SR:!2025-12-12,265,330!2029-02-04,1164,350-->
+- The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3. <!--SR:!2029-04-02,1207,350!2029-02-04,1164,350-->
 - The positive divisors of 42 ::@:: are 1, 2, 3, 6, 7, 14, 21, 42. <!--SR:!2028-10-08,1068,350!2028-10-23,1079,350-->
 - The [set](set%20(mathematics).md) of all positive divisors of 60, $A=\{1,2,3,4,5,6,10,12,15,20,30,60\}$, [partially ordered](partially%20ordered%20set.md) by divisibility, has ::@:: the [Hasse diagram](Hasse%20diagram.md): <p> ![Lattice of the divisors of 60, including the prime factorisation of each number](../../archives/Wikimedia%20Commons/Lattice%20of%20the%20divisibility%20of%2060;%20factors.svg) <!--SR:!2028-12-15,1123,350!2025-12-23,274,330-->
 
@@ -57,7 +57,7 @@ There are some elementary rules:
 - (annotation: transitivity) ::@:: If $a\mid b$ and $b\mid c$, then $a\mid c;$ that is, divisibility is a [transitive relation](transitive%20relation.md). <!--SR:!2025-12-13,266,330!2029-01-29,1159,350-->
 - (annotation: associate) ::@:: If $a\mid b$ and $b\mid a$, then $a=b$ or $a=-b$. \(That is, $a$ and $b$ are [associates](divisibility%20(ring%20theory).md).\) <!--SR:!2029-03-23,1200,350!2025-12-20,272,330-->
 - (annotation: linearity) ::@:: If $a\mid b$ and $a\mid c$, then $a\mid (b+c)$ holds, as does $a\mid (b-c)$.<sup>[\[a\]](#^ref-a)</sup> However, if $a\mid b$ and $c\mid b$, then $(a+c)\mid b$ does _not_ always hold \(for example, $2\mid 6$ and $3\mid 6$ but 5 does not divide 6\). <!--SR:!2026-01-09,287,330!2028-04-07,854,330-->
-- (annotation: multiplication) ::@:: $a\mid b\iff ac\mid bc$ for nonzero $c$. This follows immediately from writing $ka=b\iff kac=bc$. <!--SR:!2026-01-01,281,330!2025-12-12,265,330-->
+- (annotation: multiplication) ::@:: $a\mid b\iff ac\mid bc$ for nonzero $c$. This follows immediately from writing $ka=b\iff kac=bc$. <!--SR:!2026-01-01,281,330!2029-04-01,1206,350-->
 - (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If $a\mid bc$, and $\gcd(a,b)=1$, then $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2028-10-29,1085,350!2028-11-30,1110,350-->
 - (annotation: prime divisibility) ::@:: If $p$ is a prime number and $p\mid ab$ then $p\mid a$ or $p\mid b$ (annotation: or both). <!--SR:!2029-03-09,1188,350!2025-12-31,280,330-->
 

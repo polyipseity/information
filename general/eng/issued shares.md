@@ -17,7 +17,7 @@ In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} ar
 
 {@{The issued shares of a corporation}@} form the {@{[equity capital](equity%20(finance).md) of the corporation}@}, and some corporations are required {@{by law to have a minimum value of equity capital}@}, while {@{others may not need any or just a nominal number}@}. {@{The value of the issued shares}@} is determined {@{at the time they are issued and the value does not change}@}, in relation to {@{the issuing corporation after that time}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-04-09,338,344!2028-09-20,1030,350!2026-02-14,294,330!2027-11-19,781,330!2026-03-19,321,344!2027-01-07,496,310!2025-12-26,255,330-->
 
-Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability of the shareholders is limited to the amount paid on the shares}@}; but they may also be {@{issued shares that are [partly paid](partly%20paid.md)}@}, with {@{unlimited liability, subject to guarantee, or some other form}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-12,242,330!2026-01-01,259,330!2026-02-14,294,330!2026-03-20,322,344-->
+Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability of the shareholders is limited to the amount paid on the shares}@}; but they may also be {@{issued shares that are [partly paid](partly%20paid.md)}@}, with {@{unlimited liability, subject to guarantee, or some other form}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2028-12-14,1098,350!2026-01-01,259,330!2026-02-14,294,330!2026-03-20,322,344-->
 
 ### basic formulae
 

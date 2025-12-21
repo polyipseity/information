@@ -1178,7 +1178,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline \times & \times & \times & \times & 9 & 9 & 9 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \end{array}$$}@} <!--SR:!2025-12-12,275,330-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline \times & \times & \times & \times & 9 & 9 & 9 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \end{array}$$}@} <!--SR:!2029-05-22,1257,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1244,7 +1244,7 @@ tags:
 > 3. Convolution preserves spatial context while dense layers will lose spatial context by flattening everything.
 > 4. Convolutional layers are more similar to how the human visual system works, where different areas of the brain are activated by different levels of features.
 >
-> - solution: {@{3, 4}@} <!--SR:!2025-12-12,275,330-->
+> - solution: {@{3, 4}@} <!--SR:!2028-06-14,915,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1395,7 +1395,7 @@ tags:
 
 > Q6. (medium) State __one__ advantage and __one__ disadvantage of using AI systems for resume screening.
 >
-> - solution: {@{(for reference) Advantages are it increases productivity and is cheaper for companies. <p> Disadvantages are it may be biased based on gender or biased against minorities. There is also a lack of transparency (on why a person is hired or not hired).}@} <!--SR:!2025-12-12,275,330-->
+> - solution: {@{(for reference) Advantages are it increases productivity and is cheaper for companies. <p> Disadvantages are it may be biased based on gender or biased against minorities. There is also a lack of transparency (on why a person is hired or not hired).}@} <!--SR:!2028-06-13,914,330-->
 
 ## introduction to reinforcement learning
 

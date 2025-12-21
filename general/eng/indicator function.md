@@ -91,7 +91,7 @@ Although {@{indicator functions are not smooth}@}, they {@{admit [weak derivativ
 - [Heaviside step function](Heaviside%20step%20function.md)
 - [Identity function](identity%20function.md)
 - [Iverson bracket](Iverson%20bracket.md)
-- [Kronecker delta](Kronecker%20delta.md), ::@:: a function that can be viewed as an indicator for the [identity relation](equality%20(mathematics).md) <!--SR:!2025-12-12,265,330!2027-06-05,674,330-->
+- [Kronecker delta](Kronecker%20delta.md), ::@:: a function that can be viewed as an indicator for the [identity relation](equality%20(mathematics).md) <!--SR:!2029-04-05,1210,350!2027-06-05,674,330-->
 - [Macaulay brackets](Macaulay%20brackets.md)
 - [Multiset](multiset.md)
 - [Membership function](membership%20function%20(mathematics).md)

@@ -48,7 +48,7 @@ tags:
 
 {@{Relations among morphisms \(such as _fg_ = _h_\)}@} are often {@{depicted using [commutative diagrams](commutative%20diagram.md)}@}, with {@{"points" \(corners\) representing objects and "arrows" representing morphisms}@}. <!--SR:!2025-12-16,264,330!2025-12-27,276,330!2029-03-15,1191,350-->
 
-[Morphisms](morphism.md) can have {@{any of the following properties}@}. A morphism {@{_f_ : _a_ → _b_}@} is: <!--SR:!2025-12-31,278,330!2025-12-12,263,330-->
+[Morphisms](morphism.md) can have {@{any of the following properties}@}. A morphism {@{_f_ : _a_ → _b_}@} is: <!--SR:!2025-12-31,278,330!2029-03-25,1199,350-->
 
 - a [monomorphism](monomorphism.md) \(or _monic_\) ::@:: if _f_ ∘ _g_<sub>1</sub> = _f_ ∘ _g_<sub>2</sub> implies _g_<sub>1</sub> = _g_<sub>2</sub> for all morphisms _g_<sub>1</sub>, _g<sub>2</sub>_ : _x_ → _a_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(x, a)$ is preserved in $\mathrm{hom}(x, b)$ by _f_) <!--SR:!2025-12-31,278,330!2027-02-10,536,310-->
 - an [epimorphism](epimorphism.md) \(or _epic_\) ::@:: if _g_<sub>1</sub> ∘ _f_ = _g_<sub>2</sub> ∘ _f_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g_<sub>1</sub>, _g_<sub>2</sub> : _b_ → _x_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(b, x)$ is preserved in $\mathrm{hom}(a, x)$ by _f_) <!--SR:!2026-01-17,291,330!2026-01-10,286,330-->
@@ -71,7 +71,7 @@ tags:
 
 {@{[Functors](functor.md)}@} are {@{structure-preserving maps between categories}@}. They can be thought of as {@{morphisms in the category of all \(small\) categories}@}. <!--SR:!2025-12-26,275,330!2026-01-03,281,330!2029-03-20,1195,350-->
 
-{@{A \(__covariant__\) functor _F_ from a category _C_ to a category _D_}@}, written {@{_F_ : _C_ → _D_}@}, consists of: <!--SR:!2026-01-13,287,330!2025-12-12,263,330-->
+{@{A \(__covariant__\) functor _F_ from a category _C_ to a category _D_}@}, written {@{_F_ : _C_ → _D_}@}, consists of: <!--SR:!2026-01-13,287,330!2029-03-24,1198,350-->
 
 - (annotation: covariant functor definition, object) ::@:: for each object _x_ in _C_, an object _F_\(_x_\) in _D_; and <!--SR:!2029-01-13,1144,350!2029-01-24,1153,350-->
 - (annotation: covariant functor definition, morphism) ::@:: for each morphism _f_ : _x_ → _y_ in _C_, a morphism _F_\(_f_\) : _F_\(_x_\) → _F_\(_y_\) in _D_, <!--SR:!2026-01-04,281,330!2026-01-13,289,330-->

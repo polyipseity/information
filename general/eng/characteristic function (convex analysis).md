@@ -21,7 +21,7 @@ Let {@{$X$ be a [set](set%20(mathematics).md), and let $A$ be a [subset](subset.
 
 ## relationship with the indicator function
 
-Let {@{$\mathbf {1} _{A}:X\to \mathbb {R}$}@} denote {@{the usual indicator function: $$\mathbf {1} _{A}(x):={\begin{cases}1,&x\in A;\\0,&x\not \in A.\end{cases} }$$}@} If one adopts the conventions that (annotation: the conventions are {@{related to arithmetic operations and infinities}@}) <!--SR:!2026-01-04,283,330!2025-12-12,265,330!2029-02-06,1166,350-->
+Let {@{$\mathbf {1} _{A}:X\to \mathbb {R}$}@} denote {@{the usual indicator function: $$\mathbf {1} _{A}(x):={\begin{cases}1,&x\in A;\\0,&x\not \in A.\end{cases} }$$}@} If one adopts the conventions that (annotation: the conventions are {@{related to arithmetic operations and infinities}@}) <!--SR:!2026-01-04,283,330!2029-04-03,1208,350!2029-02-06,1166,350-->
 
 - (annotation: multiplication with positive infinity) ::@:: for any $a\in \mathbb {R} \cup \{+\infty \}$, $a+(+\infty )=+\infty$ and $a(+\infty )=+\infty$, except $0(+\infty )=0$; <!--SR:!2029-03-29,1204,350!2026-01-14,291,330-->
 - (annotation: division by 0) ::@:: ${\frac {1}{0} }=+\infty$; and <!--SR:!2028-11-15,1098,350!2029-03-16,1195,350-->

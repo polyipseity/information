@@ -1198,7 +1198,7 @@ tags:
 > 2. systematic risk
 > 3. unsystematic risk
 >
-> - solution: {@{3}@} <!--SR:!2025-12-12,148,438-->
+> - solution: {@{3}@} <!--SR:!2028-05-11,881,458-->
 
 <!-- markdownlint MD028 -->
 

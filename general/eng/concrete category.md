@@ -15,7 +15,7 @@ A concrete category, when {@{defined without reference to the notion of a catego
 
 ## definition
 
-{@{A __concrete category__}@} is {@{a pair \(_C_,_U_\)}@} such that <!--SR:!2025-12-12,258,330!2029-02-17,1167,350-->
+{@{A __concrete category__}@} is {@{a pair \(_C_,_U_\)}@} such that <!--SR:!2029-02-28,1174,350!2029-02-17,1167,350-->
 
 - _C_ ::@:: is a category, and <!--SR:!2025-12-16,261,330!2028-03-09,828,330-->
 - _U_ : _C_ → __Set__ \(the category of sets and functions\) ::@:: is a [faithful functor](faithful%20functor.md). <!--SR:!2027-10-07,697,324!2027-06-24,680,330-->

@@ -31,7 +31,7 @@ tags:
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity <!--SR:!2026-04-08,308,290!2027-02-08,539,270-->
   - totals / format ::@:: Indent totals at least twice. <p> Add a (over)line above totals. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals. <!--SR:!2026-05-23,353,290!2026-08-04,426,310-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2029-03-14,1210,350!2029-01-15,1167,350-->
-- casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-12-12,282,330!2025-12-22,291,330-->
+- casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-06-16,1282,350!2025-12-22,291,330-->
 - (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+) <!--SR:!2027-09-24,765,330!2029-01-11,1162,350-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-12-16,286,330!2029-02-02,1179,350-->
   - (root) / assets ::@:: example: <br/> current assets (+) <br/> property and equipment (+) <br/> intangible assets <br/> total assets: sum above appropriately <!--SR:!2027-05-08,553,270!2027-03-19,630,330-->

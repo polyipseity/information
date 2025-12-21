@@ -23,9 +23,9 @@ In {@{[category theory](category%20theory.md)}@}, {@{a __coequalizer__ \(or __co
 
 More explicitly, {@{a coequalizer of the parallel morphisms _f_ and _g_}@} can be defined as {@{an object _Q_ together with a morphism _q_ : _Y_ → _Q_ such that _q_ ∘ _f_ = _q_ ∘ _g_}@}. Moreover, {@{the pair \(_Q_, _q_\) must be [universal](universal%20property.md)}@} in the sense that {@{given any other such pair \(_Q_<!-- markdown separator -->′, _q_<!-- markdown separator -->′\) there exists a unique morphism _u_ : _Q_ → _Q_<!-- markdown separator -->′ such that _u_ ∘ _q_ = _q_<!-- markdown separator -->′}@}. This information can be captured by {@{the following [commutative diagram](commutative%20diagram.md): <p> &emsp; ![[w:Commutative diagram](commutative%20diagram.md) for [w:Coequalizer](coequalizer.md)](../../archives/Wikimedia%20Commons/Coequalizer-01.svg)}@} <!--SR:!2026-01-10,270,330!2027-10-10,755,330!2026-02-08,294,330!2027-03-19,537,310!2025-12-20,255,330-->
 
-As with {@{all [universal constructions](universal%20construction.md)}@}, {@{a coequalizer, if it exists, is unique [up to](up%20to.md) a unique [isomorphism](isomorphism.md)}@} \(this is why, {@{by abuse of language, one sometimes speaks of "the" coequalizer of two parallel arrows}@}\). <!--SR:!2025-12-20,255,330!2025-12-12,248,330!2025-12-16,251,330-->
+As with {@{all [universal constructions](universal%20construction.md)}@}, {@{a coequalizer, if it exists, is unique [up to](up%20to.md) a unique [isomorphism](isomorphism.md)}@} \(this is why, {@{by abuse of language, one sometimes speaks of "the" coequalizer of two parallel arrows}@}\). <!--SR:!2025-12-20,255,330!2029-01-09,1124,350!2025-12-16,251,330-->
 
-It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimorphism.md) in any category}@}. <!--SR:!2025-12-12,248,330!2027-09-30,694,290-->
+It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimorphism.md) in any category}@}. <!--SR:!2029-01-10,1125,350!2027-09-30,694,290-->
 
 ## examples
 
@@ -46,7 +46,7 @@ It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimo
 
 ## special cases
 
-In {@{categories with [zero morphisms](zero%20morphism.md)}@}, one can {@{define a _[cokernel](cokernel.md)_ of a morphism _f_}@} as {@{the coequalizer of _f_ and the parallel zero morphism}@}. <!--SR:!2025-12-17,252,330!2025-12-12,81,290!2026-01-14,94,374-->
+In {@{categories with [zero morphisms](zero%20morphism.md)}@}, one can {@{define a _[cokernel](cokernel.md)_ of a morphism _f_}@} as {@{the coequalizer of _f_ and the parallel zero morphism}@}. <!--SR:!2025-12-17,252,330!2026-10-30,322,310!2026-01-14,94,374-->
 
 In {@{[preadditive categories](preadditive%20category.md)}@} it makes sense to {@{add and subtract morphisms \(the [hom-sets](hom-set.md#hom-set) actually form [abelian groups](abelian%20group.md)\)}@}. In such categories, one can define the coequalizer of two morphisms _f_ and _g_ as {@{the cokernel of their difference: <p> &emsp; coeq\(_f_, _g_\) = coker\(_g_ – _f_\)}@}. <!--SR:!2026-01-11,271,330!2028-12-06,1098,350!2026-01-20,259,290-->
 

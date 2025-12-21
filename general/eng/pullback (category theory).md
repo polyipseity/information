@@ -28,7 +28,7 @@ In {@{[category theory](category%20theory.md), a branch of [mathematics](mathema
 
 The pullback comes {@{equipped with two natural morphisms _P_ → _X_ and _P_ → _Y_}@}. The pullback of two morphisms _f_ and _g_ {@{need not exist}@}, but {@{if it does, it is essentially uniquely defined by the two morphisms}@}. In {@{many situations}@}, _X_ ×<sub>_Z_</sub> _Y_ may intuitively be thought of as {@{consisting of pairs of elements \(_x_, _y_\) with _x_ in _X_, _y_ in _Y_, and _f_\(_x_\)  =  _g_\(_y_\)}@}. For {@{the general definition}@}, {@{a [universal property](universal%20property.md)}@} is used, which {@{essentially expresses the fact that the pullback}@} is {@{the "most general" way}@} to {@{complete the two given morphisms to a [commutative square](commutative%20diagram.md)}@}. <!--SR:!2025-12-25,254,330!2025-12-14,245,330!2027-10-16,755,330!2025-12-26,255,330!2026-02-11,291,330!2026-02-09,290,330!2027-11-04,771,330!2028-01-12,772,330!2026-01-01,23,368!2026-01-01,23,368-->
 
-{@{The [dual concept](dual%20(category%20theory).md) of the pullback}@} is {@{the _[pushout](pushout%20(category%20theory).md)_}@}. <!--SR:!2025-12-12,243,330!2025-12-26,255,330-->
+{@{The [dual concept](dual%20(category%20theory).md) of the pullback}@} is {@{the _[pushout](pushout%20(category%20theory).md)_}@}. <!--SR:!2028-12-21,1105,350!2025-12-26,255,330-->
 
 ## universal property
 

@@ -24,9 +24,9 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [Thursday](https://en.wiktionary.org/wiki/Thursday) ::@:: \(T\_y\) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2026-05-03,596,396!2028-04-22,1144,376-->
 - [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary) ::@:: \(W_y\) A collaborative project run by the Wikimedia Foundation to produce a free and complete dictionary in every language; the dictionaries, collectively, produced by that project. <!--SR:!2026-01-31,140,423!2026-01-31,140,423-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: \(W\_n\) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2029-06-23,1571,364!2028-12-08,1410,364-->
-- [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: \(a\_e\) To adapt. <!--SR:!2027-10-28,1008,344!2025-12-12,317,284-->
+- [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: \(a\_e\) To adapt. <!--SR:!2027-10-28,1008,344!2029-05-23,1258,304-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::@:: \(a\_e\) To gradually increase in quantity. <!--SR:!2031-09-01,2136,352!2031-05-04,2141,394-->
-- [acquisition](https://en.wiktionary.org/wiki/acquisition) ::@:: \(a\_n\) The act or processing of acquiring. <!--SR:!2025-12-12,132,416!2025-12-12,132,416-->
+- [acquisition](https://en.wiktionary.org/wiki/acquisition) ::@:: \(a\_n\) The act or processing of acquiring. <!--SR:!2027-12-30,748,436!2027-12-29,747,436-->
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: \(a\_e\) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2026-11-11,729,324!2027-02-11,798,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2026-01-28,526,310!2027-04-28,654,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2031-02-24,1965,330!2030-02-26,1644,310-->
@@ -69,7 +69,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it. <!--SR:!2027-12-16,748,433!2027-12-03,737,433-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: \(h\_c\) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: \(i\_y\) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2029-02-19,1470,364!2027-07-05,933,344-->
-- [impoverished](https://en.wiktionary.org/wiki/impoverished) ::@:: \(i\_d\) Reduced to poverty. <!--SR:!2025-12-18,138,416!2025-12-12,132,416-->
+- [impoverished](https://en.wiktionary.org/wiki/impoverished) ::@:: \(i\_d\) Reduced to poverty. <!--SR:!2025-12-18,138,416!2028-01-02,751,436-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::@:: \(i\_t\) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2026-02-06,547,324!2025-12-26,296,264-->
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::@:: \(i\_m\) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2031-02-26,2067,410!2028-11-07,1279,350-->
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::@:: \(i\_n\) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2028-01-19,1072,344!2028-04-27,1149,344-->
@@ -83,7 +83,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::@:: \(o\_n\) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2030-06-15,1880,412-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::@:: \(o\_e\) An event or happening. <!--SR:!2027-04-06,949,430!2029-01-14,1443,390-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::@:: \(p\_m\) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2032-01-12,2354,398!2026-09-07,462,338-->
-- [perception](https://en.wiktionary.org/wiki/perception) ::@:: \(p\_n\) The organization, identification and interpretation of sensory information. <!--SR:!2027-12-30,760,433!2025-12-12,142,413-->
+- [perception](https://en.wiktionary.org/wiki/perception) ::@:: \(p\_n\) The organization, identification and interpretation of sensory information. <!--SR:!2027-12-30,760,433!2028-02-21,801,433-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::@:: \(p\_e\) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2027-12-07,1035,352!2031-07-21,2211,392-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::@:: \(p\_l\) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2028-01-14,1069,344!2026-11-17,730,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::@:: \(p\_x\) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2027-03-18,729,264!2026-01-29,195,284-->
@@ -124,13 +124,13 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: \(v\_m\) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2028-10-23,1372,364!2028-06-10,1275,364-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: \(v\_e\) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2030-03-08,1719,396-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: \(v\_s\) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2030-12-22,1938,344-->
-- [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions. <!--SR:!2025-12-12,142,413!2025-12-12,142,413-->
+- [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions. <!--SR:!2028-02-20,800,433!2028-02-22,802,433-->
 - [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile. <!--SR:!2028-01-25,778,433!2028-01-24,778,433-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: \(v\_r\) To do or offer to do something voluntarily. <!--SR:!2030-03-21,1819,392!2029-01-07,1369,372-->
 - [weigh](https://en.wiktionary.org/wiki/weigh) ::@:: \(w\_h\) To determine the weight of an object. <!--SR:!2025-12-19,139,416!2025-12-23,143,416-->
-- [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens. <!--SR:!2025-12-12,132,416!2025-12-13,133,416-->
-- [weight](https://en.wiktionary.org/wiki/weight) ::@:: \(w\_t\) The downwards force an object experiences due to gravity. <!--SR:!2025-12-12,132,416!2025-12-13,133,416-->
-- [weighting](https://en.wiktionary.org/wiki/weighting) ::@:: \(w\_g\) The weight or significance given to something, sometimes by means of a statistical multiplier. <!--SR:!2025-12-12,132,416!2025-12-12,132,416-->
+- [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens. <!--SR:!2027-12-31,749,436!2025-12-13,133,416-->
+- [weight](https://en.wiktionary.org/wiki/weight) ::@:: \(w\_t\) The downwards force an object experiences due to gravity. <!--SR:!2027-12-28,746,436!2025-12-13,133,416-->
+- [weighting](https://en.wiktionary.org/wiki/weighting) ::@:: \(w\_g\) The weight or significance given to something, sometimes by means of a statistical multiplier. <!--SR:!2027-12-27,745,436!2028-01-01,750,436-->
 
 ## references
 

@@ -88,7 +88,7 @@ In this framing, when {@{$x_{i}$ is not actually a [random variable](random%20va
 
 ## statistical properties
 
-Description of {@{the statistical properties of estimators from the simple linear regression estimates}@} requires {@{the use of a [statistical model](statistical%20model.md)}@}. The following is based on {@{assuming the validity of a model under which the estimates are optimal}@}. It is also possible to {@{evaluate the properties under other assumptions, such as [inhomogeneity](homoscedasticity.md)}@}, but this is discussed elsewhere.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> <!--SR:!2026-10-16,461,310!2026-01-21,272,330!2025-12-12,239,330!2026-01-04,258,330-->
+Description of {@{the statistical properties of estimators from the simple linear regression estimates}@} requires {@{the use of a [statistical model](statistical%20model.md)}@}. The following is based on {@{assuming the validity of a model under which the estimates are optimal}@}. It is also possible to {@{evaluate the properties under other assumptions, such as [inhomogeneity](homoscedasticity.md)}@}, but this is discussed elsewhere.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> <!--SR:!2026-10-16,461,310!2026-01-21,272,330!2028-11-30,1084,350!2026-01-04,258,330-->
 
 ### unbiasedness
 

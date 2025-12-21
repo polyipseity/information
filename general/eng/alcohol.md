@@ -26,7 +26,7 @@ Most alcohols are {@{less [dense](density.md) than [water](water.md). Alcohols w
 
 ### solubility
 
-{@{[Methanol](methanol.md), [ethanol](ethanol.md), and [propanol](propanol.md)}@} are [miscible](miscibility.md) with water in all proportions, while {@{[butanol](butanol.md) is moderately water soluble}@}. <!--SR:!2025-12-22,693,310!2025-12-12,380,270-->
+{@{[Methanol](methanol.md), [ethanol](ethanol.md), and [propanol](propanol.md)}@} are [miscible](miscibility.md) with water in all proportions, while {@{[butanol](butanol.md) is moderately water soluble}@}. <!--SR:!2025-12-22,693,310!2029-11-21,1440,290-->
 
 ## chemical properties
 

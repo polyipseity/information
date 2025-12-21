@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2029-02-18,1419,370!2026-02-21,535,400-->
-- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-12-12,95,130!2026-07-06,594,330-->
+- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2026-06-15,185,150!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2030-01-28,1669,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2030-06-20,1783,400-->
 

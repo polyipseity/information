@@ -87,7 +87,7 @@ Finally, {@{[duplication](multiplication%20theorem.md) and [multiplication formu
 
 ## relation to umbral calculus
 
-The falling factorial occurs in {@{a formula which represents [polynomials](polynomial.md)}@} using {@{the forward [difference operator](recurrence%20relation.md#difference%20operator) $\Delta f(x){\stackrel {\mathrm {def} }{=} }f(x{+}1)-f(x),$}@} and {@{which is formally similar to [Taylor's theorem](taylor's%20theorem.md):$$f(x)=\sum _{n=0}^{\infty }{\frac {\Delta ^{n}f(0)}{n!} }(x)_{n}.$$}@} <!--SR:!2028-12-24,1182,350!2029-01-24,1206,350!2025-12-12,264,270-->
+The falling factorial occurs in {@{a formula which represents [polynomials](polynomial.md)}@} using {@{the forward [difference operator](recurrence%20relation.md#difference%20operator) $\Delta f(x){\stackrel {\mathrm {def} }{=} }f(x{+}1)-f(x),$}@} and {@{which is formally similar to [Taylor's theorem](taylor's%20theorem.md):$$f(x)=\sum _{n=0}^{\infty }{\frac {\Delta ^{n}f(0)}{n!} }(x)_{n}.$$}@} <!--SR:!2028-12-24,1182,350!2029-01-24,1206,350!2028-09-02,995,290-->
 
 In {@{this formula and in many other places}@}, {@{the falling factorial $(x)_{n}$ in the calculus of [finite differences](finite%20difference.md)}@} plays {@{the role of $x^{n}$ in differential calculus}@}. Note for instance {@{the similarity of $\Delta (x)_{n}=n(x)_{n-1}$ to ${\frac {\textrm {d} }{ {\textrm {d} }x} }x^{n}=nx^{n-1}$}@}. <!--SR:!2029-06-03,1309,350!2027-11-05,845,330!2028-10-03,1118,350!2027-11-22,843,330-->
 
