@@ -64,7 +64,7 @@ Note that {@{the equality _b_<sup>2</sup> = 2 cannot hold}@} since {@{[${\sqrt {
 
 Given {@{a Dedekind cut representing the real number $r$}@} by {@{splitting the rationals into $(A,B)$ where rationals in $A$ are less than $r$ and rationals in $B$ are greater than $r$}@}, it can be equivalently {@{represented as the set of pairs $(a,b)$ with $a\in A$ and $b\in B$}@}, with {@{the lower cut and the upper cut being given by projections}@}. This corresponds {@{exactly to the set of intervals approximating $r$}@}. <!--SR:!2029-04-25,1232,350!2025-12-28,285,330!2027-10-27,789,330!2028-12-11,1128,350!2029-01-16,1157,350-->
 
-This allows {@{the basic arithmetic operations on the real numbers to be defined in terms of [interval arithmetic](interval%20arithmetic.md)}@}. {@{This property and its relation with real numbers given only in terms of $A$ and $B$}@} is {@{particularly important in weaker foundations such as [constructive analysis](constructive%20analysis.md)}@}. <!--SR:!2025-12-11,272,330!2029-01-05,1148,350!2025-12-23,281,330-->
+This allows {@{the basic arithmetic operations on the real numbers to be defined in terms of [interval arithmetic](interval%20arithmetic.md)}@}. {@{This property and its relation with real numbers given only in terms of $A$ and $B$}@} is {@{particularly important in weaker foundations such as [constructive analysis](constructive%20analysis.md)}@}. <!--SR:!2029-05-09,1245,350!2029-01-05,1148,350!2025-12-23,281,330-->
 
 ## generalizations
 

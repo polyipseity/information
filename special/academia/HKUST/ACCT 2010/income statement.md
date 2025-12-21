@@ -20,7 +20,7 @@ tags:
 ## examples
 
 - [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) ::@:: ![`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) <!--SR:!2026-05-05,338,290!2027-04-09,535,270-->
-  - [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) / gross profit ::@:: It should better be called `Total revenue` instead... <!--SR:!2029-01-20,1168,350!2025-12-11,281,330-->
+  - [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) / gross profit ::@:: It should better be called `Total revenue` instead... <!--SR:!2029-01-20,1168,350!2029-06-11,1278,350-->
 
 ## format
 
@@ -30,7 +30,7 @@ tags:
 - dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted. <!--SR:!2025-12-17,287,330!2026-03-11,328,290-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income <!--SR:!2027-05-16,576,270!2028-01-04,792,290-->
   - total / format ::@:: Indent totals at least once. <p> Add a (over)line above totals. <p> For income from operations, income before income taxes, and net income, do not indent and bold the names. <p> For net income (and earnings per share), additionally add double (under)lines below the totals. <!--SR:!2027-11-09,747,290!2026-05-26,391,310-->
-- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2029-04-07,1229,350!2025-12-11,281,330-->
+- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2029-04-07,1229,350!2029-06-13,1280,350-->
   - negative number / expenses ::@:: Note that expenses, while they reduce net income, are still written as positive numbers. This includes income tax expense. <p> One exception is when the revenues and expenses are mixed together in the other items. <!--SR:!2028-11-25,1124,350!2026-06-05,401,310-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2028-12-12,1138,350!2029-03-10,1207,350-->
 - (root) ::@:: operating (+) <br/> other items (+) <br/> income tax expense <br/> __net income__: income before income taxes − income tax expense <br/> earnings per share <!--SR:!2026-08-06,431,310!2026-08-20,445,310-->

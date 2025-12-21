@@ -78,7 +78,7 @@ return chain.from_iterable(await gather(
 - [Ward's method](Ward's%20method.md)→::@::←centroid linkage clustering <!--SR:!2026-02-11,421,275!2026-11-23,671,315-->
 - centroid linkage clustering→::@::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2028-12-07,1134,295!2027-10-21,912,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→::@::←median linkage clustering <!--SR:!2027-04-14,779,295!2029-01-31,1269,295-->
-- median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2027-12-29,965,295!2025-12-11,415,295-->
+- median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2027-12-29,965,295!2030-08-09,1702,315-->
 - [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2029-10-26,1482,315!2026-09-14,506,235-->
 - unweighted average linkage clustering→::@::←weighted average linkage clustering <!--SR:!2026-07-01,485,275!2028-07-17,1143,315-->
 - weighted average linkage clustering→::@::←_(end)_ <!--SR:!2027-10-04,960,335!2027-10-19,868,315-->

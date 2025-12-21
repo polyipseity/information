@@ -162,7 +162,7 @@ Although {@{the form just described requires one to prove the base case}@}, this
 
 #### equivalence with ordinary induction
 
-Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2028-11-06,1155,350!2028-12-02,1177,350!2028-10-28,1150,350!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
+Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2028-11-06,1155,350!2028-12-02,1177,350!2028-10-28,1150,350!2028-10-17,1141,350!2029-02-20,1167,310!2027-07-27,775,330-->
 
 If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the proof would {@{already effectively be one by complete induction}@}: $P(0)$ is {@{proved in the base case, using no assumptions}@}, and $P(n+1)$ is {@{proved in the induction step, in which one may assume all earlier cases but need only use the case $P(n)$}@}. <!--SR:!2028-11-20,1167,350!2028-10-18,1141,350!2028-11-09,1160,350!2028-10-04,1130,350-->
 
@@ -234,7 +234,7 @@ This form of induction, when {@{applied to a set of ordinal numbers \(which form
 Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:!2028-10-31,1152,350-->
 
 1. when _n_ is a minimal element, ::@:: i.e. there is no element smaller than _n_; <!--SR:!2028-11-01,1153,350!2028-11-06,1158,350-->
-2. when _n_ has a direct predecessor, ::@:: i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2025-12-11,288,290!2028-10-22,1146,350-->
+2. when _n_ has a direct predecessor, ::@:: i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2029-02-21,1168,310!2028-10-22,1146,350-->
 3. when _n_ has no direct predecessor, ::@:: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2028-09-10,1110,350!2028-10-12,1137,350-->
 
 Strictly speaking, it is {@{not necessary in transfinite induction to prove a base case}@}, because {@{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}@}. It is vacuously true precisely because {@{there are no values of _n_ < _m_ that could serve as counterexamples}@}. So the special cases are special cases of the general case. <!--SR:!2028-12-20,1191,350!2027-12-02,823,330!2028-09-13,1113,350-->

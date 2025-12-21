@@ -18,7 +18,7 @@ tags:
 >
 > {@{The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10}@} <!--SR:!2025-12-24,275,330!2027-12-06,814,330-->
 
-In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also called a __factor__ of $n$}@}, is {@{an [integer](integer.md) $m$ that may be multiplied by some integer to produce $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of $m$}@}. An integer $n$ is {@{__divisible__ or __evenly divisible__ by another integer $m$ if $m$ is a divisor of $n$}@}; this implies {@{dividing $n$ by $m$ leaves no remainder}@}. <!--SR:!2025-12-25,276,330!2026-01-14,291,330!2028-12-18,1125,350!2029-01-30,1160,350!2025-12-11,264,330!2026-01-16,293,330-->
+In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also called a __factor__ of $n$}@}, is {@{an [integer](integer.md) $m$ that may be multiplied by some integer to produce $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of $m$}@}. An integer $n$ is {@{__divisible__ or __evenly divisible__ by another integer $m$ if $m$ is a divisor of $n$}@}; this implies {@{dividing $n$ by $m$ leaves no remainder}@}. <!--SR:!2025-12-25,276,330!2026-01-14,291,330!2028-12-18,1125,350!2029-01-30,1160,350!2029-03-30,1205,350!2026-01-16,293,330-->
 
 ## definition
 
@@ -27,7 +27,7 @@ An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there e
 There are {@{two conventions, distinguished by whether $m$ is permitted to be zero}@}: <!--SR:!2028-12-27,1132,350-->
 
 - With the convention without an additional constraint on $m$, ::@:: $m\mid 0$ for every integer $m$.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-25,276,330!2026-01-16,293,330-->
-- With the convention that $m$ be nonzero, ::@:: $m\mid 0$ for every nonzero integer $m$.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-11,264,330!2027-10-23,779,330-->
+- With the convention that $m$ be nonzero, ::@:: $m\mid 0$ for every nonzero integer $m$.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-03-30,1205,350!2027-10-23,779,330-->
 
 ## general
 

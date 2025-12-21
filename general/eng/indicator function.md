@@ -29,7 +29,7 @@ The function $\mathbf {1} _{A}$ is sometimes denoted {@{_I<sub>A</sub>_, _χ<sub
 
 ## notation and terminology
 
-{@{The notation $\chi _{A}$}@} is also used to {@{denote the [characteristic function](characteristic%20function%20(convex%20analysis).md) in [convex analysis](convex%20analysis.md)}@}, which is defined {@{as if using the [reciprocal](multiplicative%20inverse.md) of the standard definition of the indicator function}@}. <!--SR:!2025-12-11,264,330!2029-01-16,1148,350!2025-12-13,266,330-->
+{@{The notation $\chi _{A}$}@} is also used to {@{denote the [characteristic function](characteristic%20function%20(convex%20analysis).md) in [convex analysis](convex%20analysis.md)}@}, which is defined {@{as if using the [reciprocal](multiplicative%20inverse.md) of the standard definition of the indicator function}@}. <!--SR:!2029-03-31,1206,350!2029-01-16,1148,350!2025-12-13,266,330-->
 
 {@{A related concept in [statistics](statistics.md)}@} is that of {@{a [dummy variable](dummy%20variable%20(statistics).md)}@}. \(This must not {@{be confused with "dummy variables" as that term is usually used in mathematics}@}, also called {@{a [bound variable](free%20variables%20and%20bound%20variables.md)}@}.\) <!--SR:!2026-01-05,284,330!2026-01-11,289,330!2027-12-05,813,330!2026-01-14,291,330-->
 

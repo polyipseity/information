@@ -20,7 +20,7 @@ tags:
 ## examples
 
 - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) ::@:: ![`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) <!--SR:!2026-09-30,483,310!2027-09-28,768,330-->
-  - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / language ::@:: Yeah, it's in Russian... <!--SR:!2025-12-25,294,330!2025-12-11,281,330-->
+  - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / language ::@:: Yeah, it's in Russian... <!--SR:!2025-12-25,294,330!2029-06-15,1282,350-->
   - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / account captions ::@:: Notice they have used numbers to identify accounts. In this course, we should simply use the account captions (account names) directly. <!--SR:!2026-12-22,543,310!2028-01-08,846,330-->
   - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / adjustments ::@:: In this example, the total debit and credit of all relevant adjusting entries of the same account are summed and recorded as one. <p> In exams, you should probably record them separately. When you record them separately, each adjusting entry should change either debit or credit but not both. <!--SR:!2026-08-04,429,310!2027-10-06,774,330-->
 
@@ -33,7 +33,7 @@ tags:
 - total ::@:: Calculate the total debit and credit for unadjusted, adjustments, and adjusted. The debit and credit should always equal. <!--SR:!2027-05-27,680,330!2029-03-02,1202,350-->
 - negative number ::@:: There should be no negative numbers. <!--SR:!2029-01-21,1169,350!2029-02-14,1188,350-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-05-07,1249,350!2025-12-14,284,330-->
-- (root) ::@:: accounts: 1 column <br/> unadjusted: 2 columns <br> adjustments: ≥2 columns <br/> adjusted: 2 columns <!--SR:!2025-12-15,285,330!2025-12-11,281,330-->
+- (root) ::@:: accounts: 1 column <br/> unadjusted: 2 columns <br> adjustments: ≥2 columns <br/> adjusted: 2 columns <!--SR:!2025-12-15,285,330!2029-06-09,1276,350-->
   - (root) / accounts ::@:: A row for each account. Write the account caption. The last account should be "Total". <!--SR:!2026-08-30,455,310!2026-08-26,451,310-->
   - (root) / unadjusted ::@:: Write the account balance in either debit or credit. If the balance is zero (for accounts which will have a balance after adjustment), write a "-" on the side of the account's normal balance (normally debit or normally credit?). <p> Remember to calculate and check the total debit and credit. <!--SR:!2029-03-21,1216,350!2029-02-20,1193,350-->
   - (root) / adjustments ::@:: If there are no adjustments, write nothing. <p> \(__this course__: for non-exams\) If there are relevant adjusting entries, write the total debit and credit resulting from all relevant adjusting entries. If the total debit or total credit is 0, omit the number. <p> \(__this course__: for exams\) Alternatively, use a separate row for each adjusting entry. Then an account may span multiple rows. Then each row should either have debit or credit, but not both. The unadjusted and adjusted balance should always be written on the first row. <p> Remember to calculate and check the total debit and credit. <!--SR:!2026-08-24,449,310!2027-10-09,776,330-->

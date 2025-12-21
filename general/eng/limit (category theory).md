@@ -57,11 +57,11 @@ It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if
 
 - See also: [Direct limit](direct%20limit.md)
 
-{@{The [dual notions](dual%20(category%20theory).md) of limits and cones}@} are {@{colimits and co-cones}@}. Although it is {@{straightforward to obtain the definitions of these by inverting all morphisms in the above definitions}@}, we will {@{explicitly state them here}@}: <!--SR:!2026-04-29,369,358!2026-04-28,368,358!2026-03-14,330,353!2025-12-11,253,330-->
+{@{The [dual notions](dual%20(category%20theory).md) of limits and cones}@} are {@{colimits and co-cones}@}. Although it is {@{straightforward to obtain the definitions of these by inverting all morphisms in the above definitions}@}, we will {@{explicitly state them here}@}: <!--SR:!2026-04-29,369,358!2026-04-28,368,358!2026-03-14,330,353!2029-02-02,1149,350-->
 
 {@{A __[co-cone](co-cone.md)__ of a diagram $F:J\to C$}@} is {@{an object $N$ of $C$ together with a family of morphisms $$\psi _{X}:F(X)\to N$$ for every object $X$ of $J$}@}, such that {@{for every morphism $f:X\to Y$ in $J$, we have $\psi _{Y}\circ F(f)=\psi _{X}$}@}. <!--SR:!2026-01-01,269,330!2027-03-01,539,310!2026-05-24,389,358-->
 
-{@{A __colimit__ of a diagram $F:J\to C$}@} is {@{a co-cone $(L,\phi )$ of $F$}@} such that {@{for any other co-cone $(N,\psi )$ of $F$ there exists a unique morphism $u:L\to N$ such that $u\circ \phi _{X}=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal co-cone](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg)}@} <!--SR:!2026-04-16,358,358!2025-12-11,252,338!2026-02-16,309,353!2027-11-05,772,338-->
+{@{A __colimit__ of a diagram $F:J\to C$}@} is {@{a co-cone $(L,\phi )$ of $F$}@} such that {@{for any other co-cone $(N,\psi )$ of $F$ there exists a unique morphism $u:L\to N$ such that $u\circ \phi _{X}=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal co-cone](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg)}@} <!--SR:!2026-04-16,358,358!2029-03-04,1179,358!2026-02-16,309,353!2027-11-05,772,338-->
 
 Colimits are also referred to as {@{_[universal co-cones](universal%20co-cone.md#universal%20cones)_}@}. They can be {@{characterized as [initial objects](initial%20object.md)}@} in {@{the [category of co-cones](category%20of%20co-cones.md#category%20of%20cones) from $F$}@}. <!--SR:!2026-03-13,329,353!2026-05-06,372,358!2028-10-28,1075,358-->
 
@@ -113,7 +113,7 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 
 ### existence of limits
 
-{@{A given diagram _F_ : _J_ → _C_}@} {@{may or may not have a limit \(or colimit\) in _C_}@}. Indeed, there {@{may not even be a cone to _F_, let alone a universal cone}@}. <!--SR:!2026-04-27,366,358!2029-01-10,1131,350!2025-12-11,252,338-->
+{@{A given diagram _F_ : _J_ → _C_}@} {@{may or may not have a limit \(or colimit\) in _C_}@}. Indeed, there {@{may not even be a cone to _F_, let alone a universal cone}@}. <!--SR:!2026-04-27,366,358!2029-01-10,1131,350!2029-02-28,1175,358-->
 
 {@{A category _C_ is said to __have limits of shape _J_<!-- markdown separator -->__}@} if {@{every diagram of shape _J_ has a limit in _C_}@}. Specifically, a category _C_ is said to <!--SR:!2026-05-09,375,358!2028-12-18,1113,350-->
 
@@ -138,7 +138,7 @@ Given {@{a diagram _F_: _J_ → _C_}@} \(thought of {@{as an object in _C_<sup>_
 Therefore, {@{the definitions of limits and colimits}@} can then be {@{restated in the form}@}: <!--SR:!2026-02-01,294,330!2026-05-08,374,358-->
 
 - A limit of _F_ ::@:: is a universal morphism from Δ to _F_. <!--SR:!2026-05-18,384,358!2025-12-16,239,325-->
-- A colimit of _F_ ::@:: is a universal morphism from _F_ to Δ. <!--SR:!2025-12-11,252,338!2026-03-02,319,345-->
+- A colimit of _F_ ::@:: is a universal morphism from _F_ to Δ. <!--SR:!2029-03-05,1180,358!2026-03-02,319,345-->
 
 ### adjunctions
 
@@ -182,7 +182,7 @@ If {@{_C_ is a [complete category](complete%20category.md)}@}, then, by {@{the a
 
 For {@{a given diagram _F_ : _J_ → _C_ and functor _G_ : _C_ → _D_}@}, if {@{both _F_ and _GF_ have specified limits}@} there is {@{a unique canonical morphism $$\tau _{F}:G\lim F\to \lim GF$$}@} which {@{respects the corresponding limit cones}@}. {@{The functor _G_ preserves the limits of _F_}@} {@{if and only if this map is an isomorphism}@}. If {@{the categories _C_ and _D_ have all limits of shape _J_}@} then {@{lim is a functor (annotation: lim : _C_<sup>_J_</sup> → _C_ for the left one below and lim : _D_<sup>_J_</sup> → _D_ for the right one below)}@} and {@{the morphisms τ<sub>_F_</sub> form the components of a [natural transformation](natural%20transformation.md) $$\tau :G\lim \to \lim G^{J}.$$ (annotation: _G_<sup>_J_</sup> : _C_<sup>_J_</sup> → _D_<sup>_J_</sup>)}@} {@{The functor _G_ preserves all limits of shape _J_}@} {@{if and only if τ is a natural isomorphism}@}. In this sense, the functor _G_ can be said to {@{_commute with limits_ \([up to](up%20to.md) a canonical natural isomorphism\)}@}. <!--SR:!2026-02-06,301,345!2028-04-07,885,330!2026-05-21,386,358!2026-01-14,263,338!2026-10-24,454,318!2027-11-21,735,293!2027-11-05,725,325!2027-04-27,636,338!2026-12-04,470,313!2026-04-24,365,358!2026-01-24,270,338!2026-11-08,451,313-->
 
-{@{Preservation of limits and colimits}@} is {@{a concept that only applies to _[covariant](covariant%20functor.md#covariance%20and%20contravariance)_ functors}@}. For {@{[contravariant functors](contravariant%20functor.md#covariance%20and%20contravariance)}@} the corresponding notions would be {@{a functor that takes colimits to limits, or one that takes limits to colimits}@}. <!--SR:!2026-03-29,341,345!2027-06-22,674,330!2025-12-11,253,330!2026-01-31,296,345-->
+{@{Preservation of limits and colimits}@} is {@{a concept that only applies to _[covariant](covariant%20functor.md#covariance%20and%20contravariance)_ functors}@}. For {@{[contravariant functors](contravariant%20functor.md#covariance%20and%20contravariance)}@} the corresponding notions would be {@{a functor that takes colimits to limits, or one that takes limits to colimits}@}. <!--SR:!2026-03-29,341,345!2027-06-22,674,330!2029-02-03,1150,350!2026-01-31,296,345-->
 
 ### lifting of limits
 
@@ -221,7 +221,7 @@ There are examples of {@{functors which lift limits uniquely but neither create 
 - {@{The [free functor](free%20functor.md#free%20functor) _F_ : __Set__ → __Grp__ \(which assigns to every set _S_ the [free group](free%20group.md) over _S_\)}@} is {@{left adjoint to forgetful functor _U_ and is, therefore, cocontinuous}@}. This explains why {@{the [free product](free%20product.md) of two free groups _G_ and _H_}@} is {@{the free group generated by the [disjoint union](disjoint%20union.md) of the generators of _G_ and _H_}@}.
 - {@{The inclusion functor __Ab__ → __Grp__}@} {@{creates limits but does not preserve coproducts}@} \({@{the coproduct of two abelian groups}@} being {@{the [direct sum](direct%20sum%20of%20abelian%20groups.md#direct%20sum%20of%20abelian%20groups)}@}\).
 - {@{The forgetful functor __Top__ → __Set__}@} {@{lifts limits and colimits uniquely but creates neither}@}.
-- Let {@{__Met__<sub>_c_</sub>}@} be {@{the category of [metric spaces](metric%20space.md) with [continuous functions](continuous%20function.md) for morphisms}@}. {@{The forgetful functor __Met__<sub>_c_</sub> → __Set__}@} {@{lifts finite limits but does not lift them uniquely}@}. <!--SR:!2026-05-24,358,305!2025-12-19,256,338!2027-12-09,752,298!2027-03-28,545,270!2026-02-15,162,210!2026-01-10,105,150!2025-12-12,174,218!2026-03-07,187,258!2026-01-20,176,238!2026-10-14,386,258!2025-12-11,128,394!2027-08-20,630,414!2026-02-23,178,354!2027-10-15,676,414!2027-09-13,649,414!2027-09-01,640,414!2027-09-02,639,414!2026-05-02,214,354!2027-10-25,684,414!2027-08-26,635,414!2027-09-22,657,414!2027-03-03,461,394-->
+- Let {@{__Met__<sub>_c_</sub>}@} be {@{the category of [metric spaces](metric%20space.md) with [continuous functions](continuous%20function.md) for morphisms}@}. {@{The forgetful functor __Met__<sub>_c_</sub> → __Set__}@} {@{lifts finite limits but does not lift them uniquely}@}. <!--SR:!2026-05-24,358,305!2025-12-19,256,338!2027-12-09,752,298!2027-03-28,545,270!2026-02-15,162,210!2026-01-10,105,150!2025-12-12,174,218!2026-03-07,187,258!2026-01-20,176,238!2026-10-14,386,258!2027-10-31,689,414!2027-08-20,630,414!2026-02-23,178,354!2027-10-15,676,414!2027-09-13,649,414!2027-09-01,640,414!2027-09-02,639,414!2026-05-02,214,354!2027-10-25,684,414!2027-08-26,635,414!2027-09-22,657,414!2027-03-03,461,394-->
 
 ## a note on terminology
 

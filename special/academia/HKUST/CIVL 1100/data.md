@@ -104,7 +104,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::@:: length: 189 m, width: 156 m <!--SR:!2026-02-23,455,336!2029-11-16,1503,396-->
 - construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2026-04-17,384,236!2026-10-08,666,396-->
-- description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2029-03-11,1379,396!2025-12-11,420,376-->
+- description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2029-03-11,1379,396!2031-11-15,2165,396-->
 - geographic location ::@:: Rome <!--SR:!2026-02-17,488,396!2026-11-08,740,416-->
 - height ::@:: 48 m (4 storeys) <!--SR:!2029-01-17,1163,296!2026-12-23,772,416-->
 - importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2026-04-16,555,396-->

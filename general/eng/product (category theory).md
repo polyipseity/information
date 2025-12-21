@@ -49,7 +49,7 @@ The product is denoted {@{$\prod _{i\in I}X_{i}$}@}. If {@{$I=\{1,\ldots ,n\}$}@
 
 Alternatively, the product may be {@{defined through equations}@}. So, for example, for the binary product: <!--SR:!2025-12-13,256,330-->
 
-- Existence of $f$ ::@:: is guaranteed by existence of the operation $\langle \cdot ,\cdot \rangle$. <!--SR:!2025-12-23,265,330!2025-12-11,254,330-->
+- Existence of $f$ ::@:: is guaranteed by existence of the operation $\langle \cdot ,\cdot \rangle$. <!--SR:!2025-12-23,265,330!2029-02-07,1154,350-->
 - Commutativity of the diagrams above ::@:: is guaranteed by the equality: for all $f_{1},f_{2}$ and all $i\in \{1,2\}$, $\pi _{i}\circ \left\langle f_{1},f_{2}\right\rangle =f_{i}$ <!--SR:!2027-11-23,783,330!2028-01-19,828,330-->
 - Uniqueness of $f$ ::@:: is guaranteed by the equality: for all $g:Y\to X_{1}\times X_{2}$, $\left\langle \pi _{1}\circ g,\pi _{2}\circ g\right\rangle =g$.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-05,782,330!2026-08-02,377,290-->
 

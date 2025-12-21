@@ -23,7 +23,7 @@ Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability
 
 (annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$ <!--SR:!2026-02-13,293,330!2025-12-27,254,330-->
 
-(annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$ <!--SR:!2025-12-11,242,330!2028-05-23,932,344-->
+(annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$ <!--SR:!2028-12-15,1100,350!2028-05-23,932,344-->
 
 ## see also
 

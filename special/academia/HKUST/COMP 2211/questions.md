@@ -139,7 +139,7 @@ tags:
 > Q3. What does `print(len(r"\n Desmond is a good guy na!\n"))` output?
 >
 > - solution: {@{`30`}@}
-> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2029-01-13,1156,350!2025-12-11,274,330-->
+> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2029-01-13,1156,350!2029-05-18,1254,350-->
 
 <!-- markdownlint MD028 -->
 

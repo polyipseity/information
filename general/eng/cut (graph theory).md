@@ -31,9 +31,9 @@ In {@{a [flow network](flow%20network.md)}@}, {@{an __s–t cut__}@} is {@{a cut
 
 ## definition
 
-{@{A __cut__ _C_ = (_S_, _T_)}@} is {@{a partition of _V_ of a graph _G_ = (_V_, _E_) into two subsets _S_ and _T_}@}. {@{The __cut-set__ of a cut _C_ = (_S_, _T_)}@} is {@{the set {(_u_, _v_) ∈ _E_ | _u_ ∈ _S_, _v_ ∈ _T_} of edges that have one endpoint in _S_ and the other endpoint in _T_}@}. If {@{_s_ and _t_ are specified vertices of the graph _G_}@}, then {@{an ___s_–_t_ cut__}@} is {@{a cut in which _s_ belongs to the set _S_ and _t_ belongs to the set _T_}@}. <!--SR:!2025-12-11,316,330!2026-11-16,543,310!2027-11-17,849,330!2029-10-05,1402,350!2029-09-03,1378,350!2026-12-05,562,310!2026-12-24,573,310-->
+{@{A __cut__ _C_ = (_S_, _T_)}@} is {@{a partition of _V_ of a graph _G_ = (_V_, _E_) into two subsets _S_ and _T_}@}. {@{The __cut-set__ of a cut _C_ = (_S_, _T_)}@} is {@{the set {(_u_, _v_) ∈ _E_ | _u_ ∈ _S_, _v_ ∈ _T_} of edges that have one endpoint in _S_ and the other endpoint in _T_}@}. If {@{_s_ and _t_ are specified vertices of the graph _G_}@}, then {@{an ___s_–_t_ cut__}@} is {@{a cut in which _s_ belongs to the set _S_ and _t_ belongs to the set _T_}@}. <!--SR:!2029-11-23,1443,350!2026-11-16,543,310!2027-11-17,849,330!2029-10-05,1402,350!2029-09-03,1378,350!2026-12-05,562,310!2026-12-24,573,310-->
 
-In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2029-10-03,1400,350!2029-10-02,1402,350!2028-04-23,958,330!2025-12-11,316,330!2028-04-04,941,330-->
+In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} is {@{the number of edges crossing the cut}@}. In {@{a [weighted graph](graph%20(discrete%20mathematics).md#weighted%20graph)}@}, {@{the __value__ or __weight__}@} is {@{defined by the sum of the weights of the edges crossing the cut}@}. <!--SR:!2029-09-04,1379,350!2029-10-03,1400,350!2029-10-02,1402,350!2028-04-23,958,330!2029-11-21,1441,350!2028-04-04,941,330-->
 
 {@{A __bond__}@} is {@{a cut-set that does not have any other cut-set as a proper subset}@}. <!--SR:!2029-09-30,1398,350!2029-10-14,1410,350-->
 
@@ -43,7 +43,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 
 > {@{![a minimum cut](../../archives/Wikimedia%20Commons/Min-cut.svg)}@}
 >
-> {@{A minimum cut.}@} <!--SR:!2029-11-12,1434,350!2025-12-11,316,330-->
+> {@{A minimum cut.}@} <!--SR:!2029-11-12,1434,350!2029-11-24,1444,350-->
 
 {@{A cut is _minimum_}@} if {@{the size or weight of the cut is not larger than the size of any other cut}@}. The illustration on the right shows {@{a minimum cut: the size of this cut is 2}@}, and {@{there is no cut of size 1 because the graph is [bridgeless](bridge%20(graph%20theory).md)}@}. <!--SR:!2029-09-02,1377,350!2029-10-20,1415,350!2028-04-14,950,330!2027-03-24,669,330-->
 
@@ -57,9 +57,9 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 >
 > {@{A maximum cut.}@} <!--SR:!2026-03-08,370,310!2029-11-18,1439,350-->
 
-{@{A cut is _maximum_}@} if {@{the size of the cut is not smaller than the size of any other cut}@}. The illustration on the right shows {@{a maximum cut: the size of the cut is equal to 5}@}, and {@{there is no cut of size 6, or |_E_| (the number of edges), because the graph is not [bipartite](bipartite%20graph.md) (there is an [odd cycle](cycle%20graph.md#terminology))}@}. <!--SR:!2025-12-11,316,330!2029-10-31,1425,350!2027-12-17,858,330!2025-12-11,316,330-->
+{@{A cut is _maximum_}@} if {@{the size of the cut is not smaller than the size of any other cut}@}. The illustration on the right shows {@{a maximum cut: the size of the cut is equal to 5}@}, and {@{there is no cut of size 6, or |_E_| (the number of edges), because the graph is not [bipartite](bipartite%20graph.md) (there is an [odd cycle](cycle%20graph.md#terminology))}@}. <!--SR:!2029-11-25,1445,350!2029-10-31,1425,350!2027-12-17,858,330!2028-10-16,1040,330-->
 
-In general, {@{finding a maximum cut}@} is {@{computationally hard}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The max-cut problem}@} is {@{one of [Karp's 21 NP-complete problems](Karp's%2021%20NP-complete%20problems.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The max-cut problem is {@{also [APX-hard](APX.md), meaning that there is no polynomial-time approximation scheme for it unless [P = NP](P%20versus%20NP%20problem.md)}@}.<sup>[\[5\]](#^ref-5)</sup> However, it can be {@{approximated to within a constant [approximation ratio](approximation%20algorithm.md) using [semidefinite programming](semidefinite%20programming.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-11,316,330!2029-04-15,1265,350!2029-10-15,1411,350!2028-02-15,905,330!2027-08-04,695,310!2028-05-03,965,330-->
+In general, {@{finding a maximum cut}@} is {@{computationally hard}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The max-cut problem}@} is {@{one of [Karp's 21 NP-complete problems](Karp's%2021%20NP-complete%20problems.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The max-cut problem is {@{also [APX-hard](APX.md), meaning that there is no polynomial-time approximation scheme for it unless [P = NP](P%20versus%20NP%20problem.md)}@}.<sup>[\[5\]](#^ref-5)</sup> However, it can be {@{approximated to within a constant [approximation ratio](approximation%20algorithm.md) using [semidefinite programming](semidefinite%20programming.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-11-22,1442,350!2029-04-15,1265,350!2029-10-15,1411,350!2028-02-15,905,330!2027-08-04,695,310!2028-05-03,965,330-->
 
 Note that {@{min-cut and max-cut}@} are {@{_not_ [dual](linear%20programming.md#duality) problems in the [linear programming](linear%20programming.md) sense}@}, even though {@{one gets from one problem to other by changing min to max in the [objective function](loss%20function.md)}@}. {@{The max-flow problem}@} is {@{the dual of the min-cut problem}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-05-03,1279,350!2029-11-01,1426,350!2029-06-25,1323,350!2028-03-25,935,330!2028-04-24,958,330-->
 

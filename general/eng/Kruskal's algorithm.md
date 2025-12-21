@@ -116,7 +116,7 @@ Let $G$ be {@{a connected, weighted graph}@} and let $Y$ be {@{the subgraph of $
 
 ### minimality
 
-We show that {@{the following proposition ___P___ is true by [induction](mathematical%20induction.md)}@}: If {@{_F_ is the set of edges chosen at any stage of the algorithm}@}, then there is {@{some minimum spanning tree}@} that {@{contains _F_ and none of the edges rejected by the algorithm}@}. <!--SR:!2029-08-04,1336,350!2027-10-20,808,330!2028-05-08,907,330!2025-12-11,25,374-->
+We show that {@{the following proposition ___P___ is true by [induction](mathematical%20induction.md)}@}: If {@{_F_ is the set of edges chosen at any stage of the algorithm}@}, then there is {@{some minimum spanning tree}@} that {@{contains _F_ and none of the edges rejected by the algorithm}@}. <!--SR:!2029-08-04,1336,350!2027-10-20,808,330!2028-05-08,907,330!2026-04-16,126,394-->
 
 - Clearly {@{___P___ is true at the beginning, when _F_ is empty}@}: {@{any minimum spanning tree will do}@}, and {@{there exists one because a weighted connected graph always has a minimum spanning tree}@}.
 - Now assume {@{___P___ is true for some non-final edge set _F_}@} and {@{let _T_ be a minimum spanning tree that contains _F_}@}.

@@ -265,7 +265,7 @@ _n_-d nim is played on {@{a $k_{1}\times \dots \times k_{n}$ board}@}, whereon {
 
 ### graph nim
 
-The starting board is {@{a disconnected graph}@}, and players {@{take turns to remove adjacent vertices}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2029-08-28,1396,361!2025-12-11,328,341-->
+The starting board is {@{a disconnected graph}@}, and players {@{take turns to remove adjacent vertices}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2029-08-28,1396,361!2030-02-24,1536,361-->
 
 ### candy nim
 

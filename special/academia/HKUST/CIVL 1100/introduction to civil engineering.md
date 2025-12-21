@@ -32,7 +32,7 @@ The content is in teaching order.
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2029-10-23,1611,400-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2028-04-09,1082,332!2027-09-20,994,350-->
     - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2028-04-12,1124,365-->
-- civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2027-04-22,866,372-->
+- civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2031-06-13,2010,360!2027-04-22,866,372-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
@@ -709,7 +709,7 @@ soil liquefaction
 - _(begin)_→::@::←debris flow <!--SR:!2028-01-16,1020,334!2032-09-12,2494,418-->
 - debris flow→::@::←landslide <!--SR:!2029-03-09,1357,355!2028-08-11,1199,355-->
 - landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
-- rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2028-11-14,1199,290-->
+- rockfall→::@::←soil liquefaction <!--SR:!2029-01-20,1136,290!2028-11-14,1199,290-->
 - soil liquefaction→::@::←_(end)_ <!--SR:!2033-01-07,2585,412!2029-07-18,1392,315-->
 
 <!--/pytextgen-->
@@ -914,7 +914,7 @@ polypropylene fiber reinforced concrete
 
 - _(begin)_→::@::←artificial stone <!--SR:!2028-07-09,1092,317!2031-01-18,1995,385-->
 - artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2029-10-08,1528,355-->
-- cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2026-06-02,544,330-->
+- cellular concrete→::@::←engineered cement composite <!--SR:!2030-03-18,1558,290!2026-06-02,544,330-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2026-03-09,492,337!2029-10-17,1506,340-->
 - fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2026-11-13,591,280!2028-10-09,1152,335-->
 - polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2029-10-26,1588,392!2029-01-24,1194,320-->

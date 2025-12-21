@@ -57,7 +57,7 @@ In {@{the left diagram, which expresses the [first isomorphism theorem](isomorph
 
 ### example 2
 
-In order for {@{the diagram below to commute}@}, {@{three equalities must be satisfied}@}: <!--SR:!2025-12-11,238,330!2025-12-28,253,330-->
+In order for {@{the diagram below to commute}@}, {@{three equalities must be satisfied}@}: <!--SR:!2028-12-05,1090,350!2025-12-28,253,330-->
 
 1. $r\circ h\circ g=H\circ G\circ l$
 2. $m\circ g=G\circ l$
