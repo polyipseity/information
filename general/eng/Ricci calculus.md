@@ -271,7 +271,7 @@ For {@{an arbitrary tensor}@}:<sup>[\[17\]](#^ref-17)</sup> {@{$${\begin{aligned
 
 ### [torsion tensor](torsion%20tensor.md)
 
-{@{An affine connection}@} has {@{a torsion tensor _T_<sup>_α_</sup><sub>_βγ_</sub>}@}: {@{$$T^{\alpha }{}_{\beta \gamma }=\Gamma ^{\alpha }{}_{\beta \gamma }-\Gamma ^{\alpha }{}_{\gamma \beta }-\gamma ^{\alpha }{}_{\beta \gamma },$$}@} \(annotation: mnemonic: {@{plus, minus, minus}@}; {@{same indices, swap covariant indices, same indices}@}\) where {@{_γ_<sup>_α_</sup><sub>_βγ_</sub> are given by the components of the Lie bracket of the local basis}@}, which {@{vanish when it is a coordinate basis}@}. <!--SR:!2026-01-05,71,330!2025-12-19,56,310!2026-01-10,75,330!2025-12-30,65,310!2025-12-13,48,290!2026-05-25,170,310!2025-12-25,61,310-->
+{@{An affine connection}@} has {@{a torsion tensor _T_<sup>_α_</sup><sub>_βγ_</sub>}@}: {@{$$T^{\alpha }{}_{\beta \gamma }=\Gamma ^{\alpha }{}_{\beta \gamma }-\Gamma ^{\alpha }{}_{\gamma \beta }-\gamma ^{\alpha }{}_{\beta \gamma },$$}@} \(annotation: mnemonic: {@{plus, minus, minus}@}; {@{same indices, swap covariant indices, same indices}@}\) where {@{_γ_<sup>_α_</sup><sub>_βγ_</sub> are given by the components of the Lie bracket of the local basis}@}, which {@{vanish when it is a coordinate basis}@}. <!--SR:!2026-01-05,71,330!2025-12-19,56,310!2026-01-10,75,330!2025-12-30,65,310!2026-05-03,141,290!2026-05-25,170,310!2025-12-25,61,310-->
 
 For {@{a Levi-Civita connection}@} {@{this tensor is defined to be zero}@}, which for {@{a coordinate basis}@} gives the equations {@{$$\Gamma ^{\alpha }{}_{\beta \gamma }=\Gamma ^{\alpha }{}_{\gamma \beta }.$$}@} <!--SR:!2025-12-27,63,330!2026-01-10,75,330!2026-01-06,71,330!2026-01-11,76,330-->
 

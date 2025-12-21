@@ -1297,7 +1297,7 @@ Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}
 
 Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!2026-06-12,190,310!2026-01-14,36,455-->
 
-Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2026-09-30,294,330!2026-08-31,269,330!2026-09-24,289,330!2026-02-03,100,379!2025-12-13,56,350!2026-01-25,92,370-->
+Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2026-09-30,294,330!2026-08-31,269,330!2026-09-24,289,330!2026-02-03,100,379!2026-09-14,275,370!2026-01-25,92,370-->
 
 ## syntax
 

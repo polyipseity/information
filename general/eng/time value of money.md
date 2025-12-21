@@ -13,7 +13,7 @@ tags:
 
 > {@{![The present value of \$1,000, 100 years into the future. Curves represent constant discount rates of 2%, 3%, 5%, and 7%.](../../archives/Wikimedia%20Commons/Economics%20of%20climate%20change%20chapter3%20discounting%20curves.png)}@}
 >
-> The present value of {@{\$1,000, 100 years into the future}@}. Curves represent {@{constant discount rates of 2%, 3%, 5%, and 7%}@}. <!--SR:!2026-01-04,246,330!2026-01-05,247,330!2025-12-13,227,330-->
+> The present value of {@{\$1,000, 100 years into the future}@}. Curves represent {@{constant discount rates of 2%, 3%, 5%, and 7%}@}. <!--SR:!2026-01-04,246,330!2026-01-05,247,330!2028-10-08,1030,350-->
 
 {@{The __time value of money__}@} refers to {@{the fact that there is normally a greater benefit to receiving a sum of [money](money.md) now rather than an identical sum later}@}. It may be seen as {@{an implication of the later-developed concept of [time preference](time%20preference.md)}@}. <!--SR:!2026-02-16,276,330!2025-12-15,229,330!2026-03-05,293,330-->
 
@@ -50,7 +50,7 @@ For {@{any of the equations below}@}, the formula may {@{also be rearranged to d
 
 These equations are {@{frequently combined for particular uses}@}. For example, {@{[bonds](bond%20(finance).md) can be readily priced}@} using these equations. A typical coupon bond is {@{composed of two types of payments}@}: {@{a stream of coupon payments similar to an annuity, and a lump-sum [return of capital](return%20of%20capital.md) at the end of the bond's [maturity](maturity%20(finance).md)—that is, a future payment}@}. {@{The two formulas can be combined}@} to {@{determine the present value of the bond}@}. <!--SR:!2026-03-05,293,330!2026-01-29,266,330!2026-03-04,292,330!2026-01-30,267,330!2026-03-03,291,330!2026-02-21,281,330-->
 
-An important note is that {@{the interest rate _i_ is the interest rate for the relevant period}@}. For {@{an annuity that makes one payment per year}@}, _i_ will be {@{the annual interest rate}@}. For {@{an income or payment stream with a different payment schedule}@}, the interest rate must be {@{converted into the relevant periodic interest rate}@}. For example, {@{a monthly rate for a mortgage with monthly payments}@} requires that {@{the interest rate be divided by 12}@} \(see the example below\). See [compound interest](compound%20interest.md) for {@{details on converting between different periodic interest rates}@}. <!--SR:!2026-01-21,259,330!2026-02-10,270,330!2026-01-09,251,330!2025-12-14,228,330!2026-02-27,287,330!2026-02-16,276,330!2025-12-13,227,330!2025-12-13,227,330-->
+An important note is that {@{the interest rate _i_ is the interest rate for the relevant period}@}. For {@{an annuity that makes one payment per year}@}, _i_ will be {@{the annual interest rate}@}. For {@{an income or payment stream with a different payment schedule}@}, the interest rate must be {@{converted into the relevant periodic interest rate}@}. For example, {@{a monthly rate for a mortgage with monthly payments}@} requires that {@{the interest rate be divided by 12}@} \(see the example below\). See [compound interest](compound%20interest.md) for {@{details on converting between different periodic interest rates}@}. <!--SR:!2026-01-21,259,330!2026-02-10,270,330!2026-01-09,251,330!2025-12-14,228,330!2026-02-27,287,330!2026-02-16,276,330!2028-10-13,1035,350!2028-10-07,1029,350-->
 
 {@{The rate of return in the calculations}@} can be {@{either the variable solved for, or a predefined variable}@} that {@{measures a discount rate, interest, inflation, rate of return, cost of equity, cost of debt or any number of other analogous concepts}@}. {@{The choice of the appropriate rate}@} is {@{critical to the exercise}@}, and {@{the use of an incorrect discount rate will make the results meaningless}@}. <!--SR:!2026-02-16,276,330!2026-02-08,268,330!2026-02-19,279,330!2026-01-24,262,330!2026-02-07,267,330!2026-03-06,294,330-->
 
@@ -171,7 +171,7 @@ Notes:
 
 ### perpetuity derivation
 
-Without {@{showing the formal derivation here}@}, {@{the perpetuity formula is derived from the annuity formula}@}. Specifically, {@{the term: $$\left({1-{1 \over {(1+i)^{n} } } }\right)$$}@} can be {@{seen to approach the value of 1 as _n_ grows larger}@}. At {@{infinity, it is equal to 1, leaving ${C \over i}$ as the only term remaining}@}. <!--SR:!2025-12-13,227,330!2026-02-16,276,330!2026-01-28,265,330!2028-01-26,816,330!2026-02-12,272,330-->
+Without {@{showing the formal derivation here}@}, {@{the perpetuity formula is derived from the annuity formula}@}. Specifically, {@{the term: $$\left({1-{1 \over {(1+i)^{n} } } }\right)$$}@} can be {@{seen to approach the value of 1 as _n_ grows larger}@}. At {@{infinity, it is equal to 1, leaving ${C \over i}$ as the only term remaining}@}. <!--SR:!2028-10-14,1036,350!2026-02-16,276,330!2026-01-28,265,330!2028-01-26,816,330!2026-02-12,272,330-->
 
 ## continuous compounding
 

@@ -56,7 +56,7 @@ In 20th century [mainstream economics](mainstream%20economics.md), the term "[ut
 
 #### quantified marginal utility
 
-Under {@{the [special case](special%20case.md) in which usefulness can be quantified}@}, {@{the change in utility of moving from state $S_{1}$ to state $S_{2}$}@} is {@{$$\Delta U=U(S_{2})-U(S_{1})$$}@}. <!--SR:!2025-12-13,346,347!2029-09-07,1406,350!2030-02-17,1553,367-->
+Under {@{the [special case](special%20case.md) in which usefulness can be quantified}@}, {@{the change in utility of moving from state $S_{1}$ to state $S_{2}$}@} is {@{$$\Delta U=U(S_{2})-U(S_{1})$$}@}. <!--SR:!2030-06-23,1653,367!2029-09-07,1406,350!2030-02-17,1553,367-->
 
 Moreover, if {@{$S_{1}$ and $S_{2}$ are distinguishable by values of just one variable $g$}@}, which is {@{itself quantified}@}, then it becomes possible to {@{speak of the ratio of the marginal utility of the change in $g$, to the size of that change}@}: {@{$$\left.{\frac {\Delta U}{\Delta g} }\right|_{c.p.}$$ (where "[c.p.](ceteris%20paribus.md)" indicates that the _only_ [independent variable](dependent%20and%20independent%20variables.md) to change is $g$)}@}. <!--SR:!2028-09-04,1048,347!2029-07-02,1369,367!2029-09-20,1431,367!2028-06-03,1038,347-->
 
@@ -132,7 +132,7 @@ By {@{confining themselves to limiting cases in which sellers or buyers are both
 
 The law of diminishing marginal utility is said to {@{explain the paradox of water and diamonds}@}, most commonly associated with {@{[Adam Smith](Adam%20Smith.md),<sup>[\[13\]](#^ref-13)</sup> although it was recognized by earlier thinkers}@}.<sup>[\[14\]](#^ref-14)</sup> Human beings {@{cannot even survive without water}@}, whereas {@{diamonds, in Smith's day, were ornamentation or engraving bits}@}. Yet {@{water had a very small price, and diamonds a very large price}@}. Marginalists explained that {@{it is the _marginal_ usefulness of any given quantity that matters, rather than the usefulness of a _class_ or of a _totality_}@}. For most people, water was {@{sufficiently abundant that the loss or gain of a gallon would withdraw or add only some very minor use if any}@}, whereas diamonds {@{were in much more restricted supply, so that the loss or gain was much greater}@}. <!--SR:!2030-03-25,1583,367!2028-02-04,947,347!2030-03-28,1585,367!2030-02-19,1554,367!2026-07-13,497,327!2027-01-08,635,330!2026-01-08,366,347!2026-01-05,26,390-->
 
-That is {@{not to say that the price of any good or service is simply a function of the marginal utility that it has for any one individual nor for some ostensibly typical individual}@}. Rather, individuals are {@{willing to trade based upon the respective marginal utilities of the goods that they have or desire (with these marginal utilities being distinct for each potential trader)}@}, and {@{prices thus develop constrained by these marginal utilities}@}. <!--SR:!2026-06-03,447,310!2027-07-12,788,347!2025-12-13,346,347-->
+That is {@{not to say that the price of any good or service is simply a function of the marginal utility that it has for any one individual nor for some ostensibly typical individual}@}. Rather, individuals are {@{willing to trade based upon the respective marginal utilities of the goods that they have or desire (with these marginal utilities being distinct for each potential trader)}@}, and {@{prices thus develop constrained by these marginal utilities}@}. <!--SR:!2026-06-03,447,310!2027-07-12,788,347!2030-06-24,1654,367-->
 
 ## history
 

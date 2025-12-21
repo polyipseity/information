@@ -74,7 +74,7 @@ In {@{machine learning}@}, one-hot encoding is {@{a frequently used method to de
 > | ----------- | ------------- | -------------- | -------- |
 > | 1           | 0             | 0              | 95       |
 > | 0           | 1             | 0              | 231      |
-> | 0           | 0             | 1              | 50       | <!--SR:!2025-12-25,251,330!2026-01-25,275,330!2025-12-25,251,330!2026-02-17,293,330!2026-01-21,272,330!2026-01-21,272,330!2028-10-29,1058,350!2025-12-16,243,330!2025-12-13,240,330-->
+> | 0           | 0             | 1              | 50       | <!--SR:!2025-12-25,251,330!2026-01-25,275,330!2025-12-25,251,330!2026-02-17,293,330!2026-01-21,272,330!2026-01-21,272,330!2028-10-29,1058,350!2025-12-16,243,330!2028-12-09,1092,350-->
 
 {@{Categorical data}@} can be {@{either [nominal](nominal%20number.md) or [ordinal](ordinal%20number.md)}@}.<sup>[\[7\]](#^ref-7)</sup> Ordinal data has {@{a ranked order for its values}@} and can {@{therefore be converted to numerical data through ordinal encoding}@}.<sup>[\[8\]](#^ref-8)</sup> An example of ordinal data would be {@{the ratings on a test ranging from A to F}@}, which could be {@{ranked using numbers from 6 to 1}@}. Since {@{there is no quantitative relationship between nominal variables' individual values}@}, using ordinal encoding can {@{potentially create a fictional ordinal relationship in the data}@}.<sup>[\[9\]](#^ref-9)</sup> Therefore, {@{one-hot encoding is often applied to nominal variables}@}, in order to {@{improve the performance of the algorithm}@}. <!--SR:!2026-02-15,291,330!2028-11-28,1084,350!2026-02-04,282,330!2025-12-28,253,330!2026-01-09,262,330!2025-12-29,254,330!2028-03-14,853,330!2026-01-24,274,330!2026-01-31,278,330!2027-05-22,639,330-->
 

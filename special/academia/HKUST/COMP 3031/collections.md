@@ -314,7 +314,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >       (new ::(x, more)) :: pack(rest)
 > ```
 >
-> In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2026-01-26,74,330!2026-01-24,72,330!2025-12-13,35,290!2026-01-27,75,330!2026-01-25,73,330-->
+> In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2026-01-26,74,330!2026-01-24,72,330!2026-05-06,144,310!2026-01-27,75,330!2026-01-25,73,330-->
 
 In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained: <!--SR:!2026-01-18,67,310!2026-01-14,63,310!2026-01-22,70,330!2026-01-27,75,330!2026-01-28,76,330-->
 

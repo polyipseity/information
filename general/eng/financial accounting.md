@@ -138,7 +138,7 @@ The stable monetary unit assumption is {@{not applied during hyperinflation}@}. 
 
 Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2027-10-07,856,330!2026-11-30,514,270!2029-06-27,1297,310-->
 
-Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2026-02-06,349,270!2028-01-18,892,357!2025-12-13,304,357-->
+Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2026-02-06,349,270!2028-01-18,892,357!2030-01-08,1487,377-->
 
 Objectives include:
 

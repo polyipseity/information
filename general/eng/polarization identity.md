@@ -62,7 +62,7 @@ Using {@{⁠$R(ix,y)=-R(x,iy)$}@}⁠, the above formula for the imaginary part b
 
 ## reconstructing the inner product
 
-In {@{a normed space $(H,\|\cdot \|)$}@}, if {@{the [parallelogram law](parallelogram%20law.md) $$\|x+y\|^{2}~+~\|x-y\|^{2}~=~2\|x\|^{2}+2\|y\|^{2}$$ holds}@}, then {@{there exists a unique [inner product](inner%20product.md) $\langle \cdot ,\ \cdot \rangle$ on $H$ such that $\|x\|^{2}=\langle x,\ x\rangle$ for all $x\in H$}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-01-26,263,330!2025-12-13,227,330!2026-02-27,283,330-->
+In {@{a normed space $(H,\|\cdot \|)$}@}, if {@{the [parallelogram law](parallelogram%20law.md) $$\|x+y\|^{2}~+~\|x-y\|^{2}~=~2\|x\|^{2}+2\|y\|^{2}$$ holds}@}, then {@{there exists a unique [inner product](inner%20product.md) $\langle \cdot ,\ \cdot \rangle$ on $H$ such that $\|x\|^{2}=\langle x,\ x\rangle$ for all $x\in H$}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-01-26,263,330!2028-01-03,751,330!2026-02-27,283,330-->
 
 > __Proof__
 >

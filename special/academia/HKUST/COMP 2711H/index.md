@@ -50,7 +50,7 @@ The content is in teaching order.
   - [truth table](../../../../general/truth%20table.md) ::@:: A table representing a boolean function. There are $n + 1$ columns, where the first $n$ columns are the inputs of the boolean function, while the last column is the output of the boolean function. There are $2^n$ rows, representing all possible combinations of the $n$ inputs mapping to the corresponding $2^n$ outputs. <!--SR:!2029-11-21,1490,363!2027-01-28,669,343-->
     - [§ truth table](../../../../general/truth%20table.md#truth%20table)
   - boolean algebra operations ::@:: An operation that takes and connects one or more propositions. These operations can be chained. <!--SR:!2028-10-11,1137,343!2030-05-31,1643,363-->
-    - negation (not) ::@:: $\lnot p$: $$\begin{aligned} (0) & \mapsto 1 \\ (1) & \mapsto 0 \end{aligned}$$ <!--SR:!2025-12-14,358,343!2025-12-13,357,343-->
+    - negation (not) ::@:: $\lnot p$: $$\begin{aligned} (0) & \mapsto 1 \\ (1) & \mapsto 0 \end{aligned}$$ <!--SR:!2025-12-14,358,343!2030-07-25,1685,363-->
     - disjunction (or) ::@:: $p \lor q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 1 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2029-03-14,1281,350!2029-05-22,1346,363-->
     - conjunction (and) ::@:: $p \land q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 0 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2028-03-15,992,350!2029-08-24,1420,363-->
     - implication (if-then) ::@:: $p \rightarrow q$: $$\begin{aligned} (0, 0) & \mapsto 1 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2029-05-27,1350,363!2029-12-14,1510,363-->

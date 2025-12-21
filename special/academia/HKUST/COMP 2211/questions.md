@@ -323,7 +323,7 @@ tags:
 > 3. It is a package
 > 4. It is a library
 >
-> - solution: {@{2}@} <!--SR:!2025-12-13,276,330-->
+> - solution: {@{2}@} <!--SR:!2029-05-24,1258,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1072,7 +1072,7 @@ tags:
 > 4. (199, 99)
 >
 > - solution: {@{3}@}
-> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2028-11-12,1105,350!2025-12-13,276,330-->
+> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2028-11-12,1105,350!2028-06-08,908,330-->
 
 <!-- markdownlint MD028 -->
 

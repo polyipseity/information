@@ -47,7 +47,7 @@ The product is denoted {@{$\prod _{i\in I}X_{i}$}@}. If {@{$I=\{1,\ldots ,n\}$}@
 
 ### equational definition
 
-Alternatively, the product may be {@{defined through equations}@}. So, for example, for the binary product: <!--SR:!2025-12-13,256,330-->
+Alternatively, the product may be {@{defined through equations}@}. So, for example, for the binary product: <!--SR:!2029-02-24,1169,350-->
 
 - Existence of $f$ ::@:: is guaranteed by existence of the operation $\langle \cdot ,\cdot \rangle$. <!--SR:!2025-12-23,265,330!2029-02-07,1154,350-->
 - Commutativity of the diagrams above ::@:: is guaranteed by the equality: for all $f_{1},f_{2}$ and all $i\in \{1,2\}$, $\pi _{i}\circ \left\langle f_{1},f_{2}\right\rangle =f_{i}$ <!--SR:!2027-11-23,783,330!2028-01-19,828,330-->
@@ -79,7 +79,7 @@ Other examples:
 
 ## discussion
 
-An example {@{in which the product does not exist}@}: In {@{the category of fields}@}, {@{the product $\mathbb {Q} \times F_{p}$ does not exist}@}, since {@{there is no field with homomorphisms to both $\mathbb {Q}$ and $F_{p}$}@}. <!--SR:!2029-01-15,1139,350!2025-12-13,256,330!2028-03-08,827,330!2025-12-22,264,330-->
+An example {@{in which the product does not exist}@}: In {@{the category of fields}@}, {@{the product $\mathbb {Q} \times F_{p}$ does not exist}@}, since {@{there is no field with homomorphisms to both $\mathbb {Q}$ and $F_{p}$}@}. <!--SR:!2029-01-15,1139,350!2029-02-23,1168,350!2028-03-08,827,330!2025-12-22,264,330-->
 
 Another example: {@{An [empty product](empty%20product.md) \(that is, $I$ is the [empty set](empty%20set.md)\)}@} is {@{the same as a [terminal object](terminal%20object.md) (annotation: an empty product degenerates into requiring an unique morphism from every object)}@}, and {@{some categories, such as the category of [infinite groups](infinite%20group.md)}@}, {@{do not have a terminal object}@}: given {@{any infinite group $G$}@} there are {@{infinitely many morphisms $\mathbb {Z} \to G$, so $G$ cannot be terminal}@}. <!--SR:!2029-01-20,1143,350!2025-12-31,272,330!2029-02-14,1163,350!2027-12-19,804,330!2026-01-17,285,330!2026-12-01,508,310-->
 

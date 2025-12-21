@@ -15,7 +15,7 @@ tags:
 
 The relative motion of diurnal motion depends {@{on the [latitude](latitude.md) but not the [longitude](longitude.md)}@}. The latter only affects {@{the time we see the [stars](star.md)}@}. Stars that {@{do not set below the [horizon](horizon.md)}@} are called {@{[circumpolar stars](circumpolar%20star.md)}@}. <!--SR:!2028-10-27,1233,357!2028-12-18,1276,357!2028-11-07,1244,357!2026-02-07,395,297-->
 
-From {@{the [Northern celestial sphere](Northern%20celestial%20sphere.md)}@}, the [stars](star.md) moves {@{[counterclockwise](clockwise.md) around [Polaris](Polaris.md), the North [pole star](pole%20star.md)}@}. At the [North Pole](North%20Pole.md), all the [stars](star.md) can also be described as {@{moving right as Polaris is around the [zenith](zenith.md)}@}. <!--SR:!2025-12-13,382,297!2026-02-26,406,297!2026-01-01,397,297-->
+From {@{the [Northern celestial sphere](Northern%20celestial%20sphere.md)}@}, the [stars](star.md) moves {@{[counterclockwise](clockwise.md) around [Polaris](Polaris.md), the North [pole star](pole%20star.md)}@}. At the [North Pole](North%20Pole.md), all the [stars](star.md) can also be described as {@{moving right as Polaris is around the [zenith](zenith.md)}@}. <!--SR:!2030-04-05,1574,317!2026-02-26,406,297!2026-01-01,397,297-->
 
 From {@{the [Southern celestial sphere](Southern%20celestial%20sphere.md)}@}, the [stars](star.md) moves {@{[clockwise](clockwise.md) around [Sigma Octantis](Sigma%20Octantis.md), sometimes called the South [pole star](pole%20star.md)}@}. At the [South Pole](South%20Pole.md), all the [stars](star.md) can also be described as {@{moving left as Sigma Octantis is around the [zenith](zenith.md)}@}. <!--SR:!2026-10-10,611,317!2027-04-29,729,290!2026-05-05,451,297-->
 

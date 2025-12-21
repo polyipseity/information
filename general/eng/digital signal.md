@@ -74,7 +74,7 @@ In {@{communications}@}, {@{sources of interference}@} are {@{usually present, a
 >
 > {@{A logic signal waveform}@}: {@{\(1\) low level, \(2\) high level, \(3\) rising edge, and \(4\) falling edge}@}. <!--SR:!2025-12-22,236,330!2026-01-13,252,330!2026-01-12,251,330-->
 
-- Main article: ::@:: [Logic level](logic%20level.md) <!--SR:!2026-02-13,275,330!2025-12-13,227,330-->
+- Main article: ::@:: [Logic level](logic%20level.md) <!--SR:!2026-02-13,275,330!2028-10-05,1027,350-->
 
 {@{A [waveform](waveform.md) that switches representing the two states of a [Boolean](Boolean%20logic.md) value \(0 and 1, or low and high, or false and true\)}@} is referred to as {@{a _digital signal_ or _logic signal_ or _binary signal_ when it is interpreted in terms of only two possible digits}@}. <!--SR:!2026-02-08,270,330!2028-02-16,831,330-->
 

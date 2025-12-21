@@ -128,8 +128,8 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile. <!--SR:!2028-01-25,778,433!2028-01-24,778,433-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: \(v\_r\) To do or offer to do something voluntarily. <!--SR:!2030-03-21,1819,392!2029-01-07,1369,372-->
 - [weigh](https://en.wiktionary.org/wiki/weigh) ::@:: \(w\_h\) To determine the weight of an object. <!--SR:!2025-12-19,139,416!2025-12-23,143,416-->
-- [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens. <!--SR:!2027-12-31,749,436!2025-12-13,133,416-->
-- [weight](https://en.wiktionary.org/wiki/weight) ::@:: \(w\_t\) The downwards force an object experiences due to gravity. <!--SR:!2027-12-28,746,436!2025-12-13,133,416-->
+- [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens. <!--SR:!2027-12-31,749,436!2028-01-04,752,436-->
+- [weight](https://en.wiktionary.org/wiki/weight) ::@:: \(w\_t\) The downwards force an object experiences due to gravity. <!--SR:!2027-12-28,746,436!2028-01-05,753,436-->
 - [weighting](https://en.wiktionary.org/wiki/weighting) ::@:: \(w\_g\) The weight or significance given to something, sometimes by means of a statistical multiplier. <!--SR:!2027-12-27,745,436!2028-01-01,750,436-->
 
 ## references

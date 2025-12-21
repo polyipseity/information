@@ -48,7 +48,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="e939"--><!-- The following content is generated at 2024-01-04T20:17:52.923705+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[adiabatic process](adiabatic%20process.md): $Q = 0$ <!--SR:!2025-12-13,544,330!2028-05-29,1265,350-->
+- _(begin)_→::@::←[adiabatic process](adiabatic%20process.md): $Q = 0$ <!--SR:!2032-09-21,2474,350!2028-05-29,1265,350-->
 - [adiabatic process](adiabatic%20process.md): $Q = 0$→::@::←[isobaric process](isobaric%20process.md): $\Delta p = 0$ <!--SR:!2026-05-08,600,310!2028-02-20,1033,310-->
 - [isobaric process](isobaric%20process.md): $\Delta p = 0$→::@::←[isochoric process](isochoric%20process.md): $\Delta V = 0$ <!--SR:!2026-11-20,818,330!2027-06-12,990,350-->
 - [isochoric process](isochoric%20process.md): $\Delta V = 0$→::@::←[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$ <!--SR:!2027-07-26,946,330!2029-02-06,1243,290-->

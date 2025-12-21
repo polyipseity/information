@@ -183,7 +183,7 @@ The content is in teaching order.
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2026-02-03,483,381-->
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2029-08-19,1494,381!2026-01-18,473,381-->
-  - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2029-02-05,1345,381-->
+  - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2032-04-15,2315,401!2029-02-05,1345,381-->
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2030-09-26,1856,401!2026-04-01,514,361-->
 - Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2029-06-14,1441,381-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
