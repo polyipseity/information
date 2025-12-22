@@ -1161,26 +1161,23 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
     - [`final examination cheatsheet.pdf`](attachments/final%20examination%20cheatsheet.pdf)
   - referencing: closed book, closed notes
   - provided: Q-function table, Fourier transform table, key formulas
-  - questions: ???
-- grades: ?/100 → ?/100
+  - questions: multiple choice questions ×? (×7?), true/false questions ×? (×7?), long questions ×3 (with subquestions)
+- grades: (none)/100
   - statistics
-    - timestamps: 2025‑12‑??T??:??+08:00 → 2025‑12‑??T??:??+08:00
-    - count: ? → ?
-    - mean: ? → ?
-    - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
-    - graph: ![`final examination analysis.svg`](attachments/final%20examination%20analysis.svg) → ![`final examination analysis (1).svg`](attachments/final%20examination%20analysis%20(1).svg)
-    - data: [`final examination data.csv`](attachments/final%20examination%20data.csv) → [`final examination data (1).csv`](attachments/final%20examination%20data%20(1).csv)
-  - breakdown: ???
-- report: ???
-- check
-  - datetime: ???
-  - venue: ???
-  - report: ???
+    - timestamps: (none)
+    - count: (none)
+    - mean: (none)
+    - standard deviation: (none)
+    - low: (none)
+    - lower quartile: (none)
+    - median: (none)
+    - upper quartile: (none)
+    - high: (none)
+    - graph: (none)
+    - data: (none)
+  - breakdown: (none)
+- report: (none)
+- check: (none)
 
 ---
 
@@ -1198,5 +1195,5 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 
 ### total
 
-- grades: ?/100
-  - statistics: ?
+- grades: 45.7+/100
+  - statistics: (none)

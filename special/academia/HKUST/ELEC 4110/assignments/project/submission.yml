@@ -1,0 +1,21 @@
+assignment:
+  comments: {}
+  content: Please name the file you upload with the format "Student ID Student Name.zip".
+  grade:
+    entered: 82
+    graded anonymously: false
+    possible: 100
+  id: 409800
+  properties:
+    due: 2025-12-14 23:59:00+08:00
+    points: 100
+    submitting:
+    - a file upload
+  submissions:
+  - datetime: 2025-12-14 09:37:00+08:00
+    id: -1
+  title: Project
+course:
+  id: 65203
+  name: ELEC4110 (L1)
+type: submission/Canvas/canvas.ust.hk

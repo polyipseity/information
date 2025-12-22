@@ -3,14 +3,6 @@ from os import path
 import pandas as pd
 
 _MAPPING = {
-    "final examination data.csv": (
-        "final examination analysis.csv",
-        "final examination analysis.svg",
-    ),
-    "final examination data (1).csv": (
-        "final examination analysis (1).csv",
-        "final examination analysis (1).svg",
-    ),
     "midterm examination data.csv": (
         "midterm examination analysis.csv",
         "midterm examination analysis.svg",
