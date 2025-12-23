@@ -36,6 +36,8 @@ The content is in teaching order.
 
 - [UML](UML.md)
 - [assignments](assignments/index.md)
+- [`hkust-comp-3111h-labs.git.7z`](attachments/hkust-comp-3111h-labs.git.7z)
+  - source: <https://github.com/polyipseity/hkust-comp-3111h-labs.git>
 - [questions](questions.md)
 - [software design patterns](software%20design%20patterns.md)
 - [software project management](software%20project%20management.md)
