@@ -160,7 +160,7 @@ The content is in teaching order.
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2026-01-17,270,340!2028-04-01,907,360-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2026-04-19,352,360!2026-05-12,370,360-->
   - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2027-04-23,628,340!2028-05-06,935,360-->
-- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-12-16,250,340!2026-05-11,369,360-->
+- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2029-03-06,1176,360!2026-05-11,369,360-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2026-06-23,385,360!2026-05-15,372,360-->
   - [syncopation](../../../../general/syncopation.md)
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!2026-06-10,342,320-->

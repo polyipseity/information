@@ -131,7 +131,7 @@ The content is in teaching order.
 - Scala
   - Scala / Scala 3
     - [§ tail recursion](Scala%203.md#tail%20recursion): tail recursion
-- [higher-order function](../../../../general/higher-order%20function.md) \(HOL\) ::@:: It is a function that does at least one of the following: <p> - takes one or more functions as arguments \(i.e. a procedural parameter, which is a parameter of a procedure that is itself a procedure\), <br/> - returns a function as its result. <!--SR:!2026-01-25,92,367!2025-12-16,58,347-->
+- [higher-order function](../../../../general/higher-order%20function.md) \(HOL\) ::@:: It is a function that does at least one of the following: <p> - takes one or more functions as arguments \(i.e. a procedural parameter, which is a parameter of a procedure that is itself a procedure\), <br/> - returns a function as its result. <!--SR:!2026-01-25,92,367!2026-09-25,283,367-->
   - higher-order function / functional language ::@:: Functional language treat functions as first-class citizens. They are treated as with other primitive types. It provides a flexible way to _compose_ programs. <!--SR:!2026-05-09,168,347!2026-01-23,90,367-->
 - Scala
   - Scala / 3

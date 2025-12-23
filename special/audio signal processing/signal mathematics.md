@@ -44,7 +44,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 > - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
 > - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 > - {@{$\phi$}@} is {@{initial phase offset}@}.
-> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330!2025-12-17,26,384!2026-04-17,123,404!2026-04-20,126,404!2025-12-16,25,384!2025-12-16,25,384!2025-12-16,25,384!2025-12-16,25,384-->
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330!2025-12-17,26,384!2026-04-17,123,404!2026-04-20,126,404!2026-04-28,133,404!2026-04-23,128,404!2026-04-24,129,404!2026-04-25,130,404-->
 
 For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}. <!--SR:!2029-05-20,1370,350-->
 
@@ -74,7 +74,7 @@ We can {@{convert}@} in between rectangular form and polar form. From rectangula
 
 [Euler's formula](../../general/Euler's%20formula.md) is: {@{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}@}. The above implies alternative formulas for {@{$\sin$ and $\cos$}@}: {@{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}@}. <!--SR:!2029-04-28,1355,350!2026-12-29,600,310!2027-07-30,841,330-->
 
-Using Euler's formula, we can express waves {@{using exponentiation instead}@}. For example, the discrete sine wave {@{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} can also be expressed as {@{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}@}. The latter expression has the advantage that {@{exponentiation is much easier to manipulate than trigonometric functions}@}. <!--SR:!2026-01-09,409,361!2028-04-14,1047,361!2026-10-18,552,321!2025-12-16,389,361-->
+Using Euler's formula, we can express waves {@{using exponentiation instead}@}. For example, the discrete sine wave {@{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} can also be expressed as {@{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}@}. The latter expression has the advantage that {@{exponentiation is much easier to manipulate than trigonometric functions}@}. <!--SR:!2026-01-09,409,361!2028-04-14,1047,361!2026-10-18,552,321!2031-03-27,1927,381-->
 
 ## dot product
 

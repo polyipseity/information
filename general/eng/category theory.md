@@ -46,7 +46,7 @@ tags:
 
 ### morphisms
 
-{@{Relations among morphisms \(such as _fg_ = _h_\)}@} are often {@{depicted using [commutative diagrams](commutative%20diagram.md)}@}, with {@{"points" \(corners\) representing objects and "arrows" representing morphisms}@}. <!--SR:!2025-12-16,264,330!2025-12-27,276,330!2029-03-15,1191,350-->
+{@{Relations among morphisms \(such as _fg_ = _h_\)}@} are often {@{depicted using [commutative diagrams](commutative%20diagram.md)}@}, with {@{"points" \(corners\) representing objects and "arrows" representing morphisms}@}. <!--SR:!2029-03-31,1201,350!2025-12-27,276,330!2029-03-15,1191,350-->
 
 [Morphisms](morphism.md) can have {@{any of the following properties}@}. A morphism {@{_f_ : _a_ → _b_}@} is: <!--SR:!2025-12-31,278,330!2029-03-25,1199,350-->
 
@@ -88,7 +88,7 @@ such that the following two properties hold:
 
 - Main article: [Natural transformation](natural%20transformation.md)
 
-{@{A _natural transformation_}@} is {@{a relation between two functors}@}. {@{Functors often describe "natural constructions"}@} and {@{natural transformations then describe "natural homomorphisms" between two such constructions}@}. Sometimes {@{two quite different constructions yield "the same" result}@}; this is expressed by {@{a natural isomorphism between the two functors}@}. <!--SR:!2029-01-17,1149,350!2025-12-16,266,330!2029-02-08,1165,350!2025-12-16,267,330!2027-03-04,549,310!2026-01-06,283,330-->
+{@{A _natural transformation_}@} is {@{a relation between two functors}@}. {@{Functors often describe "natural constructions"}@} and {@{natural transformations then describe "natural homomorphisms" between two such constructions}@}. Sometimes {@{two quite different constructions yield "the same" result}@}; this is expressed by {@{a natural isomorphism between the two functors}@}. <!--SR:!2029-01-17,1149,350!2029-04-11,1212,350!2029-02-08,1165,350!2029-04-13,1214,350!2027-03-04,549,310!2026-01-06,283,330-->
 
 If {@{_F_ and _G_ are \(covariant\) functors between the categories _C_ and _D_}@}, then {@{a natural transformation _η_ from _F_ to _G_}@} {@{associates to every object _X_ in _C_ a morphism _η_<sub>_X_</sub> : _F_\(_X_\) → _G_\(_X_\) in _D_}@} such that {@{for every morphism _f_ : _X_ → _Y_ in _C_, we have _η_<sub>_Y_</sub> ∘ _F_\(_f_\) = _G_\(_f_\) ∘ _η_<sub>_X_</sub>}@}; this means that {@{the following diagram is [commutative](commutative%20diagram.md)}@}: <p> {@{![natural transformation commutative diagram](../../archives/Wikimedia%20Commons/Natural%20transformation.svg)}@} The two functors _F_ and _G_ are called {@{_naturally isomorphic_}@} if {@{there exists a natural transformation from _F_ to _G_ such that _η_<sub>_X_</sub> is an isomorphism for every object _X_ in _C_}@}. <!--SR:!2028-05-07,875,330!2025-12-22,271,330!2025-12-24,272,330!2029-04-02,1205,350!2026-01-11,287,330!2026-10-12,474,310!2026-01-15,289,330!2026-01-18,274,290-->
 
@@ -108,7 +108,7 @@ Using {@{the language of category theory}@}, {@{many areas of mathematical study
 
 - Main articles: [Equivalence of categories](equivalence%20of%20categories.md) and [Isomorphism of categories](isomorphism%20of%20categories.md)
 
-It is a natural question to ask: under {@{which conditions can two categories be considered _essentially the same_}@}, in the sense that {@{theorems about one category can readily be transformed into theorems about the other category}@}? {@{The major tool one employs to describe such a situation}@} is called {@{_equivalence of categories_}@}, which is given by {@{appropriate functors between two categories}@}. Categorical equivalence has found {@{[numerous applications](equivalence%20of%20categories.md#examples) in mathematics}@}. <!--SR:!2026-01-14,288,330!2028-11-10,1092,350!2029-03-29,1202,350!2025-12-16,266,330!2026-01-04,281,330!2026-01-03,281,330-->
+It is a natural question to ask: under {@{which conditions can two categories be considered _essentially the same_}@}, in the sense that {@{theorems about one category can readily be transformed into theorems about the other category}@}? {@{The major tool one employs to describe such a situation}@} is called {@{_equivalence of categories_}@}, which is given by {@{appropriate functors between two categories}@}. Categorical equivalence has found {@{[numerous applications](equivalence%20of%20categories.md#examples) in mathematics}@}. <!--SR:!2026-01-14,288,330!2028-11-10,1092,350!2029-03-29,1202,350!2029-04-09,1210,350!2026-01-04,281,330!2026-01-03,281,330-->
 
 ### further concepts and results
 
@@ -174,7 +174,7 @@ More recent efforts to {@{introduce undergraduates to categories as a foundation
 
 1. a. {@{The name "hom"}@} derives from the fact that {@{the notion of morphism is a generalisation of the notion of [homomorphism](homomorphism.md)}@}. But even in {@{categories whose objects have no notion of homomorphism or where the morphisms are explicitly not \(or not precisely\) homomorphisms}@}, {@{the classes ${\text{hom} }(a,b)$ are still referred to as hom-classes}@}. <a id="^ref-a"></a>^ref-a
 2. b. Some authors {@{compose in the opposite order}@}, writing {@{_fg_ or _f_ ∘ _g_ for _g_ ∘ _f_}@}. {@{Computer scientists using category theory}@} very commonly write {@{_f_ ; _g_ for _g_ ∘ _f_}@} <a id="^ref-b"></a>^ref-b
-3. c. {@{A morphism that is both epic and monic}@} is {@{not necessarily an isomorphism}@}. An elementary counterexample: in the category consisting of {@{two objects _A_ and _B_, the identity morphisms, and a single morphism _f_ from _A_ to _B_}@}, _f_ is {@{both epic and monic but is not an isomorphism}@}. <a id="^ref-c"></a>^ref-c <!--SR:!2026-01-11,287,330!2026-01-10,286,330!2027-11-16,797,330!2028-12-14,1120,350!2029-03-29,1204,350!2025-12-27,276,330!2029-02-08,1166,350!2026-01-08,285,330!2029-02-09,1167,350!2025-12-26,275,330!2025-12-16,267,330!2025-12-30,277,330-->
+3. c. {@{A morphism that is both epic and monic}@} is {@{not necessarily an isomorphism}@}. An elementary counterexample: in the category consisting of {@{two objects _A_ and _B_, the identity morphisms, and a single morphism _f_ from _A_ to _B_}@}, _f_ is {@{both epic and monic but is not an isomorphism}@}. <a id="^ref-c"></a>^ref-c <!--SR:!2026-01-11,287,330!2026-01-10,286,330!2027-11-16,797,330!2028-12-14,1120,350!2029-03-29,1204,350!2025-12-27,276,330!2029-02-08,1166,350!2026-01-08,285,330!2029-02-09,1167,350!2025-12-26,275,330!2029-04-14,1215,350!2025-12-30,277,330-->
 
 ## references
 

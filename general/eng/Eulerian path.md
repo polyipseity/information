@@ -17,7 +17,7 @@ tags:
 
 > {@{![[multigraphs](multigraph.md) of [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [five room puzzles](five-room%20puzzle.md)](../../archives/Wikimedia%20Commons/Comparison%207%20bridges%20of%20Konigsberg%205%20room%20puzzle%20graphs.svg)}@}
 >
-> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2026-02-04,347,362!2029-03-21,1237,362!2026-03-19,380,362!2025-12-16,301,336!2027-12-10,863,350-->
+> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2026-02-04,347,362!2029-03-21,1237,362!2026-03-19,380,362!2029-10-05,1389,356!2027-12-10,863,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -35,7 +35,7 @@ Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the ex
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-20,1378,356!2026-04-01,391,362!2026-04-07,397,362!2026-02-27,364,362!2026-03-10,374,362-->
 
-For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2026-02-05,344,350!2026-03-04,368,362!2027-09-16,778,342!2026-03-06,370,362!2026-03-26,387,362!2029-02-02,1200,362!2026-04-04,394,362!2028-04-12,935,336!2025-12-16,302,336-->
+For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2026-02-05,344,350!2026-03-04,368,362!2027-09-16,778,342!2026-03-06,370,362!2026-03-26,387,362!2029-02-02,1200,362!2026-04-04,394,362!2028-04-12,935,336!2029-10-13,1397,356-->
 
 ## definition
 
@@ -125,13 +125,13 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-09-29,1385,356!2028-07-30,1042,350!2026-01-11,326,350!2026-03-11,373,362!2028-05-23,1002,362!2026-03-28,388,362!2026-03-21,383,362!2026-07-17,443,322!2029-10-01,1388,356!2029-05-13,1266,362-->
 
 - _G_ is ::@:: connected. <!--SR:!2026-03-12,374,362!2026-04-06,396,362-->
-- _G_ has ::@:: [countable sets](countable%20set.md) of vertices and edges. <!--SR:!2025-12-16,301,336!2026-02-25,362,362-->
+- _G_ has ::@:: [countable sets](countable%20set.md) of vertices and edges. <!--SR:!2029-10-12,1396,356!2026-02-25,362,362-->
 - _G_ has no ::@:: vertices of \(finite\) odd degree. <!--SR:!2026-03-31,391,362!2026-04-02,393,362-->
 - Removing ::@:: (the edges of) any finite subgraph _S_ from _G_ leaves at most two infinite connected components in the remaining graph, and if _S_ has even degree at each of its vertices then removing _S_ leaves exactly one infinite connected component. <!--SR:!2026-04-06,338,302!2027-07-27,742,342-->
 
 ## undirected Eulerian graphs
 
-Euler stated {@{a necessary condition for a finite graph to be Eulerian as all vertices must have even degree}@}. {@{Hierholzer}@} {@{proved this is a sufficient condition}@} in {@{a paper published in 1873}@}. This leads to {@{the following necessary and sufficient statement for what a finite graph must have to be Eulerian}@}: {@{An undirected connected finite graph}@} is {@{Eulerian if and only if every vertex of G has even degree}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-01-20,1190,362!2026-03-13,374,362!2026-03-23,384,362!2029-03-14,1233,362!2026-04-05,395,362!2025-12-16,301,336!2029-07-27,1323,362-->
+Euler stated {@{a necessary condition for a finite graph to be Eulerian as all vertices must have even degree}@}. {@{Hierholzer}@} {@{proved this is a sufficient condition}@} in {@{a paper published in 1873}@}. This leads to {@{the following necessary and sufficient statement for what a finite graph must have to be Eulerian}@}: {@{An undirected connected finite graph}@} is {@{Eulerian if and only if every vertex of G has even degree}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-01-20,1190,362!2026-03-13,374,362!2026-03-23,384,362!2029-03-14,1233,362!2026-04-05,395,362!2029-10-06,1390,356!2029-07-27,1323,362-->
 
 The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-05-03,394,322!2029-09-30,1387,356!2026-02-21,359,362-->
 

@@ -33,7 +33,7 @@ tags:
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2029-03-14,1210,350!2029-01-15,1167,350-->
 - casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-06-16,1282,350!2025-12-22,291,330-->
 - (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+) <!--SR:!2027-09-24,765,330!2029-01-11,1162,350-->
-  - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-12-16,286,330!2029-02-02,1179,350-->
+  - (root) / (+) ::@:: (+) means "has children". <!--SR:!2029-07-11,1303,350!2029-02-02,1179,350-->
   - (root) / assets ::@:: example: <br/> current assets (+) <br/> property and equipment (+) <br/> intangible assets <br/> total assets: sum above appropriately <!--SR:!2027-05-08,553,270!2027-03-19,630,330-->
     - (root) / assets / current assets ::@:: example: <br/> cash <br/> short-term investments <br/> accounts receivable <br/> supplies <br/> prepaid expanses <br/> total current assets: sum above appropriately <!--SR:!2027-03-28,527,270!2028-03-05,840,290-->
     - (root) / assets / property and equipment (+) ::@:: example: <br/> land <br/> buildings <br/> equipment <br/> total cost: sum above <br/> accumulated depreciation <br/> net property and equipment: sum above 2 <br/> operating lease right-of-use assets: note this is not summed above <!--SR:!2026-08-23,375,250!2027-07-02,595,270-->

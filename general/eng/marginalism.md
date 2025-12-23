@@ -100,7 +100,7 @@ When {@{indifference curves (which are essentially graphs of instantaneous rates
 
 - see: [marginal cost](marginal%20cost.md)
 
-At {@{the highest level of generality}@}, a marginal cost is {@{a marginal [opportunity cost](opportunity%20cost.md)}@}. In most contexts, marginal cost refers to {@{marginal _[pecuniary](money.md)_ cost, that is to say marginal cost measured by forgone money}@}. <!--SR:!2028-02-16,956,347!2028-12-09,1192,350!2025-12-16,349,347-->
+At {@{the highest level of generality}@}, a marginal cost is {@{a marginal [opportunity cost](opportunity%20cost.md)}@}. In most contexts, marginal cost refers to {@{marginal _[pecuniary](money.md)_ cost, that is to say marginal cost measured by forgone money}@}. <!--SR:!2028-02-16,956,347!2028-12-09,1192,350!2029-04-10,1211,347-->
 
 A thorough-going marginalism sees marginal cost as {@{increasing under the law of diminishing marginal utility}@}, because {@{applying resources to one application reduces their availability to other applications}@}. Neoclassical economics {@{tends to disregard this argument}@}, but {@{to see marginal costs as increasing in consequence of [diminishing returns](diminishing%20returns.md)}@}. <!--SR:!2028-05-27,1034,347!2027-09-16,813,330!2029-10-10,1434,350!2027-03-31,708,347-->
 

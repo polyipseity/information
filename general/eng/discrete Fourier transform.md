@@ -16,7 +16,7 @@ In [mathematics](mathematics.md), {@{the __discrete Fourier transform__ (__DFT__
 
 > [!tip] tips
 >
-> - interpretation of the DFT of a sequence ::@:: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency. <!--SR:!2025-12-16,383,366!2027-08-26,804,346-->
+> - interpretation of the DFT of a sequence ::@:: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency. <!--SR:!2031-03-28,1928,386!2027-08-26,804,346-->
 
 ## definition
 

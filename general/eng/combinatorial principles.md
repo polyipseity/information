@@ -23,7 +23,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 ## rule of product
 
-- see: ::@:: [rule of product](rule%20of%20product.md) <!--SR:!2025-12-16,25,386!2025-12-17,26,386-->
+- see: ::@:: [rule of product](rule%20of%20product.md) <!--SR:!2026-04-28,133,406!2025-12-17,26,386-->
 
 {@{The rule of product}@} is {@{another intuitive principle}@} stating that if there are {@{_a_ ways to do something and _b_ ways to do another thing}@}, then there are {@{_a_ · _b_ ways to do both things}@}. <!--SR:!2026-12-28,613,330!2028-02-26,927,330!2029-10-18,1427,350!2026-02-14,92,384-->
 
@@ -31,21 +31,21 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: ::@:: [inclusion–exclusion principle](inclusion–exclusion%20principle.md) <!--SR:!2026-04-20,126,406!2026-04-21,127,406-->
 
-{@{The inclusion–exclusion principle}@} relates {@{the size of the union of multiple sets, the size of each set, and the size of each possible intersection of the sets}@}. The smallest example is {@{when there are two sets}@}: {@{the number of elements in the union of _A_ and _B_}@} is equal to {@{the sum of the number of elements in _A_ and _B_, minus the number of elements in their intersection}@}. <!--SR:!2026-04-04,399,310!2026-11-30,564,310!2028-03-01,927,330!2027-03-03,453,399!2025-12-16,25,380-->
+{@{The inclusion–exclusion principle}@} relates {@{the size of the union of multiple sets, the size of each set, and the size of each possible intersection of the sets}@}. The smallest example is {@{when there are two sets}@}: {@{the number of elements in the union of _A_ and _B_}@} is equal to {@{the sum of the number of elements in _A_ and _B_, minus the number of elements in their intersection}@}. <!--SR:!2026-04-04,399,310!2026-11-30,564,310!2028-03-01,927,330!2027-03-03,453,399!2026-04-22,127,400-->
 
-Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub>n</sub>_ are finite sets}@}, then {@{$${\begin{aligned}\left|\bigcup _{i=1}^{n}A_{i}\right|&{}=\sum _{i=1}^{n}\left|A_{i}\right|-\sum _{i,j\,:\,1\leq i<j\leq n}\left|A_{i}\cap A_{j}\right|\\&{}\qquad +\sum _{i,j,k\,:\,1\leq i<j<k\leq n}\left|A_{i}\cap A_{j}\cap A_{k}\right|-\ \cdots \ +\left(-1\right)^{n-1}\left|A_{1}\cap \cdots \cap A_{n}\right|.\end{aligned} }$$}@} <!--SR:!2029-09-10,1395,350!2029-05-19,1305,350!2025-12-16,25,380-->
+Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub>n</sub>_ are finite sets}@}, then {@{$${\begin{aligned}\left|\bigcup _{i=1}^{n}A_{i}\right|&{}=\sum _{i=1}^{n}\left|A_{i}\right|-\sum _{i,j\,:\,1\leq i<j\leq n}\left|A_{i}\cap A_{j}\right|\\&{}\qquad +\sum _{i,j,k\,:\,1\leq i<j<k\leq n}\left|A_{i}\cap A_{j}\cap A_{k}\right|-\ \cdots \ +\left(-1\right)^{n-1}\left|A_{1}\cap \cdots \cap A_{n}\right|.\end{aligned} }$$}@} <!--SR:!2029-09-10,1395,350!2029-05-19,1305,350!2026-04-22,127,400-->
 
 ## rule of division
 
-- see: ::@:: [rule of division (combinatorics)](rule%20of%20division%20(combinatorics).md) <!--SR:!2025-12-16,25,386!2025-12-16,25,386-->
+- see: ::@:: [rule of division (combinatorics)](rule%20of%20division%20(combinatorics).md) <!--SR:!2026-04-26,131,406!2026-04-27,132,406-->
 
 {@{The rule of division}@} states that {@{there are _n/d_ ways to do a task}@} if it can be {@{done using a procedure that can be carried out in _n_ ways}@}, and for {@{every way _w_, exactly _d_ of the _n_ ways of the procedure correspond to way _w_}@}. <!--SR:!2029-05-26,1310,350!2029-09-26,1408,350!2029-05-27,1311,350!2026-04-18,124,406-->
 
 ## bijective proof
 
-- see: ::@:: [bijective proof](bijective%20proof.md) <!--SR:!2026-04-19,125,406!2025-12-16,25,386-->
+- see: ::@:: [bijective proof](bijective%20proof.md) <!--SR:!2026-04-19,125,406!2026-04-29,134,406-->
 
-{@{Bijective proofs}@} prove that {@{two sets have the same number of elements}@} by {@{finding a [bijective function](bijection.md) (one-to-one correspondence) from one set to the other}@}. <!--SR:!2029-07-08,1346,350!2028-02-23,925,330!2025-12-16,25,380-->
+{@{Bijective proofs}@} prove that {@{two sets have the same number of elements}@} by {@{finding a [bijective function](bijection.md) (one-to-one correspondence) from one set to the other}@}. <!--SR:!2029-07-08,1346,350!2028-02-23,925,330!2026-04-23,128,400-->
 
 ## double counting
 
@@ -63,17 +63,17 @@ Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub
 
 - see: ::@:: [method of distinguished element](method%20of%20distinguished%20element.md) <!--SR:!2025-12-17,26,386!2025-12-17,26,386-->
 
-{@{The method of distinguished element}@} {@{singles out a "distinguished element" of a set}@} to {@{prove some result}@}. <!--SR:!2029-09-15,1399,350!2025-12-17,26,386!2025-12-16,25,380-->
+{@{The method of distinguished element}@} {@{singles out a "distinguished element" of a set}@} to {@{prove some result}@}. <!--SR:!2029-09-15,1399,350!2025-12-17,26,386!2026-04-22,127,400-->
 
 ## generating function
 
-- see: ::@:: [generating function](generating%20function.md) <!--SR:!2025-12-16,25,386!2025-12-17,26,380-->
+- see: ::@:: [generating function](generating%20function.md) <!--SR:!2026-04-30,135,406!2025-12-17,26,380-->
 
 {@{Generating functions}@} can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2026-05-06,417,310!2028-01-12,903,330!2029-10-12,1422,350!2029-09-21,1404,350!2026-04-16,122,400-->
 
 ## recurrence relation
 
-- see: ::@:: [recurrence relation](recurrence%20relation.md) <!--SR:!2026-04-19,125,406!2025-12-16,25,380-->
+- see: ::@:: [recurrence relation](recurrence%20relation.md) <!--SR:!2026-04-19,125,406!2026-04-22,127,400-->
 
 {@{A recurrence relation}@} defines {@{each term of a sequence in terms of the preceding terms}@}. Recurrence relations may {@{lead to previously unknown properties of a sequence}@}, but generally {@{[closed-form expressions](closed-form%20expression.md) for the terms of a sequence are more desired}@}. <!--SR:!2029-09-16,1400,350!2029-06-20,1331,350!2029-05-21,1306,350!2025-12-17,26,386-->
 

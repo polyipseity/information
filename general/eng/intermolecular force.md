@@ -41,7 +41,7 @@ return await memorize_table(
 > |-|-|
 > | {@{[covalent bond](covalent%20bond.md)}@} | {@{130–1100 kJ/mol}@} |
 > | {@{[hydrogen bond](hydrogen%20bond.md)}@} | {@{4–50 kJ/mol}@} |
-> | {@{[London dispersion force](London%20dispersion%20force.md)}@} | {@{0.01–63 kJ/mol}@} | <!--SR:!2025-12-16,693,310!2026-04-06,333,170!2027-03-06,1031,330!2026-08-20,624,210!2026-11-13,949,330!2028-05-12,1237,290-->
+> | {@{[London dispersion force](London%20dispersion%20force.md)}@} | {@{0.01–63 kJ/mol}@} | <!--SR:!2034-01-30,2967,330!2026-04-06,333,170!2027-03-06,1031,330!2026-08-20,624,210!2026-11-13,949,330!2028-05-12,1237,290-->
 
 <!--/pytextgen-->
 

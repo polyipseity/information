@@ -28,7 +28,7 @@ In {@{the neoclassical theory of [competitive markets](perfect%20competition.md)
 
 ## relationship of marginal product \(MPP\) with the total product \(TPP\)
 
-The relationship can be {@{explained in three phases}@}- \(1\) {@{Initially, as the quantity of variable input is increased}@}, {@{TPP rises at an increasing rate}@}. In this phase, {@{MPP also rises}@}. \(2\) As {@{more and more quantities of the variable inputs are employed}@}, {@{TPP increases at a diminishing rate}@}. In this phase, {@{MPP starts to fall}@}. \(3\) When {@{the TPP reaches its maximum}@}, {@{MPP is zero}@}. Beyond this point, {@{TPP starts to fall and MPP becomes negative}@}. <!--SR:!2026-01-26,276,330!2026-01-13,265,330!2025-12-19,246,330!2026-01-19,270,330!2026-02-15,291,330!2025-12-25,251,330!2025-12-30,255,330!2026-01-11,263,330!2025-12-16,243,330!2026-02-10,286,330-->
+The relationship can be {@{explained in three phases}@}- \(1\) {@{Initially, as the quantity of variable input is increased}@}, {@{TPP rises at an increasing rate}@}. In this phase, {@{MPP also rises}@}. \(2\) As {@{more and more quantities of the variable inputs are employed}@}, {@{TPP increases at a diminishing rate}@}. In this phase, {@{MPP starts to fall}@}. \(3\) When {@{the TPP reaches its maximum}@}, {@{MPP is zero}@}. Beyond this point, {@{TPP starts to fall and MPP becomes negative}@}. <!--SR:!2026-01-26,276,330!2026-01-13,265,330!2025-12-19,246,330!2026-01-19,270,330!2026-02-15,291,330!2025-12-25,251,330!2025-12-30,255,330!2026-01-11,263,330!2028-12-29,1109,350!2026-02-10,286,330-->
 
 ## see also
 

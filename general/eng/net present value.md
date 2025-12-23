@@ -223,7 +223,7 @@ In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-clas
 - [Internal rate of return](internal%20rate%20of%20return.md) \(IRR\): ::@:: which calculates the rate of return of a project while disregarding the absolute amount of money to be gained. <!--SR:!2026-05-15,358,365!2026-06-28,391,365-->
 - [Modified internal rate of return](modified%20internal%20rate%20of%20return.md) \(MIRR\): ::@:: similar to IRR, but it makes explicit assumptions about the reinvestment of the cash flows. Sometimes it is called Growth Rate of Return. <!--SR:!2026-01-09,251,330!2026-07-04,396,365-->
 - [Payback period](payback%20period.md): ::@:: which measures the time required for the cash inflows to equal the original outlay. It measures risk, not return. <!--SR:!2026-01-01,244,330!2026-05-09,350,357-->
-- [Real option](real%20option.md): ::@:: which attempts to value managerial flexibility that is assumed away in NPV. <!--SR:!2026-07-14,406,365!2025-12-16,230,330-->
+- [Real option](real%20option.md): ::@:: which attempts to value managerial flexibility that is assumed away in NPV. <!--SR:!2026-07-14,406,365!2028-10-29,1048,350-->
 - [Equivalent annual cost](equivalent%20annual%20cost.md) \(EAC\): ::@:: a capital budgeting technique that is useful in comparing two or more projects with different lifespans. <!--SR:!2026-07-05,398,365!2026-05-26,364,359-->
 
 ### adjusted present value

@@ -62,7 +62,7 @@ This example motivates {@{another way of characterizing the pullback}@}: as {@{t
 
 #### graphs of functions
 
-{@{A specific example of a pullback}@} is given by the {@{graph of a function}@}. Suppose that {@{$f\colon X\to Y$ is a function}@}. {@{The _graph_ of _f_}@} is {@{the set $$\Gamma _{f}=\{(x,f(x))\colon x\in X\}\subseteq X\times Y.$$}@} The graph can be reformulated as {@{the pullback of _f_ and the identity function on _Y_}@}. By definition, this pullback is {@{$$X\times _{f,Y,1_{Y} }Y=\{(x,y)\colon f(x)=1_{Y}(y)\}=\{(x,y)\colon f(x)=y\}\subseteq X\times Y,$$}@} and this {@{equals $\Gamma _{f}$}@}. <!--SR:!2026-02-11,291,330!2025-12-27,254,330!2025-12-16,246,330!2026-01-20,274,330!2026-01-17,272,330!2027-03-27,537,310!2026-01-10,265,330!2027-10-12,751,330-->
+{@{A specific example of a pullback}@} is given by the {@{graph of a function}@}. Suppose that {@{$f\colon X\to Y$ is a function}@}. {@{The _graph_ of _f_}@} is {@{the set $$\Gamma _{f}=\{(x,f(x))\colon x\in X\}\subseteq X\times Y.$$}@} The graph can be reformulated as {@{the pullback of _f_ and the identity function on _Y_}@}. By definition, this pullback is {@{$$X\times _{f,Y,1_{Y} }Y=\{(x,y)\colon f(x)=1_{Y}(y)\}=\{(x,y)\colon f(x)=y\}\subseteq X\times Y,$$}@} and this {@{equals $\Gamma _{f}$}@}. <!--SR:!2026-02-11,291,330!2025-12-27,254,330!2029-01-09,1120,350!2026-01-20,274,330!2026-01-17,272,330!2027-03-27,537,310!2026-01-10,265,330!2027-10-12,751,330-->
 
 ### fiber bundles
 

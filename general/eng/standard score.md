@@ -24,7 +24,7 @@ tags:
 >
 > Comparison of {@{the various grading methods in a [normal distribution](normal%20distribution.md)}@}, including: {@{[standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)}@} <!--SR:!2026-01-22,275,330!2026-01-28,280,330!2026-01-21,275,330-->
 
-In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\) is above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean have positive standard scores}@}, while {@{those below the mean have negative standard scores}@}. <!--SR:!2025-12-22,251,330!2026-01-18,272,330!2025-12-16,246,330!2026-01-29,281,330!2026-01-08,264,330-->
+In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\) is above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean have positive standard scores}@}, while {@{those below the mean have negative standard scores}@}. <!--SR:!2025-12-22,251,330!2026-01-18,272,330!2028-03-07,812,330!2026-01-29,281,330!2026-01-08,264,330-->
 
 It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\). <!--SR:!2026-02-12,292,330!2025-12-17,247,330!2026-01-12,267,330!2025-12-23,252,330!2025-12-23,250,330-->
 
@@ -50,7 +50,7 @@ In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} 
 - ${\bar {x} }$ ::@:: is the [mean](mean.md) of the sample, <!--SR:!2026-01-10,266,330!2029-01-03,1115,350-->
 - _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2028-12-07,1095,350!2025-12-17,247,330-->
 
-Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2025-12-21,251,330!2025-12-25,252,330!2028-12-28,1111,350!2025-12-16,246,330-->
+Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2025-12-21,251,330!2025-12-25,252,330!2028-12-28,1111,350!2029-01-10,1121,350-->
 
 ## applications
 

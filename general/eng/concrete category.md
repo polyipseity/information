@@ -17,7 +17,7 @@ A concrete category, when {@{defined without reference to the notion of a catego
 
 {@{A __concrete category__}@} is {@{a pair \(_C_,_U_\)}@} such that <!--SR:!2029-02-28,1174,350!2029-02-17,1167,350-->
 
-- _C_ ::@:: is a category, and <!--SR:!2025-12-16,261,330!2028-03-09,828,330-->
+- _C_ ::@:: is a category, and <!--SR:!2029-03-18,1188,350!2028-03-09,828,330-->
 - _U_ : _C_ → __Set__ \(the category of sets and functions\) ::@:: is a [faithful functor](faithful%20functor.md). <!--SR:!2027-10-07,697,324!2027-06-24,680,330-->
 
 {@{The functor _U_}@} is to be {@{thought of as a [forgetful functor](forgetful%20functor.md)}@}, which {@{assigns to every object of _C_ its "underlying set", and to every morphism in _C_ its "underlying function"}@}. <!--SR:!2028-02-13,847,330!2029-02-15,1166,350!2025-12-17,262,330-->

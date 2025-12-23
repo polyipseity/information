@@ -33,7 +33,7 @@ There are {@{two conventions, distinguished by whether $m$ is permitted to be ze
 
 Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, although often {@{the term is restricted to positive divisors}@}. For example, there are {@{six divisors of 4; they are 1, 2, 4, −1, −2, and −4}@}, but {@{only the positive ones \(1, 2, and 4\) would usually be mentioned}@}. <!--SR:!2028-12-22,1128,350!2027-11-05,790,330!2025-12-29,278,330!2029-04-17,1219,350-->
 
-{@{1 and −1}@} {@{divide \(are divisors of\) every integer}@}. {@{Every integer \(and its negation\)}@} is {@{a divisor of itself}@}. {@{Integers divisible by 2 are called [even](parity%20(mathematics).md)}@}, and {@{integers not divisible by 2 are called [odd](parity%20(mathematics).md)}@}. <!--SR:!2025-12-28,277,330!2029-03-08,1187,350!2025-12-24,275,330!2029-03-22,1199,350!2025-12-16,268,330!2026-01-07,285,330-->
+{@{1 and −1}@} {@{divide \(are divisors of\) every integer}@}. {@{Every integer \(and its negation\)}@} is {@{a divisor of itself}@}. {@{Integers divisible by 2 are called [even](parity%20(mathematics).md)}@}, and {@{integers not divisible by 2 are called [odd](parity%20(mathematics).md)}@}. <!--SR:!2025-12-28,277,330!2029-03-08,1187,350!2025-12-24,275,330!2029-03-22,1199,350!2029-04-19,1220,350!2026-01-07,285,330-->
 
 {@{1, −1, $n$ and $-n$}@} are known as {@{the __trivial divisors__ of $n$}@}. {@{A divisor of $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}. <!--SR:!2028-11-24,1106,350!2026-01-11,289,330!2026-01-01,281,330!2026-01-15,292,330!2026-12-09,515,310!2026-11-17,513,310!2026-01-04,283,330!2028-12-12,1121,350-->
 
@@ -63,7 +63,7 @@ There are some elementary rules:
 
 {@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2026-01-08,286,330!2026-04-18,339,290!2025-12-24,275,330!2028-11-17,1100,350!2029-01-28,1158,350!2027-10-14,765,330-->
 
-{@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2025-12-16,268,330!2025-12-17,269,330!2026-01-10,288,330-->
+{@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2029-04-17,1218,350!2025-12-17,269,330!2026-01-10,288,330-->
 
 {@{Any positive divisor of $n$}@} is {@{a product of [prime divisors](prime%20number.md#unique%20factorization) of $n$ raised to some power}@}. This is a consequence of {@{the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. <!--SR:!2026-01-05,284,330!2028-04-25,869,330!2029-01-23,1154,350-->
 

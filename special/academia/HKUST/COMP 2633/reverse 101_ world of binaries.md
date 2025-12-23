@@ -97,7 +97,7 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 
 - `db <data>...` ::@:: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2029-09-30,1438,365!2029-02-13,1273,365-->
 - `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2030-06-30,1693,383!2029-07-11,1391,363-->
-- `dq <data>` ::@:: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2025-12-16,370,365!2028-07-03,1086,357-->
+- `dq <data>` ::@:: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2031-01-11,1852,385!2028-07-03,1086,357-->
 - `dw <data>` ::@:: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2027-11-29,917,357!2028-05-07,1046,357-->
 - `resb <size>` ::@:: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2026-01-06,385,365!2030-09-03,1747,385-->
 - `resd <size>` ::@:: Reserve `<size>` number of dwords (4 bytes, double word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2026-01-10,389,365!2028-11-20,1206,365-->
