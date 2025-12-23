@@ -28,7 +28,7 @@ To lookup the value for a key, simply write {@{`dictionary[key]`}@}. To check wh
 
 ## modification
 
-To add a value for a key not yet in the dictionary or update the value for a key already in the dictionary, simply write {@{`dictionary[key] = value`}@}. <!--SR:!2025-12-17,54,310-->
+To add a value for a key not yet in the dictionary or update the value for a key already in the dictionary, simply write {@{`dictionary[key] = value`}@}. <!--SR:!2026-08-03,229,330-->
 
 ## iteration
 

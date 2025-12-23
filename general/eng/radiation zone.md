@@ -9,7 +9,7 @@ tags:
 
 # radiation zone
 
-{@{A __radiation zone__, or __radiative region__}@} is {@{a layer of a [star](star.md)'s interior \(though not necessarily the core\)}@} where [energy](energy.md) is primarily {@{transported toward the exterior by means of [radiative diffusion](radiation.md) and [thermal conduction](thermal%20conduction.md)}@}, rather than {@{by [convection](convection%20(heat%20transfer).md)}@}. {@{Energy travels}@} through the radiation zone in the form of {@{[electromagnetic radiation](electromagnetic%20radiation.md) as [photons](photon.md)}@}. <!--SR:!2025-12-17,365,290!2029-06-03,1401,350!2026-01-21,70,345!2026-01-22,71,345!2026-01-20,69,345!2026-01-21,70,345-->
+{@{A __radiation zone__, or __radiative region__}@} is {@{a layer of a [star](star.md)'s interior \(though not necessarily the core\)}@} where [energy](energy.md) is primarily {@{transported toward the exterior by means of [radiative diffusion](radiation.md) and [thermal conduction](thermal%20conduction.md)}@}, rather than {@{by [convection](convection%20(heat%20transfer).md)}@}. {@{Energy travels}@} through the radiation zone in the form of {@{[electromagnetic radiation](electromagnetic%20radiation.md) as [photons](photon.md)}@}. <!--SR:!2030-01-03,1478,310!2029-06-03,1401,350!2026-01-21,70,345!2026-01-22,71,345!2026-01-20,69,345!2026-01-21,70,345-->
 
 ## main sequence stars
 

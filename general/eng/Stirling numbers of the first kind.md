@@ -141,7 +141,7 @@ Particular expansions of the previous identity lead to the following identities 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD059 -->
 
-Software tools for {@{working with finite sums involving [Stirling numbers](Stirling%20number.md) and [Eulerian numbers](eulerian%20number.md)}@} are {@{provided by the [RISC Stirling.m package](http://www.risc.jku.at/research/combinat/software/ergosum/RISC/Stirling.html) utilities in _Mathematica_}@}. Other software packages for {@{_guessing_ formulas for sequences (and polynomial sequence sums) involving Stirling numbers and other special triangles}@} is {@{available for both [Mathematica](Wolfram%20Mathematica.md) and [Sage](SageMath.md) [here](https://github.com/maxieds/GuessPolynomialSequences) and [here](https://github.com/maxieds/sage-guess), respectively}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-01-20,353,349!2028-10-27,1134,349!2027-03-19,656,331!2025-12-17,327,351-->
+Software tools for {@{working with finite sums involving [Stirling numbers](Stirling%20number.md) and [Eulerian numbers](eulerian%20number.md)}@} are {@{provided by the [RISC Stirling.m package](http://www.risc.jku.at/research/combinat/software/ergosum/RISC/Stirling.html) utilities in _Mathematica_}@}. Other software packages for {@{_guessing_ formulas for sequences (and polynomial sequence sums) involving Stirling numbers and other special triangles}@} is {@{available for both [Mathematica](Wolfram%20Mathematica.md) and [Sage](SageMath.md) [here](https://github.com/maxieds/GuessPolynomialSequences) and [here](https://github.com/maxieds/sage-guess), respectively}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-01-20,353,349!2028-10-27,1134,349!2027-03-19,656,331!2030-04-13,1578,371-->
 
 <!-- markdownlint-restore -->
 
@@ -185,7 +185,7 @@ It can be proved by {@{using [mathematical induction](mathematical%20induction.m
 
 ### other formulas
 
-Stirling numbers of the first kind appear in {@{the formula for [Gregory coefficients](Gregory%20coefficients.md)}@} and in {@{a finite sum identity involving [Bell numbers](Bell%20number.md)}@}<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-04-06,976,351!2025-12-17,327,351-->
+Stirling numbers of the first kind appear in {@{the formula for [Gregory coefficients](Gregory%20coefficients.md)}@} and in {@{a finite sum identity involving [Bell numbers](Bell%20number.md)}@}<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-04-06,976,351!2030-04-14,1579,371-->
 
 - the formula for [Gregory coefficients](Gregory%20coefficients.md) ::@:: $$n!G_{n}=\sum _{l=0}^{n}{\frac {s(n,l)}{l+1} }$$ <!--SR:!2026-02-16,200,231!2026-03-03,328,291-->
 - a finite sum identity involving [Bell numbers](Bell%20number.md) ::@:: $$\sum_{j = 0}^n \binom n j k^{n - j} B_{j} = \sum_{i = 0}^k \left[k \atop i\right] (-1)^{k - i} B_{n+i} = \sum_{i = 0}^k s(k, i) B_{n + i}$$ <!--SR:!2026-03-03,90,151!2026-04-03,324,271-->

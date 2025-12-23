@@ -45,7 +45,7 @@ The content is in teaching order.
   - ACCT 3010 / resources
   - ACCT 3010 / required textbook ::@:: Kieso, Weygandt, and Warfield, "Intermediate Accounting: IFRS Edition, 5th Edition" <!--SR:!2026-10-02,297,339!2026-09-10,278,339-->
   - ACCT 3010 / objectives ::@:: environment, financial reporting frameworks, standard-setting process <!--SR:!2026-09-09,277,339!2026-09-27,293,339-->
-  - ACCT 3010 / approach ::@:: mix both user perspective and preparer perspective <!--SR:!2026-05-09,175,319!2025-12-17,73,319-->
+  - ACCT 3010 / approach ::@:: mix both user perspective and preparer perspective <!--SR:!2026-05-09,175,319!2026-10-30,317,339-->
   - ACCT 3010 / class participation
   - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc. <!--SR:!2026-08-26,271,330!2026-08-24,271,330-->
     - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development <!--SR:!2026-10-03,298,339!2026-09-27,293,339-->

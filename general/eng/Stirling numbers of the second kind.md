@@ -109,7 +109,7 @@ For {@{a fixed integer _n_}@}, {@{the [ordinary generating function](generating%
 
 For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} have {@{rational ordinary generating function $$\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}x^{n-k}=\prod _{r=1}^{k}{\frac {1}{1-rx} }={\frac {1}{x^{k+1}(1/x)_{k+1} } }$$}@} and have {@{an [exponential generating function](generating%20function.md#Exponential%20generating%20function%20(EGF)) given by $$\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}{\frac {x^{n} }{n!} }={\frac {(e^{x}-1)^{k} }{k!} }.$$}@} <!--SR:!2028-01-31,910,330!2026-05-30,393,290!2026-08-08,350,230!2027-11-25,709,270-->
 
-{@{A mixed bivariate generating function for the Stirling numbers of the second kind}@} is {@{$$\sum _{k=0}^{\infty }\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}{\frac {x^{n} }{n!} }y^{k} = \sum_{k = 0}^\infty \frac {\left(y\left(e^x - 1 \right)\right)^k} {k!} =e^{y(e^{x}-1)}.$$}@} <!--SR:!2025-12-17,263,270!2026-03-30,312,250-->
+{@{A mixed bivariate generating function for the Stirling numbers of the second kind}@} is {@{$$\sum _{k=0}^{\infty }\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}{\frac {x^{n} }{n!} }y^{k} = \sum_{k = 0}^\infty \frac {\left(y\left(e^x - 1 \right)\right)^k} {k!} =e^{y(e^{x}-1)}.$$}@} <!--SR:!2027-11-28,711,270!2026-03-30,312,250-->
 
 ### lower and upper bounds
 

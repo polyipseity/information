@@ -119,7 +119,7 @@ This can be used to {@{either verify the consistency of the measurements of _R_<
 
 > {@{![Amplitude coefficients: air to glass](../../archives/Wikimedia%20Commons/Fresnel%20amplitudes%20air-to-glass.svg)}@}
 >
-> {@{Amplitude coefficients: air to glass}@} <!--SR:!2026-02-01,181,270!2025-12-17,148,309-->
+> {@{Amplitude coefficients: air to glass}@} <!--SR:!2026-02-01,181,270!2027-09-04,626,329-->
 
 <!-- markdownlint MD028 -->
 

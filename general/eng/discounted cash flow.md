@@ -76,7 +76,7 @@ For {@{continuous cash flows}@}, {@{the summation in the above formula is replac
 
 ## discount rate
 
-{@{The act of discounting future cash flows}@} asks "{@{how much money would have to be invested currently, at a given rate of return}@}, to {@{yield the forecast cash flow, at its future date}@}?" In other words, discounting returns {@{the [present value](present%20value.md) of future cash flows}@}, where the rate used is {@{the cost of capital that _appropriately_ reflects the risk, and timing, of the cash flows}@}. <!--SR:!2026-04-27,343,349!2026-01-25,275,330!2026-01-04,258,330!2026-02-02,279,330!2025-12-17,244,330-->
+{@{The act of discounting future cash flows}@} asks "{@{how much money would have to be invested currently, at a given rate of return}@}, to {@{yield the forecast cash flow, at its future date}@}?" In other words, discounting returns {@{the [present value](present%20value.md) of future cash flows}@}, where the rate used is {@{the cost of capital that _appropriately_ reflects the risk, and timing, of the cash flows}@}. <!--SR:!2026-04-27,343,349!2026-01-25,275,330!2026-01-04,258,330!2026-02-02,279,330!2029-01-04,1114,350-->
 
 This "__required return__" thus incorporates: (annotation: they are {@{time value of money, risk premium}@}) <!--SR:!2026-01-09,262,330-->
 

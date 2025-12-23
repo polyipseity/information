@@ -26,7 +26,7 @@ tags:
 
 In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\) is above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean have positive standard scores}@}, while {@{those below the mean have negative standard scores}@}. <!--SR:!2025-12-22,251,330!2026-01-18,272,330!2028-03-07,812,330!2026-01-29,281,330!2026-01-08,264,330-->
 
-It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\). <!--SR:!2026-02-12,292,330!2025-12-17,247,330!2026-01-12,267,330!2025-12-23,252,330!2025-12-23,250,330-->
+It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\). <!--SR:!2026-02-12,292,330!2029-01-16,1126,350!2026-01-12,267,330!2025-12-23,252,330!2025-12-23,250,330-->
 
 {@{Standard scores}@} are most commonly called {@{__<!-- markdown separator -->_z_-scores__}@}; the two terms may {@{be used interchangeably, as they are in this article}@}. Other equivalent terms in use include {@{__z-value__, __z-statistic__, __normal score__, __standardized variable__}@} and {@{__pull__ in [high energy physics](high%20energy%20physics.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-22,251,330!2025-12-20,249,330!2026-01-08,263,330!2025-12-23,252,330!2025-12-31,258,330-->
 
@@ -48,7 +48,7 @@ When {@{the population mean and the population standard deviation are unknown}@}
 In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where: <!--SR:!2028-12-24,1107,350-->
 
 - ${\bar {x} }$ ::@:: is the [mean](mean.md) of the sample, <!--SR:!2026-01-10,266,330!2029-01-03,1115,350-->
-- _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2028-12-07,1095,350!2025-12-17,247,330-->
+- _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2028-12-07,1095,350!2029-01-20,1130,350-->
 
 Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2025-12-21,251,330!2025-12-25,252,330!2028-12-28,1111,350!2029-01-10,1121,350-->
 

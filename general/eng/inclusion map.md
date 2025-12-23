@@ -23,7 +23,7 @@ tags:
 
 In {@{[mathematics](mathematics.md)}@}, if {@{$A$ is a [subset](subset.md) of $B$}@}, then {@{the __inclusion map__}@} is {@{the [function](function%20(mathematics).md) [$\iota$](ι.md) that sends each element $x$ of $A$ to $x$, treated as an element of $B$}@}: {@{$$\iota :A\rightarrow B,\qquad \iota (x)=x.$$}@} An inclusion map may also be referred to as {@{an __inclusion function__, an __insertion__,<sup>[\[1\]](#^ref-1)</sup> or a __canonical injection__}@}. <!--SR:!2025-12-21,264,330!2025-12-26,269,330!2025-12-19,262,330!2025-12-28,271,330!2026-01-24,292,330!2029-03-06,1180,350-->
 
-{@{A "hooked arrow"}@} \([U+](Unicode.md){@{21AA ↪ RIGHTWARDS ARROW WITH HOOK}@}\)<sup>[\[2\]](#^ref-2)</sup> is sometimes {@{used in place of the function arrow above to denote an inclusion map}@}; thus: {@{$$\iota :A\hookrightarrow B.$$}@} \(However, some authors {@{use this hooked arrow for any [embedding](embedding.md)}@}.\) <!--SR:!2025-12-29,272,330!2027-07-05,653,290!2027-11-08,785,330!2028-01-26,835,330!2025-12-17,262,330-->
+{@{A "hooked arrow"}@} \([U+](Unicode.md){@{21AA ↪ RIGHTWARDS ARROW WITH HOOK}@}\)<sup>[\[2\]](#^ref-2)</sup> is sometimes {@{used in place of the function arrow above to denote an inclusion map}@}; thus: {@{$$\iota :A\hookrightarrow B.$$}@} \(However, some authors {@{use this hooked arrow for any [embedding](embedding.md)}@}.\) <!--SR:!2025-12-29,272,330!2027-07-05,653,290!2027-11-08,785,330!2028-01-26,835,330!2029-03-16,1185,350-->
 
 {@{This and other analogous [injective](injective.md) functions<sup>[\[3\]](#^ref-3)</sup> from [substructures](substructure%20(mathematics).md)}@} are sometimes called {@{__natural injections__}@}. <!--SR:!2026-11-12,488,310!2026-01-24,292,330-->
 

@@ -19,7 +19,7 @@ tags:
 
 > {@{![Stock index chart of 2020 with stock market crash](../../archives/Wikimedia%20Commons/Stock-indices-2020crash+recovery.svg)}@}
 >
-> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2027-10-21,748,330!2025-12-17,248,330!2025-12-25,255,330-->
+> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2027-10-21,748,330!2029-01-19,1129,350!2025-12-25,255,330-->
 
 {@{__Profit__}@}, in {@{[accounting](accounting.md)}@}, is {@{an [income](income.md) distributed to the [owner](ownership.md) in a [profitable](profit%20(economics).md) [market production](market%20production.md) process \([business](business.md)\)}@}. Profit is a measure of {@{[profitability](profitability.md) which is the owner's major interest in the income-formation process of market production}@}. There are {@{several profit measures in common use}@}. <!--SR:!2026-01-31,284,330!2026-02-12,294,330!2025-12-18,249,330!2026-04-05,293,290!2026-01-31,284,330-->
 
@@ -33,7 +33,7 @@ tags:
 
 [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-12-27,256,330!2026-02-05,288,330-->
 
-[Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-12-18,250,330!2025-12-17,249,330-->
+[Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-12-18,250,330!2029-01-27,1137,350-->
 
 (annotation: full form) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2026-12-24,510,310!2027-02-25,552,310-->
 

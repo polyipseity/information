@@ -170,7 +170,7 @@ In analysis of {@{[three phase](three%20phase.md) AC power systems}@}, usually {
 
 > {@{![Phasor diagrams for modulated signals](../../archives/Wikimedia%20Commons/Modulation%20phasors.svg)}@}
 >
-> A: {@{phasor representation of amplitude modulation}@}, B: {@{alternate representation of amplitude modulation}@}, C: {@{phasor representation of frequency modulation}@}, D: {@{alternate representation of frequency modulation}@} <!--SR:!2026-04-03,171,310!2026-06-09,238,330!2025-12-17,95,290!2026-06-22,249,330!2026-08-15,291,330-->
+> A: {@{phasor representation of amplitude modulation}@}, B: {@{alternate representation of amplitude modulation}@}, C: {@{phasor representation of frequency modulation}@}, D: {@{alternate representation of frequency modulation}@} <!--SR:!2026-04-03,171,310!2026-06-09,238,330!2027-01-06,385,310!2026-06-22,249,330!2026-08-15,291,330-->
 
 {@{The rotating frame picture using phasor}@} can be {@{a powerful tool to understand analog modulations}@} such as {@{[amplitude modulation](amplitude%20modulation.md) \(and its variants<sup>[\[17\]](#^ref-17)</sup>\) and [frequency modulation](frequency%20modulation.md)}@}. {@{$$x(t)=\operatorname {Re} \left(Ae^{i\theta }\cdot e^{i2\pi f_{0}t}\right),$$}@} where {@{the term in brackets}@} is viewed as {@{a rotating vector in the complex plane}@}. <!--SR:!2026-06-18,246,330!2026-05-28,227,330!2026-06-23,250,330!2026-06-24,251,330!2026-06-23,250,330!2026-06-23,250,330-->
 

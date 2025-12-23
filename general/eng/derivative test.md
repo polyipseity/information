@@ -65,7 +65,7 @@ tags:
 >     - {@{\(right \(`+`\)\) $f'(x) \ge 0$ \($f'(x) > 0$\) for all $x\in(c,c+\epsilon)$}@}, then {@{$f$ has a [\(strict\) local minimum](maximum%20and%20minimum.md) at $c$ from the right}@}.
 > 3. If {@{needed}@}, combine {@{the above conclusions from both sides}@}.
 >
->     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2027-08-09,831,259!2026-08-26,644,279!2026-05-20,627,319!2026-04-16,424,375!2029-09-29,1425,375!2026-01-28,91,366!2026-01-30,93,366!2026-01-24,88,366!2026-01-24,88,366!2026-01-28,91,366!2026-01-21,85,366!2026-01-21,85,366!2026-01-28,91,366!2026-01-22,86,366!2026-01-22,86,366!2026-01-25,89,366!2025-12-17,56,346!2026-01-23,87,366!2026-01-22,86,366!2026-01-22,86,366!2026-01-28,91,366!2026-01-24,88,366!2026-01-30,93,366!2026-01-29,92,366!2026-01-23,87,366-->
+>     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2027-08-09,831,259!2026-08-26,644,279!2026-05-20,627,319!2026-04-16,424,375!2029-09-29,1425,375!2026-01-28,91,366!2026-01-30,93,366!2026-01-24,88,366!2026-01-24,88,366!2026-01-28,91,366!2026-01-21,85,366!2026-01-21,85,366!2026-01-28,91,366!2026-01-22,86,366!2026-01-22,86,366!2026-01-25,89,366!2026-09-15,272,366!2026-01-23,87,366!2026-01-22,86,366!2026-01-22,86,366!2026-01-28,91,366!2026-01-24,88,366!2026-01-30,93,366!2026-01-29,92,366!2026-01-23,87,366-->
 
 {@{The _one-sided first derivative test_}@} is {@{a variant of the first derivative test}@} that covers {@{a different set of functions}@}. {@{Neither of the two tests}@} are {@{stronger than the other}@}. <!--SR:!2028-01-25,1100,339!2026-01-29,92,366!2026-01-30,93,366!2026-01-19,84,366!2026-01-19,83,366-->
 
@@ -80,7 +80,7 @@ tags:
 >     - Otherwise, {@{the test is inconclusive}@}.
 > 3. If {@{needed}@}, combine {@{the above conclusions from both sides}@}.
 >
->     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2029-07-19,1359,259!2026-08-22,641,279!2026-01-03,493,329!2026-04-22,429,375!2025-12-17,306,355!2026-01-21,85,366!2026-01-29,92,366!2026-01-29,92,366!2026-01-30,93,366!2026-01-28,91,366!2026-01-24,88,366!2026-01-30,93,366!2026-01-20,84,366!2026-01-28,91,366!2026-01-18,83,366!2026-01-28,91,366!2026-01-29,92,366!2026-01-21,85,366!2026-01-29,92,366!2026-01-19,83,366!2026-01-29,92,366!2026-01-22,86,366!2026-01-20,84,366-->
+>     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2029-07-19,1359,259!2026-08-22,641,279!2026-01-03,493,329!2026-04-22,429,375!2030-01-15,1490,375!2026-01-21,85,366!2026-01-29,92,366!2026-01-29,92,366!2026-01-30,93,366!2026-01-28,91,366!2026-01-24,88,366!2026-01-30,93,366!2026-01-20,84,366!2026-01-28,91,366!2026-01-18,83,366!2026-01-28,91,366!2026-01-29,92,366!2026-01-21,85,366!2026-01-29,92,366!2026-01-19,83,366!2026-01-29,92,366!2026-01-22,86,366!2026-01-20,84,366-->
 
 <!-- markdownlint MD028 -->
 

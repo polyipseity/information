@@ -49,7 +49,7 @@ For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{th
 
 <!-- markdownlint-restore -->
 
-This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%20Mathematica.md)}@}.<sup>[\[13\]](#^ref-13)</sup> {@{The remaining two vectors}@} are {@{sometimes called _left_ and _right inversion vector_}@}, but to {@{avoid confusion with the inversion vector}@} this article calls them {@{_left inversion count_ \($l$\) and _right inversion count_ \($r$\)}@}. Interpreted as {@{a [factorial number](factorial%20number%20system.md)}@} {@{the left inversion count gives the permutations reverse colexicographic}@},<sup>[\[14\]](#^ref-14)</sup> and {@{the right inversion count gives the lexicographic index}@}. <!--SR:!2025-12-18,298,332!2029-05-07,1266,352!2025-12-17,297,332!2025-12-19,299,332!2025-12-17,297,332!2025-12-20,300,332!2026-03-12,234,212!2028-03-20,909,332-->
+This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%20Mathematica.md)}@}.<sup>[\[13\]](#^ref-13)</sup> {@{The remaining two vectors}@} are {@{sometimes called _left_ and _right inversion vector_}@}, but to {@{avoid confusion with the inversion vector}@} this article calls them {@{_left inversion count_ \($l$\) and _right inversion count_ \($r$\)}@}. Interpreted as {@{a [factorial number](factorial%20number%20system.md)}@} {@{the left inversion count gives the permutations reverse colexicographic}@},<sup>[\[14\]](#^ref-14)</sup> and {@{the right inversion count gives the lexicographic index}@}. <!--SR:!2025-12-18,298,332!2029-05-07,1266,352!2029-09-07,1360,352!2025-12-19,299,332!2029-09-05,1358,352!2025-12-20,300,332!2026-03-12,234,212!2028-03-20,909,332-->
 
 > {@{![Rothe diagram of \(2, 5, 4, 6, 3, 1\)](../../archives/Wikimedia%20Commons/Inversion%20example;%20Rothe%201.svg)}@}
 >
@@ -82,7 +82,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2027-10-19,807,332!2028-02-22,889,332!2029-01-21,1180,352!2029-05-15,1272,352!2029-05-06,1265,352!2026-10-18,506,312!2027-07-19,733,332!2027-05-01,678,332!2026-09-15,489,312!2028-03-10,902,332-->
 
-{@{The default order of the table}@} is {@{reverse colex order by $\pi$}@}, which is the same as {@{colex order by $l$}@}. {@{Lex order by $\pi$}@} is the same as {@{lex order by $r$}@}. <!--SR:!2025-12-17,297,332!2027-01-28,473,252!2029-08-28,1352,352!2026-03-15,126,388!2026-03-16,127,388-->
+{@{The default order of the table}@} is {@{reverse colex order by $\pi$}@}, which is the same as {@{colex order by $l$}@}. {@{Lex order by $\pi$}@} is the same as {@{lex order by $r$}@}. <!--SR:!2029-09-06,1359,352!2027-01-28,473,252!2029-08-28,1352,352!2026-03-15,126,388!2026-03-16,127,388-->
 
 > {@{__3-element permutations for comparison__}@}
 >

@@ -247,7 +247,7 @@ The content is in teaching order.
   - margin / short selling ::@:: It refers to the selling of securities that the trader does not own, borrowing them from a broker, and using the cash as collateral. This has the effect of reversing any profit or loss made on the securities. The initial cash deposited by the trader, together with the amount obtained from the sale, serve as collateral for the loan. <!--SR:!2026-01-22,89,370!2026-01-23,90,370-->
     - margin / short selling / net value ::@:: The net value—the difference between the cash amount and the value of loan security—is initially equal to the amount of one's own cash used. <!--SR:!2026-01-15,84,370!2026-01-22,90,370-->
     - margin / short selling / margin ::@:: $$\text{margin} = \frac {\text{account equity} } {\text{loan security market value} } \times 100\% \,,$$ where account equity is the market value of the assets \(i.e. cash or securities you have put in as collateral, and cash you have obtained by selling the loan security\) in your account subtracted by the market value of the loan security. <!--SR:!2025-12-20,58,347!2026-04-01,126,327-->
-    - margin / short selling / interpretation ::@:: Indeed, when the loan security market value rises, the margin decreases, and vice versa. This is because account equity decreases by the rise and loan security market value increases by the rise. <!--SR:!2026-01-26,93,370!2025-12-17,59,350-->
+    - margin / short selling / interpretation ::@:: Indeed, when the loan security market value rises, the margin decreases, and vice versa. This is because account equity decreases by the rise and loan security market value increases by the rise. <!--SR:!2026-01-26,93,370!2026-07-17,212,350-->
 
 ## week 2 lecture
 

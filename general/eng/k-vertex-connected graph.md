@@ -15,7 +15,7 @@ tags:
 >
 > {@{A graph with connectivity 4.}@} <!--SR:!2026-01-02,280,330!2026-01-18,292,330-->
 
-In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2026-01-05,282,330!2026-01-19,293,330!2026-01-06,283,330!2025-12-17,265,330-->
+In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2026-01-05,282,330!2026-01-19,293,330!2026-01-06,283,330!2028-05-13,878,330-->
 
 {@{The __vertex-connectivity__, or just __connectivity__}@}, of {@{a graph is the largest _k_ for which the graph is _k_-vertex-connected}@}. <!--SR:!2026-01-07,284,330!2027-12-05,811,330-->
 
@@ -25,7 +25,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(disc
 
 An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices}@}, it is possible to find {@{_k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices}@}; see {@{[Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-28,805,330!2027-04-10,522,270!2028-01-02,833,330!2026-02-18,90,377!2026-02-19,91,377-->
 
-{@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-12-26,274,330!2029-03-17,1193,350!2025-12-17,268,330-->
+{@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-12-26,274,330!2029-03-17,1193,350!2028-05-25,890,330-->
 
 ## applications
 

@@ -213,7 +213,7 @@ tags:
 > print(a.transpose())
 > ```
 >
-> - solution: {@{(newlines omitted) `[[1 5] [2 6] [3 7] [4 8]]`}@} <!--SR:!2025-12-17,277,330-->
+> - solution: {@{(newlines omitted) `[[1 5] [2 6] [3 7] [4 8]]`}@} <!--SR:!2029-06-03,1264,350-->
 
 <!-- markdownlint MD028 -->
 

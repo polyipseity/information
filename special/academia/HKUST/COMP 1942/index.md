@@ -392,7 +392,7 @@ The content is in teaching order.
 - datetime: 2024-04-22T09:00:00+08:00/2024-04-22T10:30:00+08:00
 - [principal component analysis § computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
 - project phase 3: see above
-- [fact table § examples](../../../../general/fact%20table.md) ::@:: see the transactional fact table example <!--SR:!2028-06-05,1132,377!2025-12-17,418,377-->
+- [fact table § examples](../../../../general/fact%20table.md) ::@:: see the transactional fact table example <!--SR:!2028-06-05,1132,377!2031-11-16,2160,397-->
 - data cube ::@:: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2026-03-28,526,397!2026-04-05,533,397-->
   - [§ operations](../../../../general/OLAP%20cube.md#operations)
     - data cube > operations ::@:: drill down, rollup <!--SR:!2030-09-30,1842,397!2026-03-23,522,397-->
@@ -425,7 +425,7 @@ The content is in teaching order.
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::@:: Self-links are considered. <!--SR:!2026-10-13,690,408!2026-07-28,627,408-->
-    - PageRank initialization ::@:: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2025-12-17,418,377!2029-07-25,1495,397-->
+    - PageRank initialization ::@:: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2031-11-17,2161,397!2029-07-25,1495,397-->
     - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2026-03-10,509,408!2026-07-01,612,408-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)

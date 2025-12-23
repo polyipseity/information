@@ -37,7 +37,7 @@ Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, alth
 
 {@{1, −1, $n$ and $-n$}@} are known as {@{the __trivial divisors__ of $n$}@}. {@{A divisor of $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}. <!--SR:!2028-11-24,1106,350!2026-01-11,289,330!2026-01-01,281,330!2026-01-15,292,330!2026-12-09,515,310!2026-11-17,513,310!2026-01-04,283,330!2028-12-12,1121,350-->
 
-There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one to recognize certain divisors of a number from the number's digits}@}. <!--SR:!2025-12-19,271,330!2025-12-17,269,330-->
+There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one to recognize certain divisors of a number from the number's digits}@}. <!--SR:!2025-12-19,271,330!2029-04-24,1224,350-->
 
 ## examples
 
@@ -63,7 +63,7 @@ There are some elementary rules:
 
 {@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2026-01-08,286,330!2026-04-18,339,290!2025-12-24,275,330!2028-11-17,1100,350!2029-01-28,1158,350!2027-10-14,765,330-->
 
-{@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2029-04-17,1218,350!2025-12-17,269,330!2026-01-10,288,330-->
+{@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2029-04-17,1218,350!2029-04-23,1223,350!2026-01-10,288,330-->
 
 {@{Any positive divisor of $n$}@} is {@{a product of [prime divisors](prime%20number.md#unique%20factorization) of $n$ raised to some power}@}. This is a consequence of {@{the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. <!--SR:!2026-01-05,284,330!2028-04-25,869,330!2029-01-23,1154,350-->
 

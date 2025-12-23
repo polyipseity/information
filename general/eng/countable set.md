@@ -70,7 +70,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 
 > Theorem — A subset of {@{a countable set is countable}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2028-12-01,1121,350-->
 
-{@{The set of all [ordered pairs](ordered%20pair.md) of natural numbers}@}, {@{the [Cartesian product](Cartesian%20product.md) of two sets of natural numbers, $\mathbb {N} \times \mathbb {N}$}@} is {@{countably infinite}@}, as can be seen by {@{following a path like the one in the picture}@}: <!--SR:!2028-12-14,1128,350!2029-02-13,1178,350!2027-06-09,686,330!2025-12-17,276,330-->
+{@{The set of all [ordered pairs](ordered%20pair.md) of natural numbers}@}, {@{the [Cartesian product](Cartesian%20product.md) of two sets of natural numbers, $\mathbb {N} \times \mathbb {N}$}@} is {@{countably infinite}@}, as can be seen by {@{following a path like the one in the picture}@}: <!--SR:!2028-12-14,1128,350!2029-02-13,1178,350!2027-06-09,686,330!2029-05-26,1256,350-->
 
 > {@{![The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers](../../archives/Wikimedia%20Commons/Pairing%20natural.svg)}@}
 >

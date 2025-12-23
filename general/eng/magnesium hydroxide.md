@@ -13,7 +13,7 @@ __Magnesium hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) w
 
 ## preparation
 
-Treating {@{magnesium [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md)}@} {@{[precipitates](precipitate.md) out white magnesium hydroxide}@}: <!--SR:!2026-08-12,333,290!2025-12-17,74,339-->
+Treating {@{magnesium [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md)}@} {@{[precipitates](precipitate.md) out white magnesium hydroxide}@}: <!--SR:!2026-08-12,333,290!2026-08-30,256,339-->
 
 > treating with [bases](base%20(chemistry).md)
 >

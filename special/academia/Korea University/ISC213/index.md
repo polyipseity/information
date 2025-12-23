@@ -403,7 +403,7 @@ The content is in teaching order.
   - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance <!--SR:!2026-01-05,131,395!2026-01-03,129,395-->
   - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-12-21,118,395!2025-12-19,116,395-->
   - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations <!--SR:!2025-12-25,120,395!2025-12-31,126,395-->
-  - information policy / database administration ::@:: create and maintain databases <!--SR:!2025-12-17,115,395!2025-12-19,116,395-->
+  - information policy / database administration ::@:: create and maintain databases <!--SR:!2027-08-22,613,415!2025-12-19,116,395-->
 - [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-12-30,125,395!2025-12-18,115,395-->
   - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy <!--SR:!2026-01-04,130,395!2025-12-24,121,395-->
   - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-12-25,120,395!2025-12-25,122,395-->

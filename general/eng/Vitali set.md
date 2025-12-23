@@ -10,7 +10,7 @@ tags:
 
 # Vitali set
 
-In [mathematics](mathematics.md), {@{a __Vitali set__}@} is {@{an elementary example of a set of [real numbers](real%20number.md) that is not [Lebesgue measurable](Lebesgue%20measure.md)}@}, found by {@{[Giuseppe Vitali](Giuseppe%20Vitali.md) in 1905}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The __Vitali theorem__}@} is {@{the [existence theorem](existence%20theorem.md) that there are such sets}@}. Each Vitali set is {@{[uncountable](uncountable%20set.md)}@}, and there are {@{[uncountably many](uncountable%20set.md) Vitali sets}@}. The proof of their existence depends on {@{the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2027-07-08,717,330!2026-01-29,327,349!2025-12-17,268,289!2026-02-27,350,349!2026-02-12,338,349!2027-05-11,669,330!2026-01-12,313,349!2026-02-03,330,349-->
+In [mathematics](mathematics.md), {@{a __Vitali set__}@} is {@{an elementary example of a set of [real numbers](real%20number.md) that is not [Lebesgue measurable](Lebesgue%20measure.md)}@}, found by {@{[Giuseppe Vitali](Giuseppe%20Vitali.md) in 1905}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The __Vitali theorem__}@} is {@{the [existence theorem](existence%20theorem.md) that there are such sets}@}. Each Vitali set is {@{[uncountable](uncountable%20set.md)}@}, and there are {@{[uncountably many](uncountable%20set.md) Vitali sets}@}. The proof of their existence depends on {@{the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2027-07-08,717,330!2026-01-29,327,349!2028-11-29,1078,309!2026-02-27,350,349!2026-02-12,338,349!2027-05-11,669,330!2026-01-12,313,349!2026-02-03,330,349-->
 
 ## measurable sets
 

@@ -28,7 +28,7 @@ tags:
 > - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
 > - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 > - {@{$\phi$}@} is {@{initial phase offset}@}.
-> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-02-15,381,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350!2026-04-17,123,404!2025-12-17,26,384!2025-12-17,26,384!2025-12-17,26,384!2026-04-18,124,404!2025-12-17,26,384-->
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-02-15,381,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350!2026-04-17,123,404!2026-05-03,137,404!2026-05-06,140,404!2026-05-04,138,404!2026-04-18,124,404!2026-05-05,139,404-->
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {@{digital signals (discrete signals)}@}. In that case, usually {@{the time is discretized}@}. So the equation becomes: <!--SR:!2028-08-08,1142,350!2029-03-01,1307,350-->
 
@@ -44,7 +44,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 > - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
 > - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 > - {@{$\phi$}@} is {@{initial phase offset}@}.
-> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330!2025-12-17,26,384!2026-04-17,123,404!2026-04-20,126,404!2026-04-28,133,404!2026-04-23,128,404!2026-04-24,129,404!2026-04-25,130,404-->
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330!2026-05-04,138,404!2026-04-17,123,404!2026-04-20,126,404!2026-04-28,133,404!2026-04-23,128,404!2026-04-24,129,404!2026-04-25,130,404-->
 
 For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}. <!--SR:!2029-05-20,1370,350-->
 
@@ -80,7 +80,7 @@ Using Euler's formula, we can express waves {@{using exponentiation instead}@}. 
 
 - see: [general/dot product § complex vectors](../../general/dot%20product.md#complex%20vectors)
 
-The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {@{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}@}. Geometrically, two sequences are {@{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}@}. <!--SR:!2028-02-16,928,341!2025-12-17,390,361-->
+The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {@{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}@}. Geometrically, two sequences are {@{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}@}. <!--SR:!2028-02-16,928,341!2031-03-31,1930,381-->
 
 ## even and odd sequences
 

@@ -74,7 +74,7 @@ return (
 <!--pytextgen generate section="1ad236"--><!-- The following content is generated at 2024-01-04T20:17:51.424468+08:00. Any edits will be overridden! -->
 
 - [N<sub>2</sub>](nitrogen.md):@:78.084% <!--SR:!2027-02-08,1202,250-->
-- [O<sub>2</sub>](oxygen.md):@:20.946% <!--SR:!2025-12-17,225,150-->
+- [O<sub>2</sub>](oxygen.md):@:20.946% <!--SR:!2027-05-03,502,170-->
 - [Ar](argon.md):@:0.9340% <!--SR:!2026-08-21,314,190-->
 - [CO<sub>2</sub>](carbon%20dioxide.md):@:0.0417% (2022-04-xx) <!--SR:!2026-05-28,329,167-->
 

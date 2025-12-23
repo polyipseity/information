@@ -91,7 +91,7 @@ An association is drawn by {@{a line connecting the class to itself \(unary\)}@}
 
 In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations}@}, but {@{not always}@}. <!--SR:!2026-01-21,85,350!2026-01-07,72,322!2025-12-28,64,322!2026-01-15,79,341!2026-01-20,84,350!2026-01-18,82,341-->
 
-Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}.  \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!2026-01-08,73,322!2025-12-17,54,310!2026-01-18,82,341!2026-01-03,69,322!2026-01-19,83,350!2026-01-22,86,353-->
+Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}.  \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!2026-01-08,73,322!2026-08-08,234,330!2026-01-18,82,341!2026-01-03,69,322!2026-01-19,83,350!2026-01-22,86,353-->
 
 ### association multiplicity
 
@@ -148,7 +148,7 @@ In {@{the top-down approach}@}, we start with {@{a class with an _discriminator_
 
 In {@{the bottom-up approach}@}, we start with {@{several classes with similar attributes or operations}@}. Then, we {@{generalize the subclasses}@}: {@{add a superclass with attributes or operations _common_ to all subclasses}@}, and {@{remove them from all subclasses}@}. Finally, indicate that {@{it is a generalization \(see below\)}@}. {@{_Common_ associations}@} may {@{have objects they are referring to changed}@} and {@{their multiplicity changed}@}. <!--SR:!2026-01-18,82,341!2025-12-19,56,310!2026-01-19,83,341!2026-01-04,70,322!2026-01-09,74,322!2026-01-18,82,341!2026-01-15,79,341!2026-01-06,71,322!2025-12-28,64,322-->
 
-To {@{indicate a generalization}@}, {@{connect all subclasses}@} to {@{the superclass}@}, and {@{add a _hollow_ triangle pointing towards the superclass}@}. {@{Generalization properties}@} are described by {@{text near it}@}, e.g. {@{`{overlapping, incomplete}`, `{disjoint, complete}`}@}. <!--SR:!2026-01-17,81,341!2026-01-05,70,322!2026-01-18,82,341!2025-12-17,54,310!2026-01-17,81,341!2026-01-18,82,341!2026-01-16,80,341-->
+To {@{indicate a generalization}@}, {@{connect all subclasses}@} to {@{the superclass}@}, and {@{add a _hollow_ triangle pointing towards the superclass}@}. {@{Generalization properties}@} are described by {@{text near it}@}, e.g. {@{`{overlapping, incomplete}`, `{disjoint, complete}`}@}. <!--SR:!2026-01-17,81,341!2026-01-05,70,322!2026-01-18,82,341!2026-08-06,232,330!2026-01-17,81,341!2026-01-18,82,341!2026-01-16,80,341-->
 
 #### generalization and inheritance
 
