@@ -1,0 +1,129 @@
+assignment:
+  comments:
+    3514120:
+      attachments: []
+      author: '[redacted]'
+      content: Well done!
+      datetime: 2025-10-11 10:53:00+08:00
+      id: 3514120
+  content: "The goal of this assignment is to implement a minimal data structure for\
+    \ trees. The motivating example for such trees is a file system, which is represented\
+    \ as a tree of directories and files. Although we would be implementing a generic\
+    \ tree, it would still be instructive to think of the file system example.\nDownload\
+    \ the skeleton project at ass1.zip\n\n\n\n\nDownload ass1.zip.\nRepresentation\n\
+    \n\nThe Tree type is parametrized by K and V, which stand for \"key\" and \"value\"\
+    . Each node of a tree carries a key of type K.\nWe classify nodes of the tree\
+    \ into two disjoint kinds:\n\nInternal nodes have a number (possibly zero) of\
+    \ children, which are themselves trees, with distinct keys among siblings. They\
+    \ are represented as the type Tree.Node. Their children are represented as a list\
+    \ of trees.\n\n\nLeaves have a payload of type V attached. They are represented\
+    \ as the type Tree.Leaf.\n\n\n\n\n\nNodes are identified by their paths, i.e.\
+    \ the lists of ancestors from the root to them. Paths are represented as a List of K,\
+    \ wrapped inside the type Tree.Path[K]. Note that Path[K] represents a relative\
+    \ path from the current node.\n\nAn empty Path represents the current node.\n\n\
+    \nEach segment in the Path represents a step down the tree hierarchy.\n\n\n\n\n\
+    \nMethods\n\n\nFor illustrative purpose, consider the following tree t:\nNode(,\
+    \ ...)\n├── Node(foo, ...)\n│   ├── Leaf(a, 1)\n│   └── Leaf(b, 2)\n└── Node(bar,\
+    \ ...)\n    ├── Leaf(a, 11)\n    └── Leaf(b, 12)\n\n\n\nTree.contains\n\n\ndef\
+    \ contains(path: Path[K]): Boolean\n\n\n\nReturns true if the tree contains the\
+    \ path path, regardless of whether the path refers to an internal node or a leaf,\
+    \ and false otherwise.\nTree.get\n\n\ndef get(path: Path[K]): Option[Either[List[K],\
+    \ V]]\n\n\n\nOptionally returns the content at the path path, wrapped in an Either.\
+    \ In other words:\n\nReturns a None if the tree does not contain path.\n\n\nReturns\
+    \ a Some(Left(ls)) if path refers to an internal node with children as its children,\
+    \ where ls is a list containing the keys of the elements in children.\n\n\nReturns\
+    \ a Some(Right(payload)) if path refers to a leaf with payload as its payload.\n\
+    \n\n\n\n\nTree.flatten\n\n\ndef flatten: List[(Path[K], V)]\n\n\n\nReturns a list\
+    \ of pairs of paths and values of all leaves in the tree.\nFor example, t.flatten would\
+    \ return the following list:\nList(\n    (Path(List(, foo, a)),1),\n    (Path(List(,\
+    \ foo, b)),2),\n    (Path(List(, bar, a)),11),\n    (Path(List(, bar, b)),12)\n\
+    )\n\n\n\nNote that the method produces absolute paths, which includes the key\
+    \ of the root node.\nTree.updated\n\n\nThe Tree class should implement two updated methods\
+    \ with the following signatures:\ndef updated(path: Path[K]): Tree[K, V]\ndef\
+    \ updated(path: Path[K], payload: V): Tree[K, V]\n\n\n\nThese methods create a\
+    \ new tree with modifications based on the given relative path:\n\nIf the path\
+    \ is empty, replace the current node with\n\na new empty internal node (for the\
+    \ first signature);\n\n\na new leaf node with the given payload (for the second\
+    \ signature);\n\n\nor throw Tree.IllegalPathException if the current node is root\
+    \ and payload is provided (because root can only be a Node and can't be replaced\
+    \ with Leaf).\n\n\n\n\n\n\n\n\nFor non-empty paths:\n\nTraverse existing nodes\
+    \ along the path.\n\n\nCreate new internal nodes for missing segments.\n\n\nReplace\
+    \ leaf nodes encountered before the end of the path with internal nodes.\n\n\n\
+    \n\n\n\n\n\nAt the end of the path:\n\nCreate a new empty internal node (for the\
+    \ first signature).\n\n\nCreate a new leaf node with the given payload (for the\
+    \ second signature).\n\n\n\n\n\n\n\n\n\n\n\nExamples\n\n\nThe following are a\
+    \ few examples for the reference.\n\n\nt.updated(Path(List(\"foo\", \"b\", \"\
+    c\", \"d\"))) would return the following tree:\nNode(, ...)\n├── Node(foo, ...)\n\
+    │   ├── Leaf(a, 1)\n│   └── Node(b, ...)\n│       └── Node(c, ...)\n│        \
+    \   └── Node(d, ...)\n└── Node(bar, ...)\n    ├── Leaf(a, 11)\n    └── Leaf(b,\
+    \ 12)\n\n\n\n\n\n\n\nWhile t.updated(Path(List(\"bar\"))) would return:\nNode(,\
+    \ ...)\n├── Node(foo, ...)\n│   ├── Leaf(a, 1)\n│   └── Leaf(b, 2)\n└── Node(bar,\
+    \ ...)\n\n\n\n\n\n\n\nt.updated(Path(List())) would return:\nNode(, ...)\n\n\n\
+    \n\n\n\n\nt.updated(Path(List(\"foo\", \"b\", \"c\", \"d\")), 42) would return\
+    \ the following tree:\nNode(, ...)\n├── Node(foo, ...)\n│   ├── Leaf(a, 1)\n│\
+    \   └── Node(b, ...)\n│       └── Node(c, ...)\n│           └── Leaf(d, 42)\n\
+    └── Node(bar, ...)\n    ├── Leaf(a, 11)\n    └── Leaf(b, 12)\n\n\n\n\n\n\n\nWhile t.updated(Path(List(\"\
+    bar\")), 0) would return:\nNode(, ...)\n├── Node(foo, ...)\n│   ├── Leaf(a, 1)\n\
+    │   └── Leaf(b, 2)\n└── Leaf(bar, 0)\n\n\n\n\n\n\n\nt.updated(Path(List()), 0) would\
+    \ throw Tree.IllegalPathException.\n\n\n\n\n\n\nTree.display\n\n\ndef display:\
+    \ String\n\n\n\nThis method will serialize the tree structure into a string representation\
+    \ for easy visualization. The string representation shows the structure of the\
+    \ tree, including:\n\ndistinction between internal nodes (Node) and leaves (Leaf),\n\
+    \n\nthe key of each node (Node(key)),\n\n\nthe value of each leaf (Leaf(key, value)),\
+    \ and\n\n\nthe hierarchical relationship between nodes (using box drawing characters\n\
+    \n\n\n\nLinks to an external site.).\n\n\n\n\n\nFor example, t.display would produce\
+    \ the following output.\nNode()\n├── Node(foo)\n│   ├── Leaf(a, 1)\n│   └── Leaf(b,\
+    \ 2)\n└── Node(bar)\n    ├── Leaf(a, 11)\n    └── Leaf(b, 12)\n\n\n\nNotes\n\n\
+    \n\nThe order of subtrees does not matter.\n\n\nSerialize values by calling .toString.\n\
+    \n\nKeys do not need to be quoted.\n\n\nTrailing newlines are not necessary.\n\
+    \n\nIf you're using PowerShell on Windows and noticed that the box drawing characters\
+    \ become garbled text like ΓöúΓöÇΓöÇ. This is because the display encoding of\
+    \ PowerShell sessions is set to ASCII by default. The following solution might\
+    \ be helpful.  Run the following command BEFORE the sbt shell starts.\n\n[Console]::OutputEncoding\
+    \ = [System.Text.Encoding]::UTF8\n\n\n Note that this is a display issue. In the\
+    \ test, the output is checked using string comparison. One can use the following\
+    \ Unicode escape to make the exact characters: \"\\u251c\" for \"├\"; \"\\u2502\"\
+    \ for \"│\"; \"\\u2514\" for \"└\"; \"\\u2500\" for \"─\".\n\n\n\n\n\nCompanion\
+    \ object methods\n\n\nThe companion object provides a few constructors for Tree.\n\
+    def apply[K, V](key: K): Tree[K, V]\n\n\n\nConstructs a tree with an empty internal\
+    \ node with key key as its root.\ndef apply[K, V](path: Path[K]): Tree[K, V]\n\
+    \n\n\nConstructs a tree with an empty internal node at path path. Throws Tree.IllegalPathException if\
+    \ called with an empty path.\ndef apply[K, V](path: Path[K], payload: V): Tree[K,\
+    \ V]\n\n\n\nConstructs a tree with a single leaf with payload payload at path path.\
+    \ Throws Tree.IllegalPathException if called with an empty path.\nA note on the\
+    \ order of lists\n\n\nThe order of children in the internal representation of Node does\
+    \ not matter, as seen by the private modifier in the cases of Tree, which forbids\
+    \ anyone outside the class from accessing underlying representations.\nFor functions\
+    \ returning lists, their orders also do not matter. We will only grade the contents\
+    \ of the lists.\nTests\n\n\nA few simple tests are provided in the test suite,\
+    \ but they are far from covering every cases. So you are encouraged to write your\
+    \ own tests to test your code!\nSubmission\n\n\nSubmit Tree.scala only to the\
+    \ canvas assignment by 2 Oct.\nHint\n\n\nFor Tree.updated, one possible implementation\
+    \ would be to peek at the next segment in the path to determine which child to\
+    \ recurse on, which is quite easy to perform by pattern matching. Alternatively,\
+    \ you can also try to catch an exception, but this may not be the cleanest solution.\n\
+    FAQ\n\n\n\nWriting tests to intercept an exception\nTo write a test in MUnit to\
+    \ intercept an exception, the type of the exception must be supplied as a type\
+    \ argument. Using Tree.IllegalPathException would not work, since it refers to\
+    \ the class Tree.IllegalPathException, which is not declared. To refer to the\
+    \ type of the object Tree.IllegalPathException, use Tree.IllegalPathException.type instead."
+  grade:
+    entered: 10
+    graded anonymously: false
+    possible: 10
+  id: 400868
+  properties:
+    due: 2025-10-02 23:59:00+08:00
+    file types:
+    - scala
+    points: 10
+    submitting:
+    - a file upload
+  submissions:
+  - datetime: 2025-10-02 22:35:00+08:00
+    id: -1
+  title: 'Assignment 1: Trees'
+course:
+  id: 64509
+  name: COMP3031 (L1)
+type: submission/Canvas/canvas.ust.hk

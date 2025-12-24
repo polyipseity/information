@@ -48,6 +48,8 @@ The content is in teaching order.
   - [Scala 3](Scala%203.md)
   - Scala / [state](state.md)
 - [assignments](assignments/index.md)
+- [`hkust-comp-3031-labs.git.7z`](attachments/hkust-comp-3031-labs.git.7z)
+  - source: <https://github.com/polyipseity/hkust-comp-3031-labs.git>
 - [questions](questions.md)
 
 ## week 1 lab
@@ -189,6 +191,7 @@ The content is in teaching order.
 ## week 2 lab
 
 - datetime: 2025-09-08T15:00:00+08:00/2025-09-08T16:20:00+08:00, PT1H20M
+- status: online; typhoon signal 8
 - topic: tools; lab 0; project structure; sbt; IDE; REPL; worksheet; coding
 - COMP 3031
   - COMP 3031 / tools ::@:: Coursier \(<https://get-coursier.io>\): Java Development Kit \(JDK\), simple build tool \(sbt\) <br/> Visual Studio Code, extensions: Scala \(Metals\)
@@ -202,6 +205,20 @@ The content is in teaching order.
     - COMP 3031 / lab 0 / worksheet ::@:: Create a file ending in `.worksheet.sc`; each line is executed automatically and its result shown as a comment. Save the file to trigger re-evaluation; auto-save is enabled by default.
     - COMP 3031 / lab 0 / troubleshooting ::@:: - If sbt fails, run `sbt clean cleanFile` or delete the global cache (`rm -r ~/.sbt`). <br/> - If IDE features like hover or go-to-definition are broken, manually import the build via the "m" icon → "Import build", then restart VS Code. <br/> - Address Bloop server warnings by following the on-screen prompts ("Turn off old server").
     - COMP 3031 / lab 0 / coding ::@:: - `Lists.scala` implements two tail-recursive functions: <br/> &emsp; - `sum(xs: List[Int])`: accumulates list elements, returning `0` for an empty list. <br/> &emsp; - `max(xs: List[Int])`: throws `NoSuchElementException` on an empty list; otherwise returns the maximum value by comparing head with accumulator. <br/> - `ListsSuite.scala` contains sanity checks (e.g., one plus one equals two) and additional tests: <br/> &emsp; - Verifies that `sum(Nil)` yields `0`. <br/> &emsp; - Confirms that calling `max(Nil)` raises the expected exception, using a try-catch block to fail if no exception occurs.
+
+---
+
+> \[redacted\] — 12:29
+> We will still hold the lab, as it's quite helpful to people who want to know how to set up the Scala toolchains. But you are free to not attend it. I will also ask the TAs to make a Zoom session for people to join online <br/>
+> Basically the lab is formally cancelled, but feel free to still attend it @everyone
+>
+> ---
+>
+> \[redacted\] — 14:59
+> Here is the zoom link: \[redacted\] <br/>
+> Zoom <br/>
+> Join our Cloud HD Video Meeting <br/>
+> Zoom is the leader in modern enterprise cloud communications.
 
 ## week 2 lecture
 
@@ -277,8 +294,10 @@ The content is in teaching order.
 ## week 3 lab
 
 - datetime: 2025-09-15T15:00:00+08:00/2025-09-15T16:20:00+08:00, PT1H20M
-- topic: functional programming
+- topic: tools; lab 0; project structure; sbt; IDE; REPL; worksheet; coding; functional programming
+- [§ week 2 lab](#week%202%20lab)
 - COMP 3031
+  - COMP 3031 / lab 0
   - COMP 3031 / lab 1
     - COMP 3031 / lab 1 / functional programming ::@:: All solutions must avoid state mutation: you cannot use `var`, loops such as `while`, or explicit `return` statements. The Scala collection package `scala.collection.mutable` is forbidden; only immutable collections may be employed.
     - COMP 3031 / lab 1 / Pascal's triangle You are asked to compute the value that appears in a particular column `c` (0-based) of row `r` in Pascal's triangle. The triangle is defined such that every entry on its edges equals 1, and each interior entry equals the sum of the two numbers directly above it. Your implementation must be purely recursive—no loops or mutable state are allowed.
@@ -482,6 +501,7 @@ The content is in teaching order.
     - [§ set properties](proofs.md#set%20properties): set properties
     - [§ proving set properties](proofs.md#proving%20set%20properties): proving set properties
     - [§ proving set union property](proofs.md#proving%20set%20properties): proving set union property
+- assignment: [assignment 1](assignments/assignment%201/index.md)
 
 ## week 6 lab
 
@@ -502,7 +522,7 @@ The content is in teaching order.
 ## week 6 lecture
 
 - datetime: 2025-10-07T12:00:00+08:00/2025-10-07T13:20:00+08:00, PT1H20M
-- status: unscheduled; public holiday: National Day
+- status: unscheduled; public holiday: Mid-Autumn Festival
 
 ## week 6 lecture 2
 
@@ -613,10 +633,135 @@ The content is in teaching order.
 ## week 9 lab
 
 - datetime: 2025-10-27T15:00:00+08:00/2025-10-27T16:20:00+08:00, PT1H20M
+- topic: anagram; word anagram; sentence anagram; recursion
+- [anagram](../../../../general/anagram.md) ::@:: It is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+- COMP 3031
+  - COMP 3031 / lab 4 ::@:: Compute sentence anagrams in Scala using occurrence lists, dictionary lookups, subset generation, subtraction, and recursion.
+    - COMP 3031 / lab 4 / problem ::@:: An anagram rearranges letters to form new meaningful words. Extend from word anagrams to sentence anagrams by ignoring case and punctuation and using a provided dictionary.
+    - COMP 3031 / lab 4 / representation ::@:: - `type Word = String` <br/> - `type Sentence = List[Word]` <br/> - `type Occurrences = List[(Char, Int)]` &emsp; Sorted by character (ascending), lowercase-only, positive, counts.
+    - COMP 3031 / lab 4 / dictionary ::@:: `val dictionary: List[Word] = loadDictionary` &emsp; Preloaded list of meaningful words used to validate anagrams.
+    - COMP 3031 / lab 4 / `wordOccurrences` ::@:: Produce `(Char, Int)` pairs from a word, case-insensitive, sorted by character.
+    - COMP 3031 / lab 4 / `sentenceOccurrences` ::@:: Concatenate words in a sentence and reuse `wordOccurrences`.
+    - COMP 3031 / lab 4 / index ::@:: Group the dictionary by occurrences for efficient lookup; words sharing the same occurrence list are anagrams.
+    - COMP 3031 / lab 4 / combinations ::@:: Generate all subsets of an occurrence list, varying counts from `0..freq` for each char and combining recursively. <p> The empty list has exactly one subset: itself (`List(Nil)`).
+    - COMP 3031 / lab 4 / `subtractOccurrences` ::@:: Remove counts of one occurrence list `y` from another `x`; assume `y` is a subset of `x`. Drop zero-count entries and keep result sorted.
+    - COMP 3031 / lab 4 / sentence anagrams ::@:: Recursively pick any valid word from subsets of the sentence's occurrence list; subtract its occurrences and continue until empty. Base case returns `List(Nil)`. <p> 1. Compute `allOccurrences = sentenceOccurrences(sentence)`. <br/> 2. For each `combination` in `combinations(allOccurrences)`: For each `possibleWord` in `dictionaryByOccurrences(combination)`, recurse on `subtract(allOccurrences, combination)` to get `otherWords`, and then prepend `possibleWord` to each `otherWords`. <br/> 3. Collect all sentences produced; the empty sentence maps to `List(Nil)`.
 
 ## week 9 lecture
 
 - datetime: 2025-10-28T12:00:00+08:00/2025-10-28T13:20:00+08:00, PT1H20M
+- status: unscheduled; midterm examination
+- [§ midterm examination](#midterm%20examination)
+
+---
+
+> __<big><big>Midterm exam scheduled on 28 Oct 2025 (Tue) 12:00-14:00 in Rm 4621</big></big>__
+>
+> Dear all,
+>
+> The midterm exam will take place as follows
+>
+> Date:  28 Oct 2025 <br/>
+> Time:  12pm to 2pm <br/>
+> Venue: room 4621
+>
+> If you have any concerns about this arrangement, please let us know ASAP.
+>
+> A few important pieces of information:
+>
+> 1. The exam will be open book. Naturally, no electronic devices will be permitted. You will be able to bring and use only printed hardcopies from this course (and not from any other course) as well as your own notes.
+> 2. __Please arrive _at least_ 5min before the start of the exam. That is, arrive at Room 4621 no later than 11:55am.__
+> 3. The midterm exam will cover all material up to and including Lecture 11.
+> 4. I have posted some exam preparation material on Canvas, in the "Midterm preparation" module. Be sure to try and solve the exercises on your own before looking at the solutions!
+>
+> Best regards,
+>
+> — \[redacted\]
+
+## midterm examination
+
+- datetime: 2025‑10‑28T12:00:00+08:00/2025‑10‑28T14:00:00+08:00, PT2H  
+- venue: Room 4621, Academic Building
+- format  
+  - calculator: no  
+  - cheatsheet: yes (unlimited)
+  - referencing: closed books, closed notes
+  - provided: (none)
+  - questions: long question ×4 (with subquestions)
+- grades: 40/40 → 40/30 → 30/30+10/10
+  - statistics
+    - timestamps: 2025-11-03T14:46+08:00 → 2025-11-04T18:16+08:00 → 2025-12-22T12:23+08:00
+    - count: 65 → 65 → 65
+    - mean: 19.28 (provided: 19.08203125) → 19.28 → 18.81
+    - standard deviation: ? → ? → ?
+    - low: 2.5 (provided: 2.5) → 2.5 → 2.5
+    - lower quartile: 11 (provided: 11) → 11 → 11.75
+    - median: 20 (provided: 19.5) → 20 → 20
+    - upper quartile: 25.5 (provided: 25.5) → 25.5 → 26
+    - high: 40 (provided: 40) → 40 → 30
+    - graph: [`Screenshot_2025-11-03_at_14.53.26.png`](attachments/Screenshot_2025-11-03_at_14.53.26.png) → ? → ?
+    - data: ? → ? → ?
+  - breakdown
+    - question 1: 1 → 1 → 1  
+    - question 2: 3 → 3 → 3  
+    - question 3: 3 → 3 → 3  
+    - question 4: 3 → 3 → 3  
+    - question 5: 5 → 5 → 5  
+    - question 6: 7 → 7 → 7  
+    - question 7: 3 → 3 → 3  
+    - question 8: 2 → 2 → 2  
+    - question 9: 2 → 2 → 2  
+    - question 10: 1 → 1 → 1  
+    - question 11: 2 → 2 → 2  
+    - question 12: 2 → 2 → 2  
+    - question 13: 4 → 4 → 4  
+    - question 14: 2 → 2 → 2  
+- report: (none)
+- check
+  - datetime: 2025-11-03T15:00:00+08:00/2025-11-03T16:20:00+08:00, PT1H20M
+  - venue: Room 4214 (Lift 19), Academic Building
+  - report: (none)
+
+---
+
+> __<big><big>Midterm exam scheduled on 28 Oct 2025 (Tue) 12:00-14:00 in Rm 4621</big></big>__
+>
+> Dear all,
+>
+> The midterm exam will take place as follows
+>
+> Date:  28 Oct 2025 <br/>
+> Time:  12pm to 2pm <br/>
+> Venue: room 4621
+>
+> If you have any concerns about this arrangement, please let us know ASAP.
+>
+> A few important pieces of information:
+>
+> 1. The exam will be open book. Naturally, no electronic devices will be permitted. You will be able to bring and use only printed hardcopies from this course (and not from any other course) as well as your own notes.
+> 2. __Please arrive _at least_ 5min before the start of the exam. That is, arrive at Room 4621 no later than 11:55am.__
+> 3. The midterm exam will cover all material up to and including Lecture 11.
+> 4. I have posted some exam preparation material on Canvas, in the "Midterm preparation" module. Be sure to try and solve the exercises on your own before looking at the solutions!
+>
+> Best regards,
+>
+> — \[redacted\]
+
+---
+
+> __<big><big>Midterm exam marking scheme adjustment</big></big>__
+>
+> Dear students,
+>
+> After discussing with many of you and reflecting on it, the TAs and I now realize that the mid-term exam was in fact harder than previous years. A particular example was Exercise 2 which, while not fundamentally difficult, did not follow the typical pattern seen in previous midterms. We realize that there was not enough time to properly think through that exercise, given that the other two exercises were already quite challenging.
+>
+> Therefore, we have decided to retro-actively declare Exercise 2 optional, meaning that the total marks of the exam should actually be 30 instead of 40, and that any points gotten in Exercise 2 will be considered bonus points. This will increase the average grade from 50% to 60%, bringing it close to the average from previous years. And for the few students who then have total points over 30, these points will be carried over (not clamped). This way, no one is penalized, and the unintended extra difficulty of the midterm exam is corrected for.
+>
+> Do note that our goal is to make most people pass with good grades, as long as you demonstrably acquire the required knowledge. We try to design the assessments so as to maximize the grade distribution in the end, to the extent allowable by the university. In other words, we will make sure to make the final exam less challenging. Still, if you would like to withdraw for the course, I have no objection to it.
+>
+> Best regards,
+>
+> — \[redacted\]
 
 ## week 9 lecture 2
 
@@ -639,6 +784,8 @@ The content is in teaching order.
 ## week 10 lab
 
 - datetime: 2025-11-03T15:00:00+08:00/2025-11-03T16:20:00+08:00, PT1H20M
+- topic: midterm examination; midterm examination paper checking
+- [§ midterm examination](#midterm%20examination)
 
 ## week 10 lecture
 
@@ -675,10 +822,22 @@ The content is in teaching order.
     - [§ dependency tracking](reactive%20programming.md#dependency%20tracking)
   - Scala / [context](context.md)
     - [§ implicit function types](context.md#implicit%20function%20types)
+- assignment: [assignment 2](assignments/assignment%202/index.md)
 
 ## week 11 lab
 
 - datetime: 2025-11-10T15:00:00+08:00/2025-11-10T16:20:00+08:00, PT1H20M
+- topic: abstract syntax tree
+- [abstract syntax tree](../../../../general/abstract%20syntax%20tree.md) (AST) ::@:: It is a data structure used in computer science to represent the structure of a program or code snippet. It is a tree representation of the abstract syntactic structure of text (often source code) written in a formal language. Each node of the tree denotes a construct occurring in the text.
+- COMP 3031
+  - COMP 3031 / exercise 4 ::@:: Implement GCD, List primitives (`map`, `foldLeft`), and memory CAS in a small expression language using the given `Expr` AST.
+    - COMP 3031 / exercise 4 / `Expr` ::@:: Core syntax for expressions and binary ops. <p> - __`Expr`__: `Constant`, `Name`, `BinOp`, `IfNonzero`, `Call`, `Fun` <br/> - __`Expr`__ (lists): `Cons`, `EmptyList`, `Match` <br/> - __`Expr`__ (memory): `Read`, `Write`
+    - COMP 3031 / exercise 4 / `BinOp` instances ::@:: Shorthands for binary ops. <p> - `minus(e1, e2) = BinOp(Minus, e1, e2)` <br/> - `plus(e1, e2) = BinOp(Plus, e1, e2)` <br/> - `leq(e1, e2) = BinOp(LessEq, e1, e2)` &emsp; (returns `1` if `e1 <= e2`, else `0`) <br/> - `times(e1, e2) = BinOp(Times, e1, e2)` <br/> - `modulo(e1, e2) = BinOp(Modulo, e1, e2)`
+    - COMP 3031 / exercise 4 / global environment ::@:: A sequence of `(String, Expr)` bindings; each definition can reference any name in the environment (mutually recursive bindings supported). Example: `div` defined via recursion using `LessEq` and subtraction.
+    - COMP 3031 / exercise 4 / implement `gcd` ::@:: Implement Euclid’s algorithm: if `b == 0` then `a` else `gcd(b, a % b)`. <p> Encode recursion using `Fun` + `Call`; condition uses `IfNonzero(Name("b"), ...)` with `modulo`. <p> Curried calls: `Call(Call(Name("gcd"), arg1), arg2)`.
+    - COMP 3031 / exercise 4 / implement `map` ::@:: Apply `f` to each element; rebuild list.
+    - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), acc), x)`.
+    - COMP 3031 / exercise 4 / implement `cas` ::@:: Compare-and-swap returns `1` on success (write performed) or `0` if the current value differs from `old`. <p> In `Expr`: use `Read` to fetch, `Write` to store and then continue with `andThen`. `IfNonzero(minus(Read(idx), old), ...)` effectively tests `mem(idx) != old`. `Write(idx, nw, Constant(1))` performs the write, then evaluates to `1`. <p> In this toy language, execution is sequential; real CAS is atomic in concurrent settings.
 
 ## week 11 lecture
 
@@ -717,6 +876,26 @@ The content is in teaching order.
 ## week 12 lab
 
 - datetime: 2025-11-17T15:00:00+08:00/2025-11-17T16:20:00+08:00, PT1H20M
+- topic: Bloxorz; lazy evaluation; `LazyList`
+- COMP 3031
+  - COMP 3031 / lab 5 ::@:: Solve a simplified Bloxorz puzzle in Scala using lazy evaluation and breadth‑first search (BFS) to find the shortest move sequence.
+    - COMP 3031 / lab 5 / problem ::@:: In a Bloxorz puzzle, explore a state space of block positions on a terrain; generate legal neighbors by rolling the block; search for a shortest path from start to goal using lazy streams (`LazyList`).
+    - COMP 3031 / lab 5 / setup ::@:: The logic is split across `GameDef.scala` (positions, terrain, block, moves) and `Solver.scala` (lazy BFS over block states).
+    - COMP 3031 / lab 5 / `Pos` ::@:: `case class Pos(row: Int, y: Int)` where `row` increases downward (vertical axis) and `y` increases rightward (horizontal axis).
+    - COMP 3031 / lab 5 / `Terrain` ::@:: The board (walkable cells) is a function: `type Terrain = Pos => Boolean` &emsp; `true` means inside terrain; `false` means out of bounds.
+    - COMP 3031 / lab 5 / `terrainFunction(levelVector)` ::@:: Return a function that checks whether a position is within any non-`-` cell.
+    - COMP 3031 / lab 5 / `findChar(c, levelVector)` ::@:: Locate the coordinates of a specific character (e.g., `S` for start, `T` for goal)
+    - COMP 3031 / lab 5 / `Block` ::@:: A 2×1×1 cuboid represented by two positions: `case class Block(b1: Pos, b2: Pos)`. <p> It is _standing_ when `b1 == b2`. It is _legal_ when `terrain(b1) && terrain(b2)`.
+    - COMP 3031 / lab 5 / `Move` ::@:: `left`, `right`, `up`, `down` roll the block, yielding new `Block`s with updated `(b1, b2)` according to orientation. The four possible moves recorded as case objects. <p> - `neighbors: List[(Block, Move)]`: Returns `(blockAfterMove, move)` for all four directions. <br/> - `legalNeighbors: List[(Block, Move)]`: Filter `neighbors` to those with `block.isLegal`.
+    - COMP 3031 / lab 5 / solver ::@:: Search in breadth-first order using `LazyList[(Block, List[Move])]`, where the move history is stored with the most recent move at the head of the list.
+      - COMP 3031 / lab 5 / solver / goal test ::@:: `done(b: Block)` returns `true` if the block is standing on the goal position `T`.
+      - COMP 3031 / lab 5 / solver / `neighborsWithHistory`, `newNeighborsOnly` ::@:: `neighborsWithHistory` extends from a node `(block, history)` to all legal neighbors, prepending the move to `history`. <p> `newNeighborsOnly` filters away already explored blocks to avoid cycles.
+      - COMP 3031 / lab 5 / solver / `from` ::@:: Build layers of paths lazily, always expanding the current frontier before moving to the next. This ensures breadth-first traversal, so the first time you reach the goal, the path is shortest. <p> 1. If `initial` is empty, return empty `LazyList`. <br/> 2. Otherwise, compute `next` by: `neighborsWithHistory` for each `(b, hist)` in `initial`; `newNeighborsOnly(next, explored)` to remove revisits. <br/> 3. Return `initial #::: from(next, explored ++ next.map(_._1).toSet)`.
+      - COMP 3031 / lab 5 / solver / `pathsFromStart` ::@:: Start from the initial block with empty history: `from(LazyList((startBlock, Nil)), Set(startBlock))`
+      - COMP 3031 / lab 5 / solver / `pathsToGoal` ::@::  Filter all paths in `pathsFromStart` whose block satisfies `done`.
+      - COMP 3031 / lab 5 / solver / `solution` ::@:: Extract the move list from the first path in `pathsToGoal` to the goal and reverse it so that the head is the first move to play.
+    - COMP 3031 / lab 5 / laziness ::@:: `LazyList` ensures you only compute as much of the search frontier as needed; BFS guarantees the first goal path discovered is shortest. Avoid recomputation by tracking `explored` blocks; only expand fresh neighbors.
+    - COMP 3031 / lab 5 / summary ::@:: Parse terrain → define block & moves → generate legal neighbors → lazy BFS (`from`) with cycle avoidance → filter goal paths → reverse history for final `solution`. <p> This pattern generalizes to other shortest‑path problems on implicit graphs.
 
 ## week 12 lecture
 
@@ -751,6 +930,8 @@ The content is in teaching order.
 ## week 13 lab
 
 - datetime: 2025-11-24T15:00:00+08:00/2025-11-24T16:20:00+08:00, PT1H20M
+- topic: final examination preparation
+- [§ final examination](logic%20programming.md#final%20examination)
 
 ## week 13 lecture
 
@@ -792,10 +973,70 @@ The content is in teaching order.
     - [§ message delivery](actor%20model.md#message%20delivery)
     - [§ web client example](actor%20model.md#web%20client%20example)
     - [§ actor application](actor%20model.md#actor%20application)
+- assignment: [assignment 3](assignments/assignment%203/index.md)
+
+## final examination
+
+- datetime: 2025‑12-15T08:30:00+08:00/2025‑12-15T10:30:00+08:00, PT2H  
+- venue: Lecture Theater L, CYT Building
+- format
+  - calculator: no  
+  - cheatsheet: yes (unlimited)
+  - referencing: closed books, closed notes
+  - provided: (none)
+  - questions: long question ×3 (with subquestions)
+- grades: 40/40+5/5 → 40/40+5/5
+  - statistics
+    - timestamps: 2025-12-19T14:46+08:00 → 2025-12-22T12:23+08:00
+    - count: 65 → 65
+    - mean: 21.93 → 21.93
+    - standard deviation: ? → ?
+    - low: 5 → 5
+    - lower quartile: 13.13 → 13.13
+    - median: 22 → 22
+    - upper quartile: 28.88 → 28.88
+    - high: 40 → 40
+    - graph: ? → ?
+    - data: ? → ?
+  - breakdown
+    - question 1: 2 → 2
+    - question 2: 1 → 1
+    - question 2 bonus: 1 → 1
+    - question 3: 6 → 6
+    - question 3 bonus: 3 → 3
+    - question 4: 3 → 3
+    - question 5: 2 → 2
+    - question 6: 2 → 2
+    - question 7: 2 → 2
+    - question 8: 3 → 3
+    - question 9: 3 → 3
+    - question 10: 3 → 3
+    - question 10 bonus: 1 → 1
+    - question 11: 4 → 4
+    - question 12: 1 → 1
+    - question 13: 5 → 5
+    - question 14: 3 → 3
+- report
+  - lateness due to traffic jam (0) ::@:: Due to a big traffic jam, was 20 minutes late; which was fine in the end.
+- check
+  - datetime: 2025‑12-22T09:30:00+08:00/2025‑12‑22T11:30:00+08:00, PT2H  
+  - venue: Room 3523, Academic Building
+  - report: (none)
+
+---
+
+> __<big><big>Final exam paper checking session</big></big>__
+>
+> Dear all,
+>
+> The final exam papers have been graded and the grades have been posted on Canvas. The paper checking session will take place on Monday, December 22, 2025 between 9:30am and 11:30am in Rm 3523. You can check the exam solutions on Canvas.
+>
+> Best, <br/>
+> \[redacted\]
 
 ## aftermath
 
 ### total
 
-- grades: ?/100
+- grades: 100/100+15/15
   - statistics: ?
