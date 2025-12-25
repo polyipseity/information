@@ -184,7 +184,7 @@ From {@{a more general and abstract perspective}@}, {@{a curvilinear coordinate 
 
 ## vector and tensor algebra in three-dimensional curvilinear coordinates
 
-- Note: <!-- flashcard ID: bd2efead-e1d7-4367-9ff0-94d88c5a54c5 -->::@:: the [Einstein summation convention](Einstein%20summation%20convention.md) of summing on repeated indices is used below. <!--SR:!2025-12-19,56,348!2026-09-13,269,368-->
+- Note: <!-- flashcard ID: bd2efead-e1d7-4367-9ff0-94d88c5a54c5 -->::@:: the [Einstein summation convention](Einstein%20summation%20convention.md) of summing on repeated indices is used below. <!--SR:!2026-09-15,270,368!2026-09-13,269,368-->
 
 {@{Elementary vector and tensor algebra in curvilinear coordinates}@} is used in {@{some of the older scientific literature}@} in {@{[mechanics](mechanics.md) and [physics](physics.md)}@} and can be {@{indispensable to understanding work from the early and mid-1900s}@}, for example {@{the text by Green and Zerna}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Some useful relations}@} in {@{the algebra of vectors and second-order tensors in curvilinear coordinates}@} are {@{given in this section}@}. {@{The notation and contents}@} are primarily from Ogden,<sup>[\[6\]](#^ref-6)</sup> Naghdi,<sup>[\[7\]](#^ref-7)</sup> Simmonds,<sup>[\[2\]](#^ref-2)</sup> Green and Zerna,<sup>[\[5\]](#^ref-5)</sup> Basar and Weichert,<sup>[\[8\]](#^ref-8)</sup> and Ciarlet.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-01-03,73,336!2026-01-04,73,327!2026-01-06,75,327!2025-12-30,69,327!2026-08-21,248,330!2026-01-05,74,327!2026-01-08,77,336!2026-01-06,75,327!2025-12-22,62,327-->
 

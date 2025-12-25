@@ -19,11 +19,11 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 ## list
 
-To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2025-12-19,56,310!2025-12-21,58,310!2025-12-25,61,310!2026-01-16,79,349!2026-01-16,79,349-->
+To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2026-08-20,244,330!2025-12-21,58,310!2025-12-25,61,310!2026-01-16,79,349!2026-01-16,79,349-->
 
 ## length
 
-{@{The length of a sequence}@} can be determined by {@{`len(sequence)`}@}. <!--SR:!2025-12-19,56,310!2025-12-30,65,310-->
+{@{The length of a sequence}@} can be determined by {@{`len(sequence)`}@}. <!--SR:!2026-08-18,242,330!2025-12-30,65,310-->
 
 ## indexing
 
@@ -86,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is {@{a difference between strings and lists}@} when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for {@{lists}@}, there are {@{operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-12-19,56,310!2025-12-31,66,310!2025-12-27,63,310!2026-05-07,160,310!2026-01-10,75,326!2026-01-16,79,349!2025-12-19,41,329!2026-01-16,79,349!2026-02-14,86,374!2026-02-14,86,374-->
+Note that there is {@{a difference between strings and lists}@} when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for {@{lists}@}, there are {@{operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2026-08-19,243,330!2025-12-31,66,310!2025-12-27,63,310!2026-05-07,160,310!2026-01-10,75,326!2026-01-16,79,349!2026-06-19,182,349!2026-01-16,79,349!2026-02-14,86,374!2026-02-14,86,374-->
 
 ```Python
 original = [1, 2, 3]

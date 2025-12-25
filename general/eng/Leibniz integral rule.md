@@ -14,7 +14,7 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {@{a rule that allo
 >
 > 1. Let {@{$f(x, t)$}@} be {@{a [function](function%20(mathematics).md)}@} such that {@{both $f(x, t)$ and its [partial derivative](partial%20derivative.md) with respect to $x$, $f_x(x, t)$}@}, are {@{jointly [continuous](continuous%20function.md) in $x$ and $t$ over the $xt$-plane \(annotation: not just continuous in both $x$ and $t$ separately\)}@}, including {@{$x_0 \le x \le x_1$ and $a(x) \le t \le b(x)$}@} \(annotation: {@{swapping the inequalities}@} if {@{$b(x) > a(x)$}@}\).
 > 2. Let {@{$a(x)$ and $b(x)$}@} be {@{[continuously differentiable functions](differentiable%20function.md) on $x_0 \le x \le x_1$}@}.
-> 3. Then, {@{$$\forall x \in [x_0, x_1] \qquad \frac{\mathrm{d} }{\mathrm{d}x} \int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t = f(x, b(x)) b'(x) - f(x, a(x)) a'(x) + \int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x \,.$$}@} <!--SR:!2026-03-28,189,221!2026-02-21,556,321!2026-08-01,612,281!2026-02-20,126,394!2026-12-12,360,394!2026-02-26,131,394!2026-02-20,126,394!2026-02-26,131,394!2026-02-14,121,394!2025-12-19,72,374-->
+> 3. Then, {@{$$\forall x \in [x_0, x_1] \qquad \frac{\mathrm{d} }{\mathrm{d}x} \int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t = f(x, b(x)) b'(x) - f(x, a(x)) a'(x) + \int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x \,.$$}@} <!--SR:!2026-03-28,189,221!2026-02-21,556,321!2026-08-01,612,281!2026-02-20,126,394!2026-12-12,360,394!2026-02-26,131,394!2026-02-20,126,394!2026-02-26,131,394!2026-02-14,121,394!2026-12-30,376,394-->
 
 <!-- markdownlint MD028 -->
 

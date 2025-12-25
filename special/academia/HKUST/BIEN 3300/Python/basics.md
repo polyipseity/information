@@ -136,9 +136,9 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`in` <!--SR:!2025-12-30,65,310!2026-08-09,234,330-->
 - `in`→::@::←`<` <!--SR:!2025-12-30,65,310!2025-12-26,62,310-->
 - `<`→::@::←`<=` <!--SR:!2025-12-20,57,310!2025-12-24,60,310-->
-- `<=`→::@::←`>` <!--SR:!2025-12-19,56,310!2025-12-29,64,310-->
+- `<=`→::@::←`>` <!--SR:!2026-08-19,243,330!2025-12-29,64,310-->
 - `>`→::@::←`>=` <!--SR:!2025-12-31,66,310!2025-12-31,66,310-->
-- `>=`→::@::←`!=` <!--SR:!2025-12-24,60,310!2025-12-19,56,310-->
+- `>=`→::@::←`!=` <!--SR:!2025-12-24,60,310!2026-08-22,246,330-->
 - `!=`→::@::←`==` <!--SR:!2026-01-01,67,310!2026-08-10,236,330-->
 - `==`→::@::←_(end)_ <!--SR:!2025-12-27,63,310!2025-12-24,60,310-->
 
@@ -158,7 +158,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2026-08-16,241,330-->
 
-Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2026-08-14,239,330!2025-12-21,58,310!2025-12-25,61,310!2025-12-19,56,310!2025-12-21,58,310!2026-01-01,67,310!2025-12-27,63,310!2025-12-23,59,310-->
+Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2026-08-14,239,330!2025-12-21,58,310!2025-12-25,61,310!2026-08-20,244,330!2025-12-21,58,310!2026-01-01,67,310!2025-12-27,63,310!2025-12-23,59,310-->
 
 ### logic operators
 
@@ -230,7 +230,7 @@ Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some
 
 ### augmented assignment
 
-Assignment supports {@{performing an arithmetic operation on an existing variable}@}. Use {@{`<op>=`}@}, where {@{`<op>` is the arithmetic operator}@}: <!--SR:!2025-12-23,59,310!2026-08-15,240,330!2025-12-19,56,310-->
+Assignment supports {@{performing an arithmetic operation on an existing variable}@}. Use {@{`<op>=`}@}, where {@{`<op>` is the arithmetic operator}@}: <!--SR:!2025-12-23,59,310!2026-08-15,240,330!2026-08-18,242,330-->
 
 ```Python
 variableName += 2

@@ -11,7 +11,7 @@ tags:
 
 > {@{![Generic tree rotations.](../../archives/Wikimedia%20Commons/BinaryTreeRotations.svg)}@}
 >
-> {@{Generic tree rotations.}@} <!--SR:!2029-05-22,1255,350!2025-12-19,278,330-->
+> {@{Generic tree rotations.}@} <!--SR:!2029-05-22,1255,350!2029-06-07,1266,350-->
 
 In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2029-01-17,1158,350!2027-04-08,635,330!2025-12-31,287,330!2029-01-03,1146,350!2029-03-07,1195,350!2028-01-11,800,330-->
 
@@ -57,7 +57,7 @@ Root = Pivot
 > {@{Root.OS = Pivot.RS}@}
 > {@{Pivot.RS = Root}@}
 > {@{Root = Pivot}@}
-> </pre> <!--SR:!2028-08-15,1033,350!2029-01-18,1158,350!2025-12-19,230,270!2027-05-13,665,330-->
+> </pre> <!--SR:!2028-08-15,1033,350!2029-01-18,1158,350!2028-05-04,867,290!2027-05-13,665,330-->
 
 This is a {@{constant time}@} operation. <!--SR:!2028-09-07,1051,350-->
 

@@ -315,7 +315,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {@{1}@}
-> - explanation: {@{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}@} <!--SR:!2027-09-11,872,348!2025-12-19,405,368-->
+> - explanation: {@{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}@} <!--SR:!2027-09-11,872,348!2031-07-19,2038,388-->
 
 <!-- markdownlint MD028 -->
 

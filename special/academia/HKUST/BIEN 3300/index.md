@@ -64,7 +64,7 @@ The content is in teaching order.
   - BIEN 3300 / rules
 - [data](../../../../general/data.md) ::@:: They are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally. <!--SR:!2025-12-28,63,310!2026-01-01,67,310-->
 - [data science](../../../../general/data%20science.md) ::@:: It is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data. <!--SR:!2025-12-24,60,310!2026-08-07,233,330-->
-  - data science / learning ::@:: Given input data and output data, data science allows us to learn things from it and apply it to new input data. <!--SR:!2025-12-24,60,310!2025-12-19,56,310-->
+  - data science / learning ::@:: Given input data and output data, data science allows us to learn things from it and apply it to new input data. <!--SR:!2025-12-24,60,310!2026-08-22,246,330-->
   - data science / examples ::@:: AlphaFold \(protein structure prediction\), AlphaGo <!--SR:!2025-12-27,62,310!2026-08-14,239,330-->
     - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc. <!--SR:!2025-12-27,63,310!2025-12-20,57,310-->
     - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc. <!--SR:!2025-12-27,63,310!2026-08-12,237,330-->
@@ -101,7 +101,7 @@ The content is in teaching order.
     - [§ print](Python/console.md#print)
   - Python / [comment](Python/comment.md)
     - [§ comment](Python/comment.md#comment)
-  - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!2025-12-19,56,310!2025-12-25,61,310-->
+  - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!2026-08-21,245,330!2025-12-25,61,310-->
   - Python / [basics](Python/basics.md)
     - [§ variable](Python/basics.md#variable)
     - [§ augmented assignment](Python/basics.md#augmented%20assignment)

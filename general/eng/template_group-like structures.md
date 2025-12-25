@@ -42,7 +42,7 @@ tags:
 > __flashcards__
 >
 > - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2029-01-14,1145,350!2025-12-23,272,330-->
-> - partial magma ::@:: (none) <!--SR:!2025-12-19,268,330!2029-04-16,1216,350-->
+> - partial magma ::@:: (none) <!--SR:!2029-04-21,1219,350!2029-04-16,1216,350-->
 > - semigroupoid ::@:: associative <!--SR:!2027-08-23,620,250!2026-01-19,96,230-->
 > - small category ::@:: associative, identity <!--SR:!2027-06-08,608,310!2026-01-14,290,330-->
 > - groupoid ::@:: associative, identity, divisible <!--SR:!2026-11-11,496,310!2026-03-19,267,250-->

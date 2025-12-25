@@ -51,7 +51,7 @@ In the case where {@{several production units are already running at full capaci
 
 > {@{![Fishbone Diagram - for finding bottlenecks](../../archives/Wikimedia%20Commons/Ishikawa%20Fishbone%20Diagram.svg)}@}
 >
-> {@{Fishbone Diagram}@} - for {@{finding bottlenecks}@} <!--SR:!2026-02-09,270,330!2026-03-04,291,330!2025-12-19,231,330-->
+> {@{Fishbone Diagram}@} - for {@{finding bottlenecks}@} <!--SR:!2026-02-09,270,330!2026-03-04,291,330!2028-11-05,1052,350-->
 
 {@{A [fishbone diagram](Ishikawa%20diagram.md)}@} is {@{a graphical means for finding possible problems in a chain of processes}@}. By collecting {@{the different data related to the problem}@}, and {@{inputting them into the [diagram](diagram.md)}@}, it becomes easier to {@{analyze the data in the order it is used}@}, and hence {@{determine the root of the problem}@}. This is commonly used to {@{find the bottleneck in a chain of processes}@} due to being able to {@{pinpoint the machine precisely responsible for the delay in production}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-01-07,245,330!2025-12-30,241,330!2026-02-09,270,330!2026-01-17,255,330!2026-02-16,277,330!2026-02-20,281,330!2026-01-11,250,330!2026-03-06,293,330-->
 

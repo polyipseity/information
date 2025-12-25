@@ -1478,7 +1478,7 @@ tags:
 >
 > Do you agree with the student's claim? Justify your answer.
 >
-> - solution: {@{No. <p> For a Markov chain, the state at time $t$ is independent of the values previous processes $X_1, X_2, \cdots, X_{t - 2}$ take. But it _may_ (or _may not_) depend on $X_{t - 1}$.}@} <!--SR:!2025-12-19,279,330-->
+> - solution: {@{No. <p> For a Markov chain, the state at time $t$ is independent of the values previous processes $X_1, X_2, \cdots, X_{t - 2}$ take. But it _may_ (or _may not_) depend on $X_{t - 1}$.}@} <!--SR:!2029-06-10,1269,350-->
 
 <!-- markdownlint MD028 -->
 

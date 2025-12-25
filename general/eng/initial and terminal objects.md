@@ -50,7 +50,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 > {@{![Center: the zero object. <br/> Left half: all elements of an object maps to zero, the terminal morphism. <br/> Right half: 0 maps to 0, the initial monomorphism.](../../archives/Wikimedia%20Commons/Terminal%20and%20initial%20object.svg)}@}
 >
-> {@{Morphisms of pointed sets}@}. The image also {@{applies to algebraic zero objects}@} <!--SR:!2025-12-19,263,337!2026-01-23,292,337!2026-04-16,361,357-->
+> {@{Morphisms of pointed sets}@}. The image also {@{applies to algebraic zero objects}@} <!--SR:!2029-04-23,1221,357!2026-01-23,292,337!2026-04-16,361,357-->
 
 - In {@{the category of [pointed sets](pointed%20set.md)}@} \(whose {@{objects are non-empty sets together with a distinguished element; a morphism from \(_A_, <!-- markdown separator -->_a_\) to \(_B_, <!-- markdown separator -->_b_\) being a function _f_ : _A_ → _B_ with _f_\(_a_\) = _b_}@}\), {@{every singleton is a zero object}@}. Similarly, in {@{the category of [pointed topological spaces](pointed%20space.md)}@}, {@{every singleton is a zero object}@}. <!--SR:!2026-10-15,468,310!2026-11-27,513,317!2026-04-25,369,359!2026-04-18,363,357!2027-04-17,526,406-->
 

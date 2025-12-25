@@ -18,7 +18,7 @@ tags:
 # standard score
 
 - "{@{Standardize}@}" redirects here. For {@{industrial and technical standards}@}, see {@{[Standardization](standardization.md)}@}.
-- "{@{Z-score}@}" redirects here. For other uses, see [Z-score \(disambiguation\)](z-score%20(disambiguation).md). <!--SR:!2025-12-19,248,330!2025-12-26,255,330!2029-01-04,1116,350!2026-01-29,281,330-->
+- "{@{Z-score}@}" redirects here. For other uses, see [Z-score \(disambiguation\)](z-score%20(disambiguation).md). <!--SR:!2029-01-21,1129,350!2025-12-26,255,330!2029-01-04,1116,350!2026-01-29,281,330-->
 
 > {@{![Comparison of the various grading methods in a [normal distribution](normal%20distribution.md), including: [standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)](../../archives/Wikimedia%20Commons/The%20Normal%20Distribution.svg)}@}
 >
@@ -39,7 +39,7 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 - _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2025-12-24,253,330!2026-01-22,275,330-->
 - _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2026-02-14,294,330!2026-01-09,265,330-->
 
-{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2025-12-19,249,330!2026-02-05,286,330!2026-01-15,270,330!2026-01-22,276,330-->
+{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2029-01-24,1132,350!2026-02-05,286,330!2026-01-15,270,330!2026-01-22,276,330-->
 
 {@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, {@{knowing the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}. <!--SR:!2026-01-22,275,330!2025-12-29,256,330!2026-01-31,282,330!2026-01-22,275,330!2026-02-04,285,330-->
 

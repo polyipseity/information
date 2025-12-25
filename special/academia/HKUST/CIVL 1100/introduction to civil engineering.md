@@ -847,7 +847,7 @@ Tsing Ma Bridge
 - _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2026-02-11,375,298!2029-12-09,1648,397-->
 - Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2028-02-29,983,327!2029-05-15,1365,327-->
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2028-07-19,1018,320!2026-03-31,447,300-->
-- Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2026-04-03,502,340-->
+- Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2031-07-08,2027,357!2026-04-03,502,340-->
 - Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2028-10-02,1199,327-->
 - Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2031-11-23,2180,350-->
 
@@ -1188,7 +1188,7 @@ water transport
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←airport <!--SR:!2027-01-13,721,310!2032-02-12,2319,415-->
-- airport→::@::←bicycle path <!--SR:!2028-05-08,1156,375!2025-12-19,472,357-->
+- airport→::@::←bicycle path <!--SR:!2028-05-08,1156,375!2032-04-19,2313,377-->
 - bicycle path→::@::←highway <!--SR:!2027-10-01,983,380!2028-04-24,1146,380-->
 - highway→::@::←pier <!--SR:!2030-03-05,1610,340!2027-09-06,903,320-->
 - pier→::@::←pipeline <!--SR:!2026-12-01,676,380!2026-10-13,614,314-->

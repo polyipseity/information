@@ -15,7 +15,7 @@ In {@{the [mathematical](mathematics.md) field of [category theory](category%20t
 
 ## properties of the category of sets
 
-{@{The axioms of a category are satisfied by __Set__}@} because {@{composition of functions is [associative](associative%20property.md)}@}, and because {@{every set _X_ has an [identity function](identity%20function.md) id<sub>_X_</sub> : _X_ → _X_ which serves as identity element for function composition}@}. <!--SR:!2025-12-19,267,330!2025-12-27,274,330!2026-01-18,292,330-->
+{@{The axioms of a category are satisfied by __Set__}@} because {@{composition of functions is [associative](associative%20property.md)}@}, and because {@{every set _X_ has an [identity function](identity%20function.md) id<sub>_X_</sub> : _X_ → _X_ which serves as identity element for function composition}@}. <!--SR:!2029-04-16,1214,350!2025-12-27,274,330!2026-01-18,292,330-->
 
 {@{The [epimorphisms](epimorphism.md) in __Set__ are the [surjective](surjective.md) maps}@}, {@{the [monomorphisms](monomorphism.md) are the [injective](injective.md) maps}@}, and {@{the [isomorphisms](isomorphism%20(category%20theory).md#category%20theoretic%20view) are the [bijective](bijective.md) maps}@}. (annotation: for {@{other categories, these are not true in general}@}) <!--SR:!2028-01-12,828,330!2026-01-25,246,270!2026-01-02,279,330!2026-03-31,353,350-->
 

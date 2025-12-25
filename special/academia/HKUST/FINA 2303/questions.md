@@ -835,7 +835,7 @@ tags:
 > 3. increase
 > 4. insufficient information to determine
 >
-> - solution: {@{2}@} <!--SR:!2025-12-19,154,432-->
+> - solution: {@{2}@} <!--SR:!2028-06-17,911,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -932,7 +932,7 @@ tags:
 > 3. 6%
 > 4. 9%
 >
-> - solution: {@{4}@} <!--SR:!2025-12-19,156,432-->
+> - solution: {@{4}@} <!--SR:!2028-06-18,912,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -974,7 +974,7 @@ tags:
 > 2. increase
 > 3. no change
 >
-> - solution: {@{3}@} <!--SR:!2025-12-19,154,432-->
+> - solution: {@{3}@} <!--SR:!2028-06-14,908,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1093,7 +1093,7 @@ tags:
 > 2. firms with only unsystematic risk
 > 3. firms with a mix of both systematic and unsystematic risk
 >
-> - solution: {@{1}@} <!--SR:!2025-12-19,156,432-->
+> - solution: {@{1}@} <!--SR:!2028-06-19,913,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1186,7 +1186,7 @@ tags:
 > 2. stock B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-12-25,162,438!2025-12-19,154,432-->
+> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-12-25,162,438!2028-06-15,909,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1393,7 +1393,7 @@ tags:
 > 2. Incorrectly accept the project which provides insufficient return to compensate for its risk.
 > 3. Incorrectly reject the project which provides a return higher than required by its risk.
 >
-> - solution: {@{2}@} <!--SR:!2025-12-19,156,432-->
+> - solution: {@{2}@} <!--SR:!2028-06-20,914,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1411,4 +1411,4 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-12-19,154,438-->
+> - solution: {@{2}@} <!--SR:!2028-06-22,916,458-->

@@ -290,7 +290,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2032-03-14,2347,417-->
 - height ::@:: 20.1 m <!--SR:!2026-05-25,489,281!2029-07-15,1409,380-->
-- image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2025-12-19,477,400-->
+- image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2033-02-04,2604,420-->
 - length ::@:: 520 m <!--SR:!2026-12-03,550,280!2026-09-13,645,330-->
 
 ## Tsing Ma Bridge

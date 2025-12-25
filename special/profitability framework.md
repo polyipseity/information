@@ -18,7 +18,7 @@ _I have no idea why this needs to be a framework, but here it is anyway._
 
 {@{$$\begin{aligned} \text{profit} & = \text{revenue} - \text{costs} \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\text{variable cost} + \text{fixed cost} \right) \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\left(\sum \text{cost}_i \cdot \text{units}_i \right) + \text{fixed cost} \right) \end{aligned}$$}@} <!--SR:!2027-06-11,770,290-->
 
-Revenues may be {@{one-time or recurring}@}, such as {@{asset sales and support offering}@}. Variable costs are {@{per unit}@}, such as {@{outsourced production costs, packaging costs, sales commission, and shipping costs}@}. Fixed costs are {@{independent of # units sold}@}, such as {@{bank interests, _fixed_ salaries, rent, subscribed services, and utility}@}. <!--SR:!2028-10-08,1224,350!2026-04-17,458,310!2025-12-19,399,310!2027-06-21,681,270!2026-12-29,703,330!2027-01-19,685,290-->
+Revenues may be {@{one-time or recurring}@}, such as {@{asset sales and support offering}@}. Variable costs are {@{per unit}@}, such as {@{outsourced production costs, packaging costs, sales commission, and shipping costs}@}. Fixed costs are {@{independent of # units sold}@}, such as {@{bank interests, _fixed_ salaries, rent, subscribed services, and utility}@}. <!--SR:!2028-10-08,1224,350!2026-04-17,458,310!2030-08-26,1711,330!2027-06-21,681,270!2026-12-29,703,330!2027-01-19,685,290-->
 
 ## usage
 

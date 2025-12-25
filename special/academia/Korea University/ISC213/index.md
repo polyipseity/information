@@ -376,7 +376,7 @@ The content is in teaching order.
   - local: 2025-07-15T08:00:00+08:00/2025-07-15T09:40:00+08:00, PT1H40M
 - topic: foundations of business intelligence
 - [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate. <!--SR:!2027-09-03,624,415!2025-12-25,120,395-->
-  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc. <!--SR:!2025-12-30,125,395!2025-12-19,116,395-->
+  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc. <!--SR:!2025-12-30,125,395!2027-09-03,623,415-->
   - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>&nbsp;B\), exabytes \(EB, 1000<sup>6</sup>&nbsp;B\), etc. <!--SR:!2025-12-25,120,395!2026-01-05,131,395-->
 - business intelligence
   - business intelligence / infrastructure ::@:: many tools for big data and separate systems <!--SR:!2025-12-25,122,395!2026-01-04,130,395-->
@@ -391,7 +391,7 @@ The content is in teaching order.
 - [online analytical processing](../../../../general/online%20analytical%20processing.md) \(OLAP\) ::@:: It is an approach to quickly answer multi-dimensional analytical \(MDA\) queries. <!--SR:!2025-12-26,121,395!2026-01-03,129,395-->
   - online analytical processing / data cubes ::@:: Data is viewed as multidimensional cubes. Each information aspect \(e.g. attribute\) is a dimension. <!--SR:!2025-12-25,120,395!2026-01-02,128,395-->
 - [data mining](../../../../general/data%20mining.md) ::@:: It is the process of extracting and finding \(hidden\) patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems. <!--SR:!2025-12-28,123,395!2025-12-26,121,395-->
-  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns <!--SR:!2025-12-29,124,395!2025-12-19,116,395-->
+  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns <!--SR:!2025-12-29,124,395!2027-09-02,622,415-->
   - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc. <!--SR:!2025-12-27,122,395!2025-12-20,117,395-->
 - [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources". <!--SR:!2025-12-31,126,395!2025-12-20,117,395-->
   - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc. <!--SR:!2025-12-20,117,395!2025-12-23,120,395-->
@@ -401,9 +401,9 @@ The content is in teaching order.
 - [information policy](../../../../general/information%20policy.md) ::@:: It is the set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication and dissemination of information. <!--SR:!2026-01-02,128,395!2025-12-26,121,395-->
   - information policy / firms ::@:: firm-based procedures, roles, and rules to manage, share, and standardize data <!--SR:!2026-01-03,129,395!2025-12-29,124,395-->
   - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance <!--SR:!2026-01-05,131,395!2026-01-03,129,395-->
-  - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-12-21,118,395!2025-12-19,116,395-->
+  - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-12-21,118,395!2027-09-10,630,415-->
   - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations <!--SR:!2025-12-25,120,395!2025-12-31,126,395-->
-  - information policy / database administration ::@:: create and maintain databases <!--SR:!2027-08-22,613,415!2025-12-19,116,395-->
+  - information policy / database administration ::@:: create and maintain databases <!--SR:!2027-08-22,613,415!2027-09-09,629,415-->
 - [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-12-30,125,395!2027-08-31,621,415-->
   - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy <!--SR:!2026-01-04,130,395!2025-12-24,121,395-->
   - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-12-25,120,395!2025-12-25,122,395-->
@@ -419,7 +419,7 @@ The content is in teaching order.
   - text mining / processes ::@:: collection → preprocessing → text analysis \(clustering, extraction, summarization\) → management information system → knowledge <!--SR:!2025-12-22,119,395!2025-12-26,121,395-->
   - text mining / business ::@:: Define clear goals and expectations. Perform ROI analysis. Research vendors and clients. Integrate with existing IT infrastructure \(reuse\). Seek talents. Know new technology trends. <!--SR:!2025-12-27,122,395!2025-12-25,122,395-->
   - text mining / origins ::@:: information extraction \(e.g. classification, summarization, etc.\), information retrieval, library science, information science, natural language processing, etc. <!--SR:!2025-12-25,120,395!2025-12-23,120,395-->
-  - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\) <!--SR:!2025-12-19,116,395!2025-12-23,120,395-->
+  - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\) <!--SR:!2027-09-06,626,415!2025-12-23,120,395-->
   - text mining / timeline ::@:: text summarization \(for libraries\) → information extraction → information discovery <!--SR:!2026-01-02,128,395!2025-12-22,119,395-->
 - true positive \(TP\) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2025-12-27,122,395!2025-12-30,125,395-->
 - true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2025-12-20,117,395!2025-12-29,124,395-->
@@ -427,7 +427,7 @@ The content is in teaching order.
 - false negative \(FN\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative. <!--SR:!2026-01-03,129,395!2025-12-22,119,395-->
 - [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$ <!--SR:!2026-01-05,131,395!2025-12-31,126,395-->
   - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$ <!--SR:!2025-12-25,120,395!2026-01-03,129,395-->
-- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2025-12-25,120,395!2025-12-19,116,395-->
+- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2025-12-25,120,395!2027-09-08,628,415-->
 - [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$ <!--SR:!2025-12-25,120,395!2026-01-05,131,395-->
 - [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model. <!--SR:!2027-03-17,454,395!2026-01-02,128,395-->
 - [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one. <!--SR:!2025-12-26,121,395!2026-01-04,130,395-->
@@ -485,10 +485,10 @@ The content is in teaching order.
 - datetime: 2025-07-22T09:00:00+09:00/2025-07-22T10:40:00+09:00, PT1H40M
   - local: 2025-07-22T08:00:00+08:00/2025-07-22T09:40:00+08:00, PT1H40M
 - topic: managing knowledge, artificial intelligence
-- [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill. <!--SR:!2025-12-19,116,395!2026-01-04,130,395-->
+- [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill. <!--SR:!2027-09-07,627,415!2026-01-04,130,395-->
   - knowledge / nature ::@:: different forms, experiences network effect, intangible, situational \(_not_ timeless\) <!--SR:!2025-12-29,124,395!2025-12-31,126,395-->
   - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources. <!--SR:!2025-12-26,121,395!2025-12-24,121,395-->
-  - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc. <!--SR:!2025-12-19,116,395!2026-01-04,130,395-->
+  - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc. <!--SR:!2027-09-04,624,415!2026-01-04,130,395-->
   - knowledge / taxonomy ::@:: It is a scheme to classify information and knowledge meaningfully. <!--SR:!2026-01-13,138,400!2026-01-13,138,400-->
 - [organizational learning](../../../../general/organizational%20learning.md) ::@:: It is the process of creating, retaining, and transferring knowledge within an organization. An organization improves over time as it gains experience. From this experience, it is able to create knowledge. This knowledge is broad, covering any topic that could better an organization. <!--SR:!2026-01-01,127,395!2026-01-05,131,395-->
   - organizational learning / sources ::@:: collection of data, feedback, measurement, and trial and error <!--SR:!2025-12-26,121,395!2025-12-25,120,395-->

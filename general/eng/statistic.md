@@ -29,7 +29,7 @@ In this case, {@{"52%" is a statistic}@}, namely {@{the percentage of women in t
 
 - "The manager of a large hotel located near Disney World indicated that 20 selected guests had a mean length of stay equal to __5.6__ days."
 
-In this example, {@{"5.6 days" is a statistic}@}, namely {@{the mean length of stay for our sample of 20 hotel guests}@}. {@{The population}@} is {@{the set of all guests of this hotel}@}, and {@{the population parameter}@} being estimated is {@{the mean length of stay for _all_ guests}@}.<sup>[\[2\]](#^ref-2)</sup> Whether {@{the estimator is unbiased in this case depends upon the sample selection process}@}; see {@{[the inspection paradox](renewal%20theory.md#the%20inspection%20paradox)}@}. <!--SR:!2025-12-19,246,330!2027-10-06,743,330!2026-02-16,292,330!2026-01-15,267,330!2026-01-25,275,330!2026-01-08,261,330!2026-01-06,259,330!2026-01-26,276,330-->
+In this example, {@{"5.6 days" is a statistic}@}, namely {@{the mean length of stay for our sample of 20 hotel guests}@}. {@{The population}@} is {@{the set of all guests of this hotel}@}, and {@{the population parameter}@} being estimated is {@{the mean length of stay for _all_ guests}@}.<sup>[\[2\]](#^ref-2)</sup> Whether {@{the estimator is unbiased in this case depends upon the sample selection process}@}; see {@{[the inspection paradox](renewal%20theory.md#the%20inspection%20paradox)}@}. <!--SR:!2029-01-16,1124,350!2027-10-06,743,330!2026-02-16,292,330!2026-01-15,267,330!2026-01-25,275,330!2026-01-08,261,330!2026-01-06,259,330!2026-01-26,276,330-->
 
 There are {@{a variety of functions}@} that are used to {@{calculate statistics}@}. Some include: <!--SR:!2025-12-30,255,330!2026-01-26,276,330-->
 
