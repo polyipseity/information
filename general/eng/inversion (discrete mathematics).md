@@ -22,13 +22,13 @@ In {@{[computer science](computer%20science.md) and [discrete mathematics](discr
 <!-- markdownlint-disable-next-line MD024 -->
 ### inversion
 
-Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__ of $\pi$ between $i$ and $j$}@} if {@{$i<j$ and $\pi (i)>\pi (j)$}@}. The inversion is indicated by {@{an ordered pair}@} containing {@{either the places $(i,j)$<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> or the elements ${\bigl (}\pi (i),\pi (j){\bigr )}$}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-20,300,332!2029-08-12,1341,352!2025-12-18,298,332!2028-07-17,956,332!2026-01-04,25,377-->
+Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__ of $\pi$ between $i$ and $j$}@} if {@{$i<j$ and $\pi (i)>\pi (j)$}@}. The inversion is indicated by {@{an ordered pair}@} containing {@{either the places $(i,j)$<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> or the elements ${\bigl (}\pi (i),\pi (j){\bigr )}$}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-20,300,332!2029-08-12,1341,352!2029-09-11,1363,352!2028-07-17,956,332!2026-01-04,25,377-->
 
 {@{The [inversion set](#example%20all%20permutations%20of%20four%20elements)}@} is {@{the set of all inversions}@}. {@{A permutation's inversion set using place-based notation}@} is {@{the same as the [inverse permutation's](permutation.md#definition) inversion set using element-based notation}@} with {@{the two components of each ordered pair exchanged}@}. Likewise, {@{a permutation's inversion set using element-based notation}@} is {@{the same as the inverse permutation's inversion set using place-based notation}@} with {@{the two components of each ordered pair exchanged}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-08-16,1345,350!2027-01-28,580,312!2029-08-29,1352,352!2027-07-08,655,312!2027-11-14,816,332!2027-08-21,761,332!2029-05-08,1266,352!2028-03-06,900,332-->
 
 Inversions are usually defined for {@{permutations, but may also be defined for sequences}@}: Let {@{$S$ be a [sequence](sequence.md) \(or [multiset](multiset.md) permutation<sup>[\[7\]](#^ref-7)</sup>\)}@}. If {@{$i<j$ and $S(i)>S(j)$}@}, {@{either the pair of places $(i,j)$<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup> or the pair of elements ${\bigl (}S(i),S(j){\bigr )}$}@}<sup>[\[9\]](#^ref-9)</sup> is {@{called an inversion of $S$}@}. <!--SR:!2029-04-29,1259,352!2028-05-28,920,332!2029-07-11,1314,352!2029-05-13,1271,352!2029-05-28,1283,352-->
 
-For sequences, {@{inversions according to the element-based definition are not unique}@}, because {@{different pairs of places may have the same pair of values}@}. <!--SR:!2027-05-06,682,332!2025-12-18,298,332-->
+For sequences, {@{inversions according to the element-based definition are not unique}@}, because {@{different pairs of places may have the same pair of values}@}. <!--SR:!2027-05-06,682,332!2029-09-12,1364,352-->
 
 ### inversion number
 
@@ -49,7 +49,7 @@ For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{th
 
 <!-- markdownlint-restore -->
 
-This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%20Mathematica.md)}@}.<sup>[\[13\]](#^ref-13)</sup> {@{The remaining two vectors}@} are {@{sometimes called _left_ and _right inversion vector_}@}, but to {@{avoid confusion with the inversion vector}@} this article calls them {@{_left inversion count_ \($l$\) and _right inversion count_ \($r$\)}@}. Interpreted as {@{a [factorial number](factorial%20number%20system.md)}@} {@{the left inversion count gives the permutations reverse colexicographic}@},<sup>[\[14\]](#^ref-14)</sup> and {@{the right inversion count gives the lexicographic index}@}. <!--SR:!2025-12-18,298,332!2029-05-07,1266,352!2029-09-07,1360,352!2025-12-19,299,332!2029-09-05,1358,352!2025-12-20,300,332!2026-03-12,234,212!2028-03-20,909,332-->
+This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%20Mathematica.md)}@}.<sup>[\[13\]](#^ref-13)</sup> {@{The remaining two vectors}@} are {@{sometimes called _left_ and _right inversion vector_}@}, but to {@{avoid confusion with the inversion vector}@} this article calls them {@{_left inversion count_ \($l$\) and _right inversion count_ \($r$\)}@}. Interpreted as {@{a [factorial number](factorial%20number%20system.md)}@} {@{the left inversion count gives the permutations reverse colexicographic}@},<sup>[\[14\]](#^ref-14)</sup> and {@{the right inversion count gives the lexicographic index}@}. <!--SR:!2029-09-13,1365,352!2029-05-07,1266,352!2029-09-07,1360,352!2025-12-19,299,332!2029-09-05,1358,352!2025-12-20,300,332!2026-03-12,234,212!2028-03-20,909,332-->
 
 > {@{![Rothe diagram of \(2, 5, 4, 6, 3, 1\)](../../archives/Wikimedia%20Commons/Inversion%20example;%20Rothe%201.svg)}@}
 >

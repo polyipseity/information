@@ -173,7 +173,7 @@ Assuming that {@{translations are not used \(that is, $b_{1}=b_{2}=0$\)}@} trans
 
 #### scaling
 
-An example of {@{an affine transformation which is not Euclidean}@} is given by {@{scaling}@}. To {@{make a figure larger or smaller}@} is equivalent to {@{multiplying the Cartesian coordinates of every point by the same positive number _m_}@}. If {@{\(_x_, _y_\) are the coordinates of a point on the original figure}@}, the corresponding point on the scaled figure has {@{coordinates $$(x',y')=(mx,my).$$}@} If {@{_m_ is greater than 1}@}, {@{the figure becomes larger}@}; {@{if _m_ is between 0 and 1, it becomes smaller}@}. <!--SR:!2025-12-27,247,330!2025-12-18,239,330!2026-04-21,341,349!2026-06-25,395,362!2026-02-25,294,330!2026-06-22,393,362!2026-01-04,254,330!2028-10-18,1046,350!2026-06-10,382,362-->
+An example of {@{an affine transformation which is not Euclidean}@} is given by {@{scaling}@}. To {@{make a figure larger or smaller}@} is equivalent to {@{multiplying the Cartesian coordinates of every point by the same positive number _m_}@}. If {@{\(_x_, _y_\) are the coordinates of a point on the original figure}@}, the corresponding point on the scaled figure has {@{coordinates $$(x',y')=(mx,my).$$}@} If {@{_m_ is greater than 1}@}, {@{the figure becomes larger}@}; {@{if _m_ is between 0 and 1, it becomes smaller}@}. <!--SR:!2025-12-27,247,330!2028-12-02,1080,350!2026-04-21,341,349!2026-06-25,395,362!2026-02-25,294,330!2026-06-22,393,362!2026-01-04,254,330!2028-10-18,1046,350!2026-06-10,382,362-->
 
 #### shearing
 
@@ -194,7 +194,7 @@ An example of {@{an affine transformation which is not Euclidean}@} is given by 
 
 The usual way of orienting the plane, with {@{the positive _x_-axis pointing right and the positive _y_-axis pointing up \(and the _x_-axis being the "first" and the _y_-axis the "second" axis\)}@}, is considered {@{the _positive_ or _standard_ orientation, also called the _right-handed_ orientation}@}. <!--SR:!2027-07-26,686,330!2026-07-01,397,362-->
 
-{@{A commonly used mnemonic for defining the positive orientation}@} is {@{the _[right-hand rule](right-hand%20rule.md)_}@}. Placing {@{a somewhat closed right hand on the plane with the thumb pointing up}@}, the fingers {@{point from the _x_-axis to the _y_-axis, in a positively oriented coordinate system}@}. <!--SR:!2025-12-18,239,330!2026-05-30,373,362!2025-12-19,240,330!2026-03-19,316,349-->
+{@{A commonly used mnemonic for defining the positive orientation}@} is {@{the _[right-hand rule](right-hand%20rule.md)_}@}. Placing {@{a somewhat closed right hand on the plane with the thumb pointing up}@}, the fingers {@{point from the _x_-axis to the _y_-axis, in a positively oriented coordinate system}@}. <!--SR:!2028-12-07,1085,350!2026-05-30,373,362!2025-12-19,240,330!2026-03-19,316,349-->
 
 {@{The other way of orienting the plane}@} is {@{following the _left-hand rule_}@}, {@{placing the left hand on the plane with the thumb pointing up}@}. <!--SR:!2026-05-30,373,362!2026-03-13,310,349!2026-05-09,352,349-->
 

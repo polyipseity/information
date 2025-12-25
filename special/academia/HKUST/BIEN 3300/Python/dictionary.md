@@ -20,7 +20,7 @@ empty_dict = {}
 nonempty_dict = {"key": "value", "key2": 123, 123: "value3", 96: 42}
 ```
 
-The values can be {@{anything}@} while the keys can be {@{almost anything, as there are some restrictions on the type of keys}@}. It is {@{not mentioned}@} here. <!--SR:!2025-12-18,55,310!2025-12-30,65,310!2026-01-08,73,322-->
+The values can be {@{anything}@} while the keys can be {@{almost anything, as there are some restrictions on the type of keys}@}. It is {@{not mentioned}@} here. <!--SR:!2026-08-11,236,330!2025-12-30,65,310!2026-01-08,73,322-->
 
 ## lookup
 

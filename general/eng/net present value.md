@@ -230,7 +230,7 @@ In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-clas
 
 - This paragraph is an excerpt from [Adjusted present value](adjusted%20present%20value.md). \[[edit](https://en.wikipedia.org/w/index.php?title=Adjusted_present_value&action=edit)\]
 
-{@{[Adjusted present value](adjusted%20present%20value.md) \(APV\)}@} is {@{a [valuation method](valuation%20(finance).md) introduced in 1974 by [Stewart Myers](Stewart%20Myers.md)}@}.<sup>[\[25\]](#^ref-25)</sup> The idea is to {@{value the project as if it were all [equity financed](corporate%20finance.md#equity%20capital) \("unleveraged"\)}@}, and to then {@{add the [present value](present%20value.md) of the [tax shield](tax%20shield.md) of [debt](corporate%20finance.md#debt%20capital) – and other side effects}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2025-12-18,232,330!2026-01-17,261,345!2026-06-02,368,359!2027-05-16,612,329-->
+{@{[Adjusted present value](adjusted%20present%20value.md) \(APV\)}@} is {@{a [valuation method](valuation%20(finance).md) introduced in 1974 by [Stewart Myers](Stewart%20Myers.md)}@}.<sup>[\[25\]](#^ref-25)</sup> The idea is to {@{value the project as if it were all [equity financed](corporate%20finance.md#equity%20capital) \("unleveraged"\)}@}, and to then {@{add the [present value](present%20value.md) of the [tax shield](tax%20shield.md) of [debt](corporate%20finance.md#debt%20capital) – and other side effects}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2028-11-09,1057,350!2026-01-17,261,345!2026-06-02,368,359!2027-05-16,612,329-->
 
 ### accounting rate of return
 

@@ -82,7 +82,7 @@ The content is in teaching order.
   - business process / brief ::@:: a set of activities to flow material, information, and knowledge <!--SR:!2026-09-17,337,348!2026-08-17,312,348-->
   - business process / business ::@:: a collection of business processes <!--SR:!2026-08-12,306,348!2026-09-27,346,348-->
   - business process / types ::@:: functional, cross-functional <!--SR:!2026-09-24,343,348!2026-08-18,313,348-->
-    - business process / types / analogy ::@:: These functions are described as "silos" \("functional"\), because things can only move vertically. But this is not good, because business processes often need to move horizontally across departments \("cross-functional"\). <p> \(__this course__: in midterm examination\) <!--SR:!2026-01-02,128,395!2025-12-18,115,395-->
+    - business process / types / analogy ::@:: These functions are described as "silos" \("functional"\), because things can only move vertically. But this is not good, because business processes often need to move horizontally across departments \("cross-functional"\). <p> \(__this course__: in midterm examination\) <!--SR:!2026-01-02,128,395!2027-08-26,616,415-->
   - business process / functions ::@:: finance and accounting, human resources, manufacturing and production, sales and marketing, etc. <!--SR:!2026-09-20,340,348!2026-08-16,311,348-->
     - business process / functions / manufacturing and production ::@:: assembly, bill of materials, quality check <!--SR:!2026-08-18,312,348!2026-09-19,339,348-->
     - business process / functions / sales and marketing ::@:: customer identification, marketing, sales <!--SR:!2026-09-02,324,348!2026-09-24,343,348-->
@@ -375,13 +375,13 @@ The content is in teaching order.
 - datetime: 2025-07-15T09:00:00+09:00/2025-07-15T10:40:00+09:00, PT1H40M
   - local: 2025-07-15T08:00:00+08:00/2025-07-15T09:40:00+08:00, PT1H40M
 - topic: foundations of business intelligence
-- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate. <!--SR:!2025-12-18,115,395!2025-12-25,120,395-->
+- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate. <!--SR:!2027-09-03,624,415!2025-12-25,120,395-->
   - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc. <!--SR:!2025-12-30,125,395!2025-12-19,116,395-->
   - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>&nbsp;B\), exabytes \(EB, 1000<sup>6</sup>&nbsp;B\), etc. <!--SR:!2025-12-25,120,395!2026-01-05,131,395-->
 - business intelligence
   - business intelligence / infrastructure ::@:: many tools for big data and separate systems <!--SR:!2025-12-25,122,395!2026-01-04,130,395-->
   - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc. <!--SR:!2026-01-05,131,395!2025-12-23,120,395-->
-- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources. <!--SR:!2025-12-20,117,395!2025-12-18,115,395-->
+- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources. <!--SR:!2025-12-20,117,395!2027-08-27,617,415-->
 - [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team. <!--SR:!2025-12-24,121,395!2025-12-28,123,395-->
 - [Apache Hadoop](../../../../general/Apache%20Hadoop.md) ::@:: It enables distributed and paralleling computing. This helps to process big data across inexpensive computers. <!--SR:!2025-12-23,120,395!2026-01-01,127,395-->
   - Apache Hadoop / components ::@:: Apache Hbase \(NoSQL database\), Hadoop Distributed File System \(HDFS\), MapReduce \(break up data into clusters\) <!--SR:!2026-01-01,127,395!2025-12-21,118,395-->
@@ -397,14 +397,14 @@ The content is in teaching order.
   - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc. <!--SR:!2025-12-20,117,395!2025-12-23,120,395-->
   - text mining / applications ::@:: sentiment analysis, which mines social data to detect opinions <!--SR:!2025-12-30,125,395!2026-01-01,127,395-->
 - data mining
-  - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc. <!--SR:!2025-12-18,115,395!2025-12-18,115,395-->
+  - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc. <!--SR:!2027-08-29,619,415!2027-08-28,618,415-->
 - [information policy](../../../../general/information%20policy.md) ::@:: It is the set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication and dissemination of information. <!--SR:!2026-01-02,128,395!2025-12-26,121,395-->
   - information policy / firms ::@:: firm-based procedures, roles, and rules to manage, share, and standardize data <!--SR:!2026-01-03,129,395!2025-12-29,124,395-->
   - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance <!--SR:!2026-01-05,131,395!2026-01-03,129,395-->
   - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-12-21,118,395!2025-12-19,116,395-->
   - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations <!--SR:!2025-12-25,120,395!2025-12-31,126,395-->
   - information policy / database administration ::@:: create and maintain databases <!--SR:!2027-08-22,613,415!2025-12-19,116,395-->
-- [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-12-30,125,395!2025-12-18,115,395-->
+- [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-12-30,125,395!2027-08-31,621,415-->
   - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy <!--SR:!2026-01-04,130,395!2025-12-24,121,395-->
   - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-12-25,120,395!2025-12-25,122,395-->
 - assignment: [quiz 6](questions/quiz%206.md)
@@ -429,7 +429,7 @@ The content is in teaching order.
   - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$ <!--SR:!2025-12-25,120,395!2026-01-03,129,395-->
 - [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2025-12-25,120,395!2025-12-19,116,395-->
 - [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$ <!--SR:!2025-12-25,120,395!2026-01-05,131,395-->
-- [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model. <!--SR:!2025-12-18,115,395!2026-01-02,128,395-->
+- [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model. <!--SR:!2027-03-17,454,395!2026-01-02,128,395-->
 - [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one. <!--SR:!2025-12-26,121,395!2026-01-04,130,395-->
   - confusion matrix / layout ::@:: Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa – both variants are found in the literature. The diagonal of the matrix therefore represents all instances that are correctly predicted. <!--SR:!2025-12-25,122,395!2025-12-24,121,395-->
 
@@ -508,7 +508,7 @@ The content is in teaching order.
 - [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web. <!--SR:!2025-12-27,122,395!2025-12-23,120,395-->
 - knowledge management system
   - knowledge management system / intelligent techniques
-    - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc. <!--SR:!2025-12-18,116,395!2026-01-04,130,395-->
+    - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc. <!--SR:!2027-09-05,626,415!2026-01-04,130,395-->
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. <!--SR:!2025-12-26,121,395!2026-01-01,127,395-->
 
 ## week 4 lecture 3

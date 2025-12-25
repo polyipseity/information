@@ -191,7 +191,7 @@ In {@{the presence of matter}@}, it is helpful to {@{extend the notion of the el
 
 For {@{linear, [homogeneous](homogeneity%20and%20heterogeneity.md), [isotropic](isotropy.md) materials}@} __E__ and __D__ are {@{proportional and constant throughout the region}@}, there is {@{no position dependence}@}: {@{$$\mathbf {D} (\mathbf {r} )=\varepsilon \mathbf {E} (\mathbf {r} ).$$}@} <!--SR:!2026-02-28,290,330!2026-05-03,344,346!2027-10-10,742,330!2026-06-30,396,362-->
 
-For {@{inhomogeneous materials}@}, there is {@{a position dependence throughout the material}@}:<sup>[\[22\]](#^ref-22)</sup> {@{$$\mathbf {D} (\mathbf {r} )=\varepsilon (\mathbf {r} )\mathbf {E} (\mathbf {r} )$$}@} <!--SR:!2026-07-14,410,371!2025-12-18,233,331!2026-06-24,390,362-->
+For {@{inhomogeneous materials}@}, there is {@{a position dependence throughout the material}@}:<sup>[\[22\]](#^ref-22)</sup> {@{$$\mathbf {D} (\mathbf {r} )=\varepsilon (\mathbf {r} )\mathbf {E} (\mathbf {r} )$$}@} <!--SR:!2026-07-14,410,371!2028-11-12,1060,351!2026-06-24,390,362-->
 
 For {@{anisotropic materials}@} the __E__ and __D__ fields are {@{not parallel}@}, and so {@{__E__ and __D__ are related by the [permittivity tensor](permittivity.md) \(a 2nd order [tensor field](tensor%20field.md)\)}@}, in component form: {@{$$D_{i}=\varepsilon _{ij}E_{j}$$}@} <!--SR:!2026-05-05,346,351!2026-06-30,396,362!2026-06-30,396,362!2026-07-01,397,362-->
 

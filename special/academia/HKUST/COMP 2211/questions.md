@@ -858,7 +858,7 @@ tags:
 > 3. Its output is equivalent to the direct result of a weighted sum of the inputs plus a bias.
 > 4. For a perceptron with n inputs and 1 output, there should be n+1 parameters, including bias.
 >
-> - solution: {@{2, 4}@} <!--SR:!2025-12-18,278,330-->
+> - solution: {@{2, 4}@} <!--SR:!2029-06-06,1266,350-->
 
 <!-- markdownlint MD028 -->
 

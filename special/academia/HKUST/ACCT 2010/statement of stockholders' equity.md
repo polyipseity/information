@@ -33,6 +33,6 @@ tags:
   - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2027-12-26,784,290!2026-03-22,301,290-->
   - (root) / common stock ::@:: (1) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-09-06,459,310!2027-05-22,678,330-->
   - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-12-28,547,310!2029-01-27,1174,350-->
-  - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2025-12-18,288,330!2029-01-08,1161,350-->
+  - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2029-07-21,1311,350!2029-01-08,1161,350-->
   - (root) / total stockholders' equity ::@:: Sum up the rows. <!--SR:!2029-06-23,1288,350!2025-12-19,289,330-->
 - validation ::@:: The totals for each row should add up to the final total. The totals for each column should add up to the final total. <!--SR:!2027-11-21,810,330!2029-01-09,1162,350-->

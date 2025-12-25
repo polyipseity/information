@@ -25,7 +25,7 @@ In {@{a 1954 paper Little's law}@} was {@{assumed true and used without proof}@}
 
 ### finding response time
 
-Imagine {@{an application that had no easy way to measure [response time](response%20time%20(technology).md)}@}. If {@{the mean number in the system and the throughput are known}@}, {@{the average response time can be found using Little's Law}@}: <p> &emsp; {@{mean response time = mean number in system / mean throughput}@} <!--SR:!2025-12-18,236,330!2026-02-08,278,330!2028-11-08,1058,350!2026-02-03,273,330-->
+Imagine {@{an application that had no easy way to measure [response time](response%20time%20(technology).md)}@}. If {@{the mean number in the system and the throughput are known}@}, {@{the average response time can be found using Little's Law}@}: <p> &emsp; {@{mean response time = mean number in system / mean throughput}@} <!--SR:!2028-11-25,1073,350!2026-02-08,278,330!2028-11-08,1058,350!2026-02-03,273,330-->
 
 For example: {@{A queue depth meter}@} shows {@{an average of nine jobs waiting to be serviced}@}. {@{Add one for the job being serviced}@}, so {@{there is an average of ten jobs in the system}@}. Another meter shows {@{a mean throughput of 50 per second}@}. {@{The mean response time}@} is calculated as {@{0.2 seconds = 10 / 50 per second}@}. <!--SR:!2025-12-22,240,330!2026-02-04,274,330!2028-11-14,1063,350!2026-01-08,254,330!2026-01-04,250,330!2026-01-09,255,330!2026-03-13,293,330-->
 

@@ -74,7 +74,7 @@ The content is in teaching order.
   - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2025-12-19,350,352!2028-10-21,1151,352-->
 - activity 2: life wheel
   - life wheel / debrief ::@:: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel. <!--SR:!2025-12-24,355,352!2025-12-23,354,352-->
-- psychometric assessments ::@:: EQ-i<sup>2.0</sup>, STRONG <!--SR:!2025-12-18,349,352!2025-12-21,352,352-->
+- psychometric assessments ::@:: EQ-i<sup>2.0</sup>, STRONG <!--SR:!2030-08-02,1688,372!2025-12-21,352,352-->
 
 ## week 4 tutorial
 

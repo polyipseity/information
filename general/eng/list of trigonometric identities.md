@@ -231,7 +231,7 @@ return await memorize_map(
 > - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2026-01-26,219,276!2028-12-23,1111,316-->
 > - $\cot 3.14$ (sine and cosine) ::@:: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2025-12-22,353,296!2026-02-26,155,296-->
 > - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2026-06-21,225,216!2026-01-08,331,316-->
-> - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2025-12-18,359,316!2027-07-08,769,336-->
+> - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2029-01-26,1135,316!2027-07-08,769,336-->
 
 ## product-to-sum and sum-to-product
 

@@ -31,7 +31,7 @@ else:
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2025-12-18,55,310!2026-01-10,75,327!2026-01-10,75,327-->
+The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-08-12,237,330!2026-01-10,75,327!2026-01-10,75,327-->
 
 In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2025-12-24,60,310!2026-01-10,75,327-->
 
@@ -46,7 +46,7 @@ else:
 
 {@{The semantics of `if...elif...else`}@} can be found by {@{considering the semantics of chaining `if...else`}@}: {@{The statement block after the first `true` condition}@} is {@{executed}@}. If there are {@{no `true` conditions}@}, {@{the statement block after `else` is executed}@} if {@{there is an `else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `true` condition \(inclusive\)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `true` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `else` statement block if there is one}@}. <!--SR:!2025-12-24,60,310!2025-12-26,62,310!2025-12-21,58,310!2025-12-21,58,310!2025-12-26,62,310!2025-12-31,66,310!2025-12-29,64,310!2026-01-01,67,310!2025-12-21,58,310!2025-12-20,57,310!2026-01-01,67,310!2025-12-29,64,310!2025-12-30,65,310!2025-12-27,63,310!2025-12-30,65,310-->
 
-If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2025-12-31,66,310!2025-12-31,66,310!2025-12-18,55,310!2025-12-28,19,350-->
+If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2025-12-31,66,310!2025-12-31,66,310!2026-08-10,235,330!2025-12-28,19,350-->
 
 ```Python
 if condition:

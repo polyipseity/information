@@ -54,7 +54,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 
 ### natural language processing
 
-In {@{[natural language processing](natural%20language%20processing.md)}@}, {@{a one-hot vector}@} is {@{a 1 × _N_ matrix \(vector\) used to distinguish each word in a vocabulary from every other word in the vocabulary}@}.<sup>[\[5\]](#^ref-5)</sup> The vector consists of {@{0s in all cells with the exception of a single 1 in a cell used uniquely to identify the word}@}. One-hot encoding ensures that {@{machine learning does not assume that higher numbers are more important}@}. For example, {@{the value '8' is bigger than the value '1'}@}, but {@{that does not make '8' more important than '1'}@}. The same is {@{true for words: the value 'laughter' is not more important than 'laugh'}@}. <!--SR:!2026-01-25,275,330!2026-02-04,282,330!2025-12-30,255,330!2025-12-18,245,330!2025-12-19,246,330!2028-11-04,1065,350!2026-02-12,289,330!2026-02-01,279,330-->
+In {@{[natural language processing](natural%20language%20processing.md)}@}, {@{a one-hot vector}@} is {@{a 1 × _N_ matrix \(vector\) used to distinguish each word in a vocabulary from every other word in the vocabulary}@}.<sup>[\[5\]](#^ref-5)</sup> The vector consists of {@{0s in all cells with the exception of a single 1 in a cell used uniquely to identify the word}@}. One-hot encoding ensures that {@{machine learning does not assume that higher numbers are more important}@}. For example, {@{the value '8' is bigger than the value '1'}@}, but {@{that does not make '8' more important than '1'}@}. The same is {@{true for words: the value 'laughter' is not more important than 'laugh'}@}. <!--SR:!2026-01-25,275,330!2026-02-04,282,330!2025-12-30,255,330!2029-01-05,1114,350!2025-12-19,246,330!2028-11-04,1065,350!2026-02-12,289,330!2026-02-01,279,330-->
 
 ### machine learning and statistics
 
@@ -88,7 +88,7 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 
 ## see also
 
-- [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2025-12-18,245,330!2027-12-09,792,330-->
+- [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2029-01-06,1115,350!2027-12-09,792,330-->
 - [Two-out-of-five code](two-out-of-five%20code.md) – ::@:: Error-detection code for decimal digits, widely used in barcoding and at one time in telephone exchanges <!--SR:!2027-12-10,794,330!2027-05-21,639,330-->
 - [Bi-quinary coded decimal](bi-quinary%20coded%20decimal.md) – ::@:: Numeral encoding scheme <!--SR:!2027-09-26,737,330!2028-01-22,826,330-->
 - [Gray code](gray%20code.md) – ::@:: Ordering of binary values, used for positioning and error correction <!--SR:!2026-01-30,277,330!2028-11-06,1065,350-->

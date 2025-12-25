@@ -54,7 +54,7 @@ In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitut
 - If $\omega (-t)=\omega (t)$ \(annotation: even symmetry around $x = 0$\), a good change of variables is $u=\cos t$.→::@::←If $\omega (\pi -t)=\omega (t)$ \(annotation: even symmetry around $x = \frac \pi 2$\), a good change of variables is $u=\sin t$. <!--SR:!2027-02-13,677,290!2027-08-18,846,310-->
 - If $\omega (\pi -t)=\omega (t)$ \(annotation: even symmetry around $x = \frac \pi 2$\), a good change of variables is $u=\sin t$.→::@::←If $\omega (\pi +t)=\omega (t)$ \(annotation: $\pi$-periodic\), a good change of variables is $u=\tan t$. <!--SR:!2026-11-29,601,310!2028-05-13,899,310-->
 - If $\omega (\pi +t)=\omega (t)$ \(annotation: $\pi$-periodic\), a good change of variables is $u=\tan t$.→::@::←If two of the preceding relations both hold, a good change of variables is $u=\cos 2t$. <!--SR:!2029-10-03,1394,310!2029-02-18,1311,350-->
-- If two of the preceding relations both hold, a good change of variables is $u=\cos 2t$.→::@::←In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitution\). <!--SR:!2027-10-18,902,330!2025-12-18,351,290-->
+- If two of the preceding relations both hold, a good change of variables is $u=\cos 2t$.→::@::←In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitution\). <!--SR:!2027-10-18,902,330!2029-11-05,1418,310-->
 - In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitution\).→::@::←_(end)_ <!--SR:!2027-09-14,892,330!2026-11-18,607,310-->
 
 <!--/pytextgen-->
