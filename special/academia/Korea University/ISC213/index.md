@@ -381,7 +381,7 @@ The content is in teaching order.
 - business intelligence
   - business intelligence / infrastructure ::@:: many tools for big data and separate systems <!--SR:!2025-12-25,122,395!2026-01-04,130,395-->
   - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc. <!--SR:!2026-01-05,131,395!2025-12-23,120,395-->
-- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources. <!--SR:!2025-12-20,117,395!2027-08-27,617,415-->
+- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources. <!--SR:!2027-09-11,630,415!2027-08-27,617,415-->
 - [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team. <!--SR:!2025-12-24,121,395!2025-12-28,123,395-->
 - [Apache Hadoop](../../../../general/Apache%20Hadoop.md) ::@:: It enables distributed and paralleling computing. This helps to process big data across inexpensive computers. <!--SR:!2025-12-23,120,395!2026-01-01,127,395-->
   - Apache Hadoop / components ::@:: Apache Hbase \(NoSQL database\), Hadoop Distributed File System \(HDFS\), MapReduce \(break up data into clusters\) <!--SR:!2026-01-01,127,395!2025-12-21,118,395-->
@@ -392,9 +392,9 @@ The content is in teaching order.
   - online analytical processing / data cubes ::@:: Data is viewed as multidimensional cubes. Each information aspect \(e.g. attribute\) is a dimension. <!--SR:!2025-12-25,120,395!2026-01-02,128,395-->
 - [data mining](../../../../general/data%20mining.md) ::@:: It is the process of extracting and finding \(hidden\) patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems. <!--SR:!2025-12-28,123,395!2025-12-26,121,395-->
   - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns <!--SR:!2025-12-29,124,395!2027-09-02,622,415-->
-  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc. <!--SR:!2025-12-27,122,395!2025-12-20,117,395-->
-- [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources". <!--SR:!2025-12-31,126,395!2025-12-20,117,395-->
-  - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc. <!--SR:!2025-12-20,117,395!2025-12-23,120,395-->
+  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc. <!--SR:!2025-12-27,122,395!2027-09-11,630,415-->
+- [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources". <!--SR:!2025-12-31,126,395!2027-09-12,631,415-->
+  - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc. <!--SR:!2027-09-13,632,415!2025-12-23,120,395-->
   - text mining / applications ::@:: sentiment analysis, which mines social data to detect opinions <!--SR:!2025-12-30,125,395!2026-01-01,127,395-->
 - data mining
   - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc. <!--SR:!2027-08-29,619,415!2027-08-28,618,415-->
@@ -422,7 +422,7 @@ The content is in teaching order.
   - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\) <!--SR:!2027-09-06,626,415!2025-12-23,120,395-->
   - text mining / timeline ::@:: text summarization \(for libraries\) → information extraction → information discovery <!--SR:!2026-01-02,128,395!2025-12-22,119,395-->
 - true positive \(TP\) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2025-12-27,122,395!2025-12-30,125,395-->
-- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2025-12-20,117,395!2025-12-29,124,395-->
+- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2027-09-17,636,415!2025-12-29,124,395-->
 - false positive \(FP\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive. <!--SR:!2025-12-28,123,395!2026-01-03,129,395-->
 - false negative \(FN\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative. <!--SR:!2026-01-03,129,395!2025-12-22,119,395-->
 - [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$ <!--SR:!2026-01-05,131,395!2025-12-31,126,395-->
@@ -495,7 +495,7 @@ The content is in teaching order.
   - organizational learning / effects ::@:: behavioral adjustment, change in management decision making, creation of business processes <!--SR:!2025-12-28,123,395!2026-01-04,130,395-->
 - [knowledge management](../../../../general/knowledge%20management.md) \(KM\) ::@:: It is the set of procedures for producing, disseminating, utilizing, and overseeing an organization's knowledge and data. It alludes to a multidisciplinary strategy that maximizes knowledge utilization to accomplish organizational goals. <!--SR:!2025-12-22,119,395!2025-12-24,121,395-->
   - knowledge management / value chain ::@:: acquire: business analytics, data mining, machine learning, etc. → store: content management systems, etc. → disseminate: portals, search engines, etc. → apply: decision support systems, enterprise applications, robotics, etc. <!--SR:!2025-12-26,121,395!2026-01-01,127,395-->
-- [knowledge management system](../../../../general/knowledge%20management%20software.md) \(KMS\) ::@:: It is a subset of content management software, which consists of software that specializes in the way information is collected, stored and/or accessed. <!--SR:!2025-12-21,118,395!2025-12-20,117,395-->
+- [knowledge management system](../../../../general/knowledge%20management%20software.md) \(KMS\) ::@:: It is a subset of content management software, which consists of software that specializes in the way information is collected, stored and/or accessed. <!--SR:!2025-12-21,118,395!2027-09-15,634,415-->
   - knowledge management system / types ::@:: 3 major types: enterprise-wide KMS, intelligent techniques, knowledge work systems <!--SR:!2025-12-26,121,395!2026-01-03,129,395-->
   - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc. <!--SR:!2025-12-21,118,395!2026-01-04,130,395-->
   - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc. <!--SR:!2025-12-31,126,395!2025-12-22,119,395-->
@@ -503,7 +503,7 @@ The content is in teaching order.
 - [expert system](../../../../general/expert%20system.md) ::@:: It is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code. <!--SR:!2026-01-13,138,400!2026-01-12,138,400-->
   - expert system / knowledge base ::@:: It is a body of human knowledge manually inputted by experts. It is often restricted to narrowly defined domains. <!--SR:!2026-01-13,138,400!2026-01-12,137,400-->
 - knowledge management
-  - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured. <!--SR:!2025-12-20,117,395!2025-12-22,119,395-->
+  - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured. <!--SR:!2027-09-12,631,415!2025-12-22,119,395-->
 - [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness. <!--SR:!2025-12-26,121,395!2025-12-21,118,395-->
 - [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web. <!--SR:!2025-12-27,122,395!2025-12-23,120,395-->
 - knowledge management system

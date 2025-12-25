@@ -35,7 +35,7 @@ A class is drawn by {@{a rectangle box with 3 sections \(from top to bottom\)}@}
 
 There are {@{many objects in the application domain}@}. Classes allow us to {@{_abstract_ a collection of objects}@} that {@{_share semantics_}@}. This reduce {@{development _complexity_}@} by allowing {@{better understanding and specification}@}. It is {@{an important _design decision_}@} that helps {@{promote _modular development_}@}. Note as {@{a design decision}@}, there is not {@{the single "correct" way to model a system}@}. <!--SR:!2026-01-09,74,322!2026-01-05,70,322!2026-01-17,81,341!2025-12-30,66,322!2026-01-06,71,322!2026-01-03,68,322!2026-01-03,69,322!2026-01-06,71,322!2026-01-15,79,341-->
 
-{@{Better _understanding_}@} comes from {@{reduced complexity}@}, as {@{collections of many objects}@} become {@{a few classes}@}. We only need to understand {@{the class instead of the collection of objects \(instances\)}@}. <!--SR:!2025-12-20,57,310!2026-01-02,68,322!2026-01-21,85,350!2026-01-03,68,322!2026-01-19,83,341-->
+{@{Better _understanding_}@} comes from {@{reduced complexity}@}, as {@{collections of many objects}@} become {@{a few classes}@}. We only need to understand {@{the class instead of the collection of objects \(instances\)}@}. <!--SR:!2026-08-25,248,330!2026-01-02,68,322!2026-01-21,85,350!2026-01-03,68,322!2026-01-19,83,341-->
 
 {@{Better _specification_}@} comes from {@{UML requiring details of the classes}@}. These details provide {@{a _common_ place to define and store _common_ definitions exactly once}@}. <!--SR:!2026-01-21,85,350!2026-01-21,85,350!2026-01-17,81,341-->
 
@@ -95,7 +95,7 @@ Associations of {@{different degree}@} are {@{drawn differently}@}. An associati
 
 ### association multiplicity
 
-{@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity—relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}. <!--SR:!2026-01-04,69,322!2026-01-18,82,341!2026-01-04,70,322!2026-01-21,85,350!2026-01-15,79,341!2025-12-20,57,310!2026-01-19,83,341-->
+{@{A _multiplicity_}@} of an association is {@{the possible numbers of the association that an instance of the _current_ class may be related to}@}. It is an {@{_application domain_}@} constraint. Note that this is written on {@{the side of the _other_ class rather than the current class}@}. This should not be confused with {@{how multiplicity is placed}@} on {@{the entity—relationship model \(ER model\)}@}, which is {@{commonly used for databases}@}. <!--SR:!2026-01-04,69,322!2026-01-18,82,341!2026-01-04,70,322!2026-01-21,85,350!2026-01-15,79,341!2026-08-19,242,330!2026-01-19,83,341-->
 
 To {@{specify multiplicity}@}, specify {@{the _minimum cardinality_ \(min count\) and _maximum cardinality_ \(max count\)}@} on {@{the _other_ class \(not the _current_ class\)}@}. Both are {@{inclusive}@}. {@{_Cardinality_}@} can be {@{any _nonnegative_ integer}@}, or {@{the special wildcard `*` representing infinity}@}. Then, write it using {@{`<min card>..<max card>`}@}. There are {@{shorthands for some multiplicities}@} for {@{`1..` and `0..*`}@}: <!--SR:!2026-01-17,81,341!2026-01-21,85,350!2026-01-21,85,350!2025-12-29,65,322!2026-01-20,84,350!2026-01-04,69,322!2026-01-03,69,322!2026-01-03,68,322!2026-01-21,85,350!2026-04-13,135,407-->
 
@@ -126,7 +126,7 @@ Often, the association name is {@{"Has", but can be other names as appropriate f
 
 In many cases, {@{whether an aggregation \(or composition\)}@} should be used is {@{unclear, and is mostly a matter of taste \(design decision\)}@}. When {@{in doubt}@}, use {@{a pure association}@}. <!--SR:!2026-01-22,86,353!2026-01-22,86,353!2026-01-22,86,353!2026-01-22,86,353-->
 
-To {@{represent aggregation}@}, use {@{a _hollow_ diamond \(_adornment_\) at the end of the aggregate object \(child\)}@}. Multiplicity can be {@{omitted if the cardinality range is `0..1`}@}. In some cases, you may want to specify {@{`0..*` as the multiplicity}@}. <!--SR:!2026-01-16,80,341!2026-01-16,80,341!2026-01-20,84,350!2025-12-20,57,310-->
+To {@{represent aggregation}@}, use {@{a _hollow_ diamond \(_adornment_\) at the end of the aggregate object \(child\)}@}. Multiplicity can be {@{omitted if the cardinality range is `0..1`}@}. In some cases, you may want to specify {@{`0..*` as the multiplicity}@}. <!--SR:!2026-01-16,80,341!2026-01-16,80,341!2026-01-20,84,350!2026-08-24,247,330-->
 
 ### association compositions
 

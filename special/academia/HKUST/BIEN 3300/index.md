@@ -66,7 +66,7 @@ The content is in teaching order.
 - [data science](../../../../general/data%20science.md) ::@:: It is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data. <!--SR:!2025-12-24,60,310!2026-08-07,233,330-->
   - data science / learning ::@:: Given input data and output data, data science allows us to learn things from it and apply it to new input data. <!--SR:!2025-12-24,60,310!2026-08-22,246,330-->
   - data science / examples ::@:: AlphaFold \(protein structure prediction\), AlphaGo <!--SR:!2025-12-27,62,310!2026-08-14,239,330-->
-    - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc. <!--SR:!2025-12-27,63,310!2025-12-20,57,310-->
+    - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc. <!--SR:!2025-12-27,63,310!2026-08-28,251,330-->
     - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc. <!--SR:!2025-12-27,63,310!2026-08-12,237,330-->
   - data science / vs. AI ::@:: The former extracts _knowledge_ and _insights_ from structured and unstructured daa. The latter builds systems that can perform tasks typically requiring human _intelligence_. <p> \(__this course__: They are used interchangeably in this course.\) <!--SR:!2025-12-31,66,310!2025-12-26,62,310-->
 - [molecular engineering](../../../../general/molecular%20engineering.md) ::@:: It is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions. <!--SR:!2025-12-23,59,310!2026-08-05,231,330-->
@@ -85,7 +85,7 @@ The content is in teaching order.
     - BIEN 3300 / format / lectures
     - BIEN 3300 / format / tutorials
   - BIEN 3300 / schedule
-  - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!2025-12-20,57,310!2025-12-26,61,310-->
+  - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!2026-08-24,247,330!2025-12-26,61,310-->
 
 ## week 1 lecture 2
 

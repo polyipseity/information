@@ -67,7 +67,7 @@ The content is in teaching order.
 - course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2027-08-05,795,352!2028-12-23,1190,352-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
 - society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2026-04-15,427,332!2027-06-07,761,352-->
-  - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-12-20,351,352!2025-12-22,353,352-->
+  - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2030-08-17,1701,372!2025-12-22,353,352-->
   - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2027-06-28,781,352!2025-12-23,354,352-->
   - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-12-27,358,352!2026-09-12,547,332-->
 - activity 1: social identity exercise + reflection by drawing

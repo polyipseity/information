@@ -37,7 +37,7 @@ Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as sta
 
 > {@{![Pictorial description of how rotations are made.](../../archives/Wikimedia%20Commons/Tree%20Rotations.gif)}@}
 >
-> {@{Pictorial description of how rotations are made.}@} <!--SR:!2025-12-20,279,330!2025-12-28,285,330-->
+> {@{Pictorial description of how rotations are made.}@} <!--SR:!2029-06-17,1275,350!2025-12-28,285,330-->
 
 When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2029-04-22,1231,350!2026-06-23,403,310!2025-12-27,283,330!2029-05-26,1258,350-->
 

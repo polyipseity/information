@@ -37,7 +37,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [attitude](https://en.wiktionary.org/wiki/attitude) ::@:: \(a\_e\) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2028-04-07,1227,364!2030-05-05,1765,344-->
 - [broccoli](https://en.wiktionary.org/wiki/broccoli) ::@:: \(b\_i\) An [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md). <!--SR:!2027-09-03,1025,357!2026-12-20,794,357-->
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::@:: \(b\_y\) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2026-04-09,627,324!2027-02-07,791,324-->
-- [bureaucratic](https://en.wiktionary.org/wiki/bureaucratic) ::@:: \(b_c\) Of or pertaining to bureaucracy or the actions of bureaucrats. <!--SR:!2026-01-29,138,423!2025-12-20,104,403-->
+- [bureaucratic](https://en.wiktionary.org/wiki/bureaucratic) ::@:: \(b_c\) Of or pertaining to bureaucracy or the actions of bureaucrats. <!--SR:!2026-01-29,138,423!2027-02-16,423,403-->
 - [bureaucracy](https://en.wiktionary.org/wiki/bureaucracy) ::@:: \(b_y\) Government by bureaus or their administrators or officers. <!--SR:!2026-01-31,140,423!2026-01-27,136,423-->
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::@:: \(c\_r\) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2028-07-18,1305,364!2028-10-09,1372,364-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::@:: \(c\_y\) Acting as a complement to make something else whole. <!--SR:!2027-09-07,980,344!2028-02-06,1176,364-->
@@ -102,7 +102,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence. <!--SR:!2033-05-06,2743,428!2030-12-14,1938,368-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: \(r\_t\) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2028-06-25,1215,372!2028-09-29,1291,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: \(r\_r\) A source or sink of something. <!--SR:!2027-10-20,1003,330!2027-03-11,779,290-->
-- [retaliate](https://en.wiktionary.org/wiki/retaliate) ::@:: \(r\_e\) To do something harmful or negative to get revenge for some harm; to fight back or respond in kind to an injury or affront. <!--SR:!2025-12-20,140,416!2025-12-20,140,416-->
+- [retaliate](https://en.wiktionary.org/wiki/retaliate) ::@:: \(r\_e\) To do something harmful or negative to get revenge for some harm; to fight back or respond in kind to an injury or affront. <!--SR:!2028-02-28,800,436!2028-02-27,799,436-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: \(r\_y\) Basic, minimal. <!--SR:!2030-08-26,1942,392!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: \(s\_d\) Not to be profaned or violated; inviolable. <!--SR:!2026-05-11,209,356!2029-02-23,1333,356-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: \(s\_e\) Uncommon, rare. <!--SR:!2031-03-10,2028,396!2029-12-16,1597,356-->

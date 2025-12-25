@@ -727,7 +727,7 @@ tags:
 
 > Q3. In an iteration of K-means clustering, the data points with coordinates (9,7), (9,2) and (7,9) are labelled as "Category 1". What is the new position of the centroid for "Category 1"?
 >
-> - solution: {@{\(25/3, 6\)}@} <!--SR:!2025-12-20,280,330-->
+> - solution: {@{\(25/3, 6\)}@} <!--SR:!2029-06-16,1274,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -806,7 +806,7 @@ tags:
 > 3. K-means clustering always minimizes the sum of inter-cluster distance.
 > 4. K-means clustering is deterministic - i.e. it always produces the same result on the same dataset.
 >
-> - solution: {@{1. true (false if not using Euclidean distance, but ignore this for exams) <br/> 2. true <br/> 3. false, not necessarily global minimum, only local minimum <br/> 4. false (assuming initial centroids are initialized randomly, which is usually the case)}@} <!--SR:!2025-12-20,280,330-->
+> - solution: {@{1. true (false if not using Euclidean distance, but ignore this for exams) <br/> 2. true <br/> 3. false, not necessarily global minimum, only local minimum <br/> 4. false (assuming initial centroids are initialized randomly, which is usually the case)}@} <!--SR:!2029-06-15,1273,350-->
 
 <!-- markdownlint MD028 -->
 

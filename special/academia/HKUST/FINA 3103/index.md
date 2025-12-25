@@ -191,7 +191,7 @@ The content is in teaching order.
   - over-the-counter / disadvantages ::@:: counterparty risk, less liquid, opaque, systemic risk \(if major dealers are distressed\) <!--SR:!2026-01-22,90,370!2026-01-21,89,367-->
   - over-the-counter / examples ::@:: exotic options, forwards, structured products, swaps <p> \(__this course__: typically bonds\) <!--SR:!2026-08-19,253,367!2026-01-20,88,370-->
 - stock exchange
-  - stock exchange / competition ::@:: There are multiple exchanges in the United States. This competition benefits users. <p> However, there are unintended consequences, e.g. enabling high-frequency trading \(HFT\), enabling latency arbitrage, etc. <!--SR:!2025-12-20,58,350!2026-01-22,90,370-->
+  - stock exchange / competition ::@:: There are multiple exchanges in the United States. This competition benefits users. <p> However, there are unintended consequences, e.g. enabling high-frequency trading \(HFT\), enabling latency arbitrage, etc. <!--SR:!2026-10-01,285,370!2026-01-22,90,370-->
 - order book
 - order
   - order / types
@@ -246,7 +246,7 @@ The content is in teaching order.
   - margin / leverage ::@:: $$\text{leverage} = 1 / \text{margin} \,,$$ which is the _multiplier_ any return on investment \(_percentage_ gains or losses relative to your own investment, which excludes the loan or loan security\) are magnified by. <p> For example, if margin is 100%, then leverage is 1, i.e. no leverage. If margin is 50%, then leverage is 2, i.e. any _percentage_ gains or losses are magnified by 2 times. <!--SR:!2026-01-20,88,367!2026-01-26,93,370-->
   - margin / short selling ::@:: It refers to the selling of securities that the trader does not own, borrowing them from a broker, and using the cash as collateral. This has the effect of reversing any profit or loss made on the securities. The initial cash deposited by the trader, together with the amount obtained from the sale, serve as collateral for the loan. <!--SR:!2026-01-22,89,370!2026-01-23,90,370-->
     - margin / short selling / net value ::@:: The net value—the difference between the cash amount and the value of loan security—is initially equal to the amount of one's own cash used. <!--SR:!2026-01-15,84,370!2026-01-22,90,370-->
-    - margin / short selling / margin ::@:: $$\text{margin} = \frac {\text{account equity} } {\text{loan security market value} } \times 100\% \,,$$ where account equity is the market value of the assets \(i.e. cash or securities you have put in as collateral, and cash you have obtained by selling the loan security\) in your account subtracted by the market value of the loan security. <!--SR:!2025-12-20,58,347!2026-04-01,126,327-->
+    - margin / short selling / margin ::@:: $$\text{margin} = \frac {\text{account equity} } {\text{loan security market value} } \times 100\% \,,$$ where account equity is the market value of the assets \(i.e. cash or securities you have put in as collateral, and cash you have obtained by selling the loan security\) in your account subtracted by the market value of the loan security. <!--SR:!2026-07-13,205,347!2026-04-01,126,327-->
     - margin / short selling / interpretation ::@:: Indeed, when the loan security market value rises, the margin decreases, and vice versa. This is because account equity decreases by the rise and loan security market value increases by the rise. <!--SR:!2026-01-26,93,370!2026-07-17,212,350-->
 
 ## week 2 lecture

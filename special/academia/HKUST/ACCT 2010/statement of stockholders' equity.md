@@ -27,7 +27,7 @@ tags:
 - dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2028-07-08,937,330!2026-09-06,434,290-->
 - total ::@:: Calculate the total for each column and each row. <!--SR:!2029-07-01,1294,350!2029-07-13,1304,350-->
   - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2026-04-15,350,290!2029-01-14,1166,350-->
-- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-12-20,290,330!2029-03-03,1202,350-->
+- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2029-07-30,1318,350!2029-03-03,1202,350-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-03-25,1219,350!2029-01-01,1155,350-->
 - (root) ::@:: description: 1 column <br/> common stock: 1 column <br/> additional paid-in capital: 1 column <br/> retained earnings: 1 column <br/> total stockholders' equity: 1 column <!--SR:!2027-03-15,574,310!2026-10-23,488,310-->
   - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2027-12-26,784,290!2026-03-22,301,290-->

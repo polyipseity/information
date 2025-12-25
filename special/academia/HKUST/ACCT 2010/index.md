@@ -534,7 +534,7 @@ The content is in teaching order.
   - quality of income ratio / interpretation ::@:: In general, this ratio measures the portion of income that was generated in cash. All other things equal, a higher ratio indicates greater ability to finance operating and other cash needs from operating cash inflows. <!--SR:!2027-03-26,642,363!2026-08-05,488,403-->
 - capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2026-08-30,510,403!2026-03-19,351,383-->
   - capital acquisitions ratio / interpretation ::@:: In general, this ratio reflects the portion of purchases of property, plant and equipment financed from operating activities. A high ratio indicates less need for outside financing for current and future expansions. <!--SR:!2027-04-04,648,356!2027-08-21,760,363-->
-- [free cash flow](../../../../general/free%20cash%20flow.md) ::@:: $$\text{cash flow from operating activities} - \text{dividends} - \text{capital expenditures}$$ <!--SR:!2025-12-20,300,383!2026-08-14,494,396-->
+- [free cash flow](../../../../general/free%20cash%20flow.md) ::@:: $$\text{cash flow from operating activities} - \text{dividends} - \text{capital expenditures}$$ <!--SR:!2030-04-15,1577,403!2026-08-14,494,396-->
   - free cash flow / interpretation ::@:: In general, this measures a firm's ability to pursue long-term investment opportunities. Any positive of this is available for more capital expenditures, investments in other companies, mergers & acquisitions, etc. without additional financing, i.e. financial flexibility. But it may also mean managers are pursuing unprofitable investments. <!--SR:!2026-04-05,363,383!2029-09-18,1371,383-->
 - [§ week 12 review](questions.md#week%2012%20review)
 

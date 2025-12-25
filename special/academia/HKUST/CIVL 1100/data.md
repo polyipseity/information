@@ -314,7 +314,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2028-12-28,1282,340!2031-06-02,2101,405-->
-- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2026-08-22,447,221!2025-12-20,488,384-->
+- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2026-08-22,447,221!2032-12-31,2568,404-->
 - image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2029-05-26,1451,380!2027-12-27,906,340-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->
 

@@ -22,7 +22,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer $n$, also
 
 ## definition
 
-An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides $n$, $m$ is a divisor of $n$, $m$ is a factor of $n$, or $n$ is a multiple of $m$}@}. If {@{$m$ does not divide $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-10-25,1082,350!2028-10-19,1077,350!2028-10-03,1064,350!2025-12-20,272,330!2025-12-23,274,330-->
+An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there exists an integer $k$ such that $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides $n$, $m$ is a divisor of $n$, $m$ is a factor of $n$, or $n$ is a multiple of $m$}@}. If {@{$m$ does not divide $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-10-25,1082,350!2028-10-19,1077,350!2028-10-03,1064,350!2029-05-13,1240,350!2025-12-23,274,330-->
 
 There are {@{two conventions, distinguished by whether $m$ is permitted to be zero}@}: <!--SR:!2028-12-27,1132,350-->
 
@@ -55,7 +55,7 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 There are some elementary rules:
 
 - (annotation: transitivity) ::@:: If $a\mid b$ and $b\mid c$, then $a\mid c;$ that is, divisibility is a [transitive relation](transitive%20relation.md). <!--SR:!2029-04-09,1213,350!2029-01-29,1159,350-->
-- (annotation: associate) ::@:: If $a\mid b$ and $b\mid a$, then $a=b$ or $a=-b$. \(That is, $a$ and $b$ are [associates](divisibility%20(ring%20theory).md).\) <!--SR:!2029-03-23,1200,350!2025-12-20,272,330-->
+- (annotation: associate) ::@:: If $a\mid b$ and $b\mid a$, then $a=b$ or $a=-b$. \(That is, $a$ and $b$ are [associates](divisibility%20(ring%20theory).md).\) <!--SR:!2029-03-23,1200,350!2029-05-14,1241,350-->
 - (annotation: linearity) ::@:: If $a\mid b$ and $a\mid c$, then $a\mid (b+c)$ holds, as does $a\mid (b-c)$.<sup>[\[a\]](#^ref-a)</sup> However, if $a\mid b$ and $c\mid b$, then $(a+c)\mid b$ does _not_ always hold \(for example, $2\mid 6$ and $3\mid 6$ but 5 does not divide 6\). <!--SR:!2026-01-09,287,330!2028-04-07,854,330-->
 - (annotation: multiplication) ::@:: $a\mid b\iff ac\mid bc$ for nonzero $c$. This follows immediately from writing $ka=b\iff kac=bc$. <!--SR:!2026-01-01,281,330!2029-04-01,1206,350-->
 - (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If $a\mid bc$, and $\gcd(a,b)=1$, then $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2028-10-29,1085,350!2028-11-30,1110,350-->

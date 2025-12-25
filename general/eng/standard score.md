@@ -28,7 +28,7 @@ In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the num
 
 It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\). <!--SR:!2026-02-12,292,330!2029-01-16,1126,350!2026-01-12,267,330!2025-12-23,252,330!2025-12-23,250,330-->
 
-{@{Standard scores}@} are most commonly called {@{__<!-- markdown separator -->_z_-scores__}@}; the two terms may {@{be used interchangeably, as they are in this article}@}. Other equivalent terms in use include {@{__z-value__, __z-statistic__, __normal score__, __standardized variable__}@} and {@{__pull__ in [high energy physics](high%20energy%20physics.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-22,251,330!2025-12-20,249,330!2026-01-08,263,330!2025-12-23,252,330!2025-12-31,258,330-->
+{@{Standard scores}@} are most commonly called {@{__<!-- markdown separator -->_z_-scores__}@}; the two terms may {@{be used interchangeably, as they are in this article}@}. Other equivalent terms in use include {@{__z-value__, __z-statistic__, __normal score__, __standardized variable__}@} and {@{__pull__ in [high energy physics](high%20energy%20physics.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-22,251,330!2029-01-28,1135,350!2026-01-08,263,330!2025-12-23,252,330!2025-12-31,258,330-->
 
 {@{Computing a z-score}@} requires {@{knowledge of the mean and standard deviation of the complete population to which a data point belongs}@}; {@{if one only has a [sample](sample%20(statistics).md) of observations from the population}@}, then the analogous computation {@{using the sample mean and sample standard deviation yields the [_t_-statistic](t-statistic.md)}@}. <!--SR:!2026-02-05,286,330!2025-12-24,253,330!2028-12-30,1112,350!2026-01-11,267,330-->
 
@@ -97,7 +97,7 @@ Continuing {@{the example of ACT and SAT scores}@}, {@{if it can be further assu
 
 ### cluster analysis and multidimensional scaling
 
-"For {@{some multivariate techniques such as multidimensional scaling and cluster analysis}@}, {@{the concept of distance between the units in the data}@} is often {@{of considerable interest and importance}@}… When {@{the variables in a multivariate data set are on different scales}@}, it makes {@{more sense to calculate the distances after some form of standardization}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-01-28,280,330!2028-12-31,1113,350!2025-12-20,250,330!2026-01-02,259,330!2026-01-04,261,330-->
+"For {@{some multivariate techniques such as multidimensional scaling and cluster analysis}@}, {@{the concept of distance between the units in the data}@} is often {@{of considerable interest and importance}@}… When {@{the variables in a multivariate data set are on different scales}@}, it makes {@{more sense to calculate the distances after some form of standardization}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-01-28,280,330!2028-12-31,1113,350!2029-01-29,1136,350!2026-01-02,259,330!2026-01-04,261,330-->
 
 ### principal components analysis
 
@@ -121,7 +121,7 @@ In {@{[mathematical statistics](mathematical%20statistics.md)}@}, {@{a [random v
 
 - "{@{T-score}@}" redirects here. Not to be confused with {@{[_t_-statistic](t-statistic.md)}@}. <!--SR:!2025-12-25,254,330!2025-12-24,253,330-->
 
-In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled}@} to have {@{a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-12-20,250,330!2026-01-22,275,330!2027-04-30,570,310!2026-03-06,123,389-->
+In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled}@} to have {@{a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-01-31,1138,350!2026-01-22,275,330!2027-04-30,570,310!2026-03-06,123,389-->
 
 In {@{bone density measurements}@}, the T-score is {@{the standard score of the measurement compared to the population of healthy 30-year-old adults}@}, and has {@{the usual mean of 0 and standard deviation of 1}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-01-30,281,330!2026-02-07,288,330!2026-01-28,280,330-->
 

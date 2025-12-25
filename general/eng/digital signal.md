@@ -92,7 +92,7 @@ To {@{create a digital signal}@}, an analog signal must be {@{modulated with a c
 
 In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier waves}@} are {@{[amplitude](amplitude%20modulation.md), [frequency](frequency%20modulation.md) or [phase modulated](phase%20modulated.md)}@} by {@{the control signal}@} to produce {@{a digital signal suitable for transmission}@}. <!--SR:!2026-01-11,250,330!2027-04-27,557,310!2026-01-29,266,330!2026-03-08,114,389!2026-03-09,115,389-->
 
-{@{[Asymmetric Digital Subscriber Line](Asymmetric%20Digital%20Subscriber%20Line.md) \(ADSL\) over [telephone wires](telephone%20wire.md)}@}, does not {@{primarily use binary logic}@}; {@{the digital signals for individual carriers}@} are {@{modulated with different valued logics}@}, depending on {@{the [Shannon capacity](Shannon%20capacity.md) of the individual channel}@}. <!--SR:!2026-02-04,266,330!2025-12-29,241,330!2026-01-24,262,330!2025-12-20,234,330!2026-01-15,254,330-->
+{@{[Asymmetric Digital Subscriber Line](Asymmetric%20Digital%20Subscriber%20Line.md) \(ADSL\) over [telephone wires](telephone%20wire.md)}@}, does not {@{primarily use binary logic}@}; {@{the digital signals for individual carriers}@} are {@{modulated with different valued logics}@}, depending on {@{the [Shannon capacity](Shannon%20capacity.md) of the individual channel}@}. <!--SR:!2026-02-04,266,330!2025-12-29,241,330!2026-01-24,262,330!2028-11-21,1067,350!2026-01-15,254,330-->
 
 ## clocking
 

@@ -919,7 +919,7 @@ tags:
 > 2. 10%
 > 3. 15%
 >
-> - solution: {@{2}@} <!--SR:!2025-12-20,157,432-->
+> - solution: {@{2}@} <!--SR:!2028-06-28,921,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1043,7 +1043,7 @@ tags:
 > 4. 200 years
 >
 > - solution: {@{3}@}
-> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than and higher than the interval.}@} <!--SR:!2025-12-20,155,432!2028-05-07,878,458-->
+> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than and higher than the interval.}@} <!--SR:!2028-06-20,913,452!2028-05-07,878,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1165,7 +1165,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-12-20,155,432-->
+> - solution: {@{1}@} <!--SR:!2028-06-19,912,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1227,7 +1227,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-12-20,155,438-->
+> - solution: {@{1}@} <!--SR:!2028-06-29,922,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1269,7 +1269,7 @@ tags:
 > 3. both have the same risk premium
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2025-12-20,157,432-->
+> - solution: {@{1}@} <!--SR:!2028-06-30,923,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1319,7 +1319,7 @@ tags:
 > 3. increase by 1%
 > 4. increase by 1.6%
 >
-> - solution: {@{2}@} <!--SR:!2025-12-20,157,432-->
+> - solution: {@{2}@} <!--SR:!2028-07-01,924,452-->
 
 <!-- markdownlint MD028 -->
 

@@ -68,7 +68,7 @@ In particular, this notation is powerful because {@{the gradient product rule lo
 
 {@{The [divergence](divergence.md) of a [vector field](vector%20field.md) $\mathbf {v} (x,y,z)=v_{x}{\hat {\mathbf {x} } }+v_{y}{\hat {\mathbf {y} } }+v_{z}{\hat {\mathbf {z} } }$}@} is {@{a [scalar field](scalar%20field.md)}@} that can be represented as: {@{$$\operatorname {div} \mathbf {v} ={\partial v_{x} \over \partial x}+{\partial v_{y} \over \partial y}+{\partial v_{z} \over \partial z}=\nabla \cdot \mathbf {v}$$}@} <!--SR:!2026-01-15,253,330!2026-02-28,287,330!2026-01-17,255,330-->
 
-The divergence is roughly {@{a measure of a vector field's increase in the direction it points}@}; but more accurately, it is {@{a measure of that field's tendency to converge toward or diverge from a point}@}. <!--SR:!2026-03-06,293,330!2025-12-20,231,330-->
+The divergence is roughly {@{a measure of a vector field's increase in the direction it points}@}; but more accurately, it is {@{a measure of that field's tendency to converge toward or diverge from a point}@}. <!--SR:!2026-03-06,293,330!2028-11-01,1047,350-->
 
 {@{The power of the del notation}@} is shown by {@{the following product rule}@}: {@{$$\nabla \cdot (f\mathbf {v} )=(\nabla f)\cdot \mathbf {v} +f(\nabla \cdot \mathbf {v} )$$}@} {@{The formula for the [vector product](vector%20product.md) is slightly less intuitive}@}, because {@{this product is not commutative}@}: {@{$$\nabla \cdot (\mathbf {u} \times \mathbf {v} )=(\nabla \times \mathbf {u} )\cdot \mathbf {v} -\mathbf {u} \cdot (\nabla \times \mathbf {v} )$$}@} <!--SR:!2026-01-07,245,330!2026-01-11,249,330!2027-09-16,712,330!2026-09-25,427,310!2027-01-30,523,310!2026-11-30,390,230-->
 
