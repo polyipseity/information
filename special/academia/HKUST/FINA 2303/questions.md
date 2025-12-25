@@ -991,7 +991,7 @@ tags:
 > 2. lottery 2
 >
 > - solution: {@{1/2}@}
-> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@} <!--SR:!2025-12-22,159,438!2025-12-21,158,432-->
+> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@} <!--SR:!2025-12-22,159,438!2028-07-04,926,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1002,7 +1002,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-12-21,158,432-->
+> - solution: {@{1}@} <!--SR:!2028-07-06,928,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1054,7 +1054,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-12-21,158,432-->
+> - solution: {@{2}@} <!--SR:!2028-07-07,929,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1344,7 +1344,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-12-21,158,432-->
+> - solution: {@{1}@} <!--SR:!2028-07-05,927,452-->
 
 <!-- markdownlint MD028 -->
 

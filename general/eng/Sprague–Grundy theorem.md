@@ -52,7 +52,7 @@ Sizes of heaps  Moves
 
 ### nimbers
 
-{@{The special names $*0$, $*1$, and $*2$}@} referenced in our example game are {@{called ___[nimbers](nimber.md)___}@}. In general, {@{the nimber $*n$}@} corresponds to {@{the position in a game of nim where there are exactly $n$ objects in exactly one heap}@}. Formally, nimbers are defined {@{inductively as follows}@}: {@{$*0$ is $\{\}$, $*1=\{*0\}$, $*2=\{*0,*1\}$ and for all $n\geq 0$, $*(n+1)=*n\cup \{*n\}$}@}. \(annotation: Suspiciously looks like {@{the [von Neumann construction of the natural numbers](set-theoretic%20definition%20of%20natural%20numbers.md) in set theory}@}\) <!--SR:!2028-08-17,1035,350!2027-08-23,743,330!2025-12-21,279,330!2028-12-17,1133,350!2027-11-05,749,330!2026-03-18,123,390!2026-03-14,120,390-->
+{@{The special names $*0$, $*1$, and $*2$}@} referenced in our example game are {@{called ___[nimbers](nimber.md)___}@}. In general, {@{the nimber $*n$}@} corresponds to {@{the position in a game of nim where there are exactly $n$ objects in exactly one heap}@}. Formally, nimbers are defined {@{inductively as follows}@}: {@{$*0$ is $\{\}$, $*1=\{*0\}$, $*2=\{*0,*1\}$ and for all $n\geq 0$, $*(n+1)=*n\cup \{*n\}$}@}. \(annotation: Suspiciously looks like {@{the [von Neumann construction of the natural numbers](set-theoretic%20definition%20of%20natural%20numbers.md) in set theory}@}\) <!--SR:!2028-08-17,1035,350!2027-08-23,743,330!2029-06-12,1269,350!2028-12-17,1133,350!2027-11-05,749,330!2026-03-18,123,390!2026-03-14,120,390-->
 
 While {@{the word _nim_<!-- markdown separator -->ber comes from the game _nim_}@}, nimbers can be {@{used to describe the positions of any finite, impartial game}@}, and in fact, the Sprague–Grundy theorem states that {@{every instance of a finite, impartial game can be associated with a _single_ nimber}@}. <!--SR:!2026-01-07,294,330!2027-11-13,807,330!2027-05-26,674,330-->
 
@@ -97,7 +97,7 @@ To compute {@{the starting position of the [combined game](#combined%20game)}@},
 
 ### equivalence
 
-{@{Positions in impartial games}@} fall into {@{two ___outcome classes___}@}: either {@{the next player \(the one whose turn it is\) wins \(an ${\boldsymbol {\mathcal {N} } }$<!-- LaTeX separator -->___- position___\)}@}, or {@{the previous player wins \(a ${\boldsymbol {\mathcal {P} } }$<!-- LaTeX separator -->___- position___\)}@}. So, for example, {@{$*0$ is a ${\mathcal {P} }$-position, while $*1$ is an ${\mathcal {N} }$-position}@}. <!--SR:!2025-12-22,280,330!2028-08-21,1038,350!2025-12-21,280,330!2025-12-26,284,330!2029-04-30,1238,350-->
+{@{Positions in impartial games}@} fall into {@{two ___outcome classes___}@}: either {@{the next player \(the one whose turn it is\) wins \(an ${\boldsymbol {\mathcal {N} } }$<!-- LaTeX separator -->___- position___\)}@}, or {@{the previous player wins \(a ${\boldsymbol {\mathcal {P} } }$<!-- LaTeX separator -->___- position___\)}@}. So, for example, {@{$*0$ is a ${\mathcal {P} }$-position, while $*1$ is an ${\mathcal {N} }$-position}@}. <!--SR:!2025-12-22,280,330!2028-08-21,1038,350!2029-06-16,1273,350!2025-12-26,284,330!2029-04-30,1238,350-->
 
 {@{Two positions $G$ and $G'$ are ___equivalent___}@} if, {@{no matter what position $H$ is added to them, they are always in the same outcome class}@}. Formally, {@{$G\approx G'$}@} {@{if and only if $\forall H$, $G+H$ is in the same outcome class as $G'+H$}@}. <!--SR:!2029-01-04,1147,350!2029-06-01,1263,350!2025-12-30,287,330!2029-02-21,1183,350-->
 

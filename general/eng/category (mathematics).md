@@ -80,7 +80,7 @@ From these axioms, one can prove that {@{there is exactly one identity morphism 
 
 ## small and large categories
 
-{@{A category _C_ is called __small__}@} if {@{both ob\(_C_\) and hom\(_C_\) (annotation: i.e. mor\(_C_\)) are actually [sets](set%20(mathematics).md) and not [proper classes](class%20(set%20theory).md)}@}, and {@{__large__ otherwise}@}. {@{A __locally small category__}@} is {@{a category such that for all objects _a_ and _b_, the hom-class hom\(_a_, _b_\) is a set, called a __homset__}@}. {@{Many important categories in mathematics \(such as the category of sets\)}@}, {@{although not small, are at least locally small}@}. Since, {@{in small categories, the objects form a set}@}, a small category can be viewed as {@{an [algebraic structure](algebraic%20structure.md) similar to a [monoid](monoid.md) but without requiring [closure](closure%20(mathematics).md) properties}@}. {@{Large categories on the other hand}@} can be {@{used to create "structures" of algebraic structures}@}. <!--SR:!2026-01-05,282,330!2025-12-24,273,330!2025-12-28,276,330!2025-12-24,272,330!2025-12-21,271,330!2029-01-15,1146,350!2028-04-18,861,330!2025-12-24,273,330!2025-12-23,272,330!2025-12-24,273,330!2026-10-09,470,310-->
+{@{A category _C_ is called __small__}@} if {@{both ob\(_C_\) and hom\(_C_\) (annotation: i.e. mor\(_C_\)) are actually [sets](set%20(mathematics).md) and not [proper classes](class%20(set%20theory).md)}@}, and {@{__large__ otherwise}@}. {@{A __locally small category__}@} is {@{a category such that for all objects _a_ and _b_, the hom-class hom\(_a_, _b_\) is a set, called a __homset__}@}. {@{Many important categories in mathematics \(such as the category of sets\)}@}, {@{although not small, are at least locally small}@}. Since, {@{in small categories, the objects form a set}@}, a small category can be viewed as {@{an [algebraic structure](algebraic%20structure.md) similar to a [monoid](monoid.md) but without requiring [closure](closure%20(mathematics).md) properties}@}. {@{Large categories on the other hand}@} can be {@{used to create "structures" of algebraic structures}@}. <!--SR:!2026-01-05,282,330!2025-12-24,273,330!2025-12-28,276,330!2025-12-24,272,330!2029-05-13,1239,350!2029-01-15,1146,350!2028-04-18,861,330!2025-12-24,273,330!2025-12-23,272,330!2025-12-24,273,330!2026-10-09,470,310-->
 
 ## examples
 
@@ -133,8 +133,8 @@ The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete cat
 > - __Mon__ ::@:: objects: monoids <br/> morphisms: monoid homomorphisms <!--SR:!2026-01-20,294,330!2025-12-26,275,330-->
 > - __Grp__ ::@:: objects: groups <br/> morphisms: group homomorphisms <!--SR:!2026-01-17,291,330!2025-12-25,274,330-->
 > - __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms <!--SR:!2029-01-23,1152,350!2025-12-22,272,330-->
-> - __Ring__ ::@:: objects: rings <br/> morphisms: ring homomorphisms <!--SR:!2025-12-21,271,330!2025-12-23,272,330-->
-> - __Field__ ::@:: objects: fields <br/> morphisms: field homomorphisms <!--SR:!2025-12-25,274,330!2025-12-21,271,330-->
+> - __Ring__ ::@:: objects: rings <br/> morphisms: ring homomorphisms <!--SR:!2029-05-06,1232,350!2025-12-23,272,330-->
+> - __Field__ ::@:: objects: fields <br/> morphisms: field homomorphisms <!--SR:!2025-12-25,274,330!2029-05-14,1240,350-->
 > - ___R_-Mod__ ::@:: objects: _R_-modules, where _R_ is a ring <br/> morphisms: _R_-module homomorphisms <!--SR:!2025-12-26,275,330!2026-01-20,294,330-->
 > - __Vect__<sub>_K_</sub> ::@:: objects: vector spaces over the field _K_ <br/> morphisms: _K_-linear maps <!--SR:!2027-08-05,716,330!2029-01-04,1137,350-->
 > - __Met__ ::@:: objects: metric spaces <br/> morphisms: short maps <!--SR:!2026-01-05,282,330!2027-05-25,661,330-->
@@ -150,7 +150,7 @@ The category {@{__[Cat](category%20of%20small%20categories.md)__}@} consists of 
 
 ### dual category
 
-Any category _C_ can {@{itself be considered as a new category in a different way}@}: {@{the objects are the same as those in the original category but the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}. <!--SR:!2025-12-21,271,330!2026-01-18,292,330!2028-02-14,855,330-->
+Any category _C_ can {@{itself be considered as a new category in a different way}@}: {@{the objects are the same as those in the original category but the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}. <!--SR:!2029-05-07,1233,350!2026-01-18,292,330!2028-02-14,855,330-->
 
 ### product categories
 
@@ -198,7 +198,7 @@ A [morphism](morphism.md) {@{_f_ : _a_ → _b_}@} is called <!--SR:!2029-04-17,1
 ## notes
 
 1. a. [Barr & Wells 2005](#CITEREFBarrWells2005), Chapter 1 <a id="^ref-a"></a>^ref-a
-2. b. (annotation: hom\(_a_, _b_\)) Some authors write {@{Mor\(_a_, _b_\) or simply _C_\(_a_, _b_\)}@} instead. <a id="^ref-b"></a>^ref-b <!--SR:!2025-12-21,271,330-->
+2. b. (annotation: hom\(_a_, _b_\)) Some authors write {@{Mor\(_a_, _b_\) or simply _C_\(_a_, _b_\)}@} instead. <a id="^ref-b"></a>^ref-b <!--SR:!2029-05-12,1238,350-->
 
 ## references
 

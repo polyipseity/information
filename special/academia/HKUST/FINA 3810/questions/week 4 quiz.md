@@ -25,4 +25,4 @@ tags:
 
 ## hints
 
-1. using implied price ::@:: The implied price is the _theoretical_ "correct" price using relative valuation. If the current price is much higher, it suggests _selling_. If the current price is much lower, it suggests _buying_. Otherwise, it suggests _holding_. <!--SR:!2025-12-21,44,290!2026-01-08,63,310-->
+1. using implied price ::@:: The implied price is the _theoretical_ "correct" price using relative valuation. If the current price is much higher, it suggests _selling_. If the current price is much lower, it suggests _buying_. Otherwise, it suggests _holding_. <!--SR:!2026-06-16,177,310!2026-01-08,63,310-->

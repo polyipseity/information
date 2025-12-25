@@ -16,7 +16,7 @@ tags:
 >
 > {@{The commutative diagram used in the proof of the [five lemma](five%20lemma.md)}@} <!--SR:!2026-02-18,294,330!2026-02-18,294,330-->
 
-In {@{[mathematics](mathematics.md), and especially in [category theory](category%20theory.md)}@}, {@{a __commutative diagram__}@} is {@{a [diagram](diagram%20(category%20theory).md) such that all directed paths in the diagram with the same start and endpoints lead to the same result}@}.<sup>[\[1\]](#^ref-1)</sup> It is said that {@{commutative diagrams play the role in category theory}@} that {@{[equations](equations.md) play in [algebra](algebra.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-09,262,330!2026-01-14,266,330!2025-12-21,247,330!2026-02-01,279,330!2025-12-24,250,330-->
+In {@{[mathematics](mathematics.md), and especially in [category theory](category%20theory.md)}@}, {@{a __commutative diagram__}@} is {@{a [diagram](diagram%20(category%20theory).md) such that all directed paths in the diagram with the same start and endpoints lead to the same result}@}.<sup>[\[1\]](#^ref-1)</sup> It is said that {@{commutative diagrams play the role in category theory}@} that {@{[equations](equations.md) play in [algebra](algebra.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-09,262,330!2026-01-14,266,330!2029-01-21,1127,350!2026-02-01,279,330!2025-12-24,250,330-->
 
 ## description
 

@@ -58,7 +58,7 @@ To {@{check the first possibility \(we touch a contour line of _f_\)}@}, notice 
 
 Notice that this method also {@{solves the second possibility, that _f_ is level}@}: if {@{_f_ is level, then its gradient is zero}@}, and {@{setting $\lambda =0$ is a solution regardless of $\nabla _{x,y}g$}@}. <!--SR:!2026-03-15,276,330!2026-03-15,274,330!2026-02-24,263,330-->
 
-To {@{incorporate these conditions into one equation}@}, we introduce {@{an auxiliary function $${\mathcal {L} }(x,y,\lambda )\equiv f(x,y)+\lambda \cdot g(x,y)\,,$$}@} and solve {@{$$\nabla _{x,y,\lambda }{\mathcal {L} }(x,y,\lambda )=0~.$$}@} Note that this amounts to {@{solving three equations in three unknowns}@}. This is {@{the method of Lagrange multipliers}@}. <!--SR:!2026-03-28,287,330!2025-12-21,192,310!2026-01-29,240,330!2026-01-23,237,330!2026-02-09,252,330-->
+To {@{incorporate these conditions into one equation}@}, we introduce {@{an auxiliary function $${\mathcal {L} }(x,y,\lambda )\equiv f(x,y)+\lambda \cdot g(x,y)\,,$$}@} and solve {@{$$\nabla _{x,y,\lambda }{\mathcal {L} }(x,y,\lambda )=0~.$$}@} Note that this amounts to {@{solving three equations in three unknowns}@}. This is {@{the method of Lagrange multipliers}@}. <!--SR:!2026-03-28,287,330!2028-03-24,824,330!2026-01-29,240,330!2026-01-23,237,330!2026-02-09,252,330-->
 
 Note that {@{$\ \nabla _{\lambda }{\mathcal {L} }(x,y,\lambda )=0\ {}$ implies $\ g(x,y)=0\ {}$}@}, as {@{the partial derivative of ${\mathcal {L} }$ with respect to $\lambda$ is $\ g(x,y)~$}@}. <!--SR:!2026-02-01,246,330!2026-03-07,268,330-->
 

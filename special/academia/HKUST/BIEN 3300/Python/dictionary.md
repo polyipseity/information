@@ -13,7 +13,7 @@ A Python dictionary works like a dictionary. In the latter, you lookup a word to
 
 ## creation
 
-To create a dictionary, use {@{curly brackets `{}`}@}. To add keys and values, {@{separate each key-value pair with a comma `,` and separate the key and the value with a colon `:`}@}: <!--SR:!2026-01-01,67,310!2025-12-21,58,310-->
+To create a dictionary, use {@{curly brackets `{}`}@}. To add keys and values, {@{separate each key-value pair with a comma `,` and separate the key and the value with a colon `:`}@}: <!--SR:!2026-01-01,67,310!2026-08-30,252,330-->
 
 ```Python
 empty_dict = {}

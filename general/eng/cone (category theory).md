@@ -31,7 +31,7 @@ At first glance cones seem to be {@{slightly abnormal constructions in category 
 
 Let {@{_J_ be a small category}@} and let {@{_C_<sup>_J_</sup> be the [category of diagrams](category%20of%20diagrams.md) of type _J_ in _C_ \(this is nothing more than a [functor category](functor%20category.md)\)}@}. Define {@{the [diagonal functor](diagonal%20functor.md) Δ : _C_ → _C_<sup>_J_</sup>}@} as follows: {@{Δ\(_N_\) : _J_ → _C_ is the [constant functor](constant%20functor.md#examples) to _N_ for all _N_ in _C_}@}. <!--SR:!2026-01-07,275,330!2025-12-22,261,330!2026-04-03,347,352!2025-12-27,265,330-->
 
-If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equivalent: <!--SR:!2025-12-21,260,330-->
+If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equivalent: <!--SR:!2029-03-17,1182,350-->
 
 - (annotation: cone) ::@:: ψ is a cone from _N_ to _F_ <!--SR:!2026-04-10,353,352!2026-01-26,290,330-->
 - (annotation: cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from Δ\(_N_\) to _F_ <!--SR:!2029-01-21,1140,350!2026-04-06,350,352-->

@@ -54,7 +54,7 @@ The content is in teaching order.
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2025-12-21,395,292!2030-05-01,1767,370-->
+  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2030-05-10,1601,312!2030-05-01,1767,370-->
   - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2031-07-12,2087,377!2027-03-04,757,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
@@ -1016,7 +1016,7 @@ Taipei 101
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←HSBC Main Building <!--SR:!2030-05-18,1660,337!2029-02-17,1418,350-->
-- HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2027-12-21,958,354-->
+- HSBC Main Building→::@::←International Commerce Centre <!--SR:!2029-03-22,1187,297!2027-12-21,958,354-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2030-02-16,1596,340!2029-06-04,1306,317-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2030-03-17,1613,332-->
 - Taipei 101→::@::←_(end)_ <!--SR:!2029-02-16,1408,387!2026-05-17,425,301-->

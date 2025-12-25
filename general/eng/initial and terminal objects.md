@@ -34,7 +34,7 @@ tags:
 - "{@{Zero object}@}" redirects here. For {@{zero object in an algebraic structure}@}, see {@{[zero object \(algebra\)](zero%20object%20(algebra).md)}@}.
 - "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2026-04-01,348,352!2026-02-11,306,337!2026-01-23,292,337!2028-04-04,892,337!2026-03-28,345,352!2026-05-20,389,359-->
 
-In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2026-01-12,282,337!2025-12-21,265,337!2026-02-08,303,337-->
+In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2026-01-12,282,337!2029-05-04,1230,357!2026-02-08,303,337-->
 
 {@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2025-12-23,267,337!2026-04-01,348,352!2026-01-27,293,330!2026-01-23,292,337!2026-01-11,281,337-->
 

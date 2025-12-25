@@ -137,7 +137,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2026-01-16,65,310!2026-01-12,62,310!2026-01-11,61,310!2026-01-15,64,310!2026-01-18,67,310!2026-01-05,56,310!2026-01-16,65,310-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-01-18,67,310!2026-01-07,58,310!2026-01-14,63,310!2025-12-21,43,290!2026-01-17,66,310!2026-01-07,58,310!2026-01-05,56,310!2026-01-05,56,310!2026-01-16,65,310-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-01-18,67,310!2026-01-07,58,310!2026-01-14,63,310!2026-06-14,175,310!2026-01-17,66,310!2026-01-07,58,310!2026-01-05,56,310!2026-01-05,56,310!2026-01-16,65,310-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-01-06,57,310!2026-01-09,59,310!2026-01-04,55,310!2026-01-08,58,310-->
 
@@ -328,7 +328,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > ```
 <!--SR:!2026-01-09,59,310!2026-01-08,58,310-->
 
-As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-12-21,43,290!2026-01-18,67,310!2026-01-05,56,310!2026-01-09,59,310!2026-01-25,73,330-->
+As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2026-06-15,176,310!2026-01-18,67,310!2026-01-05,56,310!2026-01-09,59,310!2026-01-25,73,330-->
 
 ### reduce
 

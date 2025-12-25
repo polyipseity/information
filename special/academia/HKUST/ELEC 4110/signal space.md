@@ -56,7 +56,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 - _Orthogonality_: ::@:: Vectors are orthogonal if their inner product vanishes: $\langle u,v\rangle=0$. <!--SR:!2025-12-25,16,305!2025-12-27,18,324-->
 - _Circles and spheres_: ::@:: The set $\{x\in V : \|x-x_c\| = r\}$ describes a circle (or hypersphere) centered at $x_c$ with radius $r$. <!--SR:!2025-12-26,17,305!2025-12-26,17,305-->
 
-{@{A sequence $(v_n)$}@} {@{converges to $v$ in an inner product space}@} iff {@{$\|v_n - v\|\to 0$}@}. Equivalently, for {@{every $\varepsilon>0$}@} there exists {@{$N$ such that $n>N\Rightarrow \|v_n-v\|<\varepsilon$}@}, ensuring {@{the familiar topological notion of limits}@} within {@{this geometric framework}@}. <!--SR:!2025-12-25,16,305!2025-12-27,18,324!2025-12-26,17,305!2025-12-26,17,305!2025-12-21,12,285!2025-12-26,17,305!2025-12-26,17,305-->
+{@{A sequence $(v_n)$}@} {@{converges to $v$ in an inner product space}@} iff {@{$\|v_n - v\|\to 0$}@}. Equivalently, for {@{every $\varepsilon>0$}@} there exists {@{$N$ such that $n>N\Rightarrow \|v_n-v\|<\varepsilon$}@}, ensuring {@{the familiar topological notion of limits}@} within {@{this geometric framework}@}. <!--SR:!2025-12-25,16,305!2025-12-27,18,324!2025-12-26,17,305!2025-12-26,17,305!2026-02-07,48,305!2025-12-26,17,305!2025-12-26,17,305-->
 
 ### energy
 
@@ -64,7 +64,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 ### coordinates
 
-To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!2025-12-21,12,285!2025-12-24,15,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-24,15,305!2026-01-11,26,285-->
+To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!2026-02-08,49,305!2025-12-24,15,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-24,15,305!2026-01-11,26,285-->
 
 {@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the point in Euclidean space that represents the waveform}@}. {@{These coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}, and they provide {@{a compact, geometrically meaningful description of $s(t)$}@}. <!--SR:!2025-12-24,15,305!2025-12-25,16,305!2025-12-26,17,305!2025-12-25,16,305!2025-12-24,15,305!2025-12-26,17,305-->
 
@@ -125,7 +125,7 @@ Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the 
 The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2025-12-24,15,305-->
 
 1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$. <!--SR:!2025-12-24,15,305!2025-12-24,15,305-->
-2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and {@{normalise the remainder to get $\phi_k$}@}. <!--SR:!2025-12-26,17,305!2025-12-21,12,285-->
+2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and {@{normalise the remainder to get $\phi_k$}@}. <!--SR:!2025-12-26,17,305!2026-02-06,47,305-->
 3. skip conditions ::@:: If a residual becomes zero, skip to the next signal; the dimension of the signal space is less than $M$. <!--SR:!2025-12-24,15,305!2025-12-25,16,305-->
 
 \(__this course__: Whenever possible, {@{identify orthogonal signals}@} {@{by inspection}@} and {@{normalize them}@}, which is {@{usually much faster}@}. Only if {@{the problem is complex or explicitly asks for a Gram–Schmidt process}@}, then {@{use the Gram–Schmidt process}@}.\) <!--SR:!2025-12-26,17,305!2025-12-23,14,290!2025-12-24,15,305!2025-12-25,16,305!2025-12-26,17,305!2025-12-24,15,305-->
@@ -148,7 +148,7 @@ These examples show that {@{sinusoidal signals over a fixed interval $[0, T)$}@}
 
 For {@{linear time invariant \(LTI\) filters}@}, {@{the matched filter}@} {@{maximises signal-to-noise ratio}@}. In {@{signal space}@} this is equivalent to {@{projecting the received vector onto each basis function}@} and deciding on {@{the symbol whose projected coordinates}@} are {@{closest in Euclidean distance}@}. <!--SR:!2025-12-23,14,290!2025-12-26,17,305!2025-12-25,16,305!2025-12-26,17,305!2025-12-26,17,305!2025-12-25,16,305!2025-12-26,17,305-->
 
-{@{Increasing bit rate}@} by {@{adding dimensions}@} usually requires {@{higher bandwidth or power}@}. {@{The geometric view}@} helps visualise {@{these trade-offs}@} and guides {@{practical modulation choices}@} such as {@{quadrature amplitude modulation \(QAM\), phase-shift keying \(PSK\), orthogonal frequency-division multiplexing \(OFDM\), etc.}@} <!--SR:!2025-12-26,17,305!2025-12-27,18,324!2025-12-24,15,305!2025-12-24,15,305!2025-12-24,15,305!2025-12-26,17,305!2025-12-21,12,285-->
+{@{Increasing bit rate}@} by {@{adding dimensions}@} usually requires {@{higher bandwidth or power}@}. {@{The geometric view}@} helps visualise {@{these trade-offs}@} and guides {@{practical modulation choices}@} such as {@{quadrature amplitude modulation \(QAM\), phase-shift keying \(PSK\), orthogonal frequency-division multiplexing \(OFDM\), etc.}@} <!--SR:!2025-12-26,17,305!2025-12-27,18,324!2025-12-24,15,305!2025-12-24,15,305!2025-12-24,15,305!2025-12-26,17,305!2026-02-09,50,305-->
 
 For example, {@{frequency-domain representation}@} as {@{a special case of geometric-domain representation}@}, can {@{represent discrete signals of length _N_ _perfectly_}@}, but {@{the resulting dimension}@} also {@{has _N_ dimensions}@}, which is {@{_inefficient_}@} as it {@{does not exploit any _simplicity_ in the signals to be transmitted}@}. It may be possible that {@{the signals to be transmitted}@} lie in {@{a subspace that has less than _N_ dimensions}@}. The goal of {@{a geometric-domain representation}@} is to find {@{the _minimal_ dimensions}@} that still {@{contains all signals to be transmitted}@}. <!--SR:!2025-12-25,16,305!2025-12-24,15,305!2025-12-26,17,305!2025-12-24,15,305!2025-12-24,15,305!2025-12-24,15,305!2025-12-26,17,305!2025-12-24,15,305!2025-12-23,14,290!2025-12-27,18,324!2025-12-24,15,305!2025-12-26,17,305-->
 

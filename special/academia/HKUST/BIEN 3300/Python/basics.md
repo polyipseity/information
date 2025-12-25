@@ -152,13 +152,13 @@ return _chain.from_iterable(await _gather(
 - `>`:@:greater than <!--SR:!2025-12-30,65,310-->
 - `>=`:@:greater than or equal to <!--SR:!2026-08-02,228,330-->
 - `!=`:@:not equal to <!--SR:!2025-12-23,59,310-->
-- `==`:@:equal to <!--SR:!2025-12-21,58,310-->
+- `==`:@:equal to <!--SR:!2026-09-01,254,330-->
 
 <!--/pytextgen-->
 
 Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2026-08-16,241,330-->
 
-Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2026-08-14,239,330!2025-12-21,58,310!2025-12-25,61,310!2026-08-20,244,330!2025-12-21,58,310!2026-01-01,67,310!2025-12-27,63,310!2025-12-23,59,310-->
+Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2026-08-14,239,330!2026-08-30,252,330!2025-12-25,61,310!2026-08-20,244,330!2026-08-31,253,330!2026-01-01,67,310!2025-12-27,63,310!2025-12-23,59,310-->
 
 ### logic operators
 
@@ -224,7 +224,7 @@ To assign a value or the result of an expression to a variable, use {@{`=`}@}: <
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2025-12-21,58,310-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2026-09-02,255,330-->
 
 Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-04-21,146,310!2026-01-11,76,329!2026-01-11,76,329!2026-01-11,76,329-->
 

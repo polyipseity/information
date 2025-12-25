@@ -60,7 +60,7 @@ The content is in teaching order.
 - topic: logistics; real-world applications of data science in physical, chemical, and life sciences
 - BIEN 3300
   - BIEN 3300 / logistics
-  - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2025-12-31,66,310!2025-12-21,58,310-->
+  - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2025-12-31,66,310!2026-09-01,254,330-->
   - BIEN 3300 / rules
 - [data](../../../../general/data.md) ::@:: They are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally. <!--SR:!2025-12-28,63,310!2026-01-01,67,310-->
 - [data science](../../../../general/data%20science.md) ::@:: It is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data. <!--SR:!2025-12-24,60,310!2026-08-07,233,330-->
@@ -80,7 +80,7 @@ The content is in teaching order.
   - BIEN 3300 / grading
   - BIEN 3300 / homework
     - BIEN 3300 / homework / rules
-  - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2025-12-27,62,310!2025-12-21,58,310-->
+  - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2025-12-27,62,310!2026-09-02,255,330-->
   - BIEN 3300 / format
     - BIEN 3300 / format / lectures
     - BIEN 3300 / format / tutorials

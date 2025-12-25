@@ -69,7 +69,7 @@ In this example, we have
 
 {@{The standard family of algorithms to calculate optimal policies for finite state and action MDPs}@} requires {@{storage for two arrays indexed by state: _value_ $V$, which contains real values, and _policy_ $\pi$, which contains actions}@}. At {@{the end of the algorithm}@}, $\pi$ will {@{contain the solution and $V(s)$ will contain the discounted sum of the rewards to be earned \(on average\) by following that solution from state $s$}@}. <!--SR:!2028-07-24,1023,349!2026-03-01,352,349!2026-01-31,329,349!2026-01-29,327,349-->
 
-The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy}@} and {@{state value using an older estimation of those values}@}. <!--SR:!2026-01-09,310,349!2025-12-28,302,349!2026-02-10,336,349!2025-12-21,296,349-->
+The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy}@} and {@{state value using an older estimation of those values}@}. <!--SR:!2026-01-09,310,349!2025-12-28,302,349!2026-02-10,336,349!2029-11-16,1426,369-->
 
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2027-02-12,545,272!2026-02-03,301,292-->
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2026-06-08,362,270!2026-09-04,462,312-->

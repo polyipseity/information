@@ -50,7 +50,7 @@ In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} 
 - ${\bar {x} }$ ::@:: is the [mean](mean.md) of the sample, <!--SR:!2026-01-10,266,330!2029-01-03,1115,350-->
 - _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2028-12-07,1095,350!2029-01-20,1130,350-->
 
-Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2025-12-21,251,330!2025-12-25,252,330!2028-12-28,1111,350!2029-01-10,1121,350-->
+Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2029-02-10,1147,350!2025-12-25,252,330!2028-12-28,1111,350!2029-01-10,1121,350-->
 
 ## applications
 
@@ -62,7 +62,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 ### prediction intervals
 
-{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2025-12-25,254,330!2026-01-14,269,330!2026-01-22,276,330!2025-12-21,250,330!2028-03-23,863,330!2026-02-14,294,330!2027-03-20,543,310!2027-12-04,791,330!2029-01-20,1129,350-->
+{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2025-12-25,254,330!2026-01-14,269,330!2026-01-22,276,330!2029-02-01,1138,350!2028-03-23,863,330!2026-02-14,294,330!2027-03-20,543,310!2027-12-04,791,330!2029-01-20,1129,350-->
 
 ### process control
 
@@ -83,7 +83,7 @@ When {@{scores are measured on different scales}@}, they may be {@{converted to 
 
 > {@{![_z_ score (0.6) for student A shown on a standard normal distribution graph](../../archives/Wikimedia%20Commons/Z%20score%20for%20Student%20B.png)}@}
 >
-> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2026-02-06,287,330!2025-12-21,251,330!2026-02-02,284,330!2027-08-15,710,330-->
+> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2026-02-06,287,330!2029-02-11,1148,350!2026-02-02,284,330!2027-08-15,710,330-->
 
 The z-score for student A is $z={x-\mu  \over \sigma }={1800-1500 \over 300}=1$
 

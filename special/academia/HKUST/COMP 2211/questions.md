@@ -237,7 +237,7 @@ tags:
 > print(a + b)
 > ```
 >
-> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]]`}@} <!--SR:!2025-12-21,281,330-->
+> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]]`}@} <!--SR:!2029-06-21,1278,350-->
 
 <!-- markdownlint MD028 -->
 
