@@ -871,7 +871,7 @@ The content is in teaching order.
     - [§ recursion](Lisp.md#recursion)
     - [§ global environment](Lisp.md#global%20environment)
     - [§ usage](Lisp.md#usage)
-    - [§ extension](Lisp.md#extension)
+    - [§ extensions](Lisp.md#extensions)
 
 ## week 12 lab
 
