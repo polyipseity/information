@@ -130,7 +130,7 @@ Above, we have also _neglected_ to prove that {@{the response mean of a LTI syst
 
 As mentioned above, in the _special case_ that {@{both bits are equiprobable and the noise is a white noise}@}, given {@{the input difference $g(t)$}@}, {@{the optimal filter}@} is {@{$$\boxed{h_{\text{opt} }(t) = \overline {g(-(t - T))} = g^*(T - t)} \,.$$}@} It is interpreted as {@{flipping $g(t)$ across $t = 0$, then shifting it to the right by $T$ \(note $t$ is now flipped\), and then have its conjugate taken}@}. This is known as a {@{_matched filter_}@}.
 
-The formulation above takes {@{$g(t) = s_1(t) - s_0(t)$}@} to {@{create a matched filter}@}. Sometimes, {@{$s_0(t), s_1(t)$ are easily available}@} while {@{$g(t)$ is not}@}. In said cases, we can use {@{linearity of convolution}@} as follows: create {@{a matched filter for each of $s_0(t), s_1(t)$}@}: {@{$$h_0(t) := s_0^*(T - t) \qquad h_1(t) := s_1^*(T - t)$$}@}, then {@{subtract the output from the filter for $s_1(t)$ by that from the filter for $s_0(t)$}@}. Mathematically, the result is {@{equivalent to having a single filter}@}.
+The formulation above takes {@{$g(t) = s_1(t) - s_0(t)$}@} to {@{create a matched filter}@}. Sometimes, {@{$s_0(t), s_1(t)$ are easily available}@} while {@{$g(t)$ is not}@}. In said cases, we can use {@{linearity of convolution}@} as follows: create {@{a matched filter for each of $s_0(t), s_1(t)$}@}: {@{$$h_0(t) := s_0^*(T - t) \qquad h_1(t) := s_1^*(T - t) \,,$$}@} then {@{subtract the output from the filter for $s_1(t)$ by that from the filter for $s_0(t)$}@}. Mathematically, the result is {@{equivalent to having a single filter}@}.
 
 #### correlator
 

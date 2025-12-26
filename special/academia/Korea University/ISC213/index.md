@@ -508,7 +508,7 @@ The content is in teaching order.
 - [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web.
 - knowledge management system
   - knowledge management system / intelligent techniques
-    - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc.
+    - knowledge management system / intelligent techniques / tasks ::@:: - _automation_: intelligent agents, etc. <br/> - _capture tacit knowledge_: case-based reasoning, expert systems, fuzzy logic, etc. <br/> - _knowledge discovery_: data mining, neural networks, etc. <br/> - _solutions to complex problems_: genetic algorithms, etc.
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.
 
 ## week 4 lecture 3

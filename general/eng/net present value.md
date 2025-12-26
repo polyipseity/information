@@ -71,7 +71,7 @@ If {@{the discounted benefits across the life of a project are \$100 million and
 
 The NPV formula assumes that {@{the benefits and costs occur at the end of each period, resulting in a more conservative NPV}@}. However, it may be that {@{the cash inflows and outflows occur at the beginning of the period or in the middle of the period}@}.
 
-{@{The NPV formula for mid period discounting}@} is given by: {@{$$\mathrm {NPV} (i,N)=\sum _{t=0}^{N}{\frac {R_{t} }{(1+i)^{t-0.5} } }$$}@} Over {@{a project's lifecycle}@}, cash flows are {@{typically spread across each period \(for example spread across each year\)}@}, and as such {@{the middle of the year represents the average point in time in which these cash flows occur}@}. Hence {@{mid period discounting typically provides a more accurate, although less conservative NPV}@}.<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup>
+{@{The NPV formula for mid period discounting}@} is given by: {@{$$\mathrm {NPV} (i,N)=\sum _{t=0}^{N}{\frac {R_{t} }{(1+i)^{t-0.5} } }$$}@} Over {@{a project's lifecycle}@}, cash flows are {@{typically spread across each period \(for example spread across each year\)}@}, and as such {@{the middle of the year represents the average point in time in which these cash flows occur}@}. Hence {@{mid period discounting}@} typically provides {@{a more accurate, although less conservative NPV}@}.<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup>
 
 {@{The NPV formula using beginning of period discounting}@} is given by: {@{$$\mathrm {NPV} (i,N)=-{\text{Initial Investment} }+\sum _{t=1}^{N}{\frac {R_{t} }{(1+i)^{t-1} } }$$}@} This {@{results in the least conservative NPV}@}.
 
@@ -135,7 +135,7 @@ The NPV is {@{heavily dependent on knowledge of future cash flows, their timing}
 
 #### relies on choice of discount rate and discount factor
 
-{@{The accuracy of the NPV method}@} relies {@{heavily on the choice of a discount rate and hence [discount factor](discounting.md)}@}, representing {@{an [investment's true risk premium](risk%20premium.md)}@}.<sup>[\[15\]](#^ref-15)</sup> The discount rate is {@{assumed to be constant over the life of an investment}@}; however, {@{discount rates can change over time}@}. For example, {@{discount rates can change as the cost of capital changes}@}.<sup>[\[16\]](#^ref-16)</sup><sup>[\[10\]](#^ref-10)</sup> There are {@{other drawbacks to the NPV method}@}, such as the fact that it {@{displays a lack of consideration for a project's size and the [cost of capital](cost%20of%20capital.md)}@}.<sup>[\[17\]](#^ref-17)</sup><sup>[\[11\]](#^ref-11)</sup>
+{@{The accuracy of the NPV method}@} relies {@{heavily on the choice of a discount rate and hence [discount factor](discounting.md)}@}, representing {@{an [investment's true risk premium](risk%20premium.md)}@}.<sup>[\[15\]](#^ref-15)</sup> The discount rate is {@{assumed to be constant over the life of an investment}@}; however, {@{discount rates can change over time}@}. For example, {@{discount rates can change as the cost of capital changes}@}.<sup>[\[16\]](#^ref-16)</sup><sup>[\[10\]](#^ref-10)</sup> There are {@{other drawbacks to the NPV method}@}, such as the fact that it displays {@{a lack of consideration for a project's size and the [cost of capital](cost%20of%20capital.md)}@}.<sup>[\[17\]](#^ref-17)</sup><sup>[\[11\]](#^ref-11)</sup>
 
 #### lack of consideration of non-financial metrics
 

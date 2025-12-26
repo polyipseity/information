@@ -69,7 +69,7 @@ In this example, we have
 
 {@{The standard family of algorithms to calculate optimal policies for finite state and action MDPs}@} requires {@{storage for two arrays indexed by state: _value_ $V$, which contains real values, and _policy_ $\pi$, which contains actions}@}. At {@{the end of the algorithm}@}, $\pi$ will {@{contain the solution and $V(s)$ will contain the discounted sum of the rewards to be earned \(on average\) by following that solution from state $s$}@}.
 
-The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy}@} and {@{state value using an older estimation of those values}@}.
+The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy and state value}@} using {@{an older estimation of those values}@}.
 
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$
@@ -157,7 +157,7 @@ Reinforcement learning can {@{solve Markov-Decision processes without explicit s
 
 ### reinforcement learning for discrete MDPs
 
-For {@{the purpose of this section}@}, it is useful to {@{define a further function}@}, which corresponds to {@{taking the action $a$ and then continuing optimally \(or according to whatever policy one currently has\)}@}: {@{$$\ Q(s,a)=\sum _{s'}P_{a}(s,s')(R_{a}(s,s')+\gamma V(s')).\ {}$$}@} While {@{this function is also unknown}@}, {@{experience during learning is based on $(s,a)$ pairs}@} \(together with {@{the outcome $s'$; that is, "I was in state $s$ and I tried doing $a$ and $s'$ happened"}@}\). Thus, {@{one has an array $Q$ and uses experience to update it directly}@}. This is known as {@{[Q-learning](Q-learning.md)}@}.
+For {@{the purpose of this section}@}, it is useful to {@{define a further function}@}, which corresponds to {@{taking the action $a$ and then continuing optimally \(or according to whatever policy one currently has\)}@}: {@{$$\ Q(s,a)=\sum _{s'}P_{a}(s,s')(R_{a}(s,s')+\gamma V(s')).\ {}$$}@} While {@{this function is also unknown}@}, {@{experience during learning}@} is based on {@{$(s,a)$ pairs}@} \(together with {@{the outcome $s'$}@}; that is, "I {@{was in state $s$ and I tried doing $a$ and $s'$ happened}@}"\). Thus, one has {@{an array $Q$ and uses experience to update it directly}@}. This is known as {@{[Q-learning](Q-learning.md)}@}.
 
 ## other scopes
 

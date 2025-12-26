@@ -207,7 +207,7 @@ For {@{constraints in general}@}, UML provides {@{a text-based _formal_ constrai
 {@{A _dependency_}@} relates {@{classes whose behavior or implementation affect other classes}@}. It is indicated by {@{a _dashed arrow_}@}. Some example dependencies are: {@{_flow_ and _usage_}@}.
 
 - flow ::@:: An instance of some class may become another class later. The dashed arrow points from the old class to the new class.
-- usage ::@:: A class may require another class for its correct functioning. The dashed arrow points from the dependant \(requires\) to the dependency \(required by\).
+- usage ::@:: A class may require another class for its correct functioning. The dashed arrow points from the dependant \(the class that requires others\) to the dependency \(the class that is required by others\).
 
 ## realizations
 

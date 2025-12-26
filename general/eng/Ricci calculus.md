@@ -122,7 +122,7 @@ By contracting {@{an index with a non-singular [metric tensor](metric%20tensor.m
 
 ### correlations between index positions and invariance
 
-This table summarizes {@{how the manipulation of covariant and contravariant indices}@} fit in with {@{invariance under a [passive transformation](passive%20transformation.md) \(annotation: leave points fixed but change the frame of reference or coordinate system relative to which they are described\) between bases}@}, with {@{the components of each basis set in terms of the other}@} reflected in the first column. {@{The barred indices}@} refer to {@{the final coordinate system after the transformation}@}.<sup>[\[12\]](#^ref-12)</sup>
+This table summarizes {@{how the manipulation of covariant and contravariant indices}@} fit in with {@{invariance under a [passive transformation](passive%20transformation.md)}@} \(annotation: leave {@{points fixed}@} but change {@{the frame of reference or coordinate system relative to which they are described}@}, i.e. only {@{the coordinate _components_ of a point}@} change\) between bases, with {@{the components of each basis set in terms of the other}@} reflected in the first column. {@{The barred indices}@} refer to {@{the final coordinate system after the transformation}@}.<sup>[\[12\]](#^ref-12)</sup>
 
 {@{The [Kronecker delta](Kronecker%20delta.md)}@} is used, [see also below](#notable%20tensors).
 

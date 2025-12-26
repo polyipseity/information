@@ -145,7 +145,7 @@ The alternative second assumption states that {@{when the number of points in th
 
 - See also: [Ordinary least squares § Example](ordinary%20least%20squares.md#example), and [Linear least squares § Example](linear%20least%20squares.md#example)
 
-This data set gives {@{average masses for women as a function of their height in a sample of American women of age 30–39}@}. Although {@{the [OLS](ordinary%20least%20squares.md) article}@} argues that {@{it would be more appropriate to run a quadratic regression for this data}@}, {@{the simple linear regression model is applied here instead}@}.
+This data set gives {@{average masses for women as a function of their height in a sample of American women of age 30–39}@}. Although {@{the [OLS](ordinary%20least%20squares.md) article}@} argues that {@{it would be more appropriate to run a quadratic regression for this data}@}, {@{the simple linear regression model}@} is applied here instead.
 
 |                                                              |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
 | ------------------------------------------------------------ | -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:|

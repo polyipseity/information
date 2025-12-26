@@ -56,7 +56,7 @@ Note that {@{in each definition, the arrows are reversed}@}. Both definitions ar
 
 Universal morphisms can be {@{described more concisely as initial and terminal objects in a [comma category](comma%20category.md)}@} \(i.e. one where {@{morphisms are seen as objects in their own right}@}\).
 
-Let {@{$F:{\mathcal {C} }\to {\mathcal {D} }$ be a functor and $X$ an object of ${\mathcal {D} }$}@}. Then recall that {@{the comma category $(X\downarrow F)$ is the category where (annotation: $X$, more accurately, should be the selection functor from __1__ to $\mathcal D$, mapping the only object in __1__ to $X$)}@}
+Let {@{$F:{\mathcal {C} }\to {\mathcal {D} }$ be a functor and $X$ an object of ${\mathcal {D} }$}@}. Then recall that {@{the comma category $(X\downarrow F)$ is the category}@} where \(annotation: $X$, more accurately, should be {@{the selection functor from __1__ to $\mathcal D$, mapping the only object in __1__ to $X$}@}\)
 
 - (annotation: $(X \downarrow F)$, object) ::@:: Objects are pairs of the form $(B,f:X\to F(B))$, where $B$ is an object in ${\mathcal {C} }$
 - (annotation: $(X \downarrow F)$, morphism) ::@:: A morphism from $(B,f:X\to F(B))$ to $(B',f':X\to F(B'))$ is given by a morphism $h:B\to B'$ in ${\mathcal {C} }$ such that the diagram commutes: <p> ![A morphism in the comma category is given by the morphism $h: B \to B'$ which also makes the diagram commute.](../../archives/Wikimedia%20Commons/Definition%20of%20a%20morphism%20in%20a%20comma%20category.svg)

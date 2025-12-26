@@ -81,7 +81,7 @@ Alternatively, {@{each coordinate of a point _P_}@} can be taken as {@{the dista
 
 {@{Standard names for the coordinates in the three axes}@} are {@{_abscissa_, _ordinate_ and _applicate_}@}.<sup>[\[9\]](#^ref-9)</sup> The coordinates are often {@{denoted by the letters _x_, _y_, and _z_}@}. The axes may then be referred to as {@{the _x_-axis, _y_-axis, and _z_-axis, respectively}@}. Then {@{the coordinate planes}@} can be referred to as {@{the _xy_-plane, _yz_-plane, and _xz_-plane}@}.
 
-In {@{mathematics, physics, and engineering contexts}@}, {@{the first two axes}@} are often {@{defined or depicted as horizontal, with the third axis pointing up}@}. In that case {@{the third coordinate}@} may be called {@{_height_ or _altitude_}@}. {@{The orientation}@} is usually {@{chosen so that the 90-degree angle from the first axis to the second axis looks counter-clockwise when seen from the point \(0, 0, 1\)}@}; a convention that is commonly called {@{_the [right-hand rule](right-hand%20rule.md)_}@}.
+In {@{mathematics, physics, and engineering contexts}@}, {@{the first two axes}@} are often {@{defined or depicted as horizontal, with the third axis pointing up}@}. In that case {@{the third coordinate}@} may be called {@{_height_ or _altitude_}@}. {@{The orientation}@} is usually {@{chosen so that the 90-degree angle from the first axis to the second axis looks counter-clockwise}@} when seen {@{from the point \(0, 0, 1\)}@}; a convention that is commonly called {@{_the [right-hand rule](right-hand%20rule.md)_}@}.
 
 > {@{![Coordinate surfaces for a Cartesian coordinate system.](../../archives/Wikimedia%20Commons/Cartesian%20coordinate%20surfaces.png)}@}
 >
