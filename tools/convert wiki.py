@@ -668,7 +668,7 @@ async def wiki_html_to_plaintext(
                 child,
                 out_to_archive=out_to_archive,
                 list_stack=list_stack,
-                escape=ele.name not in {"code", "math"},
+                escape=escape and ele.name not in {"code", "math"},
                 refs=refs,
                 session=session,
             )

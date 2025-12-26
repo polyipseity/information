@@ -1,0 +1,32 @@
+assignment:
+  comments:
+    3625903:
+      attachments: []
+      author: '[redacted]'
+      content: Graded.
+      datetime: 2025-12-12 23:54:00+08:00
+      id: 3625903
+  content: 'Please name the file you upload with the format "student_name_HW2_2025.pdf".
+    ELEC4110_Homework_2-3.pdf
+
+
+
+    Actions'
+  grade:
+    entered: 100
+    graded anonymously: false
+    possible: 100
+  id: 401633
+  properties:
+    due: 2025-11-03 23:59:00+08:00
+    points: 100
+    submitting:
+    - a file upload
+  submissions:
+  - datetime: 2025-10-31 23:52:00+08:00
+    id: -1
+  title: Homework 2
+course:
+  id: 65203
+  name: ELEC4110 (L1)
+type: submission/Canvas/canvas.ust.hk

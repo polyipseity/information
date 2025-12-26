@@ -8,7 +8,7 @@ tags:
 
 # astronomical seeing
 
-In [astronomy](astronomy.md), __seeing__ is {@{the degradation of the [image](image.md) of an [astronomical object](astronomical%20object.md) due to [turbulence](turbulence.md) in the [atmosphere of Earth](atmosphere%20of%20Earth.md) that may become visible as blurring, [twinkling](twinkling.md) or variable [distortion](distortion%20(optics).md)}@}. <!--SR:!2029-09-04,1353,310-->
+In [astronomy](astronomy.md), __seeing__ is {@{the degradation of the [image](image.md) of an [astronomical object](astronomical%20object.md) due to [turbulence](turbulence.md) in the [atmosphere of Earth](atmosphere%20of%20Earth.md)}@} that may become {@{visible as blurring, [twinkling](twinkling.md) or variable [distortion](distortion%20(optics).md)}@}. <!--SR:!2029-09-04,1353,310-->
 
 ## references
 

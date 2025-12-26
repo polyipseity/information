@@ -64,7 +64,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 ### coordinates
 
-To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!2026-02-08,49,305!2025-12-24,15,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-24,15,305!2026-01-11,26,285-->
+To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!2026-02-08,49,305!2025-12-24,15,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-24,15,305!2026-01-11,26,285-->
 
 {@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the point in Euclidean space that represents the waveform}@}. {@{These coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}, and they provide {@{a compact, geometrically meaningful description of $s(t)$}@}. <!--SR:!2025-12-24,15,305!2025-12-25,16,305!2025-12-26,17,305!2025-12-25,16,305!2025-12-24,15,305!2025-12-26,17,305-->
 
@@ -120,12 +120,12 @@ If {@{two vectors $a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), 
 
 ## Gram–Schmidt process
 
-Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. {@{The first basis vector}@} is a{@{ normalised copy of $s_1$}@}. {@{Subsequent vectors are obtained}@} by {@{subtracting from each new signal}@} its {@{projections onto previously found basis vectors}@} and then {@{normalising}@}. <!--SR:!2025-12-24,15,305!2025-12-25,16,305!2025-12-24,15,305!2025-12-27,18,324!2025-12-24,15,305!2025-12-25,16,305!2025-12-24,15,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-27,18,324-->
+Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. {@{The first basis vector}@} is a {@{normalised copy of $s_1$}@}. {@{Subsequent vectors are obtained}@} by {@{subtracting from each new signal}@} its {@{projections onto previously found basis vectors}@} and then {@{normalising}@}. <!--SR:!2025-12-24,15,305!2025-12-25,16,305!2025-12-24,15,305!2025-12-27,18,324!2025-12-24,15,305!2025-12-25,16,305!2025-12-24,15,305!2025-12-25,16,305!2025-12-25,16,305!2025-12-27,18,324-->
 
 The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2025-12-24,15,305-->
 
 1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$. <!--SR:!2025-12-24,15,305!2025-12-24,15,305-->
-2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and {@{normalise the remainder to get $\phi_k$}@}. <!--SR:!2025-12-26,17,305!2026-02-06,47,305-->
+2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2025-12-26,17,305!2026-02-06,47,305-->
 3. skip conditions ::@:: If a residual becomes zero, skip to the next signal; the dimension of the signal space is less than $M$. <!--SR:!2025-12-24,15,305!2025-12-25,16,305-->
 
 \(__this course__: Whenever possible, {@{identify orthogonal signals}@} {@{by inspection}@} and {@{normalize them}@}, which is {@{usually much faster}@}. Only if {@{the problem is complex or explicitly asks for a Gram–Schmidt process}@}, then {@{use the Gram–Schmidt process}@}.\) <!--SR:!2025-12-26,17,305!2025-12-23,14,290!2025-12-24,15,305!2025-12-25,16,305!2025-12-26,17,305!2025-12-24,15,305-->
@@ -154,7 +154,7 @@ For example, {@{frequency-domain representation}@} as {@{a special case of geome
 
 ### M-ary modulation
 
-By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than one bit per symbol}@} can be {@{transmitted}@}. {@{The dimensionality of the space}@} dictates {@{how many symbols can coexist without overlap}@}; {@{higher dimensions}@} enable {@{denser constellations}@}. <!--SR:!2025-12-26,17,305!2025-12-26,17,305!2025-12-27,18,324!2025-12-25,16,305!2025-12-22,13,304!2025-12-26,17,305!2025-12-25,16,305-->
+By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than one bit per symbol}@} can be {@{transmitted}@}. {@{The dimensionality of the space}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; {@{higher dimensions}@} enable {@{denser constellations}@}. <!--SR:!2025-12-26,17,305!2025-12-26,17,305!2025-12-27,18,324!2025-12-25,16,305!2025-12-22,13,304!2025-12-26,17,305!2025-12-25,16,305-->
 
 ### constellation diagram
 

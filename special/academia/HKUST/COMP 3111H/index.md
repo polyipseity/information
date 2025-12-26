@@ -36,7 +36,12 @@ The content is in teaching order.
 
 - [UML](UML.md)
 - [assignments](assignments/index.md)
+- [`hkust-comp-3111h-labs.git.7z`](attachments/hkust-comp-3111h-labs.git.7z)
+  - source: <https://github.com/polyipseity/hkust-comp-3111h-labs.git>
 - [questions](questions.md)
+- [software design patterns](software%20design%20patterns.md)
+- [software project management](software%20project%20management.md)
+- [software quality assurance](software%20quality%20assurance.md)
 
 ## week 1 pre-lecture
 
@@ -904,7 +909,7 @@ The content is in teaching order.
 ## week 8 lecture
 
 - datetime: 2025-10-22T12:30:00+08:00/2025-10-22T14:20:00+08:00, PT1H50M
-- topic: use case diagram; non-functional requirement; validation; implementation; defensive programming; code review; refactoring; debugging; configuration management
+- topic: use case diagram; non-functional requirement; validation; implementation; defensive programming; code review; refactoring; debugging; configuration management; midterm examination review
 - [UML](UML.md)
   - [§ common mistakes](UML.md#common%20mistakes)
   - [§ common mistakes: wrong initiating actors](UML.md#common%20mistakes%20wrong%20initiating%20actors)
@@ -921,7 +926,37 @@ The content is in teaching order.
     - COMP 3111H / midterm examination / use case diagrams ::@:: Given a short scenario, first list all functionalities \(operations\), then group them into use cases. The instructor will give you a paragraph and expect you to extract the relevant operations before sketching a use-case diagram. <p> If the question only asks for _functionalities_, simply list all functionalities; no need to group them into use cases. <!--SR:!2026-05-26,163,440!2026-03-20,105,418-->
 - [§ week 6 pre-lecture](#week%206%20pre-lecture)
 - [§ week 7 pre-lecture](#week%207%20pre-lecture)
+- [§ midterm examination](#midterm%20examination)
 - [questions § week 8 lecture](questions/index.md#week%208%20lecture)
+- assignment: [activity 1](assignments/activity%201/index.md)
+
+---
+
+- MC
+- Short term questions Mapping questions Fill up the missing words tell him the exact.notations for UML or functional and non functional requiremetns
+  - Understand the software engineering skills: What is software engineering? What is programming in the large? What do we do in programming in the large? No need to list one by one, but need to know some of them. He will give one software engineering skill and ask what it does in mapping.
+  - UML notations: What is a triangle? What is a diamond? What is a filled diamond? What is an association class?
+  - What is related Transactions.  He will show you something wrong, and you need to fix it.  Once you’re related you’re related.
+- Different software Development methods
+  - Example: Waterfall, AGILE, phase release, DLCs
+  - He will give you different situations and you need to link the methods up
+- The first 3 types of  questions are quite simple
+- Class diagram (keep this as your last)
+  - Read 1 or 2 paragraphs
+  - He gives you a class diagram and many things missing, and help him fill up some things like diamonds multiplicity (if he as a triangle you need to have that)
+  - Think if a diamond is necessary or not
+  - Look at words like contain or compose (could be wrong)
+- Use case diagram (simple he said)
+  - He will give 1 or 2 paragraphs
+  - Help him identify the functionality
+  - Get the functionality first, then gather them as use cases
+  - In Inheritance, you will need to add some curly brackets.
+  - See if he wants functionality (he was operations and list them out) or he wants use case
+  - Unless he says based on the functionality, make a use case diagram
+    - Example: You enter a meeting, you process then you get the build
+- The exam is not tricky! Very straightforward
+- Understand non-functional and functional!
+- No need to remember a lot of the words, just think in general; expected finish time is 45 mins
 
 ## week 8 lab
 
@@ -959,10 +994,10 @@ The content is in teaching order.
   - black-box testing / inputs ::@:: They should be a range of input and output values, not just a single value, so that it can probabilistically tell if a _class of errors_ is present or not. <!--SR:!2026-06-03,165,445!2026-06-02,165,445-->
 - [equivalence partitioning](../../../../general/equivalence%20partitioning.md) \(EP\) ::@:: It is a software testing technique that divides the input data of a software unit into partitions of equivalent data from which test cases can be derived. <!--SR:!2026-06-09,171,445!2026-06-09,171,445-->
   - equivalence partitioning / benefits ::@:: In principle, test cases are designed to cover each partition at least once. This technique tries to define test cases that uncover classes of errors, thereby reducing the total number of test cases that must be developed. An advantage of this approach is reduction in the time required for testing software due to lesser number of test cases. <!--SR:!2026-04-04,113,425!2026-05-26,159,445-->
-  - equivalence partitioning / subdomain selection ::@:: Select subdomains based on _valid_ and _invalid_ inputs and outputs. <p> - range, value \(ordered\): 1 valid subdomain; 2 invalid subdomains: less than, greater than; e.g. array indices, decimals, integers, etc. <br/> - set, type \(unordered\): 1 valid subdomain; 1 invalid subdomain: not of the set or type; e.g. boolean, enumeration, etc. <!--SR:!2026-06-06,168,445!2026-05-31,163,445-->
+  - equivalence partitioning / subdomain selection ::@:: Select subdomains based on _valid_ and _invalid_ inputs and outputs. <p> - range, value \(_ordered_\): 1 valid subdomain; 2 invalid subdomains: less than, greater than; e.g. array indices, decimals, integers, etc. <br/> - set, type \(_unordered_\): 1 valid subdomain; 1 invalid subdomain: not of the set or type; e.g. boolean, enumeration, etc. <p> Note whether an input is ordered or not depends on the _context_. <!--SR:!2026-06-06,168,445!2026-05-31,163,445-->
   - equivalence partitioning / boundary values ::@:: Test values just inside, on, and just outside the limits of each partition because off-by-one errors, null handling, overflows, and aliasing are _most likely_ near boundaries rather than the interior. <!--SR:!2026-05-29,161,445!2026-05-24,157,445-->
-    - equivalence partitioning / boundary values / ordered ::@:: For a range or a number of discrete value \(ordered\), identify minimum and maximum. Test _minimum_, _maximum_, and the _4 values_ just below or above the minimum or maximum. Examples: array indices, decimals, integers, etc. <!--SR:!2026-05-29,161,445!2026-06-08,170,445-->
-    - equivalence partitioning / boundary values / unordered ::@:: For a set of values or a specific type \(unordered\), test _all valid values_ \(if possible\) and at least _one invalid value_. Examples: boolean, enumeration, etc. <!--SR:!2026-05-28,160,445!2026-05-23,156,445-->
+    - equivalence partitioning / boundary values / ordered ::@:: For a range or a number of discrete value \(ordered\), identify minimum and maximum. Test _minimum_, _maximum_, and the _4 values_ just below or above the minimum or maximum. Examples: array indices, decimals, integers, etc. <p> Note whether an input is ordered or not depends on the _context_. <!--SR:!2026-05-29,161,445!2026-06-08,170,445-->
+    - equivalence partitioning / boundary values / unordered ::@:: For a set of values or a specific type \(unordered\), test _all valid values_ \(if possible\) and at least _one invalid value_. Examples: boolean, enumeration, etc. <p> Note whether an input is ordered or not depends on the _context_. <!--SR:!2026-05-28,160,445!2026-05-23,156,445-->
     - equivalence partitioning / boundary values / examples ::@:: - _`abs(int x)`_: _Typical values_ test inputs include `-1`, `0`, `1`; _boundary values_ might use `Integer.MIN_VALUE`, `Integer.MIN_VALUE + 1`, `Integer.MAX_VALUE`, and `Integer.MAX_VALUE - 1` to check overflow handling. <br/> - _student record search_ — Valid IDs range from 1&nbsp;000&nbsp;000 to 9&nbsp;999&nbsp;999; test cases include minimum/maximum valid IDs \(_boundary_\), just-outside limits \(_boundary_\), mid-range existing/non-existing records \(_typical_\), and non-numeric strings to confirm error handling \(_other_\). <!--SR:!2026-05-23,156,445!2026-06-08,170,445-->
   - equivalence partitioning / value types ::@:: boundary, typical, other <!--SR:!2026-06-07,169,445!2026-05-29,161,445-->
     - equivalence partitioning / value types / boundary ::@:: Values at and near boundaries of domains. <!--SR:!2026-06-05,167,445!2026-05-21,154,445-->
@@ -1006,7 +1041,7 @@ The content is in teaching order.
   - unit testing / techniques ::@:: Each unit (typically a class or method) is tested individually using _drivers_ and _stubs_ to isolate dependencies. <p> - _driver_: a component to call the component under testing <br/> - _stub_: a component called by the component under testing <!--SR:!2026-05-30,162,445!2026-05-22,155,445-->
     - unit testing / techniques / drivers ::@:: A driver supplies values to a function or method being tested. Drivers also capture and verify output against known correct outcomes. <p> _Example_: testing an `abs()` routine — the driver sends positive, negative, and zero inputs, then checks that the returned absolute value matches the expected result. <!--SR:!2026-05-30,162,445!2026-05-30,162,445-->
     - unit testing / techniques / stubs ::@:: When the unit calls another class that isn't implemented yet, a stub mimics that collaborator's behavior. Stubs provide deterministic, repeatable responses so tests are not affected by external systems. <p> _Example_: a student info request is answered by a stub that always returns a fixed record, allowing the unit to finish its execution path without real data access. <!--SR:!2026-06-09,171,445!2026-06-05,167,445-->
-    - unit testing / techniques / object orientation ::@:: Object-oriented tests must cover at least a class \(not simply a field or method\). Check all possible states of an object. For subclasses, test both _inherited_ and _overridden_ methods due to dynamic binding and substitutability \(Liskov substitution principle\). <!--SR:!2026-04-19,120,425!2026-05-23,156,445-->
+    - unit testing / techniques / object orientation ::@:: Object-oriented tests must cover at least a class \(not simply a field or method\). <p> Check all possible states of an object. For subclasses, test both _inherited_ and _overridden_ methods due to dynamic binding and substitutability \(Liskov substitution principle\). <!--SR:!2026-04-19,120,425!2026-05-23,156,445-->
     - unit testing / techniques / bypassing encapsulation ::@:: Encapsulation can be addressed by providing test-only accessors that expose internal state for verification. <!--SR:!2026-05-23,156,445!2026-06-01,164,445-->
 - integration testing
   - integration testing / detected errors ::@:: _interaction errors_, e.g. interface misunderstanding, interface misuse, timing errors, etc. <!--SR:!2026-05-31,163,445!2026-05-27,159,445-->
@@ -1067,7 +1102,7 @@ The content is in teaching order.
 ## midterm examination
 
 - datetime: 2025-10-29T12:00:00+08:00/2025-10-29T13:00:00+08:00, PT1H
-- venue: Lecture Theater A
+- venue: Lecture Theater A, Academic Building
 - format
   - calculator: no
   - cheatsheet: no
@@ -1084,12 +1119,12 @@ The content is in teaching order.
     - median: 81.5 → 83.75
     - upper quartile: 87.38 → 89
     - high: 96 \(provided: 96\) → 97
-    - distribution: ? → ?
     - data: ? → ?
+    - graph: ? → ?
   - breakdown
-    - question 1 \(multiple choice questions\): 14/15 → 14/15
+    - question 1 \(multiple choice questions ×15\): 14/15 → 14/15
     - question 2 \(short questions\): 24/25 → 24/25
-    - question 3 \(software development process matching\): 8/10 → 8/10
+    - question 3 \(software development process matching ×10\): 8/10 → 8/10
     - question 4 \(UML diagram\): 34/35 → 35/35
     - question 5 \(use case functionalities\): 15/15 → 15/15
 - report
@@ -1127,6 +1162,10 @@ The content is in teaching order.
 
 ---
 
+Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 34 ; Q5 (Max: 15) = 15 ; Total (Max: 100) = 95 ;
+
+---
+
 > Dear Students,
 >
 > __Lab 8 and paper checking session arrangements are as follows:__
@@ -1149,6 +1188,10 @@ The content is in teaching order.
 > Regards, <br/>
 > COMP3111 Teaching Team
 
+---
+
+Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5 (Max: 15) = 15 ; Total (Max: 100) = 96 ;
+
 ## week 9 lab
 
 - datetime: 2025-10-30T18:00:00+08:00/2025-10-30T19:50:00+08:00, PT1H50M
@@ -1156,7 +1199,7 @@ The content is in teaching order.
 - topic: merge conflict; Javadoc
 - COMP 3111H
   - COMP 3111H / lab 8 ::@:: Resolve merge conflict in Git. Write Javadoc. <!--SR:!2026-05-27,159,445!2026-05-21,154,445-->
-    - COMP 3111H / lab 8 / merge conflict ::@:: Merge conflicts arise when two branches modify the same line or file differently; Git cannot decide automatically. Common scenarios: parallel edits on a single line, one branch deletes while another edits the same file. <!--SR:!2026-04-09,112,425!2026-06-03,165,445-->
+    - COMP 3111H / lab 8 / merge conflict ::@:: Merge conflicts arise when two branches modify the same line or file differently; Git cannot decide automatically. <p> Common scenarios: parallel edits on a single line, one branch deletes while another edits the same file. <!--SR:!2026-04-09,112,425!2026-06-03,165,445-->
     - COMP 3111H / lab 8 / resolve merge conflict ::@:: - _GitHub_ \(rarely used\): Use the online conflict editor when creating or merging a pull request. Select which version of the conflicting lines to keep and mark the conflict as resolved before committing. <br/> - _Locally_ \(recommended\): Pull the latest changes from the remote branch into your local clone. Merge the target branch into your working branch using IntelliJ or the command line. Resolve conflicts by choosing left/right/combined code in the IDE's conflict dialog, then commit the merge. <!--SR:!2026-06-04,166,445!2026-06-04,166,445-->
     - COMP 3111H / lab 8 / Javadoc ::@:: Placed immediately above a class, method or field declaration. Provides a description plus metadata tags such as `@param`, `@return`, `@throws`, etc. <!--SR:!2026-05-24,157,445!2026-05-29,161,445-->
     - COMP 3111H / lab 8 / Javadoc template ::@:: Type `/**` before the declaration and press Enter; the IDE inserts a template with placeholders for summary and tags. <p> Alternatively, place the caret on the declaration, hit `Alt`+`Enter` (Windows) or `Option`+`Enter` (macOS). Select "Add Javadoc" from the quick-fix menu; the IDE generates a ready-to-edit comment block. <!--SR:!2026-06-07,169,445!2026-05-23,156,445-->
@@ -1205,25 +1248,29 @@ The content is in teaching order.
     - systems design / design goals / maintenance ::@:: adaptability, extensibility, modifiability, portability, readability, traceability, etc. <!--SR:!2026-01-07,29,437!2025-12-30,21,417-->
     - systems design / design goals / end user ::@:: usability, utility, etc. <!--SR:!2026-01-07,29,437!2026-01-07,29,437-->
     - systems design / design goals / cost ::@:: administration, deployment, development, maintenance, upgrade, etc. <!--SR:!2026-01-07,29,437!2025-12-31,22,417-->
-  - systems design / implementation environment ::@:: To manage technical differences in the deployment platform, use a design strategy that _encapsulates_ and _isolates_ the implementation environment. This is achieved by using the _bridge design pattern_. <p> Concrete occurrences of environmental components are modeled by "bridge" classes—for example, a `FileManager` "bridge" class handling file access across Windows, Unix, and Mac systems. By defining these intermediary classes, developers can add many specific implementations without cluttering the core application logic, thereby simplifying maintenance and keeping the system adaptable to new platforms. <!--SR:!2025-12-26,17,397!2025-12-31,22,417-->
+  - systems design / implementation environment ::@:: To manage technical differences in the deployment platform, use a design strategy that _encapsulates_ and _isolates_ the implementation environment. This is achieved by using the _bridge design pattern_.
+    - systems design / implementation environment / bridge ::@:: Concrete occurrences of environmental components are modeled by "bridge" classes—for example, a `FileManager` "bridge" class handling file access across Windows, Unix, and Mac systems. By defining these intermediary classes, developers can add many specific implementations without cluttering the core application logic, thereby simplifying maintenance and keeping the system adaptable to new platforms. <!--SR:!2025-12-26,17,397!2025-12-31,22,417-->
 - systems analysis
   - systems analysis / architectural analysis ::@:: It focuses on _understanding_ and _designing_ the overall structure. It defines _subsystems_, their _interfaces_ providing _services_, and how they hide internal details \(_information hiding_\). <p> _Nonfunctional requirements_ are highly dependent on this. <!--SR:!2026-01-07,29,437!2026-01-07,29,437-->
     - systems analysis / architectural analysis / subsystems ::@:: _Divide-and-conquer_ splits the system into many _subsystems_, which can be worked on independently and in parallel with others. <p> They are then organized in _layers_. In a layer, subsystems may be further divided into _partitions_. This create a _subsystem hierarchy_. <!--SR:!2026-01-07,29,437!2026-01-07,29,437-->
     - system analysis / architectural analysis / layers ::@:: Subsystems are _typically_ arranged in a stack of 3—5 layers where each layer can depend only on the one _directly_ below it (_closed_; lower coupling, higher overhead) or on any lower layer (_open_; higher coupling, lower overhead), trading off coupling for overhead. <!--SR:!2026-01-07,29,437!2025-12-30,21,417-->
-      - system analysis / architectural analysis / layers / example ::@:: typical: application-specific &gt; application-general &gt; middleware &gt; system-software <!--SR:!2025-12-31,22,417!2026-01-07,29,437-->
+      - system analysis / architectural analysis / layers / example ::@:: typical: \(top\) application-specific &gt; application-general &gt; middleware &gt; system-software \(bottom\) <!--SR:!2025-12-31,22,417!2026-01-07,29,437-->
     - system analysis / architectural analysis / partitions ::@:: Within a single layer, subsystems are split into distinct _services_. <!--SR:!2026-01-07,29,437!2026-01-07,29,437-->
   - systems analysis / architectural decisions ::@:: They are driven primarily by _nonfunctional requirements_: _availability_ (redundant subsystems), _maintainability_ \(small self-contained subsystems\), _performance_ (less subsystems), and _safety_ and _security_ (use closed layering; the innermost layer to encapsulate critical subsystems). <!--SR:!2026-01-07,29,437!2025-12-31,22,417-->
-  - systems analysis / architectural patterns ::@:: It is a reusable _blueprint_ that dictates how software components are organized and connected within a system. It prescribes the overall _decomposition_ of the system, governs _global control flow_, defines _error-handling policies_, and specifies inter-module or component _communication protocols_. <p> Because real-world systems are complex, large projects typically combine several patterns—each applied to different subsystems—to achieve the desired structure and behavior. <!--SR:!2025-12-31,22,417!2026-01-07,29,437-->
+  - systems analysis / architectural patterns ::@:: It is a reusable _blueprint_ that dictates how software components are organized and connected within a system. It prescribes the overall _decomposition_ of the system, governs _global control flow_, defines _error-handling policies_, and specifies inter-module or component _communication protocols_. <!--SR:!2025-12-31,22,417!2026-01-07,29,437-->
     - systems analysis / architectural patterns / examples ::@:: broker, client—server \(three-tier, peer-to-peer\), model—view—controller \(MVC\), multilayer, pipe-and-filter, repository, transaction processing, etc. <!--SR:!2026-01-07,29,437!2025-12-30,21,417-->
     - systems analysis / architectural patterns / multilayer ::@:: For example, top layer for presentation \(UI\), middle for business logic, bottom for services; essentially subsystem layers, with each exposing a clean API. <!--SR:!2025-12-31,22,417!2026-01-07,29,437-->
-    - systems analysis / architectural patterns / repository ::@:: To _centralize data management_ using repository-dictated triggers or subsystem-dictated locks; high coupling, and risk of performance bottleneck or tight coupling if not designed carefully. <!--SR:!2025-12-24,15,397!2026-01-07,29,437-->
+    - systems analysis / architectural patterns / repository ::@:: To _centralize data management_ using repository-dictated triggers or subsystem-dictated locks. <p> High coupling, and risk of performance bottleneck or tight coupling if not designed carefully. <!--SR:!2025-12-24,15,397!2026-01-07,29,437-->
     - systems analysis / architectural patterns / client—server ::@:: To _separate_ and _distribute_ system functionalities. <p> - peer-to-peer: Each subsystem can both be a client or server. Control flow is independent except synchronization. <br/> - three-tier: A server communicates with clients \(internet\) and a database \(intranet\). <!--SR:!2026-01-07,29,437!2025-12-31,22,417-->
-    - systems analysis / architectural patterns / broker ::@:: It _distributes_ system responsibilities _transparently_ across multiple nodes, acting as an intermediary that mediates requests between clients and servers. It is often implemented with the _proxy design pattern_, which hides the complexity of remote communication from the caller. <p> Classic instances include CORBA's Common Object Request Broker Architecture and Microsoft's COM (Component Object Model), both of which provide a broker-based mechanism for locating and invoking distributed objects. <!--SR:!2025-12-31,22,417!2025-12-30,21,417-->
-    - systems analysis / architectural patterns / transaction processing ::@:: It focuses on routing each incoming request to the appropriate specialized subsystem, called a _handler_. A central _transaction dispatcher_ examines the input transaction and dispatches it—either as a procedure call or a message—to the handler that is equipped to process that specific type of work. <p> This approach is common in database engines, where the dispatcher routes SQL commands to dedicated handlers for query execution, transaction logging, or concurrency control. <!--SR:!2025-12-30,21,417!2025-12-30,21,417-->
-    - systems analysis / architectural patterns / pipe-and-filter ::@:: It promotes _flexibility_, _modifiability_ and _reusability_ by arranging subsystems as a _pipeline_ of independent filters that each transform a data stream. An input flows through the chain, with each filter executing concurrently to produce an output for the next stage; the overall system can be assembled or extended simply by adding, removing or rearranging filters. <p> Classic examples include UNIX shells, where commands are linked via pipes to form complex processing pipelines, e.g. `cat file | grep pattern | sort`. <!--SR:!2025-12-31,22,417!2025-12-30,21,417-->
+    - systems analysis / architectural patterns / broker ::@:: It _distributes_ system responsibilities _transparently_ across multiple nodes, acting as an intermediary that mediates requests between clients and servers. It is often implemented with the _proxy design pattern_, which hides the complexity of remote communication from the caller. <!--SR:!2025-12-31,22,417!2025-12-30,21,417-->
+      - systems analysis / architectural patterns / broker / examples ::@:: Classic instances include CORBA's Common Object Request Broker Architecture and Microsoft's COM (Component Object Model), both of which provide a broker-based mechanism for locating and invoking distributed objects.
+    - systems analysis / architectural patterns / transaction processing ::@:: It focuses on routing each incoming request to the appropriate specialized subsystem, called a _handler_. A central _transaction dispatcher_ examines the input transaction and dispatches it—either as a procedure call or a message—to the handler that is equipped to process that specific type of work. <!--SR:!2025-12-30,21,417!2025-12-30,21,417-->
+      - systems analysis / architectural patterns / transaction processing / examples ::@:: This approach is common in database engines, where the dispatcher routes SQL commands to dedicated handlers for query execution, transaction logging, or concurrency control.
+    - systems analysis / architectural patterns / pipe-and-filter ::@:: It promotes _flexibility_, _modifiability_ and _reusability_ by arranging subsystems as a _pipeline_ of independent filters that each transform a data stream. An input flows through the chain, with each filter executing concurrently to produce an output for the next stage; the overall system can be assembled or extended simply by adding, removing or rearranging filters. <!--SR:!2025-12-31,22,417!2025-12-30,21,417-->
+      - systems analysis architectural patterns / pipe-and-filter / examples ::@:: Classic examples include UNIX shells, where commands are linked via pipes to form complex processing pipelines, e.g. `cat file | grep pattern | sort`.
     - systems analysis / architectural patterns / model—view—controller \(MVC\) ::@:: It is a design pattern that separates the user interface from the underlying data and business logic. The _model_ holds the core data structures and state; the _view_ renders this data to the screen and presents controls for interaction; the _controller_ mediates between the two, handling user actions, updating the model, and refreshing the view. The _observer design pattern_ is typically used to update the view when the model changes. <p> This decoupling improves _maintainability_ and allows _independent_ evolution of presentation \(_user interface_\), data, and control logic. <!--SR:!2025-12-31,22,417!2025-12-30,21,417-->
-    - systems analysis / architectural patterns / design patterns ::@:: - broker: _proxy_ <br/> - model—view—controller \(MVC\): _observer_ <br/> - others: _factory_, _singleton_, _strategy_, etc. <!--SR:!2026-01-07,29,437!2026-01-07,29,437-->
-    - systems analysis / architectural patterns / decisions ::@:: Choose patterns that satisfy the dominant non-functional goals (e.g., performance or maintainability). Combine patterns when necessary (e.g., multilayer + repository). <!--SR:!2026-01-07,29,437!2025-12-31,22,417-->
+    - systems analysis / architectural patterns / design patterns ::@:: - broker: uses _proxy_ <br/> - model—view—controller \(MVC\): uses _observer_ <br/> - others: uses _factory_, _singleton_, _strategy_, etc. <!--SR:!2026-01-07,29,437!2026-01-07,29,437-->
+    - systems analysis / architectural patterns / decisions ::@:: Choose patterns that satisfy the dominant non-functional goals (e.g., performance or maintainability). Combine patterns when necessary (e.g., multilayer + repository). <p> Because real-world systems are complex, large projects typically combine several patterns—each applied to different subsystems—to achieve the desired structure and behavior. <!--SR:!2026-01-07,29,437!2025-12-31,22,417-->
 - [UML](UML.md)
   - [§ analysis models](UML.md#analysis%20models)
   - [§ analysis classes](UML.md#analysis%20classes)
@@ -1265,7 +1312,7 @@ The content is in teaching order.
 
 ## week 11 pre-lecture
 
-- topic:
+- topic: software design pattern; strategy pattern; observer pattern; mediator pattern; proxy pattern; bridge pattern; singleton pattern; factory pattern; anti-pattern; spaghetti code; god class
 - [software design patterns](software%20design%20patterns.md)
   - [§ application](software%20design%20patterns.md#application)
   - [§ problems with inheritance](software%20design%20patterns.md#problems%20with%20inheritance)
@@ -1290,6 +1337,13 @@ The content is in teaching order.
 - quiz: [quiz 18](questions/quiz%2018.md)
 - [questions § week 11 pre-lecture](questions/index.md#week%2011%20pre-lecture)
 
+## week 11 lecture
+
+- datetime: 2025-11-12T12:30:00+08:00/2025-11-12T14:20:00+08:00, PT1H50M
+- topic: systems design; systems analysis; use case analysis; analysis class; design class; cohesion; coupling; SOLID principles; state machine diagram
+- [§ week 10 pre-lecture](#week%2010%20pre-lecture)
+- [questions § week 11 lecture](questions/index.md#week%2011%20lecture)
+
 ## week 11 lab
 
 - datetime: 2025-11-13T18:00:00+08:00/2025-11-13T19:50:00+08:00, PT1H50M
@@ -1297,10 +1351,60 @@ The content is in teaching order.
 
 ## week 12 pre-lecture
 
-- topic:
+- topic: software quality assurance; product quality; project quality; process quality; people quality; software project management; software development plan; project tracking and control
+- [software quality assurance](software%20quality%20assurance.md)
+  - [§ overview](software%20quality%20assurance.md#overview)
+  - [§ purpose and importance](software%20quality%20assurance.md#purpose%20and%20importance)
+  - [§ aspects](software%20quality%20assurance.md#aspects)
+  - [§ activities](software%20quality%20assurance.md#activities)
+  - [§ standards](software%20quality%20assurance.md#standards)
+  - [§ metrics](software%20quality%20assurance.md#metrics)
+  - [§ product quality](software%20quality%20assurance.md#product%20quality)
+  - [§ design goals](software%20quality%20assurance.md#design%20goals)
+  - [§ system design metrics](software%20quality%20assurance.md#system%20design%20metrics)
+  - [§ implementation metrics](software%20quality%20assurance.md#implementation%20metrics)
+  - [§ reliability approaches](software%20quality%20assurance.md#reliability%20approaches)
+  - [§ project quality](software%20quality%20assurance.md#project%20quality)
+  - [§ formal technical reviews](software%20quality%20assurance.md#formal%20technical%20reviews)
+  - [§ software configuration management](software%20quality%20assurance.md#software%20configuration%20management)
+  - [§ process quality](software%20quality%20assurance.md#process%20quality)
+  - [§ ISO 9000-3](software%20quality%20assurance.md#ISO%209000-3)
+  - [§ SEI Capability Maturity Model](software%20quality%20assurance.md#SEI%20Capability%20Maturity%20Model)
+  - [§ people quality](software%20quality%20assurance.md#people%20quality)
+  - [§ People Capability Maturity Model](software%20quality%20assurance.md#People%20Capability%20Maturity%20Model)
 - quiz: [quiz 19](questions/quiz%2019.md)
+- [software project management](software%20project%20management.md)
+  - [§ purpose](software%20project%20management.md#purpose)
+  - [§ software development plan](software%20project%20management.md#software%20development%20plan)
+  - [§ deliverables](software%20project%20management.md#deliverables)
+  - [§ development environment](software%20project%20management.md#development%20environment)
+  - [§ work-breakdown structure](software%20project%20management.md#work-breakdown%20structure)
+  - [§ staffing and organization](software%20project%20management.md#staffing%20and%20organization)
+  - [§ schedules](software%20project%20management.md#schedules)
+  - [§ Gantt chart](software%20project%20management.md#Gantt%20chart)
+  - [§ PERT chart](software%20project%20management.md#PERT%20chart)
+  - [§ estimates](software%20project%20management.md#estimates)
+  - [§ function-point counting](software%20project%20management.md#function-point%20counting)
+  - [§ PERT estimation](software%20project%20management.md#PERT%20estimation)
+  - [§ planning poker](software%20project%20management.md#planning%20poker)
+  - [§ parametric models](software%20project%20management.md#parametric%20models)
+  - [§ estimation risk mitigation](software%20project%20management.md#estimation%20risk%20mitigation)
+  - [§ metrics plan](software%20project%20management.md#metrics%20plan)
+  - [§ risk planning](software%20project%20management.md#risk%20planning)
+  - [§ time-phased budget](software%20project%20management.md#time-phased%20budget)
+  - [§ project tracking and control](software%20project%20management.md#project%20tracking%20and%20control)
+  - [§ project tracking and control methods](software%20project%20management.md#project%20tracking%20and%20control%20methods)
 - quiz: [quiz 20](questions/quiz%2020.md)
 - [questions § week 12 pre-lecture](questions/index.md#week%2012%20pre-lecture)
+
+## week 12 lecture
+
+- datetime: 2025-11-19T12:30:00+08:00/2025-11-19T14:20:00+08:00, PT1H50M
+- topic: software design pattern; strategy pattern; observer pattern; mediator pattern; proxy pattern; bridge pattern; singleton pattern; factory pattern; anti-pattern; spaghetti code; god class
+- [§ week 11 pre-lecture](#week%2011%20pre-lecture)
+- [questions § week 12 lecture](questions/index.md#week%2012%20lecture)
+- assignment: [activity 2 - documentation](assignments/activity%202%20-%20documentation/index.md)
+- assignment: [activity 2 - source code](assignments/activity%202%20-%20source%20code/index.md)
 
 ## week 12 lab
 
@@ -1312,14 +1416,131 @@ The content is in teaching order.
 - topic: \(none\)
 - [questions § week 13 pre-lecture](questions/index.md#week%2013%20pre-lecture)
 
+## week 13 lecture
+
+- datetime: 2025-11-26T12:30:00+08:00/2025-11-26T14:20:00+08:00, PT1H50M
+- topic: final examination review
+- [§ week 12 pre-lecture](#week%2012%20pre-lecture)
+- [§ final examination](#final%20examination)
+- [questions § week 13 lecture](questions/index.md#week%2013%20lecture)
+
+---
+
+- multiple choice questions (1+2: 20~30%)
+- short-answer questions (1+2: 20~30%)
+- class diagram (20~30%; difficult)
+- basis path testing (10~15%)
+- state machine diagram (10%; difficult)
+- design patterns: design principles (10%)
+- black-box testing (10%)
+
 ## week 13 lab
 
 - datetime: 2025-11-27T18:00:00+08:00/2025-11-27T19:50:00+08:00, PT1H50M
 - status: unscheduled
 
+## final examination
+
+- datetime: 2025-12-09T08:30:00+08:00/2025-12-09T10:30:00+08:00, PT2H
+- venue: LG4 Multi-purpose Room (Lift 6), Academic Building
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: question ×8 \(with subquestions\)
+- grades: 84/100 → 89/100
+  - statistics
+    - timestamps: 2025-12-09T21:09:28+08:00 → 2025-12-11T19:49:30+08:00
+    - mean: 62.77 (provided: 62.77298851) → 65.21
+    - standard deviation: ? (provided: 11.07796413) → ?
+    - low: 29.5 (provided: 29.5) → 29.5
+    - lower quartile: 56 → 58.31
+    - median: 63 → 66.25
+    - upper quartile: 71.19 → 73.5
+    - high: 86.5 (provided: 86.5) → 89
+    - data: ? → ?
+    - graph: ? → ?
+  - breakdown
+    - question 1 \(multiple choice questions ×12\): 6/6 → 6/6
+    - question 2 \(true-or-false questions ×10\): 5/5 → 5/5
+    - question 3 \(short questions\): 24/24 → 24/24
+    - question 4 \(UML diagram\): 28/30 → 28/30
+    - question 5 \(basis path testing\): 5/15 → 10/15
+    - question 6 \(state machine diagram\): 9/9 → 9/9
+    - question 7 \(software design patter principles ×4\): 4/4 → 4/4
+    - question 8 \(boundary value testing ×2\): 4/7 → 4/7
+- report
+  - software development process / prototyping (–1) ::@:: It is part of the _definition_ lifecycle phase, not the _elaboration_ lifecycle phase.
+  - UML diagram / long paragraphs (0) ::@:: 5 very long paragraphs in 3 pages. Many information are useless or already provided in the given initial attributes or the UML diagram. Only very few attributes and several UML elements need to be added.
+  - UML diagram / XOR constraints (–2) ::@:: Missing `{xor}` constraint between two schedule associations. The two associations connect the same two objects. They both have a multiplicity of `1` on one side and `*` on the other. <p> Originally I wanted to add it, but then decided to remove it because I thought then the object that can be linked to `*` number of the other object can only have one of the associations. Turns out it is okay to add in this case. <p> And some research online reveals that the semantics of the `{xor}` constraint is not that clear anyway... see ["Opposing views on the UML {xor} constraint"](https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/) ([archived](https://web.archive.org/web/20251211140959/https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/)).
+  - basis path testing / VBA `Raise` (–5) ::@:: `Raise` should be throwing an exception, so it should exit the function early. But the official solution treats it as a normal statement. Hmm... I should ask if I remember this.
+  - basis path testing / test value format (–5; +5) ::@:: The test value format the solution wants looks like `(field) = (value) AND (field) = (value)`, but I did not write it that way. And the example test value it provides do not provide any clue of this.
+  - boundary value testing / multiple conditions (–3) ::@:: The problem defines a valid input by three conditions: at least six characters, the first character is restricted, and the second and third characters are also restricted. <p> For each condition, define a domain for violating at least that condition. Finally add a "everything-else" domain, which are the valid inputs. <p> For boundary value tests, a minimum of 3 (instead of 5 that I wrote) test values are enough. The 3 test values comes from n−1, n, and n+1 boundary tests to test for at least six characters. Then make the n−1 test value to also violate the other two conditions to reuse it.
+- check
+  - datetime: 2025-12-10T11:30:00+08:00/2025-12-10T12:30:00+08:00, PT1H
+  - venue: Lecture Theater G, Academic Building
+  - report
+    - basis path testing / test value format (+5) ::@:: Luckily I wrote down my test value format... Regraded for everyone in the end.
+
+---
+
+> Dear COMP3111 Students,
+>
+> Just a reminder about the final exam next week (09 Dec, TUE, 08:30-10:30). The exam is only 2hrs long. Please arrive the exam venue (LG4 Multi-purpose Room, Lift 6) at around 08:20. The exam is only __2hrs long__. It’s a __closed-book exam__, and it will cover __all the topics__ in COMP3111.
+>
+> \[redacted\]
+>
+> Regards, <br/>
+> \[redacted\]
+
+---
+
+Q1 (Max: 6) = 6 ; Q2 (Max: 5) = 5 ; Q3 (Max: 24) = 23 ; Q4 (Max: 30) = 28 ; Q5 (Max: 15) = 5 ; Q6 (Max: 9) = 9 ; Q7 (Max: 4) = 4 ; Q8 (Max: 7) = 4 ; Total (Max: 100) = 84 ;
+
+---
+
+> Dear Students,
+>
+> The final exam marks have been released on Canvas. You can also check the question-wise scores in the comments.
+>
+> The final exam stats  are as follows:
+>
+> Max                          86.5 <br/>
+> Min                          29.5 <br/>
+> Average               62.77298851 <br/>
+> Standard deviation    11.07796413
+>
+> We will have our paper checking session tomorrow. See the details below:
+>
+> <u>COMP3111 Exam appeal session</u>
+>
+> &emsp; Date: 10 Dec 2025 (Wed)
+>
+> &emsp; Time: 11:30 am - 12:30 pm (1 hour duration)
+>
+> &emsp; Venue:__LTG__
+>
+> __Things to consider when you come for the paper checking session:__
+>
+> 1) Please bring your student ID and give it to the TA to get your exam. Return the exam paper to get your student ID back
+> 2) Please don't take pictures/videos of your exam and exam solution (if we catch someone taking pictures/videos, we will take strict action)
+> 3) Please don't leave the exam checking venue with the exam or the exam solution
+> 4) We will have a limited number of exam solutions available in the venue (10 copies only), so you have to share the solution with others.
+> 5) If you cannot join tomorrow's paper checking session, you can ask your friend to check the exam on your behalf. One student can get and check one paper at a time.
+> 6) There will be no other paper checking session after tomorrow.
+> 7) If any mark changes in any question, please mention it to TA so that TA can mark down the changes for you on a seprate sheet.
+>
+> Regards, <br/>
+> COMP3111 Teaching Team
+
+---
+
+Q1 (Max: 6) = 6 ; Q2 (Max: 5) = 5 ; Q3 (Max: 24) = 23 ; Q4 (Max: 30) = 28 ; Q5 (Max: 15) = 10 ; Q6 (Max: 9) = 9 ; Q7 (Max: 4) = 4 ; Q8 (Max: 7) = 4 ; Total (Max: 100) = 89 ;
+
 ## aftermath
 
 ### total
 
-- grades: ?/100
+- grades: 94.8/100
   - statistics: ?

@@ -148,65 +148,65 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
 - [Set theory](set%20theory.md)
 
-  - {@{[Tarski's theorem about choice](Tarski's%20theorem%20about%20choice.md)}@}: For {@{every infinite set _A_}@}, there is {@{a [bijective map](bijective%20map.md) between the sets _A_ and _A_<!-- markdown separator -->×<!-- markdown separator -->_A_}@}. <!--SR:!2026-09-24,303,347!2027-01-07,390,364!2027-01-16,397,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Tarski's theorem about choice](Tarski's%20theorem%20about%20choice.md)}@}: For {@{every infinite set _A_}@}, there is {@{a [bijective map](bijective%20map.md) between the sets _A_ and _A_<!-- markdown separator -->×<!-- markdown separator -->_A_}@}. <!--SR:!2026-09-24,303,347!2027-01-07,390,364!2027-01-16,397,364-->
 
-  - {@{[Trichotomy](trichotomy%20(mathematics).md)}@}: If {@{two sets are given}@}, then {@{either they have the same cardinality, or one has a smaller cardinality than the other}@}. <!--SR:!2026-12-17,372,364!2026-12-23,377,364!2026-08-23,276,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Trichotomy](trichotomy%20(mathematics).md)}@}: If {@{two sets are given}@}, then {@{either they have the same cardinality, or one has a smaller cardinality than the other}@}. <!--SR:!2026-12-17,372,364!2026-12-23,377,364!2026-08-23,276,347-->
 
-  - Given {@{two non-empty sets}@}, one has {@{a surjection to the other}@}. <!--SR:!2027-01-18,399,364!2026-12-28,381,364-->
+  - \(annotation: {@{equivalent to}@} AC\) Given {@{two non-empty sets}@}, one has {@{a surjection to the other}@}. <!--SR:!2027-01-18,399,364!2026-12-28,381,364-->
 
-  - {@{Every [surjective function](surjective%20function.md)}@} has {@{a [right inverse](inverse%20function.md#left%20and%20right%20inverses)}@}. <!--SR:!2026-12-17,373,364!2026-10-22,325,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every [surjective function](surjective%20function.md)}@} has {@{a [right inverse](inverse%20function.md#left%20and%20right%20inverses)}@}. <!--SR:!2026-12-17,373,364!2026-10-22,325,347-->
 
-  - {@{The [Cartesian product](Cartesian%20product.md#Infinite%20Cartesian%20products) of any family of nonempty sets}@} is {@{nonempty}@}. In other words, {@{every family of nonempty sets}@} has {@{a choice function \(_i.e._ a function which maps each of the nonempty sets to one of its elements\)}@}. <!--SR:!2027-01-13,395,364!2026-11-14,346,364!2026-12-15,371,364!2026-07-31,256,344-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{The [Cartesian product](Cartesian%20product.md#Infinite%20Cartesian%20products) of any family of nonempty sets}@} is {@{nonempty}@}. In other words, {@{every family of nonempty sets}@} has {@{a choice function \(_i.e._ a function which maps each of the nonempty sets to one of its elements\)}@}. <!--SR:!2027-01-13,395,364!2026-11-14,346,364!2026-12-15,371,364!2026-07-31,256,344-->
 
-  - {@{[König's theorem](König's%20theorem%20(set%20theory).md)}@}: Colloquially, {@{the sum of a sequence of cardinals}@} is {@{strictly less than the product of a sequence of larger cardinals}@}. \({@{The reason for the term "colloquially"}@} is that {@{the sum or product of a "sequence" of cardinals}@} {@{cannot itself be defined without some aspect of the axiom of choice}@}.\) <!--SR:!2026-12-26,381,364!2026-12-04,362,364!2027-01-12,394,364!2027-01-06,389,364!2026-11-24,354,364!2026-07-28,254,330-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[König's theorem](König's%20theorem%20(set%20theory).md)}@}: Colloquially, {@{the sum of a sequence of cardinals}@} is {@{strictly less than the product of a sequence of larger cardinals}@}. \({@{The reason for the term "colloquially"}@} is that {@{the sum or product of a "sequence" of cardinals}@} {@{cannot itself be defined without some aspect of the axiom of choice}@}.\) <!--SR:!2026-12-26,381,364!2026-12-04,362,364!2027-01-12,394,364!2027-01-06,389,364!2026-11-24,354,364!2026-07-28,254,330-->
 
-  - {@{[Well-ordering theorem](well-ordering%20theorem.md)}@}: {@{Every set can be well-ordered}@}. Consequently, {@{every [cardinal](cardinal%20number.md)}@} has {@{an [initial ordinal](initial%20ordinal.md#initial%20ordinal%20of%20a%20cardinal)}@}. <!--SR:!2026-11-29,358,364!2027-01-08,390,364!2026-12-18,374,364!2026-08-21,273,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Well-ordering theorem](well-ordering%20theorem.md)}@}: {@{Every set can be well-ordered}@}. Consequently, {@{every [cardinal](cardinal%20number.md)}@} has {@{an [initial ordinal](initial%20ordinal.md#initial%20ordinal%20of%20a%20cardinal)}@}. <!--SR:!2026-11-29,358,364!2027-01-08,390,364!2026-12-18,374,364!2026-08-21,273,347-->
 
-  - {@{[Zorn's lemma](Zorn's%20lemma.md)}@}: {@{Every non-empty [partially ordered set](partially%20ordered%20set.md)}@} in which {@{every chain \(_i.e._, totally ordered subset\) has an upper bound}@} {@{contains at least one maximal element}@}. <!--SR:!2026-10-20,323,347!2026-08-27,279,347!2026-05-27,201,327!2027-01-15,396,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Zorn's lemma](Zorn's%20lemma.md)}@}: {@{Every non-empty [partially ordered set](partially%20ordered%20set.md)}@} in which {@{every chain \(_i.e._, totally ordered subset\) has an upper bound}@} {@{contains at least one maximal element}@}. <!--SR:!2026-10-20,323,347!2026-08-27,279,347!2026-05-27,201,327!2027-01-15,396,364-->
 
-  - {@{[Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}: {@{Every partially ordered set}@} has {@{a maximal chain}@}. Equivalently, in {@{any partially ordered set}@}, {@{every chain can be extended to a maximal chain}@}. <!--SR:!2026-12-18,372,364!2026-09-04,285,347!2026-08-22,275,347!2026-12-21,376,364!2026-12-15,371,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}: {@{Every partially ordered set}@} has {@{a maximal chain}@}. Equivalently, in {@{any partially ordered set}@}, {@{every chain can be extended to a maximal chain}@}. <!--SR:!2026-12-18,372,364!2026-09-04,285,347!2026-08-22,275,347!2026-12-21,376,364!2026-12-15,371,364-->
 
-  - {@{[Tukey's lemma](Tukey's%20lemma.md)}@}: {@{Every non-empty collection of [finite character](finite%20character.md)}@} has {@{a maximal element with respect to inclusion}@}. <!--SR:!2026-12-27,381,364!2026-12-21,376,364!2026-11-07,336,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Tukey's lemma](Tukey's%20lemma.md)}@}: {@{Every non-empty collection of [finite character](finite%20character.md)}@} has {@{a maximal element with respect to inclusion}@}. <!--SR:!2026-12-27,381,364!2026-12-21,376,364!2026-11-07,336,347-->
 
-  - {@{[Antichain](antichain.md) principle}@}: {@{Every partially ordered set}@} has {@{a maximal [antichain](antichain.md)}@}. Equivalently, in {@{any partially ordered set}@}, {@{every antichain can be extended to a maximal antichain}@}. <!--SR:!2026-12-13,370,364!2026-11-05,338,364!2026-11-08,341,364!2026-10-23,326,347!2026-08-26,279,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Antichain](antichain.md) principle}@}: {@{Every partially ordered set}@} has {@{a maximal [antichain](antichain.md)}@}. Equivalently, in {@{any partially ordered set}@}, {@{every antichain can be extended to a maximal antichain}@}. <!--SR:!2026-12-13,370,364!2026-11-05,338,364!2026-11-08,341,364!2026-10-23,326,347!2026-08-26,279,347-->
 
-  - {@{The powerset of any ordinal}@} can be {@{well-ordered}@}. <!--SR:!2026-09-22,301,347!2026-11-29,359,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{The powerset of any ordinal}@} can be {@{well-ordered}@}. <!--SR:!2026-09-22,301,347!2026-11-29,359,364-->
 
 - [Abstract algebra](abstract%20algebra.md)
 
-  - {@{Every [vector space](vector%20space.md)}@} has {@{a [basis](basis%20(linear%20algebra).md)}@} \(_i.e._, {@{a linearly independent spanning subset}@}\). In other words, vector spaces are {@{equivalent to free modules \(annotation: a module that has a _basis_\)}@}.<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2026-12-06,364,364!2026-11-03,333,347!2026-08-20,272,330!2026-02-23,122,307-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every [vector space](vector%20space.md)}@} has {@{a [basis](basis%20(linear%20algebra).md)}@} \(_i.e._, {@{a linearly independent spanning subset}@}\). In other words, vector spaces are {@{equivalent to free modules \(annotation: a module that has a _basis_\)}@}.<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2026-12-06,364,364!2026-11-03,333,347!2026-08-20,272,330!2026-02-23,122,307-->
 
-  - {@{[Krull's theorem](Krull's%20theorem.md)}@}: {@{Every unital [ring](ring%20(mathematics).md) \(other than the trivial ring\)}@} {@{contains a [maximal ideal](maximal%20ideal.md)}@}. Equivalently, in {@{any nontrivial unital ring}@}, {@{every ideal can be extended to a maximal ideal}@}. <!--SR:!2026-12-03,362,364!2026-11-26,356,364!2026-12-01,360,364!2026-04-11,168,327!2026-10-19,323,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Krull's theorem](Krull's%20theorem.md)}@}: {@{Every unital [ring](ring%20(mathematics).md) \(other than the trivial ring\)}@} {@{contains a [maximal ideal](maximal%20ideal.md)}@}. Equivalently, in {@{any nontrivial unital ring}@}, {@{every ideal can be extended to a maximal ideal}@}. <!--SR:!2026-12-03,362,364!2026-11-26,356,364!2026-12-01,360,364!2026-04-11,168,327!2026-10-19,323,347-->
 
-  - For {@{every non-empty set _S_}@} there is {@{a [binary operation](binary%20operation.md) defined on _S_ that gives it a [group structure](group%20(mathematics).md)}@}.<sup>[\[23\]](#^ref-23)</sup> \({@{A [cancellative](cancellation%20property.md) binary operation}@} is {@{enough}@}, see {@{[group structure and the axiom of choice](group%20structure%20and%20the%20axiom%20of%20choice.md)}@}.\) <!--SR:!2027-01-15,396,364!2026-12-18,373,364!2026-11-25,354,364!2027-01-18,399,364!2026-11-25,356,364-->
+  - \(annotation: {@{equivalent to}@} AC\) For {@{every non-empty set _S_}@} there is {@{a [binary operation](binary%20operation.md) defined on _S_ that gives it a [group structure](group%20(mathematics).md)}@}.<sup>[\[23\]](#^ref-23)</sup> \({@{A [cancellative](cancellation%20property.md) binary operation}@} is {@{enough}@}, see {@{[group structure and the axiom of choice](group%20structure%20and%20the%20axiom%20of%20choice.md)}@}.\) <!--SR:!2027-01-15,396,364!2026-12-18,373,364!2026-11-25,354,364!2027-01-18,399,364!2026-11-25,356,364-->
 
-  - {@{Every [free abelian group](free%20abelian%20group.md)}@} is {@{[projective](projective%20module.md) \(annotation: projective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-07-24,251,330!2026-12-31,384,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every [free abelian group](free%20abelian%20group.md)}@} is {@{[projective](projective%20module.md) \(annotation: projective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-07-24,251,330!2026-12-31,384,364-->
 
-  - {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-10-07,313,347!2026-06-13,203,327!2026-03-15,146,324-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-10-07,313,347!2026-06-13,203,327!2026-03-15,146,324-->
 
-  - {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-01-09,391,364!2026-07-04,238,344!2026-09-18,297,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-01-09,391,364!2026-07-04,238,344!2026-09-18,297,347-->
 
 - [Functional analysis](functional%20analysis.md)
 
-  - {@{The closed unit ball}@} of {@{the dual of a [normed vector space](normed%20vector%20space.md) over the reals}@} has {@{an [extreme point](extreme%20point.md)}@}. <!--SR:!2026-11-19,349,364!2026-08-17,256,344!2026-08-20,273,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{The closed unit ball}@} of {@{the dual of a [normed vector space](normed%20vector%20space.md) over the reals}@} has {@{an [extreme point](extreme%20point.md)}@}. <!--SR:!2026-11-19,349,364!2026-08-17,256,344!2026-08-20,273,347-->
 
 - [Point-set topology](point-set%20topology.md)
 
-  - {@{The [Cartesian product](product%20topology.md)}@} of {@{any family of [connected](connected%20space.md) [topological spaces](topological%20space.md)}@} is {@{connected}@}. <!--SR:!2026-09-09,290,347!2026-11-30,360,364!2026-12-18,374,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{The [Cartesian product](product%20topology.md)}@} of {@{any family of [connected](connected%20space.md) [topological spaces](topological%20space.md)}@} is {@{connected}@}. <!--SR:!2026-09-09,290,347!2026-11-30,360,364!2026-12-18,374,364-->
 
-  - {@{[Tychonoff's theorem](Tychonoff's%20theorem.md)}@}: {@{The Cartesian product}@} of {@{any family of [compact](compact%20space.md) topological spaces}@} is {@{compact}@}. <!--SR:!2026-12-20,376,364!2026-12-11,367,364!2026-08-20,273,347!2026-09-21,300,347-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Tychonoff's theorem](Tychonoff's%20theorem.md)}@}: {@{The Cartesian product}@} of {@{any family of [compact](compact%20space.md) topological spaces}@} is {@{compact}@}. <!--SR:!2026-12-20,376,364!2026-12-11,367,364!2026-08-20,273,347!2026-09-21,300,347-->
 
-  - In {@{the product topology}@}, {@{the [closure](closure%20(topology).md) of a product of subsets}@} is {@{equal to the product of the closures}@}. <!--SR:!2026-12-03,362,364!2026-12-15,370,364!2026-11-21,351,364-->
+  - \(annotation: {@{equivalent to}@} AC\) In {@{the product topology}@}, {@{the [closure](closure%20(topology).md) of a product of subsets}@} is {@{equal to the product of the closures}@}. <!--SR:!2026-12-03,362,364!2026-12-15,370,364!2026-11-21,351,364-->
 
 - [Mathematical logic](mathematical%20logic.md)
 
-  - If _S_ is a set of sentences of [first-order logic](first-order%20logic.md) and _B_ is a consistent subset of _S_, then _B_ is included in a set that is maximal among consistent subsets of _S_. The special case where _S_ is the set of __all__ first-order sentences in a given [signature](signature%20(logic).md) is weaker, equivalent to the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md); see the section "Weaker forms" below.
+  - \(annotation: {@{equivalent to}@} AC\) If _S_ is {@{a set of sentences of [first-order logic](first-order%20logic.md)}@} and _B_ is {@{a consistent subset of _S_}@}, then _B_ is {@{included in a set that is maximal among consistent subsets of _S_}@}. {@{The special case}@} where _S_ is {@{the set of __all__ first-order sentences in a given [signature](signature%20(logic).md)}@} is {@{weaker, equivalent to the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}; see the section {@{"Weaker forms" below}@}.
 
-  - {@{[Lowenheim-Skolem theorem](Lowenheim-Skolem%20theorem.md)}@}: If {@{first-order theory has infinite model}@}, then it has {@{infinite model of every possible cardinality greater than cardinality of language of this theory}@}. <!--SR:!2026-12-22,376,364!2026-12-26,380,364!2027-01-18,399,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Lowenheim-Skolem theorem](Lowenheim-Skolem%20theorem.md)}@}: If {@{first-order theory has infinite model}@}, then it has {@{infinite model of every possible cardinality greater than cardinality of language of this theory}@}. <!--SR:!2026-12-22,376,364!2026-12-26,380,364!2027-01-18,399,364-->
 
 - [Graph theory](graph%20theory.md)
 
-  - {@{Every [connected graph](connected%20graph.md#connected%20vertices%20and%20graphs) \(annotation: which is potentially infinite\)}@} has {@{a [spanning tree](spanning%20tree.md)}@}.<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2027-01-19,400,364!2027-01-02,386,364-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every [connected graph](connected%20graph.md#connected%20vertices%20and%20graphs) \(annotation: which is potentially infinite\)}@} has {@{a [spanning tree](spanning%20tree.md)}@}.<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2027-01-19,400,364!2027-01-02,386,364-->
 
 ### category theory
 
@@ -214,9 +214,9 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
 Examples of {@{category-theoretic statements}@} which {@{require choice}@} include: <!--SR:!2026-11-18,348,364!2026-09-30,308,347-->
 
-- Every small [category](category%20(mathematics).md) ::@:: has a [skeleton](skeleton%20(category%20theory).md). <!--SR:!2027-01-17,398,364!2026-12-01,361,364-->
-- If two small categories are weakly equivalent, ::@:: then they are [equivalent](equivalence%20of%20categories.md). <!--SR:!2026-09-30,308,347!2026-12-14,370,364-->
-- Every continuous functor on a small-complete category which satisfies the appropriate solution set condition has a [left-adjoint](adjoint%20functors.md) ::@:: \(the Freyd adjoint functor theorem\). <!--SR:!2027-01-10,392,364!2026-04-06,150,307-->
+- \(annotation: requires AC\) Every small [category](category%20(mathematics).md) ::@:: has a [skeleton](skeleton%20(category%20theory).md). <!--SR:!2027-01-17,398,364!2026-12-01,361,364-->
+- \(annotation: requires AC\) If two small categories are weakly equivalent, ::@:: then they are [equivalent](equivalence%20of%20categories.md). <!--SR:!2026-09-30,308,347!2026-12-14,370,364-->
+- \(annotation: requires AC\) Every continuous functor on a small-complete category which satisfies the appropriate solution set condition ::@:: has a [left-adjoint](adjoint%20functors.md) \(the Freyd adjoint functor theorem\). <!--SR:!2027-01-10,392,364!2026-04-06,150,307-->
 
 ## weaker forms
 
@@ -232,65 +232,65 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
 - [Set theory](set%20theory.md)
 
-  - {@{The [ultrafilter lemma](ultrafilter%20lemma.md#the%20ultrafilter%20lemma) \(with ZF\)}@} can be used to {@{prove the Axiom of choice for finite sets}@}: Given {@{$I\neq \varnothing$ and a collection $\left(X_{i}\right)_{i\in I}$ of non-empty finite sets}@}, {@{their product $\prod _{i\in I}X_{i}$ is not empty}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2026-09-26,305,347!2026-12-29,382,364!2026-08-16,255,344!2026-12-23,377,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [ultrafilter lemma](ultrafilter%20lemma.md#the%20ultrafilter%20lemma) \(with ZF\)}@} can be used to {@{prove the Axiom of choice for finite sets}@}: Given {@{$I\neq \varnothing$ and a collection $\left(X_{i}\right)_{i\in I}$ of non-empty finite sets}@}, {@{their product $\prod _{i\in I}X_{i}$ is not empty}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2026-09-26,305,347!2026-12-29,382,364!2026-08-16,255,344!2026-12-23,377,364-->
 
-  - {@{The [union](union%20(set%20theory).md)}@} of {@{any countable family of [countable sets](countable%20sets.md)}@} is {@{countable}@} \(this requires {@{[countable choice](axiom%20of%20countable%20choice.md) but not the full axiom of choice}@}\). <!--SR:!2027-01-13,395,364!2026-12-25,379,364!2026-10-10,315,347!2026-05-26,200,327-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [union](union%20(set%20theory).md)}@} of {@{any countable family of [countable sets](countable%20sets.md)}@} is {@{countable}@} \(this requires {@{[countable choice](axiom%20of%20countable%20choice.md) but not the full axiom of choice}@}\). <!--SR:!2027-01-13,395,364!2026-12-25,379,364!2026-10-10,315,347!2026-05-26,200,327-->
 
-  - If {@{the set _A_ is [infinite](infinite%20set.md)}@}, then there exists {@{an [injection](injective%20function.md) from the [natural numbers](natural%20number.md) __N__ to _A_}@} \(see {@{[Dedekind infinite](Dedekind%20infinite.md)}@}\).<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2026-10-08,314,347!2026-12-23,378,364!2026-11-15,347,364-->
+  - \(annotation: {@{weaker than}@} AC\) If {@{the set _A_ is [infinite](infinite%20set.md)}@}, then there exists {@{an [injection](injective%20function.md) from the [natural numbers](natural%20number.md) __N__ to _A_}@} \(see {@{[Dedekind infinite](Dedekind%20infinite.md)}@}\).<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2026-10-08,314,347!2026-12-23,378,364!2026-11-15,347,364-->
 
-  - {@{Eight definitions of a [finite set](finite%20set.md#other%20concepts%20of%20finiteness)}@} are {@{equivalent}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2026-12-06,364,364!2026-12-28,381,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{Eight definitions of a [finite set](finite%20set.md#other%20concepts%20of%20finiteness)}@} are {@{equivalent}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2026-12-06,364,364!2026-12-28,381,364-->
 
-  - {@{Every infinite [game](determinacy.md#basic%20notions) $G_{S}$}@} in which $S$ is {@{a [Borel](Borel%20set.md) subset of [Baire space](Baire%20space%20(set%20theory).md)}@} is {@{[determined](determinacy.md#basic%20notions)}@}. <!--SR:!2026-11-19,350,364!2026-07-26,236,327!2026-10-23,326,347-->
+  - \(annotation: {@{weaker than}@} AC\) {@{Every infinite [game](determinacy.md#basic%20notions) $G_{S}$}@} in which $S$ is {@{a [Borel](Borel%20set.md) subset of [Baire space](Baire%20space%20(set%20theory).md)}@} is {@{[determined](determinacy.md#basic%20notions)}@}. <!--SR:!2026-11-19,350,364!2026-07-26,236,327!2026-10-23,326,347-->
 
-- {@{Every infinite [cardinal](cardinal%20number.md) _κ_}@} satisfies {@{2×<!-- markdown separator -->_κ_ = _κ_}@}.<sup>[\[31\]](#^ref-31)</sup> <!--SR:!2026-11-11,340,347!2026-09-20,299,347-->
+- \(annotation: {@{weaker than}@} AC\) {@{Every infinite [cardinal](cardinal%20number.md) _κ_}@} satisfies {@{2×<!-- markdown separator -->_κ_ = _κ_}@}.<sup>[\[31\]](#^ref-31)</sup> <!--SR:!2026-11-11,340,347!2026-09-20,299,347-->
 
 - [Measure theory](measure%20theory.md)
 
-  - {@{The [Vitali theorem](Vitali%20set.md)}@} on {@{the existence of [non-measurable sets](non-measurable%20set.md)}@}, which states that there {@{exists a subset of the [real numbers](real%20numbers.md) that is not [Lebesgue measurable](Lebesgue%20measurable.md)}@}. <!--SR:!2026-09-08,289,347!2026-10-28,329,347!2026-12-20,376,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Vitali theorem](Vitali%20set.md)}@} on {@{the existence of [non-measurable sets](non-measurable%20set.md)}@}, which states that there {@{exists a subset of the [real numbers](real%20numbers.md) that is not [Lebesgue measurable](Lebesgue%20measurable.md)}@}. <!--SR:!2026-09-08,289,347!2026-10-28,329,347!2026-12-20,376,364-->
 
-  - There {@{exist Lebesgue-measurable subsets of the real numbers}@} that are {@{not [Borel sets](Borel%20set.md)}@}. That is, {@{the Borel σ-algebra on the real numbers}@} \(which is generated by {@{all real intervals}@}\) is {@{strictly included in the Lebesgue-measure σ-algebra on the real numbers}@}. <!--SR:!2026-06-12,203,327!2026-08-18,256,344!2026-03-10,142,324!2026-11-18,350,364!2026-12-19,375,364-->
+  - \(annotation: {@{weaker than}@} AC\) There {@{exist Lebesgue-measurable subsets of the real numbers}@} that are {@{not [Borel sets](Borel%20set.md)}@}. That is, {@{the Borel σ-algebra on the real numbers}@} \(which is generated by {@{all real intervals}@}\) is {@{strictly included in the Lebesgue-measure σ-algebra on the real numbers}@}. <!--SR:!2026-06-12,203,327!2026-08-18,256,344!2026-03-10,142,324!2026-11-18,350,364!2026-12-19,375,364-->
 
-  - {@{The [Hausdorff paradox](Hausdorff%20paradox.md)}@}. \(annotation: {@{Relied on by the Banach–Tarski paradox}@}.\) <!--SR:!2026-12-09,367,364!2026-09-05,286,347-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Hausdorff paradox](Hausdorff%20paradox.md)}@}. \(annotation: {@{Relied on by the Banach–Tarski paradox}@}.\) <!--SR:!2026-12-09,367,364!2026-09-05,286,347-->
 
-  - {@{The [Banach–Tarski paradox](Banach–Tarski%20paradox.md)}@}. \(annotation: {@{Decompose a 3D solid ball and put back together to yield two 3D solid balls}@}.\) <!--SR:!2026-12-06,362,364!2026-12-04,362,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Tarski paradox](Banach–Tarski%20paradox.md)}@}. \(annotation: {@{Decompose a 3D solid ball and put back together to yield two 3D solid balls}@}.\) <!--SR:!2026-12-06,362,364!2026-12-04,362,364-->
 
 - [Algebra](algebra.md)
 
-  - {@{Every [field](field%20(mathematics).md)}@} has {@{an [algebraic closure](algebraic%20closure.md)}@}. <!--SR:!2026-09-15,295,347!2026-12-07,365,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{Every [field](field%20(mathematics).md)}@} has {@{an [algebraic closure](algebraic%20closure.md)}@}. <!--SR:!2026-09-15,295,347!2026-12-07,365,364-->
 
-  - {@{Every [field extension](field%20extension.md)}@} has {@{a [transcendence basis](transcendence%20basis.md)}@}. <!--SR:!2026-08-23,276,347!2026-12-13,370,364-->
+  - {\(annotation: {@{weaker than}@} AC\) @{Every [field extension](field%20extension.md)}@} has {@{a [transcendence basis](transcendence%20basis.md)}@}. <!--SR:!2026-08-23,276,347!2026-12-13,370,364-->
 
-  - {@{Every infinite-dimensional [vector space](vector%20space.md)}@} contains {@{an infinite linearly independent subset \(annotation: not _basis_\)}@} \(this requires {@{[dependent choice](axiom%20of%20dependent%20choice.md), but not the full axiom of choice}@}\). <!--SR:!2026-11-28,358,364!2026-12-05,363,364!2027-01-14,395,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{Every infinite-dimensional [vector space](vector%20space.md)}@} contains {@{an infinite linearly independent subset \(annotation: not _basis_\)}@} \(this requires {@{[dependent choice](axiom%20of%20dependent%20choice.md), but not the full axiom of choice}@}\). <!--SR:!2026-11-28,358,364!2026-12-05,363,364!2027-01-14,395,364-->
 
-  - {@{[Stone's representation theorem for Boolean algebras](Stone's%20representation%20theorem%20for%20Boolean%20algebras.md)}@} needs {@{the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}. <!--SR:!2026-12-24,378,364!2026-09-03,284,347-->
+  - \(annotation: {@{weaker than}@} AC\) {@{[Stone's representation theorem for Boolean algebras](Stone's%20representation%20theorem%20for%20Boolean%20algebras.md)}@} needs {@{the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}. <!--SR:!2026-12-24,378,364!2026-09-03,284,347-->
 
-  - {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-01-08,37,324!2026-08-05,260,344!2026-12-31,384,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-01-08,37,324!2026-08-05,260,344!2026-12-31,384,364-->
 
-  - {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!2026-07-12,241,330-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!2026-07-12,241,330-->
 
 - [Functional analysis](functional%20analysis.md)
 
-  - {@{The [Hahn–Banach theorem](Hahn–Banach%20theorem.md)}@} in {@{[functional analysis](functional%20analysis.md)}@}, allowing {@{the extension of [linear functionals](linear%20map.md)}@}. <!--SR:!2026-09-19,298,347!2026-12-12,369,364!2026-10-08,314,347-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Hahn–Banach theorem](Hahn–Banach%20theorem.md)}@} in {@{[functional analysis](functional%20analysis.md)}@}, allowing {@{the extension of [linear functionals](linear%20map.md)}@}. <!--SR:!2026-09-19,298,347!2026-12-12,369,364!2026-10-08,314,347-->
 
-  - {@{The theorem}@} that {@{every [Hilbert space](Hilbert%20space.md)}@} has {@{an orthonormal basis}@}. <!--SR:!2026-11-08,337,347!2026-10-21,324,347!2027-01-03,386,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The theorem}@} that {@{every [Hilbert space](Hilbert%20space.md)}@} has {@{an orthonormal basis}@}. <!--SR:!2026-11-08,337,347!2026-10-21,324,347!2027-01-03,386,364-->
 
-  - {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!2026-07-04,234,330!2026-11-30,359,364!2026-09-30,308,347-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!2026-07-04,234,330!2026-11-30,359,364!2026-09-30,308,347-->
 
-  - {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!2026-01-18,40,324-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!2026-01-18,40,324-->
 
-  - On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!2026-06-14,204,327!2026-11-26,355,364!2026-04-18,174,327-->
+  - \(annotation: {@{weaker than}@} AC\) On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!2026-06-14,204,327!2026-11-26,355,364!2026-04-18,174,327-->
 
 - [General topology](general%20topology.md)
 
-  - {@{A uniform space}@} is {@{compact}@} {@{if and only if it is complete and totally bounded}@}. <!--SR:!2026-10-01,309,347!2026-04-08,154,327!2026-06-12,214,327-->
+  - \(annotation: {@{weaker than}@} AC\) {@{A uniform space}@} is {@{compact}@} {@{if and only if it is complete and totally bounded}@}. <!--SR:!2026-10-01,309,347!2026-04-08,154,327!2026-06-12,214,327-->
 
-  - {@{Every [Tychonoff space](Tychonoff%20space.md)}@} has {@{a [Stone–Čech compactification](Stone–Čech%20compactification.md)}@}. <!--SR:!2026-12-06,364,364!2026-12-24,378,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{Every [Tychonoff space](Tychonoff%20space.md)}@} has {@{a [Stone–Čech compactification](Stone–Čech%20compactification.md)}@}. <!--SR:!2026-12-06,364,364!2026-12-24,378,364-->
 
 - [Mathematical logic](mathematical%20logic.md)
 
-  - {@{[Gödel's completeness theorem](Gödel's%20completeness%20theorem.md)}@} for {@{first-order logic}@}: {@{every consistent set of first-order sentences}@} has {@{a completion}@}. That is, {@{every consistent set of first-order sentences can be extended to a maximal consistent set}@}. <!--SR:!2026-07-15,243,330!2026-07-23,250,330!2027-01-08,390,364!2026-09-28,306,347!2026-12-21,376,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{[Gödel's completeness theorem](Gödel's%20completeness%20theorem.md)}@} for {@{first-order logic}@}: {@{every consistent set of first-order sentences}@} has {@{a completion}@}. That is, {@{every consistent set of first-order sentences can be extended to a maximal consistent set}@}. <!--SR:!2026-07-15,243,330!2026-07-23,250,330!2027-01-08,390,364!2026-09-28,306,347!2026-12-21,376,364-->
 
-  - {@{The [compactness theorem](compactness%20theorem.md)}@}: If {@{$\Sigma$ is a set of [first-order](first-order%20predicate%20calculus.md) \(or alternatively, [zero-order](propositional%20calculus.md)\) [sentences](sentence%20(mathematical%20logic).md)}@} such that {@{every [finite](finite%20set.md) subset of $\Sigma$ has a [model](model%20(model%20theory).md)}@}, then {@{$\Sigma$ has a model}@}.<sup>[\[34\]](#^ref-34)</sup> <!--SR:!2026-11-07,340,364!2026-10-20,323,347!2026-12-10,367,364!2026-11-12,345,364-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [compactness theorem](compactness%20theorem.md)}@}: If {@{$\Sigma$ is a set of [first-order](first-order%20predicate%20calculus.md) \(or alternatively, [zero-order](propositional%20calculus.md)\) [sentences](sentence%20(mathematical%20logic).md)}@} such that {@{every [finite](finite%20set.md) subset of $\Sigma$ has a [model](model%20(model%20theory).md)}@}, then {@{$\Sigma$ has a model}@}.<sup>[\[34\]](#^ref-34)</sup> <!--SR:!2026-11-07,340,364!2026-10-20,323,347!2026-12-10,367,364!2026-11-12,345,364-->
 
 ### possibly equivalent implications of AC
 
@@ -298,23 +298,23 @@ There are {@{several historically important set-theoretic statements}@} {@{impli
 
 - [Set theory](set%20theory.md)
 
-  - {@{Partition principle}@}: if there is {@{a [surjection](surjective%20function.md) from _A_ to _B_}@}, there is an {@{[injection](injective%20function.md) from _B_ to _A_}@}. Equivalently, {@{every [partition](partition%20of%20a%20set.md) _P_ of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to _P_}@}\) is {@{less than or equal to _S_ in size}@}. \(annotation: Implies {@{the converse Schröder–Bernstein theorem and the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-11-12,344,364!2026-11-24,355,364!2026-09-06,288,347!2026-09-06,287,347!2026-04-24,179,327!2026-05-14,178,324!2026-02-19,125,391!2026-01-02,24,389-->
+  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Partition principle}@}: if there is {@{a [surjection](surjective%20function.md) from _A_ to _B_}@}, there is an {@{[injection](injective%20function.md) from _B_ to _A_}@}. Equivalently, {@{every [partition](partition%20of%20a%20set.md) _P_ of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to _P_}@}\) is {@{less than or equal to _S_ in size}@}. \(annotation: Implies {@{the converse Schröder–Bernstein theorem and the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-11-12,344,364!2026-11-24,355,364!2026-09-06,288,347!2026-09-06,287,347!2026-04-24,179,327!2026-05-14,178,324!2026-02-19,125,391!2026-01-02,24,389-->
 
-  - {@{Converse [Schröder–Bernstein theorem](Schröder–Bernstein%20theorem.md)}@}: if {@{two sets have surjections to each other}@}, {@{they are equinumerous}@}. \(annotation: Implied by {@{the partition principle}@}. Implies {@{the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-06,364,364!2026-03-14,145,324!2027-01-01,385,364!2026-10-20,323,347!2026-09-06,286,347!2026-02-11,118,391-->
+  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Converse [Schröder–Bernstein theorem](Schröder–Bernstein%20theorem.md)}@}: if {@{two sets have surjections to each other}@}, {@{they are equinumerous}@}. \(annotation: Implied by {@{the partition principle}@}. Implies {@{the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-06,364,364!2026-03-14,145,324!2027-01-01,385,364!2026-10-20,323,347!2026-09-06,286,347!2026-02-11,118,391-->
 
-  - {@{Weak partition principle}@}: if there is {@{an [injection](injective%20function.md) and a [surjection](surjective%20function.md) \(annotation: these two functions may be distinct\) from _A_ to _B_}@}, then {@{_A_ and _B_ are equinumerous}@}. Equivalently, {@{a partition of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to the partition}@}\) cannot be {@{strictly larger than _S_}@}. If {@{WPP holds}@}, this already {@{implies the existence of a non-measurable set}@}. {@{Each of the previous three statements}@} is {@{implied by the preceding one}@}, but it is {@{unknown if any of these implications can be reversed}@}. \(annotation: Implied by {@{the converse Schröder–Bernstein theorem or the partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-09,367,364!2025-12-22,74,287!2026-08-26,278,347!2026-12-20,376,364!2026-12-01,361,364!2026-12-01,361,364!2026-09-07,288,347!2026-10-23,326,347!2026-08-17,257,344!2026-12-27,381,364!2026-08-29,281,347!2026-01-22,96,371!2026-01-03,25,389-->
+  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Weak partition principle}@}: if there is {@{an [injection](injective%20function.md) and a [surjection](surjective%20function.md) \(annotation: these two functions may be distinct\) from _A_ to _B_}@}, then {@{_A_ and _B_ are equinumerous}@}. Equivalently, {@{a partition of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to the partition}@}\) cannot be {@{strictly larger than _S_}@}. If {@{WPP holds}@}, this already {@{implies the existence of a non-measurable set}@}. {@{Each of the previous three statements}@} is {@{implied by the preceding one}@}, but it is {@{unknown if any of these implications can be reversed}@}. \(annotation: Implied by {@{the converse Schröder–Bernstein theorem or the partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-09,367,364!2025-12-22,74,287!2026-08-26,278,347!2026-12-20,376,364!2026-12-01,361,364!2026-12-01,361,364!2026-09-07,288,347!2026-10-23,326,347!2026-08-17,257,344!2026-12-27,381,364!2026-08-29,281,347!2026-01-22,96,371!2026-01-03,25,389-->
 
-  - There is {@{no infinite decreasing sequence of cardinals}@}. The equivalence was {@{conjectured by Schoenflies in 1905}@}. <!--SR:!2027-01-03,386,364!2026-11-15,348,364-->
+  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) There is {@{no infinite decreasing sequence of cardinals}@}. The equivalence was {@{conjectured by Schoenflies in 1905}@}. <!--SR:!2027-01-03,386,364!2026-11-15,348,364-->
 
 - [Abstract algebra](abstract%20algebra.md)
 
-  - {@{[Hahn embedding theorem](Hahn%20embedding%20theorem.md)}@}: {@{Every ordered abelian group _G_}@} {@{order-embeds as a subgroup}@} of {@{the additive group $\mathbb {R} ^{\Omega }$}@} endowed with {@{a [lexicographical order](lexicographical%20order.md)}@}, where Ω is {@{the set of Archimedean equivalence classes of _G_}@}. This equivalence was {@{conjectured by Hahn in 1907}@}. <!--SR:!2026-11-27,356,364!2026-09-23,284,344!2026-08-29,265,344!2027-01-17,398,364!2026-12-20,374,364!2026-07-08,224,327!2026-04-15,171,327-->
+  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{[Hahn embedding theorem](Hahn%20embedding%20theorem.md)}@}: {@{Every ordered abelian group _G_}@} {@{order-embeds as a subgroup}@} of {@{the additive group $\mathbb {R} ^{\Omega }$}@} endowed with {@{a [lexicographical order](lexicographical%20order.md)}@}, where Ω is {@{the set of Archimedean equivalence classes of _G_}@}. This equivalence was {@{conjectured by Hahn in 1907}@}. <!--SR:!2026-11-27,356,364!2026-09-23,284,344!2026-08-29,265,344!2027-01-17,398,364!2026-12-20,374,364!2026-07-08,224,327!2026-04-15,171,327-->
 
 ## stronger forms of the negation of AC
 
 If we {@{abbreviate by BP}@} the claim that {@{every set of real numbers has the [property of Baire](property%20of%20Baire.md)}@}, then {@{BP is stronger than ¬AC}@}, which asserts {@{the nonexistence of any choice function on perhaps only a single set of nonempty sets}@}. {@{Strengthened negations}@} may be {@{compatible with weakened forms of AC}@}. For example, {@{ZF + DC<sup>[\[36\]](#^ref-36)</sup> + BP is consistent}@}, if {@{ZF is}@}. <!--SR:!2026-09-27,305,347!2026-09-25,304,347!2026-10-18,322,347!2027-01-06,389,364!2026-08-23,275,347!2027-01-02,386,364!2026-09-12,292,347!2026-09-07,287,347-->
 
-It is also {@{consistent with ZF + DC}@} that {@{every set of reals is [Lebesgue measurable](Lebesgue%20measurable.md)}@}, but {@{this consistency result, due to [Robert M. Solovay](Robert%20M.%20Solovay.md)}@}, cannot be {@{proved in ZFC itself}@}, but {@{requires a mild [large cardinal](large%20cardinal.md) assumption}@} \(the existence of {@{an [inaccessible cardinal](inaccessible%20cardinal.md)}@}\). {@{The much stronger [axiom of determinacy](axiom%20of%20determinacy.md), or AD}@}, implies that {@{every set of reals is Lebesgue measurable}@}, has {@{the property of Baire}@}, and has {@{the [perfect set property](perfect%20set%20property.md)}@} \(all three of these results are {@{refuted by AC itself}@}\). {@{ZF + DC + AD is consistent}@} provided that {@{a sufficiently strong large cardinal axiom is consistent}@} \(the existence of {@{infinitely many [Woodin cardinals](Woodin%20cardinal.md)}@}\). <!--SR:!2027-01-19,400,364!2026-12-18,374,364!2027-01-06,389,364!2026-09-30,308,347!2026-11-10,343,364!2026-11-17,348,364!2026-07-12,241,330!2026-07-12,241,330!2026-10-07,313,347!2026-07-24,251,330!2026-07-18,246,330!2026-11-19,350,364!2026-10-18,322,347!2026-07-08,238,344-->
+It is also {@{consistent with ZF + DC}@} that {@{every set of reals is [Lebesgue measurable](Lebesgue%20measurable.md)}@}, but {@{this consistency result, due to [Robert M. Solovay](Robert%20M.%20Solovay.md)}@}, cannot be {@{proved in ZFC itself}@}, but {@{requires a mild [large cardinal](large%20cardinal.md) assumption}@} \(the existence of {@{an [inaccessible cardinal](inaccessible%20cardinal.md)}@}\). {@{The much stronger [axiom of determinacy](axiom%20of%20determinacy.md), or AD}@}, implies that {@{every set of reals is Lebesgue measurable}@}, has {@{the property of Baire}@}, and has {@{the [perfect set property](perfect%20set%20property.md)}@} \({@{all three of these results}@} are {@{refuted by AC itself}@}\). {@{ZF + DC + AD is consistent}@} provided that {@{a sufficiently strong large cardinal axiom is consistent}@} \(the existence of {@{infinitely many [Woodin cardinals](Woodin%20cardinal.md)}@}\). <!--SR:!2027-01-19,400,364!2026-12-18,374,364!2027-01-06,389,364!2026-09-30,308,347!2026-11-10,343,364!2026-11-17,348,364!2026-07-12,241,330!2026-07-12,241,330!2026-10-07,313,347!2026-07-24,251,330!2026-07-18,246,330!2026-11-19,350,364!2026-10-18,322,347!2026-07-08,238,344-->
 
 {@{[Quine](Willard%20Van%20Orman%20Quine.md)'s system of axiomatic set theory}@}, {@{[New Foundations](New%20Foundations.md) \(NF\)}@}, takes its name from {@{the title \("New Foundations for Mathematical Logic"\) of the 1937 article that introduced it}@}. In {@{the NF axiomatic system}@}, {@{the axiom of choice can be disproved}@}.<sup>[\[37\]](#^ref-37)</sup> <!--SR:!2027-01-03,386,364!2026-09-27,305,347!2026-09-19,298,347!2026-11-14,345,364!2026-12-17,373,364-->
 
@@ -322,27 +322,27 @@ It is also {@{consistent with ZF + DC}@} that {@{every set of reals is [Lebesgue
 
 There are {@{models of Zermelo-Fraenkel set theory}@} in which {@{the axiom of choice is false}@}. We shall abbreviate {@{"Zermelo-Fraenkel set theory plus the negation of the axiom of choice"}@} by {@{ZF¬C}@}. For {@{certain models of ZF¬C}@}, it is possible to {@{validate the negation of some standard ZFC theorems}@}. As {@{any model of ZF¬C is also a model of ZF}@}, it is the case that for {@{each of the following statements}@}, there {@{exists a model of ZF in which that statement is true}@}. <!--SR:!2026-04-10,167,327!2026-11-29,359,364!2026-12-16,372,364!2026-10-22,325,347!2027-01-05,388,364!2026-12-13,368,364!2026-08-21,274,347!2026-11-04,337,364!2027-01-19,400,364-->
 
-- {@{The negation of the [weak partition principle](partition%20principle.md#Possibly%20equivalent%20implications%20of%20AC)}@}: There is {@{a set that can be partitioned into strictly more equivalence classes than the original set has elements}@}, and {@{a function whose domain is strictly smaller than its range}@}. In fact, this is {@{the case in all _known_ models}@}. <!--SR:!2027-01-17,398,364!2026-05-05,172,310!2026-09-03,285,347!2026-09-08,289,347-->
+- \(annotation: {@{implies negation of}@} AC\) {@{The negation of the [weak partition principle](partition%20principle.md#Possibly%20equivalent%20implications%20of%20AC)}@}: There is {@{a set that can be partitioned into strictly more equivalence classes than the original set has elements}@}, and {@{a function whose domain is strictly smaller than its range}@}. In fact, this is {@{the case in all _known_ models}@}. <!--SR:!2027-01-17,398,364!2026-05-05,172,310!2026-09-03,285,347!2026-09-08,289,347-->
 
-- There is {@{a function _f_ from the real numbers to the real numbers}@} such that {@{_f_ is not continuous at _a_}@}, but {@{_f_ is [sequentially continuous](sequential%20continuity.md#sequences%20and%20nets) at _a_}@}, i.e., for {@{any sequence {_x<sub>n</sub>_} converging to _a_}@}, {@{lim<sub>_n_</sub> f\(_x<sub>n</sub>_\)=f\(a\)}@}. <!--SR:!2027-01-04,387,364!2026-12-03,362,364!2026-09-20,299,347!2026-11-30,360,364!2026-10-11,316,347-->
+- \(annotation: {@{implies negation of}@} AC\) There is {@{a function _f_ from the real numbers to the real numbers}@} such that {@{_f_ is not continuous at _a_}@}, but {@{_f_ is [sequentially continuous](sequential%20continuity.md#sequences%20and%20nets) at _a_}@}, i.e., for {@{any sequence {_x<sub>n</sub>_} converging to _a_}@}, {@{lim<sub>_n_</sub> f\(_x<sub>n</sub>_\)=f\(a\)}@}. <!--SR:!2027-01-04,387,364!2026-12-03,362,364!2026-09-20,299,347!2026-11-30,360,364!2026-10-11,316,347-->
 
-- There is {@{an infinite set of real numbers}@} without {@{a countably infinite subset}@}. <!--SR:!2026-12-04,362,364!2027-01-05,388,364-->
+- \(annotation: {@{implies negation of}@} AC\) There is {@{an infinite set of real numbers}@} without {@{a countably infinite subset}@}. <!--SR:!2026-12-04,362,364!2027-01-05,388,364-->
 
-- {@{The real numbers}@} are {@{a countable union of countable sets}@}.<sup>[\[38\]](#^ref-38)</sup> This does not {@{imply that the real numbers are countable}@}: As pointed out above, to {@{show that a countable union of countable sets is itself countable}@} requires {@{the [Axiom of countable choice](axiom%20of%20countable%20choice.md)}@}. <!--SR:!2026-09-13,293,347!2026-10-19,323,347!2026-10-13,318,347!2026-09-02,284,347!2026-06-03,212,344-->
+- \(annotation: {@{implies negation of}@} AC\) {@{The real numbers}@} are {@{a countable union of countable sets}@}.<sup>[\[38\]](#^ref-38)</sup> This does not {@{imply that the real numbers are countable}@}: As pointed out above, to {@{show that a countable union of countable sets is itself countable}@} requires {@{the [Axiom of countable choice](axiom%20of%20countable%20choice.md)}@}. <!--SR:!2026-09-13,293,347!2026-10-19,323,347!2026-10-13,318,347!2026-09-02,284,347!2026-06-03,212,344-->
 
-- There is {@{a field}@} with {@{no algebraic closure}@}. <!--SR:!2026-05-25,199,327!2026-12-23,377,364-->
+- \(annotation: {@{implies negation of}@} AC\) There is {@{a field}@} with {@{no algebraic closure}@}. <!--SR:!2026-05-25,199,327!2026-12-23,377,364-->
 
-- In {@{all models of ZF¬C}@} there is {@{a vector space with no basis}@}. <!--SR:!2026-10-20,323,347!2026-09-28,306,347-->
+- \(annotation: {@{implies negation of}@} AC\) In {@{all models of ZF¬C}@} there is {@{a vector space with no basis}@}. <!--SR:!2026-10-20,323,347!2026-09-28,306,347-->
 
-- There is {@{a vector space}@} with {@{two bases of different cardinalities}@}. <!--SR:!2026-12-22,377,364!2027-01-16,397,364-->
+- \(annotation: {@{implies negation of}@} AC\) There is {@{a vector space}@} with {@{two bases of different cardinalities}@}. <!--SR:!2026-12-22,377,364!2027-01-16,397,364-->
 
-- There is {@{a free [complete Boolean algebra](complete%20Boolean%20algebra.md)}@} on countably many generators.<sup>[\[39\]](#^ref-39)</sup> <!--SR:!2026-11-20,351,364-->
+- \(annotation: {@{implies negation of}@} AC\) There is {@{a free [complete Boolean algebra](complete%20Boolean%20algebra.md)}@} on countably many generators.<sup>[\[39\]](#^ref-39)</sup> <!--SR:!2026-11-20,351,364-->
 
-- There is {@{[a set that cannot be linearly ordered](amorphous%20set.md)}@}. \(annotation: {@{amorphous set}@}\) <!--SR:!2026-11-02,331,347!2027-01-03,386,364-->
+- \(annotation: {@{implies negation of}@} AC\) There is {@{[a set that cannot be linearly ordered](amorphous%20set.md)}@}. \(annotation: {@{amorphous set}@}\) <!--SR:!2026-11-02,331,347!2027-01-03,386,364-->
 
-- There {@{exists a model of ZF¬C}@} in which {@{every set in R<sup>_n_</sup> is [measurable](measurable.md)}@}. Thus it is possible to {@{exclude counterintuitive results like the [Banach–Tarski paradox](Banach–Tarski%20paradox.md)}@} which are {@{provable in ZFC}@}. Furthermore, this is possible whilst {@{assuming the [Axiom of dependent choice](axiom%20of%20dependent%20choice.md)}@}, which is {@{weaker than AC but sufficient to develop most of [real analysis](real%20analysis.md)}@}. <!--SR:!2026-12-27,381,364!2026-11-03,332,347!2026-12-11,368,364!2027-01-14,395,364!2026-11-25,355,364!2026-10-18,322,347-->
+- \(annotation: {@{implies negation of}@} AC\) There {@{exists a model of ZF¬C}@} in which {@{every set in R<sup>_n_</sup> is [measurable](measurable.md)}@}. Thus it is possible to {@{exclude counterintuitive results like the [Banach–Tarski paradox](Banach–Tarski%20paradox.md)}@} which are {@{provable in ZFC}@}. Furthermore, this is possible whilst {@{assuming the [Axiom of dependent choice](axiom%20of%20dependent%20choice.md)}@}, which is {@{weaker than AC but sufficient to develop most of [real analysis](real%20analysis.md)}@}. <!--SR:!2026-12-27,381,364!2026-11-03,332,347!2026-12-11,368,364!2027-01-14,395,364!2026-11-25,355,364!2026-10-18,322,347-->
 
-- In {@{all models of ZF¬C}@}, {@{the [generalized continuum hypothesis](generalized%20continuum%20hypothesis.md#generalized%20continuum%20hypothesis)}@} {@{does not hold}@}. <!--SR:!2026-09-05,287,347!2027-01-10,392,364!2026-11-22,353,364-->
+- \(annotation: {@{implies negation of}@} AC\) In {@{all models of ZF¬C}@}, {@{the [generalized continuum hypothesis](generalized%20continuum%20hypothesis.md#generalized%20continuum%20hypothesis)}@} {@{does not hold}@}. <!--SR:!2026-09-05,287,347!2027-01-10,392,364!2026-11-22,353,364-->
 
 For proofs, see [Jech \(2008\)](#CITEREFJech2008).
 

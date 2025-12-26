@@ -21,7 +21,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(disc
 
 ## definitions
 
-{@{A graph \(other than a [complete graph](complete%20graph.md)\)}@} has {@{connectivity _k_ if _k_ is the size of the smallest subset of vertices such that the graph becomes disconnected if you delete them}@}.<sup>[\[1\]](#^ref-1)</sup> In {@{[complete graphs](complete%20graph.md)}@}, there is {@{no subset whose removal would disconnect the graph}@}. Some sources {@{modify the definition of connectivity to handle this case}@}, by {@{defining it as the size of the smallest subset of vertices whose deletion results in either a disconnected graph or a single vertex}@}. For this variation, {@{the connectivity of a complete graph $K_{n}$ is $n-1$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-01,279,330!2028-01-26,842,330!2026-01-11,287,330!2026-01-20,294,330!2029-05-03,1229,350!2029-05-03,1230,350!2027-04-15,568,310-->
+{@{A graph \(other than a [complete graph](complete%20graph.md)\)}@} has {@{connectivity _k_ if _k_ is the size of the smallest subset of vertices such that the graph becomes disconnected if you delete them}@}.<sup>[\[1\]](#^ref-1)</sup> In {@{[complete graphs](complete%20graph.md)}@}, there is {@{no subset whose removal would disconnect the graph}@}. Some sources modify {@{the definition of connectivity to handle this case}@}, by defining it as {@{the size of the smallest subset of vertices whose deletion results in either a disconnected graph or a single vertex}@}. For this variation, {@{the connectivity of a complete graph $K_{n}$ is $n-1$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-01,279,330!2028-01-26,842,330!2026-01-11,287,330!2026-01-20,294,330!2029-05-03,1229,350!2029-05-03,1230,350!2027-04-15,568,310-->
 
 An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices}@}, it is possible to find {@{_k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices}@}; see {@{[Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-28,805,330!2027-04-10,522,270!2028-01-02,833,330!2026-02-18,90,377!2026-02-19,91,377-->
 
@@ -43,7 +43,7 @@ Every graph {@{decomposes into a disjoint union of [1-connected components](comp
 
 ## properties
 
-Let {@{_k≥2_}@}. <!--SR:!2029-04-11,1210,350-->
+Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{cycles of length at least $2k$, cycles of length $k$}@}\) <!--SR:!2029-04-11,1210,350-->
 
 - (annotation: _k≥2_) Every _k_-connected graph of order (annotation: i.e. number of vertices) at least $2k$ ::@:: contains a [cycle](cycle%20(graph%20theory).md) of length at least $2k$ <!--SR:!2026-06-11,320,250!2025-12-29,228,270-->
 - (annotation: _k≥2_) In a _k_-connected graph, ::@:: any $k$ vertices in $G$ lie on a common [cycle](cycle%20(graph%20theory).md).<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-03-23,312,290!2027-04-03,570,310-->

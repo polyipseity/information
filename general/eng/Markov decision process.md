@@ -69,7 +69,7 @@ In this example, we have
 
 {@{The standard family of algorithms to calculate optimal policies for finite state and action MDPs}@} requires {@{storage for two arrays indexed by state: _value_ $V$, which contains real values, and _policy_ $\pi$, which contains actions}@}. At {@{the end of the algorithm}@}, $\pi$ will {@{contain the solution and $V(s)$ will contain the discounted sum of the rewards to be earned \(on average\) by following that solution from state $s$}@}. <!--SR:!2028-07-24,1023,349!2026-03-01,352,349!2026-01-31,329,349!2026-01-29,327,349-->
 
-The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy}@} and {@{state value using an older estimation of those values}@}. <!--SR:!2026-01-09,310,349!2025-12-28,302,349!2026-02-10,336,349!2029-11-16,1426,369-->
+The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy and state value}@} using {@{an older estimation of those values}@}. <!--SR:!2026-01-09,310,349!2025-12-28,302,349!2026-02-10,336,349!2029-11-16,1426,369-->
 
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2027-02-12,545,272!2026-02-03,301,292-->
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2026-06-08,362,270!2026-09-04,462,312-->
@@ -157,7 +157,7 @@ Reinforcement learning can {@{solve Markov-Decision processes without explicit s
 
 ### reinforcement learning for discrete MDPs
 
-For {@{the purpose of this section}@}, it is useful to {@{define a further function}@}, which corresponds to {@{taking the action $a$ and then continuing optimally \(or according to whatever policy one currently has\)}@}: {@{$$\ Q(s,a)=\sum _{s'}P_{a}(s,s')(R_{a}(s,s')+\gamma V(s')).\ {}$$}@} While {@{this function is also unknown}@}, {@{experience during learning is based on $(s,a)$ pairs}@} \(together with {@{the outcome $s'$; that is, "I was in state $s$ and I tried doing $a$ and $s'$ happened"}@}\). Thus, {@{one has an array $Q$ and uses experience to update it directly}@}. This is known as {@{[Q-learning](Q-learning.md)}@}. <!--SR:!2026-01-10,311,349!2027-02-01,596,329!2026-02-07,334,349!2028-03-22,848,329!2026-02-15,340,349!2026-02-03,330,349!2026-01-09,310,349!2028-10-02,1019,349!2026-02-20,344,349-->
+For {@{the purpose of this section}@}, it is useful to {@{define a further function}@}, which corresponds to {@{taking the action $a$ and then continuing optimally \(or according to whatever policy one currently has\)}@}: {@{$$\ Q(s,a)=\sum _{s'}P_{a}(s,s')(R_{a}(s,s')+\gamma V(s')).\ {}$$}@} While {@{this function is also unknown}@}, {@{experience during learning}@} is based on {@{$(s,a)$ pairs}@} \(together with {@{the outcome $s'$}@}; that is, "I {@{was in state $s$ and I tried doing $a$ and $s'$ happened}@}"\). Thus, one has {@{an array $Q$ and uses experience to update it directly}@}. This is known as {@{[Q-learning](Q-learning.md)}@}. <!--SR:!2026-01-10,311,349!2027-02-01,596,329!2026-02-07,334,349!2028-03-22,848,329!2026-02-15,340,349!2026-02-03,330,349!2026-01-09,310,349!2028-10-02,1019,349!2026-02-20,344,349-->
 
 ## other scopes
 

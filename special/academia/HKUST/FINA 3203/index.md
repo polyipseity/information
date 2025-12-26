@@ -143,7 +143,7 @@ The content is in teaching order.
   - rate of return / simple return ::@:: $$(S_T-S_0)/S_0 = S_T / S_0 - 1 \,;$$ annualized by dividing by $T$. <!--SR:!2026-03-16,121,388!2026-03-17,122,388-->
   - rate of return / log return ::@:: $$\ln(S_T/S_0) \,;$$ annualized by dividing by $T$. <p> Using the _expected_ spot price $E[S_T]$ instead of $S_T$ gives its _expected_ value instead. It, annualized, gives the continuously-compounded rate $\mu_0$. <!--SR:!2026-03-16,121,388!2026-03-07,113,388-->
 - forward contract
-  - forward contract / value ::@:: Initially, the value of a forward contract is 0. <p> At time $t<T$, the forward price becomes $F_{t,T}=S_t\,e^{r(T-t)}$. The current value to the long \(the buyer\) is the discounted difference between the original forward and the new one: $$V_t = N_0 e^{-r(T-t)}(F_{t,T}-F_{0,T}) \,.$$ Its value is negated to the short \(the seller\). <p> To remember the order, remember that the long benefits from higher spot prices, which increases $F_{t, T}$, so it should be the term before minus. Reverse this for the short. <!--SR:!2026-05-08,154,348!2026-03-20,124,388-->
+  - forward contract / value ::@:: Initially, the value of a forward contract is 0. <p> At time $t<T$, the forward price becomes $F_{t,T}=S_t\,e^{r(T-t)}$. The current value to the long \(the buyer\) is the discounted difference between the original forward and the new one: $$V_t = N_0 e^{-r(T-t)}(F_{t,T}-F_{0,T}) = N_0 (S_t - F_{0, T}e^{-r(T - t)} ) \,.$$ Its value is negated to the short \(the seller\). <p> To remember the order, remember that the long benefits from higher spot prices, which increases $F_{t, T}$, so it should be the term before minus. Reverse this for the short. <!--SR:!2026-05-08,154,348!2026-03-20,124,388-->
     - forward contract / value / no arbitrage ::@:: Assume you are the short \(the seller\). Enter a _reverse_ forward \(long\) with the same maturity date. At maturity, the underlying from settling the long can be used to settle a short. There is no risk \(apart from counterparty risk\). <p> Since that reverse contract's payoff is $N_0(S_T-F_{t,T})$, adding the two gives the net risk-free amount $N_0(F_{0,T}-F_{t,T})$. Discounting this amount back to today gives the current value, which multiplies the amount by $e^{-r (T - t)}$. <p> Discounting can be justified by additionally borrowing/investing money now at the risk-free rate such that the total future payoff is zero. The current payoff gives the value, and returns the same result as discounting. <!--SR:!2026-07-19,215,368!2026-02-19,95,368-->
     - forward contract / value / intuition ::@:: Treat the payoff at maturity as a cash flow at maturity. Then the value of the forward contract is said payoff discounted back to today. <!--SR:!2026-03-23,127,388!2026-03-16,121,388-->
 - [questions § forward contracts](questions.md#forward%20contracts)
@@ -325,15 +325,15 @@ The content is in teaching order.
     - repurchase agreement / uses / leverage ::@:: For long forward, notice we can use the received money to buy another underlying to synthesize another long forward. For short forward, notice we can sell the underlying to synthesize another short forward. <p> In both cases, we leverage our positions, as no additional investment is needed. Every buying/selling of the underlying can be treated as a _long_/_short_ position on the underlying. Buying/selling the underlying _n_ times gives a leverage of _n_. <!--SR:!2026-04-23,137,414!2026-04-22,136,414-->
   - repurchase agreement / haircut ::@:: Borrowers must post collateral exceeding the loan's notional amount; this excess is called a haircut. <p> Above, we see we can use \(ideal\) repos or reverse-repos to leverage unlimited number of times without the counterparty knowing. Haircuts limit the leverage. <!--SR:!2026-04-29,142,414!2026-05-03,145,414-->
     - repurchase agreement / haircut / market stress ::@:: Haircuts are typically modest under normal conditions but can widen dramatically during market stress, raising funding costs. <!--SR:!2026-05-05,147,414!2026-04-30,143,414-->
-  - repurchase agreement / convergence trade ::@:: - _On-run_ \(more liquid\) 30-year Treasuries usually trade at slightly lower yields \(higher prices\) than similar _off-run_ \(less liquid\) issues; a spread is expected to narrow ("converge"). <br/> - Trade setup: buy the cheaper off-run bond and repo it (financing the long); short the expensive on-run bond via reverse-repo. <br/> - Profit arises from the narrowing spread, independent of overall market direction – a classic relative-value arbitrage. <!--SR:!2026-03-28,109,394!2026-03-17,100,394-->
+  - repurchase agreement / convergence trade ::@:: - _On-run_ \(more liquid\) 30-year Treasuries usually trade at slightly lower yields \(higher prices\) than similar _off-run_ \(less liquid\) 29.5-year issues; a spread is expected to narrow ("converge"). <br/> - Trade setup: buy the cheaper off-run bond and repo it (financing the long); short the expensive on-run bond via reverse-repo. <br/> - Profit arises from the narrowing spread, independent of overall market direction – a classic relative-value arbitrage. <!--SR:!2026-03-28,109,394!2026-03-17,100,394--> 
     - repurchase agreement / convergence trade / forwards ::@:: We get the same effect by entering a long forward on the cheaper off-run bond and a short forward on the expensive on-run bond. <!--SR:!2026-05-04,146,414!2026-03-22,104,394-->
 - [basis point](../../../../general/basis%20point.md) ::@:: It is one hundredth of 1 percentage point. Changes of interest rates are often stated in basis points. <!--SR:!2026-04-29,142,414!2026-05-06,148,414-->
-- [Long-Term Capital Management](../../../../general/Long-Term%20Capital%20Management.md) \(LTCM\) ::@:: It was a highly leveraged hedge fund. In 1998, it received a $3.6 billion bailout from a group of 14 banks, in a deal brokered and put together by the Federal Reserve Bank of New York. <!--SR:!2026-04-23,137,414!2026-03-23,105,394-->
-  - Long-Term Capital Management / core strategy ::@:: It used high leverage (often >20× equity) to amplify small mispricings in spreads between similar assets. <p> Low-risk spread trades, diversified across many pairs, but highly correlated when market stress amplified correlations. <!--SR:!2026-04-22,136,414!2026-04-30,143,414-->
-  - Long-Term Capital Management / collapse ::@:: Low-risk spread trades, diversified across many pairs, but highly correlated when market stress amplified correlations. <p> Exogenous shocks (Asian crisis, Russian default, etc.) widening spreads and eroding liquidity; simultaneous unwinding by other funds caused a cascade of losses. <!--SR:!2026-05-06,148,414!2026-04-23,137,414-->
-    - Long-Term Capital Management / collapse / market stress ::@:: Even small mis-estimated correlations can explode under stressed conditions; statistical models are fragile when data is scarce or non-stationary. <!--SR:!2026-04-29,142,414!2026-03-19,102,394-->
-    - Long-Term Capital Management / collapse / counterparty risk ::@:: Counterparty risk was amplified because trades were split across many counterparties, hiding the true concentration and leverage. <!--SR:!2026-05-05,147,414!2026-05-05,147,414-->
-  - Long-Term Capital Management / bailout ::@:: The Federal Reserve's bailout (≈\$3.6 bn) prevented a broader contagion, illustrating how interconnected derivatives can threaten systemic stability. <!--SR:!2026-05-04,146,414!2026-05-03,145,414-->
+- FINA 3203
+  - FINA 3203 / [forward and futures](forward%20and%20futures.md)
+    - [§ Long-Term Capital Management example](forward%20and%20futures.md#Long-Term%20Capital%20Management%20example)  
+    - [§ strategy of LTCM](forward%20and%20futures.md#strategy%20of%20LTCM)  
+    - [§ risk factors of LTCM](forward%20and%20futures.md#risk%20factors%20of%20LTCM)  
+    - [§ collapse and aftermath of LTCM](forward%20and%20futures.md#collapse%20and%20aftermath%20of%20LTCM)
 - assignment: [homework 1](assignments/homework%201/index.md)
 
 ## week 5 lecture 2
@@ -345,16 +345,69 @@ The content is in teaching order.
 
 - datetime: 2025-10-06T10:30:00+08:00/2025-10-06T11:50:00+08:00, PT1H20M
 - topic:
+- FINA 3203
+  - FINA 3203 / [swap](swap.md)
+    - [§ market sizes](swap.md#market%20sizes)  
+    - [§ settlement](swap.md#settlement)  
+    - [§ valuation](swap.md#valuation)  
+    - [§ valuation after inception](swap.md#valuation%20after%20inception)  
+    - [§ interest-rate swaps](swap.md#interest-rate%20swaps)  
+    - [§ interest-rate swaps examples](swap.md#interest-rate%20swaps%20examples)  
+    - [§ valuation of interest-rate swaps](swap.md#valuation%20of%20interest-rate%20swaps)  
+    - [§ total-return swaps](swap.md#total-return%20swaps)  
+    - [§ largest losses](swap.md#largest%20losses)  
+    - [§ Archegos example](swap.md#Archegos%20example)  
+    - [§ responses to the Archegos episode](swap.md#responses%20to%20the%20Archegos%20episode)  
+    - [§ volatility and variance swaps](swap.md#volatility%20and%20variance%20swaps)
 
 ## week 6 lecture 2
 
 - datetime: 2025-10-08T10:30:00+08:00/2025-10-08T11:50:00+08:00, PT1H20M
 - topic:
+- FINA 3203
+  - FINA 3203 / [option](option.md)
+    - [§ option rights](option.md#option%20rights)  
+    - [§ option styles](option.md#option%20styles)  
+    - [§ contract specification](option.md#contract%20specification)  
+    - [§ payoff and profit](option.md#payoff%20and%20profit)  
+    - [§ moneyness](option.md#moneyness)
+    - [§ option types](option.md#option%20types)
+    - [§ trading](option.md#trading)
+    - [§ put–call parity](option.md#put–call%20parity)  
+    - [§ put–call arbitrage](option.md#put–call%20arbitrage)  
+    - [§ trading strategies](option.md#trading%20strategies)  
+    - [§ protective put](option.md#protective%20put)  
+    - [§ valuation](option.md#valuation)  
+    - [§ no-arbitrage bounds](option.md#no-arbitrage%20bounds)  
+
 
 ## week 7 lecture
 
 - datetime: 2025-10-13T10:30:00+08:00/2025-10-13T11:50:00+08:00, PT1H20M
 - topic:
+- FINA 3203
+  - FINA 3203 / [option](option.md)
+    - [§ trading strategies](option.md#trading%20strategies)  
+    - [§ covered call](option.md#covered%20call)  
+    - [§ synthetic forward](option.md#synthetic%20forward)  
+    - [§ bull spread](option.md#bull%20spread)  
+    - [§ bear spread](option.md#bear%20spread)  
+    - [§ straddle](option.md#straddle)  
+    - [§ strangle](option.md#strangle)  
+    - [§ butterfly spread](option.md#butterfly%20spread)  
+    - [§ Barings Bank example](option.md#Barings%20Bank%20example)
+    - [§ ancient option example](option.md#ancient%20option%20example)
+    - [§ no-arbitrage bounds](option.md#no-arbitrage%20bounds)  
+    - [§ bull spread inequality](option.md#buLL%20spread%20inequality)
+    - [§ calendar spread inequality](option.md#calendar%20spread%20inequality)
+    - [§ ](option.md#)
+    - [§ binomial options pricing model](option.md#binomial%20options%20pricing%20model)  
+    - [§ recursive binomial options pricing model](option.md#recursive%20binomial%20options%20pricing%20model)  
+    - [§ Black–Scholes model](option.md#Black–Scholes%20model)  
+    - [§ implied volatility](option.md#implied%20volatility)  
+    - [§ interpretation of the Black–Scholes model](option.md#interpretation%20of%20the%20Black–Scholes%20model)  
+    - [§ Long-Term Capital Management example](option.md#Long-Term%20Capital%20Management%20example)
+
 
 ## week 7 lecture 2
 

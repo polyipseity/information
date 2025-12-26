@@ -45,23 +45,25 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 | __[Transfer function](transfer%20function.md)__ | The relationship of the currents and/or voltages between two ports. Most often, an input port and an output port are discussed and the transfer function is described as gain or attenuation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | __Component transfer function__                 | For a two-terminal component \(i.e. one-port component\), the current and voltage are taken as the input and output and the transfer function will have units of impedance or admittance \(it is usually a matter of arbitrary convenience whether voltage or current is considered the input\). A three \(or more\) terminal component effectively has two \(or more\) ports and the transfer function cannot be expressed as a single impedance. The usual approach is to express the transfer function as a matrix of parameters. These parameters can be impedances, but there is a large number of other approaches \(see [two-port network](two-port%20network.md)\). |
 
-> __flashcards__
->
-> - {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](terminal%20(electronics).md) into which, or out of which, current may flow.}@}
->
-> - {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined. A conductor with a substantially zero resistance is considered to be a node for the purpose of analysis.}@}
->
-> - {@{__Branch__}@}: {@{The component\(s\) joining two nodes.}@}
->
-> - {@{__[Mesh](mesh%20analysis.md)__}@}: {@{A group of branches within a network joined so as to form a complete loop such that there is no other loop inside it.}@}
->
-> - {@{__[Port](port%20(circuit%20theory).md)__}@}: {@{Two terminals where the current into one is identical to the current out of the other.}@}
->
-> - {@{__[Circuit](electrical%20circuit.md)__}@}: {@{A current from one terminal of a [generator](generator%20(circuit%20theory).md)}@}, through {@{load component\(s\) and back into the other terminal}@}. A circuit is, in this sense, {@{a one-port network and is a trivial case to analyse}@}. If {@{there is any connection to any other circuits}@} then {@{a non-trivial network has been formed and at least two ports must exist}@}. Often, {@{"circuit" and "network" are used interchangeably}@}, but {@{many analysts reserve "network" to mean an idealised model consisting of ideal components}@}.<sup>[\[1\]](#^ref-1)</sup>
->
-> - {@{__[Transfer function](transfer%20function.md)__}@}: The relationship of {@{the currents and/or voltages between two ports}@}. Most often, {@{an input port and an output port are discussed}@} and the transfer function is {@{described as gain or attenuation}@}.
->
-> - {@{__Component transfer function__}@}: For {@{a two-terminal component \(i.e. one-port component\)}@}, {@{the current and voltage are taken as the input and output}@} and the transfer function will {@{have units of impedance or admittance \(it is usually a matter of arbitrary convenience whether voltage or current is considered the input\)}@}. {@{A three \(or more\) terminal component}@} effectively has {@{two \(or more\) ports}@} and {@{the transfer function cannot be expressed as a single impedance}@}. The usual approach is to {@{express the transfer function as a matrix of parameters}@}. These parameters can be {@{impedances}@}, but there is {@{a large number of other approaches \(see [two-port network](two-port%20network.md)\)}@}. <!--SR:!2026-01-31,246,330!2026-04-04,281,340!2026-03-08,275,330!2026-05-27,340,349!2026-01-04,225,340!2026-07-12,381,360!2026-05-25,338,349!2026-01-03,223,329!2026-04-29,320,349!2026-07-03,373,360!2026-06-15,357,360!2028-01-27,797,330!2026-05-21,334,349!2026-07-04,374,360!2026-07-23,389,360!2026-07-10,379,360!2026-06-28,368,360!2026-06-23,363,360!2026-07-20,386,360!2026-07-29,395,360!2026-03-04,272,330!2027-11-13,701,423!2025-12-22,137,403!2026-09-16,352,403!2027-06-13,541,403!2027-11-16,704,423!2027-11-15,703,423!2027-12-31,741,423!2027-06-07,536,403!2028-01-11,751,423!2027-10-12,675,423!2027-11-18,706,423-->
+### definitions (flashcards)
+
+\(annotation: applies to this section\)
+
+- {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](terminal%20(electronics).md) into which, or out of which, current may flow.}@} <!--SR:!2026-01-31,246,330!2026-04-04,281,340-->
+
+- {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined. A conductor with a substantially zero resistance is considered to be a node for the purpose of analysis.}@} <!--SR:!2026-03-08,275,330!2026-05-27,340,349-->
+
+- {@{__Branch__}@}: {@{The component\(s\) joining two nodes.}@} <!--SR:!2026-01-04,225,340!2026-07-12,381,360-->
+
+- {@{__[Mesh](mesh%20analysis.md)__}@}: {@{A group of branches within a network joined so as to form a complete loop such that there is no other loop inside it.}@} <!--SR:!2026-05-25,338,349!2026-01-03,223,329-->
+
+- {@{__[Port](port%20(circuit%20theory).md)__}@}: {@{Two terminals where the current into one is identical to the current out of the other.}@} <!--SR:!2026-04-29,320,349!2026-07-03,373,360-->
+
+- {@{__[Circuit](electrical%20circuit.md)__}@}: {@{A current from one terminal of a [generator](generator%20(circuit%20theory).md)}@}, through {@{load component\(s\) and back into the other terminal}@}. A circuit is, in this sense, {@{a one-port network and is a trivial case to analyse}@}. If {@{there is any connection to any other circuits}@} then {@{a non-trivial network has been formed and at least two ports must exist}@}. Often, {@{"circuit" and "network" are used interchangeably}@}, but {@{many analysts reserve "network" to mean an idealised model consisting of ideal components}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-06-15,357,360!2028-01-27,797,330!2026-05-21,334,349!2026-07-04,374,360!2026-07-23,389,360!2026-07-10,379,360!2026-06-28,368,360!2026-06-23,363,360-->
+
+- {@{__[Transfer function](transfer%20function.md)__}@}: The relationship of {@{the currents and/or voltages between two ports}@}. Most often, {@{an input port and an output port are discussed}@} and {@{the transfer function}@} is {@{described as gain or attenuation}@}. <!--SR:!2026-07-20,386,360!2026-07-29,395,360!2026-03-04,272,330!2027-11-13,701,423!2025-12-22,137,403-->
+
+- {@{__Component transfer function__}@}: For {@{a two-terminal component \(i.e. one-port component\)}@}, {@{the current and voltage}@} are taken as {@{the input and output}@} and {@{the transfer function}@} will {@{have units of impedance or admittance \(it is usually a matter of arbitrary convenience whether voltage or current is considered the input\)}@}. {@{A three \(or more\) terminal component}@} effectively has {@{two \(or more\) ports}@} and {@{the transfer function cannot be expressed as a single impedance}@}. The usual approach is to {@{express the transfer function as a matrix of parameters}@}. These parameters can be {@{impedances}@}, but there is {@{a large number of other approaches \(see [two-port network](two-port%20network.md)\)}@}. <!--SR:!2026-09-16,352,403!2027-06-13,541,403!2027-11-16,704,423!2027-11-15,703,423!2027-12-31,741,423!2027-06-07,536,403!2028-01-11,751,423!2027-10-12,675,423!2027-11-18,706,423-->
 
 ## equivalent circuits
 
@@ -191,10 +193,13 @@ There is {@{an underlying assumption to this method}@} that {@{the total current
 
 {@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If {@{the network is particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits may yield the answer without recourse to the more systematic methods}@}. <!--SR:!2026-05-08,327,349!2026-07-18,386,360!2026-04-22,313,349!2026-02-06,251,330-->
 
-- {@{[Nodal analysis](nodal%20analysis.md)}@}: {@{The number of voltage variables, and hence simultaneous equations}@} to solve, equals {@{the number of nodes minus one}@}. {@{Every voltage source connected to the reference node}@} {@{reduces the number of unknowns and equations by one}@}.
-- {@{[Mesh analysis](mesh%20analysis.md)}@}: {@{The number of current variables, and hence simultaneous equations}@} to solve, equals {@{the number of meshes}@}. {@{Every current source in a mesh}@} {@{reduces the number of unknowns by one}@}. Mesh analysis can only be {@{used with networks which can be drawn as a [planar](planar%20graph.md) network}@}, that is, with {@{no crossing components}@}.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;94&hairsp;</sup>
-- {@{[Superposition](superposition%20theorem.md)}@} is possibly {@{the most conceptually simple method}@} but {@{rapidly leads to a large number of equations and messy impedance combinations as the network becomes larger}@}.
-- {@{[Effective medium approximations](effective%20medium%20approximations.md)}@}: For {@{a network consisting of a high density of random resistors}@}, {@{an exact solution for each individual element may be impractical or impossible}@}. Instead, {@{the effective resistance and current distribution properties}@} can be {@{modelled in terms of [graph](graph%20(discrete%20mathematics).md) measures and geometrical properties of networks}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-07-23,389,360!2028-01-11,782,340!2026-09-10,394,309!2026-06-01,345,349!2026-06-19,361,360!2026-02-09,254,330!2026-01-26,241,330!2026-04-17,309,349!2027-11-17,742,330!2026-05-05,325,349!2026-07-07,377,360!2028-01-10,750,423!2027-10-13,676,423!2027-10-14,677,423!2027-12-26,737,423!2028-01-01,742,423!2027-10-20,682,423!2027-12-20,732,423!2027-11-19,707,423!2027-11-04,695,423-->
+- {@{[Nodal analysis](nodal%20analysis.md)}@}: {@{The number of voltage variables, and hence simultaneous equations}@} to solve, equals {@{the number of nodes minus one}@}. {@{Every voltage source connected to the reference node}@} {@{reduces the number of unknowns and equations by one}@}. <!--SR:!2026-07-23,389,360!2028-01-11,782,340!2026-09-10,394,309!2026-06-01,345,349!2026-06-19,361,360-->
+
+- {@{[Mesh analysis](mesh%20analysis.md)}@}: {@{The number of current variables, and hence simultaneous equations}@} to solve, equals {@{the number of meshes}@}. {@{Every current source in a mesh}@} {@{reduces the number of unknowns by one}@}. Mesh analysis can only be {@{used with networks which can be drawn as a [planar](planar%20graph.md) network}@}, that is, with {@{no crossing components}@}.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;94&hairsp;</sup> <!--SR:!2026-02-09,254,330!2026-01-26,241,330!2026-04-17,309,349!2027-11-17,742,330!2026-05-05,325,349!2026-07-07,377,360!2028-01-10,750,423-->
+
+- {@{[Superposition](superposition%20theorem.md)}@} is possibly {@{the most conceptually simple method}@} but {@{rapidly leads to a large number of equations and messy impedance combinations as the network becomes larger}@}. <!--SR:!2027-10-13,676,423!2027-10-14,677,423!2027-12-26,737,423-->
+
+- {@{[Effective medium approximations](effective%20medium%20approximations.md)}@}: For {@{a network consisting of a high density of random resistors}@}, {@{an exact solution for each individual element may be impractical or impossible}@}. Instead, {@{the effective resistance and current distribution properties}@} can be {@{modelled in terms of [graph](graph%20(discrete%20mathematics).md) measures and geometrical properties of networks}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2028-01-01,742,423!2027-10-20,682,423!2027-12-20,732,423!2027-11-19,707,423!2027-11-04,695,423-->
 
 ## transfer function
 

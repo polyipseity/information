@@ -25,7 +25,7 @@ The first step in all the branches is {@{the fusion of two [protons](proton.md) 
 
 - 1st step / energy release ::@:: 0.42 MeV <!--SR:!2029-09-08,1357,310!2029-01-18,1202,310-->
 
-{@{The [positron](positron.md)}@} will {@{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md)}@}. Including {@{this annihilation and the energy of the neutrino}@}, the net reaction {@{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV }$$}@}, which is {@{the same as the [PEP reaction](#the%20PEP%20reaction)}@}. {@{The relative amounts of energy}@} going to {@{the neutrino and to the other products is variable}@}. <!--SR:!2029-11-06,1431,310!2026-06-21,314,230!2026-09-16,558,290!2025-12-26,17,316!2025-12-25,16,316!2025-12-25,16,316!2025-12-24,15,316-->
+{@{The [positron](positron.md)}@} will {@{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md)}@}. Including {@{this annihilation and the energy of the neutrino}@}, the net reaction {@{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV } \,,$$}@} which is {@{the same as the [PEP reaction](#the%20PEP%20reaction)}@}. {@{The relative amounts of energy}@} going to {@{the neutrino and to the other products is variable}@}. <!--SR:!2029-11-06,1431,310!2026-06-21,314,230!2026-09-16,558,290!2025-12-26,17,316!2025-12-25,16,316!2025-12-25,16,316!2025-12-24,15,316-->
 
 - 1st step + annihilation / energy release ::@:: 1.442 MeV <!--SR:!2028-06-03,996,295!2026-10-07,548,315-->
 

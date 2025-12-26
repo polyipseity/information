@@ -1,0 +1,124 @@
+assignment:
+  comments: {}
+  content: 'Submit a PDF document with the following information:
+
+
+    at least 3 team meeting minutes
+
+
+
+    a Gantt chart,
+
+
+
+    a Sprint 2 backlog with a Burn-down chart
+
+
+
+    Representative Git commit log on GitHub (screenshots are fine)
+
+
+
+
+
+
+    NOTE: One submission per team (Only the Team leader should submit the PDF file).
+
+    The team should have all relevant information integrated into a single PDF document.
+
+    Templates are provided for reference. You are required to adopt this particular
+    format of presentation
+
+    burndown-chart-template.xlsx
+
+
+
+
+
+    Download burndown-chart-template.xlsx
+
+    minutes-example1.pdf
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+
+    minutes-example2.pdf
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+
+    minutes-example3.pdf
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+
+    minutes-example4.pdf
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+
+
+    Gantt_Chart_Sample.pdf
+
+
+
+    Actions'
+  grade:
+    entered: 10
+    graded anonymously: false
+    possible: 10
+  id: 396383
+  properties:
+    available:
+      end: 2025-11-23 23:59:00+08:00
+      start: null
+    due: 2025-11-23 23:59:00+08:00
+    file types:
+    - pdf
+    points: 10
+    submitting:
+    - a file upload
+  submissions:
+  - datetime: 2025-11-23 23:52:00+08:00
+    id: -1
+  title: Activity 2 - Documentation
+course:
+  id: 64514
+  name: COMP3111/H
+type: submission/Canvas/canvas.ust.hk

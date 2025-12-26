@@ -54,7 +54,7 @@ The content is in teaching order.
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2030-05-10,1601,312!2030-05-01,1767,370-->
+  - structural engineering goals ::@:: - _safety_: no collapse without warning <br/> - _serviceability_: deformation does not disrupt use <!--SR:!2030-05-10,1601,312!2030-05-01,1767,370-->
   - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2031-07-12,2087,377!2027-03-04,757,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)

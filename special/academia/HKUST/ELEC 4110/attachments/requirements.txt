@@ -1,0 +1,2 @@
+matplotlib>=3.10.0
+pandas>=2.3.0
