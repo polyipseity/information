@@ -1,5 +1,8 @@
 ---
 aliases:
+  - properties of metals, metalloids and nonmetals
+  - properties of metals, metalloids, and nonmetals
+  - property of metals, metalloids and nonmetals
   - property of metals, metalloids, and nonmetals
 tags:
   - flashcard/active/general/eng/properties_of_metals__metalloids__and_nonmetals
@@ -8,59 +11,51 @@ tags:
 
 # properties of metals, metalloids, and nonmetals
 
-```Python
-# pytextgen generate module
-# import ../../../tools/utility.py.md
-```
-
 ## comparison
-
-```Python
-# pytextgen generate data
-return await memorize_table(
-  __env__.cwf_sects('b9ae', '293d'),
-  ('property', 'metal', 'metalloid', 'nonmetal',),
-  (
-    ('appearance', html_ul('mostly shiny and grey-white',), html_ul('shiny and grey-white',), html_ul('mostly dull',),),
-    ('deformability (as a solid)', html_ul('mostly [ductile](ductility.md) and [malleable](malleability.md)', 'some brittle',), html_ul('brittle',), html_ul('brittle', 'some non-brittle'),),
-    ('[density](density.md)', html_ul('mostly high', 'exceptional example(s): [alkali metals](alkali%20metal.md)',), html_ul('between metals and nonmetals',), html_ul('mostly low'),),
-    ('[electrical conductivity](electrical%20conductivity.md)', html_ul('good to high',), html_ul('intermediate to good',), html_ul('poor to good',),),
-    ('form', html_ul('almost all [solid](solid.md)', '[liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md))',), html_ul('all [solid](solid.md)',), html_ul('mostly [gas](gas.md)', '[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)', '[liquid](liquid.md): [Br](bromine.md)',),),
-    ('[melting point](melting%20point.md)', html_ul('mostly high', 'exceptional example(s): [Na](sodium.md)',), html_ul('mostly high',), html_ul('mostly low',),),
-    ('[thermal conductivity](thermal%20conductivity.md)', html_ul('medium to high',), html_ul('mostly intermediate', 'high: [Si](silicon.md)',), html_ul('almost negligible to very high',),),
-  ),
-  lambda datum: map(cloze, datum),
-)
-```
 
 Compare with [nonmetal § properties](nonmetal.md#properties).
 
-<!--pytextgen generate section="b9ae"--><!-- The following content is generated at 2023-03-20T16:20:31.202605+08:00. Any edits will be overridden! -->
+| property                                                | metal                                                                                                                                                                                                                                                                                                                                                                              | metalloid                                                            | nonmetal                                                                                                                                                                              |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| appearance                                              | <ul><li>mostly shiny and grey-white</li></ul>                                                                                                                                                                                                                                                                                                                                      | <ul><li>shiny and grey-white</li></ul>                               | <ul><li>mostly dull</li></ul>                                                                                                                                                         |
+| deformability (as a solid)                              | <ul><li>mostly [ductile](ductility.md) and [malleable](malleability.md)</li><li>some brittle</li></ul>                                                                                                                                                                                                                                                                             | <ul><li>brittle</li></ul>                                            | <ul><li>brittle</li><li>some non-brittle</li></ul>                                                                                                                                    |
+| [density](density.md)                                   | <ul><li>mostly high</li><li>exceptional example(s): [alkali metals](alkali%20metal.md)</li></ul>                                                                                                                                                                                                                                                                                   | <ul><li>between metals and nonmetals</li></ul>                       | <ul><li>mostly low</li></ul>                                                                                                                                                          |
+| [electrical conductivity](electrical%20conductivity.md) | <ul><li>good to high</li></ul>                                                                                                                                                                                                                                                                                                                                                     | <ul><li>intermediate to good</li></ul>                               | <ul><li>poor to good</li></ul>                                                                                                                                                        |
+| form                                                    | <ul><li>almost all [solid](solid.md)</li><li>[liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md))</li></ul> | <ul><li>all [solid](solid.md)</li></ul>                              | <ul><li>mostly [gas](gas.md)</li><li>[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)</li><li>[liquid](liquid.md): [Br](bromine.md)</li></ul> |
+| [melting point](melting%20point.md)                     | <ul><li>mostly high</li><li>exceptional example(s): [Na](sodium.md)</li></ul>                                                                                                                                                                                                                                                                                                      | <ul><li>mostly high</li></ul>                                        | <ul><li>mostly low</li></ul>                                                                                                                                                          |
+| [thermal conductivity](thermal%20conductivity.md)       | <ul><li>medium to high</li></ul>                                                                                                                                                                                                                                                                                                                                                   | <ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul> | <ul><li>almost negligible to very high</li></ul>                                                                                                                                      |
 
-> | property | metal | metalloid | nonmetal |
-> |-|-|-|-|
-> | {@{appearance}@} | {@{<ul><li>mostly shiny and grey-white</li></ul>}@} | {@{<ul><li>shiny and grey-white</li></ul>}@} | {@{<ul><li>mostly dull</li></ul>}@} |
-> | {@{deformability (as a solid)}@} | {@{<ul><li>mostly [ductile](ductility.md) and [malleable](malleability.md)</li><li>some brittle</li></ul>}@} | {@{<ul><li>brittle</li></ul>}@} | {@{<ul><li>brittle</li><li>some non-brittle</li></ul>}@} |
-> | {@{[density](density.md)}@} | {@{<ul><li>mostly high</li><li>exceptional example(s): [alkali metals](alkali%20metal.md)</li></ul>}@} | {@{<ul><li>between metals and nonmetals</li></ul>}@} | {@{<ul><li>mostly low</li></ul>}@} |
-> | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{<ul><li>good to high</li></ul>}@} | {@{<ul><li>intermediate to good</li></ul>}@} | {@{<ul><li>poor to good</li></ul>}@} |
-> | {@{form}@} | {@{<ul><li>almost all [solid](solid.md)</li><li>[liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md))</li></ul>}@} | {@{<ul><li>all [solid](solid.md)</li></ul>}@} | {@{<ul><li>mostly [gas](gas.md)</li><li>[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)</li><li>[liquid](liquid.md): [Br](bromine.md)</li></ul>}@} |
-> | {@{[melting point](melting%20point.md)}@} | {@{<ul><li>mostly high</li><li>exceptional example(s): [Na](sodium.md)</li></ul>}@} | {@{<ul><li>mostly high</li></ul>}@} | {@{<ul><li>mostly low</li></ul>}@} |
-> | {@{[thermal conductivity](thermal%20conductivity.md)}@} | {@{<ul><li>medium to high</li></ul>}@} | {@{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}@} | {@{<ul><li>almost negligible to very high</li></ul>}@} | <!--SR:!2027-01-02,982,330!2032-05-20,2403,290!2027-08-18,965,250!2026-11-03,883,290!2032-02-22,2288,290!2026-02-21,689,290!2027-12-18,1034,250!2026-05-28,704,250!2030-07-12,2021,330!2028-01-28,1122,270!2028-08-12,986,230!2030-09-24,1942,290!2031-04-20,2014,310!2029-01-25,1140,250!2027-04-09,520,170!2026-10-29,317,170!2027-04-06,1050,330!2026-02-13,68,130!2032-09-22,2475,330!2027-02-20,802,230!2031-04-09,2228,330!2027-06-16,924,250!2027-10-31,718,190!2028-11-29,1465,290!2028-05-18,1457,350!2027-12-26,1009,230!2026-07-14,380,170!2026-02-02,622,250-->
-
-<!--/pytextgen-->
-
-<!--pytextgen generate section="293d"--><!-- The following content is generated at 2024-01-04T20:17:52.491478+08:00. Any edits will be overridden! -->
-
-- _(begin)_→::@::←appearance <!--SR:!2026-12-13,965,330!2028-04-15,1430,350-->
-- appearance→::@::←deformability (as a solid) <!--SR:!2026-01-08,497,250!2026-06-09,481,270-->
-- deformability (as a solid)→::@::←[density](density.md) <!--SR:!2026-03-01,768,290!2028-10-23,1199,290-->
-- [density](density.md)→::@::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2029-03-24,1621,310!2026-05-08,318,170-->
-- [electrical conductivity](electrical%20conductivity.md)→::@::←form <!--SR:!2026-06-26,752,270!2026-04-20,538,230-->
-- form→::@::←[melting point](melting%20point.md) <!--SR:!2027-10-29,681,190!2027-04-21,676,210-->
-- [melting point](melting%20point.md)→::@::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2031-02-23,2036,290!2026-11-18,506,190-->
-- [thermal conductivity](thermal%20conductivity.md)→::@::←_(end)_ <!--SR:!2027-03-13,1032,330!2026-11-06,738,290-->
-
-<!--/pytextgen-->
+> __flashcards__
+>
+> - properties ::@:: appearance, deformability (as a solid), density, electrical conductivity, form, melting point, thermal conductivity, etc.
+> - appearance
+>   - appearance / metal :@: <ul><li>mostly shiny and grey-white</li></ul>
+>   - appearance / metalloid :@: <ul><li>shiny and grey-white</li></ul>
+>   - appearance / nonmetal :@: <ul><li>mostly dull</li></ul>
+> - deformability (as a solid)
+>   - deformability (as a solid) / metal :@: <ul><li>mostly [ductile](ductility.md) and [malleable](malleability.md)</li><li>some brittle</li></ul>
+>   - deformability (as a solid) / metalloid :@: <ul><li>brittle</li></ul>
+>   - deformability (as a solid) / nonmetal :@: <ul><li>brittle</li><li>some non-brittle</li></ul>
+> - [density](density.md)
+>   - [density](density.md) / metal :@: <ul><li>mostly high</li><li>exceptional example(s): [alkali metals](alkali%20metal.md)</li></ul>
+>   - [density](density.md) / metalloid :@: <ul><li>between metals and nonmetals</li></ul>
+>   - [density](density.md) / nonmetal :@: <ul><li>mostly low</li></ul>
+> - [electrical conductivity](electrical%20conductivity.md)
+>   - [electrical conductivity](electrical%20conductivity.md) / metal :@: <ul><li>good to high</li></ul>
+>   - [electrical conductivity](electrical%20conductivity.md) / metalloid :@: <ul><li>intermediate to good</li></ul>
+>   - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: <ul><li>poor to good</li></ul>
+> - form
+>   - form / metal :@: <ul><li>almost all [solid](solid.md)</li><li>[liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md))</li></ul>
+>   - form / metalloid :@: <ul><li>all [solid](solid.md)</li></ul>
+>   - form / nonmetal :@: <ul><li>mostly [gas](gas.md)</li><li>[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)</li><li>[liquid](liquid.md): [Br](bromine.md)</li></ul>
+> - [melting point](melting%20point.md)
+>   - [melting point](melting%20point.md) / metal :@: <ul><li>mostly high</li><li>exceptional example(s): [Na](sodium.md)</li></ul>
+>   - [melting point](melting%20point.md) / metalloid :@: <ul><li>mostly high</li></ul>
+>   - [melting point](melting%20point.md) / nonmetal :@: <ul><li>mostly low</li></ul>
+> - [thermal conductivity](thermal%20conductivity.md)
+>   - [thermal conductivity](thermal%20conductivity.md) / metal :@: <ul><li>medium to high</li></ul>
+>   - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: <ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>
+>   - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: <ul><li>almost negligible to very high</li></ul>
 
 ## references
 

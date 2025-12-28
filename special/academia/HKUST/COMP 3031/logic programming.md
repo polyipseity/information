@@ -252,6 +252,8 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 
 ## asymmetric unification
 
+In this section, {@{a "pattern"}@} refers to {@{a term that may contain variables}@}, whereas {@{a "term"}@} refers to {@{a term that must not contain variables}@}. Normally (and outside this section), both are {@{simply called "terms"}@}.
+
 {@{The core of pattern-matching logic programming}@} is expressed by {@{two mutually recursive functions}@}: {@{`pmatch` and its helper `pmatchLists`}@}. `pmatch` takes {@{a _pattern_ (a term that may contain variables)}@}, {@{another _term_ that must not contain variables (hence "_asymmetric_")}@}, and {@{an existing substitution `s`}@}. It returns {@{`Some(s')` if the pattern matches the term under the current substitution `s`}@} or {@{`None` otherwise}@}, where `s'` is {@{the _most general_ substitution that is an extension of `s`}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
 > [!example] __`pmatch`__
@@ -295,11 +297,11 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 
 {@{The implementation}@} uses {@{pattern matching on the pair of lists}@}; when {@{one list ends before the other a `None` is returned}@}. {@{Successful matches are accumulated}@} by chaining {@{the substitutions with `flatMap` from left to right}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
-{@{These two functions, `pmatch` and `pmatchLists`}@}, realise {@{unification between first-order patterns and terms}@}, which underpins {@{the whole logic programming interpreter in Scala}@}. Below shows how this may be {@{extended to unification between first-order patterns}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
+{@{These two functions, `pmatch` and `pmatchLists`}@}, realise {@{(first-order) _unification_ between patterns and terms}@}, which underpins {@{the whole logic programming interpreter in Scala}@}. Below shows how this may be {@{extended to unification between first-order patterns}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
 ## unification
 
-{@{_Unification_}@} is {@{the symmetric extension of pattern matching}@} that allows {@{variables to appear on both sides of a rule head}@}. It searches for {@{the _most general_ substitution σ such that applying σ to each term yields identical terms}@}: given {@{the current substitution `s`}@}, find {@{the _most general_ substitution `s'` that is an extension of `s` such that `x.map(s')` matches `y.map(s')`}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
+{@{(First-order) _unification_}@} is {@{the symmetric extension of pattern matching}@} that allows {@{variables to appear on both sides of a rule head}@}. It searches for {@{the _most general_ substitution σ such that applying σ to each term yields identical terms}@}: given {@{the current substitution `s`}@}, find {@{the _most general_ substitution `s'` that is an extension of `s` such that `x.map(s')` matches `y.map(s')`}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
 {@{Unification becomes essential}@} when a rule head contains {@{variables that must be matched against the arguments of a query or another rule}@}. For instance, {@{the clause `sibling(X, Y) :- child(X, Z), child(Y, Z), not(same(X, Y))`}@} cannot be applied to {@{the query `sibling(peter, U)?`}@} unless the variables `X` and `Y` are {@{first respectively unified with `peter` and an unknown `U`}@}. {@{The unification algorithm}@} produces {@{substitutions `[X=peter, Y=U]`}@}, which then allows {@{the body goals to be evaluated}@}. Without {@{this symmetric matching step}@}, Prolog would not be able to {@{connect a generic rule head to a concrete query}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
@@ -365,7 +367,7 @@ When {@{the occurrence check is omitted}@}, the algorithm visits {@{each node of
 
 If {@{the occurrence check is performed naively}@}, each subtree may be {@{traversed many times}@}, yielding {@{a worst-case exponential complexity}@}. By {@{marking already visited sub-terms}@} the test becomes {@{linear in the number of nodes}@}, so the overall unification algorithm becomes {@{quadratic}@}; with {@{more sophisticated data structures}@} the overall unification algorithm can reach {@{$O(n\log n)$}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
-Unfortunately, {@{most practical Prolog systems}@} skip {@{the occurrence checkx to avoid this overhead}@}. This is fine if {@{infinite terms are allowed}@}, such as {@{_Prolog 3_, also developed by Colmerauer}@}. However, most other Prolog interpreters disallow {@{infinite terms}@}; and when a variable that {@{appears inside its own binding is introduced}@}, they may behave {@{unpredictably or loop infinitely}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
+Unfortunately, {@{most practical Prolog systems}@} skip {@{the occurrence check to avoid this overhead}@}. This is fine if {@{infinite terms are allowed}@}, such as {@{_Prolog 3_, also developed by Colmerauer}@}. However, most other Prolog interpreters disallow {@{infinite terms}@}; and when a variable that {@{appears inside its own binding is introduced}@}, they may behave {@{unpredictably or loop infinitely}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
 ## backtracking
 
@@ -469,7 +471,7 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 >   }
 > ```
 >
-> {@{The `unify` function}@} produces {@{an optional substitution}@}; {@{the pattern matching}@} above converts that into {@{a lazy list of solutions}@}. If {@{the clause cannot be applied}@}, `{@{`LazyList.empty`}@}` represents {@{a dead-end in the search tree}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
+> {@{The `unify` function}@} produces {@{an optional substitution}@}; {@{the pattern matching}@} above converts that into {@{a lazy list of solutions}@}. If {@{the clause cannot be applied}@}, {@{`LazyList.empty`}@} represents {@{a dead-end in the search tree}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
 {@{Negation as failure (`not(P)`)}@} is handled by {@{trying to solve the sub-goal and checking if it succeeds}@}. If {@{it fails, `not` succeeds}@}; otherwise {@{`not` fails}@}: <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
@@ -511,7 +513,7 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 
 ### completeness
 
-{@{Even a sound interpreter}@} can miss {@{solutions because it typically uses depth-first search}@}. With {@{a graph containing a cycle}@}, {@{the recursion never terminates}@}: <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
+{@{Even a sound interpreter}@} can miss {@{solutions (i.e. _incomplete_) because it typically uses depth-first search}@}. With {@{a graph containing a cycle}@}, {@{the recursion never terminates}@}: <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
 > [!example] __`path/2` with a cycle__
 >
@@ -540,16 +542,18 @@ In practice, Prolog programmers must order {@{clauses carefully}@} and avoid {@{
 > {@{The `not` predicate}@}, defined as {@{failure as negation}@}, requires {@{the _closed-world assumption_}@}: {@{a goal succeeds if and only if its body can be proven}@}; conversely, {@{unproven goals are false}@}. With {@{only concrete terms this is harmless}@}, but it can lead to {@{unexpected behaviour when variables remain free}@}. For instance, in the program
 >
 > ```Prolog
-> vegetable(bean).          % facts
+> % facts
+> vegetable(bean).
 > vegetable(tomato).
 > food(hamburger).
+> % rules
 > junkFood(X) :- not(vegetable(X)).
 > healthy(X) :- not(junkFood(X)).
 > ```
 >
-> {@{`junkFood(hamburger)?`}@} succeeds as expected, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X,hamburger), junkFood(X)?` succeeds as expected}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
+> {@{`junkFood(hamburger)?`}@} succeeds correctly, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X, hamburger), junkFood(X)?` succeeds correctly}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
-{@{`junkFood(hamburger)?`}@} succeeds as expected, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X,hamburger), junkFood(X)?` succeeds as expected}@}. In {@{the two problematic cases}@}, the interpreter cannot {@{discover that _hamburger_ is a possible junk food when the variable remains free}@}. In {@{the last case}@}, by {@{first unifying with the substitution `[X = hamburger]`}@}, the interpreter {@{_can_ find that _hamburger_ is a possible junk food}@}. These cases show that {@{negation causes _incompleteness_}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
+{@{`junkFood(hamburger)?`}@} succeeds correctly, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X, hamburger), junkFood(X)?` succeeds correctly}@}. In {@{the two problematic cases}@}, the interpreter cannot {@{discover that _hamburger_ is a possible junk food when the variable remains free}@}. In {@{the last case}@}, by {@{first unifying with the substitution `[X = hamburger]`}@}, the interpreter {@{_can_ find that _hamburger_ is a possible junk food}@}. These cases show that {@{negation causes _incompleteness_}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 
 {@{Adding another negation}@} (`healthy/1` {@{negates `junkFood/1`}@}) turns the situation around {@{from incompleteness to _unsoundness_}@}: <!--SR:!2025-12-25,4,270!2025-12-25,4,282!2025-12-25,4,282-->
 

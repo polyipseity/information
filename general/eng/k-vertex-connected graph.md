@@ -25,7 +25,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(disc
 
 An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices}@}, it is possible to find {@{_k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices}@}; see {@{[Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-28,805,330!2027-04-10,522,270!2028-01-02,833,330!2026-02-18,90,377!2026-02-19,91,377-->
 
-{@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-12-26,274,330!2029-03-17,1193,350!2028-05-25,890,330-->
+A {@{1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; a {@{2-connected graph is called [biconnected](biconnected%20graph.md)}@}. A {@{3-connected graph is called triconnected}@}. <!--SR:!2025-12-26,274,330!2029-03-17,1193,350!2028-05-25,890,330-->
 
 ## applications
 

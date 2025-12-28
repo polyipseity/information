@@ -39,7 +39,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 
 > __Fourier's law, integral form__
 >
-> {@{$$\frac{\partial Q}{\partial t} = -k \oiint_\mathbf{S}\! \cdot \nabla T \cdot \mathrm{d}\mathbf{S}$$}@}
+> {@{$$\frac{\partial Q}{\partial t} = -k \oiint_\mathbf{S}\! \nabla T \cdot \mathrm{d}\mathbf{S}$$}@}
 >
 > where
 >

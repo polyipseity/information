@@ -24,7 +24,7 @@ tags:
 
 {@{_Lisp_}@} is {@{the oldest functional language}@}, created by {@{John McCarthy in 1959–60as a _List processor_}@}. It was designed to manipulate {@{symbolic data structures—trees and lists}@}—while other early languages {@{handled only arrays or records}@}. {@{Lisp’s simplicity}@} enabled {@{many landmark applications}@} such as {@{Macsyma, Emacs, AutoCAD and the ITA flight‑information system}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
-Over {@{five decades}@} the language has {@{branched into several dialects}@}: {@{Common Lisp (full–blown), Scheme (minimalist teaching language)}@}, {@{Racket, Clojure on the JVM, and Elisp for Emacs}@}. The version used here is {@{a small, purely functional subset of Scheme}@}. Compared with Scala, Lisp has {@{no complex syntax, no static types}@}, builds {@{everything from cons cells, and treats programs as lists that can be manipulated by code}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,270!2025-12-25,4,280!2025-12-25,4,280-->
+Over {@{five decades}@} the language has {@{branched into several dialects}@}: {@{Common Lisp (full–blown), Scheme (minimalist teaching language)}@}, {@{Racket, Clojure on the JVM, and Elisp for Emacs}@}. The version used here is {@{a small subset of Scheme}@}. Compared with Scala, Lisp has {@{no complex syntax, no static types}@}, builds {@{everything from cons cells, and treats programs as lists that can be manipulated by code}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,270!2025-12-25,4,280!2025-12-25,4,280-->
 
 {@{A lightweight interpreter for a subset of Scheme}@} is written in Scala by defining {@{an abstract syntax tree, an evaluator that matches on the AST, and a global environment mapping symbols to values}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280-->
 
@@ -52,9 +52,9 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 
 ### Lisp data
 
-{@{The primitive data types in Lisp}@} are {@{numbers, strings, symbols and lists}@}. {@{Numbers}@} can be {@{integers or floating–point values}@}; many dialects allow {@{arbitrarily large integers}@}. {@{Strings}@} behave {@{like Java strings}@}, while {@{symbols}@} are {@{unquoted identifiers that are looked up in an environment when a program is evaluated}@}. In {@{conditional expressions}@} every value counts as {@{_truthy_ except a set of specific values}@}, which represents {@{false}@}. The specific values may be {@{the empty list `nil`, the number `0`, the special falsy value `#f`, etc.}@} <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+{@{The primitive data types in Lisp}@} are {@{numbers, strings, symbols and lists}@}. {@{Numbers}@} can be {@{integers or floating–point values}@}; many dialects allow {@{arbitrarily large integers}@}. {@{Strings}@} behave {@{like Java strings}@}, while {@{symbols}@} are {@{unquoted identifiers that are looked up in an environment when a program is evaluated}@}. In {@{conditional expressions}@} every value counts as {@{_truthy_ except certain specific values}@}, which represents {@{false}@}. The specific values may be {@{the empty list `nil`, the number `0`, the special falsy value `#f`, etc.}@} <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
-{@{Lists themselves}@} are constructed with {@{the function `cons`}@} and terminated by {@{the special value `nil`}@}. A list such as {@{`(quote (1 2 3))` or `' (1 2 3)`}@} is actually {@{a nested chain of pairs: `(cons 1 (cons 2 (cons 3 nil)))`}@}. Because Lisp has {@{no static type system}@}, lists can be {@{represented solely with functions}@}. {@{A cons cell}@} may be defined as {@{a function that receives a continuation `k`}@}; {@{the operations `cons`, `car` and `cdr`}@} are then just {@{applications of that function to suitable continuations}@}: <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+{@{Lists themselves}@} are constructed with {@{the function `cons`}@} and terminated by {@{the special value `nil`}@}. A list such as {@{`(quote (1 2 3))` or `'(1 2 3)`}@} is actually {@{a nested chain of pairs: `(cons 1 (cons 2 (cons 3 nil)))`}@}. Because Lisp has {@{no static type system}@}, lists can be {@{represented solely with functions}@}. {@{A cons cell}@} may be defined as {@{a function that receives a continuation `k`}@}; {@{the operations `cons`, `car` and `cdr`}@} are then just {@{applications of that function to suitable continuations}@}:A <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
 > [!example] __functional cons implementation__
 >
@@ -78,9 +78,9 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 >
 > ```Lisp
 > (define xs '(1 2 3))
-> (car xs)   ;; → 1
-> (cdr xs)   ;; → (2 3)
-> (null? xs) ;; → #f
+> (car xs)              ;; → 1
+> (cdr xs)              ;; → (2 3)
+> (null? xs)            ;; → #f
 > ```
 <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,270!2025-12-25,4,280!2025-12-25,4,280-->
 
@@ -268,11 +268,11 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 
 ### environment
 
-{@{When the input}@} is {@{a symbol such as `x`}@}, {@{its meaning}@} depends on {@{the current environment}@}: if {@{`x` has been bound to some value}@}, {@{that value is returned}@}; otherwise {@{an error is raised}@}. Thus the interpreter must maintain {@{an _environment_ mapping names to values}@}. {@{An environment}@} stores {@{bindings of symbols to `Data`}@}. Its two essential operations are {@{`lookup` and `extend`}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+{@{When the input}@} is {@{a symbol such as `x`}@}, {@{its meaning}@} depends on {@{the current environment}@}: if {@{`x` has been bound to some value}@}, {@{that value is returned}@}; otherwise {@{an error is raised}@}. Thus the interpreter must maintain {@{an _environment_ mapping names to values}@}. {@{An environment}@} stores {@{bindings of symbols to `Data`}@}. Its two essential operations are {@{`lookup` and `extend` (later extended to `extendRec`)}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
 > [!example] __environment__
 >
-> {@{An environment}@} stores {@{bindings of symbols to `Data`}@}. Its two essential operations are {@{`lookup` and `extend`}@}.
+> {@{An environment}@} stores {@{bindings of symbols to `Data`}@}. Its two essential operations are {@{`lookup` and `extend` (later extended to `extendRec`)}@}.
 >
 > ```Scala
 > def lookup(n: String): Data
@@ -280,7 +280,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 > ```
 <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
-{@{A simple implementation}@} uses {@{a linked list of bindings, similar to a `List`}@}. {@{The class `Environment`}@} is defined as an abstract base that returns {@{a value for a name or throws if the name is unknown}@}. {@{Each call to `extend`}@} creates {@{a new environment whose latest binding shadows any previous one}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+{@{A simple implementation}@} uses {@{a linked list of bindings, similar to a `List`}@}. {@{The class `Environment`}@} is defined as an abstract base that returns {@{a value for a name or throws if the name is unknown}@}. {@{Each call to `extend` (later extended to `extendRec`)}@} creates {@{a new environment whose latest binding shadows any previous one}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
 > [!example] __environment implementation__
 >
@@ -300,9 +300,9 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 > val EmptyEnvironment = new Environment {}
 > ```
 >
-> {@{This version}@} has {@{linear-time lookups}@} because {@{each `lookup` walks the chain of bindings}@}. Note that {@{the environment with only `lookup` and `extend` as implemented above}@} does not {@{support using `def` to define recursive functions}@}. {@{The `extendRec` function}@} intends to {@{fix this}@}; see below. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+> {@{This version}@} has {@{linear-time lookups}@} because {@{each `lookup` walks the chain of bindings}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300-->
 
-Note that {@{the environment with only `lookup` and `extend` as implemented above}@} does not {@{support using `def` to define recursive functions}@}. {@{The `extendRec` function}@} intends to {@{fix this}@}; see below.
+Note that {@{the environment with only `lookup` and `extend` as implemented above}@} does not {@{support using `def` to define recursive functions}@}. {@{The `extendRec` function}@} intends to {@{fix this}@}; see below. <!--SR:!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
 {@{The same structure}@} can be replaced by {@{a map for _O(log n)_ performance}@}, but {@{the simple list form}@} is often used {@{in educational settings to keep the code readable}@}. {@{The inner class `Environment.this`}@} refers to {@{the outer environment that the new object closes over}@}; this allows {@{a fresh binding to shadow older ones without mutating the existing structure}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
@@ -344,11 +344,11 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 
 {@{Special forms}@}, which includes {@{`def`, `val`, `if`, `quote`, and `lambda`}@} are {@{handled explicitly}@}; all other lists are {@{treated as ordinary function applications}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,270!2025-12-25,4,280-->
 
-{@{`__val__`}@} introduces {@{a new binding that is visible for the rest of the expression}@}. It evaluates {@{its body in an environment extended with the new pair}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+{@{__`val`__}@} introduces {@{a new binding that is visible for the rest of the expression}@}. It evaluates {@{its body in an environment extended with the new pair}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
 > [!example] __`val` special form__
 >
-> {@{`__val__`}@} introduces {@{a new binding that is visible for the rest of the expression}@}. It evaluates {@{its body in an environment extended with the new pair}@}.
+> {@{__`val`__}@} introduces {@{a new binding that is visible for the rest of the expression}@}. It evaluates {@{its body in an environment extended with the new pair}@}.
 >
 > ```Scala
 > case 'val :: Symbol(name) :: expr :: rest :: Nil =>
@@ -478,9 +478,9 @@ Because the closure keeps {@{a reference to its defining environment}@}, each ap
 > f(1)
 > ```
 >
-> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{hide the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2000-01-01,1,250-->
+> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2000-01-01,1,250-->
 
-{@{Renaming parameters}@} can sometimes {@{hide the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}.
+{@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping}@}, but {@{not always}@}.
 
 {@{Dynamic scoping}@} makes {@{higher-order functions unreliable}@}. {@{Static (lexical) scoping, which Scheme and modern Lisps use}@}, fixes these issues by ensuring that {@{a function’s free variables are resolved in the environment where it was defined}@}. This guarantees {@{referential transparency and predictable behaviour of first-class functions}@}. {@{Some legacy Lisp dialects such as Common Lisp}@} still support {@{both dynamic and lexical scopes}@}, while {@{Elisp uses only dynamic scoping}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
@@ -520,13 +520,11 @@ With {@{the newly defined `extendRec`}@}, {@{a `def` is evaluated}@} as <!--SR:!
 >
 > {@{The thunk passed to `extendRec`}@} evaluates {@{`expr` in the extended environment that already contains the binding for `<name>`}@}, so recursive calls find {@{the correct value}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280-->
 
-{@{The thunk passed to `extendRec`}@} evaluates {@{`expr` in the extended environment that already contains the binding for `<name>`}@}, so recursive calls find {@{the correct value}@}.
-
-This technique shows how {@{recursion can be reduced to _self-application_}@}. For instance, {@{the factorial function}@} can be written {@{without explicit recursion}@}: <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+{@{The thunk passed to `extendRec`}@} evaluates {@{`expr` in the extended environment that already contains the binding for `<name>`}@}, so recursive calls find {@{the correct value}@}. {@{This "thunk" technique}@} shows how {@{recursion can be reduced to _self-application_}@}. For instance, {@{the factorial function}@} can be written {@{without explicit recursion}@}: <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
 > [!example] __recursion to self-application__
 >
-> This technique shows how {@{recursion can be reduced to _self-application_}@}. For instance, {@{the factorial function}@} can be written {@{without explicit recursion}@}:
+> {@{This "thunk" technique}@} shows how {@{recursion can be reduced to _self-application_}@}. For instance, {@{the factorial function}@} can be written {@{without explicit recursion}@}:
 >
 > ```Lisp
 > (lambda (n) (

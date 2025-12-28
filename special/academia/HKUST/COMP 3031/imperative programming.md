@@ -131,7 +131,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270-->
 
-{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal` and `addAction`}@}. `{@{`getSignal` and setSignal}@} respectively {@{gets and sets the wire's current state}@}. `{@{addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270-->
+{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal` and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270-->
 
 > [!example] __half‑adder construction__
 >

@@ -681,11 +681,11 @@ A method that previously {@{required an explicit `using Viewers` argument}@} can
 >
 > The expression `rankings` expands to {@{`rankings(using viewers)`}@}; {@{the implicit argument}@} is supplied by {@{the compiler}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-Replacing {@{a method signature ending in `(using Viewers): T`}@} with {@{`: Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
+Replacing {@{a method signature ending in `/* ... */ (using Viewers): T`}@} with {@{`/* ... */ : Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
 > [!example] __type alias for context abstraction__
 >
-> Replacing {@{a method signature ending in `(using Viewers): T`}@} with {@{`: Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}.
+> Replacing {@{a method signature ending in `/* ... */ (using Viewers): T`}@} with {@{`/* ... */ : Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}.
 >
 > ```Scala
 > type Viewed[T] = Viewers ?=> T

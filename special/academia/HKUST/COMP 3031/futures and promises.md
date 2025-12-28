@@ -95,20 +95,26 @@ Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surround
 > def program(a: A): Future[B] = …
 > ```
 >
-> And using {@{`Try[T]` instead of `T` as the future result}@}, {@{failure handling}@} is built-in:
+> This is how one may obtain {@{`Future` in its most basic form}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __`Future` with error handling__
+>
+> And using {@{`Try[T]` instead of `T` as the future result}@}, {@{error handling}@} is built-in:
 >
 > ```Scala
 > type Future[+T] = (Try[T] => Unit) => Unit
 > def program(a: A): Future[B] = …
 > ```
 >
-> In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function that accepts a callback}@} and offers {@{convenient combinators}@}: <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,290!2025-12-25,4,290!2025-12-25,4,290!2025-12-25,4,290!2025-12-25,4,290-->
+> Our `Future` can be further {@{improved in other ways}@}. In practice Scala provides {@{the `Future` trait}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,290-->
 
-In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function that accepts a callback}@} and offers {@{convenient combinators}@}:
+In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function that accepts a callback}@} and offers {@{convenient combinators}@}.
 
 > [!example] __Scala Future API__
 >
-> In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function that accepts a callback}@} and offers {@{convenient combinators}@}:
+> In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function that accepts a callback}@} and offers {@{convenient combinators}@}.
 >
 > ```Scala
 > import scala.concurrent.{Future, ExecutionContext}

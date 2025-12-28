@@ -26,7 +26,7 @@ tags:
 
 ## hints
 
-1. [software quality assurance](../software%20quality%20assurance.md) / aspects ::@:: Quality _assurance_ defines organizational standards to produce high quality software. Quality _planning_ selects and tailors relevant standards for a specific product. Quality _control_ verifies that these standards are followed through audits, inspections, and metrics collection. Together they form the _WHAT_ (standards)}, _HOW_ (methods), and _MONITOR_ (enforcement) of SQA. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+1. [software quality assurance](../software%20quality%20assurance.md) / aspects ::@:: Quality _assurance_ defines organizational standards to produce high quality software. Quality _planning_ selects and tailors relevant standards for a specific product. Quality _control_ verifies that these standards are followed through audits, inspections, and metrics collection. Together they form the _WHAT_ (standards), _HOW_ (methods), and _MONITOR_ (enforcement) of SQA. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
 2.
     - [software quality assurance](../software%20quality%20assurance.md) / SEI Capability Maturity Model ::@:: SEI CMM is a framework for assessing and improving software development processes. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
     - [software quality assurance](../software%20quality%20assurance.md) / People Capability Maturity Model ::@:: The People Capability Maturity Model (PCMM) evaluates and enhances the knowledge and skill base of an organization’s workforce. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->

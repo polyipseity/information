@@ -33,7 +33,7 @@ Another example is in {@{a [surface-mount technology](surface-mount%20technology
 
 ### accumulation
 
-When {@{input comes in faster than the speed of the process}@}, {@{accumulation starts to occur}@}. This means that the machine either {@{does not have enough capacity, is not being fully utilized or has an under-qualified operator}@}. This method is {@{not effective at identifying bottlenecks where the queues are at several process steps}@}, as {@{there are multiple processes with accumulation}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-12-27,238,330!2026-01-15,254,330!2026-02-15,276,330!2026-01-14,252,330!2028-10-10,1030,350-->
+When {@{input comes in faster than the speed of the process}@}, {@{accumulation starts to occur}@}. This means that the machine either {@{does not have enough capacity, is not being fully utilized or has an under-qualified operator}@}. This method is {@{not effective at identifying bottlenecks where the queues are at several process steps}@}, as there are {@{multiple processes with accumulation}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-12-27,238,330!2026-01-15,254,330!2026-02-15,276,330!2026-01-14,252,330!2028-10-10,1030,350-->
 
 ### throughput
 

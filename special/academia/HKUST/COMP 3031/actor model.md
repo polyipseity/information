@@ -99,7 +99,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >
 > Here {@{each message}@} is {@{processed sequentially by the actor}@}, so {@{no explicit locks are needed}@} and concurrent deposits cannot {@{interleave in a way that corrupts `balance`}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,290!2025-12-25,4,290-->
 
-Here {@{each message}@} is {@{processed sequentially by the actor}@}, so {@{no explicit locks are needed}@} and concurrent deposits cannot {@{interleave in a way that corrupts `balance`}@}.
+Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are needed}@}, and concurrent messages cannot {@{interleave in a way that corrupts the actor state}@}.
 
 ## history
 
@@ -207,10 +207,8 @@ Actors may alter {@{their own behaviour at runtime with `context.become`}@}. Thi
 >   def receive: Receive = counter(0)
 > }
 > ```
->
-> {@{Switching behaviour}@} is functionally equivalent to {@{mutating a field}@} but keeps {@{the state explicitly scoped}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,290!2025-12-25,4,290-->
 
-{@{Switching behaviour}@} is functionally equivalent to {@{mutating a field}@} but keeps {@{the state explicitly scoped}@}.
+{@{Switching behaviour}@} is functionally equivalent to {@{mutating a field}@} but keeps {@{the state explicitly scoped}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291-->
 
 ### actor lifecycle
 
@@ -277,9 +275,9 @@ An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@
 > }
 > ```
 >
-> If two messages {@{“inc” arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt `n`}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,290!2025-12-25,4,290-->
+> If two messages {@{“inc” arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt `n`}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291-->
 
-If two messages {@{“inc” arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt `n`}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}.
+If two messages {@{arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt the actor state}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}.
 
 ## entry point
 
@@ -411,11 +409,11 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 
 {@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270!2025-12-25,4,270-->
 
-{@{The first version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+{@{A naive version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
 
 > [!example] __blocking web client__
 >
-> {@{The function}@} waits for {@{the HTTP response}@} before returning.
+> {@{A naive version of `WebClient.get`}@} waits for {@{the HTTP response}@} before returning.
 >
 > ```Scala
 > val client = new AsyncHttpClient

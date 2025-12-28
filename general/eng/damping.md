@@ -147,7 +147,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363!2026-02-25,76,364!2026-03-24,103,384-->
+> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@}; hence it measures {@{how underdamped an oscillator or resonator is}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363!2026-02-25,76,364!2026-03-24,103,384-->
 
 <!-- markdownlint MD028 -->
 
