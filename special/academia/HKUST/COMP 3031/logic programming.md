@@ -252,7 +252,7 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 
 ## asymmetric unification
 
-In this section, {@{a "pattern"}@} refers to {@{a term that may contain variables}@}, whereas {@{a "term"}@} refers to {@{a term that must not contain variables}@}. Normally (and outside this section), both are {@{simply called "terms"}@}.
+In this section, {@{a "pattern"}@} refers to {@{a term that may contain variables}@}, whereas {@{a "term"}@} refers to {@{a term that must not contain variables}@}. Normally (and outside this section), both are {@{simply called "terms"}@}. <!--SR:!2025-12-25,4,302!2025-12-25,4,302!2025-12-25,4,302!2025-12-25,4,302!2025-12-25,4,302-->
 
 {@{The core of pattern-matching logic programming}@} is expressed by {@{two mutually recursive functions}@}: {@{`pmatch` and its helper `pmatchLists`}@}. `pmatch` takes {@{a _pattern_ (a term that may contain variables)}@}, {@{another _term_ that must not contain variables (hence "_asymmetric_")}@}, and {@{an existing substitution `s`}@}. It returns {@{`Some(s')` if the pattern matches the term under the current substitution `s`}@} or {@{`None` otherwise}@}, where `s'` is {@{the _most general_ substitution that is an extension of `s`}@}. <!--SR:!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282!2025-12-25,4,282-->
 

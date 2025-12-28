@@ -99,7 +99,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >
 > Here {@{each message}@} is {@{processed sequentially by the actor}@}, so {@{no explicit locks are needed}@} and concurrent deposits cannot {@{interleave in a way that corrupts `balance`}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,290!2025-12-25,4,290-->
 
-Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are needed}@}, and concurrent messages cannot {@{interleave in a way that corrupts the actor state}@}.
+Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are needed}@}, and concurrent messages cannot {@{interleave in a way that corrupts the actor state}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291-->
 
 ## history
 
@@ -207,6 +207,7 @@ Actors may alter {@{their own behaviour at runtime with `context.become`}@}. Thi
 >   def receive: Receive = counter(0)
 > }
 > ```
+<!--SR:!2025-12-25,4,291!2025-12-25,4,291-->
 
 {@{Switching behaviour}@} is functionally equivalent to {@{mutating a field}@} but keeps {@{the state explicitly scoped}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291-->
 
@@ -277,7 +278,7 @@ An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@
 >
 > If two messages {@{“inc” arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt `n`}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291-->
 
-If two messages {@{arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt the actor state}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}.
+If two messages {@{arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt the actor state}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}. <!--SR:!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291!2025-12-25,4,291-->
 
 ## entry point
 

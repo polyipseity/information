@@ -173,4 +173,4 @@ SEI CMM is a framework for assessing and improving software development proces
 4. Level 4 – _Managed_ ::@:: The focus shifts to raising competence in key areas through mentoring, team‑building, and quantitative competency targets. Effectiveness of work practices is measured against these goals. <!--SR:!2025-12-25,4,274!2025-12-25,4,296-->
 5. Level 5 – _Optimizing_ ::@:: Continuous improvement drives the development of both individual and team skills. Best practices are adopted organization‑wide, creating a culture that adapts rapidly to new challenges. <!--SR:!2025-12-25,4,274!2025-12-25,4,296-->
 
-{@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@} on the PCMM model; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}.
+{@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@} on the PCMM model; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}. <!--SR:!2025-12-25,4,310!2025-12-25,4,310!2025-12-25,4,310!2025-12-25,4,310-->

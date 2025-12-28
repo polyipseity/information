@@ -53,6 +53,7 @@ Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. The
 > foo[[X] =>> (X, X), Int](x => (x, x), 1)         // (1, 1) : (Int, Int)
 > type G[X] = (X, X); foo[G, Int](x => (x, x), 1)  // (1, 1) : (Int, Int)
 > ```
+<!--SR:!2025-12-25,4,290!2025-12-25,4,290!2025-12-25,4,290-->
 
 Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accepts {@{types as arguments and output a type}@}. <!--SR:!2025-12-25,4,290!2025-12-25,4,290!2025-12-25,4,290-->
 

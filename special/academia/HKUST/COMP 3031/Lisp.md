@@ -300,7 +300,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 > val EmptyEnvironment = new Environment {}
 > ```
 >
-> {@{This version}@} has {@{linear-time lookups}@} because {@{each `lookup` walks the chain of bindings}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300-->
+> {@{This version}@} has {@{linear-time lookups}@} because {@{each `lookup` walks the chain of bindings}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300-->
 
 Note that {@{the environment with only `lookup` and `extend` as implemented above}@} does not {@{support using `def` to define recursive functions}@}. {@{The `extendRec` function}@} intends to {@{fix this}@}; see below. <!--SR:!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
@@ -478,9 +478,9 @@ Because the closure keeps {@{a reference to its defining environment}@}, each ap
 > f(1)
 > ```
 >
-> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2000-01-01,1,250-->
+> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,300-->
 
-{@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping}@}, but {@{not always}@}.
+{@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping}@}, but {@{not always}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300-->
 
 {@{Dynamic scoping}@} makes {@{higher-order functions unreliable}@}. {@{Static (lexical) scoping, which Scheme and modern Lisps use}@}, fixes these issues by ensuring that {@{a function’s free variables are resolved in the environment where it was defined}@}. This guarantees {@{referential transparency and predictable behaviour of first-class functions}@}. {@{Some legacy Lisp dialects such as Common Lisp}@} still support {@{both dynamic and lexical scopes}@}, while {@{Elisp uses only dynamic scoping}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
 
@@ -520,7 +520,7 @@ With {@{the newly defined `extendRec`}@}, {@{a `def` is evaluated}@} as <!--SR:!
 >
 > {@{The thunk passed to `extendRec`}@} evaluates {@{`expr` in the extended environment that already contains the binding for `<name>`}@}, so recursive calls find {@{the correct value}@}. <!--SR:!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,280!2025-12-25,4,280-->
 
-{@{The thunk passed to `extendRec`}@} evaluates {@{`expr` in the extended environment that already contains the binding for `<name>`}@}, so recursive calls find {@{the correct value}@}. {@{This "thunk" technique}@} shows how {@{recursion can be reduced to _self-application_}@}. For instance, {@{the factorial function}@} can be written {@{without explicit recursion}@}: <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+{@{The thunk passed to `extendRec`}@} evaluates {@{`expr` in the extended environment that already contains the binding for `<name>`}@}, so recursive calls find {@{the correct value}@}. {@{This "thunk" technique}@} shows how {@{recursion can be reduced to _self-application_}@}. For instance, {@{the factorial function}@} can be written {@{without explicit recursion}@}: <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300!2025-12-25,4,300-->
 
 > [!example] __recursion to self-application__
 >
@@ -535,7 +535,7 @@ With {@{the newly defined `extendRec`}@}, {@{a `def` is evaluated}@} as <!--SR:!
 > ))
 > ```
 >
-> Here `self` refers to {@{the inner lambda}@}, and each call passes {@{the lambda itself as an argument}@}. The interpreter evaluates {@{the outer lambda once}@}; the inner lambda {@{repeatedly calls its own first argument}@}, which implements {@{the factorial loop}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280-->
+> Here `self` refers to {@{the inner lambda}@}, and each call passes {@{the lambda itself as an argument}@}. The interpreter evaluates {@{the outer lambda once}@}; the inner lambda {@{repeatedly calls its own first argument}@}, which implements {@{the factorial loop}@}. <!--SR:!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,280!2025-12-25,4,300-->
 
 ### global environment  
 

@@ -133,14 +133,14 @@ This table summarizes {@{how the manipulation of covariant and contravariant ind
 
 > __flashcards__
 >
-> - covector under passive transformation ::@:: __Covector, covariant vector, 1-form__
->   - covector under passive transformation / basis transformation ::@:: $\omega ^{\bar {\alpha } }=L_{\beta }{}^{\bar {\alpha } }\omega ^{\beta }$ \(annotation: inverse passive transformation matrix × column vector\)
->   - covector under passive transformation / component transformation ::@:: $a_{\bar {\alpha } }=a_{\gamma }L^{\gamma }{}_{\bar {\alpha } }$ \(annotation: row vector × passive transformation matrix\)
->   - covector under passive transformation / invariance ::@:: $a_{\bar {\alpha } }\omega ^{\bar {\alpha } }=a_{\gamma }L^{\gamma }{}_{\bar {\alpha } }L_{\beta }{}^{\bar {\alpha } }\omega ^{\beta }=a_{\gamma }\delta ^{\gamma }{}_{\beta }\omega ^{\beta }=a_{\beta }\omega ^{\beta }$
-> - vector under passive transformation ::@:: __Vector, contravariant vector__
->   - vector under passive transformation / basis transformation ::@:: $e_{\bar {\alpha } }=e_{\gamma }L_{\bar {\alpha } }{}^{\gamma }$ \(annotation: row vector × inverse passive transformation matrix\)
->   - vector under passive transformation / component transformation ::@:: $u^{\bar {\alpha } }=L^{\bar {\alpha } }{}_{\beta }u^{\beta }$ \(annotation: passive transformation matrix × column vector\)
->   - vector under passive transformation / invariance ::@:: $e_{\bar {\alpha } }u^{\bar {\alpha } }=e_{\gamma }L_{\bar {\alpha } }{}^{\gamma }L^{\bar {\alpha } }{}_{\beta }u^{\beta }=e_{\gamma }\delta ^{\gamma }{}_{\beta }u^{\beta }=e_{\gamma }u^{\gamma }$
+> - covector under passive transformation ::@:: __Covector, covariant vector, 1-form__ <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
+>   - covector under passive transformation / basis transformation ::@:: $\omega ^{\bar {\alpha } }=L_{\beta }{}^{\bar {\alpha } }\omega ^{\beta }$ \(annotation: inverse passive transformation matrix × column vector\) <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
+>   - covector under passive transformation / component transformation ::@:: $a_{\bar {\alpha } }=a_{\gamma }L^{\gamma }{}_{\bar {\alpha } }$ \(annotation: row vector × passive transformation matrix\) <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
+>   - covector under passive transformation / invariance ::@:: $a_{\bar {\alpha } }\omega ^{\bar {\alpha } }=a_{\gamma }L^{\gamma }{}_{\bar {\alpha } }L_{\beta }{}^{\bar {\alpha } }\omega ^{\beta }=a_{\gamma }\delta ^{\gamma }{}_{\beta }\omega ^{\beta }=a_{\beta }\omega ^{\beta }$ <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
+> - vector under passive transformation ::@:: __Vector, contravariant vector__ <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
+>   - vector under passive transformation / basis transformation ::@:: $e_{\bar {\alpha } }=e_{\gamma }L_{\bar {\alpha } }{}^{\gamma }$ \(annotation: row vector × inverse passive transformation matrix\) <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
+>   - vector under passive transformation / component transformation ::@:: $u^{\bar {\alpha } }=L^{\bar {\alpha } }{}_{\beta }u^{\beta }$ \(annotation: passive transformation matrix × column vector\) <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
+>   - vector under passive transformation / invariance ::@:: $e_{\bar {\alpha } }u^{\bar {\alpha } }=e_{\gamma }L_{\bar {\alpha } }{}^{\gamma }L^{\bar {\alpha } }{}_{\beta }u^{\beta }=e_{\gamma }\delta ^{\gamma }{}_{\beta }u^{\beta }=e_{\gamma }u^{\gamma }$ <!--SR:!2025-12-25,4,345!2025-12-25,4,345-->
 
 ## general outlines for index notation and operations
 
