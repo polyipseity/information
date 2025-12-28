@@ -4,8 +4,8 @@
   "theme": "system",
   "accentColor": "#d4bbff",
   "interfaceFontFamily": "Calibri,Liberation Sans,Arial",
-  "textFontFamily": "Consolas,Cascadia Mono,Liberation Sans,Arial",
-  "monospaceFontFamily": "Cascadia Code,Cascadia Mono,Consolas,Liberation Mono,Arial",
+  "textFontFamily": "Consolas,Cascadia Mono,Liberation Serif,Times New Roman,Arial",
+  "monospaceFontFamily": "Cascadia Code,Cascadia Mono,Consolas,Liberation Mono,Menlo,Arial",
   "enabledCssSnippets": [
     "increase audio min width",
     "white content image background"
