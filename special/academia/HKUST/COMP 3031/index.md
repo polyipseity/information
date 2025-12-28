@@ -634,18 +634,18 @@ The content is in teaching order.
 
 - datetime: 2025-10-27T15:00:00+08:00/2025-10-27T16:20:00+08:00, PT1H20M
 - topic: anagram; word anagram; sentence anagram; recursion
-- [anagram](../../../../general/anagram.md) ::@:: It is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+- [anagram](../../../../general/anagram.md) ::@:: It is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
 - COMP 3031
-  - COMP 3031 / lab 4 ::@:: Compute sentence anagrams in Scala using occurrence lists, dictionary lookups, subset generation, subtraction, and recursion.
-    - COMP 3031 / lab 4 / problem ::@:: An anagram rearranges letters to form new meaningful words. Extend from word anagrams to sentence anagrams by ignoring case and punctuation and using a provided dictionary.
-    - COMP 3031 / lab 4 / representation ::@:: - `type Word = String` <br/> - `type Sentence = List[Word]` <br/> - `type Occurrences = List[(Char, Int)]` &emsp; Sorted by character (ascending), lowercase-only, positive, counts.
-    - COMP 3031 / lab 4 / dictionary ::@:: `val dictionary: List[Word] = loadDictionary` &emsp; Preloaded list of meaningful words used to validate anagrams.
-    - COMP 3031 / lab 4 / `wordOccurrences` ::@:: Produce `(Char, Int)` pairs from a word, case-insensitive, sorted by character.
-    - COMP 3031 / lab 4 / `sentenceOccurrences` ::@:: Concatenate words in a sentence and reuse `wordOccurrences`.
-    - COMP 3031 / lab 4 / index ::@:: Group the dictionary by occurrences for efficient lookup; words sharing the same occurrence list are anagrams.
-    - COMP 3031 / lab 4 / combinations ::@:: Generate all subsets of an occurrence list, varying counts from `0..freq` for each char and combining recursively. <p> The empty list has exactly one subset: itself (`List(Nil)`).
-    - COMP 3031 / lab 4 / `subtractOccurrences` ::@:: Remove counts of one occurrence list `y` from another `x`; assume `y` is a subset of `x`. Drop zero-count entries and keep result sorted.
-    - COMP 3031 / lab 4 / sentence anagrams ::@:: Recursively pick any valid word from subsets of the sentence's occurrence list; subtract its occurrences and continue until empty. Base case returns `List(Nil)`. <p> 1. Compute `allOccurrences = sentenceOccurrences(sentence)`. <br/> 2. For each `combination` in `combinations(allOccurrences)`: For each `possibleWord` in `dictionaryByOccurrences(combination)`, recurse on `subtract(allOccurrences, combination)` to get `otherWords`, and then prepend `possibleWord` to each `otherWords`. <br/> 3. Collect all sentences produced; the empty sentence maps to `List(Nil)`.
+  - COMP 3031 / lab 4 ::@:: Compute sentence anagrams in Scala using occurrence lists, dictionary lookups, subset generation, subtraction, and recursion. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / problem ::@:: An anagram rearranges letters to form new meaningful words. Extend from word anagrams to sentence anagrams by ignoring case and punctuation and using a provided dictionary. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / representation ::@:: - `type Word = String` <br/> - `type Sentence = List[Word]` <br/> - `type Occurrences = List[(Char, Int)]` &emsp; Sorted by character (ascending), lowercase-only, positive, counts. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / dictionary ::@:: `val dictionary: List[Word] = loadDictionary` &emsp; Preloaded list of meaningful words used to validate anagrams. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / `wordOccurrences` ::@:: Produce `(Char, Int)` pairs from a word, case-insensitive, sorted by character. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / `sentenceOccurrences` ::@:: Concatenate words in a sentence and reuse `wordOccurrences`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / index ::@:: Group the dictionary by occurrences for efficient lookup; words sharing the same occurrence list are anagrams. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / combinations ::@:: Generate all subsets of an occurrence list, varying counts from `0..freq` for each char and combining recursively. <p> The empty list has exactly one subset: itself (`List(Nil)`). <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / `subtractOccurrences` ::@:: Remove counts of one occurrence list `y` from another `x`; assume `y` is a subset of `x`. Drop zero-count entries and keep result sorted. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 4 / sentence anagrams ::@:: Recursively pick any valid word from subsets of the sentence's occurrence list; subtract its occurrences and continue until empty. Base case returns `List(Nil)`. <p> 1. Compute `allOccurrences = sentenceOccurrences(sentence)`. <br/> 2. For each `combination` in `combinations(allOccurrences)`: For each `possibleWord` in `dictionaryByOccurrences(combination)`, recurse on `subtract(allOccurrences, combination)` to get `otherWords`, and then prepend `possibleWord` to each `otherWords`. <br/> 3. Collect all sentences produced; the empty sentence maps to `List(Nil)`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
 
 ## week 9 lecture
 
@@ -828,16 +828,16 @@ The content is in teaching order.
 
 - datetime: 2025-11-10T15:00:00+08:00/2025-11-10T16:20:00+08:00, PT1H20M
 - topic: abstract syntax tree
-- [abstract syntax tree](../../../../general/abstract%20syntax%20tree.md) (AST) ::@:: It is a data structure used in computer science to represent the structure of a program or code snippet. It is a tree representation of the abstract syntactic structure of text (often source code) written in a formal language. Each node of the tree denotes a construct occurring in the text.
+- [abstract syntax tree](../../../../general/abstract%20syntax%20tree.md) (AST) ::@:: It is a data structure used in computer science to represent the structure of a program or code snippet. It is a tree representation of the abstract syntactic structure of text (often source code) written in a formal language. Each node of the tree denotes a construct occurring in the text. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
 - COMP 3031
-  - COMP 3031 / exercise 4 ::@:: Implement GCD, List primitives (`map`, `foldLeft`), and memory CAS in a small expression language using the given `Expr` AST.
-    - COMP 3031 / exercise 4 / `Expr` ::@:: Core syntax for expressions and binary ops. <p> - __`Expr`__: `Constant`, `Name`, `BinOp`, `IfNonzero`, `Call`, `Fun` <br/> - __`Expr`__ (lists): `Cons`, `EmptyList`, `Match` <br/> - __`Expr`__ (memory): `Read`, `Write`
-    - COMP 3031 / exercise 4 / `BinOp` instances ::@:: Shorthands for binary ops. <p> - `minus(e1, e2) = BinOp(Minus, e1, e2)` <br/> - `plus(e1, e2) = BinOp(Plus, e1, e2)` <br/> - `leq(e1, e2) = BinOp(LessEq, e1, e2)` &emsp; (returns `1` if `e1 <= e2`, else `0`) <br/> - `times(e1, e2) = BinOp(Times, e1, e2)` <br/> - `modulo(e1, e2) = BinOp(Modulo, e1, e2)`
-    - COMP 3031 / exercise 4 / global environment ::@:: A sequence of `(String, Expr)` bindings; each definition can reference any name in the environment (mutually recursive bindings supported). Example: `div` defined via recursion using `LessEq` and subtraction.
-    - COMP 3031 / exercise 4 / implement `gcd` ::@:: Implement Euclid’s algorithm: if `b == 0` then `a` else `gcd(b, a % b)`. <p> Encode recursion using `Fun` + `Call`; condition uses `IfNonzero(Name("b"), ...)` with `modulo`. <p> Curried calls: `Call(Call(Name("gcd"), arg1), arg2)`.
-    - COMP 3031 / exercise 4 / implement `map` ::@:: Apply `f` to each element; rebuild list.
-    - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), acc), x)`.
-    - COMP 3031 / exercise 4 / implement `cas` ::@:: Compare-and-swap returns `1` on success (write performed) or `0` if the current value differs from `old`. <p> In `Expr`: use `Read` to fetch, `Write` to store and then continue with `andThen`. `IfNonzero(minus(Read(idx), old), ...)` effectively tests `mem(idx) != old`. `Write(idx, nw, Constant(1))` performs the write, then evaluates to `1`. <p> In this toy language, execution is sequential; real CAS is atomic in concurrent settings.
+  - COMP 3031 / exercise 4 ::@:: Implement GCD, List primitives (`map`, `foldLeft`), and memory CAS in a small expression language using the given `Expr` AST. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / exercise 4 / `Expr` ::@:: Core syntax for expressions and binary ops. <p> - __`Expr`__: `Constant`, `Name`, `BinOp`, `IfNonzero`, `Call`, `Fun` <br/> - __`Expr`__ (lists): `Cons`, `EmptyList`, `Match` <br/> - __`Expr`__ (memory): `Read`, `Write` <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / exercise 4 / `BinOp` instances ::@:: Shorthands for binary ops. <p> - `minus(e1, e2) = BinOp(Minus, e1, e2)` <br/> - `plus(e1, e2) = BinOp(Plus, e1, e2)` <br/> - `leq(e1, e2) = BinOp(LessEq, e1, e2)` &emsp; (returns `1` if `e1 <= e2`, else `0`) <br/> - `times(e1, e2) = BinOp(Times, e1, e2)` <br/> - `modulo(e1, e2) = BinOp(Modulo, e1, e2)` <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / exercise 4 / global environment ::@:: A sequence of `(String, Expr)` bindings; each definition can reference any name in the environment (mutually recursive bindings supported). Example: `div` defined via recursion using `LessEq` and subtraction. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / exercise 4 / implement `gcd` ::@:: Implement Euclid’s algorithm: if `b == 0` then `a` else `gcd(b, a % b)`. <p> Encode recursion using `Fun` + `Call`; condition uses `IfNonzero(Name("b"), ...)` with `modulo`. <p> Curried calls: `Call(Call(Name("gcd"), arg1), arg2)`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / exercise 4 / implement `map` ::@:: Apply `f` to each element; rebuild list. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), acc), x)`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / exercise 4 / implement `cas` ::@:: Compare-and-swap returns `1` on success (write performed) or `0` if the current value differs from `old`. <p> In `Expr`: use `Read` to fetch, `Write` to store and then continue with `andThen`. `IfNonzero(minus(Read(idx), old), ...)` effectively tests `mem(idx) != old`. `Write(idx, nw, Constant(1))` performs the write, then evaluates to `1`. <p> In this toy language, execution is sequential; real CAS is atomic in concurrent settings. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
 
 ## week 11 lecture
 
@@ -878,24 +878,24 @@ The content is in teaching order.
 - datetime: 2025-11-17T15:00:00+08:00/2025-11-17T16:20:00+08:00, PT1H20M
 - topic: Bloxorz; lazy evaluation; `LazyList`
 - COMP 3031
-  - COMP 3031 / lab 5 ::@:: Solve a simplified Bloxorz puzzle in Scala using lazy evaluation and breadth‑first search (BFS) to find the shortest move sequence.
-    - COMP 3031 / lab 5 / problem ::@:: In a Bloxorz puzzle, explore a state space of block positions on a terrain; generate legal neighbors by rolling the block; search for a shortest path from start to goal using lazy streams (`LazyList`).
-    - COMP 3031 / lab 5 / setup ::@:: The logic is split across `GameDef.scala` (positions, terrain, block, moves) and `Solver.scala` (lazy BFS over block states).
-    - COMP 3031 / lab 5 / `Pos` ::@:: `case class Pos(row: Int, y: Int)` where `row` increases downward (vertical axis) and `y` increases rightward (horizontal axis).
-    - COMP 3031 / lab 5 / `Terrain` ::@:: The board (walkable cells) is a function: `type Terrain = Pos => Boolean` &emsp; `true` means inside terrain; `false` means out of bounds.
-    - COMP 3031 / lab 5 / `terrainFunction(levelVector)` ::@:: Return a function that checks whether a position is within any non-`-` cell.
-    - COMP 3031 / lab 5 / `findChar(c, levelVector)` ::@:: Locate the coordinates of a specific character (e.g., `S` for start, `T` for goal)
-    - COMP 3031 / lab 5 / `Block` ::@:: A 2×1×1 cuboid represented by two positions: `case class Block(b1: Pos, b2: Pos)`. <p> It is _standing_ when `b1 == b2`. It is _legal_ when `terrain(b1) && terrain(b2)`.
-    - COMP 3031 / lab 5 / `Move` ::@:: `left`, `right`, `up`, `down` roll the block, yielding new `Block`s with updated `(b1, b2)` according to orientation. The four possible moves recorded as case objects. <p> - `neighbors: List[(Block, Move)]`: Returns `(blockAfterMove, move)` for all four directions. <br/> - `legalNeighbors: List[(Block, Move)]`: Filter `neighbors` to those with `block.isLegal`.
-    - COMP 3031 / lab 5 / solver ::@:: Search in breadth-first order using `LazyList[(Block, List[Move])]`, where the move history is stored with the most recent move at the head of the list.
-      - COMP 3031 / lab 5 / solver / goal test ::@:: `done(b: Block)` returns `true` if the block is standing on the goal position `T`.
-      - COMP 3031 / lab 5 / solver / `neighborsWithHistory`, `newNeighborsOnly` ::@:: `neighborsWithHistory` extends from a node `(block, history)` to all legal neighbors, prepending the move to `history`. <p> `newNeighborsOnly` filters away already explored blocks to avoid cycles.
-      - COMP 3031 / lab 5 / solver / `from` ::@:: Build layers of paths lazily, always expanding the current frontier before moving to the next. This ensures breadth-first traversal, so the first time you reach the goal, the path is shortest. <p> 1. If `initial` is empty, return empty `LazyList`. <br/> 2. Otherwise, compute `next` by: `neighborsWithHistory` for each `(b, hist)` in `initial`; `newNeighborsOnly(next, explored)` to remove revisits. <br/> 3. Return `initial #::: from(next, explored ++ next.map(_._1).toSet)`.
-      - COMP 3031 / lab 5 / solver / `pathsFromStart` ::@:: Start from the initial block with empty history: `from(LazyList((startBlock, Nil)), Set(startBlock))`
-      - COMP 3031 / lab 5 / solver / `pathsToGoal` ::@::  Filter all paths in `pathsFromStart` whose block satisfies `done`.
-      - COMP 3031 / lab 5 / solver / `solution` ::@:: Extract the move list from the first path in `pathsToGoal` to the goal and reverse it so that the head is the first move to play.
-    - COMP 3031 / lab 5 / laziness ::@:: `LazyList` ensures you only compute as much of the search frontier as needed; BFS guarantees the first goal path discovered is shortest. Avoid recomputation by tracking `explored` blocks; only expand fresh neighbors.
-    - COMP 3031 / lab 5 / summary ::@:: Parse terrain → define block & moves → generate legal neighbors → lazy BFS (`from`) with cycle avoidance → filter goal paths → reverse history for final `solution`. <p> This pattern generalizes to other shortest‑path problems on implicit graphs.
+  - COMP 3031 / lab 5 ::@:: Solve a simplified Bloxorz puzzle in Scala using lazy evaluation and breadth‑first search (BFS) to find the shortest move sequence. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / problem ::@:: In a Bloxorz puzzle, explore a state space of block positions on a terrain; generate legal neighbors by rolling the block; search for a shortest path from start to goal using lazy streams (`LazyList`). <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / setup ::@:: The logic is split across `GameDef.scala` (positions, terrain, block, moves) and `Solver.scala` (lazy BFS over block states). <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / `Pos` ::@:: `case class Pos(row: Int, y: Int)` where `row` increases downward (vertical axis) and `y` increases rightward (horizontal axis). <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / `Terrain` ::@:: The board (walkable cells) is a function: `type Terrain = Pos => Boolean` &emsp; `true` means inside terrain; `false` means out of bounds. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / `terrainFunction(levelVector)` ::@:: Return a function that checks whether a position is within any non-`-` cell. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / `findChar(c, levelVector)` ::@:: Locate the coordinates of a specific character (e.g., `S` for start, `T` for goal) <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / `Block` ::@:: A 2×1×1 cuboid represented by two positions: `case class Block(b1: Pos, b2: Pos)`. <p> It is _standing_ when `b1 == b2`. It is _legal_ when `terrain(b1) && terrain(b2)`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / `Move` ::@:: `left`, `right`, `up`, `down` roll the block, yielding new `Block`s with updated `(b1, b2)` according to orientation. The four possible moves recorded as case objects. <p> - `neighbors: List[(Block, Move)]`: Returns `(blockAfterMove, move)` for all four directions. <br/> - `legalNeighbors: List[(Block, Move)]`: Filter `neighbors` to those with `block.isLegal`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / solver ::@:: Search in breadth-first order using `LazyList[(Block, List[Move])]`, where the move history is stored with the most recent move at the head of the list. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+      - COMP 3031 / lab 5 / solver / goal test ::@:: `done(b: Block)` returns `true` if the block is standing on the goal position `T`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+      - COMP 3031 / lab 5 / solver / `neighborsWithHistory`, `newNeighborsOnly` ::@:: `neighborsWithHistory` extends from a node `(block, history)` to all legal neighbors, prepending the move to `history`. <p> `newNeighborsOnly` filters away already explored blocks to avoid cycles. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+      - COMP 3031 / lab 5 / solver / `from` ::@:: Build layers of paths lazily, always expanding the current frontier before moving to the next. This ensures breadth-first traversal, so the first time you reach the goal, the path is shortest. <p> 1. If `initial` is empty, return empty `LazyList`. <br/> 2. Otherwise, compute `next` by: `neighborsWithHistory` for each `(b, hist)` in `initial`; `newNeighborsOnly(next, explored)` to remove revisits. <br/> 3. Return `initial #::: from(next, explored ++ next.map(_._1).toSet)`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+      - COMP 3031 / lab 5 / solver / `pathsFromStart` ::@:: Start from the initial block with empty history: `from(LazyList((startBlock, Nil)), Set(startBlock))` <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+      - COMP 3031 / lab 5 / solver / `pathsToGoal` ::@::  Filter all paths in `pathsFromStart` whose block satisfies `done`. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+      - COMP 3031 / lab 5 / solver / `solution` ::@:: Extract the move list from the first path in `pathsToGoal` to the goal and reverse it so that the head is the first move to play. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / laziness ::@:: `LazyList` ensures you only compute as much of the search frontier as needed; BFS guarantees the first goal path discovered is shortest. Avoid recomputation by tracking `explored` blocks; only expand fresh neighbors. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
+    - COMP 3031 / lab 5 / summary ::@:: Parse terrain → define block & moves → generate legal neighbors → lazy BFS (`from`) with cycle avoidance → filter goal paths → reverse history for final `solution`. <p> This pattern generalizes to other shortest‑path problems on implicit graphs. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
 
 ## week 12 lecture
 
@@ -1017,7 +1017,7 @@ The content is in teaching order.
     - question 13: 5 → 5
     - question 14: 3 → 3
 - report
-  - lateness due to traffic jam (0) ::@:: Due to a big traffic jam, was 20 minutes late; which was fine in the end.
+  - lateness due to traffic jam (0) ::@:: Due to a big traffic jam, was 20 minutes late; which was fine in the end. <!--SR:!2025-12-26,5,396!2025-12-26,5,396-->
 - check
   - datetime: 2025‑12-22T09:30:00+08:00/2025‑12‑22T11:30:00+08:00, PT2H  
   - venue: Room 3523, Academic Building

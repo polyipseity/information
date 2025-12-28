@@ -82,7 +82,7 @@ With {@{non-equiprobable bits}@} {@{the average energy per bit}@} is {@{$$E_b = 
 
 ## signal-to-noise ratio
 
-{@{The _signal-to-noise ratio_ (SNR) _per bit_}@} is defined as {@{$$\boxed{\text{bSNR}_{\text{lin} } := \frac{E_b}{N_0} } \,.$$}@} Note {@{the noise power spectral density uses one-sided power $N_0$}@} rather than {@{two-sided power $N_0 / 2$}@}. Thus, {@{the BER for _zero threshold_ can be expressed compactly}@} as {@{$$\boxed{\text{BER}=Q\!\left(\sqrt{\dfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{2 \cdot \text{bSNR}_{\text{lin} } } \right) \qquad V_{\!th} = 0} \,.$$}@} It is {@{a classic result}@} for {@{binary antipodal signaling over an AWGN channel}@}. <!--SR:!2026-01-14,63,310!2026-01-17,66,310!2026-01-06,57,310!2026-01-17,66,310!2026-01-13,63,310!2026-01-11,61,310-->
+{@{The _signal-to-noise ratio_ (SNR) _per bit_}@} is defined as {@{$$\boxed{\text{bSNR}_{\text{lin} } := \frac{E_b}{N_0} } \,.$$}@} Note {@{the noise power spectral density uses one-sided power $N_0$}@} rather than {@{two-sided power $N_0 / 2$}@}. Thus, {@{the BER for _zero threshold_ can be expressed compactly}@} as {@{$$\boxed{\text{BER}=Q\!\left(\sqrt{\dfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{2 \cdot \text{bSNR}_{\text{lin} } } \right) \qquad V_{\!th} = 0} \,.$$}@} It is {@{a classic result}@} for {@{binary antipodal signaling over an AWGN channel}@}. <!--SR:!2026-01-14,63,310!2026-01-17,66,310!2026-01-06,57,310!2026-01-17,66,310!2026-01-13,63,310!2026-01-11,61,310!2025-12-26,5,355!2025-12-26,5,355-->
 
 ## using Q-function
 

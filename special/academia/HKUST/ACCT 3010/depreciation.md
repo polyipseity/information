@@ -80,11 +80,11 @@ _Example_: a machine costing £45 000 with no residual value bought on 10 Jun
 
 For assets bought or sold mid‑year, companies may adopt one of several _fractional‑year rules_ to prorate depreciation. Each method balances simplicity against accuracy, with firms choosing based on accounting policy or regulatory guidance.
 
-- _Nearest fraction of a year_ ::@:: – the period is rounded to the nearest whole fraction (e.g., 6⅔ months for 10 June), using that proportion of the annual charge;
-- _Nearest full month_ ::@:: – each month counts as one‑twelth of a year, so the depreciation for a purchase on 10 June would be $\frac{7}{12}$ of the yearly amount;
-- _Half‑year rule_ ::@:: – the asset is treated as if it had been in service for exactly six months regardless of the actual acquisition date, simplifying calculation but potentially overstating or understating depreciation;
-- _Full year in acquisition, none in disposal_ ::@:: – a new asset receives a full yearly charge even though it was only owned part‑time, while an asset sold before year’s end receives no depreciation for that period;
-- _None in acquisition, full year in disposal_ ::@:: – the reverse of rule 4: the newly acquired asset is not depreciated until the next fiscal year, but a disposed asset still accrues a full yearly charge for the period it was held.
+- _Nearest fraction of a year_ ::@:: – the period is rounded to the nearest whole fraction (e.g., 6⅔ months for 10 June), using that proportion of the annual charge; <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+- _Nearest full month_ ::@:: – each month counts as one‑twelth of a year, so the depreciation for a purchase on 10 June would be $\frac{7}{12}$ of the yearly amount; <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+- _Half‑year rule_ ::@:: – the asset is treated as if it had been in service for exactly six months regardless of the actual acquisition date, simplifying calculation but potentially overstating or understating depreciation; <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+- _Full year in acquisition, none in disposal_ ::@:: – a new asset receives a full yearly charge even though it was only owned part‑time, while an asset sold before year’s end receives no depreciation for that period; <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+- _None in acquisition, full year in disposal_ ::@:: – the reverse of rule 4: the newly acquired asset is not depreciated until the next fiscal year, but a disposed asset still accrues a full yearly charge for the period it was held. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
 
 ## revision of depreciation rates
 

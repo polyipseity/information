@@ -43,7 +43,7 @@ Every graph {@{decomposes into a disjoint union of [1-connected components](comp
 
 ## properties
 
-Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{cycles of length at least $2k$, cycles of length $k$}@}\) <!--SR:!2029-04-11,1210,350-->
+Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{cycles of length at least $2k$, cycles of length $k$}@}\) <!--SR:!2029-04-11,1210,350!2025-12-25,4,342-->
 
 - (annotation: _k≥2_) Every _k_-connected graph of order (annotation: i.e. number of vertices) at least $2k$ ::@:: contains a [cycle](cycle%20(graph%20theory).md) of length at least $2k$ <!--SR:!2026-06-11,320,250!2025-12-29,228,270-->
 - (annotation: _k≥2_) In a _k_-connected graph, ::@:: any $k$ vertices in $G$ lie on a common [cycle](cycle%20(graph%20theory).md).<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-03-23,312,290!2027-04-03,570,310-->

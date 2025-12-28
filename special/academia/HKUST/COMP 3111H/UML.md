@@ -475,7 +475,7 @@ It is typically {@{drawn in two ways}@}. First, it can appear as {@{an ordinary 
 
 To {@{specify entity classes for a model}@}, dissect {@{each use-case scenario}@} and asking {@{which domain entities must participate in that flow}@}. By tracing {@{the steps of a scenario}@}—such as {@{retrieving data, performing calculations or persisting results}@}—you can pinpoint {@{the concrete entity classes}@} that are {@{necessary to fulfil the use case's responsibilities}@}. \(e.g. {@{`Course`, `CourseOffering`, and `Professor`}@} in {@{a course registration system}@}\) The process is somewhat similar to {@{constructing a domain model}@}. <!--SR:!2026-01-08,28,419!2026-01-06,28,414!2026-01-06,26,419!2026-01-07,27,416!2026-01-06,26,419!2026-01-04,26,414!2026-01-05,27,414!2026-01-08,28,419!2026-01-08,28,416!2026-01-05,27,415-->
 
-{@{Entity objects}@} interact {@{only with control objects}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in information}@}. They should {@{_never_ interact with other entity objects}@} directly. These result in a {@{well structured and maintainable}@} system. <!--SR:!2026-01-08,28,419!2026-01-05,27,415!2026-01-06,28,415!2026-01-06,26,419!2026-01-08,28,418!2026-01-04,26,414-->
+{@{Entity objects}@} interact {@{only with control objects}@}, at least {@{_initially_}@}, providing {@{an encapsulation and isolation layer}@} that isolate {@{changes in information}@}. They should {@{_never_ interact with other entity objects}@} directly. These result in a {@{well structured and maintainable}@} system. <!--SR:!2026-01-08,28,419!2026-01-05,27,415!2026-01-06,28,415!2026-01-06,26,419!2026-01-08,28,418!2026-01-04,26,414!2025-12-26,5,412-->
 
 #### control classes
 
@@ -526,7 +526,7 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 ### cohesion
 
-{@{The spectrum of cohesion}@} ranges from _classes_ that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal}@} &lt; {@{procedural &lt; communicational &lt; sequential &lt; functional}@}\) <!--SR:!2026-01-06,26,419!2026-01-07,27,416!2026-01-07,27,419!2025-12-31,21,396!2026-01-08,28,416!2025-12-30,20,399!2025-12-31,22,395-->
+{@{The spectrum of cohesion}@} ranges from _classes_ that {@{serve no clear purpose (coincidental)}@} up through those that {@{perform a single, well-defined task (functional)}@}. {@{Acceptable cohesion}@} includes {@{"_functional_" \(highest cohesion\) only}@}. The list from {@{lowest cohesion \("scatter-minded"\) to highest cohesion \("single-minded"\)}@} is: \(annotation: 7 items: {@{coincidental &lt; logical &lt; temporal}@} &lt; {@{procedural &lt; communicational &lt; sequential &lt; functional}@}\) <!--SR:!2026-01-06,26,419!2026-01-07,27,416!2026-01-07,27,419!2025-12-31,21,396!2026-01-08,28,416!2025-12-30,20,399!2025-12-31,22,395!2025-12-26,5,412-->
 
 1. __Coincidental__ ::@:: — the class has no discernible function. <!--SR:!2026-01-04,26,415!2026-01-07,27,419-->
 2. __Logical__ ::@:: — it groups several related but distinct responsibilities. <!--SR:!2026-01-06,26,418!2026-01-06,28,414-->
@@ -538,7 +538,7 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 ### coupling
 
-{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. The list from {@{lowest coupling to highest coupling}@} is: \(annotation: 7 items: {@{no direct &lt; data &lt; stamp}@} &lt; {@{control &lt; external &lt; common &lt; content}@}\) <!--SR:!2026-01-04,26,414!2026-01-08,28,419!2026-01-07,27,419!2025-12-31,21,399!2026-01-06,28,415!2026-01-07,27,419!2026-01-08,28,416!2025-12-30,20,396-->
+{@{The spectrum of coupling}@} ranges from {@{"no direct" to "content"}@}. {@{Acceptable coupling}@} includes {@{"no direct", "data", and "stamp" \(first 3 lowest coupling\)}@}. {@{"Data" \(2nd lowest coupling\) being the preferred form}@} because it {@{involves only simple parameter passing}@}. The list from {@{lowest coupling to highest coupling}@} is: \(annotation: 7 items: {@{no direct &lt; data &lt; stamp}@} &lt; {@{control &lt; external &lt; common &lt; content}@}\) <!--SR:!2026-01-04,26,414!2026-01-08,28,419!2026-01-07,27,419!2025-12-31,21,399!2026-01-06,28,415!2026-01-07,27,419!2026-01-08,28,416!2025-12-30,20,396!2025-12-26,5,412-->
 
 1. __No direct__ ::@:: — classes have no relationship. <!--SR:!2026-01-06,28,415!2026-01-08,28,418-->
 2. __Data__ ::@:: — classes communicate solely through primitive data or simple value objects (ideal). <!--SR:!2026-01-07,27,419!2026-01-08,28,416-->
@@ -550,7 +550,7 @@ In {@{both analysis and design}@} we aim for {@{_highly cohesive_ yet _loosely c
 
 ### SOLID principles
 
-{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution}@}, {@{interface segregation, dependency inversion}@}\) <!--SR:!2026-01-06,26,416!2026-01-08,28,416!2026-01-06,28,414!2026-01-07,27,419!2026-01-06,26,416!2026-01-05,27,414!2026-01-06,28,414!2026-01-06,28,414!2025-12-30,20,399-->
+{@{The _SOLID principles_}@} are {@{a set of guidelines}@} that promote {@{maintainable, extensible, and robust object-oriented design}@}. {@{Each letter}@} stands for {@{one principle}@} that addresses {@{a different aspect of class responsibility, flexibility, and abstraction}@}. {@{Applying these principles}@} during design promotes {@{modularity and ease of maintenance}@}. They stand for: \(annotation: 5 items: {@{single responsibility, open—closed, Liskov substitution}@}, {@{interface segregation, dependency inversion}@}\) <!--SR:!2026-01-06,26,416!2026-01-08,28,416!2026-01-06,28,414!2026-01-07,27,419!2026-01-06,26,416!2026-01-05,27,414!2026-01-06,28,414!2026-01-06,28,414!2025-12-30,20,399!2025-12-26,5,412-->
 
 - _Single Responsibility Principle_ ::@:: Each class has one responsibility. <!--SR:!2026-01-06,26,416!2026-01-06,26,416-->
 - _Open—Closed Principle_ ::@:: Classes accept extension but resist modification. <!--SR:!2026-01-08,28,416!2026-01-06,26,416-->

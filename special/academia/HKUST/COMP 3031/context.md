@@ -211,7 +211,7 @@ More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_de
 
 ## `given`
 
-Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}. The following {@{creates a new instance of `Ordering[Int]`}@}: <!--SR:!2026-02-13,76,329!2026-02-06,70,329!2026-02-13,76,329-->
+Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}. The following {@{creates a new instance of `Ordering[Int]`}@}: <!--SR:!2026-02-13,76,329!2026-02-06,70,329!2026-02-13,76,329!2025-12-26,5,351-->
 
 > [!example] __`Ordering.Int`__
 >
@@ -223,7 +223,7 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 >     def compare(x: Int, y: Int): Int =
 >       if (x < y) -1 else if (x > y) 1 else 0
 > ```
-<!--SR:!2026-02-13,76,329!2026-02-05,69,329!2026-01-30,64,329-->
+<!--SR:!2026-02-13,76,329!2026-02-05,69,329!2026-01-30,64,329!2025-12-26,5,351-->
 
 {@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!2026-02-01,66,329!2026-02-02,67,329!2026-02-13,76,329-->
 
@@ -235,8 +235,9 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 > given Ordering[Double] with
 >   def compare(x: Double, y: Double): Int = ...
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-To {@{assign an already existing instance to `given`}@}, use {@{the assignment operator `=`}@}:
+To {@{assign an already existing instance to `given`}@}, use {@{the assignment operator `=`}@}: <!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
 > [!example] __assigning to `given`__
 >
@@ -246,6 +247,7 @@ To {@{assign an already existing instance to `given`}@}, use {@{the assignment o
 > given Type = instance        // unnamed
 > given name: Type = instance  // named: `name`
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
 ### `summon`
 <!--SR:!2026-01-31,65,329!2026-02-05,69,329!2026-01-23,58,310-->
@@ -506,7 +508,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-01-23,58,
 
 ## monoid example
 
-{@{Monoids extend semigroups}@} by adding {@{a neutral element _unit_}@}. A simple {@{Scala definition}@} is
+{@{Monoids extend semigroups}@} by adding {@{a neutral element _unit_}@}. A simple {@{Scala definition}@} is <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
 > [!example] __monoid trait__
 >
@@ -516,21 +518,23 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-01-23,58,
 > trait Monoid[T] extends SemiGroup[T]:
 >   def unit: T
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-{@{The standard list reduction `reduce`}@} can be rewritten using {@{a monoid instance}@}, making use of {@{the neutral element `unit`}@}:
+{@{The standard list reduction `reduce`}@} can be rewritten using {@{a monoid instance}@}, making use of {@{the neutral element `unit`}@}: <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
 > [!example] __monoid‑aware reduce__
 >
-> Uses {@{the monoid’s `unit`}@} as {@{initial value}@}, so {@{empty lists are handled}@}.  
+> Uses {@{the monoid’s `unit`}@} as {@{initial value}@}, so {@{empty lists are handled}@}.
 >
 > ```Scala
 > def reduce[T: Monoid](xs: List[T]): T =
 >   xs.reduceLeft(Monoid[T].unit)(_.combine(_))
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-With {@{a _context bound_ (`T: Monoid`)}@} and {@{the companion object}@} we avoid passing {@{the instance (`Monoid[T]`) explicitly}@}.
+With {@{a _context bound_ (`T: Monoid`)}@} and {@{the companion object}@} we avoid passing {@{the instance (`Monoid[T]`) explicitly}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-A type may have {@{several monoid instances}@}, e.g. {@{`Int`}@} with {@{addition or multiplication}@}:
+A type may have {@{several monoid instances}@}, e.g. {@{`Int`}@} with {@{addition or multiplication}@}: <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
 > [!example] __integer monoids__
 >
@@ -544,10 +548,11 @@ A type may have {@{several monoid instances}@}, e.g. {@{`Int`}@} with {@{additio
 >   extension (x: Int) def combine(y: Int): Int = x * y
 >   def unit: Int = 1
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
-Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropriate instance to `reduce`}@}:
+Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropriate instance to `reduce`}@}: <!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __sum and product__  
+> [!example] __sum and product__
 >
 > {@{Calls `reduce`}@} with {@{the chosen monoid}@} to implement {@{`sum` and `product`}@}.
 >
@@ -555,16 +560,17 @@ Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropria
 > def sum(xs: List[Int]): Int   = reduce(xs)(using sumMonoid)
 > def product(xs: List[Int]): Int = reduce(xs)(using prodMonoid)
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-{@{Omitting the `using` clause}@} leads to {@{an _ambiguity_ error}@} because {@{both instances (`sumMonoid` and `prodMonoid`) are in scope}@}. The expression {@{`reduce(xs)(using sumMonoid)`}@} showcases {@{_context_—the implicit search that supplies the correct monoid}@}. If {@{no instance is found or multiple exist}@}, {@{compilation fails}@}, enforcing the rule that each type has {@{at most one lawful monoid per program fragment}@}.
+{@{Omitting the `using` clause}@} leads to {@{an _ambiguity_ error}@} because {@{both instances (`sumMonoid` and `prodMonoid`) are in scope}@}. The expression {@{`reduce(xs)(using sumMonoid)`}@} showcases {@{_context_—the implicit search that supplies the correct monoid}@}. If {@{no instance is found or multiple exist}@}, {@{compilation fails}@}, enforcing the rule that each type has {@{at most one lawful monoid per program fragment}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-{@{A monoid}@} must satisfy {@{the associativity law `x.combine(y).combine(z) == x.combine(y.combine(z))` and the identity laws `unit.combine(x) == x  &&  x.combine(unit) == x`}@}. These laws guarantee that {@{`reduce` behaves consistently}@}, e.g. for {@{empty lists}@} it returns {@{the neutral element}@} and for {@{non‑empty lists}@} it equals {@{the left fold using the monoid’s combine}@}. {@{The same pattern applies}@} to other algebraic structures such as {@{_groups_ or _monads_}@}, where a type class encodes {@{the operations and their laws}@}.
+{@{A monoid}@} must satisfy {@{the associativity law `x.combine(y).combine(z) == x.combine(y.combine(z))` and the identity laws `unit.combine(x) == x  &&  x.combine(unit) == x`}@}. These laws guarantee that {@{`reduce` behaves consistently}@}, e.g. for {@{empty lists}@} it returns {@{the neutral element}@} and for {@{non‑empty lists}@} it equals {@{the left fold using the monoid’s combine}@}. {@{The same pattern applies}@} to other algebraic structures such as {@{_groups_ or _monads_}@}, where a type class encodes {@{the operations and their laws}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
 ## context management
 
-{@{There are two major ways}@} to use {@{Scala context}@}: {@{type classes and providing execution context}@}. Above, we have focused on {@{type classes}@}, which are about {@{_type_ instances of generic traits}@}. To use an instance, {@{a contextual parameter}@} is required:
+{@{There are two major ways}@} to use {@{Scala context}@}: {@{type classes and providing execution context}@}. Above, we have focused on {@{type classes}@}, which are about {@{_type_ instances of generic traits}@}. To use an instance, {@{a contextual parameter}@} is required: <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __using a contextual parameter__  
+> [!example] __using a contextual parameter__
 >
 > {@{Type classes}@} are about {@{_type_ instances of generic traits}@}. To use an instance, {@{a contextual parameter}@} is required:
 >
@@ -572,15 +578,15 @@ Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropria
 > def foo[T](x: T)(using ev: TC[T]) = …
 > ```
 >
-> Here `ev` supplies {@{the concrete implementation of the type class `TC`}@}. {@{Contextual parameters}@} are {@{values, not types}@}; they are looked up at {@{call site}@}.
+> Here `ev` supplies {@{the concrete implementation of the type class `TC`}@}. {@{Contextual parameters}@} are {@{values, not types}@}; they are looked up at {@{call site}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-In contrast, {@{an execution context}@} usually abstracts over {@{a simple type}@}, and provides information needed to {@{execute the current code}@}. Intuitively, {@{_type classes_, implemented using Scala contexts}@}, provide {@{_type-level_ information}@}, while {@{_execution contexts_, also implemented using Scala contexts}@}, provide {@{_runtime-level_ information}@}.
+In contrast, {@{an execution context}@} usually abstracts over {@{a simple type}@}, and provides information needed to {@{execute the current code}@}. Intuitively, {@{_type classes_, implemented using Scala contexts}@}, provide {@{_type-level_ information}@}, while {@{_execution contexts_, also implemented using Scala contexts}@}, provide {@{_runtime-level_ information}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
 ### execution contexts  
 
-An example where {@{execution contexts become useful}@} is {@{parallel runtimes}@}. Parallel runtimes need {@{schedulers}@}. {@{A scheduler}@} is represented by {@{the type `ExecutionContext`}@}. {@{A default instance}@} is usually declared as
+An example where {@{execution contexts become useful}@} is {@{parallel runtimes}@}. Parallel runtimes need {@{schedulers}@}. {@{A scheduler}@} is represented by {@{the type `ExecutionContext`}@}. {@{A default instance}@} is usually declared as <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __default execution context__  
+> [!example] __default execution context__
 >
 > Parallel runtimes need {@{schedulers}@}. {@{A scheduler}@} is represented by {@{the type `ExecutionContext`}@}. {@{A default instance}@} is usually declared as
 >
@@ -588,21 +594,22 @@ An example where {@{execution contexts become useful}@} is {@{parallel runtimes}
 > given global: ExecutionContext = ForkJoinPool.commonPool()
 > ```
 >
-> {@{The scheduler pool}@} is {@{lazily initialised on first use}@}.
+> {@{The scheduler pool}@} is {@{lazily initialised on first use}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-{@{Functions that run asynchronous code}@} take it as {@{a contextual parameter}@}:
+{@{Functions that run asynchronous code}@} take it as {@{a contextual parameter}@}: <!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __passing an execution context__  
+> [!example] __passing an execution context__
 >
 > {@{Functions that run asynchronous code}@} take it as {@{a contextual parameter}@}:
 >
 > ```Scala
 > def processItems(items: List[Int])(using ec: ExecutionContext): Unit = ...
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
-{@{The same mechanism}@} propagates {@{the context through a call chain without having to thread the value explicitly}@}. When {@{specific code needs to use a specialized `ExecutionContext`}@}, {@{declaring another `given` instance}@} can be used to override {@{the `global` instance}@}.
+{@{The same mechanism}@} propagates {@{the context through a call chain without having to thread the value explicitly}@}. When {@{specific code needs to use a specialized `ExecutionContext`}@}, {@{declaring another `given` instance}@} can be used to override {@{the `global` instance}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-Another example is {@{an expression language}@} carrying {@{its own _environment_ as a contextual value}@}.
+Another example is {@{an expression language}@} carrying {@{its own _environment_ as a contextual value}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
 > [!example] __expression language environment__
 >
@@ -615,7 +622,7 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 >   case Prod(x, y: Expr)
 >   case Var(name: String)
 >   case Let(name: String, rhs: Expr, body: Expr)
-> 
+>
 > def eval(e: Expr): Int =
 >   def recur(e: Expr)(using env: Map[String, Int]): Int = e match
 >     case Number(n)            => n
@@ -626,14 +633,15 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 >       recur(body)(using env + (name -> recur(rhs)))
 >   recur(e)(using Map.empty)
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
-{@{The `env` contextual parameter}@} is {@{implicitly supplied at each recursive call}@}; it represents {@{the current bindings of variables}@}. This pattern demonstrates how {@{contextual parameters can model mutable state that is scoped to a computation}@}, without {@{leaking it into the surrounding code}@}.
+{@{The `env` contextual parameter}@} is {@{implicitly supplied at each recursive call}@}; it represents {@{the current bindings of variables}@}. This pattern demonstrates how {@{contextual parameters can model mutable state that is scoped to a computation}@}, without {@{leaking it into the surrounding code}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
 ### opaque type aliases for safety
 
-{@{Using common types such as `Int` or `String`}@} as {@{global given instances}@} is {@{error‑prone}@}. Instead, {@{opaque types}@} hide {@{the underlying representation}@}:
+{@{Using common types such as `Int` or `String`}@} as {@{global given instances}@} is {@{error‑prone}@}. Instead, {@{opaque types}@} hide {@{the underlying representation}@}: <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __opaque type alias__  
+> [!example] __opaque type alias__
 >
 > {@{Using common types such as `Int` or `String`}@} as {@{global given instances}@} is {@{error‑prone}@}. Instead, {@{opaque types}@} hide {@{the underlying representation}@}:
 >
@@ -643,11 +651,11 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 >   def create(v: Person*): Viewers = v.map(_.name).toSet
 > ```
 >
-> Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; two different modules can declare {@{their own `Viewers` without clash}@}.
+> Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; two different modules can declare {@{their own `Viewers` without clash}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; two different modules can declare {@{their own `Viewers` without clash}@}. When {@{a function requires this context}@}, it declares {@{a contextual parameter}@}:
+Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; two different modules can declare {@{their own `Viewers` without clash}@}. When {@{a function requires this context}@}, it declares {@{a contextual parameter}@}: <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __contextual parameter with opaque type__  
+> [!example] __contextual parameter with opaque type__
 >
 > When {@{a function requires this context}@}, it declares {@{a contextual parameter}@}:
 >
@@ -655,14 +663,15 @@ Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; t
 > def task(x: Int)(using v: Conf.Viewers): Boolean =
 >   summon[Conf.Viewers].contains("Alice")
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351-->
 
 ## implicit function types
 
-{@{Scala's _using_ clauses}@} can be lifted into {@{first‑class values}@} by turning them into {@{implicit function types (`A ?=> B`)}@}
+{@{Scala's _using_ clauses}@} can be lifted into {@{first‑class values}@} by turning them into {@{implicit function types (`A ?=> B`)}@} <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-A method that previously {@{required an explicit `using Viewers` argument}@} can now be written as {@{a method returning a value of type `Viewers ?=> List[Paper]`}@}. The compiler infers {@{the `using` argument automatically}@}, so callers still {@{need not pass it explicitly just as before}@}.
+A method that previously {@{required an explicit `using Viewers` argument}@} can now be written as {@{a method returning a value of type `Viewers ?=> List[Paper]`}@}. The compiler infers {@{the `using` argument automatically}@}, so callers still {@{need not pass it explicitly just as before}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __implicit function type__  
+> [!example] __implicit function type__
 >
 > A method that previously {@{required an explicit `using Viewers` argument}@} can now be written as {@{a method returning a value of type `Viewers ?=> List[Paper]`}@}. The compiler infers {@{the `using` argument automatically}@}, so callers still {@{need not pass it explicitly just as before}@}.
 >
@@ -670,11 +679,11 @@ A method that previously {@{required an explicit `using Viewers` argument}@} can
 > def rankings: Viewers ?=> List[Paper]
 > ```
 >
-> The expression `rankings` expands to {@{`rankings(using viewers)`}@}; {@{the implicit argument}@} is supplied by {@{the compiler}@}.
+> The expression `rankings` expands to {@{`rankings(using viewers)`}@}; {@{the implicit argument}@} is supplied by {@{the compiler}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-Replacing {@{a method signature ending in `(using Viewers): T`}@} with {@{`: Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}.
+Replacing {@{a method signature ending in `(using Viewers): T`}@} with {@{`: Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-> [!example] __type alias for context abstraction__  
+> [!example] __type alias for context abstraction__
 >
 > Replacing {@{a method signature ending in `(using Viewers): T`}@} with {@{`: Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}.
 >
@@ -682,5 +691,6 @@ Replacing {@{a method signature ending in `(using Viewers): T`}@} with {@{`: Vie
 > type Viewed[T] = Viewers ?=> T
 > def rankings: Viewed[List[Paper]]
 > ```
+<!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
 
-It trades {@{a term for a type}@}. Originally, the developer writes {@{the required implicit _type_ (`Viewers`)}@}, and {@{the compiler supplies the actual value}@}. Now with {@{implicit function types}@}, the developer writes {@{the _return type_ (`Viewed[List[Paper]]`)}@}, and the compiler {@{_additionally_ infers implicit function parameters before inferring its actual value}@}.
+It trades {@{a term for a type}@}. Originally, the developer writes {@{the required implicit _type_ (`Viewers`)}@}, and {@{the compiler supplies the actual value}@}. Now with {@{implicit function types}@}, the developer writes {@{the _return type_ (`Viewed[List[Paper]]`)}@}, and the compiler {@{_additionally_ infers implicit function parameters before inferring its actual value}@}. <!--SR:!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351!2025-12-26,5,351-->
