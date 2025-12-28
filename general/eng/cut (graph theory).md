@@ -57,7 +57,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 >
 > {@{A maximum cut.}@}
 
-{@{A cut is _maximum_}@} if {@{the size of the cut is not smaller than the size of any other cut}@}. The illustration on the right shows {@{a maximum cut: the size of the cut is equal to 5}@}, and {@{there is no cut of size 6, or |_E_| (the number of edges), because the graph is not [bipartite](bipartite%20graph.md) (there is an [odd cycle](cycle%20graph.md#terminology))}@}.
+{@{A cut is _maximum_}@} if {@{the size of the cut is not smaller than the size of any other cut}@}. The illustration on the right shows {@{a maximum cut: the size of the cut is equal to 5}@}, and there is {@{no cut of size 6, or |_E_| (the number of edges)}@}, because {@{the graph is not [bipartite](bipartite%20graph.md) (there is an [odd cycle](cycle%20graph.md#terminology))}@}.
 
 In general, {@{finding a maximum cut}@} is {@{computationally hard}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The max-cut problem}@} is {@{one of [Karp's 21 NP-complete problems](Karp's%2021%20NP-complete%20problems.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The max-cut problem is {@{also [APX-hard](APX.md), meaning that there is no polynomial-time approximation scheme for it unless [P = NP](P%20versus%20NP%20problem.md)}@}.<sup>[\[5\]](#^ref-5)</sup> However, it can be {@{approximated to within a constant [approximation ratio](approximation%20algorithm.md) using [semidefinite programming](semidefinite%20programming.md)}@}.<sup>[\[6\]](#^ref-6)</sup>
 

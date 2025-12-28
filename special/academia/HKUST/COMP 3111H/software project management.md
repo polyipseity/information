@@ -64,7 +64,7 @@ When evaluating a support system, consider {@{lifecycle coverage}@} ({@{UML mode
 
 For {@{effective monitoring}@} the WBS must satisfy: {@{_plannability_}@}: tasks have {@{defined durations}@}; {@{_assignability_}@}: each task can be {@{allocated to an individual or team}@}; {@{_trackability_}@}: progress is {@{measurable against a schedule and cost baseline}@}; and {@{_appropriate granularity_}@}: neither {@{too fine (unmanageable) nor too coarse (inaccurate)}@}.  
 
-{@{An example hierarchy}@} might list {@{phases—Inception, Elaboration, Construction, Transition}@}—each subdivided into {@{Build, Requirements, Design, Implementation}@}, {@{Testing, Packaging, and Installation}@} activities.
+{@{An example hierarchy}@} might list {@{phases—Inception, Elaboration, Construction, Transition}@}—each subdivided into {@{Build, Requirements, Design, Implementation}@}, {@{testing, Packaging, and Installation}@} activities.
 
 ## staffing and organization
 
@@ -88,7 +88,7 @@ For {@{effective monitoring}@} the WBS must satisfy: {@{_plannability_}@}: tasks
 
 ### PERT chart
 
-{@{A Program Evaluation and Review Technique (PERT) chart}@} is {@{a network diagram of tasks with durations}@}. {@{Each node}@} represents {@{a milestone (a point in time)}@}; {@{edges (arrows)}@} denote {@{tasks or precedence}@} and is weighted by {@{the task duration}@}. {@{Dummy tasks (with zero weight)}@} may be {@{added so every in-between node has at least one incoming and one outgoing edge}@}.
+{@{A Program Evaluation and Review Technique (PERT) chart}@} is {@{a network diagram of tasks with durations}@}. {@{Each _node_}@} represents {@{a milestone (a point in time)}@}; {@{_edges_ (arrows)}@} denote {@{tasks or precedence}@} and is weighted by {@{the task duration}@}. {@{Dummy tasks (edges with zero weight)}@} may be {@{added so every in-between node has at least one incoming and one outgoing edge}@}.
 
 {@{The critical path}@} is the {@{longest time-path from start to finish}@}; its length equals the {@{project duration}@}. {@{Slack}@} (difference between {@{earliest and latest completion times}@}) indicates how much a {@{milestone (node)}@} can be {@{delayed without affecting the overall schedule}@}, which provides {@{buffer information for risk management}@}.
 

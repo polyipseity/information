@@ -257,7 +257,7 @@ Again, the winning strategy is {@{to move such that this sum is zero for every d
 
 ### building nim
 
-Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins, starting with the next player that would move. This game is denoted _BN(n,s)_}@}.
+Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins}@}, starting with {@{the next player that would move}@}. This game is denoted {@{_BN(n,s)_}@}.
 
 ### higher-dimensional nim
 

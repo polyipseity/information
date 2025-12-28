@@ -44,7 +44,7 @@ For example if {@{_A_ and _B_ only contain [rational numbers](rational%20number.
 
 ## ordering of cuts
 
-Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C_, _D_\) \(of the same superset\)}@} if {@{_A_ is a proper subset of _C_}@}. Equivalently, if {@{_D_ is a proper subset of _B_}@}, {@{the cut \(_A_, _B_\) is again _less than_ \(_C_, _D_\)}@}. In this way, {@{set inclusion can be used to represent the ordering of numbers}@}, and {@{all other relations \(_greater than_, _less than or equal to_, _equal to_, and so on\) can be similarly created from set relations}@}.
+Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C_, _D_\) \(of the same superset\)}@} if {@{_A_ is a proper subset of _C_}@}. Equivalently, if {@{_D_ is a proper subset of _B_}@}, {@{the cut \(_A_, _B_\) is again _less than_ \(_C_, _D_\)}@}. In this way, {@{set inclusion}@} can be used to {@{represent the ordering of numbers}@}, and {@{all other relations \(_greater than_, _less than or equal to_, _equal to_, and so on\)}@} can be {@{similarly created from set relations}@}.
 
 {@{The set of all Dedekind cuts}@} is {@{itself a linearly ordered set \(of sets\)}@}. Moreover, {@{the set of Dedekind cuts has the [least-upper-bound property](least-upper-bound%20property.md)}@}, i.e., {@{every nonempty subset of it that has any upper bound has a _least_ upper bound}@}. Thus, {@{constructing the set of Dedekind cuts}@} serves the purpose of {@{embedding the original ordered set _S_, which might not have had the least-upper-bound property}@}, within {@{a \(usually larger\) linearly ordered set that does have this useful property}@}.
 

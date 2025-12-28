@@ -329,7 +329,7 @@ This technique is used where {@{the operation of the circuit is to be essentiall
 
 #### graphical method of dc analysis
 
-In {@{a great many circuit designs}@}, {@{the dc bias}@} is {@{fed to a non-linear component via a resistor \(or possibly a network of resistors\)}@}. Since {@{resistors are linear components}@}, it is particularly easy to {@{determine the quiescent operating point of the non-linear device from a graph of its transfer function}@}. The method is as follows: from {@{linear network analysis}@} {@{the output transfer function \(that is output voltage against output current\)}@} is calculated for {@{the network of resistor\(s\) and the generator driving them}@}. This will be {@{a straight line \(called the [load line](load%20line%20(electronics).md)\)}@} and can {@{readily be superimposed on the transfer function plot of the non-linear device}@}. {@{The point where the lines cross}@} is {@{the quiescent operating point}@}.
+In {@{a great many circuit designs}@}, {@{the dc bias}@} is {@{fed to a non-linear component via a resistor \(or possibly a network of resistors\)}@}. Since {@{resistors are linear components}@}, it is particularly easy to determine {@{the quiescent operating point of the non-linear device}@} from {@{a graph of its transfer function}@}. The method is as follows: from {@{linear network analysis}@} {@{the output transfer function \(that is output voltage against output current\)}@} is calculated for {@{the network of resistor\(s\) and the generator driving them}@}. This will be {@{a straight line \(called the [load line](load%20line%20(electronics).md)\)}@} and can {@{readily be superimposed on the transfer function plot of the non-linear device}@}. {@{The point where the lines cross}@} is {@{the quiescent operating point}@}.
 
 Perhaps the easiest practical method is to {@{calculate the \(linear\) network open circuit voltage and short circuit current}@} and {@{plot these on the transfer function of the non-linear device}@}. {@{The straight line joining these two point}@} is {@{the transfer function of the network}@}.
 
@@ -363,7 +363,7 @@ In this method, {@{the transfer function of the non-linear device}@} is {@{broke
 
 {@{The commonly accepted values for the transition point voltage}@} are {@{0.7V for silicon devices and 0.3V for germanium devices}@}. {@{An even simpler model of the diode, sometimes used in switching applications}@}, is {@{short circuit for forward voltages and open circuit for reverse voltages}@}.
 
-{@{The model of a forward biased pn junction having an approximately constant 0.7V}@} is also {@{a much used approximation for transistor base-emitter junction voltage in amplifier design}@}.
+{@{The model of a forward biased pn junction having an approximately constant 0.7V}@} is also {@{a much used approximation}@} for {@{transistor base-emitter junction voltage in amplifier design}@}.
 
 The piecewise method is {@{similar to the small signal method}@} in that {@{linear network analysis techniques can only be applied if the signal stays within certain bounds}@}. If {@{the signal crosses a discontinuity point then the model is no longer valid for linear analysis purposes}@}. The model does {@{have the advantage over small signal}@} however, in that it is {@{equally applicable to signal and dc bias}@}. These can therefore {@{both be analysed in the same operations and will be linearly superimposable}@}.
 

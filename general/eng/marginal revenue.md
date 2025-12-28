@@ -103,7 +103,7 @@ Alternatively, the relationship can be expressed as: <p> {@{P = MC/(1 + 1/e)}@}.
 
 Thus, for example, if {@{_e_ is −2 and MC is \$5.00}@} then {@{price is \$10.00}@}.
 
-__Example__ If {@{a company can sell 10 units at \$20 each or 11 units at \$19 each}@}, then {@{the marginal revenue from the eleventh unit is (11 × 19) − (10 × 20) = \$9}@}.
+__Example__ If a company can sell {@{10 units at \$20 each or 11 units at \$19 each}@}, then {@{the marginal revenue from the eleventh unit}@} is {@{(11 × 19) − (10 × 20) = \$9}@}.
 
 ## see also
 

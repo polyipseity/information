@@ -52,8 +52,6 @@ Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. The
 > foo[[X] =>> (X, X), Int](x => (x, x), 1)         // (1, 1) : (Int, Int)
 > type G[X] = (X, X); foo[G, Int](x => (x, x), 1)  // (1, 1) : (Int, Int)
 > ```
->
-> Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accepts {@{types as arguments and output a type}@}.
 
 Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accepts {@{types as arguments and output a type}@}.
 
@@ -161,11 +159,11 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >
 > Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}.
 
-{@{`Traverse`}@} builds on {@{`Applicative`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}:
+{@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}:
 
 > [!example] __traverse__  
 >
-> {@{`Traverse`}@} builds on {@{`Applicative`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}:
+> {@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}:
 >
 > ```Scala
 > trait Traverse[F[_]] extends Functor[F]:

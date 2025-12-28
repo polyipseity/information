@@ -638,8 +638,8 @@ The content is in teaching order.
 - COMP 3031
   - COMP 3031 / lab 4 ::@:: Compute sentence anagrams in Scala using occurrence lists, dictionary lookups, subset generation, subtraction, and recursion.
     - COMP 3031 / lab 4 / problem ::@:: An anagram rearranges letters to form new meaningful words. Extend from word anagrams to sentence anagrams by ignoring case and punctuation and using a provided dictionary.
-    - COMP 3031 / lab 4 / representation ::@:: - `type Word = String` <br/> - `type Sentence = List[Word]` <br/> - `type Occurrences = List[(Char, Int)]` &emsp; Sorted by character (ascending), lowercase-only, positive, counts.
-    - COMP 3031 / lab 4 / dictionary ::@:: `val dictionary: List[Word] = loadDictionary` &emsp; Preloaded list of meaningful words used to validate anagrams.
+    - COMP 3031 / lab 4 / representation ::@:: - `type Word = String` <br/> - `type Sentence = List[Word]` <br/> - `type Occurrences = List[(Char, Int)]`: sorted by character (ascending), lowercase-only, positive, counts.
+    - COMP 3031 / lab 4 / dictionary ::@:: `val dictionary: List[Word] = loadDictionary`: a preloaded list of meaningful words used to validate anagrams.
     - COMP 3031 / lab 4 / `wordOccurrences` ::@:: Produce `(Char, Int)` pairs from a word, case-insensitive, sorted by character.
     - COMP 3031 / lab 4 / `sentenceOccurrences` ::@:: Concatenate words in a sentence and reuse `wordOccurrences`.
     - COMP 3031 / lab 4 / index ::@:: Group the dictionary by occurrences for efficient lookup; words sharing the same occurrence list are anagrams.
@@ -832,11 +832,11 @@ The content is in teaching order.
 - COMP 3031
   - COMP 3031 / exercise 4 ::@:: Implement GCD, List primitives (`map`, `foldLeft`), and memory CAS in a small expression language using the given `Expr` AST.
     - COMP 3031 / exercise 4 / `Expr` ::@:: Core syntax for expressions and binary ops. <p> - __`Expr`__: `Constant`, `Name`, `BinOp`, `IfNonzero`, `Call`, `Fun` <br/> - __`Expr`__ (lists): `Cons`, `EmptyList`, `Match` <br/> - __`Expr`__ (memory): `Read`, `Write`
-    - COMP 3031 / exercise 4 / `BinOp` instances ::@:: Shorthands for binary ops. <p> - `minus(e1, e2) = BinOp(Minus, e1, e2)` <br/> - `plus(e1, e2) = BinOp(Plus, e1, e2)` <br/> - `leq(e1, e2) = BinOp(LessEq, e1, e2)` &emsp; (returns `1` if `e1 <= e2`, else `0`) <br/> - `times(e1, e2) = BinOp(Times, e1, e2)` <br/> - `modulo(e1, e2) = BinOp(Modulo, e1, e2)`
+    - COMP 3031 / exercise 4 / `BinOp` instances ::@:: Shorthands for binary ops. <p> - `minus(e1, e2) = BinOp(Minus, e1, e2)` <br/> - `plus(e1, e2) = BinOp(Plus, e1, e2)` <br/> - `leq(e1, e2) = BinOp(LessEq, e1, e2)`: returns `1` if `e1 <= e2`, else `0` <br/> - `times(e1, e2) = BinOp(Times, e1, e2)` <br/> - `modulo(e1, e2) = BinOp(Modulo, e1, e2)`
     - COMP 3031 / exercise 4 / global environment ::@:: A sequence of `(String, Expr)` bindings; each definition can reference any name in the environment (mutually recursive bindings supported). Example: `div` defined via recursion using `LessEq` and subtraction.
     - COMP 3031 / exercise 4 / implement `gcd` ::@:: Implement Euclid’s algorithm: if `b == 0` then `a` else `gcd(b, a % b)`. <p> Encode recursion using `Fun` + `Call`; condition uses `IfNonzero(Name("b"), ...)` with `modulo`. <p> Curried calls: `Call(Call(Name("gcd"), arg1), arg2)`.
     - COMP 3031 / exercise 4 / implement `map` ::@:: Apply `f` to each element; rebuild list.
-    - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), acc), x)`.
+    - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), Name("acc")), Name("x"))`.
     - COMP 3031 / exercise 4 / implement `cas` ::@:: Compare-and-swap returns `1` on success (write performed) or `0` if the current value differs from `old`. <p> In `Expr`: use `Read` to fetch, `Write` to store and then continue with `andThen`. `IfNonzero(minus(Read(idx), old), ...)` effectively tests `mem(idx) != old`. `Write(idx, nw, Constant(1))` performs the write, then evaluates to `1`. <p> In this toy language, execution is sequential; real CAS is atomic in concurrent settings.
 
 ## week 11 lecture
@@ -881,9 +881,9 @@ The content is in teaching order.
   - COMP 3031 / lab 5 ::@:: Solve a simplified Bloxorz puzzle in Scala using lazy evaluation and breadth‑first search (BFS) to find the shortest move sequence.
     - COMP 3031 / lab 5 / problem ::@:: In a Bloxorz puzzle, explore a state space of block positions on a terrain; generate legal neighbors by rolling the block; search for a shortest path from start to goal using lazy streams (`LazyList`).
     - COMP 3031 / lab 5 / setup ::@:: The logic is split across `GameDef.scala` (positions, terrain, block, moves) and `Solver.scala` (lazy BFS over block states).
-    - COMP 3031 / lab 5 / `Pos` ::@:: `case class Pos(row: Int, y: Int)` where `row` increases downward (vertical axis) and `y` increases rightward (horizontal axis).
-    - COMP 3031 / lab 5 / `Terrain` ::@:: The board (walkable cells) is a function: `type Terrain = Pos => Boolean` &emsp; `true` means inside terrain; `false` means out of bounds.
-    - COMP 3031 / lab 5 / `terrainFunction(levelVector)` ::@:: Return a function that checks whether a position is within any non-`-` cell.
+     COMP 3031 / lab 5 / `Pos` ::@:: `case class Pos(row: Int, y: Int)` where `row` increases downward (vertical axis) and `y` increases rightward (horizontal axis).
+    - COMP 3031 / lab 5 / `Terrain` ::@:: The board (walkable cells) is a function: `type Terrain = Pos => Boolean`, where `true` means inside terrain; `false` means out of bounds.
+    - COMP 3031 / lab 5 / `terrainFunction(levelVector)` ::@:: Return a function that checks whether a position is within any non-hyphen (`-`) cell.
     - COMP 3031 / lab 5 / `findChar(c, levelVector)` ::@:: Locate the coordinates of a specific character (e.g., `S` for start, `T` for goal)
     - COMP 3031 / lab 5 / `Block` ::@:: A 2×1×1 cuboid represented by two positions: `case class Block(b1: Pos, b2: Pos)`. <p> It is _standing_ when `b1 == b2`. It is _legal_ when `terrain(b1) && terrain(b2)`.
     - COMP 3031 / lab 5 / `Move` ::@:: `left`, `right`, `up`, `down` roll the block, yielding new `Block`s with updated `(b1, b2)` according to orientation. The four possible moves recorded as case objects. <p> - `neighbors: List[(Block, Move)]`: Returns `(blockAfterMove, move)` for all four directions. <br/> - `legalNeighbors: List[(Block, Move)]`: Filter `neighbors` to those with `block.isLegal`.

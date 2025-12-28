@@ -176,7 +176,7 @@ Since {@{Coulomb's law only applies to stationary charges}@}, there is {@{no rea
 
 ### deriving Coulomb's law from Gauss's law
 
-Strictly speaking, {@{Coulomb's law cannot be derived from Gauss's law alone}@}, since {@{Gauss's law does not give any information regarding the [curl](curl%20(mathematics).md) of __E__}@} \(see {@{[Helmholtz decomposition](Helmholtz%20decomposition.md) and [Faraday's law](Faraday's%20law%20of%20induction.md)}@}\). However, Coulomb's law _can_ be proven from Gauss's law if {@{it is assumed, in addition, that the electric field from a [point charge](point%20charge.md#point%20charge) is spherically symmetric}@} \(this assumption, like {@{Coulomb's law itself, is exactly true if the charge is stationary, and approximately true if the charge is in motion}@}\).
+Strictly speaking, {@{Coulomb's law cannot be derived from Gauss's law alone}@}, since {@{Gauss's law does not give any information regarding the [curl](curl%20(mathematics).md) of __E__}@} \(see {@{[Helmholtz decomposition](Helmholtz%20decomposition.md) and [Faraday's law](Faraday's%20law%20of%20induction.md)}@}\). However, {@{Coulomb's law _can_ be proven from Gauss's law}@} if it is assumed, in addition, that {@{the electric field from a [point charge](point%20charge.md#point%20charge) is spherically symmetric}@} \(this assumption, like {@{Coulomb's law}@} itself, is {@{exactly true if the charge is stationary, and approximately true if the charge is in motion}@}\).
 
 > __Outline of proof__
 >

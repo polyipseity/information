@@ -67,7 +67,7 @@ With {@{this implementation of SimUDuck}@}, there are {@{4 major advantages}@}: 
 
 The above actually illustrates {@{a classic design pattern}@} known as the {@{_strategy pattern_}@}; see below. It follows {@{the third design principle}@}: of {@{_favouring composition (has-a) over inheritance (is-a)_}@}. Rather than having {@{each duck subclass inherit different behaviors}@} (which would require a {@{large number of subclasses}@}), {@{the duck class}@} simply holds {@{references to behavior objects}@}.
 
-The {@{fourth design principle}@} advocates for {@{_loose coupling between interacting objects_}@}. In a system, {@{loose coupling minimizes interdependencies between objects}@}, enabling {@{better scalability, maintainability, and performance}@}. This {@{fourth principle}@} is illustrated by the {@{_observer pattern_}@}. The {@{Observer pattern}@} exemplifies this principle by allowing the {@{subject to manage state changes and notify observers automatically}@}—without needing to {@{communicate directly with every observer}@}. This separation allows {@{components to change at runtime without needing to know each other}@}. Observers can {@{respond to data changes independently}@}, and new observers can be {@{added or removed without modifying the system}@}. {@{This dynamic model}@} supports {@{scalable systems}@} where {@{views can respond to changes in data}@}—such as in a {@{spreadsheet or financial report}@}.
+The {@{fourth design principle}@} advocates for {@{_loose coupling between interacting objects_}@}. In a system, {@{loose coupling minimizes interdependencies between objects}@}, enabling {@{better scalability, maintainability, and performance}@}. This {@{fourth principle}@} is illustrated by the {@{_observer pattern_}@}. The {@{Observer pattern}@} exemplifies this principle by allowing the subject to {@{manage state changes and notify observers automatically}@}—without needing to {@{communicate directly with every observer}@}. This separation allows {@{components to change at runtime without needing to know each other}@}. Observers can {@{respond to data changes independently}@}, and new observers can be {@{added or removed without modifying the system}@}. {@{This dynamic model}@} supports {@{scalable systems}@} where {@{views can respond to changes in data}@}—such as in a {@{spreadsheet or financial report}@}.
 
 The {@{fifth design principle}@} advocates that {@{software entities (classes, modules, functions)}@} should be {@{_open_ for extension but _closed_ for modification}@}. This is known as {@{the _open—closed principle_}@}.
 
@@ -79,11 +79,11 @@ The {@{fifth design principle}@} advocates that {@{software entities (classes, m
 
 - {@{_Structural patterns_}@}: Focus on {@{how classes and objects are composed to form larger structures}@}. These patterns define {@{how classes and objects are combined to create more complex structures}@}, promoting {@{loose coupling and reusability}@}. <p> Examples include {@{the Adapter, Decorator, Facade, Proxy, and Composite patterns}@}. They help manage {@{relationships between objects and provide interfaces that simplify interactions}@}.
 
-- {@{_Behavioral patterns_}@}: Address {@{dynamic interactions among classes and objects}@}. These patterns define {@{how responsibilities are assigned, how objects communicate, and how tasks are distributed among components}@}. They emphasize the {@{flow of control and coordination between objects}@}. <p> Examples include {@{the Observer, Command, Strategy}@}, {@{Mediator, Chain of Responsibility, and Visitor patterns}@}. {@{Behavioral patterns}@} are essential for modeling {@{interactions such as event handling, request processing, and policy-based decision-making}@}.
+- {@{_Behavioral patterns_}@}: Address {@{dynamic interactions among classes and objects}@}. These patterns define how {@{responsibilities are assigned, how objects communicate, and how tasks are distributed among components}@}. They emphasize the {@{flow of control and coordination between objects}@}. <p> Examples include {@{the Observer, Command, Strategy}@}, {@{Mediator, Chain of Responsibility, and Visitor patterns}@}. {@{Behavioral patterns}@} are essential for modeling {@{interactions such as event handling, request processing, and policy-based decision-making}@}.
 
 - {@{_Concurrency patterns_}@}: Specifically address {@{challenges in multi-threaded programming}@}. These patterns manage the {@{interactions and coordination of multiple concurrent objects or threads}@}, ensuring {@{safe and efficient execution in parallel environments}@}. <p> They help avoid {@{race conditions, ensure synchronization, and manage shared resources}@}. While {@{less commonly used in general software design}@}, they are {@{critical in real-time, high-performance, or distributed systems}@}. <p> Examples include {@{the Active Object, Balking, Monitor, Reactor}@}, {@{Read—Write Lock, Scheduler, Thread Pool patterns}@}.
 
-{@{The categorization of design patterns}@} reflects {@{a structured approach to software design}@}, organizing {@{solutions by the type of problem they solve}@}. {@{This classification}@} helps {@{developers identify the appropriate pattern for a given scenario}@} and {@{understand how different patterns relate to one another}@}.
+{@{The categorization of design patterns}@} reflects {@{a structured approach to software design}@}, organizing {@{solutions by the type of problem they solve}@}. {@{This classification}@} helps developers identify {@{the appropriate pattern for a given scenario}@} and understand how {@{different patterns relate to one another}@}.
 
 ## documentation
 
@@ -119,7 +119,7 @@ In {@{the Simuduck example}@}, {@{the `Duck` class}@} maintains {@{references to
 
 {@{This pattern}@} is {@{widely applicable to solving recurring software problems}@}—such as {@{maintaining behavior in a system that varies in scale or performance}@}.
 
-{@{The core idea behind the Strategy pattern}@} is {@{not a finished implementation}@}, but {@{a reusable solution to a common problem}@}—where {@{behavior is encapsulated, delegated, and changed at runtime}@}. {@{This flexibility}@} enables developers to build {@{systems that are scalable, maintainable, and responsive to nonfunctional requirements}@}.
+{@{The core idea behind the strategy pattern}@} is {@{not a finished implementation}@}, but {@{a reusable solution to a common problem}@}—where {@{behavior is encapsulated, delegated, and changed at runtime}@}. {@{This flexibility}@} enables developers to build {@{systems that are scalable, maintainable, and responsive to nonfunctional requirements}@}.
 
 ## observer pattern
 
@@ -183,7 +183,7 @@ There are {@{3 key components to the proxy pattern}@}: (annotations: 3 items: {@
 
 {@{The _bridge_}@} is {@{a _structural_ design pattern}@} that {@{separates an abstraction from its implementation}@} so that the two can {@{vary independently}@}. It solves {@{the tight coupling}@} that arises when {@{a class hierarchy of abstractions}@} is {@{directly tied to a parallel hierarchy of concrete implementations}@}.
 
-{@{The problem to tackle}@}: {@{An abstraction (e.g., `Window`)}@} may have {@{many concrete forms (`MSWindow`, `MacWindow`)}@}. Using {@{inheritance to connect them}@} forces {@{every subclass of the abstraction}@} to {@{inherit from a specific implementation type}@}. This makes it {@{hard to change, extend, or reuse either side without touching the other}@}.
+{@{The problem to tackle}@}: {@{An abstraction (e.g., `Window`)}@} may have {@{many concrete forms (`MSWindow`, `MacWindow`)}@}. Using {@{inheritance to connect them}@} forces {@{every subclass of the abstraction}@} to {@{inherit from a specific implementation type}@}. This makes it hard to {@{change, extend, or reuse either side without touching the other}@}.
 
 {@{The solution}@} is to {@{define an abstract base for the abstraction (`Window`)}@} that contains {@{a reference to an object implementing the `WindowImp` interface}@}. This {@{creates separate hierarchies}@}, one for {@{abstractions}@}: {@{`Window`, `IconWindow`, `ApplicationWindow`}@}, and the other for {@{implementations}@}: {@{`MSWindowImp`, `MacWindowImp`}@}. {@{The abstraction delegates all work}@} to {@{its implementation (`drawRect()`, `drawText()`, etc.)}@}, allowing {@{each side to evolve independently}@}.
 
@@ -196,9 +196,9 @@ There are {@{4 key components}@}: (annotation: 4 items: {@{abstraction, refined 
 
 {@{The bridge}@} allows clients to work with {@{any combination of abstraction and implementation at runtime}@}, enabling {@{dynamic configuration}@} and {@{easy addition of new platforms}@}.
 
-It may be used when {@{both an abstraction and its implementation need independent extension}@}. It {@{avoids a combinatorial explosion of subclasses}@} (e.g., {@{every UI widget on every OS}@}). It may also be used when {@{the abstraction should be able to change at run time by swapping implementations}@}.
+It may be used when {@{both an abstraction and its implementation need independent extension}@}. It {@{avoids a combinatorial explosion of subclasses}@} (e.g., {@{every UI widget on every OS}@}). It may also be used when the abstraction should be {@{able to change at run time by swapping implementations}@}.
 
-{@{The bridge pattern}@} is a classic example of {@{_composition over inheritance_}@}: the abstraction {@{_contains_ an implementor}@} rather than {@{_being_ one}@}. This design keeps systems {@{modular, testable, and easier to maintain as requirements evolve}@}.
+{@{The bridge pattern}@} is a classic example of {@{_composition over inheritance_}@}: the abstraction {@{_contains_ an implementor}@} rather than {@{_being_ one}@}. This design keeps systems {@{modular, testable}@}, and easier to {@{maintain as requirements evolve}@}.
 
 ## singleton pattern
 
@@ -238,18 +238,18 @@ For example, {@{the _observer_ pattern}@} is often cited for {@{event‑driven s
 
 ## advantages
 
-- {@{_Reusable architectural ideas_}@} – {@{Patterns capture proven solutions}@} that can be {@{applied across projects}@}, enabling {@{large‑scale reuse of software designs}@}.  
+- {@{_Reusable architectural ideas_}@} – Patterns capture {@{proven solutions}@} that can be {@{applied across projects}@}, enabling {@{large‑scale reuse of software designs}@}.  
 - {@{_Improved documentation and comprehension_}@} – By {@{naming common structures (e.g., _Factory_, _Decorator_)}@}, {@{patterns provide a shared vocabulary}@} that makes {@{system architecture easier to explain and reason about}@}.  
-- {@{_Expert knowledge transfer_}@} – {@{Patterns codify design trade‑offs}@} decided by {@{experienced practitioners}@}, making that {@{expertise accessible to teams}@} that might otherwise {@{reinvent the wheel}@}.  
+- {@{_Expert knowledge transfer_}@} – Patterns codify {@{design trade‑offs}@} decided by {@{experienced practitioners}@}, making that {@{expertise accessible to teams}@} that might otherwise {@{reinvent the wheel}@}.  
 - {@{_Facilitates transition to object‑oriented paradigms_}@} – {@{Many classic patterns}@} embody {@{core OO concepts (encapsulation, polymorphism)}@}, easing {@{adoption of OO techniques}@} in {@{legacy or procedural codebases}@}.
 
 ## disadvantages
 
-- {@{_No direct code reuse_}@} – {@{Patterns describe _how_ components should interact}@}, not {@{the actual code}@}; developers still need to {@{implement the specific classes and interfaces}@}.  
+- {@{_No direct code reuse_}@} – Patterns describe {@{_how_ components should interact}@}, not {@{the actual code}@}; developers still need to {@{implement the specific classes and interfaces}@}.  
 - {@{_Can appear deceptively simple_}@} – {@{The succinct notation}@} can {@{hide underlying complexity}@}, leading {@{some teams to underestimate effort}@} or {@{over‑apply a pattern where it's unnecessary}@}.  
 - {@{_Risk of overload_}@} – {@{An excessive focus on patterns}@} may {@{clutter design discussions}@}, making the {@{architecture harder to grasp}@}.  
-- {@{_Validation relies on experience, not testing_}@} – {@{Patterns are historically validated}@} by {@{practice and peer discussion}@}; they {@{lack formal test suites}@} that guarantee {@{correctness in every context}@}.  
-- {@{_Human‑intensive integration_}@} – {@{Incorporating a pattern into a development process}@} requires {@{careful communication, training, and alignment}@} among {@{team members}@}.  
+- {@{_Validation relies on experience, not testing_}@} – Patterns are {@{historically validated}@} by {@{practice and peer discussion}@}; they {@{lack formal test suites}@} that guarantee {@{correctness in every context}@}.  
+- {@{_Human‑intensive integration_}@} – Incorporating {@{a pattern into a development process}@} requires {@{careful communication, training, and alignment}@} among {@{team members}@}.  
 
 For example, {@{overusing the _decorator_ pattern}@} for {@{trivial configuration}@} can {@{inflate class hierarchies}@} without {@{tangible benefit}@}, illustrating the {@{overload risk}@}.
 
@@ -271,13 +271,13 @@ For example, {@{overusing the _decorator_ pattern}@} for {@{trivial configuratio
 - _Mythical Man-Month_ ::@:: – underestimating effort and over‑optimistic schedules.  
 - _Death March Project_ ::@:: – projects with unrealistic deadlines and high risk of failure.
 
-{@{Anti‑patterns}@} are {@{not merely "bad habits"}@}; they {@{expose hidden risks}@} that can {@{cripple a project or organization}@}. {@{Recognizing an anti‑pattern early}@} lets {@{teams pivot to healthier alternatives}@}—such as {@{modular design, clear ownership, or realistic planning}@}. {@{Documenting both the problem and viable solutions}@} turns {@{each anti‑pattern}@} into {@{a learning opportunity for future projects}@}.
+{@{Anti‑patterns}@} are {@{not merely "bad habits"}@}; they {@{expose hidden risks}@} that can {@{cripple a project or organization}@}. {@{Recognizing an anti‑pattern early}@} lets {@{teams pivot to healthier alternatives}@}—such as {@{modular design, clear ownership, or realistic planning}@}. Documenting both {@{the problem and viable solutions}@} turns {@{each anti‑pattern}@} into {@{a learning opportunity for future projects}@}.
 
 ### spaghetti code
 
 {@{_Spaghetti code_}@} is {@{a tangled, undocumented implementation}@} that becomes {@{impossible to extend or modify}@}. It often evolves {@{from a quick prototype}@} written by a {@{single "lone ranger" developer}@}, leaving {@{little documentation}@} and forcing {@{about half of maintenance effort into rediscovering existing logic}@}. {@{Developers hesitate to touch it}@} because they {@{fear breaking something}@}; {@{rewriting}@} is therefore seen as {@{easier than refactoring}@}.
 
-{@{Object‑oriented spaghetti code}@} takes {@{the same form}@} but with {@{many methods that lack parameters}@} and {@{rely on global state}@}. {@{Suspicious class variables and intertwined relationships between objects}@} undermine {@{inheritance and polymorphism}@}, so {@{the OO advantages are lost}@} and the system behaves {@{like a monolith}@}.
+{@{Object‑oriented spaghetti code}@} takes {@{the same form as spaghetti code}@} but with many methods that {@{lack parameters and rely on global state}@}. {@{Suspicious class variables and intertwined relationships}@} between objects undermine {@{inheritance and polymorphism}@}, so {@{the OO advantages are lost}@} and the system behaves {@{like a monolith}@}.
 
 ### god class
 

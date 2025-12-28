@@ -37,7 +37,7 @@ Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, alth
 
 {@{1, −1, $n$ and $-n$}@} are known as {@{the __trivial divisors__ of $n$}@}. {@{A divisor of $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}.
 
-There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one to recognize certain divisors of a number from the number's digits}@}.
+There are {@{[divisibility rules](divisibility%20rule.md)}@} that allow one to recognize {@{certain divisors of a number from the number's digits}@}.
 
 ## examples
 

@@ -24,7 +24,7 @@ tags:
 >
 > Comparison of {@{the various grading methods in a [normal distribution](normal%20distribution.md)}@}, including: {@{[standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)}@}
 
-In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\) is above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean have positive standard scores}@}, while {@{those below the mean have negative standard scores}@}.
+In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\)}@} is {@{above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean}@} have {@{positive standard scores}@}, while those {@{below the mean have negative standard scores}@}.
 
 It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\).
 

@@ -52,7 +52,7 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 
 ## activities
 
-{@{SQA}@} encompasses {@{a range of activities that form its foundation}@}: (annotation: 6 items: {@{configuration management, formal reviews, methods & tools}@}, {@{metrics, standards, testing}@}).
+{@{SQA}@} encompasses {@{a range of activities that form its foundation}@}: (annotation: 6 items: {@{configuration management, formal reviews, methods & tools}@}, {@{metrics, standards, testing}@})
 
 - _Standards_: ::@:: _foundational_; develop and apply repeatable development norms.  
 - _Metrics_: ::@:: _foundational_; establish quantitative measures to monitor and improve processes.  
@@ -157,7 +157,7 @@ SEI CMM is a framework for assessing and improving software development proces
 5. Level 5 – _Optimizing_ ::@:: – continuous improvement via defect‑cause analysis and prevention.
     - Level 5 – _optimizing_ / key processes ::@:: fault prevention, technology change management, process change management.
 
-{@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@}; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}.
+{@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@} on the SEI CMM model; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}.
 
 ## people quality
 
@@ -173,4 +173,4 @@ SEI CMM is a framework for assessing and improving software development proces
 4. Level 4 – _Managed_ ::@:: The focus shifts to raising competence in key areas through mentoring, team‑building, and quantitative competency targets. Effectiveness of work practices is measured against these goals.
 5. Level 5 – _Optimizing_ ::@:: Continuous improvement drives the development of both individual and team skills. Best practices are adopted organization‑wide, creating a culture that adapts rapidly to new challenges.
 
-{@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@}; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}.
+{@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@} on the PCMM model; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}.

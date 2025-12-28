@@ -126,7 +126,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > def orGate(a: Wire, b: Wire, out: Wire): Unit = ...
 > ```
 
-{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal` and `addAction`}@}. `{@{`getSignal` and setSignal}@} respectively {@{gets and sets the wire's current state}@}. `{@{addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}:
+{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal` and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}:
 
 > [!example] __half‑adder construction__  
 >
