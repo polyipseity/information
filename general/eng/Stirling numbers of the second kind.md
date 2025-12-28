@@ -137,8 +137,7 @@ If _X_ is {@{a [random variable](random%20variable.md) with a [Poisson distribut
 
 ### moments of fixed points of random permutations
 
-Let the random variable _X_ be {@{the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}@}. {@{Then the _n_-th moment of _X_}@} is {@{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$}@} <p> __Note:__ {@{The upper bound of summation is _m_, not _n_.}@}
-In other words, {@{the _n_-th moment of this [probability distribution](probability%20distribution.md)}@} is {@{the number of partitions of a set of size _n_ into no more than _m_ parts}@}. This is proved in {@{the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points)}@}, although the notation is a bit different. <!--SR:!2027-11-20,707,270!2026-07-14,302,250!2028-02-16,905,330!2026-11-14,507,270!2025-12-25,4,336!2025-12-25,4,336!2025-12-25,4,336-->
+Let the random variable _X_ be {@{the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}@}. {@{Then the _n_-th moment of _X_}@} is {@{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$}@} <p> __Note:__ {@{The upper bound of summation is _m_, not _n_.}@} <p> In other words, {@{the _n_-th moment of this [probability distribution](probability%20distribution.md)}@} is {@{the number of partitions of a set of size _n_ into no more than _m_ parts}@}. This is proved in {@{the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points)}@}, although the notation is a bit different. <!--SR:!2027-11-20,707,270!2026-07-14,302,250!2028-02-16,905,330!2026-11-14,507,270!2025-12-25,4,336!2025-12-25,4,336!2025-12-25,4,336-->
 
 ### rhyming schemes
 
