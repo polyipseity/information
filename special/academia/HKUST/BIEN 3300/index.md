@@ -68,7 +68,7 @@ The content is in teaching order.
   - data science / examples ::@:: AlphaFold \(protein structure prediction\), AlphaGo
     - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc.
     - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc.
-  - data science / vs. AI ::@:: The former extracts _knowledge_ and _insights_ from structured and unstructured daa. The latter builds systems that can perform tasks typically requiring human _intelligence_. <p> \(__this course__: They are used interchangeably in this course.\)
+  - data science / vs. AI ::@:: The former extracts _knowledge_ and _insights_ from structured and unstructured data. The latter builds systems that can perform tasks typically requiring human _intelligence_. <p> \(__this course__: They are used interchangeably in this course.\)
 - [molecular engineering](../../../../general/molecular%20engineering.md) ::@:: It is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions.
   - molecular engineering / data science ::@:: Analyze, make predictions about molecules, and design molecules. <p> It is helpful because we do not have _complete_ knowledge of underlying rules of interactions between molecules.
 - data science
