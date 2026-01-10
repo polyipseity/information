@@ -73,7 +73,7 @@ Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pain
 
 Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2026-01-12,381,249!2027-02-02,794,349!2028-07-01,1206,350-->
 
-Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order}@} can be {@{a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2026-04-19,196,345!2028-09-27,1238,365!2026-10-04,678,344!2026-01-02,69,348-->
+Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order}@} can be {@{a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2026-04-19,196,345!2028-09-27,1238,365!2026-10-04,678,344!2026-11-30,330,368-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -166,7 +166,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 ### fit
 
-Fit is when {@{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}@}. To {@{check fit}@}, {@{put two ticks on the pair}@} if there is {@{a matching pair in the customer profile and the value map}@}, and {@{cross out those without any matches}@}. A strong fit indicates {@{customer satisfaction, market differentiation, and value creation}@}. <!--SR:!2026-04-02,508,310!2031-03-06,1930,330!2027-03-28,763,345!2025-12-28,18,350!2025-12-29,19,350!2025-12-28,18,350-->
+Fit is when {@{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}@}. To {@{check fit}@}, {@{put two ticks on the pair}@} if there is {@{a matching pair in the customer profile and the value map}@}, and {@{cross out those without any matches}@}. A strong fit indicates {@{customer satisfaction, market differentiation, and value creation}@}. <!--SR:!2026-04-02,508,310!2031-03-06,1930,330!2027-03-28,763,345!2026-03-29,84,370!2026-04-02,88,370!2026-03-30,85,370-->
 
 However, checking the fit on paper like above is {@{not enough}@}. Fit happens in three stages: {@{problem–solution fit, product–market fit, and business model fit}@}. To achieve these three fits requires {@{a nonlinear and iterative process}@}. Value proposition design allows quick {@{design, test, and repeat}@}. <!--SR:!2028-02-14,1083,349!2026-06-10,472,249!2031-03-14,1955,349!2027-06-24,897,330-->
 
@@ -211,7 +211,7 @@ find customer patterns
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←create a customer profile <!--SR:!2026-07-08,621,329!2029-11-17,1607,369-->
-- create a customer profile→::@::←outline the interview <!--SR:!2026-05-08,498,289!2025-12-31,457,309-->
+- create a customer profile→::@::←outline the interview <!--SR:!2026-05-08,498,289!2031-05-13,1955,329-->
 - outline the interview→::@::←interview <!--SR:!2030-03-05,1691,369!2027-04-17,786,329-->
 - interview→::@::←capture new customer profile <!--SR:!2028-06-06,1146,329!2027-03-13,757,329-->
 - capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2026-09-03,559,270!2027-05-19,785,309-->
@@ -269,10 +269,10 @@ conclusion: make progress
 
 ### test card
 
-When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270!2025-12-28,18,350!2025-12-29,19,350!2025-12-29,19,350-->
+When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270!2026-03-29,84,370!2026-04-02,88,370!2026-04-05,91,370-->
 
-{@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2026-01-15,484,329!2025-12-29,19,350!2025-12-29,19,350!2025-12-29,19,350!2025-12-28,18,350!2025-12-28,18,350-->
+{@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2026-01-15,484,329!2026-04-02,88,370!2026-04-02,88,370!2026-04-02,88,370!2026-03-29,84,370!2026-03-29,84,370-->
 
 ## evolve
 
-{@{Evolve}@} is {@{improving and reinvent yourself constantly}@}. <!--SR:!2026-07-25,632,329!2025-12-29,19,350-->
+{@{Evolve}@} is {@{improving and reinvent yourself constantly}@}. <!--SR:!2026-07-25,632,329!2026-04-04,90,370-->

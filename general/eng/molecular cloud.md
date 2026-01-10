@@ -11,7 +11,7 @@ tags:
 
 # molecular cloud
 
-A __molecular cloud__, sometimes called {@{a __stellar nursery__ (if [star formation](star%20formation.md) is occurring within)}@}, is {@{a type of [interstellar cloud](interstellar%20cloud.md), the density and size of which}@} permit {@{[absorption nebulae](dark%20nebula.md), the formation of molecules (most commonly [molecular hydrogen](hydrogen.md), H<sub>2</sub>), and the formation of [H II regions](H%20II%20region.md)}@}. This is in contrast to {@{other areas of the [interstellar medium](interstellar%20medium.md) that contain predominantly [ionized gas](plasma%20(physics).md)}@}. <!--SR:!2027-02-14,704,330!2027-11-29,729,250!2026-06-10,489,310!2025-12-26,17,304-->
+A __molecular cloud__, sometimes called {@{a __stellar nursery__ (if [star formation](star%20formation.md) is occurring within)}@}, is {@{a type of [interstellar cloud](interstellar%20cloud.md), the density and size of which}@} permit {@{[absorption nebulae](dark%20nebula.md), the formation of molecules (most commonly [molecular hydrogen](hydrogen.md), H<sub>2</sub>), and the formation of [H II regions](H%20II%20region.md)}@}. This is in contrast to {@{other areas of the [interstellar medium](interstellar%20medium.md) that contain predominantly [ionized gas](plasma%20(physics).md)}@}. <!--SR:!2027-02-14,704,330!2027-11-29,729,250!2026-06-10,489,310!2026-03-19,74,324-->
 
 ## references
 

@@ -27,7 +27,7 @@ tags:
 > 4. AI is the science and engineering of making intelligent machines.
 >
 > - solution: {@{4}@}
-> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2026-01-01,290,330!2025-12-22,282,330-->
+> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2029-08-22,1326,350!2029-07-10,1283,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -38,7 +38,7 @@ tags:
 > 3. Frank Rosenblatt
 > 4. Desmond <!-- ____ -->
 >
-> - solution: {@{1}@} <!--SR:!2025-12-27,286,330-->
+> - solution: {@{1}@} <!--SR:!2029-07-28,1301,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -93,7 +93,7 @@ tags:
 > 2. Convolutional Neural Network (CNN)
 > 3. Minimax and Alpha-Beta Pruning
 >
-> - solution: {@{3}@} <!--SR:!2026-01-04,293,330-->
+> - solution: {@{3}@} <!--SR:!2029-08-30,1334,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -171,7 +171,7 @@ tags:
 >        [13, 14, 15, 16]])
 > ```
 >
-> - solution: {@{`numpy.arange(1, 17).reshape((4, 4))`}@} <!--SR:!2026-01-02,291,330-->
+> - solution: {@{`numpy.arange(1, 17).reshape((4, 4))`}@} <!--SR:!2029-08-20,1324,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -200,7 +200,7 @@ tags:
 
 > Q9. Return the minimum value within a NumPy array `a`.
 >
-> - solution: {@{`numpy.min(a)`, `a.min()`}@} <!--SR:!2026-01-03,292,330-->
+> - solution: {@{`numpy.min(a)`, `a.min()`}@} <!--SR:!2029-08-26,1330,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -474,7 +474,7 @@ tags:
 > 4. `5 // 3 == 1`
 >
 > - solution: {@{2}@}
-> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2026-01-03,292,330!2025-12-31,290,330-->
+> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2029-08-25,1329,350!2029-08-23,1327,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -488,7 +488,7 @@ tags:
 > print(haha)
 > ```
 >
-> - solution: {@{`[1 2 999]`}@} <!--SR:!2026-01-01,290,330-->
+> - solution: {@{`[1 2 999]`}@} <!--SR:!2029-08-21,1325,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -519,7 +519,7 @@ tags:
 
 > Q1. (simple) True or false: The naive Bayes classifier uses a labeled dataset.
 >
-> - solution: {@{true}@} <!--SR:!2026-01-04,293,330-->
+> - solution: {@{true}@} <!--SR:!2029-08-29,1333,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -535,7 +535,7 @@ tags:
 
 > Q3. (medium) Consider a random bit string with length 4 (a bit string is a sequence of 0s and 1s, e.g. 0000 or 0101). What is the probability that it contains two consecutive 0s, given that the first bit is 0?
 >
-> - solution: {@{$$1/2 + 1/2 \times 1/4 = 5/8$$}@} <!--SR:!2025-12-28,287,330-->
+> - solution: {@{$$1/2 + 1/2 \times 1/4 = 5/8$$}@} <!--SR:!2029-08-05,1309,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -546,7 +546,7 @@ tags:
 > 1. Since the breath analyzer has an error rate of 5%, a student claims the probability that the driver is drunk driving should be 95%. Explain why this intuition is wrong.
 > 2. Using Bayes Theorem, find the true probability that the driver is drunk driving, i.e. find $P( \text{ drunk driving } | \text{ reported drunk by breath analyzer } )$.
 >
-> - solution: {@{For 1, it neglects the base rate, i.e. 1 in 1000 drivers drunk drives (see base rate fallacy). <p> For 2, this is $$\frac {1 / 1000 \times 0.95} {(1 / 1000 \times 0.95) + (999 / 1000 \times 0.05)} \approx 1.87\% \,.$$}@} <!--SR:!2026-01-03,292,330-->
+> - solution: {@{For 1, it neglects the base rate, i.e. 1 in 1000 drivers drunk drives (see base rate fallacy). <p> For 2, this is $$\frac {1 / 1000 \times 0.95} {(1 / 1000 \times 0.95) + (999 / 1000 \times 0.05)} \approx 1.87\% \,.$$}@} <!--SR:!2029-08-24,1328,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -578,14 +578,14 @@ tags:
 > 3. The naive Bayes classifier always predicts correct results.
 > 4. None of the above
 >
-> - solution: {@{2}@} <!--SR:!2025-12-30,287,330-->
+> - solution: {@{2}@} <!--SR:!2029-08-07,1311,350-->
 
 <!-- markdownlint MD028 -->
 
 > Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) \overset ? = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
 >
 > - solution: {@{false}@}
-> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2028-09-18,1060,350!2025-12-25,285,330-->
+> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2028-09-18,1060,350!2029-07-23,1296,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -620,7 +620,7 @@ tags:
 > 2. Distance metric
 > 3. Number of samples
 >
-> - solution: {@{1, 2}@} <!--SR:!2025-12-31,290,330-->
+> - solution: {@{1, 2}@} <!--SR:!2029-08-21,1325,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -710,7 +710,7 @@ tags:
 > 3. The "K" in K-means clustering refers to the number of data points
 > 4. K-means clustering achieves categorization of data points
 >
-> - solution: {@{4}@} <!--SR:!2026-01-02,291,330-->
+> - solution: {@{4}@} <!--SR:!2029-08-20,1324,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -721,7 +721,7 @@ tags:
 > 3. Choose K random points to be the initial centroids
 > 4. Recompute the centroids according to the labelling
 >
-> - solution: {@{3 → 1 → 2 → 4}@} <!--SR:!2025-12-31,288,330-->
+> - solution: {@{3 → 1 → 2 → 4}@} <!--SR:!2029-08-06,1310,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -735,7 +735,7 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops.
 >
-> - solution: {@{`numpy.average(data, axis=0)`, `numpy.mean(data, axis=0)`}@} <!--SR:!2025-12-28,287,330-->
+> - solution: {@{`numpy.average(data, axis=0)`, `numpy.mean(data, axis=0)`}@} <!--SR:!2029-07-30,1303,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +769,7 @@ tags:
 >        [ 0.9, 0.59, 0.65]])
 > ```
 >
-> - solution: {@{0.67372101, 0.2805352, 0.38626416, 0.51048996}@} <!--SR:!2025-12-29,288,330-->
+> - solution: {@{0.67372101, 0.2805352, 0.38626416, 0.51048996}@} <!--SR:!2029-08-08,1312,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -783,7 +783,7 @@ tags:
 
 > Q9. Can K-means clustering under Euclidean distance produce any kind of cluster shapes?
 >
-> - solution: {@{No. The shape needs to be circles or ellipsoids.}@} <!--SR:!2025-12-30,289,330-->
+> - solution: {@{No. The shape needs to be circles or ellipsoids.}@} <!--SR:!2029-08-17,1321,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -795,7 +795,7 @@ tags:
 > 4. Customer segmentation
 >
 > - solution: {@{4}@}
-> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2029-01-16,1158,350!2026-01-01,290,330-->
+> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2029-01-16,1158,350!2029-08-19,1323,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -827,7 +827,7 @@ tags:
 > array([0.02, 0.93, 0.45, 0.7, 0.41, 0.78, 0.03, 0.52, 0.59, 0.53])
 > ```
 >
-> - solution: {@{centroid 0: \(0.02 + 0.45 + 0.41 + 0.03\)/4 = 0.2275 <br/> centroid 1: \(0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53\)/6 = 0.675}@} <!--SR:!2025-12-24,284,330-->
+> - solution: {@{centroid 0: \(0.02 + 0.45 + 0.41 + 0.03\)/4 = 0.2275 <br/> centroid 1: \(0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53\)/6 = 0.675}@} <!--SR:!2029-07-14,1287,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -847,7 +847,7 @@ tags:
 > 4. Every parameter must be updated during an epoch.
 >
 > - solution: {@{1}@}
-> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2029-01-15,1157,350!2025-12-26,285,330-->
+> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2029-01-15,1157,350!2029-07-25,1298,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -875,7 +875,7 @@ tags:
 > 3. choice of having a bias term or not
 > 4. choice of the number of inputs
 >
-> - solution: {@{1, 2, 3}@} <!--SR:!2025-12-28,287,330-->
+> - solution: {@{1, 2, 3}@} <!--SR:!2029-08-09,1313,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -991,7 +991,7 @@ tags:
 > 4. It is based on the recursive use of the Leibniz integral rule.
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@} <!--SR:!2026-01-04,293,330!2026-01-01,289,330-->
+> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@} <!--SR:!2029-08-28,1332,350!2029-08-18,1322,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1085,7 +1085,7 @@ tags:
 > 3. The resulting image will be brighter.
 > 4. No image can be formed.
 >
-> - solution: {@{2}@} <!--SR:!2025-12-27,286,330-->
+> - solution: {@{2}@} <!--SR:!2029-07-27,1300,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,13 +1216,13 @@ tags:
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
 > - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-12-24,284,330!2026-12-10,526,310-->
+> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2029-07-13,1286,350!2026-12-10,526,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q10. (simple) What is the advantage of using Otsu's <!-- osu!: Haha Hehe Desmond GOOD guy --> method for image thresholding compared to the regular image thresholding algorithm?
 >
-> - solution: {@{The result is reproducible.}@} <!--SR:!2025-12-25,285,330-->
+> - solution: {@{The result is reproducible.}@} <!--SR:!2029-07-24,1297,350-->
 
 ## convolutional neural network
 
@@ -1269,7 +1269,7 @@ tags:
 >
 > Explain why CNNs can improve performance on image classification.
 >
-> - solution: {@{(for reference) Convolutional layers automates feature engineering on a large scale and are likely much better than humans at extracting image features.}@} <!--SR:!2025-12-27,286,330-->
+> - solution: {@{(for reference) Convolutional layers automates feature engineering on a large scale and are likely much better than humans at extracting image features.}@} <!--SR:!2029-07-29,1302,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1332,7 +1332,7 @@ tags:
 > 3. Alpha–beta pruning is guaranteed to speed up the minimax algorithm.
 > 4. We can use GPU to speed up the minimax algorithm.
 >
-> - solution: {@{1. false, not perfect information <br/> 2. false, theoretically possible, but practically too many nodes in the game tree <br/> 3. false <br/> 4. false, because GPUs are only good at matrix multiplication (Actually, true would also make sense, considering GPGPUs (general-purpose graphical processing units)...)}@} <!--SR:!2026-01-02,291,330-->
+> - solution: {@{1. false, not perfect information <br/> 2. false, theoretically possible, but practically too many nodes in the game tree <br/> 3. false <br/> 4. false, because GPUs are only good at matrix multiplication (Actually, true would also make sense, considering GPGPUs (general-purpose graphical processing units)...)}@} <!--SR:!2029-08-27,1331,350-->
 
 ## ethics of artificial intelligence
 
@@ -1445,7 +1445,7 @@ tags:
 > 2. The __state__ of a Markov chain at time $t$ is...
 > 3. The __state space__ of a Markov chain is...
 >
-> - solution: {@{1. definition 3 <br/> 2. definition 1 <br/> 3. definition 2}@} <!--SR:!2025-12-30,289,330-->
+> - solution: {@{1. definition 3 <br/> 2. definition 1 <br/> 3. definition 2}@} <!--SR:!2029-08-16,1320,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1501,7 +1501,7 @@ tags:
 >
 > Is $M$ a Markov chain? Explain your answer.
 >
-> - solution: {@{No. <p> The key is to realize that knowing the entire state history (in this case, which additionally allows us to know how many of each coin has been drawn) allows us to make better predictions than knowing only the current state.}@} <!--SR:!2025-12-31,290,330-->
+> - solution: {@{No. <p> The key is to realize that knowing the entire state history (in this case, which additionally allows us to know how many of each coin has been drawn) allows us to make better predictions than knowing only the current state.}@} <!--SR:!2029-08-18,1322,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1524,7 +1524,7 @@ tags:
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
 > - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2029-02-06,1173,350!2025-12-23,283,330-->
+> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2029-02-06,1173,350!2029-07-15,1288,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1552,7 +1552,7 @@ tags:
 > <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-12-29,288,330!2027-02-06,489,270-->
+> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2029-08-13,1317,350!2027-02-06,489,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-12-23,283,330!2029-03-25,1210,350-->
+> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2029-07-12,1285,350!2029-03-25,1210,350-->
 
 <!-- markdownlint MD028 -->
 

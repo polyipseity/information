@@ -37,7 +37,7 @@ tags:
 > ```
 <!--SR:!2026-01-10,60,310!2026-01-13,63,310-->
 
-{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is: <!--SR:!2026-01-04,55,310!2026-01-08,58,310!2026-01-11,61,310-->
+{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is: <!--SR:!2026-09-01,240,330!2026-01-08,58,310!2026-01-11,61,310-->
 
 > [!example] __insertion sort insertion__
 >
@@ -73,11 +73,11 @@ tags:
 > ```
 <!--SR:!2026-01-09,59,310!2026-01-06,57,310!2026-06-11,172,310-->
 
-The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub-lists}@}. <!--SR:!2026-01-05,56,310!2026-01-04,55,310!2026-01-07,58,310-->
+The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub-lists}@}. <!--SR:!2026-01-05,56,310!2026-08-27,235,330!2026-01-07,58,310-->
 
 #### merge sort splitting
 
-{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2026-01-15,64,310!2026-01-07,58,310!2026-01-04,55,310!2026-01-13,63,310-->
+{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2026-01-15,64,310!2026-01-07,58,310!2026-09-02,241,330!2026-01-13,63,310-->
 
 > [!example] __merge sort splitting__
 >
@@ -120,9 +120,9 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!202
 >       else y :: merge(xs, ys1)
 >   }
 > ```
-<!--SR:!2026-01-18,67,310!2026-01-04,55,310-->
+<!--SR:!2026-01-18,67,310!2026-08-28,236,330-->
 
-The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-01-17,66,310!2026-01-04,55,310!2026-01-15,64,310-->
+The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-01-17,66,310!2026-08-26,234,330!2026-01-15,64,310-->
 
 ### sorting arbitrary types
 
@@ -166,6 +166,6 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > // Type inference allows a shorter form
 > msort(xs)( (x, y) => x < y )
 > ```
-<!--SR:!2026-01-07,58,310!2026-01-04,55,310!2026-01-18,67,310!2026-01-18,67,310!2026-01-15,64,310-->
+<!--SR:!2026-01-07,58,310!2026-08-29,237,330!2026-01-18,67,310!2026-01-18,67,310!2026-01-15,64,310-->
 
 These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!2026-01-07,58,310!2026-01-13,63,310-->

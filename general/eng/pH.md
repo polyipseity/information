@@ -24,7 +24,7 @@ Solutions where {@{\[H<sup>+</sup>(aq)\] equals \[OH<sup>-</sup>(aq)\] are neutr
 
 - see: [pH indicator](pH%20indicator.md)
 
-{@{pH indicators}@} are used to {@{measure pH by measuring their color}@}. {@{A [universal indicator](universal%20indicator.md)}@} contains {@{several indicators}@} such that {@{its color changes continuously from about pH 2 to pH 10}@}. It can be {@{impregnated onto a paper to make pH papers}@}. For {@{higher accuracy}@}, {@{a [pH meter](pH%20meter.md)}@} can be used instead. <!--SR:!2028-11-25,1573,330!2026-06-03,256,210!2028-03-25,1417,350!2025-12-30,80,342!2025-12-30,80,342!2025-12-31,81,342!2026-01-02,83,342!2026-01-01,82,342-->
+{@{pH indicators}@} are used to {@{measure pH by measuring their color}@}. {@{A [universal indicator](universal%20indicator.md)}@} contains {@{several indicators}@} such that {@{its color changes continuously from about pH 2 to pH 10}@}. It can be {@{impregnated onto a paper to make pH papers}@}. For {@{higher accuracy}@}, {@{a [pH meter](pH%20meter.md)}@} can be used instead. <!--SR:!2028-11-25,1573,330!2026-06-03,256,210!2028-03-25,1417,350!2027-01-22,383,362!2027-01-20,381,362!2027-01-21,382,362!2027-01-30,391,362!2027-01-29,390,362-->
 
 ## references
 

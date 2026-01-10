@@ -21,7 +21,7 @@ tags:
 
 ## examples
 
-For {@{[central forces](central%20force.md) in the form of $F \propto r^n$}@}, {@{the virial theorem}@} simplifies to {@{$\langle K_\mathrm{total} \rangle = \frac{n + 1}2 \langle U \rangle$}@}. Particularly, for {@{[gravity](gravitational%20potential.md) and [electrostatic force](Coulomb's%20law.md), for which $n = -2$}@}, {@{$\langle K_\mathrm{total} \rangle = -\frac12 \langle U \rangle$}@}. <!--SR:!2026-09-11,434,257!2030-09-21,1761,297!2025-12-22,13,295!2025-12-24,15,315!2025-12-25,16,315-->
+For {@{[central forces](central%20force.md) in the form of $F \propto r^n$}@}, {@{the virial theorem}@} simplifies to {@{$\langle K_\mathrm{total} \rangle = \frac{n + 1}2 \langle U \rangle$}@}. Particularly, for {@{[gravity](gravitational%20potential.md) and [electrostatic force](Coulomb's%20law.md), for which $n = -2$}@}, {@{$\langle K_\mathrm{total} \rangle = -\frac12 \langle U \rangle$}@}. <!--SR:!2026-09-11,434,257!2030-09-21,1761,297!2026-02-27,54,315!2026-03-13,68,335!2026-03-17,72,335-->
 
 ## references
 

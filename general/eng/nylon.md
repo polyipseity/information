@@ -17,9 +17,9 @@ tags:
 
 ### nomenclature
 
-{@{One number}@} indicates {@{a homopolymer}@} based on {@{one type of [amino acid](amino%20acid.md)}@} with {@{the specified number of [carbons](carbon.md)}@}. <!--SR:!2026-07-31,654,250!2025-12-27,17,301!2025-12-27,17,301!2025-12-27,17,301-->
+{@{One number}@} indicates {@{a homopolymer}@} based on {@{one type of [amino acid](amino%20acid.md)}@} with {@{the specified number of [carbons](carbon.md)}@}. <!--SR:!2026-07-31,654,250!2026-03-19,74,321!2026-03-18,73,321!2026-03-19,74,321-->
 
-{@{Two numbers}@} indicate {@{a dyadic homopolymer}@} based on {@{one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md)}@}. {@{The first number}@} indicates {@{the number of [carbons](carbon.md) in the diamine}@}, while {@{the second one indicates in the dicarboxylic acid}@}. <!--SR:!2027-04-18,498,190!2025-12-27,17,301!2025-12-27,17,301!2025-12-27,17,301!2025-12-27,17,301!2025-12-27,17,301-->
+{@{Two numbers}@} indicate {@{a dyadic homopolymer}@} based on {@{one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md)}@}. {@{The first number}@} indicates {@{the number of [carbons](carbon.md) in the diamine}@}, while {@{the second one indicates in the dicarboxylic acid}@}. <!--SR:!2027-04-18,498,190!2026-03-18,73,321!2026-03-18,73,321!2026-03-17,72,321!2026-03-17,72,321!2026-03-17,72,321-->
 
 ## properties
 

@@ -143,7 +143,7 @@ return _chain.from_iterable(await _gather(
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2026-11-29,448,190!2026-10-22,560,210-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2026-05-24,317,210!2027-10-04,881,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2026-07-23,460,190-->
-- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-12-24,141,190-->
+- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2027-01-30,391,210-->
 - [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2026-01-13,155,150-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2026-07-23,303,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2026-08-19,366,190-->
@@ -152,8 +152,8 @@ return _chain.from_iterable(await _gather(
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2032-12-12,2591,310-->
 - [bismuth](bismuth.md)→::@::←[copper](copper.md) <!--SR:!2027-02-28,612,230!2027-10-15,993,250-->
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2031-12-06,2236,290!2027-02-25,540,250-->
-- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2028-06-21,964,250!2025-12-28,170,190-->
-- [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2025-12-30,464,310-->
+- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2028-06-21,964,250!2027-04-09,460,210-->
+- [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2031-06-18,1991,330-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
 - [platinum](platinum.md)→::@::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
@@ -271,7 +271,7 @@ return _chain.from_iterable(await _gather(
 - reacts with cold [water](water.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md) <!--SR:!2027-07-23,580,185-->
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md):@:[magnesium](magnesium.md) <!--SR:!2026-12-20,785,345-->
 - reacts with [steam](steam.md) and [acids](acid.md):@:[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2026-08-27,299,170-->
-- reacts with concentrated [mineral acids](mineral%20acid.md):@:[titanium](titanium.md) <!--SR:!2026-01-01,477,325-->
+- reacts with concentrated [mineral acids](mineral%20acid.md):@:[titanium](titanium.md) <!--SR:!2031-11-20,2146,345-->
 - reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2026-05-20,156,150-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md):@:[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-06-17,554,285-->
 - reacts slowly with [air](air.md):@:[copper](copper.md) <!--SR:!2028-04-09,1171,365-->

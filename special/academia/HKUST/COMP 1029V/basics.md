@@ -18,7 +18,7 @@ tags:
 
 Before using a variable, it needs to be {@{declared using the keyword `Dim` first}@}. The syntax is {@{`Dim VariableName As Type`}@}. You can also declare multiple variables in one line, like {@{`Dim VariableName1 As Type1, VariableName2 As Type2`}@}. <!--SR:!2027-07-05,895,330!2027-01-18,820,330!2026-06-22,651,330-->
 
-To assign variables, use {@{the equals operator `=`, like `Variable = Value`}@}. For object types (basically anything that are not simple types like numbers, strings, booleans), you need to {@{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}@}. <!--SR:!2028-11-02,1349,350!2025-12-29,476,310-->
+To assign variables, use {@{the equals operator `=`, like `Variable = Value`}@}. For object types (basically anything that are not simple types like numbers, strings, booleans), you need to {@{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}@}. <!--SR:!2028-11-02,1349,350!2031-08-06,2040,330-->
 
 ## types
 
@@ -110,4 +110,4 @@ To accept user input, we can use {@{an input box by calling `Input = InputBox(pr
 
 ## parentheses
 
-When calling subroutines or functions, sometimes we {@{use parentheses `()`, sometimes we do not}@}. We only use parentheses when {@{we need to use the output of the called function, otherwise we do not}@}. As subroutines have no output, {@{calling them never needs parentheses}@}. The only exception is when you need to {@{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}@}. <!--SR:!2026-09-20,720,330!2026-06-26,655,330!2026-01-02,479,310!2026-01-18,481,305-->
+When calling subroutines or functions, sometimes we {@{use parentheses `()`, sometimes we do not}@}. We only use parentheses when {@{we need to use the output of the called function, otherwise we do not}@}. As subroutines have no output, {@{calling them never needs parentheses}@}. The only exception is when you need to {@{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}@}. <!--SR:!2026-09-20,720,330!2026-06-26,655,330!2031-08-24,2058,330!2026-01-18,481,305-->

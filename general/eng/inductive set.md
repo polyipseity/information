@@ -9,7 +9,7 @@ tags:
 
 # inductive set
 
-- This article is about {@{the notion in [descriptive set theory](descriptive%20set%20theory.md)}@}. For {@{the use in foundations of mathematics}@}, see {@{[axiom of infinity](axiom%20of%20infinity.md)}@}. <!--SR:!2029-02-28,1192,352!2025-12-22,282,332!2027-09-29,773,332-->
+- This article is about {@{the notion in [descriptive set theory](descriptive%20set%20theory.md)}@}. For {@{the use in foundations of mathematics}@}, see {@{[axiom of infinity](axiom%20of%20infinity.md)}@}. <!--SR:!2029-02-28,1192,352!2029-07-17,1290,352!2027-09-29,773,332-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#General%20references), but __it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(March 2011\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
@@ -17,7 +17,7 @@ tags:
 
 In {@{[descriptive set theory](descriptive%20set%20theory.md)}@}, an __inductive set__ of {@{[real numbers](real%20number.md) \(or more generally, an inductive [subset](subset.md) of a [Polish space](Polish%20space.md)\)}@} is one that can be defined as {@{the least fixed point of a monotone operation definable by a positive Σ<sup>1</sup><sub>_n_</sub> formula}@}, for {@{some natural number _n_, together with a real parameter}@}. (TODO: Add a concrete and simple example of such a formula.) <!--SR:!2028-01-20,844,330!2029-02-20,1185,352!2028-02-26,806,272!2027-05-29,661,335-->
 
-The inductive sets form {@{a [boldface pointclass](pointclass.md#boldface%20pointclasses)}@}; that is, they are {@{closed under [continuous](continuous%20function.md) [preimages](image%20(mathematics).md#inverse%20image)}@}. In {@{the [Wadge hierarchy](Wadge%20hierarchy.md)}@}, they lie {@{above the [projective sets](projective%20hierarchy.md) and below the sets in [L\(R\)](L(R).md)}@}. Assuming {@{sufficient [determinacy](determinacy.md)}@}, the class of inductive sets has {@{the [scale property](scale%20(descriptive%20set%20theory).md) and thus the [prewellordering property](prewellordering.md)}@}. <!--SR:!2029-06-12,1272,352!2028-01-15,853,332!2026-08-21,415,272!2025-12-23,80,212!2027-01-16,525,332!2027-04-08,574,312-->
+The inductive sets form {@{a [boldface pointclass](pointclass.md#boldface%20pointclasses)}@}; that is, they are {@{closed under [continuous](continuous%20function.md) [preimages](image%20(mathematics).md#inverse%20image)}@}. In {@{the [Wadge hierarchy](Wadge%20hierarchy.md)}@}, they lie {@{above the [projective sets](projective%20hierarchy.md) and below the sets in [L\(R\)](L(R).md)}@}. Assuming {@{sufficient [determinacy](determinacy.md)}@}, the class of inductive sets has {@{the [scale property](scale%20(descriptive%20set%20theory).md) and thus the [prewellordering property](prewellordering.md)}@}. <!--SR:!2029-06-12,1272,352!2028-01-15,853,332!2026-08-21,415,272!2026-09-05,244,232!2027-01-16,525,332!2027-04-08,574,312-->
 
 The term can have {@{a number of different meanings}@}:<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-09-16,763,332-->
 

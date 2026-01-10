@@ -57,10 +57,10 @@ An _interest‑rate swap_ (IRS) is an over‑the‑counter contract in which two
 
 An IRS is characterised by: notional principle, swap rate, maturity, and payment frequencies.
 
-- _Notional principle_ ::@:: – the notional amount on which interest payments are calculated. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-- _Swap rate_ $R$ ::@:: – the fixed annualised rate agreed at inception.  (annotation: __this course__: The rate is continuously compounded by default, i.e. the equations below should use $e^r$ rather than $r$) <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-- _Maturity (swap tenor)_ ::@:: – the last payment date, denoted $T_m$. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-- _Payment frequencies_ ::@:: – the floating leg usually follows money‑market conventions (e.g., quarterly 3‑month LIBOR); the fixed leg often uses a corporate‑bond convention (e.g., semi‑annual). <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+- _Notional principle_ ::@:: – the notional amount on which interest payments are calculated. <!--SR:!2026-01-20,16,290!2026-01-20,16,290-->
+- _Swap rate_ $R$ ::@:: – the fixed annualised rate agreed at inception.  (annotation: __this course__: The rate is continuously compounded by default, i.e. the equations below should use $e^r$ rather than $r$) <!--SR:!2026-01-19,15,290!2026-01-19,15,290-->
+- _Maturity (swap tenor)_ ::@:: – the last payment date, denoted $T_m$. <!--SR:!2026-01-18,14,290!2026-01-19,15,290-->
+- _Payment frequencies_ ::@:: – the floating leg usually follows money‑market conventions (e.g., quarterly 3‑month LIBOR); the fixed leg often uses a corporate‑bond convention (e.g., semi‑annual). <!--SR:!2026-01-18,14,290!2026-01-20,16,290-->
 
 The swap is settled in cash: at each payment date $T_i$ the net amount paid by the _payer_ (the _long_ position) is $$N_{i}= \bigl(r_{\text{fixed} }-r_{\text{float},\,i}\bigr)\,P ,$$ where $P$ is the notional principal.  The floating leg (the _receiver_, the _short_) pays $P\, r_{\text{float},\,i}$, while the fixed leg (the _payer_, the _long_) pays $P\, r_{\text{fixed} }$. The two legs are _netted_: at each date the counterparty that owes the larger payment makes the net transfer.  Thus, in a single settlement cash is exchanged rather than the underlying asset. Because only the difference matters, the contract has no initial cost; its value evolves with changes in the forward curve and the short‑rate term structure.
 

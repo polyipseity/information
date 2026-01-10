@@ -55,7 +55,7 @@ tags:
 > ---
 >
 > - solution: {@{`Student 0..50 -EnrollsIn- 0..5 Course`. Add notes next to the multiplicities to indicate the minimum counts instead.}@}
-> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no _natural_ way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2025-12-27,63,310!2025-12-26,62,310-->
+> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no _natural_ way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2026-10-04,273,330!2026-10-01,270,330-->
 
 ---
 
@@ -77,7 +77,7 @@ tags:
 > ---
 >
 > - solution: {@{Use a _new separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
-> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2026-08-21,245,330!2025-12-28,63,310-->
+> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2026-08-21,245,330!2026-10-05,274,330-->
 
 ---
 
@@ -92,7 +92,7 @@ tags:
 > ---
 >
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
-> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2026-08-11,236,330!2025-12-29,64,310-->
+> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2026-08-11,236,330!2026-10-11,280,330-->
 
 ## week 2 lecture
 
@@ -116,7 +116,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2026-01-03,69,320-->
+> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2026-11-10,310,340-->
 
 ---
 
@@ -132,7 +132,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!2026-01-03,68,320-->
+> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!2026-11-01,301,340-->
 
 ---
 
@@ -160,7 +160,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{You need to consider the multiplicities for each subclass individually \(and also the superclass if the generalization is incomplete\), and then find the _least relaxed multiplicities_ that can accommodate the multiplicities found above. You may add a note next to the superclass multiplicity with text describing the multiplicities for each subclass. <p> You will likely need to use real-world knowledge, common sense, or application domain knowledge.}@} <!--SR:!2025-12-25,56,318-->
+> - solution: {@{You need to consider the multiplicities for each subclass individually \(and also the superclass if the generalization is incomplete\), and then find the _least relaxed multiplicities_ that can accommodate the multiplicities found above. You may add a note next to the superclass multiplicity with text describing the multiplicities for each subclass. <p> You will likely need to use real-world knowledge, common sense, or application domain knowledge.}@} <!--SR:!2026-09-07,246,338-->
 
 ---
 
@@ -176,7 +176,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@} <!--SR:!2025-12-25,56,318-->
+> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@} <!--SR:!2026-09-06,245,338-->
 
 ---
 

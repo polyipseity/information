@@ -96,7 +96,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-05-30,340,355!2026-05-24,334,355-->
   - add immediate unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addiu` can be used in place of `addi` to avoid trapping on overflow. <!--SR:!2026-05-30,340,355!2026-05-11,321,355-->
 - add unsigned ::@:: `addu $d, $s, $t`: `$d = $s + $t;`, unsigned, does not trap on overflow <!--SR:!2026-05-21,331,355!2026-06-17,358,355-->
-  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2027-09-23,697,335!2026-01-02,215,335-->
+  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2027-09-23,697,335!2028-09-16,986,355-->
 - divide ::@:: `div $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, signed; `$LO` \(quotient\) is rounded towards zero, while `$HI` \(remainder\) is such that `$s == $t * $LO + $HI` <!--SR:!2026-05-09,319,355!2026-06-13,355,355-->
 - divide immediate ::@:: `divi` does not exist. <!--SR:!2026-06-21,362,355!2026-06-12,353,355-->
 - divide immediate unsigned ::@:: `diviu` does not exist. <!--SR:!2026-06-21,362,355!2026-06-17,358,355-->
@@ -128,7 +128,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - bitwise or ::@:: `or $d, $s, $t`: `$d = $s | $t;` <!--SR:!2026-05-11,321,355!2026-06-17,358,355-->
 - bitwise or immediate ::@:: `ori $t, $s, imm`: `$t = $s | imm;`; `imm` is zero-extended <!--SR:!2026-06-06,347,350!2026-05-11,321,355-->
 - shift left arithmetic ::@:: `sla` does not exist. It would have been equivalent to `sll`. <!--SR:!2026-05-03,313,355!2026-06-14,355,355-->
-- shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0 <!--SR:!2026-06-15,356,355!2026-01-04,217,335-->
+- shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0 <!--SR:!2026-06-15,356,355!2028-09-24,994,355-->
   - shift left logical / arithmetic ::@:: Assuming _no overflow_, it has the same effect as multiplying a _signed_/_unsigned_ integer by 2<sup>_h_</sup>. <!--SR:!2027-01-10,515,401!2026-12-19,497,401-->
 - shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2026-06-12,353,355!2026-02-14,235,335-->
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended <!--SR:!2026-04-15,295,350!2026-04-15,295,350-->
@@ -140,37 +140,37 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 ### data instructions
 
-- load byte ::@:: `lb $t, offset($s)`: `$t = *((*int8_t) &MEM[$s + offset]);`; the loaded 8 bits are sign-extended <!--SR:!2026-05-22,332,355!2025-12-25,207,335-->
+- load byte ::@:: `lb $t, offset($s)`: `$t = *((*int8_t) &MEM[$s + offset]);`; the loaded 8 bits are sign-extended <!--SR:!2026-05-22,332,355!2028-08-16,955,355-->
 - load byte unsigned ::@:: `lbu $t, offset($s)`: `$t = *((*uint8_t) &MEM[$s + offset]);`; the loaded 8 bits are zero-extended <!--SR:!2026-02-09,250,335!2026-05-26,336,350-->
 - load upper immediate ::2:: `lui $t, imm`: `$t = imm << 16;`; `imm` is unextended; note the lower 16 bits are 0s
 - load halfword ::@:: `lh $t, offset($s)`: `$t = *((*int16_t) &MEM[$s + offset]);`; the loaded 16 bits are sign-extended <!--SR:!2026-01-18,231,335!2026-05-09,319,355-->
-- load halfword unsigned ::@:: `lhu $t, offset($s)`: `$t = *((*uint16_t) &MEM[$s + offset]);`; the loaded 16 bits are zero-extended <!--SR:!2026-01-01,214,330!2026-05-21,331,355-->
+- load halfword unsigned ::@:: `lhu $t, offset($s)`: `$t = *((*uint16_t) &MEM[$s + offset]);`; the loaded 16 bits are zero-extended <!--SR:!2028-09-04,974,350!2026-05-21,331,355-->
 - load word ::@:: `lw $t, offset($s)`: `$t = *((*uint32_t) (&MEM[$s + offset]));` <!--SR:!2026-06-12,354,355!2026-05-08,318,355-->
 - move from HI ::@:: `mfhi $d`: `$d = $HI;`; note the register placeholder is `$d` instead of `$s` <!--SR:!2026-05-11,321,355!2026-06-08,349,355-->
 - move from LO ::2:: `mflo $d`: `$d = $LO;`; note the register placeholder is `$d` instead of `$s`
-- store byte ::@:: `sb $t, offset($s)`: `*((*uint8_t) (&MEM[$s + offset])) = 0xff & $t;` <!--SR:!2026-01-01,214,330!2026-01-02,215,330-->
+- store byte ::@:: `sb $t, offset($s)`: `*((*uint8_t) (&MEM[$s + offset])) = 0xff & $t;` <!--SR:!2028-09-04,974,350!2028-09-08,978,350-->
 - store halfword ::@:: `sh $t, offset($s)`: `*((*uint16_t) (&MEM[$s + offset])) = 0xffff & $t;` <!--SR:!2026-05-22,332,355!2026-06-11,353,350-->
 - store word ::@:: `sw $t, offset($s)`: `*((*uint32_t) (&MEM[$s + offset])) = $t;` <!--SR:!2028-06-21,915,350!2026-01-28,241,335-->
 
 ### jump instructions
 
 - branch on equal ::@:: `beq $s, $t, offset`: `if ($s == $t) { goto nPC + offset << 2; }` <!--SR:!2026-05-07,317,355!2026-06-19,360,355-->
-- branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!2026-05-18,328,355!2025-12-28,210,335-->
+- branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!2026-05-18,328,355!2028-08-30,969,355-->
 - branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2026-03-16,255,330!2026-05-21,331,355-->
-- branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2025-12-26,208,330!2026-01-23,236,335-->
+- branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2028-08-12,951,350!2026-01-23,236,335-->
 - branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2026-06-02,343,355!2026-01-30,243,335-->
 - branch on less than or equal to zero ::@:: `blez $s, offset`: `if ($s <= 0) { goto nPC + offset << 2; }` <!--SR:!2026-06-10,351,350!2026-04-21,301,350-->
 - branch on less than or equal to zero and link ::@:: `blezal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2026-02-10,231,335!2026-06-18,359,355-->
 - branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!2026-05-21,332,355!2027-08-02,644,335-->
 - branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2026-06-08,349,355!2027-03-26,554,350-->
 - branch on not equal ::@:: `bne $s, $t, offset`: `if ($s != $t) { goto nPC + offset << 2; }` <!--SR:!2026-05-15,325,350!2026-05-09,319,350-->
-- jump ::@:: `j target`: `goto (nPC & 0xf0000000) | (target << 2);` <!--SR:!2026-06-14,355,355!2025-12-26,208,335-->
+- jump ::@:: `j target`: `goto (nPC & 0xf0000000) | (target << 2);` <!--SR:!2026-06-14,355,355!2028-08-27,966,355-->
 - jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2);` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2026-05-10,320,355!2026-05-11,321,355-->
 - jump register ::@:: `jr $s`: `goto $s;` <!--SR:!2026-06-02,344,355!2026-05-09,319,355-->
 
 ### comparison instructions
 
-- set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2025-12-29,211,335!2026-06-12,353,355-->
+- set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2028-09-01,971,355!2026-06-12,353,355-->
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended <!--SR:!2026-05-15,325,355!2026-05-11,321,355-->
 - set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-10-30,409,310!2026-05-15,325,355-->
 - set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!2026-06-08,349,350!2026-05-10,320,350-->
@@ -226,12 +226,12 @@ All instructions are {@{4 bytes \(32 bits\) long}@}. This is an example of {@{th
 The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, and pseudo-address}@}. They mean: <!--SR:!2026-06-20,361,355-->
 
 - opcode ::@:: 6 bits; opcode of the instruction; R format: this is almost always 0, since the funct field is used instead <!--SR:!2026-06-13,354,355!2026-05-08,318,355-->
-- rs ::@:: 5 bits; R format: first source register operand; I format: source or memory register operand <!--SR:!2026-01-04,217,335!2026-05-23,334,355-->
+- rs ::@:: 5 bits; R format: first source register operand; I format: source or memory register operand <!--SR:!2028-09-29,999,355!2026-05-23,334,355-->
 - rt ::@:: 5 bits; R format: second source register operand; I format: destination or non-memory register operand <!--SR:!2026-06-10,352,350!2026-06-10,351,355-->
 - rd ::@:: 5 bits; R format: destination register operand <!--SR:!2026-05-10,321,350!2026-06-03,344,350-->
 - shift \(shamt\) ::@:: 5 bits; R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!2026-06-06,347,350!2027-08-06,658,335-->
 - funct ::@:: 6 bits; R format: opcode of the instruction, and is almost always used instead of the opcode field <!--SR:!2026-05-23,333,350!2026-04-24,304,350-->
-- imm ::@:: 16 bits; I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2025-12-27,209,335!2026-05-23,333,355-->
+- imm ::@:: 16 bits; I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2028-08-29,968,355!2026-05-23,333,355-->
 - pseudo-address ::@:: 26 bits; J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2027-03-30,505,315!2026-06-20,361,355-->
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}. <!--SR:!2026-04-15,295,350-->
@@ -268,7 +268,7 @@ The 32 registers are used as follows:
 > __flashcards__
 >
 > - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2026-03-14,224,270!2026-10-27,393,290-->
->   - register blocks / semantics ::@:: zero → asm temp → expr eval & fun ret ×2 → fun arg ×4 → temp ×8 → saved temp ×8 → temp ×2 → kernel ×2 → global ptr → stack ptr → frame \(base\) ptr → return addr <!--SR:!2025-12-22,199,310!2026-03-13,281,330-->
+>   - register blocks / semantics ::@:: zero → asm temp → expr eval & fun ret ×2 → fun arg ×4 → temp ×8 → saved temp ×8 → temp ×2 → kernel ×2 → global ptr → stack ptr → frame \(base\) ptr → return addr <!--SR:!2028-05-05,852,330!2026-03-13,281,330-->
 > - __`$zero`__ ::@:: `$0`: constant 0 <!--SR:!2026-04-09,289,330!2026-04-07,287,330-->
 > - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2026-03-16,283,330!2026-03-07,276,330-->
 > - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2026-04-08,288,330!2026-03-06,275,330-->
@@ -336,12 +336,12 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\) <!--SR:!2027-02-05,536,401!2026-10-25,449,401!2027-01-02,513,401!2027-01-25,525,401-->
 
 - absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 2; (branch delay slot); sub $d, $zero, $s;` \(use 1 instead of 2 for MIPS without branch delay slots, which MARS simulate by default\) <!--SR:!2026-04-05,262,361!2026-07-17,364,381-->
-- branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;` <!--SR:!2028-02-16,789,436!2025-12-23,143,416-->
+- branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;` <!--SR:!2028-02-16,789,436!2028-03-23,809,436-->
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;` <!--SR:!2026-11-23,478,401!2026-11-05,460,401-->
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2026-07-24,367,381!2026-12-18,496,401-->
 - branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2026-06-18,340,381!2026-11-09,464,401-->
-- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2026-11-24,479,401!2025-12-23,201,361-->
-- branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2025-12-23,143,416!2028-02-07,781,436-->
+- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2026-11-24,479,401!2028-09-27,997,381-->
+- branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2028-03-26,812,436!2028-02-07,781,436-->
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2026-05-08,318,355!2028-05-30,896,350-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2026-04-24,304,350!2026-06-08,349,350-->
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;` <!--SR:!2027-01-12,517,401!2026-12-21,497,401-->

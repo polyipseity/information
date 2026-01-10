@@ -76,7 +76,7 @@ This table shows {@{some mathematical operations on $x_{n}$ in the time domain a
 >
 > - real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2028-08-20,1148,356!2028-10-27,1202,356-->
 > - imaginary part in time ::@:: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2027-09-14,837,316!2029-01-08,1240,356-->
-> - real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2025-12-27,373,316!2030-01-10,1569,376-->
+> - real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2030-06-22,1630,336!2030-01-10,1569,376-->
 > - imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2027-08-15,624,316!2027-04-13,689,336-->
 
 ### orthogonality
@@ -130,7 +130,7 @@ As seen above, the discrete Fourier transform has {@{the fundamental property of
 
 ### convolution theorem duality
 
-It can also be shown that: $$\begin{aligned} \mathcal F\{\mathbf x \cdot \mathbf y \}_k & \triangleq \sum_{n = 0}^{N - 1} x_n \cdot y_n \cdot e^{-i\frac {2\pi} N kn} \\ & = \frac 1 N (\mathbf {X * Y_N})_k \end{aligned}$$, which is {@{the circular convolution of $\mathbf X$ and $\mathbf Y$}@}. <!--SR:!2025-12-25,330,312-->
+It can also be shown that: $$\begin{aligned} \mathcal F\{\mathbf x \cdot \mathbf y \}_k & \triangleq \sum_{n = 0}^{N - 1} x_n \cdot y_n \cdot e^{-i\frac {2\pi} N kn} \\ & = \frac 1 N (\mathbf {X * Y_N})_k \end{aligned}$$, which is {@{the circular convolution of $\mathbf X$ and $\mathbf Y$}@}. <!--SR:!2029-12-02,1428,332-->
 
 By [expressing the inverse DFT in terms of the DFT](#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT), we can easily prove the above from the (forward) [convolution theorem](#circular%20convolution%20theorem): {@{$$\begin{aligned} \mathcal F^{-1}\{\mathbf {X * Y_N} \}_k & = \frac 1 N \mathcal F\{\mathbf {X^* * Y_N^*} \}_k^* \\ & = \frac 1 N \cdot \mathcal F\{\mathbf {X^*}\}_k^* \cdot \mathcal F\{\mathbf {Y_N^*}\}_k^* \\ & = \frac 1 N \cdot N \cdot \mathcal F^{-1}\{\mathbf {X}\}_k \cdot N \cdot \mathcal F^{-1}\{\mathbf {Y_N}\}_k \\ & = N \cdot \mathbf x_k \cdot \mathbf {y_{_N} }_k \\ \frac 1 N (\mathbf {X * Y_N})_k & = \mathcal F\{\mathbf x \cdot \mathbf {y_{_N} }\}_k \end{aligned}$$}@}. <!--SR:!2026-04-22,418,312-->
 

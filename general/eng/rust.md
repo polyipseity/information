@@ -14,7 +14,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-__Rust__ is {@{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2025-12-31,526,210-->
+__Rust__ is {@{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230-->
 
 ## chemical reactions
 
@@ -42,7 +42,7 @@ After forming iron hydroxides, {@{[dehydration](dehydration%20reaction.md) occur
 >
 > - {@{Fe(OH)<sub>2</sub>(s)}@} ⇌ {@{FeO(s) + H<sub>2</sub>O(l)}@}
 > - {@{Fe(OH)<sub>3</sub>(s)}@} ⇌ {@{FeO(OH)(s) + H<sub>2</sub>O(l)}@}
-> - {@{2FeO(OH)(s)}@} ⇌ {@{Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}@} <!--SR:!2025-12-26,763,330!2027-02-04,947,290!2026-07-15,860,330!2026-10-02,359,373!2026-08-25,304,353!2026-08-22,301,353!2026-08-07,308,363-->
+> - {@{2FeO(OH)(s)}@} ⇌ {@{Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}@} <!--SR:!2035-07-03,3467,350!2027-02-04,947,290!2026-07-15,860,330!2026-10-02,359,373!2026-08-25,304,353!2026-08-22,301,353!2026-08-07,308,363-->
 
 {@{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}@} can be used to detect rusting. {@{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}@} to speed up the reaction. <!--SR:!2026-06-01,480,270!2028-01-19,1055,250-->
 
