@@ -89,7 +89,7 @@ Sizes of heaps     Moves
  0  0  0  0  0  0   Alice has no moves, so Bob wins.
 ```
 
-To {@{differentiate between the two games}@}, for the [first example game](#firstExample), we'll {@{label its starting position $\color {blue}S$, and color it blue}@}: $$\color {blue}S={\Big \{}{\big \{}*1,\{*1\},*2{\big \} },{\big \{}*2,\{*1,\{*1\},*2\}{\big \} },{\big \{}\{*1\},\{\{*1\}\},\{*1,\{*1\},*2\}{\big \} }{\Big \} }$$ For the [second example game](#secondExample), we'll {@{label the starting position $\color {red}S'$ and color it red}@}: $$\color {red}S'={\Big \{}\{*1\}{\Big \} }.$$
+To {@{differentiate between the two games}@}, for the [first example game](#firstExample), we'll {@{label its starting position $\color {blue}S$, and color it blue}@}: $$\color {blue}S={\Big \{}{\big \{}*1,\{*1\},*2{\big \} },{\big \{}*2,\{*1,\{*1\},*2\}{\big \} },{\big \{}\{*1\},\{\{*1\}\},\{*1,\{*1\},*2\}{\big \} }{\Big \} }$$ For the [second example game](#secondExample), we'll label {@{the starting position $\color {red}S'$ and color it red}@}: $$\color {red}S'={\Big \{}\{*1\}{\Big \} }.$$
 
 To compute {@{the starting position of the [combined game](#combined%20game)}@}, remember that a player can either {@{make a move in the first game, leaving the second game untouched}@}, or {@{make a move in the second game, leaving the first game untouched}@}. So {@{the combined game's starting position}@} is: {@{$${\color {blue}S} + {\color {red}S'} = {\Big \{}{\color {blue}S} + {\color {red}\{*1\} } {\Big \} }\cup {\Big \{} {\color {red}S'} + {\color {blue}\{*1,\{*1\},*2\} }, {\color {red}S'} + {\color {blue}\{*2,\{*1,\{*1\},*2\}\} }, {\color {red}S'} + {\color {blue}\{\{*1\},\{\{*1\}\},\{*1,\{*1\},*2\}\} } {\Big \} }$$}@} \(annotation: Notice {@{$+$ is used recursively}@}.\)
 
@@ -101,7 +101,7 @@ To compute {@{the starting position of the [combined game](#combined%20game)}@},
 
 {@{Two positions $G$ and $G'$ are ___equivalent___}@} if, {@{no matter what position $H$ is added to them, they are always in the same outcome class}@}. Formally, {@{$G\approx G'$}@} {@{if and only if $\forall H$, $G+H$ is in the same outcome class as $G'+H$}@}.
 
-To use our running examples, notice that in {@{both the [first](#example%20Nim%20game) and [second](#example%20game%202) games above}@}, we can show that {@{on every turn, Alice has a move that forces Bob into a ${\mathcal {P} }$-position}@}. Thus, {@{both $\color {blue}S$ and $\color {red}S'$ are ${\mathcal {N} }$-positions}@}. \(Notice that in {@{the combined game}@}, _Bob_ is {@{the player with the ${\mathcal {N} }$-positions}@}. In fact, {@{${\color {blue}S}+{\color {red}S'}$ is a ${\mathcal {P} }$-position}@}, which {@{as we will see in Lemma 2, means ${\color {blue}S} \approx {\color {red}S'}$}@}.\)
+To use our running examples, notice that in {@{both the [first](#example%20Nim%20game) and [second](#example%20game%202) games above}@}, we can show that {@{on every turn, Alice has a move that forces Bob into a ${\mathcal {P} }$-position}@}. Thus, {@{both $\color {blue}S$ and $\color {red}S'$ are ${\mathcal {N} }$-positions}@}. \(Notice that in {@{the combined game}@}, _Bob_ is {@{the player with the ${\mathcal {N} }$-positions}@}. In fact, {@{${\color {blue}S}+{\color {red}S'}$ is a ${\mathcal {P} }$-position}@}, which as we will see {@{in Lemma 2, means ${\color {blue}S} \approx {\color {red}S'}$}@}.\)
 
 ## First Lemma
 

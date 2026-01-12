@@ -324,6 +324,6 @@ When {@{an existing library}@} offers {@{a callback‑based asynchronous method}
 >   p.future
 > ```
 >
-> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@}, guaranteeing {@{a single result}@}.
+> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead.
 
-Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@}, guaranteeing {@{a single result}@}. Using this pattern keeps {@{the original callback API intact}@} while enabling callers to compose {@{the operation with other futures via `map`, `flatMap`, or `zip`}@}.
+Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead.

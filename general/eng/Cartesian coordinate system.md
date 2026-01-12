@@ -214,7 +214,7 @@ Regardless of {@{the rule used to orient the plane}@}, {@{rotating the coordinat
 >
 > Fig. 8 – {@{The right-handed Cartesian coordinate system indicating the coordinate planes}@}
 
-Once {@{the _x_- and _y_-axes are specified}@}, they {@{determine the [line](line%20(geometry).md) along which the _z_-axis should lie}@}, but {@{there are two possible orientations for this line}@}. The two possible coordinate systems, which result are called {@{'right-handed' and 'left-handed'}@}.<sup>[\[13\]](#^ref-13)</sup> The standard orientation, where {@{the _xy_-plane is horizontal and the _z_-axis points up}@} \(and the _x_- and the _y_-axis form {@{a positively oriented two-dimensional coordinate system in the _xy_-plane if observed from _above_ the _xy_-plane}@}\) is called {@{__right-handed__ or __positive__}@}.
+Once {@{the _x_- and _y_-axes are specified}@}, they determine {@{the [line](line%20(geometry).md) along which the _z_-axis should lie}@}, but there are {@{two possible orientations for this line}@}. The two possible coordinate systems, which result are called {@{'right-handed' and 'left-handed'}@}.<sup>[\[13\]](#^ref-13)</sup> The standard orientation, where {@{the _xy_-plane is horizontal and the _z_-axis points up}@} \(and the _x_- and the _y_-axis form {@{a positively oriented two-dimensional coordinate system in the _xy_-plane if observed from _above_ the _xy_-plane}@}\) is called {@{__right-handed__ or __positive__}@}.
 
 > {@{![3D Cartesian coordinate handedness](../../archives/Wikimedia%20Commons/3D%20Cartesian%20Coodinate%20Handedness.jpg)}@}
 >

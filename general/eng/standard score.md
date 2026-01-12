@@ -30,20 +30,20 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 
 {@{Standard scores}@} are most commonly called {@{__<!-- markdown separator -->_z_-scores__}@}; the two terms may {@{be used interchangeably, as they are in this article}@}. Other equivalent terms in use include {@{__z-value__, __z-statistic__, __normal score__, __standardized variable__}@} and {@{__pull__ in [high energy physics](high%20energy%20physics.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup>
 
-{@{Computing a z-score}@} requires {@{knowledge of the mean and standard deviation of the complete population to which a data point belongs}@}; {@{if one only has a [sample](sample%20(statistics).md) of observations from the population}@}, then the analogous computation {@{using the sample mean and sample standard deviation yields the [_t_-statistic](t-statistic.md)}@}.
+{@{Computing a z-score}@} requires knowledge of {@{the mean and standard deviation of the complete population to which a data point belongs}@}; {@{if one only has a [sample](sample%20(statistics).md) of observations from the population}@}, then the analogous computation {@{using the sample mean and sample standard deviation yields the [_t_-statistic](t-statistic.md)}@}.
 
 ## calculation
 
-{@{If the population mean and population standard deviation are known}@}, a raw score _x_ is {@{converted into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where:
+If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where:
 
 - _μ_ ::@:: is the [mean](mean.md) of the population,
 - _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population.
 
 {@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}.
 
-{@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, {@{knowing the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}.
+{@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, knowing {@{the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}.
 
-When {@{the population mean and the population standard deviation are unknown}@}, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup>
+When {@{the population mean and the population standard deviation}@} are unknown, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup>
 
 In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where:
 
@@ -58,7 +58,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 - Main article: [Z-test](Z-test.md)
 
-{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As {@{it is very unusual to know the entire population}@}, {@{the t-test is much more widely used}@}.
+{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}.
 
 ### prediction intervals
 
@@ -93,7 +93,7 @@ Because student A {@{has a higher z-score than student B}@}, student A {@{perfor
 
 ### percentage of observations below a z-score
 
-Continuing {@{the example of ACT and SAT scores}@}, {@{if it can be further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md) \(which is approximately correct\)}@}, then the z-scores may be used to {@{calculate the percentage of test-takers who received lower scores than students A and B}@}.
+Continuing {@{the example of ACT and SAT scores}@}, if it can be {@{further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md)}@} \(which is {@{approximately correct}@}\), then the z-scores may be used to calculate {@{the percentage of test-takers who received lower scores than students A and B}@}.
 
 ### cluster analysis and multidimensional scaling
 

@@ -106,7 +106,7 @@ The class of {@{all preordered sets with order-preserving functions \(i.e., mono
 
 The class of {@{all groups with [group homomorphisms](group%20homomorphism.md) as [morphisms](morphism.md) and [function composition](function%20composition.md) as the composition operation}@} forms {@{a large category, __[Grp](category%20of%20groups.md)__}@}. Like __Ord__, {@{__Grp__ is a concrete category}@}. {@{The category __[Ab](category%20of%20abelian%20groups.md)__}@}, consisting of {@{all [abelian groups](abelian%20group.md) and their group homomorphisms}@}, is {@{a [full subcategory](subcategory.md) of __Grp__, and the prototype of an [abelian category](abelian%20category.md)}@}.
 
-The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete category}@}, where {@{morphisms are graph homomorphisms \(i.e., mappings between graphs which send vertices to vertices and edges to edges in a way that preserves all adjacency and incidence relations\)}@}.
+The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete category}@}, where {@{morphisms are graph homomorphisms}@} \(i.e., {@{mappings between graphs which send vertices to vertices and edges to edges}@} in a way that {@{preserves all adjacency and incidence relations}@}\).
 
 {@{Other examples of concrete categories}@} are given by the following table.
 

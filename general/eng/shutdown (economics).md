@@ -25,7 +25,7 @@ Technically, shutdown occurs {@{if [average revenue](total%20revenue.md) is belo
 
 > {@{![short run cost curves pc industry](../../archives/Wikimedia%20Commons/Shortruncostcurves.jpg)}@}
 >
-> {@{Average Variable Cost \(AVC\), Average Total \(Fixed plus Variable\) Cost \(AC\), Average Fixed Cost \(AFC\), marginal cost \(MC\)}@}. {@{The short-run optimal quantity of output occurs}@} {@{where marginal cost intersects marginal revenue \(not shown; horizontal for a [perfect competitor](perfect%20competition.md), otherwise downward sloped\)}@}. If {@{at this output level the height of the average revenue curve \(not shown; horizontal for a perfect competitor, otherwise downward sloped\) is less than the height of the average variable cost curve}@}, the firm will {@{shut down production of the good in the short run to avoid negative profit}@}.
+> {@{Average Variable Cost \(AVC\), Average Total \(Fixed plus Variable\) Cost \(AC\), Average Fixed Cost \(AFC\), marginal cost \(MC\)}@}. {@{The short-run optimal quantity of output occurs}@} {@{where marginal cost intersects marginal revenue \(not shown; horizontal for a [perfect competitor](perfect%20competition.md), otherwise downward sloped\)}@}. If at {@{this output level the height of the average revenue curve}@} \(not shown; horizontal for {@{a perfect competitor, otherwise downward sloped}@}\) is {@{less than the height of the average variable cost curve}@}, the firm will {@{shut down production of the good in the short run to avoid negative profit}@}.
 
 <!-- markdownlint MD028 -->
 

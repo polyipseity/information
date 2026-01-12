@@ -31,7 +31,7 @@ Fix {@{a category $C$}@}. Let {@{$X_{1}$ and $X_{2}$ be objects of $C$}@}. {@{A 
 
 - For every object $Y$ and every pair of morphisms $f_{1}:Y\to X_{1}$, $f_{2}:Y\to X_{2}$, ::@:: there exists a unique morphism $f:Y\to X_{1}\times X_{2}$ such that the following diagram [commutes](commutative%20diagram.md): <p> ![Universal property of the product](../../archives/Wikimedia%20Commons/CategoricalProduct-03.svg)
 
-Whether a product {@{exists may depend on $C$ or on $X_{1}$ and $X_{2}$}@}. If {@{it does exist, it is unique [up to](up%20to.md) [canonical isomorphism](canonical%20isomorphism.md)}@}, because {@{of the universal property, so one may speak of _the_ product}@}. This has the following meaning: if {@{$X',\pi _{1}',\pi _{2}'$ is another product}@}, there {@{exists a unique isomorphism $h:X'\to X_{1}\times X_{2}$ such that $\pi _{1}'=\pi _{1}\circ h$ and $\pi _{2}'=\pi _{2}\circ h$}@}.
+Whether a product {@{exists may depend on $C$ or on $X_{1}$ and $X_{2}$}@}. If {@{it does exist, it is unique [up to](up%20to.md) [canonical isomorphism](canonical%20isomorphism.md)}@}, because {@{of the universal property}@}, so one may {@{speak of _the_ product}@}. This has the following meaning: if {@{$X',\pi _{1}',\pi _{2}'$ is another product}@}, there {@{exists a unique isomorphism $h:X'\to X_{1}\times X_{2}$ such that $\pi _{1}'=\pi _{1}\circ h$ and $\pi _{2}'=\pi _{2}\circ h$}@}.
 
 {@{The morphisms $\pi _{1}$ and $\pi _{2}$}@} are called {@{the __[canonical projections](canonical%20projection.md#canonical%20surjection)__ or __projection morphisms__}@}; the letter {@{$\pi$ alliterates with projection}@}. Given {@{$Y$ and $f_{1}$, $f_{2}$}@}, {@{the unique morphism $f$}@} is called {@{the __product of morphisms__ $f_{1}$ and $f_{2}$ and is denoted $\langle f_{1},f_{2}\rangle$}@}.
 
@@ -79,7 +79,7 @@ Other examples:
 
 ## discussion
 
-An example {@{in which the product does not exist}@}: In {@{the category of fields}@}, {@{the product $\mathbb {Q} \times F_{p}$ does not exist}@}, since {@{there is no field with homomorphisms to both $\mathbb {Q}$ and $F_{p}$}@}.
+An example {@{in which the product does not exist}@}: In {@{the category of fields}@}, {@{the product $\mathbb {Q} \times F_{p}$ does not exist}@}, since there is {@{no field with homomorphisms to both $\mathbb {Q}$ and $F_{p}$}@}.
 
 Another example: {@{An [empty product](empty%20product.md) \(that is, $I$ is the [empty set](empty%20set.md)\)}@} is {@{the same as a [terminal object](terminal%20object.md) (annotation: an empty product degenerates into requiring an unique morphism from every object)}@}, and {@{some categories, such as the category of [infinite groups](infinite%20group.md)}@}, {@{do not have a terminal object}@}: given {@{any infinite group $G$}@} there are {@{infinitely many morphisms $\mathbb {Z} \to G$, so $G$ cannot be terminal}@}.
 

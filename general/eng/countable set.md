@@ -119,7 +119,7 @@ This set is {@{the union of the length-1 sequences, the length-2 sequences, the 
 
 These follow from {@{the definitions of countable set as injective / surjective functions}@}.<sup>[\[g\]](#^ref-g)</sup>
 
-{@{__[Cantor's theorem](Cantor's%20theorem.md)__}@} asserts that if {@{$A$ is a set and ${\mathcal {P} }(A)$ is its [power set](power%20set.md), i.e. the set of all subsets of $A$}@}, then {@{there is no surjective function from $A$ to ${\mathcal {P} }(A)$}@}. A proof is {@{given in the article [Cantor's theorem](Cantor's%20theorem.md)}@}. As {@{an immediate consequence of this and the Basic Theorem above}@} we have:
+{@{__[Cantor's theorem](Cantor's%20theorem.md)__}@} asserts that if {@{$A$ is a set and ${\mathcal {P} }(A)$ is its [power set](power%20set.md), i.e. the set of all subsets of $A$}@}, then there is {@{no surjective function from $A$ to ${\mathcal {P} }(A)$}@}. A proof is {@{given in the article [Cantor's theorem](Cantor's%20theorem.md)}@}. As {@{an immediate consequence of this and the Basic Theorem above}@} we have:
 
 > Proposition — {@{The set ${\mathcal {P} }(\mathbb {N} )$}@} is {@{not countable; i.e. it is [uncountable](uncountable%20set.md)}@}.
 

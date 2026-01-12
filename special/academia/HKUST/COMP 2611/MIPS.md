@@ -225,14 +225,14 @@ All instructions are {@{4 bytes \(32 bits\) long}@}. This is an example of {@{th
 
 The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, and pseudo-address}@}. They mean:
 
-- opcode ::@:: 6 bits; opcode of the instruction; R format: this is almost always 0, since the funct field is used instead
-- rs ::@:: 5 bits; R format: first source register operand; I format: source or memory register operand
-- rt ::@:: 5 bits; R format: second source register operand; I format: destination or non-memory register operand
-- rd ::@:: 5 bits; R format: destination register operand
-- shift \(shamt\) ::@:: 5 bits; R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions
-- funct ::@:: 6 bits; R format: opcode of the instruction, and is almost always used instead of the opcode field
-- imm ::@:: 16 bits; I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction
-- pseudo-address ::@:: 26 bits; J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\)
+- opcode ::@:: 6 bits; opcode of the instruction <p> - R format: this is almost always 0, since the funct field is used instead
+- rs ::@:: 5 bits <p> - R format: first source register operand <br/> - I format: source or memory register operand
+- rt ::@:: 5 bits <p> - R format: second source register operand <br/> - I format: destination or non-memory register operand
+- rd ::@:: 5 bits <p> - R format: destination register operand
+- shift \(shamt\) ::@:: 5 bits <p> - R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions
+- funct ::@:: 6 bits <p> - R format: opcode of the instruction, and is almost always used instead of the opcode field
+- imm ::@:: 16 bits <p> - I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction
+- pseudo-address ::@:: 26 bits <p> - J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\)
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}.
 

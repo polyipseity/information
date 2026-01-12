@@ -46,7 +46,7 @@ The additional logical operators are defined as follows:
 
 - and ::@:: φ ∧ ψ ≡ ¬\(¬φ ∨ ¬ψ\)
 - implies ::@:: φ → ψ ≡ ¬φ ∨ ψ
-- material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \( ψ → φ\)
+- material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \(ψ → φ\)
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_
 - false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__
 

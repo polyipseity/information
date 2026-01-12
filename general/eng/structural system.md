@@ -16,7 +16,7 @@ tags:
 
 ## high-rise buildings
 
-Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey with height less than 24 m}@}, {@{high-rise with height more than 24 m but less than 100 m, tall, and supertall}@}.
+Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey with height less than 24 m}@}, {@{high-rise with height more than 24 m but less than 100 m}@}, {@{tall, and supertall}@}.
 
 The structural system of a building only {@{consists of members designed to carry loads}@}, and all others are {@{non-structural}@}.
 

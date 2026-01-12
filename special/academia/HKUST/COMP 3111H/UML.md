@@ -327,7 +327,7 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 
 ### use case specification
 
-{@{A detailed use case specification}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 items: {@{name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)}@}\)
+{@{A detailed use case specification}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 steps: {@{name → description → actors}@} → {@{preconditions \(if any\) → flow of events → postconditions \(if any\)}@} → {@{alternative flows \(if any\) → special requirements \(if any\)}@}\)
 
 1. __Name__ ::@:: concise title written as an active-voice verb phrase in the present tense.
 2. __Brief description__ ::@:: a short \(one-sentence\) summary of the scenario.
