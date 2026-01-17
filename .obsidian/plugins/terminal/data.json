@@ -15,6 +15,7 @@
   "preferredRenderer": "webgl",
   "profiles": {
     "ac11afc4-60d0-4127-8fe7-5b7fc06a81c7": {
+      "followTheme": true,
       "name": "Developer console",
       "restoreHistory": true,
       "rightClickAction": "copyPaste",
@@ -31,6 +32,7 @@
     "c4f2db89-e11a-4693-b868-7f01ac3f0011": {
       "args": [],
       "executable": "pwsh",
+      "followTheme": true,
       "name": "PowerShell Core: Integrated",
       "platforms": {
         "darwin": true,
@@ -54,6 +56,7 @@
     "fb790b98-1a40-4686-8e0f-956f115ca551": {
       "args": [],
       "executable": "pwsh",
+      "followTheme": true,
       "name": "PowerShell Core: External",
       "platforms": {
         "darwin": true,
