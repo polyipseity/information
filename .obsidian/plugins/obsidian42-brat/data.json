@@ -19,5 +19,5 @@
   "notificationsEnabled": true,
   "personalAccessToken": "",
   "selectLatestPluginVersionByDefault": true,
-  "allowIncompatiblePlugins": false
+  "allowIncompatiblePlugins": true
 }
