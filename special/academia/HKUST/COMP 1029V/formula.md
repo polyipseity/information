@@ -332,7 +332,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`AVERAGE(numbers...)` <!--SR:!2025-12-27,485,290!2027-11-05,1067,350-->
+- _(begin)_→::@::←`AVERAGE(numbers...)` <!--SR:!2031-05-27,1957,310!2027-11-05,1067,350-->
 - `AVERAGE(numbers...)`→::@::←`COUNTIF(values, criteria)` <!--SR:!2027-03-19,750,290!2027-05-21,751,290-->
 - `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2027-09-26,931,310-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2026-07-19,579,250!2026-07-24,575,270-->

@@ -21,7 +21,7 @@ However, {@{the interface conditions for the electromagnetic field vectors}@} ca
 
 ### electric field strength
 
-\(annotation: $\mathbf E$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$ <!--SR:!2026-07-28,307,338!2026-01-08,133,298-->
+\(annotation: $\mathbf E$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$ <!--SR:!2026-07-28,307,338!2027-07-18,547,318-->
 
 where: <br/>
 $\mathbf {n} _{12}$ <!-- flashcard ID: 89355df4-5adb-4753-a348-713d05c62a3b -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2026-08-16,325,358!2026-03-27,211,338-->
@@ -68,7 +68,7 @@ Therefore, {@{the normal component of __B__}@} is {@{continuous across the inter
 
 ### for magnetic field strength
 
-\(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$ <!--SR:!2026-01-09,89,298!2026-07-08,292,338-->
+\(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$ <!--SR:!2026-10-11,267,298!2026-07-08,292,338-->
 
 where: <br/>
 $\mathbf {n} _{12}$ <!-- flashcard ID: 88bd7276-524c-48b2-b4d0-224cd3b21e56 -->::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/> <!--SR:!2026-08-26,334,358!2026-08-17,326,358-->

@@ -100,7 +100,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Each association must have an unique name.}@} <!--SR:!2026-01-08,73,320-->
+> - solution: {@{No. Each association must have an unique name.}@} <!--SR:!2026-12-05,323,340-->
 
 ---
 
@@ -108,7 +108,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!2026-01-09,74,320-->
+> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!2026-12-12,330,340-->
 
 ---
 
@@ -124,7 +124,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!2026-01-05,70,320-->
+> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!2026-11-16,304,340-->
 
 ---
 
@@ -140,7 +140,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!2026-01-06,71,320-->
+> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!2026-11-23,311,340-->
 
 ## week 3 pre-lecture
 
@@ -152,7 +152,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{If the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2026-01-15,77,338-->
+> - solution: {@{If the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2027-01-16,365,358-->
 
 ---
 

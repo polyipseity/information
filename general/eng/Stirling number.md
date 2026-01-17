@@ -31,7 +31,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 ## expansions of falling and rising factorials
 
-Stirling numbers express {@{coefficients in expansions of [falling and rising factorials](falling%20and%20rising%20factorials.md)}@} (also known as {@{the Pochhammer symbol}@}) as {@{polynomials}@}. <!--SR:!2029-09-26,1398,350!2025-12-29,20,362!2025-12-29,20,362-->
+Stirling numbers express {@{coefficients in expansions of [falling and rising factorials](falling%20and%20rising%20factorials.md)}@} (also known as {@{the Pochhammer symbol}@}) as {@{polynomials}@}. <!--SR:!2029-09-26,1398,350!2026-04-21,96,382!2026-04-21,96,382-->
 
 That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}. <!--SR:!2029-10-07,1405,350!2027-03-15,548,270!2026-01-23,308,290-->
 
@@ -67,9 +67,9 @@ In contrast, {@{the sum $\sum _{i=0}^{n}i^{k}$ in the standard basis}@} is {@{gi
 
 These numbers are {@{coefficients expressing falling factorials in terms of rising factorials and vice versa}@}: {@{<p> $x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}\quad$ and $\quad (x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$}@} <!--SR:!2029-04-26,1274,350!2029-11-19,1440,350-->
 
-As above, this means they express {@{the change of basis between the bases $(x)_{0},(x)_{1},(x)_{2},\cdots$ and $x^{(0)},x^{(1)},x^{(2)},\cdots$}@}, {@{completing the diagram}@}. In particular, {@{one formula is the inverse of the other}@}, thus: {@{$$\sum _{j=k}^{n}(-1)^{j-k}L(n,j)L(j,k)=\delta _{n,k}.$$}@} <!--SR:!2028-09-12,1015,330!2029-07-13,1338,350!2029-08-24,1370,350!2025-12-29,20,362-->
+As above, this means they express {@{the change of basis between the bases $(x)_{0},(x)_{1},(x)_{2},\cdots$ and $x^{(0)},x^{(1)},x^{(2)},\cdots$}@}, {@{completing the diagram}@}. In particular, {@{one formula is the inverse of the other}@}, thus: {@{$$\sum _{j=k}^{n}(-1)^{j-k}L(n,j)L(j,k)=\delta _{n,k}.$$}@} <!--SR:!2028-09-12,1015,330!2029-07-13,1338,350!2029-08-24,1370,350!2026-04-21,96,382-->
 
-Similarly, composing {@{the change of basis from $x^{(n)}$ to $x^{n}$ with the change of basis from $x^{n}$ to $(x)_{n}$}@} gives {@{the change of basis directly from $x^{(n)}$ to $(x)_{n}$}@}: {@{$$L(n,k)=\sum _{j=k}^{n}{\biggl [}{n \atop j}{\biggr ]}{\biggl \{}{\!j\! \atop \!k\!}{\biggr \} },$$}@} and similarly for other compositions. In {@{terms of matrices}@}, if {@{$L$ denotes the matrix with entries $L_{nk}=L(n,k)$ and $L^{-}$ denotes the matrix with entries $L_{nk}^{-}=(-1)^{n-k}L(n,k)$}@}, then {@{one is the inverse of the other: $L^{-}=L^{-1}$}@}. Composing {@{the matrix of unsigned Stirling numbers of the first kind with the matrix of Stirling numbers of the second kind}@} gives {@{the Lah numbers: $L=|s|\cdot S$}@}. <!--SR:!2028-09-24,1024,330!2028-04-12,949,330!2026-02-08,312,290!2029-09-29,1400,350!2028-03-18,930,330!2029-11-17,1439,350!2028-02-03,898,330!2026-01-08,340,346-->
+Similarly, composing {@{the change of basis from $x^{(n)}$ to $x^{n}$ with the change of basis from $x^{n}$ to $(x)_{n}$}@} gives {@{the change of basis directly from $x^{(n)}$ to $(x)_{n}$}@}: {@{$$L(n,k)=\sum _{j=k}^{n}{\biggl [}{n \atop j}{\biggr ]}{\biggl \{}{\!j\! \atop \!k\!}{\biggr \} },$$}@} and similarly for other compositions. In {@{terms of matrices}@}, if {@{$L$ denotes the matrix with entries $L_{nk}=L(n,k)$ and $L^{-}$ denotes the matrix with entries $L_{nk}^{-}=(-1)^{n-k}L(n,k)$}@}, then {@{one is the inverse of the other: $L^{-}=L^{-1}$}@}. Composing {@{the matrix of unsigned Stirling numbers of the first kind with the matrix of Stirling numbers of the second kind}@} gives {@{the Lah numbers: $L=|s|\cdot S$}@}. <!--SR:!2028-09-24,1024,330!2028-04-12,949,330!2026-02-08,312,290!2029-09-29,1400,350!2028-03-18,930,330!2029-11-17,1439,350!2028-02-03,898,330!2029-04-12,1183,346-->
 
 [Enumeratively](enumerative%20combinatorics.md), $\left\{ {\!n\! \atop \!k\!}\right\},\left[{n \atop k}\right],L(n,k)$ can be defined as {@{the number of partitions of _n_ elements into _k_ non-empty unlabeled subsets, where each subset is endowed with no order, a [cyclic order](cyclic%20order.md), or a linear order, respectively}@}. In particular, this {@{implies the inequalities: $${\biggl \{}{\!n\! \atop \!k\!}{\biggr \} }\leq {\biggl [}{n \atop k}{\biggr ]}\leq L(n,k).$$}@} <!--SR:!2027-12-01,859,330!2029-10-18,1415,350-->
 
@@ -81,7 +81,7 @@ For {@{any pair of sequences, $\{f_{n}\}$ and $\{g_{n}\}$}@}, related by {@{a fi
 
 For {@{$D=d/dx$}@}, {@{the [differential operators](differential%20operator.md) $x^{n}D^{n}$ and $(xD)^{n}$}@} are {@{related by the following formulas}@} for {@{all integers $n\geq 0$}@}:<sup>[\[7\]](#^ref-7)</sup> {@{$${\begin{aligned}(xD)^{n}&=\sum _{k=0}^{n}S(n,k)x^{k}D^{k}\\x^{n}D^{n}&=\sum _{k=0}^{n}s(n,k)(xD)^{k}=(xD)_{n}=xD(xD-1)\ldots (xD-n+1)\end{aligned} }$$}@} <!--SR:!2027-06-08,654,310!2028-08-30,992,290!2029-09-09,1385,350!2028-03-02,918,330!2026-05-16,307,230-->
 
-{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2029-10-03,1404,350!2027-04-09,564,270!2027-11-27,713,270!2025-12-30,24,130-->
+{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2029-10-03,1404,350!2027-04-09,564,270!2027-11-27,713,270!2026-01-26,11,130-->
 
 ## similar properties
 
@@ -104,7 +104,7 @@ See the specific articles for details.
 
 ## symmetric formulae
 
-Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@{the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-05-03,967,330!2026-01-10,95,371-->
+Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@{the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-05-03,967,330!2027-01-08,358,371-->
 
 - symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2026-01-22,44,130!2026-08-04,238,250-->
 

@@ -100,7 +100,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2027-07-30,676,255!2031-08-20,2106,395-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2027-04-01,627,275!2027-04-11,546,275-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2028-01-05,874,295!2026-09-09,523,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2026-01-14,87,135-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2026-07-11,178,155-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2026-02-18,299,295!2027-07-10,770,315-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2031-11-07,2169,395!2028-11-04,1162,355-->
 
@@ -267,7 +267,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2026-01-11,378,310!2026-10-11,597,310-->
+  - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2030-06-23,1622,330!2026-10-11,597,310-->
     - HATS Stage 2A tunnel sizes ::@:: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2029-04-06,1210,270!2029-01-29,1334,350-->
 
 ## page 21
@@ -337,14 +337,14 @@ Air Quality Health Index
 FORECAST of Health Risk
 
 - AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2027-04-07,788,330!2028-10-15,1233,350-->
-  - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2026-01-07,385,270!2028-05-01,1120,350-->
+  - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2029-12-31,1448,290!2028-05-01,1120,350-->
 
 ## page 29
 
 Indoor Air Quality
 
 - sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2028-11-03,1252,350!2027-11-25,995,350-->
-- common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2028-08-26,1207,350-->
+- common indoor air pollutant ::@:: 12 parameters <!--SR:!2031-01-03,1816,330!2028-08-26,1207,350-->
   - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2027-08-04,819,290!2026-05-06,490,310-->
     - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2027-09-28,850,290!2026-02-10,329,310-->
     - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2026-02-05,274,210!2026-06-19,518,310-->
@@ -391,7 +391,7 @@ return await memorize_seq(
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2026-10-09,596,310!2027-05-04,807,330-->
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2026-11-26,519,270!2026-02-15,256,230-->
-- methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2026-01-09,395,290-->
+- methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2030-05-25,1593,310-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2026-04-27,269,210!2026-03-15,169,170-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2026-04-19,362,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2026-06-02,367,310!2027-02-16,688,310-->
@@ -442,7 +442,7 @@ Relationship between PPM and mg/L
 
 Concentration Units for Gases
 
-- concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2027-07-26,871,330-->
+- concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2030-04-10,1548,310!2027-07-26,871,330-->
   - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2028-07-24,1174,350!2026-08-08,592,310-->
   - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!2026-06-09,349,310-->
 

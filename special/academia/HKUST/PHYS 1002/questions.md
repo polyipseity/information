@@ -77,7 +77,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3/2 sidereal days
 >
 > - solution: {@{2}@}
-> - explanation: {@{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}@} <!--SR:!2026-01-08,380,297!2026-06-16,538,317-->
+> - explanation: {@{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}@} <!--SR:!2030-04-25,1566,317!2026-06-16,538,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -301,7 +301,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. purple (not violet)
 >
 > - solution: {@{5}@}
-> - explanation: {@{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}@} <!--SR:!2025-12-27,411,368!2030-01-13,1487,368-->
+> - explanation: {@{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}@} <!--SR:!2031-09-14,2073,388!2030-01-13,1487,368-->
 
 ## 2024-07-18
 
@@ -355,7 +355,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 2500&nbsp;000 km
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}@} <!--SR:!2026-01-08,422,371!2026-04-24,435,311-->
+> - explanation: {@{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}@} <!--SR:!2031-11-25,2145,391!2026-04-24,435,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -373,7 +373,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^7 L_Sun
 >
 > - solution: {@{1}@}
-> - explanation: Notice that {@{$C$ is not given for two cases}@}. So the main problem is {@{calculating $C$}@}. The main thing to realize is that we expect {@{for masses in the boundary points between two equations, the two equations should predict the same value}@}, i.e. {@{a continuous function}@}. We only need {@{the $C$ for the third case}@}: {@{$$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004 \,.$$}@} Then the rest is a simple matter of {@{applying the formula}@}: {@{$$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity} \,.$$}@} So the answer is {@{2×10<sup>6</sup> L<sub>Sun</sub>}@}. <!--SR:!2028-09-05,1085,351!2029-05-17,1256,331!2026-01-05,26,384!2026-01-03,24,384!2026-01-05,26,384!2026-01-03,24,384!2026-01-04,25,384!2026-01-03,24,384!2026-01-04,25,384!2026-01-05,26,384-->
+> - explanation: Notice that {@{$C$ is not given for two cases}@}. So the main problem is {@{calculating $C$}@}. The main thing to realize is that we expect {@{for masses in the boundary points between two equations, the two equations should predict the same value}@}, i.e. {@{a continuous function}@}. We only need {@{the $C$ for the third case}@}: {@{$$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004 \,.$$}@} Then the rest is a simple matter of {@{applying the formula}@}: {@{$$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity} \,.$$}@} So the answer is {@{2×10<sup>6</sup> L<sub>Sun</sub>}@}. <!--SR:!2028-09-05,1085,351!2029-05-17,1256,331!2026-05-27,137,404!2026-05-16,126,404!2026-05-27,137,404!2026-05-17,127,404!2026-05-20,130,404!2026-05-19,129,404!2026-05-21,131,404!2026-05-27,137,404-->
 
 <!-- markdownlint MD028 -->
 
@@ -439,7 +439,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. are no longer forming in the Milky Way galaxy; they only formed very early in the Milky Way galaxy's history
 > 5. they are significantly less luminous after the main sequence stage is over
 >
-> - solution: {@{3}@} <!--SR:!2025-12-28,409,381-->
+> - solution: {@{3}@} <!--SR:!2031-11-12,2132,401-->
 
 <!-- markdownlint MD028 -->
 

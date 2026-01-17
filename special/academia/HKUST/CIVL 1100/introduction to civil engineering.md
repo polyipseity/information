@@ -49,7 +49,7 @@ The content is in teaching order.
     - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2029-07-16,1373,307!2031-01-17,1955,400-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!2026-10-21,698,360-->
 - civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2030-12-09,1925,396-->
-  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2026-01-13,502,400-->
+  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2033-07-20,2741,420-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
   - [structural engineering examples](#structural%20engineering%20examples)
@@ -200,7 +200,7 @@ water and sewage treatment system
 - reservoir→::@::←sewage treatment <!--SR:!2027-08-18,690,217!2026-05-27,340,261-->
 - sewage treatment→::@::←transport <!--SR:!2026-04-09,388,230!2026-03-21,463,301-->
 - transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2026-02-06,230,170-->
-- water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2028-09-09,1248,381-->
+- water and sewage treatment system→::@::←_(end)_ <!--SR:!2031-05-04,1933,401!2028-09-09,1248,381-->
 
 <!--/pytextgen-->
 
@@ -319,7 +319,7 @@ We Engineer Hong Kong’s Development
 - _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2028-02-29,1052,334!2027-07-27,950,350-->
 - 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2031-01-23,1878,344!2027-05-09,703,307-->
 - We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2027-02-25,706,312!2026-05-26,490,297-->
-- 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2027-11-11,942,357!2026-01-08,443,330-->
+- 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2027-11-11,942,357!2031-07-26,2016,350-->
 - We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2032-11-11,2540,412!2030-07-27,1813,400-->
 
 <!--/pytextgen-->
@@ -357,7 +357,7 @@ transportation
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←construction <!--SR:!2027-10-18,1008,375!2027-02-18,827,395-->
-- construction→::@::←environmental <!--SR:!2029-09-27,1517,360!2025-12-22,480,400-->
+- construction→::@::←environmental <!--SR:!2029-09-27,1517,360!2033-03-21,2620,420-->
 - environmental→::@::←geo-technical <!--SR:!2031-01-15,1874,347!2026-12-16,708,345-->
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
@@ -454,7 +454,7 @@ testing materials
 
 - _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2029-03-01,1423,395-->
 - budgeting→::@::←contracting <!--SR:!2030-06-11,1735,354!2026-03-06,483,327-->
-- contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2027-12-14,966,315-->
+- contracting→::@::←designing temporary structures <!--SR:!2029-02-22,1132,235!2027-12-14,966,315-->
 - designing temporary structures→::@::←logistics <!--SR:!2031-04-18,1967,360!2027-07-26,761,297-->
 - logistics→::@::←planning <!--SR:!2028-02-13,967,314!2030-12-03,1854,355-->
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
@@ -500,7 +500,7 @@ teaming up with others
 
 - _(begin)_→::@::←business procedures <!--SR:!2028-06-14,1029,272!2026-03-19,557,401-->
 - business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
-- economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
+- economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2031-09-26,2078,360-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2028-01-23,921,280-->
 - management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2029-03-28,1354,340-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2030-06-28,1788,400-->
@@ -544,7 +544,7 @@ wood
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2030-06-24,1750,360-->
 - steel→::@::←stone <!--SR:!2027-01-10,646,320!2026-12-18,745,360-->
 - stone→::@::←wood <!--SR:!2028-03-09,1063,341!2030-03-16,1652,352-->
-- wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2026-12-17,711,380-->
+- wood→::@::←_(end)_ <!--SR:!2033-08-03,2755,414!2026-12-17,711,380-->
 
 <!--/pytextgen-->
 
@@ -593,7 +593,7 @@ nuclear
 - _(begin)_→::@::←agricultural <!--SR:!2030-10-29,1805,330!2032-12-02,2555,412-->
 - agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2029-10-20,1582,392-->
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
-- biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
+- biomedical→::@::←ceramic <!--SR:!2031-03-17,1885,340!2026-03-07,528,357-->
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2030-11-13,1843,355-->
 - chemical→::@::←civil <!--SR:!2026-01-19,455,337!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
@@ -634,9 +634,9 @@ water
 
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←air <!--SR:!2027-05-11,854,361!2025-12-28,486,401-->
+- _(begin)_→::@::←air <!--SR:!2027-05-11,854,361!2033-04-30,2660,421-->
 - air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2030-04-29,1694,358-->
-- environmental impact assessment (EIA)→::@::←noise <!--SR:!2029-12-14,1574,347!2026-01-08,497,400-->
+- environmental impact assessment (EIA)→::@::←noise <!--SR:!2029-12-14,1574,347!2033-06-26,2717,420-->
 - noise→::@::←waste <!--SR:!2026-02-04,446,360!2027-07-08,926,375-->
 - waste→::@::←water <!--SR:!2027-10-08,990,377!2028-08-19,1238,380-->
 - water→::@::←_(end)_ <!--SR:!2032-09-06,2484,420!2030-06-19,1782,400-->
@@ -879,7 +879,7 @@ developing strengthening techniques for damaged structures or structural members
 
 - _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2029-04-28,1403,355!2029-04-02,1426,390-->
 - choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
-- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2030-01-06,1601,355!2025-12-27,340,297-->
+- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2030-01-06,1601,355!2029-11-25,1408,317-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2029-06-01,1419,344-->
 
 <!--/pytextgen-->
@@ -1095,7 +1095,7 @@ water tower
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2032-09-15,2499,420-->
-- bridge→::@::←building <!--SR:!2027-01-09,715,350!2026-01-07,496,400-->
+- bridge→::@::←building <!--SR:!2027-01-09,715,350!2033-06-14,2705,420-->
 - building→::@::←dam <!--SR:!2029-02-06,1371,381!2027-09-27,983,381-->
 - dam→::@::←power plant <!--SR:!2030-02-20,1531,321!2028-05-20,1022,278-->
 - power plant→::@::←storage facility <!--SR:!2027-03-08,767,320!2028-07-07,1100,354-->
@@ -1228,7 +1228,7 @@ water treatment
 
 - _(begin)_→::@::←groundwater quality control <!--SR:!2031-04-03,1951,360!2027-04-06,857,377-->
 - groundwater quality control→::@::←wastewater recycling <!--SR:!2028-03-10,951,295!2029-07-21,1328,300-->
-- wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2027-04-11,815,337-->
+- wastewater recycling→::@::←wastewater treatment <!--SR:!2030-12-25,1803,335!2027-04-11,815,337-->
 - wastewater treatment→::@::←water quality monitoring <!--SR:!2026-01-29,404,280!2026-04-16,495,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2030-09-18,1795,354-->
 - water treatment→::@::←_(end)_ <!--SR:!2028-05-23,1167,374!2026-05-18,524,286-->

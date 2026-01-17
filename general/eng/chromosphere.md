@@ -11,7 +11,7 @@ tags:
 
 A __chromosphere__ ("sphere of color") is {@{the second layer of a [star's atmosphere](stellar%20atmosphere.md), located above the [photosphere](photosphere.md) and below the [solar transition region](solar%20transition%20region.md) and [corona](stellar%20corona.md)}@}. <!--SR:!2026-03-01,386,290-->
 
-For {@{the [Sun](Sun.md)'s chromosphere}@}, {@{the [temperature](temperature.md)}@} {@{initially decreases from the inner boundary at about 6000&nbsp;K to a minimum of approximately 3800&nbsp;K}@}, but then {@{increasing to upwards of 35&nbsp;000&nbsp;K at the outer boundary with the [transition layer](solar%20transition%20region.md) of the [corona](stellar%20corona.md)}@} \(see {@{[stellar corona § coronal heating problem](stellar%20corona.md#coronal%20heating%20problem)}@}\). <!--SR:!2027-06-28,643,250!2026-08-30,254,334!2026-09-07,261,334!2026-04-23,139,294!2025-12-28,67,314-->
+For {@{the [Sun](Sun.md)'s chromosphere}@}, {@{the [temperature](temperature.md)}@} {@{initially decreases from the inner boundary at about 6000&nbsp;K to a minimum of approximately 3800&nbsp;K}@}, but then {@{increasing to upwards of 35&nbsp;000&nbsp;K at the outer boundary with the [transition layer](solar%20transition%20region.md) of the [corona](stellar%20corona.md)}@} \(see {@{[stellar corona § coronal heating problem](stellar%20corona.md#coronal%20heating%20problem)}@}\). <!--SR:!2027-06-28,643,250!2026-08-30,254,334!2026-09-07,261,334!2026-04-23,139,294!2026-11-03,294,334-->
 
 ## references
 

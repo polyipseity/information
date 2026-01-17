@@ -170,7 +170,7 @@ The steps for naming an organic compound are:
 - identify side-chains→::@::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2026-07-17,507,207-->
 - identify remaining functional groups→::@::←identify multiple bonds <!--SR:!2026-07-16,523,190!2026-06-27,690,207-->
 - identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2030-10-14,1783,250!2027-04-24,580,210-->
-- [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2026-01-17,579,190!2026-03-01,749,265-->
+- [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2030-05-18,1582,210!2026-03-01,749,265-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2026-02-13,329,207!2027-03-29,824,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!2026-06-29,450,207-->
 - (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!2026-06-08,527,225-->
@@ -237,7 +237,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→::@::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2029-09-13,1545,307-->
 - bond order: single bond, double bond, triple bond, ...→::@::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2026-05-03,802,250!2031-10-07,2502,342-->
-- prefix order: alphabetical order ignoring prefixes for type count→::@::←_(end)_ <!--SR:!2026-01-10,880,340!2027-02-10,664,302-->
+- prefix order: alphabetical order ignoring prefixes for type count→::@::←_(end)_ <!--SR:!2034-03-24,2992,340!2027-02-10,664,302-->
 
 <!--/pytextgen-->
 
@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCOR'}@}
 > - prefix: {@{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}@}
 > - suffix: {@{-one}@}
-> - infix: {@{(locant)}@} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2032-06-01,2637,341!2026-03-12,238,150!2027-03-07,780,342!2028-07-31,1552,362-->
+> - infix: {@{(locant)}@} <!--SR:!2035-05-23,3417,320!2026-10-01,825,280!2032-06-01,2637,341!2026-03-12,238,150!2027-03-07,780,342!2028-07-31,1552,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -489,7 +489,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCOO<sup>-</sup>}@}
 > - prefix: {@{carboxy-}@}
 > - suffix: {@{-ate (retained), -oate}@}
-> - infix: {@{(locant)}@} <!--SR:!2029-02-20,1831,382!2030-02-08,2115,382!2030-01-21,2100,382!2033-09-25,2874,302!2026-01-09,832,302!2028-12-05,1775,387-->
+> - infix: {@{(locant)}@} <!--SR:!2029-02-20,1831,382!2030-02-08,2115,382!2030-01-21,2100,382!2033-09-25,2874,302!2035-07-28,3483,322!2028-12-05,1775,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -499,7 +499,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCO}@}
 > - prefix: {@{(none)}@}
 > - suffix: {@{-yl (retained), -oyl}@}
-> - infix: {@{(locant)}@} <!--SR:!2027-07-29,1137,281!2026-01-25,576,302!2030-07-17,2244,382!2027-07-06,993,242!2026-01-06,571,227!2028-07-25,1555,367-->
+> - infix: {@{(locant)}@} <!--SR:!2027-07-29,1137,281!2026-01-25,576,302!2030-07-17,2244,382!2027-07-06,993,242!2029-08-06,1301,227!2028-07-25,1555,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -519,7 +519,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCONH<sub>2</sub>, RCONHR', RCONR'R''}@}
 > - prefix: {@{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}@}
 > - suffix: {@{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}@}
-> - infix: {@{(locant) & _N_ (R', R'')}@} <!--SR:!2026-08-17,1073,365!2029-09-06,1991,385!2026-05-02,984,345!2026-01-13,733,285!2026-04-27,911,305!2027-08-26,1378,367-->
+> - infix: {@{(locant) & _N_ (R', R'')}@} <!--SR:!2026-08-17,1073,365!2029-09-06,1991,385!2026-05-02,984,345!2027-01-22,374,265!2026-04-27,911,305!2027-08-26,1378,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -631,7 +631,7 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2027-06-14,720,247-->
-- nitrile→::@::←aldehyde <!--SR:!2026-01-08,45,130!2026-03-05,295,190-->
+- nitrile→::@::←aldehyde <!--SR:!2026-03-15,61,130!2026-03-05,295,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2027-09-06,698,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2026-03-25,251,170-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->

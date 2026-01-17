@@ -22,7 +22,7 @@ Due to increased [polarizability](polarizability.md), esters have {@{[boiling po
 
 ### density
 
-Esters are {@{less [dense](density.md) than [water](water.md)}@}. Density {@{decrease}@} with increasing size. <!--SR:!2030-08-17,1849,270!2026-01-01,655,270-->
+Esters are {@{less [dense](density.md) than [water](water.md)}@}. Density {@{decrease}@} with increasing size. <!--SR:!2030-08-17,1849,270!2032-10-18,2469,290-->
 
 ### odor
 
@@ -60,8 +60,8 @@ return await memorize_seq(
 
 <!--pytextgen generate section="333d"--><!-- The following content is generated at 2024-01-04T20:17:51.620099+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[hydrolysis](#hydrolysis) <!--SR:!2026-01-10,697,316!2027-11-04,1209,336-->
-- [hydrolysis](#hydrolysis)→::@::←_(end)_ <!--SR:!2027-04-14,1061,336!2026-01-06,694,316-->
+- _(begin)_→::@::←[hydrolysis](#hydrolysis) <!--SR:!2034-05-18,3046,336!2027-11-04,1209,336-->
+- [hydrolysis](#hydrolysis)→::@::←_(end)_ <!--SR:!2027-04-14,1061,336!2034-05-03,3031,336-->
 
 <!--/pytextgen-->
 

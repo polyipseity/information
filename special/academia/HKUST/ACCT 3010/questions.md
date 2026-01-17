@@ -87,7 +87,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{721&nbsp;000&nbsp;000/2&nbsp;884&nbsp;000&nbsp;000=0.25}@} <!--SR:!2026-01-17,70,327-->
+> - solution: {@{721&nbsp;000&nbsp;000/2&nbsp;884&nbsp;000&nbsp;000=0.25}@} <!--SR:!2026-11-29,316,347-->
 
 ## week 3 lecture 2
 
@@ -118,7 +118,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Yes. Tesla uses the indirect method to produce its SCF. The key is using identical data sources; any discrepancy usually comes from different interpretations of adjustments.}@} <!--SR:!2026-01-16,69,327-->
+> - solution: {@{Yes. Tesla uses the indirect method to produce its SCF. The key is using identical data sources; any discrepancy usually comes from different interpretations of adjustments.}@} <!--SR:!2026-11-17,304,347-->
 
 ## week 5 lecture
 

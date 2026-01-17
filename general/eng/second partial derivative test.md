@@ -15,7 +15,7 @@ tags:
 >
 > {@{![polynomial described by the Hessian at a saddle point](../../archives/Wikimedia%20Commons/Hessian%20at%20saddle%20point.gif)}@}
 >
-> The Hessian {@{approximates the function at a critical point with a second-degree polynomial}@}. <!--SR:!2026-02-13,254,330!2026-02-03,247,330!2026-01-29,240,330!2025-12-29,200,310-->
+> The Hessian {@{approximates the function at a critical point with a second-degree polynomial}@}. <!--SR:!2026-02-13,254,330!2026-02-03,247,330!2026-01-29,240,330!2028-05-23,858,330-->
 
 In {@{[mathematics](mathematics.md)}@}, {@{the __second partial derivative test__}@} is {@{a method in [multivariable calculus](multivariable%20calculus.md) used to determine if a [critical point](critical%20point%20(mathematics).md) of a function is a [local minimum](maxima%20and%20minima.md), maximum or [saddle point](saddle%20point.md)}@}. <!--SR:!2026-02-23,262,330!2026-02-17,257,330!2026-03-10,272,330-->
 

@@ -22,7 +22,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md), amides have {@{higher [boiling po
 
 ### density
 
-Amides are {@{slightly more [dense](density.md) than [water](water.md)}@}. <!--SR:!2025-12-26,403,230-->
+Amides are {@{slightly more [dense](density.md) than [water](water.md)}@}. <!--SR:!2029-08-19,1314,250-->
 
 ### solubility
 

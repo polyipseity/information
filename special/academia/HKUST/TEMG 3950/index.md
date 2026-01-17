@@ -98,7 +98,7 @@ The content is in teaching order.
 ## week 6 lecture
 
 - datetime: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
-- product innovation success first step ::@:: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2026-01-08,446,315!2027-07-04,892,355-->
+- product innovation success first step ::@:: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2031-05-01,1936,335!2027-07-04,892,355-->
 - jobs to be done theory history ::@:: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2029-08-15,1412,315!2026-09-10,639,335-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
@@ -173,7 +173,7 @@ The content is in teaching order.
   - consultant job prospects
     - consultant after 1 to 2 years ::@:: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2026-05-16,490,321!2027-10-12,939,361-->
     - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2027-05-28,771,341!2026-04-06,462,321-->
-    - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2026-01-09,350,281!2030-03-11,1654,381-->
+    - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2029-10-12,1370,301!2030-03-11,1654,381-->
     - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2029-03-03,1281,321!2026-04-27,478,321-->
     - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2027-10-02,936,361!2029-12-15,1587,381-->
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2027-08-20,918,381!2032-05-23,2346,401-->
@@ -185,18 +185,18 @@ The content is in teaching order.
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2029-08-19,1494,381!2026-01-18,473,381-->
   - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2032-04-15,2315,401!2029-02-05,1345,381-->
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2030-09-26,1856,401!2026-04-01,514,361-->
-- Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2029-06-14,1441,381-->
+- Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2032-06-23,2355,401!2029-06-14,1441,381-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2029-07-21,1488,381!2029-08-07,1500,381-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
-- Chernev's 5C framework ::@:: market & business analysis <!--SR:!2025-12-29,455,381!2028-05-02,1098,361-->
+- Chernev's 5C framework ::@:: market & business analysis <!--SR:!2032-07-11,2373,401!2028-05-02,1098,361-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2029-10-02,1530,381!2029-08-21,1496,381-->
   - Chernev's 5C framework § competitor ::@:: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2032-02-21,2272,401!2026-02-02,482,381-->
-  - Chernev's 5C framework § context ::@:: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2025-12-28,454,381!2030-01-26,1622,381-->
-- McCarthy's 4P framework ::@:: market-related analysis <!--SR:!2026-01-02,459,381!2026-01-03,460,381-->
+  - Chernev's 5C framework § context ::@:: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2032-07-05,2367,401!2030-01-26,1622,381-->
+- McCarthy's 4P framework ::@:: market-related analysis <!--SR:!2032-07-31,2393,401!2032-08-05,2398,401-->
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
 - [assignment W9](assignment%20W9/assignment%20W9.md): MECE for Situation Analysis
 
@@ -211,7 +211,7 @@ The content is in teaching order.
 - critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2027-09-19,925,361!2029-09-24,1522,381-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2029-02-11,1358,381!2031-11-08,2183,401-->
-  - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2028-02-18,1044,361!2026-01-14,470,381-->
+  - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2028-02-18,1044,361!2032-10-02,2450,401-->
 - nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2032-04-21,2320,401-->
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2029-02-12,1359,381!2031-11-22,2195,401-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2027-12-31,1023,381!2027-02-15,768,361-->
@@ -223,7 +223,7 @@ The content is in teaching order.
   - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2030-02-06,1644,381-->
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2029-06-11,1440,381!2031-09-08,2137,401-->
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2029-04-09,1334,341!2029-10-10,1550,381-->
-  - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
+  - cause mapping § operators ::@:: AND, OR <!--SR:!2032-08-27,2420,401!2029-01-08,1317,381-->
   - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2029-08-29,1516,381-->
   - cause mapping § symptom ::@:: red background <!--SR:!2029-10-30,1550,381!2030-05-23,1713,381-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
@@ -234,7 +234,7 @@ The content is in teaching order.
   - solutions table ::@:: no., cause, solution <br/> optional: time, persons responsible, budget <!--SR:!2026-11-22,638,341!2028-10-13,1159,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2030-02-10,1633,381!2026-02-04,484,381-->
   - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2026-02-16,430,321!2030-06-12,1729,381-->
-  - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview <!--SR:!2025-12-24,450,381!2032-03-13,2289,401-->
+  - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview <!--SR:!2032-06-14,2346,401!2032-03-13,2289,401-->
   - interview note § facts ::@:: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2027-11-06,967,361!2030-04-15,1683,381-->
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)
 

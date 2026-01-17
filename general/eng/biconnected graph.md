@@ -19,9 +19,9 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected graph__}@} is {@{
 
 {@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity}@}, except that {@{the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2029-07-16,1289,352!2029-02-21,1186,352!2026-02-14,58,360-->
 
-This property is especially {@{useful in maintaining a graph with a two-fold [redundancy](redundancy%20(engineering).md)}@}, to {@{prevent disconnection upon the removal of a single [edge](glossary%20of%20graph%20theory.md#edge) \(or connection\)}@}. <!--SR:!2026-01-11,297,332!2028-04-05,903,332-->
+This property is especially {@{useful in maintaining a graph with a two-fold [redundancy](redundancy%20(engineering).md)}@}, to {@{prevent disconnection upon the removal of a single [edge](glossary%20of%20graph%20theory.md#edge) \(or connection\)}@}. <!--SR:!2028-09-28,986,332!2028-04-05,903,332-->
 
-{@{The use of __biconnected__ graphs}@} is {@{very important in the field of networking \(see [Network flow](flow%20network.md)\)}@}, because of {@{this property of redundancy}@}. <!--SR:!2026-01-12,298,332!2028-02-11,863,332!2029-02-24,1188,352-->
+{@{The use of __biconnected__ graphs}@} is {@{very important in the field of networking \(see [Network flow](flow%20network.md)\)}@}, because of {@{this property of redundancy}@}. <!--SR:!2029-10-07,1360,352!2028-02-11,863,332!2029-02-24,1188,352-->
 
 ## definition
 
@@ -33,7 +33,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A biconnected graph on four vertices and four edges](../../archives/Wikimedia%20Commons/4%20Node%20Biconnected.svg)}@}
 >
-> {@{A biconnected graph on four vertices and four edges}@} <!--SR:!2029-06-18,1277,352!2026-01-13,299,332-->
+> {@{A biconnected graph on four vertices and four edges}@} <!--SR:!2029-06-18,1277,352!2029-10-15,1368,352-->
 
 <!-- markdownlint MD028 -->
 
@@ -45,7 +45,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A biconnected graph on five vertices and six edges](../../archives/Wikimedia%20Commons/5%20Node%20Biconnected.svg)}@}
 >
-> {@{A biconnected graph on five vertices and six edges}@} <!--SR:!2026-01-10,296,332!2028-03-30,898,332-->
+> {@{A biconnected graph on five vertices and six edges}@} <!--SR:!2029-10-01,1354,352!2028-03-30,898,332-->
 
 <!-- markdownlint MD028 -->
 

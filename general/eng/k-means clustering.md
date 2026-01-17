@@ -20,20 +20,20 @@ Assuming that we have $k$ clusters, {@{make $k$ initial means}@}. Repeat the fol
 
 The algorithm has converged {@{when the assignments no longer change}@}, but the resulting clusters are {@{not guaranteed to be the optimum}@}. <!--SR:!2026-07-08,571,313!2027-03-07,809,330-->
 
-The algorithm may not converge if {@{using a distance function other than the (squared) [Euclidean distance](Euclidean%20distance.md)}@}. <!--SR:!2026-01-11,475,313-->
+The algorithm may not converge if {@{using a distance function other than the (squared) [Euclidean distance](Euclidean%20distance.md)}@}. <!--SR:!2031-09-02,2057,333-->
 
 #### initialization methods
 
-The clustering result {@{depends on the initial means}@}, so it is important to {@{find "good" initial means to get more optimal clustering}@}. An extreme example is {@{an initial mean that is so far away from all observations that no observation ever gets assigned to it}@}. <!--SR:!2026-04-07,198,293!2030-09-28,1794,330!2026-01-02,84,370-->
+The clustering result {@{depends on the initial means}@}, so it is important to {@{find "good" initial means to get more optimal clustering}@}. An extreme example is {@{an initial mean that is so far away from all observations that no observation ever gets assigned to it}@}. <!--SR:!2026-04-07,198,293!2030-09-28,1794,330!2027-03-19,429,390-->
 
-A naive way to initialize the means is {@{randomly choose $k$ observations}@}. A less naive way is {@{repeat the standard algorithm several times with different random initial means and take their average}@}. <!--SR:!2028-06-17,1189,353!2026-01-13,414,270-->
+A naive way to initialize the means is {@{randomly choose $k$ observations}@}. A less naive way is {@{repeat the standard algorithm several times with different random initial means and take their average}@}. <!--SR:!2028-06-17,1189,353!2030-04-24,1561,290-->
 
 #### variations
 
 - generalized sequential _k_-means ::@:: Make $k$ initial means. Instead of running the assignment step on all observations and the update step on all means each time, run the assignment step on one observation and the update step on one mean each time. Specifically, for each observation $x$ and its closest mean $m_*$, the new mean is $m_* + \alpha (x - m_*) = (1 - \alpha) m_* + \alpha x$, where the weight $\alpha$ is an arbitrary variable. <!--SR:!2027-10-14,867,270!2028-12-24,1257,310-->
   - generalized sequential _k_-means advantages ::@:: The advantage is that it can update the clustering incrementally as new observations are made instead of requiring all observations at once. Incremental updates can also save computation compared to recalculation. <!--SR:!2030-09-04,1776,330!2026-05-27,489,270-->
   - sequential _k_-means ::@:: The weight $\alpha = \frac 1 {n + 1}$, where $n$ is the number of observations that has modified the closest mean $m_*$, not including the current one. <!--SR:!2028-01-23,935,270!2026-02-26,443,270-->
-    - sequential _k_-means interpretation ::@:: The resulting mean is the same as the mean of all incoming observations calculated at once, i.e. $m_n = \frac 1 n \sum_{k = 1}^n x_k$. This is simply the [cumulative average](moving%20average.md#cumulative%20average) of the incoming observations. <!--SR:!2029-01-05,1264,310!2025-12-31,459,313-->
+    - sequential _k_-means interpretation ::@:: The resulting mean is the same as the mean of all incoming observations calculated at once, i.e. $m_n = \frac 1 n \sum_{k = 1}^n x_k$. This is simply the [cumulative average](moving%20average.md#cumulative%20average) of the incoming observations. <!--SR:!2029-01-05,1264,310!2031-06-24,1987,333-->
   - forgetful sequential _k_-means ::@:: The weight $\alpha \in [0, 1]$ is a constant. It is useful for clusters that drift over time. <!--SR:!2026-02-02,491,313!2027-02-18,784,333-->
     - forgetful sequential _k_-means interpretation ::@:: When $\alpha = 0$, the mean never moves. When $\alpha = 1$, the mean is always the new observation. Otherwise, observations have exponentially less weighting on the mean over time, though never zero. This way, they are "forgotten", but never quite completely. The closed form is $m_n = (1 - a)^n m_0 + a \sum_{k = 1}^n (1 - a)^{n - k} x_k$. This is simply the [exponential moving average](moving%20average.md#exponential%20moving%20average). <!--SR:!2029-05-12,1267,273!2026-08-28,523,253-->
 

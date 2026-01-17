@@ -11,12 +11,12 @@ tags:
 
 See also [Vim help files](https://vimhelp.org/).
 
-- help with \[subject\] ::@:: - :h[elp] [subject] <br/> - &lt;F1&gt; <br/> - &lt;Help&gt; <!--SR:!2026-01-04,738,313!2028-09-10,1601,353-->
+- help with \[subject\] ::@:: - :h[elp] [subject] <br/> - &lt;F1&gt; <br/> - &lt;Help&gt; <!--SR:!2034-10-11,3196,333!2028-09-10,1601,353-->
 
 ## autocomplete
 
-- cycle forward ::@:: \<Tab\> <!--SR:!2026-06-18,886,348!2025-12-30,788,328-->
-- cycle backward ::@:: \<Ctrl\>+p <!--SR:!2026-01-16,805,328!2026-11-07,912,288-->
+- cycle forward ::@:: \<Tab\> <!--SR:!2026-06-18,886,348!2035-10-19,3569,348-->
+- cycle backward ::@:: \<Ctrl\>+p <!--SR:!2036-01-06,3641,348!2026-11-07,912,288-->
 - show possibilities ::@:: \<Ctrl\>+d <!--SR:!2028-09-13,1179,213!2028-08-11,983,248-->
 
 ## pattern
@@ -48,7 +48,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - quit insert mode ::@:: \<Esc\> <!--SR:!2028-08-28,1591,353!2028-05-13,1504,353-->
 - insert before cursor ::@:: \[[repeat N](#^repeatN)\]i <!--SR:!2034-05-25,3149,333!2026-08-22,914,328-->
-- insert after cursor ::@:: \[[repeat N](#^repeatN)\]a <!--SR:!2026-12-19,1073,333!2026-01-03,792,328-->
+- insert after cursor ::@:: \[[repeat N](#^repeatN)\]a <!--SR:!2026-12-19,1073,333!2035-11-03,3584,348-->
 - insert after end of line ::@:: \[[repeat N](#^repeatN)\]A <!--SR:!2032-06-08,2438,293!2027-06-24,1158,333-->
 - change text from cursor to ([motion](#motion)) ::@:: c([motion](#motion)) <!--SR:!2033-08-15,2945,333!2033-03-07,2805,333-->
 - insert lines below cursor ::@:: \[[repeat N](#^repeatN)\]o <!--SR:!2026-05-03,766,273!2027-08-23,1220,313-->
@@ -63,7 +63,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## visual
 
 - exit visual mode ::@:: ([visual](#visual))\<Esc\> <!--SR:!2028-02-04,1339,348!2029-08-21,1893,368-->
-- highlight characters ::@:: v <!--SR:!2026-07-03,967,348!2026-01-12,801,328-->
+- highlight characters ::@:: v <!--SR:!2026-07-03,967,348!2035-12-17,3624,348-->
 - highlight lines ::@:: V <!--SR:!2027-05-17,1126,293!2030-11-26,1882,288-->
 - highlight block ::@:: \<Ctrl\>+v <!--SR:!2028-10-22,1218,273!2027-12-19,1304,348-->
 - copy highlight into \["register=(latest)\] ::@:: ([visual](#visual))\["register\]y <!--SR:!2028-02-01,1235,293!2027-07-07,1059,288-->
@@ -72,17 +72,17 @@ See also [Vim help files](https://vimhelp.org/).
 
 - delete under cursor ::@:: - \[[repeat N](#^repeatN)\]x <br/> - \[[repeat N](#^repeatN)\]Delete <!--SR:!2029-05-14,1812,367!2032-09-16,2499,328-->
 - delete from cursor to ([motion](#motion)) ::@:: d([motion](#motion)) <!--SR:!2027-08-21,1197,330!2027-08-28,1204,333-->
-- delete lines ::@:: \[[repeat N](#^repeatN)\]dd <!--SR:!2028-09-23,1610,353!2026-01-07,796,328-->
+- delete lines ::@:: \[[repeat N](#^repeatN)\]dd <!--SR:!2028-09-23,1610,353!2035-11-25,3606,348-->
 - undo ::@:: \[[repeat N](#^repeatN)\]u <!--SR:!2028-12-13,1627,333!2031-11-11,2215,333-->
 - restore last changed line ::@:: U <!--SR:!2026-05-07,825,313!2026-02-28,848,328-->
 - copy from cursor to (motion) into \["register=(latest)\] ::@:: \["register\]y(motion) <!--SR:!2026-06-07,783,273!2026-08-30,921,328-->
-- paste \["register=(latest)\] after cursor ::@:: \[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2025-12-24,782,327!2029-05-25,1822,368-->
+- paste \["register=(latest)\] after cursor ::@:: \[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2035-09-08,3528,347!2029-05-25,1822,368-->
 - paste \["register=(latest)\] before cursor ::@:: \[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2026-12-25,1077,333!2035-07-25,3505,347-->
 
 ## search and substitute
 
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2033-02-22,2800,333!2026-04-26,761,273-->
-- search backward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2027-05-03,1066,270!2025-12-25,783,328-->
+- search backward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2027-05-03,1066,270!2035-09-17,3537,348-->
 - repeat last search ::@:: n <!--SR:!2027-02-27,1125,333!2035-05-20,3470,348-->
 - repeat last search reversed ::@:: N <!--SR:!2032-11-23,2731,333!2027-07-07,1088,288-->
 - repeat last search forward ::@:: /\<Enter\> <!--SR:!2027-06-26,1080,293!2027-09-29,1159,293-->
@@ -91,18 +91,18 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## command
 
-- show filepath and cursor position ::@:: \<Ctrl\>+g <!--SR:!2026-01-01,680,288!2027-03-17,520,168-->
-- execute (command) in shell ::@:: :!(command)\<Enter\> <!--SR:!2028-07-16,1257,273!2026-01-09,741,313-->
+- show filepath and cursor position ::@:: \<Ctrl\>+g <!--SR:!2033-06-25,2723,308!2027-03-17,520,168-->
+- execute (command) in shell ::@:: :!(command)\<Enter\> <!--SR:!2028-07-16,1257,273!2034-10-22,3207,333-->
 
 ## options
 
 - show ([option](#list%20of%20options)) value ::@:: :se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2027-07-23,1071,293!2026-08-15,908,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options)) ::@:: :se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2026-11-05,1038,333!2030-07-02,1856,288-->
-- unset boolean ([option](#list%20of%20options)) ::@:: :se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2026-01-11,646,273!2028-12-07,1669,353-->
+- unset boolean ([option](#list%20of%20options)) ::@:: :se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2032-10-10,2461,293!2028-12-07,1669,353-->
 - invert boolean ([option](#list%20of%20options)) ::@:: :se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2031-07-03,2051,333!2033-11-17,3006,333-->
 
 ### list of options
 
-- ignorecase, ic ::@:: ignore case in search <!--SR:!2035-03-31,3429,348!2026-01-11,800,328-->
+- ignorecase, ic ::@:: ignore case in search <!--SR:!2035-03-31,3429,348!2035-12-12,3619,348-->
 - incsearch, is ::@:: highlight while typing search <!--SR:!2033-02-23,2801,333!2029-06-03,1487,273-->
-- hlsearch, hls ::@:: highlight last search matches <!--SR:!2033-06-30,2904,330!2025-12-26,784,328-->
+- hlsearch, hls ::@:: highlight last search matches <!--SR:!2033-06-30,2904,330!2035-09-27,3547,348-->

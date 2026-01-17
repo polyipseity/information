@@ -120,7 +120,7 @@ tags:
 > Explain the above Michael's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
 >
 > - graph: {@{![graph](attachments/Pasted%20image%2020240922172124.png)}@}
-> - solution: {@{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}@} <!--SR:!2025-12-28,298,290!2026-08-30,435,270-->
+> - solution: {@{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}@} <!--SR:!2029-04-28,1201,310!2026-08-30,435,270-->
 
 ### chapter 3 lecture
 
@@ -223,7 +223,7 @@ tags:
 > 4. demand for A increases and supply for A decreases
 >
 > - solution: {@{3}@}
-> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@} <!--SR:!2026-03-11,391,376!2025-12-30,313,356-->
+> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@} <!--SR:!2026-03-11,391,376!2030-03-29,1536,376-->
 
 <!-- markdownlint MD028 -->
 
@@ -266,7 +266,7 @@ tags:
 > 4. excess capacity
 >
 > - solution: {@{3}@}
-> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2025-12-29,312,356!2026-02-05,364,376-->
+> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2030-03-16,1523,376!2026-02-05,364,376-->
 
 ### chapter 8 lecture
 
@@ -288,7 +288,7 @@ tags:
 > 2. hotel rooms in the short run, hotel rooms in the long run
 > 3. groceries, meals at fancy restaurants
 >
-> - solution: {@{For 1, breakfast cereal has more substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}@} <!--SR:!2025-12-26,279,301-->
+> - solution: {@{For 1, breakfast cereal has more substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}@} <!--SR:!2028-05-03,841,301-->
 
 ### chapter 13 lecture
 

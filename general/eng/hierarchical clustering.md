@@ -116,7 +116,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="0196"--><!-- The following content is generated at 2024-04-12T10:15:07.434836+08:00. Any edits will be overridden! -->
 
 - [Ward's method](Ward's%20method.md):@:$d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2027-03-12,520,255-->
-- centroid linkage clustering:@:$d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2026-01-06,466,315-->
+- centroid linkage clustering:@:$d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2031-08-03,2028,335-->
 - [complete-linkage clustering](complete-linkage%20clustering.md):@:$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2028-05-17,1168,355-->
 - median linkage clustering:@:$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2028-04-28,1051,295-->
 - [single-linkage clustering](single-linkage%20clustering.md):@:$d(A, B) = \min_{a \in A, b \in B} d(a, b)$ <!--SR:!2027-05-18,814,335-->
@@ -133,7 +133,7 @@ return chain.from_iterable(await gather(
 - $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$:@:median linkage clustering <!--SR:!2030-07-30,1759,335-->
 - $d(A, B) = \min_{a \in A, b \in B} d(a, b)$:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-11-04,1301,355-->
 - $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$:@:unweighted average linkage clustering <!--SR:!2026-12-26,760,335-->
-- $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$:@:weighted average linkage clustering <!--SR:!2026-01-17,432,295-->
+- $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$:@:weighted average linkage clustering <!--SR:!2029-07-13,1273,295-->
 
 <!--/pytextgen-->
 
@@ -178,7 +178,7 @@ We define the _chi-squared measure_ between two binary variables $A$ and $B$, de
 
 The chi-squared measure describes {@{the degree of correlation between two variables}@}. <!--SR:!2026-04-11,513,315-->
 
-Now, for each variable, denoted $A$ here, calculate {@{the sum of all chi-squared measure with other variables except itself}@}: {@{$$\text{chi-squared measure sum of }A = \sum_{B \in \text{all variables except }A} \chi_{AB}^2 \,.$$}@} Find {@{the variable with the largest sum (arbitrarily choose one if there are multiple variables with the largest sum)}@}. Finally, {@{split the observations into two clusters by the value of that variable and ignore that variable thereafter if further clustering is performed}@}. Repeat {@{this process recursively until you are satisfied with the clustering result}@}. <!--SR:!2029-03-12,1192,295!2027-07-06,905,335!2026-05-28,405,255!2029-04-11,1295,295!2025-12-22,13,328-->
+Now, for each variable, denoted $A$ here, calculate {@{the sum of all chi-squared measure with other variables except itself}@}: {@{$$\text{chi-squared measure sum of }A = \sum_{B \in \text{all variables except }A} \chi_{AB}^2 \,.$$}@} Find {@{the variable with the largest sum (arbitrarily choose one if there are multiple variables with the largest sum)}@}. Finally, {@{split the observations into two clusters by the value of that variable and ignore that variable thereafter if further clustering is performed}@}. Repeat {@{this process recursively until you are satisfied with the clustering result}@}. <!--SR:!2029-03-12,1192,295!2027-07-06,905,335!2026-05-28,405,255!2029-04-11,1295,295!2026-03-13,59,348-->
 
 ## references
 

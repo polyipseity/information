@@ -111,7 +111,7 @@ segmented: splitting slightly different customer segments
 - _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2026-09-09,533,257!2027-01-06,689,317-->
 - diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2026-07-13,472,237!2027-10-09,867,274-->
 - mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2027-06-06,713,274!2026-05-25,416,277-->
-- multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2027-03-15,712,274-->
+- multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2030-08-06,1668,297!2027-03-15,712,274-->
 - niche market: focusing on specific, specialized customer segments→::@::←segmented: splitting slightly different customer segments <!--SR:!2027-12-12,902,274!2026-07-26,314,177-->
 - segmented: splitting slightly different customer segments→::@::←_(end)_ <!--SR:!2026-06-13,507,274!2027-11-01,788,254-->
 
@@ -180,7 +180,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2029-09-18,1379,297!2029-09-22,1477,314!2025-12-25,4,311-->
+The channels building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2029-09-18,1379,297!2029-09-22,1477,314!2026-01-28,17,331-->
 
 #### customer relationships
 
@@ -270,7 +270,7 @@ subscription fee
 - lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2028-04-15,899,274-->
 - licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2026-10-23,507,254-->
 - usage fee→::@::←subscription fee <!--SR:!2028-06-09,1037,274!2026-07-06,378,277-->
-- subscription fee→::@::←_(end)_ <!--SR:!2025-12-28,417,294!2028-08-05,1011,277-->
+- subscription fee→::@::←_(end)_ <!--SR:!2030-09-09,1702,314!2028-08-05,1011,277-->
 
 <!--/pytextgen-->
 
@@ -298,4 +298,4 @@ Business model fit can be achieved by {@{reiteration between changing the value 
 
 ## comparison with other models
 
-The business model canvas can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections}@}: {@{"feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2028-06-20,985,289!2026-07-04,473,270!2027-05-24,776,329!2026-01-18,82,347!2026-01-16,80,347!2026-01-17,81,347-->
+The business model canvas can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections}@}: {@{"feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2028-06-20,985,289!2026-07-04,473,270!2027-05-24,776,329!2026-01-18,82,347!2027-02-10,389,367!2027-02-13,392,367-->

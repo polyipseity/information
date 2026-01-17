@@ -22,11 +22,11 @@ The model uses ideas such as:
 - [apparent retrograde motion](apparent%20retrograde%20motion.md) ::@:: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2027-10-01,882,341!2028-10-24,1224,361-->
 - [stars](star.md) ::@:: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2027-01-01,678,341!2031-01-05,1876,381-->
 
-The model has {@{several advantages}@}: {@{simpler and more elegant}@}, and naturally {@{explains several phenomenons}@}: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md)}@}, changing {@{brightness of planets}@}, and motion of {@{[inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is {@{not without disadvantages}@}: {@{not more accurate than old models}@} \(due to {@{the incorrect assumption of perfectly circular orbits}@}\), and {@{[Earth](Earth.md) needs to move in very high speed}@}, which is {@{generally thought to be improbable at the time}@}. <!--SR:!2031-05-12,1981,381!2028-10-03,1200,361!2028-12-09,1261,361!2031-05-14,1983,381!2025-12-28,19,363!2025-12-29,20,363!2025-12-29,20,363!2025-12-28,19,363!2025-12-29,20,363!2025-12-27,18,363!2025-12-29,20,363-->
+The model has {@{several advantages}@}: {@{simpler and more elegant}@}, and naturally {@{explains several phenomenons}@}: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md)}@}, changing {@{brightness of planets}@}, and motion of {@{[inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is {@{not without disadvantages}@}: {@{not more accurate than old models}@} \(due to {@{the incorrect assumption of perfectly circular orbits}@}\), and {@{[Earth](Earth.md) needs to move in very high speed}@}, which is {@{generally thought to be improbable at the time}@}. <!--SR:!2031-05-12,1981,381!2028-10-03,1200,361!2028-12-09,1261,361!2031-05-14,1983,381!2026-04-15,93,383!2026-04-21,99,383!2026-04-20,98,383!2026-04-17,95,383!2026-04-19,97,383!2026-04-09,87,383!2026-04-19,97,383-->
 
 ## Copernican theory
 
-{@{The Copernican order of spheres}@} {@{from the [Sun](Sun.md) outward}@} is: <!--SR:!2028-12-11,1265,350!2025-12-29,20,363-->
+{@{The Copernican order of spheres}@} {@{from the [Sun](Sun.md) outward}@} is: <!--SR:!2028-12-11,1265,350!2026-04-20,98,383-->
 
 ```Python
 # pytextgen generate data
@@ -62,7 +62,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(center) [Sun](Sun.md) <!--SR:!2028-01-18,1009,350!2026-07-11,522,310-->
 - (center) [Sun](Sun.md)→::@::←[Mercury](Mercury%20(planet).md) <!--SR:!2029-05-11,1383,350!2028-04-21,1001,330-->
-- [Mercury](Mercury%20(planet).md)→::@::←[Venus](Venus.md) <!--SR:!2026-12-15,477,270!2026-01-14,377,290-->
+- [Mercury](Mercury%20(planet).md)→::@::←[Venus](Venus.md) <!--SR:!2026-12-15,477,270!2030-03-14,1519,310-->
 - [Venus](Venus.md)→::@::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2029-09-27,1398,310!2026-05-18,504,310-->
 - [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→::@::←[Mars](Mars.md) <!--SR:!2027-06-27,824,330!2029-04-20,1301,310-->
 - [Mars](Mars.md)→::@::←[Jupiter](Jupiter.md) <!--SR:!2028-01-01,918,330!2026-02-22,440,310-->

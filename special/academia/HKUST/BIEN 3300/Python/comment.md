@@ -20,7 +20,7 @@ a = 1 # assign 1 to `a`
 a += 1 # increment `a` by 1
 ```
 
-If you want multiline comments, you can use {@{multiline strings to emulate it}@}: <!--SR:!2025-12-25,61,310-->
+If you want multiline comments, you can use {@{multiline strings to emulate it}@}: <!--SR:!2026-10-08,268,330-->
 
 ```Python
 a = 1
@@ -33,7 +33,7 @@ a += 1
 
 ## docstring
 
-Docstrings {@{are documentations for classes and functions}@}. To add a docstring, {@{add a multiline comment right below the start of the class or function}@}: <!--SR:!2026-08-17,241,330!2026-01-01,67,310-->
+Docstrings {@{are documentations for classes and functions}@}. To add a docstring, {@{add a multiline comment right below the start of the class or function}@}: <!--SR:!2026-08-17,241,330!2026-11-03,294,330-->
 
 ```Python
 class A:

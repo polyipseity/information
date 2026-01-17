@@ -25,7 +25,7 @@ In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](gr
 
 ## definition
 
-Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that each vertex in _G_ is incident with at least one edge in _C_}@}. The set _C_ is said to {@{_cover_ the vertices of _G_}@}. The following figure shows examples of edge coverings in two graphs \(the set _C_ is marked with red\). <p> {@{![examples of edge coverings in two graphs](../../archives/Wikimedia%20Commons/Edge-cover.svg)}@} <!--SR:!2027-11-09,804,330!2029-05-24,1257,350!2029-05-29,1261,350!2026-01-06,293,330-->
+Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that each vertex in _G_ is incident with at least one edge in _C_}@}. The set _C_ is said to {@{_cover_ the vertices of _G_}@}. The following figure shows examples of edge coverings in two graphs \(the set _C_ is marked with red\). <p> {@{![examples of edge coverings in two graphs](../../archives/Wikimedia%20Commons/Edge-cover.svg)}@} <!--SR:!2027-11-09,804,330!2029-05-24,1257,350!2029-05-29,1261,350!2029-09-10,1333,350-->
 
 A __minimum edge covering__ is {@{an edge covering of smallest possible size}@}. {@{The __edge covering number__ _ρ_\(_G_\)}@} is {@{the size of a minimum edge covering}@}. The following figure shows examples of minimum edge coverings \(again, the set _C_ is marked with red\). <p> {@{![examples of minimum edge coverings](../../archives/Wikimedia%20Commons/Minimum-edge-cover.svg)}@} <!--SR:!2029-04-17,1227,350!2026-06-24,403,310!2029-04-27,1233,350!2026-11-20,514,310-->
 
@@ -34,11 +34,11 @@ Note that the figure on the right is {@{not only an edge cover but also a [match
 ### examples
 
 - The set of all edges ::@:: is an edge cover, assuming that there are no degree-0 vertices. <!--SR:!2029-04-14,1226,350!2029-05-06,1243,350-->
-- The [complete bipartite graph](complete%20bipartite%20graph.md) _K<sub>m,n</sub>_ ::@:: has edge covering number max\(_m_, _n_\). <!--SR:!2027-12-06,811,330!2025-12-29,286,330-->
+- The [complete bipartite graph](complete%20bipartite%20graph.md) _K<sub>m,n</sub>_ ::@:: has edge covering number max\(_m_, _n_\). <!--SR:!2027-12-06,811,330!2029-08-15,1307,350-->
 
 ## algorithms
 
-A smallest edge cover can be {@{found in [polynomial time](time%20complexity.md#polynomial%20time)}@} by {@{finding a [maximum matching](maximum%20cardinality%20matching.md) and extending it greedily so that all vertices are covered}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> In the following figure, {@{a maximum matching is marked with red}@}; {@{the extra edges that were added to cover unmatched nodes are marked with blue}@}. \({@{The figure on the right}@} {@{shows a graph in which a maximum matching is a [perfect matching](perfect%20matching.md)}@}; hence {@{it already covers all vertices and no extra edges were needed}@}.\) <p> {@{![examples of finding a maximum matching on two graphs](../../archives/Wikimedia%20Commons/Minimum-edge-cover-from-maximum-matching.svg)}@} <!--SR:!2029-03-15,1202,350!2029-06-18,1275,350!2025-12-25,283,330!2029-04-02,1216,350!2029-02-17,1180,350!2027-08-09,733,330!2029-02-24,1186,350!2029-03-01,1190,350-->
+A smallest edge cover can be {@{found in [polynomial time](time%20complexity.md#polynomial%20time)}@} by {@{finding a [maximum matching](maximum%20cardinality%20matching.md) and extending it greedily so that all vertices are covered}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> In the following figure, {@{a maximum matching is marked with red}@}; {@{the extra edges that were added to cover unmatched nodes are marked with blue}@}. \({@{The figure on the right}@} {@{shows a graph in which a maximum matching is a [perfect matching](perfect%20matching.md)}@}; hence {@{it already covers all vertices and no extra edges were needed}@}.\) <p> {@{![examples of finding a maximum matching on two graphs](../../archives/Wikimedia%20Commons/Minimum-edge-cover-from-maximum-matching.svg)}@} <!--SR:!2029-03-15,1202,350!2029-06-18,1275,350!2029-07-28,1289,350!2029-04-02,1216,350!2029-02-17,1180,350!2027-08-09,733,330!2029-02-24,1186,350!2029-03-01,1190,350-->
 
 On the other hand, the related problem of {@{finding a smallest [vertex cover](vertex%20cover.md)}@} is {@{an [NP-hard](NP-hardness.md) problem}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-04-09,129,310!2029-05-17,1251,350-->
 

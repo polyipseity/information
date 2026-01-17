@@ -17,11 +17,11 @@ tags:
 
 # sales
 
-In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial accounting](financial%20accounting.md)}@}, {@{__net sales__}@} are {@{operating [revenues](revenue.md) earned by a company for selling its products or rendering its services}@}. Also referred to as {@{__revenue__}@}, they are reported directly on {@{the [income statement](income%20statement.md) as _Sales_ or _Net sales_}@}. <!--SR:!2025-12-26,266,330!2029-01-19,1143,350!2027-06-12,668,330!2029-01-25,1148,350!2025-12-29,269,330-->
+In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial accounting](financial%20accounting.md)}@}, {@{__net sales__}@} are {@{operating [revenues](revenue.md) earned by a company for selling its products or rendering its services}@}. Also referred to as {@{__revenue__}@}, they are reported directly on {@{the [income statement](income%20statement.md) as _Sales_ or _Net sales_}@}. <!--SR:!2029-05-04,1209,350!2029-01-19,1143,350!2027-06-12,668,330!2029-01-25,1148,350!2029-05-19,1224,350-->
 
-In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2026-01-01,272,330!2028-12-12,1112,350!2027-01-19,541,310-->
+In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2029-06-08,1244,350!2028-12-12,1112,350!2027-01-19,541,310-->
 
-Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2029-02-18,1167,350!2026-01-04,274,330!2026-01-23,290,330!2028-10-09,1061,350!2026-01-05,275,330!2026-01-04,275,330!2026-01-06,276,330-->
+Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2029-02-18,1167,350!2029-06-11,1247,350!2026-01-23,290,330!2028-10-09,1061,350!2029-06-18,1254,350!2029-06-15,1251,350!2029-06-26,1262,350-->
 
 |   |                 |   |       |
 | - | --------------- | - | ----- |
@@ -29,11 +29,11 @@ Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[
 
 A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[double-entry bookkeeping](double-entry%20bookkeeping.md)}@}, {@{a sale of [merchandise](merchandise.md)}@} is recorded {@{in the [general journal](general%20journal.md) as a [debit](debits%20and%20credits.md) to cash or [accounts receivable](accounts%20receivable.md) and a [credit](debits%20and%20credits.md) to the sales account}@}.<sup>[\[3\]](#^ref-3)</sup> The amount recorded is {@{the actual monetary value of the transaction, not the [list price](list%20price.md) of the merchandise}@}. {@{A [discount](discounts%20and%20allowances.md) from list price}@} {@{might be noted if it applies to the sale}@}. <!--SR:!2027-11-28,802,330!2028-11-26,1098,350!2029-02-17,1166,350!2027-06-14,606,310!2026-01-23,290,330!2028-11-11,1087,350!2027-06-08,665,330-->
 
-{@{Fees for services}@} are {@{recorded separately from sales of merchandise}@}, but {@{the bookkeeping transactions for recording "sales" of services}@} are {@{similar to those for recording sales of tangible goods}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2028-09-29,1051,350!2028-10-04,1055,350!2026-01-07,275,330!2027-06-29,681,330-->
+{@{Fees for services}@} are {@{recorded separately from sales of merchandise}@}, but {@{the bookkeeping transactions for recording "sales" of services}@} are {@{similar to those for recording sales of tangible goods}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2028-09-29,1051,350!2028-10-04,1055,350!2029-06-21,1257,350!2027-06-29,681,330-->
 
 ## gross sales and net sales
 
-\(annotation: net sales equation\) ::@:: $${\text{Net sales} }={\text{Gross sales} }-{\text{(Customer discounts, returns, allowances)} }$$ <!--SR:!2026-01-11,279,330!2026-01-23,290,330-->
+\(annotation: net sales equation\) ::@:: $${\text{Net sales} }={\text{Gross sales} }-{\text{(Customer discounts, returns, allowances)} }$$ <!--SR:!2029-07-01,1267,350!2026-01-23,290,330-->
 
 > __General Journal - Merchandise return example__
 >
@@ -44,9 +44,9 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 > |            | Full credit for {@{customer return of merchandise purchased on account}@}. |             |              |
 > | 8-7        | {@{Inventory}@}                                                            | {@{15.00}@} |              |
 > |            | &ensp;{@{Cost of goods sold}@}                                             |             | {@{15.00}@}  |
-> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2028-12-02,1103,350!2026-01-27,293,330!2026-01-02,273,330!2026-01-02,273,330!2025-12-31,271,330!2026-01-03,274,330!2025-12-30,270,330!2025-12-25,265,330!2026-01-16,284,330!2026-01-28,294,330!2026-01-08,276,330!2027-08-29,719,330!2025-12-24,264,330!2025-12-28,268,330-->
+> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2028-12-02,1103,350!2026-01-27,293,330!2029-06-12,1248,350!2029-06-13,1249,350!2029-05-28,1233,350!2029-06-10,1246,350!2029-05-23,1228,350!2029-05-06,1211,350!2029-08-05,1297,350!2026-01-28,294,330!2029-06-27,1263,350!2027-08-29,719,330!2029-04-26,1201,350!2029-05-18,1223,350-->
 
-{@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-05,276,330!2026-01-27,293,330!2025-12-27,267,330!2027-12-21,820,330!2026-01-17,285,330!2027-12-23,821,330-->
+{@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-06-22,1258,350!2026-01-27,293,330!2029-05-13,1218,350!2027-12-21,820,330!2029-08-10,1301,350!2027-12-23,821,330-->
 
 {@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}. <!--SR:!2027-04-28,533,401!2027-04-25,530,401-->
 

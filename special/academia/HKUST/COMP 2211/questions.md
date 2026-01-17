@@ -104,7 +104,7 @@ tags:
 > 3. The second AI winter happened in 1987–1993
 > 4. The natural language processing AI, ELIZA, passes the Turing test
 >
-> - solution: {@{4}@} <!--SR:!2026-01-05,294,330-->
+> - solution: {@{4}@} <!--SR:!2029-09-15,1342,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -626,7 +626,7 @@ tags:
 
 > Q3. Suppose we have two points, A and B, in a Cartesian coordinate system, where the location of A is (1,5) and the location of B is (4,1). The L1 (Manhattan) distance between A and B is \_\_\_, and the L2 (Euclidean) distance between A and B is \_\_\_.
 >
-> - solution: {@{7, 5}@} <!--SR:!2026-01-05,294,330-->
+> - solution: {@{7, 5}@} <!--SR:!2029-09-14,1341,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -927,7 +927,7 @@ tags:
 > 3. Activation functions have to be continuous and differentiable at every point.
 > 4. One problem with the sigmoid activation functions is that it may cause a vanishing gradient problem in the saturation zone.
 >
-> - solution: {@{4}@} <!--SR:!2026-01-05,294,330-->
+> - solution: {@{4}@} <!--SR:!2029-09-13,1340,350-->
 
 <!-- markdownlint MD028 -->
 

@@ -57,7 +57,7 @@ We see that {@{the number of customers in the system}@} is {@{[geometrically dis
 
 #### first-come, first-served discipline
 
-For {@{customers who arrive and find the queue as a stationary process}@}, {@{the response time they experience}@} \(the sum of {@{both waiting time and service time}@}\) has {@{Laplace transform}@} {@{\(_μ_ − _λ_\)/\(_s_ + _μ_ − _λ_\)}@}<sup>[\[14\]](#^ref-14)</sup> and therefore {@{[probability density function](probability%20density%20function.md)}@}<sup>[\[15\]](#^ref-15)</sup> {@{$$f(t)={\begin{cases}(\mu -\lambda )e^{-(\mu -\lambda )t}&t>0\\0&{\text{otherwise.} }\end{cases} }$$}@} <!--SR:!2026-07-22,296,350!2026-05-25,244,330!2026-05-24,243,330!2026-06-22,268,330!2026-08-08,310,350!2025-12-30,116,290!2026-03-25,183,310-->
+For {@{customers who arrive and find the queue as a stationary process}@}, {@{the response time they experience}@} \(the sum of {@{both waiting time and service time}@}\) has {@{Laplace transform}@} {@{\(_μ_ − _λ_\)/\(_s_ + _μ_ − _λ_\)}@}<sup>[\[14\]](#^ref-14)</sup> and therefore {@{[probability density function](probability%20density%20function.md)}@}<sup>[\[15\]](#^ref-15)</sup> {@{$$f(t)={\begin{cases}(\mu -\lambda )e^{-(\mu -\lambda )t}&t>0\\0&{\text{otherwise.} }\end{cases} }$$}@} <!--SR:!2026-07-22,296,350!2026-05-25,244,330!2026-05-24,243,330!2026-06-22,268,330!2026-08-08,310,350!2027-05-05,474,310!2026-03-25,183,310-->
 
 #### processor sharing discipline
 

@@ -11,7 +11,7 @@ tags:
 
 ## scope
 
-In Python, unlike most other languages, an indentation, which corresponds to curly braces `{}` in other languages, {@{does not necessarily create a new scope}@}: <!--SR:!2026-01-01,67,310-->
+In Python, unlike most other languages, an indentation, which corresponds to curly braces `{}` in other languages, {@{does not necessarily create a new scope}@}: <!--SR:!2026-10-30,292,330-->
 
 ```Python
 if condition:
@@ -21,7 +21,7 @@ else:
 print(x) # `x` does not go out of scope as an `if...else` statement does not create a scope in the first place
 ```
 
-Functions do create {@{a new scope}@}: <!--SR:!2025-12-24,60,310-->
+Functions do create {@{a new scope}@}: <!--SR:!2026-09-29,261,330-->
 
 ```Python
 x = 1

@@ -13,7 +13,7 @@ tags:
 
 The solar apex is {@{in the constellation of [Hercules](Hercules%20(constellation).md) near the star [Vega](Vega.md)}@}. <!--SR:!2026-06-08,421,270-->
 
-For {@{more than 30 years before 1986}@}, the speed of the [Sun](Sun.md) towards the solar apex was {@{taken to be about 20 km/s}@} but {@{all later studies give a smaller component in the vector toward galactic longitude 90°, reducing overall speed to about 13.4 km/s}@}. <!--SR:!2029-05-06,1318,310!2025-12-25,362,290!2027-03-25,702,290-->
+For {@{more than 30 years before 1986}@}, the speed of the [Sun](Sun.md) towards the solar apex was {@{taken to be about 20 km/s}@} but {@{all later studies give a smaller component in the vector toward galactic longitude 90°, reducing overall speed to about 13.4 km/s}@}. <!--SR:!2029-05-06,1318,310!2030-01-10,1460,310!2027-03-25,702,290-->
 
 ## references
 

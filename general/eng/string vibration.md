@@ -21,7 +21,7 @@ tags:
 >
 > where
 >
-> - [string](string%20(structure).md) properties: {@{$T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}@} <!--SR:!2025-12-28,462,270!2026-10-23,745,330-->
+> - [string](string%20(structure).md) properties: {@{$T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}@} <!--SR:!2030-10-23,1743,290!2026-10-23,745,330-->
 
 ### power
 

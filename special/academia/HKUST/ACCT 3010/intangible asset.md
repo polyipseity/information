@@ -24,12 +24,12 @@ __Intangible assets__ are identifiable non‑monetary assets that lack physical 
 
 Intangible assets are _identifiable_, have no physical form, and are not monetary items. They are normally listed as non‑current assets on a company’s balance sheet. Six broad categories of intangibles exist: marketing-related, customer-related, artistic-related, contract-related, technology-related, and goodwill.
 
-1. _Marketing‑related_ ::@:: – trademarks, trade names, domain names, and non‑competition agreements. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-2. _Customer‑related_ ::@:: – customer lists, backlogs, and contractual or non‑contractual customer relationships. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-3. _Artistic‑related_ ::@:: – plays, literary works, photographs, movies and related copyrights. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-4. _Contract‑related_ ::@:: – franchises, licensing agreements, broadcast rights and service contracts. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-5. _Technology‑related_ ::@:: – patents, trade secrets and other proprietary technology. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
-6. _Goodwill_ ::@:: – the excess of purchase price over identifiable net assets acquired in a business combination. <!--SR:!2025-12-25,4,270!2025-12-25,4,270-->
+1. _Marketing‑related_ ::@:: – trademarks, trade names, domain names, and non‑competition agreements. <!--SR:!2026-02-02,16,290!2026-02-02,16,290-->
+2. _Customer‑related_ ::@:: – customer lists, backlogs, and contractual or non‑contractual customer relationships. <!--SR:!2026-02-02,16,290!2026-02-02,16,290-->
+3. _Artistic‑related_ ::@:: – plays, literary works, photographs, movies and related copyrights. <!--SR:!2026-02-02,16,290!2026-02-02,16,290-->
+4. _Contract‑related_ ::@:: – franchises, licensing agreements, broadcast rights and service contracts. <!--SR:!2026-02-02,16,290!2026-02-02,16,290-->
+5. _Technology‑related_ ::@:: – patents, trade secrets and other proprietary technology. <!--SR:!2026-02-02,16,290!2026-02-02,16,290-->
+6. _Goodwill_ ::@:: – the excess of purchase price over identifiable net assets acquired in a business combination. <!--SR:!2026-02-02,16,290!2026-02-02,16,290-->
 
 ## valuation
 
@@ -322,19 +322,19 @@ _Research activities_ involve original investigation aimed at gaining new scient
 
 These examples illustrate when R&D outlays are expensed versus capitalised, and the rationale for each accounting decision.
 
-- _Prototype laser‑scanner material, labour and overhead_ (project not yet viable) :@: Expense immediately as R&D. <!--SR:!2025-12-25,4,270-->
-- _Testing and design‑modification costs for the prototype_ (not yet viable) :@: Expense immediately as R&D. <!--SR:!2025-12-25,4,270-->
-- _Legal fees to obtain a patent on the new scanner_ :@: Capitalize the patent; amortise it to overhead as part of cost of goods manufactured. <!--SR:!2025-12-25,4,270-->
-- _Executive salaries_ :@: Record as operating expense, as part of general and administrative expenses. <!--SR:!2025-12-25,4,270-->
-- _Marketing‑research costs for promoting the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2025-12-25,4,270-->
-- _Engineering costs that advance the scanner to full production (project now viable)_ :@: Capitalize these costs as R&D assets. <!--SR:!2025-12-25,4,270-->
-- _Costs to defend the patent_ :@: Record as legal‑fee expenses (treated as operating cost), as it only _maintains_ expected benefits rather than adding new benefits. <!--SR:!2025-12-25,4,270-->
-- _Commissions paid to sales staff for marketing the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2025-12-25,4,270-->
-- _Long‑range research facility_ :@: – Constructed for current and future projects; capitalise and depreciate as R&D expense because it has alternative future use. <!--SR:!2025-12-25,4,270-->
-- _R&D equipment used only on the current project_ :@: – Expense immediately as R&D (research cost). <!--SR:!2025-12-25,4,270-->
-- _Machinery usable in present and future R&D projects_ :@: – Capitalise and depreciate as R&D expense; alternative future use justifies capitalization. <!--SR:!2025-12-25,4,270-->
-- _Materials for current and future R&D_ :@: – Record as inventory, allocate to R&D as consumed; alternative future use warrants this treatment. <!--SR:!2025-12-25,4,270-->
-- _Salaries of research staff designing a new laser scanner_ :@: – Expense immediately as R&D (research cost). <!--SR:!2025-12-25,4,270-->
-- _Research costs incurred under contract with another company_ :@: – Recorded as a receivable; not an R&D expense because the cost is reimbursable and does not meet recognition criteria. <!--SR:!2025-12-25,4,270-->
+- _Prototype laser‑scanner material, labour and overhead_ (project not yet viable) :@: Expense immediately as R&D. <!--SR:!2026-02-02,16,290-->
+- _Testing and design‑modification costs for the prototype_ (not yet viable) :@: Expense immediately as R&D. <!--SR:!2026-02-02,16,290-->
+- _Legal fees to obtain a patent on the new scanner_ :@: Capitalize the patent; amortise it to overhead as part of cost of goods manufactured. <!--SR:!2026-02-02,16,290-->
+- _Executive salaries_ :@: Record as operating expense, as part of general and administrative expenses. <!--SR:!2026-02-02,16,290-->
+- _Marketing‑research costs for promoting the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2026-02-02,16,290-->
+- _Engineering costs that advance the scanner to full production (project now viable)_ :@: Capitalize these costs as R&D assets. <!--SR:!2026-02-02,16,290-->
+- _Costs to defend the patent_ :@: Record as legal‑fee expenses (treated as operating cost), as it only _maintains_ expected benefits rather than adding new benefits. <!--SR:!2026-02-02,16,290-->
+- _Commissions paid to sales staff for marketing the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2026-02-02,16,290-->
+- _Long‑range research facility_ :@: – Constructed for current and future projects; capitalise and depreciate as R&D expense because it has alternative future use. <!--SR:!2026-02-02,16,290-->
+- _R&D equipment used only on the current project_ :@: – Expense immediately as R&D (research cost). <!--SR:!2026-02-02,16,290-->
+- _Machinery usable in present and future R&D projects_ :@: – Capitalise and depreciate as R&D expense; alternative future use justifies capitalization. <!--SR:!2026-02-02,16,290-->
+- _Materials for current and future R&D_ :@: – Record as inventory, allocate to R&D as consumed; alternative future use warrants this treatment. <!--SR:!2026-02-02,16,290-->
+- _Salaries of research staff designing a new laser scanner_ :@: – Expense immediately as R&D (research cost). <!--SR:!2026-02-02,16,290-->
+- _Research costs incurred under contract with another company_ :@: – Recorded as a receivable; not an R&D expense because the cost is reimbursable and does not meet recognition criteria. <!--SR:!2026-02-02,16,290-->
 
 Certain other costs are treated like R&D for accounting purposes, though they are charged to separate accounts.  Start‑up costs for a new operation, initial operating losses and advertising expenses are expensed as incurred because they do not meet the criteria for recognising an intangible asset.

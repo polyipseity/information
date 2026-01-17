@@ -63,7 +63,7 @@ The value map itself has three parts: {@{products and services, pain relievers, 
 
 ### customer profile
 
-Customer jobs can be split into three categories: {@{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}@}. There are also supporting jobs arising from three different roles: {@{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}@}. Note that jobs {@{have different priorities}@}.  The jobs can be improved by {@{asking why repeatedly until you find the root job}@}. <!--SR:!2026-11-19,620,289!2026-10-02,592,289!2030-03-15,1608,329!2026-01-16,442,325-->
+Customer jobs can be split into three categories: {@{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}@}. There are also supporting jobs arising from three different roles: {@{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}@}. Note that jobs {@{have different priorities}@}.  The jobs can be improved by {@{asking why repeatedly until you find the root job}@}. <!--SR:!2026-11-19,620,289!2026-10-02,592,289!2030-03-15,1608,329!2031-06-22,1982,345-->
 
 Since customer jobs has {@{functional and non-functional aspects}@}, the resulting products can be categorized by {@{functional complexity and emotional complexity}@}. It is important that non-functional aspects are {@{not ignored}@}. For example, a hunching old person needs a stick, but {@{the person also wants to not feel bad while using the stick}@}. Sometimes, non-functional aspects are {@{more important than functional ones}@}, such as {@{an extremely expensive sports car, which is mainly for showing status instead of driving on it}@}. So a {@{deep understanding}@} of customer jobs is required. <!--SR:!2031-06-20,2072,385!2031-02-13,1966,385!2026-06-30,547,325!2028-03-19,1104,365!2030-11-27,1907,385!2026-12-28,669,325!2030-04-21,1733,385-->
 
@@ -71,7 +71,7 @@ The concept of customer jobs is based on {@{the jobs to be done theory}@}, which
 
 Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pains {@{concrete}@}. Note that pains {@{can have different severity}@}. <!--SR:!2029-10-15,1480,310!2027-12-17,1025,349!2026-07-26,620,329-->
 
-Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2026-01-12,381,249!2027-02-02,794,349!2028-07-01,1206,350-->
+Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2029-09-08,1335,269!2027-02-02,794,349!2028-07-01,1206,350-->
 
 Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order}@} can be {@{a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2026-04-19,196,345!2028-09-27,1238,365!2026-10-04,678,344!2026-11-30,330,368-->
 
@@ -271,7 +271,7 @@ conclusion: make progress
 
 When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270!2026-03-29,84,370!2026-04-02,88,370!2026-04-05,91,370-->
 
-{@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2026-01-15,484,329!2026-04-02,88,370!2026-04-02,88,370!2026-04-02,88,370!2026-03-29,84,370!2026-03-29,84,370-->
+{@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2032-01-17,2193,349!2026-04-02,88,370!2026-04-02,88,370!2026-04-02,88,370!2026-03-29,84,370!2026-03-29,84,370-->
 
 ## evolve
 

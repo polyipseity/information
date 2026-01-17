@@ -72,11 +72,11 @@ For the generalisations, _n_ and _m_ can be {@{any value > 0, and they may be th
 
 ## mathematical theory
 
-Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2029-11-20,1463,361!2029-05-23,1309,350!2026-01-16,312,301!2027-10-25,794,301-->
+Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2029-11-20,1463,361!2029-05-23,1309,350!2029-08-16,1308,321!2027-10-25,794,301-->
 
 While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2029-09-17,1412,361!2026-12-07,603,341!2026-12-23,615,341-->
 
-Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2026-01-06,350,341!2026-12-31,622,341-->
+Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2030-07-14,1643,361!2026-12-31,622,341-->
 
 The evolution graph of the game of nim with three heaps is {@{the same as three branches of the evolution graph of the [Ulam–Warburton automaton](Ulam–Warburton%20automaton.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-02-02,583,281-->
 
@@ -162,9 +162,9 @@ In another game which is commonly known as {@{nim (but is better called the [sub
 Bouton's analysis {@{carries over easily to the general multiple-heap version of this game}@}. The only difference is that {@{as a first step, before computing the nim-sums}@} we {@{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}@}. If {@{this makes all the heaps of size zero (in misère play)}@}, the winning move is {@{to take _k_ objects from one of the heaps}@}. In particular, in {@{ideal play from a single heap of _n_ objects}@}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2028-10-20,1117,341!2027-12-28,819,321!2026-05-02,422,310!2026-08-17,511,330!2028-04-26,931,301!2028-11-06,1130,341-->
 
 - 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2027-12-02,734,310!2029-12-13,1482,361-->
-- 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2028-09-28,1101,341!2026-01-03,308,301-->
+- 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2028-09-28,1101,341!2029-07-21,1285,321-->
 
-This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-12-24,301,301-->
+This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2028-07-01,900,301-->
 
 from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2029-09-13,1409,361-->
 
@@ -194,7 +194,7 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99}@}, and {@{the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!2026-12-11,606,341!2029-09-01,1399,361!2026-05-06,140,406!2026-01-02,24,390-->
+A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99}@}, and {@{the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!2026-12-11,606,341!2029-09-01,1399,361!2026-05-06,140,406!2026-05-24,131,410-->
 
 ### a multiple-heap rule
 
@@ -240,7 +240,7 @@ In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of ob
 
 Greedy nim is a variation wherein {@{the players are restricted to choosing stones from only the largest pile}@}.<sup>[\[10\]](#^ref-10)</sup> It is {@{a finite [impartial game](impartial%20game.md)}@}. Greedy nim misère has {@{the same rules as greedy nim, but the last player able to make a move loses}@}. <!--SR:!2029-08-09,1380,361!2029-05-31,1315,350!2030-04-16,1578,361-->
 
-Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones}@} and {@{_p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> {@{This theorem can be shown}@} by considering {@{the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile}@} to reduce {@{_p_<sub>_m_</sub> by 1}@} and {@{the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2030-02-21,1535,361!2029-11-05,1450,361!2027-04-15,643,341!2029-08-13,1383,361!2026-01-07,351,341!2029-12-21,1488,361!2029-11-19,1462,361!2029-12-07,1477,361!2026-01-03,25,390!2026-01-02,24,390!2026-01-03,25,390!2026-01-02,24,390-->
+Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones}@} and {@{_p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> {@{This theorem can be shown}@} by considering {@{the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile}@} to reduce {@{_p_<sub>_m_</sub> by 1}@} and {@{the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2030-02-21,1535,361!2029-11-05,1450,361!2027-04-15,643,341!2029-08-13,1383,361!2030-07-17,1646,361!2029-12-21,1488,361!2029-11-19,1462,361!2029-12-07,1477,361!2026-05-24,131,410!2026-05-24,131,410!2026-05-27,134,410!2026-05-24,131,410-->
 
 - If _p_<sub>_n_</sub> is odd, ::@:: the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2026-12-18,612,341!2027-10-03,824,330-->
 - If _p_<sub>_n_</sub> is even, ::@:: the largest heap is removed entirely, leaving an even number of largest heaps. <!--SR:!2029-12-23,1490,361!2028-10-31,1127,341-->
@@ -257,7 +257,7 @@ Again, the winning strategy is {@{to move such that this sum is zero for every d
 
 ### building nim
 
-Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins}@}, starting with {@{the next player that would move}@}. This game is denoted {@{_BN(n,s)_}@}. <!--SR:!2029-10-04,1426,361!2029-12-19,1487,361!2029-12-16,1484,361!2029-04-03,1269,350!2030-03-26,1560,361!2025-12-26,5,373!2025-12-26,5,373-->
+Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins}@}, starting with {@{the next player that would move}@}. This game is denoted {@{_BN(n,s)_}@}. <!--SR:!2029-10-04,1426,361!2029-12-19,1487,361!2029-12-16,1484,361!2029-04-03,1269,350!2030-03-26,1560,361!2026-02-09,27,393!2026-02-09,27,393-->
 
 ### higher-dimensional nim
 

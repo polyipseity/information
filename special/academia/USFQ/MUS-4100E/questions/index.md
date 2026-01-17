@@ -69,7 +69,7 @@ tags:
 > 3. New Jersey
 > 4. New Orleans
 >
-> - solution: {@{4}@} <!--SR:!2026-01-06,264,330-->
+> - solution: {@{4}@} <!--SR:!2029-04-28,1204,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 >
 > What instruments did Sydney Bechet play?
 >
-> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2026-01-08,265,330-->
+> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2029-04-29,1205,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -165,7 +165,7 @@ tags:
 >
 > Why was no music recorded between 1942 and 1944?
 >
-> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially. Another factor is musicians' strike.}@} <!--SR:!2025-12-25,207,340-->
+> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially. Another factor is musicians' strike.}@} <!--SR:!2028-09-06,970,360-->
 
 <!-- markdownlint MD028 -->
 

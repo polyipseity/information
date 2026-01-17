@@ -74,7 +74,7 @@ We can {@{convert}@} in between rectangular form and polar form. From rectangula
 
 [Euler's formula](../../general/Euler's%20formula.md) is: {@{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}@}. The above implies alternative formulas for {@{$\sin$ and $\cos$}@}: {@{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}@}. <!--SR:!2029-04-28,1355,350!2026-12-29,600,310!2027-07-30,841,330-->
 
-Using Euler's formula, we can express waves {@{using exponentiation instead}@}. For example, the discrete sine wave {@{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} can also be expressed as {@{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}@}. The latter expression has the advantage that {@{exponentiation is much easier to manipulate than trigonometric functions}@}. <!--SR:!2026-01-09,409,361!2028-04-14,1047,361!2026-10-18,552,321!2031-03-27,1927,381-->
+Using Euler's formula, we can express waves {@{using exponentiation instead}@}. For example, the discrete sine wave {@{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} can also be expressed as {@{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}@}. The latter expression has the advantage that {@{exponentiation is much easier to manipulate than trigonometric functions}@}. <!--SR:!2031-07-29,2025,381!2028-04-14,1047,361!2026-10-18,552,321!2031-03-27,1927,381-->
 
 ## dot product
 
@@ -86,7 +86,7 @@ The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is define
 
 - see: [general/even and odd functions](../../general/even%20and%20odd%20functions.md)
 
-A sequence is {@{even or symmetric}@} iff {@{$f[-n] = f[n]$}@}. A sequence is {@{odd or antisymmetric}@} iff {@{$f[-n] = -f[n]$}@}. <!--SR:!2030-01-22,1585,381!2031-03-01,1906,381!2026-01-04,405,361!2030-09-20,1778,381-->
+A sequence is {@{even or symmetric}@} iff {@{$f[-n] = f[n]$}@}. A sequence is {@{odd or antisymmetric}@} iff {@{$f[-n] = -f[n]$}@}. <!--SR:!2030-01-22,1585,381!2031-03-01,1906,381!2031-07-10,2006,381!2030-09-20,1778,381-->
 
 ## convolution
 
@@ -94,4 +94,4 @@ A sequence is {@{even or symmetric}@} iff {@{$f[-n] = f[n]$}@}. A sequence is {@
 
 The convolution of 2 sequences $x$ and $y$ is denoted {@{$x[n] * y[n]$ or $x * y$}@}. It is defined as {@{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}@}. <!--SR:!2029-06-10,1384,361!2029-02-16,1294,361-->
 
-It can be visualized as follows. Take 2 sequences $x$ and $y$. Then, {@{reflect the 2nd argument $y$ across $0$, i.e. $$y'[n] = y[-n]$$}@}. Then the convolution $x * y$ at {@{argument $n = 0$}@} is {@{the dot product of $x$ and $y'$ ($y$ reflected), i.e. $$(x * y) [0] = \sum_{m = 0}^{N - 1} x[m] y'[m] = \sum_{m = 0}^{N - 1} x[m] y[-m]$$}@}. When the argument $n$ is not $0$, then {@{the argument specifies how much $y'$ is shifted, with positive values shifting to the right}@}, i.e. {@{$$y'_n[m] = y'[m - n] = y[n - m]$$}@}. Then the convolution $x * y$ at {@{nonzero argument}@} is {@{the dot product of $x$ and $y'_n$ \($y$ reflected and shifted by $n$\), i.e. $$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y'_n[m] = \sum_{m = 0}^{N - 1} x[m] y'[m - n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}@}. <!--SR:!2030-12-08,1841,381!2026-01-13,412,361!2029-01-13,1198,361!2029-01-21,1202,361!2026-03-23,138,399!2026-03-10,127,399!2026-03-16,132,399-->
+It can be visualized as follows. Take 2 sequences $x$ and $y$. Then, {@{reflect the 2nd argument $y$ across $0$, i.e. $$y'[n] = y[-n]$$}@}. Then the convolution $x * y$ at {@{argument $n = 0$}@} is {@{the dot product of $x$ and $y'$ ($y$ reflected), i.e. $$(x * y) [0] = \sum_{m = 0}^{N - 1} x[m] y'[m] = \sum_{m = 0}^{N - 1} x[m] y[-m]$$}@}. When the argument $n$ is not $0$, then {@{the argument specifies how much $y'$ is shifted, with positive values shifting to the right}@}, i.e. {@{$$y'_n[m] = y'[m - n] = y[n - m]$$}@}. Then the convolution $x * y$ at {@{nonzero argument}@} is {@{the dot product of $x$ and $y'_n$ \($y$ reflected and shifted by $n$\), i.e. $$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y'_n[m] = \sum_{m = 0}^{N - 1} x[m] y'[m - n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}@}. <!--SR:!2030-12-08,1841,381!2031-08-25,2047,381!2029-01-13,1198,361!2029-01-21,1202,361!2026-03-23,138,399!2026-03-10,127,399!2026-03-16,132,399-->

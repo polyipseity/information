@@ -8,7 +8,7 @@ tags:
 
 # archaeoastronomy
 
-{@{__Archaeoastronomy__ (also spelled __archeoastronomy__)}@} is {@{the [interdisciplinary](interdisciplinarity.md) or multidisciplinary study of how people in the past "have understood the [phenomena](phenomenon.md) in the sky, how they used these phenomena and what role the sky played in their [cultures](culture.md)"}@}. <!--SR:!2026-01-10,405,310!2026-05-13,471,310-->
+{@{__Archaeoastronomy__ (also spelled __archeoastronomy__)}@} is {@{the [interdisciplinary](interdisciplinarity.md) or multidisciplinary study of how people in the past "have understood the [phenomena](phenomenon.md) in the sky, how they used these phenomena and what role the sky played in their [cultures](culture.md)"}@}. <!--SR:!2030-10-08,1732,330!2026-05-13,471,310-->
 
 ## references
 

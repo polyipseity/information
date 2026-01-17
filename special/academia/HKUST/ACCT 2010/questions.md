@@ -575,7 +575,7 @@ tags:
 > 2. current assets divided by current liabilities
 > 3. current assets add current liabilities
 >
-> - solution: {@{1}@} <!--SR:!2026-01-06,305,361-->
+> - solution: {@{1}@} <!--SR:!2030-03-02,1511,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -585,7 +585,7 @@ tags:
 > 2. Dr. Lease asset (ROU); Cr. Lease liability
 > 3. Both ways would do
 >
-> - solution: {@{1}@} <!--SR:!2025-12-31,301,361-->
+> - solution: {@{1}@} <!--SR:!2030-02-10,1491,381-->
 
 <!-- markdownlint MD028 -->
 

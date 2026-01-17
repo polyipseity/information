@@ -111,9 +111,9 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 <!--pytextgen generate section="da12"--><!-- The following content is generated at 2024-01-04T20:17:52.799153+08:00. Any edits will be overridden! -->
 
 - <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md):@:670–790 <!--SR:!2026-12-13,538,190-->
-- <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md):@:620–670 <!--SR:!2025-12-30,256,150-->
+- <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md):@:620–670 <!--SR:!2027-08-05,566,170-->
 - <span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md):@:600–620 <!--SR:!2026-03-31,168,150-->
-- <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md):@:530–600 <!--SR:!2026-01-04,63,130-->
+- <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md):@:530–600 <!--SR:!2026-04-08,82,130-->
 - <span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md):@:510–530 <!--SR:!2026-03-07,128,150-->
 - <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md):@:480–510 <!--SR:!2026-04-22,274,150-->
 - <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md):@:400–480 <!--SR:!2026-04-04,489,210-->
@@ -153,7 +153,7 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 - 2.48–2.56:@:<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2028-07-24,1054,263-->
 - 2.19–2.48:@:<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2027-04-17,497,223-->
 - 2.10–2.19:@:<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md) <!--SR:!2026-12-22,599,223-->
-- 1.98–2.10:@:<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) <!--SR:!2026-01-09,456,243-->
+- 1.98–2.10:@:<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) <!--SR:!2030-04-25,1560,263-->
 - 1.65–1.98:@:<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md) <!--SR:!2026-04-19,619,323-->
 
 <!--/pytextgen-->

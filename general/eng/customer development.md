@@ -22,7 +22,7 @@ tags:
 
 ## importance
 
-It is extremely important to {@{know your customers}@}. {@{Without customers}@}, no business can survive. One of the purpose of a business is to {@{create and keep customers}@}. For example, in biotechnology, understanding {@{patents}@} is important. <!--SR:!2029-11-24,1536,330!2026-06-12,573,310!2026-01-03,450,310!2028-06-08,1157,350-->
+It is extremely important to {@{know your customers}@}. {@{Without customers}@}, no business can survive. One of the purpose of a business is to {@{create and keep customers}@}. For example, in biotechnology, understanding {@{patents}@} is important. <!--SR:!2029-11-24,1536,330!2026-06-12,573,310!2031-04-26,1931,330!2028-06-08,1157,350-->
 
 When defining customers, one should avoid {@{vagueness}@}. To avoid it, some factors to consider are {@{disposable income, lifestyles, reasons for choosing your product}@}, etc. <!--SR:!2029-01-03,1262,310!2028-02-05,968,290-->
 
@@ -46,7 +46,7 @@ To validate your customers, {@{interact with your customers, such as talking to 
 
 > [!example] examples
 >
-> - Old people are unhappy. Is it because they cannot move around easily? ::@:: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2025-12-24,442,310!2028-01-21,1051,350-->
+> - Old people are unhappy. Is it because they cannot move around easily? ::@:: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2031-03-22,1896,330!2028-01-21,1051,350-->
 
 ## references
 

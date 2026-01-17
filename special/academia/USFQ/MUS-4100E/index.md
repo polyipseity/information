@@ -105,7 +105,7 @@ The content is in teaching order.
   - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2029-02-19,1163,350!2029-02-24,1167,350-->
   - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2026-12-12,507,310!2026-03-17,329,341-->
 - [music](../../../../general/music.md)
-  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2026-02-21,310,341!2026-01-04,270,330-->
+  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2026-02-21,310,341!2029-05-25,1229,350-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2027-08-14,715,330!2027-07-25,705,341-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2026-02-02,296,341!2026-03-14,326,341-->
   - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2027-04-08,554,310!2028-03-13,887,341-->
@@ -123,21 +123,21 @@ The content is in teaching order.
   - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2026-05-04,362,360!2026-06-08,370,360-->
 - [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2027-05-19,601,335!2028-01-28,852,355-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2026-05-22,380,375!2026-05-21,379,375-->
-  - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2027-12-16,818,355!2026-01-13,273,355-->
-- [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2026-07-28,420,375!2026-01-12,273,355-->
-  - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2026-01-11,271,355!2027-06-21,627,335-->
-- [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2026-01-17,277,355!2026-06-29,391,375-->
-  - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2026-01-04,265,355!2027-04-22,583,335-->
+  - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2027-12-16,818,355!2029-09-11,1337,375-->
+- [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2026-07-28,420,375!2029-09-07,1334,375-->
+  - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2029-08-27,1323,375!2027-06-21,627,335-->
+- [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2029-09-28,1350,375!2026-06-29,391,375-->
+  - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2029-08-03,1299,375!2027-04-22,583,335-->
   - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2026-06-30,392,375!2026-05-24,382,375-->
-- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2028-01-21,845,355!2026-01-11,269,355-->
-  - Mexican–American War / importance ::@:: This was one of the events leading up to the American Civil War: Should the new territories be free or slave states? The country split politically about slavery. <!--SR:!2026-01-07,268,355!2026-07-20,412,375-->
+- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2028-01-21,845,355!2029-08-21,1317,375-->
+  - Mexican–American War / importance ::@:: This was one of the events leading up to the American Civil War: Should the new territories be free or slave states? The country split politically about slavery. <!--SR:!2029-08-17,1313,375!2026-07-20,412,375-->
 - [American Civil War](../../../../general/American%20Civil%20War.md) (1861–1865) ::@:: Southern states (slave states) seceded from the Union. Northern states were the free states. There were a variety of causes, with slavery being the biggest issue. Over 500&nbsp;000 soldiers and civilians killed. <!--SR:!2027-05-31,611,335!2027-11-29,803,355-->
   - American Civil War / emancipation ::@:: In 1864, Abraham Lincoln emancipated the slaves. <!--SR:!2026-01-22,278,355!2026-07-16,408,375-->
 - [Reconstruction era](../../../../general/Reconstruction%20era.md) (1865–1877) ::@:: After the war, the federal government helped rebuild society in the south and to protect the newly freed slaves. It worked a little until the Jim Crow laws started. <!--SR:!2026-07-15,407,375!2027-05-07,592,335-->
-- [Jim Crow laws](../../../../general/Jim%20Crow%20laws.md) ::@:: They were local and state laws passed after reconstruction and became engrained in the south after the 1897 Supreme Court case _Plessy v. Ferguson_. <p> They are named after the black-faced minstrel (a song and dance) "Jump Jim Crow" in 1828. <!--SR:!2027-11-13,790,355!2026-01-14,275,355-->
+- [Jim Crow laws](../../../../general/Jim%20Crow%20laws.md) ::@:: They were local and state laws passed after reconstruction and became engrained in the south after the 1897 Supreme Court case _Plessy v. Ferguson_. <p> They are named after the black-faced minstrel (a song and dance) "Jump Jim Crow" in 1828. <!--SR:!2027-11-13,790,355!2029-09-23,1347,375-->
   - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc. <!--SR:!2027-03-05,573,335!2026-04-11,312,315-->
   - Jim Crow laws / end ::@:: Segregation remained primarily in the south until the civil rights movement in the 1960s. <!--SR:!2026-01-22,278,355!2026-06-28,390,375-->
-- [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands. <!--SR:!2026-01-13,274,355!2026-01-08,269,355-->
+- [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands. <!--SR:!2029-09-17,1343,375!2029-08-20,1316,375-->
 - assignment: read "African Music in Early Jazz"
 
 ## week 2 lecture
@@ -150,14 +150,14 @@ The content is in teaching order.
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2026-06-22,384,360!2026-05-05,363,360-->
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2027-08-04,704,340-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2026-06-09,371,360!2026-05-09,367,360-->
-  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-12-29,256,340!2028-11-06,1076,360-->
+  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2029-04-28,1202,360!2028-11-06,1076,360-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2028-10-14,1058,360!2026-05-07,365,360-->
   - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2026-04-30,358,360!2026-06-07,369,360-->
   - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2026-05-14,371,360!2026-05-08,366,360-->
     - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2026-04-30,358,360!2026-06-16,378,360-->
 - [march](../../../../general/march%20(music).md)
   - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2026-06-12,374,360!2026-05-04,362,360-->
-  - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2026-01-17,270,340!2028-04-01,907,360-->
+  - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2029-07-04,1264,360!2028-04-01,907,360-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2026-04-19,352,360!2026-05-12,370,360-->
   - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2027-04-23,628,340!2028-05-06,935,360-->
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2029-03-06,1176,360!2026-05-11,369,360-->
@@ -172,25 +172,25 @@ The content is in teaching order.
 
 - datetime: 2025-01-22T08:30:00-05:00/2025-01-22T09:50:00-05:00, PT1H20M
   - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00, PT1H20M
-- [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2026-01-06,267,355!2026-02-15,297,355-->
-  - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2026-01-09,270,355!2026-04-21,309,315-->
-  - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2026-01-12,272,355!2026-02-10,293,355-->
+- [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2029-08-13,1309,375!2026-02-15,297,355-->
+  - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2029-08-23,1319,375!2026-04-21,309,315-->
+  - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2029-09-02,1329,375!2026-02-10,293,355-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2026-01-02,260,355-->
-- [Storyville, New Orleans](../../../../general/Storyville,%20New%20Orleans.md) (1897–1917) ::@:: red-light district (area of the city in which prostitution, although still nominally illegal, was tolerated or regulated) of New Orleans, Louisiana <!--SR:!2026-04-10,311,315!2026-01-11,272,355-->
-  - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2026-05-19,377,375!2026-01-13,274,355-->
+  - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2029-07-02,1267,375-->
+- [Storyville, New Orleans](../../../../general/Storyville,%20New%20Orleans.md) (1897–1917) ::@:: red-light district (area of the city in which prostitution, although still nominally illegal, was tolerated or regulated) of New Orleans, Louisiana <!--SR:!2026-04-10,311,315!2029-09-03,1330,375-->
+  - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2026-05-19,377,375!2029-09-12,1338,375-->
   - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2026-07-15,407,375!2026-07-03,395,375-->
-  - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2026-01-06,264,355!2026-05-23,381,375-->
+  - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2029-07-22,1287,375!2026-05-23,381,375-->
 - [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, pianist, singer; first jazz composer to notate jazz <!--SR:!2028-01-21,847,355!2026-08-23,433,335-->
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2026-05-25,382,375!2026-07-18,410,375-->
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2026-07-17,409,375!2026-07-28,420,375-->
-  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythm commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2026-08-13,423,335!2026-01-16,277,355-->
-  - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2028-02-06,858,355!2026-01-16,273,355-->
+  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythm commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2026-08-13,423,335!2029-09-29,1351,375-->
+  - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2028-02-06,858,355!2029-09-11,1333,375-->
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2026-06-23,385,375!2026-07-19,411,375-->
     - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!2026-06-22,384,375!2026-08-03,426,375-->
-    - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2026-01-10,270,355!2026-07-15,407,375-->
-- Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2026-01-07,268,355!2028-01-04,832,355-->
+    - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2029-08-26,1322,375!2026-07-15,407,375-->
+- Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2029-08-18,1314,375!2028-01-04,832,355-->
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca <!--SR:!2026-06-24,386,375!2026-01-21,277,355-->
 - assignment \(attendance\): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
 
@@ -199,24 +199,24 @@ The content is in teaching order.
 - datetime: 2025-01-27T08:30:00-05:00/2025-01-27T09:50:00-05:00, PT1H20M
   - local: 2025-01-27T21:30:00+08:00/2025-01-27T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
-  - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans <!--SR:!2026-01-12,273,355!2026-07-30,422,375-->
+  - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans <!--SR:!2029-09-11,1338,375!2026-07-30,422,375-->
 - [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band. <!--SR:!2027-04-14,576,335!2026-04-13,301,315-->
   - King Oliver / influence ::@:: helped young musicians get out of New Orleans and start their careers outside, usually Chicago; the young musicians included Jelly Roll Morton, Sidney Bechet, and Louis Armstrong and his first wife Lil Harden <!--SR:!2027-02-22,566,335!2027-02-21,565,335-->
-  - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2026-01-10,271,355!2027-06-01,612,335-->
-  - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2026-08-03,426,375!2026-01-05,266,355-->
-- [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2026-01-17,277,355!2026-01-17,274,355-->
+  - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2029-09-01,1328,375!2027-06-01,612,335-->
+  - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2026-08-03,426,375!2029-08-02,1298,375-->
+- [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2029-09-27,1349,375!2029-09-21,1343,375-->
   - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2026-02-13,295,355!2028-01-03,832,355-->
-- [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2026-01-09,270,355!2026-09-17,451,335-->
+- [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2029-08-22,1318,375!2026-09-17,451,335-->
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2026-02-09,292,355!2027-11-23,798,355-->
   - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2026-08-14,424,335!2027-06-01,665,355-->
-- [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2026-01-08,269,355!2028-01-02,831,355-->
-- [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2026-02-05,289,355!2026-01-11,269,355-->
-  - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2026-01-17,278,355!2026-08-30,440,335-->
+- [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2029-08-19,1315,375!2028-01-02,831,355-->
+- [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2026-02-05,289,355!2029-08-18,1314,375-->
+  - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2029-10-03,1355,375!2026-08-30,440,335-->
   - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2026-08-05,415,335!2026-02-04,288,355-->
   - Louis Armstrong / fun facts ::@:: first jazz musician to appear on _Time_ magazine; appeared in over 35 films; oldest musician to have a number 1 hit "Hello, Dolly!" in 1964, knocking the Beatles off the number 1 spot; went on an England tour in 1932 <!--SR:!2027-12-08,811,355!2026-04-21,322,315-->
-  - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2026-01-15,275,355!2026-01-15,276,355-->
+  - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2029-09-21,1345,375!2029-09-21,1345,375-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2026-01-18,278,355!2026-07-29,421,375-->
-  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2026-01-03,261,355!2026-01-16,276,355-->
+  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2029-07-07,1272,375!2029-09-24,1346,375-->
   - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2027-11-03,784,355!2026-06-21,383,375-->
 - assignment: (none)
 
@@ -289,7 +289,7 @@ The content is in teaching order.
   - swing music / vs. New Orleans jazz
 - [Fletcher Henderson](Fletcher%20Henderson.md)
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md)
-- [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing <!--SR:!2026-05-02,333,372!2025-12-22,242,372-->
+- [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing <!--SR:!2026-05-02,333,372!2029-05-29,1233,392-->
 - [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie. <!--SR:!2026-05-15,346,372!2027-11-17,788,372-->
   - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2028-03-15,870,372!2026-01-27,238,352-->
   - Count Basie / works ::@:: "Wind Machine" — Count Basie <!--SR:!2027-03-14,609,412!2026-10-10,475,392-->
@@ -300,7 +300,7 @@ The content is in teaching order.
   - Duke Ellington Orchestra ::@:: His band was full of "specialists". Each musician/instrumentalist had something unique on how they played, and music was written around this. Duke made each music/instrumentalist do more than playing, and orchestrated uniquely and unusually. <!--SR:!2027-05-27,671,412!2027-03-26,621,412-->
     - Duke Ellington Orchestra / Juan Tizol (1900–1984) ::@:: He was the first popular Latino in jazz. He played valve trombone. <p> An example of "jungle music": "Caravan" (1937) — Duke Ellington <!--SR:!2026-05-15,346,372!2026-05-15,346,372-->
     - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2027-06-17,684,412!2026-08-27,387,332-->
-    - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2026-01-06,251,372!2026-01-25,236,372-->
+    - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2029-07-13,1278,392!2026-01-25,236,372-->
     - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2027-03-07,536,352!2026-10-21,486,392-->
 - [popular music](../../../../general/popular%20music.md)
   - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres. <!--SR:!2027-03-15,610,412!2027-05-02,648,412-->
@@ -548,7 +548,7 @@ The content is in teaching order.
     - hard bop / characteristics / the "shuffle" ::@:: swinging drum groove from the United States Midwest; also called heartbeat of the blues <!--SR:!2028-01-05,806,442!2028-02-06,834,442-->
   - hard bop / motivation ::@:: a type of hot jazz, created as a reaction to cool jazz by musicians not liking it; not intended for dancing but danceable <!--SR:!2028-03-13,864,442!2028-03-12,863,442-->
   - hard bop / characteristics
-    - hard bop / characteristics / musical ::@:: blues or lyrical melodies, emphasis on beats 2 and 4, harmonize head instead of playing contrapuntal, slow or medium tempo, smaller ensembles <!--SR:!2028-02-12,839,442!2026-01-01,72,402-->
+    - hard bop / characteristics / musical ::@:: blues or lyrical melodies, emphasis on beats 2 and 4, harmonize head instead of playing contrapuntal, slow or medium tempo, smaller ensembles <!--SR:!2028-02-12,839,442!2027-02-11,395,422-->
   - hard bop / vs. cool jazz ::@:: Cool jazz is more classical and restrained. More popular among white musicians. Hot jazz is more blues and gospel. More popular among black musicians. <!--SR:!2028-02-13,840,442!2028-01-28,826,442-->
 - [rhythm and blues](../../../../general/rhythm%20and%20blues.md) \(R&B\) ::@:: It is a genre of popular music that originated within Black American communities in the 1940s. The term was originally used by record companies to describe recordings marketed predominantly to African Americans, at a time when "rocking, jazz based music ... \[with a\] heavy, insistent beat" was starting to become more popular. <!--SR:!2027-06-08,594,422!2028-02-07,834,442-->
   - rhythm and blues / influences ::@:: African American styles, blues, gospel, jazz <!--SR:!2027-12-10,784,442!2028-03-20,870,442-->
@@ -580,7 +580,7 @@ The content is in teaching order.
   - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multi-track recording. <!--SR:!2027-07-15,624,422!2027-02-12,542,422-->
 - Miles Davis
   - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but dropped out to play jazz. He started in Charlie Parker's band. <!--SR:!2028-02-04,832,442!2027-12-20,793,442-->
-  - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2026-01-01,169,454!2025-12-31,168,454-->
+  - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2028-11-23,1046,474!2028-11-12,1035,474-->
   - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pianists, saxophonists, etc. <!--SR:!2027-02-14,544,422!2028-01-13,813,442-->
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2027-12-30,801,442!2028-01-23,822,442-->
   - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2028-03-17,867,442!2027-06-12,597,422-->
@@ -756,7 +756,7 @@ The content is in teaching order.
   - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2028-05-20,905,458!2028-05-01,888,458-->
 - [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2028-07-09,945,458!2028-04-04,865,458-->
   - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2028-06-18,929,461!2028-05-21,904,458-->
-  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2028-05-02,889,458!2025-12-26,163,454-->
+  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2028-05-02,889,458!2028-10-05,997,474-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2028-06-13,925,461!2028-07-24,958,458-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2028-06-20,930,458!2028-07-20,955,458-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2028-05-30,914,462!2028-05-22,907,462-->

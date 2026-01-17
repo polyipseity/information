@@ -64,7 +64,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 ### coordinates
 
-To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!2026-02-08,49,305!2026-03-08,63,325!2026-03-16,71,325!2026-03-15,70,325!2026-03-16,71,325!2026-03-06,61,325!2026-01-11,26,285-->
+To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!2026-02-08,49,305!2026-03-08,63,325!2026-03-16,71,325!2026-03-15,70,325!2026-03-16,71,325!2026-03-06,61,325!2026-05-03,106,305-->
 
 {@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the point in Euclidean space that represents the waveform}@}. {@{These coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}, and they provide {@{a compact, geometrically meaningful description of $s(t)$}@}. <!--SR:!2026-03-11,66,325!2026-03-16,71,325!2026-03-17,72,325!2026-03-15,70,325!2026-03-09,64,325!2026-03-19,74,325-->
 

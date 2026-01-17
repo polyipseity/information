@@ -144,7 +144,7 @@ return _chain.from_iterable(await _gather(
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2026-05-24,317,210!2027-10-04,881,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2026-07-23,460,190-->
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2027-01-30,391,210-->
-- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2026-01-13,155,150-->
+- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2026-09-02,232,150-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2026-07-23,303,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2026-08-19,366,190-->
 - [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2030-09-16,1893,270-->
@@ -288,7 +288,7 @@ return _chain.from_iterable(await _gather(
 - [sodium](sodium.md):@:[electrolysis](electrolysis.md) <!--SR:!2028-07-07,1498,350-->
 - [lithium](lithium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-01-26,782,330-->
 - [barium](barium.md):@:[electrolysis](electrolysis.md) <!--SR:!2027-02-27,1025,330-->
-- [strontium](strontium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-01-15,473,310-->
+- [strontium](strontium.md):@:[electrolysis](electrolysis.md) <!--SR:!2031-08-05,2027,330-->
 - [calcium](calcium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-10-03,916,330-->
 - [magnesium](magnesium.md):@:[electrolysis](electrolysis.md) <!--SR:!2028-09-19,1137,270-->
 - [beryllium](beryllium.md):@:[electrolysis](electrolysis.md) <!--SR:!2029-03-06,1281,310-->

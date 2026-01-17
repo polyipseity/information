@@ -155,7 +155,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - income statement \(cost of goods sold\) ::@:: _unadjusted_ cost of goods sold +/− \(plus:\) underapplied manufacturing overhead/\(less:\) overapplied manufacturing overhead = \(adjusted\) cost of goods sold <!--SR:!2026-03-22,294,330!2026-04-28,327,350-->
   - income statement \(cost of goods sold\) / unadjusted cost of goods sold ::@:: beginning finished goods inventory + \(plus:\) cost of goods manufactured − \(less:\) ending finished goods inventory <!--SR:!2026-05-06,334,350!2026-03-01,273,330-->
-- income statement ::@:: sales revenue − \(less:\) cost of goods sold = gross profit <br/> gross profit − \(less:\) selling and administrative expenses = net operating income <!--SR:!2025-12-22,219,330!2026-01-24,237,330-->
+- income statement ::@:: sales revenue − \(less:\) cost of goods sold = gross profit <br/> gross profit − \(less:\) selling and administrative expenses = net operating income <!--SR:!2028-10-03,996,350!2026-01-24,237,330-->
 
 ## T account
 
@@ -231,7 +231,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2026-03-27,299,350!2026-11-25,455,310-->
   - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-04-04,307,350!2026-11-24,459,330-->
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2026-02-07,251,330!2026-02-03,247,330-->
-    - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2026-03-03,275,330!2025-12-23,220,330-->
+    - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2026-03-03,275,330!2028-10-06,999,350-->
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2027-07-31,661,330!2026-02-12,256,330-->
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2028-03-25,864,350!2027-12-26,762,330-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2026-07-26,378,310!2026-05-27,345,350-->
@@ -328,7 +328,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > |                          | {@{&dollar;&emsp;2&nbsp;000}@} | {@{&dollar;&emsp;2&nbsp;200}@} | {@{&dollar;&emsp;4&nbsp;200}@} | <!--SR:!2026-05-27,345,350!2026-05-21,339,350!2026-05-18,336,350!2026-02-28,272,330!2026-04-22,321,350!2026-05-16,334,350!2026-05-22,340,350!2026-03-02,274,330!2026-03-01,273,330!2026-03-27,299,350!2026-02-11,255,330!2026-05-31,349,350!2026-03-22,294,330!2026-03-05,277,330-->
 
 - activity cost allocation
-  - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2026-01-05,218,330!2026-02-24,268,330-->
+  - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2028-09-29,992,350!2026-02-24,268,330-->
   - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2026-01-31,244,330!2028-02-24,839,350-->
 
 ## activity cost driver - setups
@@ -412,7 +412,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers <!--SR:!2026-12-31,498,401!2026-12-17,494,401-->
   - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total <!--SR:!2026-11-10,464,401!2027-01-19,514,401-->
-  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2026-07-17,346,381!2026-01-12,183,361-->
+  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2026-07-17,346,381!2028-06-30,900,381-->
 
 ## incremental analysis (comparative)
 

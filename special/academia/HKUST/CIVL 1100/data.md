@@ -46,7 +46,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2029-05-24,1384,327!2026-03-07,555,397-->
 - height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2026-03-22,147,200!2030-02-12,1672,385-->
-- image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2031-08-18,2124,400!2026-01-10,498,400-->
+- image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2031-08-18,2124,400!2033-06-21,2719,420-->
 - shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2029-03-17,1417,392-->
 
 ## Burj Khalifa
@@ -64,8 +64,8 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::@:: skyscraper in the central business district of Beijing, China <!--SR:!2026-02-12,475,332!2031-06-06,2106,407-->
 - height ::@:: roof: 234 m <!--SR:!2028-02-12,896,260!2026-03-08,556,397-->
-- image ::@:: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2028-05-24,1161,380!2026-01-09,498,400-->
-- shape ::@:: big pants <!--SR:!2032-09-01,2469,405!2025-12-25,483,400-->
+- image ::@:: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2028-05-24,1161,380!2033-06-19,2717,420-->
+- shape ::@:: big pants <!--SR:!2032-09-01,2469,405!2033-03-31,2637,420-->
 
 ## CN Tower
 
@@ -147,7 +147,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 - component ::@:: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2028-09-21,1184,336!2026-11-17,746,416-->
 - construction period ::@:: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2027-01-29,708,356!2026-08-21,628,396-->
-- geographic locations ::@:: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2027-02-10,717,356!2025-12-27,436,376-->
+- geographic locations ::@:: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2027-02-10,717,356!2032-03-03,2244,396-->
 - length ::@:: 21196.18 km <!--SR:!2028-02-12,863,276!2026-06-17,579,396-->
 
 ## HSBC Main Building
@@ -164,7 +164,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
 - description ::@:: events venue in Wan Chai, Hong Kong <!--SR:!2031-06-05,2031,335!2032-05-13,2394,414-->
-- image ::@:: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2030-06-12,1792,400!2026-01-04,493,400-->
+- image ::@:: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2030-06-12,1792,400!2033-05-25,2692,420-->
 - shape ::@:: bird/turtle rooftop <!--SR:!2027-03-10,779,330!2032-02-09,2313,412-->
 
 ## Hong Kong–Zhuhai–Macau Bridge
@@ -180,7 +180,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
-- [dam type](../../../../general/dam.md#types) ::@:: concrete gravity-arch <!--SR:!2029-02-10,1321,340!2025-12-26,497,395-->
+- [dam type](../../../../general/dam.md#types) ::@:: concrete gravity-arch <!--SR:!2029-02-10,1321,340!2033-05-14,2681,415-->
 - height ::@:: 221.4 m <!--SR:!2027-07-12,747,281!2027-08-25,909,367-->
 - image ::@:: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2031-01-19,1971,400!2030-12-06,1920,400-->
 - length ::@:: 379 m <!--SR:!2026-09-14,387,201!2027-07-01,870,370-->
@@ -255,7 +255,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 - dedication ::@:: Greek goddess Athena <!--SR:!2027-05-25,898,416!2026-12-11,763,416-->
 - description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2026-03-19,483,356!2026-11-27,751,416-->
 - geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!2026-08-20,672,416-->
-- importance ::@:: most important surviving building of classical Greece <!--SR:!2025-12-29,437,376!2026-10-16,722,416-->
+- importance ::@:: most important surviving building of classical Greece <!--SR:!2032-03-09,2250,396!2026-10-16,722,416-->
 
 ## Stonecutters Bridge
 
@@ -263,7 +263,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
-- image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2029-06-02,1487,400-->
+- image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2033-05-21,2688,420!2029-06-02,1487,400-->
 - length ::@:: 1596 m, longest span: 1018 m <!--SR:!2026-01-19,208,200!2027-10-27,958,370-->
 
 ## Sutong Yangtze River Bridge
@@ -299,7 +299,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 - bridge type <!-- flashcard ID: 54af6d8c-884f-4894-bb1a-ce65254b1063 -->::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2026-03-27,463,297!2032-06-30,2424,410-->
 - description ::@:: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-02-14,749,330!2033-02-13,2614,412-->
-- image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2031-03-28,2030,400-->
+- image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2033-07-31,2752,420!2031-03-28,2030,400-->
 - length ::@:: 2160 m, longest span: 1377 m <!--SR:!2029-08-12,1381,300!2030-11-28,1914,400-->
 
 ## Turin–Lyon high-speed railway
@@ -316,7 +316,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2028-12-28,1282,340!2031-06-02,2101,405-->
 - height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2026-08-22,447,221!2032-12-31,2568,404-->
 - image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2029-05-26,1451,380!2027-12-27,906,340-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2026-03-24,435,340!2033-04-26,2663,420-->
 
 ## Water Cube
 

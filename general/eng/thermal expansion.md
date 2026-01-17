@@ -20,7 +20,7 @@ tags:
 >
 > - {@{$\alpha_L$}@} is {@{the __coefficient of linear thermal expansion__}@}
 > - {@{$L$}@} is {@{the [length](length.md)}@}
-> - {@{$\frac{\mathrm{d}L}{\mathrm{d}T}$}@} is {@{the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-05-15,904,310!2026-01-07,513,310!2026-03-03,84,353!2026-03-03,84,353!2026-03-03,84,353!2026-02-27,81,353!2026-03-04,85,353-->
+> - {@{$\frac{\mathrm{d}L}{\mathrm{d}T}$}@} is {@{the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-05-15,904,310!2032-01-18,2196,330!2026-03-03,84,353!2026-03-03,84,353!2026-03-03,84,353!2026-02-27,81,353!2026-03-04,85,353-->
 
 ### area expansion
 

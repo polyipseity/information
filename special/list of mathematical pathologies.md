@@ -34,9 +34,9 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 
 ### Volterra's function
 
-- see: ::@:: [Volterra's function](Volterra's%20function.md) <!--SR:!2025-12-27,18,354!2025-12-26,17,354-->
+- see: ::@:: [Volterra's function](Volterra's%20function.md) <!--SR:!2026-04-08,87,374!2026-04-04,83,374-->
 
-{@{Volterra's function}@} is constructed {@{using increasingly smaller modified copies of $f(x) = x^2 \sin(1 / x)$}@}, {@{mirrored and then placed on the removed intervals of [Smith–Volterra–Cantor set](Smith–Volterra–Cantor%20set.md)}@}. <!--SR:!2029-04-25,1239,306!2025-12-28,19,354!2026-02-13,57,354-->
+{@{Volterra's function}@} is constructed {@{using increasingly smaller modified copies of $f(x) = x^2 \sin(1 / x)$}@}, {@{mirrored and then placed on the removed intervals of [Smith–Volterra–Cantor set](Smith–Volterra–Cantor%20set.md)}@}. <!--SR:!2029-04-25,1239,306!2026-04-14,93,374!2026-02-13,57,354-->
 
 - derivative
   - derivative integrability
@@ -66,4 +66,4 @@ The function is {@{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0
 
 - derivative ::@:: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2026-05-06,187,286!2026-10-21,650,326-->
   - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on any non-trivial interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2025-12-25,416,306!2027-09-13,899,346-->
+    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on any non-trivial interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2030-11-09,1763,326!2027-09-13,899,346-->

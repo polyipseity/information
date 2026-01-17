@@ -12,7 +12,7 @@ tags:
 
 - date and time data types ::@:: `DATE`, `DATETIME`, `TIME`, `TIMESTAMP`, `YEAR` <!--SR:!2029-01-17,1454,330!2028-09-06,1301,330-->
   - `DATE` ::@:: `YYYY-MM-DD` that ranges from `1000-01-01` to `9999-12-31`. <!--SR:!2027-08-04,763,330!2029-11-24,1685,330-->
-  - `DATETIME` ::@:: `YYYY-MM-DD hh:mm:ss[.fraction]` that ranges from `1000-01-01 00:00:00.000000` to `9999-12-31 23:59:59.499999`. <!--SR:!2030-04-23,1870,350!2026-01-16,485,270-->
+  - `DATETIME` ::@:: `YYYY-MM-DD hh:mm:ss[.fraction]` that ranges from `1000-01-01 00:00:00.000000` to `9999-12-31 23:59:59.499999`. <!--SR:!2030-04-23,1870,350!2031-01-19,1828,290-->
   - `TIME` ::@:: `hh[h]:mm:ss[.fraction]` that ranges from `-838:59:59.000000` to `838:59:59.000000`. <!--SR:!2029-02-19,1421,330!2026-04-03,442,210-->
   - `TIMESTAMP` ::@:: `YYYY-MM-DD hh:mm:ss[.fraction]` UTC that ranges from `1970-01-01 00:00:01.000000` to `2038-01-19 03:14:07.499999`. <!--SR:!2026-09-21,506,310!2026-02-07,323,170-->
   - `YEAR` ::@:: `Y[YYY]` that ranges from `1901` to `2155`. <!--SR:!2028-04-15,1197,330!2031-05-20,2071,330-->
@@ -42,4 +42,4 @@ tags:
     - `TINYTEXT` ::@:: Up to 2<sup>8</sup>−1 bytes of string. <!--SR:!2026-12-09,823,330!2030-07-04,1928,350-->
     - `TEXT` ::@:: Up to 2<sup>16</sup>−1 bytes of string. <!--SR:!2027-12-06,971,290!2030-10-04,1988,350-->
     - `MEDIUMTEXT` ::@:: Up to 2<sup>24</sup>−1 bytes of string. <!--SR:!2028-10-07,1323,330!2029-03-05,1548,350-->
-    - `LONGTEXT` ::@:: Up to 2<sup>32</sup>−1 bytes of string. <!--SR:!2031-09-17,2124,310!2026-01-03,466,290-->
+    - `LONGTEXT` ::@:: Up to 2<sup>32</sup>−1 bytes of string. <!--SR:!2031-09-17,2124,310!2031-03-04,1877,310-->

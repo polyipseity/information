@@ -28,7 +28,7 @@ tags:
 
 > {@{![Schematic of a 2-to-1 multiplexer.](../../archives/Wikimedia%20Commons/Multiplexer2.svg)}@}
 >
-> Schematic of {@{a 2-to-1 multiplexer}@}. It can be {@{equated to a controlled switch}@}. <!--SR:!2026-04-20,331,344!2026-03-28,310,344!2026-01-08,250,330-->
+> Schematic of {@{a 2-to-1 multiplexer}@}. It can be {@{equated to a controlled switch}@}. <!--SR:!2026-04-20,331,344!2026-03-28,310,344!2029-02-24,1140,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -42,7 +42,7 @@ A multiplexer makes it possible {@{for several input signals to share one device
 
 Conversely, {@{a __demultiplexer__ \(or __demux__\)}@} is {@{a device that takes a single input signal and selectively forwards it to one of several output lines}@}. A multiplexer is often {@{used with a complementary demultiplexer on the receiving end}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-04-20,333,344!2026-03-27,309,344!2026-04-17,330,344-->
 
-{@{An electronic multiplexer}@} can be considered as {@{a [multiple-input, single-output](system%20analysis.md#characterization%20of%20systems) switch}@}, and {@{a demultiplexer as a [single-input, multiple-output](system%20analysis.md#characterization%20of%20systems) switch}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The schematic symbol for a multiplexer}@} is {@{an [isosceles trapezoid](isosceles%20trapezoid.md) with the longer parallel side containing the input pins and the short parallel side containing the output pin}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The schematic on the right}@} shows {@{a 2-to-1 multiplexer on the left and an equivalent switch on the right}@}. The $\text{sel}$ wire {@{connects the desired input to the output}@}. <!--SR:!2026-04-27,338,344!2026-04-14,327,344!2026-01-09,251,330!2026-04-05,318,344!2026-03-19,301,344!2028-03-05,860,344!2025-12-28,241,330!2026-04-01,314,344-->
+{@{An electronic multiplexer}@} can be considered as {@{a [multiple-input, single-output](system%20analysis.md#characterization%20of%20systems) switch}@}, and {@{a demultiplexer as a [single-input, multiple-output](system%20analysis.md#characterization%20of%20systems) switch}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The schematic symbol for a multiplexer}@} is {@{an [isosceles trapezoid](isosceles%20trapezoid.md) with the longer parallel side containing the input pins and the short parallel side containing the output pin}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The schematic on the right}@} shows {@{a 2-to-1 multiplexer on the left and an equivalent switch on the right}@}. The $\text{sel}$ wire {@{connects the desired input to the output}@}. <!--SR:!2026-04-27,338,344!2026-04-14,327,344!2029-02-28,1144,350!2026-04-05,318,344!2026-03-19,301,344!2028-03-05,860,344!2029-01-18,1103,350!2026-04-01,314,344-->
 
 ## applications
 
@@ -54,7 +54,7 @@ Multiplexers are {@{part of computer systems to select data from a specific sour
 
 In {@{digital communications}@}, multiplexers allow {@{several connections over a single channel}@}, by {@{connecting the multiplexer's single output to the demultiplexer's single input \(Time-Division Multiplexing\)}@}. The image to the right {@{demonstrates this benefit}@}. In this case, {@{the cost of implementing separate channels for each data source}@} is {@{higher than the cost and inconvenience of providing the multiplexing/demultiplexing functions}@}. <!--SR:!2026-03-09,291,344!2026-04-04,317,344!2026-04-30,341,344!2026-03-09,291,344!2026-03-20,302,344!2026-03-17,299,344-->
 
-At {@{the receiving end of the [data link](data%20link.md)}@} {@{a complementary _demultiplexer_ is usually required to break the single data stream back down into the original streams}@}. In some cases, {@{the far end system}@} may have {@{functionality greater than a simple demultiplexer}@}; and while {@{the demultiplexing still occurs technically, it may never be implemented discretely}@}. This would be the case when, for instance, {@{a multiplexer serves a number of [IP](Internet%20Protocol.md) network users}@}; and then {@{feeds directly into a [router](router%20(computing).md)}@}, which {@{immediately reads the content of the entire link into its [routing](routing.md) processor}@}; and then {@{does the demultiplexing in memory from where it will be converted directly into IP sections}@}. <!--SR:!2026-03-16,298,344!2026-05-01,342,344!2026-03-29,311,344!2026-03-14,296,344!2026-04-27,338,344!2026-03-16,298,344!2026-03-26,308,344!2026-04-01,314,344!2026-01-07,249,330-->
+At {@{the receiving end of the [data link](data%20link.md)}@} {@{a complementary _demultiplexer_ is usually required to break the single data stream back down into the original streams}@}. In some cases, {@{the far end system}@} may have {@{functionality greater than a simple demultiplexer}@}; and while {@{the demultiplexing still occurs technically, it may never be implemented discretely}@}. This would be the case when, for instance, {@{a multiplexer serves a number of [IP](Internet%20Protocol.md) network users}@}; and then {@{feeds directly into a [router](router%20(computing).md)}@}, which {@{immediately reads the content of the entire link into its [routing](routing.md) processor}@}; and then {@{does the demultiplexing in memory from where it will be converted directly into IP sections}@}. <!--SR:!2026-03-16,298,344!2026-05-01,342,344!2026-03-29,311,344!2026-03-14,296,344!2026-04-27,338,344!2026-03-16,298,344!2026-03-26,308,344!2026-04-01,314,344!2029-02-17,1133,350-->
 
 Often, {@{a multiplexer and demultiplexer}@} are {@{combined into a single piece of equipment}@}, which is {@{simply referred to as a _multiplexer_}@}. Both circuit elements are {@{needed at both ends of a transmission link}@} because {@{most communications systems transmit in [both directions](duplex%20(telecommunications).md)}@}. <!--SR:!2026-03-10,292,344!2026-03-11,293,344!2026-03-29,311,344!2028-10-28,1048,350!2026-04-06,319,344-->
 
@@ -64,13 +64,13 @@ In {@{[analog circuit](analog%20circuit.md) design}@}, a multiplexer is {@{a spe
 
 In {@{[digital circuit](digital%20circuit.md) design}@}, the selector wires are {@{of digital value}@}. In the case of {@{a 2-to-1 multiplexer}@}, {@{a logic value of 0 would connect $I_{0}$ to the output}@} while {@{a logic value of 1 would connect $I_{1}$ to the output}@}. In {@{larger multiplexers}@}, the number of selector pins is {@{equal to $\left\lceil \log _{2}(n)\right\rceil$ where $n$ is the number of inputs}@}. <!--SR:!2026-04-07,320,344!2028-06-16,936,344!2026-05-01,342,344!2026-04-29,340,344!2026-04-15,328,344!2026-04-23,334,344!2026-03-27,309,344-->
 
-For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} and {@{17 to 32 inputs would require no fewer than 5 selector pins}@}. {@{The binary value expressed on these selector pins}@} {@{determines the selected input pin}@}. <!--SR:!2026-04-16,329,344!2026-04-15,328,344!2025-12-27,240,330!2026-04-14,327,344-->
+For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} and {@{17 to 32 inputs would require no fewer than 5 selector pins}@}. {@{The binary value expressed on these selector pins}@} {@{determines the selected input pin}@}. <!--SR:!2026-04-16,329,344!2026-04-15,328,344!2029-01-07,1092,350!2026-04-14,327,344-->
 
 > {@{![A 2-to-1 mux](../../archives/Wikimedia%20Commons/Multiplexer%202-to-1.svg)}@}
 >
 > {@{A 2-to-1 mux}@} <!--SR:!2026-03-20,302,344!2026-04-06,319,344-->
 
-{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-05,318,344!2026-04-02,315,344!2026-01-03,246,330!2026-04-03,316,344!2026-01-14,252,330-->
+{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-05,318,344!2026-04-02,315,344!2029-02-01,1117,350!2026-04-03,316,344!2029-03-06,1146,350-->
 
 | $$S_{0}$$ | $$A$$ | $$B$$ | $$Z$$ |
 | --------- | ----- | ----- | ----- |
@@ -92,7 +92,7 @@ Or, in simpler notation:
 
 These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B$}@}. {@{A straightforward realization of this 2-to-1 multiplexer}@} would need {@{2 AND gates, an OR gate, and a NOT gate}@}. While {@{this is mathematically correct}@}, {@{a direct physical implementation}@} would be {@{prone to [race conditions](race%20condition.md) that require additional gates to suppress}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-04-25,336,344!2026-03-28,310,344!2026-03-19,301,344!2026-04-04,317,344!2026-03-20,302,344!2026-02-14,268,330-->
 
-{@{Larger multiplexers are also common}@} and, as stated above, require {@{$\left\lceil \log _{2}(n)\right\rceil$ selector pins for $n$ inputs}@}. Other common sizes are {@{4-to-1, 8-to-1, and 16-to-1}@}. Since {@{digital logic uses binary values}@}, {@{powers of 2 are used \(4, 8, 16\)}@} to {@{maximally control a number of inputs for the given number of selector inputs}@}. <!--SR:!2026-01-15,253,330!2027-07-14,621,324!2026-03-09,291,344!2025-12-28,240,330!2026-04-18,331,344!2026-04-21,332,344-->
+{@{Larger multiplexers are also common}@} and, as stated above, require {@{$\left\lceil \log _{2}(n)\right\rceil$ selector pins for $n$ inputs}@}. Other common sizes are {@{4-to-1, 8-to-1, and 16-to-1}@}. Since {@{digital logic uses binary values}@}, {@{powers of 2 are used \(4, 8, 16\)}@} to {@{maximally control a number of inputs for the given number of selector inputs}@}. <!--SR:!2029-03-16,1156,350!2027-07-14,621,324!2026-03-09,291,344!2029-01-06,1091,350!2026-04-18,331,344!2026-04-21,332,344-->
 
 > {@{![4-to-1 mux](../../archives/Wikimedia%20Commons/Multiplexer%204-to-1.svg)}@}
 >
@@ -117,7 +117,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 {@{The following 4-to-1 multiplexer}@} is constructed from {@{[3-state buffers](3-state%20buffers.md#tri-state%20buffer) and AND gates \(the AND gates are acting as the decoder\)}@}: <p> {@{![a 4-to-1 mux realized from 3-state buffers and AND gates](../../archives/Wikimedia%20Commons/Mux%20from%203%20state%20buffers.png)}@} <!--SR:!2026-03-10,292,344!2026-04-05,318,344!2026-03-27,309,344-->
 
-{@{The subscripts on the $I_{n}$ inputs}@} indicate {@{the decimal value of the binary control inputs}@} at which that {@{input is let through}@}. <!--SR:!2026-04-20,333,344!2028-06-05,926,344!2026-01-02,24,383-->
+{@{The subscripts on the $I_{n}$ inputs}@} indicate {@{the decimal value of the binary control inputs}@} at which that {@{input is let through}@}. <!--SR:!2026-04-20,333,344!2028-06-05,926,344!2026-05-16,125,403-->
 
 > {@{![4:1 MUX circuit using 3 input AND and other gates](../../archives/Wikimedia%20Commons/4to1%20MUX%20using%20basic%20gates.jpg)}@}
 >
@@ -125,7 +125,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 ### chaining multiplexers and mux trees
 
-{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2026-03-18,300,344!2026-04-30,341,344!2025-12-25,238,330!2026-05-01,342,344!2028-06-20,938,344!2026-04-03,316,344!2026-03-19,301,344-->
+{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2026-03-18,300,344!2026-04-30,341,344!2028-12-27,1081,350!2026-05-01,342,344!2028-06-20,938,344!2026-04-03,316,344!2026-03-19,301,344-->
 
 ### list of ICs which provide multiplexing
 
@@ -147,7 +147,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 ## digital demultiplexers
 
-- See also: ::@:: [Inverse multiplexer](inverse%20multiplexer.md) <!--SR:!2026-03-11,293,344!2025-12-27,239,330-->
+- See also: ::@:: [Inverse multiplexer](inverse%20multiplexer.md) <!--SR:!2026-03-11,293,344!2028-12-26,1080,350-->
 
 Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They {@{forward the data input to one of the outputs depending on the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}. <!--SR:!2026-03-13,295,344!2026-03-10,292,344!2026-04-19,330,344!2028-10-09,1031,350!2026-03-19,301,344!2026-03-18,300,344!2026-04-01,314,344-->
 

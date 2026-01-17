@@ -30,12 +30,12 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-__Cash flow__, {@{in general, refers to payments made into or out of a business, project, or financial product}@}.<sup>[\[1\]](#^ref-1)</sup> It can also {@{refer more specifically to a real or virtual movement of [money](cash.md)}@}. <!--SR:!2026-01-17,291,330!2029-01-06,1139,350-->
+__Cash flow__, {@{in general, refers to payments made into or out of a business, project, or financial product}@}.<sup>[\[1\]](#^ref-1)</sup> It can also {@{refer more specifically to a real or virtual movement of [money](cash.md)}@}. <!--SR:!2029-09-06,1328,350!2029-01-06,1139,350-->
 
 - Cash flow, in its narrow sense, is ::@:: a [payment](payment.md) \(in a [currency](currency.md)\), especially from one [central bank](central%20bank.md) account to another. The term 'cash flow' is mostly used to describe payments that are expected to happen in the future, are thus uncertain, and therefore need to be [forecast](cash%20flow%20forecasting.md) with cash flows. <!--SR:!2026-08-25,408,270!2028-03-15,875,330-->
 - A cash flow \(CF\) is determined by ::@:: its time _t_, [nominal amount](real%20and%20nominal%20value.md) _N_, currency CCY, and account A; symbolically, CF = CF\(_t_, _N_, CCY, A\). <!--SR:!2026-04-06,320,290!2028-11-27,1106,350-->
 
-Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(economics).md), interest rate, and [liquidity](liquidity.md)}@}. {@{A cash flow that shall happen on a future day _t<sub>N</sub>_}@} can be {@{transformed into a cash flow of the same value in _t_<sub>0</sub>}@}. This transformation process is known as {@{[discounting](discounting.md)}@}, and it takes into account {@{the [time value of money](time%20value%20of%20money.md) by adjusting the nominal amount of the cash flow based on the prevailing [interest rates](interest%20rate.md) at the time}@}. <!--SR:!2029-02-16,1170,350!2029-02-22,1175,350!2025-12-25,274,330!2029-03-22,1197,350!2027-01-19,547,310-->
+Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(economics).md), interest rate, and [liquidity](liquidity.md)}@}. {@{A cash flow that shall happen on a future day _t<sub>N</sub>_}@} can be {@{transformed into a cash flow of the same value in _t_<sub>0</sub>}@}. This transformation process is known as {@{[discounting](discounting.md)}@}, and it takes into account {@{the [time value of money](time%20value%20of%20money.md) by adjusting the nominal amount of the cash flow based on the prevailing [interest rates](interest%20rate.md) at the time}@}. <!--SR:!2029-02-16,1170,350!2029-02-22,1175,350!2029-06-14,1247,350!2029-03-22,1197,350!2027-01-19,547,310-->
 
 ## cash flow analysis
 
@@ -61,7 +61,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Cash%20flow) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(January 2024\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{The \(total\) net cash flow}@} of a company {@{over a period \(typically a quarter, half year, or a full year\)}@} is {@{equal to the change in cash balance over this period}@}: {@{positive if the cash balance increases \(more cash becomes available\), negative if the cash balance decreases}@}. {@{The total net cash flow for a project}@} is {@{the sum of cash flows that are classified in three areas}@}: (annotation: they are {@{operational cash flow (OCF), change in net working capital, [capital expenditure](capital%20expenditure.md)}@}) <!--SR:!2025-12-27,276,330!2029-03-20,1194,350!2028-11-11,1092,350!2029-01-03,1137,350!2026-01-17,291,330!2026-01-19,293,330!2027-10-06,712,290-->
+{@{The \(total\) net cash flow}@} of a company {@{over a period \(typically a quarter, half year, or a full year\)}@} is {@{equal to the change in cash balance over this period}@}: {@{positive if the cash balance increases \(more cash becomes available\), negative if the cash balance decreases}@}. {@{The total net cash flow for a project}@} is {@{the sum of cash flows that are classified in three areas}@}: (annotation: they are {@{operational cash flow (OCF), change in net working capital, [capital expenditure](capital%20expenditure.md)}@}) <!--SR:!2029-06-23,1256,350!2029-03-20,1194,350!2028-11-11,1092,350!2029-01-03,1137,350!2029-09-07,1329,350!2026-01-19,293,330!2027-10-06,712,290-->
 
 - [Operational cash flows](operating%20cash%20flow.md): (annotation: Not to be confused with cash flow from operations (CFO) or operating/operational cash flow (OCF) in _accounting_!!!) ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by: <!--SR:!2026-12-28,528,310!2026-08-01,381,290-->
   - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation <!--SR:!2028-01-15,792,330!2027-08-15,726,330-->
@@ -74,7 +74,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 
 {@{The sum of the three component above}@} will be {@{the cash flow for a project}@}. <!--SR:!2029-03-11,1188,350!2029-01-10,1142,350-->
 
-And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2029-02-12,1167,350!2028-12-02,1110,350!2026-01-17,291,330-->
+And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2029-02-12,1167,350!2028-12-02,1110,350!2029-09-08,1330,350-->
 
 - [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers. <!--SR:!2026-08-18,402,270!2027-08-04,716,330-->
 - Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2026-04-10,324,290!2027-06-24,686,330-->
@@ -103,9 +103,9 @@ The net cash flow only {@{provides a limited amount of information}@}. Compare, 
 | {@{Cash flow from operations}@} | +20M       | +21M       | +22M       | +10M       | +11M       | +12M       |
 | {@{Cash flow from financing}@}  | +5M        | +5M        | +5M        | +5M        | +5M        | +5M        |
 | {@{Cash flow from investment}@} | -15M       | -15M       | -15M       | 0M         | 0M         | 0M         |
-| {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       | <!--SR:!2025-12-22,272,330!2028-12-30,1134,350!2028-11-20,1101,350!2025-12-26,275,330-->
+| {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       | <!--SR:!2029-06-06,1239,350!2028-12-30,1134,350!2028-11-20,1101,350!2029-06-18,1251,350-->
 
-Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2028-12-09,1116,350!2026-01-10,286,330!2027-07-05,695,330-->
+Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2028-12-09,1116,350!2029-08-13,1307,350!2027-07-05,695,330-->
 
 ## see also
 

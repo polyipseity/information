@@ -23,7 +23,7 @@ Petroleum is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of
 
 ## uses
 
-Petroleum is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}. <!--SR:!2025-12-23,583,254!2032-02-19,2300,294!2027-07-24,1019,294-->
+Petroleum is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}. <!--SR:!2031-09-23,2077,274!2032-02-19,2300,294!2027-07-24,1019,294-->
 
 ### fuels
 
@@ -83,13 +83,13 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2026-09-26,912,330!2028-06-08,1481,354-->
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→::@::←[butane](butane.md) <!--SR:!2026-10-09,928,334!2026-10-02,924,334-->
-- [butane](butane.md)→::@::←[gasoline/petrol](gasoline.md) <!--SR:!2028-02-13,1205,294!2025-12-26,470,314-->
-- [gasoline/petrol](gasoline.md)→::@::←[naphtha](naphtha.md) <!--SR:!2026-01-03,643,274!2026-02-09,228,170-->
+- [butane](butane.md)→::@::←[gasoline/petrol](gasoline.md) <!--SR:!2028-02-13,1205,294!2030-01-30,1476,314-->
+- [gasoline/petrol](gasoline.md)→::@::←[naphtha](naphtha.md) <!--SR:!2032-10-08,2458,294!2026-02-09,228,170-->
 - [naphtha](naphtha.md)→::@::←[jet fuel](jet%20fuel.md) <!--SR:!2026-04-28,184,170!2027-10-23,876,234-->
 - [jet fuel](jet%20fuel.md)→::@::←[kerosene](kerosene.md) <!--SR:!2028-05-10,1202,274!2027-04-11,728,194-->
-- [kerosene](kerosene.md)→::@::←[fuel oil](fuel%20oil.md) <!--SR:!2026-01-12,384,214!2026-05-14,163,150-->
+- [kerosene](kerosene.md)→::@::←[fuel oil](fuel%20oil.md) <!--SR:!2029-03-29,1169,234!2026-05-14,163,150-->
 - [fuel oil](fuel%20oil.md)→::@::←[diesel fuel](diesel%20fuel.md) <!--SR:!2028-03-11,1228,294!2026-06-08,573,254-->
-- [diesel fuel](diesel%20fuel.md)→::@::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2025-12-22,234,194-->
+- [diesel fuel](diesel%20fuel.md)→::@::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2027-11-02,656,214-->
 - [paraffin wax](paraffin%20wax.md)→::@::←[bitumen](bitumen.md) <!--SR:!2027-03-30,656,294!2029-12-17,1686,314-->
 - [bitumen](bitumen.md)→::@::←_(end)_ <!--SR:!2027-05-09,1164,350!2026-12-25,984,334-->
 

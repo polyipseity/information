@@ -17,4 +17,4 @@ time_t time(time_t *arg);
 
 > [!tip] tips
 >
-> - two ways to get the result ::@:: [return value](../../../general/return%20statement.md) (pass `NULL` to `arg`), `arg` [output parameter](../../../general/parameter%20(computer%20programming).md#output%20parameters) <!--SR:!2026-01-16,549,316!2029-10-18,1599,366-->
+> - two ways to get the result ::@:: [return value](../../../general/return%20statement.md) (pass `NULL` to `arg`), `arg` [output parameter](../../../general/parameter%20(computer%20programming).md#output%20parameters) <!--SR:!2032-08-10,2398,336!2029-10-18,1599,366-->

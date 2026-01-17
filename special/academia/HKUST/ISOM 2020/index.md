@@ -75,12 +75,12 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
   - [§ input](basics.md#input)
-    - [basics § input](basics.md#input) / note ::@:: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2026-11-25,613,329!2025-12-30,373,349-->
+    - [basics § input](basics.md#input) / note ::@:: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2026-11-25,613,329!2030-12-06,1790,369-->
 - [list](list.md)
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)
-    - [list § indexing](list.md#indexing) / note ::@:: We have not learnt slicing so far, so do not use it. <!--SR:!2026-01-01,364,364!2025-12-31,363,364-->
+    - [list § indexing](list.md#indexing) / note ::@:: We have not learnt slicing so far, so do not use it. <!--SR:!2031-01-01,1816,384!2030-12-28,1812,384-->
   - [§ manipulation](list.md#manipulation)
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
@@ -121,11 +121,11 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
   - [§ comparison operators](basics.md#comparison%20operators)
-    - [basics § comparison operators](basics.md#comparison%20operators) / note ::@:: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2026-01-15,378,372!2026-03-09,421,372-->
+    - [basics § comparison operators](basics.md#comparison%20operators) / note ::@:: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2031-04-26,1925,392!2026-03-09,421,372-->
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
-    - [control flow § branching](control%20flow.md#branching) / note ::@:: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch. <!--SR:!2030-10-28,1777,381!2026-01-09,376,361-->
+    - [control flow § branching](control%20flow.md#branching) / note ::@:: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch. <!--SR:!2030-10-28,1777,381!2031-02-12,1858,381-->
 - [basics](basics.md)
   - [§ logic operators](basics.md#logic%20operators)
 - week 3 exercise: 1/1, graded
@@ -170,7 +170,7 @@ The content is in teaching order.
     - addition: `list(value)`
 - [control flow](control%20flow.md)
   - [§ iteration](control%20flow.md#iteration)
-    - [control flow § iteration](control%20flow.md#iteration) / note ::@:: Yes, did you know you can put branches (`if`) and loops (`for`, `while`) inside branches (`if`) and loops (`for`, `while`)? <!--SR:!2026-03-28,435,372!2025-12-27,363,372-->
+    - [control flow § iteration](control%20flow.md#iteration) / note ::@:: Yes, did you know you can put branches (`if`) and loops (`for`, `while`) inside branches (`if`) and loops (`for`, `while`)? <!--SR:!2026-03-28,435,372!2031-02-04,1850,392-->
 - week 4 exercise: 1/1, graded
 - [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb): ?/1, ignored due to public holiday
 

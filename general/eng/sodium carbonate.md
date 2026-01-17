@@ -33,7 +33,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {@{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}@} |  | <!--SR:!2025-12-23,700,290-->
+> | {@{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}@} |  | <!--SR:!2033-10-05,2821,310-->
 
 <!--/pytextgen-->
 

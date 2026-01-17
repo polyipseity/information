@@ -272,7 +272,7 @@ tags:
 >
 > - solution: {@{1}@}
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
-> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2026-01-28,252,353!2026-01-02,239,353!2026-03-12,295,353-->
+> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2026-01-28,252,353!2029-03-17,1159,373!2026-03-12,295,353-->
 
 ## week 3 lecture 2
 
@@ -793,7 +793,7 @@ tags:
 > 2. lower than
 > 3. same as
 >
-> - solution: {@{1}@} <!--SR:!2025-12-22,159,432-->
+> - solution: {@{1}@} <!--SR:!2028-08-05,935,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -805,7 +805,7 @@ tags:
 > 2. \$1000
 > 3. \$1100
 >
-> - solution: {@{3}@} <!--SR:!2025-12-22,159,438-->
+> - solution: {@{3}@} <!--SR:!2028-08-18,948,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -820,7 +820,7 @@ tags:
 > 3. &gt;12%
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2025-12-24,161,438-->
+> - solution: {@{1}@} <!--SR:!2028-08-28,958,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -868,7 +868,7 @@ tags:
 > 2. bond B
 > 3. bond C
 >
-> - solution: {@{3}@} <!--SR:!2025-12-26,156,438-->
+> - solution: {@{3}@} <!--SR:!2028-07-29,928,458-->
 
 ## week 10 lecture 2
 
@@ -894,7 +894,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-12-23,160,432-->
+> - solution: {@{2}@} <!--SR:!2028-08-06,936,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-12-29,159,438-->
+> - solution: {@{2}@} <!--SR:!2028-08-20,950,458-->
 
 ## week 11 lecture
 
@@ -991,7 +991,7 @@ tags:
 > 2. lottery 2
 >
 > - solution: {@{1/2}@}
-> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@} <!--SR:!2025-12-22,159,438!2028-07-04,926,452-->
+> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@} <!--SR:!2028-08-13,943,458!2028-07-04,926,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1065,7 +1065,7 @@ tags:
 > 1. independent risk
 > 2. common risk
 >
-> - solution: {@{2}@} <!--SR:!2025-12-25,162,438-->
+> - solution: {@{2}@} <!--SR:!2028-09-03,964,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1077,7 +1077,7 @@ tags:
 > 2. the risk that a product design is faulty and the product must be recalled
 > 3. the risk that the economy slows, reducing demand for the firm's products
 >
-> - solution: {@{2}@} <!--SR:!2025-12-24,161,438-->
+> - solution: {@{2}@} <!--SR:!2028-08-29,959,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1104,7 +1104,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-12-23,160,432-->
+> - solution: {@{1}@} <!--SR:!2028-08-07,937,452-->
 
 ## week 13 lecture
 
@@ -1123,7 +1123,7 @@ tags:
 > 2. 5%
 > 3. 10%
 >
-> - solution: {@{2}@} <!--SR:!2026-01-01,162,438-->
+> - solution: {@{2}@} <!--SR:!2028-09-02,963,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1141,7 +1141,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-12-25,155,432-->
+> - solution: {@{2}@} <!--SR:!2028-07-12,911,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1154,7 +1154,7 @@ tags:
 > 3. systematic risk
 > 4. unsystematic risk
 >
-> - solution: {@{3}@} <!--SR:!2025-12-24,154,432-->
+> - solution: {@{3}@} <!--SR:!2028-07-02,901,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1186,7 +1186,7 @@ tags:
 > 2. stock B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-12-25,162,438!2028-06-15,909,452-->
+> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2028-09-05,966,458!2028-06-15,909,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. ρ = 1
 >
 > - solution: {@{3}@}
-> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2028-05-25,893,458!2026-01-01,162,438-->
+> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2028-05-25,893,458!2028-09-06,967,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1239,7 +1239,7 @@ tags:
 > 2. 0
 > 3. 1
 >
-> - solution: {@{2}@} <!--SR:!2025-12-25,155,432-->
+> - solution: {@{2}@} <!--SR:!2028-07-11,910,452-->
 
 ## week 14 lecture
 
@@ -1251,7 +1251,7 @@ tags:
 > 2. 0
 > 3. −1
 >
-> - solution: {@{1}@} <!--SR:!2025-12-22,159,432-->
+> - solution: {@{1}@} <!--SR:!2028-08-03,933,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1287,7 +1287,7 @@ tags:
 > 3. both have the same expected return
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2025-12-24,154,432-->
+> - solution: {@{1}@} <!--SR:!2028-07-03,902,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1333,7 +1333,7 @@ tags:
 > 2. overpriced
 > 3. underpriced
 >
-> - solution: {@{2}@} <!--SR:!2025-12-23,160,438-->
+> - solution: {@{2}@} <!--SR:!2028-08-25,955,458-->
 
 ## week 14 lecture 2
 
@@ -1359,7 +1359,7 @@ tags:
 > 3. 6%
 > 4. 6.7%
 >
-> - solution: {@{2}@} <!--SR:!2025-12-23,160,432-->
+> - solution: {@{2}@} <!--SR:!2028-08-12,942,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1381,7 +1381,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-12-27,157,432-->
+> - solution: {@{2}@} <!--SR:!2028-07-24,923,452-->
 
 <!-- markdownlint MD028 -->
 

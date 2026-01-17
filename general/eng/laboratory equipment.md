@@ -145,7 +145,7 @@ return _chain.from_iterable(await _gather(
 - [Liebig condenser](Liebig%20condenser.md)→::@::←[beaker](beaker.md) <!--SR:!2032-06-08,2553,330!2028-01-26,1368,350-->
 - [beaker](beaker.md)→::@::←[burette](burette.md) <!--SR:!2026-01-24,421,230!2026-11-03,942,330-->
 - [burette](burette.md)→::@::←[burette clamp](burette%20clamp.md) <!--SR:!2031-02-16,1904,330!2027-05-07,1162,350-->
-- [burette clamp](burette%20clamp.md)→::@::←[clamp](clamp.md) <!--SR:!2026-01-15,470,310!2026-03-27,501,310-->
+- [burette clamp](burette%20clamp.md)→::@::←[clamp](clamp.md) <!--SR:!2030-01-12,1457,310!2026-03-27,501,310-->
 - [clamp](clamp.md)→::@::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2026-02-06,623,250!2026-08-15,412,210-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→::@::←[crucible](crucible.md) <!--SR:!2026-03-24,348,150!2026-08-16,782,270-->
 - [crucible](crucible.md)→::@::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->
@@ -193,7 +193,7 @@ return _chain.from_iterable(await _gather(
 - [Bunsen burner](Bunsen%20burner.md):@:![Bunsen burner](../../archives/Wikimedia%20Commons/Bunsen%20burner.jpg) <!--SR:!2027-05-10,1164,350-->
 - [Liebig condenser](Liebig%20condenser.md):@:![Liebig condenser](../../archives/Wikimedia%20Commons/LiebigCondenser.jpg) <!--SR:!2026-06-14,891,330-->
 - [beaker](beaker.md):@:![beaker](../../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg) <!--SR:!2026-09-27,913,330-->
-- [burette](burette.md):@:![burette](../../archives/Wikimedia%20Commons/Burette.svg) <!--SR:!2026-01-13,771,330-->
+- [burette](burette.md):@:![burette](../../archives/Wikimedia%20Commons/Burette.svg) <!--SR:!2035-08-22,3508,350-->
 - [burette clamp](burette%20clamp.md):@:![burette clamp](../../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg) <!--SR:!2028-05-25,1238,290-->
 - [clamp](clamp.md):@:![clamp](../../archives/Wikimedia%20Commons/Utility%20clamp1.jpg) <!--SR:!2028-04-24,1441,350-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md):@:![conical flask/Erlenmeyer flask/titration flask](../../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg) <!--SR:!2027-01-21,1082,350-->

@@ -22,9 +22,9 @@ tags:
 # pullback
 
 - For other uses, see [pullback](pullback.md).
-- "{@{Fiber product}@}" redirects here. For {@{the case of schemes}@}, see {@{[Fiber product of schemes](fiber%20product%20of%20schemes.md)}@}. <!--SR:!2026-02-08,289,330!2028-12-23,1106,350!2026-01-06,263,330-->
+- "{@{Fiber product}@}" redirects here. For {@{the case of schemes}@}, see {@{[Fiber product of schemes](fiber%20product%20of%20schemes.md)}@}. <!--SR:!2026-02-08,289,330!2028-12-23,1106,350!2029-04-23,1196,350-->
 
-In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{a __pullback__ \(also called a __fiber product__, __fibre product__, __fibered product__ or __Cartesian square__\)}@} is {@{the [limit](limit%20(category%20theory).md) of a [diagram](diagram%20(category%20theory).md) consisting of two [morphisms](morphism.md) _f_ : _X_ → _Z_ and _g_ : _Y_ → _Z_ with a common codomain}@}. The pullback is written {@{_P_ = _X_ ×<sub>_f_, _Z_, _g_</sub> _Y_}@}. Usually {@{the morphisms _f_ and _g_ are omitted from the notation}@}, and then the pullback is written {@{_P_ = _X_ ×<sub>_Z_</sub> _Y_}@}. <!--SR:!2026-02-09,290,330!2027-11-30,789,330!2028-01-09,822,330!2026-02-14,294,330!2026-01-16,270,330!2029-01-19,1128,350-->
+In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{a __pullback__ \(also called a __fiber product__, __fibre product__, __fibered product__ or __Cartesian square__\)}@} is {@{the [limit](limit%20(category%20theory).md) of a [diagram](diagram%20(category%20theory).md) consisting of two [morphisms](morphism.md) _f_ : _X_ → _Z_ and _g_ : _Y_ → _Z_ with a common codomain}@}. The pullback is written {@{_P_ = _X_ ×<sub>_f_, _Z_, _g_</sub> _Y_}@}. Usually {@{the morphisms _f_ and _g_ are omitted from the notation}@}, and then the pullback is written {@{_P_ = _X_ ×<sub>_Z_</sub> _Y_}@}. <!--SR:!2026-02-09,290,330!2027-11-30,789,330!2028-01-09,822,330!2026-02-14,294,330!2029-05-30,1229,350!2029-01-19,1128,350-->
 
 The pullback comes {@{equipped with two natural morphisms _P_ → _X_ and _P_ → _Y_}@}. The pullback of two morphisms _f_ and _g_ {@{need not exist}@}, but {@{if it does, it is essentially uniquely defined by the two morphisms}@}. In {@{many situations}@}, _X_ ×<sub>_Z_</sub> _Y_ may intuitively be thought of as {@{consisting of pairs of elements \(_x_, _y_\) with _x_ in _X_, _y_ in _Y_, and _f_\(_x_\)  =  _g_\(_y_\)}@}. For {@{the general definition}@}, {@{a [universal property](universal%20property.md)}@} is used, which {@{essentially expresses the fact that the pullback}@} is {@{the "most general" way}@} to {@{complete the two given morphisms to a [commutative square](commutative%20diagram.md)}@}. <!--SR:!2029-03-01,1152,350!2029-01-02,1115,350!2027-10-16,755,330!2029-03-12,1163,350!2026-02-11,291,330!2026-02-09,290,330!2027-11-04,771,330!2028-01-12,772,330!2026-05-03,119,388!2026-05-02,118,388-->
 
@@ -54,7 +54,7 @@ In {@{complete analogy to the example of commutative rings above}@}, one can sho
 
 ### sets
 
-In {@{the [category of sets](category%20of%20sets.md)}@}, {@{the pullback of functions _f_ : _X_ → _Z_ and _g_ : _Y_ → _Z_ always exists}@} and is given by {@{the set $$X\times _{Z}Y=\{(x,y)\in X\times Y|f(x)=g(y)\}=\bigcup _{z\in f(X)\cap g(Y)}f^{-1}[\{z\}]\times g^{-1}[\{z\}],$$}@} together with {@{the [restrictions](restriction%20(mathematics).md) of the [projection maps](projection%20map.md) _π_<sub>1</sub> and _π_<sub>2</sub> to _X_ ×<sub>_Z_</sub> _Y_}@}. <!--SR:!2026-02-08,289,330!2026-01-11,266,330!2026-02-21,281,290!2027-12-05,792,330-->
+In {@{the [category of sets](category%20of%20sets.md)}@}, {@{the pullback of functions _f_ : _X_ → _Z_ and _g_ : _Y_ → _Z_ always exists}@} and is given by {@{the set $$X\times _{Z}Y=\{(x,y)\in X\times Y|f(x)=g(y)\}=\bigcup _{z\in f(X)\cap g(Y)}f^{-1}[\{z\}]\times g^{-1}[\{z\}],$$}@} together with {@{the [restrictions](restriction%20(mathematics).md) of the [projection maps](projection%20map.md) _π_<sub>1</sub> and _π_<sub>2</sub> to _X_ ×<sub>_Z_</sub> _Y_}@}. <!--SR:!2026-02-08,289,330!2029-05-12,1215,350!2026-02-21,281,290!2027-12-05,792,330-->
 
 Alternatively one may view {@{the pullback in __Set__ asymmetrically}@}: {@{$$X\times _{Z}Y\cong \coprod _{x\in X}g^{-1}[\{f(x)\}]\cong \coprod _{y\in Y}f^{-1}[\{g(y)\}]$$}@} where {@{$\coprod$ is the [disjoint union](disjoint%20union.md) of sets}@} \(the involved sets are {@{not disjoint on their own unless _f_ resp. _g_ is [injective](injective.md)}@}\). In the first case, the projection _π_<sub>1</sub> {@{extracts the _x_ index while _π_<sub>2</sub> forgets the index, leaving elements of _Y_}@}. <!--SR:!2029-03-15,1166,350!2027-06-02,615,290!2026-02-05,286,330!2026-12-27,512,310!2027-11-25,772,330-->
 
@@ -62,7 +62,7 @@ This example motivates {@{another way of characterizing the pullback}@}: as {@{t
 
 #### graphs of functions
 
-{@{A specific example of a pullback}@} is given by the {@{graph of a function}@}. Suppose that {@{$f\colon X\to Y$ is a function}@}. {@{The _graph_ of _f_}@} is {@{the set $$\Gamma _{f}=\{(x,f(x))\colon x\in X\}\subseteq X\times Y.$$}@} The graph can be reformulated as {@{the pullback of _f_ and the identity function on _Y_}@}. By definition, this pullback is {@{$$X\times _{f,Y,1_{Y} }Y=\{(x,y)\colon f(x)=1_{Y}(y)\}=\{(x,y)\colon f(x)=y\}\subseteq X\times Y,$$}@} and this {@{equals $\Gamma _{f}$}@}. <!--SR:!2026-02-11,291,330!2029-03-04,1155,350!2029-01-09,1120,350!2026-01-20,274,330!2026-01-17,272,330!2027-03-27,537,310!2026-01-10,265,330!2027-10-12,751,330-->
+{@{A specific example of a pullback}@} is given by the {@{graph of a function}@}. Suppose that {@{$f\colon X\to Y$ is a function}@}. {@{The _graph_ of _f_}@} is {@{the set $$\Gamma _{f}=\{(x,f(x))\colon x\in X\}\subseteq X\times Y.$$}@} The graph can be reformulated as {@{the pullback of _f_ and the identity function on _Y_}@}. By definition, this pullback is {@{$$X\times _{f,Y,1_{Y} }Y=\{(x,y)\colon f(x)=1_{Y}(y)\}=\{(x,y)\colon f(x)=y\}\subseteq X\times Y,$$}@} and this {@{equals $\Gamma _{f}$}@}. <!--SR:!2026-02-11,291,330!2029-03-04,1155,350!2029-01-09,1120,350!2026-01-20,274,330!2029-06-07,1237,350!2027-03-27,537,310!2028-06-06,875,330!2027-10-12,751,330-->
 
 ### fiber bundles
 
@@ -70,7 +70,7 @@ Another example of a pullback comes from {@{the theory of [fiber bundles](fiber%
 
 ### preimages and intersections
 
-{@{[Preimages](preimage.md#inverse%20image) of sets under functions}@} can be {@{described as pullbacks as follows}@}: <!--SR:!2026-01-05,262,330!2028-11-25,1085,350-->
+{@{[Preimages](preimage.md#inverse%20image) of sets under functions}@} can be {@{described as pullbacks as follows}@}: <!--SR:!2029-04-22,1195,350!2028-11-25,1085,350-->
 
 Suppose {@{_f_ : _A_ → _B_, _B_<sub>0</sub> ⊆ _B_}@}. Let {@{_g_ be the [inclusion map](inclusion%20map.md) _B_<sub>0</sub> ↪ _B_}@}. Then {@{a pullback of _f_ and _g_ \(in __Set__\)}@} is given by {@{the preimage _f_<sup>−1</sup>\[_B_<sub>0</sub>\]}@} together with {@{the inclusion of the preimage in _A_ <p> &emsp; _f_<sup>−1</sup>\[_B_<sub>0</sub>\] ↪ _A_ <p> and the restriction of _f_ to _f_<sup>−1</sup>\[_B_<sub>0</sub>\] <p> &emsp; _f_<sup>−1</sup>\[_B_<sub>0</sub>\] → _B_<sub>0</sub>}@}. <!--SR:!2026-02-10,290,330!2026-02-06,287,330!2026-01-22,276,330!2029-03-09,1160,350!2027-04-06,558,310-->
 
@@ -98,7 +98,7 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
 
   Graphically this means that {@{two pullback squares, placed side by side and sharing one morphism}@}, form {@{a larger pullback square when ignoring the inner shared morphism}@}. {@{$${\begin{array}{ccccc}Q&{\xrightarrow {t} }&P&{\xrightarrow {r} }&A\\\downarrow _{u}&&\downarrow _{s}&&\downarrow _{f}\\D&{\xrightarrow {h} }&B&{\xrightarrow {g} }&C\end{array} }$$}@} <!--SR:!2027-02-07,465,394!2027-02-01,461,394!2027-02-27,483,394-->
 
-- {@{Any category with pullbacks and products}@} {@{has equalizers}@}. <!--SR:!2026-01-16,271,330!2026-05-21,340,290-->
+- {@{Any category with pullbacks and products}@} {@{has equalizers}@}. <!--SR:!2029-06-02,1232,350!2026-05-21,340,290-->
 
 ## weak pullbacks
 

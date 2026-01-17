@@ -218,7 +218,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2027-12-10,817,439!2027-12-30,829,439!2027-10-17,771,439!2026-01-07,29,433-->
+In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2027-12-10,817,439!2027-12-30,829,439!2027-10-17,771,439!2026-07-04,174,453-->
 
 ## mathematics
 
@@ -233,7 +233,7 @@ In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`T
 
 To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2028-03-09,992,350!2030-06-19,1661,362!2029-01-30,1260,362!2028-12-02,1215,362!2029-04-21,1326,362!2028-01-01,924,342!2026-12-22,635,330-->
 
-`\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2026-01-05,356,363!2030-03-26,1603,383!2029-06-23,1389,383-->
+`\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2030-11-19,1773,383!2030-03-26,1603,383!2029-06-23,1389,383-->
 
 To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2026-05-20,484,389!2030-04-06,1613,389!2026-06-20,511,389!2026-06-16,507,389!2026-08-11,554,406!2026-05-22,486,406-->
 
@@ -241,7 +241,7 @@ Like lists, strings can be {@{indexed using the `string_var[n]`, which access th
 
 ## output
 
-In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content}@}, so each `print` {@{outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2030-02-20,1577,383!2026-04-11,458,383!2025-12-30,351,363!2026-04-05,457,383!2030-01-13,1553,383!2028-03-31,962,363!2029-02-23,1296,383!2026-05-20,491,383!2026-02-01,141,425-->
+In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content}@}, so each `print` {@{outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2030-02-20,1577,383!2026-04-11,458,383!2030-10-25,1748,383!2026-04-05,457,383!2030-01-13,1553,383!2028-03-31,962,363!2029-02-23,1296,383!2026-05-20,491,383!2026-02-01,141,425-->
 
 Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2026-06-25,516,394!2026-05-24,488,394-->
 

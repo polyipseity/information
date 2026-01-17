@@ -60,9 +60,9 @@ Below are some questions or question tips.
 
 - opportunity cost due to full capacity ::@:: Use unit contribution margins to find the opportunity cost due to lost production. <!--SR:!2026-05-15,254,330!2026-05-17,251,330-->
 - qualitative factors ::@:: customer relationships, employees, market, price, quality, sustainability goals, timeliness, wages, etc. <!--SR:!2026-03-10,140,310!2026-02-14,124,310-->
-  - qualitative factors / customer relationships ::@:: cutting current production may anger existing customers <!--SR:!2026-01-15,99,386!2026-01-19,103,386-->
+  - qualitative factors / customer relationships ::@:: cutting current production may anger existing customers <!--SR:!2027-06-22,523,406!2026-01-19,103,386-->
   - qualitative factors / human resources ::@:: employee morale, firing, hiring, wages \(e.g. working with outsiders with higher wages leading to jealousy\) <!--SR:!2026-01-18,102,386!2026-01-19,103,386-->
-  - qualitative factors / market ::@:: market leadership \(leading in offered products or services\), price \(e.g. special orders are cheaper than normal orders leading to jealousy\) <!--SR:!2026-01-17,101,386!2026-01-16,100,386-->
+  - qualitative factors / market ::@:: market leadership \(leading in offered products or services\), price \(e.g. special orders are cheaper than normal orders leading to jealousy\) <!--SR:!2027-07-04,533,406!2027-06-27,526,406-->
 
 ## budgetary planning
 
@@ -77,7 +77,7 @@ Below are some questions or question tips.
 
 - actual vs. standard ::@:: Actual is actual... pretty easy. Standard can be considered how many direct materials or direct labor hours should have been used given the _actual_ units produced. <!--SR:!2026-06-05,266,330!2026-05-16,255,330-->
 - aliases ::@:: efficiency/quantity variance, price/rate variance <!--SR:!2026-06-16,275,330!2026-06-15,274,330-->
-- order ::@:: arrow is subtraction direction: AQ \* AP ← \(change price\) ← AQ \* SP ← \(change quantity\) ← SQ \* SP <!--SR:!2026-01-14,127,250!2026-06-26,283,330-->
+- order ::@:: arrow is subtraction direction: AQ \* AP ← \(change price\) ← AQ \* SP ← \(change quantity\) ← SQ \* SP <!--SR:!2027-04-06,446,270!2026-06-26,283,330-->
 
 ## decentralized performance evaluation
 

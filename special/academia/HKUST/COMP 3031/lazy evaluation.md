@@ -51,7 +51,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 > ```
 <!--SR:!2026-02-04,68,325!2026-02-06,70,325!2026-02-11,74,325!2026-01-29,63,325-->
 
-or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!2026-01-17,61,310!2026-01-30,64,325!2026-02-07,71,325-->
+or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!2026-10-09,265,330!2026-01-30,64,325!2026-02-07,71,325-->
 
 > [!example] __`LazyList.apply`__
 >
@@ -182,7 +182,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 >
 > ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-01-27,61,325!2026-01-31,65,325!2026-01-26,60,325!2026-02-12,75,325!2026-01-30,64,325!2026-02-01,65,325!2026-02-10,73,325!2026-01-28,62,325!2026-01-26,60,325!2026-02-04,68,325!2026-02-21,83,350-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-02-03,67,325!2026-01-26,60,325!2026-02-11,74,325!2026-01-16,60,310!2026-01-28,62,325!2026-01-31,65,325!2026-01-13,57,310!2026-02-09,72,325!2026-02-05,69,325!2026-01-12,49,305!2026-02-04,68,325!2026-02-04,68,325!2026-02-19,81,350-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-02-03,67,325!2026-01-26,60,325!2026-02-11,74,325!2026-10-07,263,330!2026-01-28,62,325!2026-01-31,65,325!2026-09-15,244,330!2026-02-09,72,325!2026-02-05,69,325!2026-08-04,202,325!2026-02-04,68,325!2026-02-04,68,325!2026-02-19,81,350-->
 
 ## lazy evaluation
 
@@ -260,7 +260,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >
 > {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2026-02-18,80,350!2026-02-17,79,350!2026-02-18,80,350!2026-02-22,84,350!2026-02-19,81,350!2026-02-23,85,350!2026-02-22,84,350!2026-02-16,78,348!2026-01-28,59,328!2026-02-16,79,348-->
 
-{@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2026-02-07,71,325!2026-02-01,65,325!2026-01-14,58,310-->
+{@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2026-02-07,71,325!2026-02-01,65,325!2026-09-24,253,330-->
 
 > [!example] __lazy fixed iteration__
 >
@@ -333,7 +333,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 > ```
 <!--SR:!2026-01-30,64,325!2026-02-03,67,325!2026-02-01,66,325-->
 
-{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2026-02-11,74,325!2026-01-15,59,310!2026-02-02,66,325-->
+{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2026-02-11,74,325!2026-10-02,258,330!2026-02-02,66,325-->
 
 > [!example] __water pouring problem search__
 >
@@ -402,7 +402,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```Ocaml
 > let rec alternate = 0 :: 1 :: alternate
 > ```
-<!--SR:!2026-01-13,57,310!2026-01-26,60,325!2026-02-01,66,325!2026-01-24,67,310!2026-01-20,63,310-->
+<!--SR:!2026-09-16,245,330!2026-01-26,60,325!2026-02-01,66,325!2026-01-24,67,310!2026-01-20,63,310-->
 
 However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-02-05,69,325!2026-01-26,60,325!2026-01-29,63,325!2026-02-12,75,325!2026-02-08,71,325-->
 

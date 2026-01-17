@@ -264,7 +264,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{[Stone's representation theorem for Boolean algebras](Stone's%20representation%20theorem%20for%20Boolean%20algebras.md)}@} needs {@{the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}. <!--SR:!2026-12-24,378,364!2026-09-03,284,347!2026-01-29,25,395-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-01-08,37,324!2026-08-05,260,344!2026-12-31,384,364!2026-01-31,27,395-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-06-28,166,344!2026-08-05,260,344!2026-12-31,384,364!2026-01-31,27,395-->
 
   - \(annotation: {@{weaker than}@} AC\) {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!2026-07-12,241,330!2026-01-29,25,395-->
 

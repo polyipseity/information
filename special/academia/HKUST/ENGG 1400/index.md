@@ -62,18 +62,18 @@ The content is in teaching order.
 ## week 3 tutorial
 
 - datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
-- work motivations ::@:: autonomy, mastery, purpose <!--SR:!2029-01-01,1198,352!2025-12-26,357,352-->
-- relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-12-28,359,352!2025-12-25,356,352-->
+- work motivations ::@:: autonomy, mastery, purpose <!--SR:!2029-01-01,1198,352!2030-10-08,1726,372-->
+- relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2030-10-20,1738,372!2030-10-04,1722,372-->
 - course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2027-08-05,795,352!2028-12-23,1190,352-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
 - society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2026-04-15,427,332!2027-06-07,761,352-->
-  - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2030-08-17,1701,372!2025-12-22,353,352-->
-  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2027-06-28,781,352!2025-12-23,354,352-->
-  - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-12-27,358,352!2026-09-12,547,332-->
+  - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2030-08-17,1701,372!2030-09-19,1707,372-->
+  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2027-06-28,781,352!2030-09-24,1712,372-->
+  - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2030-10-11,1729,372!2026-09-12,547,332-->
 - activity 1: social identity exercise + reflection by drawing
   - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2030-08-14,1699,372!2028-10-21,1151,352-->
 - activity 2: life wheel
-  - life wheel / debrief ::@:: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel. <!--SR:!2025-12-24,355,352!2025-12-23,354,352-->
+  - life wheel / debrief ::@:: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel. <!--SR:!2030-09-29,1717,372!2030-09-23,1711,372-->
 - psychometric assessments ::@:: EQ-i<sup>2.0</sup>, STRONG <!--SR:!2030-08-02,1688,372!2030-08-20,1703,372-->
 
 ## week 4 tutorial
@@ -154,7 +154,7 @@ The content is in teaching order.
 - datetime: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
 - activity 1: how many uses ::@:: Think of as many uses for a paperclip in 3 minutes. Play intense music. <!--SR:!2026-12-30,640,414!2027-01-08,647,414-->
   - activity 1: how many uses / takeaways ::@:: Did you get stuck? If no, then good! Yes, it is normal. You can improve this by using different _schemas_, collaborating with others, and think in a more relaxed environment (No intense music!). <!--SR:!2027-01-10,649,414!2027-01-07,646,414-->
-- activity 2: how many uses, better ::@:: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music. <!--SR:!2026-01-12,322,374!2027-03-05,693,414-->
+- activity 2: how many uses, better ::@:: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music. <!--SR:!2030-07-23,1649,394!2027-03-05,693,414-->
   - activity 2: how many uses, better / takeaways ::@:: Making use of different schemas, radical collaboration with others, and a relaxing environment helps with ideation and brainstorming. And most importantly, practice more! <!--SR:!2027-02-03,666,414!2027-02-10,673,414-->
 - activity 3: Are you creative? ::@:: Draw a portrait of the person next to you quickly. Then share it with them. <p> Next, draw 4 things, each in 10 seconds: baby, door, house, and innovation. Finally, share, compare, and discuss with others. <!--SR:!2027-02-22,684,414!2027-02-11,674,414-->
 - design thinking
@@ -162,7 +162,7 @@ The content is in teaching order.
   - design thinking / mindfulness of process ::@:: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2027-02-22,685,414!2027-03-06,694,414-->
   - design thinking / design for someone else ::@:: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2027-02-21,683,414!2026-07-15,494,394-->
 - activity 4: design a wallet for your partner ::@:: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2027-03-19,705,414!2026-12-26,637,414-->
-  - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2026-12-25,636,414!2026-01-12,327,374-->
+  - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2026-12-25,636,414!2030-08-17,1674,394-->
 - point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2027-02-14,677,414!2027-03-02,691,414-->
 
 ## week 9 tutorial

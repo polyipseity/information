@@ -49,7 +49,7 @@ return await memorize_table(
 
 - _(begin)_→::@::←aircraft bodies <!--SR:!2026-05-09,866,330!2027-11-27,1328,350-->
 - aircraft bodies→::@::←kitchen foil <!--SR:!2028-06-26,936,230!2026-02-12,671,270-->
-- kitchen foil→::@::←overhead power cables <!--SR:!2027-09-19,795,250!2026-01-13,166,170-->
+- kitchen foil→::@::←overhead power cables <!--SR:!2027-09-19,795,250!2027-03-09,417,190-->
 - overhead power cables→::@::←soft drink cans <!--SR:!2027-09-24,1081,290!2028-04-15,983,250-->
 - soft drink cans→::@::←window frames <!--SR:!2029-03-10,1354,270!2032-04-14,2382,290-->
 - window frames→::@::←_(end)_ <!--SR:!2027-03-12,1123,350!2028-08-26,1265,310-->

@@ -16,11 +16,11 @@ TAM shows {@{the potential of your company to you and investors}@}. Ideally, whe
 
 ## difference between TAM, SAM, and SOM
 
-{@{Total addressable market (TAM), or total available market}@}, is {@{the annual revenue if 100% share of a selected market is achieved in a selected geographic location}@}, such as {@{not considering competition and travel distance}@}. <!--SR:!2027-05-06,835,332!2028-01-03,978,312!2025-12-27,18,331-->
+{@{Total addressable market (TAM), or total available market}@}, is {@{the annual revenue if 100% share of a selected market is achieved in a selected geographic location}@}, such as {@{not considering competition and travel distance}@}. <!--SR:!2027-05-06,835,332!2028-01-03,978,312!2026-04-04,83,351-->
 
-{@{[Serviceable available market](serviceable%20available%20market.md) (SAM)}@} is {@{the portion of TAM one can reach via our customer channels}@}, such as {@{considering travel distance but not competition}@}. <!--SR:!2030-02-03,1527,310!2025-12-27,18,331!2025-12-27,18,331-->
+{@{[Serviceable available market](serviceable%20available%20market.md) (SAM)}@} is {@{the portion of TAM one can reach via our customer channels}@}, such as {@{considering travel distance but not competition}@}. <!--SR:!2030-02-03,1527,310!2026-04-04,83,351!2026-04-04,83,351-->
 
-{@{[Serviceable obtainable market](target%20market.md) (SOM), share of market, or target market}@}, is {@{the portion of SAM one can realistically capture}@}, such as {@{considering competition and travel distance}@}. It is usually {@{much smaller than SAM, like 6% to 10% depending on the number of competitors}@}. <!--SR:!2028-01-11,1043,352!2028-08-20,1163,312!2027-06-12,801,292!2025-12-27,18,331-->
+{@{[Serviceable obtainable market](target%20market.md) (SOM), share of market, or target market}@}, is {@{the portion of SAM one can realistically capture}@}, such as {@{considering competition and travel distance}@}. It is usually {@{much smaller than SAM, like 6% to 10% depending on the number of competitors}@}. <!--SR:!2028-01-11,1043,352!2028-08-20,1163,312!2027-06-12,801,292!2026-04-04,83,351-->
 
 ## references
 

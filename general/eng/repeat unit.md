@@ -17,9 +17,9 @@ tags:
 
 # repeat unit
 
-{@{A __repeat unit__, __repeating unit__, or __mer__}@} is {@{a part of a [polymer](polymer.md)}@} that when {@{repeated would give the entire [polymer](polymer.md) excluding the [end groups](end%20group.md)}@}. <!--SR:!2029-12-23,1767,290!2025-12-25,16,301!2025-12-25,16,301-->
+{@{A __repeat unit__, __repeating unit__, or __mer__}@} is {@{a part of a [polymer](polymer.md)}@} that when {@{repeated would give the entire [polymer](polymer.md) excluding the [end groups](end%20group.md)}@}. <!--SR:!2029-12-23,1767,290!2026-03-26,70,321!2026-03-25,69,321-->
 
-For example, {@{the [addition polymer](addition%20polymer.md) [polyvinyl chloride](polyvinyl%20chloride.md)}@} {@{-\[CH<sub>2</sub>-CHCl\]<sub>n</sub>-}@} has {@{the repeat unit -\[CH<sub>2</sub>-CHCl\]-}@}. <!--SR:!2033-09-29,2853,310!2025-12-25,16,301!2025-12-24,15,301-->
+For example, {@{the [addition polymer](addition%20polymer.md) [polyvinyl chloride](polyvinyl%20chloride.md)}@} {@{-\[CH<sub>2</sub>-CHCl\]<sub>n</sub>-}@} has {@{the repeat unit -\[CH<sub>2</sub>-CHCl\]-}@}. <!--SR:!2033-09-29,2853,310!2026-03-24,68,321!2026-03-21,65,321-->
 
 ## references
 

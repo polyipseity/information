@@ -20,7 +20,7 @@ tags:
 - equation ::@:: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2030-03-24,1570,270!2028-04-07,1161,358-->
   - thin plate correction ::@:: use the same equation <!--SR:!2027-08-11,1086,350!2028-05-03,1182,358-->
   - cuboid, axis through center of edge $c$ ::@:: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2026-12-14,635,250!2027-11-03,886,298-->
-  - thin plate with $c=0$, axis through edge $a$ ::@:: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2025-12-29,554,310!2029-08-03,1448,318-->
+  - thin plate with $c=0$, axis through edge $a$ ::@:: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2030-09-24,1718,310!2029-08-03,1448,318-->
 - proof: $$\begin{aligned}
 m&=\rho{}HLW\\
 I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-\frac{W^2}2\right)^2\right)\,\mathrm{d}h\,\mathrm{d}l\,\mathrm{d}w\\
@@ -53,7 +53,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 ### rod, axis through certain distance from one end
 
 - definition ::@:: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end <!--SR:!2027-04-09,853,347!2029-01-12,1311,367-->
-- equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2025-12-23,155,190!2028-08-07,1073,298-->
+- equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2026-11-02,296,190!2028-08-07,1073,298-->
   - thin rod correction ::@:: use the same equation and set $R = 0$ <!--SR:!2028-06-14,1330,350!2029-06-19,1531,378-->
   - slender rod, axis through center ::@:: $\frac1{12}mL^2$ <!--SR:!2028-10-04,1262,310!2026-05-15,566,318-->
   - slender rod, axis through one end ::@:: $\frac13mL^2$ <!--SR:!2028-03-16,1064,290!2026-08-21,674,338-->

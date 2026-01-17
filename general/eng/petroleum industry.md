@@ -55,7 +55,7 @@ return await memorize_seq(
 - +: improves infrastructure→::@::←-: emits gaseous pollutants <!--SR:!2026-11-01,618,290!2028-03-08,1079,274-->
 - -: emits gaseous pollutants→::@::←-: generates waste that may be harmful or toxic <!--SR:!2032-04-21,2333,294!2027-10-12,1049,314-->
 - -: generates waste that may be harmful or toxic→::@::←-: pollution control cost is high <!--SR:!2031-03-21,2022,314!2027-09-08,938,254-->
-- -: pollution control cost is high→::@::←-: safety control cost is high <!--SR:!2026-01-16,629,274!2026-09-14,946,334-->
+- -: pollution control cost is high→::@::←-: safety control cost is high <!--SR:!2032-08-16,2404,294!2026-09-14,946,334-->
 - -: safety control cost is high→::@::←_(end)_ <!--SR:!2028-03-31,1403,354!2033-07-30,2806,334-->
 
 <!--/pytextgen-->

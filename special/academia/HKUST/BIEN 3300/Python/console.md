@@ -13,20 +13,20 @@ How to control the output?
 
 ## print
 
-Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, pass {@{`end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed}@}. Since {@{`end` is by default a newline `\n`}@}, {@{a newline is always printed at the end}@} when {@{you only do `print(value)`}@}. <!--SR:!2025-12-25,61,310!2025-12-29,64,310!2025-12-29,64,310!2025-12-26,62,310!2026-01-04,69,321!2026-01-07,72,321!2026-01-05,70,321-->
+Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, pass {@{`end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed}@}. Since {@{`end` is by default a newline `\n`}@}, {@{a newline is always printed at the end}@} when {@{you only do `print(value)`}@}. <!--SR:!2026-10-08,268,330!2026-10-19,279,330!2026-10-20,280,330!2026-10-12,272,330!2026-11-15,306,341!2026-11-26,317,341!2026-11-20,311,341-->
 
 ## clear
 
-{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!2025-12-24,60,310!2026-01-13,77,337!2026-01-13,77,337-->
+{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!2026-10-03,263,330!2027-01-11,363,357!2027-01-12,364,357-->
 
 ```Python
 for _ in range(4):
   print("\n" * 25)
 ```
 
-Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!2025-12-23,59,310!2026-01-13,77,337-->
+Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!2026-09-29,259,330!2027-01-12,364,357-->
 
-If your console is an actual console, then you can call {@{a system command using `os.system`}@}, which is {@{`cls` on Windows and `clear` on UNIX systems}@}. One can detect {@{whether the current OS is Windows}@} by writing {@{`os.name == "nt"`}@}. <!--SR:!2026-01-01,67,310!2025-12-30,65,310!2026-01-12,76,337!2026-01-13,77,337-->
+If your console is an actual console, then you can call {@{a system command using `os.system`}@}, which is {@{`cls` on Windows and `clear` on UNIX systems}@}. One can detect {@{whether the current OS is Windows}@} by writing {@{`os.name == "nt"`}@}. <!--SR:!2026-11-02,293,330!2026-10-24,284,330!2027-01-07,359,357!2027-01-11,363,357-->
 
 ```Python
 import os
@@ -35,7 +35,7 @@ os.system("cls" if os.name == "nt" else "clear")
 
 ## animation
 
-If you try to make an animation by clearing the screen and then printing different patterns each time, you will find that {@{the animation is too fast}@}. Fortunately, we can make Python wait for a while using {@{`time.sleep`, which accepts a decimal number in seconds}@}: <!--SR:!2025-12-31,66,310!2025-12-27,63,310-->
+If you try to make an animation by clearing the screen and then printing different patterns each time, you will find that {@{the animation is too fast}@}. Fortunately, we can make Python wait for a while using {@{`time.sleep`, which accepts a decimal number in seconds}@}: <!--SR:!2026-10-30,290,330!2026-10-16,276,330-->
 
 ```Python
 import time

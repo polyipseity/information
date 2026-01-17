@@ -13,7 +13,7 @@ __Zinc hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) with t
 
 ## preparation
 
-Treating {@{zinc [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white zinc hydroxide}@}. Excess {@{strong base redissolves the precipitate and forms colorless tetrahydroxozincate ions}@}. Excess {@{[aqueous](aqueous%20solution.md) [ammonia](ammonia.md) redissolves the precipitate and forms colorless tetraamminezinc ions}@}: <!--SR:!2026-01-13,644,270!2026-09-25,794,250!2026-01-12,350,230-->
+Treating {@{zinc [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white zinc hydroxide}@}. Excess {@{strong base redissolves the precipitate and forms colorless tetrahydroxozincate ions}@}. Excess {@{[aqueous](aqueous%20solution.md) [ammonia](ammonia.md) redissolves the precipitate and forms colorless tetraamminezinc ions}@}: <!--SR:!2032-09-08,2428,290!2026-09-25,794,250!2029-02-22,1134,250-->
 
 > treating with [bases](base%20(chemistry).md)
 >

@@ -41,14 +41,14 @@ tags:
 
 > __flashcards__
 >
-> - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2029-01-14,1145,350!2025-12-23,272,330-->
+> - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2029-01-14,1145,350!2029-06-07,1239,350-->
 > - partial magma ::@:: (none) <!--SR:!2029-04-21,1219,350!2029-04-16,1216,350-->
 > - semigroupoid ::@:: associative <!--SR:!2027-08-23,620,250!2026-01-19,96,230-->
-> - small category ::@:: associative, identity <!--SR:!2027-06-08,608,310!2026-01-14,290,330-->
+> - small category ::@:: associative, identity <!--SR:!2027-06-08,608,310!2029-08-31,1324,350-->
 > - groupoid ::@:: associative, identity, divisible <!--SR:!2026-11-11,496,310!2026-03-19,267,250-->
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2027-04-01,483,230!2027-06-06,608,310-->
-> - magma ::@:: total <!--SR:!2026-01-19,294,330!2025-12-24,273,330-->
-> - commutative magma ::@:: total, commutative <!--SR:!2026-01-19,294,330!2026-01-14,290,330-->
+> - magma ::@:: total <!--SR:!2026-01-19,294,330!2026-06-04,140,310-->
+> - commutative magma ::@:: total, commutative <!--SR:!2026-01-19,294,330!2028-08-25,953,330-->
 > - quasigroup ::@:: total, divisible <!--SR:!2027-03-04,500,270!2026-06-22,326,250-->
 > - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2026-06-01,337,290!2026-07-30,380,290-->
 > - unital magma ::@:: total, identity <!--SR:!2028-10-01,1060,350!2026-05-28,337,290-->
@@ -56,12 +56,12 @@ tags:
 > - loop ::@:: total, identity, divisible <!--SR:!2026-04-28,163,250!2026-03-18,270,250-->
 > - semigroup ::@:: total, associative <!--SR:!2026-03-21,269,250!2026-05-04,138,210-->
 > - commutative semigroup ::@:: total, associative, commutative <!--SR:!2026-02-20,251,250!2026-02-10,110,170-->
-> - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-12-23,85,250!2026-10-24,338,210-->
+> - associative quasigroup ::@:: total, associative, divisible <!--SR:!2026-08-11,208,250!2026-10-24,338,210-->
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2026-03-08,187,250!2027-11-11,726,270-->
 > - monoid ::@:: total, associative, identity <!--SR:!2027-09-13,660,290!2026-11-18,437,270-->
-> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2026-01-02,265,290!2026-02-04,201,190-->
+> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2028-02-28,774,290!2026-02-04,201,190-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2028-03-18,878,330!2027-10-10,760,330-->
-> - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2029-04-16,1215,350!2026-01-14,290,330-->
+> - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2029-04-16,1215,350!2029-08-30,1323,350-->
 
 ## references
 
