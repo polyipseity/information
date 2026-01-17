@@ -238,7 +238,10 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 > sealed trait Term {
 >   def map(s:Subst):Term = this match {
 >     case Var(a) =>
->       lookup(s,a) match {case Some(t)=>t.map(s); case None=>this}
+>       lookup(s,a) match {
+>         case Some(t) => t.map(s)
+>         case None => this
+>       }
 >     case Constr(c,ts) => Constr(c, ts.map(_.map(s)))
 >   }
 > }

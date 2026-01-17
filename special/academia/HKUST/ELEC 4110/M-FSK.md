@@ -22,7 +22,7 @@ tags:
 
 {@{The constellation for $M$-ary FSK}@} is {@{a set of $M$ distinct tones}@}, each represented by {@{a point at a different frequency}@} (or equivalently, {@{the unit vectors in the $M$-dimensional constellation}@}).
 
-Assume {@{equiprobable symbols and AWGN}@}. {@{The decision regions}@} for {@{$M$-ary FSK}@} are determined by comparing {@{the received signal's projection onto each orthogonal tone}@}. In {@{a coherent receiver}@}, the signal is {@{correlated with every basis vector $\mathbf{e}_k$}@} (each representing {@{a distinct frequency}@}), and {@{the symbol corresponding to the largest correlation magnitude}@} is {@{selected}@}. Thus, {@{each decision region}@} consists of {@{all vectors whose inner product with one particular unit vector exceeds those with all others}@}, forming {@{$M$ orthogonal slices in an $M$-dimensional Euclidean space}@}: {@{$$\bigl\{\,\mathbf{r}\;:\;\arg\max_k |\langle \mathbf{r},\mathbf{e}_k\rangle|^2 = k\bigr\}\,.$$}@}
+Assume {@{equiprobable symbols and AWGN}@}. {@{The decision regions}@} for {@{$M$-ary FSK}@} are determined by comparing {@{the received signal's projection onto each orthogonal tone}@}. In {@{a coherent receiver}@}, the signal is {@{correlated with every basis vector $\mathbf{e}_k$}@} (each representing {@{a distinct frequency}@}), and {@{the symbol corresponding to the largest correlation magnitude}@} is {@{selected}@}. Thus, {@{each decision region}@} consists of {@{all vectors whose inner product with one particular unit vector exceeds those with all others}@}, forming {@{$M$ orthogonal slices in an $M$-dimensional Euclidean space}@}: {@{$$\bigl\{\,\mathbf{r}\;:\;\arg\max_{j \in \set{1, \ldots, M} } |\langle \mathbf{r},\mathbf{e}_j\rangle|^2 = k\bigr\}\,.$$}@}
 
 ## error analysis
 

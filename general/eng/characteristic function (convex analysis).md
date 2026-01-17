@@ -23,7 +23,7 @@ Let {@{$X$ be a [set](set%20(mathematics).md), and let $A$ be a [subset](subset.
 
 Let {@{$\mathbf {1} _{A}:X\to \mathbb {R}$}@} denote {@{the usual indicator function: $$\mathbf {1} _{A}(x):={\begin{cases}1,&x\in A;\\0,&x\not \in A.\end{cases} }$$}@} If one adopts the conventions that (annotation: the conventions are {@{related to arithmetic operations and infinities}@})
 
-- (annotation: multiplication with positive infinity) ::@:: for any $a\in \mathbb {R} \cup \{+\infty \}$, $a+(+\infty )=+\infty$ and $a(+\infty )=+\infty$, except $0(+\infty )=0$;
+- (annotation: addition and multiplication with positive infinity) ::@:: for any $a\in \mathbb {R} \cup \{+\infty \}$, $a+(+\infty )=+\infty$ and $a(+\infty )=+\infty$, except $0(+\infty )=0$;
 - (annotation: division by 0) ::@:: ${\frac {1}{0} }=+\infty$; and
 - (annotation: division by positive infinity) ::@:: ${\frac {1}{+\infty } }=0$;
 

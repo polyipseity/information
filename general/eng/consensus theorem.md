@@ -41,7 +41,7 @@ For {@{the conjunctive dual of the rule}@}, {@{the consensus $y\vee z$}@} can be
 
 ## applications
 
-In {@{Boolean algebra}@}, {@{repeated consensus}@} is {@{the core of one algorithm for calculating the [Blake canonical form](Blake%20canonical%20form.md) of a formula}@}.<sup>[\[2\]](#^ref-2)</sup>
+In {@{Boolean algebra}@}, {@{repeated consensus}@} is {@{the core of one algorithm}@} for {@{calculating the [Blake canonical form](Blake%20canonical%20form.md) of a formula}@}.<sup>[\[2\]](#^ref-2)</sup>
 
 In {@{[digital logic](digital%20logic.md)}@}, including the consensus term {@{in a circuit can eliminate [race hazards](race%20hazard.md)}@}.<sup>[\[3\]](#^ref-3)</sup>
 

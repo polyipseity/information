@@ -88,7 +88,7 @@ for (initial_statement; condition; loop_statement)
   statement
 ```
 
-The semantics of `for` is a bit complicated. First, {@{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}@}. Each time the statement block has finished execution, {@{the loop statement is executed. Then we go back to checking the condition and repeat}@}.
+{@{The semantics of `for`}@} is {@{a bit complicated}@}. First, {@{the initial statement}@} is {@{executed}@}. Then {@{the condition is checked}@}. If {@{the condition is `true`}@}, {@{the statement block is executed}@}. Otherwise, {@{the `for` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{statement is executed}@}. Then we go {@{back to checking the condition and repeat}@}.
 
 One can use a `for` statement to iterate through {@{an interval}@}. More advanced stuff are possible but they are not mentioned here:
 

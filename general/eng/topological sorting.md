@@ -41,7 +41,7 @@ In computer science, applications of this type arise in [instruction scheduling]
 
 - Not to be confused with {@{[Kuhn's algorithm](Hungarian%20algorithm.md)}@}.
 
-One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, works by {@{choosing vertices in the same order as the eventual topological sort}@}.<sup>[\[2\]](#^ref-2)</sup> First, find {@{a list of "start nodes" that have no incoming edges and insert them into a set S}@}; {@{at least one such node must exist in a non-empty \(finite\) acyclic graph}@}. Then:
+One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, works by {@{choosing vertices in the same order as the eventual topological sort}@}.<sup>[\[2\]](#^ref-2)</sup> First, find {@{a list of "start nodes" that have no incoming edges and insert them into a set S}@}; {@{at least one such node}@} must {@{exist in a non-empty \(finite\) acyclic graph}@}. Then:
 
 <pre>
 <i>L</i> ← Empty list that will contain the sorted elements
