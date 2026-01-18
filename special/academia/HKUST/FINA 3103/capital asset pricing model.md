@@ -41,9 +41,9 @@ When all investors are rational, risk‑averse and hold the same expectations, t
 CAPM rests on a handful of simplifying assumptions: perfect competition, one-period horizon, full market participation, and homogeneous expectations.
 
 1. _Perfect competition_ ::@:: – many price‑taking investors. <!--SR:!2026-01-19,15,290!2026-01-20,16,290-->
-2. _One-period horizon_ ::@:: – all decisions occur in a single period; long‑term effects are ignored (myopic behavior). <!--SR:!2026-01-18,14,290!2026-01-18,14,290-->
-3. _Full market participation_ ::@:: – every relevant asset, including risk‑free securities, is tradable and can be borrowed or lent at the same rate without taxes or transaction costs. <!--SR:!2026-01-19,15,290!2026-01-18,14,290-->
-4. _Homogeneous expectations_ ::@:: – investors agree on expected returns, variances, and covariances of all assets. <!--SR:!2026-01-18,14,290!2026-01-20,16,290-->
+2. _One-period horizon_ ::@:: – all decisions occur in a single period; long‑term effects are ignored (myopic behavior). <!--SR:!2026-03-16,57,310!2026-03-15,56,310-->
+3. _Full market participation_ ::@:: – every relevant asset, including risk‑free securities, is tradable and can be borrowed or lent at the same rate without taxes or transaction costs. <!--SR:!2026-01-19,15,290!2026-03-13,54,310-->
+4. _Homogeneous expectations_ ::@:: – investors agree on expected returns, variances, and covariances of all assets. <!--SR:!2026-03-17,58,310!2026-01-20,16,290-->
 
 These assumptions guarantee that each investor holds an identical portfolio of risky assets (the tangent portfolio) while varying only in their mix with a risk‑free asset.
 
@@ -66,7 +66,7 @@ Using the S&P 500 as the market, let $\mu _{\text{SP} }=5\%$ and $r_{f}=1\%$. 
 
 The term $\mu_M-r_f$ is the _market risk premium_, the reward for bearing systematic risk; the factor $\beta_{i,M}$ measures how much of that risk an asset carries. Different assets may have identical volatility but distinct betas if their covariances with the market differ.
 
-- A beta larger than one ::@:: means the asset amplifies market swings. <!--SR:!2026-01-19,15,290!2026-01-18,14,290-->
+- A beta larger than one ::@:: means the asset amplifies market swings. <!--SR:!2026-01-19,15,290!2026-03-14,55,310-->
 - A beta equal to one ::@:: coincides with the market portfolio itself; its expected excess return equals the market premium. <!--SR:!2026-01-20,16,290!2026-01-20,16,290-->
 - A zero beta ::@:: implies no correlation with the market, so its expected excess return is zero—its risk can be diversified away. <!--SR:!2026-01-19,15,290!2026-01-20,16,290-->
 - A negative beta ::@:: indicates that the asset moves opposite to the market; it earns a negative risk premium and would be priced below the risk‑free rate. <!--SR:!2026-01-19,15,290!2026-01-20,16,290-->

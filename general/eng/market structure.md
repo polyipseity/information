@@ -107,7 +107,7 @@ The number of enterprises is {@{only one, access is restricted or completely blo
 
 Market structure is important for a firm's use as it {@{affects motivations, decision making, and opportunities}@}. This will {@{incur changes to current market standings}@} affecting: {@{market outcomes, price, availability and variety}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2030-02-28,1509,360!2030-03-03,1512,360!2026-03-22,383,358-->
 
-Market structure provides {@{indication on potential opportunities and threats}@} which can influence business to {@{adapt their processes and operations}@} in order to meet {@{market structure requirements in order to stay competitive}@}. For example being able to understand market structure will help to identify {@{product substitutability, a foundation element of market structure analysis}@}, to then determine the best course of action. <!--SR:!2026-01-18,330,340!2027-02-15,425,320!2026-03-08,373,358!2026-02-19,136,397-->
+Market structure provides {@{indication on potential opportunities and threats}@} which can influence business to {@{adapt their processes and operations}@} in order to meet {@{market structure requirements in order to stay competitive}@}. For example being able to understand market structure will help to identify {@{product substitutability, a foundation element of market structure analysis}@}, to then determine the best course of action. <!--SR:!2030-04-11,1544,360!2027-02-15,425,320!2026-03-08,373,358!2026-02-19,136,397-->
 
 ## measure of market structure
 

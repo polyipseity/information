@@ -589,8 +589,8 @@ The content is in teaching order.
   - bag-of-words model / related concepts ::@:: homograph, lemmatization, stemming, stop word, term document matrix \(TDM\), etc. <!--SR:!2026-01-30,149,417!2026-01-24,144,417-->
 - [homograph](../../../../general/homograph.md) ::@:: It is a word that shares the same written form as another word but has a different meaning. <!--SR:!2028-02-19,765,435!2026-01-29,148,413-->
 - [stop word](../../../../general/stop%20word.md) ::@:: They are the words which are filtered out \("stopped"\) before or after processing of natural language data \(i.e. text\) because they are deemed to have little semantic value or are otherwise insignificant for the task at hand. <!--SR:!2026-01-24,144,417!2026-01-29,148,417-->
-- [stemming](../../../../general/stemming.md) ::@:: It is the process of reducing inflected \(or sometimes derived\) words to their word stem, base or root form—generally a written word form. <!--SR:!2026-01-18,139,417!2026-01-25,144,413-->
-- [lemmatization](../../../../general/lemmatization.md) ::@:: It in linguistics is the process of grouping together the inflected forms of a word so they can be analysed as a single item, identified by the word's lemma, or dictionary form. <!--SR:!2026-01-18,139,417!2026-01-30,149,415-->
+- [stemming](../../../../general/stemming.md) ::@:: It is the process of reducing inflected \(or sometimes derived\) words to their word stem, base or root form—generally a written word form. <!--SR:!2028-03-20,792,437!2026-01-25,144,413-->
+- [lemmatization](../../../../general/lemmatization.md) ::@:: It in linguistics is the process of grouping together the inflected forms of a word so they can be analysed as a single item, identified by the word's lemma, or dictionary form. <!--SR:!2028-03-22,794,437!2026-01-30,149,415-->
   - lemmatization / computational ::@:: In computational linguistics, lemmatization is the algorithmic process of determining the lemma of a word based on its intended meaning. <!--SR:!2026-01-28,147,417!2026-01-24,144,417-->
 - [document-term matrix](../../../../general/document-term%20matrix.md) ::@:: It is a mathematical matrix that describes the frequency of terms that occur in each document in a collection. <!--SR:!2026-01-27,146,415!2028-02-20,766,435-->
   - document-term matrix / rows, columns ::@:: In a document-term matrix, rows correspond to documents in the collection and columns correspond to terms. <!--SR:!2026-01-23,143,413!2026-01-24,144,417-->
@@ -614,14 +614,14 @@ The content is in teaching order.
   - document classification / features considered ::@:: The lift is better \(higher classification performance\) compared to baseline classifiers if both text features and traditional data are used together. <!--SR:!2028-02-18,764,433!2026-01-23,143,413-->
 - [statistical classification](../../../../general/statistical%20classification.md) ::@:: When classification is performed by a computer, statistical methods are normally used to develop the algorithm. <!--SR:!2026-01-25,144,413!2026-01-22,142,415-->
   - statistical classification / algorithms ::@:: _k_-nearest neighbors \(KNN\), logistic regression classifier, naive Bayes classifier, neural networks, decision trees \(recursive partitioning\), support vector machines \(SVM\), etc. <!--SR:!2026-01-26,145,413!2026-01-23,143,415-->
-  - statistical classification / performance measures ::@:: F1-score, accuracy, confusion matrix, precision, recall, etc. <!--SR:!2026-01-18,139,417!2028-03-06,779,435-->
+  - statistical classification / performance measures ::@:: F1-score, accuracy, confusion matrix, precision, recall, etc. <!--SR:!2028-03-17,789,437!2028-03-06,779,435-->
 - accuracy
 - recall
 - precision
 - F1-score
 - confusion matrix
 - document classification
-  - document classification / comparison of algorithms ::@:: top: AdaBoost, SVM, kNN, regression, etc.; use context to determine the most suitable ones <br/> middle: decision trees, neural networks, etc. <br/> bottom: Rocchio, naive Bayes, etc.; used as baseline classifiers <!--SR:!2026-01-18,139,417!2026-01-20,140,415-->
+  - document classification / comparison of algorithms ::@:: top: AdaBoost, SVM, kNN, regression, etc.; use context to determine the most suitable ones <br/> middle: decision trees, neural networks, etc. <br/> bottom: Rocchio, naive Bayes, etc.; used as baseline classifiers <!--SR:!2028-03-16,788,437!2026-01-20,140,415-->
 - [document clustering](../../../../general/document%20clustering.md) ::@:: It is the application of cluster analysis to textual documents. It has applications in automatic document organization, topic extraction and fast information retrieval or filtering. <!--SR:!2028-03-09,782,435!2028-03-08,781,435-->
   - document clustering / advantages ::@:: improve scatter—gather browsing and search \(precision, recall\) <!--SR:!2026-01-23,143,415!2026-01-24,144,417-->
   - document clustering / nature ::@:: Clustering is an optimization problem. It aims to cluster to minimize differences between documents in a cluster and maximize differences between documents in separate clusters. <!--SR:!2026-01-22,142,413!2026-01-21,141,415-->
@@ -649,7 +649,7 @@ The content is in teaching order.
 - [campus network](../../../../general/campus%20network.md) \(CAN\) ::@:: It is a computer network made up of an interconnection of local area networks \(LANs\) within a limited geographical area. <!--SR:!2026-01-26,145,413!2028-02-26,772,435-->
 - computer network
   - computer network / key technologies ::@:: TCP/IP \(compatible with different hardware and software platforms\), client/server computing, connectivity, packet switching, etc. <!--SR:!2028-03-03,776,435!2026-01-21,141,415-->
-- [packet switching](../../../../general/packet%20switching.md) ::@:: It is a method of grouping data into short messages in fixed format, i.e. packets, that are transmitted over a digital network. <!--SR:!2026-01-18,139,417!2026-01-28,147,415-->
+- [packet switching](../../../../general/packet%20switching.md) ::@:: It is a method of grouping data into short messages in fixed format, i.e. packets, that are transmitted over a digital network. <!--SR:!2028-03-24,796,437!2026-01-28,147,415-->
   - packet switching / packet ::@:: Packets consist of a header and a payload. Data in the header is used by networking hardware to direct the packet to its destination, where the payload is extracted and used by an operating system, application software, or higher layer protocols. <p> Header data may also contain data to check for transmission errors. <!--SR:!2026-01-25,144,415!2028-03-06,779,435-->
   - packet switching / routing ::@:: A message may be broken up into multiple packets, and then are independently sent through different routes, and finally reassembled into the original message by the destination machine. <!--SR:!2026-01-29,148,415!2026-01-19,139,413-->
 - computer network
@@ -663,8 +663,8 @@ The content is in teaching order.
 - [URL](../../../../general/URL.md) ::@:: It is a reference to a resource that specifies its location on a computer network and a mechanism for retrieving it. <p> It consists of protocol prefix, domain name, directory path, and document name. <!--SR:!2026-01-25,144,413!2026-01-27,146,415-->
 - internet
   - internet / architecture ::@:: Its architecture consists of many components: backbone, internet service provider \(ISP\), metropolitan area exchange \(MAE\), network access point \(NAP\), etc. <!--SR:!2026-01-28,147,415!2028-02-17,763,435-->
-- [internet backbone](../../../../general/internet%20backbone.md) ::@:: It is the principal data routes between large, strategically interconnected computer networks and core routers of the Internet. <!--SR:!2026-01-18,139,417!2028-02-24,770,433-->
-  - internet backbone / global ::@:: Most countries have a backbone. Globally, these backbones are connected by many undersea cables. <!--SR:!2026-01-18,139,417!2026-01-26,145,413-->
+- [internet backbone](../../../../general/internet%20backbone.md) ::@:: It is the principal data routes between large, strategically interconnected computer networks and core routers of the Internet. <!--SR:!2028-03-18,790,437!2028-02-24,770,433-->
+  - internet backbone / global ::@:: Most countries have a backbone. Globally, these backbones are connected by many undersea cables. <!--SR:!2028-03-17,789,437!2026-01-26,145,413-->
 - internet
   - internet / applications ::@:: Voice over IP \(VoIP\), Web 2.0, unified communications, virtual private network \(VPN\), etc. <!--SR:!2026-01-22,142,415!2026-01-24,144,417-->
 - [Voice over IP](../../../../general/Voice%20over%20IP.md) ::@:: It is a set of technologies used primarily for voice communication sessions over Internet Protocol \(IP\) networks, such as the Internet. <!--SR:!2026-01-30,149,415!2028-02-27,773,435-->
@@ -676,7 +676,7 @@ The content is in teaching order.
 - telecommunications
   - telecommunications / wireless technologies ::@:: NFC, RFID, cellular networks, sensor networks, wireless computer networks, etc. <!--SR:!2026-01-25,144,415!2026-01-28,147,415-->
 - [cellular network](../../../../general/cellular%20network.md) ::@:: It is a telecommunications network where the link to and from end nodes is wireless and the network is distributed over land areas called ___cells___, each served by at least one fixed-location transceiver \(such as a base station\). <!--SR:!2028-02-15,761,433!2026-01-29,148,413-->
-  - cellular networks / exampls ::@:: CDMA \(United States\), GSM \(rest of the world\), 3G, 4G, 5G, etc. <!--SR:!2026-01-18,139,417!2026-01-22,142,413-->
+  - cellular networks / exampls ::@:: CDMA \(United States\), GSM \(rest of the world\), 3G, 4G, 5G, etc. <!--SR:!2028-03-19,791,437!2026-01-22,142,413-->
 - [wireless network](../../../../general/wireless%20network.md) ::@:: It is a computer network that uses wireless data connections between network nodes. <!--SR:!2028-03-01,776,435!2028-02-25,771,433-->
   - wireless network / examples ::@:: Bluetooth \(802.15; wireless PAN\), Wi-Fi \(802.11; wireless LAN, identified by their SSIDs\), WiMax \(802.16; range up to 31 miles\) <!--SR:!2026-01-24,144,417!2026-01-27,146,417-->
 - [radio-frequency identification](../../../../general/radio-frequency%20identification.md) \(RFID\) ::@:: It uses electromagnetic fields to automatically identify and track tags attached to objects. An RFID system consists of a tiny radio transponder called a tag, a radio receiver, and a transmitter. <p> Communication distance is short, but line-of-sight is not needed. <!--SR:!2028-02-21,767,433!2028-02-26,772,433-->
@@ -693,7 +693,7 @@ The content is in teaching order.
 - [computer security](../../../../general/computer%20security.md) ::@:: It is a subdiscipline within the field of information security. It focuses on protecting computer software, systems and networks from threats that can lead to unauthorized information disclosure, theft or damage to hardware, software, or data, as well as from the disruption or misdirection of the services they provide. <!--SR:!2028-03-05,778,435!2026-01-21,141,413-->
   - computer security / reasons ::@:: IS systems are often vulnerable. This is due to accessibility of wireless networks, disasters, hardware problems, loss and theft of privileged devices, software problems, etc. <!--SR:!2026-01-30,149,415!2028-03-10,783,435-->
   - computer security / examples
-    - computer security / examples / clients ::@:: errors, unauthorized access, etc. <!--SR:!2026-01-18,139,417!2028-03-11,784,435-->
+    - computer security / examples / clients ::@:: errors, unauthorized access, etc. <!--SR:!2028-03-18,790,437!2028-03-11,784,435-->
     - computer security / examples / networks ::@:: alternation, fraud, sniffing, tapping, theft, etc. <!--SR:!2026-01-26,145,413!2026-01-24,144,417-->
     - computer security / examples / servers ::@:: denial-of-service \(DoS\) attacks, fraud, hacking, malware, theft, vandalism, etc. <!--SR:!2026-01-26,145,413!2026-01-21,141,413-->
     - computer security / examples / systems ::@:: data manipulation \(alternation, copying, theft\), hardware failure, software failure, etc. <!--SR:!2026-01-23,143,413!2026-01-28,147,417-->
@@ -702,7 +702,7 @@ The content is in teaching order.
 - [malware](../../../../general/malware.md) ::@:: It is any software intentionally designed to cause disruption to a computer, server, client, or computer network, leak private information, gain unauthorized access to information or systems, deprive access to information, or which unknowingly interferes with the user's computer security and privacy. <!--SR:!2026-01-23,143,415!2028-02-15,761,433-->
   - malware / examples ::@:: SQL injection \(SQLI\) attacks, ransomware, spyware, trojan horses, viruses, worms, etc. <!--SR:!2026-01-28,147,415!2028-02-17,763,435-->
 - [cybercrime](../../../../general/cybercrime.md) ::@:: It encompasses a wide range of criminal activities that are carried out using digital devices and/or networks. It has been variously defined as "a crime committed on a computer network, especially the Internet". <!--SR:!2026-01-20,140,413!2026-01-28,147,415-->
-  - cybercrime / examples ::@:: cracking, denial-of-service \(DoS\) attacks, hacking, identity theft, pharming \(redirect from legitimate sites to fake sites\), phishing, sniffing, etc. <!--SR:!2026-01-18,139,417!2026-01-18,139,417-->
+  - cybercrime / examples ::@:: cracking, denial-of-service \(DoS\) attacks, hacking, identity theft, pharming \(redirect from legitimate sites to fake sites\), phishing, sniffing, etc. <!--SR:!2028-03-23,795,437!2028-03-16,788,437-->
 - [denial-of-service attack](../../../../general/denial-of-service%20attack.md) \(DoS attack\) ::@:: It is a cyberattack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network. <!--SR:!2027-05-16,525,415!2026-01-26,145,415-->
   - denial-of-service attack / distributed \(DDoS attack\) ::@:: The incoming traffic flooding the victim originates from many different sources. More sophisticated strategies are required to mitigate this type of attack; simply attempting to block a single source is insufficient as there are multiple sources. <!--SR:!2028-03-01,774,433!2026-12-20,380,393-->
 - computer security

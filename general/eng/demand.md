@@ -102,7 +102,7 @@ The inverse demand function is useful in {@{deriving the total and marginal reve
 
 ## demand function and total revenue
 
-If {@{the demand curve is linear}@}, then {@{it has the form: Qd = a - b\*p}@}, where {@{p is the price of the good and q is the quantity demanded}@}. {@{The intercept of the curve and the vertical axis}@} is {@{represented by a, meaning the price when no quantity demanded}@}. and b is {@{the slope of the demand function}@}. If {@{the demand function has the form like that}@}, then the total revenue should {@{equal quantity demanded times the price of the good}@}, which can be represented by: {@{TR= q\*p = q\(a-bq\)}@}. <!--SR:!2026-01-18,331,344!2030-01-30,1478,364!2030-03-24,1531,364!2029-11-07,1428,364!2029-10-12,1407,364!2026-01-23,335,344!2026-01-26,338,344!2030-04-28,1562,364!2030-02-11,1490,364-->
+If {@{the demand curve is linear}@}, then {@{it has the form: Qd = a - b\*p}@}, where {@{p is the price of the good and q is the quantity demanded}@}. {@{The intercept of the curve and the vertical axis}@} is {@{represented by a, meaning the price when no quantity demanded}@}. and b is {@{the slope of the demand function}@}. If {@{the demand function has the form like that}@}, then the total revenue should {@{equal quantity demanded times the price of the good}@}, which can be represented by: {@{TR= q\*p = q\(a-bq\)}@}. <!--SR:!2030-05-04,1567,364!2030-01-30,1478,364!2030-03-24,1531,364!2029-11-07,1428,364!2029-10-12,1407,364!2026-01-23,335,344!2026-01-26,338,344!2030-04-28,1562,364!2030-02-11,1490,364-->
 
 ## Is the demand curve for PC firm really flat?
 
@@ -132,7 +132,7 @@ Demand management has {@{a defined set of processes, capabilities and recommende
 
 {@{[E. F. Schumacher](E.%20F.%20Schumacher.md)}@} challenges {@{the prevailing economic assumption that fulfilling demand is the purpose of economic activity}@}, offering {@{a framework of what he calls "[Buddhist economics](Buddhist%20economics.md)"}@} in which {@{wise demands, fulfilling genuine human needs}@}, are {@{distinguished from unwise demands}@}, arising from {@{the [five intellectual impairments](five%20hindrances.md) recognized by Buddhism}@}:<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2026-03-01,342,304!2030-03-01,1508,364!2030-02-21,1500,364!2029-11-01,1423,364!2028-09-23,1092,350!2026-02-08,26,391-->
 
-> {@{The cultivation and expansion of needs}@} is {@{the antithesis of wisdom}@}. It is also {@{the antithesis of freedom and peace}@}. {@{Every increase of needs}@} tends to {@{increase one's dependence on outside forces over which one cannot have control}@}, and therefore {@{increases existential fear}@}. Only by {@{a reduction of needs}@} can one {@{promote a genuine reduction in those tensions}@} which are {@{the ultimate causes of strife and war}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-11-09,1430,364!2029-12-07,1449,364!2028-07-12,1032,350!2030-04-23,1558,364!2030-01-28,1476,364!2026-01-30,341,344!2026-01-18,331,344!2029-10-21,1415,364!2029-10-11,1407,364-->
+> {@{The cultivation and expansion of needs}@} is {@{the antithesis of wisdom}@}. It is also {@{the antithesis of freedom and peace}@}. {@{Every increase of needs}@} tends to {@{increase one's dependence on outside forces over which one cannot have control}@}, and therefore {@{increases existential fear}@}. Only by {@{a reduction of needs}@} can one {@{promote a genuine reduction in those tensions}@} which are {@{the ultimate causes of strife and war}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-11-09,1430,364!2029-12-07,1449,364!2028-07-12,1032,350!2030-04-23,1558,364!2030-01-28,1476,364!2026-01-30,341,344!2030-05-03,1566,364!2029-10-21,1415,364!2029-10-11,1407,364-->
 
 ## demand reduction
 
@@ -140,7 +140,7 @@ Demand management has {@{a defined set of processes, capabilities and recommende
 
 - see: [demand reduction](demand%20reduction.md)
 
-{@{[Demand reduction](demand%20reduction.md)}@} refers to {@{efforts aimed at reducing the public desire for illegal and illicit drugs}@}. The drug policy is {@{in contrast to the [reduction of drug supply](supply%20reduction.md), but the two policies are often implemented together}@}. <!--SR:!2026-01-18,331,344!2026-01-25,337,344!2030-03-11,1518,364-->
+{@{[Demand reduction](demand%20reduction.md)}@} refers to {@{efforts aimed at reducing the public desire for illegal and illicit drugs}@}. The drug policy is {@{in contrast to the [reduction of drug supply](supply%20reduction.md), but the two policies are often implemented together}@}. <!--SR:!2030-05-07,1570,364!2026-01-25,337,344!2030-03-11,1518,364-->
 
 ### in energy conservation
 

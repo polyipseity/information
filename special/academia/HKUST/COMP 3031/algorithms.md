@@ -52,7 +52,7 @@ tags:
 > ```
 <!--SR:!2026-09-16,248,330!2026-09-11,243,330!2026-06-13,174,310-->
 
-{@{The worst-case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub-list}@}. <!--SR:!2026-10-26,283,330!2026-11-02,289,330!2026-01-18,67,310!2026-10-28,285,330!2026-09-12,244,330-->
+{@{The worst-case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub-list}@}. <!--SR:!2026-10-26,283,330!2026-11-02,289,330!2026-11-06,292,330!2026-10-28,285,330!2026-09-12,244,330-->
 
 ### merge sort
 
@@ -100,7 +100,7 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!202
 >   def splitAt(n: Int): (List[A], List[A]) =
 >     (xs.take(n), xs.drop(n))
 > ```
-<!--SR:!2026-01-18,67,310!2026-09-24,256,330-->
+<!--SR:!2026-11-05,291,330!2026-09-24,256,330-->
 
 ### merge sort merging
 
@@ -120,7 +120,7 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!202
 >       else y :: merge(xs, ys1)
 >   }
 > ```
-<!--SR:!2026-01-18,67,310!2026-08-28,236,330-->
+<!--SR:!2026-11-08,294,330!2026-08-28,236,330-->
 
 The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-11-01,288,330!2026-08-26,234,330!2026-10-24,281,330-->
 
@@ -148,7 +148,7 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 >     val (fst, snd) = xs.splitAt(n)
 >     merge(msort(fst)(lt), msort(snd)(lt))
 > ```
-<!--SR:!2026-01-18,67,310!2026-09-30,262,330!2026-11-02,289,330-->
+<!--SR:!2026-11-04,290,330!2026-09-30,262,330!2026-11-02,289,330-->
 
 {@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2026-10-16,275,330!2026-09-29,261,330!2026-10-04,266,330!2026-10-15,274,330!2026-10-12,271,330-->
 
@@ -166,6 +166,6 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > // Type inference allows a shorter form
 > msort(xs)( (x, y) => x < y )
 > ```
-<!--SR:!2026-09-22,254,330!2026-08-29,237,330!2026-01-18,67,310!2026-01-18,67,310!2026-10-24,281,330-->
+<!--SR:!2026-09-22,254,330!2026-08-29,237,330!2026-11-04,290,330!2026-11-07,293,330!2026-10-24,281,330-->
 
 These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!2026-09-21,253,330!2026-10-17,276,330-->

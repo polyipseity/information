@@ -30,7 +30,7 @@ For better physical meaning, it can be rewritten as:
 > where
 >
 > - [function](function%20(mathematics).md) properties: $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@} and $t$ is {@{the [time](time.md)}@}
-> - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2026-02-07,544,310!2028-08-23,1327,350!2027-11-20,940,290!2027-02-01,380,369!2026-01-19,83,349!2027-02-01,380,369!2027-02-07,386,369!2026-01-21,85,349!2027-01-28,376,369!2026-01-18,82,349-->
+> - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2026-02-07,544,310!2028-08-23,1327,350!2027-11-20,940,290!2027-02-01,380,369!2026-01-19,83,349!2027-02-01,380,369!2027-02-07,386,369!2026-01-21,85,349!2027-01-28,376,369!2027-02-20,398,369-->
 
 Solving the [ordinary differential equation](orindary%20differential%20equation.md):
 
@@ -115,7 +115,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and {@{$c = 2 \sqrt{km}$}@} is {@{the vicious damping coefficient}@}
 > - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} } = 1$}@} is {@{the damping ratio}@}, and {@{$\lambda = \omega_n \zeta = \omega_n$}@} is {@{the decay rate}@}
-> - initial properties: $A$ is {@{the initial [amplitude](amplitude.md)}@} and {@{$\nu = v_0 + \lambda A \approx v_0$}@} is {@{approximately the initial [velocity](velocity.md) $v_0$}@} <!--SR:!2027-03-17,845,330!2026-05-28,564,270!2027-05-21,592,290!2026-09-25,639,270!2026-07-10,326,230!2029-05-11,1363,283!2027-01-27,375,369!2027-01-29,377,369!2026-01-19,83,349!2027-02-09,388,369!2026-01-18,82,349!2027-02-02,381,369!2026-01-20,84,349!2026-07-13,218,349!2026-10-24,280,349!2026-07-05,211,349-->
+> - initial properties: $A$ is {@{the initial [amplitude](amplitude.md)}@} and {@{$\nu = v_0 + \lambda A \approx v_0$}@} is {@{approximately the initial [velocity](velocity.md) $v_0$}@} <!--SR:!2027-03-17,845,330!2026-05-28,564,270!2027-05-21,592,290!2026-09-25,639,270!2026-07-10,326,230!2029-05-11,1363,283!2027-01-27,375,369!2027-01-29,377,369!2026-01-19,83,349!2027-02-09,388,369!2027-02-21,399,369!2027-02-02,381,369!2026-01-20,84,349!2026-07-13,218,349!2026-10-24,280,349!2026-07-05,211,349-->
 
 <!-- markdownlint MD028 -->
 
@@ -129,7 +129,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
 > - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{\zeta^2 - 1}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
-> - initial properties: {@{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$}@} from {@{the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$}@}; {@{the $c_-$ term}@} is {@{negligible for large [time](time.md) $t$}@} <!--SR:!2026-02-10,545,310!2027-07-20,954,310!2026-02-21,499,270!2029-07-01,1380,310!2026-04-03,186,210!2026-10-02,307,183!2026-07-02,209,349!2027-01-30,378,369!2026-01-20,84,349!2026-01-20,84,349!2026-01-20,84,349!2027-02-08,387,369!2027-01-26,374,369!2027-02-11,390,369!2026-01-18,68,289!2026-10-29,285,349!2026-04-17,144,329!2027-01-31,379,369-->
+> - initial properties: {@{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$}@} from {@{the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$}@}; {@{the $c_-$ term}@} is {@{negligible for large [time](time.md) $t$}@} <!--SR:!2026-02-10,545,310!2027-07-20,954,310!2026-02-21,499,270!2029-07-01,1380,310!2026-04-03,186,210!2026-10-02,307,183!2026-07-02,209,349!2027-01-30,378,369!2026-01-20,84,349!2026-01-20,84,349!2026-01-20,84,349!2027-02-08,387,369!2027-01-26,374,369!2027-02-11,390,369!2026-08-03,197,289!2026-10-29,285,349!2026-04-17,144,329!2027-01-31,379,369-->
 
 Additionally, for negative damping ratios:
 

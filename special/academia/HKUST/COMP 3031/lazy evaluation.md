@@ -83,7 +83,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```Scala
 > LazyList.range(1000, 10000)   // equivalent to (1000 until 10000).to(LazyList)
 > ```
-<!--SR:!2026-02-06,70,325!2026-01-18,62,310!2026-02-05,69,325-->
+<!--SR:!2026-02-06,70,325!2026-10-17,272,330!2026-02-05,69,325-->
 
 {@{A hand-rolled recursive function}@} illustrates {@{the laziness}@}: <!--SR:!2026-02-06,70,325!2026-02-08,71,325-->
 
@@ -316,7 +316,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >           prev.updated(f, prev(f) - amount).updated(t, prev(t) + amount)
 >   // more ...
 > ```
-> <!--SR:!2026-01-18,62,310!2026-02-02,66,325!2026-02-10,73,325-->
+> <!--SR:!2026-10-11,266,330!2026-02-02,66,325!2026-02-10,73,325-->
 
 Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{generated}@}: <!--SR:!2026-01-29,63,325!2026-01-28,62,325!2026-01-26,60,325-->
 

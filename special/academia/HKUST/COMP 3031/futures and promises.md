@@ -18,15 +18,15 @@ tags:
 
 - see: [general/futures and promises](../../../../general/futures%20and%20promises.md)
 
-{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!2026-01-18,14,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-20,16,290-->
+{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!2026-03-16,57,310!2026-01-19,15,290!2026-03-13,54,310!2026-01-20,16,290-->
 
 ## motivation
 
-When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-18,14,290-->
+When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-01-19,15,290!2026-03-16,57,310!2026-01-19,15,290!2026-03-15,56,310!2026-03-13,54,310!2026-03-14,55,310-->
 
 ### continuation-passing style
 
-A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!2026-01-18,14,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290-->
+A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!2026-03-14,55,310!2026-03-16,57,310!2026-03-14,55,310!2026-01-19,15,290-->
 
 > [!example] __callback nesting__
 >
@@ -41,11 +41,11 @@ A common early pattern is {@{_continuation-passing style_ (CPS), or more commonl
 >   }
 > ```
 >
-> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-18,14,290-->
+> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-03-17,58,310!2026-01-19,15,290!2026-01-19,15,290!2026-03-17,58,310!2026-03-17,58,310!2026-03-16,57,310-->
 
 ### drawbacks of CPS
 
-Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS inflates {@{type signatures}@}: {@{every function that participates in an async flow}@} must accept {@{a callback, turning simple `A => B` into `A => (B => Unit)`}@}. Callbacks also hide {@{the thread on which they run}@}; if a callback mutates {@{shared state without proper synchronization}@}, {@{race conditions can arise}@}. For example: <!--SR:!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-19,15,290-->
+Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS inflates {@{type signatures}@}: {@{every function that participates in an async flow}@} must accept {@{a callback, turning simple `A => B` into `A => (B => Unit)`}@}. Callbacks also hide {@{the thread on which they run}@}; if a callback mutates {@{shared state without proper synchronization}@}, {@{race conditions can arise}@}. For example: <!--SR:!2026-03-16,57,310!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-19,15,290-->
 
 > [!example] __race condition in CPS__
 >
@@ -64,15 +64,15 @@ Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS
 > makeCoffee(k); makeCoffee(k)          // race if the callbacks run on different threads
 > ```
 >
-> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290-->
+> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-03-16,57,310!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290-->
 
-Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290-->
+Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-01-19,15,290!2026-03-15,56,310!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290-->
 
 Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surrounding `try/catch` blocks unless explicitly handled inside the callback}@}. <!--SR:!2026-01-19,15,290!2026-01-19,15,290-->
 
 ### CPS to direct style
 
-{@{A `Future[T]`}@} can be seen as {@{a _direct_ representation of an asynchronous computation}@} that will {@{eventually produce a value of type `T`}@}. We can transform {@{a CPS function into one that returns a `Future`}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-18,14,290-->
+{@{A `Future[T]`}@} can be seen as {@{a _direct_ representation of an asynchronous computation}@} that will {@{eventually produce a value of type `T`}@}. We can transform {@{a CPS function into one that returns a `Future`}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-03-17,58,310-->
 
 > [!example] __CPS to `Future`__
 >
@@ -123,13 +123,13 @@ In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function
 >   Future { /* compute */ }
 > ```
 >
-> {@{The `Future.apply` helper}@} hides {@{the CPS details}@}; {@{code written with `Future`}@} looks like {@{ordinary synchronous code but runs asynchronously}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290-->
+> {@{The `Future.apply` helper}@} hides {@{the CPS details}@}; {@{code written with `Future`}@} looks like {@{ordinary synchronous code but runs asynchronously}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-03-13,54,310!2026-03-16,57,310!2026-03-15,56,310!2026-01-19,15,290-->
 
-Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}, and combinators such as {@{`map`, `flatMap` and `onComplete`}@}. These facilities allow {@{composing several asynchronous steps without nesting callbacks or ugly error handling}@}, turning {@{the callback chain into fluent, readable pipelines}@}. <!--SR:!2026-01-18,14,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-18,14,290-->
+Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}, and combinators such as {@{`map`, `flatMap` and `onComplete`}@}. These facilities allow {@{composing several asynchronous steps without nesting callbacks or ugly error handling}@}, turning {@{the callback chain into fluent, readable pipelines}@}. <!--SR:!2026-03-17,58,310!2026-01-20,16,290!2026-03-13,54,310!2026-01-19,15,290!2026-03-13,54,310-->
 
 ## future
 
-{@{A `Future[T]`}@} holds {@{a computation that will produce a value of type _T_ (or an exception)}@}. The library schedules {@{the task on an execution context}@} and the caller can register {@{callbacks that run when the future completes}@}. Because {@{the completion is asynchronous}@}, {@{`Future` offers combinators}@} such as {@{`map`, `flatMap`, and `zip`}@} to compose {@{independent computations without blocking}@}, and {@{`recover` and `recoverWith`}@} to {@{handle errors}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290-->
+{@{A `Future[T]`}@} holds {@{a computation that will produce a value of type _T_ (or an exception)}@}. The library schedules {@{the task on an execution context}@} and the caller can register {@{callbacks that run when the future completes}@}. Because {@{the completion is asynchronous}@}, {@{`Future` offers combinators}@} such as {@{`map`, `flatMap`, and `zip`}@} to compose {@{independent computations without blocking}@}, and {@{`recover` and `recoverWith`}@} to {@{handle errors}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-03-17,58,310!2026-01-19,15,290!2026-03-17,58,310!2026-01-19,15,290-->
 
 > [!example] __Creating a Future__
 >
@@ -141,13 +141,13 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 > val fact: Future[Int] = Future { (1 to 10).product }
 > ```
 >
-> The result can be {@{manipulated with `fact.map(_ + 1)`}@} or {@{awaited with `Await.result(fact, 5.seconds)`}@}. <!--SR:!2026-01-18,14,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-18,14,290-->
+> The result can be {@{manipulated with `fact.map(_ + 1)`}@} or {@{awaited with `Await.result(fact, 5.seconds)`}@}. <!--SR:!2026-03-17,58,310!2026-01-20,16,290!2026-01-20,16,290!2026-01-19,15,290!2026-03-15,56,310-->
 
-{@{The type signature of a non-concurrent pure function}@} is {@{`A => B`}@}. Returning {@{a future `Future[B]` instead of a plain value `B`}@} lifts the call into {@{asynchronous style}@}. <!--SR:!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-18,14,290-->
+{@{The type signature of a non-concurrent pure function}@} is {@{`A => B`}@}. Returning {@{a future `Future[B]` instead of a plain value `B`}@} lifts the call into {@{asynchronous style}@}. <!--SR:!2026-03-15,56,310!2026-03-14,55,310!2026-01-19,15,290!2026-03-13,54,310-->
 
 ## promise
 
-{@{A `Promise[T]`}@} is {@{a writable container that can be completed once}@}. {@{The owning code}@} creates {@{a promise}@} and hands {@{its `Future` obtained from `Promise.future` to callers}@}; {@{another part of the program}@} completes {@{the promise, which automatically completes all awaiting futures}@}. This pattern decouples {@{the producer from the consumer}@} and makes it easy to {@{bridge legacy APIs}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-18,14,290-->
+{@{A `Promise[T]`}@} is {@{a writable container that can be completed once}@}. {@{The owning code}@} creates {@{a promise}@} and hands {@{its `Future` obtained from `Promise.future` to callers}@}; {@{another part of the program}@} completes {@{the promise, which automatically completes all awaiting futures}@}. This pattern decouples {@{the producer from the consumer}@} and makes it easy to {@{bridge legacy APIs}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-03-14,55,310!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-03-13,54,310-->
 
 > [!example] __`Promise` usage__
 >
@@ -160,13 +160,13 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   p.future
 > ```
 >
-> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290-->
+> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-03-14,55,310!2026-03-14,55,310!2026-01-19,15,290!2026-01-20,16,290!2026-03-14,55,310!2026-01-19,15,290!2026-01-20,16,290-->
 
 ## transformations
 
-`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-18,14,290-->
+`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-01-19,15,290!2026-03-14,55,310!2026-03-17,58,310!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-03-13,54,310-->
 
-{@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-18,14,290-->
+{@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-03-15,56,310-->
 
 > [!example] __`Future.map`__
 >
@@ -177,9 +177,9 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   grindBeans().map(b => brew(b))
 > ```
 >
-> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2026-01-20,16,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290-->
+> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2026-01-20,16,290!2026-03-15,56,310!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290-->
 
-When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-18,14,290-->
+When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-03-15,56,310!2026-01-19,15,290!2026-01-19,15,290!2026-03-13,54,310-->
 
 > [!example] __`Future.flatMap`__
 >
@@ -190,9 +190,9 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().flatMap(b => brew(b))
 > ```
 >
-> {@{The call to `brew`}@} is performed only when {@{`grindBeans` succeeds}@}; otherwise {@{the failure is passed on}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-18,14,290-->
+> {@{The call to `brew`}@} is performed only when {@{`grindBeans` succeeds}@}; otherwise {@{the failure is passed on}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-03-14,55,310!2026-01-20,16,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-03-17,58,310!2026-03-15,56,310-->
 
-{@{`zip`}@} combines {@{two independent futures, yielding a future of a tuple}@}. It does _not_ {@{introduce any dependency between them}@} – both run {@{concurrently (and in parallel if the execution context supports parallelism)}@}. If {@{either operand fails}@}, {@{the combined future fails as well}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-20,16,290-->
+{@{`zip`}@} combines {@{two independent futures, yielding a future of a tuple}@}. It does _not_ {@{introduce any dependency between them}@} – both run {@{concurrently (and in parallel if the execution context supports parallelism)}@}. If {@{either operand fails}@}, {@{the combined future fails as well}@}. <!--SR:!2026-01-20,16,290!2026-01-20,16,290!2026-03-16,57,310!2026-01-20,16,290!2026-03-13,54,310!2026-01-20,16,290-->
 
 > [!example] __`Future.zip`__
 >
@@ -203,9 +203,9 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().zip(grindBeans())
 > ```
 >
-> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2026-01-20,16,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290-->
+> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2026-01-20,16,290!2026-03-15,56,310!2026-01-20,16,290!2026-03-14,55,310!2026-03-15,56,310!2026-01-19,15,290!2026-01-20,16,290!2026-01-19,15,290!2026-03-15,56,310!2026-03-13,54,310-->
 
-{@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290-->
+{@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-03-14,55,310!2026-03-14,55,310!2026-01-19,15,290-->
 
 > [!example] __`Future.recover`__
 >
@@ -215,11 +215,11 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 > val coffeeOrSoda: Future[Coffee] =
 >   makeCoffee().recover { case _: java.io.IOException => defaultCoffee }
 > ```
-<!--SR:!2026-01-18,14,290!2026-01-19,15,290-->
+<!--SR:!2026-03-14,55,310!2026-01-19,15,290-->
 
 ### for-comprehensions
 
-Because {@{`Future` implements `map`, `flatMap`, and `withFilter`}@}, it can be used in {@{a for‑comprehension}@}, which reads {@{naturally as a sequence of steps}@}. <!--SR:!2026-01-20,16,290!2026-01-18,14,290!2026-01-20,16,290-->
+Because {@{`Future` implements `map`, `flatMap`, and `withFilter`}@}, it can be used in {@{a for‑comprehension}@}, which reads {@{naturally as a sequence of steps}@}. <!--SR:!2026-01-20,16,290!2026-03-16,57,310!2026-01-20,16,290-->
 
 > [!example] __for-comprehension with `Future`__
 >
@@ -237,9 +237,9 @@ Because {@{`Future` implements `map`, `flatMap`, and `withFilter`}@}, it can be 
 
 ## dataflow programming
 
-{@{_Dataflow programming_}@} views a program as {@{a network of independent computations that communicate by passing values along edges}@}. Each node executes when {@{all its input values are available}@}, and the result is then {@{propagated to downstream nodes}@}. Scala’s {@{`Future` and `Promise`}@} naturally fit this model: {@{a `Future`}@} represents {@{an edge whose value will be supplied later}@}, while {@{a `Promise`}@} acts as {@{a writable sink that can be completed by any thread}@}. <!--SR:!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290-->
+{@{_Dataflow programming_}@} views a program as {@{a network of independent computations that communicate by passing values along edges}@}. Each node executes when {@{all its input values are available}@}, and the result is then {@{propagated to downstream nodes}@}. Scala’s {@{`Future` and `Promise`}@} naturally fit this model: {@{a `Future`}@} represents {@{an edge whose value will be supplied later}@}, while {@{a `Promise`}@} acts as {@{a writable sink that can be completed by any thread}@}. <!--SR:!2026-03-16,57,310!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-03-14,55,310!2026-03-14,55,310!2026-03-17,58,310!2026-01-19,15,290!2026-01-20,16,290-->
 
-In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is expressed with {@{the combinators `map`, `flatMap`, or `zip`}@}. When {@{all required futures finish}@}, {@{the next step}@} runs. Because the language guarantees that {@{each future is evaluated at most once}@}, the graph remains {@{acyclic and free of race conditions}@}, provided {@{the underlying execution context}@} respects {@{the promises’ completion semantics}@}. <!--SR:!2026-01-18,14,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290-->
+In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is expressed with {@{the combinators `map`, `flatMap`, or `zip`}@}. When {@{all required futures finish}@}, {@{the next step}@} runs. Because the language guarantees that {@{each future is evaluated at most once}@}, the graph remains {@{acyclic and free of race conditions}@}, provided {@{the underlying execution context}@} respects {@{the promises’ completion semantics}@}. <!--SR:!2026-03-16,57,310!2026-01-20,16,290!2026-03-15,56,310!2026-01-19,15,290!2026-03-15,56,310!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290-->
 
 > [!example] __`Future` dataflow example__
 >
@@ -254,9 +254,9 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 > } yield makeCoffee(b, w)                       // node 3 depends on 1 and 2
 > ```
 >
-> {@{The `for`‑comprehension}@} expands to {@{`beans.flatMap { ... }.zip(water).map{…}`}@}, which is {@{a concise dataflow representation}@}. When {@{either `beans` or `water` fails}@}, {@{the whole pipeline fails immediately}@}; if {@{both succeed}@}, `brew` starts only {@{after the two inputs arrive}@}. <!--SR:!2026-01-19,15,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-18,14,290-->
+> {@{The `for`‑comprehension}@} expands to {@{`beans.flatMap { ... }.zip(water).map{…}`}@}, which is {@{a concise dataflow representation}@}. When {@{either `beans` or `water` fails}@}, {@{the whole pipeline fails immediately}@}; if {@{both succeed}@}, `brew` starts only {@{after the two inputs arrive}@}. <!--SR:!2026-01-19,15,290!2026-01-19,15,290!2026-03-17,58,310!2026-03-17,58,310!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-20,16,290!2026-03-13,54,310-->
 
-{@{A `Promise`}@} can be used when {@{an external event must feed into the graph}@}. The producer {@{completes the promise}@}, which triggers {@{all dependent futures}@}: <!--SR:!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-20,16,290-->
+{@{A `Promise`}@} can be used when {@{an external event must feed into the graph}@}. The producer {@{completes the promise}@}, which triggers {@{all dependent futures}@}: <!--SR:!2026-01-19,15,290!2026-03-13,54,310!2026-03-16,57,310!2026-01-20,16,290-->
 
 > [!example] __using a `Promise` as a data‑sink__
 >
@@ -271,9 +271,9 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 > val answer: Future[Int] = p.future
 > ```
 >
-> {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-20,16,290!2026-01-20,16,290-->
+> {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-01-19,15,290!2026-03-17,58,310!2026-01-19,15,290!2026-01-19,15,290!2026-03-13,54,310!2026-01-20,16,290!2026-01-20,16,290-->
 
-{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-20,16,290-->
+{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-01-19,15,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-20,16,290!2026-01-19,15,290!2026-03-13,54,310!2026-01-19,15,290!2026-03-16,57,310!2026-01-20,16,290-->
 
 ## execution context
 
@@ -302,7 +302,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 
 ## API mitigation
 
-When {@{an existing library}@} offers {@{a callback‑based asynchronous method}@}, converting it to {@{a `Future`}@} keeps {@{the original API while giving you the full power of Scala’s concurrent collections}@}. The usual pattern is to create {@{a `Promise`, hand it to the callback}@}, and expose {@{its `future` field}@}. <!--SR:!2026-01-19,15,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-20,16,290-->
+When {@{an existing library}@} offers {@{a callback‑based asynchronous method}@}, converting it to {@{a `Future`}@} keeps {@{the original API while giving you the full power of Scala’s concurrent collections}@}. The usual pattern is to create {@{a `Promise`, hand it to the callback}@}, and expose {@{its `future` field}@}. <!--SR:!2026-01-19,15,290!2026-03-17,58,310!2026-01-19,15,290!2026-01-20,16,290!2026-03-16,57,310!2026-01-20,16,290-->
 
 > [!example] __Lifting callbacks to Future__
 >
@@ -327,6 +327,6 @@ When {@{an existing library}@} offers {@{a callback‑based asynchronous method}
 >   p.future
 > ```
 >
-> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@}, guaranteeing {@{a single result}@}. <!--SR:!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-19,15,290!2026-01-20,16,290!2026-01-18,14,290!2026-01-19,15,290-->
+> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@}, guaranteeing {@{a single result}@}. <!--SR:!2026-01-19,15,290!2026-03-17,58,310!2026-03-15,56,310!2026-01-19,15,290!2026-01-20,16,290!2026-03-15,56,310!2026-01-19,15,290-->
 
-Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@}, guaranteeing {@{a single result}@}. Using this pattern keeps {@{the original callback API intact}@} while enabling callers to compose {@{the operation with other futures via `map`, `flatMap`, or `zip`}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-01-18,14,290!2026-01-18,14,290!2026-01-18,14,290-->
+Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@}, guaranteeing {@{a single result}@}. Using this pattern keeps {@{the original callback API intact}@} while enabling callers to compose {@{the operation with other futures via `map`, `flatMap`, or `zip`}@}. <!--SR:!2026-01-20,16,290!2026-01-19,15,290!2026-01-19,15,290!2026-03-16,57,310!2026-03-13,54,310!2026-03-16,57,310-->

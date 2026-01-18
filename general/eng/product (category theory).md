@@ -104,7 +104,7 @@ For {@{any objects $X,Y,{\text{ and } }Z$ of a category with finite products and
 - [Limit and colimits](limit%20(category%20theory).md) – ::@:: Mathematical concept <!--SR:!2029-06-11,1246,350!2029-07-08,1273,350-->
 - [Equalizer](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2029-03-07,1177,350!2029-06-29,1264,350-->
 - [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2029-02-04,1155,350!2029-02-19,1167,350-->
-- [Cartesian closed category](Cartesian%20closed%20category.md) – ::@:: Type of category in category theory <!--SR:!2026-01-18,285,330!2029-06-16,1251,350-->
+- [Cartesian closed category](Cartesian%20closed%20category.md) – ::@:: Type of category in category theory <!--SR:!2029-08-14,1304,350!2029-06-16,1251,350-->
 - [Categorical pullback](categorical%20pullback.md) – ::@:: Most general completion of a commutative square given two morphisms with same codomain <!--SR:!2028-05-02,841,290!2026-09-05,450,310-->
 
 ## references

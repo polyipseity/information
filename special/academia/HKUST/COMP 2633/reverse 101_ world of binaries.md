@@ -38,7 +38,7 @@ It is okay that one does not understand everything above. The most important par
 
 ## assembly language
 
-Assembly is {@{not a single language}@}. Rather, there are {@{multiple languages, called _instruction set architecture_ (ISA)}@}. The most common ones are {@{x86 and x86-64}@}, which we will focus on. Other examples include {@{ARM32, ARM64, RISC-V, Power ISA, and MIPS}@}. <!--SR:!2026-01-18,396,363!2027-07-03,794,343!2030-11-03,1797,385!2029-12-19,1520,363-->
+Assembly is {@{not a single language}@}. Rather, there are {@{multiple languages, called _instruction set architecture_ (ISA)}@}. The most common ones are {@{x86 and x86-64}@}, which we will focus on. Other examples include {@{ARM32, ARM64, RISC-V, Power ISA, and MIPS}@}. <!--SR:!2031-06-13,1972,383!2027-07-03,794,343!2030-11-03,1797,385!2029-12-19,1520,363-->
 
 ### registers
 
@@ -70,7 +70,7 @@ Below is a list of common instructions (in learning order):
 - `imul <dest> <src>` ::@:: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2028-07-10,1081,357!2028-12-11,1210,365-->
 - `idiv <src>` ::@:: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2027-03-20,584,270!2030-04-02,1614,377-->
 - `and <dest> <src>` ::@:: Bitwise and the value at `<dest>` with `<src>`. <!--SR:!2030-09-24,1763,383!2029-06-22,1377,363-->
-- `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2026-01-18,397,365!2028-08-17,1119,350-->
+- `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2031-06-28,1987,385!2028-08-17,1119,350-->
 - `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2031-03-03,1877,385!2031-04-21,1926,383-->
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2031-06-04,1967,385!2030-07-27,1707,377-->
 - `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2029-05-24,1367,377!2028-08-11,1115,350-->

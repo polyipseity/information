@@ -27,7 +27,7 @@ tags:
 
 ## list
 
-In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include <!--SR:!2026-10-13,271,330!2026-10-06,264,330!2026-01-18,67,310!2026-09-09,237,330!2026-10-26,282,330-->
+In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include <!--SR:!2026-10-13,271,330!2026-10-06,264,330!2026-11-07,293,330!2026-09-09,237,330!2026-10-26,282,330-->
 
 > [!example] __list construction__
 >
@@ -41,9 +41,9 @@ In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@}
 > ```
 <!--SR:!2026-09-04,232,330!2026-10-08,266,330-->
 
-Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!2026-10-10,268,330!2026-11-03,290,330!2026-10-29,285,330!2026-09-26,254,330!2026-09-20,248,330!2026-09-06,234,330!2026-10-04,262,330!2026-10-11,269,330!2026-10-08,266,330!2026-10-19,277,330!2026-01-18,67,310-->
+Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!2026-10-10,268,330!2026-11-03,290,330!2026-10-29,285,330!2026-09-26,254,330!2026-09-20,248,330!2026-09-06,234,330!2026-10-04,262,330!2026-10-11,269,330!2026-10-08,266,330!2026-10-19,277,330!2026-11-07,293,330-->
 
-{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!2026-10-13,271,330!2026-09-05,233,330!2026-10-09,267,330!2026-09-25,253,330!2026-10-09,267,330!2026-10-23,281,330!2026-10-22,280,330!2026-09-27,255,330!2026-09-12,240,330!2026-01-18,67,310-->
+{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!2026-10-13,271,330!2026-09-05,233,330!2026-10-09,267,330!2026-09-25,253,330!2026-10-09,267,330!2026-10-23,281,330!2026-10-22,280,330!2026-09-27,255,330!2026-09-12,240,330!2026-11-07,293,330-->
 
 > [!example] __operator associativity__
 >
@@ -53,7 +53,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 > val nums = 1 :: (2 :: (3 :: (4 :: Nil)))
 > val nums = 1 ::  2 ::  3 ::  4 :: Nil     // Equivalent
 > ```
-<!--SR:!2026-01-18,67,310!2026-01-18,67,310!2026-09-29,257,330!2026-09-06,234,330-->
+<!--SR:!2026-11-08,294,330!2026-11-06,292,330!2026-09-29,257,330!2026-09-06,234,330-->
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}. <!--SR:!2026-10-11,269,330!2026-09-02,230,330!2026-10-21,279,330-->
 
@@ -71,7 +71,7 @@ Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered co
 
 ### list covariance
 
-Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!2026-09-26,254,330!2026-01-18,67,310!2026-10-20,278,330!2026-10-01,259,330!2026-09-06,234,330!2026-10-16,274,330-->
+Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!2026-09-26,254,330!2026-11-06,292,330!2026-10-20,278,330!2026-10-01,259,330!2026-09-06,234,330!2026-10-16,274,330-->
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!2026-09-21,249,330!2026-10-18,276,330!2026-10-11,269,330-->
 
@@ -115,9 +115,9 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > val fruits = List("Apple", "Orange", "Banana")
 > val nums   = 1 :: 2 :: Nil          // equivalent to List(1, 2)
 > ```
-<!--SR:!2026-10-08,266,330!2026-01-18,67,310!2026-09-04,232,330!2026-10-17,275,330-->
+<!--SR:!2026-10-08,266,330!2026-11-04,290,330!2026-09-04,232,330!2026-10-17,275,330-->
 
-{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2026-09-20,248,330!2026-01-18,67,310!2026-01-18,67,310!2026-09-05,233,330!2026-10-12,270,330!2026-01-18,67,310!2026-09-06,234,330-->
+{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2026-09-20,248,330!2026-11-05,291,330!2026-11-08,294,330!2026-09-05,233,330!2026-10-12,270,330!2026-11-05,291,330!2026-09-06,234,330-->
 
 > [!example] __list decomposition__
 >
@@ -135,9 +135,9 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 >   case x :: y :: _ => x + y  // 3
 > }
 > ```
-<!--SR:!2026-10-27,283,330!2026-10-11,269,330!2026-10-10,268,330!2026-10-21,279,330!2026-01-18,67,310!2026-09-13,241,330!2026-10-26,282,330-->
+<!--SR:!2026-10-27,283,330!2026-10-11,269,330!2026-10-10,268,330!2026-10-21,279,330!2026-11-08,294,330!2026-09-13,241,330!2026-10-26,282,330-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-01-18,67,310!2026-09-26,254,330!2026-10-18,276,330!2026-06-14,175,310!2026-11-01,288,330!2026-09-23,251,330!2026-09-13,241,330!2026-09-15,243,330!2026-10-26,282,330-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!2026-09-26,254,330!2026-10-18,276,330!2026-06-14,175,310!2026-11-01,288,330!2026-09-23,251,330!2026-09-13,241,330!2026-09-15,243,330!2026-10-26,282,330-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-09-18,246,330!2026-10-01,259,330!2026-09-03,231,330!2026-09-20,248,330-->
 
@@ -164,7 +164,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!2026-09-28,256,330!2026-10-03,261,330!2026-10-30,286,330-->
 
-{@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!2026-10-19,277,330!2026-10-18,276,330!2026-01-18,67,310-->
+{@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!2026-10-19,277,330!2026-10-18,276,330!2026-11-05,291,330-->
 
 > [!example] __concatenation operator `:::`__
 >
@@ -209,7 +209,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 >     if (n == 0) ys else y :: removeAt(n - 1, ys)
 > }
 > ```
-<!--SR:!2026-01-18,67,310!2026-11-01,288,330-->
+<!--SR:!2026-11-06,292,330!2026-11-01,288,330-->
 
 {@{A "deep" flattening routine}@} demonstrates {@{recursion over heterogeneous structures}@}: <!--SR:!2026-10-29,285,330!2026-10-18,276,330-->
 
@@ -266,7 +266,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 
 ### filter
 
-{@{Filtering \(`filter`\)}@} extracts {@{elements that satisfy a Boolean predicate}@}: <!--SR:!2026-01-18,67,310!2026-10-14,272,330-->
+{@{Filtering \(`filter`\)}@} extracts {@{elements that satisfy a Boolean predicate}@}: <!--SR:!2026-11-04,290,330!2026-10-14,272,330-->
 
 > [!example] __`filter`__
 >
@@ -299,7 +299,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 
 ### pack
 
-{@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}: <!--SR:!2026-01-18,67,310!2026-09-01,229,330-->
+{@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}: <!--SR:!2026-11-06,292,330!2026-09-01,229,330-->
 
 > [!example] __`pack`__
 >
@@ -316,7 +316,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >
 > In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2026-01-26,74,330!2026-01-24,72,330!2026-05-06,144,310!2026-01-27,75,330!2026-01-25,73,330-->
 
-In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained: <!--SR:!2026-01-18,67,310!2026-10-13,271,330!2026-01-22,70,330!2026-01-27,75,330!2026-01-28,76,330-->
+In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained: <!--SR:!2026-11-07,293,330!2026-10-13,271,330!2026-01-22,70,330!2026-01-27,75,330!2026-01-28,76,330-->
 
 > [!example] __`pack` example__
 >
@@ -328,7 +328,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > ```
 <!--SR:!2026-09-30,258,330!2026-09-22,250,330-->
 
-As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2026-06-15,176,310!2026-01-18,67,310!2026-09-11,239,330!2026-09-29,257,330!2026-01-25,73,330-->
+As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2026-06-15,176,310!2026-11-08,294,330!2026-09-11,239,330!2026-09-29,257,330!2026-01-25,73,330-->
 
 ### reduce
 
@@ -341,9 +341,9 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 > ```Scala
 > List(x1, ..., xn).reduceLeft((x, y) => x.op(y))
 > ```
-<!--SR:!2026-08-31,228,330!2026-09-03,231,330!2026-01-18,67,310-->
+<!--SR:!2026-08-31,228,330!2026-09-03,231,330!2026-11-08,294,330-->
 
-Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!2026-10-17,275,330-->
+Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!2026-10-17,275,330-->
 
 > [!example] __`reduceLeft` example__
 >
@@ -379,7 +379,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 > ```
 <!--SR:!2026-09-23,251,330!2026-10-05,263,330!2026-01-27,75,330-->
 
-{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!2026-09-09,237,330!2026-01-18,67,310!2026-10-10,268,330!2026-10-08,266,330!2026-09-27,255,330!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
+{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!2026-09-09,237,330!2026-11-04,290,330!2026-10-10,268,330!2026-10-08,266,330!2026-09-27,255,330!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
 
 {@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}: <!--SR:!2026-09-19,247,330!2026-10-03,261,330-->
 
@@ -416,7 +416,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-01-18,67,310!202
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-01-18,67,310!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!2026-09-02,230,330!2026-09-10,238,330!2026-09-03,231,330!2026-09-27,255,330!2026-10-28,284,330-->
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!2026-09-02,230,330!2026-09-10,238,330!2026-09-03,231,330!2026-09-27,255,330!2026-10-28,284,330-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!2026-08-30,227,330-->
 
@@ -430,10 +430,10 @@ Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!2026-08-
 > ```
 <!--SR:!2026-11-01,288,330-->
 
-Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Instead {@{two operators with a colon pointing toward the sequence operand}@} are provided: <!--SR:!2026-01-18,67,310!2026-10-08,266,330!2026-09-07,235,330-->
+Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Instead {@{two operators with a colon pointing toward the sequence operand}@} are provided: <!--SR:!2026-11-05,291,330!2026-10-08,266,330!2026-09-07,235,330-->
 
 - `x +: xs` ::@:: creates a new vector whose first element is `x` followed by all elements of `xs`; <!--SR:!2026-10-17,275,330!2026-08-30,227,330-->
-- `xs :+ x` ::@:: appends `x` to the end of `xs`. In both cases the colon points toward the sequence, reflecting that the operation acts on the whole collection rather than just its head. <!--SR:!2026-09-07,235,330!2026-01-18,67,310-->
+- `xs :+ x` ::@:: appends `x` to the end of `xs`. In both cases the colon points toward the sequence, reflecting that the operation acts on the whole collection rather than just its head. <!--SR:!2026-09-07,235,330!2026-11-07,293,330-->
 
 ## Java sequences
 
@@ -480,7 +480,7 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!2026-09-10,238,330-->
 - `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results. <!--SR:!2026-10-02,260,330!2026-09-06,234,330-->
 - `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!2026-10-10,268,330!2026-10-26,282,330-->
-- `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!2026-09-15,243,330!2026-01-18,67,310-->
+- `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!2026-09-15,243,330!2026-11-04,290,330-->
 
 These operations are typically implemented via {@{recursion or tail-recursion}@} over {@{the underlying list structure}@}. <!--SR:!2026-10-27,283,330!2026-11-02,289,330-->
 
@@ -576,7 +576,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```
 <!--SR:!2026-09-24,252,330!2026-09-14,242,330!2026-10-18,276,330!2026-10-01,259,330!2026-10-12,270,330!2026-10-18,276,330-->
 
-{@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}. <!--SR:!2026-09-20,248,330!2026-11-03,290,330!2026-10-18,276,330!2026-01-18,67,310-->
+{@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}. <!--SR:!2026-09-20,248,330!2026-11-03,290,330!2026-10-18,276,330!2026-11-04,290,330-->
 
 ### map methods
 
@@ -616,7 +616,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```Scala
 > Map(0 -> 5, 1 -> -2, 3 -> 1)
 > ```
-<!--SR:!2026-01-18,67,310!2026-09-27,255,330!2026-10-18,276,330-->
+<!--SR:!2026-11-06,292,330!2026-09-27,255,330!2026-10-18,276,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -708,4 +708,4 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!2026-09-12,240,330!2026-09-24,252,330-->
 
-{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!2026-01-18,67,310!2026-09-04,232,330!2026-10-14,272,330-->
+{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!2026-11-05,291,330!2026-09-04,232,330!2026-10-14,272,330-->

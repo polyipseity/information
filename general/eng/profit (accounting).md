@@ -13,7 +13,7 @@ tags:
 # profit
 
 - This article is about {@{profit in accounting and business}@}. For {@{profit in [economics](economics.md) and [political economy](political%20economy.md)}@}, see {@{[Profit \(economics\)](profit%20(economics).md)}@}.
-- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}. <!--SR:!2029-04-17,1193,350!2026-01-21,276,330!2029-03-20,1171,350!2026-01-18,274,330!2029-01-22,1133,350!2028-12-18,1104,350-->
+- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}. <!--SR:!2029-04-17,1193,350!2026-01-21,276,330!2029-03-20,1171,350!2029-06-19,1248,350!2029-01-22,1133,350!2028-12-18,1104,350-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(May 2020\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 

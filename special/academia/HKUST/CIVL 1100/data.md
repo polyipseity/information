@@ -262,7 +262,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
-- description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
+- description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2033-09-04,2786,417-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2033-05-21,2688,420!2029-06-02,1487,400-->
 - length ::@:: 1596 m, longest span: 1018 m <!--SR:!2026-01-19,208,200!2027-10-27,958,370-->
 

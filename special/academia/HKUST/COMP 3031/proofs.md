@@ -20,7 +20,7 @@ tags:
 
 ## list properties
 
-In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!2026-09-03,235,330!2026-09-08,240,330!2026-10-28,285,330!2026-09-18,250,330!2026-10-19,277,330!2026-09-04,236,330!2026-10-17,276,330!2026-11-03,290,330!2026-01-18,67,310!2026-10-10,269,330!2026-10-14,273,330-->
+In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!2026-09-03,235,330!2026-09-08,240,330!2026-10-28,285,330!2026-09-18,250,330!2026-10-19,277,330!2026-09-04,236,330!2026-10-17,276,330!2026-11-03,290,330!2026-11-08,294,330!2026-10-10,269,330!2026-10-14,273,330-->
 
 - __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!2026-09-09,241,330!2026-09-16,248,330-->
 - __Neutral element__ ::@:: – the empty list `Nil` is a left and right identity: `xs ::: Nil = xs` and `Nil ::: xs = xs` <!--SR:!2026-09-27,259,330!2026-09-18,250,330-->
@@ -55,7 +55,7 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 
 ### structural induction on trees
 
-Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!2026-09-05,237,330!2026-10-08,267,330!2026-10-19,277,330!2026-01-18,67,310-->
+Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!2026-09-05,237,330!2026-10-08,267,330!2026-10-19,277,330!2026-11-08,294,330-->
 
 - inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!2026-09-16,248,330!2026-09-14,246,330-->
 - induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub-trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$. <!--SR:!2026-09-19,251,330!2026-10-23,281,330-->
@@ -154,7 +154,7 @@ Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs 
 
 ### proving `xs ::: Nil = xs`
 
-To {@{prove `xs ::: Nil = xs`}@}, the proof {@{proceeds similarly}@}. {@{The base case is trivial}@} because {@{`Nil ::: Nil` reduces directly to `Nil`}@}. In {@{the inductive step}@} we need {@{two equations}@}: one from {@{the definition of `:::` applied to `x :: xs`}@} and one from {@{the induction hypothesis that `xs ::: Nil = xs`}@}. Thus, {@{_two_ equations}@} are needed. <!--SR:!2026-10-06,268,330!2026-10-09,268,330!2026-10-25,282,330!2026-10-14,273,330!2026-01-18,67,310!2026-10-04,266,330!2026-09-30,262,330!2026-09-11,243,330!2026-10-31,287,330-->
+To {@{prove `xs ::: Nil = xs`}@}, the proof {@{proceeds similarly}@}. {@{The base case is trivial}@} because {@{`Nil ::: Nil` reduces directly to `Nil`}@}. In {@{the inductive step}@} we need {@{two equations}@}: one from {@{the definition of `:::` applied to `x :: xs`}@} and one from {@{the induction hypothesis that `xs ::: Nil = xs`}@}. Thus, {@{_two_ equations}@} are needed. <!--SR:!2026-10-06,268,330!2026-10-09,268,330!2026-10-25,282,330!2026-10-14,273,330!2026-11-05,291,330!2026-10-04,266,330!2026-09-30,262,330!2026-09-11,243,330!2026-10-31,287,330-->
 
 ### proving reverse is its own inverse
 
@@ -216,13 +216,13 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >   = x :: xs1                              // induction hypothesis on xs1
 > ```
 >
-> Thus {@{`xs.reverse.reverse = xs` holds for all lists}@}. <!--SR:!2026-09-18,250,330!2026-09-17,249,330!2026-09-02,234,330!2026-09-17,249,330!2026-10-21,279,330!2026-05-28,160,310!2026-07-15,185,310!2026-10-24,281,330!2026-09-30,262,330!2026-10-20,278,330!2026-01-18,67,310!2026-01-18,67,310!2026-10-25,282,330-->
+> Thus {@{`xs.reverse.reverse = xs` holds for all lists}@}. <!--SR:!2026-09-18,250,330!2026-09-17,249,330!2026-09-02,234,330!2026-09-17,249,330!2026-10-21,279,330!2026-05-28,160,310!2026-07-15,185,310!2026-10-24,281,330!2026-09-30,262,330!2026-10-20,278,330!2026-11-07,293,330!2026-11-04,290,330!2026-10-25,282,330-->
 
 ### proving `map` is distributive over concatenation
 
-A further law often used in functional programming is that {@{mapping a function over the concatenation of two lists}@} equals {@{the concatenation of the mapped sublists}@}: {@{`(xs ::: ys).map(f) = xs.map(f) ::: ys.map(f)`}@}. <!--SR:!2026-10-31,287,330!2026-10-27,284,330!2026-01-18,67,310-->
+A further law often used in functional programming is that {@{mapping a function over the concatenation of two lists}@} equals {@{the concatenation of the mapped sublists}@}: {@{`(xs ::: ys).map(f) = xs.map(f) ::: ys.map(f)`}@}. <!--SR:!2026-10-31,287,330!2026-10-27,284,330!2026-11-06,292,330-->
 
-To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!2026-09-14,246,330!2026-09-01,233,330!2026-09-19,251,330!2026-01-18,67,310-->
+To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!2026-09-14,246,330!2026-09-01,233,330!2026-09-19,251,330!2026-11-05,291,330-->
 
 > [!example] __`map` definition__
 >
@@ -241,7 +241,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 ### proving set properties
 
-{@{An application}@} of tree induction is {@{the implementation of a binary search tree}@} representing {@{a set of integers}@}. {@{The `IntSet` type}@} can be expressed as: <!--SR:!2026-09-30,262,330!2026-10-16,275,330!2026-01-18,67,310!2026-10-01,263,330-->
+{@{An application}@} of tree induction is {@{the implementation of a binary search tree}@} representing {@{a set of integers}@}. {@{The `IntSet` type}@} can be expressed as: <!--SR:!2026-09-30,262,330!2026-10-16,275,330!2026-11-06,292,330!2026-10-01,263,330-->
 
 > [!example] __binary tree integer set__
 >
@@ -269,7 +269,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 <!--SR:!2026-09-23,255,330!2026-10-09,268,330!2026-09-18,250,330!2026-09-24,256,330-->
 
-{@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!2026-09-21,253,330!2026-01-18,67,310!2026-08-30,231,330!2026-09-18,250,330!2026-10-01,263,330!2026-09-13,245,330!2026-09-17,249,330-->
+{@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!2026-09-21,253,330!2026-11-08,294,330!2026-08-30,231,330!2026-09-18,250,330!2026-10-01,263,330!2026-09-13,245,330!2026-09-17,249,330-->
 
 > [!example] __proving empty contains nothing__
 >
@@ -301,7 +301,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{`x < elem`}@}, `incl` recurses {@{into the left child: `NonEmpty(elem, l.incl(x), r)`}@}. By {@{the induction hypothesis}@}, {@{`l.incl(x).contains(x)` is `true`}@}; consequently {@{the whole expression evaluates to `true`}@}.
 > - {@{The case `x > elem`}@} is {@{analogous with the right child}@}.
 >
-> Thus {@{law 2 holds for all trees}@}. <!--SR:!2026-09-04,236,330!2026-09-20,252,330!2026-01-18,67,310!2026-09-27,259,330!2026-09-29,261,330!2026-09-29,261,330!2026-10-05,267,330!2026-01-18,67,310!2026-09-10,242,330!2026-10-08,267,330!2026-01-18,67,310!2026-09-06,238,330!2026-09-22,254,330!2026-10-27,284,330!2026-09-30,262,330-->
+> Thus {@{law 2 holds for all trees}@}. <!--SR:!2026-09-04,236,330!2026-09-20,252,330!2026-11-07,293,330!2026-09-27,259,330!2026-09-29,261,330!2026-09-29,261,330!2026-10-05,267,330!2026-11-04,290,330!2026-09-10,242,330!2026-10-08,267,330!2026-11-07,293,330!2026-09-06,238,330!2026-09-22,254,330!2026-10-27,284,330!2026-09-30,262,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -357,7 +357,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 <!--SR:!2026-09-17,249,330!2026-10-21,279,330-->
 
-{@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!2026-09-04,236,330!2026-01-18,67,310-->
+{@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!2026-09-04,236,330!2026-11-06,292,330-->
 
 > [!example] __`IntSet.union` property__
 >
@@ -365,7 +365,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >
 > For {@{any sets $x$ and $y$ and element $e$}@}, {@{$$x.\text{union}(y).\text{contains}(e) = x.\text{contains}(e)\; \lor\; y.\text{contains}(e)$$}@} <!--SR:!2026-10-14,273,330!2026-09-07,239,330!2026-10-22,280,330!2026-09-05,237,330-->
 
-The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2026-10-13,272,330!2026-10-11,270,330!2026-10-04,266,330!2026-10-16,275,330!2026-10-13,272,330!2026-09-13,245,330!2026-01-18,67,310!2026-09-23,255,330!2026-06-12,173,310!2026-10-15,274,330!2026-10-19,277,330!2026-10-11,270,330!2026-09-25,257,330-->
+The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2026-10-13,272,330!2026-10-11,270,330!2026-10-04,266,330!2026-10-16,275,330!2026-10-13,272,330!2026-09-13,245,330!2026-11-07,293,330!2026-09-23,255,330!2026-06-12,173,310!2026-10-15,274,330!2026-10-19,277,330!2026-10-11,270,330!2026-09-25,257,330-->
 
 > [!example] __`IntSet.union` property proof: part 1__
 >
@@ -382,7 +382,7 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > One expands {@{the left hand side}@} to {@{`l.union(r.union(y)).incl(z).contains(e)`}@}.
 >
 > - If {@{`z == e`}@}, then {@{both sides easily reduce to `true`}@}.
-> - If {@{`z != e`}@}, then the above can be reduced to {@{`l.union(r.union(y)).contains(e)`}@} by that {@{non-insertion preserves membership}@}. Then apply {@{the inductive hypothesis twice}@}: {@{`l.contains(e) || r.union(y).contains(e)`, and then `l.contains(e) || r.contains(e) || y.contains(e)`}@}. Extracting {@{common subexpressions}@}, what remains to show is that {@{`l.contains(e) || r.contains(e) == NonEmpty(z, l, r).contains(e)`}@}. <!--SR:!2026-10-05,267,330!2026-10-14,273,330!2026-09-08,240,330!2026-09-15,247,330!2026-09-28,260,330!2026-09-10,242,330!2026-09-15,247,330!2026-09-20,252,330!2026-09-07,239,330!2026-09-21,253,330!2026-01-18,67,310!2026-10-22,280,330!2026-10-01,263,330!2026-09-10,242,330!2026-10-12,271,330!2026-10-28,285,330!2026-09-12,244,330!2026-10-28,285,330!2026-10-21,279,330!2026-10-10,269,330!2026-10-12,271,330!2026-09-21,253,330!2026-09-06,238,330!2026-09-10,242,330!2026-10-28,285,330-->
+> - If {@{`z != e`}@}, then the above can be reduced to {@{`l.union(r.union(y)).contains(e)`}@} by that {@{non-insertion preserves membership}@}. Then apply {@{the inductive hypothesis twice}@}: {@{`l.contains(e) || r.union(y).contains(e)`, and then `l.contains(e) || r.contains(e) || y.contains(e)`}@}. Extracting {@{common subexpressions}@}, what remains to show is that {@{`l.contains(e) || r.contains(e) == NonEmpty(z, l, r).contains(e)`}@}. <!--SR:!2026-10-05,267,330!2026-10-14,273,330!2026-09-08,240,330!2026-09-15,247,330!2026-09-28,260,330!2026-09-10,242,330!2026-09-15,247,330!2026-09-20,252,330!2026-09-07,239,330!2026-09-21,253,330!2026-11-08,294,330!2026-10-22,280,330!2026-10-01,263,330!2026-09-10,242,330!2026-10-12,271,330!2026-10-28,285,330!2026-09-12,244,330!2026-10-28,285,330!2026-10-21,279,330!2026-10-10,269,330!2026-10-12,271,330!2026-09-21,253,330!2026-09-06,238,330!2026-09-10,242,330!2026-10-28,285,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -391,7 +391,7 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > To prove {@{the above assuming `z != e`}@}, {@{split cases on `z > e` and `z < e`}@}.
 >
 > - If {@{`z > e`}@}, then {@{RHS reduces to `l.contains(e)`}@}. We need to show {@{`r.contains(e)` is `false` to reduce LHS to the same expression}@}. This requires {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. See {@{the part below}@}.
-> - If {@{`z < e`}@}, the proof is {@{analogous}@}. <!--SR:!2026-10-30,286,330!2026-09-30,262,330!2026-10-04,266,330!2026-10-26,283,330!2026-10-19,277,330!2026-09-22,254,330!2026-01-18,67,310!2026-10-27,284,330!2026-09-19,251,330!2026-09-22,254,330-->
+> - If {@{`z < e`}@}, the proof is {@{analogous}@}. <!--SR:!2026-10-30,286,330!2026-09-30,262,330!2026-10-04,266,330!2026-10-26,283,330!2026-10-19,277,330!2026-09-22,254,330!2026-11-05,291,330!2026-10-27,284,330!2026-09-19,251,330!2026-09-22,254,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -404,4 +404,4 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > - {@{_Base case_}@}: Consider {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}.
 > - {@{_Inductive step_}@}: Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.
 >
-> This {@{finishes the proof}@}. <!--SR:!2026-10-06,268,330!2026-01-18,67,310!2026-09-12,244,330!2026-10-13,272,330!2026-10-01,263,330!2026-10-11,270,330!2026-10-11,270,330!2026-09-08,240,330!2026-06-11,172,310!2026-10-23,281,330!2026-10-12,271,330!2026-09-03,235,330!2026-10-05,267,330!2026-01-28,76,330!2026-01-26,74,330!2026-01-24,72,330!2026-01-23,71,330!2026-01-22,70,330!2026-01-27,75,330-->
+> This {@{finishes the proof}@}. <!--SR:!2026-10-06,268,330!2026-11-04,290,330!2026-09-12,244,330!2026-10-13,272,330!2026-10-01,263,330!2026-10-11,270,330!2026-10-11,270,330!2026-09-08,240,330!2026-06-11,172,310!2026-10-23,281,330!2026-10-12,271,330!2026-09-03,235,330!2026-10-05,267,330!2026-01-28,76,330!2026-01-26,74,330!2026-01-24,72,330!2026-01-23,71,330!2026-01-22,70,330!2026-01-27,75,330-->

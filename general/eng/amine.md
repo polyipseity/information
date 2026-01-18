@@ -25,7 +25,7 @@ Most amines are {@{less [dense](density.md) than [water](water.md)}@}. {@{Densit
 
 ### solubility
 
-{@{Amines that are small}@} are {@{[soluble](solubility.md) in [water](water.md)}@}. {@{Solubility decreases}@} {@{the larger the amine}@}. <!--SR:!2026-01-18,700,310!2028-05-26,1463,350!2026-09-06,298,356!2026-09-10,302,356-->
+{@{Amines that are small}@} are {@{[soluble](solubility.md) in [water](water.md)}@}. {@{Solubility decreases}@} {@{the larger the amine}@}. <!--SR:!2034-04-09,3003,330!2028-05-26,1463,350!2026-09-06,298,356!2026-09-10,302,356-->
 
 ## references
 

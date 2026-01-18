@@ -16,7 +16,7 @@ tags:
 
 # Newton's method
 
-{@{__Newton's method__, also known as the __Newton–Raphson method__}@}, is {@{a [root-finding algorithm](root-finding%20algorithms.md)}@}. <!--SR:!2028-04-18,1246,350!2026-01-18,71,323-->
+{@{__Newton's method__, also known as the __Newton–Raphson method__}@}, is {@{a [root-finding algorithm](root-finding%20algorithms.md)}@}. <!--SR:!2028-04-18,1246,350!2026-12-02,318,343-->
 
 > {@{__Newton's method__}@}
 >

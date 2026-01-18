@@ -284,7 +284,7 @@ See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)
 
 ### prefix for carbon count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {@{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2026-01-18,747,343-->
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {@{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2033-01-23,2562,343-->
 
 ## functional groups
 
@@ -628,7 +628,7 @@ return (
 <!--pytextgen generate section="ad92c1"--><!-- The following content is generated at 2024-01-04T20:17:52.277346+08:00. Any edits will be overridden! -->
 
 - _(highest)_→::@::←cation <!--SR:!2035-04-09,3636,344!2028-10-09,1910,372-->
-- cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
+- cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2035-09-05,3517,296-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2027-06-14,720,247-->
 - nitrile→::@::←aldehyde <!--SR:!2026-03-15,61,130!2026-03-05,295,190-->

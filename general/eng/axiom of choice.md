@@ -276,7 +276,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!2026-07-04,234,330!2026-11-30,359,364!2026-09-30,308,347!2026-01-31,27,395-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!2026-01-18,40,324!2026-01-31,27,395-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!2026-07-16,179,344!2026-01-31,27,395-->
 
   - \(annotation: {@{weaker than}@} AC\) On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!2026-06-14,204,327!2026-11-26,355,364!2026-04-18,174,327!2026-01-31,27,395-->
 
