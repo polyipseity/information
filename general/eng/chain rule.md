@@ -19,7 +19,7 @@ tags:
 
 > [!example] examples
 >
-> - $f(x) := x^{2^x}, f'(x) = ?$ :@: $f'(x) = x^{2^x} 2^x \left(\frac 1 x + \ln x \ln 2 \right)$ <!--SR:!2027-12-20,715,232-->
+> - $f(x) := x^{2^x}, f'(x) = ?, x > 0$ :@: $f'(x) = \left(e^{2^x \ln x}\right)' = x^{2^x} 2^x \left(\frac 1 x + \ln x \ln 2 \right)$ <!--SR:!2027-12-20,715,232-->
 > - $a(3) = 27, a(12) = 3, a'(3) = 12, a'(12) = 5, b(2) = 12, b(5) = 12, b'(2) = 27, b'(5) = 3, (a \circ b)'(5) = ?$ :@: $(a \circ b)'(5) = a'(b(5)) \cdot b'(5) = a'(12) \cdot b'(5) = 5 \cdot 3 = 15$ <!--SR:!2029-05-24,1412,310-->
 > - $\frac {\mathrm{d} } {\mathrm{d}\xi} \frac {\mathrm{d}\xi} {\mathrm{d}\eta} = ?$ :@: $\frac {\mathrm{d} } {\mathrm{d}\xi} \frac {\mathrm{d}\xi} {\mathrm{d}\eta} = \frac {\mathrm{d} } {\mathrm{d}\eta}$ <!--SR:!2027-12-16,1103,352-->
 > - $\frac \partial {\partial \alpha} \frac {\partial \alpha} {\partial \beta} = ?$ :@: The above form of chain rule does not apply. See [§ multivariable case](#multivariable%20case). [Counterexample](counterexample.md): $x + y + z = 0 \implies \frac {\partial x} {\partial y} = \frac {\partial y} {\partial z} = \frac {\partial z} {\partial x} = -1 \implies -1 = \frac {\partial x} {\partial y} \frac {\partial y} {\partial z} \frac {\partial z} {\partial x} \ne \frac {\partial x} {\partial x} = 1$ <!--SR:!2031-05-31,2045,332-->

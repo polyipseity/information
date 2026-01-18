@@ -103,7 +103,7 @@ The content is in teaching order.
     - forward contract / values / maturity date ::@:: The time the purchase or sale occurs. <!--SR:!2027-01-27,388,364!2026-12-27,357,364-->
     - forward contract / values / notational value ::@:: The spot price of the underlying item _now_. <!--SR:!2026-12-19,349,364!2027-01-03,364,364-->
   - forward contract / market ::@:: It is traded on OTC markets as they are non-standardized. <!--SR:!2026-12-18,348,364!2027-01-20,381,364-->
-  - forward contract / positions ::@:: long position: Buyer of the underlying item, as it expects its spot price to rise. <br/> short position: Seller of the underlying item, as it expects its spot price to decline. <!--SR:!2027-01-06,367,364!2027-01-03,364,364-->
+  - forward contract / positions ::@:: - _long_ position: Buyer of the underlying item, as it expects its spot price to rise. <br/> - _short_ position: Seller of the underlying item, as it expects its spot price to decline. <!--SR:!2027-01-06,367,364!2027-01-03,364,364-->
   - forward contract / payoffs ::@:: The value of a forward position _at maturity_ depends on the relationship between the delivery price \($K$\) and the underlying price \($S_{T}$\) at that time. <p> - For a long position this payoff is: $f_{T}=S_{T}-K$ <br/> - For a short position, it is: $f_{T}=K-S_{T}$ <p> The payoffs for the two positions always sum to zero, making this a _zero-sum_ game. <!--SR:!2027-02-05,397,364!2027-01-25,386,364-->
     - forward contract / payoffs / interpretation ::@:: Since the final value \(at maturity\) of a forward position depends on the spot price which will then be prevailing, this contract can be viewed, from a purely financial point of view, as _"a bet on the future spot price"_. <!--SR:!2027-01-01,362,364!2026-12-17,347,364-->
   - forward contract / usage ::@:: short selling, synthetic zero-coupon bond, etc. <!--SR:!2027-01-23,384,364!2027-01-14,375,364-->
@@ -227,7 +227,7 @@ The content is in teaching order.
     - Metallgesellschaft / hedging debacle / intuition ::@:: The price with premium is $P$. Consider a forward sales maturity two months later. Using stack and roll, this forward sales is hedged by two one-month futures contracts, one bought now and the other bought one month later. Consider three scenarios: _no hedging_, _ideal hedging_, and _stack and roll_. <!--SR:!2026-04-01,132,412!2026-04-01,132,412-->
       - Metallgesellschaft / hedging debacle / intuition / no hedging ::@:: Payoff is $$P - S_2 \,.$$ It is subject to the then-prevailing spot price. <!--SR:!2026-03-31,131,412!2026-03-31,131,412-->
       - Metallgesellschaft / hedging debacle / intuition / ideal hedging ::@:: Payoff is $$(P - S_2) + (S_2 - F_{0, 2}) = P - F_{0, 2} \,.$$ The spot price is insured against the then-prevailing spot price. The premium of \$3–\$5 \(difference between $P$ and $F_{0, 2}$\) is locked in. <!--SR:!2026-04-01,132,412!2026-03-31,131,412-->
-      - Metallgesellschaft / hedging debacle / intuition / stack and roll ::@:: Payoff is $$(P - S_2) + (S_2 - F_{1, 2}) + (S_1 - F_{0, 1}) = (P - F_{1, 2}) + (S_1 - F_{0, 1}) \,.$$ The hedge is not perfect: whether the market is currently in contango \(lose because $F_{t, t + 1} > S_{t + 1}$\) or backwardation \(gain because $F_{t, t + 1} < S_{t + 1}$\) matters. However, we assume the forward curve is always flat \(i.e. $F_{t, t + 1} = S_t$\), we get $P - F_{0, 1}$. <p> Intuitively, with stack and roll, we see risk from changing spot price is replaced by the risk from by how much the market is in contango or backwardation. <p> If we _assume_ the market stays in contango \(lose\) or backwardation \(gain\) with equal severity \(in terms of duration and pricing\) over a long period \(e.g. 10 years\), then stack and roll gives similar payoff to ideal hedging at the forward sales' maturity. <!--SR:!2026-06-07,154,328!2026-03-27,112,328-->
+      - Metallgesellschaft / hedging debacle / intuition / stack and roll ::@:: Payoff is $$(P - S_2) + (S_2 - F_{1, 2}) + (S_1 - F_{0, 1}) = (P - F_{1, 2}) + (S_1 - F_{0, 1}) \,.$$ The hedge is not perfect: whether the market is currently in "contango" \(more accurately, negative basis; lose because $S_t < F_{t, t + 1}$\) or "backwardation" \(more accurately, positive basis; gain because $F_{t, t + 1}$\) matters. However, we assume forward curve is always flat \(i.e. $S_t = F_{t, t + \Delta t}$ for any $\Delta t$; implies no basis\), we get $P - F_{0, 1}$. <p> Intuitively, with stack and roll, we see risk from changing spot price is replaced by the risk from by how much the market is in contango or backwardation. <p> If we _assume_ the market stays in contango \(lose\) or backwardation \(gain\) with equal severity \(in terms of duration and pricing\) over a long period \(e.g. 10 years\), then stack and roll gives similar payoff to ideal hedging at the forward sales' maturity. <!--SR:!2026-06-07,154,328!2026-03-27,112,328-->
     - Metallgesellschaft / hedging debacle / cash flow risk ::@:: From intuition, with stack and roll, we see risk from changing spot price is replaced by the risk from by how much the market is in contango or backwardation. <p> If we _assume_ the market stays in contango \(lose\) or backwardation \(gain\) with equal severity \(in terms of duration and pricing\) over a long period \(e.g. 10 years\), then stack and roll gives similar payoff to ideal hedging at the forward sales' maturity. <p> There will be temporary losses \(from contango\) or gains \(from backwardation\) before the forward sales' maturity, which creates a _cash flow risk_ if MG does not have enough liquidity to deal with temporary losses \(obviously, temporary gains are fine\). <!--SR:!2026-07-22,218,368!2026-03-19,124,388-->
     - Metallgesellschaft / hedging debacle / problem ::@:: In practice, MG suffered massive cash-flow losses during a shift to contango in 1992 because the one-month futures were priced above spot, forcing MG to buy oil at higher prices while still selling it at fixed forward rates. Additional factors—market liquidity constraints beyond a few months, traders exploiting MG's large trades \(remember forwards are a zero-sum game\), and stricter U.S. margin requirements—exacerbated the losses, ultimately leading to a cessation of hedging. The forward sales commitments became naked, so MG only had _short_ positions. But the price increased, leading to a collapse in MG's financial position. <!--SR:!2026-02-07,85,368!2026-11-02,294,368-->
 - forward curve
@@ -380,7 +380,6 @@ The content is in teaching order.
     - [§ valuation](option.md#valuation)  
     - [§ no-arbitrage bounds](option.md#no-arbitrage%20bounds)  
 
-
 ## week 7 lecture
 
 - datetime: 2025-10-13T10:30:00+08:00/2025-10-13T11:50:00+08:00, PT1H20M
@@ -400,14 +399,13 @@ The content is in teaching order.
     - [§ no-arbitrage bounds](option.md#no-arbitrage%20bounds)  
     - [§ bull spread inequality](option.md#buLL%20spread%20inequality)
     - [§ calendar spread inequality](option.md#calendar%20spread%20inequality)
-    - [§ ](option.md#)
+    - [§](option.md#)
     - [§ binomial options pricing model](option.md#binomial%20options%20pricing%20model)  
     - [§ recursive binomial options pricing model](option.md#recursive%20binomial%20options%20pricing%20model)  
     - [§ Black–Scholes model](option.md#Black–Scholes%20model)  
     - [§ implied volatility](option.md#implied%20volatility)  
     - [§ interpretation of the Black–Scholes model](option.md#interpretation%20of%20the%20Black–Scholes%20model)  
     - [§ Long-Term Capital Management example](option.md#Long-Term%20Capital%20Management%20example)
-
 
 ## week 7 lecture 2
 

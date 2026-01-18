@@ -479,14 +479,14 @@ The content is in teaching order.
   - [ACCT 2010/statement of cash flows](statement%20of%20cash%20flows.md)
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2026-08-24,504,403!2030-04-20,1560,396-->
   - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2026-05-15,395,383!2026-09-07,516,403-->
-    - operating activities / inflows ::@:: customers <br/> interest received from trade accounts <!--SR:!2026-07-29,483,403!2026-09-18,525,403-->
-    - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!2027-06-28,715,363!2029-06-12,1241,383-->
+    - operating activities / inflows ::@:: - customers <br/> - interest received from trade accounts <!--SR:!2026-07-29,483,403!2026-09-18,525,403-->
+    - operating activities / outflows ::@:: - purchase of goods for resale and services (electricity, etc.) <br/> - salaries and wages <br/> - income taxes <br/> - interest on trade liabilities <!--SR:!2027-06-28,715,363!2029-06-12,1241,383-->
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2026-07-23,477,403!2030-08-14,1674,403-->
-    - investing activities / inflows ::@:: sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income <!--SR:!2026-03-03,356,383!2027-03-06,622,356-->
-    - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2026-03-30,377,383!2026-04-13,371,383-->
+    - investing activities / inflows ::@:: - sale or disposal of property, plant and equipment <br/> - sale or maturity of investments in securities <br/> - investment related interest income <!--SR:!2026-03-03,356,383!2027-03-06,622,356-->
+    - investing activities / outflows ::@:: - purchase of property, plant and equipment <br/> - purchase of investments in securities <!--SR:!2026-03-30,377,383!2026-04-13,371,383-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2028-08-31,1080,383!2028-07-29,1055,383-->
-    - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2026-04-08,385,383!2030-07-16,1645,403-->
-    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2026-03-20,352,383!2028-03-25,875,363-->
+    - financing activities / inflows ::@:: - borrowings on notes, mortgages, bonds, etc. from creditors <br/> - issuing stock to owners <!--SR:!2026-04-08,385,383!2030-07-16,1645,403-->
+    - financing activities / outflows ::@:: - repayment of principal to creditors <br/> - repurchasing stock from owners <br/> - dividends to owners <br/> - financing related interest expense <!--SR:!2026-03-20,352,383!2028-03-25,875,363-->
 
 ## week 11 lecture 2
 
@@ -497,7 +497,7 @@ The content is in teaching order.
   - operating activities
     - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2026-09-04,514,403!2026-09-04,512,396-->
     - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization, including impairment losses (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2029-01-10,1171,383!2029-11-02,1391,383-->
-    - operating activities / interpretation ::@:: To avoid firms with rising net income but falling cash flow from operations <br/> Only source of cash over the long run <br/> Investors will not invest in a company if cash generated from operations will not be available to pay dividends or expansion <br/> Creditors will not lend money if they do not believe that cash generated from operations will be available to pay back the loan <!--SR:!2029-11-03,1392,383!2029-11-05,1394,383-->
+    - operating activities / interpretation ::@:: - To avoid firms with rising net income but falling cash flow from operations <br/> - Only source of cash over the long run <br/> - Investors will not invest in a company if cash generated from operations will not be available to pay dividends or expansion <br/> - Creditors will not lend money if they do not believe that cash generated from operations will be available to pay back the loan <!--SR:!2029-11-03,1392,383!2029-11-05,1394,383-->
 
 > Dear Students,
 >

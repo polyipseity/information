@@ -1,0 +1,1 @@
+misconceptions about the normal distribution.md

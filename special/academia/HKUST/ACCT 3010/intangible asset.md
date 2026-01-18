@@ -325,10 +325,10 @@ These examples illustrate when R&D outlays are expensed versus capitalised, and 
 - _Prototype laser‑scanner material, labour and overhead_ (project not yet viable) :@: Expense immediately as R&D. <!--SR:!2026-02-02,16,290-->
 - _Testing and design‑modification costs for the prototype_ (not yet viable) :@: Expense immediately as R&D. <!--SR:!2026-02-02,16,290-->
 - _Legal fees to obtain a patent on the new scanner_ :@: Capitalize the patent; amortise it to overhead as part of cost of goods manufactured. <!--SR:!2026-02-02,16,290-->
-- _Executive salaries_ :@: Record as operating expense, as part of general and administrative expenses. <!--SR:!2026-02-02,16,290-->
+- _Executive salaries_ :@: Record as operating expense, as part of general and administrative expenses. <!--SR:!2026-02-02,16,290-->
 - _Marketing‑research costs for promoting the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2026-02-02,16,290-->
 - _Engineering costs that advance the scanner to full production (project now viable)_ :@: Capitalize these costs as R&D assets. <!--SR:!2026-02-02,16,290-->
-- _Costs to defend the patent_ :@: Record as legal‑fee expenses (treated as operating cost), as it only _maintains_ expected benefits rather than adding new benefits. <!--SR:!2026-02-02,16,290-->
+- _Costs to defend the patent_ :@: Record as legal‑fee expenses (treated as operating cost), as it only _maintains_ expected benefits rather than adding new benefits. <!--SR:!2026-02-02,16,290-->
 - _Commissions paid to sales staff for marketing the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2026-02-02,16,290-->
 - _Long‑range research facility_ :@: – Constructed for current and future projects; capitalise and depreciate as R&D expense because it has alternative future use. <!--SR:!2026-02-02,16,290-->
 - _R&D equipment used only on the current project_ :@: – Expense immediately as R&D (research cost). <!--SR:!2026-02-02,16,290-->

@@ -13,7 +13,7 @@ tags:
 
 > {@{![A graph with connectivity 4](../../archives/Wikimedia%20Commons/4-connected%20graph.svg)}@}
 >
-> {@{A graph with connectivity 4.}@} <!--SR:!2029-07-09,1274,350!2028-09-10,966,330-->
+> {@{A graph}@} with {@{connectivity 4}@}. <!--SR:!2029-07-09,1274,350!2028-09-10,966,330-->
 
 In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2029-07-18,1283,350!2026-01-19,293,330!2029-07-29,1294,350!2028-05-13,878,330-->
 
@@ -43,7 +43,7 @@ Every graph {@{decomposes into a disjoint union of [1-connected components](comp
 
 ## properties
 
-Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{cycles of length at least $2k$, cycles of length $k$}@}\) <!--SR:!2029-04-11,1210,350!2026-02-01,20,362-->
+Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{existence of a cycle of length at least $2k$, cycles of length $k$}@}\) <!--SR:!2029-04-11,1210,350!2026-02-01,20,362-->
 
 - (annotation: _k≥2_) Every _k_-connected graph of order (annotation: i.e. number of vertices) at least $2k$ ::@:: contains a [cycle](cycle%20(graph%20theory).md) of length at least $2k$ <!--SR:!2026-06-11,320,250!2028-05-21,860,290-->
 - (annotation: _k≥2_) In a _k_-connected graph, ::@:: any $k$ vertices in $G$ lie on a common [cycle](cycle%20(graph%20theory).md).<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-03-23,312,290!2027-04-03,570,310-->

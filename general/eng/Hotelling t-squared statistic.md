@@ -1,0 +1,1 @@
+Hotelling's T-squared distribution.md

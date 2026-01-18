@@ -130,7 +130,7 @@ As seen above, the discrete Fourier transform has {@{the fundamental property of
 
 ### convolution theorem duality
 
-It can also be shown that: $$\begin{aligned} \mathcal F\{\mathbf x \cdot \mathbf y \}_k & \triangleq \sum_{n = 0}^{N - 1} x_n \cdot y_n \cdot e^{-i\frac {2\pi} N kn} \\ & = \frac 1 N (\mathbf {X * Y_N})_k \end{aligned}$$, which is {@{the circular convolution of $\mathbf X$ and $\mathbf Y$}@}. <!--SR:!2029-12-02,1428,332-->
+It can also be shown that: $$\begin{aligned} \mathcal F\{\mathbf x \cdot \mathbf y \}_k & \triangleq \sum_{n = 0}^{N - 1} x_n \cdot y_n \cdot e^{-i\frac {2\pi} N kn} \\ & = \frac 1 N (\mathbf {X * Y_N})_k \,, \end{aligned}$$ which is {@{the circular convolution of $\mathbf X$ and $\mathbf Y$}@}. <!--SR:!2029-12-02,1428,332-->
 
 By [expressing the inverse DFT in terms of the DFT](#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT), we can easily prove the above from the (forward) [convolution theorem](#circular%20convolution%20theorem): {@{$$\begin{aligned} \mathcal F^{-1}\{\mathbf {X * Y_N} \}_k & = \frac 1 N \mathcal F\{\mathbf {X^* * Y_N^*} \}_k^* \\ & = \frac 1 N \cdot \mathcal F\{\mathbf {X^*}\}_k^* \cdot \mathcal F\{\mathbf {Y_N^*}\}_k^* \\ & = \frac 1 N \cdot N \cdot \mathcal F^{-1}\{\mathbf {X}\}_k \cdot N \cdot \mathcal F^{-1}\{\mathbf {Y_N}\}_k \\ & = N \cdot \mathbf x_k \cdot \mathbf {y_{_N} }_k \\ \frac 1 N (\mathbf {X * Y_N})_k & = \mathcal F\{\mathbf x \cdot \mathbf {y_{_N} }\}_k \end{aligned}$$}@}. <!--SR:!2026-04-22,418,312-->
 

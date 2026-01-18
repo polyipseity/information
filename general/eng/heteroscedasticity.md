@@ -1,0 +1,1 @@
+homoscedasticity and heteroscedasticity.md

@@ -10,276 +10,115 @@ tags:
 
 # `printf`
 
-```Python
-# pytextgen generate module
-# import ../../../tools/utility.py.md
-```
-
 ## placeholder
 
-```Python
-# pytextgen generate data
-from pytextgen.gen import text
-from pytextgen.util import Result
-def link(name: str):
-  return f"[{name}](#{name})"
-def opt(string: str):
-  return Rf"\[{string}\]"
-components = [
-  opt(link("parameter")),
-  opt(link("flags")),
-  opt(link("width")),
-  opt(f".{link('precision')}"),
-  opt(link("length")),
-  link("type"),
-]
-return (
-  Result(
-    location=__env__.cwf_sect("b23d"),
-    text=text(f"<code>%{''.join(components)}</code>"),
-  ),
-  *await memorize_seq(
-    __env__.cwf_sects("49bd", "ee2f"),
-    components,
-  ),
-)
+{@{A `printf`‑style placeholder}@} begins {@{with `%`}@} and describes how {@{a single argument should be formatted}@}. Each placeholder is composed of {@{several components that must appear in a fixed order}@}. {@{Most of these components}@} are {@{optional}@}, but {@{the final _type_ specifier}@} is {@{always required}@}.
+
+In {@{full form}@}, a placeholder looks like: (annotation: {@{`% [parameter] [flags] [width] [.precision] [length] type`}@})
+
+```text
+% [parameter] [flags] [width] [.precision] [length] type
 ```
 
-### syntax
+When {@{reading or writing a placeholder}@}, it helps to think of it as {@{a pipeline applied to one argument}@}. First, {@{an argument can be selected explicitly}@}, then {@{formatting rules are applied}@}, and finally the value is {@{converted to text according to its type}@}.
 
-<!--pytextgen generate section="b23d"--><!-- The following content is generated at 2023-08-24T21:36:58.847817+08:00. Any edits will be overridden! -->
+{@{The components appear}@} in this order: (annotation: 6 ordered items: {@{parameter, flags}@}, {@{width, precision}@}, {@{length modifier, type specifier}@})
 
-<code>%\[[parameter](#parameter)\]\[[flags](#flags)\]\[[width](#width)\]\[.[precision](#precision)\]\[[length](#length)\][type](#type)</code>
+- an optional positional _parameter_
+- zero or more _flags_
+- an optional _width_
+- an optional _precision_
+- an optional _length modifier_
+- exactly one _type specifier_
 
-<!--/pytextgen-->
+{@{Skipping a component}@} simply means its {@{default behavior applies}@}.
 
-<!--pytextgen generate section="49bd"--><!-- The following content is generated at 2023-08-28T21:01:29.628061+08:00. Any edits will be overridden! -->
+### parameter selection
 
-> 1. \[[parameter](#parameter)\]
-> 2. \[[flags](#flags)\]
-> 3. \[[width](#width)\]
-> 4. \[.[precision](#precision)\]
-> 5. \[[length](#length)\]
-> 6. [type](#type)
+Placeholders may optionally specify {@{_which argument_ they apply to}@}. This is done using {@{a number followed by `$`, such as `1$` or `2$`}@}. For example, {@{`%2$d`}@} formats {@{the second argument as a decimal integer}@}.
 
-<!--/pytextgen-->
-
-<!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2024-01-04T20:17:52.556525+08:00. Any edits will be overridden! -->
-
-- _(begin)_→::@::←\[[parameter](#parameter)\] <!--SR:!2026-11-09,897,337!2026-12-26,941,349-->
-- \[[parameter](#parameter)\]→::@::←\[[flags](#flags)\] <!--SR:!2026-05-30,720,329!2026-04-17,687,329-->
-- \[[flags](#flags)\]→::@::←\[[width](#width)\] <!--SR:!2030-04-15,1591,289!2027-12-21,1075,309-->
-- \[[width](#width)\]→::@::←\[.[precision](#precision)\] <!--SR:!2027-10-20,1010,317!2029-10-24,1631,309-->
-- \[.[precision](#precision)\]→::@::←\[[length](#length)\] <!--SR:!2026-07-13,754,329!2027-04-30,683,309-->
-- \[[length](#length)\]→::@::←[type](#type) <!--SR:!2027-02-10,979,349!2030-05-02,1771,309-->
-- [type](#type)→::@::←_(end)_ <!--SR:!2026-08-26,835,337!2026-12-11,929,349-->
-
-<!--/pytextgen-->
-
-### parameter
-
-```Python
-# pytextgen generate data
-from functools import partial
-options = {
-  "_n_$": "([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier",
-}
-return await memorize_table(
-  __env__.cwf_sects("f192", "c19d"),
-  ("character", "description"),
-  options.items(),
-  partial(map, cloze),
-)
-```
-
-<!--pytextgen generate section="f192"--><!-- The following content is generated at 2023-08-24T22:47:11.290253+08:00. Any edits will be overridden! -->
-
-> | character | description |
-> |-|-|
-> | {@{_n_$}@} | {@{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}@} | <!--SR:!2032-01-05,2325,337!2027-03-15,1006,349-->
-
-<!--/pytextgen-->
-
-<!--pytextgen generate section="c19d"--><!-- The following content is generated at 2024-01-04T20:17:52.598048+08:00. Any edits will be overridden! -->
-
-- _(begin)_→::@::←_n_$ <!--SR:!2027-02-23,755,297!2027-03-10,1002,349-->
-- _n_$→::@::←_(end)_ <!--SR:!2026-06-16,778,337!2026-11-30,920,349-->
-
-<!--/pytextgen-->
+This feature follows {@{POSIX rules}@}: either {@{_all_ placeholders in the format string}@} use positional parameters, or {@{_none_ of them do}@}. {@{Mixing positional and non-positional placeholders}@} is {@{not allowed}@}.
 
 ### flags
 
-```Python
-# pytextgen generate data
-from functools import partial
-options = {
-  "(space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
-  R"\#": "use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`",
-  "+": 'prepend + before positive numbers',
-  "-": "align left",
-  "0": "prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`",
-}
-return await memorize_table(
-  __env__.cwf_sects("ff12", "123d"),
-  ("character", "description"),
-  options.items(),
-  partial(map, cloze),
-)
-```
+{@{_Flags_}@} are {@{single characters}@} that {@{fine‑tune alignment, padding, and signs}@}. They may appear {@{in any order, and multiple flags can be combined}@}.
 
-A combination of zero or more of the following in any order:
+The most important flags are:
 
-<!--pytextgen generate section="ff12"--><!-- The following content is generated at 2024-01-04T19:31:50.120526+08:00. Any edits will be overridden! -->
+- a space (` `), ::@:: which prefixes positive numbers with a space (unless `+` is used)
+- `+`, ::@:: which explicitly prefixes positive numbers with a plus sign (overrides a space (` `))
+- `-`, ::@:: which left-aligns the output within the field width (overrides `0`)
+- `0`, ::@:: which pads numeric output with leading zeros when a width is specified (ignored if `-` is present)
+- `#`, ::@:: which enables an alternative form whose meaning depends on the type
 
-> | character | description |
-> |-|-|
-> | {@{(space)}@} | {@{prepend a space before positive numbers; overridden by the [flag](#flag) `+`}@} |
-> | {@{\#}@} | {@{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}@} |
-> | {@{+}@} | {@{prepend + before positive numbers}@} |
-> | {@{-}@} | {@{align left}@} |
-> | {@{0}@} | {@{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}@} | <!--SR:!2026-06-06,770,337!2030-04-04,1711,297!2026-09-29,862,337!2026-09-07,365,197!2033-01-27,2594,337!2028-11-15,1425,329!2026-10-25,888,349!2030-12-28,2074,349!2026-11-03,897,349!2027-05-01,687,309-->
-
-<!--/pytextgen-->
-
-<!--pytextgen generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
-
-- _(begin)_→::@::←(space) <!--SR:!2026-06-28,788,337!2026-11-06,900,349-->
-- (space)→::@::←\# <!--SR:!2027-05-19,742,249!2027-01-27,968,349-->
-- \#→::@::←+ <!--SR:!2027-09-17,936,309!2026-05-22,615,289-->
-- +→::@::←- <!--SR:!2026-12-22,938,349!2026-10-11,879,349-->
-- -→::@::←0 <!--SR:!2026-08-27,836,337!2028-09-07,965,277-->
-- 0→::@::←_(end)_ <!--SR:!2027-05-10,1052,349!2027-01-05,950,349-->
-
-<!--/pytextgen-->
+{@{The alternative form}@} preserves {@{decimal points or trailing zeros for certain floating‑point formats}@}, and adds {@{prefixes such as `0`, `0x`, or `0X` for octal and hexadecimal integers}@} when {@{the value is nonzero}@}.
 
 ### width
 
-An integer or {@{`*` specifying the minimum width}@}. The result is {@{padded with spaces}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}@}. <!--SR:!2032-09-29,2501,337!2033-09-11,2831,349!2027-04-02,763,269-->
+{@{The _width_}@} specifies {@{the minimum number of characters used for the output}@}. If {@{the formatted result is shorter}@}, it is {@{padded with spaces by default}@}. Width can be written {@{directly as an integer or as `*`}@}. When {@{`*` is used}@}, {@{an additional `int` argument}@} {@{before the supplied value (and the argument supplying the precision if any)}@} supplies {@{the width}@}; {@{a negative width}@} activates {@{left alignment}@}. <!--SR:!2032-09-29,2501,337!2033-09-11,2831,349!2027-04-02,763,269-->
 
 ### precision
 
-An integer or {@{`*` specifying the precision, the meaning of which depends on the [type](#type)}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}@}. <!--SR:!2029-12-29,1697,317!2026-07-15,521,229-->
+{@{The _precision_, introduced by a dot (`.`)}@}, further {@{constrains the output}@}. {@{Its meaning}@} depends on {@{the type being formatted}@}.
 
-### length
+For {@{_integer types_ (`d`/`i`, `u`, `o`, `x`/`X`)}@}, precision specifies {@{the _minimum number of digits_ to display}@}. If {@{the value has fewer digits}@}, it is {@{padded on the left with zeros}@}. {@{The default precision}@} for these types is {@{_1_}@}.
 
-```Python
-# pytextgen generate data
-from functools import partial
-options = {
-  "L": "`long double`-sized float",
-  "h": "`short`-sized integer",
-  "hh": "`char`-sized integer",
-  "j": "`intmax_t`-sized integer",
-  "l": "`long`-sized integer; `double`-sized (ignored for) float",
-  "ll": "`long long`-sized integer",
-  "t": "`ptrdiff_t`-sized integer",
-  "z": "`size_t`-sized integer",
-}
-return await memorize_table(
-  __env__.cwf_sects("3052", "beff"),
-  ("character", "description"),
-  options.items(),
-  partial(map, cloze),
-)
-```
+For {@{_floating‑point types_}@}, precision {@{depends on the notation}@}: (annotation: 4 items: {@{`f`/`F`, `e`/`E`, `g`/`G`, `a`/`A`}@})
 
-A combination of zero or more of the following in any order:
+- `f` and `F`; `e` and `E` ::@:: use precision as the _number of digits after the decimal point_, with a default of _6_.
+- `g` and `G` ::@:: precision specifies the _maximum number of significant digits_ (default _6_, with an explicit `0` treated as _1_), determines whether fixed‑point or exponential notation is chosen based on the value's exponent (using fixed-point when −4&nbsp;≤&nbsp;exponent&nbsp;<&nbsp;precision and exponential otherwise), rounds to at most that many significant digits, and removes trailing zeros and the decimal point unless the `#` flag is used.
+- `a` and `A` ::@:: use precision to control the _number of hexadecimal digits after the decimal point_; if omitted, the precision is large enough to exactly represent the value.
 
-<!--pytextgen generate section="3052"--><!-- The following content is generated at 2023-08-25T01:23:36.864394+08:00. Any edits will be overridden! -->
+For {@{_non-numeric and special types_}@}, precision is either {@{limited or rejected}@}: (annotation: 5 items: {@{`s`, `c`, `p`, `%`, `n`}@})
 
-> | character | description |
-> |-|-|
-> | {@{L}@} | {@{`long double`-sized float}@} |
-> | {@{h}@} | {@{`short`-sized integer}@} |
-> | {@{hh}@} | {@{`char`-sized integer}@} |
-> | {@{j}@} | {@{`intmax_t`-sized integer}@} |
-> | {@{l}@} | {@{`long`-sized integer; `double`-sized (ignored for) float}@} |
-> | {@{ll}@} | {@{`long long`-sized integer}@} |
-> | {@{t}@} | {@{`ptrdiff_t`-sized integer}@} |
-> | {@{z}@} | {@{`size_t`-sized integer}@} | <!--SR:!2030-12-21,1967,317!2032-05-02,2387,337!2026-08-07,821,337!2028-11-15,1341,317!2026-05-06,744,337!2032-04-23,2379,337!2028-02-06,1150,297!2030-01-16,1737,317!2028-10-25,1344,297!2032-12-13,2559,337!2026-03-11,659,329!2027-03-31,1019,349!2032-02-14,2309,329!2029-02-24,1374,329!2027-01-24,965,349!2030-12-23,1989,329-->
+- `s` ::@:: uses precision as the _maximum number of bytes printed_; if omitted, output continues until the terminating null character.
+- `c` and `p` ::@:: ignore precision entirely.
+- `%` ::@:: rejects precision.
+- `n` ::@:: rejects precision, along with flags and width.
 
-<!--/pytextgen-->
+Like {@{width, precision}@} may be {@{given as a number or as `*`}@}. {@{A negative precision}@} is {@{ignored}@}, while {@{invalid values are treated as zero}@}.
 
-<!--pytextgen generate section="beff"--><!-- The following content is generated at 2024-01-04T20:17:52.664065+08:00. Any edits will be overridden! -->
+### length modifiers
 
-- _(begin)_→::@::←L <!--SR:!2026-07-16,803,337!2027-05-09,1051,349-->
-- L→::@::←h <!--SR:!2027-09-25,875,257!2027-02-06,976,349-->
-- h→::@::←hh <!--SR:!2028-02-18,1212,317!2027-04-23,1038,349-->
-- hh→::@::←j <!--SR:!2028-06-13,1161,297!2026-04-28,735,329-->
-- j→::@::←l <!--SR:!2031-11-14,2128,349!2026-04-04,677,329-->
-- l→::@::←ll <!--SR:!2026-06-17,779,337!2026-12-27,942,349-->
-- ll→::@::←t <!--SR:!2026-06-13,543,277!2029-07-20,1562,309-->
-- t→::@::←z <!--SR:!2026-07-23,808,337!2026-09-14,596,277-->
-- z→::@::←_(end)_ <!--SR:!2026-09-26,866,349!2027-01-13,956,349-->
+{@{_Length modifiers_}@} describe {@{the _size of the argument type_}@} so that `printf` {@{interprets it correctly}@}. {@{These modifiers matter}@} primarily for {@{integer and floating‑point conversions}@}.
 
-<!--/pytextgen-->
+{@{Common integer length modifiers}@} include: (annotation: 7 items: {@{`hh`, `h`, `l`, `ll`}@}, {@{`j`, `t`, `z`}@})
 
-### type
+- `hh` ::@:: for `char`
+- `h` ::@:: for `short`
+- `l` ::@:: for `long`
+- `ll` ::@:: for `long long`
+- `j` ::@:: for `intmax_t`
+- `t` ::@:: for `ptrdiff_t`
+- `z` ::@:: for `size_t`
 
-```Python
-# pytextgen generate data
-from functools import partial
-options = {
-  "%": "literal %; rejects all other options",
-  "a, A": "float into heximal exponential; [precision](#precision), by default enough to exactly represent the value, is the number of digits after the decimal point; `A` capitalizes the result",
-  "c": "character",
-  "d, i": "signed integer into decimal; [precision](#precision), by default 1, is the minimum number of digits; `i` can interpret octals and heximals when used with [`scanf`](scanf.md)",
-  "e, E": "float into decimal exponential; [precision](#precision), by default 6, is the number of digits after the decimal point; `E` capitalizes the result",
-  "f, F": "float into [fixed-point](fixed-point%20arithmetic.md) decimal; [precision](#precision), by default 6, is the number of digitals after the decimal point; `F` capitalizes the result",
-  "g, G": "`f` if [precision](#precision) > exponent ≥ -4 and `e` otherwise, removing trailing zeros; [precision](#precision), by default 6 and 1 if 0, is the maximum number of significant figures; `G` capitalizes the result",
-  "n": "prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)",
-  "o": "unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits",
-  "p": "pointer (`void*`) into an implementation-defined format",
-  "s": "string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used",
-  "u": "unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits",
-  "x, X": "unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result",
-}
-return await memorize_table(
-  __env__.cwf_sects("40db", "45dd"),
-  ("character", "description"),
-  options.items(),
-  partial(map, cloze),
-)
-```
+For {@{floating-point values}@}, {@{`L`}@} indicates {@{a `long double`}@}. {@{The `l` modifier is accepted}@} for floating-point types but has {@{no effect and is ignored (remains `double`)}@}.
 
-<!--pytextgen generate section="40db"--><!-- The following content is generated at 2023-09-16T08:38:52.742774+08:00. Any edits will be overridden! -->
+### type specifiers
 
-> | character | description |
-> |-|-|
-> | {@{%}@} | {@{literal %; rejects all other options}@} |
-> | {@{a, A}@} | {@{float into heximal exponential; [precision](#precision), by default enough to exactly represent the value, is the number of digits after the decimal point; `A` capitalizes the result}@} |
-> | {@{c}@} | {@{character}@} |
-> | {@{d, i}@} | {@{signed integer into decimal; [precision](#precision), by default 1, is the minimum number of digits; `i` can interpret octals and heximals when used with [`scanf`](scanf.md)}@} |
-> | {@{e, E}@} | {@{float into decimal exponential; [precision](#precision), by default 6, is the number of digits after the decimal point; `E` capitalizes the result}@} |
-> | {@{f, F}@} | {@{float into [fixed-point](fixed-point%20arithmetic.md) decimal; [precision](#precision), by default 6, is the number of digitals after the decimal point; `F` capitalizes the result}@} |
-> | {@{g, G}@} | {@{`f` if [precision](#precision) > exponent ≥ -4 and `e` otherwise, removing trailing zeros; [precision](#precision), by default 6 and 1 if 0, is the maximum number of significant figures; `G` capitalizes the result}@} |
-> | {@{n}@} | {@{prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)}@} |
-> | {@{o}@} | {@{unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits}@} |
-> | {@{p}@} | {@{pointer (`void*`) into an implementation-defined format}@} |
-> | {@{s}@} | {@{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}@} |
-> | {@{u}@} | {@{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}@} |
-> | {@{x, X}@} | {@{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}@} | <!--SR:!2026-03-19,703,330!2026-07-17,804,337!2032-07-29,2456,337!2031-08-25,2093,297!2026-08-06,820,337!2026-08-31,840,337!2032-11-14,2537,337!2028-02-16,910,257!2032-02-20,2331,337!2030-02-27,1515,277!2026-06-22,783,337!2027-10-22,741,297!2026-10-30,299,297!2027-03-23,711,237!2027-02-16,984,349!2026-05-12,646,289!2031-01-06,2000,329!2031-11-18,2242,329!2026-11-07,901,349!2027-04-01,1020,349!2026-05-12,706,329!2026-03-28,672,329!2026-10-24,887,349!2030-01-02,1642,309!2026-06-03,723,329!2031-01-31,2020,329-->
+{@{The _type specifier_}@} determines how {@{the argument is converted to text}@}. It is {@{the only required component}@} of a placeholder.
 
-<!--/pytextgen-->
+{@{Numeric types}@} include: (annotation: 8 items: {@{`d`/`i`, `u`}@}, {@{`o`, `x`/`X`}@}, {@{`f`/`F`, `e`/`E`, `g`/`G`, `a`/`A`}@})
 
-<!--pytextgen generate section="45dd"--><!-- The following content is generated at 2024-01-04T20:17:52.718619+08:00. Any edits will be overridden! -->
+- `d` and `i` ::@:: for signed decimal integers; note the latter interpret octals and heximals when used with `scanf`
+- `u` ::@:: for unsigned decimal integers
+- `o` ::@:: for octal integers
+- `x` and `X` ::@:: for hexadecimal integers
+- `f` and `F` ::@:: for fixed-point decimal floating-point output
+- `e` and `E` ::@:: for decimal exponential notation
+- `g` and `G` ::@:: for adaptive floating-point formatting that chooses between fixed and exponential forms
+- `a` and `A` ::@:: for hexadecimal floating-point notation
 
-- _(begin)_→::@::←% <!--SR:!2026-11-13,906,349!2027-03-21,1011,349-->
-- %→::@::←a, A <!--SR:!2030-02-19,1612,310!2027-02-15,983,349-->
-- a, A→::@::←c <!--SR:!2027-01-06,951,349!2026-06-13,731,329-->
-- c→::@::←d, i <!--SR:!2033-08-13,2778,337!2027-01-19,961,349-->
-- d, i→::@::←e, E <!--SR:!2026-12-06,925,349!2029-01-20,1476,329-->
-- e, E→::@::←f, F <!--SR:!2026-04-25,733,330!2026-07-20,805,337-->
-- f, F→::@::←g, G <!--SR:!2026-11-08,902,349!2026-10-06,875,349-->
-- g, G→::@::←n <!--SR:!2030-02-23,1497,269!2027-11-25,1058,309-->
-- n→::@::←o <!--SR:!2026-10-19,880,337!2026-04-12,312,269-->
-- o→::@::←p <!--SR:!2026-07-02,745,329!2026-12-21,937,349-->
-- p→::@::←s <!--SR:!2031-10-12,2216,330!2026-07-29,571,277-->
-- s→::@::←u <!--SR:!2026-05-06,702,329!2026-07-03,746,329-->
-- u→::@::←x, X <!--SR:!2032-06-09,2398,329!2026-12-28,943,349-->
-- x, X→::@::←_(end)_ <!--SR:!2027-03-20,1010,349!2027-01-04,949,349-->
+{@{Character and pointer types}@} include: (annotation: 3 items: {@{`c`, `s`, `p`}@})
 
-<!--/pytextgen-->
+- `c` ::@:: for a single character
+- `s` ::@:: for a string (precision limits the number of bytes printed)
+- `p` ::@:: for a pointer value in an implementation-defined format
+
+{@{Two special cases}@} deserve mention: (annotation: 2 items: {@{`%`, `n`}@})
+
+- `%` ::@:: prints a literal percent sign and rejects all other options
+- `n` ::@:: produces no output but stores the number of characters written so far into the provided integer pointer; it does not accept flags, width, or precision
 
 ## references
 
