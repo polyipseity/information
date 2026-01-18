@@ -280,11 +280,11 @@ The steps for naming an organic compound are:
 
 ### prefix for type count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {@{the first one is no prefix}@}.
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the first one is no prefix}@}.
 
 ### prefix for carbon count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {@{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}.
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the last character _a-_ is trimmed away}@} and {@{the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}.
 
 ## functional groups
 

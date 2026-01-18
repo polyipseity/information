@@ -479,14 +479,14 @@ The content is in teaching order.
   - [ACCT 2010/statement of cash flows](statement%20of%20cash%20flows.md)
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities
   - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations.
-    - operating activities / inflows ::@:: customers <br/> interest received from trade accounts
-    - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities
+    - operating activities / inflows ::@:: - customers <br/> - interest received from trade accounts
+    - operating activities / outflows ::@:: - purchase of goods for resale and services (electricity, etc.) <br/> - salaries and wages <br/> - income taxes <br/> - interest on trade liabilities
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies.
-    - investing activities / inflows ::@:: sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income
-    - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities
+    - investing activities / inflows ::@:: - sale or disposal of property, plant and equipment <br/> - sale or maturity of investments in securities <br/> - investment related interest income
+    - investing activities / outflows ::@:: - purchase of property, plant and equipment <br/> - purchase of investments in securities
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise.
-    - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners
-    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense
+    - financing activities / inflows ::@:: - borrowings on notes, mortgages, bonds, etc. from creditors <br/> - issuing stock to owners
+    - financing activities / outflows ::@:: - repayment of principal to creditors <br/> - repurchasing stock from owners <br/> - dividends to owners <br/> - financing related interest expense
 
 ## week 11 lecture 2
 

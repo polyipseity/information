@@ -87,7 +87,7 @@ The NPV formula assumes that {@{the benefits and costs occur at the end of each 
 
 {@{An NPV calculated using variable discount rates \(if they are known for the duration of the investment\)}@} may {@{better reflect the situation than one calculated from a constant discount rate for the entire investment duration}@}. Refer to the tutorial article written by Samuel Baker<sup>[\[9\]](#^ref-9)</sup> for more detailed relationship between the NPV and the discount rate.
 
-For {@{some professional investors}@}, their investment funds are {@{committed to target a specified rate of return}@}. In such cases, {@{that rate of return should be selected as the discount rate for the NPV calculation}@}. In this way, {@{a direct comparison can be made between the profitability of the project and the desired rate of return}@}.
+For {@{some professional investors}@}, their investment funds are {@{committed to target a specified rate of return}@}. In such cases, {@{that rate of return}@} should be {@{selected as the discount rate for the NPV calculation}@}. In this way, {@{a direct comparison can be made between the profitability of the project and the desired rate of return}@}.
 
 To some extent, {@{the selection of the discount rate}@} is {@{dependent on the use to which it will be put}@}. If {@{the intent is simply to determine whether a project will add value to the company}@}, using {@{the firm's weighted average cost of capital may be appropriate}@}. If {@{trying to decide between alternative investments in order to maximize the value of the firm}@}, {@{the corporate reinvestment rate would probably be a better choice}@}.
 

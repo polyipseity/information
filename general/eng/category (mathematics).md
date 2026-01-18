@@ -150,7 +150,7 @@ The category {@{__[Cat](category%20of%20small%20categories.md)__}@} consists of 
 
 ### dual category
 
-Any category _C_ can {@{itself be considered as a new category in a different way}@}: {@{the objects are the same as those in the original category but the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}.
+{@{Any category _C_}@} can {@{itself be considered as a new category in a different way}@}: {@{the objects}@} are {@{the same as those in the original category}@} but {@{the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}.
 
 ### product categories
 

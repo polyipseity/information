@@ -208,7 +208,7 @@ pwndbg> checksec
 
 The best way to avoid buffer overflows being exploited is {@{simply not have buffer overflows in the first place}@}.
 
-Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example:
+Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because they require {@{an additional argument stating the buffer size (including the null terminator)}@}, and they will {@{not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example:
 
 ```C
 int buffer[4];

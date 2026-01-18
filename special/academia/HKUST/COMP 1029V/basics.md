@@ -110,4 +110,4 @@ To accept user input, we can use {@{an input box by calling `Input = InputBox(pr
 
 ## parentheses
 
-When calling subroutines or functions, sometimes we {@{use parentheses `()`, sometimes we do not}@}. We only use parentheses when {@{we need to use the output of the called function, otherwise we do not}@}. As subroutines have no output, {@{calling them never needs parentheses}@}. The only exception is when you need to {@{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}@}.
+When calling {@{subroutines or functions}@}, sometimes we {@{use parentheses `()`, sometimes we do not}@}. We {@{only use parentheses}@} when we need to {@{use the output of the called function, otherwise we do not}@}. As {@{subroutines have no output}@}, calling {@{them never needs parentheses}@}. {@{The only exception}@} is when you need to use {@{the output of a function providing no arguments (so includes having optional arguments only)}@}, then {@{having parentheses or not are both okay}@}.

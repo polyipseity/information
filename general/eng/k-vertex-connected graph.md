@@ -13,7 +13,7 @@ tags:
 
 > {@{![A graph with connectivity 4](../../archives/Wikimedia%20Commons/4-connected%20graph.svg)}@}
 >
-> {@{A graph with connectivity 4.}@}
+> {@{A graph}@} with {@{connectivity 4}@}.
 
 In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}.
 

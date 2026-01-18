@@ -76,7 +76,7 @@ The divergence is roughly {@{a measure of a vector field's increase in the direc
 
 {@{The [curl](curl%20(mathematics).md) of a vector field $\mathbf {v} (x,y,z)=v_{x}{\hat {\mathbf {x} } }+v_{y}{\hat {\mathbf {y} } }+v_{z}{\hat {\mathbf {z} } }$}@} is {@{a [vector](vector%20field.md) function that can be represented as}@}: {@{$$\operatorname {curl} \mathbf {v} =\left({\partial v_{z} \over \partial y}-{\partial v_{y} \over \partial z}\right){\hat {\mathbf {x} } }+\left({\partial v_{x} \over \partial z}-{\partial v_{z} \over \partial x}\right){\hat {\mathbf {y} } }+\left({\partial v_{y} \over \partial x}-{\partial v_{x} \over \partial y}\right){\hat {\mathbf {z} } }=\nabla \times \mathbf {v}$$}@}
 
-{@{The curl at a point}@} is {@{proportional to the on-axis torque that a tiny pinwheel would be subjected to if it were centered at that point}@}.
+{@{The curl at a point}@} is {@{proportional to the on-axis torque}@} that {@{a tiny pinwheel would be subjected to if it were centered at that point}@}.
 
 {@{The vector product operation}@} can be visualized as {@{a pseudo-[determinant](determinant.md)}@}: {@{$$\nabla \times \mathbf {v} =\left|{\begin{matrix}{\hat {\mathbf {x} } }&{\hat {\mathbf {y} } }&{\hat {\mathbf {z} } }\\[2pt]{\frac {\partial }{\partial x} }&{\frac {\partial }{\partial y} }&{\frac {\partial }{\partial z} }\\[2pt]v_{x}&v_{y}&v_{z}\end{matrix} }\right|$$}@}
 
