@@ -128,7 +128,7 @@ Consider {@{the one-dimensional curve shown in Fig. 3}@}. At {@{point _P_, taken
 
 It can be seen from {@{triangle _PAB_}@} that {@{$$\cos \alpha ={\cfrac {|\mathbf {e} _{1}|}{|\mathbf {b} _{1}|} }\quad \Rightarrow \quad |\mathbf {e} _{1}|=|\mathbf {b} _{1}|\cos \alpha$$}@} where \|__e__<sub>1</sub>\|, \|__b__<sub>1</sub>\| are {@{the magnitudes of the two basis vectors}@}, i.e., {@{the scalar intercepts _PB_ and _PA_}@}. _PA_ is also {@{the projection of __b__<sub>1</sub> on the _x_ axis}@}. <!--SR:!2027-01-07,356,356!2026-11-17,305,356!2026-11-10,298,356!2026-08-25,251,330!2026-08-04,236,336-->
 
-However, {@{this method for basis vector transformations}@} using {@{_directional cosines_}@} is {@{inapplicable to curvilinear coordinates}@} for the following reasons: (annotation: changing {@{angle at different points}@}) <!--SR:!2026-11-09,301,356!2027-01-04,357,356!2027-01-13,362,365-->
+However, {@{this method for basis vector transformations}@} using {@{_directional cosines_}@} is {@{inapplicable to curvilinear coordinates}@} for the following reasons: (annotation: changing {@{angle at different points}@}) <!--SR:!2026-11-09,301,356!2027-01-04,357,356!2027-01-13,362,365!2026-01-23,5,366-->
 
 1. By {@{increasing the distance from _P_}@}, {@{the angle between the curved line _q_<sup>1</sup> and Cartesian axis _x_}@} {@{increasingly deviates from $\alpha$}@}.
 2. {@{At the distance _PB_}@} {@{the true angle is that which the tangent __at point C__ forms with the _x_ axis}@} and the latter angle is {@{clearly different from $\alpha$}@}. <!--SR:!2026-11-20,308,356!2026-09-25,278,347!2026-11-19,309,356!2027-01-13,362,356!2026-04-19,148,310!2026-11-09,297,356-->

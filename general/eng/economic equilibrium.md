@@ -82,7 +82,7 @@ This view {@{came under attack from at least two viewpoints}@}. {@{Modern [mains
 
 ## solving for the competitive equilibrium price
 
-To {@{find the equilibrium price}@}, one must either {@{plot the supply and demand curves}@}, or {@{solve for the expressions for supply and demand being equal}@}. <!--SR:!2026-01-23,341,345!2030-04-29,1569,365-->
+To {@{find the equilibrium price}@}, one must either {@{plot the supply and demand curves}@}, or {@{solve for the expressions for supply and demand being equal}@}. <!--SR:!2026-01-23,341,345!2030-04-29,1569,365!2026-01-23,5,372-->
 
 An example may be:
 

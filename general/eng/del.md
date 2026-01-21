@@ -76,7 +76,7 @@ The divergence is roughly {@{a measure of a vector field's increase in the direc
 
 {@{The [curl](curl%20(mathematics).md) of a vector field $\mathbf {v} (x,y,z)=v_{x}{\hat {\mathbf {x} } }+v_{y}{\hat {\mathbf {y} } }+v_{z}{\hat {\mathbf {z} } }$}@} is {@{a [vector](vector%20field.md) function that can be represented as}@}: {@{$$\operatorname {curl} \mathbf {v} =\left({\partial v_{z} \over \partial y}-{\partial v_{y} \over \partial z}\right){\hat {\mathbf {x} } }+\left({\partial v_{x} \over \partial z}-{\partial v_{z} \over \partial x}\right){\hat {\mathbf {y} } }+\left({\partial v_{y} \over \partial x}-{\partial v_{x} \over \partial y}\right){\hat {\mathbf {z} } }=\nabla \times \mathbf {v}$$}@} <!--SR:!2026-03-06,289,330!2026-02-03,262,330!2027-12-27,782,330-->
 
-{@{The curl at a point}@} is {@{proportional to the on-axis torque}@} that {@{a tiny pinwheel would be subjected to if it were centered at that point}@}. <!--SR:!2029-03-05,1145,350!2028-05-09,842,330-->
+{@{The curl at a point}@} is {@{proportional to the on-axis torque}@} that {@{a tiny pinwheel would be subjected to if it were centered at that point}@}. <!--SR:!2029-03-05,1145,350!2028-05-09,842,330!2026-01-23,5,349-->
 
 {@{The vector product operation}@} can be visualized as {@{a pseudo-[determinant](determinant.md)}@}: {@{$$\nabla \times \mathbf {v} =\left|{\begin{matrix}{\hat {\mathbf {x} } }&{\hat {\mathbf {y} } }&{\hat {\mathbf {z} } }\\[2pt]{\frac {\partial }{\partial x} }&{\frac {\partial }{\partial y} }&{\frac {\partial }{\partial z} }\\[2pt]v_{x}&v_{y}&v_{z}\end{matrix} }\right|$$}@} <!--SR:!2029-01-24,1105,350!2026-02-13,272,330!2028-10-08,1028,350-->
 

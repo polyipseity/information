@@ -14,7 +14,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-{@{__Rust__}@} is {@{a reddish-brown [iron oxide](iron%20oxide.md)}@} consisting of {@{[hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O)}@} created by {@{[corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230-->
+{@{__Rust__}@} is {@{a reddish-brown [iron oxide](iron%20oxide.md)}@} consisting of {@{[hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O)}@} created by {@{[corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230!2026-01-22,4,336!2026-01-22,4,336!2026-01-22,4,336-->
 
 ## chemical reactions
 

@@ -106,7 +106,7 @@ The class of {@{all preordered sets with order-preserving functions \(i.e., mono
 
 The class of {@{all groups with [group homomorphisms](group%20homomorphism.md) as [morphisms](morphism.md) and [function composition](function%20composition.md) as the composition operation}@} forms {@{a large category, __[Grp](category%20of%20groups.md)__}@}. Like __Ord__, {@{__Grp__ is a concrete category}@}. {@{The category __[Ab](category%20of%20abelian%20groups.md)__}@}, consisting of {@{all [abelian groups](abelian%20group.md) and their group homomorphisms}@}, is {@{a [full subcategory](subcategory.md) of __Grp__, and the prototype of an [abelian category](abelian%20category.md)}@}. <!--SR:!2027-03-13,557,310!2029-06-06,1249,350!2029-05-26,1238,350!2029-06-04,1247,350!2027-10-13,771,330!2027-11-14,710,290-->
 
-The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete category}@}, where {@{morphisms are graph homomorphisms}@} \(i.e., {@{mappings between graphs which send vertices to vertices and edges to edges}@} in a way that {@{preserves all adjacency and incidence relations}@}\). <!--SR:!2029-09-11,1332,350!2029-06-28,1271,350!2029-05-21,1233,350-->
+The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete category}@}, where {@{morphisms are graph homomorphisms}@} \(i.e., {@{mappings between graphs which send vertices to vertices and edges to edges}@} in a way that {@{preserves all adjacency and incidence relations}@}\). <!--SR:!2029-09-11,1332,350!2029-06-28,1271,350!2029-05-21,1233,350!2026-01-23,5,366!2026-01-23,5,366-->
 
 {@{Other examples of concrete categories}@} are given by the following table. <!--SR:!2029-04-15,1217,350-->
 
@@ -150,7 +150,7 @@ The category {@{__[Cat](category%20of%20small%20categories.md)__}@} consists of 
 
 ### dual category
 
-{@{Any category _C_}@} can {@{itself be considered as a new category in a different way}@}: {@{the objects}@} are {@{the same as those in the original category}@} but {@{the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}. <!--SR:!2029-05-07,1233,350!2028-09-09,965,330!2028-02-14,855,330-->
+{@{Any category _C_}@} can {@{itself be considered as a new category in a different way}@}: {@{the objects}@} are {@{the same as those in the original category}@} but {@{the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}. <!--SR:!2029-05-07,1233,350!2028-09-09,965,330!2028-02-14,855,330!2026-01-23,5,366!2026-01-23,5,366!2026-01-23,5,366-->
 
 ### product categories
 

@@ -9,7 +9,7 @@ tags:
 
 # Peano axioms
 
-In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑːnoʊ/, \[peˈaːno\]), also known as {@{the __Dedekind–Peano axioms__ or the __Peano postulates__}@}, are {@{[axioms](axiom.md) for the [natural numbers](natural%20number.md) presented by the 19th-century Italian mathematician [Giuseppe Peano](Giuseppe%20Peano.md)}@}. These axioms have been used {@{nearly unchanged in a number of [metamathematical](metamathematics.md) investigations}@}, including {@{research into fundamental questions}@} of whether {@{[number theory](number%20theory.md) is [consistent](consistency.md) and [complete](completeness%20(logic).md)}@}. <!--SR:!2029-02-01,1195,310!2028-03-09,920,305!2028-12-04,1054,305-->
+In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑːnoʊ/, \[peˈaːno\]), also known as {@{the __Dedekind–Peano axioms__ or the __Peano postulates__}@}, are {@{[axioms](axiom.md) for the [natural numbers](natural%20number.md) presented by the 19th-century Italian mathematician [Giuseppe Peano](Giuseppe%20Peano.md)}@}. These axioms have been used {@{nearly unchanged in a number of [metamathematical](metamathematics.md) investigations}@}, including {@{research into fundamental questions}@} of whether {@{[number theory](number%20theory.md) is [consistent](consistency.md) and [complete](completeness%20(logic).md)}@}. <!--SR:!2029-02-01,1195,310!2028-03-09,920,305!2028-12-04,1054,305!2026-01-23,5,366!2026-01-23,5,366-->
 
 The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arithmetic.md) provided by Peano axioms is commonly called {@{__Peano arithmetic__}@}. <!--SR:!2028-07-22,1076,345-->
 
@@ -112,7 +112,7 @@ This relation is {@{stable under addition and multiplication}@}: for $a,b,c\in \
 - _a_ + _c_ ≤ _b_ + _c_, and
 - _a_ · _c_ ≤ _b_ · _c_.
 
-Thus, {@{the structure (__N__, +, ·, 1, 0, ≤)}@} is {@{an [ordered semiring](ordered%20ring.md)}@}; because there is no {@{natural number between 0 and 1, it is a discrete ordered semiring}@}. <!--SR:!2028-03-03,915,305!2027-02-08,392,210-->
+Thus, {@{the structure (__N__, +, ·, 1, 0, ≤)}@} is {@{an [ordered semiring](ordered%20ring.md)}@}; because there is no {@{natural number between 0 and 1, it is a discrete ordered semiring}@}. <!--SR:!2028-03-03,915,305!2027-02-08,392,210!2026-01-23,5,366-->
 
 The axiom of induction is {@{sometimes stated in the following form}@} that uses {@{a stronger hypothesis, making use of the order relation "≤"}@}: <!--SR:!2026-03-03,153,325!2026-02-28,118,395-->
 

@@ -81,7 +81,7 @@ Once {@{the bottleneck has been identified}@}, {@{assessing the degree of the bo
 
 ### minimizing downtime, setup and changeover time
 
-To compensate for {@{being the weakest link in the chain of processes}@}, the bottleneck machine will {@{have to run for longer periods of time}@}. {@{Changeover and setup time}@} should be {@{minimised to allow the machines to run for slightly longer}@}, reducing {@{the impact of the bottleneck}@}.<sup>[\[14\]](#^ref-14)</sup> {@{Minimizing downtime}@} by having {@{the bottlenecked machines run from earlier until later}@} is a common {@{strategy for working around the problem}@}, however this does increase {@{the likelihood for the machine to be overloaded and need regular maintenance}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-02-02,263,330!2026-02-11,272,330!2026-03-05,292,330!2026-03-07,294,330!2029-01-11,1091,350!2029-01-12,1092,350!2026-02-20,281,330!2028-12-25,1074,350-->
+To compensate for {@{being the weakest link in the chain of processes}@}, the bottleneck machine will {@{have to run for longer periods of time}@}. {@{Changeover and setup time}@} should be {@{minimised to allow the machines to run for slightly longer}@}, reducing {@{the impact of the bottleneck}@}.<sup>[\[14\]](#^ref-14)</sup> {@{Minimizing downtime}@} by having {@{the bottlenecked machines run from earlier until later}@} is a common {@{strategy for working around the problem}@}, however this does increase {@{the likelihood for the machine to be overloaded and need regular maintenance}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-02-02,263,330!2026-02-11,272,330!2026-03-05,292,330!2026-03-07,294,330!2029-01-11,1091,350!2029-01-12,1092,350!2026-02-20,281,330!2028-12-25,1074,350!2026-01-23,5,357-->
 
 ### eliminating non-value activities
 

@@ -34,7 +34,7 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 
 ## calculation
 
-If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where: <!--SR:!2026-02-11,291,330!2026-01-29,281,330-->
+If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where: <!--SR:!2026-02-11,291,330!2026-01-29,281,330!2026-01-23,5,361-->
 
 - _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2029-03-01,1152,350!2026-01-22,275,330-->
 - _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2026-02-14,294,330!2029-05-09,1209,350-->
@@ -58,7 +58,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 - Main article: [Z-test](Z-test.md)
 
-{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2026-01-19,273,330!2029-03-19,1170,350!2026-02-10,290,330!2029-03-03,1154,350!2026-02-08,289,330-->
+{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2026-01-19,273,330!2029-03-19,1170,350!2026-02-10,290,330!2029-03-03,1154,350!2026-02-08,289,330!2026-01-23,5,361-->
 
 ### prediction intervals
 
@@ -93,7 +93,7 @@ Because student A {@{has a higher z-score than student B}@}, student A {@{perfor
 
 ### percentage of observations below a z-score
 
-Continuing {@{the example of ACT and SAT scores}@}, if it can be {@{further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md)}@} \(which is {@{approximately correct}@}\), then the z-scores may be used to calculate {@{the percentage of test-takers who received lower scores than students A and B}@}. <!--SR:!2026-01-25,277,330!2029-02-20,1143,350!2029-03-22,1173,350-->
+Continuing {@{the example of ACT and SAT scores}@}, if it can be {@{further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md)}@} \(which is {@{approximately correct}@}\), then the z-scores may be used to calculate {@{the percentage of test-takers who received lower scores than students A and B}@}. <!--SR:!2026-01-25,277,330!2029-02-20,1143,350!2029-03-22,1173,350!2026-01-23,5,361-->
 
 ### cluster analysis and multidimensional scaling
 
