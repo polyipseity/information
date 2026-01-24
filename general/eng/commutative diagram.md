@@ -97,7 +97,7 @@ Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes,
 - with the relation that this morphism is unique ::@:: \(any composition of maps is defined by its domain and target: this is the commutativity axiom\).
 
-However, {@{not every diagram commutes \(the notion of diagram strictly generalizes commutative diagram\)}@}. As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}.
+However, {@{not every diagram commutes}@} \({@{the notion of diagram}@} {@{strictly generalizes commutative diagram}@}\). As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}.
 
 ## see also
 
