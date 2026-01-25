@@ -53,7 +53,7 @@ jobs:
 
       - name: Install dependencies (pnpm)
         run: |
-          pnpm install --frozen-lockfile=false
+          pnpm install --frozen-lockfile=true
 
       - name: Lint Markdown
         run: |
