@@ -46,7 +46,16 @@ When run, perform the task using only two shell commands (each requires explicit
         && git rev-parse HEAD
         ```
 
-    - If Command 2 is executed, capture exit status and new HEAD SHA. If the commit fails, report the error and do not attempt any staging changes. If Command 2 is not executed, report that no commit was performed.
+    - If Command 2 is executed, capture exit status and new HEAD SHA. The agent MUST construct Command 2 appropriate for the current shell (for example, use a PowerShell-friendly here-string when running in PowerShell, or a POSIX heredoc for bash). When presenting Command 2, show the exact command that will be executed for the current shell; the IDE will request approval and, if executed, will return the command output.
+
+    - If the commit fails and the failure appears to be a shell syntax/heredoc/quoting issue (not a git error), the agent MAY attempt to fix the command syntax and retry up to 3 times. For each retry:
+
+      - Present the revised command to run (the IDE will request execution). Do not run additional unrelated commands.
+      - If the retry succeeds, capture exit status and new HEAD SHA and continue.
+      - If the retry still fails with a syntax error, try another corrected form until attempts are exhausted.
+
+    - If the commit ultimately fails for any other reason (git error, hooks, refs, permissions), report the error and do not attempt any staging changes.
+    - If Command 2 is not executed, report that no commit was performed.
 
 4. Output (must follow):
 
