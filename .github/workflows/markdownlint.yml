@@ -1,0 +1,60 @@
+name: Markdown lint
+
+on:
+  push:
+    paths:
+      - "**/*.md" # all markdown files in the repo
+      - ".github/workflows/markdownlint.yml" # re-run when this workflow file changes
+      - ".markdownlint.jsonc" # markdownlint config (jsonc) influences linting rules
+      - ".markdownlint.json" # alternative json config file name
+      - ".markdownlint-cli2.mjs" # programmatic config (enables gitignore)
+      - ".markdownlint-cli2.jsonc" # alternate cli2 config filename
+      - "**/.markdownlint.jsonc" # markdownlint config (jsonc) influences linting rules (recursive)
+      - "**/.markdownlint.json" # alternative json config file name (recursive)
+      - "**/.markdownlint-cli2.mjs" # programmatic config (enables gitignore) (recursive)
+      - "**/.markdownlint-cli2.jsonc" # alternate cli2 config filename (recursive)
+      - "**/package.json" # scripts or config in package.json can change the lint command (recursive)
+      - "**/pnpm-lock.yaml" # dependency changes may alter linting behavior or versions (recursive)
+  pull_request:
+    paths:
+      - "**/*.md" # all markdown files in the repo
+      - ".github/workflows/markdownlint.yml" # re-run when this workflow file changes
+      - ".markdownlint.jsonc" # markdownlint config (jsonc) influences linting rules
+      - ".markdownlint.json" # alternative json config file name
+      - ".markdownlint-cli2.mjs" # programmatic config (enables gitignore)
+      - ".markdownlint-cli2.jsonc" # alternate cli2 config filename
+      - "**/.markdownlint.jsonc" # markdownlint config (jsonc) influences linting rules (recursive)
+      - "**/.markdownlint.json" # alternative json config file name (recursive)
+      - "**/.markdownlint-cli2.mjs" # programmatic config (enables gitignore) (recursive)
+      - "**/.markdownlint-cli2.jsonc" # alternate cli2 config filename (recursive)
+      - "**/package.json" # scripts or config in package.json can change the lint command (recursive)
+      - "**/pnpm-lock.yaml" # dependency changes may alter linting behavior or versions (recursive)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Enable corepack & prepare pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+
+      - name: Install dependencies (pnpm)
+        run: |
+          pnpm install --frozen-lockfile=false
+
+      - name: Lint Markdown
+        run: |
+          pnpm run markdownlint

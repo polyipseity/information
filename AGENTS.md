@@ -49,8 +49,24 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
 ## Dependencies
 
 - Python 3.8+ with `requirements.txt` packages
+- Node.js 24+ with `package.json` packages (commitlint, markdownlint)
 - External: `git`, `git-filter-repo`
 - Obsidian plugins: Extended MathJax (for `preamble.sty`)
+
+## Setup
+
+Install Node.js dependencies and activate Git hooks:
+
+```bash
+pnpm install
+pnpm run prepare  # Activates husky hooks
+```
+
+This enables:
+- **Commit message validation** (commitlint) - enforces Conventional Commits
+- **Markdown formatting checks** (markdownlint) - validates `**/*.md` files
+- **Pre-commit hooks** - auto-fixes and validates Markdown before commits
+- **CI workflows** - GitHub Actions runs the same checks on push/PR
 
 ## Custom instructions
 
