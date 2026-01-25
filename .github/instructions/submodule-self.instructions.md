@@ -8,3 +8,4 @@ applyTo: "self/**"
 - **If editing is needed but not requested**: Ask the user for permission first
 - **When user approves edits**: Make changes here, then consider contributing upstream
 - Prefer `git submodule update --remote` workflows for syncing upstream changes
+- **Submodule instructions**: Each submodule under `self/` may have its own `AGENTS.md` and `.github/instructions/` and `.github/skills/` files that take priority when working within that specific submodule
