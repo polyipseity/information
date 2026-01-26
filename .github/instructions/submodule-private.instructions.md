@@ -3,6 +3,9 @@ name: Submodule private
 description: private/ is a submodule; only edit when user explicitly requests
 applyTo: "private/**"
 ---
+
+# Submodule Private Guidelines
+
 - This is a git submodule pointing to a separate private repository
 - **Default behavior**: Avoid editing unless user explicitly requests it
 - **If editing is needed but not requested**: Ask the user for permission first

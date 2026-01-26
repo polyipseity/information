@@ -37,14 +37,14 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="332a"--><!-- The following content is generated at 2023-04-07T10:57:11.007075+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="332a"--><!-- The following content is generated at 2026-01-25T23:32:18.042781+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{[analgesic](analgesic.md)}@} |  |
-> | {@{[anti-inflammation](anti-inflammatory.md)}@} | {@{It can treat [arthritis](arthritis.md).}@} |
+> | name                                                           | description                                                                                        |
+> | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+> | {@{[analgesic](analgesic.md)}@}                                |                                                                                                    |
+> | {@{[anti-inflammation](anti-inflammatory.md)}@}                | {@{It can treat [arthritis](arthritis.md).}@}                                                      |
 > | {@{prevention of [heart attack](myocardial%20infarction.md)}@} | {@{It has [blood thinning](anticoagulant.md) and [antiplatelet](antiplatelet%20drug.md) effect.}@} |
-> | {@{relieve [fever](fever.md)}@} |  |
+> | {@{relieve [fever](fever.md)}@}                                |                                                                                                    |
 
 <!--/pytextgen-->
 
@@ -74,13 +74,13 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="11af"--><!-- The following content is generated at 2023-04-07T11:04:50.174254+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="11af"--><!-- The following content is generated at 2026-01-25T23:32:18.059210+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{increased bleeding risk}@} |  |
-> | {@{[stomach ulcer](peptic%20ulcer%20disease.md)}@} |  |
-> | {@{[stomach upset](abdominal%20pain.md)}@} |  |
+> | name                                               | description |
+> | -------------------------------------------------- | ----------- |
+> | {@{increased bleeding risk}@}                      |             |
+> | {@{[stomach ulcer](peptic%20ulcer%20disease.md)}@} |             |
+> | {@{[stomach upset](abdominal%20pain.md)}@}         |             |
 
 <!--/pytextgen-->
 

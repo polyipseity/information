@@ -35,14 +35,14 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="8462"--><!-- The following content is generated at 2023-09-26T08:44:21.496687+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8462"--><!-- The following content is generated at 2026-01-25T23:32:18.474658+08:00. Any edits will be overridden! -->
 
-> | name (IUPAC/old IUPAC/old CAS) | IUPAC recommended trivial name |
-> |-|-|
-> | {@{[group 1](#^group-1)/IA/IA}@} | {@{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}@} <a id="^group-1"></a>^group-1 |
-> | {@{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}@} | {@{[alkaline earth metals](alkaline%20earth%20metal.md)}@} |
-> | {@{[group 17](halogen.md)/VIIB/VIIA}@} | {@{[halogens](halogen.md)}@} |
-> | {@{[group 18](noble%20gas.md)/0/VIIIA}@} | {@{[noble gases](noble%20gas.md)}@} |
+> | name (IUPAC/old IUPAC/old CAS)                       | IUPAC recommended trivial name                                                                     |
+> | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+> | {@{[group 1](#^group-1)/IA/IA}@}                     | {@{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}@} <a id="^group-1"></a>^group-1 |
+> | {@{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}@} | {@{[alkaline earth metals](alkaline%20earth%20metal.md)}@}                                         |
+> | {@{[group 17](halogen.md)/VIIB/VIIA}@}               | {@{[halogens](halogen.md)}@}                                                                       |
+> | {@{[group 18](noble%20gas.md)/0/VIIIA}@}             | {@{[noble gases](noble%20gas.md)}@}                                                                |
 
 <!--/pytextgen-->
 

@@ -2,6 +2,7 @@
 name: tools-special
 description: Academic LMS converters and course management tools in tools/special/.
 ---
+
 # tools/special Workflows
 
 Use this skill when working with academic LMS (Learning Management System) converters and course catalog management tools.
@@ -30,6 +31,7 @@ The `tools/special/` directory contains specialized scripts for academic workflo
 **Input**: Canvas export file (format depends on Canvas API/export structure)
 
 **Output**: YAML frontmatter with:
+
 - Course code and title
 - Semester and year tags
 - Assignment details (due dates, points, status)
@@ -38,6 +40,7 @@ The `tools/special/` directory contains specialized scripts for academic workflo
 **Command**: `python -m tools.special."convert Canvas submission" <input_file>`
 
 **Example output**:
+
 ```yaml
 ---
 aliases: [COMP 2012]
@@ -64,6 +67,7 @@ instructor: Prof. Example
 **Purpose**: Retrieve current HKUST undergraduate course listings from university systems.
 
 **Output**: CSV with columns:
+
 - Course code (e.g., COMP 2012, ACCT 2010)
 - Course title
 - Credits
@@ -79,7 +83,7 @@ instructor: Prof. Example
 
 These tools support the academic note organization in `special/academia/`:
 
-```
+```text
 special/academia/
 ├── HKUST/
 │   ├── index.md          # Course listings by semester (maintained with converters)
@@ -99,6 +103,7 @@ After converting LMS exports or fetching course catalogs:
 4. Include status tags (`taken`, `not-taken`, `transferred`, `auditing`)
 
 **Example index.md structure**:
+
 ```markdown
 # HKUST Courses
 
@@ -113,6 +118,7 @@ After converting LMS exports or fetching course catalogs:
 ## CLI stability requirements
 
 **Critical**: These tools have established CLI interfaces; preserve:
+
 - Argument names and formats
 - YAML output schemas (field names, structure)
 - CSV column names for course list exports

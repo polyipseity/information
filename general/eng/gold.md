@@ -28,10 +28,10 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="f901"--><!-- The following content is generated at 2023-03-21T16:20:25.333865+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f901"--><!-- The following content is generated at 2026-01-25T23:32:18.448604+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
+> | name                   | description                                                                                                                       |
+> | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 > | {@{coins, jewellery}@} | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@} |
 
 <!--/pytextgen-->

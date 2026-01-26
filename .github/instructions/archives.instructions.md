@@ -4,6 +4,8 @@ description: Guidelines for archives/ organization, content storage, and index.m
 applyTo: "archives/**/*.md"
 ---
 
+# Archives Structure & Guidelines
+
 ## General Principles
 
 - **Permanence**: Once archived, files should remain stable (no renaming/deletion without good reason)
@@ -25,6 +27,7 @@ applyTo: "archives/**/*.md"
 ## Future Expansion
 
 Additional archive categories may be added as needed:
+
 - `archives/datasets/`: Research datasets, CSV files
 - `archives/papers/`: Academic papers, preprints
 - `archives/books/`: E-books, full-length texts
@@ -33,6 +36,7 @@ Additional archive categories may be added as needed:
 ## index.md Format
 
 **Required metadata for each entry**:
+
 - Filename (as Markdown link)
 - Description (brief summary)
 - Source (original URL or provenance)
@@ -41,6 +45,7 @@ Additional archive categories may be added as needed:
 - License (optional; for Wikimedia Commons media)
 
 **Example**:
+
 ```markdown
 - [example-article.md](example-article.md) — Archived blog post about X
   - Source: https://example.com/blog/article

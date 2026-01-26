@@ -33,15 +33,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="320d"--><!-- The following content is generated at 2023-03-21T16:20:25.313146+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="320d"--><!-- The following content is generated at 2026-01-25T23:32:17.965336+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{aircraft bodies}@} | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}@} |
-> | {@{kitchen foil}@} | {@{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}@} |
-> | {@{overhead power cables}@} | {@{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}@} |
-> | {@{soft drink cans}@} | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}@} |
-> | {@{window frames}@} | {@{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}@} |
+> | name                        | description                                                                                                                                          |
+> | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{aircraft bodies}@}       | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}@}                                         |
+> | {@{kitchen foil}@}          | {@{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}@} |
+> | {@{overhead power cables}@} | {@{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}@}                  |
+> | {@{soft drink cans}@}       | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}@}                      |
+> | {@{window frames}@}         | {@{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}@}                                                                    |
 
 <!--/pytextgen-->
 

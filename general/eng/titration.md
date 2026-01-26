@@ -45,13 +45,13 @@ return await memorize_table(
 
 Methods to determine the end point include:
 
-<!--pytextgen generate section="d981"--><!-- The following content is generated at 2023-03-23T18:13:41.619815+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d981"--><!-- The following content is generated at 2026-01-25T23:32:19.395432+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | indicator | Using a [substance](chemical%20substance.md) that changes color to a [chemical change](chemical%20change.md) to monitor the reaction. [pH indicators](pH%20indicator.md) are used in [acid–base titration](#acid–base%20titration). |
-> | [pH meter](pH%20meter.md) | The [pH](pH.md) is measured throughout the reaction. A sudden pH change happens at the end point. |
-> | [thermometric titration](thermometric%20titration.md) | The [temperature](temperature.md) change is measured and then plotted to find the end point. |
+> | name                                                  | description                                                                                                                                                                                                                         |
+> | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | indicator                                             | Using a [substance](chemical%20substance.md) that changes color to a [chemical change](chemical%20change.md) to monitor the reaction. [pH indicators](pH%20indicator.md) are used in [acid–base titration](#acid–base%20titration). |
+> | [pH meter](pH%20meter.md)                             | The [pH](pH.md) is measured throughout the reaction. A sudden pH change happens at the end point.                                                                                                                                   |
+> | [thermometric titration](thermometric%20titration.md) | The [temperature](temperature.md) change is measured and then plotted to find the end point.                                                                                                                                        |
 
 <!--/pytextgen-->
 

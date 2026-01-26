@@ -2,6 +2,7 @@
 name: tools
 description: Repository-wide tooling including init wrapper, pack/publish utilities, and all helper scripts. Links to tools-special and tools-templates for subfolder details.
 ---
+
 # Repository Tools Overview
 
 Use this skill when working with repository-wide tools, understanding tool architecture, or coordinating workflows across multiple tool categories.
@@ -94,6 +95,7 @@ The `tools/` directory contains all helper scripts and utilities:
 ### Python requirements
 
 See `requirements.txt` for package dependencies:
+
 - `anyio`: Async I/O for init.py
 - `aiohttp`: HTTP client for downloads
 - `bs4` (BeautifulSoup): HTML parsing for convert wiki.py
@@ -146,6 +148,7 @@ Install: `pip install -r requirements.txt`
 ## CLI stability
 
 **Critical**: Core tools have established interfaces; preserve:
+
 - Argument names and order
 - Expected input formats (clipboard, files, stdin)
 - Output formats (Markdown, YAML, CSV, ZIP)
@@ -202,5 +205,3 @@ When editing Python helper scripts in `tools/`:
 - **Favor relative imports**: Use relative imports within the tools package; do not hardcode absolute host paths
 - **Update requirements.txt**: When adding dependencies, update `requirements.txt` and note any non-pip prerequisites; prefer lightweight stdlib/typed solutions
 - **Test thoroughly**: Python tools are critical infrastructure; test changes carefully before committing
-
-

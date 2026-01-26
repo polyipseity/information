@@ -31,10 +31,10 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="231a"--><!-- The following content is generated at 2023-03-26T19:44:39.003825+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="231a"--><!-- The following content is generated at 2026-01-25T23:32:18.359536+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
+> | name                                                     | description                                                                                                                                       |
+> | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 > | {@{[intermolecular forces](intermolecular%20force.md)}@} | {@{The stronger the intermolecular forces, the lower the evaporation rate, as more energy is required for a [molecule](molecule.md) to escape.}@} |
 
 <!--/pytextgen-->

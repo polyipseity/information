@@ -39,12 +39,12 @@ tags:
 
 ### institutes
 
-| institute | minimum | flexibility |
-|-|-|-|
-| [CUHK] | 3322+33 | -1, [limited](https://www.cuhk.edu.hk/adm/jupas/flexible_admission_arrangement_2023.pdf) |
-| [HKU] | 3322+33 | -1, ≥2, ×0.9, band A, interview |
-| [HKUST] | 3322+33 | -1, band A, >median@2022 |
-| [PolyU] | 3322+33 | -1, band A |
+| institute | minimum | flexibility                                                                              |
+| --------- | ------- | ---------------------------------------------------------------------------------------- |
+| [CUHK]    | 3322+33 | -1, [limited](https://www.cuhk.edu.hk/adm/jupas/flexible_admission_arrangement_2023.pdf) |
+| [HKU]     | 3322+33 | -1, ≥2, ×0.9, band A, interview                                                          |
+| [HKUST]   | 3322+33 | -1, band A, >median@2022                                                                 |
+| [PolyU]   | 3322+33 | -1, band A                                                                               |
 
 > __key__
 >
@@ -54,12 +54,12 @@ tags:
 
 ### programmes
 
-| programme | interview |
-|-|-|
-| [JS4733]/[CUHK] | yes |
-| [JS5102]/[HKUST] | +1 (band A) |
-| [JS5103]/[HKUST] | +1 (band A) |
-| [JS5181]/[HKUST] | +1 (band A) |
+| programme        | interview        |
+| ---------------- | ---------------- |
+| [JS4733]/[CUHK]  | yes              |
+| [JS5102]/[HKUST] | +1 (band A)      |
+| [JS5103]/[HKUST] | +1 (band A)      |
+| [JS5181]/[HKUST] | +1 (band A)      |
 | [JS5200]/[HKUST] | +0.75/1 (band A) |
 | [JS5282]/[HKUST] | +0.75/1 (band A) |
 

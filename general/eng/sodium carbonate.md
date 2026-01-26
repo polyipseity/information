@@ -29,11 +29,11 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="d234"--><!-- The following content is generated at 2023-04-07T10:18:03.937580+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d234"--><!-- The following content is generated at 2026-01-25T23:32:19.205185+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}@} |  |
+> | name                                                                        | description |
+> | --------------------------------------------------------------------------- | ----------- |
+> | {@{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}@} |             |
 
 <!--/pytextgen-->
 

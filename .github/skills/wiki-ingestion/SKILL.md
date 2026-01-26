@@ -2,18 +2,22 @@
 name: wiki-ingestion
 description: Ingest Wikipedia HTML, normalize links/media, and archive to knowledge base.
 ---
+
 # Wiki Ingestion Workflow
 
 Use this skill when importing Wikipedia articles or converting HTML content into Markdown notes.
 
 ## What wiki ingestion does
+
 Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
+
 - Normalized relative links (URL-encoded with `%20` for spaces)
 - Media references extracted to `archives/Wikimedia Commons/`
 - YAML frontmatter scaffolding for new notes
 - Markdown table and list conversion
 
 ## When to use
+
 - Importing encyclopedia articles from Wikipedia verbatim
 - Converting web pages to Markdown for knowledge base
 - Extracting and organizing media from online sources
@@ -27,12 +31,14 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 - Script prompts for Wikipedia article name (e.g., "Fourier Transform")
 - Generates YAML frontmatter template:
+
   ```yaml
   ---
   aliases: [Alternative name]
   tags: [flashcard/active, language/in/English]
   ---
   ```
+
 - Adds Wikipedia link comment: `<!-- Source: https://en.wikipedia.org/wiki/Article_Name -->`
 - Copies template to clipboard
 - **Action**: Paste into new file `general/Article Name.md` (or `special/` if specialized content)
@@ -62,7 +68,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 - Scans note for cloze markup: `{@{ hidden text }@}`, `::@::`, `:@:`
 - Generates spaced-repetition flashcard state
 - Inserts generated flashcard regions marked with `<!--pytextgen generate section=...-->`
-- See [pytextgen](.github/skills/pytextgen/SKILL.md) skill for details
+- See [pytextgen](../pytextgen/SKILL.md) skill for details
 
 ### Step 5: Review and finalize
 
@@ -76,7 +82,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 - **Check media archives**: Ensure all images/files downloaded to `archives/Wikimedia Commons/` with `%20`-encoded filenames
 - **Verify link normalization**: Relative paths only; no external URLs unless absolutely necessary
-- **YAML structure**: Use [markdown-notes](.github/instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`
+- **YAML structure**: Use [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`
 - **Keep attribution**: Preserve Wikipedia source URL in frontmatter or as HTML comment
 - **Review formatting**: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings
 - **Test generation**: After editing, run `python -m init generate <file>` to verify flashcard creation
@@ -87,15 +93,16 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 1. **Media download failures**: Check if clipboard HTML is complete; retry `convert wiki`
 2. **Broken relative links**: Verify `%20` encoding for spaces (not `%3A` or other encodings)
 3. **Complex tables**: Some Wikipedia tables don't convert well; manually edit to simpler Markdown format
-4. **Cloze markup missing**: Manually add after generation; see [pytextgen](.github/skills/pytextgen/SKILL.md) skill for syntax
+4. **Cloze markup missing**: Manually add after generation; see [pytextgen](../pytextgen/SKILL.md) skill for syntax
 
 ## Integration
 
-- **Note scaffolding**: Use [tools-templates](.github/skills/tools-templates/SKILL.md) to understand frontmatter conventions
-- **Flashcard generation**: Use [pytextgen](.github/skills/pytextgen/SKILL.md) to regenerate cloze markup into flashcards
-- **Edit conventions**: See [editing-conventions](.github/instructions/editing-conventions.instructions.md) for general rules while editing imported notes
+- **Note scaffolding**: Use [tools-templates](../tools-templates/SKILL.md) to understand frontmatter conventions
+- **Flashcard generation**: Use [pytextgen](../pytextgen/SKILL.md) to regenerate cloze markup into flashcards
+- **Edit conventions**: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules while editing imported notes
 
 ## Typical command pattern
+
 ```bash
 # Ingest from clipboard
 python -m "convert wiki"

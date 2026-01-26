@@ -69,14 +69,14 @@ return await memorize_table(
 
 The Bohr model fails to explain:
 
-<!--pytextgen generate section="0692"--><!-- The following content is generated at 2024-03-07T10:22:56.394226+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0692"--><!-- The following content is generated at 2026-01-25T23:32:18.087208+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{brightness}@} | {@{relative brightness of spectral lines}@} |
-> | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@} |
-> | {@{naturalness}@} | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
-> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} |
+> | name                                    | description                                                                                                                                                               |
+> | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{brightness}@}                        | {@{relative brightness of spectral lines}@}                                                                                                                               |
+> | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@}                                                                                                  |
+> | {@{naturalness}@}                       | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
+> | {@{structures}@}                        | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@}                                                         |
 
 <!--/pytextgen-->
 

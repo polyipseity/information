@@ -31,14 +31,14 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="4949"--><!-- The following content is generated at 2024-07-11T08:29:28.938003+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4949"--><!-- The following content is generated at 2026-01-25T23:32:18.858846+08:00. Any edits will be overridden! -->
 
-> | name |
-> |-|
-> | [Pythagorean identities](#Pythagorean%20identities) |
-> | [angle sum and difference](#angle%20sum%20and%20difference) |
-> | [linear combination](#linear%20combination) |
-> | [multiple-angle](#multiple-angle) |
+> | name                                                                        |
+> | --------------------------------------------------------------------------- |
+> | [Pythagorean identities](#Pythagorean%20identities)                         |
+> | [angle sum and difference](#angle%20sum%20and%20difference)                 |
+> | [linear combination](#linear%20combination)                                 |
+> | [multiple-angle](#multiple-angle)                                           |
 > | [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) |
 
 <!--/pytextgen-->

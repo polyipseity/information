@@ -57,16 +57,16 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2023-08-25T12:57:43.306675+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2026-01-25T23:32:21.201126+08:00. Any edits will be overridden! -->
 
-> | character | description |
-> |-|-|
-> | {@{a}@} | {@{append}@} |
-> | {@{a+}@} | {@{append extended}@} |
-> | {@{r}@} | {@{read}@} |
-> | {@{r+}@} | {@{read extended}@} |
-> | {@{w}@} | {@{write}@} |
-> | {@{w+}@} | {@{write extended}@} |
+> | character | description           |
+> | --------- | --------------------- |
+> | {@{a}@}   | {@{append}@}          |
+> | {@{a+}@}  | {@{append extended}@} |
+> | {@{r}@}   | {@{read}@}            |
+> | {@{r+}@}  | {@{read extended}@}   |
+> | {@{w}@}   | {@{write}@}           |
+> | {@{w+}@}  | {@{write extended}@}  |
 
 <!--/pytextgen-->
 

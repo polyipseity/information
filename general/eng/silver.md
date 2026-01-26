@@ -29,11 +29,11 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="30df"--><!-- The following content is generated at 2023-03-21T16:20:25.386136+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="30df"--><!-- The following content is generated at 2026-01-25T23:32:19.173572+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{coins, jewellery}@} | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@} |
+> | name                                       | description                                                                                                                                               |
+> | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{coins, jewellery}@}                     | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@}                         |
 > | {@{electrical and electronic components}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}@} |
 
 <!--/pytextgen-->

@@ -69,16 +69,16 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-02-01T11:50:25.897878+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2026-01-25T23:32:20.831872+08:00. Any edits will be overridden! -->
 
-> | type | description |
-> |-|-|
-> | `String` | A piece of text. Example: `"Hello"` |
-> | `boolean` | Either true or false. Example: `true`, `false` |
-> | `char` | A single character. Example: `'a'`, `'3'`, `' '` |
-> | `double` | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` |
-> | `float` | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` |
-> | `int` | An integer. Example: `42` |
+> | type      | description                                                                                                                                                                                      |
+> | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+> | `String`  | A piece of text. Example: `"Hello"`                                                                                                                                                              |
+> | `boolean` | Either true or false. Example: `true`, `false`                                                                                                                                                   |
+> | `char`    | A single character. Example: `'a'`, `'3'`, `' '`                                                                                                                                                 |
+> | `double`  | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` |
+> | `float`   | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F`          |
+> | `int`     | An integer. Example: `42`                                                                                                                                                                        |
 
 <!--/pytextgen-->
 
@@ -189,13 +189,13 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2025-09-21T20:03:37.048455+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2026-01-25T23:32:20.856129+08:00. Any edits will be overridden! -->
 
-> | operator | description |
-> |-|-|
-> | `++` <br/> `--` | increment a numerical variable by 1 <br/> decrement a numerical variable by 1 |
+> | operator                | description                                                                                                                                                                                                  |
+> | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+> | `++` <br/> `--`         | increment a numerical variable by 1 <br/> decrement a numerical variable by 1                                                                                                                                |
 > | `*` <br/> `/` <br/> `%` | multiplication <br/> division; if both operands are of integral types, then round-towards-zero division <br/> remainder; the resulting sign is the same as the dividend, i.e. the number before the operator |
-> | `+` <br/> `-` | addition <br/> subtraction |
+> | `+` <br/> `-`           | addition <br/> subtraction                                                                                                                                                                                   |
 
 <!--/pytextgen-->
 
@@ -246,16 +246,16 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.668328+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2026-01-25T23:32:20.880781+08:00. Any edits will be overridden! -->
 
-> | operator | description |
-> |-|-|
-> | `<` | lesser than |
-> | `>` | greater than |
-> | `<=` | lesser than or equal to |
-> | `>=` | greater than or equal to |
-> | `==` | equal to |
-> | `!=` | not equal to |
+> | operator | description              |
+> | -------- | ------------------------ |
+> | `<`      | lesser than              |
+> | `>`      | greater than             |
+> | `<=`     | lesser than or equal to  |
+> | `>=`     | greater than or equal to |
+> | `==`     | equal to                 |
+> | `!=`     | not equal to             |
 
 <!--/pytextgen-->
 
@@ -313,13 +313,13 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-02-20T14:26:41.018968+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2856"--><!-- The following content is generated at 2026-01-25T23:32:20.912410+08:00. Any edits will be overridden! -->
 
-> | operator | description |
-> |-|-|
-> | `!` | negate |
-> | `&&` | and |
-> | <code>&#124;&#124;</code> | or |
+> | operator                  | description |
+> | ------------------------- | ----------- |
+> | `!`                       | negate      |
+> | `&&`                      | and         |
+> | <code>&#124;&#124;</code> | or          |
 
 <!--/pytextgen-->
 

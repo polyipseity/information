@@ -29,12 +29,12 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="0d93"--><!-- The following content is generated at 2023-03-21T16:20:25.402524+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0d93"--><!-- The following content is generated at 2026-01-25T23:32:19.380765+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{[implants](implant%20(medicine).md)}@} | {@{[biocompatible](biocompatibility.md), [corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}@} |
-> | {@{supersonic aircraft bodies}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), high [melting point](melting%20point.md), low [density](density.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} |
+> | name                                      | description                                                                                                                                                                                                   |
+> | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{[implants](implant%20(medicine).md)}@} | {@{[biocompatible](biocompatibility.md), [corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}@}                                                            |
+> | {@{supersonic aircraft bodies}@}          | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), high [melting point](melting%20point.md), low [density](density.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} |
 
 <!--/pytextgen-->
 

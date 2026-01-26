@@ -27,13 +27,13 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="923dac"--><!-- The following content is generated at 2023-03-20T16:20:31.118657+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="923dac"--><!-- The following content is generated at 2026-01-25T23:32:18.965492+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{breathing}@} |  |
-> | {@{burning of fuels}@} |  |
-> | {@{medical use}@} |  |
+> | name                   | description |
+> | ---------------------- | ----------- |
+> | {@{breathing}@}        |             |
+> | {@{burning of fuels}@} |             |
+> | {@{medical use}@}      |             |
 
 <!--/pytextgen-->
 

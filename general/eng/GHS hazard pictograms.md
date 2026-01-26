@@ -36,19 +36,19 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b9a823"--><!-- The following content is generated at 2026-01-25T23:32:18.464328+08:00. Any edits will be overridden! -->
 
-> | name & pictogram | description |
-> |-|-|
-> | {@{GHS01: [explosive](explosive.md)}@}<br/>{@{![GHS01: [explosive](explosive.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)}@} |  |
-> | {@{GHS02: [flammable](flammability.md)}@}<br/>{@{![GHS02: [flammable](flammability.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)}@} |  |
-> | {@{GHS03: [oxidizing](oxidizing%20agent.md)}@}<br/>{@{![GHS03: [oxidizing](oxidizing%20agent.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)}@} |  |
-> | {@{GHS04: [compressed gas](compressed%20fluid.md)}@}<br/>{@{![GHS04: [compressed gas](compressed%20fluid.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)}@} |  |
-> | {@{GHS05: [corrosive](corrosive%20substance.md)}@}<br/>{@{![GHS05: [corrosive](corrosive%20substance.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)}@} |  |
-> | {@{GHS06: [toxic](toxicity.md)}@}<br/>{@{![GHS06: [toxic](toxicity.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}@} |  |
-> | {@{GHS07: harmful}@}<br/>{@{![GHS07: harmful](../../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}@} |  |
-> | {@{GHS08: [health hazard](health%20hazard.md)}@}<br/>{@{![GHS08: [health hazard](health%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}@} |  |
-> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |  |
+> | name & pictogram                                                                                                                                                                                 | description |
+> | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+> | {@{GHS01: [explosive](explosive.md)}@}<br/>{@{![GHS01: [explosive](explosive.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)}@}                                                |             |
+> | {@{GHS02: [flammable](flammability.md)}@}<br/>{@{![GHS02: [flammable](flammability.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)}@}                                          |             |
+> | {@{GHS03: [oxidizing](oxidizing%20agent.md)}@}<br/>{@{![GHS03: [oxidizing](oxidizing%20agent.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)}@}                              |             |
+> | {@{GHS04: [compressed gas](compressed%20fluid.md)}@}<br/>{@{![GHS04: [compressed gas](compressed%20fluid.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)}@}                    |             |
+> | {@{GHS05: [corrosive](corrosive%20substance.md)}@}<br/>{@{![GHS05: [corrosive](corrosive%20substance.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)}@}                          |             |
+> | {@{GHS06: [toxic](toxicity.md)}@}<br/>{@{![GHS06: [toxic](toxicity.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}@}                                                           |             |
+> | {@{GHS07: harmful}@}<br/>{@{![GHS07: harmful](../../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}@}                                                                                    |             |
+> | {@{GHS08: [health hazard](health%20hazard.md)}@}<br/>{@{![GHS08: [health hazard](health%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}@}                        |             |
+> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |             |
 
 <!--/pytextgen-->
 

@@ -356,25 +356,25 @@ return (
 
 Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bonds must use suffixes. Always add infixes.
 
-<!--pytextgen generate section="28dcee"--><!-- The following content is generated at 2024-10-09T17:40:50.221476+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28dcee"--><!-- The following content is generated at 2026-01-25T23:32:18.670786+08:00. Any edits will be overridden! -->
 
-> | class | group | formula | prefix | suffix | infix | misc |
-> |-|-|-|-|-|-|-|
-> | alkane | alkyl | R(CH<sub>2</sub>)<sub>n</sub>H | ([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl- | -ane | (none), (locant) | - cyclic prefix: cyclo- |
-> | alkene | alkenyl | R<sub>2</sub>C=CR<sub>2</sub> | ([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl- | -ene | (locant) | - cyclic prefix: cyclo- |
-> | alkyne | alkynyl | RC≡CR' | ([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl- | -yne | (locant) | - cyclic prefix: cyclo- |
-> | benzene derivative | phenyl | RC<sub>6</sub>H<sub>5</sub>/RPh | phenyl- | -benzene | (locant) |  |
-> | ([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane | ([prefix for halogen](#affixes%20for%20halogen)), halo | RX | ([prefix for halogen](#affixes%20for%20halogen))-, halo- | ([suffix for halogen](#affixes%20for%20halogen)) | (locant) |  |
-> | alcohol | hydroxyl | ROH | hydroxy- | -ol | (locant) |  |
-> | ether | ether | ROR' | ([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-) | ether | (locant) |  |
-> | aldehyde | aldehyde | RCHO | oxo- (=O), formyl- (-CHO) | -al (=O), -carbaldehyde (-CHO) | (locant) |  |
-> | ketone | carbonyl | RCOR' | oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR') | -one | (locant) |  |
-> | carboxylic acid | carboxyl | RCOOH | carboxy- | -ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH) | (locant) |  |
-> | carboxylate | carboxylate | RCOO<sup>-</sup> | carboxy- | -ate (retained), -oate | (locant) |  |
-> | alkanoyl | acyl | RCO | (none) | -yl (retained), -oyl | (locant) |  |
-> | amine | amino | RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup> | amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (R<sub>4</sub>N<sup>+</sup>) | -amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (R<sub>4</sub>N<sup>+</sup>) | (locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>) |  |
-> | amide | amide | RCONH<sub>2</sub>, RCONHR', RCONR'R'' | amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>) | -amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>) | (locant) & _N_ (R', R'') |  |
-> | nitrile | nitrile | RCN | cyano- | -nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN) | (locant) |  |
+> | class                                                              | group                                                  | formula                                                            | prefix                                                                                              | suffix                                                                               | infix                                               | misc                    |
+> | ------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------- | ----------------------- |
+> | alkane                                                             | alkyl                                                  | R(CH<sub>2</sub>)<sub>n</sub>H                                     | ([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-                                  | -ane                                                                                 | (none), (locant)                                    | - cyclic prefix: cyclo- |
+> | alkene                                                             | alkenyl                                                | R<sub>2</sub>C=CR<sub>2</sub>                                      | ([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-                              | -ene                                                                                 | (locant)                                            | - cyclic prefix: cyclo- |
+> | alkyne                                                             | alkynyl                                                | RC≡CR'                                                             | ([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-                              | -yne                                                                                 | (locant)                                            | - cyclic prefix: cyclo- |
+> | benzene derivative                                                 | phenyl                                                 | RC<sub>6</sub>H<sub>5</sub>/RPh                                    | phenyl-                                                                                             | -benzene                                                                             | (locant)                                            |                         |
+> | ([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane | ([prefix for halogen](#affixes%20for%20halogen)), halo | RX                                                                 | ([prefix for halogen](#affixes%20for%20halogen))-, halo-                                            | ([suffix for halogen](#affixes%20for%20halogen))                                     | (locant)                                            |                         |
+> | alcohol                                                            | hydroxyl                                               | ROH                                                                | hydroxy-                                                                                            | -ol                                                                                  | (locant)                                            |                         |
+> | ether                                                              | ether                                                  | ROR'                                                               | ([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)  | ether                                                                                | (locant)                                            |                         |
+> | aldehyde                                                           | aldehyde                                               | RCHO                                                               | oxo- (=O), formyl- (-CHO)                                                                           | -al (=O), -carbaldehyde (-CHO)                                                       | (locant)                                            |                         |
+> | ketone                                                             | carbonyl                                               | RCOR'                                                              | oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR') | -one                                                                                 | (locant)                                            |                         |
+> | carboxylic acid                                                    | carboxyl                                               | RCOOH                                                              | carboxy-                                                                                            | -ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)          | (locant)                                            |                         |
+> | carboxylate                                                        | carboxylate                                            | RCOO<sup>-</sup>                                                   | carboxy-                                                                                            | -ate (retained), -oate                                                               | (locant)                                            |                         |
+> | alkanoyl                                                           | acyl                                                   | RCO                                                                | (none)                                                                                              | -yl (retained), -oyl                                                                 | (locant)                                            |                         |
+> | amine                                                              | amino                                                  | RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup> | amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (R<sub>4</sub>N<sup>+</sup>)                 | -amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (R<sub>4</sub>N<sup>+</sup>) | (locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>) |                         |
+> | amide                                                              | amide                                                  | RCONH<sub>2</sub>, RCONHR', RCONR'R''                              | amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)                                        | -amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)                       | (locant) & _N_ (R', R'')                            |                         |
+> | nitrile                                                            | nitrile                                                | RCN                                                                | cyano-                                                                                              | -nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)                      | (locant)                                            |                         |
 
 <!--/pytextgen-->
 
@@ -555,6 +555,7 @@ table: gen.TextCode = gen.TextCode.compile(gen.rows_to_table(data,
     values=lambda affixes: map(gen.TextCode.escape,
       (affixes.element, cloze(affixes.prefix), cloze(affixes.suffix),)
     ),
+    use_compiled_len=True,
   ))
 return (
   util.Result(
@@ -566,14 +567,14 @@ return (
 )
 ```
 
-<!--pytextgen generate section="adc061"--><!-- The following content is generated at 2023-03-20T16:20:31.116658+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="adc061"--><!-- The following content is generated at 2026-01-26T12:39:03.993566+08:00. Any edits will be overridden! -->
 
-> | element | prefix | suffix |
-> |-|-|-|
+> | element  | prefix        | suffix         |
+> | -------- | ------------- | -------------- |
 > | fluorine | {@{fluoro-}@} | {@{fluoride}@} |
 > | chlorine | {@{chloro-}@} | {@{chloride}@} |
-> | bromine | {@{bromo-}@} | {@{bromide}@} |
-> | iodine | {@{iodo-}@} | {@{iodide}@} |
+> | bromine  | {@{bromo-}@}  | {@{bromide}@}  |
+> | iodine   | {@{iodo-}@}   | {@{iodide}@}   |
 
 <!--/pytextgen-->
 
@@ -658,15 +659,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="f91a"--><!-- The following content is generated at 2023-04-04T23:50:24.828005+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f91a"--><!-- The following content is generated at 2026-01-25T23:32:18.767288+08:00. Any edits will be overridden! -->
 
-> | trivial name | systematic name |
-> |-|-|
-> | {@{[acetic acid](acetic%20acid.md)}@} | {@{ethanoic acid}@} |
-> | {@{[acetone](acetone.md)}@} | {@{propanone}@} |
-> | {@{[chloroform](chloroform.md)}@} | {@{trichloromethane}@} |
-> | {@{[formaldehyde](formaldehyde.md)}@} | {@{methanal}@} |
-> | {@{[isopropyl alcohol](isopropyl%20alochol.md)}@} | {@{propan-2-ol}@} |
+> | trivial name                                      | systematic name        |
+> | ------------------------------------------------- | ---------------------- |
+> | {@{[acetic acid](acetic%20acid.md)}@}             | {@{ethanoic acid}@}    |
+> | {@{[acetone](acetone.md)}@}                       | {@{propanone}@}        |
+> | {@{[chloroform](chloroform.md)}@}                 | {@{trichloromethane}@} |
+> | {@{[formaldehyde](formaldehyde.md)}@}             | {@{methanal}@}         |
+> | {@{[isopropyl alcohol](isopropyl%20alochol.md)}@} | {@{propan-2-ol}@}      |
 
 <!--/pytextgen-->
 

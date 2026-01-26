@@ -39,15 +39,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="9d9d"--><!-- The following content is generated at 2023-12-25T08:13:56.305002+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9d9d"--><!-- The following content is generated at 2026-01-25T23:32:18.088336+08:00. Any edits will be overridden! -->
 
-> | property | description |
-> |-|-|
-> | {@{[boiling point](boiling%20point.md)}@} | {@{typically low}@} |
-> | {@{[brittleness](brittleness.md)}@} | {@{typically [anisotropic](anisotropy.md)}@} |
-> | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{typically low}@} |
-> | {@{[melting point](melting%20point.md)}@} | {@{typically low}@} |
-> | {@{[strength](strength%20of%20materials.md)}@} | {@{typically low}@} |
+> | property                                                      | description                                  |
+> | ------------------------------------------------------------- | -------------------------------------------- |
+> | {@{[boiling point](boiling%20point.md)}@}                     | {@{typically low}@}                          |
+> | {@{[brittleness](brittleness.md)}@}                           | {@{typically [anisotropic](anisotropy.md)}@} |
+> | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{typically low}@}                          |
+> | {@{[melting point](melting%20point.md)}@}                     | {@{typically low}@}                          |
+> | {@{[strength](strength%20of%20materials.md)}@}                | {@{typically low}@}                          |
 
 <!--/pytextgen-->
 
@@ -74,15 +74,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="357d"--><!-- The following content is generated at 2023-12-25T08:00:46.096288+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="357d"--><!-- The following content is generated at 2026-01-25T23:32:18.096610+08:00. Any edits will be overridden! -->
 
-> | property | description |
-> |-|-|
-> | {@{[boiling point](boiling%20point.md)}@} | {@{typically high}@} |
-> | {@{[brittleness](brittleness.md)}@} | {@{typically high}@} |
+> | property                                                      | description                                         |
+> | ------------------------------------------------------------- | --------------------------------------------------- |
+> | {@{[boiling point](boiling%20point.md)}@}                     | {@{typically high}@}                                |
+> | {@{[brittleness](brittleness.md)}@}                           | {@{typically high}@}                                |
 > | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{typically low ([graphite](graphite.md): high)}@} |
-> | {@{[melting point](melting%20point.md)}@} | {@{typically high}@} |
-> | {@{[strength](strength%20of%20materials.md)}@} | {@{typically high ([graphite](graphite.md): low)}@} |
+> | {@{[melting point](melting%20point.md)}@}                     | {@{typically high}@}                                |
+> | {@{[strength](strength%20of%20materials.md)}@}                | {@{typically high ([graphite](graphite.md): low)}@} |
 
 <!--/pytextgen-->
 
@@ -109,15 +109,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="5460"--><!-- The following content is generated at 2023-12-25T08:13:56.331587+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5460"--><!-- The following content is generated at 2026-01-25T23:32:18.108731+08:00. Any edits will be overridden! -->
 
-> | property | description |
-> |-|-|
-> | {@{[boiling point](boiling%20point.md)}@} | {@{typically moderately high}@} |
-> | {@{[brittleness](brittleness.md)}@} | {@{typically extremely high}@} |
+> | property                                                      | description                                                                                                |
+> | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+> | {@{[boiling point](boiling%20point.md)}@}                     | {@{typically moderately high}@}                                                                            |
+> | {@{[brittleness](brittleness.md)}@}                           | {@{typically extremely high}@}                                                                             |
 > | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{typically high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise typically low}@} |
-> | {@{[melting point](melting%20point.md)}@} | {@{typically moderately high}@} |
-> | {@{[strength](strength%20of%20materials.md)}@} | {@{typically intermediate}@} |
+> | {@{[melting point](melting%20point.md)}@}                     | {@{typically moderately high}@}                                                                            |
+> | {@{[strength](strength%20of%20materials.md)}@}                | {@{typically intermediate}@}                                                                               |
 
 <!--/pytextgen-->
 
@@ -147,18 +147,18 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="435d"--><!-- The following content is generated at 2023-12-25T08:18:39.407540+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="435d"--><!-- The following content is generated at 2026-01-25T23:32:18.117082+08:00. Any edits will be overridden! -->
 
-> | property | description |
-> |-|-|
-> | {@{[boiling point](boiling%20point.md)}@} | {@{typically high ([mercury](mercury.md): low)}@} |
-> | {@{[brittleness](brittleness.md)}@} | {@{typically low}@} |
-> | {@{[ductility](ductility.md)}@} | {@{typically high}@} |
-> | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{typically high}@} |
-> | {@{[malleability](malleability.md)}@} | {@{typically high}@} |
-> | {@{[melting point](melting%20point.md)}@} | {@{typically high ([mercury](mercury.md): low)}@} |
-> | {@{[strength](strength%20of%20materials.md)}@} | {@{typically low when pure}@} |
-> | {@{[thermal conductivity](thermal%20conductivity.md)}@} | {@{typically high}@} |
+> | property                                                      | description                                       |
+> | ------------------------------------------------------------- | ------------------------------------------------- |
+> | {@{[boiling point](boiling%20point.md)}@}                     | {@{typically high ([mercury](mercury.md): low)}@} |
+> | {@{[brittleness](brittleness.md)}@}                           | {@{typically low}@}                               |
+> | {@{[ductility](ductility.md)}@}                               | {@{typically high}@}                              |
+> | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{typically high}@}                              |
+> | {@{[malleability](malleability.md)}@}                         | {@{typically high}@}                              |
+> | {@{[melting point](melting%20point.md)}@}                     | {@{typically high ([mercury](mercury.md): low)}@} |
+> | {@{[strength](strength%20of%20materials.md)}@}                | {@{typically low when pure}@}                     |
+> | {@{[thermal conductivity](thermal%20conductivity.md)}@}       | {@{typically high}@}                              |
 
 <!--/pytextgen-->
 

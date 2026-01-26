@@ -74,15 +74,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="eef1"--><!-- The following content is generated at 2023-03-20T16:22:42.843631+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="eef1"--><!-- The following content is generated at 2026-01-25T23:32:18.660824+08:00. Any edits will be overridden! -->
 
-> | [oxidation state](oxidation%20state.md) | [cations](ion.md) and [acids](acid.md) | [anions](ion.md) |
-> |-|-|-|
-> | {@{lowest}@} | {@{_hypo-\*-ous_}@} | {@{_hypo-\*-ite_}@} |
-> |  | {@{_\*-ous_}@} | {@{_\*-ite_}@} |
-> |  | {@{_\*-ic_}@} | {@{_\*-ate_}@} |
-> |  | {@{_per-\*-ic_}@} | {@{_per-\*-ate_}@} |
-> | {@{highest}@} | {@{_hyper-\*-ic_}@} | {@{_hyper-\*-ate_}@} |
+> | [oxidation state](oxidation%20state.md) | [cations](ion.md) and [acids](acid.md) | [anions](ion.md)     |
+> | --------------------------------------- | -------------------------------------- | -------------------- |
+> | {@{lowest}@}                            | {@{_hypo-\*-ous_}@}                    | {@{_hypo-\*-ite_}@}  |
+> |                                         | {@{_\*-ous_}@}                         | {@{_\*-ite_}@}       |
+> |                                         | {@{_\*-ic_}@}                          | {@{_\*-ate_}@}       |
+> |                                         | {@{_per-\*-ic_}@}                      | {@{_per-\*-ate_}@}   |
+> | {@{highest}@}                           | {@{_hyper-\*-ic_}@}                    | {@{_hyper-\*-ate_}@} |
 
 <!--/pytextgen-->
 

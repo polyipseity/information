@@ -28,10 +28,10 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="d892"--><!-- The following content is generated at 2023-03-21T16:20:25.394115+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d892"--><!-- The following content is generated at 2026-01-25T23:32:18.554297+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
+> | name                                     | description                                                                                                                     |
+> | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 > | {@{constructions, car and ship bodies}@} | {@{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} |
 
 <!--/pytextgen-->

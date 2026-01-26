@@ -62,13 +62,13 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2025-09-21T20:03:37.053459+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2026-01-25T23:32:20.917433+08:00. Any edits will be overridden! -->
 
-> | operator | description |
-> |-|-|
-> | `^` | power |
+> | operator      | description                   |
+> | ------------- | ----------------------------- |
+> | `^`           | power                         |
 > | `*` <br/> `/` | multiplication <br/> division |
-> | `+` <br/> `-` | addition <br/> subtraction |
+> | `+` <br/> `-` | addition <br/> subtraction    |
 
 <!--/pytextgen-->
 
@@ -119,16 +119,16 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-31T12:32:22.894695+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2026-01-25T23:32:20.967213+08:00. Any edits will be overridden! -->
 
-> | operator | description |
-> |-|-|
-> | `=` | equal to |
-> | `<` | lesser than |
-> | `>` | greater than |
-> | `<=` | lesser than or equal to |
-> | `>=` | greater than or equal to |
-> | `<>` | not equal to |
+> | operator | description              |
+> | -------- | ------------------------ |
+> | `=`      | equal to                 |
+> | `<`      | lesser than              |
+> | `>`      | greater than             |
+> | `<=`     | lesser than or equal to  |
+> | `>=`     | greater than or equal to |
+> | `<>`     | not equal to             |
 
 <!--/pytextgen-->
 
@@ -186,13 +186,13 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-02-05T12:43:06.967772+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2856"--><!-- The following content is generated at 2026-01-25T23:32:20.977730+08:00. Any edits will be overridden! -->
 
-> | function | description |
-> |-|-|
-> | `NOT(boolean)` | negate |
-> | `AND(booleans...)` | every input is true |
-> | `OR(booleans...)` | there exists true inputs |
+> | function           | description              |
+> | ------------------ | ------------------------ |
+> | `NOT(boolean)`     | negate                   |
+> | `AND(booleans...)` | every input is true      |
+> | `OR(booleans...)`  | there exists true inputs |
 
 <!--/pytextgen-->
 
@@ -244,17 +244,17 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="0ff2"--><!-- The following content is generated at 2024-01-31T12:40:30.974267+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0ff2"--><!-- The following content is generated at 2026-01-25T23:32:21.003172+08:00. Any edits will be overridden! -->
 
-> | function | description |
-> |-|-|
-> | (operator) `&` | concatenation |
-> | `LEFT(string, length)` | get the first `length` characters in `string` |
-> | `LEN(string)` | length of `string` |
-> | `LOWER(string)` | convert to lowercase |
-> | `RIGHT(string, length)` | get the last `length` characters in `string` |
+> | function                       | description                                             |
+> | ------------------------------ | ------------------------------------------------------- |
+> | (operator) `&`                 | concatenation                                           |
+> | `LEFT(string, length)`         | get the first `length` characters in `string`           |
+> | `LEN(string)`                  | length of `string`                                      |
+> | `LOWER(string)`                | convert to lowercase                                    |
+> | `RIGHT(string, length)`        | get the last `length` characters in `string`            |
 > | `SUBSTITUTE(string, old, new)` | replace all occurrences of `old` with `new` in `string` |
-> | `UPPER(string)` | convert to uppercase |
+> | `UPPER(string)`                | convert to uppercase                                    |
 
 <!--/pytextgen-->
 
@@ -315,18 +315,18 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="93ba"--><!-- The following content is generated at 2024-01-31T12:52:39.241194+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ba"--><!-- The following content is generated at 2026-01-25T23:32:21.046485+08:00. Any edits will be overridden! -->
 
-> | function | description |
-> |-|-|
-> | `AVERAGE(numbers...)` | average |
-> | `COUNTIF(values, criteria)` | number of `values` satisfying `criteria` |
+> | function                                               | description                                                                     |
+> | ------------------------------------------------------ | ------------------------------------------------------------------------------- |
+> | `AVERAGE(numbers...)`                                  | average                                                                         |
+> | `COUNTIF(values, criteria)`                            | number of `values` satisfying `criteria`                                        |
 > | `IF(boolean, value_if_true[, value_if_false = FALSE])` | `value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested |
-> | `MAX(numbers...)` | maximum |
-> | `MIN(numbers...)` | minimum |
-> | `RANK(number, numbers...)` | rank of `number` in `numbers`, starting from 1 |
-> | `STDEV(numbers...)` | standard deviation |
-> | `SUM(numbers...)` | summation |
+> | `MAX(numbers...)`                                      | maximum                                                                         |
+> | `MIN(numbers...)`                                      | minimum                                                                         |
+> | `RANK(number, numbers...)`                             | rank of `number` in `numbers`, starting from 1                                  |
+> | `STDEV(numbers...)`                                    | standard deviation                                                              |
+> | `SUM(numbers...)`                                      | summation                                                                       |
 
 <!--/pytextgen-->
 

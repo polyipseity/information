@@ -89,15 +89,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="385a"--><!-- The following content is generated at 2023-04-25T22:14:31.359212+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="385a"--><!-- The following content is generated at 2026-01-25T23:32:19.486177+08:00. Any edits will be overridden! -->
 
-> | question type | description |
-> |-|-|
-> | {@{comparison}@} | {@{analyze similarities and differences of multiple things}@} |
-> | {@{factor/reason}@} | {@{explain a phenomenon}@} |
-> | {@{impact/problem}@} | {@{analyze consequences}@} |
-> | {@{phenomenon}@} | {@{analyze characteristics}@} |
-> | {@{solution}@} | {@{solve a problem}@} |
+> | question type         | description                                                      |
+> | --------------------- | ---------------------------------------------------------------- |
+> | {@{comparison}@}      | {@{analyze similarities and differences of multiple things}@}    |
+> | {@{factor/reason}@}   | {@{explain a phenomenon}@}                                       |
+> | {@{impact/problem}@}  | {@{analyze consequences}@}                                       |
+> | {@{phenomenon}@}      | {@{analyze characteristics}@}                                    |
+> | {@{solution}@}        | {@{solve a problem}@}                                            |
 > | {@{value judgement}@} | {@{comment on good and bad or values positioning stakeholders}@} |
 
 <!--/pytextgen-->
@@ -145,11 +145,11 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="102d"--><!-- The following content is generated at 2023-12-04T08:21:59.272356+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="102d"--><!-- The following content is generated at 2026-01-25T23:32:19.496845+08:00. Any edits will be overridden! -->
 
-> | question word(s) | description |
-> |-|-|
-> | {@{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}@} | {@{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}@} |
+> | question word(s)                                                    | description                                                                                                                                                                                                               |
+> | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}@}     | {@{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}@}               |
 > | {@{<ul><li>comment</li><li>to what extent do you agree</li></ul>}@} | {@{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}@} |
 
 <!--/pytextgen-->
@@ -185,18 +185,18 @@ return await memorize_table(
 
 Identify {@{keywords in the question. When appropriate, define or explain them}@}.
 
-<!--pytextgen generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="21aa"--><!-- The following content is generated at 2026-01-25T23:32:19.505217+08:00. Any edits will be overridden! -->
 
-> | keyword | description |
-> |-|-|
-> | {@{according to/refer to}@} | {@{quote and focus on the reference}@} |
-> | {@{cause/reason}@} | {@{provide causes, explanations, or justifications}@} |
-> | {@{effectiveness}@} | {@{consider meeting objectives contextually from both sides}@} |
-> | {@{factor}@} | {@{provide generalized causes, explanations, or justifications}@} |
-> | {@{feasibilities}@} | {@{consider practicalitiy contextually from both sides}@} |
-> | {@{pattern}@} | {@{describe the overall distribution, relations of variables, and trends}@} |
-> | {@{trend}@} | {@{describe the variation of data over time (e.g. increase, decrease, unchanged)}@} |
-> | {@{with reference to}@} | {@{paraphrase the reference and deduce implications}@} |
+> | keyword                     | description                                                                         |
+> | --------------------------- | ----------------------------------------------------------------------------------- |
+> | {@{according to/refer to}@} | {@{quote and focus on the reference}@}                                              |
+> | {@{cause/reason}@}          | {@{provide causes, explanations, or justifications}@}                               |
+> | {@{effectiveness}@}         | {@{consider meeting objectives contextually from both sides}@}                      |
+> | {@{factor}@}                | {@{provide generalized causes, explanations, or justifications}@}                   |
+> | {@{feasibilities}@}         | {@{consider practicalitiy contextually from both sides}@}                           |
+> | {@{pattern}@}               | {@{describe the overall distribution, relations of variables, and trends}@}         |
+> | {@{trend}@}                 | {@{describe the variation of data over time (e.g. increase, decrease, unchanged)}@} |
+> | {@{with reference to}@}     | {@{paraphrase the reference and deduce implications}@}                              |
 
 <!--/pytextgen-->
 

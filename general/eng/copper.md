@@ -30,13 +30,13 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="23d1"--><!-- The following content is generated at 2023-03-21T15:20:35.009079+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="23d1"--><!-- The following content is generated at 2026-01-25T23:32:18.194360+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
+> | name                   | description                                                                                                                                                                                    |
+> | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 > | {@{cooking utensils}@} | {@{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)}@} |
-> | {@{electric wires}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)}@} |
-> | {@{water pipes}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} |
+> | {@{electric wires}@}   | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)}@}                                                                    |
+> | {@{water pipes}@}      | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@}                          |
 
 <!--/pytextgen-->
 

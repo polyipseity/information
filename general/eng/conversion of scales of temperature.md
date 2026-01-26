@@ -63,13 +63,13 @@ return await conversion_table(
 )
 ```
 
-<!--pytextgen generate section="5ffa"--><!-- The following content is generated at 2024-03-07T00:32:24.791478+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5ffa"--><!-- The following content is generated at 2026-01-25T23:32:18.204872+08:00. Any edits will be overridden! -->
 
-> | [temperature scale](temperature%20scale.md) | from [Celsius](Celsius.md) | to [Celsius](Celsius.md) |
-> |-|-|-|
-> | [Kelvin](Kelvin.md) | x °C ≘ (x + 273.15) K | x K ≘ (x − 273.15) °C |
-> | [Fahrenheit](Fahrenheit.md) | x °C ≘ (x × 9/5 + 32) °F | x °F ≘ (x − 32) × 5/9 °C |
-> | [Rankine](Rankine%20scale.md) | x °C ≘ (x + 273.15) × 9/5 °R | x °R ≘ (x − 491.67) × 5/9 °C |
+> | [temperature scale](temperature%20scale.md) | from [Celsius](Celsius.md)   | to [Celsius](Celsius.md)     |
+> | ------------------------------------------- | ---------------------------- | ---------------------------- |
+> | [Kelvin](Kelvin.md)                         | x °C ≘ (x + 273.15) K        | x K ≘ (x − 273.15) °C        |
+> | [Fahrenheit](Fahrenheit.md)                 | x °C ≘ (x × 9/5 + 32) °F     | x °F ≘ (x − 32) × 5/9 °C     |
+> | [Rankine](Rankine%20scale.md)               | x °C ≘ (x + 273.15) × 9/5 °R | x °R ≘ (x − 491.67) × 5/9 °C |
 
 <!--/pytextgen-->
 
@@ -104,13 +104,13 @@ return await conversion_table(
 )
 ```
 
-<!--pytextgen generate section="955a"--><!-- The following content is generated at 2024-03-07T00:32:24.829185+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="955a"--><!-- The following content is generated at 2026-01-25T23:32:18.230800+08:00. Any edits will be overridden! -->
 
-> | [temperature scale](temperature%20scale.md) | from [Kelvin](Kelvin.md) | to [Kelvin](Kelvin.md) |
-> |-|-|-|
-> | [Celsius](Celsius.md) | x K ≘ (x − 273.15) °C | x °C ≘ (x + 273.15) K |
-> | [Fahrenheit](Fahrenheit.md) | x K ≘ (x × 9/5 − 459.67) °F | x °F ≘ (x + 459.67) × 5/9 K |
-> | [Rankine](Rankine%20scale.md) | x K ≘ x × 9/5 °R | x °R ≘ x × 5/9 K |
+> | [temperature scale](temperature%20scale.md) | from [Kelvin](Kelvin.md)    | to [Kelvin](Kelvin.md)      |
+> | ------------------------------------------- | --------------------------- | --------------------------- |
+> | [Celsius](Celsius.md)                       | x K ≘ (x − 273.15) °C       | x °C ≘ (x + 273.15) K       |
+> | [Fahrenheit](Fahrenheit.md)                 | x K ≘ (x × 9/5 − 459.67) °F | x °F ≘ (x + 459.67) × 5/9 K |
+> | [Rankine](Rankine%20scale.md)               | x K ≘ x × 9/5 °R            | x °R ≘ x × 5/9 K            |
 
 <!--/pytextgen-->
 
@@ -145,13 +145,13 @@ return await conversion_table(
 )
 ```
 
-<!--pytextgen generate section="46ab"--><!-- The following content is generated at 2024-03-07T00:32:24.850721+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="46ab"--><!-- The following content is generated at 2026-01-25T23:32:18.249983+08:00. Any edits will be overridden! -->
 
 > | [temperature scale](temperature%20scale.md) | from [Fahrenheit](Fahrenheit.md) | to [Fahrenheit](Fahrenheit.md) |
-> |-|-|-|
-> | [Celsius](Celsius.md) | x °F ≘ (x − 32) × 5/9 °C | x °C ≘ (x × 9/5 + 32) °F |
-> | [Kelvin](Kelvin.md) | x °F ≘ (x + 459.67) × 5/9 K | x K ≘ (x × 9/5 − 459.67) °F |
-> | [Rankine](Rankine%20scale.md) | x °F ≘ (x + 459.67) °R | x °R ≘ (x − 459.67) °F |
+> | ------------------------------------------- | -------------------------------- | ------------------------------ |
+> | [Celsius](Celsius.md)                       | x °F ≘ (x − 32) × 5/9 °C         | x °C ≘ (x × 9/5 + 32) °F       |
+> | [Kelvin](Kelvin.md)                         | x °F ≘ (x + 459.67) × 5/9 K      | x K ≘ (x × 9/5 − 459.67) °F    |
+> | [Rankine](Rankine%20scale.md)               | x °F ≘ (x + 459.67) °R           | x °R ≘ (x − 459.67) °F         |
 
 <!--/pytextgen-->
 
@@ -186,13 +186,13 @@ return await conversion_table(
 )
 ```
 
-<!--pytextgen generate section="b0a9"--><!-- The following content is generated at 2024-03-07T00:32:24.869938+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b0a9"--><!-- The following content is generated at 2026-01-25T23:32:18.293784+08:00. Any edits will be overridden! -->
 
 > | [temperature scale](temperature%20scale.md) | from [Rankine](Rankine%20scale.md) | to [Rankine](Rankine%20scale.md) |
-> |-|-|-|
-> | [Celsius](Celsius.md) | x °R ≘ (x − 491.67) × 5/9 °C | x °C ≘ (x + 273.15) × 9/5 °R |
-> | [Kelvin](Kelvin.md) | x °R ≘ x × 5/9 K | x K ≘ x × 9/5 °R |
-> | [Fahrenheit](Fahrenheit.md) | x °R ≘ (x − 459.67) °F | x °F ≘ (x + 459.67) °R |
+> | ------------------------------------------- | ---------------------------------- | -------------------------------- |
+> | [Celsius](Celsius.md)                       | x °R ≘ (x − 491.67) × 5/9 °C       | x °C ≘ (x + 273.15) × 9/5 °R     |
+> | [Kelvin](Kelvin.md)                         | x °R ≘ x × 5/9 K                   | x K ≘ x × 9/5 °R                 |
+> | [Fahrenheit](Fahrenheit.md)                 | x °R ≘ (x − 459.67) °F             | x °F ≘ (x + 459.67) °R           |
 
 <!--/pytextgen-->
 

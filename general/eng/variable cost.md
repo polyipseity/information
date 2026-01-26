@@ -84,8 +84,8 @@ This text incorporates [content](https://en.wikipedia.org/wiki/variable_cost) fr
 - <a id="CITEREFGarrisonEric W. NoreenPeter C. Brewer2009"></a> Garrison, Ray H; Eric W. Noreen; Peter C. Brewer \(2009\). [_Managerial Accounting_](http://www.mhhe.com/garrison13e) \(13e ed.\). McGraw-Hill Irwin. [ISBN](ISBN%20(identifier).md) [978-0-07-337961-6](https://en.wikipedia.org/wiki/Special:BookSources/978-0-07-337961-6).
 - [Prime Cost Explanation and Examples](https://www.playaccounting.com/explanation/exp-ma/prime-cost/) by Play Accounting.
 
-|                                                                                                                                                                                                                                                  |                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| -------------------------------------------- |
+|                                                                                                                                                                                                                                                                   |                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------- |
 | __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![Edit this at Wikidata](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q174915#identifiers)__ | - [Germany](https://d-nb.info/gnd/4187411-0) |
 
 > [Categories](https://en.wikipedia.org/wiki/Help:Category):

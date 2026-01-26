@@ -33,16 +33,16 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="b928"--><!-- The following content is generated at 2023-04-19T12:13:02.213812+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b928"--><!-- The following content is generated at 2026-01-25T23:32:18.985073+08:00. Any edits will be overridden! -->
 
-> | periodic property | across the period | down the group |
-> |-|-|-|
-> | {@{[atomic radius](#atomic%20radius)}@} | {@{decreases}@} | {@{increases}@} |
-> | {@{[electron affinity](#electron%20affinity)}@} | {@{increases}@} | {@{fluctuates}@} |
-> | {@{[electronegativity](#electronegativity)}@} | {@{increases}@} | {@{decreases}@} |
-> | {@{[ionization energy](#ionization%20energy)}@} | {@{increases}@} | {@{decreases}@} |
-> | {@{[metallic character](#metallic%20character)}@} | {@{decreases}@} | {@{increases}@} |
-> | {@{[valence](#valence)}@} | {@{increases, then decreases}@} | {@{constant}@} |
+> | periodic property                                 | across the period               | down the group   |
+> | ------------------------------------------------- | ------------------------------- | ---------------- |
+> | {@{[atomic radius](#atomic%20radius)}@}           | {@{decreases}@}                 | {@{increases}@}  |
+> | {@{[electron affinity](#electron%20affinity)}@}   | {@{increases}@}                 | {@{fluctuates}@} |
+> | {@{[electronegativity](#electronegativity)}@}     | {@{increases}@}                 | {@{decreases}@}  |
+> | {@{[ionization energy](#ionization%20energy)}@}   | {@{increases}@}                 | {@{decreases}@}  |
+> | {@{[metallic character](#metallic%20character)}@} | {@{decreases}@}                 | {@{increases}@}  |
+> | {@{[valence](#valence)}@}                         | {@{increases, then decreases}@} | {@{constant}@}   |
 
 <!--/pytextgen-->
 

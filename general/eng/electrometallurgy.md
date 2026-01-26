@@ -25,11 +25,11 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="basdde"--><!-- The following content is generated at 2023-03-20T16:20:30.802460+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="basdde"--><!-- The following content is generated at 2026-01-25T23:32:18.331626+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{[electrolysis](electrolysis.md)}@} |  |
+> | name                                  | description |
+> | ------------------------------------- | ----------- |
+> | {@{[electrolysis](electrolysis.md)}@} |             |
 
 <!--/pytextgen-->
 

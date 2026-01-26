@@ -10,7 +10,7 @@ The `special/` directory contains specialized knowledge including coursework, tu
 
 ## Directory Structure Overview
 
-```
+```text
 special/
 ├── academia/                       # Academic coursework by institution
 │   ├── HKUST/                     # Hong Kong University of Science and Technology
@@ -54,7 +54,7 @@ Examples of potential future content: additional programming languages, speciali
 
 Academic courses organized hierarchically by institution, semester, and course code:
 
-```
+```text
 special/academia/
 ├── <Institution>/              # e.g., HKUST, Korea University
 │   ├── index.md               # Course listings by semester/year
@@ -66,6 +66,7 @@ special/academia/
 ```
 
 **Institutions included**:
+
 - **HKUST**: Hong Kong University of Science and Technology (largest collection: 40+ courses in COMP, ACCT, BIEN, CIVL, DASC, ECON, ELEC, ENGG, ESST, FINA, GNED, ISDN, ISOM, LANG, MATH, PHYS, TEMG, and Robotics Team)
 - **Korea University**: ISC213 (Korean language/culture course)
 - **Pusan National University**: IT3000504 (IT-related course)
@@ -73,6 +74,7 @@ special/academia/
 - **Yonsei University**: Yonsei University courses
 
 **Course metadata** (in YAML frontmatter and `index.md`):
+
 - **Aliases**: Multiple name variants (e.g., `COMP 2012`, `COMP2012`, `HKUST COMP 2012`, full course name)
 - **Tags**: `flashcard/active/special/academia/<institution>/<course_code>`, `function/index`, `language/in/English`
 - **Semester/year**: Listed in `index.md` (e.g., `2023 fall`, `2024 spring`, `2023 winter`)
@@ -82,6 +84,7 @@ special/academia/
 - **Assessments**: Separate section for midterm/final examination reports and reflections
 
 **Index maintenance**:
+
 - **Institution-level `index.md`**: Lists all courses by semester (most recent first)
 - **Course-level `index.md`**: Overview, teaching order, week-by-week breakdown, assessments
 - **Cross-references**: Link to related `general/` articles for concepts (e.g., `[most vexing parse](../../../../general/most%20vexing%20parse.md)`)
@@ -92,8 +95,9 @@ special/academia/
 Self-contained course materials from MOOCs and online learning platforms:
 
 **`audio signal processing/`**: Complete course on audio signal processing
+
 - **Structure**: 10 modules with hierarchical index showing learning order
-- **Content types**: 
+- **Content types**:
   - Conceptual notes (signal mathematics, discrete Fourier transform, STFT, etc.)
   - Tool usage guides (Audacity, SonicVisualiser, sms-tools, Freesound)
   - Programming guides (Python/NumPy for signal processing, Essentia library)
@@ -106,20 +110,24 @@ Self-contained course materials from MOOCs and online learning platforms:
 Technical documentation for programming languages and libraries:
 
 **`C/`**: C standard library references
+
 - **Subdirectories**: `date and time utilities/`, `file input_output/`, `numerics/`, `strings library/`
 - **Top-level files**: Overview files like `date and time utilities.md`
 - **Cross-references**: Links to `general/` C documentation (e.g., `[C date and time functions](../../general/C%20date%20and%20time%20functions.md)`)
 
 **`C++/`**: C++ language features
+
 - **Files**: `array.md`, `implicit conversion.md`, `lambda.md`, `overload resolution.md`
 - **Focus**: Specific language features and gotchas
 
 **`MySQL/`**: MySQL database reference
+
 - **Structure**: `index.md` + topical files (`data types.md`, `functions and operators.md`, `statements.md`)
 - **Source**: Coursera "Introduction to Structured Query Language (SQL)" course
 - **Cross-reference**: Links to `[general/MySQL](../../general/MySQL.md)`
 
 **`NumPy/`**: NumPy library documentation
+
 - **Structure**: `index.md` + `user guide/` subdirectory
 - **Version-tagged**: `version/NumPy/2/1` in frontmatter
 - **Licensing**: Includes `LICENSE.txt` from upstream
@@ -130,13 +138,16 @@ Technical documentation for programming languages and libraries:
 **`language acquisition/`**: Foreign language learning resources
 
 **`language acquisition/English/`**:
+
 - `difficult-to-spell words.md`: Spelling reference
 
 **`language acquisition/中文/`** (Chinese):
+
 - `倉頡輸入法難字.md`: Difficult characters for Cangjie input method
 - `简化字总表.md`: Table of simplified Chinese characters
 
 **`International Phonetic Alphabet.md`**: Comprehensive IPA reference
+
 - **Structure**: Phonetic symbols with audio examples (linked to `archives/Wikimedia Commons/`)
 - **Content**: Official IPA chart image, detailed help for each phonetic symbol
 - **Cross-references**: Links to individual phonetic articles in `general/`
@@ -147,6 +158,7 @@ Technical documentation for programming languages and libraries:
 Root-level files containing MBA-style frameworks and business strategy tools:
 
 **Strategy frameworks**:
+
 - `blue ocean strategy.md`: Red ocean vs. blue ocean, blue ocean shift process (understand "as-is", imagine "to be", create "gap"), strategy canvas
 - `5-step persuasive selling.md`: Persuasive selling framework (background, big idea, how it works, key benefits/risks, next step)
 - `business model canvas.md`: 9 building blocks of business model (comprehensive framework)
@@ -156,11 +168,13 @@ Root-level files containing MBA-style frameworks and business strategy tools:
 - `profitability framework.md`: Profitability analysis
 
 **Business analysis tools**:
+
 - `IBM prioritization grid.md`: Prioritization matrix
 - `PPTG change impact framework.md`: Change impact assessment
 - `lift chart.md`: Model evaluation chart
 
 **Personal documents**:
+
 - `cover letter.md`: Cover letter writing guide (format, use cases, structure)
 - `résumé.md`: Resume/CV writing guide
 - `name tag.md`: Name tag conventions
@@ -182,11 +196,13 @@ Root-level usage documentation for software tools:
 Reusable command patterns and regex snippets:
 
 **`command library.md`**: Shell command recipes organized by tool
+
 - **Tools covered**: ExifTool, FFmpeg, GhostScript, Git, ImageMagick, yt-dlp, etc.
 - **Format**: Command templates with parameter placeholders (e.g., `$input_`, `$output`)
 - **Use cases**: Copy metadata, combine audio/video, measure loudness, batch operations, etc.
 
 **`regex library.md`**: Regular expression patterns
+
 - **Examples**: Unicode line boundaries pattern
 - **Format**: Code block + description + regex repetition for flashcards
 
@@ -195,6 +211,7 @@ Reusable command patterns and regex snippets:
 Traditional Chinese literary works with full text and annotations:
 
 **Files** (by title in Chinese):
+
 - `六國論.md` (On the Six States) by 蘇洵 (Su Xun)
 - `出師表.md` (Memorial on Dispatching the Army)
 - `勸學（節錄）.md` (Encouraging Learning, Excerpt)
@@ -218,6 +235,7 @@ Traditional Chinese literary works with full text and annotations:
 - `魚我所欲也.md` (Fish is What I Desire)
 
 **Structure**:
+
 - **Frontmatter**: Author (`by/<author>`), language tags (`language/for/中文`, `language/in/中文`), flashcard tags (often `flashcard/archive/special/<title>`)
 - **Content**: Full classical Chinese text with embedded notes using `notes.embed('term', 'explanation')` syntax
 - **pytextgen integration**: Uses `gen.TextCode.compile()` for structured memorization of classical texts paragraph by paragraph
@@ -230,6 +248,7 @@ Traditional Chinese literary works with full text and annotations:
 **Naming convention**: ISO 8601 timestamps with timezone (e.g., `2023-08-06T225216.434+0800.md`)
 
 **Structure**:
+
 - **Frontmatter**: `date/<year>/<month>/<day>`, `question/<domain>/<subdomain>`, flashcard tags
 - **Content sections**: Problem statement, strategy (thinking process), solution (detailed work)
 - **Flashcard format**: Strategy as cloze/QA format using `:@:` for active recall
@@ -244,6 +263,7 @@ Traditional Chinese literary works with full text and annotations:
 **`examples/`**: Detailed worked examples and case studies
 
 **Current examples**:
+
 - `inventing the air fryer from observing French fries.md`: Innovation case study
 - Additional examples in subdirectory (single file observed)
 
@@ -261,20 +281,25 @@ Root-level mathematical notes not fitting into `general/` or `academia/`:
 ### 12. Miscellaneous Specialized Content
 
 **Astronomy**:
+
 - `list of Nobel laureates in Astronomy.md`: List of laureates
 
 **Design thinking**:
+
 - `d.school design thinking bootleg.md`: Stanford d.school design thinking guide
 
 **Education**:
+
 - `examination keys - HKDSE liberal studies.md`: Hong Kong exam reference
 
 **Nutritional information**:
+
 - `nutritional information/` subdirectory
   - `Redoxon Triple Action.md`: Supplement information
   - `VÖOST Collagen Formation.md`: Supplement information
 
 **Attachments**:
+
 - `attachments/` subdirectory: Supporting files like images, PDFs, and specialized scripts
   - Example: `GhostScript remove metadata pdfmark.txt`
 
@@ -297,7 +322,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 
 ### Special-specific patterns
 
-- **Code blocks**: Command libraries, regex libraries, and programming references use fenced code blocks with language tags (```shell, ```regex, ```Python, etc.)
+- **Code blocks**: Command libraries, regex libraries, and programming references use fenced code blocks with language tags (```shell,```regex, ```Python, etc.)
 - **Embedded notes** (Classical Chinese): `notes.embed('term', 'explanation')` within `gen.TextCode.compile()` blocks
 - **Difficulty markers**: `hard(...)` function in pytextgen blocks for challenging terms
 - **Parameter placeholders**: `$variable` format in command library templates
@@ -328,7 +353,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
    - Classical texts: `by/<author>`, `language/for/<lang>` (target language)
    - Licensing: Some include `LICENSE.txt` files from upstream sources
 
-4. **Updates**: 
+4. **Updates**:
    - Academic: Manual editing or via `tools/special/` LMS converters
    - Online courses: Manual note-taking and synthesis
    - Programming refs: Manual extraction from documentation
@@ -340,7 +365,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
    - `flashcard/archive/special/<title>`: Archived (e.g., older classical texts)
    - No flashcard tag: Reference materials not for memorization (e.g., command libraries)
 
-6. **Cross-references**: 
+6. **Cross-references**:
    - Bidirectional links between `special/` and `general/` (e.g., course notes reference encyclopedia articles)
    - Links between related `special/` content (e.g., prerequisites between courses)
    - Links to external sources (official docs, course websites)
@@ -348,6 +373,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ## Tools in tools/special/
 
 **Academic converters** (LMS export processors):
+
 - `convert Canvas submission.py`: Canvas LMS submission exports → YAML frontmatter + formatted notes
 - `convert HKUST Zinc submission.py`: HKUST Zinc LMS submission files → YAML frontmatter
 - `get HKUST undergraduate courses.py`: Fetch HKUST course catalog from web → CSV file (`get HKUST undergraduate courses.py.csv`)
@@ -355,12 +381,14 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 **Usage**: See the `tools-special` agent skill for detailed workflows and converter interfaces.
 
 **Stability requirements**:
+
 - Preserve CLI interfaces (argument names, input/output formats)
 - Keep YAML output schemas stable (field names, tag structure)
 - Maintain CSV column names and structure for course list exports
 - Coordinate with main `init.py` wrapper for pytextgen integration
 
 **Files**:
+
 - Each tool has `.py`, `.bat`, `.sh`, and symlink variants for cross-platform support
 - Output files follow consistent naming (e.g., `get HKUST undergraduate courses.py.csv`)
 
@@ -426,7 +454,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
   - Common: `../../archives/Wikimedia%20Commons/` for IPA audio, images
   - Less common: `../../archives/sparse/` for specialized content
   
-- **`tools/`**: 
+- **`tools/`**:
   - `tools/special/`: Academic LMS converters for maintaining `special/academia/`
   - `tools/pytextgen/`: Content generation library used throughout `special/` for flashcards
   - `tools/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
@@ -436,6 +464,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 Different content types use pytextgen differently:
 
 1. **Sequential lists** (business frameworks, technical guides):
+
    ```python
    return await memorize_seq(
      __env__.cwf_sects("id1", "id2"),
@@ -444,6 +473,7 @@ Different content types use pytextgen differently:
    ```
 
 2. **Mapped content** (key-value pairs):
+
    ```python
    return await memorize_map(
      __env__.cwf_sects("id1", "id2"),
@@ -452,6 +482,7 @@ Different content types use pytextgen differently:
    ```
 
 3. **Classical texts with annotations**:
+
    ```python
    notes = Notes()
    text = gen.TextCode.compile(

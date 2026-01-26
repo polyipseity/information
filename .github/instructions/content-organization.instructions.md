@@ -4,7 +4,9 @@ description: High-level overview of repository structure and content organizatio
 applyTo: "**"
 ---
 
-This is a personal Markdown knowledgebase with flashcards, tutorials, and archived online content. Content is organized by knowledge type and source:
+# Content Organization & Repository Structure
+
+This is a personal Markdown knowledge base with flashcards, tutorials, and archived online content. Content is organized by knowledge type and source:
 
 ## Directory structure
 

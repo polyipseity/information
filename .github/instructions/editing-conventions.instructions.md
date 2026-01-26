@@ -4,6 +4,8 @@ description: General editing rules for Markdown notes, links, formatting, and su
 applyTo: "**/*.md"
 ---
 
+# Editing Conventions
+
 ## General editing rules
 
 - **Frontmatter**: Keep YAML (`aliases`, `tags`, `language/in/English`) intact. Avoid adding unauthorized fields; add new fields only with user approval.

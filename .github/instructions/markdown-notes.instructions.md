@@ -4,11 +4,14 @@ description: Conventions for Markdown knowledgebase notes and flashcards
 applyTo: "general/**/*.md"
 ---
 
+# Markdown Notes Guidelines
+
 ## Frontmatter & metadata
 
 - **YAML structure**: `aliases` (list), `tags` (list with `flashcard/active`, `language/in/English`, subject tags)
 - **Preservation**: Keep frontmatter intact during edits; do not strip fields or reorder without user approval
 - **Example**:
+
   ```yaml
   ---
   aliases: [GDP, Gross Domestic Product]
@@ -19,11 +22,13 @@ applyTo: "general/**/*.md"
 ## Cloze & flashcard markup
 
 **Critical**: These enable spaced-repetition flashcard generation via pytextgen. Preserve exactly:
+
 - `{@{ hidden text }@}`: Cloze deletion (text hidden in review)
 - `::@::`: Question-answer separator
 - `:@:`: Alternative Q&A separator
 
 **Rules**:
+
 - Never escape, encode, or reflow text containing cloze markup
 - Do not modify or wrap across multiple lines
 - Preserve spacing inside delimiters
@@ -32,11 +37,13 @@ applyTo: "general/**/*.md"
 ## pytextgen blocks
 
 **Code fence blocks**:
+
 - Preserve `# pytextgen generate ...` comment lines exactly (module, function, section IDs)
 - Never change triple backticks or language identifier
 - Keep `return export_seq(...)` signatures intact
 
 **HTML comment blocks**:
+
 - Preserve `<!--pytextgen generate section="..."-->` and `<!--/pytextgen-->` exactly
 - Never modify section IDs or format specifiers
 - Content between tags is auto-replaced on regeneration
@@ -65,6 +72,6 @@ applyTo: "general/**/*.md"
 
 ## Integration
 
-- **Wiki ingestion**: Use [wiki-ingestion](.github/skills/wiki-ingestion/SKILL.md) skill to import Wikipedia articles with proper frontmatter
-- **Flashcard generation**: Use [pytextgen](.github/skills/pytextgen/SKILL.md) skill to regenerate cloze markup into flashcards
-- **Note scaffolding**: Use [tools-templates](.github/skills/tools-templates/SKILL.md) skill to scaffold new notes with proper structure
+- **Wiki ingestion**: Use [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill to import Wikipedia articles with proper frontmatter
+- **Flashcard generation**: Use [pytextgen](../skills/pytextgen/SKILL.md) skill to regenerate cloze markup into flashcards
+- **Note scaffolding**: Use [tools-templates](../skills/tools-templates/SKILL.md) skill to scaffold new notes with proper structure

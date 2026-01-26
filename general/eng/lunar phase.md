@@ -55,18 +55,18 @@ return chain.from_iterable(await gather(
 ))
 ```
 
-<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-07-04T10:16:44.291574+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2026-01-25T23:32:18.892491+08:00. Any edits will be overridden! -->
 
-> | moon phase | visibility | average moonrise time | culmination time (highest point) | average moonset time |
-> |-|-|-|-|-|
-> | [new moon](new%20moon.md) | invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md) | 06:00 | 12:00 | 18:00 |
-> | waxing [crescent](crescent.md) | late morning to post-dusk | 09:00 | 15:00 | 21:00 |
-> | first quarter | afternoon to early night | 12:00 | 18:00 | 00:00 |
-> | waxing gibbous | late afternoon to most of night | 15:00 | 21:00 | 03:00 |
-> | [full moon](full%20moon.md) | all night (sunset to sunrise) | 18:00 | 00:00 | 06:00 |
-> | waning gibbous | most of night to early morning | 21:00 | 03:00 | 09:00 |
-> | last quarter | late night to morning | 00:00 | 06:00 | 12:00 |
-> | waning [crescent](cresceent.md) | pre-dawn to early afternoon | 03:00 | 09:00 | 15:00 |
+> | moon phase                      | visibility                                                                                                 | average moonrise time | culmination time (highest point) | average moonset time |
+> | ------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------- | -------------------------------- | -------------------- |
+> | [new moon](new%20moon.md)       | invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md) | 06:00                 | 12:00                            | 18:00                |
+> | waxing [crescent](crescent.md)  | late morning to post-dusk                                                                                  | 09:00                 | 15:00                            | 21:00                |
+> | first quarter                   | afternoon to early night                                                                                   | 12:00                 | 18:00                            | 00:00                |
+> | waxing gibbous                  | late afternoon to most of night                                                                            | 15:00                 | 21:00                            | 03:00                |
+> | [full moon](full%20moon.md)     | all night (sunset to sunrise)                                                                              | 18:00                 | 00:00                            | 06:00                |
+> | waning gibbous                  | most of night to early morning                                                                             | 21:00                 | 03:00                            | 09:00                |
+> | last quarter                    | late night to morning                                                                                      | 00:00                 | 06:00                            | 12:00                |
+> | waning [crescent](cresceent.md) | pre-dawn to early afternoon                                                                                | 03:00                 | 09:00                            | 15:00                |
 
 <!--/pytextgen-->
 

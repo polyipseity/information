@@ -2,6 +2,7 @@
 name: tools-templates
 description: Note scaffolding templates and pytextgen fence generators in tools/templates/.
 ---
+
 # tools/templates Workflows
 
 Use this skill when scaffolding new notes, creating pytextgen sections, or using pre-built templates for knowledge base content.
@@ -29,22 +30,28 @@ The `tools/templates/` directory contains scripts for scaffolding new content:
 **Command**: `python -m "templates.new wiki page"`
 
 **Workflow**:
+
 1. Script prompts for article name (or reads from argument)
 2. Generates YAML frontmatter template:
+
    ```yaml
    ---
    aliases: []
    tags: [flashcard/active, language/in/English]
    ---
    ```
+
 3. Adds Wikipedia source link comment:
+
    ```markdown
    <!-- Source: https://en.wikipedia.org/wiki/Article_Name -->
    ```
+
 4. Copies template to clipboard
 5. User pastes into new file in `general/` (or `special/` if specialized)
 
 **Next steps**:
+
 - Use `python -m "convert wiki"` to ingest Wikipedia HTML below the template
 - Add content manually or from other sources
 - Update `aliases` and `tags` as needed
@@ -56,6 +63,7 @@ The `tools/templates/` directory contains scripts for scaffolding new content:
 **Purpose**: Scaffold a new flashcard generation section in an existing note.
 
 **Content** (example):
+
 ```markdown
 ## Flashcards
 
@@ -64,6 +72,7 @@ The `tools/templates/` directory contains scripts for scaffolding new content:
 ```
 
 **Usage**:
+
 1. Copy template content from `tools/templates/pytextgen generate flashcards.md`
 2. Paste into target note
 3. Update section ID (`flashcards-main` → unique identifier)
@@ -77,6 +86,7 @@ The `tools/templates/` directory contains scripts for scaffolding new content:
 **Purpose**: Scaffold a Python code block that generates Markdown content.
 
 **Content** (example):
+
 ````markdown
 ```python
 # pytextgen generate module="data.courses" function="generate_course_list"
@@ -88,6 +98,7 @@ def generate_course_list():
 ````
 
 **Usage**:
+
 1. Copy template from `tools/templates/pytextgen generate code.md`
 2. Paste into target note
 3. Update module/function references
@@ -97,6 +108,7 @@ def generate_course_list():
 ### Other templates
 
 Additional templates may exist for:
+
 - Data export fences (JSON/CSV → Markdown tables)
 - Cross-reference generators (link indexes, backreferences)
 - Structured list generators (course lists, bibliography)
@@ -108,6 +120,7 @@ Check `tools/templates/` directory for all available templates.
 ### YAML frontmatter
 
 **Standard fields**:
+
 - `aliases`: Alternative names for the note (list)
 - `tags`: Categories and metadata (list)
   - `flashcard/active`: Enable flashcard generation
@@ -116,6 +129,7 @@ Check `tools/templates/` directory for all available templates.
   - Subject tags: `coursework`, `tutorial`, `business`
 
 **Example**:
+
 ```yaml
 ---
 aliases: [GDP, Gross Domestic Product]
@@ -126,12 +140,14 @@ tags: [flashcard/active, language/in/English, economics]
 ### pytextgen fence templates
 
 **Critical rules** (inherited from pytextgen conventions):
+
 - Do NOT modify `# pytextgen generate ...` comment lines in templates
 - Do NOT change fence delimiters (triple backticks + language)
 - Preserve section IDs in HTML comments (`<!--pytextgen generate section="id"-->`)
 - Keep `return export_seq(...)` signatures intact
 
 **Placeholder protection**:
+
 - Templates may use `{{placeholder}}` or `<REPLACE_ME>` for user-editable parts
 - Replace placeholders before running generation
 - Never commit templates with unresolved placeholders into content notes
@@ -192,5 +208,3 @@ When editing files in `tools/templates/`:
 - **Avoid filename changes**: Downstream scripts expect specific file names and extensions; changing them may break workflows
 - **Use UTF-8 encoding**: Keep newline handling as-is and avoid rewrapping markdown bodies in templates
 - **Document changes**: If template structure changes, note impact on existing notes and update documentation
-
-

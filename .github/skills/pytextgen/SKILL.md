@@ -2,6 +2,7 @@
 name: pytextgen
 description: Regenerate programmatically-generated content blocks in knowledge base notes using pytextgen.
 ---
+
 # pytextgen Workflow
 
 Use this skill when working with pytextgen-powered content generation, including regenerating flashcards, clearing generated regions, managing caches, and debugging generation issues.
@@ -9,6 +10,7 @@ Use this skill when working with pytextgen-powered content generation, including
 ## What pytextgen does
 
 pytextgen is a Python library (git submodule in `tools/pytextgen/`) that generates content programmatically in Markdown files:
+
 - **Flashcard generation**: Creates spaced-repetition cards from cloze markup (`{@{ }@}`, `::@::`, `:@:`)
 - **Sequence exports**: Exports data structures as Markdown lists, tables, or custom formats
 - **Programmatic content**: Python code blocks that generate Markdown on-demand
@@ -28,12 +30,14 @@ pytextgen is a Python library (git submodule in `tools/pytextgen/`) that generat
 **Command**: `python -m init generate [pytextgen flags] <paths?>`
 
 The `init.py` wrapper:
+
 - Auto-discovers `.md` files (excluding `.git`, `.obsidian`, `tools`)
 - Caches `(mtime, inode, text)` to skip unchanged files
 - Normalizes newlines to `\n` before passing to pytextgen
 - Passes through pytextgen-specific flags
 
 **Common flags**:
+
 - `-C` / `--no-cached`: Rebuild `init.py` cache from scratch
 - `--no-code-cache`: Disable pytextgen compile cache (in `__pycache__/`)
 - `--init-flashcards`: Initialize or re-seed flashcard state
@@ -46,17 +50,20 @@ The `init.py` wrapper:
 **Command**: `python -m init clear --type CONTENT <paths?>`
 
 Clears generated content blocks without regenerating. Useful for:
+
 - Removing stale generated content before regeneration
 - Resolving merge conflicts in generated regions
 - Debugging generation issues by starting fresh
 
 **Other ClearType values** (see `tools/pytextgen/io.py`):
+
 - `CONTENT`: Clear generated text only
 - Additional types available in pytextgen documentation
 
 ### Scaffold new pytextgen sections
 
 Use templates in `tools/templates/` to create new pytextgen fences:
+
 - `pytextgen generate flashcards.md`: Flashcard section template
 - `pytextgen generate code.md`: Code block template
 - Other templates for common generation patterns
@@ -71,6 +78,7 @@ Use templates in `tools/templates/` to create new pytextgen fences:
 ```
 
 **Critical rules**:
+
 - Do NOT modify the `# pytextgen generate ...` comment line
 - Do NOT change fence delimiters (triple backticks with language identifier)
 - Preserve `return export_seq(...)` signatures exactly
@@ -84,6 +92,7 @@ Generated content appears here
 ```
 
 **Critical rules**:
+
 - Do NOT modify section IDs or format specifiers
 - Preserve opening/closing comment tags exactly
 - Generated content between tags is replaced on regeneration
@@ -95,6 +104,7 @@ Generated content appears here
 - `:@:`: Alternative separator for Q&A flashcards
 
 **Editing cloze markup**:
+
 - Never escape or encode the braces/symbols
 - Do not reflow text containing cloze markup across lines
 - Preserve spacing inside `{@{ }@}`, around `::@::`, and around `:@:`
@@ -156,4 +166,4 @@ grep -n "# pytextgen generate" path/to/file.md
 - **Wiki ingestion**: After running `convert wiki`, use `init generate` to create flashcards from cloze markup
 - **Academic notes**: Use pytextgen to generate course indexes, assignment lists, or reference tables
 - **Pack/publish**: Regenerate all content before packaging or publishing to ensure consistency
-- **Note conventions**: See [markdown-notes](.github/instructions/markdown-notes.instructions.md) for cloze markup preservation rules and [tools-templates](.github/skills/tools-templates/SKILL.md) for fence templates
+- **Note conventions**: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and [tools-templates](../tools-templates/SKILL.md) for fence templates

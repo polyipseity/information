@@ -16,6 +16,7 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 ## Quick start: Common workflows
 
 **Creating notes**:
+
 ```bash
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
 python -m "templates.new wiki page"
@@ -24,6 +25,7 @@ python -m init generate <file>  # Generate flashcards from cloze markup
 ```
 
 **Maintaining content**:
+
 ```bash
 # Regenerate all generated blocks (see pytextgen skill)
 python -m init generate -C  # Force cache rebuild
@@ -33,6 +35,7 @@ python -m init clear --type CONTENT <optional-paths>
 ```
 
 **Organizing & publishing**:
+
 ```bash
 # Before packaging/publishing, regenerate everything (see tools skill)
 python -m init generate -C
@@ -63,6 +66,7 @@ pnpm run prepare  # Activates husky hooks
 ```
 
 This enables:
+
 - **Commit message validation** (commitlint) - enforces Conventional Commits
 - **Markdown formatting checks** (markdownlint) - validates `**/*.md` files
 - **Pre-commit hooks** - auto-fixes and validates Markdown before commits
@@ -106,11 +110,13 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` for details:
 
 ### Content creation & ingestion
+
 - **[wiki-ingestion](.github/skills/wiki-ingestion/SKILL.md)** — Import Wikipedia articles, normalize links/media, scaffold new notes
 - **[tools-templates](.github/skills/tools-templates/SKILL.md)** — Template scaffolding, YAML conventions, pytextgen fence templates
 - **[pytextgen](.github/skills/pytextgen/SKILL.md)** — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
 
 ### Tools & workflows
+
 - **[tools](.github/skills/tools/SKILL.md)** — Repository-wide tooling overview, tool coordination, dependency management
 - **[tools-special](.github/skills/tools-special/SKILL.md)** — LMS converters (Canvas/HKUST Zinc), course catalog fetchers, academic workflows
 - **[pyarchivist](.github/skills/pyarchivist/SKILL.md)** — Archive online content, auto-maintain `index.md`, media management
