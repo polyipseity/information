@@ -1,8 +1,22 @@
+# Dependabot configuration
+# See https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates
+
+version: 2
 updates:
-  - directory: /special/academia/HKUST/COMP 3633/presentation 10/examples
+  # NPM & pnpm (package.json, pnpm-lock.yaml, etc.)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "build"
+      prefix-development: "chore"
+      include: "scope"
+
+  # Disable updates for a specific directory
+  - package-ecosystem: npm
+    directory: /special/academia/HKUST/COMP 3633/presentation 10/examples
+    schedule:
+      interval: "daily"
     ignore:
       - dependency-name: "*"
-    package-ecosystem: npm
-    schedule:
-      interval: daily
-version: 2
