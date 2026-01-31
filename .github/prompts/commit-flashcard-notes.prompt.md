@@ -31,8 +31,8 @@ agent: agent
 3. **Compose commit message**
    - Use Conventional Commit style for the commit header (e.g., `feat(notes): improve 13 notes`).
    - The header should summarize the number of notes added/edited (count from files added/edited in `general/`, `special/`, or `self/`).
-   - The body should briefly describe the changes.
-   - Add the three flashcard trailers as plain ASCII key/value pairs, one per line, before any optional footers.
+   - The body should briefly describe the changes. **Each line in the commit header, body, and all flashcard trailers must be wrapped to 72 characters or fewer. This is strictly enforced by commitlint. If the commit is rejected due to line length or formatting, rewrap and retry until the commit passes.**
+   - Add the three flashcard trailers as plain ASCII key/value pairs, one per line, before any optional footers. **Wrap each trailer line to 72 characters or fewer.**
    - Do not show the proposed commit message to the user for confirmation before creating the commit. Proceed automatically to creating the commit using best-effort defaults and available context.
 
 4. **Create the commit**
