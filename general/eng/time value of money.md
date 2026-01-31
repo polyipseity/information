@@ -99,7 +99,7 @@ To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annu
 
 ### present value of a growing perpetuity
 
-When {@{the perpetual annuity payment grows at a fixed rate \(_g_, with _g_ \< _i_\)}@} the value is {@{determined according to the following formula, obtained by setting _n_ to infinity in the earlier formula for a growing perpetuity}@}: {@{$$PV(A)\,=\,{A \over i-g}$$}@}
+When {@{the perpetual annuity payment grows at a fixed rate \(_g_, with _g_ \< _i_\)}@} the value is {@{determined according to the following formula}@}, obtained by setting {@{_n_ to infinity in the earlier formula for a growing perpetuity}@}: {@{$$PV(A)\,=\,{A \over i-g}$$}@}
 
 In practice, there are {@{few securities with precise characteristics}@}, and the application of this valuation approach is {@{subject to various qualifications and modifications}@}. Most importantly, it is {@{rare to find a growing perpetual annuity with fixed rates of growth and true perpetual cash flow generation}@}. Despite these qualifications, the general approach may be {@{used in valuations of real estate, equities, and other assets}@}.
 

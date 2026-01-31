@@ -67,7 +67,7 @@ In this example, we have
 
 {@{Solutions for MDPs with finite state and action spaces}@} may be found through {@{a variety of methods such as [dynamic programming](dynamic%20programming.md)}@}. The algorithms in this section apply to {@{MDPs with finite state and action spaces and explicitly given transition probabilities and reward functions}@}, but {@{the basic concepts may be extended to handle other problem classes}@}, for example {@{using [function approximation](function%20approximation.md)}@}.
 
-{@{The standard family of algorithms to calculate optimal policies for finite state and action MDPs}@} requires {@{storage for two arrays indexed by state: _value_ $V$, which contains real values, and _policy_ $\pi$, which contains actions}@}. At {@{the end of the algorithm}@}, $\pi$ will {@{contain the solution and $V(s)$ will contain the discounted sum of the rewards to be earned \(on average\) by following that solution from state $s$}@}.
+{@{The standard family of algorithms to calculate optimal policies for finite state and action MDPs}@} requires {@{storage for two arrays indexed by state: _value_ $V$, which contains real values, and _policy_ $\pi$, which contains actions}@}. At {@{the end of the algorithm}@}, $\pi$ will {@{contain the solution}@} and $V(s)$ will {@{contain the discounted sum of the rewards to be earned \(on average\) by following that solution from state $s$}@}.
 
 The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy and state value}@} using {@{an older estimation of those values}@}.
 

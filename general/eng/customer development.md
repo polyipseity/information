@@ -32,7 +32,7 @@ When defining customers, one should avoid {@{vagueness}@}. To avoid it, some fac
 
 Discovering and defining your customer segments is important so that {@{the market size can be accurately estimated}@}. Also, they affect {@{your products' properties}@}. Customer segments can be broadly classified into {@{mass market, a large group with broadly similar needs}@}; {@{niche market, a small group with specific needs}@}; and in the middle of the road, {@{segmented market, different groups with different needs}@}. In terms of profits, {@{mass market has lower profit margins but higher volume, while the opposite is true for niche market}@}.
 
-One can create {@{a customer profile that shows a typical person}@} for each customer segment. The profile lists {@{the customer information, jobs, pains, and gains}@}. Note that in a customer segment, users of the product {@{might not be the buyers, such as children buying stuff for elderly}@}. In that case, {@{the buyer should have a customer profile as well}@}.
+One can create {@{a customer profile that shows a typical person}@} for each customer segment. The profile lists {@{the customer information, jobs, pains, and gains}@}. Note that {@{in a customer segment, users of the product}@} {@{might not be the buyers, such as children buying stuff for elderly}@}. In that case, {@{the buyer should have a customer profile as well}@}.
 
 > [!example] examples
 >
@@ -40,7 +40,7 @@ One can create {@{a customer profile that shows a typical person}@} for each cus
 
 ### customer validation
 
-After [customer discovery](#customer%20discovery), we need to do {@{customer validation}@}. The goal of customer validation is to {@{determine whether your product should be created in the first place}@}. Even if yor customer profile is accurate, {@{the customer might not use your products anyway when put into actual practice}@}. This is because {@{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}@}.
+After {@{[customer discovery](#customer%20discovery)}@}, we need to do {@{customer validation}@}. {@{The goal of customer validation}@} is to {@{determine whether your product should be created in the first place}@}. Even if {@{your customer profile is accurate}@}, {@{the customer might not use your products anyway when put into actual practice}@}. This is because {@{most customer do not switch to a new product}@} unless {@{the gain outweighs the perceived loss from switching from an existing product}@}.
 
 To validate your customers, {@{interact with your customers, such as talking to them, showing them your product prototype}@}, etc.
 

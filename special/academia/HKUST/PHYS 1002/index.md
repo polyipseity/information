@@ -475,9 +475,9 @@ The content is in teaching order. Extra information and corrections are included
     - [speed of light](../../../../general/speed%20of%20light.md) (in vacuum) / mathematical relation ::@:: in vacuum: $$c = \lambda f$$
   - [electromagnetic radiation](../../../../general/electromagnetic%20radiation.md) / examples ::@:: in increasing frequency: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays
   - [photon](../../../../general/photon.md) ::@:: By the wave–particle duality, electromagnetic radiation sometimes exhibit properties of a particle. The higher energy a photon has, the higher its frequency and the lower its wavelength.
-  - [photon energy](../../../../general/photon%20energy.md) ::@:: $$E = hf = \frac {hc} \lambda$$, where $h$ is the Planck constant
+  - [photon energy](../../../../general/photon%20energy.md) ::@:: $$E = hf = \frac {hc} \lambda \,,$$ where $h$ is the Planck constant
   - [Planck constant](../../../../general/Planck%20constant.md) ::@:: $h = 6.626\,070\,15 \times 10^{-34}~\mathrm{J \cdot Hz^{-1} }$
-    - [Planck constant](../../../../general/Planck%20constant.md) / fundamental mathematical relations ::@:: $$\begin{aligned} E & = h f \\ \lambda & = \frac h p \end{aligned}$$, where $h$ is the Planck constant
+    - [Planck constant](../../../../general/Planck%20constant.md) / fundamental mathematical relations ::@:: $$\begin{aligned} E & = h f \\ \lambda & = \frac h p \,, \end{aligned}$$ where $h$ is the Planck constant
 - [matter](../../../../general/matter.md) / composition ::@:: Ordinary matter are made of atoms.
 - [atom](../../../../general/atom.md) ::@:: a particle consisting of a nucleus of neutrons and protons surrounded by a cloud of electrons
   - [atomic number](../../../../general/atomic%20number.md) ::@:: for ordinary nuclei, the number of protons

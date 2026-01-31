@@ -351,7 +351,7 @@ A popular form of {@{specifying the small signal equivalent circuit amongst tran
 
 > {@{![\[z\] parameter equivalent circuit showing dependent voltage generators](../../archives/Wikimedia%20Commons/Z-equivalent%20two%20port.png)}@}
 >
-> {@{\[z\] parameter equivalent circuit showing dependent voltage generators}@}
+> {@{\[z\] parameter equivalent circuit}@} showing {@{dependent voltage generators}@}
 
 There will {@{always be dependent generators in a two-port parameter equivalent circuit}@}. This applies to {@{the \[h\] parameters as well as to the \[z\] and any other kind}@}. These dependencies {@{must be preserved when developing the equations in a larger linear network analysis}@}.
 
