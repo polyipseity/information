@@ -4,19 +4,22 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
 
 1. Use Conventional Commit style for the commit header (`type(scope): short description`). Choose an appropriate type (e.g., feat, fix, docs, chore) and a concise scope such as `notes` when editing note content. **All commit messages MUST comply with commitlint rules as enforced by the repository, including but not limited to:**
    - Commit header length and format
-   - Commit body lines MUST NOT exceed 100 characters
+   - **Commit body lines MUST NOT exceed 100 characters (hard limit, strictly enforced by commitlint).**
    - Proper use of footers and trailers
 
 2. If the changes touch any of the `general/`, `special/`, or `self/` trees, the agent SHOULD suggest the following commit format to the user and prefer splitting documentation and content changes from functional changes. **The agent MUST always wrap commit body lines at 100 characters or less to comply with commitlint.**
+   - If a commit message fails commitlint due to line length, the agent MUST rewrap the body to ≤ 100 chars/line and retry until it passes, or report the error if it cannot be resolved.
 
    Header example:
 
+   ```text
    feat(notes): improve 13 notes
 
    Trailers (machine-readable, single-line each):
    - Flashcards-delta: <signed-integer>
    - Flashcards-prev: <integer>
    - Flashcards-now: <integer>
+   ```
 
    The agent MUST prompt the user for the previous flashcard count and the new flashcard count (or otherwise confirm the values) before finalizing the commit. The agent computes `Flashcards-delta = Flashcards-now - Flashcards-prev` and inserts the three trailers exactly as single-line trailers at the end of the commit message.
 
@@ -39,11 +42,11 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
 All commit messages MUST pass commitlint checks. In particular:
 
 - The commit header must follow Conventional Commit format and length rules.
-- The commit body (if present) must wrap at 100 characters or less per line.
+- The commit body (if present) must wrap at **100 characters or less per line** (hard limit).
 - Trailers and footers must be formatted as plain ASCII key/value pairs, one per line.
 - No lines may exceed the maximum allowed by commitlint.
 
-If a commit message fails commitlint, the agent MUST rewrap or reformat the message and retry until it passes, or report the error if it cannot be resolved.
+If a commit message fails commitlint, the agent MUST rewrap or reformat the message and retry until it passes, or report the error if it cannot be resolved. **Agents must never allow a commit message with a body line exceeding 100 characters.**
 
 ---
 
