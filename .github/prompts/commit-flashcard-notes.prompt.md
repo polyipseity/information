@@ -40,20 +40,30 @@ agent: agent
     - Otherwise, present the exact command to create the commit from stdin and print the new SHA. **Both commands must be run in the same shell command block to ensure correct context.** Use the correct heredoc/here-string syntax for the detected shell:
        - **PowerShell (Windows):**
 
-          ```powershell
-          (@"
-          <full commit message>
-          "@ | git commit --file=-) ; git rev-parse HEAD
-          ```
+         ```powershell
+         (@"
+         <full commit message>
+         "@ | git commit --file=-) ; git rev-parse HEAD
+         ```
+
+         **Note on special characters and quoting:**
+         Prefer PowerShell single-quoted here-strings (`@'... '@`) to avoid variable
+         expansion and backtick escapes. If using double-quoted here-strings
+         (`@"..."@`), escape backticks and `$` as needed or switch forms.
 
        - **Bash/zsh (Linux/macOS):**
 
-          ```bash
-          (git commit --file - <<'MSG'
-          <full commit message>
-          MSG
-          ) && git rev-parse HEAD
-          ```
+         ```bash
+         (git commit --file - <<'MSG'
+         <full commit message>
+         MSG
+         ) && git rev-parse HEAD
+         ```
+
+         **Note on special characters and quoting:**
+         Use a single-quoted heredoc (`<<'MSG'`) to prevent expansion so backticks
+         and `$` are preserved. If the delimiter appears in the message, pick a
+         different, unique delimiter to avoid syntax errors.
 
     - If Command 2 fails due to quoting/heredoc syntax, retry up to 3 corrected forms. For other failures, report the error and do not modify the index.
 
