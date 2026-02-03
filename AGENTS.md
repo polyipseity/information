@@ -65,6 +65,15 @@ pnpm install
 pnpm run prepare  # Activates husky hooks
 ```
 
+**Tooling & scripts:** Prefer using `pnpm` script wrappers when available. Run `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used.
+
+Common scripts (see `package.json`):
+
+- `pnpm run check` — repository checks (runs `check:md`)
+- `pnpm run format` — formatting helpers (runs `format:md`)
+- `pnpm run commitlint` — validate commit messages
+- `pnpm run prepare` — register Husky hooks
+
 This enables:
 
 - **Commit message validation** (commitlint) - enforces Conventional Commits

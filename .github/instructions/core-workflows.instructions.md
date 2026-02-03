@@ -6,6 +6,8 @@ applyTo: "**"
 
 # Core Workflows
 
+**Tooling & pnpm wrappers:** Prefer `pnpm` script wrappers when available. Check `package.json` for repository scripts and prefer `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no pnpm wrapper exists for an operation, run the underlying command shown below (for example, `python -m init generate`). Always run `pnpm install` before using `pnpm run`.
+
 ## Regenerate generated regions
 
 **Command**: `python -m init generate [pytextgen flags] <paths?>`

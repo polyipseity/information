@@ -37,6 +37,8 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
 
 6. This instruction applies repository-wide; submodules with their own `.github/instructions/` may augment or override these rules for their subtree (innermost `AGENTS.md` wins).
 
+**Pre-commit validation:** Before creating commits, agents MUST run repository formatting and validation steps using `pnpm` script wrappers when available (for example, `pnpm run format` and `pnpm run check`). This ensures checks and formatters run from the repository's locked versions.
+
 ## Commitlint compliance
 
 All commit messages MUST pass commitlint checks. In particular:
