@@ -10,9 +10,11 @@
   "packageManager": "pnpm@10.28.1",
   "private": true,
   "scripts": {
+    "check": "pnpm run check:md",
+    "check:md": "markdownlint-cli2",
     "commitlint": "commitlint --from=origin/main --to=HEAD",
-    "markdownlint": "markdownlint-cli2",
-    "markdownlint:fix": "markdownlint-cli2 --fix",
+    "format": "pnpm run format:md",
+    "format:md": "markdownlint-cli2 --fix",
     "prepare": "husky"
   },
   "type": "module"

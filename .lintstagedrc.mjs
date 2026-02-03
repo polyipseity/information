@@ -3,6 +3,6 @@
  */
 export default {
   "**/*.{md,markdown}": [
-    "pnpm run markdownlint:fix"
+    "pnpm run format:md"
   ]
 };
