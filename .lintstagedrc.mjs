@@ -2,7 +2,7 @@
  * @type {import('lint-staged').Configuration}
  */
 export default {
-  "**/*.{md,markdown}": [
-    "pnpm run format:md"
-  ]
+  "**/*.{md,mdoc,mdown,mdx,mkd,mkdn,markdown,rmd}": [
+    "pnpm run format:md",
+  ],
 };
