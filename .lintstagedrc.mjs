@@ -7,9 +7,13 @@ const MD_GLOB_KEY = `**/*.{${FILE_GLOBS.map(g => g.replace('**/*.', '')).join(',
 
 /**
  * @type {import('lint-staged').Configuration}
+ *
+ * Note: lint-staged appends staged file paths to the configured command.
+ * Prefer invoking the underlying CLI directly (not an npm/pnpm script wrapper)
+ * so those file paths are forwarded to the tool (e.g., "markdownlint-cli2 --fix").
  */
 export default {
   [MD_GLOB_KEY]: [
-    "pnpm run format:md",
+    "markdownlint-cli2 --fix",
   ],
 };
