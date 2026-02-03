@@ -12,3 +12,4 @@ applyTo: "self/**"
 - **When user approves edits**: Make changes here, then consider contributing upstream
 - Prefer `git submodule update --remote` workflows for syncing upstream changes
 - **Submodule instructions**: Each submodule under `self/` may have its own `AGENTS.md` and `.github/instructions/` and `.github/skills/` files that take priority when working within that specific submodule
+- **`self/stash/`**: A workspace for miscellaneous, small Python utility scripts (stashed tools). These files are user-managed and may be created or edited only when the user explicitly requests it; consider adding an index (`index.md`) to document scripts placed here.
