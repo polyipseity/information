@@ -120,7 +120,7 @@ return chain.from_iterable(await gather(
 - [complete-linkage clustering](complete-linkage%20clustering.md):@:$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2028-05-17,1168,355-->
 - median linkage clustering:@:$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2028-04-28,1051,295-->
 - [single-linkage clustering](single-linkage%20clustering.md):@:$d(A, B) = \min_{a \in A, b \in B} d(a, b)$ <!--SR:!2027-05-18,814,335-->
-- unweighted average linkage clustering:@:$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2026-02-02,453,275-->
+- unweighted average linkage clustering:@:$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2030-11-03,1734,295-->
 - weighted average linkage clustering:@:$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ <!--SR:!2026-05-13,575,315-->
 
 <!--/pytextgen-->

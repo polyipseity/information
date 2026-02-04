@@ -91,7 +91,7 @@ The content is in teaching order.
   - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2030-01-04,1674,370-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2029-11-17,1636,370!2032-09-07,2487,415-->
-    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2028-01-21,938,320!2026-01-19,459,332-->
+    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2028-01-21,938,320!2031-10-30,2100,352-->
 - construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2030-10-16,1842,357!2032-01-30,2309,414-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
@@ -99,7 +99,7 @@ The content is in teaching order.
   - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2031-09-25,2207,417-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2030-10-18,1817,352!2026-01-22,518,395-->
+    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2030-10-18,1817,352!2033-09-22,2793,415-->
       - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
       - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2030-01-29,1589,315!2030-06-07,1790,394-->
       - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2028-01-27,1074,374-->
@@ -142,7 +142,7 @@ quantity surveyor
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←building services engineer <!--SR:!2030-07-07,1742,355!2026-01-31,525,397-->
+- _(begin)_→::@::←building services engineer <!--SR:!2030-07-07,1742,355!2033-11-17,2846,417-->
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2029-06-30,1448,357-->
 - consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2026-10-15,507,360-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2030-02-24,1562,305!2029-08-02,1452,326-->
@@ -595,10 +595,10 @@ nuclear
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2031-03-17,1885,340!2026-03-07,528,357-->
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2030-11-13,1843,355-->
-- chemical→::@::←civil <!--SR:!2026-01-19,455,337!2027-08-02,951,377-->
+- chemical→::@::←civil <!--SR:!2031-11-11,2112,357!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
 - computer→::@::←electrical <!--SR:!2026-08-12,643,347!2026-04-16,450,315-->
-- electrical→::@::←industrial <!--SR:!2026-01-31,366,301!2026-07-16,442,250-->
+- electrical→::@::←industrial <!--SR:!2030-04-08,1527,321!2026-07-16,442,250-->
 - industrial→::@::←manufacturing <!--SR:!2031-03-29,1949,357!2029-11-26,1560,352-->
 - manufacturing→::@::←mechanical <!--SR:!2031-01-21,1961,397!2026-07-28,643,357-->
 - mechanical→::@::←nuclear <!--SR:!2030-05-08,1755,397!2027-01-28,775,355-->
@@ -637,7 +637,7 @@ water
 - _(begin)_→::@::←air <!--SR:!2027-05-11,854,361!2033-04-30,2660,421-->
 - air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2030-04-29,1694,358-->
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2029-12-14,1574,347!2033-06-26,2717,420-->
-- noise→::@::←waste <!--SR:!2026-02-04,446,360!2027-07-08,926,375-->
+- noise→::@::←waste <!--SR:!2032-02-16,2203,380!2027-07-08,926,375-->
 - waste→::@::←water <!--SR:!2027-10-08,990,377!2028-08-19,1238,380-->
 - water→::@::←_(end)_ <!--SR:!2032-09-06,2484,420!2030-06-19,1782,400-->
 
@@ -744,7 +744,7 @@ tunnel
 - embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2027-04-14,785,360-->
 - pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!2026-11-13,678,355-->
 - shallow foundation→::@::←tunnel <!--SR:!2029-09-20,1475,341!2028-09-26,1035,252-->
-- tunnel→::@::←_(end)_ <!--SR:!2027-08-10,937,370!2026-01-29,412,317-->
+- tunnel→::@::←_(end)_ <!--SR:!2027-08-10,937,370!2031-01-08,1805,337-->
 
 <!--/pytextgen-->
 
@@ -811,7 +811,7 @@ water distribution network
 - _(begin)_→::@::←sewage collection network <!--SR:!2027-08-11,807,341!2028-05-01,1105,337-->
 - sewage collection network→::@::←storm water management <!--SR:!2028-01-06,849,267!2030-07-18,1755,361-->
 - storm water management→::@::←water collection network <!--SR:!2030-06-11,1740,360!2029-07-01,1424,340-->
-- water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->
+- water collection network→::@::←water distribution network <!--SR:!2033-09-26,2797,420!2026-09-27,642,352-->
 - water distribution network→::@::←_(end)_ <!--SR:!2027-10-26,1024,387!2026-02-13,440,321-->
 
 <!--/pytextgen-->
@@ -1229,7 +1229,7 @@ water treatment
 - _(begin)_→::@::←groundwater quality control <!--SR:!2031-04-03,1951,360!2027-04-06,857,377-->
 - groundwater quality control→::@::←wastewater recycling <!--SR:!2028-03-10,951,295!2029-07-21,1328,300-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2030-12-25,1803,335!2027-04-11,815,337-->
-- wastewater treatment→::@::←water quality monitoring <!--SR:!2026-01-29,404,280!2026-04-16,495,315-->
+- wastewater treatment→::@::←water quality monitoring <!--SR:!2030-05-25,1577,300!2026-04-16,495,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2030-09-18,1795,354-->
 - water treatment→::@::←_(end)_ <!--SR:!2028-05-23,1167,374!2026-05-18,524,286-->
 

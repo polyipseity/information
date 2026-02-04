@@ -11,11 +11,11 @@ tags:
 
 The __Tropic of Capricorn__, also known as {@{the __Southern Tropic__}@}, is {@{the [Earth](Earth.md)'s [southernmost](south.md) circle of [latitude](latitude.md) where the [Sun](Sun.md) can be seen [directly overhead](subsolar%20point.md)}@}. This occurs on {@{the [December solstice](December%20solstice.md)}@}. The Sun also {@{touches 90 degrees below the horizon ([nadir](nadir.md)) on the [June solstice](June%20solstice.md) in locations along the Tropic of Capricorn}@}. Its [northern](north.md) equivalent is {@{the [Tropic of Cancer](Tropic%20of%20Cancer.md)}@}. <!--SR:!2028-08-13,1166,350!2028-10-23,1220,350!2026-07-01,499,310!2026-11-02,583,310!2027-06-11,807,330-->
 
-Using a continuously updated formula, the circle is {@{currently 23°26′10.0″ (or 23.43611°) [south](south.md) of the [equator](equator.md)}@}, which approximates {@{[Earth](Earth.md)'s [axial tilt](axial%20tilt.md)}@}. <!--SR:!2026-02-03,349,250!2027-03-01,728,330-->
+Using a continuously updated formula, the circle is {@{currently 23°26′10.0″ (or 23.43611°) [south](south.md) of the [equator](equator.md)}@}, which approximates {@{[Earth](Earth.md)'s [axial tilt](axial%20tilt.md)}@}. <!--SR:!2029-06-07,1220,270!2027-03-01,728,330-->
 
 ## name
 
-This line of [latitude](latitude.md) was named {@{after the [constellation](constellation.md) [Capricornus](Capricornus.md) during last centuries [BCE](Common%20Era..md)}@}, as {@{the [Sun](Sun.md) was there on the [December solstice](December%20solstice.md)}@}. Due to {@{westward [precession of the equinoxes](axial%20precession.md)}@}, this is {@{no longer the case}@}. The current constellation is {@{[Sagittarius](Sagittarius%20(constellation).md)}@}. <!--SR:!2028-04-25,918,290!2027-11-19,872,290!2027-09-04,815,290!2026-01-31,83,344!2026-01-25,78,344-->
+This line of [latitude](latitude.md) was named {@{after the [constellation](constellation.md) [Capricornus](Capricornus.md) during last centuries [BCE](Common%20Era..md)}@}, as {@{the [Sun](Sun.md) was there on the [December solstice](December%20solstice.md)}@}. Due to {@{westward [precession of the equinoxes](axial%20precession.md)}@}, this is {@{no longer the case}@}. The current constellation is {@{[Sagittarius](Sagittarius%20(constellation).md)}@}. <!--SR:!2028-04-25,918,290!2027-11-19,872,290!2027-09-04,815,290!2027-03-08,400,364!2027-01-28,368,364-->
 
 ## references
 

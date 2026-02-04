@@ -27,7 +27,7 @@ tags:
 
 {@{A minimum spanning tree of a connected weighted graph}@} is {@{a connected subgraph, without cycles}@}, for which {@{the sum of the weights of all the edges in the subgraph is minimal}@}. For {@{a disconnected graph}@}, {@{a minimum spanning forest}@} is {@{composed of a minimum spanning tree for each [connected component](component%20(graph%20theory).md)}@}. <!--SR:!2029-02-14,1200,350!2029-06-22,1302,350!2029-06-23,1303,350!2029-08-11,1341,350!2027-07-03,721,330!2026-05-29,133,400-->
 
-This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2026-10-27,514,310!2027-11-18,830,330!2026-04-03,331,290!2026-01-24,285,270-->
+This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2026-10-27,514,310!2027-11-18,830,330!2026-04-03,331,290!2028-03-07,769,270-->
 
 ## algorithm
 
@@ -126,9 +126,9 @@ We show that {@{the following proposition ___P___ is true by [induction](mathema
 
 ## parallel algorithm
 
-Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It is, however, {@{possible to perform the initial sorting of the edges in parallel}@} or, alternatively, {@{to use a parallel implementation of a [binary heap](binary%20heap.md) to extract the minimum-weight edge in every iteration}@}.<sup>[\[5\]](#^ref-5)</sup> As {@{parallel sorting is possible in time $O(n)$ on $O(\log n)$ processors}@},<sup>[\[6\]](#^ref-6)</sup> {@{the runtime of Kruskal's algorithm}@} can be {@{reduced to _O_\(_E_ α\(_V_\)\)}@}, where {@{α again is the inverse of the single-valued [Ackermann function](Ackermann%20function.md)}@}. <!--SR:!2029-02-08,1198,350!2028-12-14,1153,350!2026-01-27,307,290!2027-11-04,758,290!2029-08-05,1337,350!2026-12-28,560,310!2027-11-12,816,330-->
+Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It is, however, {@{possible to perform the initial sorting of the edges in parallel}@} or, alternatively, {@{to use a parallel implementation of a [binary heap](binary%20heap.md) to extract the minimum-weight edge in every iteration}@}.<sup>[\[5\]](#^ref-5)</sup> As {@{parallel sorting is possible in time $O(n)$ on $O(\log n)$ processors}@},<sup>[\[6\]](#^ref-6)</sup> {@{the runtime of Kruskal's algorithm}@} can be {@{reduced to _O_\(_E_ α\(_V_\)\)}@}, where {@{α again is the inverse of the single-valued [Ackermann function](Ackermann%20function.md)}@}. <!--SR:!2029-02-08,1198,350!2028-12-14,1153,350!2029-06-16,1235,310!2027-11-04,758,290!2029-08-05,1337,350!2026-12-28,560,310!2027-11-12,816,330-->
 
-{@{A variant of Kruskal's algorithm, named Filter-Kruskal}@}, has been described by {@{Osipov et al.}@}<sup>[\[7\]](#^ref-7)</sup> and is {@{better suited for parallelization}@}. The basic idea behind Filter-Kruskal is to {@{partition the edges in a similar way to [quicksort](quicksort.md)}@} and {@{filter out edges that connect vertices of the same tree to reduce the cost of sorting}@}. The following [pseudocode](pseudocode.md) demonstrates this. <!--SR:!2026-01-24,305,290!2026-06-07,416,310!2027-11-01,806,330!2029-06-13,1295,350!2029-02-22,1206,350-->
+{@{A variant of Kruskal's algorithm, named Filter-Kruskal}@}, has been described by {@{Osipov et al.}@}<sup>[\[7\]](#^ref-7)</sup> and is {@{better suited for parallelization}@}. The basic idea behind Filter-Kruskal is to {@{partition the edges in a similar way to [quicksort](quicksort.md)}@} and {@{filter out edges that connect vertices of the same tree to reduce the cost of sorting}@}. The following [pseudocode](pseudocode.md) demonstrates this. <!--SR:!2029-06-10,1229,310!2026-06-07,416,310!2027-11-01,806,330!2029-06-13,1295,350!2029-02-22,1206,350-->
 
 <pre>
 <b>function</b> filter_kruskal(G) <b>is</b>
@@ -218,7 +218,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
 >             {@{E<sub>f</sub> = E<sub>f</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
 >     {@{<b>return</b> E<sub>f</sub>}@}
-> </pre> <!--SR:!2029-01-30,1190,350!2029-06-18,1299,350!2028-12-01,1142,350!2029-08-15,1345,350!2026-08-24,465,310!2029-07-04,1311,350!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2029-08-14,1345,350!2029-01-17,1181,350!2029-03-28,1236,350!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2029-08-15,1345,350!2027-12-22,847,330!2029-08-13,1344,350!2027-05-10,613,310!2026-01-25,305,290!2028-07-01,944,330!2029-08-15,1345,350-->
+> </pre> <!--SR:!2029-01-30,1190,350!2029-06-18,1299,350!2028-12-01,1142,350!2029-08-15,1345,350!2026-08-24,465,310!2029-07-04,1311,350!2029-03-07,1217,350!2026-03-29,299,270!2029-03-09,1221,350!2029-08-14,1345,350!2029-01-17,1181,350!2029-03-28,1236,350!2029-01-10,1175,350!2027-09-16,772,330!2029-03-05,1216,350!2029-08-15,1345,350!2027-12-22,847,330!2029-08-13,1344,350!2027-05-10,613,310!2029-06-09,1228,310!2028-07-01,944,330!2029-08-15,1345,350-->
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-03-13,1222,350!2029-01-04,1170,350!2029-04-04,1240,350-->
 

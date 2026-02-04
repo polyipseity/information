@@ -11,11 +11,11 @@ tags:
 
 # recurrent neural network
 
-A __recurrent neural network__ (__RNN__) is {@{one of the two board types of [neural network](neural%20network%20(machine%20learning).md)}@}, characterized by {@{the direction of information flow between its layers}@}. In contrast to {@{the unidirectional [feedforward neural network](feedforward%20nerual%20network.md), an RNN allows outputs from some neurons to affect subsequent inputs to the same neurons}@}. <!--SR:!2026-02-07,439,310!2027-06-14,831,330!2026-01-19,426,310-->
+A __recurrent neural network__ (__RNN__) is {@{one of the two board types of [neural network](neural%20network%20(machine%20learning).md)}@}, characterized by {@{the direction of information flow between its layers}@}. In contrast to {@{the unidirectional [feedforward neural network](feedforward%20nerual%20network.md), an RNN allows outputs from some neurons to affect subsequent inputs to the same neurons}@}. <!--SR:!2026-02-07,439,310!2027-06-14,831,330!2031-01-31,1835,330-->
 
 An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This makes it suitable for datasets {@{with temporal relationship between the samples}@}. <!--SR:!2029-04-11,1369,350!2028-01-27,1024,350-->
 
-{@{The term "recurrent neural network"}@} is used to refer to {@{the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@} (annotation: {@{feedback loops}@} let past inputs {@{influence the state indefinitely}@}), while {@{"[convolutional neural network](convolutional%20neural%20network.md)"}@} refers to {@{the class of networks with [finite impulse response](finite%20impulse%20response.md)}@} (annotation: {@{fixed convolution windows (in time domain)}@} limit {@{influence to a finite history}@}). <!--SR:!2030-10-12,1742,330!2026-05-28,523,310!2026-01-22,4,317!2026-01-22,4,317!2026-01-22,4,317!2026-01-22,4,317!2026-01-22,4,317!2026-01-22,4,317-->
+{@{The term "recurrent neural network"}@} is used to refer to {@{the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@} (annotation: {@{feedback loops}@} let past inputs {@{influence the state indefinitely}@}), while {@{"[convolutional neural network](convolutional%20neural%20network.md)"}@} refers to {@{the class of networks with [finite impulse response](finite%20impulse%20response.md)}@} (annotation: {@{fixed convolution windows (in time domain)}@} limit {@{influence to a finite history}@}). <!--SR:!2030-10-12,1742,330!2026-05-28,523,310!2026-02-10,19,337!2026-02-08,17,337!2026-02-09,18,337!2026-02-10,19,337!2026-02-09,18,337!2026-02-10,19,337-->
 
 ## architectures
 
@@ -23,9 +23,9 @@ An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This m
 
 ### Elman networks and Jordan networks
 
-An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2026-01-31,395,290!2026-07-18,534,310!2026-05-22,517,310-->
+An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2030-06-12,1592,310!2026-07-18,534,310!2026-05-22,517,310-->
 
-[Jordan](Michael%20I.%20Jordan.md) network are {@{similar to Elman networks}@}. The exception is {@{that the context layer is fed from the output layer instead of the middle hidden layer}@}. <!--SR:!2026-04-06,479,310!2026-01-19,220,250-->
+[Jordan](Michael%20I.%20Jordan.md) network are {@{similar to Elman networks}@}. The exception is {@{that the context layer is fed from the output layer instead of the middle hidden layer}@}. <!--SR:!2026-04-06,479,310!2028-03-11,779,270-->
 
 Elman and Jordan networks are also known as {@{"simple recurrent networks" (SRN)}@}. The disadvantages are that {@{the networks are likely too simple, and they might take a long time to converge}@}. <!--SR:!2028-04-16,1087,350!2026-03-24,432,290-->
 
@@ -39,7 +39,7 @@ Long short-term memory (LSTM) is {@{a [deep learning](deep%20learning.md) system
 
 - see: [gated recurrent unit](gated%20recurrent%20unit.md)
 
-Gated recurrent units (GRUs) are {@{a gating mechanism in RNN introduced in 2014}@}. They have {@{fewer parameters than LSTM, as they lack an output gate}@}. This may make {@{the training time shorter and the training requiring fewer data samples}@}. <!--SR:!2026-08-31,554,310!2026-02-01,396,290!2026-10-19,653,330-->
+Gated recurrent units (GRUs) are {@{a gating mechanism in RNN introduced in 2014}@}. They have {@{fewer parameters than LSTM, as they lack an output gate}@}. This may make {@{the training time shorter and the training requiring fewer data samples}@}. <!--SR:!2026-08-31,554,310!2030-06-16,1596,310!2026-10-19,653,330-->
 
 ## references
 

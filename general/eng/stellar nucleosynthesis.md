@@ -8,7 +8,7 @@ tags:
 
 # stellar nucleosynthesis
 
-In [astrophysics](astrophysics.md), __stellar nucleosynthesis__ is {@{the [creation](nucleosynthesis.md) of [chemical elements](chemical%20element.md) by [nuclear fusion](nuclear%20fusion.md) reactions within [stars](star.md)}@}. Stellar nucleosynthesis has occurred since {@{the [original creation](Big%20Bang%20nucleosynthesis.md) of [hydrogen](hydrogen.md), [helium](helium.md) and [lithium](lithium.md) during the [Big Bang](Big%20Bang.md)}@}. <!--SR:!2029-01-18,1267,350!2026-01-27,360,290-->
+In [astrophysics](astrophysics.md), __stellar nucleosynthesis__ is {@{the [creation](nucleosynthesis.md) of [chemical elements](chemical%20element.md) by [nuclear fusion](nuclear%20fusion.md) reactions within [stars](star.md)}@}. Stellar nucleosynthesis has occurred since {@{the [original creation](Big%20Bang%20nucleosynthesis.md) of [hydrogen](hydrogen.md), [helium](helium.md) and [lithium](lithium.md) during the [Big Bang](Big%20Bang.md)}@}. <!--SR:!2029-01-18,1267,350!2030-01-22,1450,310-->
 
 ## references
 

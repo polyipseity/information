@@ -8,7 +8,7 @@ tags:
 
 # collision theory
 
-__Collision theory__ is {@{a [chemistry](chemistry.md) principle to predict [reaction rates](reaction%20rate.md)}@}. It states that when {@{[reactant](reagent.md) particles collide at the right orientation}@} with {@{sufficient energy, known as [activation energy](activation%20energy.md)}@}, {@{_effective collision_ occurs, resulting in products}@}. <!--SR:!2030-11-21,2111,330!2030-09-25,1725,272!2026-01-22,4,281!2026-01-22,4,281-->
+__Collision theory__ is {@{a [chemistry](chemistry.md) principle to predict [reaction rates](reaction%20rate.md)}@}. It states that when {@{[reactant](reagent.md) particles collide at the right orientation}@} with {@{sufficient energy, known as [activation energy](activation%20energy.md)}@}, {@{_effective collision_ occurs, resulting in products}@}. <!--SR:!2030-11-21,2111,330!2030-09-25,1725,272!2026-02-10,17,301!2026-02-10,17,301-->
 
 ## references
 

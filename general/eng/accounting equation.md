@@ -26,7 +26,7 @@ The [formula](formula.md) can {@{also be rearranged}@}, e.g.: <!--SR:!2029-11-02
 - $A-L=OE$ (i.e. ${\text{Assets} }-{\text{Liabilities} }={\text{Owner’s Equity} }$)
 - $A-L=SE$ (i.e. ${\text{Assets} }-{\text{Liabilities} }={\text{Shareholders’ Equity} }$) <sup>[\[1\]](#^ref-1)</sup>
 
-{@{Every [accounting](accounting.md) [transaction](financial%20transaction.md)}@} {@{affects at least one element of the equation}@}, but {@{always balances}@} \(it is {@{at least _one_ element, not two elements}@}, of equation because of {@{transactions between accounts of the same type}@}\). <!--SR:!2026-01-30,141,310!2026-10-27,318,360!2027-04-11,453,380!2027-02-27,410,380!2027-04-12,454,380-->
+{@{Every [accounting](accounting.md) [transaction](financial%20transaction.md)}@} {@{affects at least one element of the equation}@}, but {@{always balances}@} \(it is {@{at least _one_ element, not two elements}@}, of equation because of {@{transactions between accounts of the same type}@}\). <!--SR:!2027-10-06,612,330!2026-10-27,318,360!2027-04-11,453,380!2027-02-27,410,380!2027-04-12,454,380-->
 
 ## references
 

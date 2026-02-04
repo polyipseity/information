@@ -21,7 +21,7 @@ There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2030-07-16,164
 3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2027-10-29,818,330!2030-05-05,1573,370-->
 4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2030-07-27,1656,370!2030-08-03,1659,370-->
 5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2028-11-09,1129,350!2027-11-14,834,330-->
-6. Use of ::@:: special library functions (e.g., random) <!--SR:!2026-01-21,350,350!2026-01-20,349,350-->
+6. Use of ::@:: special library functions (e.g., random) <!--SR:!2030-09-03,1684,370!2030-08-28,1678,370-->
 
 You can use these methods to {@{create ndarrays or [structured arrays](structured%20arrays.md)}@}. This document will cover general methods for {@{ndarray creation}@}. <!--SR:!2030-08-08,1664,370!2029-03-06,1235,350-->
 
@@ -31,7 +31,7 @@ NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@
 
 - a list of numbers will create ::@:: a 1D array, <!--SR:!2028-11-07,1142,350!2030-06-21,1621,370-->
 - a list of lists will create ::@:: a 2D array, <!--SR:!2029-05-18,1291,350!2029-03-09,1235,350-->
-- further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy. <!--SR:!2028-05-06,920,330!2026-01-21,350,350-->
+- further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy. <!--SR:!2028-05-06,920,330!2030-09-09,1690,370-->
 
 ```Python
 >>> import numpy as np
@@ -50,7 +50,7 @@ Traceback (most recent call last):
 OverflowError: Python integer 128 out of bounds for int8
 ```
 
-{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2030-08-12,1668,370!2026-01-22,351,350!2030-07-06,1635,370!2026-01-24,353,350!2026-01-23,352,350!2029-04-05,1256,350!2029-03-31,1252,350-->
+{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2030-08-12,1668,370!2030-09-10,1691,370!2030-07-06,1635,370!2030-09-30,1705,370!2030-09-13,1694,370!2029-04-05,1256,350!2029-03-31,1252,350-->
 
 ```Python
 >>> import numpy as np
@@ -78,7 +78,7 @@ NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [
 
 ### 1D array creation functions
 
-{@{The 1D array creation functions}@} e.g. {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace") and [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} generally {@{need at least two inputs, `start` and `stop`}@}. <!--SR:!2029-04-13,1263,350!2029-05-19,1291,350!2026-01-24,353,350-->
+{@{The 1D array creation functions}@} e.g. {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace") and [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} generally {@{need at least two inputs, `start` and `stop`}@}. <!--SR:!2029-04-13,1263,350!2029-05-19,1291,350!2030-09-27,1702,370-->
 
 {@{[`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} creates {@{arrays with regularly incrementing values}@}. Check the documentation for complete information and examples. A few examples are shown: <!--SR:!2029-03-06,1233,350!2029-03-21,1246,350-->
 
@@ -140,7 +140,7 @@ array([[0, 1, 0, 0],
 array([1, 4])
 ```
 
-{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2029-03-27,1249,350!2027-12-07,850,330!2029-03-10,1238,350!2026-01-29,122,310!2030-07-12,1641,370!2029-03-20,1245,350!2030-06-17,1616,370!2026-03-23,138,399-->
+{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2029-03-27,1249,350!2027-12-07,850,330!2029-03-10,1238,350!2027-07-10,527,330!2030-07-12,1641,370!2029-03-20,1245,350!2030-06-17,1616,370!2026-03-23,138,399-->
 
 ```Python
 >>> import numpy as np
@@ -243,7 +243,7 @@ Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those 
 a = [2 3 3 4 5 6] ; b = [2 3]
 ```
 
-In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2029-03-18,1244,350!2026-01-21,350,350!2029-01-15,1193,350!2030-05-24,1593,370!2029-03-29,1251,350!2029-03-16,1242,350-->
+In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2029-03-18,1244,350!2030-09-02,1683,370!2029-01-15,1193,350!2030-05-24,1593,370!2029-03-29,1251,350!2029-03-16,1242,350-->
 
 ```Python
 >>> import numpy as np
@@ -275,11 +275,11 @@ Other routines {@{use similar syntax to join ndarrays}@}. Check the routine's do
 
 ## reading arrays from disk, either from standard or custom formats
 
-This is {@{the most common case of large array creation}@}. The details {@{depend greatly on the format of data on disk}@}. This section gives {@{general pointers on how to handle various formats}@}. For {@{more detailed examples of IO}@} look at {@{[how to read and write files](../how-tos/reading%20and%20writing%20files.md)}@}. <!--SR:!2030-07-13,1643,370!2029-05-04,1279,350!2029-03-01,1229,350!2026-01-19,348,350!2026-01-20,349,350-->
+This is {@{the most common case of large array creation}@}. The details {@{depend greatly on the format of data on disk}@}. This section gives {@{general pointers on how to handle various formats}@}. For {@{more detailed examples of IO}@} look at {@{[how to read and write files](../how-tos/reading%20and%20writing%20files.md)}@}. <!--SR:!2030-07-13,1643,370!2029-05-04,1279,350!2029-03-01,1229,350!2030-08-24,1674,370!2030-08-29,1679,370-->
 
 ### standard binary formats
 
-{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} \(there may be {@{others for which it is possible to read and convert to NumPy arrays}@} so check {@{the last section}@} as well\) <!--SR:!2029-02-11,1215,350!2026-01-22,351,350!2029-06-12,1310,350!2029-07-16,1338,350!2026-05-08,142,410-->
+{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} \(there may be {@{others for which it is possible to read and convert to NumPy arrays}@} so check {@{the last section}@} as well\) <!--SR:!2029-02-11,1215,350!2030-09-12,1693,370!2029-06-12,1310,350!2029-07-16,1338,350!2026-05-08,142,410-->
 
 - HDF5 ::@:: h5py <!--SR:!2030-07-02,1631,370!2029-06-19,1317,350-->
 - FITS ::@:: Astropy <!--SR:!2027-12-08,851,330!2030-04-19,1557,370-->
@@ -288,7 +288,7 @@ Examples of {@{formats that cannot be read directly but for which it is not hard
 
 ### common ASCII formats
 
-{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2029-05-17,1290,350!2029-04-28,1275,350!2030-06-12,1611,370!2026-01-23,352,350!2028-06-27,1033,350!2029-03-17,1243,350!2029-02-22,1224,350-->
+{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2029-05-17,1290,350!2029-04-28,1275,350!2030-06-12,1611,370!2030-09-14,1695,370!2028-06-27,1033,350!2029-03-17,1243,350!2029-02-22,1224,350-->
 
 ```shell
 $ cat simple.csv
@@ -318,7 +318,7 @@ There are {@{a variety of approaches one can use}@}. If the file has {@{a relati
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 
-NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2027-11-25,840,330!2029-01-19,1196,350!2030-04-26,1564,370!2029-07-10,1333,350!2026-01-19,348,350-->
+NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2027-11-25,840,330!2029-01-19,1196,350!2030-04-26,1564,370!2029-07-10,1333,350!2030-08-25,1675,370-->
 
 ## references
 

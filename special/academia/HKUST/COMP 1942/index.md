@@ -319,11 +319,11 @@ The content is in teaching order.
     - step function threshold ::@:: _θ_ = 0 <!--SR:!2026-03-28,526,397!2026-05-10,562,397-->
   - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
   - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
-    - sigmoid function variants ::@:: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$ <p> [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2026-01-25,418,337!2027-03-19,728,357-->
+    - sigmoid function variants ::@:: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$ <p> [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2029-12-04,1408,337!2027-03-19,728,357-->
 - [perceptron](../../../../general/perceptron.md)
   - [§ steps](../../../../general/perceptron.md#steps)
     - perceptron stopping conditions ::@:: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2028-03-27,1084,377!2029-04-10,1416,397-->
-    - perceptron error trends ::@:: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2026-03-23,522,397!2026-01-24,473,397-->
+    - perceptron error trends ::@:: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2026-03-23,522,397!2033-02-02,2564,417-->
   - [§ convergence of one perceptron on a linearly separable dataset](../../../../general/perceptron.md#convergence%20of%20one%20perceptron%20on%20a%20linearly%20separable%20dataset)
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): neural network
@@ -479,11 +479,11 @@ The content is in teaching order.
   - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!2026-07-24,543,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2029-08-11,1512,397-->
   - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2030-07-20,1791,397!2028-11-07,1255,377-->
-  - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2026-01-23,472,397!2031-04-01,1992,397-->
-  - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2026-01-25,474,397!2026-01-22,471,397-->
+  - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2033-01-28,2559,417!2031-04-01,1992,397-->
+  - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2033-02-08,2570,417!2033-01-21,2552,417-->
   - social networks ::@:: How are people connected? <!--SR:!2026-03-10,509,397!2026-02-23,494,397-->
   - privacy issues ::@:: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2032-11-01,2482,417!2030-06-09,1734,397-->
-  - graph data ::@:: How to analyze graphs? <!--SR:!2026-01-29,478,397!2026-02-09,487,397-->
+  - graph data ::@:: How to analyze graphs? <!--SR:!2033-03-04,2591,417!2026-02-09,487,397-->
   - decision making
   - data streams ::@:: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2026-05-02,556,397!2029-09-12,1538,397-->
   - chatbot

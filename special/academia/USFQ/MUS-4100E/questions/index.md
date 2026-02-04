@@ -43,7 +43,7 @@ tags:
 > 4. South America
 > 5. Manabi
 >
-> - solution: {@{3}@} <!--SR:!2026-01-28,281,330-->
+> - solution: {@{3}@} <!--SR:!2029-08-03,1283,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -56,7 +56,7 @@ tags:
 > 3. sad notes
 > 4. critical notes played out-of-tune or "off-key"
 >
-> - solution: {@{4}@} <!--SR:!2026-01-23,276,330-->
+> - solution: {@{4}@} <!--SR:!2029-07-06,1259,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -77,7 +77,7 @@ tags:
 >
 > What centuries were African Slaves taken to America?
 >
-> - solution: {@{17th to 19th century}@} <!--SR:!2026-01-22,275,330-->
+> - solution: {@{17th to 19th century}@} <!--SR:!2029-06-28,1251,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -90,7 +90,7 @@ tags:
 > 3. Asian Traditions
 > 4. South American Traditions
 >
-> - solution: {@{1}@} <!--SR:!2026-01-30,283,330-->
+> - solution: {@{1}@} <!--SR:!2029-08-20,1294,350-->
 
 ## Sydney Bechet
 

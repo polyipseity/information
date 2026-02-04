@@ -15,7 +15,7 @@ tags:
 
 # lift chart
 
-A __lift chart__, also called {@{__cumulative gain chart__, or just __gain chart__}@}, is a chart that {@{visualizes the effect of a predictive [classification](../general/statistical%20classification.md) model}@}. <!--SR:!2026-06-19,552,278!2026-01-21,437,298-->
+A __lift chart__, also called {@{__cumulative gain chart__, or just __gain chart__}@}, is a chart that {@{visualizes the effect of a predictive [classification](../general/statistical%20classification.md) model}@}. <!--SR:!2026-06-19,552,278!2031-01-04,1808,318-->
 
 A __decile-wise lift chart__ is a variant of the lift chart that {@{visualizes the [lift](../general/association%20rule%20learning.md#lift) in the ten [deciles](../general/decile.md) of the data}@}. <!--SR:!2026-08-11,595,310-->
 
@@ -27,11 +27,11 @@ To construct a lift chart, first select {@{an attribute as the outcome attribute
 >
 > {@{A quick example}@} below.
 >
-> {@{![lift chart example](attachments/Pasted%20image%2020240322145601.png)}@} <!--SR:!2030-08-07,1712,310!2026-01-24,156,322-->
+> {@{![lift chart example](attachments/Pasted%20image%2020240322145601.png)}@} <!--SR:!2030-08-07,1712,310!2028-01-01,701,342-->
 
 ### decile-wise
 
-To construct a decile-wise lift chart, {@{follow the same [instructions above](#construction) up until before plotting}@}. Then, {@{split the data}@} into {@{ten equal portions called deciles, preserving order}@}. {@{The 1st decile}@} is {@{the first 10% of the dataset, and so on}@}. If {@{a decile split is in the middle of an observation}@}, choose {@{a splitting policy that fits your scenario best}@}. One possible way is to {@{weight the sample based on the split proportion}@}. Then, calculate {@{the global mean of the _actual_ outcome for the entire dataset}@}, and {@{the decile mean of the _actual_ outcome for each decile}@}. For {@{a boolean outcome attribute}@}, you can consider {@{the "success" value as 1 and the other value as 0}@}. Next, calculate {@{the decile mean divided by the global mean for each decile}@}. Finally, {@{plot the decile mean divided by the global mean \(_y_-axis, label "decile mean/global mean"\)}@} over {@{the ten deciles \(_x_-axis, label "deciles"\) in a bar chart}@}. <!--SR:!2026-08-02,556,278!2026-01-27,167,270!2027-07-31,814,270!2026-05-29,465,250!2029-10-12,1466,310!2028-12-01,1152,270!2026-04-28,180,326!2026-12-09,382,366!2026-12-04,378,366!2026-12-25,394,366!2026-12-02,376,366!2027-01-02,401,366!2027-01-09,407,366!2027-01-05,403,366!2027-01-09,407,366-->
+To construct a decile-wise lift chart, {@{follow the same [instructions above](#construction) up until before plotting}@}. Then, {@{split the data}@} into {@{ten equal portions called deciles, preserving order}@}. {@{The 1st decile}@} is {@{the first 10% of the dataset, and so on}@}. If {@{a decile split is in the middle of an observation}@}, choose {@{a splitting policy that fits your scenario best}@}. One possible way is to {@{weight the sample based on the split proportion}@}. Then, calculate {@{the global mean of the _actual_ outcome for the entire dataset}@}, and {@{the decile mean of the _actual_ outcome for each decile}@}. For {@{a boolean outcome attribute}@}, you can consider {@{the "success" value as 1 and the other value as 0}@}. Next, calculate {@{the decile mean divided by the global mean for each decile}@}. Finally, {@{plot the decile mean divided by the global mean \(_y_-axis, label "decile mean/global mean"\)}@} over {@{the ten deciles \(_x_-axis, label "deciles"\) in a bar chart}@}. <!--SR:!2026-08-02,556,278!2027-10-22,630,290!2027-07-31,814,270!2026-05-29,465,250!2029-10-12,1466,310!2028-12-01,1152,270!2026-04-28,180,326!2026-12-09,382,366!2026-12-04,378,366!2026-12-25,394,366!2026-12-02,376,366!2027-01-02,401,366!2027-01-09,407,366!2027-01-05,403,366!2027-01-09,407,366-->
 
 > [!example] examples
 >
@@ -41,6 +41,6 @@ To construct a decile-wise lift chart, {@{follow the same [instructions above](#
 
 ## interpretation
 
-For the normal lift chart, the baseline curve represents {@{the average lift curve of all possible classifiers}@}. Consider {@{the area enclosed between the model curve and the baseline curve}@}. Treat {@{all enclosed areas above the baseline curve as positive and below the baseline curve as negative}@}, which we will call {@{the _signed area_}@} here. Add {@{the signed areas together}@}. {@{The larger the signed area}@}, {@{the better the model at predicting the "success" value}@}, and vice versa. <!--SR:!2029-01-10,1277,318!2026-09-10,675,330!2028-04-21,966,290!2027-01-22,776,330!2026-08-29,665,330!2027-02-08,417,377!2026-01-30,19,347-->
+For the normal lift chart, the baseline curve represents {@{the average lift curve of all possible classifiers}@}. Consider {@{the area enclosed between the model curve and the baseline curve}@}. Treat {@{all enclosed areas above the baseline curve as positive and below the baseline curve as negative}@}, which we will call {@{the _signed area_}@} here. Add {@{the signed areas together}@}. {@{The larger the signed area}@}, {@{the better the model at predicting the "success" value}@}, and vice versa. <!--SR:!2029-01-10,1277,318!2026-09-10,675,330!2028-04-21,966,290!2027-01-22,776,330!2026-08-29,665,330!2027-02-08,417,377!2026-05-04,94,367-->
 
 For the decile-wise lift chart, the classifier is ideal when {@{the bars are maximum starting from the first decile, dropping off suddenly in one of the decile, and then zero for the rest of the deciles}@}. <!--SR:!2026-10-17,669,298-->

@@ -10,7 +10,7 @@ tags:
 
 # period (periodic table)
 
-A __period__ is {@{a row of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}@}. The elements have {@{the same number of occupied [electron shells](electron%20shell.md)}@}. <!--SR:!2027-03-16,1120,350!2026-01-19,780,330-->
+A __period__ is {@{a row of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}@}. The elements have {@{the same number of occupied [electron shells](electron%20shell.md)}@}. <!--SR:!2027-03-16,1120,350!2035-10-23,3549,350-->
 
 ## periodic trends
 

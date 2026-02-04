@@ -31,7 +31,7 @@ The expected value of a random variable _X_ is often denoted by {@{E\(_X_\), E\[
 
 ## history
 
-{@{The idea of the expected value}@} originated in {@{the middle of the 17th century from the study of the so-called [problem of points](problem%20of%20points.md)}@}, which {@{seeks to divide the stakes _in a fair way_ between two players}@}, who have to {@{end their game before it is properly finished}@}.<sup>[\[4\]](#^ref-4)</sup> This problem {@{had been debated for centuries}@}. {@{Many conflicting proposals and solutions had been suggested over the years}@} when it was posed to {@{[Blaise Pascal](Blaise%20Pascal.md) by French writer and amateur mathematician [Chevalier de Méré](Antoine%20Gombaud.md) in 1654}@}. Méré claimed that {@{this problem could not be solved}@} and that it showed {@{just how flawed mathematics was when it came to its application to the real world}@}. Pascal, {@{being a mathematician, was provoked and determined to solve the problem once and for all}@}. <!--SR:!2028-11-02,1092,350!2026-10-16,480,310!2029-06-27,1263,350!2029-06-26,1262,350!2028-08-15,1027,350!2029-07-12,1278,350!2027-12-08,793,307!2029-08-29,1324,350!2029-04-04,1210,350!2026-01-23,5,373-->
+{@{The idea of the expected value}@} originated in {@{the middle of the 17th century from the study of the so-called [problem of points](problem%20of%20points.md)}@}, which {@{seeks to divide the stakes _in a fair way_ between two players}@}, who have to {@{end their game before it is properly finished}@}.<sup>[\[4\]](#^ref-4)</sup> This problem {@{had been debated for centuries}@}. {@{Many conflicting proposals and solutions had been suggested over the years}@} when it was posed to {@{[Blaise Pascal](Blaise%20Pascal.md) by French writer and amateur mathematician [Chevalier de Méré](Antoine%20Gombaud.md) in 1654}@}. Méré claimed that {@{this problem could not be solved}@} and that it showed {@{just how flawed mathematics was when it came to its application to the real world}@}. Pascal, {@{being a mathematician, was provoked and determined to solve the problem once and for all}@}. <!--SR:!2028-11-02,1092,350!2026-10-16,480,310!2029-06-27,1263,350!2029-06-26,1262,350!2028-08-15,1027,350!2029-07-12,1278,350!2027-12-08,793,307!2029-08-29,1324,350!2029-04-04,1210,350!2026-02-21,27,393-->
 
 He {@{began to discuss the problem}@} in {@{the famous series of letters to [Pierre de Fermat](Pierre%20de%20Fermat.md)}@}. Soon enough, they {@{both independently came up with a solution}@}. They {@{solved the problem in different computational ways}@}, but {@{their results were identical because their computations were based on the same fundamental principle}@}. The principle is that {@{the value of a future gain should be directly proportional to the chance of getting it}@}. This principle seemed to {@{have come naturally to both of them}@}. They were {@{very pleased by the fact that they had found essentially the same solution}@}, and this in turn {@{made them absolutely convinced that they had solved the problem conclusively}@}; however, they {@{did not publish their findings}@}. They {@{only informed a small circle of mutual scientific friends in Paris about it}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-03-06,337,347!2029-05-31,1257,350!2029-01-18,1154,350!2028-09-07,1047,350!2026-11-20,526,327!2026-03-08,339,347!2029-05-17,1246,350!2027-11-30,814,330!2027-11-20,806,330!2029-05-23,1251,350!2028-11-05,1094,350-->
 
@@ -152,14 +152,14 @@ The following table gives {@{the expected values of some commonly occurring [pro
 > __flashcards__
 >
 > - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup>
->   - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Notation ::@:: $X\sim ~b(1,p)$ <!--SR:!2026-02-08,26,385!2026-02-04,24,385-->
+>   - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Notation ::@:: $X\sim ~b(1,p)$ <!--SR:!2026-02-08,26,385!2026-06-08,124,405-->
 >   - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Mean E\(X\) ::@:: $0\cdot (1-p)+1\cdot p=p$ <!--SR:!2026-02-06,26,385!2026-02-08,26,385-->
 > - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup>
->   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Notation ::@:: $X\sim B(n,p)$ <!--SR:!2026-02-04,24,385!2026-02-08,26,385-->
->   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{n}i{n \choose i}p^{i}(1-p)^{n-i}=np$ <!--SR:!2026-02-04,24,385!2026-02-08,26,385-->
+>   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Notation ::@:: $X\sim B(n,p)$ <!--SR:!2026-06-07,123,405!2026-02-08,26,385-->
+>   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{n}i{n \choose i}p^{i}(1-p)^{n-i}=np$ <!--SR:!2026-06-10,126,405!2026-02-08,26,385-->
 > - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup>
->   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Notation ::@:: $X\sim \mathrm {Po} (\lambda )$ <!--SR:!2026-02-08,26,385!2026-02-04,24,385-->
->   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{\infty }{\frac {ie^{-\lambda }\lambda ^{i} }{i!} }=\lambda$ <!--SR:!2026-02-04,24,385!2026-02-01,19,365-->
+>   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Notation ::@:: $X\sim \mathrm {Po} (\lambda )$ <!--SR:!2026-02-08,26,385!2026-06-07,123,405-->
+>   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{\infty }{\frac {ie^{-\lambda }\lambda ^{i} }{i!} }=\lambda$ <!--SR:!2026-06-12,128,405!2026-05-12,98,385-->
 > - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup>
 >   - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Notation ::@:: $X\sim \mathrm {Geometric} (p)$ \(shifted\) <!--SR:!2026-02-06,26,385!2026-02-05,25,385-->
 >   - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Mean E\(X\) ::@:: $\sum _{i=1}^{\infty }ip(1-p)^{i-1}={\frac {1}{p} }$ \(unshifted: $\frac {1 - p} p$\) <!--SR:!2026-02-08,26,385!2026-02-08,26,385-->
@@ -174,13 +174,13 @@ The following table gives {@{the expected values of some commonly occurring [pro
 >   - [Normal](normal%20distribution.md)<sup>[\[30\]](#^ref-30)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi \sigma ^{2} } } }\int _{-\infty }^{\infty }x\,e^{-{\frac {1}{2} }\left({\frac {x-\mu }{\sigma } }\right)^{2} }\,dx=\mu$ <!--SR:!2026-02-08,26,385!2026-02-08,26,385-->
 > - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup>
 >   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Notation ::@:: $X\sim N(0,1)$ <!--SR:!2026-02-06,26,385!2026-02-08,26,385-->
->   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }xe^{-x^{2}/2}\,dx=0$ <!--SR:!2026-02-04,24,385!2026-02-06,26,385-->
+>   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }xe^{-x^{2}/2}\,dx=0$ <!--SR:!2026-06-09,125,405!2026-02-06,26,385-->
 > - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup>
->   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$ <!--SR:!2026-02-04,24,385!2026-02-08,26,385-->
->   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$ <!--SR:!2026-02-08,26,385!2026-01-26,9,345-->
+>   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$ <!--SR:!2026-06-09,125,405!2026-02-08,26,385-->
+>   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$ <!--SR:!2026-02-08,26,385!2026-02-25,30,345-->
 > - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup>
 >   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Notation ::@:: $X\sim \mathrm {Cauchy} (x_{0},\gamma )$ <!--SR:!2026-02-08,26,385!2026-02-05,25,385-->
->   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\pi } }\int _{-\infty }^{\infty }{\frac {\gamma x}{(x-x_{0})^{2}+\gamma ^{2} } }\,dx$ is [undefined](indeterminate%20form.md) <!--SR:!2026-02-08,26,385!2026-01-30,19,365-->
+>   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\pi } }\int _{-\infty }^{\infty }{\frac {\gamma x}{(x-x_{0})^{2}+\gamma ^{2} } }\,dx$ is [undefined](indeterminate%20form.md) <!--SR:!2026-02-08,26,385!2026-05-11,97,385-->
 
 ## properties
 

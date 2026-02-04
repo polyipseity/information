@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::@:: 1994 <!--SR:!2027-05-10,766,336!2026-04-28,565,396-->
-- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2026-02-01,102,196!2028-04-08,948,376-->
+- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2026-08-16,196,196!2028-04-08,948,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -139,7 +139,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2028-10-05,1094,356!2026-04-26,540,396-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2027-08-02,832,376!2026-12-18,768,416-->
-- tomb for ::@:: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2026-01-21,457,376!2029-01-24,1358,396-->
+- tomb for ::@:: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2032-07-15,2359,396!2029-01-24,1358,396-->
 
 ## Great Wall of China
 
@@ -156,7 +156,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2028-05-14,1166,350-->
 - height ::@:: roof: 178.8 m <!--SR:!2026-02-15,158,201!2029-08-17,1563,370-->
-- image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2029-11-13,1622,400!2026-02-04,519,400-->
+- image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2029-11-13,1622,400!2033-11-01,2827,420-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2032-04-15,2367,421-->
 
 ## Hong Kong Convention and Exhibition Centre
@@ -221,7 +221,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - bridge type ::@:: cable-stayed road bridge <!--SR:!2026-07-26,642,396!2026-09-13,690,416-->
 - designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2029-07-29,1495,396!2027-01-26,801,416-->
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
-- height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2026-01-25,346,296!2026-12-05,758,416-->
+- height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2029-12-21,1422,316!2026-12-05,758,416-->
   - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2026-02-05,337,296!2026-02-17,488,396-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2031-11-19,2227,416-->
@@ -261,10 +261,10 @@ See [Parthenon](../../../../general/Parthenon.md).
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
+- bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2033-09-20,2791,421-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2033-09-04,2786,417-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2033-05-21,2688,420!2029-06-02,1487,400-->
-- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2026-01-19,208,200!2027-10-27,958,370-->
+- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2027-09-17,596,220!2027-10-27,958,370-->
 
 ## Sutong Yangtze River Bridge
 
@@ -288,7 +288,7 @@ See [Taipei 101](Taipei%20101.md).
 
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
-- [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2032-03-14,2347,417-->
+- [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2031-12-22,2153,361!2032-03-14,2347,417-->
 - height ::@:: 20.1 m <!--SR:!2026-05-25,489,281!2029-07-15,1409,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2033-02-04,2604,420-->
 - length ::@:: 520 m <!--SR:!2026-12-03,550,280!2026-09-13,645,330-->
@@ -306,8 +306,8 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
-- core part ::@:: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2026-01-31,469,327!2029-12-08,1627,390-->
-- length ::@:: 271 km <!--SR:!2028-09-27,1127,317!2026-01-30,525,397-->
+- core part ::@:: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2031-11-18,2116,347!2029-12-08,1627,390-->
+- length ::@:: 271 km <!--SR:!2028-09-27,1127,317!2033-11-16,2845,417-->
 
 ## Two Prudential Plaza
 
@@ -323,5 +323,5 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::@:: swimming center in Beijing, China <!--SR:!2029-01-23,1380,366!2032-12-01,2558,414-->
-- image ::@:: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2026-01-29,514,400!2026-03-27,561,400-->
+- image ::@:: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2033-10-04,2805,420!2026-03-27,561,400-->
 - shape ::@:: cube covered with bubbles <!--SR:!2028-11-16,1338,390!2027-08-03,945,350-->

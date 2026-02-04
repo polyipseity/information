@@ -168,9 +168,9 @@ risk reduction
 - brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2028-04-23,948,254-->
 - convenience or usability→::@::←cost reduction <!--SR:!2029-12-29,1505,294!2029-03-02,1213,277-->
 - cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2026-11-14,469,197-->
-- customization→::@::←design <!--SR:!2028-03-14,915,277!2026-01-27,426,254-->
+- customization→::@::←design <!--SR:!2028-03-14,915,277!2030-04-01,1523,274-->
 - design→::@::←newness <!--SR:!2027-08-08,822,277!2027-12-05,746,254-->
-- newness→::@::←performance <!--SR:!2026-02-01,312,277!2027-12-06,913,277-->
+- newness→::@::←performance <!--SR:!2029-05-22,1205,297!2027-12-06,913,277-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2029-07-23,1433,314-->
 - performing the job well→::@::←price <!--SR:!2030-07-28,1692,314!2026-03-24,455,274-->
 - price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2026-12-09,621,274-->
@@ -180,7 +180,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2029-09-18,1379,297!2029-09-22,1477,314!2026-01-28,17,331-->
+The channels building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2029-09-18,1379,297!2029-09-22,1477,314!2026-04-17,78,351-->
 
 #### customer relationships
 

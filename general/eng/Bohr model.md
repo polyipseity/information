@@ -14,7 +14,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-The __Bohr model__ or __{@{Rutherford–Bohr}@} model__ is {@{an [atom](atom.md) model}@} where {@{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}@}. They are attracted by {@{electrostatic forces}@}. It was presented by {@{[Niels Bohr](Niels%20Bohr.md)}@} and {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1913}@}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2026-01-27,565,190!2029-11-29,1767,310!2027-10-02,984,232!2026-02-12,826,332-->
+The __Bohr model__ or __{@{Rutherford–Bohr}@} model__ is {@{an [atom](atom.md) model}@} where {@{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}@}. They are attracted by {@{electrostatic forces}@}. It was presented by {@{[Niels Bohr](Niels%20Bohr.md)}@} and {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1913}@}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2030-04-18,1542,210!2029-11-29,1767,310!2027-10-02,984,232!2026-02-12,826,332-->
 
 The model gives almost exact results only when {@{two charged points orbit each other much slower than light}@}, like {@{an atom where one electron is far away from everything else}@}. <!--SR:!2028-04-16,1209,290!2029-08-28,1689,292-->
 
@@ -37,7 +37,7 @@ Substitute the equation into {@{the equation from the [second postulate](#^f5a73
 We can get the radius in terms of $n$:
 {@{$$r_n=\frac{\hbar^2 n^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}@}
 and energy in terms of $n$:
-{@{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}@} <!--SR:!2034-08-06,3239,334!2032-11-30,2540,314!2030-12-04,1913,274!2028-01-14,818,294!2027-12-16,1234,294!2030-07-28,1842,274!2029-07-22,1528,274!2026-01-31,144,130!2028-09-29,1170,254-->
+{@{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}@} <!--SR:!2034-08-06,3239,334!2032-11-30,2540,314!2030-12-04,1913,274!2028-01-14,818,294!2027-12-16,1234,294!2030-07-28,1842,274!2029-07-22,1528,274!2026-08-05,184,130!2028-09-29,1170,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {@{has about 13.6 eV less energy than a motionless electron infinitely far away}@}, which is also {@{the atom's [ionization energy](ionization%20energy.md)}@}. <!--SR:!2032-12-02,2596,299!2030-05-23,2007,319-->
 
@@ -48,7 +48,7 @@ The combination of natural constants in the energy formula is the {@{Rydberg ene
 
 The energy of a photon emitted by a hydrogen atom is:
 {@{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@}, where {@{$n_f$ is the final energy level and $n_i$ is the initial energy level}@}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {@{making inverse of the wavelength $\frac1\lambda$ the subject}@}, the resulting constant is the {@{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}@}:
-{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2035-01-17,3387,342!2026-01-26,836,322!2031-12-25,2428,322!2029-01-09,1489,302!2026-06-01,188,150-->
+{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2035-01-17,3387,342!2036-03-26,3711,342!2031-12-25,2428,322!2029-01-09,1489,302!2026-06-01,188,150-->
 
 ## limitations
 

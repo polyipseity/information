@@ -33,7 +33,7 @@ End If
 
 The semantics of `If...Then...Else...End If` is also obvious: {@{If the condition is `True`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}@} <!--SR:!2027-12-22,1081,341-->
 
-In VBA, one usually does not chain `If...Then...Else...End If`. Instead, VBA provides {@{the keyword `ElseIf...Then` so that `If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2026-01-26,487,301-->
+In VBA, one usually does not chain `If...Then...Else...End If`. Instead, VBA provides {@{the keyword `ElseIf...Then` so that `If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2031-08-25,2032,321-->
 
 ```VB
 If condition1 Then
@@ -99,7 +99,7 @@ For LoopVariable = start To end Step step ' `Step step` optional
 Next LoopVariable
 ```
 
-{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2026-01-22,4,329!2026-01-22,4,329!2026-01-22,4,329!2026-01-22,4,329!2026-01-22,4,329!2026-01-22,4,329!2026-01-22,4,329!2026-01-22,4,329!2026-01-22,4,329-->
+{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2026-02-18,18,349!2026-02-19,19,349!2026-02-18,18,349!2026-02-18,18,349!2026-02-19,19,349!2026-02-18,18,349!2026-02-19,19,349!2026-02-19,19,349!2026-02-19,19,349-->
 
 ### ending iteration early
 

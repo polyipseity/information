@@ -62,7 +62,7 @@ return await memorize_seq(
 - +: operate continuously, producing a stable supply of [electricity](electricity.md)→::@::←+: products, which consist of [water](water.md), are clean <!--SR:!2026-11-26,852,270!2029-06-06,1483,272-->
 - +: products, which consist of [water](water.md), are clean→::@::←-: expensive <!--SR:!2031-11-10,2193,292!2026-05-15,514,232-->
 - -: expensive→::@::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2027-04-25,912,250!2030-05-10,1802,332-->
-- -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→::@::←_(end)_ <!--SR:!2026-01-28,789,332!2030-02-20,1726,312-->
+- -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→::@::←_(end)_ <!--SR:!2035-12-18,3610,352!2030-02-20,1726,312-->
 
 <!--/pytextgen-->
 
@@ -95,7 +95,7 @@ return await memorize_seq(
 - _(begin)_→::@::←auxiliary heat and water source <!--SR:!2026-10-14,825,270!2028-04-27,1445,352-->
 - auxiliary heat and water source→::@::←backup power source <!--SR:!2032-09-30,2600,330!2026-05-20,875,332-->
 - backup power source→::@::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2030-12-15,1869,292!2031-06-22,2059,312-->
-- [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→::@::←remote power source <!--SR:!2027-06-04,962,292!2026-01-29,486,312-->
+- [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→::@::←remote power source <!--SR:!2027-06-04,962,292!2031-10-28,2098,332-->
 - remote power source→::@::←_(end)_ <!--SR:!2028-07-10,1508,355!2030-08-05,1966,315-->
 
 <!--/pytextgen-->

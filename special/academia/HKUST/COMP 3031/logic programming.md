@@ -18,13 +18,13 @@ tags:
 
 - see: [general/logic programming](../../../../general/logic%20programming.md)
 
-{@{__Logic programming__}@} treats {@{computation as deduction from logical facts and rules}@}. Rather than supplying {@{a concrete sequence of operations}@}, the programmer writes {@{declarative statements that describe _what_ is true}@}; {@{a Prolog-style interpreter}@} then searches for {@{solutions that satisfy those statements}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{__Logic programming__}@} treats {@{computation as deduction from logical facts and rules}@}. Rather than supplying {@{a concrete sequence of operations}@}, the programmer writes {@{declarative statements that describe _what_ is true}@}; {@{a Prolog-style interpreter}@} then searches for {@{solutions that satisfy those statements}@}. <!--SR:!2026-04-18,74,322!2026-04-14,70,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-15,73,322!2026-04-17,73,322-->
 
-{@{Typical programs}@} are expressed as {@{collections of clauses}@}. {@{A clause}@} can be read as “if {@{the conditions on its right hand side hold}@}, then {@{the conclusions on its left hand side follow}@}.” The interpreter explores {@{alternatives by backtracking, trying different substitutions until a goal is satisfied or all possibilities are exhausted}@}. {@{Unification}@} is {@{the core operation that matches patterns and binds variables consistently}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{Typical programs}@} are expressed as {@{collections of clauses}@}. {@{A clause}@} can be read as “if {@{the conditions on its right hand side hold}@}, then {@{the conclusions on its left hand side follow}@}.” The interpreter explores {@{alternatives by backtracking, trying different substitutions until a goal is satisfied or all possibilities are exhausted}@}. {@{Unification}@} is {@{the core operation that matches patterns and binds variables consistently}@}. <!--SR:!2026-04-17,73,322!2026-04-15,71,322!2026-04-12,70,322!2026-04-11,69,322!2026-04-14,70,322!2026-04-18,74,322!2026-04-13,69,322!2026-04-14,72,322-->
 
 ## Prolog
 
-{@{Prolog}@} is {@{the canonical language for this paradigm}@}. Its syntax is {@{minimal}@}: a program consists of {@{facts and rules written as predicates}@}. {@{A predicate}@} can be {@{called with arguments}@}; if any argument {@{starts with an uppercase letter}@} it denotes {@{a variable, otherwise it is a constant}@}. The following clause demonstrates {@{list concatenation}@}, where {@{`[...|...]`}@} is {@{the cons operator for lists}@}: <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{Prolog}@} is {@{the canonical language for this paradigm}@}. Its syntax is {@{minimal}@}: a program consists of {@{facts and rules written as predicates}@}. {@{A predicate}@} can be {@{called with arguments}@}; if any argument {@{starts with an uppercase letter}@} it denotes {@{a variable, otherwise it is a constant}@}. The following clause demonstrates {@{list concatenation}@}, where {@{`[...|...]`}@} is {@{the cons operator for lists}@}: <!--SR:!2026-04-18,74,322!2026-04-15,71,322!2026-04-13,69,322!2026-04-10,68,322!2026-04-11,69,322!2026-04-18,74,322!2026-04-17,73,322!2026-04-18,74,322!2026-04-14,72,322!2026-04-16,74,322!2026-04-18,74,322-->
 
 > [!example] __Prolog append rules__
 >
@@ -35,9 +35,9 @@ tags:
 > append([X|Xs], Ys, [X|Zs]) :- append(Xs, Ys, Zs).  // `Xs + Ys == Zs => X::Xs + Ys == X::Zs`
 > ```
 >
-> {@{A query such as `?- append([1,2], [3,4], X).`}@} yields {@{`X = [1,2,3,4]`}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+> {@{A query such as `?- append([1,2], [3,4], X).`}@} yields {@{`X = [1,2,3,4]`}@}. <!--SR:!2026-04-18,74,322!2026-04-13,69,322!2026-04-15,73,322!2026-04-14,72,322!2026-04-12,68,322!2026-04-13,69,322!2026-04-13,71,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-11,69,322!2026-04-15,71,322-->
 
-{@{The same logic}@} can be expressed in Scala using {@{pattern matching}@}: <!--SR:!2026-02-01,17,302!2026-02-03,17,302-->
+{@{The same logic}@} can be expressed in Scala using {@{pattern matching}@}: <!--SR:!2026-04-16,74,322!2026-04-18,74,322-->
 
 > [!example] __Scala append__
 >
@@ -51,13 +51,13 @@ tags:
 >   }
 > ```
 >
-> {@{The two Scala clauses}@} correspond to {@{the Prolog rules above}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+> {@{The two Scala clauses}@} correspond to {@{the Prolog rules above}@}. <!--SR:!2026-04-15,71,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-11,69,322-->
 
 ### Prolog basics
 
-In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@}; {@{variables}@} start with {@{an uppercase letter (e.g., `X`, `Ys`)}@}. {@{Lists}@} use {@{the cons notation `[Head|Tail]`}@}; {@{the empty list}@} is {@{written `[]`}@}. {@{A clause}@} consists of {@{a head and, optionally, a body separated by `:-`}@}. {@{The body may contain several goals}@} that are {@{_conjoined_ with commas}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-01-31,16,290!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@}; {@{variables}@} start with {@{an uppercase letter (e.g., `X`, `Ys`)}@}. {@{Lists}@} use {@{the cons notation `[Head|Tail]`}@}; {@{the empty list}@} is {@{written `[]`}@}. {@{A clause}@} consists of {@{a head and, optionally, a body separated by `:-`}@}. {@{The body may contain several goals}@} that are {@{_conjoined_ with commas}@}. <!--SR:!2026-04-15,73,322!2026-04-18,74,322!2026-04-14,72,322!2026-04-06,64,310!2026-04-16,74,322!2026-04-18,74,322!2026-04-12,70,322!2026-04-16,74,322!2026-04-16,74,322!2026-04-14,70,322!2026-04-16,72,322!2026-04-16,74,322!2026-04-12,70,322-->
 
-{@{A predicate}@} is defined by {@{one or more clauses}@}. {@{A _fact_}@} has {@{no body}@}: {@{`append([], Ys, Ys).`}@} declares that {@{concatenating the empty list with any `Ys` yields `Ys`}@}. {@{A _rule_}@} contains {@{a body}@}: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{A predicate}@} is defined by {@{one or more clauses}@}. {@{A _fact_}@} has {@{no body}@}: {@{`append([], Ys, Ys).`}@} declares that {@{concatenating the empty list with any `Ys` yields `Ys`}@}. {@{A _rule_}@} contains {@{a body}@}: <!--SR:!2026-04-12,70,322!2026-04-14,72,322!2026-04-16,74,322!2026-04-14,70,322!2026-04-15,73,322!2026-04-18,74,322!2026-04-16,74,322!2026-04-12,70,322-->
 
 > [!example] __Prolog append rule__
 >
@@ -67,11 +67,11 @@ In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@};
 > append([X|Xs], Ys, [X|Zs]) :- append(Xs, Ys, Zs).
 > ```
 >
-> {@{The symbol `:-`}@} reads {@{“_provided that_”}@}, i.e. {@{the head holds whenever its body succeeds}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+> {@{The symbol `:-`}@} reads {@{“_provided that_”}@}, i.e. {@{the head holds whenever its body succeeds}@}. <!--SR:!2026-04-15,73,322!2026-04-16,74,322!2026-04-15,71,322!2026-04-12,70,322!2026-04-13,71,322-->
 
-{@{The interpreter}@} treats {@{every clause as a _predicate_}@} that can be {@{true or false under some substitution of variables}@}. {@{Scala functions become predicates}@} when {@{an extra argument is added to carry the result}@}, e.g., {@{`append(List(1), List(2, 3)) == X`}@} corresponds to {@{`append([1], [2, 3], X)` in Prolog}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{The interpreter}@} treats {@{every clause as a _predicate_}@} that can be {@{true or false under some substitution of variables}@}. {@{Scala functions become predicates}@} when {@{an extra argument is added to carry the result}@}, e.g., {@{`append(List(1), List(2, 3)) == X`}@} corresponds to {@{`append([1], [2, 3], X)` in Prolog}@}. <!--SR:!2026-04-16,72,322!2026-04-11,69,322!2026-04-17,73,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-13,71,322-->
 
-{@{A _query_}@} is {@{a goal that the interpreter tries to satisfy}@}. The system {@{backtracks over all possible bindings and reports each solution}@}: <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{A _query_}@} is {@{a goal that the interpreter tries to satisfy}@}. The system {@{backtracks over all possible bindings and reports each solution}@}: <!--SR:!2026-04-18,74,322!2026-04-14,72,322!2026-04-17,73,322-->
 
 > [!example] __Prolog append query with multiple solutions__
 >
@@ -84,9 +84,9 @@ In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@};
 > X = [1,2]  , Y = [2]
 > X = [1,2,3], Y = []
 > ```
-<!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+<!--SR:!2026-04-18,74,322!2026-04-14,70,322!2026-04-18,74,322-->
 
-{@{Variables}@} may appear {@{on any side of the goal}@}; Prolog will generate {@{all admissible substitutions}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{Variables}@} may appear {@{on any side of the goal}@}; Prolog will generate {@{all admissible substitutions}@}. <!--SR:!2026-04-14,70,322!2026-04-14,70,322!2026-04-16,74,322-->
 
 > [!example] __Prolog append query with a solution schema__
 >
@@ -96,13 +96,13 @@ In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@};
 > ?- append([1], Y, Z)
 > Y = X, Z = [1|X]
 > ```
-<!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+<!--SR:!2026-04-18,74,322!2026-04-18,74,322!2026-04-15,71,322-->
 
-{@{This backtracking search performed by Prolog}@} is {@{the engine behind many logic-based applications}@} such as {@{expert systems and database queries}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{This backtracking search performed by Prolog}@} is {@{the engine behind many logic-based applications}@} such as {@{expert systems and database queries}@}. <!--SR:!2026-04-14,70,322!2026-04-16,74,322!2026-04-16,74,322-->
 
 ## deductive information retrieval
 
-{@{The Prolog interpreter}@} can be used {@{as a lightweight knowledge base}@}: facts are {@{stored as clauses}@}, and queries extract {@{information by searching through those facts with backtracking}@}. {@{A family-tree database}@} contains {@{a small set of facts describes relationships}@} such as {@{gender, marriage and parenthood}@}. For example: <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{The Prolog interpreter}@} can be used {@{as a lightweight knowledge base}@}: facts are {@{stored as clauses}@}, and queries extract {@{information by searching through those facts with backtracking}@}. {@{A family-tree database}@} contains {@{a small set of facts describes relationships}@} such as {@{gender, marriage and parenthood}@}. For example: <!--SR:!2026-04-16,72,322!2026-04-17,73,322!2026-04-17,73,322!2026-04-10,68,322!2026-04-10,68,322!2026-04-14,72,322!2026-04-18,74,322-->
 
 > [!example] __family facts__
 >
@@ -114,9 +114,9 @@ In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@};
 > ...
 > ```
 >
-> {@{These clauses}@} form {@{a static database that the interpreter can consult}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+> {@{These clauses}@} form {@{a static database that the interpreter can consult}@}. <!--SR:!2026-04-10,68,322!2026-04-18,74,322!2026-04-14,72,322!2026-04-14,72,322!2026-04-12,70,322-->
 
-{@{A simple query}@} is written as {@{a predicate followed by `?`}@}. The interpreter searches for {@{substitutions that satisfy the goal and prints each solution}@}. For instance <!--SR:!2026-02-01,17,302!2026-02-02,16,290!2026-02-03,17,302-->
+{@{A simple query}@} is written as {@{a predicate followed by `?`}@}. The interpreter searches for {@{substitutions that satisfy the goal and prints each solution}@}. For instance <!--SR:!2026-04-15,73,322!2026-04-09,65,310!2026-04-15,71,322-->
 
 > [!example] __simple query__
 >
@@ -131,9 +131,9 @@ In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@};
 > no
 > ```
 >
-> {@{The special command `more`}@} asks for {@{subsequent solutions}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+> {@{The special command `more`}@} asks for {@{subsequent solutions}@}. <!--SR:!2026-04-18,74,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-10,68,322!2026-04-18,74,322-->
 
-{@{New facts}@} can be inferred {@{from existing ones by adding rules}@}. A rule has {@{a head and a body separated by `:-`}@}. {@{The sibling relation}@}, for example, is defined {@{in terms of `child`}@}: <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{New facts}@} can be inferred {@{from existing ones by adding rules}@}. A rule has {@{a head and a body separated by `:-`}@}. {@{The sibling relation}@}, for example, is defined {@{in terms of `child`}@}: <!--SR:!2026-04-13,71,322!2026-04-18,74,322!2026-04-17,73,322!2026-04-18,74,322!2026-04-16,72,322-->
 
 > [!example] __sibling rule__
 >
@@ -150,9 +150,9 @@ In {@{Prolog}@} {@{every identifier}@} is {@{either a constant or a variable}@};
 > ?- sibling(peter, bob).   % → yes
 > ```
 >
-> produces {@{all common parents of the two people}@}, but with {@{self-match and duplicate matches}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+> produces {@{all common parents of the two people}@}, but with {@{self-match and duplicate matches}@}. <!--SR:!2026-04-10,68,322!2026-04-11,69,322!2026-04-14,72,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-16,72,322!2026-04-14,70,322-->
 
-Because the rule above also {@{matches a person with himself}@}, we add {@{a negative guard}@}: <!--SR:!2026-02-01,17,302!2026-02-01,17,302-->
+Because the rule above also {@{matches a person with himself}@}, we add {@{a negative guard}@}: <!--SR:!2026-04-15,73,322!2026-04-16,74,322-->
 
 > [!example] __sibling without self‑match__
 >
@@ -162,13 +162,13 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 > same(X, X).
 > sibling(X,Y) :- child(X,Z), child(Y,Z), not(same(X,Y)).
 > ```
-<!--SR:!2026-02-01,17,302!2026-02-01,17,302-->
+<!--SR:!2026-04-16,74,322!2026-04-11,69,322-->
 
-{@{The predicate `not(P)`}@} {@{succeeds only when the goal `P` fails}@}, which allows Prolog to {@{exclude unwanted solutions}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{The predicate `not(P)`}@} {@{succeeds only when the goal `P` fails}@}, which allows Prolog to {@{exclude unwanted solutions}@}. <!--SR:!2026-04-17,73,322!2026-04-14,72,322!2026-04-17,73,322-->
 
 ## negation as failure
 
-{@{_Negation as failure_ (NAF)}@} (there are {@{other ways to represent negation}@}, hence {@{the funny name}@}) is expressed in Prolog by {@{the predicate `not/1`}@}. It succeeds {@{only when its argument fails}@}, so it can be used to {@{exclude unwanted solutions}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{_Negation as failure_ (NAF)}@} (there are {@{other ways to represent negation}@}, hence {@{the funny name}@}) is expressed in Prolog by {@{the predicate `not/1`}@}. It succeeds {@{only when its argument fails}@}, so it can be used to {@{exclude unwanted solutions}@}. <!--SR:!2026-04-10,68,322!2026-04-17,73,322!2026-04-12,70,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-11,69,322-->
 
 > [!example] __same predicate__
 >
@@ -180,13 +180,13 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 > same(X,Y) :- sid(X,ID), sid(Y,ID).
 > ```
 >
-> allows {@{the query `same(bob,robert)?` to succeed}@}.  Before {@{the facts were present}@} it {@{would have failed}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+> allows {@{the query `same(bob,robert)?` to succeed}@}.  Before {@{the facts were present}@} it {@{would have failed}@}. <!--SR:!2026-04-13,71,322!2026-04-15,71,322!2026-04-15,71,322!2026-04-16,74,322-->
 
-{@{Negation}@} may {@{change earlier answers}@}: if {@{a new fact is added that makes a previously false goal true}@}, the interpreter will report {@{a different result on subsequent queries}@}. This property is known as {@{_non-monotonicity_}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{Negation}@} may {@{change earlier answers}@}: if {@{a new fact is added that makes a previously false goal true}@}, the interpreter will report {@{a different result on subsequent queries}@}. This property is known as {@{_non-monotonicity_}@}. <!--SR:!2026-04-16,72,322!2026-04-16,72,322!2026-04-16,74,322!2026-04-16,74,322!2026-04-11,69,322-->
 
 ## recursion
 
-{@{Rules}@} can refer to {@{themselves, directly or indirectly}@}, enabling {@{recursion}@}. For example: <!--SR:!2026-02-02,16,290!2026-02-01,17,302!2026-02-03,17,302-->
+{@{Rules}@} can refer to {@{themselves, directly or indirectly}@}, enabling {@{recursion}@}. For example: <!--SR:!2026-04-10,66,310!2026-04-10,68,322!2026-04-18,74,322-->
 
 > [!example] __ancestor rule__
 >
@@ -198,13 +198,13 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 > ancestor(X,Y) :- parent(X,Z), ancestor(Z,Y).
 > ```
 >
-> {@{The third clause}@} is {@{recursive}@} and allows the interpreter to {@{discover arbitrary-depth ancestry}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+> {@{The third clause}@} is {@{recursive}@} and allows the interpreter to {@{discover arbitrary-depth ancestry}@}. <!--SR:!2026-04-17,73,322!2026-04-16,74,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-12,68,322!2026-04-14,70,322-->
 
-{@{Recursive rules}@} give {@{logic programming a power that most database query languages lack}@}. They enable reasoning about {@{hierarchical or transitive relations such as `ancestor`}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{Recursive rules}@} give {@{logic programming a power that most database query languages lack}@}. They enable reasoning about {@{hierarchical or transitive relations such as `ancestor`}@}. <!--SR:!2026-04-15,71,322!2026-04-18,74,322!2026-04-16,74,322-->
 
 ## representation
 
-{@{A term}@} is {@{an algebraic data type with two constructors}@}: {@{`Var` for variables and `Constr` for compound terms}@}. In Scala this can be modelled as: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{A term}@} is {@{an algebraic data type with two constructors}@}: {@{`Var` for variables and `Constr` for compound terms}@}. In Scala this can be modelled as: <!--SR:!2026-04-16,74,322!2026-04-14,72,322!2026-04-16,74,322-->
 
 > [!example] __term representation__
 >
@@ -216,9 +216,9 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 > case class Constr(name:String, args:List[Term]) extends Term
 > ```
 >
-> {@{A variable `X`}@} is represented by {@{`Var("X")`}@}. {@{The list constructor `cons(X,nil)`}@} becomes {@{`Constr("cons", List(Var("X"), Constr("nil", Nil)))`}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+> {@{A variable `X`}@} is represented by {@{`Var("X")`}@}. {@{The list constructor `cons(X,nil)`}@} becomes {@{`Constr("cons", List(Var("X"), Constr("nil", Nil)))`}@}. <!--SR:!2026-04-14,72,322!2026-04-14,72,322!2026-04-15,71,322!2026-04-14,72,322!2026-04-14,72,322!2026-04-14,72,322!2026-04-15,71,322-->
 
-{@{A variable `X`}@} is represented by {@{`Var("X")`}@}. {@{The list constructor `cons(X,nil)`}@} becomes {@{`Constr("cons", List(Var("X"), Constr("nil", Nil)))`}@}. {@{`Term.freeVars`}@} returns {@{a list of all the names of the type variables of the term}@}, e.g., {@{`["X"]`}@} in {@{`cons(X, nil)`}@}. {@{A substitution}@} is {@{a finite map from variable names to terms}@}. It can be expressed as: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{A variable `X`}@} is represented by {@{`Var("X")`}@}. {@{The list constructor `cons(X,nil)`}@} becomes {@{`Constr("cons", List(Var("X"), Constr("nil", Nil)))`}@}. {@{`Term.freeVars`}@} returns {@{a list of all the names of the type variables of the term}@}, e.g., {@{`["X"]`}@} in {@{`cons(X, nil)`}@}. {@{A substitution}@} is {@{a finite map from variable names to terms}@}. It can be expressed as: <!--SR:!2026-04-13,71,322!2026-04-12,70,322!2026-04-15,71,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-10,68,322!2026-04-18,74,322!2026-04-15,73,322!2026-04-16,72,322!2026-04-16,72,322-->
 
 > [!example] __substitution representation__
 >
@@ -229,9 +229,9 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 > type Subst   = List[Binding]
 > ```
 >
-> {@{A helper `lookup`}@} retrieves {@{the term bound to a name, if any}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+> {@{A helper `lookup`}@} retrieves {@{the term bound to a name, if any}@}. <!--SR:!2026-04-16,74,322!2026-04-11,69,322!2026-04-15,73,322!2026-04-16,74,322-->
 
-{@{A helper `lookup`}@} retrieves {@{the term bound to a name, if any}@}. {@{The substitution map}@} is applied {@{to a term by the method `map`}@}. Its definition in Scala follows: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{A helper `lookup`}@} retrieves {@{the term bound to a name, if any}@}. {@{The substitution map}@} is applied {@{to a term by the method `map`}@}. Its definition in Scala follows: <!--SR:!2026-04-10,68,322!2026-04-11,69,322!2026-04-18,74,322!2026-04-13,71,322-->
 
 > [!example] __substitution map implementation__
 >
@@ -249,15 +249,15 @@ Because the rule above also {@{matches a person with himself}@}, we add {@{a neg
 >   }
 > }
 > ```
-<!--SR:!2026-02-03,17,302!2026-02-02,16,290-->
+<!--SR:!2026-04-18,74,322!2026-04-11,67,310-->
 
-{@{The substitution map function}@} interprets {@{a substitution as an idempotent map on terms}@}: {@{`∀t, σ(σ(t)) = σ(t)`}@}, so {@{applying the same substitution twice does not change the result}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{The substitution map function}@} interprets {@{a substitution as an idempotent map on terms}@}: {@{`∀t, σ(σ(t)) = σ(t)`}@}, so {@{applying the same substitution twice does not change the result}@}. <!--SR:!2026-04-12,70,322!2026-04-16,72,322!2026-04-18,74,322!2026-04-16,74,322-->
 
 ## asymmetric unification
 
-In this section, {@{a "pattern"}@} refers to {@{a term that may contain variables}@}, whereas {@{a "term"}@} refers to {@{a term that must not contain variables}@}. Normally (and outside this section), both are {@{simply called "terms"}@}. <!--SR:!2026-02-02,18,322!2026-02-02,18,322!2026-02-04,18,322!2026-02-04,18,322!2026-02-02,18,322-->
+In this section, {@{a "pattern"}@} refers to {@{a term that may contain variables}@}, whereas {@{a "term"}@} refers to {@{a term that must not contain variables}@}. Normally (and outside this section), both are {@{simply called "terms"}@}. <!--SR:!2026-04-26,82,342!2026-04-25,81,342!2026-04-28,83,342!2026-04-28,83,342!2026-04-24,80,342-->
 
-{@{The core of pattern-matching logic programming}@} is expressed by {@{two mutually recursive functions}@}: {@{`pmatch` and its helper `pmatchLists`}@}. `pmatch` takes {@{a _pattern_ (a term that may contain variables)}@}, {@{another _term_ that must not contain variables (hence "_asymmetric_")}@}, and {@{an existing substitution `s`}@}. It returns {@{`Some(s')` if the pattern matches the term under the current substitution `s`}@} or {@{`None` otherwise}@}, where `s'` is {@{the _most general_ substitution that is an extension of `s`}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{The core of pattern-matching logic programming}@} is expressed by {@{two mutually recursive functions}@}: {@{`pmatch` and its helper `pmatchLists`}@}. `pmatch` takes {@{a _pattern_ (a term that may contain variables)}@}, {@{another _term_ that must not contain variables (hence "_asymmetric_")}@}, and {@{an existing substitution `s`}@}. It returns {@{`Some(s')` if the pattern matches the term under the current substitution `s`}@} or {@{`None` otherwise}@}, where `s'` is {@{the _most general_ substitution that is an extension of `s`}@}. <!--SR:!2026-04-15,71,322!2026-04-11,69,322!2026-04-16,74,322!2026-04-15,73,322!2026-04-12,70,322!2026-04-16,74,322!2026-04-16,74,322!2026-04-16,74,322!2026-04-18,74,322-->
 
 > [!example] __`pmatch`__
 >
@@ -277,9 +277,9 @@ In this section, {@{a "pattern"}@} refers to {@{a term that may contain variable
 >   }
 > ```
 >
-> {@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+> {@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. <!--SR:!2026-04-12,68,322!2026-04-16,74,322!2026-04-16,74,322!2026-04-12,70,322!2026-04-13,71,322!2026-04-15,71,322!2026-04-17,73,322!2026-04-15,71,322!2026-04-16,72,322!2026-04-18,74,322!2026-04-15,73,322!2026-04-17,73,322!2026-04-18,74,322!2026-04-10,68,322-->
 
-{@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. It succeeds only if {@{all corresponding pairs unify under the current substitution and the two lists have equal length}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-02,16,290!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. It succeeds only if {@{all corresponding pairs unify under the current substitution and the two lists have equal length}@}. <!--SR:!2026-04-16,74,322!2026-04-15,71,322!2026-04-14,72,322!2026-04-14,72,322!2026-04-14,70,322!2026-04-08,64,310!2026-04-18,74,322!2026-04-18,74,322!2026-04-16,74,322-->
 
 > [!example] __`pmatchLists`__
 >
@@ -296,21 +296,21 @@ In this section, {@{a "pattern"}@} refers to {@{a term that may contain variable
 >   }
 > ```
 >
-> The implementation uses pattern matching on the pair of lists; when one list ends before the other a `None` is returned.  Successful matches are accumulated by chaining the substitutions with `flatMap` from left to right. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->  
+> The implementation uses pattern matching on the pair of lists; when one list ends before the other a `None` is returned.  Successful matches are accumulated by chaining the substitutions with `flatMap` from left to right. <!--SR:!2026-04-18,74,322!2026-04-18,74,322!2026-04-17,73,322!2026-04-14,70,322-->  
 
-{@{The implementation}@} uses {@{pattern matching on the pair of lists}@}; when {@{one list ends before the other a `None` is returned}@}. {@{Successful matches are accumulated}@} by chaining {@{the substitutions with `flatMap` from left to right}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{The implementation}@} uses {@{pattern matching on the pair of lists}@}; when {@{one list ends before the other a `None` is returned}@}. {@{Successful matches are accumulated}@} by chaining {@{the substitutions with `flatMap` from left to right}@}. <!--SR:!2026-04-18,74,322!2026-04-17,73,322!2026-04-14,70,322!2026-04-11,69,322!2026-04-16,74,322-->
 
-{@{These two functions, `pmatch` and `pmatchLists`}@}, realise {@{(first-order) _unification_ between patterns and terms}@}, which underpins {@{the whole logic programming interpreter in Scala}@}. Below shows how this may be {@{extended to unification between first-order patterns}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{These two functions, `pmatch` and `pmatchLists`}@}, realise {@{(first-order) _unification_ between patterns and terms}@}, which underpins {@{the whole logic programming interpreter in Scala}@}. Below shows how this may be {@{extended to unification between first-order patterns}@}. <!--SR:!2026-04-15,71,322!2026-04-17,73,322!2026-04-11,69,322!2026-04-14,70,322-->
 
 ## unification
 
-{@{(First-order) _unification_}@} is {@{the symmetric extension of pattern matching}@} that allows {@{variables to appear on both sides of a rule head}@}. It searches for {@{the _most general_ substitution σ such that applying σ to each term yields identical terms}@}: given {@{the current substitution `s`}@}, find {@{the _most general_ substitution `s'` that is an extension of `s` such that `x.map(s')` matches `y.map(s')`}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{(First-order) _unification_}@} is {@{the symmetric extension of pattern matching}@} that allows {@{variables to appear on both sides of a rule head}@}. It searches for {@{the _most general_ substitution σ such that applying σ to each term yields identical terms}@}: given {@{the current substitution `s`}@}, find {@{the _most general_ substitution `s'` that is an extension of `s` such that `x.map(s')` matches `y.map(s')`}@}. <!--SR:!2026-04-17,73,322!2026-04-15,71,322!2026-04-11,69,322!2026-04-11,69,322!2026-04-10,68,322!2026-04-15,71,322-->
 
-{@{Unification becomes essential}@} when a rule head contains {@{variables that must be matched against the arguments of a query or another rule}@}. For instance, {@{the clause `sibling(X, Y) :- child(X, Z), child(Y, Z), not(same(X, Y))`}@} cannot be applied to {@{the query `sibling(peter, U)?`}@} unless the variables `X` and `Y` are {@{first respectively unified with `peter` and an unknown `U`}@}. {@{The unification algorithm}@} produces {@{substitutions `[X=peter, Y=U]`}@}, which then allows {@{the body goals to be evaluated}@}. Without {@{this symmetric matching step}@}, Prolog would not be able to {@{connect a generic rule head to a concrete query}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{Unification becomes essential}@} when a rule head contains {@{variables that must be matched against the arguments of a query or another rule}@}. For instance, {@{the clause `sibling(X, Y) :- child(X, Z), child(Y, Z), not(same(X, Y))`}@} cannot be applied to {@{the query `sibling(peter, U)?`}@} unless the variables `X` and `Y` are {@{first respectively unified with `peter` and an unknown `U`}@}. {@{The unification algorithm}@} produces {@{substitutions `[X=peter, Y=U]`}@}, which then allows {@{the body goals to be evaluated}@}. Without {@{this symmetric matching step}@}, Prolog would not be able to {@{connect a generic rule head to a concrete query}@}. <!--SR:!2026-04-17,73,322!2026-04-13,69,322!2026-04-16,74,322!2026-04-17,73,322!2026-04-16,72,322!2026-04-14,72,322!2026-04-10,68,322!2026-04-14,70,322!2026-04-17,73,322!2026-04-16,74,322-->
 
-When {@{infinite terms are disallowed}@}, unification must also reject {@{ill-formed bindings that would create infinite terms}@}; for instance {@{`unify(X, cons(1, X))` fails}@} because {@{no finite term `X` satisfies the equation}@}. {@{The infinite term representing an infinite list of 1s}@} would have satisfied `X`. {@{Finite terms composed of variables and constructors}@} are called {@{_Herbrand terms_, named after the logician Jacques Herbrand}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+When {@{infinite terms are disallowed}@}, unification must also reject {@{ill-formed bindings that would create infinite terms}@}; for instance {@{`unify(X, cons(1, X))` fails}@} because {@{no finite term `X` satisfies the equation}@}. {@{The infinite term representing an infinite list of 1s}@} would have satisfied `X`. {@{Finite terms composed of variables and constructors}@} are called {@{_Herbrand terms_, named after the logician Jacques Herbrand}@}. <!--SR:!2026-04-11,69,322!2026-04-14,72,322!2026-04-14,70,322!2026-04-14,70,322!2026-04-16,74,322!2026-04-15,73,322!2026-04-11,69,322-->
 
-{@{The `unify` algorithm}@} follows {@{the same recursive structure as `pmatch`}@}, but _additionally_, unifies {@{two equal variables}@}, swaps {@{the arguments when one side is a variable}@} and performs {@{an _occurrence check_ to avoid infinite bindings}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{The `unify` algorithm}@} follows {@{the same recursive structure as `pmatch`}@}, but _additionally_, unifies {@{two equal variables}@}, swaps {@{the arguments when one side is a variable}@} and performs {@{an _occurrence check_ to avoid infinite bindings}@}. <!--SR:!2026-04-14,72,322!2026-04-13,71,322!2026-04-16,72,322!2026-04-18,74,322!2026-04-16,72,322-->
 
 > [!example] __unify function__
 >
@@ -333,9 +333,9 @@ When {@{infinite terms are disallowed}@}, unification must also reject {@{ill-fo
 > }
 > ```
 >
-> {@{The helper `unifyLists`}@} recursively matches {@{two lists of sub-terms}@} and propagates {@{the accumulated substitution from left to right}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+> {@{The helper `unifyLists`}@} recursively matches {@{two lists of sub-terms}@} and propagates {@{the accumulated substitution from left to right}@}. <!--SR:!2026-04-11,69,322!2026-04-16,74,322!2026-04-15,71,322!2026-04-10,68,322!2026-04-15,73,322!2026-04-12,70,322!2026-04-18,74,322!2026-04-12,68,322-->
 
-{@{The helper `unifyLists`}@} recursively matches {@{two lists of sub-terms}@} and propagates {@{the accumulated substitution from left to right}@}. Below are some examples of {@{running `unify`}@}: <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{The helper `unifyLists`}@} recursively matches {@{two lists of sub-terms}@} and propagates {@{the accumulated substitution from left to right}@}. Below are some examples of {@{running `unify`}@}: <!--SR:!2026-04-13,69,322!2026-04-16,74,322!2026-04-17,73,322!2026-04-18,74,322-->
 
 > [!example] __`unify` examples__
 >
@@ -348,11 +348,11 @@ When {@{infinite terms are disallowed}@}, unification must also reject {@{ill-fo
 > unify(X, cons(1, X))                    = <failure>
 > ```
 >
-> In the last case, {@{the attempted binding `X = cons(1, X)`}@} would create {@{an infinite tree}@}; {@{the occurrence check rejects it}@}. When {@{the check is omitted}@}, a Prolog interpreter may {@{loop instead of failing}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+> In the last case, {@{the attempted binding `X = cons(1, X)`}@} would create {@{an infinite tree}@}; {@{the occurrence check rejects it}@}. When {@{the check is omitted}@}, a Prolog interpreter may {@{loop instead of failing}@}. <!--SR:!2026-04-16,74,322!2026-04-17,73,322!2026-04-13,69,322!2026-04-13,69,322!2026-04-15,73,322!2026-04-15,71,322-->
 
 ### complexity of unification
 
-When {@{the occurrence check is omitted}@}, the algorithm visits {@{each node of both terms once}@}, giving {@{a linear-time bound in the size of the input}@}. {@{The resulting most general unifier}@} can, however, {@{grow exponentially}@} because {@{repeated substitutions may duplicate sub-terms}@}. Even though {@{the result can be huge}@}, the implementation shares {@{trees rather than copying them}@}, so the time spent is {@{still proportional to the size of the two arguments}@}. The following unification demonstrates how {@{an exponential-size most general unifier can be produced}@} while the algorithm remains {@{linear in the input size}@}: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-02,16,290!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+When {@{the occurrence check is omitted}@}, the algorithm visits {@{each node of both terms once}@}, giving {@{a linear-time bound in the size of the input}@}. {@{The resulting most general unifier}@} can, however, {@{grow exponentially}@} because {@{repeated substitutions may duplicate sub-terms}@}. Even though {@{the result can be huge}@}, the implementation shares {@{trees rather than copying them}@}, so the time spent is {@{still proportional to the size of the two arguments}@}. The following unification demonstrates how {@{an exponential-size most general unifier can be produced}@} while the algorithm remains {@{linear in the input size}@}: <!--SR:!2026-04-16,74,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-14,72,322!2026-04-11,69,322!2026-04-18,74,322!2026-04-06,62,310!2026-04-11,69,322!2026-04-15,71,322!2026-04-12,70,322!2026-04-12,70,322-->
 
 > [!example] __unifying two nested sequences__
 >
@@ -366,15 +366,15 @@ When {@{the occurrence check is omitted}@}, the algorithm visits {@{each node of
 > % Y2 = d(X3, X3)
 > ```
 >
-> {@{The computed most general unifier}@} is {@{deeply nested}@}. Its length grows {@{exponentially with the depth of the sequences}@}, yet the unification procedure still {@{processes each input node only once}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+> {@{The computed most general unifier}@} is {@{deeply nested}@}. Its length grows {@{exponentially with the depth of the sequences}@}, yet the unification procedure still {@{processes each input node only once}@}. <!--SR:!2026-04-12,70,322!2026-04-18,74,322!2026-04-10,68,322!2026-04-14,70,322!2026-04-15,71,322!2026-04-16,72,322-->
 
-If {@{the occurrence check is performed naively}@}, each subtree may be {@{traversed many times}@}, yielding {@{a worst-case exponential complexity}@}. By {@{marking already visited sub-terms}@} the test becomes {@{linear in the number of nodes}@}, so the overall unification algorithm becomes {@{quadratic}@}; with {@{more sophisticated data structures}@} the overall unification algorithm can reach {@{$O(n\log n)$}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+If {@{the occurrence check is performed naively}@}, each subtree may be {@{traversed many times}@}, yielding {@{a worst-case exponential complexity}@}. By {@{marking already visited sub-terms}@} the test becomes {@{linear in the number of nodes}@}, so the overall unification algorithm becomes {@{quadratic}@}; with {@{more sophisticated data structures}@} the overall unification algorithm can reach {@{$O(n\log n)$}@}. <!--SR:!2026-04-14,72,322!2026-04-11,69,322!2026-04-12,68,322!2026-04-12,70,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-13,71,322-->
 
-Unfortunately, {@{most practical Prolog systems}@} skip {@{the occurrence check to avoid this overhead}@}. This is fine if {@{infinite terms are allowed}@}, such as {@{_Prolog 3_, also developed by Colmerauer}@}. However, most other Prolog interpreters disallow {@{infinite terms}@}; and when a variable that {@{appears inside its own binding is introduced}@}, they may behave {@{unpredictably or loop infinitely}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+Unfortunately, {@{most practical Prolog systems}@} skip {@{the occurrence check to avoid this overhead}@}. This is fine if {@{infinite terms are allowed}@}, such as {@{_Prolog 3_, also developed by Colmerauer}@}. However, most other Prolog interpreters disallow {@{infinite terms}@}; and when a variable that {@{appears inside its own binding is introduced}@}, they may behave {@{unpredictably or loop infinitely}@}. <!--SR:!2026-04-16,74,322!2026-04-14,72,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-11,69,322!2026-04-10,68,322!2026-04-14,70,322-->
 
 ## backtracking
 
-{@{Prolog clause}@} has {@{a head and an optional body separated by `:-`}@}. The interpreter processes {@{clauses sequentially}@}: for {@{every goal}@} it tries to {@{unify the first predicate with a clause head}@}. If {@{unification succeeds, the body is evaluated}@}; otherwise {@{the next clause is tried}@}. When {@{no clause matches, the query fails}@}. For example: <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{Prolog clause}@} has {@{a head and an optional body separated by `:-`}@}. The interpreter processes {@{clauses sequentially}@}: for {@{every goal}@} it tries to {@{unify the first predicate with a clause head}@}. If {@{unification succeeds, the body is evaluated}@}; otherwise {@{the next clause is tried}@}. When {@{no clause matches, the query fails}@}. For example: <!--SR:!2026-04-17,73,322!2026-04-11,69,322!2026-04-16,72,322!2026-04-13,71,322!2026-04-12,68,322!2026-04-12,70,322!2026-04-15,73,322!2026-04-16,72,322-->
 
 > [!example] __Prolog append rule and backtracking__
 >
@@ -385,13 +385,13 @@ Unfortunately, {@{most practical Prolog systems}@} skip {@{the occurrence check 
 > append([X|Xs], Ys, [X|Zs]) :- append(Xs, Ys, Zs).  % rule
 > ```
 >
-> {@{A query `?- append([1], [2,3], X).`}@} forces the interpreter to {@{try the two clauses in order}@}. The first clause fails because {@{`[1]` does not unify with `[]`}@}. The second succeeds after {@{recursively unifying the head and then the body}@}; {@{backtracking stops}@} as soon as {@{a solution is found}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-01-30,15,290!2026-02-01,17,302!2026-02-03,17,302-->
+> {@{A query `?- append([1], [2,3], X).`}@} forces the interpreter to {@{try the two clauses in order}@}. The first clause fails because {@{`[1]` does not unify with `[]`}@}. The second succeeds after {@{recursively unifying the head and then the body}@}; {@{backtracking stops}@} as soon as {@{a solution is found}@}. <!--SR:!2026-04-12,68,322!2026-04-16,72,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-12,70,322!2026-04-11,69,322!2026-04-14,70,322!2026-04-14,70,322!2026-04-12,70,322!2026-04-03,63,310!2026-04-10,68,322!2026-04-18,74,322-->
 
-Unification binds {@{variables consistently across all parts of the goal in the _most general_ way}@}, enabling Prolog to search for {@{any assignment that satisfies the whole query}@}. When {@{several clauses match}@}, the interpreter explores {@{each alternative in turn, yielding multiple solutions if they exist}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+Unification binds {@{variables consistently across all parts of the goal in the _most general_ way}@}, enabling Prolog to search for {@{any assignment that satisfies the whole query}@}. When {@{several clauses match}@}, the interpreter explores {@{each alternative in turn, yielding multiple solutions if they exist}@}. <!--SR:!2026-04-15,71,322!2026-04-18,74,322!2026-04-12,70,322!2026-04-10,68,322-->
 
 ### backtracking implementation
 
-To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we can return {@{_all solutions as a lazy list_}@}. Each failure becomes {@{an empty list}@}, while {@{a successful derivation yields at least one element}@}. The search for {@{paths in an acyclic graph illustrates this idea}@}: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we can return {@{_all solutions as a lazy list_}@}. Each failure becomes {@{an empty list}@}, while {@{a successful derivation yields at least one element}@}. The search for {@{paths in an acyclic graph illustrates this idea}@}: <!--SR:!2026-04-16,74,322!2026-04-10,68,322!2026-04-14,70,322!2026-04-18,74,322!2026-04-14,70,322!2026-04-13,71,322-->
 
 > [!example] __paths with lazy list__
 >
@@ -406,11 +406,11 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 >   } yield x :: p
 > ```
 >
-> {@{The `flatMap` in the for-comprehension}@} concatenates {@{the lists of solutions from each successor}@}, giving {@{a lazy stream of all possible paths between `x` and `y`}@}. Because {@{the list is lazy}@}, new paths are {@{generated only when requested}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-02,16,290!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+> {@{The `flatMap` in the for-comprehension}@} concatenates {@{the lists of solutions from each successor}@}, giving {@{a lazy stream of all possible paths between `x` and `y`}@}. Because {@{the list is lazy}@}, new paths are {@{generated only when requested}@}. <!--SR:!2026-04-18,74,322!2026-04-16,72,322!2026-04-16,72,322!2026-04-12,70,322!2026-04-15,71,322!2026-04-16,74,322!2026-04-12,70,322!2026-04-05,61,310!2026-04-14,70,322!2026-04-16,72,322!2026-04-10,68,322-->
 
 ## implementation
 
-{@{The core routine that turns a Prolog query into answers}@} is {@{the `solve` function}@}. It produces {@{a lazy list of substitutions, one per solution}@}. Its public signature is <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{The core routine that turns a Prolog query into answers}@} is {@{the `solve` function}@}. It produces {@{a lazy list of substitutions, one per solution}@}. Its public signature is <!--SR:!2026-04-18,74,322!2026-04-17,73,322!2026-04-15,73,322-->
 
 > [!example] __`solve` signature__
 >
@@ -419,9 +419,9 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 > ```Scala
 > def solve(query: List[Term], clauses: List[Clause]): LazyList[Subst]
 > ```
-<!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+<!--SR:!2026-04-18,74,322!2026-04-16,74,322!2026-04-15,73,322-->
 
-{@{A Prolog clause}@} is stored as {@{a head and a body}@}. Because a clause may be {@{reused many times during a derivation}@}, each use must see {@{fresh variables}@}. {@{The `Clause` class}@} generates {@{new variable names on demand}@}: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{A Prolog clause}@} is stored as {@{a head and a body}@}. Because a clause may be {@{reused many times during a derivation}@}, each use must see {@{fresh variables}@}. {@{The `Clause` class}@} generates {@{new variable names on demand}@}: <!--SR:!2026-04-16,74,322!2026-04-14,72,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-15,73,322!2026-04-15,73,322-->
 
 > [!example] __`Clause`__
 >
@@ -437,9 +437,9 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 > }
 > ```
 >
-> {@{`newInstance`}@} replaces {@{every free variable in the clause body with a fresh copy}@}, ensuring that {@{different uses of the same rule do not interfere}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+> {@{`newInstance`}@} replaces {@{every free variable in the clause body with a fresh copy}@}, ensuring that {@{different uses of the same rule do not interfere}@}. <!--SR:!2026-04-16,72,322!2026-04-10,68,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-16,74,322!2026-04-15,73,322!2026-04-14,70,322-->
 
-{@{The `solve` implementation}@} delegates to {@{a recursive helper `solveRec`}@} that keeps {@{the current substitution and the remaining part of the query}@}. {@{A successful match}@} yields {@{a substitution that is then passed on to the rest of the goal}@}. {@{The recursive routine that performs backtracking}@} is defined inside {@{the public `solve` method}@} so it can see {@{the list of clauses supplied by the caller}@}: <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-02,16,290!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{The `solve` implementation}@} delegates to {@{a recursive helper `solveRec`}@} that keeps {@{the current substitution and the remaining part of the query}@}. {@{A successful match}@} yields {@{a substitution that is then passed on to the rest of the goal}@}. {@{The recursive routine that performs backtracking}@} is defined inside {@{the public `solve` method}@} so it can see {@{the list of clauses supplied by the caller}@}: <!--SR:!2026-04-15,73,322!2026-04-13,71,322!2026-04-14,70,322!2026-04-14,72,322!2026-04-07,63,310!2026-04-14,70,322!2026-04-13,71,322!2026-04-11,69,322-->
 
 > [!example] __`solveRec` implementation__
 >
@@ -458,9 +458,9 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 > }
 > ```
 >
-> {@{The helper `tryClause`}@} is responsible for attempting to use {@{a single clause against the current goal}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+> {@{The helper `tryClause`}@} is responsible for attempting to use {@{a single clause against the current goal}@}. <!--SR:!2026-04-13,69,322!2026-04-16,72,322!2026-04-15,73,322!2026-04-15,71,322!2026-04-18,74,322!2026-04-13,71,322!2026-04-13,69,322!2026-04-18,74,322-->
 
-{@{The helper `tryClause`}@} is responsible for attempting to use {@{a single clause against the current goal}@}. It first tries to unify {@{the head of the clause with the goal term under the present substitution}@}. If {@{unification succeeds}@}, it returns {@{all substitutions that arise from recursively solving the clause’s body}@}; otherwise it yields {@{an empty lazy list}@} so that {@{backtracking can move on to the next rule}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+{@{The helper `tryClause`}@} is responsible for attempting to use {@{a single clause against the current goal}@}. It first tries to unify {@{the head of the clause with the goal term under the present substitution}@}. If {@{unification succeeds}@}, it returns {@{all substitutions that arise from recursively solving the clause’s body}@}; otherwise it yields {@{an empty lazy list}@} so that {@{backtracking can move on to the next rule}@}. <!--SR:!2026-04-17,73,322!2026-04-18,74,322!2026-04-13,71,322!2026-04-12,70,322!2026-04-16,74,322!2026-04-13,71,322!2026-04-17,73,322-->
 
 > [!example] __`tryClause`__
 >
@@ -474,9 +474,9 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 >   }
 > ```
 >
-> {@{The `unify` function}@} produces {@{an optional substitution}@}; {@{the pattern matching}@} above converts that into {@{a lazy list of solutions}@}. If {@{the clause cannot be applied}@}, {@{`LazyList.empty`}@} represents {@{a dead-end in the search tree}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+> {@{The `unify` function}@} produces {@{an optional substitution}@}; {@{the pattern matching}@} above converts that into {@{a lazy list of solutions}@}. If {@{the clause cannot be applied}@}, {@{`LazyList.empty`}@} represents {@{a dead-end in the search tree}@}. <!--SR:!2026-04-12,70,322!2026-04-16,72,322!2026-04-10,68,322!2026-04-18,74,322!2026-04-15,71,322!2026-04-13,71,322!2026-04-15,73,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-15,71,322!2026-04-12,70,322!2026-04-16,72,322-->
 
-{@{Negation as failure (`not(P)`)}@} is handled by {@{trying to solve the sub-goal and checking if it succeeds}@}. If {@{it fails, `not` succeeds}@}; otherwise {@{`not` fails}@}: <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{Negation as failure (`not(P)`)}@} is handled by {@{trying to solve the sub-goal and checking if it succeeds}@}. If {@{it fails, `not` succeeds}@}; otherwise {@{`not` fails}@}: <!--SR:!2026-04-10,68,322!2026-04-16,72,322!2026-04-15,71,322!2026-04-18,74,322-->
 
 > [!example] __negation handling__
 >
@@ -491,15 +491,15 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 >   // ...
 > ```
 >
-> {@{This simple rule}@} turns {@{the presence of a failure into a success and vice-versa}@}, allowing classical logic programming to be {@{expressed in the same framework}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-01-31,16,290!2026-02-01,17,302-->
+> {@{This simple rule}@} turns {@{the presence of a failure into a success and vice-versa}@}, allowing classical logic programming to be {@{expressed in the same framework}@}. <!--SR:!2026-04-14,70,322!2026-04-15,73,322!2026-04-12,70,322!2026-04-18,74,322!2026-04-13,71,322!2026-04-09,67,310!2026-04-15,73,322-->
 
 ## formal reasoning
 
-{@{Logic programming}@} can be viewed as {@{a form of deductive computation}@}. A Prolog program is {@{a set of clauses that act like logical axioms}@}; {@{a query is true}@} when it follows {@{from those axioms by repeated application of the unification rule}@}. In this view, the interpreter should return {@{substitutions that make the goal a logical consequence of the program}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{Logic programming}@} can be viewed as {@{a form of deductive computation}@}. A Prolog program is {@{a set of clauses that act like logical axioms}@}; {@{a query is true}@} when it follows {@{from those axioms by repeated application of the unification rule}@}. In this view, the interpreter should return {@{substitutions that make the goal a logical consequence of the program}@}. <!--SR:!2026-04-18,74,322!2026-04-14,70,322!2026-04-15,73,322!2026-04-16,74,322!2026-04-17,73,322!2026-04-13,71,322-->
 
 ### soundness
 
-{@{Unification in most Prolog implementations}@} ignores {@{the _occurrence check_}@}, so terms may be bound to {@{structures that contain themselves}@}. This permits answers that are not {@{genuine solutions when infinite terms are disallowed}@}. For instance, with the rules: <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{Unification in most Prolog implementations}@} ignores {@{the _occurrence check_}@}, so terms may be bound to {@{structures that contain themselves}@}. This permits answers that are not {@{genuine solutions when infinite terms are disallowed}@}. For instance, with the rules: <!--SR:!2026-04-18,74,322!2026-04-16,72,322!2026-04-16,74,322!2026-04-12,70,322-->
 
 > [!example] __`same/2` and `strangeNum/1`__
 >
@@ -510,13 +510,13 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 > strangeNum(X) :- same(X,succ(X)).
 > ```
 >
-> In {@{some Prolog interpreter without the occurrence check}@}, {@{querying `?- strangeNum(X).`}@} succeeds with {@{`[X = succ(X)]`, which is disallowed}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+> In {@{some Prolog interpreter without the occurrence check}@}, {@{querying `?- strangeNum(X).`}@} succeeds with {@{`[X = succ(X)]`, which is disallowed}@}. <!--SR:!2026-04-12,70,322!2026-04-15,73,322!2026-04-18,74,322!2026-04-14,72,322!2026-04-18,74,322!2026-04-15,73,322!2026-04-11,69,322-->
 
-{@{The omission of the occurrence check}@} therefore makes the interpreter {@{_unsound_}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302-->
+{@{The omission of the occurrence check}@} therefore makes the interpreter {@{_unsound_}@}. <!--SR:!2026-04-16,74,322!2026-04-18,74,322-->
 
 ### completeness
 
-{@{Even a sound interpreter}@} can miss {@{solutions (i.e. _incomplete_) because it typically uses depth-first search}@}. With {@{a graph containing a cycle}@}, {@{the recursion never terminates}@}: <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{Even a sound interpreter}@} can miss {@{solutions (i.e. _incomplete_) because it typically uses depth-first search}@}. With {@{a graph containing a cycle}@}, {@{the recursion never terminates}@}: <!--SR:!2026-04-12,68,322!2026-04-14,70,322!2026-04-18,74,322!2026-04-16,72,322-->
 
 > [!example] __`path/2` with a cycle__
 >
@@ -528,17 +528,17 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 > path(X,Y) :- successor(X,Z), path(Z,Y).
 > ```
 >
-> {@{Query `?- path(a,c).`}@} follows the loop: {@{`path(a,c)` → `successor(a,b), path(b,c)` → `path(b, c)` → `successor(b, a), path(a, c)` → `path(a, c)` → ... → stack overflow}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+> {@{Query `?- path(a,c).`}@} follows the loop: {@{`path(a,c)` → `successor(a,b), path(b,c)` → `path(b, c)` → `successor(b, a), path(a, c)` → `path(a, c)` → ... → stack overflow}@}. <!--SR:!2026-04-16,74,322!2026-04-16,72,322!2026-04-18,74,322!2026-04-15,73,322-->
 
-{@{The recursive helper `solveRec`}@} continually tries {@{the same clause without detecting that the current goal has already been explored}@}, so it never {@{backtracks to a different branch}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+{@{The recursive helper `solveRec`}@} continually tries {@{the same clause without detecting that the current goal has already been explored}@}, so it never {@{backtracks to a different branch}@}. <!--SR:!2026-04-16,74,322!2026-04-13,71,322!2026-04-10,68,322-->
 
-A common remedy is to detect {@{repeated goals and stop recursion when a cycle is detected}@}. This works {@{for simple cycles but fails in general}@} because {@{new instances of clauses introduce fresh variables, making the set of possible goals unbounded}@}. An alternative is to replace {@{depth-first search by breadth-first search}@}: it guarantees that {@{every reachable goal is examined}@}, but it uses {@{far more memory and still may diverge on infinite derivations}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302-->
+A common remedy is to detect {@{repeated goals and stop recursion when a cycle is detected}@}. This works {@{for simple cycles but fails in general}@} because {@{new instances of clauses introduce fresh variables, making the set of possible goals unbounded}@}. An alternative is to replace {@{depth-first search by breadth-first search}@}: it guarantees that {@{every reachable goal is examined}@}, but it uses {@{far more memory and still may diverge on infinite derivations}@}. <!--SR:!2026-04-10,68,322!2026-04-11,69,322!2026-04-16,72,322!2026-04-16,74,322!2026-04-14,72,322!2026-04-12,70,322-->
 
-In practice, Prolog programmers must order {@{clauses carefully}@} and avoid {@{rules that can lead to non-terminating searches}@}. {@{The formal reasoning behind these behaviours}@} explains why the interpreter’s results are only {@{an _approximation_ of pure logical consequence}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+In practice, Prolog programmers must order {@{clauses carefully}@} and avoid {@{rules that can lead to non-terminating searches}@}. {@{The formal reasoning behind these behaviours}@} explains why the interpreter’s results are only {@{an _approximation_ of pure logical consequence}@}. <!--SR:!2026-04-12,68,322!2026-04-14,70,322!2026-04-17,73,322!2026-04-16,74,322-->
 
 ### problems with negation
 
-{@{The `not` predicate}@}, defined as {@{failure as negation}@}, requires {@{the _closed-world assumption_}@}: {@{a goal succeeds if and only if its body can be proven}@}; conversely, {@{unproven goals are false}@}. With {@{only concrete terms this is harmless}@}, but it can lead to {@{unexpected behaviour when variables remain free}@}. For instance, in the program <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{The `not` predicate}@}, defined as {@{failure as negation}@}, requires {@{the _closed-world assumption_}@}: {@{a goal succeeds if and only if its body can be proven}@}; conversely, {@{unproven goals are false}@}. With {@{only concrete terms this is harmless}@}, but it can lead to {@{unexpected behaviour when variables remain free}@}. For instance, in the program <!--SR:!2026-04-16,72,322!2026-04-16,74,322!2026-04-14,72,322!2026-04-18,74,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-15,71,322-->
 
 > [!example] __dietary rules__
 >
@@ -554,11 +554,11 @@ In practice, Prolog programmers must order {@{clauses carefully}@} and avoid {@{
 > healthy(X) :- not(junkFood(X)).
 > ```
 >
-> {@{`junkFood(hamburger)?`}@} succeeds correctly, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X, hamburger), junkFood(X)?` succeeds correctly}@}. <!--SR:!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+> {@{`junkFood(hamburger)?`}@} succeeds correctly, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X, hamburger), junkFood(X)?` succeeds correctly}@}. <!--SR:!2026-04-16,74,322!2026-04-17,73,322!2026-04-17,73,322!2026-04-15,71,322!2026-04-18,74,322!2026-04-10,68,322!2026-04-15,73,322!2026-04-12,70,322!2026-04-18,74,322!2026-04-17,73,322-->
 
-{@{`junkFood(hamburger)?`}@} succeeds correctly, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X, hamburger), junkFood(X)?` succeeds correctly}@}. In {@{the two problematic cases}@}, the interpreter cannot {@{discover that _hamburger_ is a possible junk food when the variable remains free}@}. In {@{the last case}@}, by {@{first unifying with the substitution `[X = hamburger]`}@}, the interpreter {@{_can_ find that _hamburger_ is a possible junk food}@}. These cases show that {@{negation causes _incompleteness_}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-03,17,302-->
+{@{`junkFood(hamburger)?`}@} succeeds correctly, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X, hamburger), junkFood(X)?` succeeds correctly}@}. In {@{the two problematic cases}@}, the interpreter cannot {@{discover that _hamburger_ is a possible junk food when the variable remains free}@}. In {@{the last case}@}, by {@{first unifying with the substitution `[X = hamburger]`}@}, the interpreter {@{_can_ find that _hamburger_ is a possible junk food}@}. These cases show that {@{negation causes _incompleteness_}@}. <!--SR:!2026-04-18,74,322!2026-04-15,73,322!2026-04-18,74,322!2026-04-14,72,322!2026-04-15,73,322!2026-04-16,72,322!2026-04-15,71,322!2026-04-17,73,322!2026-04-18,74,322-->
 
-{@{Adding another negation}@} (`healthy/1` {@{negates `junkFood/1`}@}) turns the situation around {@{from incompleteness to _unsoundness_}@}: <!--SR:!2026-01-29,14,290!2026-02-01,17,302!2026-02-01,17,302-->
+{@{Adding another negation}@} (`healthy/1` {@{negates `junkFood/1`}@}) turns the situation around {@{from incompleteness to _unsoundness_}@}: <!--SR:!2026-03-28,58,310!2026-04-14,72,322!2026-04-13,71,322-->
 
 > [!example] __re‑ordering of negations__
 >
@@ -569,8 +569,8 @@ In practice, Prolog programmers must order {@{clauses carefully}@} and avoid {@{
 > ?- healthy(X), same(X, hamburger).  % succeeds with X = hamburger, which is unsound
 > ```
 >
-> {@{The second query}@} does not {@{instantiate `X` before evaluating `not(junkFood(X))`}@}, so {@{`junkFood(X)` is false and `healthy(X)` is true}@}, eventually producing a result that is {@{not a logical consequence of the program}@}. This shows that Prolog’s negation is {@{not true logical negation}@}. <!--SR:!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302!2026-02-03,17,302-->
+> {@{The second query}@} does not {@{instantiate `X` before evaluating `not(junkFood(X))`}@}, so {@{`junkFood(X)` is false and `healthy(X)` is true}@}, eventually producing a result that is {@{not a logical consequence of the program}@}. This shows that Prolog’s negation is {@{not true logical negation}@}. <!--SR:!2026-04-14,70,322!2026-04-16,72,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-10,68,322!2026-04-18,74,322!2026-04-16,74,322!2026-04-17,73,322-->
 
-This shows that Prolog’s negation is {@{not true logical negation}@}. These limitations motivate {@{careful clause ordering and the use of advanced negation constructs}@} when {@{expressive power is required}@}. Modern dialects replace {@{`not` by predicates such as `dif(A, B)`}@}, {@{the proper negation of `same(A, B)`}@}. {@{`dif/2`}@} performs {@{a _constraint_ that succeeds only when it can be shown that two terms are different}@}; it delays {@{the test until enough information is available}@}, avoiding {@{unsoundness and most (but not all) completeness problems}@}. <!--SR:!2026-02-03,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+This shows that Prolog’s negation is {@{not true logical negation}@}. These limitations motivate {@{careful clause ordering and the use of advanced negation constructs}@} when {@{expressive power is required}@}. Modern dialects replace {@{`not` by predicates such as `dif(A, B)`}@}, {@{the proper negation of `same(A, B)`}@}. {@{`dif/2`}@} performs {@{a _constraint_ that succeeds only when it can be shown that two terms are different}@}; it delays {@{the test until enough information is available}@}, avoiding {@{unsoundness and most (but not all) completeness problems}@}. <!--SR:!2026-04-17,73,322!2026-04-13,71,322!2026-04-11,69,322!2026-04-10,68,322!2026-04-16,74,322!2026-04-13,71,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-13,71,322-->
 
-{@{An alternative approach}@} is to {@{forbid negation altogether or restrict it by stratification}@}, yielding {@{Datalog-style programs that guarantee termination}@}. {@{Datalog}@} is at the core of {@{many database theories and implementations}@}. <!--SR:!2026-02-01,17,302!2026-02-01,17,302!2026-02-03,17,302!2026-02-03,17,302!2026-02-01,17,302-->
+{@{An alternative approach}@} is to {@{forbid negation altogether or restrict it by stratification}@}, yielding {@{Datalog-style programs that guarantee termination}@}. {@{Datalog}@} is at the core of {@{many database theories and implementations}@}. <!--SR:!2026-04-13,71,322!2026-04-10,68,322!2026-04-18,74,322!2026-04-18,74,322!2026-04-13,71,322-->

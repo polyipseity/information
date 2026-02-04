@@ -18,13 +18,13 @@ tags:
 # standard score
 
 - "{@{Standardize}@}" redirects here. For {@{industrial and technical standards}@}, see {@{[Standardization](standardization.md)}@}.
-- "{@{Z-score}@}" redirects here. For other uses, see [Z-score \(disambiguation\)](z-score%20(disambiguation).md). <!--SR:!2029-01-21,1129,350!2029-03-13,1164,350!2029-01-04,1116,350!2026-01-29,281,330-->
+- "{@{Z-score}@}" redirects here. For other uses, see [Z-score \(disambiguation\)](z-score%20(disambiguation).md). <!--SR:!2029-01-21,1129,350!2029-03-13,1164,350!2029-01-04,1116,350!2029-08-03,1281,350-->
 
 > {@{![Comparison of the various grading methods in a [normal distribution](normal%20distribution.md), including: [standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)](../../archives/Wikimedia%20Commons/The%20Normal%20Distribution.svg)}@}
 >
-> Comparison of {@{the various grading methods in a [normal distribution](normal%20distribution.md)}@}, including: {@{[standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)}@} <!--SR:!2026-01-22,275,330!2026-01-28,280,330!2026-01-21,275,330-->
+> Comparison of {@{the various grading methods in a [normal distribution](normal%20distribution.md)}@}, including: {@{[standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)}@} <!--SR:!2029-06-30,1255,350!2029-07-21,1268,350!2029-06-25,1250,350-->
 
-In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\)}@} is {@{above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean}@} have {@{positive standard scores}@}, while those {@{below the mean have negative standard scores}@}. <!--SR:!2029-02-19,1142,350!2029-06-07,1236,350!2028-03-07,812,330!2026-01-29,281,330!2029-05-01,1201,350!2026-01-27,23,373!2026-01-28,24,373-->
+In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\)}@} is {@{above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean}@} have {@{positive standard scores}@}, while those {@{below the mean have negative standard scores}@}. <!--SR:!2029-02-19,1142,350!2029-06-07,1236,350!2028-03-07,812,330!2029-08-04,1282,350!2029-05-01,1201,350!2026-05-31,121,393!2026-06-02,123,393-->
 
 It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\). <!--SR:!2026-02-12,292,330!2029-01-16,1126,350!2029-05-15,1215,350!2029-02-23,1146,350!2029-02-17,1140,350-->
 
@@ -34,16 +34,16 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 
 ## calculation
 
-If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where: <!--SR:!2026-02-11,291,330!2026-01-29,281,330!2026-01-23,5,361-->
+If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where: <!--SR:!2026-02-11,291,330!2029-07-29,1276,350!2026-02-18,26,381-->
 
-- _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2029-03-01,1152,350!2026-01-22,275,330-->
+- _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2029-03-01,1152,350!2029-06-26,1251,350-->
 - _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2026-02-14,294,330!2029-05-09,1209,350-->
 
-{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2029-01-24,1132,350!2026-02-05,286,330!2029-06-01,1232,350!2026-01-22,276,330-->
+{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2029-01-24,1132,350!2026-02-05,286,330!2029-06-01,1232,350!2029-07-05,1260,350-->
 
-{@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, knowing {@{the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}. <!--SR:!2026-01-22,275,330!2029-03-14,1165,350!2026-01-31,282,330!2026-01-22,275,330!2026-02-04,285,330-->
+{@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, knowing {@{the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}. <!--SR:!2029-06-27,1252,350!2029-03-14,1165,350!2029-08-15,1290,350!2029-06-24,1249,350!2029-08-24,1297,350-->
 
-When {@{the population mean and the population standard deviation}@} are unknown, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2028-12-06,1092,350!2026-02-03,285,330!2028-01-02,816,330-->
+When {@{the population mean and the population standard deviation}@} are unknown, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2028-12-06,1092,350!2029-08-28,1302,350!2028-01-02,816,330-->
 
 In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where: <!--SR:!2028-12-24,1107,350-->
 
@@ -58,15 +58,15 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 - Main article: [Z-test](Z-test.md)
 
-{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2026-01-19,273,330!2029-03-19,1170,350!2026-02-10,290,330!2029-03-03,1154,350!2026-02-08,289,330!2026-01-23,5,361-->
+{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2029-06-14,1239,350!2029-03-19,1170,350!2026-02-10,290,330!2029-03-03,1154,350!2026-02-08,289,330!2026-02-16,24,381-->
 
 ### prediction intervals
 
-{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2029-03-05,1156,350!2029-05-27,1227,350!2026-01-22,276,330!2029-02-01,1138,350!2028-03-23,863,330!2026-02-14,294,330!2027-03-20,543,310!2027-12-04,791,330!2029-01-20,1129,350-->
+{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2029-03-05,1156,350!2029-05-27,1227,350!2029-07-06,1261,350!2029-02-01,1138,350!2028-03-23,863,330!2026-02-14,294,330!2027-03-20,543,310!2027-12-04,791,330!2029-01-20,1129,350-->
 
 ### process control
 
-In {@{process control applications}@}, the Z value provides {@{an assessment of the degree to which a process is operating off-target}@}. <!--SR:!2026-01-22,275,330!2026-01-27,279,330-->
+In {@{process control applications}@}, the Z value provides {@{an assessment of the degree to which a process is operating off-target}@}. <!--SR:!2029-06-28,1253,350!2029-07-22,1269,350-->
 
 ### comparison of scores measured on different scales: ACT and SAT
 
@@ -74,7 +74,7 @@ In {@{process control applications}@}, the Z value provides {@{an assessment of 
 >
 > {@{The _z_ score for Student A was 1}@}, meaning Student A was {@{1 standard deviation above the mean}@}. Thus, Student A {@{performed in the 84.13 percentile on the SAT}@}. <!--SR:!2029-05-19,1219,350!2028-12-13,1097,350!2028-05-04,896,330!2029-04-28,1198,350-->
 
-When {@{scores are measured on different scales}@}, they may be {@{converted to z-scores to aid comparison}@}. Dietz et al.<sup>[\[9\]](#^ref-9)</sup> give the following example, comparing {@{student scores on the \(old\) [SAT](SAT.md) and [ACT](ACT%20(test).md) high school tests}@}. The table shows {@{the mean and standard deviation for total scores on the SAT and ACT}@}. Suppose that student A scored 1800 on the SAT, and student B scored 24 on the ACT. Which {@{student performed better relative to other test-takers}@}? <!--SR:!2026-01-22,276,330!2029-03-09,1160,350!2029-02-26,1149,350!2026-01-22,275,330!2029-01-16,1125,350-->
+When {@{scores are measured on different scales}@}, they may be {@{converted to z-scores to aid comparison}@}. Dietz et al.<sup>[\[9\]](#^ref-9)</sup> give the following example, comparing {@{student scores on the \(old\) [SAT](SAT.md) and [ACT](ACT%20(test).md) high school tests}@}. The table shows {@{the mean and standard deviation for total scores on the SAT and ACT}@}. Suppose that student A scored 1800 on the SAT, and student B scored 24 on the ACT. Which {@{student performed better relative to other test-takers}@}? <!--SR:!2029-07-07,1262,350!2029-03-09,1160,350!2029-02-26,1149,350!2029-06-21,1246,350!2029-01-16,1125,350-->
 
 |                        | SAT  | ACT |
 |:----------------------:| ---- | --- |
@@ -83,7 +83,7 @@ When {@{scores are measured on different scales}@}, they may be {@{converted to 
 
 > {@{![_z_ score (0.6) for student A shown on a standard normal distribution graph](../../archives/Wikimedia%20Commons/Z%20score%20for%20Student%20B.png)}@}
 >
-> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2026-02-06,287,330!2029-02-11,1148,350!2026-02-02,284,330!2027-08-15,710,330-->
+> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2026-02-06,287,330!2029-02-11,1148,350!2029-08-22,1297,350!2027-08-15,710,330-->
 
 The z-score for student A is $z={x-\mu  \over \sigma }={1800-1500 \over 300}=1$
 
@@ -93,37 +93,37 @@ Because student A {@{has a higher z-score than student B}@}, student A {@{perfor
 
 ### percentage of observations below a z-score
 
-Continuing {@{the example of ACT and SAT scores}@}, if it can be {@{further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md)}@} \(which is {@{approximately correct}@}\), then the z-scores may be used to calculate {@{the percentage of test-takers who received lower scores than students A and B}@}. <!--SR:!2026-01-25,277,330!2029-02-20,1143,350!2029-03-22,1173,350!2026-01-23,5,361-->
+Continuing {@{the example of ACT and SAT scores}@}, if it can be {@{further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md)}@} \(which is {@{approximately correct}@}\), then the z-scores may be used to calculate {@{the percentage of test-takers who received lower scores than students A and B}@}. <!--SR:!2029-07-18,1265,350!2029-02-20,1143,350!2029-03-22,1173,350!2026-02-17,25,381-->
 
 ### cluster analysis and multidimensional scaling
 
-"For {@{some multivariate techniques such as multidimensional scaling and cluster analysis}@}, {@{the concept of distance between the units in the data}@} is often {@{of considerable interest and importance}@}… When {@{the variables in a multivariate data set are on different scales}@}, it makes {@{more sense to calculate the distances after some form of standardization}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-01-28,280,330!2028-12-31,1113,350!2029-01-29,1136,350!2029-03-30,1181,350!2029-04-05,1187,350-->
+"For {@{some multivariate techniques such as multidimensional scaling and cluster analysis}@}, {@{the concept of distance between the units in the data}@} is often {@{of considerable interest and importance}@}… When {@{the variables in a multivariate data set are on different scales}@}, it makes {@{more sense to calculate the distances after some form of standardization}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-07-24,1271,350!2028-12-31,1113,350!2029-01-29,1136,350!2029-03-30,1181,350!2029-04-05,1187,350-->
 
 ### principal components analysis
 
-In {@{principal components analysis}@}, "{@{Variables measured on different scales or on a common scale with widely differing ranges}@} are {@{often standardized}@}."<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2029-03-12,1163,350!2029-03-29,1180,350!2026-02-03,285,330-->
+In {@{principal components analysis}@}, "{@{Variables measured on different scales or on a common scale with widely differing ranges}@} are {@{often standardized}@}."<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2029-03-12,1163,350!2029-03-29,1180,350!2029-08-27,1301,350-->
 
 ### relative importance of variables in multiple regression: standardized regression coefficients
 
 {@{Standardization of variables prior to [multiple regression analysis](multiple%20regression%20analysis.md)}@} is sometimes {@{used as an aid to interpretation}@}.<sup>[\[12\]](#^ref-12)</sup> \(page 95\) state the following. <!--SR:!2029-04-02,1184,350!2027-01-27,532,310-->
 
-"{@{The standardized regression slope}@} is {@{the slope in the regression equation if X and Y are standardized}@} … {@{Standardization of X and Y}@} is done by {@{subtracting the respective means from each set of observations and dividing by the respective standard deviations}@} … In {@{multiple regression, where several X variables are used}@}, {@{the standardized regression coefficients}@} {@{quantify the relative contribution of each X variable}@}." <!--SR:!2029-04-29,1199,350!2026-02-13,293,330!2026-02-01,283,330!2026-01-22,275,330!2027-12-22,805,330!2029-05-08,1208,350!2028-12-25,1108,350-->
+"{@{The standardized regression slope}@} is {@{the slope in the regression equation if X and Y are standardized}@} … {@{Standardization of X and Y}@} is done by {@{subtracting the respective means from each set of observations and dividing by the respective standard deviations}@} … In {@{multiple regression, where several X variables are used}@}, {@{the standardized regression coefficients}@} {@{quantify the relative contribution of each X variable}@}." <!--SR:!2029-04-29,1199,350!2026-02-13,293,330!2029-08-16,1291,350!2029-06-29,1254,350!2027-12-22,805,330!2029-05-08,1208,350!2028-12-25,1108,350-->
 
-However, Kutner et al.<sup>[\[13\]](#^ref-13)</sup> \(p 278\) give {@{the following caveat}@}: "… one must be {@{cautious about interpreting any regression coefficients, whether standardized or not}@}. The reason is that when {@{the predictor variables are correlated among themselves}@}, … the regression coefficients are {@{affected by the other predictor variables in the model}@} … {@{The magnitudes of the standardized regression coefficients}@} are affected {@{not only by the presence of correlations among the predictor variables}@} but {@{also by the spacings of the observations on each of these variables}@}. Sometimes {@{these spacings may be quite arbitrary}@}. Hence, it is {@{ordinarily not wise to interpret the magnitudes of standardized regression coefficients}@} as {@{reflecting the comparative importance of the predictor variables}@}." <!--SR:!2026-02-04,285,330!2029-03-04,1155,350!2029-05-20,1220,350!2027-06-26,669,330!2029-03-18,1169,350!2026-02-09,290,330!2028-12-12,1097,350!2029-04-30,1200,350!2026-01-29,281,330!2026-01-20,274,330-->
+However, Kutner et al.<sup>[\[13\]](#^ref-13)</sup> \(p 278\) give {@{the following caveat}@}: "… one must be {@{cautious about interpreting any regression coefficients, whether standardized or not}@}. The reason is that when {@{the predictor variables are correlated among themselves}@}, … the regression coefficients are {@{affected by the other predictor variables in the model}@} … {@{The magnitudes of the standardized regression coefficients}@} are affected {@{not only by the presence of correlations among the predictor variables}@} but {@{also by the spacings of the observations on each of these variables}@}. Sometimes {@{these spacings may be quite arbitrary}@}. Hence, it is {@{ordinarily not wise to interpret the magnitudes of standardized regression coefficients}@} as {@{reflecting the comparative importance of the predictor variables}@}." <!--SR:!2029-08-23,1296,350!2029-03-04,1155,350!2029-05-20,1220,350!2027-06-26,669,330!2029-03-18,1169,350!2026-02-09,290,330!2028-12-12,1097,350!2029-04-30,1200,350!2029-08-05,1283,350!2029-06-22,1247,350-->
 
 ## standardizing in mathematical statistics
 
 - Further information: [Normalization \(statistics\)](normalization%20(statistics).md)
 
-In {@{[mathematical statistics](mathematical%20statistics.md)}@}, {@{a [random variable](random%20variable.md) _X_ is __standardized__}@} by {@{subtracting its [expected value](expected%20value.md) $\operatorname {E} [X]$ and dividing the difference by its [standard deviation](standard%20deviation.md) $\sigma (X)={\sqrt {\operatorname {Var} (X)} }$}@}: {@{$$Z={X-\operatorname {E} [X] \over \sigma (X)}$$}@} If the random variable under consideration is {@{the [sample mean](sample%20mean.md) of a random sample $\ X_{1},\dots ,X_{n}$ of _X_}@}: {@{$${\bar {X} }={1 \over n}\sum _{i=1}^{n}X_{i}$$}@} then the standardized version is {@{$$Z={\frac { {\bar {X} }-\operatorname {E} [{\bar {X} }]}{\sigma (X)/{\sqrt {n} } } }$$ (annotation: the denominator is the uncorrected standard deviation of $\overline X$)}@} Where {@{the standardised sample mean's variance was calculated}@} as follows: {@{$${\begin{array}{l}\operatorname {Var} \left(\sum x_{i}\right)=\sum \operatorname {Var} (x_{i})=n\operatorname {Var} (x_{i})=n\sigma ^{2}\\\operatorname {Var} ({\overline {X} })=\operatorname {Var} \left({\frac {\sum x_{i} }{n} }\right)={\frac {1}{n^{2} } }\operatorname {Var} \left(\sum x_{i}\right)={\frac {n\sigma ^{2} }{n^{2} } }={\frac {\sigma ^{2} }{n} }\end{array} }$$}@} <!--SR:!2026-02-13,293,330!2029-04-25,1195,350!2029-03-15,1166,350!2028-11-03,1067,350!2026-02-12,292,330!2026-02-02,284,330!2026-12-16,504,310!2027-11-09,761,330!2026-03-10,290,290-->
+In {@{[mathematical statistics](mathematical%20statistics.md)}@}, {@{a [random variable](random%20variable.md) _X_ is __standardized__}@} by {@{subtracting its [expected value](expected%20value.md) $\operatorname {E} [X]$ and dividing the difference by its [standard deviation](standard%20deviation.md) $\sigma (X)={\sqrt {\operatorname {Var} (X)} }$}@}: {@{$$Z={X-\operatorname {E} [X] \over \sigma (X)}$$}@} If the random variable under consideration is {@{the [sample mean](sample%20mean.md) of a random sample $\ X_{1},\dots ,X_{n}$ of _X_}@}: {@{$${\bar {X} }={1 \over n}\sum _{i=1}^{n}X_{i}$$}@} then the standardized version is {@{$$Z={\frac { {\bar {X} }-\operatorname {E} [{\bar {X} }]}{\sigma (X)/{\sqrt {n} } } }$$ (annotation: the denominator is the uncorrected standard deviation of $\overline X$)}@} Where {@{the standardised sample mean's variance was calculated}@} as follows: {@{$${\begin{array}{l}\operatorname {Var} \left(\sum x_{i}\right)=\sum \operatorname {Var} (x_{i})=n\operatorname {Var} (x_{i})=n\sigma ^{2}\\\operatorname {Var} ({\overline {X} })=\operatorname {Var} \left({\frac {\sum x_{i} }{n} }\right)={\frac {1}{n^{2} } }\operatorname {Var} \left(\sum x_{i}\right)={\frac {n\sigma ^{2} }{n^{2} } }={\frac {\sigma ^{2} }{n} }\end{array} }$$}@} <!--SR:!2026-02-13,293,330!2029-04-25,1195,350!2029-03-15,1166,350!2028-11-03,1067,350!2026-02-12,292,330!2029-08-23,1298,350!2026-12-16,504,310!2027-11-09,761,330!2026-03-10,290,290-->
 
 ## T-score
 
 - "{@{T-score}@}" redirects here. Not to be confused with {@{[_t_-statistic](t-statistic.md)}@}. <!--SR:!2029-03-06,1157,350!2029-02-28,1151,350-->
 
-In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled}@} to have {@{a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-01-31,1138,350!2026-01-22,275,330!2027-04-30,570,310!2026-03-06,123,389-->
+In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled}@} to have {@{a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-01-31,1138,350!2029-06-23,1248,350!2027-04-30,570,310!2026-03-06,123,389-->
 
-In {@{bone density measurements}@}, the T-score is {@{the standard score of the measurement compared to the population of healthy 30-year-old adults}@}, and has {@{the usual mean of 0 and standard deviation of 1}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-01-30,281,330!2026-02-07,288,330!2026-01-28,280,330-->
+In {@{bone density measurements}@}, the T-score is {@{the standard score of the measurement compared to the population of healthy 30-year-old adults}@}, and has {@{the usual mean of 0 and standard deviation of 1}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2029-08-06,1284,350!2026-02-07,288,330!2029-07-23,1270,350-->
 
 ## see also
 

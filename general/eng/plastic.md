@@ -111,7 +111,7 @@ return _chain.from_iterable(await _gather(
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE):@:higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md) <!--SR:!2026-02-20,490,214-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2026-05-22,232,194-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:high chemical resistance, high [water](water.md) resistance, low [density](density.md), smooth, [strong](strength%20of%20materials.md), [tough](toughness.md) <!--SR:!2027-03-13,421,170-->
-- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2026-02-03,611,241-->
+- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2031-10-08,2073,261-->
 - [polypropylene](polypropylene.md) (PP):@:high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2026-05-02,244,150-->
 - [polystyrene](polystyrene.md) (PS):@:expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2026-04-08,435,201-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!2026-11-22,310,150-->
@@ -128,7 +128,7 @@ return _chain.from_iterable(await _gather(
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2026-11-21,829,261-->
 - [polypropylene](polypropylene.md) (PP):@:[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2026-03-05,200,150-->
 - [polystyrene](polystyrene.md) (PS):@:expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2026-09-04,583,201-->
-- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2026-01-31,446,229-->
+- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2030-01-14,1444,249-->
 
 <!--/pytextgen-->
 

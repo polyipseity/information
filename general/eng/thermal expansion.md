@@ -31,7 +31,7 @@ tags:
 > where
 >
 > - {@{$\alpha_A$}@} is {@{the __coefficient of area thermal expansion__, $A$ is the [area](area.md)}@}
-> - {@{$\frac{\mathrm{d}A}{\mathrm{d}T}$}@} is {@{the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2026-07-27,714,330!2030-07-21,1804,330!2026-02-27,81,353!2026-02-21,76,353!2026-02-03,57,333-->
+> - {@{$\frac{\mathrm{d}A}{\mathrm{d}T}$}@} is {@{the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2026-07-27,714,330!2030-07-21,1804,330!2026-02-27,81,353!2026-02-21,76,353!2026-10-19,258,353-->
 
 ### volume expansion
 

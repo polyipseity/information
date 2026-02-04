@@ -97,7 +97,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3, since most investing activities involve instantaneous transfer of cash}@} <!--SR:!2026-01-21,322,290-->
+> - solution: {@{3, since most investing activities involve instantaneous transfer of cash}@} <!--SR:!2029-08-24,1300,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -535,7 +535,7 @@ tags:
 > 2. to find out the selling price of assets under disposal
 > 3. to find out whether the PPE's NBV is recoverable through estimated future cash flows
 >
-> - solution: {@{3}@} <!--SR:!2026-01-29,325,361-->
+> - solution: {@{3}@} <!--SR:!2030-06-30,1610,381-->
 
 <!-- markdownlint MD028 -->
 

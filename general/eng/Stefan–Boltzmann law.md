@@ -24,7 +24,7 @@ tags:
 > where
 >
 > - {@{$M$}@} is {@{the [radiant exitance](radiant%20exitance.md)}@}, i.e. {@{the total [energy](energy.md) radiated per unit [surface area](area.md) per unit [time](time.md)}@}, of {@{a surface with [emissivity](emissivity.md) $\varepsilon$ at [temperature](temperature.md) $T$}@}
-> - {@{$\sigma = 5.670\,374\,419\ldots \times 10^{-8} ~\mathrm{W \cdot m^{-2} \cdot K^{-4} }$}@} is {@{the __Stefan–Boltzmann constant__}@} <!--SR:!2026-01-20,526,310!2029-08-15,1504,310!2026-03-05,155,150!2026-02-01,58,312!2026-02-02,59,312!2026-02-02,59,312!2026-02-02,59,312-->
+> - {@{$\sigma = 5.670\,374\,419\ldots \times 10^{-8} ~\mathrm{W \cdot m^{-2} \cdot K^{-4} }$}@} is {@{the __Stefan–Boltzmann constant__}@} <!--SR:!2032-03-24,2253,330!2029-08-15,1504,310!2026-03-05,155,150!2026-10-17,256,332!2026-10-19,258,332!2026-10-21,260,332!2026-10-20,259,332-->
 
 ## references
 

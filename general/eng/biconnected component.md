@@ -13,7 +13,7 @@ tags:
 
 > {@{![Each color corresponds to a biconnected component. Multi-colored vertices are cut vertices, and thus belong to multiple biconnected components.](../../archives/Wikimedia%20Commons/Graph-Biconnected-Components.svg)}@}
 >
-> {@{Each color}@} corresponds to {@{a biconnected component}@}. {@{Multi-colored vertices}@} are {@{cut vertices, and thus belong to multiple biconnected components}@}. <!--SR:!2028-02-04,871,335!2026-01-22,307,335!2026-02-12,117,310!2026-02-20,101,377!2026-02-12,94,377-->
+> {@{Each color}@} corresponds to {@{a biconnected component}@}. {@{Multi-colored vertices}@} are {@{cut vertices, and thus belong to multiple biconnected components}@}. <!--SR:!2028-02-04,871,335!2029-12-10,1416,355!2026-02-12,117,310!2026-02-20,101,377!2026-02-12,94,377-->
 
 In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected component__ or __block__ \(sometimes known as a __2-connected component__\)}@} is {@{a maximal [biconnected](biconnected%20graph.md) [subgraph](glossary%20of%20graph%20theory.md#subgraphs)}@}. {@{Any [connected graph](connectivity%20(graph%20theory).md#connected%20graph)}@} {@{decomposes into a [tree](tree%20(graph%20theory).md) of biconnected components called the __block-cut tree__ of the graph}@}. The blocks are {@{attached to each other at shared [vertices](vertex%20(graph%20theory).md)}@} called {@{__cut vertices__ or __separating vertices__ or __articulation points__}@}. Specifically, a __cut vertex__ is {@{any vertex whose removal increases the number of [connected components](component%20(graph%20theory).md)}@}.<sup>[\[1\]](#^ref-1)</sup> {@{A block containing at most one cut vertex}@} is called {@{a __leaf block__}@}, it corresponds to {@{a [leaf vertex](vertex%20(graph%20theory).md#types%20of%20vertices) in the block-cut tree}@}. <!--SR:!2027-11-23,815,330!2027-05-19,618,315!2028-02-07,861,335!2028-02-10,875,335!2026-08-04,383,315!2028-11-17,1109,350!2029-02-25,1191,355!2029-03-13,1200,350!2029-02-14,1123,310!2029-03-16,1207,355!2027-01-31,565,315-->
 
@@ -25,7 +25,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected component__ or __
 
 The idea is to {@{run a depth-first search while maintaining the following information}@}: <!--SR:!2029-01-24,1163,350-->
 
-1. depth ::@:: the depth of each vertex in the depth-first-search tree \(once it gets visited\), and <!--SR:!2026-01-21,306,335!2027-07-04,638,315-->
+1. depth ::@:: the depth of each vertex in the depth-first-search tree \(once it gets visited\), and <!--SR:!2029-12-06,1412,355!2027-07-04,638,315-->
 2. lowpoint ::@:: for each vertex _v_, the lowest depth of neighbors of all descendants of _v_ \(including _v_ itself\) in the depth-first-search tree, called the __lowpoint__. <!--SR:!2026-03-27,331,290!2026-09-30,486,315-->
 
 The depth is {@{standard to maintain during a depth-first search}@}. The lowpoint of _v_ can be {@{computed after visiting all descendants of _v_ \(i.e., just before _v_ gets popped off the depth-first-search [stack](stack%20(abstract%20data%20type).md)\)}@} as {@{the minimum of the depth of _v_, the depth of all neighbors of _v_ \(other than the parent of _v_ in the depth-first-search tree\) and the lowpoint of all children of _v_ in the depth-first-search tree}@}. <!--SR:!2029-02-14,1178,350!2026-10-11,493,310!2026-08-14,367,255-->

@@ -100,7 +100,7 @@ For [chemical properties](chemical%20property.md):
 
 - [enthalpy of combustion](standard%20enthalpy%20of%20combustion.md):@:enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md) <!--SR:!2032-12-21,2697,330-->
 - [enthalpy of formation](standard%20enthalpy%20of%20formation.md):@:enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states <!--SR:!2029-01-16,1392,290-->
-- [enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md):@:enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md) <!--SR:!2026-01-19,724,318-->
+- [enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md):@:enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md) <!--SR:!2034-10-06,3179,338-->
 
 <!--/pytextgen-->
 

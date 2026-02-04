@@ -26,8 +26,8 @@ tags:
 
 ## hints
 
-1. software testing / non-goals ::@:: It cannot show the _absence_ of software errors, e.g. ensuring no bugs. <!--SR:!2026-01-28,54,310!2026-02-01,58,310-->
-2. software testing / goals ::@:: Find discrepancies between _expected_ and _actual_ behavior, e.g. finding bugs. <p> There are 2 aspects: _validation_ and _verification_. <!--SR:!2026-01-29,55,310!2026-01-30,56,310-->
-3. test case / taxonomy / regression ::@:: Re-tests after _changes_ to ensure _no new defects appear_; mixes white and black box techniques, with more emphasized on white box. <!--SR:!2026-01-31,57,310!2026-01-31,57,310-->
-4. [white-box testing](../../../../../general/white-box%20testing.md) ::@:: It is a method of software testing that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing). <!--SR:!2026-01-29,55,310!2026-01-30,56,310-->
-5. system testing / performance ::@:: Assess stress (max concurrent users), volume (large data sets), security (access controls), timing (real-time constraints), recovery (fail-over scenarios), etc. <!--SR:!2026-01-28,54,310!2026-07-04,168,310-->
+1. software testing / non-goals ::@:: It cannot show the _absence_ of software errors, e.g. ensuring no bugs. <!--SR:!2026-09-14,228,330!2026-10-13,254,330-->
+2. software testing / goals ::@:: Find discrepancies between _expected_ and _actual_ behavior, e.g. finding bugs. <p> There are 2 aspects: _validation_ and _verification_. <!--SR:!2026-09-23,237,330!2026-10-05,246,330-->
+3. test case / taxonomy / regression ::@:: Re-tests after _changes_ to ensure _no new defects appear_; mixes white and black box techniques, with more emphasized on white box. <!--SR:!2026-10-09,250,330!2026-10-10,251,330-->
+4. [white-box testing](../../../../../general/white-box%20testing.md) ::@:: It is a method of software testing that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing). <!--SR:!2026-09-22,236,330!2026-10-04,245,330-->
+5. system testing / performance ::@:: Assess stress (max concurrent users), volume (large data sets), security (access controls), timing (real-time constraints), recovery (fail-over scenarios), etc. <!--SR:!2026-09-13,227,330!2026-07-04,168,310-->

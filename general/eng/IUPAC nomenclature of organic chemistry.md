@@ -280,11 +280,11 @@ The steps for naming an organic compound are:
 
 ### prefix for type count
 
-See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the first one is no prefix}@}. <!--SR:!2029-02-08,1692,383!2026-01-22,4,339-->
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the first one is no prefix}@}. <!--SR:!2029-02-08,1692,383!2026-02-13,20,359-->
 
 ### prefix for carbon count
 
-See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the last character _a-_ is trimmed away}@} and {@{the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2033-01-23,2562,343!2026-01-22,4,339!2026-01-22,4,339-->
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the last character _a-_ is trimmed away}@} and {@{the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2033-01-23,2562,343!2026-02-13,20,359!2026-02-13,20,359-->
 
 ## functional groups
 
@@ -499,7 +499,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCO}@}
 > - prefix: {@{(none)}@}
 > - suffix: {@{-yl (retained), -oyl}@}
-> - infix: {@{(locant)}@} <!--SR:!2027-07-29,1137,281!2026-01-25,576,302!2030-07-17,2244,382!2027-07-06,993,242!2029-08-06,1301,227!2028-07-25,1555,367-->
+> - infix: {@{(locant)}@} <!--SR:!2027-07-29,1137,281!2032-09-04,2413,322!2030-07-17,2244,382!2027-07-06,993,242!2029-08-06,1301,227!2028-07-25,1555,367-->
 
 <!-- markdownlint MD028 -->
 

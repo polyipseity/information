@@ -92,7 +92,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 
 - definition ::@:: a homogeneous [spherical](sphere.md) shell of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center <!--SR:!2027-06-23,872,347!2031-02-28,2033,387-->
 - equation ::@:: $I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$ <!--SR:!2027-01-22,702,250!2026-04-30,539,318-->
-  - solid sphere ::@:: $I=\frac25mR_O^2$ <!--SR:!2026-01-26,573,310!2028-11-30,1151,298-->
+  - solid sphere ::@:: $I=\frac25mR_O^2$ <!--SR:!2030-12-21,1782,310!2028-11-30,1151,298-->
   - thin-walled hollow sphere ::@:: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$ <!--SR:!2027-07-10,893,290!2027-09-23,857,298-->
 - proof: $$\begin{aligned}
 m&=\frac43\rho\pi\left(R_O^3-R_I^3\right)\\

@@ -28,7 +28,7 @@ where {@{$h$ is the [Planck constant](Planck%20constant.md)}@}. <!--SR:!2033-05-
 
 The {@{maximum kinetic energy $K_\mathrm{max}$}@} is determined by {@{the frequency $f$ of the incoming photon and the work function $\Phi$ of the surface of the material}@}:
 {@{$$K_\mathrm{max}=hf-\Phi=hf-hV_o=h\left(f-V_o\right)$$}@}
-where {@{$h$ is the Planck constant}@}. <!--SR:!2026-01-26,887,341!2027-02-28,1112,301!2032-01-22,2356,321!2035-07-28,3555,361-->
+where {@{$h$ is the Planck constant}@}. <!--SR:!2037-06-20,4161,361!2027-02-28,1112,301!2032-01-22,2356,321!2035-07-28,3555,361-->
 
 Given the threshold frequency is reached, increasing intensity only {@{increases the number of [photons](photon.md) hitting the surface}@}, {@{increasing photoemission}@}, {@{hence photoelectric current}@}. <!--SR:!2029-01-28,1541,262!2028-04-30,1458,310!2033-09-27,2989,330-->
 

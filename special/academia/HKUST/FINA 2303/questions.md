@@ -71,7 +71,7 @@ tags:
 > 2. primary market
 > 3. secondary market
 >
-> - solution: {@{2}@} <!--SR:!2026-02-02,270,330-->
+> - solution: {@{2}@} <!--SR:!2029-06-15,1228,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -199,7 +199,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2026-05-16,349,362!2026-01-27,251,342-->
+> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2026-05-16,349,362!2029-04-23,1182,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -272,7 +272,7 @@ tags:
 >
 > - solution: {@{1}@}
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
-> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2026-01-28,252,353!2029-03-17,1159,373!2026-03-12,295,353-->
+> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2029-06-03,1221,373!2029-03-17,1159,373!2026-03-12,295,353-->
 
 ## week 3 lecture 2
 

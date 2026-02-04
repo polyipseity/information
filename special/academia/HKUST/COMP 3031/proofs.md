@@ -197,7 +197,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >   = x :: xs1.reverse.reverse  // by inductive hypothesis
 > ```
 >
-> At this point we {@{cannot directly simplify further}@}. Try to {@{_factor_ out _common subexpressions_}@}. <!--SR:!2026-01-26,74,330!2026-01-22,70,330!2026-01-27,75,330!2026-01-25,73,330!2026-01-23,71,330!2026-01-28,76,330!2026-01-24,72,330!2026-01-25,73,330-->
+> At this point we {@{cannot directly simplify further}@}. Try to {@{_factor_ out _common subexpressions_}@}. <!--SR:!2027-01-05,342,350!2026-12-13,319,350!2027-01-08,345,350!2027-01-02,339,350!2026-12-24,330,350!2027-01-15,352,350!2026-12-29,335,350!2027-01-02,339,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -285,7 +285,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > Empty.incl(x).contains(x) = NonEmpty(x, Empty, Empty).contains(x)
 > ```
 >
-> which evaluates to {@{`true` \(RHS\) by the definition of `NonEmpty.contains`}@}. <!--SR:!2026-01-26,74,330!2026-01-22,70,330!2026-01-23,71,330-->
+> which evaluates to {@{`true` \(RHS\) by the definition of `NonEmpty.contains`}@}. <!--SR:!2027-01-07,344,350!2026-12-15,321,350!2026-12-18,324,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -315,7 +315,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > Empty.incl(y).contains(x) = NonEmpty(y, Empty, Empty).contains(x)
 > ```
 >
-> which reduces to {@{`Empty.contains(x)` \(RHS\)}@} by {@{the definition of `NonEmpty.contains`}@}. <!--SR:!2026-01-24,72,330!2026-01-23,71,330!2026-01-28,76,330!2026-01-26,74,330!2026-01-27,75,330!2026-01-25,73,330-->
+> which reduces to {@{`Empty.contains(x)` \(RHS\)}@} by {@{the definition of `NonEmpty.contains`}@}. <!--SR:!2026-12-28,334,350!2026-12-16,322,350!2027-01-14,351,350!2027-01-03,340,350!2027-01-09,346,350!2027-01-02,339,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -404,4 +404,4 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > - {@{_Base case_}@}: Consider {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}.
 > - {@{_Inductive step_}@}: Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.
 >
-> This {@{finishes the proof}@}. <!--SR:!2026-10-06,268,330!2026-11-04,290,330!2026-09-12,244,330!2026-10-13,272,330!2026-10-01,263,330!2026-10-11,270,330!2026-10-11,270,330!2026-09-08,240,330!2026-06-11,172,310!2026-10-23,281,330!2026-10-12,271,330!2026-09-03,235,330!2026-10-05,267,330!2026-01-28,76,330!2026-01-26,74,330!2026-01-24,72,330!2026-01-23,71,330!2026-01-22,70,330!2026-01-27,75,330-->
+> This {@{finishes the proof}@}. <!--SR:!2026-10-06,268,330!2026-11-04,290,330!2026-09-12,244,330!2026-10-13,272,330!2026-10-01,263,330!2026-10-11,270,330!2026-10-11,270,330!2026-09-08,240,330!2026-06-11,172,310!2026-10-23,281,330!2026-10-12,271,330!2026-09-03,235,330!2026-10-05,267,330!2027-01-16,353,350!2027-01-06,343,350!2026-12-28,334,350!2026-12-17,323,350!2026-12-14,320,350!2027-01-10,347,350-->

@@ -23,7 +23,7 @@ tags:
   - integer data types ::@:: `TINYINT`, `SMALLINT`, `INT`, `INTEGER`, `MEDIUMINT`, `BIGINT` <!--SR:!2029-08-10,1674,350!2030-04-18,1866,350-->
     - `TINYINT` ::@:: Signed is from −2<sup>7</sup> to 2<sup>7</sup>−1 and unsigned is from 0 to 2<sup>8</sup>−1. <!--SR:!2027-01-14,833,310!2030-03-27,1852,350-->
     - `SMALLINT` ::@:: Signed is from −2<sup>15</sup> to 2<sup>15</sup>−1 and unsigned is 0 to 2<sup>16</sup>−1. <!--SR:!2028-10-26,1337,330!2028-04-07,1193,330-->
-    - `INT`, `INTEGER` ::@:: Signed is from −2<sup>23</sup> to 2<sup>23</sup>−1 and unsigned is from 0 to 2<sup>24</sup>−1. <!--SR:!2030-07-14,1923,350!2026-01-25,567,290-->
+    - `INT`, `INTEGER` ::@:: Signed is from −2<sup>23</sup> to 2<sup>23</sup>−1 and unsigned is from 0 to 2<sup>24</sup>−1. <!--SR:!2030-07-14,1923,350!2032-05-02,2289,310-->
     - `MEDIUMINT` ::@:: Signed is from −2<sup>31</sup> to 2<sup>31</sup>−1 and unsigned is from 0 to 2<sup>32</sup>−1. <!--SR:!2026-11-25,809,310!2029-10-27,1733,350-->
     - `BIGINT` ::@:: Signed is from −2<sup>63</sup> to 2<sup>63</sup>−1 and unsigned is from 0 to 2<sup>64</sup>−1. <!--SR:!2027-12-27,1187,330!2030-07-10,1919,350-->
 - string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2027-03-10,871,310!2026-03-22,594,290-->

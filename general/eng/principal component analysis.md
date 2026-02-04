@@ -81,7 +81,7 @@ return chain(
 
 - _(begin)_→::@::←organize the data set <!--SR:!2029-06-07,1334,310!2027-02-03,734,330-->
 - organize the data set→::@::←calculate the empirical mean <!--SR:!2030-02-02,1483,310!2029-11-14,1441,310-->
-- calculate the empirical mean→::@::←calculate the deviations from the mean <!--SR:!2029-06-13,1419,350!2026-01-19,433,310-->
+- calculate the empirical mean→::@::←calculate the deviations from the mean <!--SR:!2029-06-13,1419,350!2031-02-23,1858,330-->
 - calculate the deviations from the mean→::@::←find the covariance matrix <!--SR:!2026-08-03,546,310!2026-05-28,534,310-->
 - find the covariance matrix→::@::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2028-04-08,916,290!2026-05-17,533,330-->
 - find the eigenvectors and eigenvalues of the covariance matrix→::@::←rearrange the eigenvectors and eigenvalues <!--SR:!2027-02-10,704,290!2027-06-19,802,310-->
@@ -122,11 +122,10 @@ return chain(
 
 8. __<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-06-25T17:37:48.434481+08:00. Any edits will be overridden! -->select a subset of the eigenvectors as the new basis vectors<!--/pytextgen-->__
     - Use the cumulative variances as {@{a guide for choosing an appropriate value for the number of reduced dimensions _l_}@}. The goal is to {@{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}@}. For example, {@{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}@}.
-    - After choosing _l_ (or _l_ is given beforehand), only keep {@{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}@}. <!--SR:!2029-03-21,1327,330!2026-02-13,423,310!2026-04-05,490,310!2026-01-28,360,250-->
+    - After choosing _l_ (or _l_ is given beforehand), only keep {@{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}@}. <!--SR:!2029-03-21,1327,330!2026-02-13,423,310!2026-04-05,490,310!2029-07-15,1264,270-->
 
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-11-12T13:56:48.778590+08:00. Any edits will be overridden! -->project the data (deviations from the mean) onto the new basis<!--/pytextgen-->__
-    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Note that {@{the deviations from the mean instead of the original data points are used}@}. Using the latter is {@{also acceptable as a variant}@}.
- <!--SR:!2026-06-27,474,270!2027-06-27,774,290!2026-05-20,418,381!2026-01-22,301,361-->
+    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Note that {@{the deviations from the mean instead of the original data points are used}@}. Using the latter is {@{also acceptable as a variant}@}. <!--SR:!2026-06-27,474,270!2027-06-27,774,290!2026-05-20,418,381!2030-02-25,1495,381-->
 
 ## references
 

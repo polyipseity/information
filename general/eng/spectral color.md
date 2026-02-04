@@ -85,7 +85,7 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 <!--pytextgen generate section="948f"--><!-- The following content is generated at 2024-03-08T00:40:16.696044+08:00. Any edits will be overridden! -->
 
 - <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md):@:380–450 <!--SR:!2026-08-07,350,170-->
-- <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md):@:450–485 <!--SR:!2026-01-22,313,170-->
+- <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md):@:450–485 <!--SR:!2028-03-08,773,190-->
 - <span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md):@:485–500 <!--SR:!2026-04-11,196,150-->
 - <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md):@:500–565 <!--SR:!2026-10-01,338,170-->
 - <span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md):@:565–590 <!--SR:!2026-03-01,148,170-->
@@ -122,7 +122,7 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 
 <!--pytextgen generate section="3349"--><!-- The following content is generated at 2024-01-04T20:17:52.754609+08:00. Any edits will be overridden! -->
 
-- 670–790:@:<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2026-01-20,591,323-->
+- 670–790:@:<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2031-04-18,1909,323-->
 - 620–670:@:<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2030-03-28,1638,323-->
 - 600–620:@:<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2027-10-21,836,243-->
 - 530–600:@:<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2026-04-21,330,243-->

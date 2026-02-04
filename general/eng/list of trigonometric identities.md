@@ -212,7 +212,7 @@ return await memorize_map(
 - sine:@:$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$ <!--SR:!2026-04-04,451,336-->
 - cosine:@:$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2026-02-17,437,336-->
 - tangent:@:$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2026-04-30,106,156-->
-- secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2026-01-27,230,276-->
+- secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2027-10-23,633,276-->
 - cosecant:@:$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2027-06-13,708,296-->
 - cotangent:@:$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2027-11-19,674,236-->
 
@@ -228,7 +228,7 @@ return await memorize_map(
 > - $\tan (-9.6)$ (tangent and secant) ::@:: $-\frac {\tan 19.2} {1 + \sec 19.2}$ <!--SR:!2026-11-23,313,256!2026-08-03,533,336-->
 > - $\tan (-4.96)$ (tangent) ::@:: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$ <!--SR:!2027-06-30,719,296!2026-06-27,351,256-->
 > - $\sec (-7.24)$ ::@:: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2026-02-17,149,296!2026-02-23,274,316-->
-> - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2026-01-26,219,276!2028-12-23,1111,316-->
+> - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2027-09-25,605,276!2028-12-23,1111,316-->
 > - $\cot 3.14$ (sine and cosine) ::@:: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2028-11-22,1043,296!2026-02-26,155,296-->
 > - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2026-06-21,225,216!2028-11-27,1048,316-->
 > - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2029-01-26,1135,316!2027-07-08,769,336-->
@@ -271,7 +271,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::@:: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2028-09-12,1171,307!2027-10-17,913,287-->
-> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2026-04-21,121,187!2026-01-20,183,167-->
+> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2026-04-21,121,187!2026-11-21,303,167-->
 > - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2026-10-20,437,287!2026-04-10,86,150-->
 > - $\cos(-7.23) \cos(-1.23)$ ::@:: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2026-09-29,375,207!2029-09-28,1378,287-->
 
@@ -333,10 +333,10 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::@:: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2026-11-29,708,289!2026-01-25,225,189-->
+> - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::@:: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2026-11-29,708,289!2027-03-29,425,189-->
 > - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::@:: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2027-12-31,866,269!2026-12-15,530,229-->
 > - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::@:: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2026-10-04,717,329!2026-05-11,396,309-->
-> - $0 \cos 4.2x + 0 \sin 4.2x$ ::@:: $0$ <!--SR:!2030-05-12,1660,379!2026-02-01,439,379-->
+> - $0 \cos 4.2x + 0 \sin 4.2x$ ::@:: $0$ <!--SR:!2030-05-12,1660,379!2032-04-30,2278,399-->
 
 ## references
 

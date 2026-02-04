@@ -28,7 +28,7 @@ tags:
 - `create_definition`
   - `column_name column_definition` ::@:: Define a column named `column_name` with the definition `column_definition`. <!--SR:!2028-06-14,1300,330!2030-09-17,1974,350-->
   - `{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: An index indexed by `key_part` using the specified algorithm. <!--SR:!2026-05-17,639,299!2027-11-15,1056,319-->
-  - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::@:: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2026-01-25,538,319!2026-05-01,605,319-->
+  - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::@:: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2032-07-29,2373,339!2026-05-01,605,319-->
 - `select_expression`
   - `*` ::@:: Select all columns. <!--SR:!2031-11-14,2321,359!2028-01-04,1189,339-->
   - `COUNT(expression)` ::@:: Number of selected non-`NULL` rows for `expression`. <!--SR:!2031-03-17,2114,359!2027-04-09,901,319-->

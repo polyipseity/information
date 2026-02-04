@@ -60,14 +60,14 @@ return (
 
 - _(begin)_→::@::←element in a free form: 0 <!--SR:!2031-06-23,2402,330!2029-02-20,1796,350-->
 - element in a free form: 0→::@::←ionic compound or ion: _charge_ <!--SR:!2033-10-14,2878,290!2030-05-28,1922,310-->
-- ionic compound or ion: _charge_→::@::←fluorine: -1 <!--SR:!2032-03-17,2324,270!2026-02-04,496,270-->
+- ionic compound or ion: _charge_→::@::←fluorine: -1 <!--SR:!2032-03-17,2324,270!2031-03-24,1874,290-->
 - fluorine: -1→::@::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2027-05-05,930,230!2026-09-14,360,250-->
 - (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→::@::←group I metal: +1 <!--SR:!2027-08-07,1101,270!2026-03-11,487,210-->
 - group I metal: +1→::@::←group II metal: +2 <!--SR:!2027-10-11,1380,330!2037-02-20,4058,350-->
 - group II metal: +2→::@::←metallic hydride: -1 <!--SR:!2027-02-18,431,210!2027-08-05,639,250-->
 - metallic hydride: -1→::@::←hydrogen: +1 <!--SR:!2030-11-24,2047,310!2029-10-31,1786,310-->
 - hydrogen: +1→::@::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2028-12-13,1354,250!2026-03-04,222,210-->
-- (if not bonded to oxygen or flourine) oxygen: -2→::@::←_(end)_ <!--SR:!2026-06-10,610,310!2026-01-25,382,230-->
+- (if not bonded to oxygen or flourine) oxygen: -2→::@::←_(end)_ <!--SR:!2026-06-10,610,310!2029-06-24,1240,250-->
 
 <!--/pytextgen-->
 

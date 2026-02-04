@@ -16,7 +16,7 @@ tags:
 
 ## high-rise buildings
 
-Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey with height less than 24 m}@}, {@{high-rise with height more than 24 m but less than 100 m}@}, {@{tall, and supertall}@}. <!--SR:!2026-08-02,617,335!2029-01-26,1140,295!2026-01-23,19,340!2026-01-22,4,322-->
+Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey with height less than 24 m}@}, {@{high-rise with height more than 24 m but less than 100 m}@}, {@{tall, and supertall}@}. <!--SR:!2026-08-02,617,335!2029-01-26,1140,295!2026-04-20,86,360!2026-02-12,19,342-->
 
 The structural system of a building only {@{consists of members designed to carry loads}@}, and all others are {@{non-structural}@}. <!--SR:!2026-03-26,496,310!2028-07-26,1196,355-->
 
@@ -65,7 +65,7 @@ The following interior structures are possible.
 
 - _(begin)_→::@::←[braced frame](braced%20frame.md) <!--SR:!2026-11-12,609,290!2027-02-04,749,335-->
 - [braced frame](braced%20frame.md)→::@::←[hinged frame](hinged%20frame.md) <!--SR:!2028-02-10,861,255!2026-07-01,354,235-->
-- [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2026-01-25,233,170!2027-05-31,572,215-->
+- [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2027-08-22,569,190!2027-05-31,572,215-->
 - [outrigger](#outrigger)→::@::←[rigid frame](rigid%20frame.md) <!--SR:!2027-11-21,910,295!2026-06-20,392,215-->
 - [rigid frame](rigid%20frame.md)→::@::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2028-02-17,837,255!2027-07-03,700,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→::@::←_(end)_ <!--SR:!2027-03-22,784,335!2026-11-15,608,275-->

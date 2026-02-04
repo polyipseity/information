@@ -209,7 +209,7 @@ return (
 - 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>:@:-0.8277 <!--SR:!2026-03-14,112,130-->
 - Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s):@:-0.7618 <!--SR:!2026-05-17,173,150-->
 - Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s):@:-0.744 <!--SR:!2026-03-12,166,136-->
-- Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s):@:-0.44 <!--SR:!2026-01-19,147,150-->
+- Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s):@:-0.44 <!--SR:!2026-08-27,217,150-->
 - Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq):@:-0.407 <!--SR:!2026-03-28,99,150-->
 - Co<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Co(s):@:-0.28 <!--SR:!2026-06-01,222,150-->
 - Ni<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ni(s):@:-0.257 <!--SR:!2026-11-29,369,170-->
@@ -219,9 +219,9 @@ return (
 - 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g):@:0 <!--SR:!2026-06-10,899,336-->
 - S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq):@:0.08 <!--SR:!2026-03-03,140,150-->
 - Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq):@:0.151 <!--SR:!2026-04-08,144,150-->
-- HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.16 <!--SR:!2026-01-21,115,130-->
+- HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.16 <!--SR:!2026-06-23,152,130-->
 - SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.17 <!--SR:!2026-03-29,430,210-->
-- Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2026-01-23,128,130-->
+- Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2026-07-13,168,130-->
 - O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq):@:0.401 <!--SR:!2026-09-06,703,210-->
 - SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l):@:0.5 <!--SR:!2026-02-20,186,150-->
 - CO(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ C(s) + H<sub>2</sub>O(l):@:0.52 <!--SR:!2026-03-05,85,150-->
@@ -256,7 +256,7 @@ return (
 - Cl::@::Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq) <!--SR:!2027-11-20,789,250!2032-03-30,2811,350-->
 - Co::@::Co<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Co(s)<br/>Co<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Co<sup>2+</sup>(aq) <!--SR:!2028-08-10,1302,296!2026-08-15,947,336-->
 - Cr::@::Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s)<br/>Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq)<br/>Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l) <!--SR:!2028-09-28,1589,270!2027-12-26,1413,310-->
-- Cu::@::Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s) <!--SR:!2026-02-02,910,270!2032-07-12,2893,350-->
+- Cu::@::Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s) <!--SR:!2035-06-26,3431,290!2032-07-12,2893,350-->
 - F::@::F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq) <!--SR:!2028-04-06,1466,270!2032-01-09,2747,350-->
 - Fe::@::Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s)<br/>Fe<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Fe<sup>2+</sup>(aq) <!--SR:!2028-12-01,1383,230!2026-12-27,1225,310-->
 - H::@::2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup><br/>2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) <!--SR:!2028-10-20,1334,230!2027-02-10,1261,310-->

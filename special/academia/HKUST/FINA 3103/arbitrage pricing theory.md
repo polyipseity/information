@@ -109,9 +109,9 @@ In a regression test the estimated intercept $\hat{\alpha}_i$ is treated as a ra
 
 The three‑factor specification was introduced in _Common Risk Factors in the Returns on Stocks and Bonds_ (Fama & French, 1993).  It expands the CAPM by adding size and value drivers that are derived from market‑cap and book‑to‑market data.  The model writes the excess return of stock $i$ as $$r_{i,t}-r_{F,t}=\alpha_i+\beta_{iM}\,r_{M,t}+\beta_{iSMB}\,r_{SMB,t}+\beta_{iHML}\,r_{HML,t}+e_{i,t},$$ where
 
-- $r_{M,t}=r_{SP,t}-r_{F,t}$ ::@:: is the market excess return (e.g. using S&P&nbsp;500), <!--SR:!2026-01-26,14,290!2026-01-26,14,290-->
-- $r_{SMB,t}=r_{S,t}-r_{B,t}$ ::@:: captures the small‑minus‑big size effect (by market capitalization), and <!--SR:!2026-01-26,14,290!2026-01-26,14,290-->
-- $r_{HML,t}=r_{H,t}-r_{L,t}$ ::@:: measures high‑minus‑low book‑to‑market. <!--SR:!2026-01-26,14,290!2026-01-26,14,290-->
+- $r_{M,t}=r_{SP,t}-r_{F,t}$ ::@:: is the market excess return (e.g. using S&P&nbsp;500), <!--SR:!2026-03-28,58,310!2026-03-28,58,310-->
+- $r_{SMB,t}=r_{S,t}-r_{B,t}$ ::@:: captures the small‑minus‑big size effect (by market capitalization), and <!--SR:!2026-03-28,58,310!2026-03-28,58,310-->
+- $r_{HML,t}=r_{H,t}-r_{L,t}$ ::@:: measures high‑minus‑low book‑to‑market. <!--SR:!2026-03-28,58,310!2026-03-28,58,310-->
 
 The Fama–French framework was motivated mainly by empirical regularities rather than a single economic theory, which explains why the size ($\text{SMB}$) and value ($\text{HML}$) loadings capture return differences so well yet lack a unifying rationale.  The puzzle remains: why does a portfolio of small firms outperform large ones, and why do high‑book‑to‑market companies earn higher returns than low‑book‑to‑market ones?  A notable contribution to the literature is Lettau and Wachter’s 2007 paper in _The Journal of Finance_, which investigates these patterns from a microstructural perspective.
 

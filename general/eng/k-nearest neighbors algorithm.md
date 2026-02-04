@@ -48,7 +48,7 @@ tags:
 
 ## algorithm
 
-The training samples are {@{[feature vectors](feature%20(machine%20learning).md#feature%20vectors) representing in a multidimensional space, each with a class label}@}. The training phase {@{consists only of storing the vectors and class labels}@}. <!--SR:!2026-03-18,430,290!2026-01-28,403,270-->
+The training samples are {@{[feature vectors](feature%20(machine%20learning).md#feature%20vectors) representing in a multidimensional space, each with a class label}@}. The training phase {@{consists only of storing the vectors and class labels}@}. <!--SR:!2026-03-18,430,290!2030-03-29,1521,290-->
 
 In the classification phase, {@{_k_ is a user-defined [hyperparameter](hyperparameter%20(machine%20learning).md)}@}. An unlabeled sample, represented as {@{a feature vector, is classified by assigning the label to which is the most frequent among the _k_ nearest training samples}@}. <!--SR:!2026-09-24,634,330!2028-01-06,967,310-->
 

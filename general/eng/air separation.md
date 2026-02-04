@@ -19,9 +19,9 @@ The most common method is [cryogenic distillation](#cryogenic%20distillation).
 
 ## cryogenic distillation
 
-- see: ::@:: [fractional distillation](fractional%20distillation.md) <!--SR:!2026-01-21,65,324!2026-01-21,64,324-->
+- see: ::@:: [fractional distillation](fractional%20distillation.md) <!--SR:!2026-11-13,295,344!2026-11-09,291,344-->
 
-{@{Pure gases}@} are separated by {@{cooling air until it [liquefies](liquefaction.md)}@}. Then {@{[distill](distillation.md) the components at their boiling points}@}. <!--SR:!2026-04-06,152,170!2026-01-21,64,324!2026-01-30,72,324-->
+{@{Pure gases}@} are separated by {@{cooling air until it [liquefies](liquefaction.md)}@}. Then {@{[distill](distillation.md) the components at their boiling points}@}. <!--SR:!2026-04-06,152,170!2026-11-09,291,344!2026-12-25,328,344-->
 
 ```Python
 # pytextgen generate data

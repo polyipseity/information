@@ -27,7 +27,7 @@ Sensitivity, is also called {@{recall, true positive rate, or detection rate in 
 
 ### specificity
 
-Specificity, is also called {@{selectivity or true negative rate}@}. Mathematically, it can be expressed as: {@{$$\text{specificity} = \frac {\text{TN} } {\text{TN} + \text{FP} }$$}@}, where {@{TN are true negatives and FP are false positives (see [false positives and false negatives](false%20positives%20and%20false%20negatives.md))}@}. <!--SR:!2026-04-09,488,310!2029-02-27,1337,350!2026-01-23,437,310-->
+Specificity, is also called {@{selectivity or true negative rate}@}. Mathematically, it can be expressed as: {@{$$\text{specificity} = \frac {\text{TN} } {\text{TN} + \text{FP} }$$}@}, where {@{TN are true negatives and FP are false positives (see [false positives and false negatives](false%20positives%20and%20false%20negatives.md))}@}. <!--SR:!2026-04-09,488,310!2029-02-27,1337,350!2031-03-18,1876,330-->
 
 ## references
 

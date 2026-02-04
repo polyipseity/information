@@ -27,7 +27,7 @@ Then, like how you calculate the length, area, or volume of the above familiar o
 
 $$m(R) := (b_1 - a_1) (b_2 - a_2) \cdots (b_n - a_n)$$
 
-A _simple set_, or _polyrectangle_, is then {@{finite [unions](union%20(set%20theory).md) of rectangles}@}: <!--SR:!2026-01-27,531,310-->
+A _simple set_, or _polyrectangle_, is then {@{finite [unions](union%20(set%20theory).md) of rectangles}@}: <!--SR:!2032-04-23,2278,330-->
 
 $$S := R_1 \cup R_2 \cup \cdots \cup R_k \qquad k \ge 1$$
 

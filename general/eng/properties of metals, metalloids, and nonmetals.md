@@ -27,35 +27,35 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 
 > __flashcards__
 >
-> - properties ::@:: appearance, deformability (as a solid), density, electrical conductivity, form, melting point, thermal conductivity, etc. <!--SR:!2026-01-29,16,290!2026-01-29,16,290-->
+> - properties ::@:: appearance, deformability (as a solid), density, electrical conductivity, form, melting point, thermal conductivity, etc. <!--SR:!2026-04-05,66,310!2026-04-03,64,310-->
 > - appearance
->   - appearance / metal :@: - mostly shiny and grey-white <!--SR:!2026-01-29,16,290-->
->   - appearance / metalloid :@: - shiny and grey-white <!--SR:!2026-01-29,16,290-->
->   - appearance / nonmetal :@: - mostly dull <!--SR:!2026-01-29,16,290-->
+>   - appearance / metal :@: - mostly shiny and grey-white <!--SR:!2026-04-04,65,310-->
+>   - appearance / metalloid :@: - shiny and grey-white <!--SR:!2026-04-05,66,310-->
+>   - appearance / nonmetal :@: - mostly dull <!--SR:!2026-04-04,65,310-->
 > - deformability (as a solid)
->   - deformability (as a solid) / metal :@: - mostly [ductile](ductility.md) and [malleable](malleability.md) <br/> - some brittle <!--SR:!2026-01-29,16,290-->
->   - deformability (as a solid) / metalloid :@: - brittle <!--SR:!2026-01-29,16,290-->
->   - deformability (as a solid) / nonmetal :@: - brittle <br/> - some non-brittle <!--SR:!2026-01-29,16,290-->
+>   - deformability (as a solid) / metal :@: - mostly [ductile](ductility.md) and [malleable](malleability.md) <br/> - some brittle <!--SR:!2026-04-04,65,310-->
+>   - deformability (as a solid) / metalloid :@: - brittle <!--SR:!2026-04-06,67,310-->
+>   - deformability (as a solid) / nonmetal :@: - brittle <br/> - some non-brittle <!--SR:!2026-04-05,66,310-->
 > - [density](density.md)
->   - [density](density.md) / metal :@: - mostly high <br/> - exceptional example(s): [alkali metals](alkali%20metal.md) <!--SR:!2026-01-29,16,290-->
->   - [density](density.md) / metalloid :@: - between metals and nonmetals <!--SR:!2026-01-29,16,290-->
->   - [density](density.md) / nonmetal :@: - mostly low <!--SR:!2026-01-29,16,290-->
+>   - [density](density.md) / metal :@: - mostly high <br/> - exceptional example(s): [alkali metals](alkali%20metal.md) <!--SR:!2026-04-03,64,310-->
+>   - [density](density.md) / metalloid :@: - between metals and nonmetals <!--SR:!2026-04-06,67,310-->
+>   - [density](density.md) / nonmetal :@: - mostly low <!--SR:!2026-04-04,65,310-->
 > - [electrical conductivity](electrical%20conductivity.md)
->   - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high <!--SR:!2026-01-29,16,290-->
->   - [electrical conductivity](electrical%20conductivity.md) / metalloid :@: - intermediate to good <!--SR:!2026-01-29,16,290-->
->   - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: - poor to good <!--SR:!2026-01-29,16,290-->
+>   - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high <!--SR:!2026-04-06,67,310-->
+>   - [electrical conductivity](electrical%20conductivity.md) / metalloid :@: - intermediate to good <!--SR:!2026-04-04,65,310-->
+>   - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: - poor to good <!--SR:!2026-04-06,67,310-->
 > - form
->   - form / metal :@: - almost all [solid](solid.md) <br/> - [liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md)) <!--SR:!2026-01-29,16,290-->
->   - form / metalloid :@: - all [solid](solid.md) <!--SR:!2026-01-29,16,290-->
->   - form / nonmetal :@: - mostly [gas](gas.md) <br/> - [solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md) <br/> - [liquid](liquid.md): [Br](bromine.md) <!--SR:!2026-01-29,16,290-->
+>   - form / metal :@: - almost all [solid](solid.md) <br/> - [liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md)) <!--SR:!2026-04-04,65,310-->
+>   - form / metalloid :@: - all [solid](solid.md) <!--SR:!2026-04-05,66,310-->
+>   - form / nonmetal :@: - mostly [gas](gas.md) <br/> - [solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md) <br/> - [liquid](liquid.md): [Br](bromine.md) <!--SR:!2026-04-05,66,310-->
 > - [melting point](melting%20point.md)
->   - [melting point](melting%20point.md) / metal :@: - mostly high <br/> - exceptional example(s): [Na](sodium.md) <!--SR:!2026-01-29,16,290-->
->   - [melting point](melting%20point.md) / metalloid :@: - mostly high <!--SR:!2026-01-29,16,290-->
->   - [melting point](melting%20point.md) / nonmetal :@: - mostly low <!--SR:!2026-01-29,16,290-->
+>   - [melting point](melting%20point.md) / metal :@: - mostly high <br/> - exceptional example(s): [Na](sodium.md) <!--SR:!2026-03-18,48,290-->
+>   - [melting point](melting%20point.md) / metalloid :@: - mostly high <!--SR:!2026-04-05,66,310-->
+>   - [melting point](melting%20point.md) / nonmetal :@: - mostly low <!--SR:!2026-04-03,64,310-->
 > - [thermal conductivity](thermal%20conductivity.md)
->   - [thermal conductivity](thermal%20conductivity.md) / metal :@: - medium to high <!--SR:!2026-01-29,16,290-->
->   - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: - mostly intermediate <br/> - high: [Si](silicon.md) <!--SR:!2026-01-29,16,290-->
->   - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: - almost negligible to very high <!--SR:!2026-01-29,16,290-->
+>   - [thermal conductivity](thermal%20conductivity.md) / metal :@: - medium to high <!--SR:!2026-04-03,64,310-->
+>   - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: - mostly intermediate <br/> - high: [Si](silicon.md) <!--SR:!2026-04-06,67,310-->
+>   - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: - almost negligible to very high <!--SR:!2026-04-06,67,310-->
 
 ## references
 

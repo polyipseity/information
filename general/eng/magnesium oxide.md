@@ -10,7 +10,7 @@ tags:
 
 # magnesium oxide
 
-__Magnesium oxide__, also known as {@{__magnesia__}@}, is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Mg](magnesium.md)[O](oxygen.md)__}@}. It looks like {@{white [powder](powder)}@}. <!--SR:!2034-08-01,3212,350!2026-01-25,771,330!2030-07-24,1857,270-->
+__Magnesium oxide__, also known as {@{__magnesia__}@}, is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Mg](magnesium.md)[O](oxygen.md)__}@}. It looks like {@{white [powder](powder)}@}. <!--SR:!2034-08-01,3212,350!2035-09-07,3508,350!2030-07-24,1857,270-->
 
 ## references
 

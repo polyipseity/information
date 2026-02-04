@@ -39,12 +39,12 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{3 bags of coal}@}              | {@{20 kg}@}           | {@{&dollar;25.00}@}    | {@{<u>500</u>}@}         |
 > | &emsp;{@{Total cost}@}            |                       |                        | {@{&dollar;1&nbsp;700}@} |
 >
-> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2026-02-26,270,330!2026-05-06,334,350!2026-05-15,333,350!2026-03-20,292,330!2026-03-20,292,330!2026-05-21,339,350!2026-04-30,329,350!2026-02-02,246,330!2026-04-25,324,350!2026-02-04,248,330!2026-05-29,347,350!2026-06-04,353,350!2026-05-22,340,350!2026-02-08,252,330!2026-03-20,292,330!2026-02-27,271,330!2026-05-17,335,350!2026-03-22,294,330!2026-02-03,247,330!2026-05-06,334,350!2026-02-16,260,330!2026-04-30,329,350!2026-05-05,333,350!2026-05-20,338,350-->
+> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2026-02-26,270,330!2026-05-06,334,350!2026-05-15,333,350!2026-03-20,292,330!2026-03-20,292,330!2026-05-21,339,350!2026-04-30,329,350!2029-02-28,1121,350!2026-04-25,324,350!2029-03-14,1134,350!2026-05-29,347,350!2026-06-04,353,350!2026-05-22,340,350!2026-02-08,252,330!2026-03-20,292,330!2026-02-27,271,330!2026-05-17,335,350!2026-03-22,294,330!2029-03-02,1123,350!2026-05-06,334,350!2026-02-16,260,330!2026-04-30,329,350!2026-05-05,333,350!2026-05-20,338,350-->
 
 - materials requisition form ::@:: information, table, authorized signature <!--SR:!2026-05-28,346,350!2026-06-04,353,350-->
-  - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2026-01-26,239,330!2026-05-29,347,350-->
+  - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2029-01-18,1085,350!2026-05-29,347,350-->
   - materials requisition form / table
-    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2026-01-25,238,342!2026-02-20,264,342-->
+    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2029-02-17,1115,362!2026-02-20,264,342-->
     - materials requisition form / table / row headers ::@:: material description, (materials...), total cost <!--SR:!2026-04-29,328,350!2028-01-05,781,330-->
 
 ## direct labor time ticket
@@ -69,13 +69,13 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{2025-02-14}@} | {@{07:00}@}        | {@{15:00}@}        | {@{8 hours}@}     | {@{100}@}         | {@{800}@}                | {@{69}@}         |
 > |                  |                    | {@{Weekly Total}@} | {@{78 hours}@}    |                   | {@{&dollar;7&nbsp;800}@} |                  |
 >
-> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2026-03-17,289,330!2027-09-17,700,330!2026-03-13,285,330!2026-03-01,273,330!2026-04-08,311,350!2026-05-23,341,350!2026-03-25,297,350!2026-02-02,246,330!2026-03-22,294,330!2026-04-25,324,350!2026-03-13,285,330!2026-05-28,346,350!2026-04-29,328,350!2026-04-06,309,350!2026-03-28,300,350!2026-05-23,341,350!2026-02-24,268,330!2026-03-18,290,330!2026-05-06,334,350!2026-04-30,329,350!2026-03-20,292,330!2026-02-06,250,330!2026-01-29,242,330!2026-04-19,318,350!2026-05-01,330,350!2026-05-18,336,350!2026-05-21,339,350!2026-04-01,304,350!2026-02-23,267,330!2026-04-23,322,350!2026-02-08,252,330!2026-02-24,268,330!2026-05-05,333,350!2026-03-09,281,330!2026-04-09,312,350!2026-05-22,340,350!2026-02-10,254,330!2026-02-11,255,330!2026-03-02,274,330!2026-03-21,293,330!2026-02-19,263,330!2026-05-02,330,350!2026-03-21,293,330!2026-02-01,245,330!2026-05-06,334,350!2026-04-06,309,350!2026-04-02,305,350!2026-03-02,274,330!2026-05-26,344,350!2026-04-27,326,350!2026-04-27,326,350!2026-05-17,335,350!2026-03-04,276,330!2026-05-20,338,350!2026-02-11,255,330!2026-02-24,268,330!2026-05-01,330,350-->
+> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2026-03-17,289,330!2027-09-17,700,330!2026-03-13,285,330!2026-03-01,273,330!2026-04-08,311,350!2026-05-23,341,350!2026-03-25,297,350!2029-02-24,1117,350!2026-03-22,294,330!2026-04-25,324,350!2026-03-13,285,330!2026-05-28,346,350!2026-04-29,328,350!2026-04-06,309,350!2026-03-28,300,350!2026-05-23,341,350!2026-02-24,268,330!2026-03-18,290,330!2026-05-06,334,350!2026-04-30,329,350!2026-03-20,292,330!2026-02-06,250,330!2029-02-02,1100,350!2026-04-19,318,350!2026-05-01,330,350!2026-05-18,336,350!2026-05-21,339,350!2026-04-01,304,350!2026-02-23,267,330!2026-04-23,322,350!2026-02-08,252,330!2026-02-24,268,330!2026-05-05,333,350!2026-03-09,281,330!2026-04-09,312,350!2026-05-22,340,350!2026-02-10,254,330!2026-02-11,255,330!2026-03-02,274,330!2026-03-21,293,330!2026-02-19,263,330!2026-05-02,330,350!2026-03-21,293,330!2029-02-22,1115,350!2026-05-06,334,350!2026-04-06,309,350!2026-04-02,305,350!2026-03-02,274,330!2026-05-26,344,350!2026-04-27,326,350!2026-04-27,326,350!2026-05-17,335,350!2026-03-04,276,330!2026-05-20,338,350!2026-02-11,255,330!2026-02-24,268,330!2026-05-01,330,350-->
 
-- direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2026-05-26,344,350!2026-01-24,237,330-->
+- direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2026-05-26,344,350!2029-01-06,1078,350-->
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2026-06-01,350,350!2026-04-29,328,350-->
   - direct labor time ticket / table
     - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2026-06-28,377,362!2027-06-12,636,342-->
-    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2026-01-30,243,330!2026-03-26,294,330-->
+    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2029-02-09,1102,350!2026-03-26,294,330-->
 
 ## job cost sheet
 
@@ -104,15 +104,15 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Direct Materials Cost}@}          | {@{&dollar;&nbsp;1&nbsp;700}@}        |
 > | {@{Direct Labor Cost}@}              | {@{6&nbsp;900}@}                      |
 > | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}                      |
-> | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} | <!--SR:!2026-02-01,245,330!2026-03-03,275,330!2026-05-06,334,350!2026-04-29,328,350!2026-03-17,289,330!2026-04-20,319,350!2026-02-24,268,330!2026-05-04,332,350!2026-05-19,337,350!2026-02-09,253,330!2026-05-01,330,350!2026-05-26,344,350!2026-02-28,272,330!2026-02-11,255,330!2026-01-26,239,330!2026-03-23,295,350!2026-04-24,323,350!2026-04-15,314,350!2026-01-29,242,330!2026-02-20,249,330!2026-03-03,275,330!2026-01-24,237,330!2026-05-30,348,350!2026-03-18,290,330!2026-05-04,332,350!2026-02-09,253,330!2026-02-10,254,330!2026-02-09,253,330!2026-04-28,327,350!2026-03-22,294,330!2026-04-21,320,350-->
+> | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} | <!--SR:!2029-02-23,1116,350!2026-03-03,275,330!2026-05-06,334,350!2026-04-29,328,350!2026-03-17,289,330!2026-04-20,319,350!2026-02-24,268,330!2026-05-04,332,350!2026-05-19,337,350!2026-02-09,253,330!2026-05-01,330,350!2026-05-26,344,350!2026-02-28,272,330!2026-02-11,255,330!2029-01-19,1087,350!2026-03-23,295,350!2026-04-24,323,350!2026-04-15,314,350!2029-02-03,1101,350!2026-02-20,249,330!2026-03-03,275,330!2029-01-04,1076,350!2026-05-30,348,350!2026-03-18,290,330!2026-05-04,332,350!2026-02-09,253,330!2026-02-10,254,330!2026-02-09,253,330!2026-04-28,327,350!2026-03-22,294,330!2026-04-21,320,350-->
 
 - job cost sheet ::@:: information, tables, cost summary <!--SR:!2026-02-10,254,330!2027-08-06,665,330-->
-  - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2026-05-16,334,350!2026-01-25,238,330-->
+  - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2026-05-16,334,350!2029-01-11,1078,350-->
   - job cost sheet / tables ::@:: actual direct materials, actual direct labor, applied manufacturing overhead <!--SR:!2026-03-23,295,350!2026-02-28,272,330-->
     - job cost sheet / tables / actual direct materials ::@:: req. no, amount <!--SR:!2026-05-07,335,350!2026-05-17,335,350-->
     - job cost sheet / tables / actual direct labor ::@:: ticket, hours, amount <!--SR:!2026-03-19,291,330!2026-03-26,298,350-->
-    - job cost sheet / tables / applied manufacturing overhead ::@:: (primary cost driver unit), amount <!--SR:!2026-01-30,243,330!2026-05-04,332,350-->
-  - job cost sheet / cost summary ::@:: direct materials cost + direct labor cost + applied manufacturing overhead = total cost <!--SR:!2026-05-07,335,350!2026-01-19,232,330-->
+    - job cost sheet / tables / applied manufacturing overhead ::@:: (primary cost driver unit), amount <!--SR:!2029-02-11,1104,350!2026-05-04,332,350-->
+  - job cost sheet / cost summary ::@:: direct materials cost + direct labor cost + applied manufacturing overhead = total cost <!--SR:!2026-05-07,335,350!2028-12-14,1055,350-->
 
 ## cost of goods manufacturing report
 
@@ -132,11 +132,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Total current manufacturing costs}@}               | {@{&dollar;1&nbsp;750}@}            |
 > | &emsp;{@{Plus: Beginning work in process inventory}@} | {@{2&nbsp;000}@}                    |
 > | &emsp;{@{Less: Ending work in process inventory}@}    | {@{\(1&nbsp;000\)}@}                |
-> | {@{Cost of goods manufactured}@}                      | {@{__&dollar;<u>2&nbsp;750</u>__}@} | <!--SR:!2026-03-31,303,350!2026-02-07,251,330!2026-05-21,339,350!2026-02-19,263,330!2026-03-30,302,350!2026-02-08,252,330!2026-06-01,350,350!2026-02-23,267,330!2026-04-17,316,350!2026-02-02,246,330!2026-04-18,317,350!2027-11-06,741,330!2026-04-20,319,350!2026-01-27,240,330!2026-03-20,292,330!2026-02-23,267,330!2026-03-20,292,330!2026-05-04,332,350!2026-05-05,333,350!2026-05-17,335,350!2026-02-09,253,330!2026-01-31,244,330-->
+> | {@{Cost of goods manufactured}@}                      | {@{__&dollar;<u>2&nbsp;750</u>__}@} | <!--SR:!2026-03-31,303,350!2026-02-07,251,330!2026-05-21,339,350!2026-02-19,263,330!2026-03-30,302,350!2026-02-08,252,330!2026-06-01,350,350!2026-02-23,267,330!2026-04-17,316,350!2029-02-27,1120,350!2026-04-18,317,350!2027-11-06,741,330!2026-04-20,319,350!2029-01-22,1089,350!2026-03-20,292,330!2026-02-23,267,330!2026-03-20,292,330!2026-05-04,332,350!2026-05-05,333,350!2026-05-17,335,350!2026-02-09,253,330!2029-02-14,1107,350-->
 
-- cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured <!--SR:!2026-02-10,254,330!2026-01-24,237,330-->
+- cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured <!--SR:!2026-02-10,254,330!2029-01-03,1075,350-->
   - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\) <!--SR:!2026-05-16,334,350!2026-03-04,276,330-->
-  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2027-09-17,654,310!2026-01-24,237,330-->
+  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2027-09-17,654,310!2029-01-07,1079,350-->
 
 ## income statement (cost of goods sold)
 
@@ -151,11 +151,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{Plus: Cost of goods manufactured}@}         | {@{2&nbsp;750}@}     |                         |
 > | &emsp;{@{Less: Ending finished goods inventory}@}    | {@{<u>(200)</u>}@}   |                         |
 > | {@{Unadjusted cost of goods sold}@}                  | {@{3&nbsp;150}@}     |                         |
-> | &emsp;{@{Less: Overapplied manufacturing overhead}@} | {@{<u>\(150\)</u>}@} | {@{<u>3&nbsp;000</u>}@} | <!--SR:!2026-02-24,268,330!2026-05-19,337,350!2026-03-09,281,330!2026-01-29,242,330!2026-02-03,247,330!2026-05-19,337,350!2026-04-07,310,350!2026-03-09,281,330!2026-05-16,334,350!2026-03-13,285,330!2026-05-21,339,350!2026-01-26,239,330-->
+> | &emsp;{@{Less: Overapplied manufacturing overhead}@} | {@{<u>\(150\)</u>}@} | {@{<u>3&nbsp;000</u>}@} | <!--SR:!2026-02-24,268,330!2026-05-19,337,350!2026-03-09,281,330!2029-02-03,1101,350!2029-03-03,1124,350!2026-05-19,337,350!2026-04-07,310,350!2026-03-09,281,330!2026-05-16,334,350!2026-03-13,285,330!2026-05-21,339,350!2029-01-20,1087,350-->
 
 - income statement \(cost of goods sold\) ::@:: _unadjusted_ cost of goods sold +/− \(plus:\) underapplied manufacturing overhead/\(less:\) overapplied manufacturing overhead = \(adjusted\) cost of goods sold <!--SR:!2026-03-22,294,330!2026-04-28,327,350-->
   - income statement \(cost of goods sold\) / unadjusted cost of goods sold ::@:: beginning finished goods inventory + \(plus:\) cost of goods manufactured − \(less:\) ending finished goods inventory <!--SR:!2026-05-06,334,350!2026-03-01,273,330-->
-- income statement ::@:: sales revenue − \(less:\) cost of goods sold = gross profit <br/> gross profit − \(less:\) selling and administrative expenses = net operating income <!--SR:!2028-10-03,996,350!2026-01-24,237,330-->
+- income statement ::@:: sales revenue − \(less:\) cost of goods sold = gross profit <br/> gross profit − \(less:\) selling and administrative expenses = net operating income <!--SR:!2028-10-03,996,350!2029-01-05,1077,350-->
 
 ## T account
 
@@ -173,10 +173,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Income}@}            | {@{100}@}               |                                                    |                 |
 > |                         |                         | {@{50}@}                                           | {@{Transport}@} |
 > |                         | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯              | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯                                         |                 |
-> | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 | <!--SR:!2026-05-18,336,350!2026-01-27,240,330!2026-05-03,331,350!2026-03-19,291,330!2026-04-26,325,350!2026-02-01,245,330!2026-05-01,330,350!2026-04-30,329,350!2026-03-18,290,330!2026-05-25,343,350!2026-03-30,302,350!2026-01-25,238,330!2026-02-23,267,330!2026-05-06,334,350-->
+> | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 | <!--SR:!2026-05-18,336,350!2029-01-23,1090,350!2026-05-03,331,350!2026-03-19,291,330!2026-04-26,325,350!2029-02-21,1114,350!2026-05-01,330,350!2026-04-30,329,350!2026-03-18,290,330!2026-05-25,343,350!2026-03-30,302,350!2029-01-16,1083,350!2026-02-23,267,330!2026-05-06,334,350-->
 
 - T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance. <!--SR:!2026-03-26,298,350!2026-05-02,330,350-->
-  - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line. <!--SR:!2026-02-26,270,330!2026-01-25,238,330-->
+  - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line. <!--SR:!2026-02-26,270,330!2029-01-12,1079,350-->
 
 ## process costing (weighted average)
 
@@ -226,11 +226,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ----------------------------- | ------------------------------:| ------------------------------:| ------------------------------:|
 > | {@{Cost of Units Completed}@} | {@{&dollar;&emsp;500}@}        | {@{&dollar;&emsp;500}@}        | {@{&dollar;&emsp;1&nbsp;000}@} |
 > | {@{Ending Inventory}@}        | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
-> | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2026-02-04,248,330!2026-04-03,306,350!2026-05-24,342,350!2026-05-07,335,350!2026-04-21,320,350!2026-05-27,345,350!2026-05-04,332,350!2026-04-23,322,350!2026-05-24,342,350!2026-03-21,293,330!2026-02-09,253,330!2026-05-03,331,350!2026-01-27,240,330!2026-05-31,349,350!2026-01-27,240,330!2026-04-22,321,350!2026-03-19,291,330-->
+> | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2029-03-13,1133,350!2026-04-03,306,350!2026-05-24,342,350!2026-05-07,335,350!2026-04-21,320,350!2026-05-27,345,350!2026-05-04,332,350!2026-04-23,322,350!2026-05-24,342,350!2026-03-21,293,330!2026-02-09,253,330!2026-05-03,331,350!2029-01-25,1092,350!2026-05-31,349,350!2029-01-26,1093,350!2026-04-22,321,350!2026-03-19,291,330-->
 
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2026-03-27,299,350!2026-11-25,455,310-->
   - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-04-04,307,350!2026-11-24,459,330-->
-    - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2026-02-07,251,330!2026-02-03,247,330-->
+    - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2026-02-07,251,330!2029-03-10,1131,350-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2026-03-03,275,330!2028-10-06,999,350-->
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2027-07-31,661,330!2026-02-12,256,330-->
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2028-03-25,864,350!2027-12-26,762,330-->
@@ -263,7 +263,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Beginning Work In Process}@} | {@{420}@}            | {@{10}@}               | {@{30}@}         |
 > | {@{Completed/Transferred}@}     | {@{80}@}             | {@{80}@}               | {@{80}@}         |
 > | {@{Ending Inventory}@}          | {@{610}@}            | {@{600}@}              | {@{590}@}        |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | {@{690}@}              | {@{700}@}        | <!--SR:!2026-02-26,270,330!2026-01-29,242,330!2026-05-16,334,350!2026-05-22,340,350!2026-02-05,249,330!2026-03-24,296,350!2026-05-23,341,350!2026-04-05,308,350!2026-02-23,267,330!2026-04-07,310,350!2026-05-20,338,350!2026-02-08,252,330!2026-04-25,324,350!2026-02-01,245,330!2026-01-24,237,330!2026-02-24,268,330!2026-04-20,319,350!2026-02-09,253,330!2026-02-26,270,330!2026-03-22,294,330!2026-05-07,335,350-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | {@{690}@}              | {@{700}@}        | <!--SR:!2026-02-26,270,330!2029-02-04,1102,350!2026-05-16,334,350!2026-05-22,340,350!2026-02-05,249,330!2026-03-24,296,350!2026-05-23,341,350!2026-04-05,308,350!2026-02-23,267,330!2026-04-07,310,350!2026-05-20,338,350!2026-02-08,252,330!2026-04-25,324,350!2029-02-20,1113,350!2029-01-02,1074,350!2026-02-24,268,330!2026-04-20,319,350!2026-02-09,253,330!2026-02-26,270,330!2026-03-22,294,330!2026-05-07,335,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -275,7 +275,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | -----------------------:| -----------------------:| ------------------------------:|
 > | {@{Cost Added in This Period}@} | {@{&dollar;&emsp;690}@} | {@{&dollar;&emsp;700}@} | {@{&dollar;&emsp;1&nbsp;390}@} |
 > | {@{Equivalent Units}@}          | {@{÷&emsp;690}@}        | {@{÷&emsp;700}@}        |                                |
-> | {@{Cost Per Equivalent Unit}@}  | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;2}@}          | <!--SR:!2026-01-31,244,330!2026-05-19,337,350!2026-04-16,315,350!2026-05-01,330,350!2026-05-17,335,350!2026-05-28,346,350!2026-02-11,255,330!2026-02-18,262,330!2026-01-28,241,330!2026-05-29,347,350!2026-05-22,340,350!2026-03-19,291,330!2026-05-17,335,350!2026-03-28,300,350!2026-02-15,259,330!2026-05-29,347,350-->
+> | {@{Cost Per Equivalent Unit}@}  | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;2}@}          | <!--SR:!2029-02-17,1110,350!2026-05-19,337,350!2026-04-16,315,350!2026-05-01,330,350!2026-05-17,335,350!2026-05-28,346,350!2026-02-11,255,330!2026-02-18,262,330!2029-02-01,1099,350!2026-05-29,347,350!2026-05-22,340,350!2026-03-19,291,330!2026-05-17,335,350!2026-03-28,300,350!2026-02-15,259,330!2026-05-29,347,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -289,18 +289,18 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Cost to Complete Beginning Inventory}@}          | {@{10}@}                       | {@{30}@}                       | {@{40}@}                       |
 > | {@{Started and Completed}@}                         | {@{80}@}                       | {@{80}@}                       | {@{160}@}                      |
 > | {@{Ending Inventory}@}                              | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
-> | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2026-05-25,343,350!2026-05-23,341,350!2026-04-28,327,350!2026-05-05,333,350!2026-05-21,339,350!2026-05-18,336,350!2026-03-28,300,350!2026-03-21,293,330!2026-05-03,331,350!2026-02-04,248,330!2026-05-17,335,350!2026-01-26,239,330!2026-02-28,272,330!2026-06-03,352,350!2026-03-18,290,330!2026-05-02,330,350!2026-05-26,344,350!2026-04-26,325,350!2026-01-19,232,330!2026-05-25,343,350!2026-03-17,289,330!2026-03-19,291,330!2026-03-03,275,330!2026-01-30,243,330!2026-05-28,346,350-->
+> | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2026-05-25,343,350!2026-05-23,341,350!2026-04-28,327,350!2026-05-05,333,350!2026-05-21,339,350!2026-05-18,336,350!2026-03-28,300,350!2026-03-21,293,330!2026-05-03,331,350!2029-03-15,1135,350!2026-05-17,335,350!2029-01-19,1086,350!2026-02-28,272,330!2026-06-03,352,350!2026-03-18,290,330!2026-05-02,330,350!2026-05-26,344,350!2026-04-26,325,350!2028-12-15,1056,350!2026-05-25,343,350!2026-03-17,289,330!2026-03-19,291,330!2026-03-03,275,330!2029-02-13,1106,350!2026-05-28,346,350-->
 
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2026-02-17,261,330!2027-05-02,588,330-->
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-03-18,290,330!2026-03-17,289,330-->
     - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2027-10-27,733,330!2026-05-16,334,350-->
-    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2027-04-11,571,330!2026-01-28,241,330-->
-  - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2026-02-25,269,330!2026-01-28,241,330-->
+    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2027-04-11,571,330!2029-02-05,1103,350-->
+  - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2026-02-25,269,330!2029-01-29,1097,350-->
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2026-07-20,363,310!2027-10-16,677,330-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2026-05-19,337,350!2026-05-31,349,350-->
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2026-10-11,432,310!2026-02-13,242,330-->
 - production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-27,376,362!2026-06-24,373,362-->
-  - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2026-02-02,246,330!2026-03-18,290,330-->
+  - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2029-03-01,1122,350!2026-03-18,290,330-->
   - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2026-06-02,351,362!2026-07-25,397,362-->
 
 ## activity cost pool
@@ -311,9 +311,9 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > | {@{Activity Cost Pool}@} | {@{Total Activity Cost}@}      | {@{Process A}@} | {@{Process B}@} | {@{Total}@} |
 > | ------------------------ | ------------------------------:| ---------------:| ---------------:| -----------:|
-> | {@{Machining}@}          | {@{&dollar;&emsp;4&nbsp;200}@} | {@{200}@}       | {@{220}@}       | {@{420}@}   | <!--SR:!2026-05-23,341,350!2026-02-15,259,330!2026-05-25,343,350!2026-05-26,344,350!2026-01-27,240,330!2026-04-28,327,350!2026-05-20,338,350!2028-08-11,968,350!2026-05-24,342,350!2026-05-20,338,350-->
+> | {@{Machining}@}          | {@{&dollar;&emsp;4&nbsp;200}@} | {@{200}@}       | {@{220}@}       | {@{420}@}   | <!--SR:!2026-05-23,341,350!2026-02-15,259,330!2026-05-25,343,350!2026-05-26,344,350!2029-01-20,1088,350!2026-04-28,327,350!2026-05-20,338,350!2028-08-11,968,350!2026-05-24,342,350!2026-05-20,338,350-->
 
-- activity cost pool ::@:: _column headers_: activity cost pool, total activity cost, \(processes...\), total <!--SR:!2026-05-17,335,350!2026-01-24,237,330-->
+- activity cost pool ::@:: _column headers_: activity cost pool, total activity cost, \(processes...\), total <!--SR:!2026-05-17,335,350!2029-01-08,1080,350-->
 
 ## activity cost allocation
 
@@ -329,7 +329,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - activity cost allocation
   - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2028-09-29,992,350!2026-02-24,268,330-->
-  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2026-01-31,244,330!2028-02-24,839,350-->
+  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2029-02-12,1105,350!2028-02-24,839,350-->
 
 ## activity cost driver - setups
 
@@ -341,7 +341,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------ | -----------------:| ----------------:| -----------:|
 > | {@{Number of Units Produced}@} | {@{300}@}         | {@{100}@}        | {@{400}@}   |
 > | {@{Average Units Per Batch}@}  | {@{20}@}          | {@{5}@}          |             |
-> | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2026-05-16,334,350!2026-01-26,239,330!2026-03-18,290,330!2026-01-31,244,330!2026-05-16,334,350!2026-03-13,285,330!2026-04-26,325,350!2026-03-29,301,350!2026-06-02,351,350!2026-02-10,254,330!2026-02-08,252,330!2026-02-25,269,330!2026-05-27,345,350!2026-04-30,329,350!2026-03-27,299,350-->
+> | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2026-05-16,334,350!2029-01-21,1088,350!2026-03-18,290,330!2029-02-16,1109,350!2026-05-16,334,350!2026-03-13,285,330!2026-04-26,325,350!2026-03-29,301,350!2026-06-02,351,350!2026-02-10,254,330!2026-02-08,252,330!2026-02-25,269,330!2026-05-27,345,350!2026-04-30,329,350!2026-03-27,299,350-->
 
 - activity cost driver - setups
   - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2027-08-26,681,330!2026-03-13,285,330-->
@@ -357,7 +357,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | --------------------------------------- | ------------------------------:| ------------------------------:| ------------------------------:|
 > | {@{Machining}@}                         | {@{&dollar;&emsp;2&nbsp;000}@} | {@{&dollar;&emsp;2&nbsp;200}@} | {@{&dollar;&emsp;4&nbsp;200}@} |
 > | {@{Setup}@}                             | {@{1&nbsp;500}@}               | {@{2&nbsp;000}@}               | {@{3&nbsp;500}@}               |
-> | {@{Total Manufacturing Overhead Cost}@} | {@{&dollar;&emsp;3&nbsp;500}@} | {@{&dollar;&emsp;4&nbsp;200}@} | {@{&dollar;&emsp;7&nbsp;700}@} | <!--SR:!2026-05-18,336,350!2026-05-18,336,350!2026-05-19,337,350!2026-02-08,252,330!2026-05-22,340,350!2026-02-07,251,330!2026-02-11,255,330!2026-05-03,331,350!2026-03-01,273,330!2026-01-28,241,330!2026-03-21,293,330!2026-05-24,342,350!2026-04-24,323,350!2026-01-30,243,330!2026-05-01,330,350!2026-02-23,267,330-->
+> | {@{Total Manufacturing Overhead Cost}@} | {@{&dollar;&emsp;3&nbsp;500}@} | {@{&dollar;&emsp;4&nbsp;200}@} | {@{&dollar;&emsp;7&nbsp;700}@} | <!--SR:!2026-05-18,336,350!2026-05-18,336,350!2026-05-19,337,350!2026-02-08,252,330!2026-05-22,340,350!2026-02-07,251,330!2026-02-11,255,330!2026-05-03,331,350!2026-03-01,273,330!2029-01-27,1094,350!2026-03-21,293,330!2026-05-24,342,350!2026-04-24,323,350!2029-02-10,1103,350!2026-05-01,330,350!2026-02-23,267,330-->
 
 - total manufacturing overhead
   - total manufacturing overhead / column headers ::@:: activity cost pool, (activity pools...), total manufacturing overhead cost <!--SR:!2026-04-24,323,350!2028-02-23,809,330-->

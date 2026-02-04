@@ -34,9 +34,9 @@ The EMH rests on several assumptions. First, news events arrive randomly; for in
 
 Investors may access various kinds of data: public market data, public fundamental information, and insider or private information.
 
-1. _Public market data_ ::@:: – historical prices, trading volume, dividends, and other observable statistics. <!--SR:!2026-03-16,57,310!2026-01-19,15,290-->
-2. _Public fundamental information_ ::@:: – apart from public market data, additionally includes news releases, corporate announcements, macroeconomic reports. <!--SR:!2026-01-20,16,290!2026-03-14,55,310-->
-3. _Insider or private information_ ::@:: – material facts not yet public. <!--SR:!2026-01-20,16,290!2026-01-19,15,290-->
+1. _Public market data_ ::@:: – historical prices, trading volume, dividends, and other observable statistics. <!--SR:!2026-03-16,57,310!2026-03-24,58,310-->
+2. _Public fundamental information_ ::@:: – apart from public market data, additionally includes news releases, corporate announcements, macroeconomic reports. <!--SR:!2026-03-30,64,310!2026-03-14,55,310-->
+3. _Insider or private information_ ::@:: – material facts not yet public. <!--SR:!2026-03-29,63,310!2026-03-28,62,310-->
 
 In an efficient market each of these categories should be incorporated into the current price as soon as it becomes known.
 

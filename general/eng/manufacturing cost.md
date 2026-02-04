@@ -15,7 +15,7 @@ tags:
 
 ## direct materials cost
 
-{@{Direct materials}@} are {@{the [raw materials](raw%20material.md) that become a part of the finished product}@}. Manufacturing {@{adds value to raw materials}@} by {@{applying a chain of operations to maintain a deliverable product}@}. There are {@{many operations that can be applied to raw materials}@} such as {@{[welding](welding.md), cutting and [painting](painting.md)}@}. It is important to {@{differentiate between direct materials and indirect materials}@}. <!--SR:!2029-03-03,1154,350!2026-01-26,275,330!2028-12-26,1105,350!2029-05-21,1220,350!2029-03-13,1164,350!2027-12-07,789,330!2026-02-14,290,330-->
+{@{Direct materials}@} are {@{the [raw materials](raw%20material.md) that become a part of the finished product}@}. Manufacturing {@{adds value to raw materials}@} by {@{applying a chain of operations to maintain a deliverable product}@}. There are {@{many operations that can be applied to raw materials}@} such as {@{[welding](welding.md), cutting and [painting](painting.md)}@}. It is important to {@{differentiate between direct materials and indirect materials}@}. <!--SR:!2029-03-03,1154,350!2029-07-04,1253,350!2028-12-26,1105,350!2029-05-21,1220,350!2029-03-13,1164,350!2027-12-07,789,330!2026-02-14,290,330-->
 
 ## direct labour cost
 
@@ -23,11 +23,11 @@ tags:
 
 ## manufacturing overhead
 
-{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2026-01-19,269,330!2026-01-30,276,330!2028-10-06,1039,350-->
+{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2029-06-05,1224,350!2029-07-17,1261,350!2028-10-06,1039,350-->
 
 ### manufacturing overhead includes
 
-1. Indirect labour cost: ::@:: The indirect labour cost is the cost associated with workers, such as supervisors and [material handling](material%20handling.md) team, who are not directly involved in the production. <!--SR:!2027-10-19,752,330!2026-02-04,281,330-->
+1. Indirect labour cost: ::@:: The indirect labour cost is the cost associated with workers, such as supervisors and [material handling](material%20handling.md) team, who are not directly involved in the production. <!--SR:!2027-10-19,752,330!2029-08-12,1285,350-->
 2. Indirect materials cost: ::@:: Indirect materials cost is the cost associated with consumables, such as lubricants, [grease](grease%20(lubricant).md), and [water](water.md), that are not used as raw materials. <!--SR:!2026-02-05,282,330!2028-01-07,816,330-->
 3. Other indirect manufacturing cost: ::@:: includes machine depreciation, [land rent](land%20rent.md#land%20rent), [property insurance](property%20insurance.md), [electricity](electricity.md), freight and transportation, or any expenses that keep the [factory](factory.md) operating. <!--SR:!2027-06-04,613,290!2026-12-05,500,310-->
 

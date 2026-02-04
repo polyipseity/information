@@ -56,7 +56,7 @@ The content is in teaching order.
 - topic: introduction, reactive agents
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI) ::@:: John McCarthy, one of the founders of AI — "It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable." <!--SR:!2026-10-18,457,310!2026-08-12,406,310-->
   - artificial intelligence / intuition ::@:: What is it? A calculator? An operating system? A text editor? ChatGPT or DeepSeek? <!--SR:!2029-01-10,1102,350!2029-01-05,1097,350-->
-  - artificial intelligence / motivations ::@:: forefront of computer applications; make machines do things so far that can be done by humans; in the long-term, make machines that can act, sense, and think intelligently <!--SR:!2028-12-31,1092,350!2026-01-30,268,330-->
+  - artificial intelligence / motivations ::@:: forefront of computer applications; make machines do things so far that can be done by humans; in the long-term, make machines that can act, sense, and think intelligently <!--SR:!2028-12-31,1092,350!2029-06-02,1217,350-->
   - artificial intelligence / algorithms, techniques ::@:: heuristic search algorithms, knowledge representation languages, machine learning algorithms and reasoners, etc. <!--SR:!2026-10-19,443,310!2026-10-20,444,310-->
   - artificial intelligence / impacts ::@:: engineering, science; everyday life; humanity in general <!--SR:!2026-10-18,442,310!2026-03-09,285,330-->
   - artificial intelligence / in computer science (CS) ::@:: science and engineering of making intelligent computer programs, the frontier of computer applications; new ways to solve problems with a computer <!--SR:!2026-09-09,423,310!2026-09-18,432,310-->
@@ -68,7 +68,7 @@ The content is in teaching order.
     - artificial intelligence / history / 1956 ::@:: John McCarthy coined the term "__artificial intelligence__" as the topic of the Dartmouth Conference, the first conference devoted to the subject. The conference was proposed by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon: "2 month, 10 man study of artificial intelligence". <!--SR:!2028-02-09,780,290!2027-12-12,735,290-->
     - artificial intelligence / history / Marvel (1992) ::@:: a real-time expert system that monitors the massive stream of data from the Voyager spacecraft, handling routine tasks, and alerting the analysts to more serious problems at Jet Propulsion Laboratory (JPL) <!--SR:!2026-02-22,270,290!2026-08-15,408,310-->
     - artificial intelligence / history / Pegasus (1994) ::@:: a speech understanding program that handles airline ticket reservations <!--SR:!2026-08-05,399,310!2026-10-26,450,310-->
-    - artificial intelligence / history / Gulf War ::@:: An AI planning and scheduling system employed by US military. A DARPA report said the saving from this AI system had paid back the US Government all its investment on AI during the past 20 years. <!--SR:!2027-08-10,689,330!2026-01-26,264,330-->
+    - artificial intelligence / history / Gulf War ::@:: An AI planning and scheduling system employed by US military. A DARPA report said the saving from this AI system had paid back the US Government all its investment on AI during the past 20 years. <!--SR:!2027-08-10,689,330!2029-05-15,1205,350-->
     - artificial intelligence / history / older AIs & misc ::@:: Deep Blue (1997), IBM Watson (2011), AlphaFold (2020) <!--SR:!2027-07-04,626,290!2026-08-11,405,310-->
     - artificial intelligence / history / playing Go ::@:: AlphaGo (2016), AlphaGo Zero (2017) <!--SR:!2026-09-22,436,310!2027-10-14,742,330-->
     - artificial intelligence / history / GPT ::@:: GPT-3 (2020), ChatGPT (2022), GPT4 (2023), GPT4o (2024) <!--SR:!2026-11-12,477,310!2026-11-26,460,290-->
@@ -161,7 +161,7 @@ The content is in teaching order.
     - genetic programming / selection / example ::@:: We run the program for a certain number of steps and count the number of steps with an adjacent wall. We clamp its value between 0 and 32. We do 10 runs at random starting positions and sum the values (clamped between 0 and 320). <!--SR:!2026-05-20,349,353!2026-06-12,372,363-->
   - genetic programming / reproduction ::@:: Common methods for producing a new generation: copy, crossover, mutate. <!--SR:!2026-06-14,374,363!2027-06-04,642,343-->
     - genetic programming / reproduction / copy ::@:: Copy some programs from the previous generation. They are called the _parents_. A _tournament selection_ is used: randomly select some programs and choose the best one to copy. Other methods are possible. <p> A typical percentage of the new generation copied is 10%. <!--SR:!2027-01-30,539,333!2026-05-16,353,363-->
-    - genetic programming / reproduction / crossover ::@:: From the copied _parents_, select 2 programs. A randomly chosen subtree of one parent is used to replace (including the subtree root node) a randomly selected subtree of another parent. <p> A typical percentage of the new generation crossover-ed is 90%. <!--SR:!2026-01-24,241,333!2026-01-23,240,333-->
+    - genetic programming / reproduction / crossover ::@:: From the copied _parents_, select 2 programs. A randomly chosen subtree of one parent is used to replace (including the subtree root node) a randomly selected subtree of another parent. <p> A typical percentage of the new generation crossover-ed is 90%. <!--SR:!2029-02-05,1106,353!2029-01-31,1101,353-->
     - genetic programming / reproduction / mutate ::@:: From the copied _parents_, select 1 program. Replace a randomly selected subtree by a new randomly generated subtree. <p> A typical percentage of the new generation mutated is 1% \(i.e. rarely occurs\). <!--SR:!2028-10-23,1046,363!2026-05-21,350,353-->
   - genetic programming / performance ::@:: It depends on the initial generation size, copy/crossover/mutate rates, and tournament selection parameters. <p> The wall-following example in the slides generates a perfect tree after 10 generations. <!--SR:!2026-06-30,390,363!2026-06-20,380,363-->
 
@@ -299,7 +299,7 @@ The content is in teaching order.
   - consistent heuristic / example ::@:: A simple example is $h(n) = 0$. A more practical example is on a map, $h(n)$ is the straight line distance. <!--SR:!2026-10-17,475,396!2026-11-23,506,396-->
   - consistent heuristic / from admissible heuristic ::@:: If the number of operators is finite (thus finite branching factor), and the cost of each operator is greater than a positive real $\varepsilon$, then an admissible heuristic can be made into a consistent heuristic. <!--SR:!2026-11-10,496,396!2026-11-03,489,396-->
 - A\* search algorithm
-  - A\* search algorithm / behavior ::@:: Assuming $h(n)$ is _admissible_. Let $f*$ be the path cost to the optimal solution. Then the algorithm will explore all nodes with $f(n) < f*$, some of the non-solution nodes with $f(n) = f*$, and none of the nodes with $f(n) > f*$. <p> Assuming $h(n)$ is further _consistent_ (implies being _admissible_). Then the nodes are visited in increasing $f(n) = g(n) + h(n)$ up until $f*$ (inclusive). Some of the non-solution nodes with $f(n) = f$ may be visited. Further, it is _optimally efficient_ in that no other algorithms expand a subset of the nodes expanded by this algorithm (Dechter and Pearl, 1985). <!--SR:!2026-01-26,235,356!2026-11-13,498,396-->
+  - A\* search algorithm / behavior ::@:: Assuming $h(n)$ is _admissible_. Let $f*$ be the path cost to the optimal solution. Then the algorithm will explore all nodes with $f(n) < f*$, some of the non-solution nodes with $f(n) = f*$, and none of the nodes with $f(n) > f*$. <p> Assuming $h(n)$ is further _consistent_ (implies being _admissible_). Then the nodes are visited in increasing $f(n) = g(n) + h(n)$ up until $f*$ (inclusive). Some of the non-solution nodes with $f(n) = f$ may be visited. Further, it is _optimally efficient_ in that no other algorithms expand a subset of the nodes expanded by this algorithm (Dechter and Pearl, 1985). <!--SR:!2029-03-20,1149,376!2026-11-13,498,396-->
   - A\* search algorithm / completeness ::@:: If there is a solution, yes, for finite graphs with nonnegative edges, and infinite graphs with finite branching factors and edge costs larger than a positive real $\varepsilon$. If there are no solutions, the former is guaranteed to terminate while the latter is not. <p> Proof is by realizing that there are a finite number of nodes to expand (nodes with $f(n) < f*$) before expanding nodes with $f*$. <!--SR:!2026-10-09,470,396!2026-11-27,508,396-->
   - A\* search algorithm / optimality ::@:: Given the heuristic function is _admissible_, yes. <p> Proof is by assuming a non-optimal path is outputted and deriving a contradiction: <p> __S__<sub>__true__</sub> \< __T__<sub>__true__</sub>: __S__ is an optimal path and __T__ is a non-optimal path. <br/> __T__<sub>__eval__</sub> ≤ __S__<sub>__eval__</sub>: __T__ was picked instead of __S__ before terminating. <br/> __T__<sub>__eval__</sub> ≤ __T__<sub>__true__</sub>, __S__<sub>__eval__</sub> ≤ __S__<sub>__true__</sub>: The heuristic is admissible. <!--SR:!2026-10-28,485,396!2026-06-11,349,376-->
   - A\* search algorithm / worst-case space complexity ::@:: $O(|V|)=O(b^{d})$, where _d_ is the depth of the solution \(the length of the shortest path\) and _b_ is the [branching factor](../../../../general/branching%20factor.md) \(the maximum number of successors for a state\), as it stores all generated nodes in memory. <!--SR:!2026-11-04,490,396!2028-11-25,1056,376-->
@@ -1045,18 +1045,18 @@ The content is in teaching order.
     - data: ? → ?
 - report
   - question 5: auction
-    - proving Nash equilibria of second-price sealed-bid auction \(−8\) ::@:: Maybe you could look up the Nash equilibria of SPSBA beforehand... <!--SR:!2028-09-01,961,468!2026-01-20,171,448-->
+    - proving Nash equilibria of second-price sealed-bid auction \(−8\) ::@:: Maybe you could look up the Nash equilibria of SPSBA beforehand... <!--SR:!2028-09-01,961,468!2028-12-04,1047,468-->
   - question 6: logic
     - declaring propositions \(−1\) ::@:: When axiomatizing natural text, you need to state the propositions. <!--SR:!2028-10-21,1010,468!2028-09-06,966,468-->
     - declaring answer predicate \(−0.5\) ::@:: You need to declare what the answer predicate $A(x)$ is, not just simply use it. <!--SR:!2028-10-06,996,468!2028-09-19,979,468-->
   - question 7: perceptron and GSCA
-    - explaining GSCA failure \(−1\) ::@:: You need to _explicitly_ state that GSCA cannot learn negative literals. <!--SR:!2026-01-20,171,448!2028-10-17,1007,468-->
+    - explaining GSCA failure \(−1\) ::@:: You need to _explicitly_ state that GSCA cannot learn negative literals. <!--SR:!2028-11-27,1040,468!2028-10-17,1007,468-->
 - check
   - datetime: 2025-06-02T13:30:00+08:00/2025-06-02T15:30:00+08:00, PT2H
   - venue: Room 6573, Academic Building
   - report
   - question 6: logic
-    - using answer predicate \(+1\) ::@:: No idea why one of the correct answers Zoey was marked wrong...? <!--SR:!2026-01-21,172,448!2026-01-21,172,448-->
+    - using answer predicate \(+1\) ::@:: No idea why one of the correct answers Zoey was marked wrong...? <!--SR:!2028-12-06,1049,468!2028-12-07,1050,468-->
 
 > __<big><big>Final Exam Information and Past Final Exam Papers</big></big>__
 >

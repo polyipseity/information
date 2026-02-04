@@ -264,7 +264,7 @@ return _chain.from_iterable(await _gather(
 - (operator) `&`→::@::←`LEFT(string, length)` <!--SR:!2028-02-13,1036,310!2027-01-29,768,290-->
 - `LEFT(string, length)`→::@::←`LEN(string)` <!--SR:!2028-10-12,1254,310!2026-09-26,624,250-->
 - `LEN(string)`→::@::←`LOWER(string)` <!--SR:!2027-01-21,722,290!2028-03-08,1036,310-->
-- `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2026-10-18,388,170!2026-01-30,426,250-->
+- `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2026-10-18,388,170!2030-03-07,1495,270-->
 - `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2026-10-07,618,270!2026-02-17,430,250-->
 - `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2028-03-10,946,250!2026-06-05,327,190-->
 - `UPPER(string)`→::@::←_(end)_ <!--SR:!2026-11-06,757,330!2027-09-15,964,310-->
@@ -337,9 +337,9 @@ return _chain.from_iterable(await _gather(
 - `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2027-09-26,931,310-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2026-07-19,579,250!2026-07-24,575,270-->
 - `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2028-03-02,1160,350!2027-11-18,1078,350-->
-- `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2026-01-20,362,210!2028-04-21,1095,290-->
+- `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2029-01-11,1075,230!2028-04-21,1095,290-->
 - `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2027-12-23,972,270!2029-05-02,1349,290-->
-- `STDEV(numbers...)`→::@::←`SUM(numbers...)` <!--SR:!2028-12-21,1387,350!2026-01-20,504,290-->
+- `STDEV(numbers...)`→::@::←`SUM(numbers...)` <!--SR:!2028-12-21,1387,350!2031-08-28,2034,310-->
 - `SUM(numbers...)`→::@::←_(end)_ <!--SR:!2027-12-16,1023,310!2026-02-05,476,270-->
 
 <!--/pytextgen-->

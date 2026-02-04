@@ -11,11 +11,11 @@ tags:
 
 # direct materials cost
 
-{@{__Direct materials cost__}@} is {@{the cost of direct materials which can be easily identified with the unit of production}@}. For example, {@{the cost of glass}@} is {@{a direct materials cost in light bulb manufacturing}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-02-12,286,330!2026-02-07,284,330!2026-02-13,287,330!2026-02-02,280,330-->
+{@{__Direct materials cost__}@} is {@{the cost of direct materials which can be easily identified with the unit of production}@}. For example, {@{the cost of glass}@} is {@{a direct materials cost in light bulb manufacturing}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-02-12,286,330!2026-02-07,284,330!2026-02-13,287,330!2029-08-04,1279,350-->
 
-{@{The manufacture of products or goods}@} {@{requires material as the prime element}@}. In general, these materials are {@{divided into two categories}@}. These categories are {@{direct materials and indirect materials}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-28,275,330!2026-02-03,281,330!2028-01-17,820,330!2026-02-12,288,330-->
+{@{The manufacture of products or goods}@} {@{requires material as the prime element}@}. In general, these materials are {@{divided into two categories}@}. These categories are {@{direct materials and indirect materials}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-07-11,1257,350!2029-08-11,1285,350!2028-01-17,820,330!2026-02-12,288,330-->
 
-Direct materials are also called {@{productive materials, raw materials}@},<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> {@{raw stock, stores and only materials without any descriptive title}@}. <!--SR:!2027-06-21,605,310!2026-01-27,76,352-->
+Direct materials are also called {@{productive materials, raw materials}@},<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> {@{raw stock, stores and only materials without any descriptive title}@}. <!--SR:!2027-06-21,605,310!2027-02-10,375,372-->
 
 ## see also
 

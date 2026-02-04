@@ -13,7 +13,7 @@ A Python class is never complete without teaching objects! \(Sounds oddly famili
 
 ## class
 
-To {@{create an object}@}, one needs to {@{first create a class}@}. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2027-09-22,1032,350!2026-01-28,91,358!2027-02-27,405,378-->
+To {@{create an object}@}, one needs to {@{first create a class}@}. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2027-09-22,1032,350!2027-04-24,447,378!2027-02-27,405,378-->
 
 ```Python
 class Name:
@@ -35,7 +35,7 @@ The above object stored under `name_object` is also called {@{an _instance_ of t
 
 ## attribute
 
-Note that Python attributes are not {@{declared inside the class}@}. Instead, they are {@{assigned in the [constructor](#constructor)}@}. <!--SR:!2026-10-15,737,330!2026-01-28,91,358-->
+Note that Python attributes are not {@{declared inside the class}@}. Instead, they are {@{assigned in the [constructor](#constructor)}@}. <!--SR:!2026-10-15,737,330!2027-04-23,446,378-->
 
 ## method
 

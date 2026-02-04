@@ -17,7 +17,7 @@ tags:
 
 > {@{![[multigraphs](multigraph.md) of [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [five room puzzles](five-room%20puzzle.md)](../../archives/Wikimedia%20Commons/Comparison%207%20bridges%20of%20Konigsberg%205%20room%20puzzle%20graphs.svg)}@}
 >
-> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2026-02-04,347,362!2029-03-21,1237,362!2026-03-19,380,362!2029-10-05,1389,356!2027-12-10,863,350-->
+> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2030-10-29,1728,382!2029-03-21,1237,362!2026-03-19,380,362!2029-10-05,1389,356!2027-12-10,863,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2029-09-22,1379,356!2026-03-10,372,362!2028-04-12,896,342!2026-03-26,386,362!2028-10-03,1102,362!2026-02-11,353,362!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2026-02-02,346,362!2026-03-17,379,362-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2029-09-22,1379,356!2026-03-10,372,362!2028-04-12,896,342!2026-03-26,386,362!2028-10-03,1102,362!2026-02-11,353,362!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2030-10-16,1716,382!2026-03-17,379,362-->
 
 ### Fleury's algorithm
 
@@ -143,7 +143,7 @@ The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connec
 >
 > {@{A directed graph with all even degrees that is not Eulerian}@}, serving as {@{a counterexample to the statement that a sufficient condition for a directed graph to be Eulerian is that it has all even degrees}@} <!--SR:!2029-01-23,1169,350!2026-03-29,389,362!2027-01-29,614,342-->
 
-It is possible to {@{have a [directed graph](directed%20graph.md) that has all even out-degrees but is not Eulerian}@}. Since {@{an Eulerian circuit leaves a vertex the same number of times as it enters that vertex}@}, {@{a necessary condition for an Eulerian circuit to exist}@} is that {@{the in-degree and out-degree are equal at each vertex}@}. Obviously, {@{connectivity is also necessary}@}. {@{König}@} proved that {@{these conditions are also sufficient}@}. That is, {@{a directed graph is Eulerian if and only if it is connected and the in-degree and out-degree are equal at each vertex}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-07,371,362!2029-08-19,1350,352!2028-08-07,1037,350!2029-01-15,1186,362!2026-09-28,464,310!2028-10-02,1101,362!2028-10-04,1079,350!2026-01-27,341,362-->
+It is possible to {@{have a [directed graph](directed%20graph.md) that has all even out-degrees but is not Eulerian}@}. Since {@{an Eulerian circuit leaves a vertex the same number of times as it enters that vertex}@}, {@{a necessary condition for an Eulerian circuit to exist}@} is that {@{the in-degree and out-degree are equal at each vertex}@}. Obviously, {@{connectivity is also necessary}@}. {@{König}@} proved that {@{these conditions are also sufficient}@}. That is, {@{a directed graph is Eulerian if and only if it is connected and the in-degree and out-degree are equal at each vertex}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-07,371,362!2029-08-19,1350,352!2028-08-07,1037,350!2029-01-15,1186,362!2026-09-28,464,310!2028-10-02,1101,362!2028-10-04,1079,350!2030-09-20,1695,382-->
 
 {@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2026-02-06,345,350!2029-09-28,1384,356!2026-03-18,380,362-->
 
@@ -155,7 +155,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 >
 > {@{This mixed graph is Eulerian}@}. The graph is {@{even but not symmetric}@} which proves that {@{evenness and symmetricness are not necessary and sufficient conditions for a mixed graph to be Eulerian}@}. <!--SR:!2026-04-06,396,362!2026-03-07,371,362!2027-12-25,856,342!2026-03-20,382,362-->
 
-{@{All [mixed graphs](mixed%20graph.md) that are both even and symmetric}@} are {@{guaranteed to be Eulerian}@}. However, {@{this is not a necessary condition}@}, as {@{it is possible to construct a non-symmetric, even graph that is Eulerian}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-02-01,1200,362!2029-03-24,1241,362!2026-01-27,337,350!2026-03-26,387,362-->
+{@{All [mixed graphs](mixed%20graph.md) that are both even and symmetric}@} are {@{guaranteed to be Eulerian}@}. However, {@{this is not a necessary condition}@}, as {@{it is possible to construct a non-symmetric, even graph that is Eulerian}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-02-01,1200,362!2029-03-24,1241,362!2030-07-08,1621,370!2026-03-26,387,362-->
 
 {@{Ford and Fulkerson proved in 1962}@} in {@{their book _Flows in Networks_}@} {@{a necessary and sufficient condition for a graph to be Eulerian}@}, viz., that {@{every vertex must be even and satisfy the balance condition}@}, i.e. for {@{every subset of vertices S}@}, {@{the difference between the number of arcs leaving S and entering S must be less than or equal to the number of (non-arc) edges incident with S}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-07-18,444,322!2026-03-06,370,362!2026-04-01,392,362!2028-07-23,1036,350!2029-09-01,1359,352!2026-08-05,460,322-->
 
@@ -176,7 +176,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 - [Eulerian matroid](Eulerian%20matroid.md), an abstract generalization of Eulerian graphs
 - [five room puzzle](five-room%20puzzle.md)
 - [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2028-07-24,1037,350!2028-02-26,897,330-->
-- [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2026-02-02,346,362!2026-02-22,360,362-->
+- [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2030-10-17,1717,382!2026-02-22,360,362-->
 - [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2029-02-21,1216,362!2026-03-13,375,362-->
 - [Veblen's theorem](Veblen's%20theorem.md), ::@:: which states that graphs with even vertex degree can be partitioned into edge-disjoint cycles regardless of their connectivity <!--SR:!2026-03-28,387,362!2026-12-22,518,310-->
 

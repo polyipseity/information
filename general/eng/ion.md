@@ -408,7 +408,7 @@ return chain.from_iterable(await gather(
 - chloride ion::@::Cl<sup>-</sup> <!--SR:!2027-07-27,1605,373!2036-05-12,3843,354-->
 - bromide ion::@::Br<sup>-</sup> <!--SR:!2026-12-18,1232,273!2034-03-31,3323,314-->
 - iodide ion::@::I<sup>-</sup> <!--SR:!2034-06-07,3478,352!2026-11-16,1294,313-->
-- hydroxide ion::@::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2026-01-30,1090,354-->
+- hydroxide ion::@::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2040-08-08,5300,374-->
 - nitrate ion::@::NO<sub>3</sub><sup>-</sup> <!--SR:!2028-09-18,1780,312!2027-05-30,1441,314-->
 - nitrite ion::@::NO<sub>2</sub><sup>-</sup> <!--SR:!2030-08-14,1839,259!2026-11-11,1286,310-->
 - hydrogencarbonate ion::@::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2029-07-09,2040,332-->
@@ -472,7 +472,7 @@ return chain.from_iterable(await gather(
 - hydrogencarbonate ion:@:colorless <!--SR:!2031-06-28,2573,330-->
 - hydrogensulfite ion:@:colorless <!--SR:!2026-11-15,1203,270-->
 - hydrogensulfate ion:@:colorless <!--SR:!2027-11-01,1341,270-->
-- permanganate ion:@:<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2026-01-28,496,230-->
+- permanganate ion:@:<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2030-07-05,1613,250-->
 - oxide ion:@:_(n/a)_ <!--SR:!2029-04-28,1684,296-->
 - sulfide ion:@:_(n/a)_ <!--SR:!2029-10-02,1622,276-->
 - sulfate ion:@:colorless <!--SR:!2026-08-20,1076,274-->

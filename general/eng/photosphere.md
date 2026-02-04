@@ -11,7 +11,7 @@ tags:
 
 The __photosphere__ is {@{a [star](star.md)'s outer shell from which [light](light.md) is radiated}@}. It {@{extends into a star's surface until the [plasma](plasma%20(physics).md) becomes opaque, equivalent to an [optical depth](optical%20depth.md) of $-\ln(1 / 2) \approx 0.693$, or equivalently, a depth from which 50% of light will escape without being scattered}@}. <!--SR:!2028-06-26,1110,350!2026-11-23,540,270-->
 
-The [absorption spectrum](absorption%20spectroscopy.md#absorption%20spectrum) of a [star](star.md) is {@{produced when light emitted by the star is absorbed by gases in the photosphere}@}. It tells us {@{about the composition of the photosphere and its [ionization state](ionization.md)}@}. <!--SR:!2026-01-25,374,290!2027-01-03,623,310-->
+The [absorption spectrum](absorption%20spectroscopy.md#absorption%20spectrum) of a [star](star.md) is {@{produced when light emitted by the star is absorbed by gases in the photosphere}@}. It tells us {@{about the composition of the photosphere and its [ionization state](ionization.md)}@}. <!--SR:!2030-03-13,1508,310!2027-01-03,623,310-->
 
 ## references
 

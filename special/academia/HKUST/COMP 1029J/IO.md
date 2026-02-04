@@ -13,7 +13,7 @@ tags:
 
 ## output
 
-One can print to stdout using {@{`System.out.print` and `System.out.println`}@}. The first one prints {@{the provided string as is while the second one also prints an additional newline}@}. <!--SR:!2028-11-27,1370,350!2026-01-25,552,330-->
+One can print to stdout using {@{`System.out.print` and `System.out.println`}@}. The first one prints {@{the provided string as is while the second one also prints an additional newline}@}. <!--SR:!2028-11-27,1370,350!2032-12-15,2512,350-->
 
 ```Java
 System.out.println("println");

@@ -11,7 +11,7 @@ tags:
 
 # linear temporal logic
 
-In [logic](logic.md), {@{__linear temporal logic__ or __linear-time temporal logic__<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> \(__LTL__\)}@} is {@{a [modal](modal%20logic.md) [temporal logic](temporal%20logic.md) with modalities referring to time}@}. In LTL, one can {@{encode [formulae](well-formed%20formula.md) about the future of [paths](path%20(graph%20theory).md)}@}, e.g., {@{a condition will eventually be true, a condition will be true until another fact becomes true}@}, etc. It is a fragment of {@{the more complex [CTL\*](CTL*.md)}@}, which {@{additionally allows branching time and [quantifiers](quantifier%20(logic).md)}@}. LTL is sometimes called {@{_propositional temporal logic_, abbreviated _PTL_}@}.<sup>[\[3\]](#^ref-3)</sup> In terms of {@{[expressive power](expressive%20power%20(computer%20science).md)}@}, linear temporal logic \(LTL\) is {@{a fragment of [first-order logic](first-order%20logic.md)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2028-09-08,1076,363!2026-01-26,326,350!2026-03-27,376,363!2027-07-30,739,337!2026-03-31,380,363!2029-12-14,1433,370!2029-02-02,1187,357!2027-04-28,603,317!2026-03-31,380,363-->
+In [logic](logic.md), {@{__linear temporal logic__ or __linear-time temporal logic__<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> \(__LTL__\)}@} is {@{a [modal](modal%20logic.md) [temporal logic](temporal%20logic.md) with modalities referring to time}@}. In LTL, one can {@{encode [formulae](well-formed%20formula.md) about the future of [paths](path%20(graph%20theory).md)}@}, e.g., {@{a condition will eventually be true, a condition will be true until another fact becomes true}@}, etc. It is a fragment of {@{the more complex [CTL\*](CTL*.md)}@}, which {@{additionally allows branching time and [quantifiers](quantifier%20(logic).md)}@}. LTL is sometimes called {@{_propositional temporal logic_, abbreviated _PTL_}@}.<sup>[\[3\]](#^ref-3)</sup> In terms of {@{[expressive power](expressive%20power%20(computer%20science).md)}@}, linear temporal logic \(LTL\) is {@{a fragment of [first-order logic](first-order%20logic.md)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2028-09-08,1076,363!2030-05-13,1568,370!2026-03-27,376,363!2027-07-30,739,337!2026-03-31,380,363!2029-12-14,1433,370!2029-02-02,1187,357!2027-04-28,603,317!2026-03-31,380,363-->
 
 LTL was first {@{proposed for the [formal verification](formal%20verification.md) of computer programs}@} by {@{[Amir Pnueli](Amir%20Pnueli.md) in 1977}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-02-26,353,363!2026-09-27,489,323-->
 
@@ -32,10 +32,10 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 
 ## semantics
 
-An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequence of truth valuations of variables in _AP_}@}. These sequences can be viewed as {@{a word on a path of a [Kripke structure](Kripke%20structure%20(model%20checking).md)}@} \({@{an [ω-word](omega%20language.md) over [alphabet](alphabet%20(formal%20languages).md) 2<sup>_AP_</sup>}@}\). Let {@{_w_ = a<sub>0</sub>,a<sub>1</sub>,a<sub>2</sub>,... be such an ω-word}@}. Let {@{_w_\(_i_\) = _a<sub>i</sub>_. Let _w_<sup>i</sup> = _a<sub>i</sub>_,_a_<sub>_i_+1</sub>,..., which is a suffix of _w_}@}. Formally, {@{the satisfaction relation ⊨ between a word and an LTL formula}@} is defined as follows: <!--SR:!2026-04-12,389,363!2027-07-22,716,330!2026-01-20,321,350!2026-02-19,344,350!2028-09-11,1065,350!2026-02-23,348,350-->
+An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequence of truth valuations of variables in _AP_}@}. These sequences can be viewed as {@{a word on a path of a [Kripke structure](Kripke%20structure%20(model%20checking).md)}@} \({@{an [ω-word](omega%20language.md) over [alphabet](alphabet%20(formal%20languages).md) 2<sup>_AP_</sup>}@}\). Let {@{_w_ = a<sub>0</sub>,a<sub>1</sub>,a<sub>2</sub>,... be such an ω-word}@}. Let {@{_w_\(_i_\) = _a<sub>i</sub>_. Let _w_<sup>i</sup> = _a<sub>i</sub>_,_a_<sub>_i_+1</sub>,..., which is a suffix of _w_}@}. Formally, {@{the satisfaction relation ⊨ between a word and an LTL formula}@} is defined as follows: <!--SR:!2026-04-12,389,363!2027-07-22,716,330!2030-04-21,1544,370!2026-02-19,344,350!2028-09-11,1065,350!2026-02-23,348,350-->
 
 - satisfaction of a propositional variable ::@:: _w_ ⊨ _p_ if _p_ ∈ _w_\(0\) <!--SR:!2026-03-01,356,363!2026-02-27,354,363-->
-- law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2026-02-02,331,350!2030-01-06,1456,370-->
+- law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2030-06-13,1592,370!2030-01-06,1456,370-->
 - or ::@:: _w_ ⊨ φ ∨ ψ if _w_ ⊨ φ or _w_ ⊨ ψ <!--SR:!2026-02-25,352,363!2029-02-17,1199,357-->
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2029-03-18,1226,363!2026-04-07,385,363-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2026-02-25,349,350!2027-09-25,776,343-->
@@ -62,11 +62,11 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 
 - __w__<!-- markdown separator -->eak until (annotation: in terms of _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_) ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2026-03-15,313,303!2026-10-24,441,277-->
 - __u__<!-- markdown separator -->ntil (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2026-10-19,511,317!2027-03-16,638,343-->
-- __r__<!-- markdown separator -->elease (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2026-01-30,260,263!2026-09-21,484,323-->
+- __r__<!-- markdown separator -->elease (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2027-12-20,689,263!2026-09-21,484,323-->
 
 {@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2026-02-16,342,350!2026-03-20,370,363!2028-03-28,875,343!2027-06-29,714,337-->
 
-- strong release (__M__) (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak util_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2026-01-26,229,243!2026-09-23,427,283-->
+- strong release (__M__) (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak util_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2027-08-01,550,243!2026-09-23,427,283-->
 
 {@{The semantics for the temporal operators}@} are pictorially presented as follows. <!--SR:!2026-03-22,372,363-->
 
@@ -86,34 +86,34 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 >
 > - [unary operators](unary%20operation.md) ::@:: - __X__ _φ_ <br/> - __F__ _φ_ <br/> - __G__ _φ_ <!--SR:!2026-02-06,26,390!2026-02-05,25,390-->
 > - __X__ _φ_
->   - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$ <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state. <!--SR:!2026-02-05,25,390!2026-02-04,24,390-->
->   - __X__ _φ_ / diagram ::@:: ![LTI next diagram](../../archives/Wikimedia%20Commons/Ltlnext.svg) <!--SR:!2026-02-05,25,390!2026-02-04,24,390-->
+>   - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$ <!--SR:!2026-06-14,130,410!2026-06-11,127,410-->
+>   - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state. <!--SR:!2026-02-05,25,390!2026-06-13,129,410-->
+>   - __X__ _φ_ / diagram ::@:: ![LTI next diagram](../../archives/Wikimedia%20Commons/Ltlnext.svg) <!--SR:!2026-02-05,25,390!2026-06-09,125,410-->
 > - __F__ _φ_
->   - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$ <!--SR:!2026-02-06,26,390!2026-02-04,24,390-->
->   - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\). <!--SR:!2026-02-06,26,390!2026-02-04,24,390-->
->   - __F__ _φ_ / diagram ::@:: ![LTI finally diagram](../../archives/Wikimedia%20Commons/Ltleventually.svg) <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
+>   - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$ <!--SR:!2026-02-06,26,390!2026-06-10,126,410-->
+>   - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\). <!--SR:!2026-02-06,26,390!2026-06-12,128,410-->
+>   - __F__ _φ_ / diagram ::@:: ![LTI finally diagram](../../archives/Wikimedia%20Commons/Ltleventually.svg) <!--SR:!2026-06-12,128,410!2026-06-14,130,410-->
 > - __G__ _φ_
->   - __G__ _φ_ / symbolic ::@:: $\Box \varphi$ <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path. <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
+>   - __G__ _φ_ / symbolic ::@:: $\Box \varphi$ <!--SR:!2026-06-12,128,410!2026-06-10,126,410-->
+>   - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path. <!--SR:!2026-06-11,127,410!2026-06-12,128,410-->
 >   - __G__ _φ_ / diagram ::@:: ![LTI globally diagram](../../archives/Wikimedia%20Commons/Ltlalways.svg) <!--SR:!2026-02-06,26,390!2026-02-06,26,390-->
-> - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_ <!--SR:!2026-02-04,24,390!2026-02-05,25,390-->
+> - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_ <!--SR:!2026-06-11,127,410!2026-02-05,25,390-->
 > - _ψ_ __U__ _φ_
->   - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$ <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position. <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg) <!--SR:!2026-02-04,24,390!2026-02-06,26,390-->
+>   - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$ <!--SR:!2026-06-14,130,410!2026-06-10,126,410-->
+>   - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position. <!--SR:!2026-06-10,126,410!2026-06-13,129,410-->
+>   - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg) <!--SR:!2026-06-09,125,410!2026-02-06,26,390-->
 > - _ψ_ __R__ _φ_
->   - _ψ_ __R__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {R} }\,\varphi$ <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - _ψ_ __R__ _φ_ / explanation ::@:: __R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever. <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - _ψ_ __R__ _φ_ / diagram ::@:: ![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg) <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
+>   - _ψ_ __R__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {R} }\,\varphi$ <!--SR:!2026-06-09,125,410!2026-06-12,128,410-->
+>   - _ψ_ __R__ _φ_ / explanation ::@:: __R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever. <!--SR:!2026-06-11,127,410!2026-06-15,131,410-->
+>   - _ψ_ __R__ _φ_ / diagram ::@:: ![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg) <!--SR:!2026-06-09,125,410!2026-06-11,127,410-->
 > - _ψ_ __W__ _φ_
->   - _ψ_ __W__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {W} }\,\varphi$ <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - _ψ_ __W__ _φ_ / explanation ::@:: __W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever. <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - _ψ_ __W__ _φ_ / diagram ::@:: ![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg) <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
+>   - _ψ_ __W__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {W} }\,\varphi$ <!--SR:!2026-06-14,130,410!2026-06-09,125,410-->
+>   - _ψ_ __W__ _φ_ / explanation ::@:: __W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever. <!--SR:!2026-06-13,129,410!2026-06-13,129,410-->
+>   - _ψ_ __W__ _φ_ / diagram ::@:: ![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg) <!--SR:!2026-06-15,131,410!2026-06-13,129,410-->
 > - _ψ_ __M__ _φ_
->   - _ψ_ __M__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {M} }\,\varphi$ <!--SR:!2026-02-04,24,390!2026-02-04,24,390-->
->   - _ψ_ __M__ _φ_ / explanation ::@:: Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position. <!--SR:!2026-02-05,25,390!2026-02-04,24,390-->
->   - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <!--SR:!2026-02-05,25,390!2026-02-04,24,390-->
+>   - _ψ_ __M__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {M} }\,\varphi$ <!--SR:!2026-06-12,128,410!2026-06-15,131,410-->
+>   - _ψ_ __M__ _φ_ / explanation ::@:: Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position. <!--SR:!2026-02-05,25,390!2026-06-15,131,410-->
+>   - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <!--SR:!2026-02-05,25,390!2026-06-10,126,410-->
 
 ## equivalences
 
@@ -169,7 +169,7 @@ All the formulas of LTL can be {@{transformed into _negation normal form_}@}, wh
 
 LTL can be shown to be {@{equivalent to the [monadic first-order logic of order](monadic%20predicate%20calculus.md), FO\[\<\]}@}—a result known as {@{[Kamp's theorem](Kamp's%20theorem.md)}@}—<sup>[\[9\]](#^ref-9)</sup> or {@{equivalently to [star-free languages](star-free%20language.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-29,378,363!2026-03-22,371,363!2026-03-21,370,363-->
 
-{@{[Computation tree logic](computation%20tree%20logic.md) \(CTL\) and linear temporal logic \(LTL\)}@} are {@{both a subset of [CTL\*](CTL*.md), but are incomparable}@}. For example, <!--SR:!2026-03-28,377,363!2026-01-31,330,350-->
+{@{[Computation tree logic](computation%20tree%20logic.md) \(CTL\) and linear temporal logic \(LTL\)}@} are {@{both a subset of [CTL\*](CTL*.md), but are incomparable}@}. For example, <!--SR:!2026-03-28,377,363!2030-06-08,1587,370-->
 
 - No formula in CTL ::@:: can define the language that is defined by the LTL formula __F__\(__G__ p\). <!--SR:!2028-07-20,1023,350!2026-06-17,407,310-->
 - No formula in LTL ::@:: can define the language that is defined by the CTL formulas __AG__\( p → \(__EX__<!-- markdown separator -->q ∧ __EX__<!-- markdown separator -->¬q\) \) or __AG__\(__EF__\(p\)\). <!--SR:!2027-04-23,571,277!2026-03-03,300,290-->

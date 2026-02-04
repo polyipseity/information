@@ -49,7 +49,7 @@ assert [39, "omg", 'asd', 3.4][1:2] == ['omg']
 assert "asd"[1:1] == ""
 ```
 
-Slicing also accepts {@{negative indices, in which case the meaning is still the same as that for indexing}@}. Slicing also allows {@{omitting one or both indices}@}. {@{Omitting the starting point}@} means {@{the starting point is the first element, i.e. `0`}@} \(or if {@{step is negative, then the last element, i.e. `len(sequence) - 1`}@}\). {@{Omitting the ending point}@} means {@{the ending point is after the last element, i.e. `len(sequence)`}@} \(or if {@{step is negative, then before the first element, i.e. `-len(sequence) - 1`}@}\): <!--SR:!2027-09-13,1024,350!2026-01-27,495,310!2026-03-07,124,392!2026-03-14,130,392!2026-03-08,125,392!2026-03-02,120,392!2026-03-06,123,392!2026-02-27,117,392-->
+Slicing also accepts {@{negative indices, in which case the meaning is still the same as that for indexing}@}. Slicing also allows {@{omitting one or both indices}@}. {@{Omitting the starting point}@} means {@{the starting point is the first element, i.e. `0`}@} \(or if {@{step is negative, then the last element, i.e. `len(sequence) - 1`}@}\). {@{Omitting the ending point}@} means {@{the ending point is after the last element, i.e. `len(sequence)`}@} \(or if {@{step is negative, then before the first element, i.e. `-len(sequence) - 1`}@}\): <!--SR:!2027-09-13,1024,350!2031-11-18,2120,330!2026-03-07,124,392!2026-03-14,130,392!2026-03-08,125,392!2026-03-02,120,392!2026-03-06,123,392!2026-02-27,117,392-->
 
 ```Python
 assert "asd"[:2] = "as"

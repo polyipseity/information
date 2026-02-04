@@ -53,7 +53,7 @@ tags:
 
 ### first derivative test
 
-{@{The _first derivative test_}@} can determine {@{[extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}@}. <!--SR:!2028-06-28,1310,359!2026-01-22,86,366-->
+{@{The _first derivative test_}@} can determine {@{[extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}@}. <!--SR:!2028-06-28,1310,359!2027-04-01,434,386-->
 
 > {@{__first derivative test__}@}
 >
@@ -65,9 +65,9 @@ tags:
 >     - {@{\(right \(`+`\)\) $f'(x) \ge 0$ \($f'(x) > 0$\) for all $x\in(c,c+\epsilon)$}@}, then {@{$f$ has a [\(strict\) local minimum](maximum%20and%20minimum.md) at $c$ from the right}@}.
 > 3. If {@{needed}@}, combine {@{the above conclusions from both sides}@}.
 >
->     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2027-08-09,831,259!2026-08-26,644,279!2026-05-20,627,319!2026-04-16,424,375!2029-09-29,1425,375!2026-01-28,91,366!2026-01-30,93,366!2026-01-24,88,366!2026-01-24,88,366!2026-01-28,91,366!2026-01-21,85,366!2026-01-21,85,366!2026-01-28,91,366!2026-01-22,86,366!2026-01-22,86,366!2026-01-25,89,366!2026-09-15,272,366!2026-01-23,87,366!2026-01-22,86,366!2026-01-22,86,366!2026-01-28,91,366!2026-01-24,88,366!2026-01-30,93,366!2026-01-29,92,366!2026-01-23,87,366-->
+>     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2027-08-09,831,259!2026-08-26,644,279!2026-05-20,627,319!2026-04-16,424,375!2029-09-29,1425,375!2027-05-06,456,386!2027-05-23,473,386!2027-04-25,445,386!2027-04-22,442,386!2027-05-07,457,386!2027-03-26,428,386!2027-03-31,433,386!2027-05-13,463,386!2027-04-04,437,386!2027-04-03,436,386!2027-05-02,452,386!2026-09-15,272,366!2027-04-23,443,386!2027-03-30,432,386!2027-04-01,434,386!2027-05-11,461,386!2027-04-24,444,386!2027-05-22,472,386!2027-05-13,463,386!2027-04-16,436,386-->
 
-{@{The _one-sided first derivative test_}@} is {@{a variant of the first derivative test}@} that covers {@{a different set of functions}@}. {@{Neither of the two tests}@} are {@{stronger than the other}@}. <!--SR:!2028-01-25,1100,339!2026-01-29,92,366!2026-01-30,93,366!2026-01-19,84,366!2026-01-19,83,366-->
+{@{The _one-sided first derivative test_}@} is {@{a variant of the first derivative test}@} that covers {@{a different set of functions}@}. {@{Neither of the two tests}@} are {@{stronger than the other}@}. <!--SR:!2028-01-25,1100,339!2027-05-19,469,386!2027-05-24,474,386!2027-03-27,429,386!2027-03-19,421,386-->
 
 > {@{__one-sided first derivative test__}@}
 >
@@ -80,7 +80,7 @@ tags:
 >     - Otherwise, {@{the test is inconclusive}@}.
 > 3. If {@{needed}@}, combine {@{the above conclusions from both sides}@}.
 >
->     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2029-07-19,1359,259!2026-08-22,641,279!2032-02-26,2237,349!2026-04-22,429,375!2030-01-15,1490,375!2026-01-21,85,366!2026-01-29,92,366!2026-01-29,92,366!2026-01-30,93,366!2026-01-28,91,366!2026-01-24,88,366!2026-01-30,93,366!2026-01-20,84,366!2026-01-28,91,366!2027-03-15,421,386!2026-01-28,91,366!2026-01-29,92,366!2026-01-21,85,366!2026-01-29,92,366!2026-01-19,83,366!2026-01-29,92,366!2026-01-22,86,366!2026-01-20,84,366-->
+>     {@{Strictness of [extremum](maximum%20and%20minimum.md) at $c$}@} is {@{preserved if and only if}@} {@{both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md)}@}. <!--SR:!2029-07-19,1359,259!2026-08-22,641,279!2032-02-26,2237,349!2026-04-22,429,375!2030-01-15,1490,375!2027-03-28,430,386!2027-05-16,466,386!2027-05-19,469,386!2027-05-20,470,386!2027-05-13,463,386!2027-04-28,448,386!2027-05-19,470,386!2027-03-22,424,386!2027-05-13,463,386!2027-03-15,421,386!2027-05-12,462,386!2027-05-18,468,386!2027-04-01,434,386!2027-05-18,468,386!2027-03-20,422,386!2027-05-17,467,386!2027-04-02,435,386!2027-03-20,422,386-->
 
 <!-- markdownlint MD028 -->
 
@@ -103,15 +103,15 @@ tags:
 
 ### concavity test
 
-{@{The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md)}@} can determine {@{whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}@}. {@{A [twice-differentiable function](differentiable%20function.md)}@} is {@{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$}@}, {@{[concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}@}. <!--SR:!2027-10-02,1094,354!2026-07-09,663,319!2026-01-24,88,366!2026-01-29,92,366!2027-03-17,423,386-->
+{@{The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md)}@} can determine {@{whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}@}. {@{A [twice-differentiable function](differentiable%20function.md)}@} is {@{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$}@}, {@{[concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}@}. <!--SR:!2027-10-02,1094,354!2026-07-09,663,319!2027-04-26,446,386!2027-05-15,465,386!2027-03-17,423,386-->
 
 ### second derivative test
 
-{@{The _second derivative test_}@} is {@{a special case of $n=2$ in the [higher-order derivative test](#higher-order%20derivative%20test)}@}. The same applies for {@{the _one-sided second derivative test_}@}. <!--SR:!2028-06-04,1291,359!2026-01-19,84,366!2026-01-20,84,366-->
+{@{The _second derivative test_}@} is {@{a special case of $n=2$ in the [higher-order derivative test](#higher-order%20derivative%20test)}@}. The same applies for {@{the _one-sided second derivative test_}@}. <!--SR:!2028-06-04,1291,359!2027-03-26,428,386!2027-03-23,425,386-->
 
 ### higher-order derivative test
 
-{@{The _higher-order derivative test_ or _general derivative test_}@} can determine {@{[extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md)}@} for {@{sufficiently [differentiable functions](differentiable%20function.md)}@}. <!--SR:!2028-08-03,1339,359!2026-01-30,93,366!2026-01-23,87,366-->
+{@{The _higher-order derivative test_ or _general derivative test_}@} can determine {@{[extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md)}@} for {@{sufficiently [differentiable functions](differentiable%20function.md)}@}. <!--SR:!2028-08-03,1339,359!2027-05-22,472,386!2027-04-20,440,386-->
 
 > {@{__higher-order derivative test__}@}
 >
@@ -121,9 +121,9 @@ tags:
 >     - If {@{$n$ is even and $f^{(n)}(c)<0$}@}, $c$ is {@{a [strict local maximum](maximum%20and%20minimum.md) of $f$}@}. $f$ is {@{weakly \(strictly if $n = 2$\) [concave](concave%20function.md) around $c$}@}.
 >     - If {@{$n$ is even and $f^{(n)}(c)>0$}@}, $c$ is {@{a [strict local minimum](maximum%20and%20minimum.md) of $f$}@}. $f$ is {@{weakly \(strictly if $n = 2$\) [convex](convex%20function.md) around $c$}@}.
 >     - If {@{$n$ is odd and $f^{(n)}(c)<0$}@}, $c$ is {@{a [stationary falling inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$}@}.
->     - If {@{$n$ is odd and $f^{(n)}(c)>0$}@}, $c$ is {@{a [stationary rising inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$}@}. <!--SR:!2030-05-12,1733,319!2028-01-08,1088,339!2030-03-22,1696,319!2027-07-15,654,295!2030-04-24,1564,375!2026-01-28,91,366!2026-01-24,88,366!2026-01-22,86,366!2026-01-25,89,366!2026-01-24,88,366!2026-01-30,93,366!2026-01-29,92,366!2026-11-21,314,366!2026-01-28,91,366!2026-01-30,93,366!2026-01-30,93,366!2026-01-25,89,366!2026-01-19,83,366!2026-01-30,93,366!2027-03-14,420,386-->
+>     - If {@{$n$ is odd and $f^{(n)}(c)>0$}@}, $c$ is {@{a [stationary rising inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$}@}. <!--SR:!2030-05-12,1733,319!2028-01-08,1088,339!2030-03-22,1696,319!2027-07-15,654,295!2030-04-24,1564,375!2027-05-14,464,386!2027-04-27,447,386!2027-04-02,435,386!2027-05-03,453,386!2027-04-26,446,386!2027-05-21,471,386!2027-05-15,465,386!2026-11-21,314,366!2027-05-14,464,386!2027-05-18,469,386!2027-05-22,472,386!2027-04-29,449,386!2027-03-18,420,386!2027-05-21,471,386!2027-03-14,420,386-->
 
-{@{The _one-sided higher-order derivative test_}@} is {@{stronger than the two-sided higher-order derivative test}@}, as {@{the two-sided version can be derived from the one-sided one by combining conclusions}@}. <!--SR:!2027-11-29,1059,339!2026-01-29,92,366!2026-01-28,91,366-->
+{@{The _one-sided higher-order derivative test_}@} is {@{stronger than the two-sided higher-order derivative test}@}, as {@{the two-sided version can be derived from the one-sided one by combining conclusions}@}. <!--SR:!2027-11-29,1059,339!2027-05-16,466,386!2027-05-08,458,386-->
 
 > {@{__one-sided higher-order derivative test__}@}
 >
@@ -140,7 +140,7 @@ tags:
 >
 >     When {@{both sides have the same concavity}@}, {@{concavity at $c$ is always weak}@}, except when {@{$f''_+(c) < 0, f''_-(c) < 0$ or $f''_+(c) > 0, f''_-(c) > 0$}@}, in which case {@{it is strict}@}.
 >
->     {@{Any [inflection point](inflection%20point.md) at $c$}@} is {@{always stationary and not a local [extremum](maximum%20and%20minimumm.md)}@}. <!--SR:!2027-10-24,875,259!2027-10-17,1027,339!2030-04-01,1537,279!2028-09-10,1143,309!2027-02-22,636,335!2026-07-30,438,315!2026-01-22,86,366!2026-01-28,91,366!2026-01-23,87,366!2026-01-29,92,366!2026-01-25,89,366!2026-01-25,89,366!2026-01-25,89,366!2026-01-28,91,366!2026-01-19,83,366!2026-01-20,84,366!2026-01-29,92,366!2026-01-23,87,366!2026-01-21,85,366!2026-01-29,92,366!2026-01-25,89,366!2026-01-19,84,366!2026-01-29,92,366!2026-01-19,84,366!2026-01-23,87,366!2026-01-29,92,366!2026-01-28,91,366!2026-01-20,84,366!2026-01-25,89,366!2026-01-21,85,366!2027-03-16,422,386!2026-01-30,93,366!2026-01-23,87,366!2026-01-29,92,366!2026-01-19,83,366!2026-01-28,91,366!2026-01-29,92,366!2026-01-28,91,366!2026-01-23,87,366!2026-01-30,93,366!2026-01-28,91,366!2026-01-28,91,366!2026-01-24,88,366-->
+>     {@{Any [inflection point](inflection%20point.md) at $c$}@} is {@{always stationary and not a local [extremum](maximum%20and%20minimumm.md)}@}. <!--SR:!2027-10-24,875,259!2027-10-17,1027,339!2030-04-01,1537,279!2028-09-10,1143,309!2027-02-22,636,335!2026-07-30,438,315!2027-04-05,438,386!2027-05-09,459,386!2027-04-15,435,386!2027-05-19,469,386!2027-05-01,451,386!2027-05-04,454,386!2027-04-28,448,386!2027-05-05,455,386!2027-03-19,421,386!2027-03-25,427,386!2027-05-15,465,386!2027-04-18,438,386!2027-03-31,433,386!2027-05-16,466,386!2027-04-30,450,386!2027-03-21,423,386!2027-05-17,467,386!2027-03-23,425,386!2027-04-18,438,386!2027-05-19,469,386!2027-05-12,462,386!2027-03-24,426,386!2027-04-27,447,386!2027-03-29,431,386!2027-03-16,422,386!2027-05-20,470,386!2027-04-17,437,386!2027-05-17,467,386!2027-03-21,423,386!2027-05-11,461,386!2027-05-18,468,386!2027-05-14,464,386!2027-04-19,439,386!2027-05-21,471,386!2027-05-10,460,386!2027-05-14,464,386!2027-04-21,441,386-->
 
 <!-- markdownlint MD028 -->
 

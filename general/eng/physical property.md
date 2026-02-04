@@ -65,8 +65,8 @@ return await memorize_seq(
 - [color](color.md)→::@::←[density](density.md) <!--SR:!2029-09-05,1655,290!2027-05-11,1078,330-->
 - [density](density.md)→::@::←[ductility](ductility.md) <!--SR:!2026-04-02,373,190!2028-06-23,1486,350-->
 - [ductility](ductility.md)→::@::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2027-01-14,933,290!2031-02-06,1999,290-->
-- [electrical conductivity](electrical%20conductivity.md)→::@::←[hardness](hardness.md) <!--SR:!2026-01-25,410,230!2028-03-05,939,310-->
-- [hardness](hardness.md)→::@::←[malleability](malleability.md) <!--SR:!2028-03-20,1192,290!2026-01-22,185,170-->
+- [electrical conductivity](electrical%20conductivity.md)→::@::←[hardness](hardness.md) <!--SR:!2029-09-23,1336,250!2028-03-05,939,310-->
+- [hardness](hardness.md)→::@::←[malleability](malleability.md) <!--SR:!2028-03-20,1192,290!2027-04-24,457,190-->
 - [malleability](malleability.md)→::@::←[melting point](melting%20point.md) <!--SR:!2031-05-10,2220,330!2026-12-29,674,230-->
 - [melting point](melting%20point.md)→::@::←[odor](odor.md) <!--SR:!2026-12-29,822,250!2026-10-02,618,250-->
 - [odor](odor.md)→::@::←[physical state](physical%20state.md) <!--SR:!2030-03-07,1615,270!2028-01-03,1211,310-->

@@ -32,11 +32,11 @@ tags:
 # initial and terminal objects
 
 - "{@{Zero object}@}" redirects here. For {@{zero object in an algebraic structure}@}, see {@{[zero object \(algebra\)](zero%20object%20(algebra).md)}@}.
-- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2026-04-01,348,352!2026-02-11,306,337!2026-01-23,292,337!2028-04-04,892,337!2026-03-28,345,352!2026-05-20,389,359-->
+- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2026-04-01,348,352!2026-02-11,306,337!2029-10-13,1357,357!2028-04-04,892,337!2026-03-28,345,352!2026-05-20,389,359-->
 
 In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2029-08-18,1312,357!2029-05-04,1230,357!2026-02-08,303,337-->
 
-{@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2029-06-07,1243,357!2026-04-01,348,352!2026-01-27,293,330!2026-01-23,292,337!2029-08-13,1310,357-->
+{@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2029-06-07,1243,357!2026-04-01,348,352!2029-10-03,1340,350!2029-10-12,1356,357!2029-08-13,1310,357-->
 
 If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2026-02-09,304,337!2028-01-02,821,337!2027-12-21,812,337!2026-04-17,362,357-->
 
@@ -50,7 +50,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 > {@{![Center: the zero object. <br/> Left half: all elements of an object maps to zero, the terminal morphism. <br/> Right half: 0 maps to 0, the initial monomorphism.](../../archives/Wikimedia%20Commons/Terminal%20and%20initial%20object.svg)}@}
 >
-> {@{Morphisms of pointed sets}@}. The image also {@{applies to algebraic zero objects}@} <!--SR:!2029-04-23,1221,357!2026-01-23,292,337!2026-04-16,361,357-->
+> {@{Morphisms of pointed sets}@}. The image also {@{applies to algebraic zero objects}@} <!--SR:!2029-04-23,1221,357!2029-10-09,1353,357!2026-04-16,361,357-->
 
 - In {@{the category of [pointed sets](pointed%20set.md)}@} \(whose {@{objects are non-empty sets together with a distinguished element; a morphism from \(_A_, <!-- markdown separator -->_a_\) to \(_B_, <!-- markdown separator -->_b_\) being a function _f_ : _A_ → _B_ with _f_\(_a_\) = _b_}@}\), {@{every singleton is a zero object}@}. Similarly, in {@{the category of [pointed topological spaces](pointed%20space.md)}@}, {@{every singleton is a zero object}@}. <!--SR:!2026-10-15,468,310!2026-11-27,513,317!2026-04-25,369,359!2026-04-18,363,357!2027-04-17,526,406-->
 
@@ -78,7 +78,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 ### existence and uniqueness
 
-{@{Initial and terminal objects}@} are {@{not required to exist in a given category}@}. However, if {@{they do exist, they are essentially unique}@}. Specifically, if {@{_I_<sub>1</sub> and _I_<sub>2</sub> are two different initial objects}@}, then there is {@{a unique [isomorphism](isomorphism.md) between them}@}. Moreover, if {@{_I_ is an initial object}@} then {@{any object isomorphic to _I_ is also an initial object}@}. The same is {@{true for terminal objects}@}. <!--SR:!2026-04-05,351,352!2026-02-13,308,337!2029-04-02,1177,352!2026-02-13,308,337!2029-05-05,1232,357!2026-02-06,302,337!2026-04-03,350,352!2026-01-23,5,387-->
+{@{Initial and terminal objects}@} are {@{not required to exist in a given category}@}. However, if {@{they do exist, they are essentially unique}@}. Specifically, if {@{_I_<sub>1</sub> and _I_<sub>2</sub> are two different initial objects}@}, then there is {@{a unique [isomorphism](isomorphism.md) between them}@}. Moreover, if {@{_I_ is an initial object}@} then {@{any object isomorphic to _I_ is also an initial object}@}. The same is {@{true for terminal objects}@}. <!--SR:!2026-04-05,351,352!2026-02-13,308,337!2029-04-02,1177,352!2026-02-13,308,337!2029-05-05,1232,357!2026-02-06,302,337!2026-04-03,350,352!2026-02-21,27,407-->
 
 For {@{[complete categories](complete%20category.md)}@} there is {@{an existence theorem for initial objects}@}. Specifically, {@{a \([locally small](locally%20small%20category.md#small%20and%20large%20categories)\) complete category _C_ has an initial object}@} {@{if and only if there exist a set _I_ \(not a [proper class](proper%20class.md)\) and an _I_-[indexed family](indexed%20family.md) \(_K_<sub>_i_</sub>\) of objects of _C_}@} such that {@{for any object _X_ of _C_, there is at least one morphism _K_<sub>_i_</sub> → _X_ for some _i_ ∈ _I_}@}. <!--SR:!2029-05-30,1235,357!2026-04-19,364,357!2026-08-13,396,317!2028-05-05,916,337!2026-08-21,402,277-->
 
@@ -100,7 +100,7 @@ Initial and terminal objects may also {@{be characterized in terms of [universal
 - {@{A [universal morphism](universal%20morphism.md) from an object _X_ to a functor _U_}@} can be defined as {@{an initial object in the [comma category](comma%20category.md) \(_X_ ↓ _U_\)}@}. Dually, {@{a universal morphism from _U_ to _X_}@} is {@{a terminal object in \(_U_ ↓ _X_\)}@}.
 - {@{The limit of a diagram _F_}@} is {@{a terminal object in Cone\(_F_\), the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Dually, {@{a colimit of _F_}@} is {@{an initial object in the category of cones from _F_}@}.
 - {@{A [representation of a functor](representable%20functor.md) _F_ to __Set__}@} is {@{an initial object in the [category of elements](category%20of%20elements.md) of _F_}@}.
-- {@{The notion of [final functor](final%20functor.md) \(respectively, initial functor\)}@} is {@{a generalization of the notion of final object \(respectively, initial object\)}@}. <!--SR:!2028-04-13,853,312!2026-01-26,234,237!2026-04-02,349,352!2026-02-07,302,337!2027-05-11,546,406!2027-04-05,516,406!2027-04-18,527,406!2027-04-15,524,406!2027-04-15,524,406!2027-04-24,532,406!2027-04-06,517,406!2027-04-29,536,406-->
+- {@{The notion of [final functor](final%20functor.md) \(respectively, initial functor\)}@} is {@{a generalization of the notion of final object \(respectively, initial object\)}@}. <!--SR:!2028-04-13,853,312!2028-03-23,781,257!2026-04-02,349,352!2026-02-07,302,337!2027-05-11,546,406!2027-04-05,516,406!2027-04-18,527,406!2027-04-15,524,406!2027-04-15,524,406!2027-04-24,532,406!2027-04-06,517,406!2027-04-29,536,406-->
 
 ### other properties
 

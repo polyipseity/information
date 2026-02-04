@@ -21,7 +21,7 @@ tags:
 > - {@{$C$}@} is {@{the [heat capacity](heat%20capcaity.md)}@}
 > - {@{$\bar{C}$}@} is {@{the [molar heat capacity](molar%20heat%20capacity.md)}@}
 > - {@{$c$}@} is {@{the [specific heat capacity](specific%20heat%20capacity.md)}@}
-> - {@{the subscript $p$ and $V$}@} means {@{[constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}@} <!--SR:!2028-04-01,1219,350!2030-12-21,1799,290!2026-02-01,55,326!2026-02-20,75,346!2026-02-25,79,346!2026-03-03,84,346!2026-03-03,84,346!2026-03-03,84,346!2026-03-03,84,346-->
+> - {@{the subscript $p$ and $V$}@} means {@{[constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}@} <!--SR:!2028-04-01,1219,350!2030-12-21,1799,290!2026-10-11,250,346!2026-02-20,75,346!2026-02-25,79,346!2026-03-03,84,346!2026-03-03,84,346!2026-03-03,84,346!2026-03-03,84,346-->
 
 <!-- markdownlint MD028 -->
 
@@ -31,7 +31,7 @@ tags:
 
 ## ideal gas relations
 
-{@{[Mayer's relation](Mayer's%20relation.md)}@} provides {@{a convenient way to deduce $C_V$}@} from {@{the more easily found and commonly tabulated $C_p$}@}. <!--SR:!2029-12-12,1494,310!2026-02-02,75,340!2026-02-05,78,340-->
+{@{[Mayer's relation](Mayer's%20relation.md)}@} provides {@{a convenient way to deduce $C_V$}@} from {@{the more easily found and commonly tabulated $C_p$}@}. <!--SR:!2029-12-12,1494,310!2027-01-22,353,360!2026-02-05,78,340-->
 
 ### relation with degrees of freedom
 

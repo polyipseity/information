@@ -201,7 +201,7 @@ Sustainable Waste Management
   - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2028-07-09,1174,350-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2026-06-17,521,310!2026-11-30,694,330-->
   - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2028-06-07,1147,350-->
-    - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2026-01-24,409,290!2027-05-11,776,330-->
+    - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2030-08-04,1648,310!2027-05-11,776,330-->
 
 ## page 13
 

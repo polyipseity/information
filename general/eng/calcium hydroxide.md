@@ -15,7 +15,7 @@ __Calcium hydroxide__, also known as {@{slaked lime}@} in its solid state and {@
 
 ## preparation
 
-Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}@}. {@{Weak bases result in no observation}@} because there are {@{insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}@}: <!--SR:!2026-01-24,732,320!2031-04-02,1934,280!2026-01-21,17,312-->
+Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}@}. {@{Weak bases result in no observation}@} because there are {@{insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}@}: <!--SR:!2034-12-03,3235,340!2031-04-02,1934,280!2026-04-10,76,332-->
 
 > treating with [bases](base%20(chemistry).md)
 >
@@ -66,7 +66,7 @@ Calcium hydroxide can be prepared in the following way:
 
 - _(begin)_→::@::←Dissolve carbonate hydroxide in deionized [water](water.md). <!--SR:!2026-02-26,874,250!2026-12-09,1345,358-->
 - Dissolve carbonate hydroxide in deionized [water](water.md).→::@::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2027-10-21,823,210!2026-06-15,952,261-->
-- Filter the solution to obtain the [filtrate](filtrate.md).→::@::←_(end)_ <!--SR:!2026-01-24,1062,339!2026-02-28,869,279-->
+- Filter the solution to obtain the [filtrate](filtrate.md).→::@::←_(end)_ <!--SR:!2039-08-20,4956,359!2026-02-28,869,279-->
 
 <!--/pytextgen-->
 

@@ -31,7 +31,7 @@ The content is in teaching order.
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
 - investor goals ::@:: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2027-04-05,759,290!2027-05-28,850,330-->
-- good business opportunities ::@:: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2026-01-22,410,250!2027-05-15,801,330-->
+- good business opportunities ::@:: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2030-01-02,1438,270!2027-05-15,801,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::@:: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2029-03-11,1306,310!2027-02-25,781,330-->
@@ -181,7 +181,7 @@ The content is in teaching order.
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2029-02-27,1367,381!2031-12-03,2204,401-->
 - [MECE principle](../../../../general/MECE%20principle.md)
-- modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2026-02-03,483,381-->
+- modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2032-12-26,2518,401-->
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2029-08-19,1494,381!2032-10-19,2466,401-->
   - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2032-04-15,2315,401!2029-02-05,1345,381-->
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2030-09-26,1856,401!2026-04-01,514,361-->
@@ -194,7 +194,7 @@ The content is in teaching order.
 - Chernev's 5C framework ::@:: market & business analysis <!--SR:!2032-07-11,2373,401!2028-05-02,1098,361-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2029-10-02,1530,381!2029-08-21,1496,381-->
-  - Chernev's 5C framework § competitor ::@:: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2032-02-21,2272,401!2026-02-02,482,381-->
+  - Chernev's 5C framework § competitor ::@:: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2032-02-21,2272,401!2032-12-21,2513,401-->
   - Chernev's 5C framework § context ::@:: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2032-07-05,2367,401!2030-01-26,1622,381-->
 - McCarthy's 4P framework ::@:: market-related analysis <!--SR:!2032-07-31,2393,401!2032-08-05,2398,401-->
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
@@ -232,7 +232,7 @@ The content is in teaching order.
 - cause mapping extensions ::@:: facts table, solutions table <!--SR:!2030-10-28,1881,401!2029-12-02,1578,381-->
   - facts table ::@:: what, when, where, impact <!--SR:!2031-11-13,2191,401!2027-05-16,828,361-->
   - solutions table ::@:: no., cause, solution <br/> optional: time, persons responsible, budget <!--SR:!2026-11-22,638,341!2028-10-13,1159,361-->
-- interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2030-02-10,1633,381!2026-02-04,484,381-->
+- interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2030-02-10,1633,381!2033-01-01,2523,401-->
   - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2026-02-16,430,321!2030-06-12,1729,381-->
   - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview <!--SR:!2032-06-14,2346,401!2032-03-13,2289,401-->
   - interview note § facts ::@:: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2027-11-06,967,361!2030-04-15,1683,381-->

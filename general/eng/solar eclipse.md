@@ -20,7 +20,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-A __solar eclipse__ occurs when {@{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}@}. Such an alignment occurs {@{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}@}, when {@{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2026-01-19,380,290!2027-09-24,841,330!2028-07-01,1127,350-->
+A __solar eclipse__ occurs when {@{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}@}. Such an alignment occurs {@{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}@}, when {@{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2030-04-04,1533,310!2027-09-24,841,330!2028-07-01,1127,350-->
 
 ## types
 

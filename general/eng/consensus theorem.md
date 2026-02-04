@@ -23,7 +23,7 @@ tags:
 
 > {@{![[Karnaugh map](Karnaugh%20map.md) of _AB_ ∨ _AC_ ∨ _BC_.](../../archives/Wikimedia%20Commons/Karnaugh%20map%20KV%20Race%20Hazard%2010.svg)}@}
 >
-> {@{[Karnaugh map](Karnaugh%20map.md) of _AB_ ∨ _AC_ ∨ _BC_}@}. {@{Omitting the red rectangle does not change the covered area}@}. <!--SR:!2027-11-19,754,330!2026-01-28,265,330!2026-01-27,264,330-->
+> {@{[Karnaugh map](Karnaugh%20map.md) of _AB_ ∨ _AC_ ∨ _BC_}@}. {@{Omitting the red rectangle does not change the covered area}@}. <!--SR:!2027-11-19,754,330!2029-05-21,1207,350!2029-05-15,1201,350-->
 
 In {@{[Boolean algebra](Boolean%20algebra%20(logic).md)}@}, {@{the __consensus theorem__ or __rule of consensus__}@}<sup>[\[1\]](#^ref-1)</sup> is {@{the identity: $$xy\vee {\bar {x} }z\vee yz=xy\vee {\bar {x} }z$$}@} {@{The __consensus__ or __resolvent__ of the terms $xy$ and ${\bar {x} }z$}@} is {@{$yz$}@}. It is {@{the conjunction of all the unique literals of the terms, excluding the literal that appears unnegated in one term and negated in the other}@}. If {@{$y$ includes a term that is negated in $z$ \(or vice versa\) (annotation: e.g. $y = ab$, $z = \bar a b$, then $a$ is the term)}@}, {@{the consensus term $yz$ is false}@}; in other words, {@{there is no consensus term}@}. <!--SR:!2029-03-11,1151,350!2026-02-23,285,330!2027-11-25,759,330!2029-02-25,1137,350!2026-02-28,290,330!2027-07-30,679,330!2029-03-30,1168,350!2029-03-20,1160,350!2029-02-05,1121,350-->
 
@@ -37,13 +37,13 @@ In {@{[Boolean algebra](Boolean%20algebra%20(logic).md)}@}, {@{the __consensus t
 
 {@{The __consensus__ or __consensus term__ of two conjunctive terms of a disjunction}@} is {@{defined when one term contains the literal $a$ and the other the literal ${\bar {a} }$, an __opposition__}@}. The consensus is {@{the conjunction of the two terms, omitting both $a$ and ${\bar {a} }$, and repeated literals}@}. For example, {@{the consensus of ${\bar {x} }yz$ and $w{\bar {y} }z$}@} is {@{$w{\bar {x} }z$}@}.<sup>[\[2\]](#^ref-2)</sup> The consensus is {@{undefined if there is more than one opposition}@}. <!--SR:!2026-03-12,294,330!2029-03-22,1161,350!2029-03-21,1161,350!2029-02-22,1138,350!2026-02-27,289,330!2026-02-13,275,330-->
 
-For {@{the conjunctive dual of the rule}@}, {@{the consensus $y\vee z$}@} can be {@{derived from $(x\vee y)$ and $({\bar {x} }\vee z)$ through the [resolution](resolution%20(logic).md) [inference rule](inference%20rule.md)}@}. This shows that {@{the LHS is derivable from the RHS}@} \(if {@{_A_ → _B_ then _A_ → _AB_}@}; replacing {@{_A_ with RHS and _B_ with \(_y_ ∨ _z_\)}@} \). The RHS can be {@{derived from the LHS simply through the [conjunction elimination](conjunction%20elimination.md) inference rule}@}. Since {@{RHS → LHS and LHS → RHS \(in [propositional calculus](propositional%20calculus.md)\)}@}, then {@{LHS = RHS \(in Boolean algebra\)}@}. <!--SR:!2029-02-23,1135,350!2029-03-28,1167,350!2026-02-23,285,330!2026-01-24,262,330!2026-01-20,259,330!2028-01-11,794,330!2026-02-23,285,330!2026-02-17,279,330!2029-03-23,1162,350-->
+For {@{the conjunctive dual of the rule}@}, {@{the consensus $y\vee z$}@} can be {@{derived from $(x\vee y)$ and $({\bar {x} }\vee z)$ through the [resolution](resolution%20(logic).md) [inference rule](inference%20rule.md)}@}. This shows that {@{the LHS is derivable from the RHS}@} \(if {@{_A_ → _B_ then _A_ → _AB_}@}; replacing {@{_A_ with RHS and _B_ with \(_y_ ∨ _z_\)}@} \). The RHS can be {@{derived from the LHS simply through the [conjunction elimination](conjunction%20elimination.md) inference rule}@}. Since {@{RHS → LHS and LHS → RHS \(in [propositional calculus](propositional%20calculus.md)\)}@}, then {@{LHS = RHS \(in Boolean algebra\)}@}. <!--SR:!2029-02-23,1135,350!2029-03-28,1167,350!2026-02-23,285,330!2029-05-06,1192,350!2028-05-26,855,330!2028-01-11,794,330!2026-02-23,285,330!2026-02-17,279,330!2029-03-23,1162,350-->
 
 ## applications
 
-In {@{Boolean algebra}@}, {@{repeated consensus}@} is {@{the core of one algorithm}@} for {@{calculating the [Blake canonical form](Blake%20canonical%20form.md) of a formula}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-02-16,278,330!2029-03-18,1158,350!2028-04-30,836,330!2026-01-22,4,346-->
+In {@{Boolean algebra}@}, {@{repeated consensus}@} is {@{the core of one algorithm}@} for {@{calculating the [Blake canonical form](Blake%20canonical%20form.md) of a formula}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-02-16,278,330!2029-03-18,1158,350!2028-04-30,836,330!2026-02-11,20,366-->
 
-In {@{[digital logic](digital%20logic.md)}@}, including the consensus term {@{in a circuit can eliminate [race hazards](race%20hazard.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-01-31,268,330!2026-02-09,271,330-->
+In {@{[digital logic](digital%20logic.md)}@}, including the consensus term {@{in a circuit can eliminate [race hazards](race%20hazard.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-06-03,1216,350!2026-02-09,271,330-->
 
 ## history
 

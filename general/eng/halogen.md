@@ -20,7 +20,7 @@ tags:
 
 The __halogens__ {@{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}@}. The halogens are {@{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}@}. <!--SR:!2026-10-24,540,270!2026-10-20,779,250-->
 
-{@{The color darkens}@} as {@{the group is descended}@}. Flourine is {@{very pale yellow, chlorine is greenish-yellow}@}, {@{bromine is reddish-brown, and iodine is violet}@}. <!--SR:!2027-07-14,573,187!2026-01-30,17,311!2026-01-30,17,311!2026-01-30,17,311-->
+{@{The color darkens}@} as {@{the group is descended}@}. Flourine is {@{very pale yellow, chlorine is greenish-yellow}@}, {@{bromine is reddish-brown, and iodine is violet}@}. <!--SR:!2027-07-14,573,187!2026-04-19,75,331!2026-04-19,75,331!2026-04-20,76,331-->
 
 ## representative reactions
 
@@ -70,7 +70,7 @@ return await memorize_map(
 
 - reacts explosively in the dark and cold:@:[fluorine](fluorine.md) <!--SR:!2027-02-15,1015,330-->
 - reacts explosively in light and heat; slowly without:@:[chlorine](chlorine.md) <!--SR:!2027-01-30,791,230-->
-- reacts explosively in flames; moderately in light and heat:@:[bromine](bromine.md) <!--SR:!2026-01-30,709,310-->
+- reacts explosively in flames; moderately in light and heat:@:[bromine](bromine.md) <!--SR:!2034-06-08,3047,330-->
 - reacts partially; virtually no reaction:@:[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2028-07-11,1502,350-->
 - unknown:@:[tennessine](tennessine.md) <!--SR:!2027-08-18,863,230-->
 

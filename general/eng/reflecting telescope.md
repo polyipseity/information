@@ -11,7 +11,7 @@ tags:
 
 # reflecting telescope
 
-A __reflecting telescope__ (also called a __reflector__) is {@{an [optical telescope](optical%20telescope.md) that uses a single or a combination of [curved mirrors](curved%20mirror.md) that reflect [light](light.md) and form an [image](image.md)}@}. <!--SR:!2026-01-30,408,310-->
+A __reflecting telescope__ (also called a __reflector__) is {@{an [optical telescope](optical%20telescope.md) that uses a single or a combination of [curved mirrors](curved%20mirror.md) that reflect [light](light.md) and form an [image](image.md)}@}. <!--SR:!2030-11-19,1750,330-->
 
 ## references
 

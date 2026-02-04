@@ -56,7 +56,7 @@ return await memorize_seq(
 - microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C→::@::←[protection](protective%20group.md) of the four [hydroxyl groups](hydroxyl%20group.md) in ʟ-[sorbose](sorbose.md) by forming [acetal](acetal.md) with [acetone](acetone.md) and an [acid](acid.md) to diacetone-ʟ-[sorbose](sorbose.md) <!--SR:!2028-07-08,995,210!2026-05-04,106,130-->
 - [protection](protective%20group.md) of the four [hydroxyl groups](hydroxyl%20group.md) in ʟ-[sorbose](sorbose.md) by forming [acetal](acetal.md) with [acetone](acetone.md) and an [acid](acid.md) to diacetone-ʟ-[sorbose](sorbose.md)→::@::←[organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) <!--SR:!2027-09-27,968,250!2026-08-27,448,210-->
 - [organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md)→::@::←heating of [diprogulic acid](diprogulic%20acid.md) with [water](water.md) to 2-keto-ʟ-gulonic acid <!--SR:!2026-09-28,377,252!2026-09-26,376,252-->
-- heating of [diprogulic acid](diprogulic%20acid.md) with [water](water.md) to 2-keto-ʟ-gulonic acid→::@::←ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md) <!--SR:!2026-08-01,209,210!2026-01-20,89,130-->
+- heating of [diprogulic acid](diprogulic%20acid.md) with [water](water.md) to 2-keto-ʟ-gulonic acid→::@::←ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md) <!--SR:!2026-08-01,209,210!2026-07-21,174,150-->
 - ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)→::@::←purification of [ʟ-ascorbic acid](vitamin%20C.md) <!--SR:!2033-09-11,2827,330!2026-06-06,182,210-->
 - purification of [ʟ-ascorbic acid](vitamin%20C.md)→::@::←_(end)_ <!--SR:!2027-07-10,1191,350!2026-03-01,418,270-->
 
@@ -64,7 +64,7 @@ return await memorize_seq(
 
 ## importance
 
-In {@{the modern two-stage fermentation process}@}, {@{the protection and oxidation steps}@} are replaced by {@{another [genetically modified](genetic%20engineering.md) bacteria}@} {@{oxidizing [sorbose](sorbose.md) to 2-ketogluonic acid directly}@}. {@{The production cost}@} is {@{two-third of the Reichstein process}@}, although {@{the yield is still 60%}@}. <!--SR:!2026-07-20,261,210!2026-08-05,896,330!2026-01-25,67,310!2026-01-25,67,310!2026-01-25,67,310!2026-01-25,67,310!2026-01-25,67,310-->
+In {@{the modern two-stage fermentation process}@}, {@{the protection and oxidation steps}@} are replaced by {@{another [genetically modified](genetic%20engineering.md) bacteria}@} {@{oxidizing [sorbose](sorbose.md) to 2-ketogluonic acid directly}@}. {@{The production cost}@} is {@{two-third of the Reichstein process}@}, although {@{the yield is still 60%}@}. <!--SR:!2026-07-20,261,210!2026-08-05,896,330!2026-11-18,294,330!2026-11-17,293,330!2026-11-18,294,330!2026-11-17,293,330!2026-11-17,293,330-->
 
 ## references
 

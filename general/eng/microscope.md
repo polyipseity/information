@@ -25,7 +25,7 @@ A optical microscope contains {@{one or more convex [lens](lens.md)}@}. The set 
 
 The two main types of electron microscopes are {@{[transmission electron microscopes](transmission%20electron%20microscope.md) (TEMs) and [scanning electron microscopes](scanning%20electron%20microscope.md) (SEMs)}@}. They both have {@{electromagnetic and electrostatic lenses}@}. <!--SR:!2028-10-07,1423,330!2026-07-04,786,310-->
 
-In {@{TEMs}@}, {@{high energy \(40 to 400 keV\) [electrons](electron.md)}@} pass through, {@{in order, condenser lens, a very thin \(less than 100 nm\) sample, objective lens}@}, {@{projector lens, and viewing screen}@}. {@{Drawbacks of TEMs}@} include {@{requiring a very thin sample and an ultra-high [vacuum](vacuum.md)}@} to {@{transmit electrons through and avoid deflection}@}, and {@{the sample}@} may be {@{damaged by fast-moving electrons}@}. <!--SR:!2032-11-27,2519,310!2027-12-11,696,190!2026-07-01,255,210!2026-02-02,85,350!2026-01-24,77,350!2026-02-02,85,350!2026-02-01,84,350!2026-01-27,80,350!2026-02-01,84,350-->
+In {@{TEMs}@}, {@{high energy \(40 to 400 keV\) [electrons](electron.md)}@} pass through, {@{in order, condenser lens, a very thin \(less than 100 nm\) sample, objective lens}@}, {@{projector lens, and viewing screen}@}. {@{Drawbacks of TEMs}@} include {@{requiring a very thin sample and an ultra-high [vacuum](vacuum.md)}@} to {@{transmit electrons through and avoid deflection}@}, and {@{the sample}@} may be {@{damaged by fast-moving electrons}@}. <!--SR:!2032-11-27,2519,310!2027-12-11,696,190!2026-07-01,255,210!2027-03-24,415,370!2027-02-06,375,370!2027-03-21,412,370!2027-03-20,411,370!2027-02-18,387,370!2027-03-19,410,370-->
 
 ### scanning probe
 

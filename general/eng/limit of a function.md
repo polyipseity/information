@@ -88,7 +88,7 @@ The __algebraic limit theorem__ states that {@{for [real](real%20number.md) or [
 
 - see: [extended real number line](extended%20real%20number%20line.md), [indeterminate form](indeterminate%20form.md)
 
-When the limit on the right of the equation does not exist but are in the following determinate forms, {@{it can still be determined by the following rules}@}. In other cases, the limit on the left exists, but {@{the limit on the right is in [indeterminate form](indeterminate%20form.md) that does not allow direct calculation, in which case [L'Hôpital's rule](L'Hôpital's%20rule.md) may be used to determinate the limit}@}. <!--SR:!2026-07-30,689,330!2026-02-01,545,310-->
+When the limit on the right of the equation does not exist but are in the following determinate forms, {@{it can still be determined by the following rules}@}. In other cases, the limit on the left exists, but {@{the limit on the right is in [indeterminate form](indeterminate%20form.md) that does not allow direct calculation, in which case [L'Hôpital's rule](L'Hôpital's%20rule.md) may be used to determinate the limit}@}. <!--SR:!2026-07-30,689,330!2032-06-27,2336,330-->
 
 > __determinate forms__
 >
