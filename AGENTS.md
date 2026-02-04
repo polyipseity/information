@@ -92,7 +92,7 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 - [markdown-notes.instructions.md](.github/instructions/markdown-notes.instructions.md) → `general/**/*.md`
 - [special.instructions.md](.github/instructions/special.instructions.md) → `special/**/*.md`, `special/**/*.py`
 - [archives.instructions.md](.github/instructions/archives.instructions.md) → `archives/**/*.md`
-- [commit-convention.instructions.md](.github/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`)
+- [commit-convention.instructions.md](.github/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
 
 ### Workflows
 

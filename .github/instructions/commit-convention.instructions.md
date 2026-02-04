@@ -21,6 +21,39 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
    - Flashcards-now: <integer>
    ```
 
+   Flashcard progress commits (learn/review sessions)
+
+   Agents may create commits that record flashcard learning or review
+   sessions automatically without prompting for user confirmation using the
+   `commit-staged-flashcard-progress` prompt. These commits MUST use
+   Conventional Commit headers in one of these forms (wrap lines to 72
+   characters or fewer):
+
+   - Learn only: `chore(flashcards): learn N cards`
+   - Review only: `chore(flashcards): review D/T
+     cards (YYYY-MM-DD)`
+   - Both learn and review: `chore(flashcards): learn N; review D/T cards
+     (YYYY-MM-DD)`
+
+   Required trailers (plain ASCII key/value, one per line, wrapped to 72
+   characters or fewer):
+
+   - `Flashcards-learned: <N>`
+   - `Flashcards-review-target: <T>`
+   - `Flashcards-review-done: <D>`
+   - `Flashcards-review-date: <YYYY-MM-DD>`
+
+   Optional trailers:
+
+   - `Flashcards-review-remaining: <R>` (if provided)
+   - `Flashcards-prev`, `Flashcards-now`, `Flashcards-delta` may be included
+     when relevant to note updates.
+
+   When `Review-done` must be computed from `Review-remaining` and
+   `Review-target`, prefer running the terminal to compute and display the
+   result for traceability. Agents must ensure progress commits pass
+   commitlint; if commitlint rejects the message, rewrap/reformat and retry.
+
    The agent MUST prompt the user for the previous flashcard count and the new flashcard count (or otherwise confirm the values) before finalizing the commit. The agent computes `Flashcards-delta = Flashcards-now - Flashcards-prev` and inserts the three trailers exactly as single-line trailers at the end of the commit message.
 
 3. Trailers must be plain ASCII key/value pairs, one per line. Place them before any repository footers if present. Note: this repository does not require a `Signed-off-by:` footer — any such footer is optional and stylistic.
