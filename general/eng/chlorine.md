@@ -27,7 +27,7 @@ Chlorine {@{[disproportionates](disproportionation.md) to produce [chloride](chl
 >
 > - 3OCl<sup>-</sup>(aq) ⇌ 2Cl<sup>-</sup>(aq) + ClO<sub>3</sub><sup>-</sup>(aq)
 
-These [disproportionation](disproportionation.md) reactions can be exploited. For example, passing chlorine gas into {@{cold dilute [sodium hydroxide](sodium%20hydroxide.md) produces [sodium chloride](sodium%20chloride.md) and [sodium hypochlorite](sodium%20hypochlorite.md), while passing it into hot concentrated sodium hydroxide produces [sodium chloride](sodium%20chloride.md) and [sodium chlorate](sodium%20hypochlorate.md)}@}.
+{@{These [disproportionation](disproportionation.md) reactions}@} can be exploited. For example, passing chlorine gas into {@{cold dilute [sodium hydroxide](sodium%20hydroxide.md) produces [sodium chloride](sodium%20chloride.md) and [sodium hypochlorite](sodium%20hypochlorite.md)}@}, while passing it into {@{hot concentrated sodium hydroxide produces [sodium chloride](sodium%20chloride.md) and [sodium chlorate](sodium%20hypochlorate.md)}@}.
 
 ## references
 

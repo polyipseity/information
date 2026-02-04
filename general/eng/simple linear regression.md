@@ -189,7 +189,7 @@ In SLR, there is {@{an underlying assumption that only the dependent variable co
 
 {@{Other estimation methods that can be used in place of ordinary least squares}@} include {@{[least absolute deviations](least%20absolute%20deviations.md)}@} \({@{minimizing the sum of absolute values of residuals}@}\) and {@{the [Theil–Sen estimator](Theil–Sen%20estimator.md)}@} \(which {@{chooses a line whose [slope](slope.md) is the [median](median.md) of the slopes determined by pairs of sample points}@}\).
 
-{@{[Deming regression](Deming%20regression.md) \(total least squares\)}@} also {@{finds a line that fits a set of two-dimensional sample points}@}, but \(unlike {@{ordinary least squares, least absolute deviations, and median slope regression}@}\) it is not {@{really an instance of simple linear regression}@}, because {@{it does not separate the coordinates into one dependent and one independent variable and could potentially return a vertical line as its fit}@}. It can lead to {@{a model that attempts to fit the outliers more than the data}@}.
+{@{[Deming regression](Deming%20regression.md) \(total least squares\)}@} also {@{finds a line that fits a set of two-dimensional sample points}@}, but \(unlike {@{ordinary least squares, least absolute deviations, and median slope regression}@}\) it is not {@{really an instance of simple linear regression}@}, because it {@{does not separate the coordinates into one dependent and one independent variable}@} and could {@{potentially return a vertical line as its fit}@}. It can lead to {@{a model that attempts to fit the outliers more than the data}@}.
 
 ### line fitting
 

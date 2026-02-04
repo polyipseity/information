@@ -43,7 +43,7 @@ Every graph {@{decomposes into a disjoint union of [1-connected components](comp
 
 ## properties
 
-Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{existence of a cycle of length at least $2k$, cycles of length $k$}@}\)
+Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{existence of a cycle of length at least $2k$, cycles of any $k$ vertices}@}\)
 
 - (annotation: _k≥2_) Every _k_-connected graph of order (annotation: i.e. number of vertices) at least $2k$ ::@:: contains a [cycle](cycle%20(graph%20theory).md) of length at least $2k$
 - (annotation: _k≥2_) In a _k_-connected graph, ::@:: any $k$ vertices in $G$ lie on a common [cycle](cycle%20(graph%20theory).md).<sup>[\[5\]](#^ref-5)</sup>

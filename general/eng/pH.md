@@ -18,7 +18,7 @@ It is defined as {@{the negative [logarithm](logarithmic%20scale.md) of the [act
 >
 > where {@{\[H<sup>+</sup>(aq)\] is the [equilibrium](equilibrium%20chemistry.md) [molar concentration](molar%20concentration.md) of H<sup>+</sup>}@}.
 
-Solutions where {@{\[H<sup>+</sup>(aq)\] equals \[OH<sup>-</sup>(aq)\] are neutral, the former is greater than the latter are [acidic](acid.md), and the former is lesser than the latter are [basic](base%20(chemistry).md)}@}. At {@{25 °C (77 °F), pH 7}@} is neutral.
+Solutions where {@{\[H<sup>+</sup>(aq)\] equals \[OH<sup>-</sup>(aq)\] are neutral}@}, {@{the former is greater than the latter are [acidic](acid.md)}@}, and {@{the former is lesser than the latter are [basic](base%20(chemistry).md)}@}. At {@{25 °C (77 °F), pH 7}@} is neutral.
 
 ## measurement
 

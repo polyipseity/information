@@ -11,7 +11,7 @@ tags:
 
 # light-year
 
-A __light-year__, alternatively spelled __light year__ (__ly__), is {@{a [unit of length](unit%20of%20length.md) used to express [astronomical distances](distance%20measure.md) and is equal to exactly 9460&nbsp;730&nbsp;472&nbsp;580&nbsp;800 m ([scientific notation](scientific%20notation.md): 9.460&nbsp;730&nbsp;472&nbsp;5808 × 10<sup>15</sup> m)}@}, which is {@{approximately 5.88 trillion mi}@}. As defined by {@{the [International Astronomical Union](International%20Astronomical%20Union.md) (IAU)}@}, a light-year is {@{the distance that light travels in a vacuum in one [Julian year](Julian%20year%20(astronomy).md) (365.25 days)}@}.
+A __light-year__, alternatively spelled __light year__ (__ly__), is {@{a [unit of length](unit%20of%20length.md) used to express [astronomical distances](distance%20measure.md)}@} and is {@{equal to exactly 9460&nbsp;730&nbsp;472&nbsp;580&nbsp;800 m ([scientific notation](scientific%20notation.md): 9.460&nbsp;730&nbsp;472&nbsp;5808 × 10<sup>15</sup> m)}@}, which is {@{approximately 5.88 trillion mi}@}. As defined by {@{the [International Astronomical Union](International%20Astronomical%20Union.md) (IAU)}@}, a light-year is {@{the distance that light travels in a vacuum in one [Julian year](Julian%20year%20(astronomy).md) (365.25 days)}@}.
 
 ## references
 

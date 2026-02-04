@@ -57,7 +57,7 @@ In this section, {@{an [integer](integer.md) $n$ is divisible by a nonzero integ
 
 Suppose {@{_a<sup>m</sup>_ ≡ 1 \(mod _n_\) for all numbers _a_ coprime with _n_}@}. Then {@{_λ_\(_n_\) \| _m_}@}.
 
-__Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then {@{$$a^{r}=1^{k}\cdot a^{r}\equiv \left(a^{\lambda (n)}\right)^{k}\cdot a^{r}=a^{k\lambda (n)+r}=a^{m}\equiv 1{\pmod {n} }$$ for all numbers _a_ coprime with _n_}@}. It follows that {@{_r_ = 0 since _r_ \< _λ_\(_n_\) and _λ_\(_n_\) is the minimal positive exponent for which the congruence holds for all _a_ coprime with _n_}@}.
+__Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then {@{$$a^{r}=1^{k}\cdot a^{r}\equiv \left(a^{\lambda (n)}\right)^{k}\cdot a^{r}=a^{k\lambda (n)+r}=a^{m}\equiv 1{\pmod {n} }$$ for all numbers _a_ coprime with _n_}@}. It follows that {@{_r_ = 0}@} since {@{_r_ \< _λ_\(_n_\) and _λ_\(_n_\)}@} is {@{the minimal positive exponent for which the congruence holds for all _a_ coprime with _n_}@}.
 
 ### _λ_\(_n_\) divides _φ_\(_n_\)
 
