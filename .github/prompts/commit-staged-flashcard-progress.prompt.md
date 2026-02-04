@@ -29,6 +29,9 @@ machine-readable trailers for the learning/review counts.
 - `${input:commitNow}` — `no` to skip creating the commit; default is to commit.
 - `${input:extra}` — optional extra text for footer.
 
+Note: If terminal-based calculations succeed they override these inputs; if
+they fail or are unavailable, fall back to the provided input values.
+
 ## Workflow
 
 1. Read staged changes
@@ -44,16 +47,23 @@ machine-readable trailers for the learning/review counts.
 
 2. Gather session data
    - Use the provided inputs. If `Review-done` is not provided but
-     `Review-target` and `Review-remaining` are, compute `Review-done =
-     Review-target - Review-remaining` using a terminal command (PowerShell on
-     Windows):
+     `Review-target` and `Review-remaining` are, prefer computing
+     `Review-done = Review-target - Review-remaining` using a read-only
+     terminal command for traceability. Examples:
 
-     ```powershell
-     $done = {Review-target} - {Review-remaining}; Write-Output $done
-     ```
+     - POSIX (bash/zsh):
+       - `echo $(( {Review-target} - {Review-remaining} ))`
+       - or: `expr {Review-target} - {Review-remaining}`
 
-     Replace `{Review-target}` and `{Review-remaining}` with the integer values
-     from inputs. If the terminal cannot be run, compute arithmetically.
+     - PowerShell (Windows):
+       - `$done = {Review-target} - {Review-remaining}; Write-Output $done`
+
+     Replace `{Review-target}` and `{Review-remaining}` with the integer
+     input values or run the commands using the numeric inputs. If the
+     terminal cannot be run or the commands fail, compute arithmetically as a
+     fallback and note the fallback in the commit body. When a terminal
+     command was run, include its numeric output or an explicit note in the
+     commit body for traceability.
 
    - If neither review nor learn inputs are provided, assume zero and still
      compose a commit summarizing the staged changes (but omit numeric trailers
@@ -143,8 +153,11 @@ machine-readable trailers for the learning/review counts.
   best-effort defaults and available context.
 - Use the precise header formats above. Keep all lines wrapped to 72 chars or
   fewer (commitlint will reject otherwise — retry with corrected wrapping).
-- Only run the approved shell commands. Do not change the index (no `git add`
-  or `git reset`).
+- You may run additional read-only shell/terminal commands (for example, the
+  arithmetic commands shown above) to compute session numbers. Do not run
+  commands that modify the index or repository state (no `git add` or `git
+  reset`). Continue to use the two approved commands for reading the staged
+  diff and committing.
 - When both learning and review happen, include both in the header and
   include both relevant trailers.
 - When computing `Review-done` from `Review-remaining`, prefer running the

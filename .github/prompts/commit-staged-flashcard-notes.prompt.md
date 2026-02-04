@@ -21,11 +21,17 @@ agent: agent
    - Present the exact command to be run. If not executed, produce a best-effort commit message from available context and stop.
 
 2. **Gather flashcard data**
-   - Use available context or best-effort defaults for:
-     - Previous flashcard count (`Flashcards-prev`)
-     - New flashcard count (`Flashcards-now`)
-     - (Optional) Details about flashcard changes (added, removed, improved)
-   - Compute `Flashcards-delta = Flashcards-now - Flashcards-prev` and include all three trailers in the commit message if provided.
+   - Prefer computing counts exactly using read-only shell/git commands when a shell is available. Run the following (or equivalent) read-only checks and use their numeric results when they succeed:
+     - POSIX (bash/zsh):
+       - `Flashcards-prev` (at HEAD):
+         `git grep -I -h -o -E '\{\@\{[^}]+\}\@' HEAD -- general special self | wc -l`
+       - `Flashcards-now` (staged/index):
+         `git grep -I -h -o -E '\{\@\{[^}]+\}\@' --cached -- general special self | wc -l`
+     - PowerShell (Windows):
+       - `$prev = (git grep -I -h -o -E '\{\@\{[^}]+\}\@' HEAD -- general special self 2>$null) -split "`n" | Where-Object{$_ -ne ''} | Measure-Object -Line | Select-Object -ExpandProperty Lines`
+       - `$now  = (git grep -I -h -o -E '\{\@\{[^}]+\}\@' --cached -- general special self 2>$null) -split "`n" | Where-Object{$_ -ne ''} | Measure-Object -Line | Select-Object -ExpandProperty Lines`
+   - If these commands succeed, compute `Flashcards-delta = Flashcards-now - Flashcards-prev` from their numeric outputs and include all three trailers in the commit message.
+   - If terminal commands are unavailable or they fail, fall back to `${input:Flashcards-prev}` and `${input:Flashcards-now}` provided to the prompt, or use best-effort defaults and note the fallback in the commit body.
    - If no flashcard-related counts apply, omit these trailers.
 
 3. **Compose commit message**
