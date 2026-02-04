@@ -19,7 +19,8 @@ EOF
 fi
 
 SCRIPT_DIR=$(dirname "$0")
-"$NODE_CMD" "$SCRIPT_DIR/prepare-commit-msg.js" "$@" 2>&1 | sed 's/^/[prepare-commit-msg] /' >&2 || {
+# Use the ESM module file ('.mjs') because this repo uses "type": "module" in package.json.
+"$NODE_CMD" "$SCRIPT_DIR/prepare-commit-msg.mjs" "$@" 2>&1 | sed 's/^/[prepare-commit-msg] /' >&2 || {
   cat <<'EOF' >&2
 ========================================
 WARNING: prepare-commit-msg hook failed to set a standardized commit message.
@@ -30,5 +31,3 @@ EOF
 }
 
 exit 0
-
-

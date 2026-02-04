@@ -1,20 +1,19 @@
 #!/usr/bin/env node
-'use strict';
 /*
- * .husky/prepare-commit-msg.js
- * Sets a standardized commit message when merging into branches matching `forks/*`.
- * Usage: node .husky/prepare-commit-msg.js <commitMsgFile> <commitSource>
+ * .husky/prepare-commit-msg.mjs
+ * ESM module version of the prepare-commit-msg hook.
+ * Usage: node .husky/prepare-commit-msg.mjs <commitMsgFile> <commitSource>
  *
  * Cross-platform notes:
- * - Runs with Node (works on Linux/macOS and Windows PowerShell/CMD/Git Bash)
+ * - This file uses ES modules ('.mjs') to match the repository's "type": "module".
  * - Enable debug output with: HUSKY_DEBUG=1
  */
 
-const fs = require('fs');
-const { execSync } = require('child_process');
-const path = require('path');
+import { readFileSync, writeFileSync } from 'fs';
+import { execSync } from 'child_process';
+import path from 'path';
 
-const [,, commitMsgFile, commitSource] = process.argv;
+const [, , commitMsgFile, commitSource] = process.argv;
 
 function debug(msg) {
   if (process.env.HUSKY_DEBUG === '1') console.error(`[prepare-commit-msg] ${msg}`);
@@ -27,7 +26,7 @@ if (commitSource !== 'merge') {
 
 function git(cmd) {
   try {
-    return execSync(`git ${cmd}`, { encoding: 'utf8', stdio: ['pipe','pipe','ignore'] }).trim();
+    return execSync(`git ${cmd}`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).toString().trim();
   } catch (e) {
     return '';
   }
@@ -45,7 +44,7 @@ const gitdir = git('rev-parse --git-dir');
 if (gitdir) {
   try {
     const mergeHeadPath = path.join(gitdir, 'MERGE_HEAD');
-    const mergeSha = fs.readFileSync(mergeHeadPath, 'utf8').split(/\r?\n/)[0].trim();
+    const mergeSha = readFileSync(mergeHeadPath, 'utf8').split(/\r?\n/)[0].trim();
     if (mergeSha) {
       debug(`merge SHA: ${mergeSha}`);
       const refList = git(`for-each-ref --format='%(refname:short)' --contains ${mergeSha} refs/remotes refs/heads`);
@@ -63,7 +62,7 @@ if (gitdir) {
 }
 
 try {
-  fs.writeFileSync(commitMsgFile, `chore(sync); merge from \`${src}\`\n`, 'utf8');
+  writeFileSync(commitMsgFile, `chore(sync); merge from \`${src}\`\n`, 'utf8');
   debug(`wrote standardized commit message to ${commitMsgFile}`);
 } catch (err) {
   // Prominent warning but allow the merge/commit to continue
