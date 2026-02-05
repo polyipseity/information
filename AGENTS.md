@@ -123,6 +123,7 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` 
 - **[wiki-ingestion](.github/skills/wiki-ingestion/SKILL.md)** — Import Wikipedia articles, normalize links/media, scaffold new notes
 - **[tools-templates](.github/skills/tools-templates/SKILL.md)** — Template scaffolding, YAML conventions, pytextgen fence templates
 - **[pytextgen](.github/skills/pytextgen/SKILL.md)** — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
+- **[academic-notes](.github/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
 
 ### Tools & workflows
 
