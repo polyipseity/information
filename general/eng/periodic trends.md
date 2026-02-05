@@ -33,16 +33,16 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="b928"--><!-- The following content is generated at 2023-04-19T12:13:02.213812+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b928"--><!-- The following content is generated at 2026-01-25T23:32:18.985073+08:00. Any edits will be overridden! -->
 
-> | periodic property | across the period | down the group |
-> |-|-|-|
-> | {@{[atomic radius](#atomic%20radius)}@} | {@{decreases}@} | {@{increases}@} |
-> | {@{[electron affinity](#electron%20affinity)}@} | {@{increases}@} | {@{fluctuates}@} |
-> | {@{[electronegativity](#electronegativity)}@} | {@{increases}@} | {@{decreases}@} |
-> | {@{[ionization energy](#ionization%20energy)}@} | {@{increases}@} | {@{decreases}@} |
-> | {@{[metallic character](#metallic%20character)}@} | {@{decreases}@} | {@{increases}@} |
-> | {@{[valence](#valence)}@} | {@{increases, then decreases}@} | {@{constant}@} | <!--SR:!2035-08-23,3508,350!2026-08-11,938,330!2027-08-23,1246,350!2033-01-19,2787,350!2030-09-29,1872,310!2029-02-07,1306,270!2026-09-29,915,330!2026-11-20,953,330!2033-09-24,2856,330!2027-04-02,820,290!2033-04-07,2727,330!2032-07-06,2535,330!2026-03-22,778,330!2026-02-27,761,330!2027-04-16,1058,330!2026-02-17,570,330!2030-11-08,1912,330!2034-08-30,3235,350-->
+> | periodic property                                 | across the period               | down the group   |
+> | ------------------------------------------------- | ------------------------------- | ---------------- |
+> | {@{[atomic radius](#atomic%20radius)}@}           | {@{decreases}@}                 | {@{increases}@}  |
+> | {@{[electron affinity](#electron%20affinity)}@}   | {@{increases}@}                 | {@{fluctuates}@} |
+> | {@{[electronegativity](#electronegativity)}@}     | {@{increases}@}                 | {@{decreases}@}  |
+> | {@{[ionization energy](#ionization%20energy)}@}   | {@{increases}@}                 | {@{decreases}@}  |
+> | {@{[metallic character](#metallic%20character)}@} | {@{decreases}@}                 | {@{increases}@}  |
+> | {@{[valence](#valence)}@}                         | {@{increases, then decreases}@} | {@{constant}@}   | <!--SR:!2035-08-23,3508,350!2026-08-11,938,330!2027-08-23,1246,350!2033-01-19,2787,350!2030-09-29,1872,310!2029-02-07,1306,270!2026-09-29,915,330!2026-11-20,953,330!2033-09-24,2856,330!2027-04-02,820,290!2033-04-07,2727,330!2032-07-06,2535,330!2026-03-22,778,330!2026-02-27,761,330!2027-04-16,1058,330!2026-02-17,570,330!2030-11-08,1912,330!2034-08-30,3235,350-->
 
 <!--/pytextgen-->
 

@@ -30,13 +30,13 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="d828"--><!-- The following content is generated at 2023-03-25T13:08:53.658927+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d828"--><!-- The following content is generated at 2026-01-25T23:32:18.529749+08:00. Any edits will be overridden! -->
 
-> | type | description |
-> |-|-|
-> | {@{[aromatic hydrocarbons](aromatic%20compound.md)}@} | {@{Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).}@} |
-> | {@{[saturated hydrocarbons](saturated%20hydrocarbon.md)}@} | {@{Hydrocarbons that have [single bonds](single%20bond.md) only.}@} |
-> | {@{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}@} | {@{Hydrocarbons that have [multiple bonds](bond%20order.md).}@} | <!--SR:!2027-10-15,1289,350!2028-04-10,1241,290!2026-11-07,943,330!2027-10-11,1286,350!2027-05-20,1173,350!2027-10-23,1296,350-->
+> | type                                                           | description                                                                                                                                                                                |
+> | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+> | {@{[aromatic hydrocarbons](aromatic%20compound.md)}@}          | {@{Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).}@} |
+> | {@{[saturated hydrocarbons](saturated%20hydrocarbon.md)}@}     | {@{Hydrocarbons that have [single bonds](single%20bond.md) only.}@}                                                                                                                        |
+> | {@{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}@} | {@{Hydrocarbons that have [multiple bonds](bond%20order.md).}@}                                                                                                                            | <!--SR:!2027-10-15,1289,350!2028-04-10,1241,290!2026-11-07,943,330!2027-10-11,1286,350!2027-05-20,1173,350!2027-10-23,1296,350-->
 
 <!--/pytextgen-->
 

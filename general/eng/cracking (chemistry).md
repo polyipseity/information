@@ -33,12 +33,12 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="923d"--><!-- The following content is generated at 2023-03-25T13:57:02.622846+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="923d"--><!-- The following content is generated at 2026-01-25T23:32:18.237684+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
+> | name                     | description                                                                                                                                                                                           |
+> | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 > | {@{catalytic cracking}@} | {@{Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}@} |
-> | {@{thermal cracking}@} | {@{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}@} | <!--SR:!2026-12-15,1055,350!2030-01-05,1601,250!2027-07-29,1231,350!2026-10-31,732,250-->
+> | {@{thermal cracking}@}   | {@{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}@}                                                                                     | <!--SR:!2026-12-15,1055,350!2030-01-05,1601,250!2027-07-29,1231,350!2026-10-31,732,250-->
 
 <!--/pytextgen-->
 

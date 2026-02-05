@@ -36,8 +36,8 @@ This text incorporates [content](https://en.wikipedia.org/wiki/inductive_set) fr
 
 - <a id="CITEREFMoschovakis, Yiannis N.1980"></a> Moschovakis, Yiannis N. \(1980\). [_Descriptive Set Theory_](https://archive.org/details/descriptivesetth0000mosc). North Holland. [ISBN](ISBN.md) [0-444-70199-0](https://en.wikipedia.org/wiki/Special:BookSources/0-444-70199-0).
 
-|                                                                    |                                                                                                                                                                                                                                 |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                       |                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![set theory stub](../../archives/Wikimedia%20Commons/CardContin.svg) | _This [set theory](set%20theory.md)-related article is a [stub](https://en.wikipedia.org/wiki/Wikipedia:Stub). You can help Wikipedia by [expanding it](https://en.wikipedia.org/w/index.php?title=Inductive_set&action=edit)._ |
 
 > [Categories](https://en.wikipedia.org/wiki/Help:Category):

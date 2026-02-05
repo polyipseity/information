@@ -37,12 +37,12 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="309d"--><!-- The following content is generated at 2023-09-26T08:43:44.011903+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="309d"--><!-- The following content is generated at 2026-01-25T23:32:18.934471+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{__duplet rule__}@} | {@{2 electrons in valence shell}@} <a id="^duplet-rule"></a>^duplet-rule |
-> | {@{__[18-electron rule](18-electron%20rule.md)__}@} | {@{18 electrons in valence shell}@} | <!--SR:!2033-05-07,2807,350!2032-07-01,2566,350!2032-09-16,2623,350!2033-04-09,2785,350-->
+> | name                                                | description                                                              |
+> | --------------------------------------------------- | ------------------------------------------------------------------------ |
+> | {@{__duplet rule__}@}                               | {@{2 electrons in valence shell}@} <a id="^duplet-rule"></a>^duplet-rule |
+> | {@{__[18-electron rule](18-electron%20rule.md)__}@} | {@{18 electrons in valence shell}@}                                      | <!--SR:!2033-05-07,2807,350!2032-07-01,2566,350!2032-09-16,2623,350!2033-04-09,2785,350-->
 
 <!--/pytextgen-->
 

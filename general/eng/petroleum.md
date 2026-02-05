@@ -62,20 +62,20 @@ return _chain.from_iterable(await _gather(
 
 [Fuels](fuel.md) by ascending [boiling point](boiling%20point.md) include:
 
-<!--pytextgen generate section="2039"--><!-- The following content is generated at 2023-12-04T08:18:54.256450+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2039"--><!-- The following content is generated at 2026-01-25T23:32:17.933347+08:00. Any edits will be overridden! -->
 
-> | [fraction](fraction%20(chemistry).md) | [boiling point](boiling%20point.md) range | use(s) |
-> |-|-|-|
-> | [liqueified petroleum gas](liqueified%20petroleum%20gas.md) | -40 to -1 °C | [chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md) |
-> | [butane](butane.md) | -12 to -1 °C |  |
-> | [gasoline/petrol](gasoline.md) | -1 to 110 °C | fuel for [motor vehicles](motor%20vehicle.md) |
-> | [naphtha](naphtha.md) | 30 to 200 °C | production of [plastics](plastic.md) and [town gas](coal%20gas.md) |
-> | [jet fuel](jet%20fuel.md) | 150 to 205 °C | fuel for [aeroplanes](airplane.md) |
-> | [kerosene](kerosene.md) | 205 to 260 °C | fuel for domestic use |
-> | [fuel oil](fuel%20oil.md) | 205 to 290 °C | fuel for [power plants](power%20station.md) and [ships](ship.md) |
-> | [diesel fuel](diesel%20fuel.md) | 260 to 315 °C | fuel for [buses](bus.md) and [trucks](truck.md) |
-> | [paraffin wax](paraffin%20wax.md) | 370 °C or above | [candles](candle.md), [lubrication](lubrication.md) |
-> | [bitumen](bitumen.md) | 500 °C or above | [road construction](road%20construction.md) |
+> | [fraction](fraction%20(chemistry).md)                       | [boiling point](boiling%20point.md) range | use(s)                                                             |
+> | ----------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------ |
+> | [liqueified petroleum gas](liqueified%20petroleum%20gas.md) | -40 to -1 °C                              | [chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md)     |
+> | [butane](butane.md)                                         | -12 to -1 °C                              |                                                                    |
+> | [gasoline/petrol](gasoline.md)                              | -1 to 110 °C                              | fuel for [motor vehicles](motor%20vehicle.md)                      |
+> | [naphtha](naphtha.md)                                       | 30 to 200 °C                              | production of [plastics](plastic.md) and [town gas](coal%20gas.md) |
+> | [jet fuel](jet%20fuel.md)                                   | 150 to 205 °C                             | fuel for [aeroplanes](airplane.md)                                 |
+> | [kerosene](kerosene.md)                                     | 205 to 260 °C                             | fuel for domestic use                                              |
+> | [fuel oil](fuel%20oil.md)                                   | 205 to 290 °C                             | fuel for [power plants](power%20station.md) and [ships](ship.md)   |
+> | [diesel fuel](diesel%20fuel.md)                             | 260 to 315 °C                             | fuel for [buses](bus.md) and [trucks](truck.md)                    |
+> | [paraffin wax](paraffin%20wax.md)                           | 370 °C or above                           | [candles](candle.md), [lubrication](lubrication.md)                |
+> | [bitumen](bitumen.md)                                       | 500 °C or above                           | [road construction](road%20construction.md)                        |
 
 <!--/pytextgen-->
 

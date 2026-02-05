@@ -34,7 +34,7 @@ The effect is {@{most pronounced over distances on the order of a few wavelength
 
 ### delay spread
 
-For {@{a power‑delay profile $P(\tau)$}@}, {@{the root‑mean‑square (RMS) delay spread}@} is {@{$$\sigma_{\!d} \;=\;\sqrt{\frac{\displaystyle \int_{0}^{\infty}\!\tau^{2} P(\tau)\,d\tau}{\displaystyle \int_{0}^{\infty}\!P(\tau)\,d\tau} } \,,$$}@} or equivalently, {@{$$\sigma_d = \sqrt{\overline{\tau^2} - (\overline \tau)^2 } \,.$$}@} {@{The integrals and the averages}@} are {@{_power‑weighted_ averages}@}: {@{the numerator weights each delay by its squared value}@}, while {@{the denominator normalizes by total received power}@}. <!--SR:!2026-04-02,62,310!2026-03-23,54,310!2026-04-02,62,310!2026-03-10,41,290!2026-04-07,67,310!2026-03-27,58,310!2026-03-30,60,310!2026-04-07,67,310-->
+For {@{a power‑delay profile $P(\tau)$}@}, {@{the root‑mean‑square (RMS) delay spread}@} is {@{$$\sigma_{\!d} \;=\;\sqrt{\frac{\displaystyle \int_{0}^{\infty}\!(\tau - \overline \tau)^{2} P(\tau)\,d\tau}{\displaystyle \int_{0}^{\infty}\!P(\tau)\,d\tau} } \,,$$}@} or equivalently, {@{$$\sigma_d = \sqrt{\overline{\tau^2} - (\overline \tau)^2 } \,.$$}@} {@{The integrals and the averages (including the symbols with overlines)}@} are {@{_power‑weighted_ averages}@}: {@{the numerator weights each delay by its squared value}@}, while {@{the denominator normalizes by total received power}@}. <!--SR:!2026-04-02,62,310!2026-03-23,54,310!2026-04-02,62,310!2026-03-10,41,290!2026-04-07,67,310!2026-03-27,58,310!2026-03-30,60,310!2026-04-07,67,310-->
 
 If {@{$T_{\max}$ and $T_{\min}$}@} denote {@{the largest and smallest significant delays in the channel}@}, then {@{$$\tau_{\text{max} } \;=\; T_{\max} - T_{\min} \,.$$}@} <!--SR:!2026-03-24,55,310!2026-03-25,56,310!2026-03-26,57,310-->
 

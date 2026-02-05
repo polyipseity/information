@@ -36,19 +36,19 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b9a823"--><!-- The following content is generated at 2026-01-25T23:32:18.464328+08:00. Any edits will be overridden! -->
 
-> | name & pictogram | description |
-> |-|-|
-> | {@{GHS01: [explosive](explosive.md)}@}<br/>{@{![GHS01: [explosive](explosive.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)}@} |  |
-> | {@{GHS02: [flammable](flammability.md)}@}<br/>{@{![GHS02: [flammable](flammability.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)}@} |  |
-> | {@{GHS03: [oxidizing](oxidizing%20agent.md)}@}<br/>{@{![GHS03: [oxidizing](oxidizing%20agent.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)}@} |  |
-> | {@{GHS04: [compressed gas](compressed%20fluid.md)}@}<br/>{@{![GHS04: [compressed gas](compressed%20fluid.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)}@} |  |
-> | {@{GHS05: [corrosive](corrosive%20substance.md)}@}<br/>{@{![GHS05: [corrosive](corrosive%20substance.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)}@} |  |
-> | {@{GHS06: [toxic](toxicity.md)}@}<br/>{@{![GHS06: [toxic](toxicity.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}@} |  |
-> | {@{GHS07: harmful}@}<br/>{@{![GHS07: harmful](../../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}@} |  |
-> | {@{GHS08: [health hazard](health%20hazard.md)}@}<br/>{@{![GHS08: [health hazard](health%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}@} |  |
-> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |  | <!--SR:!2027-10-22,1295,350!2035-02-20,3372,350!2026-05-19,870,330!2027-04-03,1052,330!2027-07-14,1218,350!2026-07-21,921,330!2027-01-05,988,330!2027-07-03,1209,350!2028-05-13,1455,350!2032-08-26,2574,330!2027-01-10,992,330!2026-06-28,891,330!2032-03-05,2441,330!2026-12-04,369,310!2027-07-21,1223,350!2032-11-04,2658,330!2027-10-16,1290,350!2026-03-03,781,310-->
+> | name & pictogram                                                                                                                                                                                 | description |
+> | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+> | {@{GHS01: [explosive](explosive.md)}@}<br/>{@{![GHS01: [explosive](explosive.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)}@}                                                |             |
+> | {@{GHS02: [flammable](flammability.md)}@}<br/>{@{![GHS02: [flammable](flammability.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)}@}                                          |             |
+> | {@{GHS03: [oxidizing](oxidizing%20agent.md)}@}<br/>{@{![GHS03: [oxidizing](oxidizing%20agent.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)}@}                              |             |
+> | {@{GHS04: [compressed gas](compressed%20fluid.md)}@}<br/>{@{![GHS04: [compressed gas](compressed%20fluid.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)}@}                    |             |
+> | {@{GHS05: [corrosive](corrosive%20substance.md)}@}<br/>{@{![GHS05: [corrosive](corrosive%20substance.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)}@}                          |             |
+> | {@{GHS06: [toxic](toxicity.md)}@}<br/>{@{![GHS06: [toxic](toxicity.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}@}                                                           |             |
+> | {@{GHS07: harmful}@}<br/>{@{![GHS07: harmful](../../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}@}                                                                                    |             |
+> | {@{GHS08: [health hazard](health%20hazard.md)}@}<br/>{@{![GHS08: [health hazard](health%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}@}                        |             |
+> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |             | <!--SR:!2027-10-22,1295,350!2035-02-20,3372,350!2026-05-19,870,330!2027-04-03,1052,330!2027-07-14,1218,350!2026-07-21,921,330!2027-01-05,988,330!2027-07-03,1209,350!2028-05-13,1455,350!2032-08-26,2574,330!2027-01-10,992,330!2026-06-28,891,330!2032-03-05,2441,330!2026-12-04,369,310!2027-07-21,1223,350!2032-11-04,2658,330!2027-10-16,1290,350!2026-03-03,781,310-->
 
 <!--/pytextgen-->
 

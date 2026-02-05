@@ -34,13 +34,13 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="223d"--><!-- The following content is generated at 2023-04-09T14:14:06.744759+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="223d"--><!-- The following content is generated at 2026-01-25T23:32:19.407371+08:00. Any edits will be overridden! -->
 
-> | property | description |
-> |-|-|
-> | {@{[catalytic](catalysis.md) properties}@} | {@{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}@} |
-> | {@{colored [ions](ion.md)}@} | {@{Most transition metals ions are colored.}@} |
-> | {@{variable [oxidation states](oxidation%20state.md)}@} | {@{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}@} | <!--SR:!2027-09-21,1264,350!2027-04-19,991,290!2027-03-20,1118,350!2033-04-27,2797,330!2027-10-08,1278,350!2031-08-13,2325,330-->
+> | property                                                | description                                                                                                  |
+> | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+> | {@{[catalytic](catalysis.md) properties}@}              | {@{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}@} |
+> | {@{colored [ions](ion.md)}@}                            | {@{Most transition metals ions are colored.}@}                                                               |
+> | {@{variable [oxidation states](oxidation%20state.md)}@} | {@{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}@}                 | <!--SR:!2027-09-21,1264,350!2027-04-19,991,290!2027-03-20,1118,350!2033-04-27,2797,330!2027-10-08,1278,350!2031-08-13,2325,330-->
 
 <!--/pytextgen-->
 

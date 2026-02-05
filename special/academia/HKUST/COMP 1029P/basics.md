@@ -59,13 +59,13 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2025-09-21T20:03:37.036101+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2026-01-25T23:32:20.871774+08:00. Any edits will be overridden! -->
 
-> | operator | description |
-> |-|-|
-> | `**` | power |
+> | operator                           | description                                                                                                                                           |
+> | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | `**`                               | power                                                                                                                                                 |
 > | `*` <br/> `/` <br/> `//` <br/> `%` | multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator |
-> | `+` <br/> `-` | addition <br/> subtraction |
+> | `+` <br/> `-`                      | addition <br/> subtraction                                                                                                                            |
 
 <!--/pytextgen-->
 
@@ -117,17 +117,17 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.650809+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2026-01-25T23:32:20.909907+08:00. Any edits will be overridden! -->
 
-> | operator | description |
-> |-|-|
-> | `in` | membership test |
-> | `<` | lesser than |
-> | `<=` | lesser than or equal to |
-> | `>` | greater than |
-> | `>=` | greater than or equal to |
-> | `!=` | not equal to |
-> | `==` | equal to |
+> | operator | description              |
+> | -------- | ------------------------ |
+> | `in`     | membership test          |
+> | `<`      | lesser than              |
+> | `<=`     | lesser than or equal to  |
+> | `>`      | greater than             |
+> | `>=`     | greater than or equal to |
+> | `!=`     | not equal to             |
+> | `==`     | equal to                 |
 
 <!--/pytextgen-->
 
@@ -187,13 +187,13 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.667324+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2856"--><!-- The following content is generated at 2026-01-25T23:32:20.962215+08:00. Any edits will be overridden! -->
 
 > | operator | description |
-> |-|-|
-> | `not` | negate |
-> | `and` | and |
-> | `or` | or |
+> | -------- | ----------- |
+> | `not`    | negate      |
+> | `and`    | and         |
+> | `or`     | or          |
 
 <!--/pytextgen-->
 

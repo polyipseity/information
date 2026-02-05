@@ -89,15 +89,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="385a"--><!-- The following content is generated at 2023-04-25T22:14:31.359212+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="385a"--><!-- The following content is generated at 2026-01-25T23:32:19.486177+08:00. Any edits will be overridden! -->
 
-> | question type | description |
-> |-|-|
-> | {@{comparison}@} | {@{analyze similarities and differences of multiple things}@} |
-> | {@{factor/reason}@} | {@{explain a phenomenon}@} |
-> | {@{impact/problem}@} | {@{analyze consequences}@} |
-> | {@{phenomenon}@} | {@{analyze characteristics}@} |
-> | {@{solution}@} | {@{solve a problem}@} |
+> | question type         | description                                                      |
+> | --------------------- | ---------------------------------------------------------------- |
+> | {@{comparison}@}      | {@{analyze similarities and differences of multiple things}@}    |
+> | {@{factor/reason}@}   | {@{explain a phenomenon}@}                                       |
+> | {@{impact/problem}@}  | {@{analyze consequences}@}                                       |
+> | {@{phenomenon}@}      | {@{analyze characteristics}@}                                    |
+> | {@{solution}@}        | {@{solve a problem}@}                                            |
 > | {@{value judgement}@} | {@{comment on good and bad or values positioning stakeholders}@} | <!--SR:!2024-04-29,283,330!2025-11-19,644,310!2024-05-20,253,270!2024-04-15,33,170!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2024-06-30,145,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/pytextgen-->
@@ -145,11 +145,11 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="102d"--><!-- The following content is generated at 2023-12-04T08:21:59.272356+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="102d"--><!-- The following content is generated at 2026-01-25T23:32:19.496845+08:00. Any edits will be overridden! -->
 
-> | question word(s) | description |
-> |-|-|
-> | {@{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}@} | {@{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}@} |
+> | question word(s)                                                    | description                                                                                                                                                                                                               |
+> | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}@}     | {@{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}@}               |
 > | {@{<ul><li>comment</li><li>to what extent do you agree</li></ul>}@} | {@{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}@} | <!--SR:!2024-06-06,105,290!2024-06-06,59,150!2025-06-24,539,295!2024-07-22,108,175-->
 
 <!--/pytextgen-->
@@ -185,18 +185,18 @@ return await memorize_table(
 
 Identify {@{keywords in the question. When appropriate, define or explain them}@}. <!--SR:!2024-06-07,64,210-->
 
-<!--pytextgen generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="21aa"--><!-- The following content is generated at 2026-01-25T23:32:19.505217+08:00. Any edits will be overridden! -->
 
-> | keyword | description |
-> |-|-|
-> | {@{according to/refer to}@} | {@{quote and focus on the reference}@} |
-> | {@{cause/reason}@} | {@{provide causes, explanations, or justifications}@} |
-> | {@{effectiveness}@} | {@{consider meeting objectives contextually from both sides}@} |
-> | {@{factor}@} | {@{provide generalized causes, explanations, or justifications}@} |
-> | {@{feasibilities}@} | {@{consider practicalitiy contextually from both sides}@} |
-> | {@{pattern}@} | {@{describe the overall distribution, relations of variables, and trends}@} |
-> | {@{trend}@} | {@{describe the variation of data over time (e.g. increase, decrease, unchanged)}@} |
-> | {@{with reference to}@} | {@{paraphrase the reference and deduce implications}@} | <!--SR:!2026-06-12,799,310!2024-11-17,286,235!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2026-07-05,821,315!2024-05-23,93,215!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-11-28,297,210!2027-04-12,1105,335!2024-05-16,250,275!2025-05-08,552,315!2024-06-19,93,215-->
+> | keyword                     | description                                                                         |
+> | --------------------------- | ----------------------------------------------------------------------------------- |
+> | {@{according to/refer to}@} | {@{quote and focus on the reference}@}                                              |
+> | {@{cause/reason}@}          | {@{provide causes, explanations, or justifications}@}                               |
+> | {@{effectiveness}@}         | {@{consider meeting objectives contextually from both sides}@}                      |
+> | {@{factor}@}                | {@{provide generalized causes, explanations, or justifications}@}                   |
+> | {@{feasibilities}@}         | {@{consider practicalitiy contextually from both sides}@}                           |
+> | {@{pattern}@}               | {@{describe the overall distribution, relations of variables, and trends}@}         |
+> | {@{trend}@}                 | {@{describe the variation of data over time (e.g. increase, decrease, unchanged)}@} |
+> | {@{with reference to}@}     | {@{paraphrase the reference and deduce implications}@}                              | <!--SR:!2026-06-12,799,310!2024-11-17,286,235!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2026-07-05,821,315!2024-05-23,93,215!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-11-28,297,210!2027-04-12,1105,335!2024-05-16,250,275!2025-05-08,552,315!2024-06-19,93,215-->
 
 <!--/pytextgen-->
 

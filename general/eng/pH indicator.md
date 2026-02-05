@@ -112,13 +112,13 @@ return (
 
 ## methyl orange
 
-<!--pytextgen generate section="a9208f"--><!-- The following content is generated at 2024-07-07T16:14:39.510537+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a9208f"--><!-- The following content is generated at 2026-01-25T23:32:19.056387+08:00. Any edits will be overridden! -->
 
-> | pH | color |
-> |-|-|
-> | ~3.1 | <span style="color: red;">red</span> |
-> | 3.1~4.4 | <span style="color: orange;">orange</span> |
-> | 4.4~ | <span style="color: yellow; background-color: black;">yellow</span> |
+> | pH      | color                                                               |
+> | ------- | ------------------------------------------------------------------- |
+> | ~3.1    | <span style="color: red;">red</span>                                |
+> | 3.1~4.4 | <span style="color: orange;">orange</span>                          |
+> | 4.4~    | <span style="color: yellow; background-color: black;">yellow</span> |
 
 <!--/pytextgen-->
 
@@ -141,13 +141,13 @@ return (
 
 ## litmus
 
-<!--pytextgen generate section="2acde1"--><!-- The following content is generated at 2023-08-01T10:43:41.619622+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2acde1"--><!-- The following content is generated at 2026-01-25T23:32:19.008228+08:00. Any edits will be overridden! -->
 
-> | pH | color |
-> |-|-|
-> | ~5 | <span style="color: red;">red</span> |
+> | pH  | color                                                               |
+> | --- | ------------------------------------------------------------------- |
+> | ~5  | <span style="color: red;">red</span>                                |
 > | 5~8 | <span style="color: purple; background-color: white;">purple</span> |
-> | 8~ | <span style="color: blue; background-color: white;">blue</span> |
+> | 8~  | <span style="color: blue; background-color: white;">blue</span>     |
 
 <!--/pytextgen-->
 
@@ -170,13 +170,13 @@ return (
 
 ## phenolphthalein
 
-<!--pytextgen generate section="5c8883"--><!-- The following content is generated at 2023-08-01T10:43:41.457564+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5c8883"--><!-- The following content is generated at 2026-01-25T23:32:19.031797+08:00. Any edits will be overridden! -->
 
-> | pH | color |
-> |-|-|
-> | ~8.3 | colorless |
+> | pH     | color                                                 |
+> | ------ | ----------------------------------------------------- |
+> | ~8.3   | colorless                                             |
 > | 8.3~10 | <span style="color: lightPink;">very pale pink</span> |
-> | 10~ | <span style="color: pink;">pink</span> |
+> | 10~    | <span style="color: pink;">pink</span>                |
 
 <!--/pytextgen-->
 

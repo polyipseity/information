@@ -49,15 +49,15 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-03-07T00:04:17.315438+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2026-01-25T23:32:20.906895+08:00. Any edits will be overridden! -->
 
-> | type | description |
-> |-|-|
-> | `Boolean` | Either `True` or `False`. |
-> | `Double` | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. |
-> | `Integer` | An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767. |
-> | `Long` | An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. |
-> | `Single` | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. |
+> | type      | description                                                                                                                                       |
+> | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | `Boolean` | Either `True` or `False`.                                                                                                                         |
+> | `Double`  | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. |
+> | `Integer` | An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767.                                                                             |
+> | `Long`    | An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647.                                                                   |
+> | `Single`  | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes.   |
 
 <!--/pytextgen-->
 

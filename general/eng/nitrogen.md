@@ -36,13 +36,13 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="293850"--><!-- The following content is generated at 2023-03-20T16:20:31.032625+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="293850"--><!-- The following content is generated at 2026-01-25T23:32:18.922116+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{food packaging}@} | {@{To prevent [food spoilage](food%20spoilage.md).}@} |
-> | {@{making [ammonia](ammonia.md)}@} |  |
-> | {@{[refrigerant](refrigerant.md)}@} |  | <!--SR:!2026-05-14,870,330!2028-03-15,1408,350!2035-07-26,3490,350!2030-07-26,1991,310-->
+> | name                                | description                                           |
+> | ----------------------------------- | ----------------------------------------------------- |
+> | {@{food packaging}@}                | {@{To prevent [food spoilage](food%20spoilage.md).}@} |
+> | {@{making [ammonia](ammonia.md)}@}  |                                                       |
+> | {@{[refrigerant](refrigerant.md)}@} |                                                       | <!--SR:!2026-05-14,870,330!2028-03-15,1408,350!2035-07-26,3490,350!2030-07-26,1991,310-->
 
 <!--/pytextgen-->
 

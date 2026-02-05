@@ -43,13 +43,13 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="dee2"--><!-- The following content is generated at 2023-12-17T18:44:27.093167+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dee2"--><!-- The following content is generated at 2026-01-25T23:32:18.262731+08:00. Any edits will be overridden! -->
 
-> | type | [monoatomic](monoatomic%20gas.md) | [linear molecules](linear%20molecular%20geometry.md) | [non-linear molecules](molecular%20geometry.md) |
-> |-|-|-|-|
-> | [translation](translation%20(geometry).md) ($x, y, z$) | 3 | 3 | 3 |
-> | [rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md)) | 0 | 2 | 3 |
-> | [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)) | 0 | $2(3N - 5)$ | $2(3N - 6)$ |
+> | type                                                                     | [monoatomic](monoatomic%20gas.md) | [linear molecules](linear%20molecular%20geometry.md) | [non-linear molecules](molecular%20geometry.md) |
+> | ------------------------------------------------------------------------ | --------------------------------- | ---------------------------------------------------- | ----------------------------------------------- |
+> | [translation](translation%20(geometry).md) ($x, y, z$)                   | 3                                 | 3                                                    | 3                                               |
+> | [rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))                | 0                                 | 2                                                    | 3                                               |
+> | [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)) | 0                                 | $2(3N - 5)$                                          | $2(3N - 6)$                                     |
 
 <!--/pytextgen-->
 

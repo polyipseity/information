@@ -219,6 +219,8 @@ async def memorize_table(
   posttext: str = '',
   prefix: None | str = None,
   suffix: None | str = None,
+  use_compiled_len: bool = False,
+  use_visible_len: bool = False,
 ) -> tuple[Result, Result]:
   prefix, suffix = _prefix_or_pretext(prefix, pretext), _suffix_or_posttext(suffix, posttext)
   states = read_states(locations)
@@ -233,6 +235,8 @@ async def memorize_table(
           names=headers,
           values=lambda data: transformer(data),
           escape=escape,
+          use_compiled_len=use_compiled_len,
+          use_visible_len=use_visible_len,
         ))),
         states=states[0],
       ),

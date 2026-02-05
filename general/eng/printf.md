@@ -35,7 +35,7 @@ When {@{reading or writing a placeholder}@}, it helps to think of it as {@{a pip
 
 ### parameter selection
 
-Placeholders may optionally specify {@{_which argument_ they apply to}@}. This is done using {@{a number followed by `$`, such as `1$` or `2$`}@}. For example, {@{`%2$d`}@} formats {@{the second argument as a decimal integer}@}. <!--SR:!2026-02-17,17,311!2026-02-12,12,291!2026-02-12,12,291!2026-02-17,17,311-->
+Placeholders may optionally specify {@{_which argument_ they apply to}@}. This is done using {@{a number followed by <code>&dollar;</code>, such as <code>1&dollar;</code> or <code>2&dollar;</code>}@}. For example, {@{<code>%2&dollar;d</code>}@} formats {@{the second argument as a decimal integer}@}. <!--SR:!2026-02-17,17,311!2026-02-12,12,291!2026-02-12,12,291!2026-02-17,17,311-->
 
 This feature follows {@{POSIX rules}@}: either {@{_all_ placeholders in the format string}@} use positional parameters, or {@{_none_ of them do}@}. {@{Mixing positional and non-positional placeholders}@} is {@{not allowed}@}. <!--SR:!2026-02-16,16,311!2026-02-17,17,311!2026-02-17,17,311!2026-02-16,16,311!2026-02-16,16,311-->
 

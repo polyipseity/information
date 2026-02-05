@@ -30,11 +30,11 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="3455"--><!-- The following content is generated at 2023-04-19T12:02:23.528317+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3455"--><!-- The following content is generated at 2026-01-25T23:32:18.128096+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{[desiccant](desiccant.md)}@} | {@{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}@} |
+> | name                                        | description                                                                                         |
+> | ------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+> | {@{[desiccant](desiccant.md)}@}             | {@{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}@}          |
 > | {@{[separation](separation%20process.md)}@} | {@{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}@} | <!--SR:!2028-10-24,1578,350!2029-11-16,1526,270!2027-03-09,1029,330!2027-10-16,892,230-->
 
 <!--/pytextgen-->

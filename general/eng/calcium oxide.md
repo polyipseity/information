@@ -36,10 +36,10 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="11aa"--><!-- The following content is generated at 2023-04-05T22:23:33.112015+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="11aa"--><!-- The following content is generated at 2026-01-25T23:32:18.109246+08:00. Any edits will be overridden! -->
 
-> | use | description |
-> |-|-|
+> | use                                                             | description                                                                                                              |
+> | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 > | {@{[flue-gas desulfurization](flue-gas%20desulfurization.md)}@} | {@{[Solid](solid.md) sparys or slurries of CaO can remove [SO<sub>2</sub>](sulfur%20dioxide.md) from exhaust streams.}@} | <!--SR:!2026-07-30,843,321!2030-03-14,1755,281-->
 
 <!--/pytextgen-->

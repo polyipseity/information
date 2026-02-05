@@ -76,7 +76,7 @@ While {@{[neoclassical](neoclassical%20economics.md) models}@} {@{broadly assume
 
 ## decisions taken based on marginal costs
 
-In {@{perfectly competitive markets}@}, firms decide {@{the quantity to be produced based on marginal costs and sale price}@}. If {@{the sale price is higher than the marginal cost, then they produce the unit and supply it}@}. If {@{the marginal cost is higher than the price, it would not be profitable to produce it}@}. So {@{the production will be carried out until the marginal cost is equal to the sale price}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-04-01,338,352!2028-11-26,1074,352!2028-09-07,948,334!2026-03-02,316,352!2029-04-20,1194,354-->
+In {@{perfectly competitive markets}@}, firms decide {@{the quantity to be produced based on marginal costs and sale price}@}. If {@{the sale price is higher than the marginal cost}@}, then they {@{produce the unit and supply it}@}. If {@{the marginal cost is higher than the price, it would not be profitable to produce it}@}. So {@{the production will be carried out until the marginal cost is equal to the sale price}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-04-01,338,352!2028-11-26,1074,352!2028-09-07,948,334!2026-03-02,316,352!2029-04-20,1194,354-->
 
 ## relationship to fixed costs
 

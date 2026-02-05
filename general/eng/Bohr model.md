@@ -69,14 +69,14 @@ return await memorize_table(
 
 The Bohr model fails to explain:
 
-<!--pytextgen generate section="0692"--><!-- The following content is generated at 2024-03-07T10:22:56.394226+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0692"--><!-- The following content is generated at 2026-01-25T23:32:18.087208+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {@{brightness}@} | {@{relative brightness of spectral lines}@} |
-> | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@} |
-> | {@{naturalness}@} | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
-> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2030-04-10,1775,373!2029-05-07,1507,373!2027-05-17,908,353!2027-01-19,749,333!2029-10-14,1625,381!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
+> | name                                    | description                                                                                                                                                               |
+> | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{brightness}@}                        | {@{relative brightness of spectral lines}@}                                                                                                                               |
+> | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@}                                                                                                  |
+> | {@{naturalness}@}                       | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
+> | {@{structures}@}                        | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@}                                                         | <!--SR:!2030-04-10,1775,373!2029-05-07,1507,373!2027-05-17,908,353!2027-01-19,749,333!2029-10-14,1625,381!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
 
 <!--/pytextgen-->
 

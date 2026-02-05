@@ -35,15 +35,15 @@ return await memorize_table(
 )
 ```
 
-<!--pytextgen generate section="283749"--><!-- The following content is generated at 2023-03-22T00:41:25.734579+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="283749"--><!-- The following content is generated at 2026-01-25T23:32:18.936471+08:00. Any edits will be overridden! -->
 
-> | name | formula |
-> |-|-|
-> | {@{[bauxite](bauxite.md)}@} | {@{Al(OH)<sub>3</sub>, AlOOH}@} |
-> | {@{[chalcopyrite](chalcopyrite.md), copper pyrite}@} | {@{CuFeS<sub>2</sub>}@} |
-> | {@{[cinnabar](cinnabar.md), cinnabarite}@} | {@{HgS}@} |
-> | {@{[galena](galena.md)}@} | {@{PbS}@} |
-> | {@{[hematite](hematite.md)}@} | {@{Fe<sub>2</sub>O<sub>3</sub>}@} | <!--SR:!2027-06-27,1031,290!2026-08-05,877,330!2026-06-20,896,330!2026-02-13,161,210!2034-05-19,3029,330!2027-06-12,1034,290!2030-08-23,1917,290!2027-03-02,835,250!2028-02-02,1195,290!2029-06-17,1260,270-->
+> | name                                                 | formula                           |
+> | ---------------------------------------------------- | --------------------------------- |
+> | {@{[bauxite](bauxite.md)}@}                          | {@{Al(OH)<sub>3</sub>, AlOOH}@}   |
+> | {@{[chalcopyrite](chalcopyrite.md), copper pyrite}@} | {@{CuFeS<sub>2</sub>}@}           |
+> | {@{[cinnabar](cinnabar.md), cinnabarite}@}           | {@{HgS}@}                         |
+> | {@{[galena](galena.md)}@}                            | {@{PbS}@}                         |
+> | {@{[hematite](hematite.md)}@}                        | {@{Fe<sub>2</sub>O<sub>3</sub>}@} | <!--SR:!2027-06-27,1031,290!2026-08-05,877,330!2026-06-20,896,330!2026-02-13,161,210!2034-05-19,3029,330!2027-06-12,1034,290!2030-08-23,1917,290!2027-03-02,835,250!2028-02-02,1195,290!2029-06-17,1260,270-->
 
 <!--/pytextgen-->
 

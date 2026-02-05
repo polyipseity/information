@@ -9,8 +9,8 @@ tags:
 
 # graphite
 
-> | {@{side}@} | {@{plane}@} |
-> |-|-|
+> | {@{side}@}                                                                                                 | {@{plane}@}                                                                                              |
+> | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 > | {@{![side view of alpha graphite](../../archives/Wikimedia%20Commons/Graphite-layers-side-3D-balls.png)}@} | {@{![top view of alpha graphite](../../archives/Wikimedia%20Commons/Graphite-layers-top-3D-balls.png)}@} |
 >
 > {@{structure of alpha graphite}@} <!--SR:!2026-03-07,810,330!2026-03-30,827,330!2026-02-07,788,330!2032-02-25,2431,330!2026-02-18,797,330-->
