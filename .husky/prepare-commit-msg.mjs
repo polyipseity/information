@@ -51,7 +51,7 @@ if (gitdir) {
       if (refList) {
         const ref = refList.split(/\r?\n/).find(Boolean);
         if (ref) {
-          src = ref.replace(/^remotes\//, '');
+          src = ref.replace(/^remotes\//, '').replace(/^['"]|['"]$/g, '');
           debug(`detected source ref: ${src}`);
         }
       }
@@ -62,7 +62,7 @@ if (gitdir) {
 }
 
 try {
-  writeFileSync(commitMsgFile, `chore(sync); merge from \`${src}\`\n`, 'utf8');
+  writeFileSync(commitMsgFile, `chore(sync): merge from \`${src}\`\n`, 'utf8');
   debug(`wrote standardized commit message to ${commitMsgFile}`);
 } catch (err) {
   // Prominent warning but allow the merge/commit to continue
@@ -70,7 +70,7 @@ try {
   console.error('WARNING: prepare-commit-msg could not write the standardized commit message.');
   console.error('You can continue the merge, but the commit message will not be automatically updated.');
   console.error('Suggested fixes: ensure repository files are writable or run:');
-  console.error("  git commit --amend -m \"chore(sync); merge from '<branch>'\"");
+  console.error("  git commit --amend -m \"chore(sync): merge from `<branch>`\"");
   console.error('========================================\n');
   debug(`failed to write commit message: ${err && err.message ? err.message : String(err)}`);
 }
