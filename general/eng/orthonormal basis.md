@@ -88,7 +88,7 @@ In other words, {@{the space of orthonormal bases}@} is like {@{the orthogonal g
 - [Basis \(linear algebra\)](basis%20(linear%20algebra).md) ::@:: – Set of vectors used to define coordinates <!--SR:!2026-04-21,334,344!2026-04-25,338,344-->
 - [Orthonormal frame](affine%20space.md#affine%20coordinates) ::@:: – Euclidean space without distance and angles <!--SR:!2026-04-24,337,344!2028-03-25,856,330-->
 - [Schauder basis](Schauder%20basis.md) ::@:: – Computational tool <!--SR:!2026-04-21,334,344!2026-04-29,342,344-->
-- [Total set](total%20set.md) ::@:: – subset of a topological vector space whose linear span is dense <!--SR:!2026-02-05,266,304!2027-01-20,537,324-->
+- [Total set](total%20set.md) ::@:: – subset of a topological vector space whose linear span is dense <!--SR:!2029-03-01,1120,324!2027-01-20,537,324-->
 
 ## notes
 

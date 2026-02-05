@@ -31,7 +31,7 @@ tags:
 
 [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2029-05-15,1221,350!2029-07-01,1251,350-->
 
-[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2029-03-19,1170,350!2026-02-05,288,330-->
+[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2029-03-19,1170,350!2029-09-09,1312,350-->
 
 [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2029-01-31,1140,350!2029-01-27,1137,350-->
 

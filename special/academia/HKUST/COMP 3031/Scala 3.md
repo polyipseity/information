@@ -443,7 +443,7 @@ To {@{construct a class}@}, simply {@{call it like a function, e.g. `T()`}@} or 
 
 To {@{access a member \(data or method\) of an object of a class}@}, use the syntax {@{`<instance>.<member name>`}@}, e.g. {@{`a.b`, `a.c()`, etc.}@} <!--SR:!2027-05-09,468,390!2027-07-03,516,399!2027-05-25,481,390-->
 
-To {@{refer to the current object inside the class expression}@}, use {@{the keyword `this`}@}. When {@{referring to a member of the current object}@}, `this` {@{can be omitted when unambiguous}@}. Ambiguous cases include a method having {@{a parameter of the same name as a data member}@}. `this` is also used to {@{call other constructors of the current class and define auxiliary constructors}@}. <!--SR:!2027-07-14,526,399!2027-05-04,463,390!2027-07-11,523,399!2027-05-01,460,390!2027-07-01,514,399!2026-02-05,102,379-->
+To {@{refer to the current object inside the class expression}@}, use {@{the keyword `this`}@}. When {@{referring to a member of the current object}@}, `this` {@{can be omitted when unambiguous}@}. Ambiguous cases include a method having {@{a parameter of the same name as a data member}@}. `this` is also used to {@{call other constructors of the current class and define auxiliary constructors}@}. <!--SR:!2027-07-14,526,399!2027-05-04,463,390!2027-07-11,523,399!2027-05-01,460,390!2027-07-01,514,399!2027-07-17,527,399-->
 
 {@{Auxiliary constructors}@} provide {@{other ways to construct the same type apart from the \(primary\) constructor}@}. To {@{define auxiliary constructor}@}, add {@{a method but with the name `this`}@}. Its body expression should {@{start with `this(...)`, which calls either the primary constructor or other auxiliary constructors}@}. Then the rest can be {@{any expression valid in a function body}@}. <!--SR:!2027-07-05,518,399!2027-05-04,463,390!2027-06-20,504,399!2027-07-09,521,399!2027-07-07,520,399!2027-07-14,525,399-->
 
@@ -815,9 +815,9 @@ Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,
 
 ### anonymous functions
 
-{@{Anonymous functions}@} allow us to {@{define functions without _naming_ them}@}. The full syntax is {@{`(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) => <expr>`}@}. {@{The return type}@} {@{cannot be specified and is inferred from `<expr>`}@}. {@{The argument types}@} {@{can be omitted if it can be inferred}@}, e.g. {@{when defining an anonymous function to pass to an argument in a function call}@}. If {@{there is exactly 1 argument with an omitted argument type}@}, then {@{parentheses \(`()`\) are optional}@}. <!--SR:!2027-06-25,509,399!2027-05-05,464,390!2027-06-30,514,399!2026-02-05,102,379!2026-12-25,355,379!2027-06-08,492,399!2027-06-11,495,399!2026-09-20,280,370!2027-06-10,497,399!2027-05-23,479,390-->
+{@{Anonymous functions}@} allow us to {@{define functions without _naming_ them}@}. The full syntax is {@{`(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) => <expr>`}@}. {@{The return type}@} {@{cannot be specified and is inferred from `<expr>`}@}. {@{The argument types}@} {@{can be omitted if it can be inferred}@}, e.g. {@{when defining an anonymous function to pass to an argument in a function call}@}. If {@{there is exactly 1 argument with an omitted argument type}@}, then {@{parentheses \(`()`\) are optional}@}. <!--SR:!2027-06-25,509,399!2027-05-05,464,390!2027-06-30,514,399!2027-07-21,531,399!2026-12-25,355,379!2027-06-08,492,399!2027-06-11,495,399!2026-09-20,280,370!2027-06-10,497,399!2027-05-23,479,390-->
 
-For some reason, {@{call-by-name syntax}@} {@{does not work with anonymous functions}@}. <!--SR:!2027-06-28,511,399!2026-02-05,102,379-->
+For some reason, {@{call-by-name syntax}@} {@{does not work with anonymous functions}@}. <!--SR:!2027-06-28,511,399!2027-07-22,532,399-->
 
 It can be treated as {@{_syntactic sugar_}@} for the following more verbose syntax: {@{`{ def f(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) = <expr>; f }`}@} <!--SR:!2027-05-14,473,390!2027-06-13,497,399-->
 
@@ -1222,17 +1222,17 @@ Expressions can be {@{parameterized}@}. Use {@{`def <name>(<parm name 1>: <parm 
 
 Scala 3 supports {@{multiple parameter lists}@}, e.g. {@{`def <name>(<param list 1>)...(<param list N>): <return type> = <expr>`}@}. <!--SR:!2027-06-18,502,399!2027-07-02,515,399-->
 
-When {@{you call the function \(function application\)}@}, you need to {@{provide _all_ arguments in _all_ parameter lists}@} with {@{the _same_ grouping as the function parameter lists}@} too. To support this, {@{function application}@} is {@{left-associative}@}, i.e. {@{`f(a)(b)` is `(f(a))(b)`}@}. <!--SR:!2027-06-11,498,399!2027-04-29,458,390!2027-07-16,527,399!2027-06-27,510,399!2027-05-09,468,390!2026-02-05,102,379-->
+When {@{you call the function \(function application\)}@}, you need to {@{provide _all_ arguments in _all_ parameter lists}@} with {@{the _same_ grouping as the function parameter lists}@} too. To support this, {@{function application}@} is {@{left-associative}@}, i.e. {@{`f(a)(b)` is `(f(a))(b)`}@}. <!--SR:!2027-06-11,498,399!2027-04-29,458,390!2027-07-16,527,399!2027-06-27,510,399!2027-05-09,468,390!2027-07-24,534,399-->
 
-Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_}@}. However, if {@{you use one parameter list for each argument}@}, then you are {@{currying a function}@} by converting {@{the function into a sequence of functions that each takes a single argument}@}. <!--SR:!2026-02-05,102,379!2027-05-06,465,390!2026-09-20,280,370!2027-04-26,455,390!2027-05-25,481,390-->
+Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_}@}. However, if {@{you use one parameter list for each argument}@}, then you are {@{currying a function}@} by converting {@{the function into a sequence of functions that each takes a single argument}@}. <!--SR:!2027-07-23,533,399!2027-05-06,465,390!2026-09-20,280,370!2027-04-26,455,390!2027-05-25,481,390-->
 
 ### extension methods
 
-{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2027-06-09,493,399!2026-10-04,293,379!2027-05-13,472,390!2026-06-15,196,359!2026-02-05,102,379!2027-05-07,466,390-->
+{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2027-06-09,493,399!2026-10-04,293,379!2027-05-13,472,390!2026-06-15,196,359!2027-07-18,528,399!2027-05-07,466,390-->
 
-When {@{defining extension methods}@}, they cannot {@{access `private` members of the class}@}. They also cannot {@{access `this`}@} but must use {@{the name defined in the starting `extension` line}@}. <!--SR:!2027-05-07,466,390!2027-06-29,513,399!2026-02-05,102,379!2027-07-19,530,399-->
+When {@{defining extension methods}@}, they cannot {@{access `private` members of the class}@}. They also cannot {@{access `this`}@} but must use {@{the name defined in the starting `extension` line}@}. <!--SR:!2027-05-07,466,390!2027-06-29,513,399!2027-07-23,533,399!2027-07-19,530,399-->
 
-To {@{call extension methods}@}, they need to be {@{visible in the calling context}@}. {@{The exact rules}@} are {@{hard to explain now}@}, and some common cases are {@{companion object of the type \(code `object <name>` where `<name>` is the same as that of the type\)}@} and {@{defined or imported in the current scope}@}. <!--SR:!2027-05-11,470,390!2027-06-19,503,399!2027-06-17,501,399!2027-07-08,521,399!2026-02-05,102,379!2027-06-26,510,399-->
+To {@{call extension methods}@}, they need to be {@{visible in the calling context}@}. {@{The exact rules}@} are {@{hard to explain now}@}, and some common cases are {@{companion object of the type \(code `object <name>` where `<name>` is the same as that of the type\)}@} and {@{defined or imported in the current scope}@}. <!--SR:!2027-05-11,470,390!2027-06-19,503,399!2027-06-17,501,399!2027-07-08,521,399!2027-07-25,535,399!2027-06-26,510,399-->
 
 ### varargs
 
@@ -1289,7 +1289,7 @@ The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV
 
 ### tail recursion
 
-Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reusing the current stack frame}@}. To ensure {@{this optimization occurs}@}, {@{annotate the function with `@scala.annotation.tailrec`}@}. This will {@{cause a compilation error if the optimization cannot be applied}@}. <!--SR:!2027-06-07,491,399!2027-05-10,469,390!2027-07-10,522,399!2026-02-05,102,379!2027-06-25,509,399-->
+Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reusing the current stack frame}@}. To ensure {@{this optimization occurs}@}, {@{annotate the function with `@scala.annotation.tailrec`}@}. This will {@{cause a compilation error if the optimization cannot be applied}@}. <!--SR:!2027-06-07,491,399!2027-05-10,469,390!2027-07-10,522,399!2027-07-21,531,399!2027-06-25,509,399-->
 
 ## scoping
 
@@ -1307,7 +1307,7 @@ In Scala, {@{identifier names}@} are {@{much more relaxed}@} compared to {@{most
 
 ### infix notation
 
-Normally, to {@{call a function}@}, you use the syntax {@{`a.f(...)`}@}, known as {@{the _dot notation_}@}. If your function {@{accepts exactly 1 argument `b`}@}, you can opt to use the syntax {@{`a f b`}@}, known as {@{the _infix notation_}@}, to call the function. To do so, {@{prepend `infix` before `def` in the function definition}@}. <!--SR:!2027-05-09,468,390!2026-02-05,102,379!2027-07-05,518,399!2027-06-16,500,399!2026-02-05,102,379!2026-02-05,102,379!2027-05-13,472,390-->
+Normally, to {@{call a function}@}, you use the syntax {@{`a.f(...)`}@}, known as {@{the _dot notation_}@}. If your function {@{accepts exactly 1 argument `b`}@}, you can opt to use the syntax {@{`a f b`}@}, known as {@{the _infix notation_}@}, to call the function. To do so, {@{prepend `infix` before `def` in the function definition}@}. <!--SR:!2027-05-09,468,390!2027-07-19,529,399!2027-07-05,518,399!2027-06-16,500,399!2027-07-26,536,399!2027-07-24,534,399!2027-05-13,472,390-->
 
 Since {@{identifier names in Scala}@} is {@{much more relaxed}@}, this, coupled with {@{infix notation}@}, allows you to {@{"overload" operators}@}. <!--SR:!2027-06-07,494,399!2027-05-23,479,390!2027-05-22,478,390!2027-05-08,467,390-->
 
@@ -1583,11 +1583,11 @@ The Scala {@{`Predef` object}@} provides {@{definitions that are accessible with
 
 #### checking
 
-Scala provides {@{several functions}@} to check {@{preconditions, assertions, and more}@}. They {@{throw an error \(but of a different type\)}@} when {@{a condition fails}@}, optionally with {@{an error message}@}. They are used {@{in different situations}@}. <!--SR:!2027-05-26,482,390!2027-05-14,473,390!2027-05-16,475,390!2026-02-05,102,379!2027-05-02,461,390!2027-05-11,470,390-->
+Scala provides {@{several functions}@} to check {@{preconditions, assertions, and more}@}. They {@{throw an error \(but of a different type\)}@} when {@{a condition fails}@}, optionally with {@{an error message}@}. They are used {@{in different situations}@}. <!--SR:!2027-05-26,482,390!2027-05-14,473,390!2027-05-16,475,390!2027-07-22,532,399!2027-05-02,461,390!2027-05-11,470,390-->
 
-{@{Preconditions}@} are used to {@{ensure arguments to a class or function}@} satisfies {@{certain constraints}@}. The syntax is {@{`require(<precondition>[, <message>])`}@}. It throws {@{`IllegalArgumentException`}@} if {@{`<precondition>` is false}@}. <!--SR:!2027-06-22,506,399!2026-02-05,102,379!2027-05-15,474,390!2027-06-21,505,399!2027-07-15,526,399!2027-05-12,471,390-->
+{@{Preconditions}@} are used to {@{ensure arguments to a class or function}@} satisfies {@{certain constraints}@}. The syntax is {@{`require(<precondition>[, <message>])`}@}. It throws {@{`IllegalArgumentException`}@} if {@{`<precondition>` is false}@}. <!--SR:!2027-06-22,506,399!2027-07-25,535,399!2027-05-15,474,390!2027-06-21,505,399!2027-07-15,526,399!2027-05-12,471,390-->
 
-{@{Assertions}@} are used to {@{ensure a condition}@} is {@{satisfied in a general context}@}. The syntax is {@{`assert(<assertion>[, <message>])`}@}. It throws {@{`AssertionError`}@} if {@{`<assertion>` is false}@}. <!--SR:!2026-02-05,102,379!2027-04-24,453,390!2027-07-13,524,399!2027-05-20,479,390!2027-05-17,476,390!2027-06-28,512,399-->
+{@{Assertions}@} are used to {@{ensure a condition}@} is {@{satisfied in a general context}@}. The syntax is {@{`assert(<assertion>[, <message>])`}@}. It throws {@{`AssertionError`}@} if {@{`<assertion>` is false}@}. <!--SR:!2027-07-20,530,399!2027-04-24,453,390!2027-07-13,524,399!2027-05-20,479,390!2027-05-17,476,390!2027-06-28,512,399-->
 
 ## philosophy
 

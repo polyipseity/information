@@ -27,19 +27,19 @@ tags:
 >
 > - {@{__Free Cash Flow Projections:__}@} {@{Projections of the amount of Cash produced by a company's business operations}@} after {@{paying for operating expenses and capital expenditures}@}.<sup>[\[1\]](#^ref-1)</sup>
 > - {@{__Discount Rate:__}@} {@{The cost of capital \(Debt and Equity\)}@} for the business. {@{This rate, which acts like an interest rate on future Cash inflows}@}, is used to {@{convert them into current dollar equivalents}@}.
-> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period}@} \({@{typical for a DCF analysis}@} is {@{either a 5-year projection period or, occasionally, a 10-year projection period}@}\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-09,758,330!2027-07-09,638,290!2027-06-19,661,330!2027-07-23,687,330!2027-01-13,498,310!2028-02-24,801,330!2027-08-03,614,407!2027-08-08,618,407!2027-08-10,619,407!2026-02-05,128,390!2027-11-17,656,410!2026-02-06,129,390!2027-12-08,673,410!2026-02-07,130,390-->
+> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period}@} \({@{typical for a DCF analysis}@} is {@{either a 5-year projection period or, occasionally, a 10-year projection period}@}\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-11-09,758,330!2027-07-09,638,290!2027-06-19,661,330!2027-07-23,687,330!2027-01-13,498,310!2028-02-24,801,330!2027-08-03,614,407!2027-08-08,618,407!2027-08-10,619,407!2027-12-26,689,410!2027-11-17,656,410!2026-02-06,129,390!2027-12-08,673,410!2026-02-07,130,390-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![[Flowchart](flowchart.md) for a typical DCF valuation, with each step detailed in the text](../../archives/Wikimedia%20Commons/DCFMDPD.gif)}@}
 >
-> [Flowchart](flowchart.md) for {@{a typical DCF valuation, with each step detailed in the text}@} \(click on image to see at full size\) <!--SR:!2028-04-13,875,330!2026-02-05,282,330-->
+> [Flowchart](flowchart.md) for {@{a typical DCF valuation, with each step detailed in the text}@} \(click on image to see at full size\) <!--SR:!2028-04-13,875,330!2029-08-18,1290,350-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![Discounted Cash Flow Calculator - is a tool to help estimate the present value of a stream of free cash flows discounted to the present.](../../archives/Wikimedia%20Commons/DCFM%20Calculator.JPG)}@}
 >
-> Here, {@{a [spreadsheet](spreadsheet.md) valuation}@}, uses {@{[Free cash flows](free%20cash%20flow.md)}@} to {@{estimate stock's [Fair Value](fair%20value.md)}@} and {@{measure the [sensitivity](sensitivity%20analysis.md) of [WACC](weighted%20average%20cost%20of%20capital.md) and [Perpetual growth](dividend%20discount%20model.md)}@} <!--SR:!2026-11-09,472,310!2026-02-05,282,330!2026-02-18,294,330!2028-11-09,1069,350!2026-03-30,300,290-->
+> Here, {@{a [spreadsheet](spreadsheet.md) valuation}@}, uses {@{[Free cash flows](free%20cash%20flow.md)}@} to {@{estimate stock's [Fair Value](fair%20value.md)}@} and {@{measure the [sensitivity](sensitivity%20analysis.md) of [WACC](weighted%20average%20cost%20of%20capital.md) and [Perpetual growth](dividend%20discount%20model.md)}@} <!--SR:!2026-11-09,472,310!2029-08-15,1287,350!2026-02-18,294,330!2028-11-09,1069,350!2026-03-30,300,290-->
 
 In {@{__discount cash flow analysis__}@}, {@{all future cash flows are estimated and [discounted](discounting.md)}@} by {@{using [cost of capital](cost%20of%20capital.md) to give their [present values](present%20value.md) \(PVs\)}@}. {@{The sum of all future cash flows, both incoming and outgoing}@}, is {@{the [net present value](net%20present%20value.md) \(NPV\)}@}, which is taken as {@{the value of the cash flows in question}@};<sup>[\[2\]](#^ref-2)</sup> see aside. <!--SR:!2026-04-29,345,349!2026-04-28,344,349!2027-06-19,658,329!2029-03-15,1166,350!2026-04-05,334,349!2029-06-21,1240,350-->
 

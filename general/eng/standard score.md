@@ -30,7 +30,7 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 
 {@{Standard scores}@} are most commonly called {@{__<!-- markdown separator -->_z_-scores__}@}; the two terms may {@{be used interchangeably, as they are in this article}@}. Other equivalent terms in use include {@{__z-value__, __z-statistic__, __normal score__, __standardized variable__}@} and {@{__pull__ in [high energy physics](high%20energy%20physics.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-02-18,1141,350!2029-01-28,1135,350!2029-04-27,1197,350!2029-02-25,1148,350!2029-03-23,1174,350-->
 
-{@{Computing a z-score}@} requires knowledge of {@{the mean and standard deviation of the complete population to which a data point belongs}@}; {@{if one only has a [sample](sample%20(statistics).md) of observations from the population}@}, then the analogous computation {@{using the sample mean and sample standard deviation yields the [_t_-statistic](t-statistic.md)}@}. <!--SR:!2026-02-05,286,330!2029-02-27,1150,350!2028-12-30,1112,350!2029-05-14,1214,350-->
+{@{Computing a z-score}@} requires knowledge of {@{the mean and standard deviation of the complete population to which a data point belongs}@}; {@{if one only has a [sample](sample%20(statistics).md) of observations from the population}@}, then the analogous computation {@{using the sample mean and sample standard deviation yields the [_t_-statistic](t-statistic.md)}@}. <!--SR:!2029-09-04,1307,350!2029-02-27,1150,350!2028-12-30,1112,350!2029-05-14,1214,350-->
 
 ## calculation
 
@@ -39,7 +39,7 @@ If {@{the population mean and population standard deviation}@} are known, {@{a r
 - _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2029-03-01,1152,350!2029-06-26,1251,350-->
 - _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2026-02-14,294,330!2029-05-09,1209,350-->
 
-{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2029-01-24,1132,350!2026-02-05,286,330!2029-06-01,1232,350!2029-07-05,1260,350-->
+{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2029-01-24,1132,350!2029-09-03,1306,350!2029-06-01,1232,350!2029-07-05,1260,350-->
 
 {@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, knowing {@{the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}. <!--SR:!2029-06-27,1252,350!2029-03-14,1165,350!2029-08-15,1290,350!2029-06-24,1249,350!2029-08-24,1297,350-->
 

@@ -42,7 +42,7 @@ In {@{the category of [pointed topological spaces](pointed%20space.md)}@}, if {@
 
 ## relation to other categorical concepts
 
-{@{The dual concept to that of kernel}@} is {@{that of [cokernel](cokernel.md)}@}. That is, the kernel of a morphism is {@{its cokernel in the [opposite category](opposite%20category.md), and vice versa}@}. <!--SR:!2029-11-27,1397,362!2026-02-05,304,342!2026-03-16,335,342-->
+{@{The dual concept to that of kernel}@} is {@{that of [cokernel](cokernel.md)}@}. That is, the kernel of a morphism is {@{its cokernel in the [opposite category](opposite%20category.md), and vice versa}@}. <!--SR:!2029-11-27,1397,362!2030-01-06,1431,362!2026-03-16,335,342-->
 
 As mentioned above, a kernel is {@{a type of binary equaliser, or [difference kernel](difference%20kernel.md)}@}. Conversely, in {@{a [preadditive category](preadditive%20category.md)}@}, {@{every binary equaliser can be constructed as a kernel}@}. To be specific, {@{the equaliser of the morphisms _f_ and _g_}@} is {@{the kernel of the [difference](subtraction.md) _g_ − _f_}@}. In symbols: <p> &emsp; {@{eq \(_f_, <!-- markdown separator -->_g_\) = ker \(_g_ − _f_\)}@}. <p> It is because of this fact that {@{binary equalisers are called "difference kernels"}@}, even in {@{non-preadditive categories where morphisms cannot be subtracted}@}. <!--SR:!2029-12-07,1407,362!2026-05-24,359,302!2026-02-15,312,342!2028-06-08,947,342!2029-11-28,1398,362!2027-06-29,686,330!2028-10-13,1064,350!2026-06-09,348,302-->
 

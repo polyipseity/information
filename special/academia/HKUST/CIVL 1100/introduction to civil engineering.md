@@ -462,7 +462,7 @@ testing materials
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2026-12-04,557,255-->
 - safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2031-02-03,1909,360-->
-- scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
+- scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2031-11-09,2103,340-->
 - surveying building site→::@::←testing materials <!--SR:!2027-05-31,687,260!2027-07-25,790,292-->
 - testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2028-02-19,1041,327-->
 
@@ -984,7 +984,7 @@ Two Prudential Plaza
 
 - _(begin)_→::@::←Central Plaza (Hong Kong) <!--SR:!2028-09-25,1218,337!2032-10-19,2513,407-->
 - Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2029-04-02,1381,354!2030-01-12,1601,360-->
-- China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2028-06-01,928,260-->
+- China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza <!--SR:!2032-01-13,2168,360!2028-06-01,928,260-->
 - Two Prudential Plaza→::@::←_(end)_ <!--SR:!2027-09-14,930,375!2029-06-29,1424,340-->
 
 <!--/pytextgen-->

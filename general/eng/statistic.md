@@ -53,7 +53,7 @@ Statisticians often contemplate {@{a [parameterized family](parameterized%20fami
 
 ### information of a statistic
 
-{@{Information of a statistic on model parameters}@} can be {@{defined in several ways}@}. The most common is {@{the [Fisher information](Fisher%20information.md)}@}, which is defined {@{on the statistic model induced by the statistic}@}. {@{[Kullback information](Kullback%20information.md) measure}@} can also be used. <!--SR:!2026-02-05,282,330!2029-01-09,1118,350!2027-11-17,764,330!2029-06-16,1233,350!2029-01-01,1111,350-->
+{@{Information of a statistic on model parameters}@} can be {@{defined in several ways}@}. The most common is {@{the [Fisher information](Fisher%20information.md)}@}, which is defined {@{on the statistic model induced by the statistic}@}. {@{[Kullback information](Kullback%20information.md) measure}@} can also be used. <!--SR:!2029-08-14,1286,350!2029-01-09,1118,350!2027-11-17,764,330!2029-06-16,1233,350!2029-01-01,1111,350-->
 
 ## see also
 

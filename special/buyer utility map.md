@@ -48,7 +48,7 @@ disposal
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-04-22T01:24:34.779674+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←purchase <!--SR:!2026-02-05,476,310!2028-09-15,1091,319-->
+- _(begin)_→::@::←purchase <!--SR:!2031-09-08,2041,330!2028-09-15,1091,319-->
 - purchase→::@::←delivery <!--SR:!2028-11-06,1278,350!2026-06-29,547,310-->
 - delivery→::@::←use <!--SR:!2026-12-12,660,310!2027-04-17,571,270-->
 - use→::@::←supplements <!--SR:!2026-04-05,332,279!2029-03-05,1372,359-->

@@ -36,7 +36,7 @@ We have the following terminology:
 - The clauses $\Gamma _{1}\cup \left\{\ell \right\}$ and $\Gamma _{2}\cup \left\{ {\overline {\ell } }\right\}$ ::@:: are the inference's premises <!--SR:!2026-05-18,249,330!2026-07-06,287,330-->
 - $\Gamma _{1}\cup \Gamma _{2}$ \(the resolvent of the premises\) ::@:: is its conclusion. <!--SR:!2026-05-23,253,330!2026-06-10,268,330-->
 - The literal $\ell$ ::@:: is the left resolved literal, <!--SR:!2026-04-30,233,330!2026-06-07,265,330-->
-- The literal ${\overline {\ell } }$ ::@:: is the right resolved literal, <!--SR:!2026-02-05,120,310!2026-06-27,281,330-->
+- The literal ${\overline {\ell } }$ ::@:: is the right resolved literal, <!--SR:!2027-07-04,514,330!2026-06-27,281,330-->
 - $|\ell |$ ::@:: is the resolved atom or pivot. <!--SR:!2026-06-02,261,330!2026-05-14,246,330-->
 
 {@{The clause produced by the resolution rule}@} is called {@{the _resolvent_ of the two input clauses}@}. It is {@{the principle of _[consensus](consensus%20theorem.md)_}@} applied to {@{clauses rather than terms}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-04-23,227,330!2026-07-07,288,330!2026-06-26,280,330!2026-05-23,253,330-->

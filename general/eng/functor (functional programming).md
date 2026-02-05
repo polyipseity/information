@@ -15,9 +15,9 @@ tags:
 
 > {@{![Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.](../../archives/Wikimedia%20Commons/Tree%20as%20a%20functor.svg)}@}
 >
-> {@{Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.}@} <!--SR:!2026-02-05,306,335!2029-12-03,1399,355-->
+> {@{Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.}@} <!--SR:!2029-12-18,1412,355!2029-12-03,1399,355-->
 
-In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2026-02-05,306,335!2026-04-01,353,351!2029-12-05,1401,355!2029-12-02,1398,355!2029-09-28,1345,350!2026-02-05,306,335-->
+In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2029-12-19,1413,355!2026-04-01,353,351!2029-12-05,1401,355!2029-12-02,1398,355!2029-09-28,1345,350!2029-12-25,1419,355-->
 
 ```Haskell
 class Functor f where
@@ -33,7 +33,7 @@ class Functor f where
 
 This declaration says that {@{any type of Functor}@} must {@{support a method `fmap`, which maps a function over the element\(s\) of the Functor}@}. <!--SR:!2028-03-02,880,335!2028-02-14,867,335-->
 
-{@{Functors in Haskell}@} should {@{also obey _functor laws_}@},<sup>[\[1\]](#^ref-1)</sup> which state that {@{the mapping operation preserves the identity function and composition of functions}@}: <!--SR:!2029-12-14,1409,355!2026-02-06,307,335!2026-02-05,306,335-->
+{@{Functors in Haskell}@} should {@{also obey _functor laws_}@},<sup>[\[1\]](#^ref-1)</sup> which state that {@{the mapping operation preserves the identity function and composition of functions}@}: <!--SR:!2029-12-14,1409,355!2026-02-06,307,335!2029-12-17,1411,355-->
 
 ```Haskell
 fmap id = id

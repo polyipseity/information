@@ -92,7 +92,7 @@ The {@{fifth design principle}@} advocates that {@{software entities (classes, m
 1. _Name and intent_ ::@:: – A concise explanation of what the pattern does and its primary purpose. <!--SR:!2026-03-28,77,341!2026-04-02,82,341-->
 2. _Problem_ ::@:: – The specific challenge or difficulty being addressed in a real-world or abstract scenario. <!--SR:!2026-04-01,81,341!2026-04-01,81,341-->
 3. _Context_ ::@:: – The general situation or environment in which the pattern applies. <!--SR:!2026-04-03,83,341!2026-04-02,82,341-->
-4. _Concerns_ ::@:: – Issues to consider while solving the problem. <!--SR:!2026-02-05,46,302!2026-03-27,76,341-->
+4. _Concerns_ ::@:: – Issues to consider while solving the problem. <!--SR:!2026-08-15,191,322!2026-03-27,76,341-->
 5. _Solution_ ::@:: – An abstract description of the structure, collaboration, and behavior of the pattern. <!--SR:!2026-04-01,81,341!2026-03-29,78,341-->
 6. _Consequences_ ::@:: – Both positive and negative effects of using the pattern (e.g., benefits like flexibility, drawbacks like complexity or performance cost). <!--SR:!2026-03-20,69,341!2026-03-28,77,341-->
 7. _Implementation guidelines_ ::@:: – Practical advice on how to apply the pattern in code, often including recommendations for when and how to use it. <!--SR:!2026-04-01,81,341!2026-03-27,76,341-->
@@ -224,7 +224,7 @@ There are {@{3 core components to the singleton pattern}@}: (annotation: 3 items
 
 Typically, a method that creates {@{different subclasses directly with `new`}@} is {@{_closed_ for modification}@}, but {@{_not_ open for extension}@}. violating {@{the _open‑closed principle_}@}. Adding a new type {@{forces changes to every place where the factory logic lives}@}. <!--SR:!2026-04-01,81,341!2026-03-29,78,341!2026-03-25,74,341!2026-03-31,80,341!2026-04-24,85,376-->
 
-{@{The solution using the factory pattern}@} is: First, extract {@{all creation logic into one class (`SimplePizzaFactory`)}@}. Then, let {@{clients ask this factory for a product by passing a type identifier}@}. The factory returns {@{an instance of the requested concrete subclass}@}, leaving the rest of the system unchanged. Finally, refactor {@{users to use the factory}@}. <!--SR:!2026-03-24,73,341!2026-03-17,66,322!2026-02-05,46,302!2026-03-31,80,341!2026-03-26,75,341-->
+{@{The solution using the factory pattern}@} is: First, extract {@{all creation logic into one class (`SimplePizzaFactory`)}@}. Then, let {@{clients ask this factory for a product by passing a type identifier}@}. The factory returns {@{an instance of the requested concrete subclass}@}, leaving the rest of the system unchanged. Finally, refactor {@{users to use the factory}@}. <!--SR:!2026-03-24,73,341!2026-03-17,66,322!2026-08-13,189,322!2026-03-31,80,341!2026-03-26,75,341-->
 
 In summary, {@{_simple factory_}@} centralizes {@{object creation}@}, making it {@{easier to add new concrete types without touching client code}@}. It exemplifies {@{the _open‑closed principle_}@} by isolating {@{the varying part (which subclass is created)}@} from {@{the invariant behavior (how a pizza is made)}@}. {@{The refactoring shown}@} replaces {@{scattered `new` calls}@} with {@{a single factory method}@}, keeping the rest of the system {@{unchanged and more maintainable}@}. <!--SR:!2026-03-29,78,341!2026-03-30,79,341!2026-03-22,71,341!2026-03-21,70,322!2026-04-02,82,341!2026-03-26,75,341!2026-03-20,69,322!2026-03-26,75,341!2026-04-01,81,341!2026-04-03,83,341-->
 

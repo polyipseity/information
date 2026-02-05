@@ -105,7 +105,7 @@ For {@{a volume charge distribution \(such as charge within a bulk metal\)}@} wh
 
 There are {@{three conditions to be fulfilled for the validity of Coulomb's inverse square law}@}:<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2026-05-14,363,359-->
 
-1. The charges must have ::@:: a spherically symmetric distribution \(e.g. be point charges, or a charged metal sphere\). <!--SR:!2026-05-16,367,370!2026-02-05,282,350-->
+1. The charges must have ::@:: a spherically symmetric distribution \(e.g. be point charges, or a charged metal sphere\). <!--SR:!2026-05-16,367,370!2029-10-25,1358,370-->
 2. The charges must not ::@:: overlap \(e.g. they must be distinct point charges\). <!--SR:!2026-06-23,397,370!2026-06-01,380,359-->
 3. The charges must be ::@:: stationary with respect to a nonaccelerating frame of reference. <!--SR:!2026-06-08,388,370!2026-05-26,377,370-->
 

@@ -43,7 +43,7 @@ tags:
 > | December 31, 2024                                                | {@{Debit}@} | {@{Credit}@} |
 > | ---------------------------------------------------------------- |:-----------:|:------------:|
 > | {@{Depreciation expenses (+E, −SE)}@}                            | {@{69}@}    |              |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Accumulated depreciation (+XA, −A)}@} |             | {@{69}@}     | <!--SR:!2029-11-24,1414,360!2026-02-10,333,340!2026-02-09,332,340!2030-02-16,1480,360!2026-02-06,330,340!2029-08-04,1323,350!2026-02-05,329,340-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Accumulated depreciation (+XA, −A)}@} |             | {@{69}@}     | <!--SR:!2029-11-24,1414,360!2026-02-10,333,340!2026-02-09,332,340!2030-02-16,1480,360!2026-02-06,330,340!2029-08-04,1323,350!2030-04-24,1539,360-->
 
 <!-- markdownlint MD028 -->
 
@@ -73,7 +73,7 @@ tags:
 > | --------------------------------------- |:-----------------:|:------------------:|
 > | {@{Note payable (−L)}@}                 | {@{90&nbsp;000}@} |                    |
 > | {@{Interest expense (+E, −SE)}@}        | {@{10&nbsp;000}@} |                    |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |                   | {@{100&nbsp;000}@} | <!--SR:!2026-02-05,329,340!2030-02-14,1478,360!2029-12-27,1442,360!2030-02-24,1488,360!2030-04-02,1523,360!2030-04-01,1520,360!2029-12-07,1427,360!2030-01-27,1470,360!2029-06-25,1290,350-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |                   | {@{100&nbsp;000}@} | <!--SR:!2030-04-25,1540,360!2030-02-14,1478,360!2029-12-27,1442,360!2030-02-24,1488,360!2030-04-02,1523,360!2030-04-01,1520,360!2029-12-07,1427,360!2030-01-27,1470,360!2029-06-25,1290,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -83,7 +83,7 @@ tags:
 > | ------------------------------------------------ |:-----------:|:------------:|
 > | {@{Interest expense (+E, −SE)}@}                 | {@{5792}@}  |              |
 > | &nbsp;&nbsp;&nbsp;&nbsp;{@{Bond discount (+L)}@} |             | {@{792}@}    |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@}          |             | {@{5000}@}   | <!--SR:!2026-12-29,548,310!2029-12-26,1441,360!2030-04-11,1529,360!2026-02-05,329,340!2029-11-30,1420,360!2026-02-08,331,340!2026-02-08,331,340!2030-03-05,1497,360!2026-03-09,353,359-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@}          |             | {@{5000}@}   | <!--SR:!2026-12-29,548,310!2029-12-26,1441,360!2030-04-11,1529,360!2030-04-23,1538,360!2029-11-30,1420,360!2026-02-08,331,340!2026-02-08,331,340!2030-03-05,1497,360!2026-03-09,353,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -102,4 +102,4 @@ tags:
   - date ::@:: Optional. The date of transaction. Examples: `January 1, 2024`, `December 31, 2024`. <!--SR:!2028-05-06,954,340!2026-02-11,334,340-->
   - account captions ::@:: Debits first, then credits. Optionally, indent the credited accounts. (This is the usual convention.) <!--SR:!2030-04-13,1530,360!2030-04-25,1541,360-->
   - corresponding amounts ::@:: A 'T'-format is used, where debits are written on the left and credits are written on the right. Negative numbers should not occur. <!--SR:!2026-02-11,334,340!2030-03-21,1512,360-->
-  - relevant changes to _normal balances_ ::@:: Optional. Indicate all relevant changes to the _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. <p> Choose the appropriate ones. There can be multiple, e.g. `(+XR, -R, −SE)`. There is no contra-equity `∓XSE`, use `±SE` instead. There is also no contra-liability `∓XL`, use `±L` instead. <!--SR:!2027-05-29,666,320!2026-02-05,329,340-->
+  - relevant changes to _normal balances_ ::@:: Optional. Indicate all relevant changes to the _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. <p> Choose the appropriate ones. There can be multiple, e.g. `(+XR, -R, −SE)`. There is no contra-equity `∓XSE`, use `±SE` instead. There is also no contra-liability `∓XL`, use `±L` instead. <!--SR:!2027-05-29,666,320!2030-04-26,1541,360-->

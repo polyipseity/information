@@ -114,7 +114,7 @@ Label names are {@{global and unique across an assembly program, and appear in s
 
 ### assembling a program
 
-To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64 <input>.s`, which produces a `.o` object file}@}. Then {@{link the resulting object file(s) using `gcc` or `ld`}@}. <!--SR:!2030-02-22,1592,385!2026-02-05,348,297!2031-06-17,1977,385-->
+To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64 <input>.s`, which produces a `.o` object file}@}. Then {@{link the resulting object file(s) using `gcc` or `ld`}@}. <!--SR:!2030-02-22,1592,385!2030-01-09,1434,317!2031-06-17,1977,385-->
 
 ### stack and functions in assembly
 

@@ -37,7 +37,7 @@ All of these definitions are {@{equivalent}@}. <!--SR:!2029-02-13,1177,350-->
 
 A set $S$ is {@{_countably [infinite](infinite%20set.md)_}@} if: <!--SR:!2029-04-06,1219,350-->
 
-- countably infinite, cardinality ::@:: Its cardinality $|S|$ is exactly $\aleph _{0}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-02-05,294,290!2029-08-25,1323,350-->
+- countably infinite, cardinality ::@:: Its cardinality $|S|$ is exactly $\aleph _{0}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-05-05,1185,310!2029-08-25,1323,350-->
 - countably infinite, function ::@:: There is an injective and surjective \(and therefore [bijective](bijection.md)\) mapping between $S$ and $\mathbb {N}$. <!--SR:!2029-03-22,1207,350!2029-06-06,1265,350-->
 - countably infinite, mapping ::@:: $S$ has a [one-to-one correspondence](bijection.md) with $\mathbb {N}$.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2029-05-25,1258,350!2029-04-30,1237,350-->
 - countably infinite, sequence ::@:: The elements of $S$ can be arranged in an infinite sequence $a_{0},a_{1},a_{2},\ldots$, where $a_{i}$ is distinct from $a_{j}$ for $i\neq j$ and every element of $S$ is listed.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup> <!--SR:!2027-08-28,736,330!2029-07-21,1288,350-->
