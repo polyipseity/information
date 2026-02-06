@@ -83,7 +83,7 @@ When {@{scores are measured on different scales}@}, they may be {@{converted to 
 
 > {@{![_z_ score (0.6) for student A shown on a standard normal distribution graph](../../archives/Wikimedia%20Commons/Z%20score%20for%20Student%20B.png)}@}
 >
-> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2026-02-06,287,330!2029-02-11,1148,350!2029-08-22,1297,350!2027-08-15,710,330-->
+> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2029-09-09,1311,350!2029-02-11,1148,350!2029-08-22,1297,350!2027-08-15,710,330-->
 
 The z-score for student A is $z={x-\mu  \over \sigma }={1800-1500 \over 300}=1$
 

@@ -145,7 +145,7 @@ The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connec
 
 It is possible to {@{have a [directed graph](directed%20graph.md) that has all even out-degrees but is not Eulerian}@}. Since {@{an Eulerian circuit leaves a vertex the same number of times as it enters that vertex}@}, {@{a necessary condition for an Eulerian circuit to exist}@} is that {@{the in-degree and out-degree are equal at each vertex}@}. Obviously, {@{connectivity is also necessary}@}. {@{König}@} proved that {@{these conditions are also sufficient}@}. That is, {@{a directed graph is Eulerian if and only if it is connected and the in-degree and out-degree are equal at each vertex}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-07,371,362!2029-08-19,1350,352!2028-08-07,1037,350!2029-01-15,1186,362!2026-09-28,464,310!2028-10-02,1101,362!2028-10-04,1079,350!2030-09-20,1695,382-->
 
-{@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2026-02-06,345,350!2029-09-28,1384,356!2026-03-18,380,362-->
+{@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2030-08-29,1665,370!2029-09-28,1384,356!2026-03-18,380,362-->
 
 {@{Hierholzer's linear time algorithm for constructing an Eulerian tour}@} is {@{also applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-31,390,362!2026-02-12,354,362-->
 

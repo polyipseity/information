@@ -9,7 +9,7 @@ tags:
 
 # substitute good
 
-In [microeconomics](microeconomics.md), __substitute goods__ are {@{two goods that can be used for the same purpose by consumers}@}.<sup>[\[1\]](#^ref-1)</sup> That is, {@{a [consumer](consumer.md) perceives both goods as similar or comparable}@}, so that {@{having more of one good causes the consumer to desire less of the other good}@}. Contrary to {@{[complementary goods](complementary%20good.md) and [independent goods](independent%20goods.md)}@}, substitute goods may {@{replace each other in use due to changing economic conditions}@}.<sup>[\[2\]](#^ref-2)</sup> An example of substitute goods is {@{[Coca-Cola](Coca-Cola.md) and [Pepsi](Pepsi.md)}@}; the interchangeable aspect of these goods is due to {@{the similarity of the purpose they serve, i.e. fulfilling customers' desire for a soft drink}@}. These types of substitutes can be referred to as {@{close substitutes}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-02-06,353,350!2029-06-18,1306,350!2029-01-20,1188,350!2028-12-25,1168,350!2030-09-19,1688,370!2029-07-31,1340,350!2029-06-30,1316,350!2029-01-10,1181,350-->
+In [microeconomics](microeconomics.md), __substitute goods__ are {@{two goods that can be used for the same purpose by consumers}@}.<sup>[\[1\]](#^ref-1)</sup> That is, {@{a [consumer](consumer.md) perceives both goods as similar or comparable}@}, so that {@{having more of one good causes the consumer to desire less of the other good}@}. Contrary to {@{[complementary goods](complementary%20good.md) and [independent goods](independent%20goods.md)}@}, substitute goods may {@{replace each other in use due to changing economic conditions}@}.<sup>[\[2\]](#^ref-2)</sup> An example of substitute goods is {@{[Coca-Cola](Coca-Cola.md) and [Pepsi](Pepsi.md)}@}; the interchangeable aspect of these goods is due to {@{the similarity of the purpose they serve, i.e. fulfilling customers' desire for a soft drink}@}. These types of substitutes can be referred to as {@{close substitutes}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2030-10-03,1700,370!2029-06-18,1306,350!2029-01-20,1188,350!2028-12-25,1168,350!2030-09-19,1688,370!2029-07-31,1340,350!2029-06-30,1316,350!2029-01-10,1181,350-->
 
 {@{Substitute goods}@} are {@{commodity}@} which the consumer {@{demanded to be used in place of another good}@}. <!--SR:!2029-06-22,1309,350!2026-05-18,127,406!2026-05-19,128,406-->
 
@@ -21,7 +21,7 @@ In [microeconomics](microeconomics.md), __substitute goods__ are {@{two goods th
 
 > {@{![Figure 1: If the price of x_i increases, then demand for x_j increases](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20substitutes%20xi%20xj.svg)}@}
 >
-> Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2026-02-06,353,350!2028-11-20,1142,350-->
+> Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2030-10-02,1699,370!2028-11-20,1142,350-->
 
 {@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2028-10-11,1110,350!2026-11-18,537,310!2029-03-07,1224,350-->
 

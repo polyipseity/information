@@ -11,7 +11,7 @@ tags:
 
 # Dulong–Petit law
 
-In modern terms, the Dulong-Petit law states that {@{the [molar heat capacity](molar%20heat%20capacity.md) of many solid [elements](chemical%20element.md) is $3R$}@}, where {@{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}@}. <!--SR:!2027-02-20,404,230!2026-02-06,10,288-->
+In modern terms, the Dulong-Petit law states that {@{the [molar heat capacity](molar%20heat%20capacity.md) of many solid [elements](chemical%20element.md) is $3R$}@}, where {@{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}@}. <!--SR:!2027-02-20,404,230!2026-03-19,41,308-->
 
 ## references
 

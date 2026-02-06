@@ -29,7 +29,7 @@ Another form of the diagram plots {@{the effective surface [temperature](tempera
 
 ## interpretation
 
-Most of the [stars](star.md) occupy {@{the region in the diagram along the longest diagonal line called the [main sequence](main%20sequence.md)}@}. During the stage of their lives in which stars are found on the main sequence line, they are {@{[fusing hydrogen](proton–proton%20chain.md) in their cores}@}. <!--SR:!2026-02-06,375,290!2027-04-24,764,330-->
+Most of the [stars](star.md) occupy {@{the region in the diagram along the longest diagonal line called the [main sequence](main%20sequence.md)}@}. During the stage of their lives in which stars are found on the main sequence line, they are {@{[fusing hydrogen](proton–proton%20chain.md) in their cores}@}. <!--SR:!2029-01-23,1082,290!2027-04-24,764,330-->
 
 ## references
 

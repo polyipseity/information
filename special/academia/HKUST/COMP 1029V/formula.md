@@ -74,8 +74,8 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:37.027388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`^` <!--SR:!2026-02-06,99,377!2026-02-08,101,377-->
-- `^`→::@::←`*` <br/> `/` <!--SR:!2026-02-06,99,377!2026-02-08,101,377-->
+- _(begin)_→::@::←`^` <!--SR:!2027-07-08,517,397!2026-02-08,101,377-->
+- `^`→::@::←`*` <br/> `/` <!--SR:!2027-07-02,511,397!2026-02-08,101,377-->
 - `*` <br/> `/`→::@::←`+` <br/> `-` <!--SR:!2026-02-07,100,377!2026-02-07,100,377-->
 - `+` <br/> `-`→::@::←_(end)_ <!--SR:!2026-02-07,100,377!2026-02-07,100,377-->
 
@@ -83,15 +83,15 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:37.077571+08:00. Any edits will be overridden! -->
 
-- `^`:@:power <!--SR:!2026-02-06,99,377-->
-- `*` <br/> `/`:@:multiplication <br/> division <!--SR:!2026-02-06,99,377-->
+- `^`:@:power <!--SR:!2027-07-09,518,397-->
+- `*` <br/> `/`:@:multiplication <br/> division <!--SR:!2027-07-09,518,397-->
 - `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2026-02-08,101,377-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-02-01,1133,350!2026-02-08,101,377!2026-02-06,99,377!2026-02-06,99,377-->
+Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-02-01,1133,350!2026-02-08,101,377!2027-07-06,515,397!2027-07-07,516,397-->
 
 ```Python
 # pytextgen generate data

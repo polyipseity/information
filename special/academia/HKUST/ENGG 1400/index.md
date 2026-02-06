@@ -135,7 +135,7 @@ The content is in teaching order.
 - design thinking
   - design thinking / reframing
     - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2026-06-20,481,402!2026-06-02,465,402-->
-- sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2026-02-06,365,382!2026-08-16,527,402-->
+- sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2031-04-28,1907,402!2026-08-16,527,402-->
   - anchor problem ::@:: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities. <!--SR:!2026-07-25,507,402!2026-08-05,517,402-->
   - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2026-07-08,495,402!2026-08-14,525,402-->
   - unclear problem ::@:: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or) <!--SR:!2029-06-15,1322,382!2026-07-31,513,402-->

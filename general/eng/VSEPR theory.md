@@ -81,11 +81,11 @@ tags:
 > - AX<sub>5</sub>E<sub>0</sub>
 >   - AX<sub>5</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png) <!--SR:!2026-02-23,21,281!2026-02-08,17,305-->
 >   - AX<sub>5</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90°, 120° <!--SR:!2026-02-07,16,305-->
->   - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!2026-02-06,15,305!2026-03-22,47,305-->
+>   - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!2026-04-12,65,325!2026-03-22,47,305-->
 > - AX<sub>5</sub>E<sub>1</sub>
 >   - AX<sub>5</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [square pyramidal](square%20pyramidal%20molecular%20geometry.md)<br/>![square pyramidal](../../archives/Wikimedia%20Commons/AX5E1-3D-balls.png) <!--SR:!2026-02-08,17,305!2026-02-08,17,305-->
 >   - AX<sub>5</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90° <!--SR:!2026-02-08,17,305-->
->   - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!2026-02-08,17,305!2026-02-06,15,305-->
+>   - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!2026-02-08,17,305!2026-03-22,44,305-->
 > - AX<sub>5</sub>E<sub>2</sub>
 >   - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!2026-03-21,46,305!2026-02-09,18,321-->
 >   - AX<sub>5</sub>E<sub>2</sub> / ideal bond angle(s) :@: 72° <!--SR:!2026-02-07,16,305-->
@@ -97,7 +97,7 @@ tags:
 > - AX<sub>6</sub>E<sub>1</sub>
 >   - AX<sub>6</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../../archives/Wikimedia%20Commons/AX6E1-3D-balls.png) <!--SR:!2026-02-08,17,305!2026-02-08,17,305-->
 >   - AX<sub>6</sub>E<sub>1</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2026-02-07,16,305-->
->   - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-02-23,21,281!2026-02-06,4,245-->
+>   - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-02-23,21,281!2026-02-19,13,265-->
 > - AX<sub>7</sub>E<sub>0</sub>
 >   - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!2026-03-21,46,305!2026-02-22,20,265-->
 >   - AX<sub>7</sub>E<sub>0</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2026-03-21,46,305-->

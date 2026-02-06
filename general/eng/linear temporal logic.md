@@ -84,24 +84,24 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 
 > __flashcards__
 >
-> - [unary operators](unary%20operation.md) ::@:: - __X__ _φ_ <br/> - __F__ _φ_ <br/> - __G__ _φ_ <!--SR:!2026-02-06,26,390!2026-06-18,133,410-->
+> - [unary operators](unary%20operation.md) ::@:: - __X__ _φ_ <br/> - __F__ _φ_ <br/> - __G__ _φ_ <!--SR:!2026-06-28,142,410!2026-06-18,133,410-->
 > - __X__ _φ_
 >   - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$ <!--SR:!2026-06-14,130,410!2026-06-11,127,410-->
 >   - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state. <!--SR:!2026-06-20,135,410!2026-06-13,129,410-->
 >   - __X__ _φ_ / diagram ::@:: ![LTI next diagram](../../archives/Wikimedia%20Commons/Ltlnext.svg) <!--SR:!2026-06-17,132,410!2026-06-09,125,410-->
 > - __F__ _φ_
->   - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$ <!--SR:!2026-02-06,26,390!2026-06-10,126,410-->
->   - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\). <!--SR:!2026-02-06,26,390!2026-06-12,128,410-->
+>   - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$ <!--SR:!2026-06-28,142,410!2026-06-10,126,410-->
+>   - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\). <!--SR:!2026-06-28,142,410!2026-06-12,128,410-->
 >   - __F__ _φ_ / diagram ::@:: ![LTI finally diagram](../../archives/Wikimedia%20Commons/Ltleventually.svg) <!--SR:!2026-06-12,128,410!2026-06-14,130,410-->
 > - __G__ _φ_
 >   - __G__ _φ_ / symbolic ::@:: $\Box \varphi$ <!--SR:!2026-06-12,128,410!2026-06-10,126,410-->
 >   - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path. <!--SR:!2026-06-11,127,410!2026-06-12,128,410-->
->   - __G__ _φ_ / diagram ::@:: ![LTI globally diagram](../../archives/Wikimedia%20Commons/Ltlalways.svg) <!--SR:!2026-02-06,26,390!2026-02-06,26,390-->
+>   - __G__ _φ_ / diagram ::@:: ![LTI globally diagram](../../archives/Wikimedia%20Commons/Ltlalways.svg) <!--SR:!2026-06-28,142,410!2026-06-28,142,410-->
 > - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_ <!--SR:!2026-06-11,127,410!2026-06-19,134,410-->
 > - _ψ_ __U__ _φ_
 >   - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$ <!--SR:!2026-06-14,130,410!2026-06-10,126,410-->
 >   - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position. <!--SR:!2026-06-10,126,410!2026-06-13,129,410-->
->   - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg) <!--SR:!2026-06-09,125,410!2026-02-06,26,390-->
+>   - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg) <!--SR:!2026-06-09,125,410!2026-06-28,142,410-->
 > - _ψ_ __R__ _φ_
 >   - _ψ_ __R__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {R} }\,\varphi$ <!--SR:!2026-06-09,125,410!2026-06-12,128,410-->
 >   - _ψ_ __R__ _φ_ / explanation ::@:: __R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever. <!--SR:!2026-06-11,127,410!2026-06-15,131,410-->
@@ -159,7 +159,7 @@ Let {@{φ, ψ, and ρ}@} be {@{LTL formulas}@}. The following tables list {@{som
 
 All the formulas of LTL can be {@{transformed into _negation normal form_}@}, where <!--SR:!2026-03-23,372,363-->
 
-- all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2029-02-13,1196,357!2026-02-06,335,350-->
+- all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2029-02-13,1196,357!2030-07-09,1614,370-->
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2028-02-24,889,337!2029-01-10,1165,350-->
 - only the temporal operators ::@:: __X__, __U__, and __R__ can appear. <!--SR:!2026-03-29,378,363!2026-03-14,364,363-->
 

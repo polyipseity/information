@@ -168,7 +168,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md):@:high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2027-10-06,795,283-->
 - [silver oxide](silver%20oxide%20battery.md):@:expensive, lightweight, small, wide operating temperature range <!--SR:!2026-04-23,536,323-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2026-02-06,484,323-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2032-01-03,2157,343-->
 
 <!--/pytextgen-->
 

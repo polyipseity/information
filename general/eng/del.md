@@ -14,7 +14,7 @@ tags:
 # del
 
 - This article is about {@{the mathematical operator represented by the nabla symbol}@}. For {@{the symbol itself}@}, see {@{[nabla symbol](nabla%20symbol.md)}@}. For {@{the operation associated with the symbol ∂, also sometimes referred to as "del"}@}, see {@{[Partial derivative](partial%20derivative.md)}@}. For other uses, see [Del \(disambiguation\)](del%20(disambiguation).md).
-- Not to be confused with {@{[Dell](Dell.md)}@}. <!--SR:!2026-03-10,293,330!2029-02-24,1136,350!2026-03-03,290,330!2029-05-21,1201,350!2026-02-06,265,330!2028-10-11,1030,350-->
+- Not to be confused with {@{[Dell](Dell.md)}@}. <!--SR:!2026-03-10,293,330!2029-02-24,1136,350!2026-03-03,290,330!2029-05-21,1201,350!2029-05-23,1202,350!2028-10-11,1030,350-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(March 2010\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 

@@ -24,7 +24,7 @@ In {@{[probability theory](probability%20theory.md) and [statistics](statistics.
 - The "zeroth" central moment _μ_<sub>0</sub> ::@:: is 1. <!--SR:!2029-04-26,1199,350!2029-04-06,1179,350-->
 - The first central moment _μ_<sub>1</sub> ::@:: is 0 \(not to be confused with the first [raw moment](raw%20moment.md) or the [expected value](expected%20value.md) _μ_\). <!--SR:!2026-02-08,289,330!2027-12-18,803,330-->
 - The second central moment _μ_<sub>2</sub> ::@:: is called the [variance](variance.md), and is usually denoted _σ_<sup>2</sup>, where σ represents the [standard deviation](standard%20deviation.md). <!--SR:!2029-05-05,1208,350!2026-02-16,293,330-->
-- The third and fourth central moments ::@:: are used to define the [standardized moments](standardized%20moment.md) which are used to define [skewness](skewness.md) and [kurtosis](kurtosis.md), respectively. <!--SR:!2026-02-16,293,330!2026-02-06,287,330-->
+- The third and fourth central moments ::@:: are used to define the [standardized moments](standardized%20moment.md) which are used to define [skewness](skewness.md) and [kurtosis](kurtosis.md), respectively. <!--SR:!2026-02-16,293,330!2029-09-10,1312,350-->
 
 ### properties
 

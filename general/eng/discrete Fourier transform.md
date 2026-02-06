@@ -43,7 +43,7 @@ The inverse transform is given by:
 >
 > {@{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}@} <!--SR:!2026-08-07,469,270!2026-09-12,484,270-->
 
-__Eq.2__ is {@{also $N$-periodic (in index $n$)}@}. In __Eq.2__, each $X_k$ is {@{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}@}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {@{$k$ cycles per $N$ samples}@}. <!--SR:!2029-02-19,1292,350!2026-02-06,362,290!2027-10-25,882,330-->
+__Eq.2__ is {@{also $N$-periodic (in index $n$)}@}. In __Eq.2__, each $X_k$ is {@{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}@}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {@{$k$ cycles per $N$ samples}@}. <!--SR:!2029-02-19,1292,350!2028-12-22,1050,290!2027-10-25,882,330-->
 
 {@{The normalization factor multiplying the DFT and IDFT (here $1$ and $\frac 1 N$) and the signs of the exponents}@} are {@{the most common [conventions](sign%20convention.md)}@}. The only actual requirements of these conventions are that {@{the DFT and IDFT have opposite-sign exponents and that the product of their normalization factors be $\frac 1 N$}@}. {@{An uncommon normalization of $\sqrt{\frac 1 N}$ for both the DFT and IDFT}@} makes {@{the transform-pair unitary}@}. <!--SR:!2028-11-15,1215,350!2028-10-07,1182,350!2029-04-05,1324,350!2026-10-16,587,310!2026-05-04,463,310-->
 

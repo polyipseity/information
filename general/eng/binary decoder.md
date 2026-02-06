@@ -17,7 +17,7 @@ There are {@{several types of binary decoders}@}, but in all cases a decoder is 
 
 Depending on {@{its function}@}, a binary decoder will {@{convert binary information from n input signals to as many as 2<sup>n</sup> unique output signals}@}. Some decoders have {@{less than 2<sup>n</sup> output lines}@}; in such cases, {@{at least one output pattern may be repeated for different input values}@}. <!--SR:!2029-05-27,1215,350!2028-11-18,1065,350!2026-02-25,285,330!2026-03-01,289,330-->
 
-A binary decoder is usually implemented as {@{either a stand-alone [integrated circuit](integrated%20circuit.md) \(IC\) or as part of a more complex IC}@}. In the latter case the decoder may be {@{synthesized by means of a [hardware description language](hardware%20description%20language.md)}@} such as {@{[VHDL](VHDL.md) or [Verilog](Verilog.md)}@}. {@{Widely used decoders}@} are often {@{available in the form of standardized ICs}@}. <!--SR:!2028-11-16,1062,350!2029-02-25,1141,350!2026-02-08,276,330!2026-02-06,275,330!2029-02-27,1143,350-->
+A binary decoder is usually implemented as {@{either a stand-alone [integrated circuit](integrated%20circuit.md) \(IC\) or as part of a more complex IC}@}. In the latter case the decoder may be {@{synthesized by means of a [hardware description language](hardware%20description%20language.md)}@} such as {@{[VHDL](VHDL.md) or [Verilog](Verilog.md)}@}. {@{Widely used decoders}@} are often {@{available in the form of standardized ICs}@}. <!--SR:!2028-11-16,1062,350!2029-02-25,1141,350!2026-02-08,276,330!2029-07-11,1251,350!2029-02-27,1143,350-->
 
 ## types of decoders
 

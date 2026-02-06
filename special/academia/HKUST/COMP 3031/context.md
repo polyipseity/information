@@ -19,11 +19,11 @@ tags:
 
 - HKUST COMP 3031
 
-Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{inferring type parameters}@}. Sometimes you want {@{types to infer values}@} instead, called {@{_type-directed programming_}@}. This is helpful for abstracting {@{context based on types}@}. <!--SR:!2026-02-06,70,329!2026-11-19,289,349!2026-11-24,294,349!2026-02-13,76,329!2026-02-13,76,329!2026-02-07,71,329-->
+Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{inferring type parameters}@}. Sometimes you want {@{types to infer values}@} instead, called {@{_type-directed programming_}@}. This is helpful for abstracting {@{context based on types}@}. <!--SR:!2026-12-23,320,349!2026-11-19,289,349!2026-11-24,294,349!2026-02-13,76,329!2026-02-13,76,329!2026-02-07,71,329-->
 
 ## motivation
 
-We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2026-02-13,76,329!2026-12-16,314,349!2026-02-06,70,329!2026-11-23,293,349!2026-02-13,76,329!2026-02-13,76,329!2026-10-02,251,330!2026-09-22,241,330!2026-11-20,294,349-->
+We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2026-02-13,76,329!2026-12-16,314,349!2026-12-27,324,349!2026-11-23,293,349!2026-02-13,76,329!2026-02-13,76,329!2026-10-02,251,330!2026-09-22,241,330!2026-11-20,294,349-->
 
 - globals ::@:: Simple to use. Rigid, hard to change per module. <!--SR:!2026-12-06,306,349!2026-12-19,317,349-->
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\). <!--SR:!2026-12-20,318,349!2026-11-20,290,349-->
@@ -44,7 +44,7 @@ When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example,
 > ```
 <!--SR:!2026-02-13,76,329!2026-12-05,305,349!2026-02-07,71,329!2026-11-25,295,349!2026-12-01,301,349-->
 
-However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!2026-10-01,250,330!2026-02-06,70,329!2026-02-06,70,329!2026-12-08,308,349!2026-02-07,71,329-->
+However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!2026-10-01,250,330!2026-12-24,321,349!2026-12-27,324,349!2026-12-08,308,349!2026-02-07,71,329-->
 
 > [!example] __parameterized sort with ordering__
 >
@@ -62,7 +62,7 @@ However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does no
 > sort(ints)((x, y) => x < y)
 > sort(strings)((s1, s2) => s1.compareTo(s2) < 0)
 > ```
-<!--SR:!2026-11-22,296,349!2026-11-11,281,349!2026-02-13,76,329!2026-11-17,287,349!2026-02-06,70,329!2026-11-21,291,349-->
+<!--SR:!2026-11-22,296,349!2026-11-11,281,349!2026-02-13,76,329!2026-11-17,287,349!2026-12-28,325,349!2026-11-21,291,349-->
 
 Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting function}@}: <!--SR:!2026-12-22,320,349!2026-02-13,76,329-->
 
@@ -114,7 +114,7 @@ Now {@{callers}@} need not {@{supply it explicitly \(though it could if it choos
 > sort(strings)  // `sort(strings)(using Ordering.String)`
 > ```
 >
-> The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2026-02-18,80,347!2026-02-17,79,347!2026-02-20,82,347!2026-12-18,316,349!2026-02-06,70,329!2026-02-06,70,329!2026-12-21,319,349!2026-12-07,307,349!2026-11-17,291,349!2026-09-20,239,330-->
+> The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2026-02-18,80,347!2026-02-17,79,347!2026-02-20,82,347!2026-12-18,316,349!2026-12-23,320,349!2026-12-23,320,349!2026-12-21,319,349!2026-12-07,307,349!2026-11-17,291,349!2026-09-20,239,330-->
 
 The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}, as in the above example. <!--SR:!2026-02-18,80,348!2026-02-18,80,348!2026-02-19,81,348-->
 
@@ -156,7 +156,7 @@ However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{o
 > def f(x: Int)(using a: A, b: B) = ...
 > f(10)(using a, b)
 > ```
-<!--SR:!2026-02-06,70,329!2026-09-30,249,330!2026-11-21,295,349!2026-11-26,296,349-->
+<!--SR:!2026-12-26,323,349!2026-09-30,249,330!2026-11-21,295,349!2026-11-26,296,349-->
 
 Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2026-02-07,71,329!2026-11-20,294,349!2026-11-28,298,349!2026-12-10,310,349!2026-02-13,76,329-->
 
@@ -171,7 +171,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 > f(10)(using a)(using b)
 > f(10)(using a)(true)(using b)
 > ```
-<!--SR:!2026-10-03,252,330!2026-11-16,286,349!2026-02-13,76,329!2026-02-06,70,329!2026-12-20,318,349-->
+<!--SR:!2026-10-03,252,330!2026-11-16,286,349!2026-02-13,76,329!2026-12-26,323,349!2026-12-20,318,349-->
 
 {@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2026-02-13,76,329!2026-11-21,291,349!2026-11-23,297,349-->
 
@@ -211,7 +211,7 @@ More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_de
 
 ## `given`
 
-Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}. The following {@{creates a new instance of `Ordering[Int]`}@}: <!--SR:!2026-02-13,76,329!2026-02-06,70,329!2026-02-13,76,329!2026-05-29,115,391-->
+Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{automatically supplied for implicit parameters}@}. The following {@{creates a new instance of `Ordering[Int]`}@}: <!--SR:!2026-02-13,76,329!2026-12-27,324,349!2026-02-13,76,329!2026-05-29,115,391-->
 
 > [!example] __`Ordering.Int`__
 >
@@ -277,7 +277,7 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 
 ### importing `given`s
 
-There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 items: {@{by name, by type, by wildcard}@}\) <!--SR:!2026-11-13,283,349!2026-02-06,70,329!2026-02-13,76,329-->
+There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 items: {@{by name, by type, by wildcard}@}\) <!--SR:!2026-11-13,283,349!2026-12-25,322,349!2026-02-13,76,329-->
 
 - by name ::@:: `import scala.math.Ordering.Int` <!--SR:!2026-10-02,251,330!2026-02-13,76,329-->
 - by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!2026-11-18,288,349!2026-12-08,308,349-->
@@ -312,7 +312,7 @@ In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and t
 
 ### recursive `given` resolution
 
-When {@{a method}@} requires {@{an instance that depends on another instance}@}, {@{the compiler}@} {@{resolves them recursively}@}. For example: <!--SR:!2026-02-13,76,329!2026-02-13,76,329!2026-12-03,303,349!2026-02-06,70,329-->
+When {@{a method}@} requires {@{an instance that depends on another instance}@}, {@{the compiler}@} {@{resolves them recursively}@}. For example: <!--SR:!2026-02-13,76,329!2026-02-13,76,329!2026-12-03,303,349!2026-12-25,322,349-->
 
 > [!example] __`listOrdering`__
 >
@@ -323,7 +323,7 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >   sort(xs)  // uses `listOrdering[List[Int]]`, then uses `Ordering.Int` inside `listOrdering`
 > ```
 >
-> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2026-02-16,78,347!2026-02-20,82,347!2026-02-15,78,347!2026-02-16,79,347!2026-02-06,70,329!2026-02-13,76,329!2026-02-07,71,329!2026-11-18,292,349!2026-02-17,79,348-->
+> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2026-02-16,78,347!2026-02-20,82,347!2026-02-15,78,347!2026-02-16,79,347!2026-12-25,322,349!2026-02-13,76,329!2026-02-07,71,329!2026-11-18,292,349!2026-02-17,79,348-->
 
 For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!2026-11-09,283,349!2026-10-02,251,330!2026-02-13,76,329!2026-11-27,297,349-->
 
@@ -353,9 +353,9 @@ If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{com
 - companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!2026-10-05,254,330-->
 - enclosing objects ::@:: For inner classes, outer enclosing objects. <!--SR:!2026-02-13,76,329!2026-11-28,298,349-->
 
-{@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2026-12-21,319,349!2026-02-06,70,329!2026-11-15,285,349!2026-11-13,287,349-->
+{@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2026-12-21,319,349!2026-12-26,323,349!2026-11-15,285,349!2026-11-13,287,349-->
 
-If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ one}@}. {@{A candidate is _more specific_ than another}@} when {@{at least one of the following 4 items hold}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\) <!--SR:!2026-02-06,70,329!2026-09-23,242,330!2026-08-16,213,329!2026-02-07,71,329!2026-03-04,90,371!2026-03-03,89,371-->
+If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ one}@}. {@{A candidate is _more specific_ than another}@} when {@{at least one of the following 4 items hold}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\) <!--SR:!2026-12-27,324,349!2026-09-23,242,330!2026-08-16,213,329!2026-02-07,71,329!2026-03-04,90,371!2026-03-03,89,371-->
 
 - specificity: lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or <!--SR:!2026-12-14,312,349!2026-11-13,283,349-->
 - specificity: hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass. <!--SR:!2026-09-17,236,330!2026-02-13,76,329-->
@@ -366,11 +366,11 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 ## type class
 
-In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!2026-10-06,255,330!2026-11-26,296,349!2026-11-16,286,349!2026-09-19,238,330!2026-12-06,306,349!2026-02-07,71,329!2026-02-06,70,329-->
+In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!2026-10-06,255,330!2026-11-26,296,349!2026-11-16,286,349!2026-09-19,238,330!2026-12-06,306,349!2026-02-07,71,329!2026-12-23,320,349-->
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2026-11-17,287,349!2026-12-11,311,349!2026-02-13,76,329!2026-11-27,297,349!2026-02-13,76,329!2026-11-27,297,349-->
 
-{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!2026-11-11,281,349!2026-11-22,292,349!2026-12-21,319,349!2026-12-03,303,349!2026-11-07,281,349!2026-11-15,285,349!2026-02-13,76,329!2026-12-06,306,349!2026-02-06,70,329!2026-02-13,76,329!2026-02-13,76,329!2026-02-13,76,329-->
+{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!2026-11-11,281,349!2026-11-22,292,349!2026-12-21,319,349!2026-12-03,303,349!2026-11-07,281,349!2026-11-15,285,349!2026-02-13,76,329!2026-12-06,306,349!2026-12-28,325,349!2026-02-13,76,329!2026-02-13,76,329!2026-02-13,76,329-->
 
 ### type class pattern
 
@@ -399,9 +399,9 @@ To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!2026-12-09,
 > given orderingString: Ordering[String] with
 >   def compare(s: String, t: String) = s.compareTo(t)
 > ```
-<!--SR:!2026-02-06,70,329!2026-02-13,76,329-->
+<!--SR:!2026-12-24,321,349!2026-02-13,76,329-->
 
-With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be written: <!--SR:!2026-02-07,71,329!2026-02-06,70,329-->
+With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be written: <!--SR:!2026-02-07,71,329!2026-12-28,325,349-->
 
 > [!example] __type class implementation__
 >
@@ -436,7 +436,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 
 ### extension methods
 
-{@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2026-12-02,302,349!2026-11-22,292,349!2026-02-06,70,329-->
+{@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2026-12-02,302,349!2026-11-22,292,349!2026-12-25,322,349-->
 
 > [!example] __type class extension methods__
 >
@@ -451,9 +451,9 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >     def >(y: A)   = compare(x, y) > 0
 >     def >=(y: A)  = compare(x, y) >= 0
 > ```
-<!--SR:!2026-02-06,70,329!2026-02-06,70,329!2026-12-07,307,349-->
+<!--SR:!2026-12-26,323,349!2026-12-28,325,349!2026-12-07,307,349-->
 
-With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252,330!2026-02-06,70,329-->
+With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252,330!2026-12-24,321,349-->
 
 > [!example] __type class extension methods usage__
 >
@@ -489,7 +489,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 
 {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2026-02-22,84,351!2026-02-20,82,351!2026-02-23,85,351!2026-02-23,85,351!2026-02-23,85,351!2026-02-20,82,351-->
 
-{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-02-06,70,329!2026-11-29,299,349!2026-07-08,175,310!2026-02-13,76,329!2026-11-18,292,349!2026-02-13,76,329-->
+{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!2026-11-29,299,349!2026-07-08,175,310!2026-02-13,76,329!2026-11-18,292,349!2026-02-13,76,329-->
 
 > [!example] __type class in Rust__
 >

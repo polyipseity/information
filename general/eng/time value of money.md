@@ -35,7 +35,7 @@ In {@{a typical case}@}, the variables might be: {@{a balance \(the real or nomi
 
 For example, {@{£100 invested for one year, earning 5% interest}@}, will be {@{worth £105 after one year}@}; therefore, {@{£100 paid now _and_ £105 paid exactly one year later}@} {@{_both_ have the same value to a recipient who expects 5% interest assuming that inflation would be zero percent}@}. That is, {@{£100 invested for one year at 5% interest}@} has {@{a _future value_ of £105 under the assumption that inflation would be zero percent}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-03-23,1161,350!2029-05-04,1196,350!2029-05-13,1203,350!2026-03-06,294,330!2029-03-05,1143,350!2026-02-16,276,330-->
 
-This principle allows for {@{the valuation of a likely stream of income in the future}@}, in such a way that {@{annual incomes are [discounted](discounting.md) and then added together}@}, thus {@{providing a lump-sum "present value" of the entire income stream}@}; {@{all of the standard calculations for time value of money}@} derive from {@{the most basic algebraic expression for the [present value](present%20value.md) of a future sum, "discounted" to the present by an amount equal to the time value of money}@}. For example, {@{the future value sum $FV$ to be received in one year}@} is {@{discounted at the rate of interest $r$ to give the present value sum $PV$}@}: {@{$$PV={\frac {FV}{(1+r)} }$$}@} <!--SR:!2026-02-18,278,330!2029-05-29,1212,350!2029-03-31,1168,350!2026-02-06,266,330!2027-07-11,665,330!2029-02-15,1131,350!2029-05-27,1207,350!2027-07-28,678,330-->
+This principle allows for {@{the valuation of a likely stream of income in the future}@}, in such a way that {@{annual incomes are [discounted](discounting.md) and then added together}@}, thus {@{providing a lump-sum "present value" of the entire income stream}@}; {@{all of the standard calculations for time value of money}@} derive from {@{the most basic algebraic expression for the [present value](present%20value.md) of a future sum, "discounted" to the present by an amount equal to the time value of money}@}. For example, {@{the future value sum $FV$ to be received in one year}@} is {@{discounted at the rate of interest $r$ to give the present value sum $PV$}@}: {@{$$PV={\frac {FV}{(1+r)} }$$}@} <!--SR:!2026-02-18,278,330!2029-05-29,1212,350!2029-03-31,1168,350!2029-05-30,1209,350!2027-07-11,665,330!2029-02-15,1131,350!2029-05-27,1207,350!2027-07-28,678,330-->
 
 Some standard calculations based on the time value of money are:
 
@@ -73,7 +73,7 @@ The following formula use these common variables:
 
 ### present value of a future sum
 
-{@{The present value formula}@} is {@{the core formula for the time value of money}@}; {@{each of the other formulas is derived from this formula}@}. For example, {@{the annuity formula is the sum of a series of present value calculations}@}. <!--SR:!2026-02-27,287,330!2026-02-06,266,330!2026-02-16,276,330!2028-12-21,1075,350-->
+{@{The present value formula}@} is {@{the core formula for the time value of money}@}; {@{each of the other formulas is derived from this formula}@}. For example, {@{the annuity formula is the sum of a series of present value calculations}@}. <!--SR:!2026-02-27,287,330!2029-05-31,1210,350!2026-02-16,276,330!2028-12-21,1075,350-->
 
 The [present value](present%20value.md) \(_PV_\) formula has {@{four variables}@}, each of which can be {@{solved for by [numerical methods](numerical%20methods.md)}@}: {@{$$PV\ =\ {\frac {FV}{(1+i)^{n} } }$$}@} <!--SR:!2028-12-23,1077,350!2026-02-11,271,330!2029-04-03,1171,350-->
 
@@ -81,7 +81,7 @@ The [present value](present%20value.md) \(_PV_\) formula has {@{four variables}@
 
 ### present value of an annuity for n payment periods
 
-In this case {@{the cash flow values remain the same throughout the _n_ periods}@}. {@{The present value of an [annuity](annuity%20(finance%20theory).md) \(PVA\) formula}@} has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$PV(A)\,=\,{\frac {A}{i} }\cdot \left[{1-{\frac {1}{\left(1+i\right)^{n} } } }\right]$$}@} To {@{get the PV of an [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\)}@}. <!--SR:!2026-02-09,269,330!2026-02-06,266,330!2029-03-20,1158,350!2029-03-01,1139,350!2027-07-14,667,330!2026-02-14,274,330!2028-12-18,1072,350-->
+In this case {@{the cash flow values remain the same throughout the _n_ periods}@}. {@{The present value of an [annuity](annuity%20(finance%20theory).md) \(PVA\) formula}@} has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$PV(A)\,=\,{\frac {A}{i} }\cdot \left[{1-{\frac {1}{\left(1+i\right)^{n} } } }\right]$$}@} To {@{get the PV of an [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\)}@}. <!--SR:!2026-02-09,269,330!2029-05-29,1208,350!2029-03-20,1158,350!2029-03-01,1139,350!2027-07-14,667,330!2026-02-14,274,330!2028-12-18,1072,350-->
 
 ### present value of a growing annuity
 

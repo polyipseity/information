@@ -15,7 +15,7 @@ tags:
 
 > {@{![Partial transmission and reflection of a pulse travelling from a low to a high refractive index medium.](../../archives/Wikimedia%20Commons/Partial%20transmittance.gif)}@}
 >
-> {@{Partial transmission and reflection}@} of {@{a pulse travelling from a low to a high refractive index medium}@}. <!--SR:!2026-02-06,200,329!2026-08-25,363,366!2026-08-23,361,366-->
+> {@{Partial transmission and reflection}@} of {@{a pulse travelling from a low to a high refractive index medium}@}. <!--SR:!2027-12-01,663,329!2026-08-25,363,366!2026-08-23,361,366-->
 
 <!-- markdownlint MD028 -->
 

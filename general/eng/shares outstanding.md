@@ -29,7 +29,7 @@ In {@{many countries}@}, there is {@{an information service authorized or provid
 
 ### local stock exchanges
 
-Since {@{outstanding shares are an essential detail of publicly traded companies}@} {@{the number can be found on the local stock exchange websites}@}. Beyond {@{stock charts and listed prices}@}, they also provide {@{the companies' number of outstanding shares}@}. Examples include the Brazilian BM&FBOVESPA,<sup>[\[11\]](#^ref-11)</sup> the Swiss SIX,<sup>[\[12\]](#^ref-12)</sup> the Borsa Italiana<sup>[\[13\]](#^ref-13)</sup> and the [Tel Aviv Stock Exchange](Tel%20Aviv%20Stock%20Exchange.md) \(where shares outstanding are termed "Capital Listed for Trading"\).<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2029-01-07,1119,350!2027-07-14,685,330!2026-02-06,287,330!2029-04-06,1188,350-->
+Since {@{outstanding shares are an essential detail of publicly traded companies}@} {@{the number can be found on the local stock exchange websites}@}. Beyond {@{stock charts and listed prices}@}, they also provide {@{the companies' number of outstanding shares}@}. Examples include the Brazilian BM&FBOVESPA,<sup>[\[11\]](#^ref-11)</sup> the Swiss SIX,<sup>[\[12\]](#^ref-12)</sup> the Borsa Italiana<sup>[\[13\]](#^ref-13)</sup> and the [Tel Aviv Stock Exchange](Tel%20Aviv%20Stock%20Exchange.md) \(where shares outstanding are termed "Capital Listed for Trading"\).<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2029-01-07,1119,350!2027-07-14,685,330!2029-09-05,1307,350!2029-04-06,1188,350-->
 
 ## see also
 

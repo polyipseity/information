@@ -34,7 +34,7 @@ tags:
 > | p        | 1        | 10011    |
 > | r        | 1        | 11000    |
 > | u        | 1        | 00111    |
-> | x        | 1        | 10010    | <!--SR:!2026-09-17,490,310!2027-12-06,792,330!2029-05-11,1265,350!2028-11-16,1128,350!2026-10-25,508,310!2029-03-28,1229,350!2026-02-06,309,290!2029-06-15,1292,350-->
+> | x        | 1        | 10010    | <!--SR:!2026-09-17,490,310!2027-12-06,792,330!2029-05-11,1265,350!2028-11-16,1128,350!2026-10-25,508,310!2029-03-28,1229,350!2029-06-30,1240,310!2029-06-15,1292,350-->
 
 In {@{[computer science](computer%20science.md) and [information theory](information%20theory.md)}@}, {@{a __Huffman code__}@} is {@{a particular type of optimal [prefix code](prefix%20code.md) that is commonly used for [lossless data compression](lossless%20compression.md)}@}. {@{The process of finding or using such a code}@} is {@{__Huffman coding__}@}, {@{an algorithm developed by [David A. Huffman](David%20A.%20Huffman.md) while he was a [Sc.D.](Doctor%20of%20Science.md) student at [MIT](Massachusetts%20Institute%20of%20Technology.md)}@}, and published in {@{the 1952 paper "A Method for the Construction of Minimum-Redundancy Codes"}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-05-16,1269,350!2029-04-07,1239,350!2029-05-07,1263,350!2028-09-11,1076,350!2028-08-05,1046,350!2026-11-02,515,310!2028-02-27,892,330-->
 

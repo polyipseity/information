@@ -36,7 +36,7 @@ The term _digital signal_ has {@{related definitions in different contexts}@}. <
 
 > {@{![A five level [PAM](pulse-amplitude%20modulation.md) digital Signal](../../archives/Wikimedia%20Commons/5PAMlevels.png)}@}
 >
-> {@{A five level [PAM](pulse-amplitude%20modulation.md) digital signal}@} <!--SR:!2029-04-19,1183,350!2026-02-06,268,330-->
+> {@{A five level [PAM](pulse-amplitude%20modulation.md) digital signal}@} <!--SR:!2029-04-19,1183,350!2029-06-09,1219,350-->
 
 In [digital electronics](digital%20electronics.md), a digital signal is {@{a [pulse amplitude modulated](pulse%20amplitude%20modulated.md) signal}@}, i.e. {@{a sequence of fixed-width electrical pulses or light pulses, each occupying one of a discrete number of levels of amplitude}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> A special case is {@{a _logic signal_ or a _binary signal_}@}, which {@{varies between a low and a high signal level}@}. <!--SR:!2026-02-22,284,330!2026-02-09,271,330!2026-02-23,285,330!2029-03-13,1154,350-->
 
@@ -102,7 +102,7 @@ In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier wave
 
 {@{Digital signals may be _sampled_ by a clock signal at regular intervals}@} by {@{passing the signal through a [flip-flop](flip-flop%20(electronics).md)}@}. When this is done, the input is {@{measured at the clock edge and the signal from that time}@}. The signal is then {@{held steady until the next clock}@}. This process is {@{the basis of [synchronous logic](synchronous%20logic.md)}@}. <!--SR:!2029-01-23,1106,350!2028-11-11,1058,350!2027-11-12,762,330!2029-01-12,1095,350!2026-02-14,276,330-->
 
-{@{[Asynchronous logic](asynchronous%20logic.md#asynchronous%20logic) also exists}@}, which {@{uses no single clock}@}, and {@{generally operates more quickly, and may use less power, but is significantly harder to design}@}. <!--SR:!2026-02-10,272,330!2026-02-06,268,330!2026-02-18,280,330-->
+{@{[Asynchronous logic](asynchronous%20logic.md#asynchronous%20logic) also exists}@}, which {@{uses no single clock}@}, and {@{generally operates more quickly, and may use less power, but is significantly harder to design}@}. <!--SR:!2026-02-10,272,330!2029-06-08,1218,350!2026-02-18,280,330-->
 
 ## see also
 

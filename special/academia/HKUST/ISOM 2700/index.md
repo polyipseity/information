@@ -271,7 +271,7 @@ The content is in teaching order.
 - status: attendance
 - M/M/1 queue
 - M/M/c queue
-  - M/M/c queue / difference from M/M/1 queue ::@:: Arrival rate $\lambda$ and service rate (of _one_ server) $\mu$ means the same thing. The only difference is that $c$ is not restricted to being 1. <p> We still assume the system is _stable_, i.e. $\lambda < c \mu$. <!--SR:!2026-10-28,491,406!2026-02-06,256,366-->
+  - M/M/c queue / difference from M/M/1 queue ::@:: Arrival rate $\lambda$ and service rate (of _one_ server) $\mu$ means the same thing. The only difference is that $c$ is not restricted to being 1. <p> We still assume the system is _stable_, i.e. $\lambda < c \mu$. <!--SR:!2026-10-28,491,406!2029-08-19,1290,386-->
   - M/M/c queue / metrics ::@:: Similar to that of M/M/1 queue, we have: $L_q$, $L_s$, $W_q$, $W_s$, $P(0)$, $P(\mathrm{delay})$, and $\rho$. <!--SR:!2026-12-26,540,406!2026-12-20,535,406-->
     - M/M/c queue / metrics / equations ::@:: Unfortunately, there are equations for the performance of the system, but many of them are complicated, so we provide a M/M/c queueing spreadsheet for you instead. <!--SR:!2026-10-22,485,406!2026-12-07,523,406-->
     - M/M/c queue / metrics / equations (simple) ::@:: Little's law; utilization $\rho = \lambda / c \mu$; relation between $L_q$ and $L_s$: $L_s = L_q + c \rho$; and relation between $W_q$ and $W_s = W_q + \frac 1 \mu$ still hold. <p> However, $P(\mathrm{delay})$ can be less than $1 - P(0)$ instead of being equal to, since there can be multiple servers now. Indeed, $P(\mathrm{delay}) = 1 - (P(0) + P(1) + \cdots + P(c - 1)) \,.$ <!--SR:!2026-12-07,523,406!2029-08-14,1286,386-->
