@@ -51,10 +51,28 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
 
 ## Dependencies
 
-- Python 3.8+ with `requirements.txt` packages
-- Node.js 24+ with `package.json` packages (commitlint, markdownlint)
-- External: `git`, `git-filter-repo`
-- Obsidian plugins: Extended MathJax (for `preamble.sty`)
+- **Python >=3.12** — declared in `pyproject.toml` (this is the canonical source of Python dependency metadata).
+- **Node.js 24+** with `package.json` packages (commitlint, markdownlint, prettier, pyright, etc.).
+- External tools: `git`, `git-filter-repo`.
+- Obsidian plugins: Extended MathJax (for `preamble.sty`).
+
+---
+
+## Developer tooling & testing conventions
+
+- Use `pyproject.toml` as the authoritative dependency source for Python. Do **not** reintroduce a long-lived `requirements.txt`; it is only a transient compatibility helper at best and the canonical metadata is maintained in `pyproject.toml`'s `[project]` and `[dependency-groups]` sections.
+- `pnpm install` runs the `postinstall` hook which executes `python -m pip install -e . --group dev` to install development extras declared under `[dependency-groups].dev`. Run `pnpm install` and then `pnpm run prepare` to install deps and register Husky hooks locally.
+- Formatting & linters: Use `prettier`, `markdownlint-cli2`, `pyright`, `ruff`, `isort`, and `black`. `lint-staged` is configured to run relevant formatters/linters on staged files and Husky hooks enforce pre-commit and pre-push checks.
+- Testing conventions:
+  - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`).
+  - Use `pytest` (config in `pyproject.toml`) and name tests `test_*.py`. Use `pytest.mark.asyncio` for async tests and prefer deterministic fixtures (use `monkeypatch`, `tmp_path`, and the `conftest.py` fixtures provided).
+  - Include tests for all substantive behavior changes, especially for scripts and tools (`tools/` and `scripts/`). Add tests that exercise error paths and edge cases.
+  - CI and local pre-push both run the test suite: Husky `pre-push` runs `pnpm run test` which executes `python -m pytest`. The GitHub Actions CI runs `pnpm install --frozen-lockfile` and `pnpm run check` and `pnpm run test` to validate changes.
+- Type checking: The repo supports `pyright` with a root-level `pyrightconfig.json` (strict mode). Run `pyright` as part of local checks and in lint-staged if appropriate.
+- Coverage: Use `pytest-cov` (pytest `addopts` includes `--cov=./`). Strive to add tests for new behavior; test coverage thresholds are recommended to be added as the project matures.
+- Commit & change policy: Always run `pnpm run format` and `pnpm run check` before committing. Agents must ensure commit messages follow Conventional Commits (see `.github/instructions/commit-convention.instructions.md`) and must show proposed commit messages for review before committing.
+
+---
 
 ## Setup
 

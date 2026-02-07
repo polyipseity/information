@@ -12,3 +12,8 @@ applyTo: "tools/pyarchivist/**"
 - **When user approves edits**: Make changes here, test thoroughly, then contribute upstream
 - For upstream contributions: work in the pyarchivist repo, merge changes, then update submodule pointer
 - **Submodule instructions**: This submodule has its own `AGENTS.md` and `.github/instructions/` and `.github/skills/` files that take priority when working within `tools/pyarchivist/`
+
+## Developer tooling & testing (pyarchivist submodule)
+
+- Edits that affect archiving or index generation must include tests that verify index updates, idempotency, and correct metadata. Tests should run against a temporary directory and verify `index.md` changes and downloaded media placement.
+- Coordinate with the parent repo to ensure that post-install behavior and `pyproject.toml` dependency declarations remain consistent.

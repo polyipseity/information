@@ -41,3 +41,10 @@ applyTo: "**/*.md"
 - **YAML frontmatter**: `aliases`, `tags`, `language/in/English` are standard fields; preserve during edits
 
 - **KaTeX math**: `$inline$` and `$$display$$` formats untouched; Extended MathJax in Obsidian uses `preamble.sty` for custom macros
+
+## Developer tooling & testing conventions
+
+- Dependency management: `pyproject.toml` is authoritative; add runtime deps to `[project].dependencies` and developer/test tools to `[dependency-groups].dev`. Run `pnpm install` (executes `postinstall`) and `pnpm run prepare` to register Husky hooks locally.
+- Tests: Place tests in `tests/` and use `pytest` (`test_*.py` naming). Mirror source layout when helpful, and add unit and integration tests for any change to scripts or generators.
+- Async tests: Use `pytest-asyncio` and `pytest.mark.asyncio` for async code. Prefer deterministic fixtures like `tmp_path` and `monkeypatch`.
+- Local validation: Run `pnpm run format`, `pnpm run check`, and `pnpm run test` before pushing changes to avoid Husky hooks and CI failures.

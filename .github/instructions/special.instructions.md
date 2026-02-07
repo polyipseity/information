@@ -405,6 +405,12 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
   - `general/` encyclopedia entries for concepts
   - Other `special/` materials (e.g., programming ref from course notes)
 
+### Developer tooling & tests (special/)
+
+- Any new tool or helper script that transforms or ingests `special/` content requires unit tests and integration tests; tests should be placed under `tests/` using `tmp_path` to avoid mutating the repo. For conversion tools, add regression tests that verify expected output for representative inputs and that guard against accidental format drift.
+- For content changes that affect pytextgen fences, add round-trip tests that run `python -m init generate` and assert the generated fences are unchanged except for intentional updates.
+- Ensure `pnpm run check`, `pnpm run format`, and `pnpm run test` pass locally before opening a PR.
+
 ### Academia-specific
 
 - **Course codes**: Preserve institution-specific formatting (e.g., HKUST uses `COMP 2012`, not `COMP2012` in titles, but both in aliases)

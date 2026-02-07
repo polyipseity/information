@@ -75,3 +75,8 @@ applyTo: "general/**/*.md"
 - **Wiki ingestion**: Use [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill to import Wikipedia articles with proper frontmatter
 - **Flashcard generation**: Use [pytextgen](../skills/pytextgen/SKILL.md) skill to regenerate cloze markup into flashcards
 - **Note scaffolding**: Use [tools-templates](../skills/tools-templates/SKILL.md) skill to scaffold new notes with proper structure
+
+## Developer tooling & testing (notes-related changes)
+
+- If you change code that modifies Markdown (`init.py`, `tools/pytextgen`, or converters), add tests that validate generated output and round-trip behaviour. Unit-tests should check small deterministic inputs; integration tests should run the generator end-to-end in `tmp_path` and assert output files and fence contents.
+- For content edits, run `python -m init generate <file>` and include a test that calls the same generation and verifies a stable output. This prevents accidental fence corruption and ensures pytextgen compatibility.
