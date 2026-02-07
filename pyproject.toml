@@ -44,7 +44,7 @@ line-length = 88
 profile = "black"
 
 [tool.pytest.ini_options]
-addopts = ["--cov=./", "--dist=loadscope", "-n=auto", "--strict-markers"]
+addopts = ["--cov=./", "--cov-report=term-missing", "--dist=loadscope", "-n=auto", "--strict-markers"]
 testpaths = ["tests"]
 python_files = "test_*.py"
 
