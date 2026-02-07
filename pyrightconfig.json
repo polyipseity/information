@@ -1,0 +1,15 @@
+{
+  "exclude": ["**/node_modules", "**/__pycache__", "**/.*"],
+  "executionEnvironments": [
+    {
+      "extraPaths": ["."],
+      "reportPrivateUsage": "none",
+      "root": "tests"
+    },
+    {
+      "root": "."
+    }
+  ],
+  "pythonVersion": "3.12",
+  "typeCheckingMode": "strict"
+}

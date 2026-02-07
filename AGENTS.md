@@ -58,12 +58,19 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
 
 ## Setup
 
-Install Node.js dependencies and activate Git hooks:
+Install Node.js dependencies, register Git hooks, and install Python dev extras:
 
 ```bash
-pnpm install
-pnpm run prepare  # Activates husky hooks
+pnpm install            # installs node deps; runs `postinstall` hook which installs Python dev extras
+pnpm run prepare        # Activates Husky hooks (registers Git hooks)
 ```
+
+Notes:
+
+- The repository uses `pyproject.toml` as the canonical Python dependency metadata. Development extras (dev dependency group) are installed by the `postinstall` script which runs: `python -m pip install -e . --group dev`. Ensure `pyproject.toml` lists dev dependencies under `[dependency-groups].dev`.
+- Remove `requirements.txt` — dependency management is consolidated in `pyproject.toml`. See the `core-workflows` instructions for migration steps.
+- Husky hooks and lint-staged enforce pre-commit checks (markdownlint, prettier, ruff/isort/black for Python). A pre-push hook runs `pnpm run test` to prevent pushing failing tests.
+- Prefer using `pnpm run <script>` wrappers to ensure consistent, reproducible tool versions and to trigger package lifecycle hooks.
 
 **Tooling & scripts:** Prefer using `pnpm` script wrappers when available. Run `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used.
 

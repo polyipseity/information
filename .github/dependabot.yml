@@ -31,9 +31,23 @@ updates:
         patterns:
           - "*"
 
+  # Python (pyproject.toml - dependency-groups / project.optional-dependencies)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "build"
+      prefix-development: "chore"
+      include: "scope"
+    groups:
+      pip:
+        patterns:
+          - "*"
+
   # Disable updates for a specific directory
-  - package-ecosystem: npm
-    directory: /special/academia/HKUST/COMP 3633/presentation 10/examples
+  - package-ecosystem: "npm"
+    directory: "/special/academia/HKUST/COMP 3633/presentation 10/examples"
     schedule:
       interval: "daily"
     ignore:
