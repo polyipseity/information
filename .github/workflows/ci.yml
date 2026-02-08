@@ -28,7 +28,8 @@ permissions:
   contents: read
 
 jobs:
-  check:
+  build:
+    name: "Build & Test"
     runs-on: ubuntu-slim # using `ubuntu-slim` to minimize image size and attack surface; see header for rationale
     steps:
       - name: Checkout repository
