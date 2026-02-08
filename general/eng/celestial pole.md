@@ -23,7 +23,7 @@ To {@{find [Polaris](Polaris.md)}@}, from {@{a point in the [Northern Hemisphere
 
 ### method one: the Southern Cross
 
-The [south](south.md) celestial pole can be located from {@{the [Southern Cross](Crux.md) (Crux)}@}. Draw {@{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}@}—and {@{follow this line through the sky. Go four-and-a-half times the distance of the long axis in the direction the narrow end of the cross points (the foot of the crucifix)}@}. This point is {@{5 or 6 degrees}@} from the south celestial pole.
+{@{The [south](south.md) celestial pole}@} can be located from {@{the [Southern Cross](Crux.md) (Crux)}@}. Draw {@{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}@}—and {@{follow this line through the sky}@}. Go {@{four-and-a-half times the distance of the long axis}@} in {@{the direction the narrow end of the cross points (the foot of the crucifix)}@}. This point is {@{5 or 6 degrees from the south celestial pole}@}.
 
 ## references
 
