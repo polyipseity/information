@@ -1,9 +1,5 @@
 {
   "chat.tools.terminal.autoApprove": {
-    "/^python -m pytest/": {
-      "approve": true,
-      "matchCommandLine": true
-    },
     "pyright": true,
     "pytest": true
   },
