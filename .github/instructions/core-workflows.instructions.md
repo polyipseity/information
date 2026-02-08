@@ -8,7 +8,7 @@ applyTo: "**"
 
 **Tooling & pnpm wrappers:** Prefer `pnpm` script wrappers when available. Check `package.json` for repository scripts and prefer `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no pnpm wrapper exists for an operation, run the underlying command shown below (for example, `python -m init generate`). Always run `pnpm install` before using `pnpm run`.
 
-Important: `pnpm install` runs the `postinstall` lifecycle hook which executes `python -m pip install -e . --group dev` to install Python development extras declared in `pyproject.toml`'s `[dependency-groups].dev`. `pyproject.toml` is the canonical source for Python dependency metadata in this repository; keep it up-to-date and add dev-only tools there rather than in a `requirements.txt` file.
+Important: `pnpm install` triggers the `prepare` script which runs `uv sync` to install Python development extras declared in `pyproject.toml`'s `[dependency-groups].dev` using the project's `uv.lock`. `pyproject.toml` is the canonical source for Python dependency metadata in this repository; keep it up-to-date and add dev-only tools there rather than in a `requirements.txt` file.
 
 ## Regenerate generated regions
 

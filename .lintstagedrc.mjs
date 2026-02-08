@@ -18,6 +18,9 @@ const MD_GLOB_KEY = `**/*.{${MD_FILE_GLOBS.map((g) => g.replace("**/*.", "")).jo
  * operate on the staged file list because `pnpm run` may not reliably forward
  * arbitrary file arguments.
  *
+ * Prefer invoking `uv run --locked` for reproducible, locked Python CLI runs when
+ * those tools are installed via `uv sync`.
+ *
  * @type {import('lint-staged').Configuration}
  */
 export default {
@@ -28,7 +31,7 @@ export default {
     // Run pyright and each Python formatter as its own command so lint-staged appends
     // the staged file list to each invocation (pyright, ruff).
     "pyright",
-    "python -m ruff check --fix",
-    "python -m ruff format",
+    "uv run --locked ruff check --fix",
+    "uv run --locked ruff format",
   ],
 };
