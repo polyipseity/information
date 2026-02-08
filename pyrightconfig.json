@@ -11,5 +11,7 @@
     }
   ],
   "pythonVersion": "3.12",
-  "typeCheckingMode": "strict"
+  "typeCheckingMode": "strict",
+  "venv": ".venv",
+  "venvPath": "."
 }
