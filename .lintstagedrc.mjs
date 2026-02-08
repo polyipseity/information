@@ -24,10 +24,9 @@ export default {
     ["prettier --write"],
   "**/*.{py,pyi,pyw,pyx}": [
     // Run pyright and each Python formatter as its own command so lint-staged appends
-    // the staged file list to each invocation (pyright, ruff, isort, black).
+    // the staged file list to each invocation (pyright, ruff).
     "pyright",
     "python -m ruff check --fix",
-    "python -m isort",
-    "python -m black",
+    "python -m ruff format",
   ],
 };

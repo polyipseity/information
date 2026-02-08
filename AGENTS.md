@@ -62,7 +62,7 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
 
 - Use `pyproject.toml` as the authoritative dependency source for Python. Do **not** reintroduce a long-lived `requirements.txt`; it is only a transient compatibility helper at best and the canonical metadata is maintained in `pyproject.toml`'s `[project]` and `[dependency-groups]` sections.
 - `pnpm install` runs the `postinstall` hook which executes `python -m pip install -e . --group dev` to install development extras declared under `[dependency-groups].dev`. Run `pnpm install` and then `pnpm run prepare` to install deps and register Husky hooks locally.
-- Formatting & linters: Use `prettier`, `markdownlint-cli2`, `pyright`, `ruff`, `isort`, and `black`. `lint-staged` is configured to run relevant formatters/linters on staged files and Husky hooks enforce pre-commit and pre-push checks.
+- Formatting & linters: Use `prettier`, `markdownlint-cli2`, `pyright`, and `ruff`. Ruff replaces Black and isort for code formatting and import sorting. `lint-staged` is configured to run relevant formatters/linters on staged files and Husky hooks enforce pre-commit and pre-push checks.
 - Testing conventions:
   - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`).
   - Use `pytest` (config in `pyproject.toml`) and name tests `test_*.py`. Use `pytest.mark.asyncio` for async tests and prefer deterministic fixtures (use `monkeypatch`, `tmp_path`, and the `conftest.py` fixtures provided).
@@ -87,7 +87,7 @@ Notes:
 
 - The repository uses `pyproject.toml` as the canonical Python dependency metadata. Development extras (dev dependency group) are installed by the `postinstall` script which runs: `python -m pip install -e . --group dev`. Ensure `pyproject.toml` lists dev dependencies under `[dependency-groups].dev`.
 - Remove `requirements.txt` — dependency management is consolidated in `pyproject.toml`. See the `core-workflows` instructions for migration steps.
-- Husky hooks and lint-staged enforce pre-commit checks (markdownlint, prettier, ruff/isort/black for Python). A pre-push hook runs `pnpm run test` to prevent pushing failing tests.
+- Husky hooks and lint-staged enforce pre-commit checks (markdownlint, prettier, ruff for Python). A pre-push hook runs `pnpm run test` to prevent pushing failing tests.
 - Prefer using `pnpm run <script>` wrappers to ensure consistent, reproducible tool versions and to trigger package lifecycle hooks.
 
 **Tooling & scripts:** Prefer using `pnpm` script wrappers when available. Run `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used.
