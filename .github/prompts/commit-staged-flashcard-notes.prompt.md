@@ -21,17 +21,35 @@ agent: agent
    - Present the exact command to be run. If not executed, produce a best-effort commit message from available context and stop.
 
 2. **Gather flashcard data**
-   - Prefer computing counts exactly using read-only shell/git commands when a shell is available. Run the following (or equivalent) read-only checks and use their numeric results when they succeed:
+   - The user MUST provide at least **two** of the following inputs: `${input:Flashcards-prev}`,
+     `${input:Flashcards-now}`, `${input:Flashcards-delta}`. Use the user-provided values as the
+     primary source of truth.
+   - If exactly two values are provided, compute the missing value using shell arithmetic in the
+     detected shell (PowerShell on Windows, POSIX shells otherwise) and include all three trailers
+     in the commit message. Example commands (replace placeholders with the provided integers):
      - POSIX (bash/zsh):
-       - `Flashcards-prev` (at HEAD):
-         `git grep -I -h -o -E '\{\@\{[^}]+\}\@' HEAD -- general special self | wc -l`
-       - `Flashcards-now` (staged/index):
-         `git grep -I -h -o -E '\{\@\{[^}]+\}\@' --cached -- general special self | wc -l`
+       - Provided `Flashcards-prev` and `Flashcards-now`:
+         `Flashcards-delta=$((Flashcards_now - Flashcards_prev)); echo "Flashcards-delta:$Flashcards-delta"`
+       - Provided `Flashcards-prev` and `Flashcards-delta`:
+         `Flashcards-now=$((Flashcards_prev + Flashcards_delta)); echo "Flashcards-now:$Flashcards-now"`
+       - Provided `Flashcards-now` and `Flashcards-delta`:
+         `Flashcards-prev=$((Flashcards_now - Flashcards_delta)); echo "Flashcards-prev:$Flashcards-prev"`
      - PowerShell (Windows):
-       - `$prev = (git grep -I -h -o -E '\{\@\{[^}]+\}\@' HEAD -- general special self 2>$null) -split "`n" | Where-Object{$_ -ne ''} | Measure-Object -Line | Select-Object -ExpandProperty Lines`
-       - `$now  = (git grep -I -h -o -E '\{\@\{[^}]+\}\@' --cached -- general special self 2>$null) -split "`n" | Where-Object{$_ -ne ''} | Measure-Object -Line | Select-Object -ExpandProperty Lines`
-   - If these commands succeed, compute `Flashcards-delta = Flashcards-now - Flashcards-prev` from their numeric outputs and include all three trailers in the commit message.
-   - If terminal commands are unavailable or they fail, fall back to `${input:Flashcards-prev}` and `${input:Flashcards-now}` provided to the prompt, or use best-effort defaults and note the fallback in the commit body.
+       - Provided `Flashcards-prev` and `Flashcards-now`:
+         `$delta = [int]$Env:Flashcards_now - [int]$Env:Flashcards_prev; Write-Host "Flashcards-delta:$delta"`
+       - Provided `Flashcards-prev` and `Flashcards-delta`:
+         `$now = [int]$Env:Flashcards_prev + [int]$Env:Flashcards_delta; Write-Host "Flashcards-now:$now"`
+       - Provided `Flashcards-now` and `Flashcards-delta`:
+         `$prev = [int]$Env:Flashcards_now - [int]$Env:Flashcards_delta; Write-Host "Flashcards-prev:$prev"`
+   - If fewer than two values are provided, prompt the user to supply the missing inputs and
+     abort the automated commit operation until the missing values are provided. Do not attempt
+     to compute missing values via repository scans or other fallbacks.
+   - If the user does not provide the missing values when requested, omit the flashcard trailers
+     from the commit message and include a short note in the commit body stating that user-
+     provided flashcard counts were unavailable.
+   - If computed or provided counts are inconsistent (for example, negative values), request
+     clarification from the user and do not include flashcard trailers until the user provides
+     consistent values.
    - If no flashcard-related counts apply, omit these trailers.
 
 3. **Compose commit message**
@@ -87,8 +105,12 @@ agent: agent
 
 ## Inputs
 
-- `${input:Flashcards-prev}` — previous flashcard count (integer)
-- `${input:Flashcards-now}` — new flashcard count (integer)
+- `${input:Flashcards-prev}` — previous flashcard count (integer). Optional; **at least two** of the three
+  flashcard inputs must be supplied.
+- `${input:Flashcards-now}` — new flashcard count (integer). Optional; **at least two** of the three
+  flashcard inputs must be supplied.
+- `${input:Flashcards-delta}` — change in flashcard count (integer). Optional; **at least two** of the
+  three flashcard inputs must be supplied.
 - `${input:commitNow}` — `no` to skip committing; default is to commit
 - `${input:extra}` — optional extra text for footer
 
