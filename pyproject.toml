@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools>=81.0.0", "wheel>=0.46.0"]
-build-backend = "setuptools.build_meta"
+requires = ["uv_build"]
+build-backend = "uv_build"
 
 [project]
 name = "information-beb48618-576e-45ea-bd50-9e47279f88dc"
@@ -62,5 +62,8 @@ line-length = 88
 # (import-outside-top-level / PLC0415). Ruff 0.12.0+ provides this rule.
 extend-select = ["I", "PLC0415"]
 
-[tool.setuptools]
-packages = []
+[tool.uv]
+required-version = ">=0.10.0,<0.11.0"
+
+[tool.uv.build-backend]
+module-name = []
