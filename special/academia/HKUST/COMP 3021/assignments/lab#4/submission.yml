@@ -6,7 +6,8 @@ assignment:
       content: https://github.com/polyipseity/hkust-comp-3021/tree/lab/4 (https://github.com/polyipseity/hkust-comp-3021/commit/99a90c5f208bba759fc17c369c468619eab28452)
       datetime: 2024-10-14 10:15:00+08:00
       id: 3236665
-  content: 'Provide the link to your GitHub repositories and a screenshot of the execution
+  content:
+    'Provide the link to your GitHub repositories and a screenshot of the execution
     results.
 
     TestLab4.java
@@ -53,15 +54,15 @@ assignment:
       start: 2024-10-06 00:00:00+08:00
     due: 2024-10-15 23:59:00+08:00
     file types:
-    - png
-    - jpeg
-    - jpg
+      - png
+      - jpeg
+      - jpg
     points: 1
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2024-10-14 10:15:00+08:00
-    id: -1
+    - datetime: 2024-10-14 10:15:00+08:00
+      id: -1
   title: Lab#4
 course:
   id: 58181

@@ -1,12 +1,13 @@
 assignment:
   comments: {}
-  content: 'Submit the source file “main.java” that you have fixed through Canvas
+  content:
+    "Submit the source file “main.java” that you have fixed through Canvas
     (file upload), with a comment block describing WHERE the bug is, WHY it generates
     error, and HOW it has been fixed.
 
     Be reminded that the modified code also needs to be provided.
 
-    The file you submitted should be a .java File.'
+    The file you submitted should be a .java File."
   grade:
     entered: 2
     graded anonymously: false
@@ -18,13 +19,13 @@ assignment:
       start: 2025-10-16 00:00:00+08:00
     due: 2025-10-24 23:59:00+08:00
     file types:
-    - java
+      - java
     points: 2
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-10-24 22:40:00+08:00
-    id: -1
+    - datetime: 2025-10-24 22:40:00+08:00
+      id: -1
   title: Lab 6 Submission
 course:
   id: 64514

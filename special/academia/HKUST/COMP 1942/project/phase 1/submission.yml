@@ -1,6 +1,6 @@
 assignment:
   comments: {}
-  content: ''
+  content: ""
   grade:
     entered: 100
     graded anonymously: null
@@ -8,8 +8,8 @@ assignment:
   id: 310339
   properties: {}
   submissions:
-  - datetime: 2024-02-20 23:41:00+08:00
-    id: -1
+    - datetime: 2024-02-20 23:41:00+08:00
+      id: -1
   title: Project Phase 1
 course:
   id: 54709

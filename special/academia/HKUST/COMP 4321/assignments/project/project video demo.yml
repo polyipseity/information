@@ -1,12 +1,13 @@
 assignment:
   comments: {}
-  content: Please prepare a <3mins video to demo your project implementation. Please
+  content:
+    Please prepare a <3mins video to demo your project implementation. Please
     upload the video to Youtube, make it unlisted (not public, only people with the
     link can see the video), and submit your video link under this assignment.
   grade:
-    entered: ''
+    entered: ""
     graded anonymously: null
-    possible: ''
+    possible: ""
   id: 323965
   properties:
     available:
@@ -15,10 +16,10 @@ assignment:
     due: 2024-05-10 23:59:00+08:00
     points: 30
     submitting:
-    - a website url
+      - a website url
   submissions:
-  - datetime: 2024-05-10 23:55:00+08:00
-    id: -1
+    - datetime: 2024-05-10 23:55:00+08:00
+      id: -1
   title: Final Project Video Demo (<3mins long)
 course:
   id: 56316

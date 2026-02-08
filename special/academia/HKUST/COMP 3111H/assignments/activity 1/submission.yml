@@ -2,15 +2,17 @@ assignment:
   comments:
     3600350:
       attachments: []
-      author: '[redacted]'
-      content: 'Invited TA on Github and details in Readme (Max: 3) = 3 ; Group details
+      author: "[redacted]"
+      content:
+        "Invited TA on Github and details in Readme (Max: 3) = 3 ; Group details
         provided in pdf (Max: 2) = 2 ; Use case Diagram (Max: 5) = 5 ; Class Diagram
         (Max:10) = 10 ; Use case specifications (Max: 10) = 10 ; Total (Max: 30) =
         30 ; Comments (if any) = ; Grader Name (TA) = [redacted] ([redacted])
-        ;'
+        ;"
       datetime: 2025-12-02 00:55:00+08:00
       id: 3600350
-  content: 'Based on the project problem statement, work together with your teammates
+  content:
+    "Based on the project problem statement, work together with your teammates
     to prepare the following information and have it integrated into a single document
     in PDF format:
 
@@ -43,7 +45,7 @@ assignment:
     Names, Student ID, GitHub ID), and individual task assignment. Ensure your GitHub
     repository is private.
 
-    Here is the list of TAs'' GitHub accounts for you to invite them as collaborators:
+    Here is the list of TAs' GitHub accounts for you to invite them as collaborators:
 
 
 
@@ -72,7 +74,7 @@ assignment:
 
 
 
-    [redacted]'
+    [redacted]"
   grade:
     entered: 30
     graded anonymously: false
@@ -84,13 +86,13 @@ assignment:
       start: null
     due: 2025-10-24 23:59:00+08:00
     file types:
-    - pdf
+      - pdf
     points: 30
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-10-24 23:25:00+08:00
-    id: -1
+    - datetime: 2025-10-24 23:25:00+08:00
+      id: -1
   title: Activity 1
 course:
   id: 64514

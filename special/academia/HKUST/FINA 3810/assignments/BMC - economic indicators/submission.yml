@@ -1,11 +1,11 @@
 assignment:
   comments: {}
-  content: 'Please upload your screencap with Economic Indicators module score.
+  content: "Please upload your screencap with Economic Indicators module score.
 
     The maximum point is 10. For example, if you get 80 in Bloomberg Economic Indicator
     module, then your score for this part is 10 * 80/100 =8 as mentioned in class.
 
-    You should input the BMC class Code ([redacted]), or you will get 0 mark.'
+    You should input the BMC class Code ([redacted]), or you will get 0 mark."
   grade:
     entered: 9.44
     graded anonymously: false
@@ -14,13 +14,13 @@ assignment:
   properties:
     due: 2025-09-30 23:59:00+08:00
     file types:
-    - pdf
+      - pdf
     points: 10
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-09-28 17:23:00+08:00
-    id: -1
+    - datetime: 2025-09-28 17:23:00+08:00
+      id: -1
   title: BMC- Economic Indicators module
 course:
   id: 65357

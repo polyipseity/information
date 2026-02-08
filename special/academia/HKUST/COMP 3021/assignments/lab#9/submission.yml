@@ -6,7 +6,7 @@ assignment:
       content: https://github.com/polyipseity/hkust-comp-3021/tree/lab/9
       datetime: 2024-11-12 09:49:00+08:00
       id: 3276697
-  content: 'Account.java
+  content: "Account.java
 
 
 
@@ -23,7 +23,7 @@ assignment:
     Download Lab9Test.java
 
     Provide the link to your GitHub repositories and a screenshot of the execution
-    results.'
+    results."
   grade:
     entered: 1
     graded anonymously: false
@@ -35,15 +35,15 @@ assignment:
       start: 2024-11-03 00:00:00+08:00
     due: 2024-11-12 23:59:00+08:00
     file types:
-    - png
-    - jpeg
-    - jpg
+      - png
+      - jpeg
+      - jpg
     points: 1
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2024-11-12 09:49:00+08:00
-    id: -1
+    - datetime: 2024-11-12 09:49:00+08:00
+      id: -1
   title: Lab#9
 course:
   id: 58181

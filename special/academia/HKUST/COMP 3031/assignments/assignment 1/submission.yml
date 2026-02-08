@@ -2,11 +2,12 @@ assignment:
   comments:
     3514120:
       attachments: []
-      author: '[redacted]'
+      author: "[redacted]"
       content: Well done!
       datetime: 2025-10-11 10:53:00+08:00
       id: 3514120
-  content: "The goal of this assignment is to implement a minimal data structure for\
+  content:
+    "The goal of this assignment is to implement a minimal data structure for\
     \ trees. The motivating example for such trees is a file system, which is represented\
     \ as a tree of directories and files. Although we would be implementing a generic\
     \ tree, it would still be instructive to think of the file system example.\nDownload\
@@ -115,14 +116,14 @@ assignment:
   properties:
     due: 2025-10-02 23:59:00+08:00
     file types:
-    - scala
+      - scala
     points: 10
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-10-02 22:35:00+08:00
-    id: -1
-  title: 'Assignment 1: Trees'
+    - datetime: 2025-10-02 22:35:00+08:00
+      id: -1
+  title: "Assignment 1: Trees"
 course:
   id: 64509
   name: COMP3031 (L1)

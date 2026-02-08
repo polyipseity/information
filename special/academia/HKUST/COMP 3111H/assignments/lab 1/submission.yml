@@ -40,10 +40,10 @@ assignment:
     due: 2025-09-19 23:59:00+08:00
     points: 2
     submitting:
-    - a website url
+      - a website url
   submissions:
-  - datetime: 2025-09-11 19:10:00+08:00
-    id: -1
+    - datetime: 2025-09-11 19:10:00+08:00
+      id: -1
   title: Lab 1 Submission
 course:
   id: 64514

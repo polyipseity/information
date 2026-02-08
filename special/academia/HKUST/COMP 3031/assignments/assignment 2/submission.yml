@@ -1,6 +1,6 @@
 assignment:
   comments: {}
-  content: 'Overview
+  content: "Overview
 
 
 
@@ -121,7 +121,7 @@ assignment:
 
 
 
-    Board''s toString method is implemented for you. You can use it to visualize the
+    Board's toString method is implemented for you. You can use it to visualize the
     game board.
 
 
@@ -225,7 +225,7 @@ assignment:
 
 
 
-    If you haven''t heard of this algorithm, don''t be afraid, it''s simple. Basically,
+    If you haven't heard of this algorithm, don't be afraid, it's simple. Basically,
     it traverses the tree and calculates the maximum/minimum value in different plies.
     Read the Wikipedia page (especially the Pseudocode section
 
@@ -294,7 +294,7 @@ assignment:
 
 
 
-    Read the Wikipedia or other tutorials to understand the algorithm. It''s not difficult
+    Read the Wikipedia or other tutorials to understand the algorithm. It's not difficult
     once you have learned how to implement the minimax algorithm.
 
 
@@ -350,7 +350,7 @@ assignment:
 
 
     Submit a zip archive containing your implementation of Board.scala, TicTacToe.scala, Minimax.scala,
-    and AlphaBeta.scala files. The zip archive should only have these files.'
+    and AlphaBeta.scala files. The zip archive should only have these files."
   grade:
     entered: 10
     graded anonymously: false
@@ -359,14 +359,14 @@ assignment:
   properties:
     due: 2025-11-06 23:59:00+08:00
     file types:
-    - zip
+      - zip
     points: 10
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-11-06 18:36:00+08:00
-    id: -1
-  title: 'Assignment 2: Tic-Tac-Toe'
+    - datetime: 2025-11-06 18:36:00+08:00
+      id: -1
+  title: "Assignment 2: Tic-Tac-Toe"
 course:
   id: 64509
   name: COMP3031 (L1)

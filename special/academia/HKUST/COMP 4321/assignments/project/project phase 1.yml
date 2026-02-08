@@ -12,7 +12,8 @@ assignment:
       content: Remove ALL __pycache__
       datetime: 2024-03-31 23:55:00+08:00
       id: 3121943
-  content: "Please follow the submission guidelines provided in Project Description.pdf\n\
+  content:
+    "Please follow the submission guidelines provided in Project Description.pdf\n\
     \n\nActions\n\n\n\n\n\n\n\n , and submit your project work in a .zip file. You\
     \ may want to check the popular Q&As (TBA) as well."
   grade:
@@ -26,13 +27,13 @@ assignment:
       start: 2024-03-24 00:00:00+08:00
     due: 2024-03-31 23:59:00+08:00
     file types:
-    - zip
+      - zip
     points: 10
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2024-03-31 23:55:00+08:00
-    id: -1
+    - datetime: 2024-03-31 23:55:00+08:00
+      id: -1
   title: Project Phase 1
 course:
   id: 56316

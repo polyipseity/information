@@ -10,10 +10,10 @@ assignment:
     due: 2025-12-14 23:59:00+08:00
     points: 100
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-12-14 09:37:00+08:00
-    id: -1
+    - datetime: 2025-12-14 09:37:00+08:00
+      id: -1
   title: Project
 course:
   id: 65203

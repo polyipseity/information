@@ -1,6 +1,7 @@
 assignment:
   comments: {}
-  content: 'Make an individual submission of a PDF file through Canvas with the following
+  content:
+    "Make an individual submission of a PDF file through Canvas with the following
     information included:
 
 
@@ -12,7 +13,7 @@ assignment:
 
 
 
-    Coverage report showing the coverage (10% or higher)'
+    Coverage report showing the coverage (10% or higher)"
   grade:
     entered: 2
     graded anonymously: false
@@ -24,13 +25,13 @@ assignment:
       start: null
     due: 2025-11-14 23:59:00+08:00
     file types:
-    - pdf
+      - pdf
     points: 2
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-11-14 22:55:00+08:00
-    id: -1
+    - datetime: 2025-11-14 22:55:00+08:00
+      id: -1
   title: Lab 7 Submission
 course:
   id: 64514

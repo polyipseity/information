@@ -1,6 +1,6 @@
 assignment:
   comments: {}
-  content: 'Submit the URL of your team repo for assessment
+  content: "Submit the URL of your team repo for assessment
 
 
 
@@ -48,7 +48,7 @@ assignment:
     Please Invite following TA as a collaborator to your GitHub Repositorey
 
 
-    [redacted]'
+    [redacted]"
   grade:
     entered: 2
     graded anonymously: false
@@ -63,10 +63,10 @@ assignment:
     due: 2025-10-17 23:59:00+08:00
     points: 2
     submitting:
-    - a text entry box or a website url
+      - a text entry box or a website url
   submissions:
-  - datetime: 2025-10-17 13:23:00+08:00
-    id: -1
+    - datetime: 2025-10-17 13:23:00+08:00
+      id: -1
   title: Lab 5 Submission
 course:
   id: 64514

@@ -1,4 +1,4 @@
-import config from './.markdownlint.json' with { type: 'json' };
+import config from "./.markdownlint.json" with { type: "json" };
 
 // Shared markdown file globs. Exported so other configs (for example,
 // lint-staged) can reuse the same list and avoid duplication.

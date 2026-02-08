@@ -1,6 +1,7 @@
 assignment:
   comments: {}
-  content: '<p>Please submit your homework, Task 3, here. Please rename your file
+  content:
+    "<p>Please submit your homework, Task 3, here. Please rename your file
     into main.c and directly zip it into a zip file. DO NOT ZIP A DIRECTORY CONTAINING
     main.c</p>
 
@@ -12,24 +13,24 @@ assignment:
     Submission Deadline has passed
 
 
-    No new submission is allowed after the submission deadline is due'
+    No new submission is allowed after the submission deadline is due"
   grade:
     breakdown:
-      'Test #1': 1
-      'Test #10': 1
-      'Test #11': 1
-      'Test #12': 1
-      'Test #13': 1
-      'Test #14': 1
-      'Test #15': 1
-      'Test #2': 1
-      'Test #3': 1
-      'Test #4': 1
-      'Test #5': 1
-      'Test #6': 1
-      'Test #7': 1
-      'Test #8': 1
-      'Test #9': 1
+      "Test #1": 1
+      "Test #10": 1
+      "Test #11": 1
+      "Test #12": 1
+      "Test #13": 1
+      "Test #14": 1
+      "Test #15": 1
+      "Test #2": 1
+      "Test #3": 1
+      "Test #4": 1
+      "Test #5": 1
+      "Test #6": 1
+      "Test #7": 1
+      "Test #8": 1
+      "Test #9": 1
     entered: 100
     graded anonymously: null
     possible: 100
@@ -41,9 +42,9 @@ assignment:
     retry limit: -1
     type: PA
   submissions:
-  - datetime: 2023-10-13 21:04:48+08:00
-    id: 299951
-  title: 'Task 3: Number System Conversion'
+    - datetime: 2023-10-13 21:04:48+08:00
+      id: 299951
+  title: "Task 3: Number System Conversion"
 course:
   id: -1
   name: RTSW1001

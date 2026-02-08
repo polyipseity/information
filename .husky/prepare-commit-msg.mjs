@@ -23,14 +23,15 @@
  * - Keeps synchronous operations for Husky hook predictability.
  */
 
-import { readFileSync, writeFileSync } from 'fs';
-import { execSync } from 'child_process';
-import path from 'path';
+import { readFileSync, writeFileSync } from "fs";
+import { execSync } from "child_process";
+import path from "path";
 
 const [, , commitMsgFile, commitSource] = process.argv;
 
 function debug(msg) {
-  if (process.env.HUSKY_DEBUG === '1') console.error(`[prepare-commit-msg] ${msg}`);
+  if (process.env.HUSKY_DEBUG === "1")
+    console.error(`[prepare-commit-msg] ${msg}`);
 }
 
 /**
@@ -40,10 +41,17 @@ function debug(msg) {
  */
 function git(cmd) {
   try {
-    return execSync(`git ${cmd}`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).toString().trim();
+    return execSync(`git ${cmd}`, {
+      encoding: "utf8",
+      stdio: ["pipe", "pipe", "ignore"],
+    })
+      .toString()
+      .trim();
   } catch (e) {
-    debug(`git command failed: git ${cmd} -> ${e && e.message ? e.message : String(e)}`);
-    return '';
+    debug(
+      `git command failed: git ${cmd} -> ${e && e.message ? e.message : String(e)}`,
+    );
+    return "";
   }
 }
 
@@ -54,13 +62,17 @@ function git(cmd) {
  */
 function readMergeHeadSha(gitDir) {
   try {
-    const mergeHeadPath = path.join(gitDir, 'MERGE_HEAD');
-    const mergeSha = readFileSync(mergeHeadPath, 'utf8').split(/\r?\n/)[0].trim();
-    debug(`read MERGE_HEAD: ${mergeSha || '<empty>'}`);
-    return mergeSha || '';
+    const mergeHeadPath = path.join(gitDir, "MERGE_HEAD");
+    const mergeSha = readFileSync(mergeHeadPath, "utf8")
+      .split(/\r?\n/)[0]
+      .trim();
+    debug(`read MERGE_HEAD: ${mergeSha || "<empty>"}`);
+    return mergeSha || "";
   } catch (err) {
-    debug(`error reading MERGE_HEAD: ${err && err.message ? err.message : String(err)}`);
-    return '';
+    debug(
+      `error reading MERGE_HEAD: ${err && err.message ? err.message : String(err)}`,
+    );
+    return "";
   }
 }
 
@@ -71,12 +83,14 @@ function readMergeHeadSha(gitDir) {
  * @returns {string}
  */
 function detectSourceRef(sha) {
-  if (!sha) return '';
-  const refList = git(`for-each-ref --format='%(refname:short)' --contains ${sha} refs/remotes refs/heads`);
-  if (!refList) return '';
+  if (!sha) return "";
+  const refList = git(
+    `for-each-ref --format='%(refname:short)' --contains ${sha} refs/remotes refs/heads`,
+  );
+  if (!refList) return "";
   const ref = refList.split(/\r?\n/).find(Boolean);
-  if (!ref) return '';
-  const src = ref.replace(/^remotes\//, '').replace(/^['"]|['"]$/g, '');
+  if (!ref) return "";
+  const src = ref.replace(/^remotes\//, "").replace(/^['"]|['"]$/g, "");
   debug(`detected source ref: ${src}`);
   return src;
 }
@@ -89,17 +103,27 @@ function detectSourceRef(sha) {
  */
 function writeCommitMessage(filePath, src) {
   try {
-    writeFileSync(filePath, `chore(sync): merge from \`${src}\`\n`, 'utf8');
+    writeFileSync(filePath, `chore(sync): merge from \`${src}\`\n`, "utf8");
     debug(`wrote standardized commit message to ${filePath}`);
   } catch (err) {
     // Prominent warning but allow the merge/commit to continue
-    console.error('\n========================================');
-    console.error('WARNING: prepare-commit-msg could not write the standardized commit message.');
-    console.error('You can continue the merge, but the commit message will not be automatically updated.');
-    console.error('Suggested fixes: ensure repository files are writable or run:');
-    console.error("  git commit --amend -m \"chore(sync): merge from `<branch>`\"");
-    console.error('========================================\n');
-    debug(`failed to write commit message: ${err && err.message ? err.message : String(err)}`);
+    console.error("\n========================================");
+    console.error(
+      "WARNING: prepare-commit-msg could not write the standardized commit message.",
+    );
+    console.error(
+      "You can continue the merge, but the commit message will not be automatically updated.",
+    );
+    console.error(
+      "Suggested fixes: ensure repository files are writable or run:",
+    );
+    console.error(
+      '  git commit --amend -m "chore(sync): merge from `<branch>`"',
+    );
+    console.error("========================================\n");
+    debug(
+      `failed to write commit message: ${err && err.message ? err.message : String(err)}`,
+    );
   }
 }
 
@@ -107,20 +131,20 @@ function writeCommitMessage(filePath, src) {
  * Main execution flow.
  */
 function main() {
-  if (commitSource !== 'merge') {
+  if (commitSource !== "merge") {
     debug(`commit source is '${commitSource}', not 'merge' - exiting`);
     process.exit(0);
   }
 
-  const branch = git('rev-parse --abbrev-ref HEAD');
-  debug(`current branch: ${branch || '<unknown>'}`);
-  if (!branch || !branch.startsWith('forks/')) {
-    debug('branch does not match forks/* - exiting');
+  const branch = git("rev-parse --abbrev-ref HEAD");
+  debug(`current branch: ${branch || "<unknown>"}`);
+  if (!branch || !branch.startsWith("forks/")) {
+    debug("branch does not match forks/* - exiting");
     process.exit(0);
   }
 
-  let src = 'main';
-  const gitdir = git('rev-parse --git-dir');
+  let src = "main";
+  const gitdir = git("rev-parse --git-dir");
   if (gitdir) {
     const mergeSha = readMergeHeadSha(gitdir);
     if (mergeSha) {
@@ -134,7 +158,10 @@ function main() {
 }
 
 // When executed directly we run main(). Export helpers to make the module testable.
-if (import.meta.url === `file://${process.argv[1]}` || (process.argv[1] && process.argv[1].endsWith('.mjs'))) {
+if (
+  import.meta.url === `file://${process.argv[1]}` ||
+  (process.argv[1] && process.argv[1].endsWith(".mjs"))
+) {
   main();
 }
 
