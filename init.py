@@ -32,13 +32,6 @@ from typing import (
     Sequence as _Seq,
     final as _fin,
 )
-
-try:
-    import tools.pytextgen as _mod
-
-    _mods[_mod.__name__.removeprefix("tools.")] = _mod
-except ImportError:
-    pass
 from pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS  # type: ignore
 from pytextgen.main import parser as _pytextgen_parser  # type: ignore
 
