@@ -1,7 +1,8 @@
 import { FILE_GLOBS as MD_FILE_GLOBS } from "./.markdownlint-cli2.mjs";
 
 /**
- * Convert `FILE_GLOBS` into a brace-style combined pattern.
+
+* Convert `FILE_GLOBS` into a brace-style combined pattern.
  */
 const MD_GLOB_KEY = `**/*.{${MD_FILE_GLOBS.map((g) => g.replace("**/*.", "")).join(",")}}`;
 
@@ -12,14 +13,15 @@ const MD_GLOB_KEY = `**/*.{${MD_FILE_GLOBS.map((g) => g.replace("**/*.", "")).jo
  * For commands that must receive that file list (formatters or linters that
  * operate on provided files), prefer invoking the underlying CLI directly so
  * lint-staged's file arguments are forwarded. Examples: `prettier --write`,
- * `markdownlint-cli2 --fix`, `python -m scripts.format`, `python -m ruff check --fix`.
- * Avoid `pnpm run <script>` for commands that must operate on the staged file
- * list because `pnpm run` may not reliably forward arbitrary file arguments.
+ * `markdownlint-cli2 --fix --no-globs`, `python -m scripts.format`,
+ * `python -m ruff check --fix`. Avoid `pnpm run <script>` for commands that must
+ * operate on the staged file list because `pnpm run` may not reliably forward
+ * arbitrary file arguments.
  *
  * @type {import('lint-staged').Configuration}
  */
 export default {
-  [MD_GLOB_KEY]: ["markdownlint-cli2 --fix"],
+  [MD_GLOB_KEY]: ["markdownlint-cli2 --fix --no-globs"],
   "**/*.{astro,cjs,css,csv,gql,graphql,hbs,html,js,jsx,json,json5,jsonc,jsonl,less,mjs,pcss,sass,scss,svelte,styl,ts,tsx,vue,xml,yaml,yml}":
     ["prettier --write"],
   "**/*.{py,pyi,pyw,pyx}": [
