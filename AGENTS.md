@@ -61,7 +61,7 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
 ## Developer tooling & testing conventions
 
 - Use `pyproject.toml` as the authoritative dependency source for Python. Do **not** reintroduce a long-lived `requirements.txt`; it is only a transient compatibility helper at best and the canonical metadata is maintained in `pyproject.toml`'s `[project]` and `[dependency-groups]` sections.
-- `pnpm install` runs the `postinstall` hook which executes `python -m pip install -e . --group dev` to install development extras declared under `[dependency-groups].dev`. Run `pnpm install` and then `pnpm run prepare` to install deps and register Husky hooks locally.
+- `pnpm install` runs the `postinstall` hook which executes `uv sync --all-extras --dev` to install development extras declared under `[dependency-groups].dev`. Run `pnpm install` and then `pnpm run prepare` to install deps and register Husky hooks locally.
 - Formatting & linters: Use `prettier`, `markdownlint-cli2`, `pyright`, and `ruff`. Ruff replaces Black and isort for code formatting and import sorting. `lint-staged` is configured to run relevant formatters/linters on staged files and Husky hooks enforce pre-commit and pre-push checks.
 - Testing conventions:
   - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`).
@@ -85,7 +85,7 @@ pnpm run prepare        # Activates Husky hooks (registers Git hooks)
 
 Notes:
 
-- The repository uses `pyproject.toml` as the canonical Python dependency metadata. Development extras (dev dependency group) are installed by the `postinstall` script which runs: `python -m pip install -e . --group dev`. Ensure `pyproject.toml` lists dev dependencies under `[dependency-groups].dev`.
+- The repository uses `pyproject.toml` as the canonical Python dependency metadata. Development extras (dev dependency group) are installed by the `postinstall` script which runs `uv sync --all-extras --dev`. Ensure `pyproject.toml` lists dev dependencies under `[dependency-groups].dev`.
 - Remove `requirements.txt` — dependency management is consolidated in `pyproject.toml`. See the `core-workflows` instructions for migration steps.
 - Husky hooks and lint-staged enforce pre-commit checks (markdownlint, prettier, ruff for Python). A pre-push hook runs `pnpm run test` to prevent pushing failing tests.
 - Prefer using `pnpm run <script>` wrappers to ensure consistent, reproducible tool versions and to trigger package lifecycle hooks.
