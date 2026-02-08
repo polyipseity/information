@@ -27,7 +27,7 @@ tags:
 
 ## other terms
 
-[Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\) <!--SR:!2028-12-31,1116,350!2026-02-08,290,330-->
+[Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\) <!--SR:!2028-12-31,1116,350!2029-09-22,1322,350-->
 
 [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2029-05-15,1221,350!2029-07-01,1251,350-->
 

@@ -237,7 +237,7 @@ water security
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2028-03-31,1121,367-->
 - food security→::@::←mega-cities <!--SR:!2032-05-03,2344,392!2029-06-12,1409,340-->
 - mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2026-06-04,428,354-->
-- water security→::@::←_(end)_ <!--SR:!2029-07-09,1531,370!2026-02-08,496,357-->
+- water security→::@::←_(end)_ <!--SR:!2029-07-09,1531,370!2032-10-12,2438,377-->
 
 <!--/pytextgen-->
 

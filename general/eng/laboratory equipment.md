@@ -262,7 +262,7 @@ return _chain.from_iterable(await _gather(
 - ![pipeclay triangle](../../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg):@:[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2027-01-28,1002,330-->
 - ![reagent bottle](../../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg):@:[reagent bottle](reagent%20bottle.md) <!--SR:!2027-02-13,1100,350-->
 - ![round-bottom(ed) flask](../../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg):@:[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2027-11-13,1313,350-->
-- ![rubber bulb](../../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg):@:[rubber bulb](rubber%20bulb.md) <!--SR:!2026-02-08,797,330-->
+- ![rubber bulb](../../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg):@:[rubber bulb](rubber%20bulb.md) <!--SR:!2036-01-13,3626,350-->
 - ![rubber stopper/rubber bung/rubber cork](../../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg):@:[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2027-02-03,1091,350-->
 - ![safety spectacles/safety glasses/goggles](../../archives/Wikimedia%20Commons/Safety%20Goggles.jpg):@:[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2027-08-11,1241,350-->
 - ![spatula](../../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG):@:[spatula](spatula.md) <!--SR:!2028-08-01,1518,350-->

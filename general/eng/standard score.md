@@ -58,7 +58,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 - Main article: [Z-test](Z-test.md)
 
-{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2029-06-14,1239,350!2029-03-19,1170,350!2026-02-10,290,330!2029-03-03,1154,350!2026-02-08,289,330!2026-02-16,24,381-->
+{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2029-06-14,1239,350!2029-03-19,1170,350!2026-02-10,290,330!2029-03-03,1154,350!2029-09-21,1321,350!2026-02-16,24,381-->
 
 ### prediction intervals
 
@@ -123,7 +123,7 @@ In {@{[mathematical statistics](mathematical%20statistics.md)}@}, {@{a [random v
 
 In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled}@} to have {@{a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-01-31,1138,350!2029-06-23,1248,350!2027-04-30,570,310!2026-03-06,123,389-->
 
-In {@{bone density measurements}@}, the T-score is {@{the standard score of the measurement compared to the population of healthy 30-year-old adults}@}, and has {@{the usual mean of 0 and standard deviation of 1}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2029-08-06,1284,350!2026-02-07,288,330!2029-07-23,1270,350-->
+In {@{bone density measurements}@}, the T-score is {@{the standard score of the measurement compared to the population of healthy 30-year-old adults}@}, and has {@{the usual mean of 0 and standard deviation of 1}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2029-08-06,1284,350!2029-09-13,1314,350!2029-07-23,1270,350-->
 
 ## see also
 

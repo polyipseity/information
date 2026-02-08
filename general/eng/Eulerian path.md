@@ -45,7 +45,7 @@ For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two v
 
 For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced with _[directed path](path%20(graph%20theory).md)_ and "cycle" with _[directed cycle](cycle%20(graph%20theory).md)_}@}. <!--SR:!2026-03-15,377,362!2026-04-08,398,362-->
 
-{@{The definition and properties of Eulerian trails, cycles and graphs}@} are {@{valid for [multigraphs](multigraph.md)}@} as well. <!--SR:!2026-02-07,346,350!2029-10-03,1388,356-->
+{@{The definition and properties of Eulerian trails, cycles and graphs}@} are {@{valid for [multigraphs](multigraph.md)}@} as well. <!--SR:!2030-08-31,1666,370!2029-10-03,1388,356-->
 
 {@{An __Eulerian orientation__}@} of {@{an undirected graph _G_ is an assignment of a direction to each edge of _G_}@} such that, {@{at each vertex _v_, the [indegree](directed%20graph.md#indegree%20and%20outdegree) of _v_ equals the [outdegree](directed%20graph.md#indegree%20and%20outdegree) of _v_}@}. {@{Such an orientation exists}@} for {@{any undirected graph in which every vertex has even degree}@}, and may be found by {@{constructing an Euler tour in each connected component of _G_ and then orienting the edges according to the tour}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Every Eulerian orientation of a connected graph}@} is {@{a [strong orientation](strong%20orientation.md), an orientation that makes the resulting directed graph [strongly connected](strongly%20connected%20component.md)}@}. <!--SR:!2026-02-14,352,350!2026-03-15,377,362!2026-03-14,376,362!2026-03-25,386,362!2028-03-24,921,336!2027-11-13,823,342!2029-04-03,1248,362!2026-03-17,379,362-->
 

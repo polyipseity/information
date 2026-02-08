@@ -19,7 +19,7 @@ In {@{[economics](economics.md)}@}, {@{the __law of one price__ \(__LOOP__\)}@} 
 
 ### example in regular trade
 
-Assume {@{different prices for a single identical good in two locations}@}, {@{no transport costs, and no economic barriers between the two locations}@}. {@{Arbitrage by both buyers and sellers}@} can then operate: buyers {@{from the expensive area can buy in the cheap area}@}, and sellers {@{in the cheap area can sell in the expensive area}@}. <!--SR:!2029-06-27,1238,350!2026-02-07,275,330!2026-02-25,285,330!2026-03-03,291,330!2026-03-02,290,330-->
+Assume {@{different prices for a single identical good in two locations}@}, {@{no transport costs, and no economic barriers between the two locations}@}. {@{Arbitrage by both buyers and sellers}@} can then operate: buyers {@{from the expensive area can buy in the cheap area}@}, and sellers {@{in the cheap area can sell in the expensive area}@}. <!--SR:!2029-06-27,1238,350!2029-07-13,1252,350!2026-02-25,285,330!2026-03-03,291,330!2026-03-02,290,330-->
 
 {@{Both scenarios}@} result in {@{a single, equal price per homogeneous good in all locations}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-02-25,285,330!2026-02-19,279,330-->
 
@@ -29,9 +29,9 @@ _For further discussion, see [Rational pricing](rational%20pricing.md#the%20law%
 
 {@{[Commodities](commodities.md)}@} can be {@{traded on [financial markets](financial%20markets.md)}@}, where there will be {@{a single [offer](discounts%20and%20allowances.md) price \(asking price\), and [bid price](bid%20price.md)}@}. Although {@{there is a small [spread](yield%20spread.md) between these two values}@} {@{the law of one price applies \(to each\)}@}. <!--SR:!2029-05-19,1206,350!2029-05-30,1217,350!2026-03-01,289,330!2029-05-29,1216,350!2026-02-25,285,330-->
 
-No trader will {@{sell the commodity at a lower price than the [market maker](market%20maker.md)'s bid-level}@} or {@{[buy](trade.md) at a higher price than the market maker's offer-level}@}.<sup>[\[8\]](#^ref-8)</sup> In either case {@{moving away from the prevailing price}@} would {@{either leave no takers, or be [charity](gift.md)}@}. <!--SR:!2027-07-30,609,310!2026-02-20,280,330!2026-02-18,278,330!2026-02-08,276,330-->
+No trader will {@{sell the commodity at a lower price than the [market maker](market%20maker.md)'s bid-level}@} or {@{[buy](trade.md) at a higher price than the market maker's offer-level}@}.<sup>[\[8\]](#^ref-8)</sup> In either case {@{moving away from the prevailing price}@} would {@{either leave no takers, or be [charity](gift.md)}@}. <!--SR:!2027-07-30,609,310!2026-02-20,280,330!2026-02-18,278,330!2029-07-22,1260,350-->
 
-In {@{the [derivatives](derivative%20(finance).md) market}@} the law applies to {@{[financial instruments](financial%20instrument.md) which appear different, but which resolve to the same set of cash flows}@}; see {@{[Rational pricing](rational%20pricing.md)}@}. Thus:<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-06-21,1233,350!2026-03-06,294,330!2026-02-08,276,330-->
+In {@{the [derivatives](derivative%20(finance).md) market}@} the law applies to {@{[financial instruments](financial%20instrument.md) which appear different, but which resolve to the same set of cash flows}@}; see {@{[Rational pricing](rational%20pricing.md)}@}. Thus:<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-06-21,1233,350!2026-03-06,294,330!2029-07-14,1252,350-->
 
 > {@{A security}@} must {@{have a single price, no matter how that security is created}@}. For example, if {@{an option can be created using two different sets of underlying securities}@}, then {@{the total price for each would be the same or else an arbitrage opportunity would exist}@}. <!--SR:!2026-03-04,292,330!2026-02-25,285,330!2026-03-01,289,330!2029-06-08,1224,350-->
 

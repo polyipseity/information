@@ -9,7 +9,7 @@ tags:
 
 # solar neutrino problem
 
-The __solar neutrino problem__ concerned {@{a large discrepancy between the flux of [solar neutrinos](solar%20neutrino.md) as predicted from the [Sun](Sun.md)'s [luminosity](luminosity.md) and as measured directly}@}. The discrepancy was {@{first observed in the mid-1960s and was resolved around 2002}@}. <!--SR:!2028-03-17,1028,350!2026-02-07,374,290-->
+The __solar neutrino problem__ concerned {@{a large discrepancy between the flux of [solar neutrinos](solar%20neutrino.md) as predicted from the [Sun](Sun.md)'s [luminosity](luminosity.md) and as measured directly}@}. The discrepancy was {@{first observed in the mid-1960s and was resolved around 2002}@}. <!--SR:!2028-03-17,1028,350!2030-03-25,1507,310-->
 
 When [neutrino detectors](neutrino%20detector.md) became {@{sensitive enough to measure the flow of [electron neutrinos](electron%20neutrino.md) from the [Sun](Sun.md)}@}, the number detected was {@{much lower than predicted. In various experiments, the number deficit was between one half and two thirds}@}. <!--SR:!2029-07-30,1428,350!2028-11-03,1210,350-->
 

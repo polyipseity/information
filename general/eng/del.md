@@ -50,7 +50,7 @@ __Example:__
 
 (annotation: example) $$f(x,y,z)=x+y+z$$ <p> ::@:: $$\nabla f=\mathbf {e} _{x}{\partial f \over \partial x}+\mathbf {e} _{y}{\partial f \over \partial y}+\mathbf {e} _{z}{\partial f \over \partial z}=\left(1,1,1\right)$$ <!--SR:!2026-03-04,291,330!2029-04-19,1176,350-->
 
-Del can also be {@{expressed in other coordinate systems}@}, see for example {@{[del in cylindrical and spherical coordinates](del%20in%20cylindrical%20and%20spherical%20coordinates.md)}@}. <!--SR:!2026-02-08,263,330!2026-02-28,287,330-->
+Del can also be {@{expressed in other coordinate systems}@}, see for example {@{[del in cylindrical and spherical coordinates](del%20in%20cylindrical%20and%20spherical%20coordinates.md)}@}. <!--SR:!2029-05-20,1197,350!2026-02-28,287,330-->
 
 ## notational uses
 
@@ -60,7 +60,7 @@ Del is used as {@{a shorthand form to simplify many long mathematical expression
 
 {@{The vector derivative of a [scalar field](scalar%20field.md) $f$}@} is called {@{the [gradient](gradient.md)}@}, and it can be represented as: {@{$$\operatorname {grad} f={\partial f \over \partial x}{\hat {\mathbf {x} } }+{\partial f \over \partial y}{\hat {\mathbf {y} } }+{\partial f \over \partial z}{\hat {\mathbf {z} } }=\nabla f$$}@} <!--SR:!2029-05-17,1198,350!2029-01-05,1086,350!2026-03-05,288,330-->
 
-It always {@{points in the [direction](direction%20(geometry).md) of greatest increase of $f$}@}, and it has {@{a [magnitude](magnitude%20(mathematics).md) equal to the maximum rate of increase at the point}@}—just like {@{a standard derivative}@}. In particular, if {@{a hill is defined as a height function over a plane $h(x,y)$}@}, {@{the gradient at a given location}@} will be {@{a vector in the xy-plane \(visualizable as an arrow on a map\) pointing along the steepest direction}@}. {@{The magnitude of the gradient}@} is {@{the value of this steepest slope}@}. <!--SR:!2026-03-07,294,330!2026-02-09,268,330!2026-03-03,290,330!2029-02-09,1121,350!2026-02-07,266,330!2029-03-09,1149,350!2029-01-18,1099,350!2026-03-07,290,330-->
+It always {@{points in the [direction](direction%20(geometry).md) of greatest increase of $f$}@}, and it has {@{a [magnitude](magnitude%20(mathematics).md) equal to the maximum rate of increase at the point}@}—just like {@{a standard derivative}@}. In particular, if {@{a hill is defined as a height function over a plane $h(x,y)$}@}, {@{the gradient at a given location}@} will be {@{a vector in the xy-plane \(visualizable as an arrow on a map\) pointing along the steepest direction}@}. {@{The magnitude of the gradient}@} is {@{the value of this steepest slope}@}. <!--SR:!2026-03-07,294,330!2026-02-09,268,330!2026-03-03,290,330!2029-02-09,1121,350!2029-05-28,1206,350!2029-03-09,1149,350!2029-01-18,1099,350!2026-03-07,290,330-->
 
 In particular, this notation is powerful because {@{the gradient product rule looks very similar to the 1d-derivative case}@}: {@{$$\nabla (fg)=f\nabla g+g\nabla f$$}@} However, {@{the rules for [dot products](dot%20product.md) do not turn out to be simple}@}, as illustrated by: {@{$$\nabla (\mathbf {u} \cdot \mathbf {v} )=(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u} +\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )$$}@} <!--SR:!2026-03-02,285,330!2029-04-02,1166,350!2026-03-07,294,330!2026-11-13,295,210-->
 
@@ -98,7 +98,7 @@ The Laplacian is {@{ubiquitous throughout modern [mathematical physics](mathemat
 
 ### Hessian matrix
 
-While {@{$\nabla ^{2}$ usually represents the [Laplacian](Laplacian.md)}@}, sometimes {@{$\nabla ^{2}$ also represents the [Hessian matrix](Hessian%20matrix.md)}@}. The former refers to {@{the inner product of $\nabla$}@}, while the latter refers to {@{the [dyadic product](dyadic%20product.md) of $\nabla$}@}: <p> {@{$\nabla ^{2}=\nabla \cdot \nabla ^{T}$}@}. <p> So {@{whether $\nabla ^{2}$ refers to a Laplacian or a Hessian matrix}@} depends on the context. <!--SR:!2026-02-08,267,330!2029-03-06,1146,350!2027-06-03,635,330!2026-03-07,294,330!2029-01-19,1100,350!2029-02-20,1132,350-->
+While {@{$\nabla ^{2}$ usually represents the [Laplacian](Laplacian.md)}@}, sometimes {@{$\nabla ^{2}$ also represents the [Hessian matrix](Hessian%20matrix.md)}@}. The former refers to {@{the inner product of $\nabla$}@}, while the latter refers to {@{the [dyadic product](dyadic%20product.md) of $\nabla$}@}: <p> {@{$\nabla ^{2}=\nabla \cdot \nabla ^{T}$}@}. <p> So {@{whether $\nabla ^{2}$ refers to a Laplacian or a Hessian matrix}@} depends on the context. <!--SR:!2029-06-07,1215,350!2029-03-06,1146,350!2027-06-03,635,330!2026-03-07,294,330!2029-01-19,1100,350!2029-02-20,1132,350-->
 
 ### tensor derivative
 
@@ -122,7 +122,7 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 > - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2026-07-24,190,210!2027-05-13,555,270-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2027-09-04,664,290!2026-03-02,289,330-->
 > - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2026-10-21,335,250!2026-02-20,65,210-->
-> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2026-02-12,28,130!2026-02-08,162,230-->
+> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2026-02-12,28,130!2027-02-20,377,230-->
 > - $\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )$ ::@:: $=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v}$ <!--SR:!2026-05-16,258,290!2026-02-28,269,290-->
 
 ## second derivatives

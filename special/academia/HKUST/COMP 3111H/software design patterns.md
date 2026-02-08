@@ -153,7 +153,7 @@ There are {@{4 major advantages to the mediator pattern}@}: (annotation: 4 items
 
 - _Decoupled colleagues_ ::@:: – each class is independent; easier to develop, test, reuse. <!--SR:!2026-04-03,83,341!2026-03-29,78,341-->
 - _Centralized control_ ::@:: – logic lives in one place, simplifying debugging and changes. <!--SR:!2026-04-02,82,341!2026-03-21,70,341-->
-- _Simplified protocols_ ::@:: – only mediator‑to‑colleague links, not many direct connections. <!--SR:!2026-02-07,48,302!2026-03-28,77,341-->
+- _Simplified protocols_ ::@:: – only mediator‑to‑colleague links, not many direct connections. <!--SR:!2026-08-24,198,322!2026-03-28,77,341-->
 - _Reduced subclassing_ ::@:: – extending only the mediator suffices to extend the system logic. <!--SR:!2026-03-17,66,322!2026-03-28,77,341-->
 
 There are {@{2 major disadvantages to the mediator pattern}@}: (annotation: 2 items: {@{mediator can grow large, single point of failure}@}) <!--SR:!2026-03-22,71,322!2026-03-25,74,341-->
@@ -277,7 +277,7 @@ For example, {@{overusing the _decorator_ pattern}@} for {@{trivial configuratio
 
 {@{_Spaghetti code_}@} is {@{a tangled, undocumented implementation}@} that becomes {@{impossible to extend or modify}@}. It often evolves {@{from a quick prototype}@} written by a {@{single "lone ranger" developer}@}, leaving {@{little documentation}@} and forcing {@{about half of maintenance effort into rediscovering existing logic}@}. {@{Developers hesitate to touch it}@} because they {@{fear breaking something}@}; {@{rewriting}@} is therefore seen as {@{easier than refactoring}@}. <!--SR:!2026-04-01,81,341!2026-03-28,77,341!2026-04-03,83,341!2026-03-29,78,341!2026-03-30,79,341!2026-03-31,80,341!2026-03-25,74,341!2026-03-27,76,341!2026-03-17,66,322!2026-03-21,70,322!2026-03-20,69,341-->
 
-{@{Object‑oriented spaghetti code}@} takes {@{the same form as spaghetti code}@} but with many methods that {@{lack parameters and rely on global state}@}. {@{Suspicious class variables and intertwined relationships}@} between objects undermine {@{inheritance and polymorphism}@}, so {@{the OO advantages are lost}@} and the system behaves {@{like a monolith}@}. <!--SR:!2026-03-18,67,322!2026-03-17,66,322!2026-04-02,82,341!2026-03-22,71,341!2026-02-08,49,300!2026-03-29,78,341!2026-04-02,82,341-->
+{@{Object‑oriented spaghetti code}@} takes {@{the same form as spaghetti code}@} but with many methods that {@{lack parameters and rely on global state}@}. {@{Suspicious class variables and intertwined relationships}@} between objects undermine {@{inheritance and polymorphism}@}, so {@{the OO advantages are lost}@} and the system behaves {@{like a monolith}@}. <!--SR:!2026-03-18,67,322!2026-03-17,66,322!2026-04-02,82,341!2026-03-22,71,341!2026-08-27,200,320!2026-03-29,78,341!2026-04-02,82,341-->
 
 ### god class
 

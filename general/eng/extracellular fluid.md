@@ -15,7 +15,7 @@ tags:
 
 ### interstitial fluid
 
-{@{Interstitial fluid or tissue fluid}@} provides {@{a constant environment for cells, a medium to exchange cellular materials, and forms [lymph](lymph.md)}@}. <!--SR:!2029-12-28,1443,250!2026-02-08,15,294-->
+{@{Interstitial fluid or tissue fluid}@} provides {@{a constant environment for cells, a medium to exchange cellular materials, and forms [lymph](lymph.md)}@}. <!--SR:!2029-12-28,1443,250!2026-04-13,64,314-->
 
 ## references
 

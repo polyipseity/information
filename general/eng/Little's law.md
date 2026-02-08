@@ -25,7 +25,7 @@ In {@{a 1954 paper Little's law}@} was {@{assumed true and used without proof}@}
 
 ### finding response time
 
-Imagine {@{an application that had no easy way to measure [response time](response%20time%20(technology).md)}@}. If {@{the mean number in the system and the throughput are known}@}, {@{the average response time can be found using Little's Law}@}: <p> &emsp; {@{mean response time = mean number in system / mean throughput}@} <!--SR:!2028-11-25,1073,350!2026-02-08,278,330!2028-11-08,1058,350!2029-06-23,1236,350-->
+Imagine {@{an application that had no easy way to measure [response time](response%20time%20(technology).md)}@}. If {@{the mean number in the system and the throughput are known}@}, {@{the average response time can be found using Little's Law}@}: <p> &emsp; {@{mean response time = mean number in system / mean throughput}@} <!--SR:!2028-11-25,1073,350!2029-07-31,1269,350!2028-11-08,1058,350!2029-06-23,1236,350-->
 
 For example: {@{A queue depth meter}@} shows {@{an average of nine jobs waiting to be serviced}@}. {@{Add one for the job being serviced}@}, so {@{there is an average of ten jobs in the system}@}. Another meter shows {@{a mean throughput of 50 per second}@}. {@{The mean response time}@} is calculated as {@{0.2 seconds = 10 / 50 per second}@}. <!--SR:!2029-01-02,1087,350!2029-07-02,1244,350!2028-11-14,1063,350!2029-03-18,1162,350!2029-02-19,1135,350!2029-03-23,1167,350!2026-03-13,293,330-->
 
@@ -65,7 +65,7 @@ Other applications include {@{staffing emergency departments in hospitals}@}.<su
 
 ## see also
 
-- [List of eponymous laws](list%20of%20eponymous%20laws.md) ::@:: \(laws, adages, and other succinct observations or predictions named after persons\) <!--SR:!2026-02-07,277,330!2029-06-29,1242,350-->
+- [List of eponymous laws](list%20of%20eponymous%20laws.md) ::@:: \(laws, adages, and other succinct observations or predictions named after persons\) <!--SR:!2029-07-26,1265,350!2029-06-29,1242,350-->
 - [Erlang \(unit\)](erlang%20(unit).md)
 
 ## references

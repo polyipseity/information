@@ -16,7 +16,7 @@ A {@{[photocell](photocell.md)}@} can be used to observe the effect. It consists
 
 If the light frequency is lower than the {@{threshold frequency}@}, {@{no photoemission occurs}@}. Otherwise, {@{immediate photoemission occurs}@}. {@{Light [intensity](intensity.md) or duration of exposure}@} does not affect photoemission of a single electron. {@{Light intensity}@} only affects the photoelectric current. <!--SR:!2027-05-27,1273,350!2030-06-16,2093,330!2029-06-12,1740,310!2033-01-22,2613,290!2027-08-30,1285,310-->
 
-Emitted electrons have {@{different}@} initial kinetic energies. The maximum kinetic energy of an electron {@{increases with light frequency}@} given that the threshold frequency is exceeded. <!--SR:!2026-02-07,882,330!2027-03-01,1077,290-->
+Emitted electrons have {@{different}@} initial kinetic energies. The maximum kinetic energy of an electron {@{increases with light frequency}@} given that the threshold frequency is exceeded. <!--SR:!2037-01-31,4011,350!2027-03-01,1077,290-->
 
 ## mechanism
 

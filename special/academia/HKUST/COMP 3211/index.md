@@ -31,7 +31,7 @@ The content is in teaching order.
     - final exam: 50%
 - logistics
   - objectives ::@:: appreciate AI problem solving; learn fundamental AI algorithm; understand AI challenges and goals <!--SR:!2027-12-22,791,330!2029-03-24,1165,350-->
-  - course intended learning outcomes (CILOs) ::@:: appreciate cutting edge AI research; identify AI fundamental concepts and techniques; understand and apply state space search techniques <!--SR:!2026-02-07,276,330!2026-08-25,417,310-->
+  - course intended learning outcomes (CILOs) ::@:: appreciate cutting edge AI research; identify AI fundamental concepts and techniques; understand and apply state space search techniques <!--SR:!2029-07-15,1254,350!2026-08-25,417,310-->
   - syllabus
     - simple intelligent agents: machine evolution, machine learning, rule-based systems
     - search: adversarial, heuristic, uniformed
