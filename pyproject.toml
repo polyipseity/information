@@ -35,6 +35,20 @@ dev = [
   "ruff>=0.15.0",
 ]
 
+[tool.pyright]
+exclude = ["**/node_modules", "**/__pycache__", "**/.*", ".venv"]
+typeCheckingMode = "strict"
+venv = ".venv"
+venvPath = "."
+
+[[tool.pyright.executionEnvironments]]
+extraPaths = ["."]
+reportPrivateUsage = "none"
+root = "tests"
+
+[[tool.pyright.executionEnvironments]]
+root = "."
+
 [tool.pytest.ini_options]
 addopts = ["--cov=./", "--cov-report=term-missing", "--dist=loadscope", "-n=auto", "--strict-markers"]
 testpaths = ["tests"]
