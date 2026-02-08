@@ -12,6 +12,8 @@ applyTo: "tools/pyarchivist/**"
 - **When user approves edits**: Make changes here, test thoroughly, then contribute upstream
 - For upstream contributions: work in the pyarchivist repo, merge changes, then update submodule pointer
 - **Submodule instructions**: This submodule has its own `AGENTS.md` and `.github/instructions/` and `.github/skills/` files that take priority when working within `tools/pyarchivist/`
+- **Working directory**: Always set your current working directory to the submodule root before running project or release commands. Run `cd tools/pyarchivist` first and then execute `uv`, `git`, or build commands from there.
+- **Release reminder**: When publishing a new version, after updating the package version string run `uv sync` to refresh `uv.lock`; add and commit `uv.lock` (or include it in the release commit) before creating the release tag and pushing.
 
 ## Developer tooling & testing (pyarchivist submodule)
 
