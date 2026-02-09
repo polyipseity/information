@@ -46,7 +46,7 @@ In {@{distributions that are [symmetric about their means](symmetric%20distribut
 
 ## multivariate moments
 
-For {@{a [continuous](continuous%20probability%20distribution.md#absolutely%20continuous%20probability%20distribution) [bivariate](joint%20probability%20distribution.md) [probability distribution](probability%20distribution.md) with [probability density function](probability%20density%20function.md) _f_\(_x_,_y_\)}@} {@{the \(_j_,_k_\) moment about the mean _μ_ = \(_μ_<sub>_X_</sub>, _μ_<sub>_Y_</sub>\)}@} is {@{$$\mu _{j,k}=\operatorname {E} \left[(X-\operatorname {E} [X])^{j}(Y-\operatorname {E} [Y])^{k}\right]=\int _{-\infty }^{+\infty }\int _{-\infty }^{+\infty }(x-\mu _{X})^{j}(y-\mu _{Y})^{k}f(x,y)\,dx\,dy.$$}@} <!--SR:!2026-02-09,290,330!2029-07-15,1263,350!2027-12-09,795,330-->
+For {@{a [continuous](continuous%20probability%20distribution.md#absolutely%20continuous%20probability%20distribution) [bivariate](joint%20probability%20distribution.md) [probability distribution](probability%20distribution.md) with [probability density function](probability%20density%20function.md) _f_\(_x_,_y_\)}@} {@{the \(_j_,_k_\) moment about the mean _μ_ = \(_μ_<sub>_X_</sub>, _μ_<sub>_Y_</sub>\)}@} is {@{$$\mu _{j,k}=\operatorname {E} \left[(X-\operatorname {E} [X])^{j}(Y-\operatorname {E} [Y])^{k}\right]=\int _{-\infty }^{+\infty }\int _{-\infty }^{+\infty }(x-\mu _{X})^{j}(y-\mu _{Y})^{k}f(x,y)\,dx\,dy.$$}@} <!--SR:!2029-09-26,1325,350!2029-07-15,1263,350!2027-12-09,795,330-->
 
 ## central moment of complex random variables
 

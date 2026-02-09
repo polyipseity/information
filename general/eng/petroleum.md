@@ -84,7 +84,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2026-09-26,912,330!2028-06-08,1481,354-->
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→::@::←[butane](butane.md) <!--SR:!2026-10-09,928,334!2026-10-02,924,334-->
 - [butane](butane.md)→::@::←[gasoline/petrol](gasoline.md) <!--SR:!2028-02-13,1205,294!2030-01-30,1476,314-->
-- [gasoline/petrol](gasoline.md)→::@::←[naphtha](naphtha.md) <!--SR:!2032-10-08,2458,294!2026-02-09,228,170-->
+- [gasoline/petrol](gasoline.md)→::@::←[naphtha](naphtha.md) <!--SR:!2032-10-08,2458,294!2027-08-20,557,190-->
 - [naphtha](naphtha.md)→::@::←[jet fuel](jet%20fuel.md) <!--SR:!2026-04-28,184,170!2027-10-23,876,234-->
 - [jet fuel](jet%20fuel.md)→::@::←[kerosene](kerosene.md) <!--SR:!2028-05-10,1202,274!2027-04-11,728,194-->
 - [kerosene](kerosene.md)→::@::←[fuel oil](fuel%20oil.md) <!--SR:!2029-03-29,1169,234!2026-05-14,163,150-->

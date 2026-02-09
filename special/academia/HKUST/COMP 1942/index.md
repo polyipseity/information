@@ -483,7 +483,7 @@ The content is in teaching order.
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2033-02-08,2570,417!2033-01-21,2552,417-->
   - social networks ::@:: How are people connected? <!--SR:!2026-03-10,509,397!2026-02-23,494,397-->
   - privacy issues ::@:: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2032-11-01,2482,417!2030-06-09,1734,397-->
-  - graph data ::@:: How to analyze graphs? <!--SR:!2033-03-04,2591,417!2026-02-09,487,397-->
+  - graph data ::@:: How to analyze graphs? <!--SR:!2033-03-04,2591,417!2033-05-03,2640,417-->
   - decision making
   - data streams ::@:: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2026-05-02,556,397!2029-09-12,1538,397-->
   - chatbot

@@ -25,7 +25,7 @@ In {@{many search problems}@} one only needs {@{a small fragment of a potentiall
 
 ## lazy list
 
-In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!2026-11-13,288,345!2026-11-06,281,330!2026-02-09,72,325!2026-11-05,280,345!2026-11-09,284,345!2026-11-22,294,345!2026-11-25,297,345-->
+In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!2026-11-13,288,345!2026-11-06,281,330!2027-01-05,330,345!2026-11-05,280,345!2026-11-09,284,345!2026-11-22,294,345!2026-11-25,297,345-->
 
 ### lazy list properties
 
@@ -36,7 +36,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 - `LazyList.head` ::@:: The first element, which may be computed lazily. <!--SR:!2026-12-01,301,345!2026-12-16,314,345-->
 - `LazyList.tail` ::@:: A _by-name_ parameter that represents the rest of the list; it is evaluated only when needed and its result is memoised so that subsequent accesses reuse the same value. <!--SR:!2026-10-27,271,345!2026-12-01,303,345-->
 
-{@{The standard implementation}@} in Scala keeps {@{a lazy `state` field}@} that holds either {@{an empty state or a cons cell with head and tail}@}.  {@{This state}@} is computed {@{on first access, cached, and never recomputed}@}. <!--SR:!2026-12-22,319,345!2026-02-10,73,325!2026-12-29,325,345!2026-02-09,72,325!2026-12-12,311,345-->
+{@{The standard implementation}@} in Scala keeps {@{a lazy `state` field}@} that holds either {@{an empty state or a cons cell with head and tail}@}.  {@{This state}@} is computed {@{on first access, cached, and never recomputed}@}. <!--SR:!2026-12-22,319,345!2026-02-10,73,325!2026-12-29,325,345!2027-01-03,328,345!2026-12-12,311,345-->
 
 ### lazy list construction
 
@@ -118,7 +118,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 
 Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2026-02-16,79,350!2026-02-12,76,350!2026-02-21,83,350!2026-02-17,79,350!2026-02-18,80,350!2026-02-19,81,350-->
 
-{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!2026-11-24,296,345!2026-02-11,74,325!2026-12-05,305,345!2026-11-27,299,345!2026-12-30,325,345!2026-02-09,72,325!2026-12-14,311,345!2026-12-29,325,345!2026-12-17,315,345!2026-11-09,284,345!2026-02-09,72,325!2026-12-29,325,345!2026-02-09,72,325-->
+{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!2026-11-24,296,345!2026-02-11,74,325!2026-12-05,305,345!2026-11-27,299,345!2026-12-30,325,345!2027-01-05,330,345!2026-12-14,311,345!2026-12-29,325,345!2026-12-17,315,345!2026-11-09,284,345!2027-01-05,330,345!2026-12-29,325,345!2027-01-03,328,345-->
 
 > [!example] __`LazyList.filter`__
 >
@@ -147,7 +147,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 ### lazy list implementation
 
-{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance: <!--SR:!2026-02-11,74,325!2026-12-15,313,345!2026-11-15,290,345!2026-12-11,310,345!2026-11-30,300,345!2026-02-11,74,325!2026-12-29,325,345!2026-02-09,72,325!2026-02-09,72,325-->
+{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance: <!--SR:!2026-02-11,74,325!2026-12-15,313,345!2026-11-15,290,345!2026-12-11,310,345!2026-11-30,300,345!2026-02-11,74,325!2026-12-29,325,345!2027-01-05,330,345!2027-01-04,329,345-->
 
 > [!example] __naive `LazyList` implementation__
 >
@@ -164,7 +164,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   val empty = ???                  // omitted
 > }
 > ```
-<!--SR:!2026-02-10,73,325!2026-11-25,297,345!2026-11-26,298,345!2026-12-12,309,345!2026-02-09,72,325!2026-11-03,278,345!2026-12-03,303,345!2026-10-27,271,345!2026-12-17,314,345-->
+<!--SR:!2026-02-10,73,325!2026-11-25,297,345!2026-11-26,298,345!2026-12-12,309,345!2027-01-04,329,345!2026-11-03,278,345!2026-12-03,303,345!2026-10-27,271,345!2026-12-17,314,345-->
 
 Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2026-02-12,75,325!2026-11-01,276,330!2026-11-20,292,345!2026-10-28,272,345!2026-11-11,286,345!2026-10-26,270,345!2026-10-30,274,345!2026-11-10,285,345!2026-11-18,290,345!2026-02-11,74,325-->
 
@@ -182,7 +182,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 >
 > ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-11-02,277,345!2026-11-26,298,345!2026-10-23,267,345!2026-02-12,75,325!2026-11-21,293,345!2026-11-23,295,345!2026-02-10,73,325!2026-11-09,284,345!2026-10-29,273,345!2026-12-09,308,345!2026-02-21,83,350-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!2026-10-29,273,345!2026-02-11,74,325!2026-10-07,263,330!2026-11-09,284,345!2026-11-25,297,345!2026-09-15,244,330!2026-02-09,72,325!2026-12-15,313,345!2026-08-04,202,325!2026-12-12,311,345!2026-12-10,309,345!2026-02-19,81,350-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!2026-10-29,273,345!2026-02-11,74,325!2026-10-07,263,330!2026-11-09,284,345!2026-11-25,297,345!2026-09-15,244,330!2027-01-04,329,345!2026-12-15,313,345!2026-08-04,202,325!2026-12-12,311,345!2026-12-10,309,345!2026-02-19,81,350-->
 
 ## lazy evaluation
 
@@ -356,7 +356,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 >     current #:: from(more, explored ++ more.map(_.endState))
 >   }
 > ```
-<!--SR:!2026-10-26,270,345!2026-11-22,294,345!2026-02-09,72,325-->
+<!--SR:!2026-10-26,270,345!2026-11-22,294,345!2027-01-03,328,345-->
 
 {@{A sequence of solution paths}@} is obtained by {@{filtering paths that reach the target amount}@}: <!--SR:!2026-02-12,75,325!2026-12-23,320,345-->
 
@@ -375,7 +375,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 >     p     <- paths if p.endState.contains(target)
 >   yield p
 > ```
-<!--SR:!2026-12-18,315,345!2026-02-09,72,325-->
+<!--SR:!2026-12-18,315,345!2027-01-05,330,345-->
 
 ## lazy evaluation in other languages
 
@@ -393,7 +393,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 >
 > Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2026-02-18,80,351!2026-02-20,82,351!2026-02-21,83,351!2026-02-18,81,351!2026-02-18,80,351!2026-02-20,82,351!2026-02-23,85,351-->
 
-{@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2026-02-12,75,325!2026-12-13,312,345!2026-02-09,72,325!2026-12-16,313,345!2026-11-09,284,345-->
+{@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2026-02-12,75,325!2026-12-13,312,345!2027-01-04,329,345!2026-12-16,313,345!2026-11-09,284,345-->
 
 > [!example] __OCaml cyclic data structure example__
 >
@@ -413,6 +413,6 @@ However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the 
 > ```Ocaml
 > let rec guesses = Stream.cons (fun () -> (1, Stream.map improve guesses))
 > ```
-<!--SR:!2026-12-02,303,345!2026-02-09,72,325!2026-12-01,302,345!2026-12-13,310,345!2026-10-25,269,345-->
+<!--SR:!2026-12-02,303,345!2027-01-04,329,345!2026-12-01,302,345!2026-12-13,310,345!2026-10-25,269,345-->
 
 Thus, while Haskell relies on {@{implicit laziness for all lists}@}, OCaml requires {@{explicit constructs to defer computation}@}. {@{Scala's `LazyList`}@} is {@{similar in spirit to Haskell lists}@} but requires {@{explicit construction like OCaml}@}. <!--SR:!2026-12-16,314,345!2026-12-17,315,345!2026-12-29,325,345!2026-12-29,325,345!2026-11-27,299,345-->

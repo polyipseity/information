@@ -189,7 +189,7 @@ Since {@{___π___ is parallel to __u__<sub>1</sub>\(normalized by L2 norm\)}@} a
 
 {@{A state _i_ is said to be _transient_}@} if, {@{starting from _i_, there is a non-zero probability that the chain will never return to _i_}@}. It is called {@{_recurrent_ \(or _persistent_\) otherwise}@}.<sup>[\[48\]](#^ref-48)</sup> For {@{a recurrent state _i_}@}, {@{the mean _hitting time_}@} is defined as: {@{$$M_{i}=E[T_{i}]=\sum _{n=1}^{\infty }n\cdot f_{ii}^{(n)}.$$}@} (annotation: $f_{ii}^{(n)}$ gives {@{the probability of returning to _i_ after exactly _n_ steps}@}.) State _i_ is {@{_positive recurrent_ if $M_{i}$ is finite and _null recurrent_ otherwise}@}. {@{Periodicity, transience, recurrence and positive and null recurrence}@} are {@{class properties — that is, if one state has the property then all states in its communicating class have the property}@}.<sup>[\[49\]](#^ref-49)</sup> <!--SR:!2026-04-10,385,359!2027-06-25,714,341!2026-03-20,366,359!2026-03-10,360,359!2026-05-03,406,367!2026-04-02,381,367!2027-11-01,814,341!2026-04-06,384,367!2029-05-03,1265,367!2026-04-21,396,367-->
 
-{@{A state _i_ is called _absorbing_}@} if {@{there are no outgoing transitions from the state}@}. <!--SR:!2026-02-09,334,341!2026-05-04,407,367-->
+{@{A state _i_ is called _absorbing_}@} if {@{there are no outgoing transitions from the state}@}. <!--SR:!2030-05-25,1566,361!2026-05-04,407,367-->
 
 ### irreducibility
 

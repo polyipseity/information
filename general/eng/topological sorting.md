@@ -198,7 +198,7 @@ In the first step, PE _j_ assigns {@{the $\lvert Q_j^1 \rvert$ indices $\sum _{i
 
 In step _k_, PE _j_ assigns {@{the $\lvert Q_j^k \rvert$ indices $a_{k-1}+\sum _{i=0}^{j-1}|Q_{i}^{k}|,\dots ,a_{k-1}+\left(\sum _{i=0}^{j}|Q_{i}^{k}|\right)-1$}@}, where {@{$a_{k-1}$ is the total number of processed vertices after step ⁠$k-1$⁠}@}. This procedure {@{repeats until there are no vertices left to process}@}, {@{hence $\sum _{i=0}^{p-1}|Q_{i}^{D+1}|=0$ (_D_ is the longest path in _G_)}@}. Below is {@{a high level, [single program, multiple data](single%20program,%20multiple%20data.md)}@} pseudo-code overview of this algorithm. <!--SR:!2029-03-03,1142,359!2029-11-04,1425,371!2029-10-31,1419,367!2028-05-24,972,347!2026-04-24,407,371-->
 
-Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{the local offsets $a_{k-1}+\sum _{i=0}^{j-1}|Q_{i}^{k}|,\dots ,a_{k-1}+\left(\sum _{i=0}^{j}|Q_{i}^{k}|\right)-1$}@} can be {@{efficiently calculated in parallel}@}. <!--SR:!2026-02-09,345,358!2027-02-13,601,319!2026-06-18,455,379-->
+Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{the local offsets $a_{k-1}+\sum _{i=0}^{j-1}|Q_{i}^{k}|,\dots ,a_{k-1}+\left(\sum _{i=0}^{j}|Q_{i}^{k}|\right)-1$}@} can be {@{efficiently calculated in parallel}@}. <!--SR:!2030-10-05,1699,378!2027-02-13,601,319!2026-06-18,455,379-->
 
 <pre>
 <b>p</b> processing elements with IDs from 0 to <i>p</i>-1

@@ -100,7 +100,7 @@ ALong = 2.5 ' `ALong` is rounded to 2 as VBA uses banker's rounding
 
 ## output
 
-To output things, we can use {@{a message box by calling `MsgBox message[, icon][, title]`}@}. `message` refers to {@{the message}@}, `icon`, by default {@{no icon, refers to icon shown next to the message}@}, and `title`, by default {@{`Microsoft Excel`, is the title}@}. If you want to {@{specify a optional argument}@} that is after {@{another optional argument that you do not want to specify}@}, {@{leave the argument blank}@}, like {@{`MsgBox "message", , "title"`}@}. <!--SR:!2027-02-28,786,325!2026-04-19,202,285!2027-06-16,881,330!2027-05-27,484,400!2026-02-09,102,380!2027-05-26,483,400!2026-02-09,102,380!2026-02-09,102,380-->
+To output things, we can use {@{a message box by calling `MsgBox message[, icon][, title]`}@}. `message` refers to {@{the message}@}, `icon`, by default {@{no icon, refers to icon shown next to the message}@}, and `title`, by default {@{`Microsoft Excel`, is the title}@}. If you want to {@{specify a optional argument}@} that is after {@{another optional argument that you do not want to specify}@}, {@{leave the argument blank}@}, like {@{`MsgBox "message", , "title"`}@}. <!--SR:!2027-02-28,786,325!2026-04-19,202,285!2027-06-16,881,330!2027-05-27,484,400!2027-07-30,536,400!2027-05-26,483,400!2027-07-31,537,400!2027-07-29,535,400-->
 
 There are several icons. Some of them are {@{`vbCritical`, `vbExclamation`, `vbInformation`, and `vbQuestion`}@}. <!--SR:!2029-08-19,1415,285-->
 

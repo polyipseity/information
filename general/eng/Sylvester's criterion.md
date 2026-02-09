@@ -29,7 +29,7 @@ An analogous theorem holds for {@{characterizing [positive-semidefinite](positiv
 
 ## proof for the case of positive definite matrices
 
-Suppose {@{$M_{n}$ is $n\times n$ Hermitian matrix $M_{n}^{\dagger }=M_{n}$}@}. Let {@{$M_{k},k=1,\ldots n$ be the leading principal minor matrices, i.e. the $k\times k$ upper left corner matrices}@}. It will be shown that if {@{$M_{n}$ is positive definite, then the principal minors are positive}@}; that is, {@{$\det M_{k}>0$ for all $k$}@}. <!--SR:!2026-02-09,252,330!2026-04-02,293,330!2026-03-11,271,330!2026-03-07,267,330-->
+Suppose {@{$M_{n}$ is $n\times n$ Hermitian matrix $M_{n}^{\dagger }=M_{n}$}@}. Let {@{$M_{k},k=1,\ldots n$ be the leading principal minor matrices, i.e. the $k\times k$ upper left corner matrices}@}. It will be shown that if {@{$M_{n}$ is positive definite, then the principal minors are positive}@}; that is, {@{$\det M_{k}>0$ for all $k$}@}. <!--SR:!2029-04-07,1153,350!2026-04-02,293,330!2026-03-11,271,330!2026-03-07,267,330-->
 
 $M_{k}$ is {@{positive definite}@}. Indeed, choosing {@{$$x=\left({\begin{array}{c}x_{1}\\\vdots \\x_{k}\\0\\\vdots \\0\end{array} }\right)=\left({\begin{array}{c}{\vec {x} }\\0\\\vdots \\0\end{array} }\right)$$}@} we can notice that {@{$0<x^{\dagger }M_{n}x={\vec {x} }^{\dagger }M_{k}{\vec {x} }$}@}. Equivalently, {@{the eigenvalues of $M_{k}$ are positive}@}, and this {@{implies that $\det M_{k}>0$ since the determinant is the product of the eigenvalues}@}. <!--SR:!2026-03-25,285,330!2029-04-01,1149,350!2026-02-21,260,330!2026-02-10,253,330!2026-04-01,292,330-->
 

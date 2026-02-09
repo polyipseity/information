@@ -83,7 +83,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 
 - Main article: [Diagram \(category theory\)](diagram%20(category%20theory).md)
 
-{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2026-02-09,286,330!2027-06-04,594,310!2026-02-15,291,330-->
+{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2029-09-09,1308,350!2027-06-04,594,310!2026-02-15,291,330-->
 
 More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2027-06-23,665,330!2029-02-04,1127,350-->
 

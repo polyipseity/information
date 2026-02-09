@@ -45,7 +45,7 @@ In {@{a [preadditive category](preadditive%20category.md)}@}, it makes sense to 
 
 The cokernel can be thought of as {@{the space of _constraints_ that an equation must satisfy, as the space of _obstructions_}@}, just as {@{the [kernel](kernel%20(algebra).md) is the space of _solutions_}@}. <!--SR:!2029-03-24,1175,350!2028-10-29,1060,350-->
 
-Formally, one may connect {@{the kernel and the cokernel of a map _T_: _V_ → _W_}@} by {@{the [exact sequence](exact%20sequence.md) $$0\to \ker T\to V{\overset {T}{\longrightarrow } }W\to \operatorname {coker} T\to 0.$$}@} These can be interpreted thus: given {@{a linear equation _T_\(_v_\) = _w_ to solve}@}, <!--SR:!2028-06-10,878,330!2028-03-16,802,290!2026-02-09,286,330-->
+Formally, one may connect {@{the kernel and the cokernel of a map _T_: _V_ → _W_}@} by {@{the [exact sequence](exact%20sequence.md) $$0\to \ker T\to V{\overset {T}{\longrightarrow } }W\to \operatorname {coker} T\to 0.$$}@} These can be interpreted thus: given {@{a linear equation _T_\(_v_\) = _w_ to solve}@}, <!--SR:!2028-06-10,878,330!2028-03-16,802,290!2029-09-09,1308,350-->
 
 - the kernel ::@:: is the space of _solutions_ to the _homogeneous_ equation _T_\(_v_\) = 0, and its dimension is the number of _degrees of freedom_ in solutions to _T_\(_v_\) = _w_, if they exist; <!--SR:!2029-06-27,1248,350!2027-06-07,595,310-->
 - the cokernel ::@:: is the space of _constraints_ on _w_ that must be satisfied if the equation is to have a solution, and its dimension is the number of independent constraints that must be satisfied for the equation to have a solution. <!--SR:!2027-07-19,685,330!2028-11-01,1062,350-->

@@ -57,7 +57,7 @@ The content is in teaching order.
 - [management accounting](../../../../general/management%20accounting.md)
   - management accounting / purpose ::@:: decision-making orientation: provide useful information to internal managers for making decisions <!--SR:!2026-02-12,285,330!2026-02-20,293,330-->
   - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2028-05-07,892,330!2028-01-20,822,330-->
-    - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2026-02-09,282,330!2028-04-12,872,330-->
+    - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2029-08-17,1285,350!2028-04-12,872,330-->
     - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2026-02-18,291,330!2026-02-13,286,330-->
     - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2028-01-08,811,330!2027-06-05,592,310-->
     - management accounting / vs. financial accounting / report frequency ::@:: prepared as needed, can be daily or even real-time; prepared periodically, e.g. monthly, quarterly, yearly <!--SR:!2028-02-18,845,330!2028-05-09,895,330-->
@@ -73,7 +73,7 @@ The content is in teaching order.
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2026-02-12,285,330!2026-02-15,288,330-->
   - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->
   - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2026-02-20,293,330!2026-02-10,283,330-->
-  - types of costs / variability ::@:: variable vs. fixed <!--SR:!2026-02-16,289,330!2026-02-09,282,330-->
+  - types of costs / variability ::@:: variable vs. fixed <!--SR:!2026-02-16,289,330!2029-08-21,1289,350-->
 - [direct costs](../../../../general/direct%20costs.md) ::@:: convenient and easily traceable to a cost object, e.g. cost of labors and materials to produce a product <!--SR:!2029-08-15,1284,350!2026-02-10,283,330-->
   - [cost object](../../../../general/cost%20object.md) ::@:: a term used primarily in cost accounting to describe something to which costs are assigned <!--SR:!2026-02-11,284,330!2028-04-18,878,330-->
 - [indirect costs](../../../../general/indirect%20costs.md) ::@:: inconvenient or hardly traceable to a cost object, e.g. advertising, depreciation, supervision, utilities <!--SR:!2026-02-13,286,330!2028-02-05,835,330-->
@@ -83,8 +83,8 @@ The content is in teaching order.
   - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2026-02-12,285,330!2026-02-21,294,330-->
   - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2028-05-06,891,330-->
   - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2026-02-14,287,330-->
-  - prime cost ::@:: direct materials + direct labor <!--SR:!2026-02-09,282,330!2028-02-06,835,330-->
-  - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2026-02-09,282,330-->
+  - prime cost ::@:: direct materials + direct labor <!--SR:!2029-08-16,1284,350!2028-02-06,835,330-->
+  - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2029-08-19,1287,350-->
   - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2026-02-16,289,330!2028-02-10,839,330-->
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits <!--SR:!2026-02-19,292,330!2026-02-19,292,330-->
 - period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2026-02-14,287,330!2027-06-09,595,310-->

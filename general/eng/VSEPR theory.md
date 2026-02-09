@@ -39,7 +39,7 @@ tags:
 > __flashcards__
 >
 > - AX<sub>2</sub>E<sub>0</sub>
->   - AX<sub>2</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E0-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-02-09,18,321-->
+>   - AX<sub>2</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E0-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-05-01,81,341-->
 >   - AX<sub>2</sub>E<sub>0</sub> / ideal bond angle(s) :@: 180° <!--SR:!2026-03-21,46,305-->
 >   - AX<sub>2</sub>E<sub>0</sub> / example(s) ::@:: [CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2026-04-24,75,325!2026-03-22,47,305-->
 > - AX<sub>2</sub>E<sub>1</sub>
@@ -57,15 +57,15 @@ tags:
 > - AX<sub>3</sub>E<sub>0</sub>
 >   - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2026-04-24,75,325!2026-03-22,47,305-->
 >   - AX<sub>3</sub>E<sub>0</sub> / ideal bond angle(s) :@: 120° <!--SR:!2026-02-28,26,285-->
->   - AX<sub>3</sub>E<sub>0</sub> / example(s) ::@:: [BF<sub>3</sub>](boron%20trifluoride.md) <!--SR:!2026-02-09,18,321!2026-03-22,47,305-->
+>   - AX<sub>3</sub>E<sub>0</sub> / example(s) ::@:: [BF<sub>3</sub>](boron%20trifluoride.md) <!--SR:!2026-05-02,82,341!2026-03-22,47,305-->
 > - AX<sub>3</sub>E<sub>1</sub>
 >   - AX<sub>3</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal pyramidal](trigonal%20pyramidal%20molecular%20geometry.md)<br/>![trigonal pyramidal](../../archives/Wikimedia%20Commons/AX3E1-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-03-21,46,305-->
 >   - AX<sub>3</sub>E<sub>1</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-04-19,71,325-->
 >   - AX<sub>3</sub>E<sub>1</sub> / example(s) ::@:: [NH<sub>3</sub>](ammonia.md) <!--SR:!2026-04-19,71,325!2026-03-26,47,305-->
 > - AX<sub>3</sub>E<sub>2</sub>
->   - AX<sub>3</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [T-shaped](T-shaped%20molecular%20geometry.md)<br/>![T-shaped](../../archives/Wikimedia%20Commons/AX3E2-3D-balls.png) <!--SR:!2026-03-22,47,305!2026-02-09,18,321-->
->   - AX<sub>3</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90°, 180° <!--SR:!2026-02-09,18,321-->
->   - AX<sub>3</sub>E<sub>2</sub> / example(s) ::@:: [ClF<sub>3</sub>](chlorine%20trifluoride.md) <!--SR:!2026-04-24,75,325!2026-02-09,18,321-->
+>   - AX<sub>3</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [T-shaped](T-shaped%20molecular%20geometry.md)<br/>![T-shaped](../../archives/Wikimedia%20Commons/AX3E2-3D-balls.png) <!--SR:!2026-03-22,47,305!2026-05-03,83,341-->
+>   - AX<sub>3</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90°, 180° <!--SR:!2026-05-03,83,341-->
+>   - AX<sub>3</sub>E<sub>2</sub> / example(s) ::@:: [ClF<sub>3</sub>](chlorine%20trifluoride.md) <!--SR:!2026-04-24,75,325!2026-05-02,82,341-->
 > - AX<sub>4</sub>E<sub>0</sub>
 >   - AX<sub>4</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tetrahedral](tetrahedral%20molecular%20geometry.md)<br/>![tetrahedral](../../archives/Wikimedia%20Commons/AX4E0-3D-balls.png) <!--SR:!2026-04-24,75,325!2026-03-30,50,305-->
 >   - AX<sub>4</sub>E<sub>0</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-03-22,47,305-->
@@ -73,7 +73,7 @@ tags:
 > - AX<sub>4</sub>E<sub>1</sub>
 >   - AX<sub>4</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [seesaw/disphenoidal](seesaw%20molecular%20geometry.md)<br/>![seesaw/disphenoidal](../../archives/Wikimedia%20Commons/AX4E1-3D-balls.png) <!--SR:!2026-03-26,47,305!2026-03-21,46,305-->
 >   - AX<sub>4</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90°, 120°, 180° <!--SR:!2026-04-23,74,325-->
->   - AX<sub>4</sub>E<sub>1</sub> / example(s) ::@:: [SF<sub>4</sub>](sulfur%20tetrafluoride.md) <!--SR:!2026-02-09,18,321!2026-04-19,71,325-->
+>   - AX<sub>4</sub>E<sub>1</sub> / example(s) ::@:: [SF<sub>4</sub>](sulfur%20tetrafluoride.md) <!--SR:!2026-05-01,81,341!2026-04-19,71,325-->
 > - AX<sub>4</sub>E<sub>2</sub>
 >   - AX<sub>4</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [square planar](square%20planar%20molecular%20geometry.md)<br/>![square planar](../../archives/Wikimedia%20Commons/AX4E2-3D-balls.png) <!--SR:!2026-04-22,73,325!2026-04-19,71,325-->
 >   - AX<sub>4</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90° <!--SR:!2026-03-28,52,321-->
@@ -87,11 +87,11 @@ tags:
 >   - AX<sub>5</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90° <!--SR:!2026-04-22,73,325-->
 >   - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!2026-04-24,75,325!2026-03-22,44,305-->
 > - AX<sub>5</sub>E<sub>2</sub>
->   - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!2026-03-21,46,305!2026-02-09,18,321-->
+>   - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!2026-03-21,46,305!2026-05-03,83,341-->
 >   - AX<sub>5</sub>E<sub>2</sub> / ideal bond angle(s) :@: 72° <!--SR:!2026-04-19,71,325-->
 >   - AX<sub>5</sub>E<sub>2</sub> / example(s) ::@:: XeF<sub>5</sub><sup>-</sup> <!--SR:!2026-03-21,46,305!2026-03-22,47,305-->
 > - AX<sub>6</sub>E<sub>0</sub>
->   - AX<sub>6</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [octahedral](octahedral%20molecular%20geometry.md)<br/>![octahedral](../../archives/Wikimedia%20Commons/AX6E0-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-02-09,18,321-->
+>   - AX<sub>6</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [octahedral](octahedral%20molecular%20geometry.md)<br/>![octahedral](../../archives/Wikimedia%20Commons/AX6E0-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-05-03,83,341-->
 >   - AX<sub>6</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90° <!--SR:!2026-04-24,75,325-->
 >   - AX<sub>6</sub>E<sub>0</sub> / example(s) ::@:: [SF<sub>6</sub>](sulfur%20hexafluoride.md) <!--SR:!2026-03-22,47,305!2026-04-19,71,325-->
 > - AX<sub>6</sub>E<sub>1</sub>
@@ -101,10 +101,10 @@ tags:
 > - AX<sub>7</sub>E<sub>0</sub>
 >   - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!2026-03-21,46,305!2026-02-22,20,265-->
 >   - AX<sub>7</sub>E<sub>0</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2026-03-21,46,305-->
->   - AX<sub>7</sub>E<sub>0</sub> / example(s) ::@:: [IF<sub>7</sub>](iodine%20heptafluoride.md) <!--SR:!2026-03-26,47,305!2026-02-09,18,321-->
+>   - AX<sub>7</sub>E<sub>0</sub> / example(s) ::@:: [IF<sub>7</sub>](iodine%20heptafluoride.md) <!--SR:!2026-03-26,47,305!2026-05-01,81,341-->
 > - AX<sub>8</sub>E<sub>0</sub>
->   - AX<sub>8</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../../archives/Wikimedia%20Commons/AX8E0-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-02-09,18,321-->
->   - AX<sub>8</sub>E<sub>0</sub> / example(s) ::@:: XeF<sub>8</sub><sup>2-</sup> <!--SR:!2026-02-09,18,321!2026-03-22,47,305-->
+>   - AX<sub>8</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../../archives/Wikimedia%20Commons/AX8E0-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-05-01,81,341-->
+>   - AX<sub>8</sub>E<sub>0</sub> / example(s) ::@:: XeF<sub>8</sub><sup>2-</sup> <!--SR:!2026-05-02,82,341!2026-03-22,47,305-->
 > - AX<sub>9</sub>E<sub>0</sub>
 >   - AX<sub>9</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../../archives/Wikimedia%20Commons/AX9E0-3D-balls.png) <!--SR:!2026-03-21,46,305!2026-03-26,47,305-->
 >   - AX<sub>9</sub>E<sub>0</sub> / example(s) ::@:: ReH<sub>9</sub><sup>2-</sup> <!--SR:!2026-03-22,47,305!2026-03-21,46,305-->

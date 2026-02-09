@@ -66,7 +66,7 @@ For {@{each comma category}@} there are {@{forgetful functors from it (annotatio
   - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$; <!--SR:!2026-03-26,335,354!2026-03-26,335,354-->
   - (annotation: domain functor) morphisms: ::@:: $(f,g)\mapsto f$; <!--SR:!2029-01-03,1123,354!2026-03-28,337,354-->
 - Codomain functor, ::@:: $S\downarrow T\to {\mathcal {B} }$, which maps: <!--SR:!2026-04-27,360,354!2026-03-27,332,342-->
-  - (annotation: codomain functor) objects: ::@:: $(A,B,h)\mapsto B$; <!--SR:!2026-03-30,335,342!2026-02-09,297,342-->
+  - (annotation: codomain functor) objects: ::@:: $(A,B,h)\mapsto B$; <!--SR:!2026-03-30,335,342!2029-12-09,1399,362-->
   - (annotation: codomain functor) morphisms: ::@:: $(f,g)\mapsto g$. <!--SR:!2026-02-19,306,354!2026-04-22,357,354-->
 - Arrow functor, ::@:: $S\downarrow T\to {\mathcal {C} }^{\rightarrow }$, which maps: <!--SR:!2029-12-06,1398,362!2027-05-11,639,330-->
   - (annotation: arrow functor) objects: ::@:: $(A,B,h)\mapsto h$; <!--SR:!2026-04-26,359,354!2026-03-24,329,342-->

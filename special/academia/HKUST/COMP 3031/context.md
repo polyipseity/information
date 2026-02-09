@@ -338,7 +338,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 >     if c != 0 then c else ob.compare(x._2, y._2)
 > ```
 >
-> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2026-02-17,79,347!2026-02-22,84,347!2026-02-19,81,347!2027-01-02,329,349!2026-11-28,298,349!2026-11-27,297,349!2026-02-09,73,348!2026-02-19,81,348-->
+> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2026-02-17,79,347!2026-02-22,84,347!2026-02-19,81,347!2027-01-02,329,349!2026-11-28,298,349!2026-11-27,297,349!2027-01-26,351,368!2026-02-19,81,348-->
 
 ## context inference
 
