@@ -26,6 +26,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 - **`tools/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
   - Prefer running wrappers (`pnpm run ...` or `python -m ...`) rather than hand-editing generated outputs.
   - Notable submodules: `tools/pytextgen/` and `tools/pyarchivist/` (treat as external tools).
+Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.github/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
 ---
 

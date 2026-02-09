@@ -157,3 +157,18 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` 
 - **[pyarchivist](.github/skills/pyarchivist/SKILL.md)** — Archive online content, auto-maintain `index.md`, media management
 
 **Skill flow**: Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
+
+## Recent updates (agent guidance)
+
+- 2026-02-09: Added `.github/instructions/agent-quickstart.instructions.md` — a one-page checklist for AI agents (startup commands, quick gotchas, test/format sequence, and submodule guardrails). Linked core instruction files and submodule AGENTS.md to improve discoverability and cohesion.
+- 2026-02-09: Updated commit message guidance — agents should prefer wrapping commit body lines to **72 characters** (readability/buffer). Tooling (commitlint) continues to enforce a **100-character** hard limit, so ensure lines are ≤100 to pass.
+
+## AI agent quickstart ✅
+
+- See `.github/instructions/agent-quickstart.instructions.md` for a concise checklist agents should follow before changing files or making commits.
+- Recommended workspace settings: `chat.useAgentsMdFile = true`, `chat.useAgentSkills = true` to enable skill-based guidance and the root `AGENTS.md` for context.
+- Safe startup: `pnpm install` → `pnpm run prepare` → `pnpm run format` → `pnpm run check` → `pnpm run test`.
+- Regenerate content before packaging: `python -m init generate -C`; use `python -m pack` and `python -m publish` only after tests pass and user approval for publishing sensitive content.
+- Always follow `.github/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); **prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.**
+- Ask for explicit permission before editing `private/`, `self/`, or any submodule content; update that submodule's `AGENTS.md` and `.github/instructions/` when you introduce new commands or workflows.
+- Use the Todo List Tool for multi-step tasks and include short, test-backed PRs with a clear rationale when making non-trivial changes.

@@ -10,6 +10,8 @@ applyTo: "**"
 
 Important: `pnpm install` triggers the `prepare` script which runs `uv sync --all-extras --dev` to install Python development extras declared in `pyproject.toml`'s `[dependency-groups].dev` using the project's `uv.lock`. For CI and deterministic installs prefer `uv sync --locked --all-extras --dev`. `pyproject.toml` is the canonical source for Python dependency metadata in this repository; keep it up-to-date and add dev-only tools there rather than in a `requirements.txt` file.
 
+Agent quickstart note: Agents should consult `.github/instructions/agent-quickstart.instructions.md` for a one-page checklist (startup commands, test/format sequence, and quick gotchas such as preserving pytextgen fences and setting the correct `cwd` for script runs). Prefer `pnpm` wrappers and `uv` invocations via `uv run` for reproducible, lockfile-respecting runs.
+
 ## Regenerate generated regions
 
 **Command**: `python -m init generate [pytextgen flags] <paths?>`
