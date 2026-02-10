@@ -1,11 +1,12 @@
 {
   "chat.tools.terminal.autoApprove": {
-    "/^uv run pyright(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": {
-      "approve": true
-    },
-    "/^uv run pytest(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": {
-      "approve": true
-    }
+    "/^(?:npm\\s+exec|npx)\\s+(?:tsc|vitest)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
+    "/^npm\\s+(?:build|check|format|run|test)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
+    "/^pnpm(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*(?:\\s+exec)?\\s+(?:tsc|vitest)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
+    "/^pnpm(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s+(?:build|check|commitlint|format|run|test)(?:[^\\s]*)?(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
+    "/^uv\\s+run\\s+(?:pyright|pytest|ruff)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
+    "Pop-Location": true,
+    "Push-Location": true
   },
   "markdown.validate.enabled": true,
   "python-envs.defaultEnvManager": "ms-python.python:venv",
