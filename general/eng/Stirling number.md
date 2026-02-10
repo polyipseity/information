@@ -39,7 +39,7 @@ Note that {@{$\ (x)_{0}\equiv 1\ ,$ by convention}@}, because {@{it is an [empty
 
 Similarly, {@{the __rising factorial__, defined as $\ x^{(n)}\ =\ x(x+1)\ \cdots (x+n-1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$x^{(n)}\ =\ \sum _{k=0}^{n}\ {\biggl [}{n \atop k}{\biggr ]}\ x^{k}\ =\ \sum _{k=0}^{n}\ (-1)^{n-k}\ s(n,k)\ x^{k}\ ,$$}@} with {@{unsigned Stirling numbers of the first kind as coefficients}@}. One of these expansions can be {@{derived from the other}@} by {@{observing that $\ x^{(n)}=(-1)^{n}(-x)_{n}~.$}@} <!--SR:!2029-08-11,1361,350!2027-05-14,635,310!2028-02-27,914,330!2029-11-20,1441,350!2028-04-27,914,330-->
 
-{@{Stirling numbers of the second kind}@} express {@{the reverse relations}@}: {@{$$\ x^{n}\ =\ \sum _{k=0}^{n}\ S(n,k)\ (x)_{k}{\ }$$ and $$\ x^{n}\ =\ \sum _{k=0}^{n}\ (-1)^{n-k}\ S(n,k)\ x^{(k)}~.$$}@} <!--SR:!2027-04-01,619,310!2027-11-07,841,330!2026-02-10,313,290-->
+{@{Stirling numbers of the second kind}@} express {@{the reverse relations}@}: {@{$$\ x^{n}\ =\ \sum _{k=0}^{n}\ S(n,k)\ (x)_{k}{\ }$$ and $$\ x^{n}\ =\ \sum _{k=0}^{n}\ (-1)^{n-k}\ S(n,k)\ x^{(k)}~.$$}@} <!--SR:!2027-04-01,619,310!2027-11-07,841,330!2029-07-28,1264,310-->
 
 ## as change of basis coefficients
 

@@ -85,7 +85,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 - Main article: ::@:: [Series and parallel circuits](series%20and%20parallel%20circuits.md) <!--SR:!2029-03-09,1131,350!2026-07-02,372,360-->
 
-{@{Some two terminal network of impedances}@} can {@{eventually be reduced to a single impedance by successive applications of impedances in series or impedances in parallel}@}. <!--SR:!2026-02-10,255,330!2026-04-26,314,349-->
+{@{Some two terminal network of impedances}@} can {@{eventually be reduced to a single impedance by successive applications of impedances in series or impedances in parallel}@}. <!--SR:!2029-04-19,1164,350!2026-04-26,314,349-->
 
 - Impedances in [series](series%20and%20parallel%20circuits.md#series%20circuits): ::@:: $$Z_{\mathrm {eq} }=Z_{1}+Z_{2}+\,\cdots \,+Z_{n}.$$ <!--SR:!2026-07-07,376,360!2026-05-22,335,349-->
 - Impedances in [parallel](series%20and%20parallel%20circuits.md#parallel%20circuits): ::@:: $${\frac {1}{Z_{\mathrm {eq} } } }={\frac {1}{Z_{1} } }+{\frac {1}{Z_{2} } }+\,\cdots \,+{\frac {1}{Z_{n} } }.$$ <!--SR:!2026-07-16,384,360!2026-07-12,381,360-->
@@ -255,7 +255,7 @@ Finally, for {@{a network to which only steady dc is applied}@}, {@{s is replace
 
 {@{Transfer functions, in general, in control theory}@} are {@{given the symbol H\(s\)}@}. Most commonly in {@{electronics, transfer function}@} is defined as {@{the ratio of output voltage to input voltage and given the symbol A\(s\)}@}, or {@{more commonly \(because analysis is invariably done in terms of sine wave response\), _A_\(_jω_\)}@}, so that; {@{$$A(j\omega )={\frac {V_{o} }{V_{i} } }$$}@} <!--SR:!2026-03-31,292,330!2026-06-27,367,360!2026-03-31,292,330!2026-05-12,329,349!2029-03-21,1141,350!2028-09-14,978,349-->
 
-The _A_ standing for {@{attenuation, or amplification, depending on context}@}. In general, this will be {@{a complex function of _jω_}@}, which can be {@{derived from an analysis of the impedances in the network and their individual transfer functions}@}. Sometimes the analyst is {@{only interested in the magnitude of the gain and not the phase angle}@}. In this case {@{the complex numbers can be eliminated from the transfer function}@} and it might then be written as; {@{$$A(\omega )=\left|{\frac {V_{o} }{V_{i} } }\right|$$}@} <!--SR:!2026-02-26,267,330!2026-03-03,271,330!2028-06-02,874,330!2029-02-04,1102,350!2026-02-10,255,330!2026-05-05,325,349-->
+The _A_ standing for {@{attenuation, or amplification, depending on context}@}. In general, this will be {@{a complex function of _jω_}@}, which can be {@{derived from an analysis of the impedances in the network and their individual transfer functions}@}. Sometimes the analyst is {@{only interested in the magnitude of the gain and not the phase angle}@}. In this case {@{the complex numbers can be eliminated from the transfer function}@} and it might then be written as; {@{$$A(\omega )=\left|{\frac {V_{o} }{V_{i} } }\right|$$}@} <!--SR:!2026-02-26,267,330!2026-03-03,271,330!2028-06-02,874,330!2029-02-04,1102,350!2029-04-22,1167,350!2026-05-05,325,349-->
 
 #### two port parameters
 
@@ -293,7 +293,7 @@ If {@{all circuit components were linear or the circuit was linearized beforehan
 
 ## non-linear networks
 
-{@{Most electronic designs}@} are, {@{in reality, non-linear}@}. There are {@{very few that do not include some semiconductor devices}@}. These are {@{invariably non-linear}@}, {@{the transfer function of an ideal semiconductor [p-n junction](p-n%20junction.md)}@} is given by {@{the very non-linear relationship; $$i=I_{o}\left(e^{ {v}/{V_{T} } }-1\right)$$}@} where; <!--SR:!2026-05-09,328,349!2026-05-29,342,349!2026-05-11,328,349!2026-05-18,334,349!2026-02-10,255,330!2026-04-29,317,349-->
+{@{Most electronic designs}@} are, {@{in reality, non-linear}@}. There are {@{very few that do not include some semiconductor devices}@}. These are {@{invariably non-linear}@}, {@{the transfer function of an ideal semiconductor [p-n junction](p-n%20junction.md)}@} is given by {@{the very non-linear relationship; $$i=I_{o}\left(e^{ {v}/{V_{T} } }-1\right)$$}@} where; <!--SR:!2026-05-09,328,349!2026-05-29,342,349!2026-05-11,328,349!2026-05-18,334,349!2029-04-20,1165,350!2026-04-29,317,349-->
 
 - _i_ and _v_ ::@:: are the instantaneous current and voltage. <!--SR:!2026-07-04,374,360!2026-07-06,375,360-->
 - _I<sub>o</sub>_ ::@:: is an arbitrary parameter called the reverse leakage current whose value depends on the construction of the device. <!--SR:!2026-06-22,362,360!2026-05-04,324,349-->
@@ -351,7 +351,7 @@ A popular form of {@{specifying the small signal equivalent circuit amongst tran
 
 > {@{![\[z\] parameter equivalent circuit showing dependent voltage generators](../../archives/Wikimedia%20Commons/Z-equivalent%20two%20port.png)}@}
 >
-> {@{\[z\] parameter equivalent circuit}@} showing {@{dependent voltage generators}@} <!--SR:!2027-01-31,470,309!2028-02-04,739,329!2026-02-10,5,371-->
+> {@{\[z\] parameter equivalent circuit}@} showing {@{dependent voltage generators}@} <!--SR:!2027-01-31,470,309!2028-02-04,739,329!2026-03-06,24,391-->
 
 There will {@{always be dependent generators in a two-port parameter equivalent circuit}@}. This applies to {@{the \[h\] parameters as well as to the \[z\] and any other kind}@}. These dependencies {@{must be preserved when developing the equations in a larger linear network analysis}@}. <!--SR:!2026-05-28,341,349!2026-05-12,329,349!2028-03-16,834,330-->
 
@@ -369,7 +369,7 @@ The piecewise method is {@{similar to the small signal method}@} in that {@{line
 
 ### time-varying components
 
-In linear analysis, {@{the components of the network are assumed to be unchanging}@}, but {@{in some circuits this does not apply}@}, such as {@{sweep oscillators, [voltage controlled amplifiers](voltage%20controlled%20amplifier.md), and variable [equalisers](electronic%20filter.md)}@}. In many circumstances {@{the change in component value is periodic}@}. {@{A non-linear component excited with a periodic signal}@}, for instance, can be {@{represented as a periodically varying _linear_ component}@}. {@{[Sidney Darlington](Sidney%20Darlington.md) disclosed a method}@} of {@{analysing such periodic time varying circuits}@}. He developed {@{canonical circuit forms}@} which are {@{analogous to the canonical forms of [Ronald M. Foster](Ronald%20M.%20Foster.md) and [Wilhelm Cauer](Wilhelm%20Cauer.md) used for analysing linear circuits}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-02-10,255,330!2026-07-05,375,360!2029-03-22,1142,350!2026-06-22,364,360!2026-02-23,263,340!2026-04-19,311,349!2026-04-28,319,349!2026-02-26,267,330!2026-04-21,313,349!2026-07-28,394,360-->
+In linear analysis, {@{the components of the network are assumed to be unchanging}@}, but {@{in some circuits this does not apply}@}, such as {@{sweep oscillators, [voltage controlled amplifiers](voltage%20controlled%20amplifier.md), and variable [equalisers](electronic%20filter.md)}@}. In many circumstances {@{the change in component value is periodic}@}. {@{A non-linear component excited with a periodic signal}@}, for instance, can be {@{represented as a periodically varying _linear_ component}@}. {@{[Sidney Darlington](Sidney%20Darlington.md) disclosed a method}@} of {@{analysing such periodic time varying circuits}@}. He developed {@{canonical circuit forms}@} which are {@{analogous to the canonical forms of [Ronald M. Foster](Ronald%20M.%20Foster.md) and [Wilhelm Cauer](Wilhelm%20Cauer.md) used for analysing linear circuits}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-04-21,1166,350!2026-07-05,375,360!2029-03-22,1142,350!2026-06-22,364,360!2026-02-23,263,340!2026-04-19,311,349!2026-04-28,319,349!2026-02-26,267,330!2026-04-21,313,349!2026-07-28,394,360-->
 
 ### vector circuit theory
 

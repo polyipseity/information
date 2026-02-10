@@ -20,7 +20,7 @@ This seems more like a pedagogical tool...
 - good compromises ::@:: Instructions are 32 bits long, to make instruction fetching and decoding simpler. <!--SR:!2026-06-17,358,355!2026-06-02,343,350-->
 - make common cases fast ::@:: Variants of instructions that accept _immediate_ operands instead of register or memory operands are available. <!--SR:!2026-04-13,293,330!2026-02-27,268,330-->
 - simplicity favors regularity \(less cases\) ::@:: Each instruction is 32 bits long, and has a fixed number of operands. It makes CPU implementations simpler and allows better performance. <!--SR:!2026-03-01,270,330!2029-01-12,1083,350-->
-  - simplicity favors regularity / comparison ::@:: x86, a _complex_ instruction set computer \(CISC\) ISA, supports a variable number of operands. <!--SR:!2026-02-10,254,330!2026-02-28,269,330-->
+  - simplicity favors regularity / comparison ::@:: x86, a _complex_ instruction set computer \(CISC\) ISA, supports a variable number of operands. <!--SR:!2029-04-16,1161,350!2026-02-28,269,330-->
 - smaller is faster ::@:: Less registers means faster processors. More registers means more propagation delay \(longer travel time\). <!--SR:!2026-03-06,275,330!2026-02-11,255,330-->
 
 ## registers
@@ -45,7 +45,7 @@ In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{value
 
 We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written in hexadecimal}@}. <!--SR:!2026-02-26,267,330!2026-03-07,276,330!2026-03-05,274,330!2026-02-25,266,330-->
 
-In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size \(in higher level programming languages, e.g. C, this multiplication is done for you\)}@}. {@{The _memory operand_ syntax}@} is {@{`offset($base)`, e.g. `-4($s0)`}@}. <!--SR:!2026-03-06,275,330!2026-03-07,276,330!2026-02-26,267,330!2026-02-10,254,330!2026-03-13,281,330!2026-03-15,282,330!2026-03-06,275,330-->
+In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size \(in higher level programming languages, e.g. C, this multiplication is done for you\)}@}. {@{The _memory operand_ syntax}@} is {@{`offset($base)`, e.g. `-4($s0)`}@}. <!--SR:!2026-03-06,275,330!2026-03-07,276,330!2026-02-26,267,330!2029-04-15,1160,350!2026-03-13,281,330!2026-03-15,282,330!2026-03-06,275,330-->
 
 ### endianness
 
@@ -87,7 +87,7 @@ There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{imme
 
 In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2026-04-10,290,330!2026-04-06,287,330!2026-03-06,275,330!2026-03-13,281,330!2026-03-03,272,330!2029-04-04,1151,350!2026-02-23,264,330!2029-04-10,1156,350-->
 
-Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}, it is {@{_not_ a constant operand but a register operand}@}. So {@{it can only be used in locations where a register operand is expected}@}. <!--SR:!2026-04-09,289,330!2026-03-07,276,330!2026-03-06,275,330!2026-02-10,254,330-->
+Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}, it is {@{_not_ a constant operand but a register operand}@}. So {@{it can only be used in locations where a register operand is expected}@}. <!--SR:!2026-04-09,289,330!2026-03-07,276,330!2026-03-06,275,330!2029-04-17,1162,350-->
 
 ### arithmetic instructions
 
@@ -160,7 +160,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2028-08-12,951,350!2029-01-14,1086,355-->
 - branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2026-06-02,343,355!2029-03-04,1126,355-->
 - branch on less than or equal to zero ::@:: `blez $s, offset`: `if ($s <= 0) { goto nPC + offset << 2; }` <!--SR:!2026-06-10,351,350!2026-04-21,301,350-->
-- branch on less than or equal to zero and link ::@:: `blezal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2026-02-10,231,335!2026-06-18,359,355-->
+- branch on less than or equal to zero and link ::@:: `blezal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2029-01-05,1060,355!2026-06-18,359,355-->
 - branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!2026-05-21,332,355!2027-08-02,644,335-->
 - branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2026-06-08,349,355!2027-03-26,554,350-->
 - branch on not equal ::@:: `bne $s, $t, offset`: `if ($s != $t) { goto nPC + offset << 2; }` <!--SR:!2026-05-15,325,350!2026-05-09,319,350-->

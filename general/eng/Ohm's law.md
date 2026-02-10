@@ -19,7 +19,7 @@ tags:
 >
 > - {@{$V$}@} is {@{the [voltage](voltage.md)}@}
 > - {@{$I$}@} is {@{the [current](electric%20current.md)}@}
-> - {@{$R$}@} is {@{the [resistance](electrical%20resistance%20and%20conductance.md)}@} <!--SR:!2026-07-24,673,330!2026-08-10,685,330!2026-02-14,69,328!2026-02-15,70,328!2026-02-10,66,328!2026-02-21,75,328!2026-02-11,67,328-->
+> - {@{$R$}@} is {@{the [resistance](electrical%20resistance%20and%20conductance.md)}@} <!--SR:!2026-07-24,673,330!2026-08-10,685,330!2026-02-14,69,328!2026-02-15,70,328!2026-12-13,306,348!2026-02-21,75,328!2026-02-11,67,328-->
 
 ## references
 

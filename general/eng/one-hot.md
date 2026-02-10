@@ -50,7 +50,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 ##### disadvantages
 
 - Requires ::@:: more flip-flops than other encodings, making it impractical for [PAL](Programmable%20Array%20Logic.md) devices <!--SR:!2029-03-25,1170,350!2027-09-17,729,330-->
-- Many of the states ::@:: are illegal<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-02-10,287,330!2029-04-08,1184,350-->
+- Many of the states ::@:: are illegal<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-09-11,1309,350!2029-04-08,1184,350-->
 
 ### natural language processing
 
@@ -80,7 +80,7 @@ In {@{machine learning}@}, one-hot encoding is {@{a frequently used method to de
 
 For {@{each unique value in the original categorical column}@}, {@{a new column is created in this method}@}. {@{These dummy variables}@} are then {@{filled up with zeros and ones \(1 meaning TRUE, 0 meaning FALSE\)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2028-12-22,1104,350!2028-09-24,1030,350!2028-12-20,1101,350!2029-05-24,1224,350-->
 
-Because {@{this process creates multiple new variables}@}, it is prone to {@{creating a 'big p' problem \(too many predictors\) if there are many unique values in the original column}@}. {@{Another downside of one-hot encoding}@} is that it {@{causes multicollinearity between the individual variables, which potentially reduces the model's accuracy}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-02-10,287,330!2029-08-26,1297,350!2029-06-09,1223,350!2029-08-31,1300,350-->
+Because {@{this process creates multiple new variables}@}, it is prone to {@{creating a 'big p' problem \(too many predictors\) if there are many unique values in the original column}@}. {@{Another downside of one-hot encoding}@} is that it {@{causes multicollinearity between the individual variables, which potentially reduces the model's accuracy}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2029-09-12,1310,350!2029-08-26,1297,350!2029-06-09,1223,350!2029-08-31,1300,350-->
 
 Also, if {@{the categorical variable is an output variable}@}, you may want to {@{convert the values back into a categorical form in order to present them in your application}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-08-19,1291,350!2029-07-26,1270,350-->
 

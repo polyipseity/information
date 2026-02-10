@@ -90,6 +90,6 @@ return await memorize_seq(
 - why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→::@::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2026-11-25,630,230!2026-09-04,696,290-->
 - why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→::@::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2029-06-16,1234,250!2026-06-01,601,270-->
 - together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→::@::←from or signature <!--SR:!2032-01-28,2257,330!2027-07-09,632,210-->
-- from or signature→::@::←_(end)_ <!--SR:!2027-12-25,1187,350!2026-02-10,504,290-->
+- from or signature→::@::←_(end)_ <!--SR:!2027-12-25,1187,350!2031-09-02,2030,310-->
 
 <!--/pytextgen-->

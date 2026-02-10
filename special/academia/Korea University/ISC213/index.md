@@ -724,7 +724,7 @@ The content is in teaching order.
   - enterprise resource planning / architecture ::@:: a centralized database connected to multiple business processes; this helps to reduce redundant business processes <!--SR:!2028-05-22,838,448!2028-06-15,858,448-->
   - enterprise resource planning / predefined business processes ::@:: It often have predefined business processes reflecting _best practices_: finance and accounting, human resources, manufacturing and production, sales and marketing, etc. <!--SR:!2027-06-25,556,428!2028-06-18,860,448-->
     - enterprise resource planning / predefined business processes / implementation ::@:: Select some of the provided functions to use. Map business processes to the selected software processes. <!--SR:!2028-06-03,848,448!2028-06-19,861,448-->
-- [supply chain management system](../../../../general/supply-chain-management%20software.md) \(SCMS\) ::@:: It is the software tools or modules used in executing supply chain transactions, managing supplier relationships and controlling associated business processes. It maximizes the efficiency of business activities that include planning and management of the entire supply chain. <!--SR:!2026-02-22,159,428!2026-02-10,148,428-->
+- [supply chain management system](../../../../general/supply-chain-management%20software.md) \(SCMS\) ::@:: It is the software tools or modules used in executing supply chain transactions, managing supplier relationships and controlling associated business processes. It maximizes the efficiency of business activities that include planning and management of the entire supply chain. <!--SR:!2026-02-22,159,428!2028-06-20,861,448-->
   - supply chain management system / supply chain ::@:: It is a complex logistics system that consists of facilities that convert raw materials into finished products and distribute them to end consumers or end customers. <p> It involves a network of organizations and processes. <!--SR:!2026-02-21,158,428!2026-02-12,150,428-->
   - supply chain management system / upstream, downstream ::@:: upstream: tier 3 suppliers ⟷ tier 2 suppliers ⟷ tier 1 suppliers \(contract suppliers\) <br/> self: manufacturer <br/> downstream: distributors ⟷ retailers ⟷ customers <!--SR:!2028-06-20,862,448!2028-06-17,860,448-->
 - [lean manufacturing](../../../../general/lean%20manufacturing.md) ::@:: It is a method of manufacturing goods aimed primarily at reducing times within the production system as well as response times from suppliers and customers. It is closely related to another concept called __just-in-time manufacturing__ \(JIT manufacturing in short\). <!--SR:!2028-05-24,840,448!2028-05-20,836,448-->
@@ -744,7 +744,7 @@ The content is in teaching order.
   - e-commerce / unique features ::@:: 8 items: customization/personalization, global reach, information density, interactivity, richness \(e.g. integration of marketing in multiple forms\), social technology, ubiquity, universal standards <!--SR:!2027-01-26,407,408!2028-06-14,857,448-->
   - e-commerce / effects
     - e-commerce / effects / customers ::@:: delay gratification \(see the product's effect before evaluation\), information asymmetry reduce, switching costs change <!--SR:!2026-02-12,150,428!2027-06-12,545,428-->
-    - e-commerce / effects / sellers ::@:: disintermediation increase, efficiency and flexibility increase \(e.g. dynamic pricing, price discrimination, etc.\), market segmentation increase, network effects increase <!--SR:!2026-02-10,148,428!2028-06-03,848,448-->
+    - e-commerce / effects / sellers ::@:: disintermediation increase, efficiency and flexibility increase \(e.g. dynamic pricing, price discrimination, etc.\), market segmentation increase, network effects increase <!--SR:!2027-11-05,633,428!2028-06-03,848,448-->
 - [disintermediation](../../../../general/disintermediation.md) ::@:: It is the removal of intermediaries in economics from a supply chain, or "cutting out the middlemen" in connection with a transaction or a series of transactions. <!--SR:!2028-05-25,840,448!2028-05-29,844,448-->
 - [digital goods](../../../../general/digital%20goods.md) ::@:: They are intangible goods that exist in digital form. \(__this course__: _delivered_ digitally\) <!--SR:!2028-06-11,855,448!2028-06-07,851,448-->
 - e-commerce
@@ -753,7 +753,7 @@ The content is in teaching order.
 - e-commerce
   - e-commerce / business models ::@:: community provider, content provider, e-tailer, market creator, portal, service provider, transaction broker, etc. <!--SR:!2028-05-16,832,448!2028-05-28,843,448-->
   - e-commerce / revenue models ::@:: advertising, affiliate, free, freemium, sales, subscription, transaction fee, etc. <p> For example, an online content provider \(e.g. Netflix, etc.\) likely generates revenue from advertising and subscription. <!--SR:!2026-02-11,149,428!2026-02-15,153,428-->
-  - e-commerce / marketing ::@:: The internet allows new ways to identify and interact with customers. <p> behavioral targeting: track online behaviors; has privacy concerns <br/> long-tail marketing: reach a large audience for low cost <!--SR:!2026-02-22,159,428!2026-02-10,148,428-->
+  - e-commerce / marketing ::@:: The internet allows new ways to identify and interact with customers. <p> behavioral targeting: track online behaviors; has privacy concerns <br/> long-tail marketing: reach a large audience for low cost <!--SR:!2026-02-22,159,428!2027-11-04,632,428-->
 - mobile commerce
   - mobile commerce / growth ::@:: It is the fastest growing form of e-commerce. As of 2020, it is estimated to be 45% of all e-commerce. The area with the fastest growth is location-based services. <!--SR:!2026-02-19,156,428!2026-02-11,149,428-->
 - [location-based service](../../../../general/location-based%20service.md) \(LBS\) ::@:: It is a general term denoting software services which use geographic data and information to search systems, in turn providing services or information to users. <!--SR:!2026-02-16,153,428!2028-06-09,853,448-->
@@ -794,7 +794,7 @@ The content is in teaching order.
 - datetime: 2025-08-05T09:00:00+09:00/2025-08-05T10:40:00+09:00, PT1H40M
   - local: 2025-08-05T08:00:00+08:00/2025-08-05T09:40:00+08:00, PT1H40M
 - topic: MIS career, future of work, review for final examination
-- [computer-aided software engineering](../../../../general/computer-aided%20software%20engineering.md) \(CASE\) ::@:: It is a domain of software tools used to design and implement applications. Its tools are similar to and are partly inspired by computer-aided design \(CAD\) tools used for designing hardware products. <!--SR:!2026-02-17,154,428!2026-02-10,148,428-->
+- [computer-aided software engineering](../../../../general/computer-aided%20software%20engineering.md) \(CASE\) ::@:: It is a domain of software tools used to design and implement applications. Its tools are similar to and are partly inspired by computer-aided design \(CAD\) tools used for designing hardware products. <!--SR:!2026-02-17,154,428!2028-06-22,863,448-->
   - computer-aided software engineering / tools ::@:: analysis, checking, code generation, data dictionaries, documentation generation, graphics \(e.g. charts, diagrams, etc.\), report generators, screen generators, etc. <!--SR:!2027-06-11,544,428!2026-02-18,155,428-->
   - computer-aided software engineering / effects ::@:: It support _iterative_ by automating _version control_ and providing _prototyping_ tools. <!--SR:!2026-02-15,153,428!2028-06-16,859,448-->
 - [systems development life cycle](../../../../general/systems%20development%20life%20cycle.md) \(SDLC\) ::@:: It describes the typical phases and progression between phases during the development of a computer-based system; from inception to retirement. At base, there is just one life cycle even though there are different ways to describe it; using differing numbers of and names for the phases. <p> It is still often used for large complex systems. <!--SR:!2026-02-19,156,428!2028-05-14,831,448-->
@@ -851,7 +851,7 @@ The content is in teaching order.
   - computer network / mediums \(−1\)
   - e-commerce / types \(−1\)
   - data-flow diagram / components \(−2\)
-  - Altair AI Studio / building corpus \(−1\) ::@:: They wanted "Process Document from Data" instead of "Process Documents from Data", even though the latter is correct. ?\_? <!--SR:!2028-06-05,850,448!2026-02-10,148,428-->
+  - Altair AI Studio / building corpus \(−1\) ::@:: They wanted "Process Document from Data" instead of "Process Documents from Data", even though the latter is correct. ?\_? <!--SR:!2028-06-05,850,448!2028-06-21,862,448-->
 - check: \(online\)
 - questions: [final examination](questions/final%20examination.md)
 

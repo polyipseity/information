@@ -13,7 +13,7 @@ tags:
 
 # electric field
 
-- "{@{Electric fields}@}" redirects here. For {@{the Australian band}@}, see {@{[Electric Fields](Electric%20Fields.md)}@}. <!--SR:!2026-02-10,278,330!2026-07-18,414,371!2026-07-16,412,371-->
+- "{@{Electric fields}@}" redirects here. For {@{the Australian band}@}, see {@{[Electric Fields](Electric%20Fields.md)}@}. <!--SR:!2029-07-29,1265,350!2026-07-18,414,371!2026-07-16,412,371-->
 
 | __Electric field__                                     |                                                   |
 | ------------------------------------------------------ | ------------------------------------------------- |

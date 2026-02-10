@@ -197,7 +197,7 @@ More generally, safety properties are {@{those for which every [counterexample](
 <!-- markdownlint-disable-next-line MD036 -->
 __specification language__
 
-{@{One of the applications of linear temporal logic}@} is {@{the specification of [preferences](preference.md)}@} in {@{the [Planning Domain Definition Language](Planning%20Domain%20Definition%20Language.md)}@} for {@{the purpose of [preference-based planning](preference-based%20planning.md)}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2026-03-24,373,363!2030-02-15,1496,370!2026-02-10,337,350!2026-02-22,347,350-->
+{@{One of the applications of linear temporal logic}@} is {@{the specification of [preferences](preference.md)}@} in {@{the [Planning Domain Definition Language](Planning%20Domain%20Definition%20Language.md)}@} for {@{the purpose of [preference-based planning](preference-based%20planning.md)}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2026-03-24,373,363!2030-02-15,1496,370!2030-07-19,1620,370!2026-02-22,347,350-->
 
 ## extensions
 

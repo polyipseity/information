@@ -72,12 +72,12 @@ The content is in teaching order.
   - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing <!--SR:!2026-02-17,290,330!2026-02-19,292,330-->
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2026-02-12,285,330!2026-02-15,288,330-->
   - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->
-  - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2026-02-20,293,330!2026-02-10,283,330-->
+  - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2026-02-20,293,330!2029-08-23,1290,350-->
   - types of costs / variability ::@:: variable vs. fixed <!--SR:!2026-02-16,289,330!2029-08-21,1289,350-->
-- [direct costs](../../../../general/direct%20costs.md) ::@:: convenient and easily traceable to a cost object, e.g. cost of labors and materials to produce a product <!--SR:!2029-08-15,1284,350!2026-02-10,283,330-->
+- [direct costs](../../../../general/direct%20costs.md) ::@:: convenient and easily traceable to a cost object, e.g. cost of labors and materials to produce a product <!--SR:!2029-08-15,1284,350!2029-08-22,1289,350-->
   - [cost object](../../../../general/cost%20object.md) ::@:: a term used primarily in cost accounting to describe something to which costs are assigned <!--SR:!2026-02-11,284,330!2028-04-18,878,330-->
 - [indirect costs](../../../../general/indirect%20costs.md) ::@:: inconvenient or hardly traceable to a cost object, e.g. advertising, depreciation, supervision, utilities <!--SR:!2026-02-13,286,330!2028-02-05,835,330-->
-- [variable cost](../../../../general/variable%20cost.md) ::@:: costs that change according to the activity level; usually we assume the variable cost is proportional to the activity level (constant marginal cost) <!--SR:!2026-02-10,283,330!2028-05-03,890,330-->
+- [variable cost](../../../../general/variable%20cost.md) ::@:: costs that change according to the activity level; usually we assume the variable cost is proportional to the activity level (constant marginal cost) <!--SR:!2029-08-24,1291,350!2028-05-03,890,330-->
 - [fixed cost](../../../../general/fixed%20cost.md) ::@:: costs that do not change regardless of the activity level (within a reasonable range); average cost or per-unit cost varies inversely with the activity level <!--SR:!2027-08-30,642,310!2029-08-16,1285,350-->
 - [manufacturing cost](../../../../general/manufacturing%20cost.md) ::@:: all costs to produce the physical product; direct materials cost + direct labor cost + manufacturing overhead cost <!--SR:!2026-02-17,290,330!2026-02-11,284,330-->
   - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2026-02-12,285,330!2026-02-21,294,330-->
@@ -130,7 +130,7 @@ The content is in teaching order.
       - job cost / transactions / recording non-manufacturing expenses / examples ::@:: advertising expense; commissions expense; selling, general, and administrative (SGA) expense; staging expense <!--SR:!2027-10-26,763,357!2026-08-25,425,377-->
     - job cost / transactions / adjusting manufacturing overhead ::@:: At the end of a period, there may be nonzero credit (overapplied) or debit (underapplied) balance in the manufacturing overhead. Zero out the balance by either debiting or crediting the cost of goods sold. <!--SR:!2026-02-11,279,357!2029-10-17,1348,377-->
     - job cost / transactions / ledgers ::@:: We can have a sub-ledger for each job cost sheet, showing changes to its work in process inventory. Its ending value when the project finishes is the cost of goods of that project. <!--SR:!2026-09-21,452,377!2026-08-20,420,377-->
-  - job costing / cost of goods manufactured report ::@:: This is a report that shows the make up of cost of goods in a period. <!--SR:!2027-10-07,747,357!2026-02-10,278,357-->
+  - job costing / cost of goods manufactured report ::@:: This is a report that shows the make up of cost of goods in a period. <!--SR:!2027-10-07,747,357!2029-11-03,1362,377-->
     - job costing / cost of goods manufactured report / format: [formats § cost of goods manufacturing report](formats.md#cost%20of%20goods%20manufacturing%20report)
   - job costing / income statement ::@:: In the income statement, you need to subtract from the sales revenue the cost of goods sold to get the _gross profit_. Then subtract from the gross profit the selling and administrative (S&A) expenses to get the _net operating income_. <!--SR:!2026-07-29,419,377!2026-12-21,501,337-->
     - job costing / income statement / format: [formats § income statement \(cost of goods sold\)](formats.md#income%29statement%20(cost%20of%20goods%20sold))

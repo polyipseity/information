@@ -41,7 +41,7 @@ Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}:
 
 > As {@{Mr. Giffen has pointed out}@}, {@{a rise in the price of bread}@} makes {@{so large a drain on the resources of the poorer labouring families}@} and {@{raises the marginal utility of money to them so much}@} that {@{they are forced to curtail their consumption of meat and the more expensive farinaceous foods}@}: and, {@{bread being still the cheapest food which they can get and will take}@}, they {@{consume more, and not less of it}@}.
 >
-> —&hairsp;Alfred Marshall, _Principles of Economics_ \(1895 ed.\)<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-12-25,1163,350!2029-04-26,1259,350!2026-02-10,350,349!2028-11-03,1124,350!2028-01-22,870,330!2029-05-27,1284,350!2029-05-23,1281,350-->
+> —&hairsp;Alfred Marshall, _Principles of Economics_ \(1895 ed.\)<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-12-25,1163,350!2029-04-26,1259,350!2030-09-22,1685,369!2028-11-03,1124,350!2028-01-22,870,330!2029-05-27,1284,350!2029-05-23,1281,350-->
 
 There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4\]](#^ref-4)</sup>  \(annotation: 3 items: {@{inferiority, un-substitutability, substantiality}@}; for {@{sufficient conditions}@}: replace {@{inferiority with income effect &gt; substitution effect}@}\) <!--SR:!2028-12-24,1162,350!2026-03-15,121,394!2026-04-17,127,399!2026-04-18,128,399-->
 

@@ -47,7 +47,7 @@ Using {@{sum of products}@}, {@{all logical statements which yield true results 
 {@{Minimization \(simplification\) of combinational logic formulas}@} is done using {@{the following rules based on the [laws of Boolean algebra](Boolean%20algebra.md#laws)}@}: <!--SR:!2028-01-15,807,330!2026-03-10,292,330-->
 
 - (annotation: distributivity) ::@:: $${\begin{aligned}(A\vee B)\wedge (A\vee C)&=A\vee (B\wedge C)\\(A\wedge B)\vee (A\wedge C)&=A\wedge (B\vee C)\end{aligned} }$$ <!--SR:!2027-04-15,542,330!2026-02-28,290,330-->
-- (annotation: absorption) ::@:: $${\begin{aligned}A\vee (A\wedge B)&=A\\A\wedge (A\vee B)&=A\end{aligned} }$$ <!--SR:!2026-02-10,272,330!2026-03-11,293,330-->
+- (annotation: absorption) ::@:: $${\begin{aligned}A\vee (A\wedge B)&=A\\A\wedge (A\vee B)&=A\end{aligned} }$$ <!--SR:!2029-07-01,1237,350!2026-03-11,293,330-->
 - (annotation: redundancy 1; prove using distributivity and idempotence) ::@:: $${\begin{aligned}A\vee (\lnot A\wedge B)&=A\vee B\\A\wedge (\lnot A\vee B)&=A\wedge B\end{aligned} }$$ <!--SR:!2028-02-01,822,330!2027-03-24,557,310-->
 - (annotation: redundancy 2; prove using distributivity and idempotence) ::@:: $${\begin{aligned}(A\vee B)\wedge (\lnot A\vee B)&=B\\(A\wedge B)\vee (\lnot A\wedge B)&=B\end{aligned} }$$ <!--SR:!2027-03-03,543,310!2027-11-14,759,330-->
 - (annotation: [consensus theorem](../../../../general/consensus%20theorem.md); prove by adding resp. $\land (A \lor \lnot A)$ and $\lor (A \land \lnot A)$ to the last term, distribute, and regroup) ::@:: $${\begin{aligned}(A\wedge B)\vee (\lnot A\wedge C)\vee (B\wedge C)&=(A\wedge B)\vee (\lnot A\wedge C)\\(A\vee B)\wedge (\lnot A\vee C)\wedge (B\vee C)&=(A\vee B)\wedge (\lnot A\vee C)\end{aligned} }$$ <!--SR:!2026-08-13,368,290!2028-11-15,1021,310-->

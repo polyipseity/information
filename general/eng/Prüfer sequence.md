@@ -41,7 +41,7 @@ Consider the above algorithm run on the tree shown to the right. Initially, vert
 
 Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2026-02-20,375,363!2026-02-16,372,363-->
 
-The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2029-10-05,1334,363!2030-12-29,1789,383!2026-02-10,367,363-->
+The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2029-10-05,1334,363!2030-12-29,1789,383!2031-02-11,1827,383-->
 
 <pre>
 <b>Convert-Prüfer-to-Tree</b>(<i>a</i>)

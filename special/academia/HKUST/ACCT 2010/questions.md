@@ -697,7 +697,7 @@ tags:
 > 3. Dr. Dividend (R/E); Cr. Common Stock
 >
 > - solution: {@{1}@}
-> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2026-02-10,318,361!2026-06-24,448,381-->
+> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2030-06-04,1575,381!2026-06-24,448,381-->
 
 <!-- markdownlint MD028 -->
 

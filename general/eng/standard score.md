@@ -58,7 +58,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 - Main article: [Z-test](Z-test.md)
 
-{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2029-06-14,1239,350!2029-03-19,1170,350!2026-02-10,290,330!2029-03-03,1154,350!2029-09-21,1321,350!2026-02-16,24,381-->
+{@{The z-score}@} is {@{often used in the z-test in standardized testing}@} – the analog of {@{the [Student's t-test](Student's%20t-test.md) for a population whose parameters are known, rather than estimated}@}. As it is {@{very unusual to know the entire population}@}, {@{the t-test}@} is {@{much more widely used}@}. <!--SR:!2029-06-14,1239,350!2029-03-19,1170,350!2029-09-19,1317,350!2029-03-03,1154,350!2029-09-21,1321,350!2026-02-16,24,381-->
 
 ### prediction intervals
 

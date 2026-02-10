@@ -48,7 +48,7 @@ Skipping forward to 1890, economist [Alfred Marshall](Alfred%20Marshall.md) docu
 
 ## mathematical description
 
-Consider {@{the function $\ Q_{x}=f(P_{x};\mathbf {Y} )$}@}, where {@{$Q_{x}$ is the quantity demanded of good $x$, $f$ is the [demand function](inverse%20demand%20function.md)}@}, {@{$P_{x}$ is the price of the good and $\mathbf {Y}$ is the list of parameters other than the price}@}. <!--SR:!2028-11-26,1150,350!2030-09-22,1692,369!2026-02-10,5,372-->
+Consider {@{the function $\ Q_{x}=f(P_{x};\mathbf {Y} )$}@}, where {@{$Q_{x}$ is the quantity demanded of good $x$, $f$ is the [demand function](inverse%20demand%20function.md)}@}, {@{$P_{x}$ is the price of the good and $\mathbf {Y}$ is the list of parameters other than the price}@}. <!--SR:!2028-11-26,1150,350!2030-09-22,1692,369!2026-03-06,24,392-->
 
 The law of demand states that {@{${\frac {\partial f}{\partial P_{x} } }<0$}@}. Here {@{$\partial /\partial P_{x}$ is the [partial derivative](partial%20derivative.md) operator}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-03-03,1226,350!2030-09-01,1675,369-->
 

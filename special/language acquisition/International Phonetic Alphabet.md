@@ -847,7 +847,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg):@:[voiced palatal implosive](voiced%20palatal%20implosive.md) <!--SR:!2026-03-08,50,291-->
 - ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg):@:[voiceless velar plosive](voiceless%20velar%20plosive.md) <!--SR:!2027-03-23,412,230-->
 - ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg):@:[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) <!--SR:!2026-06-10,243,230-->
-- ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg):@:[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) <!--SR:!2026-02-10,6,230-->
+- ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg):@:[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) <!--SR:!2026-02-24,14,230-->
 - ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg):@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) <!--SR:!2026-05-23,108,271-->
 - ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg):@:[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) <!--SR:!2026-02-13,125,230-->
 - ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg):@:[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) <!--SR:!2026-03-13,55,251-->
@@ -924,7 +924,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 - [open front unrounded vowel](open%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _h**a**t_ \[hat\] <!--SR:!2026-09-27,622,310-->
 - [open central unrounded vowel](open%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _br**a**_ \[bɹäː\] <!--SR:!2026-03-01,141,130-->
-- [near-open central vowel](near-open%20central%20vowel.md):@:[English](English%20language.md) _n**u**t_ \[nɐʔt\] <!--SR:!2026-02-10,24,130-->
+- [near-open central vowel](near-open%20central%20vowel.md):@:[English](English%20language.md) _n**u**t_ \[nɐʔt\] <!--SR:!2026-02-23,13,130-->
 - [open back unrounded vowel](open%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\] <!--SR:!2026-04-05,118,130-->
 - [nasalized open back unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**an**s_ [sɑ̃] "without" <!--SR:!2026-06-20,142,144-->
 - [open back rounded vowel](open%20back%20rounded%20vowel.md):@:[English](English%20language.md) _n**o**t_ \[nɒt\] <!--SR:!2027-10-11,836,224-->
@@ -991,7 +991,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:[English](English%20language.md) _f**oo**t_ \[fɵʔt\] <!--SR:!2026-05-10,101,150-->
 - [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young" <!--SR:!2026-04-03,105,150-->
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown" <!--SR:!2026-03-09,30,130-->
-- [open front rounded vowel](open%20front%20rounded%20vowel.md):@:[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green" <!--SR:!2026-02-10,6,130-->
+- [open front rounded vowel](open%20front%20rounded%20vowel.md):@:[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green" <!--SR:!2026-02-13,3,130-->
 - [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md):@:[English](English%20language.md) _**p**ack_ \[pʰæk\] <!--SR:!2028-04-13,1043,271-->
 - [voiceless uvular plosive](voiceless%20uvular%20plosive.md):@:[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat" <!--SR:!2026-02-14,28,130-->
 - [voiced alveolar trill](voiced%20alveolar%20trill.md):@:[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog" <!--SR:!2026-04-27,166,191-->
@@ -1011,11 +1011,11 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md):@:[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)" <!--SR:!2026-02-13,9,130-->
 - [voiceless retroflex affricate](voiceless%20retroflex%20affricate.md):@:[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)" <!--SR:!2026-04-04,59,130-->
 - [close back rounded vowel](close%20back%20rounded%20vowel.md):@:[English](English%20language.md) _b**oo**t_ \[bu̟ːt\] <!--SR:!2027-01-15,476,191-->
-- [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md):@:[English](English%20language.md) _h**oo**k_ \[hʊʔk\] <!--SR:!2026-02-10,130,130-->
+- [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md):@:[English](English%20language.md) _h**oo**k_ \[hʊʔk\] <!--SR:!2026-04-19,68,130-->
 - [close central rounded vowel](close%20central%20rounded%20vowel.md):@:[English](English%20language.md) _g**oo**se_ \[ɡʉːs\] <!--SR:!2026-05-27,112,130-->
 - [voiced labiodental fricative](voiced%20labiodental%20fricative.md):@:[English](English%20language.md) _**v**al**v**e_ \[væɫv\] <!--SR:!2027-05-15,855,312-->
 - [voiced labiodental approximant](voiced%20labiodental%20approximant.md):@:[Finnish](Finnish%20language.md) _**v**au**v**a_ \[ˈʋɑu̯ʋɑ\] "baby" <!--SR:!2026-09-13,239,252-->
-- [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md):@:[English](English%20language.md) _**w**eep_ \[wiːp\] <!--SR:!2026-02-10,250,232-->
+- [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md):@:[English](English%20language.md) _**w**eep_ \[wiːp\] <!--SR:!2026-06-13,123,212-->
 - [labialization](labialization.md):@:[English](English%20language.md) _**r**eed_ \[ɹʷiːd\] <!--SR:!2026-03-27,257,212-->
 - [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:[English](English%20language.md) _**wh**ine_ \[ʍaɪ̯n\] <!--SR:!2026-02-15,29,150-->
 - [close back unrounded vowel](close%20back%20unrounded%20vowel.md):@:[Turkish](Turkish%20language.md) _s**ı**ğ_ \[sɯː\] "shallow" <!--SR:!2027-04-02,500,212-->
@@ -1027,7 +1027,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced velar fricative](voiced%20velar%20fricative.md):@:[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend" <!--SR:!2026-02-28,24,130-->
 - [close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md):@:[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry" <!--SR:!2026-02-13,27,130-->
 - [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md):@:[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\] <!--SR:!2026-04-27,100,150-->
-- [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!2026-02-10,6,130-->
+- [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!2026-02-13,3,130-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\] <!--SR:!2026-03-17,285,190-->
 - [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\] <!--SR:!2026-04-19,346,210-->
 - [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!2026-02-17,31,130-->

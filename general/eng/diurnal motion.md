@@ -19,7 +19,7 @@ From {@{the [Northern celestial sphere](Northern%20celestial%20sphere.md)}@}, th
 
 From {@{the [Southern celestial sphere](Southern%20celestial%20sphere.md)}@}, the [stars](star.md) moves {@{[clockwise](clockwise.md) around [Sigma Octantis](Sigma%20Octantis.md), sometimes called the South [pole star](pole%20star.md)}@}. At the [South Pole](South%20Pole.md), all the [stars](star.md) can also be described as {@{moving left as Sigma Octantis is around the [zenith](zenith.md)}@}. <!--SR:!2026-10-10,611,317!2027-04-29,729,290!2026-05-05,451,297-->
 
-From {@{anywhere on the [equator](equator.md)}@}, the two [celestial poles](celestial%20pole.md) are {@{on the horizon due [north](north.md) and [south](south.md), and appears fixed}@}. The [stars](star.md) moves {@{[westward](west.md), vertically from and into the [horizon](horizon.md)}@}. <!--SR:!2026-07-22,578,337!2028-02-22,985,310!2026-02-10,437,317-->
+From {@{anywhere on the [equator](equator.md)}@}, the two [celestial poles](celestial%20pole.md) are {@{on the horizon due [north](north.md) and [south](south.md), and appears fixed}@}. The [stars](star.md) moves {@{[westward](west.md), vertically from and into the [horizon](horizon.md)}@}. <!--SR:!2026-07-22,578,337!2028-02-22,985,310!2031-05-08,1913,337-->
 
 For anywhere {@{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}@}, the motion is {@{tilted}@} and can be {@{interpolated from the above description using the current location's [latitude](latitude.md)}@}. <!--SR:!2028-08-08,1166,350!2026-10-12,635,330!2027-12-09,946,330-->
 

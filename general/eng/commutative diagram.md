@@ -63,7 +63,7 @@ In order for {@{the diagram below to commute}@}, {@{three equalities must be sat
 2. $m\circ g=G\circ l$
 3. $r\circ h=H\circ m$
 
-Here, since {@{the first equality follows from the last two}@}, it {@{suffices to show that \(2\) and \(3\) are true in order for the diagram to commute}@}. However, since {@{equality \(3\) generally does not follow from the other two}@}, it is {@{generally not enough to have only equalities \(1\) and \(2\) if one were to show that the diagram commutes}@}. <p> (annotation: the diagram) {@{![An example of a commutative diagram.](../../archives/Wikimedia%20Commons/CommutativeDiagramExample.svg)}@} <!--SR:!2026-02-17,293,330!2029-05-15,1215,350!2029-07-02,1253,350!2029-03-12,1163,350!2026-02-10,287,330-->
+Here, since {@{the first equality follows from the last two}@}, it {@{suffices to show that \(2\) and \(3\) are true in order for the diagram to commute}@}. However, since {@{equality \(3\) generally does not follow from the other two}@}, it is {@{generally not enough to have only equalities \(1\) and \(2\) if one were to show that the diagram commutes}@}. <p> (annotation: the diagram) {@{![An example of a commutative diagram.](../../archives/Wikimedia%20Commons/CommutativeDiagramExample.svg)}@} <!--SR:!2026-02-17,293,330!2029-05-15,1215,350!2029-07-02,1253,350!2029-03-12,1163,350!2029-09-15,1313,350-->
 
 ## diagram chasing
 
@@ -97,7 +97,7 @@ Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2029-02-14,1137,350!2029-06-13,1237,350-->
 - with the relation that this morphism is unique ::@:: \(any composition of maps is defined by its domain and target: this is the commutativity axiom\). <!--SR:!2027-05-09,628,330!2026-02-16,292,330-->
 
-However, {@{not every diagram commutes}@} \({@{the notion of diagram}@} {@{strictly generalizes commutative diagram}@}\). As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}. <!--SR:!2028-06-24,883,330!2029-09-01,1302,350!2026-02-17,293,330!2029-04-19,1189,350!2027-12-02,785,330!2026-02-16,292,330!2026-02-10,5,359!2026-02-10,5,359-->
+However, {@{not every diagram commutes}@} \({@{the notion of diagram}@} {@{strictly generalizes commutative diagram}@}\). As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}. <!--SR:!2028-06-24,883,330!2029-09-01,1302,350!2026-02-17,293,330!2029-04-19,1189,350!2027-12-02,785,330!2026-02-16,292,330!2026-03-06,24,379!2026-03-06,24,379-->
 
 ## see also
 

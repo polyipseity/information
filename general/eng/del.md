@@ -141,7 +141,7 @@ When {@{del operates on a scalar or vector}@}, {@{either a scalar or vector is r
 > - $\operatorname {div} (\operatorname {curl} \mathbf {v} )$ ::@:: $=\nabla \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2029-02-02,1114,350!2026-02-11,270,330-->
 > - $\operatorname {curl} (\operatorname {curl} \mathbf {v} )$ ::@:: $=\nabla \times (\nabla \times \mathbf {v} )$ <!--SR:!2026-02-21,276,330!2026-02-27,286,330-->
 > - $\Delta f$ ::@:: $=\nabla ^{2}f$ <!--SR:!2029-03-22,1161,350!2026-03-03,286,330-->
-> - $\Delta \mathbf {v}$ ::@:: $=\nabla ^{2}\mathbf {v}$ <!--SR:!2026-02-10,269,330!2026-03-07,294,330-->
+> - $\Delta \mathbf {v}$ ::@:: $=\nabla ^{2}\mathbf {v}$ <!--SR:!2029-06-14,1220,350!2026-03-07,294,330-->
 
 These are {@{of interest principally}@} because {@{they are not always unique or independent of each other}@}. As long as {@{the functions are well-behaved \($C^{\infty }$ in most cases\)}@}, {@{two of them are always zero}@}: {@{$${\begin{aligned}\operatorname {curl} (\operatorname {grad} f)&=\nabla \times (\nabla f)=0\\\operatorname {div} (\operatorname {curl} \mathbf {v} )&=\nabla \cdot (\nabla \times \mathbf {v} )=0\end{aligned} }$$}@} <!--SR:!2026-03-07,294,330!2026-03-07,294,330!2028-12-18,1068,350!2026-03-08,291,330!2026-03-01,284,330-->
 
