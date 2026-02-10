@@ -10,7 +10,7 @@ tags:
 
 # multimodal distribution
 
-In [statistics](statistics.md), a __multimodal__ __distribution__ is {@{a [probability distribution](probability%20distribution.md) with more than one (local) [mode](mode%20(statistics).md) (i.e., more than one local peak of the distribution)}@}. These appear as {@{distinct peaks (local maxima) in the [probability density function](probability%20density%20function.md)}@}. {@{Categorical, continuous, and discrete data}@} can all form multimodal distributions. Among {@{univariate analyses}@}, multimodal distributions are {@{commonly bimodal}@}. <!--SR:!2026-02-11,360,290!2027-12-28,801,290!2027-07-28,794,330!2028-12-16,1040,290!2028-10-09,1166,350-->
+In [statistics](statistics.md), a __multimodal__ __distribution__ is {@{a [probability distribution](probability%20distribution.md) with more than one (local) [mode](mode%20(statistics).md) (i.e., more than one local peak of the distribution)}@}. These appear as {@{distinct peaks (local maxima) in the [probability density function](probability%20density%20function.md)}@}. {@{Categorical, continuous, and discrete data}@} can all form multimodal distributions. Among {@{univariate analyses}@}, multimodal distributions are {@{commonly bimodal}@}. <!--SR:!2030-02-04,1454,310!2027-12-28,801,290!2027-07-28,794,330!2028-12-16,1040,290!2028-10-09,1166,350-->
 
 ## references
 

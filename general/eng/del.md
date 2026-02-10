@@ -34,7 +34,7 @@ Del is {@{a very convenient [mathematical notation](mathematical%20notation.md) 
 
 In {@{the [Cartesian coordinate system](Cartesian%20coordinate%20system.md) $\mathbb {R} ^{n}$ with coordinates $(x_{1},\dots ,x_{n})$}@} and {@{[standard basis](standard%20basis.md) $\{\mathbf {e} _{1},\dots ,\mathbf {e} _{n}\}$}@}, del is {@{a vector operator whose $x_{1},\dots ,x_{n}$ components are the [partial derivative](partial%20derivative.md) operators ${\partial  \over \partial x_{1} },\dots ,{\partial  \over \partial x_{n} }$}@}; that is, {@{$$\nabla =\sum _{i=1}^{n}\mathbf {e} _{i}{\partial  \over \partial x_{i} }=\left({\partial  \over \partial x_{1} },\ldots ,{\partial  \over \partial x_{n} }\right)$$}@} Where {@{the expression in parentheses is a row vector}@}. In {@{[three-dimensional](three-dimensional.md) Cartesian coordinate system $\mathbb {R} ^{3}$}@} with {@{coordinates $(x,y,z)$ and standard basis or unit vectors of axes $\{\mathbf {e} _{x},\mathbf {e} _{y},\mathbf {e} _{z}\}$}@}, del is written as {@{$$\nabla =\mathbf {e} _{x}{\partial  \over \partial x}+\mathbf {e} _{y}{\partial  \over \partial y}+\mathbf {e} _{z}{\partial  \over \partial z}=\left({\partial  \over \partial x},{\partial  \over \partial y},{\partial  \over \partial z}\right)$$}@} <!--SR:!2029-05-09,1191,350!2029-02-12,1124,350!2029-02-26,1138,350!2026-03-01,288,330!2026-03-07,294,330!2026-03-07,294,330!2029-02-14,1126,350!2026-03-07,294,330-->
 
-As {@{a vector operator}@}, del naturally {@{acts on scalar fields via scalar multiplication}@}, and naturally {@{acts on vector fields via dot products and cross products}@}. <!--SR:!2026-02-11,266,330!2026-03-11,294,330!2026-02-17,276,330-->
+As {@{a vector operator}@}, del naturally {@{acts on scalar fields via scalar multiplication}@}, and naturally {@{acts on vector fields via dot products and cross products}@}. <!--SR:!2029-05-31,1205,350!2026-03-11,294,330!2026-02-17,276,330-->
 
 More specifically, for {@{any scalar field $f$ and any vector field $\mathbf {F} =(F_{x},F_{y},F_{z})$}@}, if one _defines_ <!--SR:!2026-03-09,292,330-->
 
@@ -138,7 +138,7 @@ When {@{del operates on a scalar or vector}@}, {@{either a scalar or vector is r
 > - $\operatorname {div} (\operatorname {grad} f)$ ::@:: $=\nabla \cdot (\nabla f)=\nabla ^{2}f$ <!--SR:!2026-02-26,285,330!2026-02-26,285,330-->
 > - $\operatorname {curl} (\operatorname {grad} f)$ ::@:: $=\nabla \times (\nabla f)$ <!--SR:!2029-02-16,1128,350!2029-01-23,1104,350-->
 > - $\operatorname {grad} (\operatorname {div} \mathbf {v} )$ ::@:: $=\nabla (\nabla \cdot \mathbf {v} )$ <!--SR:!2026-03-03,286,330!2029-03-12,1152,350-->
-> - $\operatorname {div} (\operatorname {curl} \mathbf {v} )$ ::@:: $=\nabla \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2029-02-02,1114,350!2026-02-11,270,330-->
+> - $\operatorname {div} (\operatorname {curl} \mathbf {v} )$ ::@:: $=\nabla \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2029-02-02,1114,350!2029-06-19,1224,350-->
 > - $\operatorname {curl} (\operatorname {curl} \mathbf {v} )$ ::@:: $=\nabla \times (\nabla \times \mathbf {v} )$ <!--SR:!2026-02-21,276,330!2026-02-27,286,330-->
 > - $\Delta f$ ::@:: $=\nabla ^{2}f$ <!--SR:!2029-03-22,1161,350!2026-03-03,286,330-->
 > - $\Delta \mathbf {v}$ ::@:: $=\nabla ^{2}\mathbf {v}$ <!--SR:!2029-06-14,1220,350!2026-03-07,294,330-->

@@ -92,7 +92,7 @@ Sometimes {@{more than one mapping is useful}@}: a set $A$ to be shown as counta
 
 > Theorem — Any {@{finite [union](union%20(set%20theory).md) of countable sets}@} is countable.<sup>[\[24\]](#^ref-24)</sup><sup>[\[25\]](#^ref-25)</sup><sup>[\[e\]](#^ref-e)</sup> <!--SR:!2028-11-08,1101,350-->
 
-With {@{the foresight of knowing that there are uncountable sets}@}, we can wonder {@{whether or not this last result can be pushed any further}@}. The answer is {@{"yes" and "no", we can extend it, but we need to assume a new axiom to do so}@}. <!--SR:!2026-02-11,281,290!2028-12-04,1122,350!2029-03-11,1199,350-->
+With {@{the foresight of knowing that there are uncountable sets}@}, we can wonder {@{whether or not this last result can be pushed any further}@}. The answer is {@{"yes" and "no", we can extend it, but we need to assume a new axiom to do so}@}. <!--SR:!2029-03-19,1132,310!2028-12-04,1122,350!2029-03-11,1199,350-->
 
 > Theorem — \(Assuming {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}\) The {@{union of countably many countable sets}@} is countable.<sup>[\[f\]](#^ref-f)</sup> <!--SR:!2029-09-08,1337,350!2028-11-26,1117,350-->
 

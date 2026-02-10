@@ -61,7 +61,7 @@ Other applications include {@{staffing emergency departments in hospitals}@}.<su
 
 ## distributional form
 
-{@{An extension of Little's law}@} provides {@{a relationship between the steady state distribution of number of customers in the system and time spent in the system}@} under {@{a [first come, first served](first%20come,%20first%20served.md#service%20disciplines) service discipline}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-07-06,1248,350!2029-02-07,1123,350!2026-02-11,281,330-->
+{@{An extension of Little's law}@} provides {@{a relationship between the steady state distribution of number of customers in the system and time spent in the system}@} under {@{a [first come, first served](first%20come,%20first%20served.md#service%20disciplines) service discipline}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-07-06,1248,350!2029-02-07,1123,350!2029-08-13,1279,350-->
 
 ## see also
 

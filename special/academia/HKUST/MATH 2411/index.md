@@ -96,7 +96,7 @@ The content is in teaching order.
 - [inferential statistics](../../../../general/statistical%20inference.md) ::@:: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2026-12-10,631,330!2028-11-11,1188,350-->
   - inferential statistics / key terms ::@:: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2028-06-07,1070,350!2026-05-09,406,290-->
   - inferential statistics / reasons for sampling ::@:: cost-effectiveness, practicality <!--SR:!2026-05-07,455,310!2028-09-02,1138,350-->
-  - inferential statistics / procedures ::@:: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2026-02-12,361,290!2026-02-11,350,290-->
+  - inferential statistics / procedures ::@:: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2026-02-12,361,290!2029-12-26,1414,310-->
     - inferential statistics / procedures / analysis of variance ::@:: used to test the difference between two or more means <!--SR:!2028-05-17,970,330!2026-03-23,415,310-->
     - inferential statistics / procedures / estimation of parameters ::@:: estimate unknown parameters of a population based on a sample of the population <!--SR:!2029-09-24,1438,350!2027-04-08,716,330-->
     - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2028-08-23,1029,290!2026-11-29,613,310-->

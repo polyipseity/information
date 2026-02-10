@@ -432,7 +432,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >     if xn < yn then -1 else if xn > yn then 1 else 0
 > ```
 >
-> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2026-02-22,84,350!2026-02-22,84,350!2026-02-23,85,350!2026-02-21,83,350!2026-02-18,80,348!2026-02-21,83,348!2026-02-11,75,348!2027-02-06,361,368-->
+> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2026-02-22,84,350!2026-02-22,84,350!2026-02-23,85,350!2026-02-21,83,350!2026-02-18,80,348!2026-02-21,83,348!2027-02-08,362,368!2027-02-06,361,368-->
 
 ### extension methods
 

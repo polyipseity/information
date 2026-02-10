@@ -427,7 +427,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. All of these stars take the same time to get to the main sequence
 >
 > - solution: {@{4}@}
-> - explanation: {@{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}@} <!--SR:!2031-07-05,2040,401!2026-02-11,448,381-->
+> - explanation: {@{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}@} <!--SR:!2031-07-05,2040,401!2032-07-03,2334,401-->
 
 <!-- markdownlint MD028 -->
 

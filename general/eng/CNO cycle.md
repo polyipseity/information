@@ -40,7 +40,7 @@ This cycle is now understood as {@{being the first part of a larger process, the
 - 5th step ::@:: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2028-01-21,767,250!2028-02-27,868,290-->
   - 5th step / energy release (& half-life if available) ::@:: 1.73 MeV, 122.24 seconds <!--SR:!2027-03-02,489,210!2027-05-15,701,310-->
 - 6th step ::@:: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2027-03-25,541,230!2029-02-12,1288,350-->
-  - 6th step / energy release (& half-life if available) ::@:: 4.96 MeV <!--SR:!2026-02-11,382,290!2027-09-07,852,330-->
+  - 6th step / energy release (& half-life if available) ::@:: 4.96 MeV <!--SR:!2030-04-29,1538,310!2027-09-07,852,330-->
 
 ...where {@{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}@}. After {@{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}@}, {@{the total energy released in one cycle}@} is {@{26.73 MeV}@}. <!--SR:!2027-05-12,771,330!2028-03-14,842,270!2028-04-29,1000,310!2026-04-04,83,346-->
 

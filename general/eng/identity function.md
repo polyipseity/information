@@ -31,7 +31,7 @@ Formally, if {@{_X_ is a [set](set%20(mathematics).md)}@}, the identity function
 
 {@{_f_\(_x_\) = _x_   for all elements _x_}@} in _X_.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-09-04,1304,350-->
 
-In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{always the same as the input element _x_ in the domain _X_}@}. The identity function on _X_ is clearly {@{an [injective function](injective%20function.md) as well as a [surjective function](surjective%20function.md) \(its codomain is also its [range](range%20(function).md)\), so it is [bijective](bijection.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-02-11,288,330!2029-08-07,1281,350!2027-11-21,776,330-->
+In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{always the same as the input element _x_ in the domain _X_}@}. The identity function on _X_ is clearly {@{an [injective function](injective%20function.md) as well as a [surjective function](surjective%20function.md) \(its codomain is also its [range](range%20(function).md)\), so it is [bijective](bijection.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-20,1317,350!2029-08-07,1281,350!2027-11-21,776,330-->
 
 {@{The identity function _f_ on _X_}@} is often denoted {@{by id<sub>_X_</sub>}@}. <!--SR:!2029-07-11,1259,350!2029-05-16,1217,350-->
 
@@ -48,7 +48,7 @@ Since {@{the identity element of a monoid is [unique](unique%20(mathematics).md)
 - The identity function is a [linear operator](linear%20map.md) ::@:: when applied to [vector spaces](vector%20space.md).<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-03-28,1168,350!2029-06-06,1229,350-->
 - In an _n_-[dimensional](dimension%20(vector%20space).md) [vector space](vector%20space.md) the identity function ::@:: is represented by the [identity matrix](identity%20matrix.md) _I_<sub>_n_</sub>, regardless of the [basis](basis%20(linear%20algebra).md) chosen for the space.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-07-31,1275,350!2027-11-30,783,330-->
 - The identity function on the positive [integers](integer.md) ::@:: is a [completely multiplicative function](completely%20multiplicative%20function.md) \(essentially multiplication by 1\), considered in [number theory](number%20theory.md).<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2029-05-25,1225,350!2029-09-02,1302,350-->
-- In a [metric space](metric%20space.md) the identity function ::@:: is trivially an [isometry](isometry.md). An object without any [symmetry](symmetry.md) has as its [symmetry group](symmetry%20group.md) the [trivial group](trivial%20group.md) containing only this isometry \(symmetry type C<sub>1</sub>\).<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-02-11,288,330!2027-11-27,781,330-->
+- In a [metric space](metric%20space.md) the identity function ::@:: is trivially an [isometry](isometry.md). An object without any [symmetry](symmetry.md) has as its [symmetry group](symmetry%20group.md) the [trivial group](trivial%20group.md) containing only this isometry \(symmetry type C<sub>1</sub>\).<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-09-19,1316,350!2027-11-27,781,330-->
 - In a [topological space](topological%20space.md), ::@:: the identity function is always [continuous](continuous%20function.md#continuous%20functions%20between%20topological%20spaces).<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-06-19,1242,350!2029-09-14,1312,350-->
 - The identity function ::@:: is [idempotent](idempotence.md).<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2029-09-07,1306,350!2026-02-15,291,330-->
 

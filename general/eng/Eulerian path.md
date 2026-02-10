@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2029-09-22,1379,356!2026-03-10,372,362!2028-04-12,896,342!2026-03-26,386,362!2028-10-03,1102,362!2026-02-11,353,362!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2030-10-16,1716,382!2026-03-17,379,362-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2029-09-22,1379,356!2026-03-10,372,362!2028-04-12,896,342!2026-03-26,386,362!2028-10-03,1102,362!2030-11-30,1753,382!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2030-10-16,1716,382!2026-03-17,379,362-->
 
 ### Fleury's algorithm
 
@@ -82,7 +82,7 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 - Choose {@{any starting vertex _v_}@}, and {@{follow a trail of edges from that vertex until returning to _v_}@}. It is {@{not possible to get stuck at any vertex other than _v_}@}, because {@{the even degree of all vertices ensures that, when the trail enters another vertex _w_ there must be an unused edge leaving _w_}@}. {@{The tour formed in this way}@} is {@{a closed tour, but may not cover all the vertices and edges of the initial graph}@}.
 - As long as {@{there exists a vertex _u_ that belongs to the current tour but that has adjacent edges not part of the tour}@}, start {@{another trail from _u_, following unused edges until returning to _u_}@}, and {@{join the tour formed in this way to the previous tour}@}.
-- Since we {@{assume the original graph is [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{repeating the previous step will exhaust all edges of the graph}@}. <!--SR:!2030-05-30,1594,370!2028-03-31,926,336!2026-03-20,381,362!2026-03-09,373,362!2026-03-20,382,362!2029-04-02,1249,362!2026-03-27,388,362!2027-12-21,873,350!2029-09-23,1381,356!2026-02-11,349,350!2028-10-19,1115,362-->
+- Since we {@{assume the original graph is [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{repeating the previous step will exhaust all edges of the graph}@}. <!--SR:!2030-05-30,1594,370!2028-03-31,926,336!2026-03-20,381,362!2026-03-09,373,362!2026-03-20,382,362!2029-04-02,1249,362!2026-03-27,388,362!2027-12-21,873,350!2029-09-23,1381,356!2030-09-17,1679,370!2028-10-19,1115,362-->
 
 By using {@{a data structure such as a [doubly linked list](doubly%20linked%20list.md)}@} {@{to maintain the set of unused edges incident to each vertex, to maintain the list of vertices on the current tour that have unused edges, and to maintain the tour itself}@}, {@{the individual operations of the algorithm}@} \({@{finding unused edges exiting each vertex, finding a new starting vertex for a tour, and connecting two tours that share a vertex}@}\) may be {@{performed in constant time each}@}, so {@{the overall algorithm takes [linear time](time%20complexity.md#linear%20time), $O(|E|)$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-03-09,373,362!2026-06-29,436,322!2026-03-19,381,362!2026-03-08,372,362!2028-10-14,1111,362!2029-03-27,1243,362-->
 

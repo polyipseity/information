@@ -34,7 +34,7 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 
 ## calculation
 
-If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where: <!--SR:!2026-02-11,291,330!2029-07-29,1276,350!2026-02-18,26,381-->
+If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where: <!--SR:!2029-10-04,1331,350!2029-07-29,1276,350!2026-02-18,26,381-->
 
 - _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2029-03-01,1152,350!2029-06-26,1251,350-->
 - _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2026-02-14,294,330!2029-05-09,1209,350-->

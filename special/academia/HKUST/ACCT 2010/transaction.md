@@ -24,7 +24,7 @@ tags:
 > | December 31, 2024                       | {@{Debit}@} | {@{Credit}@} |
 > | --------------------------------------- |:-----------:|:------------:|
 > | {@{Treasury stock (−SE)}@}              | {@{42}@}    |              |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |             | {@{42}@}     | <!--SR:!2030-04-29,1543,360!2030-04-02,1521,360!2028-11-30,1128,350!2030-04-16,1532,360!2030-04-24,1540,360!2029-06-10,1277,350!2026-02-11,334,340-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |             | {@{42}@}     | <!--SR:!2030-04-29,1543,360!2030-04-02,1521,360!2028-11-30,1128,350!2030-04-16,1532,360!2030-04-24,1540,360!2029-06-10,1277,350!2030-05-25,1564,360-->
 
 <!-- markdownlint MD028 -->
 
@@ -54,7 +54,7 @@ tags:
 > | {@{Cash (+A)}@}                                                | {@{1200}@}  |              |
 > | {@{Accumulated depreciation (−XA, +A)}@}                       | {@{600}@}   |              |
 > | &nbsp;&nbsp;&nbsp;&nbsp;{@{Boat (−A)}@}                        |             | {@{1000}@}   |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Gain on sale of assets (+R, +SE)}@} |             | {@{800}@}    | <!--SR:!2030-04-17,1533,360!2030-04-15,1532,360!2029-12-24,1444,360!2030-05-14,1555,360!2030-05-17,1557,360!2029-12-03,1423,360!2027-10-04,773,330!2026-06-03,367,320!2026-02-11,334,340!2030-05-17,1558,360!2030-04-14,1531,360-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Gain on sale of assets (+R, +SE)}@} |             | {@{800}@}    | <!--SR:!2030-04-17,1533,360!2030-04-15,1532,360!2029-12-24,1444,360!2030-05-14,1555,360!2030-05-17,1557,360!2029-12-03,1423,360!2027-10-04,773,330!2026-06-03,367,320!2030-05-22,1561,360!2030-05-17,1558,360!2030-04-14,1531,360-->
 
 <!-- markdownlint MD028 -->
 
@@ -99,7 +99,7 @@ tags:
 
 - format ::@:: (optional) description <br/> (optional) date <br/> account captions <br/> corresponding amounts <br/> (optional) relevant changes to _normal balances_ <!--SR:!2026-02-12,308,300!2026-09-19,475,320-->
   - description ::@:: Optional. Simply describe the transaction. Usually use past tense. <!--SR:!2030-05-01,1545,360!2030-04-10,1528,360-->
-  - date ::@:: Optional. The date of transaction. Examples: `January 1, 2024`, `December 31, 2024`. <!--SR:!2028-05-06,954,340!2026-02-11,334,340-->
+  - date ::@:: Optional. The date of transaction. Examples: `January 1, 2024`, `December 31, 2024`. <!--SR:!2028-05-06,954,340!2030-05-23,1562,360-->
   - account captions ::@:: Debits first, then credits. Optionally, indent the credited accounts. (This is the usual convention.) <!--SR:!2030-04-13,1530,360!2030-04-25,1541,360-->
-  - corresponding amounts ::@:: A 'T'-format is used, where debits are written on the left and credits are written on the right. Negative numbers should not occur. <!--SR:!2026-02-11,334,340!2030-03-21,1512,360-->
+  - corresponding amounts ::@:: A 'T'-format is used, where debits are written on the left and credits are written on the right. Negative numbers should not occur. <!--SR:!2030-05-24,1563,360!2030-03-21,1512,360-->
   - relevant changes to _normal balances_ ::@:: Optional. Indicate all relevant changes to the _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. <p> Choose the appropriate ones. There can be multiple, e.g. `(+XR, -R, −SE)`. There is no contra-equity `∓XSE`, use `±SE` instead. There is also no contra-liability `∓XL`, use `±L` instead. <!--SR:!2027-05-29,666,320!2030-04-26,1541,360-->

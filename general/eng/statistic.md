@@ -39,7 +39,7 @@ There are {@{a variety of functions}@} that are used to {@{calculate statistics}
 - [Test statistics](test%20statistic.md), ::@:: such as [t-statistic](t-statistic.md), [chi-squared statistic](chi-squared%20statistic.md), [f statistic](F-test.md) <!--SR:!2029-09-11,1309,350!2029-02-16,1139,350-->
 - [Order statistics](order%20statistic.md), ::@:: including sample maximum and minimum <!--SR:!2029-05-26,1226,350!2028-12-01,1085,350-->
 - Sample [moments](moment%20(mathematics).md) and functions thereof, ::@:: including [kurtosis](kurtosis.md) and [skewness](skewness.md) <!--SR:!2029-08-29,1299,350!2028-01-24,827,330-->
-- Various [functionals](functional%20(mathematics).md) ::@:: of the [empirical distribution function](empirical%20distribution%20function.md) <!--SR:!2026-02-11,288,330!2029-07-06,1251,350-->
+- Various [functionals](functional%20(mathematics).md) ::@:: of the [empirical distribution function](empirical%20distribution%20function.md) <!--SR:!2029-09-16,1313,350!2029-07-06,1251,350-->
 
 ## properties
 

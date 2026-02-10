@@ -11,7 +11,7 @@ tags:
 
 ## types
 
-There are two types of errors: {@{syntax errors and runtime errors}@}. The former {@{occurs during compilation and is detected by the compiler}@}, while the latter {@{occurs during execution}@}. <!--SR:!2027-02-01,832,330!2027-09-23,1031,350!2026-02-11,103,383-->
+There are two types of errors: {@{syntax errors and runtime errors}@}. The former {@{occurs during compilation and is detected by the compiler}@}, while the latter {@{occurs during execution}@}. <!--SR:!2027-02-01,832,330!2027-09-23,1031,350!2027-08-05,540,403-->
 
 ## runtime errors
 

@@ -542,7 +542,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:\[ʐ\] <!--SR:!2026-11-24,510,330-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:\[θ\] <!--SR:!2029-04-18,1391,376-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:\[ɸ\] <!--SR:!2027-04-12,676,354-->
-- [glottal stop](glottal%20stop.md):@:\[ʔ\] <!--SR:!2026-02-11,294,350-->
+- [glottal stop](glottal%20stop.md):@:\[ʔ\] <!--SR:!2029-12-28,1416,370-->
 - [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md):@:\[ʕ\] <!--SR:!2028-12-23,1053,315-->
 - [tenuis dental click](tenuis%20dental%20click.md):@:\[ǀ\] <!--SR:!2026-11-07,499,316-->
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:\[ǁ\] <!--SR:!2030-02-01,1627,375-->
@@ -975,7 +975,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle" <!--SR:!2026-04-20,127,150-->
 - [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!2026-02-13,27,130-->
 - [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six" <!--SR:!2026-04-06,111,150-->
-- [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!2026-02-11,7,130-->
+- [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!2026-02-21,10,130-->
 - [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md):@:[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\] <!--SR:!2026-04-22,182,201-->
 - [voiced bilabial nasal](voiced%20bilabial%20nasal.md):@:[English](English%20language.md) _hi**m**_ \[hɪm\] <!--SR:!2031-11-21,2117,301-->
 - [voiced labiodental nasal](voiced%20labiodental%20nasal.md):@:[English](English%20language.md) _sy**m**phony_ \[ˈsɪɱfəni\] <!--SR:!2027-07-26,537,261-->

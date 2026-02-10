@@ -27,7 +27,7 @@ tags:
 
 In {@{[Boolean algebra](Boolean%20algebra%20(logic).md)}@}, {@{the __consensus theorem__ or __rule of consensus__}@}<sup>[\[1\]](#^ref-1)</sup> is {@{the identity: $$xy\vee {\bar {x} }z\vee yz=xy\vee {\bar {x} }z$$}@} {@{The __consensus__ or __resolvent__ of the terms $xy$ and ${\bar {x} }z$}@} is {@{$yz$}@}. It is {@{the conjunction of all the unique literals of the terms, excluding the literal that appears unnegated in one term and negated in the other}@}. If {@{$y$ includes a term that is negated in $z$ \(or vice versa\) (annotation: e.g. $y = ab$, $z = \bar a b$, then $a$ is the term)}@}, {@{the consensus term $yz$ is false}@}; in other words, {@{there is no consensus term}@}. <!--SR:!2029-03-11,1151,350!2026-02-23,285,330!2027-11-25,759,330!2029-02-25,1137,350!2026-02-28,290,330!2027-07-30,679,330!2029-03-30,1168,350!2029-03-20,1160,350!2029-02-05,1121,350-->
 
-{@{The conjunctive [dual](De%20Morgan's%20laws.md) of this equation}@} is: {@{$$(x\vee y)({\bar {x} }\vee z)(y\vee z)=(x\vee y)({\bar {x} }\vee z)$$}@} <!--SR:!2026-02-11,273,330!2028-04-25,831,330-->
+{@{The conjunctive [dual](De%20Morgan's%20laws.md) of this equation}@} is: {@{$$(x\vee y)({\bar {x} }\vee z)(y\vee z)=(x\vee y)({\bar {x} }\vee z)$$}@} <!--SR:!2029-07-07,1242,350!2028-04-25,831,330-->
 
 ## proof
 
@@ -41,7 +41,7 @@ For {@{the conjunctive dual of the rule}@}, {@{the consensus $y\vee z$}@} can be
 
 ## applications
 
-In {@{Boolean algebra}@}, {@{repeated consensus}@} is {@{the core of one algorithm}@} for {@{calculating the [Blake canonical form](Blake%20canonical%20form.md) of a formula}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-02-16,278,330!2029-03-18,1158,350!2028-04-30,836,330!2026-02-11,20,366-->
+In {@{Boolean algebra}@}, {@{repeated consensus}@} is {@{the core of one algorithm}@} for {@{calculating the [Blake canonical form](Blake%20canonical%20form.md) of a formula}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-02-16,278,330!2029-03-18,1158,350!2028-04-30,836,330!2026-05-24,102,386-->
 
 In {@{[digital logic](digital%20logic.md)}@}, including the consensus term {@{in a circuit can eliminate [race hazards](race%20hazard.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-06-03,1216,350!2029-06-25,1232,350-->
 

@@ -75,7 +75,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="c471"--><!-- The following content is generated at 2024-03-25T02:33:59.339528+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[Ward's method](Ward's%20method.md) <!--SR:!2028-01-13,988,335!2028-02-04,1003,335-->
-- [Ward's method](Ward's%20method.md)→::@::←centroid linkage clustering <!--SR:!2026-02-11,421,275!2026-11-23,671,315-->
+- [Ward's method](Ward's%20method.md)→::@::←centroid linkage clustering <!--SR:!2030-07-15,1615,295!2026-11-23,671,315-->
 - centroid linkage clustering→::@::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2028-12-07,1134,295!2027-10-21,912,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→::@::←median linkage clustering <!--SR:!2027-04-14,779,295!2029-01-31,1269,295-->
 - median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2027-12-29,965,295!2030-08-09,1702,315-->

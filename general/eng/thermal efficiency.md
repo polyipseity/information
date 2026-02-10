@@ -18,7 +18,7 @@ tags:
 > where
 >
 > - {@{$W$}@} is {@{the net [work](work%20(physics).md) done by the system}@}
-> - {@{$Q_\mathrm{in}$ and $Q_\mathrm{out}$}@} are {@{respectively the [heat](heat.md) supplied to and given off by the system}@} <!--SR:!2031-02-22,1965,330!2027-12-10,1128,350!2026-02-11,67,330!2026-02-17,72,330!2026-02-22,76,330-->
+> - {@{$Q_\mathrm{in}$ and $Q_\mathrm{out}$}@} are {@{respectively the [heat](heat.md) supplied to and given off by the system}@} <!--SR:!2031-02-22,1965,330!2027-12-10,1128,350!2026-12-17,309,350!2026-02-17,72,330!2026-02-22,76,330-->
 
 ## references
 

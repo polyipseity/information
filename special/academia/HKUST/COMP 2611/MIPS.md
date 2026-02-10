@@ -21,7 +21,7 @@ This seems more like a pedagogical tool...
 - make common cases fast ::@:: Variants of instructions that accept _immediate_ operands instead of register or memory operands are available. <!--SR:!2026-04-13,293,330!2026-02-27,268,330-->
 - simplicity favors regularity \(less cases\) ::@:: Each instruction is 32 bits long, and has a fixed number of operands. It makes CPU implementations simpler and allows better performance. <!--SR:!2026-03-01,270,330!2029-01-12,1083,350-->
   - simplicity favors regularity / comparison ::@:: x86, a _complex_ instruction set computer \(CISC\) ISA, supports a variable number of operands. <!--SR:!2029-04-16,1161,350!2026-02-28,269,330-->
-- smaller is faster ::@:: Less registers means faster processors. More registers means more propagation delay \(longer travel time\). <!--SR:!2026-03-06,275,330!2026-02-11,255,330-->
+- smaller is faster ::@:: Less registers means faster processors. More registers means more propagation delay \(longer travel time\). <!--SR:!2026-03-06,275,330!2029-04-16,1160,350-->
 
 ## registers
 
@@ -29,7 +29,7 @@ Registers are {@{_fast_ temporary storage _inside_ the processor \(not on the ma
 
 Variables differ from registers in that {@{the former is a logical concept while the latter is a physical thing}@}. Thus, there can be {@{an unlimited number of variables}@}. <!--SR:!2029-04-09,1155,350!2029-04-12,1158,350-->
 
-In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@} <!--SR:!2026-02-11,255,330!2029-03-18,1137,350!2026-04-09,289,330!2028-05-16,829,330-->
+In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@} <!--SR:!2029-04-15,1159,350!2029-03-18,1137,350!2026-04-09,289,330!2028-05-16,829,330-->
 
 Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values are transferred from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2026-02-27,268,330!2026-03-02,271,330!2028-05-17,830,330-->
 
@@ -277,7 +277,7 @@ The 32 registers are used as follows:
 > - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2026-03-04,273,330-->
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2026-02-27,268,330!2026-04-10,290,330-->
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2028-01-01,776,330!2026-03-01,270,330-->
-> - __`$gp`__ ::@:: `$28`: global pointer <!--SR:!2026-02-11,255,330!2026-03-15,282,330-->
+> - __`$gp`__ ::@:: `$28`: global pointer <!--SR:!2029-04-20,1164,350!2026-03-15,282,330-->
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2027-12-07,756,330!2026-03-02,271,330-->
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2026-03-13,281,330!2026-04-13,293,330-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2029-03-09,1129,350!2026-04-14,294,330-->
@@ -294,13 +294,13 @@ If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(
 
 ### assembly format
 
-Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the _pseudo-instruction_ `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}. <!--SR:!2029-03-25,1143,350!2029-03-07,1128,350!2026-02-24,265,330!2026-04-08,288,330!2026-02-28,269,330!2026-03-13,281,330!2026-02-11,255,330!2026-02-11,255,330!2026-02-23,264,330-->
+Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the _pseudo-instruction_ `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}. <!--SR:!2029-03-25,1143,350!2029-03-07,1128,350!2026-02-24,265,330!2026-04-08,288,330!2026-02-28,269,330!2026-03-13,281,330!2029-04-22,1166,350!2029-04-19,1163,350!2026-02-23,264,330-->
 
 In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2026-02-26,267,330!2026-04-07,288,330!2026-04-08,289,330!2026-03-18,285,330!2026-02-25,266,330!2029-01-30,1098,350!2029-03-06,1126,350!2029-03-23,1141,350-->
 
 In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}. <!--SR:!2026-02-26,267,330!2026-04-06,286,330!2026-04-09,290,330-->
 
-{@{The above "instructions" starting with a period `.`}@} are {@{more properly called _assembler directives_}@}. They include directives that {@{specify alignment, data, strings, symbol visibility, etc.}@} They are {@{not actual MIPS instructions}@} since {@{they are processed by the assembler during assembly rather than run during program execution}@}. <!--SR:!2026-02-11,255,330!2026-04-11,292,330!2026-02-26,267,330!2026-04-11,291,330!2029-04-03,1150,350-->
+{@{The above "instructions" starting with a period `.`}@} are {@{more properly called _assembler directives_}@}. They include directives that {@{specify alignment, data, strings, symbol visibility, etc.}@} They are {@{not actual MIPS instructions}@} since {@{they are processed by the assembler during assembly rather than run during program execution}@}. <!--SR:!2029-04-23,1167,350!2026-04-11,292,330!2026-02-26,267,330!2026-04-11,291,330!2029-04-03,1150,350-->
 
 ### assembly directives
 
@@ -319,11 +319,11 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 
 ### entry point
 
-The convention is {@{the entry point \(first instruction to be executed when a program starts\) is labeled by the label `.__start`}@}. Additionally, {@{the label needs to be global, specified using `.globl __start`}@}. For example, a way to start a program is: <p> {@{<pre>.text<br/>.globl \_\_start<br/>\_\_start:<br/># your instructions here</pre>}@}. <!--SR:!2029-02-09,1103,350!2026-02-11,255,330!2026-03-01,270,330-->
+The convention is {@{the entry point \(first instruction to be executed when a program starts\) is labeled by the label `.__start`}@}. Additionally, {@{the label needs to be global, specified using `.globl __start`}@}. For example, a way to start a program is: <p> {@{<pre>.text<br/>.globl \_\_start<br/>\_\_start:<br/># your instructions here</pre>}@}. <!--SR:!2029-02-09,1103,350!2029-04-23,1167,350!2026-03-01,270,330-->
 
 ## control flow
 
-In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2026-03-03,272,330!2026-03-13,281,330!2026-03-07,276,330!2027-11-25,746,330!2026-02-11,255,330!2026-02-25,266,330-->
+In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2026-03-03,272,330!2026-03-13,281,330!2026-03-07,276,330!2027-11-25,746,330!2029-04-21,1165,350!2026-02-25,266,330-->
 
 To convert {@{structured control flow statements into assembly}@} manually, {@{identify _basic blocks_}@}, which is {@{a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph}@} can be {@{constructed out of these basic blocks}@}. Finally, _label_ {@{the basic blocks at their beginnings}@} and add {@{conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2026-04-12,292,330!2029-03-24,1142,350!2026-04-09,289,330!2028-01-24,795,330!2026-03-15,282,330!2026-04-08,288,330!2029-01-11,1082,350!2026-02-28,269,330!2026-02-26,267,330!2026-04-13,293,330!2029-01-18,1087,350!2026-05-13,147,427!2026-05-07,142,427!2026-05-13,147,427-->
 
