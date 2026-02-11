@@ -25,7 +25,7 @@ Some examples of statistics are:
 
 - "In a recent survey of Americans, __52%__ of women say global warming is happening."
 
-In this case, {@{"52%" is a statistic}@}, namely {@{the percentage of women in the survey sample who believe in global warming}@}. {@{The population}@} is {@{the [set](set%20(mathematics).md) of all women in the United States}@}, and {@{the population parameter being estimated}@} is {@{the percentage of _all_ women in the United States, not just those surveyed, who believe in global warming}@}. <!--SR:!2029-07-19,1264,350!2029-06-11,1226,350!2026-02-12,289,330!2028-11-05,1064,350!2029-06-12,1227,350!2029-06-30,1245,350-->
+In this case, {@{"52%" is a statistic}@}, namely {@{the percentage of women in the survey sample who believe in global warming}@}. {@{The population}@} is {@{the [set](set%20(mathematics).md) of all women in the United States}@}, and {@{the population parameter being estimated}@} is {@{the percentage of _all_ women in the United States, not just those surveyed, who believe in global warming}@}. <!--SR:!2029-07-19,1264,350!2029-06-11,1226,350!2029-09-25,1321,350!2028-11-05,1064,350!2029-06-12,1227,350!2029-06-30,1245,350-->
 
 - "The manager of a large hotel located near Disney World indicated that 20 selected guests had a mean length of stay equal to __5.6__ days."
 

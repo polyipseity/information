@@ -45,7 +45,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 - (annotation: design) Easy to ::@:: design and modify <!--SR:!2029-07-16,1260,350!2026-10-08,450,310-->
 - (annotation: states) Easy to ::@:: detect illegal states <!--SR:!2029-05-25,1223,350!2028-10-17,1050,350-->
 - Takes advantage of ::@:: an [FPGA](field-programmable%20gate%20array.md)'s abundant flip-flops <!--SR:!2029-02-23,1140,350!2029-08-31,1301,350-->
-- Using a one-hot implementation ::@:: typically allows a state machine to run at a faster clock rate than any other encoding of that state machine<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-02-16,1133,350!2026-02-12,289,330-->
+- Using a one-hot implementation ::@:: typically allows a state machine to run at a faster clock rate than any other encoding of that state machine<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-02-16,1133,350!2029-09-22,1318,350-->
 
 ##### disadvantages
 
@@ -54,7 +54,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 
 ### natural language processing
 
-In {@{[natural language processing](natural%20language%20processing.md)}@}, {@{a one-hot vector}@} is {@{a 1 × _N_ matrix \(vector\) used to distinguish each word in a vocabulary from every other word in the vocabulary}@}.<sup>[\[5\]](#^ref-5)</sup> The vector consists of {@{0s in all cells with the exception of a single 1 in a cell used uniquely to identify the word}@}. One-hot encoding ensures that {@{machine learning does not assume that higher numbers are more important}@}. For example, {@{the value '8' is bigger than the value '1'}@}, but {@{that does not make '8' more important than '1'}@}. The same is {@{true for words: the value 'laughter' is not more important than 'laugh'}@}. <!--SR:!2029-07-08,1252,350!2029-08-15,1288,350!2029-03-21,1166,350!2029-01-05,1114,350!2029-01-18,1126,350!2028-11-04,1065,350!2026-02-12,289,330!2029-07-30,1274,350-->
+In {@{[natural language processing](natural%20language%20processing.md)}@}, {@{a one-hot vector}@} is {@{a 1 × _N_ matrix \(vector\) used to distinguish each word in a vocabulary from every other word in the vocabulary}@}.<sup>[\[5\]](#^ref-5)</sup> The vector consists of {@{0s in all cells with the exception of a single 1 in a cell used uniquely to identify the word}@}. One-hot encoding ensures that {@{machine learning does not assume that higher numbers are more important}@}. For example, {@{the value '8' is bigger than the value '1'}@}, but {@{that does not make '8' more important than '1'}@}. The same is {@{true for words: the value 'laughter' is not more important than 'laugh'}@}. <!--SR:!2029-07-08,1252,350!2029-08-15,1288,350!2029-03-21,1166,350!2029-01-05,1114,350!2029-01-18,1126,350!2028-11-04,1065,350!2029-09-23,1319,350!2029-07-30,1274,350-->
 
 ### machine learning and statistics
 

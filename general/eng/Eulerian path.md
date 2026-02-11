@@ -147,7 +147,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2030-08-29,1665,370!2029-09-28,1384,356!2026-03-18,380,362-->
 
-{@{Hierholzer's linear time algorithm for constructing an Eulerian tour}@} is {@{also applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-31,390,362!2026-02-12,354,362-->
+{@{Hierholzer's linear time algorithm for constructing an Eulerian tour}@} is {@{also applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-31,390,362!2030-12-12,1764,382-->
 
 ## mixed Eulerian graphs
 

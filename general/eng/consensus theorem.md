@@ -47,7 +47,7 @@ In {@{[digital logic](digital%20logic.md)}@}, including the consensus term {@{in
 
 ## history
 
-The concept of consensus was introduced by {@{[Archie Blake](Archie%20Blake%20(mathematician).md) in 1937}@}, related to {@{the [Blake canonical form](Blake%20canonical%20form.md)}@}.<sup>[\[4\]](#^ref-4)</sup> It was rediscovered by {@{Samson and Mills in 1954<sup>[\[5\]](#^ref-5)</sup> and by [Quine](Willard%20van%20Orman%20Quine.md) in 1955}@}.<sup>[\[6\]](#^ref-6)</sup> Quine coined {@{the term 'consensus'}@}. {@{[Robinson](John%20Alan%20Robinson.md) used it for clauses in 1965}@} as {@{the basis of his "[resolution principle](resolution%20(logic).md)"}@}.<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup> <!--SR:!2029-07-02,1238,350!2026-02-14,276,330!2026-08-11,367,290!2029-03-07,1147,350!2027-01-07,514,310!2026-02-12,274,330-->
+The concept of consensus was introduced by {@{[Archie Blake](Archie%20Blake%20(mathematician).md) in 1937}@}, related to {@{the [Blake canonical form](Blake%20canonical%20form.md)}@}.<sup>[\[4\]](#^ref-4)</sup> It was rediscovered by {@{Samson and Mills in 1954<sup>[\[5\]](#^ref-5)</sup> and by [Quine](Willard%20van%20Orman%20Quine.md) in 1955}@}.<sup>[\[6\]](#^ref-6)</sup> Quine coined {@{the term 'consensus'}@}. {@{[Robinson](John%20Alan%20Robinson.md) used it for clauses in 1965}@} as {@{the basis of his "[resolution principle](resolution%20(logic).md)"}@}.<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup> <!--SR:!2029-07-02,1238,350!2026-02-14,276,330!2026-08-11,367,290!2029-03-07,1147,350!2027-01-07,514,310!2029-07-13,1247,350-->
 
 ## references
 

@@ -134,7 +134,7 @@ In {@{[projective geometry](projective%20geometry.md)}@}, {@{[Levi graphs](levi%
 - [convex bipartite graph](convex%20bipartite%20graph.md), ::@:: a bipartite graph whose vertices can be ordered so that the vertex neighborhoods are contiguous <!--SR:!2026-04-15,320,250!2027-03-02,539,270-->
 - [multipartite graph](multipartite%20graph.md), ::@:: a generalization of bipartite graphs to more than two subsets of vertices <!--SR:!2027-08-07,753,330!2027-02-15,634,330-->
 - [parity graph](parity%20graph.md), ::@:: a generalization of bipartite graphs in which every two [induced paths](induced%20path.md) between the same two points have the same parity <!--SR:!2029-04-25,1207,310!2026-04-01,293,290-->
-- [quasi-bipartite graph](quasi-bipartite%20graph.md), ::@:: a type of Steiner tree problem instance in which the terminals form an independent set, allowing approximation algorithms that generalize those for bipartite graphs <!--SR:!2026-10-08,453,270!2026-02-12,310,270-->
+- [quasi-bipartite graph](quasi-bipartite%20graph.md), ::@:: a type of Steiner tree problem instance in which the terminals form an independent set, allowing approximation algorithms that generalize those for bipartite graphs <!--SR:!2026-10-08,453,270!2029-04-26,1169,290-->
 - [split graph](split%20graph.md), ::@:: a graph in which the vertices can be partitioned into two subsets, one of which is independent and the other of which is a clique <!--SR:!2026-05-03,361,290!2027-04-03,630,290-->
 - [Zarankiewicz problem](Zarankiewicz%20problem.md) ::@:: on the maximum number of edges in a bipartite graph with forbidden subgraphs <!--SR:!2029-08-22,1308,310!2029-05-01,1213,310-->
 

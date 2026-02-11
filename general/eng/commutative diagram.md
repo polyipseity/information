@@ -34,7 +34,7 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
 - An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2027-12-19,789,330!2026-07-31,330,250-->
 - An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2026-02-18,294,330!2029-07-31,1274,350-->
 - The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2028-01-06,811,330!2029-04-21,1191,350-->
-  - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2027-10-03,741,330!2026-02-12,289,330-->
+  - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2027-10-03,741,330!2029-09-26,1322,350-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2029-08-17,1290,350!2027-05-17,635,330-->
 
 {@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2028-10-08,1042,350!2029-08-25,1296,350!2029-02-28,1151,350!2029-01-10,1119,350!2027-07-16,683,330-->

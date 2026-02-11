@@ -666,7 +666,7 @@ tags:
 > 2. treasury shares
 > 3. preferred shares
 >
-> - solution: {@{1}@} <!--SR:!2026-02-12,319,361-->
+> - solution: {@{1}@} <!--SR:!2030-06-13,1582,381-->
 
 <!-- markdownlint MD028 -->
 

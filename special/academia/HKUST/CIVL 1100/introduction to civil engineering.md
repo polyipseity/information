@@ -41,7 +41,7 @@ The content is in teaching order.
     - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2030-03-21,1726,387-->
     - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2030-09-08,1863,394-->
     - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2030-11-20,1931,397-->
+  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2032-03-16,2224,360!2030-11-20,1931,397-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2026-03-27,517,352-->
@@ -67,7 +67,7 @@ The content is in teaching order.
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2030-04-08,1730,397-->
-- hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2029-06-20,1505,385-->
+- hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2031-02-10,1824,305!2029-06-20,1505,385-->
   - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2029-01-11,1205,324!2029-05-03,1464,385-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2029-03-11,1337,340!2027-01-22,736,352-->

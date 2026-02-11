@@ -49,7 +49,7 @@ tags:
 > 3. 6–7 hours per week
 > 4. more than 7 hours per week
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2026-02-12,280,330-->
+> - solution: {@{1/2/3/4}@} <!--SR:!2029-08-12,1277,350-->
 
 <!-- markdownlint MD028 -->
 

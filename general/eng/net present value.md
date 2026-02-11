@@ -95,7 +95,7 @@ To some extent, {@{the selection of the discount rate}@} is {@{dependent on the 
 
 - Main article: ::@:: [rNPV](rNPV.md) <!--SR:!2026-05-27,366,359!2026-05-14,355,359-->
 
-Using {@{variable rates over time, or discounting "guaranteed" cash flows differently from "at risk" cash flows}@}, may be {@{a superior methodology but is seldom used in practice}@}. {@{Using the discount rate to adjust for risk}@} is {@{often difficult to do in practice \(especially internationally\) and is difficult to do well}@}. <!--SR:!2026-02-12,274,345!2026-07-05,398,365!2026-07-14,406,365!2029-04-06,1177,359-->
+Using {@{variable rates over time, or discounting "guaranteed" cash flows differently from "at risk" cash flows}@}, may be {@{a superior methodology but is seldom used in practice}@}. {@{Using the discount rate to adjust for risk}@} is {@{often difficult to do in practice \(especially internationally\) and is difficult to do well}@}. <!--SR:!2029-09-09,1305,365!2026-07-05,398,365!2026-07-14,406,365!2029-04-06,1177,359-->
 
 {@{An alternative to using discount factor to adjust for risk}@} is to {@{explicitly correct the cash flows for the risk elements using risk-adjusted net present value \([rNPV](rNPV.md)\)}@} or a similar method, then {@{discount at the firm's rate}@}. <!--SR:!2026-06-10,376,365!2026-05-03,344,349!2026-07-14,406,365-->
 

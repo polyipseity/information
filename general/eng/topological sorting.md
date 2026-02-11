@@ -305,7 +305,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 >     - Let {@{_w_ be the weight of the edge from _u_ to _v_}@}.
 >     - Relax {@{the edge: if _d_\[_v_\] \> _d_\[_u_\] + _w_}@}, set
 >       - {@{_d_\[_v_\] ← _d_\[_u_\] + _w_}@},
->       - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2026-04-04,393,371!2029-04-07,1255,371!2026-06-22,458,379!2026-06-07,446,379!2026-06-12,450,379!2026-02-12,330,359!2026-04-07,395,371!2029-05-18,1206,358!2028-05-20,962,339!2026-04-16,401,371!2027-03-05,621,334-->
+>       - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2026-04-04,393,371!2029-04-07,1255,371!2026-06-22,458,379!2026-06-07,446,379!2026-06-12,450,379!2030-07-27,1626,379!2026-04-07,395,371!2029-05-18,1206,358!2028-05-20,962,339!2026-04-16,401,371!2027-03-05,621,334-->
 
 Equivalently:
 
@@ -334,7 +334,7 @@ One can {@{define a partial ordering from any DAG}@} by {@{letting the set of ob
 
 ## relation to scheduling optimisation
 
-By {@{definition}@}, {@{the solution of a scheduling problem that includes a precedence graph}@} is {@{a valid solution to topological sort \(irrespective of the number of machines\)}@}, however, topological sort {@{in itself is _not_ enough to optimally solve a scheduling optimisation problem}@}. {@{Hu's algorithm}@} is {@{a popular method used to solve scheduling problems}@} that {@{require a precedence graph and involve processing times \(where the goal is to minimise the largest completion time amongst all the jobs\)}@}. Like {@{topological sort}@}, {@{Hu's algorithm is not unique and can be solved using DFS \(by finding the largest path length and then assigning the jobs\)}@}. <!--SR:!2026-02-23,356,358!2030-04-06,1553,379!2026-02-25,358,358!2030-04-28,1563,379!2029-10-29,1419,371!2026-03-29,387,371!2026-03-02,362,371!2030-05-11,1576,378!2026-02-12,330,359-->
+By {@{definition}@}, {@{the solution of a scheduling problem that includes a precedence graph}@} is {@{a valid solution to topological sort \(irrespective of the number of machines\)}@}, however, topological sort {@{in itself is _not_ enough to optimally solve a scheduling optimisation problem}@}. {@{Hu's algorithm}@} is {@{a popular method used to solve scheduling problems}@} that {@{require a precedence graph and involve processing times \(where the goal is to minimise the largest completion time amongst all the jobs\)}@}. Like {@{topological sort}@}, {@{Hu's algorithm is not unique and can be solved using DFS \(by finding the largest path length and then assigning the jobs\)}@}. <!--SR:!2026-02-23,356,358!2030-04-06,1553,379!2026-02-25,358,358!2030-04-28,1563,379!2029-10-29,1419,371!2026-03-29,387,371!2026-03-02,362,371!2030-05-11,1576,378!2029-05-12,1185,359-->
 
 ## see also
 

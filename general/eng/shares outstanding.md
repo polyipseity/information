@@ -17,7 +17,7 @@ Shares outstanding can be calculated as {@{either basic or fully diluted}@}. {@{
 
 ## finding the number of shares outstanding
 
-{@{The number of outstanding shares may change}@} due to {@{changes in the number of issued shares}@}, as well as {@{the change in treasury shares}@}. Both can occur at {@{any time of the year}@}. There are {@{several useful public sources}@} to {@{find the number of shares outstanding of a given corporation}@}. <!--SR:!2026-02-12,292,330!2029-10-04,1331,350!2029-07-10,1263,350!2029-02-23,1146,350!2029-06-02,1234,350!2029-09-20,1320,350-->
+{@{The number of outstanding shares may change}@} due to {@{changes in the number of issued shares}@}, as well as {@{the change in treasury shares}@}. Both can occur at {@{any time of the year}@}. There are {@{several useful public sources}@} to {@{find the number of shares outstanding of a given corporation}@}. <!--SR:!2029-10-09,1335,350!2029-10-04,1331,350!2029-07-10,1263,350!2029-02-23,1146,350!2029-06-02,1234,350!2029-09-20,1320,350-->
 
 ### public traded companies' investor relations
 

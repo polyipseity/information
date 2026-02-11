@@ -232,7 +232,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-04-04,307,350!2026-11-24,459,330-->
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2029-04-01,1149,350!2029-03-10,1131,350-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2026-03-03,275,330!2028-10-06,999,350-->
-  - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2027-07-31,661,330!2026-02-12,256,330-->
+  - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2027-07-31,661,330!2029-04-25,1168,350-->
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2028-03-25,864,350!2027-12-26,762,330-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2026-07-26,378,310!2026-05-27,345,350-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2026-05-30,348,350!2026-02-25,269,330-->

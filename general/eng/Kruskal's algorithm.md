@@ -222,7 +222,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-03-13,1222,350!2029-01-04,1170,350!2029-04-04,1240,350-->
 
-Finally, other variants of {@{a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads}@} to remove {@{edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which runs {@{the sequential algorithm on _p_ subgraphs}@}, then merges {@{those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-06-21,1300,350!2029-04-08,1245,350!2026-02-12,125,310!2027-08-11,546,406!2027-08-06,541,406-->
+Finally, other variants of {@{a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads}@} to remove {@{edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which runs {@{the sequential algorithm on _p_ subgraphs}@}, then merges {@{those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-06-21,1300,350!2029-04-08,1245,350!2027-08-04,538,330!2027-08-11,546,406!2027-08-06,541,406-->
 
 ## see also
 

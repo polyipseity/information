@@ -35,7 +35,7 @@ When {@{reading or writing a placeholder}@}, it helps to think of it as {@{a pip
 
 ### parameter selection
 
-Placeholders may optionally specify {@{_which argument_ they apply to}@}. This is done using {@{a number followed by <code>&dollar;</code>, such as <code>1&dollar;</code> or <code>2&dollar;</code>}@}. For example, {@{<code>%2&dollar;d</code>}@} formats {@{the second argument as a decimal integer}@}. <!--SR:!2026-02-17,17,311!2026-02-12,12,291!2026-02-12,12,291!2026-02-17,17,311-->
+Placeholders may optionally specify {@{_which argument_ they apply to}@}. This is done using {@{a number followed by <code>&dollar;</code>, such as <code>1&dollar;</code> or <code>2&dollar;</code>}@}. For example, {@{<code>%2&dollar;d</code>}@} formats {@{the second argument as a decimal integer}@}. <!--SR:!2026-02-17,17,311!2026-03-31,47,311!2026-03-31,47,311!2026-02-17,17,311-->
 
 This feature follows {@{POSIX rules}@}: either {@{_all_ placeholders in the format string}@} use positional parameters, or {@{_none_ of them do}@}. {@{Mixing positional and non-positional placeholders}@} is {@{not allowed}@}. <!--SR:!2026-02-16,16,311!2026-02-17,17,311!2026-02-17,17,311!2026-02-16,16,311!2026-02-16,16,311-->
 
@@ -66,7 +66,7 @@ For {@{_integer types_ (`d`/`i`, `u`, `o`, `x`/`X`)}@}, precision specifies {@{t
 For {@{_floating‑point types_}@}, precision {@{depends on the notation}@}: (annotation: 4 items: {@{`f`/`F`, `e`/`E`, `g`/`G`, `a`/`A`}@}) <!--SR:!2026-02-17,17,311!2026-02-16,16,311!2026-02-17,17,311-->
 
 - `f` and `F`; `e` and `E` ::@:: use precision as the _number of digits after the decimal point_, with a default of _6_. <!--SR:!2026-02-16,16,311!2026-02-16,16,311-->
-- `g` and `G` ::@:: precision specifies the _maximum number of significant digits_ (default _6_, with an explicit `0` treated as _1_), determines whether fixed‑point or exponential notation is chosen based on the value's exponent (using fixed-point when −4&nbsp;≤&nbsp;exponent&nbsp;<&nbsp;precision and exponential otherwise), rounds to at most that many significant digits, and removes trailing zeros and the decimal point unless the `#` flag is used. <!--SR:!2026-02-16,16,311!2026-02-12,12,291-->
+- `g` and `G` ::@:: precision specifies the _maximum number of significant digits_ (default _6_, with an explicit `0` treated as _1_), determines whether fixed‑point or exponential notation is chosen based on the value's exponent (using fixed-point when −4&nbsp;≤&nbsp;exponent&nbsp;<&nbsp;precision and exponential otherwise), rounds to at most that many significant digits, and removes trailing zeros and the decimal point unless the `#` flag is used. <!--SR:!2026-02-16,16,311!2026-03-31,47,311-->
 - `a` and `A` ::@:: use precision to control the _number of hexadecimal digits after the decimal point_; if omitted, the precision is large enough to exactly represent the value. <!--SR:!2026-02-17,17,311!2026-02-17,17,311-->
 
 For {@{_non-numeric and special types_}@}, precision is either {@{limited or rejected}@}: (annotation: 5 items: {@{`s`, `c`, `p`, `%`, `n`}@}) <!--SR:!2026-02-17,17,311!2026-02-17,17,311!2026-02-16,16,311-->

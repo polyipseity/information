@@ -209,7 +209,7 @@ This approach is {@{standard in [control theory](control%20theory.md)}@} and is 
 
 ### two terminal component transfer functions
 
-For {@{two terminal components}@} {@{the transfer function, or more generally for non-linear elements, the [constitutive equation](constitutive%20equation.md)}@}, is {@{the relationship between the current input to the device and the resulting voltage across it}@}. {@{The transfer function, Z\(s\)}@}, will thus {@{have units of impedance, ohms}@}. For {@{the three passive components found in electrical networks}@}, the transfer functions are; <!--SR:!2029-02-28,1123,350!2026-06-03,347,349!2029-02-27,1122,350!2026-06-15,357,360!2026-02-12,255,330!2026-06-29,369,360-->
+For {@{two terminal components}@} {@{the transfer function, or more generally for non-linear elements, the [constitutive equation](constitutive%20equation.md)}@}, is {@{the relationship between the current input to the device and the resulting voltage across it}@}. {@{The transfer function, Z\(s\)}@}, will thus {@{have units of impedance, ohms}@}. For {@{the three passive components found in electrical networks}@}, the transfer functions are; <!--SR:!2029-02-28,1123,350!2026-06-03,347,349!2029-02-27,1122,350!2026-06-15,357,360!2029-04-24,1167,350!2026-06-29,369,360-->
 
 |           |                         |
 | --------- | ----------------------- |

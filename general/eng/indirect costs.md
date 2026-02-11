@@ -27,7 +27,7 @@ Often, such as when {@{applying for funding under a grant}@}, indirect costs are
 
 ## examples
 
-{@{The same cost}@} can be {@{labeled as indirect in one industry and direct in another}@}. For example, {@{fuel cost in a telecom}@} is {@{usually allocated as an indirect cost}@}, while {@{for an airliner it is a direct cost}@}. <!--SR:!2026-02-12,287,330!2026-02-16,291,330!2026-02-19,294,330!2026-02-19,294,330!2026-02-19,294,330-->
+{@{The same cost}@} can be {@{labeled as indirect in one industry and direct in another}@}. For example, {@{fuel cost in a telecom}@} is {@{usually allocated as an indirect cost}@}, while {@{for an airliner it is a direct cost}@}. <!--SR:!2029-09-13,1309,350!2026-02-16,291,330!2026-02-19,294,330!2026-02-19,294,330!2026-02-19,294,330-->
 
 ### costs usually charged directly
 
