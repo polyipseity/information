@@ -89,7 +89,7 @@ In {@{removing all non-value activities}@}, you reduce {@{the amount of redundan
 
 ### provide a constant buffer stock upstream
 
-In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible}@} and hence should {@{never have to wait for materials or stock}@}, to {@{increase productivity}@}. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-02-15,276,330!2027-03-03,515,310!2026-02-14,275,330!2026-02-19,280,330!2028-12-24,1073,350!2026-02-20,281,330!2028-11-04,1052,350!2027-02-01,381,389!2026-03-08,128,389-->
+In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible}@} and hence should {@{never have to wait for materials or stock}@}, to {@{increase productivity}@}. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-02-15,276,330!2027-03-03,515,310!2029-07-26,1258,350!2026-02-19,280,330!2028-12-24,1073,350!2026-02-20,281,330!2028-11-04,1052,350!2027-02-01,381,389!2026-03-08,128,389-->
 
 ## preventing bottlenecks
 
@@ -103,7 +103,7 @@ In order to {@{optimise the usage of the machine}@}, the machine should be {@{ke
 
 The steps suggested to {@{avoid or prevent shifting bottlenecks}@} are: <!--SR:!2029-05-08,1192,350-->
 
-- Step 1\) Re-evaluate ::@:: the maximum load of every machine, process or work center when accepting a new order. <!--SR:!2026-02-14,275,330!2028-12-21,1070,350-->
+- Step 1\) Re-evaluate ::@:: the maximum load of every machine, process or work center when accepting a new order. <!--SR:!2029-07-26,1258,350!2028-12-21,1070,350-->
 - Step 2\) Find ::@:: the bottleneck in the system and identify its surplus capacity. <!--SR:!2029-04-13,1177,350!2026-02-24,285,330-->
 - Step 3\) Fill ::@:: the bottlenecks surplus capacity. <!--SR:!2029-06-22,1228,350!2026-02-20,281,330-->
 - Step 4\) Find out ::@:: the release time of the material as a result of the new bottlenecks scheduling. <!--SR:!2029-03-19,1158,350!2026-02-24,285,330-->

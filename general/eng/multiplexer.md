@@ -90,7 +90,7 @@ Or, in simpler notation:
 | 0         | A     |
 | 1         | B     |
 
-These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B$}@}. {@{A straightforward realization of this 2-to-1 multiplexer}@} would need {@{2 AND gates, an OR gate, and a NOT gate}@}. While {@{this is mathematically correct}@}, {@{a direct physical implementation}@} would be {@{prone to [race conditions](race%20condition.md) that require additional gates to suppress}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-04-25,336,344!2026-03-28,310,344!2026-03-19,301,344!2026-04-04,317,344!2026-03-20,302,344!2026-02-14,268,330-->
+These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B$}@}. {@{A straightforward realization of this 2-to-1 multiplexer}@} would need {@{2 AND gates, an OR gate, and a NOT gate}@}. While {@{this is mathematically correct}@}, {@{a direct physical implementation}@} would be {@{prone to [race conditions](race%20condition.md) that require additional gates to suppress}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-04-25,336,344!2026-03-28,310,344!2026-03-19,301,344!2026-04-04,317,344!2026-03-20,302,344!2029-06-13,1215,350-->
 
 {@{Larger multiplexers are also common}@} and, as stated above, require {@{$\left\lceil \log _{2}(n)\right\rceil$ selector pins for $n$ inputs}@}. Other common sizes are {@{4-to-1, 8-to-1, and 16-to-1}@}. Since {@{digital logic uses binary values}@}, {@{powers of 2 are used \(4, 8, 16\)}@} to {@{maximally control a number of inputs for the given number of selector inputs}@}. <!--SR:!2029-03-16,1156,350!2027-07-14,621,324!2026-03-09,291,344!2029-01-06,1091,350!2026-04-18,331,344!2026-04-21,332,344-->
 

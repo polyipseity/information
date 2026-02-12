@@ -22,7 +22,7 @@ Compare with [mixture § properties](mixture.md#properties).
 - formation ::@:: [chemical reaction](chemical%20reaction.md) occurs <!--SR:!2027-10-06,1287,350!2029-07-14,1548,378-->
 - properties ::@:: different from its constituents <!--SR:!2028-10-18,1490,310!2030-07-22,1846,378-->
 - separation ::@:: separable by chemical methods but not physical methods <!--SR:!2035-08-04,3499,350!2028-10-01,1286,358-->
-- [boiling point](boiling%20point.md) and [melting point](melting%20point.md) ::@:: sharp <!--SR:!2026-02-14,806,330!2027-11-03,1040,358-->
+- [boiling point](boiling%20point.md) and [melting point](melting%20point.md) ::@:: sharp <!--SR:!2036-02-25,3663,350!2027-11-03,1040,358-->
 
 ## chemical element
 

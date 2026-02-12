@@ -144,7 +144,7 @@ When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} v
 >
 > However, {@{explicit passing}@} is {@{usually unnecessary}@}. <!--SR:!2026-02-17,79,348!2027-01-24,350,368!2026-02-22,84,349!2026-02-19,81,348!2026-02-16,78,348-->
 
-However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2026-02-14,77,348!2026-02-16,78,348!2026-02-16,78,348!2027-01-25,351,368!2026-02-21,83,348-->
+However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2027-02-24,375,368!2026-02-16,78,348!2026-02-16,78,348!2027-01-25,351,368!2026-02-21,83,348-->
 
 {@{The syntax for `using` clauses}@} is {@{flexible}@}. {@{A single clause}@} may contain {@{multiple parameters}@}: <!--SR:!2026-10-02,251,330!2026-12-19,317,349!2026-12-03,303,349!2027-01-28,349,349-->
 
@@ -207,7 +207,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2026-02-17,79,348!2026-02-22,84,348-->
 
-More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2026-11-24,294,349!2026-10-04,253,330!2027-01-25,346,349!2026-11-18,288,349!2026-12-01,301,349!2026-02-18,80,348!2026-02-14,77,348-->
+More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2026-11-24,294,349!2026-10-04,253,330!2027-01-25,346,349!2026-11-18,288,349!2026-12-01,301,349!2026-02-18,80,348!2027-02-24,375,368-->
 
 ## `given`
 

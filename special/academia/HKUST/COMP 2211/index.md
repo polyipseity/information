@@ -1076,7 +1076,7 @@ ID: 23456789
     - deterministic game ::@:: It is a game that does not involve random choices. <!--SR:!2026-10-15,545,406!2026-08-13,493,406-->
     - game / characteristics / tic-tac-toe ::@:: deterministic, perfect information, zero-sum <!--SR:!2026-09-12,517,406!2026-10-20,549,406-->
     - game / characteristics / chess ::@:: deterministic, perfect information, zero-sum <!--SR:!2026-09-22,523,398!2026-03-23,373,386-->
-    - game / characteristics / Monopoly ::@:: non-deterministic, perfect information, non-zero-sum <!--SR:!2026-07-23,475,406!2026-02-14,339,382-->
+    - game / characteristics / Monopoly ::@:: non-deterministic, perfect information, non-zero-sum <!--SR:!2026-07-23,475,406!2030-12-21,1771,402-->
     - game / characteristics / poker ::@:: non-deterministic, imperfect information, zero-sum <!--SR:!2029-03-06,1219,386!2026-09-14,518,402-->
 - [tic-tac-toe](../../../../general/tic-tac-toe.md)
   - tic-tac-toe / AI agent

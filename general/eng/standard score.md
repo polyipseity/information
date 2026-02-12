@@ -37,7 +37,7 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 If {@{the population mean and population standard deviation}@} are known, {@{a raw score _x_}@} is converted {@{into a standard score by<sup>[\[3\]](#^ref-3)</sup> $$z={x-\mu  \over \sigma }$$}@} where: <!--SR:!2029-10-04,1331,350!2029-07-29,1276,350!2026-02-18,26,381-->
 
 - _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2029-03-01,1152,350!2029-06-26,1251,350-->
-- _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2026-02-14,294,330!2029-05-09,1209,350-->
+- _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2029-10-17,1341,350!2029-05-09,1209,350-->
 
 {@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2029-01-24,1132,350!2029-09-03,1306,350!2029-06-01,1232,350!2029-07-05,1260,350-->
 
@@ -62,7 +62,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 ### prediction intervals
 
-{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2029-03-05,1156,350!2029-05-27,1227,350!2029-07-06,1261,350!2029-02-01,1138,350!2028-03-23,863,330!2026-02-14,294,330!2027-03-20,543,310!2027-12-04,791,330!2029-01-20,1129,350-->
+{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2029-03-05,1156,350!2029-05-27,1227,350!2029-07-06,1261,350!2029-02-01,1138,350!2028-03-23,863,330!2029-10-18,1342,350!2027-03-20,543,310!2027-12-04,791,330!2029-01-20,1129,350-->
 
 ### process control
 

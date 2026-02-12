@@ -59,7 +59,7 @@ Below are some questions or question tips.
 ## incremental analysis for short-term decision making
 
 - opportunity cost due to full capacity ::@:: Use unit contribution margins to find the opportunity cost due to lost production. <!--SR:!2026-05-15,254,330!2026-05-17,251,330-->
-- qualitative factors ::@:: customer relationships, employees, market, price, quality, sustainability goals, timeliness, wages, etc. <!--SR:!2026-03-10,140,310!2026-02-14,124,310-->
+- qualitative factors ::@:: customer relationships, employees, market, price, quality, sustainability goals, timeliness, wages, etc. <!--SR:!2026-03-10,140,310!2027-08-04,536,330-->
   - qualitative factors / customer relationships ::@:: cutting current production may anger existing customers <!--SR:!2027-06-22,523,406!2027-07-22,543,406-->
   - qualitative factors / human resources ::@:: employee morale, firing, hiring, wages \(e.g. working with outsiders with higher wages leading to jealousy\) <!--SR:!2027-07-17,545,406!2027-07-23,544,406-->
   - qualitative factors / market ::@:: market leadership \(leading in offered products or services\), price \(e.g. special orders are cheaper than normal orders leading to jealousy\) <!--SR:!2027-07-04,533,406!2027-06-27,526,406-->

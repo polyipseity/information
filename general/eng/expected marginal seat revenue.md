@@ -29,7 +29,7 @@ EMSRb is also {@{based on an approximation that compares two classes}@}, but it 
 
 > {@{__EMSR Littlewood's rule__}@}
 >
-> {@{$$y_{j}^{\star }=F_{j}^{-1}\left(1-{\frac {r_{j+1} }{ {\overline {r} }_{j} } }\right)$$}@} <!--SR:!2026-07-02,276,330!2026-02-14,102,290-->
+> {@{$$y_{j}^{\star }=F_{j}^{-1}\left(1-{\frac {r_{j+1} }{ {\overline {r} }_{j} } }\right)$$}@} <!--SR:!2026-07-02,276,330!2026-12-07,296,290-->
 
 {@{$y_{j}^{\star }$}@} is {@{the optimal protection limit}@}, {@{$F_{j}(x)$}@} is {@{a [continuous distribution](continuous%20distribution.md#absolutely%20continuous%20probability%20distribution) used to model the demand}@}. Usually {@{demand is considered to be independent}@} and {@{distributed normally with a mean $\mu_j$ and a variance $\sigma_j$}@}. Using that the protection limits can be calculated as: {@{$$y_{j}=\mu _{j}+z_{\alpha }\cdot \sigma _{j}$$}@} with {@{the mean and variance of the demand}@} to come as {@{$\mu _{j}=\sum _{k=1}^{j}\mu _{k}$ and $\sigma _{j}^{2}=\sum _{k=1}^{j}\sigma _{k}^{2}$ respectively}@}. {@{$z_{\alpha }$}@} is {@{calculated with the inverse of the normal distribution $z_{\alpha }=\phi ^{-1}(1-{\frac {r_{j+1} }{ {\overline {r} }_{j} } })$}@}. This is {@{done for each j}@}, giving {@{the protection limit for every class}@}. <!--SR:!2026-07-19,290,330!2026-05-13,237,330!2026-06-04,255,330!2026-07-02,276,330!2026-06-30,274,330!2026-05-07,231,330!2026-05-13,236,330!2026-05-27,248,330!2026-07-02,276,330!2026-06-30,274,330!2026-07-02,276,330!2026-05-23,245,330!2026-07-02,276,330-->
 

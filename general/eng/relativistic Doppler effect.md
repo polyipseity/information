@@ -24,7 +24,7 @@ tags:
 > - {@{$\beta = \frac v c$}@}, where {@{$v$}@} is {@{the [relative velocity](relative%20velocity.md) between the source and receiver}@} that is {@{positive when moving away from each other}@}
 > - {@{$c$}@} is {@{the [speed of light](speed%20of%20light.md) in [vacuum](vacuum.md)}@}
 >
-> {@{The ratio in the second equation}@} is also called {@{the __Doppler factor__ of the source relative to the receiver}@}. <!--SR:!2027-11-08,857,250!2027-08-26,1050,350!2028-07-23,1108,290!2026-07-01,612,290!2026-02-21,75,326!2026-11-24,290,346!2026-11-28,293,346!2026-02-15,70,326!2026-02-14,69,326!2026-02-20,74,326!2026-02-20,74,326!2026-02-14,69,326!2026-12-04,298,346-->
+> {@{The ratio in the second equation}@} is also called {@{the __Doppler factor__ of the source relative to the receiver}@}. <!--SR:!2027-11-08,857,250!2027-08-26,1050,350!2028-07-23,1108,290!2026-07-01,612,290!2026-02-21,75,326!2026-11-24,290,346!2026-11-28,293,346!2026-02-15,70,326!2026-12-25,314,346!2026-02-20,74,326!2026-02-20,74,326!2026-12-26,315,346!2026-12-04,298,346-->
 
 ## references
 

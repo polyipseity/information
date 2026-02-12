@@ -86,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is {@{a difference between strings and lists}@} when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for {@{lists}@}, there are {@{operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2026-08-19,243,330!2026-10-19,288,330!2026-10-07,276,330!2026-05-07,160,310!2026-12-25,342,346!2027-01-31,379,369!2026-06-19,182,349!2027-02-06,385,369!2026-02-14,86,374!2026-02-14,86,374-->
+Note that there is {@{a difference between strings and lists}@} when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for {@{lists}@}, there are {@{operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2026-08-19,243,330!2026-10-19,288,330!2026-10-07,276,330!2026-05-07,160,310!2026-12-25,342,346!2027-01-31,379,369!2026-06-19,182,349!2027-02-06,385,369!2027-04-28,438,394!2027-04-29,439,394-->
 
 ```Python
 original = [1, 2, 3]

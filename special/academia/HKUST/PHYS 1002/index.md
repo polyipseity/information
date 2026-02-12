@@ -309,7 +309,7 @@ The content is in teaching order. Extra information and corrections are included
   - [Mars](../../../../general/Mars.md) properties in ancient times ::@:: noticeably red <!--SR:!2029-12-22,1581,380!2031-12-31,2204,400-->
   - [Jupiter](../../../../general/Jupiter.md) properties in ancient times ::@:: very bright <!--SR:!2027-12-14,999,380!2031-07-02,2054,400-->
   - [Saturn](../../../../general/Saturn.md) properties in ancient times ::@:: moderately bright <!--SR:!2030-10-02,1714,380!2027-04-13,780,360-->
-  - time-related things named after planets known in ancient times ::@:: days of the week <!--SR:!2026-02-14,471,380!2031-07-31,2078,400-->
+  - time-related things named after planets known in ancient times ::@:: days of the week <!--SR:!2032-10-29,2449,400!2031-07-31,2078,400-->
     - order of astronomical objects in days of the week ::@:: Sun (Sunday, 日曜日), Moon (Monday, 月曜日), Mars (Tuesday, 火曜日), Mercury (Wednesday, 水曜日), Jupiter (Thursday, 木曜日), Venus (Friday, 金曜日), Saturn (Saturday, 土曜日) <!--SR:!2027-09-13,578,220!2029-12-25,1503,340-->
 - [diurnal motion](../../../../general/diurnal%20motion.md) ::@:: The Sun, the Moon, and planets move westward due to Earth's rotation. <!--SR:!2031-08-01,2079,400!2031-07-01,2053,400-->
 - [apparent retrograde motion](../../../../general/apparent%20retrograde%20motion.md)
@@ -318,7 +318,7 @@ The content is in teaching order. Extra information and corrections are included
     - explaining apparent retrograde motion in ancient times ::@:: As most ancients thought that Earth is the center, it was harder to explain. Their explanation was using deferents and epicycles. <!--SR:!2027-09-04,885,360!2029-10-27,1526,380-->
 - [stellar parallax](../../../../general/stellar%20parallax.md)
 - reason the (very) ancient Greeks thought Earth is the center ::@:: They cannot observe stellar parallax of the fixed stars. There were 2 plausible explanations for them. One was the fixed stars are too far away so the stellar parallax is too small to be observed with the naked eye. The other was Earth is the center of the universe. With rare exceptions, the first (and correct) option was rejected by most (very) ancient Greeks because they could not believe that fixed stars are _that_ far away. <!--SR:!2028-10-31,1248,380!2031-01-20,1923,400-->
-  - reason the (very) ancient Greeks thought Earth is the center / exceptions ::@:: (very) ancient Greeks who thought the fixed stars are indeed _that_ far away: Aristarchus, etc. <!--SR:!2026-02-14,471,380!2027-09-04,894,360-->
+  - reason the (very) ancient Greeks thought Earth is the center / exceptions ::@:: (very) ancient Greeks who thought the fixed stars are indeed _that_ far away: Aristarchus, etc. <!--SR:!2032-10-30,2450,400!2027-09-04,894,360-->
 - scientific thinking ::@:: based on everyday ideas arising from observations and trial-and-error experiments <!--SR:!2027-06-19,833,360!2031-04-17,1990,400-->
 - [astronomy](../../../../general/astronomy.md) ::@:: oldest science, as many ancient cultures throughout the world practiced it by making observations of the sky and noticing patterns of cyclic motions <!--SR:!2031-04-19,1992,400!2032-09-10,2411,400-->
   - astronomy in very ancient times ::@:: to keep track of time and seasons for practical, social and religious purposes, e.g. marks carved into animal bones, prehistoric cave paintings, stone circle, orientation of the crescent moon, Stonehenge <!--SR:!2027-02-24,749,360!2029-09-08,1499,380-->

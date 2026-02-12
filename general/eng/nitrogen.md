@@ -51,7 +51,7 @@ return await memorize_table(
 - _(begin)_→::@::←food packaging <!--SR:!2028-10-24,1199,290!2026-10-02,915,330-->
 - food packaging→::@::←making [ammonia](ammonia.md) <!--SR:!2029-07-06,1562,310!2031-01-06,1882,330-->
 - making [ammonia](ammonia.md)→::@::←[refrigerant](refrigerant.md) <!--SR:!2029-09-17,1595,290!2033-08-25,2760,310-->
-- [refrigerant](refrigerant.md)→::@::←_(end)_ <!--SR:!2026-02-14,751,330!2026-04-06,693,270-->
+- [refrigerant](refrigerant.md)→::@::←_(end)_ <!--SR:!2035-06-24,3417,350!2026-04-06,693,270-->
 
 <!--/pytextgen-->
 

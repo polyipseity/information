@@ -18,7 +18,7 @@ Support is {@{how frequently the item set appears in the data set}@}. For a item
 
 ### confidence
 
-Confidence is {@{the ratio of all transactions satisfying the antecedent that also satisfies the consequent}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the confidence of the rule is defined as $\operatorname{conf}(X \Rightarrow Y) = P(Y | X) = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X)} = \frac {\text{number of transactions containing both }X\text{ and }Y} {\text{number of transactions containing }X}$}@}. <!--SR:!2026-02-14,504,310!2029-08-15,1561,350-->
+Confidence is {@{the ratio of all transactions satisfying the antecedent that also satisfies the consequent}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the confidence of the rule is defined as $\operatorname{conf}(X \Rightarrow Y) = P(Y | X) = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X)} = \frac {\text{number of transactions containing both }X\text{ and }Y} {\text{number of transactions containing }X}$}@}. <!--SR:!2032-01-11,2157,330!2029-08-15,1561,350-->
 
 Confidence expresses {@{how confident you can be about Y being true given X is true}@}. <!--SR:!2026-04-23,551,310-->
 

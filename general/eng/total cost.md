@@ -36,14 +36,14 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 
 ## calculating cost functions
 
-- Total product \(= Output, Q\) ::@:: = Quantity of goods <!--SR:!2030-01-13,1436,361!2026-02-14,313,341-->
+- Total product \(= Output, Q\) ::@:: = Quantity of goods <!--SR:!2030-01-13,1436,361!2030-02-22,1469,361-->
 - Average Variable Cost \(AVC\) ::@:: = Total Variable Cost / Quantity of goods \(This formula is cyclic with the TVC one\) <!--SR:!2026-02-17,315,341!2026-03-05,328,341-->
 - Average Fixed Cost \(AFC\) ::@:: = ATC – AVC <!--SR:!2026-03-02,326,341!2030-01-23,1444,361-->
 - Total Cost ::@:: = \(AVC + AFC\) X Quantity of goods <!--SR:!2026-02-22,318,341!2030-02-10,1459,361-->
 - Total Variable Cost ::@:: = Variable cost per unit X Quantity of goods <!--SR:!2027-07-19,712,341!2030-01-24,1445,361-->
 - Total Fixed Cost ::@:: = TC – TVC <!--SR:!2026-03-07,330,341!2026-03-12,334,341-->
 - Marginal Cost ::@:: = Change in Total Costs / Change in Quantity of goods <!--SR:!2030-02-05,1455,361!2030-02-11,1460,361-->
-- Marginal Product ::@:: = Change in Quantity of goods / Change in Variable Factor <!--SR:!2029-09-25,1342,350!2026-02-14,312,341-->
+- Marginal Product ::@:: = Change in Quantity of goods / Change in Variable Factor <!--SR:!2029-09-25,1342,350!2030-02-17,1464,361-->
 - Marginal Revenue ::@:: = Change in Total Revenue / Change in Quantity of goods <!--SR:!2026-03-09,331,341!2026-02-24,321,341-->
 - Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2026-10-19,491,321!2029-09-25,1342,350-->
 - Total Revenue ::@:: = Price X Quantity of goods <!--SR:!2026-02-16,314,341!2026-02-22,319,341-->

@@ -15,7 +15,7 @@ tags:
 
 ## direct materials cost
 
-{@{Direct materials}@} are {@{the [raw materials](raw%20material.md) that become a part of the finished product}@}. Manufacturing {@{adds value to raw materials}@} by {@{applying a chain of operations to maintain a deliverable product}@}. There are {@{many operations that can be applied to raw materials}@} such as {@{[welding](welding.md), cutting and [painting](painting.md)}@}. It is important to {@{differentiate between direct materials and indirect materials}@}. <!--SR:!2029-03-03,1154,350!2029-07-04,1253,350!2028-12-26,1105,350!2029-05-21,1220,350!2029-03-13,1164,350!2027-12-07,789,330!2026-02-14,290,330-->
+{@{Direct materials}@} are {@{the [raw materials](raw%20material.md) that become a part of the finished product}@}. Manufacturing {@{adds value to raw materials}@} by {@{applying a chain of operations to maintain a deliverable product}@}. There are {@{many operations that can be applied to raw materials}@} such as {@{[welding](welding.md), cutting and [painting](painting.md)}@}. It is important to {@{differentiate between direct materials and indirect materials}@}. <!--SR:!2029-03-03,1154,350!2029-07-04,1253,350!2028-12-26,1105,350!2029-05-21,1220,350!2029-03-13,1164,350!2027-12-07,789,330!2029-10-03,1327,350-->
 
 ## direct labour cost
 

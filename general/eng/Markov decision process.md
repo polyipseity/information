@@ -74,7 +74,7 @@ The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2027-02-12,545,272!2029-06-07,1219,312-->
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2026-06-08,362,270!2026-09-04,462,312-->
 
-{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-02-14,339,349!2027-11-10,762,329!2030-05-04,1557,369!2030-01-17,1462,369!2026-03-25,140,405!2026-03-16,132,405-->
+{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2030-08-03,1631,369!2027-11-10,762,329!2030-05-04,1557,369!2030-01-17,1462,369!2026-03-25,140,405!2026-03-16,132,405-->
 
 ### notable variants
 
@@ -112,7 +112,7 @@ A Markov decision process is {@{a [stochastic game](stochastic%20game.md) with o
 
 - Main article: [Partially observable Markov decision process](Partially%20observable%20Markov%20decision%20process.md)
 
-The solution above assumes that {@{the state $s$ is known when action is to be taken}@}; otherwise {@{$\pi (s)$ cannot be calculated}@}. When {@{this assumption is not true}@}, the problem is called {@{a partially observable Markov decision process or POMDP}@}. <!--SR:!2026-02-14,339,349!2030-06-04,1581,369!2026-02-18,343,349!2030-07-21,1621,369-->
+The solution above assumes that {@{the state $s$ is known when action is to be taken}@}; otherwise {@{$\pi (s)$ cannot be calculated}@}. When {@{this assumption is not true}@}, the problem is called {@{a partially observable Markov decision process or POMDP}@}. <!--SR:!2030-07-29,1626,369!2030-06-04,1581,369!2026-02-18,343,349!2030-07-21,1621,369-->
 
 ### constrained Markov decision processes
 
@@ -126,7 +126,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 
 - Natural policy gradient primal-dual method.<sup>[\[15\]](#^ref-15)</sup>
 
-There are {@{a number of applications}@} for CMDPs. It has recently been used in {@{[motion planning](motion%20planning.md) scenarios in robotics}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2026-02-14,339,349!2029-12-31,1445,369-->
+There are {@{a number of applications}@} for CMDPs. It has recently been used in {@{[motion planning](motion%20planning.md) scenarios in robotics}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2030-08-02,1630,369!2029-12-31,1445,369-->
 
 ### continuous-time Markov decision process
 
@@ -176,7 +176,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 - a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and \(annotation: This makes the automata "learn" from an input.\) <!--SR:!2027-12-28,792,292!2026-10-10,493,312-->
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2027-10-18,786,332!2028-01-14,865,332-->
 
-{@{The states of such an automaton}@} correspond to {@{the states of a "discrete-state discrete-parameter [Markov process](Markov%20chain.md)"}@}.<sup>[\[21\]](#^ref-21)</sup> At {@{each time step _t_ = 0,1,2,3,...}@}, the automaton {@{reads an input from its environment}@}, {@{updates P\(_t_\) to P\(_t_ + 1\) by _A_}@}, {@{randomly chooses a successor state according to the probabilities P\(_t_ + 1\)}@} and {@{outputs the corresponding action}@}. The automaton's environment, in turn, {@{reads the action and sends the next input to the automaton}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-02-14,339,349!2027-08-05,725,329!2030-05-06,1559,369!2030-06-04,1581,369!2026-02-22,346,349!2030-06-16,1592,369!2030-06-08,1585,369!2026-02-19,343,349-->
+{@{The states of such an automaton}@} correspond to {@{the states of a "discrete-state discrete-parameter [Markov process](Markov%20chain.md)"}@}.<sup>[\[21\]](#^ref-21)</sup> At {@{each time step _t_ = 0,1,2,3,...}@}, the automaton {@{reads an input from its environment}@}, {@{updates P\(_t_\) to P\(_t_ + 1\) by _A_}@}, {@{randomly chooses a successor state according to the probabilities P\(_t_ + 1\)}@} and {@{outputs the corresponding action}@}. The automaton's environment, in turn, {@{reads the action and sends the next input to the automaton}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2030-08-01,1629,369!2027-08-05,725,329!2030-05-06,1559,369!2030-06-04,1581,369!2026-02-22,346,349!2030-06-16,1592,369!2030-06-08,1585,369!2026-02-19,343,349-->
 
 ### category theoretic interpretation
 

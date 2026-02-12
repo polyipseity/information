@@ -68,7 +68,7 @@ The content is in teaching order.
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2026-02-17,290,330-->
   - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2026-02-17,290,330!2028-04-25,883,330-->
   - service company ::@:: provide service to clients or customers <!--SR:!2026-02-20,293,330!2026-02-15,288,330-->
-- cost classifications ::@:: manufacturing, relevance, timing, traceability, variability <!--SR:!2026-06-27,366,310!2026-02-14,287,330-->
+- cost classifications ::@:: manufacturing, relevance, timing, traceability, variability <!--SR:!2026-06-27,366,310!2029-09-14,1308,350-->
   - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing <!--SR:!2026-02-17,290,330!2026-02-19,292,330-->
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2029-09-08,1304,350!2026-02-15,288,330-->
   - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->
@@ -82,12 +82,12 @@ The content is in teaching order.
 - [manufacturing cost](../../../../general/manufacturing%20cost.md) ::@:: all costs to produce the physical product; direct materials cost + direct labor cost + manufacturing overhead cost <!--SR:!2026-02-17,290,330!2029-08-28,1294,350-->
   - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2029-09-03,1299,350!2026-02-21,294,330-->
   - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2028-05-06,891,330-->
-  - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2026-02-14,287,330-->
+  - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2029-09-16,1310,350-->
   - prime cost ::@:: direct materials + direct labor <!--SR:!2029-08-16,1284,350!2028-02-06,835,330-->
   - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2029-08-19,1287,350-->
   - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2026-02-16,289,330!2028-02-10,839,330-->
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits <!--SR:!2026-02-19,292,330!2026-02-19,292,330-->
-- period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2026-02-14,287,330!2027-06-09,595,310-->
+- period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2029-09-15,1309,350!2027-06-09,595,310-->
 - [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2028-01-15,818,330!2029-09-13,1308,350-->
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs <!--SR:!2026-02-15,288,330!2026-02-19,292,330-->
 - out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2028-01-24,824,330!2026-02-16,289,330-->
@@ -102,7 +102,7 @@ The content is in teaching order.
   - job costing / vs. process costing ::@:: approach, cost accumulation, product type, report types <!--SR:!2026-06-08,378,368!2026-07-15,409,368-->
     - job costing / vs. process costing / approach ::@:: customized to the needs of clients or customers; mass produced using standardized processes <!--SR:!2026-07-07,401,368!2026-06-03,373,368-->
     - job costing / vs. process costing / cost accumulation ::@:: accumulates per customer/project/job; accumulates per process <!--SR:!2026-07-08,402,368!2029-07-21,1274,368-->
-    - job costing / vs. process costing / product type ::@:: unique products and services (e.g. construction projects); homogeneous products and services (e.g. soft drinks) <!--SR:!2027-12-19,808,348!2026-02-14,282,348-->
+    - job costing / vs. process costing / product type ::@:: unique products and services (e.g. construction projects); homogeneous products and services (e.g. soft drinks) <!--SR:!2027-12-19,808,348!2029-11-01,1356,368-->
     - job costing / vs. process costing / report types ::@:: job cost sheet per customer/project/job; production report per process <!--SR:!2026-07-05,399,368!2026-05-30,369,368-->
   - job cost / manufacturing costs ::@:: direct materials, direct labor, manufacturing overhead; add them together <!--SR:!2026-06-04,374,368!2028-11-21,1085,368-->
   - job cost / source documents ::@:: documents to assign direct costs to jobs; direct materials: materials requisition form, direct labor: labor time ticket <!--SR:!2029-07-09,1264,368!2026-06-20,390,368-->
@@ -110,7 +110,7 @@ The content is in teaching order.
   - job cost / (direct) labor time ticket: [formats § job cost sheet](formats.md#labor%20time%20ticket)
   - job cost / job cost sheet: [formats § job cost sheet](formats.md#job%20cost%20sheet)
   - job cost / [manufacturing overhead](../../../../general/factory%20overhead.md) (MOH) ::@:: Applied Manufacturing Overhead = Predetermined Overhead Rate (POHR) × Actual Cost Driver <p> The actual cost driver/allocation base may be direct labor costs (less common), direct labor hours (more common), direct materials costs, etc. <!--SR:!2029-08-06,1285,368!2029-08-05,1284,368-->
-    - job cost / manufacturing overhead (MOH) / rationale & handling ::@:: Such costs may be impossible or difficult to trace to particular jobs, consists of many different items, and may not be known until the end of a period. <p> So what we do is identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. Then use estimates to find the predetermined overhead rate (POHR). This rate is "predetermined" because it is determined before a period begins. <!--SR:!2026-05-26,336,308!2026-02-14,282,348-->
+    - job cost / manufacturing overhead (MOH) / rationale & handling ::@:: Such costs may be impossible or difficult to trace to particular jobs, consists of many different items, and may not be known until the end of a period. <p> So what we do is identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. Then use estimates to find the predetermined overhead rate (POHR). This rate is "predetermined" because it is determined before a period begins. <!--SR:!2026-05-26,336,308!2029-10-31,1355,368-->
     - job cost / manufacturing overhead (MOH) / underapplied & overapplied ::@:: The _applied_ manufacturing overhead found using POHR is only an _estimate_. At the end of a period, we can find the _actual_ manufacturing overhead. If applied MOH > actual MOH then it is overapplied, and vice versa. If applied MOH < actual MOH then it is underapplied. <p> This discrepancy is accounted for by adjusting the cost of goods sold (COGS), which will be discussed below. <!--SR:!2029-10-22,1347,368!2029-10-21,1347,368-->
 
 ## week 2 lecture

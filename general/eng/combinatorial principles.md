@@ -25,7 +25,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: ::@:: [rule of product](rule%20of%20product.md) <!--SR:!2026-04-28,133,406!2026-05-06,140,406-->
 
-{@{The rule of product}@} is {@{another intuitive principle}@} stating that if there are {@{_a_ ways to do something and _b_ ways to do another thing}@}, then there are {@{_a_ · _b_ ways to do both things}@}. <!--SR:!2026-12-28,613,330!2028-02-26,927,330!2029-10-18,1427,350!2026-02-14,92,384-->
+{@{The rule of product}@} is {@{another intuitive principle}@} stating that if there are {@{_a_ ways to do something and _b_ ways to do another thing}@}, then there are {@{_a_ · _b_ ways to do both things}@}. <!--SR:!2026-12-28,613,330!2028-02-26,927,330!2029-10-18,1427,350!2027-06-18,489,404-->
 
 ## inclusion–exclusion principle
 

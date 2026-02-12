@@ -130,7 +130,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - shift left arithmetic ::@:: `sla` does not exist. It would have been equivalent to `sll`. <!--SR:!2026-05-03,313,355!2026-06-14,355,355-->
 - shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0 <!--SR:!2026-06-15,356,355!2028-09-24,994,355-->
   - shift left logical / arithmetic ::@:: Assuming _no overflow_, it has the same effect as multiplying a _signed_/_unsigned_ integer by 2<sup>_h_</sup>. <!--SR:!2027-01-10,515,401!2026-12-19,497,401-->
-- shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2026-06-12,353,355!2026-02-14,235,335-->
+- shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2026-06-12,353,355!2028-04-04,780,335-->
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended <!--SR:!2026-04-15,295,350!2026-04-15,295,350-->
   - shift right arithmetic / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2026-04-11,272,381!2026-12-01,485,401-->
 - shift right arithmetic variable ::@:: `srav $d, $t, $s`: `$d = $t >> $s;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2026-08-10,404,372!2027-08-05,673,352-->

@@ -17,7 +17,7 @@ tags:
 
 In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected graph__}@} is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph}@} has {@{no [articulation vertices](biconnected%20component.md)}@}. <!--SR:!2029-06-27,1284,352!2029-07-17,1290,352!2029-03-05,1193,350!2029-02-18,1183,352!2026-04-14,100,380!2026-04-01,87,380-->
 
-{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity}@}, except that {@{the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2029-07-16,1289,352!2029-02-21,1186,352!2026-02-14,58,360-->
+{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity}@}, except that {@{the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2029-07-16,1289,352!2029-02-21,1186,352!2026-12-04,293,380-->
 
 This property is especially {@{useful in maintaining a graph with a two-fold [redundancy](redundancy%20(engineering).md)}@}, to {@{prevent disconnection upon the removal of a single [edge](glossary%20of%20graph%20theory.md#edge) \(or connection\)}@}. <!--SR:!2028-09-28,986,332!2028-04-05,903,332-->
 

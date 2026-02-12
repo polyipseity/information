@@ -44,7 +44,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 ## examples
 
-- {@{The [empty set](empty%20set.md)}@} is {@{the unique initial object in __Set__, the [category of sets](category%20of%20sets.md)}@}. {@{Every one-element set \([singleton](singleton%20(mathematics).md)\)}@} is {@{a terminal object in this category}@}; there are {@{no zero objects}@}. Similarly, {@{the empty space}@} is {@{the unique initial object in __Top__, the [category of topological spaces](category%20of%20topological%20spaces.md)}@} and {@{every one-point space is a terminal object in this category}@}. <!--SR:!2026-04-07,353,352!2026-02-14,309,337!2027-04-27,534,406!2027-05-02,539,406!2027-05-12,547,406!2027-05-03,539,406!2027-04-08,518,406!2027-04-08,518,406-->
+- {@{The [empty set](empty%20set.md)}@} is {@{the unique initial object in __Set__, the [category of sets](category%20of%20sets.md)}@}. {@{Every one-element set \([singleton](singleton%20(mathematics).md)\)}@} is {@{a terminal object in this category}@}; there are {@{no zero objects}@}. Similarly, {@{the empty space}@} is {@{the unique initial object in __Top__, the [category of topological spaces](category%20of%20topological%20spaces.md)}@} and {@{every one-point space is a terminal object in this category}@}. <!--SR:!2026-04-07,353,352!2030-01-15,1431,357!2027-04-27,534,406!2027-05-02,539,406!2027-05-12,547,406!2027-05-03,539,406!2027-04-08,518,406!2027-04-08,518,406-->
 
 - In {@{the category __[Rel](category%20of%20relations.md)__ of sets and relations}@}, {@{the empty set}@} is {@{the unique initial object, the unique terminal object, and hence the unique zero object}@}. <!--SR:!2027-03-28,508,406!2027-04-09,519,406!2027-05-09,544,406-->
 
