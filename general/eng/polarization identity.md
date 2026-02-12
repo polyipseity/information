@@ -21,7 +21,7 @@ In {@{[linear algebra](linear%20algebra.md), a branch of [mathematics](mathemati
 
 ## polarization identities
 
-{@{Any [inner product](inner%20product%20space.md) on a vector space}@} {@{induces a norm by the equation $$\|x\|={\sqrt {\langle x,x\rangle } }.$$}@} The polarization identities {@{reverse this relationship, recovering the inner product from the norm}@}. {@{Every inner product}@} satisfies: {@{$$\|x+y\|^{2}=\|x\|^{2}+\|y\|^{2}+2\operatorname {Re} \langle x,y\rangle \qquad {\text{ for all vectors } }x,y.$$}@} {@{Solving for $\operatorname {Re} \langle x,y\rangle$}@} gives {@{the formula $\operatorname {Re} \langle x,y\rangle ={\frac {1}{2} }\left(\|x+y\|^{2}-\|x\|^{2}-\|y\|^{2}\right)$}@}. If {@{the inner product is real}@} then {@{$\operatorname {Re} \langle x,y\rangle =\langle x,y\rangle$ and this formula becomes a polarization identity for real inner products}@}. <!--SR:!2029-05-16,1203,350!2029-04-14,1175,350!2029-01-15,1099,350!2028-12-12,1065,350!2029-05-06,1197,350!2026-02-25,281,330!2026-02-16,272,330!2029-03-11,1150,350!2028-12-28,1081,350-->
+{@{Any [inner product](inner%20product%20space.md) on a vector space}@} {@{induces a norm by the equation $$\|x\|={\sqrt {\langle x,x\rangle } }.$$}@} The polarization identities {@{reverse this relationship, recovering the inner product from the norm}@}. {@{Every inner product}@} satisfies: {@{$$\|x+y\|^{2}=\|x\|^{2}+\|y\|^{2}+2\operatorname {Re} \langle x,y\rangle \qquad {\text{ for all vectors } }x,y.$$}@} {@{Solving for $\operatorname {Re} \langle x,y\rangle$}@} gives {@{the formula $\operatorname {Re} \langle x,y\rangle ={\frac {1}{2} }\left(\|x+y\|^{2}-\|x\|^{2}-\|y\|^{2}\right)$}@}. If {@{the inner product is real}@} then {@{$\operatorname {Re} \langle x,y\rangle =\langle x,y\rangle$ and this formula becomes a polarization identity for real inner products}@}. <!--SR:!2029-05-16,1203,350!2029-04-14,1175,350!2029-01-15,1099,350!2028-12-12,1065,350!2029-05-06,1197,350!2026-02-25,281,330!2028-08-02,898,330!2029-03-11,1150,350!2028-12-28,1081,350-->
 
 ### real vector spaces
 
@@ -39,7 +39,7 @@ For {@{vector spaces over the [complex numbers](complex%20number.md)}@}, the abo
 >
 > Moreover, {@{$$4R(x,y)=\|x+y\|^{2}-\|x-y\|^{2}=\|y+x\|^{2}-\|y-x\|^{2}=4R(y,x),$$}@} which proves that {@{⁠$R(x,y)=R(y,x)$}@}⁠.
 >
-> From {@{$1=i(-i)$}@} it follows that {@{$y-ix=i(-iy-x)=-i(x+iy)$ and $y+ix=i(-iy+x)=i(x-iy)$}@} so that {@{$$-4R(y,ix)=\|y-ix\|^{2}-\|y+ix\|^{2}=\|(-i)(x+iy)\|^{2}-\|i(x-iy)\|^{2}=\|x+iy\|^{2}-\|x-iy\|^{2}=4R(x,iy),$$}@} which proves that {@{$R(y,ix)=-R(x,iy)$}@}. $\blacksquare$ <!--SR:!2026-02-16,272,330!2027-09-10,699,330!2028-12-25,1078,350!2027-09-15,704,330!2026-03-02,286,330!2029-02-25,1140,350!2026-03-01,285,330!2026-05-22,325,290!2026-02-20,276,330-->
+> From {@{$1=i(-i)$}@} it follows that {@{$y-ix=i(-iy-x)=-i(x+iy)$ and $y+ix=i(-iy+x)=i(x-iy)$}@} so that {@{$$-4R(y,ix)=\|y-ix\|^{2}-\|y+ix\|^{2}=\|(-i)(x+iy)\|^{2}-\|i(x-iy)\|^{2}=\|x+iy\|^{2}-\|x-iy\|^{2}=4R(x,iy),$$}@} which proves that {@{$R(y,ix)=-R(x,iy)$}@}. $\blacksquare$ <!--SR:!2029-07-08,1238,350!2027-09-10,699,330!2028-12-25,1078,350!2027-09-15,704,330!2026-03-02,286,330!2029-02-25,1140,350!2026-03-01,285,330!2026-05-22,325,290!2026-02-20,276,330-->
 
 Unlike {@{its real part}@}, {@{the [imaginary part](imaginary%20part.md) of a complex inner product}@} depends on {@{which argument is antilinear}@}. <!--SR:!2026-03-08,292,330!2026-02-25,281,330!2026-03-06,290,330-->
 

@@ -53,7 +53,7 @@ In the case where {@{several production units are already running at full capaci
 >
 > {@{Fishbone Diagram}@} - for {@{finding bottlenecks}@} <!--SR:!2028-07-19,891,330!2026-03-04,291,330!2028-11-05,1052,350-->
 
-{@{A [fishbone diagram](Ishikawa%20diagram.md)}@} is {@{a graphical means for finding possible problems in a chain of processes}@}. By collecting {@{the different data related to the problem}@}, and {@{inputting them into the [diagram](diagram.md)}@}, it becomes easier to {@{analyze the data in the order it is used}@}, and hence {@{determine the root of the problem}@}. This is commonly used to {@{find the bottleneck in a chain of processes}@} due to being able to {@{pinpoint the machine precisely responsible for the delay in production}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-01-29,1109,350!2029-01-13,1093,350!2029-06-21,1228,350!2029-03-26,1164,350!2026-02-16,277,330!2026-02-20,281,330!2029-02-27,1138,350!2026-03-06,293,330-->
+{@{A [fishbone diagram](Ishikawa%20diagram.md)}@} is {@{a graphical means for finding possible problems in a chain of processes}@}. By collecting {@{the different data related to the problem}@}, and {@{inputting them into the [diagram](diagram.md)}@}, it becomes easier to {@{analyze the data in the order it is used}@}, and hence {@{determine the root of the problem}@}. This is commonly used to {@{find the bottleneck in a chain of processes}@} due to being able to {@{pinpoint the machine precisely responsible for the delay in production}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-01-29,1109,350!2029-01-13,1093,350!2029-06-21,1228,350!2029-03-26,1164,350!2029-08-04,1265,350!2026-02-20,281,330!2029-02-27,1138,350!2026-03-06,293,330-->
 
 ## consequences of bottlenecks in production
 
@@ -61,7 +61,7 @@ In the case where {@{several production units are already running at full capaci
 
 ### stall in production
 
-{@{A stall in production}@} would be the result of {@{one machine slowing down the entire chain of processes}@} and consistently {@{leaving the other machines unable to continue while it accumulates a large queue}@}. This inefficiency {@{significantly slows down production}@} as {@{many resources such as time, people, and machines are being paid to wait}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-07-04,1239,350!2026-02-24,285,330!2029-01-20,1100,350!2026-02-16,277,330!2026-03-02,289,330-->
+{@{A stall in production}@} would be the result of {@{one machine slowing down the entire chain of processes}@} and consistently {@{leaving the other machines unable to continue while it accumulates a large queue}@}. This inefficiency {@{significantly slows down production}@} as {@{many resources such as time, people, and machines are being paid to wait}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-07-04,1239,350!2026-02-24,285,330!2029-01-20,1100,350!2029-08-05,1266,350!2026-03-02,289,330-->
 
 ### supply overstock
 

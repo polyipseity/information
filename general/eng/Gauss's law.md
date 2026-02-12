@@ -20,7 +20,7 @@ tags:
 >
 > {@{Gauss's law in its integral form}@} is particularly useful when, {@{by symmetry reasons, a closed surface \(GS\) can be found along which the electric field is uniform}@}. {@{The electric flux}@} is then {@{a simple product of the surface area and the strength of the electric field}@}, and is {@{proportional to the total charge enclosed by the surface}@}. Here, {@{the electric field outside \(_r_ \> _R_\) and inside \(_r_ \< _R_\) of a charged sphere}@} is {@{being calculated}@} \(see [Wikiversity](https://en.wikiversity.org/wiki/MyOpenMath/Solutions/Maxwell%27s%20integral%20equations)\). <!--SR:!2029-03-10,1148,350!2026-02-27,284,330!2026-03-04,291,330!2026-03-09,294,330!2029-04-18,1175,350!2026-03-05,292,330!2026-02-28,285,330!2029-03-29,1166,350-->
 
-In {@{[physics](physics.md) \(specifically [electromagnetism](electromagnetism.md)\)}@}, {@{__Gauss's law__, also known as __Gauss's flux theorem__ \(or sometimes Gauss's theorem\)}@}, is {@{one of [Maxwell's equations](Maxwell's%20equations.md)}@}. It is an application of {@{the [divergence theorem](divergence%20theorem.md)}@}, and it relates {@{the distribution of [electric charge](electric%20charge.md) to the resulting [electric field](electric%20field.md)}@}. <!--SR:!2029-04-05,1169,350!2026-02-19,276,330!2026-02-16,275,330!2026-02-19,276,330!2029-04-18,1182,350-->
+In {@{[physics](physics.md) \(specifically [electromagnetism](electromagnetism.md)\)}@}, {@{__Gauss's law__, also known as __Gauss's flux theorem__ \(or sometimes Gauss's theorem\)}@}, is {@{one of [Maxwell's equations](Maxwell's%20equations.md)}@}. It is an application of {@{the [divergence theorem](divergence%20theorem.md)}@}, and it relates {@{the distribution of [electric charge](electric%20charge.md) to the resulting [electric field](electric%20field.md)}@}. <!--SR:!2029-04-05,1169,350!2026-02-19,276,330!2029-07-20,1250,350!2026-02-19,276,330!2029-04-18,1182,350-->
 
 ## definition
 
@@ -92,7 +92,7 @@ By {@{the [divergence theorem](divergence%20theorem.md)}@}, Gauss's law can {@{a
 
 - Main article: ::@:: [Divergence theorem](divergence%20theorem.md) <!--SR:!2029-03-13,1151,350!2029-03-04,1143,350-->
 
-{@{The integral and differential forms}@} are {@{mathematically equivalent}@}, by {@{the divergence theorem}@}. Here is the argument more specifically. <!--SR:!2026-02-16,275,330!2029-05-10,1192,350!2026-03-06,293,330-->
+{@{The integral and differential forms}@} are {@{mathematically equivalent}@}, by {@{the divergence theorem}@}. Here is the argument more specifically. <!--SR:!2029-07-21,1251,350!2029-05-10,1192,350!2026-03-06,293,330-->
 
 > __Outline of proof__
 >
@@ -113,7 +113,7 @@ Although {@{microscopically all charge is fundamentally the same}@}, there are o
 <!-- markdownlint-disable-next-line MD024 -->
 ### integral form
 
-{@{This formulation of Gauss's law}@} states the total charge form: {@{$$\Phi _{D}=Q_{\mathrm {free} }$$}@} where {@{Φ<sub>_D_</sub> is the [__D__-field](electric%20displacement%20field.md) flux through a surface _S_ which encloses a volume _V_, and _Q_<sub>free</sub> is the free charge contained in _V_}@}. {@{The flux Φ<sub>_D_</sub>}@} is defined {@{analogously to the flux Φ<sub>_E_</sub> of the electric field __E__ through _S_}@}: {@{$$\Phi _{D} = \oiint_S \mathbf {D} \cdot \mathrm {d} \mathbf {A}$$}@} <!--SR:!2026-02-19,276,330!2026-03-09,294,330!2026-05-20,331,290!2026-02-26,285,330!2026-02-16,274,330!2026-02-18,277,330-->
+{@{This formulation of Gauss's law}@} states the total charge form: {@{$$\Phi _{D}=Q_{\mathrm {free} }$$}@} where {@{Φ<sub>_D_</sub> is the [__D__-field](electric%20displacement%20field.md) flux through a surface _S_ which encloses a volume _V_, and _Q_<sub>free</sub> is the free charge contained in _V_}@}. {@{The flux Φ<sub>_D_</sub>}@} is defined {@{analogously to the flux Φ<sub>_E_</sub> of the electric field __E__ through _S_}@}: {@{$$\Phi _{D} = \oiint_S \mathbf {D} \cdot \mathrm {d} \mathbf {A}$$}@} <!--SR:!2026-02-19,276,330!2026-03-09,294,330!2026-05-20,331,290!2026-02-26,285,330!2029-07-18,1248,350!2026-02-18,277,330-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ### differential form

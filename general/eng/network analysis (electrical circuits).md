@@ -333,7 +333,7 @@ In {@{a great many circuit designs}@}, {@{the dc bias}@} is {@{fed to a non-line
 
 Perhaps the easiest practical method is to {@{calculate the \(linear\) network open circuit voltage and short circuit current}@} and {@{plot these on the transfer function of the non-linear device}@}. {@{The straight line joining these two point}@} is {@{the transfer function of the network}@}. <!--SR:!2027-11-01,734,340!2027-10-05,712,340!2027-11-21,746,330!2026-02-26,250,329-->
 
-In reality, the designer of the circuit would {@{proceed in the reverse direction to that described}@}. Starting from {@{a plot provided in the manufacturers data sheet for the non-linear device}@}, the designer would {@{choose the desired operating point and then calculate the linear component values required to achieve it}@}. <!--SR:!2026-07-17,385,360!2026-06-04,347,349!2026-02-16,259,330-->
+In reality, the designer of the circuit would {@{proceed in the reverse direction to that described}@}. Starting from {@{a plot provided in the manufacturers data sheet for the non-linear device}@}, the designer would {@{choose the desired operating point and then calculate the linear component values required to achieve it}@}. <!--SR:!2026-07-17,385,360!2026-06-04,347,349!2029-05-09,1178,350-->
 
 It is {@{still possible to use this method}@} if {@{the device being biased has its bias fed through another device which is itself non-linear, a diode for instance}@}. In this case however, {@{the plot of the network transfer function onto the device being biased}@} would {@{no longer be a straight line and is consequently more tedious to do}@}. <!--SR:!2026-07-29,395,360!2026-05-28,341,349!2026-05-01,321,349!2029-02-15,1112,350-->
 

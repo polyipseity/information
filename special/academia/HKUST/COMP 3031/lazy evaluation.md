@@ -100,7 +100,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 >   else lo :: listRange(lo + 1, hi)
 > ```
 >
-> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2026-02-17,79,350!2026-02-19,81,350!2026-02-21,83,350!2026-02-20,82,350!2026-02-17,80,350!2026-02-21,83,350!2026-02-16,78,348!2026-02-16,78,348-->
+> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2026-02-17,79,350!2026-02-19,81,350!2026-02-21,83,350!2026-02-20,82,350!2026-02-17,80,350!2026-02-21,83,350!2027-02-28,377,368!2027-02-26,375,368-->
 
 ### lazy list operations
 
@@ -114,9 +114,9 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > LazyList.range(1000, 10000).filter(isPrime)(1)
 > ```
 >
-> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2026-02-22,84,350!2026-02-20,82,350!2026-02-23,85,350!2026-02-17,79,350!2026-02-17,80,350!2026-02-22,84,350!2026-02-18,80,348!2026-02-16,78,348-->
+> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2026-02-22,84,350!2026-02-20,82,350!2026-02-23,85,350!2026-02-17,79,350!2026-02-17,80,350!2026-02-22,84,350!2026-02-18,80,348!2027-02-27,376,368-->
 
-Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2026-02-16,79,350!2027-02-14,367,370!2026-02-21,83,350!2026-02-17,79,350!2026-02-18,80,350!2026-02-19,81,350-->
+Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2027-03-09,386,370!2027-02-14,367,370!2026-02-21,83,350!2026-02-17,79,350!2026-02-18,80,350!2026-02-19,81,350-->
 
 {@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!2026-11-24,296,345!2027-01-16,339,345!2026-12-05,305,345!2026-11-27,299,345!2026-12-30,325,345!2027-01-05,330,345!2026-12-14,311,345!2026-12-29,325,345!2026-12-17,315,345!2026-11-09,284,345!2027-01-05,330,345!2026-12-29,325,345!2027-01-03,328,345-->
 
@@ -205,7 +205,7 @@ For {@{an example}@} of {@{`lazy val`}@}: <!--SR:!2026-12-18,316,345!2026-12-13,
 >
 > When evaluating {@{an expression that mixes these constructs}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2026-02-17,79,350!2026-02-23,85,350!2026-02-19,81,350!2026-02-17,79,348!2026-02-17,80,348-->
 
-When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2026-02-20,82,350!2026-02-20,82,350!2026-02-16,79,350-->
+When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2026-02-20,82,350!2026-02-20,82,350!2027-03-10,387,370-->
 
 ## infinite sequences
 
@@ -258,7 +258,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > val primes = sieve(from(2))
 > ```
 >
-> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2026-02-18,80,350!2026-02-17,79,350!2026-02-18,80,350!2026-02-22,84,350!2026-02-19,81,350!2026-02-23,85,350!2026-02-22,84,350!2026-02-16,78,348!2026-10-29,273,348!2026-02-16,79,348-->
+> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2026-02-18,80,350!2026-02-17,79,350!2026-02-18,80,350!2026-02-22,84,350!2026-02-19,81,350!2026-02-23,85,350!2026-02-22,84,350!2027-03-01,378,368!2026-10-29,273,348!2027-03-08,385,368-->
 
 {@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2026-12-29,325,345!2026-11-26,298,345!2026-09-24,253,330-->
 
@@ -288,7 +288,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > sqrtSeq(2).filter(isGoodEnough(_, 2))
 > ```
 >
-> {@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}. <!--SR:!2026-02-22,84,350!2026-02-20,82,350!2026-02-22,84,348!2026-02-16,78,348-->
+> {@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}. <!--SR:!2026-02-22,84,350!2026-02-20,82,350!2026-02-22,84,348!2027-02-25,374,368-->
 
 {@{A combinatorial search problem}@}, such as {@{filling glasses to a target volume}@}, can be encoded with {@{lazy lists of state transitions}@}: <!--SR:!2026-10-30,274,345!2027-01-21,343,345!2026-12-30,325,345-->
 

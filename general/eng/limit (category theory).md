@@ -61,7 +61,7 @@ It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if
 
 {@{A __[co-cone](co-cone.md)__ of a diagram $F:J\to C$}@} is {@{an object $N$ of $C$ together with a family of morphisms $$\psi _{X}:F(X)\to N$$ for every object $X$ of $J$}@}, such that {@{for every morphism $f:X\to Y$ in $J$, we have $\psi _{Y}\circ F(f)=\psi _{X}$}@}. <!--SR:!2029-05-17,1229,350!2027-03-01,539,310!2026-05-24,389,358-->
 
-{@{A __colimit__ of a diagram $F:J\to C$}@} is {@{a co-cone $(L,\phi )$ of $F$}@} such that {@{for any other co-cone $(N,\psi )$ of $F$ there exists a unique morphism $u:L\to N$ such that $u\circ \phi _{X}=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal co-cone](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg)}@} <!--SR:!2026-04-16,358,358!2029-03-04,1179,358!2026-02-16,309,353!2027-11-05,772,338-->
+{@{A __colimit__ of a diagram $F:J\to C$}@} is {@{a co-cone $(L,\phi )$ of $F$}@} such that {@{for any other co-cone $(N,\psi )$ of $F$ there exists a unique morphism $u:L\to N$ such that $u\circ \phi _{X}=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal co-cone](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg)}@} <!--SR:!2026-04-16,358,358!2029-03-04,1179,358!2029-02-07,1087,353!2027-11-05,772,338-->
 
 Colimits are also referred to as {@{_[universal co-cones](universal%20co-cone.md#universal%20cones)_}@}. They can be {@{characterized as [initial objects](initial%20object.md)}@} in {@{the [category of co-cones](category%20of%20co-cones.md#category%20of%20cones) from $F$}@}. <!--SR:!2026-03-13,329,353!2026-05-06,372,358!2028-10-28,1075,358-->
 

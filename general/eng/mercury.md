@@ -32,7 +32,7 @@ return await memorize_table(
 
 > | name                                 | description                                                                                                         |
 > | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-> | {@{[thermometers](thermometer.md)}@} | {@{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}@} | <!--SR:!2026-08-30,968,350!2026-02-16,723,290-->
+> | {@{[thermometers](thermometer.md)}@} | {@{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}@} | <!--SR:!2026-08-30,968,350!2034-02-08,2914,310-->
 
 <!--/pytextgen-->
 

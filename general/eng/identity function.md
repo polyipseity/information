@@ -35,7 +35,7 @@ In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{al
 
 {@{The identity function _f_ on _X_}@} is often denoted {@{by id<sub>_X_</sub>}@}. <!--SR:!2029-07-11,1259,350!2029-05-16,1217,350-->
 
-In {@{[set theory](set%20theory.md)}@}, where a function is defined as {@{a particular kind of [binary relation](binary%20relation.md)}@}, the identity function is given by {@{the [identity relation](identity%20relation.md#particular%20homogeneous%20relations), or _diagonal_ of _X_}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-06-20,1243,350!2029-09-24,1320,350!2026-02-16,292,330-->
+In {@{[set theory](set%20theory.md)}@}, where a function is defined as {@{a particular kind of [binary relation](binary%20relation.md)}@}, the identity function is given by {@{the [identity relation](identity%20relation.md#particular%20homogeneous%20relations), or _diagonal_ of _X_}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-06-20,1243,350!2029-09-24,1320,350!2029-10-14,1336,350-->
 
 ## algebraic properties
 

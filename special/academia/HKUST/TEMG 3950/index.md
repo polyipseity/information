@@ -233,7 +233,7 @@ The content is in teaching order.
   - facts table ::@:: what, when, where, impact <!--SR:!2031-11-13,2191,401!2027-05-16,828,361-->
   - solutions table ::@:: no., cause, solution <br/> optional: time, persons responsible, budget <!--SR:!2026-11-22,638,341!2028-10-13,1159,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2030-02-10,1633,381!2033-01-01,2523,401-->
-  - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2026-02-16,430,321!2030-06-12,1729,381-->
+  - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2031-05-07,1906,341!2030-06-12,1729,381-->
   - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview <!--SR:!2032-06-14,2346,401!2032-03-13,2289,401-->
   - interview note § facts ::@:: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2027-11-06,967,361!2030-04-15,1683,381-->
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)

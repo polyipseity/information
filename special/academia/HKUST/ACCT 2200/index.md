@@ -73,7 +73,7 @@ The content is in teaching order.
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2029-09-08,1304,350!2029-09-18,1311,350-->
   - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->
   - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2026-02-20,293,330!2029-08-23,1290,350-->
-  - types of costs / variability ::@:: variable vs. fixed <!--SR:!2026-02-16,289,330!2029-08-21,1289,350-->
+  - types of costs / variability ::@:: variable vs. fixed <!--SR:!2029-09-30,1322,350!2029-08-21,1289,350-->
 - [direct costs](../../../../general/direct%20costs.md) ::@:: convenient and easily traceable to a cost object, e.g. cost of labors and materials to produce a product <!--SR:!2029-08-15,1284,350!2029-08-22,1289,350-->
   - [cost object](../../../../general/cost%20object.md) ::@:: a term used primarily in cost accounting to describe something to which costs are assigned <!--SR:!2029-08-30,1296,350!2028-04-18,878,330-->
 - [indirect costs](../../../../general/indirect%20costs.md) ::@:: inconvenient or hardly traceable to a cost object, e.g. advertising, depreciation, supervision, utilities <!--SR:!2029-09-06,1301,350!2028-02-05,835,330-->
@@ -85,12 +85,12 @@ The content is in teaching order.
   - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2029-09-16,1310,350-->
   - prime cost ::@:: direct materials + direct labor <!--SR:!2029-08-16,1284,350!2028-02-06,835,330-->
   - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2029-08-19,1287,350-->
-  - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2026-02-16,289,330!2028-02-10,839,330-->
+  - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2029-09-28,1320,350!2028-02-10,839,330-->
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits <!--SR:!2026-02-19,292,330!2026-02-19,292,330-->
 - period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2029-09-15,1309,350!2027-06-09,595,310-->
 - [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2028-01-15,818,330!2029-09-13,1308,350-->
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs <!--SR:!2029-09-24,1317,350!2026-02-19,292,330-->
-- out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2028-01-24,824,330!2026-02-16,289,330-->
+- out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2028-01-24,824,330!2029-09-29,1321,350-->
 - [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken <!--SR:!2026-02-21,294,330!2027-01-29,529,310-->
 
 ## week 1 lecture 2

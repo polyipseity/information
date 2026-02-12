@@ -15,7 +15,7 @@ tags:
 
 ## definition
 
-{@{The discrete Fourier transform \(DFT\)}@} {@{transforms a sequence of length $N$ into another sequence of length $N$}@}. It is defined by: {@{$$X[k] := \sum_{n = 0}^{N - 1} x[n] \cdot e^{-j 2\pi (k / N) n} = \sum_{n = 0}^{N - 1} x[n] \left(\cos(2 \pi (k / N) n) - j \sin(2 \pi (k / N) n) \right)$$}@}. <!--SR:!2028-10-06,1181,350!2026-02-16,363,290!2028-01-03,711,424-->
+{@{The discrete Fourier transform \(DFT\)}@} {@{transforms a sequence of length $N$ into another sequence of length $N$}@}. It is defined by: {@{$$X[k] := \sum_{n = 0}^{N - 1} x[n] \cdot e^{-j 2\pi (k / N) n} = \sum_{n = 0}^{N - 1} x[n] \left(\cos(2 \pi (k / N) n) - j \sin(2 \pi (k / N) n) \right)$$}@}. <!--SR:!2028-10-06,1181,350!2030-02-18,1463,310!2028-01-03,711,424-->
 
 The inverse discrete Fourier transform (IDFT) is {@{the inverse of DFT (duh)}@}. It {@{recovers the the original signal of length $N$ given a sequence of length $N$ transformed by DFT}@}. It is defined by: {@{$$x[n] := \frac 1 N \sum_{k = 0}^{N - 1} X[k] \cdot e^{j 2\pi (k / N) n} = \frac 1 N \sum_{k = 0}^{N - 1} X[k] \left(\cos(2 \pi (k / N) n) + j \sin(2 \pi (k / N) n) \right)$$}@}. One can see the formula is {@{almost the same as DFT}@}, except that {@{a factor of $1 / N$ is added, the input and output sequences are swapped, and the sign of the exponent is negated}@}. <!--SR:!2029-02-18,1288,350!2026-09-21,583,330!2027-09-23,802,290!2029-06-15,1379,350!2029-04-06,1325,350-->
 

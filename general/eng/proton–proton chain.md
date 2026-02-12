@@ -31,7 +31,7 @@ The first step in all the branches is {@{the fusion of two [protons](proton.md) 
 
 After it is formed, the [deuteron](deuteron.md) produced in the first stage can {@{fuse with another [proton](proton.md) to produce the stable, light [isotope](isotope.md) of [helium](helium.md), <sup>3</sup>He}@}: {@{$${}_1^2 \mathrm{D} + {}_1^1 \mathrm{H} \to {}_2^3 \mathrm{He} + \gamma + 5.493\text{ MeV}$$}@}. <!--SR:!2029-09-19,1372,315!2026-04-14,93,215-->
 
-- 2nd step / energy release ::@:: 5.493 MeV <!--SR:!2026-02-16,213,170!2026-07-21,312,210-->
+- 2nd step / energy release ::@:: 5.493 MeV <!--SR:!2027-02-13,362,170!2026-07-21,312,210-->
 
 The overall reaction (noting that the elements are [ionized](ionization.md)) is: {@{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}@}. Some energy is {@{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}@}. <!--SR:!2027-04-13,696,290!2030-03-30,1521,310-->
 

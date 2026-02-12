@@ -44,11 +44,11 @@ __Optimal product mix__ ::@:: <p> The combination of products produced by the ec
 
 ### a numerical example of allocative efficiency
 
-{@{Allocation efficiency occurs}@} when {@{there is an optimal distribution of goods and services, considering consumer's preference}@}. When {@{the price equals marginal cost of production}@}, {@{the allocation efficiency is at the output level}@}. This is because {@{the optimal distribution is achieved when the marginal utility of good equals the marginal cost}@}. {@{The price that consumer is willing to pay}@} is {@{same as the marginal utility of the consumer}@}. <!--SR:!2028-10-18,1119,354!2029-08-20,1282,356!2026-07-15,449,314!2026-06-19,437,314!2027-12-23,885,356!2029-08-25,1362,354!2026-02-16,361,356-->
+{@{Allocation efficiency occurs}@} when {@{there is an optimal distribution of goods and services, considering consumer's preference}@}. When {@{the price equals marginal cost of production}@}, {@{the allocation efficiency is at the output level}@}. This is because {@{the optimal distribution is achieved when the marginal utility of good equals the marginal cost}@}. {@{The price that consumer is willing to pay}@} is {@{same as the marginal utility of the consumer}@}. <!--SR:!2028-10-18,1119,354!2029-08-20,1282,356!2026-07-15,449,314!2026-06-19,437,314!2027-12-23,885,356!2029-08-25,1362,354!2030-12-19,1767,376-->
 
 > {@{![allocative efficiency example](../../archives/Wikimedia%20Commons/Allocative-efficiency-numbers.png)}@}
 >
-> {@{Allocative Efficiency example}@} <!--SR:!2026-02-16,361,356!2029-01-03,1180,354-->
+> {@{Allocative Efficiency example}@} <!--SR:!2029-08-23,1284,356!2029-01-03,1180,354-->
 
 From the graph we can see that at the output of 40, the marginal cost of good is $6 while the price that consumer is willing to pay is $15. It means {@{the marginal utility of the consumer is higher than the marginal cost}@}. The optimal level of the output is 70, where {@{the marginal cost equals to marginal utility}@}. At the output of 40, {@{this product or service is under-consumed by the society}@}. By increasing the output to 70, the price will fall to $11. Meanwhile, the society would {@{benefit from consuming more of the good or service}@}. <!--SR:!2029-01-19,1176,356!2029-08-30,1365,354!2029-08-19,1357,354!2028-10-14,1116,354-->
 

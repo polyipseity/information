@@ -25,7 +25,7 @@ Suppose that {@{_f_\(_x_, _y_\) is a differentiable [real function](real%20funct
 
 1. If _D_\(_a_, _b_\) \> 0 and _f<sub>xx</sub>_\(_a_, _b_\) \> 0 ::@:: then \(_a_, _b_\) is a local minimum of _f_. <!--SR:!2026-03-06,268,330!2029-04-25,1166,350-->
 2. If _D_\(_a_, _b_\) \> 0 and _f<sub>xx</sub>_\(_a_, _b_\) \< 0 ::@:: then \(_a_, _b_\) is a local maximum of _f_. <!--SR:!2026-03-19,281,330!2026-03-06,268,330-->
-3. If _D_\(_a_, _b_\) \< 0 ::@:: then \(_a_, _b_\) is a [saddle point](saddle%20point.md) of _f_. <!--SR:!2026-02-16,256,330!2029-03-31,1148,350-->
+3. If _D_\(_a_, _b_\) \< 0 ::@:: then \(_a_, _b_\) is a [saddle point](saddle%20point.md) of _f_. <!--SR:!2029-04-28,1167,350!2029-03-31,1148,350-->
 4. If _D_\(_a_, _b_\) = 0 ::@:: then the point \(_a_, _b_\) could be any of a minimum, maximum, or saddle point \(that is, the test is inconclusive\). <!--SR:!2026-03-27,288,330!2029-02-19,1112,350-->
 
 Sometimes {@{other equivalent versions of the test are used}@}. In {@{cases 1 and 2}@}, {@{the requirement that _f<sub>xx</sub>_ _f<sub>yy</sub>_ − _f<sub>xy</sub>_<sup>2</sup> is positive at \(_x_, _y_\)}@} {@{implies that _f<sub>xx</sub>_ and _f<sub>yy</sub>_ have the same sign there}@}. Therefore, {@{the second condition, that _f<sub>xx</sub>_ be greater \(or less\) than zero}@}, could {@{equivalently be that _f<sub>yy</sub>_ or tr\(_H_\) = _f<sub>xx</sub>_ + _f<sub>yy</sub>_ be greater \(or less\) than zero at that point}@}. <!--SR:!2026-02-24,263,330!2029-02-06,1103,350!2029-04-08,1154,350!2028-04-11,800,330!2026-04-01,292,330!2028-06-02,840,330-->

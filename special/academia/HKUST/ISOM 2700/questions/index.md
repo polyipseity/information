@@ -37,7 +37,7 @@ tags:
 > 4. Year 2, Non-business
 > 5. Other
 >
-> - solution: {@{1/2/3/4/5}@} <!--SR:!2026-02-16,266,330-->
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2029-06-05,1205,350-->
 
 ## week 5 lecture 2
 

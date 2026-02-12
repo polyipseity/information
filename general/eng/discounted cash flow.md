@@ -45,7 +45,7 @@ In {@{__discount cash flow analysis__}@}, {@{all future cash flows are estimated
 
 For further context see [Valuation \(finance\) § Valuation overview](valuation%20(finance).md#valuation%20overview); and for the mechanics see [valuation using discounted cash flows](valuation%20using%20discounted%20cash%20flows.md), which includes {@{modifications typical for [startups](startup.md), [private equity](private%20equity.md) and [venture capital](venture%20capital.md)}@}, {@{[corporate finance](corporate%20finance.md) "projects", and [mergers and acquisitions](mergers%20and%20acquisitions.md)}@}. <!--SR:!2027-05-14,580,310!2026-03-17,131,393-->
 
-{@{Using DCF analysis to compute the NPV}@} takes {@{as input cash flows and a discount rate and gives as output a present value}@}. {@{The opposite process}@} takes {@{cash flows and a price \([present value](present%20value.md)\) as inputs, and provides as output the discount rate}@}; this is used in {@{bond markets to obtain the [yield](yield%20(finance).md)}@}. <!--SR:!2026-02-17,293,330!2027-06-08,652,330!2029-06-19,1238,350!2026-04-04,333,349!2026-02-16,292,330-->
+{@{Using DCF analysis to compute the NPV}@} takes {@{as input cash flows and a discount rate and gives as output a present value}@}. {@{The opposite process}@} takes {@{cash flows and a price \([present value](present%20value.md)\) as inputs, and provides as output the discount rate}@}; this is used in {@{bond markets to obtain the [yield](yield%20(finance).md)}@}. <!--SR:!2026-02-17,293,330!2027-06-08,652,330!2029-06-19,1238,350!2026-04-04,333,349!2029-10-12,1334,350-->
 
 ## history
 
@@ -66,7 +66,7 @@ For further context see [Valuation \(finance\) § Valuation overview](valuation%
 
 Where {@{multiple cash flows in multiple time periods are discounted}@}, it is necessary to {@{sum them as follows: $$DPV=\sum _{t=0}^{N}{\frac {FV_{t} }{(1+r)^{t} } }$$}@} for {@{each future cash flow \(_FV_\) at any time period \(_t_\) in years from the present time, summed over all time periods}@}. The sum can then be used as {@{a [net present value](net%20present%20value.md) figure}@}. If {@{the amount to be paid at time 0 \(now\) for all the future cash flows is known}@}, then {@{that amount can be substituted for _DPV_}@} and the equation can be {@{solved for _r_, that is the [internal rate of return](internal%20rate%20of%20return.md)}@}. <!--SR:!2028-01-14,822,330!2028-12-01,1086,350!2029-02-21,1144,350!2029-04-13,1188,350!2026-04-08,336,349!2029-09-07,1306,350!2028-12-16,1099,350-->
 
-{@{All the above}@} assumes that {@{the interest rate remains constant throughout the whole period}@}. <!--SR:!2026-02-16,292,330!2029-09-06,1305,350-->
+{@{All the above}@} assumes that {@{the interest rate remains constant throughout the whole period}@}. <!--SR:!2029-10-11,1333,350!2029-09-06,1305,350-->
 
 If {@{the cash flow stream is assumed to continue indefinitely}@}, {@{the finite forecast}@} is usually {@{combined with the assumption of constant cash flow growth beyond the discrete projection period}@}. {@{The total value of such cash flow stream}@} is {@{the sum of the finite discounted cash flow forecast and the [Terminal value \(finance\)](terminal%20value%20(finance).md)}@}. <!--SR:!2026-04-14,341,349!2029-03-13,1164,350!2028-01-23,826,330!2026-04-04,333,349!2026-03-29,327,349-->
 

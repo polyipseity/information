@@ -17,7 +17,7 @@ tags:
 >
 > where
 >
-> - {@{$I_x$, $I_y$, and $I_z$}@} are {@{[moments of inertia](moment%20of%20inertia.md) of an object about the axis $x$, $y$, and $z$}@}, which {@{meet at the origin, respectively}@} <!--SR:!2028-04-03,1219,350!2026-06-25,703,330!2026-02-22,76,330!2026-02-22,76,330!2026-02-16,71,330!2026-02-17,72,330!2026-12-13,305,350-->
+> - {@{$I_x$, $I_y$, and $I_z$}@} are {@{[moments of inertia](moment%20of%20inertia.md) of an object about the axis $x$, $y$, and $z$}@}, which {@{meet at the origin, respectively}@} <!--SR:!2028-04-03,1219,350!2026-06-25,703,330!2026-02-22,76,330!2026-02-22,76,330!2027-01-10,328,350!2026-02-17,72,330!2026-12-13,305,350-->
 
 ## references
 

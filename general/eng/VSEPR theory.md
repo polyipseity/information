@@ -47,7 +47,7 @@ tags:
 >   - AX<sub>2</sub>E<sub>1</sub> / ideal bond angle(s) :@: 120° <!--SR:!2026-02-22,20,265-->
 >   - AX<sub>2</sub>E<sub>1</sub> / example(s) ::@:: [SO<sub>2</sub>](sulfur%20dioxide.md) <!--SR:!2026-03-08,33,285!2026-03-21,46,305-->
 > - AX<sub>2</sub>E<sub>2</sub>
->   - AX<sub>2</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E2-3D-balls.png) <!--SR:!2026-02-16,9,285!2026-03-26,47,305-->
+>   - AX<sub>2</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E2-3D-balls.png) <!--SR:!2026-02-21,5,265!2026-03-26,47,305-->
 >   - AX<sub>2</sub>E<sub>2</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-03-30,50,305-->
 >   - AX<sub>2</sub>E<sub>2</sub> / example(s) ::@:: [H<sub>2</sub>O](water.md) <!--SR:!2026-04-19,71,325!2026-04-24,75,325-->
 > - AX<sub>2</sub>E<sub>3</sub>
