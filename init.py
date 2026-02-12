@@ -1,39 +1,73 @@
-from aioshutil import rmtree as _rmtr, sync_to_async
-from anyio import Path as _Path
-from appdirs import AppDirs as _AppDirs  # type: ignore
 from argparse import (
-    ArgumentParser as _ArgParser,
-    Namespace as _NS,
     ONE_OR_MORE as _ONE_OR_MORE,
 )
-from asyncio import Task, TaskGroup, create_task, gather as _gather, run as _run
+from argparse import (
+    ArgumentParser as _ArgParser,
+)
+from argparse import (
+    Namespace as _NS,
+)
+from asyncio import Task, TaskGroup, create_task
+from asyncio import gather as _gather
+from asyncio import run as _run
 from collections import defaultdict as _defdict
 from dataclasses import dataclass as _dc
 from functools import wraps as _wraps
-from inspect import currentframe as _curframe, getframeinfo as _frameinfo
-from itertools import chain as _chain, starmap as _smap, zip_longest as _zip_l
-from json import dumps as _dumps, loads as _loads
+from inspect import currentframe as _curframe
+from inspect import getframeinfo as _frameinfo
+from itertools import chain as _chain
+from itertools import starmap as _smap
+from itertools import zip_longest as _zip_l
+from json import dumps as _dumps
+from json import loads as _loads
 from json.decoder import JSONDecodeError as _JSONDecErr
 from logging import (
     INFO as _INFO,
+)
+from logging import (
     basicConfig as _basicConfig,
+)
+from logging import (
     exception as _exc,
+)
+from logging import (
     info as _info,
 )
 from operator import ne as _ne
-from os import linesep as _linesep, lstat as _lstat, walk as _walk
-from sys import argv as _argv, exit as _exit, modules as _mods
+from os import fspath
+from os import linesep as _linesep
+from os import lstat as _lstat
+from os import walk as _walk
+from sys import argv as _argv
+from sys import exit as _exit
 from typing import (
     Any as _Any,
+)
+from typing import (
     Awaitable as _Await,
+)
+from typing import (
     Callable as _Call,
+)
+from typing import (
     Collection as _Collect,
+)
+from typing import (
     MutableMapping as _MMap,
+)
+from typing import (
     Sequence as _Seq,
+)
+from typing import (
     final as _fin,
 )
-from pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS  # type: ignore
-from pytextgen.main import parser as _pytextgen_parser  # type: ignore
+
+from aioshutil import rmtree as _rmtr
+from aioshutil import sync_to_async
+from anyio import Path as _Path
+from appdirs import AppDirs as _AppDirs  # type: ignore
+from pytextgen.main import parser as _pytextgen_parser
+from pytextgen.meta import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
 
 _EXCLUDES = (
     ".git",
@@ -204,7 +238,7 @@ async def main(args: Arguments):
             _info(f"Using {len(inputs)} input(s)")
             try:
                 entry = _pytextgen_parser().parse_args(
-                    tuple(_chain(args.arguments, ("--",), inputs))
+                    tuple(_chain(args.arguments, ("--",), map(fspath, inputs)))
                 )
                 await entry.invoke(entry)
                 success = True
