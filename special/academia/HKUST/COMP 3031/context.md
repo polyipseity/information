@@ -323,7 +323,7 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >   sort(xs)  // uses `listOrdering[List[Int]]`, then uses `Ordering.Int` inside `listOrdering`
 > ```
 >
-> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2026-02-16,78,347!2026-02-20,82,347!2026-02-15,78,347!2026-02-16,79,347!2026-12-25,322,349!2027-01-27,348,349!2027-01-01,328,349!2026-11-18,292,349!2026-02-17,79,348-->
+> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2026-02-16,78,347!2026-02-20,82,347!2027-03-01,379,367!2026-02-16,79,347!2026-12-25,322,349!2027-01-27,348,349!2027-01-01,328,349!2026-11-18,292,349!2026-02-17,79,348-->
 
 For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!2026-11-09,283,349!2026-10-02,251,330!2027-01-19,340,349!2026-11-27,297,349-->
 

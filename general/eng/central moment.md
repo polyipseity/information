@@ -42,7 +42,7 @@ The following sum is {@{a stochastic variable having a ___compound distribution_
 
 ### symmetric distributions
 
-In {@{distributions that are [symmetric about their means](symmetric%20distribution.md) \(unaffected by being [reflected](reflection%20(mathematics).md) about the mean\)}@}, {@{all odd central moments equal zero whenever they exist}@}, because in {@{the formula for the _n_<!-- markdown separator -->th moment}@}, each term involving a value of _X_ less than the mean by a certain amount {@{exactly cancels out the term involving a value of _X_ greater than the mean by the same amount}@}. <!--SR:!2027-10-27,764,330!2027-12-15,802,330!2026-02-15,292,330!2026-02-15,292,330-->
+In {@{distributions that are [symmetric about their means](symmetric%20distribution.md) \(unaffected by being [reflected](reflection%20(mathematics).md) about the mean\)}@}, {@{all odd central moments equal zero whenever they exist}@}, because in {@{the formula for the _n_<!-- markdown separator -->th moment}@}, each term involving a value of _X_ less than the mean by a certain amount {@{exactly cancels out the term involving a value of _X_ greater than the mean by the same amount}@}. <!--SR:!2027-10-27,764,330!2027-12-15,802,330!2029-10-13,1336,350!2029-10-12,1335,350-->
 
 ## multivariate moments
 

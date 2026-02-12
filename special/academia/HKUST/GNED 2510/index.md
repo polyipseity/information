@@ -133,7 +133,7 @@ The content is in teaching order.
 - What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2028-05-04,1026,350!2027-06-18,747,330-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2029-07-17,1365,350-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2027-08-07,797,330!2029-04-10,1294,350-->
-  - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2026-11-27,544,270!2026-02-15,370,290-->
+  - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2026-11-27,544,270!2030-03-17,1491,310-->
   - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2028-04-18,1010,350!2028-11-02,1170,350-->
 
 ## week 8 tutorial

@@ -172,7 +172,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-22T08:30:00-05:00/2025-01-22T09:50:00-05:00, PT1H20M
   - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00, PT1H20M
-- [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2029-08-13,1309,375!2026-02-15,297,355-->
+- [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2029-08-13,1309,375!2030-01-27,1442,375-->
   - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2029-08-23,1319,375!2026-04-21,309,315-->
   - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2029-09-02,1329,375!2030-01-01,1421,375-->
 - [jazz](../../../../general/jazz.md)

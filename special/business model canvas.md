@@ -284,7 +284,7 @@ The key activities building block shows {@{important activities required for the
 
 #### key partnerships
 
-The key partnerships building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}@}. Partnerships can {@{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2026-02-15,317,217!2026-03-14,402,237-->
+The key partnerships building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}@}. Partnerships can {@{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2028-01-06,690,217!2026-03-14,402,237-->
 
 #### cost structure
 

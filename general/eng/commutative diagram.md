@@ -49,7 +49,7 @@ Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of di
 
 ### example 1
 
-In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2029-05-22,1222,350!2029-06-02,1231,350!2027-11-28,783,330!2026-02-15,291,330!2029-09-17,1314,350-->
+In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2029-05-22,1222,350!2029-06-02,1231,350!2027-11-28,783,330!2029-10-08,1331,350!2029-09-17,1314,350-->
 
 |                                                                                                                                                                                                                           |                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -83,11 +83,11 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 
 - Main article: [Diagram \(category theory\)](diagram%20(category%20theory).md)
 
-{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2029-09-09,1308,350!2027-06-04,594,310!2026-02-15,291,330-->
+{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2029-09-09,1308,350!2027-06-04,594,310!2029-10-07,1330,350-->
 
 More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2027-06-23,665,330!2029-02-04,1127,350-->
 
-- a node ::@:: for every object in the index category, <!--SR:!2026-02-15,291,330!2029-05-04,1204,350-->
+- a node ::@:: for every object in the index category, <!--SR:!2029-10-06,1329,350!2029-05-04,1204,350-->
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2027-04-24,564,310!2028-01-23,777,330-->
 - the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2029-06-23,1246,350!2028-11-08,1066,350-->
 

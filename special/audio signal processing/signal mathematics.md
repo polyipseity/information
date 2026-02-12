@@ -28,7 +28,7 @@ tags:
 > - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
 > - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 > - {@{$\phi$}@} is {@{initial phase offset}@}.
-> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-02-15,381,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350!2026-04-17,123,404!2026-05-03,137,404!2026-05-06,140,404!2026-05-04,138,404!2026-04-18,124,404!2026-05-05,139,404-->
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2029-02-23,1104,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350!2026-04-17,123,404!2026-05-03,137,404!2026-05-06,140,404!2026-05-04,138,404!2026-04-18,124,404!2026-05-05,139,404-->
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {@{digital signals (discrete signals)}@}. In that case, usually {@{the time is discretized}@}. So the equation becomes: <!--SR:!2028-08-08,1142,350!2029-03-01,1307,350-->
 

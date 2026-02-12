@@ -187,7 +187,7 @@ The inner product between {@{a [tensor](tensor.md) of order $n$ and a tensor of 
 
 ### algorithms
 
-{@{The straightforward algorithm for calculating a floating-point dot product of vectors}@} can {@{suffer from [catastrophic cancellation](catastrophic%20cancellation.md)}@}. To avoid this, {@{approaches such as the [Kahan summation algorithm](Kahan%20summation%20algorithm.md) are used}@}. <!--SR:!2026-09-02,448,383!2026-02-15,283,363!2026-08-04,426,383-->
+{@{The straightforward algorithm for calculating a floating-point dot product of vectors}@} can {@{suffer from [catastrophic cancellation](catastrophic%20cancellation.md)}@}. To avoid this, {@{approaches such as the [Kahan summation algorithm](Kahan%20summation%20algorithm.md) are used}@}. <!--SR:!2026-09-02,448,383!2029-12-25,1409,383!2026-08-04,426,383-->
 
 ### libraries
 

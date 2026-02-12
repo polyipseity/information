@@ -50,7 +50,7 @@ Since {@{the identity element of a monoid is [unique](unique%20(mathematics).md)
 - The identity function on the positive [integers](integer.md) ::@:: is a [completely multiplicative function](completely%20multiplicative%20function.md) \(essentially multiplication by 1\), considered in [number theory](number%20theory.md).<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2029-05-25,1225,350!2029-09-02,1302,350-->
 - In a [metric space](metric%20space.md) the identity function ::@:: is trivially an [isometry](isometry.md). An object without any [symmetry](symmetry.md) has as its [symmetry group](symmetry%20group.md) the [trivial group](trivial%20group.md) containing only this isometry \(symmetry type C<sub>1</sub>\).<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2029-09-19,1316,350!2027-11-27,781,330-->
 - In a [topological space](topological%20space.md), ::@:: the identity function is always [continuous](continuous%20function.md#continuous%20functions%20between%20topological%20spaces).<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-06-19,1242,350!2029-09-14,1312,350-->
-- The identity function ::@:: is [idempotent](idempotence.md).<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2029-09-07,1306,350!2026-02-15,291,330-->
+- The identity function ::@:: is [idempotent](idempotence.md).<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2029-09-07,1306,350!2029-10-05,1328,350-->
 
 ## see also
 

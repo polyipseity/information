@@ -102,7 +102,7 @@ The content is in teaching order.
   - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2026-02-16,356,382!2026-07-02,490,402-->
 - design thinking
   - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!2026-07-12,498,402!2026-08-04,517,402-->
-  - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2026-07-10,497,402!2026-02-15,355,382-->
+  - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2026-07-10,497,402!2031-03-14,1853,402-->
   - design thinking / life design: ideate ::@:: You give yourself permission to have unreserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in. <!--SR:!2026-08-03,516,402!2026-08-07,519,402-->
   - design thinking / life design: prototype ::@:: You build simply and accessibly. <!--SR:!2026-06-15,477,402!2026-07-10,497,402-->
   - design thinking / life design: test ::@:: You try things curiously and courageously. <!--SR:!2026-08-29,538,402!2026-07-19,501,402-->

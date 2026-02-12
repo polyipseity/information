@@ -53,7 +53,7 @@ tags:
 > - AX<sub>2</sub>E<sub>3</sub>
 >   - AX<sub>2</sub>E<sub>3</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E3-3D-balls.png) <!--SR:!2026-03-22,47,305!2026-04-24,75,325-->
 >   - AX<sub>2</sub>E<sub>3</sub> / ideal bond angle(s) :@: 180° <!--SR:!2026-03-30,50,305-->
->   - AX<sub>2</sub>E<sub>3</sub> / example(s) ::@:: [XeF<sub>2</sub>](xenon%20difluoride.md) <!--SR:!2026-03-21,46,305!2026-02-15,13,245-->
+>   - AX<sub>2</sub>E<sub>3</sub> / example(s) ::@:: [XeF<sub>2</sub>](xenon%20difluoride.md) <!--SR:!2026-03-21,46,305!2026-03-19,32,245-->
 > - AX<sub>3</sub>E<sub>0</sub>
 >   - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2026-04-24,75,325!2026-03-22,47,305-->
 >   - AX<sub>3</sub>E<sub>0</sub> / ideal bond angle(s) :@: 120° <!--SR:!2026-02-28,26,285-->

@@ -19,7 +19,7 @@ tags:
 > - {@{$C_V$}@} is {@{the [heat capacity](heat%20capacity.md) under [constant volume](isochoric%20process.md)}@}
 > - {@{$C_p$}@} is {@{the [heat capacity](heat%20capacity.md) under [constant pressure](isobaric%20process.md)}@}
 > - {@{$n$}@} is {@{the [amount of substance](amount%20of%20substance.md) (i.e. number of [moles](mole%20(unit).md))}@}
-> - {@{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$}@} is {@{the [gas constant](gas%20constant.md)}@} <!--SR:!2032-03-22,2241,330!2026-06-11,635,310!2026-08-16,573,250!2029-08-23,1420,310!2026-12-27,316,346!2026-12-09,301,346!2026-02-15,70,326!2026-12-08,300,346!2026-08-27,207,326!2026-02-20,74,326-->
+> - {@{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$}@} is {@{the [gas constant](gas%20constant.md)}@} <!--SR:!2032-03-22,2241,330!2026-06-11,635,310!2026-08-16,573,250!2029-08-23,1420,310!2026-12-27,316,346!2026-12-09,301,346!2027-01-03,322,346!2026-12-08,300,346!2026-08-27,207,326!2026-02-20,74,326-->
 
 ## references
 

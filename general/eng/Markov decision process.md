@@ -54,7 +54,7 @@ These model classes form a hierarchy of information content: an explicit model t
 >
 > {@{Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)}@} <!--SR:!2030-07-11,1613,369!2026-02-26,349,349-->
 
-An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic control theory}@}. <!--SR:!2026-02-15,340,349!2026-03-01,352,349-->
+An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic control theory}@}. <!--SR:!2030-08-04,1631,369!2026-03-01,352,349-->
 
 In this example, we have
 
@@ -157,7 +157,7 @@ Reinforcement learning can {@{solve Markov-Decision processes without explicit s
 
 ### reinforcement learning for discrete MDPs
 
-For {@{the purpose of this section}@}, it is useful to {@{define a further function}@}, which corresponds to {@{taking the action $a$ and then continuing optimally \(or according to whatever policy one currently has\)}@}: {@{$$\ Q(s,a)=\sum _{s'}P_{a}(s,s')(R_{a}(s,s')+\gamma V(s')).\ {}$$}@} While {@{this function is also unknown}@}, {@{experience during learning}@} is based on {@{$(s,a)$ pairs}@} \(together with {@{the outcome $s'$}@}; that is, "I {@{was in state $s$ and I tried doing $a$ and $s'$ happened}@}"\). Thus, one has {@{an array $Q$ and uses experience to update it directly}@}. This is known as {@{[Q-learning](Q-learning.md)}@}. <!--SR:!2030-02-15,1491,369!2027-02-01,596,329!2030-06-29,1603,369!2028-03-22,848,329!2026-02-15,340,349!2030-06-07,1584,369!2030-02-10,1486,369!2028-10-02,1019,349!2026-02-20,344,349!2026-07-01,140,408!2026-07-02,141,408-->
+For {@{the purpose of this section}@}, it is useful to {@{define a further function}@}, which corresponds to {@{taking the action $a$ and then continuing optimally \(or according to whatever policy one currently has\)}@}: {@{$$\ Q(s,a)=\sum _{s'}P_{a}(s,s')(R_{a}(s,s')+\gamma V(s')).\ {}$$}@} While {@{this function is also unknown}@}, {@{experience during learning}@} is based on {@{$(s,a)$ pairs}@} \(together with {@{the outcome $s'$}@}; that is, "I {@{was in state $s$ and I tried doing $a$ and $s'$ happened}@}"\). Thus, one has {@{an array $Q$ and uses experience to update it directly}@}. This is known as {@{[Q-learning](Q-learning.md)}@}. <!--SR:!2030-02-15,1491,369!2027-02-01,596,329!2030-06-29,1603,369!2028-03-22,848,329!2030-08-03,1630,369!2030-06-07,1584,369!2030-02-10,1486,369!2028-10-02,1019,349!2026-02-20,344,349!2026-07-01,140,408!2026-07-02,141,408-->
 
 ## other scopes
 
@@ -180,7 +180,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 
 ### category theoretic interpretation
 
-Other than {@{the rewards}@}, a Markov decision process $(S,A,P)$ can be {@{understood in terms of [Category theory](category%20theory.md)}@}. Namely, let {@{${\mathcal {A} }$ denote the [free monoid](free%20monoid.md) with generating set _A_}@}. Let {@{__Dist__ denote the [Kleisli category](Kleisli%20category.md) of the [Giry monad](http://ncatlab.org/nlab/show/Giry+monad)}@}. Then {@{a functor ${\mathcal {A} }\to \mathbf {Dist}$}@} encodes {@{both the set _S_ of states and the probability function _P_}@}. (annotation: Thus, {@{$(\mathcal A, F: \mathcal A \to \mathbf{Dist})$ may be used to represent $(S, A, P)$}@} instead.) (TODO: What is this abstract nonsense?) <!--SR:!2026-02-15,340,349!2030-05-20,1570,369!2030-06-07,1584,369!2026-05-29,331,269!2026-11-25,488,309!2030-06-17,1593,369!2027-04-06,633,329-->
+Other than {@{the rewards}@}, a Markov decision process $(S,A,P)$ can be {@{understood in terms of [Category theory](category%20theory.md)}@}. Namely, let {@{${\mathcal {A} }$ denote the [free monoid](free%20monoid.md) with generating set _A_}@}. Let {@{__Dist__ denote the [Kleisli category](Kleisli%20category.md) of the [Giry monad](http://ncatlab.org/nlab/show/Giry+monad)}@}. Then {@{a functor ${\mathcal {A} }\to \mathbf {Dist}$}@} encodes {@{both the set _S_ of states and the probability function _P_}@}. (annotation: Thus, {@{$(\mathcal A, F: \mathcal A \to \mathbf{Dist})$ may be used to represent $(S, A, P)$}@} instead.) (TODO: What is this abstract nonsense?) <!--SR:!2030-08-11,1638,369!2030-05-20,1570,369!2030-06-07,1584,369!2026-05-29,331,269!2026-11-25,488,309!2030-06-17,1593,369!2027-04-06,633,329-->
 
 In this way, Markov decision processes could be {@{generalized from monoids \(categories with one object\) to arbitrary categories}@}. One can call {@{the result $({\mathcal {C} },F:{\mathcal {C} }\to \mathbf {Dist} )$}@} {@{a _context-dependent Markov decision process_}@}, because {@{moving from one object to another in ${\mathcal {C} }$}@} changes {@{the set of available actions and the set of possible states}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2030-07-20,1619,369!2030-06-12,1588,369!2026-02-23,347,349!2028-03-12,921,349!2026-02-17,342,349-->
 

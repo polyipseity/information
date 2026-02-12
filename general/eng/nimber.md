@@ -33,7 +33,7 @@ Nim is {@{a game in which two players take turns removing objects from distinct 
 
 - Main article: [Cram \(game\)](Cram%20(game).md)
 
-Cram is {@{a game often played on a rectangular board}@} in which {@{players take turns placing dominoes either horizontally or vertically until no more dominoes can be placed}@}. {@{The first player that cannot make a move}@} loses. As {@{the possible moves for both players are the same}@}, it is {@{an impartial game and can have a nimber value}@}. For example, any board {@{that is an even size by an even size will have a nimber of 0}@}. Any board {@{that is even by odd will have a non-zero nimber}@}. Any {@{2 × _n_ board will have a nimber of 0 for all even _n_ and a nimber of 1 for all odd _n_}@}. <!--SR:!2026-03-24,359,353!2026-05-21,372,305!2026-02-15,327,345!2028-01-04,857,345!2029-02-23,1185,350!2026-02-23,334,345!2026-02-19,330,345!2026-03-20,355,353-->
+Cram is {@{a game often played on a rectangular board}@} in which {@{players take turns placing dominoes either horizontally or vertically until no more dominoes can be placed}@}. {@{The first player that cannot make a move}@} loses. As {@{the possible moves for both players are the same}@}, it is {@{an impartial game and can have a nimber value}@}. For example, any board {@{that is an even size by an even size will have a nimber of 0}@}. Any board {@{that is even by odd will have a non-zero nimber}@}. Any {@{2 × _n_ board will have a nimber of 0 for all even _n_ and a nimber of 1 for all odd _n_}@}. <!--SR:!2026-03-24,359,353!2026-05-21,372,305!2030-05-15,1550,365!2028-01-04,857,345!2029-02-23,1185,350!2026-02-23,334,345!2026-02-19,330,345!2026-03-20,355,353-->
 
 ### Northcott's game
 
@@ -73,7 +73,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2027-05-12,648,325!2026-03-01,338,345-->
 2. The nimber square of a Fermat 2-power _x_ \(annotation: numbers of the form 2<sup>2<sup>_n_</sup></sup>\) ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2027-07-10,605,265!2027-01-15,516,313-->
 
-{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-15,327,345!2027-10-14,770,330!2027-11-02,743,290-->
+{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2030-05-16,1551,365!2027-10-14,770,330!2027-11-02,743,290-->
 
 > [!tip] tips
 >
