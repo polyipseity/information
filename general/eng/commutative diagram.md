@@ -43,7 +43,7 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
 
 {@{Commutativity makes sense}@} for {@{a [polygon](polygon.md) of any finite number of sides \(including just 1 or 2\)}@}, and a diagram is commutative {@{if every polygonal subdiagram is commutative}@}. <!--SR:!2029-06-05,1229,350!2028-11-22,1079,350!2028-10-28,1059,350-->
 
-Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of different paths in the diagram may not give the same result}@}. <!--SR:!2026-02-13,290,330!2029-07-04,1252,350-->
+Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of different paths in the diagram may not give the same result}@}. <!--SR:!2029-10-01,1326,350!2029-07-04,1252,350-->
 
 ## examples
 

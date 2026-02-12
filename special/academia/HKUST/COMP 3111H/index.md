@@ -425,7 +425,7 @@ The content is in teaching order.
 - COMP 3111H
   - COMP 3111H / lab 2 ::@:: Java basics; object; class; attribute; constructor; method; access modifier; inheritance; interface <!--SR:!2026-03-26,139,402!2026-03-26,139,402-->
     - COMP 3111H / lab 2 / exercise ::@:: write, compile, and run Java programs; inheritance, interface <!--SR:!2026-03-22,135,402!2026-03-22,135,402-->
-    - COMP 3111H / lab 2 / Java basics ::@:: Design a small application that showcases the use of classes, objects, constructors, attributes, and methods. Pay attention to how each component interacts: constructors create and initialize objects; attributes hold state; methods define behavior. <!--SR:!2026-03-25,138,402!2026-02-13,99,382-->
+    - COMP 3111H / lab 2 / Java basics ::@:: Design a small application that showcases the use of classes, objects, constructors, attributes, and methods. Pay attention to how each component interacts: constructors create and initialize objects; attributes hold state; methods define behavior. <!--SR:!2026-03-25,138,402!2027-07-19,521,402-->
     - COMP 3111H / lab 2 / class ::@:: In Java everything revolves around classes and objects, which contain both data \(attributes\) and code \(methods\). <!--SR:!2026-03-13,128,402!2026-03-13,128,402-->
     - COMP 3111H / lab 2 / attribute ::@:: It is a field inside a class that represents the characteristics or state of an object. It can be accessed or modified via getter and setter methods. <!--SR:!2026-02-17,102,382!2026-03-13,128,402-->
     - COMP 3111H / lab 2 / constructor ::@:: It is a special method invoked automatically when a new instance of a class is created; its main job is to allocate memory and initialize fields. <!--SR:!2026-03-23,136,402!2026-03-19,133,402-->

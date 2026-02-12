@@ -13,7 +13,7 @@ tags:
 
 # combinational logic
 
-- Not to be confused with {@{[combinatory logic](combinatory%20logic.md), a topic in mathematical logic}@}. <!--SR:!2026-02-13,275,330-->
+- Not to be confused with {@{[combinatory logic](combinatory%20logic.md), a topic in mathematical logic}@}. <!--SR:!2029-07-19,1252,350-->
 
 > {@{![Classes of automata](../../archives/Wikimedia%20Commons/Automata%20theory.svg)}@}
 >

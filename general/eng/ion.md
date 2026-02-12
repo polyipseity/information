@@ -403,7 +403,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="2fde12"--><!-- The following content is generated at 2024-01-04T20:17:52.102773+08:00. Any edits will be overridden! -->
 
-- hydride ion::@::H<sup>-</sup> <!--SR:!2026-03-03,1183,354!2026-02-13,1171,356-->
+- hydride ion::@::H<sup>-</sup> <!--SR:!2026-03-03,1183,354!2037-07-15,4170,356-->
 - fluoride ion::@::F<sup>-</sup> <!--SR:!2029-12-03,2153,330!2027-06-07,1566,374-->
 - chloride ion::@::Cl<sup>-</sup> <!--SR:!2027-07-27,1605,373!2036-05-12,3843,354-->
 - bromide ion::@::Br<sup>-</sup> <!--SR:!2026-12-18,1232,273!2034-03-31,3323,314-->

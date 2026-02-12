@@ -15,7 +15,7 @@ tags:
 >
 > {@{![polynomial described by the Hessian at a saddle point](../../archives/Wikimedia%20Commons/Hessian%20at%20saddle%20point.gif)}@}
 >
-> The Hessian {@{approximates the function at a critical point with a second-degree polynomial}@}. <!--SR:!2026-02-13,254,330!2029-03-05,1126,350!2029-01-26,1092,350!2028-05-23,858,330-->
+> The Hessian {@{approximates the function at a critical point with a second-degree polynomial}@}. <!--SR:!2029-04-10,1152,350!2029-03-05,1126,350!2029-01-26,1092,350!2028-05-23,858,330-->
 
 In {@{[mathematics](mathematics.md)}@}, {@{the __second partial derivative test__}@} is {@{a method in [multivariable calculus](multivariable%20calculus.md) used to determine if a [critical point](critical%20point%20(mathematics).md) of a function is a [local minimum](maxima%20and%20minima.md), maximum or [saddle point](saddle%20point.md)}@}. <!--SR:!2026-02-23,262,330!2026-02-17,257,330!2026-03-10,272,330-->
 
@@ -28,7 +28,7 @@ Suppose that {@{_f_\(_x_, _y_\) is a differentiable [real function](real%20funct
 3. If _D_\(_a_, _b_\) \< 0 ::@:: then \(_a_, _b_\) is a [saddle point](saddle%20point.md) of _f_. <!--SR:!2026-02-16,256,330!2029-03-31,1148,350-->
 4. If _D_\(_a_, _b_\) = 0 ::@:: then the point \(_a_, _b_\) could be any of a minimum, maximum, or saddle point \(that is, the test is inconclusive\). <!--SR:!2026-03-27,288,330!2029-02-19,1112,350-->
 
-Sometimes {@{other equivalent versions of the test are used}@}. In {@{cases 1 and 2}@}, {@{the requirement that _f<sub>xx</sub>_ _f<sub>yy</sub>_ − _f<sub>xy</sub>_<sup>2</sup> is positive at \(_x_, _y_\)}@} {@{implies that _f<sub>xx</sub>_ and _f<sub>yy</sub>_ have the same sign there}@}. Therefore, {@{the second condition, that _f<sub>xx</sub>_ be greater \(or less\) than zero}@}, could {@{equivalently be that _f<sub>yy</sub>_ or tr\(_H_\) = _f<sub>xx</sub>_ + _f<sub>yy</sub>_ be greater \(or less\) than zero at that point}@}. <!--SR:!2026-02-24,263,330!2029-02-06,1103,350!2029-04-08,1154,350!2028-04-11,800,330!2026-04-01,292,330!2026-02-13,254,330-->
+Sometimes {@{other equivalent versions of the test are used}@}. In {@{cases 1 and 2}@}, {@{the requirement that _f<sub>xx</sub>_ _f<sub>yy</sub>_ − _f<sub>xy</sub>_<sup>2</sup> is positive at \(_x_, _y_\)}@} {@{implies that _f<sub>xx</sub>_ and _f<sub>yy</sub>_ have the same sign there}@}. Therefore, {@{the second condition, that _f<sub>xx</sub>_ be greater \(or less\) than zero}@}, could {@{equivalently be that _f<sub>yy</sub>_ or tr\(_H_\) = _f<sub>xx</sub>_ + _f<sub>yy</sub>_ be greater \(or less\) than zero at that point}@}. <!--SR:!2026-02-24,263,330!2029-02-06,1103,350!2029-04-08,1154,350!2028-04-11,800,330!2026-04-01,292,330!2028-06-02,840,330-->
 
 {@{A condition implicit in the statement of the test}@} is that if {@{$f_{xx}=0$ or $f_{yy}=0$}@}, it {@{must be the case that $D(a,b)\leq 0$, and therefore only cases 3 or 4 are possible}@}. <!--SR:!2029-03-10,1129,350!2026-03-23,285,330!2028-06-07,846,330-->
 

@@ -68,7 +68,7 @@ In terms of {@{the geometric definition of the dot product}@}, this can be rewri
 
 > {@{![Distributive law for the dot product](../../archives/Wikimedia%20Commons/Dot%20product%20distributive%20law.svg)}@}
 >
-> {@{Distributive law for the dot product}@} <!--SR:!2026-02-13,283,363!2026-02-14,282,363-->
+> {@{Distributive law for the dot product}@} <!--SR:!2029-12-22,1408,383!2026-02-14,282,363-->
 
 The dot product is thus {@{characterized geometrically by<sup>[\[5\]](#^ref-5)</sup> $$\mathbf {a} \cdot \mathbf {b} =a_{b}\left\|\mathbf {b} \right\|=b_{a}\left\|\mathbf {a} \right\|.$$}@} The dot product, defined in this manner, is {@{[homogeneous](homogeneous%20function.md) under scaling in each variable}@}, meaning that {@{for any scalar $\alpha$, $$(\alpha \mathbf {a} )\cdot \mathbf {b} =\alpha (\mathbf {a} \cdot \mathbf {b} )=\mathbf {a} \cdot (\alpha \mathbf {b} ).$$}@} It also satisfies {@{the [distributive law](distributive%20law.md), meaning that $$\mathbf {a} \cdot (\mathbf {b} +\mathbf {c} )=\mathbf {a} \cdot \mathbf {b} +\mathbf {a} \cdot \mathbf {c} .$$}@} <!--SR:!2026-07-26,420,383!2026-07-25,419,383!2026-07-26,420,383!2026-08-21,436,383-->
 

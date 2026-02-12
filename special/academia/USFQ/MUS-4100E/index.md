@@ -205,7 +205,7 @@ The content is in teaching order.
   - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2029-09-01,1328,375!2027-06-01,612,335-->
   - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2026-08-03,426,375!2029-08-02,1298,375-->
 - [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2029-09-27,1349,375!2029-09-21,1343,375-->
-  - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2026-02-13,295,355!2028-01-03,832,355-->
+  - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2030-01-17,1434,375!2028-01-03,832,355-->
 - [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2029-08-22,1318,375!2026-09-17,451,335-->
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2030-01-02,1423,375!2027-11-23,798,355-->
   - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2026-08-14,424,335!2027-06-01,665,355-->

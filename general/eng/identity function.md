@@ -21,7 +21,7 @@ tags:
 
 > {@{![[Graph](graph%20of%20a%20function.md) of the identity function on the [real numbers](real%20number.md)](../../archives/Wikimedia%20Commons/Function-x.svg)}@}
 >
-> [Graph](graph%20of%20a%20function.md) of {@{the identity function on the [real numbers](real%20number.md)}@} <!--SR:!2026-02-13,290,330!2029-06-10,1233,350-->
+> [Graph](graph%20of%20a%20function.md) of {@{the identity function on the [real numbers](real%20number.md)}@} <!--SR:!2029-10-02,1327,350!2029-06-10,1233,350-->
 
 In {@{[mathematics](mathematics.md)}@}, {@{an __identity function__, also called an __identity relation__, __identity map__ or __identity transformation__}@}, is {@{a [function](function%20(mathematics).md) that always returns the value that was used as its [argument](argument%20of%20a%20function.md), unchanged}@}. That is, when {@{_f_ is the identity function}@}, the [equality](equality%20(mathematics).md) {@{_f_\(_x_\) = _x_ is true for all values of _x_ to which _f_ can be applied}@}. <!--SR:!2026-02-17,293,330!2029-07-28,1272,350!2029-04-03,1174,350!2029-08-30,1299,350!2029-07-12,1260,350-->
 

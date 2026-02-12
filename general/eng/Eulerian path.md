@@ -31,7 +31,7 @@ In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian p
 
 Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an [even](parity%20(mathematics).md) [degree](degree%20(graph%20theory).md)}@}, and {@{stated without proof that [connected graphs](connectivity%20(graph%20theory).md) with all vertices of even degree have an Eulerian circuit}@}. {@{The first complete proof of this latter claim}@} was {@{published posthumously in 1873}@} by {@{[Carl Hierholzer](Carl%20Hierholzer.md)}@}.<sup>[\[1\]](#^ref-1)</sup> This is known as {@{__Euler's Theorem:__}@} <!--SR:!2028-04-08,966,362!2028-08-03,1059,362!2026-03-30,390,362!2026-05-29,403,310!2029-10-19,1402,356!2026-03-18,380,362-->
 
-> {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2026-02-27,365,362!2026-02-13,355,362!2026-03-09,371,362-->
+> {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2026-02-27,365,362!2030-12-13,1764,382!2026-03-09,371,362-->
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-20,1378,356!2026-04-01,391,362!2026-04-07,397,362!2026-02-27,364,362!2026-03-10,374,362-->
 
@@ -135,7 +135,7 @@ Euler stated {@{a necessary condition for a finite graph to be Eulerian as all v
 
 The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-05-03,394,322!2029-09-30,1387,356!2026-02-21,359,362-->
 
-{@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2028-11-07,1132,362!2026-02-13,351,350-->
+{@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2028-11-07,1132,362!2030-10-01,1691,370-->
 
 ## directed Eulerian graphs
 

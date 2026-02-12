@@ -23,7 +23,7 @@ __Newton's laws of motion__ are {@{three [physical laws](scientific%20law.md) th
 
 ### first law
 
-{@{Newton's first law}@} expresses {@{the principle of [inertia](inertia.md)}@}: {@{the natural behavior of a body is to move in a straight line at constant [speed](speed.md)}@}. <!--SR:!2028-10-18,1085,310!2026-02-13,85,370!2026-02-13,85,370-->
+{@{Newton's first law}@} expresses {@{the principle of [inertia](inertia.md)}@}: {@{the natural behavior of a body is to move in a straight line at constant [speed](speed.md)}@}. <!--SR:!2028-10-18,1085,310!2027-04-27,438,390!2026-12-31,321,370-->
 
 ### second law
 

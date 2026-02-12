@@ -171,7 +171,7 @@ The steps for naming an organic compound are:
 - identify remaining functional groups→::@::←identify multiple bonds <!--SR:!2026-07-16,523,190!2026-06-27,690,207-->
 - identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2030-10-14,1783,250!2027-04-24,580,210-->
 - [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2030-05-18,1582,210!2026-03-01,749,265-->
-- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2026-02-13,329,207!2027-03-29,824,230-->
+- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2028-10-04,964,227!2027-03-29,824,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!2026-06-29,450,207-->
 - (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!2026-06-08,527,225-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2031-09-03,2097,287-->
@@ -219,7 +219,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→::@::←smallest locant for the suffix functional group <!--SR:!2028-06-26,1449,266!2030-03-25,2149,382-->
 - smallest locant for the suffix functional group→::@::←smallest locant for multiple bonds <!--SR:!2029-12-14,1996,286!2030-07-11,2138,342-->
-- smallest locant for multiple bonds→::@::←smallest locant for prefixes <!--SR:!2028-02-06,1523,286!2026-02-13,908,345-->
+- smallest locant for multiple bonds→::@::←smallest locant for prefixes <!--SR:!2028-02-06,1523,286!2037-11-27,4305,365-->
 - smallest locant for prefixes→::@::←_(end)_ <!--SR:!2029-03-04,1841,382!2027-07-26,1161,305-->
 
 <!--/pytextgen-->
@@ -280,11 +280,11 @@ The steps for naming an organic compound are:
 
 ### prefix for type count
 
-See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the first one is no prefix}@}. <!--SR:!2029-02-08,1692,383!2026-02-13,20,359-->
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the first one is no prefix}@}. <!--SR:!2029-02-08,1692,383!2026-05-26,102,379-->
 
 ### prefix for carbon count
 
-See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the last character _a-_ is trimmed away}@} and {@{the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2033-01-23,2562,343!2026-02-13,20,359!2026-02-13,20,359-->
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the last character _a-_ is trimmed away}@} and {@{the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2033-01-23,2562,343!2026-05-25,101,379!2026-05-26,102,379-->
 
 ## functional groups
 

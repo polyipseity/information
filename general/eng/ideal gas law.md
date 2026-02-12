@@ -11,7 +11,7 @@ tags:
 
 # ideal gas law
 
-The __ideal gas law__, also called the __general gas equation__, is {@{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}@}. It is a combination of {@{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$), [Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}@}. <!--SR:!2027-06-20,965,330!2026-02-13,361,190-->
+The __ideal gas law__, also called the __general gas equation__, is {@{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}@}. It is a combination of {@{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$), [Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}@}. <!--SR:!2027-06-20,965,330!2028-01-05,691,190-->
 
 > __ideal gas law__
 >

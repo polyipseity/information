@@ -9,7 +9,7 @@ tags:
 
 # issued shares
 
-In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After {@{allotment}@}, {@{a subscriber becomes a shareholder}@}, though usually that also requires {@{formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-03-10,1161,350!2026-04-10,339,344!2028-05-15,925,344!2028-07-05,963,344!2029-05-19,1220,350!2026-02-13,293,330!2028-12-09,1096,350!2028-08-10,992,344!2026-04-09,95,378!2026-04-10,96,378-->
+In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After {@{allotment}@}, {@{a subscriber becomes a shareholder}@}, though usually that also requires {@{formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-03-10,1161,350!2026-04-10,339,344!2028-05-15,925,344!2028-07-05,963,344!2029-05-19,1220,350!2029-10-15,1340,350!2028-12-09,1096,350!2028-08-10,992,344!2026-04-09,95,378!2026-04-10,96,378-->
 
 ## overview
 
@@ -21,7 +21,7 @@ Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability
 
 ### basic formulae
 
-(annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$ <!--SR:!2026-02-13,293,330!2029-02-26,1149,350-->
+(annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$ <!--SR:!2029-10-14,1339,350!2029-02-26,1149,350-->
 
 (annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$ <!--SR:!2028-12-15,1100,350!2028-05-23,932,344-->
 

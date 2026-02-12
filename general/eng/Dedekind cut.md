@@ -9,7 +9,7 @@ tags:
 
 # Dedekind cut
 
-- For {@{the American record producer known professionally as Dedekind Cut}@}, see {@{[Fred Warmsley](Fred%20Warmsley.md)}@}. <!--SR:!2028-10-28,1093,350!2026-02-13,283,290-->
+- For {@{the American record producer known professionally as Dedekind Cut}@}, see {@{[Fred Warmsley](Fred%20Warmsley.md)}@}. <!--SR:!2028-10-28,1093,350!2029-04-04,1146,310-->
 
 > {@{![Dedekind used his cut to construct the [irrational](irrational%20number.md), [real numbers](real%20number.md).](../../archives/Wikimedia%20Commons/Dedekind%20cut%20at%20square%20root%20of%20two.svg)}@}
 >

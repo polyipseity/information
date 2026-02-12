@@ -59,7 +59,7 @@ When {@{average cost is declining as output increases}@}, {@{marginal cost is le
 
 - {@{[Minimum efficient scale](minimum%20efficient%20scale.md)}@}: {@{Marginal or average costs may be nonlinear, or have discontinuities}@}. {@{Average cost curves}@} may {@{therefore only be shown over a limited scale of production for a given technology}@}. For example, {@{a nuclear plant}@} would be {@{extremely inefficient \(high average cost\) for production in small quantities}@}. Similarly, {@{its maximum output for any given time period}@} may {@{essentially be fixed}@}, and {@{production above that level}@} may be {@{technically impossible, dangerous or extremely costly}@}. {@{The long run [elasticity of supply](elasticity%20of%20supply.md) are higher}@}, as {@{new plants could be built and brought on-line}@}. <!--SR:!2029-10-23,1360,362!2028-01-18,843,342!2029-10-16,1356,362!2026-03-11,319,342!2026-03-07,318,342!2029-12-19,1407,362!2026-03-07,318,342!2026-12-08,462,302!2027-10-08,755,330!2029-08-03,1294,362!2029-02-01,1144,350!2027-10-21,765,330-->
 
-- {@{Zero fixed costs \(long-run analysis\) and constant marginal cost}@}: since {@{there are no [economies of scale](economies%20of%20scale.md)}@}, {@{average cost is equal to the constant marginal cost}@}. <!--SR:!2026-03-05,316,342!2026-02-13,135,397!2028-01-30,718,417-->
+- {@{Zero fixed costs \(long-run analysis\) and constant marginal cost}@}: since {@{there are no [economies of scale](economies%20of%20scale.md)}@}, {@{average cost is equal to the constant marginal cost}@}. <!--SR:!2026-03-05,316,342!2028-02-20,737,417!2028-01-30,718,417-->
 
 ## relationship between AC, AFC, AVC and MC
 

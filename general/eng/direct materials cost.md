@@ -11,7 +11,7 @@ tags:
 
 # direct materials cost
 
-{@{__Direct materials cost__}@} is {@{the cost of direct materials which can be easily identified with the unit of production}@}. For example, {@{the cost of glass}@} is {@{a direct materials cost in light bulb manufacturing}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-09-12,1308,350!2029-08-27,1297,350!2026-02-13,287,330!2029-08-04,1279,350-->
+{@{__Direct materials cost__}@} is {@{the cost of direct materials which can be easily identified with the unit of production}@}. For example, {@{the cost of glass}@} is {@{a direct materials cost in light bulb manufacturing}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-09-12,1308,350!2029-08-27,1297,350!2029-09-17,1312,350!2029-08-04,1279,350-->
 
 {@{The manufacture of products or goods}@} {@{requires material as the prime element}@}. In general, these materials are {@{divided into two categories}@}. These categories are {@{direct materials and indirect materials}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-07-11,1257,350!2029-08-11,1285,350!2028-01-17,820,330!2029-09-20,1316,350-->
 

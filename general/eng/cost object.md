@@ -13,7 +13,7 @@ tags:
 
 {@{A __cost object__}@} is {@{a term used primarily in [cost accounting](cost%20accounting.md) to describe something to which [costs](accounting%20cost.md) are assigned}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Common examples of cost objects}@} are {@{product lines, geographic territories, customers, departments}@} or anything else {@{for which management would like to quantify cost}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-06-25,1241,350!2029-06-17,1240,350!2029-01-03,1110,350!2028-01-06,815,330!2026-08-15,237,346-->
 
-{@{The use of cost objects}@} is common within {@{[activity based costing](activity%20based%20costing.md) and [Grenzplankostenrechnung](Grenzplankostenrechnung.md) systems}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-02-13,289,330!2027-09-29,739,330-->
+{@{The use of cost objects}@} is common within {@{[activity based costing](activity%20based%20costing.md) and [Grenzplankostenrechnung](Grenzplankostenrechnung.md) systems}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2029-09-27,1322,350!2027-09-29,739,330-->
 
 ## see also
 

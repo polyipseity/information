@@ -71,7 +71,7 @@ The content is in teaching order.
 - topic: introduction to OM
 - about the instructor
 - course logistics
-- [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2027-11-27,783,330!2026-02-13,289,330-->
+- [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2027-11-27,783,330!2029-09-23,1318,350-->
   - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2026-10-31,472,310!2029-07-19,1263,350-->
   - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2027-07-22,687,330!2028-12-13,1096,350-->
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2028-12-24,1048,310!2027-04-21,561,310-->
@@ -188,7 +188,7 @@ The content is in teaching order.
 - datetime: 2025-02-12T10:30:00+08:00/2025-02-12T11:50:00+08:00
 - topic: OM and finance, inventory turnover analysis, ROIC tree, basic statistics concepts
 - operations management
-  - operations management / accounting & finance ::@:: It plays an important role in understanding and improving a firm's financial performance. <p> Examples are inventory costs, inventory turnover, and return on invested capital (ROIC). <!--SR:!2026-03-30,308,366!2026-02-13,282,366-->
+  - operations management / accounting & finance ::@:: It plays an important role in understanding and improving a firm's financial performance. <p> Examples are inventory costs, inventory turnover, and return on invested capital (ROIC). <!--SR:!2026-03-30,308,366!2030-01-02,1419,386-->
 - [inventory](../../../../general/inventory.md) ::@:: It refers to the goods and materials that a business holds for the ultimate goal of resale, production or utilization. <!--SR:!2026-09-27,468,386!2028-02-13,855,366-->
   - inventory / importance ::@:: They are everywhere. So it is an important signal for managers and analysts to determine how well a retailer is running its business. <p> An empirical analysis for over 353 publicly listed U.S. retailers for the period 1985–2003 inventory shows: 57% publicly traded retailers has inventory as the largest asset on the balance sheet. On average, the inventory takes up 35.1% of total assets. <!--SR:!2026-10-28,453,326!2028-02-01,845,366-->
   - inventory / benefits ::@:: economics of scale (i.e. produce more than the _current_ demand), meet variation in demand or processes (e.g. unexpected shocks), independence between operations (the inventory act as a buffer) <!--SR:!2029-06-28,1265,386!2029-06-27,1264,386-->
