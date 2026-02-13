@@ -359,9 +359,9 @@ The content is in teaching order.
     - COMP 3031 / exercise 1 / `curry2` ::@:: `curry2(f)(x)(y) = f(x,y)`; implementation `x => y => f(x,y)`. <!--SR:!2026-02-27,103,384!2026-02-22,98,384-->
     - COMP 3031 / exercise 1 / `uncurry2` ::@:: `uncurry2(g)(x,y) = g(x)(y)`; implemented as `(x,y)=>g(x)(y)`. <!--SR:!2026-02-25,101,384!2026-02-26,102,384-->
     - COMP 3031 / exercise 1 / `fixedPoint` ::@:: `fixedPoint(f)` returns a function that repeatedly applies `f` until a fixed point is reached (`f(x)=x`). Tail-recursive helper: `@tailrec def rec(x:Int): Int = { val fx = f(x); if (fx==x) x else rec(fx) }` <!--SR:!2026-02-23,99,384!2026-02-26,102,384-->
-      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x=>x/2)(4)` ::@:: `fixedPoint(x=>x/2)(4)` → `0` (halves until zero). <!--SR:!2026-02-23,99,384!2026-02-18,95,384-->
+      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x=>x/2)(4)` ::@:: `fixedPoint(x=>x/2)(4)` → `0` (halves until zero). <!--SR:!2026-02-23,99,384!2027-06-30,497,404-->
       - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(id)(123456)` ::@:: `fixedPoint(id)(123456)` → `123456`. <!--SR:!2026-02-25,101,384!2026-02-23,99,384-->
-      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x=>x+1)(0)` ::@:: `fixedPoint(x=>x+1)(0)` diverges (no fixed point). <!--SR:!2026-02-25,101,384!2026-02-18,95,384-->
+      - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x=>x+1)(0)` ::@:: `fixedPoint(x=>x+1)(0)` diverges (no fixed point). <!--SR:!2026-02-25,101,384!2027-06-25,492,404-->
       - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x => if (x%10==0) x else x+1)(35)` ::@:: `fixedPoint(x => if (x%10==0) x else x+1)(35)` → `40` (increments to next multiple of 10). <!--SR:!2026-02-27,103,384!2026-02-23,99,384-->
       - COMP 3031 / exercise 1 / `fixedPoint` / `fixedPoint(x => x/2 + 5)(20)` ::@:: `fixedPoint(x => x/2 + 5)(20)` → `10`. <!--SR:!2026-02-22,98,384!2026-02-23,99,384-->
     - COMP 3031 / exercise 1 / `sum` ::@:: `sum(f)(a,b)` accumulates `f(i)` for all integers `i` in `[a,b]`. Tail-recursive implementation uses an accumulator. <!--SR:!2026-02-22,98,384!2026-02-23,99,384-->
@@ -480,7 +480,7 @@ The content is in teaching order.
 
 - datetime: 2025-10-02T12:00:00+08:00/2025-10-02T13:20:00+08:00, PT1H20M
 - topic: monad; option monad; exceptional monad; structural induction on trees
-- [monad](../../../../general/monad%20(functional%20programming).md) ::@:: They are a way to structure computations as a sequence of steps, where each step not only produces a value but also some extra information about the computation, such as a potential failure, non-determinism, or side effect. <!--SR:!2026-02-24,100,384!2026-02-18,95,384-->
+- [monad](../../../../general/monad%20(functional%20programming).md) ::@:: They are a way to structure computations as a sequence of steps, where each step not only produces a value but also some extra information about the computation, such as a potential failure, non-determinism, or side effect. <!--SR:!2026-02-24,100,384!2027-06-29,496,404-->
   - monad / formal definition ::@:: More formally, a monad is a type constructor M equipped with two operations, `return : <A>(a : A) -> M(A)` which lifts a value into the monadic context, and `bind : <A,B>(m_a : M(A), f : A -> M(B)) -> M(B)` which chains monadic computations. <!--SR:!2026-02-21,98,384!2026-02-25,101,384-->
 - Scala
   - Scala / monad

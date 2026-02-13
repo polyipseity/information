@@ -175,7 +175,7 @@ The content is in teaching order.
   - computer vision / image recognition
     - computer vision / image recognition / fooling them ::@:: Current systems are easily fooled by: adding human-undetectable noise, adding small obstructions to an image, random patterns, geometric transformation of an object in the image, etc. <!--SR:!2026-08-02,402,369!2026-06-18,378,369-->
 - [natural language processing](../../../../general/natural%20language%20processing.md) (NLP)
-  - natural language processing / hallucinations ::@:: They are prone to creating content that do not match real-world facts (factuality hallucination) or user inputs (faithfulness hallucination, e.g. the year of an event being replaced by the year of another event). <p> Vision language models (VLMs) are also prone to this. <!--SR:!2026-02-18,266,349!2026-02-21,269,349-->
+  - natural language processing / hallucinations ::@:: They are prone to creating content that do not match real-world facts (factuality hallucination) or user inputs (faithfulness hallucination, e.g. the year of an event being replaced by the year of another event). <p> Vision language models (VLMs) are also prone to this. <!--SR:!2029-08-17,1276,369!2026-02-21,269,349-->
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)
   - artificial intelligence / recent trend ::@:: Its performance has been improving! For example, see the performance of works from different years on an object detection benchmark (COCO). <!--SR:!2026-06-22,382,369!2026-06-30,389,369-->
 - [perceptron](../../../../general/perceptron.md)

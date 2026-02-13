@@ -39,7 +39,7 @@ Suppose {@{the criterion holds for $M_{n}$}@}. Assuming that {@{all the principa
 
 ## proof for the case of positive semidefinite matrices
 
-Let {@{$M_{n}$ be an _n_ x _n_ Hermitian matrix}@}. Suppose {@{$M_{n}$ is semidefinite}@}. Essentially {@{the same proof as for the case that $M_{n}$ is strictly positive definite}@} shows that {@{all principal minors \(not necessarily the leading principal minors\) are non-negative}@}. <!--SR:!2026-02-18,258,330!2029-04-02,1149,350!2026-03-12,272,330!2026-03-29,289,330-->
+Let {@{$M_{n}$ be an _n_ x _n_ Hermitian matrix}@}. Suppose {@{$M_{n}$ is semidefinite}@}. Essentially {@{the same proof as for the case that $M_{n}$ is strictly positive definite}@} shows that {@{all principal minors \(not necessarily the leading principal minors\) are non-negative}@}. <!--SR:!2029-05-08,1175,350!2029-04-02,1149,350!2026-03-12,272,330!2026-03-29,289,330-->
 
 For {@{the reverse implication}@}, it {@{suffices to show that if $M_{n}$ has all non-negative principal minors}@}, then for {@{all _t\>0_, all leading principal minors of the Hermitian matrix $M_{n}+tI_{n}$ are strictly positive, where $I_{n}$ is the _n_<!-- markdown separator -->x<!-- markdown separator -->_n_ [identity matrix](identity%20matrix.md)}@}. Indeed, from {@{the positive definite case}@}, we would know that {@{the matrices $M_{n}+tI_{n}$ are strictly positive definite}@}. Since {@{the limit of positive definite matrices is always positive semidefinite}@}, we can {@{take $t\to 0$ to conclude}@}. <!--SR:!2026-04-03,294,330!2026-09-22,366,290!2028-06-11,846,330!2026-03-11,271,330!2026-03-23,283,330!2029-04-19,1163,350!2026-03-29,289,330-->
 

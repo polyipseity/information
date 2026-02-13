@@ -58,13 +58,13 @@ The content is in teaching order.
   - management accounting / purpose ::@:: decision-making orientation: provide useful information to internal managers for making decisions <!--SR:!2029-09-07,1303,350!2026-02-20,293,330-->
   - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2028-05-07,892,330!2028-01-20,822,330-->
     - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2029-08-17,1285,350!2028-04-12,872,330-->
-    - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2026-02-18,291,330!2029-09-12,1307,350-->
+    - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2029-10-11,1331,350!2029-09-12,1307,350-->
     - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2028-01-08,811,330!2027-06-05,592,310-->
     - management accounting / vs. financial accounting / report frequency ::@:: prepared as needed, can be daily or even real-time; prepared periodically, e.g. monthly, quarterly, yearly <!--SR:!2028-02-18,845,330!2028-05-09,895,330-->
     - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2028-02-16,844,330!2026-02-19,269,290-->
-  - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2026-02-18,291,330!2029-08-29,1295,350-->
+  - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2029-10-08,1328,350!2029-08-29,1295,350-->
   - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2028-01-23,824,330!2026-10-18,462,310-->
-- organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2026-02-21,294,330!2026-02-18,291,330-->
+- organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2026-02-21,294,330!2029-10-11,1331,350-->
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2029-10-06,1327,350-->
   - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2029-10-06,1327,350!2028-04-25,883,330-->
   - service company ::@:: provide service to clients or customers <!--SR:!2026-02-20,293,330!2029-09-17,1310,350-->
@@ -84,7 +84,7 @@ The content is in teaching order.
   - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2028-05-06,891,330-->
   - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2029-09-16,1310,350-->
   - prime cost ::@:: direct materials + direct labor <!--SR:!2029-08-16,1284,350!2028-02-06,835,330-->
-  - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2029-08-19,1287,350-->
+  - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2029-10-11,1331,350!2029-08-19,1287,350-->
   - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2029-09-28,1320,350!2028-02-10,839,330-->
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits <!--SR:!2026-02-19,292,330!2026-02-19,292,330-->
 - period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2029-09-15,1309,350!2027-06-09,595,310-->

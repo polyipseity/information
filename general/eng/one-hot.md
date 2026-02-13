@@ -30,7 +30,7 @@ In {@{[digital circuits](digital%20circuits.md) and [machine learning](machine%2
 
 ### digital circuitry
 
-One-hot encoding is often used for {@{indicating the state of a [state machine](state%20machine.md)}@}. When {@{using [binary](binary%20number.md)}@}, {@{a [decoder](binary%20decoder.md) is needed to determine the state}@}. A one-hot state machine, {@{however, does not need a decoder}@} as {@{the state machine is in the _n_<!-- markdown separator -->th state if, and only if, the _n_<!-- markdown separator -->th bit is high}@}. <!--SR:!2029-05-18,1219,350!2026-02-18,294,330!2029-01-17,1124,350!2029-03-27,1172,350!2029-05-23,1223,350-->
+One-hot encoding is often used for {@{indicating the state of a [state machine](state%20machine.md)}@}. When {@{using [binary](binary%20number.md)}@}, {@{a [decoder](binary%20decoder.md) is needed to determine the state}@}. A one-hot state machine, {@{however, does not need a decoder}@} as {@{the state machine is in the _n_<!-- markdown separator -->th state if, and only if, the _n_<!-- markdown separator -->th bit is high}@}. <!--SR:!2029-05-18,1219,350!2029-10-25,1345,350!2029-01-17,1124,350!2029-03-27,1172,350!2029-05-23,1223,350-->
 
 {@{A [ring counter](ring%20counter.md) with 15 sequentially ordered states}@} is {@{an example of a state machine}@}. {@{A 'one-hot' implementation}@} would have {@{15 [flip flops](flip%20flop%20(electronics).md) chained in series}@} with {@{the Q output of each flip flop connected to the D input of the next and the D input of the first flip flop connected to the Q output of the 15th flip flop}@}. {@{The first flip flop in the chain}@} {@{represents the first state}@}, {@{the second represents the second state, and so on to the 15th flip flop, which represents the last state}@}. Upon {@{reset of the state machine}@} {@{all of the flip flops are reset to '0' except the first in the chain, which is set to '1'}@}. {@{The next clock edge arriving at the flip flops}@} {@{advances the one 'hot' bit to the second flip flop}@}. {@{The 'hot' bit advances in this way}@} {@{until the 15th state, after which the state machine returns to the first state}@}. <!--SR:!2029-05-10,1211,350!2029-05-19,1220,350!2029-07-29,1273,350!2029-04-12,1188,350!2028-12-20,1052,310!2028-10-30,1061,350!2029-02-18,1135,350!2029-03-26,1171,350!2029-04-15,1191,350!2029-09-30,1325,350!2029-09-18,1315,350!2029-04-01,1177,350!2029-07-23,1267,350!2027-11-22,768,330-->
 
@@ -84,7 +84,7 @@ Because {@{this process creates multiple new variables}@}, it is prone to {@{cre
 
 Also, if {@{the categorical variable is an output variable}@}, you may want to {@{convert the values back into a categorical form in order to present them in your application}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-08-19,1291,350!2029-07-26,1270,350-->
 
-In {@{practical usage}@}, this transformation is often directly performed by {@{a function that takes categorical data as an input and outputs the corresponding dummy variables}@}. An example would be {@{the dummyVars function of the Caret library in R}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2029-08-20,1292,350!2029-09-08,1307,350!2026-02-18,294,330-->
+In {@{practical usage}@}, this transformation is often directly performed by {@{a function that takes categorical data as an input and outputs the corresponding dummy variables}@}. An example would be {@{the dummyVars function of the Caret library in R}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2029-08-20,1292,350!2029-09-08,1307,350!2029-10-21,1341,350-->
 
 ## see also
 

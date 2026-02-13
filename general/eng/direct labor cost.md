@@ -30,7 +30,7 @@ tags:
 
 ## calculation of direct labor cost
 
-In {@{the direct labor cost}@} we need to have {@{the job time and wage we will pay it to the worker}@} to {@{calculate the direct labor cost as in this formulation}@}:<sup>[\[1\]](#^ref-1)</sup>- {@{$${\text{Direct labor cost} }={\text{job time} }\times {\text{wage} }$$}@} Depending on {@{the context}@}, there are {@{various methods to calculate personnel costs}@}, such as {@{on an hourly or daily basis}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-10,1308,350!2026-02-18,293,330!2026-02-19,294,330!2029-07-20,1263,350!2026-02-19,294,330!2026-02-19,294,330!2029-09-01,1300,350-->
+In {@{the direct labor cost}@} we need to have {@{the job time and wage we will pay it to the worker}@} to {@{calculate the direct labor cost as in this formulation}@}:<sup>[\[1\]](#^ref-1)</sup>- {@{$${\text{Direct labor cost} }={\text{job time} }\times {\text{wage} }$$}@} Depending on {@{the context}@}, there are {@{various methods to calculate personnel costs}@}, such as {@{on an hourly or daily basis}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-10,1308,350!2029-10-20,1340,350!2026-02-19,294,330!2029-07-20,1263,350!2026-02-19,294,330!2026-02-19,294,330!2029-09-01,1300,350-->
 
 ## wage
 

@@ -52,7 +52,7 @@ Using {@{sum of products}@}, {@{all logical statements which yield true results 
 - (annotation: redundancy 2; prove using distributivity and idempotence) ::@:: $${\begin{aligned}(A\vee B)\wedge (\lnot A\vee B)&=B\\(A\wedge B)\vee (\lnot A\wedge B)&=B\end{aligned} }$$ <!--SR:!2027-03-03,543,310!2027-11-14,759,330-->
 - (annotation: [consensus theorem](../../../../general/consensus%20theorem.md); prove by adding resp. $\land (A \lor \lnot A)$ and $\lor (A \land \lnot A)$ to the last term, distribute, and regroup) ::@:: $${\begin{aligned}(A\wedge B)\vee (\lnot A\wedge C)\vee (B\wedge C)&=(A\wedge B)\vee (\lnot A\wedge C)\\(A\vee B)\wedge (\lnot A\vee C)\wedge (B\vee C)&=(A\vee B)\wedge (\lnot A\vee C)\end{aligned} }$$ <!--SR:!2026-08-13,368,290!2028-11-15,1021,310-->
 
-With {@{the use of minimization \(sometimes called [logic optimization](logic%20optimization.md)\)}@}, {@{a simplified logical function or circuit}@} may be arrived upon, and {@{the logic [combinational circuit](combinational%20circuit.md)}@} becomes {@{smaller, and easier to analyse, use, or build}@}. <!--SR:!2029-06-10,1220,350!2026-02-18,280,330!2026-02-27,289,330!2029-05-16,1198,350-->
+With {@{the use of minimization \(sometimes called [logic optimization](logic%20optimization.md)\)}@}, {@{a simplified logical function or circuit}@} may be arrived upon, and {@{the logic [combinational circuit](combinational%20circuit.md)}@} becomes {@{smaller, and easier to analyse, use, or build}@}. <!--SR:!2029-06-10,1220,350!2029-08-22,1281,350!2026-02-27,289,330!2029-05-16,1198,350-->
 
 ## see also
 

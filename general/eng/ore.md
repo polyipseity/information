@@ -11,7 +11,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-An __ore__ is {@{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}@} <!--SR:!2026-02-18,590,230-->
+An __ore__ is {@{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}@} <!--SR:!2031-05-20,1917,250-->
 
 ## extraction
 

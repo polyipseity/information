@@ -14,7 +14,7 @@ tags:
 
 > {@{![The commutative diagram used in the proof of the [five lemma](five%20lemma.md)](../../archives/Wikimedia%20Commons/5%20lemma.svg)}@}
 >
-> {@{The commutative diagram used in the proof of the [five lemma](five%20lemma.md)}@} <!--SR:!2026-02-18,294,330!2026-02-18,294,330-->
+> {@{The commutative diagram used in the proof of the [five lemma](five%20lemma.md)}@} <!--SR:!2029-10-22,1342,350!2029-10-23,1343,350-->
 
 In {@{[mathematics](mathematics.md), and especially in [category theory](category%20theory.md)}@}, {@{a __commutative diagram__}@} is {@{a [diagram](diagram%20(category%20theory).md) such that all directed paths in the diagram with the same start and endpoints lead to the same result}@}.<sup>[\[1\]](#^ref-1)</sup> It is said that {@{commutative diagrams play the role in category theory}@} that {@{[equations](equations.md) play in [algebra](algebra.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-04-22,1192,350!2029-05-12,1212,350!2029-01-21,1127,350!2029-07-30,1273,350!2029-02-15,1138,350-->
 
@@ -32,7 +32,7 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
 
 - A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-08-12,368,290!2027-05-08,577,310-->
 - An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2027-12-19,789,330!2026-07-31,330,250-->
-- An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2026-02-18,294,330!2029-07-31,1274,350-->
+- An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2029-10-24,1344,350!2029-07-31,1274,350-->
 - The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2028-01-06,811,330!2029-04-21,1191,350-->
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2027-10-03,741,330!2029-09-26,1322,350-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2029-08-17,1290,350!2027-05-17,635,330-->

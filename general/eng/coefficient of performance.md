@@ -21,7 +21,7 @@ tags:
 > where
 >
 > - {@{$Q$}@} is {@{the useful [heat](heat.md) absorbed (positive) or dissipated (negative) by the system}@}
-> - {@{$W > 0$}@} is {@{the net [work](work%20(physics).md) put into the system}@} \(as opposed to {@{the conventional "done by the system"}@}\) <!--SR:!2026-04-04,634,330!2027-09-05,1052,350!2026-02-18,73,337!2027-01-01,323,357!2026-02-23,77,337!2027-01-05,326,357-->
+> - {@{$W > 0$}@} is {@{the net [work](work%20(physics).md) put into the system}@} \(as opposed to {@{the conventional "done by the system"}@}\) <!--SR:!2026-04-04,634,330!2027-09-05,1052,350!2027-01-29,345,357!2027-01-01,323,357!2026-02-23,77,337!2027-01-05,326,357-->
 
 <!-- markdownlint MD028 -->
 
@@ -32,7 +32,7 @@ tags:
 > where
 >
 > - {@{$Q_C > 0$ and $Q_H < 0$}@} are {@{respectively [heat](heat.md) absorbed and dissipated by the system}@}
-> - {@{$W > 0$}@} is {@{the net [work](work%20(physics).md) put into the system}@} \(as opposed to {@{the conventional "done by the system"}@}\) <!--SR:!2029-09-07,1515,310!2026-03-22,563,310!2026-02-18,73,337!2027-01-06,327,357!2027-01-06,327,357!2027-01-06,327,357-->
+> - {@{$W > 0$}@} is {@{the net [work](work%20(physics).md) put into the system}@} \(as opposed to {@{the conventional "done by the system"}@}\) <!--SR:!2029-09-07,1515,310!2026-03-22,563,310!2027-01-28,344,357!2027-01-06,327,357!2027-01-06,327,357!2027-01-06,327,357-->
 
 ## references
 

@@ -52,7 +52,7 @@ There are {@{many constructions in mathematics that would be functors}@} but for
 
 - (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_, <!--SR:!2030-03-05,1482,366!2028-08-14,1014,346-->
 - (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2026-04-13,364,357!2026-03-22,346,357-->
-  - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2026-03-14,340,357!2026-02-18,317,346-->
+  - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2026-03-14,340,357!2030-04-09,1511,366-->
   - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_. <!--SR:!2026-04-06,357,357!2029-09-26,1342,350-->
 
 Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-09-29,1345,350!2029-09-27,1343,350-->
@@ -175,7 +175,7 @@ __Representable functors__
 
 &emsp; We can {@{generalize the previous example to any category _C_}@}. To {@{every pair _X_, _Y_ of objects in _C_}@} one can {@{assign the set Hom\(_X_, _Y_\) of morphisms from _X_ to _Y_}@}. This defines {@{a functor to __Set__ which is contravariant in the first argument and covariant in the second, i.e. it is a functor _C_<sup>op</sup> × _C_ → __Set__}@}. If {@{_f_ : _X_<sub>1</sub> → _X_<sub>2</sub> and _g_ : _Y_<sub>1</sub> → _Y_<sub>2</sub> are morphisms in _C_}@}, then {@{the map Hom\(_f_, _g_\) : Hom\(_X_<sub>2</sub>, _Y_<sub>1</sub>\) → Hom\(_X_<sub>1</sub>, _Y_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_}@}. <!--SR:!2026-03-16,341,357!2026-04-01,354,357!2026-04-08,360,357!2029-09-27,1343,350!2029-09-27,1343,350!2026-04-04,356,357!2026-03-01,326,346-->
 
-&emsp; Functors like these are called {@{[representable functors](representable%20functor.md)}@}. {@{An important goal in many settings}@} is to {@{determine whether a given functor is representable}@}. <!--SR:!2026-04-09,360,357!2026-02-18,317,346!2026-03-16,341,357-->
+&emsp; Functors like these are called {@{[representable functors](representable%20functor.md)}@}. {@{An important goal in many settings}@} is to {@{determine whether a given functor is representable}@}. <!--SR:!2026-04-09,360,357!2030-04-08,1510,366!2026-03-16,341,357-->
 
 ## relation to other categorical concepts
 
