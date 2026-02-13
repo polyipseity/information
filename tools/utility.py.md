@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-from pytextgen.util import export_seq
+from pytextgen.compat.util import export_seq
 from types import MappingProxyType
 from typing import Iterable, Mapping, TypeVar
 from zlib import adler32
@@ -35,7 +35,7 @@ return export_seq(fast_hash, items_to_map,)
 ```Python
 # pytextgen generate module
 from html import escape as h_esc
-from pytextgen.util import export_seq
+from pytextgen.compat.util import export_seq
 from typing import Iterable, Literal
 
 def colored_block(color: str) -> str:
@@ -74,9 +74,9 @@ return export_seq(
 
 ```Python
 # pytextgen generate module
-from pytextgen.config import CONFIG
-from pytextgen.gen import Tag, TextCode
-from pytextgen.util import export_seq
+from pytextgen.compat.config import CONFIG
+from pytextgen.compat.gen import Tag, TextCode
+from pytextgen.compat.util import export_seq
 
 def hard(string: str):
   cl, cr = map(TextCode.escape, CONFIG.cloze_token)
@@ -92,10 +92,10 @@ return export_seq(hard,)
 from asyncio import gather
 from collections import defaultdict
 from itertools import starmap
-from pytextgen.config import CONFIG
-from pytextgen.gen import Tag, TextCode, cloze_text, memorize_linked_seq, memorize_two_sided, quote_text, rows_to_table, seq_to_code, two_columns_to_code
-from pytextgen.read import read_flashcard_states
-from pytextgen.util import Location, Result, export_seq, identity
+from pytextgen.compat.config import CONFIG
+from pytextgen.compat.gen import Tag, TextCode, cloze_text, memorize_linked_seq, memorize_two_sided, quote_text, rows_to_table, seq_to_code, two_columns_to_code
+from pytextgen.compat.read import read_flashcard_states
+from pytextgen.compat.util import Location, Result, export_seq, identity
 from typing import Any, Callable, Iterable, Mapping, Sequence, TypeVar
 
 T = TypeVar('T')
@@ -271,9 +271,9 @@ return export_seq(
 
 ```Python
 # pytextgen generate module
-from pytextgen.gen import TextCode, memorize_two_sided, two_columns_to_code
-from pytextgen.read import read_flashcard_states
-from pytextgen.util import Location, export_seq
+from pytextgen.compat.gen import TextCode, memorize_two_sided, two_columns_to_code
+from pytextgen.compat.read import read_flashcard_states
+from pytextgen.compat.util import Location, export_seq
 from typing import ClassVar, final
 
 @final
@@ -312,7 +312,7 @@ return export_seq(Notes,)
 ```Python
 # pytextgen generate module
 from enum import StrEnum, unique
-from pytextgen.util import export_seq
+from pytextgen.compat.util import export_seq
 from typing import ClassVar, final
 
 @final

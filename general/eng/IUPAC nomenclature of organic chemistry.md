@@ -19,7 +19,7 @@ The __IUPAC nomenclature of organic chemistry__ is {@{a method of naming [organi
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 principles: gen.TextCode = gen.seq_to_code((
     '[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)',
     'identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)',
@@ -290,7 +290,7 @@ See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#da
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 import typing
 @typing.final
 class Group(typing.NamedTuple):
@@ -537,7 +537,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 import typing
 @typing.final
 class Affixes(typing.NamedTuple):
@@ -582,7 +582,7 @@ return (
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 text: gen.TextCode = gen.seq_to_code((
   'cation',
   'carboxylic acid',

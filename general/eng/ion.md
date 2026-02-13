@@ -29,7 +29,7 @@ A {@{simple ion}@} is an {@{ion formed from only one atom}@}, while a {@{polyato
 from asyncio import gather
 from dataclasses import dataclass
 from itertools import chain
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 import typing
 
 COLORLESS = 'colorless'

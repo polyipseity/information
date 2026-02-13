@@ -26,7 +26,7 @@ It is measured as {@{the [concentration](concentration.md) of the solute in a sa
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 import typing
 soluble = R'<span style="color\: green;">soluble</span>'
 insoluble = R'<span style="color\: red;">insoluble</span>'
