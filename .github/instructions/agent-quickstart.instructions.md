@@ -42,6 +42,7 @@ Repository gotchas & quick tips
 
 3. Tests, types, and CI
    - Add/modify tests under `tests/` mirroring source layout. Use `pytest` and `pytest.mark.asyncio` for async tests when relevant.
+   - Typing guidance: prefer PEP 585 built-in generics for concrete containers (e.g. `list[str]`, `dict[str, int]`) and use `collections.abc` for abstract interfaces (e.g. `collections.abc.Sequence[str]`, `collections.abc.Mapping[str, int]`). Avoid `typing.List`/`typing.Dict`/`typing.Sequence` in new code.
    - Run `pyright`/`pnpm run check` and `pnpm run test` locally to reduce CI failures.
 
 4. When in doubt

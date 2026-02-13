@@ -69,6 +69,8 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
   - Include tests for all substantive behavior changes, especially for scripts and tools (`tools/` and `scripts/`). Add tests that exercise error paths and edge cases.
   - CI and local pre-push both run the test suite: Husky `pre-push` runs `pnpm run test` which invokes `uv run --locked pytest`. The GitHub Actions CI runs `pnpm install --frozen-lockfile --ignore-scripts && uv sync --locked --all-extras --dev` and then `pnpm run check` and `pnpm run test` to validate changes.
 - Type checking: The repo supports `pyright` with a root-level `pyrightconfig.json` (strict mode). Run `pyright` as part of local checks and in lint-staged if appropriate.
+
+  - Typing guidance: prefer PEP 585 built-in generics for concrete collections (for example `list[str]`, `dict[str, int]`) and use `collections.abc` abstract base classes for interface/parameter annotations (for example `collections.abc.Sequence[str]`, `collections.abc.Mapping[str, int]`, `collections.abc.Iterable[str]`). Avoid `typing.List`, `typing.Dict`, and `typing.Sequence` in new code. Keep `os.PathLike` for path-like types and use `os.fspath(path_like)` when converting to `str`.
 - Coverage: Use `pytest-cov` (pytest `addopts` includes `--cov=./`). Strive to add tests for new behavior; test coverage thresholds are recommended to be added as the project matures.
 - Commit & change policy: Always run `pnpm run format` and `pnpm run check` before committing. Agents must ensure commit messages follow Conventional Commits (see `.github/instructions/commit-convention.instructions.md`) and must show proposed commit messages for review before committing.
 
