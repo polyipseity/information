@@ -78,5 +78,5 @@ applyTo: "general/**/*.md"
 
 ## Developer tooling & testing (notes-related changes)
 
-- If you change code that modifies Markdown (`init.py`, `tools/pytextgen`, or converters), add tests that validate generated output and round-trip behaviour. Unit-tests should check small deterministic inputs; integration tests should run the generator end-to-end in `tmp_path` and assert output files and fence contents.
+- If you change code that modifies Markdown (`init.py`, `tools/pytextgen`, or converters), add tests that validate generated output and round-trip behaviour. Unit-tests should check small deterministic inputs; integration tests should run the generator end-to-end in `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) and assert output files and fence contents. When converting path-like objects to `str` in tests or code use `os.fspath(path_like)`.
 - For content edits, run `python -m init generate <file>` and include a test that calls the same generation and verifies a stable output. This prevents accidental fence corruption and ensures pytextgen compatibility.

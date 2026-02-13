@@ -48,5 +48,5 @@ Agent quickstart pointer: See `.github/instructions/agent-quickstart.instruction
 
 - Dependency management: `pyproject.toml` is authoritative; add runtime deps to `[project].dependencies` and developer/test tools to `[dependency-groups].dev`. Run `pnpm install` (which triggers `prepare`, running `uv sync`) to register Husky hooks and install dev extras locally.
 - Tests: Place tests in `tests/` and use `pytest` (`test_*.py` naming). Mirror source layout when helpful, and add unit and integration tests for any change to scripts or generators.
-- Async tests: Use `pytest-asyncio` and `pytest.mark.asyncio` for async code. Prefer deterministic fixtures like `tmp_path` and `monkeypatch`.
+- Async tests: Use `pytest-asyncio` and `pytest.mark.asyncio` for async code. Prefer deterministic fixtures like `tmp_path: os.PathLike[str]` and `monkeypatch`. When typing tests, annotate `tmp_path` parameters as `PathLike[str]`; and when converting `PathLike` objects to strings **always** use `os.fspath(path_like)` rather than `str(path_like)`.
 - Local validation: Run `pnpm run format`, `pnpm run check`, and `pnpm run test` before pushing changes to avoid Husky hooks and CI failures.

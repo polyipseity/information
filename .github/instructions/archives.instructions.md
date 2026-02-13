@@ -64,5 +64,5 @@ Additional archive categories may be added as needed:
 
 ## Developer tooling & tests (archives)
 
-- Tools that write to `archives/` (for example, pyarchivist scripts) must include tests that verify `index.md` entries, timestamp formats, and that media are downloaded to the expected path. Prefer adding tests that run against a temporary directory (`tmp_path`) and that assert index updates and idempotency.
+- Tools that write to `archives/` (for example, pyarchivist scripts) must include tests that verify `index.md` entries, timestamp formats, and that media are downloaded to the expected path. Prefer adding tests that run against a temporary directory (`tmp_path: os.PathLike[str]`)—annotate the `tmp_path` fixture as `PathLike[str]`—and that assert index updates and idempotency. When your test needs a string path, convert with `os.fspath(path_like)` rather than `str(path_like)`.
 - When adding archive tooling, document its invariants in the `archives/` `index.md` and add CI checks where appropriate.
