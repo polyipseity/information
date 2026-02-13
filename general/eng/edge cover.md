@@ -9,7 +9,7 @@ tags:
 
 # edge cover
 
-In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](graph%20(discrete%20mathematics).md) is a set of [edges](glossary%20of%20graph%20theory.md#edge) such that every [vertex](vertex%20(graph%20theory).md) of the graph is incident to at least one edge of the set}@}. In {@{[computer science](computer%20science.md)}@}, the __minimum edge cover problem__ is {@{the problem of finding an edge cover of minimum size}@}. It is {@{an [optimization problem](optimization%20problem.md) that belongs to the class of [covering problems](covering%20problems.md)}@} and can be {@{solved in [polynomial time](time%20complexity.md#polynomial%20time)}@}. <!--SR:!2029-05-07,1243,350!2026-02-17,286,290!2029-05-13,1248,350!2027-11-30,820,330!2027-11-22,814,330!2027-12-12,831,330-->
+In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](graph%20(discrete%20mathematics).md) is a set of [edges](glossary%20of%20graph%20theory.md#edge) such that every [vertex](vertex%20(graph%20theory).md) of the graph is incident to at least one edge of the set}@}. In {@{[computer science](computer%20science.md)}@}, the __minimum edge cover problem__ is {@{the problem of finding an edge cover of minimum size}@}. It is {@{an [optimization problem](optimization%20problem.md) that belongs to the class of [covering problems](covering%20problems.md)}@} and can be {@{solved in [polynomial time](time%20complexity.md#polynomial%20time)}@}. <!--SR:!2029-05-07,1243,350!2029-04-19,1157,310!2029-05-13,1248,350!2027-11-30,820,330!2027-11-22,814,330!2027-12-12,831,330-->
 
 > __[Covering/packing-problem pairs](linear%20programming.md#covering%2Fpacking%20dualities)__
 >

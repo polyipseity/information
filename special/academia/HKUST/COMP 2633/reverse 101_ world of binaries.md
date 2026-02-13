@@ -131,7 +131,7 @@ There are many types of tools to help us with reversing a program. The three typ
 
 Apart from the above, below are some tools useful in general:
 
-- Compiler Explorer: <https://godbolt.org/> ::@:: Edit, compile, and run programs in (almost) any programming language using (almost) any compiler, all in your browser! (By the way, _Godbolt_ is an actual person's name...) <!--SR:!2030-08-03,1715,377!2026-02-17,420,365-->
+- Compiler Explorer: <https://godbolt.org/> ::@:: Edit, compile, and run programs in (almost) any programming language using (almost) any compiler, all in your browser! (By the way, _Godbolt_ is an actual person's name...) <!--SR:!2030-08-03,1715,377!2031-11-17,2099,385-->
 
 ### tools for static analysis
 

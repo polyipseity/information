@@ -88,7 +88,7 @@ for (initial_statement; condition; loop_statement)
   statement
 ```
 
-{@{The semantics of `for`}@} is {@{a bit complicated}@}. First, {@{the initial statement}@} is {@{executed}@}. Then {@{the condition is checked}@}. If {@{the condition is `true`}@}, {@{the statement block is executed}@}. Otherwise, {@{the `for` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{statement is executed}@}. Then we go {@{back to checking the condition and repeat}@}. <!--SR:!2027-08-24,979,330!2027-07-04,972,350!2026-06-23,127,397!2026-02-18,26,377!2026-06-22,126,397!2026-02-17,25,377!2026-06-22,126,397!2026-02-17,25,377!2026-02-18,26,377!2026-02-18,26,377!2026-02-17,25,377-->
+{@{The semantics of `for`}@} is {@{a bit complicated}@}. First, {@{the initial statement}@} is {@{executed}@}. Then {@{the condition is checked}@}. If {@{the condition is `true`}@}, {@{the statement block is executed}@}. Otherwise, {@{the `for` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{statement is executed}@}. Then we go {@{back to checking the condition and repeat}@}. <!--SR:!2027-08-24,979,330!2027-07-04,972,350!2026-06-23,127,397!2026-02-18,26,377!2026-06-22,126,397!2026-06-29,132,397!2026-06-22,126,397!2026-06-29,132,397!2026-02-18,26,377!2026-02-18,26,377!2026-06-29,132,397-->
 
 One can use a `for` statement to iterate through {@{an interval}@}. More advanced stuff are possible but they are not mentioned here: <!--SR:!2026-10-14,736,330-->
 

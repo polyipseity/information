@@ -115,7 +115,7 @@ Useful properties of RKHSs:
 These are {@{another common class of kernels}@} which satisfy {@{$K(x,y)=K(\|x-y\|)$ (annotation: hence "radial")}@}. Some examples include: (annotation: 2 items: {@{Gaussian or squared exponential, Laplacian}@}) <!--SR:!2026-04-25,76,329!2026-03-31,54,310!2026-05-02,75,329-->
 
 - __Gaussian__ or __squared exponential kernel__: ::@:: $$K(x,y)=e^{-{\frac {\|x-y\|^{2} }{2\sigma ^{2} } } },\qquad \sigma >0$$ <!--SR:!2026-04-19,71,329!2026-04-25,76,329-->
-- __Laplacian kernel__: ::@:: $$K(x,y)=e^{-{\frac {\|x-y\|}{\sigma } } },\qquad \sigma >0$$ The squared norm of a function $f$ in the RKHS $H$ with this kernel is:<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> $$\|f\|_{H}^{2}=\int _{\mathbb {R} }{\Big (}{\frac {1}{\sigma } }f(x)^{2}+\sigma f'(x)^{2}{\Big )}\mathrm {d} x.$$ <!--SR:!2026-02-17,18,250!2026-03-19,44,290-->
+- __Laplacian kernel__: ::@:: $$K(x,y)=e^{-{\frac {\|x-y\|}{\sigma } } },\qquad \sigma >0$$ The squared norm of a function $f$ in the RKHS $H$ with this kernel is:<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> $$\|f\|_{H}^{2}=\int _{\mathbb {R} }{\Big (}{\frac {1}{\sigma } }f(x)^{2}+\sigma f'(x)^{2}{\Big )}\mathrm {d} x.$$ <!--SR:!2026-04-01,43,250!2026-03-19,44,290-->
 
 ### [Bergman kernels](Bergman%20kernel.md)
 

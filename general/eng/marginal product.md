@@ -12,7 +12,7 @@ tags:
 
 > {@{![Average physical product \(APP\), marginal physical product \(MPP\)](../../archives/Wikimedia%20Commons/Average%20and%20marginal%20product%20curves%20small.png)}@}
 >
-> {@{Average physical product \(APP\), marginal physical product \(MPP\)}@} <!--SR:!2029-09-05,1304,350!2026-02-17,293,330-->
+> {@{Average physical product \(APP\), marginal physical product \(MPP\)}@} <!--SR:!2029-09-05,1304,350!2029-10-16,1337,350-->
 
 In {@{[economics](economics.md) and in particular [neoclassical economics](neoclassical%20economics.md)}@}, {@{the __marginal product__ or __marginal physical productivity__}@} of {@{an input \([factor of production](factor%20of%20production.md)\)}@} is {@{the change in output resulting from employing one more unit of a particular input}@} \(for instance, {@{the change in output when a firm's labor is increased from five to six units}@}\), assuming that {@{the quantities of other inputs are kept constant}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-02-13,1136,350!2027-12-24,805,330!2028-03-07,845,330!2026-10-12,458,310!2029-03-28,1170,350!2027-01-24,347,385-->
 

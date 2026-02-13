@@ -38,7 +38,7 @@ Hydrogenation converts {@{alkenes into corresponding [alkanes](alkane.md) by add
 
 - see: [hydrohalogenation](hyydrohalogenation.md)
 
-Hydrohalogenation converts {@{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}@}. If the alkene is asymmetric, {@{[Markovnikov's rule](Markovnikov's%20rule.md)}@} states that {@{the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents}@}, while {@{the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}@}. <!--SR:!2026-08-13,879,331!2028-01-29,1049,251!2026-02-17,259,347!2028-11-18,1049,367-->
+Hydrohalogenation converts {@{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}@}. If the alkene is asymmetric, {@{[Markovnikov's rule](Markovnikov's%20rule.md)}@} states that {@{the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents}@}, while {@{the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}@}. <!--SR:!2026-08-13,879,331!2028-01-29,1049,251!2028-08-04,899,347!2028-11-18,1049,367-->
 
 ### polymerization
 

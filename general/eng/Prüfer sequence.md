@@ -120,7 +120,7 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 > 14             {@{<b>break</b>}@}
 > </pre> <!--SR:!2026-06-02,447,387!2026-06-04,448,387!2026-06-09,453,387!2026-06-25,464,387!2026-06-14,454,387!2026-06-08,452,387!2026-07-05,471,387-->
 
-At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-02-17,372,363!2031-01-06,1797,383!2026-02-21,376,363-->
+At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-10-28,1349,363!2031-01-06,1797,383!2026-02-21,376,363-->
 
 <pre>
 15 <i>u</i> ← <i>v</i> ← 0

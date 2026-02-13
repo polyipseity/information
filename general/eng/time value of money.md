@@ -44,7 +44,7 @@ Some standard calculations based on the time value of money are:
 - {@{_[Future value](future%20value.md)_}@}: {@{The value of an asset or cash at a specified date in the future}@}, based on {@{the value of that asset in the present}@}.<sup>[\[6\]](#^ref-6)</sup>
 - {@{_Future value of an annuity \(FVA\)_}@}: {@{The future value of a stream of payments \(annuity\)}@}, assuming {@{the payments are invested at a given rate of interest}@}. <!--SR:!2028-12-20,1074,350!2029-02-07,1123,350!2026-03-03,291,330!2028-12-19,1073,350!2028-12-25,1079,350!2029-01-24,1109,350!2026-02-18,278,330!2029-02-03,1119,350!2029-04-22,1184,350!2029-07-02,1235,350!2029-01-16,1101,350!2028-10-27,1046,350!2026-08-05,312,382!2027-01-08,438,382!2029-03-15,1153,350!2029-05-03,1195,350!2027-01-25,453,382!2026-03-04,292,330!2029-06-05,1219,350!2026-08-04,311,382-->
 
-There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions}@} \(such as {@{PV, FV, RATE, NPER, and PMT}@}\).<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-06-10,1218,350!2026-02-17,277,330!2027-01-31,498,310!2027-06-14,512,403-->
+There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions}@} \(such as {@{PV, FV, RATE, NPER, and PMT}@}\).<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-06-10,1218,350!2029-08-04,1264,350!2027-01-31,498,310!2027-06-14,512,403-->
 
 For {@{any of the equations below}@}, the formula may {@{also be rearranged to determine one of the other unknowns}@}. In {@{the case of the standard annuity formula}@}, there is {@{no closed-form algebraic solution for the interest rate}@} \(although financial calculators and spreadsheet programs can {@{readily determine solutions through rapid trial and error algorithms}@}\). <!--SR:!2029-06-04,1218,350!2026-02-23,283,330!2026-02-26,286,330!2027-11-02,753,330!2027-10-25,736,330-->
 
@@ -95,7 +95,7 @@ To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annu
 
 ### present value of a perpetuity
 
-{@{A [perpetuity](perpetuity.md)}@} is {@{payments of a set amount of money that occur on a routine basis and continue forever}@}. When {@{_n_ → ∞}@}, {@{the _PV_ of a perpetuity \(a perpetual annuity\) formula}@} {@{becomes a simple division}@}. {@{$$PV(P)\ =\ {A \over i}$$}@} <!--SR:!2026-02-17,277,330!2027-10-25,748,330!2029-05-05,1197,350!2029-01-09,1094,350!2026-02-22,282,330!2029-04-25,1187,350-->
+{@{A [perpetuity](perpetuity.md)}@} is {@{payments of a set amount of money that occur on a routine basis and continue forever}@}. When {@{_n_ → ∞}@}, {@{the _PV_ of a perpetuity \(a perpetual annuity\) formula}@} {@{becomes a simple division}@}. {@{$$PV(P)\ =\ {A \over i}$$}@} <!--SR:!2029-08-07,1267,350!2027-10-25,748,330!2029-05-05,1197,350!2029-01-09,1094,350!2026-02-22,282,330!2029-04-25,1187,350-->
 
 ### present value of a growing perpetuity
 
@@ -183,7 +183,7 @@ Rates are sometimes {@{converted into the [continuous compound interest](continu
 
 __Annuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A(1-e^{-rt}) \over e^{r}-1}$$ <!--SR:!2027-01-25,459,270!2026-07-04,280,250-->
 
-__Perpetuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A \over e^{r}-1}$$ <!--SR:!2026-11-11,468,310!2026-02-17,277,330-->
+__Perpetuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A \over e^{r}-1}$$ <!--SR:!2026-11-11,468,310!2029-08-06,1266,350-->
 
 __Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}-1}$$ <!--SR:!2026-12-14,418,250!2026-07-07,274,230-->
 

@@ -133,7 +133,7 @@ Green's theorem is {@{a special case of the [Kelvin–Stokes theorem](Stokes'%20
 
 We can {@{augment the two-dimensional field into a three-dimensional field}@} with {@{a _z_ component that is always 0}@}. Write __F__ for {@{the [vector](Euclidean%20vector.md)-valued function $\mathbf {F} =(L,M,0)$}@}. Start with {@{the left side of Green's theorem}@}: {@{$$\oint _{C}(L\,dx+M\,dy)=\oint _{C}(L,M,0)\cdot (dx,dy,dz)=\oint _{C}\mathbf {F} \cdot d\mathbf {r} .$$}@} <!--SR:!2026-05-23,245,330!2026-06-23,269,330!2026-06-28,273,330!2026-06-26,272,330!2026-05-17,239,330-->
 
-{@{The Kelvin–Stokes theorem}@}: {@{$$\oint _{C}\mathbf {F} \cdot d\mathbf {r} =\iint _{S}\nabla \times \mathbf {F} \cdot \mathbf {\hat {n} } \,dS.$$}@} <!--SR:!2026-05-29,250,330!2026-02-17,165,310-->
+{@{The Kelvin–Stokes theorem}@}: {@{$$\oint _{C}\mathbf {F} \cdot d\mathbf {r} =\iint _{S}\nabla \times \mathbf {F} \cdot \mathbf {\hat {n} } \,dS.$$}@} <!--SR:!2026-05-29,250,330!2027-07-21,519,310-->
 
 {@{The surface $S$}@} is {@{just the region in the plane $D$}@}, with {@{the unit normal $\mathbf {\hat {n} }$}@} defined {@{\(by convention\) to have a positive z component in order to match the "positive orientation" definitions for both theorems}@}. <!--SR:!2026-06-29,274,330!2026-06-24,268,330!2026-06-18,261,330!2026-07-27,294,330-->
 

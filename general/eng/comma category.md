@@ -21,11 +21,11 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __comma category__}@} \(a special c
 
 ## definition
 
-{@{The most general comma category construction}@} {@{involves two [functors](functor.md) with the same codomain}@}. Often {@{one of these will have domain __1__ \(the one-object one-morphism category\)}@}. {@{Some accounts of category theory}@} {@{consider only these special cases}@}, but the term comma category is {@{actually much more general}@}. <!--SR:!2029-05-23,1235,358!2026-02-17,302,342!2026-03-31,336,342!2026-03-13,325,354!2029-01-30,1143,350!2026-02-21,308,354-->
+{@{The most general comma category construction}@} {@{involves two [functors](functor.md) with the same codomain}@}. Often {@{one of these will have domain __1__ \(the one-object one-morphism category\)}@}. {@{Some accounts of category theory}@} {@{consider only these special cases}@}, but the term comma category is {@{actually much more general}@}. <!--SR:!2029-05-23,1235,358!2030-01-13,1426,362!2026-03-31,336,342!2026-03-13,325,354!2029-01-30,1143,350!2026-02-21,308,354-->
 
 ### general form
 
-Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are categories, and $S$ and $T$ \(for source and target\) are [functors](functor.md)}@}: {@{$${\mathcal {A} }{\xrightarrow {\;\;S\;\;} }{\mathcal {C} }{\xleftarrow {\;\;T\;\;} }{\mathcal {B} }$$}@} We can {@{form the comma category $(S\downarrow T)$}@} as follows: <!--SR:!2028-03-27,894,342!2026-02-17,302,342!2026-03-06,320,354-->
+Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are categories, and $S$ and $T$ \(for source and target\) are [functors](functor.md)}@}: {@{$${\mathcal {A} }{\xrightarrow {\;\;S\;\;} }{\mathcal {C} }{\xleftarrow {\;\;T\;\;} }{\mathcal {B} }$$}@} We can {@{form the comma category $(S\downarrow T)$}@} as follows: <!--SR:!2028-03-27,894,342!2030-01-10,1423,362!2026-03-06,320,354-->
 
 - The objects ::@:: are all triples $(A,B,h)$ with $A$ an object in ${\mathcal {A} }$, $B$ an object in ${\mathcal {B} }$, and $h:S(A)\rightarrow T(B)$ a morphism in ${\mathcal {C} }$. <!--SR:!2026-03-03,317,354!2028-06-05,957,354-->
 - The morphisms from $(A,B,h)$ to $(A',B',h')$ ::@:: are all pairs $(f,g)$ where $f:A\rightarrow A'$ and $g:B\rightarrow B'$ are morphisms in ${\mathcal {A} }$ and ${\mathcal {B} }$ respectively, such that the following diagram [commutes](commutative%20diagram.md): <p> &emsp; ![Comma Diagram](../../archives/Wikimedia%20Commons/Comma%20Diagram.svg) <!--SR:!2029-10-27,1364,362!2029-02-01,1143,350-->

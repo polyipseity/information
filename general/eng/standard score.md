@@ -93,7 +93,7 @@ Because student A {@{has a higher z-score than student B}@}, student A {@{perfor
 
 ### percentage of observations below a z-score
 
-Continuing {@{the example of ACT and SAT scores}@}, if it can be {@{further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md)}@} \(which is {@{approximately correct}@}\), then the z-scores may be used to calculate {@{the percentage of test-takers who received lower scores than students A and B}@}. <!--SR:!2029-07-18,1265,350!2029-02-20,1143,350!2029-03-22,1173,350!2026-02-17,25,381-->
+Continuing {@{the example of ACT and SAT scores}@}, if it can be {@{further assumed that both ACT and SAT scores are [normally distributed](normal%20distribution.md)}@} \(which is {@{approximately correct}@}\), then the z-scores may be used to calculate {@{the percentage of test-takers who received lower scores than students A and B}@}. <!--SR:!2029-07-18,1265,350!2029-02-20,1143,350!2029-03-22,1173,350!2026-06-29,132,401-->
 
 ### cluster analysis and multidimensional scaling
 

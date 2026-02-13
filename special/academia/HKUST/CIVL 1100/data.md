@@ -105,7 +105,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - base widths ::@:: length: 189 m, width: 156 m <!--SR:!2026-02-23,455,336!2029-11-16,1503,396-->
 - construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2026-04-17,384,236!2026-10-08,666,396-->
 - description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2029-03-11,1379,396!2031-11-15,2165,396-->
-- geographic location ::@:: Rome <!--SR:!2026-02-17,488,396!2026-11-08,740,416-->
+- geographic location ::@:: Rome <!--SR:!2033-05-11,2640,416!2026-11-08,740,416-->
 - height ::@:: 48 m (4 storeys) <!--SR:!2029-01-17,1163,296!2026-12-23,772,416-->
 - importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2026-04-16,555,396-->
 
@@ -135,7 +135,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::@:: 230.33 m <!--SR:!2028-06-25,1068,376!2026-05-26,569,396-->
-- construction period ::@:: 10~20 years around 2560 BC <!--SR:!2026-09-04,460,236!2026-02-17,488,396-->
+- construction period ::@:: 10~20 years around 2560 BC <!--SR:!2026-09-04,460,236!2033-05-10,2639,416-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2028-10-05,1094,356!2026-04-26,540,396-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2027-08-02,832,376!2026-12-18,768,416-->
@@ -223,7 +223,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2029-12-21,1422,316!2026-12-05,758,416-->
   - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
-- length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2029-11-25,1389,316!2026-02-17,488,396-->
+- length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2029-11-25,1389,316!2033-05-09,2638,416-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2031-11-19,2227,416-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!2026-07-11,443,276!2029-05-18,1447,396-->
 - width ::@:: 32.05 m <!--SR:!2027-09-13,755,356!2030-03-11,1682,396-->

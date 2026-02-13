@@ -71,7 +71,7 @@ Any definition of expected value may be {@{extended to define an expected value 
 
 ### random variables with finitely many outcomes
 
-Consider {@{a random variable _X_ with a _finite_ list _x_<sub>1</sub>, ..., _x_<sub>_k_</sub> of possible outcomes}@}, each of which {@{\(respectively\) has probability _p_<sub>1</sub>, ..., _p_<sub>_k_</sub> of occurring}@}. The expectation of _X_ is defined as<sup>[\[12\]](#^ref-12)</sup> {@{$$\operatorname {E} [X]=x_{1}p_{1}+x_{2}p_{2}+\cdots +x_{k}p_{k}.$$}@} <!--SR:!2029-01-06,1143,350!2026-02-17,298,290!2029-07-01,1267,350-->
+Consider {@{a random variable _X_ with a _finite_ list _x_<sub>1</sub>, ..., _x_<sub>_k_</sub> of possible outcomes}@}, each of which {@{\(respectively\) has probability _p_<sub>1</sub>, ..., _p_<sub>_k_</sub> of occurring}@}. The expectation of _X_ is defined as<sup>[\[12\]](#^ref-12)</sup> {@{$$\operatorname {E} [X]=x_{1}p_{1}+x_{2}p_{2}+\cdots +x_{k}p_{k}.$$}@} <!--SR:!2029-01-06,1143,350!2029-06-02,1201,310!2029-07-01,1267,350-->
 
 Since {@{the probabilities must satisfy _p_<sub>1</sub> + ⋅⋅⋅ + _p_<sub>_k_</sub> = 1}@}, it is natural to {@{interpret E\[_X_\] as a [weighted average](weighted%20arithmetic%20mean.md) of the _x_<sub>_i_</sub> values}@}, with {@{weights given by their probabilities _p_<sub>_i_</sub>}@}. <!--SR:!2029-06-18,1252,350!2029-08-21,1316,350!2026-03-09,340,347-->
 

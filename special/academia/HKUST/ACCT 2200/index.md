@@ -65,11 +65,11 @@ The content is in teaching order.
   - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2026-02-18,291,330!2029-08-29,1295,350-->
   - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2028-01-23,824,330!2026-10-18,462,310-->
 - organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2026-02-21,294,330!2026-02-18,291,330-->
-  - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2026-02-17,290,330-->
-  - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2026-02-17,290,330!2028-04-25,883,330-->
+  - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2029-10-06,1327,350-->
+  - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2029-10-06,1327,350!2028-04-25,883,330-->
   - service company ::@:: provide service to clients or customers <!--SR:!2026-02-20,293,330!2029-09-17,1310,350-->
 - cost classifications ::@:: manufacturing, relevance, timing, traceability, variability <!--SR:!2026-06-27,366,310!2029-09-14,1308,350-->
-  - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing <!--SR:!2026-02-17,290,330!2026-02-19,292,330-->
+  - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing <!--SR:!2029-10-06,1327,350!2026-02-19,292,330-->
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2029-09-08,1304,350!2029-09-18,1311,350-->
   - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->
   - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2026-02-20,293,330!2029-08-23,1290,350-->
@@ -79,7 +79,7 @@ The content is in teaching order.
 - [indirect costs](../../../../general/indirect%20costs.md) ::@:: inconvenient or hardly traceable to a cost object, e.g. advertising, depreciation, supervision, utilities <!--SR:!2029-09-06,1301,350!2028-02-05,835,330-->
 - [variable cost](../../../../general/variable%20cost.md) ::@:: costs that change according to the activity level; usually we assume the variable cost is proportional to the activity level (constant marginal cost) <!--SR:!2029-08-24,1291,350!2028-05-03,890,330-->
 - [fixed cost](../../../../general/fixed%20cost.md) ::@:: costs that do not change regardless of the activity level (within a reasonable range); average cost or per-unit cost varies inversely with the activity level <!--SR:!2027-08-30,642,310!2029-08-16,1285,350-->
-- [manufacturing cost](../../../../general/manufacturing%20cost.md) ::@:: all costs to produce the physical product; direct materials cost + direct labor cost + manufacturing overhead cost <!--SR:!2026-02-17,290,330!2029-08-28,1294,350-->
+- [manufacturing cost](../../../../general/manufacturing%20cost.md) ::@:: all costs to produce the physical product; direct materials cost + direct labor cost + manufacturing overhead cost <!--SR:!2029-10-05,1326,350!2029-08-28,1294,350-->
   - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2029-09-03,1299,350!2026-02-21,294,330-->
   - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2028-05-06,891,330-->
   - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2029-09-16,1310,350-->

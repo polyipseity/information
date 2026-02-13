@@ -40,7 +40,7 @@ In {@{the direct labor cost}@} we need to have {@{the job time and wage we will 
 
 ## calculating job time
 
-{@{The job time}@} needs to be {@{measured by one of the following ways}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: 3 items: {@{time study, work sampling, predetermined motion time system}@}) <!--SR:!2026-02-19,294,330!2026-02-19,294,330!2026-02-17,292,330-->
+{@{The job time}@} needs to be {@{measured by one of the following ways}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: 3 items: {@{time study, work sampling, predetermined motion time system}@}) <!--SR:!2026-02-19,294,330!2026-02-19,294,330!2029-10-14,1335,350-->
 
 1. [time study](time%20and%20motion%20study.md)
 2. [work sampling](work%20sampling.md)
