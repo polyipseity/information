@@ -41,6 +41,13 @@ exclude = ["**/node_modules", "**/__pycache__", "**/.*", ".venv"]
 typeCheckingMode = "strict"
 venv = ".venv"
 venvPath = "."
+pythonPlatform = "All"
+pythonVersion = "3.12"
+deprecateTypingAliases = true
+enableReachabilityAnalysis = true
+strictDictionaryInference = true
+strictListInference = true
+strictSetInference = true
 
 [[tool.pyright.executionEnvironments]]
 extraPaths = ["."]
