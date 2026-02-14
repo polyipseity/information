@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../tools/utility.py.md
 ```
 
 It is similar to a {@{[customer journey map](customer%20journey%20map.md)}@}.

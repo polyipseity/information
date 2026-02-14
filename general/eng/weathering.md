@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 __Weathering__ is {@{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}@}. It is distinct from {@{[erosion](erosion.md) which involves movement}@}.

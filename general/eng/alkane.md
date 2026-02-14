@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 An __alkane__ is {@{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}@}.

@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 > ![official IPA chart](../../archives/Wikimedia%20Commons/IPA%20chart%202020.svg)

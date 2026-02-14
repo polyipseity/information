@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 __Calcium oxide__, also known as {@{quicklime}@}, is {@{a solid [ionic compound](ionic%20compound.md) with the [chemical formula](chemical%20formula.md) __[Ca](calcium.md)[O](oxygen.md)__}@}. It looks like a {@{white solid}@}.

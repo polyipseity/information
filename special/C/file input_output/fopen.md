@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 - _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_

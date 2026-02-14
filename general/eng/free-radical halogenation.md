@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 __Free-radical halogenation__ is {@{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}@}.

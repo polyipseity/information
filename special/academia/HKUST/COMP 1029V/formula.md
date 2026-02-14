@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../../../tools/utility.py.md
+# import ../../../../tools/utility.py.md
 ```
 
 A formula always {@{starts with an equals sign `=`}@}.

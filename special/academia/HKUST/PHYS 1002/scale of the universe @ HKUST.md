@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../../../tools/utility.py.md
+# import ../../../../tools/utility.py.md
 ```
 
 Since the [universe](../../../../general/universe.md) is {@{so big, the scale of it is hard to comprehend}@}. Instead, we can make a {@{1:_X_ model, i.e. all lengths are reduced by a factor of _X_ billion}@}. For example, the [Sun](../../../../general/Sun.md) has {@{a radius of about 6.96 × 10<sup>8</sup> m}@}. In the 1:10<sup>10</sup> scale model, its {@{radius would be about 7 cm instead}@}.
