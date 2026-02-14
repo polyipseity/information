@@ -534,7 +534,7 @@ requires-dist = [
     { name = "anyio", specifier = ">=3.6.0" },
     { name = "asyncstdlib", specifier = ">=3.10.0" },
     { name = "beautifulsoup4", specifier = ">=4.12.0" },
-    { name = "cihai", specifier = ">=0.18.0" },
+    { name = "cihai", specifier = ">=0.36.0" },
     { name = "country-converter", specifier = ">=1.3.0" },
     { name = "jaraco-clipboard", specifier = ">=3.1.0" },
     { name = "markdown", specifier = ">=3.6.0" },
