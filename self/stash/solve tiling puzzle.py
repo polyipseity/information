@@ -7,21 +7,24 @@ timestamp: 2025-07-14T09L07:57.990+08:00
 Solve tiling puzzle by computing edge differences.
 """
 
+from base64 import decodebytes
 from collections import defaultdict
+from collections.abc import Callable, Iterable, Iterator, Mapping
 from contextlib import contextmanager
 from hashlib import sha3_512
+from io import BytesIO
 from json import dump, load
 from pathlib import Path
 from types import NoneType
-from typing import Callable, Iterable, Iterator, Literal, Mapping, NewType, Sequence
-from PIL import Image
-from base64 import decodebytes
-from bs4 import BeautifulSoup
-from io import BytesIO
+from typing import Literal, NewType, TypeGuard, TypeVar
+
 import numpy as np
+from bs4 import BeautifulSoup
 from numpy import dtype, float64, floating, ndarray, newaxis, uint8
+from PIL import Image
 from pyperclip import copy, paste
 
+_T = TypeVar("_T")
 
 Color = NewType("Color", ndarray[tuple[Literal[3]], dtype[uint8]])
 TilePart = ndarray[tuple[int, int, Literal[3]], dtype[uint8]]
@@ -70,20 +73,27 @@ class Puzzle:
         return key
 
 
+def is_two_element_tuple(val: tuple[_T, ...]) -> TypeGuard[tuple[_T, _T]]:
+    return len(val) == 2
+
+
 @contextmanager
 def tile_cache(path: Path):
     with open(path, "r+t") as file:
         try:
-            cache = load(file)
+            cache: dict[str, list[int]] = load(file)
+            cache2 = dict[str, tuple[int, int]]()
             for key, val in cache.items():
-                cache[key] = tuple(val)
+                val2 = tuple(val)
+                if is_two_element_tuple(val2):
+                    cache2[key] = val2
         except Exception:
-            cache = {}
+            cache2 = {}
         try:
-            yield cache
+            yield cache2
         finally:
             file.seek(0)
-            dump(cache, file)
+            dump(cache2, file)
             file.truncate()
 
 
@@ -111,7 +121,12 @@ def diff(left: TilePart, right: TilePart, p: float = 1) -> floating:
 
 
 def consider_next_position(puzzle: Puzzle) -> Iterator[Position]:
-    actions = (
+    actions: tuple[
+        Callable[[Position], Position],
+        Callable[[Position], Position],
+        Callable[[Position], Position],
+        Callable[[Position], Position],
+    ] = (
         lambda pos: Position((pos[0] - 1, pos[1])),
         lambda pos: Position((pos[0], pos[1] + 1)),
         lambda pos: Position((pos[0] + 1, pos[1])),

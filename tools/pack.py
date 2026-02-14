@@ -1,13 +1,3 @@
-from datetime import datetime, timezone
-from asyncstdlib import chain as a_chain, tuple as a_tuple
-from itertools import chain, count
-from json import JSONEncoder, dumps
-from os import PathLike, cpu_count
-from pathlib import PurePath
-from types import EllipsisType
-from urllib.parse import unquote
-from zipfile import ZIP_DEFLATED, ZipFile
-from anyio import Path
 from argparse import ONE_OR_MORE, ZERO_OR_MORE, ArgumentParser, Namespace
 from asyncio import (
     BoundedSemaphore,
@@ -18,20 +8,7 @@ from asyncio import (
     gather,
     run,
 )
-from dataclasses import asdict, dataclass, is_dataclass, replace
-from functools import reduce, wraps
-from logging import INFO, basicConfig, info
-from bs4 import BeautifulSoup
-from markdown import markdown
-from matplotlib.pylab import matrix_power
-from numpy import array, float64, full, zeros
-from numpy.typing import NDArray
-from re import compile
-from sys import argv
-from typing import (
-    AbstractSet,
-    Any,
-    AnyStr,
+from collections.abc import (
     AsyncIterable,
     AsyncIterator,
     Awaitable,
@@ -40,12 +17,39 @@ from typing import (
     Iterator,
     Mapping,
     MutableSet,
-    NamedTuple,
     Sequence,
+    Set,
+)
+from dataclasses import asdict, dataclass, is_dataclass, replace
+from datetime import datetime, timezone
+from functools import reduce, wraps
+from itertools import chain, count
+from json import JSONEncoder, dumps
+from logging import INFO, basicConfig, info
+from os import PathLike, cpu_count
+from pathlib import PurePath
+from re import compile
+from sys import argv
+from types import EllipsisType
+from typing import (
+    Any,
+    AnyStr,
+    NamedTuple,
     TypeVar,
     final,
     override,
 )
+from urllib.parse import unquote
+from zipfile import ZIP_DEFLATED, ZipFile
+
+from anyio import Path
+from asyncstdlib import chain as a_chain
+from asyncstdlib import tuple as a_tuple
+from bs4 import BeautifulSoup
+from markdown import markdown
+from numpy import array, float64, full, zeros
+from numpy.linalg import matrix_power
+from numpy.typing import NDArray
 
 _T = TypeVar("_T")
 _U = TypeVar("_U")
@@ -172,7 +176,7 @@ async def main(args: Arguments) -> None:
             reduce_ret, link_paths, ProcessMarkdownFileResult(file, set(), set())
         )
 
-    existing_paths = dict[Path, AbstractSet[Path]]()
+    existing_paths = dict[Path, Set[Path]]()
     missing_paths = set[Path]()
     queue = list(files)
 
@@ -300,8 +304,8 @@ async def main(args: Arguments) -> None:
 
 
 def modified_page_rank_stochastic_mat(
-    initial: AbstractSet[Path],
-    links: Mapping[Path, AbstractSet[Path]],
+    initial: Set[Path],
+    links: Mapping[Path, Set[Path]],
     *,
     damping: float,
 ) -> tuple[Sequence[Path], NDArray[float64]]:
@@ -311,7 +315,7 @@ def modified_page_rank_stochastic_mat(
     path_indices = {path: idx for idx, path in enumerate(ordered_paths)}
     size = len(path_indices)
 
-    def make_link_array(links: AbstractSet[Path]):
+    def make_link_array(links: Set[Path]):
         if links:
             ret = zeros((size,), dtype=float64)
             ret[list(path_indices[link] for link in links)] = 1 / len(links)

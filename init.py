@@ -11,6 +11,21 @@ from asyncio import Task, TaskGroup, create_task
 from asyncio import gather as _gather
 from asyncio import run as _run
 from collections import defaultdict as _defdict
+from collections.abc import (
+    Awaitable as _Await,
+)
+from collections.abc import (
+    Callable as _Call,
+)
+from collections.abc import (
+    Collection as _Collect,
+)
+from collections.abc import (
+    MutableMapping as _MMap,
+)
+from collections.abc import (
+    Sequence as _Seq,
+)
 from dataclasses import dataclass as _dc
 from functools import wraps as _wraps
 from inspect import currentframe as _curframe
@@ -42,21 +57,6 @@ from sys import argv as _argv
 from sys import exit as _exit
 from typing import (
     Any as _Any,
-)
-from typing import (
-    Awaitable as _Await,
-)
-from typing import (
-    Callable as _Call,
-)
-from typing import (
-    Collection as _Collect,
-)
-from typing import (
-    MutableMapping as _MMap,
-)
-from typing import (
-    Sequence as _Seq,
 )
 from typing import (
     final as _fin,

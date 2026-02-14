@@ -1,19 +1,21 @@
+from argparse import ZERO_OR_MORE, ArgumentParser, Namespace
+from asyncio import BoundedSemaphore, create_subprocess_exec, gather, run
 from asyncio.subprocess import DEVNULL, PIPE
 from collections import defaultdict
+from collections.abc import Callable, MutableSet, Sequence
+from dataclasses import dataclass
+from functools import wraps
 from itertools import chain
+from logging import INFO, basicConfig, error, info
 from os import cpu_count
 from pathlib import PurePath
 from shlex import quote
+from sys import argv
 from tempfile import NamedTemporaryFile, TemporaryDirectory
+from typing import Any, final
+
 from aioshutil import which
 from anyio import AsyncFile, Path
-from argparse import ZERO_OR_MORE, ArgumentParser, Namespace
-from asyncio import BoundedSemaphore, create_subprocess_exec, gather, run
-from dataclasses import dataclass
-from functools import wraps
-from logging import INFO, basicConfig, error, info
-from sys import argv
-from typing import Any, Callable, MutableSet, Sequence, final
 
 _FILE_PATH = PurePath(__file__)
 _NULL_SHA = "0000000000000000000000000000000000000000"
@@ -308,9 +310,9 @@ async def main(args: Arguments) -> None:
 1. {tmp_repo / ".git/filter-repo/commit-map"}
 2. {tmp_repo / ".git/filter-branch/commit-map"}
 Check the following unmapped tags:
-{'\n'.join(' '.join(item) for item in unmapped_tags.items()) or '(none)'}
+{"\n".join(" ".join(item) for item in unmapped_tags.items()) or "(none)"}
 Replace all commits in this repository with commits from the temporary remote:
-$ git reset --hard {quote(f'refs/remotes/{remote_name}/{branch_name}')}
+$ git reset --hard {quote(f"refs/remotes/{remote_name}/{branch_name}")}
 $ git fetch --force --tags {quote(remote_name)}
 Cleanup the temporary remote:
 $ git remote remove {quote(remote_name)}

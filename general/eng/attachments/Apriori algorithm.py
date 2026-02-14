@@ -1,7 +1,7 @@
+from collections.abc import Collection, Iterable, Mapping, MutableSequence, Sequence
 from functools import reduce
 from itertools import combinations
 from operator import add
-from typing import Collection, Iterable, Mapping, Sequence
 
 columns = (
     "name",
@@ -111,7 +111,7 @@ def apriori(
     if debug:
         columns = tuple(columns)
         print(f"C = {tuple((column,) for column in columns)}")
-    all_frequent_sets: Sequence[Sequence[Sequence[str]]] = [
+    all_frequent_sets: MutableSequence[Sequence[Sequence[str]]] = [
         tuple(
             (column,)
             for column in columns
@@ -138,7 +138,7 @@ def apriori(
 
 
 if __name__ == "__main__":
-    print(f"=========ordered=========")
+    print("=========ordered=========")
     result = format_sets(
         reduce(
             add,
@@ -169,7 +169,7 @@ crab roe noodle, roast duck, scallop congee
 """.strip()
     assert expected_str == result
 
-    print(f"========unordered========")
+    print("========unordered========")
     unordered_result = format_sets(
         reduce(
             add,

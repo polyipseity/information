@@ -1,18 +1,18 @@
 from asyncio import TaskGroup, run
+from collections.abc import AsyncIterator, Mapping
 from contextlib import asynccontextmanager
-from csv import DictReader, DictWriter, reader
-from dataclasses import asdict, dataclass
+from csv import DictReader, DictWriter
+from dataclasses import dataclass
 from io import StringIO
 from operator import itemgetter
 from sys import stdout
-from typing import AsyncIterator, Mapping
 
 from aiohttp import ClientSession, TCPConnector
 from anyio import AsyncFile, Path
-from asyncstdlib import chain as a_chain, tuple as a_tuple
+from asyncstdlib import chain as a_chain
+from asyncstdlib import tuple as a_tuple
 from bs4 import BeautifulSoup
 from yarl import URL
-
 
 _CSV_DIALECT = "excel"
 _CSV_LINE_TERMINATOR = "\n"
@@ -94,10 +94,14 @@ async def open_dest(dest_filepath: Path | str) -> AsyncIterator[AsyncFile[str]]:
 async def main() -> None:
     dest_filepath = input("Destination? ")
 
-    async with TaskGroup() as tg, open_dest(dest_filepath) as dest_file, ClientSession(
-        connector=TCPConnector(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
-        headers={"Accept-Encoding": "gzip"},
-    ) as session:
+    async with (
+        TaskGroup() as tg,
+        open_dest(dest_filepath) as dest_file,
+        ClientSession(
+            connector=TCPConnector(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
+            headers={"Accept-Encoding": "gzip"},
+        ) as session,
+    ):
         dest_readable = dest_file.readable()  # type: ignore
 
         courses = dict[str, Subject]()

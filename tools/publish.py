@@ -1,18 +1,20 @@
-from asyncio.subprocess import DEVNULL, PIPE
-from collections import defaultdict
-from os import cpu_count
-from pathlib import PurePath
-from shlex import quote
-from tempfile import NamedTemporaryFile, TemporaryDirectory
-from aioshutil import which
-from anyio import AsyncFile, Path
 from argparse import ArgumentParser, Namespace
 from asyncio import BoundedSemaphore, create_subprocess_exec, gather, run
+from asyncio.subprocess import DEVNULL, PIPE
+from collections import defaultdict
+from collections.abc import Callable, MutableSet
 from dataclasses import dataclass
 from functools import wraps
 from logging import INFO, basicConfig, error, info
+from os import cpu_count
+from pathlib import PurePath
+from shlex import quote
 from sys import argv
-from typing import Any, Callable, MutableSet, final
+from tempfile import NamedTemporaryFile, TemporaryDirectory
+from typing import Any, final
+
+from aioshutil import which
+from anyio import AsyncFile, Path
 
 _FILE_PATH = PurePath(__file__)
 _MESSAGE_PROPERTY_KEY = b"Private-commit"
@@ -185,7 +187,7 @@ commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
 
     info(
         f"""Merge commits from the temporary remote:
-$ git merge --allow-unrelated-histories --gpg-sign {quote(f'refs/remotes/{remote_name}/{branch_name}')}
+$ git merge --allow-unrelated-histories --gpg-sign {quote(f"refs/remotes/{remote_name}/{branch_name}")}
 Resolve merge conflict if any.
 Cleanup the temporary remote:
 $ git remote remove {quote(remote_name)}"""

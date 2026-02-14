@@ -1,26 +1,29 @@
-from aiohttp import ClientSession, TCPConnector
-from anyio import Path
 from asyncio import gather, run
-from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
-from bs4.element import PreformattedString
+from collections.abc import Mapping, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
-from country_converter import convert
-from jaraco.clipboard import paste_html  # type: ignore
 from json import load
 from logging import INFO, basicConfig
 from os import chdir, getcwd, scandir, symlink
 from pathlib import PurePath
-from pyarchivist.Wikimedia_Commons.main import (
-    Args as pyarchivist_Wikimedia_Commons_Args,
-    main as pyarchivist_Wikimedia_Commons_main,
-)
-from pyperclip import copy as clip_copy  # type: ignore
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import argv, version
-from typing import Callable, Mapping, MutableSet
 from urllib.parse import quote, unquote
+
+from aiohttp import ClientSession, TCPConnector
+from anyio import Path
+from bs4 import BeautifulSoup, Tag
+from bs4.element import NavigableString, PageElement, PreformattedString
+from country_converter import convert
+from jaraco.clipboard import paste_html  # type: ignore
+from pyarchivist.Wikimedia_Commons.main import (
+    Args as pyarchivist_Wikimedia_Commons_Args,
+)
+from pyarchivist.Wikimedia_Commons.main import (
+    main as pyarchivist_Wikimedia_Commons_main,
+)
+from pyperclip import copy as clip_copy  # type: ignore
 from yarl import URL
 
 
@@ -216,19 +219,28 @@ async def wiki_html_to_plaintext(
         else:
             return ""
 
-    process_strings: Callable[[str], str] = lambda strings: strings
+    def process_strings(strings: str) -> str:
+        return strings
+
     joiner, prefix, suffix = "", "", ""
     match ele.name:
         # newlines
         case "br":
-            process_strings = lambda strings: f"{strings}\n"
+
+            def process_strings(strings: str):
+                return f"{strings}\n"
         # headers; should come before bold
         case name if header_match := __HEADER_REGEX.match(name):
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
-            process_strings = lambda strings: _fix_name_maybe(strings.strip())
+
+            def process_strings(strings: str):
+                return _fix_name_maybe(strings.strip())
         # links: self-links; should come before bold
         case _ if ele.name == "a" and "mw-selflink" in classes:
-            process_strings = lambda strings: strings.strip().replace("\n", " <br/> ")
+
+            def process_strings(strings: str):
+                return strings.strip().replace("\n", " <br/> ")
+
             prefix, suffix = (
                 "[",
                 f"]({_WIKI_HOST_URL / 'wiki/Help:Self_link'})",
@@ -404,7 +416,9 @@ async def wiki_html_to_plaintext(
                         col_idx = current_row.index(tdh)
                         tdh["rowspan"] = "1"
                         for _ in range(1, row_span):
-                            if (current_row := current_row.next_sibling) is None:
+                            if not isinstance(
+                                current_row := current_row.next_sibling, Tag
+                            ):
                                 break
                             new_tdh = copy(tdh)
                             new_tdh.clear()
@@ -420,6 +434,7 @@ async def wiki_html_to_plaintext(
                 for child in ele.children:
                     if isinstance(child, Tag) and child.name == "th":
                         new_b = _bs4_new_element("<b></b>")
+                        assert isinstance(new_b, Tag)
                         for child_child in child.contents[:]:
                             new_b.append(child_child.extract())
                         child.append(new_b)
@@ -431,9 +446,9 @@ async def wiki_html_to_plaintext(
 
                 strings = __CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
                 strings = __CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
-                    lambda match: match[0]
-                    .replace(" ", "&nbsp;")
-                    .replace("\t", "&emsp;"),
+                    lambda match: (
+                        match[0].replace(" ", "&nbsp;").replace("\t", "&emsp;")
+                    ),
                     strings,
                 )
 
@@ -503,7 +518,7 @@ async def wiki_html_to_plaintext(
                             formats[1].format(to_archive.replace("_", " "))
                         )
 
-                    return f"{strings}![{escape_markdown(str(ele.get("alt", "")).strip())}]({src_url_str})"
+                    return f"{strings}![{escape_markdown(str(ele.get('alt', '')).strip())}]({src_url_str})"
 
                 suffix = "\n\n"
                 process_strings = process_strings_img
@@ -550,7 +565,7 @@ async def wiki_html_to_plaintext(
                 ):
                     prefix, suffix = (
                         "[",
-                        f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
+                        f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})",
                     )
                 elif "extiw" in classes:
                     lang_code, title = title.split(":", 1)
@@ -569,16 +584,18 @@ async def wiki_html_to_plaintext(
                     #         to_fragment, replace_underscores=True,
                     #     ))})",
                     # )
-                    from_filename, to_filename = _fix_name_maybe(
-                        title, replace_underscores=True
-                    ), _fix_name_maybe(to, replace_underscores=True)
+                    from_filename, to_filename = (
+                        _fix_name_maybe(title, replace_underscores=True),
+                        _fix_name_maybe(to, replace_underscores=True),
+                    )
                     prefix, suffix = (
                         "[",
                         f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
                     )
-                    from_filename, to_filename = _fix_filename(
-                        from_filename
-                    ), _fix_filename(to_filename)
+                    from_filename, to_filename = (
+                        _fix_filename(from_filename),
+                        _fix_filename(to_filename),
+                    )
                     if from_filename != to_filename:
                         redirect_file = (
                             _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
