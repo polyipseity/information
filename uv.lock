@@ -1230,7 +1230,7 @@ wheels = [
 
 [[package]]
 name = "pyarchivist"
-version = "2.0.1"
+version = "2.1.0"
 source = { editable = "tools/pyarchivist" }
 dependencies = [
     { name = "aiohttp" },
@@ -4142,7 +4142,7 @@ wheels = [
 
 [[package]]
 name = "pytextgen"
-version = "7.0.0"
+version = "8.0.0"
 source = { editable = "tools/pytextgen" }
 dependencies = [
     { name = "aioshutil" },
