@@ -9,7 +9,7 @@ tags:
 
 # Peano axioms
 
-In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑːnoʊ/, \[peˈaːno\]), also known as {@{the __Dedekind–Peano axioms__ or the __Peano postulates__}@}, are {@{[axioms](axiom.md) for the [natural numbers](natural%20number.md) presented by the 19th-century Italian mathematician [Giuseppe Peano](Giuseppe%20Peano.md)}@}. These axioms have been used {@{nearly unchanged in a number of [metamathematical](metamathematics.md) investigations}@}, including {@{research into fundamental questions}@} of whether {@{[number theory](number%20theory.md) is [consistent](consistency.md) and [complete](completeness%20(logic).md)}@}. <!--SR:!2029-02-01,1195,310!2028-03-09,920,305!2028-12-04,1054,305!2026-02-21,26,386!2026-02-20,25,386-->
+In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑːnoʊ/, \[peˈaːno\]), also known as {@{the __Dedekind–Peano axioms__ or the __Peano postulates__}@}, are {@{[axioms](axiom.md) for the [natural numbers](natural%20number.md) presented by the 19th-century Italian mathematician [Giuseppe Peano](Giuseppe%20Peano.md)}@}. These axioms have been used {@{nearly unchanged in a number of [metamathematical](metamathematics.md) investigations}@}, including {@{research into fundamental questions}@} of whether {@{[number theory](number%20theory.md) is [consistent](consistency.md) and [complete](completeness%20(logic).md)}@}. <!--SR:!2029-02-01,1195,310!2028-03-09,920,305!2028-12-04,1054,305!2026-02-21,26,386!2026-07-03,133,406-->
 
 The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arithmetic.md) provided by Peano axioms is commonly called {@{__Peano arithmetic__}@}. <!--SR:!2028-07-22,1076,345-->
 
@@ -68,7 +68,7 @@ In Peano's original formulation, the induction axiom is {@{a [second-order axiom
 
 ### defining arithmetic operations and relations
 
-If we use the second-order induction axiom, it is {@{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}@}. However, with first-order induction, this is {@{not possible and addition and multiplication are often added as axioms}@}. {@{The respective functions and relations}@} are constructed in {@{[set theory](set%20theory.md) or [second-order logic](second-order%20logic.md)}@}, and can be shown to {@{be unique using the Peano axioms}@}. <!--SR:!2026-06-02,436,305!2029-12-28,1523,365!2027-05-15,474,285!2026-02-26,131,393!2026-02-20,126,393-->
+If we use the second-order induction axiom, it is {@{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}@}. However, with first-order induction, this is {@{not possible and addition and multiplication are often added as axioms}@}. {@{The respective functions and relations}@} are constructed in {@{[set theory](set%20theory.md) or [second-order logic](second-order%20logic.md)}@}, and can be shown to {@{be unique using the Peano axioms}@}. <!--SR:!2026-06-02,436,305!2029-12-28,1523,365!2027-05-15,474,285!2026-02-26,131,393!2027-12-30,678,413-->
 
 #### addition
 

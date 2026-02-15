@@ -55,7 +55,7 @@ The content is in teaching order.
 - topic: introduction to managerial accounting
 - course logistics
 - [management accounting](../../../../general/management%20accounting.md)
-  - management accounting / purpose ::@:: decision-making orientation: provide useful information to internal managers for making decisions <!--SR:!2029-09-07,1303,350!2026-02-20,293,330-->
+  - management accounting / purpose ::@:: decision-making orientation: provide useful information to internal managers for making decisions <!--SR:!2029-09-07,1303,350!2029-10-16,1334,350-->
   - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2028-05-07,892,330!2028-01-20,822,330-->
     - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2029-08-17,1285,350!2028-04-12,872,330-->
     - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2029-10-11,1331,350!2029-09-12,1307,350-->
@@ -67,12 +67,12 @@ The content is in teaching order.
 - organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2026-02-21,294,330!2029-10-11,1331,350-->
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2029-10-06,1327,350-->
   - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2029-10-06,1327,350!2028-04-25,883,330-->
-  - service company ::@:: provide service to clients or customers <!--SR:!2026-02-20,293,330!2029-09-17,1310,350-->
+  - service company ::@:: provide service to clients or customers <!--SR:!2029-10-15,1333,350!2029-09-17,1310,350-->
 - cost classifications ::@:: manufacturing, relevance, timing, traceability, variability <!--SR:!2026-06-27,366,310!2029-09-14,1308,350-->
   - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing <!--SR:!2029-10-06,1327,350!2029-10-16,1335,350-->
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2029-09-08,1304,350!2029-09-18,1311,350-->
   - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->
-  - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2026-02-20,293,330!2029-08-23,1290,350-->
+  - types of costs / traceability ::@:: direct vs. indirect <!--SR:!2029-10-14,1332,350!2029-08-23,1290,350-->
   - types of costs / variability ::@:: variable vs. fixed <!--SR:!2029-09-30,1322,350!2029-08-21,1289,350-->
 - [direct costs](../../../../general/direct%20costs.md) ::@:: convenient and easily traceable to a cost object, e.g. cost of labors and materials to produce a product <!--SR:!2029-08-15,1284,350!2029-08-22,1289,350-->
   - [cost object](../../../../general/cost%20object.md) ::@:: a term used primarily in cost accounting to describe something to which costs are assigned <!--SR:!2029-08-30,1296,350!2028-04-18,878,330-->

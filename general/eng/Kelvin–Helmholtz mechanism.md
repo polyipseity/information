@@ -13,7 +13,7 @@ The __Kelvin–Helmholtz mechanism__ is {@{an [astronomical](astronomy.md) proce
 
 The mechanism was originally proposed by {@{[Kelvin](Lord%20Kelvin.md) and [Helmholtz](Hermann%20von%20Helmholtz.md) in the late 19th century to explain the source of [energy](energy.md) of the [Sun](Sun.md)}@}. <!--SR:!2026-05-28,468,310-->
 
-The true source of the [Sun](Sun.md)'s energy remained {@{uncertain until the 1930s, when it was shown by [Hans Bethe](Hans%20Bethe.md) to be [nuclear fusion](nuclear%20fusion.md)}@}. <!--SR:!2026-02-20,382,290-->
+The true source of the [Sun](Sun.md)'s energy remained {@{uncertain until the 1930s, when it was shown by [Hans Bethe](Hans%20Bethe.md) to be [nuclear fusion](nuclear%20fusion.md)}@}. <!--SR:!2030-05-09,1539,310-->
 
 ## references
 

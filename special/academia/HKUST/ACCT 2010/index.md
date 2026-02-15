@@ -529,7 +529,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-21T13:30:00+08:00/2024-11-21T14:50:00+08:00
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
-  - statement of cash flows / required disclosures ::@:: Reconciliation of net income to cash flows from operations – not necessary if using indirect method <br/> Non-cash investing & financing activities – e.g., debt to equity conversions, exchanges of non-cash assets or liabilities for non-cash assets or liabilities <br/> Cash paid for interest & income taxes <!--SR:!2027-03-02,618,363!2026-02-20,302,323-->
+  - statement of cash flows / required disclosures ::@:: Reconciliation of net income to cash flows from operations – not necessary if using indirect method <br/> Non-cash investing & financing activities – e.g., debt to equity conversions, exchanges of non-cash assets or liabilities for non-cash assets or liabilities <br/> Cash paid for interest & income taxes <!--SR:!2027-03-02,618,363!2029-10-28,1346,343-->
 - quality of income ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{net income} }$$ <!--SR:!2026-09-20,526,403!2026-09-29,534,403-->
   - quality of income ratio / interpretation ::@:: In general, this ratio measures the portion of income that was generated in cash. All other things equal, a higher ratio indicates greater ability to finance operating and other cash needs from operating cash inflows. <!--SR:!2027-03-26,642,363!2026-08-05,488,403-->
 - capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2026-08-30,510,403!2026-03-19,351,383-->

@@ -100,7 +100,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 >   else lo :: listRange(lo + 1, hi)
 > ```
 >
-> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2027-03-09,385,370!2027-03-15,389,370!2026-02-21,83,350!2026-02-20,82,350!2027-03-14,390,370!2026-02-21,83,350!2027-02-28,377,368!2027-02-26,375,368-->
+> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2027-03-09,385,370!2027-03-15,389,370!2026-02-21,83,350!2027-03-16,389,370!2027-03-14,390,370!2026-02-21,83,350!2027-02-28,377,368!2027-02-26,375,368-->
 
 ### lazy list operations
 
@@ -114,7 +114,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > LazyList.range(1000, 10000).filter(isPrime)(1)
 > ```
 >
-> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2026-02-22,84,350!2026-02-20,82,350!2026-02-23,85,350!2027-03-10,386,370!2027-03-15,391,370!2026-02-22,84,350!2027-03-08,383,368!2027-02-27,376,368-->
+> Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2026-02-22,84,350!2027-03-20,393,370!2026-02-23,85,350!2027-03-10,386,370!2027-03-15,391,370!2026-02-22,84,350!2027-03-08,383,368!2027-02-27,376,368-->
 
 Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2027-03-09,386,370!2027-02-14,367,370!2026-02-21,83,350!2027-03-07,383,370!2027-03-13,388,370!2027-03-18,392,370-->
 
@@ -131,7 +131,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   else tail.filter(p)
 > ```
 >
-> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by-name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2026-02-22,84,351!2027-03-11,387,371!2027-03-12,388,371!2026-02-21,83,351!2026-02-20,82,351!2026-02-23,85,351!2026-02-23,85,351!2026-02-22,84,351!2026-02-22,84,351!2026-02-21,83,351!2027-03-11,386,371!2026-02-23,85,351!2027-03-15,390,371!2026-02-21,83,351!2026-02-21,83,351-->
+> Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by-name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2026-02-22,84,351!2027-03-11,387,371!2027-03-12,388,371!2026-02-21,83,351!2027-03-23,396,371!2026-02-23,85,351!2026-02-23,85,351!2026-02-22,84,351!2026-02-22,84,351!2026-02-21,83,351!2027-03-11,386,371!2026-02-23,85,351!2027-03-15,390,371!2026-02-21,83,351!2026-02-21,83,351-->
 
 {@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}: <!--SR:!2027-01-13,336,345!2026-11-22,294,345!2027-01-10,334,345!2026-11-12,287,345!2026-12-30,325,345!2027-01-20,342,345!2026-12-07,306,345-->
 
@@ -168,7 +168,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!2026-10-28,272,345!2026-11-11,286,345!2026-10-26,270,345!2026-10-30,274,345!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
 
-{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2027-03-18,392,371!2026-02-20,82,351!2026-02-23,85,351!2027-03-14,389,371!2026-02-22,84,351!2027-03-16,390,371!2027-03-17,391,371-->
+{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2027-03-18,392,371!2027-03-26,399,371!2026-02-23,85,351!2027-03-14,389,371!2026-02-22,84,351!2027-03-16,390,371!2027-03-17,391,371-->
 
 > [!example] __`LazyList.state`__
 >
@@ -205,7 +205,7 @@ For {@{an example}@} of {@{`lazy val`}@}: <!--SR:!2026-12-18,316,345!2026-12-13,
 >
 > When evaluating {@{an expression that mixes these constructs}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2027-03-11,387,370!2026-02-23,85,350!2027-03-20,394,370!2027-03-06,382,368!2027-03-13,389,368-->
 
-When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2026-02-20,82,350!2026-02-20,82,350!2027-03-10,387,370-->
+When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2027-03-25,398,370!2027-03-19,392,370!2027-03-10,387,370-->
 
 ## infinite sequences
 
@@ -239,7 +239,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > nats.filter(_ % 4 == 0)
 > ```
 >
-> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2027-03-10,386,371!2026-02-23,85,351!2027-03-15,390,371!2027-03-14,389,371!2026-02-21,83,351!2027-03-17,391,371!2027-03-15,390,371!2026-02-20,82,351-->
+> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2027-03-10,386,371!2026-02-23,85,351!2027-03-15,390,371!2027-03-14,389,371!2026-02-21,83,351!2027-03-17,391,371!2027-03-15,390,371!2027-03-22,395,371-->
 
 {@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!2026-11-19,291,345!2026-11-19,294,330!2026-10-31,275,345!2026-12-30,325,345!2026-11-09,284,345!2026-11-13,288,345!2027-01-15,338,345-->
 
@@ -288,7 +288,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > sqrtSeq(2).filter(isGoodEnough(_, 2))
 > ```
 >
-> {@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}. <!--SR:!2026-02-22,84,350!2026-02-20,82,350!2026-02-22,84,348!2027-02-25,374,368-->
+> {@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}. <!--SR:!2026-02-22,84,350!2027-03-21,394,370!2026-02-22,84,348!2027-02-25,374,368-->
 
 {@{A combinatorial search problem}@}, such as {@{filling glasses to a target volume}@}, can be encoded with {@{lazy lists of state transitions}@}: <!--SR:!2026-10-30,274,345!2027-01-21,343,345!2026-12-30,325,345-->
 
@@ -391,7 +391,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > let guesses = 1 : map improve guesses
 > ```
 >
-> Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2027-03-12,387,371!2026-02-20,82,351!2026-02-21,83,351!2027-03-16,391,371!2027-03-12,387,371!2026-02-20,82,351!2026-02-23,85,351-->
+> Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2027-03-12,387,371!2027-03-27,400,371!2026-02-21,83,351!2027-03-16,391,371!2027-03-12,387,371!2027-03-24,397,371!2026-02-23,85,351-->
 
 {@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2027-01-20,342,345!2026-12-13,312,345!2027-01-04,329,345!2026-12-16,313,345!2026-11-09,284,345-->
 

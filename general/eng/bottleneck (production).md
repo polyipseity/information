@@ -37,11 +37,11 @@ When {@{input comes in faster than the speed of the process}@}, {@{accumulation 
 
 ### throughput
 
-Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2027-11-05,754,330!2029-04-30,1184,350!2026-03-03,290,330!2026-02-20,281,330!2029-04-15,1179,350-->
+Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2027-11-05,754,330!2029-04-30,1184,350!2026-03-03,290,330!2029-08-24,1281,350!2029-04-15,1179,350-->
 
 ### full capacity
 
-By using {@{the utilization percentage of each production unit}@}, it is possible to {@{determine the machine which uses the highest percentage of its capacity}@}. {@{This machine is bottlenecking the other machines}@} by {@{'forcing' them to operate at a lower capacity}@}. However, if {@{all machines in the chain of processes are running at a similar capacity level}@}, {@{increasing the capacity of the lowest machine}@} will {@{not create a significant improvement to the total output}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-02-20,281,330!2029-07-17,1250,350!2028-10-12,1031,350!2029-02-19,1130,350!2029-05-20,1202,350!2029-05-26,1208,350!2029-02-08,1119,350-->
+By using {@{the utilization percentage of each production unit}@}, it is possible to {@{determine the machine which uses the highest percentage of its capacity}@}. {@{This machine is bottlenecking the other machines}@} by {@{'forcing' them to operate at a lower capacity}@}. However, if {@{all machines in the chain of processes are running at a similar capacity level}@}, {@{increasing the capacity of the lowest machine}@} will {@{not create a significant improvement to the total output}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-08-26,1283,350!2029-07-17,1250,350!2028-10-12,1031,350!2029-02-19,1130,350!2029-05-20,1202,350!2029-05-26,1208,350!2029-02-08,1119,350-->
 
 ### wait times
 
@@ -53,7 +53,7 @@ In the case where {@{several production units are already running at full capaci
 >
 > {@{Fishbone Diagram}@} - for {@{finding bottlenecks}@} <!--SR:!2028-07-19,891,330!2026-03-04,291,330!2028-11-05,1052,350-->
 
-{@{A [fishbone diagram](Ishikawa%20diagram.md)}@} is {@{a graphical means for finding possible problems in a chain of processes}@}. By collecting {@{the different data related to the problem}@}, and {@{inputting them into the [diagram](diagram.md)}@}, it becomes easier to {@{analyze the data in the order it is used}@}, and hence {@{determine the root of the problem}@}. This is commonly used to {@{find the bottleneck in a chain of processes}@} due to being able to {@{pinpoint the machine precisely responsible for the delay in production}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-01-29,1109,350!2029-01-13,1093,350!2029-06-21,1228,350!2029-03-26,1164,350!2029-08-04,1265,350!2026-02-20,281,330!2029-02-27,1138,350!2026-03-06,293,330-->
+{@{A [fishbone diagram](Ishikawa%20diagram.md)}@} is {@{a graphical means for finding possible problems in a chain of processes}@}. By collecting {@{the different data related to the problem}@}, and {@{inputting them into the [diagram](diagram.md)}@}, it becomes easier to {@{analyze the data in the order it is used}@}, and hence {@{determine the root of the problem}@}. This is commonly used to {@{find the bottleneck in a chain of processes}@} due to being able to {@{pinpoint the machine precisely responsible for the delay in production}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-01-29,1109,350!2029-01-13,1093,350!2029-06-21,1228,350!2029-03-26,1164,350!2029-08-04,1265,350!2029-08-19,1276,350!2029-02-27,1138,350!2026-03-06,293,330-->
 
 ## consequences of bottlenecks in production
 
@@ -81,7 +81,7 @@ Once {@{the bottleneck has been identified}@}, {@{assessing the degree of the bo
 
 ### minimizing downtime, setup and changeover time
 
-To compensate for {@{being the weakest link in the chain of processes}@}, the bottleneck machine will {@{have to run for longer periods of time}@}. {@{Changeover and setup time}@} should be {@{minimised to allow the machines to run for slightly longer}@}, reducing {@{the impact of the bottleneck}@}.<sup>[\[14\]](#^ref-14)</sup> {@{Minimizing downtime}@} by having {@{the bottlenecked machines run from earlier until later}@} is a common {@{strategy for working around the problem}@}, however this does increase {@{the likelihood for the machine to be overloaded and need regular maintenance}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-05-17,1199,350!2029-07-03,1238,350!2026-03-05,292,330!2026-03-07,294,330!2029-01-11,1091,350!2029-01-12,1092,350!2026-02-20,281,330!2028-12-25,1074,350!2026-02-22,26,377-->
+To compensate for {@{being the weakest link in the chain of processes}@}, the bottleneck machine will {@{have to run for longer periods of time}@}. {@{Changeover and setup time}@} should be {@{minimised to allow the machines to run for slightly longer}@}, reducing {@{the impact of the bottleneck}@}.<sup>[\[14\]](#^ref-14)</sup> {@{Minimizing downtime}@} by having {@{the bottlenecked machines run from earlier until later}@} is a common {@{strategy for working around the problem}@}, however this does increase {@{the likelihood for the machine to be overloaded and need regular maintenance}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-05-17,1199,350!2029-07-03,1238,350!2026-03-05,292,330!2026-03-07,294,330!2029-01-11,1091,350!2029-01-12,1092,350!2029-08-23,1280,350!2028-12-25,1074,350!2026-02-22,26,377-->
 
 ### eliminating non-value activities
 
@@ -89,7 +89,7 @@ In {@{removing all non-value activities}@}, you reduce {@{the amount of redundan
 
 ### provide a constant buffer stock upstream
 
-In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible}@} and hence should {@{never have to wait for materials or stock}@}, to {@{increase productivity}@}. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-07-30,1261,350!2027-03-03,515,310!2029-07-26,1258,350!2029-08-18,1276,350!2028-12-24,1073,350!2026-02-20,281,330!2028-11-04,1052,350!2027-02-01,381,389!2026-03-08,128,389-->
+In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible}@} and hence should {@{never have to wait for materials or stock}@}, to {@{increase productivity}@}. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-07-30,1261,350!2027-03-03,515,310!2029-07-26,1258,350!2029-08-18,1276,350!2028-12-24,1073,350!2029-08-22,1279,350!2028-11-04,1052,350!2027-02-01,381,389!2026-03-08,128,389-->
 
 ## preventing bottlenecks
 
@@ -105,7 +105,7 @@ The steps suggested to {@{avoid or prevent shifting bottlenecks}@} are: <!--SR:!
 
 - Step 1\) Re-evaluate ::@:: the maximum load of every machine, process or work center when accepting a new order. <!--SR:!2029-07-26,1258,350!2028-12-21,1070,350-->
 - Step 2\) Find ::@:: the bottleneck in the system and identify its surplus capacity. <!--SR:!2029-04-13,1177,350!2026-02-24,285,330-->
-- Step 3\) Fill ::@:: the bottlenecks surplus capacity. <!--SR:!2029-06-22,1228,350!2026-02-20,281,330-->
+- Step 3\) Fill ::@:: the bottlenecks surplus capacity. <!--SR:!2029-06-22,1228,350!2029-08-25,1282,350-->
 - Step 4\) Find out ::@:: the release time of the material as a result of the new bottlenecks scheduling. <!--SR:!2029-03-19,1158,350!2026-02-24,285,330-->
 
 Through following these steps, the order production will be {@{completed in the shortest possible time frame}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-02-24,285,330-->

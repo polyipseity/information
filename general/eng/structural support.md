@@ -33,7 +33,7 @@ A fixed support prevents {@{translation and rotation in any direction}@}. Its re
 
 A fixed support is {@{usually not drawn specifically and represented by being connected to a fixed wall or ground}@}. <!--SR:!2026-07-22,546,310-->
 
-Examples include {@{a computer monitor with a single non-rotatable support, fixed supports under a bridge}@}. <!--SR:!2026-02-20,474,310-->
+Examples include {@{a computer monitor with a single non-rotatable support, fixed supports under a bridge}@}. <!--SR:!2031-09-15,2033,330-->
 
 Note that the reaction [torque](torque.md) only makes sense when {@{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}@}. <!--SR:!2026-10-12,670,330-->
 

@@ -39,7 +39,7 @@ Consider the above algorithm run on the tree shown to the right. Initially, vert
 
 ## algorithm to convert a Prüfer sequence into a tree
 
-Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2026-02-20,375,363!2031-03-13,1851,383-->
+Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2031-04-02,1867,383!2031-03-13,1851,383-->
 
 The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2029-10-05,1334,363!2030-12-29,1789,383!2031-02-11,1827,383-->
 

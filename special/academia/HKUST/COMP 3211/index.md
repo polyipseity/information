@@ -80,7 +80,7 @@ The content is in teaching order.
 - [model collapse](../../../../general/model%20collapse.md) ::@:: It is a phenomenon where machine learning models gradually degrade due to errors coming from uncurated training on the outputs of another model, including prior versions of itself. Such outputs are known as synthetic data. <p> A study in 2024 shows this. For example, after successive generations, nonsense text are generated. Biases in the dataset get amplified, e.g. forgetting obscure dog breeds exist due to under-representation in the initial dataset. <!--SR:!2026-08-13,407,310!2029-01-18,1110,350-->
 - [intelligent agent](../../../../general/intelligent%20agent.md) ::@:: It is an entity that perceives its environment, takes actions autonomously to achieve goals, and may improve its performance through machine learning or by acquiring knowledge. <!--SR:!2029-08-17,1277,369!2026-02-21,269,349-->
   - intelligent agent / features ::@:: can perceive, can perform actions, has an objective/goal <!--SR:!2026-06-23,383,369!2029-08-29,1287,369-->
-  - intelligent agent / learning objectives \(this course\) ::@:: stimulus-response agent (stateless), then add states <!--SR:!2026-08-08,408,369!2026-02-20,268,349-->
+  - intelligent agent / learning objectives \(this course\) ::@:: stimulus-response agent (stateless), then add states <!--SR:!2026-08-08,408,369!2029-09-05,1293,369-->
   - intelligent agent / control ::@:: e.g. designed vs. evolved/learned, genetic algorithms, neural networks, rules <!--SR:!2026-06-24,384,369!2026-06-04,364,369-->
   - intelligent agent / stimulus-response agent ::@:: Stateless machines that reacts to _immediate_ stimulus from the environment. <!--SR:!2026-08-08,412,369!2026-06-23,383,369-->
     - intelligent agent / stimulus-response agent / example ::@:: actions: up/down/left/right (cannot go into walls) <br/> environment: an enclosed 2D grid with walls <br/> objective: follow the boundary of the first obstacle met <br/> perceptions: 8 sensors for 8 adjacent cells, each testing if the corresponding cell is occupied <br/> policy: an algorithm to control the robot <!--SR:!2026-08-05,406,369!2026-06-24,384,369-->
@@ -170,7 +170,7 @@ The content is in teaching order.
 - datetime: 2025-02-18T12:30:00+08:00/2025-02-18T13:20:00+08:00
 - topic: TLU basics
 - [object detection](../../../../general/object%20detection.md)
-  - object detection / transplanted objects ::@:: elephant in the room: Transplanting such an object onto an image, it itself is often not detected or assumes wrong identities. It also has non-local effects, causing other previously correctly detected objects to go missing. <!--SR:!2026-02-20,268,349!2026-06-22,382,369-->
+  - object detection / transplanted objects ::@:: elephant in the room: Transplanting such an object onto an image, it itself is often not detected or assumes wrong identities. It also has non-local effects, causing other previously correctly detected objects to go missing. <!--SR:!2029-09-04,1292,369!2026-06-22,382,369-->
 - [computer vision](../../../../general/computer%20vision.md)
   - computer vision / image recognition
     - computer vision / image recognition / fooling them ::@:: Current systems are easily fooled by: adding human-undetectable noise, adding small obstructions to an image, random patterns, geometric transformation of an object in the image, etc. <!--SR:!2026-08-02,402,369!2026-06-18,378,369-->

@@ -680,7 +680,7 @@ Enums also support {@{parameters and methods}@}. {@{The `Direction` example}@} d
 >
 >   def leftTurn = Direction.values((ordinal + 1) % 4)
 > ```
-<!--SR:!2026-02-20,98,409!2026-04-26,153,429!2026-04-27,154,429-->
+<!--SR:!2027-08-26,552,429!2026-04-26,153,429!2026-04-27,154,429-->
 
 Here {@{`ordinal` \(`Direction.ordinal`\)}@} yields {@{the zero-based index of a variant}@}, and {@{`values` \(`Direction.values`\)}@} is {@{an immutable array containing all simple (non-parameterised) variants}@}. {@{Parameterised cases}@} do not {@{appear in this array}@}; only {@{simple ones receive ordinal numbers}@}. <!--SR:!2026-04-02,132,415!2026-04-29,156,429!2026-04-08,138,420!2026-04-26,153,429!2026-04-21,149,429!2026-04-15,144,429!2026-04-16,145,429-->
 

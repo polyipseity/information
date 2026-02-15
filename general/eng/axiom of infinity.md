@@ -21,7 +21,7 @@ In {@{technical language, this formal expression}@} is interpreted as "{@{[there
 
 {@{This [formula](well-formed%20formula.md)}@} can be abbreviated as: {@{$$\exists I\,(\varnothing \in I\,\land \,\forall x\,(x\in I\Rightarrow \,(x\cup \{x\})\in I)).$$}@} <!--SR:!2028-01-02,792,330!2027-01-30,365,385-->
 
-{@{Some mathematicians}@} may call {@{a set built this way}@} {@{an [inductive set](inductive%20set.md)}@}. <!--SR:!2028-02-07,820,330!2026-02-20,92,385!2026-02-20,92,385-->
+{@{Some mathematicians}@} may call {@{a set built this way}@} {@{an [inductive set](inductive%20set.md)}@}. <!--SR:!2028-02-07,820,330!2027-06-21,486,405!2027-06-22,487,405-->
 
 ## interpretation and consequences
 

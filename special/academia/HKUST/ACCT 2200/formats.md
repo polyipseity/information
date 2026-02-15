@@ -44,7 +44,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - materials requisition form ::@:: information, table, authorized signature <!--SR:!2026-05-28,346,350!2026-06-04,353,350-->
   - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2029-01-18,1085,350!2026-05-29,347,350-->
   - materials requisition form / table
-    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2029-02-17,1115,362!2026-02-20,264,342-->
+    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2029-02-17,1115,362!2029-07-16,1242,362-->
     - materials requisition form / table / row headers ::@:: material description, (materials...), total cost <!--SR:!2026-04-29,328,350!2028-01-05,781,330-->
 
 ## direct labor time ticket
@@ -104,7 +104,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Direct Materials Cost}@}          | {@{&dollar;&nbsp;1&nbsp;700}@}        |
 > | {@{Direct Labor Cost}@}              | {@{6&nbsp;900}@}                      |
 > | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}                      |
-> | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} | <!--SR:!2029-02-23,1116,350!2026-03-03,275,330!2026-05-06,334,350!2026-04-29,328,350!2026-03-17,289,330!2026-04-20,319,350!2026-02-24,268,330!2026-05-04,332,350!2026-05-19,337,350!2029-04-10,1156,350!2026-05-01,330,350!2026-05-26,344,350!2026-02-28,272,330!2029-04-21,1165,350!2029-01-19,1087,350!2026-03-23,295,350!2026-04-24,323,350!2026-04-15,314,350!2029-02-03,1101,350!2026-02-20,249,330!2026-03-03,275,330!2029-01-04,1076,350!2026-05-30,348,350!2026-03-18,290,330!2026-05-04,332,350!2029-04-12,1158,350!2029-04-17,1162,350!2029-04-11,1157,350!2026-04-28,327,350!2026-03-22,294,330!2026-04-21,320,350-->
+> | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} | <!--SR:!2029-02-23,1116,350!2026-03-03,275,330!2026-05-06,334,350!2026-04-29,328,350!2026-03-17,289,330!2026-04-20,319,350!2026-02-24,268,330!2026-05-04,332,350!2026-05-19,337,350!2029-04-10,1156,350!2026-05-01,330,350!2026-05-26,344,350!2026-02-28,272,330!2029-04-21,1165,350!2029-01-19,1087,350!2026-03-23,295,350!2026-04-24,323,350!2026-04-15,314,350!2029-02-03,1101,350!2029-04-01,1136,350!2026-03-03,275,330!2029-01-04,1076,350!2026-05-30,348,350!2026-03-18,290,330!2026-05-04,332,350!2029-04-12,1158,350!2029-04-17,1162,350!2029-04-11,1157,350!2026-04-28,327,350!2026-03-22,294,330!2026-04-21,320,350-->
 
 - job cost sheet ::@:: information, tables, cost summary <!--SR:!2029-04-15,1160,350!2027-08-06,665,330-->
   - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2026-05-16,334,350!2029-01-11,1078,350-->
