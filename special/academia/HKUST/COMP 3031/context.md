@@ -99,7 +99,7 @@ To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implici
 > def sort[T](xs: List[T])(using ord: Ordering[T]): List[T] = ...
 > ```
 >
-> Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2026-12-30,326,349!2027-01-25,346,349!2026-12-15,313,349!2027-03-03,380,368!2027-03-02,379,368!2027-03-09,385,368!2026-02-20,82,348!2026-02-19,81,348-->
+> Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2026-12-30,326,349!2027-01-25,346,349!2026-12-15,313,349!2027-03-03,380,368!2027-03-02,379,368!2027-03-09,385,368!2026-02-20,82,348!2027-03-14,388,368-->
 
 Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!2026-09-26,245,330!2026-09-29,248,330!2027-01-30,351,349!2026-11-09,283,349!2026-12-20,318,349!2027-01-31,352,349!2026-11-21,292,349-->
 
@@ -116,7 +116,7 @@ Now {@{callers}@} need not {@{supply it explicitly \(though it could if it choos
 >
 > The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2027-03-13,388,367!2027-03-08,384,367!2026-02-20,82,347!2026-12-18,316,349!2026-12-23,320,349!2026-12-23,320,349!2026-12-21,319,349!2026-12-07,307,349!2026-11-17,291,349!2026-09-20,239,330-->
 
-The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}, as in the above example. <!--SR:!2027-03-06,381,368!2027-03-14,389,368!2026-02-19,81,348-->
+The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}, as in the above example. <!--SR:!2027-03-06,381,368!2027-03-14,389,368!2027-03-21,395,368-->
 
 ### `using` syntax
 
@@ -142,7 +142,7 @@ When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} v
 > sort(strings)  // compiler finds `Ordering.String`
 > ```
 >
-> However, {@{explicit passing}@} is {@{usually unnecessary}@}. <!--SR:!2027-03-07,383,368!2027-01-24,350,368!2026-02-22,84,349!2026-02-19,81,348!2027-03-03,380,368-->
+> However, {@{explicit passing}@} is {@{usually unnecessary}@}. <!--SR:!2027-03-07,383,368!2027-01-24,350,368!2026-02-22,84,349!2027-03-19,393,368!2027-03-03,380,368-->
 
 However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2027-02-24,375,368!2027-03-02,379,368!2027-03-03,380,368!2027-01-25,351,368!2026-02-21,83,348-->
 
@@ -203,7 +203,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >   println(sort(xs))
 > ```
 >
-> Intuitively, this may be interpreted as {@{`T` "satisfying" the trait `Ordering`}@}, i.e. having {@{a defined ordering}@}. <!--SR:!2027-03-05,381,368!2026-02-23,85,349!2026-02-19,81,347!2027-02-27,376,367!2027-01-26,347,349!2027-01-31,352,349-->
+> Intuitively, this may be interpreted as {@{`T` "satisfying" the trait `Ordering`}@}, i.e. having {@{a defined ordering}@}. <!--SR:!2027-03-05,381,368!2026-02-23,85,349!2027-03-13,387,367!2027-02-27,376,367!2027-01-26,347,349!2027-01-31,352,349-->
 
 Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2027-03-05,381,368!2026-02-22,84,348-->
 
@@ -306,7 +306,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 >     }
 > ```
 >
-> {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2026-02-20,82,350!2026-02-21,83,350!2026-02-19,81,348!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
+> {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2026-02-20,82,350!2026-02-21,83,350!2027-03-20,394,368!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
 
 In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!2026-12-05,305,349!2027-01-25,346,349!2026-10-04,253,330!2026-11-12,282,349!2026-12-06,306,349!2026-12-08,308,349-->
 
@@ -338,7 +338,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 >     if c != 0 then c else ob.compare(x._2, y._2)
 > ```
 >
-> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2027-03-04,380,367!2026-02-22,84,347!2026-02-19,81,347!2027-01-02,329,349!2026-11-28,298,349!2026-11-27,297,349!2027-01-26,351,368!2026-02-19,81,348-->
+> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2027-03-04,380,367!2026-02-22,84,347!2027-03-12,386,367!2027-01-02,329,349!2026-11-28,298,349!2026-11-27,297,349!2027-01-26,351,368!2027-03-14,388,368-->
 
 ## context inference
 

@@ -149,7 +149,7 @@ The content is in teaching order.
   - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2029-03-13,1284,350!2028-01-14,921,330-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::@:: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_. <!--SR:!2027-03-27,717,330!2026-08-18,536,310-->
   - data presentation / quantitative data ::@:: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2026-05-13,412,290!2026-05-21,462,310-->
-  - data presentation / categorical data ::@:: bar chart, frequency table, pie chart, ... <!--SR:!2027-03-23,711,330!2026-02-19,358,290-->
+  - data presentation / categorical data ::@:: bar chart, frequency table, pie chart, ... <!--SR:!2027-03-23,711,330!2030-02-01,1443,310-->
   - line chart ::@:: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2028-06-26,1079,350!2028-07-04,1087,350-->
     - line chart / reading ::@:: Start from the x-axis, then to the line, and lastly to the y-axis. <!--SR:!2028-10-24,1179,350!2028-01-11,951,350-->
     - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2029-07-22,1387,350!2028-09-22,1147,350-->

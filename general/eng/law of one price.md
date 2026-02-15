@@ -21,7 +21,7 @@ In {@{[economics](economics.md)}@}, {@{the __law of one price__ \(__LOOP__\)}@} 
 
 Assume {@{different prices for a single identical good in two locations}@}, {@{no transport costs, and no economic barriers between the two locations}@}. {@{Arbitrage by both buyers and sellers}@} can then operate: buyers {@{from the expensive area can buy in the cheap area}@}, and sellers {@{in the cheap area can sell in the expensive area}@}. <!--SR:!2029-06-27,1238,350!2029-07-13,1252,350!2026-02-25,285,330!2026-03-03,291,330!2026-03-02,290,330-->
 
-{@{Both scenarios}@} result in {@{a single, equal price per homogeneous good in all locations}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-02-25,285,330!2026-02-19,279,330-->
+{@{Both scenarios}@} result in {@{a single, equal price per homogeneous good in all locations}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-02-25,285,330!2029-08-16,1274,350-->
 
 _For further discussion, see [Rational pricing](rational%20pricing.md#the%20law%20of%20one%20price)_.
 

@@ -99,7 +99,7 @@ For LoopVariable = start To end Step step ' `Step step` optional
 Next LoopVariable
 ```
 
-{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2026-05-18,89,369!2026-02-19,19,349!2026-05-17,88,369!2026-05-16,87,369!2026-02-19,19,349!2026-05-18,89,369!2026-02-19,19,349!2026-02-19,19,349!2026-02-19,19,349-->
+{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2026-05-18,89,369!2026-05-21,91,369!2026-05-17,88,369!2026-05-16,87,369!2026-05-20,90,369!2026-05-18,89,369!2026-05-21,91,369!2026-05-24,94,369!2026-05-22,92,369-->
 
 ### ending iteration early
 

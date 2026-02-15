@@ -89,7 +89,7 @@ In {@{removing all non-value activities}@}, you reduce {@{the amount of redundan
 
 ### provide a constant buffer stock upstream
 
-In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible}@} and hence should {@{never have to wait for materials or stock}@}, to {@{increase productivity}@}. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-07-30,1261,350!2027-03-03,515,310!2029-07-26,1258,350!2026-02-19,280,330!2028-12-24,1073,350!2026-02-20,281,330!2028-11-04,1052,350!2027-02-01,381,389!2026-03-08,128,389-->
+In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible}@} and hence should {@{never have to wait for materials or stock}@}, to {@{increase productivity}@}. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-07-30,1261,350!2027-03-03,515,310!2029-07-26,1258,350!2029-08-18,1276,350!2028-12-24,1073,350!2026-02-20,281,330!2028-11-04,1052,350!2027-02-01,381,389!2026-03-08,128,389-->
 
 ## preventing bottlenecks
 

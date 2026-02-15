@@ -32,23 +32,23 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-{@{A __relevant cost__ \(also called __avoidable cost__ or __differential cost__\)}@}<sup>[\[1\]](#^ref-1)</sup> is {@{a cost that differs between alternatives being considered}@}.<sup>[\[2\]](#^ref-2)</sup> In order for {@{a cost to be a relevant cost}@} it must be: (annotation: 3 items: {@{future, cash flow, incremental}@}) <!--SR:!2026-02-19,294,330!2029-07-09,1257,350!2029-07-13,1259,350!2026-02-19,294,330-->
+{@{A __relevant cost__ \(also called __avoidable cost__ or __differential cost__\)}@}<sup>[\[1\]](#^ref-1)</sup> is {@{a cost that differs between alternatives being considered}@}.<sup>[\[2\]](#^ref-2)</sup> In order for {@{a cost to be a relevant cost}@} it must be: (annotation: 3 items: {@{future, cash flow, incremental}@}) <!--SR:!2029-10-26,1345,350!2029-07-09,1257,350!2029-07-13,1259,350!2029-10-26,1345,350-->
 
 - Future
 - Cash Flow
 - Incremental
 
-It is often important for businesses to {@{distinguish between relevant and irrelevant costs when analyzing alternatives}@} because {@{erroneously considering irrelevant costs can lead to unsound business decisions}@}.<sup>[\[1\]](#^ref-1)</sup> Also, {@{ignoring irrelevant data in analysis}@} can {@{save time and effort}@}. <!--SR:!2029-08-27,1295,350!2029-07-20,1266,350!2026-02-19,294,330!2027-12-20,802,330-->
+It is often important for businesses to {@{distinguish between relevant and irrelevant costs when analyzing alternatives}@} because {@{erroneously considering irrelevant costs can lead to unsound business decisions}@}.<sup>[\[1\]](#^ref-1)</sup> Also, {@{ignoring irrelevant data in analysis}@} can {@{save time and effort}@}. <!--SR:!2029-08-27,1295,350!2029-07-20,1266,350!2029-10-26,1345,350!2027-12-20,802,330-->
 
 {@{Types of _irrelevant_ costs}@} are:<sup>[\[3\]](#^ref-3)</sup> (annotation: {@{sunk costs, committed costs, notional or non cash costs}@}) <!--SR:!2029-07-21,1267,350!2029-09-21,1317,350-->
 
 - [Sunk costs](sunk%20costs.md)<sup>[\[4\]](#^ref-4)</sup>
 - Committed costs
-- Notional or Non cash costs ::@:: \(e.g [depreciation](depreciation.md) and [amortization](amortization%20(accounting).md)\) <!--SR:!2026-02-19,294,330!2029-08-22,1293,350-->
+- Notional or Non cash costs ::@:: \(e.g [depreciation](depreciation.md) and [amortization](amortization%20(accounting).md)\) <!--SR:!2029-10-26,1345,350!2029-08-22,1293,350-->
 
 ## example
 
-{@{A construction firm}@} is {@{in the middle of constructing an office building}@}, having {@{spent \$1 million on it so far}@}. It requires {@{an additional \$0.5 million to complete construction}@}. Because of {@{a downturn in the [real estate market](real%20estate%20market.md)}@}, the finished building will {@{not fetch its original intended price}@}, and is {@{expected to sell for only \$1.2 million}@}. If, in {@{deciding whether or not to continue construction}@}, {@{the \$1 million sunk cost were incorrectly included in the analysis}@}, the firm may {@{conclude that it should abandon the project}@} because {@{it would be spending \$1.5 million for a return of \$1.2 million}@}. However, {@{the \$1 million is an irrelevant cost}@}, and should {@{be excluded}@}. {@{Continuing the construction}@} actually involves {@{spending \$0.5 million for a return of \$1.2 million}@}, which {@{makes it the correct course of action}@}. <!--SR:!2029-07-28,1272,350!2028-01-04,814,330!2029-08-13,1286,350!2029-07-17,1263,350!2029-07-14,1260,350!2027-12-21,803,330!2026-02-19,294,330!2029-08-04,1278,350!2029-07-17,1263,350!2029-09-09,1306,350!2029-09-02,1302,350!2029-07-15,1261,350!2029-08-21,1292,350!2029-07-31,1275,350!2029-09-08,1306,350!2026-02-19,294,330-->
+{@{A construction firm}@} is {@{in the middle of constructing an office building}@}, having {@{spent \$1 million on it so far}@}. It requires {@{an additional \$0.5 million to complete construction}@}. Because of {@{a downturn in the [real estate market](real%20estate%20market.md)}@}, the finished building will {@{not fetch its original intended price}@}, and is {@{expected to sell for only \$1.2 million}@}. If, in {@{deciding whether or not to continue construction}@}, {@{the \$1 million sunk cost were incorrectly included in the analysis}@}, the firm may {@{conclude that it should abandon the project}@} because {@{it would be spending \$1.5 million for a return of \$1.2 million}@}. However, {@{the \$1 million is an irrelevant cost}@}, and should {@{be excluded}@}. {@{Continuing the construction}@} actually involves {@{spending \$0.5 million for a return of \$1.2 million}@}, which {@{makes it the correct course of action}@}. <!--SR:!2029-07-28,1272,350!2028-01-04,814,330!2029-08-13,1286,350!2029-07-17,1263,350!2029-07-14,1260,350!2027-12-21,803,330!2029-10-25,1344,350!2029-08-04,1278,350!2029-07-17,1263,350!2029-09-09,1306,350!2029-09-02,1302,350!2029-07-15,1261,350!2029-08-21,1292,350!2029-07-31,1275,350!2029-09-08,1306,350!2029-10-26,1345,350-->
 
 {@{A managerial accounting term for costs}@} that are {@{specific to management's decisions}@}. {@{The concept of relevant costs}@} eliminates {@{unnecessary data that could complicate the decision-making process}@}. <!--SR:!2029-08-25,1295,350!2029-10-01,1325,350!2029-09-22,1317,350!2029-08-15,1287,350-->
 

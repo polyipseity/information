@@ -100,7 +100,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 >   else lo :: listRange(lo + 1, hi)
 > ```
 >
-> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2027-03-09,385,370!2026-02-19,81,350!2026-02-21,83,350!2026-02-20,82,350!2027-03-14,390,370!2026-02-21,83,350!2027-02-28,377,368!2027-02-26,375,368-->
+> Unlike {@{the similar `listRange`}@} that {@{returns a strict `List`}@}, {@{the recursive call in `lazyRange`}@} is wrapped {@{in a by-name parameter}@} and therefore {@{not evaluated}@} until {@{the tail of the resulting list is needed}@}. <!--SR:!2027-03-09,385,370!2027-03-15,389,370!2026-02-21,83,350!2026-02-20,82,350!2027-03-14,390,370!2026-02-21,83,350!2027-02-28,377,368!2027-02-26,375,368-->
 
 ### lazy list operations
 
@@ -116,7 +116,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 >
 > Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. <!--SR:!2026-02-22,84,350!2026-02-20,82,350!2026-02-23,85,350!2027-03-10,386,370!2027-03-15,391,370!2026-02-22,84,350!2027-03-08,383,368!2027-02-27,376,368-->
 
-Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2027-03-09,386,370!2027-02-14,367,370!2026-02-21,83,350!2027-03-07,383,370!2027-03-13,388,370!2026-02-19,81,350-->
+Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2027-03-09,386,370!2027-02-14,367,370!2026-02-21,83,350!2027-03-07,383,370!2027-03-13,388,370!2027-03-18,392,370-->
 
 {@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!2026-11-24,296,345!2027-01-16,339,345!2026-12-05,305,345!2026-11-27,299,345!2026-12-30,325,345!2027-01-05,330,345!2026-12-14,311,345!2026-12-29,325,345!2026-12-17,315,345!2026-11-09,284,345!2027-01-05,330,345!2026-12-29,325,345!2027-01-03,328,345-->
 
@@ -168,7 +168,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!2026-10-28,272,345!2026-11-11,286,345!2026-10-26,270,345!2026-10-30,274,345!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
 
-{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2026-02-19,81,351!2026-02-20,82,351!2026-02-23,85,351!2027-03-14,389,371!2026-02-22,84,351!2026-02-19,81,351!2026-02-19,81,351-->
+{@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2027-03-18,392,371!2026-02-20,82,351!2026-02-23,85,351!2027-03-14,389,371!2026-02-22,84,351!2027-03-16,390,371!2027-03-17,391,371-->
 
 > [!example] __`LazyList.state`__
 >
@@ -182,7 +182,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 >
 > ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-11-02,277,345!2026-11-26,298,345!2026-10-23,267,345!2027-01-21,343,345!2026-11-21,293,345!2026-11-23,295,345!2027-01-10,334,345!2026-11-09,284,345!2026-10-29,273,345!2026-12-09,308,345!2026-02-21,83,350-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!2026-10-29,273,345!2027-01-14,337,345!2026-10-07,263,330!2026-11-09,284,345!2026-11-25,297,345!2026-09-15,244,330!2027-01-04,329,345!2026-12-15,313,345!2026-08-04,202,325!2026-12-12,311,345!2026-12-10,309,345!2026-02-19,81,350-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!2026-10-29,273,345!2027-01-14,337,345!2026-10-07,263,330!2026-11-09,284,345!2026-11-25,297,345!2026-09-15,244,330!2027-01-04,329,345!2026-12-15,313,345!2026-08-04,202,325!2026-12-12,311,345!2026-12-10,309,345!2027-03-19,393,370-->
 
 ## lazy evaluation
 
@@ -203,7 +203,7 @@ For {@{an example}@} of {@{`lazy val`}@}: <!--SR:!2026-12-18,316,345!2026-12-13,
 > def z() = { println("z"); 3 }        // function, evaluated each call
 > ```
 >
-> When evaluating {@{an expression that mixes these constructs}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2027-03-11,387,370!2026-02-23,85,350!2026-02-19,81,350!2027-03-06,382,368!2027-03-13,389,368-->
+> When evaluating {@{an expression that mixes these constructs}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2027-03-11,387,370!2026-02-23,85,350!2027-03-20,394,370!2027-03-06,382,368!2027-03-13,389,368-->
 
 When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{the side-effects occur}@} in the order {@{the values are first required}@}. <!--SR:!2026-02-20,82,350!2026-02-20,82,350!2027-03-10,387,370-->
 
@@ -239,7 +239,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > nats.filter(_ % 4 == 0)
 > ```
 >
-> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2027-03-10,386,371!2026-02-23,85,351!2027-03-15,390,371!2027-03-14,389,371!2026-02-21,83,351!2026-02-19,81,351!2027-03-15,390,371!2026-02-20,82,351-->
+> {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2027-03-10,386,371!2026-02-23,85,351!2027-03-15,390,371!2027-03-14,389,371!2026-02-21,83,351!2027-03-17,391,371!2027-03-15,390,371!2026-02-20,82,351-->
 
 {@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!2026-11-19,291,345!2026-11-19,294,330!2026-10-31,275,345!2026-12-30,325,345!2026-11-09,284,345!2026-11-13,288,345!2027-01-15,338,345-->
 
@@ -258,7 +258,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > val primes = sieve(from(2))
 > ```
 >
-> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2027-03-09,384,370!2027-03-08,384,370!2027-03-10,385,370!2026-02-22,84,350!2026-02-19,81,350!2026-02-23,85,350!2026-02-22,84,350!2027-03-01,378,368!2026-10-29,273,348!2027-03-08,385,368-->
+> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2027-03-09,384,370!2027-03-08,384,370!2027-03-10,385,370!2026-02-22,84,350!2027-03-21,395,370!2026-02-23,85,350!2026-02-22,84,350!2027-03-01,378,368!2026-10-29,273,348!2027-03-08,385,368-->
 
 {@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2026-12-29,325,345!2026-11-26,298,345!2026-09-24,253,330-->
 

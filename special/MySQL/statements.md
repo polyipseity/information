@@ -12,7 +12,7 @@ tags:
 
 - `ALTER TABLE table_name [alter_option[, ...]]` ::@:: Modify the table named `table_name` by the options `alter_option`. <!--SR:!2027-02-25,860,310!2031-01-11,2049,350-->
 - `CREATE DATABASE database_name` ::@:: Create a database named `database_name`. <!--SR:!2029-09-19,1702,350!2030-01-29,1807,350-->
-- `CREATE TABLE table_name (create_definition, ...)` ::@:: Create the table named `table_name` defined by the definitions `create_definition`. <!--SR:!2026-02-19,594,299!2027-02-03,870,319-->
+- `CREATE TABLE table_name (create_definition, ...)` ::@:: Create the table named `table_name` defined by the definitions `create_definition`. <!--SR:!2032-11-17,2463,319!2027-02-03,870,319-->
 - `DELETE FROM table_name [WHERE where_expression]` ::@:: Delete rows from the table named `table_name`. Optionally filter rows for which `where_expression` is true. <!--SR:!2028-05-02,1281,339!2032-01-14,2239,319-->
 - `DESCRIBE table_name` ::@:: Show the table named `table_name`. <!--SR:!2030-01-23,1655,319!2030-06-13,1926,359-->
 - `INSERT INTO table_name (column_name[, ...]) VALUE[S] (value[, ...])[, ...]` ::@:: Add rows with the _n_-th `value` corresponding to the _n_-th column named `column_name` into the table named `table_name`. <!--SR:!2029-08-10,1510,319!2027-11-27,1064,319-->

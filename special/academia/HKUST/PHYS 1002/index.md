@@ -626,7 +626,7 @@ The content is in teaching order. Extra information and corrections are included
 ## week 6 lecture
 
 - datetime: 2024-07-23T10:00:00+08:00/2024-07-23T12:30:00+08:00
-- [star](../../../../general/star.md) / properties ::@:: brightness & luminosity, density of the atmosphere, distance, lifetime, mass, radius, surface temperature <!--SR:!2026-02-19,439,352!2031-07-29,2078,412-->
+- [star](../../../../general/star.md) / properties ::@:: brightness & luminosity, density of the atmosphere, distance, lifetime, mass, radius, surface temperature <!--SR:!2031-12-20,2130,372!2031-07-29,2078,412-->
 - [apparent magnitude](../../../../general/apparent%20magnitude.md), apparent brightness ::@:: brightness of the star as seen on Earth, dependant on its luminosity and distance to Earth; for this course, measured of radiant energy that reaches Earth, in W/m<sup>2</sup> <!--SR:!2030-11-06,1818,392!2026-02-21,440,392-->
   - [apparent magnitude](../../../../general/apparent%20magnitude.md) / examples ::@:: Betelgeuse vs Procyon: 2 of the 3 vertices of the "Winter Triangle", and they appear equally bright in our sky even though former's luminosity is about 5000 times that of latter <!--SR:!2029-03-22,1348,392!2030-01-17,1584,392-->
   - [apparent magnitude](../../../../general/apparent%20magnitude.md) / difference from [luminosity](../../../../general/luminosity.md) ::@:: Apparent magnitude is the radiant energy of a star that reaches Earth, while luminosity is all power the star emits. <!--SR:!2026-06-24,533,392!2027-06-25,867,412-->
