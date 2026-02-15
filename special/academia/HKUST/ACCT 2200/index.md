@@ -64,7 +64,7 @@ The content is in teaching order.
     - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2028-02-16,844,330!2029-02-06,1083,310-->
   - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2029-10-08,1328,350!2029-08-29,1295,350-->
   - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2028-01-23,824,330!2026-10-18,462,310-->
-- organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2026-02-21,294,330!2029-10-11,1331,350-->
+- organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2029-10-28,1345,350!2029-10-11,1331,350-->
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2029-10-06,1327,350-->
   - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2029-10-06,1327,350!2028-04-25,883,330-->
   - service company ::@:: provide service to clients or customers <!--SR:!2029-10-15,1333,350!2029-09-17,1310,350-->
@@ -80,7 +80,7 @@ The content is in teaching order.
 - [variable cost](../../../../general/variable%20cost.md) ::@:: costs that change according to the activity level; usually we assume the variable cost is proportional to the activity level (constant marginal cost) <!--SR:!2029-08-24,1291,350!2028-05-03,890,330-->
 - [fixed cost](../../../../general/fixed%20cost.md) ::@:: costs that do not change regardless of the activity level (within a reasonable range); average cost or per-unit cost varies inversely with the activity level <!--SR:!2027-08-30,642,310!2029-08-16,1285,350-->
 - [manufacturing cost](../../../../general/manufacturing%20cost.md) ::@:: all costs to produce the physical product; direct materials cost + direct labor cost + manufacturing overhead cost <!--SR:!2029-10-05,1326,350!2029-08-28,1294,350-->
-  - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2029-09-03,1299,350!2026-02-21,294,330-->
+  - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2029-09-03,1299,350!2029-10-28,1345,350-->
   - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2028-05-06,891,330-->
   - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2027-03-15,498,270!2029-09-16,1310,350-->
   - prime cost ::@:: direct materials + direct labor <!--SR:!2029-08-16,1284,350!2028-02-06,835,330-->
@@ -91,7 +91,7 @@ The content is in teaching order.
 - [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2028-01-15,818,330!2029-09-13,1308,350-->
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs <!--SR:!2029-09-24,1317,350!2029-10-12,1331,350-->
 - out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2028-01-24,824,330!2029-09-29,1321,350-->
-- [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken <!--SR:!2026-02-21,294,330!2027-01-29,529,310-->
+- [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken <!--SR:!2029-10-28,1345,350!2027-01-29,529,310-->
 
 ## week 1 lecture 2
 

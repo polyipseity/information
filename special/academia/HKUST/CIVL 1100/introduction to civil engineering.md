@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→::@::←business procedures <!--SR:!2028-06-14,1029,272!2026-03-19,557,401-->
 - business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2031-09-26,2078,360-->
-- human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2028-01-23,921,280-->
+- human behaviors→::@::←management principles <!--SR:!2030-12-17,1760,320!2028-01-23,921,280-->
 - management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2029-03-28,1354,340-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2030-06-28,1788,400-->
 - teaming up with others→::@::←_(end)_ <!--SR:!2029-12-09,1648,395!2027-04-08,752,292-->

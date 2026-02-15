@@ -144,7 +144,7 @@ When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} v
 >
 > However, {@{explicit passing}@} is {@{usually unnecessary}@}. <!--SR:!2027-03-07,383,368!2027-01-24,350,368!2026-02-22,84,349!2027-03-19,393,368!2027-03-03,380,368-->
 
-However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2027-02-24,375,368!2027-03-02,379,368!2027-03-03,380,368!2027-01-25,351,368!2026-02-21,83,348-->
+However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2027-02-24,375,368!2027-03-02,379,368!2027-03-03,380,368!2027-01-25,351,368!2027-03-31,403,368-->
 
 {@{The syntax for `using` clauses}@} is {@{flexible}@}. {@{A single clause}@} may contain {@{multiple parameters}@}: <!--SR:!2026-10-02,251,330!2026-12-19,317,349!2026-12-03,303,349!2027-01-28,349,349-->
 
@@ -306,7 +306,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 >     }
 > ```
 >
-> {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2027-03-20,393,370!2026-02-21,83,350!2027-03-20,394,368!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
+> {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2027-03-20,393,370!2027-04-01,404,370!2027-03-20,394,368!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
 
 In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!2026-12-05,305,349!2027-01-25,346,349!2026-10-04,253,330!2026-11-12,282,349!2026-12-06,306,349!2026-12-08,308,349-->
 
@@ -432,7 +432,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >     if xn < yn then -1 else if xn > yn then 1 else 0
 > ```
 >
-> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2026-02-22,84,350!2026-02-22,84,350!2026-02-23,85,350!2026-02-21,83,350!2027-03-09,384,368!2026-02-21,83,348!2027-02-08,362,368!2027-02-06,361,368-->
+> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2026-02-22,84,350!2026-02-22,84,350!2026-02-23,85,350!2027-04-02,405,370!2027-03-09,384,368!2027-03-25,397,368!2027-02-08,362,368!2027-02-06,361,368-->
 
 ### extension methods
 
@@ -470,7 +470,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 >   }
 > ```
 >
-> No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}. <!--SR:!2026-02-21,83,350!2026-02-22,84,350!2026-02-23,85,350!2026-02-23,85,350!2027-02-24,373,368!2027-03-08,383,368-->
+> No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}. <!--SR:!2027-04-03,406,370!2026-02-22,84,350!2026-02-23,85,350!2026-02-23,85,350!2027-02-24,373,368!2027-03-08,383,368-->
 
 ### type class in other languages
 
@@ -485,7 +485,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 >     compare :: a -> a -> Int
 > ```
 >
-> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2026-02-23,85,350!2027-03-12,388,370!2026-02-21,83,350!2026-02-21,83,350!2027-03-21,394,370!2027-03-11,387,370-->
+> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2026-02-23,85,350!2027-03-12,388,370!2027-03-27,399,370!2027-03-25,397,370!2027-03-21,394,370!2027-03-11,387,370-->
 
 {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2026-02-22,84,351!2027-03-22,395,371!2026-02-23,85,351!2026-02-23,85,351!2026-02-23,85,351!2027-03-23,396,371-->
 

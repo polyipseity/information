@@ -49,7 +49,7 @@ However, because {@{a store in reality generally has a limited amount of space}@
 
 ## estimating parameters
 
-To {@{use Little's law on data}@}, formulas must be used to {@{estimate the parameters}@}, as {@{the result does not necessarily directly apply over finite time intervals}@}, due to problems like {@{how to log customers already present at the start of the logging interval}@} and {@{those who have not yet departed when logging stops}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-03-14,294,330!2026-02-21,289,330!2026-02-22,290,330!2029-07-21,1261,350!2029-03-13,1157,350-->
+To {@{use Little's law on data}@}, formulas must be used to {@{estimate the parameters}@}, as {@{the result does not necessarily directly apply over finite time intervals}@}, due to problems like {@{how to log customers already present at the start of the logging interval}@} and {@{those who have not yet departed when logging stops}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-03-14,294,330!2029-10-05,1322,350!2026-02-22,290,330!2029-07-21,1261,350!2029-03-13,1157,350-->
 
 ## applications
 

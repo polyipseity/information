@@ -34,7 +34,7 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 >
 > {@{Functor $F$ must preserve the composition of morphisms $g$ and $f$}@} <!--SR:!2026-04-04,356,357!2026-04-04,356,357-->
 
-Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __functor__ _F_ from _C_ to _D_}@} is a mapping that<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-02-21,319,346!2026-03-16,341,357-->
+Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __functor__ _F_ from _C_ to _D_}@} is a mapping that<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2030-04-16,1515,366!2026-03-16,341,357-->
 
 - (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_, <!--SR:!2029-09-19,1335,350!2026-04-03,355,357-->
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2030-04-18,1518,366!2027-02-17,565,310-->
@@ -84,14 +84,14 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 
 ## properties
 
-{@{Two important consequences}@} of the functor [axioms](axiom.md) are: <!--SR:!2026-02-21,320,346-->
+{@{Two important consequences}@} of the functor [axioms](axiom.md) are: <!--SR:!2030-04-20,1519,366-->
 
 - (annotation: commutative diagram) ::@:: _F_ transforms each [commutative diagram](commutative%20diagram.md) in _C_ into a commutative diagram in _D_; <!--SR:!2026-03-20,345,357!2026-04-02,355,357-->
 - (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!2026-11-04,461,337!2029-09-26,1342,350-->
 
 One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{_G_ is a functor from _B_ to _C_ then one can form the composite functor _G_ ∘ _F_ from _A_ to _C_}@}. {@{Composition of functors}@} is {@{associative where defined}@}. {@{Identity of composition of functors}@} is {@{the identity functor}@}. This shows that {@{functors can be considered as morphisms in categories of categories}@}, for example in {@{the [category of small categories](category%20of%20small%20categories.md)}@}. <!--SR:!2026-03-23,346,357!2026-03-26,349,357!2030-03-30,1502,366!2026-04-11,362,357!2029-08-13,1306,350!2026-02-24,322,346!2026-03-12,338,357!2026-03-29,351,357-->
 
-{@{A small category with a single object}@} is {@{the same thing as a [monoid](monoid.md)}@}: the morphisms of {@{a one-object category can be thought of as elements of the monoid}@}, and composition {@{in the category is thought of as the monoid operation}@}. {@{Functors between one-object categories}@} correspond to {@{monoid [homomorphisms](homomorphism.md)}@}. So in a sense, {@{functors between arbitrary categories}@} are {@{a kind of generalization of monoid homomorphisms to categories with more than one object}@}. <!--SR:!2026-04-08,360,357!2030-03-22,1496,366!2026-03-21,345,357!2026-02-23,321,346!2026-03-07,333,357!2028-12-07,1115,357!2026-02-21,320,346!2030-03-08,1484,366-->
+{@{A small category with a single object}@} is {@{the same thing as a [monoid](monoid.md)}@}: the morphisms of {@{a one-object category can be thought of as elements of the monoid}@}, and composition {@{in the category is thought of as the monoid operation}@}. {@{Functors between one-object categories}@} correspond to {@{monoid [homomorphisms](homomorphism.md)}@}. So in a sense, {@{functors between arbitrary categories}@} are {@{a kind of generalization of monoid homomorphisms to categories with more than one object}@}. <!--SR:!2026-04-08,360,357!2030-03-22,1496,366!2026-03-21,345,357!2026-02-23,321,346!2026-03-07,333,357!2028-12-07,1115,357!2030-04-21,1520,366!2030-03-08,1484,366-->
 
 ## examples
 

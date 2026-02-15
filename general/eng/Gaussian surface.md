@@ -29,7 +29,7 @@ Gaussian surfaces are usually {@{carefully chosen to exploit [symmetries](symmet
 
 {@{Most calculations using Gaussian surfaces}@} begin by {@{implementing [Gauss's law](Gauss's%20law.md) \(for electricity\)}@}:<sup>[\[2\]](#^ref-2)</sup> {@{$$\Phi _{E} = \oiint_S \mathbf {E} \;\cdot \mathrm {d} \mathbf {A} ={\frac {Q_{\text{enc} } }{\varepsilon _{0} } } \,.$$}@} Thereby {@{_Q_<sub>enc</sub> is the electrical charge enclosed by the Gaussian surface}@}. <!--SR:!2029-04-09,1162,350!2027-12-18,789,330!2029-03-27,1166,350!2026-03-04,286,330-->
 
-This is {@{Gauss's law}@}, combining {@{both the [divergence theorem](divergence%20theorem.md) and [Coulomb's law](Coulomb's%20law.md)}@}. <!--SR:!2026-02-21,275,330!2026-03-09,293,330-->
+This is {@{Gauss's law}@}, combining {@{both the [divergence theorem](divergence%20theorem.md) and [Coulomb's law](Coulomb's%20law.md)}@}. <!--SR:!2029-07-26,1251,350!2026-03-09,293,330-->
 
 ### spherical surface
 
@@ -63,7 +63,7 @@ By {@{Gauss's law}@} {@{the flux is also $$\Phi _{E}={\frac {Q_{A} }{\varepsilon
 
 As example "field near infinite line charge" is given below;
 
-Consider {@{a point _P_ at a distance _r_ from an infinite line charge having [charge density](charge%20density.md) \(charge per unit length\) λ}@}. Imagine {@{a closed surface in the form of cylinder whose axis of rotation is the line charge}@}. If {@{_h_ is the length of the cylinder}@}, then {@{the charge enclosed in the cylinder is $$q=\lambda h,$$}@} where {@{_q_ is the charge enclosed in the Gaussian surface}@}. There are {@{three surfaces _a_, _b_ and _c_ as shown in the figure}@}. {@{The [differential](differential%20of%20a%20function.md) [vector area](vector%20area.md)}@} is {@{_d_<!-- markdown separator -->__A__, on each surface _a_, _b_ and _c_}@}. <!--SR:!2028-07-15,883,330!2026-02-21,275,330!2027-07-20,671,330!2029-04-17,1181,350!2029-05-08,1186,350!2026-03-06,288,330!2026-03-07,289,330!2026-03-12,294,330-->
+Consider {@{a point _P_ at a distance _r_ from an infinite line charge having [charge density](charge%20density.md) \(charge per unit length\) λ}@}. Imagine {@{a closed surface in the form of cylinder whose axis of rotation is the line charge}@}. If {@{_h_ is the length of the cylinder}@}, then {@{the charge enclosed in the cylinder is $$q=\lambda h,$$}@} where {@{_q_ is the charge enclosed in the Gaussian surface}@}. There are {@{three surfaces _a_, _b_ and _c_ as shown in the figure}@}. {@{The [differential](differential%20of%20a%20function.md) [vector area](vector%20area.md)}@} is {@{_d_<!-- markdown separator -->__A__, on each surface _a_, _b_ and _c_}@}. <!--SR:!2028-07-15,883,330!2029-07-25,1250,350!2027-07-20,671,330!2029-04-17,1181,350!2029-05-08,1186,350!2026-03-06,288,330!2026-03-07,289,330!2026-03-12,294,330-->
 
 > {@{![Closed surface in the form of a cylinder having line charge in the center and showing differential areas _d_<!-- markdown separator -->__A__ of all three surfaces.](../../archives/Wikimedia%20Commons/Gaussian%20surface.jpg)}@}
 >
