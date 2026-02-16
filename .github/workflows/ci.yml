@@ -46,8 +46,8 @@ jobs:
     name: "Build & Test"
     runs-on: ubuntu-slim # using `ubuntu-slim` to minimize image size and attack surface; see header for rationale
     steps:
-      # <https://github.com/orgs/community/discussions/25516#discussioncomment-7888021>
-      - name: Get token from Github App
+      # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
+      - name: Get token from GitHub App
         uses: actions/create-github-app-token@v1
         id: checkout-app-token
         continue-on-error: true # continue even if private repo access fails
@@ -57,12 +57,22 @@ jobs:
           # owner is required, otherwise the creds will fail the checkout step
           owner: ${{ github.repository_owner }}
 
-      - name: Checkout repository
+      # Path A: use the GitHub App token if the producer step succeeded and token is non-empty
+      - name: Checkout repository (with app token)
+        if: ${{ steps.checkout-app-token.outcome == 'success' && steps.checkout-app-token.outputs.token != '' }}
         uses: actions/checkout@v6
-        continue-on-error: true # continue even if private repo access fails
         with:
           submodules: "recursive" # Ensure submodules are checked out if used
           token: ${{ steps.checkout-app-token.outputs.token }} # private repo access via GitHub App token
+
+      # Path B: fallback to default GITHUB_TOKEN if app token isn't available
+      - name: Checkout repository (fallback)
+        if: ${{ steps.checkout-app-token.outcome != 'success' || steps.checkout-app-token.outputs.token == '' }}
+        uses: actions/checkout@v6
+        continue-on-error: true # continue even if private repo access fails
+        with:
+          submodules: "recursive"
+          # No 'token' provided: checkout uses the default GITHUB_TOKEN
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
