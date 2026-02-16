@@ -6,9 +6,11 @@
     "/^pnpm(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s+(?:build|check|commitlint|format|run|test)(?:[^\\s]*)?(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
     "/^uv\\s+run\\s+(?:pyright|pytest|ruff)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
     "/^uv\\s+sync(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s*$/": true,
+    "Out-Null": true,
     "Pop-Location": true,
     "Push-Location": true,
-    "Test-Path": true
+    "Test-Path": true,
+    "git rev-parse": true
   },
   "markdown.validate.enabled": true,
   "python-envs.defaultEnvManager": "ms-python.python:venv",
