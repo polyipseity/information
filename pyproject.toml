@@ -51,6 +51,34 @@ exclude = [
   "**/__pycache__",
   "**/.*",
   ".venv",
+  # These contain their own pyright configurations, and are not intended to be type-checked as part of this project.
+  "self/arts",
+  "self/capture the flag",
+  "self/ledger",
+  "self/passwords",
+  "tools/pyarchivist",
+  "tools/pytextgen",
+  # custom
+  "private/special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*assignment*/**/*.py",
+  "private/special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*exercise*/**/*.py",
+  "private/special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*homework*/**/*.py",
+  "private/special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*lab*/**/*.py",
+  "private/special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*tutorial*/**/*.py",
+  "special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "special/academia/HKUST/**/*assignment*/**/*.py",
+  "special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "special/academia/HKUST/**/*exercise*/**/*.py",
+  "special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "special/academia/HKUST/**/*homework*/**/*.py",
+  "special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "special/academia/HKUST/**/*lab*/**/*.py",
+  "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "special/academia/HKUST/**/*tutorial*/**/*.py",
 ]
 typeCheckingMode = "strict"
 venv = ".venv"
@@ -78,6 +106,19 @@ python_files = "test_*.py"
 
 [tool.ruff]
 line-length = 88
+extend-exclude = [
+  # custom
+  "/special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "/special/academia/HKUST/**/*assignment*/**/*.py",
+  "/special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "/special/academia/HKUST/**/*exercise*/**/*.py",
+  "/special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "/special/academia/HKUST/**/*homework*/**/*.py",
+  "/special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "/special/academia/HKUST/**/*lab*/**/*.py",
+  "/special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "/special/academia/HKUST/**/*tutorial*/**/*.py",
+]
 
 [tool.ruff.lint]
 # Enable Pylint-derived rule that disallows imports outside module top-level

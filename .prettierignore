@@ -11,11 +11,14 @@
 **/package-lock.json
 **/pnpm-lock.yaml
 **/.obsidian/
+# sync with `private/.prettierignore`
 /private/special/academia/HKUST/**/*assignment*/**/*.html
+/private/special/academia/HKUST/**/*exercise*/**/*.html
 /private/special/academia/HKUST/**/*homework*/**/*.html
 /private/special/academia/HKUST/**/*lab*/**/*.html
 /private/special/academia/HKUST/**/*tutorial*/**/*.html
 /special/academia/HKUST/**/*assignment*/**/*.html
+/special/academia/HKUST/**/*exercise*/**/*.html
 /special/academia/HKUST/**/*homework*/**/*.html
 /special/academia/HKUST/**/*lab*/**/*.html
 /special/academia/HKUST/**/*tutorial*/**/*.html
