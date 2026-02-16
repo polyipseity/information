@@ -7,10 +7,11 @@ timestamp: 2024-08-16T18:05:13+08:00
 Remove identifiers from Canvas HTML files.
 """
 
-from anyio import Path
 from asyncio import gather, run
-from bs4 import BeautifulSoup
 from glob import iglob
+
+from anyio import Path
+from bs4 import BeautifulSoup
 
 
 async def _process_HTML(path: Path):

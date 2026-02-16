@@ -1,18 +1,18 @@
 """
 ---
-requirements: pip install beautifulsoup4>=4.12.0
+requirements: pip install beautifulsoup4>=4.12.0 requests>=2.32.0
 timestamp: 2025-06-11T19:12:43.410+08:00
 ---
 
 Download linked attachments.
 """
 
-from bs4 import BeautifulSoup
 from os import listdir
 from pathlib import Path
-from requests import get
 from time import sleep
 
+from bs4 import BeautifulSoup
+from requests import get
 
 AUTHORIZATION = "Basic <token>"
 ATTACHMENT_URL_PREFIX = "https://example.com/"

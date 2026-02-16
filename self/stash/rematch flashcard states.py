@@ -9,8 +9,9 @@ Rematch flashcard states using paragraphing.
 
 from functools import reduce
 from itertools import chain
-from pyperclip import copy, paste
 from re import DOTALL, compile
+
+from pyperclip import copy, paste
 
 FLASHCARD_STATES_REGEX = compile(r"\s*<!--SR:(.+?)-->", flags=DOTALL)
 FLASHCARD_STATE_REGEX = compile(r"!\d{4}-\d{2}-\d{2},\d+,\d+")

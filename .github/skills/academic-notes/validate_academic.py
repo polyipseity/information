@@ -11,12 +11,11 @@ Exit codes:
   0 - no issues (and no warnings when --content used)
   2 - fatal issues found
 """
-from __future__ import annotations
 
 import argparse
 import re
-from pathlib import Path
 from collections.abc import Sequence
+from pathlib import Path
 
 DEFAULT_PATHS = ["special/academia", "private/special/academia"]
 

@@ -1,4 +1,5 @@
 from math import ceil
+
 from pandas import read_csv  # type: ignore
 
 _MAPPING = {
@@ -18,8 +19,8 @@ def main() -> None:
         data = read_csv(input_path, header=0)
         data_plot = data.plot.hist(bins=range(int(data.min().iloc[0]), ceil(data.max().iloc[0]) + 1))  # type: ignore
 
-        data.describe().to_csv(data_output_path)  # type: ignore
-        data_plot.figure.savefig(plot_output_path)  # type: ignore
+        data.describe().to_csv(data_output_path)
+        data_plot.figure.savefig(plot_output_path)  # type: ignore[reportUnknownMemberType]
 
 
 if __name__ == "__main__":
