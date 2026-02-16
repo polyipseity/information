@@ -48,6 +48,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          submodules: "recursive" # Ensure submodules are checked out if used
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
