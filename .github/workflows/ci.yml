@@ -16,6 +16,18 @@
 # Security & reproducibility notes:
 #   - Use least-privilege permissions (contents: read) and pin action versions where appropriate.
 #   - Use local caches for pnpm/uv to speed builds and reduce external load.
+#
+# Workflow inputs (new)
+# - `fallback_submodules` (workflow_dispatch input): newline-separated list of
+#   submodule paths that will be `git submodule update --init --recursive`
+#   when the *fallback* checkout path runs (i.e. app-token checkout failed).
+#   - Format: one relative submodule path per line, for example:
+#       tools/pytextgen
+#       self/ledger
+#   - Default: includes all submodules from .gitmodules except `private`.
+#   - Override via GitHub UI (Run workflow) or API/gh CLI `inputs.fallback_submodules`.
+#   - Note: this does not change the primary checkout behavior when a token is
+#     available; it only controls which submodules the fallback step initializes.
 
 name: "CI: Build & Test"
 
@@ -27,6 +39,18 @@ on:
     tags-ignore:
       - "**" # Ignore tag pushes
   workflow_dispatch:
+    inputs:
+      fallback_submodules:
+        description: "Newline-separated list of submodule paths to initialize when the fallback checkout is used"
+        required: false
+        default: |
+          self/arts
+          self/capture the flag
+          self/ledger
+          self/passwords
+          self/polyipseity
+          tools/pyarchivist
+          tools/pytextgen
 
 # Use concurrency to deduplicate runs.
 # - For pull requests: group by `pr-<number>` so multiple commits to the same PR
@@ -71,8 +95,33 @@ jobs:
         uses: actions/checkout@v6
         continue-on-error: true # continue even if private repo access fails
         with:
-          submodules: "recursive"
+          submodules: false
           # No 'token' provided: checkout uses the default GITHUB_TOKEN
+
+      - name: Initialize selected submodules (fallback)
+        if: ${{ steps.checkout-app-token.outcome != 'success' || steps.checkout-app-token.outputs.token == '' }}
+        shell: bash
+        env:
+          # List submodule paths to initialize during fallback (one per line).
+          # This value is provided by the `fallback_submodules` workflow input and can be
+          # overridden when running `workflow_dispatch` (manual dispatch or API).
+          FALLBACK_SUBMODULES: ${{ github.event.inputs.fallback_submodules }}
+        run: |
+          # Skip when list is empty
+          if [ -z "${FALLBACK_SUBMODULES// /}" ]; then
+            echo "No fallback submodules specified; skipping submodule init."
+            exit 0
+          fi
+          # Ensure .gitmodules matches current working tree
+          git submodule sync --quiet
+          # Initialize & update each listed submodule (allow recursive init per path)
+          while IFS= read -r sm; do
+            [ -z "$sm" ] && continue
+            echo "Initializing submodule: $sm"
+            git submodule update --init --recursive -- "$sm"
+          done <<EOF
+          $FALLBACK_SUBMODULES
+          EOF
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
