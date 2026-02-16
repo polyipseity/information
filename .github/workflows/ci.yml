@@ -101,7 +101,6 @@ jobs:
             self/arts
             self/capture the flag
             self/ledger
-            self/passwords
             self/polyipseity
             tools/pyarchivist
             tools/pytextgen
