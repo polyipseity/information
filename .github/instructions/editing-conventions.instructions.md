@@ -42,7 +42,7 @@ Agent quickstart pointer: See `.github/instructions/agent-quickstart.instruction
 
 - **YAML frontmatter**: `aliases`, `tags`, `language/in/English` are standard fields; preserve during edits
 
-- **KaTeX math**: `$inline$` and `$$display$$` formats untouched; Extended MathJax in Obsidian uses `preamble.sty` for custom macros
+- **KaTeX math**: `$inline$` and `$$display$$` formats untouched; Extended MathJax in Obsidian uses `.obsidian/plugins/obsidian-latex/preamble.sty` for custom macros
 
 ## Developer tooling & testing conventions
 

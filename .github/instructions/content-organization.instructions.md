@@ -69,5 +69,5 @@ python .github/skills/academic-notes/validate_academic.py --content private/spec
 
 ## Other important files
 
-- **`preamble.sty`** — LaTeX macros used by Extended MathJax in Obsidian.
+- **`.obsidian/plugins/obsidian-latex/preamble.sty`** — LaTeX macros used by Extended MathJax in Obsidian.
 - **`.git/`**, **`.github/`**, **`.obsidian/`**, **`.vscode/`** — configuration and workspace files (do not edit unless explicitly requested).

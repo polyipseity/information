@@ -54,7 +54,7 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
 - **Python >=3.12** — declared in `pyproject.toml` (this is the canonical source of Python dependency metadata).
 - **Node.js 24+** with `package.json` packages (commitlint, markdownlint, prettier, pyright, etc.).
 - External tools: `git`, `git-filter-repo`.
-- Obsidian plugins: Extended MathJax (for `preamble.sty`).
+- Obsidian plugins: Extended MathJax (for `.obsidian/plugins/obsidian-latex/preamble.sty`).
 
 ---
 
@@ -131,7 +131,7 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 
 ### LaTeX & config
 
-- [latex-preamble.instructions.md](.github/instructions/latex-preamble.instructions.md) → `preamble.sty`
+- [latex-preamble.instructions.md](.github/instructions/latex-preamble.instructions.md) → `.obsidian/plugins/obsidian-latex/preamble.sty`
 - [config-folders.instructions.md](.github/instructions/config-folders.instructions.md) → `.git/**`, `.obsidian/**`, `.vscode/**`
 
 ### Submodule guards
