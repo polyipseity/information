@@ -6,8 +6,19 @@
 # }
 
 # custom {
-/.obsidian/
-/package-lock.json
-/pnpm-lock.yaml
+**/*.csv
+**/*.xml
+**/package-lock.json
+**/pnpm-lock.yaml
+**/.obsidian/
+/private/special/academia/HKUST/**/*assignment*/**/*.html
+/private/special/academia/HKUST/**/*homework*/**/*.html
+/private/special/academia/HKUST/**/*lab*/**/*.html
+/private/special/academia/HKUST/**/*tutorial*/**/*.html
+/special/academia/HKUST/**/*assignment*/**/*.html
+/special/academia/HKUST/**/*homework*/**/*.html
+/special/academia/HKUST/**/*lab*/**/*.html
+/special/academia/HKUST/**/*tutorial*/**/*.html
+/special/academia/HKUST/COMP 2012/VS Code Installation and Usage.html
 /self/capture the flag/competitions/[0-9][0-9][0-9][0-9]/*/
 # }
