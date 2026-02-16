@@ -8,13 +8,12 @@ Median filter ignoring transparent pixels. Maybe run this twice for better effec
 """
 
 import argparse
-from anyio import Path
 import sys
+from os import PathLike
 
 import cv2
-from os import PathLike
 import numpy as np
-
+from anyio import Path
 
 DEFAULT_KSIZE = 3
 DEFAULT_INPUT = "input.png"
@@ -57,7 +56,10 @@ def ensure_bgra(image: np.ndarray) -> np.ndarray:
 
 
 def compute_color_palette(
-    image_flat: np.ndarray, *, min_count: int = 2048, special: np.typing.ArrayLike | None = None
+    image_flat: np.ndarray,
+    *,
+    min_count: int = 2048,
+    special: np.typing.ArrayLike | None = None,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
     """Compute color frequency palette (kept from original script).
 

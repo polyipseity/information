@@ -52,7 +52,7 @@ def main() -> None:
 
     result = "\n\n".join(
         (
-            f"{paragraph} <!--SR:{''.join(flashcard_states[flashcard_cum_counts[idx]:flashcard_cum_counts[idx + 1]])}-->"
+            f"{paragraph} <!--SR:{''.join(flashcard_states[flashcard_cum_counts[idx] : flashcard_cum_counts[idx + 1]])}-->"
             if flashcard_counts[idx] > 0
             else paragraph
         )

@@ -110,16 +110,16 @@ python_files = "test_*.py"
 line-length = 88
 extend-exclude = [
   # custom
-  "/special/academia/HKUST/**/*assignment*/**/*.ipynb",
-  "/special/academia/HKUST/**/*assignment*/**/*.py",
-  "/special/academia/HKUST/**/*exercise*/**/*.ipynb",
-  "/special/academia/HKUST/**/*exercise*/**/*.py",
-  "/special/academia/HKUST/**/*homework*/**/*.ipynb",
-  "/special/academia/HKUST/**/*homework*/**/*.py",
-  "/special/academia/HKUST/**/*lab*/**/*.ipynb",
-  "/special/academia/HKUST/**/*lab*/**/*.py",
-  "/special/academia/HKUST/**/*tutorial*/**/*.ipynb",
-  "/special/academia/HKUST/**/*tutorial*/**/*.py",
+  "special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "special/academia/HKUST/**/*assignment*/**/*.py",
+  "special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "special/academia/HKUST/**/*exercise*/**/*.py",
+  "special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "special/academia/HKUST/**/*homework*/**/*.py",
+  "special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "special/academia/HKUST/**/*lab*/**/*.py",
+  "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "special/academia/HKUST/**/*tutorial*/**/*.py",
 ]
 
 [tool.ruff.lint]

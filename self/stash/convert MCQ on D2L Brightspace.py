@@ -98,5 +98,6 @@ def main():
         out.append(process_html(text))
     print("\n\n---\n\n".join(out))
 
+
 if __name__ == "__main__":
     main()

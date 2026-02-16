@@ -32,8 +32,8 @@ def process_markdown_table(md_table: str) -> tuple[list[dict[str, str]], list[st
     """
     # `md_table` is statically typed as `str`; no runtime isinstance() check required.
 
-    lines = [l.strip() for l in md_table.splitlines()]
-    lines = [l for l in lines if l]
+    lines = [line.strip() for line in md_table.splitlines()]
+    lines = [line for line in lines if line]
     if len(lines) < 2:
         return [], []
 

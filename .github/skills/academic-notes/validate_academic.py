@@ -13,6 +13,7 @@ Exit codes:
 """
 
 import argparse
+import json
 import re
 from collections.abc import Sequence
 from pathlib import Path
@@ -73,7 +74,9 @@ def has_flash_tag(front: str) -> bool:
     return bool(FLASH_TAG_RE.search(front))
 
 
-def check_markdown_file(path: Path, content_checks: bool = False) -> tuple[list[str], list[str]]:
+def check_markdown_file(
+    path: Path, content_checks: bool = False
+) -> tuple[list[str], list[str]]:
     """Run checks on a single Markdown file and return (errors, warnings).
 
     Errors are missing or malformed required fields (frontmatter, tags,
@@ -102,11 +105,15 @@ def check_markdown_file(path: Path, content_checks: bool = False) -> tuple[list[
             errors.append("index missing 'children' section")
 
     # check for session entries (lecture/lab/tutorial)
-    if ("lecture" in text or "lab" in text or "tutorial" in text) and "datetime:" not in text:
+    if (
+        "lecture" in text or "lab" in text or "tutorial" in text
+    ) and "datetime:" not in text:
         errors.append("appears to include session entries but no 'datetime:' found")
 
     if content_checks:
-        if ("lecture" in text or "lab" in text or "tutorial" in text) and "topic:" not in text:
+        if (
+            "lecture" in text or "lab" in text or "tutorial" in text
+        ) and "topic:" not in text:
             warnings.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
             )
@@ -120,7 +127,9 @@ def check_markdown_file(path: Path, content_checks: bool = False) -> tuple[list[
     return errors, warnings
 
 
-def walk_and_check(roots: Sequence[Path], content_checks: bool = False) -> ValidationResult:
+def walk_and_check(
+    roots: Sequence[Path], content_checks: bool = False
+) -> ValidationResult:
     """Walk `roots` recursively and check all Markdown files.
 
     Returns a `ValidationResult` containing aggregated errors and warnings.
@@ -207,8 +216,6 @@ def main(argv: Sequence[str] | None = None) -> int:
     agg_warnings = aggregate(res.warnings)
 
     if args.json:
-        import json
-
         out = {
             "errors": [[msg, paths] for msg, paths in agg_errors.items()],
             "warnings": [[msg, paths] for msg, paths in agg_warnings.items()],
@@ -227,8 +234,10 @@ def main(argv: Sequence[str] | None = None) -> int:
                 if e.get("excerpt"):
                     print(f"      preview: {e['excerpt']}")
             if len(entries) > 5:
-                print(f"    ... and {len(entries)-5} more\n")
-        print("\nPlease fix errors before publishing or report to maintainers if unsure.")
+                print(f"    ... and {len(entries) - 5} more\n")
+        print(
+            "\nPlease fix errors before publishing or report to maintainers if unsure."
+        )
         return 2
 
     if res.warnings:
@@ -241,8 +250,10 @@ def main(argv: Sequence[str] | None = None) -> int:
                 if e.get("excerpt"):
                     print(f"      preview: {e['excerpt']}")
             if len(entries) > 5:
-                print(f"    ... and {len(entries)-5} more\n")
-        print("\nThese are advisory suggestions; consider addressing the most common issues first or running with `--content` to get more guidance.")
+                print(f"    ... and {len(entries) - 5} more\n")
+        print(
+            "\nThese are advisory suggestions; consider addressing the most common issues first or running with `--content` to get more guidance."
+        )
         return 0
 
     print("OK: No issues detected (basic checks)")

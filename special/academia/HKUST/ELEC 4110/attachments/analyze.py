@@ -22,7 +22,7 @@ def main() -> None:
 
         data = pd.read_csv(input_path, header=0)
         data_plot = data.plot.hist(bins=np.linspace(0, 100, 21))  # type: ignore
-        data_plot.set_xticks(np.linspace(0, 100, 11)) # type: ignore[reportUnknownMemberType]
+        data_plot.set_xticks(np.linspace(0, 100, 11))  # type: ignore[reportUnknownMemberType]
 
         data.describe().to_csv(data_output_path)
         data_plot.figure.savefig(plot_output_path)  # type: ignore[reportUnknownMemberType]
