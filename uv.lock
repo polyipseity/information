@@ -507,7 +507,6 @@ dependencies = [
     { name = "pyperclip" },
     { name = "pytextgen" },
     { name = "pyyaml" },
-    { name = "typing-extensions" },
     { name = "yarl" },
 ]
 
@@ -540,7 +539,6 @@ requires-dist = [
     { name = "pyperclip", specifier = ">=1.9.0" },
     { name = "pytextgen", directory = "tools/pytextgen" },
     { name = "pyyaml", specifier = ">=6.0.0" },
-    { name = "typing-extensions", specifier = ">=4.4.0" },
     { name = "yarl", specifier = ">=1.9.0" },
 ]
 

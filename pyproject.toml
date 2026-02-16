@@ -7,6 +7,8 @@ name = "information-beb48618-576e-45ea-bd50-9e47279f88dc"
 version = "0.0.0"
 requires-python = ">=3.12.0"
 description = "Personal Markdown knowledge base"
+license = {file = "LICENSE.txt"}
+readme = "README.md"
 dependencies = [
   "aiohttp>=3.9.0",
   "aioshutil>=1.2.0",
@@ -24,9 +26,13 @@ dependencies = [
   "pyarchivist>=2.1.0",
   "pytextgen>=8.0.0",
   "pyyaml>=6.0.0",
-  "typing_extensions>=4.4.0",
   "yarl>=1.9.0",
 ]
+
+[project.scripts]
+
+[project.urls]
+repository = "https://github.com/polyipseity/information.git"
 
 [dependency-groups]
 dev = [
@@ -40,7 +46,12 @@ dev = [
 ]
 
 [tool.pyright]
-exclude = ["**/node_modules", "**/__pycache__", "**/.*", ".venv"]
+exclude = [
+  "**/node_modules",
+  "**/__pycache__",
+  "**/.*",
+  ".venv",
+]
 typeCheckingMode = "strict"
 venv = ".venv"
 venvPath = "."
@@ -79,6 +90,7 @@ required-version = ">=0.10.0,<0.11.0"
 [tool.uv.build-backend]
 # Do not include any packages in the build, as this project is only a collection of tools and scripts.
 module-name = []
+source-include = ["py.typed"]
 
 [tool.uv.sources]
 pyarchivist = { path = "tools/pyarchivist" }
