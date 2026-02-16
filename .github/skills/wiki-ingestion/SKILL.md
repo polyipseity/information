@@ -27,7 +27,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ### Step 1: Scaffold new note
 
-**Command**: `python -m "templates.new wiki page"`
+**Command**: `uv run -m "templates.new wiki page"`
 
 - Script prompts for Wikipedia article name (e.g., "Fourier Transform")
 - Generates YAML frontmatter template:
@@ -52,7 +52,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ### Step 3: Ingest HTML
 
-**Command**: `python -m "convert wiki"`
+**Command**: `uv run -m "convert wiki"`
 
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
@@ -63,7 +63,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ### Step 4: Generate flashcards
 
-**Command**: `python -m init generate <file>`
+**Command**: `uv run -m init generate <file>`
 
 - Scans note for cloze markup: `{@{ hidden text }@}`, `::@::`, `:@:`
 - Generates spaced-repetition flashcard state
@@ -75,7 +75,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 - Review `aliases` and `tags` in YAML frontmatter
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
 - Verify cloze markup is added to key terms
-- Test regeneration: `python -m init generate -C <file>`
+- Test regeneration: `uv run -m init generate -C <file>`
 - Commit when satisfied
 
 ## Best practices
@@ -105,8 +105,8 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ```bash
 # Ingest from clipboard
-python -m "convert wiki"
+uv run -m "convert wiki"
 
 # Scaffold new wiki-sourced note
-python -m "templates.new wiki page"
+uv run -m "templates.new wiki page"
 ```

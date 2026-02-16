@@ -37,7 +37,7 @@ The `tools/special/` directory contains specialized scripts for academic workflo
 - Assignment details (due dates, points, status)
 - Instructor information
 
-**Command**: `python -m tools.special."convert Canvas submission" <input_file>`
+**Command**: `uv run -m tools.special."convert Canvas submission" <input_file>`
 
 **Example output**:
 
@@ -60,7 +60,7 @@ instructor: Prof. Example
 
 **Output**: Similar YAML structure as Canvas converter, adapted for HKUST formats
 
-**Command**: `python -m tools.special."convert HKUST Zinc submission" <input_file>`
+**Command**: `uv run -m tools.special."convert HKUST Zinc submission" <input_file>`
 
 ### Fetch HKUST course catalog
 
@@ -75,7 +75,7 @@ instructor: Prof. Example
 - Prerequisites
 - Semesters offered
 
-**Command**: `python -m tools.special."get HKUST undergraduate courses" -o courses.csv`
+**Command**: `uv run -m tools.special."get HKUST undergraduate courses" -o courses.csv`
 
 **Use case**: Update `special/academia/HKUST/index.md` with current course offerings
 

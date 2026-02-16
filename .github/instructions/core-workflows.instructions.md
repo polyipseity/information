@@ -6,7 +6,7 @@ applyTo: "**"
 
 # Core Workflows
 
-**Tooling & pnpm wrappers:** Prefer `pnpm` script wrappers when available. Check `package.json` for repository scripts and prefer `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no pnpm wrapper exists for an operation, run the underlying command shown below (for example, `python -m init generate`). Always run `pnpm install` before using `pnpm run`.
+**Tooling & pnpm wrappers:** Prefer `pnpm` script wrappers when available. Check `package.json` for repository scripts and prefer `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no pnpm wrapper exists for an operation, run the underlying command shown below (for example, `uv run -m init generate`). Always run `pnpm install` before using `pnpm run`.
 
 Important: `pnpm install` triggers the `prepare` script which runs `uv sync --all-extras --dev` to install Python development extras declared in `pyproject.toml`'s `[dependency-groups].dev` using the project's `uv.lock`. For CI and deterministic installs prefer `uv sync --locked --all-extras --dev`. `pyproject.toml` is the canonical source for Python dependency metadata in this repository; keep it up-to-date and add dev-only tools there rather than in a `requirements.txt` file.
 
@@ -14,7 +14,7 @@ Agent quickstart note: Agents should consult `.github/instructions/agent-quickst
 
 ## Regenerate generated regions
 
-**Command**: `python -m init generate [pytextgen flags] <paths?>`
+**Command**: `uv run -m init generate [pytextgen flags] <paths?>`
 
 - Add `-C/--no-cached` to rebuild cache from scratch
 - Pass pytextgen flags like `--no-code-cache`, `--init-flashcards`
@@ -23,7 +23,7 @@ Agent quickstart note: Agents should consult `.github/instructions/agent-quickst
 
 ## Clear generated content
 
-**Command**: `python -m init clear --type CONTENT <paths?>`
+**Command**: `uv run -m init clear --type CONTENT <paths?>`
 
 - Other `ClearType` values available in `tools/pytextgen` (check skill documentation)
 - Clears generated regions without regenerating; useful for resolving merge conflicts
@@ -31,15 +31,15 @@ Agent quickstart note: Agents should consult `.github/instructions/agent-quickst
 
 ## Wiki ingestion (3-step workflow)
 
-**Step 1**: `python -m "templates.new wiki page"`
+**Step 1**: `uv run -m "templates.new wiki page"`
 
 - Scaffolds frontmatter + Wikipedia link template, copies to clipboard
 
-**Step 2**: `python -m "convert wiki"`
+**Step 2**: `uv run -m "convert wiki"`
 
 - Reads clipboard HTML, normalizes to Markdown, downloads media to `archives/Wikimedia Commons/`
 
-**Step 3**: `python -m init generate <file>`
+**Step 3**: `uv run -m init generate <file>`
 
 - Generates flashcards from cloze markup
 
@@ -47,19 +47,19 @@ Agent quickstart note: Agents should consult `.github/instructions/agent-quickst
 
 ## Package bundle
 
-**Command**: `python -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>`
+**Command**: `uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>`
 
 - Creates PageRank-sorted zip with link-closure metadata
 - `-n 25`: Max 25 files in bundle
 - `--damping-factor 0.5`: PageRank weighting (0.0-1.0, default 0.85)
 - `--page-rank-iterations 100`: Convergence iterations
 - Prioritizes important files based on link structure
-- **Best practice**: Always run `python -m init generate -C` first to ensure fresh content
+- **Best practice**: Always run `uv run -m init generate -C` first to ensure fresh content
 - **See**: [tools](../skills/tools/SKILL.md) skill for dependency management
 
 ## Publish bridge
 
-**Command**: `python -m publish --paths-file <file>`
+**Command**: `uv run -m publish --paths-file <file>`
 
 - Mirrors filtered history from `private/.git` into public `.git`
 - Uses `git filter-repo` to rewrite history (returns exit code 0 on success)

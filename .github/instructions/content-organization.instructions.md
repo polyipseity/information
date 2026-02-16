@@ -13,7 +13,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 - **`general/`** — Encyclopedic content (mostly verbatim from Wikipedia).
   - Flat `.md` files with YAML frontmatter (`aliases`, `tags`, `language`).
   - Use **relative links** (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
-  - Updated primarily via: `python -m "convert wiki"`.
+  - Updated primarily via: `uv run -m "convert wiki"`.
 
 - **`special/`** — Specialized materials: course notes, tutorials, and frameworks.
   - `academia/` is organized by **institution → semester/year → course**; each institution typically includes `reviews.md` and course folders.
@@ -24,7 +24,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
   - Each archive directory should include an `index.md` with source URL, timestamp and description; `pyarchivist` can auto-update these.
 
 - **`tools/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
-  - Prefer running wrappers (`pnpm run ...` or `python -m ...`) rather than hand-editing generated outputs.
+  - Prefer running wrappers (`pnpm run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
   - Notable submodules: `tools/pytextgen/` and `tools/pyarchivist/` (treat as external tools).
 Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.github/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 

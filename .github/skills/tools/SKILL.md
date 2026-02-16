@@ -18,7 +18,7 @@ The `tools/` directory contains all helper scripts and utilities:
    - Caches `(mtime, inode, text)` to skip unchanged files
    - Normalizes newlines to `\n` before pytextgen processing
    - Passes through pytextgen flags (`-C`, `--no-code-cache`, `--init-flashcards`)
-   - Commands: `python -m init generate`, `python -m init clear`
+   - Commands: `uv run -m init generate`, `uv run -m init clear`
 
 2. **`convert wiki.py`**: Wikipedia HTML → Markdown converter
    - Reads HTML from clipboard
@@ -26,7 +26,7 @@ The `tools/` directory contains all helper scripts and utilities:
    - Downloads media to `archives/Wikimedia Commons/`
    - Uses `convert wiki.py.names map.json` for filename renames
    - Preserves Wikipedia attribution
-   - Command: `python -m "convert wiki"`
+   - Command: `uv run -m "convert wiki"`
 
 3. **`pack.py`**: PageRank-ordered zip bundling
    - Walks Markdown links to build dependency graph
@@ -68,9 +68,9 @@ The `tools/` directory contains all helper scripts and utilities:
 
 ### End-to-end wiki ingestion
 
-1. Scaffold note: `python -m "templates.new wiki page"` (tools-templates)
-2. Ingest HTML: `python -m "convert wiki"` (convert wiki.py)
-3. Generate flashcards: `python -m init generate <file>` (init.py + pytextgen)
+1. Scaffold note: `uv run -m "templates.new wiki page"` (tools-templates)
+2. Ingest HTML: `uv run -m "convert wiki"` (convert wiki.py)
+3. Generate flashcards: `uv run -m init generate <file>` (init.py + pytextgen)
 
 ### Academic course organization
 
@@ -80,9 +80,9 @@ The `tools/` directory contains all helper scripts and utilities:
 
 ### Packaging and publishing
 
-1. Regenerate all: `python -m init generate -C` (init.py)
-2. Package bundle: `python -m pack -o bundle.zip -n 50 <paths>` (pack.py)
-3. Publish filtered history: `python -m publish --paths-file paths.txt` (publish.py)
+1. Regenerate all: `uv run -m init generate -C` (init.py)
+2. Package bundle: `uv run -m pack -o bundle.zip -n 50 <paths>` (pack.py)
+3. Publish filtered history: `uv run -m publish --paths-file paths.txt` (publish.py)
 
 ### Archive management
 
@@ -160,7 +160,7 @@ If changes are needed, ask user for permission first.
 
 ### Tool coordination
 
-- **Regenerate before packaging**: Always run `python -m init generate -C` before `pack.py`
+- **Regenerate before packaging**: Always run `uv run -m init generate -C` before `pack.py`
 - **Clean before publishing**: Verify `private/` content is properly filtered before `publish.py`
 - **Archive before ingestion**: Use pyarchivist for media before manual note creation
 - **Template before conversion**: Scaffold frontmatter before ingesting content
@@ -198,7 +198,7 @@ If changes are needed, ask user for permission first.
 
 When editing Python helper scripts in `tools/`:
 
-- **Preserve CLI surfaces**: Keep argument names, defaults, and help text stable; avoid breaking `python -m init generate/clear`, `python -m pack`, `python -m publish`, and other tool entrypoints
+- **Preserve CLI surfaces**: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
 - **Maintain async/anyio patterns**: Preserve async patterns like `anyio.Path`, `asyncio.create_task`, `TaskGroup`, `BoundedSemaphore` and caching behaviors (init cache, pytextgen compile cache in `__pycache__/`)
 - **Keep submodules read-only unless requested**: `tools/pytextgen`, `tools/pyarchivist`, `self/**`, `private/**` are git submodules; ask user before editing
 - **Normalize newlines**: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `tools`)

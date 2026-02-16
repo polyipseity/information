@@ -19,32 +19,32 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 
 ```bash
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
-python -m "templates.new wiki page"
-python -m "convert wiki"  # Paste Wikipedia HTML from clipboard
-python -m init generate <file>  # Generate flashcards from cloze markup
+uv run -m "templates.new wiki page"
+uv run -m "convert wiki"  # Paste Wikipedia HTML from clipboard
+uv run -m init generate <file>  # Generate flashcards from cloze markup
 ```
 
 **Maintaining content**:
 
 ```bash
 # Regenerate all generated blocks (see pytextgen skill)
-python -m init generate -C  # Force cache rebuild
+uv run -m init generate -C  # Force cache rebuild
 
 # Clear stale content before troubleshooting (see pytextgen skill)
-python -m init clear --type CONTENT <optional-paths>
+uv run -m init clear --type CONTENT <optional-paths>
 ```
 
 **Organizing & publishing**:
 
 ```bash
 # Before packaging/publishing, regenerate everything (see tools skill)
-python -m init generate -C
+uv run -m init generate -C
 
 # Create PageRank-optimized bundle (see tools skill)
-python -m pack -o pack.zip -n 25 --damping-factor 0.5 <paths>
+uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 <paths>
 
 # Mirror private→public filtered history (see tools skill)
-python -m publish --paths-file paths.txt
+uv run -m publish --paths-file paths.txt
 ```
 
 For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).
@@ -170,7 +170,7 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` 
 - See `.github/instructions/agent-quickstart.instructions.md` for a concise checklist agents should follow before changing files or making commits.
 - Recommended workspace settings: `chat.useAgentsMdFile = true`, `chat.useAgentSkills = true` to enable skill-based guidance and the root `AGENTS.md` for context.
 - Safe startup: `pnpm install` → `pnpm run prepare` → `pnpm run format` → `pnpm run check` → `pnpm run test`.
-- Regenerate content before packaging: `python -m init generate -C`; use `python -m pack` and `python -m publish` only after tests pass and user approval for publishing sensitive content.
+- Regenerate content before packaging: `uv run -m init generate -C`; use `uv run -m pack` and `uv run -m publish` only after tests pass and user approval for publishing sensitive content.
 - Always follow `.github/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); **prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.**
 - Ask for explicit permission before editing `private/`, `self/`, or any submodule content; update that submodule's `AGENTS.md` and `.github/instructions/` when you introduce new commands or workflows.
 - Use the Todo List Tool for multi-step tasks and include short, test-backed PRs with a clear rationale when making non-trivial changes.

@@ -36,7 +36,7 @@ Use this skill when archiving web content, media, or online documents into the k
 ## Typical command pattern
 
 ```shell
-python -m pyarchivist [options] --target <archives/folder> <source_url>
+uv run -m pyarchivist [options] --target <archives/folder> <source_url>
 ```
 
 (Exact interface depends on pyarchivist's implementation)

@@ -19,16 +19,16 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
    - `pnpm run test`  # run tests locally (pre-push runs this automatically)
 
 3. Common repository actions
-   - Regenerate generated content: `python -m init generate -C` (see `core-workflows.instructions.md`)
-   - Ingest a Wikipedia page: `python -m "templates.new wiki page"` → `python -m "convert wiki"` → `python -m init generate <file>`
-   - Package: `python -m pack -o pack.zip ...` (run `init generate -C` first)
-   - Publish (private→public): `python -m publish --paths-file <file>` (exercise caution)
+   - Regenerate generated content: `uv run -m init generate -C` (see `core-workflows.instructions.md`)
+   - Ingest a Wikipedia page: `uv run -m "templates.new wiki page"` → `uv run -m "convert wiki"` → `uv run -m init generate <file>`
+   - Package: `uv run -m pack -o pack.zip ...` (run `uv run -m init generate -C` first)
+   - Publish (private→public): `uv run -m publish --paths-file <file>` (exercise caution)
 
 Repository gotchas & quick tips
 
 - Preserve `# pytextgen` fences and cloze markup (`{@{ ... }@}`, `::@::`, `:@:`). These are parsed automatically; do not reflow or escape them.
 - Always prefer `pnpm run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
-- Run `python -m init generate -C` before `pack` or publishing workflows to avoid stale generated content.
+- Run `uv run -m init generate -C` before `pack` or publishing workflows to avoid stale generated content.
 - Use the Todo List Tool for multi-step tasks and present the proposed commit message to the user before committing (see `commit-convention.instructions.md`).
 
 1. Commit & PR behavior (must follow `commit-convention.instructions.md`)
