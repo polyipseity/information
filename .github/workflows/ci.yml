@@ -46,10 +46,23 @@ jobs:
     name: "Build & Test"
     runs-on: ubuntu-slim # using `ubuntu-slim` to minimize image size and attack surface; see header for rationale
     steps:
+      # <https://github.com/orgs/community/discussions/25516#discussioncomment-7888021>
+      - name: Get token from Github App
+        uses: actions/create-github-app-token@v1
+        id: checkout-app-token
+        continue-on-error: true # continue even if private repo access fails
+        with:
+          app-id: ${{ secrets.CHECKOUT_APP_ID }}
+          private-key: ${{ secrets.CHECKOUT_APP_PEM }}
+          # owner is required, otherwise the creds will fail the checkout step
+          owner: ${{ github.repository_owner }}
+
       - name: Checkout repository
         uses: actions/checkout@v6
+        continue-on-error: true # continue even if private repo access fails
         with:
           submodules: "recursive" # Ensure submodules are checked out if used
+          token: ${{ steps.checkout-app-token.outputs.token }} # private repo access via GitHub App token
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
