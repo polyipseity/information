@@ -21,7 +21,7 @@ Treating {@{iron(III) [salts](salt%20(chemistry).md) with a [base](base%20(chemi
 
 > {@{treating with [bases](base%20(chemistry).md)}@}
 >
-> - {@{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}@} <!--SR:!2026-05-11,811,330!2026-02-22,13,294-->
+> - {@{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}@} <!--SR:!2026-05-11,811,330!2026-04-18,55,314-->
 
 ## references
 

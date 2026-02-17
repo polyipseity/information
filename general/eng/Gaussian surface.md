@@ -45,7 +45,7 @@ As an example, consider {@{a charged spherical shell _S_ of negligible thickness
 
 With the same example, using {@{a larger Gaussian surface outside the shell where _r_ \> _R_}@}, Gauss's law will {@{produce a non-zero electric field}@}. This is determined as follows. <!--SR:!2027-09-21,716,330!2029-02-23,1139,350-->
 
-{@{The flux out of the spherical surface _S_}@} is: {@{$$\Phi _{E} = \oiint_{\partial S} \mathbf {E} \cdot d\mathbf {A} =\iint _{c}EdA\cos 0^{\circ }=E\iint _{S}dA$$}@} <!--SR:!2029-04-07,1171,350!2026-02-22,276,330-->
+{@{The flux out of the spherical surface _S_}@} is: {@{$$\Phi _{E} = \oiint_{\partial S} \mathbf {E} \cdot d\mathbf {A} =\iint _{c}EdA\cos 0^{\circ }=E\iint _{S}dA$$}@} <!--SR:!2029-04-07,1171,350!2029-08-08,1263,350-->
 
 {@{The [surface area of the sphere](surface%20area.md#common%20formulas) of radius _r_}@} is {@{$$\iint _{S}dA=4\pi r^{2}$$ which implies $$\Phi _{E}=E4\pi r^{2}$$}@} <!--SR:!2029-02-26,1141,350!2029-02-28,1143,350-->
 

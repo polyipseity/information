@@ -13,9 +13,9 @@ tags:
 
 In {@{mathematical [queueing theory](queueing%20theory.md)}@}, {@{__Little's law__ \(also __result__, __theorem__, __lemma__, or __formula__<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup>\)}@} is {@{a theorem by [John Little](John%20Little%20(academic).md)}@} which states that {@{the long-term average number _L_ of customers in a [stationary](stationary%20process.md) system}@} is equal to {@{the long-term average effective arrival rate _λ_ multiplied by the average time _W_ that a customer spends in the system}@}. Expressed algebraically the law is {@{$$L=\lambda W.$$}@} The relationship is not {@{influenced by the arrival process distribution, the service distribution, the service order, or practically anything else}@}. In {@{most queuing systems}@}, {@{service time}@} is {@{the [bottleneck](bottleneck%20(engineering).md) that creates the queue}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-08-24,1287,350!2029-07-16,1257,350!2026-03-13,293,330!2027-04-25,549,310!2029-03-19,1163,350!2027-11-30,776,330!2029-09-05,1298,350!2029-07-15,1256,350!2029-06-14,1228,350!2026-03-18,119,389-->
 
-The result applies to {@{any system, and particularly, it applies to systems within systems}@}.<sup>[\[4\]](#^ref-4)</sup> For example in {@{a bank branch}@}, {@{the customer line might be one subsystem}@}, and {@{each of the [tellers](bank%20teller.md) another subsystem}@}, and Little's result could be {@{applied to each one, as well as the whole thing}@}. {@{The only requirements}@} are that {@{the system be stable and [non-preemptive](preemption%20(computing).md)}@}<sup>\[_[vague](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)_\]</sup>; this rules out {@{transition states such as initial startup or shutdown}@}. <!--SR:!2029-08-19,1283,350!2029-07-10,1251,350!2029-06-24,1237,350!2028-11-13,1062,350!2029-07-03,1244,350!2028-12-12,1087,350!2026-02-22,290,330!2029-09-11,1301,350-->
+The result applies to {@{any system, and particularly, it applies to systems within systems}@}.<sup>[\[4\]](#^ref-4)</sup> For example in {@{a bank branch}@}, {@{the customer line might be one subsystem}@}, and {@{each of the [tellers](bank%20teller.md) another subsystem}@}, and Little's result could be {@{applied to each one, as well as the whole thing}@}. {@{The only requirements}@} are that {@{the system be stable and [non-preemptive](preemption%20(computing).md)}@}<sup>\[_[vague](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)_\]</sup>; this rules out {@{transition states such as initial startup or shutdown}@}. <!--SR:!2029-08-19,1283,350!2029-07-10,1251,350!2029-06-24,1237,350!2028-11-13,1062,350!2029-07-03,1244,350!2028-12-12,1087,350!2029-10-09,1325,350!2029-09-11,1301,350-->
 
-In some cases it is possible not only to {@{mathematically relate the _average_ number in the system to the _average_ wait}@} but even to {@{relate the entire _[probability distribution](probability%20distribution.md)_ \(and moments\) of the number in the system to the wait}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-22,290,330!2027-12-04,771,330-->
+In some cases it is possible not only to {@{mathematically relate the _average_ number in the system to the _average_ wait}@} but even to {@{relate the entire _[probability distribution](probability%20distribution.md)_ \(and moments\) of the number in the system to the wait}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-10-11,1327,350!2027-12-04,771,330-->
 
 ## history
 
@@ -39,7 +39,7 @@ Little's Law tells us that {@{the average number of customers in the store _L_}@
 
 Assume {@{customers arrive at the rate of 10 per hour and stay an average of 0.5 hour}@}. This means we should find {@{the average number of customers in the store at any time to be 5}@}. {@{$$L=10\times 0.5=5$$}@} <!--SR:!2027-07-17,674,330!2029-02-04,1120,350!2029-08-12,1279,350-->
 
-Now suppose {@{the store is considering doing more advertising to raise the arrival rate to 20 per hour}@}. The store must either {@{be prepared to host an average of 10 occupants}@} or {@{must reduce the time each customer spends in the store to 0.25 hour}@}. The store might {@{achieve the latter}@} by {@{ringing up the bill faster or by adding more counters}@}. <!--SR:!2026-02-22,290,330!2028-12-01,1078,350!2029-06-16,1230,350!2029-06-22,1235,350!2029-06-06,1220,350-->
+Now suppose {@{the store is considering doing more advertising to raise the arrival rate to 20 per hour}@}. The store must either {@{be prepared to host an average of 10 occupants}@} or {@{must reduce the time each customer spends in the store to 0.25 hour}@}. The store might {@{achieve the latter}@} by {@{ringing up the bill faster or by adding more counters}@}. <!--SR:!2029-10-09,1325,350!2028-12-01,1078,350!2029-06-16,1230,350!2029-06-22,1235,350!2029-06-06,1220,350-->
 
 We can {@{apply Little's Law to systems within the store}@}. For example, consider {@{the counter and its queue}@}. Assume we notice that there are {@{on average 2 customers in the queue and at the counter}@}. We know {@{the arrival rate is 10 per hour}@}, so {@{customers must be spending 0.2 hours on average checking out}@}. {@{$$W={\frac {L}{\lambda } }={\frac {2}{10} }=0.2$$}@} <!--SR:!2029-01-16,1101,350!2029-09-08,1300,350!2029-08-05,1273,350!2029-06-17,1231,350!2029-01-17,1102,350!2026-03-14,294,330-->
 
@@ -49,7 +49,7 @@ However, because {@{a store in reality generally has a limited amount of space}@
 
 ## estimating parameters
 
-To {@{use Little's law on data}@}, formulas must be used to {@{estimate the parameters}@}, as {@{the result does not necessarily directly apply over finite time intervals}@}, due to problems like {@{how to log customers already present at the start of the logging interval}@} and {@{those who have not yet departed when logging stops}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-03-14,294,330!2029-10-05,1322,350!2026-02-22,290,330!2029-07-21,1261,350!2029-03-13,1157,350-->
+To {@{use Little's law on data}@}, formulas must be used to {@{estimate the parameters}@}, as {@{the result does not necessarily directly apply over finite time intervals}@}, due to problems like {@{how to log customers already present at the start of the logging interval}@} and {@{those who have not yet departed when logging stops}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-03-14,294,330!2029-10-05,1322,350!2029-10-08,1324,350!2029-07-21,1261,350!2029-03-13,1157,350-->
 
 ## applications
 
@@ -57,7 +57,7 @@ Little's law is {@{widely used in manufacturing}@} to {@{predict lead time based
 
 {@{Software-performance testers}@} have used Little's law to {@{ensure that the observed performance results are not due to bottlenecks imposed by the testing apparatus}@}. <sup>[\[16\]](#^ref-16)</sup><sup>[\[17\]](#^ref-17)</sup> <!--SR:!2029-03-03,1147,350!2029-07-05,1247,350-->
 
-Other applications include {@{staffing emergency departments in hospitals}@}.<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2026-02-22,290,330-->
+Other applications include {@{staffing emergency departments in hospitals}@}.<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-10-10,1326,350-->
 
 ## distributional form
 

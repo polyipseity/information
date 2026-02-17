@@ -647,7 +647,7 @@ The content is in teaching order.
 - [residual sum of squares](../../../../general/residual%20sum%20of%20squares.md) (RSS (avoid using in this course), SSE (use in this course)) ::@:: It the sum of the _squares_ of _residuals_ (deviations predicted from actual empirical values of data). <p> This can be used to quantify the _goodness of the simple linear regression models_. Suppose we have two simple linear regression models, one using the explanatory variable _x_, the other using the explanatory variable _w_. The model with less RSS is better. <p> Note: RSS is also a short form for _regression sum of squares_. So use _SSE_ instead. <!--SR:!2027-05-23,721,417!2027-04-28,693,417-->
 - [simple linear regression](../../../../general/simple%20linear%20regression.md)
   - simple linear regression / interpretation ::@:: $\beta_1$ can be interpreted as the average increase of $y$ per $x$. Also, the regression line passes through the _center of mass_ point $(\overline x, \overline y)$. <!--SR:!2027-04-04,672,417!2026-08-24,496,397-->
-  - simple linear regression / _R_ ::@:: `lm(<y>~<x>)`, `abline(a=<b0>, b=<b1>)`, `abline(lm(<y>~<x>))` <!--SR:!2026-02-22,324,377!2026-09-12,508,397-->
+  - simple linear regression / _R_ ::@:: `lm(<y>~<x>)`, `abline(a=<b0>, b=<b1>)`, `abline(lm(<y>~<x>))` <!--SR:!2029-06-20,1214,377!2026-09-12,508,397-->
 
 ## week 12 lecture 2
 
