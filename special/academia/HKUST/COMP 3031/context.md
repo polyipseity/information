@@ -203,7 +203,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >   println(sort(xs))
 > ```
 >
-> Intuitively, this may be interpreted as {@{`T` "satisfying" the trait `Ordering`}@}, i.e. having {@{a defined ordering}@}. <!--SR:!2027-03-05,381,368!2026-02-23,85,349!2027-03-13,387,367!2027-02-27,376,367!2027-01-26,347,349!2027-01-31,352,349-->
+> Intuitively, this may be interpreted as {@{`T` "satisfying" the trait `Ordering`}@}, i.e. having {@{a defined ordering}@}. <!--SR:!2027-03-05,381,368!2027-04-05,406,369!2027-03-13,387,367!2027-02-27,376,367!2027-01-26,347,349!2027-01-31,352,349-->
 
 Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2027-03-05,381,368!2027-03-30,401,368-->
 
@@ -432,7 +432,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >     if xn < yn then -1 else if xn > yn then 1 else 0
 > ```
 >
-> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2027-04-04,406,370!2027-04-06,408,370!2026-02-23,85,350!2027-04-02,405,370!2027-03-09,384,368!2027-03-25,397,368!2027-02-08,362,368!2027-02-06,361,368-->
+> Now {@{`Rational` values}@} can be {@{sorted or compared using the same generic machinery \(e.g. `sort`\)}@}. Note {@{the definition of `Rational`}@} does not {@{need to be modified}@}. <!--SR:!2027-04-04,406,370!2027-04-06,408,370!2027-04-04,405,370!2027-04-02,405,370!2027-03-09,384,368!2027-03-25,397,368!2027-02-08,362,368!2027-02-06,361,368-->
 
 ### extension methods
 
@@ -470,7 +470,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 >   }
 > ```
 >
-> No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}. <!--SR:!2027-04-03,406,370!2027-04-05,407,370!2026-02-23,85,350!2026-02-23,85,350!2027-02-24,373,368!2027-03-08,383,368-->
+> No {@{explicit import of the instance `Ordering[T]`}@} is {@{required}@}; {@{the extension method `<`}@} is resolved {@{via the implicit `Ordering[T]`}@}. <!--SR:!2027-04-03,406,370!2027-04-05,407,370!2027-04-06,407,370!2027-04-11,412,370!2027-02-24,373,368!2027-03-08,383,368-->
 
 ### type class in other languages
 
@@ -485,9 +485,9 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 >     compare :: a -> a -> Int
 > ```
 >
-> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2026-02-23,85,350!2027-03-12,388,370!2027-03-27,399,370!2027-03-25,397,370!2027-03-21,394,370!2027-03-11,387,370-->
+> {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. <!--SR:!2027-04-07,408,370!2027-03-12,388,370!2027-03-27,399,370!2027-03-25,397,370!2027-03-21,394,370!2027-03-11,387,370-->
 
-{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2027-04-02,404,371!2027-03-22,395,371!2026-02-23,85,351!2026-02-23,85,351!2026-02-23,85,351!2027-03-23,396,371-->
+{@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2027-04-02,404,371!2027-03-22,395,371!2027-04-12,413,371!2026-12-21,301,351!2027-04-10,411,371!2027-03-23,396,371-->
 
 {@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!2026-11-29,299,349!2026-07-08,175,310!2027-01-29,350,349!2026-11-18,292,349!2027-01-22,343,349-->
 

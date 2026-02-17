@@ -23,7 +23,7 @@ tags:
 
 > ![a labeled Eulerian graph](../../archives/Wikimedia%20Commons/Labelled%20Eulergraph.svg)
 >
-> {@{Every vertex of this graph}@} has {@{an even degree}@}. Therefore, {@{this is an Eulerian graph}@}. {@{Following the edges in alphabetical order}@} gives {@{an Eulerian circuit/cycle}@}. <!--SR:!2026-02-26,364,362!2026-02-23,361,362!2029-10-08,1393,356!2026-03-05,369,362!2026-03-21,382,362-->
+> {@{Every vertex of this graph}@} has {@{an even degree}@}. Therefore, {@{this is an Eulerian graph}@}. {@{Following the edges in alphabetical order}@} gives {@{an Eulerian circuit/cycle}@}. <!--SR:!2026-02-26,364,362!2031-01-21,1793,382!2029-10-08,1393,356!2026-03-05,369,362!2026-03-21,382,362-->
 
 In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian path__\)}@} is {@{a [trail](path%20(graph%20theory).md#walk,%20trail,%20and%20path) in a finite [graph](graph%20(discrete%20mathematics).md) that visits every [edge](glossary%20of%20graph%20theory.md#edge) exactly once \(allowing for revisiting vertices\)}@}. Similarly, {@{an __Eulerian circuit__ or __Eulerian cycle__}@} is {@{an Eulerian trail that starts and ends on the same [vertex](vertex%20(graph%20theory).md)}@}. They were first {@{discussed by [Leonhard Euler](Leonhard%20Euler.md)}@} while {@{solving the famous [Seven Bridges of Königsberg](Seven%20Bridges%20of%20Königsberg.md) problem in 1736}@}. The problem can be stated mathematically like this: <!--SR:!2030-12-14,1764,382!2028-09-19,1068,350!2028-12-28,1172,362!2026-03-22,383,362!2029-01-02,1153,350!2027-02-03,601,330-->
 

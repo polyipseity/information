@@ -174,7 +174,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
 - [Abstract algebra](abstract%20algebra.md)
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{Every [vector space](vector%20space.md)}@} has {@{a [basis](basis%20(linear%20algebra).md)}@} \(_i.e._, {@{a linearly independent spanning subset}@}\). In other words, vector spaces are {@{equivalent to free modules \(annotation: a module that has a _basis_\)}@}.<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2026-12-06,364,364!2026-11-03,333,347!2026-08-20,272,330!2026-02-23,122,307!2026-06-29,149,415-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every [vector space](vector%20space.md)}@} has {@{a [basis](basis%20(linear%20algebra).md)}@} \(_i.e._, {@{a linearly independent spanning subset}@}\). In other words, vector spaces are {@{equivalent to free modules \(annotation: a module that has a _basis_\)}@}.<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2026-12-06,364,364!2026-11-03,333,347!2026-08-20,272,330!2027-08-03,526,327!2026-06-29,149,415-->
 
   - \(annotation: {@{equivalent to}@} AC\) {@{[Krull's theorem](Krull's%20theorem.md)}@}: {@{Every unital [ring](ring%20(mathematics).md) \(other than the trivial ring\)}@} {@{contains a [maximal ideal](maximal%20ideal.md)}@}. Equivalently, in {@{any nontrivial unital ring}@}, {@{every ideal can be extended to a maximal ideal}@}. <!--SR:!2026-12-03,362,364!2026-11-26,356,364!2026-12-01,360,364!2026-04-11,168,327!2026-10-19,323,347!2026-06-29,149,415-->
 

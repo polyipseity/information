@@ -89,7 +89,7 @@ In {@{a normed space $(H,\|\cdot \|)$}@}, if {@{the [parallelogram law](parallel
 
 ## applications and consequences
 
-If {@{$H$ is a complex Hilbert space}@} then {@{$\langle x\mid y\rangle$ is real if and only if its imaginary part is ⁠$0=R(x,iy)={\frac {1}{4} }\left(\Vert x+iy\Vert ^{2}-\Vert x-iy\Vert ^{2}\right)$⁠}@}, which happens {@{if and only if ⁠$\Vert x+iy\Vert =\Vert x-iy\Vert$⁠}@}. Similarly, {@{$\langle x\mid y\rangle$ is \(purely\) imaginary}@} {@{if and only if ⁠$\Vert x+y\Vert =\Vert x-y\Vert$}@}⁠. For example, from {@{$\|x+ix\|=|1+i|\|x\|={\sqrt {2} }\|x\|=|1-i|\|x\|=\|x-ix\|$}@} it can be {@{concluded that $\langle x|x\rangle$ is real and that $\langle x|ix\rangle$ is purely imaginary}@}. <!--SR:!2026-02-25,281,330!2026-02-23,279,330!2029-01-14,1098,350!2027-10-28,737,330!2026-03-03,287,330!2029-02-10,1125,350!2029-02-01,1116,350-->
+If {@{$H$ is a complex Hilbert space}@} then {@{$\langle x\mid y\rangle$ is real if and only if its imaginary part is ⁠$0=R(x,iy)={\frac {1}{4} }\left(\Vert x+iy\Vert ^{2}-\Vert x-iy\Vert ^{2}\right)$⁠}@}, which happens {@{if and only if ⁠$\Vert x+iy\Vert =\Vert x-iy\Vert$⁠}@}. Similarly, {@{$\langle x\mid y\rangle$ is \(purely\) imaginary}@} {@{if and only if ⁠$\Vert x+y\Vert =\Vert x-y\Vert$}@}⁠. For example, from {@{$\|x+ix\|=|1+i|\|x\|={\sqrt {2} }\|x\|=|1-i|\|x\|=\|x-ix\|$}@} it can be {@{concluded that $\langle x|x\rangle$ is real and that $\langle x|ix\rangle$ is purely imaginary}@}. <!--SR:!2026-02-25,281,330!2029-08-15,1269,350!2029-01-14,1098,350!2027-10-28,737,330!2026-03-03,287,330!2029-02-10,1125,350!2029-02-01,1116,350-->
 
 ### isometries
 

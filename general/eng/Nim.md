@@ -164,7 +164,7 @@ Bouton's analysis {@{carries over easily to the general multiple-heap version of
 - 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2027-12-02,734,310!2029-12-13,1482,361-->
 - 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2028-09-28,1101,341!2029-07-21,1285,321-->
 
-This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_)}@}, {@{$$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} from which {@{the strategy above follows}@} by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2028-07-01,900,301!2029-09-13,1409,361!2026-02-23,27,394!2026-07-14,142,414-->
+This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_)}@}, {@{$$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} from which {@{the strategy above follows}@} by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2028-07-01,900,301!2029-09-13,1409,361!2026-07-18,145,414!2026-07-14,142,414-->
 
 ### the 21 game
 

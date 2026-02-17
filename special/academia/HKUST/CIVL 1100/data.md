@@ -102,7 +102,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 See [Colosseum](../../../../general/Colosseum.md).
 
-- base widths ::@:: length: 189 m, width: 156 m <!--SR:!2026-02-23,455,336!2029-11-16,1503,396-->
+- base widths ::@:: length: 189 m, width: 156 m <!--SR:!2030-04-26,1523,336!2029-11-16,1503,396-->
 - construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2026-04-17,384,236!2026-10-08,666,396-->
 - description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2029-03-11,1379,396!2031-11-15,2165,396-->
 - geographic location ::@:: Rome <!--SR:!2033-05-11,2640,416!2026-11-08,740,416-->

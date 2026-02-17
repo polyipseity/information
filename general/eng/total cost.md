@@ -20,7 +20,7 @@ tags:
 >
 > The total cost curve, if {@{non-linear, can represent increasing and [diminishing marginal returns](diminishing%20marginal%20returns.md)}@}. <!--SR:!2026-03-04,327,341!2030-02-16,1464,361-->
 
-In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2026-03-01,325,341!2026-03-08,331,341!2030-03-24,1493,361!2026-03-11,333,341!2026-09-28,474,321!2029-09-28,1345,350!2028-06-12,962,341!2026-02-23,320,341-->
+In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2026-03-01,325,341!2026-03-08,331,341!2030-03-24,1493,361!2026-03-11,333,341!2026-09-28,474,321!2029-09-28,1345,350!2028-06-12,962,341!2030-04-05,1502,361-->
 
 {@{Total cost in economics}@} includes {@{the total [opportunity cost](opportunity%20cost.md) \(benefits received from the next-best alternative\) of each [factor of production](factors%20of%20production.md) as part of its fixed or variable costs}@}. <!--SR:!2030-03-12,1483,361!2026-05-26,361,301-->
 
@@ -48,7 +48,7 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 - Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2026-10-19,491,321!2029-09-25,1342,350-->
 - Total Revenue ::@:: = Price X Quantity of goods <!--SR:!2030-03-06,1479,361!2030-03-30,1497,361-->
 - Average Revenue ::@:: = TR / Quantity of goods <!--SR:!2030-02-26,1472,361!2026-03-13,335,341-->
-- Total Product ::@:: = AP X Variable Factor <!--SR:!2027-09-05,747,341!2026-02-23,319,341-->
+- Total Product ::@:: = AP X Variable Factor <!--SR:!2027-09-05,747,341!2030-04-01,1498,361-->
 - Profit ::@:: = TR – TC or \(P-ATC\)\*Q <!--SR:!2026-03-10,332,341!2026-02-28,324,341-->
 - Loss ::@:: = TC – TR \(if positive\) <!--SR:!2030-02-06,1456,361!2029-09-26,1343,350-->
 - Break Even Point: ::@:: value of Quantity of goods where Average Revenue = Average Total Cost <!--SR:!2030-02-25,1471,361!2028-06-29,976,341-->

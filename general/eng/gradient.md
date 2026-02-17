@@ -192,7 +192,7 @@ In {@{rectangular coordinates \(annotation: i.e. the output space uses Cartesian
 
 In {@{curvilinear coordinates, or more generally on a curved [manifold](Riemannian%20manifold.md)}@}, {@{the gradient involves [Christoffel symbols](Christoffel%20symbols.md)}@}: {@{$$\nabla \mathbf {f} =g^{jk}\left({\frac {\partial f^{i} }{\partial x^{j} } }+{\Gamma ^{i} }_{jl}f^{l}\right)\mathbf {e} _{i}\otimes \mathbf {e} _{k},$$}@} where {@{_g_<sup>_jk_</sup> are the components of the inverse [metric tensor](metric%20tensor.md) and the __e__<sub>_i_</sub> are the coordinate basis vectors}@}. <!--SR:!2026-06-22,273,330!2027-05-29,485,309!2026-03-13,61,230!2026-06-15,252,329-->
 
-Expressed {@{more invariantly}@}, {@{the gradient of a vector field __f__}@} can be {@{defined by the [Levi-Civita connection](Levi-Civita%20connection.md) and metric tensor}@}:<sup>[\[11\]](#^ref-11)</sup> {@{$$\nabla ^{a}f^{b}=g^{ac}\nabla _{c}f^{b},$$}@} where {@{∇<sub>_c_</sub> is the connection}@}. <!--SR:!2026-02-23,174,310!2026-07-05,284,330!2026-05-30,255,330!2026-02-24,146,270!2026-05-28,255,330-->
+Expressed {@{more invariantly}@}, {@{the gradient of a vector field __f__}@} can be {@{defined by the [Levi-Civita connection](Levi-Civita%20connection.md) and metric tensor}@}:<sup>[\[11\]](#^ref-11)</sup> {@{$$\nabla ^{a}f^{b}=g^{ac}\nabla _{c}f^{b},$$}@} where {@{∇<sub>_c_</sub> is the connection}@}. <!--SR:!2027-08-22,545,310!2026-07-05,284,330!2026-05-30,255,330!2026-02-24,146,270!2026-05-28,255,330-->
 
 ### Riemannian manifolds
 

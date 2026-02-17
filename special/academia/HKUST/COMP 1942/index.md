@@ -131,7 +131,7 @@ The content is in teaching order.
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
 - [FP-growth algorithm § overview](../../../../general/FP-growth%20algorithm.md#overview)
 - Jaccard's coefficient for binary data ::@:: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2031-04-21,1991,397!2026-03-02,501,397-->
-- matching coefficient for binary data ::@:: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2026-02-23,494,397!2026-03-09,508,397-->
+- matching coefficient for binary data ::@:: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2033-06-29,2683,417!2026-03-09,508,397-->
 
 ## week 6 lecture 2
 
@@ -384,7 +384,7 @@ The content is in teaching order.
     - § computing PCA using the covariance method > data transformation ::@:: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2026-10-23,611,337!2026-08-13,557,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
-  - data warehouse > application ::@:: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2026-02-23,494,388!2026-10-06,640,388-->
+  - data warehouse > application ::@:: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2033-04-28,2621,408!2026-10-06,640,388-->
   - data warehouse > advantage ::@:: data warehouses can speed up queries on a database <!--SR:!2026-03-28,462,337!2030-03-20,1688,397-->
 
 ## week 13 lecture 1
@@ -415,7 +415,7 @@ The content is in teaching order.
 - web database ranking considerations ::@:: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2030-03-15,1686,397!2026-03-28,526,397-->
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
-    - HITS algorithm variant ::@:: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2031-04-20,1990,397!2026-02-23,494,397-->
+    - HITS algorithm variant ::@:: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2031-04-20,1990,397!2033-06-24,2678,417-->
     - HITS algorithm termination ::@:: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2031-12-29,2206,408!2026-12-21,743,408-->
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
@@ -474,14 +474,14 @@ The content is in teaching order.
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
-- common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2028-11-15,1263,377!2026-02-23,494,397-->
+- common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2028-11-15,1263,377!2033-07-01,2685,417-->
 - other topics
   - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!2026-07-24,543,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2029-08-11,1512,397-->
   - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2030-07-20,1791,397!2028-11-07,1255,377-->
   - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2033-01-28,2559,417!2031-04-01,1992,397-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2033-02-08,2570,417!2033-01-21,2552,417-->
-  - social networks ::@:: How are people connected? <!--SR:!2026-03-10,509,397!2026-02-23,494,397-->
+  - social networks ::@:: How are people connected? <!--SR:!2026-03-10,509,397!2033-06-23,2677,417-->
   - privacy issues ::@:: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2032-11-01,2482,417!2030-06-09,1734,397-->
   - graph data ::@:: How to analyze graphs? <!--SR:!2033-03-04,2591,417!2033-05-03,2640,417-->
   - decision making

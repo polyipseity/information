@@ -79,7 +79,7 @@ tags:
 >   - AX<sub>4</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90° <!--SR:!2026-03-28,52,321-->
 >   - AX<sub>4</sub>E<sub>2</sub> / example(s) ::@:: [XeF<sub>4</sub>](xenon%20tetrafluoride.md) <!--SR:!2026-03-28,52,321!2026-03-22,47,305-->
 > - AX<sub>5</sub>E<sub>0</sub>
->   - AX<sub>5</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png) <!--SR:!2026-02-23,21,281!2026-04-24,75,325-->
+>   - AX<sub>5</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png) <!--SR:!2026-04-25,61,281!2026-04-24,75,325-->
 >   - AX<sub>5</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90°, 120° <!--SR:!2026-04-19,71,325-->
 >   - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!2026-04-12,65,325!2026-03-22,47,305-->
 > - AX<sub>5</sub>E<sub>1</sub>
@@ -97,7 +97,7 @@ tags:
 > - AX<sub>6</sub>E<sub>1</sub>
 >   - AX<sub>6</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../../archives/Wikimedia%20Commons/AX6E1-3D-balls.png) <!--SR:!2026-04-24,75,325!2026-03-30,50,305-->
 >   - AX<sub>6</sub>E<sub>1</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2026-04-19,71,325-->
->   - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-02-23,21,281!2026-03-24,33,265-->
+>   - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-04-25,61,281!2026-03-24,33,265-->
 > - AX<sub>7</sub>E<sub>0</sub>
 >   - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!2026-03-21,46,305!2026-04-18,55,265-->
 >   - AX<sub>7</sub>E<sub>0</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2026-03-21,46,305-->

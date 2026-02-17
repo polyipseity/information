@@ -23,7 +23,7 @@ The [time](time.md) value of money is among {@{the factors considered when weigh
 
 ## history
 
-{@{The [Talmud](Talmud.md) \(~500 CE\)}@} {@{recognizes the time value of money}@}. In {@{Tractate [Makkos](Makkot.md) page 3a}@} the Talmud discusses {@{a case where witnesses falsely claimed that the term of a loan was 30 days when it was actually 10 years}@}. The false witnesses must {@{pay the difference of the value of the loan}@} "{@{in a situation where he would be required to give the money back \(within\) thirty days..., and that same sum in a situation where he would be required to give the money back \(within\) 10 years...}@} The difference is {@{the sum that the testimony of the \(false\) witnesses sought to have the borrower lose}@}; therefore, {@{it is the sum that they must pay}@}."<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-03-06,294,330!2029-01-26,1111,350!2029-01-31,1116,350!2026-07-09,379,310!2026-03-02,290,330!2028-08-31,923,330!2026-02-23,283,330!2029-01-01,1086,350-->
+{@{The [Talmud](Talmud.md) \(~500 CE\)}@} {@{recognizes the time value of money}@}. In {@{Tractate [Makkos](Makkot.md) page 3a}@} the Talmud discusses {@{a case where witnesses falsely claimed that the term of a loan was 30 days when it was actually 10 years}@}. The false witnesses must {@{pay the difference of the value of the loan}@} "{@{in a situation where he would be required to give the money back \(within\) thirty days..., and that same sum in a situation where he would be required to give the money back \(within\) 10 years...}@} The difference is {@{the sum that the testimony of the \(false\) witnesses sought to have the borrower lose}@}; therefore, {@{it is the sum that they must pay}@}."<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-03-06,294,330!2029-01-26,1111,350!2029-01-31,1116,350!2026-07-09,379,310!2026-03-02,290,330!2028-08-31,923,330!2029-09-10,1295,350!2029-01-01,1086,350-->
 
 The notion was later described by {@{[Martín de Azpilcueta](Martín%20de%20Azpilcueta.md) \(1491–1586\) of the [School of Salamanca](School%20of%20Salamanca.md)}@}. <!--SR:!2027-01-06,513,310-->
 
@@ -46,7 +46,7 @@ Some standard calculations based on the time value of money are:
 
 There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions}@} \(such as {@{PV, FV, RATE, NPER, and PMT}@}\).<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-06-10,1218,350!2029-08-04,1264,350!2027-01-31,498,310!2027-06-14,512,403-->
 
-For {@{any of the equations below}@}, the formula may {@{also be rearranged to determine one of the other unknowns}@}. In {@{the case of the standard annuity formula}@}, there is {@{no closed-form algebraic solution for the interest rate}@} \(although financial calculators and spreadsheet programs can {@{readily determine solutions through rapid trial and error algorithms}@}\). <!--SR:!2029-06-04,1218,350!2026-02-23,283,330!2026-02-26,286,330!2027-11-02,753,330!2027-10-25,736,330-->
+For {@{any of the equations below}@}, the formula may {@{also be rearranged to determine one of the other unknowns}@}. In {@{the case of the standard annuity formula}@}, there is {@{no closed-form algebraic solution for the interest rate}@} \(although financial calculators and spreadsheet programs can {@{readily determine solutions through rapid trial and error algorithms}@}\). <!--SR:!2029-06-04,1218,350!2029-09-09,1294,350!2026-02-26,286,330!2027-11-02,753,330!2027-10-25,736,330-->
 
 These equations are {@{frequently combined for particular uses}@}. For example, {@{[bonds](bond%20(finance).md) can be readily priced}@} using these equations. A typical coupon bond is {@{composed of two types of payments}@}: {@{a stream of coupon payments similar to an annuity, and a lump-sum [return of capital](return%20of%20capital.md) at the end of the bond's [maturity](maturity%20(finance).md)—that is, a future payment}@}. {@{The two formulas can be combined}@} to {@{determine the present value of the bond}@}. <!--SR:!2026-03-05,293,330!2029-05-27,1210,350!2026-03-04,292,330!2029-05-28,1211,350!2026-03-03,291,330!2029-08-27,1283,350-->
 
@@ -107,7 +107,7 @@ This is {@{the well known [Gordon growth model](Gordon%20model.md) used for [sto
 
 ### future value of an annuity
 
-{@{The future value \(after _n_ periods\) of an annuity \(FVA\)}@} formula has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$FV(A)\,=\,A\cdot {\frac {\left(1+i\right)^{n}-1}{i} }$$}@} <!--SR:!2026-02-23,283,330!2026-02-28,288,330!2026-03-03,291,330!2029-01-04,1089,350-->
+{@{The future value \(after _n_ periods\) of an annuity \(FVA\)}@} formula has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$FV(A)\,=\,A\cdot {\frac {\left(1+i\right)^{n}-1}{i} }$$}@} <!--SR:!2029-09-03,1288,350!2026-02-28,288,330!2026-03-03,291,330!2029-01-04,1089,350-->
 
 To {@{get the FV of an annuity due}@}, {@{multiply the above equation by \(1 + _i_\)}@}. <!--SR:!2029-02-04,1120,350!2029-08-14,1272,350-->
 

@@ -41,7 +41,7 @@ There is {@{a contravariant version of Yoneda's lemma}@},<sup>[\[2\]](#^ref-2)</
 
 The use of {@{$h_{A}$ for the covariant hom-functor and $h^{A}$ for the contravariant hom-functor}@} is {@{not completely standard}@}. Many texts and articles {@{either use the opposite convention or completely unrelated symbols for these two functors}@}. However, {@{most modern algebraic geometry texts starting with [Alexander Grothendieck](Alexander%20Grothendieck.md)'s foundational [EGA](éléments%20de%20géométrie%20algébrique.md)}@} use {@{the convention in this article}@}.<sup>[\[b\]](#^ref-b)</sup> <!--SR:!2026-03-12,337,349!2026-03-12,336,349!2028-04-16,901,330!2026-08-27,418,309!2029-10-02,1343,350-->
 
-{@{The mnemonic "falling into something"}@} can be {@{helpful in remembering that $h_{A}$ is the covariant hom-functor}@}. When {@{the letter $A$ is __falling__ \(i.e. a subscript\)}@}, {@{$h_{A}$ assigns to an object $X$ the morphisms from $A$ __into__ $X$}@}. <!--SR:!2028-03-11,871,330!2026-02-23,322,349!2026-05-06,383,359!2029-10-03,1344,350-->
+{@{The mnemonic "falling into something"}@} can be {@{helpful in remembering that $h_{A}$ is the covariant hom-functor}@}. When {@{the letter $A$ is __falling__ \(i.e. a subscript\)}@}, {@{$h_{A}$ assigns to an object $X$ the morphisms from $A$ __into__ $X$}@}. <!--SR:!2028-03-11,871,330!2029-03-24,1125,349!2026-05-06,383,359!2029-10-03,1344,350-->
 
 ### proof
 

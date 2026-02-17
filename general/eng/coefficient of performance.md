@@ -21,7 +21,7 @@ tags:
 > where
 >
 > - {@{$Q$}@} is {@{the useful [heat](heat.md) absorbed (positive) or dissipated (negative) by the system}@}
-> - {@{$W > 0$}@} is {@{the net [work](work%20(physics).md) put into the system}@} \(as opposed to {@{the conventional "done by the system"}@}\) <!--SR:!2026-04-04,634,330!2027-09-05,1052,350!2027-01-29,345,357!2027-01-01,323,357!2026-02-23,77,337!2027-01-05,326,357-->
+> - {@{$W > 0$}@} is {@{the net [work](work%20(physics).md) put into the system}@} \(as opposed to {@{the conventional "done by the system"}@}\) <!--SR:!2026-04-04,634,330!2027-09-05,1052,350!2027-01-29,345,357!2027-01-01,323,357!2027-02-21,363,357!2027-01-05,326,357-->
 
 <!-- markdownlint MD028 -->
 
