@@ -5,7 +5,7 @@
 **/node_modules
 # }
 
-# custom {
+# self {
 **/*.csv
 **/*.xml
 **/package-lock.json
