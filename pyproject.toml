@@ -60,7 +60,7 @@ exclude = [
   "self/passwords",
   "tools/pyarchivist",
   "tools/pytextgen",
-  # custom
+  # self
   "private/special/academia/HKUST/**/*assignment*/**/*.ipynb",
   "private/special/academia/HKUST/**/*assignment*/**/*.py",
   "private/special/academia/HKUST/**/*exercise*/**/*.ipynb",
@@ -109,7 +109,7 @@ python_files = "test_*.py"
 [tool.ruff]
 line-length = 88
 extend-exclude = [
-  # custom
+  # self
   "special/academia/HKUST/**/*assignment*/**/*.ipynb",
   "special/academia/HKUST/**/*assignment*/**/*.py",
   "special/academia/HKUST/**/*exercise*/**/*.ipynb",
