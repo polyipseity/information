@@ -66,8 +66,19 @@ agent: agent
    - If no flashcard-related counts apply, omit these trailers.
 
 3. **Compose commit message**
-   - Use Conventional Commit style for the commit header (e.g., `feat(notes): improve 13 notes`).
-   - The header should summarize the number of notes added/edited (use the counts from the count command in step 1).
+   - The commit header MUST begin with `feat(notes):` and SHOULD include
+     counts in a concise, natural format that shows only nonzero values.
+     Use `add <N> note(s)` when the added count is nonzero and
+     `edit <M> note(s)` when the edited count is nonzero. When both
+     counts are present, separate them with a semicolon and a space
+     in that order.
+     Examples:
+     - `feat(notes): add 3 note(s); edit 2 note(s)`
+     - `feat(notes): add 3 note(s)`
+     - `feat(notes): edit 2 note(s)`
+     - `feat(notes): add 1 note(s); edit 2 note(s)`
+   - If both counts are zero, omit counts from the header and use a
+     short descriptive header (for example `feat(notes): tidy headings`).
    - The body should briefly describe the changes. **Each line in the commit header, body, and all flashcard trailers must be wrapped to 72 characters or fewer. This is strictly enforced by commitlint. If the commit is rejected due to line length or formatting, rewrap and retry until the commit passes.**
    - Add the three flashcard trailers as plain ASCII key/value pairs, one per line, before any optional footers. **Wrap each trailer line to 72 characters or fewer.**
    - Do not show the proposed commit message to the user for confirmation before creating the commit. Proceed automatically to creating the commit using best-effort defaults and available context.
