@@ -303,7 +303,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 > } yield z
 > == for { x <- m; y <- f(x); z <- g(y) } yield z
 > ```
-<!--SR:!2026-10-29,285,330!2026-09-28,257,330!2026-02-24,83,370-->
+<!--SR:!2026-10-29,285,330!2026-09-28,257,330!2027-04-15,415,390-->
 
 {@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!2026-10-09,268,330!2026-10-24,280,330!2026-11-05,291,330!2026-10-29,285,330!2026-09-27,256,330!2026-10-26,282,330!2026-11-01,288,330!2026-09-20,249,330-->
 

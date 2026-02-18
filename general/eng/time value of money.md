@@ -29,7 +29,7 @@ The notion was later described by {@{[Martín de Azpilcueta](Martín%20de%20Azpi
 
 ## calculations
 
-{@{Time value of money problems}@} involve {@{the net value of cash flows at different points in time}@}. <!--SR:!2026-02-24,284,330!2028-10-29,1048,350-->
+{@{Time value of money problems}@} involve {@{the net value of cash flows at different points in time}@}. <!--SR:!2029-09-13,1297,350!2028-10-29,1048,350-->
 
 In {@{a typical case}@}, the variables might be: {@{a balance \(the real or nominal value of a debt or a financial asset in terms of monetary units\), a periodic rate of interest, the number of periods, and a series of cash flows}@}. \(In {@{the case of a debt}@}, cash flows are {@{payments against principal and interest}@}; in {@{the case of a financial asset}@}, these are {@{contributions to or withdrawals from the balance}@}.\) More generally, {@{the cash flows may not be periodic but may be specified individually}@}. Any of these variables may be {@{the independent variable \(the sought-for answer\) in a given problem}@}. For example, one may know that: the interest is 0.5% per period \(per month, say\); the number of periods is 60 \(months\); the initial balance \(of the debt, in this case\) is 25,000 units; and the final balance is 0 units. {@{The unknown variable}@} may be {@{the monthly payment that the borrower must pay}@}. <!--SR:!2028-11-14,1060,350!2029-02-11,1127,350!2028-11-10,1057,350!2029-02-08,1124,350!2029-07-27,1258,350!2029-01-11,1096,350!2027-10-17,730,330!2026-03-02,290,330!2029-08-12,1271,350!2029-02-18,1134,350-->
 
@@ -85,7 +85,7 @@ In this case {@{the cash flow values remain the same throughout the _n_ periods}
 
 ### present value of a growing annuity
 
-In this case, {@{each cash flow grows by a factor of \(1 + _g_\)}@}. Similar to {@{the formula for an annuity}@}, {@{the present value of a growing annuity \(PVGA\)}@} uses {@{the same variables with the addition of _g_ as the rate of growth of the annuity \(A is the annuity payment in the first period\)}@}. This is {@{a calculation that is rarely provided for on financial calculators}@}. <!--SR:!2026-02-24,284,330!2029-05-12,1202,350!2028-10-17,1038,350!2029-02-07,1123,350!2026-02-26,286,330-->
+In this case, {@{each cash flow grows by a factor of \(1 + _g_\)}@}. Similar to {@{the formula for an annuity}@}, {@{the present value of a growing annuity \(PVGA\)}@} uses {@{the same variables with the addition of _g_ as the rate of growth of the annuity \(A is the annuity payment in the first period\)}@}. This is {@{a calculation that is rarely provided for on financial calculators}@}. <!--SR:!2029-09-14,1298,350!2029-05-12,1202,350!2028-10-17,1038,350!2029-02-07,1123,350!2026-02-26,286,330-->
 
 __Where _i_ ≠ _g_ :__ ::@:: $$PV(A)\,=\,{A \over (i-g)}\left[1-\left({1+g \over 1+i}\right)^{n}\right]$$ <!--SR:!2029-05-02,1194,350!2027-05-31,599,290-->
 

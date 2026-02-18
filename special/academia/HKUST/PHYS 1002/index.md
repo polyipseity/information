@@ -732,7 +732,7 @@ The content is in teaching order. Extra information and corrections are included
   - Messier 1 ::@:: [Crab Nebula](../../../../general/Crab%20Nebula.md), constellation Taurus <!--SR:!2031-03-09,1922,405!2026-09-08,590,404-->
   - Messier 42 :@: [(Great) Orion Nebula](../../../../general/Orion%20Nebula.md), constellation Orion; emission nebula <!--SR:!2030-03-16,1585,365-->
   - [IC 2118](../../../../general/IC%202118.md) ::@:: Witch Head Nebula, constellation Orion <!--SR:!2029-07-22,1377,344!2029-04-18,1308,345-->
-  - Barnard 33 ::@:: [Horsehead Nebula](../../../../general/Horsehead%20Nebula.md), constellation Orion <!--SR:!2026-02-24,408,344!2027-05-26,756,325-->
+  - Barnard 33 ::@:: [Horsehead Nebula](../../../../general/Horsehead%20Nebula.md), constellation Orion <!--SR:!2031-06-08,1930,364!2027-05-26,756,325-->
   - Messier 16 ::@:: [Eagle Nebula](../../../../general/Eagle%20Nebula.md), constellation Serpens; containing the _Pillars of Creation_ <!--SR:!2029-03-27,1289,344!2026-10-25,585,344-->
   - Messier 8 ::@:: [Lagoon Nebula](../../../../general/Lagoon%20Nebula.md), constellation Sagittarius <!--SR:!2030-06-13,1675,384!2026-08-07,412,364-->
   - [nebula](../../../../general/nebula.md) / Why can we see nebulae? ::@:: They are not stars powered by nuclear fusion. There are 3 main mechanisms: light emission following absorption from nearby stars (stimulated emission; emission nebula), reflection of light from nearby stars (scattering; reflection nebula), and blocking light from behind (absorption; dark nebula). <!--SR:!2026-08-05,602,425!2026-10-30,630,404-->

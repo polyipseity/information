@@ -51,7 +51,7 @@ Limits are also referred to as {@{_[universal cones](universal%20cone.md#univers
 
 Limits may also be {@{characterized as [terminal objects](terminal%20object.md)}@} in {@{the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. <!--SR:!2028-10-20,1070,358!2029-12-29,1423,365-->
 
-It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if a diagram does have a limit then this limit is essentially unique}@}: it is {@{unique [up to](up%20to.md) a unique [isomorphism](isomorphism.md)}@}. For this reason one often {@{speaks of _the_ limit of _F_}@}. <!--SR:!2026-03-30,345,358!2026-03-06,323,345!2026-04-15,357,358!2026-02-24,313,345-->
+It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if a diagram does have a limit then this limit is essentially unique}@}: it is {@{unique [up to](up%20to.md) a unique [isomorphism](isomorphism.md)}@}. For this reason one often {@{speaks of _the_ limit of _F_}@}. <!--SR:!2026-03-30,345,358!2026-03-06,323,345!2026-04-15,357,358!2030-03-20,1485,365-->
 
 ### colimits
 
@@ -103,7 +103,7 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 
 - __[Initial objects](initial%20object.md)__ ::@:: are colimits of empty diagrams. <!--SR:!2026-04-21,362,358!2028-07-01,902,330-->
 - __[Coproducts](coproduct.md)__ ::@:: are colimits of diagrams indexed by discrete categories. <!--SR:!2029-03-11,1180,358!2026-05-14,380,358-->
-  - __Copowers__ ::@:: are colimits of constant diagrams from discrete categories. <!--SR:!2026-02-24,317,353!2026-05-07,373,358-->
+  - __Copowers__ ::@:: are colimits of constant diagrams from discrete categories. <!--SR:!2030-05-10,1536,373!2026-05-07,373,358-->
 - __[Coequalizers](coequalizer.md)__ ::@:: are colimits of a parallel pair of morphisms. <!--SR:!2026-04-12,354,353!2026-03-27,339,345-->
   - __[Cokernels](cokernel.md)__ ::@:: are coequalizers of a morphism and a parallel zero morphism. <!--SR:!2026-05-06,372,358!2026-03-04,292,290-->
 - __[Pushouts](pushout%20(category%20theory).md)__ ::@:: are colimits of a pair of morphisms with common domain. <!--SR:!2029-09-06,1309,358!2026-03-31,346,358-->

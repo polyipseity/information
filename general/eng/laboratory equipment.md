@@ -172,7 +172,7 @@ return _chain.from_iterable(await _gather(
 - [spatula](spatula.md)→::@::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2031-04-01,1895,250!2027-07-23,807,270-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!2026-06-20,358,190!2026-11-22,377,190-->
 - [test tube](test%20tube.md), boiling tube→::@::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
-- [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2026-02-24,631,270!2031-02-04,1897,330-->
+- [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2032-08-23,2372,290!2031-02-04,1897,330-->
 - [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2029-09-27,1724,310-->
 - [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!2026-06-29,289,170!2027-12-30,864,230-->
 - [thermometer](thermometer.md)→::@::←[tripod](tripod.md) <!--SR:!2029-01-10,1335,290!2027-06-03,1008,290-->
@@ -212,7 +212,7 @@ return _chain.from_iterable(await _gather(
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md):@:![heat-resistant mat/heatproof mat](../../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg) <!--SR:!2027-06-15,1194,350-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md):@:![measuring cylinder/graduated cylinder/mixing cylinder](../../archives/Wikimedia%20Commons/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg) <!--SR:!2027-05-21,1173,350-->
 - [mortar and pestle](mortar%20and%20pestle.md):@:![mortar and pestle](../../archives/Wikimedia%20Commons/White-Mortar-and-Pestle.jpg) <!--SR:!2027-04-06,1137,350-->
-- [pipeclay triangle](pipeclay%20triangle.md):@:![pipeclay triangle](../../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg) <!--SR:!2026-02-24,805,330-->
+- [pipeclay triangle](pipeclay%20triangle.md):@:![pipeclay triangle](../../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg) <!--SR:!2036-03-06,3663,350-->
 - [reagent bottle](reagent%20bottle.md):@:![reagent bottle](../../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg) <!--SR:!2027-06-03,1185,350-->
 - [round-bottom(ed) flask](round-bottom%20flask.md):@:![round-bottom(ed) flask](../../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg) <!--SR:!2027-10-01,1278,350-->
 - [rubber bulb](rubber%20bulb.md):@:![rubber bulb](../../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg) <!--SR:!2026-11-21,1032,350-->

@@ -177,7 +177,7 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 
 > [!tip] tips
 >
-> - alternative formulation ::@:: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree. <!--SR:!2026-02-24,379,363!2029-09-13,1317,363-->
+> - alternative formulation ::@:: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree. <!--SR:!2029-12-04,1379,363!2029-09-13,1317,363-->
 
 ## Cayley's formula
 

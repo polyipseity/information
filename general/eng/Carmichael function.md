@@ -31,7 +31,7 @@ The Carmichael function is named after {@{the American mathematician [Robert Car
 
 ## recurrence for _λ_\(_n_\)
 
-{@{The Carmichael lambda function of a prime power}@} can be {@{expressed in terms of the Euler totient}@}. {@{Any number that is not 1 or a prime power}@} can be {@{written uniquely as the product of distinct prime powers}@}, in which case {@{_λ_ of the product is the [least common multiple](least%20common%20multiple.md) of the _λ_ of the prime power factors}@}. Specifically, _λ_\(_n_\) is given by {@{the recurrence $$\lambda (n)={\begin{cases}\varphi (n)&{\text{if } }n{\text{ is 1, 2, 4, or an odd prime power,} }\\{\tfrac {1}{2} }\varphi (n)&{\text{if } }n=2^{r},\ r\geq 3,\\\operatorname {lcm} {\Bigl (}\lambda (n_{1}),\lambda (n_{2}),\ldots ,\lambda (n_{k}){\Bigr )}&{\text{if } }n=n_{1}n_{2}\ldots n_{k}{\text{ where } }n_{1},n_{2},\ldots ,n_{k}{\text{ are powers of distinct primes.} }\end{cases} }$$}@} {@{Euler's totient for a prime power, that is, a number _p_<sup>_r_</sup> with _p_ prime and _r_ ≥ 1}@}, is given by {@{$$\varphi (p^{r}){=}p^{r-1}(p-1).$$}@} \(annotation: Consider {@{integers $1 \le n \le p^r$ such that $\gcd(n, p) = 1$}@}. There are {@{$p^r$ integers originally}@}, and {@{$p^r / p = p^{r - 1}$ integers}@} share {@{the prime factor $p$ with $p^r$}@}, so the above follows.\) <!--SR:!2030-02-26,1485,361!2029-01-20,1160,350!2028-03-09,904,341!2030-01-30,1464,361!2026-06-10,398,310!2027-01-11,549,310!2026-05-18,369,301!2026-02-24,334,341!2027-07-24,727,341!2028-03-01,837,330!2026-04-07,118,387!2026-04-07,118,387-->
+{@{The Carmichael lambda function of a prime power}@} can be {@{expressed in terms of the Euler totient}@}. {@{Any number that is not 1 or a prime power}@} can be {@{written uniquely as the product of distinct prime powers}@}, in which case {@{_λ_ of the product is the [least common multiple](least%20common%20multiple.md) of the _λ_ of the prime power factors}@}. Specifically, _λ_\(_n_\) is given by {@{the recurrence $$\lambda (n)={\begin{cases}\varphi (n)&{\text{if } }n{\text{ is 1, 2, 4, or an odd prime power,} }\\{\tfrac {1}{2} }\varphi (n)&{\text{if } }n=2^{r},\ r\geq 3,\\\operatorname {lcm} {\Bigl (}\lambda (n_{1}),\lambda (n_{2}),\ldots ,\lambda (n_{k}){\Bigr )}&{\text{if } }n=n_{1}n_{2}\ldots n_{k}{\text{ where } }n_{1},n_{2},\ldots ,n_{k}{\text{ are powers of distinct primes.} }\end{cases} }$$}@} {@{Euler's totient for a prime power, that is, a number _p_<sup>_r_</sup> with _p_ prime and _r_ ≥ 1}@}, is given by {@{$$\varphi (p^{r}){=}p^{r-1}(p-1).$$}@} \(annotation: Consider {@{integers $1 \le n \le p^r$ such that $\gcd(n, p) = 1$}@}. There are {@{$p^r$ integers originally}@}, and {@{$p^r / p = p^{r - 1}$ integers}@} share {@{the prime factor $p$ with $p^r$}@}, so the above follows.\) <!--SR:!2030-02-26,1485,361!2029-01-20,1160,350!2028-03-09,904,341!2030-01-30,1464,361!2026-06-10,398,310!2027-01-11,549,310!2026-05-18,369,301!2030-06-10,1567,361!2027-07-24,727,341!2028-03-01,837,330!2026-04-07,118,387!2026-04-07,118,387-->
 
 ## Carmichael's theorems
 
@@ -55,7 +55,7 @@ In this section, {@{an [integer](integer.md) $n$ is divisible by a nonzero integ
 
 ### a consequence of minimality of _λ_\(_n_\)
 
-Suppose {@{_a<sup>m</sup>_ ≡ 1 \(mod _n_\) for all numbers _a_ coprime with _n_}@}. Then {@{_λ_\(_n_\) \| _m_}@}. <!--SR:!2026-02-24,334,341!2026-02-25,335,341-->
+Suppose {@{_a<sup>m</sup>_ ≡ 1 \(mod _n_\) for all numbers _a_ coprime with _n_}@}. Then {@{_λ_\(_n_\) \| _m_}@}. <!--SR:!2030-06-08,1565,361!2026-02-25,335,341-->
 
 __Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then {@{$$a^{r}=1^{k}\cdot a^{r}\equiv \left(a^{\lambda (n)}\right)^{k}\cdot a^{r}=a^{k\lambda (n)+r}=a^{m}\equiv 1{\pmod {n} }$$ for all numbers _a_ coprime with _n_}@}. It follows that {@{_r_ = 0}@} since {@{_r_ \< _λ_\(_n_\) and _λ_\(_n_\)}@} is {@{the minimal positive exponent for which the congruence holds for all _a_ coprime with _n_}@}. <!--SR:!2029-01-23,1162,350!2030-04-19,1526,361!2029-01-10,1073,341!2026-03-05,23,373!2026-03-06,24,373-->
 
@@ -95,7 +95,7 @@ For {@{any _n_ ≥ 16}@}:<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> 
 
 The following table gives some overview {@{over the first 2<sup>26</sup> – 1 = 67108863 values of the _λ_ function}@}, for {@{both, the exact average and its Erdős-approximation}@}. <!--SR:!2026-03-16,328,301!2030-04-25,1531,361-->
 
-Additionally given is some overview over {@{the more easily accessible "logarithm over logarithm" values}@} {@{LoL\(_n_\) := ⁠ln _λ_\(_n_\)/ln _n_⁠}@} with <!--SR:!2028-03-04,900,341!2026-02-24,334,341-->
+Additionally given is some overview over {@{the more easily accessible "logarithm over logarithm" values}@} {@{LoL\(_n_\) := ⁠ln _λ_\(_n_\)/ln _n_⁠}@} with <!--SR:!2028-03-04,900,341!2030-06-09,1566,361-->
 
 - LoL\(_n_\) \> ⁠4/5⁠ ::@:: ⇔ _λ_\(_n_\) \> _n_<sup>⁠4/5⁠</sup>. <!--SR:!2030-02-21,1480,361!2030-04-16,1523,361-->
 

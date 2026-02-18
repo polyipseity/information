@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2032-10-17,2515,410-->
 - height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2026-03-19,421,301!2027-12-02,1051,350-->
 - image ::@:: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2028-05-09,1149,380!2033-01-01,2575,420-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->::@:: concrete–steel composite <!--SR:!2027-02-14,599,281!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->::@:: concrete–steel composite <!--SR:!2027-02-14,599,281!2034-03-17,2943,421-->
 
 ## Itaipu Dam
 
