@@ -18,7 +18,20 @@ agent: agent
      git diff --cached --name-status --no-color && git --no-pager diff --cached --staged --patch --no-color
      ```
 
-   - Present the exact command to be run. If not executed, produce a best-effort commit message from available context and stop.
+   - Count notes added and edited using a platform-specific command:
+     - **PowerShell (Windows):**
+
+       ```powershell
+       $staged = git diff --cached --name-status --no-color | Select-String -Pattern '^[AM]\s+"?(general|special|self)/.*\.md"?$'; $added = ($staged | Select-String -Pattern '^A').Count; $modified = ($staged | Select-String -Pattern '^M').Count; Write-Host "Added: $added, Modified: $modified"
+       ```
+
+     - **Bash/zsh (Linux/macOS):**
+
+       ```bash
+       staged=$(git diff --cached --name-status --no-color | grep -E '^[AM]\s+"?(general|special|self)/.*\.md"?$'); added=$(echo "$staged" | grep '^A' | wc -l); modified=$(echo "$staged" | grep '^M' | wc -l); echo "Added: $added, Modified: $modified"
+       ```
+
+   - Present the exact commands to be run. If not executed, produce a best-effort commit message from available context and stop.
 
 2. **Gather flashcard data**
    - The user MUST provide at least **two** of the following inputs: `${input:Flashcards-prev}`,
@@ -54,14 +67,14 @@ agent: agent
 
 3. **Compose commit message**
    - Use Conventional Commit style for the commit header (e.g., `feat(notes): improve 13 notes`).
-   - The header should summarize the number of notes added/edited (count from files added/edited in `general/`, `special/`, or `self/`).
+   - The header should summarize the number of notes added/edited (use the counts from the count command in step 1).
    - The body should briefly describe the changes. **Each line in the commit header, body, and all flashcard trailers must be wrapped to 72 characters or fewer. This is strictly enforced by commitlint. If the commit is rejected due to line length or formatting, rewrap and retry until the commit passes.**
    - Add the three flashcard trailers as plain ASCII key/value pairs, one per line, before any optional footers. **Wrap each trailer line to 72 characters or fewer.**
    - Do not show the proposed commit message to the user for confirmation before creating the commit. Proceed automatically to creating the commit using best-effort defaults and available context.
 
 4. **Create the commit**
     - If `${input:commitNow}` is `no`, skip this step and only present the message.
-    - Otherwise, present the exact command to create the commit from stdin and print the new SHA. **Both commands must be run in the same shell command block to ensure correct context.** Use the correct heredoc/here-string syntax for the detected shell:
+    - Otherwise, present the exact command to create the commit from stdin and print the new SHA. **Both operations must be run in the same shell command block to ensure correct context.** Use the correct heredoc/here-string syntax for the detected shell:
        - **PowerShell (Windows):**
 
          ```powershell
@@ -89,19 +102,19 @@ agent: agent
          and `$` are preserved. If the delimiter appears in the message, pick a
          different, unique delimiter to avoid syntax errors.
 
-    - If Command 2 fails due to quoting/heredoc syntax, retry up to 3 corrected forms. For other failures, report the error and do not modify the index.
+    - If the commit command fails due to quoting/heredoc syntax, retry up to 3 corrected forms. For other failures, report the error and do not modify the index.
 
 5. **Output**
    - 1–2 line summary: staged files and detected convention
    - Commit message block labelled `Commit message` (header/body/footer)
-   - If Command 2 ran: `Commit result` with exit status and new commit SHA
+   - If the commit command ran: `Commit result` with exit status and new commit SHA
    - 1–3 line justification why this message fits the change
 
 ## Rules
 
 - Never ask for confirmation or clarification. Always proceed automatically using best-effort defaults and available context.
-- Only run the two approved shell commands. Do not run `git add`, `git reset`, or otherwise change the index.
-- If Command 1 is denied, still propose a best-effort commit message using available context.
+- Only run the approved shell commands (diff, count, commit as specified in the workflow). Do not run `git add`, `git reset`, or otherwise change the index.
+- If the diff or count commands are denied, still propose a best-effort commit message using available context.
 
 ## Inputs
 
