@@ -7,12 +7,6 @@
 # Triggers:
 #   - push, pull_request, workflow_dispatch
 #
-# Runner selection rationale (why `ubuntu-slim`):
-#   - Lightweight: smaller VM image → faster startup and less disk usage.
-#   - Reduced attack surface: fewer preinstalled packages lowers risk from CVEs.
-#   - Predictable environment: shares core Ubuntu userspace with `ubuntu-latest` while minimizing extras.
-#   - Caveats: some system packages may be missing; add `apt-get install` steps when needed, or switch to `ubuntu-latest` for debugging.
-#
 # Security & reproducibility notes:
 #   - Use least-privilege permissions (contents: read) and pin action versions where appropriate.
 #   - Use local caches for pnpm/uv to speed builds and reduce external load.
@@ -60,7 +54,7 @@ permissions:
 jobs:
   build:
     name: "Build & Test"
-    runs-on: ubuntu-slim # using `ubuntu-slim` to minimize image size and attack surface; see header for rationale
+    runs-on: ubuntu-latest
     steps:
       # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
       - name: Get token from GitHub App
