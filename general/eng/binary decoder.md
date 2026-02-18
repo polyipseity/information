@@ -37,7 +37,7 @@ Examples of this type of decoder include:
 
 ### code translator
 
-Code translators differ from {@{1-of-n decoders in that multiple output bits may be active at the same time}@}. An example of this is {@{a _seven-segment decoder_}@}, which converts {@{an integer into the combination of segment control signals needed to display the integer's value on a [seven-segment display](seven-segment%20display.md) digit}@}.
+Code translators differ from {@{1-of-n decoders in that multiple output bits may be active at the same time}@}. An example of this is {@{a _seven-segment decoder_}@}, which converts {@{an integer into the combination of segment control signals needed}@} to display {@{the integer's value on a [seven-segment display](seven-segment%20display.md) digit}@}.
 
 One variant of seven-segment decoder is the _BCD to seven-segment decoder_, which translates a binary-coded decimal value into the corresponding segment control signals for input integer values 0 to 9. This decoder function is available in standard ICs such as the CMOS [4511](4511.md#4511%20BCD%20to%20seven-segment%20decoder).
 

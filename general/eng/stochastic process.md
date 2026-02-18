@@ -38,7 +38,7 @@ Based on {@{their mathematical properties}@}, stochastic processes can be {@{gro
 
 > {@{![A single computer-simulated __sample function__ or __realization__, among other terms, of a three-dimensional Wiener or Brownian motion process for time 0 ≤ t ≤ 2.](../../archives/Wikimedia%20Commons/Wiener%20process%203d.png)}@}
 >
-> {@{A single computer-simulated __sample function__ or __realization__, among other terms, of a three-dimensional Wiener or Brownian motion process for time 0 ≤ t ≤ 2}@}. {@{The index set of this stochastic process}@} is {@{the non-negative numbers}@}, while {@{its state space}@} is {@{three-dimensional Euclidean space}@}.
+> {@{A single computer-simulated __sample function__ or __realization__, among other terms}@}, of {@{a three-dimensional Wiener or Brownian motion process for time 0 ≤ t ≤ 2}@}. {@{The index set of this stochastic process}@} is {@{the non-negative numbers}@}, while {@{its state space}@} is {@{three-dimensional Euclidean space}@}.
 
 ### classifications
 

@@ -65,7 +65,7 @@ It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if
 
 Colimits are also referred to as {@{_[universal co-cones](universal%20co-cone.md#universal%20cones)_}@}. They can be {@{characterized as [initial objects](initial%20object.md)}@} in {@{the [category of co-cones](category%20of%20co-cones.md#category%20of%20cones) from $F$}@}.
 
-As with {@{limits}@}, {@{if a diagram $F$ has a colimit then this colimit is unique up to a unique isomorphism}@}.
+As with {@{limits}@}, {@{if a diagram $F$ has a colimit}@} then this colimit is {@{unique up to a unique isomorphism}@}.
 
 ### variations
 

@@ -36,7 +36,7 @@ Kernels are familiar in {@{many categories from [abstract algebra](abstract%20al
 
 Note that in {@{the category of [monoids](monoid.md)}@}, {@{category-theoretic kernels exist just as for groups}@}, but these kernels {@{don't carry sufficient information for algebraic purposes}@}. Therefore, {@{the notion of kernel studied in monoid theory is slightly different}@} \(see [\#Relationship to algebraic kernels](#relationship%20to%20algebraic%20kernels) below\).
 
-In {@{the [category of unital rings](category%20of%20rings.md)}@}, there are {@{no kernels in the category-theoretic sense; indeed, this category does not even have zero morphisms}@}. Nevertheless, there is {@{still a notion of kernel studied in ring theory that corresponds to kernels in the [category of non-unital rings](category%20of%20rings.md#rings%20without%20identity)}@}.
+In {@{the [category of unital rings](category%20of%20rings.md)}@}, there are {@{no kernels in the category-theoretic sense}@}; indeed, this category {@{does not even have zero morphisms}@}. Nevertheless, there is {@{still a notion of kernel studied in ring theory}@} that corresponds to {@{kernels in the [category of non-unital rings](category%20of%20rings.md#rings%20without%20identity)}@}.
 
 In {@{the category of [pointed topological spaces](pointed%20space.md)}@}, if {@{_f_ : _X_ → _Y_ is a continuous pointed map}@}, then {@{the preimage of the distinguished point (annotation: in _Y_), _K_, is a subspace of _X_}@}. {@{The inclusion map of _K_ into _X_}@} is {@{the categorical kernel of _f_}@}.
 

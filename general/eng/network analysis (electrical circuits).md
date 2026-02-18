@@ -191,7 +191,7 @@ There is {@{an underlying assumption to this method}@} that {@{the total current
 
 ## choice of method
 
-{@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If {@{the network is particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits may yield the answer without recourse to the more systematic methods}@}.
+{@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If the network is {@{particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits}@} may yield {@{the answer without recourse to the more systematic methods}@}.
 
 - {@{[Nodal analysis](nodal%20analysis.md)}@}: {@{The number of voltage variables, and hence simultaneous equations}@} to solve, equals {@{the number of nodes minus one}@}. {@{Every voltage source connected to the reference node}@} {@{reduces the number of unknowns and equations by one}@}.
 
