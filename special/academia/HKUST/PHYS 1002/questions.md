@@ -465,7 +465,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^(-10) m
 >
 > - solution: {@{2}@}
-> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}@} <!--SR:!2028-04-21,1055,365!2026-02-25,397,325-->
+> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}@} <!--SR:!2028-04-21,1055,365!2031-01-12,1782,345-->
 
 <!-- markdownlint MD028 -->
 

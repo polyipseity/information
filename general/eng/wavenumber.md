@@ -43,7 +43,7 @@ In {@{[theoretical physics](theoretical%20physics.md)}@}, {@{wavenumber}@} is de
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md)}@} <!--SR:!2032-02-24,2235,330!2027-08-22,1046,350!2026-02-25,79,345-->
+> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md)}@} <!--SR:!2032-02-24,2235,330!2027-08-22,1046,350!2027-03-07,375,365-->
 
 ## references
 

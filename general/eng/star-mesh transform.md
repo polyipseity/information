@@ -15,7 +15,7 @@ tags:
 
 # star-mesh transform
 
-The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}. <!--SR:!2029-05-10,1179,350!2026-02-25,266,330!2028-01-04,776,330-->
+The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}. <!--SR:!2029-05-10,1179,350!2029-06-14,1205,350!2028-01-04,776,330-->
 
 > {@{![star-mesh transform](../../archives/Wikimedia%20Commons/Star-mesh%20transform.svg)}@} <!--SR:!2029-01-29,1097,350-->
 

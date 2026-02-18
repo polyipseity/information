@@ -15,13 +15,13 @@ tags:
 >
 > Vectors involved in {@{the polarization identity $2\|x\|^{2}+2\|y\|^{2}=\|x+y\|^{2}+\|x-y\|^{2}$}@}. <!--SR:!2029-05-23,1210,350!2029-05-09,1200,350-->
 
-In {@{[linear algebra](linear%20algebra.md), a branch of [mathematics](mathematics.md)}@}, {@{the __polarization identity__}@} is {@{any one of a family of formulas that express the [inner product](inner%20product.md) of two [vectors](vector%20(geometry).md)}@} in terms of {@{the [norm](norm%20(mathematics).md) of a [normed vector space](normed%20vector%20space.md)}@}. If {@{a [norm](norm%20(mathematics).md) arises from an inner product}@} then {@{the polarization identity can be used to express this inner product entirely in terms of the norm}@}. The polarization identity shows that {@{a norm can arise from at most one inner product}@}; however, there exist {@{norms that do not arise from any inner product}@}. <!--SR:!2029-03-08,1150,350!2029-06-23,1225,350!2027-07-24,601,310!2028-12-24,1077,350!2029-05-10,1201,350!2026-02-26,282,330!2026-02-25,281,330!2026-05-10,118,387-->
+In {@{[linear algebra](linear%20algebra.md), a branch of [mathematics](mathematics.md)}@}, {@{the __polarization identity__}@} is {@{any one of a family of formulas that express the [inner product](inner%20product.md) of two [vectors](vector%20(geometry).md)}@} in terms of {@{the [norm](norm%20(mathematics).md) of a [normed vector space](normed%20vector%20space.md)}@}. If {@{a [norm](norm%20(mathematics).md) arises from an inner product}@} then {@{the polarization identity can be used to express this inner product entirely in terms of the norm}@}. The polarization identity shows that {@{a norm can arise from at most one inner product}@}; however, there exist {@{norms that do not arise from any inner product}@}. <!--SR:!2029-03-08,1150,350!2029-06-23,1225,350!2027-07-24,601,310!2028-12-24,1077,350!2029-05-10,1201,350!2026-02-26,282,330!2029-09-01,1284,350!2026-05-10,118,387-->
 
 {@{The norm associated with any [inner product space](inner%20product%20space.md)}@} {@{satisfies the [parallelogram law](parallelogram%20law.md): $\|x+y\|^{2}+\|x-y\|^{2}=2\|x\|^{2}+2\|y\|^{2}$}@}. In fact, as {@{observed by [John von Neumann](John%20von%20Neumann.md)}@},<sup>[\[1\]](#^ref-1)</sup> the parallelogram law {@{characterizes those norms that arise from inner products}@}. Given {@{a [normed space](normed%20vector%20space.md) $(H,\|\cdot \|)$}@}, the parallelogram law {@{holds for $\|\cdot \|$ if and only if there exists an inner product $\langle \cdot ,\cdot \rangle$ on $H$ such that $\|x\|^{2}=\langle x,\ x\rangle$ for all $x\in H$}@}, in which case {@{this inner product is uniquely determined by the norm via the polarization identity}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-02-28,284,330!2026-05-19,323,290!2029-06-29,1230,350!2029-08-06,1263,350!2029-03-01,1144,350!2027-01-25,520,310!2028-06-22,875,330-->
 
 ## polarization identities
 
-{@{Any [inner product](inner%20product%20space.md) on a vector space}@} {@{induces a norm by the equation $$\|x\|={\sqrt {\langle x,x\rangle } }.$$}@} The polarization identities {@{reverse this relationship, recovering the inner product from the norm}@}. {@{Every inner product}@} satisfies: {@{$$\|x+y\|^{2}=\|x\|^{2}+\|y\|^{2}+2\operatorname {Re} \langle x,y\rangle \qquad {\text{ for all vectors } }x,y.$$}@} {@{Solving for $\operatorname {Re} \langle x,y\rangle$}@} gives {@{the formula $\operatorname {Re} \langle x,y\rangle ={\frac {1}{2} }\left(\|x+y\|^{2}-\|x\|^{2}-\|y\|^{2}\right)$}@}. If {@{the inner product is real}@} then {@{$\operatorname {Re} \langle x,y\rangle =\langle x,y\rangle$ and this formula becomes a polarization identity for real inner products}@}. <!--SR:!2029-05-16,1203,350!2029-04-14,1175,350!2029-01-15,1099,350!2028-12-12,1065,350!2029-05-06,1197,350!2026-02-25,281,330!2028-08-02,898,330!2029-03-11,1150,350!2028-12-28,1081,350-->
+{@{Any [inner product](inner%20product%20space.md) on a vector space}@} {@{induces a norm by the equation $$\|x\|={\sqrt {\langle x,x\rangle } }.$$}@} The polarization identities {@{reverse this relationship, recovering the inner product from the norm}@}. {@{Every inner product}@} satisfies: {@{$$\|x+y\|^{2}=\|x\|^{2}+\|y\|^{2}+2\operatorname {Re} \langle x,y\rangle \qquad {\text{ for all vectors } }x,y.$$}@} {@{Solving for $\operatorname {Re} \langle x,y\rangle$}@} gives {@{the formula $\operatorname {Re} \langle x,y\rangle ={\frac {1}{2} }\left(\|x+y\|^{2}-\|x\|^{2}-\|y\|^{2}\right)$}@}. If {@{the inner product is real}@} then {@{$\operatorname {Re} \langle x,y\rangle =\langle x,y\rangle$ and this formula becomes a polarization identity for real inner products}@}. <!--SR:!2029-05-16,1203,350!2029-04-14,1175,350!2029-01-15,1099,350!2028-12-12,1065,350!2029-05-06,1197,350!2029-09-02,1285,350!2028-08-02,898,330!2029-03-11,1150,350!2028-12-28,1081,350-->
 
 ### real vector spaces
 
@@ -41,7 +41,7 @@ For {@{vector spaces over the [complex numbers](complex%20number.md)}@}, the abo
 >
 > From {@{$1=i(-i)$}@} it follows that {@{$y-ix=i(-iy-x)=-i(x+iy)$ and $y+ix=i(-iy+x)=i(x-iy)$}@} so that {@{$$-4R(y,ix)=\|y-ix\|^{2}-\|y+ix\|^{2}=\|(-i)(x+iy)\|^{2}-\|i(x-iy)\|^{2}=\|x+iy\|^{2}-\|x-iy\|^{2}=4R(x,iy),$$}@} which proves that {@{$R(y,ix)=-R(x,iy)$}@}. $\blacksquare$ <!--SR:!2029-07-08,1238,350!2027-09-10,699,330!2028-12-25,1078,350!2027-09-15,704,330!2026-03-02,286,330!2029-02-25,1140,350!2026-03-01,285,330!2026-05-22,325,290!2029-08-02,1259,350-->
 
-Unlike {@{its real part}@}, {@{the [imaginary part](imaginary%20part.md) of a complex inner product}@} depends on {@{which argument is antilinear}@}. <!--SR:!2026-03-08,292,330!2026-02-25,281,330!2026-03-06,290,330-->
+Unlike {@{its real part}@}, {@{the [imaginary part](imaginary%20part.md) of a complex inner product}@} depends on {@{which argument is antilinear}@}. <!--SR:!2026-03-08,292,330!2029-08-31,1283,350!2026-03-06,290,330-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Antilinear in first argument__
@@ -56,7 +56,7 @@ __Antilinear in second argument__
 <!-- markdownlint-disable-next-line MD036 -->
 __Summary of both cases__
 
-Thus if {@{$R(x,y)+iI(x,y)$ denotes the real and imaginary parts of some inner product's value at the point $(x,y)\in H\times H$ of its domain}@}, then its imaginary part will be: {@{$$I(x,y)~=~{\begin{cases}~R({\color {red}i}x,y)&\qquad {\text{ if antilinear in the } }{\color {red}1}{\text{st argument} }\\~R(x,{\color {blue}i}y)&\qquad {\text{ if antilinear in the } }{\color {blue}2}{\text{nd argument} }\\\end{cases} }$$}@} where {@{the scalar $i$ is always located in the same argument that the inner product is antilinear in}@}. <!--SR:!2029-03-20,1159,350!2026-02-25,281,330!2029-03-02,1145,350-->
+Thus if {@{$R(x,y)+iI(x,y)$ denotes the real and imaginary parts of some inner product's value at the point $(x,y)\in H\times H$ of its domain}@}, then its imaginary part will be: {@{$$I(x,y)~=~{\begin{cases}~R({\color {red}i}x,y)&\qquad {\text{ if antilinear in the } }{\color {red}1}{\text{st argument} }\\~R(x,{\color {blue}i}y)&\qquad {\text{ if antilinear in the } }{\color {blue}2}{\text{nd argument} }\\\end{cases} }$$}@} where {@{the scalar $i$ is always located in the same argument that the inner product is antilinear in}@}. <!--SR:!2029-03-20,1159,350!2029-09-03,1286,350!2029-03-02,1145,350-->
 
 Using {@{⁠$R(ix,y)=-R(x,iy)$}@}⁠, the above formula for the imaginary part becomes: {@{$$I(x,y)~=~{\begin{cases}-R(x,{\color {blue}i}y)&\qquad {\text{ if antilinear in the } }{\color {red}1}{\text{st argument} }\\-R({\color {red}i}x,y)&\qquad {\text{ if antilinear in the } }{\color {blue}2}{\text{nd argument} }\\\end{cases} }$$}@} <!--SR:!2028-05-12,845,330!2027-03-08,512,310-->
 
@@ -89,7 +89,7 @@ In {@{a normed space $(H,\|\cdot \|)$}@}, if {@{the [parallelogram law](parallel
 
 ## applications and consequences
 
-If {@{$H$ is a complex Hilbert space}@} then {@{$\langle x\mid y\rangle$ is real if and only if its imaginary part is ⁠$0=R(x,iy)={\frac {1}{4} }\left(\Vert x+iy\Vert ^{2}-\Vert x-iy\Vert ^{2}\right)$⁠}@}, which happens {@{if and only if ⁠$\Vert x+iy\Vert =\Vert x-iy\Vert$⁠}@}. Similarly, {@{$\langle x\mid y\rangle$ is \(purely\) imaginary}@} {@{if and only if ⁠$\Vert x+y\Vert =\Vert x-y\Vert$}@}⁠. For example, from {@{$\|x+ix\|=|1+i|\|x\|={\sqrt {2} }\|x\|=|1-i|\|x\|=\|x-ix\|$}@} it can be {@{concluded that $\langle x|x\rangle$ is real and that $\langle x|ix\rangle$ is purely imaginary}@}. <!--SR:!2026-02-25,281,330!2029-08-15,1269,350!2029-01-14,1098,350!2027-10-28,737,330!2026-03-03,287,330!2029-02-10,1125,350!2029-02-01,1116,350-->
+If {@{$H$ is a complex Hilbert space}@} then {@{$\langle x\mid y\rangle$ is real if and only if its imaginary part is ⁠$0=R(x,iy)={\frac {1}{4} }\left(\Vert x+iy\Vert ^{2}-\Vert x-iy\Vert ^{2}\right)$⁠}@}, which happens {@{if and only if ⁠$\Vert x+iy\Vert =\Vert x-iy\Vert$⁠}@}. Similarly, {@{$\langle x\mid y\rangle$ is \(purely\) imaginary}@} {@{if and only if ⁠$\Vert x+y\Vert =\Vert x-y\Vert$}@}⁠. For example, from {@{$\|x+ix\|=|1+i|\|x\|={\sqrt {2} }\|x\|=|1-i|\|x\|=\|x-ix\|$}@} it can be {@{concluded that $\langle x|x\rangle$ is real and that $\langle x|ix\rangle$ is purely imaginary}@}. <!--SR:!2029-08-30,1282,350!2029-08-15,1269,350!2029-01-14,1098,350!2027-10-28,737,330!2026-03-03,287,330!2029-02-10,1125,350!2029-02-01,1116,350-->
 
 ### isometries
 
@@ -127,7 +127,7 @@ Finally, in {@{any of these contexts}@} these identities may be {@{extended to [
 
 ## see also
 
-- [Inner product space](inner%20product%20space.md) ::@:: – Generalization of the dot product; used to define Hilbert spaces <!--SR:!2029-02-06,1121,350!2026-02-25,281,330-->
+- [Inner product space](inner%20product%20space.md) ::@:: – Generalization of the dot product; used to define Hilbert spaces <!--SR:!2029-02-06,1121,350!2029-09-03,1286,350-->
 - [Law of cosines](law%20of%20cosines.md) ::@:: – Property of all triangles on a Euclidean plane <!--SR:!2029-05-18,1205,350!2028-12-30,1083,350-->
 - [Mazur–Ulam theorem](Mazur–Ulam%20theorem.md) ::@:: – Surjective isometries are affine mappings <!--SR:!2027-01-06,513,310!2028-02-29,778,330-->
 - [Minkowski distance](Minkowski%20distance.md) ::@:: – Mathematical metric in normed vector space <!--SR:!2028-06-13,870,330!2027-11-26,768,330-->

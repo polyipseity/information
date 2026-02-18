@@ -57,7 +57,7 @@ There are {@{many constructions in mathematics that would be functors}@} but for
 
 Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-09-29,1345,350!2029-09-27,1343,350-->
 
-- The composite of two functors of the same variance: ::@:: (annotation: composite is covariant) <!--SR:!2026-02-25,323,346!2026-03-13,339,357-->
+- The composite of two functors of the same variance: ::@:: (annotation: composite is covariant) <!--SR:!2029-03-19,1118,346!2026-03-13,339,357-->
   - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
   - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
 - The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant) <!--SR:!2026-03-06,332,357!2026-03-30,352,357-->
@@ -74,7 +74,7 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 
 ### opposite functor
 
-{@{Every functor $F\colon C\to D$}@} induces {@{the __opposite functor__ $F^{\mathrm {op} }\colon C^{\mathrm {op} }\to D^{\mathrm {op} }$}@}, where {@{$C^{\mathrm {op} }$ and $D^{\mathrm {op} }$ are the [opposite categories](opposite%20category.md) to $C$ and $D$}@}.<sup>[\[7\]](#^ref-7)</sup> By definition, {@{$F^{\mathrm {op} }$ maps objects and morphisms in the identical way as does $F$}@}. Since {@{$C^{\mathrm {op} }$ does not coincide with $C$ as a category, and similarly for $D$}@}, {@{$F^{\mathrm {op} }$ is distinguished from $F$}@}. For example, when {@{composing $F\colon C_{0}\to C_{1}$ with $G\colon C_{1}^{\mathrm {op} }\to C_{2}$}@}, one should {@{use either $G\circ F^{\mathrm {op} }$ or $G^{\mathrm {op} }\circ F$}@}. Note that, following {@{the property of [opposite category](opposite%20category.md), $\left(F^{\mathrm {op} }\right)^{\mathrm {op} }=F$}@}. <!--SR:!2026-02-26,324,346!2030-04-10,1511,366!2026-04-10,361,357!2030-03-28,1501,366!2026-04-06,358,357!2026-04-05,357,357!2026-04-10,361,357!2026-03-19,343,357!2026-02-25,324,346-->
+{@{Every functor $F\colon C\to D$}@} induces {@{the __opposite functor__ $F^{\mathrm {op} }\colon C^{\mathrm {op} }\to D^{\mathrm {op} }$}@}, where {@{$C^{\mathrm {op} }$ and $D^{\mathrm {op} }$ are the [opposite categories](opposite%20category.md) to $C$ and $D$}@}.<sup>[\[7\]](#^ref-7)</sup> By definition, {@{$F^{\mathrm {op} }$ maps objects and morphisms in the identical way as does $F$}@}. Since {@{$C^{\mathrm {op} }$ does not coincide with $C$ as a category, and similarly for $D$}@}, {@{$F^{\mathrm {op} }$ is distinguished from $F$}@}. For example, when {@{composing $F\colon C_{0}\to C_{1}$ with $G\colon C_{1}^{\mathrm {op} }\to C_{2}$}@}, one should {@{use either $G\circ F^{\mathrm {op} }$ or $G^{\mathrm {op} }\circ F$}@}. Note that, following {@{the property of [opposite category](opposite%20category.md), $\left(F^{\mathrm {op} }\right)^{\mathrm {op} }=F$}@}. <!--SR:!2026-02-26,324,346!2030-04-10,1511,366!2026-04-10,361,357!2030-03-28,1501,366!2026-04-06,358,357!2026-04-05,357,357!2026-04-10,361,357!2026-03-19,343,357!2030-05-17,1542,366-->
 
 ### bifunctors and multifunctors
 
@@ -149,7 +149,7 @@ __Tangent and cotangent bundles__
 <!-- markdownlint-disable-next-line MD036 -->
 __Group actions/representations__
 
-&emsp; {@{Every [group](group%20(mathematics).md) _G_}@} can be {@{considered as a category with a single object whose morphisms are the elements of _G_}@}. {@{A functor from _G_ to __Set__}@} is then {@{nothing but a [group action](group%20action%20(mathematics).md) of _G_ on a particular set, i.e. a _G_-set}@}. Likewise, {@{a functor from _G_ to the [category of vector spaces](category%20of%20vector%20spaces.md), __Vect__<sub>_K_</sub>}@}, is {@{a [linear representation](linear%20representation.md) of _G_}@}. In general, {@{a functor _G_ → _C_}@} can be considered as {@{an "action" of _G_ on an object in the category _C_}@}. If {@{_C_ is a group}@}, then {@{this action is a group homomorphism}@}. <!--SR:!2026-03-29,351,357!2028-08-19,947,330!2026-04-01,354,357!2026-03-22,346,357!2030-03-18,1493,366!2026-02-27,324,346!2029-09-24,1340,350!2027-02-28,596,337!2026-02-25,322,346!2026-03-15,341,357-->
+&emsp; {@{Every [group](group%20(mathematics).md) _G_}@} can be {@{considered as a category with a single object whose morphisms are the elements of _G_}@}. {@{A functor from _G_ to __Set__}@} is then {@{nothing but a [group action](group%20action%20(mathematics).md) of _G_ on a particular set, i.e. a _G_-set}@}. Likewise, {@{a functor from _G_ to the [category of vector spaces](category%20of%20vector%20spaces.md), __Vect__<sub>_K_</sub>}@}, is {@{a [linear representation](linear%20representation.md) of _G_}@}. In general, {@{a functor _G_ → _C_}@} can be considered as {@{an "action" of _G_ on an object in the category _C_}@}. If {@{_C_ is a group}@}, then {@{this action is a group homomorphism}@}. <!--SR:!2026-03-29,351,357!2028-08-19,947,330!2026-04-01,354,357!2026-03-22,346,357!2030-03-18,1493,366!2026-02-27,324,346!2029-09-24,1340,350!2027-02-28,596,337!2029-03-15,1114,346!2026-03-15,341,357-->
 
 __Lie algebras__ <p> ::@:: &emsp; Assigning to every real \(complex\) [Lie group](Lie%20group.md) its real \(complex\) [Lie algebra](Lie%20algebra.md) defines a functor. <!--SR:!2027-02-04,553,310!2026-11-03,469,317-->
 

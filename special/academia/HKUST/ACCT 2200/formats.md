@@ -235,7 +235,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2027-07-31,661,330!2029-04-25,1168,350-->
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2028-03-25,864,350!2027-12-26,762,330-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2026-07-26,378,310!2026-05-27,345,350-->
-  - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2026-05-30,348,350!2026-02-25,269,330-->
+  - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2026-05-30,348,350!2028-08-01,888,330-->
 - production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-23,372,361!2026-07-04,382,361-->
   - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2027-01-31,480,310!2028-09-05,989,350-->
   - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2026-06-19,368,361!2026-07-01,379,361-->
@@ -295,7 +295,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-03-18,290,330!2026-03-17,289,330-->
     - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2027-10-27,733,330!2026-05-16,334,350-->
     - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2027-04-11,571,330!2029-02-05,1103,350-->
-  - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2026-02-25,269,330!2029-01-29,1097,350-->
+  - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2029-07-01,1222,350!2029-01-29,1097,350-->
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2026-07-20,363,310!2027-10-16,677,330-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2026-05-19,337,350!2026-05-31,349,350-->
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2026-10-11,432,310!2029-02-15,1098,350-->
@@ -341,7 +341,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------ | -----------------:| ----------------:| -----------:|
 > | {@{Number of Units Produced}@} | {@{300}@}         | {@{100}@}        | {@{400}@}   |
 > | {@{Average Units Per Batch}@}  | {@{20}@}          | {@{5}@}          |             |
-> | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2026-05-16,334,350!2029-01-21,1088,350!2026-03-18,290,330!2029-02-16,1109,350!2026-05-16,334,350!2026-03-13,285,330!2026-04-26,325,350!2026-03-29,301,350!2026-06-02,351,350!2029-04-17,1162,350!2029-04-05,1152,350!2026-02-25,269,330!2026-05-27,345,350!2026-04-30,329,350!2026-03-27,299,350-->
+> | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2026-05-16,334,350!2029-01-21,1088,350!2026-03-18,290,330!2029-02-16,1109,350!2026-05-16,334,350!2026-03-13,285,330!2026-04-26,325,350!2026-03-29,301,350!2026-06-02,351,350!2029-04-17,1162,350!2029-04-05,1152,350!2029-06-30,1221,350!2026-05-27,345,350!2026-04-30,329,350!2026-03-27,299,350-->
 
 - activity cost driver - setups
   - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2027-08-26,681,330!2026-03-13,285,330-->

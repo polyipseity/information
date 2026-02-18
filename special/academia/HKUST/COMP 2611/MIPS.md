@@ -43,7 +43,7 @@ The main memory is usually {@{a physical RAM}@}. It can {@{store much data, much
 
 In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{values need to be transferred from _registers_ to the main memory, and vice versa}@}. <!--SR:!2026-03-05,274,330!2026-04-12,293,330-->
 
-We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written in hexadecimal}@}. <!--SR:!2026-02-26,267,330!2026-03-07,276,330!2026-03-05,274,330!2026-02-25,266,330-->
+We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written in hexadecimal}@}. <!--SR:!2026-02-26,267,330!2026-03-07,276,330!2026-03-05,274,330!2029-06-16,1207,350-->
 
 In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size \(in higher level programming languages, e.g. C, this multiplication is done for you\)}@}. {@{The _memory operand_ syntax}@} is {@{`offset($base)`, e.g. `-4($s0)`}@}. <!--SR:!2026-03-06,275,330!2026-03-07,276,330!2026-02-26,267,330!2029-04-15,1160,350!2026-03-13,281,330!2026-03-15,282,330!2026-03-06,275,330-->
 
@@ -242,7 +242,7 @@ Notice that {@{some fields are unused}@}. Sometimes, they can be {@{any value \(
 
 ## calling conventions
 
-There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2026-03-03,272,330!2026-02-25,266,330!2026-02-27,268,330-->
+There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2026-03-03,272,330!2029-06-13,1204,350!2026-02-27,268,330-->
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. This is explained in [§ procedures](#procedures) below. <!--SR:!2027-01-13,518,401-->
 
@@ -273,7 +273,7 @@ The 32 registers are used as follows:
 > - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2026-03-16,283,330!2026-03-07,276,330-->
 > - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2026-04-08,288,330!2026-03-06,275,330-->
 > - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2026-03-05,274,330!2026-04-14,294,330-->
-> - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2029-01-24,1093,350!2026-02-25,266,330-->
+> - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2029-01-24,1093,350!2029-06-12,1203,350-->
 > - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2026-03-04,273,330-->
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2026-02-27,268,330!2026-04-10,290,330-->
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2028-01-01,776,330!2026-03-01,270,330-->
@@ -296,7 +296,7 @@ If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(
 
 Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the _pseudo-instruction_ `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}. <!--SR:!2029-03-25,1143,350!2029-03-07,1128,350!2029-06-13,1205,350!2026-04-08,288,330!2026-02-28,269,330!2026-03-13,281,330!2029-04-22,1166,350!2029-04-19,1163,350!2029-06-05,1198,350-->
 
-In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2026-02-26,267,330!2026-04-07,288,330!2026-04-08,289,330!2026-03-18,285,330!2026-02-25,266,330!2029-01-30,1098,350!2029-03-06,1126,350!2029-03-23,1141,350-->
+In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2026-02-26,267,330!2026-04-07,288,330!2026-04-08,289,330!2026-03-18,285,330!2029-06-18,1209,350!2029-01-30,1098,350!2029-03-06,1126,350!2029-03-23,1141,350-->
 
 In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}. <!--SR:!2026-02-26,267,330!2026-04-06,286,330!2026-04-09,290,330-->
 
@@ -323,7 +323,7 @@ The convention is {@{the entry point \(first instruction to be executed when a p
 
 ## control flow
 
-In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2026-03-03,272,330!2026-03-13,281,330!2026-03-07,276,330!2027-11-25,746,330!2029-04-21,1165,350!2026-02-25,266,330-->
+In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2026-03-03,272,330!2026-03-13,281,330!2026-03-07,276,330!2027-11-25,746,330!2029-04-21,1165,350!2029-06-17,1208,350-->
 
 To convert {@{structured control flow statements into assembly}@} manually, {@{identify _basic blocks_}@}, which is {@{a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph}@} can be {@{constructed out of these basic blocks}@}. Finally, _label_ {@{the basic blocks at their beginnings}@} and add {@{conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2026-04-12,292,330!2029-03-24,1142,350!2026-04-09,289,330!2028-01-24,795,330!2026-03-15,282,330!2026-04-08,288,330!2029-01-11,1082,350!2026-02-28,269,330!2026-02-26,267,330!2026-04-13,293,330!2029-01-18,1087,350!2026-05-13,147,427!2026-05-07,142,427!2026-05-13,147,427-->
 

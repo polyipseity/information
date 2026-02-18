@@ -177,7 +177,7 @@ The following table gives {@{the expected values of some commonly occurring [pro
 >   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }xe^{-x^{2}/2}\,dx=0$ <!--SR:!2026-06-09,125,405!2026-05-19,102,385-->
 > - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup>
 >   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$ <!--SR:!2026-06-09,125,405!2026-06-28,140,405-->
->   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$ <!--SR:!2026-05-22,103,385!2026-02-25,30,345-->
+>   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$ <!--SR:!2026-05-22,103,385!2026-06-06,101,345-->
 > - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup>
 >   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Notation ::@:: $X\sim \mathrm {Cauchy} (x_{0},\gamma )$ <!--SR:!2026-06-28,140,405!2026-06-17,132,405-->
 >   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\pi } }\int _{-\infty }^{\infty }{\frac {\gamma x}{(x-x_{0})^{2}+\gamma ^{2} } }\,dx$ is [undefined](indeterminate%20form.md) <!--SR:!2026-05-21,102,385!2026-05-11,97,385-->

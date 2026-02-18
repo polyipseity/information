@@ -67,7 +67,7 @@ In {@{the diagram on the right}@}, {@{an incident [plane wave](plane%20wave.md) 
 
 > {@{![Power coefficients: glass to air](../../archives/Wikimedia%20Commons/Fresnel%20power%20glass-to-air.svg)}@}
 >
-> {@{Power coefficients: glass to air}@} \({@{Total internal reflection starts from 42°}@} making {@{reflection coefficient 1}@}\) <!--SR:!2026-02-25,217,340!2026-02-27,220,346!2026-07-06,329,349!2026-05-13,281,330-->
+> {@{Power coefficients: glass to air}@} \({@{Total internal reflection starts from 42°}@} making {@{reflection coefficient 1}@}\) <!--SR:!2028-03-04,738,340!2026-02-27,220,346!2026-07-06,329,349!2026-05-13,281,330-->
 
 We call {@{the fraction of the incident [power](power%20(physics).md) that is reflected from the interface}@} {@{the _[reflectance](reflectance.md)_ \(or __reflectivity__, or __power reflection coefficient__\) _R_}@}, and {@{the fraction that is refracted into the second medium}@} is called {@{the _[transmittance](transmittance.md)_ \(or __transmissivity__, or __power transmission coefficient__\) _T_}@}. Note that these are {@{what would be measured right _at_ each side of an interface}@} and do not {@{account for attenuation of a wave in an absorbing medium _following_ transmission or reflection}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-03-23,241,330!2026-05-22,282,349!2026-09-10,384,364!2026-04-14,257,330!2026-04-14,257,330!2026-09-18,383,366-->
 

@@ -15,7 +15,7 @@ In {@{[digital electronics](digital%20electronics.md)}@}, {@{a __binary decoder_
 
 There are {@{several types of binary decoders}@}, but in all cases a decoder is {@{an electronic circuit with multiple input and multiple output signals}@}, which {@{converts every unique combination of input states to a specific combination of output states}@}. In addition to {@{integer data inputs}@}, some decoders also have {@{one or more "enable" inputs}@}. When {@{the enable input is negated \(disabled\)}@}, {@{all decoder outputs are forced to their inactive states}@}. <!--SR:!2026-03-06,294,330!2029-06-14,1228,350!2029-07-25,1263,350!2029-06-15,1229,350!2026-03-06,294,330!2029-07-24,1263,350!2029-05-28,1215,350-->
 
-Depending on {@{its function}@}, a binary decoder will {@{convert binary information from n input signals to as many as 2<sup>n</sup> unique output signals}@}. Some decoders have {@{less than 2<sup>n</sup> output lines}@}; in such cases, {@{at least one output pattern may be repeated for different input values}@}. <!--SR:!2029-05-27,1215,350!2028-11-18,1065,350!2026-02-25,285,330!2026-03-01,289,330-->
+Depending on {@{its function}@}, a binary decoder will {@{convert binary information from n input signals to as many as 2<sup>n</sup> unique output signals}@}. Some decoders have {@{less than 2<sup>n</sup> output lines}@}; in such cases, {@{at least one output pattern may be repeated for different input values}@}. <!--SR:!2029-05-27,1215,350!2028-11-18,1065,350!2029-09-14,1297,350!2026-03-01,289,330-->
 
 A binary decoder is usually implemented as {@{either a stand-alone [integrated circuit](integrated%20circuit.md) \(IC\) or as part of a more complex IC}@}. In the latter case the decoder may be {@{synthesized by means of a [hardware description language](hardware%20description%20language.md)}@} such as {@{[VHDL](VHDL.md) or [Verilog](Verilog.md)}@}. {@{Widely used decoders}@} are often {@{available in the form of standardized ICs}@}. <!--SR:!2028-11-16,1062,350!2029-02-25,1141,350!2029-07-20,1258,350!2029-07-11,1251,350!2029-02-27,1143,350-->
 
@@ -37,20 +37,20 @@ Examples of this type of decoder include:
 
 ### code translator
 
-Code translators differ from {@{1-of-n decoders in that multiple output bits may be active at the same time}@}. An example of this is {@{a _seven-segment decoder_}@}, which converts {@{an integer into the combination of segment control signals needed to display the integer's value on a [seven-segment display](seven-segment%20display.md) digit}@}. <!--SR:!2029-03-21,1165,350!2029-08-21,1277,350!2026-02-25,285,330-->
+Code translators differ from {@{1-of-n decoders in that multiple output bits may be active at the same time}@}. An example of this is {@{a _seven-segment decoder_}@}, which converts {@{an integer into the combination of segment control signals needed to display the integer's value on a [seven-segment display](seven-segment%20display.md) digit}@}. <!--SR:!2029-03-21,1165,350!2029-08-21,1277,350!2028-09-22,940,330-->
 
 One variant of seven-segment decoder is the _BCD to seven-segment decoder_, which translates a binary-coded decimal value into the corresponding segment control signals for input integer values 0 to 9. This decoder function is available in standard ICs such as the CMOS [4511](4511.md#4511%20BCD%20to%20seven-segment%20decoder).
 
 ### binary to unary decoder
 
-A binary to unary decoder converts {@{each binary value to its associated [unary](unary%20coding.md) representation}@}. Unlike {@{the 1-of-n \(one-hot\) decoder, multiple output bits can be asserted for each input value}@}. These decoders can be used in {@{[DACs](digital-to-analog%20converter.md) where each bit is equally weighted}@}, and {@{circuits that require a binary [mask](mask%20(computing).md) or window}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-03-02,290,330!2029-06-01,1215,350!2026-02-25,285,330!2029-06-20,1234,350-->
+A binary to unary decoder converts {@{each binary value to its associated [unary](unary%20coding.md) representation}@}. Unlike {@{the 1-of-n \(one-hot\) decoder, multiple output bits can be asserted for each input value}@}. These decoders can be used in {@{[DACs](digital-to-analog%20converter.md) where each bit is equally weighted}@}, and {@{circuits that require a binary [mask](mask%20(computing).md) or window}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-03-02,290,330!2029-06-01,1215,350!2029-09-21,1304,350!2029-06-20,1234,350-->
 
 ## see also
 
 >![Wiktionary logo](../../archives/Wikimedia%20Commons/Wiktionary-logo-en-v2.svg) Look up ___[decoder](https://en.wiktionary.org/wiki/decoder)___ in Wiktionary, the free dictionary.
 
 - [Multiplexer](multiplexer.md)
-- [One-hot](one-hot.md), ::@:: the format of the 1-of-n decoder's output \(or the unencoded output of a ring counter\) <!--SR:!2026-02-25,285,330!2026-03-06,294,330-->
+- [One-hot](one-hot.md), ::@:: the format of the 1-of-n decoder's output \(or the unencoded output of a ring counter\) <!--SR:!2029-09-13,1296,350!2026-03-06,294,330-->
 - [Priority encoder](priority%20encoder.md)
 - [Sum-addressed decoder](sum-addressed%20decoder.md)
 

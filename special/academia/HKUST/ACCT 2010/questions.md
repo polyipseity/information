@@ -525,7 +525,7 @@ tags:
 > 3. Accelerated depreciation
 >
 > - solution: {@{1}@}
-> - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2026-02-25,327,361!2026-06-03,432,381-->
+> - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2030-08-01,1618,381!2026-06-03,432,381-->
 
 <!-- markdownlint MD028 -->
 
