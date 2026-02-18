@@ -1,0 +1,1 @@
+squared deviations from the mean.md
