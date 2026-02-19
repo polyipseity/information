@@ -405,6 +405,12 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
   - `general/` encyclopedia entries for concepts
   - Other `special/` materials (e.g., programming ref from course notes)
 
+### Developer tooling & tests (special/)
+
+- Any new tool or helper script that transforms or ingests `special/` content requires unit tests and integration tests; tests should be placed under `tests/` using `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) to avoid mutating the repo. For conversion tools, add regression tests that verify expected output for representative inputs and that guard against accidental format drift. When converting path-like objects to strings in tests or code, **always** use `os.fspath(path_like)`.
+- For content changes that affect pytextgen fences, add round-trip tests that run `uv run -m init generate` and assert the generated fences are unchanged except for intentional updates.
+- Ensure `pnpm run check`, `pnpm run format`, and `pnpm run test` pass locally before opening a PR.
+
 ### Academia-specific
 
 - **Course codes**: Preserve institution-specific formatting (e.g., HKUST uses `COMP 2012`, not `COMP2012` in titles, but both in aliases)
@@ -496,4 +502,4 @@ Different content types use pytextgen differently:
    - Nested cloze deletions with `{@{ }@}`
    - Hard-marked terms with `hard(...)` wrapper
 
-**Regeneration**: Use `python -m init generate <path>` to regenerate pytextgen blocks after editing source data
+**Regeneration**: Use `uv run -m init generate <path>` to regenerate pytextgen blocks after editing source data

@@ -21,7 +21,7 @@ assignment:
     3244244:
       attachments: []
       author: LI, Shangyu
-      content: 'Grading Tests (100 pts for 1 to 6): 100 100 100 100 30 0.'
+      content: "Grading Tests (100 pts for 1 to 6): 100 100 100 100 30 0."
       datetime: 2024-10-20 19:23:00+08:00
       id: 3244244
   content: 'Materials
@@ -114,14 +114,14 @@ assignment:
       start: null
     due: 2024-10-19 23:59:00+08:00
     file types:
-    - zip
+      - zip
     points: 100
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2024-10-19 23:55:00+08:00
-    id: -1
-  title: 'Programming Assignment #1'
+    - datetime: 2024-10-19 23:55:00+08:00
+      id: -1
+  title: "Programming Assignment #1"
 course:
   id: 58181
   name: COMP3021 (L1)

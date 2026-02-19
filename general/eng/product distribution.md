@@ -1,0 +1,1 @@
+distribution of the product of two random variables.md

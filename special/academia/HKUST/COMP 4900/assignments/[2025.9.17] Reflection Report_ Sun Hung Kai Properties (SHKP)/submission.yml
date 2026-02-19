@@ -1,6 +1,7 @@
 assignment:
   comments: {}
-  content: Here is the reflection report template, and some sample reflection reports for
+  content:
+    Here is the reflection report template, and some sample reflection reports for
     your reference.
   grade:
     entered: 1
@@ -16,13 +17,13 @@ assignment:
     due: 2025-09-24 23:59:00+08:00
     points: 1
     submitting:
-    - a text entry box
-    - a website url
-    - a file upload
+      - a text entry box
+      - a website url
+      - a file upload
   submissions:
-  - datetime: 2025-09-24 18:56:00+08:00
-    id: -1
-  title: '[2025.9.17] Reflection Report: Sun Hung Kai Properties (SHKP)'
+    - datetime: 2025-09-24 18:56:00+08:00
+      id: -1
+  title: "[2025.9.17] Reflection Report: Sun Hung Kai Properties (SHKP)"
 course:
   id: 64636
   name: COMP4900 (T1-T3)

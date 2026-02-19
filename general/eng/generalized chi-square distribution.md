@@ -1,0 +1,1 @@
+generalized chi-squared distribution.md

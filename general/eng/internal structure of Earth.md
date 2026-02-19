@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ```Python

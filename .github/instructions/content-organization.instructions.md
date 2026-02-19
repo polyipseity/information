@@ -13,7 +13,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 - **`general/`** — Encyclopedic content (mostly verbatim from Wikipedia).
   - Flat `.md` files with YAML frontmatter (`aliases`, `tags`, `language`).
   - Use **relative links** (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
-  - Updated primarily via: `python -m "convert wiki"`.
+  - Updated primarily via: `uv run -m "convert wiki"`.
 
 - **`special/`** — Specialized materials: course notes, tutorials, and frameworks.
   - `academia/` is organized by **institution → semester/year → course**; each institution typically includes `reviews.md` and course folders.
@@ -24,8 +24,9 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
   - Each archive directory should include an `index.md` with source URL, timestamp and description; `pyarchivist` can auto-update these.
 
 - **`tools/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
-  - Prefer running wrappers (`pnpm run ...` or `python -m ...`) rather than hand-editing generated outputs.
+  - Prefer running wrappers (`pnpm run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
   - Notable submodules: `tools/pytextgen/` and `tools/pyarchivist/` (treat as external tools).
+Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.github/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
 ---
 
@@ -57,7 +58,16 @@ python .github/skills/academic-notes/validate_academic.py --content private/spec
 
 ---
 
+## Developer tooling & testing conventions
+
+- Use `pyproject.toml` as the authoritative Python dependency manifest. Keep runtime dependencies in `[project].dependencies` and developer tools in `[dependency-groups].dev` (PEP 722 style). Running `pnpm install` will trigger `prepare`, which runs `uv sync` to install dev extras from `pyproject.toml` using the project's `uv.lock`.
+- Tests: Place tests under `tests/`, mirror the source layout when possible, and use `pytest` (`test_*.py` naming). Add tests for any script, tool or instruction change (especially changes that affect content generation or publishing). Use `pytest.mark.asyncio` for async tests.
+- Hooks & automation: Register Husky hooks with `pnpm run prepare`. Pre-commit runs lint-staged which runs markdown and code formatters; pre-push runs the test suite to avoid broken pushes.
+- Local validation: Before committing or opening a PR run `pnpm run format` and `pnpm run check` and `pnpm run test` locally.
+
+---
+
 ## Other important files
 
-- **`preamble.sty`** — LaTeX macros used by Extended MathJax in Obsidian.
+- **`.obsidian/plugins/obsidian-latex/preamble.sty`** — LaTeX macros used by Extended MathJax in Obsidian.
 - **`.git/`**, **`.github/`**, **`.obsidian/`**, **`.vscode/`** — configuration and workspace files (do not edit unless explicitly requested).

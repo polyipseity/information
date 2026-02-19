@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 __Plastics__ are {@{[synthetic](synthetic%20polymers.md) or semi-synthetic [materials](material.md) consisting of [polymers](polymer.md)}@}. <!--SR:!2031-01-12,2140,321-->

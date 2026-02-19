@@ -1,8 +1,8 @@
 assignment:
   comments: {}
-  content: 'Lab Assignment
+  content: "Lab Assignment
 
-     Work out the solutions for below items:
+    Work out the solutions for below items:
 
 
     Part 1: Exercise 2 Step 2.1 Fill in the missing code in Methods: Book() and getChapter()
@@ -22,7 +22,7 @@ assignment:
     Submission
 
     Submit your answers in one PDF file, including code in Exercise 2 and Exercise
-    3 along with the explanation file for the code in Exercise 3.'
+    3 along with the explanation file for the code in Exercise 3."
   grade:
     entered: 2
     graded anonymously: false
@@ -36,13 +36,13 @@ assignment:
       start: 2025-09-18 00:00:00+08:00
     due: 2025-09-26 23:59:00+08:00
     file types:
-    - pdf
+      - pdf
     points: 2
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-09-25 00:51:00+08:00
-    id: -1
+    - datetime: 2025-09-25 00:51:00+08:00
+      id: -1
   title: Lab 2 Submission
 course:
   id: 64514

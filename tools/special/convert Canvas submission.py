@@ -1,14 +1,18 @@
-from anyio import Path
 from asyncio import run
-from bs4 import BeautifulSoup, Tag
+from collections.abc import Callable, Collection, Mapping, Sequence
 from contextlib import suppress
 from copy import copy
 from datetime import datetime, timedelta
 from enum import StrEnum
 from io import StringIO
-from re import Pattern, compile as re_compile
+from re import Pattern
+from re import compile as re_compile
 from sys import stderr
-from typing import Callable, Collection, Mapping, NamedTuple, Sequence, final
+from typing import NamedTuple, final
+
+from anyio import Path
+from bs4 import BeautifulSoup, Tag
+from bs4.element import AttributeValueList
 from yaml import safe_dump
 
 _MONTH_NAMES = (
@@ -442,9 +446,11 @@ def parse_comments(
                     ) or "comment" not in comment_ele.get_attribute_list("class"):
                         continue
 
-                    id = " ".join(comment_ele.get_attribute_list("id", ["comment--1"]))[
-                        len("comment-") :
-                    ]
+                    id = " ".join(
+                        comment_ele.get_attribute_list(
+                            "id", AttributeValueList(["comment--1"])
+                        )
+                    )[len("comment-") :]
                     with suppress(ValueError):
                         id = int(id)
 
@@ -493,7 +499,9 @@ def parse_comments(
                         continue
 
                     id = " ".join(
-                        comment_ele.get_attribute_list("id", ["submission_comment_-1"])
+                        comment_ele.get_attribute_list(
+                            "id", AttributeValueList(["submission_comment_-1"])
+                        )
                     )[len("submission_comment_") :]
                     with suppress(ValueError):
                         id = int(id)

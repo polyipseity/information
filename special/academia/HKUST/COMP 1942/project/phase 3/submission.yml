@@ -1,6 +1,6 @@
 assignment:
   comments: {}
-  content: ''
+  content: ""
   grade:
     entered: 60
     graded anonymously: null
@@ -8,8 +8,8 @@ assignment:
   id: 310342
   properties: {}
   submissions:
-  - datetime: 2024-04-25 22:38:00+08:00
-    id: -1
+    - datetime: 2024-04-25 22:38:00+08:00
+      id: -1
   title: Project Phase 3
 course:
   id: 54709

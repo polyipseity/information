@@ -6,7 +6,8 @@ assignment:
       content: https://github.com/polyipseity/hkust-comp-3021/tree/lab/7
       datetime: 2024-10-29 23:01:00+08:00
       id: 3257079
-  content: 'Provide the link to your GitHub repositories and a screenshot of the execution
+  content:
+    "Provide the link to your GitHub repositories and a screenshot of the execution
     results.
 
     JUnitTest.java
@@ -23,11 +24,11 @@ assignment:
 
 
 
-    Download lab7Function.txt'
+    Download lab7Function.txt"
   grade:
-    entered: ''
+    entered: ""
     graded anonymously: null
-    possible: ''
+    possible: ""
   id: 341839
   properties:
     available:
@@ -35,15 +36,15 @@ assignment:
       start: 2024-10-20 00:00:00+08:00
     due: 2024-10-29 23:59:00+08:00
     file types:
-    - png
-    - jpeg
-    - and jpg
+      - png
+      - jpeg
+      - and jpg
     points: 0
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2024-10-29 23:01:00+08:00
-    id: -1
+    - datetime: 2024-10-29 23:01:00+08:00
+      id: -1
   title: Lab#7 (not graded)
 course:
   id: 58181

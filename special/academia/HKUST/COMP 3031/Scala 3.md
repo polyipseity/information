@@ -817,7 +817,7 @@ Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,
 
 {@{Anonymous functions}@} allow us to {@{define functions without _naming_ them}@}. The full syntax is {@{`(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) => <expr>`}@}. {@{The return type}@} {@{cannot be specified and is inferred from `<expr>`}@}. {@{The argument types}@} {@{can be omitted if it can be inferred}@}, e.g. {@{when defining an anonymous function to pass to an argument in a function call}@}. If {@{there is exactly 1 argument with an omitted argument type}@}, then {@{parentheses \(`()`\) are optional}@}. <!--SR:!2027-06-25,509,399!2027-05-05,464,390!2027-06-30,514,399!2027-07-21,531,399!2026-12-25,355,379!2027-06-08,492,399!2027-06-11,495,399!2026-09-20,280,370!2027-06-10,497,399!2027-05-23,479,390-->
 
-For some reason, {@{call-by-name syntax}@} {@{does not work with anonymous functions}@}. <!--SR:!2027-06-28,511,399!2027-07-22,532,399-->
+For some reason, {@{call-by-name syntax}@} does not {@{work with anonymous functions}@}. <!--SR:!2027-06-28,511,399!2027-07-22,532,399-->
 
 It can be treated as {@{_syntactic sugar_}@} for the following more verbose syntax: {@{`{ def f(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) = <expr>; f }`}@} <!--SR:!2027-05-14,473,390!2027-06-13,497,399-->
 

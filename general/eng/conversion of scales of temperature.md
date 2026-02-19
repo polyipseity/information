@@ -11,10 +11,10 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 from asyncio import gather as _gather
 from itertools import chain as _chain
-from pytextgen.util import Location as _Loc, NULL_LOCATION as _NULL_LOC
+from pytextgen.compat.util import Location as _Loc, NULL_LOCATION as _NULL_LOC
 
 headers = ("[temperature scale](temperature%20scale.md)", "from {}", "to {}",)
 t_celsius = "[Celsius](Celsius.md)"

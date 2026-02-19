@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ## usage
@@ -26,7 +26,7 @@ Increase in standard electrode potential {@{increases [oxidizing power](oxidatio
 from collections import defaultdict
 from dataclasses import dataclass
 from decimal import Decimal
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 from types import MappingProxyType
 from typing import final
 

@@ -8,6 +8,12 @@
   "showingRules": [
     "+/",
     "-/\\.git(?:\\/|$)/u",
-    "-/\\.venv(?:\\/|$)/u"
+    "-/\\.husky(?:\\/|$)/u",
+    "-/\\.hypothesis(?:\\/|$)/u",
+    "-/\\.pytest_cache(?:\\/|$)/u",
+    "-/\\.ruff_cache(?:\\/|$)/u",
+    "-/\\.venv(?:\\/|$)/u",
+    "-/__pycache__(?:\\/|$)/u",
+    "-/node_modules(?:\\/|$)/u"
   ]
 }

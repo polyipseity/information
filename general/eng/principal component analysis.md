@@ -14,7 +14,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ## overview
@@ -35,7 +35,7 @@ The goal is to {@{transform a given data set __X__ of dimension _p_ to another d
 # pytextgen generate data
 from asyncio import gather
 from itertools import chain
-from pytextgen.util import Result
+from pytextgen.compat.util import Result
 steps = """
 organize the data set
 calculate the empirical mean

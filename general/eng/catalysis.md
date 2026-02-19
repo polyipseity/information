@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 __Catalysis__ is {@{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}@}. Catalysts are {@{not consumed in the reaction and remain chemically unchanged afterwards}@}. If the reaction is fast and the catalyst replenishes quickly, {@{only small amounts of catalyst is needed}@}. {@{Surface area, [temperature](temperature.md), and mixing}@} affect the catalyzed [reaction rate](reaction%20rate.md). <!--SR:!2031-09-12,2309,330!2032-08-09,2402,310!2030-02-06,1971,383!2028-10-08,1293,323-->

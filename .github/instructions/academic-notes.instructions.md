@@ -39,3 +39,8 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 ## Continuous improvement
 
 This instruction set and the skill are living artifacts. If you discover missing examples, ambiguous rules, or repeated validation warnings, follow the steps in `continuous_improvement.md` to record feedback, draft a minimal clarification, and present it for maintainer review.
+
+## Developer tooling & tests (academic notes)
+
+- When adding tooling or scripts that process academic notes (for example, LMS converters), include unit tests and integration tests that exercise representative course pages and edge cases (missing metadata, unexpected frontmatter). Place tests under `tests/` and mirror paths where useful (e.g., `tests/tools/test_convert_canvas.py`).
+- Validators updated for academic notes must come with tests that assert expected warnings and validation results. Run `pnpm run check` and `pnpm run test` locally before proposing CI changes.

@@ -21,6 +21,7 @@ Output (JSON): fields include:
 
 Human view (`--human`): a concise, human-readable list with title, url and suggested `general/` path.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -137,7 +138,9 @@ def main(argv: list[str] | None = None) -> int:
         description="Search English Wikipedia and suggest general/ link targets",
     )
     parser.add_argument("query", nargs="+", help="Search terms")
-    parser.add_argument("--limit", type=int, default=3, help="Number of search results to return")
+    parser.add_argument(
+        "--limit", type=int, default=3, help="Number of search results to return"
+    )
     parser.add_argument(
         "--pretty",
         action="store_true",
@@ -170,7 +173,7 @@ def main(argv: list[str] | None = None) -> int:
         # Human-friendly summary lines with extracts
         for i, o in enumerate(out, start=1):
             print(f"{i}. {o['title']} — {o['url']}")
-            if o.get('extract'):
+            if o.get("extract"):
                 print(f"   {o['extract']}")
             print(f"   Suggested general/ path: {o['general_path']}")
             print()

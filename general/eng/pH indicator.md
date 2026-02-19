@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 import typing
 @typing.final
 class pHRanges(typing.NamedTuple):

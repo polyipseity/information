@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 > ![official IPA chart](../../archives/Wikimedia%20Commons/IPA%20chart%202020.svg)
@@ -32,7 +32,7 @@ tags:
 # pytextgen generate data
 from asyncio import gather
 from itertools import chain
-from pytextgen.util import NULL_LOCATION, Result
+from pytextgen.compat.util import NULL_LOCATION, Result
 letters = (
   ('[open front unrounded vowel](open%20front%20unrounded%20vowel.md)', R'\[a\]', '![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _h**a**t_ \[hat\]',),
   ('[open central unrounded vowel](open%20central%20unrounded%20vowel.md)', R'\[ä\]', '![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _br**a**_ \[bɹäː\]',),

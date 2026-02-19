@@ -27,7 +27,7 @@ assignment:
     3313346:
       attachments: []
       author: LAM, Chun Kit
-      content: 'Task 2.1 (20/20):
+      content: "Task 2.1 (20/20):
 
         OK!
 
@@ -57,7 +57,7 @@ assignment:
         OK!
 
 
-        Total = 100'
+        Total = 100"
       datetime: 2024-12-04 21:14:00+08:00
       id: 3313346
   content: 'Materials
@@ -159,14 +159,14 @@ assignment:
       start: null
     due: 2024-11-30 23:59:00+08:00
     file types:
-    - zip
+      - zip
     points: 100
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2024-11-30 23:51:00+08:00
-    id: -1
-  title: 'Programming Assignment #2'
+    - datetime: 2024-11-30 23:51:00+08:00
+      id: -1
+  title: "Programming Assignment #2"
 course:
   id: 58181
   name: COMP3021 (L1)

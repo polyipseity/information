@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 The __Bohr model__ or __{@{Rutherford–Bohr}@} model__ is {@{an [atom](atom.md) model}@} where {@{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}@}. They are attracted by {@{electrostatic forces}@}. It was presented by {@{[Niels Bohr](Niels%20Bohr.md)}@} and {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1913}@}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2030-04-18,1542,210!2029-11-29,1767,310!2027-10-02,984,232!2036-06-16,3777,352-->

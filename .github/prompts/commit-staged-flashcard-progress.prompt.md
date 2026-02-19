@@ -72,11 +72,9 @@ they fail or are unavailable, fall back to the provided input values.
 3. Compose commit message
    - Use Conventional Commit style for the commit header.
    - Use these header formats (choose the one that matches the session):
-     - Learn only: `chore(flashcards): learn N cards`
-     - Review only: `chore(flashcards): review D/T
-       cards (YYYY-MM-DD)`
-     - Both learn and review: `chore(flashcards): learn N; review D/T
-       cards (YYYY-MM-DD)`
+     - Learn only: `chore(flashcards): learn N card(s)`
+     - Review only: `chore(flashcards): review D/T card(s) (YYYY-MM-DD)`
+     - Both learn and review: `chore(flashcards): learn N; review D/T card(s) (YYYY-MM-DD)`
 
    - The commit body should briefly describe the session and any relevant
      context (e.g., sources, study constraints). Keep lines wrapped to 72

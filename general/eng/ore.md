@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 An __ore__ is {@{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}@} <!--SR:!2031-05-20,1917,250-->

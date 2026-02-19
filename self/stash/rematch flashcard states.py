@@ -9,8 +9,9 @@ Rematch flashcard states using paragraphing.
 
 from functools import reduce
 from itertools import chain
-from pyperclip import copy, paste
 from re import DOTALL, compile
+
+from pyperclip import copy, paste
 
 FLASHCARD_STATES_REGEX = compile(r"\s*<!--SR:(.+?)-->", flags=DOTALL)
 FLASHCARD_STATE_REGEX = compile(r"!\d{4}-\d{2}-\d{2},\d+,\d+")
@@ -51,7 +52,7 @@ def main() -> None:
 
     result = "\n\n".join(
         (
-            f"{paragraph} <!--SR:{''.join(flashcard_states[flashcard_cum_counts[idx]:flashcard_cum_counts[idx + 1]])}-->"
+            f"{paragraph} <!--SR:{''.join(flashcard_states[flashcard_cum_counts[idx] : flashcard_cum_counts[idx + 1]])}-->"
             if flashcard_counts[idx] > 0
             else paragraph
         )

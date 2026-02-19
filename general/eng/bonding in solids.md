@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ## basic kinds
@@ -24,7 +24,7 @@ A __molecular solid__, also called __simple molecular structure__, {@{consists o
 
 ```Python
 # pytextgen generate data
-from pytextgen.util import NULL_LOCATION
+from pytextgen.compat.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('9d9d'), NULL_LOCATION,),
   ('property', 'description',),
@@ -59,7 +59,7 @@ A __network covalent solid__, also called __giant covalent structure__, {@{consi
 
 ```Python
 # pytextgen generate data
-from pytextgen.util import NULL_LOCATION
+from pytextgen.compat.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('357d'), NULL_LOCATION,),
   ('property', 'description',),
@@ -94,7 +94,7 @@ A __ionic sold__, also called __giant ionic structure__, {@{consists of [atoms](
 
 ```Python
 # pytextgen generate data
-from pytextgen.util import NULL_LOCATION
+from pytextgen.compat.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('5460'), NULL_LOCATION,),
   ('property', 'description',),
@@ -129,7 +129,7 @@ A __metallic solid__, also called __giant metallic structure__, {@{consists of [
 
 ```Python
 # pytextgen generate data
-from pytextgen.util import NULL_LOCATION
+from pytextgen.compat.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('435d'), NULL_LOCATION,),
   ('property', 'description',),

@@ -30,11 +30,10 @@ def process_markdown_table(md_table: str) -> tuple[list[dict[str, str]], list[st
 
     Returns (rows, markdown_lines).
     """
-    if not isinstance(md_table, str):
-        raise TypeError("md_table must be a string containing a Markdown table.")
+    # `md_table` is statically typed as `str`; no runtime isinstance() check required.
 
-    lines = [l.strip() for l in md_table.splitlines()]
-    lines = [l for l in lines if l]
+    lines = [line.strip() for line in md_table.splitlines()]
+    lines = [line for line in lines if line]
     if len(lines) < 2:
         return [], []
 
@@ -56,14 +55,14 @@ def process_markdown_table(md_table: str) -> tuple[list[dict[str, str]], list[st
         if is_separator:
             data_start_idx = 2
 
-    rows = []
+    rows: list[dict[str, str]] = []
     for i in range(data_start_idx, len(lines)):
         cells = split_row(lines[i])
-        normalized = [
+        normalized: list[str] = [
             ((cells[idx] if idx < len(cells) else "") or "").strip()
             for idx in range(len(header_cells))
         ]
-        obj = {
+        obj: dict[str, str] = {
             header_cells[idx].strip(): normalized[idx]
             for idx in range(len(header_cells))
         }
@@ -71,14 +70,14 @@ def process_markdown_table(md_table: str) -> tuple[list[dict[str, str]], list[st
 
     headers = [h.strip() for h in header_cells]
 
-    markdown_lines = []
+    markdown_lines: list[str] = []
     for row in rows:
         if not headers:
             markdown_lines.append("")
             continue
         first_header = headers[0]
         first_value = (row.get(first_header, "") or "").strip()
-        lines_for_row = [f"- {first_value}"]
+        lines_for_row: list[str] = [f"- {first_value}"]
         for header in headers[1:]:
             value = (row.get(header, "") or "").strip()
             lines_for_row.append(f"  -  {first_value} / {header} ::@:: {value}")

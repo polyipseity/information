@@ -1,0 +1,143 @@
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[project]
+name = "information-beb48618-576e-45ea-bd50-9e47279f88dc"
+version = "0.0.0"
+requires-python = ">=3.12.0"
+description = "Personal Markdown knowledge base"
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+dependencies = [
+  "aiohttp>=3.9.0",
+  "aioshutil>=1.2.0",
+  "anyio>=3.6.0",
+  "asyncstdlib>=3.10.0",
+  "beautifulsoup4>=4.12.0",
+  "cihai>=0.36.0",
+  "country-converter>=1.3.0",
+  "jaraco.clipboard>=3.1.0",
+  "markdown>=3.6.0",
+  "numpy>=2.0.0",
+  "opencv-python>=4.13.0",
+  "pandas>=3.0.0",
+  "pillow>=10.3.0",
+  "pyperclip>=1.9.0",
+  "pyarchivist>=2.1.0",
+  "pytextgen>=8.0.0",
+  "pyyaml>=6.0.0",
+  "requests>=2.32.0",
+  "yarl>=1.9.0",
+]
+
+[project.scripts]
+
+[project.urls]
+repository = "https://github.com/polyipseity/information.git"
+
+[dependency-groups]
+dev = [
+  "hypothesis>=6.151.0",
+  "pandas-stubs>=3.0.0",
+  "pytest>=9.0.0",
+  "pytest-asyncio>=1.3.0",
+  "pytest-cov>=7.0.0",
+  "pytest-xdist>=3.8.0",
+  "ruff>=0.15.0",
+]
+
+[tool.pyright]
+exclude = [
+  "**/node_modules",
+  "**/__pycache__",
+  "**/.*",
+  ".venv",
+  # These contain their own pyright configurations, and are not intended to be type-checked as part of this project.
+  "self/arts",
+  "self/capture the flag",
+  "self/ledger",
+  "self/passwords",
+  "tools/pyarchivist",
+  "tools/pytextgen",
+  # self
+  "private/special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*assignment*/**/*.py",
+  "private/special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*exercise*/**/*.py",
+  "private/special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*homework*/**/*.py",
+  "private/special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*lab*/**/*.py",
+  "private/special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*tutorial*/**/*.py",
+  "special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "special/academia/HKUST/**/*assignment*/**/*.py",
+  "special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "special/academia/HKUST/**/*exercise*/**/*.py",
+  "special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "special/academia/HKUST/**/*homework*/**/*.py",
+  "special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "special/academia/HKUST/**/*lab*/**/*.py",
+  "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "special/academia/HKUST/**/*tutorial*/**/*.py",
+]
+typeCheckingMode = "strict"
+venv = ".venv"
+venvPath = "."
+pythonPlatform = "All"
+pythonVersion = "3.12"
+deprecateTypingAliases = true
+enableReachabilityAnalysis = true
+strictDictionaryInference = true
+strictListInference = true
+strictSetInference = true
+
+[[tool.pyright.executionEnvironments]]
+extraPaths = ["."]
+reportPrivateUsage = "none"
+root = "tests"
+
+[[tool.pyright.executionEnvironments]]
+root = "."
+
+[tool.pytest.ini_options]
+addopts = ["--cov=./", "--cov-report=term-missing", "--dist=loadscope", "-n=auto", "--strict-markers"]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.ruff]
+line-length = 88
+extend-exclude = [
+  # self
+  "special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "special/academia/HKUST/**/*assignment*/**/*.py",
+  "special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "special/academia/HKUST/**/*exercise*/**/*.py",
+  "special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "special/academia/HKUST/**/*homework*/**/*.py",
+  "special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "special/academia/HKUST/**/*lab*/**/*.py",
+  "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "special/academia/HKUST/**/*tutorial*/**/*.py",
+]
+
+[tool.ruff.lint]
+# Enable Pylint-derived rule that disallows imports outside module top-level
+# (import-outside-top-level / PLC0415). Ruff 0.12.0+ provides this rule.
+extend-select = ["I", "PLC0415"]
+
+[tool.uv]
+required-version = ">=0.10.0,<0.11.0"
+
+[tool.uv.build-backend]
+# Do not include any packages in the build, as this project is only a collection of tools and scripts.
+module-name = []
+source-include = ["py.typed"]
+
+[tool.uv.sources]
+pyarchivist = { path = "tools/pyarchivist" }
+pytextgen = { path = "tools/pytextgen" }
+
+[tool.uv.workspace]
+members = [] # Do not use, otherwise `uv.lock` in children packages will be ignored.

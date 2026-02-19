@@ -1,7 +1,7 @@
 ---
 name: LaTeX preamble
-description: Editing guardrails for preamble.sty
-applyTo: "preamble.sty"
+description: Editing guardrails for .obsidian/plugins/obsidian-latex/preamble.sty
+applyTo: ".obsidian/plugins/obsidian-latex/preamble.sty"
 ---
 
 # LaTeX Preamble Guidelines

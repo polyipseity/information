@@ -2,11 +2,12 @@ assignment:
   comments:
     3627829:
       attachments: []
-      author: '[redacted]'
+      author: "[redacted]"
       content: Well done!
       datetime: 2025-12-14 12:39:00+08:00
       id: 3627829
-  content: "Download the skeleton project at ass3.zip\n\n\n\n\nDownload ass3.zip.\n\
+  content:
+    "Download the skeleton project at ass3.zip\n\n\n\n\nDownload ass3.zip.\n\
     The goal of this assignment is to extend the Scheme-- interpreter from the lecture\
     \ to include more features, namely class-based pattern matching and call-by-need\
     \ evaluation.\nThe skeleton code is essentially the same as the implementation\
@@ -143,14 +144,14 @@ assignment:
   properties:
     due: 2025-12-07 23:59:00+08:00
     file types:
-    - zip
+      - zip
     points: 10
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-12-02 15:33:00+08:00
-    id: -1
-  title: 'Assignment 3: Lisp Interpreter'
+    - datetime: 2025-12-02 15:33:00+08:00
+      id: -1
+  title: "Assignment 3: Lisp Interpreter"
 course:
   id: 64509
   name: COMP3031 (L1)

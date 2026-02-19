@@ -1,10 +1,11 @@
-from anyio import Path
 from asyncio import run
+from collections.abc import Callable, Mapping
 from itertools import chain
-from pyperclip import copy  # type: ignore
 from re import Pattern, compile, escape
-from typing import Callable, Mapping
 from unicodedata import normalize
+
+from anyio import Path
+from pyperclip import copy  # type: ignore
 
 
 async def main() -> None:
@@ -20,9 +21,9 @@ async def main() -> None:
         tag_name += "_"
     replacements: Mapping[Pattern[str], Callable[[str], str]] = {
         compile(escape("(Wikipedia name)")): lambda _, ret=name.replace(" ", "_"): ret,
-        compile(escape("(name)")): lambda _, ret=compile(r" \([^\(]+\)$").sub(
-            "", name
-        ): ret,
+        compile(
+            escape("(name)")
+        ): lambda _, ret=compile(r" \([^\(]+\)$").sub("", name): ret,
         compile(escape("(tag name)")): lambda _: tag_name,
     }
 

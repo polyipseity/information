@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 __Solubility__ is {@{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}@}. <!--SR:!2029-10-05,1641,272-->
@@ -26,7 +26,7 @@ It is measured as {@{the [concentration](concentration.md) of the solute in a sa
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 import typing
 soluble = R'<span style="color\: green;">soluble</span>'
 insoluble = R'<span style="color\: red;">insoluble</span>'

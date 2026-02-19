@@ -7,32 +7,122 @@
 # Triggers:
 #   - push, pull_request, workflow_dispatch
 #
-# Runner selection rationale (why `ubuntu-slim`):
-#   - Lightweight: smaller VM image → faster startup and less disk usage.
-#   - Reduced attack surface: fewer preinstalled packages lowers risk from CVEs.
-#   - Predictable environment: shares core Ubuntu userspace with `ubuntu-latest` while minimizing extras.
-#   - Caveats: some system packages may be missing; add `apt-get install` steps when needed, or switch to `ubuntu-latest` for debugging.
-#
 # Security & reproducibility notes:
 #   - Use least-privilege permissions (contents: read) and pin action versions where appropriate.
-#   - Use local caches for pnpm/pip to speed builds and reduce external load.
+#   - Use local caches for pnpm/uv to speed builds and reduce external load.
+#
+# Workflow inputs (new)
+# - `fallback_submodules` (workflow_dispatch input): newline-separated list of
+#   submodule paths that will be `git submodule update --init --recursive`
+#   when the *fallback* checkout path runs (i.e. app-token checkout failed).
+#   - Format: one relative submodule path per line, for example:
+#       tools/pytextgen
+#       self/ledger
+#   - Default: defined in the fallback-init step's `FALLBACK_SUBMODULES_DEFAULT` (see that step).
+#   - Override via GitHub UI (Run workflow) or API/gh CLI `inputs.fallback_submodules`.
+#   - Note: this does not change the primary checkout behavior when a token is
+#     available; it only controls which submodules the fallback step initializes.
 
 name: "CI: Build & Test"
 
 on:
-  push:
   pull_request:
+  push:
+    branches:
+      - "**" # Listen to pushes on all branches
+    tags-ignore:
+      - "**" # Ignore tag pushes
   workflow_dispatch:
+    inputs:
+      fallback_submodules:
+        description: "Newline-separated list of submodule paths to initialize when the fallback checkout is used"
+        required: false
+
+# Use concurrency to deduplicate runs.
+# - For pull requests: group by `pr-<number>` so multiple commits to the same PR
+#   cancel previous runs and only the latest is kept.
+# - For direct pushes: fall back to deduplicating by commit SHA so identical
+#   commits don't trigger multiple concurrent workflows.
+# - Include the `github.workflow` name in the group to avoid cross-workflow collisions.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || github.sha }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  check:
-    runs-on: ubuntu-slim # using `ubuntu-slim` to minimize image size and attack surface; see header for rationale
+  build:
+    name: "Build & Test"
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
+      - name: Get token from GitHub App
+        uses: actions/create-github-app-token@v1
+        id: checkout-app-token
+        continue-on-error: true # continue even if private repo access fails
+        with:
+          app-id: ${{ secrets.CHECKOUT_APP_ID }}
+          private-key: ${{ secrets.CHECKOUT_APP_PEM }}
+          # owner is required, otherwise the creds will fail the checkout step
+          owner: ${{ github.repository_owner }}
+
+      # Path A: use the GitHub App token if the producer step succeeded and token is non-empty
+      - name: Checkout repository (with app token)
+        if: ${{ steps.checkout-app-token.outcome == 'success' && steps.checkout-app-token.outputs.token != '' }}
         uses: actions/checkout@v6
+        with:
+          submodules: "recursive" # Ensure submodules are checked out if used
+          token: ${{ steps.checkout-app-token.outputs.token }} # private repo access via GitHub App token
+
+      # Path B: fallback to default GITHUB_TOKEN if app token isn't available
+      - name: Checkout repository (fallback)
+        if: ${{ steps.checkout-app-token.outcome != 'success' || steps.checkout-app-token.outputs.token == '' }}
+        uses: actions/checkout@v6
+        continue-on-error: true # continue even if private repo access fails
+        with:
+          submodules: false
+          # No 'token' provided: checkout uses the default GITHUB_TOKEN
+
+      - name: Initialize selected submodules (fallback)
+        if: ${{ steps.checkout-app-token.outcome != 'success' || steps.checkout-app-token.outputs.token == '' }}
+        shell: bash
+        env:
+          # Raw workflow input (present only for workflow_dispatch)
+          FALLBACK_SUBMODULES_INPUT: ${{ github.event.inputs.fallback_submodules }}
+          # Repository default used for push / pull_request events (multiline YAML block)
+          FALLBACK_SUBMODULES_DEFAULT: |
+            self/arts
+            self/capture the flag
+            self/ledger
+            self/polyipseity
+            tools/pyarchivist
+            tools/pytextgen
+        run: |
+          # Prefer explicit workflow_dispatch input when provided; otherwise use default
+          if [ -n "$(printf '%s' "$FALLBACK_SUBMODULES_INPUT" | tr -d '[:space:]')" ]; then
+            FALLBACK_SUBMODULES="$FALLBACK_SUBMODULES_INPUT"
+          else
+            FALLBACK_SUBMODULES="$FALLBACK_SUBMODULES_DEFAULT"
+          fi
+
+          # Skip when list is empty
+          if [ -z "$(printf '%s' "$FALLBACK_SUBMODULES" | tr -d '[:space:]')" ]; then
+            echo "No fallback submodules specified; skipping submodule init."
+            exit 0
+          fi
+
+          # Ensure .gitmodules matches current working tree
+          git submodule sync --quiet
+
+          # Initialize & update each listed submodule (allow recursive init per path)
+          while IFS= read -r sm; do
+            [ -z "$sm" ] && continue
+            echo "Initializing submodule: $sm"
+            git submodule update --init --recursive -- "$sm"
+          done <<EOF
+          $FALLBACK_SUBMODULES
+          EOF
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -40,20 +130,24 @@ jobs:
           run_install: false
 
       - name: Install Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '*'
-          cache: 'pnpm'
+          node-version: "*"
+          cache: "pnpm"
 
-      # Specific to this project: set up Python for any scripts that may be needed
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
         with:
-          python-version-file: .python-version
-          cache: "pip"
+          enable-cache: true
+          version-file: "pyproject.toml"
 
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      - name: Install project
+        run: |
+          pnpm install --frozen-lockfile --ignore-scripts
+          uv sync --locked --all-extras --dev
 
-      - name: Run checks
-        run: pnpm run check
+      - name: Run tests
+        run: pnpm run test
+
+      - name: Build project
+        run: pnpm run build

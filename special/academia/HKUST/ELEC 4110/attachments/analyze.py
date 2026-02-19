@@ -1,5 +1,6 @@
-import numpy as np
 from os import path
+
+import numpy as np
 import pandas as pd
 
 _MAPPING = {
@@ -20,11 +21,11 @@ def main() -> None:
             continue
 
         data = pd.read_csv(input_path, header=0)
-        data_plot = data.plot.hist(bins=np.linspace(0, 100, 21))  # type: ignore
-        data_plot.set_xticks(np.linspace(0, 100, 11))
+        data_plot = data.plot.hist(bins=np.linspace(0, 100, 21))  # type: ignore[reportArgumentType]
+        data_plot.set_xticks(np.linspace(0, 100, 11))  # type: ignore[reportUnknownMemberType]
 
-        data.describe().to_csv(data_output_path)  # type: ignore
-        data_plot.figure.savefig(plot_output_path)  # type: ignore
+        data.describe().to_csv(data_output_path)
+        data_plot.figure.savefig(plot_output_path)  # type: ignore[reportUnknownMemberType]
 
 
 if __name__ == "__main__":

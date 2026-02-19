@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ## quasi-static bending of beams
@@ -19,7 +19,7 @@ tags:
 ```Python
 # pytextgen generate data
 from asyncio import gather
-from pytextgen.util import Result
+from pytextgen.compat.util import Result
 
 items = R"""
 [compressive stress](compression%20(physics).md): the side being shortened by the bending

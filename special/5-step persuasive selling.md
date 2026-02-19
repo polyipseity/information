@@ -12,7 +12,7 @@ The 5-step persuasive inverts {@{the traditional narrative style that builds to 
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../tools/utility.py.md
 ```
 
 ## format

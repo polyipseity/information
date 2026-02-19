@@ -31,7 +31,7 @@ Calcium hydroxide can be used to test for {@{[carbon dioxide](carbon%20dioxide.m
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
   'Dissolve carbonate hydroxide in deionized [water](water.md).',
   'Filter the solution to obtain the [filtrate](filtrate.md).',

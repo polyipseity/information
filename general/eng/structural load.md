@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ## loads on architectural and civil engineering structures
@@ -18,7 +18,7 @@ tags:
 ```Python
 # pytextgen generate data
 from asyncio import gather
-from pytextgen.util import Result
+from pytextgen.compat.util import Result
 
 items = R"""
 [dead load](#dead%20load)

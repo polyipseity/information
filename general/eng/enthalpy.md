@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 In [chemistry](chemistry.md), the enthalpy of reaction is {@{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}@}. <!--SR:!2030-08-13,1701,270-->

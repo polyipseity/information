@@ -1,21 +1,34 @@
 {
   "devDependencies": {
-    "@commitlint/cli": "^20.4.0",
-    "@commitlint/config-conventional": "^20.4.0",
+    "@commitlint/cli": "^20.4.1",
+    "@commitlint/config-conventional": "^20.4.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
-    "markdownlint-cli2": "^0.20.0"
+    "markdownlint-cli2": "^0.21.0",
+    "prettier": "^3.8.1",
+    "pyright": "^1.1.408"
   },
   "name": "information",
   "packageManager": "pnpm@10.28.1",
   "private": true,
   "scripts": {
-    "check": "pnpm run check:md",
+    "build": "pnpm run check && pnpm run build:force",
+    "build:force": "node -e \"console.log('No build step')\"",
+    "check": "pnpm run check:md && pnpm run check:prettier && pnpm run check:py",
     "check:md": "markdownlint-cli2",
+    "check:prettier": "prettier --cache --check \"**/*.{astro,cjs,css,csv,gql,graphql,hbs,html,js,jsx,json,json5,jsonc,jsonl,less,mjs,pcss,sass,scss,svelte,styl,ts,tsx,vue,xml,yaml,yml}\"",
+    "check:py": "uv run --locked ruff check && uv run --locked ruff format --check && pyright",
     "commitlint": "commitlint --from=origin/main --to=HEAD",
-    "format": "pnpm run format:md",
+    "format": "pnpm run format:md && pnpm run format:prettier && pnpm run format:py",
     "format:md": "markdownlint-cli2 --fix",
-    "prepare": "husky"
+    "format:prettier": "prettier --cache --write \"**/*.{astro,cjs,css,csv,gql,graphql,hbs,html,js,jsx,json,json5,jsonc,jsonl,less,mjs,pcss,sass,scss,svelte,styl,ts,tsx,vue,xml,yaml,yml}\"",
+    "format:py": "uv run --locked ruff check --fix && uv run --locked ruff format && pyright",
+    "prepare": "uv sync --all-extras --dev && husky",
+    "test": "pnpm run test:py",
+    "test:py": "uv run --locked pytest"
   },
-  "type": "module"
+  "type": "module",
+  "workspaces": [
+    "."
+  ]
 }

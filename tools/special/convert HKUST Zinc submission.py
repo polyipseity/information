@@ -1,14 +1,17 @@
-from anyio import Path
 from asyncio import run
-from bs4 import BeautifulSoup, Tag
+from collections.abc import Callable, Collection, Mapping, Sequence
 from contextlib import suppress
 from copy import copy
 from datetime import datetime, timedelta
 from enum import StrEnum
 from io import StringIO
-from re import Pattern, compile as re_compile
+from re import Pattern
+from re import compile as re_compile
 from sys import stderr
-from typing import Callable, Collection, Mapping, NamedTuple, Sequence, final
+from typing import NamedTuple, final
+
+from anyio import Path
+from bs4 import BeautifulSoup, Tag
 from yaml import safe_dump
 
 
@@ -110,9 +113,9 @@ def parse_datetime(
 ) -> ParseDatetimeResult | None:
     string = string.replace(" Sept ", " Sep ")
     if "上午" in string:
-        string = f"{string[:string.index('上午')]}{string[string.index('上午')+len('上午'):]}am"
+        string = f"{string[: string.index('上午')]}{string[string.index('上午') + len('上午') :]}am"
     if "下午" in string:
-        string = f"{string[:string.index('下午')]}{string[string.index('下午')+len('下午'):]}pm"
+        string = f"{string[: string.index('下午')]}{string[string.index('下午') + len('下午') :]}pm"
 
     start_index = 0
     end_index = len(string)

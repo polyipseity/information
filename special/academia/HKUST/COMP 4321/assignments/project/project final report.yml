@@ -3,7 +3,7 @@ assignment:
     3177465:
       attachments: []
       author: MA, Shuai
-      content: 'We deduct the score a little because:
+      content: "We deduct the score a little because:
 
 
         1. We cannot find the final report. Only one file containing some basic database
@@ -14,10 +14,11 @@ assignment:
 
 
         3. The project codee structure is hard to read and the comments are not comprehensive
-        enough. Additionaly, there are some code files with hard-to-read names'
+        enough. Additionaly, there are some code files with hard-to-read names"
       datetime: 2024-05-20 14:47:00+08:00
       id: 3177465
-  content: "Please follow the submission guidelines provided in Project Description.pdf\n\
+  content:
+    "Please follow the submission guidelines provided in Project Description.pdf\n\
     \n\nActions\n\n\n\n\n\n\n\n , and submit your project work in a .zip file. You\
     \ may want to check the popular Q&As (TBA) as well."
   grade:
@@ -31,13 +32,13 @@ assignment:
       start: null
     due: 2024-05-10 23:59:00+08:00
     file types:
-    - zip
+      - zip
     points: 30
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2024-05-10 23:58:00+08:00
-    id: -1
+    - datetime: 2024-05-10 23:58:00+08:00
+      id: -1
   title: Project Final Report
 course:
   id: 56316

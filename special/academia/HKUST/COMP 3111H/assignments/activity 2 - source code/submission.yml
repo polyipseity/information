@@ -2,20 +2,22 @@ assignment:
   comments:
     3586805:
       attachments: []
-      author: '[redacted]'
+      author: "[redacted]"
       content: https://github.com/cx0014/comp3111h-project
       datetime: 2025-11-23 23:54:00+08:00
       id: 3586805
     3600552:
       attachments: []
-      author: '[redacted]'
-      content: 'Coverage (Max: 5) = 5 ; Documentation (Max: 5) = 5 ; Impression marks
+      author: "[redacted]"
+      content:
+        "Coverage (Max: 5) = 5 ; Documentation (Max: 5) = 5 ; Impression marks
         (30 points) = 30 ; Individual marks (20 points) = 20 ; Total (Max: 60) = 60
-        ;'
+        ;"
       datetime: 2025-12-01 13:33:00+08:00
       id: 3600552
-  content: 'Required: Submit the project as a zip file to facilitate the process of
-    assessment. Also, comment your GitHub Repository link together with a zip file. 
+  content:
+    "Required: Submit the project as a zip file to facilitate the process of
+    assessment. Also, comment your GitHub Repository link together with a zip file.
 
     Make sure that the Java application delivered by your team is fully functional,
     with all members having completed the tasks assigned. We will download this zip
@@ -56,7 +58,7 @@ assignment:
     of your algorithms developed for the tasks, justifications on the results of your
     recommendation, specific assumptions and limitations, etc.
 
-    No late submission will be accepted.'
+    No late submission will be accepted."
   grade:
     entered: 60
     graded anonymously: false
@@ -69,12 +71,12 @@ assignment:
     due: 2025-11-23 23:59:00+08:00
     points: 60
     submitting:
-    - a text entry box
-    - a website url
-    - a file upload
+      - a text entry box
+      - a website url
+      - a file upload
   submissions:
-  - datetime: 2025-11-23 23:54:00+08:00
-    id: -1
+    - datetime: 2025-11-23 23:54:00+08:00
+      id: -1
   title: Activity 2 - Source Code
 course:
   id: 64514

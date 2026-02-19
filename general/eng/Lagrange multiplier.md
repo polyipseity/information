@@ -224,7 +224,7 @@ Methods based on Lagrange multipliers have {@{applications in [power systems](po
 
 ### safe reinforcement learning
 
-The method of Lagrange multipliers applies to {@{[constrained Markov decision processes](constrained%20Markov%20decision%20processes.md)}@}.<sup>[\[24\]](#^ref-24)</sup> It naturally {@{produces gradient-based primal-dual algorithms in safe reinforcement learning}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2026-03-09,268,330!2029-03-30,1146,350-->
+{@{The method of Lagrange multipliers}@} applies to {@{[constrained Markov decision processes](constrained%20Markov%20decision%20processes.md)}@}.<sup>[\[24\]](#^ref-24)</sup> It naturally {@{produces gradient-based primal-dual algorithms}@} in {@{safe reinforcement learning}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2026-03-09,268,330!2029-03-30,1146,350--> \(annotation: They are {@{optimization algorithms}@} that {@{jointly update the policy parameters \(the _primal_ variables\)}@} to {@{maximize reward}@} and {@{the Lagrange multipliers (the _dual_ variables)}@} to {@{enforce constraints}@}, typically by {@{following gradient steps on the Lagrangian}@} {@{$$\mathcal{L}(\theta, \lambda) = J(\theta) + \lambda\,C(\theta) \,,$$}@} so the agent learns to {@{improve performance}@} while automatically {@{increasing penalties when constraints are violated}@}.)\
 
 ### [normalized solutions](normalized%20solution%20(mathematics).md)
 

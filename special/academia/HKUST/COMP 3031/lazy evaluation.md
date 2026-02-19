@@ -381,11 +381,11 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 
 In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core language}@} rather than {@{added as a library feature}@}. <!--SR:!2027-01-19,341,345!2026-11-29,301,345!2026-12-07,307,345!2026-12-13,312,345-->
 
-{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `:`}@}: <!--SR:!2026-10-31,275,345!2027-01-18,340,345!2026-12-30,325,345!2027-01-19,341,345!2026-11-01,276,330!2026-10-30,274,345!2026-11-04,279,345!2026-12-12,311,345-->
+{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `::`}@}. <!--SR:!2026-10-31,275,345!2027-01-18,340,345!2026-12-30,325,345!2027-01-19,341,345!2026-11-01,276,330!2026-10-30,274,345!2026-11-04,279,345!2026-12-12,311,345-->
 
 > [!example] __Haskell lazy evaluation example__
 >
-> {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `:`}@}:
+> {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `::`}@}.
 >
 > ```Haskell
 > let guesses = 1 : map improve guesses

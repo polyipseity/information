@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 The Carnot cycle provides {@{the upper limit of [efficiency](thermal%20efficiency.md) of any [heat engine](heat%20engine.md) in converting [heat](heat.md) into [work](work%20(physics).md) by [Carnot's theorem](Carnot's%20theorem%20(thermodynamics).md)}@}. <!--SR:!2027-05-23,973,350-->

@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
     R'element in a free form\: 0',
     R'ionic compound or ion\: _charge_',

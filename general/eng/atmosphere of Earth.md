@@ -8,14 +8,14 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ## composition
 
 ```Python
 # pytextgen generate data
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
   fR'[N<sub>2</sub>](nitrogen.md){{{gen.Tag.TEXT}:\: 78.084%}}',
   fR'[O<sub>2</sub>](oxygen.md){{{gen.Tag.TEXT}:\: 20.946%}}',

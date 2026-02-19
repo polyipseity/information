@@ -1,0 +1,3 @@
+#!/bin/sh
+# Run test suite before pushing
+pnpm run test

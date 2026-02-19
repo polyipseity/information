@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 An __organic compound__ is {@{generally defined as a [chemical compound](chemical%20compound.md) containing [carbon](carbon.md)–carbon bonds or carbon–[hydrogen](hydrogen.md) bonds}@}. <!--SR:!2029-01-24,1530,290-->

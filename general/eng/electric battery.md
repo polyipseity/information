@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 A __battery__ is {@{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}@}. When discharging, the positive terminal is {@{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}@}. <!--SR:!2028-12-09,1297,250!2028-05-14,1455,350-->

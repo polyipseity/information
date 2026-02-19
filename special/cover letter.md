@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../tools/utility.py.md
 ```
 
 The format outlined below is {@{only recommended and does not need to be followed strictly}@}. <!--SR:!2031-01-02,1824,349-->

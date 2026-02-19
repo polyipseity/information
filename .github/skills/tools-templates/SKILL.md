@@ -27,7 +27,7 @@ The `tools/templates/` directory contains scripts for scaffolding new content:
 
 **Purpose**: Create a new encyclopedia note with pre-filled frontmatter and Wikipedia attribution.
 
-**Command**: `python -m "templates.new wiki page"`
+**Command**: `uv run -m "templates.new wiki page"`
 
 **Workflow**:
 
@@ -52,7 +52,7 @@ The `tools/templates/` directory contains scripts for scaffolding new content:
 
 **Next steps**:
 
-- Use `python -m "convert wiki"` to ingest Wikipedia HTML below the template
+- Use `uv run -m "convert wiki"` to ingest Wikipedia HTML below the template
 - Add content manually or from other sources
 - Update `aliases` and `tags` as needed
 
@@ -77,7 +77,7 @@ The `tools/templates/` directory contains scripts for scaffolding new content:
 2. Paste into target note
 3. Update section ID (`flashcards-main` → unique identifier)
 4. Add cloze markup to note content: `{@{ hidden text }@}`, `::@::`, `:@:`
-5. Run `python -m init generate <file>` to populate flashcards
+5. Run `uv run -m init generate <file>` to populate flashcards
 
 ### Create pytextgen code block section
 
@@ -103,7 +103,7 @@ def generate_course_list():
 2. Paste into target note
 3. Update module/function references
 4. Implement generation logic
-5. Run `python -m init generate <file>` to execute and insert output
+5. Run `uv run -m init generate <file>` to execute and insert output
 
 ### Other templates
 
@@ -156,11 +156,11 @@ tags: [flashcard/active, language/in/English, economics]
 
 ### wiki-ingestion workflow
 
-1. Run `python -m "templates.new wiki page"` to create frontmatter
+1. Run `uv run -m "templates.new wiki page"` to create frontmatter
 2. Paste template into new file `general/Article Name.md`
-3. Run `python -m "convert wiki"` to ingest Wikipedia HTML
+3. Run `uv run -m "convert wiki"` to ingest Wikipedia HTML
 4. Content is appended below frontmatter
-5. Run `python -m init generate <file>` to create flashcards from cloze markup
+5. Run `uv run -m init generate <file>` to create flashcards from cloze markup
 
 ### Academic coursework workflow
 

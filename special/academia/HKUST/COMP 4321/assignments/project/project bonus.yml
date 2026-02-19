@@ -10,8 +10,8 @@ assignment:
     due: No Due Date
     points: 4.5
   submissions:
-  - datetime: ''
-    id: -1
+    - datetime: ""
+      id: -1
   title: Project Bonus
 course:
   id: 56316

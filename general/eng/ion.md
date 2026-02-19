@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {@{__cation__}@} is a {@{positively charged ion}@}, while an {@{__anion__}@} is a {@{negatively charged ion}@}.<!--SR:!2027-01-19,1447,365!2027-11-08,1684,370!2026-07-20,1290,352!2027-05-12,1546,374-->
@@ -29,7 +29,7 @@ A {@{simple ion}@} is an {@{ion formed from only one atom}@}, while a {@{polyato
 from asyncio import gather
 from dataclasses import dataclass
 from itertools import chain
-from pytextgen import gen, read, util
+from pytextgen.compat import gen, read, util
 import typing
 
 COLORLESS = 'colorless'

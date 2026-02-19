@@ -27,7 +27,7 @@ pytextgen is a Python library (git submodule in `tools/pytextgen/`) that generat
 
 ### Regenerate generated regions
 
-**Command**: `python -m init generate [pytextgen flags] <paths?>`
+**Command**: `uv run -m init generate [pytextgen flags] <paths?>`
 
 The `init.py` wrapper:
 
@@ -43,11 +43,11 @@ The `init.py` wrapper:
 - `--init-flashcards`: Initialize or re-seed flashcard state
 - `<paths>`: Optional; limit regeneration to specific files/directories
 
-**Example**: `python -m init generate -C --init-flashcards`
+**Example**: `uv run -m init generate -C --init-flashcards`
 
 ### Clear generated regions
 
-**Command**: `python -m init clear --type CONTENT <paths?>`
+**Command**: `uv run -m init clear --type CONTENT <paths?>`
 
 Clears generated content blocks without regenerating. Useful for:
 
@@ -137,11 +137,11 @@ Generated content appears here
 
 ```bash
 # Regenerate with fresh caches
-python -m init generate -C --no-code-cache
+uv run -m init generate -C --no-code-cache
 
 # Clear and regenerate specific file
-python -m init clear --type CONTENT path/to/file.md
-python -m init generate path/to/file.md
+uv run -m init clear --type CONTENT path/to/file.md
+uv run -m init generate path/to/file.md
 
 # Check for syntax errors (manual inspection)
 grep -n "# pytextgen generate" path/to/file.md

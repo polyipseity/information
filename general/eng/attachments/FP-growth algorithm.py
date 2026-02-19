@@ -1,9 +1,10 @@
 from collections import Counter, defaultdict
+from collections.abc import Mapping, MutableMapping, MutableSequence, Set
 from dataclasses import InitVar, dataclass, field
-from typing import AbstractSet, Mapping, MutableMapping, MutableSequence, Self, TypeVar
+from typing import Self, TypeVar
 
 _TExtendsFPNode = TypeVar("_TExtendsFPNode", bound="FPNode")
-Database = Mapping[AbstractSet[str], int]
+Database = Mapping[Set[str], int]
 FPTable = Mapping[str, MutableSequence["FPNode"]]  # sorted by decreasing count
 
 
@@ -12,7 +13,7 @@ class FPNode:
     table: InitVar[FPTable]
     parent: Self | None
     count: int = 0
-    children: MutableMapping[str, Self] = field(default_factory=dict)
+    children: MutableMapping[str, Self] = field(default_factory=dict[str, Self])
 
     class _ChildrenDict(dict[str, _TExtendsFPNode]):
         __slots__ = ("_node", "_table")
@@ -32,7 +33,7 @@ class FPNode:
     def __str__(self) -> str:
         children = self.children
         last_children_idx = len(children) - 1
-        return f"{self.count}{''.join(f'\n{"\\-" if idx == last_children_idx else "|-"}{key}: {"\n".join(f"{'  ' if idx == last_children_idx else '| '}{line}" for line in str(child).splitlines())[2:]}'for idx, (key, child) in enumerate(children.items()))}"
+        return f"{self.count}{''.join(f'\n{"\\-" if idx == last_children_idx else "|-"}{key}: {"\n".join(f"{'  ' if idx == last_children_idx else '| '}{line}" for line in str(child).splitlines())[2:]}' for idx, (key, child) in enumerate(children.items()))}"
 
 
 def generate_FP_tree_and_table(
@@ -56,7 +57,7 @@ def generate_FP_tree_and_table(
     )  # `dict` keeps insertion order
     table_keys = tuple(table.keys())
     if debug:
-        print(f"header table: {({key: count_table[key] for key in table_keys})}")
+        print(f"header table: { ({key: count_table[key] for key in table_keys}) }")
 
     processed_database = defaultdict[tuple[str, ...], int](int)
     for item_set, count in database.items():
@@ -104,15 +105,15 @@ def FP_tree_algorithm(
     debug: bool = False,
     alternative: bool = False,
     return_empty: bool = True,
-    condition: AbstractSet[str] = frozenset(),
+    condition: Set[str] = frozenset(),
 ) -> Database:
-    ret = dict[AbstractSet[str], int]()
+    ret = dict[Set[str], int]()
 
     tree, table = generate_FP_tree_and_table(database, minimum_support, debug=debug)
-    for item, nodes in reversed(table.items()):
+    for item, nodes in reversed(tuple(table.items())):
         if debug:
             _print_header(f"conditional FP-tree of {set(condition)} on '{item}'")
-        conditional_database: dict[AbstractSet[str], int] = {
+        conditional_database: dict[Set[str], int] = {
             frozenset(item_set[1:]): count
             for item_set, count in map(get_item_set, nodes)
         }
@@ -174,7 +175,7 @@ _RAW_DATABASE = (
 _DATABASE: Database = Counter(frozenset(transaction) for transaction in _RAW_DATABASE)
 _MINIMUM_SUPPORT = 2
 _EXPECTED = {
-    frozenset(): 14,
+    frozenset[str](): 14,
     frozenset({"f"}): 6,
     frozenset({"d"}): 5,
     frozenset({"c"}): 5,

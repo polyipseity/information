@@ -14,7 +14,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 ## examples
@@ -23,7 +23,7 @@ tags:
 # pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-from pytextgen.gen import markdown_sanitizer as _md_san
+from pytextgen.compat.gen import markdown_sanitizer as _md_san
 rinse_water = 'Rinse the equipment with deionized [water](water.md) before use.'
 rinse_water_soln = 'Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered.'
 table = (

@@ -12,6 +12,8 @@ applyTo: "**/*.md"
 
 - **Cloze markup**: Preserve `{@{ ... }@}`, `::@::`, and `:@:` unchanged; do not reflow or escape. These are used for flashcard generation.
 
+Agent quickstart pointer: See `.github/instructions/agent-quickstart.instructions.md` for a concise agent checklist and quick repository gotchas (preserve pytextgen fences, don't reflow cloze markup, and prefer `pnpm run <script>` wrappers for reproducible runs).
+
 - **pytextgen fences**: Do not modify `# pytextgen generate ...` comments, fence delimiters, or `return export_seq(...)` signatures. These are parsed by pytextgen; breaking them prevents regeneration.
 
 - **Links**: Always relative with `%20` encoding (not `%3A` or other encodings). Use `archives/` for shared media.
@@ -40,4 +42,11 @@ applyTo: "**/*.md"
 
 - **YAML frontmatter**: `aliases`, `tags`, `language/in/English` are standard fields; preserve during edits
 
-- **KaTeX math**: `$inline$` and `$$display$$` formats untouched; Extended MathJax in Obsidian uses `preamble.sty` for custom macros
+- **KaTeX math**: `$inline$` and `$$display$$` formats untouched; Extended MathJax in Obsidian uses `.obsidian/plugins/obsidian-latex/preamble.sty` for custom macros
+
+## Developer tooling & testing conventions
+
+- Dependency management: `pyproject.toml` is authoritative; add runtime deps to `[project].dependencies` and developer/test tools to `[dependency-groups].dev`. Run `pnpm install` (which triggers `prepare`, running `uv sync`) to register Husky hooks and install dev extras locally.
+- Tests: Place tests in `tests/` and use `pytest` (`test_*.py` naming). Mirror source layout when helpful, and add unit and integration tests for any change to scripts or generators.
+- Async tests: Use `pytest-asyncio` and `pytest.mark.asyncio` for async code. Prefer deterministic fixtures like `tmp_path: os.PathLike[str]` and `monkeypatch`. When typing tests, annotate `tmp_path` parameters as `PathLike[str]`; and when converting `PathLike` objects to strings **always** use `os.fspath(path_like)` rather than `str(path_like)`.
+- Local validation: Run `pnpm run format`, `pnpm run check`, and `pnpm run test` before pushing changes to avoid Husky hooks and CI failures.

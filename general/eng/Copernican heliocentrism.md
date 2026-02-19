@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../../tools/utility.py.md
+# import ../../tools/utility.py.md
 ```
 
 __Copernican heliocentrism__ is {@{the astronomical [model](scientific%20modelling.md)}@} developed by {@{[Nicolaus Copernicus](Nicolaus%20Copernicus.md) and published in 1543}@}. This model {@{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}@}. The Copernican model displaced {@{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}@}. <!--SR:!2029-10-15,1413,310!2027-01-26,484,210!2026-12-13,629,310!2026-07-12,521,310-->

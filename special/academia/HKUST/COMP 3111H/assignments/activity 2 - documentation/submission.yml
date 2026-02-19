@@ -1,6 +1,6 @@
 assignment:
   comments: {}
-  content: 'Submit a PDF document with the following information:
+  content: "Submit a PDF document with the following information:
 
 
     at least 3 team meeting minutes
@@ -98,7 +98,7 @@ assignment:
 
 
 
-    Actions'
+    Actions"
   grade:
     entered: 10
     graded anonymously: false
@@ -110,13 +110,13 @@ assignment:
       start: null
     due: 2025-11-23 23:59:00+08:00
     file types:
-    - pdf
+      - pdf
     points: 10
     submitting:
-    - a file upload
+      - a file upload
   submissions:
-  - datetime: 2025-11-23 23:52:00+08:00
-    id: -1
+    - datetime: 2025-11-23 23:52:00+08:00
+      id: -1
   title: Activity 2 - Documentation
 course:
   id: 64514
