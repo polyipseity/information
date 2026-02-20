@@ -46,9 +46,9 @@ The corollary requires {@{$f$ to be [continuous](continuous%20function.md) on th
 
 The second part is {@{stronger than the [corollary](#corollary)}@} because $f$ {@{may not be [continuous](continuous%20function.md)}@}.
 
-{@{The conditions above}@} can be relaxed. The result still holds if {@{$f$ is [Lebesgue integrable](Lebesgue%20integration.md) instead}@}. Continuing with the replaced definition, however, if {@{$F$ admits a derivative _[almost everywhere](almost%20everywhere.md)_ instead of everywhere}@}, this result may fail. Instead, if {@{$F$ is [absolutely continuous](absolute%20continuity.md), then it admits a derivative $f$ almost everywhere, $f$ is Lebesgue integrable, and the above result holds again. Note that we do not need to show that $f$ is integrable first (when $F$ is absolutely continuous)}@}.
+{@{The conditions above}@} can be relaxed. The result still holds if {@{$f$ is [Lebesgue integrable](Lebesgue%20integration.md) instead}@}. Continuing with the replaced definition, however, if {@{$F$ admits a derivative _[almost everywhere](almost%20everywhere.md)_ instead of everywhere}@}, this result may fail. Instead, if {@{$F$ is [absolutely continuous](absolute%20continuity.md)}@}, then it admits {@{a derivative $f$ almost everywhere, $f$ is Lebesgue integrable}@}, and {@{the above result holds}@} again. Note that we do not {@{need to show that $f$ is integrable first (when $F$ is absolutely continuous)}@}.
 
-If the even more general {@{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md) is used}@}, then if {@{a [continuous function](continuous%20function.md) $F$ admits an [antiderivative](antiderivative.md) $f$ at all but _countably_ many points \(not equivalent to "almost everywhere"\)}@}, then {@{$f$ is Henstock–Kurzweil integrable and the above results hold}@}. Note that we do not need to {@{show that $f$ is integrable first}@}.
+If the even more general {@{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md) is used}@}, then if {@{a [continuous function](continuous%20function.md) $F$ admits an [antiderivative](antiderivative.md) $f$ at all but _countably_ many points \(not equivalent to "almost everywhere"\)}@}, then {@{$f$ is Henstock–Kurzweil integrable and the above results hold}@}. Note that we do not {@{need to show that $f$ is integrable first}@}.
 
 ## references
 

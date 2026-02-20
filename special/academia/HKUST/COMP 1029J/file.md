@@ -31,7 +31,7 @@ One can read from or write to a text file using {@{`java.io.BufferedReader` or `
 
 ### reading text files
 
-Use {@{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}@}. For `charset`, if you leave it blank, {@{UTF-8 is used}@}. You can {@{use the system charset}@} by passing {@{`java.nio.charset.Charset.defaultCharset()`}@}. If needed, handle {@{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}@}.
+Use {@{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}@}. For `charset`, if you leave it blank, {@{UTF-8 is used}@}. You can {@{use the system charset}@} by passing {@{`java.nio.charset.Charset.defaultCharset()`}@}. If needed, handle {@{exceptions reported by the above methods}@} using {@{methods in [error § catching exceptions](error.md#catching%20exceptions)}@}.
 
 To read a line, use {@{`reader.readLine()`}@}, which returns {@{`null` when the end of file has reached}@}. An example:
 
@@ -46,7 +46,7 @@ When done with reading, {@{close the reader to avoid locking the file by calling
 
 ### writing text files
 
-Use {@{`java.nio.file.Files.newBufferedWriter(path[, charset[, options]])` to read a text file}@}. For `charset`, if you leave it blank, {@{UTF-8 is used}@}. You can {@{use the system charset}@} by calling {@{`java.nio.charset.Charset.defaultCharset()`}@}. For `options`, if you leave it blank, {@{`StandardOpenOption.WRITE` is used. It creates the file if not exist and empties the content. If appending to an existing file, use `StandardOpenOption.APPEND` instead}@}. If needed, handle {@{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}@}.
+Use {@{`java.nio.file.Files.newBufferedWriter(path[, charset[, options]])` to write a text file}@}. For `charset`, if you leave it blank, {@{UTF-8 is used}@}. You can {@{use the system charset}@} by calling {@{`java.nio.charset.Charset.defaultCharset()`}@}. For `options`, if you leave it blank, {@{`StandardOpenOption.WRITE` is used}@}. It {@{creates the file if not exist and empties the content}@}. If {@{appending to an existing file}@}, use {@{`StandardOpenOption.APPEND` instead}@}. If needed, handle {@{exceptions reported by the above methods}@} using {@{methods in [error § catching exceptions](error.md#catching%20exceptions)}@}.
 
 To write something, use {@{`writer.write(string)`}@}. To write a newline, use {@{`writer.newLine()`}@}. An example:
 
