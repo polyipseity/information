@@ -23,7 +23,7 @@ To {@{find [Polaris](Polaris.md)}@}, from {@{a point in the [Northern Hemisphere
 
 ### method one: the Southern Cross
 
-{@{The [south](south.md) celestial pole}@} can be located from {@{the [Southern Cross](Crux.md) (Crux)}@}. Draw {@{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}@}—and {@{follow this line through the sky}@}. Go {@{four-and-a-half times the distance of the long axis}@} in {@{the direction the narrow end of the cross points (the foot of the crucifix)}@}. This point is {@{5 or 6 degrees from the south celestial pole}@}. <!--SR:!2027-04-07,758,332!2027-02-26,617,272!2026-08-16,192,272!2027-10-03,897,332-->
+{@{The [south](south.md) celestial pole}@} can be located from {@{the [Southern Cross](Crux.md) (Crux)}@}. Draw {@{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}@}—and {@{follow this line through the sky}@}. Go {@{four-and-a-half times the distance of the long axis}@} in {@{the direction the narrow end of the cross points (the foot of the crucifix)}@}. This point is {@{5 or 6 degrees from the south celestial pole}@}. <!--SR:!2027-04-07,758,332!2027-02-26,617,272!2026-08-16,192,272!2027-10-03,897,332!2026-02-23,4,313!2026-02-23,4,313!2026-02-23,4,313-->
 
 ## references
 

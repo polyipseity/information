@@ -36,7 +36,7 @@ In {@{the direct labor cost}@} we need to have {@{the job time and wage we will 
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Direct%20labor%20cost) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence)._Find sources:_ ["Direct labor cost"](https://www.google.com/search?as_eq=wikipedia&q=%22Direct+labor+cost%22) – [news](https://www.google.com/search?tbm=nws&q=%22Direct+labor+cost%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Direct+labor+cost%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Direct+labor+cost%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Direct+labor+cost%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Direct+labor+cost%22&acc=on&wc=on) _\(January 2025\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{The wage}@} is {@{the payment rendered to the worker per hour}@} as {@{a compensation for the work done}@}. <!--SR:!2029-10-09,1331,350!2029-10-23,1342,350-->
+{@{The wage}@} is {@{the payment rendered to the worker per hour}@} as {@{a compensation for the work done}@}. <!--SR:!2029-10-09,1331,350!2029-10-23,1342,350!2026-02-23,4,345-->
 
 ## calculating job time
 

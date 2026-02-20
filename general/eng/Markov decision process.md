@@ -19,7 +19,7 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 
 > {@{![Example of a simple MDP with three states \(green circles\) and two actions \(orange circles\), with two rewards \(orange arrows\)](../../archives/Wikimedia%20Commons/Markov%20Decision%20Process.svg)}@}
 >
-> Example of {@{a simple MDP with three states \(green circles\) and two actions \(orange circles\)}@}, with {@{two rewards \(orange arrows\)}@} <!--SR:!2030-05-29,1575,369!2029-06-08,1201,349-->
+> Example of {@{a simple MDP with three states \(green circles\) and two actions \(orange circles\)}@}, with {@{two rewards \(orange arrows\)}@} <!--SR:!2030-05-29,1575,369!2029-06-08,1201,349!2026-02-24,5,381-->
 
 A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where: <!--SR:!2026-02-26,349,349-->
 
@@ -90,7 +90,7 @@ Instead of {@{repeating step two to convergence}@}, it may be {@{formulated and 
 
 This variant has the advantage that {@{there is a definite stopping condition}@}: when {@{the array $\pi$ does not change in the course of applying step 1 to all states}@}, {@{the algorithm is completed}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369-->
 
-{@{Policy iteration}@} is usually {@{slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349-->
+{@{Policy iteration}@} is usually {@{slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-02-24,5,381!2026-02-24,5,381-->
 
 #### modified policy iteration
 
