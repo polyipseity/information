@@ -97,7 +97,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ## Integration
 
-- **Note scaffolding**: Use [tools-templates](../tools-templates/SKILL.md) to understand frontmatter conventions
+- **Note scaffolding**: Use [tools/SKILL.md](../tools/SKILL.md) (templates section) to understand frontmatter conventions
 - **Flashcard generation**: Use [pytextgen](../pytextgen/SKILL.md) to regenerate cloze markup into flashcards
 - **Edit conventions**: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules while editing imported notes
 

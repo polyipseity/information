@@ -47,7 +47,7 @@ uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 <paths>
 uv run -m publish --paths-file paths.txt
 ```
 
-For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).
+For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).  Instruction metadata now lives in each file's frontmatter; the previous manifest index has been removed.  Only `name`, `description`, and `applyTo` are supported keys in instruction frontmatter—do not add extra fields.
 
 ## Dependencies
 
@@ -118,6 +118,7 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 - [editing-conventions.instructions.md](.github/instructions/editing-conventions.instructions.md) → `**/*.md` (general editing rules)
 - [markdown-notes.instructions.md](.github/instructions/markdown-notes.instructions.md) → `general/**/*.md`
 - [special.instructions.md](.github/instructions/special.instructions.md) → `special/**/*.md`, `special/**/*.py`
+- [special-pytextgen.instructions.md](.github/instructions/special-pytextgen.instructions.md) → `special/**/*.md` (pytextgen usage & regeneration)
 - [archives.instructions.md](.github/instructions/archives.instructions.md) → `archives/**/*.md`
 - [commit-convention.instructions.md](.github/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
 
@@ -145,18 +146,15 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 
 Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` for details:
 
+**Skills metadata**: Each skill is self-described in its `SKILL.md` frontmatter with `name`, `description`, and `applyTo` (and optional `parent` or `license`). The previous manifest/validator files have been removed; agents may instead inspect individual skill documents directly.
+
 ### Content creation & ingestion
 
 - **[wiki-ingestion](.github/skills/wiki-ingestion/SKILL.md)** — Import Wikipedia articles, normalize links/media, scaffold new notes
-- **[tools-templates](.github/skills/tools-templates/SKILL.md)** — Template scaffolding, YAML conventions, pytextgen fence templates
 - **[pytextgen](.github/skills/pytextgen/SKILL.md)** — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
-- **[academic-notes](.github/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
-
-### Tools & workflows
-
-- **[tools](.github/skills/tools/SKILL.md)** — Repository-wide tooling overview, tool coordination, dependency management
-- **[tools-special](.github/skills/tools-special/SKILL.md)** — LMS converters (Canvas/HKUST Zinc), course catalog fetchers, academic workflows
+- **[tools](.github/skills/tools/SKILL.md)** — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
 - **[pyarchivist](.github/skills/pyarchivist/SKILL.md)** — Archive online content, auto-maintain `index.md`, media management
+- **[academic-notes](.github/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
 
 **Skill flow**: Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
 

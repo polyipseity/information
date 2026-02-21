@@ -166,4 +166,4 @@ grep -n "# pytextgen generate" path/to/file.md
 - **Wiki ingestion**: After running `convert wiki`, use `init generate` to create flashcards from cloze markup
 - **Academic notes**: Use pytextgen to generate course indexes, assignment lists, or reference tables
 - **Pack/publish**: Regenerate all content before packaging or publishing to ensure consistency
-- **Note conventions**: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and [tools-templates](../tools-templates/SKILL.md) for fence templates
+- **Note conventions**: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and the `templates` section of [tools/SKILL.md](../tools/SKILL.md) for fence templates

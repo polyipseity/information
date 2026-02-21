@@ -378,7 +378,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 - `convert HKUST Zinc submission.py`: HKUST Zinc LMS submission files → YAML frontmatter
 - `get HKUST undergraduate courses.py`: Fetch HKUST course catalog from web → CSV file (`get HKUST undergraduate courses.py.csv`)
 
-**Usage**: See the `tools-special` agent skill for detailed workflows and converter interfaces.
+**Usage**: See the `tools` agent skill (templates & special/tooling sections) for detailed workflows and converter interfaces.
 
 **Stability requirements**:
 
@@ -465,41 +465,6 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
   - `tools/pytextgen/`: Content generation library used throughout `special/` for flashcards
   - `tools/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
 
-## pytextgen Usage Patterns in special/
+For `pytextgen` usage patterns and regeneration guidance see `special-pytextgen.instructions.md` (keeps `special.instructions.md` focused on organization and editorial conventions).
 
-Different content types use pytextgen differently:
-
-1. **Sequential lists** (business frameworks, technical guides):
-
-   ```python
-   return await memorize_seq(
-     __env__.cwf_sects("id1", "id2"),
-     items,
-   )
-   ```
-
-2. **Mapped content** (key-value pairs):
-
-   ```python
-   return await memorize_map(
-     __env__.cwf_sects("id1", "id2"),
-     items,
-   )
-   ```
-
-3. **Classical texts with annotations**:
-
-   ```python
-   notes = Notes()
-   text = gen.TextCode.compile(
-     f"""..."""
-   )
-   return (text, notes)
-   ```
-
-4. **Custom formatting** (questions, specialized layouts):
-   - Strategy/solution pairs with `:@:` separator
-   - Nested cloze deletions with `{@{ }@}`
-   - Hard-marked terms with `hard(...)` wrapper
-
-**Regeneration**: Use `uv run -m init generate <path>` to regenerate pytextgen blocks after editing source data
+<!-- NOTE: expanded pytextgen guidance moved to `.github/instructions/special-pytextgen.instructions.md` -->

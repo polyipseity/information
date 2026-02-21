@@ -1,3 +1,9 @@
+---
+name: Commit convention
+description: Guidelines and automated checks for files and commits created by agents
+applyTo: "**"
+---
+
 # Commit convention for agent-made commits
 
 **Agent quickstart:** See `.github/instructions/agent-quickstart.instructions.md` for a short checklist of commands and workflow tips (present commit message to the user, run `pnpm run format`/`pnpm run check`, and prefer `pnpm install` + `pnpm run prepare` before making changes).

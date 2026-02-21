@@ -74,7 +74,7 @@ applyTo: "general/**/*.md"
 
 - **Wiki ingestion**: Use [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill to import Wikipedia articles with proper frontmatter
 - **Flashcard generation**: Use [pytextgen](../skills/pytextgen/SKILL.md) skill to regenerate cloze markup into flashcards
-- **Note scaffolding**: Use [tools-templates](../skills/tools-templates/SKILL.md) skill to scaffold new notes with proper structure
+- **Note scaffolding**: Use [tools/SKILL.md](../skills/tools/SKILL.md) (templates section) to scaffold new notes with proper structure
 
 ## Developer tooling & testing (notes-related changes)
 

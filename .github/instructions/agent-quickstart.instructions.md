@@ -10,7 +10,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 1. Workspace configuration
    - Enable `chat.useAgentsMdFile = true` and `chat.useAgentSkills = true` in the IDE to let agent skills and the root `AGENTS.md` guide behavior.
-   - Respect submodule-local `AGENTS.md` and `.github/instructions/` when working inside submodules (innermost takes priority).
+   - Consult individual `SKILL.md` frontmatter for skill metadata; the manifest and validator have been removed. Allowed keys are `name`, `description`, `applyTo` plus the small set of optional fields documented in `.github/skills/README.md`. Instruction files only support `name`, `description`, and `applyTo`.
 
 2. First commands (safe startup)
    - `pnpm install`  # installs Node deps and triggers Python dev extras install
