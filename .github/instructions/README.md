@@ -17,4 +17,7 @@ This index summarizes the repository instruction files under `.github/instructio
 
 Each instruction file contains its own metadata (`name`, `description`, `applyTo`, etc.) in the YAML frontmatter; the previous manifest index has been removed. Only `name`, `description`, and `applyTo` are supported keys – do not add other fields to instruction frontmatter, as they will be ignored.
 
+> **Note:** Skills use a different set of allowed keys and no longer
+> support `applyTo`.  See `.github/skills/README.md` for details.
+
 If you want this index extended (per-skill or per-submodule), tell me which areas to prioritise and I will expand it.

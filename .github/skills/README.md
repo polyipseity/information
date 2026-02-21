@@ -20,14 +20,21 @@ Guidelines for new skills
 1. Add `SKILL.md` with YAML frontmatter. The **only** supported keys are:
    - `name` (required)
    - `description` (required)
-   - `applyTo` (recommended)
    - `argument-hint`
    - `compatibility`
    - `disable-model-invocation`
    - `license`
    - `metadata`
    - `user-invocable`
+
+  > **Note:** the `applyTo` key is no longer supported in skill
+  > frontmatter.  Older skills may still include it, but new skills
+  > should omit it entirely or the validator will raise an error.
    Other keys are ignored and may prevent the skill from loading correctly.
+
+   Example: the newly added `flashcard-creation` skill uses only
+   `name` and `description` plus optional explanatory text; no
+   `applyTo` field appears.
 2. (Previously) A manifest entry would be added; now simply ensure the frontmatter
    contains the allowed keys listed above. Do not invent additional fields.
 3. (Agent-internal) The previous validator helper has been removed; contact the
