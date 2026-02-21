@@ -15,7 +15,7 @@ This index summarizes the repository instruction files under `.github/instructio
 | `latex-preamble.instructions.md` | Editing rules for `.obsidian` LaTeX preamble | `.obsidian/plugins/obsidian-latex/preamble.sty` |
 | `submodule-*.instructions.md` | Submodule guardrails (see submodule-specific AGENTS.md) | `self/**`, `private/**`, `tools/pytextgen/**` |
 
-Each instruction file contains its own metadata (`name`, `description`, `applyTo`, etc.) in the YAML frontmatter; the previous manifest index has been removed. Only `name`, `description`, and `applyTo` are supported keys – do not add other fields to instruction frontmatter, as they will be ignored.
+Each instruction file contains its own metadata (`name`, `description`, `applyTo`, etc.) in the YAML frontmatter. Only `name`, `description`, and `applyTo` are supported keys – do not add other fields to instruction frontmatter, as they will be ignored.
 
 > **Note:** Skills use a different set of allowed keys and no longer
 > support `applyTo`.  See `.github/skills/README.md` for details.

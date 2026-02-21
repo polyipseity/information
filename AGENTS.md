@@ -47,7 +47,7 @@ uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 <paths>
 uv run -m publish --paths-file paths.txt
 ```
 
-For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).  Instruction metadata now lives in each file's frontmatter; the previous manifest index has been removed.  Only `name`, `description`, and `applyTo` are supported keys in instruction frontmatter—do not add extra fields.
+For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).  Instruction metadata now lives in each file's frontmatter.  Only `name`, `description`, and `applyTo` are supported keys in instruction frontmatter—do not add extra fields.
 
 ## Dependencies
 
@@ -146,7 +146,7 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 
 Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` for details:
 
-**Skills metadata**: Each skill is self-described in its `SKILL.md` frontmatter with `name`, `description`, and `applyTo` (and optional `parent` or `license`). The previous manifest/validator files have been removed; agents may instead inspect individual skill documents directly.
+**Skills metadata**: Each skill is self-described in its `SKILL.md` frontmatter with `name`, `description`, and `applyTo` (and optional `parent` or `license`). Agents may inspect individual skill documents directly.
 
 ### Content creation & ingestion
 
