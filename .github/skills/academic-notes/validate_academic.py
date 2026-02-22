@@ -103,6 +103,26 @@ def check_markdown_file(
             errors.append("index.md missing '# index' heading")
         if "## children" not in text and "children:" not in text:
             errors.append("index missing 'children' section")
+        # check semester heading chronological order if this is an institution index
+        # look for lines like "### YYYY term" and ensure they increase
+        semesters: list[tuple[int, int, str]] = []  # list of (year, term_order, text)
+        term_map = {"winter": 1, "spring": 2, "summer": 3, "fall": 4}
+        for line in text.splitlines():
+            m = re.match(r"###\s+(\d{4})\s+([A-Za-z]+)", line)
+            if m:
+                year = int(m.group(1))
+                term = m.group(2).lower()
+                order = term_map.get(term)
+                if order:
+                    semesters.append((year, order, line))
+        for i in range(1, len(semesters)):
+            if semesters[i][:2] < semesters[i - 1][:2]:
+                warnings.append(
+                    "semester headings are not in chronological order ({} comes before {})".format(
+                        semesters[i][2], semesters[i - 1][2]
+                    )
+                )
+                break
 
     # check for session entries (lecture/lab/tutorial)
     if (
@@ -123,6 +143,25 @@ def check_markdown_file(
             warnings.append(
                 "no 'learning_outcomes:' or 'takeaway:' detected — consider adding a concise learning outcome or takeaway"
             )
+        # exam ordering: exams should come after other session types
+        lower = text.lower()
+        if "midterm" in lower or "final" in lower:
+            # find position of first exam header
+            exam_idx = min(
+                (
+                    lower.find(h)
+                    for h in ["## midterm", "## final"]
+                    if lower.find(h) != -1
+                ),
+                default=-1,
+            )
+            if exam_idx != -1:
+                # look for any week/lecture/lab/tutorial after that index
+                tail = lower[exam_idx:]
+                if any(k in tail for k in ["## week", "lecture", "lab", "tutorial"]):
+                    warnings.append(
+                        "exam section appears before some lecture/lab/tutorial entries — exams should be placed after other sessions"
+                    )
 
     return errors, warnings
 

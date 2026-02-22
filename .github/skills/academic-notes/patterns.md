@@ -31,7 +31,9 @@ tags:
 
 ## Weekly entries
 
-- Use `## week N lecture` / `## week N lab` headings.
+- Use `## week N lecture` / `## week N lab` / `## week N tutorial` headings.  These sessions should be listed in **strict chronological order** according to their `datetime:` fields.  Lectures, labs and tutorials are allowed (and expected) to interleave based on actual dates and times.
+  - If the syllabus specifies particular numbered sections (e.g. LA3, T2), ask the user which specific session code(s) apply.  Generate entries only for those sections; ignore others.  After filtering, when each week has at most one lab and one tutorial, reset the numbering to `lab 1`/`tutorial 1` for that week.  Only increment the number within a week if multiple sessions of the same type actually occur.
+- **Examinations** are treated specially: they should always appear *after* all lecture, lab, and tutorial entries, even if their datetime would place them earlier.  Within the exam block the individual exam entries themselves still follow chronological order.
 - Each session includes:
   - `datetime: ISO_START/ISO_END, DURATION` (example: `2025-09-02T12:00:00+08:00/2025-09-02T13:20:00+08:00, PT1H20M`)
   - `topic:` short description

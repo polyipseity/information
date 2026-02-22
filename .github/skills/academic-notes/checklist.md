@@ -11,6 +11,7 @@ Required (must-have) ✅
 5. `# index` present for `index.md` files.
 6. `## children` lists child pages in teaching order (or a `children:` YAML key).
 7. Each `week` entry has `datetime` and `topic` (recommended to include timezone offset).
+8. **Ordering rules**: lecture/lab/tutorial entries must follow chronological order; exams must come after all other sessions. In index files, semester headings should be chronologically ordered.
 
 Recommended (helpful) ⚠️
 8. Use `assignments/`, `questions/`, and `attachments/` subfolders for respective content.

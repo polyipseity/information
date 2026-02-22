@@ -29,6 +29,22 @@ Notes: prefer using `COMP_3031` (underscore) in course-scoped flashcard activati
 
 ## Detailed lecture example (content-focused)
 
+### exam ordering illustration
+
+```markdown
+## week 5 lecture
+- datetime: 2025-10-14T12:00:00+08:00/2025-10-14T13:20:00+08:00
+- topic: combinatorics
+
+## midterm examination
+- datetime: 2025-10-28T12:00:00+08:00/2025-10-28T14:00:00+08:00
+
+## week 6 lecture
+- datetime: 2025-11-04T12:00:00+08:00/2025-11-04T13:20:00+08:00
+```
+
+The validator will warn because the midterm appears before the week 6 lecture.
+
 ```markdown
 ## week 7 lecture
 

@@ -38,33 +38,56 @@ See `.github/skills/academic-notes/examples.md` for concrete snippets and valida
 ```markdown
 ---
 aliases:
-  - <COURSE CODE>
-  - <COURSE CODE> index
-  - <INSTITUTION> <COURSE CODE>
-  - <INSTITUTION> <COURSE CODE> index
+  - <course code>
+  - <course code> index
+  - <institution> <course code>
+  - <institution> <course code> index
 tags:
-  - flashcard/active/special/academia/<INSTITUTION>/<COURSE_CODE>
+  - flashcard/active/special/academia/<institution>/<course code>
   - function/index
-  - language/in/<LANGUAGE>
+  - language/in/<language>
 ---
 
 # index
 
-- <INSTITUTION> <COURSE CODE>
-- name: <Course Name (English)>
-- credits: <N>
+- <institution> <course code>
+- name: <course name (English)>
+- credits: <number of credits>
 
-Short course description goes here. Keep it concise (1–3 lines).
+--- <!-- This horizontal separator is always required. -->
+
+<!--
+Provide a detailed course description and any additional notes here.
+Prefer paragraph prose; use a bulleted list only when the content is
+clearly list-oriented.  This block may contain multiple paragraphs,
+bullet lists, or other Markdown elements.  It appears directly after
+the credits line.  Policy notes are allowed but should not include
+instructor or TA names/emails (those belong in a staff directory or
+syllabus).  Grading policy text should be placed immediately below this
+block rather than inside it.
+-->
+<course description and any additional notes>
 
 The content is in teaching order.
 
 ## logistics
 
 - grading
-  - scheme
-    - assignments ×<n>: <percent>%
-    - midterm examination: <percent>%
-    - final examination: <percent>%
+  - <component name>: <percent>%; <optional description>
+  - <another component>: <percent>%
+  - ... <!-- add or remove components as needed; description follows semicolon only when present -->
+- sections:
+  - lecture: L<section>; <venue>; <weekday>T<start>/<weekday>T<end>[,<weekday>T<start>/<weekday>T<end>] <!-- record the student’s lecture stream, venue, and weekly times -->
+  - tutorial: T<section>; <venue>; <weekday>T<start>/<weekday>T<end>[,<weekday>T<start>/<weekday>T<end>] <!-- record the student’s tutorial stream, venue, and weekly times -->
+  - lab: LA<section>; <venue>; <weekday>T<start>/<weekday>T<end>[,<weekday>T<start>/<weekday>T<end>] <!-- record the student’s lab stream, venue, and weekly times -->
+
+<!--
+Agents: prompt the user for lab, tutorial, and lecture section codes and the
+corresponding day‑of‑week/time patterns.  Store each on the same line separated
+by a semicolon so the note contains both the stream identifier and the weekly
+times.  The agent should treat all three fields uniformly; there is no special
+case for lectures.
+-->
 
 ## children
 
