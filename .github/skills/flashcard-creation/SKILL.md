@@ -50,6 +50,13 @@ that file when in doubt.
 
 ## Core workflow
 
+> **Verbatim preservation.** Every edit must keep the original text
+> exactly as written; only add the cloze delimiters `{@{` and `}@}`.  Do
+> not rephrase, reorder, or reflow the prose when inserting cards.  In
+> particular, treat HTML entities like `&nbsp;` and escaped characters
+> such as `\$` as opaque literals; do not convert them into spaces or
+> remove the backslash.
+
 The examples in `examples.md` are the *style guide*, not optional
 reading.  Every invocation should begin by opening that file, scanning the
 semantic index for relevant tags, and mentally aligning the source text
@@ -116,6 +123,20 @@ apply the same transformations that example 7 used.
      you can hide more of it; conversely, err on the side of smaller
      deletions when the idea is dense or prone to confusion.  The goal is
      to make the card a challenge with a clear, discoverable answer.
+   - If a piece of text is already surrounded by Markdown formatting
+     (bold, italic, code, underline, etc.), the cloze should encompass the
+     entire formatted phrase rather than inserting the braces inside the
+     markup.  This preserves the original styling and avoids awkward
+     constructions like ``__{@{foo}@}__``; instead use ``{@{__foo__}@}``.
+   - When a sentence consists of a leading propositional phrase followed
+     by one or more details, **apply clozes to both parts separately**.  For
+     example, in "Biases arise along two dimensions: how information is
+     processed and how decisions are subsequently made and acted upon",
+     hide both the opening proposition and the trailing list of dimensions.
+     The goal is to test recall of the relationship *and* the specifics,
+     unless the supporting details are trivial and the user indicates a
+     preference for a single, larger deletion.  If you discover a new
+     pattern while editing, add an illustrative example to `examples.md`.
    - Always leave at least one or two leading/trailing words outside the
      cloze so the learner has a contextual hint; avoid hiding an entire
      sentence or clause with no anchors.
@@ -155,25 +176,60 @@ straightforward.
 - After delivering suggestions, solicit explicit feedback such as
   "which deletions are wrong?" or "prefer Q/A instead of inline cloze"
   so the skill accumulates examples.
+
+- When the user edits your clozes, inspect the **git diff** output
+  with word‑level highlighting and without a pager, for example:
+
+  ```sh
+  git --no-pager diff --word-diff --no-color path/to/file.md
+  ```
+
+  The `--no-pager` flag ensures the entire diff is printed in one shot so
+  you can see multiple word changes in context; otherwise a truncated view
+  might hide how an adjustment interacts with earlier words.  Word diff
+  marks deletions as `[-deleted text-]` and additions as `{+added text+}`.
+  Read adjacent markers together: if two `[- -]` groups are separated by a
+  single space, the user probably merged two clozes, and `[-foo-] {+foo bar+}`
+  means they expanded a hidden region.  Observing several markers in the
+  same sentence helps you infer boundary shifts that would be missed by a
+  simple line diff.
+
+  Treat the annotated output as a mini‑training dataset: note whether the
+  user moved a cloze to include a formatting delimiter, hid a leading
+  proposition instead of details, merged adjacent small clozes, or made
+  any other systematic adjustment.  Update `examples.md` (and, if
+  necessary, `rules.md` or this document) with a new entry capturing the
+  pattern.  Over time, the cumulative diffs should be the primary driver of
+  your continuous learning.
+
+- Pay attention when the user criticises fragmentation or "too many
+  small clozes".  If they request merging adjacent deletions into a
+  larger cloze, update the rule set and examples accordingly so the
+  model learns to avoid excessive micro‑clozing in future.
+
 - Store a handful of representative before/after samples (privately in
   session memory) and refer to them when making subsequent suggestions.
+
 - When the user corrects the style, incorporate that rule into the next
   iteration (e.g., "never cloze the year unless it's central to the
   concept").  In particular, if the user edits your cloze output you
   should compare the two versions, identify the discrepancy, and update
   the permanent guidance (either in `SKILL.md` or `examples.md`) so the
   rule is remembered.
+
 - **Deep review of edits.**  Take extra time when the user revises your
   changes: read through every modification in the file, note patterns
   such as clozed full sentences or numeric facts, and explicitly add a
   corresponding example or rule.  This thoughtful analysis is essential
   for aligning the model with the user's personal flashcard style.
+
 - **New:** when the user modifies or adds contiguous paragraphs (as in
   the CAPM/SIM example), treat the entire block as a single learning
   unit and add a corresponding entry in `examples.md`.  The index table
   should be updated with a brief description and relevant tags so the
   agent can match similar multi‑paragraph structures in the future.
   This helps the model generalise to multi‑sentence transformations.
+
 - **Equation rule:** never insert a cloze inside a LaTeX equation; if the
   flashcard involves a mathematical expression, the entire equation block
   must be hidden as a single deletion.  This avoids partial hides that
@@ -186,10 +242,18 @@ straightforward.
   corrected boundary.  Minimal clozes make cards crisper and reduce
   unnecessary reveal of context.
 
+  *However*, avoid creating a string of tiny adjacent deletions that each
+  cover only one or two words.  When you find consecutive small clozes
+  separated by only a word or two, consider merging them into a single
+  deletion that spans the intervening text.  This reduces fragmentation,
+  keeps cards focused on coherent ideas, and prevents the flashcards from
+  feeling like a list of trivia bits.
+
 - **Command‑avoidance rule:** the skill should not suggest running any
   commands (e.g. `init generate`) when editing text; such operational
   advice belongs elsewhere and is never relevant during interactive
   flashcard creation.
+
 - **Long‑term consolidation**: if session memory grows large (more than
   about 20 examples or after a prolonged editing session), summarise the
   learned rules and append them to this skill folder.  The preferred

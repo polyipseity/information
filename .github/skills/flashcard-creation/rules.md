@@ -4,6 +4,11 @@ This auxiliary file collects stable heuristics and stylistic points for
 use during flashcard generation.  It is consulted in addition to
 `examples.md` whenever the agent needs a quick reminder of behaviour.
 
+- **Verbatim preservation.** Except for inserting the cloze delimiters
+  `{@{` and `}@}`, leave the original prose exactly as it appears in the
+  source.  Do not reword, reflow, or otherwise modify the text; the only
+  permitted change is to wrap existing words or phrases in cloze markers.
+
 - **Preserve equations.** Never hide part of a LaTeX expression; if a
   card needs mathematical content, wrap the entire `$...$` or `$$...$$`
   block in one cloze.  Partial deletions inside equations break rendering
@@ -78,12 +83,15 @@ use during flashcard generation.  It is consulted in addition to
   each clause as an independent card.  Each item should be wrapped in
   its own cloze so the learner can recall them individually.
 
-- **Article placement.** If a noun phrase begins with an article or
-  possessive (`the`, `a`, `an`, `its`, `their`, etc.), include that
-  leading word inside the cloze.  The visible context should follow the
-  cloze, not precede it.  For example, prefer `{@{the market exposure}@}`
-  rather than `the {@{market exposure}@}` when the phrase is being
-  hidden.  This matches the user’s style throughout the file.
+- **Article and qualifier placement.** If a noun phrase begins with an
+  article, possessive (`the`, `a`, `an`, `its`, `their`, etc.), a
+  preposition (`in`, `on`, `for`), or a qualifying word such as
+  `more`, `less`, include that leading word inside the cloze.  The
+  visible context should follow the cloze, not precede it.  For
+  example, prefer `{@{the market exposure}@}` rather than `the
+  {@{market exposure}@}`, and `{@{more of…}@}` rather than
+  `more {@{of…}@}`.  This generalisation captures the user’s
+  habit of pulling small but semantically bound words into the deletion.
 
 - **Contrastive clauses.** Conjunctions like *but*, *however*, *yet* or
   *although* generally mark shifts in meaning; generate separate
@@ -101,14 +109,25 @@ use during flashcard generation.  It is consulted in addition to
 - **Minimal semantic cloze.** Aim to hide the smallest meaningful unit
   that still challenges recall.  Avoid wrapping entire clauses or
   sentences when a shorter noun phrase or verb phrase suffices.  If you
-  accidentally hide a leading article or pronoun, move the boundary so
-  the visible context stays outside the cloze.  This rule is the
-  reverse of the “Article placement” guideline and helps keep cards
-  crisp and focused.
+  accidentally hide a leading article, pronoun, or qualifying word and
+  the user later moves it inside the cloze, update your pattern accordingly
+  (see the “Article and qualifier placement” rule above).  This rule
+  helps keep cards crisp and focused while respecting the user’s
+  evolving preference for including certain small words.
 
 - **Avoid command suggestions.** The skill is purely about text edits;
   do not suggest running `init generate` or similar commands as part of
   flashcard creation.
+
+- **Preserve HTML entities and escaped characters.** When making
+  replacements, treat sequences such as `&nbsp;`, `\$`, or combinations
+  like `\$&nbsp;123` as opaque literals. Never convert an HTML entity to
+  a literal space, insert extra whitespace, or drop/duplicate the
+  backslash in an escaped dollar sign; the entire original token must
+  remain verbatim in the output. Do not break these sequences across a
+  cloze or modify their internal spacing. This rule guards against
+  JSON/string interpolation hiccups during editing and matches the
+  user's preference for exact preservation of formatting.
 
 - **No submodule editing.** Never operate on files under `private/`,
   `self/`, or any git submodule unless explicitly authorised by the

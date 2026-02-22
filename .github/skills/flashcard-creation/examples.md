@@ -49,10 +49,10 @@ user and the revised text with `{@{ }@}`/`::@::`/`:@:` markup inserted.
 | 33  | minimal cloze boundaries avoiding leading conjunctions and pronouns             | minimal-cloze, conjunction, conditional, style                                  |
 | 34  | short declarative sentence split subject/predicate (mispricing/arbitrage)       | short-sentence, split-subject-predicate, minimal                                |
 | 35  | articles inside clozes                                                          | article-placement, noun-phrase, style                                           |
-
----
-
-(Additional entries can be appended; update the index table above with new numbers, descriptions and tags.)
+| 36  | preserving HTML entities and escaped dollar signs                               | html-entity, escaped-dollar, verbatim-preservation                              |
+| 37  | cloze both proposition and details                                              | proposition-cloze, leading-phrase, details-visible, formatting                  |
+| 38  | complex inattention model paragraph with articles and numeric params            | long-paragraph, numbers, articles-included, multi-cloze                         |
+| 39  | full-sentence framing definition including small words                          | full-sentence, article-included, framing-definition                             |
 
 ## Example 1 – System prompt dense math paragraph
 
@@ -694,6 +694,62 @@ The market exposure (beta) is measured by b_i.
 
 ```text
 {@{The market exposure (beta)}@} is measured by {@{b_i}@}.
+```
+
+## Example 36 – preserving HTML entities and escaped dollar signs
+
+**Input:**
+
+```text
+The contract cost \$5&nbsp;000 and the notation \$ was included as a literal.
+```
+
+**Output:**
+
+```text
+{@{The contract cost \$5&nbsp;000 and the notation \$}@} was {@{included as a literal}@}.
+```
+
+## Example 37 – cloze both proposition and details
+
+**Input:**
+
+```text
+Biases arise along two dimensions: how information is processed and how decisions are subsequently made and acted upon.
+```
+
+**Output:**
+
+```text
+{@{Biases arise along}@} two dimensions: {@{how information is processed and how decisions are subsequently made and acted upon}@}.
+```
+
+## Example 38 – inattention model paragraph with articles and parameters
+
+**Input:**
+
+```text
+To model inattention in financial markets, Della Vigna (2009) modeled an asset whose value $V=v+o$. An inattentive investor perceives $\hat V = v+(1-a)o$, where $a\in[0,1]$ measures the degree of inattention: $a=0$ is full attention and $a=1$ is total ignorance. Della Vigna and Pollet (2009) applied this idea to stocks: if investors see only a fraction of a firm’s earnings shock $o$, their short‑run return is $(1-a)o/v$; the long‑run return equals $o/v$. Empirical estimates give $a=0.456$ on non‑Fridays and $a=0.59$ on Fridays, indicating greater inattention when people are distracted.
+```
+
+**Output:**
+
+```text
+To model {@{inattention in financial markets, Della Vigna (2009)}@} modeled {@{an asset whose value $V=v+o$}@}. {@{An inattentive investor}@} perceives {@{$\hat V = v+(1-a)o$}@}, where {@{$a\in[0,1]$ measures the degree of inattention}@}: $a=0$ is {@{full attention and $a=1$ is total ignorance}@}. {@{Della Vigna and Pollet (2009) applied this idea to stocks}@}: if investors see {@{only a fraction of a firm’s earnings shock $o$}@}, their short‑run return is {@{$(1-a)o/v$; the long‑run return equals $o/v$}@}. Empirical estimates give {@{$a=0.456$ on non‑Fridays}@} and {@{$a=0.59$ on Fridays}@}, indicating {@{greater inattention when people are distracted}@}.
+```
+
+## Example 39 – full-sentence framing definition including small words
+
+**Input:**
+
+```text
+Humans judge outcomes by comparing alternatives; a change in how options are presented—_framing_—can alter choices.
+```
+
+**Output:**
+
+```text
+{@{Humans judge outcomes by comparing alternatives}@}; {@{a change in how options are presented—_framing_}@}—can {@{alter choices}@}.
 ```
 
 ---
