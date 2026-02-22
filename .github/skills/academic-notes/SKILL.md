@@ -97,10 +97,10 @@ steps:
 Tags must follow the pattern
 
 ```text
-flashcard/active/special/academia/<INSTITUTION>/<PAGE>
+flashcard/active/special/academia/<institution>/<page>
 ```
 
-`<PAGE>` normally mirrors the course code using underscores (`COMP_3031`).
+`<page>` normally mirrors the course code using underscores (`COMP_3031`).
 Spaces should never be percent‑encoded in tags.  Validators flag missing or
 malformed tags.  Flashcard state is regenerated with `uv run -m init generate`.
 

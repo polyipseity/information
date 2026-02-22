@@ -5,6 +5,10 @@ description: Ingest Wikipedia HTML, normalize links/media, and archive to knowle
 
 # Wiki Ingestion Workflow
 
+> **Continuous improvement:** see `continuous_improvement.md` in this
+> folder for a running log of lessons learned and guidance on evolving
+> the wiki-ingestion skill.
+
 Use this skill when importing Wikipedia articles or converting HTML content into Markdown notes.
 
 ## What wiki ingestion does

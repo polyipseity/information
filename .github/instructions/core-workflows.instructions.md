@@ -16,6 +16,10 @@ Agent quickstart note: Agents should consult `.github/instructions/agent-quickst
 
 **Command**: `uv run -m init generate [pytextgen flags] <paths?>`
 
+> **Tip:** when you later use `pnpm run check:md <paths>` to lint files, **always** add
+> `--no-globs` after `check:md`.  Without this flag markdownlint-cli2 interprets the path as a glob pattern, which may recursively scan the whole repository instead of just the files you specified.  This applies whether you invoke the CLI yourself or through a script.
+> paths literally instead of expanding globs; this prevents enormous scans.
+
 - Add `-C/--no-cached` to rebuild cache from scratch
 - Pass pytextgen flags like `--no-code-cache`, `--init-flashcards`
 - Regenerates pytextgen content blocks in Markdown files

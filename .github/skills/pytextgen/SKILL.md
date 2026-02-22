@@ -5,6 +5,9 @@ description: Regenerate programmatically-generated content blocks in knowledge b
 
 # pytextgen Workflow
 
+> **Continuous improvement:** see `continuous_improvement.md` in this
+> folder for documented lessons and evolving best practices.
+
 Use this skill when working with pytextgen-powered content generation, including regenerating flashcards, clearing generated regions, managing caches, and debugging generation issues.
 
 ## What pytextgen does

@@ -5,6 +5,10 @@ description: Repository-wide tooling including init wrapper, pack/publish utilit
 
 # Repository Tools Overview
 
+> **Continuous improvement:** see `continuous_improvement.md` in this
+> folder for notes on tool behaviour, past feedback, and update
+> procedures.
+
 Use this skill when working with repository-wide tools, understanding tool architecture, or coordinating workflows across multiple tool categories.
 
 ## Tool categories

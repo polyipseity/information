@@ -37,6 +37,8 @@ Agent quickstart pointer: See `.github/instructions/agent-quickstart.instruction
 ## Formatting & linting
 
 - **markdownlint**: Configuration in `.markdownlint.json` (root, `tools/`, `special/`, `archives/`) disables MD013 (line length), MD033 (HTML blocks), MD051 (link spacing)
+- **running markdownlint-cli2**: when invoking the CLI with explicit file paths (e.g. `pnpm run check:md special/academia/...`), **always** include `--no-globs`.  Failing to do so causes markdownlint to treat the argument as a glob and may end up linting the entire workspace, which is slow and often unintended.  This rule applies whether you run it directly or via a pnpm script.
+
   - Respects and preserves existing formatting; avoid auto-reformatting unless requested
   - Useful for validating structure without breaking KaTeX or special layouts
 
