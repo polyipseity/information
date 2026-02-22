@@ -1,9 +1,5 @@
 # Continuous improvement — tools skill
 
-- **2026‑02‑22 consolidation:** this document was added as part of a
-  repo‑wide effort to place continuous‑learning notes in every skill
-  directory.
-
 This document describes the feedback loop for continuously improving the
 `tools` skill, which covers repository-wide utilities such as `init.py`,
 `convert wiki.py`, `pack.py`, and `publish.py`.
@@ -37,6 +33,11 @@ This document describes the feedback loop for continuously improving the
   `.git`, `.obsidian`, and `tools` directories to avoid accidental
   edits; ensure this exclusion list is maintained when caching logic is
   changed.
+- **2026‑02‑22 consolidation:** this document was added as part of a
+  repo‑wide effort to place continuous‑learning notes in every skill
+  directory.
+
+---
 
 Additional domain-specific notes can be appended here as new situations
 arise.

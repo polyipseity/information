@@ -1,9 +1,5 @@
 # Continuous improvement — wiki-ingestion skill
 
-- **2026‑02‑22 consolidation:** this document was added as part of a
-  repo‑wide effort to place continuous‑learning notes in every skill
-  directory.
-
 This document describes the feedback loop for continuously improving the
 `wiki-ingestion` skill.  Whenever the workflow or its documentation
 receives feedback from the user, summarise the lesson here and update
@@ -43,4 +39,10 @@ garbled HTML.
   full weekday names when the note contains a timetable, and omit `topic:`
   from any `status: unscheduled` row.  Consolidate these cross‑skill
   rules rather than repeating them in every workflow description.
+- **2026‑02‑22 consolidation:** this document was added as part of a
+  repo‑wide effort to place continuous‑learning notes in every skill
+  directory.
+
+---
+
 Add new lessons below as the skill evolves.

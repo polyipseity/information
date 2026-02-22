@@ -1,9 +1,5 @@
 # Continuous improvement — pytextgen skill
 
-- **2026‑02‑22 consolidation:** this document was added as part of a
-  repo‑wide effort to place continuous‑learning notes in every skill
-  directory.
-
 This document describes the feedback loop for continuously improving the
 `pytextgen` skill, which deals with programmatically-generated Markdown
 content and the `init.py` wrapper.
@@ -34,5 +30,10 @@ content and the `init.py` wrapper.
 - Include explicit public‑holiday rows rather than skipping them; the
   `init.py` wrapper and other tools rely on their presence for accurate
   week numbering.
+- **2026‑02‑22 consolidation:** this document was added as part of a
+  repo‑wide effort to place continuous‑learning notes in every skill
+  directory.
+
+---
 
 New improvements can be added below as the skill evolves.

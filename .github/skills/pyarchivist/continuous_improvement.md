@@ -1,9 +1,5 @@
 # Continuous improvement — pyarchivist skill
 
-- **2026‑02‑22 consolidation:** this document was added as part of a
-  repo‑wide effort to place continuous‑learning notes in every skill
-  directory.
-
 This document describes the feedback loop for continuously improving the
 `pyarchivist` skill, which handles archiving online content and
 maintaining `index.md` files in `archives/`.
@@ -32,5 +28,10 @@ maintaining `index.md` files in `archives/`.
 - Run `pnpm run check:md` on affected index files after archiving to
   catch inadvertent markdown errors such as duplicate headings or
   misplaced YAML frontmatter.
+- **2026‑02‑22 consolidation:** this document was added as part of a
+  repo‑wide effort to place continuous‑learning notes in every skill
+  directory.
+
+---
 
 Add more lessons here as new patterns or bugs are discovered.
