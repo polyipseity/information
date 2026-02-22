@@ -143,7 +143,7 @@ Universal constructions (annotation: i.e. universal properties) are {@{more gene
 
 ## history
 
-{@{Universal properties of various topological constructions}@} were {@{presented by [Pierre Samuel](Pierre%20Samuel.md) in 1948}@}. They were later used {@{extensively by [Bourbaki](Nicolas%20Bourbaki.md)}@}. {@{The closely related concept of adjoint functors}@} was {@{introduced independently by [Daniel Kan](Daniel%20Kan.md) in 1958}@}. <!--SR:!2029-04-17,1215,350!2026-02-26,295,290!2027-11-21,800,330!2029-07-27,1291,350!2028-02-24,826,290-->
+{@{Universal properties of various topological constructions}@} were {@{presented by [Pierre Samuel](Pierre%20Samuel.md) in 1948}@}. They were later used {@{extensively by [Bourbaki](Nicolas%20Bourbaki.md)}@}. {@{The closely related concept of adjoint functors}@} was {@{introduced independently by [Daniel Kan](Daniel%20Kan.md) in 1958}@}. <!--SR:!2029-04-17,1215,350!2029-05-28,1187,310!2027-11-21,800,330!2029-07-27,1291,350!2028-02-24,826,290-->
 
 ## see also
 

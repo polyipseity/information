@@ -37,7 +37,7 @@ Quoted spreads often {@{over-state the spreads finally paid by traders, due to "
 
 {@{Quoted and effective spreads}@} represent {@{costs incurred by traders}@}. This cost includes both {@{a cost of asymmetric information, that is, a loss to traders that are more informed}@}, as well as {@{a cost of immediacy, that is, a cost for having a trade being executed by an intermediary}@}. The realized spread {@{isolates the cost of immediacy, also known as the "real cost"}@}.<sup>[\[5\]](#^ref-5)</sup> This spread is defined as: {@{${\text{Realized Spread} }_{k}=2\times {\frac {|{\hbox{Midpoint} }_{k+1}-{\hbox{Traded Price} }_{k}|}{ {\hbox{Midpoint} }_{k} } }\times 100$}@} where {@{the subscript k represents the kth trade}@}. {@{The intuition for why this spread measures the cost of immediacy}@} is that, {@{after each trade, the dealer adjusts quotes to reflect the information in the trade \(and inventory effects\)}@}. <!--SR:!2029-07-22,1262,350!2026-04-11,326,342!2029-08-10,1275,350!2028-10-06,1006,342!2027-09-25,736,342!2026-10-01,405,270!2026-04-05,320,342!2026-03-06,279,290!2026-11-10,480,322-->
 
-{@{Inner price moves}@} are {@{moves of the bid-ask price where the spread has been deducted}@}. <!--SR:!2026-02-26,282,330!2026-03-10,294,330-->
+{@{Inner price moves}@} are {@{moves of the bid-ask price where the spread has been deducted}@}. <!--SR:!2029-09-05,1287,350!2026-03-10,294,330-->
 
 ## examples
 

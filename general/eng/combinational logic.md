@@ -17,7 +17,7 @@ tags:
 
 > {@{![Classes of automata](../../archives/Wikimedia%20Commons/Automata%20theory.svg)}@}
 >
-> {@{Classes of automata}@} \(Clicking on each layer gets an article on that subject\) <!--SR:!2029-08-20,1278,350!2026-02-26,288,330-->
+> {@{Classes of automata}@} \(Clicking on each layer gets an article on that subject\) <!--SR:!2029-08-20,1278,350!2029-10-04,1316,350-->
 
 In {@{[automata theory](automata%20theory.md)}@}, {@{__combinational logic__ \(also referred to as __time-independent logic__<sup>[\[1\]](#^ref-1)</sup>\)}@} is {@{a type of [digital logic](digital%20logic.md) that is implemented by [Boolean circuits](Boolean%20circuit.md)}@}, where {@{the output is a [pure function](pure%20function.md) of the present input only}@}. This is in contrast to {@{[sequential logic](sequential%20logic.md)}@}, in which {@{the output depends not only on the present input but also on the history of the input}@}. In other words, sequential logic {@{has _[memory](computer%20storage.md)_ while combinational logic does not}@}. <!--SR:!2029-07-10,1244,350!2028-02-12,830,330!2029-09-06,1293,350!2027-12-02,773,330!2026-03-12,294,330!2026-03-09,291,330!2026-02-27,289,330-->
 
@@ -27,7 +27,7 @@ In {@{[automata theory](automata%20theory.md)}@}, {@{__combinational logic__ \(a
 
 ## representation
 
-Combinational logic is used to {@{build circuits that produce specified outputs from certain inputs}@}. {@{The construction of combinational logic}@} is generally done using one of two methods: {@{a sum of products, or a product of sums}@}. Consider {@{the following [truth table](truth%20table.md)}@}: <!--SR:!2029-09-12,1298,350!2026-02-26,288,330!2026-03-10,292,330!2029-05-18,1200,350-->
+Combinational logic is used to {@{build circuits that produce specified outputs from certain inputs}@}. {@{The construction of combinational logic}@} is generally done using one of two methods: {@{a sum of products, or a product of sums}@}. Consider {@{the following [truth table](truth%20table.md)}@}: <!--SR:!2029-09-12,1298,350!2029-09-28,1310,350!2026-03-10,292,330!2029-05-18,1200,350-->
 
 | _A_                                                                                                 | _B_                                                                                                 | _C_                                                                                                 | Result                                                                                              | [Logical equivalent](logical%20equivalence.md) |
 |:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:----------------------------------------------:|

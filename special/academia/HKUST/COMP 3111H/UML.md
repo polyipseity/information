@@ -327,7 +327,7 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 
 ### use case specification
 
-{@{A detailed use case specification}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 steps: {@{name → description → actors}@} → {@{preconditions \(if any\) → flow of events → postconditions \(if any\)}@} → {@{alternative flows \(if any\) → special requirements \(if any\)}@}\) <!--SR:!2026-04-14,136,407!2026-04-01,125,407!2026-04-01,125,407!2026-04-16,138,407!2026-03-31,124,407!2026-04-16,138,407!2026-09-04,243,387!2026-02-26,28,442!2026-02-26,28,442-->
+{@{A detailed use case specification}@} is structured around {@{several key elements}@}. {@{The specification}@} should {@{remain concise yet exhaustive enough}@} for {@{developers, testers, and users to understand precisely what the system must do}@}. {@{The elements}@} are: \(annotation: 8 steps: {@{name → description → actors}@} → {@{preconditions \(if any\) → flow of events → postconditions \(if any\)}@} → {@{alternative flows \(if any\) → special requirements \(if any\)}@}\) <!--SR:!2026-04-14,136,407!2026-04-01,125,407!2026-04-01,125,407!2026-04-16,138,407!2026-03-31,124,407!2026-04-16,138,407!2026-09-04,243,387!2026-08-10,165,462!2026-08-11,166,462-->
 
 1. __Name__ ::@:: concise title written as an active-voice verb phrase in the present tense. <!--SR:!2026-04-03,127,407!2026-03-31,124,407-->
 2. __Brief description__ ::@:: a short \(one-sentence\) summary of the scenario. <!--SR:!2026-03-31,124,407!2026-04-17,139,407-->

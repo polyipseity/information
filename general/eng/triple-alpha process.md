@@ -29,7 +29,7 @@ The net energy release of the process is {@{7.275 MeV}@}. <!--SR:!2028-10-06,107
 
 As a side effect of the process, {@{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}@} when {@{the temperature rises above 2×10<sup>8</sup> K}@}, called {@{[_alpha capture_](alpha%20process.md)}@}: <!--SR:!2028-03-13,865,290!2026-08-02,503,330!2027-05-09,768,330-->
 
-1. [alpha capture](alpha%20process.md) ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2026-03-08,293,210!2026-02-26,310,250-->
+1. [alpha capture](alpha%20process.md) ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2026-03-08,293,210!2028-04-09,773,250-->
     - [alpha capture](alpha%20process.md) / energy release ::@:: +7.162 MeV <!--SR:!2026-07-19,305,190!2027-12-20,875,290-->
 
 Nuclear fusion reactions of {@{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}@}, which also is {@{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}@}. <!--SR:!2026-05-10,473,310!2026-09-13,290,170-->

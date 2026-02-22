@@ -69,7 +69,7 @@ Also, the time and space complexity of the algorithm is {@{very high: $O \left( 
 
 Common alternatives include {@{[Eclat algorithm](Eclat%20algorithm.md) and [FP-growth algorithm](FP-growth%20algorithm.md)}@}. <!--SR:!2026-10-16,698,343-->
 
-The [Eclat algorithm](Eclat%20algorithm.md) is {@{generally faster than the Apriori algorithm, and might be slower when the database is large}@}. The [FP-growth algorithm](FP-growth%20algorithm.md) {@{outperforms both the Apriori and Eclat algorithms}@}, because it {@{does not generate and test candidates, uses a compact data structure}@}, and requires {@{only one (or two, depending on how you define "scan") database scan}@}. <!--SR:!2027-07-31,947,363!2031-11-06,2102,343!2026-03-01,19,352!2026-02-24,5,353-->
+The [Eclat algorithm](Eclat%20algorithm.md) is {@{generally faster than the Apriori algorithm, and might be slower when the database is large}@}. The [FP-growth algorithm](FP-growth%20algorithm.md) {@{outperforms both the Apriori and Eclat algorithms}@}, because it {@{does not generate and test candidates, uses a compact data structure}@}, and requires {@{only one (or two, depending on how you define "scan") database scan}@}. <!--SR:!2027-07-31,947,363!2031-11-06,2102,343!2026-03-01,19,352!2026-03-21,23,373-->
 
 ## references
 

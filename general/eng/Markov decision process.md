@@ -19,9 +19,9 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 
 > {@{![Example of a simple MDP with three states \(green circles\) and two actions \(orange circles\), with two rewards \(orange arrows\)](../../archives/Wikimedia%20Commons/Markov%20Decision%20Process.svg)}@}
 >
-> Example of {@{a simple MDP with three states \(green circles\) and two actions \(orange circles\)}@}, with {@{two rewards \(orange arrows\)}@} <!--SR:!2030-05-29,1575,369!2029-06-08,1201,349!2026-02-24,5,381-->
+> Example of {@{a simple MDP with three states \(green circles\) and two actions \(orange circles\)}@}, with {@{two rewards \(orange arrows\)}@} <!--SR:!2030-05-29,1575,369!2029-06-08,1201,349!2026-03-23,25,401-->
 
-A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where: <!--SR:!2026-02-26,349,349-->
+A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where: <!--SR:!2030-10-01,1678,369-->
 
 - {@{$S$}@} is {@{a [set](set%20(mathematics).md) of states called the _state space_}@}. {@{The state space}@} may be {@{discrete or continuous, like the [set of real numbers](real%20number.md)}@}.
 - {@{$A$}@} is {@{a set of actions called the _action space_}@} \(alternatively, {@{$A_{s}$}@} is {@{the set of actions available from state $s$}@}\). As for state, this set may be {@{discrete or continuous}@}.
@@ -52,7 +52,7 @@ These model classes form a hierarchy of information content: an explicit model t
 
 > {@{![Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)](../../archives/Wikimedia%20Commons/Cartpole.gif)}@}
 >
-> {@{Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)}@} <!--SR:!2030-07-11,1613,369!2026-02-26,349,349-->
+> {@{Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)}@} <!--SR:!2030-07-11,1613,369!2030-10-02,1679,369-->
 
 An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic control theory}@}. <!--SR:!2030-08-04,1631,369!2026-03-01,352,349-->
 
@@ -65,7 +65,7 @@ In this example, we have
 
 ## algorithms
 
-{@{Solutions for MDPs with finite state and action spaces}@} may be found through {@{a variety of methods such as [dynamic programming](dynamic%20programming.md)}@}. The algorithms in this section apply to {@{MDPs with finite state and action spaces and explicitly given transition probabilities and reward functions}@}, but {@{the basic concepts may be extended to handle other problem classes}@}, for example {@{using [function approximation](function%20approximation.md)}@}. <!--SR:!2030-05-03,1556,369!2026-02-26,349,349!2030-08-09,1635,369!2030-06-05,1582,369!2030-06-06,1583,369-->
+{@{Solutions for MDPs with finite state and action spaces}@} may be found through {@{a variety of methods such as [dynamic programming](dynamic%20programming.md)}@}. The algorithms in this section apply to {@{MDPs with finite state and action spaces and explicitly given transition probabilities and reward functions}@}, but {@{the basic concepts may be extended to handle other problem classes}@}, for example {@{using [function approximation](function%20approximation.md)}@}. <!--SR:!2030-05-03,1556,369!2030-09-28,1675,369!2030-08-09,1635,369!2030-06-05,1582,369!2030-06-06,1583,369-->
 
 {@{The standard family of algorithms to calculate optimal policies for finite state and action MDPs}@} requires {@{storage for two arrays indexed by state: _value_ $V$, which contains real values, and _policy_ $\pi$, which contains actions}@}. At {@{the end of the algorithm}@}, $\pi$ will {@{contain the solution}@} and $V(s)$ will {@{contain the discounted sum of the rewards to be earned \(on average\) by following that solution from state $s$}@}. <!--SR:!2028-07-24,1023,349!2026-03-01,352,349!2030-05-31,1581,369!2030-05-16,1566,369!2026-03-07,25,395-->
 
@@ -86,15 +86,15 @@ In {@{value iteration \([Bellman 1958](#CITEREFBellman1958)\), which is also cal
 
 In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, {@{step one (value update) is performed once, and then step two (policy update) is performed once, then both are repeated until policy converges}@}. Then {@{step one is again performed once and so on}@}. \(Policy iteration was {@{invented by Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which {@{he had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369-->
 
-Instead of {@{repeating step two to convergence}@}, it may be {@{formulated and solved as a set of linear equations}@}. These equations are merely obtained by {@{making $s=s'$ in the step two equation}@}.<!-- <sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> --> Thus, {@{repeating step two to convergence}@} can be {@{interpreted as solving the linear equations by [relaxation](relaxation%20(iterative%20method).md)}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369!2030-07-22,1621,369!2026-02-26,349,349-->
+Instead of {@{repeating step two to convergence}@}, it may be {@{formulated and solved as a set of linear equations}@}. These equations are merely obtained by {@{making $s=s'$ in the step two equation}@}.<!-- <sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> --> Thus, {@{repeating step two to convergence}@} can be {@{interpreted as solving the linear equations by [relaxation](relaxation%20(iterative%20method).md)}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369!2030-07-22,1621,369!2029-06-28,1218,349-->
 
 This variant has the advantage that {@{there is a definite stopping condition}@}: when {@{the array $\pi$ does not change in the course of applying step 1 to all states}@}, {@{the algorithm is completed}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369-->
 
-{@{Policy iteration}@} is usually {@{slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-02-24,5,381!2026-02-24,5,381-->
+{@{Policy iteration}@} is usually {@{slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-03-25,27,401!2026-03-24,26,401-->
 
 #### modified policy iteration
 
-In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Puterman & Shin 1978](#CITEREFPutermanShin1978)\)}@}, {@{step one is performed once, and then step two is repeated several times}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Then {@{step one is again performed once and so on}@}. <!--SR:!2028-06-11,991,349!2026-02-26,349,349!2030-05-08,1561,369-->
+In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Puterman & Shin 1978](#CITEREFPutermanShin1978)\)}@}, {@{step one is performed once, and then step two is repeated several times}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Then {@{step one is again performed once and so on}@}. <!--SR:!2028-06-11,991,349!2030-10-03,1680,369!2030-05-08,1561,369-->
 
 #### prioritized sweeping
 
@@ -167,7 +167,7 @@ For {@{the purpose of this section}@}, it is useful to {@{define a further funct
 
 Another application of MDP process in {@{[machine learning](machine%20learning.md) theory}@} is called {@{learning automata}@}. This is also {@{one type of reinforcement learning if the environment is stochastic}@}. {@{The first detail __learning automata__ paper}@} is surveyed by {@{[Narendra](Kumpati%20S.%20Narendra.md) and Thathachar \(1974\)}@}, which were originally {@{described explicitly as [finite state automata](finite-state%20machine.md)}@}.<sup>[\[19\]](#^ref-19)</sup> Similar to {@{reinforcement learning}@}, a learning automata algorithm also has {@{the advantage of solving the problem when probability or rewards are unknown}@}. {@{The difference between learning automata and Q-learning}@} is that {@{the former technique omits the memory of Q-values, but updates the action probability directly to find the learning result}@}. Learning automata is {@{a learning scheme with a rigorous proof of convergence}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-02-28,351,349!2030-01-28,1473,369!2030-09-24,1672,369!2030-02-17,1493,369!2027-06-26,694,329!2030-05-22,1572,369!2028-08-16,1041,349!2030-06-09,1586,369!2030-02-09,1485,369!2026-02-27,350,349!2030-05-14,1564,369-->
 
-In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of: <!--SR:!2026-02-26,349,349!2030-05-08,1561,369-->
+In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of: <!--SR:!2030-10-04,1681,369!2030-05-08,1561,369-->
 
 - a set _x_ ::@:: of possible inputs, <!--SR:!2029-06-12,1284,352!2029-02-12,1191,352-->
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2029-01-31,1181,352!2029-07-05,1298,352-->

@@ -39,7 +39,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{3 bags of coal}@}              | {@{20 kg}@}           | {@{&dollar;25.00}@}    | {@{<u>500</u>}@}         |
 > | &emsp;{@{Total cost}@}            |                       |                        | {@{&dollar;1&nbsp;700}@} |
 >
-> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2026-02-26,270,330!2026-05-06,334,350!2026-05-15,333,350!2026-03-20,292,330!2026-03-20,292,330!2026-05-21,339,350!2026-04-30,329,350!2029-02-28,1121,350!2026-04-25,324,350!2029-03-14,1134,350!2026-05-29,347,350!2026-06-04,353,350!2026-05-22,340,350!2029-04-05,1152,350!2026-03-20,292,330!2026-02-27,271,330!2026-05-17,335,350!2026-03-22,294,330!2029-03-02,1123,350!2026-05-06,334,350!2029-05-14,1183,350!2026-04-30,329,350!2026-05-05,333,350!2026-05-20,338,350-->
+> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2029-07-10,1230,350!2026-05-06,334,350!2026-05-15,333,350!2026-03-20,292,330!2026-03-20,292,330!2026-05-21,339,350!2026-04-30,329,350!2029-02-28,1121,350!2026-04-25,324,350!2029-03-14,1134,350!2026-05-29,347,350!2026-06-04,353,350!2026-05-22,340,350!2029-04-05,1152,350!2026-03-20,292,330!2026-02-27,271,330!2026-05-17,335,350!2026-03-22,294,330!2029-03-02,1123,350!2026-05-06,334,350!2029-05-14,1183,350!2026-04-30,329,350!2026-05-05,333,350!2026-05-20,338,350-->
 
 - materials requisition form ::@:: information, table, authorized signature <!--SR:!2026-05-28,346,350!2026-06-04,353,350-->
   - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2029-01-18,1085,350!2026-05-29,347,350-->
@@ -176,7 +176,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 | <!--SR:!2026-05-18,336,350!2029-01-23,1090,350!2026-05-03,331,350!2026-03-19,291,330!2026-04-26,325,350!2029-02-21,1114,350!2026-05-01,330,350!2026-04-30,329,350!2026-03-18,290,330!2026-05-25,343,350!2026-03-30,302,350!2029-01-16,1083,350!2029-06-18,1211,350!2026-05-06,334,350-->
 
 - T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance. <!--SR:!2026-03-26,298,350!2026-05-02,330,350-->
-  - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line. <!--SR:!2026-02-26,270,330!2029-01-12,1079,350-->
+  - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line. <!--SR:!2029-07-11,1231,350!2029-01-12,1079,350-->
 
 ## process costing (weighted average)
 
@@ -263,7 +263,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Beginning Work In Process}@} | {@{420}@}            | {@{10}@}               | {@{30}@}         |
 > | {@{Completed/Transferred}@}     | {@{80}@}             | {@{80}@}               | {@{80}@}         |
 > | {@{Ending Inventory}@}          | {@{610}@}            | {@{600}@}              | {@{590}@}        |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | {@{690}@}              | {@{700}@}        | <!--SR:!2026-02-26,270,330!2029-02-04,1102,350!2026-05-16,334,350!2026-05-22,340,350!2029-03-19,1138,350!2026-03-24,296,350!2026-05-23,341,350!2026-04-05,308,350!2029-06-16,1209,350!2026-04-07,310,350!2026-05-20,338,350!2029-04-04,1151,350!2026-04-25,324,350!2029-02-20,1113,350!2029-01-02,1074,350!2029-06-20,1212,350!2026-04-20,319,350!2029-04-12,1158,350!2026-02-26,270,330!2026-03-22,294,330!2026-05-07,335,350-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | {@{690}@}              | {@{700}@}        | <!--SR:!2029-07-07,1227,350!2029-02-04,1102,350!2026-05-16,334,350!2026-05-22,340,350!2029-03-19,1138,350!2026-03-24,296,350!2026-05-23,341,350!2026-04-05,308,350!2029-06-16,1209,350!2026-04-07,310,350!2026-05-20,338,350!2029-04-04,1151,350!2026-04-25,324,350!2029-02-20,1113,350!2029-01-02,1074,350!2029-06-20,1212,350!2026-04-20,319,350!2029-04-12,1158,350!2029-07-09,1229,350!2026-03-22,294,330!2026-05-07,335,350-->
 
 <!-- markdownlint MD028 -->
 

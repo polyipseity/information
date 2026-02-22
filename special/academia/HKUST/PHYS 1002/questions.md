@@ -491,7 +491,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. In the formation of a star, no matter is wasted as all excess material ends up recycled into planets.
 > 5. Life is continuously being spread from star to star in a galaxy.
 >
-> - solution: {@{2}@} <!--SR:!2026-02-26,455,385-->
+> - solution: {@{2}@} <!--SR:!2032-09-18,2396,405-->
 
 <!-- markdownlint MD028 -->
 

@@ -154,7 +154,7 @@ For example, {@{frequency-domain representation}@} as {@{a special case of geome
 
 ### M-ary modulation
 
-By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than one bit per symbol}@} can be {@{transmitted}@}. {@{The dimensionality of the space}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; {@{higher dimensions}@} enable {@{denser constellations}@}. <!--SR:!2026-03-17,72,325!2026-03-18,73,325!2026-03-22,77,344!2026-03-16,71,325!2026-02-26,53,324!2026-03-20,75,325!2026-03-14,69,325-->
+By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than one bit per symbol}@} can be {@{transmitted}@}. {@{The dimensionality of the space}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; {@{higher dimensions}@} enable {@{denser constellations}@}. <!--SR:!2026-03-17,72,325!2026-03-18,73,325!2026-03-22,77,344!2026-03-16,71,325!2026-10-21,237,344!2026-03-20,75,325!2026-03-14,69,325-->
 
 ### constellation diagram
 

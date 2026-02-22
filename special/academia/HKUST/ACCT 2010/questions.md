@@ -318,7 +318,7 @@ tags:
 > 3. contractual liability
 >
 > - solution: {@{1}@}
-> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!2026-06-28,452,381!2026-02-26,328,361-->
+> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!2026-06-28,452,381!2030-08-08,1624,381-->
 
 <!-- markdownlint MD028 -->
 

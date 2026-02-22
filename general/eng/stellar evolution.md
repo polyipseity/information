@@ -59,7 +59,7 @@ These mid-range stars ultimately {@{reach the tip of the asymptotic-giant-branch
 
 - see: [supergiant](supergiant.md)
 
-In massive stars, the core is {@{already large enough at the onset of the hydrogen burning shell that helium ignition will occur before electron degeneracy pressure has a chance to become prevalent}@}. Thus, when {@{these stars expand and cool}@}, they {@{do not brighten as dramatically as lower-mass stars}@}; however, they were {@{more luminous on the main sequence and they evolve to highly luminous supergiants}@}. Their cores become {@{massive enough that they cannot support themselves by [electron degeneracy](electron%20degeneracy%20pressure.md) and will eventually collapse to produce a [neutron star](neutron%20star.md) or [black hole](black%20hole.md)}@}. <!--SR:!2026-10-15,577,328!2026-12-29,630,328!2026-12-08,640,308!2027-01-16,634,288!2026-02-26,392,270-->
+In massive stars, the core is {@{already large enough at the onset of the hydrogen burning shell that helium ignition will occur before electron degeneracy pressure has a chance to become prevalent}@}. Thus, when {@{these stars expand and cool}@}, they {@{do not brighten as dramatically as lower-mass stars}@}; however, they were {@{more luminous on the main sequence and they evolve to highly luminous supergiants}@}. Their cores become {@{massive enough that they cannot support themselves by [electron degeneracy](electron%20degeneracy%20pressure.md) and will eventually collapse to produce a [neutron star](neutron%20star.md) or [black hole](black%20hole.md)}@}. <!--SR:!2026-10-15,577,328!2026-12-29,630,328!2026-12-08,640,308!2027-01-16,634,288!2029-01-16,1055,270-->
 
 #### supernova
 

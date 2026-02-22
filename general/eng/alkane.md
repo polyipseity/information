@@ -23,7 +23,7 @@ Alkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble in [n
 
 ## chemical properties
 
-Alkanes are {@{[unreactive](reactivity%20(chemistry).md)}@}. <!--SR:!2026-02-26,486,230-->
+Alkanes are {@{[unreactive](reactivity%20(chemistry).md)}@}. <!--SR:!2030-06-25,1580,250-->
 
 ### combustion
 

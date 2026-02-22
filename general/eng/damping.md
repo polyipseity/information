@@ -19,7 +19,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 > where
 >
 > - [function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is {@{the [net force](net%20force.md)}@}, $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@}, and $t$ is {@{the [time](time.md)}@}
-> - [oscillator](oscillation.md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@} and $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2029-08-20,1415,310!2027-03-01,874,330!2031-07-17,2072,330!2027-02-03,382,369!2027-03-13,415,369!2027-03-08,410,369!2027-02-04,383,369!2026-02-24,5,357-->
+> - [oscillator](oscillation.md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@} and $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2029-08-20,1415,310!2027-03-01,874,330!2031-07-17,2072,330!2027-02-03,382,369!2027-03-13,415,369!2027-03-08,410,369!2027-02-04,383,369!2026-03-22,24,377-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -30,7 +30,7 @@ For better physical meaning, it can be rewritten as:
 > where
 >
 > - [function](function%20(mathematics).md) properties: $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@} and $t$ is {@{the [time](time.md)}@}
-> - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2030-09-21,1687,310!2028-08-23,1327,350!2027-11-20,940,290!2027-02-01,380,369!2027-02-27,401,369!2027-02-01,380,369!2027-02-07,386,369!2027-03-10,412,369!2027-01-28,376,369!2027-02-20,398,369!2026-02-24,5,357-->
+> - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2030-09-21,1687,310!2028-08-23,1327,350!2027-11-20,940,290!2027-02-01,380,369!2027-02-27,401,369!2027-02-01,380,369!2027-02-07,386,369!2027-03-10,412,369!2027-01-28,376,369!2027-02-20,398,369!2026-03-22,24,377-->
 
 Solving the [ordinary differential equation](orindary%20differential%20equation.md):
 
@@ -88,7 +88,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > {@{__undamped__}@}
 >
-> When {@{$\zeta = 0$}@}, this is {@{equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}@}. This is {@{rare in the natural world due to [dissipation](dissipation.md)}@}. <!--SR:!2028-07-21,1300,350!2029-03-11,1490,363!2026-02-24,5,357!2026-02-24,5,357-->
+> When {@{$\zeta = 0$}@}, this is {@{equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}@}. This is {@{rare in the natural world due to [dissipation](dissipation.md)}@}. <!--SR:!2028-07-21,1300,350!2029-03-11,1490,363!2026-03-22,24,377!2026-03-22,24,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -102,7 +102,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
 > - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{1 - \zeta^2}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
-> - initial properties: {@{$A_{\text{max} } = \sqrt{A_0^2 + \left(\frac {v_0 + \lambda A_0} \omega \right)^2}$}@} is {@{the _maximum_ [amplitude](amplitude.md)}@} and {@{$\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A_0}\omega, A_0\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A_0\right)$}@} is {@{the initial phase}@} <!--SR:!2029-04-12,1411,310!2026-04-03,634,330!2026-06-16,573,270!2027-01-18,744,290!2026-10-02,642,270!2026-05-01,174,183!2027-03-04,406,369!2027-01-28,376,369!2027-03-11,413,369!2027-03-12,414,369!2027-01-25,373,369!2027-02-12,391,369!2027-03-03,405,369!2027-03-07,409,369!2026-03-07,90,309!2026-03-05,104,329!2026-11-11,293,349!2026-09-11,232,362!2026-02-24,5,357!2026-02-22,3,337!2026-02-24,5,357-->
+> - initial properties: {@{$A_{\text{max} } = \sqrt{A_0^2 + \left(\frac {v_0 + \lambda A_0} \omega \right)^2}$}@} is {@{the _maximum_ [amplitude](amplitude.md)}@} and {@{$\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A_0}\omega, A_0\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A_0\right)$}@} is {@{the initial phase}@} <!--SR:!2029-04-12,1411,310!2026-04-03,634,330!2026-06-16,573,270!2027-01-18,744,290!2026-10-02,642,270!2026-05-01,174,183!2027-03-04,406,369!2027-01-28,376,369!2027-03-11,413,369!2027-03-12,414,369!2027-01-25,373,369!2027-02-12,391,369!2027-03-03,405,369!2027-03-07,409,369!2026-03-07,90,309!2026-03-05,104,329!2026-11-11,293,349!2026-09-11,232,362!2026-03-22,24,377!2026-03-08,10,337!2026-03-22,24,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -116,7 +116,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and {@{$c = 2 \sqrt{km}$}@} is {@{the vicious damping coefficient}@}
 > - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} } = 1$}@} is {@{the damping ratio}@}, and {@{$\lambda = \omega_n \zeta = \omega_n$}@} is {@{the decay rate}@}
-> - initial properties: $A$ is {@{the initial [amplitude](amplitude.md)}@} and {@{$\nu = v_0 + \lambda A \approx v_0$}@} is {@{approximately the initial [velocity](velocity.md) $v_0$}@} <!--SR:!2027-03-17,845,330!2026-05-28,564,270!2027-05-21,592,290!2026-09-25,639,270!2026-07-10,326,230!2029-05-11,1363,283!2027-01-27,375,369!2027-01-29,377,369!2027-03-03,405,369!2027-02-09,388,369!2027-02-21,399,369!2027-02-02,381,369!2027-03-06,408,369!2026-07-13,218,349!2026-10-24,280,349!2026-07-05,211,349!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357-->
+> - initial properties: $A$ is {@{the initial [amplitude](amplitude.md)}@} and {@{$\nu = v_0 + \lambda A \approx v_0$}@} is {@{approximately the initial [velocity](velocity.md) $v_0$}@} <!--SR:!2027-03-17,845,330!2026-05-28,564,270!2027-05-21,592,290!2026-09-25,639,270!2026-07-10,326,230!2029-05-11,1363,283!2027-01-27,375,369!2027-01-29,377,369!2027-03-03,405,369!2027-02-09,388,369!2027-02-21,399,369!2027-02-02,381,369!2027-03-06,408,369!2026-07-13,218,349!2026-10-24,280,349!2026-07-05,211,349!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -130,13 +130,13 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - [spring](spring%20(device).md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the vicious damping coefficient}@}
 > - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the damping ratio}@}, {@{$\omega = \omega_n\sqrt{\zeta^2 - 1}$}@} is {@{the [angular frequency](angular%20frequency.md)}@}, and {@{$\lambda = \omega_n \zeta$}@} is {@{the decay rate}@}
-> - initial properties: {@{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$}@} from {@{the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$}@}; {@{the $c_-$ term}@} is {@{negligible for large [time](time.md) $t$}@} <!--SR:!2030-09-29,1692,310!2027-07-20,954,310!2029-10-30,1347,270!2029-07-01,1380,310!2026-04-03,186,210!2026-10-02,307,183!2026-07-02,209,349!2027-01-30,378,369!2027-03-06,408,369!2027-03-05,407,369!2027-03-05,407,369!2027-02-08,387,369!2027-01-26,374,369!2027-02-11,390,369!2026-08-03,197,289!2026-10-29,285,349!2026-04-17,144,329!2027-01-31,379,369!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357-->
+> - initial properties: {@{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$}@} from {@{the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$}@}; {@{the $c_-$ term}@} is {@{negligible for large [time](time.md) $t$}@} <!--SR:!2030-09-29,1692,310!2027-07-20,954,310!2029-10-30,1347,270!2029-07-01,1380,310!2026-04-03,186,210!2026-10-02,307,183!2026-07-02,209,349!2027-01-30,378,369!2027-03-06,408,369!2027-03-05,407,369!2027-03-05,407,369!2027-02-08,387,369!2027-01-26,374,369!2027-02-11,390,369!2026-08-03,197,289!2026-10-29,285,349!2026-04-17,144,329!2027-01-31,379,369!2026-03-22,24,377!2026-03-17,19,357!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377-->
 
 Additionally, for negative damping ratios:
 
 > {@{__negative damping__}@}
 >
-> If {@{$\zeta < 0$}@}, then the system is {@{driven rather than damped}@}. The driving [force](force.md) {@{increases as the [velocity](velocity.md) increases}@}. Therefore, the [amplitude](amplitude.md) {@{increases without bound as $e^{\lvert \lambda \rvert t}$}@}. It is very similar {@{(but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$}@} but {@{going back in [time](time.md)}@}. This is {@{unnatural in the natural world, but can happen under some circumstances}@}, such as {@{the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened}@} and {@{the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}@}. {@{The equations in the above regimes}@} applies to {@{negative damping}@} as well. Choose the equation that applies to {@{the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$}@}. <!--SR:!2027-07-28,789,250!2028-05-21,1031,263!2026-10-19,349,366!2026-10-24,354,366!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357!2026-02-24,5,357-->
+> If {@{$\zeta < 0$}@}, then the system is {@{driven rather than damped}@}. The driving [force](force.md) {@{increases as the [velocity](velocity.md) increases}@}. Therefore, the [amplitude](amplitude.md) {@{increases without bound as $e^{\lvert \lambda \rvert t}$}@}. It is very similar {@{(but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$}@} but {@{going back in [time](time.md)}@}. This is {@{unnatural in the natural world, but can happen under some circumstances}@}, such as {@{the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened}@} and {@{the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}@}. {@{The equations in the above regimes}@} applies to {@{negative damping}@} as well. Choose the equation that applies to {@{the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$}@}. <!--SR:!2027-07-28,789,250!2028-05-21,1031,263!2026-10-19,349,366!2026-10-24,354,366!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377!2026-03-22,24,377-->
 
 ## _Q_ factor and decay rate
 
@@ -148,7 +148,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@}; hence it measures {@{how underdamped an oscillator or resonator is}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363!2027-03-11,379,384!2026-03-24,103,384!2026-06-17,126,388!2026-02-24,5,357-->
+> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@}; hence it measures {@{how underdamped an oscillator or resonator is}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363!2027-03-11,379,384!2026-03-24,103,384!2026-06-17,126,388!2026-03-22,24,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +158,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!2026-10-23,717,323!2026-11-08,727,323!2026-03-24,103,384!2026-03-24,103,384!2026-02-24,5,357-->
+> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!2026-10-23,717,323!2026-11-08,727,323!2026-03-24,103,384!2026-03-24,103,384!2026-03-22,24,377-->
 
 ## references
 
