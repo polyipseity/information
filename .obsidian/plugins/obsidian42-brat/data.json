@@ -17,6 +17,7 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
+  "globalTokenName": "",
   "personalAccessToken": "",
   "selectLatestPluginVersionByDefault": true,
   "allowIncompatiblePlugins": true
