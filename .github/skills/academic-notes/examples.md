@@ -29,22 +29,6 @@ Notes: prefer using `COMP_3031` (underscore) in course-scoped flashcard activati
 
 ## Detailed lecture example (content-focused)
 
-### exam ordering illustration
-
-```markdown
-## week 5 lecture
-- datetime: 2025-10-14T12:00:00+08:00/2025-10-14T13:20:00+08:00
-- topic: combinatorics
-
-## midterm examination
-- datetime: 2025-10-28T12:00:00+08:00/2025-10-28T14:00:00+08:00
-
-## week 6 lecture
-- datetime: 2025-11-04T12:00:00+08:00/2025-11-04T13:20:00+08:00
-```
-
-The validator will warn because the midterm appears before the week 6 lecture.
-
 ```markdown
 ## week 7 lecture
 
@@ -93,6 +77,88 @@ special/academia/<INSTITUTION>/<COURSE>/assignments/
 Tip: keep `assignments/` directories small and include a `submission.yml` template for graders; student-submitted files (if containing PII) belong in `private/`.
 
 ## Inline gloss & takeaway examples (what we actually see in notes)
+
+## sections metadata and weekly pattern example
+
+```markdown
+## logistics
+- sections:
+  - lecture: L1; CYT‑LTL; MondayT16:00:00/MondayT16:50:00, FridayT11:30:00/Fri
+dayT12:20:00
+  - tutorial: T2; NCKU‑103; TuesdayT14:00:00/TuesdayT15:20:00
+  - lab: LA3; LAB‑1; WednesdayT09:00:00/WednesdayT11:00:00
+```
+
+The `sections:` list bundles the stream code, venue, and weekly
+weekday/time pattern in one semicolon‑separated line.  Agents should use
+this format when prompting for section information.
+
+## unscheduled session example
+
+```markdown
+### week 5 lecture
+- datetime: 2025-10-21
+- status: unscheduled
+```
+
+Since the session is cancelled or a holiday, no `topic:` field is included.
+The validator will warn if `topic:` is present along with `status:
+unscheduled`.
+
+## duplicate week number (holiday) example
+
+```markdown
+### week 9 lecture
+- datetime: 2025-11-11T10:00:00+08:00/2025-11-11T11:20:00+08:00
+- topic: regular lecture
+
+### week 9 lecture 2
+- datetime: 2025-11-18T10:00:00+08:00/2025-11-18T11:20:00+08:00
+- status: public holiday
+```
+
+When a timetable repeats a week label during a break, shift subsequent
+weeks upward and insert an explicit holiday entry.  The validator also
+checks for duplicate numbers.
+
+## exam ordering illustration
+
+```markdown
+## week 5 lecture
+- datetime: 2025-10-14T12:00:00+08:00/2025-10-14T13:20:00+08:00
+- topic: combinatorics
+
+## midterm examination
+- datetime: 2025-10-28T12:00:00+08:00/2025-10-28T14:00:00+08:00
+
+## week 6 lecture
+- datetime: 2025-11-04T12:00:00+08:00/2025-11-04T13:20:00+08:00
+```
+
+## semester heading order example
+
+Institution indices should list semesters chronologically.  The validator
+warns if headings appear out of order:
+
+```markdown
+### 2024 fall
+- COMP 3031 (taken)
+
+### 2024 spring
+- COMP 2012 (taken)
+```
+
+(The above would trigger a warning because 2024 spring precedes 2024 fall.)
+
+```markdown
+### 2023 fall
+### 2024 spring
+### 2024 fall
+```
+
+is the correct sequencing.
+
+The validator warns if an exam section precedes any regular session.
 
 ```markdown
 - topic ::@:: Type inference and Hindley–Milner

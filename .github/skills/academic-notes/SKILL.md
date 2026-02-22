@@ -74,7 +74,9 @@ steps:
    tags (note the underscore convention for flashes), name, credits, and a
    brief description.
 2. Add a `logistics` section with a nested grading `scheme:` block specifying
-   weights for labs, exams, projects, etc.
+   weights for labs, exams, projects, etc.  Must include a `sections:`
+   list containing lecture/tutorial/lab stream codes, venues, and weekly
+   time patterns (see `patterns.md` for format).
 3. Maintain a `children:` list in frontmatter or as a YAML section under the
    heading; keep child pages (lectures, labs, assignments) in teaching order.
 4. Use the recommended session structure for lectures/labs/tutorials/exams
@@ -135,9 +137,11 @@ python .github/skills/academic-notes/validate_academic.py special/academia/HKUST
 
 Use the `--content` flag to switch from strict linting to advisory mode.  The
 script emits warnings for missing frontmatter keys, absent flashcard tags,
-incorrect `datetime:` formats, and other common mistakes.  The output is
-intended to help authors self-correct; maintainers may enforce particular rules
-as needed.
+incorrect `datetime:` formats, exam placement, duplicate week numbers, and
+other common mistakes.  It now also warns when a session marked
+`status: unscheduled` still has a `topic:` field, or when semester headings are
+out of order.  The output is intended to help authors self-correct; maintainers
+may enforce particular rules as needed.
 
 Example summary (see `issue_frequencies.md` for the latest global report):
 
@@ -166,7 +170,14 @@ See `continuous_improvement.md` for a formal workflow and example.
 
 - Propose small, atomic PRs that modify one aspect of the skill or fix a
   specific normalization.  Include rationale and before/after examples.
-- Update tests or add new ones when extending the validator script.
+- The skill directory may contain helper Python scripts (e.g. the validator
+  or Wikipedia helper).  Tests for those scripts **should be placed in the
+  `tests/` subdirectory of the skill itself** (`.github/skills/academic-notes/tests/`), not in the repo’s top-level `tests/` tree.  This keeps
+  skill-specific checks close to the code they exercise while avoiding
+  pollution of the global test namespace.
+- Update or add tests in that skill-local tests folder when extending the
+  validator script; don’t scatter academic-notes tests throughout the root
+  `tests/` directory unless they are shared with other components.
 - Run `pnpm run format` and `pnpm run check` before submitting, and ensure
   `pnpm run test` passes locally.
 - When editing skill documentation itself, mention in the PR description that

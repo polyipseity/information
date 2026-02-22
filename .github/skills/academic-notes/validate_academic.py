@@ -3,6 +3,12 @@
 
 Lightweight validator for academic course notes under `special/academia/*`.
 
+The validator performs basic structure checks (frontmatter, children lists,
+flashcard tags) and, when run in content mode, emits advisory warnings for
+common patterns such as missing topics, exams placed before lectures,
+duplicate week numbers, unscheduled sessions carrying a topic field, and
+out-of-order semester headings.
+
 Usage:
     python validate_academic.py [--content] [paths...]
 
@@ -162,6 +168,21 @@ def check_markdown_file(
                     warnings.append(
                         "exam section appears before some lecture/lab/tutorial entries — exams should be placed after other sessions"
                     )
+        # unscheduled sessions should not carry a topic field
+        if "status: unscheduled" in lower and "topic:" in lower:
+            warnings.append(
+                "session marked status: unscheduled but contains a 'topic:' field; remove topic from unscheduled sessions"
+            )
+        # duplicate week numbers indicate holiday or numbering bug
+        week_nums = re.findall(r"##\s+week\s+(\d+)", lower)
+        seen: set[str] = set()
+        for num in week_nums:
+            if num in seen:
+                warnings.append(
+                    f"duplicate week number {num} found; check for holiday or numbering bug"
+                )
+                break
+            seen.add(num)
 
     return errors, warnings
 
