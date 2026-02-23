@@ -118,6 +118,43 @@ special/academia/<INSTITUTION>/<COURSE>/assignments/
 
 Tip: keep `assignments/` directories small and include a `submission.yml` template for graders; student-submitted files (if containing PII) belong in `private/`.
 
+## Hierarchical administrative and content example
+
+```markdown
+### week 1 lecture 1
+- datetime: 2026-02-02T16:00:00+08:00/2026-02-02T16:50:00+08:00, PT50M
+- topic: course introduction
+- ELEC 1100
+  - ELEC 1100 / what is a robot?
+    - ELEC 1100 / what is a robot? / examples ::@::
+        - First real robot Unimate (1961) created by Engelberger & Devol
+        - Categories: aerospace, consumer, industrial, humanoid, etc.
+  - ELEC 1100 / design principles
+    - ELEC 1100 / design principles / hierarchical decomposition ::@::
+        Divide-and-conquer into subsystems; e.g., Mars rover project uses
+        control, comms, mechanical, signal teams.
+```
+
+This snippet illustrates multiple levels of nesting and combining related points
+under a single parent node.
+
+## cloze-rich general paragraph example
+
+```markdown
+During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@} and monitor your HKUST email account for updates; {@{next week the tutorials}@} start on 2026‑02‑09, 2026‑02‑12, and 2026‑02‑13 and {@{the first lab sessions}@} begin on 2026‑02‑13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.  The next lecture will cover {@{basic components and charge/current/voltage/resistor}@}.
+```
+
+This new example shows how to embed cloze flashcards within a narrative paragraph rather
+than only inside the outline structure.
+
+## pedagogy paragraph example
+
+```markdown
+The instructor emphasised {@{a **reverse‑engineering learning approach**}@} “tell {@{me and I forget}@}; teach {@{me and I remember}@}; involve {@{me and I learn}@}”, contrasting {@{traditional math‑first pedagogy}@}.  He emphasised {@{**not a LEGO robot programming class**}@} – students start {@{from the most basic components}@} and build {@{an autonomous robot step by step}@}, learning to manage {@{power supplies, drive motors}@}, read {@{sensor outputs and implement logic/decision‑making}@} as they construct a working system.
+```
+
+Adding such narrative samples helps the model generalize to prose clozes of conceptual points.
+
 ## Inline gloss & takeaway examples (what we actually see in notes)
 
 ## sections metadata and weekly pattern example
