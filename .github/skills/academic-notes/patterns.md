@@ -51,6 +51,16 @@ tags:
 - Use `- Section / subsection ::@:: summary` to create taxonomy-like entries.
 - When writing lists or outlines in source, put each top-level item on its own line; insert `<br/>` for hard line breaks within an item and `<p>` for separate paragraphs.  This preserves machine readability while allowing formatted output.
 - Descriptive paragraphs (e.g. lecture summaries) should follow the outline list and be separated from it by `---` to avoid accidental duplication and extra indentation.
+- **Personal data:** do not include real names, email addresses, phone numbers, or other personal identifiers for instructors, TAs, IAs, TOs, or staff in course notes.  Use generic role descriptions and refer readers to the official syllabus or LMS for contact details; do not add parenthetical notes about omission.
+- **Human recall lists:** when a cluster of features or characteristics is
+  meant to be memorized straight, avoid multi-line sub-bullets; instead
+  collapse them into a single gloss line with hyphen-separated items and
+  `<br/>` breaks.  This keeps flashcards succinct while preserving each
+  element.
+- **Prose descriptors:** after outlining flashcard-worthy bullets, follow with a
+  prose paragraph separated by `---` if the instructor gives situational or
+  administrative commentary (schedule links, next-week reminders, grading
+  breakdowns).  Embed any flashcards via cloze markup in that paragraph.
 
 ## What content to capture (content-first guidance)
 
@@ -109,10 +119,8 @@ For each session, prefer the following elements where appropriate:
 
 ## Field types and expectations
 
-- `datetime:` — ISO interval `YYYY-MM-DDThh:mm:ss+TZ/END` and optional ISO duration after a comma.
+- `datetime:` — ISO interval `YYYY-MM-DDThh:mm:ss+TZ/END` and optional ISO duration after a comma.  In fact, all date/time fields in notes (simple `date:`, `time:`, `datetime:`) should use ISO‑8601 format consistently.
 - `topic:` — short, plain-text summary.
-- `learning_outcomes:` — YAML list of 1–3 outcomes.
-- `takeaway:` — single-line concise takeaway.
 - `attachments:` — list or folder; reference files using relative links.
 - `::@::` concise glosses — inline, short definitions intended to be flashcard-friendly.
 

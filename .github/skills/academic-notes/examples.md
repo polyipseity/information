@@ -33,6 +33,9 @@ The following snippet shows the kind of rich, slide-level detail we aim for
 – the lecture has been transcribed almost verbatim, with every bullet and
 example preserved and elaborated.
 
+Additional conventions illustrated below show how to record rhetorical
+questions and handle acronyms.
+
 ```markdown
 ## week 7 lecture
 
@@ -55,6 +58,21 @@ example preserved and elaborated.
   Note: keep long proofs or formal material in `general/` when they are encyclopedic; link from course notes instead of copying.
 
 > Note: Save long proofs or formal definitions in `../../../../general/Hindley–Milner.md` and link from here.
+```
+
+```markdown
+## example of questions & acronyms
+
+- datetime: 2026-02-02T16:00:00+08:00/2026-02-02T16:50:00+08:00, PT50M
+- topic: robot definition
+- ELEC 1100
+  - ELEC 1100 / what is a robot? / features
+    - artificially created and programmable
+    - can sense its environment and manipulate or interact with things in it
+    - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence
+    - moves without direct human interaction
+    - discussion question:: Are animals robots? Is a motorcycle a robot?
+  - ELEC 1100 / robot definitions ::@:: Robot Institute of America (RIA) definition: a reprogrammable, multifunctional manipulator …
 ```
 
 ## Linking to `general/` (Wikipedia titles)

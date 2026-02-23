@@ -12,7 +12,7 @@ Required (must-have) ✅
 4. Do NOT create, modify, or edit files under `general/`. Course-note authors and agents must only edit files inside the course folder.
 5. `# index` present for `index.md` files.
 6. `## children` lists child pages in teaching order (or a `children:` YAML key).
-7. Each `week` entry has `datetime` and `topic` (recommended to include timezone offset).  When a session has `status: unscheduled` (holiday, cancelled, overflow), remove the `topic:` field entirely; the validator warns if both appear.
+7. Each `week` entry has `datetime` and `topic` (recommended to include timezone offset).  Use ISO‑8601 format for all date, time, and datetime values to avoid parsing errors.  When a session has `status: unscheduled` (holiday, cancelled, overflow), remove the `topic:` field entirely; the validator warns if both appear.
 8. **Ordering rules**: lecture/lab/tutorial entries must follow chronological order; exams must come after all other sessions (validator will warn on violations).  For courses with multiple sessions per week, restart numbering each week after filtering irrelevant streams.  If a timetable uses the same week number twice (e.g. around a holiday), shift subsequent weeks upward and insert an entry with `status: public holiday`.
 9. Semester headings in institution-level indexes must be chronologically ordered (validator warns if not).
 
@@ -31,18 +31,26 @@ Content checklist (content-first guidance):
     without seeing the slides.  If uncertain how much to include, lean towards
     including more; excess material can be pruned in a follow-up review.
 13. Each lecture/tutorial **may** include outcomes captured in prose or via flashcards.)  Capture instructor emphasis and worked examples when possible.
-14. Ensure every outline item you add corresponds to a flashcard pair; convert generic headings into specific cloze entries or remove them if they are not pairs.
+14. For lists intended for memorization (features, characteristics), collapse
+    them into a single gloss line with hyphens and `<br/>` separators rather
+    than multi-line sub-bullets.
+15. After the bullet outline for a session, add a prose paragraph (preceded by
+    `---`) containing administrative comments such as schedule links, next‑week
+    reminders, or grading breakdowns.  Use cloze markup within that paragraph if
+    you wish to generate flashcards from the commentary.
+16. Ensure every outline item you add corresponds to a flashcard pair; convert generic headings into specific cloze entries or remove them if they are not pairs.
 15. Keep all outline/list items on a single source line; use `<br/>` or `<p>` for internal line breaks or paragraphs.
 16. When writing `::@::` clozes, use short left-hand labels (avoid long descriptive phrases) and always start the path with an explicit hierarchy (e.g. `<COURSE> / topic`).  For complex topics you may introduce multiple-folder levels (`<COURSE> / section / subsection / item`).
-17. Do NOT include instructor/TA/IA/TO names, office locations, phone numbers or email addresses in notes; refer to the official syllabus or LMS instead.
+17. Do NOT include instructor/TA/IA/TO names, office locations, phone numbers or email addresses in notes; refer to the official syllabus or LMS instead. Replace any existing personal names with generic role descriptions; do not annotate that they were removed.
 18. Include at least one worked example or solution sketch for important techniques covered that week (recommended).
 19. Link slides and recordings in `attachments/` or `attachments/index.md` when available (recommended).
 20. Add `::@::` concise definitions for flashcard-worthy items and check `flashcards.md` rules (recommended).
 21. Record your lab/tutorial section codes near the top of the note so automated tooling can filter irrelevant streams when importing schedules.
 22. Ensure venue lines follow immediately after `datetime:`; apply the HKUST room interpretation rule if appropriate (numeric rooms → "Room ####, Academic Building").
+
 Note on existing inline idioms:
 
-- Many notes use `term ::@:: gloss` or `takeaway ::@:: ...` inline inside the session body. This is acceptable; prefer converting these into structured `- topic:` / `- takeaway:` / `learning_outcomes:` entries in a follow-up PR rather than making large automatic rewrites. When suggesting normalization, list affected files in the PR description so maintainers can review changes.
+- Many notes use `term ::@:: gloss` or `takeaway ::@:: ...` inline inside the session body. This is acceptable; prefer converting these into structured `- topic:` entries in a follow-up PR rather than making large automatic rewrites. When suggesting normalization, list affected files in the PR description so maintainers can review changes.
 
 Commit-msg tip: include `academic-notes: add <INSTITUTION>/<COURSE> ...` for changes that modify course content or introduce new course notes.
 

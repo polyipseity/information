@@ -79,20 +79,18 @@ When you create a new course note or update an existing one, follow these
 steps:
 
 - Keep lecture/lab/tutorial sessions in strict chronological order by their
-  `datetime` values; these entries may interleave.  Exam sections (midterm,
-  final) should always appear **after** all other session types even if the
-  dates overlap.  The validator now emits a warning when exams precede other
-  sessions.
+  `datetime` values; these entries may interleave.  Always use ISO‑8601
+  formatting for dates, times, and datetimes (e.g. `2025-09-02T12:00:00+08:00`).
+  Exam sections (midterm, final) should always appear **after** all other
+  session types even if the dates overlap.  The validator now emits a warning
+  when exams precede other sessions.
 - For institution-level indexes, ensure semester headings (`### 2025 fall`, etc.)
   progress chronologically; the validator also checks this and warns if the
   sequence is out of order.
 
 1. Start with the **course-template** (`course-template.md`); fill in aliases,
    tags (note the underscore convention for flashes), name, credits, and a
-   brief description.  (Explicit `## learning_outcomes` sections are typically
-   unnecessary; outcomes can be expressed in introductory prose or as flashcard
-   items.  Validators used to warn about their absence, but the pattern is now
-   advisory.)
+   brief description.
 2. Add a `logistics` section with a nested grading `scheme:` block specifying
    weights for labs, exams, projects, etc.  Must include a `sections:`
    list containing lecture/tutorial/lab stream codes, venues, and weekly
@@ -107,6 +105,18 @@ steps:
      with a horizontal rule (`---`).  This ordering keeps the outline visible
      at the top and prevents accidental repetition or indentation errors.
 5. Capture **content‑first details** and err on the side of completeness:
+   - Situational or administrative remarks (schedule links, upcoming-week
+     reminders, grading weights) should not appear as outline bullets.  Instead,
+     place them in a prose paragraph after the bullet outline and separate the
+     paragraph from the outline with a single horizontal rule (`---`).
+     Authors should **first draft this prose without any cloze markup** to focus
+     on natural flow.  Once the paragraph is finalised, perform a separate
+     editing pass to add cloze markup (`{@{ }@}` or `::@::`) for any points you
+     wish to convert into flashcards.  See the flashcard-creation skill for
+     guidance on writing cloze sentences.
+   - **Privacy note:** avoid including instructor, TA, or staff names and
+     email addresses in course notes; refer readers to the official syllabus or
+     LMS for contact information.
    - Treat the course notes as a structured transcript of the lecture rather
      than a terse summary.  Every slide bullet, formula, definition, and
      instructor remark is a candidate for inclusion; if in doubt, include it
@@ -133,6 +143,13 @@ steps:
    - Instructor emphasis, asides, warnings about common pitfalls, and
      references to external resources are all valuable; include them as
      standalone bullets or notes.
+   - Avoid acronyms unless they recur frequently; when an abbreviation is
+     used, spell out the full phrase on first mention with the acronym in
+     parentheses (e.g. "Robot Institute of America (RIA) definition").
+     This ensures clarity for readers and flashcards.
+   - Preserve rhetorical questions and boundary-case prompts ("are animals
+     robots?", "is a motorcycle a robot?") as separate bullets.  These often
+     surface important distinctions and make excellent flashcard candidates.
    - The level of detail described above applies to **all course content**
      (lectures, tutorials, labs, exams) and is not limited to the first week.
      Make the same effort whenever you add or revise material.

@@ -119,6 +119,20 @@ Install: `pip install -r requirements.txt`
 
 - `tools/pytextgen/`: Content generation engine
 - `tools/pyarchivist/`: Archiving tool
+
+### Agent‑internal scripts policy
+
+The repository occasionally contains small helper scripts used internally by the
+AI agent (for example, `.github/scripts/validate-skills.py`).  These are
+**not** meant to be installed as CI tools, exposed to users, or added to
+`package.json`/`requirements.txt`.
+
+- Avoid creating similar "agent‑only" utilities without explicit approval from
+  the repository owner.
+- If an automated validation step or helper script is genuinely needed by the
+  project, propose a formal PR and discuss with the owner before adding it to
+  CI or packaging; the default assumption is that such tools belong in the
+  `.github/scripts/` directory and are not executed in production workflows.
 - `self/**`: Personal metadata submodules
 - `private/**`: Private content submodule
 

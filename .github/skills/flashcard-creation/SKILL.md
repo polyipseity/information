@@ -176,9 +176,22 @@ straightforward.
 - After delivering suggestions, solicit explicit feedback such as
   "which deletions are wrong?" or "prefer Q/A instead of inline cloze"
   so the skill accumulates examples.
+- When a user declares “this is my style” or otherwise characterises their
+  personal flashcard preferences, treat that remark as a high‑priority rule
+  and immediately incorporate it into the examples and guidelines.  The
+  agent should mention which existing examples or rules were updated to
+  reflect the new style.
 
 - When the user edits your clozes, inspect the **git diff** output
   with word‑level highlighting and without a pager, for example:
+
+  **Academic note paths:** when working specifically on `special/academia`
+  course notes, remember that every cloze gloss should include the full
+  hierarchical path (e.g. `ELEC 1100 / topic / subtopic`) before `::@::`.
+  The generator relies on literal text; do not assume nested bullet indentation
+  will supply context.  This requirement is addressed in the academic-notes
+  skill, but reinforcing it here helps keep flashcard creation consistent
+  across formats.
 
   ```sh
   git --no-pager diff --word-diff --no-color path/to/file.md
@@ -266,7 +279,11 @@ straightforward.
   note in the skill directory?" Once the user agrees, a new entry is
   added in the appropriate skill folder file and the session memory
   trimmed.
-
+  **Personal style updates:** When the user explicitly states a stylistic
+  preference (e.g. “this is my style”), the agent should automatically copy
+  that preference into session memory and consider adding a corresponding
+  example or rule immediately, even if session memory has not yet grown
+  large.  This ensures fast adaptation to the user’s habits.
 This continual learning mechanism ensures the skill evolves without
 losing earlier insights.  See `rules.md` for a summary of the most
 important, stable rules that have emerged from past sessions.
