@@ -7,7 +7,7 @@ Key patterns to follow (seen in the examples):
 - Provide multiple `aliases:` forms (with/without spaces, with/without `index`, and with the institution prefix) so note pages are easily discoverable.
 - Use `tags:` with the course code using an underscore (e.g., `COMP_3031`) for flashcard activation and include `language/in/<LANGUAGE>`.
 - Include the short line "The content is in teaching order." under the course `name` (this appears in the examples and makes ordering explicit).
-- Keep `children:` ordered and include `assignments/` immediately after `children` (and before sessions); include `attachments` and `questions` if relevant.
+- Keep `children:` ordered and include `assignments/` immediately after `children` (and before sessions); attachments and questions may follow.  A `lectures/` folder is optional and usually unnecessary because session entries live directly in the index page.
 - Use a nested grading `scheme:` block and include exam metadata such as `venue:` and `format:` (e.g., `cheatsheet`, `open book`) when applicable.
 - Use session `status:` fields for cancellations/unscheduled/online notes and add `::@::` takeaways for flashcard generation.
 
@@ -65,6 +65,12 @@ the credits line.  Policy notes are allowed but should not include
 instructor or TA names/emails (those belong in a staff directory or
 syllabus).  Grading policy text should be placed immediately below this
 block rather than inside it.
+
+All HTML comments scattered throughout this template are explanatory
+only—they exist purely to document the template’s structure.  When your
+course page is instantiated, remove every HTML comment (not just the one
+above) before committing.  Comments are for author guidance and must not
+be checked in to the repository.
 -->
 <course description and any additional notes>
 
@@ -94,9 +100,17 @@ case for lectures.
 - [assignments/](assignments/index.md)
 - [attachments/](attachments/index.md)
 - [labs/](labs/index.md)
-- [lectures/](lectures/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
+
+<!--
+  A `lectures/` subdirectory is **not required**.  Sessions (lectures,
+  labs, tutorials, exams) are kept directly in the course index page and
+  should be listed in strict chronological order.  Removing the lecture
+  folder simplifies navigation and avoids unnecessary boilerplate; course
+  material may reference individual weeks with nested headings or
+  hyperlinks instead of separate files.
+-->
 
 ## assignments
 

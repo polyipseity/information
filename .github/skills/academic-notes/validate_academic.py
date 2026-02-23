@@ -143,12 +143,11 @@ def check_markdown_file(
             warnings.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
             )
-        if ("lecture" in text or "lab" in text or "tutorial" in text) and (
-            "learning_outcomes:" not in text and "takeaway:" not in text
-        ):
-            warnings.append(
-                "no 'learning_outcomes:' or 'takeaway:' detected — consider adding a concise learning outcome or takeaway"
-            )
+        # previous versions warned when no learning_outcomes or takeaway was
+        # present.  Feedback showed that explicit outcome sections are often
+        # redundant—authors typically capture objectives in prose or via
+        # flashcards—so the warning has been removed (continuous learning).
+        # If future consensus shifts, reintroduce a lighter advisory here.
         # exam ordering: exams should come after other session types
         lower = text.lower()
         if "midterm" in lower or "final" in lower:
@@ -183,6 +182,38 @@ def check_markdown_file(
                 )
                 break
             seen.add(num)
+        # flashcard path completeness: after the top-level course bullet, any
+        # nested bullet should include a slash in its text.  Ignore frontmatter
+        # and items that occur before the course name appears (e.g. logistics
+        # section).  This prevents alerts on unrelated lists.
+        body = text
+        m = FRONT_RE.match(text)
+        if m:
+            body = text[m.end() :]
+        # determine course identifier from first top-level bullet in the body
+        course = None
+        for line in body.splitlines():
+            m = re.match(r"^\s*-\s+(.+?)\s*$", line)
+            if m:
+                # use entire text after dash as course name
+                course = m.group(1)
+                break
+        seen_course = False
+        for line in body.splitlines():
+            if not seen_course and course and line.strip().startswith(f"- {course}"):
+                seen_course = True
+                continue
+            if not seen_course:
+                continue
+            # if we reach a new top-level heading, stop checking further
+            if line.lstrip().startswith("## "):
+                break
+            # match any bullet with at least two spaces of indentation
+            if re.match(r"^ {2,}- ", line) and "/" not in line:
+                warnings.append(
+                    "nested list item does not include full path (e.g. 'ELEC 1100 / ...')"
+                )
+                break
 
     return errors, warnings
 

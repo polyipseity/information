@@ -10,24 +10,41 @@ for authoring and validating academic course notes across institutions.  It is
 intended for any course material stored under `special/academia/<INSTITUTION>`
 (regardless of university, department, or subject).
 
+> **Flashcard generation is automatic.**  Authors and agents do **not** need
+> to run `init generate` or any similar command when editing course notes;
+> the repository’s build and packaging workflows regenerate flashcards for
+> you.  If you encounter instructions that suggest manual regeneration, update
+> the documentation and templates as part of the continuous‑learning process.
+
+The skill is designed for **continuous learning**: as agents and human authors
+work with real course content, their preferences and new patterns inform
+updates to the documentation.  Explicit user directives (for example, "never
+run init generate automatically") should be incorporated into the text so that
+future interactions respect those choices.
+
 The skill has three primary audiences:
 
 1. **Content authors (humans or agents)** writing course pages, lecture notes,
-   labs, tutorials, and assignments.
+   labs, tutorials, and assignments.  Authors should favour a single index page
+   over separate per‑lecture files; the `lectures/` subdirectory is optional and
+   generally unnecessary.
 2. **Maintainers** who review submissions, normalize style, and ensure metadata
    quality across the repository.
 3. **Automated tooling** (validators, helpers) that surface common issues and
    provide search assistance.
 
-> ⚠️ **Important — evolving skill & long-term feedback**
+> ⚠️ **Important — evolving skill, continuous learning, & long-term feedback**
 >
 > This skill captures subtle, content-driven conventions that emerge from
 > many semesters of note-taking and peer review.  It evolves continuously; new
 > patterns appear and old habits are corrected.  Treat the skill as a living
 > document.  Agents and maintainers **MUST** solicit, record, and incorporate
-> user feedback into the instructions over time.  See the continuous
-> improvement workflow (`continuous_improvement.md`) for how to submit feedback,
-> track action items, and propose small, reviewable changes.
+> user feedback into the instructions over time.  Explicit preferences expressed
+> during interactions (e.g. avoiding certain automation or following specific
+> formatting habits) are part of this learning process and should be encoded in
+> the text.  See the continuous improvement workflow (`continuous_improvement.md`)
+> for how to submit feedback, track action items, and propose small, reviewable
+> changes.
 
 ## Core components
 
@@ -72,7 +89,10 @@ steps:
 
 1. Start with the **course-template** (`course-template.md`); fill in aliases,
    tags (note the underscore convention for flashes), name, credits, and a
-   brief description.
+   brief description.  (Explicit `## learning_outcomes` sections are typically
+   unnecessary; outcomes can be expressed in introductory prose or as flashcard
+   items.  Validators used to warn about their absence, but the pattern is now
+   advisory.)
 2. Add a `logistics` section with a nested grading `scheme:` block specifying
    weights for labs, exams, projects, etc.  Must include a `sections:`
    list containing lecture/tutorial/lab stream codes, venues, and weekly
@@ -82,11 +102,77 @@ steps:
 4. Use the recommended session structure for lectures/labs/tutorials/exams
    (see examples).  Include `datetime:` entries with ISO intervals; if the time
    is unknown, at least provide the date portion.
-5. Capture **content‑first details**: learning outcomes, takeaways,
-   instructor emphasis, worked examples, and link to canonical `general/`
-   articles for formal definitions.
+   - When adding a prose summary or description for a session, place that
+     paragraph *after* the outline/list of bullet items and separate the two
+     with a horizontal rule (`---`).  This ordering keeps the outline visible
+     at the top and prevents accidental repetition or indentation errors.
+5. Capture **content‑first details** and err on the side of completeness:
+   - Treat the course notes as a structured transcript of the lecture rather
+     than a terse summary.  Every slide bullet, formula, definition, and
+     instructor remark is a candidate for inclusion; if in doubt, include it
+     and the validator/maintainers can trim later.  Flashcards are generated
+     automatically so having more material usually improves recall.
+   - Preserve the full semantics of the original lecture slides or spoken
+     commentary when converting them to prose.  Do **not** compress two
+     or three related points into a single vague sentence.  Each separate idea
+     or logical step should be its own bullet (or sub‑bullet) with its own
+     `::@::` gloss if appropriate.
+   - Capture numeric values, parameter ranges, diagrams described in words,
+     algorithm steps, and decision criteria.  When an example involves a
+     sequence of operations (derivation, code walkthrough, troubleshooting
+     procedure), write it out as a numbered list or as multiple bullets rather
+     than a sentence fragment.
+   - Notes that are too high‑level ("we discussed X") are not sufficient;
+     detail what "X" actually consisted of.  Conversely, avoid verbatim copying
+     of long proofs or text that belongs in reference material – link to a
+     suitable `general/` page or attachment instead.
+   - You may preserve, simplify, or omit examples based on their quality, but
+     always record at least one representative worked example or problem per
+     major concept.  Simplifying long enumerations to alphabetized sublists is
+     still considered detail because it exposes structure.
+   - Instructor emphasis, asides, warnings about common pitfalls, and
+     references to external resources are all valuable; include them as
+     standalone bullets or notes.
+   - The level of detail described above applies to **all course content**
+     (lectures, tutorials, labs, exams) and is not limited to the first week.
+     Make the same effort whenever you add or revise material.
 6. Insert `::@::` glosses for flashcard-worthy facts; follow `flashcards.md`
    for best practices.
+   - **Formatting rules:** always prefix a gloss with a hierarchical path
+     using `parent / … / child` before `::@::`.  The path text must include **all
+     ancestors** beginning with the course name (e.g. `ELEC 1100 / teaching
+     methodology / traditional limitations`).  Do **not** rely on indentation,
+     section headings, or week numbers to provide context; the flashcard
+     generator uses the literal text.  Keep the text after the cloze on a single
+     source line; if you need multiple lines, simulate them with `<br/>`
+     instead of nested bullet lists.  This ensures that the automatic generator
+     treats each gloss as a discrete flashcard entry.
+   - **Outline hierarchy:** when a session covers multiple related themes, use
+     nested bullets to group them logically (e.g. list "Robot fundamentals" as
+     a parent bullet and indent definition/features/laws/history underneath).
+     Deeper nesting is fine – the only requirement is that flashcard glosses
+     stay on a single line.  Nesting may extend across multiple levels; feel
+     free to insert an intermediate folder bullet when several child cards share
+     the same prefix (see the robotics introduction features example below).
+     **Always insert a bullet for each folder level and label it with the full
+     path** (`ELEC 1100 / intended learning outcomes`, not just
+     `intended learning outcomes`); this makes the hierarchy explicit even when
+     the folder itself has no direct glosses.  The validator only checks list
+     items that occur after the course-level `- <COURSE>` bullet, so logistics,
+     grading tables, and other unrelated lists are not flagged.  When a folder
+     contains only a single child entry, flatten it by merging the path into that
+     child bullet instead of creating an extra layer.  You may still use parent
+     bullets purely for readability, but avoid recreating the session header as
+     a parent (e.g. "Week 1 lecture 1" is unnecessary).  Always repeat the
+     full path in each gloss itself; this avoids ambiguity when cards are
+     generated across different sessions.  The validator now checks for and
+     warns about two-space-indented bullets that lack a `/` path prefix, which
+     helps catch missing labels earlier.  If you have several cards that would
+     share the same left‑hand path, merge them into one entry whose right side
+     uses `<br/>` to separate the individual points (e.g. multiple learning
+     outcomes).  Avoid flattening related points at the same level; the
+     structure should mirror the conceptual hierarchy rather than merely
+     separating topics by blank lines.
 7. Run the validator (`validate_academic.py`) to catch missing metadata or
    structural issues; address warnings where practical.
 8. Add assignments, questions, attachments, and other accessories in their
@@ -96,6 +182,12 @@ steps:
 
 ### Flashcard activation tags
 
+> **Outline formatting reminder:** when writing lists or outlines in source
+> code, keep each top‑level bullet on a single line.  Use `<br/>` for hard line
+> breaks within an item and `<p>` for separate paragraphs; this keeps the
+> machine‑readable structure intact while allowing rich formatting in rendered
+> notes.
+
 Tags must follow the pattern
 
 ```text
@@ -104,7 +196,9 @@ flashcard/active/special/academia/<institution>/<page>
 
 `<page>` normally mirrors the course code using underscores (`COMP_3031`).
 Spaces should never be percent‑encoded in tags.  Validators flag missing or
-malformed tags.  Flashcard state is regenerated with `uv run -m init generate`.
+malformed tags.  Flashcard state is regenerated automatically by the
+repository's build tools; authors do **not** need to run `init generate`
+manually when editing notes (the CI and packaging workflows handle it).
 
 ### Linking to general content
 
@@ -157,6 +251,9 @@ This skill is not static.  To keep it accurate and helpful:
 
 - **Collect feedback** from users and agents.  Logs are stored under
   `.github/skills/academic-notes/reports/` (create the directory if needed).
+  Include notes about template comments, outline formatting rules, privacy
+  policies, and other authoring heuristics so the skill and templates can
+  evolve appropriately.
 - **Update the documentation** (`patterns.md`, `examples.md`, `checklist.md`)
   whenever a new idiom or frequently occurring issue is observed.
 - **Extend the validator** when recurring errors are identified, making sure

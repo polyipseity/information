@@ -10,7 +10,8 @@ additional detail below when implementing changes.
 1. Collect representative examples from `special/academia/<institution>`
    or from validator output (use `--content` mode).  Record incident reports
    in `.github/skills/academic-notes/reports/feedback_log.md` with a date
-   and brief description.
+   and brief description.  Include any user feedback about missing guidance
+   (for example, policies about excluding personal contact details).
 2. Update documentation:
    - `patterns.md` for newly observed idioms or normalizations.
    - `examples.md` for concrete snippets illustrating the desired layout.
@@ -47,6 +48,24 @@ explicit permission from a maintainer.
 
 - **2026‑02‑22:** Consolidated procedural text into `SKILL.md` and
   shortened this file.  Added the workflow checklist above.
+- **2026‑02‑22:** Added explicit reminder that the `academic-notes` skill
+  itself is a living document and must be updated whenever new patterns,
+  privacy rules, or procedural notes are identified.  Emphasized use of this
+  continuous improvement file for tracking such updates and ensuring lessons
+  flow back into `SKILL.md`.
+- **2026‑02‑23:** Learned several author preferences and encoded them as
+  permanent rules:
+  - Outline lists should not carry an extra indent level and should appear
+    directly beneath the `- topic:` line.
+  - Prose summaries must follow the outline and be separated by `---` to
+    avoid duplication; added guidance and pattern notes accordingly.
+  - Flashcard glosses sharing an identical left‑hand path should be merged
+    into a single entry using `<br/>` for multiple points rather than
+    repeating the path.
+  - Enforced full hierarchy in gloss names by including all parent levels.
+  These changes required updates to SKILL.md, patterns.md, and validator
+  behaviour.  The validator warning about missing `learning_outcomes` was
+  removed and the check converted to advisory guidance instead.
 
 ---
 

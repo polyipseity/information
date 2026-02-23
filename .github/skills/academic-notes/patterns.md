@@ -47,20 +47,65 @@ tags:
 
 ## Inline conventions
 
-- `::@::` is used to provide a concise definition or gloss for a linked term (e.g., `expression ::@:: It is a combination of symbols`).
+- `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
 - Use `- Section / subsection ::@:: summary` to create taxonomy-like entries.
+- When writing lists or outlines in source, put each top-level item on its own line; insert `<br/>` for hard line breaks within an item and `<p>` for separate paragraphs.  This preserves machine readability while allowing formatted output.
+- Descriptive paragraphs (e.g. lecture summaries) should follow the outline list and be separated from it by `---` to avoid accidental duplication and extra indentation.
 
 ## What content to capture (content-first guidance)
 
-When creating or improving course notes, prioritize capturing content that helps learning and revision. For each lecture/tutorial/lab session prefer the following elements where appropriate:
+When creating or improving course notes, aim for **comprehensive, slide‑level
+detail**.  Think of your notes as an enhanced transcript: every bullet point or
+visual element from the lecture slides, every spoken definition or warning,
+and every worked example should be reflected in the text.  Do not settle for a
+one‑sentence paraphrase of a concept; expand each idea into its own bullet,
+explain the underlying reasoning, and record any numerical values, parameters,
+or algorithmic steps mentioned.
 
-- `learning_outcomes:` — 1–3 concise bullet points describing what students should know after the session.
+Key points:
+
+- **Slide fidelity**: Convert slide bullets directly – if a slide lists three
+  characteristics of a device, create three separate outline items.  Add
+  instructor elaboration that accompanied the slide as additional bullets or
+  notes.
+- **Examples**: Preserve worked examples verbatim when they clearly illustrate a
+  method.  For multi‑step examples, use numbered lists or multiple bullets that
+  mirror the sequence of operations.  If an example is merely a list, render it
+  as a sorted sub‑list to expose structure.  Always include *at least one*
+  representative example per major concept.
+- **Definitions & formulas**: Record full definitions, formula sheets, and the
+  conditions under which formulas apply.  Use `::@::` glosses for concise
+  flashcard questions, but keep the glossary right‑hand side detailed (e.g.,
+  include parameter names and units).  When a concept is linked to a
+  `general/` article, provide a path in the glossary and cross‑link accordingly.
+- **Instructor commentary**: Capture asides, caveats, and common pitfalls the
+  instructor mentions.  These are often exam fodder and should be treated as
+  detail rather than noise.
+- **Verbatim text**: Avoid copying large proofs or policy statements; instead
+  summarize and link to existing `general/` pages or attachments.  However,
+  short quotes or definitions that are central to the lecture should be copied
+  in full.
+- **Level consistency**: Apply this detailedness uniformly across lectures,
+  tutorials, labs, and even exam review sessions.  The goal is to make the notes
+  self‑contained enough that a reader could reconstruct the lecture flow and
+  review all critical content without referring back to slides or recordings.
+
+This high level of detail supports better flashcards, easier exam revision, and
+more accurate archival of course knowledge.  Err on the side of including more
+information; excess material can always be trimmed later by a maintainer.
+
+For each session, prefer the following elements where appropriate:
+
 - `topic:` and a short `takeaway:` line — scannable summary for revision.
 - Instructor emphasis — note any points the instructor stressed.
-- Key definitions & concise glosses — use `::@::` for flashcard-worthy bites; cross-link to canonical `general/` pages for full definitions.
-- Worked examples & step-by-step solutions — include at least one worked example demonstrating common techniques or pitfalls.
-- Sample exam-style questions / practice problems — add problems and link to solutions in `questions/solutions.md`.
-- References & resources — slides, recordings, page numbers, and further reading links.
+- Key definitions & concise glosses — use `::@::` for flashcard-worthy bites;
+  cross-link to canonical `general/` pages for full definitions.
+- Worked examples & step-by-step solutions — include at least one worked
+  example demonstrating common techniques or pitfalls.
+- Sample exam-style questions / practice problems — add problems and link to
+  solutions in `questions/solutions.md`.
+- References & resources — slides, recordings, page numbers, and further
+  reading links.
 
 ## Field types and expectations
 
@@ -79,6 +124,8 @@ When creating or improving course notes, prioritize capturing content that helps
 ## Observed usage patterns
 
 - `::@::` is heavily used as the inline gloss/flashcard separator.
+- Hierarchies may span multiple levels; group related flashcards under intermediate
+  folders (e.g. `/ robotics introduction / features / …`) when it helps readability.
 - Taxonomy / chain notation: authors sometimes list chains of related concepts using arrows and `::@::` boundaries (seen in several course collections). Preserve these as-is when possible.
 - Takeaway shorthand: many files use a single-line `takeaway ::@:: ...` — treat these as candidates for `takeaway:` in a normalization PR.
 - Authors often capture their lab/tutorial section codes (e.g. LA3, T2) near the top of the note; agents should request this early and filter schedules accordingly to avoid clutter from irrelevant streams.
@@ -112,4 +159,5 @@ them.
 
 ## Formatting gotchas
 
-- HTML fragments (`<p>`, `<br/>`) are occasionally used for emphasis — prefer Markdown where possible.
+- HTML fragments (`<p>`, `<br/>`) are often necessary when preserving manual line breaks in outline items; use them as described in the inline conventions section.  Keep each list item on a single source line.
+- Avoid creating separate lecture files; the index page with nested sections and sub-items is the preferred structure.

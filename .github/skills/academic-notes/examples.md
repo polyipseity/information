@@ -29,23 +29,27 @@ Notes: prefer using `COMP_3031` (underscore) in course-scoped flashcard activati
 
 ## Detailed lecture example (content-focused)
 
+The following snippet shows the kind of rich, slide-level detail we aim for
+– the lecture has been transcribed almost verbatim, with every bullet and
+example preserved and elaborated.
+
 ```markdown
 ## week 7 lecture
 
 - datetime: 2025-10-07T12:00:00+08:00/2025-10-07T13:20:00+08:00, PT1H20M
 - topic: type inference; Hindley–Milner
-- learning_outcomes:
-  - Understand the Hindley–Milner inference algorithm conceptually
-  - Apply algorithm to small expressions and infer principal types
-- takeaway: Principal type inference reduces annotation burden; watch for let-polymorphism corner cases
 - COMP 3031
   - HM / algorithm sketch ::@:: Unify constraints from expression syntax tree, solve by substitution
+  - HM / type variable rules ::@:: Fresh variable introduced for each binder; generalized at let-bound identifiers
+  - HM / example explanation ::@:: Step through constraint generation from syntax tree nodes
   - HM / worked example (detailed):
     1. Given expression: let f = \x -> (x, x) in f 3
-    2. Assign type variables: x: a
-    3. Constraint from (x, x): a must be the same for both components
-    4. f: a -> (a, a), application f 3 enforces a = Int
-    5. Result: (3, 3) :: (Int, Int)
+    2. Assign type variables: x: a, result tuple components a, a
+    3. Constraint from (x, x): both positions share type a
+    4. f: a -> (a, a); application f 3 enforces a = Int by unification
+    5. Generalize: f : forall a. a -> (a, a); instantiate at Int for f 3
+    6. Result: (3, 3) :: (Int, Int)
+  - HM / pitfalls ::@:: Forgetting to generalize at let leads to value restriction bugs
   - !emphasis: Instructor stressed 'generalization at let-bindings' (important for polymorphism in ML-like languages)
 
   Note: keep long proofs or formal material in `general/` when they are encyclopedic; link from course notes instead of copying.
