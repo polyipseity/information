@@ -174,7 +174,7 @@ If {@{_F_ : _J_ → _C_ is a diagram in _C_ and _G_ : _C_ → _D_ is a [functor]
 
 {@{A functor _G_ is said to __preserve all limits of shape _J_<!-- markdown separator -->__}@} if {@{it preserves the limits of all diagrams _F_ : _J_ → _C_}@}. For example, one can say that {@{_G_ preserves products, equalizers, pullbacks, etc.}@} {@{A __continuous functor__}@} is {@{one that preserves all _small_ limits}@}. <!--SR:!2026-03-20,336,353!2026-05-12,378,358!2026-05-07,373,358!2026-05-22,387,358!2026-03-11,325,345-->
 
-One can make {@{analogous definitions for colimits}@}. For instance, {@{a functor _G_ preserves the colimits of _F_}@} if {@{_G_\(_L_, _φ_\) is a colimit of _GF_ whenever \(_L_, _φ_\) is a colimit of _F_}@}. {@{A __cocontinuous functor__}@} is {@{one that preserves all _small_ colimits}@}. <!--SR:!2026-02-27,316,345!2029-12-18,1415,365!2028-05-31,963,358!2026-04-15,356,353!2026-04-30,369,358-->
+One can make {@{analogous definitions for colimits}@}. For instance, {@{a functor _G_ preserves the colimits of _F_}@} if {@{_G_\(_L_, _φ_\) is a colimit of _GF_ whenever \(_L_, _φ_\) is a colimit of _F_}@}. {@{A __cocontinuous functor__}@} is {@{one that preserves all _small_ colimits}@}. <!--SR:!2030-04-06,1499,365!2029-12-18,1415,365!2028-05-31,963,358!2026-04-15,356,353!2026-04-30,369,358-->
 
 If {@{_C_ is a [complete category](complete%20category.md)}@}, then, by {@{the above existence theorem for limits}@}, a functor _G_ : _C_ → _D_ is {@{continuous if and only if it preserves \(small\) products and equalizers}@}. {@{Dually}@}, _G_ is {@{cocontinuous if and only if it preserves \(small\) coproducts and coequalizers}@}. <!--SR:!2029-01-06,1128,350!2026-03-30,345,358!2028-10-25,1001,313!2029-09-10,1321,350!2026-04-18,360,358-->
 

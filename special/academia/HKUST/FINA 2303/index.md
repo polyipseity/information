@@ -247,7 +247,7 @@ The content is in teaching order.
 - topic: interest rates
 - interest rate
   - interest rate / quoted in ::@:: annual percentage rate (APR), effective annual rate (EAR); both are _nominal_ <!--SR:!2026-07-31,401,381!2026-04-14,314,363-->
-- [annual percentage rate](../../../../general/annual%20percentage%20rate.md) (APR) ::@:: the _simple-interest_ rate for a _whole year_ (annualized), rather than just a monthly fee/rate <!--SR:!2026-07-27,397,381!2026-02-27,282,361-->
+- [annual percentage rate](../../../../general/annual%20percentage%20rate.md) (APR) ::@:: the _simple-interest_ rate for a _whole year_ (annualized), rather than just a monthly fee/rate <!--SR:!2026-07-27,397,381!2029-12-28,1400,381-->
   - annual percentage rate / prevalence ::@:: It is almost always the rate quoted in industry. <p> _Important_: Unless otherwise specified, interest rates given in questions are always this. <!--SR:!2026-10-07,469,383!2026-09-27,459,383-->
   - annual percentage rate / conversion between durations ::@:: If the time duration is multiplied by $k$, multiply the interest rate by $k$ as well: $$r_{\text{new} } = k r_{\text{old} } \,.$$ <p> Note: APR requires the duration to be a year. If not, it would be just annual \(something\) rate. <!--SR:!2026-07-22,392,383!2026-08-12,413,383-->
   - annual percentage rate / to effective annual rate ::@:: $$\text{EAR} = (1 + \text{APR} / m)^m - 1 \,,$$ where $m$ is the number of compounding in a year. <!--SR:!2028-05-26,924,363!2026-08-11,412,383-->
@@ -268,7 +268,7 @@ The content is in teaching order.
 - effective annual rate
 - [amortizing loan](../../../../general/amortizing%20loan.md) ::@:: a loan where the principal of the loan is paid down over the life of the loan (that is, amortized) according to an amortization schedule, typically through equal payments. <!--SR:!2026-05-01,331,373!2026-09-08,440,393-->
   - amortizing loan / equated monthly installment (EMI) ::@:: Payments are divided into equal amounts for the duration of the loan, making it the simplest repayment model. A greater amount of the payment is applied to _interest_ at the beginning of the amortization schedule, while more money is applied to _principal_ at the end. <!--SR:!2026-08-15,416,393!2026-11-06,492,393-->
-  - amortizing loan / terminology ::@:: balance/principal outstanding, interest, principal <!--SR:!2026-02-27,282,373!2026-09-07,439,393-->
+  - amortizing loan / terminology ::@:: balance/principal outstanding, interest, principal <!--SR:!2030-02-07,1441,393!2026-09-07,439,393-->
   - amortizing loan / amortizing schedule ::@:: It can be an Excel spreadsheet showing balance/principal outstanding, interest paid, and principal paid. <!--SR:!2026-08-27,428,393!2026-09-09,441,393-->
   - amortizing loan / intuition ::@:: Literally just ordinary annuity, but the direction of payment is reversed. <!--SR:!2026-09-14,446,393!2026-09-23,455,393-->
   - amortizing loan / equated monthly installment
@@ -318,7 +318,7 @@ The content is in teaching order.
   - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternatively, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done. <p> \(__this course__: In book, course, and homework, the payback period is calculated assuming cash flows are continuous, i.e. direct division is enough and rounding up is unnecessary.\) <!--SR:!2026-09-10,442,393!2026-10-06,467,393-->
   - payback period / decision rule
     - payback period / decision rule / advantages ::@:: Simple. Favors liquidity. <!--SR:!2026-08-18,419,393!2026-09-26,458,393-->
-    - payback period / decision rule / disadvantages ::@:: The maximum payback period/payback period cutoff is arbitrary. Cash flows after the cutoff is ignored. Not necessarily consistent with maximizing shareholder value (since it is not generally consistent with NPV). <!--SR:!2026-11-01,487,393!2026-02-27,282,373-->
+    - payback period / decision rule / disadvantages ::@:: The maximum payback period/payback period cutoff is arbitrary. Cash flows after the cutoff is ignored. Not necessarily consistent with maximizing shareholder value (since it is not generally consistent with NPV). <!--SR:!2026-11-01,487,393!2030-02-06,1440,393-->
 - net present value
   - net present value / decision rule
     - net present value / decision rule / advantages ::@:: The impact to the firm's value is calculated. Consistent with maximizing shareholder value (since it is a direct application of the valuation principle). <!--SR:!2026-10-25,482,393!2026-08-22,423,393-->

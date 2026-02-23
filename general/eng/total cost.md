@@ -12,7 +12,7 @@ tags:
 
 > {@{![One can decompose total costs as the sum of [fixed costs](fixed%20costs.md) and [variable costs](variable%20costs.md).](../../archives/Wikimedia%20Commons/CVP-TC-FC-VC.svg)}@}
 >
-> One can {@{decompose total costs as the sum of [fixed costs](fixed%20costs.md) and [variable costs](variable%20costs.md)}@}. Here output is {@{measured along the horizontal axis}@}. In {@{the [Cost-Volume-Profit Analysis](cost-volume-profit%20analysis.md) model}@}, {@{total costs are linear in volume}@}. <!--SR:!2026-03-03,326,341!2029-09-26,1343,350!2030-01-20,1442,361!2026-02-27,323,341!2026-03-01,324,341-->
+> One can {@{decompose total costs as the sum of [fixed costs](fixed%20costs.md) and [variable costs](variable%20costs.md)}@}. Here output is {@{measured along the horizontal axis}@}. In {@{the [Cost-Volume-Profit Analysis](cost-volume-profit%20analysis.md) model}@}, {@{total costs are linear in volume}@}. <!--SR:!2026-03-03,326,341!2029-09-26,1343,350!2030-01-20,1442,361!2030-04-19,1512,361!2026-03-01,324,341-->
 
 <!-- markdownlint MD028 -->
 

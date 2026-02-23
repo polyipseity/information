@@ -104,7 +104,7 @@ Useful properties of RKHSs:
 
 ### bilinear kernels
 
-{@{$$K(x,y)=\langle x,y\rangle$$}@} {@{The RKHS $H$ corresponding to this kernel}@} is {@{the dual space}@}, consisting of {@{functions $f(x)=\langle x,\beta \rangle$ satisfying $\|f\|_{H}^{2}=\|\beta \|^{2}$}@}. (annotation: Simply apply {@{the Moore–Aronszajn theorem}@} to see that the RKHS consists of {@{linear functionals on the input space}@}, with {@{the norm induced by the inner product}@}, so that {@{the RKHS norm of $f(x)$ equals the norm of its defining vector $\beta$}@}.) <!--SR:!2026-04-19,71,329!2026-04-15,63,310!2026-03-27,44,290!2026-03-06,31,270!2026-04-15,63,310!2026-04-04,57,310!2026-04-23,67,310!2026-02-27,18,334-->
+{@{$$K(x,y)=\langle x,y\rangle$$}@} {@{The RKHS $H$ corresponding to this kernel}@} is {@{the dual space}@}, consisting of {@{functions $f(x)=\langle x,\beta \rangle$ satisfying $\|f\|_{H}^{2}=\|\beta \|^{2}$}@}. (annotation: Simply apply {@{the Moore–Aronszajn theorem}@} to see that the RKHS consists of {@{linear functionals on the input space}@}, with {@{the norm induced by the inner product}@}, so that {@{the RKHS norm of $f(x)$ equals the norm of its defining vector $\beta$}@}.) <!--SR:!2026-04-19,71,329!2026-04-15,63,310!2026-03-27,44,290!2026-03-06,31,270!2026-04-15,63,310!2026-04-04,57,310!2026-04-23,67,310!2026-05-24,86,354-->
 
 ### polynomial kernels
 

@@ -88,7 +88,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00, PT1H20M
   - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00, PT1H20M
-- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2026-05-30,359,301!2026-02-27,316,341-->
+- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2026-05-30,359,301!2030-03-23,1485,361-->
   - What is jazz? / students' answers: United States, created for rebellion
   - jazz / examples
     - "Struttin' with Some Barbecue" (1927) — Louis Armstrong and His Hot Five

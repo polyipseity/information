@@ -18,7 +18,7 @@ tags:
 This seems more like a pedagogical tool...
 
 - good compromises ::@:: Instructions are 32 bits long, to make instruction fetching and decoding simpler. <!--SR:!2026-06-17,358,355!2026-06-02,343,350-->
-- make common cases fast ::@:: Variants of instructions that accept _immediate_ operands instead of register or memory operands are available. <!--SR:!2026-04-13,293,330!2026-02-27,268,330-->
+- make common cases fast ::@:: Variants of instructions that accept _immediate_ operands instead of register or memory operands are available. <!--SR:!2026-04-13,293,330!2029-06-27,1216,350-->
 - simplicity favors regularity \(less cases\) ::@:: Each instruction is 32 bits long, and has a fixed number of operands. It makes CPU implementations simpler and allows better performance. <!--SR:!2026-03-01,270,330!2029-01-12,1083,350-->
   - simplicity favors regularity / comparison ::@:: x86, a _complex_ instruction set computer \(CISC\) ISA, supports a variable number of operands. <!--SR:!2029-04-16,1161,350!2026-02-28,269,330-->
 - smaller is faster ::@:: Less registers means faster processors. More registers means more propagation delay \(longer travel time\). <!--SR:!2026-03-06,275,330!2029-04-16,1160,350-->
@@ -31,7 +31,7 @@ Variables differ from registers in that {@{the former is a logical concept while
 
 In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@} <!--SR:!2029-04-15,1159,350!2029-03-18,1137,350!2026-04-09,289,330!2028-05-16,829,330-->
 
-Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2026-02-27,268,330!2026-03-02,271,330!2028-05-17,830,330!2026-03-24,26,412-->
+Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2029-07-01,1220,350!2026-03-02,271,330!2028-05-17,830,330!2026-03-24,26,412-->
 
 The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}. <!--SR:!2026-04-07,287,330!2026-03-05,274,330!2026-03-17,284,330-->
 
@@ -242,7 +242,7 @@ Notice that {@{some fields are unused}@}. Sometimes, they can be {@{any value \(
 
 ## calling conventions
 
-There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2026-03-03,272,330!2029-06-13,1204,350!2026-02-27,268,330-->
+There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2026-03-03,272,330!2029-06-13,1204,350!2029-07-02,1221,350-->
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. This is explained in [§ procedures](#procedures) below. <!--SR:!2027-01-13,518,401-->
 
@@ -275,7 +275,7 @@ The 32 registers are used as follows:
 > - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2026-03-05,274,330!2026-04-14,294,330-->
 > - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2029-01-24,1093,350!2029-06-12,1203,350-->
 > - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2026-03-04,273,330-->
-> - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2026-02-27,268,330!2026-04-10,290,330-->
+> - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2029-07-04,1223,350!2026-04-10,290,330-->
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2028-01-01,776,330!2026-03-01,270,330-->
 > - __`$gp`__ ::@:: `$28`: global pointer <!--SR:!2029-04-20,1164,350!2026-03-15,282,330-->
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2027-12-07,756,330!2026-03-02,271,330-->
@@ -290,7 +290,7 @@ If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(
 
 ## assembly
 
-{@{The assembler}@} is {@{responsible for translating human-readable assembly to machine-readable machine code}@}. That means we need to {@{learn how to write the human-readable assembly file}@}. <!--SR:!2026-04-14,294,330!2026-03-16,283,330!2026-02-27,268,330-->
+{@{The assembler}@} is {@{responsible for translating human-readable assembly to machine-readable machine code}@}. That means we need to {@{learn how to write the human-readable assembly file}@}. <!--SR:!2026-04-14,294,330!2026-03-16,283,330!2029-07-03,1222,350-->
 
 ### assembly format
 

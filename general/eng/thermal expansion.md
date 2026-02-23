@@ -20,7 +20,7 @@ tags:
 >
 > - {@{$\alpha_L$}@} is {@{the __coefficient of linear thermal expansion__}@}
 > - {@{$L$}@} is {@{the [length](length.md)}@}
-> - {@{$\frac{\mathrm{d}L}{\mathrm{d}T}$}@} is {@{the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-05-15,904,310!2032-01-18,2196,330!2026-03-03,84,353!2026-03-03,84,353!2026-03-03,84,353!2026-02-27,81,353!2026-03-04,85,353-->
+> - {@{$\frac{\mathrm{d}L}{\mathrm{d}T}$}@} is {@{the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-05-15,904,310!2032-01-18,2196,330!2026-03-03,84,353!2026-03-03,84,353!2026-03-03,84,353!2027-03-23,389,373!2026-03-04,85,353-->
 
 ### area expansion
 
@@ -31,7 +31,7 @@ tags:
 > where
 >
 > - {@{$\alpha_A$}@} is {@{the __coefficient of area thermal expansion__, $A$ is the [area](area.md)}@}
-> - {@{$\frac{\mathrm{d}A}{\mathrm{d}T}$}@} is {@{the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2026-07-27,714,330!2030-07-21,1804,330!2026-02-27,81,353!2027-03-04,376,373!2026-10-19,258,353-->
+> - {@{$\frac{\mathrm{d}A}{\mathrm{d}T}$}@} is {@{the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2026-07-27,714,330!2030-07-21,1804,330!2027-03-24,390,373!2027-03-04,376,373!2026-10-19,258,353-->
 
 ### volume expansion
 

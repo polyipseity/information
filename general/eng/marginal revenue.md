@@ -99,7 +99,7 @@ MC = P + P/e, <br/>
 
 {@{(P − MC)/P = −1/e}@} is called {@{the Lerner index after economist [Abba Lerner](Abba%20P.%20Lerner.md)}@}.<sup>[\[34\]](#^ref-34)</sup> The Lerner index is {@{a measure of market power}@} — the ability of {@{a firm to charge a price that exceeds marginal cost}@}. The index varies from {@{zero (when demand is infinitely elastic (a perfectly competitive market)) to 1 (when demand has an elasticity of −1)}@}. (annotation: When {@{demand is inelastic, i.e. 0 ≥ e > -1}@}, then {@{the above formula gives negative MC for a fixed price, which seems nonsense}@}. This is because for {@{an isoelastic inelastic demand curve}@}, {@{revenue always increases when you decrease quantity down until zero}@}, but {@{such an isoelastic curve is unrealistic in the real world}@}.) {@{The closer the index value is to 1}@}, the greater is {@{the difference between price and marginal cost}@}. {@{The Lerner index increases}@} as {@{demand becomes less elastic}@}.<sup>[\[34\]](#^ref-34)</sup> <!--SR:!2026-03-02,327,297!2027-11-16,773,297!2027-08-12,695,317!2027-01-13,581,317!2027-06-18,727,337!2027-12-25,871,337!2027-10-27,816,337!2027-12-08,858,337!2029-11-03,1422,357!2028-05-09,965,337!2029-02-25,1225,357!2029-03-03,1230,357!2029-03-10,1235,357!2027-11-22,651,414-->
 
-Alternatively, the relationship can be expressed as: <p> {@{P = MC/(1 + 1/e)}@}. <!--SR:!2026-02-27,289,257-->
+Alternatively, the relationship can be expressed as: <p> {@{P = MC/(1 + 1/e)}@}. <!--SR:!2026-07-24,147,237-->
 
 Thus, for example, if {@{_e_ is −2 and MC is \$5.00}@} then {@{price is \$10.00}@}. <!--SR:!2027-11-10,828,337!2029-01-30,1202,357-->
 

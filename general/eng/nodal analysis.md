@@ -50,7 +50,7 @@ With {@{Kirchhoff's current law}@}, we get: {@{$${\frac {V_{1}-V_{S} }{R_{1} } }
 
 > {@{![In this circuit, V<sub>A</sub> is between two unknown voltages, and is therefore a supernode.](../../archives/Wikimedia%20Commons/Supernode%20in%20circuit%20analysis.svg)}@}
 >
-> In this circuit, {@{V<sub>A</sub> is between two unknown voltages, and is therefore a supernode}@}. <!--SR:!2026-02-27,251,326!2029-03-13,1134,350-->
+> In this circuit, {@{V<sub>A</sub> is between two unknown voltages, and is therefore a supernode}@}. <!--SR:!2029-04-06,1134,346!2029-03-13,1134,350-->
 
 In this circuit, we {@{initially have two unknown voltages, V<sub>1</sub> and V<sub>2</sub>}@}. {@{The voltage at V<sub>3</sub> is already known to be V<sub>B</sub>}@} because {@{the other terminal of the voltage source is at ground potential}@}. <!--SR:!2026-04-05,298,346!2026-05-31,344,346!2026-04-07,300,346-->
 

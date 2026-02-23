@@ -44,7 +44,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 2. Linearity in the first argument ::@:: $\langle u+v,w\rangle = \langle u,w\rangle + \langle v,w\rangle$, and $\langle au,v\rangle = a\,\langle u,v\rangle$. <!--SR:!2026-03-16,71,325!2026-03-20,75,325-->
 3. Positive definiteness: ::@:: $\langle u,u\rangle \ge 0$ with equality iff $u=0$. <!--SR:!2026-03-18,73,325!2026-03-19,74,325-->
 
-{@{These properties}@} guarantee that {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$}@} behaves like {@{a Euclidean length}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{their inner product equals zero}@}; they are {@{_orthonormal_}@} when {@{each also has unit norm}@}. <!--SR:!2026-03-17,72,325!2026-03-09,64,325!2026-03-24,79,344!2026-03-11,66,325!2026-03-16,71,325!2026-02-27,54,310!2026-03-18,73,325!2026-03-15,70,325-->
+{@{These properties}@} guarantee that {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$}@} behaves like {@{a Euclidean length}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{their inner product equals zero}@}; they are {@{_orthonormal_}@} when {@{each also has unit norm}@}. <!--SR:!2026-03-17,72,325!2026-03-09,64,325!2026-03-24,79,344!2026-03-11,66,325!2026-03-16,71,325!2026-10-22,237,330!2026-03-18,73,325!2026-03-15,70,325-->
 
 {@{The inner product}@} for {@{continuous-time signals}@} is {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} With {@{this definition}@} {@{a signal $s(t)$ has unit norm}@} when {@{its energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2026-03-19,74,325!2026-03-06,61,325!2026-03-11,66,325!2026-03-23,78,344!2026-03-05,60,325!2026-03-16,71,325!2026-03-16,71,325-->
 
@@ -104,7 +104,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a
 
 ### linear independence
 
-{@{Vectors $a_1,a_2,\dots ,a_n$}@} are {@{_linearly independent_}@} if {@{no vector}@} can be {@{expressed as a linear combination of the others}@}. Equivalently, {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}. <!--SR:!2026-02-27,54,310!2026-03-06,61,325!2026-03-07,62,325!2026-03-20,75,325!2026-03-19,74,325!2026-03-16,71,325-->
+{@{Vectors $a_1,a_2,\dots ,a_n$}@} are {@{_linearly independent_}@} if {@{no vector}@} can be {@{expressed as a linear combination of the others}@}. Equivalently, {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}. <!--SR:!2026-10-19,234,330!2026-03-06,61,325!2026-03-07,62,325!2026-03-20,75,325!2026-03-19,74,325!2026-03-16,71,325-->
 
 ### triangle inequality
 
@@ -128,7 +128,7 @@ The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining bas
 2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2026-03-18,73,325!2026-08-24,199,325-->
 3. skip conditions ::@:: If a residual becomes zero, skip to the next signal; the dimension of the signal space is less than $M$. <!--SR:!2026-03-08,63,325!2026-03-15,70,325-->
 
-\(__this course__: Whenever possible, {@{identify orthogonal signals}@} {@{by inspection}@} and {@{normalize them}@}, which is {@{usually much faster}@}. Only if {@{the problem is complex or explicitly asks for a Gram–Schmidt process}@}, then {@{use the Gram–Schmidt process}@}.\) <!--SR:!2026-03-19,74,325!2026-02-27,54,310!2026-03-11,66,325!2026-03-16,71,325!2026-03-17,72,325!2026-03-10,65,325-->
+\(__this course__: Whenever possible, {@{identify orthogonal signals}@} {@{by inspection}@} and {@{normalize them}@}, which is {@{usually much faster}@}. Only if {@{the problem is complex or explicitly asks for a Gram–Schmidt process}@}, then {@{use the Gram–Schmidt process}@}.\) <!--SR:!2026-03-19,74,325!2026-10-20,235,330!2026-03-11,66,325!2026-03-16,71,325!2026-03-17,72,325!2026-03-10,65,325-->
 
 ## examples
 
@@ -158,4 +158,4 @@ By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than
 
 ### constellation diagram
 
-Plotting {@{the coordinate vectors}@} of {@{all allowed signals on a Euclidean plane (or higher-dimensional hyperplane)}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability, typically under some assumptions}@}, such as {@{additive white Gaussian noise}@}. <!--SR:!2026-03-06,61,325!2026-03-11,66,325!2026-03-07,62,325!2026-03-16,71,325!2026-02-27,54,310!2026-03-18,73,325-->
+Plotting {@{the coordinate vectors}@} of {@{all allowed signals on a Euclidean plane (or higher-dimensional hyperplane)}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability, typically under some assumptions}@}, such as {@{additive white Gaussian noise}@}. <!--SR:!2026-03-06,61,325!2026-03-11,66,325!2026-03-07,62,325!2026-03-16,71,325!2026-10-21,236,330!2026-03-18,73,325-->
