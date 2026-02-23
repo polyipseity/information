@@ -162,15 +162,22 @@ Adding such narrative samples helps the model generalize to prose clozes of conc
 ```markdown
 ## logistics
 - sections:
-  - lecture: L1; CYT‑LTL; MondayT16:00:00/MondayT16:50:00, FridayT11:30:00/Fri
-dayT12:20:00
-  - tutorial: T2; NCKU‑103; TuesdayT14:00:00/TuesdayT15:20:00
-  - lab: LA3; LAB‑1; WednesdayT09:00:00/WednesdayT11:00:00
+  - lecture: L1
+    - L1: CYT‑LTL; MondayT16:00:00/MondayT16:50:00, FridayT11:30:00/FridayT12:20:00
+  - tutorials: T2
+    - T2: NCKU‑103; TuesdayT14:00:00/TuesdayT15:20:00
+  - labs: LA3
+    - LA3: LAB‑1; WednesdayT09:00:00/WednesdayT11:00:00
 ```
 
-The `sections:` list bundles the stream code, venue, and weekly
-weekday/time pattern in one semicolon‑separated line.  Agents should use
-this format when prompting for section information.
+The `sections:` list bundles each **section identifier** with its venue and a
+comma‑separated sequence of weekly day/time patterns.  The outer entries are
+labeled by session type (`lecture`, `tutorials`, `labs`), and the same
+identifier appears both at the outer level and as the key of the inner list.
+Agents and authors should treat the day/time segment as potentially unbounded
+— include as many comma‑separated pairs as needed for multiple slots during
+the week.  This nested structure replaces the older flat semicolon format and
+keeps all metadata self‑contained.
 
 ## unscheduled session example
 

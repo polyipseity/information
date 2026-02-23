@@ -47,7 +47,7 @@ Content checklist (content-first guidance):
 18. Include at least one worked example or solution sketch for important techniques covered that week (recommended).
 19. Link slides and recordings in `attachments/` or `attachments/index.md` when available (recommended).
 20. Add `::@::` concise definitions for flashcard-worthy items and check `flashcards.md` rules (recommended).
-21. Record your lab/tutorial section codes near the top of the note so automated tooling can filter irrelevant streams when importing schedules.
+21. Record your lab/tutorial **section identifiers** near the top of the note so automated tooling can filter irrelevant streams when importing schedules.
 22. Ensure venue lines follow immediately after `datetime:`; apply the HKUST room interpretation rule if appropriate (numeric rooms → "Room ####, Academic Building").
 
 Note on existing inline idioms:

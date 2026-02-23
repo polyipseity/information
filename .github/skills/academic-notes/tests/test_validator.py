@@ -77,3 +77,10 @@ tags:
     )
     assert not errs
     assert not any("nested list item" in w for w in warns)
+
+
+def test_template_contains_section_placeholder():
+    """Ensure the course-template still uses the <section identifier> placeholder."""
+    path = Path(".github/skills/academic-notes/course-template.md")
+    text = path.read_text(encoding="utf-8")
+    assert "<section identifier>" in text

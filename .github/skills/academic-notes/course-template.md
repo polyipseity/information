@@ -83,9 +83,15 @@ The content is in teaching order.
   - <another component>: <percent>%
   - ... <!-- add or remove components as needed; description follows semicolon only when present -->
 - sections:
-  - lecture: L<section>; <venue>; <weekday>T<start>/<weekday>T<end>[,<weekday>T<start>/<weekday>T<end>] <!-- record the student’s lecture stream, venue, and weekly times -->
-  - tutorial: T<section>; <venue>; <weekday>T<start>/<weekday>T<end>[,<weekday>T<start>/<weekday>T<end>] <!-- record the student’s tutorial stream, venue, and weekly times -->
-  - lab: LA<section>; <venue>; <weekday>T<start>/<weekday>T<end>[,<weekday>T<start>/<weekday>T<end>] <!-- record the student’s lab stream, venue, and weekly times -->
+  - lecture: <section identifier> <!-- e.g. L1 or L2 -->
+    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
+    - ...
+  - tutorials: <section identifier> <!-- e.g. T2 or T3 -->
+    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
+    - ...
+  - labs: <section identifier> <!-- e.g. LA3 -->
+    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
+    - ...
 
 <!--
 Agents: prompt the user for lab, tutorial, and lecture section codes and the

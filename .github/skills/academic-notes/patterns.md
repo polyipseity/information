@@ -43,7 +43,23 @@ tags:
   - Optional: `status:`, `venue:`
 - Content uses indented bullets to group course-specific annotations and cross-links.
 - Venues are especially important for room assignments; at HKUST a bare numeric or range (e.g. `2133&2134`) denotes an Academic Building room, which should be rendered as “Room 2133 & 2134, Academic Building” in the note.  Consistent venue entries aid schedule parsing.
-- The new preferred way to record your own lecture/tutorial/lab streams is with a `sections:` list in the logistics block.  Each entry uses semicolons to separate the stream code, venue, and weekly day‑of‑week/time pattern (e.g. `L1; CYT‑LTL; MondayT16:00:00/MondayT16:50:00`).  This replaces the older `session_times:` block and keeps all metadata self‑contained.
+- The new preferred way to record your own lecture/tutorial/lab streams is with a nested `sections:` list in the logistics block.  The outer list groups by type (`lecture`, `tutorials`, `labs`) while the inner list uses dedicated section identifiers (e.g. `L1`, `T2`, `LA3`).  Each inner line pairs the identifier with a venue and a comma‑separated sequence of weekly day‑of‑week/time patterns:
+
+  ```markdown
+  - sections:
+    - lecture: L1
+      - L1: CYT-LTL; MondayT16:00:00/MondayT16:50:00, FridayT11:30:00/FridayT12:20:00
+    - tutorials: T2
+      - T2: CYT-G001; TuesdayT14:00:00/TuesdayT15:20:00
+    - labs: LA3
+      - LA3: Room 2133 & 2134, Academic Building; WednesdayT09:00:00/WednesdayT11:00:00
+  ```
+
+  The placeholder term `<section identifier>` is used in templates to remind
+  authors that the same label appears both at the outer type level and as the
+  key for the inner list.  This structure replaces the older `session_times:`
+  block and keeps all metadata self‑contained; the comma‑separated list may
+  include any number of day/time pairs without upper bound.
 
 ## Inline conventions
 

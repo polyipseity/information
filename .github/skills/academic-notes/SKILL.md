@@ -92,9 +92,12 @@ steps:
    tags (note the underscore convention for flashes), name, credits, and a
    brief description.
 2. Add a `logistics` section with a nested grading `scheme:` block specifying
-   weights for labs, exams, projects, etc.  Must include a `sections:`
-   list containing lecture/tutorial/lab stream codes, venues, and weekly
-   time patterns (see `patterns.md` for format).
+   weights for labs, exams, projects, etc.  Must include a `sections:` list
+   containing lecture/tutorial/lab **section identifiers** together with
+   venues and comma‑separated weekly time patterns.  The list is nested by
+   session type (lectures, tutorials, labs) and allows an unlimited number of
+   day/time pairs per identifier; refer to `patterns.md` for the exact layout.
+
 3. Maintain a `children:` list in frontmatter or as a YAML section under the
    heading; keep child pages (lectures, labs, assignments) in teaching order.
 4. Use the recommended session structure for lectures/labs/tutorials/exams

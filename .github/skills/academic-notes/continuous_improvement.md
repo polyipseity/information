@@ -101,6 +101,12 @@ explicit permission from a maintainer.
     per updated workflow guidance.)  The first rewrite replaced the earlier
     cloze‑laden paragraph with a clean prose summary of the slide content,
     demonstrating the two‑step process in practice.
+  - Sections metadata template was overhauled (2026‑02‑23): documentation and
+    examples now describe a nested `sections:` list keyed by **section
+    identifier**, with the identifier repeated at the inner list level and
+    allowing an unbounded comma-separated sequence of weekday/time pairs.  The
+    course template, patterns, examples, and checklist were all updated and a
+    unit test added to ensure the placeholder remains present.
 
   made these documented rules in SKILL.md, patterns.md, checklist.md, and
   examples.md.
