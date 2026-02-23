@@ -58,9 +58,32 @@ questions and handle acronyms.
   Note: keep long proofs or formal material in `general/` when they are encyclopedic; link from course notes instead of copying.
 
 > Note: Save long proofs or formal definitions in `../../../../general/Hindley–Milner.md` and link from here.
-```
 
 ```markdown
+## outline with logistics paragraph
+
+```markdown
+### week 1 lecture 1
+- datetime: 2026-02-02T16:00:00+08:00/2026-02-02T16:50:00+08:00, PT50M
+- topic: course introduction
+- ELEC 1100
+  - ELEC 1100 / course overview
+    - ELEC 1100 / course overview / description ::@:: Designed to provide fundamental knowledge in electrical engineering, basic electronic components and robot design
+    - ELEC 1100 / course overview / outcomes ::@:: Analyze and design simple analog circuits; implement control strategies; build/debug systems using hierarchical design; manage projects; execute full project lifecycle
+  - ELEC 1100 / pedagogy
+    - ELEC 1100 / pedagogy / methodology ::@:: Reverse engineering approach: start with engineering, then physics, then mathematics; emphasizes learning by doing
+    - ELEC 1100 / pedagogy / traditional limitations ::@:: Traditional education teaches knowledge that may become obsolete and does not focus on application
+  - ELEC 1100 / expectations ::@:: Attend lectures, tutorials and labs on time; participate actively; ask questions; enjoy the experience
+  - ELEC 1100 / what is a robot?
+    - ELEC 1100 / what is a robot? / history ::@:: Word “robot” first used in 1921 by Czech playwright Karel Capek; “robotic” appeared in Issac Asimov’s 1942 story
+    - ELEC 1100 / what is a robot? / definitions ::@:: Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks; Webster definition: “an automatic device that performs functions normally ascribed to humans or a machine in the form of a human.”
+    - ELEC 1100 / what is a robot? / features ::@:: - artificially created and programmable <br/>  - can sense its environment and manipulate or interact with things in it <br/>  - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence <br/>  - moves without direct human interaction <br/>  - discussion questions: are animals robots? is a motorcycle a robot? 
+    - ELEC 1100 / what is a robot? / examples ::@:: - First real robot Unimate deployed in 1961 at a GM car plant, developed by Joseph F. Engelberger and George C. Devol<br/>  - Modern robots: Boston Dynamics dancing robots; Roomba vacuum cleaner; Aqua 2 underwater robot from McGill University; DJI Air 2S drone
+---
+During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@}; {@{next week the tutorials}@} start on 2026-02-09, 2026-02-12, and 2026-02-13 and {@{the first lab sessions}@} begin on 2026-02-13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.
+
+```
+
 ## example of questions & acronyms
 
 - datetime: 2026-02-02T16:00:00+08:00/2026-02-02T16:50:00+08:00, PT50M
@@ -73,9 +96,6 @@ questions and handle acronyms.
     - moves without direct human interaction
     - discussion question:: Are animals robots? Is a motorcycle a robot?
   - ELEC 1100 / robot definitions ::@:: Robot Institute of America (RIA) definition: a reprogrammable, multifunctional manipulator …
-```
-
-## Linking to `general/` (Wikipedia titles)
 
 Use the helper script to find a recommended article title:
 

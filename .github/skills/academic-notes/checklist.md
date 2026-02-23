@@ -36,11 +36,13 @@ Content checklist (content-first guidance):
     than multi-line sub-bullets.
 15. After the bullet outline for a session, add a prose paragraph (preceded by
     `---`) containing administrative comments such as schedule links, next‑week
-    reminders, or grading breakdowns.  Use cloze markup within that paragraph if
-    you wish to generate flashcards from the commentary.
+    reminders, grading breakdowns, and other logistics.  The week‑1 lecture
+    example in this file demonstrates how a single prose block can carry all of
+    the course logistics without polluting the outline.  Use cloze markup within
+    that paragraph if you wish to generate flashcards from the commentary.
 16. Ensure every outline item you add corresponds to a flashcard pair; convert generic headings into specific cloze entries or remove them if they are not pairs.
-15. Keep all outline/list items on a single source line; use `<br/>` or `<p>` for internal line breaks or paragraphs.
-16. When writing `::@::` clozes, use short left-hand labels (avoid long descriptive phrases) and always start the path with an explicit hierarchy (e.g. `<COURSE> / topic`).  For complex topics you may introduce multiple-folder levels (`<COURSE> / section / subsection / item`).
+17. Keep all outline/list items on a single source line; use `<br/>` or `<p>` for internal line breaks or paragraphs.
+18. When writing `::@::` clozes, use short left-hand labels (avoid long descriptive phrases) and always start the path with an explicit hierarchy (e.g. `<COURSE> / topic`).  For complex topics you may introduce multiple-folder levels (`<COURSE> / section / subsection / item`).  Repeat the full path text on every gloss even if it appears as a nested bullet; this ensures context is preserved when cards are generated.
 17. Do NOT include instructor/TA/IA/TO names, office locations, phone numbers or email addresses in notes; refer to the official syllabus or LMS instead. Replace any existing personal names with generic role descriptions; do not annotate that they were removed.
 18. Include at least one worked example or solution sketch for important techniques covered that week (recommended).
 19. Link slides and recordings in `attachments/` or `attachments/index.md` when available (recommended).

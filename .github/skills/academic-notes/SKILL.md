@@ -105,54 +105,17 @@ steps:
      with a horizontal rule (`---`).  This ordering keeps the outline visible
      at the top and prevents accidental repetition or indentation errors.
 5. Capture **content‑first details** and err on the side of completeness:
-   - Situational or administrative remarks (schedule links, upcoming-week
-     reminders, grading weights) should not appear as outline bullets.  Instead,
-     place them in a prose paragraph after the bullet outline and separate the
-     paragraph from the outline with a single horizontal rule (`---`).
-     Authors should **first draft this prose without any cloze markup** to focus
-     on natural flow.  Once the paragraph is finalised, perform a separate
-     editing pass to add cloze markup (`{@{ }@}` or `::@::`) for any points you
-     wish to convert into flashcards.  See the flashcard-creation skill for
-     guidance on writing cloze sentences.
-   - **Privacy note:** avoid including instructor, TA, or staff names and
-     email addresses in course notes; refer readers to the official syllabus or
-     LMS for contact information.
-   - Treat the course notes as a structured transcript of the lecture rather
-     than a terse summary.  Every slide bullet, formula, definition, and
-     instructor remark is a candidate for inclusion; if in doubt, include it
-     and the validator/maintainers can trim later.  Flashcards are generated
-     automatically so having more material usually improves recall.
-   - Preserve the full semantics of the original lecture slides or spoken
-     commentary when converting them to prose.  Do **not** compress two
-     or three related points into a single vague sentence.  Each separate idea
-     or logical step should be its own bullet (or sub‑bullet) with its own
-     `::@::` gloss if appropriate.
-   - Capture numeric values, parameter ranges, diagrams described in words,
-     algorithm steps, and decision criteria.  When an example involves a
-     sequence of operations (derivation, code walkthrough, troubleshooting
-     procedure), write it out as a numbered list or as multiple bullets rather
-     than a sentence fragment.
-   - Notes that are too high‑level ("we discussed X") are not sufficient;
-     detail what "X" actually consisted of.  Conversely, avoid verbatim copying
-     of long proofs or text that belongs in reference material – link to a
-     suitable `general/` page or attachment instead.
-   - You may preserve, simplify, or omit examples based on their quality, but
-     always record at least one representative worked example or problem per
-     major concept.  Simplifying long enumerations to alphabetized sublists is
-     still considered detail because it exposes structure.
-   - Instructor emphasis, asides, warnings about common pitfalls, and
-     references to external resources are all valuable; include them as
-     standalone bullets or notes.
-   - Avoid acronyms unless they recur frequently; when an abbreviation is
-     used, spell out the full phrase on first mention with the acronym in
-     parentheses (e.g. "Robot Institute of America (RIA) definition").
-     This ensures clarity for readers and flashcards.
-   - Preserve rhetorical questions and boundary-case prompts ("are animals
-     robots?", "is a motorcycle a robot?") as separate bullets.  These often
-     surface important distinctions and make excellent flashcard candidates.
-   - The level of detail described above applies to **all course content**
-     (lectures, tutorials, labs, exams) and is not limited to the first week.
-     Make the same effort whenever you add or revise material.
+   - Situational or administrative remarks (schedule links, upcoming-week reminders, grading weights, Canvas/LMS alerts) should **never** be written as outline bullets.  The example week‑1 lecture shows the proper approach: all logistics, exam weights, and rights/expectations appear in a continuous prose paragraph following the structured bullet hierarchy.  Place the paragraph **after** the bullet outline and separate it from the list with a horizontal rule (`---`).  Draft the prose first without cloze markup to ensure natural flow, then add `{@{ }@}` or `::@::` glosses in a second pass for any facts you want to memorise.  See the flashcard-creation skill for help writing effective cloze sentences.
+   - **Privacy note:** omit real names, emails, phone numbers, office locations, or any personally identifying information for instructors, TAs, IAs, TOs, or staff; refer readers back to the official syllabus/LMS for contact details and do not flag that you have redacted names.
+   - Treat the course notes as a structured transcript of the lecture rather than a terse summary.  Every slide bullet, formula, definition, and instructor comment is a candidate for inclusion; err on the side of including too much because flashcards are generated automatically and extra content aids recall.  The opening week example demonstrates how multiple related concepts (definitions, history, features, examples, comparisons) can coexist under a single session header using nested bullets and full hierarchical paths.
+   - Preserve the full semantics of the original lecture slides or spoken commentary.  Do **not** merge two or three separate points into one vague sentence.  Each distinct idea or logical step should occupy its own bullet (or sub‑bullet) along with a corresponding `::@::` gloss if appropriate.  When capturing enumerations such as the robot features or example lists shown in the week‑1 outline, either use nested sub‑bullets or put the entire list on one line with `<br/>` separators so the flashcard generator still treats them as a single entry.
+   - Capture numeric values, parameter ranges, diagrams described in words, algorithm steps, and decision criteria.  For multi‑step examples (derivations, code walkthroughs, troubleshooting procedures), write them out as numbered lists or multiple bullets that mirror the sequence of operations.
+   - Avoid high‑level summaries like "we discussed X"; instead, spell out what "X" consisted of.  Conversely, lengthy proofs or policy text that belong in reference material should be summarised with a link to an appropriate `general/` page or attachment rather than transcribed verbatim.
+   - Always include at least one representative worked example or problem per major concept.  Simplifying long enumerations to alphabetized sublists is still considered adequate detail because it exposes the underlying structure.
+   - Record instructor emphases, asides, exam hints, and common pitfalls as standalone bullets or nested notes – these often turn into valuable flashcards.
+   - Avoid introducing acronyms unless they recur frequently.  When you do use an abbreviation, spell out the full phrase on first mention with the acronym in parentheses (e.g. "Robot Institute of America (RIA) definition") to ensure clarity for readers and flashcards.
+   - Preserve rhetorical questions and boundary-case prompts ("are animals robots?", "is a motorcycle a robot?") as separate bullets; they surface important distinctions and make excellent flashcard candidates.
+   - This detailed, content‑first approach applies **uniformly** to all course materials – lectures, tutorials, labs, exams, and review sessions.  Do not treat later weeks more tersely just because they are routine; maintain the same level of bullet‑by‑bullet fidelity throughout the semester.
 6. Insert `::@::` glosses for flashcard-worthy facts; follow `flashcards.md`
    for best practices.
    - **Formatting rules:** always prefix a gloss with a hierarchical path

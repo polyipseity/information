@@ -50,7 +50,9 @@ tags:
 - `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
 - Use `- Section / subsection ::@:: summary` to create taxonomy-like entries.
 - When writing lists or outlines in source, put each top-level item on its own line; insert `<br/>` for hard line breaks within an item and `<p>` for separate paragraphs.  This preserves machine readability while allowing formatted output.
-- Descriptive paragraphs (e.g. lecture summaries) should follow the outline list and be separated from it by `---` to avoid accidental duplication and extra indentation.
+- Every `::@::` gloss must begin with a complete hierarchical path that starts with the course name and includes all intermediate folders (e.g. `ELEC 1100 / what is a robot? / features ::@:: …`).  Do not rely on indentation or headings for context; repeat the full path on each gloss so the flashcard generator can operate independently of the surrounding outline.
+
+- Descriptive paragraphs (e.g. lecture summaries, administrative commentary such as "check Canvas" or grading reminders) should follow the outline list and be separated from it by `---` to avoid accidental duplication and extra indentation.  In the sample week‑1 outline these paragraphs carry all of the course logistics while leaving the bullets reserved for conceptual content.
 - **Personal data:** do not include real names, email addresses, phone numbers, or other personal identifiers for instructors, TAs, IAs, TOs, or staff in course notes.  Use generic role descriptions and refer readers to the official syllabus or LMS for contact details; do not add parenthetical notes about omission.
 - **Human recall lists:** when a cluster of features or characteristics is
   meant to be memorized straight, avoid multi-line sub-bullets; instead
