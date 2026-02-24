@@ -13,8 +13,10 @@ intended for any course material stored under `special/academia/<INSTITUTION>`
 > **Flashcard generation is automatic.**  Authors and agents do **not** need
 > to run `init generate` or any similar command when editing course notes;
 > the repository’s build and packaging workflows regenerate flashcards for
-> you.  If you encounter instructions that suggest manual regeneration, update
-> the documentation and templates as part of the continuous‑learning process.
+> you.  Agents in particular must **never** attempt to invoke the generator
+> manually.  If you encounter instructions that suggest manual regeneration,
+> update the documentation and templates as part of the continuous‑learning
+> process.
 
 The skill is designed for **continuous learning**: as agents and human authors
 work with real course content, their preferences and new patterns inform
@@ -188,8 +190,9 @@ flashcard/active/special/academia/<institution>/<page>
 `<page>` normally mirrors the course code using underscores (`COMP_3031`).
 Spaces should never be percent‑encoded in tags.  Validators flag missing or
 malformed tags.  Flashcard state is regenerated automatically by the
-repository's build tools; authors do **not** need to run `init generate`
-manually when editing notes (the CI and packaging workflows handle it).
+repository's build tools; authors and agents do **not** need (and should not)
+run `init generate` manually when editing notes (the CI and packaging workflows
+handle it).
 
 ### Linking to general content
 

@@ -8,12 +8,17 @@ This document collects observed patterns from academic course notes and the pref
 - Recommended keys:
   - `aliases:` list with course code variants and human names.
   - `tags:` must include `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` for flashcard activation. **This tag is required in all course note files under `special/academia` when flashcards are desired.** Also include `function/index` and `language/in/English` where appropriate.
+- **Optional tests:** Occasionally we add a small Python test to document a
+  specific pattern (e.g. ensuring a child link is folder‑first).  These
+  tests are ephemeral; once the pattern is established in the skill docs the
+  test may be deleted with no loss.  Authors do *not* need to create tests
+  for ordinary content edits.
 
 > **Reminder:** you do not need to run `init generate` when editing
 > academic notes; flashcard state is regenerated automatically by the
-> repository’s build/packaging workflows.  If any internal instructions or
-> templates mention manual regeneration, update them as part of continuous
-> improvement.
+> repository’s build/packaging workflows, and agents must never invoke the
+> command themselves.  If any internal instructions or templates mention
+> manual regeneration, update them as part of continuous improvement.
 
 Example:
 
@@ -34,6 +39,7 @@ tags:
 - Top-level file is `index.md` and starts with `# index` heading.
 - Include an explicit `children` section listing child pages in teaching order.
 - Add a `grading` section, optionally with a `scheme` subsection listing assignments/exams and weights.
+- When listing child sections under a lecture entry that link to a separate topic-specific note, include full anchor URLs (e.g. `electronic%20component.md#atoms%20and%20charge`) as part of the hierarchical path.  This makes it easy for readers to jump directly to the relevant subsection in the external note.
 
 ## Weekly entries
 
@@ -70,6 +76,7 @@ tags:
 ## Inline conventions
 
 - `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
+- **Math delimiters:** use `$…$` for inline math and `$$…$$` for display equations.  Avoid TeX‑style `\(\)`/`\[\]` delimiters, which are not consistently supported by the Markdown renderer and linting tools.
 - Use `- Section / subsection ::@:: summary` to create taxonomy-like entries.
 - When writing lists or outlines in source, put each top-level item on its own line; insert `<br/>` for hard line breaks within an item and `<p>` for separate paragraphs.  This preserves machine readability while allowing formatted output.
 - Every `::@::` gloss must begin with a complete hierarchical path that starts with the course name and includes all intermediate folders (e.g. `ELEC 1100 / what is a robot? / features ::@:: …`).  Do not rely on indentation or headings for context; repeat the full path on each gloss so the flashcard generator can operate independently of the surrounding outline.

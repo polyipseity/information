@@ -125,6 +125,20 @@ explicit permission from a maintainer.
     anchors.  Added extensive examples in SKILL.md, examples.md, patterns.md,
     and validator checks reflect this pattern.  See the ELEC 1100 changes
     committed on the same date for a concrete implementation.
+- **2026‑02‑24 (evening):** Learned additional author preferences during
+  the ELEC 1100 Week 1 work, and subsequently **removed a temporary python
+  test** that verified outline formatting (the pattern is now documented in
+  the skill itself):
+  - `children:` lists must place all folders before files (folder-first) –
+    updated checklist and validator language.
+  - Avoid editing earlier lecture summaries when adding new sessions; each
+    paragraph should concern only its own session.
+  - Session outlines may link to specific sections of external topic notes
+    using anchors; updated examples and patterns accordingly.
+  - Math equations should *always* use `$…$`/`$$…$$`; TeX-style delimiters
+    are prohibited.  Added explicit guidance in patterns and examples.
+  - Topic-note filenames and headings follow normal sentence casing; section
+    headings adhere to the same rule.  Reinforced in examples.
 
 ---
 

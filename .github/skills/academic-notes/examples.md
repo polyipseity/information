@@ -120,11 +120,14 @@ loading the lecture entry with too much background.
    ```
 
 3. Create `special/academia/HKUST/ELEC 1100/electronic component.md` using the
-   template from the skill documentation.  Add aliases, tags and a cross‑link
-   to the `general/eng/electronic component.md` article.
-4. Update the main `index.md` by adding the new file to `children:` (after
-   all folder entries, alphabetical among files) and insert a `see also` link
-   under the week 1 lecture 2 outline.  For example:
+template from the skill documentation.  When choosing the filename and main
+heading, prefer normal sentence casing (capitalize only proper nouns); apply
+the same convention to all section headers within the note.  Add aliases,
+tags and a cross‑link to the `general/eng/electronic component.md` article.
+4. Update the main `index.md` by adding the new file to `children:` **after all
+   folder entries** (folder-first ordering takes precedence over
+   alphabetization) and insert a `see also` link under the week 1 lecture 2
+   outline.  For example:
 
    ```markdown
    ## children
@@ -141,11 +144,24 @@ loading the lecture entry with too much background.
    - datetime: ...
    - topic: basic components
    - ELEC 1100
-     - ELEC 1100 / [electronic component](electronic%20component.md)
-       - [§ definition](electronic%20component.md#definition)
+     - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
+       - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge)
+       - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators)
+       - [§ current](electronic%20component.md#current)
+       - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference)
+       - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
+       - [§ capacitors](electronic%20component.md#capacitors)
+    - ...
+   <!-- note: the topic-specific file is linked only once; subsequent entries
+   use the section sign (§) and anchor reference without repeating the filename -->
+     - ELEC 1100 / electronic component
+       - [§ capacitors](electronic%20component.md#capacitors)
    ```
 
 The resulting topic note might start like this:
+
+> **Math notation reminder:** use `$…$` or `$$…$$` for all equations; avoid
+> TeX‑style `\(\)`/`\[\]` delimiters which are less consistently rendered.
 
 ```markdown
 ---
