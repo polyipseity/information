@@ -1,0 +1,1 @@
+bertrand paradox (probability).md

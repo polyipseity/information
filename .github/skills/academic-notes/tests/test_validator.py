@@ -93,6 +93,43 @@ tags:
     assert not any("nested list item" in w for w in warns)
 
 
+def test_qa_list_without_separator_warning(tmp_course_file):
+    # simple QA pair without preceding rule should produce a warning
+    tmp_course_file.write_text("""---
+    tags:
+     - flashcard/active/special/academia/HKUST/ELEC_1100
+    ---
+
+    - ELEC 1100
+      - What is foo? ::@:: A
+""")
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert any("QA-style flashcard list" in w for w in warns)
+
+
+def test_qa_list_with_separator_no_warning(tmp_course_file):
+    # QA list properly prefaced by separator phrase should not warn
+    tmp_course_file.write_text("""---
+    tags:
+     - flashcard/active/special/academia/HKUST/ELEC_1100
+    ---
+
+    - ELEC 1100
+
+    ---
+    Flashcards for this section are as follows:
+
+    - What is foo? ::@:: A
+    - Another Q :@: B
+""")
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert not any("QA-style flashcard list" in w for w in warns)
+
+
 def test_template_contains_section_placeholder():
     """Ensure the course-template still uses the <section identifier> placeholder."""
     path = Path(".github/skills/academic-notes/course-template.md")

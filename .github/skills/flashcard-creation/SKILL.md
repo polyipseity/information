@@ -33,6 +33,12 @@ path, a snippet, or a description of the content to process.  Permanent
 input/output examples are kept in `examples.md` in this folder; consult
 that file when in doubt.
 
+> **Academic note users:** if you are working specifically on a
+> `special/academia` course page, also review the `academic-notes`
+> skill documentation.  It describes course‑specific conventions (full
+> hierarchical gloss paths, QA list separators, section templates, etc.)
+> and links back here for general flashcard‑generation guidance.
+
 ## When to invoke
 
 - The conversation indicates the user wants to add flashcards, cloze

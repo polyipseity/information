@@ -225,6 +225,30 @@ def check_markdown_file(
                     "nested list item does not include full path (e.g. 'ELEC 1100 / ...')"
                 )
                 break
+        # QA-style flashcard list check: look for simple question::@::answer
+        # bullets that are not preceded by the expected separator phrase
+        lines = text.splitlines()
+        for i, line in enumerate(lines):
+            # simple pattern: bullet, some text not containing '/', then ::@:: or :@:
+            if re.match(r"^\s*-\s+[^/].*::@::", line) or re.match(
+                r"^\s*-\s+[^/].*:@:", line
+            ):
+                # look back for a nonblank previous line
+                j = i - 1
+                prev = None
+                while j >= 0:
+                    if lines[j].strip():
+                        prev = lines[j].strip()
+                        break
+                    j -= 1
+                if prev not in (
+                    "Flashcards for this section are as follows:",
+                    "---",
+                ):
+                    warnings.append(
+                        "QA-style flashcard list detected without preceding separator phrase"
+                    )
+                break
 
     return errors, warnings
 

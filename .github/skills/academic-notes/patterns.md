@@ -77,7 +77,13 @@ tags:
 
 - `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
 - **Math delimiters:** use `$…$` for inline math and `$$…$$` for display equations.  Avoid TeX‑style `\(\)`/`\[\]` delimiters, which are not consistently supported by the Markdown renderer and linting tools.
-- **Emphasis style:** italics should be marked with single underscores `_like this_` rather than asterisks.  Bold text uses double underscores `__like this__` instead of `**`.  This convention reduces ambiguity with Markdown tables and cloze markup and is applied across all note types.
+- **Two-sided QA lists:** if a section is organised as a list of question/answer pairs rather than using `::@::` cloze glosses, precede the list with a horizontal rule (`---`), leave a blank line, and then add the sentence
+
+  ```text
+  Flashcards for this section are as follows:
+  ```
+
+  Each subsequent bullet should use the `Q ::@:: A` or `Q :@:` syntax.  This convention is recognised by both the academic‑notes and flashcard‑creation skills.- **Emphasis style:** italics should be marked with single underscores `_like this_` rather than asterisks.  Bold text uses double underscores `__like this__` instead of `**`.  This convention reduces ambiguity with Markdown tables and cloze markup and is applied across all note types.
 - Use `- Section / subsection ::@:: summary` to create taxonomy-like entries.
 - When writing lists or outlines in source, put each top-level item on its own line; insert `<br/>` for hard line breaks within an item and `<p>` for separate paragraphs.  This preserves machine readability while allowing formatted output.
 - Every `::@::` gloss must begin with a complete hierarchical path that starts with the course name and includes all intermediate folders (e.g. `ELEC 1100 / what is a robot? / features ::@:: …`).  Do not rely on indentation or headings for context; repeat the full path on each gloss so the flashcard generator can operate independently of the surrounding outline.

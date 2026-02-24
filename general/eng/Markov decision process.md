@@ -86,7 +86,7 @@ In {@{value iteration \([Bellman 1958](#CITEREFBellman1958)\), which is also cal
 
 In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, one first {@{performs _Value Determination_}@} by solving {@{for $V$ from the linear system described in step one}@}, then {@{performs _Policy Improvement_}@} by computing {@{$\pi$ as in step two}@}, then {@{repeats both steps until the policy converges}@}. \(Policy iteration was invented by {@{Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which he {@{had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369-->
 
-Since {@{policy iteration}@} effectively {@{interleaves a linear inverse problem with a nonlinear operation}@}, it may interpreted as a type of {@{[relaxation](relaxation%20(iterative%20method).md) method}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369!2030-07-22,1621,369!2029-06-28,1218,349-->
+Since {@{policy iteration}@} effectively {@{interleaves a linear inverse problem with a nonlinear operation}@}, it may interpreted as a type of {@{[relaxation](relaxation%20(iterative%20method).md) method}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369-->
 
 {@{This variant}@} has the advantage that there is {@{a definite stopping condition}@}. Since there is {@{a unique solution $V$ for each policy $\pi$}@}, {@{the algorithm is completed}@} once {@{the _Policy Improvement_ produces the same policy twice consecutively}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369-->
 

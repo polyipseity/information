@@ -1,0 +1,118 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" encoding="UTF-8" width="1800" height="1500" >
+  <!--
+    Poisson(5)(x=0):  0.0067 3794699908546704
+    Poisson(5)(x=1):  0.0336 897349954273352
+    Poisson(5)(x=2):  0.0842 24337488568338
+    Poisson(5)(x=3):  0.1403 73895814280563
+    Poisson(5)(x=4):  0.1754 67369767850704
+    Poisson(5)(x=5):  0.1754 67369767850704
+    Poisson(5)(x=6):  0.1462 22808139875587
+    Poisson(5)(x=7):  0.1044 44862957053991
+    Poisson(5)(x=8):  0.0652 780393481587441
+    Poisson(5)(x=9):  0.0362 655774156437467
+    Poisson(5)(x=10): 0.0181 327887078218733
+    Poisson(5)(x=11): 0.0082 4217668537357877
+    Poisson(5)(x=12): 0.0034 342402855723245
+    Poisson(5)(x=13): 0.0013 2086164829704788
+    Poisson(5)(x=14): 0.0004 71736302963231387
+  -->
+
+  <style type="text/css">
+    <![CDATA[
+      text.xlabel {
+        font-size: 40px;
+        font-family: 'Super Sans', Helvetica, sans-serif;
+      }
+      text.xtitle {
+        font-size: 50px;
+        font-family: 'Super Sans', Helvetica, sans-serif;
+      }
+      tspan.math {
+        font-family:'Times New Roman', Georgia, Serif;
+        font-style: italic;
+      }
+    ]]>
+  </style>
+
+  <!-- background -->
+  <rect x="200" y="200" width="1500" height="1000" style="fill:lightgray;" />
+
+  <!-- 'x' and 'y' axes -->
+  <line x1="200" y1="200"  x2="200"  y2="1200" style="stroke:black;stroke-width:2" />
+  <line x1="200" y1="1200" x2="1700" y2="1200" style="stroke:black;stroke-width:2" />
+
+  <!-- 'x' axis markers -->
+  <line x1="300"  y1="1180" x2="300"  y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="400"  y1="1180" x2="400"  y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="500"  y1="1180" x2="500"  y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="600"  y1="1180" x2="600"  y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="700"  y1="1180" x2="700"  y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="800"  y1="1180" x2="800"  y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="900"  y1="1180" x2="900"  y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="1000" y1="1180" x2="1000" y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="1100" y1="1180" x2="1100" y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="1200" y1="1180" x2="1200" y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="1300" y1="1180" x2="1300" y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="1400" y1="1180" x2="1400" y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="1500" y1="1180" x2="1500" y2="1220" style="stroke:black;stroke-width:2" />
+  <line x1="1600" y1="1180" x2="1600" y2="1220" style="stroke:black;stroke-width:2" />
+
+  <!-- 'y' axis markers -->
+  <line x1="180" y1="200" x2="1700" y2="200" style="stroke:black;stroke-width:2" />
+  <line x1="180" y1="450" x2="1700" y2="450" style="stroke:black;stroke-width:2" />
+  <line x1="180" y1="700" x2="1700" y2="700" style="stroke:black;stroke-width:2" />
+  <line x1="180" y1="950" x2="1700" y2="950" style="stroke:black;stroke-width:2" />
+
+  <!-- 'x' axis labels -->
+  <text x="250"  y="1250" fill="black" text-anchor="middle" class="xlabel">0</text>
+  <text x="350"  y="1250" fill="black" text-anchor="middle" class="xlabel">1</text>
+  <text x="450"  y="1250" fill="black" text-anchor="middle" class="xlabel">2</text>
+  <text x="550"  y="1250" fill="black" text-anchor="middle" class="xlabel">3</text>
+  <text x="650"  y="1250" fill="black" text-anchor="middle" class="xlabel">4</text>
+  <text x="750"  y="1250" fill="black" text-anchor="middle" class="xlabel">5</text>
+  <text x="850"  y="1250" fill="black" text-anchor="middle" class="xlabel">6</text>
+  <text x="950"  y="1250" fill="black" text-anchor="middle" class="xlabel">7</text>
+  <text x="1050" y="1250" fill="black" text-anchor="middle" class="xlabel">8</text>
+  <text x="1150" y="1250" fill="black" text-anchor="middle" class="xlabel">9</text>
+  <text x="1250" y="1250" fill="black" text-anchor="middle" class="xlabel">10</text>
+  <text x="1350" y="1250" fill="black" text-anchor="middle" class="xlabel">11</text>
+  <text x="1450" y="1250" fill="black" text-anchor="middle" class="xlabel">12</text>
+  <text x="1550" y="1250" fill="black" text-anchor="middle" class="xlabel">13</text>
+  <text x="1650" y="1250" fill="black" text-anchor="middle" class="xlabel">14</text>
+
+  <!-- 'y' axis labels -->
+  <text x="150" y="210"  fill="black" text-anchor="end" class="xlabel">0.20</text>
+  <text x="150" y="460"  fill="black" text-anchor="end" class="xlabel">0.15</text>
+  <text x="150" y="710"  fill="black" text-anchor="end" class="xlabel">0.10</text>
+  <text x="150" y="960"  fill="black" text-anchor="end" class="xlabel">0.05</text>
+  <text x="150" y="1210" fill="black" text-anchor="end" class="xlabel">0.00</text>
+
+  <!-- value bars -->
+  <rect width="50" height="033" x="225"  y="1167" style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="168" x="325"  y="1032" style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="421" x="425"  y="779"  style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="701" x="525"  y="499"  style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="877" x="625"  y="323"  style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="877" x="725"  y="323"  style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="731" x="825"  y="469"  style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="522" x="925"  y="678"  style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="326" x="1025" y="874"  style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="181" x="1125" y="1019" style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="90"  x="1225" y="1110" style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="41"  x="1325" y="1159" style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="17"  x="1425" y="1183" style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="6"   x="1525" y="1194" style="fill:gray;stroke:black;stroke-width:3;"/>
+  <rect width="50" height="2"   x="1625" y="1198" style="fill:gray;stroke:black;stroke-width:3;"/>
+
+  <!-- title for 'y' axis -->
+  <text x="200" y="120" fill="black" text-anchor="middle" class="xtitle"><tspan class="math">P</tspan>(<tspan class="math">X</tspan> = <tspan class="math">x</tspan>)</text>
+
+  <!-- title for 'x' axis -->
+  <switch allowReorder="yes">
+    <text systemLanguage="nl" x="900" y="1350" fill="black" text-anchor="middle" class="xtitle">aantal voorvallen <tspan class="math">x</tspan></text>
+    <text systemLanguage="ca" x="900" y="1350" fill="black" text-anchor="middle" class="xtitle">nombre d'esdeveniments <tspan class="math">x</tspan></text>
+    <text systemLanguage="en" x="900" y="1350" fill="black" text-anchor="middle" class="xtitle">number of events <tspan class="math">x</tspan></text>
+    <text x="900" y="1350" fill="black" text-anchor="middle" class="xtitle">nombre d'esdeveniments <tspan class="math">x</tspan></text>
+  </switch>
+</svg>
+

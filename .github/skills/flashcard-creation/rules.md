@@ -33,6 +33,14 @@ use during flashcard generation.  It is consulted in addition to
   user explicitly requests a `::@::` or `:@:` question‑answer format.
   Q/A rewrites occur only when an example demonstrates that style.
 
+- **Two-sided QA lists.** If the user indicates they want a sequence of
+  two-sided flashcards (common in some academic topic notes), do not
+  convert sentences into clozes.  Instead, preserve the original text and
+  format the section as a markdown list of `Q ::@:: A` or `Q :@: A`
+  pairs.  Precede the list with a horizontal rule (`---`), insert a blank
+  line, and then add the exact phrase “Flashcards for this section are as
+  follows:” so the intent is immediately clear.  This convention mirrors
+  guidance in the academic-notes skill.
 - **Lists by item.** Handle list elements individually; do not combine
   separate bullets unless an example shows otherwise.
 
