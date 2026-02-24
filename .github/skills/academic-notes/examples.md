@@ -79,7 +79,9 @@ questions and handle acronyms.
     - ELEC 1100 / what is a robot? / definitions ::@:: Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks; Webster definition: “an automatic device that performs functions normally ascribed to humans or a machine in the form of a human.”
     - ELEC 1100 / what is a robot? / features ::@:: - artificially created and programmable <br/>  - can sense its environment and manipulate or interact with things in it <br/>  - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence <br/>  - moves without direct human interaction <br/>  - discussion questions: are animals robots? is a motorcycle a robot? 
     - ELEC 1100 / what is a robot? / examples ::@:: - First real robot Unimate deployed in 1961 at a GM car plant, developed by Joseph F. Engelberger and George C. Devol<br/>  - Modern robots: Boston Dynamics dancing robots; Roomba vacuum cleaner; Aqua 2 underwater robot from McGill University; DJI Air 2S drone
+
 ---
+
 During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@}; {@{next week the tutorials}@} start on 2026-02-09, 2026-02-12, and 2026-02-13 and {@{the first lab sessions}@} begin on 2026-02-13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.
 
 ```
@@ -110,7 +112,10 @@ The script prints JSON lines with suggested `title` and `url`. Pick the top cand
 Suppose week 1 lecture 2 of ELEC 1100 covers basic electronic components in
 significant detail.  The topic “electronic component” is general enough to
 have its own encyclopaedic page, so we create a separate note rather than
-loading the lecture entry with too much background.
+loading the lecture entry with too much background.  **Do not copy the
+lecture summary or next‑lecture bullet points into the topic‑specific note;**
+these belong in the weekly outline only and typically are omitted unless the
+next lecture contains a major graded event (e.g. an exam or demo).
 
 1. Search the course folder for `electronic component`; nothing exists.
 2. Run the helper script to verify the Wikipedia title is **Electronic component**:
