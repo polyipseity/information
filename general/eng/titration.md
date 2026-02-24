@@ -70,7 +70,7 @@ The _equivalence point_ is {@{the theoretical completion of titration}@}. The _e
 
 ### back titration
 
-In {@{back titration}@}, {@{a known excess reagent}@} is {@{added to the [solution](solution%20(chemistry).md)}@}, and {@{the excess is titrated instead of the original solution}@}. <!--SR:!2030-05-13,1640,270!2026-03-01,87,358!2026-03-01,87,358!2026-02-28,86,358-->
+In {@{back titration}@}, {@{a known excess reagent}@} is {@{added to the [solution](solution%20(chemistry).md)}@}, and {@{the excess is titrated instead of the original solution}@}. <!--SR:!2030-05-13,1640,270!2026-03-01,87,358!2026-03-01,87,358!2027-04-27,423,378-->
 
 ## references
 

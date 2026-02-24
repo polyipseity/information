@@ -54,7 +54,7 @@ In {@{1980, [Saharon Shelah](Saharon%20Shelah.md)}@} proved that {@{it is not po
 
 ## see also
 
-- [Banach–Tarski paradox](Banach–Tarski%20paradox.md) ::@:: – Geometric theorem <!--SR:!2026-02-28,351,349!2030-01-23,1473,369-->
+- [Banach–Tarski paradox](Banach–Tarski%20paradox.md) ::@:: – Geometric theorem <!--SR:!2029-07-07,1225,349!2030-01-23,1473,369-->
 - [Carathéodory's criterion](Carathéodory's%20criterion.md) ::@:: – necessary and sufficient condition for a measurable set <!--SR:!2027-04-30,654,329!2028-05-26,979,349-->
 - [Non-measurable set](non-measurable%20set.md) ::@:: – Set which cannot be assigned a meaningful "volume" <!--SR:!2028-11-29,1130,350!2029-03-19,1215,350-->
 - [Outer measure](outer%20measure.md) ::@:: – Mathematical function <!--SR:!2030-08-29,1652,369!2030-02-11,1492,369-->

@@ -56,7 +56,7 @@ tags:
 >   - AX<sub>2</sub>E<sub>3</sub> / example(s) ::@:: [XeF<sub>2</sub>](xenon%20difluoride.md) <!--SR:!2026-03-21,46,305!2026-03-19,32,245-->
 > - AX<sub>3</sub>E<sub>0</sub>
 >   - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2026-04-24,75,325!2026-03-22,47,305-->
->   - AX<sub>3</sub>E<sub>0</sub> / ideal bond angle(s) :@: 120° <!--SR:!2026-02-28,26,285-->
+>   - AX<sub>3</sub>E<sub>0</sub> / ideal bond angle(s) :@: 120° <!--SR:!2026-06-08,100,305-->
 >   - AX<sub>3</sub>E<sub>0</sub> / example(s) ::@:: [BF<sub>3</sub>](boron%20trifluoride.md) <!--SR:!2026-05-02,82,341!2026-03-22,47,305-->
 > - AX<sub>3</sub>E<sub>1</sub>
 >   - AX<sub>3</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal pyramidal](trigonal%20pyramidal%20molecular%20geometry.md)<br/>![trigonal pyramidal](../../archives/Wikimedia%20Commons/AX3E1-3D-balls.png) <!--SR:!2026-04-19,71,325!2026-03-21,46,305-->

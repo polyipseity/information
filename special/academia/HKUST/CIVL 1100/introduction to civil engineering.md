@@ -361,7 +361,7 @@ transportation
 - environmental→::@::←geo-technical <!--SR:!2031-01-15,1874,347!2026-12-16,708,345-->
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2032-02-26,2204,360-->
-- material→::@::←structural <!--SR:!2026-02-28,386,297!2026-04-05,434,260-->
+- material→::@::←structural <!--SR:!2030-07-13,1596,317!2026-04-05,434,260-->
 - structural→::@::←transportation <!--SR:!2027-03-02,800,360!2026-11-27,724,347-->
 - transportation→::@::←_(end)_ <!--SR:!2027-07-23,926,370!2027-12-24,1056,401-->
 
@@ -539,7 +539,7 @@ wood
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←brick <!--SR:!2028-04-23,1138,377!2026-12-30,786,332-->
-- brick→::@::←concrete <!--SR:!2027-04-26,782,325!2026-02-28,548,397-->
+- brick→::@::←concrete <!--SR:!2027-04-26,782,325!2034-04-18,2971,417-->
 - concrete→::@::←new synthetic materials <!--SR:!2030-04-09,1595,321!2026-06-11,551,341-->
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2030-06-24,1750,360-->
 - steel→::@::←stone <!--SR:!2027-01-10,646,320!2026-12-18,745,360-->

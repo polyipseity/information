@@ -8,7 +8,7 @@ tags:
 
 # Java
 
-Java is {@{a programming language created in 1995 by Sun Microsystems}@}. It was designed with two focuses: {@{portability, so that you can write one run anywhere; and object-oriented, implemented by making almost everything objects}@}. <!--SR:!2026-02-28,522,330!2027-02-16,835,330-->
+Java is {@{a programming language created in 1995 by Sun Microsystems}@}. It was designed with two focuses: {@{portability, so that you can write one run anywhere; and object-oriented, implemented by making almost everything objects}@}. <!--SR:!2032-08-30,2375,350!2027-02-16,835,330-->
 
 ## development
 

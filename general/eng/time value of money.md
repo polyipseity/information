@@ -62,7 +62,7 @@ The following formula use these common variables:
 
 - _PV_ ::@:: is the value at time zero \(present value\) <!--SR:!2028-12-16,1070,350!2029-02-21,1136,350-->
 - _FV_ ::@:: is the value at time _n_ \(future value\) <!--SR:!2029-05-10,1200,350!2029-02-02,1118,350-->
-- _A_ ::@:: is the value of the individual payments in each compounding period <!--SR:!2026-02-28,288,330!2029-01-10,1095,350-->
+- _A_ ::@:: is the value of the individual payments in each compounding period <!--SR:!2029-10-07,1317,350!2029-01-10,1095,350-->
 - _n_ ::@:: is the number of periods \(not necessarily an integer\) <!--SR:!2026-03-06,294,330!2029-03-19,1157,350-->
 - _i_ ::@:: is the [interest rate](interest%20rate.md) at which the amount compounds each period <!--SR:!2029-02-22,1137,350!2029-08-30,1286,350-->
 - _g_ ::@:: is the growing rate of payments over each time period <!--SR:!2029-02-22,1138,350!2026-03-01,289,330-->
@@ -107,7 +107,7 @@ This is {@{the well known [Gordon growth model](Gordon%20model.md) used for [sto
 
 ### future value of an annuity
 
-{@{The future value \(after _n_ periods\) of an annuity \(FVA\)}@} formula has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$FV(A)\,=\,A\cdot {\frac {\left(1+i\right)^{n}-1}{i} }$$}@} <!--SR:!2029-09-03,1288,350!2026-02-28,288,330!2026-03-03,291,330!2029-01-04,1089,350-->
+{@{The future value \(after _n_ periods\) of an annuity \(FVA\)}@} formula has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$FV(A)\,=\,A\cdot {\frac {\left(1+i\right)^{n}-1}{i} }$$}@} <!--SR:!2029-09-03,1288,350!2029-10-06,1316,350!2026-03-03,291,330!2029-01-04,1089,350-->
 
 To {@{get the FV of an annuity due}@}, {@{multiply the above equation by \(1 + _i_\)}@}. <!--SR:!2029-02-04,1120,350!2029-08-14,1272,350-->
 
@@ -179,7 +179,7 @@ Rates are sometimes {@{converted into the [continuous compound interest](continu
 
 ### examples
 
-{@{Using continuous compounding}@} yields {@{the following formulas for various instruments}@}: (annotation: replace {@{$i$ and $g$ for discrete compounding with respectively $e^r - 1$ and $e^g - 1$}@}) <!--SR:!2026-02-28,288,330!2029-02-10,1126,350!2029-04-01,1169,350-->
+{@{Using continuous compounding}@} yields {@{the following formulas for various instruments}@}: (annotation: replace {@{$i$ and $g$ for discrete compounding with respectively $e^r - 1$ and $e^g - 1$}@}) <!--SR:!2029-10-07,1317,350!2029-02-10,1126,350!2029-04-01,1169,350-->
 
 __Annuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A(1-e^{-rt}) \over e^{r}-1}$$ <!--SR:!2027-01-25,459,270!2026-07-04,280,250-->
 
@@ -205,7 +205,7 @@ Formally, {@{the statement that "value decreases over time"}@} is given by {@{de
 
 {@{The Green's function for the value at time _t_ of a £1 cash flow at time _u_}@} is {@{$$b(t;u):=H(u-t)\cdot \exp \left(-\int _{t}^{u}r(v)\,dv\right)$$}@} where {@{_H_ is the [Heaviside step function](Heaviside%20step%20function.md)}@}. {@{The notation "$;u$"}@} is to {@{emphasize that _u_ is a _parameter_ \(fixed in any instance—the time when the cash flow will occur\)}@}, while {@{_t_ is a _variable_ \(time\)}@}. In other words, {@{future cash flows}@} are {@{exponentially discounted \(exp\) by the sum \(integral, $\textstyle {\int }$\) of the future discount rates \($\textstyle {\int _{t}^{u} }$ for future, _r_\(_v_\) for discount rates\)}@}, while {@{past cash flows are worth 0 \($H(u-t)=1{\text{ if } }t<u,0{\text{ if } }t>u$\), because they have already occurred}@}. Note that {@{the value _at_ the moment of a cash flow is not well-defined}@}—there is {@{a discontinuity at that point}@}, and one can {@{use a convention \(assume cash flows have already occurred, or not already occurred\), or simply not define the value at that point}@}. <!--SR:!2029-02-06,1122,350!2029-02-13,1088,310!2029-07-23,1254,350!2026-03-05,293,330!2029-05-08,1198,350!2029-05-01,1193,350!2029-02-16,1132,350!2028-04-29,833,330!2029-06-06,1215,350!2027-12-23,791,330!2027-10-18,742,330!2027-12-13,781,330-->
 
-In case {@{the discount rate is constant, $r(v)\equiv r$}@}, this simplifies to {@{$$b(t;u)=H(u-t)\cdot e^{-(u-t)r}={\begin{cases}e^{-(u-t)r}&t<u\\0&t>u,\end{cases} }$$}@} where {@{$(u-t)$ is "time remaining until cash flow"}@}. <!--SR:!2026-02-28,288,330!2026-05-28,332,290!2027-07-19,669,330-->
+In case {@{the discount rate is constant, $r(v)\equiv r$}@}, this simplifies to {@{$$b(t;u)=H(u-t)\cdot e^{-(u-t)r}={\begin{cases}e^{-(u-t)r}&t<u\\0&t>u,\end{cases} }$$}@} where {@{$(u-t)$ is "time remaining until cash flow"}@}. <!--SR:!2029-10-06,1316,350!2026-05-28,332,290!2027-07-19,669,330-->
 
 Thus for {@{a stream of cash flows _f_\(_u_\) ending by time _T_ \(which can be set to $T=+\infty$ for no time horizon\)}@} {@{the value at time _t_, $V(t;T)$}@} is given by {@{combining the values of these individual cash flows}@}: {@{$$V(t;T)=\int _{t}^{T}f(u)b(t;u)\,du.$$}@} This formalizes {@{time value of money to future values of cash flows with varying discount rates}@}, and is {@{the basis of many formulas in financial mathematics}@}, such as {@{the [Black–Scholes formula](Black–Scholes%20formula.md#Black–Scholes%20formula) with [varying interest rates](Black–Scholes.md#interest%20rate%20curve)}@}. <!--SR:!2027-03-26,534,310!2027-05-01,561,310!2029-05-06,1196,350!2027-12-06,649,270!2028-11-19,1064,350!2026-03-05,293,330!2029-06-06,1215,350-->
 

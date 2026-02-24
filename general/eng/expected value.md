@@ -75,7 +75,7 @@ Consider {@{a random variable _X_ with a _finite_ list _x_<sub>1</sub>, ..., _x_
 
 Since {@{the probabilities must satisfy _p_<sub>1</sub> + ⋅⋅⋅ + _p_<sub>_k_</sub> = 1}@}, it is natural to {@{interpret E\[_X_\] as a [weighted average](weighted%20arithmetic%20mean.md) of the _x_<sub>_i_</sub> values}@}, with {@{weights given by their probabilities _p_<sub>_i_</sub>}@}. <!--SR:!2029-06-18,1252,350!2029-08-21,1316,350!2026-03-09,340,347-->
 
-In the special case that {@{all possible outcomes are [equiprobable](equiprobability.md) \(that is, _p_<sub>1</sub> = ⋅⋅⋅ = _p_<sub>_k_</sub>\)}@}, the weighted average is given by {@{the standard [average](arithmetic%20mean.md)}@}. In the general case, the expected value takes into account the fact that {@{some outcomes are more likely than others}@}. <!--SR:!2026-02-28,331,347!2029-08-11,1306,350!2029-09-11,1337,350-->
+In the special case that {@{all possible outcomes are [equiprobable](equiprobability.md) \(that is, _p_<sub>1</sub> = ⋅⋅⋅ = _p_<sub>_k_</sub>\)}@}, the weighted average is given by {@{the standard [average](arithmetic%20mean.md)}@}. In the general case, the expected value takes into account the fact that {@{some outcomes are more likely than others}@}. <!--SR:!2030-06-26,1579,367!2029-08-11,1306,350!2029-09-11,1337,350-->
 
 #### examples
 

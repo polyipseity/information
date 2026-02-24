@@ -109,7 +109,7 @@ __Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same cat
 
 __Identity functor__ <p> ::@:: &emsp; In category _C_, written 1<sub>_C_</sub> or id<sub>_C_</sub>, maps an object to itself and a morphism to itself. The identity functor is an endofunctor. <!--SR:!2029-09-28,1344,350!2026-04-11,362,357-->
 
-__Diagonal functor__ <p> ::@:: &emsp; The [diagonal functor](diagonal%20functor.md) is defined as the functor from _D_ to the functor category _D_<sup>_C_</sup> which sends each object in _D_ to the constant functor at that object. <!--SR:!2026-02-28,326,346!2026-04-07,358,357-->
+__Diagonal functor__ <p> ::@:: &emsp; The [diagonal functor](diagonal%20functor.md) is defined as the functor from _D_ to the functor category _D_<sup>_C_</sup> which sends each object in _D_ to the constant functor at that object. <!--SR:!2030-05-28,1550,366!2026-04-07,358,357-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Limit functor__
@@ -181,7 +181,7 @@ __Representable functors__
 
 Let {@{_C_ and _D_ be categories}@}. {@{The collection of all functors from _C_ to _D_}@} forms {@{the objects of a category: the [functor category](functor%20category.md)}@}. {@{Morphisms in this category}@} are {@{[natural transformations](natural%20transformation.md) between functors}@}. <!--SR:!2030-03-03,1481,366!2026-03-18,343,357!2030-04-13,1513,366!2029-09-18,1334,350!2026-04-08,359,357-->
 
-Functors are often {@{defined by [universal properties](universal%20property.md)}@}; examples are {@{the [tensor product](tensor%20product.md), the [direct sum](direct%20sum%20of%20modules.md) and [direct product](direct%20product.md) of groups or vector spaces}@}, {@{construction of free groups and modules, [direct](direct%20limit.md) and [inverse](inverse%20limit.md) limits}@}. {@{The concepts of [limit and colimit](limit%20(category%20theory).md)}@} {@{generalize several of the above}@}. <!--SR:!2026-03-31,353,357!2027-11-12,784,337!2026-07-28,419,317!2026-03-18,342,357!2026-02-28,325,346-->
+Functors are often {@{defined by [universal properties](universal%20property.md)}@}; examples are {@{the [tensor product](tensor%20product.md), the [direct sum](direct%20sum%20of%20modules.md) and [direct product](direct%20product.md) of groups or vector spaces}@}, {@{construction of free groups and modules, [direct](direct%20limit.md) and [inverse](inverse%20limit.md) limits}@}. {@{The concepts of [limit and colimit](limit%20(category%20theory).md)}@} {@{generalize several of the above}@}. <!--SR:!2026-03-31,353,357!2027-11-12,784,337!2026-07-28,419,317!2026-03-18,342,357!2030-05-27,1549,366-->
 
 {@{Universal constructions}@} often {@{give rise to pairs of [adjoint functors](adjoint%20functors.md)}@}. <!--SR:!2026-04-01,354,357!2026-03-26,349,357-->
 

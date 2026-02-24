@@ -198,7 +198,7 @@ There are {@{4 key components}@}: (annotation: 4 items: {@{abstraction, refined 
 
 It may be used when {@{both an abstraction and its implementation need independent extension}@}. It {@{avoids a combinatorial explosion of subclasses}@} (e.g., {@{every UI widget on every OS}@}). It may also be used when the abstraction should be {@{able to change at run time by swapping implementations}@}. <!--SR:!2026-04-03,83,341!2026-04-01,81,341!2026-03-21,70,341!2026-03-25,74,341-->
 
-{@{The bridge pattern}@} is a classic example of {@{_composition over inheritance_}@}: the abstraction {@{_contains_ an implementor}@} rather than {@{_being_ one}@}. This design keeps systems {@{modular, testable}@}, and easier to {@{maintain as requirements evolve}@}. <!--SR:!2026-03-21,70,341!2026-03-28,77,341!2026-03-30,79,341!2026-03-29,78,341!2026-02-28,49,321!2026-05-04,95,378-->
+{@{The bridge pattern}@} is a classic example of {@{_composition over inheritance_}@}: the abstraction {@{_contains_ an implementor}@} rather than {@{_being_ one}@}. This design keeps systems {@{modular, testable}@}, and easier to {@{maintain as requirements evolve}@}. <!--SR:!2026-03-21,70,341!2026-03-28,77,341!2026-03-30,79,341!2026-03-29,78,341!2026-10-08,222,341!2026-05-04,95,378-->
 
 ## singleton pattern
 

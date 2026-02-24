@@ -30,6 +30,6 @@ tags:
 2. cyclomatic complexity / interpretation ::@:: The value reflects the logical richness of the procedure; _internally_, higher values mean more _testing effort_ or less _maintainability_; _externally_, higher values means less _safety_ \(how likely it is to be error free\). <!--SR:!2026-03-08,63,310!2026-03-05,60,310-->
 3. [integration testing](../../../../../general/integration%20testing.md) ::@:: It is a form of software testing in which multiple software components, modules, or services are tested together to verify they work as expected when combined. <!--SR:!2026-10-20,235,330!2026-03-07,62,310-->
 4. system testing vs. acceptance testing
-    - system testing / nature ::@:: black-box, run by independent test group <!--SR:!2026-03-09,64,310!2026-02-28,55,310-->
+    - system testing / nature ::@:: black-box, run by independent test group <!--SR:!2026-03-09,64,310!2026-10-22,236,330-->
     - acceptance testing / nature ::@:: black-box, run by client or user <!--SR:!2026-03-06,61,310!2026-03-10,65,310-->
 5. behavioral testing ::@:: It tests the system from the outside, making it a form of _black-box testing_. <!--SR:!2026-03-01,56,310!2026-03-03,58,310-->

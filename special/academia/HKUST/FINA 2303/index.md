@@ -70,12 +70,12 @@ The content is in teaching order.
 - datetime: 2025-02-05T16:30:00+08:00/2025-02-05T17:50:00+08:00, PT1H20M
 - topic: introduction
 - logistics
-- [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. <!--SR:!2026-02-28,283,330!2029-05-31,1215,350-->
+- [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. <!--SR:!2029-09-08,1288,350!2029-05-31,1215,350-->
   - finance / reasons for studying ::@:: For making decisions that apply to all levels and scales: Choose what supplies? How to raise money? Launch a new product? Produce or outsource production? <!--SR:!2028-03-15,845,330!2027-09-16,715,330-->
 - thinking aloud paired problem solving \(TAPPS\) ::@:: The _explainer_ explains to the _listener_. The former talks two thirds of the time. The latter seeks clarifications and shares own ideas. <!--SR:!2027-07-16,673,330!2027-06-09,642,330-->
   - thinking aloud paired problem solving \(TAPPS\) / submission ::@:: Submit either hard copy or on Canvas (after class). Submit one copy per group. Write down your answer. Put down names and student IDs of contributing members (2 to 3 members). <!--SR:!2027-08-01,687,330!2029-06-17,1230,350-->
 - [finance](../../../../general/finance.md)
-  - finance / [corporate finance](../../../../general/corporate%20finance.md) ::@:: acquisition (not covered), capital budgeting, financing (e.g. bonds, stocks), working capital management <!--SR:!2026-09-12,426,310!2026-02-28,283,330-->
+  - finance / [corporate finance](../../../../general/corporate%20finance.md) ::@:: acquisition (not covered), capital budgeting, financing (e.g. bonds, stocks), working capital management <!--SR:!2026-09-12,426,310!2029-09-15,1295,350-->
   - finance / study & aim ::@:: The study of how people allocate scarce resources over time, with the aim of making optimal financial decisions, e.g. maximizing company value, maximizing satisfaction of people’s consumption preferences, etc. <!--SR:!2029-06-03,1218,350!2027-06-20,652,330-->
   - finance / theory ::@:: It consists of concepts on how to allocate resources over time, and quantitative models used to help evaluate alternatives, decisions, and implementations of them. <!--SR:!2029-06-14,1229,350!2027-07-10,668,330-->
   - finance / principles ::@:: arbitrage and the law of one price, price of risk, valuation principles <!--SR:!2026-03-07,290,330!2026-03-11,294,330-->

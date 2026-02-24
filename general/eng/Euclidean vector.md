@@ -121,7 +121,7 @@ In {@{introductory physics textbooks}@}, {@{the standard basis vectors}@} are of
 
 - Further information: ::@:: [Basis \(linear algebra\)](basis%20(linear%20algebra).md) <!--SR:!2026-03-07,292,332!2026-03-19,299,332-->
 
-As {@{explained [above](#representations)}@}, a vector is often {@{described by a set of vector components that [add up](#addition%20and%20subtraction) to form the given vector}@}. Typically, these components are {@{the [projections](vector%20projection.md) of the vector on a set of mutually perpendicular reference axes \(basis vectors\)}@}. The vector is said to be {@{_decomposed_ or _resolved with respect to_ that set}@}. <!--SR:!2026-06-18,389,359!2029-03-31,1172,352!2026-02-28,280,339!2026-03-15,300,332-->
+As {@{explained [above](#representations)}@}, a vector is often {@{described by a set of vector components that [add up](#addition%20and%20subtraction) to form the given vector}@}. Typically, these components are {@{the [projections](vector%20projection.md) of the vector on a set of mutually perpendicular reference axes \(basis vectors\)}@}. The vector is said to be {@{_decomposed_ or _resolved with respect to_ that set}@}. <!--SR:!2026-06-18,389,359!2029-03-31,1172,352!2029-10-03,1313,359!2026-03-15,300,332-->
 
 > {@{![Illustration of tangential and normal components of a vector to a surface.](../../archives/Wikimedia%20Commons/Surface%20normal%20tangent.svg)}@}
 >
