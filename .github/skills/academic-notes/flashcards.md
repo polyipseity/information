@@ -4,6 +4,16 @@
 
 `- programming paradigm ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program.`
 
+- **Two-sided lists:** Some sections may instead use explicit question/answer pairs (a two-sided flashcard format) rather than cloze deletions. When doing so, precede the list with a horizontal rule (`---`) and the exact sentence:
+
+  ```text
+  Flashcards for this section are as follows:
+  ```
+
+  The separator helps readers and tooling distinguish the QA list; place a
+  blank line between the `---` rule and the phrase for readability.  Each
+  item after the phrase should use `question ::@:: answer` or `question :@:`
+  syntax as usual.
 - Flashcard activation tag pattern: `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` where `<INSTITUTION>` is the canonical short name for the university (e.g., `HKUST`, `MIT`) and `<PAGE>` is the page identifier using underscores for spaces (e.g., `COMP_3031`).
 
 - Prefer to attach cloze-style hints or one-line glosses only when the item is concise (single sentence or phrase). Long derivations or full proofs should not be auto-flashcarded.

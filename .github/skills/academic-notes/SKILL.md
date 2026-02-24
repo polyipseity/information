@@ -132,7 +132,13 @@ steps:
    - Preserve rhetorical questions and boundary-case prompts ("are animals robots?", "is a motorcycle a robot?") as separate bullets; they surface important distinctions and make excellent flashcard candidates.
    - This detailed, content‑first approach applies **uniformly** to all course materials – lectures, tutorials, labs, exams, and review sessions.  Do not treat later weeks more tersely just because they are routine; maintain the same level of bullet‑by‑bullet fidelity throughout the semester.
 6. Insert `::@::` glosses for flashcard-worthy facts; follow `flashcards.md`
-   for best practices.
+   for best practices.  The linked document also describes an alternate
+   two-sided Q/A style used in some course topic notes: when a section
+   contains a list of question/answer pairs, precede it with a horizontal
+   rule (`---`), insert a blank line, and then add the exact sentence
+   “Flashcards for this section are as follows:” so that tooling and readers
+   can recognise the start of the QA list.  (The flashcard-creation skill has its own guidance and
+   examples for performing the rewrite.)
    - **Formatting rules:** always prefix a gloss with a hierarchical path
      using `parent / … / child` before `::@::`.  The path text must include **all
      ancestors** beginning with the course name (e.g. `ELEC 1100 / teaching

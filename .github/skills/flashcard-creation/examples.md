@@ -53,6 +53,7 @@ user and the revised text with `{@{ }@}`/`::@::`/`:@:` markup inserted.
 | 37  | cloze both proposition and details                                              | proposition-cloze, leading-phrase, details-visible, formatting                  |
 | 38  | complex inattention model paragraph with articles and numeric params            | long-paragraph, numbers, articles-included, multi-cloze                         |
 | 39  | full-sentence framing definition including small words                          | full-sentence, article-included, framing-definition                             |
+| 40  | two-sided question/answer list preceded by separator                            | QA-list, two-sided, separator                                                   |
 
 ## Example 1 – System prompt dense math paragraph
 
@@ -750,6 +751,30 @@ Humans judge outcomes by comparing alternatives; a change in how options are pre
 
 ```text
 {@{Humans judge outcomes by comparing alternatives}@}; {@{a change in how options are presented—_framing_}@}—can {@{alter choices}@}.
+```
+
+## Example 40 – two-sided QA list with separator
+
+**Input:**
+
+```text
+The following concepts are worth memorising:
+
+- A: B
+- C: D
+```
+
+**Output:**
+
+```text
+The following concepts are worth memorising:
+
+---
+
+Flashcards for this section are as follows:
+
+- A ::@:: B
+- C ::@:: D
 ```
 
 ---
