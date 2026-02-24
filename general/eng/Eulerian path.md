@@ -159,7 +159,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{Ford and Fulkerson proved in 1962}@} in {@{their book _Flows in Networks_}@} {@{a necessary and sufficient condition for a graph to be Eulerian}@}, viz., that {@{every vertex must be even and satisfy the balance condition}@}, i.e. for {@{every subset of vertices S}@}, {@{the difference between the number of arcs leaving S and entering S must be less than or equal to the number of (non-arc) edges incident with S}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-07-18,444,322!2026-03-06,370,362!2026-04-01,392,362!2028-07-23,1036,350!2029-09-01,1359,352!2026-08-05,460,322-->
 
-{@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}. <!--SR:!2026-03-01,366,362!2026-04-04,394,362!2026-03-30,389,362-->
+{@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}. <!--SR:!2031-02-22,1819,382!2026-04-04,394,362!2026-03-30,389,362-->
 
 > {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >

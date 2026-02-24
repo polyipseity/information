@@ -11,7 +11,7 @@ tags:
 
 # nimber
 
-- Not to be confused with {@{[Number](number.md)}@}. <!--SR:!2026-03-01,339,345-->
+- Not to be confused with {@{[Number](number.md)}@}. <!--SR:!2030-07-25,1607,365-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | hide__This article has multiple issues.__ Please help __[improve it](https://en.wikipedia.org/wiki/Special:EditPage/Nimber)__ or discuss these issues on the __[talk page](https://en.wikipedia.org/wiki/Talk:Nimber)__. _\([Learn how and when to remove these messages](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_| This article's __[lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section) contains information that is not included elsewhere in the article__. _\(January 2019\)_ | <p>  <br/> | This article's [lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section#Length) __may be too short to adequately [summarize](https://en.wikipedia.org/wiki/Wikipedia:Summary%20style) the key points__. _\(January 2019\)_ | | -->
 
@@ -27,7 +27,7 @@ Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} w
 
 - Main article: [Nim](Nim.md)
 
-Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves}@} depend {@{only on the position and not on which of the two players is currently moving}@}, and where {@{the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player must {@{remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-11-04,1099,350!2027-12-15,779,330!2029-05-25,1256,350!2028-09-09,1054,350!2026-03-25,360,353!2029-05-03,1240,350!2027-04-29,638,325!2027-04-26,615,290!2026-03-01,339,345!2026-03-24,118,389!2026-03-23,117,389!2026-06-05,127,396-->
+Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves}@} depend {@{only on the position and not on which of the two players is currently moving}@}, and where {@{the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player must {@{remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-11-04,1099,350!2027-12-15,779,330!2029-05-25,1256,350!2028-09-09,1054,350!2026-03-25,360,353!2029-05-03,1240,350!2027-04-29,638,325!2027-04-26,615,290!2030-07-26,1608,365!2026-03-24,118,389!2026-03-23,117,389!2026-06-05,127,396-->
 
 ### Cram
 
@@ -57,7 +57,7 @@ For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}
 
 ## multiplication
 
-{@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2026-03-01,339,345!2027-12-10,780,290-->
+{@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2030-07-29,1611,365!2027-12-10,780,290-->
 
 Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2030-05-03,1541,365!2028-12-15,1131,350-->
 
@@ -68,9 +68,9 @@ Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20t
 
 For {@{all natural numbers _n_}@}, {@{the set of nimbers less than 2<sup>2<sup>_n_</sup></sup>}@} form {@{the [Galois field](finite%20field.md) GF\(2<sup>2<sup>_n_</sup></sup>\) of order 2<sup>2<sup>_n_</sup></sup>}@}. (TODO: What is this abstract nonsense?) Therefore, {@{the set of finite nimbers}@} is {@{isomorphic to the [direct limit](direct%20limit.md) as _n_ → ∞ of the fields GF\(2<sup>2<sup>_n_</sup></sup>\)}@}. This subfield is {@{not algebraically closed}@}, since {@{no field GF\(2<sup>_k_</sup>\) with _k_ not a power of 2 is contained in any of those fields, and therefore not in their direct limit}@}; for instance {@{the polynomial _x_<sup>3</sup> + _x_ + 1}@}, which {@{has a root in GF\(2<sup>3</sup>\)}@}, {@{does not have a root in the set of finite nimbers}@}. <!--SR:!2027-05-11,649,325!2029-01-19,1159,350!2030-06-03,1566,365!2029-04-05,1217,350!2028-01-01,792,333!2028-12-23,1138,350!2027-01-14,515,313!2029-07-22,1295,350!2026-05-10,367,305!2026-03-02,339,345-->
 
-Just as {@{in the case of nimber addition}@}, there is {@{a means of computing the nimber product of finite ordinals}@}. This is determined by the rules that <!--SR:!2026-03-01,339,345!2029-07-07,1280,350-->
+Just as {@{in the case of nimber addition}@}, there is {@{a means of computing the nimber product of finite ordinals}@}. This is determined by the rules that <!--SR:!2030-07-27,1609,365!2029-07-07,1280,350-->
 
-1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2027-05-12,648,325!2026-03-01,338,345-->
+1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2027-05-12,648,325!2030-07-22,1604,365-->
 2. The nimber square of a Fermat 2-power _x_ \(annotation: numbers of the form 2<sup>2<sup>_n_</sup></sup>\) ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2027-07-10,605,265!2027-01-15,516,313-->
 
 {@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2030-05-16,1551,365!2027-10-14,770,330!2027-11-02,743,290-->

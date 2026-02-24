@@ -13,7 +13,7 @@ tags:
 
 # mesh analysis
 
-- {@{"Loop current"}@} redirects here. For {@{the ocean current in the Gulf of Mexico}@}, see {@{[Loop Current](Loop%20Current.md)}@}. For {@{the electrical signalling scheme}@}, see {@{[current loop](current%20loop.md)}@}. <!--SR:!2026-03-01,269,330!2026-03-09,276,330!2026-04-15,309,348!2026-04-11,305,348!2026-04-29,317,348-->
+- {@{"Loop current"}@} redirects here. For {@{the ocean current in the Gulf of Mexico}@}, see {@{[Loop Current](Loop%20Current.md)}@}. For {@{the electrical signalling scheme}@}, see {@{[current loop](current%20loop.md)}@}. <!--SR:!2029-07-09,1226,350!2026-03-09,276,330!2026-04-15,309,348!2026-04-11,305,348!2026-04-29,317,348-->
 
 > {@{![Figure 1: Essential meshes of the planar circuit labeled 1, 2, and 3.](../../archives/Wikimedia%20Commons/Mesh%20Analysis%20Example1%20TeX.svg)}@}
 >

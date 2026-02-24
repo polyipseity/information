@@ -97,7 +97,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 \(annotation: image\) ::@:: ![delta-star transformation](../../archives/Wikimedia%20Commons/Delta-Star%20Transformation.svg) <!--SR:!2026-07-17,385,360!2026-07-08,378,366-->
 
-{@{A network of impedances with more than two terminals}@} {@{cannot be reduced to a single impedance equivalent circuit}@}. {@{An _n_-terminal network}@} can, {@{at best, be reduced to _n_ impedances \(at worst [$${\tbinom {n}{2} }$$](binomial%20coefficient.md)\)}@}. For {@{a three terminal network}@}, the three impedances can be expressed as {@{a three node delta \(Δ\) network or four node star \(Y\) network}@}. These two networks are {@{equivalent and the transformations between them are given below}@}. {@{A general network with an arbitrary number of nodes}@} cannot be {@{reduced to the minimum number of impedances using only series and parallel combinations}@}. In general, {@{Y-Δ and Δ-Y transformations must also be used}@}. For some networks {@{the extension of Y-Δ to [star-polygon](#general%20form%20of%20network%20node%20elimination) transformations may also be required}@}. <!--SR:!2026-04-26,317,349!2029-06-26,1215,350!2026-03-09,276,330!2026-03-29,290,330!2029-03-31,1149,350!2026-04-25,316,349!2029-03-16,1136,350!2026-06-08,351,349!2026-07-28,394,360!2026-04-27,318,349!2026-03-01,269,330-->
+{@{A network of impedances with more than two terminals}@} {@{cannot be reduced to a single impedance equivalent circuit}@}. {@{An _n_-terminal network}@} can, {@{at best, be reduced to _n_ impedances \(at worst [$${\tbinom {n}{2} }$$](binomial%20coefficient.md)\)}@}. For {@{a three terminal network}@}, the three impedances can be expressed as {@{a three node delta \(Δ\) network or four node star \(Y\) network}@}. These two networks are {@{equivalent and the transformations between them are given below}@}. {@{A general network with an arbitrary number of nodes}@} cannot be {@{reduced to the minimum number of impedances using only series and parallel combinations}@}. In general, {@{Y-Δ and Δ-Y transformations must also be used}@}. For some networks {@{the extension of Y-Δ to [star-polygon](#general%20form%20of%20network%20node%20elimination) transformations may also be required}@}. <!--SR:!2026-04-26,317,349!2029-06-26,1215,350!2026-03-09,276,330!2026-03-29,290,330!2029-03-31,1149,350!2026-04-25,316,349!2029-03-16,1136,350!2026-06-08,351,349!2026-07-28,394,360!2026-04-27,318,349!2029-07-11,1228,350-->
 
 For {@{equivalence}@}, {@{the impedances between any pair of terminals must be the same for both networks}@}, resulting in {@{a set of three simultaneous equations}@}. The equations below are {@{expressed as resistances but apply equally to the general case with impedances}@}. <!--SR:!2029-06-15,1206,350!2029-02-25,1121,350!2029-04-03,1151,350!2026-07-18,386,360-->
 
@@ -247,7 +247,7 @@ Finally, for {@{a network to which only steady dc is applied}@}, {@{s is replace
 
 > __flashcards__
 >
-> - resistor, steady DC ::@:: $Z = R$ <!--SR:!2026-03-01,269,330!2026-05-04,322,349-->
+> - resistor, steady DC ::@:: $Z = R$ <!--SR:!2029-07-10,1227,350!2026-05-04,322,349-->
 > - inductor, steady DC ::@:: $Z = 0$ <!--SR:!2026-03-28,289,330!2026-05-11,328,349-->
 > - capacitor, steady DC ::@:: $Z = \infty$ <!--SR:!2029-01-21,1091,350!2028-08-03,959,349-->
 

@@ -58,7 +58,7 @@ return await memorize_seq(
 - [organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md)→::@::←heating of [diprogulic acid](diprogulic%20acid.md) with [water](water.md) to 2-keto-ʟ-gulonic acid <!--SR:!2026-09-28,377,252!2026-09-26,376,252-->
 - heating of [diprogulic acid](diprogulic%20acid.md) with [water](water.md) to 2-keto-ʟ-gulonic acid→::@::←ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md) <!--SR:!2026-08-01,209,210!2026-07-21,174,150-->
 - ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)→::@::←purification of [ʟ-ascorbic acid](vitamin%20C.md) <!--SR:!2033-09-11,2827,330!2026-06-06,182,210-->
-- purification of [ʟ-ascorbic acid](vitamin%20C.md)→::@::←_(end)_ <!--SR:!2027-07-10,1191,350!2026-03-01,418,270-->
+- purification of [ʟ-ascorbic acid](vitamin%20C.md)→::@::←_(end)_ <!--SR:!2027-07-10,1191,350!2030-06-22,1574,290-->
 
 <!--/pytextgen-->
 

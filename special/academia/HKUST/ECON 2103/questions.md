@@ -345,7 +345,7 @@ tags:
 > 3. Mary pays Cathy \$14 so that Mary can smoke.
 > 4. Cathy offers Mary \$15 not to smoke. Mary accepts and does not smoke.
 >
-> - solution: {@{2}@} <!--SR:!2026-03-01,328,374-->
+> - solution: {@{2}@} <!--SR:!2030-10-06,1680,394-->
 
 ### chapter 11 lecture
 

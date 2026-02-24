@@ -225,7 +225,7 @@ For {@{arbitrarily moving point charges}@}, {@{propagation of potential fields}@
 
 There exist {@{yet another set of solutions for Maxwell's equation of the same form}@} but for {@{advanced time ${t_{a} }$ instead of retarded time}@} given as a solution of: {@{$$t_{a}=\mathbf {t} +{\frac {|\mathbf {r} -\mathbf {r} _{s}(t_{a})|}{c} }$$}@} Since {@{the physical interpretation of this}@} indicates that {@{the electric field at a point is governed by the particle's state at a point of time in the future}@}, it is {@{considered as an unphysical solution and hence neglected}@}. However, there have been {@{theories exploring the advanced time solutions of [Maxwell's equations](Maxwell's%20equations.md)}@}, such as {@{[Feynman Wheeler absorber theory](Wheeler–Feynman%20absorber%20theory.md)}@}. <!--SR:!2026-07-02,398,362!2026-07-01,397,362!2027-08-28,688,326!2026-05-10,351,351!2026-05-30,370,362!2026-07-01,397,362!2026-07-19,415,371!2026-06-03,375,362-->
 
-The above equation, although consistent with {@{that of uniformly moving point charges as well as its non-relativistic limit}@}, are {@{not corrected for quantum-mechanical effects}@}. <!--SR:!2026-07-05,401,371!2026-03-01,291,330-->
+The above equation, although consistent with {@{that of uniformly moving point charges as well as its non-relativistic limit}@}, are {@{not corrected for quantum-mechanical effects}@}. <!--SR:!2026-07-05,401,371!2029-10-19,1328,350-->
 
 ## common formulæ
 
