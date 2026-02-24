@@ -20,7 +20,7 @@ tags:
 >
 > - {@{$\alpha_L$}@} is {@{the __coefficient of linear thermal expansion__}@}
 > - {@{$L$}@} is {@{the [length](length.md)}@}
-> - {@{$\frac{\mathrm{d}L}{\mathrm{d}T}$}@} is {@{the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-05-15,904,310!2032-01-18,2196,330!2027-04-08,401,373!2027-04-09,402,373!2027-04-07,400,373!2027-03-23,389,373!2026-03-04,85,353-->
+> - {@{$\frac{\mathrm{d}L}{\mathrm{d}T}$}@} is {@{the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-05-15,904,310!2032-01-18,2196,330!2027-04-08,401,373!2027-04-09,402,373!2027-04-07,400,373!2027-03-23,389,373!2027-04-17,409,373-->
 
 ### area expansion
 
@@ -43,7 +43,7 @@ tags:
 >
 > - {@{$\alpha_V$}@} is {@{the __coefficient of volume thermal expansion__}@}
 > - {@{$V$}@} is {@{the [volume](volume.md)}@}
-> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330!2026-03-05,86,353!2027-02-25,369,373!2027-03-15,382,373!2027-02-19,364,373!2026-03-04,85,353-->
+> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330!2026-03-05,86,353!2027-02-25,369,373!2027-03-15,382,373!2027-02-19,364,373!2027-04-18,410,373-->
 
 #### isotropic materials
 

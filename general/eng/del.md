@@ -20,7 +20,7 @@ tags:
 
 > {@{![Del operator, represented by the [nabla symbol](nabla%20symbol.md)](../../archives/Wikimedia%20Commons/Del.svg)}@}
 >
-> {@{Del operator}@}, represented by {@{the [nabla symbol](nabla%20symbol.md)}@} <!--SR:!2029-02-23,1135,350!2026-03-04,291,330!2029-07-26,1255,350-->
+> {@{Del operator}@}, represented by {@{the [nabla symbol](nabla%20symbol.md)}@} <!--SR:!2029-02-23,1135,350!2029-10-21,1327,350!2029-07-26,1255,350-->
 
 {@{__Del__, or __nabla__}@}, is {@{an [operator](operator%20(mathematics).md) used in mathematics \(particularly in [vector calculus](vector%20calculus.md)\) as a [vector](vector%20(geometry).md) [differential operator](differential%20operator.md)}@}, usually {@{represented by the [nabla symbol](nabla%20symbol.md) __∇__}@}. When {@{applied to a [function](function%20(mathematics).md) defined on a [one-dimensional](dimension%20(mathematics).md#in%20mathematics) domain}@}, it denotes {@{the standard [derivative](derivative.md) of the function as defined in [calculus](calculus.md)}@}. When {@{applied to a _field_ \(a function defined on a multi-dimensional domain\)}@}, it may denote {@{any one of three operations depending on the way it is applied}@}: {@{the [gradient](gradient.md) or \(locally\) steepest slope of a [scalar field](scalar%20field.md)}@} \(or sometimes of {@{a [vector field](vector%20field.md), as in the [Navier–Stokes equations](Navier–Stokes%20equations.md#interpretation%20as%20v%C2%B7(%E2%88%87v))}@}\); {@{the [divergence](divergence.md) of a vector field}@}; or {@{the [curl](curl%20(mathematics).md) \(rotation\) of a vector field}@}. <!--SR:!2029-04-22,1175,350!2029-10-08,1317,350!2029-09-22,1304,350!2029-07-28,1257,350!2029-03-24,1163,350!2029-02-28,1140,350!2028-11-07,1052,350!2029-04-21,1174,350!2029-02-25,1137,350!2029-10-14,1322,350!2028-06-27,946,348-->
 
@@ -48,7 +48,7 @@ then using {@{the above definition of $\nabla$}@}, one may write {@{$$\nabla f=\
 
 __Example:__
 
-(annotation: example) $$f(x,y,z)=x+y+z$$ <p> ::@:: $$\nabla f=\mathbf {e} _{x}{\partial f \over \partial x}+\mathbf {e} _{y}{\partial f \over \partial y}+\mathbf {e} _{z}{\partial f \over \partial z}=\left(1,1,1\right)$$ <!--SR:!2026-03-04,291,330!2029-04-19,1176,350-->
+(annotation: example) $$f(x,y,z)=x+y+z$$ <p> ::@:: $$\nabla f=\mathbf {e} _{x}{\partial f \over \partial x}+\mathbf {e} _{y}{\partial f \over \partial y}+\mathbf {e} _{z}{\partial f \over \partial z}=\left(1,1,1\right)$$ <!--SR:!2029-10-22,1328,350!2029-04-19,1176,350-->
 
 Del can also be {@{expressed in other coordinate systems}@}, see for example {@{[del in cylindrical and spherical coordinates](del%20in%20cylindrical%20and%20spherical%20coordinates.md)}@}. <!--SR:!2029-05-20,1197,350!2029-09-26,1306,350-->
 
@@ -86,13 +86,13 @@ Again {@{the power of the notation}@} is shown by {@{the product rule}@}: {@{$$\
 
 {@{The [directional derivative](directional%20derivative.md) of a scalar field $f(x,y,z)$}@} in {@{the direction $\mathbf {a} (x,y,z)=a_{x}{\hat {\mathbf {x} } }+a_{y}{\hat {\mathbf {y} } }+a_{z}{\hat {\mathbf {z} } }$}@} is defined as: {@{$$(\mathbf {a} \cdot \nabla )f=\lim _{h\to 0}{\frac {f(x+a_{x}h,y+a_{y}h,z+a_{z}h)-f(x,y,z)}{h} }.$$}@} Which is {@{equal to the following when the gradient exists}@} {@{$$\mathbf {a} \cdot \operatorname {grad} f=a_{x}{\partial f \over \partial x}+a_{y}{\partial f \over \partial y}+a_{z}{\partial f \over \partial z}=\mathbf {a} \cdot (\nabla f)$$}@} <!--SR:!2029-04-16,1180,350!2026-03-07,294,330!2029-03-14,1154,350!2029-08-03,1263,350!2029-03-27,1165,350-->
 
-This gives {@{the rate of change of a field $f$ in the direction of $\mathbf {a}$, scaled by the magnitude of $\mathbf {a}$}@}. In operator notation, {@{the element in parentheses}@} can be {@{considered a single coherent unit}@}; {@{[fluid dynamics](fluid%20dynamics.md)}@} uses {@{this convention extensively}@}, terming it {@{the [convective derivative](convective%20derivative.md)—the "moving" derivative of the fluid}@}. <!--SR:!2029-03-23,1162,350!2029-07-06,1235,350!2028-10-24,1042,350!2029-03-03,1143,350!2026-03-04,287,330!2029-10-14,1322,350-->
+This gives {@{the rate of change of a field $f$ in the direction of $\mathbf {a}$, scaled by the magnitude of $\mathbf {a}$}@}. In operator notation, {@{the element in parentheses}@} can be {@{considered a single coherent unit}@}; {@{[fluid dynamics](fluid%20dynamics.md)}@} uses {@{this convention extensively}@}, terming it {@{the [convective derivative](convective%20derivative.md)—the "moving" derivative of the fluid}@}. <!--SR:!2029-03-23,1162,350!2029-07-06,1235,350!2028-10-24,1042,350!2029-03-03,1143,350!2029-10-07,1313,350!2029-10-14,1322,350-->
 
 Note that {@{$(\mathbf {a} \cdot \nabla )$ is an operator that takes scalar to a scalar}@}. It can be {@{extended to operate on a vector}@}, by {@{separately operating on each of its components}@}. <!--SR:!2026-03-06,293,330!2029-04-30,1183,350!2029-03-01,1141,350-->
 
 ### Laplacian
 
-{@{The [Laplace operator](Laplace%20operator.md)}@} is {@{a scalar operator that can be applied to either vector or scalar fields}@}; for {@{cartesian coordinate systems}@} it is defined as: {@{$$\Delta ={\partial ^{2} \over \partial x^{2} }+{\partial ^{2} \over \partial y^{2} }+{\partial ^{2} \over \partial z^{2} }=\nabla \cdot \nabla =\nabla ^{2}$$}@} and {@{the definition for more general coordinate systems}@} is given in {@{[vector Laplacian](vector%20Laplacian.md#vector%20Laplacian)}@}. <!--SR:!2028-12-28,1078,350!2026-03-06,293,330!2026-03-04,287,330!2026-03-07,294,330!2029-02-11,1123,350!2029-04-15,1179,350-->
+{@{The [Laplace operator](Laplace%20operator.md)}@} is {@{a scalar operator that can be applied to either vector or scalar fields}@}; for {@{cartesian coordinate systems}@} it is defined as: {@{$$\Delta ={\partial ^{2} \over \partial x^{2} }+{\partial ^{2} \over \partial y^{2} }+{\partial ^{2} \over \partial z^{2} }=\nabla \cdot \nabla =\nabla ^{2}$$}@} and {@{the definition for more general coordinate systems}@} is given in {@{[vector Laplacian](vector%20Laplacian.md#vector%20Laplacian)}@}. <!--SR:!2028-12-28,1078,350!2026-03-06,293,330!2029-10-05,1311,350!2026-03-07,294,330!2029-02-11,1123,350!2029-04-15,1179,350-->
 
 The Laplacian is {@{ubiquitous throughout modern [mathematical physics](mathematical%20physics.md)}@}, appearing for example in {@{[Laplace's equation](Laplace's%20equation.md), [Poisson's equation](Poisson's%20equation.md), the [heat equation](heat%20equation.md)}@}, {@{the [wave equation](wave%20equation.md), and the [Schrödinger equation](Schrödinger%20equation.md)}@}. <!--SR:!2026-03-09,292,330!2026-03-06,289,330!2029-04-25,1180,350-->
 

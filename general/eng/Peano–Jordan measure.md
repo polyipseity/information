@@ -17,7 +17,7 @@ tags:
 
 ## simple sets
 
-Consider {@{_n_-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}@}. Jordan measure is first defined on {@{_n-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}@}: <!--SR:!2031-09-29,2085,330!2026-03-04,520,310-->
+Consider {@{_n_-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}@}. Jordan measure is first defined on {@{_n-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}@}: <!--SR:!2031-09-29,2085,330!2032-04-12,2231,330-->
 
 $$R := [a_1, b_1) \times [a_2, b_2) \times \cdots \times [a_n, b_n) \qquad a_i, b_i \in \mathbb{R}, a_i < b_i$$
 

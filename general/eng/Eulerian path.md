@@ -35,7 +35,7 @@ Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the ex
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-20,1378,356!2026-04-01,391,362!2026-04-07,397,362!2031-02-09,1808,382!2026-03-10,374,362-->
 
-For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2030-08-18,1655,370!2026-03-04,368,362!2027-09-16,778,342!2026-03-06,370,362!2026-03-26,387,362!2029-02-02,1200,362!2026-04-04,394,362!2028-04-12,935,336!2029-10-13,1397,356-->
+For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2030-08-18,1655,370!2031-03-05,1827,382!2027-09-16,778,342!2026-03-06,370,362!2026-03-26,387,362!2029-02-02,1200,362!2026-04-04,394,362!2028-04-12,935,336!2029-10-13,1397,356-->
 
 ## definition
 
@@ -120,7 +120,7 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 
 > {@{![An infinite graph with all vertex degrees equal to four but with no Eulerian line](../../archives/Wikimedia%20Commons/Kely%20graph%20of%20F2%20clear.svg)}@}
 >
-> {@{An infinite graph with all vertex degrees equal to four but with no Eulerian line}@} <!--SR:!2028-03-13,912,336!2026-03-04,369,362-->
+> {@{An infinite graph with all vertex degrees equal to four but with no Eulerian line}@} <!--SR:!2028-03-13,912,336!2031-03-10,1832,382-->
 
 In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-09-29,1385,356!2028-07-30,1042,350!2030-05-06,1572,370!2026-03-11,373,362!2028-05-23,1002,362!2026-03-28,388,362!2026-03-21,383,362!2026-07-17,443,322!2029-10-01,1388,356!2029-05-13,1266,362-->
 

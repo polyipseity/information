@@ -45,7 +45,7 @@ The force is {@{along the straight line joining the two charges}@}. If {@{the ch
 
 > {@{![portrait of Charles-Augustin de Coulomb](../../archives/Wikimedia%20Commons/Coulomb.jpg)}@}
 >
-> {@{[Charles-Augustin de Coulomb](Charles-Augustin%20de%20Coulomb.md)}@} <!--SR:!2026-03-04,302,340!2026-03-28,326,351-->
+> {@{[Charles-Augustin de Coulomb](Charles-Augustin%20de%20Coulomb.md)}@} <!--SR:!2030-01-13,1411,360!2026-03-28,326,351-->
 
 Ancient cultures around the [Mediterranean](Mediterranean%20Sea.md) knew that certain objects, such as rods of [amber](amber.md), could be rubbed with cat's fur to attract light objects like feathers and pieces of paper. [Thales of Miletus](Thales%20of%20Miletus.md) made the first recorded description of [static electricity](static%20electricity.md) around 600 BC,<sup>[\[7\]](#^ref-7)</sup> when he noticed that [friction](friction.md) could make a piece of amber attract small objects.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup>
 

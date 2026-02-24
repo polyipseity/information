@@ -109,7 +109,7 @@ Therefore if {@{$p$ is prime}@}, then: {@{$$p\ |\left[{p \atop k}\right] \text{ 
 
 ### expansions for fixed _k_
 
-Since {@{the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1}@}, one has by {@{[Vieta's formulas](Vieta's%20formulas.md)}@} that {@{$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$}@} <!--SR:!2029-11-18,1441,350!2026-03-04,354,290!2026-05-17,347,250-->
+Since {@{the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1}@}, one has by {@{[Vieta's formulas](Vieta's%20formulas.md)}@} that {@{$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$}@} <!--SR:!2029-11-18,1441,350!2030-01-29,1427,310!2026-05-17,347,250-->
 
 In other words, {@{the Stirling numbers of the first kind}@} are {@{given by [elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) evaluated at 0, 1, ..., _n_ − 1}@}.<sup>[\[5\]](#^ref-5)</sup> In this form, the simple identities given above take the form {@{$$\begin{aligned} \left[{\begin{matrix}n\\n-1\end{matrix} }\right]& =\sum _{i=0}^{n-1}i={\binom {n}{2} }, \\ \left[{\begin{matrix}n\\n-2\end{matrix} }\right]& =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}ij={\frac {3n-1}{4} }{\binom {n}{3} }, \\ \left[{\begin{matrix}n\\n-3\end{matrix} }\right] & =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}\sum _{k=0}^{j-1}ijk={\binom {n}{2} }{\binom {n}{4} }, \end{aligned}$$ and so on}@}. <!--SR:!2029-09-01,1379,350!2028-02-20,912,330!2026-04-16,303,250-->
 
@@ -179,7 +179,7 @@ Another exact nested sum expansion for these Stirling numbers is computed by {@{
 
 ### relations to natural logarithm function
 
-{@{The _n_-th [derivative](derivative.md) of the _μ_-th power of the [natural logarithm](natural%20logarithm.md)}@} involves {@{the signed Stirling numbers of the first kind}@}: {@{$${\operatorname {d} ^{n}\!(\ln x)^{\mu } \over \operatorname {d} \!x^{n} }=x^{-n}\sum _{k=1}^{n}s(n,n+1-k)\mu ^{\underline {k} }(\ln x)^{\mu -k},$$}@} where {@{$\mu ^{\underline {i} }$ is the [falling factorial](falling%20and%20rising%20factorials.md), and $s(n,n+1-k)$ is the signed Stirling number}@}. <!--SR:!2029-06-01,1220,309!2026-03-22,342,291!2026-03-04,30,130!2026-12-21,535,309-->
+{@{The _n_-th [derivative](derivative.md) of the _μ_-th power of the [natural logarithm](natural%20logarithm.md)}@} involves {@{the signed Stirling numbers of the first kind}@}: {@{$${\operatorname {d} ^{n}\!(\ln x)^{\mu } \over \operatorname {d} \!x^{n} }=x^{-n}\sum _{k=1}^{n}s(n,n+1-k)\mu ^{\underline {k} }(\ln x)^{\mu -k},$$}@} where {@{$\mu ^{\underline {i} }$ is the [falling factorial](falling%20and%20rising%20factorials.md), and $s(n,n+1-k)$ is the signed Stirling number}@}. <!--SR:!2029-06-01,1220,309!2026-03-22,342,291!2026-04-12,39,130!2026-12-21,535,309-->
 
 It can be proved by {@{using [mathematical induction](mathematical%20induction.md)}@}. <!--SR:!2030-03-16,1557,371-->
 

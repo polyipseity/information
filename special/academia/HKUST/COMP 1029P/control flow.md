@@ -89,4 +89,4 @@ while condition:
   pass # required, otherwise error
 ```
 
-You can of course {@{put branches and loops}@} inside loops. <!--SR:!2026-03-04,420,385-->
+You can of course {@{put branches and loops}@} inside loops. <!--SR:!2032-03-20,2208,405-->

@@ -274,7 +274,7 @@ The 32 registers are used as follows:
 > - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2026-04-08,288,330!2026-03-06,275,330-->
 > - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2026-03-05,274,330!2026-04-14,294,330-->
 > - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2029-01-24,1093,350!2029-06-12,1203,350-->
-> - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2026-03-04,273,330-->
+> - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2029-07-31,1245,350-->
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2029-07-04,1223,350!2026-04-10,290,330-->
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2028-01-01,776,330!2028-08-07,890,330-->
 > - __`$gp`__ ::@:: `$28`: global pointer <!--SR:!2029-04-20,1164,350!2026-03-15,282,330-->
@@ -304,7 +304,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 
 ### assembly directives
 
-- `.align <n>` ::@:: _Align_ the _next_ datum on a 2<sup>_n_</sup>-byte boundary. That is, the next datum starts at an address that is a multiple of 2<sup>_n_</sup>. <p> If _n_ is 0, automatic _alignment_ is turned off, since 2<sup>0</sup> = 1, which is effectively no alignment. <!--SR:!2026-03-04,273,330!2029-03-08,1129,350-->
+- `.align <n>` ::@:: _Align_ the _next_ datum on a 2<sup>_n_</sup>-byte boundary. That is, the next datum starts at an address that is a multiple of 2<sup>_n_</sup>. <p> If _n_ is 0, automatic _alignment_ is turned off, since 2<sup>0</sup> = 1, which is effectively no alignment. <!--SR:!2029-08-01,1246,350!2029-03-08,1129,350-->
 - `.ascii <str>` ::@:: Stores a non-null-terminated \(ASCII\) string. <!--SR:!2026-04-10,291,330!2029-07-16,1232,350-->
 - `.asciiz <str>` ::@:: Stores a null-terminated \(ASCII\) string. <!--SR:!2029-07-29,1244,350!2026-03-13,281,330-->
 - `.byte <b1>, ..., <bn>` ::@:: Stores the specified _n_ bytes \(8 bits\). <!--SR:!2026-03-16,283,330!2026-04-13,293,330-->
@@ -314,7 +314,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 - `.globl <sym>` ::@:: \(The name is _not_ a typo!\) Declare the symbol `<sym>` is global. The symbol is not removed from the resulting object/program file. That is, other assembly files can reference it. This is also required for the entry point label, so that the OS knows where to start the program. <!--SR:!2029-02-08,1102,350!2026-04-11,291,330-->
 - `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\). <!--SR:!2029-06-12,1204,350!2029-07-19,1235,350-->
 - `.space <num>` ::@:: Reserves the specified number of _bytes_. This can be used to define global but uninitialized variables. <!--SR:!2026-12-23,503,401!2026-12-03,483,401-->
-- `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`. <!--SR:!2028-03-02,815,330!2026-03-04,273,330-->
+- `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`. <!--SR:!2028-03-02,815,330!2029-08-02,1247,350-->
 - `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\). <!--SR:!2026-04-14,294,330!2026-03-05,274,330-->
 
 ### entry point

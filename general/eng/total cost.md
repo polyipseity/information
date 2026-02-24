@@ -18,7 +18,7 @@ tags:
 
 > {@{![The total cost curve, if non-linear, can represent increasing and [diminishing marginal returns](diminishing%20marginal%20returns.md).](../../archives/Wikimedia%20Commons/Kostukurba%2001-en.svg)}@}
 >
-> The total cost curve, if {@{non-linear, can represent increasing and [diminishing marginal returns](diminishing%20marginal%20returns.md)}@}. <!--SR:!2026-03-04,327,341!2030-02-16,1464,361-->
+> The total cost curve, if {@{non-linear, can represent increasing and [diminishing marginal returns](diminishing%20marginal%20returns.md)}@}. <!--SR:!2030-05-18,1536,361!2030-02-16,1464,361-->
 
 In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2030-05-05,1526,361!2026-03-08,331,341!2030-03-24,1493,361!2026-03-11,333,341!2026-09-28,474,321!2029-09-28,1345,350!2028-06-12,962,341!2030-04-05,1502,361-->
 

@@ -76,7 +76,7 @@ C$: [cost structure](#cost%20structure)
 
 The customer segments building block shows {@{the different groups an organization is trying to serve}@}. Customers are the heart of any business model because {@{without them, no business can work}@}. <!--SR:!2027-01-10,711,294!2027-02-22,786,334-->
 
-{@{Customers}@} should be {@{separated into different segments}@} if they have {@{different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships)}@}, {@{very different profitability, or needing different aspects of your products}@}. <!--SR:!2029-05-14,1274,277!2027-02-26,370,369!2026-03-04,85,349!2027-03-16,383,369-->
+{@{Customers}@} should be {@{separated into different segments}@} if they have {@{different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships)}@}, {@{very different profitability, or needing different aspects of your products}@}. <!--SR:!2029-05-14,1274,277!2027-02-26,370,369!2027-04-13,405,369!2027-03-16,383,369-->
 
 ##### customer segment examples
 

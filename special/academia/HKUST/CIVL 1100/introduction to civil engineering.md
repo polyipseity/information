@@ -277,7 +277,7 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
+- _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2034-04-16,2965,420-->
 - budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2031-12-02,2199,375-->
 - construction management→::@::←economics <!--SR:!2028-12-24,1196,275!2028-01-11,997,320-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2027-03-28,697,280-->

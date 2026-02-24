@@ -91,7 +91,7 @@ If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the pri
 
 ### average value
 
-For {@{any _n_ ≥ 16}@}:<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> $${\frac {1}{n} }\sum _{i\leq n}\lambda (i)={\frac {n}{\ln n} }e^{B(1+o(1))\ln \ln n/(\ln \ln \ln n)}$$ \(called {@{Erdős approximation}@} in the following\) with the constant $$B:=e^{-\gamma }\prod _{p\in \mathbb {P} }\left({1-{\frac {1}{(p-1)^{2}(p+1)} } }\right)\approx 0.34537$$ and {@{_γ_ ≈ 0.57721, the [Euler–Mascheroni constant](Euler's%20constant.md)}@}. <!--SR:!2026-03-16,287,301!2027-01-13,551,310!2026-03-04,321,301-->
+For {@{any _n_ ≥ 16}@}:<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> $${\frac {1}{n} }\sum _{i\leq n}\lambda (i)={\frac {n}{\ln n} }e^{B(1+o(1))\ln \ln n/(\ln \ln \ln n)}$$ \(called {@{Erdős approximation}@} in the following\) with the constant $$B:=e^{-\gamma }\prod _{p\in \mathbb {P} }\left({1-{\frac {1}{(p-1)^{2}(p+1)} } }\right)\approx 0.34537$$ and {@{_γ_ ≈ 0.57721, the [Euler–Mascheroni constant](Euler's%20constant.md)}@}. <!--SR:!2026-03-16,287,301!2027-01-13,551,310!2029-11-07,1344,321-->
 
 The following table gives some overview {@{over the first 2<sup>26</sup> – 1 = 67108863 values of the _λ_ function}@}, for {@{both, the exact average and its Erdős-approximation}@}. <!--SR:!2026-03-16,328,301!2030-04-25,1531,361-->
 

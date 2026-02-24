@@ -235,7 +235,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2029-09-13,1545,307-->
+- _(begin)_→::@::←bond order: single bond, double bond, triple bond, ... <!--SR:!2036-05-11,3721,312!2029-09-13,1545,307-->
 - bond order: single bond, double bond, triple bond, ...→::@::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2026-05-03,802,250!2031-10-07,2502,342-->
 - prefix order: alphabetical order ignoring prefixes for type count→::@::←_(end)_ <!--SR:!2034-03-24,2992,340!2027-02-10,664,302-->
 
