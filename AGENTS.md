@@ -98,7 +98,7 @@ Notes:
 
 Common scripts (see `package.json`):
 
-- `pnpm run check` — repository checks (runs `check:md`).  When you later run `pnpm run check:md` with explicit paths, always add `--no-globs` so the paths are treated literally and the entire workspace is not scanned.
+- `pnpm run check` — repository checks (runs `check:md`).  When you later run `pnpm run check:md` (or `pnpm run format:md`) with explicit paths or filenames, always add `--no-globs` and list the exact files so the paths are treated literally and the entire workspace is not scanned.
 - `pnpm run format` — formatting helpers (runs `format:md`)
 - `pnpm run commitlint` — validate commit messages
 - `pnpm run prepare` — register Husky hooks

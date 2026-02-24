@@ -17,7 +17,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 2. First commands (safe startup)
    - `pnpm install`  # installs Node deps and triggers Python dev extras install
    - `pnpm run prepare`  # register Husky Git hooks
-   - `pnpm run format` && `pnpm run check`  # formatting & lint checks (when targeting specific files with `check:md`, remember to append `--no-globs` to avoid accidentally linting the entire repo)
+   - `pnpm run format` && `pnpm run check`  # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any pnpm script prefer supplying explicit paths to limit work and speed up the command)
    - `pnpm run test`  # run tests locally (pre-push runs this automatically)
 
 3. Common repository actions

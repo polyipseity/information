@@ -37,7 +37,7 @@ Agent quickstart pointer: See `.github/instructions/agent-quickstart.instruction
 ## Formatting & linting
 
 - **markdownlint**: Configuration in `.markdownlint.json` (root, `tools/`, `special/`, `archives/`) disables MD013 (line length), MD033 (HTML blocks), MD051 (link spacing)
-- **running markdownlint-cli2**: when invoking the CLI with explicit file paths (e.g. `pnpm run check:md special/academia/...`), **always** include `--no-globs`.  Failing to do so causes markdownlint to treat the argument as a glob and may end up linting the entire workspace, which is slow and often unintended.  This rule applies whether you run it directly or via a pnpm script.
+- **running markdownlint-cli2**: when invoking the CLI with explicit file paths or filenames (for example `pnpm run check:md file1.md file2.md` or `pnpm run format:md file1.md`), **always** include `--no-globs` and list the exact files you want to process.  Without `--no-globs` markdownlint-cli2 will treat the arguments as a glob pattern, which may cause it to scan the entire repository instead of just the files you specified.  This applies whether you call the command directly or via a pnpm script.
 
   - Respects and preserves existing formatting; avoid auto-reformatting unless requested
   - Useful for validating structure without breaking KaTeX or special layouts
@@ -51,4 +51,4 @@ Agent quickstart pointer: See `.github/instructions/agent-quickstart.instruction
 - Dependency management: `pyproject.toml` is authoritative; add runtime deps to `[project].dependencies` and developer/test tools to `[dependency-groups].dev`. Run `pnpm install` (which triggers `prepare`, running `uv sync`) to register Husky hooks and install dev extras locally.
 - Tests: Place tests in `tests/` and use `pytest` (`test_*.py` naming). Mirror source layout when helpful, and add unit and integration tests for any change to scripts or generators.
 - Async tests: Use `pytest-asyncio` and `pytest.mark.asyncio` for async code. Prefer deterministic fixtures like `tmp_path: os.PathLike[str]` and `monkeypatch`. When typing tests, annotate `tmp_path` parameters as `PathLike[str]`; and when converting `PathLike` objects to strings **always** use `os.fspath(path_like)` rather than `str(path_like)`.
-- Local validation: Run `pnpm run format`, `pnpm run check`, and `pnpm run test` before pushing changes to avoid Husky hooks and CI failures.
+- Local validation: Run `pnpm run format`, `pnpm run check`, and `pnpm run test` before pushing changes to avoid Husky hooks and CI failures.  When only a subset of files are affected, supply explicit paths to these commands so they complete quickly instead of scanning the entire repo.

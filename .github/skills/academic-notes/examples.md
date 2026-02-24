@@ -124,7 +124,12 @@ template from the skill documentation.  When choosing the filename and main
 heading, prefer normal sentence casing (capitalize only proper nouns); apply
 the same convention to all section headers within the note.  Add aliases,
 tags and a cross‑link to the `general/eng/electronic component.md` article.
-4. Update the main `index.md` by adding the new file to `children:` **after all
+
+> **Tip:** flashcards inside a topic-specific note need not include the course
+> code prefix.  A simple `- electricity ::@:: …` is sufficient; the enclosing
+> context is already provided by the filename and index entry.
+
+1. Update the main `index.md` by adding the new file to `children:` **after all
    folder entries** (folder-first ordering takes precedence over
    alphabetization) and insert a `see also` link under the week 1 lecture 2
    outline.  For example:
@@ -151,6 +156,8 @@ tags and a cross‑link to the `general/eng/electronic component.md` article.
        - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference)
        - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
        - [§ capacitors](electronic%20component.md#capacitors)
+       - ELEC 1100 / electronic component / charge attraction/repulsion ::@:: Opposite charges attract and like charges repel.
+       - ELEC 1100 / electronic component / static electricity example ::@:: Rubbing a balloon on hair transfers electrons to the balloon, leaving hair positively charged and causing attraction/repulsion.
     - ...
    <!-- note: the topic-specific file is linked only once; subsequent entries
    use the section sign (§) and anchor reference without repeating the filename -->

@@ -78,7 +78,7 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
 
 6. This instruction applies repository-wide; submodules with their own `.github/instructions/` may augment or override these rules for their subtree (innermost `AGENTS.md` wins).
 
-**Pre-commit validation:** Before creating commits, agents MUST run repository formatting and validation steps using `pnpm` script wrappers when available (for example, `pnpm run format`, `pnpm run check`, and `pnpm run test`). The repository includes Husky hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `pnpm run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
+**Pre-commit validation:** Before creating commits, agents MUST run repository formatting and validation steps using `pnpm` script wrappers when available (for example, `pnpm run format`, `pnpm run check`, and `pnpm run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `pnpm run check:md --no-globs file.md`) so they complete quickly. The repository includes Husky hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `pnpm run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
 
 ## Commitlint compliance
 
