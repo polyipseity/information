@@ -130,16 +130,13 @@ def check_markdown_file(
                 )
                 break
 
-    # check for session entries (lecture/lab/tutorial)
-    if (
-        "lecture" in text or "lab" in text or "tutorial" in text
-    ) and "datetime:" not in text:
+    # check for session entries (lecture/lab/tutorial) using word boundaries
+    # to avoid matching fragments such as 'lab' inside 'available'.
+    if re.search(r"\b(lecture|lab|tutorial)\b", text) and "datetime:" not in text:
         errors.append("appears to include session entries but no 'datetime:' found")
 
     if content_checks:
-        if (
-            "lecture" in text or "lab" in text or "tutorial" in text
-        ) and "topic:" not in text:
+        if re.search(r"\b(lecture|lab|tutorial)\b", text) and "topic:" not in text:
             warnings.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
             )

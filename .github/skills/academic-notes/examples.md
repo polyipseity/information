@@ -103,7 +103,122 @@ Use the helper script to find a recommended article title:
 python .github/skills/academic-notes/find_wikipedia.py "Hindley Milner"
 ```
 
-The script prints JSON lines with suggested `title` and `url`. Pick the top candidate (e.g., `Hindley–Milner`) and link to `../../../../general/Hindley–Milner.md` from course notes. Do NOT create or edit files under `general/`.
+The script prints JSON lines with suggested `title` and `url`. Pick the top candidate (e.g., `Hindley–Milner`) and link to `../../../../general/Hindley–Milner.md` from course notes. Do **not** create or edit files under `general/`.
+
+## Topic-specific note example
+
+Suppose week 1 lecture 2 of ELEC 1100 covers basic electronic components in
+significant detail.  The topic “electronic component” is general enough to
+have its own encyclopaedic page, so we create a separate note rather than
+loading the lecture entry with too much background.
+
+1. Search the course folder for `electronic component`; nothing exists.
+2. Run the helper script to verify the Wikipedia title is **Electronic component**:
+
+   ```bash
+   python .github/skills/academic-notes/find_wikipedia.py "electronic component"
+   ```
+
+3. Create `special/academia/HKUST/ELEC 1100/electronic component.md` using the
+   template from the skill documentation.  Add aliases, tags and a cross‑link
+   to the `general/eng/electronic component.md` article.
+4. Update the main `index.md` by adding the new file to `children:` (after
+   all folder entries, alphabetical among files) and insert a `see also` link
+   under the week 1 lecture 2 outline.  For example:
+
+   ```markdown
+   ## children
+   - [assignments/](assignments/index.md)
+   - [attachments/](attachments/index.md)
+   - [labs/](labs/index.md)
+   - [questions/](questions/index.md)
+   - [tutorials/](tutorials/index.md)
+   - [electronic component](electronic%20component.md)
+   ```
+
+   ```markdown
+   ### week 1 lecture 2
+   - datetime: ...
+   - topic: basic components
+   - ELEC 1100
+     - ELEC 1100 / [electronic component](electronic%20component.md)
+       - [§ definition](electronic%20component.md#definition)
+   ```
+
+The resulting topic note might start like this:
+
+```markdown
+---
+aliases:
+  - ELEC 1100 electronic component
+  - ELEC 1100 electronic components
+  - ELEC1100 electronic component
+  - ELEC1100 electronic components
+  - HKUST ELEC 1100 electronic component
+  - HKUST ELEC 1100 electronic components
+  - HKUST ELEC1100 electronic component
+  - HKUST ELEC1100 electronic components
+  - electronic component
+  - electronic components
+tags:
+  - flashcard/active/special/academia/HKUST/ELEC_1100/electronic_component
+  - language/in/English
+---
+# electronic component
+
+- HKUST ELEC 1100
+
+---
+- see: [general/electronic component](../../../../general/eng/electronic%20component.md)
+
+# electronic component
+
+- HKUST ELEC 1100
+
+---
+
+- see: [general/electronic component](../../../../general/eng/electronic%20component.md)
+```
+
+This pattern can be applied to any future topic that meets the criteria.  It
+keeps the course index clean while still providing dedicated, linkable pages
+for substantial concepts.
+
+### indexing the topic note
+
+Once the topic-specific file has multiple sections, add an explicit index of
+anchors in the same order the material is presented in lectures.  Include the
+full course path in each bullet for clarity.  Example structure for the
+`electronic component` note might look like:
+
+```markdown
+- ELEC 1100
+  - ELEC 1100 / electronic component
+    - [§ definition](electronic%20component.md#definition)
+    - [§ types](electronic%20component.md#types)
+    - [§ applications](electronic%20component.md#applications)
+```
+
+The corresponding `children:` list in `index.md` would simply reference the
+file (placed after the folders):
+
+```markdown
+## children
+- [assignments/](assignments/index.md)
+- [attachments/](attachments/index.md)
+- [labs/](labs/index.md)
+- [questions/](questions/index.md)
+- [tutorials/](tutorials/index.md)
+- [electronic component](electronic%20component.md)
+```
+
+And the week‑1 session entry would link both the file and the relevant
+section as shown earlier.
+
+The detailed bullet list is optional but helpful when topics are revisited,
+as it allows students and reviewers to quickly jump to the appropriate section
+and ensures the index mirrors the lecture sequence.  The earlier FINA and
+Scala examples show larger real-world lists following the same pattern.
 
 ## Assignments layout
 

@@ -9,6 +9,12 @@ This document collects observed patterns from academic course notes and the pref
   - `aliases:` list with course code variants and human names.
   - `tags:` must include `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` for flashcard activation. **This tag is required in all course note files under `special/academia` when flashcards are desired.** Also include `function/index` and `language/in/English` where appropriate.
 
+> **Reminder:** you do not need to run `init generate` when editing
+> academic notes; flashcard state is regenerated automatically by the
+> repository’s build/packaging workflows.  If any internal instructions or
+> templates mention manual regeneration, update them as part of continuous
+> improvement.
+
 Example:
 
 ```markdown
@@ -146,6 +152,17 @@ For each session, prefer the following elements where appropriate:
 
 - Prefer linking to `general/` canonical notes for repeated concepts (e.g., `../../../../general/functional%20programming.md`).
 - When choosing which `general/` page to link, prefer authoritative article titles (Wikipedia or canonical sources). Agents should use the included helper `find_wikipedia.py` to search Wikipedia and select a candidate. Do NOT create, modify, or add files under `general/`; instead link to the expected `general/` path.
+- When a concept merits its own topic-specific note, create a new page in the
+  course folder using the Wikipedia article title as the filename.  Lowercase
+  the filename and use normal capitalization only where required (e.g.
+  `electronic component.md`).  The top‑level heading inside the note should
+  match this style (i.e. `# electronic component` rather than `# Electronic
+  component`) to mimic Wikipedia’s lowercase‑first convention.  Write the
+  note in a Wikipedia‑style voice – neutral, third person – but the level of
+  detail should reflect the available course materials (slides, transcripts).
+  Add the new file to the course index and link to it from relevant lecture
+  entries; the topic note itself may cross-link back to the `general/`
+  article for additional background.
 
 ## Observed usage patterns
 

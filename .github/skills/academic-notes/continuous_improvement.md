@@ -114,6 +114,17 @@ explicit permission from a maintainer.
   checklist.md, and validator behaviour.  The validator warning about missing
   `learning_outcomes` was removed and the check converted to advisory guidance
   instead.
+- **2026‑02‑23:** Learned several author preferences and encoded them as
+  permanent rules:
+- **2026‑02‑24:** Added guidelines for topic-specific notes:
+  - Agents should proactively propose and scaffold course notes for broad
+    concepts (e.g. electronic component) rather than crowding lecture
+    entries.  Notes belong under `special/academia/<INST>/<COURSE>/` with
+    lowercase filenames; include singular/plural aliases and concatenated
+    course-code variants.  Links from sessions should include section
+    anchors.  Added extensive examples in SKILL.md, examples.md, patterns.md,
+    and validator checks reflect this pattern.  See the ELEC 1100 changes
+    committed on the same date for a concrete implementation.
 
 ---
 

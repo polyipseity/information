@@ -18,9 +18,12 @@ intended for any course material stored under `special/academia/<INSTITUTION>`
 
 The skill is designed for **continuous learning**: as agents and human authors
 work with real course content, their preferences and new patterns inform
-updates to the documentation.  Explicit user directives (for example, "never
-run init generate automatically") should be incorporated into the text so that
-future interactions respect those choices.
+updates to the documentation.  Lessons and feedback gathered during usage
+should be recorded in this skill’s folder—in particular the
+`continuous_improvement.md` document—ensuring that observations persist
+alongside the documentation and are easy for maintainers to review later.  Explicit user directives
+(for example, "never run init generate automatically") should be incorporated
+into the text so that future interactions respect those choices.
 
 The skill has three primary audiences:
 
@@ -90,7 +93,12 @@ steps:
 
 1. Start with the **course-template** (`course-template.md`); fill in aliases,
    tags (note the underscore convention for flashes), name, credits, and a
-   brief description.
+   brief description.  For aliases include both singular and plural forms
+   where they make sense (e.g. "assignment" and "assignments"), and add
+   concatenated variants without spaces if the course code is normally
+   written with or without a space (e.g. `ELEC 1100`/`ELEC1100`).  Sort the
+   alias list strictly in alphabetical order to aid consistent diffs and
+   validator checks.
 2. Add a `logistics` section with a nested grading `scheme:` block specifying
    weights for labs, exams, projects, etc.  Must include a `sections:` list
    containing lecture/tutorial/lab **section identifiers** together with
@@ -188,6 +196,140 @@ manually when editing notes (the CI and packaging workflows handle it).
 Course notes should **never** create or modify files under `general/`.
 Instead, link to existing encyclopedia articles by name (percent-encoded).
 Agents may use `find_wikipedia.py` to query titles and choose the best match.
+
+### Topic-specific notes
+
+When a lecture introduces a concept that is broad enough to merit its own
+encyclopedic article and is (or will be) discussed in sufficient depth, you
+should create a **topic-specific note** under the course directory.  These
+notes serve as stable reference pages that can be linked from multiple
+sessions without repeating the same material.  The note itself should be
+written in a neutral, Wikipedia-like style – third person, descriptive tone
+– although the level of detail is governed by the available course
+materials (lecture/talk transcripts, slides, lab manuals, etc.).
+
+- **When to create**: the subject should be general (i.e. something that could
+  plausibly have a Wikipedia page) and it should either appear in the current
+  lecture slides with substantial detail or be scheduled for extended coverage
+  later in the semester.  If the topic is only mentioned in passing or is
+  highly idiosyncratic to the course, keep the discussion inside the lecture
+  entry instead.
+- **Agent behaviour:** when acting as an agent transcribing notes, watch for
+  sessions that produce long lists of related definitions or examples (e.g.
+  charge, current, voltage, resistor, capacitor).  Rather than bloating a
+  single lecture entry, you should **proactively propose creating a new
+  topic-specific note**.  Run `find_wikipedia.py` with an appropriate keyword to
+  find a canonical title.  The script will print a suggested `general/` path;
+  **ignore that suggestion**.  course topic notes must always live under the
+  course folder (`special/academia/<INST>/<COURSE>/`).  Scaffold the new file
+  there using the template above, and add a link/see‑also reference in the
+  session outline.  This automation keeps course pages concise and makes later
+  reuse easier.  The remainder of the current session’s bullet list can then
+  be collapsed to a summary pointing at the new note.
+- **Checking for duplicates**: before creating a new file, search the course
+  folder for existing topic notes (a simple `grep`, `fd`, or `rg` on the topic
+  name works well).  If a suitable note already exists, append the new
+  content there and add additional index links as needed; **do not create a
+  duplicate file**.  The `children:` list at the top of `index.md` should be
+  updated whenever a new note is added so that the hierarchy remains explicit.
+- **Naming the file**: use the canonical Wikipedia article title as the
+  filename, converted to lowercase with only necessary capitalization (for
+  example `electronic component.md`, `forward contract.md`).  The helper
+  script `find_wikipedia.py` is highly recommended; run it with the topic
+  keyword(s) and pick the top candidate from its JSON output.
+
+Example invocation:
+
+```bash
+python .github/skills/academic-notes/find_wikipedia.py "electronic component"
+```
+
+The script prints lines containing `"title"` and `"url"`; the `title` gives
+you the proper article name.  Use that title (percent‑encoded) when linking to
+`general/` and as the basis for the filename in `special/academia`.
+
+- **Template for a new topic-specific note**: adapt the aliases and tags for
+  the current course.  Replace `<INSTITUTION>` and `<COURSE>` with the
+  appropriate values, and convert spaces to underscores in the flashcard tag.
+  As with course pages, include plural variants and sort the alias list
+  alphabetically.
+
+```markdown
+---
+aliases:
+  - <COURSE> <topic>
+  - <COURSE><topic>
+  - <INSTITUTION> <COURSE> <topic>
+  - <INSTITUTION> <COURSE><topic>
+  - <topic>
+tags:
+  - flashcard/active/special/academia/<INSTITUTION>/<COURSE>/<topic_with_spaces_replaced_by_underscore>
+  - language/in/English
+---
+
+# <topic>
+
+- <INSTITUTION> <COURSE>
+
+---
+
+- see: [general/<wiki_title>](../../../../general/<wiki_filename>.md)
+```
+
+- **Index linkage**: add the new note to the `children:` section of the main
+  `index.md` file and insert a `- see also:` cross‑reference under the
+  relevant lecture(s).  For example, after the outline for week 1 lecture 2
+  you might add:
+
+  ```markdown
+  - see also: [electronic component](electronic%20component.md)
+  ```
+
+  This approach lets learners navigate from a session summary to the
+  dedicated topic note.
+
+  When a topic-specific page has multiple sections, you should also create a
+  nested index list under the course entry that enumerates each major
+  subsection in the same order they were covered in lecture.  **However, the
+  `children:` list itself should only link to the file**; the sub‑adornment of
+  section anchors belongs in the session entries, not in `children:`.  Topic
+  notes must appear **after all folder entries** (assignments, attachments,
+  labs, questions, tutorials) and, among files, should be sorted
+  alphabetically by filename.  This keeps the index clean and predictable.
+
+  The session entries (lectures/labs/tutorials) should include both a link to
+  the file and a `§` reference to the specific section covered.  Do **not**
+  prefix with "see also:"; instead nest the course path directly under the
+  entry.  For example:
+
+  ```markdown
+  - topic: basic components
+  - ELEC 1100
+    - ELEC 1100 / [electronic component](electronic%20component.md)
+      - [§ definition](electronic%20component.md#definition)
+  ```
+
+  The nested list of anchors in the broader index is optional but still
+  useful for long topics; it must mirror lecture order exactly.  A generic
+  template for the index structure is:
+
+  ```markdown
+  - <COURSE_CODE>
+    - <COURSE_CODE> / <topic>
+      - [§ <heading>](<topic>.md#<anchor>)
+      - [§ next heading](<topic>.md#<next-anchor>)
+      - …
+  ```
+
+  Concrete examples (FINA 3103 and Scala) demonstrate how the pattern looks
+  in practice while preserving the original teaching sequence.
+- **Ongoing maintenance**: when later lectures revisit the same topic,
+  append new material to the existing topic note rather than creating a new
+  page.  The link from each session can remain the same.
+
+These topic-specific pages help avoid duplication, make detailed concepts
+easier to find, and encourage reuse of general knowledge across multiple
+courses.
 
 ### Content patterns and normalizations
 
