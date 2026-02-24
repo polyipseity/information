@@ -56,7 +56,7 @@ tags:
 > - __[Median](median.md)__ ::@:: $\mu$ <!--SR:!2026-03-12,14,290!2026-03-14,16,316-->
 > - __[Mode](mode%20(statistics).md)__ ::@:: $\mu$ <!--SR:!2026-03-12,14,290!2026-03-12,14,290-->
 > - __[Variance](variance.md)__ ::@:: $\sigma ^{2}$ <!--SR:!2026-03-16,18,323!2026-03-13,15,309-->
-> - __[MAD](median%20absolute%20deviation.md)__ ::@:: $\sigma {\sqrt {2} }\,\operatorname {erf} ^{-1}(1/2)$ <!--SR:!2026-03-10,12,303!2026-03-02,4,283-->
+> - __[MAD](median%20absolute%20deviation.md)__ ::@:: $\sigma {\sqrt {2} }\,\operatorname {erf} ^{-1}(1/2)$ <!--SR:!2026-03-10,12,303!2026-03-04,2,263-->
 > - __[AAD](mean%20absolute%20deviation.md)__ ::@:: $\sigma {\sqrt {2/\pi } }$ <!--SR:!2026-03-14,16,316!2026-03-06,8,250-->
 > - __[Skewness](skewness.md)__ ::@:: $0$ <!--SR:!2026-03-14,16,309!2026-03-16,18,323-->
 > - __[Excess kurtosis](excess%20kurtosis.md#excess%20kurtosis)__ ::@:: $0$ <!--SR:!2026-03-12,14,290!2026-03-14,16,309-->

@@ -294,7 +294,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md):@:[electrolysis](electrolysis.md) <!--SR:!2029-03-06,1281,310-->
 - [aluminium](aluminium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-05-05,574,230-->
 - [titanium](titanium.md):@:[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2026-10-19,258,150-->
-- [manganese](manganese.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-03-02,205,150-->
+- [manganese](manganese.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-05-29,453,170-->
 - [zinc](zinc.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2029-01-20,1526,310-->
 - [chromium](chromium.md):@:[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2029-10-27,1507,270-->
 - [iron](iron.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-05-18,777,310-->

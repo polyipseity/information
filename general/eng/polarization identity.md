@@ -39,7 +39,7 @@ For {@{vector spaces over the [complex numbers](complex%20number.md)}@}, the abo
 >
 > Moreover, {@{$$4R(x,y)=\|x+y\|^{2}-\|x-y\|^{2}=\|y+x\|^{2}-\|y-x\|^{2}=4R(y,x),$$}@} which proves that {@{⁠$R(x,y)=R(y,x)$}@}⁠.
 >
-> From {@{$1=i(-i)$}@} it follows that {@{$y-ix=i(-iy-x)=-i(x+iy)$ and $y+ix=i(-iy+x)=i(x-iy)$}@} so that {@{$$-4R(y,ix)=\|y-ix\|^{2}-\|y+ix\|^{2}=\|(-i)(x+iy)\|^{2}-\|i(x-iy)\|^{2}=\|x+iy\|^{2}-\|x-iy\|^{2}=4R(x,iy),$$}@} which proves that {@{$R(y,ix)=-R(x,iy)$}@}. $\blacksquare$ <!--SR:!2029-07-08,1238,350!2027-09-10,699,330!2028-12-25,1078,350!2027-09-15,704,330!2026-03-02,286,330!2029-02-25,1140,350!2028-09-27,941,330!2026-05-22,325,290!2029-08-02,1259,350-->
+> From {@{$1=i(-i)$}@} it follows that {@{$y-ix=i(-iy-x)=-i(x+iy)$ and $y+ix=i(-iy+x)=i(x-iy)$}@} so that {@{$$-4R(y,ix)=\|y-ix\|^{2}-\|y+ix\|^{2}=\|(-i)(x+iy)\|^{2}-\|i(x-iy)\|^{2}=\|x+iy\|^{2}-\|x-iy\|^{2}=4R(x,iy),$$}@} which proves that {@{$R(y,ix)=-R(x,iy)$}@}. $\blacksquare$ <!--SR:!2029-07-08,1238,350!2027-09-10,699,330!2028-12-25,1078,350!2027-09-15,704,330!2029-09-30,1308,350!2029-02-25,1140,350!2028-09-27,941,330!2026-05-22,325,290!2029-08-02,1259,350-->
 
 Unlike {@{its real part}@}, {@{the [imaginary part](imaginary%20part.md) of a complex inner product}@} depends on {@{which argument is antilinear}@}. <!--SR:!2026-03-08,292,330!2029-08-31,1283,350!2026-03-06,290,330-->
 

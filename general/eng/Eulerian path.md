@@ -182,7 +182,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 ## notes
 
-1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2026-03-12,374,362!2026-03-02,367,362!2026-03-27,387,362!2030-12-31,1776,382!2026-03-31,391,362!2026-03-27,388,362!2028-01-20,896,350!2026-03-30,390,362-->
+1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2026-03-12,374,362!2031-02-27,1823,382!2026-03-27,387,362!2030-12-31,1776,382!2026-03-31,391,362!2026-03-27,388,362!2028-01-20,896,350!2026-03-30,390,362-->
 
 ## references
 

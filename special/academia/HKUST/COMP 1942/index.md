@@ -130,7 +130,7 @@ The content is in teaching order.
 - datetime: 2024-03-04T18:00:00+08:00/2024-03-04T19:00:00+08:00
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
 - [FP-growth algorithm § overview](../../../../general/FP-growth%20algorithm.md#overview)
-- Jaccard's coefficient for binary data ::@:: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2031-04-21,1991,397!2026-03-02,501,397-->
+- Jaccard's coefficient for binary data ::@:: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2031-04-21,1991,397!2033-08-07,2715,417-->
 - matching coefficient for binary data ::@:: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2033-06-29,2683,417!2026-03-09,508,397-->
 
 ## week 6 lecture 2
@@ -429,7 +429,7 @@ The content is in teaching order.
     - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2026-03-10,509,408!2026-07-01,612,408-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
-    - PageRank damping factor variation ::@:: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2026-03-02,501,397!2029-03-13,1388,397-->
+    - PageRank damping factor variation ::@:: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2033-08-08,2716,417!2029-03-13,1388,397-->
 
 ## week 14 lecture
 

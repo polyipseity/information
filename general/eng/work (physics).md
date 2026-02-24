@@ -18,7 +18,7 @@ tags:
 >
 > where
 >
-> - {@{$\delta W$}@} is {@{the infinitesimal __work__ done by a [force](force.md) $\vec{F}$}@} over {@{an infinitesimal [displacement (geometry)](displacement%20(geometry).md) $\mathrm{d}\vec{s}$}@} or at {@{an instantaneous [velocity](velocity.md) $\vec{v}$ over an infinitesimal [time](time.md) $\mathrm{d}t$}@} <!--SR:!2027-06-15,990,350!2027-01-01,792,330!2026-03-02,83,341!2026-03-02,83,341!2026-03-02,83,341-->
+> - {@{$\delta W$}@} is {@{the infinitesimal __work__ done by a [force](force.md) $\vec{F}$}@} over {@{an infinitesimal [displacement (geometry)](displacement%20(geometry).md) $\mathrm{d}\vec{s}$}@} or at {@{an instantaneous [velocity](velocity.md) $\vec{v}$ over an infinitesimal [time](time.md) $\mathrm{d}t$}@} <!--SR:!2027-06-15,990,350!2027-01-01,792,330!2027-03-27,390,361!2027-03-30,393,361!2027-03-29,392,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -28,7 +28,7 @@ tags:
 >
 > where
 >
-> - {@{$\delta W$}@} is {@{the infinitesimal __work__ done by a [torque](torque.md) $\vec\tau$}@} over {@{an infinitesimal [angular displacement](angular%20displacement.md) $\mathrm{d}\vec\theta$}@} or at {@{an instantaneous [angular velocity](angular%20velocity.md) $\vec\omega$ over an infinitesimal [time](time.md) $\mathrm{d}t$}@} <!--SR:!2027-07-14,1009,350!2027-07-23,957,310!2026-03-02,83,341!2026-03-02,83,341!2026-03-02,83,341-->
+> - {@{$\delta W$}@} is {@{the infinitesimal __work__ done by a [torque](torque.md) $\vec\tau$}@} over {@{an infinitesimal [angular displacement](angular%20displacement.md) $\mathrm{d}\vec\theta$}@} or at {@{an instantaneous [angular velocity](angular%20velocity.md) $\vec\omega$ over an infinitesimal [time](time.md) $\mathrm{d}t$}@} <!--SR:!2027-07-14,1009,350!2027-07-23,957,310!2027-03-23,386,361!2027-03-31,394,361!2027-03-28,391,361-->
 
 ## references
 

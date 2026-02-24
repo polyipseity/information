@@ -31,7 +31,7 @@ Variables differ from registers in that {@{the former is a logical concept while
 
 In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@} <!--SR:!2029-04-15,1159,350!2029-03-18,1137,350!2026-04-09,289,330!2028-05-16,829,330-->
 
-Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2029-07-01,1220,350!2026-03-02,271,330!2028-05-17,830,330!2026-03-24,26,412-->
+Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2029-07-01,1220,350!2029-07-14,1230,350!2028-05-17,830,330!2026-03-24,26,412-->
 
 The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}. <!--SR:!2026-04-07,287,330!2026-03-05,274,330!2026-03-17,284,330-->
 
@@ -71,7 +71,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 
 Common instruction variants include {@{immediate `_i`, unsigned `_u` \(`_i` comes before `_u`\)}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2026-06-21,362,355!2026-06-07,348,350!2026-06-16,357,355!2026-08-23,416,372-->
 
-One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2026-03-02,271,330!2026-04-09,289,330-->
+One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2029-07-17,1233,350!2026-04-09,289,330-->
 
 ### program counter
 
@@ -278,7 +278,7 @@ The 32 registers are used as follows:
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2029-07-04,1223,350!2026-04-10,290,330-->
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2028-01-01,776,330!2028-08-07,890,330-->
 > - __`$gp`__ ::@:: `$28`: global pointer <!--SR:!2029-04-20,1164,350!2026-03-15,282,330-->
-> - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2027-12-07,756,330!2026-03-02,271,330-->
+> - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2027-12-07,756,330!2029-07-18,1234,350-->
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2026-03-13,281,330!2026-04-13,293,330-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2029-03-09,1129,350!2026-04-14,294,330-->
 > - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\) <!--SR:!2026-03-05,274,330!2027-03-17,534,310-->
@@ -305,14 +305,14 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 ### assembly directives
 
 - `.align <n>` ::@:: _Align_ the _next_ datum on a 2<sup>_n_</sup>-byte boundary. That is, the next datum starts at an address that is a multiple of 2<sup>_n_</sup>. <p> If _n_ is 0, automatic _alignment_ is turned off, since 2<sup>0</sup> = 1, which is effectively no alignment. <!--SR:!2026-03-04,273,330!2029-03-08,1129,350-->
-- `.ascii <str>` ::@:: Stores a non-null-terminated \(ASCII\) string. <!--SR:!2026-04-10,291,330!2026-03-02,271,330-->
+- `.ascii <str>` ::@:: Stores a non-null-terminated \(ASCII\) string. <!--SR:!2026-04-10,291,330!2029-07-16,1232,350-->
 - `.asciiz <str>` ::@:: Stores a null-terminated \(ASCII\) string. <!--SR:!2026-03-03,272,330!2026-03-13,281,330-->
 - `.byte <b1>, ..., <bn>` ::@:: Stores the specified _n_ bytes \(8 bits\). <!--SR:!2026-03-16,283,330!2026-04-13,293,330-->
 - `.data` ::@:: Starts the data segment. <!--SR:!2029-02-07,1101,350!2029-02-18,1112,350-->
 - `.double <d1>, ..., <dn>` ::@:: Stores the specified _n_ doubles \(64 bits, 8 bytes\). <!--SR:!2029-03-01,1123,350!2026-04-10,290,330-->
 - `.float <f1>, ..., <fn>` ::@:: Stores the specified _n_ floats \(32 bits, 4 bytes\). <!--SR:!2026-03-13,281,330!2026-04-12,292,330-->
 - `.globl <sym>` ::@:: \(The name is _not_ a typo!\) Declare the symbol `<sym>` is global. The symbol is not removed from the resulting object/program file. That is, other assembly files can reference it. This is also required for the entry point label, so that the OS knows where to start the program. <!--SR:!2029-02-08,1102,350!2026-04-11,291,330-->
-- `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\). <!--SR:!2029-06-12,1204,350!2026-03-02,271,330-->
+- `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\). <!--SR:!2029-06-12,1204,350!2029-07-19,1235,350-->
 - `.space <num>` ::@:: Reserves the specified number of _bytes_. This can be used to define global but uninitialized variables. <!--SR:!2026-12-23,503,401!2026-12-03,483,401-->
 - `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`. <!--SR:!2028-03-02,815,330!2026-03-04,273,330-->
 - `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\). <!--SR:!2026-04-14,294,330!2026-03-05,274,330-->
@@ -327,7 +327,7 @@ In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`,
 
 To convert {@{structured control flow statements into assembly}@} manually, {@{identify _basic blocks_}@}, which is {@{a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph}@} can be {@{constructed out of these basic blocks}@}. Finally, _label_ {@{the basic blocks at their beginnings}@} and add {@{conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2026-04-12,292,330!2029-03-24,1142,350!2026-04-09,289,330!2028-01-24,795,330!2026-03-15,282,330!2026-04-08,288,330!2029-01-11,1082,350!2029-07-05,1223,350!2029-06-19,1209,350!2026-04-13,293,330!2029-01-18,1087,350!2026-05-13,147,427!2026-05-07,142,427!2026-05-13,147,427-->
 
-To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps}@} to {@{the basic blocks}@}, then {@{the basic blocks each ending}@} with {@{a jump to the exit label}@}, and finally {@{the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label}@}, then {@{comparison and conditional jump to the exit label}@}, {@{the code}@}, and finally {@{a jump to the loop label}@}. You can {@{extrapolate the rest}@} for yourself. You may also {@{simplify the code}@}. <!--SR:!2026-03-17,284,330!2028-03-03,817,330!2026-03-03,272,330!2026-03-02,271,330!2026-06-17,157,429!2026-06-15,155,429!2026-06-17,157,429!2026-06-13,153,429!2026-06-18,158,429!2026-06-13,153,429!2026-06-16,156,429!2026-06-16,156,429!2026-06-15,155,429-->
+To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps}@} to {@{the basic blocks}@}, then {@{the basic blocks each ending}@} with {@{a jump to the exit label}@}, and finally {@{the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label}@}, then {@{comparison and conditional jump to the exit label}@}, {@{the code}@}, and finally {@{a jump to the loop label}@}. You can {@{extrapolate the rest}@} for yourself. You may also {@{simplify the code}@}. <!--SR:!2026-03-17,284,330!2028-03-03,817,330!2026-03-03,272,330!2029-07-15,1231,350!2026-06-17,157,429!2026-06-15,155,429!2026-06-17,157,429!2026-06-13,153,429!2026-06-18,158,429!2026-06-13,153,429!2026-06-16,156,429!2026-06-16,156,429!2026-06-15,155,429-->
 
 ## pseudo-instructions
 

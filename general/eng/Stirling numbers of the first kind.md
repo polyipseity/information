@@ -25,7 +25,7 @@ In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics
 
 For example, $(x)_{3}=x(x-1)(x-2)=x^{3}-3x^{2}+2x$, leading to {@{the values $s(3,3)=1$, $s(3,2)=-3$, and $s(3,1)=2$}@}. <!--SR:!2029-04-22,1273,350-->
 
-{@{The unsigned Stirling numbers}@} may also be defined {@{algebraically as the coefficients of the [rising factorial](falling%20and%20rising%20factorials.md)}@}: {@{$$x^{\overline {n} }=x(x+1)\cdots (x+n-1)=\sum _{k=0}^{n}\left[{n \atop k}\right]x^{k} \,.$$}@} <!--SR:!2029-11-17,1440,350!2029-11-05,1431,350!2026-03-02,39,342-->
+{@{The unsigned Stirling numbers}@} may also be defined {@{algebraically as the coefficients of the [rising factorial](falling%20and%20rising%20factorials.md)}@}: {@{$$x^{\overline {n} }=x(x+1)\cdots (x+n-1)=\sum _{k=0}^{n}\left[{n \atop k}\right]x^{k} \,.$$}@} <!--SR:!2029-11-17,1440,350!2029-11-05,1431,350!2026-08-29,180,362-->
 
 {@{The notations used on this page for Stirling numbers}@} are {@{not universal, and may conflict with notations in other sources}@}; {@{the square bracket notation $\left[{n \atop k}\right]$}@} is {@{also common notation for the [Gaussian coefficients](Gaussian%20binomial%20coefficient.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-11-16,1440,350!2029-06-12,1316,350!2029-04-30,1279,350!2028-01-18,887,330-->
 

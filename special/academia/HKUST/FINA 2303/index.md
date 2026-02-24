@@ -106,7 +106,7 @@ The content is in teaching order.
     - corporate finance / financial institutions / pension funds ::@:: source: retirement savings from workplace; use: similar to mutual funds, but to provide retirement income <!--SR:!2029-05-26,1210,350!2029-05-20,1207,350-->
     - corporate finance / financial institutions / hedge funds ::@:: source: wealthy individuals and endowments; use: invest in any investment to try to maximize returns <!--SR:!2029-06-30,1242,350!2029-05-17,1204,350-->
     - corporate finance / financial institutions / venture capital funds ::@:: source: wealthy individuals and endowments; use: invest in entrepreneurial firms and startups <!--SR:!2026-03-11,294,330!2026-10-18,442,310-->
-    - corporate finance / financial institutions / private equity funds ::@:: source: wealthy individuals and endowments; use: purchase whole companies with little equity and much debt (borrowing) <!--SR:!2026-03-02,285,330!2027-12-18,731,290-->
+    - corporate finance / financial institutions / private equity funds ::@:: source: wealthy individuals and endowments; use: purchase whole companies with little equity and much debt (borrowing) <!--SR:!2029-09-25,1303,350!2027-12-18,731,290-->
 - [questions § week 1 lecture](questions.md#week%201%20lecture)
 - [TAPPS/week 1 lecture](assignments/TAPPS/week%201%20lecture.md)
 - readings: chapter 1 (exclude section 1.2), chapter 3

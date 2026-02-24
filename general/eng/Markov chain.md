@@ -81,7 +81,7 @@ In {@{1912 [Henri Poincaré](Henri%20Poincaré.md)}@} studied {@{Markov chains o
 
 - A famous Markov chain is the {@{so-called "drunkard's walk"}@}, {@{a random walk on the [number line](number%20line.md) where, at each step, the position may change by +1 or −1 with equal probability}@}. From {@{any position there are two possible transitions}@}, {@{to the next or previous integer}@}. The transition probabilities depend {@{only on the current position, not on the manner in which the position was reached}@}. For example, {@{the transition probabilities from 5 to 4 and 5 to 6 are both 0.5}@}, and {@{all other transition probabilities from 5 are 0}@}. These probabilities are {@{independent of whether the system was previously in 4 or 6}@}. <!--SR:!2027-03-15,635,339!2028-03-17,911,347!2028-02-27,904,341!2028-09-14,1046,341!2028-04-28,940,341!2026-04-01,378,359!2026-04-30,403,367!2026-04-26,400,367-->
 
-- {@{A series of independent states \(for example, a series of coin flips\)}@} satisfies {@{the formal definition of a Markov chain}@}. However, {@{the theory is usually applied only when the probability distribution of the next state depends on the current one}@}. <!--SR:!2026-03-02,356,367!2028-04-22,969,367!2030-02-04,1479,361-->
+- {@{A series of independent states \(for example, a series of coin flips\)}@} satisfies {@{the formal definition of a Markov chain}@}. However, {@{the theory is usually applied only when the probability distribution of the next state depends on the current one}@}. <!--SR:!2031-01-26,1791,387!2028-04-22,969,367!2030-02-04,1479,361-->
 
 ### a non-Markov example
 
@@ -387,7 +387,7 @@ Markov chains can be used to {@{model many games of chance}@}. {@{The children's
 
 ### music
 
-Markov chains are employed in {@{[algorithmic music composition](algorithmic%20composition.md)}@}, particularly in {@{[software](software.md) such as [Csound](Csound.md), [Max](Max%20(software).md), and [SuperCollider](SuperCollider.md)}@}. In {@{a first-order chain}@}, the states of the system become {@{note or pitch values}@}, and {@{a [probability vector](probability%20vector.md) for each note}@} is constructed, completing {@{a transition probability matrix}@} \(see below\). An algorithm is {@{constructed to produce output note values based on the transition matrix weightings}@}, which could be {@{[MIDI](MIDI.md) note values, frequency \([Hz](hertz.md)\), or any other desirable metric}@}.<sup>[\[96\]](#^ref-96)</sup> <!--SR:!2026-04-26,400,367!2026-03-15,364,359!2029-05-19,1264,367!2029-05-13,1260,367!2028-08-27,1031,341!2030-03-26,1518,361!2029-12-04,1418,367!2026-03-02,356,367-->
+Markov chains are employed in {@{[algorithmic music composition](algorithmic%20composition.md)}@}, particularly in {@{[software](software.md) such as [Csound](Csound.md), [Max](Max%20(software).md), and [SuperCollider](SuperCollider.md)}@}. In {@{a first-order chain}@}, the states of the system become {@{note or pitch values}@}, and {@{a [probability vector](probability%20vector.md) for each note}@} is constructed, completing {@{a transition probability matrix}@} \(see below\). An algorithm is {@{constructed to produce output note values based on the transition matrix weightings}@}, which could be {@{[MIDI](MIDI.md) note values, frequency \([Hz](hertz.md)\), or any other desirable metric}@}.<sup>[\[96\]](#^ref-96)</sup> <!--SR:!2026-04-26,400,367!2026-03-15,364,359!2029-05-19,1264,367!2029-05-13,1260,367!2028-08-27,1031,341!2030-03-26,1518,361!2029-12-04,1418,367!2031-01-27,1792,387-->
 
 > __1st-order matrix__
 >

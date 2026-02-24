@@ -26,7 +26,7 @@ tags:
 
 ## hints
 
-1. [acceptance testing](../../../../../general/acceptance%20testing.md) ::@:: It is a test conducted to determine if the requirements of a specification or contract are met. It may involve chemical tests, physical tests, or performance tests. <!--SR:!2026-03-02,57,310!2026-03-12,67,310-->
+1. [acceptance testing](../../../../../general/acceptance%20testing.md) ::@:: It is a test conducted to determine if the requirements of a specification or contract are met. It may involve chemical tests, physical tests, or performance tests. <!--SR:!2026-11-05,248,330!2026-03-12,67,310-->
 2. cyclomatic complexity / interpretation ::@:: The value reflects the logical richness of the procedure; _internally_, higher values mean more _testing effort_ or less _maintainability_; _externally_, higher values means less _safety_ \(how likely it is to be error free\). <!--SR:!2026-03-08,63,310!2026-03-05,60,310-->
 3. [integration testing](../../../../../general/integration%20testing.md) ::@:: It is a form of software testing in which multiple software components, modules, or services are tested together to verify they work as expected when combined. <!--SR:!2026-10-20,235,330!2026-03-07,62,310-->
 4. system testing vs. acceptance testing

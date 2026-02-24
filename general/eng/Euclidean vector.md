@@ -145,7 +145,7 @@ The following section uses {@{the [Cartesian coordinate system](Cartesian%20coor
 
 ### equality
 
-{@{Two vectors are said to be equal}@} if {@{they have the same magnitude and direction}@}. Equivalently {@{they will be equal if their coordinates are equal}@}. So {@{two vectors $${\mathbf {a} }=a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2}+a_{3}{\mathbf {e} }_{3}$$ and $${\mathbf {b} }=b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2}+b_{3}{\mathbf {e} }_{3}$$ are equal}@} if {@{$$a_{1}=b_{1},\quad a_{2}=b_{2},\quad a_{3}=b_{3}.\,$$}@} <!--SR:!2026-05-11,355,352!2026-03-02,287,332!2029-09-13,1304,352!2026-05-02,348,352!2029-04-21,1190,352-->
+{@{Two vectors are said to be equal}@} if {@{they have the same magnitude and direction}@}. Equivalently {@{they will be equal if their coordinates are equal}@}. So {@{two vectors $${\mathbf {a} }=a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2}+a_{3}{\mathbf {e} }_{3}$$ and $${\mathbf {b} }=b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2}+b_{3}{\mathbf {e} }_{3}$$ are equal}@} if {@{$$a_{1}=b_{1},\quad a_{2}=b_{2},\quad a_{3}=b_{3}.\,$$}@} <!--SR:!2026-05-11,355,352!2029-10-10,1318,352!2029-09-13,1304,352!2026-05-02,348,352!2029-04-21,1190,352-->
 
 ### opposite, parallel, and antiparallel vectors
 
@@ -257,7 +257,7 @@ The properties of a direction cosine matrix, C are:<sup>[\[20\]](#^ref-20)</sup>
 
 The advantage of this method is that {@{a direction cosine matrix can usually be obtained independently}@} by {@{using [Euler angles](Euler%20angles.md) or a [quaternion](quaternion.md) to relate the two vector bases}@}, so the basis conversions can be {@{performed directly, without having to work out all the dot products described above}@}. <!--SR:!2026-03-12,297,332!2026-06-09,381,359!2026-03-15,295,332-->
 
-By {@{applying several matrix multiplications in succession}@}, {@{any vector can be expressed in any basis}@} so long as {@{the set of direction cosines is known relating the successive bases}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2026-03-02,287,332!2029-04-07,1179,352!2029-02-11,1124,352-->
+By {@{applying several matrix multiplications in succession}@}, {@{any vector can be expressed in any basis}@} so long as {@{the set of direction cosines is known relating the successive bases}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-10-09,1317,352!2029-04-07,1179,352!2029-02-11,1124,352-->
 
 ### other dimensions
 

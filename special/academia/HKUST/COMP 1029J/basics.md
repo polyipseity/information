@@ -204,7 +204,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`++` <br/> `--` <!--SR:!2026-03-09,126,393!2026-03-03,121,393-->
 - `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2026-03-14,130,393!2026-03-09,126,393-->
 - `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2026-03-03,121,393!2026-03-14,130,393-->
-- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2027-12-04,643,413!2026-03-02,120,393-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2027-12-04,643,413!2027-12-06,644,413-->
 
 <!--/pytextgen-->
 
@@ -218,7 +218,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2026-03-07,124,393!2026-03-15,131,393!2026-03-15,131,393!2027-11-17,628,413!2026-03-02,120,393-->
+Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2026-03-07,124,393!2026-03-15,131,393!2026-03-15,131,393!2027-11-17,628,413!2027-12-05,643,413-->
 
 ```Python
 # pytextgen generate data

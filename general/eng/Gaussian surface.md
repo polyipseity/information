@@ -17,7 +17,7 @@ tags:
 
 For {@{concreteness}@}, {@{the electric field is considered in this article}@}, as this is {@{the most frequent type of field the surface concept is used for}@}. <!--SR:!2026-03-04,286,330!2026-03-10,294,330!2029-03-23,1162,350-->
 
-Gaussian surfaces are usually {@{carefully chosen to exploit [symmetries](symmetry.md) of a situation to simplify the calculation of the [surface integral](surface%20integral.md)}@}. If {@{the Gaussian surface is chosen such that for every point on the surface the component of the electric field along the [normal vector](normal%20vector.md) is constant}@}, then {@{the calculation will not require difficult integration as the constants which arise can be taken out of the integral}@}. It is defined as {@{the closed surface in three dimensional space by which the flux of vector field be calculated}@}. <!--SR:!2026-03-02,286,330!2029-02-13,1129,350!2029-04-08,1172,350!2027-10-06,731,330-->
+Gaussian surfaces are usually {@{carefully chosen to exploit [symmetries](symmetry.md) of a situation to simplify the calculation of the [surface integral](surface%20integral.md)}@}. If {@{the Gaussian surface is chosen such that for every point on the surface the component of the electric field along the [normal vector](normal%20vector.md) is constant}@}, then {@{the calculation will not require difficult integration as the constants which arise can be taken out of the integral}@}. It is defined as {@{the closed surface in three dimensional space by which the flux of vector field be calculated}@}. <!--SR:!2029-09-29,1307,350!2029-02-13,1129,350!2029-04-08,1172,350!2027-10-06,731,330-->
 
 ## common Gaussian surfaces
 
