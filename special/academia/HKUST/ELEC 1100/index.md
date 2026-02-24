@@ -60,6 +60,7 @@ The content is in teaching order.
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
+- [electronic component](electronic%20component.md)
 
 ## assignments
 
@@ -123,6 +124,17 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-02-06T11:30:00+08:00/2026-02-06T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: basic components
+- ELEC 1100
+  - ELEC 1100 / ECE areas relevant to robotics ::@:: Robotics draws on multiple ECE subfields grouped by function: **hardware** (nanoelectronics for core devices; MEMS for micro‑robots and sensors; photonics for optical sensors), **computation & control** (integrated circuits & systems and system automation for control algorithms; multimedia & signal processing for information processing; computer engineering for decision‑making) and **communications** (wireless communication and networking for robot links).
+  - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
+    - [§ electricity](electronic%20component.md#electricity)
+    - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge)
+    - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators)
+    - [§ current](electronic%20component.md#current)
+    - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference)
+    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
+    - [§ capacitors](electronic%20component.md#capacitors)
+    - [§ capacitor actions](electronic%20component.md#capacitor%20actions)
 
 ### week 2 lab 1
 
