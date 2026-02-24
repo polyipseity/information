@@ -44,4 +44,4 @@ return (text, notes)
    - Nested cloze deletions with `{@{ }@}`
    - Hard-marked terms with `hard(...)` wrapper
 
-**Regeneration**: Use `uv run -m init generate <path>` after editing source data to regenerate pytextgen blocks.
+**Regeneration**: Flashcard and other generated content is handled by the repository’s build workflows; agents should never run `uv run -m init generate` themselves.

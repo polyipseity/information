@@ -10,6 +10,11 @@ description: Regenerate programmatically-generated content blocks in knowledge b
 
 Use this skill when working with pytextgen-powered content generation, including regenerating flashcards, clearing generated regions, managing caches, and debugging generation issues.
 
+> **Agent note:** the examples below describe how the `init generate` tool works
+> when a human runs it.  Agents should **not** trigger this command on their
+> own while editing notes—flashcard and other generated content are rebuilt
+> automatically during normal build and packaging workflows.
+
 ## What pytextgen does
 
 pytextgen is a Python library (git submodule in `tools/pytextgen/`) that generates content programmatically in Markdown files:

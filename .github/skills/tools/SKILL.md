@@ -74,17 +74,20 @@ The `tools/` directory contains all helper scripts and utilities:
 
 1. Scaffold note: `uv run -m "templates.new wiki page"` (tools-templates)
 2. Ingest HTML: `uv run -m "convert wiki"` (convert wiki.py)
-3. Generate flashcards: `uv run -m init generate <file>` (init.py + pytextgen)
+3. Flashcard generation is automatic; do **not** run `uv run -m init generate`.
+   Build workflows will handle it.
 
 ### Academic course organization
 
 1. Convert LMS export: `python -m tools.special."convert Canvas submission"` (tools-special)
 2. Update index: Edit `special/academia/<Institution>/index.md`
-3. Generate course tables: Add pytextgen fences, run `python -m init generate` (pytextgen)
+3. Add pytextgen fences; regeneration is handled by the build system and
+   should not be invoked manually.
 
 ### Packaging and publishing
 
-1. Regenerate all: `uv run -m init generate -C` (init.py)
+1. Regeneration of generated content is automatic and occurs as part of the
+   build; manual invocation (`uv run -m init generate`) is not required.
 2. Package bundle: `uv run -m pack -o bundle.zip -n 50 <paths>` (pack.py)
 3. Publish filtered history: `uv run -m publish --paths-file paths.txt` (publish.py)
 
@@ -178,7 +181,7 @@ If changes are needed, ask user for permission first.
 
 ### Tool coordination
 
-- **Regenerate before packaging**: Always run `uv run -m init generate -C` before `pack.py`
+- **Regenerate before packaging**: Generated content is normally kept fresh by the build process; manual `uv run -m init generate -C` is rarely needed and agents should not perform it.
 - **Clean before publishing**: Verify `private/` content is properly filtered before `publish.py`
 - **Archive before ingestion**: Use pyarchivist for media before manual note creation
 - **Template before conversion**: Scaffold frontmatter before ingesting content

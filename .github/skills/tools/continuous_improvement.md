@@ -24,9 +24,10 @@ This document describes the feedback loop for continuously improving the
 - When a tool marks sessions `status: unscheduled`, it should not write a
   `topic:` field.  This convention prevents misleading placeholders and
   is enforced in the academic‑notes validator.
-- Before packaging or publishing, always run `uv run -m init generate -C`
-  to ensure generated content is fresh; forgetting this step has led to
-  stale bundles in the past.
+- Before packaging or publishing, generated content is refreshed by
+  the standard build workflow; explicit `uv run -m init generate -C` is
+  not required and agents should not advise running it (stale bundles were
+  a past issue when tests were bypassed).
 - Running `pnpm run check:md` on generated files helps catch duplicate
   headings and formatting issues early.
 - Tools that modify Markdown (especially `init.py`) should exclude

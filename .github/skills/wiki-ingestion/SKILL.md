@@ -65,21 +65,21 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 - Outputs Markdown that preserves Wikipedia structure
 - **Action**: Paste output below the frontmatter in your note file
 
-### Step 4: Generate flashcards
+### Step 4: Flashcard state
 
-**Command**: `uv run -m init generate <file>`
-
-- Scans note for cloze markup: `{@{ hidden text }@}`, `::@::`, `:@:`
-- Generates spaced-repetition flashcard state
-- Inserts generated flashcard regions marked with `<!--pytextgen generate section=...-->`
-- See [pytextgen](../pytextgen/SKILL.md) skill for details
+Flashcard creation is managed automatically by the repository’s build
+workflows; agents and authors are not expected to run any commands to
+produce flashcards.  The generator scans for cloze markup such as
+`{@{ hidden text }@}`, `::@::`, or `:@:` and updates pytextgen regions behind the
+scenes.  See [pytextgen](../pytextgen/SKILL.md) skill for details.
 
 ### Step 5: Review and finalize
 
 - Review `aliases` and `tags` in YAML frontmatter
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
 - Verify cloze markup is added to key terms
-- Test regeneration: `uv run -m init generate -C <file>`
+- Trust the automated build process to regenerate flashcards; there is no
+  need for manual commands.
 - Commit when satisfied
 
 ## Best practices
@@ -89,7 +89,8 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 - **YAML structure**: Use [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`
 - **Keep attribution**: Preserve Wikipedia source URL in frontmatter or as HTML comment
 - **Review formatting**: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings
-- **Test generation**: After editing, run `python -m init generate <file>` to verify flashcard creation
+- **Test generation**: This is handled by CI/build automatically; the agent
+  should not run the generator manually when verifying edits.
 - **Add cloze markup**: Manually annotate key terms with `{@{ }@}`, `::@::`, or `:@:` for active recall
 
 ## Common issues

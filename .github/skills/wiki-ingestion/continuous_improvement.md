@@ -16,7 +16,8 @@ similar).
    examples to prevent recurrence.
 3. **Validate locally.**  Run the same commands the user would run and
    confirm the issue is resolved (e.g. ingest a sample page, inspect
-   archive paths, run `uv run -m init generate`).  Check markdown with
+  archive paths).  Generation happens automatically, so there is no need to
+  execute `uv run -m init generate` during validation.  Check markdown with
    `pnpm run check:md` to ensure formatting remains valid.
 4. **Present changes.**  Either create a PR or save a patch and attach it
    to the feedback note.  When the user approves, merge the update and
@@ -29,9 +30,9 @@ similar).
 - Ensure media downloads land in `archives/Wikimedia Commons/` with the
   expected filename; incorrect renames often stem from clipboard
 garbled HTML.
-- After ingestion, remember to run `uv run -m init generate <file>` so
-  that any cloze markup added later produces flashcards; remind the user
-  about this step in the workflow.
+- After ingestion, flashcards will be produced automatically during the
+  normal build; note this in the workflow rather than advising a manual
+  command.
 - Validate the final markdown with `markdownlint-cli2` to catch duplicate
   headings and other structural problems that can occur when pasting big
   blocks of HTML.

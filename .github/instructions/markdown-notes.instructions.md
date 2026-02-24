@@ -32,7 +32,8 @@ applyTo: "general/**/*.md"
 - Never escape, encode, or reflow text containing cloze markup
 - Do not modify or wrap across multiple lines
 - Preserve spacing inside delimiters
-- After editing, regenerate with `uv run -m init generate <file>` (see pytextgen skill)
+- After editing, you do **not** need to regenerate manually; the build system
+  handles it and agents should not attempt to invoke any generation command.
 
 ## pytextgen blocks
 
@@ -48,7 +49,7 @@ applyTo: "general/**/*.md"
 - Never modify section IDs or format specifiers
 - Content between tags is auto-replaced on regeneration
 
-**When editing**: If modifying prose inside/around fences, ensure fence syntax remains untouched. Test regeneration with `uv run -m init generate <file>`.
+**When editing**: If modifying prose inside/around fences, ensure fence syntax remains untouched. Regeneration is automatic and the agent should avoid running `uv run -m init generate`; instead rely on build checks to validate fence integrity.
 
 ## Links & media
 
@@ -79,4 +80,4 @@ applyTo: "general/**/*.md"
 ## Developer tooling & testing (notes-related changes)
 
 - If you change code that modifies Markdown (`init.py`, `tools/pytextgen`, or converters), add tests that validate generated output and round-trip behaviour. Unit-tests should check small deterministic inputs; integration tests should run the generator end-to-end in `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) and assert output files and fence contents. When converting path-like objects to `str` in tests or code use `os.fspath(path_like)`.
-- For content edits, run `uv run -m init generate <file>` and include a test that calls the same generation and verifies a stable output. This prevents accidental fence corruption and ensures pytextgen compatibility.
+- For content edits, include a test that verifies generated output is stable without requiring the generator to be executed; avoid running `uv run -m init generate` during automated tests, and agents should not perform it.
