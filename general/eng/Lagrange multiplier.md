@@ -64,7 +64,7 @@ Note that {@{$\ \nabla _{\lambda }{\mathcal {L} }(x,y,\lambda )=0\ {}$ implies $
 
 To summarize {@{$$\nabla _{x,y,\lambda }{\mathcal {L} }(x,y,\lambda )=0\iff {\begin{cases}\nabla _{x,y}f(x,y)=-\lambda \,\nabla _{x,y}g(x,y)\\g(x,y)=0\end{cases} }$$}@} The method {@{generalizes readily to functions on $n$ variables}@} {@{$$\nabla _{x_{1},\dots ,x_{n},\lambda }{\mathcal {L} }(x_{1},\dots ,x_{n},\lambda )=0$$}@} which amounts to {@{solving _n_ + 1 equations in _n_ + 1 unknowns}@}.
 
-{@{The constrained extrema of _f_}@} are {@{_[critical points](critical%20point%20(mathematics).md)_ of the Lagrangian ${\mathcal {L} }$}@}, but they are {@{not necessarily _local extrema_ of ${\mathcal {L} }$}@} \(see [§ Example 2](#example%202) below\).
+{@{The constrained extrema of _f_}@} are {@{_[critical points](critical%20point%20(mathematics).md)_ of the Lagrangian ${\mathcal {L} }$}@}, but they are not {@{necessarily _local extrema_ of ${\mathcal {L} }$ (annotation: can be _saddle points_)}@} \(see [§ Example 2](#example%202) below\).
 
 One may {@{[reformulate the Lagrangian](Hamiltonian%20mechanics.md#As%20a%20reformulation%20of%20Lagrangian%20mechanics) as a [Hamiltonian](Hamiltonian%20(control%20theory).md)}@}, in which case {@{the solutions are local minima for the Hamiltonian}@}. This is done in {@{[optimal control](optimal%20control.md) theory}@}, in the form of {@{[Pontryagin's maximum principle](Pontryagin's%20maximum%20principle.md)}@}.
 
@@ -182,7 +182,7 @@ We use Lagrange multipliers to {@{find the point of maximum entropy, $\ {\vec {p
 
 > {@{![Lagrange multipliers cause the critical points to occur at saddle points \(Example __5__\).](../../archives/Wikimedia%20Commons/Lagnum1.png)}@}
 >
-> Lagrange multipliers {@{cause the critical points to occur at saddle points \(Example __5__\)}@}.
+> {@{Lagrange multipliers}@} cause {@{the critical points to occur at saddle points \(Example __5__\)}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -190,7 +190,7 @@ We use Lagrange multipliers to {@{find the point of maximum entropy, $\ {\vec {p
 >
 > {@{The magnitude of the gradient}@} can be used to {@{force the critical points to occur at local minima \(Example __5__\)}@}.
 
-{@{The critical points of Lagrangians}@} occur at {@{[saddle points](saddle%20point.md), rather than at local maxima \(or minima\)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[17\]](#^ref-17)</sup> Unfortunately, {@{many numerical optimization techniques}@}, such as {@{[hill climbing](hill%20climbing.md), [gradient descent](gradient%20descent.md), some of the [quasi-Newton methods](quasi-Newton%20method.md)}@}, among others, are designed to {@{find local maxima \(or minima\) and not saddle points}@}. For this reason, one must {@{either modify the formulation to ensure that it's a minimization problem}@} \(for example, by {@{extremizing the square of the [gradient](gradient.md) of the Lagrangian as below}@}\), or else use {@{an optimization technique that finds [stationary points](stationary%20points.md)}@} \(such as {@{[Newton's method](Newton's%20method%20in%20optimization.md) without an extremum seeking [line search](line%20search.md)}@}\) and not {@{necessarily extrema}@}.
+{@{The critical points of Lagrangians}@} occur at {@{[saddle points](saddle%20point.md), rather than at local maxima \(or minima\)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[17\]](#^ref-17)</sup> (annotation: To clarify, they are {@{generally saddle points but can be extrema in some cases}@}.) Unfortunately, {@{many numerical optimization techniques}@}, such as {@{[hill climbing](hill%20climbing.md), [gradient descent](gradient%20descent.md), some of the [quasi-Newton methods](quasi-Newton%20method.md)}@}, among others, are designed to {@{find local maxima \(or minima\) and not saddle points}@}. For this reason, one must {@{either modify the formulation to ensure that it's a minimization problem}@} \(for example, by {@{extremizing the square of the [gradient](gradient.md) of the Lagrangian as below}@}\), or else use {@{an optimization technique that finds [stationary points](stationary%20points.md)}@} \(such as {@{[Newton's method](Newton's%20method%20in%20optimization.md) without an extremum seeking [line search](line%20search.md)}@}\) and not {@{necessarily extrema}@}.
 
 As a simple example, consider {@{the problem of finding the value of _x_ that minimizes $\ f(x)=x^{2}\ {}$}@}, constrained such that {@{$\ x^{2}=1~$}@}. \(This problem is {@{somewhat untypical because there are only two values that satisfy this constraint}@}, but it is {@{useful for illustration purposes}@} because {@{the corresponding unconstrained function can be visualized in three dimensions}@}.\)
 

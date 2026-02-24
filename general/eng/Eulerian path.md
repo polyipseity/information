@@ -120,7 +120,7 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 
 > {@{![An infinite graph with all vertex degrees equal to four but with no Eulerian line](../../archives/Wikimedia%20Commons/Kely%20graph%20of%20F2%20clear.svg)}@}
 >
-> {@{An infinite graph with all vertex degrees equal to four but with no Eulerian line}@}
+> {@{An infinite graph with all vertex degrees equal to four}@} but {@{with no Eulerian line}@}
 
 In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup>
 

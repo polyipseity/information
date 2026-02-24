@@ -36,7 +36,7 @@ Nodal analysis is {@{possible when all the circuit elements' branch constitutive
 
 > {@{![Basic example circuit with one unknown voltage, V<sub>1</sub>1.](../../archives/Wikimedia%20Commons/Nodal%20analysis.svg)}@}
 >
-> {@{Basic example circuit with one unknown voltage, V<sub>1</sub>.}@}
+> {@{Basic example circuit}@} with {@{one unknown voltage, V<sub>1</sub>}@}.
 
 {@{The only unknown voltage in this circuit is $V_{1}$}@}. There are {@{three connections to this node and consequently three currents to consider}@}. {@{The direction of the currents in calculations}@} is {@{chosen to be away from the node}@}.
 

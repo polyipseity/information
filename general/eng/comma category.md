@@ -60,7 +60,7 @@ Another special case occurs when {@{both $S$ and $T$ are functors with domain ${
 
 ## properties
 
-For {@{each comma category}@} there are {@{forgetful functors from it (annotation: they are the domain, codomain, and arrow functor)}@}.
+For {@{each comma category}@} there are {@{forgetful functors from it}@}. (annotation: they are {@{the domain, codomain, and arrow functor}@})
 
 - Domain functor, ::@:: $S\downarrow T\to {\mathcal {A} }$, which maps:
   - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$;

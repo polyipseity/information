@@ -134,7 +134,7 @@ One can define {@{a [binary relation](binary%20relation.md) on the edges of an a
 
 ### block-cut tree
 
-{@{A __cutpoint__, __cut vertex__, or __articulation point__ of a graph _G_}@} is {@{a vertex that is shared by two or more blocks}@}. {@{The structure of the blocks and cutpoints of a connected graph}@} can be described by {@{a [tree](tree%20(graph%20theory).md) called the __block-cut tree__ or __BC-tree__}@}. This tree has {@{a vertex for each block and for each articulation point of the given graph}@}. There is {@{an edge in the block-cut tree for each pair of a block and an articulation point that belongs to that block}@}.<sup>[\[8\]](#^ref-8)</sup>
+{@{A __cutpoint__, __cut vertex__, or __articulation point__ of a graph _G_}@} is {@{a vertex that is shared by two or more blocks}@}. {@{The structure of the blocks and cutpoints of a connected graph}@} can be described by {@{a [tree](tree%20(graph%20theory).md) called the __block-cut tree__ or __BC-tree__}@}. This tree has {@{a vertex for each block and for each articulation point of the given graph}@}. There is {@{an edge in the block-cut tree}@} for each {@{pair of a block and an articulation point that belongs to that block}@}.<sup>[\[8\]](#^ref-8)</sup>
 
 > {@{![A graph, and is block-cut tree.](../../archives/Wikimedia%20Commons/Block-cut%20tree2.svg)}@}
 >
