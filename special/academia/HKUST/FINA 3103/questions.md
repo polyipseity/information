@@ -16,5 +16,3 @@ tags:
 # questions
 
 - HKUST FINA 3103
-
-## week 1 lecture

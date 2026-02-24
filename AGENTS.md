@@ -21,24 +21,26 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
 uv run -m "templates.new wiki page"
 uv run -m "convert wiki"  # Paste Wikipedia HTML from clipboard
-uv run -m init generate <file>  # Generate flashcards from cloze markup
+# Flashcards are created automatically by the build; do not run
+# `uv run -m init generate` yourself.
 ```
 
 **Maintaining content**:
 
 ```bash
-# Regenerate all generated blocks (see pytextgen skill)
-uv run -m init generate -C  # Force cache rebuild
+# The repository rebuild workflows handle regeneration; agents and
+# authors typically do not invoke `uv run -m init generate` manually.
 
-# Clear stale content before troubleshooting (see pytextgen skill)
+# If you need to clear stale generated regions, the clear command is
+# available:
 uv run -m init clear --type CONTENT <optional-paths>
 ```
 
 **Organizing & publishing**:
 
 ```bash
-# Before packaging/publishing, regenerate everything (see tools skill)
-uv run -m init generate -C
+# Generated content is rebuilt automatically during packaging; manual
+# `uv run -m init generate` is not required.
 
 # Create PageRank-optimized bundle (see tools skill)
 uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 <paths>
@@ -47,7 +49,7 @@ uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 <paths>
 uv run -m publish --paths-file paths.txt
 ```
 
-For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).
+For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).  Instruction metadata now lives in each file's frontmatter.  Only `name`, `description`, and `applyTo` are supported keys in instruction frontmatter—do not add extra fields.
 
 ## Dependencies
 
@@ -96,7 +98,7 @@ Notes:
 
 Common scripts (see `package.json`):
 
-- `pnpm run check` — repository checks (runs `check:md`)
+- `pnpm run check` — repository checks (runs `check:md`).  When you later run `pnpm run check:md` (or `pnpm run format:md`) with explicit paths or filenames, always add `--no-globs` and list the exact files so the paths are treated literally and the entire workspace is not scanned.
 - `pnpm run format` — formatting helpers (runs `format:md`)
 - `pnpm run commitlint` — validate commit messages
 - `pnpm run prepare` — register Husky hooks
@@ -118,6 +120,7 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 - [editing-conventions.instructions.md](.github/instructions/editing-conventions.instructions.md) → `**/*.md` (general editing rules)
 - [markdown-notes.instructions.md](.github/instructions/markdown-notes.instructions.md) → `general/**/*.md`
 - [special.instructions.md](.github/instructions/special.instructions.md) → `special/**/*.md`, `special/**/*.py`
+- [special-pytextgen.instructions.md](.github/instructions/special-pytextgen.instructions.md) → `special/**/*.md` (pytextgen usage & regeneration)
 - [archives.instructions.md](.github/instructions/archives.instructions.md) → `archives/**/*.md`
 - [commit-convention.instructions.md](.github/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
 
@@ -145,18 +148,15 @@ Instruction files auto-apply via glob patterns. See `.github/instructions/` for 
 
 Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` for details:
 
+**Skills metadata**: Each skill is self-described in its `SKILL.md` frontmatter with `name`, `description`, and `applyTo` (and optional `parent` or `license`). Agents may inspect individual skill documents directly.
+
 ### Content creation & ingestion
 
 - **[wiki-ingestion](.github/skills/wiki-ingestion/SKILL.md)** — Import Wikipedia articles, normalize links/media, scaffold new notes
-- **[tools-templates](.github/skills/tools-templates/SKILL.md)** — Template scaffolding, YAML conventions, pytextgen fence templates
 - **[pytextgen](.github/skills/pytextgen/SKILL.md)** — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
-- **[academic-notes](.github/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
-
-### Tools & workflows
-
-- **[tools](.github/skills/tools/SKILL.md)** — Repository-wide tooling overview, tool coordination, dependency management
-- **[tools-special](.github/skills/tools-special/SKILL.md)** — LMS converters (Canvas/HKUST Zinc), course catalog fetchers, academic workflows
+- **[tools](.github/skills/tools/SKILL.md)** — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
 - **[pyarchivist](.github/skills/pyarchivist/SKILL.md)** — Archive online content, auto-maintain `index.md`, media management
+- **[academic-notes](.github/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
 
 **Skill flow**: Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
 
@@ -170,7 +170,7 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` 
 - See `.github/instructions/agent-quickstart.instructions.md` for a concise checklist agents should follow before changing files or making commits.
 - Recommended workspace settings: `chat.useAgentsMdFile = true`, `chat.useAgentSkills = true` to enable skill-based guidance and the root `AGENTS.md` for context.
 - Safe startup: `pnpm install` → `pnpm run prepare` → `pnpm run format` → `pnpm run check` → `pnpm run test`.
-- Regenerate content before packaging: `uv run -m init generate -C`; use `uv run -m pack` and `uv run -m publish` only after tests pass and user approval for publishing sensitive content.
+- Regeneration of content happens automatically, so there's no need to run `uv run -m init generate -C`; use `uv run -m pack` and `uv run -m publish` only after tests pass and user approval for publishing sensitive content.
 - Always follow `.github/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); **prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.**
 - Ask for explicit permission before editing `private/`, `self/`, or any submodule content; update that submodule's `AGENTS.md` and `.github/instructions/` when you introduce new commands or workflows.
 - Use the Todo List Tool for multi-step tasks and include short, test-backed PRs with a clear rationale when making non-trivial changes.

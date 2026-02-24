@@ -52,7 +52,7 @@ These model classes form a hierarchy of information content: an explicit model t
 
 > {@{![Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)](../../archives/Wikimedia%20Commons/Cartpole.gif)}@}
 >
-> {@{Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)}@} <!--SR:!2030-07-11,1613,369!2030-10-02,1679,369-->
+> {@{Pole Balancing example}@} \(rendering of {@{the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)}@}\) <!--SR:!2030-07-11,1613,369!2030-10-02,1679,369-->
 
 An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic control theory}@}. <!--SR:!2030-08-04,1631,369!2030-10-19,1693,369-->
 
@@ -84,21 +84,21 @@ In {@{value iteration \([Bellman 1958](#CITEREFBellman1958)\), which is also cal
 
 #### policy iteration
 
-In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, {@{step one (value update) is performed once, and then step two (policy update) is performed once, then both are repeated until policy converges}@}. Then {@{step one is again performed once and so on}@}. \(Policy iteration was {@{invented by Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which {@{he had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369-->
+In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, one first {@{performs _Value Determination_}@} by solving {@{for $V$ from the linear system described in step one}@}, then {@{performs _Policy Improvement_}@} by computing {@{$\pi$ as in step two}@}, then {@{repeats both steps until the policy converges}@}. \(Policy iteration was invented by {@{Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which he {@{had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369-->
 
-Instead of {@{repeating step two to convergence}@}, it may be {@{formulated and solved as a set of linear equations}@}. These equations are merely obtained by {@{making $s=s'$ in the step two equation}@}.<!-- <sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> --> Thus, {@{repeating step two to convergence}@} can be {@{interpreted as solving the linear equations by [relaxation](relaxation%20(iterative%20method).md)}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369!2030-07-22,1621,369!2029-06-28,1218,349-->
+Since {@{policy iteration}@} effectively {@{interleaves a linear inverse problem with a nonlinear operation}@}, it may interpreted as a type of {@{[relaxation](relaxation%20(iterative%20method).md) method}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369!2030-07-22,1621,369!2029-06-28,1218,349-->
 
-This variant has the advantage that {@{there is a definite stopping condition}@}: when {@{the array $\pi$ does not change in the course of applying step 1 to all states}@}, {@{the algorithm is completed}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369-->
+{@{This variant}@} has the advantage that there is {@{a definite stopping condition}@}. Since there is {@{a unique solution $V$ for each policy $\pi$}@}, {@{the algorithm is completed}@} once {@{the _Policy Improvement_ produces the same policy twice consecutively}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369-->
 
-{@{Policy iteration}@} is usually {@{slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-03-25,27,401!2026-03-24,26,401-->
+While there are situations where {@{policy iteration may be faster than value iteration}@} \(e.g. when {@{the action space is significantly larger than the state space}@}\), policy iteration is {@{usually slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-03-25,27,401!2026-03-24,26,401-->
 
 #### modified policy iteration
 
-In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Puterman & Shin 1978](#CITEREFPutermanShin1978)\)}@}, {@{step one is performed once, and then step two is repeated several times}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Then {@{step one is again performed once and so on}@}. <!--SR:!2028-06-11,991,349!2030-10-03,1680,369!2030-05-08,1561,369-->
+In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Puterman & Shin 1978](#CITEREFPutermanShin1978)\)}@}, {@{step one \(annotation: value determination\) is repeated several times}@}, and then {@{step two \(annotation: policy improvement\) is performed once}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Then {@{step one \(annotation: value determination\) is again repeated several times and so on}@}. <!--SR:!2028-06-11,991,349!2030-10-03,1680,369!2030-05-08,1561,369-->
 
 #### prioritized sweeping
 
-In this variant, the steps are {@{preferentially applied to states which are in some way important}@} – whether based on {@{the algorithm \(there were large changes in $V$ or $\pi$ around those states recently\)}@} or based on {@{use \(those states are near the starting state, or otherwise of interest to the person or program using the algorithm\)}@}. <!--SR:!2030-07-13,1614,369!2027-12-08,771,329!2029-06-14,1207,349-->
+In {@{this variant}@}, the steps are {@{preferentially applied to states which are in some way important}@} – whether based on {@{the algorithm \(there were large changes in $V$ or $\pi$ around those states recently\)}@} or based on {@{use \(those states are near the starting state, or otherwise of interest to the person or program using the algorithm\)}@}. <!--SR:!2030-07-13,1614,369!2027-12-08,771,329!2029-06-14,1207,349-->
 
 ### computational complexity
 
@@ -151,7 +151,7 @@ In continuous-time MDP, if {@{the state space and action space are continuous}@}
 
 - Main article: [Reinforcement learning](reinforcement%20learning.md)
 
-{@{[Reinforcement learning](reinforcement%20learning.md)}@} is {@{an interdisciplinary area of [machine learning](machine%20learning.md) and [optimal control](optimal%20control.md)}@} that has, {@{as main objective, finding an approximately optimal policy for MDPs where transition probabilities and rewards are unknown}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2030-08-20,1644,369!2030-06-11,1588,369!2030-10-18,1692,369-->
+{@{[Reinforcement learning](reinforcement%20learning.md)}@} is {@{an interdisciplinary area of [machine learning](machine%20learning.md) and [optimal control](optimal%20control.md)}@} that has, {@{as main objective, finding an approximately optimal policy}@} for {@{MDPs where transition probabilities and rewards are unknown}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2030-08-20,1644,369!2030-06-11,1588,369!2030-10-18,1692,369-->
 
 Reinforcement learning can {@{solve Markov-Decision processes without explicit specification of the transition probabilities}@} which are instead {@{needed to perform policy iteration}@}. In this setting, {@{transition probabilities and rewards must be learned from experience}@}, i.e. by {@{letting an agent interact with the MDP for a given number of steps}@}. Both on {@{a theoretical and on a practical level}@}, effort is put in {@{maximizing the sample efficiency, i.e. minimimizing the number of samples needed to learn a policy}@} whose {@{performance is $\varepsilon$-close to the optimal one}@} \(due to {@{the stochastic nature of the process}@}, {@{learning the optimal policy with a finite number of samples}@} is, in general, impossible\). <!--SR:!2029-12-16,1430,369!2030-06-02,1579,369!2030-08-17,1642,369!2030-08-16,1641,369!2030-07-22,1622,369!2030-09-25,1673,369!2030-06-17,1594,369!2030-09-27,1675,369!2030-09-18,1668,369-->
 

@@ -26,6 +26,13 @@ Top issue classes (by frequency):
 4. index.md missing '# index' heading — 61
    - Note: Many assignment or sub-index files lack the leading `# index` heading. Keeping it maintains consistent chronology and parsing.
 
+Additional advisory warnings that frequently appear include:
+
+- sessions marked `status: unscheduled` that also include a `topic:` field.
+- exam sections placed before regular lecture/lab/tutorial entries.
+- duplicate week numbers (often around holidays).
+- semester headings in institution indexes that are out of chronological order.
+
 Guidance for authors and agents
 
 - When creating or editing course `index.md` files, start with `# index`, include a `children:` YAML key listing child pages in teaching order, and ensure `tags:` contains the course flashcard activation tag.

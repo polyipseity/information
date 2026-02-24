@@ -7,7 +7,7 @@ Key patterns to follow (seen in the examples):
 - Provide multiple `aliases:` forms (with/without spaces, with/without `index`, and with the institution prefix) so note pages are easily discoverable.
 - Use `tags:` with the course code using an underscore (e.g., `COMP_3031`) for flashcard activation and include `language/in/<LANGUAGE>`.
 - Include the short line "The content is in teaching order." under the course `name` (this appears in the examples and makes ordering explicit).
-- Keep `children:` ordered and include `assignments/` immediately after `children` (and before sessions); include `attachments` and `questions` if relevant.
+- Keep `children:` ordered and include `assignments/` immediately after `children` (and before sessions); attachments and questions may follow.  A `lectures/` folder is optional and usually unnecessary because session entries live directly in the index page.
 - Use a nested grading `scheme:` block and include exam metadata such as `venue:` and `format:` (e.g., `cheatsheet`, `open book`) when applicable.
 - Use session `status:` fields for cancellations/unscheduled/online notes and add `::@::` takeaways for flashcard generation.
 
@@ -38,42 +38,85 @@ See `.github/skills/academic-notes/examples.md` for concrete snippets and valida
 ```markdown
 ---
 aliases:
-  - <COURSE CODE>
-  - <COURSE CODE> index
-  - <INSTITUTION> <COURSE CODE>
-  - <INSTITUTION> <COURSE CODE> index
+  - <course code>
+  - <course code> index
+  - <institution> <course code>
+  - <institution> <course code> index
 tags:
-  - flashcard/active/special/academia/<INSTITUTION>/<COURSE_CODE>
+  - flashcard/active/special/academia/<institution>/<course code>
   - function/index
-  - language/in/<LANGUAGE>
+  - language/in/<language>
 ---
 
 # index
 
-- <INSTITUTION> <COURSE CODE>
-- name: <Course Name (English)>
-- credits: <N>
+- <institution> <course code>
+- name: <course name (English)>
+- credits: <number of credits>
 
-Short course description goes here. Keep it concise (1–3 lines).
+--- <!-- This horizontal separator is always required. -->
+
+<!--
+Provide a detailed course description and any additional notes here.
+Prefer paragraph prose; use a bulleted list only when the content is
+clearly list-oriented.  This block may contain multiple paragraphs,
+bullet lists, or other Markdown elements.  It appears directly after
+the credits line.  Policy notes are allowed but should not include
+instructor or TA names/emails (those belong in a staff directory or
+syllabus).  Grading policy text should be placed immediately below this
+block rather than inside it.
+
+All HTML comments scattered throughout this template are explanatory
+only—they exist purely to document the template’s structure.  When your
+course page is instantiated, remove every HTML comment (not just the one
+above) before committing.  Comments are for author guidance and must not
+be checked in to the repository.
+-->
+<course description and any additional notes>
 
 The content is in teaching order.
 
 ## logistics
 
 - grading
-  - scheme
-    - assignments ×<n>: <percent>%
-    - midterm examination: <percent>%
-    - final examination: <percent>%
+  - <component name>: <percent>%; <optional description>
+  - <another component>: <percent>%
+  - ... <!-- add or remove components as needed; description follows semicolon only when present -->
+- sections:
+  - lecture: <section identifier> <!-- e.g. L1 or L2 -->
+    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
+    - ...
+  - tutorials: <section identifier> <!-- e.g. T2 or T3 -->
+    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
+    - ...
+  - labs: <section identifier> <!-- e.g. LA3 -->
+    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
+    - ...
+
+<!--
+Agents: prompt the user for lab, tutorial, and lecture section codes and the
+corresponding day‑of‑week/time patterns.  Store each on the same line separated
+by a semicolon so the note contains both the stream identifier and the weekly
+times.  The agent should treat all three fields uniformly; there is no special
+case for lectures.
+-->
 
 ## children
 
 - [assignments/](assignments/index.md)
 - [attachments/](attachments/index.md)
 - [labs/](labs/index.md)
-- [lectures/](lectures/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
+
+<!--
+  A `lectures/` subdirectory is **not required**.  Sessions (lectures,
+  labs, tutorials, exams) are kept directly in the course index page and
+  should be listed in strict chronological order.  Removing the lecture
+  folder simplifies navigation and avoids unnecessary boilerplate; course
+  material may reference individual weeks with nested headings or
+  hyperlinks instead of separate files.
+-->
 
 ## assignments
 

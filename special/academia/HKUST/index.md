@@ -94,6 +94,12 @@ tags:
 - [FINA 3203](FINA%203203/index.md): Derivative Securities \(3 credits\)
 - [FINA 3810](FINA%203810/index.md): Bloomberg Market Concepts Certification \(0 credits\)
 
+### 2026 spring
+
+- [ELEC 1100](ELEC%201100/index.md): Introduction to Electro-Robot Design \(4 credits\)
+
+<!-- future term sections should be inserted above this comment in strict chronological order -->
+
 ## groups
 
 - ENTERPRIZE (RoboMaster): [ISDN 0003](ISDN%200003/index.md)

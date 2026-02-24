@@ -10,25 +10,27 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 1. Workspace configuration
    - Enable `chat.useAgentsMdFile = true` and `chat.useAgentSkills = true` in the IDE to let agent skills and the root `AGENTS.md` guide behavior.
-   - Respect submodule-local `AGENTS.md` and `.github/instructions/` when working inside submodules (innermost takes priority).
+   - Consult individual `SKILL.md` frontmatter for skill metadata. Allowed keys are `name`, `description` plus the small set of optional fields documented in `.github/skills/README.md`. Instruction files only support `name`, `description`, and `applyTo`.
+
+     > **Warning:** `applyTo` is no longer valid in skill files. Do not include it when creating new skills; it remains allowed in instruction files only.
 
 2. First commands (safe startup)
    - `pnpm install`  # installs Node deps and triggers Python dev extras install
    - `pnpm run prepare`  # register Husky Git hooks
-   - `pnpm run format` && `pnpm run check`  # formatting & lint checks
+   - `pnpm run format` && `pnpm run check`  # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any pnpm script prefer supplying explicit paths to limit work and speed up the command)
    - `pnpm run test`  # run tests locally (pre-push runs this automatically)
 
 3. Common repository actions
-   - Regenerate generated content: `uv run -m init generate -C` (see `core-workflows.instructions.md`)
-   - Ingest a Wikipedia page: `uv run -m "templates.new wiki page"` → `uv run -m "convert wiki"` → `uv run -m init generate <file>`
-   - Package: `uv run -m pack -o pack.zip ...` (run `uv run -m init generate -C` first)
+   - Regenerate generated content: build workflows handle this automatically; manual `uv run -m init generate -C` is rarely needed and agents should not suggest it (see `core-workflows.instructions.md`).
+   - Ingest a Wikipedia page: `uv run -m "templates.new wiki page"` → `uv run -m "convert wiki"` (flashcards are created by the build; no manual generation step)
+   - Package: `uv run -m pack -o pack.zip ...` (generated content will already be fresh)
    - Publish (private→public): `uv run -m publish --paths-file <file>` (exercise caution)
 
 Repository gotchas & quick tips
 
 - Preserve `# pytextgen` fences and cloze markup (`{@{ ... }@}`, `::@::`, `:@:`). These are parsed automatically; do not reflow or escape them.
 - Always prefer `pnpm run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
-- Run `uv run -m init generate -C` before `pack` or publishing workflows to avoid stale generated content.
+- Generated content is refreshed automatically; agents should not advise running `uv run -m init generate -C` before pack or publishing workflows.
 - Use the Todo List Tool for multi-step tasks and present the proposed commit message to the user before committing (see `commit-convention.instructions.md`).
 
 1. Commit & PR behavior (must follow `commit-convention.instructions.md`)

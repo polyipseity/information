@@ -378,7 +378,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 - `convert HKUST Zinc submission.py`: HKUST Zinc LMS submission files → YAML frontmatter
 - `get HKUST undergraduate courses.py`: Fetch HKUST course catalog from web → CSV file (`get HKUST undergraduate courses.py.csv`)
 
-**Usage**: See the `tools-special` agent skill for detailed workflows and converter interfaces.
+**Usage**: See the `tools` agent skill (templates & special/tooling sections) for detailed workflows and converter interfaces.
 
 **Stability requirements**:
 
@@ -408,8 +408,8 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ### Developer tooling & tests (special/)
 
 - Any new tool or helper script that transforms or ingests `special/` content requires unit tests and integration tests; tests should be placed under `tests/` using `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) to avoid mutating the repo. For conversion tools, add regression tests that verify expected output for representative inputs and that guard against accidental format drift. When converting path-like objects to strings in tests or code, **always** use `os.fspath(path_like)`.
-- For content changes that affect pytextgen fences, add round-trip tests that run `uv run -m init generate` and assert the generated fences are unchanged except for intentional updates.
-- Ensure `pnpm run check`, `pnpm run format`, and `pnpm run test` pass locally before opening a PR.
+- For content changes that affect pytextgen fences, add round-trip tests that verify the fences remain unchanged except for intentional updates; these tests should not invoke `uv run -m init generate`, and agents are explicitly forbidden from running that command.
+- Ensure `pnpm run check`, `pnpm run format`, and `pnpm run test` pass locally before opening a PR.  Whenever possible include explicit file arguments (e.g. `pnpm run check:md --no-globs special/academia/...`) so commands complete faster and avoid touching unrelated content.
 
 ### Academia-specific
 
@@ -465,41 +465,6 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
   - `tools/pytextgen/`: Content generation library used throughout `special/` for flashcards
   - `tools/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
 
-## pytextgen Usage Patterns in special/
+For `pytextgen` usage patterns and regeneration guidance see `special-pytextgen.instructions.md` (keeps `special.instructions.md` focused on organization and editorial conventions).
 
-Different content types use pytextgen differently:
-
-1. **Sequential lists** (business frameworks, technical guides):
-
-   ```python
-   return await memorize_seq(
-     __env__.cwf_sects("id1", "id2"),
-     items,
-   )
-   ```
-
-2. **Mapped content** (key-value pairs):
-
-   ```python
-   return await memorize_map(
-     __env__.cwf_sects("id1", "id2"),
-     items,
-   )
-   ```
-
-3. **Classical texts with annotations**:
-
-   ```python
-   notes = Notes()
-   text = gen.TextCode.compile(
-     f"""..."""
-   )
-   return (text, notes)
-   ```
-
-4. **Custom formatting** (questions, specialized layouts):
-   - Strategy/solution pairs with `:@:` separator
-   - Nested cloze deletions with `{@{ }@}`
-   - Hard-marked terms with `hard(...)` wrapper
-
-**Regeneration**: Use `uv run -m init generate <path>` to regenerate pytextgen blocks after editing source data
+<!-- NOTE: expanded pytextgen guidance moved to `.github/instructions/special-pytextgen.instructions.md` -->

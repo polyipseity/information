@@ -3,6 +3,12 @@
 
 Lightweight validator for academic course notes under `special/academia/*`.
 
+The validator performs basic structure checks (frontmatter, children lists,
+flashcard tags) and, when run in content mode, emits advisory warnings for
+common patterns such as missing topics, exams placed before lectures,
+duplicate week numbers, unscheduled sessions carrying a topic field, and
+out-of-order semester headings.
+
 Usage:
     python validate_academic.py [--content] [paths...]
 
@@ -103,26 +109,122 @@ def check_markdown_file(
             errors.append("index.md missing '# index' heading")
         if "## children" not in text and "children:" not in text:
             errors.append("index missing 'children' section")
+        # check semester heading chronological order if this is an institution index
+        # look for lines like "### YYYY term" and ensure they increase
+        semesters: list[tuple[int, int, str]] = []  # list of (year, term_order, text)
+        term_map = {"winter": 1, "spring": 2, "summer": 3, "fall": 4}
+        for line in text.splitlines():
+            m = re.match(r"###\s+(\d{4})\s+([A-Za-z]+)", line)
+            if m:
+                year = int(m.group(1))
+                term = m.group(2).lower()
+                order = term_map.get(term)
+                if order:
+                    semesters.append((year, order, line))
+        for i in range(1, len(semesters)):
+            if semesters[i][:2] < semesters[i - 1][:2]:
+                warnings.append(
+                    "semester headings are not in chronological order ({} comes before {})".format(
+                        semesters[i][2], semesters[i - 1][2]
+                    )
+                )
+                break
 
-    # check for session entries (lecture/lab/tutorial)
+    # check for session entries (lecture/lab/tutorial) appearing as
+    # top-level headings or bullet prefixes.  This is much narrower than a
+    # plain word search, which previously flagged casual occurrences such as
+    # "in lab".  Ignore matches that are embedded in running prose.
     if (
-        "lecture" in text or "lab" in text or "tutorial" in text
-    ) and "datetime:" not in text:
+        re.search(r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text)
+        and "datetime:" not in text
+    ):
         errors.append("appears to include session entries but no 'datetime:' found")
 
     if content_checks:
         if (
-            "lecture" in text or "lab" in text or "tutorial" in text
-        ) and "topic:" not in text:
+            re.search(r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text)
+            and "topic:" not in text
+        ):
             warnings.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
             )
-        if ("lecture" in text or "lab" in text or "tutorial" in text) and (
-            "learning_outcomes:" not in text and "takeaway:" not in text
-        ):
+        # new rule: flag asterisk-based emphasis
+        # (regex should avoid matching table pipes or escaped asterisks)
+        if re.search(r"(?<!\\)(\*\*[^\*\n]+\*\*|\*[^\*\n]+\*)", text):
             warnings.append(
-                "no 'learning_outcomes:' or 'takeaway:' detected — consider adding a concise learning outcome or takeaway"
+                "found asterisk-based emphasis; use underscores (_italic_) or __bold__ instead"
             )
+        # previous versions warned when no learning_outcomes or takeaway was
+        # present.  Feedback showed that explicit outcome sections are often
+        # redundant—authors typically capture objectives in prose or via
+        # flashcards—so the warning has been removed (continuous learning).
+        # If future consensus shifts, reintroduce a lighter advisory here.
+        # exam ordering: exams should come after other session types
+        lower = text.lower()
+        if "midterm" in lower or "final" in lower:
+            # find position of first exam header
+            exam_idx = min(
+                (
+                    lower.find(h)
+                    for h in ["## midterm", "## final"]
+                    if lower.find(h) != -1
+                ),
+                default=-1,
+            )
+            if exam_idx != -1:
+                # look for any week/lecture/lab/tutorial after that index
+                tail = lower[exam_idx:]
+                if any(k in tail for k in ["## week", "lecture", "lab", "tutorial"]):
+                    warnings.append(
+                        "exam section appears before some lecture/lab/tutorial entries — exams should be placed after other sessions"
+                    )
+        # unscheduled sessions should not carry a topic field
+        if "status: unscheduled" in lower and "topic:" in lower:
+            warnings.append(
+                "session marked status: unscheduled but contains a 'topic:' field; remove topic from unscheduled sessions"
+            )
+        # duplicate week numbers indicate holiday or numbering bug
+        week_nums = re.findall(r"##\s+week\s+(\d+)", lower)
+        seen: set[str] = set()
+        for num in week_nums:
+            if num in seen:
+                warnings.append(
+                    f"duplicate week number {num} found; check for holiday or numbering bug"
+                )
+                break
+            seen.add(num)
+        # flashcard path completeness: after the top-level course bullet, any
+        # nested bullet should include a slash in its text.  Ignore frontmatter
+        # and items that occur before the course name appears (e.g. logistics
+        # section).  This prevents alerts on unrelated lists.
+        body = text
+        m = FRONT_RE.match(text)
+        if m:
+            body = text[m.end() :]
+        # determine course identifier from first top-level bullet in the body
+        course = None
+        for line in body.splitlines():
+            m = re.match(r"^\s*-\s+(.+?)\s*$", line)
+            if m:
+                # use entire text after dash as course name
+                course = m.group(1)
+                break
+        seen_course = False
+        for line in body.splitlines():
+            if not seen_course and course and line.strip().startswith(f"- {course}"):
+                seen_course = True
+                continue
+            if not seen_course:
+                continue
+            # if we reach a new top-level heading, stop checking further
+            if line.lstrip().startswith("## "):
+                break
+            # match any bullet with at least two spaces of indentation
+            if re.match(r"^ {2,}- ", line) and "/" not in line:
+                warnings.append(
+                    "nested list item does not include full path (e.g. 'ELEC 1100 / ...')"
+                )
+                break
 
     return errors, warnings
 

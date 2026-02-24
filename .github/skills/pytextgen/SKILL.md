@@ -5,7 +5,15 @@ description: Regenerate programmatically-generated content blocks in knowledge b
 
 # pytextgen Workflow
 
+> **Continuous improvement:** see `continuous_improvement.md` in this
+> folder for documented lessons and evolving best practices.
+
 Use this skill when working with pytextgen-powered content generation, including regenerating flashcards, clearing generated regions, managing caches, and debugging generation issues.
+
+> **Agent note:** the examples below describe how the `init generate` tool works
+> when a human runs it.  Agents should **not** trigger this command on their
+> own while editing notes—flashcard and other generated content are rebuilt
+> automatically during normal build and packaging workflows.
 
 ## What pytextgen does
 
@@ -166,4 +174,4 @@ grep -n "# pytextgen generate" path/to/file.md
 - **Wiki ingestion**: After running `convert wiki`, use `init generate` to create flashcards from cloze markup
 - **Academic notes**: Use pytextgen to generate course indexes, assignment lists, or reference tables
 - **Pack/publish**: Regenerate all content before packaging or publishing to ensure consistency
-- **Note conventions**: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and [tools-templates](../tools-templates/SKILL.md) for fence templates
+- **Note conventions**: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and the `templates` section of [tools/SKILL.md](../tools/SKILL.md) for fence templates

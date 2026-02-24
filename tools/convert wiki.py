@@ -23,7 +23,7 @@ from pyarchivist.Wikimedia_Commons.main import (
 from pyarchivist.Wikimedia_Commons.main import (
     main as pyarchivist_Wikimedia_Commons_main,
 )
-from pyperclip import copy as clip_copy  # type: ignore
+from pyperclip import copy as clip_copy
 from yarl import URL
 
 
@@ -229,12 +229,14 @@ async def wiki_html_to_plaintext(
 
             def process_strings(strings: str):
                 return f"{strings}\n"
+
         # headers; should come before bold
         case name if header_match := __HEADER_REGEX.match(name):
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
 
             def process_strings(strings: str):
                 return _fix_name_maybe(strings.strip())
+
         # links: self-links; should come before bold
         case _ if ele.name == "a" and "mw-selflink" in classes:
 
@@ -247,7 +249,7 @@ async def wiki_html_to_plaintext(
             )
         # bold, italic, bold & italic
         case _ if (
-            ele.name in {"b", "i", "strong"}
+            ele.name in {"b", "em", "i", "strong"}
             or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             or __ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
         ):
@@ -256,7 +258,7 @@ async def wiki_html_to_plaintext(
                 or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
                 and "mw-heading" not in classes
             )
-            italic = ele.name in {"i"} or __ITALIC_FONT_STYLE_REGEX.search(
+            italic = ele.name in {"em", "i"} or __ITALIC_FONT_STYLE_REGEX.search(
                 str(ele.get("style", ""))
             )
             bold = "__" if bold else ""

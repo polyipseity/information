@@ -63,7 +63,7 @@ python .github/skills/academic-notes/validate_academic.py --content private/spec
 - Use `pyproject.toml` as the authoritative Python dependency manifest. Keep runtime dependencies in `[project].dependencies` and developer tools in `[dependency-groups].dev` (PEP 722 style). Running `pnpm install` will trigger `prepare`, which runs `uv sync` to install dev extras from `pyproject.toml` using the project's `uv.lock`.
 - Tests: Place tests under `tests/`, mirror the source layout when possible, and use `pytest` (`test_*.py` naming). Add tests for any script, tool or instruction change (especially changes that affect content generation or publishing). Use `pytest.mark.asyncio` for async tests.
 - Hooks & automation: Register Husky hooks with `pnpm run prepare`. Pre-commit runs lint-staged which runs markdown and code formatters; pre-push runs the test suite to avoid broken pushes.
-- Local validation: Before committing or opening a PR run `pnpm run format` and `pnpm run check` and `pnpm run test` locally.
+- Local validation: Before committing or opening a PR run `pnpm run format` and `pnpm run check` and `pnpm run test` locally.  When only a subset of files are affected, supply explicit paths to the commands (for example `pnpm run check:md --no-globs file1.md file2.md`) so they run quickly instead of scanning the whole repo.
 
 ---
 

@@ -5,6 +5,10 @@ description: Repository-wide tooling including init wrapper, pack/publish utilit
 
 # Repository Tools Overview
 
+> **Continuous improvement:** see `continuous_improvement.md` in this
+> folder for notes on tool behaviour, past feedback, and update
+> procedures.
+
 Use this skill when working with repository-wide tools, understanding tool architecture, or coordinating workflows across multiple tool categories.
 
 ## Tool categories
@@ -70,17 +74,20 @@ The `tools/` directory contains all helper scripts and utilities:
 
 1. Scaffold note: `uv run -m "templates.new wiki page"` (tools-templates)
 2. Ingest HTML: `uv run -m "convert wiki"` (convert wiki.py)
-3. Generate flashcards: `uv run -m init generate <file>` (init.py + pytextgen)
+3. Flashcard generation is automatic; do **not** run `uv run -m init generate`.
+   Build workflows will handle it.
 
 ### Academic course organization
 
 1. Convert LMS export: `python -m tools.special."convert Canvas submission"` (tools-special)
 2. Update index: Edit `special/academia/<Institution>/index.md`
-3. Generate course tables: Add pytextgen fences, run `python -m init generate` (pytextgen)
+3. Add pytextgen fences; regeneration is handled by the build system and
+   should not be invoked manually.
 
 ### Packaging and publishing
 
-1. Regenerate all: `uv run -m init generate -C` (init.py)
+1. Regeneration of generated content is automatic and occurs as part of the
+   build; manual invocation (`uv run -m init generate`) is not required.
 2. Package bundle: `uv run -m pack -o bundle.zip -n 50 <paths>` (pack.py)
 3. Publish filtered history: `uv run -m publish --paths-file paths.txt` (publish.py)
 
@@ -115,6 +122,20 @@ Install: `pip install -r requirements.txt`
 
 - `tools/pytextgen/`: Content generation engine
 - `tools/pyarchivist/`: Archiving tool
+
+### Agent‑internal scripts policy
+
+The repository occasionally contains small helper scripts used internally by the
+AI agent (for example, `.github/scripts/validate-skills.py`).  These are
+**not** meant to be installed as CI tools, exposed to users, or added to
+`package.json`/`requirements.txt`.
+
+- Avoid creating similar "agent‑only" utilities without explicit approval from
+  the repository owner.
+- If an automated validation step or helper script is genuinely needed by the
+  project, propose a formal PR and discuss with the owner before adding it to
+  CI or packaging; the default assumption is that such tools belong in the
+  `.github/scripts/` directory and are not executed in production workflows.
 - `self/**`: Personal metadata submodules
 - `private/**`: Private content submodule
 
@@ -160,7 +181,7 @@ If changes are needed, ask user for permission first.
 
 ### Tool coordination
 
-- **Regenerate before packaging**: Always run `uv run -m init generate -C` before `pack.py`
+- **Regenerate before packaging**: Generated content is normally kept fresh by the build process; manual `uv run -m init generate -C` is rarely needed and agents should not perform it.
 - **Clean before publishing**: Verify `private/` content is properly filtered before `publish.py`
 - **Archive before ingestion**: Use pyarchivist for media before manual note creation
 - **Template before conversion**: Scaffold frontmatter before ingesting content

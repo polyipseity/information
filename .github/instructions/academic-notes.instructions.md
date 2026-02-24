@@ -17,7 +17,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 
 - Do NOT create or edit `general/` files automatically. Suggest canonical Wikipedia titles (use the helper) and leave `general/` edits to maintainers.
 - Require a flashcard activation tag in course files: `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` (case-insensitive). The validator will flag missing tags.
-- Use the validator conservatively: run `validate_academic.py --content` for advisory guidance; treat its output as suggestions unless maintainers request strict enforcement.
+- Use the validator conservatively: run `validate_academic.py --content` for advisory guidance; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
 - Treat submodules (including `private/`, `tools/pytextgen/`, `tools/pyarchivist/`) as read-only unless the user explicitly grants permission.
 - Prefer small, reviewable changes to skill docs and helper scripts; document rationale and link to the continuous improvement note when proposing edits.
 
@@ -42,5 +42,5 @@ This instruction set and the skill are living artifacts. If you discover missing
 
 ## Developer tooling & tests (academic notes)
 
-- When adding tooling or scripts that process academic notes (for example, LMS converters), include unit tests and integration tests that exercise representative course pages and edge cases (missing metadata, unexpected frontmatter). Place tests under `tests/` and mirror paths where useful (e.g., `tests/tools/test_convert_canvas.py`).
-- Validators updated for academic notes must come with tests that assert expected warnings and validation results. Run `pnpm run check` and `pnpm run test` locally before proposing CI changes.
+- When adding tooling or scripts that process academic notes (for example, LMS converters), include unit tests and integration tests that exercise representative course pages and edge cases (missing metadata, unexpected frontmatter). Place tests in the skill’s own `tests/` subfolder (`.github/skills/academic-notes/tests/`); mirroring paths inside that directory (e.g., `tests/tools/test_convert_canvas.py`) keeps them close to the code they exercise and avoids cluttering the repository-level `tests/` tree.
+- Validators updated for academic notes must come with tests that assert expected warnings and validation results. Run `pnpm run check` and `pnpm run test` locally before proposing CI changes; when working on a subset of files, supply explicit paths to these commands so they complete faster than scanning the whole repo.
