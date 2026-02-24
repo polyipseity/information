@@ -62,6 +62,20 @@ tags:
     assert not any("nested list item does not include full path" in w for w in warns)
 
 
+def test_asterisk_emphasis_warning(tmp_course_file):
+    tmp_course_file.write_text("""---
+tags:
+ - flashcard/active/special/academia/HKUST/ELEC_1100
+---
+
+This sentence uses *asterisk italics* and also **bold**.
+""")
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert any("asterisk-based emphasis" in w for w in warns)
+
+
 def test_multi_level_grouping(tmp_course_file):
     tmp_course_file.write_text("""---
 tags:

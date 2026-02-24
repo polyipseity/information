@@ -130,15 +130,29 @@ def check_markdown_file(
                 )
                 break
 
-    # check for session entries (lecture/lab/tutorial) using word boundaries
-    # to avoid matching fragments such as 'lab' inside 'available'.
-    if re.search(r"\b(lecture|lab|tutorial)\b", text) and "datetime:" not in text:
+    # check for session entries (lecture/lab/tutorial) appearing as
+    # top-level headings or bullet prefixes.  This is much narrower than a
+    # plain word search, which previously flagged casual occurrences such as
+    # "in lab".  Ignore matches that are embedded in running prose.
+    if (
+        re.search(r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text)
+        and "datetime:" not in text
+    ):
         errors.append("appears to include session entries but no 'datetime:' found")
 
     if content_checks:
-        if re.search(r"\b(lecture|lab|tutorial)\b", text) and "topic:" not in text:
+        if (
+            re.search(r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text)
+            and "topic:" not in text
+        ):
             warnings.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
+            )
+        # new rule: flag asterisk-based emphasis
+        # (regex should avoid matching table pipes or escaped asterisks)
+        if re.search(r"(?<!\\)(\*\*[^\*\n]+\*\*|\*[^\*\n]+\*)", text):
+            warnings.append(
+                "found asterisk-based emphasis; use underscores (_italic_) or __bold__ instead"
             )
         # previous versions warned when no learning_outcomes or takeaway was
         # present.  Feedback showed that explicit outcome sections are often

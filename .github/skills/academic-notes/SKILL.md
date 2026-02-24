@@ -125,6 +125,8 @@ steps:
    - Capture numeric values, parameter ranges, diagrams described in words, algorithm steps, and decision criteria.  For multi‑step examples (derivations, code walkthroughs, troubleshooting procedures), write them out as numbered lists or multiple bullets that mirror the sequence of operations.
    - Avoid high‑level summaries like "we discussed X"; instead, spell out what "X" consisted of.  Conversely, lengthy proofs or policy text that belong in reference material should be summarised with a link to an appropriate `general/` page or attachment rather than transcribed verbatim.
    - Always include at least one representative worked example or problem per major concept.  Simplifying long enumerations to alphabetized sublists is still considered adequate detail because it exposes the underlying structure.
+   - When a slide or lecture discussion generates a long list of related areas (e.g. “ECE areas relevant to robotics”), resist creating a separate top‑level bullet for each item.  Instead, chunk them under a descriptive parent or combine them into a single gloss with `<br/>` separators.  Grouping similar concepts improves readability and prevents an explosion of low‑value flashcards.
+   - Do **not** duplicate material that already appears in a topic‑specific note.  The index entry should simply link to the external file (with appropriate section anchors) and may include a brief summary or the instructor’s remark.  Transcribing full definitions, examples, or explanations from the note back into the index bloats the outline and creates maintenance headaches.
    - Record instructor emphases, asides, exam hints, and common pitfalls as standalone bullets or nested notes – these often turn into valuable flashcards.
    - Avoid introducing acronyms unless they recur frequently.  When you do use an abbreviation, spell out the full phrase on first mention with the acronym in parentheses (e.g. "Robot Institute of America (RIA) definition") to ensure clarity for readers and flashcards.
    - Preserve rhetorical questions and boundary-case prompts ("are animals robots?", "is a motorcycle a robot?") as separate bullets; they surface important distinctions and make excellent flashcard candidates.
@@ -210,6 +212,29 @@ sessions without repeating the same material.  The note itself should be
 written in a neutral, Wikipedia-like style – third person, descriptive tone
 – although the level of detail is governed by the available course
 materials (lecture/talk transcripts, slides, lab manuals, etc.).
+
+- **File layout:** topic-specific notes are authoritative reference pages,
+  not slide transcripts.  They live under `special/academia/<INST>/<COURSE>/`
+  with filenames derived from canonical Wikipedia article titles.  Authors
+  and agents should **never** insert hard line breaks for readability – rely
+  on the editor’s soft-wrap and the rendered viewer.  Paragraphs may be long
+  or split, but each paragraph should be mostly self-contained (a reader who
+  reads only that paragraph should understand its subject roughly 80 % on its
+  own).  Do not insert blank lines arbitrarily except to separate logical
+  paragraphs.
+- **Math formatting:** both inline `$…$` and display `$$…$$` LaTeX must remain
+  on a single source line.  Never break the math code across lines.  Block
+  equations should appear in the same paragraph as surrounding text; avoid
+  placing a `$$` line by itself or inserting additional blank lines before or
+  after it.  This rule applies globally, not just within topic notes.
+- **Paragraph style:** large paragraphs are acceptable; feel free to split
+  when the content naturally shifts focus.  The reader should not have to
+  backtrack to preceding or following paragraphs to understand the current
+  one.  Conciseness is valued, but do not trim detail to the point of
+  obscuring meaning.
+- **Cross-references:** link from lecture entries to the note and include
+  section anchors for specific headings if the session covers only part of
+  the topic.  See the index-linking examples later in this section.
 
 - **When to create**: the subject should be general (i.e. something that could
   plausibly have a Wikipedia page) and it should either appear in the current

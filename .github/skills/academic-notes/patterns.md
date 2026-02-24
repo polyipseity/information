@@ -77,6 +77,7 @@ tags:
 
 - `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
 - **Math delimiters:** use `$…$` for inline math and `$$…$$` for display equations.  Avoid TeX‑style `\(\)`/`\[\]` delimiters, which are not consistently supported by the Markdown renderer and linting tools.
+- **Emphasis style:** italics should be marked with single underscores `_like this_` rather than asterisks.  Bold text uses double underscores `__like this__` instead of `**`.  This convention reduces ambiguity with Markdown tables and cloze markup and is applied across all note types.
 - Use `- Section / subsection ::@:: summary` to create taxonomy-like entries.
 - When writing lists or outlines in source, put each top-level item on its own line; insert `<br/>` for hard line breaks within an item and `<p>` for separate paragraphs.  This preserves machine readability while allowing formatted output.
 - Every `::@::` gloss must begin with a complete hierarchical path that starts with the course name and includes all intermediate folders (e.g. `ELEC 1100 / what is a robot? / features ::@:: …`).  Do not rely on indentation or headings for context; repeat the full path on each gloss so the flashcard generator can operate independently of the surrounding outline.
@@ -171,6 +172,18 @@ For each session, prefer the following elements where appropriate:
   entries; the topic note itself may cross-link back to the `general/`
   article for additional background.
 
+  - **No hard line breaks:** avoid inserting manual newline characters for
+    readability; rely on soft-wrap.  This keeps Git diffs clean and makes
+    automated tools simpler.
+  - **Self‑contained paragraphs:** split text into paragraphs only when the
+    subject matter shifts; each paragraph should stand on its own so that a
+    reader skimming for a term can understand it without context from
+    neighbouring paragraphs.
+  - **Math handling:** all LaTeX (inline or block) must appear on a single
+    source line.  Block equations should not be isolated on their own lines
+    with surrounding blank lines; they belong directly in the paragraph that
+    introduces or follows them.
+
 ## Observed usage patterns
 
 - `::@::` is heavily used as the inline gloss/flashcard separator.
@@ -185,8 +198,8 @@ For each session, prefer the following elements where appropriate:
 
 ## Normalization recommendations
 
-- Accept liberal use of `::@::` as a flashcard signal, but normalize session metadata when editing (convert inline `topic ::@::` to `- topic:` and add `datetime:` when available).
-- Preserve existing `flashcard/active/...` tags; where missing, report files and propose adding the tag in a PR rather than mass-editing.
+- Accept liberal use of `::@::` as a flashcard signal, but normalize session metadata when editing (convert inline `topic ::@::` to `- topic:` and add `datetime:` when available).- When a lecture produces a long enumeration of related subfields or topics, consolidate the list by grouping items into logical categories or merging them into a single gloss.  Avoid dozens of standalone bullets that merely repeat each item; this improves readability and reduces flashcard noise.
+- Do not duplicate material that already lives in a topic-specific note.  The index should link to the external file with appropriate section anchors and may include only a brief summary or lecturer comment.  Copying full definitions or examples back into the index introduces redundancy and makes future edits harder.- Preserve existing `flashcard/active/...` tags; where missing, report files and propose adding the tag in a PR rather than mass-editing.
 - When linking to `general/`, prefer authoritative article titles and link to the percent-encoded filename (do not create `general/` files in the same PR unless requested).
 
 ## Validation hints

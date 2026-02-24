@@ -125,7 +125,15 @@ explicit permission from a maintainer.
     anchors.  Added extensive examples in SKILL.md, examples.md, patterns.md,
     and validator checks reflect this pattern.  See the ELEC 1100 changes
     committed on the same date for a concrete implementation.
-- **2026‑02‑24 (evening):** Learned additional author preferences during
+  - **Formatting rules for topic notes:** do not insert manual line breaks;
+    rely on editor soft-wrap.  Paragraphs should be logically self-contained
+    – they may be long but should make sense on their own.  All LaTeX must be
+    on a single source line, and block math should not be surrounded by
+    empty lines.  These styling points were added to SKILL.md and patterns.md.
+  - **Emphasis delimiters:** switched to underscores for italics (`_x_`) and
+    double underscores for bold (`__x__`) rather than `*`/`**`.  This
+    convention was noted in patterns.md to avoid conflicts with tables and
+    cloze markup and now applies to all note types.- **2026‑02‑24 (evening):** Learned additional author preferences during
   the ELEC 1100 Week 1 work, and subsequently **removed a temporary python
   test** that verified outline formatting (the pattern is now documented in
   the skill itself):
