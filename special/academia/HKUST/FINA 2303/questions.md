@@ -61,7 +61,7 @@ tags:
 > 4. D
 > 5. F
 >
-> - solution: {@{1/2/3/4/5}@} <!--SR:!2026-03-03,286,330-->
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2029-09-28,1305,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -622,7 +622,7 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{4}@} <!--SR:!2026-03-03,250,359-->
+> - solution: {@{4}@} <!--SR:!2029-07-10,1225,379-->
 
 ## week 7 lecture
 

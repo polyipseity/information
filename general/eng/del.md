@@ -14,7 +14,7 @@ tags:
 # del
 
 - This article is about {@{the mathematical operator represented by the nabla symbol}@}. For {@{the symbol itself}@}, see {@{[nabla symbol](nabla%20symbol.md)}@}. For {@{the operation associated with the symbol ∂, also sometimes referred to as "del"}@}, see {@{[Partial derivative](partial%20derivative.md)}@}. For other uses, see [Del \(disambiguation\)](del%20(disambiguation).md).
-- Not to be confused with {@{[Dell](Dell.md)}@}. <!--SR:!2026-03-10,293,330!2029-02-24,1136,350!2026-03-03,290,330!2029-05-21,1201,350!2029-05-23,1202,350!2028-10-11,1030,350-->
+- Not to be confused with {@{[Dell](Dell.md)}@}. <!--SR:!2026-03-10,293,330!2029-02-24,1136,350!2029-10-20,1327,350!2029-05-21,1201,350!2029-05-23,1202,350!2028-10-11,1030,350-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(March 2010\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
@@ -28,7 +28,7 @@ Del is {@{a very convenient [mathematical notation](mathematical%20notation.md) 
 
 - Gradient: ::@:: $\operatorname {grad} f=\nabla f$ <!--SR:!2029-03-21,1159,350!2026-03-07,290,330-->
 - Divergence: ::@:: $\operatorname {div} \mathbf {v} =\nabla \cdot \mathbf {v}$ <!--SR:!2029-01-31,1112,350!2029-09-26,1307,350-->
-- Curl: ::@:: $\operatorname {curl} \mathbf {v} =\nabla \times \mathbf {v}$ <!--SR:!2029-09-15,1297,350!2026-03-03,290,330-->
+- Curl: ::@:: $\operatorname {curl} \mathbf {v} =\nabla \times \mathbf {v}$ <!--SR:!2029-09-15,1297,350!2029-10-19,1326,350-->
 
 ## definition
 
@@ -60,7 +60,7 @@ Del is used as {@{a shorthand form to simplify many long mathematical expression
 
 {@{The vector derivative of a [scalar field](scalar%20field.md) $f$}@} is called {@{the [gradient](gradient.md)}@}, and it can be represented as: {@{$$\operatorname {grad} f={\partial f \over \partial x}{\hat {\mathbf {x} } }+{\partial f \over \partial y}{\hat {\mathbf {y} } }+{\partial f \over \partial z}{\hat {\mathbf {z} } }=\nabla f$$}@} <!--SR:!2029-05-17,1198,350!2029-01-05,1086,350!2026-03-05,288,330-->
 
-It always {@{points in the [direction](direction%20(geometry).md) of greatest increase of $f$}@}, and it has {@{a [magnitude](magnitude%20(mathematics).md) equal to the maximum rate of increase at the point}@}—just like {@{a standard derivative}@}. In particular, if {@{a hill is defined as a height function over a plane $h(x,y)$}@}, {@{the gradient at a given location}@} will be {@{a vector in the xy-plane \(visualizable as an arrow on a map\) pointing along the steepest direction}@}. {@{The magnitude of the gradient}@} is {@{the value of this steepest slope}@}. <!--SR:!2026-03-07,294,330!2029-06-13,1220,350!2026-03-03,290,330!2029-02-09,1121,350!2029-05-28,1206,350!2029-03-09,1149,350!2029-01-18,1099,350!2026-03-07,290,330-->
+It always {@{points in the [direction](direction%20(geometry).md) of greatest increase of $f$}@}, and it has {@{a [magnitude](magnitude%20(mathematics).md) equal to the maximum rate of increase at the point}@}—just like {@{a standard derivative}@}. In particular, if {@{a hill is defined as a height function over a plane $h(x,y)$}@}, {@{the gradient at a given location}@} will be {@{a vector in the xy-plane \(visualizable as an arrow on a map\) pointing along the steepest direction}@}. {@{The magnitude of the gradient}@} is {@{the value of this steepest slope}@}. <!--SR:!2026-03-07,294,330!2029-06-13,1220,350!2029-10-20,1327,350!2029-02-09,1121,350!2029-05-28,1206,350!2029-03-09,1149,350!2029-01-18,1099,350!2026-03-07,290,330-->
 
 In particular, this notation is powerful because {@{the gradient product rule looks very similar to the 1d-derivative case}@}: {@{$$\nabla (fg)=f\nabla g+g\nabla f$$}@} However, {@{the rules for [dot products](dot%20product.md) do not turn out to be simple}@}, as illustrated by: {@{$$\nabla (\mathbf {u} \cdot \mathbf {v} )=(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u} +\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )$$}@} <!--SR:!2029-09-25,1303,350!2029-04-02,1166,350!2026-03-07,294,330!2026-11-13,295,210-->
 
@@ -129,7 +129,7 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 
 > {@{![DCG chart: A simple chart depicting all rules pertaining to second derivatives.](../../archives/Wikimedia%20Commons/DCG%20chart.svg)}@}
 >
-> {@{DCG chart}@}: {@{A simple chart depicting all rules pertaining to second derivatives}@}. {@{D, C, G, L and CC}@} stand for {@{divergence, curl, gradient, Laplacian and curl of curl}@}, respectively. Arrows indicate {@{existence of second derivatives}@}. {@{Blue circle in the middle}@} represents {@{curl of curl}@}, whereas {@{the other two red circles \(dashed\) mean that DD and GG do not exist}@}. <!--SR:!2026-10-25,449,310!2027-10-13,733,330!2029-09-23,1304,350!2027-12-17,774,330!2029-02-27,1139,350!2027-10-10,734,330!2026-03-03,290,330!2029-03-21,1160,350!2028-04-06,812,330-->
+> {@{DCG chart}@}: {@{A simple chart depicting all rules pertaining to second derivatives}@}. {@{D, C, G, L and CC}@} stand for {@{divergence, curl, gradient, Laplacian and curl of curl}@}, respectively. Arrows indicate {@{existence of second derivatives}@}. {@{Blue circle in the middle}@} represents {@{curl of curl}@}, whereas {@{the other two red circles \(dashed\) mean that DD and GG do not exist}@}. <!--SR:!2026-10-25,449,310!2027-10-13,733,330!2029-09-23,1304,350!2027-12-17,774,330!2029-02-27,1139,350!2027-10-10,734,330!2029-10-19,1326,350!2029-03-21,1160,350!2028-04-06,812,330-->
 
 When {@{del operates on a scalar or vector}@}, {@{either a scalar or vector is returned}@}. Because of {@{the diversity of vector products \(scalar, dot, cross\)}@} {@{one application of del already gives rise to three major derivatives}@}: {@{the gradient \(scalar product\), divergence \(dot product\), and curl \(cross product\)}@}. {@{Applying these three sorts of derivatives again to each other}@} gives {@{five possible second derivatives, for a scalar field _f_ or a vector field ___v___}@}; {@{the use of the scalar [Laplacian](Laplacian.md) and [vector Laplacian](vector%20Laplacian.md#vector%20Laplacian)}@} {@{gives two more}@}: $${\begin{aligned}\operatorname {div} (\operatorname {grad} f)&=\nabla \cdot (\nabla f)=\nabla ^{2}f\\\operatorname {curl} (\operatorname {grad} f)&=\nabla \times (\nabla f)\\\operatorname {grad} (\operatorname {div} \mathbf {v} )&=\nabla (\nabla \cdot \mathbf {v} )\\\operatorname {div} (\operatorname {curl} \mathbf {v} )&=\nabla \cdot (\nabla \times \mathbf {v} )\\\operatorname {curl} (\operatorname {curl} \mathbf {v} )&=\nabla \times (\nabla \times \mathbf {v} )\\\Delta f&=\nabla ^{2}f\\\Delta \mathbf {v} &=\nabla ^{2}\mathbf {v} \end{aligned} }$$ <!--SR:!2029-02-01,1113,350!2029-04-12,1165,350!2029-04-13,1166,350!2029-03-30,1167,350!2029-02-07,1119,350!2029-02-19,1131,350!2026-03-08,291,330!2026-03-11,294,330!2029-03-31,1164,350-->
 
@@ -137,10 +137,10 @@ When {@{del operates on a scalar or vector}@}, {@{either a scalar or vector is r
 >
 > - $\operatorname {div} (\operatorname {grad} f)$ ::@:: $=\nabla \cdot (\nabla f)=\nabla ^{2}f$ <!--SR:!2029-09-22,1304,350!2029-09-22,1304,350-->
 > - $\operatorname {curl} (\operatorname {grad} f)$ ::@:: $=\nabla \times (\nabla f)$ <!--SR:!2029-02-16,1128,350!2029-01-23,1104,350-->
-> - $\operatorname {grad} (\operatorname {div} \mathbf {v} )$ ::@:: $=\nabla (\nabla \cdot \mathbf {v} )$ <!--SR:!2026-03-03,286,330!2029-03-12,1152,350-->
+> - $\operatorname {grad} (\operatorname {div} \mathbf {v} )$ ::@:: $=\nabla (\nabla \cdot \mathbf {v} )$ <!--SR:!2028-10-01,943,330!2029-03-12,1152,350-->
 > - $\operatorname {div} (\operatorname {curl} \mathbf {v} )$ ::@:: $=\nabla \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2029-02-02,1114,350!2029-06-19,1224,350-->
 > - $\operatorname {curl} (\operatorname {curl} \mathbf {v} )$ ::@:: $=\nabla \times (\nabla \times \mathbf {v} )$ <!--SR:!2028-08-14,905,330!2029-09-27,1308,350-->
-> - $\Delta f$ ::@:: $=\nabla ^{2}f$ <!--SR:!2029-03-22,1161,350!2026-03-03,286,330-->
+> - $\Delta f$ ::@:: $=\nabla ^{2}f$ <!--SR:!2029-03-22,1161,350!2029-10-01,1308,350-->
 > - $\Delta \mathbf {v}$ ::@:: $=\nabla ^{2}\mathbf {v}$ <!--SR:!2029-06-14,1220,350!2026-03-07,294,330-->
 
 These are {@{of interest principally}@} because {@{they are not always unique or independent of each other}@}. As long as {@{the functions are well-behaved \($C^{\infty }$ in most cases\)}@}, {@{two of them are always zero}@}: {@{$${\begin{aligned}\operatorname {curl} (\operatorname {grad} f)&=\nabla \times (\nabla f)=0\\\operatorname {div} (\operatorname {curl} \mathbf {v} )&=\nabla \cdot (\nabla \times \mathbf {v} )=0\end{aligned} }$$}@} <!--SR:!2026-03-07,294,330!2026-03-07,294,330!2028-12-18,1068,350!2026-03-08,291,330!2029-09-17,1296,350-->

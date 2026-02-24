@@ -41,7 +41,7 @@ return await memorize_table(
 > | {@{kitchen foil}@}          | {@{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}@} |
 > | {@{overhead power cables}@} | {@{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}@}                  |
 > | {@{soft drink cans}@}       | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}@}                      |
-> | {@{window frames}@}         | {@{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}@}                                                                    | <!--SR:!2026-12-26,539,190!2031-04-15,2038,270!2027-06-04,962,270!2030-07-24,1732,250!2026-06-29,782,290!2026-03-03,320,150!2033-02-03,2699,330!2028-09-25,1202,230!2027-01-27,1091,350!2028-09-15,1290,250-->
+> | {@{window frames}@}         | {@{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}@}                                                                    | <!--SR:!2026-12-26,539,190!2031-04-15,2038,270!2027-06-04,962,270!2030-07-24,1732,250!2026-06-29,782,290!2028-02-12,711,170!2033-02-03,2699,330!2028-09-25,1202,230!2027-01-27,1091,350!2028-09-15,1290,250-->
 
 <!--/pytextgen-->
 

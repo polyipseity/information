@@ -85,7 +85,7 @@ The program counter {@{cannot be read or written directly}@}. However, it can be
 
 There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}. <!--SR:!2026-06-19,360,355!2026-05-29,339,355!2026-05-10,320,355!2026-06-07,348,350-->
 
-In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2026-04-10,290,330!2026-04-06,287,330!2026-03-06,275,330!2026-03-13,281,330!2026-03-03,272,330!2029-04-04,1151,350!2029-06-07,1200,350!2029-04-10,1156,350-->
+In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2026-04-10,290,330!2026-04-06,287,330!2026-03-06,275,330!2026-03-13,281,330!2029-07-23,1238,350!2029-04-04,1151,350!2029-06-07,1200,350!2029-04-10,1156,350-->
 
 Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}, it is {@{_not_ a constant operand but a register operand}@}. So {@{it can only be used in locations where a register operand is expected}@}. <!--SR:!2026-04-09,289,330!2026-03-07,276,330!2026-03-06,275,330!2029-04-17,1162,350-->
 
@@ -242,7 +242,7 @@ Notice that {@{some fields are unused}@}. Sometimes, they can be {@{any value \(
 
 ## calling conventions
 
-There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2026-03-03,272,330!2029-06-13,1204,350!2029-07-02,1221,350-->
+There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2029-07-30,1245,350!2029-06-13,1204,350!2029-07-02,1221,350-->
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. This is explained in [§ procedures](#procedures) below. <!--SR:!2027-01-13,518,401-->
 
@@ -306,7 +306,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 
 - `.align <n>` ::@:: _Align_ the _next_ datum on a 2<sup>_n_</sup>-byte boundary. That is, the next datum starts at an address that is a multiple of 2<sup>_n_</sup>. <p> If _n_ is 0, automatic _alignment_ is turned off, since 2<sup>0</sup> = 1, which is effectively no alignment. <!--SR:!2026-03-04,273,330!2029-03-08,1129,350-->
 - `.ascii <str>` ::@:: Stores a non-null-terminated \(ASCII\) string. <!--SR:!2026-04-10,291,330!2029-07-16,1232,350-->
-- `.asciiz <str>` ::@:: Stores a null-terminated \(ASCII\) string. <!--SR:!2026-03-03,272,330!2026-03-13,281,330-->
+- `.asciiz <str>` ::@:: Stores a null-terminated \(ASCII\) string. <!--SR:!2029-07-29,1244,350!2026-03-13,281,330-->
 - `.byte <b1>, ..., <bn>` ::@:: Stores the specified _n_ bytes \(8 bits\). <!--SR:!2026-03-16,283,330!2026-04-13,293,330-->
 - `.data` ::@:: Starts the data segment. <!--SR:!2029-02-07,1101,350!2029-02-18,1112,350-->
 - `.double <d1>, ..., <dn>` ::@:: Stores the specified _n_ doubles \(64 bits, 8 bytes\). <!--SR:!2029-03-01,1123,350!2026-04-10,290,330-->
@@ -323,11 +323,11 @@ The convention is {@{the entry point \(first instruction to be executed when a p
 
 ## control flow
 
-In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2026-03-03,272,330!2026-03-13,281,330!2026-03-07,276,330!2027-11-25,746,330!2029-04-21,1165,350!2029-06-17,1208,350-->
+In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2029-07-22,1237,350!2026-03-13,281,330!2026-03-07,276,330!2027-11-25,746,330!2029-04-21,1165,350!2029-06-17,1208,350-->
 
 To convert {@{structured control flow statements into assembly}@} manually, {@{identify _basic blocks_}@}, which is {@{a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph}@} can be {@{constructed out of these basic blocks}@}. Finally, _label_ {@{the basic blocks at their beginnings}@} and add {@{conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2026-04-12,292,330!2029-03-24,1142,350!2026-04-09,289,330!2028-01-24,795,330!2026-03-15,282,330!2026-04-08,288,330!2029-01-11,1082,350!2029-07-05,1223,350!2029-06-19,1209,350!2026-04-13,293,330!2029-01-18,1087,350!2026-05-13,147,427!2026-05-07,142,427!2026-05-13,147,427-->
 
-To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps}@} to {@{the basic blocks}@}, then {@{the basic blocks each ending}@} with {@{a jump to the exit label}@}, and finally {@{the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label}@}, then {@{comparison and conditional jump to the exit label}@}, {@{the code}@}, and finally {@{a jump to the loop label}@}. You can {@{extrapolate the rest}@} for yourself. You may also {@{simplify the code}@}. <!--SR:!2026-03-17,284,330!2028-03-03,817,330!2026-03-03,272,330!2029-07-15,1231,350!2026-06-17,157,429!2026-06-15,155,429!2026-06-17,157,429!2026-06-13,153,429!2026-06-18,158,429!2026-06-13,153,429!2026-06-16,156,429!2026-06-16,156,429!2026-06-15,155,429-->
+To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps}@} to {@{the basic blocks}@}, then {@{the basic blocks each ending}@} with {@{a jump to the exit label}@}, and finally {@{the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label}@}, then {@{comparison and conditional jump to the exit label}@}, {@{the code}@}, and finally {@{a jump to the loop label}@}. You can {@{extrapolate the rest}@} for yourself. You may also {@{simplify the code}@}. <!--SR:!2026-03-17,284,330!2028-03-03,817,330!2029-07-28,1243,350!2029-07-15,1231,350!2026-06-17,157,429!2026-06-15,155,429!2026-06-17,157,429!2026-06-13,153,429!2026-06-18,158,429!2026-06-13,153,429!2026-06-16,156,429!2026-06-16,156,429!2026-06-15,155,429-->
 
 ## pseudo-instructions
 

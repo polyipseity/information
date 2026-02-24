@@ -87,7 +87,7 @@ There is a version of Poincaré lemma for {@{compactly supported differential fo
 
 > __Lemma__—If $\omega$ is a closed $p$-form with compact support on $\mathbb {R} ^{n}$ and if $p<n$, ::@:: then there is a compactly supported $(p-1)$-form $\psi$ on $\mathbb {R} ^{n}$ such that $d\psi =\omega$. <!--SR:!2026-05-14,230,329!2027-02-14,357,309-->
 
-{@{The usual proof in the non-compact case}@} does not go through since {@{the homotopy _h_ is not proper}@}. Thus, somehow {@{a different argument is needed for the compact case}@}. <!--SR:!2026-07-23,306,349!2026-03-03,116,309!2026-09-17,350,349-->
+{@{The usual proof in the non-compact case}@} does not go through since {@{the homotopy _h_ is not proper}@}. Thus, somehow {@{a different argument is needed for the compact case}@}. <!--SR:!2026-07-23,306,349!2027-02-19,353,309!2026-09-17,350,349-->
 
 ## complex-geometry analog
 

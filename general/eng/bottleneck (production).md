@@ -37,7 +37,7 @@ When {@{input comes in faster than the speed of the process}@}, {@{accumulation 
 
 ### throughput
 
-Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2027-11-05,754,330!2029-04-30,1184,350!2026-03-03,290,330!2029-08-24,1281,350!2029-04-15,1179,350-->
+Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2027-11-05,754,330!2029-04-30,1184,350!2029-10-17,1324,350!2029-08-24,1281,350!2029-04-15,1179,350-->
 
 ### full capacity
 
@@ -85,7 +85,7 @@ To compensate for {@{being the weakest link in the chain of processes}@}, the bo
 
 ### eliminating non-value activities
 
-In {@{removing all non-value activities}@}, you reduce {@{the amount of redundant tasks performed by the bottlenecked machine}@} and hence {@{maximize efficiency}@}. Removing the waste operations results in {@{a shorter cycle time hence allowing the machine to complete each process in less time}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-05,292,330!2028-01-12,801,330!2026-03-03,290,330!2028-10-09,1029,350-->
+In {@{removing all non-value activities}@}, you reduce {@{the amount of redundant tasks performed by the bottlenecked machine}@} and hence {@{maximize efficiency}@}. Removing the waste operations results in {@{a shorter cycle time hence allowing the machine to complete each process in less time}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-05,292,330!2028-01-12,801,330!2029-10-16,1323,350!2028-10-09,1029,350-->
 
 ### provide a constant buffer stock upstream
 

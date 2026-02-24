@@ -603,7 +603,7 @@ Unlike {@{ordinary classes}@}, {@{case classes}@} automatically generate {@{stru
 
 By placing {@{the case classes inside a companion object (`Expr`)}@} we keep {@{the global namespace uncluttered}@}; construction then takes {@{the form `Expr.Number(1)` instead of a bare `Number(1)`}@}. {@{A convenient import (`import Expr.*`)}@} restores {@{the shorter syntax when desired}@}. Such structures are known as {@{__algebraic data types__ (ADTs)}@}, {@{a staple of functional programming}@} that combine {@{product and sum types}@} to describe {@{complex data in a concise, type-safe manner}@}. <!--SR:!2026-04-30,157,429!2026-04-21,149,429!2026-04-27,154,429!2026-04-09,139,420!2026-04-15,144,429!2026-04-25,153,429!2026-04-30,157,429!2026-04-23,151,429!2026-04-13,142,420-->
 
-Scala's {@{__enumeration__ \(`enum`\) construct}@} offers {@{an even more compact notation for ADTs}@} whose variants do not {@{need to share a common superclass}@}. {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as: <!--SR:!2026-04-05,135,420!2026-04-06,136,420!2026-03-03,106,395!2026-04-11,140,420!2026-04-04,134,420-->
+Scala's {@{__enumeration__ \(`enum`\) construct}@} offers {@{an even more compact notation for ADTs}@} whose variants do not {@{need to share a common superclass}@}. {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as: <!--SR:!2026-04-05,135,420!2026-04-06,136,420!2027-09-30,576,415!2026-04-11,140,420!2026-04-04,134,420-->
 
 > [!example] __`Expr` definition using enumerations__
 >

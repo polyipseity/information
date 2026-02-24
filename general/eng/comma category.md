@@ -27,7 +27,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __comma category__}@} \(a special c
 
 Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are categories, and $S$ and $T$ \(for source and target\) are [functors](functor.md)}@}: {@{$${\mathcal {A} }{\xrightarrow {\;\;S\;\;} }{\mathcal {C} }{\xleftarrow {\;\;T\;\;} }{\mathcal {B} }$$}@} We can {@{form the comma category $(S\downarrow T)$}@} as follows: <!--SR:!2028-03-27,894,342!2030-01-10,1423,362!2026-03-06,320,354-->
 
-- The objects ::@:: are all triples $(A,B,h)$ with $A$ an object in ${\mathcal {A} }$, $B$ an object in ${\mathcal {B} }$, and $h:S(A)\rightarrow T(B)$ a morphism in ${\mathcal {C} }$. <!--SR:!2026-03-03,317,354!2028-06-05,957,354-->
+- The objects ::@:: are all triples $(A,B,h)$ with $A$ an object in ${\mathcal {A} }$, $B$ an object in ${\mathcal {B} }$, and $h:S(A)\rightarrow T(B)$ a morphism in ${\mathcal {C} }$. <!--SR:!2030-05-22,1541,374!2028-06-05,957,354-->
 - The morphisms from $(A,B,h)$ to $(A',B',h')$ ::@:: are all pairs $(f,g)$ where $f:A\rightarrow A'$ and $g:B\rightarrow B'$ are morphisms in ${\mathcal {A} }$ and ${\mathcal {B} }$ respectively, such that the following diagram [commutes](commutative%20diagram.md): <p> &emsp; ![Comma Diagram](../../archives/Wikimedia%20Commons/Comma%20Diagram.svg) <!--SR:!2029-10-27,1364,362!2029-02-01,1143,350-->
 
 {@{Morphisms are composed}@} by {@{taking $(f',g')\circ (f,g)$ to be $(f'\circ f,g'\circ g)$, whenever the latter expression is defined}@}. {@{The identity morphism on an object $(A,B,h)$}@} is {@{$(\mathrm {id} _{A},\mathrm {id} _{B})$}@}. <!--SR:!2027-10-15,749,334!2030-04-22,1517,374!2026-04-23,356,354!2029-11-29,1392,362-->

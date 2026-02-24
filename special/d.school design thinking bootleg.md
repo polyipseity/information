@@ -43,7 +43,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="8baa"--><!-- The following content is generated at 2024-03-12T21:10:03.124339+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[empathize](#empathize) (blue) <!--SR:!2026-03-03,511,310!2028-09-18,1265,350-->
+- _(begin)_→::@::←[empathize](#empathize) (blue) <!--SR:!2032-03-03,2192,330!2028-09-18,1265,350-->
 - [empathize](#empathize) (blue)→::@::←[define](#define) (green) <!--SR:!2027-01-25,650,270!2027-11-25,955,330-->
 - [define](#define) (green)→::@::←[ideate](#ideate) (yellow) <!--SR:!2028-07-05,1110,290!2028-04-03,880,250-->
 - [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2029-02-24,1302,310!2027-08-13,863,290-->

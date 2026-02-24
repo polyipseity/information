@@ -411,7 +411,7 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 
 - _single location_ ::@:: occurs at a single place (e.g., `{Validate Term}` in a course registration system) <!--SR:!2026-04-14,136,407!2026-03-31,124,407-->
 - _set of discrete locations_ ::@:: occurs at multiple places (e.g., `{Confirm Selection}` used after both adding and dropping courses) <!--SR:!2026-04-06,129,407!2026-04-11,134,407-->
-- _region_ ::@:: a matched pair of points that delimit a set of positions, which are suitably named to make clear that they are matched (e.g., from `{Begin Editing Schedule}` to `{End Editing Schedule}` in a course registration system) <!--SR:!2026-03-31,124,407!2026-03-03,95,387-->
+- _region_ ::@:: a matched pair of points that delimit a set of positions, which are suitably named to make clear that they are matched (e.g., from `{Begin Editing Schedule}` to `{End Editing Schedule}` in a course registration system) <!--SR:!2026-03-31,124,407!2027-07-19,503,407-->
 
 {@{Extension points}@} are mainly employed to {@{host alternative flows}@}, allowing {@{optional, variant, or exceptional behaviour to be attached in a modular way}@} without {@{cluttering the basic sequence}@}. <!--SR:!2026-04-16,138,407!2026-04-16,138,407!2026-03-31,124,407!2026-04-16,138,407-->
 

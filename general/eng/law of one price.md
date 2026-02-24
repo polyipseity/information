@@ -15,11 +15,11 @@ In {@{[economics](economics.md)}@}, {@{the __law of one price__ \(__LOOP__\)}@} 
 
 ## overview
 
-{@{The intuition behind the law of one price}@} is based on {@{the assumption that differences between prices are eliminated by market participants taking advantage of arbitrage opportunities}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2029-05-21,1208,350!2026-03-03,291,330-->
+{@{The intuition behind the law of one price}@} is based on {@{the assumption that differences between prices are eliminated by market participants taking advantage of arbitrage opportunities}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2029-05-21,1208,350!2028-10-18,960,330-->
 
 ### example in regular trade
 
-Assume {@{different prices for a single identical good in two locations}@}, {@{no transport costs, and no economic barriers between the two locations}@}. {@{Arbitrage by both buyers and sellers}@} can then operate: buyers {@{from the expensive area can buy in the cheap area}@}, and sellers {@{in the cheap area can sell in the expensive area}@}. <!--SR:!2029-06-27,1238,350!2029-07-13,1252,350!2029-09-08,1291,350!2026-03-03,291,330!2029-10-18,1326,350-->
+Assume {@{different prices for a single identical good in two locations}@}, {@{no transport costs, and no economic barriers between the two locations}@}. {@{Arbitrage by both buyers and sellers}@} can then operate: buyers {@{from the expensive area can buy in the cheap area}@}, and sellers {@{in the cheap area can sell in the expensive area}@}. <!--SR:!2029-06-27,1238,350!2029-07-13,1252,350!2029-09-08,1291,350!2029-10-22,1329,350!2029-10-18,1326,350-->
 
 {@{Both scenarios}@} result in {@{a single, equal price per homogeneous good in all locations}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2029-09-09,1292,350!2029-08-16,1274,350-->
 

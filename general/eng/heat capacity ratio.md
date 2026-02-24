@@ -21,7 +21,7 @@ tags:
 > - {@{$C$}@} is {@{the [heat capacity](heat%20capcaity.md)}@}
 > - {@{$\bar{C}$}@} is {@{the [molar heat capacity](molar%20heat%20capacity.md)}@}
 > - {@{$c$}@} is {@{the [specific heat capacity](specific%20heat%20capacity.md)}@}
-> - {@{the subscript $p$ and $V$}@} means {@{[constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}@} <!--SR:!2028-04-01,1219,350!2030-12-21,1799,290!2026-10-11,250,346!2027-02-17,362,366!2027-03-08,376,366!2026-03-03,84,346!2026-03-03,84,346!2026-03-03,84,346!2026-03-03,84,346-->
+> - {@{the subscript $p$ and $V$}@} means {@{[constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}@} <!--SR:!2028-04-01,1219,350!2030-12-21,1799,290!2026-10-11,250,346!2027-02-17,362,366!2027-03-08,376,366!2027-04-01,394,366!2027-03-31,393,366!2027-04-03,396,366!2027-04-04,397,366-->
 
 <!-- markdownlint MD028 -->
 
@@ -44,7 +44,7 @@ tags:
 > where
 >
 > - {@{$\gamma$}@} is {@{the heat capacity ratio}@}
-> - {@{$f$}@} is {@{the thermally accessible [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}@} <!--SR:!2027-07-02,801,250!2027-02-16,558,290!2031-09-13,2119,330!2027-03-12,380,366!2026-03-03,84,346!2026-03-03,84,346-->
+> - {@{$f$}@} is {@{the thermally accessible [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}@} <!--SR:!2027-07-02,801,250!2027-02-16,558,290!2031-09-13,2119,330!2027-03-12,380,366!2027-04-05,398,366!2027-04-02,395,366-->
 
 #### derivation
 

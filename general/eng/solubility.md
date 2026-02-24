@@ -105,7 +105,7 @@ return (
 > group I compounds
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}@} <!--SR:!2031-08-06,2275,250!2026-03-03,353,190-->
+> - exception(s): {@{([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}@} <!--SR:!2031-08-06,2275,250!2028-01-06,674,190-->
 
 <!-- markdownlint MD028 -->
 
