@@ -1,0 +1,1 @@
+notation in probability and statistics.md
