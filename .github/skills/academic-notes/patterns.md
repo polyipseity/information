@@ -75,6 +75,17 @@ tags:
 
 ## Inline conventions
 
+- **Section flashcard requirement:** in topic‑specific notes (files other
+  than `index.md`) every Markdown section (any header level, including
+  subheadings and nested topics) must include at least one flashcard.  In
+  practice this means as soon as you create a new heading in a topic note you
+  also add glosses or a QA block beneath it.  Index files are exempt from the
+  header‑level check and only need cards in session entries.
+  Use `::@::` glosses or a two-sided QA list (`---` followed by
+  "Flashcards for this section are as follows:").  When editing an existing
+  section, update its cards to reflect the changes; the validator warns
+  on sections lacking flashcard entries.
+
 - `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
 - **Math delimiters:** use `$…$` for inline math and `$$…$$` for display equations.  Avoid TeX‑style `\(\)`/`\[\]` delimiters, which are not consistently supported by the Markdown renderer and linting tools.
 - **Two-sided QA lists:** if a section is organised as a list of question/answer pairs rather than using `::@::` cloze glosses, precede the list with a horizontal rule (`---`), leave a blank line, and then add the sentence

@@ -46,5 +46,8 @@ brief archive of the latest consolidation.
 - **2026‑02‑25 (latest consolidation):** Moved the bulk of the continuous
   improvement entries into `SKILL.md`, `patterns.md`, `examples.md`,
   `checklist.md`, `issue_frequencies.md`, and validator tests.  Added a note
-  to the course template.  The remaining text here serves as a provenance
-  record; actionable guidance should now be sought in the other documents.
+  to the course template and introduced explicit rules requiring every
+  Markdown section to include a flashcard block and for authors/agents to
+  update flashcards when editing sections.  The remaining text here serves
+  as a provenance record; actionable guidance should now be sought in the
+  other documents.

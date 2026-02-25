@@ -14,9 +14,17 @@ intended for any course material stored under `special/academia/<INSTITUTION>`
 > to run `init generate` or any similar command when editing course notes;
 > the repository’s build and packaging workflows regenerate flashcards for
 > you.  Agents in particular must **never** attempt to invoke the generator
-> manually.  If you encounter instructions that suggest manual regeneration,
-> update the documentation and templates as part of the continuous‑learning
-> process.
+> manually.  **However, every time you expand, revise, or add a section you
+> must also update the flashcards for that section** — adding `::@::` glosses,
+> inserting a two‑sided QA list, or adjusting existing cards so they remain
+> accurate.  For **topic‑specific notes** (i.e. files other than `index.md`),
+> every Markdown section (regardless of its header level) should contain a
+> corresponding flashcard block; the validator now warns if a section in such a
+> note has content but no cards.  Index pages remain subject to the earlier
+> rule that each lecture/lab/tutorial entry must include cards, but the
+> header‑level check is skipped for them.  If you encounter instructions that
+> suggest manual regeneration, update the documentation and templates as part
+> of the continuous‑learning process.
 
 The skill is designed for **continuous learning**: as agents and human authors
 work with real course content, their preferences and new patterns inform
@@ -161,11 +169,15 @@ steps:
      editors.  When a hard break is genuinely necessary for readability,
      insert `<br/>` for a line break or `<p>` for a new paragraph rather than
      hitting Enter in the source.
-   - **Index link rule:** lecture entries in the index that cover material
-     located in a separate topic note must include explicit bullets linking
-     to each relevant section of that note via an anchor.  This documents
-     which sections were discussed and lets readers jump directly to the
-     appropriate subsection.
+   - **Index link rule:** when a lecture entry refers to material that is
+     carried in a separate topic‑specific note, add explicit bullets linking
+     to each relevant section of that note via an anchor.  The reviewer or
+     author should read both the index text and the linked sections to ensure
+     the index doesn’t simply duplicate the note; include a brief summary or
+     instructor comment here, not a wholesale transcription of the external
+     content.  This practice documents exactly which sections were covered and
+     lets readers jump directly to the appropriate subsection while avoiding
+     redundancy.
    - **Duplicate section check:** before adding a new `### week N lecture M`
      heading in an index file, search for an existing section with the same
      title.  Agents should never blindly create a new section if one already

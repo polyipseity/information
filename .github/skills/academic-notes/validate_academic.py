@@ -148,6 +148,34 @@ def check_markdown_file(
             warnings.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
             )
+        # new rule: every file with session entries should contain flashcards
+        if re.search(
+            r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text
+        ) and not re.search(r"::@::|:@:|Flashcards for this section", text):
+            warnings.append(
+                "session entries present but no flashcard markers found — each section should include flashcards"
+            )
+        # new broader rule: in topic-specific notes (non-index.md files),
+        # every Markdown header (level 2 or deeper) must have at least one
+        # flashcard marker somewhere in the text that follows it up to the next
+        # header of the same or higher level.  This enforces the “every
+        # Markdown section” requirement but is skipped for index pages, which
+        # are governed by the session-entry rule above.
+        if path.name.lower() != "index.md":
+            header_iter = re.finditer(r"^(#{2,})\s+(.+)$", text, re.MULTILINE)
+            for h in header_iter:
+                lvl = len(h.group(1))
+                start = h.end()
+                # look ahead for next header of level <= current
+                pattern = r"^(#{1,%d})\s+" % lvl
+                m = re.search(pattern, text[start:], re.MULTILINE)
+                end = start + (m.start() if m else len(text) - start)
+                section = text[start:end]
+                if not re.search(r"::@::|:@:|Flashcards for this section", section):
+                    hdr = h.group(0).strip()
+                    warnings.append(
+                        f"header {hdr!r} has no flashcard markers in its section"
+                    )
         # new rule: flag asterisk-based emphasis
         # (regex should avoid matching table pipes or escaped asterisks)
         if re.search(r"(?<!\\)(\*\*[^\*\n]+\*\*|\*[^\*\n]+\*)", text):

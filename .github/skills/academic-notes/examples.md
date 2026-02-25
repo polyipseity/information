@@ -16,6 +16,15 @@ tags:
 
 ## Weekly lecture example
 
+> **Reminder:** for topic‑specific pages only you must add flashcards under
+> every header.  Index pages are exempt; they are checked separately for
+> session-level cards.
+>
+> **Reminder:** the rule now applies to *every* Markdown section header.  When
+> you create a new `##`, `###`, etc. entry in course notes you should
+> immediately add flashcard glosses or a QA block beneath it, even if the
+> section is purely a minor subtopic or aside.
+
 ```markdown
 ## week 3 lecture
 

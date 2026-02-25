@@ -96,12 +96,12 @@ tags:
 def test_qa_list_without_separator_warning(tmp_course_file):
     # simple QA pair without preceding rule should produce a warning
     tmp_course_file.write_text("""---
-    tags:
-     - flashcard/active/special/academia/HKUST/ELEC_1100
-    ---
+tags:
+ - flashcard/active/special/academia/HKUST/ELEC_1100
+---
 
-    - ELEC 1100
-      - What is foo? ::@:: A
+- ELEC 1100
+  - What is foo? ::@:: A
 """)
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
@@ -112,17 +112,17 @@ def test_qa_list_without_separator_warning(tmp_course_file):
 def test_qa_list_with_separator_no_warning(tmp_course_file):
     # QA list properly prefaced by separator phrase should not warn
     tmp_course_file.write_text("""---
-    tags:
-     - flashcard/active/special/academia/HKUST/ELEC_1100
-    ---
+tags:
+ - flashcard/active/special/academia/HKUST/ELEC_1100
+---
 
-    - ELEC 1100
+- ELEC 1100
 
-    ---
-    Flashcards for this section are as follows:
+---
+Flashcards for this section are as follows:
 
-    - What is foo? ::@:: A
-    - Another Q :@: B
+- What is foo? ::@:: A
+- Another Q :@: B
 """)
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
@@ -133,11 +133,11 @@ def test_qa_list_with_separator_no_warning(tmp_course_file):
 def test_multiple_separator_warning(tmp_course_file):
     # a line with more than one separator should warn
     tmp_course_file.write_text("""---
-    tags:
-     - flashcard/active/special/academia/HKUST/ELEC_1100
-    ---
+tags:
+ - flashcard/active/special/academia/HKUST/ELEC_1100
+---
 
-    - ELEC 1100 / item ::@:: first ::@:: second
+- ELEC 1100 / item ::@:: first ::@:: second
 """)
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
@@ -148,16 +148,73 @@ def test_multiple_separator_warning(tmp_course_file):
 def test_br_space_warning(tmp_course_file):
     # <br/> without preceding space should produce a warning
     tmp_course_file.write_text("""---
-    tags:
-     - flashcard/active/special/academia/HKUST/ELEC_1100
-    ---
+tags:
+ - flashcard/active/special/academia/HKUST/ELEC_1100
+---
 
-    - ELEC 1100 / bib ::@:: Author(Year)<br/>Title
+- ELEC 1100 / bib ::@:: Author(Year)<br/>Title
 """)
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
     assert any("preceding space" in w for w in warns)
+
+
+def test_session_without_flashcards_warning(tmp_course_file):
+    # file contains a lecture entry but no flashcard markers -> warning
+    tmp_course_file.write_text("""---
+tags:
+ - flashcard/active/special/academia/HKUST/ELEC_1100
+---
+
+## week 1 lecture 1
+- datetime: 2026-02-01T10:00:00+08:00/2026-02-01T10:50:00+08:00
+- topic: introduction
+""")
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert any("no flashcard markers" in w for w in warns)
+
+
+def test_subheader_without_flashcards_warning(tmp_course_file):
+    # a secondary header with text but no flashcards should also trigger a warning
+    tmp_course_file.write_text("""---
+tags:
+ - flashcard/active/special/academia/HKUST/ELEC_1100
+---
+
+## week 1 lecture 1
+- datetime: 2026-02-01T10:00:00+08:00/2026-02-01T10:50:00+08:00
+- topic: introduction
+
+### details
+This subsection has no cards.
+""")
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert any("has no flashcard markers" in w for w in warns)
+
+
+def test_index_file_exempt_from_header_rule(tmp_course_file):
+    # index.md should not warn about missing flashcards under subheaders
+    tmp_course_file.write_text("""---
+    tags:
+     - flashcard/active/special/academia/HKUST/ELEC_1100
+    ---
+
+    ## week 1 lecture 1
+    - datetime: 2026-02-01T10:00:00+08:00/2026-02-01T10:50:00+08:00
+    - topic: introduction
+
+    ### details
+    Nothing to card here; index files are exempt.
+    """)
+    # rename file to index.md for test
+    path = tmp_course_file.rename(tmp_course_file.parent / "index.md")
+    errs, warns = validate_academic.check_markdown_file(path, content_checks=True)
+    assert not any("has no flashcard markers" in w for w in warns)
 
 
 def test_template_contains_section_placeholder():

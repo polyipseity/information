@@ -31,6 +31,12 @@ Content checklist (content-first guidance):
     the notes self‑contained so a reader could reconstruct the lecture flow
     without seeing the slides.  If uncertain how much to include, lean towards
     including more; excess material can be pruned in a follow-up review.
+    **In topic‑specific notes (non-`index.md` files) every Markdown section (each header, regardless of level) must also contain flashcards** — either via `::@::`
+    glosses or a two-sided QA list introduced by the sentence
+    “Flashcards for this section are as follows:” (preceded by `---`).
+    Update the flashcards whenever you expand or modify the section so the
+    cards remain in sync with the prose.  The validator will warn on sections
+    without any flashcard entries.
 13. Each lecture/tutorial **may** include outcomes captured in prose or via flashcards.)  Capture instructor emphasis and worked examples when possible.
 14. For lists intended for memorization (features, characteristics), collapse
     them into a single gloss line with hyphens and `<br/>` separators rather

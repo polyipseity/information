@@ -1,5 +1,18 @@
 # Flashcard conventions (academic notes)
 
+- Every Markdown section of a **topic‑specific** academic note must include flashcards.  This
+  applies to **every** header within such a file, whether it be `#`, `##`, `###`, etc., and
+  regardless of whether the content under it is a definition, example, sidebar,
+  or minor subtopic.  Index files (named `index.md`) are not subject to this
+  rule; they only need the usual session-level cards.  In topic notes the
+  requirement can be satisfied using `::@::` cloze glosses, a two‑sided QA
+  horizontal rule and the sentence
+  “Flashcards for this section are as follows:”, or a combination of both.  Do
+  not leave a section without any flashcard entries — the validator will
+  issue a warning if a session has content but no cards.  When you expand or
+  edit a section, make sure to update its flashcards accordingly (add, revise
+  or remove glosses) so that the cards stay in sync with the prose.
+
 - Use the `::@::` marker after a linked term to add a concise definition or gloss that will be converted into flashcards by the pipeline. Example:
 
 `- programming paradigm ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program.`
