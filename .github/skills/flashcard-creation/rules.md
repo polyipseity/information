@@ -1,146 +1,30 @@
 # Flashcard‑creation Rules
 
-This auxiliary file collects stable heuristics and stylistic points for
-use during flashcard generation.  It is consulted in addition to
-`examples.md` whenever the agent needs a quick reminder of behaviour.
+This file lists concise, actionable heuristics the agent follows when
+generating or editing flashcards.  It is read alongside the examples file
+and is intended to be fast to scan.
 
-- **Verbatim preservation.** Except for inserting the cloze delimiters
-  `{@{` and `}@}`, leave the original prose exactly as it appears in the
-  source.  Do not reword, reflow, or otherwise modify the text; the only
-  permitted change is to wrap existing words or phrases in cloze markers.
+- **Preserve the source verbatim.** Except for inserting or moving the cloze delimiters `{@{` and `}@}`, leave every word, punctuation mark, and spacing unchanged.  Do not paraphrase, reflow, or reformat the text; the only edits allowed are the cloze markers themselves.
+- **Equations stay whole.** Wrap entire `$...$` or `$$...$$` blocks in a single cloze if they must be hidden.  Never split or partially delete math expressions; doing so breaks rendering.
+- **Anchor context.** Always leave one or more visible words around each cloze so the learner has a hint.  Avoid hiding a sentence in its entirety unless adjacent context makes the meaning crystal clear.
+- **Work paragraph by paragraph.** Read a paragraph, add clozes only to that paragraph, then move on.  This ensures no large section is skipped accidentally.
+- **Break long sentences.** If a sentence contains multiple logical fragments or ideas, split it into two or more cards rather than forcing a single giant deletion.  Refer to the examples index for our standard patterns.
+- **Default to inline clozes.** Use `{@{ }@}` unless the user explicitly asks for `::@::` or `:@:` format.  Q/A style rewrites are only used when an existing example shows the format.
+- **Two‑sided QA lists.** When the user indicates an entire section should become a list of question/answer pairs, preserve the source text and create a markdown list of `Q ::@:: A` or `Q :@: A` items.  Start the list with a horizontal rule and the exact phrase “Flashcards for this section are as follows:” on a blank line so the intention is unmistakable.  Handle each bullet separately and never merge multiple list items unless an example says to do so.
+- **Treat adjacent paragraphs as a unit if edited together.** Add a new example entry when two or more consecutive paragraphs are meant to be learned as one concept; this teaches the model to reproduce multi‑para edits.
+- **Mirror the user’s style.** When incorporating user‑provided examples, copy their preferred cloze placement, punctuation, hyphenation, and ordering.  Annotate the example table where useful so future matches behave similarly.
+- **Split subject/object in declarative sentences.** For simple statements with a named subject followed by its description, consider hiding the subject and the object separately rather than one long cloze.  This yields smaller, more focused cards.
+- **Use the examples index actively.** Before editing, search the index for similar cases and keep those examples open while you work.  The index lookup and cross‑referencing should be part of the editing workflow.
+- **Year handling.** Only cloze a year if it is central to the idea.  If the date is incidental, leave it visible.
+- **Feedback loop.** If the user alters your output, compare before and after, then update `rules.md` or add a new example so future prompts follow the corrected behaviour.
+- **Short sentences and simple assertions.** Do not hide an entire brief declarative sentence in one cloze.  Split the sentence into subject and predicate deletions (e.g. `{@{Mispricing}@} leads to {@{arbitrage}@}`). Numeric values or variable assignments can be hidden whole if needed.
+- **Semicolon lists.** When semicolons separate related clauses, wrap each clause in its own cloze so the learner can recall them individually.
+- **Article/qualifier placement.** Include leading articles (`the`, `a`, etc.), possessives, prepositions, or qualifiers inside the cloze. The visible context should follow the deletion.  For example, `{@{the market exposure}@}` is preferred over `the {@{market exposure}@}`.
+- **Contrastive conjunctions.** Split around *but*, *however*, *yet*, *although* etc. rather than creating a single multi‑idea cloze.
+- **Conditional connectors.** When a sentence begins with *if*, *when*, *once*, *unless* or similar, keep the connector visible unless the entire condition is being tested.  Place the cloze after the word.
+- **Minimal semantic cloze.** Hide the smallest meaningful unit that still tests the concept.  Adjust patterns when the user moves a word into or out of the cloze.
+- **No command suggestions.** This skill edits text only; do not suggest running `init generate` or any other command as part of flashcard creation.
+- **Preserve HTML entities and escapes.** Treat sequences like `&nbsp;`, `\$`, `\$&nbsp;123` as opaque literals.  Do not convert entities to spaces, alter backslashes, or break them across clozes.
+- **Submodule safety.** Never edit files under `private/`, `self/`, or any git submodule unless the user explicitly authorizes it.
 
-- **Preserve equations.** Never hide part of a LaTeX expression; if a
-  card needs mathematical content, wrap the entire `$...$` or `$$...$$`
-  block in one cloze.  Partial deletions inside equations break rendering
-  and are forbidden.
-
-- **Contextual anchors.** Leave at least one or two words outside each
-  cloze to provide a hint.  Avoid clozing an entire sentence with no
-  visible anchors unless the surrounding text makes the meaning
-  obvious.
-
-- **Process one paragraph at a time.**  Work through the source text
-  paragraph by paragraph: read a single paragraph, add clozes to that
-  paragraph only, then move on.  This guarantees high coverage and avoids
-  accidentally leaving large swaths of prose untagged.
-
-- **Split long sentences.** When a sentence contains multiple logical
-  chunks, break it into two or more cards.  Don’t attempt to cram a
-  paragraph into a single deletion; refer to examples 22 and 23 for the
-  usual pattern.
-
-- **Default to inline clozes.** Generate `{@{ }@}` deletions unless the
-  user explicitly requests a `::@::` or `:@:` question‑answer format.
-  Q/A rewrites occur only when an example demonstrates that style.
-
-- **Two-sided QA lists.** If the user indicates they want a sequence of
-  two-sided flashcards (common in some academic topic notes), do not
-  convert sentences into clozes.  Instead, preserve the original text and
-  format the section as a markdown list of `Q ::@:: A` or `Q :@: A`
-  pairs.  Precede the list with a horizontal rule (`---`), insert a blank
-  line, and then add the exact phrase “Flashcards for this section are as
-  follows:” so the intent is immediately clear.  This convention mirrors
-  guidance in the academic-notes skill.
-- **Lists by item.** Handle list elements individually; do not combine
-  separate bullets unless an example shows otherwise.
-
-- **Two‑paragraph units.** If the user edits consecutive paragraphs as a
-  single conceptual block (e.g. continuous prose under a heading), treat
-  them as one learning unit and add a new example entry.  This helps the
-  model recognise and reproduce multi‑paragraph transformations.
-
-- **Mirror user style.** When incorporating a new example from the user,
-  pay attention to their preferred cloze ordering, punctuation, and
-  hyphenation.  Update the index table and, where practical, add a note in
-  the example description so future matches automatically mimic that
-  style.
-
-- **Split subject and object when appropriate.** If a declarative sentence
-  names an item followed by its description (e.g. “two macro variables drive
-  the returns of a regulated utility and an airline”), consider hiding the
-  subject and the object as separate clozes rather than a single long
-  deletion.  This mirrors the user’s preference for smaller, focused cards.
-
-- **Use examples as a living guide.** Before making any edits, read the
-  `examples.md` index to find similar cases, then keep those examples open
-  and consult them as you insert clozes.  The index lookup and continual
-  referencing should be treated as an essential part of the workflow rather
-  than an optional step.
-
-- **Year handling.** Years are clozed only when central to the idea; if
-  they are incidental (e.g. historical date in passing) leave them
-  visible.
-
-- **Feedback loop.** When the user modifies your output, compare the
-  before/after, derive a rule, and update either `rules.md` or
-  `examples.md` so future suggestions respect the correction.  In most
-  cases you will perform both edits simultaneously: add an example that
-  demonstrates the change and a rule that explains why it was needed.
-
-- **Short declarative sentences.** Do *not* hide an entire brief
-  declarative sentence as a single cloze.  Instead, split it into
-  separate deletions for the subject and predicate (e.g. use
-  `{@{Mispricing}@} leads to {@{arbitrage}@}` rather than hiding the
-  whole phrase).  Numeric quantities and variable assignments remain
-  fair game to hide (for example, `{@{the risk-free rate is 4%}@}`),
-  but simple English statements should be divided so that the learner
-  sees at least one contextual word outside each cloze.
-
-- **Semicolon lists.** When a sentence uses semicolons to enumerate
-  related clauses (e.g. the three realistic assumptions of APT), treat
-  each clause as an independent card.  Each item should be wrapped in
-  its own cloze so the learner can recall them individually.
-
-- **Article and qualifier placement.** If a noun phrase begins with an
-  article, possessive (`the`, `a`, `an`, `its`, `their`, etc.), a
-  preposition (`in`, `on`, `for`), or a qualifying word such as
-  `more`, `less`, include that leading word inside the cloze.  The
-  visible context should follow the cloze, not precede it.  For
-  example, prefer `{@{the market exposure}@}` rather than `the
-  {@{market exposure}@}`, and `{@{more of…}@}` rather than
-  `more {@{of…}@}`.  This generalisation captures the user’s
-  habit of pulling small but semantically bound words into the deletion.
-
-- **Contrastive clauses.** Conjunctions like *but*, *however*, *yet* or
-  *although* generally mark shifts in meaning; generate separate
-  deletions on both sides of the conjunction rather than one large
-  composite cloze.  This mirrors the user’s preference to test each
-  contrasted idea separately.
-
-- **Conditional connectors.** When a sentence begins with a conditional
-  word such as *if*, *when*, *once*, *unless*, etc., do not hide the
-  connector itself unless the entire condition is being tested.  Place
-  the cloze after the conjunction so the visible hint remains intact.
-  For example, prefer `If {@{such an opportunity existed}@}` instead of
-  `{@{If such an opportunity existed}@}`.
-
-- **Minimal semantic cloze.** Aim to hide the smallest meaningful unit
-  that still challenges recall.  Avoid wrapping entire clauses or
-  sentences when a shorter noun phrase or verb phrase suffices.  If you
-  accidentally hide a leading article, pronoun, or qualifying word and
-  the user later moves it inside the cloze, update your pattern accordingly
-  (see the “Article and qualifier placement” rule above).  This rule
-  helps keep cards crisp and focused while respecting the user’s
-  evolving preference for including certain small words.
-
-- **Avoid command suggestions.** The skill is purely about text edits;
-  do not suggest running `init generate` or similar commands as part of
-  flashcard creation.
-
-- **Preserve HTML entities and escaped characters.** When making
-  replacements, treat sequences such as `&nbsp;`, `\$`, or combinations
-  like `\$&nbsp;123` as opaque literals. Never convert an HTML entity to
-  a literal space, insert extra whitespace, or drop/duplicate the
-  backslash in an escaped dollar sign; the entire original token must
-  remain verbatim in the output. Do not break these sequences across a
-  cloze or modify their internal spacing. This rule guards against
-  JSON/string interpolation hiccups during editing and matches the
-  user's preference for exact preservation of formatting.
-
-- **No submodule editing.** Never operate on files under `private/`,
-  `self/`, or any git submodule unless explicitly authorised by the
-  user.
-
-This file should grow gradually as new heuristics are distilled during
-sessions.  After each editing spree, consider merging freshly learned
-rules here and pruning session memory accordingly.
+Continue adding to this file as new heuristics arise during sessions.
