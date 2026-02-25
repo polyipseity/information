@@ -194,6 +194,8 @@ For each session, prefer the following elements where appropriate:
 ## Observed usage patterns
 
 - `::@::` is heavily used as the inline gloss/flashcard separator.
+- When writing outlines, avoid introducing an extra indent level; list items should be placed directly beneath the `- topic:` line with only the necessary two-space indentation for each nested bullet. Superfluous indentation can confuse downstream parsers and should be corrected.
+- Bibliographic-style references (e.g. multiple works cited on the right-hand side of a gloss) are frequently written as dash‑separated lists using `<br/>` breaks. Always include a space before each `<br/>` to ensure proper rendering.
 - Hierarchies may span multiple levels; group related flashcards under intermediate
   folders (e.g. `/ robotics introduction / features / …`) when it helps readability.
 - Taxonomy / chain notation: authors sometimes list chains of related concepts using arrows and `::@::` boundaries (seen in several course collections). Preserve these as-is when possible.
@@ -202,6 +204,7 @@ For each session, prefer the following elements where appropriate:
 - Multiple lectures per week are common; capture each with a separate numbered heading and ensure the order follows the actual datetimes.
 - HTML comments such as `<!-- future term sections ... -->` are sometimes inserted to simplify long-term editing of index files.
 - Inline annotation tokens (e.g., `{@{...}@}`) are used for emphasis or examiner notes; preserve them unless a maintainer asks for normalization.
+- When editing or auditing flashcards, read through the file sequentially to catch formatting errors, misplaced separators, and hidden calculations; a full pass prevents mistakes that partial reviews miss.
 
 ## Normalization recommendations
 

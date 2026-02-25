@@ -130,6 +130,36 @@ def test_qa_list_with_separator_no_warning(tmp_course_file):
     assert not any("QA-style flashcard list" in w for w in warns)
 
 
+def test_multiple_separator_warning(tmp_course_file):
+    # a line with more than one separator should warn
+    tmp_course_file.write_text("""---
+    tags:
+     - flashcard/active/special/academia/HKUST/ELEC_1100
+    ---
+
+    - ELEC 1100 / item ::@:: first ::@:: second
+""")
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert any("multiple flashcard separators" in w for w in warns)
+
+
+def test_br_space_warning(tmp_course_file):
+    # <br/> without preceding space should produce a warning
+    tmp_course_file.write_text("""---
+    tags:
+     - flashcard/active/special/academia/HKUST/ELEC_1100
+    ---
+
+    - ELEC 1100 / bib ::@:: Author(Year)<br/>Title
+""")
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert any("preceding space" in w for w in warns)
+
+
 def test_template_contains_section_placeholder():
     """Ensure the course-template still uses the <section identifier> placeholder."""
     path = Path(".github/skills/academic-notes/course-template.md")

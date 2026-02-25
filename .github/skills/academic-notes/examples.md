@@ -52,14 +52,14 @@ questions and handle acronyms.
     4. f: a -> (a, a); application f 3 enforces a = Int by unification
     5. Generalize: f : forall a. a -> (a, a); instantiate at Int for f 3
     6. Result: (3, 3) :: (Int, Int)
-  - HM / pitfalls ::@:: Forgetting to generalize at let leads to value restriction bugs
-  - !emphasis: Instructor stressed 'generalization at let-bindings' (important for polymorphism in ML-like languages)
+  - HM / pitfalls ::@:: Forgetting to generalize at let leads to value restriction bugs. **Emphasis**: Instructor stressed 'generalization at let-bindings' (important for polymorphism in ML-like languages).
+  <!-- Note: keep long proofs or formal material in `general/` when they are encyclopedic; link from course notes instead of copying. Save long proofs or formal definitions in `../../../../general/Hindley–Milner.md` and link from here. -->
+  - COMP 3031 / related literature ::@:: Reynolds, J. (1974): "Polymorphism"<br/> Cardelli, L. (1985): "Typeful Programming" <br/> Pierce, B. (2002): _Types and Programming Languages_  
+    (list items separated by dashes with a space before each `<br/>`)
+  <!-- indentation example: bullet directly under course header with no extra indent -->
+  - COMP 3031 / extra note ::@:: This line is indented exactly two spaces relative to the previous level, illustrating the correct outline indentation without extra blank levels.
+```
 
-  Note: keep long proofs or formal material in `general/` when they are encyclopedic; link from course notes instead of copying.
-
-> Note: Save long proofs or formal definitions in `../../../../general/Hindley–Milner.md` and link from here.
-
-```markdown
 ## outline with logistics paragraph
 
 ```markdown
@@ -83,7 +83,6 @@ questions and handle acronyms.
 ---
 
 During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@}; {@{next week the tutorials}@} start on 2026-02-09, 2026-02-12, and 2026-02-13 and {@{the first lab sessions}@} begin on 2026-02-13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.
-
 ```
 
 ## example of questions & acronyms

@@ -32,6 +32,9 @@ Additional advisory warnings that frequently appear include:
 - exam sections placed before regular lecture/lab/tutorial entries.
 - duplicate week numbers (often around holidays).
 - semester headings in institution indexes that are out of chronological order.
+- lines containing more than one `::@::` or `:@:` separator; cards should use a single separator.
+- `<br/>` breaks written without a preceding space, which often occurs in bibliographic
+  glosses and can break rendering.
 
 Guidance for authors and agents
 

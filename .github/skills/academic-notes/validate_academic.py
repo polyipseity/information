@@ -249,6 +249,23 @@ def check_markdown_file(
                         "QA-style flashcard list detected without preceding separator phrase"
                     )
                 break
+        # warn about lines that contain more than one flashcard separator
+        for line in lines:
+            if line.count("::@::") > 1 or line.count(":@:") > 1:
+                warnings.append(
+                    "line contains multiple flashcard separators (::@:: or :@:); use only one per card"
+                )
+                break
+        # warn when <br/> appears without a leading space (common in bibliographic lists)
+        if re.search(r"[^ \t]>?<br/>", text):
+            # ensure it's not part of an HTML tag like <br/> itself; we look for any
+            # non-space character immediately before the break
+            for line in lines:
+                if re.search(r"[^ \t]<br/>", line):
+                    warnings.append(
+                        "'<br/>' found without a preceding space; add a space before '<br/>'"
+                    )
+                    break
 
     return errors, warnings
 

@@ -121,6 +121,7 @@ steps:
    - Situational or administrative remarks (schedule links, upcoming-week reminders, grading weights, Canvas/LMS alerts) should **never** be written as outline bullets.  The example week‑1 lecture shows the proper approach: all logistics, exam weights, and rights/expectations appear in a continuous prose paragraph following the structured bullet hierarchy.  Place the paragraph **after** the bullet outline and separate it from the list with a horizontal rule (`---`).  Draft the prose first without cloze markup to ensure natural flow, then add `{@{ }@}` or `::@::` glosses in a second pass for any facts you want to memorise.  See the flashcard-creation skill for help writing effective cloze sentences.
    - **Paragraph style before flashcards:** when you transition from explanatory content to a `Flashcards for this section` list, the preceding text must be written as one or more natural paragraphs rather than as a continuation of the bullet outline.  Avoid using hyphen‑prefixed list items for prose; bullets are reserved for hierarchical points and gloss hints only.  This keeps rendered notes readable and prevents the outline validator from misclassifying descriptive text as additional flashcards.
    - **Example calculation flashcards:** when a session contains worked numerical examples, the left‑hand path must include all given values and parameters required for the computation, and the right‑hand side should briefly outline the calculation steps (formula substitution, intermediate values, final result).  This ensures the card stands alone and is useful during review.
+   - **Audit habit:** Whenever you add or update flashcard glosses, skim through the entire file from start to finish.  Catch misplaced separators, overlooked numeric values, and formatting inconsistencies in a single pass rather than reviewing piecemeal; this habit has prevented many subtle errors in past revisions.
    - **Paragraph cohesion:** aim for high lexical and conceptual cohesion in prose sections, similar to the style used in Wikipedia articles.  Combine related sentences with transitional phrases and minimise abrupt topic shifts; treat paragraphs as self‑contained mini‑essays rather than a list of loosely related statements.
    - **Lecture summaries:** do not add a separate "lecture summary" section at the end of a session unless it conveys an important grading component (for example, exam due dates, weightings, or review topics).  Most summaries are redundant and clutter the notes; the validator will warn if a summary heading is present so authors can re‑evaluate its necessity.
      - **Privacy note:** omit real names, emails, phone numbers, office locations, or any personally identifying information for instructors, TAs, IAs, TOs, or staff; refer readers back to the official syllabus/LMS for contact details and do not flag that you have redacted names.
@@ -184,7 +185,10 @@ steps:
      nested bullets to group them logically (e.g. list "Robot fundamentals" as
      a parent bullet and indent definition/features/laws/history underneath).
      Deeper nesting is fine – the only requirement is that flashcard glosses
-     stay on a single line.  Nesting may extend across multiple levels; feel
+     stay on a single line.  Avoid adding extra blank indent levels; each list
+     item should be indented exactly two spaces per nesting level.  Superfluous
+     indentation confuses readers and parsers and is flagged by the validator.
+     Nesting may extend across multiple levels; feel
      free to insert an intermediate folder bullet when several child cards share
      the same prefix (see the robotics introduction features example below).
      **Always insert a bullet for each folder level and label it with the full
