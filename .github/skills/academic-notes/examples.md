@@ -94,6 +94,27 @@ questions and handle acronyms.
 During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@}; {@{next week the tutorials}@} start on 2026-02-09, 2026-02-12, and 2026-02-13 and {@{the first lab sessions}@} begin on 2026-02-13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.
 ```
 
+## energy and power example
+
+```markdown
+- Energy is electrical or mechanical work capacity; analogies (food for humans, batteries for robots) help make the idea concrete.
+- Electrical energy delivered to charge $q$ through a potential difference $V$ is given by $E = qV$.
+- Power is the rate of energy transfer: $P = E/\Delta t = IV$, and for resistive components $P = I^{2}R = V^{2}/R$.
+- Batteries and DC supplies provide constant voltages; AC sources oscillate (50 Hz in Hong Kong, 60 Hz elsewhere).
+- Example calculation ::@:: A $200\,\Omega$ resistor with $5\text{ V}$ across it dissipates $P = V^{2}/R = 0.125\text{ W}$.
+
+---
+
+Flashcards for this section are as follows:
+
+- energy definition ::@:: Energy is the ability to do work and may be electrical, mechanical, thermal, or chemical.
+- human/robot analogy ::@:: People get energy from food while robots obtain it from batteries or power supplies.
+- energy formula ::@:: Electrical energy for charge $q$ across voltage $V$ is $E = qV$.
+- power definition ::@:: Power is energy per time $P = E/\Delta t = IV$ and in resistors $P = I^{2}R = V^{2}/R$.
+- AC vs DC ::@:: DC has constant polarity; AC alternates at typical mains frequencies (50 Hz or 60 Hz).
+- calculation example ::@:: A $200\,\Omega$ resistor with $5\text{ V}$ across it dissipates $P = V^{2}/R = 0.125\text{ W}$.
+```
+
 ## example of questions & acronyms
 
 - datetime: 2026-02-02T16:00:00+08:00/2026-02-02T16:50:00+08:00, PT50M

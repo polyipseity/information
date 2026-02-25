@@ -46,5 +46,8 @@
   indirection.)
 
 - Preserve existing course-scoped `flashcard/active/...` tags when normalizing. If a course file is missing the tag, propose adding one in a small PR rather than mass-editing.
+
+- **Calculation cards:** when the flashcard is derived from a worked numerical example, put the full problem statement (all given values, circuit parameters, etc.) on the left side of `::@::` and the answer/solution steps on the right.  This makes the card self-contained and reviewable without referring to the surrounding text.  Energy and power examples are common (using $E=qV$, $P=IV$ or $P=I^{2}R$); the card should explicitly state formulas and substitution steps so the reviewer can replay the computation mentally.
+- **Math units:** always keep physical units inside the math delimiters (e.g. `$5\text{ V}$`, `$2.6\text{ mW}$`).  Units placed outside the `$…$` are treated as literal text and may render incorrectly or confuse the parser.
 - **Full path requirement:** every gloss must begin with the complete hierarchical path (e.g. `ELEC 1100 / teaching methodology / traditional limitations`); do not rely on indentation or section headers to convey context. Indentation may be used purely for readability, but the text itself is what the flashcard generator sees.
 - **Session headers:** do not introduce artificial parent folders such as “Week 1 lecture 1”. The surrounding `###` header already provides context for the session and should not be repeated in the gloss path.

@@ -51,3 +51,10 @@ brief archive of the latest consolidation.
   update flashcards when editing sections.  The remaining text here serves
   as a provenance record; actionable guidance should now be sought in the
   other documents.
+- **2026‑02‑25 (energy/power & units):** After editing `electronic component.md`
+  the diff revealed a new energy-and-power subsection with extended prose,
+  analogies, numerical examples, and many unit-containing formulas.  Skill
+  documentation was updated across the board to emphasise analogies, full
+  sentences, and calculation-style flashcards; a validator rule and test
+  were added to warn when physical units appear outside `$...$` math
+  delimiters, and the issue frequencies document notes the new warning.

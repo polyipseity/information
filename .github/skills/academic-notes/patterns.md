@@ -86,6 +86,23 @@ tags:
   section, update its cards to reflect the changes; the validator warns
   on sections lacking flashcard entries.
 
+- **One section, one flashcard block:** do not conflate cards from two
+  different markdown sections into a single list.  Each section heading must
+  have its own flashcard block immediately after the relevant prose.  This
+  practice keeps cards well scoped and facilitates later automated checks.
+
+- **Units inside math:** always place units within the `$…$` math delimiters
+  (e.g. `$5\text{ V}$`, `$2.6\text{ mW}$`).  Any unit text outside math mode
+  is treated literally and may break LaTeX rendering or the flashcard parser.
+  A validator warning now flags numbers followed by common units (V, A, Ω, W,
+  mW, kΩ, C, Hz) that appear outside `$...$`, so catching this during editing
+  avoids repository-wide fixes.
+
+- **No next‑lecture comments:** remarks about what will be covered next
+  should not appear in session notes unless they describe a major grading
+  component (exam date, project milestone, etc.).  Scheduling details belong
+  in the syllabus or index.
+
 - `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
 - **Math delimiters:** use `$…$` for inline math and `$$…$$` for display equations.  Avoid TeX‑style `\(\)`/`\[\]` delimiters, which are not consistently supported by the Markdown renderer and linting tools.
 - **Two-sided QA lists:** if a section is organised as a list of question/answer pairs rather than using `::@::` cloze glosses, precede the list with a horizontal rule (`---`), leave a blank line, and then add the sentence
@@ -111,6 +128,16 @@ tags:
   prose paragraph separated by `---` if the instructor gives situational or
   administrative commentary (schedule links, next-week reminders, grading
   breakdowns).  Embed any flashcards via cloze markup in that paragraph.
+
+- **Analogies and physical context:** real-world comparisons such as the
+  human‑body‑versus‑robot energy analogy often appear in energy/power sections.
+  Capture them in the prose block and, where appropriate, turn the key
+  comparison into a gloss so that it becomes a review card.
+
+- **Rewriting for clarity:** slides and transcripts sometimes use dangling
+  fragments joined with hyphens.  Before adding flashcards, rewrite these into
+  full sentences with explicit subjects and verbs — the recent ELEC 1100 patch
+  replaced many dashed fragments with complete clauses and is a good model.
 
 ## What content to capture (content-first guidance)
 

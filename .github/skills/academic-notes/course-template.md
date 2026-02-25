@@ -20,6 +20,8 @@ See `.github/skills/academic-notes/examples.md` for concrete snippets and valida
 - Use `COMP_3031` (underscore) for flashcard activation tags in `tags:`; in prose use the spaced form `COMP 3031` as the visible heading. 🔖
 - For repeated sessions in one week, use numbered subheadings: `lecture 1`, `lecture 2`, `lab 1`, `lab 2`, etc. 🔁
 - Include a one-line `::@::` takeaway per topic for flashcard generation; keep takeaways short and actionable (one sentence or fragment). ✍️
+- When writing physical quantities always enclose units inside the math delimiters (`$5\text{ V}$` not `$5 V$`); the validator warns if units appear outside `$...$`. ⚠️
+- Use analogies or real-world comparisons (human body vs robot power, food as energy) in prose and turn the key point into a flashcard if helpful. 💡
 - Use `datetime` with ISO format and optional duration (e.g., `, PT1H20M`) where appropriate. ⏱️
 - Keep outline bullets flush with the expected indent (two spaces per level) and avoid inserting stray blank indents; this keeps the code block machine-readable and avoids parsing hiccups. 📏
 - When editing flashcards, read through the entire code block sequentially to catch misplaced separators or formatting errors – a complete sweep reduces subtle mistakes. 🔍

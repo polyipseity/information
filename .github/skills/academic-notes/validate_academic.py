@@ -91,6 +91,8 @@ def check_markdown_file(
     """
     errors: list[str] = []
     warnings: list[str] = []
+    # DEBUG: show whether content_checks flag is set (removed after debugging)
+    # print(f"DEBUG check_markdown_file called with content_checks={content_checks}")
     text = path.read_text(encoding="utf-8")
 
     front = parse_frontmatter(text)
@@ -182,6 +184,17 @@ def check_markdown_file(
             warnings.append(
                 "found asterisk-based emphasis; use underscores (_italic_) or __bold__ instead"
             )
+        # warn if common units appear outside math delimiters; this helps catch
+        # oversights such as writing "5 V" or "0.125 W" without surrounding
+        # dollar signs.  We split on dollar-delimited segments and examine only
+        # the portions outside math mode.
+        parts = re.split(r"(\$.*?\$)", text, flags=re.DOTALL)
+        for segment in parts[::2]:
+            if re.search(r"\b\d+(?:\.\d+)?\s*(?:V|A|Ω|W|mW|kΩ|C|Hz)\b", segment):
+                warnings.append(
+                    "found a unit (e.g. V, A, Ω, W, mW, kΩ, C, Hz) outside math delimiters; enclose units in $...$"
+                )
+                break
         # previous versions warned when no learning_outcomes or takeaway was
         # present.  Feedback showed that explicit outcome sections are often
         # redundant—authors typically capture objectives in prose or via
@@ -210,6 +223,11 @@ def check_markdown_file(
         if "status: unscheduled" in lower and "topic:" in lower:
             warnings.append(
                 "session marked status: unscheduled but contains a 'topic:' field; remove topic from unscheduled sessions"
+            )
+        # forward-looking remarks about the next lecture/week are usually unnecessary
+        if re.search(r"\bnext\s+(lecture|week|class)\b", lower):
+            warnings.append(
+                "contains a 'next lecture/next week' remark; remove unless referring to a major grading component"
             )
         # duplicate week numbers indicate holiday or numbering bug
         week_nums = re.findall(r"##\s+week\s+(\d+)", lower)

@@ -35,6 +35,8 @@ Additional advisory warnings that frequently appear include:
 - lines containing more than one `::@::` or `:@:` separator; cards should use a single separator.
 - `<br/>` breaks written without a preceding space, which often occurs in bibliographic
   glosses and can break rendering.
+- units such as V, A, Ω, W, mW, kΩ, C, Hz appearing outside `$...$` math
+  delimiters; these now trigger a warning to encourage consistent notation.
 
 Guidance for authors and agents
 

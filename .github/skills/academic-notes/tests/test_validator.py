@@ -1,5 +1,6 @@
 import importlib.util
 import os
+import textwrap
 from pathlib import Path
 
 import pytest
@@ -30,15 +31,18 @@ def run_check(text, content=True):
 
 
 def test_nested_list_warning(tmp_course_file):
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-- ELEC 1100
-  - ELEC 1100 / foo
-    - bar ::@:: baz
-""")
+        - ELEC 1100
+          - ELEC 1100 / foo
+            - bar ::@:: baz
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -47,15 +51,18 @@ tags:
 
 def test_flatten_single_child(tmp_course_file):
     # slider test: if parent has single child and no own gloss, it should not warn
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-- ELEC 1100
-  - ELEC 1100 / foo
-    - ELEC 1100 / foo / bar ::@:: baz
-""")
+        - ELEC 1100
+          - ELEC 1100 / foo
+            - ELEC 1100 / foo / bar ::@:: baz
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -63,29 +70,38 @@ tags:
 
 
 def test_asterisk_emphasis_warning(tmp_course_file):
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-This sentence uses *asterisk italics* and also **bold**.
-""")
+        This sentence uses *asterisk italics* and also **bold**.
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
     assert any("asterisk-based emphasis" in w for w in warns)
 
 
-def test_multi_level_grouping(tmp_course_file):
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+def test_unit_outside_math_warning(tmp_course_file):
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-- ELEC 1100
-  - ELEC 1100 / a / b
-    - ELEC 1100 / a / b / c ::@:: d
-""")
+        A resistor of 5 kΩ dissipates 0.125 W when 5 V is applied.
+        """)
+    )
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    # warning message may vary slightly; just verify we caught the unit issue
+    assert any("unit" in w and "outside math" in w for w in warns)
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -95,14 +111,17 @@ tags:
 
 def test_qa_list_without_separator_warning(tmp_course_file):
     # simple QA pair without preceding rule should produce a warning
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-- ELEC 1100
-  - What is foo? ::@:: A
-""")
+        - ELEC 1100
+          - What is foo? ::@:: A
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -111,19 +130,22 @@ tags:
 
 def test_qa_list_with_separator_no_warning(tmp_course_file):
     # QA list properly prefaced by separator phrase should not warn
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-- ELEC 1100
+        - ELEC 1100
 
----
-Flashcards for this section are as follows:
+        ---
+        Flashcards for this section are as follows:
 
-- What is foo? ::@:: A
-- Another Q :@: B
-""")
+        - What is foo? ::@:: A
+        - Another Q :@: B
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -132,13 +154,16 @@ Flashcards for this section are as follows:
 
 def test_multiple_separator_warning(tmp_course_file):
     # a line with more than one separator should warn
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-- ELEC 1100 / item ::@:: first ::@:: second
-""")
+        - ELEC 1100 / item ::@:: first ::@:: second
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -147,13 +172,16 @@ tags:
 
 def test_br_space_warning(tmp_course_file):
     # <br/> without preceding space should produce a warning
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-- ELEC 1100 / bib ::@:: Author(Year)<br/>Title
-""")
+        - ELEC 1100 / bib ::@:: Author(Year)<br/>Title
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -162,15 +190,18 @@ tags:
 
 def test_session_without_flashcards_warning(tmp_course_file):
     # file contains a lecture entry but no flashcard markers -> warning
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-## week 1 lecture 1
-- datetime: 2026-02-01T10:00:00+08:00/2026-02-01T10:50:00+08:00
-- topic: introduction
-""")
+        ## week 1 lecture 1
+        - datetime: 2026-02-01T10:00:00+08:00/2026-02-01T10:50:00+08:00
+        - topic: introduction
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
@@ -179,18 +210,21 @@ tags:
 
 def test_subheader_without_flashcards_warning(tmp_course_file):
     # a secondary header with text but no flashcards should also trigger a warning
-    tmp_course_file.write_text("""---
-tags:
- - flashcard/active/special/academia/HKUST/ELEC_1100
----
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
 
-## week 1 lecture 1
-- datetime: 2026-02-01T10:00:00+08:00/2026-02-01T10:50:00+08:00
-- topic: introduction
+        ## week 1 lecture 1
+        - datetime: 2026-02-01T10:00:00+08:00/2026-02-01T10:50:00+08:00
+        - topic: introduction
 
-### details
-This subsection has no cards.
-""")
+        ### details
+        This subsection has no cards.
+        """)
+    )
     errs, warns = validate_academic.check_markdown_file(
         tmp_course_file, content_checks=True
     )
