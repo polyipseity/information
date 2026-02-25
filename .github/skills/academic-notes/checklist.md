@@ -34,6 +34,12 @@ Content checklist (content-first guidance):
     without seeing the slides.  If uncertain how much to include, lean towards
     including more; excess material can be pruned in a follow-up review.
 
+    **Write sections sequentially.** When making edits, focus on a single
+    Markdown section per patch or tool operation.  Avoid batching changes across
+    multiple headers in the same file; doing so often leads to flashcards being
+    merged at the end of the document and triggers validator warnings.  This
+    guideline is especially important for agents that apply programmatic edits.
+
     **In topic‑specific notes (non-`index.md` files) every Markdown section (each header, regardless of level) must also contain flashcards** — either via `::@::`
     glosses or a two-sided QA list introduced by the sentence
     “Flashcards for this section are as follows:” (preceded by `---`).

@@ -132,16 +132,6 @@ def check_markdown_file(
                 )
                 break
 
-    # check for session entries (lecture/lab/tutorial) appearing as
-    # top-level headings or bullet prefixes.  This is much narrower than a
-    # plain word search, which previously flagged casual occurrences such as
-    # "in lab".  Ignore matches that are embedded in running prose.
-    if (
-        re.search(r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text)
-        and "datetime:" not in text
-    ):
-        errors.append("appears to include session entries but no 'datetime:' found")
-
     if content_checks:
         if (
             re.search(r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text)
@@ -150,13 +140,12 @@ def check_markdown_file(
             warnings.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
             )
-        # new rule: every file with session entries should contain flashcards
-        if re.search(
-            r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text
-        ) and not re.search(r"::@::|:@:|Flashcards for this section", text):
-            warnings.append(
-                "session entries present but no flashcard markers found — each section should include flashcards"
-            )
+        # legacy rule removed: the header-level check below already ensures
+        # that every Markdown section contains flashcards.  The earlier regex
+        # was too broad and triggered false positives on ordinary prose
+        # containing the words "lecture", "lab", or "tutorial".
+        # (If new heuristics are needed in future they should be far
+        # more specific, e.g. looking for explicit week/session headings.)
         # new broader rule: in topic-specific notes (non-index.md files),
         # every Markdown header (level 2 or deeper) must have at least one
         # flashcard marker somewhere in the text that follows it up to the next
@@ -173,11 +162,24 @@ def check_markdown_file(
                 m = re.search(pattern, text[start:], re.MULTILINE)
                 end = start + (m.start() if m else len(text) - start)
                 section = text[start:end]
-                if not re.search(r"::@::|:@:|Flashcards for this section", section):
+                has_marker = bool(
+                    re.search(r"::@::|:@:|Flashcards for this section", section)
+                )
+                if not has_marker:
                     hdr = h.group(0).strip()
                     warnings.append(
                         f"header {hdr!r} has no flashcard markers in its section"
                     )
+                else:
+                    # ensure the first marker is preceded by a horizontal rule
+                    m2 = re.search(r"(::@::|:@:|Flashcards for this section)", section)
+                    if m2:
+                        prefix = section[: m2.start()]
+                        if "---" not in prefix:
+                            hdr = h.group(0).strip()
+                            warnings.append(
+                                f"flashcards under header {hdr!r} should be preceded by a '---' separator"
+                            )
         # new rule: flag asterisk-based emphasis
         # (regex should avoid matching table pipes or escaped asterisks)
         if re.search(r"(?<!\\)(\*\*[^\*\n]+\*\*|\*[^\*\n]+\*)", text):

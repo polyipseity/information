@@ -82,9 +82,11 @@ tags:
   also add glosses or a QA block beneath it.  Index files are exempt from the
   header‑level check and only need cards in session entries.
   Use `::@::` glosses or a two-sided QA list (`---` followed by
-  "Flashcards for this section are as follows:").  When editing an existing
-  section, update its cards to reflect the changes; the validator warns
-  on sections lacking flashcard entries.
+  "Flashcards for this section are as follows:").  Always insert a horizontal
+  rule (`---`) on its own line immediately before the first flashcard in a
+  section; the validator now warns if flashcards appear without this separator.
+  When editing an existing section, update its cards to reflect the changes;
+  the validator warns on sections lacking flashcard entries.
 
 - **One section, one flashcard block:** do not conflate cards from two
   different markdown sections into a single list.  Each section heading must
@@ -208,7 +210,9 @@ For each session, prefer the following elements where appropriate:
 - When a concept merits its own topic-specific note, create a new page in the
   course folder using the Wikipedia article title as the filename.  Lowercase
   the filename and use normal capitalization only where required (e.g.
-  `electronic component.md`).  The top‑level heading inside the note should
+  `electronic component.md`).  Proper nouns and personal names should retain
+  their uppercase letters (e.g. `Kirchhoff's circuit laws.md` keeps the capital
+  K).  The top‑level heading inside the note should
   match this style (i.e. `# electronic component` rather than `# Electronic
   component`) to mimic Wikipedia’s lowercase‑first convention.  Write the
   note in a Wikipedia‑style voice – neutral, third person – but the level of

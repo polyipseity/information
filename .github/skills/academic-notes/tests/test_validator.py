@@ -170,6 +170,26 @@ def test_multiple_separator_warning(tmp_course_file):
     assert any("multiple flashcard separators" in w for w in warns)
 
 
+def test_missing_horizontal_rule_warning(tmp_course_file):
+    # flashcards must be preceded by a '---' separator within a section
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
+
+        ## Topic
+        Some explanation text.
+        - ELEC 1100 / Topic ::@:: definition
+        """)
+    )
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert any("should be preceded by a '---' separator" in w for w in warns)
+
+
 def test_br_space_warning(tmp_course_file):
     # <br/> without preceding space should produce a warning
     tmp_course_file.write_text(
@@ -206,6 +226,24 @@ def test_session_without_flashcards_warning(tmp_course_file):
         tmp_course_file, content_checks=True
     )
     assert any("no flashcard markers" in w for w in warns)
+
+
+def test_no_datetime_error_for_lab_word(tmp_course_file):
+    # word "lab" in prose should not trigger a missing-datetime error
+    tmp_course_file.write_text(
+        textwrap.dedent("""\
+        ---
+        tags:
+         - flashcard/active/special/academia/HKUST/ELEC_1100
+        ---
+
+        This note mentions lab gear and a laboratory setup.
+        """)
+    )
+    errs, warns = validate_academic.check_markdown_file(
+        tmp_course_file, content_checks=True
+    )
+    assert not errs
 
 
 def test_subheader_without_flashcards_warning(tmp_course_file):
