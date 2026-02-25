@@ -69,9 +69,16 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 Flashcard creation is managed automatically by the repository’s build
 workflows; agents and authors are not expected to run any commands to
-produce flashcards.  The generator scans for cloze markup such as
-`{@{ hidden text }@}`, `::@::`, or `:@:` and updates pytextgen regions behind the
-scenes.  See [pytextgen](../pytextgen/SKILL.md) skill for details.
+produce flashcards.  The generator scans for three kinds of markup:
+
+- `{@{ hidden text }@}` for cloze deletions (hide text within a paragraph),
+- `::@::` for two-sided question/answer pairs (line-only, two cards), and
+- `:@:` for one-sided question/answer pairs (line-only, single card).
+
+The source must honour the single‑line restriction for the latter two
+formats; use `<br/>` or `<p>` for any desired visual breaks.  When you add
+these markers, the build updates pytextgen regions behind the scenes.  See
+[pytextgen](../pytextgen/SKILL.md) skill for additional details.
 
 ### Step 5: Review and finalize
 

@@ -6,10 +6,19 @@ description: |
   encapsulates the multi‑step process the user follows in their finance
   lecture notes (e.g. FINA 3103) and elsewhere: read the prose, identify
   key terms, dates, formulas and logical assertions, and wrap them using
-  pytextgen cloze markup (`{@{ }@}`, `::@::`, `:@:`).  Use existing files
-  with flashcards as style guides and adapt the output based on user
-  feedback.  The skill also suggests regeneration commands once flashcards
-  are inserted.
+  flashcard markup (`{@{ }@}`, `::@::`, `:@:`).
+
+  There are three supported forms:
+
+  * **Cloze** (`{@{ }@}`) hides arbitrary text inside paragraphs.
+  * **Two-sided QA** (`::@::`) on a single line, yielding two cards.
+  * **One-sided QA** (`:@:`) on a single line, yielding a single card.
+
+  For the QA formats remember the line-only rule; if visual separation is
+  needed insert `<br/>`/`<p>` instead of newline characters.  The examples
+  in `examples.md` illustrate all three types.  Use existing flashcard files
+  as style guides and adapt the output based on user feedback.  The skill
+  also suggests regeneration commands once flashcards are inserted.
 ---
 
 # Flashcard Creation Skill

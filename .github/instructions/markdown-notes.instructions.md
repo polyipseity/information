@@ -21,19 +21,33 @@ applyTo: "general/**/*.md"
 
 ## Cloze & flashcard markup
 
-**Critical**: These enable spaced-repetition flashcard generation via pytextgen. Preserve exactly:
+Flashcards are produced by three distinct markup conventions; agents and
+authors should know which one they are using and keep the syntax exact.
 
-- `{@{ hidden text }@}`: Cloze deletion (text hidden in review)
-- `::@::`: Question-answer separator
-- `:@:`: Alternative Q&A separator
+- **Cloze flashcards** use `{@{hidden text}@}`.  The text between the
+  delimiters is hidden during review and the card asks you to recall the
+  omitted portion.  This is the most common form and may appear anywhere in
+  a paragraph.
+
+- **Two-sided flashcards** use a single line with a separator `::@::`.
+  Example: `term ::@:: definition`.  Two cards are generated: one that shows
+  the left side and asks for the right, and one that shows the right side
+  and asks for the left.  The source must remain on one Markdown line;
+  represent any needed visual breaks with `<br/>` or `<p>` tags.
+
+- **One-sided flashcards** use a single line with a separator `:@:`.  Only
+  a single card is created (recall the right-hand text from the left).  The
+  same single-line restriction applies.
 
 **Rules**:
 
-- Never escape, encode, or reflow text containing cloze markup
-- Do not modify or wrap across multiple lines
-- Preserve spacing inside delimiters
-- After editing, you do **not** need to regenerate manually; the build system
-  handles it and agents should not attempt to invoke any generation command.
+- Do not escape, encode, or otherwise alter the delimiters.
+- Do not reflow or split markup across multiple physical lines; the
+  generator treats each line literally.
+- Preserve spacing inside `{@{ }@}`, and around the `::@::` or `:@:`
+  separators.
+- After editing you do **not** need to run any generation command; the
+  build workflows handle flashcard updates automatically.
 
 ## pytextgen blocks
 

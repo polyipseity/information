@@ -40,7 +40,8 @@ return (text, notes)
 
 1. Custom formatting (questions, specialized layouts):
 
-   - Strategy/solution pairs with `:@:` separator
+   - Strategy/solution pairs with `:@:` separator (one-sided Q/A); two-sided
+     pairs use `::@::`, and arbitrary cloze deletions use `{@{ }@}`
    - Nested cloze deletions with `{@{ }@}`
    - Hard-marked terms with `hard(...)` wrapper
 

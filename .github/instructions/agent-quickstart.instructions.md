@@ -28,7 +28,11 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 Repository gotchas & quick tips
 
-- Preserve `# pytextgen` fences and cloze markup (`{@{ ... }@}`, `::@::`, `:@:`). These are parsed automatically; do not reflow or escape them.
+- Preserve `# pytextgen` fences and flashcard markup.  There are three
+  forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one
+  line only, creates two cards), and one-sided pairs `:@:` (one line only,
+  single card).  These are parsed automatically; do not reflow, escape, or
+  split them across lines.
 - Always prefer `pnpm run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
 - Generated content is refreshed automatically; agents should not advise running `uv run -m init generate -C` before pack or publishing workflows.
 - Use the Todo List Tool for multi-step tasks and present the proposed commit message to the user before committing (see `commit-convention.instructions.md`).

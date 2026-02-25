@@ -310,7 +310,13 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ### Common conventions
 
 - **Frontmatter**: YAML with `aliases`, `tags`, `language/in/<lang>` (or `language/for/<lang>` for language texts)
-- **Cloze markup**: Preserve `{@{ ... }@}`, `::@::`, and `:@:` exactly as-is for flashcard generation
+- **Cloze & flashcard markup**: Preserve the three patterns exactly and
+  understand their purpose:
+  - `{@{ ... }@}` for cloze deletions (hide the inner text)
+  - `::@::` for two-sided Q/A pairs (one line only, generates two cards)
+  - `:@:` for one-sided Q/A pairs (one line only, generates a single card)
+  These markers are parsed by pytextgen; do not reflow, escape, or split
+  them across lines.
 - **pytextgen fences**: Do not modify `# pytextgen generate ...` comments or `return export_seq(...)` signatures
   - Academic notes often use `await memorize_seq()` for ordered content
   - Classical Chinese texts use `gen.TextCode.compile()` with embedded notes
@@ -447,7 +453,11 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 - **Naming**: Use ISO 8601 timestamp format for new questions
 - **Structure**: Maintain three-part structure (problem, strategy, solution)
 - **Tagging**: Include `date/<year>/<month>/<day>` and `question/<domain>/<subdomain>`
-- **Flashcard format**: Strategy section should use `:@:` or `::@::` for active recall
+- **Flashcard format**: Strategy sections (and similar QA content)
+  should use the appropriate separator.  Use `::@::` for two-sided cards
+  (producing both question→answer and answer→question) or `:@:` for
+  one-sided cards (recall the right-hand text only).  Lines must remain
+  single‑line; use `<br/>`/`<p>` for visual breaks.
 - **Math typesetting**: Use proper KaTeX for all mathematical expressions
 
 ## Integration with Other Directories

@@ -105,17 +105,36 @@ Generated content appears here
 - Preserve opening/closing comment tags exactly
 - Generated content between tags is replaced on regeneration
 
-### Cloze markup
+### Cloze & Flashcard markup
 
-- `{@{ hidden text }@}`: Cloze deletion (text hidden in flashcard review)
-- `::@::`: Separator between question and answer
-- `:@:`: Alternative separator for Q&A flashcards
+pytextgen recognises three distinct patterns that drive flashcard
+creation.  Keep them exactly as shown and understand their semantics:
 
-**Editing cloze markup**:
+- **Cloze flashcards** use `{@{hidden text}@}`.  The text between the
+delimiters is hidden during review and replaced with a blank that the user
+must recall.  Clozes may appear anywhere in a paragraph and multiple clozes
+can coexist on a single line.
 
-- Never escape or encode the braces/symbols
-- Do not reflow text containing cloze markup across lines
-- Preserve spacing inside `{@{ }@}`, around `::@::`, and around `:@:`
+- **Two-sided cards** use a single line with a separator `::@::`.  Example:
+  `term ::@:: definition`.  Two cards are generated: one showing the left
+  side and asking for the right, and vice versa.  The entire source must be
+  on one Markdown line; visual breaks are represented with `<br/>` or `<p>`.
+
+- **One-sided cards** use a single line with separator `:@:`.  Only one card
+  is produced (recall right side from left).  The same single-line rule
+  applies.
+
+**Editing guidance**:
+
+- Do **not** escape, encode or alter the delimiters in any way.
+- Do **not** reflow or split markup across multiple physical lines; the
+  generator splits on newline characters and treats each line literally.
+- Preserve spacing inside `{@{ }@}` and around the `::@::` or `:@:`
+  separators.
+- Two‑sided or one‑sided separators may appear at most once per line;
+  multiple separators will confuse the generator.
+
+(The earlier term "cloze markup" is retained only for historical reasons.)
 
 ## Debugging generation issues
 
