@@ -152,9 +152,19 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 
 - datetime: 2026-02-09T16:00:00+08:00/2026-02-09T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- topic: energy and power
+- status: scheduled
+- topic: basic electronics review, energy & power, resistor networks
 - ELEC 1100
-  - ELEC 1100 / energy & power ::@:: Basic circuit energy and power relationships
+  - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
+    - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
+    - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge) ::@:: outer electrons are weakly held and participate in conduction
+    - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators) ::@:: conductors allow easy charge flow, insulators restrict it
+    - [§ current](electronic%20component.md#current) ::@:: current $I=\Delta q/\Delta t$ and conventional direction
+    - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference) ::@:: voltage is energy per charge between two points
+    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors) ::@:: Ohm's law $V=IR$, resistivity formula $R=\rho L/A$
+    - [§ capacitors](electronic%20component.md#capacitors) ::@:: two plates store charge, discharge provides transient power
+    - [§ energy and power](electronic%20component.md#energy%20and%20power) ::@:: $E=qV$, $P=IV=I^{2}R=V^{2}/R$ <p> Human/robot energy analogy; DC vs AC sources; lab gear (bench supply, function generator, breadboard, battery monitor, LiPo); human body energy comparison; Galileo $v=\sqrt{2gh}$; resistor heating/short‑circuit hazard and worked numerical examples.
+    - [§ resistor networks](electronic%20component.md#resistor%20networks) ::@:: series add, parallel combine via reciprocal conductance
 
 ### week 2 lecture 2
 
