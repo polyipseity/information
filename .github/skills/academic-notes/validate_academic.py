@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """validate_academic.py
 
-Lightweight validator for academic course notes under `special/academia/*`.
+Strict validator for academic course notes under `special/academia/*`.
 
-The validator performs basic structure checks (frontmatter, children lists,
-flashcard tags) and, when run in content mode, emits advisory warnings for
-common patterns such as missing topics, exams placed before lectures,
-duplicate week numbers, unscheduled sessions carrying a topic field, and
-out-of-order semester headings.
+All structural and stylistic rules that were previously advisory are now
+considered errors. The tool enforces complete metadata, proper flashcard use,
+and a wide range of formatting conventions; any violation causes a nonzero
+exit code and must be resolved before publishing course material. The
+`--content` flag still exists for backward compatibility but is ignored –
+all checks are always applied.
 
 Usage:
     python validate_academic.py [--content] [paths...]
 
 By default it checks `special/academia` and `private/special/academia`.
 Exit codes:
-  0 - no issues (and no warnings when --content used)
-  2 - fatal issues found
+  0 - no issues detected
+  2 - errors found (including conditions that were previously warnings)
 """
 
 import argparse
@@ -33,32 +34,23 @@ FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.I)
 
 
 class ValidationResult:
-    """Collects validation errors and warnings found while scanning files.
+    """Collects validation messages found while scanning files.
 
     Attributes
-    - errors: list of (Path, message) tuples for issues that should be fixed.
-    - warnings: list of (Path, message) tuples for advisory content guidance.
+    - errors: list of (Path, message) tuples for any violation. All issues,
+      including those that were formerly warnings, are treated as errors.
     """
 
     def __init__(self) -> None:
         self.errors: list[tuple[Path, str]] = []
-        self.warnings: list[tuple[Path, str]] = []
 
     def add_error(self, path: Path, msg: str) -> None:
         """Record a validation error for the given file path.
 
-        Errors indicate missing or malformed required metadata and should be
-        corrected before publishing (or brought to the maintainers' attention).
+        The validator is strict: every message indicates a problem that should
+        be corrected before the content is considered valid.
         """
         self.errors.append((path, msg))
-
-    def add_warning(self, path: Path, msg: str) -> None:
-        """Record a non-fatal advisory message about content quality.
-
-        Warnings are intended for `--content` guidance and are not treated as
-        fatal by default.
-        """
-        self.warnings.append((path, msg))
 
 
 def parse_frontmatter(text: str) -> str | None:
@@ -83,14 +75,14 @@ def has_flash_tag(front: str) -> bool:
 def check_markdown_file(
     path: Path, content_checks: bool = False
 ) -> tuple[list[str], list[str]]:
-    """Run checks on a single Markdown file and return (errors, warnings).
+    """Run checks on a single Markdown file and return (errors, extras).
 
-    Errors are missing or malformed required fields (frontmatter, tags,
-    index structure). Warnings are content-style suggestions emitted only when
-    `content_checks` is True (i.e., the `--content` mode).
+    All validation rules are treated as errors. The returned second list is a
+    legacy artifact and will always be empty. The `content_checks` flag is
+    ignored but preserved for backward compatibility.
     """
     errors: list[str] = []
-    warnings: list[str] = []
+    extras: list[str] = []  # previously warnings
     # DEBUG: show whether content_checks flag is set (removed after debugging)
     # print(f"DEBUG check_markdown_file called with content_checks={content_checks}")
     text = path.read_text(encoding="utf-8")
@@ -98,7 +90,7 @@ def check_markdown_file(
     front = parse_frontmatter(text)
     if not front:
         errors.append("missing YAML frontmatter")
-        return errors, warnings
+        return errors, extras
 
     if "tags:" not in front:
         errors.append("no 'tags:' in frontmatter")
@@ -125,19 +117,19 @@ def check_markdown_file(
                     semesters.append((year, order, line))
         for i in range(1, len(semesters)):
             if semesters[i][:2] < semesters[i - 1][:2]:
-                warnings.append(
+                errors.append(
                     "semester headings are not in chronological order ({} comes before {})".format(
                         semesters[i][2], semesters[i - 1][2]
                     )
                 )
                 break
 
-    if content_checks:
+    if True:  # content_checks ignored (strict mode)
         if (
             re.search(r"(?:^|\n)[ \t\-]*\b(?:lecture|lab|tutorial)\b", text)
             and "topic:" not in text
         ):
-            warnings.append(
+            errors.append(
                 "appears to include session entries but no 'topic:' found — consider adding concise topic/takeaway"
             )
         # legacy rule removed: the header-level check below already ensures
@@ -167,7 +159,7 @@ def check_markdown_file(
                 )
                 if not has_marker:
                     hdr = h.group(0).strip()
-                    warnings.append(
+                    errors.append(
                         f"header {hdr!r} has no flashcard markers in its section"
                     )
                 else:
@@ -177,13 +169,13 @@ def check_markdown_file(
                         prefix = section[: m2.start()]
                         if "---" not in prefix:
                             hdr = h.group(0).strip()
-                            warnings.append(
+                            errors.append(
                                 f"flashcards under header {hdr!r} should be preceded by a '---' separator"
                             )
         # new rule: flag asterisk-based emphasis
         # (regex should avoid matching table pipes or escaped asterisks)
         if re.search(r"(?<!\\)(\*\*[^\*\n]+\*\*|\*[^\*\n]+\*)", text):
-            warnings.append(
+            errors.append(
                 "found asterisk-based emphasis; use underscores (_italic_) or __bold__ instead"
             )
         # warn if common units appear outside math delimiters; this helps catch
@@ -193,7 +185,7 @@ def check_markdown_file(
         parts = re.split(r"(\$.*?\$)", text, flags=re.DOTALL)
         for segment in parts[::2]:
             if re.search(r"\b\d+(?:\.\d+)?\s*(?:V|A|Ω|W|mW|kΩ|C|Hz)\b", segment):
-                warnings.append(
+                errors.append(
                     "found a unit (e.g. V, A, Ω, W, mW, kΩ, C, Hz) outside math delimiters; enclose units in $...$"
                 )
                 break
@@ -218,17 +210,17 @@ def check_markdown_file(
                 # look for any week/lecture/lab/tutorial after that index
                 tail = lower[exam_idx:]
                 if any(k in tail for k in ["## week", "lecture", "lab", "tutorial"]):
-                    warnings.append(
+                    errors.append(
                         "exam section appears before some lecture/lab/tutorial entries — exams should be placed after other sessions"
                     )
         # unscheduled sessions should not carry a topic field
         if "status: unscheduled" in lower and "topic:" in lower:
-            warnings.append(
+            errors.append(
                 "session marked status: unscheduled but contains a 'topic:' field; remove topic from unscheduled sessions"
             )
         # forward-looking remarks about the next lecture/week are usually unnecessary
         if re.search(r"\bnext\s+(lecture|week|class)\b", lower):
-            warnings.append(
+            errors.append(
                 "contains a 'next lecture/next week' remark; remove unless referring to a major grading component"
             )
         # duplicate week numbers indicate holiday or numbering bug
@@ -236,7 +228,7 @@ def check_markdown_file(
         seen: set[str] = set()
         for num in week_nums:
             if num in seen:
-                warnings.append(
+                errors.append(
                     f"duplicate week number {num} found; check for holiday or numbering bug"
                 )
                 break
@@ -269,17 +261,21 @@ def check_markdown_file(
                 break
             # match any bullet with at least two spaces of indentation
             if re.match(r"^ {2,}- ", line) and "/" not in line:
-                warnings.append(
+                errors.append(
                     "nested list item does not include full path (e.g. 'ELEC 1100 / ...')"
                 )
                 break
-        # QA-style flashcard list check: look for simple question::@::answer
-        # bullets that are not preceded by the expected separator phrase
+        # QA-style flashcard list check: look for a simple question::@::answer
+        # bullet where the portion before the separator contains no slash.  The
+        # previous implementation only checked the first character, causing
+        # false positives when a course path (which includes slashes) appeared
+        # later in the text.  This stricter regex prevents the flatten-single-
+        # child case from being flagged.
         lines = text.splitlines()
         for i, line in enumerate(lines):
-            # simple pattern: bullet, some text not containing '/', then ::@:: or :@:
-            if re.match(r"^\s*-\s+[^/].*::@::", line) or re.match(
-                r"^\s*-\s+[^/].*:@:", line
+            # match a bullet whose left-hand text (up to the separator) has no '/'
+            if re.match(r"^\s*-\s+([^/]*?)::@::", line) or re.match(
+                r"^\s*-\s+([^/]*?):@:", line
             ):
                 # look back for a nonblank previous line
                 j = i - 1
@@ -293,14 +289,14 @@ def check_markdown_file(
                     "Flashcards for this section are as follows:",
                     "---",
                 ):
-                    warnings.append(
+                    errors.append(
                         "QA-style flashcard list detected without preceding separator phrase"
                     )
                 break
         # warn about lines that contain more than one flashcard separator
         for line in lines:
             if line.count("::@::") > 1 or line.count(":@:") > 1:
-                warnings.append(
+                errors.append(
                     "line contains multiple flashcard separators (::@:: or :@:); use only one per card"
                 )
                 break
@@ -310,21 +306,23 @@ def check_markdown_file(
             # non-space character immediately before the break
             for line in lines:
                 if re.search(r"[^ \t]<br/>", line):
-                    warnings.append(
+                    errors.append(
                         "'<br/>' found without a preceding space; add a space before '<br/>'"
                     )
                     break
 
-    return errors, warnings
+    return errors, extras
 
 
 def walk_and_check(
     roots: Sequence[Path], content_checks: bool = False
 ) -> ValidationResult:
-    """Walk `roots` recursively and check all Markdown files.
+    """Walk `roots` recursively and validate all Markdown files.
 
-    Returns a `ValidationResult` containing aggregated errors and warnings.
-    Missing root paths are warned about but do not stop the scan.
+    Returns a `ValidationResult` containing aggregated errors.  Previously the
+    tool distinguished warnings; those are now elevated to errors and are
+    merged before returning. Missing root paths produce a printed warning but
+    do not abort the scan.
     """
     res = ValidationResult()
     for root in roots:
@@ -336,8 +334,8 @@ def walk_and_check(
                 errs, warns = check_markdown_file(p, content_checks=content_checks)
                 for e in errs:
                     res.add_error(p, e)
-                for w in warns:
-                    res.add_warning(p, w)
+                for w in warns:  # extras from legacy behavior
+                    res.add_error(p, w)
             except Exception as exc:
                 res.add_error(p, f"exception while checking: {exc}")
     return res
@@ -347,8 +345,10 @@ def main(argv: Sequence[str] | None = None) -> int:
     """Command-line entry point for the validator.
 
     By default the tool checks `special/academia` and `private/special/academia`.
-    Use `--content` to enable advisory content warnings. Use `--json` to emit a
-    machine-readable summary of errors and warnings.
+    The validator enforces all rules and treats every failure as an error. The
+    `--content` flag is accepted for backwards compatibility but has no effect.
+    `--json` will still emit a machine-readable summary; the warnings array is
+    kept for compatibility but will always be empty.
     """
     parser = argparse.ArgumentParser(
         prog="validate_academic.py",
@@ -360,7 +360,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument(
         "--content",
         action="store_true",
-        help="Enable non-strict content guidance warnings (advisory)",
+        help="(ignored) legacy flag; all checks are always strict",
     )
     parser.add_argument(
         "--json",
@@ -404,12 +404,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         return agg
 
     agg_errors = aggregate(res.errors)
-    agg_warnings = aggregate(res.warnings)
 
     if args.json:
         out = {
             "errors": [[msg, paths] for msg, paths in agg_errors.items()],
-            "warnings": [[msg, paths] for msg, paths in agg_warnings.items()],
         }
         print(json.dumps(out, ensure_ascii=False, indent=2))
         return 2 if res.errors else 0
@@ -431,22 +429,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         )
         return 2
 
-    if res.warnings:
-        total = len(res.warnings)
-        print(f"Validation warnings: {total} advisory message(s) found.\n")
-        for msg, entries in agg_warnings.items():
-            print(f"* {msg} — {len(entries)} file(s)")
-            for e in entries[:5]:
-                print(f"    - {e['path']}")
-                if e.get("excerpt"):
-                    print(f"      preview: {e['excerpt']}")
-            if len(entries) > 5:
-                print(f"    ... and {len(entries) - 5} more\n")
-        print(
-            "\nThese are advisory suggestions; consider addressing the most common issues first or running with `--content` to get more guidance."
-        )
-        return 0
-
+    # no warnings stage any more
     print("OK: No issues detected (basic checks)")
     return 0
 
