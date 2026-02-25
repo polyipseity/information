@@ -15,15 +15,15 @@ tags:
 
 ## business model generation
 
-{@{Business model generation}@} is for {@{the entrepreneurial-spirited, value creators, and business innovators}@}. A business model shows {@{how an organization create, deliver, and capture value}@}. <!--SR:!2028-10-05,1112,272!2027-04-19,792,290-->
+{@{Business model generation}@} is for {@{the entrepreneurial-spirited, value creators, and business innovators}@}. A business model shows {@{how an organization create, deliver, and capture value}@}. <!--SR:!2028-10-05,1112,272!2027-04-19,792,290!2026-02-28,4,313-->
 
 ## canvas
 
-{@{The business model canvas}@} consists of {@{9 [building blocks](#building%20blocks)}@}. It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2027-12-14,992,314!2029-03-09,1315,314-->
+{@{The business model canvas}@} consists of {@{9 [building blocks](#building%20blocks)}@}. It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2027-12-14,992,314!2029-03-09,1315,314!2026-02-28,4,313!2026-02-28,4,313-->
 
 ### building blocks
 
-There are {@{9 building blocks}@} to {@{a business model canvas}@}:
+There are {@{9 building blocks}@} to {@{a business model canvas}@}: <!--SR:!2026-02-28,4,313!2026-02-28,4,313-->
 
 ```Python
 # pytextgen generate data
@@ -74,13 +74,13 @@ C$: [cost structure](#cost%20structure)
 
 #### customer segments
 
-{@{The customer segments}@} building block shows {@{the different groups an organization is trying to serve}@}. Customers are the heart of any business model because {@{without them, no business can work}@}. <!--SR:!2027-01-10,711,294!2027-02-22,786,334-->
+{@{The customer segments}@} building block shows {@{the different groups an organization is trying to serve}@}. Customers are the heart of any business model because {@{without them, no business can work}@}. <!--SR:!2027-01-10,711,294!2027-02-22,786,334!2026-02-28,4,313-->
 
 {@{Customers}@} should be {@{separated into different segments}@} if they have {@{different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships)}@}, {@{very different profitability, or needing different aspects of your products}@}. <!--SR:!2029-05-14,1274,277!2027-02-26,370,369!2027-04-13,405,369!2027-03-16,383,369-->
 
 ##### customer segment examples
 
-There are {@{different types}@} of {@{customer segments}@}. Examples include:
+There are {@{different types}@} of {@{customer segments}@}. Examples include: <!--SR:!2026-02-28,4,313!2026-02-28,4,313-->
 
 ```Python
 # pytextgen generate data
@@ -119,11 +119,11 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-{@{The value propositions}@} building block shows {@{products and services that create value for customer segments}@}. Value propositions can be {@{disruptive or an improvement over existing products}@}. <!--SR:!2028-10-14,1169,294!2028-01-08,929,274-->
+{@{The value propositions}@} building block shows {@{products and services that create value for customer segments}@}. Value propositions can be {@{disruptive or an improvement over existing products}@}. <!--SR:!2028-10-14,1169,294!2028-01-08,929,274!2026-02-28,4,313-->
 
 ##### value sources
 
-{@{Values}@} can come {@{from many things}@}:
+{@{Values}@} can come {@{from many things}@}: <!--SR:!2026-02-28,4,313!2026-02-28,4,313-->
 
 ```Python
 # pytextgen generate data
@@ -180,15 +180,15 @@ risk reduction
 
 #### channels
 
-{@{The channels}@} building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2029-09-18,1379,297!2029-09-22,1477,314!2026-04-17,78,351-->
+{@{The channels}@} building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2026-03-31,522,314!2029-09-18,1379,297!2029-09-22,1477,314!2026-04-17,78,351!2026-02-28,4,313-->
 
 #### customer relationships
 
-{@{The customer relationships}@} building block shows {@{the types of relationships with customer segments}@}. Proper customer relationships help with {@{customer acquisition, customer retention, and upselling}@}. <!--SR:!2030-02-10,1595,314!2028-04-02,1035,297-->
+{@{The customer relationships}@} building block shows {@{the types of relationships with customer segments}@}. Proper customer relationships help with {@{customer acquisition, customer retention, and upselling}@}. <!--SR:!2030-02-10,1595,314!2028-04-02,1035,297!2026-02-28,4,313-->
 
 ##### customer relationship examples
 
-There are {@{different types}@} of {@{customer relationships}@}. Examples include:
+There are {@{different types}@} of {@{customer relationships}@}. Examples include: <!--SR:!2026-02-28,4,313!2026-02-28,4,313-->
 
 ```Python
 # pytextgen generate data
@@ -227,7 +227,7 @@ personal assistance
 
 #### revenue streams
 
-{@{The revenue streams}@} building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2028-02-28,1009,294!2030-11-07,1836,337!2026-11-18,655,317-->
+{@{The revenue streams}@} building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2028-02-28,1009,294!2030-11-07,1836,337!2026-11-18,655,317!2026-02-28,4,313-->
 
 ##### revenue stream examples
 
@@ -276,26 +276,26 @@ subscription fee
 
 #### key resources
 
-{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2026-04-10,533,314!2026-03-30,411,237-->
+{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2026-04-10,533,314!2026-03-30,411,237!2026-02-28,4,313-->
 
 #### key activities
 
-{@{The key activities}@} building block shows {@{important activities required for the business model}@}. They can be categorized into {@{platform or network, problem solving, and production}@} activities. <!--SR:!2030-07-09,1732,334!2028-08-19,1095,277-->
+{@{The key activities}@} building block shows {@{important activities required for the business model}@}. They can be categorized into {@{platform or network, problem solving, and production}@} activities. <!--SR:!2030-07-09,1732,334!2028-08-19,1095,277!2026-02-28,4,313-->
 
 #### key partnerships
 
-{@{The key partnerships}@} building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions}@}, {@{joint ventures, and strategic alliances between non-competitors}@}. {@{Partnerships}@} can acquire {@{particular activities and resources}@}, optimize {@{for economy of scale}@}, and reduce {@{risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2028-01-06,690,217!2026-03-14,402,237!2026-03-07,9,293-->
+{@{The key partnerships}@} building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions}@}, {@{joint ventures, and strategic alliances between non-competitors}@}. {@{Partnerships}@} can acquire {@{particular activities and resources}@}, optimize {@{for economy of scale}@}, and reduce {@{risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2028-01-06,690,217!2026-03-14,402,237!2026-03-07,9,293!2026-02-28,4,313!2026-02-28,4,313!2026-02-28,4,313!2026-02-28,4,313-->
 
 #### cost structure
 
-{@{The cost structure}@} building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2030-03-26,1657,334!2026-08-22,397,274-->
+{@{The cost structure}@} building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2030-03-26,1657,334!2026-08-22,397,274!2026-02-28,4,313-->
 
-In {@{cost structures}@}, costs can be {@{fixed costs or variable costs}@}. Costs can be reduced by {@{economies of scale and economies of scope}@}. <!--SR:!2028-03-05,1032,310!2026-07-11,581,294-->
+In {@{cost structures}@}, costs can be {@{fixed costs or variable costs}@}. Costs can be reduced by {@{economies of scale and economies of scope}@}. <!--SR:!2028-03-05,1032,310!2026-07-11,581,294!2026-02-28,4,313-->
 
 ### fit
 
-{@{Business model fit}@} can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2028-08-16,1125,309!2026-07-08,589,329!2027-12-08,1012,349!2026-08-15,590,329!2026-12-14,709,329-->
+{@{Business model fit}@} can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2028-08-16,1125,309!2026-07-08,589,329!2027-12-08,1012,349!2026-08-15,590,329!2026-12-14,709,329!2026-02-28,4,313-->
 
 ## comparison with other models
 
-{@{The business model canvas}@} can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections}@}: {@{"feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2028-06-20,985,289!2026-07-04,473,270!2027-05-24,776,329!2027-02-15,393,367!2027-02-10,389,367!2027-02-13,392,367-->
+{@{The business model canvas}@} can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections}@}: {@{"feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2028-06-20,985,289!2026-07-04,473,270!2027-05-24,776,329!2027-02-15,393,367!2027-02-10,389,367!2027-02-13,392,367!2026-02-28,4,313-->

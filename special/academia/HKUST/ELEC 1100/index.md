@@ -89,35 +89,35 @@ The content is in teaching order.
 - topic: course introduction
 - ELEC 1100
   - ELEC 1100 / course overview
-    - ELEC 1100 / course overview / description ::@:: Designed to provide fundamental knowledge in electrical engineering, basic electronic components and robot design
-    - ELEC 1100 / course overview / outcomes ::@:: Analyze and design simple analog circuits; implement control strategies; build/debug systems using hierarchical design; manage projects; execute full project lifecycle
+    - ELEC 1100 / course overview / description ::@:: Designed to provide fundamental knowledge in electrical engineering, basic electronic components and robot design <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / course overview / outcomes ::@:: Analyze and design simple analog circuits; implement control strategies; build/debug systems using hierarchical design; manage projects; execute full project lifecycle <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
   - ELEC 1100 / pedagogy
-    - ELEC 1100 / pedagogy / methodology ::@:: Reverse engineering approach: start with engineering, then physics, then mathematics; emphasizes learning by doing
-    - ELEC 1100 / pedagogy / traditional approach ::@:: Traditional: mathematics ➜ physics ➜ engineering; may tell you and you forget, teach you and you remember
-    - ELEC 1100 / pedagogy / reverse approach details ::@:: Reverse engineering: engineering ➜ physics ➜ mathematics; many things can be learned but not taught; learning requires an objective usually from needs and experience; involve me and I learn
-    - ELEC 1100 / pedagogy / traditional limitations ::@:: Traditional education teaches knowledge that may become obsolete and does not focus on application; may not evolve with information era; knowledge may be forgotten or redundant after graduation
-    - ELEC 1100 / pedagogy / retention question ::@:: One month after taking a class, how much material can you still recall?
-  - ELEC 1100 / class expectation ::@:: Attend lectures, tutorials and labs on time; be ready to learn, ask questions and enjoy the experience
-  - ELEC 1100 / what is this class about? ::@:: Not a LEGO robot programming class; start from basic concepts and construct robot from basic components; learn managing power supply, driving motors, reading sensor output, logic control and decision making; will construct autonomous “robot” to finish a task
+    - ELEC 1100 / pedagogy / methodology ::@:: Reverse engineering approach: start with engineering, then physics, then mathematics; emphasizes learning by doing <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / pedagogy / traditional approach ::@:: Traditional: mathematics ➜ physics ➜ engineering; may tell you and you forget, teach you and you remember <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / pedagogy / reverse approach details ::@:: Reverse engineering: engineering ➜ physics ➜ mathematics; many things can be learned but not taught; learning requires an objective usually from needs and experience; involve me and I learn <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / pedagogy / traditional limitations ::@:: Traditional education teaches knowledge that may become obsolete and does not focus on application; may not evolve with information era; knowledge may be forgotten or redundant after graduation <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / pedagogy / retention question ::@:: One month after taking a class, how much material can you still recall? <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+  - ELEC 1100 / class expectation ::@:: Attend lectures, tutorials and labs on time; be ready to learn, ask questions and enjoy the experience <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+  - ELEC 1100 / what is this class about? ::@:: Not a LEGO robot programming class; start from basic concepts and construct robot from basic components; learn managing power supply, driving motors, reading sensor output, logic control and decision making; will construct autonomous “robot” to finish a task <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
   - ELEC 1100 / what is a robot?
-    - ELEC 1100 / what is a robot? / history ::@:: Word “robot” first used in 1921 by Czech playwright Karel Capek; “robotic” appeared in Issac Asimov’s 1942 story – these predate modern computers, ICs, transistors, and AI
-    - ELEC 1100 / what is a robot? / laws ::@:: Asimov’s Three Laws of Robotics (1950): 1) A robot may not injure a human or through inaction allow harm. 2) A robot must obey human orders unless they conflict with Law 1. 3) A robot must protect its own existence unless such protection conflicts with Law 1 or 2
-    - ELEC 1100 / what is a robot? / definitions ::@:: Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks; Webster definition: “an automatic device that performs functions normally ascribed to humans or a machine in the form of a human.”
-    - ELEC 1100 / what is a robot? / features ::@:: - artificially created and programmable <br/>  - can sense its environment and manipulate or interact with things in it <br/>  - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence <br/>  - moves without direct human interaction <br/>  - discussion questions: are animals robots? is a motorcycle a robot? is a helicopter a robot?
-    - ELEC 1100 / what is a robot? / examples ::@:: - First real robot Unimate (Engelberger & Devol, 1961) – development began 1954 inspired by Asimov <br/>  - Modern robots: Boston Dynamics dancing robots; Roomba vacuum cleaner; Aqua 2 underwater robot; DJI Air 2S drone <br/>  - Categories: aerospace, consumer, exoskeletons, drones, self-driving cars, industrial, disaster response, humanoids
-  - ELEC 1100 / robotics discipline ::@:: Science of perceiving and manipulating the physical world through computer-controlled mechanical devices; interdisciplinary branch of computer science and engineering involving design, construction, operation, and use of robots to help and assist humans
-  - ELEC 1100 / human vs robot analogy ::@:: Compare sensing, structure, motion, fuel, control and communication between humans and robots
-  - ELEC 1100 / mobile robot components ::@:: Sensing: vision, sonar, GPS, gyro compass; Controller: signal processing, memory map, planned motion command, control algorithm; Power: DC for analog/digital circuits, solar/portable sources; Mechanical motion: wheels, axles, structures
+    - ELEC 1100 / what is a robot? / history ::@:: Word “robot” first used in 1921 by Czech playwright Karel Capek; “robotic” appeared in Issac Asimov’s 1942 story – these predate modern computers, ICs, transistors, and AI <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / what is a robot? / laws ::@:: Asimov’s Three Laws of Robotics (1950): 1) A robot may not injure a human or through inaction allow harm. 2) A robot must obey human orders unless they conflict with Law 1. 3) A robot must protect its own existence unless such protection conflicts with Law 1 or 2 <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / what is a robot? / definitions ::@:: Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks; Webster definition: “an automatic device that performs functions normally ascribed to humans or a machine in the form of a human.” <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / what is a robot? / features ::@:: - artificially created and programmable <br/>  - can sense its environment and manipulate or interact with things in it <br/>  - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence <br/>  - moves without direct human interaction <br/>  - discussion questions: are animals robots? is a motorcycle a robot? is a helicopter a robot? <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / what is a robot? / examples ::@:: - First real robot Unimate (Engelberger & Devol, 1961) – development began 1954 inspired by Asimov <br/>  - Modern robots: Boston Dynamics dancing robots; Roomba vacuum cleaner; Aqua 2 underwater robot; DJI Air 2S drone <br/>  - Categories: aerospace, consumer, exoskeletons, drones, self-driving cars, industrial, disaster response, humanoids <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+  - ELEC 1100 / robotics discipline ::@:: Science of perceiving and manipulating the physical world through computer-controlled mechanical devices; interdisciplinary branch of computer science and engineering involving design, construction, operation, and use of robots to help and assist humans <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+  - ELEC 1100 / human vs robot analogy ::@:: Compare sensing, structure, motion, fuel, control and communication between humans and robots <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+  - ELEC 1100 / mobile robot components ::@:: Sensing: vision, sonar, GPS, gyro compass; Controller: signal processing, memory map, planned motion command, control algorithm; Power: DC for analog/digital circuits, solar/portable sources; Mechanical motion: wheels, axles, structures <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
   - ELEC 1100 / design principles
-    - ELEC 1100 / design principles / hierarchical decomposition ::@:: Divide-and-conquer decomposition into subsystems such as power, sensors, controller, mechanical; complex systems like a Mars rover use specialised subteams (control, communication, signal processing, mechanical, rocket, etc.) each handling tasks (e.g. control team: obstacle avoidance, speed/landing control)
-  - ELEC 1100 / robot system structure ::@:: Robot system accepts inputs and produces actions; electronic and mechanical subsystems feed into the overall system with further sub‑subsystems
-    - ELEC 1100 / robot system structure / electronic decomposition ::@:: Electronic subsystem breaks into control processor (sensor/other input, memory, logic power supply, control logic), motor drive and motor power supply with power amplifier; outputs to mechanical subsystem; mobile robot components include sensing (vision, sonar, GPS, gyro), controller, power sources, mechanical motion elements
-  - ELEC 1100 / course roadmap ::@:: Weekly topics from basic electronics through Arduino programming and final project (sensor basics wk6; logic & MCU wk7‑9; motor power/transistor/H‑bridge/ PWM wk4‑6; basic electronics and KCL/KVL early weeks)
-  - ELEC 1100 / references ::@:: - No major text; mainly use handouts provided by the instructors <br/>  - Major references: L. Richard Carley and Pradeep Khosla, “Introduction to Electrical and Computer Engineering- taught in Context”, The McGraw-Hill Companies, Inc. <br/>  - G. Rizzoni, “Principles and Applications of Electrical Engineering,” 5th edition, McGraw Hill, 2007 <br/>  - D. V. Kerns and J.D. Irwin, “Essentials of Electrical and Computer Engineering”, Pearson, 2004 <br/>  - M. M. Mano and C.R. Kime, “Logic and Computer Design fundamentals”, 3rd edition, Prentice-Hall, 2004
+    - ELEC 1100 / design principles / hierarchical decomposition ::@:: Divide-and-conquer decomposition into subsystems such as power, sensors, controller, mechanical; complex systems like a Mars rover use specialised subteams (control, communication, signal processing, mechanical, rocket, etc.) each handling tasks (e.g. control team: obstacle avoidance, speed/landing control) <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+  - ELEC 1100 / robot system structure ::@:: Robot system accepts inputs and produces actions; electronic and mechanical subsystems feed into the overall system with further sub‑subsystems <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+    - ELEC 1100 / robot system structure / electronic decomposition ::@:: Electronic subsystem breaks into control processor (sensor/other input, memory, logic power supply, control logic), motor drive and motor power supply with power amplifier; outputs to mechanical subsystem; mobile robot components include sensing (vision, sonar, GPS, gyro), controller, power sources, mechanical motion elements <!--SR:!2026-02-27,3,250!2026-02-28,4,270-->
+  - ELEC 1100 / course roadmap ::@:: Weekly topics from basic electronics through Arduino programming and final project (sensor basics wk6; logic & MCU wk7‑9; motor power/transistor/H‑bridge/ PWM wk4‑6; basic electronics and KCL/KVL early weeks) <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
+  - ELEC 1100 / references ::@:: - No major text; mainly use handouts provided by the instructors <br/>  - Major references: L. Richard Carley and Pradeep Khosla, “Introduction to Electrical and Computer Engineering- taught in Context”, The McGraw-Hill Companies, Inc. <br/>  - G. Rizzoni, “Principles and Applications of Electrical Engineering,” 5th edition, McGraw Hill, 2007 <br/>  - D. V. Kerns and J.D. Irwin, “Essentials of Electrical and Computer Engineering”, Pearson, 2004 <br/>  - M. M. Mano and C.R. Kime, “Logic and Computer Design fundamentals”, 3rd edition, Prentice-Hall, 2004 <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
 
 ---
 
-During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@} and monitor your HKUST email account for updates; {@{next week the tutorials}@} start on 2026‑02‑09, 2026‑02‑12, and 2026‑02‑13 and {@{the first lab sessions}@} begin on 2026‑02‑13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.  The next lecture will cover {@{basic components and charge/current/voltage/resistor}@}.
+During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@} and monitor your HKUST email account for updates; {@{next week the tutorials}@} start on 2026‑02‑09, 2026‑02‑12, and 2026‑02‑13 and {@{the first lab sessions}@} begin on 2026‑02‑13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.  The next lecture will cover {@{basic components and charge/current/voltage/resistor}@}. <!--SR:!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270!2026-02-28,4,270-->
 
 ### week 1 lecture 2
 
@@ -125,7 +125,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: basic components
 - ELEC 1100
-  - ELEC 1100 / ECE areas relevant to robotics ::@:: Robotics draws on multiple ECE subfields grouped by function: **hardware** (nanoelectronics for core devices; MEMS for micro‑robots and sensors; photonics for optical sensors), **computation & control** (integrated circuits & systems and system automation for control algorithms; multimedia & signal processing for information processing; computer engineering for decision‑making) and **communications** (wireless communication and networking for robot links).
+  - ELEC 1100 / ECE areas relevant to robotics ::@:: Robotics draws on multiple ECE subfields grouped by function: **hardware** (nanoelectronics for core devices; MEMS for micro‑robots and sensors; photonics for optical sensors), **computation & control** (integrated circuits & systems and system automation for control algorithms; multimedia & signal processing for information processing; computer engineering for decision‑making) and **communications** (wireless communication and networking for robot links). <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
   - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
     - [§ electricity](electronic%20component.md#electricity)
     - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge)
@@ -154,7 +154,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: energy and power
 - ELEC 1100
-  - ELEC 1100 / energy & power ::@:: Basic circuit energy and power relationships
+  - ELEC 1100 / energy & power ::@:: Basic circuit energy and power relationships <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
 
 ### week 2 lecture 2
 
@@ -192,7 +192,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab 1 equipment
 - ELEC 1100
-  - ELEC 1100 / Lab1 equipment ::@:: Setup and component check
+  - ELEC 1100 / Lab1 equipment ::@:: Setup and component check <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
 
 ### week 4 tutorial 1
 
@@ -206,7 +206,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: DC regulation
 - ELEC 1100
-  - ELEC 1100 / DC regulation ::@:: Voltage regulation basics
+  - ELEC 1100 / DC regulation ::@:: Voltage regulation basics <!--SR:!2026-02-28,4,270!2026-02-28,4,270-->
 
 ### week 4 lecture 2
 
