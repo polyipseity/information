@@ -1,5 +1,9 @@
 # Examples and snippets (academic notes)
 
+**CRITICAL:** before using any examples, agents must read every file in this directory (`.github/skills/academic-notes/`) and every line of those files. Do not treat this file as a complete summary; it supplements the detailed instructions elsewhere.
+
+This file collects concise, long-line examples that the **academic-notes** agent uses for training and guidance.  Each section pairs a Markdown snippet with minimal commentary.  Lines are deliberately not wrapped; examples may be extremely long to ensure the agent sees realistic real‑world patterns.
+
 ## Minimal frontmatter
 
 ```markdown
@@ -14,16 +18,9 @@ tags:
 ---
 ```
 
-## Weekly lecture example
+## Weekly lecture outline
 
-> **Reminder:** for topic‑specific pages only you must add flashcards under
-> every header.  Index pages are exempt; they are checked separately for
-> session-level cards.
->
-> **Reminder:** the rule now applies to *every* Markdown section header.  When
-> you create a new `##`, `###`, etc. entry in course notes you should
-> immediately add flashcard glosses or a QA block beneath it, even if the
-> section is purely a minor subtopic or aside.
+Basic skeleton used by most course notes.  Agents should always add flashcard glosses immediately after creating a new header, even if it is a minor subtopic.
 
 ```markdown
 ## week 3 lecture
@@ -34,16 +31,11 @@ tags:
   - COMP 3031 / polymorphism ::@:: Parametric polymorphism, subtyping polymorphism
 ```
 
-Notes: prefer using `COMP_3031` (underscore) in course-scoped flashcard activation tags; frontmatter tags should use the canonical institution short name (e.g., `HKUST`).
+**Tag tip:** use underscores for course codes in flashcard activation tags (`COMP_3031`) and canonical institution short names in frontmatter (e.g. `HKUST`).
 
-## Detailed lecture example (content-focused)
+## Detailed lecture entry (slide-level detail)
 
-The following snippet shows the kind of rich, slide-level detail we aim for
-– the lecture has been transcribed almost verbatim, with every bullet and
-example preserved and elaborated.
-
-Additional conventions illustrated below show how to record rhetorical
-questions and handle acronyms.
+Shows the richest permitted structure, including numbered lists, explicit indentation, acronyms, rhetorical questions, and a reminder about linking deep proofs to `general/` instead of copying them.
 
 ```markdown
 ## week 7 lecture
@@ -69,7 +61,9 @@ questions and handle acronyms.
   - COMP 3031 / extra note ::@:: This line is indented exactly two spaces relative to the previous level, illustrating the correct outline indentation without extra blank levels.
 ```
 
-## outline with logistics paragraph
+## Logistic paragraph example
+
+Mixes structural outline with prose and cloze flashcards.  The long paragraph below demonstrates multiple simultaneous clozes in narrative form; agents should model generation of similar content.
 
 ```markdown
 ### week 1 lecture 1
@@ -94,7 +88,9 @@ questions and handle acronyms.
 During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@}; {@{next week the tutorials}@} start on 2026-02-09, 2026-02-12, and 2026-02-13 and {@{the first lab sessions}@} begin on 2026-02-13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.
 ```
 
-## energy and power example
+## Energy and power example
+
+Straightforward concept list followed by extracted flashcards.  Agents can use this pattern to verify that they identify cards correctly.
 
 ```markdown
 - Energy is electrical or mechanical work capacity; analogies (food for humans, batteries for robots) help make the idea concrete.
@@ -115,8 +111,11 @@ Flashcards for this section are as follows:
 - calculation example ::@:: A $200\,\Omega$ resistor with $5\text{ V}$ across it dissipates $P = V^{2}/R = 0.125\text{ W}$.
 ```
 
-## example of questions & acronyms
+## Questions & acronyms example
 
+Shows how multi-line bullet lists and discussion questions appear.  The script snippet below demonstrates the helper for Wikipedia title lookup.
+
+```markdown
 - datetime: 2026-02-02T16:00:00+08:00/2026-02-02T16:50:00+08:00, PT50M
 - topic: robot definition
 - ELEC 1100
@@ -127,8 +126,7 @@ Flashcards for this section are as follows:
     - moves without direct human interaction
     - discussion question:: Are animals robots? Is a motorcycle a robot?
   - ELEC 1100 / robot definitions ::@:: Robot Institute of America (RIA) definition: a reprogrammable, multifunctional manipulator …
-
-Use the helper script to find a recommended article title:
+```
 
 ```bash
 python .github/skills/academic-notes/find_wikipedia.py "Hindley Milner"
@@ -136,73 +134,15 @@ python .github/skills/academic-notes/find_wikipedia.py "Hindley Milner"
 
 The script prints JSON lines with suggested `title` and `url`. Pick the top candidate (e.g., `Hindley–Milner`) and link to `../../../../general/Hindley–Milner.md` from course notes. Do **not** create or edit files under `general/`.
 
-## Topic-specific note example
+## Topic-specific note workflow
 
-Suppose week 1 lecture 2 of ELEC 1100 covers basic electronic components in
-significant detail.  The topic “electronic component” is general enough to
-have its own encyclopaedic page, so we create a separate note rather than
-loading the lecture entry with too much background.  **Do not copy the
-lecture summary or next‑lecture bullet points into the topic‑specific note;**
-these belong in the weekly outline only and typically are omitted unless the
-next lecture contains a major graded event (e.g. an exam or demo).
+When a lecture topic deserves its own note, keep the index clean and provide linkable content in a separate file.  The example below is condensed but steps are explicit.
 
-1. Search the course folder for `electronic component`; nothing exists.
-2. Run the helper script to verify the Wikipedia title is **Electronic component**:
+1. Search folder and run helper script.
+2. Create new file with sentence-cased heading, aliases, tags, and a cross-link to the corresponding `general/` article.
+3. Update `index.md` by appending the file after folders and add a `see also` link in the weekly outline.  Use the pattern illustrated in the earlier code block; link the file once and subsequently refer by section-only anchors.
 
-   ```bash
-   python .github/skills/academic-notes/find_wikipedia.py "electronic component"
-   ```
-
-3. Create `special/academia/HKUST/ELEC 1100/electronic component.md` using the
-template from the skill documentation.  When choosing the filename and main
-heading, prefer normal sentence casing (capitalize only proper nouns); apply
-the same convention to all section headers within the note.  Add aliases,
-tags and a cross‑link to the `general/eng/electronic component.md` article.
-
-> **Tip:** flashcards inside a topic-specific note need not include the course
-> code prefix.  A simple `- electricity ::@:: …` is sufficient; the enclosing
-> context is already provided by the filename and index entry.
-
-1. Update the main `index.md` by adding the new file to `children:` **after all
-   folder entries** (folder-first ordering takes precedence over
-   alphabetization) and insert a `see also` link under the week 1 lecture 2
-   outline.  For example:
-
-   ```markdown
-   ## children
-   - [assignments/](assignments/index.md)
-   - [attachments/](attachments/index.md)
-   - [labs/](labs/index.md)
-   - [questions/](questions/index.md)
-   - [tutorials/](tutorials/index.md)
-   - [electronic component](electronic%20component.md)
-   ```
-
-   ```markdown
-   ### week 1 lecture 2
-   - datetime: ...
-   - topic: basic components
-   - ELEC 1100
-     - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
-       - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge)
-       - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators)
-       - [§ current](electronic%20component.md#current)
-       - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference)
-       - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
-       - [§ capacitors](electronic%20component.md#capacitors)
-       - ELEC 1100 / electronic component / charge attraction/repulsion ::@:: Opposite charges attract and like charges repel.
-       - ELEC 1100 / electronic component / static electricity example ::@:: Rubbing a balloon on hair transfers electrons to the balloon, leaving hair positively charged and causing attraction/repulsion.
-    - ...
-   <!-- note: the topic-specific file is linked only once; subsequent entries
-   use the section sign (§) and anchor reference without repeating the filename -->
-     - ELEC 1100 / electronic component
-       - [§ capacitors](electronic%20component.md#capacitors)
-   ```
-
-The resulting topic note might start like this:
-
-> **Math notation reminder:** use `$…$` or `$$…$$` for all equations; avoid
-> TeX‑style `\(\)`/`\[\]` delimiters which are less consistently rendered.
+File header example:
 
 ```markdown
 ---
@@ -226,58 +166,11 @@ tags:
 - HKUST ELEC 1100
 
 ---
-- see: [general/electronic component](../../../../general/eng/electronic%20component.md)
-
-# electronic component
-
-- HKUST ELEC 1100
-
----
 
 - see: [general/electronic component](../../../../general/eng/electronic%20component.md)
 ```
 
-This pattern can be applied to any future topic that meets the criteria.  It
-keeps the course index clean while still providing dedicated, linkable pages
-for substantial concepts.
-
-### indexing the topic note
-
-Once the topic-specific file has multiple sections, add an explicit index of
-anchors in the same order the material is presented in lectures.  Include the
-full course path in each bullet for clarity.  Example structure for the
-`electronic component` note might look like:
-
-```markdown
-- ELEC 1100
-  - ELEC 1100 / electronic component
-    - [§ definition](electronic%20component.md#definition)
-    - [§ types](electronic%20component.md#types)
-    - [§ applications](electronic%20component.md#applications)
-```
-
-The corresponding `children:` list in `index.md` would simply reference the
-file (placed after the folders):
-
-```markdown
-## children
-- [assignments/](assignments/index.md)
-- [attachments/](attachments/index.md)
-- [labs/](labs/index.md)
-- [questions/](questions/index.md)
-- [tutorials/](tutorials/index.md)
-- [electronic component](electronic%20component.md)
-```
-
-And the week‑1 session entry would link both the file and the relevant
-section as shown earlier.
-
-The detailed bullet list is optional but helpful when topics are revisited,
-as it allows students and reviewers to quickly jump to the appropriate section
-and ensures the index mirrors the lecture sequence.  The earlier FINA and
-Scala examples show larger real-world lists following the same pattern.
-
-## Assignments layout
+## Assignments directory layout
 
 ```text
 special/academia/<INSTITUTION>/<COURSE>/assignments/
@@ -288,9 +181,9 @@ special/academia/<INSTITUTION>/<COURSE>/assignments/
     attachments/
 ```
 
-Tip: keep `assignments/` directories small and include a `submission.yml` template for graders; student-submitted files (if containing PII) belong in `private/`.
+Keep assignment directories small and avoid storing student PII; use `private/` for submissions.
 
-## Hierarchical administrative and content example
+## Hierarchical administrative snippet
 
 ```markdown
 ### week 1 lecture 1
@@ -303,21 +196,16 @@ Tip: keep `assignments/` directories small and include a `submission.yml` templa
         - Categories: aerospace, consumer, industrial, humanoid, etc.
   - ELEC 1100 / design principles
     - ELEC 1100 / design principles / hierarchical decomposition ::@::
-        Divide-and-conquer into subsystems; e.g., Mars rover project uses
-        control, comms, mechanical, signal teams.
+        Divide-and-conquer into subsystems; e.g., Mars rover project uses control, comms, mechanical, signal teams.
 ```
 
-This snippet illustrates multiple levels of nesting and combining related points
-under a single parent node.
+This snippet illustrates multiple levels of nesting and combining related points under a single parent node.
 
 ## cloze-rich general paragraph example
 
 ```markdown
 During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@} and monitor your HKUST email account for updates; {@{next week the tutorials}@} start on 2026‑02‑09, 2026‑02‑12, and 2026‑02‑13 and {@{the first lab sessions}@} begin on 2026‑02‑13, so be prepared for Lab #1.  The teaching team consists of the {@{course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.  The next lecture will cover {@{basic components and charge/current/voltage/resistor}@}.
 ```
-
-This new example shows how to embed cloze flashcards within a narrative paragraph rather
-than only inside the outline structure.
 
 ## pedagogy paragraph example
 
@@ -342,14 +230,7 @@ Adding such narrative samples helps the model generalize to prose clozes of conc
     - LA3: LAB‑1; WednesdayT09:00:00/WednesdayT11:00:00
 ```
 
-The `sections:` list bundles each **section identifier** with its venue and a
-comma‑separated sequence of weekly day/time patterns.  The outer entries are
-labeled by session type (`lecture`, `tutorials`, `labs`), and the same
-identifier appears both at the outer level and as the key of the inner list.
-Agents and authors should treat the day/time segment as potentially unbounded
-— include as many comma‑separated pairs as needed for multiple slots during
-the week.  This nested structure replaces the older flat semicolon format and
-keeps all metadata self‑contained.
+The `sections:` list bundles each **section identifier** with its venue and a comma‑separated sequence of weekly day/time patterns.  The outer entries are labeled by session type (`lecture`, `tutorials`, `labs`), and the same identifier appears both at the outer level and as the key of the inner list. Agents and authors should treat the day/time segment as potentially unbounded — include as many comma‑separated pairs as needed for multiple slots during the week.  This nested structure replaces the older flat semicolon format and keeps all metadata self‑contained.
 
 ## unscheduled session example
 
@@ -359,9 +240,7 @@ keeps all metadata self‑contained.
 - status: unscheduled
 ```
 
-Since the session is cancelled or a holiday, no `topic:` field is included.
-The validator will warn if `topic:` is present along with `status:
-unscheduled`.
+Since the session is cancelled or a holiday, no `topic:` field is included. The validator will warn if `topic:` is present along with `status: unscheduled`.
 
 ## duplicate week number (holiday) example
 
@@ -375,9 +254,7 @@ unscheduled`.
 - status: public holiday
 ```
 
-When a timetable repeats a week label during a break, shift subsequent
-weeks upward and insert an explicit holiday entry.  The validator also
-checks for duplicate numbers.
+When a timetable repeats a week label during a break, shift subsequent weeks upward and insert an explicit holiday entry.  The validator also checks for duplicate numbers.
 
 ## exam ordering illustration
 
@@ -395,8 +272,7 @@ checks for duplicate numbers.
 
 ## semester heading order example
 
-Institution indices should list semesters chronologically.  The validator
-warns if headings appear out of order:
+Institution indices should list semesters chronologically.  Ordering errors trigger validator warnings.
 
 ```markdown
 ### 2024 fall
@@ -406,7 +282,7 @@ warns if headings appear out of order:
 - COMP 2012 (taken)
 ```
 
-(The above would trigger a warning because 2024 spring precedes 2024 fall.)
+Invalid: spring before fall. Correct order:
 
 ```markdown
 ### 2023 fall
@@ -414,9 +290,7 @@ warns if headings appear out of order:
 ### 2024 fall
 ```
 
-is the correct sequencing.
-
-The validator warns if an exam section precedes any regular session.
+The validator also warns if an exam section precedes regular sessions.
 
 ```markdown
 - topic ::@:: Type inference and Hindley–Milner
@@ -426,7 +300,7 @@ The validator warns if an exam section precedes any regular session.
 Keep glossary one-liners concise; these are the primary source of flashcards via `::@::` markup.
 ```
 
-## Taxonomy / chain notation (observed)
+## Taxonomy / chain notation
 
 ```markdown
 - _(begin)_→::@::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).
@@ -436,7 +310,7 @@ Keep glossary one-liners concise; these are the primary source of flashcards via
 - value proposition canvas→::@::←_(end)_
 ```
 
-## Takeaway shorthand (normalization suggestion)
+## Takeaway shorthand normalization suggestion
 
 ```markdown
 - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work.
@@ -453,7 +327,7 @@ Keep glossary one-liners concise; these are the primary source of flashcards via
 - datetime: 2024-11-09T09:30:00+08:00/2024-11-09T12:30:00+08:00, PT3H
 ```
 
-## Flashcard activation tag (example frontmatter)
+## Flashcard activation tag example
 
 ```markdown
 ---
@@ -463,4 +337,4 @@ tags:
 ---
 ```
 
-These examples are institution-agnostic; replace `<INSTITUTION>` with the canonical short name you use (e.g., `HKUST`, `MIT`, `STANFORD`). Use underscores for course codes inside the tag (e.g., `COMP_3031`).
+Replace `<INSTITUTION>` with your canonical short name (e.g., `HKUST`, `MIT`, `STANFORD`). Use underscores in course codes.

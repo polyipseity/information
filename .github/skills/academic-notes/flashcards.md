@@ -1,53 +1,12 @@
 # Flashcard conventions (academic notes)
 
-- Every Markdown section of a **topic‑specific** academic note must include flashcards.  This
-  applies to **every** header within such a file, whether it be `#`, `##`, `###`, etc., and
-  regardless of whether the content under it is a definition, example, sidebar,
-  or minor subtopic.  Index files (named `index.md`) are not subject to this
-  rule; they only need the usual session-level cards.  In topic notes the
-  requirement can be satisfied using `::@::` cloze glosses, a two‑sided QA
-  horizontal rule and the sentence
-  “Flashcards for this section are as follows:”, or a combination of both.  Do
-  not leave a section without any flashcard entries — the validator will
-  issue a warning if a session has content but no cards.  When you expand or
-  edit a section, make sure to update its flashcards accordingly (add, revise
-  or remove glosses) so that the cards stay in sync with the prose.
-
-- Use the `::@::` marker after a linked term to add a concise definition or gloss that will be converted into flashcards by the pipeline. Example:
-
-`- programming paradigm ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program.`
-
-- **Two-sided lists:** Some sections may instead use explicit question/answer pairs (a two-sided flashcard format) rather than cloze deletions. When doing so, precede the list with a horizontal rule (`---`) and the exact sentence:
-
-  ```text
-  Flashcards for this section are as follows:
-  ```
-
-  The separator helps readers and tooling distinguish the QA list; place a
-  blank line between the `---` rule and the phrase for readability.  Each
-  item after the phrase should use `question ::@:: answer` or `question :@:`
-  syntax as usual.
-- Flashcard activation tag pattern: `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` where `<INSTITUTION>` is the canonical short name for the university (e.g., `HKUST`, `MIT`) and `<PAGE>` is the page identifier using underscores for spaces (e.g., `COMP_3031`).
-
-- Prefer to attach cloze-style hints or one-line glosses only when the item is concise (single sentence or phrase). Long derivations or full proofs should not be auto-flashcarded.
-
-- When adding generated flashcards, keep the `::@::` content short (1–2 sentences); long paragraphs will create poor flashcards.
-- Folder bullets: if you create a parent bullet purely to group related cards, label it with the full path (e.g. `ELEC 1100 / class expectations`); this makes the hierarchy explicit even when the folder itself has no direct flashcards.  Nesting may be multiple levels deep; feel free to group a subgroup under a second or third level, for example:
-
-  ```text
-  - ELEC 1100 / robotics introduction / features
-    - ELEC 1100 / robotics introduction / features / artificial ::@:: …
-    - …
-  ```
-
-  If a folder contains only a single gloss and the parent has no `::@::` of its own,
-  collapse it by putting the full path on the gloss line instead of adding an
-  extra layer.  (This keeps the structure compact and avoids redundant
-  indirection.)
-
-- Preserve existing course-scoped `flashcard/active/...` tags when normalizing. If a course file is missing the tag, propose adding one in a small PR rather than mass-editing.
-
-- **Calculation cards:** when the flashcard is derived from a worked numerical example, put the full problem statement (all given values, circuit parameters, etc.) on the left side of `::@::` and the answer/solution steps on the right.  This makes the card self-contained and reviewable without referring to the surrounding text.  Energy and power examples are common (using $E=qV$, $P=IV$ or $P=I^{2}R$); the card should explicitly state formulas and substitution steps so the reviewer can replay the computation mentally.
-- **Math units:** always keep physical units inside the math delimiters (e.g. `$5\text{ V}$`, `$2.6\text{ mW}$`).  Units placed outside the `$…$` are treated as literal text and may render incorrectly or confuse the parser.
-- **Full path requirement:** every gloss must begin with the complete hierarchical path (e.g. `ELEC 1100 / teaching methodology / traditional limitations`); do not rely on indentation or section headers to convey context. Indentation may be used purely for readability, but the text itself is what the flashcard generator sees.
-- **Session headers:** do not introduce artificial parent folders such as “Week 1 lecture 1”. The surrounding `###` header already provides context for the session and should not be repeated in the gloss path.
+- Every Markdown section in a topic note must have at least one flashcard entry. Index files (`index.md`) are exempt and only need session-level cards. A section may use cloze glosses (`::@::`) or a two-sided QA list with the exact phrase **Flashcards for this section are as follows:** preceded by `---`. The validator warns if prose appears under a header without any cards. When editing or expanding a section, update its glosses so they mirror the text.
+- Add a gloss by appending `::@::` after a linked term. The text after `::@::` becomes the card content. Example: `- programming paradigm ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program.`
+- Two-sided QA lists require a horizontal rule and the sentence above the list. Leave a blank line after `---` for readability. List items themselves still use the `::@::` or `:@:` syntax.
+- Flashcard activation tags use the pattern `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` where `<INSTITUTION>` is the canonical short name (e.g. `HKUST`, `MIT`) and `<PAGE>` is the page ID with underscores for spaces (e.g. `COMP_3031`). Preserve existing tags; if one is missing propose a small PR rather than bulk changes.
+- Keep glosses concise. Use cloze hints or one-line definitions only for brief terms. Long derivations, proofs, or paragraphs should not be auto-flashcarded. The text after `::@::` should normally be one or two sentences; longer content makes weak cards.
+- When you need a parent bullet to group related cards, give the parent a full path label such as `ELEC 1100 / class expectations`. Nesting may be multiple levels deep. If a folder has only a single gloss and the parent has no gloss, collapse the structure by placing the entire path on the gloss line instead of adding an extra indirection.
+- Calculation cards must be self-contained. Put the full problem statement with values, circuit parameters, or given quantities on the left side of `::@::` and the answer or solution steps on the right. Include formulas and substitution steps so reviewers can replay the computation mentally. Common examples use $E=qV$, $P=IV$, or $P=I^{2}R$.
+- Always include units inside math delimiters (e.g. `$5\text{ V}$`, `$2.6\text{ mW}$`). Units outside `$…$` are treated as plain text and may render poorly or confuse the parser.
+- Every gloss must start with the complete hierarchical path (for example `ELEC 1100 / teaching methodology / traditional limitations`). Do not rely on indentation or headers for context; only the literal text is used by the flashcard generator.
+- Do not invent artificial parent folders such as “Week 1 lecture 1”. The surrounding section header already provides the necessary context and should not be repeated in the gloss path.

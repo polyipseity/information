@@ -1,278 +1,122 @@
-# Academic notes — detailed patterns
+# Academic notes — patterns for agent guidance
 
-This document collects observed patterns from academic course notes and the preferred conventions for authoring new content across institutions.
+**Agents must read every line of every file in this directory (`.github/skills/academic-notes/`) before making decisions; do not skim or skip sections.**
 
-## Frontmatter
+This file is a compact reference used by the academic-notes skill to drive note creation, validation and normalization. It enumerates the rules and conventions agents must apply when authoring or editing `special/academia/**` content. Keep lines unwrapped; each bullet is a discrete rule.
 
-- Begin file with a YAML frontmatter block delimited by `---` lines.
-- Recommended keys:
-  - `aliases:` list with course code variants and human names.
-  - `tags:` must include `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` for flashcard activation. **This tag is required in all course note files under `special/academia` when flashcards are desired.** Also include `function/index` and `language/in/English` where appropriate.
-- **Optional tests:** Occasionally we add a small Python test to document a
-  specific pattern (e.g. ensuring a child link is folder‑first).  These
-  tests are ephemeral; once the pattern is established in the skill docs the
-  test may be deleted with no loss.  Authors do *not* need to create tests
-  for ordinary content edits.
+## frontmatter
 
-> **Reminder:** you do not need to run `init generate` when editing
-> academic notes; flashcard state is regenerated automatically by the
-> repository’s build/packaging workflows, and agents must never invoke the
-> command themselves.  If any internal instructions or templates mention
-> manual regeneration, update them as part of continuous improvement.
+- every note must start with `---` YAML block.
+- aliases list should include every course code variant and the human name; tags list must include a single `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` tag. index pages also need `function/index` and most pages should have `language/in/English`.
+- optional ephemeral tests may accompany pattern descriptions; authors do not need to add tests for ordinary edits.
+- do not run `init generate` in notes; build workflows rebuild flashcard state automatically and agents must never invoke it.
 
-Example:
+## index files
 
-```markdown
----
-aliases:
-  - COMP 3031
-  - Principles of Programming Languages
-tags:
-  - flashcard/active/special/academia/<INSTITUTION>_3031
-  - function/index
-  - language/in/English
----
-```
+- filename `index.md` with top header `# index`
+- include a `children:` list with child pages in teaching order
+- add a `grading:` section, optionally with a `scheme:` listing assignments/exams and weights
+- in child lists, if linking into another note, include full anchor URLs (`topic.md#subsection`) so readers jump directly
 
-## Index file structure
+## weekly/session entries
 
-- Top-level file is `index.md` and starts with `# index` heading.
-- Include an explicit `children` section listing child pages in teaching order.
-- Add a `grading` section, optionally with a `scheme` subsection listing assignments/exams and weights.
-- When listing child sections under a lecture entry that link to a separate topic-specific note, include full anchor URLs (e.g. `electronic%20component.md#atoms%20and%20charge`) as part of the hierarchical path.  This makes it easy for readers to jump directly to the relevant subsection in the external note.
+- use headings `## week N lecture` or `lab` or `tutorial`; sessions ordered strictly by the `datetime:` ISO interval field.
+- lectures, labs and tutorials may interleave; multiple same-type sessions in one week get numbers only if more than one actually occur.
+- ask users for their specific section codes (LA3, T2, etc) when the syllabus lists many; only generate entries for codes the user attends.
+- duplicate week numbers around holidays require manual renumbering plus a `status: public holiday` entry; validator warns on duplicates.
+- entries with `status: unscheduled` must omit the `topic:` field.
+- always include an ISO date interval even if start or end is missing; use full ISO intervals for audit/clash detection.
+- examinations are grouped after all regular sessions regardless of datetime; order exams chronologically within that block.
 
-## Weekly entries
+session metadata:
 
-- Use `## week N lecture` / `## week N lab` / `## week N tutorial` headings.  These sessions should be listed in **strict chronological order** according to their `datetime:` fields.  Lectures, labs and tutorials are allowed (and expected) to interleave based on actual dates and times.
-  - If the syllabus specifies particular numbered sections (e.g. LA3, T2), ask the user which specific session code(s) apply.  Generate entries only for those sections; ignore others.  After filtering, when each week has at most one lab and one tutorial, reset the numbering to `lab 1`/`tutorial 1` for that week.  Only increment the number within a week if multiple sessions of the same type actually occur.
-  - Beware of duplicate week numbers around holidays; a repeated “week 9” should trigger a manual shift (week 10, etc.) and a `status: public holiday` entry.  The validator now warns on duplicate week headings.
-  - When a session is marked `status: unscheduled` (holiday, cancelled, overflow), omit the `topic:` field entirely.  This keeps the entry from generating misleading flashcards.
-  - Sessions without a known time should still include an ISO date interval; use full ISO intervals when possible to aid automatic auditing and clash detection.
-- **Examinations** are treated specially: they should always appear *after* all lecture, lab, and tutorial entries, even if their datetime would place them earlier.  Within the exam block the individual exam entries themselves still follow chronological order.
-- Each session includes:
-  - `datetime: ISO_START/ISO_END, DURATION` (example: `2025-09-02T12:00:00+08:00/2025-09-02T13:20:00+08:00, PT1H20M`)
-  - `topic:` short description (omit when `status: unscheduled`)
-  - Optional: `status:`, `venue:`
-- Content uses indented bullets to group course-specific annotations and cross-links.
-- Venues are especially important for room assignments; at HKUST a bare numeric or range (e.g. `2133&2134`) denotes an Academic Building room, which should be rendered as “Room 2133 & 2134, Academic Building” in the note.  Consistent venue entries aid schedule parsing.
-- The new preferred way to record your own lecture/tutorial/lab streams is with a nested `sections:` list in the logistics block.  The outer list groups by type (`lecture`, `tutorials`, `labs`) while the inner list uses dedicated section identifiers (e.g. `L1`, `T2`, `LA3`).  Each inner line pairs the identifier with a venue and a comma‑separated sequence of weekly day‑of‑week/time patterns:
+- `datetime:` ISO_START/ISO_END[, DURATION]
+- `topic:` short text (omit if `status: unscheduled`)
+- optional `status:` and `venue:`
+- venue shorthand like `2133&2134` means “Room 2133 & 2134, Academic Building”; keep them consistent for schedule parsing.
 
-  ```markdown
-  - sections:
-    - lecture: L1
-      - L1: CYT-LTL; MondayT16:00:00/MondayT16:50:00, FridayT11:30:00/FridayT12:20:00
-    - tutorials: T2
-      - T2: CYT-G001; TuesdayT14:00:00/TuesdayT15:20:00
-    - labs: LA3
-      - LA3: Room 2133 & 2134, Academic Building; WednesdayT09:00:00/WednesdayT11:00:00
-  ```
+- bullets nested under a session hold course-specific notes and cross-links.
+- to record a user’s personal stream use a nested `sections:` list in the logistics block; the outer list groups by type and each inner item pairs a section identifier with venue and comma-separated weekday/time patterns. This replaces the old `session_times:` block.
 
-  The placeholder term `<section identifier>` is used in templates to remind
-  authors that the same label appears both at the outer type level and as the
-  key for the inner list.  This structure replaces the older `session_times:`
-  block and keeps all metadata self‑contained; the comma‑separated list may
-  include any number of day/time pairs without upper bound.
+## inline conventions
 
-## Inline conventions
+- **every markdown section in a topic note must have at least one flashcard.** add a horizontal rule `---` immediately before the first flashcard. the validator flags missing separators or missing cards. index files are exempt from this rule.
+- do not merge cards from different sections; each heading has its own block directly beneath the prose.
+- units must appear inside math delimiters (`$5\text{ V}$`); numbers followed by V A Ω W mW kΩ C Hz outside math trigger warnings.
+- remove next-lecture comments unless they describe a grading event.
+- inline glosses use `::@::` with the left side a full hierarchical path (course name plus intermediate folders) separated by ` / ` and the right side a single line of text; use `<br/>` for line breaks, never sublists.
+- two-sided QA lists start with `---`, a blank line, the sentence `Flashcards for this section are as follows:` and bullets using `Q ::@:: A` or `Q :@:`. this format is recognised by the skill.
+- emphasis italics `_like this_` bold `__like this__` to avoid conflicts with tables and cloze markers.
+- math always uses `$…$` or `$$…$$`; avoid TeX `\(\)`/`\[\]` and Unicode symbols outside math.
+- taxonomy entries use `- Section / subsection ::@:: summary`.
+- outlines: each top-level item on its own source line; use `<br/>` for hard breaks and `<p>` for paragraphs.
+- descriptive paragraphs follow outlines separated by `---`; no generic “lecture summary” sections unless they contain grading info.
+- do not include personal contact details; use generic roles only.
+- when memorizing a list of features collapse into a single gloss with hyphen separators and `<br/>` breaks.
+- analogies and instructor caveats should be captured in the prose block and turned into glosses when appropriate.
+- rewrite slide fragments into full sentences before adding cards.
 
-- **Section flashcard requirement:** in topic‑specific notes (files other
-  than `index.md`) every Markdown section (any header level, including
-  subheadings and nested topics) must include at least one flashcard.  In
-  practice this means as soon as you create a new heading in a topic note you
-  also add glosses or a QA block beneath it.  Index files are exempt from the
-  header‑level check and only need cards in session entries.
-  Use `::@::` glosses or a two-sided QA list (`---` followed by
-  "Flashcards for this section are as follows:").  Always insert a horizontal
-  rule (`---`) on its own line immediately before the first flashcard in a
-  section; the validator now warns if flashcards appear without this separator.
-  When editing an existing section, update its cards to reflect the changes;
-  the validator warns on sections lacking flashcard entries.
+## content capture rules
 
-- **One section, one flashcard block:** do not conflate cards from two
-  different markdown sections into a single list.  Each section heading must
-  have its own flashcard block immediately after the relevant prose.  This
-  practice keeps cards well scoped and facilitates later automated checks.
+- aim for slide-level detail; every bullet or example from materials should appear in text.
+- slides with multiple characteristics become separate outline items.
+- worked examples are preserved verbatim; multi-step examples use numbered lists or multiple bullets.
+- definitions and formulas are recorded fully; gloss right-hand sides may include parameters and units. cross-link to `general/` pages and include the path in the gloss.
+- capture instructor asides, caveats and pitfalls as detail.
+- quotes should be short; long proofs or policies are summarised and linked elsewhere.
+- apply the same level of detail to lectures, labs, tutorials and review sessions so notes are self-contained.
+- prefer `topic:` and a short `takeaway:` in session entries.
+- include at least one worked example per concept and sample exam-style problems linked to `questions/solutions.md`.
+- add references and resources at the end of the session.
 
-- **Units inside math:** always place units within the `$…$` math delimiters
-  (e.g. `$5\text{ V}$`, `$2.6\text{ mW}$`).  Any unit text outside math mode
-  is treated literally and may break LaTeX rendering or the flashcard parser.
-  A validator warning now flags numbers followed by common units (V, A, Ω, W,
-  mW, kΩ, C, Hz) that appear outside `$...$`, so catching this during editing
-  avoids repository-wide fixes.
+## field expectations
 
-- **No next‑lecture comments:** remarks about what will be covered next
-  should not appear in session notes unless they describe a major grading
-  component (exam date, project milestone, etc.).  Scheduling details belong
-  in the syllabus or index.
+- `datetime:` uses ISO interval with optional duration.
+- `topic:` is a short summary.
+- `attachments:` is a list or folder path relative to the note.
+- `::@::` glosses are inline, short definitions for flashcards.
 
-- `::@::` is used to provide a concise definition or gloss for a linked term.  The left side should resemble a hierarchical path of concepts separated by ` / ` (e.g., `parent / child ::@:: Description`).  The right side must be a single line of source text; do not use sublists — insert `<br/>` to simulate line breaks when needed.
-- **Math delimiters:** use `$…$` for inline math and `$$…$$` for display equations.  Avoid TeX‑style `\(\)`/`\[\]` delimiters, which are not consistently supported by the Markdown renderer and linting tools.
-- **Two-sided QA lists:** if a section is organised as a list of question/answer pairs rather than using `::@::` cloze glosses, precede the list with a horizontal rule (`---`), leave a blank line, and then add the sentence
+## cross-references
 
-  ```text
-  Flashcards for this section are as follows:
-  ```
+- link to existing `general/` articles using percent-encoded filenames.
+- choose authoritative wikipedia titles; agents may use `find_wikipedia.py` to search.
+- never create or edit `general/` files; link to the expected path.
+- for a concept that deserves its own note create a new file in the course folder using the Wikipedia title as filename, lowercase first letter unless proper nouns require caps. heading inside the note matches filename lowercasing. write in neutral voice, add the new file to the index and link from sessions; topic notes may link back to `general/`.
+- avoid hard line breaks in new topic notes; rely on soft wrap.
+- split paragraphs only when the subject changes; each should be self-contained.
+- LaTeX must appear on a single source line; block equations live in the same paragraph that introduces them.
 
-  Each subsequent bullet should use the `Q ::@:: A` or `Q :@:` syntax.  This convention is recognised by both the academic‑notes and flashcard‑creation skills.- **Emphasis style:** italics should be marked with single underscores `_like this_` rather than asterisks.  Bold text uses double underscores `__like this__` instead of `**`.  This convention reduces ambiguity with Markdown tables and cloze markup and is applied across all note types.
-- **Mathematical notation:** always express mathematical symbols, formulas and numeric exponents using LaTeX notation inside `$…$` or `$$…$$`; avoid Unicode characters (×, Ω, superscripts, ±, ≤, ≥, etc.) outside of math mode.  This ensures consistency and compatibility with rendering and linting tools.
-- Use `- Section / subsection ::@:: summary` to create taxonomy-like entries.
-- When writing lists or outlines in source, put each top-level item on its own line; insert `<br/>` for hard line breaks within an item and `<p>` for separate paragraphs.  This preserves machine readability while allowing formatted output.
-- Every `::@::` gloss must begin with a complete hierarchical path that starts with the course name and includes all intermediate folders (e.g. `ELEC 1100 / what is a robot? / features ::@:: …`).  Do not rely on indentation or headings for context; repeat the full path on each gloss so the flashcard generator can operate independently of the surrounding outline.
+## usage patterns agents should notice
 
-- Descriptive paragraphs (e.g. lecture summaries, administrative commentary such as "check Canvas" or grading reminders) should follow the outline list and be separated from it by `---` to avoid accidental duplication and extra indentation.  In the sample week‑1 outline these paragraphs carry all of the course logistics while leaving the bullets reserved for conceptual content.  **Avoid adding a generic "lecture summary" section at the end of every session; only include such a summary when it contains an important grading component (exam dates, weights, etc.).**
-- **Personal data:** do not include real names, email addresses, phone numbers, or other personal identifiers for instructors, TAs, IAs, TOs, or staff in course notes.  Use generic role descriptions and refer readers to the official syllabus or LMS for contact details; do not add parenthetical notes about omission.
-- **Human recall lists:** when a cluster of features or characteristics is
-  meant to be memorized straight, avoid multi-line sub-bullets; instead
-  collapse them into a single gloss line with hyphen-separated items and
-  `<br/>` breaks.  This keeps flashcards succinct while preserving each
-  element.
-- **Prose descriptors:** after outlining flashcard-worthy bullets, follow with a
-  prose paragraph separated by `---` if the instructor gives situational or
-  administrative commentary (schedule links, next-week reminders, grading
-  breakdowns).  Embed any flashcards via cloze markup in that paragraph.
+- `::@::` is the common gloss separator.
+- avoid extra indentation below `- topic:`; parsers expect two spaces per indent.
+- bibliographic references on gloss RHS use dash lists with `<br/>`.
+- hierarchies can span many levels; group related cards under intermediate folders as needed.
+- arrows and chain notation in glosses may appear; preserve them.
+- single-line `takeaway ::@:: …` entries often convert to `takeaway:` metadata.
+- ask users early for their lab/tutorial section codes and filter schedules.
+- multiple lectures per week require separate numbered headings ordered by datetime.
+- HTML comments like `<!-- future term sections ... -->` may be present in long indexes; leave them intact.
+- inline tokens such as `{@{…}@}` are used for emphasis; keep them.
+- when auditing flashcards read the file sequentially to catch hidden errors.
 
-- **Analogies and physical context:** real-world comparisons such as the
-  human‑body‑versus‑robot energy analogy often appear in energy/power sections.
-  Capture them in the prose block and, where appropriate, turn the key
-  comparison into a gloss so that it becomes a review card.
+## normalization tips
 
-- **Rewriting for clarity:** slides and transcripts sometimes use dangling
-  fragments joined with hyphens.  Before adding flashcards, rewrite these into
-  full sentences with explicit subjects and verbs — the recent ELEC 1100 patch
-  replaced many dashed fragments with complete clauses and is a good model.
+- keep `::@::` use but normalize session metadata: convert inline `topic ::@::` to `- topic:` and add `datetime:` when known.
+- merge long enumerations into categorized glosses.
+- avoid copying topic note material into the index; link instead.
+- preserve existing flashcard tags; report missing tags rather than mass editing.
+- when linking to `general/` use percent encoding; do not add new `general/` files in the same PR.
 
-## What content to capture (content-first guidance)
+## validator warnings
 
-When creating or improving course notes, aim for **comprehensive, slide‑level
-detail**.  Think of your notes as an enhanced transcript: every bullet point or
-visual element from the lecture slides, every spoken definition or warning,
-and every worked example should be reflected in the text.  Do not settle for a
-one‑sentence paraphrase of a concept; expand each idea into its own bullet,
-explain the underlying reasoning, and record any numerical values, parameters,
-or algorithmic steps mentioned.
+- missing/malformed frontmatter tags.
+- index.md without `# index` or `children:` list.
+- session entries missing `datetime:` or (in content mode) `topic:`.
+- exams before other sessions, duplicate week numbers, unscheduled sessions with a `topic:` field.
+- semester headings out of order in institution indexes.
 
-Key points:
+## formatting gotchas
 
-- **Slide fidelity**: Convert slide bullets directly – if a slide lists three
-  characteristics of a device, create three separate outline items.  Add
-  instructor elaboration that accompanied the slide as additional bullets or
-  notes.
-- **Examples**: Preserve worked examples verbatim when they clearly illustrate a
-  method.  For multi‑step examples, use numbered lists or multiple bullets that
-  mirror the sequence of operations.  If an example is merely a list, render it
-  as a sorted sub‑list to expose structure.  Always include *at least one*
-  representative example per major concept.
-- **Definitions & formulas**: Record full definitions, formula sheets, and the
-  conditions under which formulas apply.  Use `::@::` glosses for concise
-  flashcard questions, but keep the glossary right‑hand side detailed (e.g.,
-  include parameter names and units).  When a concept is linked to a
-  `general/` article, provide a path in the glossary and cross‑link accordingly.
-- **Instructor commentary**: Capture asides, caveats, and common pitfalls the
-  instructor mentions.  These are often exam fodder and should be treated as
-  detail rather than noise.
-- **Verbatim text**: Avoid copying large proofs or policy statements; instead
-  summarize and link to existing `general/` pages or attachments.  However,
-  short quotes or definitions that are central to the lecture should be copied
-  in full.
-- **Level consistency**: Apply this detailedness uniformly across lectures,
-  tutorials, labs, and even exam review sessions.  The goal is to make the notes
-  self‑contained enough that a reader could reconstruct the lecture flow and
-  review all critical content without referring back to slides or recordings.
-
-This high level of detail supports better flashcards, easier exam revision, and
-more accurate archival of course knowledge.  Err on the side of including more
-information; excess material can always be trimmed later by a maintainer.
-
-For each session, prefer the following elements where appropriate:
-
-- `topic:` and a short `takeaway:` line — scannable summary for revision.
-- Instructor emphasis — note any points the instructor stressed.
-- Key definitions & concise glosses — use `::@::` for flashcard-worthy bites;
-  cross-link to canonical `general/` pages for full definitions.
-- Worked examples & step-by-step solutions — include at least one worked
-  example demonstrating common techniques or pitfalls.
-- Sample exam-style questions / practice problems — add problems and link to
-  solutions in `questions/solutions.md`.
-- References & resources — slides, recordings, page numbers, and further
-  reading links.
-
-## Field types and expectations
-
-- `datetime:` — ISO interval `YYYY-MM-DDThh:mm:ss+TZ/END` and optional ISO duration after a comma.  In fact, all date/time fields in notes (simple `date:`, `time:`, `datetime:`) should use ISO‑8601 format consistently.
-- `topic:` — short, plain-text summary.
-- `attachments:` — list or folder; reference files using relative links.
-- `::@::` concise glosses — inline, short definitions intended to be flashcard-friendly.
-
-## Cross-references
-
-- Prefer linking to `general/` canonical notes for repeated concepts (e.g., `../../../../general/functional%20programming.md`).
-- When choosing which `general/` page to link, prefer authoritative article titles (Wikipedia or canonical sources). Agents should use the included helper `find_wikipedia.py` to search Wikipedia and select a candidate. Do NOT create, modify, or add files under `general/`; instead link to the expected `general/` path.
-- When a concept merits its own topic-specific note, create a new page in the
-  course folder using the Wikipedia article title as the filename.  Lowercase
-  the filename and use normal capitalization only where required (e.g.
-  `electronic component.md`).  Proper nouns and personal names should retain
-  their uppercase letters (e.g. `Kirchhoff's circuit laws.md` keeps the capital
-  K).  The top‑level heading inside the note should
-  match this style (i.e. `# electronic component` rather than `# Electronic
-  component`) to mimic Wikipedia’s lowercase‑first convention.  Write the
-  note in a Wikipedia‑style voice – neutral, third person – but the level of
-  detail should reflect the available course materials (slides, transcripts).
-  Add the new file to the course index and link to it from relevant lecture
-  entries; the topic note itself may cross-link back to the `general/`
-  article for additional background.
-
-  - **No hard line breaks:** avoid inserting manual newline characters for
-    readability; rely on soft-wrap.  This keeps Git diffs clean and makes
-    automated tools simpler.
-  - **Self‑contained paragraphs:** split text into paragraphs only when the
-    subject matter shifts; each paragraph should stand on its own so that a
-    reader skimming for a term can understand it without context from
-    neighbouring paragraphs.
-  - **Math handling:** all LaTeX (inline or block) must appear on a single
-    source line.  Block equations should not be isolated on their own lines
-    with surrounding blank lines; they belong directly in the paragraph that
-    introduces or follows them.
-
-## Observed usage patterns
-
-- `::@::` is heavily used as the inline gloss/flashcard separator.
-- When writing outlines, avoid introducing an extra indent level; list items should be placed directly beneath the `- topic:` line with only the necessary two-space indentation for each nested bullet. Superfluous indentation can confuse downstream parsers and should be corrected.
-- Bibliographic-style references (e.g. multiple works cited on the right-hand side of a gloss) are frequently written as dash‑separated lists using `<br/>` breaks. Always include a space before each `<br/>` to ensure proper rendering.
-- Hierarchies may span multiple levels; group related flashcards under intermediate
-  folders (e.g. `/ robotics introduction / features / …`) when it helps readability.
-- Taxonomy / chain notation: authors sometimes list chains of related concepts using arrows and `::@::` boundaries (seen in several course collections). Preserve these as-is when possible.
-- Takeaway shorthand: many files use a single-line `takeaway ::@:: ...` — treat these as candidates for `takeaway:` in a normalization PR.
-- Authors often capture their lab/tutorial section codes (e.g. LA3, T2) near the top of the note; agents should request this early and filter schedules accordingly to avoid clutter from irrelevant streams.
-- Multiple lectures per week are common; capture each with a separate numbered heading and ensure the order follows the actual datetimes.
-- HTML comments such as `<!-- future term sections ... -->` are sometimes inserted to simplify long-term editing of index files.
-- Inline annotation tokens (e.g., `{@{...}@}`) are used for emphasis or examiner notes; preserve them unless a maintainer asks for normalization.
-- When editing or auditing flashcards, read through the file sequentially to catch formatting errors, misplaced separators, and hidden calculations; a full pass prevents mistakes that partial reviews miss.
-
-## Normalization recommendations
-
-- Accept liberal use of `::@::` as a flashcard signal, but normalize session metadata when editing (convert inline `topic ::@::` to `- topic:` and add `datetime:` when available).- When a lecture produces a long enumeration of related subfields or topics, consolidate the list by grouping items into logical categories or merging them into a single gloss.  Avoid dozens of standalone bullets that merely repeat each item; this improves readability and reduces flashcard noise.
-- Do not duplicate material that already lives in a topic-specific note.  The index should link to the external file with appropriate section anchors and may include only a brief summary or lecturer comment.  Copying full definitions or examples back into the index introduces redundancy and makes future edits harder.- Preserve existing `flashcard/active/...` tags; where missing, report files and propose adding the tag in a PR rather than mass-editing.
-- When linking to `general/`, prefer authoritative article titles and link to the percent-encoded filename (do not create `general/` files in the same PR unless requested).
-
-## Validation hints
-
-The validator (`validate_academic.py`) supplements these patterns with
-mechanical checks.  It currently warns for:
-
-- Missing or malformed frontmatter tags (flashcard activation tag required).
-- `index.md` files without a `# index` heading or a `children:` list.
-- Session entries lacking `datetime:` or `topic:` (the latter only in
-  `--content` mode).
-- Exams appearing before other sessions; duplicate week numbers (suggesting
-  holidays); and unscheduled sessions that still include a `topic:` field.
-- Semester headings in institution indexes that are out of chronological
-  order.
-
-These warnings are advisory by default, but they often point to real
-content inconsistencies.  Consult the checklist and examples when addressing
-them.
-
-## Formatting gotchas
-
-- HTML fragments (`<p>`, `<br/>`) are often necessary when preserving manual line breaks in outline items; use them as described in the inline conventions section.  Keep each list item on a single source line.
-- Avoid creating separate lecture files; the index page with nested sections and sub-items is the preferred structure.
+- HTML fragments (`<p>`, `<br/>`) are normal inside outline items; keep each list item on one source line.
+- prefer the single-index file structure; do not split lectures into separate files unless absolutely necessary.

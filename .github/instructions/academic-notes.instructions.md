@@ -6,7 +6,7 @@ applyTo: "special/academia/**,private/special/academia/**"
 
 # Academic notes instruction
 
-This instruction file surfaces the essential, quick-reference guidance from the `academic-notes` skill for agents and maintainers working on course folders under `special/academia` (including the private mirror path `private/special/academia`). It is intentionally concise — consult the full skill docs for examples and tooling.
+This instruction file surfaces the essential, quick-reference guidance from the `academic-notes` skill for agents and maintainers working on course folders under `special/academia` (including the private mirror path `private/special/academia`). **Agents must read every file in `.github/skills/academic-notes/` and every line of those files before acting; do not assume the concise guidance is exhaustive.** It is intentionally concise — consult the full skill docs for examples and tooling.
 
 ## Scope & purpose
 

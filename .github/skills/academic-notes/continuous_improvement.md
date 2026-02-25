@@ -1,60 +1,71 @@
 # Continuous improvement — academic-notes skill
 
-This note documents the feedback loop for evolving the `academic-notes` skill.
-High‑level guidance is captured in the **Continuous improvement** section of
-[`SKILL.md`](SKILL.md); consult that file first and use the short workflow
-below when making changes.
+This note exists solely to teach agents how to keep the `academic-notes` skill
+sharp.  The operational guidance lives in the **Continuous improvement** section
+of `SKILL.md`; read that first.  Use this file only when you need a quick
+check‑list or process reminder while performing updates.
 
-## Core workflow
+## Workflow for agents
 
-1. Collect representative examples from `special/academia/<institution>` or
-   run the validator (`--content` mode) and record incidents in
-   `.github/skills/academic-notes/reports/feedback_log.md` with a date and
-   brief description.  Include user feedback such as privacy concerns or
-   template suggestions.
-2. Update documentation:
-   - Add new idioms/normalizations to `patterns.md`.
-   - Write illustrative snippets in `examples.md`.
-   - Surface repeated author actions or gotchas in `checklist.md`.
-3. Extend `validate_academic.py` when a pattern recurs, and add corresponding
-   unit tests in `.github/skills/academic-notes/tests/`.
-4. Run the validator on affected files and refresh `issue_frequencies.md`.
-5. Open a focused PR containing the documentation/test changes and any
-   normalization patches; keep edits human-reviewable and avoid mass regex
-   rewrites without owner approval.
+1. **Gather examples** – whenever you encounter a pattern, bug, author
+    question, or user feedback related to `special/academia`, save a snippet or
+    run the validator in `--content` mode.  Log each incident in
+    `.github/skills/academic-notes/reports/feedback_log.md` with a date and a
+    one‑sentence description.  Include privacy concerns, formatting quirks, or
+    template ideas.
+2. **Document the change** – decide where the information belongs:
+    * new idiom, normalization or regex → add to `patterns.md`
+    * short sample or explanation → add to `examples.md`
+    * repeated author behaviour or gotcha → note it in `checklist.md`
+    Always write prose directed at the human reader; the validator will learn
+    later if needed.
+3. **Teach the validator** – if the issue is structural or recurring, add a
+    rule to `validate_academic.py` and cover it with a unit test under
+    `.github/skills/academic-notes/tests/` so future runs catch it automatically.
+4. **Verify impact** – run the validator on the affected files (or the whole
+    tree) and regenerate `issue_frequencies.md` so you can watch counts drop
+    after your fix lands.  This step is how you measure progress.
+5. **Submit a focused PR** – bundle only the documentation, tests, and any
+    normalization patches required to address the issue.  Keep diffs
+    reviewable; avoid broad regex respells unless you have explicit
+    owner approval.  In the PR description list which content files will be
+    affected when the change is deployed.
 
-## Best practices
+### Best practices for agents
 
-- Use `--content` mode for advisory warnings.
-- When proposing normalizations, list affected files in the PR description.
-- Prioritize updating skill docs over this file; store process notes in the
-  feedback log or the repository issue tracker.
+* Prefer advisory `--content` warnings when unsure; they are nonblocking and
+   educate authors without causing failures.
+* Always update the skill docs instead of editing this file.  This file is
+   a lightweight reminder, not the authoritative reference.
+* Record process notes or unusual decisions in the feedback log or a GitHub
+   issue rather than cluttering the docs.
 
-## Example process
+### Illustration of the process
 
-- Spot a recurring omission (e.g. missing flashcard tags).
-- Update `patterns.md`/`checklist.md` and verify the validator detects it.
-- After merge, regenerate `issue_frequencies.md` and watch the frequency drop.
+* Notice several courses missing flashcard tags during a browse of
+   `special/academia`.
+* Add a new pattern and checklist item for mandatory flashcard tags; write a
+   small test that flags absent tags.
+* After merging, run the validator and regenerate `issue_frequencies.md` to
+   confirm the count has dropped to zero.
 
-## Version history
+### Historical context (provenance only)
 
-Early history recorded numerous lessons; most of those entries have now been
-migrated into the active skill files listed above.  See the Git log or the
-individual documents for detailed change rationales.  This file retains only a
-brief archive of the latest consolidation.
+This section is for archive; agents do not normally read it.
 
-- **2026‑02‑25 (latest consolidation):** Moved the bulk of the continuous
-  improvement entries into `SKILL.md`, `patterns.md`, `examples.md`,
-  `checklist.md`, `issue_frequencies.md`, and validator tests.  Added a note
-  to the course template and introduced explicit rules requiring every
-  Markdown section to include a flashcard block and for authors/agents to
-  update flashcards when editing sections.  The remaining text here serves
-  as a provenance record; actionable guidance should now be sought in the
-  other documents.
-- **2026‑02‑25 (energy/power & units):** After editing `electronic component.md`
-  the diff revealed a new energy-and-power subsection with extended prose,
-  analogies, numerical examples, and many unit-containing formulas.  Skill
-  documentation was updated across the board to emphasise analogies, full
-  sentences, and calculation-style flashcards; a validator rule and test
-  were added to warn when physical units appear outside `$...$` math
-  delimiters, and the issue frequencies document notes the new warning.
+* 2026-02-25 (latest consolidation): most prior notes were moved into
+   `SKILL.md`, `patterns.md`, `examples.md`, `checklist.md`, `issue_frequencies.md`
+   and validator tests.  This file now simply points agents at those sources
+   and records why they exist.  A course template note and explicit rules were
+   added at that time requiring every Markdown section to include a flashcard
+   block and for authors/agents to update flashcards when editing sections.
+
+* 2026-02-25 (energy/power & units): editing `electronic component.md`
+   surfaced a new subsection heavy with units and formulas.  Documentation
+   was updated to emphasise analogies, full sentences, and calculation-style
+   flashcards.  A validator rule was added warning when physical units appear
+   outside `$...$` math delimiters; `issue_frequencies.md` reflects that new
+   warning.
+
+Agents should not hard-wrap any lines in this document; long single lines are
+preserved intentionally so automated tools and diffs remain clean.
