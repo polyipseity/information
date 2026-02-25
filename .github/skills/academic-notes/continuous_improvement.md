@@ -148,6 +148,39 @@ explicit permission from a maintainer.
   - Topic-note filenames and headings follow normal sentence casing; section
     headings adhere to the same rule.  Reinforced in examples.
 
+- **2026‑02‑25:** Added explicit rules about prose paragraphs before
+  flashcard lists and removed the requirement for generic "lecture summary"
+  sections unless they contain important grading information.  Updated
+  SKILL.md accordingly and applied fixes to existing ELEC 1100 notes.
+- **2026‑02‑25 (later):** Introduced two further conventions:
+
+  1. Paragraph cohesion – prose should read with Wikipedia‑style flow and
+     transitions rather than a sequence of disjoint statements.
+  2. Mathematical notation must always use LaTeX in math mode; Unicode
+     symbols are discouraged outside of `$…$`/`$$…$$`.  Updated SKILL.md and
+     patterns.md, and converted existing ELEC 1100 passages to comply.
+- **2026‑02‑25 (even later):** Added guidance on:
+
+  - Example calculations in flashcards: left side holds all given data, right
+    side outlines computation steps.
+  - Index entries linking to topic‑specific note sections via anchors.
+  - Flashcard formatting: cards must be one‑line in source; use `<br/>` or
+    `<p>` for any required hard breaks instead of actual newlines.  Flashcards
+    should contain exactly one `::@::` (or at most one `:@:` for one-sided
+    cards); earlier versions of this note mistakenly generated cards with two
+    separators which prevented proper generation.  For calculation examples,
+    ensure *every number used in the computation* — including intermediate
+    values and final answers — appears before the separator.  The right side
+    may then be limited to generic formulaic instructions.  Long left-hand
+    text is permitted for clarity.
+  - **Audit habit:** when fixing or adding flashcards, read each line of the
+    source file sequentially to catch any hidden calculations or formatting
+    errors.  Partial reviews led to earlier mistakes; a complete pass avoids
+    omissions.  - Line wrapping policy: avoid hard wraps; soft wrapping is used by editors.
+  - Lesson: the Ohm’s law example card originally placed $V$ and $R$ after the separator; the misplacement was caught and corrected on 2026‑02‑25, and a subsequent edit accidentally added a second `::@::` which had to be removed; always re‑check flashcards after editing.
+
+These rules were added to SKILL.md and applied to the ELEC 1100 index.
+
 ---
 
 Add more lessons or examples here as new patterns or bugs are discovered.

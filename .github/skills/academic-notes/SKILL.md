@@ -119,7 +119,11 @@ steps:
      at the top and prevents accidental repetition or indentation errors.
 5. Capture **content‑first details** and err on the side of completeness:
    - Situational or administrative remarks (schedule links, upcoming-week reminders, grading weights, Canvas/LMS alerts) should **never** be written as outline bullets.  The example week‑1 lecture shows the proper approach: all logistics, exam weights, and rights/expectations appear in a continuous prose paragraph following the structured bullet hierarchy.  Place the paragraph **after** the bullet outline and separate it from the list with a horizontal rule (`---`).  Draft the prose first without cloze markup to ensure natural flow, then add `{@{ }@}` or `::@::` glosses in a second pass for any facts you want to memorise.  See the flashcard-creation skill for help writing effective cloze sentences.
-   - **Privacy note:** omit real names, emails, phone numbers, office locations, or any personally identifying information for instructors, TAs, IAs, TOs, or staff; refer readers back to the official syllabus/LMS for contact details and do not flag that you have redacted names.
+   - **Paragraph style before flashcards:** when you transition from explanatory content to a `Flashcards for this section` list, the preceding text must be written as one or more natural paragraphs rather than as a continuation of the bullet outline.  Avoid using hyphen‑prefixed list items for prose; bullets are reserved for hierarchical points and gloss hints only.  This keeps rendered notes readable and prevents the outline validator from misclassifying descriptive text as additional flashcards.
+   - **Example calculation flashcards:** when a session contains worked numerical examples, the left‑hand path must include all given values and parameters required for the computation, and the right‑hand side should briefly outline the calculation steps (formula substitution, intermediate values, final result).  This ensures the card stands alone and is useful during review.
+   - **Paragraph cohesion:** aim for high lexical and conceptual cohesion in prose sections, similar to the style used in Wikipedia articles.  Combine related sentences with transitional phrases and minimise abrupt topic shifts; treat paragraphs as self‑contained mini‑essays rather than a list of loosely related statements.
+   - **Lecture summaries:** do not add a separate "lecture summary" section at the end of a session unless it conveys an important grading component (for example, exam due dates, weightings, or review topics).  Most summaries are redundant and clutter the notes; the validator will warn if a summary heading is present so authors can re‑evaluate its necessity.
+     - **Privacy note:** omit real names, emails, phone numbers, office locations, or any personally identifying information for instructors, TAs, IAs, TOs, or staff; refer readers back to the official syllabus/LMS for contact details and do not flag that you have redacted names.
    - Treat the course notes as a structured transcript of the lecture rather than a terse summary.  Every slide bullet, formula, definition, and instructor comment is a candidate for inclusion; err on the side of including too much because flashcards are generated automatically and extra content aids recall.  The opening week example demonstrates how multiple related concepts (definitions, history, features, examples, comparisons) can coexist under a single session header using nested bullets and full hierarchical paths.
    - Preserve the full semantics of the original lecture slides or spoken commentary.  Do **not** merge two or three separate points into one vague sentence.  Each distinct idea or logical step should occupy its own bullet (or sub‑bullet) along with a corresponding `::@::` gloss if appropriate.  When capturing enumerations such as the robot features or example lists shown in the week‑1 outline, either use nested sub‑bullets or put the entire list on one line with `<br/>` separators so the flashcard generator still treats them as a single entry.
    - Capture numeric values, parameter ranges, diagrams described in words, algorithm steps, and decision criteria.  For multi‑step examples (derivations, code walkthroughs, troubleshooting procedures), write them out as numbered lists or multiple bullets that mirror the sequence of operations.
@@ -139,6 +143,34 @@ steps:
    “Flashcards for this section are as follows:” so that tooling and readers
    can recognise the start of the QA list.  (The flashcard-creation skill has its own guidance and
    examples for performing the rewrite.)
+
+   - **Example calculation flashcards:** when class material includes
+     numerical examples, ensure the left‑hand path lists all given values
+     and the question being asked, and use the right-hand side to sketch the
+     computation steps (formula application, intermediate results, final
+     value).  Cards should be self-contained.
+   - **Single-line flashcards:** all flashcards (two‑sided Q/A or cloze) must
+     be written as a *single source line* with no hard newline characters.
+     The automatic generator splits on line breaks, so inserting a newline
+     will break the card.  If you need logical visual separation, use
+     `<br/>` or `<p>` instead.
+   - **Single separator:** for two-sided cards use exactly one `::@::` and for
+     one-sided cards at most one `:@:`.  Multiple separators on a line will
+     confuse the generator and produce invalid cards.   - **Newline encoding:** avoid wrapping long lines – soft wrap is used in
+     editors.  When a hard break is genuinely necessary for readability,
+     insert `<br/>` for a line break or `<p>` for a new paragraph rather than
+     hitting Enter in the source.
+   - **Index link rule:** lecture entries in the index that cover material
+     located in a separate topic note must include explicit bullets linking
+     to each relevant section of that note via an anchor.  This documents
+     which sections were discussed and lets readers jump directly to the
+     appropriate subsection.
+   - **Duplicate section check:** before adding a new `### week N lecture M`
+     heading in an index file, search for an existing section with the same
+     title.  Agents should never blindly create a new section if one already
+     exists; instead update the existing entry.  This prevents accidental
+     duplicates and keeps the chronology coherent.
+
    - **Formatting rules:** always prefix a gloss with a hierarchical path
      using `parent / … / child` before `::@::`.  The path text must include **all
      ancestors** beginning with the course name (e.g. `ELEC 1100 / teaching
