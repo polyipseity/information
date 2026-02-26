@@ -249,7 +249,7 @@ For example, {@{the _observer_ pattern}@} is often cited for {@{event‑driven s
 - {@{_Can appear deceptively simple_}@} – {@{The succinct notation}@} can {@{hide underlying complexity}@}, leading {@{some teams to underestimate effort}@} or {@{over‑apply a pattern where it's unnecessary}@}.
 - {@{_Risk of overload_}@} – {@{An excessive focus on patterns}@} may {@{clutter design discussions}@}, making the {@{architecture harder to grasp}@}.
 - {@{_Validation relies on experience, not testing_}@} – Patterns are {@{historically validated}@} by {@{practice and peer discussion}@}; they {@{lack formal test suites}@} that guarantee {@{correctness in every context}@}.
-- {@{_Human‑intensive integration_}@} – Incorporating {@{a pattern into a development process}@} requires {@{careful communication, training, and alignment}@} among {@{team members}@}. <!--SR:!2026-03-25,74,341!2026-08-07,184,322!2026-04-01,81,341!2026-03-27,76,341!2026-03-22,71,341!2026-03-17,66,322!2026-03-05,54,310!2026-03-26,75,341!2026-03-17,66,322!2026-03-25,74,322!2026-03-28,77,341!2026-04-03,83,341!2026-03-25,74,341!2026-03-24,73,341!2026-03-17,66,322!2026-03-30,79,341!2026-03-25,74,341!2026-03-24,73,341!2026-03-30,79,341!2026-03-20,69,322!2026-03-25,74,341!2026-03-27,76,341-->
+- {@{_Human‑intensive integration_}@} – Incorporating {@{a pattern into a development process}@} requires {@{careful communication, training, and alignment}@} among {@{team members}@}. <!--SR:!2026-03-25,74,341!2026-08-07,184,322!2026-04-01,81,341!2026-03-27,76,341!2026-03-22,71,341!2026-03-17,66,322!2026-10-23,232,330!2026-03-26,75,341!2026-03-17,66,322!2026-03-25,74,322!2026-03-28,77,341!2026-04-03,83,341!2026-03-25,74,341!2026-03-24,73,341!2026-03-17,66,322!2026-03-30,79,341!2026-03-25,74,341!2026-03-24,73,341!2026-03-30,79,341!2026-03-20,69,322!2026-03-25,74,341!2026-03-27,76,341-->
 
 For example, {@{overusing the _decorator_ pattern}@} for {@{trivial configuration}@} can {@{inflate class hierarchies}@} without {@{tangible benefit}@}, illustrating the {@{overload risk}@}. <!--SR:!2026-03-19,68,322!2026-03-28,77,341!2026-03-18,67,322!2026-03-22,71,322!2026-03-26,75,341-->
 
@@ -266,7 +266,7 @@ For example, {@{overusing the _decorator_ pattern}@} for {@{trivial configuratio
 - _Spaghetti Code_ ::@:: – tangled, unstructured logic with no clear hierarchy. <!--SR:!2026-03-26,75,341!2026-03-24,73,341-->
 - _Stovepipe System_ ::@;: – siloed subsystems that cannot communicate.  
 - _Analysis Paralysis_ ::@:: – excessive deliberation that stalls progress. <!--SR:!2026-03-22,71,322!2026-03-20,69,322-->
-- _Design by Committee_ ::@:: – conflicting requirements from too many stakeholders. <!--SR:!2026-04-01,81,341!2026-03-05,54,310-->
+- _Design by Committee_ ::@:: – conflicting requirements from too many stakeholders. <!--SR:!2026-04-01,81,341!2026-10-24,233,330-->
 - _God Class_ ::@:: – a single class that knows or does too much. <!--SR:!2026-03-18,67,322!2026-03-27,76,341-->
 - _Mythical Man-Month_ ::@:: – underestimating effort and over‑optimistic schedules. <!--SR:!2026-03-19,68,322!2026-03-19,68,322-->
 - _Death March Project_ ::@:: – projects with unrealistic deadlines and high risk of failure. <!--SR:!2026-03-17,66,322!2026-03-29,78,341-->

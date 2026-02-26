@@ -44,7 +44,7 @@ A Markov chain is {@{a type of Markov process that has either a discrete [state 
 
 ### types of Markov chains
 
-{@{The system's [state space](state%20space%20(computer%20science).md) and time parameter index}@} need to {@{be specified}@}. The following table gives {@{an overview of the different instances of Markov processes}@} for {@{different levels of state space generality and for discrete time v. continuous time}@}: <!--SR:!2026-04-14,390,367!2026-04-28,402,367!2026-03-05,359,367!2026-04-15,391,367-->
+{@{The system's [state space](state%20space%20(computer%20science).md) and time parameter index}@} need to {@{be specified}@}. The following table gives {@{an overview of the different instances of Markov processes}@} for {@{different levels of state space generality and for discrete time v. continuous time}@}: <!--SR:!2026-04-14,390,367!2026-04-28,402,367!2031-02-13,1806,387!2026-04-15,391,367-->
 
 |                           | {@{Countable state space}@}                                               | {@{Continuous or general state space}@}                                                                                                                             |
 | ------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -313,7 +313,7 @@ Markov chains are used in {@{[lattice QCD](lattice%20QCD.md)}@} simulations.<sup
 
 {@{An algorithm based on a Markov chain}@} was also used to {@{focus the fragment-based growth of chemicals}@} [in silico](in%20silico.md) (annotation: computer simulation) towards {@{a desired class of compounds such as drugs or natural products}@}.<sup>[\[66\]](#^ref-66)</sup> As {@{a molecule is grown}@}, {@{a fragment is selected from the nascent molecule as the "current" state}@}. It is {@{not aware of its past \(that is, it is not aware of what is already bonded to it\)}@}. It then {@{transitions to the next state when a fragment is attached to it}@}. The transition probabilities are {@{trained on databases of authentic classes of compounds}@}.<sup>[\[67\]](#^ref-67)</sup> <!--SR:!2026-04-07,385,367!2026-03-17,365,359!2026-04-27,401,367!2026-04-30,403,367!2026-04-01,378,359!2029-12-16,1435,361!2026-04-18,393,367!2026-04-01,377,359-->
 
-Also, {@{the growth \(and composition\) of [copolymers](copolymer.md)}@} may be {@{modeled using Markov chains}@}. Based on {@{the reactivity ratios of the monomers that make up the growing polymer chain}@}, {@{the chain's composition}@} may be calculated \(for example, whether monomers tend to add in {@{alternating fashion or in long runs of the same monomer}@}\). Due to {@{[steric effects](steric%20effects.md)}@}, {@{second-order Markov effects}@} may also {@{play a role in the growth of some polymer chains}@}. <!--SR:!2030-04-09,1530,361!2029-02-01,1183,359!2029-04-01,1218,359!2030-04-04,1525,361!2029-10-11,1369,367!2026-03-05,355,359!2026-03-13,362,359!2030-05-05,1549,361-->
+Also, {@{the growth \(and composition\) of [copolymers](copolymer.md)}@} may be {@{modeled using Markov chains}@}. Based on {@{the reactivity ratios of the monomers that make up the growing polymer chain}@}, {@{the chain's composition}@} may be calculated \(for example, whether monomers tend to add in {@{alternating fashion or in long runs of the same monomer}@}\). Due to {@{[steric effects](steric%20effects.md)}@}, {@{second-order Markov effects}@} may also {@{play a role in the growth of some polymer chains}@}. <!--SR:!2030-04-09,1530,361!2029-02-01,1183,359!2029-04-01,1218,359!2030-04-04,1525,361!2029-10-11,1369,367!2030-12-19,1750,379!2026-03-13,362,359!2030-05-05,1549,361-->
 
 Similarly, it has been suggested that {@{the crystallization and growth}@} of {@{some epitaxial [superlattice](superlattice.md) oxide materials}@} can be {@{accurately described by Markov chains}@}.<sup>[\[68\]](#^ref-68)</sup> <!--SR:!2026-04-25,399,367!2029-09-19,1347,367!2029-11-26,1415,361-->
 
@@ -325,7 +325,7 @@ Markov chains are used in {@{various areas of biology}@}. Notable examples inclu
 - [Population dynamics](population%20dynamics.md), ::@:: where Markov chains are in particular a central tool in the theoretical study of [matrix population models](matrix%20population%20models.md). <!--SR:!2030-02-02,1477,361!2031-01-30,1794,387-->
 - [Neurobiology](neuroscience.md),::@:: where Markov chains have been used, e.g., to simulate the mammalian neocortex.<sup>[\[69\]](#^ref-69)</sup> <!--SR:!2027-11-29,834,341!2026-04-18,393,367-->
 - [Systems biology](systems%20biology.md), ::@:: for instance with the modeling of viral infection of single cells.<sup>[\[70\]](#^ref-70)</sup> <!--SR:!2026-04-22,397,367!2029-11-19,1408,361-->
-- [Compartmental models](compartmental%20models%20in%20epidemiology.md) ::@:: for disease outbreak and epidemic modeling. <!--SR:!2028-11-30,1131,350!2026-03-05,354,359-->
+- [Compartmental models](compartmental%20models%20in%20epidemiology.md) ::@:: for disease outbreak and epidemic modeling. <!--SR:!2028-11-30,1131,350!2030-12-17,1748,379-->
 
 ### testing
 

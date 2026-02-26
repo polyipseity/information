@@ -11,7 +11,7 @@ tags:
 
 # functor
 
-- This article is about {@{the design pattern for mapping functions over a generic type}@}. For {@{the term "functor" as used in C++}@}, see {@{[function object](function%20object.md)}@}. <!--SR:!2026-03-05,331,351!2029-11-06,1376,355!2026-03-21,344,351-->
+- This article is about {@{the design pattern for mapping functions over a generic type}@}. For {@{the term "functor" as used in C++}@}, see {@{[function object](function%20object.md)}@}. <!--SR:!2030-07-18,1596,371!2029-11-06,1376,355!2026-03-21,344,351-->
 
 > {@{![Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.](../../archives/Wikimedia%20Commons/Tree%20as%20a%20functor.svg)}@}
 >

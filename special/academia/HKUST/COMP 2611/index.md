@@ -275,7 +275,7 @@ The content is in teaching order.
 - 4-to-1 multiplexer ::@:: 4 inputs, representing the 4 channels to be muxed. 2 control signals, controlling which channel to output. 1 output. <!--SR:!2026-09-13,445,387!2026-10-01,465,387-->
 - multiplexer
   - multiplexer / input bit width ::@:: Its output bit width is the same as its input bit width. <!--SR:!2026-11-02,495,406!2026-10-31,493,406-->
-  - multiplexer / control bit width ::@:: Given _n_ control bits, the _maximum_ number of inputs is 2<sup>_n_</sup>. <br/> Given _n_ inputs, the _minimum_ number of control bits is ceil\(log<sub>2</sub>\(_n_\)\). <p> (Of course, you can violate these, but then it is not a multiplexer, isn't it?) <!--SR:!2028-10-11,1050,386!2026-03-05,273,366-->
+  - multiplexer / control bit width ::@:: Given _n_ control bits, the _maximum_ number of inputs is 2<sup>_n_</sup>. <br/> Given _n_ inputs, the _minimum_ number of control bits is ceil\(log<sub>2</sub>\(_n_\)\). <p> (Of course, you can violate these, but then it is not a multiplexer, isn't it?) <!--SR:!2028-10-11,1050,386!2029-12-06,1372,386-->
 
 ## week 3 lecture 2
 

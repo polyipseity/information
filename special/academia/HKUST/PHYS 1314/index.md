@@ -928,7 +928,7 @@ The content is in teaching order.
   - datetime: 2025-06-02T14:00:00+08:00/2025-06-02T16:00:00+08:00, PT2H
   - venue: Room 4418, Academic Building
   - report
-    - out-of-order answers \(+2\) ::@:: Not really a good idea to answer sub-questions out of order. <!--SR:!2026-03-05,210,467!2026-03-11,216,467-->
+    - out-of-order answers \(+2\) ::@:: Not really a good idea to answer sub-questions out of order. <!--SR:!2029-11-01,1337,487!2026-03-11,216,467-->
 
 > __<big><big>\[Final Exam\] Important Information</big></big>__
 >

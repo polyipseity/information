@@ -21,7 +21,7 @@ Gaussian surfaces are usually {@{carefully chosen to exploit [symmetries](symmet
 
 ## common Gaussian surfaces
 
-- See also: ::@:: [Charge density](charge%20density.md) <!--SR:!2026-03-05,289,330!2029-03-04,1145,350-->
+- See also: ::@:: [Charge density](charge%20density.md) <!--SR:!2029-10-15,1320,350!2029-03-04,1145,350-->
 
 > {@{![Examples of valid \(left\) and invalid \(right\) Gaussian surfaces.](../../archives/Wikimedia%20Commons/SurfacesWithAndWithoutBoundary.svg)}@}
 >
@@ -67,7 +67,7 @@ Consider {@{a point _P_ at a distance _r_ from an infinite line charge having [c
 
 > {@{![Closed surface in the form of a cylinder having line charge in the center and showing differential areas _d_<!-- markdown separator -->__A__ of all three surfaces.](../../archives/Wikimedia%20Commons/Gaussian%20surface.jpg)}@}
 >
-> Closed surface in {@{the form of a cylinder having line charge in the center}@} and showing {@{differential areas _d_<!-- markdown separator -->__A__ of all three surfaces}@}. <!--SR:!2026-03-05,287,330!2026-03-05,287,330!2029-05-30,1204,350-->
+> Closed surface in {@{the form of a cylinder having line charge in the center}@} and showing {@{differential areas _d_<!-- markdown separator -->__A__ of all three surfaces}@}. <!--SR:!2029-10-08,1313,350!2029-10-06,1311,350!2029-05-30,1204,350-->
 
 {@{The flux passing}@} consists of {@{the three contributions}@}: {@{$$\Phi _{E} = \oiint_A \mathbf {E} \cdot d\mathbf {A} =\iint _{a}\mathbf {E} \cdot d\mathbf {A} +\iint_{b}\mathbf {E} \cdot d\mathbf {A} +\iint _{c}\mathbf {E} \cdot d\mathbf {A}$$}@} For {@{surfaces a and b}@}, {@{__E__ and _d_<!-- markdown separator -->__A__ will be [perpendicular](perpendicular.md)}@}. For {@{surface c}@}, {@{__E__ and _d_<!-- markdown separator -->__A__ will be [parallel](parallel%20(geometry).md)}@}, as shown in the figure. {@{$${\begin{aligned}\Phi _{E}&=\iint _{a}EdA\cos 90^{\circ }+\iint _{b}EdA\cos 90^{\circ }+\iint _{c}EdA\cos 0^{\circ }\\&=E\iint _{c}dA\end{aligned} }$$}@} <!--SR:!2029-03-09,1150,350!2026-03-11,293,330!2026-03-08,292,330!2029-02-27,1142,350!2026-03-12,294,330!2026-03-09,291,330!2029-02-12,1128,350!2026-03-08,290,330-->
 

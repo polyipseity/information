@@ -159,7 +159,7 @@ When {@{a generic function is invoked}@}, the compiler examines {@{the concrete 
 >
 > The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}. <!--SR:!2026-04-07,137,420!2026-05-01,158,429!2026-04-20,148,429!2026-04-28,156,440!2026-04-26,154,440-->
 
-The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}: <!--SR:!2026-03-05,108,395!2026-04-18,147,429!2026-04-06,136,420!2026-04-04,134,420!2026-04-09,139,420!2026-08-22,220,475!2026-08-25,223,475!2026-08-25,223,475-->
+The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}: <!--SR:!2027-10-08,582,415!2026-04-18,147,429!2026-04-06,136,420!2026-04-04,134,420!2026-04-09,139,420!2026-08-22,220,475!2026-08-25,223,475!2026-08-25,223,475-->
 
 > [!example]
 >

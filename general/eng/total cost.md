@@ -37,7 +37,7 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 ## calculating cost functions
 
 - Total product \(= Output, Q\) ::@:: = Quantity of goods <!--SR:!2030-01-13,1436,361!2030-02-22,1469,361-->
-- Average Variable Cost \(AVC\) ::@:: = Total Variable Cost / Quantity of goods \(This formula is cyclic with the TVC one\) <!--SR:!2030-03-11,1483,361!2026-03-05,328,341-->
+- Average Variable Cost \(AVC\) ::@:: = Total Variable Cost / Quantity of goods \(This formula is cyclic with the TVC one\) <!--SR:!2030-03-11,1483,361!2030-05-29,1546,361-->
 - Average Fixed Cost \(AFC\) ::@:: = ATC – AVC <!--SR:!2030-05-09,1529,361!2030-01-23,1444,361-->
 - Total Cost ::@:: = \(AVC + AFC\) X Quantity of goods <!--SR:!2030-03-31,1498,361!2030-02-10,1459,361-->
 - Total Variable Cost ::@:: = Variable cost per unit X Quantity of goods <!--SR:!2027-07-19,712,341!2030-01-24,1445,361-->

@@ -237,7 +237,7 @@ The content is in teaching order. Extra information and corrections are included
   - September equinox date ::@:: September 22/23@UT+08 (21–24@UT) <!--SR:!2028-03-21,787,277!2029-09-08,1294,315-->
 - [solstice](../../../../general/solstice.md) ::@:: Axis tilt is at the largest angle with regards to the Sun. The Sun is farthest away from the celestial equator on the celestial sphere. One hemisphere receives more sunlight than the other. <!--SR:!2031-07-07,2054,395!2026-12-02,623,337-->
   - solstice etymology ::@:: sol "sun" + stice "stopped", "stationary" <!--SR:!2032-04-29,2298,397!2032-06-09,2328,395-->
-  - solstice names ::@:: summer solstice, winter solstice, June solstice, December solstice <!--SR:!2026-03-05,490,377!2028-08-29,1185,375-->
+  - solstice names ::@:: summer solstice, winter solstice, June solstice, December solstice <!--SR:!2033-02-06,2530,397!2028-08-29,1185,375-->
     - [summer solstice](../../../../general/summer%20solstice.md), [winter solstice](../../../../winter%20solstice.md) vs. [June solstice](../../../../general/June%20solstice.md), [December solstice](../../../../general/December%20solstice.md) ::@:: The former depends on the hemisphere while the latter does not. For the Northern hemisphere, summer solstice is June solstice and winter solstice is December solstice. This is reversed for the Southern hemisphere. <!--SR:!2030-09-22,1704,377!2032-08-20,2390,397-->
   - June solstice date ::@:: June 21/22@UT+08 (20–22@UT) <!--SR:!2027-08-14,757,295!2028-12-08,1174,357-->
   - December solstice date ::@:: December 21/22@UT+08 (20–22@UT) <!--SR:!2028-05-04,1007,337!2029-08-26,1360,335-->
@@ -259,7 +259,7 @@ The content is in teaching order. Extra information and corrections are included
   - [§ orbit](../../../../general/Moon.md#orbit)
   - [Moon](../../../../general/Moon.md) / [average orbital distance](../../../../general/lunar%20distance.md) ::@:: 384&nbsp;400 km, about 30 times the diameter of Earth <!--SR:!2027-12-19,837,337!2029-08-30,1472,375-->
   - [Moon](../../../../general/Moon.md) / orbital direction ::@:: counterclockwise viewed from north; prograde to Earth's rotation direction <!--SR:!2032-07-06,2355,399!2031-09-16,2115,399-->
-  - [Moon](../../../../general/Moon.md) / rotation direction ::@:: counterclockwise viewed from north; prograde to its own rotation direction, prograde to Earth's rotation direction <!--SR:!2026-03-05,490,379!2028-03-28,1080,379-->
+  - [Moon](../../../../general/Moon.md) / rotation direction ::@:: counterclockwise viewed from north; prograde to its own rotation direction, prograde to Earth's rotation direction <!--SR:!2033-02-17,2541,399!2028-03-28,1080,379-->
   - [Moon](../../../../general/Moon.md) / synodic [orbital period](../../../../general/orbital%20period.md) (with respect to [Sun](../../../../general/Sun.md)) ::@:: about 29.5 days <!--SR:!2027-05-30,816,359!2030-03-12,1630,379-->
   - [Moon](../../../../general/Moon.md) / synodic [rotation period](../../../../general/rotation%20period%20(astronomy).md) (with respect to the [Sun](../../../../general/Sun.md)) ::@:: about 29.5 days = synodic orbital period (due to tidal locking) <!--SR:!2030-09-06,1810,399!2030-12-02,1883,399-->
   - [Moon](../../../../general/Moon.md) / [tidal locking](../../../../general/tidal%20locking.md) (misnomer: synchronous orbit) ::@:: The orbital period equals the rotation period. That means the same near side is always exposed to the Earth. The far side is also called the "dark side of the Moon". <!--SR:!2027-01-26,705,339!2030-07-01,1720,379-->

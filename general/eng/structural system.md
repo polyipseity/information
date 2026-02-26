@@ -116,7 +116,7 @@ return await memorize_seq(
 <!--pytextgen generate section="7123"--><!-- The following content is generated at 2024-05-14T21:11:05.350734+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[buttress](buttress.md) <!--SR:!2027-03-13,786,335!2027-01-28,681,315-->
-- [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2027-07-16,743,255!2026-03-05,417,315-->
+- [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2027-07-16,743,255!2031-02-23,1816,335-->
 - [diagrid](diagrid.md)→::@::←[exoskeleton](exoskeleton.md) <!--SR:!2027-07-18,825,295!2028-04-07,991,315-->
 - [exoskeleton](exoskeleton.md)→::@::←[space truss](space%20frame.md) <!--SR:!2029-07-18,1291,275!2026-09-22,528,255-->
 - [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2029-07-11,1245,295!2026-12-18,590,275-->

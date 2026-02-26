@@ -10,7 +10,7 @@ tags:
 
 # signal space
 
-A {@{__signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to {@{model transmitted waveforms as points or vectors within a multidimensional Euclidean (or Hilbert) space}@}. By selecting {@{an orthonormal set of basis functions}@}—often derived via {@{Gram–Schmidt orthogonalisation}@}—{@{the time-domain signals}@} are expressed as {@{linear combinations whose coefficients serve as coordinates}@}. <!--SR:!2026-03-05,60,325!2026-03-26,81,344!2026-03-25,80,344!2026-03-16,71,325!2026-03-16,71,325!2026-03-16,71,325!2026-03-23,78,344-->
+A {@{__signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to {@{model transmitted waveforms as points or vectors within a multidimensional Euclidean (or Hilbert) space}@}. By selecting {@{an orthonormal set of basis functions}@}—often derived via {@{Gram–Schmidt orthogonalisation}@}—{@{the time-domain signals}@} are expressed as {@{linear combinations whose coefficients serve as coordinates}@}. <!--SR:!2026-11-27,267,345!2026-03-26,81,344!2026-03-25,80,344!2026-03-16,71,325!2026-03-16,71,325!2026-03-16,71,325!2026-03-23,78,344-->
 
 {@{This geometric view}@} simplifies the analysis of {@{modulation schemes, receiver design, and error performance}@}, enabling designers to visualize {@{constellations, compute Euclidean distances between symbols}@}, and construct {@{matched filters that maximise signal-to-noise ratio}@}. <!--SR:!2026-03-26,81,344!2026-03-16,71,325!2026-03-06,61,325!2026-03-19,74,325-->
 
@@ -24,13 +24,13 @@ A {@{__signal space__}@} is {@{an abstract vector-space representation used in d
 
 A signal $s(t)$ can be described in {@{time domain, frequency domain, or geometric domain}@}. Actually, {@{time domain and frequency domain}@} are {@{special cases of the geometric domain}@}. <!--SR:!2026-03-23,78,344!2026-03-09,64,325!2026-03-18,73,325-->
 
-{@{A signal $s(t)$}@} is typically {@{expressed as a function of continuous time}@}, revealing {@{its waveform shape, duration, and temporal features}@} such as {@{rise/fall times or modulation patterns}@}. {@{Analysis in this domain}@} focuses on {@{causality, stability}@}, and {@{the physical realization}@} of {@{transmitters and receivers}@}. {@{Energy in the time domain}@} is obtained by {@{integrating $|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2026-03-28,83,344!2026-03-05,60,325!2026-03-11,66,325!2026-03-15,70,325!2026-03-16,71,325!2026-03-10,65,325!2026-03-23,78,344!2026-03-16,71,325!2026-03-16,71,325!2026-03-27,82,344-->
+{@{A signal $s(t)$}@} is typically {@{expressed as a function of continuous time}@}, revealing {@{its waveform shape, duration, and temporal features}@} such as {@{rise/fall times or modulation patterns}@}. {@{Analysis in this domain}@} focuses on {@{causality, stability}@}, and {@{the physical realization}@} of {@{transmitters and receivers}@}. {@{Energy in the time domain}@} is obtained by {@{integrating $|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2026-03-28,83,344!2026-12-01,271,345!2026-03-11,66,325!2026-03-15,70,325!2026-03-16,71,325!2026-03-10,65,325!2026-03-23,78,344!2026-03-16,71,325!2026-03-16,71,325!2026-03-27,82,344-->
 
 {@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the time waveform into a spectrum of sinusoidal components}@}. This representation exposes {@{bandwidth requirements, spectral occupancy, and filtering behavior}@}. Importantly, {@{Parseval’s theorem}@} guarantees that {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$ \(under the unitary convention\)}@}, so {@{total energy is preserved}@}. <!--SR:!2026-03-06,61,325!2026-03-20,75,325!2026-03-06,61,325!2026-03-25,80,344!2026-03-20,75,325!2026-03-19,74,325-->
 
 In {@{signal space}@}, {@{each waveform}@} is regarded as {@{a vector in an abstract Hilbert space}@} whose {@{inner product}@} is defined by {@{$\langle u,v\rangle=\int_{0}^{T}u(t)v^{*}(t)\,dt$}@}. {@{Choosing a finite-dimensional orthonormal basis}@} turns {@{the continuous-time signal into a finite-dimensional coordinate vector}@}, enabling {@{Euclidean geometry tools—distances, angles, and projections}@}—to analyze {@{modulation constellations, design matched filters, and evaluate error probabilities}@}. <!--SR:!2026-03-18,73,325!2026-03-16,71,325!2026-03-18,73,325!2026-03-09,64,325!2026-03-08,63,325!2026-03-06,61,325!2026-03-08,63,325!2026-03-22,77,344!2026-03-17,72,325-->
 
-From the view of {@{geometric domain}@}, {@{the time-domain waveform}@} is simply {@{a coordinate representation using the basis $\{\,\delta(t-t_k)\,\}$}@}, while {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{specific orthonormal bases of the same signal Hilbert space}@}. Thus, {@{time and frequency views}@} are merely {@{different coordinate systems}@} within {@{the overarching geometric (vector-space) framework}@}. <!--SR:!2026-03-11,66,325!2026-03-16,71,325!2026-03-20,75,325!2026-03-10,65,325!2026-03-05,60,325!2026-03-08,63,325!2026-03-09,64,325!2026-11-02,246,330!2026-11-09,251,330-->
+From the view of {@{geometric domain}@}, {@{the time-domain waveform}@} is simply {@{a coordinate representation using the basis $\{\,\delta(t-t_k)\,\}$}@}, while {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{specific orthonormal bases of the same signal Hilbert space}@}. Thus, {@{time and frequency views}@} are merely {@{different coordinate systems}@} within {@{the overarching geometric (vector-space) framework}@}. <!--SR:!2026-03-11,66,325!2026-03-16,71,325!2026-03-20,75,325!2026-03-10,65,325!2026-12-05,275,345!2026-03-08,63,325!2026-03-09,64,325!2026-11-02,246,330!2026-11-09,251,330-->
 
 ## definition
 
@@ -46,12 +46,12 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 {@{These properties}@} guarantee that {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$}@} behaves like {@{a Euclidean length}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{their inner product equals zero}@}; they are {@{_orthonormal_}@} when {@{each also has unit norm}@}. <!--SR:!2026-03-17,72,325!2026-03-09,64,325!2026-03-24,79,344!2026-03-11,66,325!2026-03-16,71,325!2026-10-22,237,330!2026-03-18,73,325!2026-03-15,70,325-->
 
-{@{The inner product}@} for {@{continuous-time signals}@} is {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} With {@{this definition}@} {@{a signal $s(t)$ has unit norm}@} when {@{its energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2026-03-19,74,325!2026-03-06,61,325!2026-03-11,66,325!2026-03-23,78,344!2026-03-05,60,325!2026-03-16,71,325!2026-03-16,71,325-->
+{@{The inner product}@} for {@{continuous-time signals}@} is {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} With {@{this definition}@} {@{a signal $s(t)$ has unit norm}@} when {@{its energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2026-03-19,74,325!2026-03-06,61,325!2026-03-11,66,325!2026-03-23,78,344!2026-11-29,269,345!2026-03-16,71,325!2026-03-16,71,325-->
 
 ### geometric concepts
 
 - _Length_: ::@:: The magnitude of a vector is $\|v\| = \sqrt{\langle v,v\rangle}$. <!--SR:!2026-03-06,61,325!2026-03-20,75,325-->
-- _Distance_: ::@:: Between $u$ and $v$ it is $\|u-v\|=\sqrt{\langle u-v,\,u-v\rangle}$. <!--SR:!2026-03-05,60,325!2026-03-16,71,325-->
+- _Distance_: ::@:: Between $u$ and $v$ it is $\|u-v\|=\sqrt{\langle u-v,\,u-v\rangle}$. <!--SR:!2026-11-28,268,345!2026-03-16,71,325-->
 - _Angle_: ::@:: The cosine of the angle between non-zero vectors $u$ and $v$ is $$\cos\theta = \frac{\langle u,v\rangle}{\|u\|\;\|v\|} \,.$$ <!--SR:!2026-03-23,78,344!2026-03-18,73,325-->
 - _Orthogonality_: ::@:: Vectors are orthogonal if their inner product vanishes: $\langle u,v\rangle=0$. <!--SR:!2026-03-16,71,325!2026-03-22,77,344-->
 - _Circles and spheres_: ::@:: The set $\{x\in V : \|x-x_c\| = r\}$ describes a circle (or hypersphere) centered at $x_c$ with radius $r$. <!--SR:!2026-03-20,75,325!2026-03-19,74,325-->
@@ -96,7 +96,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a
 
 ### orthogonality and orthonormality
 
-{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_}@} ({@{$e_i^\top e_j=0$ for $i\neq j$}@}) and {@{every vector has unit norm ($\|e_i\|=1$)}@}. {@{Orthonormal bases}@} simplify {@{coordinate calculations}@} because {@{the coordinates equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@} <!--SR:!2026-03-25,80,344!2026-03-10,65,325!2026-03-22,77,344!2026-03-07,62,325!2026-03-23,78,344!2026-03-16,71,325!2026-03-05,60,325!2026-03-15,70,325!2026-03-07,62,325-->
+{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_}@} ({@{$e_i^\top e_j=0$ for $i\neq j$}@}) and {@{every vector has unit norm ($\|e_i\|=1$)}@}. {@{Orthonormal bases}@} simplify {@{coordinate calculations}@} because {@{the coordinates equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@} <!--SR:!2026-03-25,80,344!2026-03-10,65,325!2026-03-22,77,344!2026-03-07,62,325!2026-03-23,78,344!2026-03-16,71,325!2026-11-29,269,345!2026-03-15,70,325!2026-03-07,62,325-->
 
 ### linear transformations
 
@@ -108,7 +108,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a
 
 ### triangle inequality
 
-For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality}@} {@{if and only if $a$ and $b$ are positively collinear}@} (one is {@{a non-negative scalar multiple of the other}@}). <!--SR:!2026-03-17,72,325!2026-03-16,71,325!2026-03-05,60,325!2026-03-09,64,325!2026-03-17,72,325-->
+For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality}@} {@{if and only if $a$ and $b$ are positively collinear}@} (one is {@{a non-negative scalar multiple of the other}@}). <!--SR:!2026-03-17,72,325!2026-03-16,71,325!2026-11-28,268,345!2026-03-09,64,325!2026-03-17,72,325-->
 
 ### Cauchy–Schwarz inequality
 
@@ -132,7 +132,7 @@ The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining bas
 
 ## examples
 
-{@{Three unit-amplitude pulses}@} occupying {@{consecutive thirds of an interval}@} are {@{_orthogonal_}@} as each pulse {@{occupies a distinct subinterval}@}. {@{Their coordinates}@} are simply {@{$(1,0,0)$, $(0,1,0)$, and $(0, 0, 1)$}@}, and {@{the basis functions}@} are {@{the three unit-amplitude pulses, but _normalized_}@}. <!--SR:!2026-03-25,80,344!2026-03-05,60,325!2026-03-16,71,325!2026-03-26,81,344!2026-03-17,72,325!2026-10-27,240,330!2026-03-05,60,325!2026-03-14,69,325-->
+{@{Three unit-amplitude pulses}@} occupying {@{consecutive thirds of an interval}@} are {@{_orthogonal_}@} as each pulse {@{occupies a distinct subinterval}@}. {@{Their coordinates}@} are simply {@{$(1,0,0)$, $(0,1,0)$, and $(0, 0, 1)$}@}, and {@{the basis functions}@} are {@{the three unit-amplitude pulses, but _normalized_}@}. <!--SR:!2026-03-25,80,344!2026-12-04,274,345!2026-03-16,71,325!2026-03-26,81,344!2026-03-17,72,325!2026-10-27,240,330!2026-12-03,273,345!2026-03-14,69,325-->
 
 ### sinusoidal examples
 
@@ -140,7 +140,7 @@ The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining bas
 
 Extending {@{the previous two signals $$s_1(t)=A\cos(2\pi f_ct)$$ and $$s_2(t)=A\sin(2\pi f_ct)$$}@} over {@{$[0,T)$ where $f_c$ is a _multiple_ of $1 / T$}@}, consider {@{$$s_m'(t) = A\cos\left(2\pi f_ct + \frac {2 \pi (m - 1)} {M} \right)$$}@} where {@{$M \ge 3$ is the number of signals and $f_c$ has the same restriction as above}@}. Using {@{trigonometric identities}@} we can always {@{express $s_m'(t)$ as a sum of $s_1(t)$ and $s_2(t)$}@}: {@{$$s_m'(t) = A\cos\left(\frac {2 \pi (m - 1)} {M} \right) \cos(2\pi f_c t) - A \sin\left(\frac {2 \pi (m - 1)} M \right) \sin(2\pi f_c t) \,.$$}@} Hence, {@{the resulting basis}@} is {@{the same as the previous case}@}. <!--SR:!2026-03-16,71,325!2026-03-16,71,325!2026-03-08,63,325!2026-11-08,251,330!2026-03-17,72,325!2026-03-15,70,325!2026-03-16,71,325!2026-03-16,71,325!2026-03-17,72,325-->
 
-These examples show that {@{sinusoidal signals over a fixed interval $[0, T)$}@} can always be {@{represented by a linear combination of two signals only}@}. This fact is used in {@{_M_-PSK \(including QPSK\) and _M_-QAM}@}, so {@{their constellation diagrams}@} are {@{two-dimensional}@}. {@{The amplitude of the basis $\cos (2\pi f_c t)$}@} is called {@{the _inphase_ signal $I(t)$}@}, while {@{the amplitude of the basis $-\sin(2\pi f_c t)$ \(note the _negative_ sign\)}@} is called {@{the _quadrature_ signal $Q(t)$}@}. They may be represented as {@{a complex number $Z(t) = I(t) + j Q(t)$}@} or plotted {@{on an constellation plane as $(I(t), Q(t))$}@}. <!--SR:!2026-11-01,245,330!2026-03-20,75,325!2026-03-19,74,325!2026-03-16,71,325!2026-03-10,65,325!2026-03-10,65,325!2026-03-20,75,325!2026-03-10,65,325!2026-03-16,71,325!2026-03-05,60,325!2026-03-18,73,325-->
+These examples show that {@{sinusoidal signals over a fixed interval $[0, T)$}@} can always be {@{represented by a linear combination of two signals only}@}. This fact is used in {@{_M_-PSK \(including QPSK\) and _M_-QAM}@}, so {@{their constellation diagrams}@} are {@{two-dimensional}@}. {@{The amplitude of the basis $\cos (2\pi f_c t)$}@} is called {@{the _inphase_ signal $I(t)$}@}, while {@{the amplitude of the basis $-\sin(2\pi f_c t)$ \(note the _negative_ sign\)}@} is called {@{the _quadrature_ signal $Q(t)$}@}. They may be represented as {@{a complex number $Z(t) = I(t) + j Q(t)$}@} or plotted {@{on an constellation plane as $(I(t), Q(t))$}@}. <!--SR:!2026-11-01,245,330!2026-03-20,75,325!2026-03-19,74,325!2026-03-16,71,325!2026-03-10,65,325!2026-03-10,65,325!2026-03-20,75,325!2026-03-10,65,325!2026-03-16,71,325!2026-12-02,272,345!2026-03-18,73,325-->
 
 ## applications
 
@@ -148,7 +148,7 @@ These examples show that {@{sinusoidal signals over a fixed interval $[0, T)$}@}
 
 For {@{linear time invariant \(LTI\) filters}@}, {@{the matched filter}@} {@{maximises signal-to-noise ratio}@}. In {@{signal space}@} this is equivalent to {@{projecting the received vector onto each basis function}@} and deciding on {@{the symbol whose projected coordinates}@} are {@{closest in Euclidean distance}@}. <!--SR:!2026-10-31,244,330!2026-03-20,75,325!2026-03-16,71,325!2026-03-17,72,325!2026-03-18,73,325!2026-03-16,71,325!2026-03-19,74,325-->
 
-{@{Increasing bit rate}@} by {@{adding dimensions}@} usually requires {@{higher bandwidth or power}@}. {@{The geometric view}@} helps visualise {@{these trade-offs}@} and guides {@{practical modulation choices}@} such as {@{quadrature amplitude modulation \(QAM\), phase-shift keying \(PSK\), orthogonal frequency-division multiplexing \(OFDM\), etc.}@} <!--SR:!2026-03-20,75,325!2026-03-22,77,344!2026-03-10,65,325!2026-03-05,60,325!2026-03-10,65,325!2026-03-18,73,325!2026-09-04,207,325-->
+{@{Increasing bit rate}@} by {@{adding dimensions}@} usually requires {@{higher bandwidth or power}@}. {@{The geometric view}@} helps visualise {@{these trade-offs}@} and guides {@{practical modulation choices}@} such as {@{quadrature amplitude modulation \(QAM\), phase-shift keying \(PSK\), orthogonal frequency-division multiplexing \(OFDM\), etc.}@} <!--SR:!2026-03-20,75,325!2026-03-22,77,344!2026-03-10,65,325!2026-11-30,270,345!2026-03-10,65,325!2026-03-18,73,325!2026-09-04,207,325-->
 
 For example, {@{frequency-domain representation}@} as {@{a special case of geometric-domain representation}@}, can {@{represent discrete signals of length _N_ _perfectly_}@}, but {@{the resulting dimension}@} also {@{has _N_ dimensions}@}, which is {@{_inefficient_}@} as it {@{does not exploit any _simplicity_ in the signals to be transmitted}@}. It may be possible that {@{the signals to be transmitted}@} lie in {@{a subspace that has less than _N_ dimensions}@}. The goal of {@{a geometric-domain representation}@} is to find {@{the _minimal_ dimensions}@} that still {@{contains all signals to be transmitted}@}. <!--SR:!2026-03-16,71,325!2026-03-10,65,325!2026-03-20,75,325!2026-03-10,65,325!2026-03-09,64,325!2026-03-06,61,325!2026-03-19,74,325!2026-03-07,62,325!2026-10-26,240,330!2026-03-22,77,344!2026-03-07,62,325!2026-03-17,72,325-->
 

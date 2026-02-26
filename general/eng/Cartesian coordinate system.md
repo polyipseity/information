@@ -89,7 +89,7 @@ In {@{mathematics, physics, and engineering contexts}@}, {@{the first two axes}@
 
 ### higher dimensions
 
-Since {@{Cartesian coordinates are unique and non-ambiguous}@}, {@{the points of a Cartesian plane}@} can be {@{identified with pairs of [real numbers](real%20number.md)}@}; that is, with {@{the [Cartesian product](Cartesian%20product.md) $\mathbb {R} ^{2}=\mathbb {R} \times \mathbb {R}$}@}, where {@{$\mathbb {R}$ is the set of all real numbers}@}. In the same way, {@{the points in any [Euclidean space](Euclidean%20space.md) of dimension _n_}@} be {@{identified with the [tuples](tuple.md) \(lists\) of _n_ real numbers}@}; that is, with {@{the Cartesian product $\mathbb {R} ^{n}$}@}. <!--SR:!2026-05-06,349,349!2026-06-01,375,362!2026-06-21,392,362!2026-05-20,363,362!2026-03-13,310,349!2026-04-08,328,349!2029-02-25,1148,350!2026-03-05,302,349-->
+Since {@{Cartesian coordinates are unique and non-ambiguous}@}, {@{the points of a Cartesian plane}@} can be {@{identified with pairs of [real numbers](real%20number.md)}@}; that is, with {@{the [Cartesian product](Cartesian%20product.md) $\mathbb {R} ^{2}=\mathbb {R} \times \mathbb {R}$}@}, where {@{$\mathbb {R}$ is the set of all real numbers}@}. In the same way, {@{the points in any [Euclidean space](Euclidean%20space.md) of dimension _n_}@} be {@{identified with the [tuples](tuple.md) \(lists\) of _n_ real numbers}@}; that is, with {@{the Cartesian product $\mathbb {R} ^{n}$}@}. <!--SR:!2026-05-06,349,349!2026-06-01,375,362!2026-06-21,392,362!2026-05-20,363,362!2026-03-13,310,349!2026-04-08,328,349!2029-02-25,1148,350!2030-02-22,1450,369-->
 
 ### generalizations
 
@@ -177,7 +177,7 @@ An example of {@{an affine transformation which is not Euclidean}@} is given by 
 
 #### shearing
 
-{@{A [shearing transformation](shear%20mapping.md)}@} will {@{push the top of a square sideways to form a parallelogram}@}. {@{Horizontal shearing}@} is defined by: {@{$$(x',y')=(x+ys,y)$$}@} Shearing can {@{also be applied vertically}@}: {@{$$(x',y')=(x,xs+y)$$}@} <!--SR:!2028-12-06,1085,350!2026-04-01,321,349!2029-10-31,1344,350!2026-06-09,381,362!2026-03-05,302,349!2026-03-12,309,349-->
+{@{A [shearing transformation](shear%20mapping.md)}@} will {@{push the top of a square sideways to form a parallelogram}@}. {@{Horizontal shearing}@} is defined by: {@{$$(x',y')=(x+ys,y)$$}@} Shearing can {@{also be applied vertically}@}: {@{$$(x',y')=(x,xs+y)$$}@} <!--SR:!2028-12-06,1085,350!2026-04-01,321,349!2029-10-31,1344,350!2026-06-09,381,362!2030-02-21,1449,369!2026-03-12,309,349-->
 
 ## orientation and handedness
 

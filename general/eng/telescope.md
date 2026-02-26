@@ -27,7 +27,7 @@ There are {@{3}@} main optical types: {@{[refracting telescope](refracting%20tel
 
 - [refracting telescope](refracting%20telescope.md) ::@:: use lens to form an image <!--SR:!2027-12-25,969,350!2029-04-12,1342,350-->
 - [reflecting telescope](reflecting%20telescope.md) ::@:: use an arrangement of mirrors to form an image <!--SR:!2028-10-03,1192,350!2028-02-18,1010,350-->
-- [catadioptric telescope](catadioptric%20system.md#catadioptric%20telescopes) ::@:: use mirrors combined with lens to form an image <!--SR:!2027-12-26,940,330!2026-03-05,439,310-->
+- [catadioptric telescope](catadioptric%20system.md#catadioptric%20telescopes) ::@:: use mirrors combined with lens to form an image <!--SR:!2027-12-26,940,330!2031-05-02,1884,330-->
 
 ## references
 

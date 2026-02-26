@@ -43,7 +43,7 @@ tags:
 >
 > - {@{$\alpha_V$}@} is {@{the __coefficient of volume thermal expansion__}@}
 > - {@{$V$}@} is {@{the [volume](volume.md)}@}
-> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330!2026-03-05,86,353!2027-02-25,369,373!2027-03-15,382,373!2027-02-19,364,373!2027-04-18,410,373-->
+> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330!2027-04-20,411,373!2027-02-25,369,373!2027-03-15,382,373!2027-02-19,364,373!2027-04-18,410,373-->
 
 #### isotropic materials
 
@@ -55,7 +55,7 @@ tags:
 >
 > where
 >
-> - {@{$\alpha$}@} is {@{the coefficient of thermal expansion}@}, with {@{the subscripts $L$, $A$, and $V$}@} denoting {@{respectively [length](length.md), [area](area.md), and [volume](volume.md)}@} <!--SR:!2027-09-26,1072,350!2027-07-28,1023,350!2028-04-18,1150,310!2027-03-03,375,373!2026-03-05,86,353!2027-03-18,385,373-->
+> - {@{$\alpha$}@} is {@{the coefficient of thermal expansion}@}, with {@{the subscripts $L$, $A$, and $V$}@} denoting {@{respectively [length](length.md), [area](area.md), and [volume](volume.md)}@} <!--SR:!2027-09-26,1072,350!2027-07-28,1023,350!2028-04-18,1150,310!2027-03-03,375,373!2027-04-19,410,373!2027-03-18,385,373-->
 
 We can derive the above equations for a $n$-dimensional coefficient:
 

@@ -33,7 +33,7 @@ In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names 
 
 Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2029-07-01,1220,350!2029-07-14,1230,350!2028-05-17,830,330!2026-03-24,26,412-->
 
-The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}. <!--SR:!2026-04-07,287,330!2026-03-05,274,330!2026-03-17,284,330-->
+The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}. <!--SR:!2026-04-07,287,330!2029-08-10,1254,350!2026-03-17,284,330-->
 
 \(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\) <!--SR:!2026-11-03,458,401!2026-12-08,492,401-->
 
@@ -41,9 +41,9 @@ The number of registers {@{is a balancing act: it should not be too few or too m
 
 The main memory is usually {@{a physical RAM}@}. It can {@{store much data, much more than the registers}@}. <!--SR:!2029-07-15,1232,350!2027-12-05,755,330-->
 
-In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{values need to be transferred from _registers_ to the main memory, and vice versa}@}. <!--SR:!2026-03-05,274,330!2026-04-12,293,330-->
+In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{values need to be transferred from _registers_ to the main memory, and vice versa}@}. <!--SR:!2029-08-07,1251,350!2026-04-12,293,330-->
 
-We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written in hexadecimal}@}. <!--SR:!2029-06-22,1212,350!2026-03-07,276,330!2026-03-05,274,330!2029-06-16,1207,350-->
+We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written in hexadecimal}@}. <!--SR:!2029-06-22,1212,350!2026-03-07,276,330!2029-08-09,1253,350!2029-06-16,1207,350-->
 
 In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size \(in higher level programming languages, e.g. C, this multiplication is done for you\)}@}. {@{The _memory operand_ syntax}@} is {@{`offset($base)`, e.g. `-4($s0)`}@}. <!--SR:!2026-03-06,275,330!2026-03-07,276,330!2029-06-20,1210,350!2029-04-15,1160,350!2026-03-13,281,330!2026-03-15,282,330!2026-03-06,275,330-->
 
@@ -272,7 +272,7 @@ The 32 registers are used as follows:
 > - __`$zero`__ ::@:: `$0`: constant 0 <!--SR:!2026-04-09,289,330!2026-04-07,287,330-->
 > - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2026-03-16,283,330!2026-03-07,276,330-->
 > - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2026-04-08,288,330!2026-03-06,275,330-->
-> - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2026-03-05,274,330!2026-04-14,294,330-->
+> - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2029-08-10,1254,350!2026-04-14,294,330-->
 > - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2029-01-24,1093,350!2029-06-12,1203,350-->
 > - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2029-07-31,1245,350-->
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2029-07-04,1223,350!2026-04-10,290,330-->
@@ -281,7 +281,7 @@ The 32 registers are used as follows:
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2027-12-07,756,330!2029-07-18,1234,350-->
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2026-03-13,281,330!2026-04-13,293,330-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2029-03-09,1129,350!2026-04-14,294,330-->
-> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\) <!--SR:!2026-03-05,274,330!2027-03-17,534,310-->
+> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\) <!--SR:!2029-08-09,1253,350!2027-03-17,534,310-->
 > - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2026-04-06,286,330!2027-05-07,543,310-->
 
 The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}. <!--SR:!2026-12-12,494,401!2026-11-23,475,401!2027-02-02,533,401!2026-11-23,473,401!2027-01-11,520,401!2026-11-16,471,401!2026-11-04,458,401-->
@@ -315,7 +315,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 - `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\). <!--SR:!2029-06-12,1204,350!2029-07-19,1235,350-->
 - `.space <num>` ::@:: Reserves the specified number of _bytes_. This can be used to define global but uninitialized variables. <!--SR:!2026-12-23,503,401!2026-12-03,483,401-->
 - `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`. <!--SR:!2028-03-02,815,330!2029-08-02,1247,350-->
-- `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\). <!--SR:!2026-04-14,294,330!2026-03-05,274,330-->
+- `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\). <!--SR:!2026-04-14,294,330!2029-08-10,1254,350-->
 
 ### entry point
 

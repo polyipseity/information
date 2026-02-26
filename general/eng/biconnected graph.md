@@ -39,7 +39,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
 >
-> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2029-02-26,1190,352!2029-03-03,1194,352!2027-05-14,436,392!2026-03-05,86,372!2026-03-15,95,372-->
+> {@{A graph}@} that is {@{not biconnected}@}. {@{The removal of vertex x}@} would {@{disconnect the graph}@}. <!--SR:!2029-02-26,1190,352!2029-03-03,1194,352!2027-05-14,436,392!2027-05-21,442,392!2026-03-15,95,372-->
 
 <!-- markdownlint MD028 -->
 
