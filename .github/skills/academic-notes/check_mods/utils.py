@@ -1,0 +1,238 @@
+"""Utility routines shared by the academic-notes validator.
+
+Constants
+---------
+
+DEFAULT_PATHS -- roots scanned when no paths are supplied on the command line
+
+
+This module contains text-processing helpers, frontmatter parsing, preview
+excerpt generation, and other small functions that are not rules themselves.
+"""
+
+import re
+
+from anyio import Path
+
+from .models import PreviewEntry, ValidationMessage
+
+__all__ = (
+    "parse_frontmatter",
+    "has_flash_tag",
+    "locate",
+    "locate_range",
+    "get_excerpt",
+    "aggregate",
+    "DEFAULT_PATHS",
+    "FRONT_RE",
+)
+
+# regex used by parse_frontmatter; accepts optional whitespace and both
+
+DEFAULT_PATHS = ["special/academia", "private/special/academia"]
+
+# LF/CRLF line endings.
+FRONT_RE = re.compile(r"\A\s*---\s*\r?\n(.*?)\r?\n---\s*(\r?\n|$)", re.DOTALL)
+
+# flashcard tag matcher used by metadata rules
+FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.IGNORECASE)
+
+
+# location helpers -----------------------------------------------------------
+
+
+def locate(text: str, idx: int) -> tuple[int, int]:
+    """Return 1-based (line, col) corresponding to byte offset *idx*."""
+    line = text.count("\n", 0, idx) + 1
+    last_n = text.rfind("\n", 0, idx)
+    col = idx - last_n
+    return line, col
+
+
+def locate_range(text: str, start: int, length: int) -> tuple[int, int, int]:
+    """Return (line, col, col_end) for a span at *start* of *length* bytes.
+
+    *col_end* is the 1-based column index of the last character in the span.
+    If the span crosses a newline the returned *col_end* refers to the
+    starting line (multi-line spans are rare in our rules).
+    """
+    line, col = locate(text, start)
+    col_end = col + max(0, length - 1)
+    return line, col, col_end
+
+
+# frontmatter helpers --------------------------------------------------------
+
+
+def parse_frontmatter(text: str) -> str | None:
+    """Extract YAML frontmatter from *text*.
+
+    Returns the raw YAML body (without the ``---`` fences) or ``None`` if
+    frontmatter is absent.
+    """
+    m = FRONT_RE.match(text)
+    return m.group(1) if m else None
+
+
+def has_flash_tag(front: str) -> bool:
+    """Return ``True`` if a flashcard activation tag appears in *front*.
+
+    The check is case-insensitive and only looks for the generic
+    ``special/academia`` prefix; more specific path-derived checks live in the
+    ``rules`` module.
+    """
+    return bool(FLASH_TAG_RE.search(front))
+
+
+# excerpt/preview logic ------------------------------------------------------
+
+
+async def get_excerpt(
+    path: Path,
+    msg: str,
+    line: int | None = None,
+    col: int | None = None,
+    col_end: int | None = None,
+    chars: int = 200,
+) -> tuple[str, str | None]:
+    """Generate a short preview snippet for *msg* in *path*.
+
+    The returned tuple is ``(excerpt, caret)``; ``caret`` may be ``None`` if
+    the snippet does not require a pointer line.  The heuristics are tuned to
+    produce useful excerpts for backend JSON output and console display.
+    """
+    try:
+        text = await path.read_text(encoding="utf-8")
+    except Exception:  # pragma: no cover - best effort
+        return "(no preview available)", None
+
+    if line is not None:
+        lines = text.splitlines()
+        if 1 <= line <= len(lines):
+            full = lines[line - 1].rstrip("\n")
+            if col is not None:
+                start_idx = max(0, min(col - 1, len(full)))
+                if col_end and col_end >= col:
+                    width = col_end - col + 1
+                else:
+                    width = 1
+                # determine display window
+                if len(full) > chars:
+                    half = chars // 2
+                    win_start = max(0, start_idx - half)
+
+                    def make_display(ws: int) -> tuple[str, int]:
+                        """Return a windowed display string of length *chars* starting at *ws*.
+
+                        The function builds a snippet with ellipses if the window does not
+                        include the start/end of the full line.  It also returns the
+                        absolute end index within *full* of the returned segment, which
+                        is used by the caller to adjust the caret position.
+                        """
+                        seg_len = chars
+                        end = min(len(full), ws + seg_len)
+                        pref = "..." if ws > 0 else ""
+                        suf = "..." if end < len(full) else ""
+                        avail = chars - len(pref) - len(suf)
+                        if avail < 0:
+                            avail = 0
+                        end = min(len(full), ws + avail)
+                        segment = full[ws:end]
+                        disp = pref + segment + suf
+                        return disp, end
+
+                    disp, win_end = make_display(win_start)
+                    if start_idx < win_start:
+                        win_start = start_idx
+                        disp, win_end = make_display(win_start)
+                    elif start_idx >= win_end:
+                        seg_len = len(disp)
+                        if disp.startswith("..."):
+                            seg_len -= 3
+                        if disp.endswith("..."):
+                            seg_len -= 3
+                        win_start = max(0, start_idx - seg_len // 2)
+                        disp, win_end = make_display(win_start)
+                    display = disp
+                    caret_start = (
+                        start_idx - win_start + (3 if display.startswith("...") else 0)
+                    )
+                else:
+                    display = full
+                    caret_start = start_idx
+                caret_line = " " * caret_start + "^" * width
+                return display.strip(), caret_line
+            return full.strip(), None
+    fm: str | None = parse_frontmatter(text)
+    if "frontmatter" in msg.lower() or "tags:" in msg.lower():
+        if fm:
+            lines = fm.strip().splitlines()[:6]
+            if lines:
+                return "\n".join(lines), None
+        return text[:chars], None
+    # fallback heuristics
+    body = text
+    if fm:
+        m2 = FRONT_RE.match(text)
+        if m2:
+            body = text[m2.end() :]
+    for ln in body.splitlines():
+        stripped = ln.strip()
+        if not stripped:
+            continue
+        if (
+            stripped.startswith("#")
+            or stripped.startswith("-")
+            or stripped.startswith("*")
+        ):
+            continue
+        snippet = stripped
+        if len(snippet) > chars:
+            avail = max(0, chars - 3)
+            snippet = snippet[:avail].rstrip() + "..."
+        return snippet, None
+    for keyword in ["datetime:", "topic:", "lecture", "lab", "tutorial", "week"]:
+        idx = text.lower().find(keyword)
+        if idx != -1:
+            start = max(0, idx - 60)
+            return text[start : start + chars].strip().replace("\n", " "), None
+    body = text
+    if fm:
+        body = text[len(fm) + 4 :]
+    for ln in body.splitlines():
+        if ln.strip():
+            snippet = ln.strip()
+            if len(snippet) > chars:
+                avail = max(0, chars - 3)
+                snippet = snippet[:avail].rstrip() + "..."
+            return snippet, None
+    return text[:chars].strip().replace("\n", " "), None
+
+
+# JSON helper used by CLI when ``--json`` is requested
+async def aggregate(
+    items: list[tuple[Path, ValidationMessage]], width: int
+) -> dict[str, list[PreviewEntry]]:
+    """Aggregate messages into a structure suitable for JSON output.
+
+    ``width`` is used to compute a sensible excerpt length based on terminal
+    size; the caller already knows this so we avoid coupling to the rich
+    module here.
+    """
+    agg: dict[str, list[PreviewEntry]] = {}
+    prefix = "      preview: "
+    chars = max(20, width - len(prefix) - 1)
+    for p, err in items:
+        msg = err.msg
+        excerpt, caret = await get_excerpt(
+            p, msg, err.line, err.col, err.col_end, chars=chars
+        )
+        entry = PreviewEntry(path=p, excerpt=excerpt)
+        if caret:
+            entry.caret = caret
+        if err.line is not None:
+            entry.line = err.line
+        if err.col is not None:
+            entry.col = err.col
+        agg.setdefault(msg, []).append(entry)
+    return agg

@@ -20,7 +20,7 @@ check‑list or process reminder while performing updates.
     Always write prose directed at the human reader; the validator will learn
     later if needed.
 3. **Teach the validator** – if the issue is structural or recurring, add a
-    rule to `validate_academic.py` and cover it with a unit test under
+    rule to `check.py` and cover it with a unit test under
     `.github/skills/academic-notes/tests/` so future runs catch it automatically.
 4. **Verify impact** – run the validator on the affected files (or the whole
     tree) and regenerate `issue_frequencies.md` so you can watch counts drop
