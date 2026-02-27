@@ -77,7 +77,11 @@ class FormattedResult(BaseModel):
 
 
 class WikipediaAPIError(Exception):
-    pass
+    """Raised when an API call to Wikipedia fails or returns invalid data.
+
+    This wraps network errors and validation issues so callers can handle
+    them uniformly without importing lower-level exceptions.
+    """
 
 
 # ---------------------------------------------------------------------------
@@ -126,10 +130,21 @@ def _make_request(url: str, model: type[ModelType]) -> ModelType:
 
 
 class SearchQuery(BaseModel):
+    """Pydantic model for the ``query`` field returned by the search API.
+
+    The ``search`` attribute holds a list of :class:`SearchHit` objects.
+    """
+
     search: list[SearchHit] = []
 
 
 class SearchResponse(BaseModel):
+    """Top‑level response model for the Wikipedia search API.
+
+    The JSON returned by ``action=query&list=search`` nests the results under
+    a ``query`` key which is represented by :class:`SearchQuery`.
+    """
+
     query: SearchQuery
 
 
@@ -168,14 +183,30 @@ def make_filenames(title: str) -> dict[str, str]:
 
 
 class PageExtract(BaseModel):
+    """Model used when requesting plaintext extracts for a specific page.
+
+    The ``extract`` field contains the introductory paragraph of the page.
+    """
+
     extract: str = ""
 
 
 class ExtractQuery(BaseModel):
+    """Wrapper for the ``pages`` dictionary returned by the extracts API.
+
+    Each key is a page ID and the value is a :class:`PageExtract` instance.
+    """
+
     pages: dict[str, PageExtract] = {}
 
 
 class ExtractResponse(BaseModel):
+    """Top-level response model for the Wikipedia extracts API.
+
+    The API nests the page data under a ``query`` key containing an
+    :class:`ExtractQuery` object.
+    """
+
     query: ExtractQuery
 
 
@@ -264,6 +295,16 @@ def _print_human(results: list[FormattedResult], show_full: bool) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
+    """CLI entrypoint for the script.
+
+    Parses command-line arguments, performs a Wikipedia search, and
+    prints results either as JSON or in a human-readable table.  Returns an
+    integer exit code (0 for success, nonzero on error).
+
+    The *argv* parameter facilitates testing by allowing callers to
+    supply a custom argument list; it behaves like :func:`sys.argv[1:]`
+    when ``None`` is passed.
+    """
     parser = argparse.ArgumentParser(
         prog="find_wikipedia.py",
         description="Search English Wikipedia and suggest general/ link targets",

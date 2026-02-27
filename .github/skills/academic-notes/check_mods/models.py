@@ -56,8 +56,23 @@ class StrList(list[str]):
         # ``source`` and ``handler`` are required by the protocol but unused
         # here; the schema produced below is independent of them.
 
-        # base schema: a list of strings
-        list_schema = core_schema.list_schema(core_schema.str_schema())
+        # base schema: a list of *anything*; we'll convert elements to
+        # strings in the post-validator.  using ``any_schema`` allows values
+        # like ``[1, 2]`` or ``[null]`` to pass through rather than being
+        # rejected by ``str_schema()`` prematurely.
+        list_schema = core_schema.list_schema(core_schema.any_schema())
+        # allow ``None`` values so that ``StrList`` fields default to an empty
+        # list when the YAML/JSON explicitly contains ``null``.  ``union_schema``
+        # ensures the ``_post_validator`` is still called, giving us a single
+        # entry point for our coercions.
+        # union accepts None, a list, or any other value (scalar/string)
+        union_schema = core_schema.union_schema(
+            [
+                core_schema.none_schema(),
+                list_schema,
+                core_schema.any_schema(),
+            ]
+        )
 
         # wrap with a custom plain validator for our coercion rules
         def _post_validator(v: object, info: ValidationInfo[object]) -> StrList:
@@ -69,7 +84,6 @@ class StrList(list[str]):
             This mirrors the behaviour of the ``validate`` method described in
             the class docstring above.
             """
-            # identical logic to ``validate`` above
             if v is None:
                 return StrList()
             if isinstance(v, (list, tuple, set)):
@@ -86,7 +100,7 @@ class StrList(list[str]):
         # general_* helpers which have been deprecated.  ``info`` argument is
         # passed through automatically.
         return core_schema.with_info_after_validator_function(
-            schema=list_schema,
+            schema=union_schema,
             function=_post_validator,
         )
 

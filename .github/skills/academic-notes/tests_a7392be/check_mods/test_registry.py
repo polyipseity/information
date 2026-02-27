@@ -56,3 +56,34 @@ def test_include_another_registry():
     # importing again should raise because identifiers already exist
     with pytest.raises(RuntimeError):
         r2.include_registry(r1)
+
+
+def test_get_rule_id_not_found():
+    """get_rule_id should return empty string for unknown functions."""
+
+    reg = RuleRegistry()
+
+    def dummy(ctx):
+        """Simple placeholder rule for id lookup tests."""
+        return []
+
+    assert reg.get_rule_id(dummy) == ""
+
+
+def test_items_ordering():
+    """Registry should preserve insertion order in items() and values()."""
+
+    reg = RuleRegistry()
+
+    @reg.register(id="first")
+    def f1(ctx):
+        """first dummy rule for ordering check"""
+        return []
+
+    @reg.register(id="second")
+    def f2(ctx):
+        """second dummy rule for ordering check"""
+        return []
+
+    assert reg.items() == [("first", f1), ("second", f2)]
+    assert reg.values() == [f1, f2]
