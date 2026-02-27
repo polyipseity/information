@@ -17,14 +17,14 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 
 - Do NOT create or edit `general/` files automatically. Suggest canonical Wikipedia titles (use the helper) and leave `general/` edits to maintainers.
 - Require a flashcard activation tag in course files: `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` (case-insensitive). The validator will flag missing tags. Notes may use any of the three markup types – cloze `{@{ }@}`, two-sided `::@::`, or one-sided `:@:` – but remember that the latter two must stay on a single line.
-- Use the validator conservatively: run `validate_academic.py --content` for advisory guidance; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
+- Use the validator conservatively: run `check.py --content` for advisory guidance; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
 - Treat submodules (including `private/`, `tools/pytextgen/`, `tools/pyarchivist/`) as read-only unless the user explicitly grants permission.
 - Prefer small, reviewable changes to skill docs and helper scripts; document rationale and link to the continuous improvement note when proposing edits.
 
 ## Tools & locations
 
 - Skill docs, examples, and helper scripts: `.github/skills/academic-notes/`
-- Validator: `.github/skills/academic-notes/validate_academic.py`
+- Validator: `.github/skills/academic-notes/check.py`
 - Wikipedia helper: `.github/skills/academic-notes/find_wikipedia.py`
 - Continuous improvement workflow: `.github/skills/academic-notes/continuous_improvement.md`
 
@@ -34,7 +34,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 2. Add or confirm flashcard activation tag in `tags:` when flashcards are desired.
 3. Ensure `index.md` pages contain `# index` and a `children:` or `## children` section where appropriate.
 4. For weekly pages, include `datetime:` ranges and concise `topic:` / `learning_outcomes:` or `takeaway:` entries.
-5. Run `python .github/skills/academic-notes/validate_academic.py --content <path>` and resolve obvious authoring omissions before opening a PR.
+5. Run `python .github/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
 
 ## Continuous improvement
 

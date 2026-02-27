@@ -29,7 +29,7 @@ Required artifacts when proposing edits:
 1. Validate academic content (if applicable):
 
 ```sh
-python .github/skills/academic-notes/validate_academic.py --content private/special/academia/<INSTITUTION>
+python .github/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
 ```
 
 1. Prepare a migration checklist and a sanitized patch/diff.

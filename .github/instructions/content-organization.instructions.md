@@ -46,7 +46,7 @@ Agent quickstart: For a one-page checklist of startup steps, commit rules, and q
 - To propose moving content from `private/` to public, run the validator and attach its output to the migration request:
 
 ```sh
-python .github/skills/academic-notes/validate_academic.py --content private/special/academia/<INSTITUTION>
+python .github/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
 ```
 
 - Use the `publish` workflow to mirror filtered content from `private/` to the public repository (this preserves history and applies filtering rules). Do not copy private files into the public tree manually.

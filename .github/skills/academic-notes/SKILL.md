@@ -11,19 +11,38 @@ This document explains how to author, validate, and maintain academic course not
 
 1. **Content first**: capture every slide bullet, formula, definition, wor/ked example and instructor comment as prose or hierarchical bullets. Err on the side of completeness; extra detail helps recall and tooling filters out noise. When in doubt include more rather than less.
 2. **Automatic flashcards**: add flashcard markup (`{@{ }@}`, `::@::`, `:@:`) whenever you add new factual material. Update cards whenever you expand or revise a section. Generators run in CI; agents must never invoke them.
-3. **Structured metadata**: every file starts with a `---` YAML block. Use ISO‑8601 datetimes, maintain `children:` lists in indexes, add activation tags (`flashcard/active/special/academia/...`), and keep semester headings chronological. The validator enforces these rules and will report any violations as errors.
+3. **Structured metadata**: every file starts with a `---` YAML block. Use ISO‑8601 datetimes, maintain `children:` lists in indexes, add activation tags (`flashcard/active/special/academia/...`), and keep semester headings chronological. The validator enforces these rules and will report any violations as errors.  
+   - The validator’s output now includes the exact line (and column when available) where a problem was detected, along with a short preview of the offending line, making it much easier to locate and fix issues quickly. The preview highlights the precise column range using carets (`^`), and long lines are truncated with ellipses so the marker remains in view. The length of the snippet is automatically limited to fit within your terminal width (accounting for the leading `preview:` indentation).
 4. **Session ordering**: lectures/labs/tutorials ordered by the `datetime:` interval; all exams go after regular sessions. Duplicate week numbers around holidays require manual renumbering plus an entry with `status: public holiday`. Entries with `status: unscheduled` must omit `topic:`.
 5. **Continuous improvement**: record new rules, bugs, or user preferences in `continuous_improvement.md` and update this file accordingly. Feedback drives evolution of the skill.
+6. **Math formatting**: never place math in fenced code blocks. Use LaTeX inline (`$…$`) or display (`$$…$$`) notation for all formulas; this applies equally to examples in topic notes and session outlines.
+   - **Dollar delimiters only.**  Do not use `\[`, `\]`, `\(` or `\)`; all LaTeX must be wrapped in `$…$` or `$$…$$`.
+   - **One line only.**  Whether inline or display math, the source between the delimiters must not contain a newline.  In particular, display formulas must use `$$` but stay on a single markdown line.
+   - **Never standalone.**  A line consisting solely of a math expression is forbidden; the formula must be embedded in surrounding prose or list text.  This keeps diff noise down and matches the flashcard generator’s expectations.
+   - **Spacing around delimiters.**  When an equation appears after other text, leave a normal space before the opening dollar sign; likewise put a space after the closing dollar if more text follows.  **Exception:** no space is required if the character immediately following the closing dollar is punctuation (e.g. `.,;:!?)]}`) or the end of line.  Leading or trailing whitespace is allowed at the beginning or end of a paragraph, but adjacent alphanumeric characters without a space will trigger the validator.
+7. **Header style**: section headers in topic notes should be all lowercase (capitalize only proper nouns or the first word of a sentence) to keep anchors predictable and maintain consistency.
 
-## Pre‑commit checklist
+## Authoring workflow
 
-Before committing any new or changed course note, run through these items:
+This section covers the full lifecycle of course note content, from initial creation through final checks before committing. Start here whenever you need to add or revise material.
+
+1. Start with `course-template.md`. Fill aliases (singular, plural, concatenated), tags (include underscore course code), course name, credits, and a brief description. Sort aliases alphabetically.
+2. Add a `logistics` section with `scheme:` weights and a nested `sections:` list grouped by lectures/tutorials/labs. Include identifiers, venues, and weekly time patterns.
+3. Maintain a `children:` list with lectures, labs, assignments, topics, questions, attachments; keep entries in teaching order and update it whenever you add a new page.
+4. Use the session structure from the examples below. Add `datetime:` entries with ISO intervals (date only if time unknown). Place prose summaries after the bullet outline separated by `---`. Draft explanatory prose before adding cloze markup; don’t flashcard‑ify first and then write prose.
+5. Capture content‑first details in prose paragraphs, not bullets; convert slide fragments into full sentences.
+6. Audit the whole file whenever you add or change any section: check for missing/malformed flashcards, separators, numeric values, tags, and indentation.
+7. Run the validator and fix any errors it reports. Errors must be resolved before committing.
+
+### Pre‑commit checklist
+
+Before committing any new or changed course note, run through these items.  This checklist complements the authoring steps above and ensures metadata, chronology, and flashcards are all in place.
 
 - YAML frontmatter present and delimited by `---` at the top of the file.
-- `aliases` include canonical course code(s) and human-readable names; tags include `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` and where appropriate `function/index` and `language/in/English`.
+- `aliases` include canonical course code(s) and human-readable names; tags include `flashcard/active/special/academia/<institution>/<course code>/<page>` and where appropriate `function/index` and `language/in/English`. `<page>` mirrors the relative path to the course folder with underscores and should not be percent‑encoded. Validators flag missing or malformed tags; report missing tags in review rather than bulk-editing existing files.
 - Do **not** create, modify or edit files under `general/` – only work inside the course folder.
 - Index files: `# index` header and a `## children` list or `children:` YAML key with child pages in teaching order (folders first). Use ISO datetimes for week entries and ensure they have `datetime` and, unless `status: unscheduled`, `topic`.
-- Check that lecture/lab/tutorial entries are chronological and exams are placed last. Run `python .github/skills/academic-notes/validate_academic.py special/academia/<INSTITUTION>` for automated checks; fix any errors returned.
+- Check that lecture/lab/tutorial entries are chronological and exams are placed last. Run `python .github/skills/academic-notes/check.py special/academia/<INSTITUTION>` for automated checks; fix any errors returned.
 - Ensure every Markdown section in a topic note contains flashcard entries (inline clozes or a rubric introduced by “Flashcards for this section are as follows:” preceded by `---`). The validator flags missing cards.
 - Add assignments, questions, attachments under appropriate subfolders and list them under `children`.
 - Link to canonical `general/` pages instead of copying long definitions; percent-encode spaces in paths. When a concept deserves its own course note, follow the topic‑specific notes workflow below.
@@ -34,16 +53,6 @@ Before committing any new or changed course note, run through these items:
 - Add at least one worked example or solution sketch for important techniques and sample exam‑style problems linked to `questions/solutions.md`.
 - Record lab/tutorial section identifiers near the top of the note so tooling can filter irrelevant streams.
 
-## Authoring workflow
-
-1. Start with `course-template.md`. Fill aliases (singular, plural, concatenated), tags (include underscore course code), course name, credits, and brief description. Sort aliases alphabetically.
-2. Add a `logistics` section with `scheme:` weights and a nested `sections:` list grouped by lectures/tutorials/labs. Include identifiers, venues, and weekly time patterns.
-3. Maintain a `children:` list with lectures, labs, assignments, topics, questions, attachments; keep entries in teaching order and update it whenever you add a new page.
-4. Use the session structure from the examples below. Add `datetime:` entries with ISO intervals (date only if time unknown). Place prose summaries after the bullet outline separated by `---`. Draft explanatory prose before adding cloze markup; don’t flashcard‑ify first and then write prose.
-5. Capture content‑first details in prose paragraphs, not bullets; convert slide fragments into full sentences.
-6. Audit the whole file whenever you add or change any section: check for missing/malformed flashcards, separators, numeric values, tags, and indentation.
-7. Run the validator and fix any errors it reports. Errors must be resolved before committing.
-
 ### Session and index rules
 
 - Heading styles: `## week N lecture`/`lab`/`tutorial`; number resets each week after filtering irrelevant streams. If a week is repeated due to holidays, shift subsequent weeks upward and insert an entry with `status: public holiday`.
@@ -53,7 +62,11 @@ Before committing any new or changed course note, run through these items:
 - After the outline, add a prose paragraph preceded by `---` for administrative comments (schedule links, grading breakdowns, reminders). Use cloze markup within that paragraph for cards.
 - Semester headings in institution indexes must be chronologically ordered; validator warns otherwise.
 
+Once the session outline rules are understood, the next section describes how flashcards themselves are formatted and how to tag them correctly.
+
 ## Flashcards and markup
+
+The spaced‑repetition system is central to the entire repository; flashcards are automatically generated from your markup. These rules apply both within session outlines and inside longer topic notes, so master them early.
 
 - Use three patterns only:
   - **Cloze deletions**: `{@{hidden text}@}` anywhere in a paragraph.
@@ -106,19 +119,18 @@ Flashcards for this section are as follows:
 
 These examples illustrate proper indentation, cloze usage, and the two-sided QA list format.
 
-## Flashcard tags
-
-Always add `flashcard/active/special/academia/<institution>/<course code>/<page>` to frontmatter. `<page>` mirrors the relative path to the course folder with underscores and should not be percent‑encoded. Validators flag missing or malformed tags; report missing tags in review rather than bulk-editing existing files.
-
 ## Topic-specific notes
 
-When a lecture topic deserves its own dedicated page — either because it is broad, gets revisited, or should be linkable from multiple sessions — create a new Markdown file inside the course directory. These **topic notes** are written in a neutral, encyclopaedic style rather than as a bulleted outline. Think of them as miniature Wikipedia articles: use smooth prose, organise the text with headings, and split material into logical sections.
+When a lecture topic deserves its own dedicated page — either because it is broad, gets revisited, or should be linkable from multiple sessions — create a new Markdown file inside the course directory. **Create the file empty first** (use a normal, unescaped filename with spaces; links will be percent-encoded later) and then add content in separate edit operations. When subsequently editing a topic note, each commit should target exactly one markdown section or add exactly one new section so that diffs remain precise and reviewable.
+
+These **topic notes** are written in a neutral, encyclopaedic style rather than as a bulleted outline. Think of them as miniature Wikipedia articles: use smooth prose, organise the text with headings, and split material into logical sections.
 
 Each section must be followed immediately by a horizontal rule and a list of flashcards, exactly as described earlier in this document.  The validator will reject any heading that lacks a card block, so it’s easiest to add the "Flashcards for this section are as follows:" rubric as you compose the paragraphs.
 
 ### Filenames, titles, and links
 
 - Use a Wikipedia‑style title for the filename: capitalise proper nouns and lowercase the first letter of ordinary words.  The top‑level heading in the note should match the filename in all lowercase (except for proper nouns).
+- When creating the file, do **not** percent-escape the name; percent-encoding is only applied when writing links elsewhere.
 - Add appropriate `aliases:` and `tags:` in the frontmatter, including the usual `flashcard/active/special/academia/...` tag for the course page.
 - Cross‑link to the corresponding `general/` article using a relative path with `%20` encoding for spaces.  To discover canonical titles, run `python .github/skills/academic-notes/find_wikipedia.py "<query>"` and pick the top hit.  **Do not** create or modify files under `general/` yourself.
 
@@ -127,6 +139,8 @@ Each section must be followed immediately by a horizontal rule and a list of fla
 After creating a topic note, append its link to the course `children:` list (after any folders) and add a reference in the relevant weekly session entry. When you later revisit the topic in another lecture, append new material to the existing file instead of making a duplicate. *Proper nouns such as Kirchhoff must be capitalised in both filenames and headings.*
 
 ### Micro‑workflow example
+
+**Math and formatting rules:** never use fenced code blocks for maths; always write expressions inline or in display math (`$...$` or `$$...$$`) using LaTeX syntax. Topic notes do not require a separate summary section. Section headers should use all lowercase words except where grammatical capitalization is needed (proper nouns, the first word of a sentence).
 
 Create the note, update the index, and add the outline link as shown below:
 
@@ -161,7 +175,9 @@ Flashcards for this section are as follows:
     - [§ voltage law](Kirchhoff%27s%20circuit%20laws.md#Kirchhoff's%20voltage%20law%20(KVL)) ::@:: Sum of voltage drops around a closed loop equals zero
 ```
 
-These snippets illustrate the full cycle: author the topic note, add it to `children:`, and reference specific sections by anchor in the weekly outline. Adjust the headings and anchors as needed when the note grows.
+These snippets illustrate the full cycle: author the topic note, add it to `children:`, and reference specific sections by anchor in the weekly outline. When adding or modifying sections, keep edits focused to a single section as noted above. Adjust the headings and anchors as needed when the note grows.
+
+With a topic note written and flashcards inserted, you should run the validator and other tooling described in the next section to catch any structural problems before you commit.
 
 ### Sample note excerpt
 
@@ -212,15 +228,17 @@ The excerpt demonstrates natural prose, clear headings, and a card block immedia
 
 ## Validator and tooling
 
+Before pushing your edits, validate them using the provided tooling. The validator script checks metadata, chronology, flashcards, and other conventions; consider it the programme’s grammar checker.
+
 Run:
 
 ```shell
-python .github/skills/academic-notes/validate_academic.py special/academia/<path>
+python .github/skills/academic-notes/check.py special/academia/<path>
 ```
 
 The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `pnpm run format`, `pnpm run check`, and `pnpm run test` with explicit paths to your changed files so the commands execute quickly.
 
-The repository contains helper scripts (`validate_academic.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and report any bugs or feature requests in `continuous_improvement.md`.
+The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and report any bugs or feature requests in `continuous_improvement.md`.
 
 ## Continuous improvement
 
