@@ -106,7 +106,7 @@ root = "."
 
 [tool.pytest.ini_options]
 addopts = ["--cov=./", "--cov-report=term-missing", "--dist=loadscope", "-n=auto", "--strict-markers"]
-testpaths = ["tests"]
+testpaths = ["tests", ".github/skills/**/tests_*"]
 python_files = "test_*.py"
 
 [tool.ruff]
