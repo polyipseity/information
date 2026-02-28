@@ -84,9 +84,6 @@ Flashcards for this section are as follows:
 - current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1 A = 1 C/s).
 - current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second.
 - electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow).
-
-#### example calculations
-
 - current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$.
 - battery example: A battery supplies $50\,\textrm{A}$ for $4\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and number of electrons. ::@:: $q=It=200\,\textrm{C}$, electrons = $q/e\approx1.25\times10^{21}$.
 
