@@ -42,7 +42,7 @@ Before committing any new or changed course note, run through these items.  This
 - `aliases` include canonical course code(s) and human-readable names; tags include `flashcard/active/special/academia/<institution>/<course code>/<page>` and where appropriate `function/index` and `language/in/English`. `<page>` mirrors the relative path to the course folder with underscores and should not be percent‑encoded. Validators flag missing or malformed tags; report missing tags in review rather than bulk-editing existing files.
 - Do **not** create, modify or edit files under `general/` – only work inside the course folder.
 - Index files: `# index` header and a `## children` list or `children:` YAML key with child pages in teaching order (folders first). Use ISO datetimes for week entries and ensure they have `datetime` and, unless `status: unscheduled`, `topic`.
-- Check that lecture/lab/tutorial entries are chronological and exams are placed last. Run `python .github/skills/academic-notes/check.py special/academia/<INSTITUTION>` for automated checks; fix any errors returned.
+- Check that lecture/lab/tutorial entries are chronological and exams are placed last. **Run the validator only on the specific course directory you are editing rather than the entire institution tree** (e.g. `python .github/skills/academic-notes/check.py special/academia/HKUST/ELEC\ 1100`); running it on `special/academia/HKUST/` will produce too many unrelated errors. Fix any errors returned.
 - Ensure every Markdown section in a topic note contains flashcard entries (inline clozes or a rubric introduced by “Flashcards for this section are as follows:” preceded by `---`). The validator flags missing cards.
 - Add assignments, questions, attachments under appropriate subfolders and list them under `children`.
 - Link to canonical `general/` pages instead of copying long definitions; percent-encode spaces in paths. When a concept deserves its own course note, follow the topic‑specific notes workflow below.
@@ -233,7 +233,7 @@ Before pushing your edits, validate them using the provided tooling. The validat
 Run:
 
 ```shell
-python .github/skills/academic-notes/check.py special/academia/<path>
+python .github/skills/academic-notes/check.py special/academia/<institution>/<course folder>  # e.g. special/academia/HKUST/ELEC\ 1100; do not point at the whole institution
 ```
 
 The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `pnpm run format`, `pnpm run check`, and `pnpm run test` with explicit paths to your changed files so the commands execute quickly.
