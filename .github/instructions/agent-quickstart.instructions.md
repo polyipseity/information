@@ -34,6 +34,17 @@ Repository gotchas & quick tips
   single card).  These are parsed automatically; do not reflow, escape, or
   split them across lines.
 - Always prefer `pnpm run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
+- When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `python -`. For example:
+
+  ```powershell
+  @'
+  <python code>
+  '@ | python -
+  ```
+
+  This avoids syntax errors; the agent should detect the shell (PowerShell on
+  Windows, POSIX otherwise) and format commands accordingly rather than using
+  POSIX-style heredocs on Windows.
 - Generated content is refreshed automatically; agents should not advise running `uv run -m init generate -C` before pack or publishing workflows.
 - Use the Todo List Tool for multi-step tasks and present the proposed commit message to the user before committing (see `commit-convention.instructions.md`).
 

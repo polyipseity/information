@@ -8,6 +8,15 @@ applyTo: "**"
 
 **Tooling & pnpm wrappers:** Prefer `pnpm` script wrappers when available. Check `package.json` for repository scripts and prefer `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no pnpm wrapper exists for an operation, run the underlying command shown below (for example, `uv run -m init generate`). Always run `pnpm install` before using `pnpm run`.
 
+> **Shell note:** Agents constructing shell commands should adapt the syntax to the detected shell. On Windows PowerShell use a here-string and pipe into `python -` for inline Python code:
+>
+> ```powershell
+> @'
+> <python code>
+> '@ | python -
+> ```
+>
+> This avoids the common issue of writing POSIX-style heredocs in a PowerShell terminal. Agents should refer to the agent quickstart for full guidance.
 > **Agent note:** the commands listed in this document describe human
 > workflows and tool capabilities.  Agents should **not** itself invoke
 > `init generate` or similar commands when editing content, since
