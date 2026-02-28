@@ -5,23 +5,32 @@ function, verifying expected messages or lack thereof.
 """
 
 import re
+from os import PathLike
 
+import pytest
 from anyio import Path
 from check_mods.models import Frontmatter, ValidationContext
 from check_mods.rules import (
     RULE_REGISTRY,
     aliases_sorted,
+    header_style_rule,
     index_children_rule,
     index_heading_rule,
     index_semester_order_rule,
+    latex_block_no_newline,
+    latex_disallowed_delimiters,
+    latex_environment_not_wrapped,
+    latex_spacing_before,
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
     session_datetime_order,
     session_duplicate_heading,
     tag_language,
+    unit_outside_math,
 )
 from check_mods.utils import FRONT_RE, parse_frontmatter
+from check_mods.validator import check_markdown_file
 from pydantic_yaml import parse_yaml_raw_as
 
 # explicit imports reduce namespace clutter and make references clear
@@ -118,6 +127,16 @@ def test_index_rules():
     assert msgs and "chronological" in msgs[0].msg
 
 
+def test_header_style_generic():
+    """header_style_rule should emit generic message regardless of header text."""
+
+    txt = "## BadHeader\n"
+    ctx = make_ctx(txt, path=Path("/tmp/file.md"))
+    msgs = header_style_rule(ctx)
+    assert msgs
+    assert "header should start with lowercase" in msgs[0].msg
+
+
 def test_session_rules():
     """Session-related rules around duplicates and datetime ordering."""
 
@@ -133,3 +152,138 @@ def test_session_rules():
     ctx = make_ctx(txt)
     msgs = session_datetime_order(ctx)
     assert msgs and "not after previous" in msgs[0].msg
+
+
+def test_unit_outside_math_behavior():
+    """Unit rule fires only when math ends in a number and a unit follows."""
+
+    # adjacent to math should be flagged
+    txt = "The current is $I=5$ A in this example.\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert msgs, "unit after math should be caught"
+    assert msgs[0].line == 1
+
+    # non-adjacent cases should not trigger
+    for txt in (
+        "Line one\nCurrent is 5 A here.\n",
+        "Show $5 A$ inside math and 6\n",
+        "First $x=1$ line\nThen 10 V at start of second line.\n",
+    ):
+        ctx = make_ctx(txt)
+        assert not unit_outside_math(ctx)
+
+
+def test_latex_spacing_before_paren():
+    """Spacing rule allows '(' before dollar but not letters directly."""
+
+    txt = "This is an equation ($x=1$) in parentheses.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "paren before dollar should be allowed"
+
+    txt = "Badexample$x=1$ without space\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert msgs, "missing space should be caught even inside text"
+
+
+def test_latex_disallowed_delimiters():
+    r"""Only \(\) or \[\] should be flagged; generic \\ is fine."""
+    txt = "Use \\(...\\) style instead of $...$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert msgs, "should flag forbidden delimiters"
+
+    txt = "This line has a TeX macro \\Omega and a linebreak \\ but no delimiters.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, "plain double backslash should not trigger the rule"
+
+
+def test_latex_environment_unwrapped():
+    """An unwrapped \begin{align*} block should trigger a warning."""
+    txt = (
+        "\\begin{align*}\n"
+        "-5 + 25(I_1-I_2) &= 0,\\\n"
+        "50 I_1 + 75 I_2 + 25(I_2 - I_1) &= 0,\n"
+        "\\end{align*}\n"
+    )
+    ctx = make_ctx(txt)
+    msgs = latex_environment_not_wrapped(ctx)
+    assert msgs, "unwrapped environment should be caught"
+
+    # wrapping in $$ should suppress the warning
+    txt2 = "$$\\begin{align*} a \\end{align*}$$\n"
+    ctx = make_ctx(txt2)
+    assert not latex_environment_not_wrapped(ctx)
+
+
+def test_block_latex_no_newline():
+    """Block math delimited by $$ must not contain real newline chars."""
+    txt = "$$a \\\n b$$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_block_no_newline(ctx)
+    assert msgs, "newline in block latex should be reported"
+
+    txt2 = "$$a \\\\ b$$\n"  # uses \\\\ for a line break
+    ctx = make_ctx(txt2)
+    assert not latex_block_no_newline(ctx)
+
+
+@pytest.mark.anyio
+async def test_suppression_ignore_next_line(tmp_path: PathLike[str]):
+    """Directive on its own line suppresses error on the next line."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-next-line[unit_outside_math]: spacing fixed -->\n"
+        "Value $I=5$ A is here.\n"
+    )
+    file = Path(tmp_path) / "test.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert not msgs, "error should be suppressed by directive"
+
+
+@pytest.mark.anyio
+async def test_suppression_ignore_line_and_trimming(tmp_path: PathLike[str]):
+    """ignore-line on same line works and rule names are trimmed."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "Value $I=5$ A is here.<!-- check: ignore-line[ unit_outside_math ]: because -->\n"
+    )
+    file = Path(tmp_path) / "line.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert not msgs
+
+
+@pytest.mark.anyio
+async def test_suppression_missing_rationale(tmp_path: PathLike[str]):
+    """Directive without rationale emits a warning message in check_markdown_file."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        + "<!-- check: ignore-line[unit_outside_math]:   -->\n"
+    )
+    file = Path(tmp_path) / "empty.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any("missing rationale" in m.msg for m in msgs)
+
+
+@pytest.mark.anyio
+async def test_suppression_multiple_rules(tmp_path: PathLike[str]):
+    """Directive can list multiple rules and should silence both."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-next-line[ unit_outside_math , latex_spacing_before ]: multi -->\n"
+        "Bad spacing$x=1$ and unit $I=5$ A\n"
+    )
+    file = Path(tmp_path) / "multi.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert not msgs

@@ -10,6 +10,7 @@ import json
 import re
 from argparse import ArgumentParser
 from collections.abc import Sequence
+from os import fspath
 
 from anyio import Path
 from pydantic_yaml import parse_yaml_raw_as
@@ -53,6 +54,39 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = await path.read_text(encoding="utf-8")
 
+    # parse suppression comments of the form
+    # <!-- check: ignore-line[rule1, rule2]: rationale -->
+    # or ignore-next-line.  Build a map from target line number to list of
+    # rule IDs to ignore.  Also emit a warning if the rationale is missing or
+    # if no rules are listed.
+    suppressions: dict[int, list[str]] = {}
+    for lineno, line in enumerate(text.splitlines(), start=1):
+        for m in re.finditer(
+            r"<!--\s*check:\s*(ignore-(?:line|next-line))\s*\[([^\]]*)\]\s*:\s*(.*?)\s*-->",
+            line,
+        ):
+            kind = m.group(1)
+            rules_list = m.group(2)
+            rationale = m.group(3).strip()
+            if not rationale:
+                errors.append(
+                    ValidationMessage(
+                        "suppression comment missing rationale",
+                        lineno,
+                    )
+                )
+            rule_ids = [r.strip() for r in rules_list.split(",") if r.strip()]
+            if not rule_ids:
+                errors.append(
+                    ValidationMessage(
+                        "suppression comment contains no rule names",
+                        lineno,
+                    )
+                )
+            target = lineno + 1 if kind == "ignore-next-line" else lineno
+            for rid in rule_ids:
+                suppressions.setdefault(target, []).append(rid)
+
     front = parse_frontmatter(text)
     if not front:
         errors.append(ValidationMessage("missing YAML frontmatter"))
@@ -89,7 +123,7 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         session_headers=session_headers,
     )
 
-    for _, rule in RULE_REGISTRY.items():
+    for rid, rule in RULE_REGISTRY.items():
         try:
             results = rule(ctx)
         except Exception as exc:  # pragma: no cover - defensive
@@ -97,7 +131,31 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                 ValidationMessage(f"exception in rule {rule.__name__}: {exc}")
             )
             continue
+        # prefix each message with the rule ID for clearer headers
+        for m in results:
+            # avoid duplicate prefix if already present (e.g. tests may wrap)
+            if not m.msg.startswith(f"[{rid}] "):
+                m.msg = f"[{rid}] {m.msg}"
         errors.extend(results)
+
+    # apply suppression map: drop any errors whose line number matches and
+    # whose rule ID appears in the suppression list for that line.  Messages
+    # without a line number or whose rule isn't listed are kept.  suppression
+    # map keys come from comment parsing earlier.
+    if suppressions:
+        filtered: list[ValidationMessage] = []
+        for m in errors:
+            if m.line is not None:
+                ignore_for_line = suppressions.get(m.line, [])
+                suppressed = False
+                for rid in ignore_for_line:
+                    if m.msg.startswith(f"[{rid}]"):
+                        suppressed = True
+                        break
+                if suppressed:
+                    continue
+            filtered.append(m)
+        errors = filtered
 
     return errors
 
@@ -105,7 +163,11 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
 async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
     """Recursively validate all Markdown files under *roots*.
 
-    Missing root paths produce a printed warning but do not abort the scan.
+    Each entry in *roots* may be either a directory (in which case we
+    recurse using ``rglob`` as before) or a path to a single file.  Only
+    ``.md`` files are examined; non-markdown files are ignored with a
+    warning.  A missing path is also reported but does not abort the scan.
+
     The returned :class:`ValidationResult` holds both errors and warnings;
     callers can inspect them separately.
     """
@@ -114,6 +176,23 @@ async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
         if not await root.exists():
             _CONSOLE.print(f"[yellow]Warning:[/] path does not exist: {root}")
             continue
+
+        if await root.is_file():
+            # single file provided as a root; only process if it's markdown
+            if root.suffix.lower() == ".md":
+                try:
+                    msgs = await check_markdown_file(root)
+                    for m in msgs:
+                        res.add(root, m)
+                except Exception as exc:
+                    res.add(root, ValidationMessage(f"exception while checking: {exc}"))
+            else:
+                _CONSOLE.print(
+                    f"[yellow]Warning:[/] skipping non-markdown file: {root}"
+                )
+            continue
+
+        # otherwise treat it as a directory
         async for p in root.rglob("*.md"):
             try:
                 msgs = await check_markdown_file(p)
@@ -176,21 +255,28 @@ async def main(argv: Sequence[str] | None = None) -> int:
         width = getattr(_CONSOLE.size, "width", 80)
         agg_errors = await aggregate(error_items, width)
         for msg, entries in agg_errors.items():
-            _CONSOLE.print(msg, style="bold", markup=False, end="")
-            _CONSOLE.print(f" — {len(entries)} file(s)", markup=False)
+            msg = msg.lstrip()
+            if msg.startswith("[") and "]" in msg:
+                id_part, rest = msg.split("]", 1)
+                id_part += "]"
+                _CONSOLE.print(
+                    id_part, style="bold cyan", end="", markup=False, highlight=False
+                )
+                _CONSOLE.print(rest, style="bold", markup=False)
+            else:
+                _CONSOLE.print(msg, style="bold", markup=False)
+            _CONSOLE.print(f"{len(entries)} occurrence(s)", markup=False)
             for e in entries:
-                loc = ""
+                loc = fspath(e.path)
                 if e.line is not None:
-                    loc = f" (line {e.line}"
+                    loc += f":{e.line}"
                     if e.col is not None:
-                        loc += f", col {e.col}"
-                    loc += ")"
-                _CONSOLE.print(f"    - {e.path}{loc}", markup=False)
+                        loc += f":{e.col}"
+                _CONSOLE.print(loc, markup=False, highlight=False)
                 if e.excerpt:
-                    prefix = "      preview: "
-                    _CONSOLE.print(prefix + e.excerpt, markup=False)
+                    _CONSOLE.print(e.excerpt, markup=False)
                     if e.caret:
-                        _CONSOLE.print(" " * len(prefix) + e.caret, markup=False)
+                        _CONSOLE.print(e.caret, markup=False)
         _CONSOLE.print(
             "\nPlease fix errors before publishing or report to maintainers if unsure."
         )
@@ -209,21 +295,28 @@ async def main(argv: Sequence[str] | None = None) -> int:
         width = getattr(_CONSOLE.size, "width", 80)
         agg_warnings = await aggregate(warning_items, width)
         for msg, entries in agg_warnings.items():
-            _CONSOLE.print(msg, style="bold", markup=False, end="")
-            _CONSOLE.print(f" — {len(entries)} file(s)", markup=False)
+            msg = msg.lstrip()
+            if msg.startswith("[") and "]" in msg:
+                id_part, rest = msg.split("]", 1)
+                id_part += "]"
+                _CONSOLE.print(
+                    id_part, style="bold cyan", end="", markup=False, highlight=False
+                )
+                _CONSOLE.print(rest, style="bold", markup=False)
+            else:
+                _CONSOLE.print(msg, style="bold", markup=False)
+            _CONSOLE.print(f"{len(entries)} occurrence(s)", markup=False)
             for e in entries:
-                loc = ""
+                loc = fspath(e.path)
                 if e.line is not None:
-                    loc = f" (line {e.line}"
+                    loc += f":{e.line}"
                     if e.col is not None:
-                        loc += f", col {e.col}"
-                    loc += ")"
-                _CONSOLE.print(f"    - {e.path}{loc}", markup=False)
+                        loc += f":{e.col}"
+                _CONSOLE.print(loc, markup=False, highlight=False)
                 if e.excerpt:
-                    prefix = "      preview: "
-                    _CONSOLE.print(prefix + e.excerpt, markup=False)
+                    _CONSOLE.print(e.excerpt, markup=False)
                     if e.caret:
-                        _CONSOLE.print(" " * len(prefix) + e.caret, markup=False)
+                        _CONSOLE.print(e.caret, markup=False)
         _CONSOLE.print("\nWarnings do not block publishing but should be reviewed.")
         return 1
 

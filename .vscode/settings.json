@@ -8,7 +8,7 @@
     "/^pnpm(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*(?:\\s+run)?\\s+(?:build|check|commitlint|format|test)(?:[^\\s]*)?(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*$/": true,
     "/^pnpm(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s+(?:help)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*$/": true,
     "/^python(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s+-m\\s+(?:pyright|pytest|ruff|rumdl)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*$/": true,
-    "/^python(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s+['\"]?(?:\\.github/skills/academic-notes/check\\.py|\\.github/skills/academic-notes/find_wikipedia\\.py)['\"]?(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*$/": true,
+    "/^python(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s+['\"]?(?:(?:\\.[/\\\\])*\\.github[/\\\\]skills[/\\\\]academic-notes[/\\\\]check\\.py|(?:\\.[/\\\\])*\\.github[/\\\\]skills[/\\\\]academic-notes[/\\\\]find_wikipedia\\.py)['\"]?(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*$/": true,
     "/^uv\\s+run(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*\\s+(?:pyright|pytest|ruff|rumdl)(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*$/": true,
     "/^uv\\s+sync(?:\\s+(?:--?[\\w-]+(?:=[^\\s]+)?|[^\\s]+))*$/": true,
     "ForEach-Object": true,

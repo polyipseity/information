@@ -67,11 +67,15 @@ async def test_check_markdown_file_and_rule_exception(
 
 
 @pytest.mark.asyncio
-async def test_walk_and_check_and_main_json(tmp_path: PathLike[str], capsys):
+async def test_walk_and_check_and_main_json(
+    tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
+):
     """walk_and_check should find errors and main() should output JSON."""
     # create two files: one valid, one with missing aliases
     _good = await make_temp_markdown(
-        tmp_path, "---\naliases: [a]\ntags: [language/in/English]\n---\n"
+        tmp_path,
+        # use a tag matching the flashcard/active/special/academia prefix
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n",
     )
     bad = await make_temp_markdown(tmp_path / "sub", "---\ntags: []\n---\n")
     # run walk_and_check on directory
@@ -79,7 +83,14 @@ async def test_walk_and_check_and_main_json(tmp_path: PathLike[str], capsys):
     # should record errors for bad file
     assert any(p == bad for p, _ in res.errors())
 
-    # test main output with --json
+    # also verify that a single-file root is handled correctly
+    res2 = await walk_and_check([bad])
+    assert any(p == bad for p, _ in res2.errors())
+    # and good file alone yields no errors
+    res3 = await walk_and_check([_good])
+    assert not res3.errors()
+
+    # test main output with --json (directory path remains supported)
     rc = await validator.main([str(tmp_path), "--json"])
     assert rc == 2
     out = capsys.readouterr().out
@@ -94,3 +105,16 @@ async def test_check_entrypoint(tmp_path: PathLike[str]):
     _path = await make_temp_markdown(tmp_path, "---\naliases: []\ntags: []\n---\n")
     rc = await check.main([str(tmp_path)])
     assert rc == 2
+
+    # verify that passing a markdown file directly also works
+    rc2 = await check.main([str(_path)])
+    assert rc2 == 2
+
+
+@pytest.mark.asyncio
+async def test_walk_and_check_single_file(tmp_path: PathLike[str]):
+    """Providing a markdown file path should exercise only that file."""
+    bad = await make_temp_markdown(tmp_path, "---\ntags: []\n---\n")
+    # directory root would find bad but test single file explicitly
+    res = await walk_and_check([bad])
+    assert any(p == bad for p, _ in res.errors())

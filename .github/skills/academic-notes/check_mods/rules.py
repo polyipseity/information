@@ -405,7 +405,7 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, start, len(hdr_text))
             errors.append(
                 ValidationMessage(
-                    f"header {hdr_text.strip()!r} should start with lowercase",
+                    "header should start with lowercase",
                     line,
                     col,
                     col_end,
@@ -486,31 +486,47 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 
 @RULE_REGISTRY.register(id="unit_outside_math")
 def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Detect numeric units appearing outside of LaTeX math delimiters.
+    """Warn when units appear immediately after math without delimiters.
 
-    Splits the document into math and non-math segments, then searches the
-    non-math portions for common electrical/physical units. The first match
-    generates an error advising to wrap the unit in ``$...$``.
+    After a dollar‑delimited math expression that ends in a number, a
+    measurement unit such as ``V`` or ``Hz`` should itself be wrapped in
+    ``$…$``.  This rule scans for such patterns and reports the first
+    occurrence it finds.  It is conservative: it only triggers when the math
+    expression ends in a digit, reducing false positives (e.g. the letter
+    ``A`` used as an article).
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
 
-    def split_math_segments(s: str) -> list[str]:
-        """Split text into alternating non-math and math segments.
+    # walk through every math-delimited span and inspect following text
+    math_re = re.compile(r"(\$\$?.*?\$\$?)", re.DOTALL)
+    unit_pat = re.compile(r"^(?:V|A|Ω|W|mW|kΩ|C|Hz)\b")
 
-        Returns a list where every odd index is a math-delimited string and
-        every even index is the intervening non-math text.  Used by the
-        ``unit_outside_math`` rule to ignore math regions during scanning.
-        """
-        return re.split(r"(\$\$?.*?\$\$?)", s, flags=re.DOTALL)
+    for mblock in math_re.finditer(text):
+        # only flag units when the math expression ends in a numeric value;
+        # otherwise the following 'A' is more likely an English article.
+        inner = mblock.group(1)
+        # strip delimiters ($ or $$) and trailing whitespace
+        inner_content = inner.strip("$ ").rstrip()
+        if not re.search(r"\d$", inner_content):
+            continue
 
-    offset = 0
-    for segment in split_math_segments(text)[::2]:
-        m = re.search(r"\b\d+(?:\.\d+)?\s*(?:V|A|Ω|W|mW|kΩ|C|Hz)\b", segment)
-        if m:
-            abs_idx = offset + m.start()
-            length = m.end() - m.start()
-            line, col, col_end = locate_range(text, abs_idx, length)
+        end_idx = mblock.end()
+        idx = end_idx
+        # skip whitespace
+        while idx < len(text) and text[idx].isspace():
+            idx += 1
+        # optional numeric prefix
+        num = re.match(r"\d+(?:\.\d+)?", text[idx:])
+        if num:
+            idx += num.end()
+            while idx < len(text) and text[idx].isspace():
+                idx += 1
+        mu = unit_pat.match(text[idx:])
+        if mu:
+            start_pos = idx + mu.start()
+            length = mu.end() - mu.start()
+            line, col, col_end = locate_range(text, start_pos, length)
             errors.append(
                 ValidationMessage(
                     "found a unit (e.g. V, A, Ω, W, mW, kΩ, C, Hz) outside math delimiters; enclose units in $...$",
@@ -520,7 +536,6 @@ def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
                 )
             )
             break
-        offset += len(segment)
     return errors
 
 
@@ -560,7 +575,12 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     Search the text for the deprecated delimiters and flag their locations.
     """
     errors: list[ValidationMessage] = []
-    m = re.search(r"\\\[|\\\]|\\\\(|\\\\)", ctx.text)
+    # match the four deprecated delimiter sequences: \[, \], \(, or \)
+    # the previous implementation also accidentally matched any ``\\`` which
+    # is common in TeX macros (\Omega, line breaks, etc.) and produced
+    # spurious warnings.  Restricting the pattern to the exact four sequences
+    # resolves those false positives.
+    m = re.search(r"\\\[|\\\]|\\\(|\\\)", ctx.text)
     if m:
         length = len(m.group(0))
         line, col, col_end = locate_range(ctx.text, m.start(), length)
@@ -577,19 +597,91 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
 
 @RULE_REGISTRY.register(id="latex_single_line")
 def latex_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Enforce that LaTeX expressions do not span multiple lines.
+    """Enforce that *inline* LaTeX expressions do not span multiple lines.
 
-    Finds each dollar-delimited segment and emits an error if it contains a
-    newline character.
+    The previous implementation also checked display math (``$$...$$``) which
+    should instead be handled by a dedicated rule.  Here we match only single
+    dollar delimiters and warn if the contents contain a literal newline
+    character.  Block math is addressed by :func:`latex_block_no_newline`.
     """
     errors: list[ValidationMessage] = []
-    for m in re.finditer(r"\$\$?.*?\$\$?", ctx.text, re.DOTALL):
+    # match a single-dollar expression but not $$
+    for m in re.finditer(r"(?<!\$)\$.*?\$(?!\$)", ctx.text, re.DOTALL):
         if "\n" in m.group(0):
             length = len(m.group(0))
             line, col, col_end = locate_range(ctx.text, m.start(), length)
             errors.append(
                 ValidationMessage(
-                    "LaTeX expression spans multiple lines; keep it on one line",
+                    "inline LaTeX spans multiple lines; keep it on one line",
+                    line,
+                    col,
+                    col_end,
+                )
+            )
+    return errors
+
+
+# new rules for LaTeX handling ------------------------------------------------
+
+
+@RULE_REGISTRY.register(id="latex_environment_not_wrapped")
+def latex_environment_not_wrapped(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Detect LaTeX environments that are not enclosed in math delimiters.
+
+    Authors often copy-paste multi-line equations using ``\\begin{align*}``
+    (or other environments) directly into notes.  These blocks will not be
+    processed as math unless wrapped in display delimiters like ``$$ ... $$``.
+    This rule looks for a ``\\begin{...}``/``\\end{...}`` pair that spans
+    multiple lines and emits a warning unless the ``\\begin`` line already
+    contains a dollar sign (which usually indicates it is already wrapped).
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    # locate each \begin{env} and ensure a matching \end{env} later
+    for m in re.finditer(r"^\\begin\{([^}]+)\}", text, re.MULTILINE):
+        env = m.group(1)
+        end_re = re.compile(r"^\\end\{" + re.escape(env) + r"\}", re.MULTILINE)
+        m2 = end_re.search(text, m.end())
+        if not m2:
+            continue
+        # if the begin line already contains a dollar sign it is probably
+        # wrapped in $$ or inline math; skip in that case
+        line_start = text.rfind("\n", 0, m.start()) + 1
+        begin_line = text[line_start : text.find("\n", line_start)]
+        if "$" in begin_line:
+            continue
+        # otherwise emit a warning pointing at the \begin keyword
+        length = len(m.group(0))
+        line, col, col_end = locate_range(text, m.start(), length)
+        errors.append(
+            ValidationMessage(
+                "LaTeX environment found outside math delimiters; wrap in $$",
+                line,
+                col,
+                col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register(id="latex_block_no_newline")
+def latex_block_no_newline(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ensure block (``$$``) LaTeX expressions contain no literal newlines.
+
+    Authors should not break the source across physical lines; use ``\\`` or
+    ``\newline`` if an internal line break is required.  This rule is similar
+    to :func:`latex_single_line` but applies only to ``$$`` delimited sections
+    and provides a more specific message.
+    """
+    errors: list[ValidationMessage] = []
+    for m in re.finditer(r"\$\$(.*?)\$\$", ctx.text, re.DOTALL):
+        inner = m.group(1)
+        if "\n" in inner:
+            length = m.end() - m.start()
+            line, col, col_end = locate_range(ctx.text, m.start(), length)
+            errors.append(
+                ValidationMessage(
+                    "block LaTeX should not contain literal newline; use '\\\\' or '\\newline' instead",
                     line,
                     col,
                     col_end,
@@ -642,7 +734,9 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
         start_idx = m.start()
         if start_idx > 0:
             prev_char = text[start_idx - 1]
-            if prev_char not in " \n" and not prev_char.isspace():
+            # opening parenthesis is acceptable (common in e.g. "($x$"),
+            # so we treat it as a non-error even though there is no space.
+            if prev_char not in " \n(" and not prev_char.isspace():
                 line, col, col_end = locate_range(ctx.text, start_idx, 1)
                 errors.append(
                     ValidationMessage(
