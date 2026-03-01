@@ -30,6 +30,9 @@ updates:
       npm:
         patterns:
           - "*"
+    # Disable updates for specific paths
+    exclude-paths:
+      - "/special/academia/HKUST/COMP 3633/presentation 10/examples"
 
   # Python (pyproject.toml - dependency-groups / project.optional-dependencies).
   # We manage Python dependencies with `uv` and commit `uv.lock` for reproducible installs.
@@ -46,12 +49,3 @@ updates:
       uv:
         patterns:
           - "*"
-
-  # Disable updates for a specific directory
-  - package-ecosystem: "npm"
-    directories:
-      - "/special/academia/HKUST/COMP 3633/presentation 10/examples"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "*"
