@@ -58,7 +58,7 @@ Flashcards for this section are as follows:
 
 - outer electrons conduction ::@:: Electrons in the outermost orbit are held most weakly and can be added or removed easily, which is why they participate in conduction.
 - atom structure ::@:: An atom consists of protons (positive), neutrons (neutral), and electrons (negative); it is electrically neutral when protons equal electrons.
-- elementary charge ::@:: The smallest amount of electric charge is the charge of one proton or electron, $q = 1.6\times10^{-19}\,\mathrm{C}$.
+- elementary charge ::@:: The smallest amount of electric charge is the charge of one proton or electron, $q = 1.6\times10^{-19}\,\mathrm{C}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - charge imbalance ::@:: When atoms lose electrons they become positively charged; when they gain electrons they become negatively charged.
 
 ### conductors and insulators
@@ -81,7 +81,7 @@ By convention, the direction of current is taken to be the direction in which po
 
 Flashcards for this section are as follows:
 
-- current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1 A = 1 C/s).
+- current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second.
 - electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow).
 - current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$.
@@ -108,17 +108,17 @@ Resistance describes how strongly a material opposes the flow of current. For a 
 Flashcards for this section are as follows:
 
 - resistance definition ::@:: Resistance is a measure of the difficulty in passing current through a substance.
-- unit of resistance ::@:: The unit of resistance is the ohm ($\Omega$), symbol $R$.
-- resistivity formula ::@:: $R = \rho\frac{L}{A}$ for a wire of length $L$ and area $A$.
+- unit of resistance ::@:: The unit of resistance is the ohm ($\Omega$), symbol $R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- resistivity formula ::@:: $R = \rho\frac{L}{A}$ for a wire of length $L$ and area $A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities.
 - ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance.
 - ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow.
 - resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value.
 - resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance.
-- Ohm's law ::@:: $V = IR$; an I–V plot for a resistor is a straight line with slope $1/R$.
+- Ohm's law ::@:: $V = IR$; an I–V plot for a resistor is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Ohm's law example: Given $V = 5\,\textrm{V}$ across a resistor $R = 200\,\Omega$, what is the current? ::@:: Use $I = V/R$ to calculate $25\,\textrm{mA}$.
 - multimeter use ::@:: Digital multimeters may be used to measure resistance, voltage, or current in laboratory circuits.
-- metric prefixes ::@:: Prefixes such as kilo ($k=10^{3}$) and milli ($m=10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$).
+- metric prefixes ::@:: Prefixes such as kilo ($k=10^{3}$) and milli ($m=10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## capacitors
 
@@ -174,8 +174,8 @@ Flashcards for this section are as follows:
 - human/robot analogy ::@:: People get energy by eating food while robots obtain energy from batteries or power supplies.
 - DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically.
 - household AC frequency ::@:: Mains electricity typically alternates at 50 Hz (Hong Kong) or 60 Hz (some other countries).
-- energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs.
-- power definition ::@:: Power is the rate of energy consumption; $P = E/\Delta t = IV$ and for resistors $P = I^2R = V^2/R$.
+- energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- power definition ::@:: Power is the rate of energy consumption; $P = E/\Delta t = IV$ and for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### energy sources in lab
 
@@ -197,7 +197,7 @@ One way to visualise energy is by considering gravitational potential becoming k
 
 Flashcards for energy conversion are as follows:
 
-- energy conversion example ::@:: Galileo’s falling objects experiment shows $v=\sqrt{2gh}$, relating potential $mgh$ to kinetic $\tfrac12 mv^{2}$.
+- energy conversion example ::@:: Galileo’s falling objects experiment shows $v=\sqrt{2gh}$, relating potential $mgh$ to kinetic $\tfrac12 mv^{2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - gravitational acceleration ::@:: The acceleration due to gravity is independent of mass, so all objects fall at the same rate neglecting air resistance.
 
 ### human body energy
@@ -226,11 +226,11 @@ Resistors dissipate electrical power as heat, which is why excessive current can
 
 Flashcards for this section are as follows:
 
-- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each).
-- voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$.
+- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground (0 V).
-- parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens.
-- conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent.
+- parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$.
 - short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components.
 
@@ -246,5 +246,5 @@ Flashcards for this section are as follows:
 
 - example power calculation: Given a $200\,\Omega$ resistor with $5\text{ V}$ across it, what power is dissipated? ::@:: Use $P=V^{2}/R$ to get $0.125\text{ W}$.
 - parallel circuit current: Two $2\,\Omega$ resistors are in parallel with $10\,\text{V}$ applied; find the total current. ::@:: First compute $R_{\text{eq}}=(1/2+1/2)^{-1}=1\,\Omega$ then $I=V/R_{\text{eq}}=10\,\text{A}$.
-- 10 V series‑plus‑parallel network: A $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; what is the total current? ::@:: Equivalent resistance $10/3\,\Omega$ gives $I=3\text{ A}$.
+- 10&nbsp;V series-plus-parallel network: A $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; what is the total current? ::@:: Equivalent resistance $10/3\,\Omega$ gives $I=3\text{ A}$.
 - series/parallel power: A $5\text{ V}$ source drives two equal resistors $R_S=R_L=2.4\text{ k}\Omega$ in series; calculate the power dissipated by $R_L$. ::@:: The answer is about $2.6\text{ mW}$ (use $I=1.04\text{ mA}$, then $I^{2}R$, or halve the total power).
