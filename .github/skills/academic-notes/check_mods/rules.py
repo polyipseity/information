@@ -434,7 +434,10 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     This stylistic rule scans all headers of level 2 or deeper and emits a
     warning for headers whose first non-space character is uppercase or
     non-alphanumeric.  Proper nouns (person names, brands, etc.) are
-    legitimate exceptions; callers can suppress the warning in those cases.
+    legitimate exceptions; callers can suppress the warning using a
+    check directive (for example
+    ``<!-- check: ignore-line[header_style_rule]: proper name -->``) if the
+    capitalization is intentional.
     """
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md":
@@ -452,7 +455,11 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             errors.append(
                 ValidationMessage(
                     rule_id="header_style_rule",
-                    msg="header normally starts lowercase; ignore if first word is a proper name",
+                    msg=(
+                        "header normally starts lowercase; "
+                        "add a check directive to suppress if the capitalization is "
+                        "intentional (e.g. proper noun) -- ``<!-- check: ignore-line[header_style_rule]: reason -->``"
+                    ),
                     severity=Severity.WARNING,
                     line=line,
                     col=col,
@@ -1087,6 +1094,103 @@ def qa_multiple_separators(ctx: ValidationContext) -> list[ValidationMessage]:
                 )
             )
             break
+    return errors
+
+
+@RULE_REGISTRY.register(id="no_soft_wrap")
+def no_soft_wrap(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error on unescaped single newlines in paragraphs or list items.
+
+    The repository forbids soft-wrapping Markdown source: paragraphs must be
+    separated by *two* newlines, and list items must reside entirely on a
+    single line.  The presence of a literal ``\n`` that does not signal a
+    blank line therefore indicates a soft wrap and is reported as an error.
+
+    Certain explicit line-break mechanisms are allowed: a trailing backslash,
+    two spaces at end-of-line, or ``<br/>``/``<p>`` tags.  Likewise, single
+    newlines that precede a header or a new list item are structural and not
+    considered violations.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = text[body_start:]
+
+    # helper to determine if an index lies within a fenced code block
+    def in_code_fence(idx: int) -> bool:
+        """Return ``True`` when ``idx`` is inside a ``` fenced code section.
+
+        A simple parity check on the number of opening ````` occurrences before
+        the position is sufficient for our purposes; odd means we are inside
+        a fence.  This approximation is used to avoid flagging soft wrap errors
+        inside code blocks, where arbitrary newlines are expected.
+        """
+        return body[:idx].count("```") % 2 == 1
+
+    for m in re.finditer(r"\n(?!\n)", body):
+        idx = m.start()
+        if in_code_fence(idx):
+            continue
+        line_start = body.rfind("\n", 0, idx) + 1
+        line = body[line_start:idx]
+        if not line.strip():
+            continue
+        # capture next line for context tests
+        nxt_end = body.find("\n", idx + 1)
+        next_line = body[idx + 1 : nxt_end if nxt_end != -1 else None]
+
+        # allowed explicit breaks
+        if line.endswith("\\") or line.endswith("  "):
+            continue
+        if any(tag in line.rstrip() for tag in ("<br/>", "<p>", "</p>")):
+            continue
+
+        # structural boundaries are not errors; if the next line begins
+        # with a header or a new list item we don't consider the preceding
+        # newline a soft wrap.
+        if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
+            continue
+        # also ignore cases where the newline is the very last character in the
+        # body (``next_line`` will be empty); that trailing newline should not
+        # count as a soft wrap.
+        if not next_line.strip():
+            continue
+        # skip past comment lines; they are not considered prose
+        if line.strip().startswith("<!--"):
+            continue
+
+        if re.match(r"^\s*([-*+]|\d+\.)\s", line):
+            # inside a list item; if the next line starts a fresh item ignore
+            if re.match(r"^\s*([-*+]|\d+\.)\s", next_line):
+                continue
+            abs_idx = body_start + line_start
+            line_no, col, col_end = locate_range(text, abs_idx, len(line))
+            errors.append(
+                ValidationMessage(
+                    rule_id="no_soft_wrap",
+                    msg="list item contains literal newline; collapse it or use <br/>/<p> for a break",
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+        else:
+            # paragraph case
+            abs_idx = body_start + line_start
+            line_no, col, col_end = locate_range(text, abs_idx, len(line))
+            errors.append(
+                ValidationMessage(
+                    rule_id="no_soft_wrap",
+                    msg=(
+                        "paragraph contains unescaped single newline; "
+                        "use double newline or explicit break"
+                    ),
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
     return errors
 
 

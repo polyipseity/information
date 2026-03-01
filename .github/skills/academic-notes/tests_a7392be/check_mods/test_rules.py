@@ -25,6 +25,7 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    no_soft_wrap,
     one_sided_calc_warning,
     session_datetime_order,
     session_duplicate_heading,
@@ -139,7 +140,8 @@ def test_header_style_generic():
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     assert "lowercase" in msgs[0].msg
-    assert "proper name" in msgs[0].msg
+    # message now mentions suppression directive so look for either keyword
+    assert "check:" in msgs[0].msg or "suppress" in msgs[0].msg
 
 
 def test_two_sided_calc_warning():
@@ -273,6 +275,53 @@ def test_block_latex_no_newline():
     txt2 = "$$a \\\\ b$$\n"  # uses \\\\ for a line break
     ctx = make_ctx(txt2)
     assert not latex_block_no_newline(ctx)
+
+
+def test_no_soft_wrap_paragraph_and_list():
+    """Paragraphs and list items may not be soft-wrapped.
+
+    - A lone newline inside prose should trigger an error.
+    - Consecutive blank lines, explicit breaks, or structural boundaries are
+      allowed.
+    - Similarly, a list item that spans multiple physical lines without using
+      ``<br/>``/``<p>`` should be flagged, whereas separate items are fine.
+    """
+    # simple paragraph violation
+    txt = "First line\nsecond line\n"
+    ctx = make_ctx(txt)
+    msgs = no_soft_wrap(ctx)
+    assert msgs and "paragraph" in msgs[0].msg
+
+    # double newline is allowed
+    txt = "First line\n\nsecond line\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap(ctx)
+
+    # explicit backslash escape allowed
+    txt = "Line one\\\nline two\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap(ctx)
+
+    # trailing two spaces allowed
+    txt = "Line one  \nline two\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap(ctx)
+
+    # list item split across lines triggers error
+    txt = "- item part1\n  continuation\n"
+    ctx = make_ctx(txt)
+    msgs = no_soft_wrap(ctx)
+    assert msgs and "list item" in msgs[0].msg
+
+    # two separate items are fine
+    txt = "- first\n- second\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap(ctx)
+
+    # <br/> inside item is allowed
+    txt = "- line1<br/>\nline2\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap(ctx)
 
 
 @pytest.mark.anyio
