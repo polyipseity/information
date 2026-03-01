@@ -5,7 +5,7 @@ aliases:
   - HKUST ELEC 1100
   - HKUST ELEC 1100 index
 tags:
-  - flashcard/active/special/academia/HKUST/ELEC_1100
+  - flashcard/active/special/academia/HKUST/ELEC_1100/index
   - function/index
   - language/in/English
 ---
