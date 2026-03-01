@@ -39,7 +39,7 @@ __all__ = (
     "main",
 )
 
-_CONSOLE = Console()
+_CONSOLE = Console(markup=False, emoji=False, highlight=False)
 
 
 async def check_markdown_file(path: Path) -> list[ValidationMessage]:
@@ -171,7 +171,9 @@ async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
     res = ValidationResult()
     for root in roots:
         if not await root.exists():
-            _CONSOLE.print(f"[yellow]Warning:[/] path does not exist: {root}")
+            _CONSOLE.print(
+                f"[yellow]Warning:[/] path does not exist: {root}", markup=True
+            )
             continue
 
         if await root.is_file():
@@ -190,7 +192,8 @@ async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
                     )
             else:
                 _CONSOLE.print(
-                    f"[yellow]Warning:[/] skipping non-markdown file: {root}"
+                    f"[yellow]Warning:[/] skipping non-markdown file: {root}",
+                    markup=True,
                 )
             continue
 
@@ -265,7 +268,8 @@ async def main(argv: Sequence[str] | None = None) -> int:
         total = len(all_items)
         _CONSOLE.print(
             f"[bold red]Validation issues:[/] {total} problem(s) found "
-            f"({errcount} errors, {warncount} warnings)\n"
+            f"({errcount} errors, {warncount} warnings)\n",
+            markup=True,
         )
         width = getattr(_CONSOLE.size, "width", 80)
         agg_all = await aggregate(all_items, width)
@@ -280,24 +284,24 @@ async def main(argv: Sequence[str] | None = None) -> int:
             txt.stylize(severity.color, 0, len(prefix))
             if len(display) > len(prefix):
                 txt.stylize("bold", len(prefix), len(display))
-            _CONSOLE.print(txt, end="", highlight=False)
-            _CONSOLE.print(f" - {len(entries)} occurrence(s)", markup=False)
+            _CONSOLE.print(txt, end=" - ")
+            _CONSOLE.print(f"{len(entries)} occurrence(s)", highlight=True)
             for e in entries:
                 loc = fspath(e.path)
                 if e.line is not None:
                     loc += f":{e.line}"
                     if e.col is not None:
                         loc += f":{e.col}"
-                _CONSOLE.print(loc, markup=False, highlight=False)
+                _CONSOLE.print(loc)
                 if e.excerpt:
-                    _CONSOLE.print(e.excerpt, markup=False)
+                    _CONSOLE.print(e.excerpt, highlight=True)
                     if e.caret:
-                        _CONSOLE.print(e.caret, markup=False)
+                        _CONSOLE.print(e.caret)
             _CONSOLE.print()
         _CONSOLE.print(
             "Please fix errors and review warnings before publishing or report to maintainers if unsure."
         )
         return 2 if errcount else 1
 
-    _CONSOLE.print("[green]OK:[/] No issues detected (basic checks)")
+    _CONSOLE.print("[green]OK:[/] No issues detected (basic checks)", markup=True)
     return 0

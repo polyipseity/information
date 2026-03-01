@@ -25,10 +25,13 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
-    no_soft_wrap,
+    no_soft_wrap_list,
+    no_soft_wrap_paragraph,
     one_sided_calc_warning,
     session_datetime_order,
     session_duplicate_heading,
+    session_missing_topic,
+    session_unscheduled_with_topic,
     tag_language,
     two_sided_calc_warning,
     unit_outside_math,
@@ -187,6 +190,31 @@ def test_session_rules():
     assert msgs and "not after previous" in msgs[0].msg
 
 
+def test_session_topic_rules():
+    """Verify the new topic-related rules fire independently."""
+
+    # missing-topic when a datetime is present and no status/unscheduled tag
+    txt = "## week 1 lecture\n- datetime: 2023-01-01T10:00\n"
+    ctx = make_ctx(txt)
+    msgs = session_missing_topic(ctx)
+    assert msgs and msgs[0].rule_id == "session_missing_topic"
+
+    # unscheduled with topic should trigger its own rule
+    txt2 = (
+        "## week 1 lecture\n"
+        "- datetime: 2023-01-01T10:00\n"
+        "- status: unscheduled\n"
+        "- topic: TBD\n"
+    )
+    ctx2 = make_ctx(txt2)
+    msgs2 = session_unscheduled_with_topic(ctx2)
+    assert msgs2 and msgs2[0].rule_id == "session_unscheduled_with_topic"
+
+    # combinations should not leak between rules
+    assert not session_missing_topic(ctx2)  # because status is unscheduled
+    assert not session_unscheduled_with_topic(make_ctx("## w\n- datetime: 2023-01-01"))
+
+
 def test_unit_outside_math_behavior():
     """Unit rule fires only when math ends in a number and a unit follows."""
 
@@ -277,51 +305,45 @@ def test_block_latex_no_newline():
     assert not latex_block_no_newline(ctx)
 
 
-def test_no_soft_wrap_paragraph_and_list():
-    """Paragraphs and list items may not be soft-wrapped.
-
-    - A lone newline inside prose should trigger an error.
-    - Consecutive blank lines, explicit breaks, or structural boundaries are
-      allowed.
-    - Similarly, a list item that spans multiple physical lines without using
-      ``<br/>``/``<p>`` should be flagged, whereas separate items are fine.
-    """
-    # simple paragraph violation
+def test_no_soft_wrap_paragraph():
+    """Only paragraph violations should be reported by paragraph rule."""
     txt = "First line\nsecond line\n"
     ctx = make_ctx(txt)
-    msgs = no_soft_wrap(ctx)
-    assert msgs and "paragraph" in msgs[0].msg
+    msgs = no_soft_wrap_paragraph(ctx)
+    assert msgs and "soft-wrapped" in msgs[0].msg
 
-    # double newline is allowed
-    txt = "First line\n\nsecond line\n"
-    ctx = make_ctx(txt)
-    assert not no_soft_wrap(ctx)
+    # other paragraph allowances
+    for good in [
+        "First line\n\nsecond line\n",
+        "Line one\\\nline two\n",
+        "Line one  \nline two\n",
+    ]:
+        assert not no_soft_wrap_paragraph(make_ctx(good))
 
-    # explicit backslash escape allowed
-    txt = "Line one\\\nline two\n"
-    ctx = make_ctx(txt)
-    assert not no_soft_wrap(ctx)
-
-    # trailing two spaces allowed
-    txt = "Line one  \nline two\n"
-    ctx = make_ctx(txt)
-    assert not no_soft_wrap(ctx)
-
-    # list item split across lines triggers error
+    # list-wrapping should not trigger paragraph rule
     txt = "- item part1\n  continuation\n"
     ctx = make_ctx(txt)
-    msgs = no_soft_wrap(ctx)
-    assert msgs and "list item" in msgs[0].msg
+    assert not no_soft_wrap_paragraph(ctx)
 
-    # two separate items are fine
-    txt = "- first\n- second\n"
-    ctx = make_ctx(txt)
-    assert not no_soft_wrap(ctx)
 
-    # <br/> inside item is allowed
-    txt = "- line1<br/>\nline2\n"
+def test_no_soft_wrap_list():
+    """Only list-item violations should be reported by list rule."""
+    txt = "- item part1\n  continuation\n"
     ctx = make_ctx(txt)
-    assert not no_soft_wrap(ctx)
+    msgs = no_soft_wrap_list(ctx)
+    assert msgs and "soft-wrapped" in msgs[0].msg
+
+    # allowed list cases
+    for good in [
+        "- first\n- second\n",
+        "- line1<br/>\nline2\n",
+    ]:
+        assert not no_soft_wrap_list(make_ctx(good))
+
+    # paragraph soft wrap should not trigger list rule
+    txt = "First line\nsecond line\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap_list(ctx)
 
 
 @pytest.mark.anyio

@@ -50,7 +50,7 @@ install_rich_traceback()
 
 _API = "https://en.wikipedia.org/w/api.php"
 
-_CONSOLE = Console()
+_CONSOLE = Console(markup=False, highlight=False, emoji=False)
 
 
 class SearchHit(BaseModel):
@@ -337,15 +337,18 @@ def main(argv: list[str] | None = None) -> int:
     try:
         hits = search(term, limit=args.limit)
     except WikipediaAPIError as exc:
-        _CONSOLE.print(f"[red]error:[/] {exc}")
+        _CONSOLE.print(f"[red]error:[/] {exc}", markup=True)
         return 1
 
     if not hits:
         if args.human:
-            _CONSOLE.print(f"No Wikipedia results found for: [bold]{term}[/]")
+            _CONSOLE.print(
+                f"No Wikipedia results found for: [bold]{term}[/]", markup=True
+            )
         else:
             _CONSOLE.print(
-                json.dumps({"query": term, "results": []}, ensure_ascii=False)
+                json.dumps({"query": term, "results": []}, ensure_ascii=False),
+                highlight=True,
             )
         return 0
 
@@ -361,7 +364,7 @@ def main(argv: list[str] | None = None) -> int:
                 item["url"] = str(item["url"])
         payload = {"query": term, "results": results_list}
         if args.pretty:
-            _CONSOLE.print(RichJSON.from_data(payload))
+            _CONSOLE.print(RichJSON.from_data(payload), highlight=True)
         else:
             # plain JSON lines (use regular print to avoid automatic wrapping)
             for r in payload["results"]:

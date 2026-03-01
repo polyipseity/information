@@ -289,12 +289,53 @@ def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="session_topic_presence")
-def session_topic_presence(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Ensure sessions with datetimes also have a topic (unless unscheduled).
+# session topic rules -------------------------------------------------------
 
-    - If status is 'unscheduled' and topic exists, that's flagged as an error.
-    - Otherwise, missing topic when a datetime is present is an error.
+
+@RULE_REGISTRY.register(id="session_missing_topic")
+def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag sessions that have a datetime but are missing a topic.
+
+    This rule applies only when the session is not marked 'unscheduled'.  It
+    mirrors the second half of the previous ``session_topic_presence`` rule but
+    now lives in its own registration so that each violation has a distinct
+    rule identifier.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    for _week, _typ, hdr, idx in ctx.session_headers:
+        end = len(text)
+        m2 = re.search(r"^##\s+", text[idx + len(hdr) :], re.MULTILINE)
+        if m2:
+            end = idx + len(hdr) + m2.start()
+        section = text[idx:end]
+        if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
+            # skip unscheduled sessions here
+            if "status:" in section and re.search(
+                r"status:\s*unscheduled", section, re.IGNORECASE
+            ):
+                continue
+            if "topic:" not in section:
+                line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+                errors.append(
+                    ValidationMessage(
+                        "session_missing_topic",
+                        f"session {hdr!r} has a datetime but no topic field",
+                        line=line,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+    return errors
+
+
+@RULE_REGISTRY.register(id="session_unscheduled_with_topic")
+def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Detect sessions marked unscheduled that nevertheless declare a topic.
+
+    Before the refactor this was handled inside ``session_topic_presence``
+    alongside the missing-topic check.  Splitting it makes the validator's
+    output and any automated commit messages far easier to interpret.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
@@ -314,18 +355,6 @@ def session_topic_presence(ctx: ValidationContext) -> list[ValidationMessage]:
                         ValidationMessage(
                             "session_unscheduled_with_topic",
                             f"session {hdr!r} has status unscheduled but also a topic",
-                            line=line,
-                            col=col,
-                            col_end=col_end,
-                        )
-                    )
-            else:
-                if "topic:" not in section:
-                    line, col, col_end = locate_range(ctx.text, idx, len(hdr))
-                    errors.append(
-                        ValidationMessage(
-                            "session_missing_topic",
-                            f"session {hdr!r} has a datetime but no topic field",
                             line=line,
                             col=col,
                             col_end=col_end,
@@ -1097,19 +1126,15 @@ def qa_multiple_separators(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="no_soft_wrap")
-def no_soft_wrap(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Error on unescaped single newlines in paragraphs or list items.
+# split the original check into two specific rules; retain a wrapper
+# for backward compatibility.
 
-    The repository forbids soft-wrapping Markdown source: paragraphs must be
-    separated by *two* newlines, and list items must reside entirely on a
-    single line.  The presence of a literal ``\n`` that does not signal a
-    blank line therefore indicates a soft wrap and is reported as an error.
 
-    Certain explicit line-break mechanisms are allowed: a trailing backslash,
-    two spaces at end-of-line, or ``<br/>``/``<p>`` tags.  Likewise, single
-    newlines that precede a header or a new list item are structural and not
-    considered violations.
+@RULE_REGISTRY.register(id="no_soft_wrap_paragraph")
+def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag unescaped single newlines within paragraphs.
+
+    Paragraphs should not be soft-wrapped.  List items are ignored here.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
@@ -1117,15 +1142,8 @@ def no_soft_wrap(ctx: ValidationContext) -> list[ValidationMessage]:
     body_start = fm.end() if fm else 0
     body = text[body_start:]
 
-    # helper to determine if an index lies within a fenced code block
     def in_code_fence(idx: int) -> bool:
-        """Return ``True`` when ``idx`` is inside a ``` fenced code section.
-
-        A simple parity check on the number of opening ````` occurrences before
-        the position is sufficient for our purposes; odd means we are inside
-        a fence.  This approximation is used to avoid flagging soft wrap errors
-        inside code blocks, where arbitrary newlines are expected.
-        """
+        """Return True if *idx* is within a fenced code block in *body*."""
         return body[:idx].count("```") % 2 == 1
 
     for m in re.finditer(r"\n(?!\n)", body):
@@ -1136,85 +1154,86 @@ def no_soft_wrap(ctx: ValidationContext) -> list[ValidationMessage]:
         line = body[line_start:idx]
         if not line.strip():
             continue
-        # capture next line for context tests
         nxt_end = body.find("\n", idx + 1)
         next_line = body[idx + 1 : nxt_end if nxt_end != -1 else None]
 
-        # allowed explicit breaks
         if line.endswith("\\") or line.endswith("  "):
             continue
         if any(tag in line.rstrip() for tag in ("<br/>", "<p>", "</p>")):
             continue
-
-        # structural boundaries are not errors; if the next line begins
-        # with a header or a new list item we don't consider the preceding
-        # newline a soft wrap.
         if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
             continue
-        # also ignore cases where the newline is the very last character in the
-        # body (``next_line`` will be empty); that trailing newline should not
-        # count as a soft wrap.
         if not next_line.strip():
             continue
-        # skip past comment lines; they are not considered prose
         if line.strip().startswith("<!--"):
             continue
-
         if re.match(r"^\s*([-*+]|\d+\.)\s", line):
-            # inside a list item; if the next line starts a fresh item ignore
+            continue
+        abs_idx = body_start + line_start
+        line_no, col, col_end = locate_range(text, abs_idx, len(line))
+        errors.append(
+            ValidationMessage(
+                rule_id="no_soft_wrap_paragraph",
+                msg=(
+                    "soft-wrapped paragraph detected — this is unacceptable; "
+                    "remove the stray newline or insert a blank line/explicit break"
+                ),
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register(id="no_soft_wrap_list")
+def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag soft wraps inside list items."""
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = text[body_start:]
+
+    def in_code_fence(idx: int) -> bool:
+        """Return True if *idx* is within a fenced code block in *body*."""
+        return body[:idx].count("```") % 2 == 1
+
+    for m in re.finditer(r"\n(?!\n)", body):
+        idx = m.start()
+        if in_code_fence(idx):
+            continue
+        line_start = body.rfind("\n", 0, idx) + 1
+        line = body[line_start:idx]
+        if not line.strip():
+            continue
+        nxt_end = body.find("\n", idx + 1)
+        next_line = body[idx + 1 : nxt_end if nxt_end != -1 else None]
+
+        if line.endswith("\\") or line.endswith("  "):
+            continue
+        if any(tag in line.rstrip() for tag in ("<br/>", "<p>", "</p>")):
+            continue
+        if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
+            continue
+        if not next_line.strip():
+            continue
+        if line.strip().startswith("<!--"):
+            continue
+        if re.match(r"^\s*([-*+]|\d+\.)\s", line):
             if re.match(r"^\s*([-*+]|\d+\.)\s", next_line):
                 continue
             abs_idx = body_start + line_start
             line_no, col, col_end = locate_range(text, abs_idx, len(line))
             errors.append(
                 ValidationMessage(
-                    rule_id="no_soft_wrap",
-                    msg="list item contains literal newline; collapse it or use <br/>/<p> for a break",
+                    rule_id="no_soft_wrap_list",
+                    msg="soft-wrapped list item detected; collapse it or use <br/>/<p> (sloppy formatting not permitted)",
                     line=line_no,
                     col=col,
                     col_end=col_end,
                 )
             )
-        else:
-            # paragraph case
-            abs_idx = body_start + line_start
-            line_no, col, col_end = locate_range(text, abs_idx, len(line))
-            errors.append(
-                ValidationMessage(
-                    rule_id="no_soft_wrap",
-                    msg=(
-                        "paragraph contains unescaped single newline; "
-                        "use double newline or explicit break"
-                    ),
-                    line=line_no,
-                    col=col,
-                    col_end=col_end,
-                )
-            )
-    return errors
-
-
-@RULE_REGISTRY.register(id="br_space_rule")
-def br_space_rule(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Require a space before ``<br/>`` tags.
-
-    This rule flags occurrences of ``<br/>`` immediately following non-blank
-    characters, reminding editors to add a space for readability.
-    """
-    errors: list[ValidationMessage] = []
-    for m in re.finditer(r"[^ \t]<br/>", ctx.text):
-        line, col = locate(ctx.text, m.start())
-        col_end = col + len("<br/>") - 1
-        errors.append(
-            ValidationMessage(
-                rule_id="br_space_rule",
-                msg="'<br/>' found without a preceding space; add a space before '<br/>'",
-                line=line,
-                col=col,
-                col_end=col_end,
-            )
-        )
-        break
     return errors
 
 
