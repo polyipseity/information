@@ -194,7 +194,12 @@ async def get_excerpt(
                 else:
                     display = full
                     caret_start = start_idx
-                caret_line = " " * caret_start + "^" * width
+                # ensure caret width does not overflow the displayed snippet
+                max_width = len(display) - caret_start
+                if max_width < 1:
+                    max_width = 1
+                actual_width = min(width, max_width)
+                caret_line = " " * caret_start + "^" * actual_width
                 return display.strip(), caret_line
             return full.strip(), None
     fm: str | None = parse_frontmatter(text)

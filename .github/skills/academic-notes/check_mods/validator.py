@@ -233,6 +233,15 @@ async def main(argv: Sequence[str] | None = None) -> int:
         action="store_true",
         help="Emit JSON output with `errors` and `warnings` arrays (machine-readable)",
     )
+    parser.add_argument(
+        "--max-per-rule",
+        type=int,
+        default=5,
+        help=(
+            "Maximum number of occurrences to display per rule ID in the console. "
+            "Set to 0 for no limit. (JSON output is unaffected.)"
+        ),
+    )
     args = parser.parse_args(argv)
 
     roots = [Path(p) for p in (args.paths or DEFAULT_PATHS)]
@@ -274,6 +283,14 @@ async def main(argv: Sequence[str] | None = None) -> int:
         width = getattr(_CONSOLE.size, "width", 80)
         agg_all = await aggregate(all_items, width)
 
+        # when printing to console, optionally cap the number of entries shown
+        orig_counts: dict[str, int] = {k: len(v) for k, v in agg_all.items()}
+        limit = args.max_per_rule
+        if limit and limit > 0:
+            for k, entries in list(agg_all.items()):
+                if len(entries) > limit:
+                    agg_all[k] = entries[:limit]
+
         for key_id, entries in agg_all.items():
             first = entries[0]
             msg = first.msg
@@ -285,18 +302,35 @@ async def main(argv: Sequence[str] | None = None) -> int:
             if len(display) > len(prefix):
                 txt.stylize("bold", len(prefix), len(display))
             _CONSOLE.print(txt, end=" - ")
-            _CONSOLE.print(f"{len(entries)} occurrence(s)", highlight=True)
+            shown = len(entries)
+            # total occurrences for this rule (may be higher than shown)
+            total_for_rule = orig_counts.get(key_id, shown)
+            # print number displayed; if we truncated, show actual total too
+            if limit and limit > 0 and total_for_rule > shown:
+                _CONSOLE.print(
+                    f"{shown}/{total_for_rule} occurrence(s)", highlight=True
+                )
+            else:
+                _CONSOLE.print(f"{shown} occurrence(s)", highlight=True)
             for e in entries:
                 loc = fspath(e.path)
                 if e.line is not None:
                     loc += f":{e.line}"
                     if e.col is not None:
                         loc += f":{e.col}"
-                _CONSOLE.print(loc)
+                _CONSOLE.print(loc, style="grey53")
                 if e.excerpt:
                     _CONSOLE.print(e.excerpt, highlight=True)
                     if e.caret:
                         _CONSOLE.print(e.caret)
+            # indicate if we truncated results for this rule
+            if limit and limit > 0 and total_for_rule > shown:
+                omitted = total_for_rule - shown
+                _CONSOLE.print(
+                    f"[grey53]... {omitted} more occurrence(s) not shown[/]",
+                    markup=True,
+                    highlight=True,
+                )
             _CONSOLE.print()
         _CONSOLE.print(
             "Please fix errors and review warnings before publishing or report to maintainers if unsure."

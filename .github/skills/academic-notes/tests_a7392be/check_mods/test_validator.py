@@ -128,6 +128,39 @@ tags: [language/in/English, flashcard/active/special/academia/test]
 
 
 @pytest.mark.asyncio
+async def test_max_per_rule_limit(
+    tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
+):
+    """CLI should limit displayed occurrences per rule using --max-per-rule."""
+    # create six files that all trigger the same error (missing aliases)
+    roots = []
+    for i in range(6):
+        fpath = tmp_path / f"bad{i}.md"
+        roots.append(fpath)
+        await Path(fpath).write_text("""---\ntags: []\n---\n""")
+    # run without specifying limit (default 5)
+    rc = await validator.main([str(tmp_path)])
+    assert rc == 2
+    out = capsys.readouterr().out
+    # the summary should report 6 problems in total
+    assert "6 problem(s) found" in out
+    # check that the output mentioned '5 of 6 occurrence(s)' and a note about omissions
+    assert "5 of 6 occurrence(s)" in out
+    assert "more occurrence(s) not shown" in out
+
+    # also verify summary at top counted all issues
+    assert "6 problem(s) found" in out
+
+    # now run with an explicit limit of 0 (unlimited)
+    rc2 = await validator.main([str(tmp_path), "--max-per-rule", "0"])
+    assert rc2 == 2
+    out2 = capsys.readouterr().out
+    # should list all 6 occurrences and not mention truncation
+    assert "6 occurrence(s)" in out2
+    assert "not shown" not in out2
+
+
+@pytest.mark.asyncio
 async def test_check_entrypoint(tmp_path: PathLike[str]):
     """The `check` CLI wrapper should mirror validator.main behavior."""
     # ensure the thin wrapper around validator.main behaves identically

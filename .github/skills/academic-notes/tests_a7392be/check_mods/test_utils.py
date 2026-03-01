@@ -63,6 +63,34 @@ async def test_get_excerpt_latex_delimiter_shows_next_line(tmp_path: PathLike[st
     assert caret.strip() == "^" * len(excerpt.strip())
 
 
+@pytest.mark.asyncio
+async def test_get_excerpt_caret_clamped(tmp_path: PathLike[str]):
+    """Caret width should never exceed the displayed snippet length.
+
+    Construct a very long line and request an excerpt with a tiny
+    `chars` limit.  The computed width (col_end-col+1) will be larger than
+    the available display window, but the caret must be clamped so it does
+    not overflow or misalign.
+    """
+    p = Path(tmp_path) / "file.md"
+    # make a long line (120 characters)
+    await p.write_text("x" * 120 + "\n")
+    # choose a column far to the right with an even farther col_end
+    excerpt, caret = await get_excerpt(
+        p,
+        "msg",
+        line=1,
+        col=90,
+        col_end=115,
+        chars=20,
+    )
+    assert caret is not None
+    # caret length should not exceed excerpt length
+    assert caret.count("^") <= len(excerpt)
+    # caret should start within the excerpt
+    assert len(caret) == len(caret.rstrip())
+
+
 def test_parse_frontmatter_none_and_malformed():
     """Ensure parser handles missing or invalid frontmatter gracefully."""
     assert parse_frontmatter("") is None
