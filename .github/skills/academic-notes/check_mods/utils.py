@@ -53,11 +53,29 @@ def locate_range(text: str, start: int, length: int) -> tuple[int, int, int]:
     """Return (line, col, col_end) for a span at *start* of *length* bytes.
 
     *col_end* is the 1-based column index of the last character in the span.
-    If the span crosses a newline the returned *col_end* refers to the
-    starting line (multi-line spans are rare in our rules).
+    When the span is entirely on one line this is simply ``col + length - 1``.
+    If the span crosses a newline we intentionally truncate *col_end* to the
+    end of the first line of the span.  Many of our rules only report the
+    starting line, and the caret generation logic in :func:`get_excerpt`
+    assumes *col_end* refers to that same line.  Previously we calculated
+    ``col_end`` using the full length even when newlines were present, which
+    produced wildly oversized carets (the issue reported in
+    ``latex_single_line`` caret output).  This helper now handles the
+    newline case correctly.
     """
     line, col = locate(text, start)
-    col_end = col + max(0, length - 1)
+    # look for a newline within the span; if found, limit the column end to the
+    # character just before that newline so caret markers stay on the first
+    # line.  Otherwise fall back to the naive calculation.
+    span = text[start : start + length]
+    nl_index = span.find("\n")
+    if nl_index != -1:
+        # nl_index is zero-based offset within span; subtract one to point at
+        # the preceding character (if nl_index==0 the span starts with a
+        # newline, which is unusual but we treat col_end==col).
+        col_end = col + max(0, nl_index - 1)
+    else:
+        col_end = col + max(0, length - 1)
     return line, col, col_end
 
 
@@ -110,6 +128,22 @@ async def get_excerpt(
         lines = text.splitlines()
         if 1 <= line <= len(lines):
             full = lines[line - 1].rstrip("\n")
+            # If the trimmed line is merely a LaTeX delimiter we prefer to show
+            # the next line of real math content (if any).  This makes error
+            # previews more helpful when the dollar sign sits alone on its own
+            # line, as often happens when authors split inline math across
+            # multiple lines for readability.  When we switch, adjust both
+            # *col* and *col_end* so that the caret spans the *entire* replacement
+            # line rather than just the first column; this gives a visual sense of
+            # the full LaTeX expression that triggered the rule.
+            if full.strip() in ("$", "$$") and line < len(lines):
+                nxt = lines[line]
+                if nxt.strip():
+                    full = nxt.rstrip("\n")
+                    if col is not None:
+                        col = 1
+                        # highlight the whole line
+                        col_end = len(full) if full else 1
             if col is not None:
                 start_idx = max(0, min(col - 1, len(full)))
                 if col_end and col_end >= col:

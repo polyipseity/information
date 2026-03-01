@@ -147,13 +147,15 @@ Create the note, update the index, and add the outline link as shown below:
 ```markdown
 # Kirchhoff's circuit laws
 
-...prose section as shown in the section "Sample note excerpt" later...
+Kirchhoff's circuit laws are the two foundational relations engineers use to analyse arbitrary resistor networks when simple series/parallel reduction fails.  The current law (KCL) applies at nodes, the voltage law (KVL) applies around closed loops.  Both follow directly from conservation principles and are named after Gustav Kirchhoff (1824–1887).
 
 ---
 
 Flashcards for this section are as follows:
 
-...flashcard section following guidelines in the "Flashcards and markup" section...
+- Kirchhoff's circuit laws definition ::@:: Two fundamental relations for analysing circuits: KCL (node current rule) and KVL (loop voltage rule).
+- Kirchhoff's current law ::@:: At any junction, the sum of currents entering equals the sum leaving.
+- Kirchhoff's voltage law ::@:: Around any loop, the algebraic sum of voltage rises and drops is zero.
 ```
 
 ```markdown

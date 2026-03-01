@@ -20,6 +20,7 @@ from check_mods.rules import (
     latex_block_no_newline,
     latex_disallowed_delimiters,
     latex_environment_not_wrapped,
+    latex_single_line,
     latex_spacing_before,
     metadata_aliases_present,
     metadata_flash_tag,
@@ -247,6 +248,19 @@ def test_latex_environment_unwrapped():
     txt2 = "$$\\begin{align*} a \\end{align*}$$\n"
     ctx = make_ctx(txt2)
     assert not latex_environment_not_wrapped(ctx)
+
+
+def test_latex_single_line_multiline():
+    """Inline math spanning lines should be flagged and column end truncated."""
+    txt = "$\nfoo\n$"
+    ctx = make_ctx(txt)
+    msgs = latex_single_line(ctx)
+    assert msgs, "multi-line inline math should produce an error"
+    m = msgs[0]
+    # should point to first line, first column only
+    assert m.line == 1
+    assert m.col == 1
+    assert m.col_end == 1
 
 
 def test_block_latex_no_newline():
