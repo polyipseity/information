@@ -233,7 +233,7 @@ return (
 - Fe<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Fe<sup>2+</sup>(aq):@:0.77 <!--SR:!2026-04-03,683,190-->
 - Ag<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Ag(s):@:0.7996 <!--SR:!2028-03-09,847,190-->
 - NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l):@:0.8 <!--SR:!2026-11-09,843,230-->
-- NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O(l):@:0.958 <!--SR:!2026-03-06,117,150-->
+- NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O(l):@:0.958 <!--SR:!2026-11-24,263,170-->
 - Br<sub>2</sub>(aq) + 2e<sup>-</sup> ⇌ 2Br<sup>-</sup>(aq):@:1.0873 <!--SR:!2028-02-07,822,190-->
 - 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> ⇌ I<sub>2</sub>(s) + 6H<sub>2</sub>O(l):@:1.2 <!--SR:!2026-10-14,308,170-->
 - O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2H<sub>2</sub>O(l):@:1.229 <!--SR:!2026-03-15,97,150-->

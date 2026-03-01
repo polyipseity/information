@@ -15,7 +15,7 @@ tags:
 
 > {@{![Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.](../../archives/Wikimedia%20Commons/Tree%20as%20a%20functor.svg)}@}
 >
-> {@{Applying `fmap (+1)` to a binary tree of integers}@} {@{increments each integer in the tree by one.}@} <!--SR:!2029-12-18,1412,355!2029-12-03,1399,355!2026-03-07,25,382-->
+> {@{Applying `fmap (+1)` to a binary tree of integers}@} {@{increments each integer in the tree by one.}@} <!--SR:!2029-12-18,1412,355!2029-12-03,1399,355!2026-07-17,132,402-->
 
 In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2029-12-19,1413,355!2026-04-01,353,351!2029-12-05,1401,355!2029-12-02,1398,355!2029-09-28,1345,350!2029-12-25,1419,355-->
 

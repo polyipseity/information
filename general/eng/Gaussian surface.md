@@ -33,7 +33,7 @@ This is {@{Gauss's law}@}, combining {@{both the [divergence theorem](divergence
 
 ### spherical surface
 
-{@{A [spherical](sphere.md) Gaussian surface is used}@} when {@{finding the electric field or the flux produced by any of the following}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: essentially, {@{charge distributions with spherical symmetry, e.g. point charges, spherical shells, spheres, etc.}@}) <!--SR:!2026-03-09,291,330!2026-03-10,292,330!2026-03-06,290,330-->
+{@{A [spherical](sphere.md) Gaussian surface is used}@} when {@{finding the electric field or the flux produced by any of the following}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: essentially, {@{charge distributions with spherical symmetry, e.g. point charges, spherical shells, spheres, etc.}@}) <!--SR:!2026-03-09,291,330!2026-03-10,292,330!2029-10-23,1327,350-->
 
 - a [point charge](point%20charge.md#point%20charge)
 - a uniformly distributed [spherical shell](spherical%20shell.md) of charge
@@ -49,7 +49,7 @@ With the same example, using {@{a larger Gaussian surface outside the shell wher
 
 {@{The [surface area of the sphere](surface%20area.md#common%20formulas) of radius _r_}@} is {@{$$\iint _{S}dA=4\pi r^{2}$$ which implies $$\Phi _{E}=E4\pi r^{2}$$}@} <!--SR:!2029-02-26,1141,350!2029-02-28,1143,350-->
 
-By {@{Gauss's law}@} {@{the flux is also $$\Phi _{E}={\frac {Q_{A} }{\varepsilon _{0} } }$$}@} finally {@{equating the expression for Φ<sub>_E_</sub> gives the magnitude of the __E__-field at position _r_}@}: {@{$$E4\pi r^{2}={\frac {Q_{A} }{\varepsilon _{0} } }\quad \Rightarrow \quad E={\frac {Q_{A} }{4\pi \varepsilon _{0}r^{2} } }.$$}@} <!--SR:!2026-03-06,288,330!2029-03-18,1157,350!2026-03-08,290,330!2026-03-08,290,330-->
+By {@{Gauss's law}@} {@{the flux is also $$\Phi _{E}={\frac {Q_{A} }{\varepsilon _{0} } }$$}@} finally {@{equating the expression for Φ<sub>_E_</sub> gives the magnitude of the __E__-field at position _r_}@}: {@{$$E4\pi r^{2}={\frac {Q_{A} }{\varepsilon _{0} } }\quad \Rightarrow \quad E={\frac {Q_{A} }{4\pi \varepsilon _{0}r^{2} } }.$$}@} <!--SR:!2029-10-13,1317,350!2029-03-18,1157,350!2026-03-08,290,330!2026-03-08,290,330-->
 
 {@{This non-trivial result}@} shows that {@{any spherical distribution of charge _acts as a point charge_ when observed from the outside of the charge distribution}@}; this is in fact {@{a verification of [Coulomb's law](Coulomb's%20law.md)}@}. And, as mentioned, {@{any exterior charges do not count}@}. <!--SR:!2029-03-29,1167,350!2029-04-21,1173,350!2027-11-19,765,330!2029-03-25,1164,350-->
 
@@ -63,7 +63,7 @@ By {@{Gauss's law}@} {@{the flux is also $$\Phi _{E}={\frac {Q_{A} }{\varepsilon
 
 As example "field near infinite line charge" is given below;
 
-Consider {@{a point _P_ at a distance _r_ from an infinite line charge having [charge density](charge%20density.md) \(charge per unit length\) λ}@}. Imagine {@{a closed surface in the form of cylinder whose axis of rotation is the line charge}@}. If {@{_h_ is the length of the cylinder}@}, then {@{the charge enclosed in the cylinder is $$q=\lambda h,$$}@} where {@{_q_ is the charge enclosed in the Gaussian surface}@}. There are {@{three surfaces _a_, _b_ and _c_ as shown in the figure}@}. {@{The [differential](differential%20of%20a%20function.md) [vector area](vector%20area.md)}@} is {@{_d_<!-- markdown separator -->__A__, on each surface _a_, _b_ and _c_}@}. <!--SR:!2028-07-15,883,330!2029-07-25,1250,350!2027-07-20,671,330!2029-04-17,1181,350!2029-05-08,1186,350!2026-03-06,288,330!2026-03-07,289,330!2026-03-12,294,330-->
+Consider {@{a point _P_ at a distance _r_ from an infinite line charge having [charge density](charge%20density.md) \(charge per unit length\) λ}@}. Imagine {@{a closed surface in the form of cylinder whose axis of rotation is the line charge}@}. If {@{_h_ is the length of the cylinder}@}, then {@{the charge enclosed in the cylinder is $$q=\lambda h,$$}@} where {@{_q_ is the charge enclosed in the Gaussian surface}@}. There are {@{three surfaces _a_, _b_ and _c_ as shown in the figure}@}. {@{The [differential](differential%20of%20a%20function.md) [vector area](vector%20area.md)}@} is {@{_d_<!-- markdown separator -->__A__, on each surface _a_, _b_ and _c_}@}. <!--SR:!2028-07-15,883,330!2029-07-25,1250,350!2027-07-20,671,330!2029-04-17,1181,350!2029-05-08,1186,350!2029-10-12,1316,350!2029-10-19,1322,350!2026-03-12,294,330-->
 
 > {@{![Closed surface in the form of a cylinder having line charge in the center and showing differential areas _d_<!-- markdown separator -->__A__ of all three surfaces.](../../archives/Wikimedia%20Commons/Gaussian%20surface.jpg)}@}
 >

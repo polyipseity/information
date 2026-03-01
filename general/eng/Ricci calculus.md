@@ -252,7 +252,7 @@ For {@{an arbitrary tensor}@}:<sup>[\[17\]](#^ref-17)</sup> {@{$${\begin{aligned
 
 {@{A [Koszul connection](Koszul%20connection.md)}@} on {@{the [tangent bundle](tangent%20bundle.md) of a [differentiable manifold](differentiable%20manifold.md)}@} is called {@{an [affine connection](affine%20connection.md)}@}. <!--SR:!2026-11-25,319,350!2026-12-28,351,350!2026-10-12,281,330-->
 
-{@{A connection is a [metric connection](metric%20connection.md)}@} when {@{the covariant derivative of the metric tensor vanishes}@}: {@{$$g_{\mu \nu ;\xi }=0\,.$$}@} <!--SR:!2026-09-02,255,330!2026-03-07,19,290!2026-05-26,170,310-->
+{@{A connection is a [metric connection](metric%20connection.md)}@} when {@{the covariant derivative of the metric tensor vanishes}@}: {@{$$g_{\mu \nu ;\xi }=0\,.$$}@} <!--SR:!2026-09-02,255,330!2026-05-24,78,310!2026-05-26,170,310-->
 
 {@{An [affine connection](affine%20connection.md) that is also a metric connection}@} is called {@{a [Riemannian connection](Riemannian%20connection.md#Riemannian%20connection)}@}. {@{A Riemannian connection that is torsion-free}@} \(i.e., for which {@{the [torsion tensor](torsion%20tensor.md) vanishes}@}: {@{_T_<sup>_α_</sup><sub>_βγ_</sub> = 0}@}\) is {@{a [Levi-Civita connection](Levi-Civita%20connection.md)}@}. <!--SR:!2026-12-20,344,350!2026-11-20,314,350!2026-08-26,249,330!2026-11-14,314,350!2026-12-02,326,350!2026-11-27,321,350-->
 

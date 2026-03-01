@@ -254,7 +254,7 @@ tags:
 > 3. all of the above
 > 4. none of the above
 >
-> - solution: {@{1}@} <!--SR:!2026-03-06,387,376-->
+> - solution: {@{1}@} <!--SR:!2031-08-19,1992,396-->
 
 <!-- markdownlint MD028 -->
 

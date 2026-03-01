@@ -25,7 +25,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __comma category__}@} \(a special c
 
 ### general form
 
-Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are categories, and $S$ and $T$ \(for source and target\) are [functors](functor.md)}@}: {@{$${\mathcal {A} }{\xrightarrow {\;\;S\;\;} }{\mathcal {C} }{\xleftarrow {\;\;T\;\;} }{\mathcal {B} }$$}@} We can {@{form the comma category $(S\downarrow T)$}@} as follows: <!--SR:!2028-03-27,894,342!2030-01-10,1423,362!2026-03-06,320,354-->
+Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are categories, and $S$ and $T$ \(for source and target\) are [functors](functor.md)}@}: {@{$${\mathcal {A} }{\xrightarrow {\;\;S\;\;} }{\mathcal {C} }{\xleftarrow {\;\;T\;\;} }{\mathcal {B} }$$}@} We can {@{form the comma category $(S\downarrow T)$}@} as follows: <!--SR:!2028-03-27,894,342!2030-01-10,1423,362!2030-06-12,1559,374-->
 
 - The objects ::@:: are all triples $(A,B,h)$ with $A$ an object in ${\mathcal {A} }$, $B$ an object in ${\mathcal {B} }$, and $h:S(A)\rightarrow T(B)$ a morphism in ${\mathcal {C} }$. <!--SR:!2030-05-22,1541,374!2028-06-05,957,354-->
 - The morphisms from $(A,B,h)$ to $(A',B',h')$ ::@:: are all pairs $(f,g)$ where $f:A\rightarrow A'$ and $g:B\rightarrow B'$ are morphisms in ${\mathcal {A} }$ and ${\mathcal {B} }$ respectively, such that the following diagram [commutes](commutative%20diagram.md): <p> &emsp; ![Comma Diagram](../../archives/Wikimedia%20Commons/Comma%20Diagram.svg) <!--SR:!2029-10-27,1364,362!2029-02-01,1143,350-->
@@ -42,7 +42,7 @@ Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are 
 
 - Main article: [Overcategory](overcategory.md)
 
-{@{The [dual](dual%20(category%20theory).md) concept to a slice category}@} is {@{a coslice category}@}. Here, {@{${\mathcal {C} }={\mathcal {B} }$, $S$ has domain ${\textbf {1} }$ and $T$ is an identity functor}@}. {@{$${\textbf {1} }\xrightarrow {\;\;B_{*}\;\;} {\mathcal {B} }\xleftarrow {\;\;\mathrm {id} _{\mathcal {B} }\;\;} {\mathcal {B} }$$}@} In this case, the comma category is often written {@{$(B_{*}\downarrow {\mathcal {B} })$}@}, where {@{$B_{*}=S(*)$ is the object of ${\mathcal {B} }$ selected by $S$}@}. It is called {@{the _coslice category_ with respect to $B_{*}$, or the category of _objects under_ $B_{*}$}@}. The objects are {@{pairs $(B,\iota _{B})$ with $\iota _{B}:B_{*}\rightarrow B$}@}. Given {@{$(B,\iota _{B})$ and $(B',\iota _{B'})$}@}, {@{a morphism in the coslice category is a map $g:B\rightarrow B'$}@} making {@{the following diagram commute: <p> &emsp; ![Coslice Diagram](../../archives/Wikimedia%20Commons/Coslice%20Diagram.svg)}@} <!--SR:!2026-03-07,318,342!2029-10-18,1358,362!2028-08-27,1006,354!2026-03-24,334,354!2026-03-12,324,354!2027-09-28,745,330!2026-04-27,286,262!2026-06-22,374,302!2027-02-09,467,262!2027-03-04,572,322!2029-04-24,1168,322-->
+{@{The [dual](dual%20(category%20theory).md) concept to a slice category}@} is {@{a coslice category}@}. Here, {@{${\mathcal {C} }={\mathcal {B} }$, $S$ has domain ${\textbf {1} }$ and $T$ is an identity functor}@}. {@{$${\textbf {1} }\xrightarrow {\;\;B_{*}\;\;} {\mathcal {B} }\xleftarrow {\;\;\mathrm {id} _{\mathcal {B} }\;\;} {\mathcal {B} }$$}@} In this case, the comma category is often written {@{$(B_{*}\downarrow {\mathcal {B} })$}@}, where {@{$B_{*}=S(*)$ is the object of ${\mathcal {B} }$ selected by $S$}@}. It is called {@{the _coslice category_ with respect to $B_{*}$, or the category of _objects under_ $B_{*}$}@}. The objects are {@{pairs $(B,\iota _{B})$ with $\iota _{B}:B_{*}\rightarrow B$}@}. Given {@{$(B,\iota _{B})$ and $(B',\iota _{B'})$}@}, {@{a morphism in the coslice category is a map $g:B\rightarrow B'$}@} making {@{the following diagram commute: <p> &emsp; ![Coslice Diagram](../../archives/Wikimedia%20Commons/Coslice%20Diagram.svg)}@} <!--SR:!2030-04-12,1497,362!2029-10-18,1358,362!2028-08-27,1006,354!2026-03-24,334,354!2026-03-12,324,354!2027-09-28,745,330!2026-04-27,286,262!2026-06-22,374,302!2027-02-09,467,262!2027-03-04,572,322!2029-04-24,1168,322-->
 
 ### arrow category
 
@@ -70,7 +70,7 @@ For {@{each comma category}@} there are {@{forgetful functors from it}@}. (annot
   - (annotation: codomain functor) morphisms: ::@:: $(f,g)\mapsto g$. <!--SR:!2030-03-18,1488,374!2026-04-22,357,354-->
 - Arrow functor, ::@:: $S\downarrow T\to {\mathcal {C} }^{\rightarrow }$, which maps: <!--SR:!2029-12-06,1398,362!2027-05-11,639,330-->
   - (annotation: arrow functor) objects: ::@:: $(A,B,h)\mapsto h$; <!--SR:!2026-04-26,359,354!2026-03-24,329,342-->
-  - (annotation: arrow functor) morphisms: ::@:: $(f,g)\mapsto (Sf,Tg)$; <!--SR:!2028-10-25,995,342!2026-03-07,319,354-->
+  - (annotation: arrow functor) morphisms: ::@:: $(f,g)\mapsto (Sf,Tg)$; <!--SR:!2028-10-25,995,342!2030-06-05,1551,374-->
 
 ## examples of use
 

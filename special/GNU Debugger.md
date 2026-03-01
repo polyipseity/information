@@ -34,7 +34,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `ni` ::@:: go to the next instruction <!--SR:!2028-10-11,1167,350!2029-02-06,1260,350-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2028-07-07,993,290!2029-06-29,1369,350-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2028-08-15,1124,350!2029-01-03,1233,350-->
-- `set <storage> = <value>` ::@:: set storage to value <!--SR:!2026-03-14,425,365!2026-03-06,417,365-->
+- `set <storage> = <value>` ::@:: set storage to value <!--SR:!2026-03-14,425,365!2031-11-24,2089,385-->
 - `set args <args>...` ::@:: set program args <!--SR:!2029-08-27,1415,350!2028-03-16,999,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2028-11-15,1196,350!2027-05-10,707,290-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2028-06-24,997,330!2026-10-03,555,310-->
@@ -46,7 +46,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `rc` ::@:: reverse continue <!--SR:!2026-03-10,421,365!2026-03-13,424,365-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2027-10-23,881,365!2031-11-08,2075,385-->
 - `rn` ::@:: rewind to the previous (source) line <!--SR:!2029-09-14,1408,365!2029-01-25,1253,365-->
-- `rni` ::@:: rewind to the previous instruction <!--SR:!2031-11-16,2082,385!2026-03-07,418,365-->
+- `rni` ::@:: rewind to the previous instruction <!--SR:!2031-11-16,2082,385!2031-11-28,2092,385-->
 - `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2026-04-14,402,325!2029-04-07,1285,365-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2028-08-30,1129,365!2029-09-10,1404,365-->
 

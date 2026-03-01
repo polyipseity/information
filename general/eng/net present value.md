@@ -263,7 +263,7 @@ In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-clas
 
 - This paragraph is an excerpt from [Payback period](payback%20period.md). \[[edit](https://en.wikipedia.org/w/index.php?title=Payback_period&action=edit)\]
 
-{@{[Payback period](payback%20period.md) in [capital budgeting](capital%20budgeting.md)}@} refers to {@{the time required to [recoup](recoupment.md) the [funds](funds.md) expended in an [investment](investment.md), or to reach the [break-even point](break-even%20(economics).md)}@}. <sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-03-07,280,339!2026-05-12,352,349-->
+{@{[Payback period](payback%20period.md) in [capital budgeting](capital%20budgeting.md)}@} refers to {@{the time required to [recoup](recoupment.md) the [funds](funds.md) expended in an [investment](investment.md), or to reach the [break-even point](break-even%20(economics).md)}@}. <sup>[\[33\]](#^ref-33)</sup> <!--SR:!2029-10-10,1313,359!2026-05-12,352,349-->
 
 ### equivalent annual cost
 

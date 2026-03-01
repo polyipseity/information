@@ -228,7 +228,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 - Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2028-03-25,1093,350!2027-06-27,849,330-->
   - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2029-08-05,1429,330!2028-06-28,1163,350-->
   - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2029-01-26,1265,310!2026-09-09,631,330-->
-  - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2026-07-14,494,270!2026-03-07,435,290-->
+  - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2026-07-14,494,270!2030-12-31,1760,310-->
   - Environmental Levy Scheme income ::@:: HK$25.5 million in 2009 <!--SR:!2027-03-06,719,290!2031-08-30,2016,330-->
 
 ## page 16

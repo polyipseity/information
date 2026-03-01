@@ -207,7 +207,7 @@ The content is in teaching order.
   - activity-based costing / the other costing method ::@:: volume-based costing (includes job costing, process costing) <!--SR:!2026-10-06,469,388!2026-10-09,471,388-->
 - volume-based costing
   - volume-based costing / predetermined overhead rate (POHR) ::@:: POHR = estimated MOH / estimated cost driver. We need to identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. <!--SR:!2027-10-06,752,368!2026-04-08,317,368-->
-  - volume-based costing / manufacturing overhead cost per unit ::@:: Find the cost driver assigned to the process producing the units. Then use POHR to find the (applied) manufacturing overhead. Finally divide it by the number of (equivalent) units produced. Less means the process is more efficient. <!--SR:!2026-12-28,513,348!2026-03-07,294,368-->
+  - volume-based costing / manufacturing overhead cost per unit ::@:: Find the cost driver assigned to the process producing the units. Then use POHR to find the (applied) manufacturing overhead. Finally divide it by the number of (equivalent) units produced. Less means the process is more efficient. <!--SR:!2026-12-28,513,348!2030-03-30,1484,388-->
   - volume-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <!--SR:!2026-09-04,436,388!2026-09-19,450,388-->
   - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <!--SR:!2026-04-05,314,368!2026-04-28,337,368-->
 

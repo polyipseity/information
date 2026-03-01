@@ -54,7 +54,7 @@ The law can be expressed mathematically using {@{[vector calculus](vector%20calc
 
 ## equation involving the E field
 
-Gauss's law can be stated using {@{either the electric field __E__ or the electric displacement field __D__}@}. This section shows {@{some of the forms with __E__}@}; the form with __D__ is {@{below, as are other forms with __E__}@}. <!--SR:!2029-06-25,1229,350!2026-03-06,293,330!2029-04-24,1177,350-->
+Gauss's law can be stated using {@{either the electric field __E__ or the electric displacement field __D__}@}. This section shows {@{some of the forms with __E__}@}; the form with __D__ is {@{below, as are other forms with __E__}@}. <!--SR:!2029-06-25,1229,350!2029-11-02,1337,350!2029-04-24,1177,350-->
 
 ### integral form
 
@@ -82,7 +82,7 @@ In problems involving {@{conductors set at known potentials}@}, {@{the potential
 
 {@{The reverse problem}@}, when {@{the electric charge distribution is known and the electric field must be computed}@}, is {@{much more difficult}@}. {@{The total flux through a given surface}@} gives {@{little information about the electric field}@}, and can {@{go in and out of the surface in arbitrarily complicated patterns}@}. <!--SR:!2029-04-08,1172,350!2029-07-05,1238,350!2029-04-17,1181,350!2029-09-10,1291,350!2027-07-17,668,330!2029-08-20,1275,350-->
 
-{@{An exception}@} is if there is {@{some [symmetry](symmetry.md) in the problem}@}, which mandates that {@{the electric field passes through the surface in a uniform way}@}. Then, if {@{the total flux is known}@}, {@{the field itself can be deduced at every point}@}. Common examples of {@{symmetries which lend themselves to Gauss's law}@} include: {@{cylindrical symmetry, planar symmetry, and spherical symmetry}@}. See {@{the article [Gaussian surface](Gaussian%20surface.md)}@} for examples where {@{these symmetries are exploited to compute electric fields}@}. <!--SR:!2029-09-09,1290,350!2029-08-05,1263,350!2029-06-07,1212,350!2029-10-13,1321,350!2029-03-22,1160,350!2029-04-06,1170,350!2026-04-23,305,290!2026-03-07,294,330!2026-03-09,294,330-->
+{@{An exception}@} is if there is {@{some [symmetry](symmetry.md) in the problem}@}, which mandates that {@{the electric field passes through the surface in a uniform way}@}. Then, if {@{the total flux is known}@}, {@{the field itself can be deduced at every point}@}. Common examples of {@{symmetries which lend themselves to Gauss's law}@} include: {@{cylindrical symmetry, planar symmetry, and spherical symmetry}@}. See {@{the article [Gaussian surface](Gaussian%20surface.md)}@} for examples where {@{these symmetries are exploited to compute electric fields}@}. <!--SR:!2029-09-09,1290,350!2029-08-05,1263,350!2029-06-07,1212,350!2029-10-13,1321,350!2029-03-22,1160,350!2029-04-06,1170,350!2026-04-23,305,290!2029-11-11,1345,350!2026-03-09,294,330-->
 
 ### differential form
 
@@ -92,7 +92,7 @@ By {@{the [divergence theorem](divergence%20theorem.md)}@}, Gauss's law can {@{a
 
 - Main article: ::@:: [Divergence theorem](divergence%20theorem.md) <!--SR:!2029-03-13,1151,350!2029-03-04,1143,350-->
 
-{@{The integral and differential forms}@} are {@{mathematically equivalent}@}, by {@{the divergence theorem}@}. Here is the argument more specifically. <!--SR:!2029-07-21,1251,350!2029-05-10,1192,350!2026-03-06,293,330-->
+{@{The integral and differential forms}@} are {@{mathematically equivalent}@}, by {@{the divergence theorem}@}. Here is the argument more specifically. <!--SR:!2029-07-21,1251,350!2029-05-10,1192,350!2029-11-03,1338,350-->
 
 > __Outline of proof__
 >
@@ -190,7 +190,7 @@ Strictly speaking, {@{Coulomb's law cannot be derived from Gauss's law alone}@},
 ## notes
 
 1. {@{The other three of [Maxwell's equations](Maxwell's%20equations.md)}@} are: {@{[Gauss's law for magnetism](Gauss's%20law%20for%20magnetism.md), [Faraday's law of induction](Faraday's%20law%20of%20induction.md), and [Ampère's law with Maxwell's correction](Ampère's%20circuital%20law.md)}@} <a id="^ref-note-1"></a>^ref-note-1
-2. More specifically, {@{the infinitesimal area}@} is thought of as {@{[planar](plane%20(mathematics).md) and with area d<!-- markdown separator -->_N_}@}. {@{The vector d<!-- markdown separator -->__R__}@} is {@{[normal](normal%20(geometry).md) to this area element and has [magnitude](magnitude%20(vector).md) d<!-- markdown separator -->_A_}@}.<sup>[\[7\]](#^ref-7)</sup> <a id="^ref-note-2"></a>^ref-note-2 <!--SR:!2026-03-09,294,330!2029-10-20,1327,350!2026-03-06,293,330!2029-04-10,1163,350!2026-03-07,294,330!2029-06-08,1214,350-->
+2. More specifically, {@{the infinitesimal area}@} is thought of as {@{[planar](plane%20(mathematics).md) and with area d<!-- markdown separator -->_N_}@}. {@{The vector d<!-- markdown separator -->__R__}@} is {@{[normal](normal%20(geometry).md) to this area element and has [magnitude](magnitude%20(vector).md) d<!-- markdown separator -->_A_}@}.<sup>[\[7\]](#^ref-7)</sup> <a id="^ref-note-2"></a>^ref-note-2 <!--SR:!2026-03-09,294,330!2029-10-20,1327,350!2029-11-04,1339,350!2029-04-10,1163,350!2029-11-11,1345,350!2029-06-08,1214,350-->
 
 ## citations
 

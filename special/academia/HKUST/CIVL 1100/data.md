@@ -44,7 +44,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
-- description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2029-05-24,1384,327!2026-03-07,555,397-->
+- description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2029-05-24,1384,327!2034-05-26,3002,417-->
 - height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2026-03-22,147,200!2030-02-12,1672,385-->
 - image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2031-08-18,2124,400!2033-06-21,2719,420-->
 - shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2029-03-17,1417,392-->
@@ -115,7 +115,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::@:: tower on the Champ de Mars in Paris, France <!--SR:!2027-03-05,761,347!2027-07-08,933,350-->
 - height ::@:: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2027-11-13,890,317!2028-02-15,1110,350-->
-- image ::@:: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2026-03-13,549,400-->
+- image ::@:: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2034-04-24,2970,420!2026-03-13,549,400-->
 - shape ::@:: exponential <!--SR:!2028-10-03,1308,370!2028-03-21,1160,355-->
 
 ## Empire State Building
@@ -222,7 +222,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2029-07-29,1495,396!2027-01-26,801,416-->
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2029-12-21,1422,316!2026-12-05,758,416-->
-  - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
+  - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2033-07-31,2704,416!2026-10-10,718,416-->
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2029-11-25,1389,316!2033-05-09,2638,416-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2031-11-19,2227,416-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!2026-07-11,443,276!2029-05-18,1447,396-->

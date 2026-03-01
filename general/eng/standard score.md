@@ -121,7 +121,7 @@ In {@{[mathematical statistics](mathematical%20statistics.md)}@}, {@{a [random v
 
 - "{@{T-score}@}" redirects here. Not to be confused with {@{[_t_-statistic](t-statistic.md)}@}. <!--SR:!2029-03-06,1157,350!2029-02-28,1151,350-->
 
-In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled}@} to have {@{a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-01-31,1138,350!2029-06-23,1248,350!2027-04-30,570,310!2026-03-06,123,389-->
+In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled}@} to have {@{a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2029-01-31,1138,350!2029-06-23,1248,350!2027-04-30,570,310!2027-12-25,659,409-->
 
 In {@{bone density measurements}@}, the T-score is {@{the standard score of the measurement compared to the population of healthy 30-year-old adults}@}, and has {@{the usual mean of 0 and standard deviation of 1}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2029-08-06,1284,350!2029-09-13,1314,350!2029-07-23,1270,350-->
 

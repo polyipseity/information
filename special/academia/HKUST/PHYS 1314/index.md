@@ -922,7 +922,7 @@ The content is in teaching order.
     - data: [final examination data.csv](attachments/final%20examination%20data.csv) → ?
 - report
   - time limit ::@:: It was okay. Mainly because I did not know how to solve one problem. <!--SR:!2029-10-15,1322,487!2026-03-19,222,467-->
-  - coupled capacitors \(–7\) ::@:: Apply KVL to the two meshes. Find solutions for $I_1$ and $I_2$ that satisfy both equations. One way is multiplying the two differential equations together, and then picking solutions satisfying both differential equations. <p> It may be simpler to do so in the _s_-domain, but this is untaught... <!--SR:!2026-03-06,211,467!2026-03-21,224,467-->
+  - coupled capacitors \(–7\) ::@:: Apply KVL to the two meshes. Find solutions for $I_1$ and $I_2$ that satisfy both equations. One way is multiplying the two differential equations together, and then picking solutions satisfying both differential equations. <p> It may be simpler to do so in the _s_-domain, but this is untaught... <!--SR:!2029-11-06,1341,487!2026-03-21,224,467-->
   - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this... <!--SR:!2026-03-11,216,467!2026-03-12,217,467-->
 - check
   - datetime: 2025-06-02T14:00:00+08:00/2025-06-02T16:00:00+08:00, PT2H

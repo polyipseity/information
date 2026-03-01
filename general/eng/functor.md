@@ -60,7 +60,7 @@ Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-
 - The composite of two functors of the same variance: ::@:: (annotation: composite is covariant) <!--SR:!2029-03-19,1118,346!2026-03-13,339,357-->
   - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
   - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
-- The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant) <!--SR:!2026-03-06,332,357!2026-03-30,352,357-->
+- The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant) <!--SR:!2030-08-20,1628,377!2026-03-30,352,357-->
   - $\mathrm {Covariant} \circ \mathrm {Contravariant} \to \mathrm {Contravariant}$
   - $\mathrm {Contravariant} \circ \mathrm {Covariant} \to \mathrm {Contravariant}$
 
@@ -91,7 +91,7 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 
 One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{_G_ is a functor from _B_ to _C_ then one can form the composite functor _G_ ∘ _F_ from _A_ to _C_}@}. {@{Composition of functors}@} is {@{associative where defined}@}. {@{Identity of composition of functors}@} is {@{the identity functor}@}. This shows that {@{functors can be considered as morphisms in categories of categories}@}, for example in {@{the [category of small categories](category%20of%20small%20categories.md)}@}. <!--SR:!2026-03-23,346,357!2026-03-26,349,357!2030-03-30,1502,366!2026-04-11,362,357!2029-08-13,1306,350!2030-05-08,1534,366!2026-03-12,338,357!2026-03-29,351,357-->
 
-{@{A small category with a single object}@} is {@{the same thing as a [monoid](monoid.md)}@}: the morphisms of {@{a one-object category can be thought of as elements of the monoid}@}, and composition {@{in the category is thought of as the monoid operation}@}. {@{Functors between one-object categories}@} correspond to {@{monoid [homomorphisms](homomorphism.md)}@}. So in a sense, {@{functors between arbitrary categories}@} are {@{a kind of generalization of monoid homomorphisms to categories with more than one object}@}. <!--SR:!2026-04-08,360,357!2030-03-22,1496,366!2026-03-21,345,357!2030-05-02,1529,366!2026-03-07,333,357!2028-12-07,1115,357!2030-04-21,1520,366!2030-03-08,1484,366-->
+{@{A small category with a single object}@} is {@{the same thing as a [monoid](monoid.md)}@}: the morphisms of {@{a one-object category can be thought of as elements of the monoid}@}, and composition {@{in the category is thought of as the monoid operation}@}. {@{Functors between one-object categories}@} correspond to {@{monoid [homomorphisms](homomorphism.md)}@}. So in a sense, {@{functors between arbitrary categories}@} are {@{a kind of generalization of monoid homomorphisms to categories with more than one object}@}. <!--SR:!2026-04-08,360,357!2030-03-22,1496,366!2026-03-21,345,357!2030-05-02,1529,366!2030-08-26,1633,377!2028-12-07,1115,357!2030-04-21,1520,366!2030-03-08,1484,366-->
 
 ## examples
 
@@ -103,7 +103,7 @@ __Presheaves \(over a topological space\)__
 
 &emsp; If {@{_X_ is a [topological space](topological%20space.md)}@}, then {@{the [open sets](open%20set.md) in _X_ form a [partially ordered set](partially%20ordered%20set.md) Open\(_X_\) under inclusion}@}. Like {@{every partially ordered set}@}, {@{Open\(_X_\) forms a small category}@} by {@{adding a single arrow _U_ → _V_ if and only if $U\subseteq V$}@}. {@{Contravariant functors on (annotation: i.e. from) Open\(_X_\)}@} are called {@{_[presheaves](presheaf.md#presheaves)_ on _X_}@}. For instance, by {@{assigning to every open set _U_ the [associative algebra](associative%20algebra.md) of real-valued continuous functions on _U_}@}, one obtains {@{a presheaf of algebras on _X_}@}. <!--SR:!2029-09-25,1341,350!2026-03-24,347,357!2029-09-29,1345,350!2029-03-10,1111,346!2030-03-27,1500,366!2029-01-17,1071,346!2026-03-27,350,357!2027-11-09,782,337!2029-06-16,1213,317-->
 
-__Constant functor__ <p> ::@:: &emsp; The functor _C_ → _D_ which maps every object of _C_ to a fixed object _X_ in _D_ and every morphism in _C_ to the identity morphism on _X_. Such a functor is called a _constant_ or _selection_ functor. (annotation: note that functors are not required to be injective or surjective) <!--SR:!2026-03-28,350,357!2026-03-06,331,346-->
+__Constant functor__ <p> ::@:: &emsp; The functor _C_ → _D_ which maps every object of _C_ to a fixed object _X_ in _D_ and every morphism in _C_ to the identity morphism on _X_. Such a functor is called a _constant_ or _selection_ functor. (annotation: note that functors are not required to be injective or surjective) <!--SR:!2026-03-28,350,357!2030-06-30,1577,366-->
 
 __Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same category; e.g., [polynomial functor](polynomial%20functor.md). <!--SR:!2027-07-18,697,330!2027-04-24,638,330-->
 

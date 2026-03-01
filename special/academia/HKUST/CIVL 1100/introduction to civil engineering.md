@@ -48,7 +48,7 @@ The content is in teaching order.
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2029-07-16,1373,307!2031-01-17,1955,400-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!2026-10-21,698,360-->
-- civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2030-12-09,1925,396-->
+- civil engineering solutions ::@:: smart cities <!--SR:!2034-04-29,2976,420!2030-12-09,1925,396-->
   - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2033-07-20,2741,420-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
@@ -453,7 +453,7 @@ testing materials
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2029-03-01,1423,395-->
-- budgeting→::@::←contracting <!--SR:!2030-06-11,1735,354!2026-03-06,483,327-->
+- budgeting→::@::←contracting <!--SR:!2030-06-11,1735,354!2032-02-22,2179,347-->
 - contracting→::@::←designing temporary structures <!--SR:!2029-02-22,1132,235!2027-12-14,966,315-->
 - designing temporary structures→::@::←logistics <!--SR:!2031-04-18,1967,360!2027-07-26,761,297-->
 - logistics→::@::←planning <!--SR:!2028-02-13,967,314!2030-12-03,1854,355-->
@@ -593,7 +593,7 @@ nuclear
 - _(begin)_→::@::←agricultural <!--SR:!2030-10-29,1805,330!2032-12-02,2555,412-->
 - agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2029-10-20,1582,392-->
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
-- biomedical→::@::←ceramic <!--SR:!2031-03-17,1885,340!2026-03-07,528,357-->
+- biomedical→::@::←ceramic <!--SR:!2031-03-17,1885,340!2033-04-07,2588,377-->
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2030-11-13,1843,355-->
 - chemical→::@::←civil <!--SR:!2031-11-11,2112,357!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
@@ -741,7 +741,7 @@ tunnel
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←embankment <!--SR:!2030-01-19,1577,340!2030-01-18,1664,400-->
-- embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2027-04-14,785,360-->
+- embankment→::@::←pile foundation <!--SR:!2032-09-22,2392,360!2027-04-14,785,360-->
 - pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!2026-11-13,678,355-->
 - shallow foundation→::@::←tunnel <!--SR:!2029-09-20,1475,341!2028-09-26,1035,252-->
 - tunnel→::@::←_(end)_ <!--SR:!2027-08-10,937,370!2031-01-08,1805,337-->
