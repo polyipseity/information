@@ -158,6 +158,7 @@ def test_two_sided_calc_warning():
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     assert "left" in msgs[0].msg and "calculation" in msgs[0].msg
+    assert "ignore-line" in msgs[0].msg or "check directive" in msgs[0].msg
 
     # if left side also contains LaTeX, no warning
     txt2 = "- calc $a$ ::@:: result $b$\n"
@@ -170,6 +171,7 @@ def test_two_sided_calc_warning():
     msgs3 = one_sided_calc_warning(ctx3)
     assert msgs3 and msgs3[0].severity == Severity.WARNING
     assert "one-sided" in msgs3[0].msg
+    assert "ignore-line" in msgs3[0].msg or "check directive" in msgs3[0].msg
     # two-sided cards should not trigger the one-sided rule even if they
     # contain a ":@:" substring
     assert not one_sided_calc_warning(make_ctx("- a :@: $b$ ::@:: dummy\n"))

@@ -603,9 +603,13 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="two_sided_calc_warning",
                         msg=(
-                            "two-sided card has LaTeX on right but not left; "
-                            "please put/duplicate calculation data before ::@:: "
-                            "(make it a question). suppress only for conceptual cards."
+                            "two-sided card contains LaTeX on the right-hand side "
+                            "but none on the left. "
+                            "This typically means you forgot to repeat the numerical/"
+                            "symbolic data before `::@::` so the card can be answered. "
+                            "For purely conceptual cards (no calculation or data), "
+                            "you can suppress the warning using a check directive, "
+                            "e.g. `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`."
                         ),
                         severity=Severity.WARNING,
                         line=idx,
@@ -649,9 +653,10 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="one_sided_calc_warning",
                         msg=(
-                            "one-sided card has LaTeX on right but not left; "
-                            "please put/duplicate calculation data before :@:. "
-                            "suppress only for conceptual cards."
+                            "one-sided card contains LaTeX on the right-hand side but none on the left. "
+                            "Please put or duplicate the numerical/symbolic data before :@:. "
+                            "For conceptual cards you may suppress this warning with a "
+                            "directive such as `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
                         ),
                         severity=Severity.WARNING,
                         line=idx,
