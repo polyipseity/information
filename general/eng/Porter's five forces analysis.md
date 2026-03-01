@@ -17,7 +17,7 @@ tags:
 
 ## five forces that shape competition
 
-The 5 forces are {@{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}@}. The first 4 forces {@{surrounds the last force in a loop}@}. <!--SR:!2026-03-08,423,290!2028-02-04,1041,350-->
+The 5 forces are {@{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}@}. The first 4 forces {@{surrounds the last force in a loop}@}. <!--SR:!2029-07-17,1227,290!2028-02-04,1041,350-->
 
 ### threat of new entrants
 

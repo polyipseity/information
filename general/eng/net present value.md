@@ -211,7 +211,7 @@ A more simple example of {@{the net present value of incoming cash flow over a s
 
 > {@{The forming of a fictitious capital}@} is called {@{capitalising}@}. {@{Every periodically repeated income}@} is {@{capitalised by calculating it on the average rate of interest}@}, as {@{an income which would be realised by a capital at this rate of interest}@}. <!--SR:!2026-06-07,373,359!2026-06-24,388,359!2028-11-20,1065,350!2028-10-16,1036,350!2026-07-07,399,365-->
 
-In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-classical%20economics.md)}@}, NPV was formalized and popularized by {@{[Irving Fisher](Irving%20Fisher.md), in his 1907 _The Rate of Interest_}@} and became {@{included in textbooks from the 1950s onwards, starting in finance texts}@}.<sup>[\[23\]](#^ref-23)</sup><sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-04-11,324,349!2026-03-08,281,339!2026-06-04,370,359-->
+In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-classical%20economics.md)}@}, NPV was formalized and popularized by {@{[Irving Fisher](Irving%20Fisher.md), in his 1907 _The Rate of Interest_}@} and became {@{included in textbooks from the 1950s onwards, starting in finance texts}@}.<sup>[\[23\]](#^ref-23)</sup><sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-04-11,324,349!2029-10-16,1318,359!2026-06-04,370,359-->
 
 ## alternative capital budgeting methods
 

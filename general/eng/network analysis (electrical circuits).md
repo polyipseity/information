@@ -51,7 +51,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 - {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](terminal%20(electronics).md) into which, or out of which, current may flow.}@} <!--SR:!2029-02-26,1122,350!2026-04-04,281,340-->
 
-- {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined. A conductor with a substantially zero resistance is considered to be a node for the purpose of analysis.}@} <!--SR:!2026-03-08,275,330!2026-05-27,340,349-->
+- {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined. A conductor with a substantially zero resistance is considered to be a node for the purpose of analysis.}@} <!--SR:!2029-08-14,1255,350!2026-05-27,340,349-->
 
 - {@{__Branch__}@}: {@{The component\(s\) joining two nodes.}@} <!--SR:!2028-11-28,1053,360!2026-07-12,381,360-->
 
@@ -237,7 +237,7 @@ For {@{a network to which only steady ac signals are applied}@}, {@{s is replace
 > - inductor, steady AC ::@:: $Z(j\omega) = j\omega L$ <!--SR:!2026-07-16,384,360!2026-07-21,387,360-->
 > - capacitor, steady AC ::@:: $Z(j\omega) = \frac 1 {j\omega C}$ <!--SR:!2029-06-14,1205,350!2026-07-05,375,360-->
 
-Finally, for {@{a network to which only steady dc is applied}@}, {@{s is replaced with zero}@} and {@{dc network theory applies}@}. <!--SR:!2029-04-04,1152,350!2026-07-24,390,360!2026-03-08,275,330-->
+Finally, for {@{a network to which only steady dc is applied}@}, {@{s is replaced with zero}@} and {@{dc network theory applies}@}. <!--SR:!2029-04-04,1152,350!2026-07-24,390,360!2029-08-17,1258,350-->
 
 |           |                 |
 | --------- | --------------- |
@@ -297,7 +297,7 @@ If {@{all circuit components were linear or the circuit was linearized beforehan
 
 - _i_ and _v_ ::@:: are the instantaneous current and voltage. <!--SR:!2026-07-04,374,360!2026-07-06,375,360-->
 - _I<sub>o</sub>_ ::@:: is an arbitrary parameter called the reverse leakage current whose value depends on the construction of the device. <!--SR:!2026-06-22,362,360!2026-05-04,324,349-->
-- _V<sub>T</sub>_ ::@:: is a parameter proportional to temperature called the thermal voltage and equal to about 25mV at room temperature. <!--SR:!2026-06-16,358,360!2026-03-08,275,330-->
+- _V<sub>T</sub>_ ::@:: is a parameter proportional to temperature called the thermal voltage and equal to about 25mV at room temperature. <!--SR:!2026-06-16,358,360!2029-08-16,1257,350-->
 
 There are {@{many other ways that non-linearity can appear in a network}@}. {@{All methods utilising linear superposition}@} will {@{fail when non-linear components are present}@}. There are {@{several options for dealing with non-linearity}@} depending on {@{the type of circuit and the information the analyst wishes to obtain}@}. <!--SR:!2026-07-28,394,360!2026-06-27,367,360!2026-05-15,331,349!2029-02-10,1108,350!2029-02-01,1099,350-->
 
@@ -375,7 +375,7 @@ In linear analysis, {@{the components of the network are assumed to be unchangin
 
 - See also: ::@:: [Spintronics](spintronics.md) <!--SR:!2026-04-06,298,349!2029-01-22,1092,350-->
 
-{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-07-18,386,360!2026-07-22,388,360!2028-02-03,803,330!2026-03-08,275,330!2029-01-23,1093,350!2026-04-01,293,330-->
+{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-07-18,386,360!2026-07-22,388,360!2028-02-03,803,330!2029-08-15,1256,350!2029-01-23,1093,350!2026-04-01,293,330-->
 
 ## see also
 

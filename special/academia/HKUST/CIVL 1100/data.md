@@ -63,7 +63,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::@:: skyscraper in the central business district of Beijing, China <!--SR:!2032-01-26,2174,352!2031-06-06,2106,407-->
-- height ::@:: roof: 234 m <!--SR:!2028-02-12,896,260!2026-03-08,556,397-->
+- height ::@:: roof: 234 m <!--SR:!2028-02-12,896,260!2034-06-08,3014,417-->
 - image ::@:: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2028-05-24,1161,380!2033-06-19,2717,420-->
 - shape ::@:: big pants <!--SR:!2032-09-01,2469,405!2033-03-31,2637,420-->
 
@@ -211,7 +211,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 ## MOSE
 
-- image ::@:: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2029-02-08,1348,380!2026-03-08,545,400-->
+- image ::@:: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2029-02-08,1348,380!2034-05-01,2976,420-->
 - type ::@:: mobile gates <!--SR:!2030-07-31,1764,357!2029-04-21,1459,387-->
 
 ## Millau Viaduct

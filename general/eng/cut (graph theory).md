@@ -55,7 +55,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 
 > {@{![a maximum cut](../../archives/Wikimedia%20Commons/Max-cut.svg)}@}
 >
-> {@{A maximum cut.}@} <!--SR:!2026-03-08,370,310!2029-11-18,1439,350-->
+> {@{A maximum cut.}@} <!--SR:!2030-07-13,1588,330!2029-11-18,1439,350-->
 
 {@{A cut is _maximum_}@} if {@{the size of the cut is not smaller than the size of any other cut}@}. The illustration on the right shows {@{a maximum cut: the size of the cut is equal to 5}@}, and there is {@{no cut of size 6, or |_E_| (the number of edges)}@}, because {@{the graph is not [bipartite](bipartite%20graph.md) (there is an [odd cycle](cycle%20graph.md#terminology))}@}. <!--SR:!2029-11-25,1445,350!2029-10-31,1425,350!2027-12-17,858,330!2028-10-16,1040,330!2026-06-22,132,396-->
 

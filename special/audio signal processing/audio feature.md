@@ -13,7 +13,7 @@ An {@{__audio feature__}@} captures {@{specific aspects of audio signals}@}. The
 
 ## descriptors
 
-They are {@{many different descriptors}@}. They can be mostly categorized into {@{spectral, time-domain, tonal}@}, {@{rhythm, SFX, and high-level descriptors}@} \(this is used by {@{[Essentia](https://essentia.upf.edu/)}@}\). <!--SR:!2026-07-02,283,330!2026-03-08,177,310!2026-05-24,252,330!2027-06-20,520,400-->
+They are {@{many different descriptors}@}. They can be mostly categorized into {@{spectral, time-domain, tonal}@}, {@{rhythm, SFX, and high-level descriptors}@} \(this is used by {@{[Essentia](https://essentia.upf.edu/)}@}\). <!--SR:!2026-07-02,283,330!2028-03-31,754,330!2026-05-24,252,330!2027-06-20,520,400-->
 
 ## spectral features
 

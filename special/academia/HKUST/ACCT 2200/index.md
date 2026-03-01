@@ -203,7 +203,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-19T12:00:00+08:00/2025-02-19T13:20:00+08:00
 - topic: activity-based costing (ABC)
-- [activity-based costing](../../../../general/activity-based%20costing.md) ::@:: It is a costing method that identifies activities in an organization and assigns the cost of each activity to all products and services according to the actual consumption by each. Therefore, this model assigns more indirect costs (overhead) into direct costs compared to conventional costing. <!--SR:!2026-09-18,451,388!2026-03-08,295,368-->
+- [activity-based costing](../../../../general/activity-based%20costing.md) ::@:: It is a costing method that identifies activities in an organization and assigns the cost of each activity to all products and services according to the actual consumption by each. Therefore, this model assigns more indirect costs (overhead) into direct costs compared to conventional costing. <!--SR:!2026-09-18,451,388!2030-04-03,1487,388-->
   - activity-based costing / the other costing method ::@:: volume-based costing (includes job costing, process costing) <!--SR:!2026-10-06,469,388!2026-10-09,471,388-->
 - volume-based costing
   - volume-based costing / predetermined overhead rate (POHR) ::@:: POHR = estimated MOH / estimated cost driver. We need to identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. <!--SR:!2027-10-06,752,368!2026-04-08,317,368-->

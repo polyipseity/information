@@ -79,7 +79,7 @@ Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show
 
 ### every nontrivial ring with unity contains a maximal ideal
 
-Zorn's lemma can be used to {@{show that every nontrivial [ring](ring%20(mathematics).md) _R_ with [unity](ring%20(mathematics).md) contains a [maximal (proper) ideal](maximal%20ideal.md)}@}. (annotation: {@{An __ideal__ of a [ring](ring%20(mathematics).md)}@} is {@{a special [subset](subset.md) of its elements}@}. Ideals generalize {@{certain subsets of the [integers](integer.md), such as the [even numbers](parity%20(mathematics).md) or the multiples of 3}@}. {@{Addition and subtraction of even numbers}@} {@{preserves evenness}@}, and {@{multiplying an even number by any integer \(even or odd\)}@} {@{results in an even number}@}; {@{these [closure](closure%20(mathematics).md) and absorption properties}@} are {@{the defining properties of an ideal}@}.) <!--SR:!2026-04-08,353,310!2026-03-08,345,350!2030-06-16,1581,370!2029-04-30,1244,358!2028-07-09,1004,350!2029-09-19,1347,358!2030-06-30,1593,370!2028-02-21,899,350!2026-03-08,345,350!2030-08-16,1630,370-->
+Zorn's lemma can be used to {@{show that every nontrivial [ring](ring%20(mathematics).md) _R_ with [unity](ring%20(mathematics).md) contains a [maximal (proper) ideal](maximal%20ideal.md)}@}. (annotation: {@{An __ideal__ of a [ring](ring%20(mathematics).md)}@} is {@{a special [subset](subset.md) of its elements}@}. Ideals generalize {@{certain subsets of the [integers](integer.md), such as the [even numbers](parity%20(mathematics).md) or the multiples of 3}@}. {@{Addition and subtraction of even numbers}@} {@{preserves evenness}@}, and {@{multiplying an even number by any integer \(even or odd\)}@} {@{results in an even number}@}; {@{these [closure](closure%20(mathematics).md) and absorption properties}@} are {@{the defining properties of an ideal}@}.) <!--SR:!2026-04-08,353,310!2030-09-25,1662,370!2030-06-16,1581,370!2029-04-30,1244,358!2028-07-09,1004,350!2029-09-19,1347,358!2030-06-30,1593,370!2028-02-21,899,350!2030-09-24,1661,370!2030-08-16,1630,370-->
 
 Let {@{_P_ be the set consisting of all _proper_ [ideals](ideal%20(ring%20theory).md) in _R_}@} \(that is, {@{all ideals in _R_ except _R_ itself}@}\). Since {@{_R_ is non-trivial}@}, {@{the set _P_ contains the trivial ideal {0}<!-- flashcard separator -->}@}. Furthermore, {@{_P_ is partially ordered by set inclusion}@}. Finding {@{a maximal (proper) ideal in _R_ is the same as finding a maximal element in _P_}@}. <!--SR:!2028-06-26,991,350!2029-04-26,1240,358!2029-08-07,1304,350!2028-06-09,978,350!2030-06-17,1582,370!2027-01-01,559,318-->
 
@@ -121,7 +121,7 @@ This proof shows that actually {@{a slightly stronger version of Zorn's lemma is
 
 > __Lemma__ — If {@{_P_ is a [poset](partially%20ordered%20set.md) in which every [well-ordered](well-order.md) subset has an upper bound, and if _x_ is any element of _P_}@}, then {@{_P_ has a maximal element greater than or equal to _x_. That is, there is a maximal element which is comparable to _x_}@}. <!--SR:!2026-09-03,357,238!2026-12-02,495,310-->
 
-Alternatively, one can {@{use the same proof for the [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}. This is the proof given for example in {@{Halmos' _[Naive Set Theory](naive%20set%20theory.md)_ or in [§ Proof](#proof) below}@}. <!--SR:!2030-01-10,1455,370!2026-03-08,345,350-->
+Alternatively, one can {@{use the same proof for the [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}. This is the proof given for example in {@{Halmos' _[Naive Set Theory](naive%20set%20theory.md)_ or in [§ Proof](#proof) below}@}. <!--SR:!2030-01-10,1455,370!2030-09-26,1663,370-->
 
 Finally, {@{the [Bourbaki–Witt theorem](Bourbaki–Witt%20theorem.md)}@} can also {@{be used to give a proof}@}. <!--SR:!2027-04-05,631,330!2030-09-13,1653,370-->
 
@@ -141,7 +141,7 @@ Finally, {@{the [Bourbaki–Witt theorem](Bourbaki–Witt%20theorem.md)}@} can a
 
 The proof of the weak form is given in {@{[Hausdorff maximal principle\#Proof](Hausdorff%20maximal%20principle.md#proof)}@}. Indeed, {@{the existence of a maximal chain}@} is {@{exactly the assertion of the Hausdorff maximal principle}@}. <!--SR:!2030-08-10,1625,370!2029-05-20,1262,358!2030-09-05,1646,370-->
 
-The same proof also shows {@{the following equivalent variant of Zorn's lemma}@}:<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2026-03-08,345,350-->
+The same proof also shows {@{the following equivalent variant of Zorn's lemma}@}:<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2030-09-23,1660,370-->
 
 > __Lemma__ — Let {@{$P$ be a partially ordered set in which each chain has a least upper bound in $P$}@}. Then {@{$P$ has a maximal element}@}. <!--SR:!2026-10-14,458,310!2030-09-12,1652,370-->
 

@@ -68,7 +68,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 #### `pwndbg` stack
 
-- `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2026-03-08,419,365!2026-09-13,541,325-->
+- `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2031-12-05,2098,385!2026-09-13,541,325-->
 - `stackf <count> <offset>` ::@:: prints entire stack frame with the specified count and offset <!--SR:!2026-06-12,430,305!2026-08-04,512,325-->
 
 ## miscellaneous
