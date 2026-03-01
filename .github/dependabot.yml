@@ -32,7 +32,7 @@ updates:
           - "*"
     # Disable updates for specific paths
     exclude-paths:
-      - "/special/academia/HKUST/COMP 3633/presentation 10/examples"
+      - "special/academia/HKUST/COMP 3633/presentation 10/examples"
 
   # Python (pyproject.toml - dependency-groups / project.optional-dependencies).
   # We manage Python dependencies with `uv` and commit `uv.lock` for reproducible installs.
