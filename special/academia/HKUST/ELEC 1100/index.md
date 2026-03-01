@@ -21,12 +21,7 @@ tags:
 ELEC1100 is designed to provide the fundamental knowledge in electrical engineering, basic electronic components and skills needed for the design, implementation and evaluation of a robot and its subsystems. It covers the basic electronic engineering principles and techniques. Hands-on laboratory sessions, complemented with lectures and tutorials, are provided to allow students to have a systematic view of the electronic engineering principles. Students apply the knowledge and principles learnt to design and build a functional robot by themselves.
 
 - For any grading components, late submission will NOT be accepted.
-- Make-up sessions and special accommodations are handled by the
-  instructor or IA; consult the official syllabus or LMS for contact
-  details rather than embedding names or email addresses in the note.
-  Submit proof of absence within one week to arrange a make-up session.
-  Medical accommodations require a hard copy of the original
-  certificate.
+- Make-up sessions and special accommodations are handled by the instructor or IA; consult the official syllabus or LMS for contact details rather than embedding names or email addresses in the note.  Submit proof of absence within one week to arrange a make-up session.  Medical accommodations require a hard copy of the original certificate.
 
 The content is in teaching order.
 
