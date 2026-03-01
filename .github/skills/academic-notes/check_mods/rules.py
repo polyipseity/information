@@ -16,7 +16,7 @@ its decorator.  The functions are pure: they accept a
 import re
 from string import punctuation
 
-from .models import ValidationContext, ValidationMessage
+from .models import Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
 from .utils import FRONT_RE, has_flash_tag, locate, locate_range
 
@@ -36,7 +36,11 @@ def metadata_aliases_present(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     if "aliases:" not in ctx.front:
-        errors.append(ValidationMessage("no 'aliases:' in frontmatter"))
+        errors.append(
+            ValidationMessage(
+                "metadata_aliases_present", "no 'aliases:' in frontmatter"
+            )
+        )
     return errors
 
 
@@ -48,7 +52,9 @@ def metadata_tags_present(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     if "tags:" not in ctx.front:
-        errors.append(ValidationMessage("no 'tags:' in frontmatter"))
+        errors.append(
+            ValidationMessage("metadata_tags_present", "no 'tags:' in frontmatter")
+        )
     return errors
 
 
@@ -61,7 +67,11 @@ def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     if "tags:" in ctx.front and not has_flash_tag(ctx.front):
-        errors.append(ValidationMessage("missing flashcard activation tag in 'tags:'"))
+        errors.append(
+            ValidationMessage(
+                "metadata_flash_tag", "missing flashcard activation tag in 'tags:'"
+            )
+        )
     return errors
 
 
@@ -74,7 +84,11 @@ def aliases_sorted(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     aliases = ctx.data.aliases
     if aliases != sorted(aliases, key=str.lower):
-        errors.append(ValidationMessage("'aliases' list is not alphabetically sorted"))
+        errors.append(
+            ValidationMessage(
+                "aliases_sorted", "'aliases' list is not alphabetically sorted"
+            )
+        )
     return errors
 
 
@@ -87,7 +101,9 @@ def tag_language(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     tags: list[str] = ctx.data.tags or []
     if "language/in/English" not in tags:
-        errors.append(ValidationMessage("missing 'language/in/English' tag"))
+        errors.append(
+            ValidationMessage("tag_language", "missing 'language/in/English' tag")
+        )
     return errors
 
 
@@ -100,7 +116,11 @@ def tag_index_function(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     tags: list[str] = ctx.data.tags or []
     if ctx.path.name.lower() == "index.md" and "function/index" not in tags:
-        errors.append(ValidationMessage("index page missing 'function/index' tag"))
+        errors.append(
+            ValidationMessage(
+                "tag_index_function", "index page missing 'function/index' tag"
+            )
+        )
     return errors
 
 
@@ -124,7 +144,8 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
             if not found:
                 errors.append(
                     ValidationMessage(
-                        "tags do not include flash tag matching file path"
+                        "tag_path_flash",
+                        f"tags do not include flash tag matching file path '{rel}'",
                     )
                 )
     return errors
@@ -142,7 +163,11 @@ def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md":
         if "# index" not in ctx.text:
-            errors.append(ValidationMessage("index.md missing '# index' heading"))
+            errors.append(
+                ValidationMessage(
+                    "index_heading_rule", "index.md missing '# index' heading"
+                )
+            )
     return errors
 
 
@@ -155,7 +180,11 @@ def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md":
         if "## children" not in ctx.text and "children:" not in ctx.text:
-            errors.append(ValidationMessage("index missing 'children' section"))
+            errors.append(
+                ValidationMessage(
+                    "index_children_rule", "index.md missing 'children' section"
+                )
+            )
     return errors
 
 
@@ -188,7 +217,11 @@ def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]
             except ValueError:
                 line_no = None
             col_no = 1 if line_no is not None else None
-            errors.append(ValidationMessage(msg, line_no, col_no))
+            errors.append(
+                ValidationMessage(
+                    "index_semester_order_rule", msg, line=line_no, col=col_no
+                )
+            )
             break
     return errors
 
@@ -211,10 +244,11 @@ def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
             errors.append(
                 ValidationMessage(
+                    "session_duplicate_heading",
                     f"duplicate session heading {hdr!r} (week {week} {typ})",
-                    line,
-                    col,
-                    col_end,
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
         seen_pairs[pair] = idx
@@ -244,10 +278,11 @@ def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
                 line, col, col_end = locate_range(ctx.text, idx, len(hdr))
                 errors.append(
                     ValidationMessage(
+                        "session_datetime_order",
                         f"session {hdr!r} has datetime {dt} not after previous session",
-                        line,
-                        col,
-                        col_end,
+                        line=line,
+                        col=col,
+                        col_end=col_end,
                     )
                 )
             last_datetime = dt
@@ -277,10 +312,11 @@ def session_topic_presence(ctx: ValidationContext) -> list[ValidationMessage]:
                     line, col, col_end = locate_range(ctx.text, idx, len(hdr))
                     errors.append(
                         ValidationMessage(
+                            "session_unscheduled_with_topic",
                             f"session {hdr!r} has status unscheduled but also a topic",
-                            line,
-                            col,
-                            col_end,
+                            line=line,
+                            col=col,
+                            col_end=col_end,
                         )
                     )
             else:
@@ -288,10 +324,11 @@ def session_topic_presence(ctx: ValidationContext) -> list[ValidationMessage]:
                     line, col, col_end = locate_range(ctx.text, idx, len(hdr))
                     errors.append(
                         ValidationMessage(
+                            "session_missing_topic",
                             f"session {hdr!r} has a datetime but no topic field",
-                            line,
-                            col,
-                            col_end,
+                            line=line,
+                            col=col,
+                            col_end=col_end,
                         )
                     )
     return errors
@@ -318,10 +355,11 @@ def session_venue_presence(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
             errors.append(
                 ValidationMessage(
+                    "session_missing_venue",
                     f"session {hdr!r} has a datetime but no venue",
-                    line,
-                    col,
-                    col_end,
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -345,10 +383,11 @@ def session_next_lecture_remark(ctx: ValidationContext) -> list[ValidationMessag
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
             errors.append(
                 ValidationMessage(
+                    "session_next_lecture_remark",
                     f"session {hdr!r} contains a 'next lecture/next week' remark; remove unless major grading event",
-                    line,
-                    col,
-                    col_end,
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -375,9 +414,10 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
                 line, col = locate(ctx.text, idx)
                 errors.append(
                     ValidationMessage(
-                        "exam section appears before some lecture/lab/tutorial entries — exams should be placed after other sessions",
-                        line,
-                        col,
+                        rule_id="session_exam_order",
+                        msg="exam section appears before some lecture/lab/tutorial entries — exams should be placed after other sessions",
+                        line=line,
+                        col=col,
                     )
                 )
                 break
@@ -389,10 +429,12 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
 
 @RULE_REGISTRY.register(id="header_style_rule")
 def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Enforce that non-index headers start with a lowercase letter.
+    """Warn when non-index headers start with an uppercase letter.
 
-    Scans all headers of level 2 or deeper and flags those whose first
-    non-space character is uppercase or non-alphanumeric.
+    This stylistic rule scans all headers of level 2 or deeper and emits a
+    warning for headers whose first non-space character is uppercase or
+    non-alphanumeric.  Proper nouns (person names, brands, etc.) are
+    legitimate exceptions; callers can suppress the warning in those cases.
     """
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md":
@@ -403,12 +445,18 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             start = h.start()
             hdr_text = h.group(0)
             line, col, col_end = locate_range(ctx.text, start, len(hdr_text))
+            # this rule is stylistic; most headers should be lowercase
+            # but proper nouns (people, brands, etc.) may legitimately
+            # start with a capital letter.  emit as a warning so callers
+            # can suppress it if the capitalization is intentional.
             errors.append(
                 ValidationMessage(
-                    "header should start with lowercase",
-                    line,
-                    col,
-                    col_end,
+                    rule_id="header_style_rule",
+                    msg="header normally starts lowercase; ignore if first word is a proper name",
+                    severity=Severity.WARNING,
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -437,10 +485,11 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
             line, col, col_end = locate_range(ctx.text, start, len(h.group(0)))
             errors.append(
                 ValidationMessage(
-                    f"header {hdr!r} has no flashcard markers in its section",
-                    line,
-                    col,
-                    col_end,
+                    rule_id="header_flashcard_presence",
+                    msg=f"header {hdr!r} has no flashcard markers in its section",
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -472,10 +521,108 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
                 line, col, col_end = locate_range(ctx.text, start, len(h.group(0)))
                 errors.append(
                     ValidationMessage(
-                        f"flashcards under header {hdr!r} should be preceded by a '---' separator",
-                        line,
-                        col,
-                        col_end,
+                        rule_id="header_flashcard_separator",
+                        msg=f"flashcards under header {hdr!r} should be preceded by a '---' separator",
+                        line=line,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+    return errors
+
+
+# flashcard calculation sanity -------------------------------------------------
+
+
+@RULE_REGISTRY.register(id="two_sided_calc_warning")
+def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a two-sided card has LaTeX only on the right side.
+
+    Many two-sided cards containing formulas or numerical results on the
+    right-hand side require supporting data on the left so that the question
+    is answerable (e.g. numbers, variable values, circuit parameters).  Agents
+    often forget to duplicate that data before ``::@::`` and end up with
+    prompts like ``term ::@:: $a+b=c$`` which are impossible to recall.  This
+    rule scans lines with a single ``::@::`` separator; if the right portion
+    contains any inline/block LaTeX but the left portion does not, a warning
+    is emitted urging the author to add or copy the necessary data into the
+    left side.  Suppress the warning only when the card is purely conceptual
+    and involves no calculation.
+    """
+    errors: list[ValidationMessage] = []
+    for idx, line in enumerate(ctx.text.splitlines(), start=1):
+        if "::@::" in line:
+            # skip malformed cases with multiple separators
+            if line.count("::@::") != 1:
+                continue
+            left, right = line.split("::@::", 1)
+
+            # simple LaTeX detection: dollar signs or \( \[ delimiters
+            def has_latex(s: str) -> bool:
+                """Return True if *s* contains LaTeX-style delimiters or dollar signs."""
+                return bool(re.search(r"\$|\\\(|\\\[", s))
+
+            if has_latex(right) and not has_latex(left):
+                col = line.find("::@::") + 1
+                col_end = len(line) + 1
+                errors.append(
+                    ValidationMessage(
+                        rule_id="two_sided_calc_warning",
+                        msg=(
+                            "two-sided card has LaTeX on right but not left; "
+                            "please put/duplicate calculation data before ::@:: "
+                            "(make it a question). suppress only for conceptual cards."
+                        ),
+                        severity=Severity.WARNING,
+                        line=idx,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+    return errors
+
+
+@RULE_REGISTRY.register(id="one_sided_calc_warning")
+def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a one-sided card has LaTeX on the answer side only.
+
+    Similar to :func:`two_sided_calc_warning`, but handles ``:@:`` cards which
+    only have a prompt on the left and an answer on the right.  If the right
+    side contains math while the left side has none, the card likely omits
+    necessary numerical data; urge the author to include or duplicate that
+    data in the prompt.  Suppress only for purely conceptual flashcards.
+    """
+    errors: list[ValidationMessage] = []
+    for idx, line in enumerate(ctx.text.splitlines(), start=1):
+        if ":@:" in line:
+            # ignore any line that also contains a two-sided separator
+            if "::@::" in line:
+                continue
+            # earlier versions skipped lines with multiple ":@:" separators,
+            # but tests rely on parsing the first occurrence. drop the guard and
+            # split at the first separator instead.
+            # (two-sided separators are already handled above.)
+            left, right = line.split(":@:", 1)
+
+            def has_latex(s: str) -> bool:
+                """Return True if *s* contains LaTeX-style delimiters or dollar signs."""
+                return bool(re.search(r"\$|\\\(|\\\[", s))
+
+            if has_latex(right) and not has_latex(left):
+                col = line.find(":@:") + 1
+                col_end = len(line) + 1
+                errors.append(
+                    ValidationMessage(
+                        rule_id="one_sided_calc_warning",
+                        msg=(
+                            "one-sided card has LaTeX on right but not left; "
+                            "please put/duplicate calculation data before :@:. "
+                            "suppress only for conceptual cards."
+                        ),
+                        severity=Severity.WARNING,
+                        line=idx,
+                        col=col,
+                        col_end=col_end,
                     )
                 )
     return errors
@@ -529,10 +676,11 @@ def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(text, start_pos, length)
             errors.append(
                 ValidationMessage(
-                    "found a unit (e.g. V, A, Ω, W, mW, kΩ, C, Hz) outside math delimiters; enclose units in $...$",
-                    line,
-                    col,
-                    col_end,
+                    rule_id="unit_outside_math",
+                    msg="found a unit (e.g. V, A, Ω, W, mW, kΩ, C, Hz) outside math delimiters; enclose units in $...$",
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
             break
@@ -559,9 +707,10 @@ def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col = locate(text, abs_idx)
             errors.append(
                 ValidationMessage(
-                    "math expression found inside a code fence; use inline or display math instead",
-                    line,
-                    col,
+                    rule_id="math_in_code_fence",
+                    msg="math expression found inside a code fence; use inline or display math instead",
+                    line=line,
+                    col=col,
                 )
             )
             break
@@ -586,10 +735,11 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
         line, col, col_end = locate_range(ctx.text, m.start(), length)
         errors.append(
             ValidationMessage(
-                "use dollar delimiters ($ or $$) instead of \\[ \\] or \\( \\)",
-                line,
-                col,
-                col_end,
+                rule_id="latex_disallowed_delimiters",
+                msg="use dollar delimiters ($ or $$) instead of \\[ \\] or \\( \\)",
+                line=line,
+                col=col,
+                col_end=col_end,
             )
         )
     return errors
@@ -612,10 +762,11 @@ def latex_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, m.start(), length)
             errors.append(
                 ValidationMessage(
-                    "inline LaTeX spans multiple lines; keep it on one line",
-                    line,
-                    col,
-                    col_end,
+                    rule_id="latex_single_line",
+                    msg="inline LaTeX spans multiple lines; keep it on one line",
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -655,10 +806,11 @@ def latex_environment_not_wrapped(ctx: ValidationContext) -> list[ValidationMess
         line, col, col_end = locate_range(text, m.start(), length)
         errors.append(
             ValidationMessage(
-                "LaTeX environment found outside math delimiters; wrap in $$",
-                line,
-                col,
-                col_end,
+                rule_id="latex_environment_not_wrapped",
+                msg="LaTeX environment found outside math delimiters; wrap in $$",
+                line=line,
+                col=col,
+                col_end=col_end,
             )
         )
     return errors
@@ -681,10 +833,11 @@ def latex_block_no_newline(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, m.start(), length)
             errors.append(
                 ValidationMessage(
-                    "block LaTeX should not contain literal newline; use '\\\\' or '\\newline' instead",
-                    line,
-                    col,
-                    col_end,
+                    rule_id="latex_block_no_newline",
+                    msg="block LaTeX should not contain literal newline; use '\\\\' or '\\newline' instead",
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -712,10 +865,11 @@ def latex_not_standalone(ctx: ValidationContext) -> list[ValidationMessage]:
             line_no, col_no, col_end = locate_range(ctx.text, start_idx, length)
             errors.append(
                 ValidationMessage(
-                    "LaTeX equation should not occupy an entire line; embed it in prose",
-                    line_no,
-                    col_no,
-                    col_end,
+                    rule_id="latex_not_standalone",
+                    msg="LaTeX equation should not occupy an entire line; embed it in prose",
+                    line=line_no,
+                    col=col_no,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -740,10 +894,11 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
                 line, col, col_end = locate_range(ctx.text, start_idx, 1)
                 errors.append(
                     ValidationMessage(
-                        "no space before opening dollar sign; add a space when text comes before math",
-                        line,
-                        col,
-                        col_end,
+                        rule_id="latex_spacing_before",
+                        msg="no space before opening dollar sign; add a space when text comes before math",
+                        line=line,
+                        col=col,
+                        col_end=col_end,
                     )
                 )
     return errors
@@ -770,10 +925,11 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
                 line, col, col_end = locate_range(ctx.text, end_idx, 1)
                 errors.append(
                     ValidationMessage(
-                        "no space after closing dollar sign; add a space when text follows math",
-                        line,
-                        col,
-                        col_end,
+                        rule_id="latex_spacing_after",
+                        msg="no space after closing dollar sign; add a space when text follows math",
+                        line=line,
+                        col=col,
+                        col_end=col_end,
                     )
                 )
     return errors
@@ -793,10 +949,11 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
         line, col, col_end = locate_range(ctx.text, m.start(), length)
         errors.append(
             ValidationMessage(
-                "link target contains unencoded space; use %20 encoding",
-                line,
-                col,
-                col_end,
+                rule_id="link_unencoded_space",
+                msg="link target contains unencoded space; use %20 encoding",
+                line=line,
+                col=col,
+                col_end=col_end,
             )
         )
     return errors
@@ -836,9 +993,10 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
             line_no, col_no = locate(ctx.body, offset)
             errors.append(
                 ValidationMessage(
-                    "nested list item does not include full path (e.g. 'ELEC 1100 / ...')",
-                    line_no,
-                    col_no,
+                    rule_id="nested_list_path",
+                    msg="nested list item does not include full path (e.g. 'ELEC 1100 / ...')",
+                    line=line_no,
+                    col=col_no,
                 )
             )
             break
@@ -887,10 +1045,11 @@ def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
                 )
                 errors.append(
                     ValidationMessage(
-                        "QA-style flashcard list detected without preceding separator phrase",
-                        line_no,
-                        col_no,
-                        col_end,
+                        rule_id="qa_missing_separator",
+                        msg="QA-style flashcard list detected without preceding separator phrase",
+                        line=line_no,
+                        col=col_no,
+                        col_end=col_end,
                     )
                 )
             break
@@ -920,10 +1079,11 @@ def qa_multiple_separators(ctx: ValidationContext) -> list[ValidationMessage]:
             )
             errors.append(
                 ValidationMessage(
-                    "line contains multiple flashcard separators (::@:: or :@:); use only one per card",
-                    line_no,
-                    col_no,
-                    col_end,
+                    rule_id="qa_multiple_separators",
+                    msg="line contains multiple flashcard separators (::@:: or :@:); use only one per card",
+                    line=line_no,
+                    col=col_no,
+                    col_end=col_end,
                 )
             )
             break
@@ -943,10 +1103,11 @@ def br_space_rule(ctx: ValidationContext) -> list[ValidationMessage]:
         col_end = col + len("<br/>") - 1
         errors.append(
             ValidationMessage(
-                "'<br/>' found without a preceding space; add a space before '<br/>'",
-                line,
-                col,
-                col_end,
+                rule_id="br_space_rule",
+                msg="'<br/>' found without a preceding space; add a space before '<br/>'",
+                line=line,
+                col=col,
+                col_end=col_end,
             )
         )
         break
@@ -967,10 +1128,11 @@ def week_monotonic_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
             errors.append(
                 ValidationMessage(
-                    "week numbers do not progress monotonically (unexpected reset)",
-                    line,
-                    col,
-                    col_end,
+                    rule_id="week_monotonic_rule",
+                    msg="week numbers do not progress monotonically (unexpected reset)",
+                    line=line,
+                    col=col,
+                    col_end=col_end,
                 )
             )
             break

@@ -29,11 +29,11 @@ def test_validation_result():
     """ValidationResult should separate errors from warnings correctly."""
 
     vr = ValidationResult()
-    msg = ValidationMessage("oops")
+    msg = ValidationMessage("test", "oops")
     vr.add(Path("/tmp/file.md"), msg)
     assert vr.errors() == [(Path("/tmp/file.md"), msg)]
     assert vr.warnings() == []
-    msg2 = ValidationMessage("warn", severity=Severity.WARNING)
+    msg2 = ValidationMessage("test", "warn", severity=Severity.WARNING)
     vr.add(Path("/tmp/f2.md"), msg2)
     assert len(vr.messages) == 2
     assert vr.warnings() == [(Path("/tmp/f2.md"), msg2)]
@@ -52,18 +52,29 @@ def test_strlist_coercions():
 
 
 def test_preview_entry_to_dict():
-    """PreviewEntry.to_dict() should include only present fields."""
+    """PreviewEntry.to_dict() should faithfully serialize all fields.
 
-    e = PreviewEntry(Path("/tmp/foo.md"), "excerpt")
-    d = e.to_dict()
-    # path formatting may use either backslashes (Windows) or forward slashes;
-    # just ensure the basename is correct and excerpt is present
+    The model now carries ``msg`` and ``severity`` alongside location info;
+    the test exercises both the minimal and fully populated cases.
+    """
+
+    entry = PreviewEntry(
+        Path("/tmp/foo.md"),
+        "a snippet",
+        msg="error occurred",
+        severity=Severity.ERROR,
+    )
+    d = entry.to_dict()
     assert d["path"].endswith("/foo.md") or d["path"].endswith("\\foo.md")
-    assert d["excerpt"] == "excerpt"
-    e.caret = "^^"
-    e.line = 3
-    e.col = 5
-    d = e.to_dict()
-    assert d["caret"] == "^^"
-    assert d["line"] == 3
-    assert d["col"] == 5
+    assert d["excerpt"] == "a snippet"
+    assert d["msg"] == "error occurred"
+    assert d["severity"] == Severity.ERROR
+
+    # now add optional metadata
+    entry.caret = "^^"
+    entry.line = 7
+    entry.col = 2
+    d2 = entry.to_dict()
+    assert d2["caret"] == "^^"
+    assert d2["line"] == 7
+    assert d2["col"] == 2

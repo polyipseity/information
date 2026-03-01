@@ -140,28 +140,47 @@ class ValidationContext:
 
 
 class Severity(StrEnum):
-    """Severity levels for validation messages."""
+    """Severity levels for validation messages.
+
+    Each value also carries a default Rich color string used when
+    displaying the severity/rule-id prefix.  The colors are chosen to match
+    the usual conventions (red for errors, yellow for warnings).
+    """
 
     ERROR = "error"
     WARNING = "warning"
 
+    @property
+    def color(self) -> str:
+        """Return a Rich style string associated with this severity."""
+        if self is Severity.ERROR:
+            return "bold red"
+        if self is Severity.WARNING:
+            return "bold yellow"
+        # fallback
+        return "bold cyan"
+
 
 @dataclass
 class ValidationMessage:
-    """Structured message with optional location range and severity.
+    """Structured message with location, severity, and originating rule ID.
 
+    ``rule_id`` is **required**: every message must know which rule produced it.
+
+    :param rule_id: ID of the rule that produced this message.
     :param msg: Human-readable error/warning text.
+    :param severity: message severity; use :class:`Severity`.
     :param line: 1-based line number where the issue occurs, if known.
     :param col: 1-based column where the issue begins, if known.
     :param col_end: 1-based column immediately after the issue span.
-    :param severity: message severity; use :class:`Severity`.
     """
 
+    rule_id: str
     msg: str
+    severity: Severity = Severity.ERROR
     line: int | None = None
     col: int | None = None
     col_end: int | None = None
-    severity: Severity = Severity.ERROR
 
 
 @dataclass
@@ -177,6 +196,8 @@ class PreviewEntry:
 
     path: Path
     excerpt: str
+    msg: str
+    severity: Severity
     caret: str | None = None
     line: int | None = None
     col: int | None = None
@@ -187,7 +208,12 @@ class PreviewEntry:
         The returned dict includes the path, excerpt, and optionally caret,
         line, and column information if available.
         """
-        d: dict[str, object] = {"path": fspath(self.path), "excerpt": self.excerpt}
+        d: dict[str, object] = {
+            "path": fspath(self.path),
+            "excerpt": self.excerpt,
+            "msg": self.msg,
+            "severity": self.severity,
+        }
         if self.caret is not None:
             d["caret"] = self.caret
         if self.line is not None:

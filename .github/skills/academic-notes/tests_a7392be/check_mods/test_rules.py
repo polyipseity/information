@@ -9,7 +9,7 @@ from os import PathLike
 
 import pytest
 from anyio import Path
-from check_mods.models import Frontmatter, ValidationContext
+from check_mods.models import Frontmatter, Severity, ValidationContext
 from check_mods.rules import (
     RULE_REGISTRY,
     aliases_sorted,
@@ -24,9 +24,11 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    one_sided_calc_warning,
     session_datetime_order,
     session_duplicate_heading,
     tag_language,
+    two_sided_calc_warning,
     unit_outside_math,
 )
 from check_mods.utils import FRONT_RE, parse_frontmatter
@@ -128,13 +130,41 @@ def test_index_rules():
 
 
 def test_header_style_generic():
-    """header_style_rule should emit generic message regardless of header text."""
+    """header_style_rule should emit a warning and explain suppression guidance."""
 
     txt = "## BadHeader\n"
     ctx = make_ctx(txt, path=Path("/tmp/file.md"))
     msgs = header_style_rule(ctx)
     assert msgs
-    assert "header should start with lowercase" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+    assert "lowercase" in msgs[0].msg
+    assert "proper name" in msgs[0].msg
+
+
+def test_two_sided_calc_warning():
+    """Warn when right-hand side has LaTeX but left side does not."""
+
+    txt = "- kcl equation example ::@:: With $I_1,I_2,I_3$ entering and $I_4,I_5$ leaving, $I_1+I_2+I_3=I_4+I_5$.\n"
+    ctx = make_ctx(txt)
+    msgs = two_sided_calc_warning(ctx)
+    assert msgs
+    assert msgs[0].severity == Severity.WARNING
+    assert "left" in msgs[0].msg and "calculation" in msgs[0].msg
+
+    # if left side also contains LaTeX, no warning
+    txt2 = "- calc $a$ ::@:: result $b$\n"
+    ctx2 = make_ctx(txt2)
+    assert not two_sided_calc_warning(ctx2)
+
+    # one-sided behaviour
+    txt3 = "- time const ::@:= RC :@: $RC$\n"
+    ctx3 = make_ctx(txt3)
+    msgs3 = one_sided_calc_warning(ctx3)
+    assert msgs3 and msgs3[0].severity == Severity.WARNING
+    assert "one-sided" in msgs3[0].msg
+    # two-sided cards should not trigger the one-sided rule even if they
+    # contain a ":@:" substring
+    assert not one_sided_calc_warning(make_ctx("- a :@: $b$ ::@:: dummy\n"))
 
 
 def test_session_rules():

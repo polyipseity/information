@@ -94,7 +94,37 @@ async def test_walk_and_check_and_main_json(
     rc = await validator.main([str(tmp_path), "--json"])
     assert rc == 2
     out = capsys.readouterr().out
-    assert "errors" in out and "missing" in out
+    # output should now use a single 'issues' key containing messages
+    assert "issues" in out
+    assert "missing" in out
+    # ensure severity properties appear
+    assert '"severity": "warning"' in out or '"severity": "error"' in out
+
+
+@pytest.mark.asyncio
+async def test_main_prints_errors_and_warnings_together(
+    tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
+):
+    """Non-json output should include both errors and warnings with prefixes."""
+    # create one file that triggers a warning (uppercase header)
+    _file_warn = await make_temp_markdown(
+        tmp_path,
+        """---
+aliases: [a]
+tags: [language/in/English, flashcard/active/special/academia/test]
+---
+## BadHeader
+""",
+    )
+    # create one file that triggers an error
+    _file_err = await make_temp_markdown(tmp_path / "err.md", "---\ntags: []\n---\n")
+    rc = await validator.main([str(tmp_path)])
+    assert rc == 2
+    out = capsys.readouterr().out.lower()
+    assert "warning" in out
+    assert "error" in out
+    # the colored prefix should show the rule id with severity
+    assert "[warning/" in out or "[error/" in out
 
 
 @pytest.mark.asyncio

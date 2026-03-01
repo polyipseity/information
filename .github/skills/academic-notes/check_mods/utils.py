@@ -215,24 +215,31 @@ async def aggregate(
 ) -> dict[str, list[PreviewEntry]]:
     """Aggregate messages into a structure suitable for JSON output.
 
+    The returned dictionary is keyed by *rule ID* (``key_id``) rather than the
+    entire message string.  Each value is itself a dict containing the
+    original message text (without the ``[severity/id]`` prefix), the
+    severity level, and a list of :class:`PreviewEntry` objects under the
+    ``entries`` key.  This makes downstream consumers (both console and
+    JSON) easier to work with.
+
     ``width`` is used to compute a sensible excerpt length based on terminal
     size; the caller already knows this so we avoid coupling to the rich
     module here.
     """
     agg: dict[str, list[PreviewEntry]] = {}
-    prefix = "      preview: "
-    chars = max(20, width - len(prefix) - 1)
+    chars = max(20, width - 1)
     for p, err in items:
-        msg = err.msg
         excerpt, caret = await get_excerpt(
-            p, msg, err.line, err.col, err.col_end, chars=chars
+            p, err.msg, err.line, err.col, err.col_end, chars=chars
         )
-        entry = PreviewEntry(path=p, excerpt=excerpt)
+        entry = PreviewEntry(
+            path=p, excerpt=excerpt, msg=err.msg, severity=err.severity
+        )
         if caret:
             entry.caret = caret
         if err.line is not None:
             entry.line = err.line
         if err.col is not None:
             entry.col = err.col
-        agg.setdefault(msg, []).append(entry)
+        agg.setdefault(err.rule_id, []).append(entry)
     return agg

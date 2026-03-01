@@ -15,6 +15,7 @@ from os import fspath
 from anyio import Path
 from pydantic_yaml import parse_yaml_raw_as
 from rich.console import Console
+from rich.text import Text
 
 from . import rules
 from .models import (
@@ -71,16 +72,18 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
             if not rationale:
                 errors.append(
                     ValidationMessage(
+                        "suppression-missing-rationale",
                         "suppression comment missing rationale",
-                        lineno,
+                        line=lineno,
                     )
                 )
             rule_ids = [r.strip() for r in rules_list.split(",") if r.strip()]
             if not rule_ids:
                 errors.append(
                     ValidationMessage(
+                        "suppression-missing-rules",
                         "suppression comment contains no rule names",
-                        lineno,
+                        line=lineno,
                     )
                 )
             target = lineno + 1 if kind == "ignore-next-line" else lineno
@@ -89,7 +92,9 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
 
     front = parse_frontmatter(text)
     if not front:
-        errors.append(ValidationMessage("missing YAML frontmatter"))
+        errors.append(
+            ValidationMessage("missing-yaml-frontmatter", "missing YAML frontmatter")
+        )
         return errors
 
     # parse YAML frontmatter into our model; pydantic does not support YAML
@@ -128,14 +133,11 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
             results = rule(ctx)
         except Exception as exc:  # pragma: no cover - defensive
             errors.append(
-                ValidationMessage(f"exception in rule {rule.__name__}: {exc}")
+                ValidationMessage(
+                    "validator-exception", f"exception in rule {rule.__name__}: {exc}"
+                )
             )
             continue
-        # prefix each message with the rule ID for clearer headers
-        for m in results:
-            # avoid duplicate prefix if already present (e.g. tests may wrap)
-            if not m.msg.startswith(f"[{rid}] "):
-                m.msg = f"[{rid}] {m.msg}"
         errors.extend(results)
 
     # apply suppression map: drop any errors whose line number matches and
@@ -147,12 +149,7 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         for m in errors:
             if m.line is not None:
                 ignore_for_line = suppressions.get(m.line, [])
-                suppressed = False
-                for rid in ignore_for_line:
-                    if m.msg.startswith(f"[{rid}]"):
-                        suppressed = True
-                        break
-                if suppressed:
+                if m.rule_id in ignore_for_line:
                     continue
             filtered.append(m)
         errors = filtered
@@ -185,7 +182,12 @@ async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
                     for m in msgs:
                         res.add(root, m)
                 except Exception as exc:
-                    res.add(root, ValidationMessage(f"exception while checking: {exc}"))
+                    res.add(
+                        root,
+                        ValidationMessage(
+                            "validator-exception", f"exception while checking: {exc}"
+                        ),
+                    )
             else:
                 _CONSOLE.print(
                     f"[yellow]Warning:[/] skipping non-markdown file: {root}"
@@ -199,7 +201,12 @@ async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
                 for m in msgs:
                     res.add(p, m)
             except Exception as exc:
-                res.add(p, ValidationMessage(f"exception while checking: {exc}"))
+                res.add(
+                    p,
+                    ValidationMessage(
+                        "validator-exception", f"exception while checking: {exc}"
+                    ),
+                )
     return res
 
 
@@ -230,82 +237,51 @@ async def main(argv: Sequence[str] | None = None) -> int:
 
     error_items = [(p, m) for p, m in res.messages if m.severity is Severity.ERROR]
     warning_items = [(p, m) for p, m in res.messages if m.severity is Severity.WARNING]
+    all_items = [(p, m) for p, m in res.messages]
 
     if args.json:
+        # produce a flat list of all issues with their locations
         width = getattr(_CONSOLE.size, "width", 80)
-        agg_errors = await aggregate(error_items, width)
-        agg_warnings = await aggregate(warning_items, width)
-        out = {
-            "errors": [[msg, [e.to_dict() for e in paths]]]
-            for msg, paths in agg_errors.items()
-        }
-        out["warnings"] = [
-            [msg, [e.to_dict() for e in paths]] for msg, paths in agg_warnings.items()
-        ]
+        agg_all = await aggregate(all_items, width)
+        # ``aggregate`` returns ``dict[str, list[PreviewEntry]]``.  When
+        # emitting JSON we want a mapping of rule IDs to lists of serialized
+        # entries, which is easier for consumers to index.
+        out: dict[str, dict[str, list[object]]] = {"issues": {}}
+
+        for key_id, entries in agg_all.items():
+            # ``entries`` is ``list[PreviewEntry]``; convert them to dicts.
+            out["issues"][key_id] = [e.to_dict() for e in entries]
         print(json.dumps(out, ensure_ascii=False, indent=2))
+        # exit codes unchanged (errors still take precedence)
         if error_items:
             return 2
         if warning_items:
             return 1
         return 0
 
-    if error_items:
-        total = len(error_items)
-        _CONSOLE.print(f"[bold red]Validation errors:[/] {total} problem(s) found.\n")
-        width = getattr(_CONSOLE.size, "width", 80)
-        agg_errors = await aggregate(error_items, width)
-        for msg, entries in agg_errors.items():
-            msg = msg.lstrip()
-            if msg.startswith("[") and "]" in msg:
-                id_part, rest = msg.split("]", 1)
-                id_part += "]"
-                _CONSOLE.print(
-                    id_part, style="bold cyan", end="", markup=False, highlight=False
-                )
-                _CONSOLE.print(rest, style="bold", markup=False)
-            else:
-                _CONSOLE.print(msg, style="bold", markup=False)
-            _CONSOLE.print(f"{len(entries)} occurrence(s)", markup=False)
-            for e in entries:
-                loc = fspath(e.path)
-                if e.line is not None:
-                    loc += f":{e.line}"
-                    if e.col is not None:
-                        loc += f":{e.col}"
-                _CONSOLE.print(loc, markup=False, highlight=False)
-                if e.excerpt:
-                    _CONSOLE.print(e.excerpt, markup=False)
-                    if e.caret:
-                        _CONSOLE.print(e.caret, markup=False)
+    if all_items:
+        errcount = len(error_items)
+        warncount = len(warning_items)
+        total = len(all_items)
         _CONSOLE.print(
-            "\nPlease fix errors before publishing or report to maintainers if unsure."
+            f"[bold red]Validation issues:[/] {total} problem(s) found "
+            f"({errcount} errors, {warncount} warnings)\n"
         )
-        if warning_items:
-            agg_warnings = await aggregate(warning_items, width)
-            _CONSOLE.print(
-                f"\n[bold yellow]Validation warnings also present:[/] {len(warning_items)} warning(s)"
-            )
-        return 2
+        width = getattr(_CONSOLE.size, "width", 80)
+        agg_all = await aggregate(all_items, width)
 
-    if warning_items:
-        total = len(warning_items)
-        _CONSOLE.print(
-            f"[bold yellow]Validation warnings:[/] {total} problem(s) found.\n"
-        )
-        width = getattr(_CONSOLE.size, "width", 80)
-        agg_warnings = await aggregate(warning_items, width)
-        for msg, entries in agg_warnings.items():
-            msg = msg.lstrip()
-            if msg.startswith("[") and "]" in msg:
-                id_part, rest = msg.split("]", 1)
-                id_part += "]"
-                _CONSOLE.print(
-                    id_part, style="bold cyan", end="", markup=False, highlight=False
-                )
-                _CONSOLE.print(rest, style="bold", markup=False)
-            else:
-                _CONSOLE.print(msg, style="bold", markup=False)
-            _CONSOLE.print(f"{len(entries)} occurrence(s)", markup=False)
+        for key_id, entries in agg_all.items():
+            first = entries[0]
+            msg = first.msg
+            severity = first.severity
+            prefix = f"[{severity}/{key_id}]"
+            display = f"{prefix} {msg}" if severity else f"{key_id} {msg}"
+            txt = Text(display)
+            txt.stylize(severity.color, 0, len(prefix))
+            if len(display) > len(prefix):
+                txt.stylize("bold", len(prefix), len(display))
+            _CONSOLE.print(txt, end="", highlight=False)
+            _CONSOLE.print(f" - {len(entries)} occurrence(s)", markup=False)
             for e in entries:
                 loc = fspath(e.path)
                 if e.line is not None:
@@ -317,8 +293,11 @@ async def main(argv: Sequence[str] | None = None) -> int:
                     _CONSOLE.print(e.excerpt, markup=False)
                     if e.caret:
                         _CONSOLE.print(e.caret, markup=False)
-        _CONSOLE.print("\nWarnings do not block publishing but should be reviewed.")
-        return 1
+            _CONSOLE.print()
+        _CONSOLE.print(
+            "Please fix errors and review warnings before publishing or report to maintainers if unsure."
+        )
+        return 2 if errcount else 1
 
     _CONSOLE.print("[green]OK:[/] No issues detected (basic checks)")
     return 0
