@@ -58,7 +58,7 @@ jobs:
     steps:
       # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
       - name: Get token from GitHub App
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v2
         id: checkout-app-token
         continue-on-error: true # continue even if private repo access fails
         with:
