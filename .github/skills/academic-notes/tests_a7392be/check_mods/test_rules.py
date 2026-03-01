@@ -25,6 +25,7 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    no_control_characters,
     no_soft_wrap_list,
     no_soft_wrap_paragraph,
     one_sided_calc_warning,
@@ -132,6 +133,18 @@ def test_rule_ids_match_function_names():
         assert rid == func.__name__, (
             f"rule id {rid!r} does not match function name {func.__name__!r}"
         )
+
+
+def test_control_characters_detected():
+    """The control-character rule should fire when an illegal character is present."""
+    # embed a BEL character (U+0007) which is not allowed
+    txt = "First line\x07Second line\n"
+    ctx = make_ctx(txt)
+    msgs = no_control_characters(ctx)
+    assert msgs, "control character should be reported"
+    assert "U+0007" in msgs[0].msg
+    # file without control chars should be clean
+    assert not no_control_characters(make_ctx("normal text\n"))
 
 
 def test_index_rules():

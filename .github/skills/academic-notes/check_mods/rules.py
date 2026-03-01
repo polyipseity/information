@@ -1001,6 +1001,39 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+# control character detection ------------------------------------------------
+
+
+@RULE_REGISTRY.register()
+def no_control_characters(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error if the file contains invisible control characters.
+
+    Control characters (U+0000–U+001F and U+007F) except for newline (\n),
+    carriage return (\r) and tab (\t) are almost always introduced by copy-
+    paste mistakes or encoding glitches.  They cause problems in Markdown and
+    the flashcard generator, so we treat their presence as an error and point
+    at the first offending character.
+    """
+    errors: list[ValidationMessage] = []
+    # allow common whitespace control characters (LF, CR, TAB)
+    # everything else in the C0 and DEL range is disallowed
+    m = re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", ctx.text)
+    if m:
+        code = ord(m.group(0))
+        hexcode = f"U+{code:04X}"
+        line, col, col_end = locate_range(ctx.text, m.start(), 1)
+        errors.append(
+            ValidationMessage(
+                rule_id="no_control_characters",
+                msg=f"control character {hexcode} detected; remove or replace it",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 @RULE_REGISTRY.register()
 def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure nested list items include the full course path.
