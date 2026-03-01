@@ -49,3 +49,7 @@ updates:
       uv:
         patterns:
           - "*"
+    # Ignore workspace dependencies that are not published to PyPI and thus cannot be updated by Dependabot.
+    ignore:
+      - dependency-name: "pyarchivist"
+      - dependency-name: "pytextgen"
