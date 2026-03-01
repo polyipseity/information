@@ -49,7 +49,8 @@ updates:
 
   # Disable updates for a specific directory
   - package-ecosystem: "npm"
-    directory: "/special/academia/HKUST/COMP 3633/presentation 10/examples"
+    directories:
+      - "/special/academia/HKUST/COMP 3633/presentation 10/examples"
     schedule:
       interval: "daily"
     ignore:
