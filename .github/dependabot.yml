@@ -1,7 +1,16 @@
 # Dependabot configuration
-# See https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates
+# See <https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates>
 
 version: 2
+
+registries:
+  # See <https://github.com/dependabot/dependabot-core/issues/8027#issuecomment-1779394703>
+  github-private:
+    type: git
+    url: https://github.com
+    username: x-access-token
+    password: ${{secrets.CHECKOUT_GITHUB_TOKEN}}
+
 updates:
   # GitHub Actions (workflow dependencies)
   - package-ecosystem: "github-actions"
@@ -49,7 +58,6 @@ updates:
       uv:
         patterns:
           - "*"
-    # Ignore workspace dependencies that are not published to PyPI and thus cannot be updated by Dependabot.
-    ignore:
-      - dependency-name: "pyarchivist"
-      - dependency-name: "pytextgen"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
