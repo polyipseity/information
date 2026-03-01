@@ -6,8 +6,9 @@ import check
 import pytest
 from anyio import Path
 from check_mods import validator
-from check_mods.rules import RULE_REGISTRY as rules_registry
-from check_mods.validator import RULE_REGISTRY as validator_registry
+from check_mods.registry import RuleRegistry
+from check_mods.rules import RULE_REGISTRY as RULES_REGISTRY
+from check_mods.validator import RULE_REGISTRY as VALIDATOR_REGISTRY
 from check_mods.validator import check_markdown_file, walk_and_check
 
 __all__ = ()
@@ -15,10 +16,10 @@ __all__ = ()
 
 def test_validator_registry_contains_rules():
     """The registry built by the validator should include rules from rules.py."""
-    ids = [rid for rid, _ in validator_registry.items()]
+    ids = [rid for rid, _ in VALIDATOR_REGISTRY.items()]
     assert "metadata_aliases_present" in ids
     # ensure registry is a separate object from the rules module's own
-    assert validator_registry is not rules_registry
+    assert VALIDATOR_REGISTRY is not RULES_REGISTRY
 
 
 async def make_temp_markdown(tmp_path: PathLike[str], content: str) -> Path:
@@ -57,13 +58,13 @@ async def test_check_markdown_file_and_rule_exception(
         """Fake rule used to trigger an exception path."""
         raise RuntimeError("boom")
 
-    validator_registry.register(id="bad")(bad_rule)
+    VALIDATOR_REGISTRY.register(id="bad")(bad_rule)
     try:
         msgs = await check_markdown_file(p)
         assert any("exception in rule bad_rule" in m.msg for m in msgs)
     finally:
         # remove the bad rule so other tests are unaffected
-        validator_registry._rules.pop("bad", None)
+        VALIDATOR_REGISTRY._rules.pop("bad", None)
 
 
 @pytest.mark.asyncio
@@ -129,27 +130,37 @@ tags: [language/in/English, flashcard/active/special/academia/test]
 
 @pytest.mark.asyncio
 async def test_max_per_rule_limit(
-    tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
+    tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str], monkeypatch
 ):
-    """CLI should limit displayed occurrences per rule using --max-per-rule."""
+    """CLI should limit displayed occurrences per rule using --max-per-rule.
+
+    To avoid incidental noise from unrelated rules (e.g. flashcard tag
+    checks) we temporarily replace ``validator.RULE_REGISTRY`` with a
+    lightweight registry containing only the ``metadata_aliases_present``
+    rule.  This ensures each bad file contributes exactly one issue.
+    """
+    # build a minimal registry with just the alias rule
+    alias_func = RULES_REGISTRY._rules.get("metadata_aliases_present")
+    assert alias_func is not None, "alias rule must exist"
+
+    newreg = RuleRegistry()
+    newreg.register(id="metadata_aliases_present")(alias_func)
+    monkeypatch.setattr(validator, "RULE_REGISTRY", newreg)
+
     # create six files that all trigger the same error (missing aliases)
-    roots = []
     for i in range(6):
         fpath = tmp_path / f"bad{i}.md"
-        roots.append(fpath)
         await Path(fpath).write_text("""---\ntags: []\n---\n""")
+
     # run without specifying limit (default 5)
     rc = await validator.main([str(tmp_path)])
     assert rc == 2
     out = capsys.readouterr().out
     # the summary should report 6 problems in total
     assert "6 problem(s) found" in out
-    # check that the output mentioned '5 of 6 occurrence(s)' and a note about omissions
-    assert "5 of 6 occurrence(s)" in out
+    # check that the output mentioned '5 of 6 occurrence(s)' and omission note
+    assert "5/6 occurrence(s)" in out
     assert "more occurrence(s) not shown" in out
-
-    # also verify summary at top counted all issues
-    assert "6 problem(s) found" in out
 
     # now run with an explicit limit of 0 (unlimited)
     rc2 = await validator.main([str(tmp_path), "--max-per-rule", "0"])
