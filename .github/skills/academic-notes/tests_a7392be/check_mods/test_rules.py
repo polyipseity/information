@@ -157,13 +157,29 @@ def test_two_sided_calc_warning():
     msgs = two_sided_calc_warning(ctx)
     assert msgs
     assert msgs[0].severity == Severity.WARNING
-    assert "left" in msgs[0].msg and "calculation" in msgs[0].msg
+    # message now mentions numeric/symbolic data rather than the word
+    # "calculation" so just check for the right-hand warning context.
+    assert "lacks any numeric or symbolic data" in msgs[0].msg
     assert "ignore-line" in msgs[0].msg or "check directive" in msgs[0].msg
 
     # if left side also contains LaTeX, no warning
     txt2 = "- calc $a$ ::@:: result $b$\n"
     ctx2 = make_ctx(txt2)
     assert not two_sided_calc_warning(ctx2)
+
+    # numeric data without dollar signs on the left should emit the warning
+    txt2b = "- heater draws 8.5\times10^{20} electrons in 10 s ::@:: $q=Ne$\n"
+    ctx2b = make_ctx(txt2b)
+    assert two_sided_calc_warning(ctx2b)
+
+    # the real-world example from the repository should not warn either
+    txt2c = (
+        "- current example heater: A heater draws $8.5\\times10^{20}$ electrons "
+        "in $10\\,\\textrm{s}$ ($e=1.6\\times10^{-19}\\,\\textrm{C}$); find $q$ and $I$. "
+        "::@:: $q=Ne\\approx136\\,\\textrm{C}$ and $I=q/t\\approx13.6\\,\\textrm{A}$\n"
+    )
+    ctx2c = make_ctx(txt2c)
+    assert not two_sided_calc_warning(ctx2c)
 
     # one-sided behaviour
     txt3 = "- time const ::@:= RC :@: $RC$\n"
@@ -172,6 +188,12 @@ def test_two_sided_calc_warning():
     assert msgs3 and msgs3[0].severity == Severity.WARNING
     assert "one-sided" in msgs3[0].msg
     assert "ignore-line" in msgs3[0].msg or "check directive" in msgs3[0].msg
+
+    # numeric prompt should emit warning without dollar signs
+    txt3b = "- charge 5 C :@: $q=It$\n"
+    ctx3b = make_ctx(txt3b)
+    assert one_sided_calc_warning(ctx3b)
+
     # two-sided cards should not trigger the one-sided rule even if they
     # contain a ":@:" substring
     assert not one_sided_calc_warning(make_ctx("- a :@: $b$ ::@:: dummy\n"))
@@ -406,3 +428,18 @@ async def test_suppression_multiple_rules(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert not msgs
+
+
+@pytest.mark.anyio
+async def test_suppression_redundant(tmp_path: PathLike[str]):
+    """A suppression for a rule that never fires should be reported as error."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-line[unit_outside_math]: unnecessary -->\n"
+        "Just some ordinary prose without any units or math\n"
+    )
+    file = Path(tmp_path) / "redundant.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs

@@ -596,6 +596,9 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                 """Return True if *s* contains LaTeX-style delimiters or dollar signs."""
                 return bool(re.search(r"\$|\\\(|\\\[", s))
 
+            # warn when the answer side contains math but the prompt side has
+            # no LaTeX.  Suppressions for purely conceptual cards are still
+            # supported.
             if has_latex(right) and not has_latex(left):
                 col = line.find("::@::") + 1
                 col_end = len(line) + 1
@@ -604,9 +607,9 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                         rule_id="two_sided_calc_warning",
                         msg=(
                             "two-sided card contains LaTeX on the right-hand side "
-                            "but none on the left. "
+                            "but the prompt lacks any numeric or symbolic data. "
                             "This typically means you forgot to repeat the numerical/"
-                            "symbolic data before `::@::` so the card can be answered. "
+                            "symbolic information before `::@::` so the card can be answered. "
                             "For purely conceptual cards (no calculation or data), "
                             "you can suppress the warning using a check directive, "
                             "e.g. `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`."
@@ -653,8 +656,8 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="one_sided_calc_warning",
                         msg=(
-                            "one-sided card contains LaTeX on the right-hand side but none on the left. "
-                            "Please put or duplicate the numerical/symbolic data before :@:. "
+                            "one-sided card contains LaTeX on the right-hand side but the prompt lacks any numeric or symbolic data. "
+                            "Please include or duplicate the relevant numbers before :@:. "
                             "For conceptual cards you may suppress this warning with a "
                             "directive such as `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
                         ),

@@ -140,6 +140,23 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
             continue
         errors.extend(results)
 
+    # before we actually apply the suppression filter, look for any
+    # redundant directives.  A suppression is redundant when the target line
+    # never produced an error with the given rule ID.  Emit an error in that
+    # case so authors can clean up stale or misspelled comments.
+    if suppressions:
+        active = {(m.line, m.rule_id) for m in errors if m.line is not None}
+        for target, rule_ids in suppressions.items():
+            for rid in rule_ids:
+                if (target, rid) not in active:
+                    errors.append(
+                        ValidationMessage(
+                            "suppression-redundant",
+                            f"suppression for rule {rid!r} on line {target} has no matching error",
+                            line=target,
+                        )
+                    )
+
     # apply suppression map: drop any errors whose line number matches and
     # whose rule ID appears in the suppression list for that line.  Messages
     # without a line number or whose rule isn't listed are kept.  suppression
