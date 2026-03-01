@@ -135,7 +135,10 @@ def test_index_rules():
 
 
 def test_header_style_generic():
-    """header_style_rule should emit a warning and explain suppression guidance."""
+    """header_style_rule should emit a warning and clarify suppression.
+
+    Capitalization is not a mere style preference; proper nouns only may be
+    exempted.  The message should mention "proper noun" to guide authors."""
 
     txt = "## BadHeader\n"
     ctx = make_ctx(txt, path=Path("/tmp/file.md"))
@@ -143,8 +146,7 @@ def test_header_style_generic():
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     assert "lowercase" in msgs[0].msg
-    # message now mentions suppression directive so look for either keyword
-    assert "check:" in msgs[0].msg or "suppress" in msgs[0].msg
+    assert "proper noun" in msgs[0].msg
 
 
 def test_two_sided_calc_warning():

@@ -79,11 +79,11 @@ def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
 def aliases_sorted(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that the aliases list in frontmatter is sorted alphabetically.
 
-    Comparison is case-insensitive; an error is returned if ordering differs.
+    Comparison is case-sensitive; an error is returned if ordering differs.
     """
     errors: list[ValidationMessage] = []
     aliases = ctx.data.aliases
-    if aliases != sorted(aliases, key=str.lower):
+    if aliases != sorted(aliases):
         errors.append(
             ValidationMessage(
                 "aliases_sorted", "'aliases' list is not alphabetically sorted"
@@ -485,9 +485,7 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
                 ValidationMessage(
                     rule_id="header_style_rule",
                     msg=(
-                        "header normally starts lowercase; "
-                        "add a check directive to suppress if the capitalization is "
-                        "intentional (e.g. proper noun) -- ``<!-- check: ignore-line[header_style_rule]: reason -->``"
+                        "header normally start lowercase; suppressions are allowed only **for proper nouns**.  Do **not** ignore this rule for ordinary section titles."
                     ),
                     severity=Severity.WARNING,
                     line=line,
