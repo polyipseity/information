@@ -120,6 +120,20 @@ def test_aliases_sorted_and_tag_language():
     assert tag_language(ctx)
 
 
+def test_rule_ids_match_function_names():
+    """Every registered rule should use its function name as the identifier.
+
+    This ensures a single, consistent naming convention: rule IDs are
+    derived from the Python function name and normalised to lowercase with
+    underscores.  The validator relies on this invariant for suppression
+    directives and error reporting.
+    """
+    for rid, func in RULE_REGISTRY.items():
+        assert rid == func.__name__, (
+            f"rule id {rid!r} does not match function name {func.__name__!r}"
+        )
+
+
 def test_index_rules():
     """Index-specific rules should only apply to index.md and detect problems."""
 

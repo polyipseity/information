@@ -7,6 +7,7 @@ rules via the ``register`` decorator, and registries may be merged using
 in the test suite.
 """
 
+import re
 from collections.abc import Callable, Sequence
 
 from .models import ValidationContext, ValidationMessage
@@ -37,15 +38,20 @@ class RuleRegistry:
         ] = {}
 
     def register(
-        self, *, id: str
+        self, *, id: str | None = None
     ) -> Callable[
         [Callable[[ValidationContext], Sequence[ValidationMessage]]],
         Callable[[ValidationContext], Sequence[ValidationMessage]],
     ]:
         """Decorator that registers the wrapped function under *id*.
 
-        The identifier must be unique; attempting to register a second rule with
-        the same id raises ``RuntimeError``.
+        If *id* is omitted the decorated function's name is used as the
+        identifier after normalizing it to a lowercase, underscore-separated
+        form.  This helps keep rule IDs consistent without requiring the
+        caller to repeat the name manually.
+
+        The identifier must be unique; attempting to register a second rule
+        with the same id raises ``RuntimeError``.
         """
 
         def _decorate(
@@ -53,10 +59,27 @@ class RuleRegistry:
         ) -> Callable[[ValidationContext], Sequence[ValidationMessage]]:
             """Actual decorator applied to the user-defined rule function.
 
-            Performs the uniqueness check and stores the function in the internal
-            mapping.  Returns the original function unchanged so it can be used
-            normally by the caller.
+            If the caller did not supply an explicit *id*, derive one from the
+            function name.  The normalization step simply lowercases and
+            replaces any non-alphanumeric characters with underscores; this
+            matches the convention used throughout the package.  The resulting
+            identifier is guaranteed to be unique within this registry.
             """
+            nonlocal id
+            if id is None:
+                # derive from func name and normalise
+                derived = func.__name__
+                # replace any characters other than lowercase alphanumerics with underscore
+                id_norm = re.sub(r"[^0-9a-z]+", "_", derived.lower())
+                id = id_norm
+            else:
+                # explicit id supplied; verify it already follows the rules
+                if not re.fullmatch(r"[0-9a-z]+(?:_[0-9a-z]+)*", id):
+                    raise ValueError(
+                        f"explicit rule id {id!r} does not follow naming convention"
+                    )
+                # keep the string as‑is (no normalization)
+
             if id in self._rules:
                 raise RuntimeError(f"rule id {id!r} already registered")
             self._rules[id] = func

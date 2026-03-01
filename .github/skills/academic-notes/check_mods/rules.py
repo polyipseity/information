@@ -28,7 +28,7 @@ RULE_REGISTRY = RuleRegistry()
 # metadata checks ------------------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="metadata_aliases_present")
+@RULE_REGISTRY.register()
 def metadata_aliases_present(ctx: ValidationContext) -> list[ValidationMessage]:
     """Rule: file must include an 'aliases:' field in YAML frontmatter.
 
@@ -44,7 +44,7 @@ def metadata_aliases_present(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="metadata_tags_present")
+@RULE_REGISTRY.register()
 def metadata_tags_present(ctx: ValidationContext) -> list[ValidationMessage]:
     """Rule: YAML frontmatter must contain a 'tags:' entry.
 
@@ -58,7 +58,7 @@ def metadata_tags_present(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="metadata_flash_tag")
+@RULE_REGISTRY.register()
 def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure that the tags list includes a flashcard activation tag.
 
@@ -75,7 +75,7 @@ def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="aliases_sorted")
+@RULE_REGISTRY.register()
 def aliases_sorted(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that the aliases list in frontmatter is sorted alphabetically.
 
@@ -92,7 +92,7 @@ def aliases_sorted(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="tag_language")
+@RULE_REGISTRY.register()
 def tag_language(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require a language tag of 'language/in/English' in the tags list.
 
@@ -107,7 +107,7 @@ def tag_language(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="tag_index_function")
+@RULE_REGISTRY.register()
 def tag_index_function(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure that index.md files include the 'function/index' tag.
 
@@ -124,7 +124,7 @@ def tag_index_function(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="tag_path_flash")
+@RULE_REGISTRY.register()
 def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
     """Verify that the tags include a flashcard tag matching the file path.
 
@@ -154,7 +154,7 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
 # index structure -----------------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="index_heading_rule")
+@RULE_REGISTRY.register()
 def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that an index.md contains a top-level '# index' heading.
 
@@ -171,7 +171,7 @@ def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="index_children_rule")
+@RULE_REGISTRY.register()
 def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure index.md includes a 'children' section or heading.
 
@@ -188,7 +188,7 @@ def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="index_semester_order_rule")
+@RULE_REGISTRY.register()
 def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     """Verify chronological ordering of semester headings in index.md.
 
@@ -229,7 +229,7 @@ def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]
 # session-related -----------------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="session_duplicate_heading")
+@RULE_REGISTRY.register()
 def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect duplicate week/type session headings within a file.
 
@@ -255,7 +255,7 @@ def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]
     return errors
 
 
-@RULE_REGISTRY.register(id="session_datetime_order")
+@RULE_REGISTRY.register()
 def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that session datetimes are strictly increasing.
 
@@ -292,7 +292,7 @@ def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
 # session topic rules -------------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="session_missing_topic")
+@RULE_REGISTRY.register()
 def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag sessions that have a datetime but are missing a topic.
 
@@ -329,7 +329,7 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="session_unscheduled_with_topic")
+@RULE_REGISTRY.register()
 def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect sessions marked unscheduled that nevertheless declare a topic.
 
@@ -363,7 +363,7 @@ def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMes
     return errors
 
 
-@RULE_REGISTRY.register(id="session_venue_presence")
+@RULE_REGISTRY.register()
 def session_venue_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag sessions with a datetime but missing a venue field.
 
@@ -384,7 +384,7 @@ def session_venue_presence(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
             errors.append(
                 ValidationMessage(
-                    "session_missing_venue",
+                    "session_venue_presence",
                     f"session {hdr!r} has a datetime but no venue",
                     line=line,
                     col=col,
@@ -394,7 +394,7 @@ def session_venue_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="session_next_lecture_remark")
+@RULE_REGISTRY.register()
 def session_next_lecture_remark(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a session entry mentions 'next lecture/week/class'.
 
@@ -422,7 +422,7 @@ def session_next_lecture_remark(ctx: ValidationContext) -> list[ValidationMessag
     return errors
 
 
-@RULE_REGISTRY.register(id="session_exam_order")
+@RULE_REGISTRY.register()
 def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
     """Enforce that midterm/final sections come after other sessions.
 
@@ -456,7 +456,7 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
 # header and flashcard style --------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="header_style_rule")
+@RULE_REGISTRY.register()
 def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when non-index headers start with an uppercase letter.
 
@@ -496,7 +496,7 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="header_flashcard_presence")
+@RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require that each non-index header contains flashcard markers.
 
@@ -529,7 +529,7 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     return errors
 
 
-@RULE_REGISTRY.register(id="header_flashcard_separator")
+@RULE_REGISTRY.register()
 def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Enforce a '---' separator before flashcard markers under headers.
 
@@ -568,7 +568,7 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 # flashcard calculation sanity -------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="two_sided_calc_warning")
+@RULE_REGISTRY.register()
 def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a two-sided card has LaTeX only on the right side.
 
@@ -623,7 +623,7 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="one_sided_calc_warning")
+@RULE_REGISTRY.register()
 def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a one-sided card has LaTeX on the answer side only.
 
@@ -673,7 +673,7 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
 # math and unit rules --------------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="unit_outside_math")
+@RULE_REGISTRY.register()
 def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when units appear immediately after math without delimiters.
 
@@ -732,7 +732,7 @@ def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
 # additional rules ---------------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="math_in_code_fence")
+@RULE_REGISTRY.register()
 def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag LaTeX-style math found inside fenced code blocks.
 
@@ -759,7 +759,7 @@ def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="latex_disallowed_delimiters")
+@RULE_REGISTRY.register()
 def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessage]:
     r"""Disallow alternative LaTeX delimiters \[ \] or \( \) in favour of $.
 
@@ -787,7 +787,7 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     return errors
 
 
-@RULE_REGISTRY.register(id="latex_single_line")
+@RULE_REGISTRY.register()
 def latex_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
     """Enforce that *inline* LaTeX expressions do not span multiple lines.
 
@@ -817,7 +817,7 @@ def latex_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
 # new rules for LaTeX handling ------------------------------------------------
 
 
-@RULE_REGISTRY.register(id="latex_environment_not_wrapped")
+@RULE_REGISTRY.register()
 def latex_environment_not_wrapped(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect LaTeX environments that are not enclosed in math delimiters.
 
@@ -858,7 +858,7 @@ def latex_environment_not_wrapped(ctx: ValidationContext) -> list[ValidationMess
     return errors
 
 
-@RULE_REGISTRY.register(id="latex_block_no_newline")
+@RULE_REGISTRY.register()
 def latex_block_no_newline(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure block (``$$``) LaTeX expressions contain no literal newlines.
 
@@ -885,7 +885,7 @@ def latex_block_no_newline(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="latex_not_standalone")
+@RULE_REGISTRY.register()
 def latex_not_standalone(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a LaTeX equation is the only content on its line.
 
@@ -917,7 +917,7 @@ def latex_not_standalone(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="latex_spacing_before")
+@RULE_REGISTRY.register()
 def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when there is no space before an opening dollar math delimiter.
 
@@ -946,7 +946,7 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="latex_spacing_after")
+@RULE_REGISTRY.register()
 def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when there is no space after a closing dollar math delimiter.
 
@@ -977,7 +977,7 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="link_unencoded_space")
+@RULE_REGISTRY.register()
 def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect markdown links whose target contains a raw space character.
 
@@ -1001,7 +1001,7 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="nested_list_path")
+@RULE_REGISTRY.register()
 def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure nested list items include the full course path.
 
@@ -1046,7 +1046,7 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="qa_missing_separator")
+@RULE_REGISTRY.register()
 def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check for QA-style flashcard lists without a preceding separator phrase.
 
@@ -1098,7 +1098,7 @@ def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="qa_multiple_separators")
+@RULE_REGISTRY.register()
 def qa_multiple_separators(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a single line contains more than one flashcard separator.
 
@@ -1136,7 +1136,7 @@ def qa_multiple_separators(ctx: ValidationContext) -> list[ValidationMessage]:
 # for backward compatibility.
 
 
-@RULE_REGISTRY.register(id="no_soft_wrap_paragraph")
+@RULE_REGISTRY.register()
 def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag unescaped single newlines within paragraphs.
 
@@ -1192,7 +1192,7 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="no_soft_wrap_list")
+@RULE_REGISTRY.register()
 def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag soft wraps inside list items."""
     errors: list[ValidationMessage] = []
@@ -1243,7 +1243,7 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register(id="week_monotonic_rule")
+@RULE_REGISTRY.register()
 def week_monotonic_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure week numbers progress monotonically (with allowed reset to 1).
 

@@ -261,6 +261,19 @@ async def main(argv: Sequence[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
+    # sanity check: every registered rule id should match its function name.
+    # this enforces the convention we established in registry.register and
+    # helps catch early mistakes when new rules are added.
+    for rid, func in RULE_REGISTRY.items():
+        if rid != func.__name__:
+            _CONSOLE.print(
+                f"[bold red]Internal error:[/] rule id {rid!r} does not match function name {func.__name__!r}",
+                markup=True,
+            )
+            # abort with distinct exit code so callers can detect config
+            # problems separately from normal validation failures.
+            return 3
+
     roots = [Path(p) for p in (args.paths or DEFAULT_PATHS)]
     res = await walk_and_check(roots)
 

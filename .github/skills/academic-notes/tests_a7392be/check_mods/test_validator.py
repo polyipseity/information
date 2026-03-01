@@ -46,6 +46,25 @@ async def test_check_markdown_file_missing_frontmatter(tmp_path: PathLike[str]):
 
 
 @pytest.mark.asyncio
+async def test_validator_detects_mismatched_rule_id(tmp_path: PathLike[str]):
+    """Main should fail if a rule id does not equal the function name."""
+    # create a minimal file to run against (path itself isn't used later)
+    _path = await make_temp_markdown(tmp_path, "---\naliases: []\ntags: []\n---\n")
+
+    # temporarily inject a badly named rule into the registry
+    def bogus(ctx):
+        """Fake rule used to trigger mismatched id detection."""
+        return []
+
+    VALIDATOR_REGISTRY.register(id="not_matching_name")(bogus)
+    try:
+        rc = await validator.main([str(tmp_path)])
+        assert rc == 3
+    finally:
+        VALIDATOR_REGISTRY._rules.pop("not_matching_name", None)
+
+
+@pytest.mark.asyncio
 async def test_check_markdown_file_and_rule_exception(
     tmp_path: PathLike[str], monkeypatch
 ):

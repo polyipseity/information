@@ -31,6 +31,17 @@ def test_rule_registration():
     assert reg.values() == [foo]
 
 
+def test_register_invalid_explicit_id():
+    """Supplying a badly formatted id should raise ValueError."""
+    reg = RuleRegistry()
+    with pytest.raises(ValueError):
+
+        @reg.register(id="Bad-ID!")
+        def bad(ctx: ValidationContext):
+            """dummy"""
+            return []
+
+
 def test_include_another_registry():
     """Including one registry into another should copy all rules.
 
