@@ -191,9 +191,14 @@ def test_example_section_heading():
     ctx = make_ctx(txt)
     msgs = section_example_heading(ctx)
     assert msgs and msgs[0].rule_id == "section_example_heading"
-    # message should mention example sections and suggest moving content
+    # message should mention example sections, integration into conceptual
+    # paragraphs, and discourage suppressing calculation warnings
     assert "example sections" in msgs[0].msg
-    assert "suppression" in msgs[0].msg or "justification" in msgs[0].msg
+    assert "integrate" in msgs[0].msg
+    assert (
+        "two_sided_calc_warning" in msgs[0].msg
+        or "one_sided_calc_warning" in msgs[0].msg
+    )
 
     # different casing and within a longer title should also trigger
     txt2 = "### Resistive circuit examples and notes\nContent\n"
@@ -208,7 +213,7 @@ def test_example_section_heading():
 
 
 def test_no_lecture_summary():
-    """Files containing a "lecture summary" heading or bullet should error."""
+    """Files containing a "lecture summary" heading, bullet, or summary-card should error."""
 
     # heading case
     txt = "## lecture summary\nSome text\n"
@@ -221,6 +226,12 @@ def test_no_lecture_summary():
     ctx2 = make_ctx(txt2)
     msgs2 = no_lecture_summary(ctx2)
     assert msgs2 and msgs2[0].rule_id == "no_lecture_summary"
+
+    # summary sentence card should trigger
+    txt3 = "- summary sentence ::@:: this is just a sentence\n"
+    ctx3 = make_ctx(txt3)
+    msgs3 = no_lecture_summary(ctx3)
+    assert msgs3 and msgs3[0].rule_id == "no_lecture_summary"
 
 
 def test_two_sided_calc_warning():
@@ -235,7 +246,12 @@ def test_two_sided_calc_warning():
     assert "Right-hand side" in msgs[0].msg
     assert "before" in msgs[0].msg and "after" in msgs[0].msg
     assert "context" in msgs[0].msg
-    assert "ignore-line" in msgs[0].msg or "check directive" in msgs[0].msg
+    assert "example" in msgs[0].msg.lower()
+    assert (
+        "suppress" in msgs[0].msg
+        or "ignore-line" in msgs[0].msg
+        or "check directive" in msgs[0].msg
+    )
 
     # if left side also contains LaTeX, no warning
     txt2 = "- calc $a$ ::@:: result $b$\n"
@@ -261,10 +277,16 @@ def test_two_sided_calc_warning():
     ctx3 = make_ctx(txt3)
     msgs3 = one_sided_calc_warning(ctx3)
     assert msgs3 and msgs3[0].severity == Severity.WARNING
-    # message should mention right-hand side and prompt
+    # message should mention right-hand side and prompt, and warn about examples
     assert "Right-hand side" in msgs3[0].msg
     assert "before" in msgs3[0].msg and "after" in msgs3[0].msg
     assert "prompt" in msgs3[0].msg
+    assert "example" in msgs3[0].msg.lower()
+    assert (
+        "suppress" in msgs3[0].msg
+        or "ignore-line" in msgs3[0].msg
+        or "check directive" in msgs3[0].msg
+    )
     assert "ignore-line" in msgs3[0].msg or "check directive" in msgs3[0].msg
 
     # numeric prompt should emit warning without dollar signs
@@ -354,7 +376,7 @@ def test_numeric_text_not_latex():
     assert "wrap quantities" in msgs[0].msg
 
     # if the line already contains dollars, the rule should be silent
-    txt2 = "The source is $5\,\mathrm{V}$ and I=0.1\,\mathrm{A}.\n"
+    txt2 = R"The source is $5\,\mathrm{V}$ and I=0.1\,\mathrm{A}.\n"
     ctx2 = make_ctx(txt2)
     assert not numeric_text_not_latex(ctx2)
 

@@ -489,8 +489,10 @@ def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
             ValidationMessage(
                 "section_example_heading",
                 "section heading contains the word 'example' (e.g. an isolated Examples subsection). "
-                "Stand‑alone example sections are discouraged – move the material under the appropriate conceptual header, "
-                "or, if you truly need a separate examples block, add a justification using a suppression comment.",
+                "Stand‑alone example sections are discouraged – integrate the illustrative material into the relevant conceptual "
+                "paragraphs rather than copying the course layout verbatim.  Do *not* suppress two_sided_calc_warning or one_sided_calc_warning when the word "
+                "example appears; the presence of examples signals numeric context that the calculator rules should enforce. "
+                "If you genuinely require a separate examples block, add a clear justification using a suppression comment.",
                 line=line,
                 col=col,
                 col_end=col_end,
@@ -655,12 +657,12 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                         msg=(
                             "Right-hand side contains numeric or symbolic data but the left prompt "
                             "(before `::@::`) has none. Copy or repeat the necessary values/parameters "
-                            "on the left so the card is answerable. For example:\n"
+                            "on the left so the card is answerable. These warnings target example-style calculation cards, which should never be suppressed; if the word 'example' appears anywhere in the line, the check must fire. For example:\n"
                             R"before: - Ohm's law example ::@:: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$.\n"
                             R"after:  - Ohm's law example: Given $I = 2\,\text{A}$ and $R = 5\,\Omega$, calculate the voltage $V$ using Ohm's law. ::@:: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$. "
                             "Long prompts (even full derivations) are fine – the rule warns only "
                             "about missing context, not verbosity. To suppress for a purely "
-                            "conceptual card use `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`."
+                            "conceptual card use `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->` (do not apply to example cards)."
                         ),
                         severity=Severity.WARNING,
                         line=idx,
@@ -708,11 +710,11 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                         rule_id="one_sided_calc_warning",
                         msg=(
                             "Right-hand side has numeric or symbolic data but the prompt before `:@:` is blank. "
-                            "Include or duplicate the needed values in the left prompt. For example:\n"
+                            "Include or duplicate the needed values in the left prompt. These warnings target example cards and must not be suppressed. For example:\n"
                             R"before: - Ohm's law example :@: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$.\n"
                             R"after:  - Ohm's law example: Given $I = 2\,\text{A}$ and $R = 5\,\Omega$, calculate the voltage $V$ using Ohm's law. :@: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$. "
                             "Long equations are allowed; this check simply ensures answerable context. "
-                            "For conceptual-only cards suppress with `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
+                            "For conceptual-only cards suppress with `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->` (not for example cards)."
                         ),
                         severity=Severity.WARNING,
                         line=idx,
@@ -1128,6 +1130,11 @@ def no_lecture_summary(ctx: ValidationContext) -> list[ValidationMessage]:
     ``lecture summary`` (case-insensitive) or a bullet list item whose
     text starts the same way.  An error is emitted pointing at the
     offending line so it can be removed.
+
+    Summary‑sentence flashcards (cards whose gloss begins with the word
+    "summary") are also discouraged; they provide little learning value
+    and should be rephrased as ordinary content or deleted.  The test
+    suite ensures the rule catches both forms.
     """
     errors: list[ValidationMessage] = []
     # match "## lecture summary" or deeper, or "- lecture summary" list
@@ -1141,6 +1148,20 @@ def no_lecture_summary(ctx: ValidationContext) -> list[ValidationMessage]:
             ValidationMessage(
                 "no_lecture_summary",
                 "lecture summary sections are not allowed; remove or merge into main notes",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    # also detect summary-sentence flashcards
+    for m in re.finditer(
+        r"^-\s*summary sentence\b", ctx.text, re.IGNORECASE | re.MULTILINE
+    ):
+        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                "no_lecture_summary",
+                "summary-sentence flashcards are not allowed; rephrase or remove",
                 line=line,
                 col=col,
                 col_end=col_end,
