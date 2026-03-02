@@ -15,10 +15,10 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
      > **Warning:** `applyTo` is no longer valid in skill files. Do not include it when creating new skills; it remains allowed in instruction files only.
 
 2. First commands (safe startup)
-   - `pnpm install`  # installs Node deps and triggers Python dev extras install
-   - `pnpm run prepare`  # register Husky Git hooks
-   - `pnpm run format` && `pnpm run check`  # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any pnpm script prefer supplying explicit paths to limit work and speed up the command)
-   - `pnpm run test`  # run tests locally (pre-push runs this automatically)
+   - `bun install`  # installs Node deps and triggers Python dev extras install
+   - `bun run prepare`  # register Husky Git hooks
+   - `bun run format` && `bun run check`  # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any bun script prefer supplying explicit paths to limit work and speed up the command)
+   - `bun run test`  # run tests locally (pre-push runs this automatically)
 
 3. Common repository actions
    - Regenerate generated content: build workflows handle this automatically; manual `uv run -m init generate -C` is rarely needed and agents should not suggest it (see `core-workflows.instructions.md`).
@@ -33,7 +33,7 @@ Repository gotchas & quick tips
   line only, creates two cards), and one-sided pairs `:@:` (one line only,
   single card).  These are parsed automatically; do not reflow, escape, or
   split them across lines.
-- Always prefer `pnpm run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
+- Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
 - When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `python -`. For example:
 
   ```powershell
@@ -51,7 +51,7 @@ Repository gotchas & quick tips
 1. Commit & PR behavior (must follow `commit-convention.instructions.md`)
    - Always present the proposed commit message to the user for confirmation.
    - Use Conventional Commits and ensure commitlint passes (no body line > 100 chars).
-   - Run `pnpm run format` and `pnpm run check` before committing. Use the Todo List Tool for multi-step changes and show progress.
+   - Run `bun run format` and `bun run check` before committing. Use the Todo List Tool for multi-step changes and show progress.
 
 2. Submodule & sensitive data rules
    - **Do not** modify `private/`, `self/` or a submodule's contents without explicit owner approval; check the submodule `AGENTS.md` first.
@@ -60,7 +60,7 @@ Repository gotchas & quick tips
 3. Tests, types, and CI
    - Add/modify tests under `tests/` mirroring source layout. Use `pytest` and `pytest.mark.asyncio` for async tests when relevant.
    - Typing guidance: prefer PEP 585 built-in generics for concrete containers (e.g. `list[str]`, `dict[str, int]`) and use `collections.abc` for abstract interfaces (e.g. `collections.abc.Sequence[str]`, `collections.abc.Mapping[str, int]`). Avoid `typing.List`/`typing.Dict`/`typing.Sequence` in new code.
-   - Run `pyright`/`pnpm run check` and `pnpm run test` locally to reduce CI failures.
+   - Run `pyright`/`bun run check` and `bun run test` locally to reduce CI failures.
 
 4. When in doubt
    - Ask the user one short clarifying question before making non-trivial changes (e.g., “Should I modify `special/` or only add tests?”).

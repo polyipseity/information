@@ -24,7 +24,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
   - Each archive directory should include an `index.md` with source URL, timestamp and description; `pyarchivist` can auto-update these.
 
 - **`tools/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
-  - Prefer running wrappers (`pnpm run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
+  - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
   - Notable submodules: `tools/pytextgen/` and `tools/pyarchivist/` (treat as external tools).
 Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.github/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
@@ -60,10 +60,10 @@ python .github/skills/academic-notes/check.py --content private/special/academia
 
 ## Developer tooling & testing conventions
 
-- Use `pyproject.toml` as the authoritative Python dependency manifest. Keep runtime dependencies in `[project].dependencies` and developer tools in `[dependency-groups].dev` (PEP 722 style). Running `pnpm install` will trigger `prepare`, which runs `uv sync` to install dev extras from `pyproject.toml` using the project's `uv.lock`.
+- Use `pyproject.toml` as the authoritative Python dependency manifest. Keep runtime dependencies in `[project].dependencies` and developer tools in `[dependency-groups].dev` (PEP 722 style). Running `bun install` will trigger `prepare`, which runs `uv sync` to install dev extras from `pyproject.toml` using the project's `uv.lock`.
 - Tests: Place tests under `tests/`, mirror the source layout when possible, and use `pytest` (`test_*.py` naming). Add tests for any script, tool or instruction change (especially changes that affect content generation or publishing). Use `pytest.mark.asyncio` for async tests.
-- Hooks & automation: Register Husky hooks with `pnpm run prepare`. Pre-commit runs lint-staged which runs markdown and code formatters; pre-push runs the test suite to avoid broken pushes.
-- Local validation: Before committing or opening a PR run `pnpm run format` and `pnpm run check` and `pnpm run test` locally.  When only a subset of files are affected, supply explicit paths to the commands (for example `pnpm run check:md --no-globs file1.md file2.md`) so they run quickly instead of scanning the whole repo.
+- Hooks & automation: Register Husky hooks with `bun run prepare`. Pre-commit runs lint-staged which runs markdown and code formatters; pre-push runs the test suite to avoid broken pushes.
+- Local validation: Before committing or opening a PR run `bun run format` and `bun run check` and `bun run test` locally.  When only a subset of files are affected, supply explicit paths to the commands (for example `bun run check:md --no-globs file1.md file2.md`) so they run quickly instead of scanning the whole repo.
 
 ---
 

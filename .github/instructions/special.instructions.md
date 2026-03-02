@@ -415,7 +415,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 
 - Any new tool or helper script that transforms or ingests `special/` content requires unit tests and integration tests; tests should be placed under `tests/` using `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) to avoid mutating the repo. For conversion tools, add regression tests that verify expected output for representative inputs and that guard against accidental format drift. When converting path-like objects to strings in tests or code, **always** use `os.fspath(path_like)`.
 - For content changes that affect pytextgen fences, add round-trip tests that verify the fences remain unchanged except for intentional updates; these tests should not invoke `uv run -m init generate`, and agents are explicitly forbidden from running that command.
-- Ensure `pnpm run check`, `pnpm run format`, and `pnpm run test` pass locally before opening a PR.  Whenever possible include explicit file arguments (e.g. `pnpm run check:md --no-globs special/academia/...`) so commands complete faster and avoid touching unrelated content.
+- Ensure `bun run check`, `bun run format`, and `bun run test` pass locally before opening a PR.  Whenever possible include explicit file arguments (e.g. `bun run check:md --no-globs special/academia/...`) so commands complete faster and avoid touching unrelated content.
 
 ### Academia-specific
 

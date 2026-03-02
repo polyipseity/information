@@ -124,16 +124,8 @@ jobs:
           $FALLBACK_SUBMODULES
           EOF
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-
-      - name: Install Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: "*"
-          cache: "pnpm"
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
@@ -143,11 +135,11 @@ jobs:
 
       - name: Install project
         run: |
-          pnpm install --frozen-lockfile --ignore-scripts
+          bun install --frozen-lockfile --ignore-scripts
           uv sync --locked --all-extras --dev
 
       - name: Run tests
-        run: pnpm run test
+        run: bun test
 
       - name: Build project
-        run: pnpm run build
+        run: bun run build

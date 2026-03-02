@@ -6,7 +6,7 @@ applyTo: "**"
 
 # Commit convention for agent-made commits
 
-**Agent quickstart:** See `.github/instructions/agent-quickstart.instructions.md` for a short checklist of commands and workflow tips (present commit message to the user, run `pnpm run format`/`pnpm run check`, and prefer `pnpm install` + `pnpm run prepare` before making changes).
+**Agent quickstart:** See `.github/instructions/agent-quickstart.instructions.md` for a short checklist of commands and workflow tips (present commit message to the user, run `bun run format`/`bun run check`, and prefer `bun install` + `bun run prepare` before making changes).
 
 Whenever an automated agent or helper wishes to create a git commit on behalf of a user in this repository, the agent MUST follow this instruction **and ensure the commit message passes all commitlint rules enforced by the repository** (including line length, header/body/footer formatting, and any other linting requirements).
 
@@ -78,7 +78,7 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
 
 6. This instruction applies repository-wide; submodules with their own `.github/instructions/` may augment or override these rules for their subtree (innermost `AGENTS.md` wins).
 
-**Pre-commit validation:** Before creating commits, agents MUST run repository formatting and validation steps using `pnpm` script wrappers when available (for example, `pnpm run format`, `pnpm run check`, and `pnpm run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `pnpm run check:md --no-globs file.md`) so they complete quickly. The repository includes Husky hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `pnpm run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
+**Pre-commit validation:** Before creating commits, agents MUST run repository formatting and validation steps using `bun` script wrappers when available (for example, `bun run format`, `bun run check`, and `bun run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `bun run check:md --no-globs file.md`) so they complete quickly. The repository includes Husky hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `bun run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
 
 ## Commitlint compliance
 

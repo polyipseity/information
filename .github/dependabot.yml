@@ -12,6 +12,26 @@ registries:
     password: ${{secrets.CHECKOUT_GITHUB_TOKEN}}
 
 updates:
+  # Bun (bun.lock)
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "build"
+      prefix-development: "chore"
+      include: "scope"
+    groups:
+      bun:
+        patterns:
+          - "*"
+    exclude-paths:
+      # Meant to be vulnerable
+      - "special/academia/HKUST/COMP 3633/presentation 10/examples"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
+
   # GitHub Actions (workflow dependencies)
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -59,8 +79,8 @@ updates:
       npm:
         patterns:
           - "*"
-    # Disable updates for specific paths
     exclude-paths:
+      # Meant to be vulnerable
       - "special/academia/HKUST/COMP 3633/presentation 10/examples"
     registries:
       # Make all submodules clone successfully

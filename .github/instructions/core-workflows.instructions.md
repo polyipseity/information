@@ -6,7 +6,7 @@ applyTo: "**"
 
 # Core Workflows
 
-**Tooling & pnpm wrappers:** Prefer `pnpm` script wrappers when available. Check `package.json` for repository scripts and prefer `pnpm run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no pnpm wrapper exists for an operation, run the underlying command shown below (for example, `uv run -m init generate`). Always run `pnpm install` before using `pnpm run`.
+**Tooling & bun wrappers:** Prefer `bun` script wrappers when available. Check `package.json` for repository scripts and prefer `bun run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no bun wrapper exists for an operation, run the underlying command shown below (for example, `uv run -m init generate`). Always run `bun install` before using `bun run`.
 
 > **Shell note:** Agents constructing shell commands should adapt the syntax to the detected shell. On Windows PowerShell use a here-string and pipe into `python -` for inline Python code:
 >
@@ -22,9 +22,9 @@ applyTo: "**"
 > `init generate` or similar commands when editing content, since
 > generation is handled automatically by the build/CI pipelines.
 
-Important: `pnpm install` triggers the `prepare` script which runs `uv sync --all-extras --dev` to install Python development extras declared in `pyproject.toml`'s `[dependency-groups].dev` using the project's `uv.lock`. For CI and deterministic installs prefer `uv sync --locked --all-extras --dev`. `pyproject.toml` is the canonical source for Python dependency metadata in this repository; keep it up-to-date and add dev-only tools there rather than in a `requirements.txt` file.
+Important: `bun install` triggers the `prepare` script which runs `uv sync --all-extras --dev` to install Python development extras declared in `pyproject.toml`'s `[dependency-groups].dev` using the project's `uv.lock`. For CI and deterministic installs prefer `uv sync --locked --all-extras --dev`. `pyproject.toml` is the canonical source for Python dependency metadata in this repository; keep it up-to-date and add dev-only tools there rather than in a `requirements.txt` file.
 
-Agent quickstart note: Agents should consult `.github/instructions/agent-quickstart.instructions.md` for a one-page checklist (startup commands, test/format sequence, and quick gotchas such as preserving pytextgen fences and setting the correct `cwd` for script runs). Prefer `pnpm` wrappers and `uv` invocations via `uv run` for reproducible, lockfile-respecting runs.
+Agent quickstart note: Agents should consult `.github/instructions/agent-quickstart.instructions.md` for a one-page checklist (startup commands, test/format sequence, and quick gotchas such as preserving pytextgen fences and setting the correct `cwd` for script runs). Prefer `bun` wrappers and `uv` invocations via `uv run` for reproducible, lockfile-respecting runs.
 
 ## Regenerate generated regions
 
@@ -35,7 +35,7 @@ Agent quickstart note: Agents should consult `.github/instructions/agent-quickst
 
 **Command**: `uv run -m init generate [pytextgen flags] <paths?>`
 
-> **Tip:** when you later use `pnpm run check:md` or `pnpm run format:md` with explicit paths or filenames, **always** add `--no-globs` and provide the list of files you intend to process.  Without this flag markdownlint-cli2 may interpret the argument as a glob pattern, causing the entire repository to be scanned instead of just your target files.  This applies whether you invoke the CLI directly or via a pnpm script.
+> **Tip:** when you later use `bun run check:md` or `bun run format:md` with explicit paths or filenames, **always** add `--no-globs` and provide the list of files you intend to process.  Without this flag markdownlint-cli2 may interpret the argument as a glob pattern, causing the entire repository to be scanned instead of just your target files.  This applies whether you invoke the CLI directly or via a bun script.
 > paths literally instead of expanding globs; this prevents enormous scans.
 
 - Add `-C/--no-cached` to rebuild cache from scratch
