@@ -10,7 +10,7 @@ This document describes the feedback loop for continuously improving the
 2. Draft minimal edits to this document and to any affected tool or
    documentation, citing the feedback.
 3. Verify behaviour with the corresponding CLI command(s) and run
-   `pnpm run check` / `pnpm run test` to ensure no regressions.
+   `bun run check` / `bun run test` to ensure no regressions.
 4. Present the change as a patch or PR for review before merging.
 
 ## Lessons learned (2026‑02‑22 and earlier)
@@ -28,7 +28,7 @@ This document describes the feedback loop for continuously improving the
   the standard build workflow; explicit `uv run -m init generate -C` is
   not required and agents should not advise running it (stale bundles were
   a past issue when tests were bypassed).
-- Running `pnpm run check:md` on generated files helps catch duplicate
+- Running `bun run check:md` on generated files helps catch duplicate
   headings and formatting issues early.
 - Tools that modify Markdown (especially `init.py`) should exclude
   `.git`, `.obsidian`, and `tools` directories to avoid accidental

@@ -25,7 +25,7 @@ maintaining `index.md` files in `archives/`.
 - **Scheduling rules** from other skills (full weekday names, no topic on
   unscheduled) apply when pyarchivist is used to archive timetable data or
   schedules scraped from web pages.
-- Run `pnpm run check:md` on affected index files after archiving to
+- Run `bun run check:md` on affected index files after archiving to
   catch inadvertent markdown errors such as duplicate headings or
   misplaced YAML frontmatter.
 - **2026‑02‑22 consolidation:** this document was added as part of a

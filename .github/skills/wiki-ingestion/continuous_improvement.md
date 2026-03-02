@@ -18,7 +18,7 @@ similar).
    confirm the issue is resolved (e.g. ingest a sample page, inspect
   archive paths).  Generation happens automatically, so there is no need to
   execute `uv run -m init generate` during validation.  Check markdown with
-   `pnpm run check:md` to ensure formatting remains valid.
+   `bun run check:md` to ensure formatting remains valid.
 4. **Present changes.**  Either create a PR or save a patch and attach it
    to the feedback note.  When the user approves, merge the update and
    close the feedback item.

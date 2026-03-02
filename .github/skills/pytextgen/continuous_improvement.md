@@ -24,7 +24,7 @@ content and the `init.py` wrapper.
 - Session entries flagged `status: unscheduled` should not include a
   `topic:` field; generators that produce filler rows must omit the
   topic to avoid clutter.
-- Always run `pnpm run check:md` on files before committing; duplicate
+- Always run `bun run check:md` on files before committing; duplicate
   headings and other markdown errors often originate from generated
   output.
 - Include explicit public‑holiday rows rather than skipping them; the

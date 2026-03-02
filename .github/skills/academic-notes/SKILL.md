@@ -47,7 +47,7 @@ Before committing any new or changed course note, run through these items.  This
 - Add assignments, questions, attachments under appropriate subfolders and list them under `children`.
 - Link to canonical `general/` pages instead of copying long definitions; percent-encode spaces in paths. When a concept deserves its own course note, follow the topic‑specific notes workflow below.
 - Filenames are friendly and human‑readable; use spaces and percent‑encode them in links.
-- Run `pnpm run format`, `pnpm run check` (with `--no-globs` and explicit paths), and `pnpm run test` locally before committing.
+- Run `bun run format`, `bun run check` (with `--no-globs` and explicit paths), and `bun run test` locally before committing.
 - Use `assignments/`, `questions/`, and `attachments/` subfolders for respective content.
 - Include venue lines immediately after `datetime:`; apply the HKUST room interpretation rule if appropriate (numeric rooms → “Room ####, Academic Building”).
 - Add at least one worked example or solution sketch for important techniques and sample exam‑style problems linked to `questions/solutions.md`.
@@ -238,7 +238,7 @@ Run:
 python .github/skills/academic-notes/check.py special/academia/<institution>/<course folder>  # e.g. special/academia/HKUST/ELEC\ 1100; do not point at the whole institution
 ```
 
-The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `pnpm run format`, `pnpm run check`, and `pnpm run test` with explicit paths to your changed files so the commands execute quickly.
+The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `bun run format`, `bun run check`, and `bun run test` with explicit paths to your changed files so the commands execute quickly.
 
 The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and report any bugs or feature requests in `continuous_improvement.md`.
 
