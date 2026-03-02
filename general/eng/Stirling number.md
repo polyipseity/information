@@ -81,7 +81,7 @@ For {@{any pair of sequences, $\{f_{n}\}$ and $\{g_{n}\}$}@}, related by {@{a fi
 
 For {@{$D=d/dx$}@}, {@{the [differential operators](differential%20operator.md) $x^{n}D^{n}$ and $(xD)^{n}$}@} are {@{related by the following formulas}@} for {@{all integers $n\geq 0$}@}:<sup>[\[7\]](#^ref-7)</sup> {@{$${\begin{aligned}(xD)^{n}&=\sum _{k=0}^{n}S(n,k)x^{k}D^{k}\\x^{n}D^{n}&=\sum _{k=0}^{n}s(n,k)(xD)^{k}=(xD)_{n}=xD(xD-1)\ldots (xD-n+1)\end{aligned} }$$}@} <!--SR:!2027-06-08,654,310!2028-08-30,992,290!2029-09-09,1385,350!2028-03-02,918,330!2026-05-16,307,230-->
 
-{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2029-10-03,1404,350!2027-04-09,564,270!2027-11-27,713,270!2026-03-09,21,130-->
+{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2029-10-03,1404,350!2027-04-09,564,270!2027-11-27,713,270!2026-04-04,26,130-->
 
 ## similar properties
 
@@ -106,7 +106,7 @@ See the specific articles for details.
 
 Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@{the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-05-03,967,330!2027-01-08,358,371-->
 
-- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2026-03-09,13,130!2026-08-04,238,250-->
+- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2026-03-27,18,130!2026-08-04,238,250-->
 
 ## Stirling numbers with negative integral values
 

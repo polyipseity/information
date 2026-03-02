@@ -33,7 +33,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 >
 > - {@{$\phi_\text{q,x}$}@} is {@{the [heat flux](heat%20flux.md) along the $x$-direction, in W⋅m<sup>-2</sup>}@}
 > - {@{$k$}@} is {@{the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}@}
-> - {@{$\frac{\partial T}{\partial x}$}@} is {@{the [temperature gradient](temperature%20gradient.md) along the $x$-direction, in K⋅m<sup>-1</sup>}@} <!--SR:!2028-05-11,1249,350!2029-09-08,1420,310!2026-09-04,696,290!2027-09-11,1059,350!2026-10-07,734,330!2026-03-10,90,361!2026-03-10,90,361!2026-03-09,89,361-->
+> - {@{$\frac{\partial T}{\partial x}$}@} is {@{the [temperature gradient](temperature%20gradient.md) along the $x$-direction, in K⋅m<sup>-1</sup>}@} <!--SR:!2028-05-11,1249,350!2029-09-08,1420,310!2026-09-04,696,290!2027-09-11,1059,350!2026-10-07,734,330!2026-03-10,90,361!2026-03-10,90,361!2027-05-27,444,381-->
 
 ### integral form
 
@@ -59,7 +59,7 @@ For simple applications where the material is [homogeneous](homogeneity%20and%20
 > - {@{$\frac{Q}{\Delta t}$}@} is {@{the [heat](heat.md) transferred per unit [time](time.md), in W}@}
 > - {@{$k$}@} is {@{the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}@}
 > - {@{$\frac{\Delta T}{\Delta x}$}@} is {@{the [temperature](temperature.md) change per unit distance along the $x$-direction which is perpendicular to the surface, in K⋅m<sup>-1</sup>}@}
-> - {@{$A$}@} is {@{the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}@} <!--SR:!2027-08-25,967,330!2027-06-27,846,290!2027-03-12,780,290!2028-03-18,1206,350!2030-12-15,1939,330!2027-11-18,1112,350!2027-05-20,438,381!2026-03-09,89,361!2026-03-12,92,361!2026-03-11,91,361-->
+> - {@{$A$}@} is {@{the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}@} <!--SR:!2027-08-25,967,330!2027-06-27,846,290!2027-03-12,780,290!2028-03-18,1206,350!2030-12-15,1939,330!2027-11-18,1112,350!2027-05-20,438,381!2027-05-26,443,381!2026-03-12,92,361!2026-03-11,91,361-->
 
 ## references
 

@@ -147,7 +147,7 @@ return (
 > iodides
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}@} <!--SR:!2026-07-21,1056,262!2026-03-09,389,190-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}@} <!--SR:!2026-07-21,1056,262!2029-02-01,1060,210-->
 
 <!-- markdownlint MD028 -->
 
@@ -395,7 +395,7 @@ return await memorize_map(
 - [strontium hydroxide](strontium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-10-18,259,170-->
 - [strontium oxide](strontium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2027-08-18,892,278-->
 - [strontium sulfate](strontium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-07-25,317,158-->
-- [thallium(I) hydroxide](thallium(I)%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-03-09,504,258-->
+- [thallium(I) hydroxide](thallium(I)%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2031-03-03,1820,278-->
 - [thallium(I) oxide](thallium(I)%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2029-12-23,1442,278-->
 - [thallium(III) oxide](thallium(III)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-05-02,142,178-->
 - [uranyl carbonate](uranyl%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-01-28,797,298-->

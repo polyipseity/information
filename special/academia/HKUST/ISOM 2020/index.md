@@ -121,7 +121,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
   - [§ comparison operators](basics.md#comparison%20operators)
-    - [basics § comparison operators](basics.md#comparison%20operators) / note ::@:: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2031-04-26,1925,392!2026-03-09,421,372-->
+    - [basics § comparison operators](basics.md#comparison%20operators) / note ::@:: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2031-04-26,1925,392!2032-01-20,2143,392-->
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)

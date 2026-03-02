@@ -36,7 +36,7 @@ In {@{the [Cartesian coordinate system](Cartesian%20coordinate%20system.md) $\ma
 
 As {@{a vector operator}@}, del naturally {@{acts on scalar fields via scalar multiplication}@}, and naturally {@{acts on vector fields via dot products and cross products}@}. <!--SR:!2029-05-31,1205,350!2026-03-11,294,330!2029-08-03,1263,350-->
 
-More specifically, for {@{any scalar field $f$ and any vector field $\mathbf {F} =(F_{x},F_{y},F_{z})$}@}, if one _defines_ <!--SR:!2026-03-09,292,330-->
+More specifically, for {@{any scalar field $f$ and any vector field $\mathbf {F} =(F_{x},F_{y},F_{z})$}@}, if one _defines_ <!--SR:!2029-11-02,1334,350-->
 
 - (annotation: gradient, component) ::@:: $$\left(\mathbf {e} _{i}{\partial  \over \partial x_{i} }\right)f:={\partial  \over \partial x_{i} }(\mathbf {e} _{i}f)={\partial f \over \partial x_{i} }\mathbf {e} _{i}$$ <!--SR:!2029-05-04,1187,350!2029-11-11,1345,350-->
 - (annotation: divergence, component) ::@:: $$\left(\mathbf {e} _{i}{\partial  \over \partial x_{i} }\right)\cdot \mathbf {F} :={\partial  \over \partial x_{i} }(\mathbf {e} _{i}\cdot \mathbf {F} )={\partial F_{i} \over \partial x_{i} }$$ <!--SR:!2029-07-25,1254,350!2029-01-22,1103,350-->
@@ -94,7 +94,7 @@ Note that {@{$(\mathbf {a} \cdot \nabla )$ is an operator that takes scalar to a
 
 {@{The [Laplace operator](Laplace%20operator.md)}@} is {@{a scalar operator that can be applied to either vector or scalar fields}@}; for {@{cartesian coordinate systems}@} it is defined as: {@{$$\Delta ={\partial ^{2} \over \partial x^{2} }+{\partial ^{2} \over \partial y^{2} }+{\partial ^{2} \over \partial z^{2} }=\nabla \cdot \nabla =\nabla ^{2}$$}@} and {@{the definition for more general coordinate systems}@} is given in {@{[vector Laplacian](vector%20Laplacian.md#vector%20Laplacian)}@}. <!--SR:!2028-12-28,1078,350!2029-11-05,1340,350!2029-10-05,1311,350!2029-11-10,1344,350!2029-02-11,1123,350!2029-04-15,1179,350-->
 
-The Laplacian is {@{ubiquitous throughout modern [mathematical physics](mathematical%20physics.md)}@}, appearing for example in {@{[Laplace's equation](Laplace's%20equation.md), [Poisson's equation](Poisson's%20equation.md), the [heat equation](heat%20equation.md)}@}, {@{the [wave equation](wave%20equation.md), and the [Schrödinger equation](Schrödinger%20equation.md)}@}. <!--SR:!2026-03-09,292,330!2029-10-14,1318,350!2029-04-25,1180,350-->
+The Laplacian is {@{ubiquitous throughout modern [mathematical physics](mathematical%20physics.md)}@}, appearing for example in {@{[Laplace's equation](Laplace's%20equation.md), [Poisson's equation](Poisson's%20equation.md), the [heat equation](heat%20equation.md)}@}, {@{the [wave equation](wave%20equation.md), and the [Schrödinger equation](Schrödinger%20equation.md)}@}. <!--SR:!2029-11-03,1335,350!2029-10-14,1318,350!2029-04-25,1180,350-->
 
 ### Hessian matrix
 

@@ -255,7 +255,7 @@ The content is in teaching order.
 - datetime: 2024-09-27T12:00:00+08:00/2024-09-27T13:20:00+08:00
 - [economic equilibrium](../../../../general/economic%20equilibrium.md)
   - market equilibrium ::@:: A condition where a market price is established through competition such that the amount of goods or services sought by buyers is equal to the amount of goods or services produced by sellers. <!--SR:!2026-07-20,502,402!2030-07-05,1634,391-->
-    - market equilibrium / names ::@:: The price is called the __competitive price__, __equilibrium price__ or __market clearing price__. The quantity is called the __competitive quantity__, __equilibrium quantity__, or __market clearing quantity__. <!--SR:!2026-03-09,369,379!2026-05-26,456,391-->
+    - market equilibrium / names ::@:: The price is called the __competitive price__, __equilibrium price__ or __market clearing price__. The quantity is called the __competitive quantity__, __equilibrium quantity__, or __market clearing quantity__. <!--SR:!2031-06-05,1914,399!2026-05-26,456,391-->
       - [market clearing](../../../../general/market%20clearing.md)
     - market equilibrium / cause ::@:: It is caused by "bargaining" between buyers and sellers. The number of buyers and sellers affect the market ("bargaining") power of respectively buyers and sellers, thus affecting the market equilibrium. <!--SR:!2026-07-11,497,402!2030-07-07,1636,391-->
     - [market structure](../../../../general/market%20structure.md) ::@:: It depicts how firms are differentiated and categorized based on the types of goods they sell (homogeneous/heterogeneous) and how their operations are affected by external factors and element. <!--SR:!2029-03-16,1251,382!2026-08-29,537,402-->

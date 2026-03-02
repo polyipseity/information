@@ -49,7 +49,7 @@ In {@{some industries}@}, {@{long-run average cost}@} is {@{always declining \(e
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Average%20cost) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(June 2023\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-When {@{average cost is declining as output increases}@}, {@{marginal cost is less than average cost}@}. When {@{average cost is rising, marginal cost is greater than average cost}@}. When {@{average cost is neither rising nor falling \(at a minimum or maximum\), marginal cost equals average cost}@}. <!--SR:!2026-03-09,317,342!2026-03-18,324,342!2029-11-27,1391,362!2026-03-17,323,342-->
+When {@{average cost is declining as output increases}@}, {@{marginal cost is less than average cost}@}. When {@{average cost is rising, marginal cost is greater than average cost}@}. When {@{average cost is neither rising nor falling \(at a minimum or maximum\), marginal cost equals average cost}@}. <!--SR:!2030-04-02,1485,362!2026-03-18,324,342!2029-11-27,1391,362!2026-03-17,323,342-->
 
 {@{Other special cases}@} for {@{average cost and marginal cost appear frequently}@}: <!--SR:!2030-01-06,1420,362!2026-03-16,322,342-->
 

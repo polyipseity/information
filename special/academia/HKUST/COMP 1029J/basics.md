@@ -201,8 +201,8 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:36.998975+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`++` <br/> `--` <!--SR:!2026-03-09,126,393!2027-12-18,655,413-->
-- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2026-03-14,130,393!2026-03-09,126,393-->
+- _(begin)_→::@::←`++` <br/> `--` <!--SR:!2028-01-15,677,413!2027-12-18,655,413-->
+- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2026-03-14,130,393!2028-01-16,678,413-->
 - `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2027-12-17,654,413!2026-03-14,130,393-->
 - `+` <br/> `-`→::@::←_(end)_ <!--SR:!2027-12-04,643,413!2027-12-06,644,413-->
 
@@ -210,7 +210,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:37.027388+08:00. Any edits will be overridden! -->
 
-- `++` <br/> `--`:@:increment a numerical variable by 1 <br/> decrement a numerical variable by 1 <!--SR:!2026-03-09,126,393-->
+- `++` <br/> `--`:@:increment a numerical variable by 1 <br/> decrement a numerical variable by 1 <!--SR:!2028-01-21,683,413-->
 - `*` <br/> `/` <br/> `%`:@:multiplication <br/> division; if both operands are of integral types, then round-towards-zero division <br/> remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2028-01-10,673,413-->
 - `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2026-03-15,131,393-->
 
@@ -288,7 +288,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2027-12-01,641,413!2026-03-15,131,393!2026-03-09,126,393-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2027-12-01,641,413!2026-03-15,131,393!2028-01-14,676,413-->
 
 ```Python
 # pytextgen generate data

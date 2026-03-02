@@ -131,7 +131,7 @@ The content is in teaching order.
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
 - [FP-growth algorithm § overview](../../../../general/FP-growth%20algorithm.md#overview)
 - Jaccard's coefficient for binary data ::@:: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2031-04-21,1991,397!2033-08-07,2715,417-->
-- matching coefficient for binary data ::@:: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2033-06-29,2683,417!2026-03-09,508,397-->
+- matching coefficient for binary data ::@:: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2033-06-29,2683,417!2033-09-21,2753,417-->
 
 ## week 6 lecture 2
 
@@ -467,7 +467,7 @@ The content is in teaching order.
 - [Bayesian belief network](../../../../general/Bayesian%20network.md)
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
   - Bayesian belief network inference setup ::@:: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2030-11-26,1829,357!2028-10-27,1244,377-->
-  - Bayesian belief network inference process ::@:: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2026-03-09,492,357!2026-09-03,575,337-->
+  - Bayesian belief network inference process ::@:: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2032-10-13,2410,377!2026-09-03,575,337-->
   - Bayesian belief network inference answering ::@:: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and state that the higher conditional probability is the most likely outcome. <!--SR:!2026-03-23,522,397!2028-05-19,1135,377-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)

@@ -35,7 +35,7 @@ With the process of {@{primary apportionment or distribution}@}, {@{the loading 
 
 ### absorption
 
-{@{Each job}@} while {@{moving through the production department}@} should {@{get its share of overhead}@}. {@{This process of distribution of overheads}@} is called {@{absorption}@}. There can be {@{a number of methods of absorption of overheads}@}, consideration should be given to {@{the type of industry, manufacturing process, nature of industry etc.}@} {@{The various methods of absorption}@} are \(annotation: 5 items: {@{direct material cost percentage rate, direct labor cost percentage rate, prime cost percentage rate, labor hour rate, machine hour rate}@}\) <!--SR:!2026-06-21,248,330!2026-06-23,250,330!2026-06-24,251,330!2026-06-12,241,330!2026-06-16,244,330!2026-06-08,237,330!2026-03-24,175,310!2026-06-24,251,330!2026-03-09,115,310-->
+{@{Each job}@} while {@{moving through the production department}@} should {@{get its share of overhead}@}. {@{This process of distribution of overheads}@} is called {@{absorption}@}. There can be {@{a number of methods of absorption of overheads}@}, consideration should be given to {@{the type of industry, manufacturing process, nature of industry etc.}@} {@{The various methods of absorption}@} are \(annotation: 5 items: {@{direct material cost percentage rate, direct labor cost percentage rate, prime cost percentage rate, labor hour rate, machine hour rate}@}\) <!--SR:!2026-06-21,248,330!2026-06-23,250,330!2026-06-24,251,330!2026-06-12,241,330!2026-06-16,244,330!2026-06-08,237,330!2026-03-24,175,310!2026-06-24,251,330!2027-03-05,361,310-->
 
 - Direct material cost percentage rate
 - Direct labour cost percentage rate

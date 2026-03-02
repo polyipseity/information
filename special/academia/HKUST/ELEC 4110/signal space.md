@@ -22,15 +22,15 @@ A {@{__signal space__}@} is {@{an abstract vector-space representation used in d
 
 ## geometric domain
 
-A signal $s(t)$ can be described in {@{time domain, frequency domain, or geometric domain}@}. Actually, {@{time domain and frequency domain}@} are {@{special cases of the geometric domain}@}. <!--SR:!2026-03-23,78,344!2026-03-09,64,325!2026-03-18,73,325-->
+A signal $s(t)$ can be described in {@{time domain, frequency domain, or geometric domain}@}. Actually, {@{time domain and frequency domain}@} are {@{special cases of the geometric domain}@}. <!--SR:!2026-03-23,78,344!2026-12-21,287,345!2026-03-18,73,325-->
 
 {@{A signal $s(t)$}@} is typically {@{expressed as a function of continuous time}@}, revealing {@{its waveform shape, duration, and temporal features}@} such as {@{rise/fall times or modulation patterns}@}. {@{Analysis in this domain}@} focuses on {@{causality, stability}@}, and {@{the physical realization}@} of {@{transmitters and receivers}@}. {@{Energy in the time domain}@} is obtained by {@{integrating $|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2026-03-28,83,344!2026-12-01,271,345!2026-03-11,66,325!2026-03-15,70,325!2026-03-16,71,325!2026-03-10,65,325!2026-03-23,78,344!2026-03-16,71,325!2026-03-16,71,325!2026-03-27,82,344-->
 
 {@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the time waveform into a spectrum of sinusoidal components}@}. This representation exposes {@{bandwidth requirements, spectral occupancy, and filtering behavior}@}. Importantly, {@{Parseval’s theorem}@} guarantees that {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$ \(under the unitary convention\)}@}, so {@{total energy is preserved}@}. <!--SR:!2026-12-08,277,345!2026-03-20,75,325!2026-12-06,275,345!2026-03-25,80,344!2026-03-20,75,325!2026-03-19,74,325-->
 
-In {@{signal space}@}, {@{each waveform}@} is regarded as {@{a vector in an abstract Hilbert space}@} whose {@{inner product}@} is defined by {@{$\langle u,v\rangle=\int_{0}^{T}u(t)v^{*}(t)\,dt$}@}. {@{Choosing a finite-dimensional orthonormal basis}@} turns {@{the continuous-time signal into a finite-dimensional coordinate vector}@}, enabling {@{Euclidean geometry tools—distances, angles, and projections}@}—to analyze {@{modulation constellations, design matched filters, and evaluate error probabilities}@}. <!--SR:!2026-03-18,73,325!2026-03-16,71,325!2026-03-18,73,325!2026-03-09,64,325!2026-12-17,284,345!2026-12-06,275,345!2026-12-19,286,345!2026-03-22,77,344!2026-03-17,72,325-->
+In {@{signal space}@}, {@{each waveform}@} is regarded as {@{a vector in an abstract Hilbert space}@} whose {@{inner product}@} is defined by {@{$\langle u,v\rangle=\int_{0}^{T}u(t)v^{*}(t)\,dt$}@}. {@{Choosing a finite-dimensional orthonormal basis}@} turns {@{the continuous-time signal into a finite-dimensional coordinate vector}@}, enabling {@{Euclidean geometry tools—distances, angles, and projections}@}—to analyze {@{modulation constellations, design matched filters, and evaluate error probabilities}@}. <!--SR:!2026-03-18,73,325!2026-03-16,71,325!2026-03-18,73,325!2026-12-26,292,345!2026-12-17,284,345!2026-12-06,275,345!2026-12-19,286,345!2026-03-22,77,344!2026-03-17,72,325-->
 
-From the view of {@{geometric domain}@}, {@{the time-domain waveform}@} is simply {@{a coordinate representation using the basis $\{\,\delta(t-t_k)\,\}$}@}, while {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{specific orthonormal bases of the same signal Hilbert space}@}. Thus, {@{time and frequency views}@} are merely {@{different coordinate systems}@} within {@{the overarching geometric (vector-space) framework}@}. <!--SR:!2026-03-11,66,325!2026-03-16,71,325!2026-03-20,75,325!2026-03-10,65,325!2026-12-05,275,345!2026-12-23,290,345!2026-03-09,64,325!2026-11-02,246,330!2026-11-09,251,330-->
+From the view of {@{geometric domain}@}, {@{the time-domain waveform}@} is simply {@{a coordinate representation using the basis $\{\,\delta(t-t_k)\,\}$}@}, while {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{specific orthonormal bases of the same signal Hilbert space}@}. Thus, {@{time and frequency views}@} are merely {@{different coordinate systems}@} within {@{the overarching geometric (vector-space) framework}@}. <!--SR:!2026-03-11,66,325!2026-03-16,71,325!2026-03-20,75,325!2026-03-10,65,325!2026-12-05,275,345!2026-12-23,290,345!2026-12-25,291,345!2026-11-02,246,330!2026-11-09,251,330-->
 
 ## definition
 
@@ -44,7 +44,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 2. Linearity in the first argument ::@:: $\langle u+v,w\rangle = \langle u,w\rangle + \langle v,w\rangle$, and $\langle au,v\rangle = a\,\langle u,v\rangle$. <!--SR:!2026-03-16,71,325!2026-03-20,75,325-->
 3. Positive definiteness: ::@:: $\langle u,u\rangle \ge 0$ with equality iff $u=0$. <!--SR:!2026-03-18,73,325!2026-03-19,74,325-->
 
-{@{These properties}@} guarantee that {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$}@} behaves like {@{a Euclidean length}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{their inner product equals zero}@}; they are {@{_orthonormal_}@} when {@{each also has unit norm}@}. <!--SR:!2026-03-17,72,325!2026-03-09,64,325!2026-03-24,79,344!2026-03-11,66,325!2026-03-16,71,325!2026-10-22,237,330!2026-03-18,73,325!2026-03-15,70,325-->
+{@{These properties}@} guarantee that {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$}@} behaves like {@{a Euclidean length}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{their inner product equals zero}@}; they are {@{_orthonormal_}@} when {@{each also has unit norm}@}. <!--SR:!2026-03-17,72,325!2026-12-22,288,345!2026-03-24,79,344!2026-03-11,66,325!2026-03-16,71,325!2026-10-22,237,330!2026-03-18,73,325!2026-03-15,70,325-->
 
 {@{The inner product}@} for {@{continuous-time signals}@} is {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} With {@{this definition}@} {@{a signal $s(t)$ has unit norm}@} when {@{its energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2026-03-19,74,325!2026-12-11,280,345!2026-03-11,66,325!2026-03-23,78,344!2026-11-29,269,345!2026-03-16,71,325!2026-03-16,71,325-->
 
@@ -66,7 +66,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!2026-08-29,202,325!2026-12-18,285,345!2026-03-16,71,325!2026-03-15,70,325!2026-03-16,71,325!2026-12-03,272,345!2026-05-03,106,305-->
 
-{@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the point in Euclidean space that represents the waveform}@}. {@{These coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}, and they provide {@{a compact, geometrically meaningful description of $s(t)$}@}. <!--SR:!2026-03-11,66,325!2026-03-16,71,325!2026-03-17,72,325!2026-03-15,70,325!2026-03-09,64,325!2026-03-19,74,325-->
+{@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the point in Euclidean space that represents the waveform}@}. {@{These coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}, and they provide {@{a compact, geometrically meaningful description of $s(t)$}@}. <!--SR:!2026-03-11,66,325!2026-03-16,71,325!2026-03-17,72,325!2026-03-15,70,325!2026-12-28,294,345!2026-03-19,74,325-->
 
 ## properties
 
@@ -84,11 +84,11 @@ Consequently, {@{the vector space's additive structure}@} behaves like {@{ordina
 
 ### basis
 
-{@{An $n$-dimensional vector space $S$}@} is generated by {@{a set of $n$ basis vectors $\{e_1,e_2,\dots ,e_n\}$}@}. {@{The space}@} is {@{the span of these vectors}@}: {@{$$S=\operatorname{span}(e_1,e_2,\dots ,e_n)$$}@} {@{Any vector $a\in S$}@} can be {@{expressed uniquely as a linear combination of the basis}@}, i.e. {@{$$a=\sum_{i=1}^{n}c_i\,e_i \,.$$}@} {@{The number $n$}@} is called {@{the _dimension_ of the space}@} and equals {@{the maximum number of linearly independent vectors it contains}@}. <!--SR:!2026-03-27,82,344!2026-03-24,79,344!2026-03-16,71,325!2026-03-16,71,325!2026-03-16,71,325!2026-03-27,82,344!2026-03-16,71,325!2026-03-09,64,325!2026-10-23,237,330!2026-03-16,71,325!2026-03-10,65,325-->
+{@{An $n$-dimensional vector space $S$}@} is generated by {@{a set of $n$ basis vectors $\{e_1,e_2,\dots ,e_n\}$}@}. {@{The space}@} is {@{the span of these vectors}@}: {@{$$S=\operatorname{span}(e_1,e_2,\dots ,e_n)$$}@} {@{Any vector $a\in S$}@} can be {@{expressed uniquely as a linear combination of the basis}@}, i.e. {@{$$a=\sum_{i=1}^{n}c_i\,e_i \,.$$}@} {@{The number $n$}@} is called {@{the _dimension_ of the space}@} and equals {@{the maximum number of linearly independent vectors it contains}@}. <!--SR:!2026-03-27,82,344!2026-03-24,79,344!2026-03-16,71,325!2026-03-16,71,325!2026-03-16,71,325!2026-03-27,82,344!2026-03-16,71,325!2026-12-24,290,345!2026-10-23,237,330!2026-03-16,71,325!2026-03-10,65,325-->
 
 For {@{a particular subspace}@}, there are {@{infinitely many basis and infinitely many orthonormal basis}@}; for {@{the purpose of signal processing}@}, the choice is {@{arbitrary}@}. What matters for signal representation is {@{the subspace itself}@}, not {@{the particular basis vectors chosen}@}. One may pick {@{any convenient basis}@}, even if it {@{looks different from another}@}. <!--SR:!2026-03-19,74,325!2026-03-23,78,344!2026-03-20,75,325!2026-03-16,71,325!2026-03-19,74,325!2026-03-27,82,344!2026-03-23,78,344!2026-12-07,275,345-->
 
-{@{_Orthonormal_ bases}@} are preferred because they {@{simplify coordinate extraction}@} and {@{preserve energy without multiplying by additionally factors}@}. <!--SR:!2026-03-09,64,325!2026-03-16,71,325!2026-03-24,79,344-->
+{@{_Orthonormal_ bases}@} are preferred because they {@{simplify coordinate extraction}@} and {@{preserve energy without multiplying by additionally factors}@}. <!--SR:!2026-12-24,290,345!2026-03-16,71,325!2026-03-24,79,344-->
 
 ### coordinate representation
 
@@ -108,11 +108,11 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a
 
 ### triangle inequality
 
-For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality}@} {@{if and only if $a$ and $b$ are positively collinear}@} (one is {@{a non-negative scalar multiple of the other}@}). <!--SR:!2026-03-17,72,325!2026-03-16,71,325!2026-11-28,268,345!2026-03-09,64,325!2026-03-17,72,325-->
+For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality}@} {@{if and only if $a$ and $b$ are positively collinear}@} (one is {@{a non-negative scalar multiple of the other}@}). <!--SR:!2026-03-17,72,325!2026-03-16,71,325!2026-11-28,268,345!2026-12-26,292,345!2026-03-17,72,325-->
 
 ### Cauchy–Schwarz inequality
 
-{@{The inner product}@} satisfies {@{$$|\langle a,b\rangle|\leq \|a\|\,\|b\| \,,$$}@} with {@{equality precisely}@} when {@{$a$ and $b$ are linearly dependent}@}. <!--SR:!2026-03-11,66,325!2026-03-17,72,325!2026-03-17,72,325!2026-03-09,64,325-->
+{@{The inner product}@} satisfies {@{$$|\langle a,b\rangle|\leq \|a\|\,\|b\| \,,$$}@} with {@{equality precisely}@} when {@{$a$ and $b$ are linearly dependent}@}. <!--SR:!2026-03-11,66,325!2026-03-17,72,325!2026-03-17,72,325!2026-12-25,291,345-->
 
 ### Pythagorean relation
 
@@ -124,7 +124,7 @@ Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the 
 
 The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2026-12-18,285,345-->
 
-1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$. <!--SR:!2026-03-09,64,325!2026-03-09,64,325-->
+1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$. <!--SR:!2026-12-27,293,345!2026-12-28,294,345-->
 2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2026-03-18,73,325!2026-08-24,199,325-->
 3. skip conditions ::@:: If a residual becomes zero, skip to the next signal; the dimension of the signal space is less than $M$. <!--SR:!2026-12-20,287,345!2026-03-15,70,325-->
 
@@ -150,7 +150,7 @@ For {@{linear time invariant \(LTI\) filters}@}, {@{the matched filter}@} {@{max
 
 {@{Increasing bit rate}@} by {@{adding dimensions}@} usually requires {@{higher bandwidth or power}@}. {@{The geometric view}@} helps visualise {@{these trade-offs}@} and guides {@{practical modulation choices}@} such as {@{quadrature amplitude modulation \(QAM\), phase-shift keying \(PSK\), orthogonal frequency-division multiplexing \(OFDM\), etc.}@} <!--SR:!2026-03-20,75,325!2026-03-22,77,344!2026-03-10,65,325!2026-11-30,270,345!2026-03-10,65,325!2026-03-18,73,325!2026-09-04,207,325-->
 
-For example, {@{frequency-domain representation}@} as {@{a special case of geometric-domain representation}@}, can {@{represent discrete signals of length _N_ _perfectly_}@}, but {@{the resulting dimension}@} also {@{has _N_ dimensions}@}, which is {@{_inefficient_}@} as it {@{does not exploit any _simplicity_ in the signals to be transmitted}@}. It may be possible that {@{the signals to be transmitted}@} lie in {@{a subspace that has less than _N_ dimensions}@}. The goal of {@{a geometric-domain representation}@} is to find {@{the _minimal_ dimensions}@} that still {@{contains all signals to be transmitted}@}. <!--SR:!2026-03-16,71,325!2026-03-10,65,325!2026-03-20,75,325!2026-03-10,65,325!2026-03-09,64,325!2026-12-04,273,345!2026-03-19,74,325!2026-12-12,280,345!2026-10-26,240,330!2026-03-22,77,344!2026-12-16,284,345!2026-03-17,72,325-->
+For example, {@{frequency-domain representation}@} as {@{a special case of geometric-domain representation}@}, can {@{represent discrete signals of length _N_ _perfectly_}@}, but {@{the resulting dimension}@} also {@{has _N_ dimensions}@}, which is {@{_inefficient_}@} as it {@{does not exploit any _simplicity_ in the signals to be transmitted}@}. It may be possible that {@{the signals to be transmitted}@} lie in {@{a subspace that has less than _N_ dimensions}@}. The goal of {@{a geometric-domain representation}@} is to find {@{the _minimal_ dimensions}@} that still {@{contains all signals to be transmitted}@}. <!--SR:!2026-03-16,71,325!2026-03-10,65,325!2026-03-20,75,325!2026-03-10,65,325!2026-12-27,293,345!2026-12-04,273,345!2026-03-19,74,325!2026-12-12,280,345!2026-10-26,240,330!2026-03-22,77,344!2026-12-16,284,345!2026-03-17,72,325-->
 
 ### M-ary modulation
 

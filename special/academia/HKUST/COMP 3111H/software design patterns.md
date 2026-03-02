@@ -87,7 +87,7 @@ The {@{fifth design principle}@} advocates that {@{software entities (classes, m
 
 ## documentation
 
-{@{Design patterns}@} are not {@{language-specific}@} and are typically {@{described in a way that is independent of implementation details}@}. A well-designed {@{pattern description}@} includes the following {@{key components}@}: (annotation: 9 items: {@{name and intent, problem, context}@}, {@{concerns, solution, consequences}@}, {@{implementation guidelines, sample code, known uses and related patterns}@}) <!--SR:!2026-03-17,66,322!2026-03-09,58,310!2026-03-23,72,341!2026-04-01,81,341!2026-03-26,75,341!2026-03-26,75,341!2026-11-07,245,330!2026-03-24,73,341-->
+{@{Design patterns}@} are not {@{language-specific}@} and are typically {@{described in a way that is independent of implementation details}@}. A well-designed {@{pattern description}@} includes the following {@{key components}@}: (annotation: 9 items: {@{name and intent, problem, context}@}, {@{concerns, solution, consequences}@}, {@{implementation guidelines, sample code, known uses and related patterns}@}) <!--SR:!2026-03-17,66,322!2026-11-19,255,330!2026-03-23,72,341!2026-04-01,81,341!2026-03-26,75,341!2026-03-26,75,341!2026-11-07,245,330!2026-03-24,73,341-->
 
 1. _Name and intent_ ::@:: – A concise explanation of what the pattern does and its primary purpose. <!--SR:!2026-03-28,77,341!2026-04-02,82,341-->
 2. _Problem_ ::@:: – The specific challenge or difficulty being addressed in a real-world or abstract scenario. <!--SR:!2026-04-01,81,341!2026-04-01,81,341-->

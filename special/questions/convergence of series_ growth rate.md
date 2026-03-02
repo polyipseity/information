@@ -18,7 +18,7 @@ Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\lim_{n \to +\infty} n a_n = 
 ## strategy
 
 - inspecting "Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\lim_{n \to +\infty} n a_n = 0$, then $\sum (-1)^n a_n$ converges." :@: First, guess whether it converges. One can probably think of the alternating series test. <!--SR:!2026-12-12,558,270-->
-- considering the alternating series test :@: It turns out we can make the series $(a_n)_{n \in \mathbb{Z}_{\ge 0} }$ violate the conditions. One may think of a way to violate it and hopefully it makes a divergent series... <!--SR:!2026-03-09,406,290-->
+- considering the alternating series test :@: It turns out we can make the series $(a_n)_{n \in \mathbb{Z}_{\ge 0} }$ violate the conditions. One may think of a way to violate it and hopefully it makes a divergent series... <!--SR:!2030-08-31,1636,310-->
 - making a sequence that diverges while satisfying $\lim_{n \to +\infty} n a_n = 0$ :@: Try multiplying $1 / n$ by $1 / \ln n$, which increases the denominator slow enough that it does not affect the divergence while satisfying the limit. <!--SR:!2027-02-11,605,270-->
 
 ## solution

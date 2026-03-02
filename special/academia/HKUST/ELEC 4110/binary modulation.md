@@ -100,7 +100,7 @@ For {@{large positive arguments}@}, $Q(x)$ can be approximated by {@{$$Q(x)\appr
 
 For {@{a given modulation and noise model}@}, BER depends on the {@{receiver front–end filter $h(t)$ and on the decision threshold $\gamma$}@}. {@{Minimizing $P_{\text{e} }$}@} can be {@{carried out in two stages}@}: {@{_fixed-filter optimization_}@} – for {@{a predetermined impulse response $h(t)$}@}, determine {@{the threshold $\gamma$ that gives the smallest BER}@}; and {@{_filter design optimization_}@} – search over {@{all admissible filters $h(t)$ \(an infinite–dimensional space\)}@} to find {@{the receiver that achieves the lowest possible BER}@}. Note here we are only considering {@{receivers that can be modeled by a LTI system}@}; there can be {@{non-linear receivers that achieve even lower BER}@}, showing that {@{the chosen receiver architecture}@} also {@{limits BER}@}. <!--SR:!2026-03-30,85,369!2026-04-05,91,379!2026-03-26,81,369!2026-04-01,87,369!2026-03-31,86,379!2026-04-03,89,369!2026-04-06,92,379!2026-03-24,79,369!2026-03-29,84,369!2026-03-29,84,369!2026-04-10,96,379!2026-03-30,85,369!2026-03-27,82,369!2026-03-31,86,379-->
 
-Assuming {@{both bits are equiprobable}@} and {@{the optimal threshold is chosen \(middle\)}@}, we are also interested in {@{minimizing the energy of each bit}@} while {@{maintaining the error rate}@}. <!--SR:!2026-03-09,64,359!2026-03-31,86,377!2026-03-30,85,369!2026-03-30,85,369-->
+Assuming {@{both bits are equiprobable}@} and {@{the optimal threshold is chosen \(middle\)}@}, we are also interested in {@{minimizing the energy of each bit}@} while {@{maintaining the error rate}@}. <!--SR:!2027-01-23,320,379!2026-03-31,86,377!2026-03-30,85,369!2026-03-30,85,369-->
 
 ### bit error rate optimization
 

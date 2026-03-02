@@ -23,7 +23,7 @@ The 3 hard elements are {@{_strategy_, _structure_, and _systems_}@}. <!--SR:!20
 
 - _strategy_ ::@:: actions intended to enhance competitive advantage <!--SR:!2026-06-24,566,330!2028-04-02,1081,350-->
 - _structure_ ::@:: coordination and integration mechanisms, and division of activities <!--SR:!2026-04-06,426,270!2026-12-02,691,330-->
-- _systems_ ::@:: formal and informal procedures for allocation, measurement, and reward <!--SR:!2026-03-09,467,310!2027-01-07,674,330-->
+- _systems_ ::@:: formal and informal procedures for allocation, measurement, and reward <!--SR:!2031-09-05,2006,330!2027-01-07,674,330-->
 
 The 4 soft elements are {@{_shared values_, _skills_, _staff_, and _style_}@}. <!--SR:!2027-02-17,693,290-->
 
