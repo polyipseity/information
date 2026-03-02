@@ -457,6 +457,49 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when any section heading contains the word "example".
+
+    Course notes should **never** include stand‑alone "Example" or "Examples" sections.
+    Instead the illustrative material belongs beneath the relevant conceptual
+    heading (e.g. put circuit calculations under "KCL" rather than in an
+    isolated "Examples" block).  If a file contains a header whose text
+    includes the word *example* (case‑insensitive) the validator emits an
+    error pointing at that heading and instructs the author to remove the
+    entire section and integrate the examples appropriately.
+
+    This rule is intentionally broad: it does **not** attempt to distinguish
+    between a benign use of the word (e.g. "For example, consider…") and a
+    problematic section title.  Authors who need to cite a real-world
+    situation may either rewrite the heading or suppress the rule with the
+    usual ``<!-- check: ignore-line[...] -->`` directive, but the default
+    posture is to treat such sections as mistakes.
+    """
+    errors: list[ValidationMessage] = []
+    # match any markdown header of level 1 or deeper containing 'example'
+    # match 'example' or 'examples' in headers
+    # match 'example' or 'examples' in headers but ignore hyphenated forms
+    for m in re.finditer(
+        r"^(#{1,})\s*(.*\bexamples?\b(?!-).*)$", ctx.text, re.IGNORECASE | re.MULTILINE
+    ):
+        hdr = m.group(0)
+        start = m.start()
+        line, col, col_end = locate_range(ctx.text, start, len(hdr))
+        errors.append(
+            ValidationMessage(
+                "section_example_heading",
+                "section heading contains the word 'example' (e.g. an isolated Examples subsection). "
+                "Stand‑alone example sections are discouraged – move the material under the appropriate conceptual header, "
+                "or, if you truly need a separate examples block, add a justification using a suppression comment.",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when non-index headers start with an uppercase letter.
 
@@ -580,8 +623,12 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     rule scans lines with a single ``::@::`` separator; if the right portion
     contains any inline/block LaTeX but the left portion does not, a warning
     is emitted urging the author to add or copy the necessary data into the
-    left side.  Suppress the warning only when the card is purely conceptual
-    and involves no calculation.
+    left side.  **Note:** for calculation-style cards the left-hand prompt may
+    be arbitrarily long; including full equations or derivations is perfectly
+    acceptable and encouraged.  The warning should not be interpreted as a
+    hint to shorten the prompt – it flags missing information, not verbosity.
+    Suppress the warning only when the card is purely conceptual and involves
+    no calculation.
     """
     errors: list[ValidationMessage] = []
     for idx, line in enumerate(ctx.text.splitlines(), start=1):
@@ -606,13 +653,16 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="two_sided_calc_warning",
                         msg=(
-                            "two-sided card contains numeric or symbolic data on the right-hand side "
-                            "but the prompt lacks any numeric or symbolic data. "
-                            "This typically means you forgot to repeat the numerical/"
-                            "symbolic information before `::@::` so the card can be answered. "
-                            "For purely conceptual cards (no calculation or data), "
-                            "you can suppress the warning using a check directive, "
-                            "e.g. `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`."
+                            "two-sided card has numeric or symbolic data on the right-hand side "
+                            "but the prompt (left of `::@::`) contains none. "
+                            "You should duplicate the necessary numbers, symbols, or circuit "
+                            "parameters on the left side so that the question can actually be "
+                            "answered; the prompt may be arbitrarily long and include full "
+                            "equations or derivations.  Merely suppressing the warning is a sign "
+                            "of a lazy flashcard and is strongly discouraged. "
+                            "If the card is genuinely conceptual and involves no calculation, "
+                            "add a check directive such as "
+                            "`<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`."
                         ),
                         severity=Severity.WARNING,
                         line=idx,
@@ -631,7 +681,10 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     only have a prompt on the left and an answer on the right.  If the right
     side contains math while the left side has none, the card likely omits
     necessary numerical data; urge the author to include or duplicate that
-    data in the prompt.  Suppress only for purely conceptual flashcards.
+    data in the prompt.  **For calculation cards the left prompt may be
+    arbitrarily long; write out the full equation or value list – the warning
+    is about missing answerable context, not about keeping the prompt short.**
+    Suppress only for purely conceptual flashcards.
     """
     errors: list[ValidationMessage] = []
     for idx, line in enumerate(ctx.text.splitlines(), start=1):
@@ -656,10 +709,13 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="one_sided_calc_warning",
                         msg=(
-                            "one-sided card contains numeric or symbolic data on the right-hand side but the prompt lacks any numeric or symbolic data. "
-                            "Please include or duplicate the relevant numbers before :@:. "
-                            "For conceptual cards you may suppress this warning with a "
-                            "directive such as `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
+                            "one-sided card includes numeric or symbolic data on the right-hand side but the prompt before :@: is empty. "
+                            "In calculation contexts the left-hand prompt may be arbitrarily long – "
+                            "feel free to write out the entire equation or list of values. "
+                            "The rule exists solely to ensure the answerable portion is present; "
+                            "do **not** shorten a correct mathematical prompt just to appease the "
+                            "validator.  Suppress only when the card truly tests a conceptual fact, "
+                            "using a directive like `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
                         ),
                         severity=Severity.WARNING,
                         line=idx,
@@ -1052,6 +1108,42 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
             ValidationMessage(
                 rule_id="link_unencoded_space",
                 msg="link target contains unencoded space; use %20 encoding",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+# new rule to prohibit lecture summary sections ---------------------------------------------
+
+
+@RULE_REGISTRY.register()
+def no_lecture_summary(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error if a "lecture summary" section or list item appears.
+
+    Occasionally course notes imported or edited manually include a
+    "lecture summary" heading or bullet.  These summaries duplicate the
+    actual session content and are not allowed; authors should merge any
+    high-level comments back into the regular lecture entry.  The rule
+    scans for any level-2-or-deeper header whose text begins with
+    ``lecture summary`` (case-insensitive) or a bullet list item whose
+    text starts the same way.  An error is emitted pointing at the
+    offending line so it can be removed.
+    """
+    errors: list[ValidationMessage] = []
+    # match "## lecture summary" or deeper, or "- lecture summary" list
+    pattern = re.compile(
+        r"^(?:#{2,}\s*lecture summary|-\s*lecture summary)",
+        re.IGNORECASE | re.MULTILINE,
+    )
+    for m in pattern.finditer(ctx.text):
+        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                "no_lecture_summary",
+                "lecture summary sections are not allowed; remove or merge into main notes",
                 line=line,
                 col=col,
                 col_end=col_end,

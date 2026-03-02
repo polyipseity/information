@@ -22,6 +22,13 @@ All style decisions are driven by the representative examples and heuristics emb
 
 ## When to use
 
+Be careful when users add inline comments or annotations such as
+`<!-- check: ignore-line[...]: equation on left -->`. Such comments are
+rationales for validator suppressions and **not** editing instructions.
+Never split or reflow the card simply because a comment mentions “left” or
+“right”; the left-hand portion always means *the text that appears before the
+`::@::` or `:@:` separator*, and it may be long when calculations are involved.
+
 Invoke the skill when the user asks to “add flashcards”, “cloze this”, “quizify”, or similar.  The target file must already exist; never create new files or edit submodules/private content without permission.  Process one paragraph or logical block at a time and display the original text for confirmation.  Aim for at least 92 % coverage of each paragraph and about 80–92 % of every sentence.  Numeric facts or simple assignments may be clozed as atomic units.
 
 ## Workflow
@@ -87,6 +94,7 @@ The form of the examples above is complemented by a set of practical heuristics,
 
 - Preserve the source verbatim except for cloze markup; do not paraphrase or reflow text.
 - Equations stay whole: wrap an entire `$...$` or `$$...$$` block in a single cloze; never split math.
+- **Prompt length is irrelevant for calculations.**  When constructing two‑sided or one‑sided cards involving numeric problems, copy every number, parameter, and even full equations to the left of the separator; the prompt may be arbitrarily long.  The warning rules in the validator are designed to catch cases where the answer cannot possibly be deduced from the prompt, not to force brevity.  Resist any urge to split a single calculation across multiple cards purely to shorten the left-hand text – that reduces clarity and defeats the purpose of spaced repetition.
 - Anchor context: leave visible words around each deletion to give a hint; avoid blanking a sentence entirely unless context is crystal clear.
 - Mirror the user’s style when they supply examples or corrections.
 - Preserving HTML entities and escapes exactly; treat them as opaque literals.

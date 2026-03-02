@@ -26,10 +26,12 @@ from check_mods.rules import (
     metadata_flash_tag,
     metadata_tags_present,
     no_control_characters,
+    no_lecture_summary,
     no_soft_wrap_list,
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
     one_sided_calc_warning,
+    section_example_heading,
     session_datetime_order,
     session_duplicate_heading,
     session_missing_topic,
@@ -177,6 +179,50 @@ def test_header_style_generic():
     assert "proper noun" in msgs[0].msg
 
 
+def test_example_section_heading():
+    """Files should not define standalone example sections.
+
+    The rule fires on any header whose text contains the word "example"
+    (case insensitive).  Authors are instructed to remove the entire section
+    and merge examples into appropriate conceptual headings.
+    """
+
+    txt = "## Example\nSome illustrative material\n"
+    ctx = make_ctx(txt)
+    msgs = section_example_heading(ctx)
+    assert msgs and msgs[0].rule_id == "section_example_heading"
+    # message should mention example sections and suggest moving content
+    assert "example sections" in msgs[0].msg
+    assert "suppression" in msgs[0].msg or "justification" in msgs[0].msg
+
+    # different casing and within a longer title should also trigger
+    txt2 = "### Resistive circuit examples and notes\nContent\n"
+    ctx2 = make_ctx(txt2)
+    msgs2 = section_example_heading(ctx2)
+    assert msgs2
+
+    # unrelated heading should be ignored
+    txt3 = "## Explanation of example-less topic\n"
+    ctx3 = make_ctx(txt3)
+    assert not section_example_heading(ctx3)
+
+
+def test_no_lecture_summary():
+    """Files containing a "lecture summary" heading or bullet should error."""
+
+    # heading case
+    txt = "## lecture summary\nSome text\n"
+    ctx = make_ctx(txt)
+    msgs = no_lecture_summary(ctx)
+    assert msgs and msgs[0].rule_id == "no_lecture_summary"
+
+    # bullet case should also be caught
+    txt2 = "- lecture summary ::@:: stuff\n"
+    ctx2 = make_ctx(txt2)
+    msgs2 = no_lecture_summary(ctx2)
+    assert msgs2 and msgs2[0].rule_id == "no_lecture_summary"
+
+
 def test_two_sided_calc_warning():
     """Warn when right-hand side has LaTeX but left side does not."""
 
@@ -185,9 +231,10 @@ def test_two_sided_calc_warning():
     msgs = two_sided_calc_warning(ctx)
     assert msgs
     assert msgs[0].severity == Severity.WARNING
-    # message now mentions numeric/symbolic data rather than the word
-    # "calculation" so just check for the right-hand warning context.
-    assert "lacks any numeric or symbolic data" in msgs[0].msg
+    # warning should insist on copying/duplicating data, allow long prompts, and discourage suppression
+    assert "duplicate the necessary" in msgs[0].msg
+    assert "arbitrarily long" in msgs[0].msg
+    assert "strongly discouraged" in msgs[0].msg
     assert "ignore-line" in msgs[0].msg or "check directive" in msgs[0].msg
 
     # if left side also contains LaTeX, no warning
@@ -214,7 +261,9 @@ def test_two_sided_calc_warning():
     ctx3 = make_ctx(txt3)
     msgs3 = one_sided_calc_warning(ctx3)
     assert msgs3 and msgs3[0].severity == Severity.WARNING
-    assert "one-sided" in msgs3[0].msg
+    # message should acknowledge long prompts/equations and discourage shortening
+    assert "arbitrarily long" in msgs3[0].msg
+    assert "do **not** shorten" in msgs3[0].msg
     assert "ignore-line" in msgs3[0].msg or "check directive" in msgs3[0].msg
 
     # numeric prompt should emit warning without dollar signs
