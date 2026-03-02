@@ -1,11 +1,11 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
 /**
  * .husky/prepare-commit-msg.mjs
  * ---------------------------------
  * Standardize merge commit messages when merging into a `forks/*` branch.
  *
  * Usage:
- *   node .husky/prepare-commit-msg.mjs <commitMsgFile> <commitSource>
+ *   bun .husky/prepare-commit-msg.mjs <commitMsgFile> <commitSource>
  *
  * Behavior:
  * - If `commitSource !== 'merge'` the hook exits with code 0 (no-op).

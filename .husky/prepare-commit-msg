@@ -3,16 +3,16 @@
 # For cross-platform compatibility we forward to the Node implementation in
 # `.husky/prepare-commit-msg.js` so logic is easier to maintain.
 
-NODE_CMD=node
+BUN_CMD=bun
 
-# If Node isn't available, print a clear and prominent warning but allow the
+# If bun isn't available, print a clear warning but allow the
 # commit/merge to continue (do not block developer workflows).
-if ! command -v "$NODE_CMD" >/dev/null 2>&1; then
+if ! command -v "$BUN_CMD" >/dev/null 2>&1; then
   cat <<'EOF' >&2
 ========================================
-WARNING: Node.js is not installed or not on PATH.
+WARNING: bun is not installed or not on PATH.
 The prepare-commit-msg hook was skipped; merge commit messages will not be
-standardized by this hook. To enable it, install Node.js and run 'pnpm install'.
+standardized by this hook. To enable it, install bun and run 'bun install'.
 ========================================
 EOF
   exit 0
@@ -20,7 +20,7 @@ fi
 
 SCRIPT_DIR=$(dirname "$0")
 # Use the ESM module file ('.mjs') because this repo uses "type": "module" in package.json.
-"$NODE_CMD" "$SCRIPT_DIR/prepare-commit-msg.mjs" "$@" 2>&1 | sed 's/^/[prepare-commit-msg] /' >&2 || {
+"$BUN_CMD" "$SCRIPT_DIR/prepare-commit-msg.mjs" "$@" 2>&1 | sed 's/^/[prepare-commit-msg] /' >&2 || {
   cat <<'EOF' >&2
 ========================================
 WARNING: prepare-commit-msg hook failed to set a standardized commit message.
