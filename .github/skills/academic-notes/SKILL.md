@@ -245,3 +245,52 @@ The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and tem
 ## Continuous improvement
 
 Record every new pattern, validator failure, or user preference in `continuous_improvement.md` and consider whether the rule should be added to this document. Short reports can be placed under `.github/skills/academic-notes/reports/`. The skill evolves with real course content, and maintainers should review the log periodically.
+
+### Extending the validator
+
+If you encounter a structural issue the existing checks do not catch, you can add a new rule to the validator instead of simply suppressing the warning. The validator code lives under `.github/skills/academic-notes/check_mods`.
+
+1. **Edit `rules.py`.**  Add a new function accepting a
+   :class:`ValidationContext` and returning a list of
+   :class:`ValidationMessage`.  Decorate it with ``@RULE_REGISTRY.register()``
+   so it is automatically discovered.  Keep the rule pure (no side effects) and
+   return an empty list when the file passes the check.  Use existing rules as
+   templates; the docstring should clearly describe what the rule validates.
+   Example:
+
+   ```python
+   @RULE_REGISTRY.register()
+   def no_foo_heading(ctx: ValidationContext) -> list[ValidationMessage]:
+       """Disallow headings containing the word “foo”.
+
+       This is useful when we know the term is meaningless in course notes.
+       """
+       errors: list[ValidationMessage] = []
+       if re.search(r"^#+.*\bfoo\b", ctx.text, re.I):
+           errors.append(ValidationMessage("no_foo_heading", "heading contains foo"))
+       return errors
+   ```
+
+   The rule identifier is derived from the function name (underscores only),
+   and the test suite enforces this invariant; see ``tests_a7392be/check_mods``
+   for examples.
+
+2. **Add unit tests.**  Every rule gets a corresponding test in
+   `tests_a7392be/check_mods/test_rules.py`.  Construct a minimal
+   ``ValidationContext`` that triggers the rule and assert the correct
+   message is returned.  Also add a case demonstrating the rule passes.
+   This ensures future refactors don’t accidentally disable your check.
+
+3. **Run the validator.**  Exercise the new rule with real notes to
+   verify the behaviour and adjust error messages as needed.  Commit both the
+   rule and its tests together so CI can catch regressions.
+
+4. **Document the change.**  Optionally update this SKILL.md section or the
+   ``continuous_improvement.md`` log with a brief rationale.  New rules are a
+   permanent part of the course‑notes grammar, so explain why the check is
+   needed and what to do when it fires.
+
+   The previous example of adding the ‘section_example_heading’ rule (which
+   flags headings containing the word “example”) came from exactly this
+   workflow: after noticing repeated blocks of “numerical examples” the rule
+   was added, tests written, and the SKILL updated with guidance like this.

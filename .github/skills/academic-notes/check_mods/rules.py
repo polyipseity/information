@@ -2,6 +2,12 @@
 
 This module contains a large collection of functions that enforce various
 structural and content conventions for ``special/academia`` Markdown files.
+Each rule is a self‑contained test that inspects the file text or parsed
+frontmatter and returns zero or more ``ValidationMessage`` objects.  New
+rules can be added by creating a function and registering it with the
+``RULE_REGISTRY`` decorator; see the ``Extending the validator`` section of
+`.github/skills/academic-notes/SKILL.md` for a step‑by‑step workflow.
+
 Rather than relying on a global registry the module provides its own
 :class:`RuleRegistry` instance below; rules are registered with
 ``RULE_REGISTRY`` via a decorator.  The rules are pure functions returning a
@@ -456,6 +462,10 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
 # header and flashcard style --------------------------------------------------
 
 
+# This rule was originally added in response to a validator failure when
+# a user created a 'numerical examples' section in ELEC 1100.  The
+# accompanying SKILL.md documentation now points back to this clause as a
+# worked example of how to extend the validator.
 @RULE_REGISTRY.register()
 def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     """Error when any section heading contains the word "example".
