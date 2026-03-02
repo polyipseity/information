@@ -25,6 +25,26 @@ updates:
       github-actions:
         patterns:
           - "*"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
+
+  # Git submodules (gitmodules)
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "build"
+      prefix-development: "chore"
+      include: "scope"
+    groups:
+      gitsubmodule:
+        patterns:
+          - "*"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
 
   # NPM & pnpm (package.json, pnpm-lock.yaml, etc.)
   - package-ecosystem: "npm"
@@ -42,6 +62,9 @@ updates:
     # Disable updates for specific paths
     exclude-paths:
       - "special/academia/HKUST/COMP 3633/presentation 10/examples"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
 
   # Python (pyproject.toml - dependency-groups / project.optional-dependencies).
   # We manage Python dependencies with `uv` and commit `uv.lock` for reproducible installs.
