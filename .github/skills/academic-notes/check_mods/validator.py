@@ -62,10 +62,35 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     # if no rules are listed.
     suppressions: dict[int, list[str]] = {}
     for lineno, line in enumerate(text.splitlines(), start=1):
-        for m in re.finditer(
-            r"<!--\s*check:\s*(ignore-(?:line|next-line))\s*\[([^\]]*)\]\s*:\s*(.*?)\s*-->",
-            line,
-        ):
+        # gather all suppression directives on this line so we can detect
+        # duplicates of the same kind (ignore-line vs ignore-next-line,
+        # and future variants).  Authors should merge them since the
+        # syntax already allows listing multiple rule names in a single
+        # comment.
+        matches = list(
+            re.finditer(
+                r"<!--\s*check:\s*(ignore-(?:line|next-line))\s*\[([^\]]*)\]\s*:\s*(.*?)\s*-->",
+                line,
+            )
+        )
+        if len(matches) > 1:
+            kinds = [m.group(1) for m in matches]
+            # look for any kind appearing more than once
+            for kind in set(kinds):
+                if kinds.count(kind) > 1:
+                    errors.append(
+                        ValidationMessage(
+                            "suppression-multiple-commands",
+                            (
+                                f"multiple suppression directives of type {kind!r} on the "
+                                "same line; merge into one comment and list all rule IDs "
+                                "(the syntax supports suppressing multiple rules at once)"
+                            ),
+                            line=lineno,
+                        )
+                    )
+        # now process each directive normally
+        for m in matches:
             kind = m.group(1)
             rules_list = m.group(2)
             rationale = m.group(3).strip()

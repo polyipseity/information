@@ -581,6 +581,27 @@ async def test_suppression_multiple_rules(tmp_path: PathLike[str]):
 
 
 @pytest.mark.anyio
+async def test_suppression_duplicate_directives(tmp_path: PathLike[str]):
+    """Two suppression comments of the same kind on one line should error.
+
+    Authors should merge them into a single directive since the syntax
+    already permits listing multiple rule names in a comma-separated list.
+    """
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "Some useful text <!-- check: ignore-line[two_sided_calc_warning]: first --> "
+        "<!-- check: ignore-line[qa_missing_separator]: second -->\n"
+    )
+    file = Path(tmp_path) / "dup.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    # Should produce a message with our new rule id
+    assert any(m.rule_id == "suppression-multiple-commands" for m in msgs)
+    assert any("merge" in m.msg for m in msgs)
+
+
+@pytest.mark.anyio
 async def test_suppression_redundant(tmp_path: PathLike[str]):
     """A suppression for a rule that never fires should be reported as error."""
     text = (
