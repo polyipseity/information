@@ -653,16 +653,14 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="two_sided_calc_warning",
                         msg=(
-                            "two-sided card has numeric or symbolic data on the right-hand side "
-                            "but the prompt (left of `::@::`) contains none. "
-                            "You should duplicate the necessary numbers, symbols, or circuit "
-                            "parameters on the left side so that the question can actually be "
-                            "answered; the prompt may be arbitrarily long and include full "
-                            "equations or derivations.  Merely suppressing the warning is a sign "
-                            "of a lazy flashcard and is strongly discouraged. "
-                            "If the card is genuinely conceptual and involves no calculation, "
-                            "add a check directive such as "
-                            "`<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`."
+                            "Right-hand side contains numeric or symbolic data but the left prompt "
+                            "(before `::@::`) has none. Copy or repeat the necessary values/parameters "
+                            "on the left so the card is answerable. For example:\n"
+                            R"before: - Ohm's law example ::@:: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$.\n"
+                            R"after:  - Ohm's law example: Given $I = 2\,\text{A}$ and $R = 5\,\Omega$, calculate the voltage $V$ using Ohm's law. ::@:: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$. "
+                            "Long prompts (even full derivations) are fine – the rule warns only "
+                            "about missing context, not verbosity. To suppress for a purely "
+                            "conceptual card use `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`."
                         ),
                         severity=Severity.WARNING,
                         line=idx,
@@ -709,13 +707,12 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="one_sided_calc_warning",
                         msg=(
-                            "one-sided card includes numeric or symbolic data on the right-hand side but the prompt before :@: is empty. "
-                            "In calculation contexts the left-hand prompt may be arbitrarily long – "
-                            "feel free to write out the entire equation or list of values. "
-                            "The rule exists solely to ensure the answerable portion is present; "
-                            "do **not** shorten a correct mathematical prompt just to appease the "
-                            "validator.  Suppress only when the card truly tests a conceptual fact, "
-                            "using a directive like `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
+                            "Right-hand side has numeric or symbolic data but the prompt before `:@:` is blank. "
+                            "Include or duplicate the needed values in the left prompt. For example:\n"
+                            R"before: - Ohm's law example :@: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$.\n"
+                            R"after:  - Ohm's law example: Given $I = 2\,\text{A}$ and $R = 5\,\Omega$, calculate the voltage $V$ using Ohm's law. :@: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$. "
+                            "Long equations are allowed; this check simply ensures answerable context. "
+                            "For conceptual-only cards suppress with `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
                         ),
                         severity=Severity.WARNING,
                         line=idx,

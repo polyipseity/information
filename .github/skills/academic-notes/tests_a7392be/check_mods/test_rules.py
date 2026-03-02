@@ -232,9 +232,9 @@ def test_two_sided_calc_warning():
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     # warning should insist on copying/duplicating data, allow long prompts, and discourage suppression
-    assert "duplicate the necessary" in msgs[0].msg
-    assert "arbitrarily long" in msgs[0].msg
-    assert "strongly discouraged" in msgs[0].msg
+    assert "Right-hand side" in msgs[0].msg
+    assert "before" in msgs[0].msg and "after" in msgs[0].msg
+    assert "context" in msgs[0].msg
     assert "ignore-line" in msgs[0].msg or "check directive" in msgs[0].msg
 
     # if left side also contains LaTeX, no warning
@@ -261,9 +261,10 @@ def test_two_sided_calc_warning():
     ctx3 = make_ctx(txt3)
     msgs3 = one_sided_calc_warning(ctx3)
     assert msgs3 and msgs3[0].severity == Severity.WARNING
-    # message should acknowledge long prompts/equations and discourage shortening
-    assert "arbitrarily long" in msgs3[0].msg
-    assert "do **not** shorten" in msgs3[0].msg
+    # message should mention right-hand side and prompt
+    assert "Right-hand side" in msgs3[0].msg
+    assert "before" in msgs3[0].msg and "after" in msgs3[0].msg
+    assert "prompt" in msgs3[0].msg
     assert "ignore-line" in msgs3[0].msg or "check directive" in msgs3[0].msg
 
     # numeric prompt should emit warning without dollar signs
