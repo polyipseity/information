@@ -16,7 +16,7 @@ tags:
 
 ## waveforms
 
-For {@{an $M$-ary PSK system}@} {@{the transmitted waveform corresponding to symbol index $m\in\{0,\dots ,M-1\}$}@} is {@{$$s_m(t)=A\,\cos \!\bigl(2\pi f_c t+\varphi_m\bigr),\qquad 0\le t<T_s \,,$$}@} where {@{$f_c$ is the carrier frequency, $T_s$ is the symbol duration}@}, and {@{$\varphi_m=\frac{2\pi m}{M}$}@}. Typically, {@{$f_c$ is a multiple of $1 / T_s$}@}. {@{The constant amplitude $A=\sqrt{\dfrac{2E}{T_s} }$}@} guarantees that {@{each symbol has the same average energy $E$}@}. <!--SR:!2026-03-18,65,320!2026-03-28,75,345!2026-04-04,82,338!2026-03-11,58,310!2026-04-04,82,345!2026-03-27,74,338!2026-04-05,83,345!2026-03-25,72,338-->
+For {@{an $M$-ary PSK system}@} {@{the transmitted waveform corresponding to symbol index $m\in\{0,\dots ,M-1\}$}@} is {@{$$s_m(t)=A\,\cos \!\bigl(2\pi f_c t+\varphi_m\bigr),\qquad 0\le t<T_s \,,$$}@} where {@{$f_c$ is the carrier frequency, $T_s$ is the symbol duration}@}, and {@{$\varphi_m=\frac{2\pi m}{M}$}@}. Typically, {@{$f_c$ is a multiple of $1 / T_s$}@}. {@{The constant amplitude $A=\sqrt{\dfrac{2E}{T_s} }$}@} guarantees that {@{each symbol has the same average energy $E$}@}. <!--SR:!2026-03-18,65,320!2026-03-28,75,345!2026-04-04,82,338!2026-11-19,253,330!2026-04-04,82,345!2026-03-27,74,338!2026-04-05,83,345!2026-03-25,72,338-->
 
 ## constellation
 
@@ -28,7 +28,7 @@ Assume {@{equiprobable symbols and AWGN}@}. {@{The decision regions}@} for {@{an
 
 {@{_Binary PSK_ \(BPSK\), _quadrature PSK_ \(QPSK\), and _8-PSK_}@} are {@{the most common special cases}@}: {@{BPSK}@} uses {@{two antipodal points ($M=2$)}@} and conveys {@{one bit per symbol}@}; {@{QPSK}@} employs {@{four points arranged in a square grid ($M=4$)}@}, delivering {@{two bits per symbol}@}; {@{8-PSK}@} uses {@{eight equally spaced points on the unit circle}@} and conveys {@{three bits per symbol}@}. All preserve {@{the fixed-tone bandwidth characteristic}@} of PSK systems; {@{only two orthogonal carrier tones \(in-phase and quadrature components\)}@} is {@{used regardless of the modulation order $M$}@}. <!--SR:!2026-03-29,76,345!2026-11-09,245,330!2026-04-06,84,345!2026-03-28,75,338!2026-03-26,73,345!2026-03-18,65,320!2026-03-26,73,345!2026-04-02,80,338!2026-03-18,65,320!2026-04-05,83,345!2026-04-04,82,338!2026-04-04,82,338!2026-03-18,65,320!2026-03-18,65,320-->
 
-Under {@{equal symbol energies and two-dimensional signal space}@}, {@{QSK is optimal for quartic modulation}@} as {@{any alternative quartic scheme}@} must {@{also use four symbols}@}; {@{the only way to improve performance}@} would be to {@{increase minimum Euclidean distance}@}, which is {@{already maximal for QPSK}@}. <!--SR:!2026-03-18,65,320!2026-03-31,78,345!2026-04-04,82,345!2026-03-20,67,320!2026-03-23,70,320!2026-03-11,58,310!2026-03-24,71,320-->
+Under {@{equal symbol energies and two-dimensional signal space}@}, {@{QSK is optimal for quartic modulation}@} as {@{any alternative quartic scheme}@} must {@{also use four symbols}@}; {@{the only way to improve performance}@} would be to {@{increase minimum Euclidean distance}@}, which is {@{already maximal for QPSK}@}. <!--SR:!2026-03-18,65,320!2026-03-31,78,345!2026-04-04,82,345!2026-03-20,67,320!2026-03-23,70,320!2026-11-20,254,330!2026-03-24,71,320-->
 
 ## error analysis
 
@@ -44,7 +44,7 @@ For {@{coherent $M$-phase shift keying}@} {@{the exact symbol-error probability}
 
 In {@{coherent M-phase shift keying}@} the {@{bit-error probability}@} is {@{not fixed by the modulation order alone}@}; it also depends on {@{how bits are mapped to constellation points (the labeling scheme)}@}.  For {@{ordinary binary coding}@}, {@{a symbol error}@} can {@{flip several bits}@}, whereas {@{Gray coding}@} ensures that {@{adjacent symbols differ in only one bit}@}. <!--SR:!2026-03-19,66,320!2026-04-06,84,345!2026-04-04,82,338!2026-04-05,83,345!2026-03-23,70,320!2026-04-01,79,338!2026-04-06,84,345!2026-03-26,73,345!2026-03-25,72,320-->  
 
-Consequently, with {@{Gray coding}@} {@{most symbol errors}@}—those that are {@{statistically most likely}@} because the receiver is {@{confused between neighboring points}@}—result in {@{exactly one erroneous bit}@}, greatly reducing {@{the overall bit-error rate}@}. Thus, we have {@{the following approximation for modulation schemes using Gray coding}@}: {@{$$\boxed{P_{e, b} \approx \frac {P_{e, M} } k = \frac {P_{e, M} } {\log_2 M} } \,,$$}@} which is {@{accurate when SNR is moderate to high}@}. <!--SR:!2026-03-31,78,345!2026-04-03,81,338!2026-04-03,81,338!2026-03-22,69,320!2026-04-03,81,338!2026-04-06,84,345!2026-03-11,58,310!2026-03-19,66,320!2026-03-28,75,338-->
+Consequently, with {@{Gray coding}@} {@{most symbol errors}@}—those that are {@{statistically most likely}@} because the receiver is {@{confused between neighboring points}@}—result in {@{exactly one erroneous bit}@}, greatly reducing {@{the overall bit-error rate}@}. Thus, we have {@{the following approximation for modulation schemes using Gray coding}@}: {@{$$\boxed{P_{e, b} \approx \frac {P_{e, M} } k = \frac {P_{e, M} } {\log_2 M} } \,,$$}@} which is {@{accurate when SNR is moderate to high}@}. <!--SR:!2026-03-31,78,345!2026-04-03,81,338!2026-04-03,81,338!2026-03-22,69,320!2026-04-03,81,338!2026-04-06,84,345!2026-11-21,255,330!2026-03-19,66,320!2026-03-28,75,338-->
 
 ## bit coding
 

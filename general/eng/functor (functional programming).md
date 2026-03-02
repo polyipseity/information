@@ -69,7 +69,7 @@ Functors form {@{a base for more complex abstractions}@} like {@{[Applicative Fu
 
 ## examples
 
-In {@{Haskell}@}, {@{lists}@} are a simple example of a functor. We may {@{implement `fmap` as}@} (annotation: The first statement is {@{the base case for an empty list}@}. The second statement {@{applies a function to the first element and applies the functor with the function to the remaining elements, which is recursive}@}.) <!--SR:!2029-11-26,1396,355!2028-02-23,875,335!2029-11-05,1375,355!2026-03-11,336,351!2029-09-27,1344,350-->
+In {@{Haskell}@}, {@{lists}@} are a simple example of a functor. We may {@{implement `fmap` as}@} (annotation: The first statement is {@{the base case for an empty list}@}. The second statement {@{applies a function to the first element and applies the functor with the function to the remaining elements, which is recursive}@}.) <!--SR:!2029-11-26,1396,355!2028-02-23,875,335!2029-11-05,1375,355!2030-08-25,1628,371!2029-09-27,1344,350-->
 
 ```Haskell
 fmap f []     = []

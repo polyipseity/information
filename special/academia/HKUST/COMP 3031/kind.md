@@ -161,7 +161,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[B](f: A => B): F[B] = ap(pure(f))(fa)
 > ```
 >
-> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-03-15,56,310!2026-03-11,45,290!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-03-24,58,310!2026-03-13,54,310-->
+> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-03-15,56,310!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-03-24,58,310!2026-03-13,54,310-->
 
 {@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2026-03-31,65,310!2026-04-08,67,310!2026-03-16,57,310!2026-03-28,62,310-->
 

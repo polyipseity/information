@@ -46,7 +46,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 > - {@{$\frac{\partial Q}{\partial t}$}@} is {@{the [heat](heat.md) transferred per unit [time](time.md), in W}@}
 > - {@{$k$}@} is {@{the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}@}
 > - {@{$\nabla T$}@} is {@{the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}@}
-> - {@{$\mathrm{d}\mathbf{S}$}@} is {@{a [vector area](vector%20area.md) element, in m<sup>2</sup>}@} <!--SR:!2026-07-04,554,250!2028-07-24,1307,350!2027-08-03,986,310!2031-09-18,2123,330!2026-10-01,728,330!2026-03-11,91,361!2027-05-19,438,381!2027-05-15,435,381!2026-12-10,305,361-->
+> - {@{$\mathrm{d}\mathbf{S}$}@} is {@{a [vector area](vector%20area.md) element, in m<sup>2</sup>}@} <!--SR:!2026-07-04,554,250!2028-07-24,1307,350!2027-08-03,986,310!2031-09-18,2123,330!2026-10-01,728,330!2027-06-07,453,381!2027-05-19,438,381!2027-05-15,435,381!2026-12-10,305,361-->
 
 For simple applications where the material is [homogeneous](homogeneity%20and%20heterogeneity.md) between two endpoints at constant [temperature](temperature.md), the above can be [integrated](integral.md) to give:
 
@@ -59,7 +59,7 @@ For simple applications where the material is [homogeneous](homogeneity%20and%20
 > - {@{$\frac{Q}{\Delta t}$}@} is {@{the [heat](heat.md) transferred per unit [time](time.md), in W}@}
 > - {@{$k$}@} is {@{the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}@}
 > - {@{$\frac{\Delta T}{\Delta x}$}@} is {@{the [temperature](temperature.md) change per unit distance along the $x$-direction which is perpendicular to the surface, in K⋅m<sup>-1</sup>}@}
-> - {@{$A$}@} is {@{the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}@} <!--SR:!2027-08-25,967,330!2027-06-27,846,290!2027-03-12,780,290!2028-03-18,1206,350!2030-12-15,1939,330!2027-11-18,1112,350!2027-05-20,438,381!2027-05-26,443,381!2026-03-12,92,361!2026-03-11,91,361-->
+> - {@{$A$}@} is {@{the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}@} <!--SR:!2027-08-25,967,330!2027-06-27,846,290!2027-03-12,780,290!2028-03-18,1206,350!2030-12-15,1939,330!2027-11-18,1112,350!2027-05-20,438,381!2027-05-26,443,381!2026-03-12,92,361!2027-06-07,453,381-->
 
 ## references
 

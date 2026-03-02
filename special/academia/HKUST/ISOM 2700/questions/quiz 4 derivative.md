@@ -37,7 +37,7 @@ tags:
 > ---
 >
 > - solution: {@{120}@}
-> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 1)} \approx 0.7778 \implies z^* \approx 0.77 \,.$$ Optimal quantity: $$Q^* = 100 + 0.77 \cdot 25 = 119.25 \approx 120 \,.$$}@} <!--SR:!2026-03-11,183,310!2026-05-26,257,330-->
+> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 1)} \approx 0.7778 \implies z^* \approx 0.77 \,.$$ Optimal quantity: $$Q^* = 100 + 0.77 \cdot 25 = 119.25 \approx 120 \,.$$}@} <!--SR:!2028-05-04,785,330!2026-05-26,257,330-->
 
 ---
 

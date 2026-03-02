@@ -55,7 +55,7 @@ By {@{Gauss's law}@} {@{the flux is also $$\Phi _{E}={\frac {Q_{A} }{\varepsilon
 
 ### cylindrical surface
 
-{@{A [cylindrical](cylinder%20(geometry).md) Gaussian surface is used}@} when {@{finding the electric field or the flux produced by any of the following}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: 3 items: {@{infinitely long cylinder, infinitely long line, infinite plane}@}) <!--SR:!2029-03-30,1167,350!2029-04-18,1182,350!2026-03-11,293,330-->
+{@{A [cylindrical](cylinder%20(geometry).md) Gaussian surface is used}@} when {@{finding the electric field or the flux produced by any of the following}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: 3 items: {@{infinitely long cylinder, infinitely long line, infinite plane}@}) <!--SR:!2029-03-30,1167,350!2029-04-18,1182,350!2029-11-10,1340,350-->
 
 - an infinitely long [line](line%20(geometry).md) of uniform charge
 - an infinite [plane](plane%20(geometry).md) of uniform charge
@@ -69,9 +69,9 @@ Consider {@{a point _P_ at a distance _r_ from an infinite line charge having [c
 >
 > Closed surface in {@{the form of a cylinder having line charge in the center}@} and showing {@{differential areas _d_<!-- markdown separator -->__A__ of all three surfaces}@}. <!--SR:!2029-10-08,1313,350!2029-10-06,1311,350!2029-05-30,1204,350-->
 
-{@{The flux passing}@} consists of {@{the three contributions}@}: {@{$$\Phi _{E} = \oiint_A \mathbf {E} \cdot d\mathbf {A} =\iint _{a}\mathbf {E} \cdot d\mathbf {A} +\iint_{b}\mathbf {E} \cdot d\mathbf {A} +\iint _{c}\mathbf {E} \cdot d\mathbf {A}$$}@} For {@{surfaces a and b}@}, {@{__E__ and _d_<!-- markdown separator -->__A__ will be [perpendicular](perpendicular.md)}@}. For {@{surface c}@}, {@{__E__ and _d_<!-- markdown separator -->__A__ will be [parallel](parallel%20(geometry).md)}@}, as shown in the figure. {@{$${\begin{aligned}\Phi _{E}&=\iint _{a}EdA\cos 90^{\circ }+\iint _{b}EdA\cos 90^{\circ }+\iint _{c}EdA\cos 0^{\circ }\\&=E\iint _{c}dA\end{aligned} }$$}@} <!--SR:!2029-03-09,1150,350!2026-03-11,293,330!2029-11-01,1334,350!2029-02-27,1142,350!2026-03-12,294,330!2029-10-26,1327,350!2029-02-12,1128,350!2029-10-22,1324,350-->
+{@{The flux passing}@} consists of {@{the three contributions}@}: {@{$$\Phi _{E} = \oiint_A \mathbf {E} \cdot d\mathbf {A} =\iint _{a}\mathbf {E} \cdot d\mathbf {A} +\iint_{b}\mathbf {E} \cdot d\mathbf {A} +\iint _{c}\mathbf {E} \cdot d\mathbf {A}$$}@} For {@{surfaces a and b}@}, {@{__E__ and _d_<!-- markdown separator -->__A__ will be [perpendicular](perpendicular.md)}@}. For {@{surface c}@}, {@{__E__ and _d_<!-- markdown separator -->__A__ will be [parallel](parallel%20(geometry).md)}@}, as shown in the figure. {@{$${\begin{aligned}\Phi _{E}&=\iint _{a}EdA\cos 90^{\circ }+\iint _{b}EdA\cos 90^{\circ }+\iint _{c}EdA\cos 0^{\circ }\\&=E\iint _{c}dA\end{aligned} }$$}@} <!--SR:!2029-03-09,1150,350!2029-11-08,1338,350!2029-11-01,1334,350!2029-02-27,1142,350!2026-03-12,294,330!2029-10-26,1327,350!2029-02-12,1128,350!2029-10-22,1324,350-->
 
-{@{The [surface area of the cylinder](surface%20area.md#common%20formulas)}@} is {@{$$\iint _{c}dA=2\pi rh$$ which implies $$\Phi _{E}=E2\pi rh.$$}@} By {@{Gauss's law}@} {@{$$\Phi _{E}={\frac {q}{\varepsilon _{0} } }$$}@} {@{equating for Φ<sub>_E_</sub>}@} yields {@{$$E2\pi rh={\frac {\lambda h}{\varepsilon _{0} } }\quad \Rightarrow \quad E={\frac {\lambda }{2\pi \varepsilon _{0}r} }$$}@} <!--SR:!2026-03-11,293,330!2029-03-30,1167,350!2029-05-21,1197,350!2027-12-15,787,330!2029-10-23,1325,350!2027-02-11,506,310-->
+{@{The [surface area of the cylinder](surface%20area.md#common%20formulas)}@} is {@{$$\iint _{c}dA=2\pi rh$$ which implies $$\Phi _{E}=E2\pi rh.$$}@} By {@{Gauss's law}@} {@{$$\Phi _{E}={\frac {q}{\varepsilon _{0} } }$$}@} {@{equating for Φ<sub>_E_</sub>}@} yields {@{$$E2\pi rh={\frac {\lambda h}{\varepsilon _{0} } }\quad \Rightarrow \quad E={\frac {\lambda }{2\pi \varepsilon _{0}r} }$$}@} <!--SR:!2029-11-10,1340,350!2029-03-30,1167,350!2029-05-21,1197,350!2027-12-15,787,330!2029-10-23,1325,350!2027-02-11,506,310-->
 
 ### Gaussian pillbox
 

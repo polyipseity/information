@@ -244,7 +244,7 @@ The content is in teaching order.
   - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2026-11-08,510,398!2026-11-11,513,398-->
 - [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2027-03-11,537,338!2027-08-18,707,358-->
   - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2026-11-18,520,398!2026-04-12,340,378-->
-  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2026-03-11,315,378!2026-10-25,496,398-->
+  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2030-08-27,1630,398!2026-10-25,496,398-->
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz ::@:: the former has a "4 feel" while the later has a "2 feel" <!--SR:!2026-11-21,523,398!2026-11-24,526,398-->
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2028-07-30,1002,378!2026-05-15,346,378-->

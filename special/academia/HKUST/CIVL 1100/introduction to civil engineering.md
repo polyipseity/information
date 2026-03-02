@@ -20,7 +20,7 @@ The content is in teaching order.
     - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2030-04-05,1727,398-->
     - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2029-05-03,1438,380!2027-05-12,810,360-->
     - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2031-06-29,2090,397-->
-    - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2030-03-21,1632,385-->
+    - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2032-08-01,2335,357!2030-03-21,1632,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2028-04-08,1138,350-->
     - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->

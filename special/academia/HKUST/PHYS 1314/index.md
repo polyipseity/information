@@ -923,12 +923,12 @@ The content is in teaching order.
 - report
   - time limit ::@:: It was okay. Mainly because I did not know how to solve one problem. <!--SR:!2029-10-15,1322,487!2026-03-19,222,467-->
   - coupled capacitors \(–7\) ::@:: Apply KVL to the two meshes. Find solutions for $I_1$ and $I_2$ that satisfy both equations. One way is multiplying the two differential equations together, and then picking solutions satisfying both differential equations. <p> It may be simpler to do so in the _s_-domain, but this is untaught... <!--SR:!2029-11-06,1341,487!2026-03-21,224,467-->
-  - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this... <!--SR:!2026-03-11,216,467!2026-03-12,217,467-->
+  - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this... <!--SR:!2029-12-09,1369,487!2026-03-12,217,467-->
 - check
   - datetime: 2025-06-02T14:00:00+08:00/2025-06-02T16:00:00+08:00, PT2H
   - venue: Room 4418, Academic Building
   - report
-    - out-of-order answers \(+2\) ::@:: Not really a good idea to answer sub-questions out of order. <!--SR:!2029-11-01,1337,487!2026-03-11,216,467-->
+    - out-of-order answers \(+2\) ::@:: Not really a good idea to answer sub-questions out of order. <!--SR:!2029-11-01,1337,487!2029-12-08,1368,487-->
 
 > __<big><big>\[Final Exam\] Important Information</big></big>__
 >
