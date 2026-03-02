@@ -28,6 +28,7 @@ from check_mods.rules import (
     no_control_characters,
     no_soft_wrap_list,
     no_soft_wrap_paragraph,
+    numeric_text_not_latex,
     one_sided_calc_warning,
     session_datetime_order,
     session_duplicate_heading,
@@ -288,6 +289,41 @@ def test_unit_outside_math_behavior():
         assert not unit_outside_math(ctx)
 
 
+def test_numeric_text_not_latex():
+    """Lines with numbers/units or simple equations should warn when not in $...$."""
+
+    # example from user request
+    txt = (
+        "numeric example with single source ::@:: 5 V into 50 Ω+75 Ω series "
+        "with 25 Ω parallel branch gives I2=0.04 A, I3=0.20 A, I1=0.24 A.\n"
+    )
+    ctx = make_ctx(txt)
+    msgs = numeric_text_not_latex(ctx)
+    assert msgs, "plain-text numeric quantities should produce a warning"
+    assert msgs[0].severity == Severity.WARNING
+    assert "wrap quantities" in msgs[0].msg
+
+    # if the line already contains dollars, the rule should be silent
+    txt2 = "The source is $5\,\mathrm{V}$ and I=0.1\,\mathrm{A}.\n"
+    ctx2 = make_ctx(txt2)
+    assert not numeric_text_not_latex(ctx2)
+
+    # a line with numbers but no units/equations should not trigger
+    txt3 = "Lecture 5 covers resistors and capacitors.\n"
+    assert not numeric_text_not_latex(make_ctx(txt3))
+
+    # suppression directives should work (reuse existing suppression tests)
+    txt4 = (
+        "<!-- check: ignore-line[numeric_text_not_latex]: example -->\n"
+        "5 V is the supply.\n"
+    )
+    ctx4 = make_ctx(txt4)
+    msgs4 = numeric_text_not_latex(ctx4)
+    # rule itself will still return a message, but suppression is handled
+    # by check_markdown_file; here we just ensure the pattern matches
+    assert msgs4
+
+
 def test_latex_spacing_before_paren():
     """Spacing rule allows '(' before dollar but not letters directly."""
 
@@ -412,6 +448,21 @@ async def test_suppression_ignore_next_line(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert not msgs, "error should be suppressed by directive"
+
+
+@pytest.mark.anyio
+async def test_suppression_numeric_text_rule(tmp_path: PathLike[str]):
+    """Ensure suppressing numeric_text_not_latex works via check_markdown_file."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-next-line[numeric_text_not_latex]: because -->\n"
+        "5 V supply is given.\n"
+    )
+    file = Path(tmp_path) / "numeric.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert not msgs, "numeric_text_not_latex warning should be suppressed"
 
 
 @pytest.mark.anyio

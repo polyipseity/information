@@ -733,6 +733,65 @@ def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when numeric expressions appear as plain text instead of math.
+
+    Course notes frequently include examples such as ``5 V``, ``50\u03a9+75\u03a9``
+    or ``I2=0.04 A`` that are meant to be read as mathematical quantities.
+    These should normally be wrapped in dollar delimiters so that LaTeX
+    rendering, spacing and unit formatting work correctly.  Authors sometimes
+    forget and type the values as ordinary prose; this rule scans each line
+    that does **not** contain any dollar sign and looks for two common
+    patterns:
+
+    1. A number followed (optionally with intervening whitespace) by a
+       electrical unit such as ``V``, ``A``, ``\u03a9``, ``Hz``, ``W`` etc.
+    2. A simple variable assignment like ``I2=0.04`` where a letter and
+       digit are followed by an equals sign (the right-hand side may itself
+       include units).
+
+    If either pattern is found on a dollar-free line a warning is emitted
+    advising the author to wrap the expression in ``$...$``.  The check is
+    deliberately conservative to avoid flagging mundane prose such as dates or
+    lecture numbers; it only runs on lines that include one of the above
+    constructs.  Suppressions are supported via the usual ``<!-- check: ... -->``
+    directives when the numeric content is intentionally not typeset as math.
+    """
+    errors: list[ValidationMessage] = []
+    # precompile regexes for performance
+    unit_re = re.compile(r"\b\d+(?:\.\d+)?\s*(?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA|C)\b")
+    var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=")
+    for idx, line in enumerate(ctx.text.splitlines(), start=1):
+        if "$" in line:
+            # line already contains math; skip
+            continue
+        if unit_re.search(line) or var_eq_re.search(line):
+            # warn at the first matching substring
+            m = unit_re.search(line) or var_eq_re.search(line)
+            assert m is not None
+            col = m.start() + 1
+            col_end = m.end() + 1
+            errors.append(
+                ValidationMessage(
+                    rule_id="numeric_text_not_latex",
+                    msg=(
+                        "numeric expression detected outside math delimiters; "
+                        "wrap quantities such as 5 V or I2=0.04 A in `$…$` "
+                        "so they render correctly and obey spacing rules"
+                    ),
+                    severity=Severity.WARNING,
+                    line=idx,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+    return errors
+
+
+# additional rules ---------------------------------------------------------
+
+
+@RULE_REGISTRY.register()
 def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag LaTeX-style math found inside fenced code blocks.
 
