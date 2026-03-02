@@ -606,7 +606,7 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="two_sided_calc_warning",
                         msg=(
-                            "two-sided card contains LaTeX on the right-hand side "
+                            "two-sided card contains numeric or symbolic data on the right-hand side "
                             "but the prompt lacks any numeric or symbolic data. "
                             "This typically means you forgot to repeat the numerical/"
                             "symbolic information before `::@::` so the card can be answered. "
@@ -656,7 +656,7 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                     ValidationMessage(
                         rule_id="one_sided_calc_warning",
                         msg=(
-                            "one-sided card contains LaTeX on the right-hand side but the prompt lacks any numeric or symbolic data. "
+                            "one-sided card contains numeric or symbolic data on the right-hand side but the prompt lacks any numeric or symbolic data. "
                             "Please include or duplicate the relevant numbers before :@:. "
                             "For conceptual cards you may suppress this warning with a "
                             "directive such as `<!-- check: ignore-line[one_sided_calc_warning]: conceptual -->`."
