@@ -44,7 +44,7 @@ In {@{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}@}
 
 ### nucleophilic substitution
 
-Similar to {@{[alcohols](alcohol.md)}@}, carboxylic acids can {@{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md)}@}, and {@{[phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}@}. <!--SR:!2027-11-01,632,229!2026-03-10,12,296!2026-03-13,15,316-->
+Similar to {@{[alcohols](alcohol.md)}@}, carboxylic acids can {@{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md)}@}, and {@{[phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}@}. <!--SR:!2027-11-01,632,229!2026-04-30,51,316!2026-03-13,15,316-->
 
 ### reduction
 

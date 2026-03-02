@@ -119,7 +119,7 @@ This set is {@{the union of the length-1 sequences, the length-2 sequences, the 
 
 These follow from {@{the definitions of countable set as injective / surjective functions}@}.<sup>[\[g\]](#^ref-g)</sup> <!--SR:!2027-09-02,738,330-->
 
-{@{__[Cantor's theorem](Cantor's%20theorem.md)__}@} asserts that if {@{$A$ is a set and ${\mathcal {P} }(A)$ is its [power set](power%20set.md), i.e. the set of all subsets of $A$}@}, then there is {@{no surjective function from $A$ to ${\mathcal {P} }(A)$}@}. A proof is {@{given in the article [Cantor's theorem](Cantor's%20theorem.md)}@}. As {@{an immediate consequence of this and the Basic Theorem above}@} we have: <!--SR:!2027-07-17,715,330!2026-10-16,497,310!2029-08-22,1320,350!2029-08-17,1315,350!2026-03-10,316,290-->
+{@{__[Cantor's theorem](Cantor's%20theorem.md)__}@} asserts that if {@{$A$ is a set and ${\mathcal {P} }(A)$ is its [power set](power%20set.md), i.e. the set of all subsets of $A$}@}, then there is {@{no surjective function from $A$ to ${\mathcal {P} }(A)$}@}. A proof is {@{given in the article [Cantor's theorem](Cantor's%20theorem.md)}@}. As {@{an immediate consequence of this and the Basic Theorem above}@} we have: <!--SR:!2027-07-17,715,330!2026-10-16,497,310!2029-08-22,1320,350!2029-08-17,1315,350!2029-09-04,1274,310-->
 
 > Proposition — {@{The set ${\mathcal {P} }(\mathbb {N} )$}@} is {@{not countable; i.e. it is [uncountable](uncountable%20set.md)}@}. <!--SR:!2028-12-20,1133,350!2029-01-21,1159,350-->
 

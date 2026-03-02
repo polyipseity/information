@@ -19,8 +19,8 @@ tags:
 
 ## week 3 lecture 2
 
-- Does $$f(x, y) = \frac {\sin(x^2 + y^2) } {x^2 + y^2}$$ have limit at $(0, 0)$? ::@:: Yes. We can check it more conveniently by substituting $z = x^2 + y^2$ to make it a single-variable function, and then proving its limit exist. <!--SR:!2026-03-10,288,330!2026-03-11,289,330-->
-- Does $$f(x, y) = \frac {x^2 - y^2} {x^2 + y^2}$$ have limit at $(0, 0)$? ::@:: No. Consider the two single-variable functions given by restricting to the lines $x = 0$ and $y = 0$. <!--SR:!2026-03-10,288,330!2026-03-22,294,330-->
+- Does $$f(x, y) = \frac {\sin(x^2 + y^2) } {x^2 + y^2}$$ have limit at $(0, 0)$? ::@:: Yes. We can check it more conveniently by substituting $z = x^2 + y^2$ to make it a single-variable function, and then proving its limit exist. <!--SR:!2029-10-13,1313,350!2026-03-11,289,330-->
+- Does $$f(x, y) = \frac {x^2 - y^2} {x^2 + y^2}$$ have limit at $(0, 0)$? ::@:: No. Consider the two single-variable functions given by restricting to the lines $x = 0$ and $y = 0$. <!--SR:!2029-10-15,1315,350!2026-03-22,294,330-->
 - Does $$f(x, y) = \frac {xy^2} {x^2 + y^4}$$ have limit at $(0, 0)$? ::@:: No. If you consider any _straight_ line through $(0, 0)$, you will always get a limit of 0. But you also need to consider _curved_ paths, such as the one given by $x = y^2$. <!--SR:!2026-03-12,290,330!2026-03-19,291,330-->
 - Find $$\lim_{(x, y) \to (1, 2)} \left(x^2 y^3 - x^3 y^2 \right)$$ if it exists, or explain if otherwise. ::@:: Since it is a polynomial, limits exist everywhere. So direct calculation suffices: $$x^2 y^3 - x^3 y^2 = 1^2 2^3 - 1^3 2^2 = 8 - 4 = 4 \,.$$ <!--SR:!2026-03-18,290,330!2029-10-11,1312,350-->
 - Find $$\lim_{(x, y) \to (-2, 3)} \frac {x^2 y + 1} {x^3 y^2 - 2x}$$ if it exists, or explain if otherwise. ::@:: Since it is a rational function, limits exist if the denominator is nonzero. Check: $$x^3 y^2 - 2x = (-2)^3 3^2 - 2(-2) = -72 + 4 = -68 \,.$$ So direct calculation suffices: $$\frac {x^2 y + 1} {x^3 y^2 - 2x} = \frac {(-2)^2 3 + 1} {(-2)^3 3^2 - 2(-2)} = -\frac {13} {68} \,.$$ <!--SR:!2026-03-21,293,330!2026-03-21,293,330-->

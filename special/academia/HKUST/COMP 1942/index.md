@@ -426,7 +426,7 @@ The content is in teaching order.
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::@:: Self-links are considered. <!--SR:!2026-10-13,690,408!2026-07-28,627,408-->
     - PageRank initialization ::@:: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2031-11-17,2161,397!2029-07-25,1495,397-->
-    - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2026-03-10,509,408!2026-07-01,612,408-->
+    - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2033-12-10,2832,428!2026-07-01,612,408-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
     - PageRank damping factor variation ::@:: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2033-08-08,2716,417!2029-03-13,1388,397-->
@@ -477,11 +477,11 @@ The content is in teaching order.
 - common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2028-11-15,1263,377!2033-07-01,2685,417-->
 - other topics
   - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!2026-07-24,543,337-->
-  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2029-08-11,1512,397-->
+  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2031-12-24,2115,357!2029-08-11,1512,397-->
   - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2030-07-20,1791,397!2028-11-07,1255,377-->
   - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2033-01-28,2559,417!2031-04-01,1992,397-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2033-02-08,2570,417!2033-01-21,2552,417-->
-  - social networks ::@:: How are people connected? <!--SR:!2026-03-10,509,397!2033-06-23,2677,417-->
+  - social networks ::@:: How are people connected? <!--SR:!2033-09-27,2758,417!2033-06-23,2677,417-->
   - privacy issues ::@:: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2032-11-01,2482,417!2030-06-09,1734,397-->
   - graph data ::@:: How to analyze graphs? <!--SR:!2033-03-04,2591,417!2033-05-03,2640,417-->
   - decision making

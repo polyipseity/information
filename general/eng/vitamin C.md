@@ -13,7 +13,7 @@ tags:
 
 > {@{![structure of vitamin C](../../archives/Wikimedia%20Commons/L-Ascorbic%20acid.svg)}@}
 >
-> structure of vitamin C <!--SR:!2026-03-10,216,150-->
+> structure of vitamin C <!--SR:!2027-02-04,331,150-->
 
 ## synthesis
 

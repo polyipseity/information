@@ -49,7 +49,7 @@ If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equiv
 
 By the above, we can define {@{the __category of cones to _F_<!-- markdown separator -->__}@} as {@{the comma category \(Δ ↓ _F_\)}@}. {@{Morphisms of cones}@} are then {@{just morphisms in this category}@}. This equivalence is rooted in the observation that {@{a natural map between constant functors Δ\(_N_\), Δ\(_M_\) corresponds to a morphism between _N_ and _M_}@}. In this sense, {@{the diagonal functor acts trivially on arrows}@}. In similar vein, writing down the definition of {@{a natural map from a constant functor Δ\(_N_\) to _F_}@} yields {@{the same diagram as the above}@}. As one might expect, {@{a morphism from a cone \(_N_, ψ\) to a cone \(_L_, φ\)}@} is {@{just a morphism _N_ → _L_ such that all the "obvious" diagrams commute}@} \(see the first diagram in the next section\). <!--SR:!2029-01-18,1138,350!2029-06-01,1234,350!2029-04-21,1193,350!2029-09-30,1338,350!2029-09-02,1315,350!2028-06-16,884,330!2026-04-08,351,352!2029-04-17,1189,350!2026-04-07,350,349!2027-12-07,804,330-->
 
-Likewise, {@{the __category of co-cones from _F_<!-- markdown separator -->__}@} is {@{the comma category \(_F_ ↓ Δ\)}@}. <!--SR:!2030-06-02,1549,369!2026-03-10,327,349-->
+Likewise, {@{the __category of co-cones from _F_<!-- markdown separator -->__}@} is {@{the comma category \(_F_ ↓ Δ\)}@}. <!--SR:!2030-06-02,1549,369!2030-07-01,1574,369-->
 
 ## universal cones
 

@@ -27,7 +27,7 @@ tags:
 
 - Service or use basis: ::@:: If the benefit obtained by various departments from the overheads can be measured, overheads can be apportioned on that basis. <!--SR:!2026-06-15,243,330!2026-06-07,237,330-->
 - Survey basis: ::@:: If amount of overhead can't be measured survey basis can be applied. For example, if it can be noted that a supervisor is giving 60% of their time to one department and 40% to another, their wage can be apportioned on that basis. <!--SR:!2026-08-17,297,350!2026-06-19,246,330-->
-- Ability to pay basis: ::@:: In this case the apportionment may depend on the factors like total sale/profitability. This may not be a fair case always as some departments may have to take most of the burden. <!--SR:!2026-06-06,236,330!2026-03-10,116,310-->
+- Ability to pay basis: ::@:: In this case the apportionment may depend on the factors like total sale/profitability. This may not be a fair case always as some departments may have to take most of the burden. <!--SR:!2026-06-06,236,330!2027-07-17,494,330-->
 
 ## secondary apportionment
 

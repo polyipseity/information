@@ -425,7 +425,7 @@ The content is in teaching order.
     - discrete variable / examples ::@:: defective or non-defective, good or bad, yes or no <!--SR:!2027-04-24,631,416!2027-06-09,672,419-->
 - p-chart
   - p-chart / data ::@:: Take a series of samples over _time_. Each sample is taken on a small group (fixed size _n_) of products. The attribute should be binary, e.g. defectiveness. <!--SR:!2026-10-20,478,399!2027-08-24,734,419-->
-  - p-chart / method ::@:: For each sample, compute fraction of defects $p$. Then across all samples, compute mean of fraction of defects $\overline p$. Compute _control_ \(not _specification_\) limits by multiplying the standard deviation of $\overline p$ by 3. <!--SR:!2026-03-10,259,356!2027-07-04,694,419-->
+  - p-chart / method ::@:: For each sample, compute fraction of defects $p$. Then across all samples, compute mean of fraction of defects $\overline p$. Compute _control_ \(not _specification_\) limits by multiplying the standard deviation of $\overline p$ by 3. <!--SR:!2029-08-31,1270,376!2027-07-04,694,419-->
   - p-chart / center line ::@:: $${\bar {p} }={\frac {\sum _{i=1}^{m}\sum _{j=1}^{n}{\begin{cases}1&{\text{if } }x_{ij}{\text{ defective} }\\0&{\text{otherwise} }\end{cases} } }{mn} }$$ <!--SR:!2026-09-04,440,398!2027-06-07,670,419-->
   - p-chart / control limits ::@:: $${\bar {p} }\pm 3{\sqrt {\frac { {\bar {p} }(1-{\bar {p} })}{n} } }$$ <p> \(__Important__: In this course, the lower control limit should be _at least 0_.\) <!--SR:!2026-07-31,380,379!2027-09-03,689,379-->
   - p-chart / plotted statistic $${\bar {p} }_{i}={\frac {\sum _{j=1}^{n}{\begin{cases}1&{\text{if } }x_{ij}{\text{ defective} }\\0&{\text{otherwise} }\end{cases} } }{n} }$$

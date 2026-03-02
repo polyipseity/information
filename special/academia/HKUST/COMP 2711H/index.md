@@ -464,7 +464,7 @@ The content is in teaching order.
 - graph theory
   - graph theory / [independent set](../../../../general/independent%20set%20(graph%20theory).md) ::@:: An __independent set__ is a set of vertices in a graph, no two of which are adjacent. <!--SR:!2026-09-01,555,409!2027-03-26,721,408-->
 - [Huffman coding](../../../../general/Huffman%20coding.md) ::@:: A particular type of optimal prefix code (no code is a prefix of any other code) that is commonly used for lossless data compression. <!--SR:!2026-09-26,575,409!2026-09-07,559,409-->
-  - Huffman coding / algorithm ::@:: Suppose there are _n_ words that appears _w_<sub>_i_</sub> times. Keep merging 2 words that appears least frequently to become one word with their appearance frequencies combined. Keep track of how the words are merged and represent it as a tree. <p> The resulting tree is a binary tree for its Huffman coding. The leaves represent each word. The route it takes to reach a word is the Huffman coding for that word. <!--SR:!2026-03-10,375,368!2026-07-20,508,388-->
+  - Huffman coding / algorithm ::@:: Suppose there are _n_ words that appears _w_<sub>_i_</sub> times. Keep merging 2 words that appears least frequently to become one word with their appearance frequencies combined. Keep track of how the words are merged and represent it as a tree. <p> The resulting tree is a binary tree for its Huffman coding. The leaves represent each word. The route it takes to reach a word is the Huffman coding for that word. <!--SR:!2031-05-15,1892,388!2026-07-20,508,388-->
 - [questions/2024-10-07/tutorial](questions/2024-10-07%20tutorial.md)
 - materials
   - [lecture video](https://youtu.be/4CPfs1XUg_w)

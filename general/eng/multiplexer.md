@@ -56,7 +56,7 @@ In {@{digital communications}@}, multiplexers allow {@{several connections over 
 
 At {@{the receiving end of the [data link](data%20link.md)}@} {@{a complementary _demultiplexer_ is usually required to break the single data stream back down into the original streams}@}. In some cases, {@{the far end system}@} may have {@{functionality greater than a simple demultiplexer}@}; and while {@{the demultiplexing still occurs technically, it may never be implemented discretely}@}. This would be the case when, for instance, {@{a multiplexer serves a number of [IP](Internet%20Protocol.md) network users}@}; and then {@{feeds directly into a [router](router%20(computing).md)}@}, which {@{immediately reads the content of the entire link into its [routing](routing.md) processor}@}; and then {@{does the demultiplexing in memory from where it will be converted directly into IP sections}@}. <!--SR:!2026-03-16,298,344!2026-05-01,342,344!2026-03-29,311,344!2026-03-14,296,344!2026-04-27,338,344!2026-03-16,298,344!2026-03-26,308,344!2026-04-01,314,344!2029-02-17,1133,350-->
 
-Often, {@{a multiplexer and demultiplexer}@} are {@{combined into a single piece of equipment}@}, which is {@{simply referred to as a _multiplexer_}@}. Both circuit elements are {@{needed at both ends of a transmission link}@} because {@{most communications systems transmit in [both directions](duplex%20(telecommunications).md)}@}. <!--SR:!2026-03-10,292,344!2026-03-11,293,344!2026-03-29,311,344!2028-10-28,1048,350!2026-04-06,319,344-->
+Often, {@{a multiplexer and demultiplexer}@} are {@{combined into a single piece of equipment}@}, which is {@{simply referred to as a _multiplexer_}@}. Both circuit elements are {@{needed at both ends of a transmission link}@} because {@{most communications systems transmit in [both directions](duplex%20(telecommunications).md)}@}. <!--SR:!2029-12-23,1384,364!2026-03-11,293,344!2026-03-29,311,344!2028-10-28,1048,350!2026-04-06,319,344-->
 
 In {@{[analog circuit](analog%20circuit.md) design}@}, a multiplexer is {@{a special type of analog switch that connects one signal selected from several inputs to a single output}@}. <!--SR:!2026-04-14,327,344!2026-04-06,319,344-->
 
@@ -115,7 +115,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 | 1         | 0         | C     |
 | 1         | 1         | D     |
 
-{@{The following 4-to-1 multiplexer}@} is constructed from {@{[3-state buffers](3-state%20buffers.md#tri-state%20buffer) and AND gates \(the AND gates are acting as the decoder\)}@}: <p> {@{![a 4-to-1 mux realized from 3-state buffers and AND gates](../../archives/Wikimedia%20Commons/Mux%20from%203%20state%20buffers.png)}@} <!--SR:!2026-03-10,292,344!2026-04-05,318,344!2026-03-27,309,344-->
+{@{The following 4-to-1 multiplexer}@} is constructed from {@{[3-state buffers](3-state%20buffers.md#tri-state%20buffer) and AND gates \(the AND gates are acting as the decoder\)}@}: <p> {@{![a 4-to-1 mux realized from 3-state buffers and AND gates](../../archives/Wikimedia%20Commons/Mux%20from%203%20state%20buffers.png)}@} <!--SR:!2029-12-28,1389,364!2026-04-05,318,344!2026-03-27,309,344-->
 
 {@{The subscripts on the $I_{n}$ inputs}@} indicate {@{the decimal value of the binary control inputs}@} at which that {@{input is let through}@}. <!--SR:!2026-04-20,333,344!2028-06-05,926,344!2026-05-16,125,403-->
 
@@ -149,7 +149,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 - See also: ::@:: [Inverse multiplexer](inverse%20multiplexer.md) <!--SR:!2026-03-11,293,344!2028-12-26,1080,350-->
 
-Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They {@{forward the data input to one of the outputs depending on the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}. <!--SR:!2026-03-13,295,344!2026-03-10,292,344!2026-04-19,330,344!2028-10-09,1031,350!2026-03-19,301,344!2026-03-18,300,344!2026-04-01,314,344-->
+Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They {@{forward the data input to one of the outputs depending on the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}. <!--SR:!2026-03-13,295,344!2028-12-08,1004,344!2026-04-19,330,344!2028-10-09,1031,350!2026-03-19,301,344!2026-03-18,300,344!2026-04-01,314,344-->
 
 If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$$A=(X\wedge \neg S)$$ <br/> $$B=(X\wedge S)$$}@} <!--SR:!2026-04-15,328,344!2026-04-30,341,344-->
 

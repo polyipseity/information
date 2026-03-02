@@ -33,7 +33,7 @@ Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the ex
 
 > {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2031-02-14,1813,382!2030-12-13,1764,382!2031-03-25,1842,382-->
 
-{@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-20,1378,356!2026-04-01,391,362!2026-04-07,397,362!2031-02-09,1808,382!2026-03-10,374,362-->
+{@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-20,1378,356!2026-04-01,391,362!2026-04-07,397,362!2031-02-09,1808,382!2031-04-16,1863,382-->
 
 For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2030-08-18,1655,370!2031-03-05,1827,382!2027-09-16,778,342!2031-03-17,1837,382!2026-03-26,387,362!2029-02-02,1200,362!2026-04-04,394,362!2028-04-12,935,336!2029-10-13,1397,356-->
 
@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2029-09-22,1379,356!2026-03-10,372,362!2028-04-12,896,342!2026-03-26,386,362!2028-10-03,1102,362!2030-11-30,1753,382!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2030-10-16,1716,382!2026-03-17,379,362-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2029-09-22,1379,356!2031-03-31,1847,382!2028-04-12,896,342!2026-03-26,386,362!2028-10-03,1102,362!2030-11-30,1753,382!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2030-10-16,1716,382!2026-03-17,379,362-->
 
 ### Fleury's algorithm
 
@@ -114,7 +114,7 @@ A similar formula was {@{later obtained by M.I. Isaev \(2009\)}@} for {@{[comple
 
 ## applications
 
-Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reconstruct the [DNA sequence](nucleic%20acid%20sequence.md) from its fragments}@}.<sup>[\[13\]](#^ref-13)</sup> They are also used in {@{[CMOS](CMOS.md) circuit design}@} to {@{find an optimal [logic gate](logic%20gate.md) ordering}@}.<sup>[\[14\]](#^ref-14)</sup> There are {@{some algorithms for processing [trees](tree%20(graph%20theory).md)}@} that {@{rely on an Euler tour of the tree \(where each edge is treated as a pair of arcs\)}@}.<sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> {@{The [de Bruijn sequences](de%20Bruijn%20sequence.md)}@} can be constructed as {@{Eulerian trails of [de Bruijn graphs](de%20Bruijn%20graph.md)}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-04-05,395,362!2029-03-04,1225,362!2029-03-28,1244,362!2029-05-08,1263,362!2030-10-10,1698,370!2029-04-13,1256,362!2026-03-10,374,362!2029-01-15,1187,362-->
+Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reconstruct the [DNA sequence](nucleic%20acid%20sequence.md) from its fragments}@}.<sup>[\[13\]](#^ref-13)</sup> They are also used in {@{[CMOS](CMOS.md) circuit design}@} to {@{find an optimal [logic gate](logic%20gate.md) ordering}@}.<sup>[\[14\]](#^ref-14)</sup> There are {@{some algorithms for processing [trees](tree%20(graph%20theory).md)}@} that {@{rely on an Euler tour of the tree \(where each edge is treated as a pair of arcs\)}@}.<sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> {@{The [de Bruijn sequences](de%20Bruijn%20sequence.md)}@} can be constructed as {@{Eulerian trails of [de Bruijn graphs](de%20Bruijn%20graph.md)}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-04-05,395,362!2029-03-04,1225,362!2029-03-28,1244,362!2029-05-08,1263,362!2030-10-10,1698,370!2029-04-13,1256,362!2031-04-12,1859,382!2029-01-15,1187,362-->
 
 ## in infinite graphs
 

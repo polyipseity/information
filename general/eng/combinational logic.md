@@ -27,7 +27,7 @@ In {@{[automata theory](automata%20theory.md)}@}, {@{__combinational logic__ \(a
 
 ## representation
 
-Combinational logic is used to {@{build circuits that produce specified outputs from certain inputs}@}. {@{The construction of combinational logic}@} is generally done using one of two methods: {@{a sum of products, or a product of sums}@}. Consider {@{the following [truth table](truth%20table.md)}@}: <!--SR:!2029-09-12,1298,350!2029-09-28,1310,350!2026-03-10,292,330!2029-05-18,1200,350-->
+Combinational logic is used to {@{build circuits that produce specified outputs from certain inputs}@}. {@{The construction of combinational logic}@} is generally done using one of two methods: {@{a sum of products, or a product of sums}@}. Consider {@{the following [truth table](truth%20table.md)}@}: <!--SR:!2029-09-12,1298,350!2029-09-28,1310,350!2029-11-05,1336,350!2029-05-18,1200,350-->
 
 | _A_                                                                                                 | _B_                                                                                                 | _C_                                                                                                 | Result                                                                                              | [Logical equivalent](logical%20equivalence.md) |
 |:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:----------------------------------------------:|
@@ -44,7 +44,7 @@ Using {@{sum of products}@}, {@{all logical statements which yield true results 
 
 ## logic formula minimization
 
-{@{Minimization \(simplification\) of combinational logic formulas}@} is done using {@{the following rules based on the [laws of Boolean algebra](Boolean%20algebra.md#laws)}@}: <!--SR:!2028-01-15,807,330!2026-03-10,292,330-->
+{@{Minimization \(simplification\) of combinational logic formulas}@} is done using {@{the following rules based on the [laws of Boolean algebra](Boolean%20algebra.md#laws)}@}: <!--SR:!2028-01-15,807,330!2029-11-04,1335,350-->
 
 - (annotation: distributivity) ::@:: $${\begin{aligned}(A\vee B)\wedge (A\vee C)&=A\vee (B\wedge C)\\(A\wedge B)\vee (A\wedge C)&=A\wedge (B\vee C)\end{aligned} }$$ <!--SR:!2027-04-15,542,330!2029-10-14,1324,350-->
 - (annotation: absorption) ::@:: $${\begin{aligned}A\vee (A\wedge B)&=A\\A\wedge (A\vee B)&=A\end{aligned} }$$ <!--SR:!2029-07-01,1237,350!2026-03-11,293,330-->

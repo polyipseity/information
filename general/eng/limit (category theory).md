@@ -99,7 +99,7 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 <!-- markdownlint-disable-next-line MD024 -->
 ### colimits
 
-{@{Examples of colimits}@} are given by {@{the dual versions of the examples above}@}: <!--SR:!2026-03-10,324,345!2026-10-24,470,310-->
+{@{Examples of colimits}@} are given by {@{the dual versions of the examples above}@}: <!--SR:!2030-05-25,1537,365!2026-10-24,470,310-->
 
 - __[Initial objects](initial%20object.md)__ ::@:: are colimits of empty diagrams. <!--SR:!2026-04-21,362,358!2028-07-01,902,330-->
 - __[Coproducts](coproduct.md)__ ::@:: are colimits of diagrams indexed by discrete categories. <!--SR:!2029-03-11,1180,358!2026-05-14,380,358-->

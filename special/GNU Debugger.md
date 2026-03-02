@@ -43,7 +43,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 ### reverse debugging
 
-- `rc` ::@:: reverse continue <!--SR:!2026-03-10,421,365!2026-03-13,424,365-->
+- `rc` ::@:: reverse continue <!--SR:!2031-12-16,2107,385!2026-03-13,424,365-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2027-10-23,881,365!2031-11-08,2075,385-->
 - `rn` ::@:: rewind to the previous (source) line <!--SR:!2029-09-14,1408,365!2029-01-25,1253,365-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2031-11-16,2082,385!2031-11-28,2092,385-->

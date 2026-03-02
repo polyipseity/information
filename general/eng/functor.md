@@ -95,7 +95,7 @@ One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{
 
 ## examples
 
-__[Diagram](diagram%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a diagram of type _J_ (annotation: the categorical analogue of an indexed family in set theory) in _C_ is a covariant functor $D\colon J\to C$. <!--SR:!2027-03-01,591,337!2026-03-10,335,357-->
+__[Diagram](diagram%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a diagram of type _J_ (annotation: the categorical analogue of an indexed family in set theory) in _C_ is a covariant functor $D\colon J\to C$. <!--SR:!2027-03-01,591,337!2030-09-07,1642,377-->
 
 __[\(Category theoretical\) presheaf](presheaf%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a _J_-presheaf on _C_ is a contravariant (annotation: _not_ covariant) functor $D\colon C\to J$. <p> In the special case when J is __Set__, the category of sets and functions, _D_ is called a [presheaf](presheaf%20(category%20theory).md) on _C_. <!--SR:!2026-03-22,294,297!2028-04-09,894,330-->
 
@@ -137,7 +137,7 @@ __Fundamental group__
 <!-- markdownlint-disable-next-line MD036 -->
 __Algebra of continuous functions__
 
-&emsp; {@{A contravariant (annotation: _not_ covariant) functor}@} from {@{the category of [topological spaces](topology.md) \(with continuous maps as morphisms\) to the category of real [associative algebras](associative%20algebra.md)}@} is given by {@{assigning to every topological space _X_ the algebra C\(_X_\) of all real-valued continuous functions on that space}@}. {@{Every continuous map _f_ : _X_ → _Y_}@} induces {@{an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) C\(_f_\) : C\(_Y_\) → C\(_X_\)}@} by {@{the rule C\(_f_\)\(_φ_\) = _φ_ ∘ _f_ for every _φ_ in C\(_Y_\)}@}. <!--SR:!2030-08-13,1622,377!2026-06-29,373,306!2027-10-23,724,326!2026-03-10,337,357!2029-01-27,1142,357!2026-05-10,356,306-->
+&emsp; {@{A contravariant (annotation: _not_ covariant) functor}@} from {@{the category of [topological spaces](topology.md) \(with continuous maps as morphisms\) to the category of real [associative algebras](associative%20algebra.md)}@} is given by {@{assigning to every topological space _X_ the algebra C\(_X_\) of all real-valued continuous functions on that space}@}. {@{Every continuous map _f_ : _X_ → _Y_}@} induces {@{an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) C\(_f_\) : C\(_Y_\) → C\(_X_\)}@} by {@{the rule C\(_f_\)\(_φ_\) = _φ_ ∘ _f_ for every _φ_ in C\(_Y_\)}@}. <!--SR:!2030-08-13,1622,377!2026-06-29,373,306!2027-10-23,724,326!2030-09-17,1652,377!2029-01-27,1142,357!2026-05-10,356,306-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Tangent and cotangent bundles__
