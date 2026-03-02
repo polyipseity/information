@@ -89,7 +89,7 @@ Flashcards for this section are as follows:
 
 ### voltage and potential difference
 
-Voltage (electric potential difference) is the energy per unit charge that drives current. It is measured in volts and is always defined between two points; a reference point called _ground_ (GND) is conventionally assigned 0 V. A battery, for example, maintains a fixed voltage difference between its terminals that forces current through a connected load.
+voltage (electric potential difference) is the energy per unit charge that drives current. It is measured in volts and is always defined between two points; a reference point called _ground_ (GND) is conventionally assigned $0\,\text{V}$. A battery, for example, maintains a fixed voltage difference between its terminals that forces current through a connected load.
 
 ---
 
@@ -97,7 +97,7 @@ Flashcards for this section are as follows:
 
 - voltage definition ::@:: Voltage is the force that makes electrons move through a conductor; symbol V, unit volt (V).
 - potential difference ::@:: Voltage is a difference in electric potential between two points; current flows only if there is a potential difference.
-- ground reference ::@:: Ground (GND) is a circuit reference point defined to be 0 V; voltage measurements are always relative to another point.
+- ground reference ::@:: Ground (GND) is a circuit reference point defined to be $0\,\text{V}$; voltage measurements are always relative to another point. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## resistance and resistors
 
@@ -163,7 +163,7 @@ Electrical energy delivered to a charge $q$ moving through a potential differenc
 
 Power is the rate of energy transfer: $P = E/\Delta t = \Delta q\,V/\Delta t = IV$, and by substituting Ohm’s law we obtain $P = I^{2}R = V^{2}/R$ for purely resistive components.
 
-Electrical sources may deliver either direct current (DC) or alternating current (AC).  In a DC supply the voltage and current are essentially constant in time – batteries and the LiPo packs used on your robot are examples – so the direction of current flow never reverses.  Household mains power is AC: the voltage oscillates sinusoidally and the current changes direction periodically (50 Hz in Hong Kong, 60 Hz in some other countries).  AC is convenient for transmission over long distances and can be converted to DC with rectifiers.
+Electrical sources may deliver either direct current (DC) or alternating current (AC).  In a DC supply the voltage and current are essentially constant in time – batteries and the LiPo packs used on your robot are examples – so the direction of current flow never reverses.  Household mains power is AC: the voltage oscillates sinusoidally and the current changes direction periodically ($50\,\text{Hz}$ in Hong Kong, $60\,\text{Hz}$ in some other countries).  AC is convenient for transmission over long distances and can be converted to DC with rectifiers.
 
 ---
 
@@ -173,7 +173,7 @@ Flashcards for this section are as follows:
 - battery energy role ::@:: Batteries supply electrical energy through electrochemical reactions and provide DC power with long storage times.
 - human/robot analogy ::@:: People get energy by eating food while robots obtain energy from batteries or power supplies.
 - DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically.
-- household AC frequency ::@:: Mains electricity typically alternates at 50 Hz (Hong Kong) or 60 Hz (some other countries).
+- household AC frequency ::@:: Mains electricity typically alternates at $50\,\text{Hz}$ (Hong Kong) or $60\,\text{Hz}$ (some other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - power definition ::@:: Power is the rate of energy consumption; $P = E/\Delta t = IV$ and for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
@@ -202,7 +202,7 @@ Flashcards for energy conversion are as follows:
 
 ### human body energy
 
-For context, the human body itself uses electrical, chemical and mechanical power on the order of watts to tens of watts: body heat (2–5 W), heartbeat (~1.4 W), arm motion (~60 W), footfalls (~67 W) and so on.  This comparison emphasises that the milliwatt and watt‑level powers we calculate for resistors are small compared with everyday biological energy use.
+For context, the human body itself uses electrical, chemical and mechanical power on the order of watts to tens of watts: body heat ($2\text{--}5\,\text{W}$), heartbeat ($\sim1.4\,\text{W}$), arm motion ($\sim60\,\text{W}$), footfalls ($\sim67\,\text{W}$) and so on.  This comparison emphasises that the milliwatt and watt‑level powers we calculate for resistors are small compared with everyday biological energy use.
 
 ---
 
@@ -228,7 +228,7 @@ Flashcards for this section are as follows:
 
 - series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground (0 V).
+- series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground ($0\,\text{V}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$.
