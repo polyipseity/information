@@ -21,6 +21,7 @@ from check_mods.rules import (
     latex_disallowed_delimiters,
     latex_environment_not_wrapped,
     latex_single_line,
+    latex_spacing_after,
     latex_spacing_before,
     metadata_aliases_present,
     metadata_flash_tag,
@@ -395,6 +396,11 @@ def test_numeric_text_not_latex():
     # by check_markdown_file; here we just ensure the pattern matches
     assert msgs4
 
+    # and numeric expressions inside code fences should be ignored entirely
+    txt5 = "```text\n5 V and 10 A should not trigger\n```\n"
+    ctx5 = make_ctx(txt5)
+    assert not numeric_text_not_latex(ctx5), "code fences must be skipped"
+
 
 def test_latex_spacing_before_paren():
     """Spacing rule allows '(' before dollar but not letters directly."""
@@ -408,6 +414,15 @@ def test_latex_spacing_before_paren():
     ctx = make_ctx(txt)
     msgs = latex_spacing_before(ctx)
     assert msgs, "missing space should be caught even inside text"
+
+
+def test_latex_spacing_ignore_code():
+    """Math inside code fences should not trigger spacing rules."""
+
+    txt = "```text\nBadexample$x=1$\n```\n"
+    ctx = make_ctx(txt)
+    assert not latex_spacing_before(ctx)
+    assert not latex_spacing_after(ctx)
 
 
 def test_latex_disallowed_delimiters():
@@ -452,6 +467,13 @@ def test_latex_single_line_multiline():
     assert m.line == 1
     assert m.col == 1
     assert m.col_end == 1
+
+
+def test_latex_single_line_ignore_code():
+    """Even malformed math inside code fences must be ignored."""
+    txt = "```text\n$\nfoo\n$\n```\n"
+    ctx = make_ctx(txt)
+    assert not latex_single_line(ctx)
 
 
 def test_block_latex_no_newline():

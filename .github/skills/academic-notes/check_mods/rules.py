@@ -815,24 +815,23 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
        digit are followed by an equals sign (the right-hand side may itself
        include units).
 
-    If either pattern is found on a dollar-free line a warning is emitted
-    advising the author to wrap the expression in ``$...$``.  The check is
-    deliberately conservative to avoid flagging mundane prose such as dates or
-    lecture numbers; it only runs on lines that include one of the above
-    constructs.  Suppressions are supported via the usual ``<!-- check: ... -->``
-    directives when the numeric content is intentionally not typeset as math.
+    Lines inside fenced code blocks are ignored entirely.
     """
     errors: list[ValidationMessage] = []
-    # precompile regexes for performance
     unit_re = re.compile(r"\b\d+(?:\.\d+)?\s*(?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA|C)\b")
     var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=")
-    for idx, line in enumerate(ctx.text.splitlines(), start=1):
-        if "$" in line:
-            # line already contains math; skip
+    in_fence = False
+    for idx, line in enumerate(ctx.text.splitlines(keepends=True), start=1):
+        if line.strip().startswith("```"):
+            in_fence = not in_fence
             continue
-        if unit_re.search(line) or var_eq_re.search(line):
-            # warn at the first matching substring
-            m = unit_re.search(line) or var_eq_re.search(line)
+        if in_fence:
+            continue
+        stripped = line.rstrip("\n")
+        if "$" in stripped:
+            continue
+        if unit_re.search(stripped) or var_eq_re.search(stripped):
+            m = unit_re.search(stripped) or var_eq_re.search(stripped)
             assert m is not None
             col = m.start() + 1
             col_end = m.end() + 1
@@ -841,7 +840,7 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
                     rule_id="numeric_text_not_latex",
                     msg=(
                         "numeric expression detected outside math delimiters; "
-                        "wrap quantities such as 5 V or I2=0.04 A in `$…$` "
+                        "wrap quantities such as 5\u202fV or I2=0.04\u202fA in `$…$` "
                         "so they render correctly and obey spacing rules"
                     ),
                     severity=Severity.WARNING,
@@ -919,13 +918,23 @@ def latex_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
     should instead be handled by a dedicated rule.  Here we match only single
     dollar delimiters and warn if the contents contain a literal newline
     character.  Block math is addressed by :func:`latex_block_no_newline`.
+
+    Fenced code blocks are ignored entirely since their contents are not
+    rendered as math.
     """
     errors: list[ValidationMessage] = []
+    text = ctx.text
+
+    def in_code_fence(idx: int) -> bool:
+        return text[:idx].count("```") % 2 == 1
+
     # match a single-dollar expression but not $$
-    for m in re.finditer(r"(?<!\$)\$.*?\$(?!\$)", ctx.text, re.DOTALL):
+    for m in re.finditer(r"(?<!\$)\$.*?\$(?!\$)", text, re.DOTALL):
+        if in_code_fence(m.start()):
+            continue
         if "\n" in m.group(0):
             length = len(m.group(0))
-            line, col, col_end = locate_range(ctx.text, m.start(), length)
+            line, col, col_end = locate_range(text, m.start(), length)
             errors.append(
                 ValidationMessage(
                     rule_id="latex_single_line",
@@ -1047,10 +1056,18 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
 
     This rule scans each LaTeX segment and checks the character immediately
     preceding the start; if it is not whitespace, an error is produced.
+
+    Ignore any math that appears inside fenced code blocks.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
+
+    def in_code_fence(idx: int) -> bool:
+        return text[:idx].count("```") % 2 == 1
+
     for m in re.finditer(r"\$\$?.*?\$\$?", text, re.DOTALL):
+        if in_code_fence(m.start()):
+            continue
         start_idx = m.start()
         if start_idx > 0:
             prev_char = text[start_idx - 1]
@@ -1076,10 +1093,18 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
 
     Similar to :func:`latex_spacing_before`, but checks the character immediately
     following each math expression.
+
+    We skip any match that lies inside a fenced code block.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
+
+    def in_code_fence(idx: int) -> bool:
+        return text[:idx].count("```") % 2 == 1
+
     for m in re.finditer(r"\$\$?.*?\$\$?", text, re.DOTALL):
+        if in_code_fence(m.start()):
+            continue
         end_idx = m.end()
         if end_idx < len(text):
             next_char = text[end_idx]

@@ -21,6 +21,7 @@ This document explains how to author, validate, and maintain academic course not
    - **Never standalone.**  A line consisting solely of a math expression is forbidden; the formula must be embedded in surrounding prose or list text.  This keeps diff noise down and matches the flashcard generator’s expectations.
    - **Spacing around delimiters.**  When an equation appears after other text, leave a normal space before the opening dollar sign; likewise put a space after the closing dollar if more text follows.  **Exception:** no space is required if the character immediately following the closing dollar is punctuation (e.g. `.,;:!?)]}`) or the end of line.  Leading or trailing whitespace is allowed at the beginning or end of a paragraph, but adjacent alphanumeric characters without a space will trigger the validator.
 7. **Header style**: section headers in topic notes should be all lowercase (capitalize only proper nouns or the first word of a sentence) to keep anchors predictable and maintain consistency.
+8. **Immediate validation**: run `python .github/skills/academic-notes/check.py` after every editing tool invocation or manual change. The agent tends to produce malformed Markdown, and fixing issues promptly prevents a flood of errors later.
 
 ## Authoring workflow
 
@@ -32,7 +33,7 @@ This section covers the full lifecycle of course note content, from initial crea
 4. Use the session structure from the examples below. Add `datetime:` entries with ISO intervals (date only if time unknown). Place prose summaries after the bullet outline separated by `---`. Draft explanatory prose before adding cloze markup; don’t flashcard‑ify first and then write prose.
 5. Capture content‑first details in prose paragraphs, not bullets; convert slide fragments into full sentences.
 6. Audit the whole file whenever you add or change any section: check for missing/malformed flashcards, separators, numeric values, tags, and indentation.
-7. Run the validator and fix any errors it reports. Errors must be resolved before committing.
+7. Run the validator and fix any errors it reports; do this immediately after each edit tool call or manual change. Errors (and warnings) must be resolved before committing.
 
 ### Pre‑commit checklist
 
