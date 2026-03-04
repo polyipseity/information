@@ -56,6 +56,7 @@ The content is in teaching order.
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
 - [electronic component](electronic%20component.md)
+- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
 
 ## assignments
 
@@ -166,6 +167,14 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-02-13T11:30:00+08:00/2026-02-13T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: KCL & KVL
+- ELEC 1100
+  - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) ::@:: Two fundamental relations (KCL and KVL)
+    - [§ background](Kirchhoff%27s%20circuit%20laws.md#background) ::@:: Series/parallel formulas motivate the need for general laws
+    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) ::@:: Sum of currents entering a node equals sum leaving it
+    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law) ::@:: Sum of voltage drops around a closed loop equals zero
+    - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws) ::@:: Procedure combining KCL and KVL to solve networks
+    - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations) ::@:: Worked calculations using KCL and KVL for simple and bridge circuits
+    - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application) ::@:: When to apply KCL and KVL laws and how to compute equivalent resistance
 
 ### week 3 lab 1
 
