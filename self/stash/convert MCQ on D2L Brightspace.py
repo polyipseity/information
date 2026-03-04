@@ -9,8 +9,8 @@
 
 """Convert multiple choice questions on D2L Brightspace to markdown."""
 
-from asyncio import run
-from os import listdir
+from asyncio import gather, run
+from collections.abc import Awaitable
 
 from anyio import Path
 from bs4 import BeautifulSoup
@@ -92,13 +92,20 @@ def process_html(question: str) -> str:
     )
 
 
+async def _process_file(path: Path) -> str:
+    text = await path.read_text(encoding="utf-8")
+    return process_html(text)
+
+
 async def main():
-    out: list[str] = []
-    for filename in listdir():
-        if not filename.endswith(".html"):
-            continue
-        text = await Path(filename).read_text(encoding="utf-8")
-        out.append(process_html(text))
+    root = Path(".")
+
+    tasks: list[Awaitable[str]] = []
+    async for entry in root.iterdir():
+        if entry.name.endswith(".html") and not await entry.is_dir():
+            tasks.append(_process_file(entry))
+    results = await gather(*tasks)
+    out = list(results)
     print("\n\n---\n\n".join(out))
 
 

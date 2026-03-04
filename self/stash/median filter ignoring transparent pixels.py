@@ -16,7 +16,7 @@ from os import PathLike
 
 import cv2
 import numpy as np
-from anyio import Path
+from anyio import Path, run, to_thread
 
 DEFAULT_KSIZE = 3
 DEFAULT_INPUT = "input.png"
@@ -176,7 +176,29 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     return p.parse_args(argv)
 
 
-def main(argv: list[str] | None = None) -> int:
+async def process_image(in_path: Path, out_path: Path, ksize: int, repeat: int) -> int:
+    """Load, filter, and save image using a thread pool for blocking ops."""
+    try:
+        img = await to_thread.run_sync(read_image, in_path)
+    except FileNotFoundError as exc:
+        print(exc, file=sys.stderr)
+        return 1
+
+    img = ensure_bgra(img)
+    result = img
+    for _ in range(max(1, repeat)):
+        result = await to_thread.run_sync(
+            median_filter_ignoring_transparent, result, ksize
+        )
+
+    ok = await to_thread.run_sync(cv2.imwrite, str(out_path), result)
+    if not ok:
+        print(f"Failed to write output image: {out_path}", file=sys.stderr)
+        return 3
+    return 0
+
+
+async def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     in_path = Path(args.input)
     out_path = Path(args.output)
@@ -185,36 +207,9 @@ def main(argv: list[str] | None = None) -> int:
         print("--ksize must be a positive odd integer", file=sys.stderr)
         return 2
 
-    try:
-        img = read_image(in_path)
-    except FileNotFoundError as exc:
-        print(exc, file=sys.stderr)
-        return 1
-
-    # Ensure we have 4 channels (BGRA) so packing into uint32 is stable
-    img = ensure_bgra(img)
-
-    result = img
-    for _ in range(max(1, int(args.repeat))):
-        result = median_filter_ignoring_transparent(result, args.ksize)
-
-    # ---------------------------------------------------------------
-    # Preserve the original commented-out morphology example
-    """
-    image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel=np.array([
-      [1, 1, 1],
-      [1, 1, 1],
-      [1, 1, 1],
-    ]))
-    """
-    # ---------------------------------------------------------------
-
-    ok = cv2.imwrite(str(out_path), result)
-    if not ok:
-        print(f"Failed to write output image: {out_path}", file=sys.stderr)
-        return 3
-    return 0
+    return await process_image(in_path, out_path, args.ksize, args.repeat)
 
 
 if __name__ == "__main__":
-    exit(main())
+    # anyio.run expects a callable, not a coroutine object
+    run(main)
