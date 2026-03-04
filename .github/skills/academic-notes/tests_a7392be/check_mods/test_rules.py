@@ -38,6 +38,7 @@ from check_mods.rules import (
     session_missing_topic,
     session_unscheduled_with_topic,
     tag_language,
+    tag_path_flash,
     two_sided_calc_warning,
     unit_outside_math,
 )
@@ -198,8 +199,41 @@ def test_example_section_heading():
     assert "integrate" in msgs[0].msg
     assert (
         "two_sided_calc_warning" in msgs[0].msg
-        or "one_sided_calc_warning" in msgs[0].msg
     )
+
+    # different casing and within a longer title should also trigger
+    txt2 = "### Resistive circuit examples and notes\nContent\n"
+    ctx2 = make_ctx(txt2)
+    msgs2 = section_example_heading(ctx2)
+    assert msgs2
+
+    # unrelated heading should be ignored
+    txt3 = "## Explanation of example-less topic\n"
+    ctx3 = make_ctx(txt3)
+    assert not section_example_heading(ctx3)
+
+
+def test_tag_path_flash_quotes_and_spaces():
+    """The path-derived flash tag rule should normalize spaces and quotes.
+
+    Filenames containing spaces, single quotes or double quotes should be
+    converted to underscores when constructing the expected tag.  The rule
+    reports an error if none of the tags contain the normalized path segment.
+    """
+
+    # construct a path that exercises spaces and both kinds of quotes
+    path = Path("/tmp/special/academia/HKUST/ELEC 1100/Week's \"Notes\".md")
+    # build the context with a matching tag
+    txt = "---\ntags: [flashcard/active/special/academia/HKUST/ELEC_1100/Week_s_Notes]\n---\n"
+    ctx = make_ctx(txt, path=path)
+    # no error should be raised when the normalized tag is present
+    assert not tag_path_flash(ctx)
+
+    # missing tag should trigger an error mentioning the normalized path
+    txt = "---\ntags: [flashcard/active/special/academia/HKUST/ELEC_1100]\n---\n"
+    ctx = make_ctx(txt, path=path)
+    msgs = tag_path_flash(ctx)
+    assert msgs and "Week_s_Notes" in msgs[0].msg
 
     # different casing and within a longer title should also trigger
     txt2 = "### Resistive circuit examples and notes\nContent\n"

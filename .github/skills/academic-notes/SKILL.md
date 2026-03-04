@@ -73,10 +73,10 @@ The spaced‑repetition system is central to the entire repository; flashcards a
   - **Cloze deletions**: `{@{hidden text}@}` anywhere in a paragraph.
   - **Two‑sided QA**: single source line `term ::@:: definition` (produces two cards). Use `<br/>` or `<p>` for visible breaks; do not insert newlines.
   - **One‑sided QA**: single source line `term :@: answer` (one card).
-- Add a gloss by appending `::@::` after a linked term. The text after `::@::` becomes the card content; keep it concise, normally one or two sentences. Long derivations do not make good cards.
+- Add a gloss by appending `::@::` after a linked term. The text after `::@::` becomes the card content; keep it concise, normally one or two sentences. Long derivations do not make good cards. When you lift sentences from prose or examples, also copy any adjacent diagrams or images into the question — cards with visual context are easier to learn and the validator will warn if an image appears in the source but not in the flashcard. 
 - Prefix every gloss with the complete hierarchical path (typically `topic / item`; for course-specific content, use `COURSE / topic / item`). Do not rely on indentation for context; only the literal text is used by the flashcard viewer.
 - When grouping related cards, give the parent a full path label (e.g. `ELEC 1100 / class expectations`) and nest children beneath it.
-- Calculation cards must be self‑contained: put all given values on the left and outline computation steps on the right.
+- Calculation cards must be self‑contained: put all given values on the left and outline computation steps on the right. When applicable, include any relevant diagrams, circuit sketches, or images in the left‑hand prompt; the validator’s calculation warnings now remind you to copy such visuals if the answer side contains math but the prompt lacks data.
 - Units must always be inside `$…$` or `$$…$$` (e.g. `$5\text{ V}$`); units outside math trigger validator errors.
 - Every markdown section in a topic-specific note, no matter the header level, must have at least one flashcard entry. Use a horizontal rule `---` immediately before the first flashcard block; missing separators or cards trigger validator errors. Index files are exempt and need only session‑level cards.
 - Do not merge cards across sections; each heading gets its own block directly beneath the prose. The validator flags missing separators or cards.
@@ -137,7 +137,7 @@ Each section must be followed immediately by a horizontal rule and a list of fla
 
 ### Course index and outline updates
 
-After creating a topic note, append its link to the course `children:` list (after any folders) and add a reference in the relevant weekly session entry. When you later revisit the topic in another lecture, append new material to the existing file instead of making a duplicate. *Proper nouns such as Kirchhoff must be capitalised in both filenames and headings.*
+After creating a topic note, append its link to the course `children:` list (after any folders) and add a reference in the relevant weekly session entry. In addition, **every named section within the topic note should be linked from the course index page**, not just to the file itself; use anchor-style links (`Topic%20Name#section-heading`) so that readers can jump directly to the appropriate subsection. Make sure the **link text exactly matches the section heading** – display names which differ (e.g. dropping “Kirchhoff's” from a heading) are not allowed and must be corrected. When you later revisit the topic in another lecture, append new material to the existing file instead of making a duplicate. *Proper nouns such as Kirchhoff must be capitalised in both filenames and headings.*
 
 ### Micro‑workflow example
 

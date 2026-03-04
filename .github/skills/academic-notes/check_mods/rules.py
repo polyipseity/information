@@ -145,7 +145,16 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
         if marker in pstr:
             rel = pstr.split(marker, 1)[1]
             rel = rel.replace(".md", "")
-            rel = "/".join(part.replace(" ", "_") for part in rel.split("/"))
+
+            # convert spaces, single quotes, and double quotes to underscores
+            def _clean(part: str) -> str:
+                # convert spaces and quote characters to underscores, collapse
+                # multiple underscores, and trim any leading/trailing ones.
+                s = re.sub(r"[ \"']+", "_", part)
+                s = re.sub(r"_+", "_", s)
+                return s.strip("_")
+
+            rel = "/".join(_clean(part) for part in rel.split("/"))
             found = any(rel in t for t in tags)
             if not found:
                 errors.append(
@@ -575,7 +584,11 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
             errors.append(
                 ValidationMessage(
                     rule_id="header_flashcard_presence",
-                    msg=f"header {hdr!r} has no flashcard markers in its section",
+                    msg=(
+                        f"header {hdr!r} has no flashcard markers in its section; "
+                        "convert key sentences into cards and include any relevant "
+                        "diagrams or images from the paragraph above."
+                    ),
                     line=line,
                     col=col,
                     col_end=col_end,
@@ -667,7 +680,10 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                         msg=(
                             "Right-hand side contains numeric or symbolic data but the left prompt "
                             "(before `::@::`) has none. Copy or repeat the necessary values/parameters "
-                            "on the left so the card is answerable. These warnings target example-style calculation cards, which should never be suppressed; if the word 'example' appears anywhere in the line, the check must fire. For example:\n"
+                            "on the left so the card is answerable, and include any related "
+                            "diagrams or images if needed for clarity, and include any related diagrams or "
+                            "images from the original paragraph if they help provide context. These warnings "
+                            "target example-style calculation cards, which should never be suppressed; if the word 'example' appears anywhere in the line, the check must fire. For example:\n"
                             R"before: - Ohm's law example ::@:: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$.\n"
                             R"after:  - Ohm's law example: Given $I = 2\,\text{A}$ and $R = 5\,\Omega$, calculate the voltage $V$ using Ohm's law. ::@:: If $I = 2\,\text{A}, R = 5\,\Omega$, then by Ohm's law $V = IR = 10\,\text{V}$. "
                             "Long prompts (even full derivations) are fine – the rule warns only "
@@ -690,10 +706,11 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     Similar to :func:`two_sided_calc_warning`, but handles ``:@:`` cards which
     only have a prompt on the left and an answer on the right.  If the right
     side contains math while the left side has none, the card likely omits
-    necessary numerical data; urge the author to include or duplicate that
-    data in the prompt.  **For calculation cards the left prompt may be
-    arbitrarily long; write out the full equation or value list – the warning
-    is about missing answerable context, not about keeping the prompt short.**
+    necessary numerical data or associated diagrams; urge the author to include
+    or duplicate that data (or relevant image) in the prompt.  **For
+    calculation cards the left prompt may be arbitrarily long; write out the
+    full equation or value list – the warning is about missing answerable
+    context, not about keeping the prompt short.**
     Suppress only for purely conceptual flashcards.
     """
     errors: list[ValidationMessage] = []
