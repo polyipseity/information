@@ -38,6 +38,11 @@ async def _find_py_files() -> list[Path]:
         files.append(path)
     async for path in (ROOT / "scripts").rglob("*.py"):
         files.append(path)
+
+    # additional paths
+    async for path in (ROOT / ".github" / "skills").rglob("*.py"):
+        files.append(path)
+
     return sorted(files)
 
 
