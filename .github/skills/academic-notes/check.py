@@ -6,18 +6,27 @@ traceback support.  The heavy lifting lives in the package modules so that
 unit tests can import and exercise the core logic without executing the CLI.
 """
 
-from asyncio import run
-
 import rich.traceback
-from check_mods.validator import main
+from asyncer import runnify
+from check_mods import validator
 
 __all__ = ("main",)
 
-# install rich traceback formatting (do this early, but after imports so ruff is happy)
-rich.traceback.install()
+
+async def main() -> None:
+    """Main entry point for the academic-notes validator CLI."""
+    # install rich traceback formatting (do this early, but after imports so ruff is happy)
+    rich.traceback.install()
+    await validator.main()
+
+
+def __main__() -> None:
+    """Synchronous command-line entrypoint exposed by the package."""
+    # `validator.main` accepts an argument list and returns an exit code
+    # asynchronously.  We wrap it with `runnify` so callers can invoke the
+    # CLI in a purely synchronous manner without needing `anyio.run`.
+    runnify(main, backend_options={"use_uvloop": True})()
+
 
 if __name__ == "__main__":
-    # `validator.main` accepts an argument list and returns an exit code
-    # asynchronously.  `run` from `asyncio` is used so that callers can
-    # invoke the CLI directly without caring about the async/await syntax.
-    exit(run(main()))
+    __main__()

@@ -1,4 +1,3 @@
-from asyncio import TaskGroup, run
 from collections.abc import AsyncIterator, Mapping
 from contextlib import asynccontextmanager
 from csv import DictReader, DictWriter
@@ -9,6 +8,7 @@ from sys import stdout
 
 from aiohttp import ClientSession, TCPConnector
 from anyio import AsyncFile, Path
+from asyncer import runnify
 from asyncstdlib import chain as a_chain
 from asyncstdlib import tuple as a_tuple
 from bs4 import BeautifulSoup
@@ -95,7 +95,6 @@ async def main() -> None:
     dest_filepath = input("Destination? ")
 
     async with (
-        TaskGroup() as tg,
         open_dest(dest_filepath) as dest_file,
         ClientSession(
             connector=TCPConnector(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
@@ -105,7 +104,6 @@ async def main() -> None:
         dest_readable = dest_file.readable()  # type: ignore
 
         courses = dict[str, Subject]()
-        seek = None
         if dest_readable:
             lines = await a_tuple(dest_file)
             for row in DictReader(
@@ -116,7 +114,9 @@ async def main() -> None:
             ):
                 course = Subject(**row)
                 courses[course.code] = course
-            seek = tg.create_task(dest_file.seek(0))
+            # schedule a seek without needing TaskGroup.create_task; we can just
+            # await it immediately since it is cheap
+            await dest_file.seek(0)
 
         subjects = await fetch_subjects(session=session)
         async for course in a_chain[Subject].from_iterable(
@@ -140,12 +140,15 @@ async def main() -> None:
             )
             csv_file_output = csv_file.getvalue()
 
-        if seek is not None:
-            await seek
         await dest_file.write(csv_file_output)
         if dest_readable:
             await dest_file.truncate()
 
 
+def __main__() -> None:
+    """Entry point for running the script directly."""
+    runnify(main, backend_options={"use_uvloop": True})()
+
+
 if __name__ == "__main__":
-    run(main())
+    __main__()

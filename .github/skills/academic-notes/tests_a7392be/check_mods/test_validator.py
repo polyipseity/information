@@ -37,7 +37,7 @@ async def make_temp_markdown(tmp_path: PathLike[str], content: str) -> Path:
     return path
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_check_markdown_file_missing_frontmatter(tmp_path: PathLike[str]):
     """Validator should report missing frontmatter correctly."""
     p = await make_temp_markdown(tmp_path, "no frontmatter here")
@@ -45,7 +45,7 @@ async def test_check_markdown_file_missing_frontmatter(tmp_path: PathLike[str]):
     assert msgs and msgs[0].msg.startswith("missing YAML frontmatter")
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_validator_detects_mismatched_rule_id(tmp_path: PathLike[str]):
     """Main should fail if a rule id does not equal the function name."""
     # create a minimal file to run against (path itself isn't used later)
@@ -64,7 +64,7 @@ async def test_validator_detects_mismatched_rule_id(tmp_path: PathLike[str]):
         VALIDATOR_REGISTRY._rules.pop("not_matching_name", None)
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_check_markdown_file_and_rule_exception(
     tmp_path: PathLike[str], monkeypatch
 ):
@@ -86,7 +86,7 @@ async def test_check_markdown_file_and_rule_exception(
         VALIDATOR_REGISTRY._rules.pop("bad", None)
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_walk_and_check_and_main_json(
     tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
 ):
@@ -121,7 +121,7 @@ async def test_walk_and_check_and_main_json(
     assert '"severity": "warning"' in out or '"severity": "error"' in out
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_main_prints_errors_and_warnings_together(
     tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
 ):
@@ -147,7 +147,7 @@ tags: [language/in/English, flashcard/active/special/academia/test]
     assert "[warning/" in out or "[error/" in out
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_max_per_rule_limit(
     tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str], monkeypatch
 ):
@@ -190,7 +190,7 @@ async def test_max_per_rule_limit(
     assert "not shown" not in out2
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_check_entrypoint(tmp_path: PathLike[str]):
     """The `check` CLI wrapper should mirror validator.main behavior."""
     # ensure the thin wrapper around validator.main behaves identically
@@ -204,7 +204,7 @@ async def test_check_entrypoint(tmp_path: PathLike[str]):
     assert rc2 == 2
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_walk_and_check_single_file(tmp_path: PathLike[str]):
     """Providing a markdown file path should exercise only that file."""
     bad = await make_temp_markdown(tmp_path, "---\ntags: []\n---\n")

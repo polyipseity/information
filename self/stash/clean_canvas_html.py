@@ -2,17 +2,20 @@
 # /// script
 # dependencies = [
 #   "anyio>=3.6.0",
+#   "asyncer>=0.0.17",
 #   "beautifulsoup4>=4.12.0",
+#   "uvloop>=0.22.0; platform_system != 'Windows'",
+#   "winloop>=0.5.0; platform_system == 'Windows'",
 # ]
 # timestamp = "2024-08-16T18:05:13+08:00"
 # ///
 
 """Remove identifiers from Canvas HTML files."""
 
-from asyncio import gather, run
 from glob import iglob
 
 from anyio import Path
+from asyncer import create_task_group, runnify
 from bs4 import BeautifulSoup
 
 
@@ -40,13 +43,15 @@ async def _process_HTML(path: Path):
 
 
 async def main():
-    await gather(
-        *(
-            _process_HTML(Path(path_str))
-            for path_str in iglob("**/*.html", recursive=True)
-        )
-    )
+    async with create_task_group() as tg:
+        for path_str in iglob("**/*.html", recursive=True):
+            tg.start_soon(_process_HTML, Path(path_str))
+
+
+def __main__():
+    """Entry point for running the script directly."""
+    runnify(main, backend_options={"use_uvloop": True})()
 
 
 if __name__ == "__main__":
-    run(main())
+    __main__()

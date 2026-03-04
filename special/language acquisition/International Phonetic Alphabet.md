@@ -30,7 +30,7 @@ tags:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 from pytextgen.compat.util import NULL_LOCATION, Result
 letters = (
@@ -170,40 +170,42 @@ diacritics = (
   ('[secondary stress](secondary%20stress.md)', R'\[ˌ◌\] (e.g. [ˌa])', R'[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]',),
   ('[syllable break](syllable.md)', R'\[.\]', R'[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]',),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
-    __env__.cwf_sects("958a", None),
-    ("name", "symbol", "audio", "description",),
-    letters,
-    use_visible_len=True,
-  ),
-  memorize_map(
-    __env__.cwf_sects(None, "059f", "d92e"),
-    items_to_map(*(datum[:2] for datum in letters)),
-  ),
-  memorize_map(
-    __env__.cwf_sects(None, "5dfb", "f9aa"),
-    items_to_map(*((datum[0], datum[2]) for datum in letters if datum[2])),
-  ),
-  memorize_map(
-    __env__.cwf_sects(None, "50b0", None),
-    items_to_map(*((datum[0], datum[3]) for datum in letters)),
-  ),
-  memorize_table(
-    __env__.cwf_sects("485d", None),
-    ("name", "symbol", "description",),
-    diacritics,
-    use_visible_len=True,
-  ),
-  memorize_map(
-    __env__.cwf_sects(None, "ffa2", "94fb"),
-    items_to_map(*(datum[:2] for datum in diacritics)),
-  ),
-  memorize_map(
-    __env__.cwf_sects(None, "50bd", None),
-    items_to_map(*((datum[0], datum[2]) for datum in diacritics)),
-  ),
-))
+async with create_task_group() as tg:
+  results = [
+    tg.soonify(memorize_table)(
+      __env__.cwf_sects("958a", None),
+      ("name", "symbol", "audio", "description",),
+      letters,
+      use_visible_len=True,
+    ),
+    tg.soonify(memorize_map)(
+      __env__.cwf_sects(None, "059f", "d92e"),
+      items_to_map(*(datum[:2] for datum in letters)),
+    ),
+    tg.soonify(memorize_map)(
+      __env__.cwf_sects(None, "5dfb", "f9aa"),
+      items_to_map(*((datum[0], datum[2]) for datum in letters if datum[2])),
+    ),
+    tg.soonify(memorize_map)(
+      __env__.cwf_sects(None, "50b0", None),
+      items_to_map(*((datum[0], datum[3]) for datum in letters)),
+    ),
+    tg.soonify(memorize_table)(
+      __env__.cwf_sects("485d", None),
+      ("name", "symbol", "description",),
+      diacritics,
+      use_visible_len=True,
+    ),
+    tg.soonify(memorize_map)(
+      __env__.cwf_sects(None, "ffa2", "94fb"),
+      items_to_map(*(datum[:2] for datum in diacritics)),
+    ),
+    tg.soonify(memorize_map)(
+      __env__.cwf_sects(None, "50bd", None),
+      items_to_map(*((datum[0], datum[2]) for datum in diacritics)),
+    ),
+  ]
+return chain.from_iterable(result.value for result in results)
 ```
 
 ### glossary

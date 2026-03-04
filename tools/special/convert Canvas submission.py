@@ -1,4 +1,3 @@
-from asyncio import run
 from collections.abc import Callable, Collection, Mapping, Sequence
 from contextlib import suppress
 from copy import copy
@@ -11,6 +10,7 @@ from sys import stderr
 from typing import NamedTuple, final
 
 from anyio import Path
+from asyncer import asyncify, runnify
 from bs4 import BeautifulSoup, Tag
 from bs4.element import AttributeValueList
 from yaml import safe_dump
@@ -541,7 +541,7 @@ def parse_comments(
     return ret
 
 
-def convert(
+async def convert(
     html_text: str,
     *,
     __URL_REGEX: Pattern[str] = re_compile(
@@ -628,7 +628,8 @@ def convert(
     }
 
     with StringIO() as data_io:
-        safe_dump(
+        # PyYAML safe_dump is synchronous; perform in thread pool
+        await asyncify(safe_dump)(
             data,
             data_io,
             allow_unicode=True,
@@ -639,18 +640,23 @@ def convert(
         return data_io.getvalue()
 
 
-async def main() -> int:
+async def main() -> None:
     file_path = input("HTML file? ")
 
     file_text = await Path(file_path).read_text()
-    result = convert(file_text)
+    result = await convert(file_text)
 
     if result is None:
-        return 1
+        return exit(1)
     print(result, file=stderr, end="")
 
-    return 0
+    return exit(0)
+
+
+def __main__():
+    """Entry point for running the script directly."""
+    runnify(main, backend_options={"use_uvloop": True})()
 
 
 if __name__ == "__main__":
-    exit(run(main()))
+    __main__()

@@ -61,7 +61,8 @@ python .github/skills/academic-notes/check.py --content private/special/academia
 ## Developer tooling & testing conventions
 
 - Use `pyproject.toml` as the authoritative Python dependency manifest. Keep runtime dependencies in `[project].dependencies` and developer tools in `[dependency-groups].dev` (PEP 722 style). Running `bun install` will trigger `prepare`, which runs `uv sync` to install dev extras from `pyproject.toml` using the project's `uv.lock`.
-- Tests: Place tests under `tests/`, mirror the source layout when possible, and use `pytest` (`test_*.py` naming). Add tests for any script, tool or instruction change (especially changes that affect content generation or publishing). Use `pytest.mark.asyncio` for async tests.
+- Tests: Place tests under `tests/`, mirror the source layout when possible, and use `pytest` (`test_*.py` naming). Add tests for any script, tool or instruction change (especially changes that affect content generation or publishing). Use `pytest.mark.anyio` for async tests (AnyIO pytest plugin).
+- Async helper code should use AnyIO/Asyncer (`create_task_group`, `soonify`, `asyncify`, `syncify`, `runnify`) rather than importing `asyncio` directly.  See agent quickstart for examples; this applies to any Python utilities under `tools/` or `special/`.
 - Hooks & automation: Register Husky hooks with `bun run prepare`. Pre-commit runs lint-staged which runs markdown and code formatters; pre-push runs the test suite to avoid broken pushes.
 - Local validation: Before committing or opening a PR run `bun run format` and `bun run check` and `bun run test` locally.  When only a subset of files are affected, supply explicit paths to the commands (for example `bun run check:md --no-globs file1.md file2.md`) so they run quickly instead of scanning the whole repo.
 

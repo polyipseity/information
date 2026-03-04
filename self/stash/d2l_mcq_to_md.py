@@ -2,17 +2,18 @@
 # /// script
 # dependencies = [
 #   "anyio>=3.6.0",
+#   "asyncer>=0.0.17",
 #   "beautifulsoup4>=4.12.0",
+#   "uvloop>=0.22.0; platform_system != 'Windows'",
+#   "winloop>=0.5.0; platform_system == 'Windows'",
 # ]
 # timestamp = "2025-06-08T22:09:21.532+08:00"
 # ///
 
 """Convert multiple choice questions on D2L Brightspace to markdown."""
 
-from asyncio import gather, run
-from collections.abc import Awaitable
-
 from anyio import Path
+from asyncer import SoonValue, create_task_group, runnify
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
@@ -100,14 +101,29 @@ async def _process_file(path: Path) -> str:
 async def main():
     root = Path(".")
 
-    tasks: list[Awaitable[str]] = []
-    async for entry in root.iterdir():
-        if entry.name.endswith(".html") and not await entry.is_dir():
-            tasks.append(_process_file(entry))
-    results = await gather(*tasks)
-    out = list(results)
-    print("\n\n---\n\n".join(out))
+    # We'll collect SoonValue objects from the task group.  Each
+    # call to ``tg.soonify(_process_file)(entry)`` immediately returns a
+    # ``SoonValue[str]`` instance whose ``.value`` attribute will be
+    # populated once the task completes.  After the ``async with`` block
+    # the task group has implicitly awaited all pending work, so we can
+    # safely access the return values without raising PendingValueException.
+    soon_values: list[SoonValue[str]] = []
+
+    async with create_task_group() as tg:
+        async for entry in root.iterdir():
+            if entry.name.endswith(".html") and not await entry.is_dir():
+                # schedule the task; value will be available after the block
+                soon_values.append(tg.soonify(_process_file)(entry))
+
+    # all tasks have finished here
+    results = [sv.value for sv in soon_values]
+    print("\n\n---\n\n".join(results))
+
+
+def __main__() -> None:
+    """Entry point for running the script directly."""
+    runnify(main, backend_options={"use_uvloop": True})()
 
 
 if __name__ == "__main__":
-    run(main())
+    __main__()

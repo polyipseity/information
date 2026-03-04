@@ -255,7 +255,7 @@ async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
     return res
 
 
-async def main(argv: Sequence[str] | None = None) -> int:
+async def main(argv: Sequence[str] | None = None) -> None:
     """Command-line entry point invoked by ``check.py``.
 
     By default the tool checks ``special/academia`` and
@@ -297,7 +297,7 @@ async def main(argv: Sequence[str] | None = None) -> int:
             )
             # abort with distinct exit code so callers can detect config
             # problems separately from normal validation failures.
-            return 3
+            return exit(3)
 
     roots = [Path(p) for p in (args.paths or DEFAULT_PATHS)]
     res = await walk_and_check(roots)
@@ -321,10 +321,10 @@ async def main(argv: Sequence[str] | None = None) -> int:
         print(json.dumps(out, ensure_ascii=False, indent=2))
         # exit codes unchanged (errors still take precedence)
         if error_items:
-            return 2
+            return exit(2)
         if warning_items:
-            return 1
-        return 0
+            return exit(1)
+        return exit(0)
 
     if all_items:
         errcount = len(error_items)
@@ -390,7 +390,7 @@ async def main(argv: Sequence[str] | None = None) -> int:
         _CONSOLE.print(
             "Please fix errors and review warnings before publishing or report to maintainers if unsure."
         )
-        return 2 if errcount else 1
+        return exit(2) if errcount else exit(1)
 
     _CONSOLE.print("[green]OK:[/] No issues detected (basic checks)", markup=True)
-    return 0
+    return exit(0)

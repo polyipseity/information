@@ -7,9 +7,6 @@ from argparse import (
 from argparse import (
     Namespace as _NS,
 )
-from asyncio import Task, TaskGroup, create_task
-from asyncio import gather as _gather
-from asyncio import run as _run
 from collections import defaultdict as _defdict
 from collections.abc import (
     Awaitable as _Await,
@@ -20,6 +17,7 @@ from collections.abc import (
 from collections.abc import (
     Collection as _Collect,
 )
+from collections.abc import Iterable as _Iter
 from collections.abc import (
     MutableMapping as _MMap,
 )
@@ -49,6 +47,7 @@ from logging import (
     info as _info,
 )
 from operator import ne as _ne
+from os import PathLike as _PathLike
 from os import fspath
 from os import linesep as _linesep
 from os import lstat as _lstat
@@ -66,6 +65,7 @@ from aioshutil import rmtree as _rmtr
 from aioshutil import sync_to_async
 from anyio import Path as _Path
 from appdirs import AppDirs as _AppDirs  # type: ignore
+from asyncer import SoonValue, create_task_group, runnify
 from pytextgen.main import parser as _pytextgen_parser
 from pytextgen.meta import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
 
@@ -108,6 +108,20 @@ class Arguments:
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
+async def _in_paths(path: str | _PathLike[str], paths: _Iter[_Path]) -> bool:
+    """Return True if any ``ex`` is the same filesystem object as
+    ``path``. Runs checks concurrently for speed.  ``path`` may
+    be a str wrapper or Path-like object.
+    """
+    if not paths:
+        return False
+    svs: list[SoonValue[bool]] = []
+    async with create_task_group() as tg:
+        for ex in paths:
+            svs.append(tg.soonify(ex.samefile)(path))
+    return any(sv.value for sv in svs)
+
+
 async def main(args: Arguments):
     try:
         frame = _curframe()
@@ -115,9 +129,13 @@ async def main(args: Arguments):
             raise ValueError(frame)
         folder = _Path(_frameinfo(frame).filename).parent
 
-        excludes: _Seq[_Path] = await _gather(
-            *(_Path(path).resolve(strict=True) for path in _EXCLUDES)
-        )
+        # resolve excluded paths concurrently using a task group
+        excludes_svs: list[SoonValue[_Path]] = []
+        async with create_task_group() as tg:
+            for path in _EXCLUDES:
+                excludes_svs.append(tg.soonify(_Path(path).resolve)(strict=True))
+        # note: results order may differ from _EXCLUDES but order is irrelevant
+        excludes = [sv.value for sv in excludes_svs]
 
         cache_folder = _Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
@@ -170,14 +188,13 @@ async def main(args: Arguments):
                             open_opts.update({"newline": ""})
                             async with await path.open(mode="r+t", **open_opts) as file:
                                 read = await file.read()
-                                seek = create_task(file.seek(0))
-                                try:
-                                    if (text := read.replace(_linesep, "\n")) != read:
-                                        await seek
-                                        await file.write(text)
-                                        await file.truncate()
-                                finally:
-                                    seek.cancel()
+                                # the original version spawned a background task to seek before
+                                # writing.  that micro-optimization is unnecessary with
+                                # AnyIO; just await the seek when needed.
+                                if (text := read.replace(_linesep, "\n")) != read:
+                                    await file.seek(0)
+                                    await file.write(text)
+                                    await file.truncate()
                             cache[path_s] = (
                                 (await _lstat_a(path)).st_mtime_ns,
                                 text,
@@ -207,7 +224,8 @@ async def main(args: Arguments):
                     for root, dirs, files in _walk(
                         folder, topdown=True, onerror=on_error, followlinks=False
                     ):
-                        if any(await _gather(*(ex.samefile(root) for ex in excludes))):
+                        # skip roots matching any exclude path
+                        if await _in_paths(root, excludes):
                             dirs.clear()
                             files.clear()
                         for file in files:
@@ -215,23 +233,31 @@ async def main(args: Arguments):
 
                 results = list[_Path]()
 
-                async def process_file(file: _Path):
+                async def process_file(file: _Path) -> _Path | None:
+                    # return the path when it should be included, otherwise None
                     if await file.is_symlink():
-                        return
+                        return None
                     path = await file.resolve(strict=True)
-                    if path.suffix != ".md" or any(
-                        await _gather(*(ex.samefile(path) for ex in excludes))
-                    ):
-                        return
+                    if path.suffix != ".md":
+                        return None
+                    # test exclusion in parallel; once one matches we can bail
+                    if await _in_paths(path, excludes):
+                        return None
                     finalize = await maybe_yield(path)
                     if finalize is not None:
                         finalizers.append(finalize)
-                        results.append(path)
+                        return path
+                    return None
 
-                async with TaskGroup() as tg:
-                    tasks = list[Task[object]]()
+                # concurrently walk and process files using SoonValue objects
+                soon_values: list[SoonValue[_Path | None]] = []
+
+                async with create_task_group() as tg:
                     async for file in potential_files():
-                        tasks.append(tg.create_task(process_file(file)))
+                        soon_values.append(tg.soonify(process_file)(file))
+
+                # gather completed paths, filtering out Nones
+                results = [p for p in (sv.value for sv in soon_values) if p is not None]
                 return results
 
             inputs = await gen_inputs()
@@ -246,9 +272,10 @@ async def main(args: Arguments):
                 success = ex.code == 0
 
             if success:
-                await _gather(
-                    cache_data.seek(0), *(finalizer() for finalizer in finalizers)
-                )
+                async with create_task_group() as tg:
+                    tg.start_soon(cache_data.seek, 0)
+                    for finalizer in finalizers:
+                        tg.start_soon(finalizer)
                 await cache_data.write(
                     _dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
                 )
@@ -312,7 +339,12 @@ def parser(parent: _Call[..., _ArgParser] | None = None):
     return parser
 
 
-if __name__ == "__main__":
+def __main__() -> None:
+    """Entry point for running the script directly."""
     _basicConfig(level=_INFO)
     entry = parser().parse_args(_argv[1:])
-    _run(entry.invoke(entry))
+    runnify(entry.invoke, backend_options={"use_uvloop": True})(entry)
+
+
+if __name__ == "__main__":
+    __main__()

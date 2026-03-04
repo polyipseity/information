@@ -23,7 +23,7 @@ from check_mods import validator
 __all__ = ()
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_main_matches_validator(tmp_path: PathLike[str]):
     """``check.main`` should behave identically to
     ``check_mods.validator.main``.
@@ -51,7 +51,7 @@ tags: []
     assert rc_wrapper != 0  # there should be at least one error message
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_module_invoked_as_script(
     tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
 ):

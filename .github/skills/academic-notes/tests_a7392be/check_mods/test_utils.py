@@ -39,7 +39,7 @@ def test_locate_helpers():
     assert locate_range(text, 6, 3) == (2, 1, 3)
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_get_excerpt(tmp_path: PathLike[str]):
     """Exercise get_excerpt behaviour with a simple two-line file."""
     p = Path(tmp_path) / "file.md"
@@ -49,7 +49,7 @@ async def test_get_excerpt(tmp_path: PathLike[str]):
     assert caret is not None
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_get_excerpt_latex_delimiter_shows_next_line(tmp_path: PathLike[str]):
     """If the target line is just "$" or "$$", show the following math.
 
@@ -63,7 +63,7 @@ async def test_get_excerpt_latex_delimiter_shows_next_line(tmp_path: PathLike[st
     assert caret.strip() == "^" * len(excerpt.strip())
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_get_excerpt_caret_clamped(tmp_path: PathLike[str]):
     """Caret width should never exceed the displayed snippet length.
 
@@ -128,7 +128,7 @@ def test_locate_range_multiline():
     assert locate_range(text, start, length) == (1, 1, 1)
 
 
-@pytest.mark.asyncio
+@pytest.mark.anyio
 async def test_get_excerpt_file_missing(tmp_path: PathLike[str]):
     """get_excerpt should handle missing files gracefully."""
     p = Path(tmp_path) / "nope.md"

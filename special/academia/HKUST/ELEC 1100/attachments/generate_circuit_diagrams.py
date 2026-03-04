@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # /// script
 # dependencies = [
+#   "anyio>=3.6.0",
+#   "asyncer>=0.0.17",
 #   "schemdraw[matplotlib,svgmath]>=0.22",
+#   "uvloop>=0.22.0; platform_system != 'Windows'",
+#   "winloop>=0.5.0; platform_system == 'Windows'",
 # ]
 # ///
 """Generate SVG circuit diagrams for the ELEC 1100 lecture notes.
@@ -28,12 +32,12 @@ maintainers.
 """
 
 import argparse
-from asyncio import run
 from os import fspath
 
 import schemdraw
 import schemdraw.elements as elm
 from anyio import Path
+from asyncer import runnify
 
 
 def generate_series_resistor(output: Path) -> None:
@@ -206,5 +210,10 @@ async def main() -> None:
     generate_bridge_two_sources(outdir / "bridge.svg")
 
 
+def __main__():
+    """Entry point for running the script directly."""
+    runnify(main, backend_options={"use_uvloop": True})()
+
+
 if __name__ == "__main__":
-    run(main())
+    __main__()

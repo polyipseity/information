@@ -2,18 +2,19 @@
 # /// script
 # dependencies = [
 #   "anyio>=3.6.0",
+#   "asyncer>=0.0.17",
 #   "beautifulsoup4>=4.12.0",
 #   "requests>=2.32.0",
+#   "uvloop>=0.22.0; platform_system != 'Windows'",
+#   "winloop>=0.5.0; platform_system == 'Windows'",
 # ]
 # timestamp = "2025-06-11T19:12:43.410+08:00"
 # ///
 
 """Download linked attachments."""
 
-from asyncio import gather, run
-from collections.abc import Awaitable
-
-from anyio import Path, sleep, to_thread
+from anyio import Path, sleep
+from asyncer import asyncify, create_task_group, runnify
 from bs4 import BeautifulSoup
 from requests import get
 
@@ -45,7 +46,7 @@ async def handle_single_attachment(href: str, subdir: Path) -> None:
         return
 
     print(f"Downloading: {attachment_path}")
-    await to_thread.run_sync(_perform_download, href, attachment_path)
+    await asyncify(_perform_download)(href, attachment_path)
     await sleep(1)
 
 
@@ -63,16 +64,19 @@ async def download_html_attachments(html_path: Path, subdir: Path) -> None:
 
 async def main() -> None:
     root = Path(".")
-    tasks: list[Awaitable[None]] = []
-    async for subdir in root.iterdir():
-        if not await subdir.is_dir():
-            continue
-        async for html_path in subdir.iterdir():
-            if html_path.name.endswith(".html"):
-                tasks.append(download_html_attachments(html_path, subdir))
+    async with create_task_group() as tg:
+        async for subdir in root.iterdir():
+            if not await subdir.is_dir():
+                continue
+            async for html_path in subdir.iterdir():
+                if html_path.name.endswith(".html"):
+                    tg.start_soon(download_html_attachments, html_path, subdir)
 
-    await gather(*tasks)
+
+def __main__() -> None:
+    """Synchronous command-line entrypoint exposed by the package."""
+    runnify(main, backend_options={"use_uvloop": True})()
 
 
 if __name__ == "__main__":
-    run(main())
+    __main__()

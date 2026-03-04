@@ -33,6 +33,25 @@ Repository gotchas & quick tips
   line only, creates two cards), and one-sided pairs `:@:` (one line only,
   single card).  These are parsed automatically; do not reflow, escape, or
   split them across lines.
+- Async code should **not** import or use `asyncio` directly. The project is
+  migrating to AnyIO for cross-platform structured concurrency; new code
+  should use `anyio` idioms and the helper library **Asyncer** for enhanced
+  editor and typing support.  Key Asyncer helpers include:
+  - `create_task_group` – structured concurrency (preferred over
+      `anyio.create_task_group`).
+  - `soonify` – schedule concurrent calls and optionally obtain return
+      values (`SoonValue` objects with `.value`/`.ready`).
+  - `runnify` – wrap an async function for synchronous use (used by CLI
+      entrypoints: `runnify(main)()`).
+  - `asyncify` – run blocking or CPU-bound sync code in a worker thread
+      from async context.
+  - `syncify` – call async functions from mostly-sync code paths.
+  Prefer these utilities over manual event-loop manipulation or custom
+  gather helpers.  See the Asyncer docs or `tests/test_async_concurrency.py`
+  for examples; the repo’s tests now contain illustrations for each one.
+- When refactoring, convert any `asyncio`-based tests to `pytest.mark.anyio`
+  and use Asyncer helpers for clearer return-value handling.  Add short
+  concurrency tests verifying behavior, as shown earlier.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
 - When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `python -`. For example:
 
@@ -58,7 +77,7 @@ Repository gotchas & quick tips
    - Avoid exposing or handling PII unless instructed and explicitly approved by the repository owner.
 
 3. Tests, types, and CI
-   - Add/modify tests under `tests/` mirroring source layout. Use `pytest` and `pytest.mark.asyncio` for async tests when relevant.
+   - Add/modify tests under `tests/` mirroring source layout. Use `pytest` and `pytest.mark.anyio` for async tests when relevant.
    - Typing guidance: prefer PEP 585 built-in generics for concrete containers (e.g. `list[str]`, `dict[str, int]`) and use `collections.abc` for abstract interfaces (e.g. `collections.abc.Sequence[str]`, `collections.abc.Mapping[str, int]`). Avoid `typing.List`/`typing.Dict`/`typing.Sequence` in new code.
    - Run `pyright`/`bun run check` and `bun run test` locally to reduce CI failures.
 

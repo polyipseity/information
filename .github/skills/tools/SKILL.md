@@ -220,7 +220,7 @@ If changes are needed, ask user for permission first.
 When editing Python helper scripts in `tools/`:
 
 - **Preserve CLI surfaces**: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
-- **Maintain async/anyio patterns**: Preserve async patterns like `anyio.Path`, `asyncio.create_task`, `TaskGroup`, `BoundedSemaphore` and caching behaviors (init cache, pytextgen compile cache in `__pycache__/`)
+- **Maintain async/anyio patterns**: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support.  The init wrapper has been refactored accordingly and includes its own thin `_gather`.
 - **Keep submodules read-only unless requested**: `tools/pytextgen`, `tools/pyarchivist`, `self/**`, `private/**` are git submodules; ask user before editing
 - **Normalize newlines**: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `tools`)
 - **Favor relative imports**: Use relative imports within the tools package; do not hardcode absolute host paths
