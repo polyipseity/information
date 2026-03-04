@@ -1,11 +1,14 @@
-"""
----
-requirements: pip install numpy>=2.0.0 opencv-python>=4.13.0
-timestamp: 2025-04-14T10:24:02.074+08:00
----
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "anyio>=3.6.0",
+#   "numpy>=2.0.0",
+#   "opencv-python>=4.13.0",
+# ]
+# timestamp = "2025-04-14T10:24:02.074+08:00"
+# ///
 
-Median filter ignoring transparent pixels. Maybe run this twice for better effect...?
-"""
+"""Median filter ignoring transparent pixels. Maybe run this twice for better effect...?"""
 
 import argparse
 import sys

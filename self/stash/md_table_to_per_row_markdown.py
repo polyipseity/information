@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "pyperclip>=1.9.0",
+# ]
+# ///
 """parse_markdown_table.py — parse a Markdown table into row objects and a compact per-row
 markdown format.
 
@@ -12,8 +17,6 @@ Usage examples:
   # Read from stdin and copy to clipboard if possible
   cat table.md | python parse_markdown_table.py --copy
 """
-
-from __future__ import annotations
 
 import argparse
 import json

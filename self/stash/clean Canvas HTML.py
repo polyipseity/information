@@ -1,11 +1,13 @@
-"""
----
-requirements: pip install anyio>=3.6.0 beautifulsoup4>=4.12.0
-timestamp: 2024-08-16T18:05:13+08:00
----
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "anyio>=3.6.0",
+#   "beautifulsoup4>=4.12.0",
+# ]
+# timestamp = "2024-08-16T18:05:13+08:00"
+# ///
 
-Remove identifiers from Canvas HTML files.
-"""
+"""Remove identifiers from Canvas HTML files."""
 
 from asyncio import gather, run
 from glob import iglob

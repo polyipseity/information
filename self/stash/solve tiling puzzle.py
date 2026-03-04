@@ -1,11 +1,15 @@
-"""
----
-requirements: pip install beautifulsoup4>=4.12.0 numpy>=2.0.0 pillow>=10.3.0 pyperclip>=1.9.0
-timestamp: 2025-07-14T09L07:57.990+08:00
----
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "beautifulsoup4>=4.12.0",
+#   "numpy>=2.0.0",
+#   "pillow>=10.3.0",
+#   "pyperclip>=1.9.0",
+# ]
+# timestamp = "2025-07-14T09:07:57.990+08:00"
+# ///
 
-Solve tiling puzzle by computing edge differences.
-"""
+"""Solve tiling puzzle by computing edge differences."""
 
 from base64 import decodebytes
 from collections import defaultdict

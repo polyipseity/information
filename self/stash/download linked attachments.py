@@ -1,26 +1,31 @@
-"""
----
-requirements: pip install beautifulsoup4>=4.12.0 requests>=2.32.0
-timestamp: 2025-06-11T19:12:43.410+08:00
----
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "anyio>=3.6.0",
+#   "beautifulsoup4>=4.12.0",
+#   "requests>=2.32.0",
+# ]
+# timestamp = "2025-06-11T19:12:43.410+08:00"
+# ///
 
-Download linked attachments.
-"""
+"""Download linked attachments."""
 
+from asyncio import run
 from os import listdir
-from pathlib import Path
 from time import sleep
 
+from anyio import Path
 from bs4 import BeautifulSoup
 from requests import get
 
 AUTHORIZATION = "Basic <token>"
 ATTACHMENT_URL_PREFIX = "https://example.com/"
 
-if __name__ == "__main__":
+
+async def main() -> None:
     for subdir in listdir():
         subdir = Path(subdir)
-        if not subdir.is_dir():
+        if not await subdir.is_dir():
             continue
 
         for html_filename in listdir(subdir):
@@ -29,8 +34,8 @@ if __name__ == "__main__":
 
             html_path = subdir / html_filename
 
-            html_text = html_path.read_text()
-            url = html_text.splitlines()[2].removeprefix(" url: ").strip()
+            html_text = await html_path.read_text()
+            _url = html_text.splitlines()[2].removeprefix(" url: ").strip()
             html = BeautifulSoup(html_text, "html.parser")
 
             for a_tag in html.select("a"):
@@ -40,13 +45,13 @@ if __name__ == "__main__":
 
                 attachment_filename = href[href.rindex("/") + len("/") :]
                 attachment_path = subdir / attachment_filename
-                if attachment_path.exists():
+                if await attachment_path.exists():
                     print(f"Already exists: {attachment_path}")
                     continue
                 """
                 idx = 0
                 attachment_path_stem = attachment_path.stem
-                while attachment_path.exists():
+                while await attachment_path.exists():
                     print(f"File already exists: {attachment_path}")
                     idx += 1
                     attachment_path = attachment_path.with_stem(f"{attachment_path_stem} ({idx})")
@@ -66,3 +71,7 @@ if __name__ == "__main__":
                             attachment.write(chunk)
 
                 sleep(1)
+
+
+if __name__ == "__main__":
+    run(main())

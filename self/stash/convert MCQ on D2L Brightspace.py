@@ -1,15 +1,18 @@
-"""
----
-requirements: pip install beautifulsoup4>=4.12.0
-timestamp: 2025-06-08T22:09:21.532+08:00
----
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "anyio>=3.6.0",
+#   "beautifulsoup4>=4.12.0",
+# ]
+# timestamp = "2025-06-08T22:09:21.532+08:00"
+# ///
 
-Convert multiple choice questions on D2L Brightspace to markdown.
-"""
+"""Convert multiple choice questions on D2L Brightspace to markdown."""
 
+from asyncio import run
 from os import listdir
-from pathlib import Path
 
+from anyio import Path
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
@@ -89,15 +92,15 @@ def process_html(question: str) -> str:
     )
 
 
-def main():
+async def main():
     out: list[str] = []
     for filename in listdir():
         if not filename.endswith(".html"):
             continue
-        text = Path(filename).read_text(encoding="utf-8")
+        text = await Path(filename).read_text(encoding="utf-8")
         out.append(process_html(text))
     print("\n\n---\n\n".join(out))
 
 
 if __name__ == "__main__":
-    main()
+    run(main())

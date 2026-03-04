@@ -1,11 +1,12 @@
-"""
----
-requirements: pip install pyperclip>=1.9.0
-timestamp: 2025-07-14T09:29:17.420+08:00
----
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "pyperclip>=1.9.0",
+# ]
+# timestamp = "2025-07-14T09:29:17.420+08:00"
+# ///
 
-Rematch flashcard states using paragraphing.
-"""
+"""Rematch flashcard states using paragraphing."""
 
 from functools import reduce
 from itertools import chain
