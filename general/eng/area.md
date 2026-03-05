@@ -19,8 +19,8 @@ Area can be defined {@{from [axioms](axiom.md)}@}. Area is {@{a [function](funct
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "name", "description"
 table = (
   (R"[congruence](congruence%20(geometry).md)", R"If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$.",),
@@ -30,7 +30,7 @@ table = (
   (R"subtraction", R"If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$.",),
   (R"union and intersection", R"If two sets $S$ and $T$ are in $M$, then their union $S \cup T$ and their intersection $S \cap T$ are in $M$ and $a(S \cup T) = a(S) + a(T) - a(S \cap T).$",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("2f02", "652a",),
     headers,

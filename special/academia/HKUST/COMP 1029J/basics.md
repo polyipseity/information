@@ -45,8 +45,8 @@ Below are common data types:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "type", "description"
 table = (
   ("`String`", "A piece of text. Example: `\"Hello\"`",),
@@ -56,7 +56,7 @@ table = (
   ("`float`", "A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F`",),
   ("`int`", "An integer. Example: `42`",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("2f02", "652a",),
     headers,
@@ -151,8 +151,8 @@ Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   (
@@ -176,7 +176,7 @@ table = (
     "subtraction",
   ),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("93ab", "f21a",),
     headers,
@@ -222,8 +222,8 @@ Below are common comparison operators, all of which returns {@{a `boolean` value
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   ("`<`", "lesser than",),
@@ -233,7 +233,7 @@ table = (
   ("`==`", "equal to",),
   ("`!=`", "not equal to",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("bd23", "d123",),
     headers,
@@ -292,15 +292,15 @@ Below are common logic operators, all of which {@{accept two booleans and return
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   ("`!`", "negate",),
   ("`&&`", "and",),
   ("<code>&#124;&#124;</code>", "or",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("2856", "d882",),
     headers,

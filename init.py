@@ -1,73 +1,33 @@
-from argparse import (
-    ONE_OR_MORE as _ONE_OR_MORE,
-)
-from argparse import (
-    ArgumentParser as _ArgParser,
-)
-from argparse import (
-    Namespace as _NS,
-)
-from collections import defaultdict as _defdict
+from argparse import ONE_OR_MORE, ArgumentParser, Namespace
+from collections import defaultdict
 from collections.abc import (
-    Awaitable as _Await,
+    Awaitable,
+    Callable,
+    Collection,
+    Iterable,
+    MutableMapping,
+    Sequence,
 )
-from collections.abc import (
-    Callable as _Call,
-)
-from collections.abc import (
-    Collection as _Collect,
-)
-from collections.abc import Iterable as _Iter
-from collections.abc import (
-    MutableMapping as _MMap,
-)
-from collections.abc import (
-    Sequence as _Seq,
-)
-from dataclasses import dataclass as _dc
-from functools import wraps as _wraps
-from inspect import currentframe as _curframe
-from inspect import getframeinfo as _frameinfo
-from itertools import chain as _chain
-from itertools import starmap as _smap
-from itertools import zip_longest as _zip_l
-from json import dumps as _dumps
-from json import loads as _loads
-from json.decoder import JSONDecodeError as _JSONDecErr
-from logging import (
-    INFO as _INFO,
-)
-from logging import (
-    basicConfig as _basicConfig,
-)
-from logging import (
-    exception as _exc,
-)
-from logging import (
-    info as _info,
-)
-from operator import ne as _ne
-from os import PathLike as _PathLike
-from os import fspath
-from os import linesep as _linesep
-from os import lstat as _lstat
-from os import walk as _walk
-from sys import argv as _argv
-from sys import exit as _exit
-from typing import (
-    Any as _Any,
-)
-from typing import (
-    final as _fin,
-)
+from dataclasses import dataclass
+from functools import wraps
+from inspect import currentframe, getframeinfo
+from itertools import chain, starmap, zip_longest
+from json import dumps, loads
+from json.decoder import JSONDecodeError
+from logging import INFO, basicConfig, exception, info
+from operator import ne
+from os import PathLike, fspath, linesep, lstat, walk
+from sys import argv, exit
+from typing import Any, final
 
-from aioshutil import rmtree as _rmtr
-from aioshutil import sync_to_async
-from anyio import Path as _Path
-from appdirs import AppDirs as _AppDirs  # type: ignore
+from aioshutil import rmtree, sync_to_async
+from anyio import Path
+from appdirs import AppDirs  # type: ignore
 from asyncer import SoonValue, create_task_group, runnify
-from pytextgen.main import parser as _pytextgen_parser
-from pytextgen.meta import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
+from pytextgen.main import parser as pytextgen_parser
+from pytextgen.meta import OPEN_TEXT_OPTIONS
+
+__all__ = ("Arguments", "main", "parser")
 
 _EXCLUDES = (
     ".git",
@@ -77,18 +37,18 @@ _EXCLUDES = (
 )
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
-_LOCAL_APP_DIRS = _AppDirs(
+_LOCAL_APP_DIRS = AppDirs(
     appname=_NAME,
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
-_lstat_a = sync_to_async(_lstat)
+_lstat_a = sync_to_async(lstat)
 
 
-@_fin
-@_dc(
+@final
+@dataclass(
     init=True,
     repr=True,
     eq=True,
@@ -102,13 +62,13 @@ _lstat_a = sync_to_async(_lstat)
 class Arguments:
     prog: str
     cached: bool
-    arguments: _Seq[str]
+    arguments: Sequence[str]
 
     def __post_init__(self):
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
-async def _in_paths(path: str | _PathLike[str], paths: _Iter[_Path]) -> bool:
+async def _in_paths(path: str | PathLike[str], paths: Iterable[Path]) -> bool:
     """Return True if any ``ex`` is the same filesystem object as
     ``path``. Runs checks concurrently for speed.  ``path`` may
     be a str wrapper or Path-like object.
@@ -124,24 +84,24 @@ async def _in_paths(path: str | _PathLike[str], paths: _Iter[_Path]) -> bool:
 
 async def main(args: Arguments):
     try:
-        frame = _curframe()
+        frame = currentframe()
         if frame is None:
             raise ValueError(frame)
-        folder = _Path(_frameinfo(frame).filename).parent
+        folder = Path(getframeinfo(frame).filename).parent
 
         # resolve excluded paths concurrently using a task group
-        excludes_svs: list[SoonValue[_Path]] = []
+        excludes_svs: list[SoonValue[Path]] = []
         async with create_task_group() as tg:
             for path in _EXCLUDES:
-                excludes_svs.append(tg.soonify(_Path(path).resolve)(strict=True))
+                excludes_svs.append(tg.soonify(Path(path).resolve)(strict=True))
         # note: results order may differ from _EXCLUDES but order is irrelevant
         excludes = [sv.value for sv in excludes_svs]
 
-        cache_folder = _Path(
+        cache_folder = Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
         ) / str((await _lstat_a(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
-            await _rmtr(cache_folder, ignore_errors=False)
+            await rmtree(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
 
         cache_data_path = cache_folder / "cache.json"
@@ -151,47 +111,47 @@ async def main(args: Arguments):
             )
         async with await cache_data_path.open(
             mode="r+t",
-            **_OPEN_TXT_OPTS,
+            **OPEN_TEXT_OPTIONS,
         ) as cache_data:
             try:
-                data: _MMap[str, _Any] = _loads(await cache_data.read())
-            except _JSONDecErr:
+                data: MutableMapping[str, Any] = loads(await cache_data.read())
+            except JSONDecodeError:
                 data = {}
-                _info("Cache data will be regenerated because it is empty or corrupted")
-            data = _defdict(dict, data)
-            finalizers = list[_Call[[], _Await[None]]]()
+                info("Cache data will be regenerated because it is empty or corrupted")
+            data = defaultdict(dict, data)
+            finalizers = list[Callable[[], Awaitable[None]]]()
 
             try:
-                old_args: _Collect[str] = data["args"]
+                old_args: Collection[str] = data["args"]
             except KeyError:
                 old_args = ()
             diff_args = any(
-                _smap(_ne, _zip_l(args.arguments, old_args, fillvalue=object()))
+                starmap(ne, zip_longest(args.arguments, old_args, fillvalue=object()))
             )
             data["args"] = args.arguments
 
             async def gen_inputs():
-                cache: _MMap[str, tuple[int, str]] = data["cache"]
+                cache: MutableMapping[str, tuple[int, str]] = data["cache"]
 
                 def on_error(err: OSError):
                     try:
                         raise err
                     except OSError:
-                        _exc("Exception while walking folders")
+                        exception("Exception while walking folders")
 
-                async def maybe_yield(path: _Path):
+                async def maybe_yield(path: Path):
                     path_s = str(path)
 
                     def finalizer():
                         async def impl():
-                            open_opts = _OPEN_TXT_OPTS.copy()
+                            open_opts = OPEN_TEXT_OPTIONS.copy()
                             open_opts.update({"newline": ""})
                             async with await path.open(mode="r+t", **open_opts) as file:
                                 read = await file.read()
                                 # the original version spawned a background task to seek before
                                 # writing.  that micro-optimization is unnecessary with
                                 # AnyIO; just await the seek when needed.
-                                if (text := read.replace(_linesep, "\n")) != read:
+                                if (text := read.replace(linesep, "\n")) != read:
                                     await file.seek(0)
                                     await file.write(text)
                                     await file.truncate()
@@ -213,7 +173,7 @@ async def main(args: Arguments):
                     except KeyError:
                         return finalizer()
                     if (await _lstat_a(path)).st_mtime_ns != c_mtime:
-                        open_opts = _OPEN_TXT_OPTS.copy()
+                        open_opts = OPEN_TEXT_OPTIONS.copy()
                         open_opts.update({"newline": ""})
                         async with await path.open(mode="rt", **open_opts) as io:
                             text = await io.read()
@@ -221,7 +181,7 @@ async def main(args: Arguments):
                             return finalizer()
 
                 async def potential_files():
-                    for root, dirs, files in _walk(
+                    for root, dirs, files in walk(
                         folder, topdown=True, onerror=on_error, followlinks=False
                     ):
                         # skip roots matching any exclude path
@@ -229,11 +189,11 @@ async def main(args: Arguments):
                             dirs.clear()
                             files.clear()
                         for file in files:
-                            yield _Path(root, file)
+                            yield Path(root, file)
 
-                results = list[_Path]()
+                results = list[Path]()
 
-                async def process_file(file: _Path) -> _Path | None:
+                async def process_file(file: Path) -> Path | None:
                     # return the path when it should be included, otherwise None
                     if await file.is_symlink():
                         return None
@@ -250,7 +210,7 @@ async def main(args: Arguments):
                     return None
 
                 # concurrently walk and process files using SoonValue objects
-                soon_values: list[SoonValue[_Path | None]] = []
+                soon_values: list[SoonValue[Path | None]] = []
 
                 async with create_task_group() as tg:
                     async for file in potential_files():
@@ -261,10 +221,10 @@ async def main(args: Arguments):
                 return results
 
             inputs = await gen_inputs()
-            _info(f"Using {len(inputs)} input(s)")
+            info(f"Using {len(inputs)} input(s)")
             try:
-                entry = _pytextgen_parser().parse_args(
-                    tuple(_chain(args.arguments, ("--",), map(fspath, inputs)))
+                entry = pytextgen_parser().parse_args(
+                    tuple(chain(args.arguments, ("--",), map(fspath, inputs)))
                 )
                 await entry.invoke(entry)
                 success = True
@@ -277,24 +237,24 @@ async def main(args: Arguments):
                     for finalizer in finalizers:
                         tg.start_soon(finalizer)
                 await cache_data.write(
-                    _dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
+                    dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
                 )
                 await cache_data.truncate()
     except Exception:
-        _exc("Uncaught exception")
+        exception("Uncaught exception")
     finally:
-        _info("Press <enter> to exit")
+        info("Press <enter> to exit")
         try:
             input()
         except EOFError:
             pass
-    _exit(0)
+    exit(0)
 
 
-def parser(parent: _Call[..., _ArgParser] | None = None):
-    prog = _argv[0]
+def parser(parent: Callable[..., ArgumentParser] | None = None):
+    prog = argv[0]
 
-    parser = (_ArgParser if parent is None else parent)(
+    parser = (ArgumentParser if parent is None else parent)(
         prog=prog,
         description="input wrapper for tools",
         add_help=True,
@@ -321,12 +281,12 @@ def parser(parent: _Call[..., _ArgParser] | None = None):
     parser.add_argument(
         "arguments",
         action="store",
-        nargs=_ONE_OR_MORE,
+        nargs=ONE_OR_MORE,
         help="sequence of argument(s) to pass through",
     )
 
-    @_wraps(main)
-    async def invoke(args: _NS):
+    @wraps(main)
+    async def invoke(args: Namespace):
         await main(
             Arguments(
                 prog=prog,
@@ -341,8 +301,8 @@ def parser(parent: _Call[..., _ArgParser] | None = None):
 
 def __main__() -> None:
     """Entry point for running the script directly."""
-    _basicConfig(level=_INFO)
-    entry = parser().parse_args(_argv[1:])
+    basicConfig(level=INFO)
+    entry = parser().parse_args(argv[1:])
     runnify(entry.invoke, backend_options={"use_uvloop": True})(entry)
 
 

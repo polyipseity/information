@@ -20,8 +20,8 @@ __Plastics__ are {@{[synthetic](synthetic%20polymers.md) or semi-synthetic [mate
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = ('name', '[chemical formula](chemical%20formula.md)', '[property(s)](property.md)', 'use(s)',)
 table = (
   ('[high-density polyethylene](high-density%20polyethylene.md) (HDPE)', '![polyethylene](../../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg)', 'higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md)', '[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md)'),
@@ -32,7 +32,7 @@ table = (
   ('[polystyrene](polystyrene.md) (PS)', '![polystyrene](../../archives/Wikimedia%20Commons/Polystyrene.svg)', 'expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md)', 'expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md)'),
   ('[polyvinyl chloride](polyvinyl%20chloride.md) (PVC)', '![polyvinyl chloride](../../archives/Wikimedia%20Commons/Polyvinylchlorid.svg)', '[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md)', '[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md)',),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects('9403', '234a',),
     headers, table,

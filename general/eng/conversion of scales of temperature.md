@@ -12,9 +12,9 @@ tags:
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
-from asyncio import gather as _gather
-from itertools import chain as _chain
-from pytextgen.compat.util import Location as _Loc, NULL_LOCATION as _NULL_LOC
+from asyncio import gather
+from itertools import chain
+from pytextgen.compat.util import Location, NULL_LOCATION
 
 headers = ("[temperature scale](temperature%20scale.md)", "from {}", "to {}",)
 t_celsius = "[Celsius](Celsius.md)"
@@ -24,17 +24,17 @@ t_rankine = "[Rankine](Rankine%20scale.md)"
 
 async def conversion_table(
   temperature: str,
-  locations: tuple[_Loc, _Loc, _Loc],
+  locations: tuple[Location, Location, Location],
   *table: tuple[str, str, str],
 ):
   this_headers = tuple(header.format(temperature) for header in headers)
-  return _chain.from_iterable(await _gather(
+  return chain.from_iterable(await gather(
     memorize_table(
-      (locations[0], _NULL_LOC,),
+      (locations[0], NULL_LOCATION,),
       this_headers, table,
     ),
     memorize_map(
-      (_NULL_LOC, *locations[1:3],),
+      (NULL_LOCATION, *locations[1:3],),
       items_to_map(*((row[0], ", ".join(f"{this_headers[ii]}: {row[ii]}" for ii in range(1, 3)),) for row in table)),
     ),
   ))

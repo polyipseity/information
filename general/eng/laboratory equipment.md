@@ -21,9 +21,9 @@ tags:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
-from pytextgen.compat.gen import markdown_sanitizer as _md_san
+from asyncio import gather
+from itertools import chain
+from pytextgen.compat.gen import markdown_sanitizer
 rinse_water = 'Rinse the equipment with deionized [water](water.md) before use.'
 rinse_water_soln = 'Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered.'
 table = (
@@ -70,8 +70,8 @@ table = (
   ('[weighing bottle](weighing%20bottle.md)', '![{}](../../archives/Wikimedia%20Commons/Weighing%20bottles.jpg)', '',),
   ('[wire gauze](wire%20gauze.md)', '![{}](../../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)', '',),
 )
-table = tuple((*entry[:1], entry[1].format(_md_san(entry[0])), *entry[2:]) for entry in table)
-return _chain.from_iterable(await _gather(
+table = tuple((*entry[:1], entry[1].format(markdown_sanitizer(entry[0])), *entry[2:]) for entry in table)
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects('fadd2e', 'b81237'),
     ('name & image', 'description',),

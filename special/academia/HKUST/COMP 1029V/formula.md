@@ -31,8 +31,8 @@ Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} 
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   ("`^`", "power",),
@@ -49,7 +49,7 @@ table = (
     "subtraction",
   ),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("93ab", "f21a",),
     headers,
@@ -95,8 +95,8 @@ Below are common comparison operators, all of which returns {@{booleans}@}. {@{R
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   ("`=`", "equal to",),
@@ -106,7 +106,7 @@ table = (
   ("`>=`", "greater than or equal to",),
   ("`<>`", "not equal to",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("bd23", "d123",),
     headers,
@@ -165,15 +165,15 @@ Below are common logic functions, all of which {@{accept booleans and return boo
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "function", "description"
 table = (
   ("`NOT(boolean)`", "negate",),
   ("`AND(booleans...)`", "every input is true",),
   ("`OR(booleans...)`", "there exists true inputs",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("2856", "d882",),
     headers,
@@ -219,8 +219,8 @@ Below are common string functions and operators:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "function", "description"
 table = (
   ("(operator) `&`", "concatenation",),
@@ -231,7 +231,7 @@ table = (
   ("`SUBSTITUTE(string, old, new)`", "replace all occurrences of `old` with `new` in `string`",),
   ("`UPPER(string)`", "convert to uppercase",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("0ff2", "305b",),
     headers,
@@ -289,8 +289,8 @@ Below are common functions:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "function", "description"
 table = (
   ("`AVERAGE(numbers...)`", "average",),
@@ -302,7 +302,7 @@ table = (
   ("`STDEV(numbers...)`", "standard deviation",),
   ("`SUM(numbers...)`", "summation",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("93ba", "ee42",),
     headers,

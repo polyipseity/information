@@ -23,15 +23,15 @@ tags:
 ```Python
 # pytextgen generate data
 # import ../../tools/utility.py.md
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = ("type", "[monoatomic](monoatomic%20gas.md)", "[linear molecules](linear%20molecular%20geometry.md)", "[non-linear molecules](molecular%20geometry.md)",)
 table = (
   ("[translation](translation%20(geometry).md) ($x, y, z$)", "3", "3", "3",),
   ("[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))", "0", "2", "3",),
   ("[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))", "0", "$2(3N - 5)$", "$2(3N - 6)$",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("dee2", None,),
     headers, table,
