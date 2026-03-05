@@ -43,12 +43,14 @@ tags: []
 """
     )
 
-    # validator.main returns an integer; wrapper.main should forward that
-    rc_validator = await validator.main([str(tmp_path)])
-    rc_wrapper = await check.main([str(tmp_path)])
+    # validator.main and check.main both call exit(); assert same exit code
+    with pytest.raises(SystemExit) as ev:
+        await validator.main([str(tmp_path)])
+    with pytest.raises(SystemExit) as ew:
+        await check.main([str(tmp_path)])
 
-    assert rc_wrapper == rc_validator
-    assert rc_wrapper != 0  # there should be at least one error message
+    assert ew.value.code == ev.value.code
+    assert ev.value.code != 0  # there should be at least one error message
 
 
 @pytest.mark.anyio

@@ -29,6 +29,7 @@ from .utils import FRONT_RE, has_flash_tag, locate, locate_range
 __all__ = ("RULE_REGISTRY",)
 
 # single registry used by this module; external code may import and merge it
+"""Registry of all validation rules in this module; decorator-based registration."""
 RULE_REGISTRY = RuleRegistry()
 
 # metadata checks ------------------------------------------------------------
@@ -148,8 +149,7 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
 
             # convert spaces, single quotes, and double quotes to underscores
             def _clean(part: str) -> str:
-                # convert spaces and quote characters to underscores, collapse
-                # multiple underscores, and trim any leading/trailing ones.
+                """Normalize a path segment: spaces/quotes to underscores, collapse/trim."""
                 s = re.sub(r"[ \"']+", "_", part)
                 s = re.sub(r"_+", "_", s)
                 return s.strip("_")
@@ -943,6 +943,7 @@ def latex_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
     text = ctx.text
 
     def in_code_fence(idx: int) -> bool:
+        """Return True if byte offset *idx* is inside a fenced code block."""
         return text[:idx].count("```") % 2 == 1
 
     # match a single-dollar expression but not $$
@@ -1080,6 +1081,7 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
     text = ctx.text
 
     def in_code_fence(idx: int) -> bool:
+        """Return True if byte offset *idx* is inside a fenced code block."""
         return text[:idx].count("```") % 2 == 1
 
     for m in re.finditer(r"\$\$?.*?\$\$?", text, re.DOTALL):
@@ -1117,6 +1119,7 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
     text = ctx.text
 
     def in_code_fence(idx: int) -> bool:
+        """Return True if byte offset *idx* is inside a fenced code block."""
         return text[:idx].count("```") % 2 == 1
 
     for m in re.finditer(r"\$\$?.*?\$\$?", text, re.DOTALL):

@@ -29,6 +29,8 @@ from .registry import RuleRegistry
 from .utils import DEFAULT_PATHS, FRONT_RE, aggregate, parse_frontmatter
 
 # build local registry and import the rules defined in rules.py
+"""Merged registry of all validation rules; used by main() to run checks."""
+
 RULE_REGISTRY = RuleRegistry()
 RULE_REGISTRY.include_registry(rules.RULE_REGISTRY)
 
@@ -39,6 +41,7 @@ __all__ = (
     "main",
 )
 
+"""Rich console used for human-readable validation output (non-JSON)."""
 _CONSOLE = Console(markup=False, emoji=False, highlight=False)
 
 

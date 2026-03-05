@@ -58,8 +58,9 @@ async def test_validator_detects_mismatched_rule_id(tmp_path: PathLike[str]):
 
     VALIDATOR_REGISTRY.register(id="not_matching_name")(bogus)
     try:
-        rc = await validator.main([str(tmp_path)])
-        assert rc == 3
+        with pytest.raises(SystemExit) as exc_info:
+            await validator.main([str(tmp_path)])
+        assert exc_info.value.code == 3
     finally:
         VALIDATOR_REGISTRY._rules.pop("not_matching_name", None)
 
@@ -111,8 +112,9 @@ async def test_walk_and_check_and_main_json(
     assert not res3.errors()
 
     # test main output with --json (directory path remains supported)
-    rc = await validator.main([str(tmp_path), "--json"])
-    assert rc == 2
+    with pytest.raises(SystemExit) as exc_info:
+        await validator.main([str(tmp_path), "--json"])
+    assert exc_info.value.code == 2
     out = capsys.readouterr().out
     # output should now use a single 'issues' key containing messages
     assert "issues" in out
@@ -138,8 +140,9 @@ tags: [language/in/English, flashcard/active/special/academia/test]
     )
     # create one file that triggers an error
     _file_err = await make_temp_markdown(tmp_path / "err.md", "---\ntags: []\n---\n")
-    rc = await validator.main([str(tmp_path)])
-    assert rc == 2
+    with pytest.raises(SystemExit) as exc_info:
+        await validator.main([str(tmp_path)])
+    assert exc_info.value.code == 2
     out = capsys.readouterr().out.lower()
     assert "warning" in out
     assert "error" in out
@@ -172,8 +175,9 @@ async def test_max_per_rule_limit(
         await Path(fpath).write_text("""---\ntags: []\n---\n""")
 
     # run without specifying limit (default 5)
-    rc = await validator.main([str(tmp_path)])
-    assert rc == 2
+    with pytest.raises(SystemExit) as exc_info:
+        await validator.main([str(tmp_path)])
+    assert exc_info.value.code == 2
     out = capsys.readouterr().out
     # the summary should report 6 problems in total
     assert "6 problem(s) found" in out
@@ -182,8 +186,9 @@ async def test_max_per_rule_limit(
     assert "more occurrence(s) not shown" in out
 
     # now run with an explicit limit of 0 (unlimited)
-    rc2 = await validator.main([str(tmp_path), "--max-per-rule", "0"])
-    assert rc2 == 2
+    with pytest.raises(SystemExit) as exc_info2:
+        await validator.main([str(tmp_path), "--max-per-rule", "0"])
+    assert exc_info2.value.code == 2
     out2 = capsys.readouterr().out
     # should list all 6 occurrences and not mention truncation
     assert "6 occurrence(s)" in out2
@@ -196,12 +201,14 @@ async def test_check_entrypoint(tmp_path: PathLike[str]):
     # ensure the thin wrapper around validator.main behaves identically
 
     _path = await make_temp_markdown(tmp_path, "---\naliases: []\ntags: []\n---\n")
-    rc = await check.main([str(tmp_path)])
-    assert rc == 2
+    with pytest.raises(SystemExit) as exc_info:
+        await check.main([str(tmp_path)])
+    assert exc_info.value.code == 2
 
     # verify that passing a markdown file directly also works
-    rc2 = await check.main([str(_path)])
-    assert rc2 == 2
+    with pytest.raises(SystemExit) as exc_info2:
+        await check.main([str(_path)])
+    assert exc_info2.value.code == 2
 
 
 @pytest.mark.anyio

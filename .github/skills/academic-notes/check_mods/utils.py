@@ -28,13 +28,15 @@ __all__ = (
 )
 
 # regex used by parse_frontmatter; accepts optional whitespace and both
-
+"""Default root directories scanned when no paths are supplied on the command line."""
 DEFAULT_PATHS = ["special/academia", "private/special/academia"]
 
 # LF/CRLF line endings.
+"""Regex matching YAML frontmatter block (--- ... ---) with optional CRLF."""
 FRONT_RE = re.compile(r"\A\s*---\s*\r?\n(.*?)\r?\n---\s*(\r?\n|$)", re.DOTALL)
 
 # flashcard tag matcher used by metadata rules
+"""Regex matching the flashcard activation tag prefix in frontmatter tags."""
 FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.IGNORECASE)
 
 

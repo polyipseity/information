@@ -48,8 +48,10 @@ __all__ = (
 # enable rich traceback for nicer error output when running interactively
 install_rich_traceback()
 
+"""English Wikipedia API base URL for search and page requests."""
 _API = "https://en.wikipedia.org/w/api.php"
 
+"""Rich console for human-readable terminal output."""
 _CONSOLE = Console(markup=False, highlight=False, emoji=False)
 
 
@@ -89,6 +91,7 @@ class WikipediaAPIError(Exception):
 # ---------------------------------------------------------------------------
 
 
+"""Type variable for Pydantic model types used in API request/response parsing."""
 ModelType = TypeVar("ModelType", bound=BaseModel)
 
 
