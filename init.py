@@ -1,9 +1,11 @@
 from argparse import ONE_OR_MORE, ArgumentParser, Namespace
 from collections import defaultdict
 from collections.abc import (
+    AsyncIterator,
     Awaitable,
     Callable,
     Collection,
+    Iterable,
     MutableMapping,
     Sequence,
 )
@@ -15,7 +17,8 @@ from json import dumps, loads
 from json.decoder import JSONDecodeError
 from logging import INFO, basicConfig, exception, info
 from operator import ne
-from os import fspath, linesep, lstat, walk
+from os import fspath, linesep, lstat
+from pathlib import PurePath
 from sys import argv, exit, stdin
 from typing import Any, final
 
@@ -28,12 +31,60 @@ from pytextgen.meta import OPEN_TEXT_OPTIONS
 
 __all__ = ("Arguments", "main", "parser")
 
-_EXCLUDES = (
-    ".git",
-    ".obsidian",
-    "node_modules",
-    "tools",
-)
+# Gitignore-style spec: one pattern per line; order matters (last match wins).
+# Negated interpretation: pattern = include; !pattern = exclude. Default (no match) = excluded.
+_GLOB_SPEC = """
+general/**/*.md
+private/general/**/*.md
+private/special/**/*.md
+special/**/*.md
+"""
+
+
+def _iter_ignore_patterns(spec: str) -> Iterable[tuple[str, bool]]:
+    """Parse a gitignore-style, multi-line spec (negated: pattern = include, ! = exclude).
+
+    Yields (pattern, is_ignore) in order. is_ignore=True => exclude; False => include.
+    """
+    for raw in spec.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        is_ignore = line.startswith("!")
+        pattern = line[1:].strip() if line.startswith("!") else line
+        if not pattern:
+            continue
+        yield pattern, is_ignore
+
+
+def _path_matches_pattern(rel: PurePath, pattern: str) -> bool:
+    """Return True if rel (relative to root) matches the pattern.
+
+    Patterns with * or ? use pathlib match(); otherwise: single-segment patterns
+    match that name at any depth; multi-segment patterns match as a path prefix.
+    """
+    if "*" in pattern or "?" in pattern:
+        return rel.match(pattern)
+    parts = rel.parts
+    pat_parts = tuple(p for p in pattern.split("/") if p)
+    if not pat_parts:
+        return False
+    if len(pat_parts) == 1:
+        return pat_parts[0] in parts
+    if len(pat_parts) <= len(parts):
+        return parts[: len(pat_parts)] == pat_parts
+    return False
+
+
+def _is_ignored_by_spec(rel: PurePath, patterns: Sequence[tuple[str, bool]]) -> bool:
+    """Return True if rel should be ignored (excluded). Last match wins; default (no match) = excluded."""
+    ignored = True
+    for pattern, is_ignore in patterns:
+        if _path_matches_pattern(rel, pattern):
+            ignored = is_ignore
+    return ignored
+
+
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
 _LOCAL_APP_DIRS = AppDirs(
@@ -74,12 +125,10 @@ async def main(args: Arguments):
             raise ValueError(frame)
         folder = Path(getframeinfo(frame).filename).parent
 
-        # resolve excluded paths concurrently; keep as set of normalized paths
-        excludes_svs: list[SoonValue[Path]] = []
-        async with create_task_group() as tg:
-            for path in _EXCLUDES:
-                excludes_svs.append(tg.soonify(Path(path).resolve)(strict=True))
-        excludes = {sv.value for sv in excludes_svs}
+        # parse gitignore-style spec (last match wins); list of (pattern, is_ignore)
+        ignore_patterns: list[tuple[str, bool]] = list(
+            _iter_ignore_patterns(_GLOB_SPEC)
+        )
 
         cache_folder = Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
@@ -116,12 +165,6 @@ async def main(args: Arguments):
 
             async def gen_inputs():
                 cache: MutableMapping[str, tuple[int, str]] = data["cache"]
-
-                def on_error(err: OSError):
-                    try:
-                        raise err
-                    except OSError:
-                        exception("Exception while walking folders")
 
                 async def maybe_yield(path: Path):
                     path_s = str(path)
@@ -164,16 +207,19 @@ async def main(args: Arguments):
                         if text != c_text:
                             return finalizer()
 
-                async def potential_files():
-                    for root, dirs, files in walk(
-                        folder, topdown=True, onerror=on_error, followlinks=False
-                    ):
-                        # skip roots matching any exclude path
-                        if await Path(root).resolve(strict=True) in excludes:
-                            dirs.clear()
-                            files.clear()
-                        for file in files:
-                            yield Path(root, file)
+                async def candidate_md_files() -> AsyncIterator[Path]:
+                    """Yield .md paths under folder that pass the glob spec (not ignored)."""
+                    async for path in folder.rglob("*.md"):
+                        if await path.is_symlink():
+                            continue
+                        try:
+                            resolved = await path.resolve(strict=True)
+                            rel = PurePath(resolved).relative_to(folder)
+                        except (ValueError, OSError):
+                            continue
+                        if _is_ignored_by_spec(rel, ignore_patterns):
+                            continue
+                        yield path
 
                 results = list[Path]()
 
@@ -184,7 +230,11 @@ async def main(args: Arguments):
                     path = await file.resolve(strict=True)
                     if path.suffix != ".md":
                         return None
-                    if path in excludes:
+                    try:
+                        rel = PurePath(path).relative_to(folder)
+                    except ValueError:
+                        return None  # path outside folder, skip
+                    if _is_ignored_by_spec(rel, ignore_patterns):
                         return None
                     finalize = await maybe_yield(path)
                     if finalize is not None:
@@ -192,10 +242,10 @@ async def main(args: Arguments):
                         return path
                     return None
 
-                # concurrently walk and process files using SoonValue objects
+                # generate candidates from spec-filtered rglob, then process concurrently
                 soon_values: list[SoonValue[Path | None]] = []
                 async with create_task_group() as tg:
-                    async for file in potential_files():
+                    async for file in candidate_md_files():
                         soon_values.append(tg.soonify(process_file)(file))
 
                 # gather completed paths, filtering out Nones
