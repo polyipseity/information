@@ -49,6 +49,7 @@ from pydantic_yaml import parse_yaml_raw_as
 # explicit imports reduce namespace clutter and make references clear
 
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 
@@ -197,9 +198,7 @@ def test_example_section_heading():
     # paragraphs, and discourage suppressing calculation warnings
     assert "example sections" in msgs[0].msg
     assert "integrate" in msgs[0].msg
-    assert (
-        "two_sided_calc_warning" in msgs[0].msg
-    )
+    assert "two_sided_calc_warning" in msgs[0].msg
 
     # different casing and within a longer title should also trigger
     txt2 = "### Resistive circuit examples and notes\nContent\n"
@@ -222,7 +221,7 @@ def test_tag_path_flash_quotes_and_spaces():
     """
 
     # construct a path that exercises spaces and both kinds of quotes
-    path = Path("/tmp/special/academia/HKUST/ELEC 1100/Week's \"Notes\".md")
+    path = Path('/tmp/special/academia/HKUST/ELEC 1100/Week\'s "Notes".md')
     # build the context with a matching tag
     txt = "---\ntags: [flashcard/active/special/academia/HKUST/ELEC_1100/Week_s_Notes]\n---\n"
     ctx = make_ctx(txt, path=path)

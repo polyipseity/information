@@ -12,6 +12,7 @@ from collections.abc import Callable, Sequence
 
 from .models import ValidationContext, ValidationMessage
 
+"""Public symbols exported by this module."""
 __all__ = ("RuleRegistry",)
 
 

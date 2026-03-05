@@ -16,6 +16,7 @@ from anyio import Path
 from pydantic import BaseModel, ConfigDict, Field, GetCoreSchemaHandler, ValidationInfo
 from pydantic_core import core_schema
 
+"""Public symbols exported by this module."""
 __all__ = (
     "StrList",
     "Frontmatter",

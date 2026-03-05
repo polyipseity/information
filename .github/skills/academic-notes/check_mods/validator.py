@@ -35,6 +35,7 @@ RULE_REGISTRY = RuleRegistry()
 RULE_REGISTRY.include_registry(rules.RULE_REGISTRY)
 
 
+"""Public symbols exported by this module."""
 __all__ = (
     "check_markdown_file",
     "walk_and_check",

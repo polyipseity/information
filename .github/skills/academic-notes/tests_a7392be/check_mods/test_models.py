@@ -14,6 +14,7 @@ from check_mods.models import (
 )
 from pydantic_yaml import parse_yaml_raw_as
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 

@@ -12,6 +12,7 @@ import find_wikipedia
 import pytest
 from pydantic import BaseModel
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 

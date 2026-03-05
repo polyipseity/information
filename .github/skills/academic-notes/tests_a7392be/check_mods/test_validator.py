@@ -11,6 +11,7 @@ from check_mods.rules import RULE_REGISTRY as RULES_REGISTRY
 from check_mods.validator import RULE_REGISTRY as VALIDATOR_REGISTRY
 from check_mods.validator import check_markdown_file, walk_and_check
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 

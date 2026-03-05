@@ -19,6 +19,7 @@ import ast
 import pytest
 from anyio import Path
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 """Repository root used by the __all__ compliance tests for path discovery."""

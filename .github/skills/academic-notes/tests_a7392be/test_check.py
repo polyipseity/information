@@ -20,6 +20,7 @@ from anyio import Path
 from check_mods import validator
 
 # expose an explicit export list so tests for `__all__` pass
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 

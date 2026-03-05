@@ -15,6 +15,7 @@ from check_mods.utils import (
     parse_frontmatter,
 )
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 

@@ -26,6 +26,7 @@ from .models import Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
 from .utils import FRONT_RE, has_flash_tag, locate, locate_range
 
+"""Public symbols exported by this module."""
 __all__ = ("RULE_REGISTRY",)
 
 # single registry used by this module; external code may import and merge it

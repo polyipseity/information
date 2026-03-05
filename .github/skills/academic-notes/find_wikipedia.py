@@ -38,6 +38,7 @@ from rich.json import JSON as RichJSON
 from rich.table import Table
 from rich.traceback import install as install_rich_traceback
 
+"""Public symbols exported by this module."""
 __all__ = (
     "search",
     "make_filenames",

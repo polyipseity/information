@@ -16,6 +16,7 @@ from collections.abc import AsyncIterator, Iterable
 import pytest
 from anyio import IncompleteRead, Path, run_process
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 

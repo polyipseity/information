@@ -16,6 +16,7 @@ from anyio import Path
 
 from .models import PreviewEntry, ValidationMessage
 
+"""Public symbols exported by this module."""
 __all__ = (
     "parse_frontmatter",
     "has_flash_tag",

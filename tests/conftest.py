@@ -6,6 +6,7 @@ depend on the ``anyio_backend`` fixture or use ``@pytest.mark.anyio``.
 
 import pytest
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 

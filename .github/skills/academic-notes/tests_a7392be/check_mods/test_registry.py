@@ -7,6 +7,7 @@ import pytest
 from check_mods.models import ValidationContext
 from check_mods.registry import RuleRegistry
 
+"""Public symbols exported by this module (none)."""
 __all__ = ()
 
 
