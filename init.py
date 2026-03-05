@@ -20,10 +20,10 @@ from os import PathLike, fspath, linesep, lstat, walk
 from sys import argv, exit
 from typing import Any, final
 
-from aioshutil import rmtree, sync_to_async
+from aioshutil import rmtree
 from anyio import Path
 from appdirs import AppDirs  # type: ignore
-from asyncer import SoonValue, create_task_group, runnify
+from asyncer import SoonValue, asyncify, create_task_group, runnify
 from pytextgen.main import parser as pytextgen_parser
 from pytextgen.meta import OPEN_TEXT_OPTIONS
 
@@ -44,7 +44,7 @@ _LOCAL_APP_DIRS = AppDirs(
     roaming=False,
     multipath=False,
 )
-_lstat_a = sync_to_async(lstat)
+_lstat_a = asyncify(lstat)
 
 
 @final
