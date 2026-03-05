@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """find_wikipedia.py
 
 Search English Wikipedia for a query and suggest safe filenames and a path

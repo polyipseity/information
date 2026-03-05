@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """Entry point wrapper for the academic-notes validator.
 
 This module simply delegates to :mod:`validator` after setting up rich
