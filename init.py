@@ -4,7 +4,6 @@ from collections.abc import (
     Awaitable,
     Callable,
     Collection,
-    Iterable,
     MutableMapping,
     Sequence,
 )
@@ -16,8 +15,8 @@ from json import dumps, loads
 from json.decoder import JSONDecodeError
 from logging import INFO, basicConfig, exception, info
 from operator import ne
-from os import PathLike, fspath, linesep, lstat, walk
-from sys import argv, exit
+from os import fspath, linesep, lstat, walk
+from sys import argv, exit, stdin
 from typing import Any, final
 
 from aioshutil import rmtree
@@ -68,20 +67,6 @@ class Arguments:
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
-async def _in_paths(path: str | PathLike[str], paths: Iterable[Path]) -> bool:
-    """Return True if any ``ex`` is the same filesystem object as
-    ``path``. Runs checks concurrently for speed.  ``path`` may
-    be a str wrapper or Path-like object.
-    """
-    if not paths:
-        return False
-    svs: list[SoonValue[bool]] = []
-    async with create_task_group() as tg:
-        for ex in paths:
-            svs.append(tg.soonify(ex.samefile)(path))
-    return any(sv.value for sv in svs)
-
-
 async def main(args: Arguments):
     try:
         frame = currentframe()
@@ -89,13 +74,12 @@ async def main(args: Arguments):
             raise ValueError(frame)
         folder = Path(getframeinfo(frame).filename).parent
 
-        # resolve excluded paths concurrently using a task group
+        # resolve excluded paths concurrently; keep as set of normalized paths
         excludes_svs: list[SoonValue[Path]] = []
         async with create_task_group() as tg:
             for path in _EXCLUDES:
                 excludes_svs.append(tg.soonify(Path(path).resolve)(strict=True))
-        # note: results order may differ from _EXCLUDES but order is irrelevant
-        excludes = [sv.value for sv in excludes_svs]
+        excludes = {sv.value for sv in excludes_svs}
 
         cache_folder = Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
@@ -185,7 +169,7 @@ async def main(args: Arguments):
                         folder, topdown=True, onerror=on_error, followlinks=False
                     ):
                         # skip roots matching any exclude path
-                        if await _in_paths(root, excludes):
+                        if await Path(root).resolve(strict=True) in excludes:
                             dirs.clear()
                             files.clear()
                         for file in files:
@@ -200,8 +184,7 @@ async def main(args: Arguments):
                     path = await file.resolve(strict=True)
                     if path.suffix != ".md":
                         return None
-                    # test exclusion in parallel; once one matches we can bail
-                    if await _in_paths(path, excludes):
+                    if path in excludes:
                         return None
                     finalize = await maybe_yield(path)
                     if finalize is not None:
@@ -211,7 +194,6 @@ async def main(args: Arguments):
 
                 # concurrently walk and process files using SoonValue objects
                 soon_values: list[SoonValue[Path | None]] = []
-
                 async with create_task_group() as tg:
                     async for file in potential_files():
                         soon_values.append(tg.soonify(process_file)(file))
@@ -243,11 +225,14 @@ async def main(args: Arguments):
     except Exception:
         exception("Uncaught exception")
     finally:
-        info("Press <enter> to exit")
-        try:
-            input()
-        except EOFError:
-            pass
+        # Only wait for Enter when not in an interactive terminal (e.g. double-click
+        # launcher), so CLI runs (generate -C, CI) exit immediately.
+        if stdin.isatty():
+            info("Press <enter> to exit")
+            try:
+                input()
+            except EOFError:
+                pass
     exit(0)
 
 
