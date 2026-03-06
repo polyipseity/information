@@ -39,7 +39,7 @@ For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two v
 
 ## definition
 
-{@{An __Eulerian trail__,<sup>[\[note 1\]](#^note-1)</sup> or __Euler walk__}@}, in {@{an [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph) is a walk that uses each edge exactly once}@}. If {@{such a walk exists}@}, the graph is {@{called __traversable__ or __semi-eulerian__}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-29,388,362!2029-10-02,1388,356!2029-04-14,1245,362!2026-03-13,375,362-->
+{@{An __Eulerian trail__,<sup>[\[note 1\]](#^note-1)</sup> or __Euler walk__}@}, in {@{an [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph) is a walk that uses each edge exactly once}@}. If {@{such a walk exists}@}, the graph is {@{called __traversable__ or __semi-eulerian__}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-29,388,362!2029-10-02,1388,356!2029-04-14,1245,362!2031-04-20,1864,382-->
 
 {@{An __Eulerian cycle__,<sup>[\[note 1\]](#^note-1)</sup> also called an __Eulerian circuit__ or __Euler tour__}@}, in {@{an undirected graph is a [cycle](cycle%20(graph%20theory).md) that uses each edge exactly once}@}. If {@{such a cycle exists}@}, the graph is {@{called __Eulerian__ or __unicursal__}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The term "Eulerian graph"}@} is also sometimes {@{used in a weaker sense to denote a graph where every vertex has even degree}@}. For {@{finite [connected graphs](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs) the two definitions are equivalent}@}, while {@{a possibly unconnected graph is Eulerian in the weaker sense}@} {@{if and only if each connected component has an Eulerian cycle}@}. <!--SR:!2031-02-16,1814,382!2026-03-25,385,362!2026-03-19,381,362!2026-03-14,376,362!2029-03-11,1228,362!2026-07-26,452,322!2028-08-15,1055,350!2026-03-28,388,362!2026-04-01,392,362-->
 
@@ -131,7 +131,7 @@ In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the
 
 ## undirected Eulerian graphs
 
-Euler stated {@{a necessary condition for a finite graph to be Eulerian as all vertices must have even degree}@}. {@{Hierholzer}@} {@{proved this is a sufficient condition}@} in {@{a paper published in 1873}@}. This leads to {@{the following necessary and sufficient statement for what a finite graph must have to be Eulerian}@}: {@{An undirected connected finite graph}@} is {@{Eulerian if and only if every vertex of G has even degree}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-01-20,1190,362!2026-03-13,374,362!2026-03-23,384,362!2029-03-14,1233,362!2026-04-05,395,362!2029-10-06,1390,356!2029-07-27,1323,362-->
+Euler stated {@{a necessary condition for a finite graph to be Eulerian as all vertices must have even degree}@}. {@{Hierholzer}@} {@{proved this is a sufficient condition}@} in {@{a paper published in 1873}@}. This leads to {@{the following necessary and sufficient statement for what a finite graph must have to be Eulerian}@}: {@{An undirected connected finite graph}@} is {@{Eulerian if and only if every vertex of G has even degree}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-01-20,1190,362!2031-04-19,1863,382!2026-03-23,384,362!2029-03-14,1233,362!2026-04-05,395,362!2029-10-06,1390,356!2029-07-27,1323,362-->
 
 The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-05-03,394,322!2029-09-30,1387,356!2031-01-08,1782,382-->
 
@@ -177,7 +177,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 - [five room puzzle](five-room%20puzzle.md)
 - [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2028-07-24,1037,350!2028-02-26,897,330-->
 - [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2030-10-17,1717,382!2029-09-16,1302,362-->
-- [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2029-02-21,1216,362!2026-03-13,375,362-->
+- [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2029-02-21,1216,362!2031-04-22,1866,382-->
 - [Veblen's theorem](Veblen's%20theorem.md), ::@:: which states that graphs with even vertex degree can be partitioned into edge-disjoint cycles regardless of their connectivity <!--SR:!2026-03-28,387,362!2026-12-22,518,310-->
 
 ## notes

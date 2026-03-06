@@ -62,10 +62,10 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 {@{A lawful monad}@} must satisfy {@{three laws: left unit, right unit, essential-associativity}@}. <!--SR:!2026-03-29,63,310!2026-03-15,56,310-->
 
 - _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-03-25,59,310!2026-03-15,56,310-->
-- _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!2026-03-13,54,310!2026-03-14,55,310-->
+- _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!2026-11-02,234,330!2026-03-14,55,310-->
 - _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-09-12,184,310!2026-04-02,67,310-->
 
-{@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2026-04-01,66,310!2026-03-13,54,310!2026-03-26,60,310!2026-03-31,65,310!2026-03-28,62,310-->
+{@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2026-04-01,66,310!2026-10-30,231,330!2026-03-26,60,310!2026-03-31,65,310!2026-03-28,62,310-->
 
 > [!example] __monad trait__
 >
@@ -100,7 +100,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ### monad example motivation
 
-{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-03-26,60,310!2026-03-13,54,310!2026-03-27,61,310!2026-03-13,54,310!2026-03-25,59,310-->
+{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-03-26,60,310!2026-10-27,228,330!2026-03-27,61,310!2026-11-05,237,330!2026-03-25,59,310-->
 
 > [!example] __`sequence`__
 >
@@ -161,7 +161,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[B](f: A => B): F[B] = ap(pure(f))(fa)
 > ```
 >
-> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-03-15,56,310!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-03-24,58,310!2026-03-13,54,310-->
+> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-03-15,56,310!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-03-24,58,310!2026-11-03,235,330-->
 
 {@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2026-03-31,65,310!2026-04-08,67,310!2026-03-16,57,310!2026-03-28,62,310-->
 
@@ -184,7 +184,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!2026-04-02,67,310!2026-03-31,59,310!2026-03-14,55,310-->
 
-{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-03-13,54,310!2026-03-14,55,310!2026-03-30,64,310!2026-03-16,57,310-->
+{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-11-01,233,330!2026-03-14,55,310!2026-03-30,64,310!2026-03-16,57,310-->
 
 > [!example] __Haskell monad__
 >
@@ -197,7 +197,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-03-29,63,310!2026-03-26,60,310!2026-03-30,64,310!2026-03-29,63,310-->
 
-{@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-04-02,67,310!2026-03-13,54,310!2026-04-08,67,310!2026-04-01,66,310-->
+{@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-04-02,67,310!2026-10-29,230,330!2026-04-08,67,310!2026-04-01,66,310-->
 
 {@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2026-04-08,67,310!2026-04-01,66,310!2026-03-27,61,310-->
 
@@ -216,4 +216,4 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2026-03-30,64,310!2026-03-31,65,310!2026-03-17,58,310!2026-04-08,67,310-->
 
-{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-03-14,55,310!2026-03-13,54,310!2026-03-30,58,310!2026-03-31,65,310!2026-03-25,59,310!2026-03-13,54,310!2026-03-16,57,310!2026-03-16,57,310-->
+{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-03-14,55,310!2026-10-31,232,330!2026-03-30,58,310!2026-03-31,65,310!2026-03-25,59,310!2026-10-28,229,330!2026-03-16,57,310!2026-03-16,57,310-->

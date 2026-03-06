@@ -15,7 +15,7 @@ Here, we are interested in two sequence types: {@{strings and lists}@}. <!--SR:!
 
 - see: [string](string.md)
 
-To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`}@}. Both are {@{equivalent}@} except that you need to {@{escape double quotes in the strings for the first one and single quotes for the second one}@}. To escape a character, {@{precede the character with a backslash `\`}@}, like {@{`"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. <!--SR:!2026-12-16,785,330!2026-05-01,625,330!2026-03-14,130,392!2028-01-13,676,412!2026-03-13,129,392-->
+To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`}@}. Both are {@{equivalent}@} except that you need to {@{escape double quotes in the strings for the first one and single quotes for the second one}@}. To escape a character, {@{precede the character with a backslash `\`}@}, like {@{`"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. <!--SR:!2026-12-16,785,330!2026-05-01,625,330!2026-03-14,130,392!2028-01-13,676,412!2028-02-02,691,412-->
 
 ## list
 

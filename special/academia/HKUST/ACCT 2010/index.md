@@ -197,7 +197,7 @@ The content is in teaching order.
 - [net sales](../../../../general/sales%20(accounting).md#gross%20sales%20and%20net%20sales) ::@:: $${\text{gross sales} }-{\text{(customer discounts, returns, allowances)} }$$ For the service industry, the latter does not really exist, so it's simply gross sales, or operating revenues. <!--SR:!2026-09-13,520,403!2026-10-05,539,403-->
 - [profit margin](../../../../general/profit%20margin.md)
   - net profit margin ::@:: $$100\% \cdot \frac {\text{net income} } {\text{net sales} }$$ (Expressing it as a fraction or ratio, i.e. not multiplying by 100%, is also okay!) <!--SR:!2026-08-02,485,396!2026-07-01,460,403-->
-    - net profit margin / interpretation ::@:: It can be used to assess how effective the directors are in generating net income (profit) on every dollar of sales. A rising ratio signals more efficient management of sales and expenses. <!--SR:!2030-12-30,1775,396!2026-03-13,361,376-->
+    - net profit margin / interpretation ::@:: It can be used to assess how effective the directors are in generating net income (profit) on every dollar of sales. A rising ratio signals more efficient management of sales and expenses. <!--SR:!2030-12-30,1775,396!2031-04-14,1858,396-->
 - [§ week 3 review](questions.md#week%203%20review)
 
 ## week 5 lecture 1
@@ -435,7 +435,7 @@ The content is in teaching order.
   - equity / primary sources ::@:: retained earnings, contributed capital (common stock, par value + additional paid-in capital) <!--SR:!2026-09-10,519,403!2031-03-09,1828,396-->
 - [par value](../../../../general/par%20value.md) ::@:: It means  stated value or face value of a financial instrument. It may be a nominal value. It may also be a legal capital (the amount of capital, required by the state, that must remain invested in the business). <!--SR:!2026-10-04,538,403!2030-12-04,1761,403-->
   - par value / interpretation ::@:: Par value does not equal market value. It is misleading to a certain extent. It is arbitrarily assigned to each share of stock in the memorandum of association (corporate charter). <!--SR:!2026-08-04,487,403!2026-09-20,526,403-->
-  - par value / legislation ::@:: In the US, most states allow the issue of no-par stock. But, corporations must state whether the shares are with par value or without par value. <p> With effect from 2014-03-03, effective date of the new Companies Ordinance (Cap.622), HK retires the concept of par value. <!--SR:!2026-03-13,364,383!2026-07-15,441,343-->
+  - par value / legislation ::@:: In the US, most states allow the issue of no-par stock. But, corporations must state whether the shares are with par value or without par value. <p> With effect from 2014-03-03, effective date of the new Companies Ordinance (Cap.622), HK retires the concept of par value. <!--SR:!2031-05-31,1905,403!2026-07-15,441,343-->
 - initial public offering (IPO) ::@:: first time sells its stock to the public <!--SR:!2026-10-06,540,403!2026-09-28,533,403-->
 - seasoned equity issue (SEO) ::@:: new equity issue by an already publicly traded company <!--SR:!2026-07-02,460,396!2026-09-18,524,403-->
 - share capital
@@ -517,7 +517,7 @@ The content is in teaching order.
 - datetime: 2024-11-19T13:30:00+08:00/2024-11-19T14:50:00+08:00
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
   - investing activities
-    - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2026-08-23,503,403!2026-03-13,364,383-->
+    - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2026-08-23,503,403!2031-06-03,1908,403-->
     - investing activities / calculation ::@:: purchase PPE or tangible assets for _cash_: outflow (−) <br/> sell or dispose PPE or intangible assets for _cash_: inflow (+) <br/> purchase investment securities for _cash_: outflow (−) <br/> sell (mature) investment securities for _cash_: inflow (+) <!--SR:!2029-11-22,1411,383!2026-08-12,492,403-->
     - investing activities / interpretation ::@:: To assess a company's ability to internally finance its expansion needs <br/> Two categories: PPE, short- and long-term investments <!--SR:!2026-09-05,515,403!2026-09-23,528,403-->
   - financing activities

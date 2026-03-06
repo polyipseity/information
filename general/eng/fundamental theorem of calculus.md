@@ -34,7 +34,7 @@ Additionally, if {@{$f$ is [Lebesgue integrable](Lebesgue%20integrable.md)}@}, t
 >
 > Given {@{a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and $F$ {@{an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b) \,,$$}@} then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a) \,.$$}@} <!--SR:!2028-12-14,1038,230!2026-03-17,19,342!2026-03-17,19,342!2026-03-17,19,342-->
 
-The corollary requires {@{$f$ to be [continuous](continuous%20function.md) on the entire [interval](interval%20(mathematics).md)}@}. This condition is {@{relaxed in the [second part of the theorem](#second%20part)}@}. <!--SR:!2026-03-13,573,310!2026-03-17,19,342-->
+The corollary requires {@{$f$ to be [continuous](continuous%20function.md) on the entire [interval](interval%20(mathematics).md)}@}. This condition is {@{relaxed in the [second part of the theorem](#second%20part)}@}. <!--SR:!2032-12-03,2457,330!2026-03-17,19,342-->
 
 ### second part
 

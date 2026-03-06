@@ -47,7 +47,7 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 - Marginal Revenue ::@:: = Change in Total Revenue / Change in Quantity of goods <!--SR:!2030-06-06,1550,361!2030-04-10,1506,361-->
 - Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2026-10-19,491,321!2029-09-25,1342,350-->
 - Total Revenue ::@:: = Price X Quantity of goods <!--SR:!2030-03-06,1479,361!2030-03-30,1497,361-->
-- Average Revenue ::@:: = TR / Quantity of goods <!--SR:!2030-02-26,1472,361!2026-03-13,335,341-->
+- Average Revenue ::@:: = TR / Quantity of goods <!--SR:!2030-02-26,1472,361!2030-07-06,1576,361-->
 - Total Product ::@:: = AP X Variable Factor <!--SR:!2027-09-05,747,341!2030-04-01,1498,361-->
 - Profit ::@:: = TR – TC or \(P-ATC\)\*Q <!--SR:!2030-06-21,1564,361!2030-04-29,1521,361-->
 - Loss ::@:: = TC – TR \(if positive\) <!--SR:!2030-02-06,1456,361!2029-09-26,1343,350-->

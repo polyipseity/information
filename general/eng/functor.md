@@ -57,7 +57,7 @@ There are {@{many constructions in mathematics that would be functors}@} but for
 
 Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-09-29,1345,350!2029-09-27,1343,350-->
 
-- The composite of two functors of the same variance: ::@:: (annotation: composite is covariant) <!--SR:!2029-03-19,1118,346!2026-03-13,339,357-->
+- The composite of two functors of the same variance: ::@:: (annotation: composite is covariant) <!--SR:!2029-03-19,1118,346!2030-09-29,1661,377-->
   - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
   - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
 - The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant) <!--SR:!2030-08-20,1628,377!2026-03-30,352,357-->

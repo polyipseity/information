@@ -24,7 +24,7 @@ tags:
 
 In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-03-31,61,310!2026-04-01,62,310!2026-03-26,59,310!2026-03-14,55,310!2026-04-01,65,310!2026-04-03,67,310!2026-03-29,62,310!2026-04-02,63,310!2026-04-06,67,310!2026-03-28,61,310!2026-03-24,57,310!2026-04-01,65,310-->
 
-Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!2026-03-13,54,310!2026-03-27,60,310!2026-04-02,66,310!2026-03-13,54,310!2026-04-01,65,310!2026-03-17,58,310!2026-03-13,54,310-->
+Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!2026-11-01,233,330!2026-03-27,60,310!2026-04-02,66,310!2026-11-04,236,330!2026-04-01,65,310!2026-03-17,58,310!2026-10-29,230,330-->
 
 Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shared mutable state}@}, remove {@{lock‑based synchronization, and avoid deadlocks}@} while still allowing {@{many actors to run concurrently}@}. This makes Scala programs easier to {@{write, reason about, and scale on modern multicore hardware}@}. <!--SR:!2026-03-17,58,310!2026-03-17,58,310!2026-03-31,64,310!2026-04-01,65,310!2026-04-02,66,310-->
 
@@ -54,7 +54,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 > }
 > ```
 >
-> While {@{correct}@}, {@{the locks}@} can {@{serialize access and expose the program to deadlocks}@} when {@{multiple accounts are involved}@}. <!--SR:!2026-03-27,60,310!2026-04-01,65,310!2026-03-13,54,310!2026-03-31,64,310!2026-03-16,57,310!2026-04-01,65,310-->
+> While {@{correct}@}, {@{the locks}@} can {@{serialize access and expose the program to deadlocks}@} when {@{multiple accounts are involved}@}. <!--SR:!2026-03-27,60,310!2026-04-01,65,310!2026-11-02,234,330!2026-03-31,64,310!2026-03-16,57,310!2026-04-01,65,310-->
 
 {@{A classic deadlock}@} occurs when {@{two actors (or threads)}@} {@{lock shared resources in reverse order}@}. <!--SR:!2026-03-17,58,310!2026-03-29,62,310!2026-03-28,61,310-->
 
@@ -103,13 +103,13 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ## history
 
-{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-03-24,57,310!2026-03-17,58,310!2026-03-28,61,310!2026-03-17,58,310!2026-03-13,54,310!2026-03-29,62,310!2026-03-31,64,310!2026-03-17,58,310!2026-03-17,58,310-->
+{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-03-24,57,310!2026-03-17,58,310!2026-03-28,61,310!2026-03-17,58,310!2026-11-05,237,330!2026-03-29,62,310!2026-03-31,64,310!2026-03-17,58,310!2026-03-17,58,310-->
 
 ## actor
 
 {@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-03-29,62,310!2026-03-28,61,310!2026-03-28,61,310!2026-03-17,58,310!2026-03-31,64,310!2026-04-05,66,310-->
 
-{@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2026-03-31,64,310!2026-03-13,54,310!2026-03-29,59,310!2026-03-15,56,310-->
+{@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2026-03-31,64,310!2026-10-27,228,330!2026-03-29,59,310!2026-03-15,56,310-->
 
 > [!example] __Scala `Actor` trait__
 >
@@ -140,7 +140,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ### actor creation
 
-Actors are {@{instantiated through the actor system}@}, which supplies {@{a unique reference}@}. {@{A reference (`ActorRef`)}@} is what {@{other actors use to send messages}@}: <!--SR:!2026-03-13,54,310!2026-03-16,57,310!2026-04-02,66,310!2026-03-29,59,310-->
+Actors are {@{instantiated through the actor system}@}, which supplies {@{a unique reference}@}. {@{A reference (`ActorRef`)}@} is what {@{other actors use to send messages}@}: <!--SR:!2026-11-01,233,330!2026-03-16,57,310!2026-04-02,66,310!2026-03-29,59,310-->
 
 > [!example] __creating an actor__
 >
@@ -156,7 +156,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2026-03-31,64,310!2026-03-15,56,310!2026-03-25,58,310!2026-03-13,54,310!2026-03-31,61,310!2026-03-16,57,310!2026-04-03,67,310!2026-03-17,58,310!2026-03-25,58,310!2026-03-30,63,310-->
+> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2026-03-31,64,310!2026-03-15,56,310!2026-03-25,58,310!2026-10-31,232,330!2026-03-31,61,310!2026-03-16,57,310!2026-04-03,67,310!2026-03-17,58,310!2026-03-25,58,310!2026-03-30,63,310-->
 
 ### message passing
 
@@ -282,7 +282,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 
 ## entry point
 
-{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!2026-03-16,57,310!2026-03-13,54,310!2026-03-31,64,310!2026-03-13,54,310!2026-03-17,58,310!2026-04-02,66,310-->
+{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!2026-03-16,57,310!2026-11-03,235,330!2026-03-31,64,310!2026-10-30,231,330!2026-03-17,58,310!2026-04-02,66,310-->
 
 > [!example] __`Main` actor__
 >
@@ -339,7 +339,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 >     case _                    => sender() ! Failed
 > }
 > ```
-<!--SR:!2026-03-26,59,310!2026-03-29,62,310!2026-03-28,61,310!2026-03-13,54,310!2026-03-16,57,310!2026-03-30,63,310-->
+<!--SR:!2026-03-26,59,310!2026-03-29,62,310!2026-03-28,61,310!2026-11-04,236,330!2026-03-16,57,310!2026-03-30,63,310-->
 
 {@{A `WireTransfer` actor}@} demonstrates how {@{two bank accounts can cooperate without shared state}@}. It first asks {@{the source account to withdraw}@}, waits for {@{its reply}@}, and only then {@{deposits into the destination}@}. <!--SR:!2026-04-02,66,310!2026-03-17,58,310!2026-04-05,66,310!2026-03-14,55,310!2026-03-31,64,310-->
 
@@ -376,7 +376,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 > ```
 <!--SR:!2026-04-04,65,310!2026-03-30,63,310!2026-03-24,57,310-->
 
-{@{The actor hierarchy}@} is therefore {@{safe and composable}@}: each account owns {@{its own balance}@}, {@{the transfer logic}@} runs {@{in a separate actor}@}, and all communication proceeds {@{through immutable messages}@}. This pattern illustrates how actors avoid {@{shared‑memory pitfalls}@} while enabling {@{fine‑grained concurrent interactions}@}. <!--SR:!2026-03-31,64,310!2026-03-26,59,310!2026-03-24,57,310!2026-03-13,54,310!2026-03-26,59,310!2026-04-01,65,310!2026-03-14,55,310!2026-03-30,63,310-->
+{@{The actor hierarchy}@} is therefore {@{safe and composable}@}: each account owns {@{its own balance}@}, {@{the transfer logic}@} runs {@{in a separate actor}@}, and all communication proceeds {@{through immutable messages}@}. This pattern illustrates how actors avoid {@{shared‑memory pitfalls}@} while enabling {@{fine‑grained concurrent interactions}@}. <!--SR:!2026-03-31,64,310!2026-03-26,59,310!2026-03-24,57,310!2026-11-03,235,330!2026-03-26,59,310!2026-04-01,65,310!2026-03-14,55,310!2026-03-30,63,310-->
 
 ## message delivery
 
@@ -386,7 +386,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 - _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2026-04-02,66,310!2026-04-04,65,310-->
 - _exactly-once_: ::@:: the system guarantees that only the first reception is processed, typically by combining at‑least‑once delivery with idempotent handlers or persistent state. <!--SR:!2026-03-24,57,310!2026-03-31,64,310-->
 
-One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!2026-03-13,54,310!2026-03-15,56,310!2026-04-03,67,310!2026-03-17,58,310!2026-03-13,54,310!2026-04-03,67,310!2026-04-03,64,310-->
+One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!2026-11-05,237,330!2026-03-15,56,310!2026-04-03,67,310!2026-03-17,58,310!2026-11-04,236,330!2026-04-03,67,310!2026-04-03,64,310-->
 
 > [!example] __reliable transfer using IDs__
 >
@@ -447,7 +447,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-03-26,59,310!2026-03-30,63,310!2026-04-06,67,310-->
 
-{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2026-04-06,67,310!2026-03-31,64,310!2026-04-03,67,310!2026-03-17,58,310!2026-03-25,58,310!2026-04-03,67,310!2026-03-13,54,310-->
+{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2026-04-06,67,310!2026-03-31,64,310!2026-04-03,67,310!2026-03-17,58,310!2026-03-25,58,310!2026-04-03,67,310!2026-11-05,237,330-->
 
 > [!example] __`Getter` actor__
 >
@@ -467,7 +467,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >     context.parent ! Done
 >     context.stop(self)
 > ```
-<!--SR:!2026-03-26,59,310!2026-04-01,62,310!2026-03-13,54,310!2026-04-01,65,310!2026-03-13,54,310!2026-03-24,57,310!2026-03-28,61,310-->
+<!--SR:!2026-03-26,59,310!2026-04-01,62,310!2026-10-28,229,330!2026-04-01,65,310!2026-11-03,235,330!2026-03-24,57,310!2026-03-28,61,310-->
 
 {@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2026-04-05,66,310!2026-03-24,57,310!2026-03-27,60,310!2026-03-27,60,310!2026-03-17,58,310-->
 
@@ -508,7 +508,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     // other cases …
 > ```
 >
-> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-03-14,55,310!2026-03-14,55,310!2026-04-06,67,310!2026-03-25,58,310!2026-03-16,57,310!2026-03-31,64,310!2026-03-13,54,310!2026-03-30,60,310!2026-03-17,58,310!2026-04-05,66,310!2026-04-03,67,310-->
+> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-03-14,55,310!2026-03-14,55,310!2026-04-06,67,310!2026-03-25,58,310!2026-03-16,57,310!2026-03-31,64,310!2026-11-04,236,330!2026-03-30,60,310!2026-03-17,58,310!2026-04-05,66,310!2026-04-03,67,310-->
 
 {@{A `Cache` actor}@} may be {@{further split from the `Controller` actor}@}. <!--SR:!2026-03-14,55,310!2026-03-17,58,310-->
 
@@ -531,7 +531,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 > ```
 <!--SR:!2026-04-02,66,310!2026-03-26,59,310-->
 
-{@{The `Receptionist`}@} {@{serialises incoming requests}@} and limits {@{the number of concurrent crawls}@}. It uses {@{`context.become`}@} to switch between {@{waiting and running states}@} while keeping state {@{local to each behavior}@}. <!--SR:!2026-03-17,58,310!2026-03-24,57,310!2026-04-01,65,310!2026-04-03,67,310!2026-03-13,54,310!2026-03-29,62,310-->
+{@{The `Receptionist`}@} {@{serialises incoming requests}@} and limits {@{the number of concurrent crawls}@}. It uses {@{`context.become`}@} to switch between {@{waiting and running states}@} while keeping state {@{local to each behavior}@}. <!--SR:!2026-03-17,58,310!2026-03-24,57,310!2026-04-01,65,310!2026-04-03,67,310!2026-11-02,234,330!2026-03-29,62,310-->
 
 > [!example] __`Receptionist` actor__
 >

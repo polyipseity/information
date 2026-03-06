@@ -22,7 +22,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ## loops
 
-{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!2026-03-13,54,310!2026-04-01,67,310!2026-03-30,65,310-->
+{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!2026-10-27,228,330!2026-04-01,67,310!2026-03-30,65,310-->
 
 > [!example] __Scala `while` loop__
 >
@@ -53,7 +53,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ### repeat loops
 
-{@{The `repeatUntil` command}@} runs {@{at least once}@} and stops when {@{the condition becomes true}@}. <!--SR:!2026-03-22,57,310!2026-03-13,54,310!2026-03-25,60,310-->
+{@{The `repeatUntil` command}@} runs {@{at least once}@} and stops when {@{the condition becomes true}@}. <!--SR:!2026-03-22,57,310!2026-11-02,234,330!2026-03-25,60,310-->
 
 > [!example] __`repeatUntil` function__
 >
@@ -83,7 +83,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > ```Scala
 > repeat { /* ... */ } until cond
 > ```
-<!--SR:!2026-03-27,62,310!2026-03-13,54,310!2026-03-17,58,310-->
+<!--SR:!2026-03-27,62,310!2026-08-26,166,310!2026-03-17,58,310-->
 
 ### for-loops
 
@@ -129,7 +129,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > def andGate(a: Wire, b: Wire, out: Wire): Unit = ...
 > def orGate(a: Wire, b: Wire, out: Wire): Unit = ...
 > ```
-<!--SR:!2026-03-22,57,310!2026-03-14,55,310!2026-03-13,54,310!2026-03-25,60,310-->
+<!--SR:!2026-03-22,57,310!2026-03-14,55,310!2026-10-28,229,330!2026-03-25,60,310-->
 
 {@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-03-17,58,310!2026-03-27,62,310!2026-03-17,58,310!2026-03-23,58,310!2026-03-15,56,310!2026-03-24,59,310!2026-03-15,56,310!2026-03-26,61,310!2026-03-29,64,310-->
 
@@ -148,7 +148,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### simulation engine
 
-{@{The simulation}@} is driven by {@{an agenda of delayed actions}@}. {@{The abstract `Simulation` trait}@} supplies {@{the core API}@}: <!--SR:!2026-03-27,62,310!2026-03-28,63,310!2026-03-22,57,310!2026-03-13,54,310-->
+{@{The simulation}@} is driven by {@{an agenda of delayed actions}@}. {@{The abstract `Simulation` trait}@} supplies {@{the core API}@}: <!--SR:!2026-03-27,62,310!2026-03-28,63,310!2026-03-22,57,310!2026-10-29,230,330-->
 
 > [!example] __simulation trait skeleton__
 >
@@ -178,6 +178,6 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >     println(s”$name $currentTime value = ${wire.getSignal()}”)
 >   wire.addAction(probeAction)
 > ```
-<!--SR:!2026-03-13,54,310!2026-03-30,65,310!2026-03-13,54,310!2026-03-15,56,310-->
+<!--SR:!2026-11-04,236,330!2026-03-30,65,310!2026-11-03,235,330!2026-03-15,56,310-->
 
 By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2026-04-01,67,310!2026-03-15,56,310!2026-03-22,57,310-->
