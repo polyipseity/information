@@ -25,6 +25,8 @@ tags:
 
 Electronic components are the building blocks of electronic circuits; they affect how currents flow and voltages appear, and range from passive elements such as resistors and capacitors to active semiconductor devices like diodes and transistors.  In ELEC 1100 the scope is expanded to include the underlying electrical concepts required to understand component behaviour, together with the power sources and delivery systems (batteries, supplies) that energise a robot’s electronic subsystems.
 
+Common schematic symbols used throughout the notes: <p> ![resistor symbol](attachments/symbol_resistor.svg) <p> ![capacitor symbol](attachments/symbol_capacitor.svg) <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) <p> ![ground symbol](attachments/symbol_ground.svg)
+
 ---
 
 Flashcards for this section are as follows:
@@ -34,6 +36,10 @@ Flashcards for this section are as follows:
 - course context ::@:: In ELEC 1100, electronic components also include basic electrical concepts needed to understand how components operate.
 - active device examples ::@:: Active semiconductor devices include diodes and transistors, distinguishing them from passive elements.
 - power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy.
+- schematic symbol: resistor <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Resistor symbol (zigzag/box style depending on standard) representing a component that limits current and creates voltage drops.
+- schematic symbol: capacitor <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Capacitor symbol (two plates) representing a component that stores charge/energy in an electric field.
+- schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference.
+- schematic symbol: ground (GND, $0\text{ V}$ reference) <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: Ground/reference node symbol ( $0\text{ V}$ reference) used as the circuit’s common return.
 
 ## electrical fundamentals
 

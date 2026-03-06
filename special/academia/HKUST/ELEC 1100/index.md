@@ -55,8 +55,11 @@ The content is in teaching order.
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
+- [diode](diode.md)
 - [electronic component](electronic%20component.md)
 - [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+- [transistor](transistor.md)
+- [voltage regulator](voltage%20regulator.md)
 
 ## assignments
 
@@ -220,13 +223,42 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: DC regulation
 - ELEC 1100
-  - ELEC 1100 / DC regulation ::@:: Voltage regulation basics
+  - ELEC 1100 / DC regulation: why use a regulator with a DC source? ::@:: DC sources are non-ideal; regulation provides predictable output voltage rails.
+    - ELEC 1100 / DC regulation / direct current (DC) ::@:: “Unidirectional” current flow; in practice used as an adjective meaning approximately “constant” voltage/current (vs AC oscillation).
+    - ELEC 1100 / DC regulation / common DC source ::@:: Batteries provide DC voltage from chemical reactions; AC adapters convert wall AC into DC for devices like laptops.
+    - ELEC 1100 / DC regulation / connecting ideal sources ::@:: Ideal voltage sources can be in series; they can be in parallel only if they have the same value (different values in parallel is invalid).
+    - ELEC 1100 / DC regulation / KVL two-source example: A single loop has two ideal DC sources $V_1=9\text{ V}$ and $V_2=5\text{ V}$ connected in series but opposing (their + terminals face the resistor), with a resistor $R=100\,\Omega$ between the two + terminals. Assume loop current $I$ flows from the $V_1$ + terminal through $R$ toward the $V_2$ + terminal. Find the resistor voltage magnitude $V_R$, the current $I$, and resistor power $P$. ::@:: With the stated polarities and traversal direction, KVL gives $-V_1 + IR + V_2 = 0$, so $IR = V_1 - V_2 = 4\text{ V}$. Therefore $I = V_R/R = 4/100 = 0.04\text{ A}$ and $P = V_R^{2}/R = 4^{2}/100 = 0.16\text{ W}$.
+    - ELEC 1100 / DC regulation / why regulation is needed ::@:: Battery terminal voltage varies with discharge, temperature, and internal resistance; a regulator makes the supply predictable for circuits.
+    - ELEC 1100 / DC regulation / non-ideal source model: Use $V_{\text{out}} = V_{S} - iR_{S}$ to model source droop. ::@:: Practical source has internal resistance $R_S$ in series so $V_{\text{out}} = V_{S} - iR_{S}$ (output droops as load current increases).
+  - ELEC 1100 / [voltage regulator](voltage%20regulator.md): define regulated $V_{\text{out}}$ vs $V_{\text{in}}$ and load. ::@:: A regulator maintains approximately constant $V_{\text{out}}$ despite changes in $V_{\text{in}}$ and load current (within range).
+    - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed) ::@:: Batteries droop with discharge/temperature and with load due to internal resistance.
+    - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators): what does the Zener clamp near $V_Z$ do? ::@:: A Zener in reverse breakdown can clamp a node near $V_Z$ when used with a series current-limiting resistor.
+    - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805)): what rails are produced ($12\text{ V}$ motor, $5\text{ V}$ logic)? ::@:: LM7805 provides regulated $5\text{ V}$ from a higher input; project uses $12\text{ V}$ for motors and regulated $5\text{ V}$ for other circuits with stabilizing capacitors.
+    - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics): define line and load regulation as $\Delta V_O/\Delta V_I$ and $\Delta V_O/\Delta I_O$. ::@:: Line regulation $\Delta V_O/\Delta V_I$ and load regulation $\Delta V_O/\Delta I_O$ should ideally be $0$.
 
 ### week 4 lecture 2
 
 - datetime: 2026-02-27T11:30:00+08:00/2026-02-27T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: transistors
+- ELEC 1100
+  - ELEC 1100 / [diode](diode.md)
+    - ELEC 1100 / diode / circuit analysis (ideal or $0.7\text{ V}$ drop model): overall method? ::@:: Pick a diode model (ideal or constant $0.7\text{ V}$). Assume the diode is ON or OFF, replace it with the equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open), then solve the circuit using KVL/Ohm’s law.
+    - ELEC 1100 / diode / circuit analysis consistency check ($V_D$, $I_D$): what do you verify? ::@:: After solving, check that the computed diode voltage/current match the assumed state (forward-bias with $V_D\approx0.7\text{ V}$ and $I_D>0$ for ON; reverse/blocked with $I_D\approx0$ for OFF). If inconsistent, flip the assumption and re-solve.
+    - ELEC 1100 / diode / [pn junction and biasing](diode.md#pn%20junction%20and%20biasing) ($\approx0.7\text{ V}$ barrier, anode/cathode): key ideas? ::@:: PN junction is formed by joining P-type and N-type semiconductor regions; the depletion region creates a barrier potential of about $0.7\text{ V}$ for silicon.<br/> The P side is the anode and the N side the cathode; forward bias (anode higher than cathode) allows current, reverse bias blocks it. Conventional current flows from anode to cathode when forward biased.
+    - ELEC 1100 / diode / [diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models) (ideal vs $0.7\text{ V}$ model, ON/OFF method): key points? ::@:: Ideal model: diode is a short when forward biased and an open when reverse biased.<br/> Constant-voltage model: when ON, $V_D\approx0.7\text{ V}$; when OFF, $I_D\approx0$. Use the ON/OFF assumption method: assume a state, replace with the equivalent circuit, solve, then check consistency of $V_D$ and $I_D$ with that state.
+    - ELEC 1100 / diode / [simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety) (e.g. $1\text{ k}\Omega$ series $R$): why? ::@:: In a series source–resistor–diode circuit, use $I_D\approx(V_S-0.7\text{ V})/R$ when the diode is ON and $V_S>0.7\text{ V}$; when $V_S<0.7\text{ V}$ the diode is OFF and $I_D\approx0$.<br/> A series resistor (e.g. $1\text{ k}\Omega$) is essential to limit current through the diode or LED so that the device is not damaged by excessive current when it turns on.
+  - ELEC 1100 / transistor basics: terminals and types (C, B, E; NPN/PNP)? ::@:: A BJT has three terminals: collector (C), base (B), emitter (E). The two main types are NPN and PNP.
+  - ELEC 1100 / transistor basics: what are $V_{CC}$ and $V_{CE}$ ($V_{CE}=V_C-V_E$)? ::@:: $V_{CC}$ is the DC supply rail feeding the collector/load network. $V_{CE}$ is the collector-to-emitter voltage: $V_{CE}=V_C-V_E$.
+  - ELEC 1100 / transistor basics: three modes (OFF/AMP/SAT) using $I_B$, $I_C$, $\beta$, $V_{CE}$? ::@:: OFF: $I_B\approx0\Rightarrow I_C\approx0$. AMPLIFICATION: $I_C\approx\beta I_B$. SATURATION: $I_C$ limited by the external circuit and $V_{CE}\approx0.2\text{ V}$.
+    - ELEC 1100 / transistor / [structure](transistor.md#structure) (C, B, E; NPN/PNP symbol): key points? ::@:: BJT is a PN junction with an extra layer (NPN or PNP); base is the middle leg in the symbol, emitter has the arrow (out for NPN, in for PNP), collector is the other leg.
+    - ELEC 1100 / transistor / [historical context](transistor.md#historical%20context): key points? ::@:: First working transistor at Bell Labs (1947, Bardeen, Brattain, Shockley); foundation of modern electronics (computers, phones); Shockley’s company in Palo Alto helped start Silicon Valley.
+    - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): OFF condition ($V_{BE}<0.7\text{ V}$)? ::@:: OFF: if $V_{BE}<0.7\text{ V}$ then the B–E junction is not forward-biased, so $I_B\approx0$ and therefore $I_C\approx0$ (no conduction).
+    - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): amplification/active ($V_{BE}>0.7\text{ V}$, $I_C\approx\beta I_B$)? ::@:: AMPLIFICATION (active): with $V_{BE}>0.7\text{ V}$, a small base current flows and the collector current is approximately $I_C\approx\beta I_B$; $V_{CE}$ is not forced tiny (it sits somewhere between saturation and the supply).
+    - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): saturation ($V_{CE}\approx0.2\text{ V}$, $I_C\approx I_{C,\max}$)? ::@:: SATURATION: base drive is strong enough that the circuit limits the collector current, so $I_C\approx I_{C,\max}$ (e.g. $\approx(V_{CC}-0.2\text{ V})/R_C$) and $V_{CE}\approx0.2\text{ V}$; increasing $I_B$ further does not increase $I_C$ much.
+    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): what does “NPN low-side” mean? ::@:: “Low-side” means the transistor is between the load and ground, so current flows supply → load → transistor → ground (when on).
+    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): NPN low-side connections (E, C, base / $R_B$)? ::@:: Emitter to ground, collector to the load (and the other side of the load to $V_{CC}$), base driven from $V_{\text{IN}}$ through a resistor $R_B$ to limit $I_B$.
+    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): OFF vs ON condition ($V_{\text{IN}}<0.7\text{ V}$, saturation)? ::@:: If $V_{\text{IN}}<0.7\text{ V}$ then $V_{BE}$ is not forward-biased and the transistor is OFF ($I_C\approx0$). If $V_{\text{IN}}$ is high enough to drive base current, the transistor can turn ON; if base drive is strong it saturates with $V_{CE}\approx0.2\text{ V}$ and the load current is near its maximum.
 
 ### week 5 lab 1
 
