@@ -39,7 +39,7 @@ In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represent
 > foo[List, Int](_ :: Nil, 1)          // List(1)
 > foo[Option, String](Some(_), "fuel") // Option("fuel")
 > ```
-<!--SR:!2026-03-15,56,310!2026-03-17,58,310!2026-04-08,67,310!2026-03-12,46,290-->
+<!--SR:!2026-03-15,56,310!2026-03-17,58,310!2026-04-08,67,310!2026-09-09,181,310-->
 
 ## type functions
 
@@ -63,7 +63,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 
 - _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-03-25,59,310!2026-03-15,56,310-->
 - _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!2026-03-13,54,310!2026-03-14,55,310-->
-- _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-03-12,46,290!2026-04-02,67,310-->
+- _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-09-12,184,310!2026-04-02,67,310-->
 
 {@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2026-04-01,66,310!2026-03-13,54,310!2026-03-26,60,310!2026-03-31,65,310!2026-03-28,62,310-->
 

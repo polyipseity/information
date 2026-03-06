@@ -29,7 +29,7 @@ There are {@{many kinds of windows}@}. Some common ones and their two main metri
 
 - rectangular window ::@:: about 2 bins; about −13.3&nbsp;dB <!--SR:!2026-06-10,266,330!2026-05-03,234,330-->
 - Hanning window ::@:: about 4 bins; about −31.5&nbsp;dB <!--SR:!2026-05-08,239,330!2026-04-30,232,330-->
-- Hamming window ::@:: about 4 bins; about −42.7&nbsp;dB <!--SR:!2026-03-12,180,310!2026-05-15,245,330-->
+- Hamming window ::@:: about 4 bins; about −42.7&nbsp;dB <!--SR:!2028-04-21,771,330!2026-05-15,245,330-->
 - Blackman window ::@:: about 6 bins; about −58&nbsp;dB <!--SR:!2026-05-25,253,330!2026-05-22,251,330-->
 - Blackman–Harris window ::@:: about 8 bins; about −92&nbsp;dB <!--SR:!2026-05-12,242,330!2026-05-14,244,330-->
 
@@ -41,7 +41,7 @@ There are {@{many factors}@} affecting the result of STFT: {@{window function, w
 
 - window function ::@:: frequency resolution vs. frequency noise <!--SR:!2026-05-19,248,330!2026-06-30,281,330-->
 - window size ::@:: frequency resolution \(wider is better\) vs. time resolution \(narrower is better\) <!--SR:!2026-05-19,248,330!2026-05-25,253,330-->
-- window size evenness/oddness ::@:: Even window size cannot give a symmetric window, while odd window size can. So odd window size is better, since there will not be phase offsetting in the frequency domain. <!--SR:!2026-03-12,180,310!2026-06-03,260,330-->
+- window size evenness/oddness ::@:: Even window size cannot give a symmetric window, while odd window size can. So odd window size is better, since there will not be phase offsetting in the frequency domain. <!--SR:!2028-04-22,772,330!2026-06-03,260,330-->
 - FFT size ::@:: We are effectively zero-padding the window evenly on both sides if the FFT size exceeds the window size, since the window function is zero outside the window size. Remember this simply makes the resulting frequency signal have more bins, i.e. the frequency signal produced by a _continuous_ FT is sampled more often. <!--SR:!2026-05-26,254,330!2026-04-26,228,330-->
 - hop size ::@:: The hop size should be set so that when you add the shifted window functions together, a horizontal line appears in the middle, and only tapering off at the time signal boundaries. In this case, inverse STFT will recover the signal perfectly \(except for the edges\). <p> The reason is remember the time signal is weighted using the window function. Intuitively, each time signal value should ideally contribute equally to STFT. <!--SR:!2026-05-16,246,330!2026-06-20,274,330-->
 

@@ -124,7 +124,7 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 
 In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-09-29,1385,356!2028-07-30,1042,350!2030-05-06,1572,370!2031-04-06,1852,382!2028-05-23,1002,362!2026-03-28,388,362!2026-03-21,383,362!2026-07-17,443,322!2029-10-01,1388,356!2029-05-13,1266,362-->
 
-- _G_ is ::@:: connected. <!--SR:!2026-03-12,374,362!2026-04-06,396,362-->
+- _G_ is ::@:: connected. <!--SR:!2031-04-17,1862,382!2026-04-06,396,362-->
 - _G_ has ::@:: [countable sets](countable%20set.md) of vertices and edges. <!--SR:!2029-10-12,1396,356!2031-01-28,1798,382-->
 - _G_ has no ::@:: vertices of \(finite\) odd degree. <!--SR:!2026-03-31,391,362!2026-04-02,393,362-->
 - Removing ::@:: (the edges of) any finite subgraph _S_ from _G_ leaves at most two infinite connected components in the remaining graph, and if _S_ has even degree at each of its vertices then removing _S_ leaves exactly one infinite connected component. <!--SR:!2026-04-06,338,302!2027-07-27,742,342-->
@@ -182,7 +182,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 ## notes
 
-1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2026-03-12,374,362!2031-02-27,1823,382!2026-03-27,387,362!2030-12-31,1776,382!2026-03-31,391,362!2026-03-27,388,362!2028-01-20,896,350!2026-03-30,390,362-->
+1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2031-04-18,1863,382!2031-02-27,1823,382!2026-03-27,387,362!2030-12-31,1776,382!2026-03-31,391,362!2026-03-27,388,362!2028-01-20,896,350!2026-03-30,390,362-->
 
 ## references
 

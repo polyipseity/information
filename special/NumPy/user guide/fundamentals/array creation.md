@@ -122,7 +122,7 @@ array([[1., 0., 0., 0., 0.],
        [0., 0., 1., 0., 0.]])
 ```
 
-{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can define either {@{a square 2D array with given values along the diagonal}@} _or_ {@{if given a 2D array returns a 1D array that is only the diagonal elements}@}. {@{The two array creation functions}@} can be helpful while {@{doing linear algebra}@}, as such: <!--SR:!2026-03-12,140,310!2029-03-22,1246,350!2026-03-29,129,405!2026-04-11,140,405!2026-04-11,140,405-->
+{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can define either {@{a square 2D array with given values along the diagonal}@} _or_ {@{if given a 2D array returns a 1D array that is only the diagonal elements}@}. {@{The two array creation functions}@} can be helpful while {@{doing linear algebra}@}, as such: <!--SR:!2027-11-03,601,330!2029-03-22,1246,350!2026-03-29,129,405!2026-04-11,140,405!2026-04-11,140,405-->
 
 ```Python
 >>> import numpy as np

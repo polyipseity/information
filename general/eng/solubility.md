@@ -168,7 +168,7 @@ return (
 > sulfites
 >
 > - general solubility: {@{<span style="color: red;">insoluble</span>}@}
-> - exception(s): {@{group I and NH<sub>4</sub><sup>+</sup> compounds}@} <!--SR:!2026-03-12,386,186!2026-05-24,464,190-->
+> - exception(s): {@{group I and NH<sub>4</sub><sup>+</sup> compounds}@} <!--SR:!2029-01-06,1031,206!2026-05-24,464,190-->
 
 <!-- markdownlint MD028 -->
 

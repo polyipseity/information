@@ -241,7 +241,7 @@ There are {@{several ways to remember the modern terminology}@}. First of all, <
 - equalizers, and
 - domains
 
-(annotation: {@{kernels, products, equalizers, domains}@}) are {@{types of limits}@}. Second, {@{the prefix "co"}@} {@{implies "first variable of the $\operatorname {Hom}$"}@}. {@{Terms like "cohomology" and "cofibration"}@} all have {@{a slightly stronger association with the first variable}@}, i.e., {@{the contravariant variable, of the $\operatorname {Hom}$ bifunctor}@}. <!--SR:!2026-03-12,328,353!2029-01-05,1127,350!2026-03-15,331,353!2029-02-22,1167,350!2030-04-23,1522,373!2029-05-12,1217,358!2026-04-26,366,358-->
+(annotation: {@{kernels, products, equalizers, domains}@}) are {@{types of limits}@}. Second, {@{the prefix "co"}@} {@{implies "first variable of the $\operatorname {Hom}$"}@}. {@{Terms like "cohomology" and "cofibration"}@} all have {@{a slightly stronger association with the first variable}@}, i.e., {@{the contravariant variable, of the $\operatorname {Hom}$ bifunctor}@}. <!--SR:!2030-07-20,1591,373!2029-01-05,1127,350!2026-03-15,331,353!2029-02-22,1167,350!2030-04-23,1522,373!2029-05-12,1217,358!2026-04-26,366,358-->
 
 ## see also
 

@@ -57,7 +57,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-05T09:00:00+08:00/2025-02-05T10:20:00+08:00
 - topic: electric field II
-- [hierarchy problem](../../../../general/hierarchy%20problem.md) ::@:: Why is gravity so weak compared to electromagnetic force (and weak force and strong force)? <!--SR:!2026-05-20,356,353!2026-03-12,308,353-->
+- [hierarchy problem](../../../../general/hierarchy%20problem.md) ::@:: Why is gravity so weak compared to electromagnetic force (and weak force and strong force)? <!--SR:!2026-05-20,356,353!2030-04-16,1496,373-->
   - hierarchy problem / example ::@:: Consider two double positively charged helium ions. The electrostatic repulsion between them is about 10<sup>39</sup> times stronger than gravity. <!--SR:!2026-05-23,359,353!2026-03-22,318,353-->
   - hierarchy problem / idea ::@:: Even though gravity is very weak, it is the only force that matters at macroscopic scale. This is because gravity always attract but electrostatic force cancels out as objects have a net charge of zero. <!--SR:!2026-05-22,358,353!2026-03-18,314,353-->
 - [scientific law](../../../../general/scientific%20law.md) ::@:: They are scientific generalizations based on _empirical observations_ of physical behavior. This highlights the _observational nature_ of the physical science. <!--SR:!2026-05-21,357,353!2026-04-22,328,353-->
@@ -923,7 +923,7 @@ The content is in teaching order.
 - report
   - time limit ::@:: It was okay. Mainly because I did not know how to solve one problem. <!--SR:!2029-10-15,1322,487!2026-03-19,222,467-->
   - coupled capacitors \(–7\) ::@:: Apply KVL to the two meshes. Find solutions for $I_1$ and $I_2$ that satisfy both equations. One way is multiplying the two differential equations together, and then picking solutions satisfying both differential equations. <p> It may be simpler to do so in the _s_-domain, but this is untaught... <!--SR:!2029-11-06,1341,487!2026-03-21,224,467-->
-  - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this... <!--SR:!2029-12-09,1369,487!2026-03-12,217,467-->
+  - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this... <!--SR:!2029-12-09,1369,487!2029-12-18,1377,487-->
 - check
   - datetime: 2025-06-02T14:00:00+08:00/2025-06-02T16:00:00+08:00, PT2H
   - venue: Room 4418, Academic Building

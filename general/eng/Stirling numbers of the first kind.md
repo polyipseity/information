@@ -127,7 +127,7 @@ More generally, one can {@{invert the [Bell polynomial](bell%20polynomials.md) g
 
 Since permutations are partitioned by number of cycles, one has {@{$$\sum _{k=0}^{n}\left[{n \atop k}\right]=n!$$}@} The identity {@{$$\sum _{p=k}^{n}{\left[{n \atop p}\right]{\binom {p}{k} } }=\left[{n+1 \atop k+1}\right]$$}@} can be proved by {@{the techniques on the page [Stirling numbers and exponential generating functions](Stirling%20numbers%20and%20exponential%20generating%20functions%20in%20symbolic%20combinatorics.md)}@}. <!--SR:!2026-11-16,516,311!2026-05-20,329,251!2028-05-23,1014,351-->
 
-{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2027-11-19,847,339!2026-03-12,392,359-->
+{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2027-11-19,847,339!2031-06-25,1931,379-->
 
 - reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right](-1)^{k-m}{\binom {k}{m} }$$ <!--SR:!2026-05-22,120,179!2027-08-12,571,259-->
 - increment by combinatorial argument ::@:: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n} \frac {n!} {k!} \left[{k \atop m}\right]$$  \(annotation: Permutate _n_ − _k_ elements from _n_ elements to a partition with linear order. Add the 1 element to make the partition a cycle. Partition the remaining _k_ elements into _m_ cycles.\) <!--SR:!2027-11-24,846,339!2026-05-28,386,299-->
