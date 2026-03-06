@@ -26,7 +26,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 - **`tools/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
   - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
   - Notable submodules: `tools/pytextgen/` and `tools/pyarchivist/` (treat as external tools).
-Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.github/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
+Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.agents/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
 ---
 
@@ -38,7 +38,7 @@ Agent quickstart: For a one-page checklist of startup steps, commit rules, and q
 ## Git submodules
 
 - Common submodules: **`self/`** (personal metadata), **`private/`** (private mirrored content), **`tools/pytextgen/`**, **`tools/pyarchivist/`**.
-- When working inside a submodule, check its local `AGENTS.md` and `.github/instructions/` first — they take precedence.
+- When working inside a submodule, check its local `AGENTS.md` and `.agents/instructions/` first — they take precedence.
 
 ## Course content & migrations
 
@@ -46,7 +46,7 @@ Agent quickstart: For a one-page checklist of startup steps, commit rules, and q
 - To propose moving content from `private/` to public, run the validator and attach its output to the migration request:
 
 ```sh
-python .github/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
+python .agents/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
 ```
 
 - Use the `publish` workflow to mirror filtered content from `private/` to the public repository (this preserves history and applies filtering rules). Do not copy private files into the public tree manually.

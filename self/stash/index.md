@@ -7,7 +7,7 @@ tags:
 
 # self/stash — Stashed utility scripts
 
-A small collection of ad-hoc Python utilities kept here as a personal "stash". These files are user-managed; see `.github/instructions/submodule-self.instructions.md` for repository guidance.
+A small collection of ad-hoc Python utilities kept here as a personal "stash". These files are user-managed; see `.agents/instructions/submodule-self.instructions.md` for repository guidance.
 
 ## Contents
 

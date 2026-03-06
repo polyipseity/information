@@ -6,7 +6,7 @@ applyTo: "special/academia/**,private/special/academia/**"
 
 # Academic notes instruction
 
-This instruction file surfaces the essential, quick-reference guidance from the `academic-notes` skill for agents and maintainers working on course folders under `special/academia` (including the private mirror path `private/special/academia`). **Agents must read every file in `.github/skills/academic-notes/` and every line of those files before acting; do not assume the concise guidance is exhaustive.** It is intentionally concise — consult the full skill docs for examples and tooling.
+This instruction file surfaces the essential, quick-reference guidance from the `academic-notes` skill for agents and maintainers working on course folders under `special/academia` (including the private mirror path `private/special/academia`). **Agents must read every file in `.agents/skills/academic-notes/` and every line of those files before acting; do not assume the concise guidance is exhaustive.** It is intentionally concise — consult the full skill docs for examples and tooling.
 
 ## Scope & purpose
 
@@ -26,10 +26,10 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 
 ## Tools & locations
 
-- Skill docs, examples, and helper scripts: `.github/skills/academic-notes/`
-- Validator: `.github/skills/academic-notes/check.py`
-- Wikipedia helper: `.github/skills/academic-notes/find_wikipedia.py`
-- Continuous improvement workflow: `.github/skills/academic-notes/continuous_improvement.md`
+- Skill docs, examples, and helper scripts: `.agents/skills/academic-notes/`
+- Validator: `.agents/skills/academic-notes/check.py`
+- Wikipedia helper: `.agents/skills/academic-notes/find_wikipedia.py`
+- Continuous improvement workflow: `.agents/skills/academic-notes/continuous_improvement.md`
 
 ## Short author checklist
 
@@ -37,7 +37,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 2. Add or confirm flashcard activation tag in `tags:` when flashcards are desired.
 3. Ensure `index.md` pages contain `# index` and a `children:` or `## children` section where appropriate.
 4. For weekly pages, include `datetime:` ranges and concise `topic:` / `learning_outcomes:` or `takeaway:` entries.
-5. Run `python .github/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
+5. Run `python .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
 
 ## Continuous improvement
 
@@ -45,5 +45,5 @@ This instruction set and the skill are living artifacts. If you discover missing
 
 ## Developer tooling & tests (academic notes)
 
-- When adding tooling or scripts that process academic notes (for example, LMS converters), include unit tests and integration tests that exercise representative course pages and edge cases (missing metadata, unexpected frontmatter). Place tests in the skill’s own `tests/` subfolder (`.github/skills/academic-notes/tests/`); mirroring paths inside that directory (e.g., `tests/tools/test_convert_canvas.py`) keeps them close to the code they exercise and avoids cluttering the repository-level `tests/` tree.
+- When adding tooling or scripts that process academic notes (for example, LMS converters), include unit tests and integration tests that exercise representative course pages and edge cases (missing metadata, unexpected frontmatter). Place tests in the skill’s own `tests/` subfolder (`.agents/skills/academic-notes/tests/`); mirroring paths inside that directory (e.g., `tests/tools/test_convert_canvas.py`) keeps them close to the code they exercise and avoids cluttering the repository-level `tests/` tree.
 - Validators updated for academic notes must come with tests that assert expected warnings and validation results. Run `bun run check` and `bun run test` locally before proposing CI changes; when working on a subset of files, supply explicit paths to these commands so they complete faster than scanning the whole repo.

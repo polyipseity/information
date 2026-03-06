@@ -10,7 +10,7 @@ check‑list or process reminder while performing updates.
 1. **Gather examples** – whenever you encounter a pattern, bug, author
     question, or user feedback related to `special/academia`, save a snippet or
     run the validator in `--content` mode.  Log each incident in
-    `.github/skills/academic-notes/reports/feedback_log.md` with a date and a
+    `.agents/skills/academic-notes/reports/feedback_log.md` with a date and a
     one‑sentence description.  Include privacy concerns, formatting quirks, or
     template ideas.
 2. **Document the change** – decide where the information belongs:
@@ -21,7 +21,7 @@ check‑list or process reminder while performing updates.
     later if needed.
 3. **Teach the validator** – if the issue is structural or recurring, add a
     rule to `check.py` and cover it with a unit test under
-    `.github/skills/academic-notes/tests/` so future runs catch it automatically.
+    `.agents/skills/academic-notes/tests/` so future runs catch it automatically.
 4. **Verify impact** – run the validator on the affected files (or the whole
     tree) and regenerate `issue_frequencies.md` so you can watch counts drop
     after your fix lands.  This step is how you measure progress.

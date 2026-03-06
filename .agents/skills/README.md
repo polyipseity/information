@@ -1,4 +1,4 @@
-# .github/skills — agent skill catalog (README.md)
+# .agents/skills — agent skill catalog (README.md)
 
 Purpose
 
@@ -30,7 +30,7 @@ Guidelines for new skills
    `name` and `description` plus optional explanatory text; no
    `applyTo` field appears.
 2. Ensure the frontmatter contains the allowed keys listed above. Do not invent additional fields.
-3. Update `AGENTS.md` and `.github/instructions` where relevant.
+3. Update `AGENTS.md` and `.agents/instructions` where relevant.
 
 Why this exists
 

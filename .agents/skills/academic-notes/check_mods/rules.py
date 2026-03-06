@@ -6,7 +6,7 @@ Each rule is a self‑contained test that inspects the file text or parsed
 frontmatter and returns zero or more ``ValidationMessage`` objects.  New
 rules can be added by creating a function and registering it with the
 ``RULE_REGISTRY`` decorator; see the ``Extending the validator`` section of
-`.github/skills/academic-notes/SKILL.md` for a step‑by‑step workflow.
+`.agents/skills/academic-notes/SKILL.md` for a step‑by‑step workflow.
 
 Rather than relying on a global registry the module provides its own
 :class:`RuleRegistry` instance below; rules are registered with

@@ -11,7 +11,7 @@ applyTo: "tools/pytextgen/**"
 - **If editing is needed but not requested**: Ask the user for permission first
 - **When user approves edits**: Make changes here, test thoroughly, then contribute upstream
 - For upstream contributions: work in the pytextgen repo, merge changes, then update submodule pointer
-- **Submodule instructions**: This submodule has its own `AGENTS.md` and `.github/instructions/` and `.github/skills/` files that take priority when working within `tools/pytextgen/`. Agents: consult `.github/instructions/agent-quickstart.instructions.md` and the submodule `AGENTS.md` before editing; pytextgen fences and flashcard markup (cloze `{@{ }@}`, two-sided `::@::`,
+- **Submodule instructions**: This submodule has its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within `tools/pytextgen/`. Agents: consult `.agents/instructions/agent-quickstart.instructions.md` and the submodule `AGENTS.md` before editing; pytextgen fences and flashcard markup (cloze `{@{ }@}`, two-sided `::@::`,
 and one-sided `:@:`) are sensitive and must not be altered without explicit
 intent and tests.
 

@@ -478,4 +478,4 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 
 For `pytextgen` usage patterns and regeneration guidance see `special-pytextgen.instructions.md` (keeps `special.instructions.md` focused on organization and editorial conventions).
 
-<!-- NOTE: expanded pytextgen guidance moved to `.github/instructions/special-pytextgen.instructions.md` -->
+<!-- NOTE: expanded pytextgen guidance moved to `.agents/instructions/special-pytextgen.instructions.md` -->

@@ -11,7 +11,7 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 
 **Git submodules**: `self/`, `private/`, `tools/pytextgen/`, `tools/pyarchivist/`
 
-**Submodule hierarchy**: Innermost `AGENTS.md` takes priority. Many submodules (e.g., `self/ledger`) have their own `.github/instructions/` and `.github/skills/`.
+**Submodule hierarchy**: Innermost `AGENTS.md` takes priority. Many submodules (e.g., `self/ledger`) have their own `.agents/instructions/` and `.agents/skills/`.
 
 ## Quick start: Common workflows
 
@@ -49,7 +49,7 @@ uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 <paths>
 uv run -m publish --paths-file paths.txt
 ```
 
-For detailed workflows, see [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md).  Instruction metadata now lives in each file's frontmatter.  Only `name`, `description`, and `applyTo` are supported keys in instruction frontmatter—do not add extra fields.
+For detailed workflows, see [core-workflows.instructions.md](.agents/instructions/core-workflows.instructions.md).  Instruction metadata now lives in each file's frontmatter.  Only `name`, `description`, and `applyTo` are supported keys in instruction frontmatter—do not add extra fields.
 
 ## Dependencies
 
@@ -74,7 +74,7 @@ For detailed workflows, see [core-workflows.instructions.md](.github/instruction
 
   - Typing guidance: prefer PEP 585 built-in generics for concrete collections (for example `list[str]`, `dict[str, int]`) and use `collections.abc` abstract base classes for interface/parameter annotations (for example `collections.abc.Sequence[str]`, `collections.abc.Mapping[str, int]`, `collections.abc.Iterable[str]`). Avoid `typing.List`, `typing.Dict`, and `typing.Sequence` in new code. Keep `os.PathLike` for path-like types and use `os.fspath(path_like)` when converting to `str`.
 - Coverage: Use `pytest-cov` (pytest `addopts` includes `--cov=./`). Strive to add tests for new behavior; test coverage thresholds are recommended to be added as the project matures.
-- Commit & change policy: Always run `bun run format` and `bun run check` before committing. Agents must ensure commit messages follow Conventional Commits (see `.github/instructions/commit-convention.instructions.md`) and must show proposed commit messages for review before committing.
+- Commit & change policy: Always run `bun run format` and `bun run check` before committing. Agents must ensure commit messages follow Conventional Commits (see `.agents/instructions/commit-convention.instructions.md`) and must show proposed commit messages for review before committing.
 
 ---
 
@@ -112,66 +112,66 @@ This enables:
 
 ## Custom instructions
 
-Instruction files auto-apply via glob patterns. See `.github/instructions/` for details:
+Instruction files auto-apply via glob patterns. See `.agents/instructions/` for details:
 
 ### Content notes
 
-- [content-organization.instructions.md](.github/instructions/content-organization.instructions.md) → `**` (repository structure overview)
-- [editing-conventions.instructions.md](.github/instructions/editing-conventions.instructions.md) → `**/*.md` (general editing rules)
-- [markdown-notes.instructions.md](.github/instructions/markdown-notes.instructions.md) → `general/**/*.md`
-- [special.instructions.md](.github/instructions/special.instructions.md) → `special/**/*.md`, `special/**/*.py`
-- [special-pytextgen.instructions.md](.github/instructions/special-pytextgen.instructions.md) → `special/**/*.md` (pytextgen usage & regeneration)
-- [archives.instructions.md](.github/instructions/archives.instructions.md) → `archives/**/*.md`
-- [commit-convention.instructions.md](.github/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
+- [content-organization.instructions.md](.agents/instructions/content-organization.instructions.md) → `**` (repository structure overview)
+- [editing-conventions.instructions.md](.agents/instructions/editing-conventions.instructions.md) → `**/*.md` (general editing rules)
+- [markdown-notes.instructions.md](.agents/instructions/markdown-notes.instructions.md) → `general/**/*.md`
+- [special.instructions.md](.agents/instructions/special.instructions.md) → `special/**/*.md`, `special/**/*.py`
+- [special-pytextgen.instructions.md](.agents/instructions/special-pytextgen.instructions.md) → `special/**/*.md` (pytextgen usage & regeneration)
+- [archives.instructions.md](.agents/instructions/archives.instructions.md) → `archives/**/*.md`
+- [commit-convention.instructions.md](.agents/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
 
 ### Workflows
 
-- [core-workflows.instructions.md](.github/instructions/core-workflows.instructions.md) → `**` (command-line workflows)
+- [core-workflows.instructions.md](.agents/instructions/core-workflows.instructions.md) → `**` (command-line workflows)
 
 ### Tools
 
-- [init-wrapper.instructions.md](.github/instructions/init-wrapper.instructions.md) → `init.py`
+- [init-wrapper.instructions.md](.agents/instructions/init-wrapper.instructions.md) → `init.py`
 
 ### LaTeX & config
 
-- [latex-preamble.instructions.md](.github/instructions/latex-preamble.instructions.md) → `.obsidian/plugins/obsidian-latex/preamble.sty`
-- [config-folders.instructions.md](.github/instructions/config-folders.instructions.md) → `.git/**`, `.obsidian/**`, `.vscode/**`
+- [latex-preamble.instructions.md](.agents/instructions/latex-preamble.instructions.md) → `.obsidian/plugins/obsidian-latex/preamble.sty`
+- [config-folders.instructions.md](.agents/instructions/config-folders.instructions.md) → `.git/**`, `.obsidian/**`, `.vscode/**`
 
 ### Submodule guards
 
-- [submodule-self.instructions.md](.github/instructions/submodule-self.instructions.md) → `self/**`
-- [submodule-private.instructions.md](.github/instructions/submodule-private.instructions.md) → `private/**`
-- [submodule-pytextgen.instructions.md](.github/instructions/submodule-pytextgen.instructions.md) → `tools/pytextgen/**`
-- [submodule-pyarchivist.instructions.md](.github/instructions/submodule-pyarchivist.instructions.md) → `tools/pyarchivist/**`
+- [submodule-self.instructions.md](.agents/instructions/submodule-self.instructions.md) → `self/**`
+- [submodule-private.instructions.md](.agents/instructions/submodule-private.instructions.md) → `private/**`
+- [submodule-pytextgen.instructions.md](.agents/instructions/submodule-pytextgen.instructions.md) → `tools/pytextgen/**`
+- [submodule-pyarchivist.instructions.md](.agents/instructions/submodule-pyarchivist.instructions.md) → `tools/pyarchivist/**`
 
 ## Agent skills
 
-Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.github/skills/` for details:
+Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.agents/skills/` for details:
 
 **Skills metadata**: Each skill is self-described in its `SKILL.md` frontmatter with `name`, `description`, and `applyTo` (and optional `parent` or `license`). Agents may inspect individual skill documents directly.
 
 ### Content creation & ingestion
 
-- **[wiki-ingestion](.github/skills/wiki-ingestion/SKILL.md)** — Import Wikipedia articles, normalize links/media, scaffold new notes
-- **[pytextgen](.github/skills/pytextgen/SKILL.md)** — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
-- **[tools](.github/skills/tools/SKILL.md)** — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
-- **[pyarchivist](.github/skills/pyarchivist/SKILL.md)** — Archive online content, auto-maintain `index.md`, media management
-- **[academic-notes](.github/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
+- **[wiki-ingestion](.agents/skills/wiki-ingestion/SKILL.md)** — Import Wikipedia articles, normalize links/media, scaffold new notes
+- **[pytextgen](.agents/skills/pytextgen/SKILL.md)** — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
+- **[tools](.agents/skills/tools/SKILL.md)** — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
+- **[pyarchivist](.agents/skills/pyarchivist/SKILL.md)** — Archive online content, auto-maintain `index.md`, media management
+- **[academic-notes](.agents/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
 
 **Skill flow**: Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
 
 ## Recent updates (agent guidance)
 
-- 2026-02-09: Added `.github/instructions/agent-quickstart.instructions.md` — a one-page checklist for AI agents (startup commands, quick gotchas, test/format sequence, and submodule guardrails). Linked core instruction files and submodule AGENTS.md to improve discoverability and cohesion.
+- 2026-02-09: Added `.agents/instructions/agent-quickstart.instructions.md` — a one-page checklist for AI agents (startup commands, quick gotchas, test/format sequence, and submodule guardrails). Linked core instruction files and submodule AGENTS.md to improve discoverability and cohesion.
 - 2026-02-09: Updated commit message guidance — agents should prefer wrapping commit body lines to **72 characters** (readability/buffer). Tooling (commitlint) continues to enforce a **100-character** hard limit, so ensure lines are ≤100 to pass.
 - 2026-03-02: Validation strictness increased — **all warnings must be addressed just like errors** (fix or suppress with a valid rationale). The validator message has been updated accordingly.
 
 ## AI agent quickstart ✅
 
-- See `.github/instructions/agent-quickstart.instructions.md` for a concise checklist agents should follow before changing files or making commits.
+- See `.agents/instructions/agent-quickstart.instructions.md` for a concise checklist agents should follow before changing files or making commits.
 - Recommended workspace settings: `chat.useAgentsMdFile = true`, `chat.useAgentSkills = true` to enable skill-based guidance and the root `AGENTS.md` for context.
 - Safe startup: `bun install` → `bun run prepare` → `bun run format` → `bun run check` → `bun run test`.
 - Regeneration of content happens automatically, so there's no need to run `uv run -m init generate -C`; use `uv run -m pack` and `uv run -m publish` only after tests pass and user approval for publishing sensitive content.
-- Always follow `.github/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); **prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.**
-- Ask for explicit permission before editing `private/`, `self/`, or any submodule content; update that submodule's `AGENTS.md` and `.github/instructions/` when you introduce new commands or workflows.
+- Always follow `.agents/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); **prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.**
+- Ask for explicit permission before editing `private/`, `self/`, or any submodule content; update that submodule's `AGENTS.md` and `.agents/instructions/` when you introduce new commands or workflows.
 - Use the Todo List Tool for multi-step tasks and include short, test-backed PRs with a clear rationale when making non-trivial changes.

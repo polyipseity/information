@@ -11,7 +11,7 @@ Key patterns to follow (seen in the examples):
 - Use a nested grading `scheme:` block and include exam metadata such as `venue:` and `format:` (e.g., `cheatsheet`, `open book`) when applicable.
 - Use session `status:` fields for cancellations/unscheduled/online notes and add `::@::` takeaways for flashcard generation.
 
-See `.github/skills/academic-notes/examples.md` for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
+See `.agents/skills/academic-notes/examples.md` for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
 
 ## Short style notes (must appear outside the code block)
 

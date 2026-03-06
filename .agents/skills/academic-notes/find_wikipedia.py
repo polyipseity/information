@@ -16,7 +16,7 @@ The CLI now supports a few additional options:
 
 Usage::
 
-    python .github/skills/academic-notes/find_wikipedia.py [--limit N]
+    python .agents/skills/academic-notes/find_wikipedia.py [--limit N]
         [--pretty] [--human] [--full] QUERY
 
 The JSON structure remains the same: ``title``, ``url``, ``filename``,

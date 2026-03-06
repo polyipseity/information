@@ -12,7 +12,7 @@ applyTo: "private/**"
 
 - Do not edit files in `private/` unless the repository owner or maintainer explicitly approves the change.
 - Do not copy or move files from `private/` into public trees (`general/`, `special/`, `archives/`) manually.
-- Follow submodule-local instructions (for example, `AGENTS.md`, `.github/instructions/`, and `.github/skills/`) when working inside `private/`. The innermost (submodule-local) instructions take priority over top-level repository guidance.
+- Follow submodule-local instructions (for example, `AGENTS.md`, `.agents/instructions/`, and `.agents/skills/`) when working inside `private/`. The innermost (submodule-local) instructions take priority over top-level repository guidance.
 
 ## When edits are allowed
 
@@ -29,7 +29,7 @@ Required artifacts when proposing edits:
 1. Validate academic content (if applicable):
 
 ```sh
-python .github/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
+python .agents/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
 ```
 
 1. Prepare a migration checklist and a sanitized patch/diff.
