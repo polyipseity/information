@@ -41,7 +41,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 5. **Topic notes**: Use lowercase filenames (e.g. `voltage regulator.md`); aliases = general term only (not instances like LM7805); circuit examples must state topology, polarities, and loop direction; when introducing a component via an instance, define the general concept (e.g. IC, datasheet) with flashcards.
    - When introducing circuit notation or jargon (e.g. $V_{CC}$, $V_{CE}$, “low-side switch”), add a brief definition near first use (and optionally a flashcard) so the note is readable without prior course context.
    - When embedding diagrams/schematics, put the image markup (e.g. `<p> ![...](attachments/... )`) on the same line as the preceding paragraph. Add diagram‑recall flashcards (image in the prompt) for key symbols/circuits so learners can recall what each represents.
-6. Run `python .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
+6. Run `uv run .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
 
 ## Continuous improvement
 

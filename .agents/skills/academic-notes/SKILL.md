@@ -21,7 +21,7 @@ This document explains how to author, validate, and maintain academic course not
    - **Never standalone.**  A line consisting solely of a math expression is forbidden; the formula must be embedded in surrounding prose or list text.  This keeps diff noise down and matches the flashcard generator’s expectations.
    - **Spacing around delimiters.**  When an equation appears after other text, leave a normal space before the opening dollar sign; likewise put a space after the closing dollar if more text follows.  **Exception:** no space is required if the character immediately following the closing dollar is punctuation (e.g. `.,;:!?)]}`) or the end of line.  Leading or trailing whitespace is allowed at the beginning or end of a paragraph, but adjacent alphanumeric characters without a space will trigger the validator.
 7. **Header style**: section headers in topic notes should be all lowercase (capitalize only proper nouns or the first word of a sentence) to keep anchors predictable and maintain consistency.
-8. **Immediate validation**: run `python .agents/skills/academic-notes/check.py` after every editing tool invocation or manual change. The agent tends to produce malformed Markdown, and fixing issues promptly prevents a flood of errors later.
+8. **Immediate validation**: run `uv run .agents/skills/academic-notes/check.py` after every editing tool invocation or manual change. The agent tends to produce malformed Markdown, and fixing issues promptly prevents a flood of errors later.
 
 ## Authoring workflow
 
@@ -43,7 +43,7 @@ Before committing any new or changed course note, run through these items.  This
 - `aliases` include canonical course code(s) and human-readable names; tags include `flashcard/active/special/academia/<institution>/<course code>/<page>` and where appropriate `function/index` and `language/in/English`. `<page>` mirrors the relative path to the course folder with underscores and should not be percent‑encoded. Validators flag missing or malformed tags; report missing tags in review rather than bulk-editing existing files.
 - Do **not** create, modify or edit files under `general/` – only work inside the course folder.
 - Index files: `# index` header and a `## children` list or `children:` YAML key with child pages in teaching order (folders first). Use ISO datetimes for week entries and ensure they have `datetime` and, unless `status: unscheduled`, `topic`.
-- Check that lecture/lab/tutorial entries are chronological and exams are placed last. **Run the validator only on the specific course directory you are editing rather than the entire institution tree** (e.g. `python .agents/skills/academic-notes/check.py special/academia/HKUST/ELEC\ 1100`); running it on `special/academia/HKUST/` will produce too many unrelated errors. Fix any errors returned.
+- Check that lecture/lab/tutorial entries are chronological and exams are placed last. **Run the validator only on the specific course directory you are editing rather than the entire institution tree** (e.g. `uv run .agents/skills/academic-notes/check.py special/academia/HKUST/ELEC\ 1100`); running it on `special/academia/HKUST/` will produce too many unrelated errors. Fix any errors returned.
 - Ensure every Markdown section in a topic note contains flashcard entries (inline clozes or a rubric introduced by “Flashcards for this section are as follows:” preceded by `---`). The validator flags missing cards.
 - Add assignments, questions, attachments under appropriate subfolders and list them under `children`.
 - Link to canonical `general/` pages instead of copying long definitions; percent-encode spaces in paths. When a concept deserves its own course note, follow the topic‑specific notes workflow below.
@@ -140,7 +140,7 @@ Each section must be followed immediately by a horizontal rule and a list of fla
 - Use **all lowercase** for topic note filenames (e.g. `voltage regulator.md`), except proper nouns that must remain capitalised (e.g. `Kirchhoff's circuit laws.md`). The top‑level heading in the note should match the filename in all lowercase (except for proper nouns).
 - When creating the file, do **not** percent-escape the name; percent-encoding is only applied when writing links elsewhere.
 - Add appropriate `aliases:` and `tags:` in the frontmatter, including the usual `flashcard/active/special/academia/...` tag for the course page. **Aliases should list only the general topic term and its synonyms** — do not include specific instances (e.g. LM7805 is an instance of a voltage regulator, not an alias for the general term).
-- Cross‑link to the corresponding `general/` article using a relative path with `%20` encoding for spaces.  To discover canonical titles, run `python .agents/skills/academic-notes/find_wikipedia.py "<query>"` and pick the top hit.  **Do not** create or modify files under `general/` yourself.
+- Cross‑link to the corresponding `general/` article using a relative path with `%20` encoding for spaces.  To discover canonical titles, run `uv run .agents/skills/academic-notes/find_wikipedia.py "<query>"` and pick the top hit.  **Do not** create or modify files under `general/` yourself.
 
 ### Images and circuit diagrams
 
@@ -248,7 +248,7 @@ Before pushing your edits, validate them using the provided tooling. The validat
 Run:
 
 ```shell
-python .agents/skills/academic-notes/check.py special/academia/<institution>/<course folder>  # e.g. special/academia/HKUST/ELEC\ 1100; do not point at the whole institution
+uv run .agents/skills/academic-notes/check.py special/academia/<institution>/<course folder>  # e.g. special/academia/HKUST/ELEC\ 1100; do not point at the whole institution
 ```
 
 The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `bun run format`, `bun run check`, and `bun run test` with explicit paths to your changed files so the commands execute quickly.

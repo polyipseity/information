@@ -58,13 +58,13 @@ tags: []
 async def test_module_invoked_as_script(
     tmp_path: PathLike[str], capsys: pytest.CaptureFixture[str]
 ):
-    """Executing ``python -m check`` should behave like the CLI entry point.
+    """Executing ``uv run -m check`` should behave like the CLI entry point.
 
     This regression test forks a subprocess to simulate the normal user
     experience.  We craft a temporary directory with a deliberately bad file
     so that the script exits nonzero and prints at least one message.  Using
-    ``-m check`` mirrors how the module would be invoked when installed as a
-    script entry point.
+    ``uv run -m check`` mirrors how the module would be invoked when installed
+    as a script entry point.
     """
 
     # prepare workspace

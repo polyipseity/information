@@ -8,12 +8,12 @@ applyTo: "**"
 
 **Tooling & bun wrappers:** Prefer `bun` script wrappers when available. Check `package.json` for repository scripts and prefer `bun run <script>` from the repository root to ensure project-local tools and the lockfile are used. When no bun wrapper exists for an operation, run the underlying command shown below (for example, `uv run -m init generate`). Always run `bun install` before using `bun run`.
 
-> **Shell note:** Agents constructing shell commands should adapt the syntax to the detected shell. On Windows PowerShell use a here-string and pipe into `python -` for inline Python code:
+> **Shell note:** Agents constructing shell commands should adapt the syntax to the detected shell. On Windows PowerShell use a here-string and pipe into `uv run python -` for inline Python code:
 >
 > ```powershell
 > @'
 > <python code>
-> '@ | python -
+> '@ | uv run python -
 > ```
 >
 > This avoids the common issue of writing POSIX-style heredocs in a PowerShell terminal. Agents should refer to the agent quickstart for full guidance.

@@ -37,14 +37,14 @@ The `tools/` directory contains all helper scripts and utilities:
    - Computes PageRank to prioritize important files
    - Creates zip bundle with metadata (ranks, omissions, link closure)
    - Configurable: damping factor, iterations, max files
-   - Command: `python -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>`
+   - Command: `uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>`
 
 4. **`publish.py`**: Private → public history mirroring via git filter-repo
    - Clones `private/.git` temporarily
    - Runs `git filter-repo` with property `Private-commit` filtering
    - Rewrites commit history to remove sensitive paths
    - Rebases with signing, adds remote to public `.git`
-   - Command: `python -m publish --paths-file <file>` (with `literal:<path>` lines)
+   - Command: `uv run -m publish --paths-file <file>` (with `literal:<path>` lines)
 
 ### Subfolder tools
 
@@ -79,7 +79,7 @@ The `tools/` directory contains all helper scripts and utilities:
 
 ### Academic course organization
 
-1. Convert LMS export: `python -m tools.special."convert Canvas submission"` (tools-special)
+1. Convert LMS export: `uv run -m tools.special."convert Canvas submission"` (tools-special)
 2. Update index: Edit `special/academia/<Institution>/index.md`
 3. Add pytextgen fences; regeneration is handled by the build system and
    should not be invoked manually.

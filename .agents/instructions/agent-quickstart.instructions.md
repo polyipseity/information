@@ -53,12 +53,12 @@ Repository gotchas & quick tips
   and use Asyncer helpers for clearer return-value handling.  Add short
   concurrency tests verifying behavior, as shown earlier.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
-- When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `python -`. For example:
+- When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `uv run python -`. For example:
 
   ```powershell
   @'
   <python code>
-  '@ | python -
+  '@ | uv run python -
   ```
 
   This avoids syntax errors; the agent should detect the shell (PowerShell on
