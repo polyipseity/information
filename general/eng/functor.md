@@ -52,7 +52,7 @@ There are {@{many constructions in mathematics that would be functors}@} but for
 
 - (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_, <!--SR:!2030-03-05,1482,366!2028-08-14,1014,346-->
 - (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2026-04-13,364,357!2026-03-22,346,357-->
-  - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2026-03-14,340,357!2030-04-09,1511,366-->
+  - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2030-10-09,1670,377!2030-04-09,1511,366-->
   - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_. <!--SR:!2026-04-06,357,357!2029-09-26,1342,350-->
 
 Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-09-29,1345,350!2029-09-27,1343,350-->

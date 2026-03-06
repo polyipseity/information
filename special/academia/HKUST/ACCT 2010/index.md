@@ -211,7 +211,7 @@ The content is in teaching order.
 - prepaid expenses
 - [accounts receivable](../../../../general/accounts%20receivable.md)
 - [accounts payable](../../../../general/accounts%20payable.md)
-- determining amounts ::@:: Sometimes, the amount to record in a transaction is not the full amount. <!--SR:!2026-03-14,362,376!2026-10-10,543,403-->
+- determining amounts ::@:: Sometimes, the amount to record in a transaction is not the full amount. <!--SR:!2031-04-21,1864,396!2026-10-10,543,403-->
   - determining amounts / interest ::@:: $$\text{principal} \times \text{rate} \times \text{duration}$$ <!--SR:!2026-08-25,505,403!2026-08-26,504,396-->
   - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!2026-08-18,498,403!2026-09-11,520,403-->
 
@@ -269,7 +269,7 @@ The content is in teaching order.
   - [inventory management](../../../../general/field%20inventory%20management.md) ::@:: Provide sufficient quantities to adapt to changing demand, but keep the inventory small to minimize the cost of carrying inventory (since assets used to buy inventory cannot be reinvested). <!--SR:!2030-11-12,1735,396!2031-03-03,1832,403-->
 - [cost of goods sold](../../../../general/cost%20of%20goods%20sold.md) ::@:: $$\begin{aligned} \text{goods available for sale} & = \text{beginning inventory} + \text{purchases} \\ \text{cost of goods sold} & = \text{goods available for sale} - \text{ending inventory} \end{aligned}$$ (This should not be too hard...) <!--SR:!2026-09-14,521,403!2026-10-02,536,403-->
   - inventory / types ::@:: Two main types depending on if you are a merchandiser or a manufacturer. <!--SR:!2026-09-25,531,403!2026-07-27,481,403-->
-    - inventory / types / merchandiser ::@:: merchandise inventory <!--SR:!2026-03-14,365,383!2026-09-08,515,396-->
+    - inventory / types / merchandiser ::@:: merchandise inventory <!--SR:!2031-06-08,1912,403!2026-09-08,515,396-->
     - inventory / types / manufacturer ::@:: raw materials inventory → work-in-process inventory → finished goods inventory <!--SR:!2026-04-01,379,383!2027-10-08,763,363-->
 - [inventory valuation](../../../../general/inventory%20valuation.md) ::@:: 2 main methods to value your inventory: perpetual inventory, periodic inventory <!--SR:!2026-08-31,510,403!2026-07-12,469,403-->
   - [periodic inventory](../../../../general/periodic%20inventory.md) ::@:: A physical inventory (counting the entire inventory) is taken at year end to determine the cost of goods sold. <!--SR:!2026-08-12,492,403!2026-09-22,528,403-->
@@ -292,7 +292,7 @@ The content is in teaching order.
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted. <!--SR:!2027-01-30,604,363!2031-01-07,1781,396-->
   - inventory turnover / interpretation ::@:: This ratio reflects how many times average inventory was produced or purchased and sold during the period. <p> A higher ratio indicates that inventory moves more quickly (strong sales), thus reducing storage & obsolescence costs. <p> Caution: it could also mean ineffective buying (or without a good buying plan to meet the customers' demand). <!--SR:!2028-05-28,991,376!2027-05-23,689,363-->
   - average days to sell inventory ::@:: $$\frac {365} {\text{inventory turnover} }$$ <!--SR:!2026-08-09,489,403!2026-04-04,381,383-->
-    - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2026-03-14,365,383!2026-04-08,385,383-->
+    - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2031-06-09,1913,403!2026-04-08,385,383-->
 - [inventory valuation](../../../../general/inventory%20valuation.md)
   - [perpetual inventory](../../../../general/perpetual%20inventory.md)
     - perpetual inventory / accounting ::@:: Purchased goods are directly added to asset "Inventory" on purchase. Sold goods are removed from asset "Inventory" on sale. <!--SR:!2028-06-25,1027,383!2030-04-17,1578,403-->

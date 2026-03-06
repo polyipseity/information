@@ -18,7 +18,7 @@ tags:
 
 - see: [general/imperative programming](../../../../general/imperative%20programming.md)
 
-Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2026-03-31,66,310!2026-03-31,66,310!2026-03-30,65,310!2026-03-29,64,310!2026-03-14,55,310-->
+Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2026-03-31,66,310!2026-03-31,66,310!2026-03-30,65,310!2026-03-29,64,310!2026-11-08,239,330-->
 
 ## loops
 
@@ -38,7 +38,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >
 > In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2026-03-29,64,310!2026-03-17,58,310!2026-03-24,59,310!2026-03-22,57,310!2026-03-26,61,310-->
 
-{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-03-14,55,310!2026-03-28,63,310!2026-03-15,56,310!2026-03-27,62,310-->
+{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-03-28,63,310!2026-03-15,56,310!2026-03-27,62,310-->
 
 > [!example] __`whileDo` implementation__
 >
@@ -49,7 +49,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   if cond then { body; whileDo(cond)(body) } else ()
 > ```
 >
-> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-03-16,57,310!2026-03-26,61,310!2026-03-28,63,310!2026-03-22,57,310!2026-03-23,58,310!2026-03-14,55,310!2026-03-16,57,310!2026-03-26,61,310!2026-03-29,64,310-->
+> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-03-16,57,310!2026-03-26,61,310!2026-03-28,63,310!2026-03-22,57,310!2026-03-23,58,310!2026-11-10,241,330!2026-03-16,57,310!2026-03-26,61,310!2026-03-29,64,310-->
 
 ### repeat loops
 
@@ -87,7 +87,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ### for-loops
 
-Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar for calls to `foreach`}@}. {@{A Java‑style loop with an index variable}@} can be written as <!--SR:!2026-03-17,58,310!2026-03-29,64,310!2026-03-14,55,310-->
+Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar for calls to `foreach`}@}. {@{A Java‑style loop with an index variable}@} can be written as <!--SR:!2026-03-17,58,310!2026-03-29,64,310!2026-11-09,240,330-->
 
 > [!example] __Scala for‑loop with range__
 >
@@ -118,7 +118,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### circuit description language
 
-{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-03-16,57,310!2026-03-26,61,310!2026-03-23,58,310!2026-03-24,59,310!2026-03-14,55,310!2026-04-01,67,310-->
+{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-03-16,57,310!2026-03-26,61,310!2026-03-23,58,310!2026-03-24,59,310!2026-10-31,231,330!2026-04-01,67,310-->
 
 > [!example] __basic gates__
 >
@@ -129,7 +129,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > def andGate(a: Wire, b: Wire, out: Wire): Unit = ...
 > def orGate(a: Wire, b: Wire, out: Wire): Unit = ...
 > ```
-<!--SR:!2026-03-22,57,310!2026-03-14,55,310!2026-10-28,229,330!2026-03-25,60,310-->
+<!--SR:!2026-03-22,57,310!2026-11-01,232,330!2026-10-28,229,330!2026-03-25,60,310-->
 
 {@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-03-17,58,310!2026-03-27,62,310!2026-03-17,58,310!2026-03-23,58,310!2026-03-15,56,310!2026-03-24,59,310!2026-03-15,56,310!2026-03-26,61,310!2026-03-29,64,310-->
 

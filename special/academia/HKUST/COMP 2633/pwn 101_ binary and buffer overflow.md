@@ -37,7 +37,7 @@ The meanings of the 4 segments are:
 - heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2028-09-09,1126,350!2028-06-27,1068,350-->
 - stack ::@:: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address). <!--SR:!2027-02-07,601,310!2027-04-16,709,330-->
 
-Notice {@{the `.rodata` \(read-only data\) section}@} is located on {@{the read-execute segment}@}. This means the program can {@{execute the data in `.rodata` section as code, which makes it less secure}@}. {@{The linkers of some newer Linux distributions}@} add {@{an additional one or two read segments \(the program can only read from it\)}@} for {@{the ELF header and `.rodata` section}@} to {@{improve security}@}. <!--SR:!2029-04-24,1297,350!2028-05-04,942,330!2026-03-16,135,398!2026-03-14,133,398!2026-03-17,136,398!2026-03-18,137,398!2026-03-19,138,398-->
+Notice {@{the `.rodata` \(read-only data\) section}@} is located on {@{the read-execute segment}@}. This means the program can {@{execute the data in `.rodata` section as code, which makes it less secure}@}. {@{The linkers of some newer Linux distributions}@} add {@{an additional one or two read segments \(the program can only read from it\)}@} for {@{the ELF header and `.rodata` section}@} to {@{improve security}@}. <!--SR:!2029-04-24,1297,350!2028-05-04,942,330!2026-03-16,135,398!2028-03-06,723,418!2026-03-17,136,398!2026-03-18,137,398!2026-03-19,138,398-->
 
 ## executable and linkable format
 

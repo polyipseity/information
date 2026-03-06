@@ -147,7 +147,7 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-03-14,130,393!2028-01-11,674,413!2027-11-24,634,413-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2028-02-10,698,413!2028-01-11,674,413!2027-11-24,634,413-->
 
 ```Python
 # pytextgen generate data
@@ -202,8 +202,8 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:36.998975+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`++` <br/> `--` <!--SR:!2028-01-15,677,413!2027-12-18,655,413-->
-- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2026-03-14,130,393!2028-01-16,678,413-->
-- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2027-12-17,654,413!2026-03-14,130,393-->
+- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2028-02-17,705,413!2028-01-16,678,413-->
+- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2027-12-17,654,413!2028-02-16,704,413-->
 - `+` <br/> `-`→::@::←_(end)_ <!--SR:!2027-12-04,643,413!2027-12-06,644,413-->
 
 <!--/pytextgen-->

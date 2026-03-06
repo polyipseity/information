@@ -357,7 +357,7 @@ We see:
 - `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`. <!--SR:!2026-04-27,155,440!2026-05-05,162,440-->
 - `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation), passed to but distinct from the covariant type parameter `T` of `Parent`. <!--SR:!2026-04-20,149,440!2026-04-29,157,440-->
 - `ChildCovariant[+T]` ::@:: declares its type parameter `T` as _covariant_, passed to but distinct from the covariant type parameter `T` of `Parent`. <!--SR:!2026-04-28,156,440!2026-05-04,161,440-->
-- `ChildContravariant[-T]` ::@:: causes compilation error, as `T` is passed to the covariant type parameter `T` of `Parent`. <!--SR:!2026-03-14,112,420!2026-04-27,155,440-->
+- `ChildContravariant[-T]` ::@:: causes compilation error, as `T` is passed to the covariant type parameter `T` of `Parent`. <!--SR:!2027-07-04,477,420!2026-04-27,155,440-->
 
 Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant parent}@}: <!--SR:!2026-04-28,156,440!2026-05-02,159,440-->
 

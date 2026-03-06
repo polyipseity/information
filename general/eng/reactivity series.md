@@ -237,7 +237,7 @@ return _chain.from_iterable(await _gather(
 - [caesium](caesium.md):@:reacts with cold [water](water.md) <!--SR:!2027-10-07,1282,350-->
 - [rubidium](rubidium.md):@:reacts with cold [water](water.md) <!--SR:!2028-02-21,1389,350-->
 - [potassium](potassium.md):@:reacts with cold [water](water.md) <!--SR:!2027-03-25,1127,350-->
-- [sodium](sodium.md):@:reacts with cold [water](water.md) <!--SR:!2026-03-14,773,330-->
+- [sodium](sodium.md):@:reacts with cold [water](water.md) <!--SR:!2035-10-30,3517,350-->
 - [lithium](lithium.md):@:reacts with cold [water](water.md) <!--SR:!2026-04-15,831,330-->
 - [barium](barium.md):@:reacts with cold [water](water.md) <!--SR:!2029-05-27,1534,310-->
 - [strontium](strontium.md):@:reacts with cold [water](water.md) <!--SR:!2029-06-08,1541,310-->

@@ -930,7 +930,7 @@ ID: 23456789
 - image operations
   - image operations / characteristics ::@:: point, local, global <!--SR:!2026-09-24,525,398!2026-08-27,504,406-->
   - image operations / point ::@:: The output value at a specific coordinate is dependent only on the input value at the _same coordinate_. <!--SR:!2026-09-21,522,398!2026-10-19,548,406-->
-  - image operations / local ::@:: The output value at a specific coordinate is dependent on the input values in the _neighborhood_ of that same coordinate. <!--SR:!2026-03-14,364,378!2026-07-28,477,402-->
+  - image operations / local ::@:: The output value at a specific coordinate is dependent on the input values in the _neighborhood_ of that same coordinate. <!--SR:!2031-05-08,1881,398!2026-07-28,477,402-->
   - image operations / global ::@:: The output value at a specific coordinate is dependent on _all the values_ in the input image. <!--SR:!2026-08-07,486,402!2026-03-19,369,381-->
 - image operations
   - image operations / point
@@ -962,7 +962,7 @@ ID: 23456789
           - `cv2.threshold(src, thresholdValue, maxVal, thresholdingTechnique)` ::@:: __`source`__: input image array (must be grayscale) <br/> __`thresholdValue`__: value of threshold below and above which pixel values will change accordingly (if `cv2.THRESH_OTSU` or `cv2.THRESH_TRIANGLE` is provided to `thresholdingTechnique`, then this parameter is ignored) <br/> __`maxVal`__: Maximum value that can be assigned to a pixel <br/> __`thresholdingTechnique`__: The type of thresholding to be applied (For Otsu's, we put `cv2.THRESH_BINARY + cv2.THRESH_OTSU`) <br/> __Return values__: The first is the threshold that was used. The second is the thresholded image (i.e., the binary image). <!--SR:!2027-02-27,574,346!2026-10-03,489,342-->
   - image operations / local
     - image operations / local / neighborhood types ::@:: Some of the most common neighborhoods are _4-connected neighborhood_ (looks like a plus sign consisting of 5 pixels) and _8-connected neighborhood_ (3-by-3 square). <!--SR:!2026-07-30,479,406!2031-03-21,1848,405-->
-    - image operations / local / examples ::@:: edge detection, sharpening, smoothing <!--SR:!2026-03-14,346,386!2026-09-29,530,399-->
+    - image operations / local / examples ::@:: edge detection, sharpening, smoothing <!--SR:!2031-03-14,1826,406!2026-09-29,530,399-->
     - [edge detection](../../../../general/edge%20detection.md) ::@::  It detects the boundaries (edges) of objects, or regions within an image. <!--SR:!2026-07-17,466,398!2026-08-12,492,405-->
     - [sharpening](../../../../general/deblurring.md) ::@:: It removes blur, enhances details, and dehazes. <!--SR:!2026-04-12,384,386!2026-07-16,468,402-->
     - [smoothing](../../../../general/smoothing.md) ::@:: It removes noise and softens edges and corners of the image. It is also called blurring. <!--SR:!2026-08-17,497,406!2026-08-05,485,406-->

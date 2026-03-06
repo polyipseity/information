@@ -57,7 +57,7 @@ It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if
 
 - See also: [Direct limit](direct%20limit.md)
 
-{@{The [dual notions](dual%20(category%20theory).md) of limits and cones}@} are {@{colimits and co-cones}@}. Although it is {@{straightforward to obtain the definitions of these by inverting all morphisms in the above definitions}@}, we will {@{explicitly state them here}@}: <!--SR:!2026-04-29,369,358!2026-04-28,368,358!2026-03-14,330,353!2029-02-02,1149,350-->
+{@{The [dual notions](dual%20(category%20theory).md) of limits and cones}@} are {@{colimits and co-cones}@}. Although it is {@{straightforward to obtain the definitions of these by inverting all morphisms in the above definitions}@}, we will {@{explicitly state them here}@}: <!--SR:!2026-04-29,369,358!2026-04-28,368,358!2030-07-31,1600,373!2029-02-02,1149,350-->
 
 {@{A __[co-cone](co-cone.md)__ of a diagram $F:J\to C$}@} is {@{an object $N$ of $C$ together with a family of morphisms $$\psi _{X}:F(X)\to N$$ for every object $X$ of $J$}@}, such that {@{for every morphism $f:X\to Y$ in $J$, we have $\psi _{Y}\circ F(f)=\psi _{X}$}@}. <!--SR:!2029-05-17,1229,350!2027-03-01,539,310!2026-05-24,389,358-->
 
@@ -152,7 +152,7 @@ Note that {@{both the limit and the colimit functors}@} are {@{[_covariant_](cov
 
 - See also: [Limit and colimit of presheaves](limit%20and%20colimit%20of%20presheaves.md)
 
-One can use {@{[Hom functors](hom%20functor.md)}@} to {@{relate limits and colimits in a category _C_ to limits in __Set__, the [category of sets](category%20of%20sets.md)}@}. This follows, {@{in part, from the fact the covariant Hom functor Hom\(_N_, –\) : _C_ → __Set__ [preserves all limits](#preservation%20of%20limits) in _C_}@}. By {@{duality}@}, {@{the contravariant Hom functor must take colimits to limits}@}. <!--SR:!2028-12-29,1122,350!2028-04-21,857,338!2026-03-14,328,345!2029-01-08,1129,350!2026-03-26,339,345-->
+One can use {@{[Hom functors](hom%20functor.md)}@} to {@{relate limits and colimits in a category _C_ to limits in __Set__, the [category of sets](category%20of%20sets.md)}@}. This follows, {@{in part, from the fact the covariant Hom functor Hom\(_N_, –\) : _C_ → __Set__ [preserves all limits](#preservation%20of%20limits) in _C_}@}. By {@{duality}@}, {@{the contravariant Hom functor must take colimits to limits}@}. <!--SR:!2028-12-29,1122,350!2028-04-21,857,338!2030-06-16,1555,365!2029-01-08,1129,350!2026-03-26,339,345-->
 
 If {@{a diagram _F_ : _J_ → _C_ has a limit in _C_, denoted by lim _F_}@}, there is {@{a [canonical isomorphism](canonical%20isomorphism.md) $$\operatorname {Hom} (N,\lim F)\cong \lim \operatorname {Hom} (N,F-)$$}@} (annotation: The covariant Hom functor {@{sends the limit object $\lim F$ to $\operatorname{Hom}(N, \lim F)$}@}. As the covariant Hom functor preserves limits, it is {@{also the limit object of $\operatorname{Hom}(N, F-)$}@}.) which is {@{natural in the variable _N_}@}. Here {@{the functor Hom\(_N_, _F_<!-- markdown separator -->–\) is the composition of the Hom functor Hom\(_N_, –\) with _F_ (annotation: i.e. Hom\(_N_, –\) ∘ _F_: _J_ → __Set__, composable since _J_ → _C_ → __Set__)}@}. This isomorphism is {@{the unique one which respects the limiting cones}@}. <!--SR:!2026-03-30,345,358!2029-04-10,1185,353!2029-02-18,1163,350!2026-05-01,370,358!2029-05-17,1171,310!2026-06-23,345,290!2026-04-01,320,305-->
 

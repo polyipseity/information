@@ -249,7 +249,7 @@ The content is in teaching order.
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
   - [§ the framework](../../../PPTG%20change%20impact%20framework.md#the%20framework)
   - [§ extensions](../../../PPTG%20change%20impact%20framework.md#extensions)
-- drawbridge drama ::@:: an analogy to an office drama <!--SR:!2030-01-24,1636,397!2026-03-14,520,397-->
+- drawbridge drama ::@:: an analogy to an office drama <!--SR:!2030-01-24,1636,397!2033-12-01,2819,417-->
 - [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
 ## week 13 lecture

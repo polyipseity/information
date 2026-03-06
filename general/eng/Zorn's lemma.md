@@ -13,7 +13,7 @@ tags:
 
 > {@{![Zorn's lemma can be used to show that every connected [graph](graph%20(discrete%20mathematics).md) has a [spanning tree](spanning%20tree.md).](../../archives/Wikimedia%20Commons/4x4%20grid%20spanning%20tree.svg)}@}
 >
-> Zorn's lemma can be used to {@{show that every connected [graph](graph%20(discrete%20mathematics).md) has a [spanning tree](spanning%20tree.md)}@}. {@{The set of all sub-graphs that are trees is ordered by inclusion}@}, and {@{the union of a chain is an upper bound}@}. Zorn's lemma says that {@{a maximal tree must exist}@}, which {@{is a spanning tree since the graph is connected}@}.<sup>[\[1\]](#^ref-1)</sup> Zorn's lemma is {@{not needed for finite graphs, such as the one pictured here}@}. <!--SR:!2030-06-28,1591,370!2029-04-27,1242,358!2028-06-07,980,350!2030-02-12,1481,370!2026-03-14,350,350!2030-02-22,1491,370!2030-08-22,1634,370-->
+> Zorn's lemma can be used to {@{show that every connected [graph](graph%20(discrete%20mathematics).md) has a [spanning tree](spanning%20tree.md)}@}. {@{The set of all sub-graphs that are trees is ordered by inclusion}@}, and {@{the union of a chain is an upper bound}@}. Zorn's lemma says that {@{a maximal tree must exist}@}, which {@{is a spanning tree since the graph is connected}@}.<sup>[\[1\]](#^ref-1)</sup> Zorn's lemma is {@{not needed for finite graphs, such as the one pictured here}@}. <!--SR:!2030-06-28,1591,370!2029-04-27,1242,358!2028-06-07,980,350!2030-02-12,1481,370!2030-10-27,1688,370!2030-02-22,1491,370!2030-08-22,1634,370-->
 
 __Zorn's lemma__, also known as the {@{__Kuratowski–Zorn lemma__}@}, is {@{a proposition of [set theory](set%20theory.md)}@}. It states that {@{a [partially ordered set](partially%20ordered%20set.md) containing [upper bounds](upper%20and%20lower%20bounds.md) for every [chain](total%20order.md#chains) \(that is, every [totally ordered](total%20order.md) [subset](subset.md)\)}@} {@{[necessarily](necessity%20and%20sufficiency.md) contains at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}. <!--SR:!2027-06-10,685,330!2030-09-03,1645,370!2027-05-24,661,330!2030-06-19,1585,370-->
 
@@ -175,7 +175,7 @@ Zorn's lemma is {@{equivalent \(in [ZF](Zermelo–Fraenkel%20set%20theory.md)\) 
 2. [Axiom of choice](axiom%20of%20choice.md)
 3. [Well-ordering theorem](well-ordering%20theorem.md).
 
-{@{A well-known joke alluding to this equivalency}@} \(which {@{may defy human intuition}@}\) is attributed to {@{[Jerry Bona](Jerry%20L.%20Bona.md)}@}: "{@{The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about Zorn's lemma?}@}"<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2030-09-11,1652,370!2030-10-21,1683,370!2026-03-25,335,310!2026-03-14,350,350-->
+{@{A well-known joke alluding to this equivalency}@} \(which {@{may defy human intuition}@}\) is attributed to {@{[Jerry Bona](Jerry%20L.%20Bona.md)}@}: "{@{The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about Zorn's lemma?}@}"<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2030-09-11,1652,370!2030-10-21,1683,370!2026-03-25,335,310!2030-10-28,1689,370-->
 
 Zorn's lemma is also equivalent to {@{the [strong completeness theorem](strong%20completeness%20theorem.md) of first-order logic}@}.<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2030-03-04,1501,370-->
 
@@ -187,7 +187,7 @@ Moreover, Zorn's lemma \(or one of its equivalent forms\) implies {@{some major 
 4. [Tychonoff's theorem](Tychonoff's%20theorem.md) ::@:: in topology \(to which it is also equivalent<sup>[\[26\]](#^ref-26)</sup>\) <!--SR:!2029-04-29,1243,358!2030-01-12,1457,370-->
 5. Every [proper filter](filter%20(mathematics).md#proper%20filter) ::@:: is contained in an [ultrafilter](ultrafilter.md), a result that yields the [completeness theorem](Gödel's%20completeness%20theorem.md) of [first-order logic](first-order%20logic.md)<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2028-09-15,1056,350!2026-08-09,351,270-->
 
-In this sense, {@{Zorn's lemma is a powerful tool}@}, {@{applicable to many areas of mathematics}@}. <!--SR:!2030-08-17,1631,370!2026-03-14,350,350-->
+In this sense, {@{Zorn's lemma is a powerful tool}@}, {@{applicable to many areas of mathematics}@}. <!--SR:!2030-08-17,1631,370!2030-10-30,1691,370-->
 
 ### analogs under weakenings of the axiom of choice
 
@@ -195,7 +195,7 @@ In this sense, {@{Zorn's lemma is a powerful tool}@}, {@{applicable to many area
 
 {@{A weakened form of Zorn's lemma}@} can be {@{proven from ZF + DC \(Zermelo–Fraenkel set theory with the axiom of choice replaced by the [axiom of dependent choice](axiom%20of%20dependent%20choice.md)\)}@}. Zorn's lemma can be {@{expressed straightforwardly}@} by observing that {@{the set having no maximal element}@} would be equivalent to stating that {@{the set's ordering relation would be entire}@} \(annotation: {@{each element $x$ in the set}@} has {@{an another element $y$ in the same set larger than $x$}@}\), which would allow us to apply {@{the axiom of dependent choice to construct a countable chain}@}. As a result, {@{any partially ordered set with exclusively finite chains}@} must have {@{a maximal element}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2030-10-14,1678,370!2028-04-19,856,290!2030-08-30,1640,370!2028-01-08,751,290!2028-06-28,996,350!2027-07-12,697,330!2026-06-16,131,403!2026-05-10,95,383!2026-06-08,124,403!2026-06-25,139,403-->
 
-More generally, {@{strengthening the axiom of dependent choice to higher ordinals}@} allows us to {@{generalize the statement in the previous paragraph to higher cardinalities}@}.<sup>[\[28\]](#^ref-28)</sup> In {@{the limit where we allow arbitrarily large ordinals}@}, we {@{recover the proof of the full Zorn's lemma using the axiom of choice in the preceding section}@}. <!--SR:!2030-10-19,1681,370!2026-03-14,350,350!2027-03-05,613,330!2028-10-09,1078,350-->
+More generally, {@{strengthening the axiom of dependent choice to higher ordinals}@} allows us to {@{generalize the statement in the previous paragraph to higher cardinalities}@}.<sup>[\[28\]](#^ref-28)</sup> In {@{the limit where we allow arbitrarily large ordinals}@}, we {@{recover the proof of the full Zorn's lemma using the axiom of choice in the preceding section}@}. <!--SR:!2030-10-19,1681,370!2030-10-25,1686,370!2027-03-05,613,330!2028-10-09,1078,350-->
 
 ## in popular culture
 

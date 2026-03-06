@@ -92,7 +92,7 @@ For {@{a particular subspace}@}, there are {@{infinitely many basis and infinite
 
 ### coordinate representation
 
-Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a$}@} is {@{the ordered list of its expansion coefficients}@}: {@{$$[a]_E=(c_1,c_2,\dots ,c_n)^T \,.$$}@} {@{These coordinates}@} provide {@{a one-to-one correspondence}@} between {@{vectors in $S$ and points in $\mathbb{R}^n$}@}. <!--SR:!2026-03-16,71,325!2026-11-07,250,330!2026-11-06,249,330!2026-03-14,69,325!2026-03-16,71,325!2026-03-15,70,325!2026-03-18,73,325-->
+Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a$}@} is {@{the ordered list of its expansion coefficients}@}: {@{$$[a]_E=(c_1,c_2,\dots ,c_n)^T \,.$$}@} {@{These coordinates}@} provide {@{a one-to-one correspondence}@} between {@{vectors in $S$ and points in $\mathbb{R}^n$}@}. <!--SR:!2026-03-16,71,325!2026-11-07,250,330!2026-11-06,249,330!2027-01-22,314,345!2026-03-16,71,325!2026-03-15,70,325!2026-03-18,73,325-->
 
 ### orthogonality and orthonormality
 
@@ -132,7 +132,7 @@ The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining bas
 
 ## examples
 
-{@{Three unit-amplitude pulses}@} occupying {@{consecutive thirds of an interval}@} are {@{_orthogonal_}@} as each pulse {@{occupies a distinct subinterval}@}. {@{Their coordinates}@} are simply {@{$(1,0,0)$, $(0,1,0)$, and $(0, 0, 1)$}@}, and {@{the basis functions}@} are {@{the three unit-amplitude pulses, but _normalized_}@}. <!--SR:!2026-03-25,80,344!2026-12-04,274,345!2026-03-16,71,325!2026-03-26,81,344!2026-03-17,72,325!2026-10-27,240,330!2026-12-03,273,345!2026-03-14,69,325-->
+{@{Three unit-amplitude pulses}@} occupying {@{consecutive thirds of an interval}@} are {@{_orthogonal_}@} as each pulse {@{occupies a distinct subinterval}@}. {@{Their coordinates}@} are simply {@{$(1,0,0)$, $(0,1,0)$, and $(0, 0, 1)$}@}, and {@{the basis functions}@} are {@{the three unit-amplitude pulses, but _normalized_}@}. <!--SR:!2026-03-25,80,344!2026-12-04,274,345!2026-03-16,71,325!2026-03-26,81,344!2026-03-17,72,325!2026-10-27,240,330!2026-12-03,273,345!2027-01-20,312,345-->
 
 ### sinusoidal examples
 
@@ -154,7 +154,7 @@ For example, {@{frequency-domain representation}@} as {@{a special case of geome
 
 ### M-ary modulation
 
-By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than one bit per symbol}@} can be {@{transmitted}@}. {@{The dimensionality of the space}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; {@{higher dimensions}@} enable {@{denser constellations}@}. <!--SR:!2026-03-17,72,325!2026-03-18,73,325!2026-03-22,77,344!2026-03-16,71,325!2026-10-21,237,344!2026-03-20,75,325!2026-03-14,69,325-->
+By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than one bit per symbol}@} can be {@{transmitted}@}. {@{The dimensionality of the space}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; {@{higher dimensions}@} enable {@{denser constellations}@}. <!--SR:!2026-03-17,72,325!2026-03-18,73,325!2026-03-22,77,344!2026-03-16,71,325!2026-10-21,237,344!2026-03-20,75,325!2027-01-21,313,345-->
 
 ### constellation diagram
 

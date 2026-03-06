@@ -71,9 +71,9 @@ Another recurrence relation is {@{given by $$\left\lbrace {\begin{matrix}n\\k\en
 
 ### simple identities
 
-Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets}@} necessarily means {@{dividing it into one set of size 2 and _n_ − 2 sets of size 1}@}. Therefore we need {@{only pick those two elements}@}; and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty}@}, so {@{2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since we want {@{_unordered_ pairs rather than _ordered_ pairs}@} we {@{divide this last number by 2}@}, giving the result above. <!--SR:!2029-05-12,1286,350!2028-07-22,977,330!2027-09-17,798,330!2027-12-04,862,330!2029-09-08,1382,350!2028-01-22,885,330!2026-03-14,94,367!2026-03-14,94,367!2027-06-27,471,387!2026-03-14,94,367-->
+Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets}@} necessarily means {@{dividing it into one set of size 2 and _n_ − 2 sets of size 1}@}. Therefore we need {@{only pick those two elements}@}; and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty}@}, so {@{2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since we want {@{_unordered_ pairs rather than _ordered_ pairs}@} we {@{divide this last number by 2}@}, giving the result above. <!--SR:!2029-05-12,1286,350!2028-07-22,977,330!2027-09-17,798,330!2027-12-04,862,330!2029-09-08,1382,350!2028-01-22,885,330!2027-07-03,476,387!2027-07-02,475,387!2027-06-27,471,387!2027-07-07,480,387-->
 
-{@{Another explicit expansion}@} of {@{the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}. <!--SR:!2026-03-14,94,367!2026-03-14,94,367!2027-06-28,472,387-->
+{@{Another explicit expansion}@} of {@{the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}. <!--SR:!2027-07-01,474,387!2027-07-06,479,387!2027-06-28,472,387-->
 
 ### identities
 
@@ -113,7 +113,7 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ (annotation: notice if $n < 2$ then the latter condition is unsatisfiable) and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2026-04-15,45,130-->
+If {@{$n\geq 2$ (annotation: notice if $n < 2$ then the latter condition is unsatisfiable) and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2030-02-03,1422,310!2026-04-15,45,130-->
 
 ### asymptotic approximation
 

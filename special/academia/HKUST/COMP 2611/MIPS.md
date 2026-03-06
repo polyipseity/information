@@ -267,7 +267,7 @@ The 32 registers are used as follows:
 
 > __flashcards__
 >
-> - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2026-03-14,224,270!2026-10-27,393,290-->
+> - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2027-11-09,605,270!2026-10-27,393,290-->
 >   - register blocks / semantics ::@:: zero → asm temp → expr eval & fun ret ×2 → fun arg ×4 → temp ×8 → saved temp ×8 → temp ×2 → kernel ×2 → global ptr → stack ptr → frame \(base\) ptr → return addr <!--SR:!2028-05-05,852,330!2029-09-19,1286,350-->
 > - __`$zero`__ ::@:: `$0`: constant 0 <!--SR:!2026-04-09,289,330!2026-04-07,287,330-->
 > - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2026-03-16,283,330!2029-08-20,1262,350-->

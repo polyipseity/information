@@ -31,7 +31,7 @@ For example: {@{A queue depth meter}@} shows {@{an average of nine jobs waiting 
 
 ### customers in the store
 
-Imagine {@{a small store with a single counter and an area for browsing}@}, where {@{only one person can be at the counter at a time}@}, and {@{no one leaves without buying something}@}. So the system is: <p> &emsp; {@{_entrance → browsing → counter → exit_}@} <!--SR:!2029-06-10,1224,350!2029-01-27,1112,350!2026-03-14,294,330!2029-08-18,1282,350-->
+Imagine {@{a small store with a single counter and an area for browsing}@}, where {@{only one person can be at the counter at a time}@}, and {@{no one leaves without buying something}@}. So the system is: <p> &emsp; {@{_entrance → browsing → counter → exit_}@} <!--SR:!2029-06-10,1224,350!2029-01-27,1112,350!2029-11-18,1345,350!2029-08-18,1282,350-->
 
 If {@{the rate at which people enter the store \(called the arrival rate\) is the rate at which they exit \(called the exit rate\)}@}, {@{the system is stable}@}. By contrast, {@{an arrival rate exceeding an exit rate}@} would {@{represent an unstable system}@}, where {@{the number of waiting customers in the store would gradually increase towards infinity}@}. <!--SR:!2027-08-21,699,330!2029-03-20,1164,350!2029-08-06,1274,350!2029-07-23,1263,350!2029-02-15,1131,350-->
 
@@ -41,7 +41,7 @@ Assume {@{customers arrive at the rate of 10 per hour and stay an average of 0.5
 
 Now suppose {@{the store is considering doing more advertising to raise the arrival rate to 20 per hour}@}. The store must either {@{be prepared to host an average of 10 occupants}@} or {@{must reduce the time each customer spends in the store to 0.25 hour}@}. The store might {@{achieve the latter}@} by {@{ringing up the bill faster or by adding more counters}@}. <!--SR:!2029-10-09,1325,350!2028-12-01,1078,350!2029-06-16,1230,350!2029-06-22,1235,350!2029-06-06,1220,350-->
 
-We can {@{apply Little's Law to systems within the store}@}. For example, consider {@{the counter and its queue}@}. Assume we notice that there are {@{on average 2 customers in the queue and at the counter}@}. We know {@{the arrival rate is 10 per hour}@}, so {@{customers must be spending 0.2 hours on average checking out}@}. {@{$$W={\frac {L}{\lambda } }={\frac {2}{10} }=0.2$$}@} <!--SR:!2029-01-16,1101,350!2029-09-08,1300,350!2029-08-05,1273,350!2029-06-17,1231,350!2029-01-17,1102,350!2026-03-14,294,330-->
+We can {@{apply Little's Law to systems within the store}@}. For example, consider {@{the counter and its queue}@}. Assume we notice that there are {@{on average 2 customers in the queue and at the counter}@}. We know {@{the arrival rate is 10 per hour}@}, so {@{customers must be spending 0.2 hours on average checking out}@}. {@{$$W={\frac {L}{\lambda } }={\frac {2}{10} }=0.2$$}@} <!--SR:!2029-01-16,1101,350!2029-09-08,1300,350!2029-08-05,1273,350!2029-06-17,1231,350!2029-01-17,1102,350!2029-11-17,1344,350-->
 
 We can even {@{apply Little's Law to the counter itself}@}. {@{The average number of people at the counter}@} would be {@{in the range \(0, 1\)}@} since {@{no more than one person can be at the counter at a time}@}. In that case, the average number of people at the counter is also known as {@{the utilisation of the counter}@}. <!--SR:!2029-07-16,1256,350!2028-12-08,1084,350!2029-09-17,1306,350!2029-11-10,1338,350!2029-07-04,1246,350-->
 
@@ -49,7 +49,7 @@ However, because {@{a store in reality generally has a limited amount of space}@
 
 ## estimating parameters
 
-To {@{use Little's law on data}@}, formulas must be used to {@{estimate the parameters}@}, as {@{the result does not necessarily directly apply over finite time intervals}@}, due to problems like {@{how to log customers already present at the start of the logging interval}@} and {@{those who have not yet departed when logging stops}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-03-14,294,330!2029-10-05,1322,350!2029-10-08,1324,350!2029-07-21,1261,350!2029-03-13,1157,350-->
+To {@{use Little's law on data}@}, formulas must be used to {@{estimate the parameters}@}, as {@{the result does not necessarily directly apply over finite time intervals}@}, due to problems like {@{how to log customers already present at the start of the logging interval}@} and {@{those who have not yet departed when logging stops}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2029-11-17,1344,350!2029-10-05,1322,350!2029-10-08,1324,350!2029-07-21,1261,350!2029-03-13,1157,350-->
 
 ## applications
 
