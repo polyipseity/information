@@ -17,6 +17,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 
 - Do NOT create or edit `general/` files automatically. Suggest canonical Wikipedia titles (use the helper) and leave `general/` edits to maintainers.
 - Require a flashcard activation tag in course files: `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` (case-insensitive). The validator will flag missing tags. Notes may use any of the three markup types – cloze `{@{ }@}`, two-sided `::@::`, or one-sided `:@:` – but remember that the latter two must stay on a single line.  **Do not trim prompts for calculations**; the warning rules exist to catch missing numeric/symbolic data, not to enforce brevity.  You may write arbitrarily long equations or value lists before the separator; splitting a single logical example into multiple cards just to shorten the left-hand text is counter‑productive. When converting prose or examples into flashcard bullets, also copy any relevant diagrams or images from the paragraph above and include them in the question text – the validator will remind you if an image appears in the source but not in the card. A suppression directive is permitted only when the card truly tests a conceptual fact (e.g. `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`).
+- Prefer **single-focus flashcards** for conceptual material: if a card answers multiple distinct points, split it into multiple smaller cards. Keep calculation cards self-contained on the left-hand side (do not delete givens just to shorten prompts).
 - When embedding LaTeX, always use `$...$` for inline math and `$$...$$` for display equations; do **not** employ `\(\)` or `\[\]` variants, as the validator and rendering pipelines expect dollar‑sign delimiters.
 - When adding comments, avoid placing more than one directive of the **same type** on a single line; the validator now flags duplicates and authors should merge them into a single comment listing all applicable rule IDs (the syntax already supports commas).
 - Use the validator conservatively: run `check.py --content` for advisory guidance; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
@@ -37,7 +38,10 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 2. Add or confirm flashcard activation tag in `tags:` when flashcards are desired.
 3. Ensure `index.md` pages contain `# index` and a `children:` or `## children` section where appropriate.
 4. For weekly pages, include `datetime:` ranges and concise `topic:` / `learning_outcomes:` or `takeaway:` entries.
-5. Run `python .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
+5. **Topic notes**: Use lowercase filenames (e.g. `voltage regulator.md`); aliases = general term only (not instances like LM7805); circuit examples must state topology, polarities, and loop direction; when introducing a component via an instance, define the general concept (e.g. IC, datasheet) with flashcards.
+   - When introducing circuit notation or jargon (e.g. $V_{CC}$, $V_{CE}$, “low-side switch”), add a brief definition near first use (and optionally a flashcard) so the note is readable without prior course context.
+   - When embedding diagrams/schematics, put the image markup (e.g. `<p> ![...](attachments/... )`) on the same line as the preceding paragraph. Add diagram‑recall flashcards (image in the prompt) for key symbols/circuits so learners can recall what each represents.
+6. Run `python .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
 
 ## Continuous improvement
 

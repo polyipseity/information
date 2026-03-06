@@ -31,7 +31,7 @@ This section covers the full lifecycle of course note content, from initial crea
 2. Add a `logistics` section with `scheme:` weights and a nested `sections:` list grouped by lectures/tutorials/labs. Include identifiers, venues, and weekly time patterns.
 3. Maintain a `children:` list with lectures, labs, assignments, topics, questions, attachments; keep entries in teaching order and update it whenever you add a new page.
 4. Use the session structure from the examples below. Add `datetime:` entries with ISO intervals (date only if time unknown). Place prose summaries after the bullet outline separated by `---`. Draft explanatory prose before adding cloze markup; don’t flashcard‑ify first and then write prose.
-5. Capture content‑first details in prose paragraphs, not bullets; convert slide fragments into full sentences.
+5. Capture content‑first details in prose paragraphs, not bullets; convert slide fragments into full sentences. When a lecture introduces a component type (e.g. integrated circuit) via a specific instance (e.g. LM7805), include explicit treatment of the general concept—definition, role, and how to use it (e.g. datasheet)—with flashcards; do not skip to the instance without defining the parent concept.
 6. Audit the whole file whenever you add or change any section: check for missing/malformed flashcards, separators, numeric values, tags, and indentation.
 7. Run the validator and fix any errors it reports; do this immediately after each edit tool call or manual change. Errors (and warnings) must be resolved before committing.
 
@@ -59,6 +59,7 @@ Before committing any new or changed course note, run through these items.  This
 - Heading styles: `## week N lecture`/`lab`/`tutorial`; number resets each week after filtering irrelevant streams. If a week is repeated due to holidays, shift subsequent weeks upward and insert an entry with `status: public holiday`.
 - Session metadata: `datetime:` ISO_START/ISO_END[, DURATION]; `topic:` short text (omit if `status: unscheduled`); optional `status:` and `venue:`.
 - Bullet items nested under a session hold course‑specific notes and cross‑links. Each top‑level bullet must sit on its own source line; use `<br/>` or `<p>` for internal breaks. Numeric examples should include units inside `$…$` math delimiters.
+- When embedding a diagram or schematic image in prose, place the image markup (e.g. `<p> ![...](attachments/...svg)`) on the same line as the end of the preceding paragraph, not on a new line.
 - Outline items correspond to flashcard glosses; avoid extra indentation levels. Convert generic headings into specific cloze entries or remove them.
 - After the outline, add a prose paragraph preceded by `---` for administrative comments (schedule links, grading breakdowns, reminders). Use cloze markup within that paragraph for cards.
 - Semester headings in institution indexes must be chronologically ordered; validator warns otherwise.
@@ -74,9 +75,15 @@ The spaced‑repetition system is central to the entire repository; flashcards a
   - **Two‑sided QA**: single source line `term ::@:: definition` (produces two cards). Use `<br/>` or `<p>` for visible breaks; do not insert newlines.
   - **One‑sided QA**: single source line `term :@: answer` (one card).
 - Add a gloss by appending `::@::` after a linked term. The text after `::@::` becomes the card content; keep it concise, normally one or two sentences. Long derivations do not make good cards. When you lift sentences from prose or examples, also copy any adjacent diagrams or images into the question — cards with visual context are easier to learn and the validator will warn if an image appears in the source but not in the flashcard.
+- For notes that include schematic symbols or circuit diagrams, add **diagram‑recall flashcards** whose prompt embeds the image (e.g. `schematic symbol: resistor <p> ![resistor](attachments/symbol_resistor.svg) ::@:: …`). The answer should name the component and briefly state what the symbol represents; keep any math/symbols on the left as needed for validator rules.
+- Prefer **single-focus cards**. If a card’s right-hand side explains multiple distinct ideas (e.g. definition + steps + conditions), split it into multiple smaller cards, each testing one concept. This improves recall and avoids “all-or-nothing” cards. For multi-step procedures (e.g. ON/OFF assumption methods, saturation checks, multi-step circuit analyses), prefer one card per 1–2 steps rather than a single “all steps at once” card, as long as each resulting card’s left-hand prompt still contains all givens needed to answer it.
 - Prefix every gloss with the complete hierarchical path (typically `topic / item`; for course-specific content, use `COURSE / topic / item`). Do not rely on indentation for context; only the literal text is used by the flashcard viewer.
 - When grouping related cards, give the parent a full path label (e.g. `ELEC 1100 / class expectations`) and nest children beneath it.
 - Calculation cards must be self‑contained: put all given values on the left and outline computation steps on the right. When applicable, include any relevant diagrams, circuit sketches, or images in the left‑hand prompt; the validator’s calculation warnings now remind you to copy such visuals if the answer side contains math but the prompt lacks data.
+- Do **not** “shorten” calculation cards by removing givens from the left-hand side. If a worked example feels too long, split it into smaller cards only if each resulting card still includes all necessary givens to be solvable from the prompt.
+- **Circuit and KVL examples**: When describing a circuit for a calculation (e.g. KVL, voltage divider), state the topology explicitly: component connections (what connects to what), source polarities (which terminal is +/−), assumed current direction or loop traversal, and node names. This makes the example answerable without a diagram.
+- **Circuit prose clarity**: In topic notes, describe circuit topologies precisely. For divider-like or regulator circuits, specify the signal path (e.g. $V_{\text{in}} \rightarrow R_S \rightarrow \text{node} \rightarrow R_L \rightarrow \text{GND}$), component orientations (e.g. Zener cathode at node, anode at ground), and which elements shunt or limit current.
+- **Circuit notation and topology terms**: When a lecture uses shorthand like $V_{CC}$, $V_{CE}$, $V_{BE}$, or terms like “low-side switch”, add a brief definition the first time they appear in that page (and optionally a flashcard). Example: $V_{CC}$ is the supply rail feeding the collector/load network; $V_{CE}=V_C-V_E$; “low-side” means the switch is between the load and ground.
 - Units must always be inside `$…$` or `$$…$$` (e.g. `$5\text{ V}$`); units outside math trigger validator errors.
 - Every markdown section in a topic-specific note, no matter the header level, must have at least one flashcard entry. Use a horizontal rule `---` immediately before the first flashcard block; missing separators or cards trigger validator errors. Index files are exempt and need only session‑level cards.
 - Do not merge cards across sections; each heading gets its own block directly beneath the prose. The validator flags missing separators or cards.
@@ -130,10 +137,15 @@ Each section must be followed immediately by a horizontal rule and a list of fla
 
 ### Filenames, titles, and links
 
-- Use a Wikipedia‑style title for the filename: capitalise proper nouns and lowercase the first letter of ordinary words.  The top‑level heading in the note should match the filename in all lowercase (except for proper nouns).
+- Use **all lowercase** for topic note filenames (e.g. `voltage regulator.md`), except proper nouns that must remain capitalised (e.g. `Kirchhoff's circuit laws.md`). The top‑level heading in the note should match the filename in all lowercase (except for proper nouns).
 - When creating the file, do **not** percent-escape the name; percent-encoding is only applied when writing links elsewhere.
-- Add appropriate `aliases:` and `tags:` in the frontmatter, including the usual `flashcard/active/special/academia/...` tag for the course page.
+- Add appropriate `aliases:` and `tags:` in the frontmatter, including the usual `flashcard/active/special/academia/...` tag for the course page. **Aliases should list only the general topic term and its synonyms** — do not include specific instances (e.g. LM7805 is an instance of a voltage regulator, not an alias for the general term).
 - Cross‑link to the corresponding `general/` article using a relative path with `%20` encoding for spaces.  To discover canonical titles, run `python .agents/skills/academic-notes/find_wikipedia.py "<query>"` and pick the top hit.  **Do not** create or modify files under `general/` yourself.
+
+### Images and circuit diagrams
+
+- Place diagram/schematic image markup on the same line as the preceding paragraph (see Session and index rules). Reference SVGs or other assets under a course-level `attachments/` (or similar) folder so links are stable.
+- Some courses keep a script (e.g. `attachments/generate_circuit_diagrams.py`) that generates SVG diagrams with :mod:`schemdraw` or similar; outputs go into that folder and are referenced from topic notes. The script’s docstrings should describe each diagram’s topology and drawing style (e.g. ground‑up vs central‑component‑first, use of ``.at()`` and ``.reverse()``) for future maintainers.
 
 ### Course index and outline updates
 
