@@ -52,7 +52,8 @@ This instruction file surfaces the essential, quick-reference guidance from the 
    - When embedding diagrams/schematics, put the image markup (e.g. `<p> ![...](attachments/... )`) on the same line as the preceding paragraph. Add diagram‑recall flashcards (image in the prompt) for key symbols/circuits so learners can recall what each represents. When adding or editing circuit diagram generators (e.g. schemdraw scripts in `attachments/`): draw the main rail first, use `.push()` at the branch node, finish the rail, then `.pop()` and draw the branch; use `.reverse()` on diodes when polarity requires it (see academic-notes skill “Images and circuit diagrams”).
    - IC power pins (e.g. 74HC14): VCC = any valid supply voltage (course may use 5 V); GND = ground. Do not state “must be 5 V” unless the course fixes that.
 6. **Session prose**: After the session outline (`---`), add prose only when it adds value (next lecture, grading); do not duplicate index bullets and topic notes. Omit “lecture summary” index cards unless they cover major grading components.
-7. Run `uv run .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
+7. **Questions pages** (e.g. `questions.md`): Not topic notes; sections do not need the "Flashcards for this section are as follows:" rubric. Add questions and solutions as content; flashcards are optional per section.
+8. Run `uv run .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
 
 ## Continuous improvement
 

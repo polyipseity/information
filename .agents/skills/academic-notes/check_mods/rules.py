@@ -568,13 +568,15 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
 
 @RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Require that each non-index header contains flashcard markers.
+    """Require that each non-index, non-questions header contains flashcard markers.
 
-    Searches the text between the header and the next header at the same or
-    higher level; if no flashcard syntax is found, an error is returned.
+    Index and questions pages are not topic notes; they are exempt. Searches the
+    text between the header and the next header at the same or higher level; if
+    no flashcard syntax is found, an error is returned.
     """
     errors: list[ValidationMessage] = []
-    if ctx.path.name.lower() == "index.md":
+    name = ctx.path.name.lower()
+    if name == "index.md" or name == "questions.md":
         return errors
     for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
@@ -607,11 +609,12 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
 def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Enforce a '---' separator before flashcard markers under headers.
 
-    When flashcards appear in a section, there should be a horizontal rule
-    separating them from preceding text.
+    Index and questions pages are exempt. When flashcards appear in a section,
+    there should be a horizontal rule separating them from preceding text.
     """
     errors: list[ValidationMessage] = []
-    if ctx.path.name.lower() == "index.md":
+    name = ctx.path.name.lower()
+    if name == "index.md" or name == "questions.md":
         return errors
     for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
