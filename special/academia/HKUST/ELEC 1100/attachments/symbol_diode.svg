@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-03-06T21:19:24.896531</dc:date>
+    <dc:date>2026-03-07T18:10:49.172909</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -36,13 +36,13 @@ L 100.543 27.332
 L 87.943 36.332 
 L 87.943 18.332 
 z
-" clip-path="url(#pf02fe43c94)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p85cf1cfcdd)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_1">
     <path d="M 22.243 27.332 
 L 31.243 27.332 
 L 40.243 27.332 
-" clip-path="url(#pf02fe43c94)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p85cf1cfcdd)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_2">
     <path d="M 40.243 27.332 
@@ -51,13 +51,13 @@ M 100.543 18.332
 L 100.543 36.332 
 M 100.543 27.332 
 L 148.243 27.332 
-" clip-path="url(#pf02fe43c94)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p85cf1cfcdd)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_3">
     <path d="M 148.243 27.332 
 L 157.243 27.332 
 L 166.243 27.332 
-" clip-path="url(#pf02fe43c94)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p85cf1cfcdd)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_1">
     <!-- diode -->
@@ -167,7 +167,7 @@ C 19.827489 25.929134 19.543 26.615952 19.543 27.332
 C 19.543 28.048048 19.827489 28.734866 20.333812 29.241188 
 C 20.840134 29.747511 21.526952 30.032 22.243 30.032 
 z
-" clip-path="url(#pf02fe43c94)" style="stroke: #000000; stroke-width: 2; stroke-linejoin: miter"/>
+" clip-path="url(#p85cf1cfcdd)" style="stroke: #000000; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
    <g id="text_2">
     <!-- anode -->
@@ -244,7 +244,7 @@ C 163.827489 25.929134 163.543 26.615952 163.543 27.332
 C 163.543 28.048048 163.827489 28.734866 164.333812 29.241188 
 C 164.840134 29.747511 165.526952 30.032 166.243 30.032 
 z
-" clip-path="url(#pf02fe43c94)" style="stroke: #000000; stroke-width: 2; stroke-linejoin: miter"/>
+" clip-path="url(#p85cf1cfcdd)" style="stroke: #000000; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
    <g id="text_3">
     <!-- cathode -->
@@ -324,7 +324,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pf02fe43c94">
+  <clipPath id="p85cf1cfcdd">
    <rect x="0" y="0" width="193.89" height="41.012"/>
   </clipPath>
  </defs>

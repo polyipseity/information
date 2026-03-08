@@ -55,11 +55,37 @@ The content is in teaching order.
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
+- [H-bridge](H-bridge.md)
+- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+- [brushed DC electric motor](brushed%20DC%20electric%20motor.md)
 - [diode](diode.md)
 - [electronic component](electronic%20component.md)
-- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
 - [transistor](transistor.md)
 - [voltage regulator](voltage%20regulator.md)
+
+## H-bridge (sections and subsections)
+
+- [H-bridge](H-bridge.md)
+  - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
+    - [§ switches and current path](H-bridge.md#switches%20and%20current%20path)
+    - [§ hazards](H-bridge.md#hazards)
+  - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
+    - [§ saturation, transistor types, and layout](H-bridge.md#saturation-transistor-types-and-layout)
+    - [§ base voltage pattern](H-bridge.md#base%20voltage%20pattern)
+  - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
+    - [§ direction (DIR) signal and inverter solution](H-bridge.md#direction%20(dir)%20signal%20and%20inverter%20solution)
+  - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
+    - [§ function and logic](H-bridge.md#function%20and%20logic)
+    - [§ power and pinout](H-bridge.md#power%20and%20pinout)
+  - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
+    - [§ function and pins](H-bridge.md#function%20and%20pins)
+    - [§ supplies and bypass](H-bridge.md#supplies%20and%20bypass)
+  - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
+    - [§ power sources ($12\text{ V}$ and $5\text{ V}$)](H-bridge.md#power%20sources%20(%2412%5Ctext%7B%20V%7D%24%20and%20%245%5Ctext%7B%20V%7D%24))
+    - [§ wiring DIR and inverters](H-bridge.md#wiring%20dir%20and%20inverters)
+  - [§ breadboard layout](H-bridge.md#breadboard%20layout)
+    - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
+    - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
 
 ## assignments
 
@@ -276,13 +302,57 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 
 - datetime: 2026-03-02T16:00:00+08:00/2026-03-02T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- topic: H-bridge
+- topic: transistor (inverter), H-bridge
+- ELEC 1100
+  - ELEC 1100 / [transistor](transistor.md) (recap and inverter)
+    - [§ structure](transistor.md#structure)
+    - [§ historical context](transistor.md#historical%20context)
+    - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
+    - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
+    - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
+    - ELEC 1100 / transistor / [transistor as inverter](transistor.md#transistor%20as%20inverter): how does the NPN resistor-loaded circuit act as a logic inverter? (logic levels from $V_C$ vs $V_E$) ::@:: Logical HIGH and LOW come from comparing $V_C$ and $V_E$. Input LOW (transistor off): $V_C$ high near $V_{CC}$, $V_E$ at ground, so output is logical HIGH. Input HIGH (saturated): $V_C$ only slightly above $V_E$ (about $0.2\text{ V}$), so output is logical LOW.
+    - ELEC 1100 / transistor / saturation threshold $V_{\text{sat}}$: how do you find the input voltage where the transistor just enters saturation? ($R_B$, $R_C$, $V_{CC}$, $\beta$) ::@:: Equate $\beta I_B$ and $I_{C,\max}$; $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$; solve for $V_{\text{sat}}$. For the lecture values ($R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$), $V_{\text{sat}} = 1.18\text{ V}$.
+  - ELEC 1100 / 74HC14 hex inverter: what is the 74HC14 and what must be connected for it to work? (VCC, GND, $5\text{ V}$) ::@:: A hex inverter IC with six independent inverters (LOW in $\Rightarrow$ HIGH out, HIGH in $\Rightarrow$ LOW out). VCC (e.g. pin 14) and GND (e.g. pin 7) must be tied to a $5\text{ V}$ supply; the IC does not generate power. Used with the H-bridge to get complementary DIR signals for the four transistor bases.
+  - ELEC 1100 / [H-bridge](H-bridge.md) ::@:: A circuit of four switches (or transistors) that reverses DC motor direction: closing one diagonal pair (e.g. S1 and S4) drives current one way through the motor; closing the other diagonal (S2 and S3) reverses it.
+    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control) ::@:: Close S1 and S4 for one motor direction, S2 and S3 for the opposite direction. Only one diagonal must be closed at a time; closing both diagonals or two switches on the same rail shorts the supply to ground.
+      - [§ switches and current path](H-bridge.md#switches%20and%20current%20path)
+      - [§ hazards](H-bridge.md#hazards)
+    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors) (Va, Vb, Vc, Vd; $5\text{ V}$, $0\text{ V}$) ::@:: Implement the four switches with transistors (two NPN, two PNP), operated in saturation for maximum motor current. One direction: Va and Vd bases HIGH ($5\text{ V}$), Vb and Vc LOW ($0\text{ V}$); opposite direction: swap which pair is HIGH and which is LOW.
+      - [§ saturation, transistor types, and layout](H-bridge.md#saturation-transistor-types-and-layout)
+      - [§ base voltage pattern](H-bridge.md#base%20voltage%20pattern)
+    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter) ($5\text{ V}$, $0\text{ V}$) ::@:: One DIR line (5V or 0V) controls direction, but the four bases need two complementary pairs. An inverter turns the single DIR into the opposite logic level, so one DIR line plus one inverter supply both $5\text{ V}$ and $0\text{ V}$ for the four bases.
+      - [§ direction (DIR) signal and inverter solution](H-bridge.md#direction%20(dir)%20signal%20and%20inverter%20solution)
+    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter) (VCC, GND, $5\text{ V}$) ::@:: Hex inverter IC (six inverters in one package); VCC and GND must be connected to $5\text{ V}$. Used to invert the DIR signal so the H-bridge gets complementary inputs for the two diagonals.
+      - [§ function and logic](H-bridge.md#function%20and%20logic)
+      - [§ power and pinout](H-bridge.md#power%20and%20pinout)
+    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293)) (VS, VCC; $12\text{ V}$, $5\text{ V}$) ::@:: L293 is a dual H-bridge IC: two complete H-bridges in one chip, so one IC drives two motors (e.g. left and right wheels). VS (pin 8) = motor supply ($12\text{ V}$); VCC (pin 16) = logic supply ($5\text{ V}$). Each H-bridge has EN (enable) and IN_1, IN_2 (direction) pins.
+      - [§ function and pins](H-bridge.md#function%20and%20pins)
+      - [§ supplies and bypass](H-bridge.md#supplies%20and%20bypass)
+    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805) ($12\text{ V}$, $5\text{ V}$, LM7805) ::@:: The $12\text{ V}$ motor supply and regulated $5\text{ V}$ logic supply come from the LM7805 circuit (battery or input $\rightarrow$ LM7805 $\rightarrow$ $5\text{ V}$ for 74HC14 and L293 VCC; unregulated $12\text{ V}$ to L293 VS). One 74HC14 package provides two inverters (one per motor) for the DIR lines.
+      - [§ power sources ($12\text{ V}$ and $5\text{ V}$)](H-bridge.md#power%20sources%20(%2412%5Ctext%7B%20V%7D%24%20and%20%245%5Ctext%7B%20V%7D%24))
+      - [§ wiring DIR and inverters](H-bridge.md#wiring%20dir%20and%20inverters)
+    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
+      - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
+      - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
+
+---
+
+Next lecture: motor basics, DC brushed motors.
 
 ### week 5 lecture 2
 
 - datetime: 2026-03-06T11:30:00+08:00/2026-03-06T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: DC motors
+- ELEC 1100
+  - ELEC 1100 / [brushed DC electric motor](brushed%20DC%20electric%20motor.md) ::@:: Motor converts electrical to mechanical energy; commutator and brushes; direction via H-bridge, speed via voltage (PWM next)
+    - [§ what are motors and classification](brushed%20DC%20electric%20motor.md#what%20are%20motors%20and%20classification) ::@:: Motor definition, applications; DC (brushed, brushless, stepper) vs AC; we use brushed in labs
+    - [§ origin and history](brushed%20DC%20electric%20motor.md#origin%20and%20history) ::@:: Faraday 1821 (DC motor), Oersted; Tesla and AC motors (1890s)
+    - [§ magnetic basics](brushed%20DC%20electric%20motor.md#magnetic%20basics) ::@:: Poles and forces, monopoles, Earth's field; permanent magnet vs electromagnet; right-hand rule
+    - [§ stator and rotor interaction](brushed%20DC%20electric%20motor.md#stator%20and%20rotor%20interaction) ::@:: Stator and rotor roles; attraction, repulsion, and continuous rotation (inertia, reversing polarity)
+    - [§ commutation and brushed construction](brushed%20DC%20electric%20motor.md#commutation%20and%20brushed%20construction) ::@:: Commutation and commutator + brushes; current path at brushes vs inside motor
+    - [§ direction control with H-bridge](brushed%20DC%20electric%20motor.md#direction%20control%20with%20H-bridge) ::@:: Reverse current to reverse direction; H-bridge and DIR signal ( $5\text{ V}$ / $0\text{ V}$ ) for reversible control <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+    - [§ speed control and limitations of variable resistor](brushed%20DC%20electric%20motor.md#speed%20control%20and%20limitations%20of%20variable%20resistor) ::@:: Factors affecting speed; variable resistor, drawbacks, and PWM
 
 ### week 6 lab 1
 
@@ -312,7 +382,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 
 - datetime: 2026-03-16T10:30:00+08:00/2026-03-16T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
-- topic: transistor & h-bridge
+- topic: transistor & H-bridge
 
 ### week 7 tutorial 1
 

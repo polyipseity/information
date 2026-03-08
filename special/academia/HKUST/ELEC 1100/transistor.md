@@ -28,6 +28,8 @@ A BJT can be viewed as a PN junction diode with an additional layer added, formi
 
 In the common symbol convention, for an NPN transistor the emitter terminal is the one with an arrow pointing *out* of the device (from emitter to base), while for a PNP transistor the emitter arrow points *into* the device (toward the base). In both symbols the base is the middle leg, and the collector is the remaining terminal without an arrow. Remember that schematic symbols depict current directions and layers, not physical pin ordering on a package; the actual pinout is given by the datasheet.
 
+For analysis, a simple equivalent circuit models the base–emitter junction as a diode and the collector–emitter path as a dependent current source $I_C=\beta I_B$. For an **NPN** transistor the B–E diode has its anode at the base and cathode at the emitter (forward when $V_{BE}>0.7\text{ V}$), and the dependent current source drives current from collector to emitter. For a **PNP** transistor the E–B diode has its anode at the emitter and cathode at the base (forward when the emitter is more positive than the base), and the dependent current source drives current from emitter to collector. <p> ![NPN BJT equivalent: diode and dependent current source](attachments/equivalent_npn.svg) <p> ![PNP BJT equivalent: diode and dependent current source](attachments/equivalent_pnp.svg)
+
 ---
 
 Flashcards for this section are as follows:
@@ -37,6 +39,9 @@ Flashcards for this section are as follows:
 - emitter vs collector role ::@:: The emitter is heavily doped and acts as the source of carriers, the collector gathers those carriers, and the base is a thin control region that regulates how much emitter current reaches the collector.
 - schematic symbol: NPN BJT <p> ![NPN BJT symbol](attachments/symbol_npn.svg) ::@:: NPN transistor symbol with emitter arrow pointing out; terminals are base (B), collector (C), emitter (E).
 - schematic symbol: PNP BJT <p> ![PNP BJT symbol](attachments/symbol_pnp.svg) ::@:: PNP transistor symbol with emitter arrow pointing in; terminals are base (B), collector (C), emitter (E).
+- equivalent circuit (diode + $\beta I_B$): what does it model? ::@:: The base–emitter junction is modelled as a diode; the collector–emitter path is modelled as a dependent current source $I_C=\beta I_B$ placed on the collector side.
+- equivalent schematic: NPN <p> ![NPN BJT equivalent](attachments/equivalent_npn.svg) ::@:: NPN equivalent: B–E diode (anode at B, cathode at E) and dependent current source $\beta I_B$ from collector to emitter on the collector side. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- equivalent schematic: PNP <p> ![PNP BJT equivalent](attachments/equivalent_pnp.svg) ::@:: PNP equivalent: E–B diode (anode at E, cathode at B) and dependent current source $\beta I_B$ from emitter to collector on the collector side. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## historical context
 
@@ -88,6 +93,24 @@ Flashcards for this section are as follows:
 - maximum collector current $I_{C,\max}$ (given $V_{CC}$, $R_C$, $V_{CE,\text{sat}}$): how to compute? ::@:: For a collector resistor $R_C$ to a supply $V_{CC}$, when saturated the transistor has $V_{CE}\approx V_{CE,\text{sat}}$ so the resistor sees about $V_{CC}-V_{CE,\text{sat}}$. Thus $I_{C,\max}\approx(V_{CC}-V_{CE,\text{sat}})/R_C$ (with $V_{CE,\text{sat}}\approx0.2\text{ V}$).
 - saturation vs amplification ($I_C\approx I_{C,\max}$ vs $I_C\approx\beta I_B$): which formula applies when? ::@:: In active (amplification) mode, $I_C\approx\beta I_B$ and $V_{CE}$ is not forced small. In saturation, the circuit forces $I_C\approx I_{C,\max}$ and $V_{CE}\approx0.2\text{ V}$, so typically $I_C<\beta I_B$.
 - why drive into saturation for switching ($V_{CE,\text{sat}}\approx0.2\text{ V}$): why? ::@:: Saturation makes the transistor behave like a closed switch: $V_{CE}$ is small (about $0.2\text{ V}$) so most of $V_{CC}$ appears across the load, giving near-maximum load current and low voltage drop across the transistor.
+
+## transistor as inverter
+
+The same NPN resistor-loaded circuit (collector to $V_{CC}$ through $R_C$, base driven through $R_B$) behaves as a **logic inverter**. Logical HIGH and LOW are determined by comparing collector voltage $V_C$ and emitter voltage $V_E$.
+
+When the input is low (below about $0.7\text{ V}$), the transistor is off. Then $V_C$ stays high (near $V_{CC}$) and $V_E$ is at ground, so the difference $V_C - V_E$ is large: that is **logical HIGH**. When the input is high enough to saturate the transistor, $V_C$ drops to only slightly above $V_E$ (about $0.2\text{ V}$ difference), so the output is **logical LOW**. So input LOW gives output HIGH, and input HIGH gives output LOW.
+
+The input voltage at which the transistor just enters saturation is called $V_{\text{sat}}$. It is found by equating the active-mode current $\beta I_B$ to the maximum current the collector circuit can deliver, $I_{C,\max}$. Base current is $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$; the circuit limit is $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$. Setting $\beta I_B = I_{C,\max}$ and solving gives $V_{\text{sat}} = 0.7\text{ V} + R_B(V_{CC} - 0.2\text{ V})/(\beta R_C)$. For the lecture example ($R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$) this yields $V_{\text{sat}} = 1.18\text{ V}$: for inputs above that, the transistor is in saturation and the output is low.
+
+---
+
+Flashcards for this section are as follows:
+
+- inverter: how are logical HIGH and logical LOW defined? ($V_C$, $V_E$) ::@:: By comparing $V_C$ and $V_E$: large $V_C - V_E$ is logical HIGH; small difference (about $0.2\text{ V}$) is logical LOW.
+- NPN circuit as inverter: what is the logic behaviour? (input LOW vs HIGH; $V_C$, $V_E$, output level) ::@:: Input LOW (transistor off): $V_C$ high, $V_E$ at ground, so output is logical HIGH. Input HIGH (transistor saturated): $V_C$ only slightly above $V_E$, so output is logical LOW.
+- saturation voltage $V_{\text{sat}}$: how is it found? (equate $\beta I_B$ and $I_{C,\max}$) ::@:: Set $\beta I_B = I_{C,\max}$. Use $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$; solve for $V_{\text{sat}}$.
+- lecture $V_{\text{sat}}$ example: $R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$. What is $V_{\text{sat}}$? ::@:: $V_{\text{sat}} = 1.18\text{ V}$; for input above that the transistor is saturated and output is low.
+- logical LOW in inverter: why is the small $V_C - V_E$ (about $0.2\text{ V}$) treated as logic LOW? ::@:: The logic level is defined by $V_C$ relative to $V_E$; when that difference is small, it is accepted as logical LOW.
 
 ## transistor as a switch
 
