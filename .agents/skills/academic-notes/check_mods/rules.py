@@ -312,10 +312,9 @@ def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
 def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag sessions that have a datetime but are missing a topic.
 
-    This rule applies only when the session is not marked 'unscheduled'.  It
-    mirrors the second half of the previous ``session_topic_presence`` rule but
-    now lives in its own registration so that each violation has a distinct
-    rule identifier.
+    This rule applies only when the session is not marked 'unscheduled' and
+    not a no-class day (status: no class, or status: public holiday / public
+    holiday: <name>).  No-class days omit topic per skill conventions.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
@@ -326,9 +325,15 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
             end = idx + len(hdr) + m2.start()
         section = text[idx:end]
         if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
-            # skip unscheduled sessions here
+            # skip unscheduled sessions
             if "status:" in section and re.search(
                 r"status:\s*unscheduled", section, re.IGNORECASE
+            ):
+                continue
+            # skip no-class days (topic omitted per skill)
+            if "status:" in section and (
+                re.search(r"status:\s*no\s+class", section, re.IGNORECASE)
+                or re.search(r"status:\s*public\s+holiday", section, re.IGNORECASE)
             ):
                 continue
             if "topic:" not in section:

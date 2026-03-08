@@ -24,7 +24,7 @@ Agent quickstart pointer: See `.agents/instructions/agent-quickstart.instruction
 
 - **Math**: Keep KaTeX `$...$` (inline) and `$$...$$` (block) intact; don't wrap or escape.
 
-- **Formatting**: Respect `.markdownlint.json` settings (MD013/MD033/MD051 disabled). Avoid rewrapping existing lines; preserve layout.
+- **Formatting**: Respect `.markdownlint.json` settings (MD013/MD033/MD051 disabled). Avoid rewrapping existing lines; preserve layout. For emphasis in Markdown, prefer underscore: `_italic_` and `__bold__` (not `*`/`**`) so formatting is consistent and asterisks are reserved for lists and math.
 
 ## Submodule editing policy
 

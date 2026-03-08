@@ -32,6 +32,15 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 - Wikipedia helper: `.agents/skills/academic-notes/find_wikipedia.py`
 - Continuous improvement workflow: `.agents/skills/academic-notes/continuous_improvement.md`
 
+## Course index and logistics (conventions)
+
+- **Separator**: After the course list (institution, `name:`, `credits:`), insert `---` before the course description.
+- **Sections format**: Under `logistics` → `sections`, use one key for the chosen stream (e.g. `lecture: L1`). List all section identifiers and their details under that key (e.g. L1, L2, L3 with venue and times). Do not create separate `lecture: L2`, `lecture: L3` keys.
+- **Session headings**: Use `## week N lecture` and `## week N lecture 2` (space in “lecture 2”). Do not put holiday or status text in the heading (e.g. `## week 3` not `## week 3 (Lunar New Year)`).
+- **No-class days**: Omit `topic:` for sessions without classes. Use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day); use `status: no class` for other non-teaching days (e.g. midterm break).
+- **Index session flashcards**: Omit session-level flashcard bullets in the index when they only describe scope or coverage; keep substantive flashcards in topic notes and questions.
+- **Emphasis**: Use underscore for italic and bold: `_italic_`, `__bold__`.
+
 ## Short author checklist
 
 1. Add YAML frontmatter including `title`, `aliases`, `tags:` (must include the `special/academia/<INSTITUTION>` tag).

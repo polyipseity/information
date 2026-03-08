@@ -374,6 +374,16 @@ def test_session_topic_rules():
     assert not session_missing_topic(ctx2)  # because status is unscheduled
     assert not session_unscheduled_with_topic(make_ctx("## w\n- datetime: 2023-01-01"))
 
+    # no-class days omit topic; should not trigger session_missing_topic
+    for no_class_txt in (
+        "## week 3\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: no class\n- venue: LSK Room 1014\n",
+        "## week 3\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: public holiday: Lunar New Year\n- venue: LSK Room 1014\n",
+    ):
+        ctx_nc = make_ctx(no_class_txt)
+        assert not session_missing_topic(ctx_nc), (
+            "no-class / public holiday sessions may omit topic"
+        )
+
 
 def test_unit_outside_math_behavior():
     """Unit rule fires only when math ends in a number and a unit follows."""

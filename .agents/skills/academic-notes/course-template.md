@@ -72,16 +72,17 @@ The content is in teaching order.
   - <component name>: <percent>%; <optional description>
   - <another component>: <percent>%
   - ... <!-- add or remove components as needed; description follows semicolon only when present -->
-- sections: <!-- Prompt the user for lab, tutorial, and lecture section codes and the corresponding day‑of‑week/time patterns.  Store each on the same line separated by a semicolon so the note contains both the stream identifier and the weekly times.  The agent should treat all three fields uniformly; there is no special case for lectures. -->
-  - lecture: <section identifier> <!-- e.g. L1 or L2 -->
-    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
-    - ...
-  - tutorials: <section identifier> <!-- e.g. T2 or T3 -->
-    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
-    - ...
-  - labs: <section identifier> <!-- e.g. LA3 -->
-    - <section identifier>: <venue>; <weekday>T<start>/<weekday>T<end>[, <weekday>T<start>/<weekday>T<end>]{, ...} <!-- multiple day/time pairs allowed (comma-separated, no upper bound) -->
-    - ...
+- sections: <!-- Use one key per stream type for the chosen section (e.g. lecture: L1). Under that key list every section's identifier and details (L1, L2, L3 each with venue and times). Do not add separate lecture: L2, lecture: L3 keys. -->
+  - lecture: <chosen section> <!-- e.g. L1 = chosen; list L1, L2, L3 (all sections) under this key -->
+    - L1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+    - L2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+    - L3: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+  - tutorials: <chosen section> <!-- e.g. T2; list all tutorial sections under this key -->
+    - T1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+    - T2: <venue>; ...
+  - labs: <chosen section> <!-- e.g. LA1; list all lab sections under this key -->
+    - LA1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+    - LA2: <venue>; ...
 
 ## children
 
