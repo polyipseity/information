@@ -37,7 +37,7 @@ See SKILL.md in this folder for concrete snippets and validated frontmatter exam
 
 - Session entries (lectures, labs, tutorials, exams) may interleave in time. Always list all sessions in strict chronological order. Use dated `datetime` fields to make ordering explicit and machine-readable.
 - For multiple sessions within a week, use numbered subheadings (e.g., `lecture 1`, `lecture 2`, `lab 1`, `lab 2`) and keep them ordered by datetime.
-- For no-class days (holidays, breaks): omit `topic:`; use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day) or `status: no class` for other non-teaching days (e.g. midterm break). Do not put the holiday or status in the section heading (use `## week 3` not `## week 3 (Lunar New Year)`); see SKILL.md session and index rules.
+- For no-class days (holidays, breaks): omit `topic:`; use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day) or `status: no class` for other non-teaching days (e.g. midterm break). Do not put the holiday or status in the section heading (use `## week 3 lecture` or `## week 3 lecture 2`, etc., not `## week 3 (Lunar New Year)` or `## week 3 no class`); see SKILL.md session and index rules.
 
 ## template content
 

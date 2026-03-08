@@ -35,6 +35,7 @@ from check_mods.rules import (
     section_example_heading,
     session_datetime_order,
     session_duplicate_heading,
+    session_heading_format,
     session_missing_topic,
     session_unscheduled_with_topic,
     tag_language,
@@ -68,13 +69,16 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     m = FRONT_RE.match(text)
     if m:
         body = text[m.end() :]
-    session_headers = []
-    for m2 in re.finditer(
-        r"^##\s+week\s+(\d+)(?:\s+(\w+))?", text, re.IGNORECASE | re.MULTILINE
-    ):
+    # Same pattern as validator: week N type [number]; type = lecture|lab|tutorial only (status has no bearing on heading)
+    session_headers: list[tuple[str, str, str, int]] = []
+    _re = re.compile(
+        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?|no\s+class)\s*$",
+        re.IGNORECASE | re.MULTILINE,
+    )
+    for m2 in _re.finditer(text):
         week = m2.group(1)
-        typ = (m2.group(2) or "").lower()
-        session_headers.append((week, typ, m2.group(0), m2.start()))
+        typ = m2.group(2).strip().lower()
+        session_headers.append((week, typ, m2.group(0).strip(), m2.start()))
     return ValidationContext(
         path=path,
         text=text,
@@ -341,6 +345,29 @@ def test_session_rules():
     msgs = session_duplicate_heading(ctx)
     assert msgs and "duplicate session heading" in msgs[0].msg
 
+    # "lecture" and "lecture 2" are distinct types (allowed format: week N type [number])
+    txt_distinct = "## week 1 lecture\n- datetime: 2023-01-01\n## week 1 lecture 2\n- datetime: 2023-01-02\n"
+    ctx_distinct = make_ctx(txt_distinct)
+    assert not session_duplicate_heading(ctx_distinct), (
+        "week 1 lecture and week 1 lecture 2 should not be treated as duplicates"
+    )
+
+    # Invalid session heading format is flagged (only week N type [number]; no "no class")
+    for invalid in (
+        "## week 3 (Lunar New Year)\n",
+        "## week 3\n",
+        "## week 5 midterm\n",
+        "## week 3 no class\n",
+    ):
+        ctx_invalid = make_ctx(invalid)
+        msgs_fmt = session_heading_format(ctx_invalid)
+        assert msgs_fmt and msgs_fmt[0].rule_id == "session_heading_format", (
+            f"expected session_heading_format error for {invalid!r}"
+        )
+    assert not session_heading_format(
+        make_ctx("## week 1 lecture\n## week 1 lecture 2\n")
+    )
+
     txt = (
         "## week 1 lecture\n- datetime: 2023-01-02T10:00\n"
         "## week 2 lecture\n- datetime: 2023-01-01T09:00\n"
@@ -374,10 +401,10 @@ def test_session_topic_rules():
     assert not session_missing_topic(ctx2)  # because status is unscheduled
     assert not session_unscheduled_with_topic(make_ctx("## w\n- datetime: 2023-01-01"))
 
-    # no-class days omit topic; should not trigger session_missing_topic
+    # no-class days omit topic; should not trigger session_missing_topic (heading is week N lecture etc.; status in metadata)
     for no_class_txt in (
-        "## week 3\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: no class\n- venue: LSK Room 1014\n",
-        "## week 3\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: public holiday: Lunar New Year\n- venue: LSK Room 1014\n",
+        "## week 3 lecture\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: no class\n- venue: LSK Room 1014\n",
+        "## week 3 lecture\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: public holiday: Lunar New Year\n- venue: LSK Room 1014\n",
     ):
         ctx_nc = make_ctx(no_class_txt)
         assert not session_missing_topic(ctx_nc), (
@@ -550,6 +577,31 @@ def test_no_soft_wrap_paragraph():
     txt = "- item part1\n  continuation\n"
     ctx = make_ctx(txt)
     assert not no_soft_wrap_paragraph(ctx)
+
+    # only table rows are exempt (after stripping blockquote); blockquote prose still applies
+    for good in [
+        "> scenario line\n> \n> | | Dr | Cr |\n> |--|--:|--:|\n> | Cash | 50,000 | |\n",
+        "| a | b |\n|--|--|\n| 1 | 2 |\n",
+        ">> | a | b |\n>> |--|--|\n>> | 1 | 2 |\n",
+        "> > | x |\n> > |--|\n",
+    ]:
+        assert not no_soft_wrap_paragraph(make_ctx(good)), (
+            "table rows (with or without blockquote) must not be flagged"
+        )
+
+    # blockquote with two prose lines is still soft-wrap
+    txt = "> first line\n> second line\n"
+    ctx = make_ctx(txt)
+    msgs = no_soft_wrap_paragraph(ctx)
+    assert msgs and "soft-wrapped" in msgs[0].msg, (
+        "blockquote prose lines must still be flagged as soft-wrapped"
+    )
+
+    # nested blockquote with two prose lines is still soft-wrap
+    txt = ">> alpha\n>> beta\n"
+    ctx = make_ctx(txt)
+    msgs = no_soft_wrap_paragraph(ctx)
+    assert msgs and "soft-wrapped" in msgs[0].msg
 
 
 def test_no_soft_wrap_list():

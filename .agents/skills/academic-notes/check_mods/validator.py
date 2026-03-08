@@ -140,13 +140,16 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     if m:
         body = text[m.end() :]
 
+    # Only allow: week N type [number]. Type = lecture|lab|tutorial (optional number). Status has no bearing on heading.
     session_headers: list[tuple[str, str, str, int]] = []
-    for m in re.finditer(
-        r"^##\s+week\s+(\d+)(?:\s+(\w+))?", text, re.IGNORECASE | re.MULTILINE
-    ):
+    _session_heading_re = re.compile(
+        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
+        re.IGNORECASE | re.MULTILINE,
+    )
+    for m in _session_heading_re.finditer(text):
         week = m.group(1)
-        typ = (m.group(2) or "").lower()
-        session_headers.append((week, typ, m.group(0), m.start()))
+        typ = m.group(2).strip().lower()
+        session_headers.append((week, typ, m.group(0).strip(), m.start()))
 
     ctx = ValidationContext(
         path=path,

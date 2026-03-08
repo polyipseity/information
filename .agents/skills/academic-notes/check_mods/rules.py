@@ -244,6 +244,54 @@ def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]
 
 # session-related -----------------------------------------------------------
 
+# Allowed session heading format: ## week N type [number]. Type = lecture|lab|tutorial (optional number). Status has no bearing.
+_SESSION_HEADING_VALID = re.compile(
+    r"^##\s+week\s+\d+\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
+    re.IGNORECASE,
+)
+
+
+@RULE_REGISTRY.register()
+def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require session headings to use only week N type [number].
+
+    Allowed: ## week 1 lecture, ## week 1 lecture 2, ## week 2 lab 1. Type = lecture|lab|tutorial only.
+    Invalid: ## week 3 no class, ## week 3 (Lunar New Year), ## week 3 (no type). Status belongs in metadata only.
+    """
+    errors: list[ValidationMessage] = []
+    for m in re.finditer(
+        r"^##\s+week\s+\d+\s*.+$", ctx.text, re.IGNORECASE | re.MULTILINE
+    ):
+        line = m.group(0).rstrip()
+        if not _SESSION_HEADING_VALID.match(line):
+            line_no, col, col_end = locate_range(ctx.text, m.start(), len(line))
+            errors.append(
+                ValidationMessage(
+                    "session_heading_format",
+                    "invalid session heading; use week N type [number] "
+                    "(e.g. week 1 lecture, week 1 lecture 2); status has no bearing on heading",
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+    # Also flag ## week N with no type at all (nothing after the number)
+    for m in re.finditer(
+        r"^##\s+week\s+(\d+)\s*$", ctx.text, re.IGNORECASE | re.MULTILINE
+    ):
+        line = m.group(0)
+        line_no, col, col_end = locate_range(ctx.text, m.start(), len(line))
+        errors.append(
+            ValidationMessage(
+                "session_heading_format",
+                "session heading must include type (e.g. lecture, lecture 2)",
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
 
 @RULE_REGISTRY.register()
 def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]:
@@ -1407,6 +1455,10 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag unescaped single newlines within paragraphs.
 
     Paragraphs should not be soft-wrapped.  List items are ignored here.
+    Only **table rows** are exempt: after stripping any number of blockquote
+    markers (e.g. ``>``, ``>>``, ``> > ``), if the line starts with ``|`` it is
+    treated as a table row and skipped.  Blockquote content remains subject to
+    the soft-wrap rule (e.g. ``> line one\\n> line two`` is still flagged).
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
@@ -1440,6 +1492,17 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
         if line.strip().startswith("<!--"):
             continue
         if re.match(r"^\s*([-*+]|\d+\.)\s", line):
+            continue
+
+        # table rows only: strip multi-level blockquote prefix then check for |
+        def after_quote(s: str) -> str:
+            return re.sub(r"^\s*(?:>\s*)+", "", s.strip())
+
+        content = after_quote(line)
+        next_content = after_quote(next_line)
+        if not content or not next_content:
+            continue  # line or next is only blockquote markers (treated as blank)
+        if content.startswith("|") or next_content.startswith("|"):
             continue
         abs_idx = body_start + line_start
         line_no, col, col_end = locate_range(text, abs_idx, len(line))

@@ -18,7 +18,7 @@ This skill automates the user’s process for converting Markdown prose into act
 
 All style decisions are driven by the representative examples and heuristics embedded in this document.  When you encounter a new pattern, capture it here as an example or add a heuristic rule.  An optional prompt file (`flashcard-creation.prompt.md`) can solicit path/line information.  Do **not** run any commands such as `init generate` in the course of editing; operational advice belongs elsewhere.
 
-**Academic content:** if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations.
+**Academic content:** if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations. **Topic notes (except journal entries):** do **not** add cloze cards; use only two-sided (::@::) or very rarely one-sided (:@:) cards and add more of those as needed. **Journal entries only:** mask all debit and credit amounts in tables; add scenario clozes covering almost the entire scenario but leave **a few hint words** at the beginning or end; for longer scenarios use **two or three** clozes; use `&nbsp;` for the thousands separator (see academic-notes skill § Journal entries note).
 
 ## When to use
 
