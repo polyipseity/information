@@ -96,6 +96,7 @@ tags:
 
 ### 2026 spring
 
+- [ACCT 3020](ACCT%203020/index.md): Financial Accounting II \(3 credits\)
 - [ELEC 1100](ELEC%201100/index.md): Introduction to Electro-Robot Design \(4 credits\)
 
 <!-- future term sections should be inserted above this comment in strict chronological order -->
