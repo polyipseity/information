@@ -8,6 +8,7 @@
   "hideStatusBar": "focused",
   "interceptLogging": true,
   "language": "",
+  "macOSOptionKeyPassthrough": true,
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
@@ -75,5 +76,9 @@
       },
       "type": "external"
     }
+  },
+  "defaultProfile": "c4f2db89-e11a-4693-b868-7f01ac3f0011",
+  "terminalOptions": {
+    "documentOverride": null
   }
 }

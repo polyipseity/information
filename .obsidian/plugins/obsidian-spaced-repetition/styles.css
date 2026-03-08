@@ -82,7 +82,7 @@
 /* MARK: Views General*/
 
 .sr-view {
-    --view-padding: var(--size-4-4);
+    --view-padding: var(--size-4-3);
     display: flex;
     flex-direction: column;
 }
@@ -112,16 +112,24 @@
 }
 
 .is-mobile #sr-modal-view {
-    padding-top: max(var(--safe-area-inset-top), var(--view-padding)) !important;
+    padding-top: max(var(--safe-area-inset-top), calc(var(--view-padding) * 2)) !important;
     padding-right: max(var(--safe-area-inset-right), var(--view-padding)) !important;
     padding-left: max(var(--safe-area-inset-left), var(--view-padding)) !important;
-    padding-bottom: max(var(--safe-area-inset-bottom), var(--view-padding)) !important;
+    padding-bottom: max(var(--safe-area-inset-bottom), calc(var(--view-padding) * 2)) !important;
 }
 
 /* MARK: Tab view */
 
 .sr-tab-view {
-    padding: 0px var(--view-padding) calc(var(--view-padding) * 2) var(--view-padding) !important;
+    --bottom-statusbar-clearance: var(--size-4-8);
+    padding-top: 0 !important;
+    padding-right: var(--view-padding) !important;
+    padding-left: var(--view-padding) !important;
+    padding-bottom: max(
+        var(--view-padding),
+        var(--bottom-statusbar-clearance),
+        var(--safe-area-inset-bottom)
+    ) !important;
 }
 
 .sr-tab-view-content.sr-center-view {
@@ -281,6 +289,16 @@
         gap: var(--size-4-4);
     }
 
+    & .sr-reset-button.mod-warning {
+        --interactive-warning-hover: #fdf6f6;
+        color: var(--text-error);
+        background-color: var(--interactive-normal);
+
+        &:hover {
+            background-color: var(--interactive-warning-hover);
+        }
+    }
+
     & .sr-main-wrapper {
         gap: var(--container-gap);
         display: flex;
@@ -391,11 +409,24 @@
         margin-top: 0;
     }
 
+    & .sr-content > ul,
+    & .sr-content > ol {
+        padding-left: var(--size-4-6);
+    }
+
     & .sr-content hr {
         backdrop-filter: invert(40%);
         border-top-style: dashed;
         margin: 1rem 0;
     }
+
+    & .sr-content .cloze-input {
+        height: 1.4rem;
+    }
+}
+
+.is-mobile .sr-card-container .cloze-input {
+    width: unset;
 }
 
 .is-phone .sr-card-container .sr-controls {
@@ -592,123 +623,257 @@ body:not(.is-mobile) .sr-response-button.sr-easy-button::after {
     cursor: default;
 }
 
-/*  MARK: Statistics */
+/* MARK: Confirmation Modal */
 
-#sr-chart-period {
-    appearance: menulist;
-    border-right: 8px solid transparent;
+.sr-confirmation-modal-header {
+    text-align: start;
+    margin-left: unset;
 }
 
-/* MARK: Settings Tab */
+/* MARK: Note Review Page */
 
-/*
- * Tab elements
- * This CSS is copied from https://github.com/Taitava/obsidian-shellcommands
- * Jarkko Linnanvirta https://github.com/Taitava comments below...
- *  - Renamed classes
- *
- * This CSS is copied 2021-10-21 from https://www.w3schools.com/howto/howto_js_tabs.asp
- * Modifications:
- *  - Renamed classes
- *  - Added tab icons.
- *  - Changed colors.
- *  - Changed/removed borders.
- *  - Removed button transition.
- *  - Changed button border-radiuses
- *  - Added margin-right rule to .sr-settings-tab-header-button .
- */
-
-/* Style the tab */
-.sr-settings-tab {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.sr-settings-tab-header {
-    border-bottom: 2px solid var(--background-modifier-border);
-    overflow-x: auto;
+.sr-note-review-page {
     display: flex;
-    padding-bottom: var(--size-4-2);
-    width: 100%;
-}
+    flex-direction: column;
+    gap: var(--size-4-4);
 
-@media only screen and (min-height: 600px) {
-    body:not(.is-phone) .sr-settings-tab-header {
-        padding-bottom: var(--size-4-4);
+    .tree-item.mod-root > .tree-item-children {
+        padding-inline-start: 0;
+        margin-inline-start: 0;
+        border-inline-start: none;
+    }
+
+    & .tree-item-self:hover {
+        background-color: var(--background-modifier-hover);
+        border-radius: var(--input-radius);
+    }
+
+    .nav-file-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-file-title-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-grow: 1;
+    }
+
+    .sr-review-context-btn {
+        &:hover {
+            background-color: var(--background-modifier-hover);
+            cursor: pointer;
+        }
     }
 }
 
-@media only screen and (orientation: landscape) {
-    .is-phone .sr-settings-tab-header {
-        padding-bottom: var(--size-4-1);
-    }
-}
-
-.sr-settings-tab-header-button-wrapper {
+.sr-note-review-header {
     display: flex;
+    flex-direction: column;
     gap: var(--size-4-2);
-    flex-grow: 1;
+    padding: var(--size-4-2);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.sr-note-review-header-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-2);
+}
+
+.sr-note-review-header-title-icon {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Style the buttons that are used to open the tab content */
-.sr-settings-tab-header-button {
-    outline: none;
-    cursor: pointer;
+.sr-note-review-header-title {
+    font-size: var(--font-ui-large);
+    font-weight: var(--font-semibold);
 }
 
-/* Create an active/current tablink class */
-.sr-settings-tab-header-button {
-    &:hover {
-        background-color: var(--background-modifier-hover);
+.sr-note-review-header-subtitle-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--size-4-2);
+    font-size: var(--font-ui-small);
+    color: var(--text-faint);
+}
+
+/* MARK: Status Bar */
+
+.sr-status-bar-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-4-1);
+
+    &.mod-clickable {
+        --cursor: pointer;
+    }
+}
+
+/* MARK: Settings Tab */
+
+/* Style the tab */
+.sr-settings-tab {
+    overflow: hidden;
+}
+
+.is-phone .modal.mod-settings .sr-settings-tab {
+    padding-bottom: max(var(--safe-area-inset-bottom), var(--size-4-4));
+}
+
+.sr-main-page {
+    & .sr-settings-page-title-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    &.sr-tab-active,
-    &.sr-tab-active:hover {
-        background-color: var(--background-modifier-active-hover);
+    & .sr-settings-page-title {
+        display: flex;
+        align-items: center;
+        gap: var(--size-4-2);
     }
 }
 
-.sr-settings-tab-header-button svg {
-    vertical-align: middle;
-    /* Not middle but close enough. */
+.sr-settings-tab {
+    & .sr-main-page {
+        & .setting-item {
+            flex-direction: row !important;
+            align-items: center !important;
+
+            & .setting-item-info {
+                align-self: unset !important;
+            }
+
+            & .setting-item-control {
+                width: unset !important;
+                justify-content: flex-end !important;
+            }
+        }
+    }
 }
 
-/* Style the tab content */
+.is-phone .modal .sr-settings-tab {
+    & .sr-settings-page-title-wrapper {
+        font-size: var(--font-ui-normal);
+        padding-left: var(--size-4-2);
+        border-left: 1px solid var(--background-modifier-border);
+    }
 
-.sr-settings-tab-content {
-    display: none;
-    padding: var(--size-4-2) var(--size-4-3);
+    & .sr-settings-page-header {
+        padding: var(--size-4-2);
+        border: unset;
+        background-color: var(--setting-items-background);
+        border-radius: var(--setting-items-radius);
+    }
+}
 
+.sr-settings-page {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-4-4);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    & button {
+        cursor: pointer;
+    }
+}
+
+.sr-settings-page-header {
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-2);
+    padding-bottom: var(--size-4-2);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.sr-settings-page-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-4-2);
+    font-size: var(--font-ui-large);
+}
+
+.sr-settings-page-title-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-settings-page-content {
+    display: flex;
     flex-direction: column;
     overflow-x: hidden;
     overflow-y: auto;
     height: 100%;
 }
 
-@media only screen and (min-height: 600px) {
-    body:not(.is-phone) .sr-settings-tab-content {
-        padding: var(--size-4-3) var(--size-4-4);
-    }
+body:not(.is-phone) .sr-settings-page-content {
+    padding-right: var(--size-4-1);
 }
 
-.sr-settings-tab-content.sr-tab-active {
-    display: flex;
-}
+/*  MARK: Statistics */
 
-.sr-settings-tab-content-inner {
+.sr-statistics-page {
     display: flex;
     flex-direction: column;
+    gap: var(--size-4-4);
 }
 
-/* MARK: gridjs */
+.sr-setting-override > .setting-item-name,
+.sr-setting-override > .setting-item-control,
+.sr-setting-override > .setting-item-info {
+    display: none;
+}
 
-/*
- * gridjs
- * put everything SR plugin specific above this block
- */
+.sr-chart-container,
+.sr-chart-canvas-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* MARK: gridjs -> NoteStatsComponent */
+
+.gridjs *,
+.gridjs :after,
+.gridjs :before {
+    box-sizing: border-box;
+}
+
+.gridjs-wrapper {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 8px 8px 0 0;
+    border-width: 1px 1px 0 1px;
+    display: block;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: calc(45px * 10 + 54px);
+}
+
+.gridjs-wrapper:nth-last-of-type(2) {
+    border-bottom-width: 1px;
+    border-radius: 8px;
+}
+
+.gridjs-search-input {
+    width: 100%;
+}
+
 .gridjs-footer button,
 .gridjs-head button {
     background-color: transparent;
@@ -752,13 +917,11 @@ body:not(.is-mobile) .sr-response-button.sr-easy-button::after {
 
 .gridjs-footer {
     background-color: #fff;
-    border-bottom-width: 1px;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
     border-color: #e5e7eb;
     border-radius: 0 0 8px 8px;
     border-top: 1px solid #e5e7eb;
-    box-shadow:
-        0 1px 3px 0 rgba(0, 0, 0, 0.1),
-        0 1px 2px 0 rgba(0, 0, 0, 0.26);
     display: block;
     padding: 12px 24px;
     position: relative;
@@ -791,6 +954,9 @@ input.gridjs-input:focus {
 
 .gridjs-pagination {
     color: #3d4044;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gridjs-pagination:after {
@@ -805,13 +971,35 @@ input.gridjs-input:focus {
 }
 
 .gridjs-pagination .gridjs-pages {
-    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-4-2);
+}
+
+.is-mobile .gridjs-pagination .gridjs-pages {
+    gap: 0;
+}
+
+.is-mobile .gridjs-pagination .gridjs-pages button {
+    border-right: none;
+    border-radius: 0;
+}
+
+.gridjs-pagination .gridjs-pages button:last-child {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-right: 1px solid #d2d6dc;
+}
+
+.gridjs-pagination .gridjs-pages button:first-child {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 .gridjs-pagination .gridjs-pages button {
     background-color: #fff;
     border: 1px solid #d2d6dc;
-    border-right: none;
     outline: none;
     padding: 5px 14px;
     -webkit-user-select: none;
@@ -849,17 +1037,6 @@ input.gridjs-input:focus {
 .gridjs-pagination .gridjs-pages button.gridjs-currentPage {
     background-color: #f7f7f7;
     font-weight: 700;
-}
-
-.gridjs-pagination .gridjs-pages button:last-child {
-    border-bottom-right-radius: 6px;
-    border-right: 1px solid #d2d6dc;
-    border-top-right-radius: 6px;
-}
-
-.gridjs-pagination .gridjs-pages button:first-child {
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 6px;
 }
 
 .gridjs-pagination .gridjs-pages button:last-child:focus {
@@ -921,9 +1098,13 @@ td.gridjs-td {
 }
 
 td.gridjs-td {
+    overflow: hidden;
     border: 1px solid #e5e7eb;
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 12px 24px;
+    max-height: calc(45px - 24px);
+    text-overflow: ellipsis;
+    text-wrap-mode: nowrap;
 }
 
 td.gridjs-td:first-child {
@@ -1003,41 +1184,6 @@ th.gridjs-th:last-child {
 
 .gridjs-tr:last-child td {
     border-bottom: 0;
-}
-
-.gridjs *,
-.gridjs :after,
-.gridjs :before {
-    box-sizing: border-box;
-}
-
-.gridjs-wrapper {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    border-color: #e5e7eb;
-    border-radius: 8px 8px 0 0;
-    border-top-width: 1px;
-    box-shadow:
-        0 1px 3px 0 rgba(0, 0, 0, 0.1),
-        0 1px 2px 0 rgba(0, 0, 0, 0.26);
-    display: block;
-    overflow: auto;
-    position: relative;
-    width: 100%;
-    z-index: 1;
-}
-
-.gridjs-wrapper:nth-last-of-type(2) {
-    border-bottom-width: 1px;
-    border-radius: 8px;
-}
-
-.gridjs-search {
-    float: left;
-}
-
-.gridjs-search-input {
-    width: 250px;
 }
 
 .gridjs-loading-bar {

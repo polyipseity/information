@@ -220,7 +220,7 @@ var require_moment = __commonJS({
         }
         return to3;
       }
-      function Moment3(config) {
+      function Moment4(config) {
         copyConfig(this, config);
         this._d = new Date(config._d != null ? config._d.getTime() : NaN);
         if (!this.isValid()) {
@@ -233,7 +233,7 @@ var require_moment = __commonJS({
         }
       }
       function isMoment(obj) {
-        return obj instanceof Moment3 || obj != null && obj._isAMomentObject != null;
+        return obj instanceof Moment4 || obj != null && obj._isAMomentObject != null;
       }
       function warn(msg) {
         if (hooks.suppressDeprecationWarnings === false && typeof console !== "undefined" && console.warn) {
@@ -1018,15 +1018,15 @@ var require_moment = __commonJS({
           "i"
         );
       }
-      function createDate(y2, m2, d2, h6, M2, s2, ms) {
+      function createDate(y2, m2, d2, h4, M2, s2, ms) {
         var date;
         if (y2 < 100 && y2 >= 0) {
-          date = new Date(y2 + 400, m2, d2, h6, M2, s2, ms);
+          date = new Date(y2 + 400, m2, d2, h4, M2, s2, ms);
           if (isFinite(date.getFullYear())) {
             date.setFullYear(y2);
           }
         } else {
-          date = new Date(y2, m2, d2, h6, M2, s2, ms);
+          date = new Date(y2, m2, d2, h4, M2, s2, ms);
         }
         return date;
       }
@@ -1836,8 +1836,8 @@ var require_moment = __commonJS({
         } else if (militaryOffset) {
           return 0;
         } else {
-          var hm = parseInt(numOffset, 10), m2 = hm % 100, h6 = (hm - m2) / 100;
-          return h6 * 60 + m2;
+          var hm = parseInt(numOffset, 10), m2 = hm % 100, h4 = (hm - m2) / 100;
+          return h4 * 60 + m2;
         }
       }
       function configFromRFC2822(config) {
@@ -2138,7 +2138,7 @@ var require_moment = __commonJS({
         configFromArray(config);
       }
       function createFromConfig(config) {
-        var res = new Moment3(checkOverflow(prepareConfig(config)));
+        var res = new Moment4(checkOverflow(prepareConfig(config)));
         if (res._nextDay) {
           res.add(1, "d");
           res._nextDay = void 0;
@@ -2155,7 +2155,7 @@ var require_moment = __commonJS({
           config._i = input = config._locale.preparse(input);
         }
         if (isMoment(input)) {
-          return new Moment3(checkOverflow(input));
+          return new Moment4(checkOverflow(input));
         } else if (isDate(input)) {
           config._d = input;
         } else if (isArray2(format2)) {
@@ -2699,7 +2699,7 @@ var require_moment = __commonJS({
         );
       }
       function clone3() {
-        return new Moment3(this);
+        return new Moment4(this);
       }
       function isAfter(input, units) {
         var localInput = isMoment(input) ? input : createLocal(input);
@@ -3472,7 +3472,7 @@ var require_moment = __commonJS({
       function getZoneName() {
         return this._isUTC ? "Coordinated Universal Time" : "";
       }
-      var proto = Moment3.prototype;
+      var proto = Moment4.prototype;
       proto.add = add;
       proto.calendar = calendar$1;
       proto.clone = clone3;
@@ -3507,7 +3507,7 @@ var require_moment = __commonJS({
       proto.toISOString = toISOString;
       proto.inspect = inspect;
       if (typeof Symbol !== "undefined" && Symbol.for != null) {
-        proto[Symbol.for("nodejs.util.inspect.custom")] = function() {
+        proto[/* @__PURE__ */ Symbol.for("nodejs.util.inspect.custom")] = function() {
           return "Moment<" + this.format() + ">";
         };
       }
@@ -4754,7 +4754,7 @@ var require_vhtml = __commonJS({
         htmlFor: "for"
       };
       var sanitized = {};
-      function h6(name, attrs) {
+      function h4(name, attrs) {
         var stack = [], s2 = "";
         attrs = attrs || {};
         for (var i2 = arguments.length; i2-- > 2; ) {
@@ -4793,7 +4793,7 @@ var require_vhtml = __commonJS({
         sanitized[s2] = true;
         return s2;
       }
-      return h6;
+      return h4;
     }));
   }
 });
@@ -4804,13 +4804,13 @@ __export(main_exports, {
   default: () => SRPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian21 = require("obsidian");
+var import_obsidian32 = require("obsidian");
 
 // src/algorithms/base/repetition-item.ts
 var RepetitionItem = class {
   // scheduling
   get hasSchedule() {
-    return this.scheduleInfo != null;
+    return this.scheduleInfo !== null && this.scheduleInfo !== void 0;
   }
   get isNew() {
     return !this.hasSchedule;
@@ -4844,8 +4844,7 @@ var ObsidianVaultNoteLinkInfoFinder = class {
 var import_moment2 = __toESM(require_moment());
 
 // src/constants.ts
-var SCHEDULING_INFO_REGEX = /^---\r?\n((?:.*\r?\n)*)sr-due: (.+)\r?\nsr-interval: (\d+)\r?\nsr-ease: (\d+)\r?\n((?:.*\r?\n)?)---/;
-var YAML_FRONT_MATTER_REGEX = /^---\r?\n((?:.*\r?\n)*?)---/;
+var FLASHCARD_SCHEDULE_INFO = /\s?<!--SR:!.+?-->/g;
 var MULTI_SCHEDULING_EXTRACTOR = /!([\d-]+),(\d+),(\d+)/gm;
 var LEGACY_SCHEDULING_EXTRACTOR = /<!--SR:([\d-]+),(\d+),(\d+)-->/gm;
 var OBSIDIAN_TAG_AT_STARTOFLINE_REGEX = /^#[^\s#]+/gi;
@@ -4984,6 +4983,8 @@ var ar_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
   DISABLE_CLOZE_CARDS: "\u061Fcloze \u062A\u0639\u0637\u064A\u0644 \u0628\u0637\u0627\u0642\u0627\u062A",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "Convert ==highlights== to clozes",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "Convert **bolded text** to clozes",
@@ -5047,6 +5048,13 @@ var ar_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
   CLOSE: "\u0623\u063A\u0644\u0642",
@@ -5081,7 +5089,26 @@ var ar_default = {
   CARD_TYPES_SUMMARY: " ${totalCardsCount} :\u0625\u062C\u0645\u0627\u0644\u064A \u0639\u062F\u062F \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/bn.ts
@@ -5190,6 +5217,8 @@ var cz_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
   DISABLE_CLOZE_CARDS: "Vypnout cloze karti\u010Dky?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "P\u0159ev\xE9st ==zv\xFDrazn\u011Bn\xED== na clozes?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'P\u0159idat/odstranit <code>${defaultPattern}</code> z va\u0161ich "Cloze vzor\u016F"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "P\u0159ev\xE9st **tu\u010Dn\xFD text** na clozes?",
@@ -5253,6 +5282,13 @@ var cz_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Fronta pozn\xE1mek k revizi",
   CLOSE: "Uzav\u0159en\xE9",
@@ -5287,7 +5323,26 @@ var cz_default = {
   CARD_TYPES_SUMMARY: "Karti\u010Dek celkem: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/da.ts
@@ -5343,13 +5398,13 @@ var de_default = {
   YEARS_STR_IVL_MOBILE: "${interval}j",
   // settings.ts
   SETTINGS_HEADER: "Spaced Repetition",
-  GROUP_TAGS_FOLDERS: "Tags & Folders",
+  GROUP_TAGS_FOLDERS: "Tags & Ordner",
   GROUP_FLASHCARD_REVIEW: "Flashcard Review",
   GROUP_FLASHCARD_SEPARATORS: "Flashcard Separators",
   GROUP_DATA_STORAGE: "Storage of Scheduling Data",
   GROUP_DATA_STORAGE_DESC: "Choose where to store the scheduling data",
   GROUP_FLASHCARDS_NOTES: "Flashcards & Notes",
-  GROUP_CONTRIBUTING: "Contributing",
+  GROUP_CONTRIBUTING: "Helfen",
   CHECK_WIKI: 'Weitere Informationen gibt es im <a href="${wikiUrl}">Wiki</a> (english).',
   GITHUB_DISCUSSIONS: 'Visit the <a href="${discussionsUrl}">discussions</a> section for Q&A help, feedback, and general discussion.',
   GITHUB_ISSUES: 'Raise an issue <a href="${issuesUrl}">here</a> if you have a feature request or a bug report.',
@@ -5357,7 +5412,7 @@ var de_default = {
   CODE_CONTRIBUTION_INFO: '<a href="${codeContributionUrl}">Here\'s</a> how to contribute code to the plugin.',
   TRANSLATION_CONTRIBUTION_INFO: '<a href="${translationContributionUrl}">Here\'s</a> how to translate the plugin to another language.',
   FOLDERS_TO_IGNORE: "Ausgeschlossene Ordner",
-  FOLDERS_TO_IGNORE_DESC: "Enter folder paths or glob patterns on separate lines e.g. Templates/Scripts or **/*.excalidraw.md. This setting is common to both flashcards and notes.",
+  FOLDERS_TO_IGNORE_DESC: "Geben Sie Pfad- oder Globalemuster in separaten Zeilen an, z.B. Templates/Scripts oder **/*.excalidraw.md. Diese Einstellung gilt f\xFCr Flashcards und Notizen.",
   OBSIDIAN_INTEGRATION: "Integration into Obsidian",
   FLASHCARDS: "Lernkarten",
   FLASHCARD_EASY_LABEL: "Einfach Knopf Text",
@@ -5378,7 +5433,7 @@ var de_default = {
   BURY_SIBLINGS_TILL_NEXT_DAY_DESC: "Verwandte Karten sind aus der gleichen Karte generiert worden (z.B. L\xFCckentextkarten oder beidseitige Karten).",
   SHOW_CARD_CONTEXT: "Kontext in den Karten anzeigen?",
   SHOW_CARD_CONTEXT_DESC: "Bsp. Titel > \xDCberschrift 1 > Sektion > ... > Untersektion",
-  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Show next review time in the review buttons",
+  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Zeige n\xE4chsten Review-Zeit in den Review-Buttons",
   SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
   CARD_MODAL_HEIGHT_PERCENT: "H\xF6he der Lernkartei in Prozent",
   CARD_MODAL_SIZE_PERCENT_DESC: "Auf kleinen Bildschirmen (z.B. Smartphones) oder bei sehr grossen Bildern sollte dieser Wert auf 100% gesetzt werden.",
@@ -5396,6 +5451,8 @@ var de_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Zuf\xE4llige Reihenfolge (sobald alle Karten im vorherigen Stapel wiederholt wurden)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Zuf\xE4llige Karte von zuf\xE4lligem Stapel",
   DISABLE_CLOZE_CARDS: "L\xFCckentextkarten deaktivieren?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Konvertiere L\xFCckentext zu Eingabefelder",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Ersetze L\xFCckentext mit Eingabefeldern, wenn L\xFCckentextkarten angezeigt werden.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "==Hervorgehobenen== Text in L\xFCckentextkarten umwandeln?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'F\xFCge/entferne das <code>${defaultPattern}</code> zu deinen "L\xFCckentextmuster" hinzu',
   CONVERT_BOLD_TEXT_TO_CLOZES: "**Fettgedruckten** Text in L\xFCckentextkarten umwandeln?",
@@ -5459,6 +5516,13 @@ var de_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Anstehende Notizen zur Wiederholung",
   CLOSE: "Schliessen",
@@ -5491,9 +5555,28 @@ var de_default = {
   CARD_TYPE_YOUNG: "Jung",
   CARD_TYPE_MATURE: "Ausgereift",
   CARD_TYPES_SUMMARY: "Insgesamt ${totalCardsCount} Karten",
-  SEARCH: "Search",
+  SEARCH: "Suche",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Einstellungen",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Klicke auf die 3 Punkte neben der Notiz, um das Review-Men\xFC zu \xF6ffnen.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Stapel zum Wiederholung \xF6ffnen",
+  UPDATE_AVAILABLE: "Update verf\xFCgbar",
+  // Statistics
+  PERIOD_TITLE: "Zeitraum",
+  PERIOD_DESC: "Zeitraum, in dem die Diagramme angezeigt werden",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/en.ts
@@ -5599,6 +5682,8 @@ var en_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
   DISABLE_CLOZE_CARDS: "Disable cloze cards?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "Convert ==highlights== to clozes",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "Convert **bolded text** to clozes",
@@ -5662,6 +5747,13 @@ var en_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Notes Review Queue",
   CLOSE: "Close",
@@ -5696,7 +5788,26 @@ var en_default = {
   CARD_TYPES_SUMMARY: "Total cards: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/en-gb.ts
@@ -5805,6 +5916,8 @@ var es_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
   DISABLE_CLOZE_CARDS: "\xBFDeshabilitar deletreo de huecos en las tarjetas?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "\xBFConvertir ==resaltados== a deletreo de huecos?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'A\xF1adir/eliminar el <code>${defaultPattern}</code> de tus "Patrones de Deletreo de Huecos"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "\xBFConvertir **texto en negrita** a deletreo de huecos?",
@@ -5868,6 +5981,13 @@ var es_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Cola de notas a revisar",
   CLOSE: "Cerrar",
@@ -5903,7 +6023,26 @@ var es_default = {
   CARD_TYPES_SUMMARY: "Tarjetas Totales: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/fr.ts
@@ -6009,6 +6148,8 @@ var fr_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Al\xE9atoire (quand toutes les cartes du paquet pr\xE9c\xE9dent sont apprises)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Carte au hasard dans un paquet au hasard",
   DISABLE_CLOZE_CARDS: "D\xE9sactiver les textes \xE0 trous ?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "Convertir ==soulignages== en trous ?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Ajouter/supprimer le <code>${defaultPattern}</code> de vos "Cloze Patterns"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "Convertir **gras** en trous ?",
@@ -6072,6 +6213,13 @@ var fr_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Cartes \xE0 apprendre",
   CLOSE: "Fermer",
@@ -6106,7 +6254,26 @@ var fr_default = {
   CARD_TYPES_SUMMARY: "Total de cartes : ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/hi.ts
@@ -6218,6 +6385,8 @@ var it_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "A caso (quando le schede nel mazzo precedente saranno state riviste)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Scheda a caso da mazzo a caso",
   DISABLE_CLOZE_CARDS: "Disabilita schede con spazi da riempire?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "Convertire ==testo evidenziato== in spazi da riempire?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Aggiungi/rimuovi <code>${defaultPattern}</code> dai tuoi "Modelli per spazi da riempire"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "Convertire **testo in grassetto** in spazi da riempire",
@@ -6281,6 +6450,13 @@ var it_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Coda di note da rivedere",
   CLOSE: "Chiusi",
@@ -6315,7 +6491,26 @@ var it_default = {
   CARD_TYPES_SUMMARY: "Schede tottali: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/ja.ts
@@ -6421,6 +6616,8 @@ var ja_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
   DISABLE_CLOZE_CARDS: "\u7A74\u57CB\u3081\u30AB\u30FC\u30C9\u3092\u7121\u52B9\u5316\u3057\u307E\u3059\u304B\uFF1F",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "==\u30CF\u30A4\u30E9\u30A4\u30C8==\u3092\u7A74\u57CB\u3081\u3068\u3057\u3066\u4F7F\u7528\u3057\u307E\u3059\u304B\uFF1F",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: "\u3053\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u3092\u6709\u52B9\u5316\u3059\u308B\u3068\u3001\u300C\u7A74\u57CB\u3081\u30D1\u30BF\u30FC\u30F3\u300D\u306B${defaultPattern}\u304C\u8FFD\u52A0\u3055\u308C\u307E\u3059\u3002",
   CONVERT_BOLD_TEXT_TO_CLOZES: "**\u30DC\u30FC\u30EB\u30C9\u4F53**\u3092\u7A74\u57CB\u3081\u3068\u3057\u3066\u4F7F\u7528\u3057\u307E\u3059\u304B\uFF1F",
@@ -6484,6 +6681,13 @@ var ja_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u30CE\u30FC\u30C8\u30EC\u30D3\u30E5\u30FC\u306E\u30AD\u30E5\u30FC",
   CLOSE: "\u9589\u3058\u308B",
@@ -6518,7 +6722,26 @@ var ja_default = {
   CARD_TYPES_SUMMARY: "\u30AB\u30FC\u30C9\u306E\u5408\u8A08: ${totalCardsCount}\u679A",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/ko.ts
@@ -6624,6 +6847,8 @@ var ko_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
   DISABLE_CLOZE_CARDS: "\uBE48 \uCE78 \uCC44\uC6B0\uAE30 \uCE74\uB4DC\uB97C \uBE44\uD65C\uC131\uD654\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "==highlights== \uB97C \uBE48 \uCE78 \uCC44\uC6B0\uAE30\uB85C \uC804\uD658\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: '"\uBE48 \uCE78 \uCC44\uC6B0\uAE30 \uD328\uD134" \uC5D0\uC11C <code>${defaultPattern}</code> \uB97C \uCD94\uAC00/\uC81C\uAC70\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?',
   CONVERT_BOLD_TEXT_TO_CLOZES: "**bolded text** \uB97C \uBE48 \uCE78 \uCC44\uC6B0\uAE30\uB85C \uC804\uD658\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?",
@@ -6687,6 +6912,13 @@ var ko_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\uB9AC\uBDF0\uD560 \uB178\uD2B8 \uB300\uAE30\uC5F4",
   CLOSE: "\uB2EB\uAE30",
@@ -6721,7 +6953,26 @@ var ko_default = {
   CARD_TYPES_SUMMARY: "\uC804\uCCB4 \uCE74\uB4DC \uC218: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/mr.ts
@@ -6830,6 +7081,8 @@ var nl_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Willekeurig (als alle kaarten in de vorige stapel zijn herzien)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Willekeurige kaart uit willekeurige stapel",
   DISABLE_CLOZE_CARDS: "Cloze-kaarten uitschakelen?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "Converteer ==highlights== naar clozes",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Voeg de <code>${defaultPattern}</code> toe aan/verwijder deze uit uw "Cloze-patronen"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "Converteer **vetgedrukte tekst** naar clozes",
@@ -6893,6 +7146,13 @@ var nl_default = {
   EXPERIMENTAL: "Experimenteel",
   HELP: "Help",
   STORE_IN_NOTES: "In de notities",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Notities beoordelingswachtrij",
   CLOSE: "Sluiten",
@@ -6927,7 +7187,26 @@ var nl_default = {
   CARD_TYPES_SUMMARY: "Totaal aantal kaarten: ${totalCardsCount}",
   SEARCH: "Zoeken",
   PREVIOUS: "Vorige",
-  NEXT: "Volgende"
+  NEXT: "Volgende",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/no.ts
@@ -7036,6 +7315,8 @@ var pl_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Losowo (gdy wszystkie karty w poprzedniej talii przegl\u0105dni\u0119te)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Losowa karta z losowej talii",
   DISABLE_CLOZE_CARDS: "Wy\u0142\u0105czy\u0107 karty zamaskowane?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "Konwertowa\u0107 ==pod\u015Bwietlenia== na karty zamaskowane?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Dodaj/usu\u0144 <code>${defaultPattern}</code> z "Wzory kart zamaskowanych"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "Konwertowa\u0107 pogrubiony tekst na karty zamaskowane?",
@@ -7099,6 +7380,13 @@ var pl_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Kolejka przegl\u0105du notatek",
   CLOSE: "Zamknij",
@@ -7133,7 +7421,26 @@ var pl_default = {
   CARD_TYPES_SUMMARY: "\u0141\u0105czna liczba kart: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/pt.ts
@@ -7242,6 +7549,8 @@ var pt_br_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
   DISABLE_CLOZE_CARDS: "Desabilitar cartas que usam omiss\xE3o de palavras?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "Converter ==marca-texto== em omiss\xF5es?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Adiciona/remove o <code>${defaultPattern}</code> dos seus "Padr\xF5es de Omiss\xE3o"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "Converter **texto em negrito** em omiss\xF5es?",
@@ -7305,6 +7614,13 @@ var pt_br_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Fila de Notas para Revisar",
   CLOSE: "Fechar",
@@ -7339,7 +7655,26 @@ var pt_br_default = {
   CARD_TYPES_SUMMARY: "Total de cartas: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/ro.ts
@@ -7448,6 +7783,8 @@ var ru_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "\u0421\u043B\u0443\u0447\u0430\u0439\u043D\u043E (\u043F\u043E\u0441\u043B\u0435 \u0438\u0437\u0443\u0447\u0435\u043D\u0438\u044F \u0432\u0441\u0435\u0445 \u043A\u0430\u0440\u0442 \u0438\u0437 \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0435\u0439 \u043A\u043E\u043B\u043E\u0434\u044B)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "\u0421\u043B\u0443\u0447\u0430\u0439\u043D\u0430\u044F \u043A\u0430\u0440\u0442\u0430 \u0438\u0437 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E\u0439 \u043A\u043E\u043B\u043E\u0434\u044B",
   DISABLE_CLOZE_CARDS: "\u0412\u044B\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u043A\u0430\u0440\u0442\u044B \u0441 \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u043C\u0438 (\u043F\u0440\u0438\u043C\u0435\u0440: [...])?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C ==\u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442== \u0432 \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0438 (\u043F\u0440\u0438\u043C\u0435\u0440: [...])?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: '\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C/\u0443\u0434\u0430\u043B\u0438\u0442\u044C <code>${defaultPattern}</code> \u0432 \u0432\u0430\u0448\u0438 "\u0428\u0430\u0431\u043B\u043E\u043D\u044B \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u043E\u0432"',
   CONVERT_BOLD_TEXT_TO_CLOZES: "\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C **\u0436\u0438\u0440\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442** \u0432 \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0438 (\u043F\u0440\u0438\u043C\u0435\u0440: [...])?",
@@ -7511,6 +7848,13 @@ var ru_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u041E\u0447\u0435\u0440\u0435\u0434\u044C \u0437\u0430\u043C\u0435\u0442\u043E\u043A \u043D\u0430 \u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435",
   CLOSE: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C",
@@ -7545,7 +7889,26 @@ var ru_default = {
   CARD_TYPES_SUMMARY: "\u0412\u0441\u0435\u0433\u043E \u043A\u0430\u0440\u0442\u043E\u0447\u0435\u043A: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/sw.ts
@@ -7663,6 +8026,8 @@ var tr_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Rastgele olarak (\xD6nceki destedeki t\xFCm kartlar g\xF6zden ge\xE7irildikten sonra)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Rastgele desteden rastgele kart",
   DISABLE_CLOZE_CARDS: "Gizli kartlar\u0131 devre d\u0131\u015F\u0131 b\u0131rak?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "==Vurgulanan== metni gizli kartlara d\xF6n\xFC\u015Ft\xFCr?",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: '"Cloze Patterns"den <code>${defaultPattern</code> \xF6\u011Fesini ekleyin/kald\u0131r\u0131n',
   CONVERT_BOLD_TEXT_TO_CLOZES: "**Kal\u0131n metni** gizli kartlara d\xF6n\xFC\u015Ft\xFCr?",
@@ -7726,6 +8091,13 @@ var tr_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Not \u0130nceleme S\u0131ras\u0131",
   CLOSE: "Kapat",
@@ -7760,7 +8132,26 @@ var tr_default = {
   CARD_TYPES_SUMMARY: "Toplam kart: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/uk.ts
@@ -7866,6 +8257,8 @@ var uk_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "\u0412\u0438\u043F\u0430\u0434\u043A\u043E\u0432\u043E (\u043F\u0456\u0441\u043B\u044F \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u044F \u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u043D\u044F \u0432\u0441\u0456\u0445 \u043A\u0430\u0440\u0442\u043E\u043A \u0443 \u043F\u043E\u043F\u0435\u0440\u0435\u0434\u043D\u0456\u0439 \u043A\u043E\u043B\u043E\u0434\u0456)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "\u0412\u0438\u043F\u0430\u0434\u043A\u043E\u0432\u0430 \u043A\u0430\u0440\u0442\u043A\u0430 \u0437 \u0432\u0438\u043F\u0430\u0434\u043A\u043E\u0432\u043E\u0457 \u043A\u043E\u043B\u043E\u0434\u0438",
   DISABLE_CLOZE_CARDS: "\u0412\u0438\u043C\u043A\u043D\u0443\u0442\u0438 cloze-\u043A\u0430\u0440\u0442\u043A\u0438?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "\u041F\u0435\u0440\u0435\u0442\u0432\u043E\u0440\u044E\u0432\u0430\u0442\u0438 ==\u0432\u0438\u0434\u0456\u043B\u0435\u043D\u043D\u044F== \u043D\u0430 cloze",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: "\u0414\u043E\u0434\u0430\u0439\u0442\u0435/\u0432\u0438\u0434\u0430\u043B\u0456\u0442\u044C <code>${defaultPattern}</code> \u0443 \u0432\u0430\u0448\u0438\u0445 cloze-\u0448\u0430\u0431\u043B\u043E\u043D\u0430\u0445",
   CONVERT_BOLD_TEXT_TO_CLOZES: "\u041F\u0435\u0440\u0435\u0442\u0432\u043E\u0440\u044E\u0432\u0430\u0442\u0438 **\u0436\u0438\u0440\u043D\u0438\u0439 \u0442\u0435\u043A\u0441\u0442** \u043D\u0430 cloze",
@@ -7929,6 +8322,13 @@ var uk_default = {
   EXPERIMENTAL: "\u0415\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u0435",
   HELP: "\u0414\u043E\u0432\u0456\u0434\u043A\u0430",
   STORE_IN_NOTES: "\u0423 \u043D\u043E\u0442\u0430\u0442\u043A\u0430\u0445",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u0427\u0435\u0440\u0433\u0430 \u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u043D\u044F \u043D\u043E\u0442\u0430\u0442\u043E\u043A",
   CLOSE: "\u0417\u0430\u043A\u0440\u0438\u0442\u0438",
@@ -7963,7 +8363,26 @@ var uk_default = {
   CARD_TYPES_SUMMARY: "\u0423\u0441\u044C\u043E\u0433\u043E \u043A\u0430\u0440\u0442\u043E\u043A: ${totalCardsCount}",
   SEARCH: "\u041F\u043E\u0448\u0443\u043A",
   PREVIOUS: "\u041F\u043E\u043F\u0435\u0440\u0435\u0434\u043D\u0456\u0439",
-  NEXT: "\u041D\u0430\u0441\u0442\u0443\u043F\u043D\u0438\u0439"
+  NEXT: "\u041D\u0430\u0441\u0442\u0443\u043F\u043D\u0438\u0439",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/ur.ts
@@ -8075,6 +8494,8 @@ var zh_cn_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "\u4E71\u5E8F (\u5728\u524D\u4E00\u5361\u7247\u7EC4\u5185\u5361\u7247\u90FD\u590D\u4E60\u5B8C\u540E)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "\u5361\u7247\u7EC4\u53CA\u5361\u7247\u90FD\u4E71\u5E8F",
   DISABLE_CLOZE_CARDS: "\u4E0D\u8FDB\u884C\u5B8C\u5F62\u586B\u7A7A",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "\u5C06 ==\u9AD8\u4EAE== \u8F6C\u6362\u4E3A\u5B8C\u5F62\u586B\u7A7A",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: '\u6DFB\u52A0/\u5220\u9664 "\u5B8C\u5F62\u586B\u7A7A\u6A21\u5F0F" \u4E2D\u7684 <code>${defaultPattern}</code>',
   CONVERT_BOLD_TEXT_TO_CLOZES: "\u5C06 **\u7C97\u4F53** \u8F6C\u6362\u4E3A\u5B8C\u5F62\u586B\u7A7A",
@@ -8138,6 +8559,13 @@ var zh_cn_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u7B14\u8BB0\u590D\u4E60\u5E8F\u5217",
   CLOSE: "\u4E34\u8FD1",
@@ -8172,7 +8600,26 @@ var zh_cn_default = {
   CARD_TYPES_SUMMARY: "\u603B\u5361\u7247\u6570: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/locale/zh-tw.ts
@@ -8278,6 +8725,8 @@ var zh_tw_default = {
   REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "\u4E82\u5E8F (\u5728\u524D\u4E00\u724C\u7D44\u5167\u5361\u7247\u90FD\u5FA9\u7FD2\u5B8C\u5F8C)",
   REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "\u724C\u7D44\u53CA\u5361\u7247\u90FD\u4E82\u5E8F",
   DISABLE_CLOZE_CARDS: "\u505C\u7528\u586B\u7A7A\u514B\u6F0F\u5B57\u5361\u7247\uFF1F",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
   CONVERT_HIGHLIGHTS_TO_CLOZES: "\u5C07 ==\u9AD8\u4EAE== \u8F49\u63DB\u70BA\u586B\u7A7A\u514B\u6F0F\u5B57\uFF1F",
   CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: '\u5728 "\u586B\u7A7A\u514B\u6F0F\u5B57\u6A21\u5F0F" \u4E2D\u52A0\u5165/\u79FB\u9664 <code>${defaultPattern}</code>',
   CONVERT_BOLD_TEXT_TO_CLOZES: "\u5C07 **\u7C97\u9AD4** \u8F49\u63DB\u70BA\u586B\u7A7A\u514B\u6F0F\u5B57\uFF1F",
@@ -8341,6 +8790,13 @@ var zh_tw_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u7B46\u8A18\u5FA9\u7FD2\u5E8F\u5217",
   CLOSE: "\u81E8\u8FD1",
@@ -8375,7 +8831,26 @@ var zh_tw_default = {
   CARD_TYPES_SUMMARY: "\u7E3D\u5361\u7247\u6578: ${totalCardsCount}",
   SEARCH: "Search",
   PREVIOUS: "Previous",
-  NEXT: "Next"
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
 };
 
 // src/lang/helpers.ts
@@ -8484,16 +8959,59 @@ function formatDateYYYYMMDD(ticks) {
   return ticks.format(PREFERRED_DATE_FORMAT);
 }
 var LiveDateProvider = class {
+  constructor() {
+    this.dayBoundary = null;
+  }
   get now() {
     return (0, import_moment.default)();
   }
   get today() {
-    return (0, import_moment.default)().startOf("day");
+    let result = (0, import_moment.default)().startOf("day");
+    if (this.dayBoundary && this.dayBoundary.hour !== 0 && this.dayBoundary.minute !== 0 && this.dayBoundary.second !== 0) {
+      const nowTime = (0, import_moment.default)();
+      const customDayBoundary = (0, import_moment.default)().hour(this.dayBoundary.hour).minute(this.dayBoundary.minute).second(this.dayBoundary.second).millisecond(0);
+      if (nowTime.isBefore(customDayBoundary)) {
+        result = (0, import_moment.default)().startOf("day").subtract(1, "day");
+      } else {
+        result = (0, import_moment.default)().startOf("day");
+      }
+    }
+    return result;
+  }
+  getDayBoundary() {
+    return this.dayBoundary;
+  }
+  setDayBoundary(dayBoundary) {
+    this.dayBoundary = dayBoundary;
   }
 };
 var DateUtil = class {
   static dateStrToMoment(str) {
     return (0, import_moment.default)(str, ALLOWED_DATE_FORMATS);
+  }
+  static strToDayBoundary(str) {
+    const dayStr = str.split(":");
+    if (dayStr.length !== 3) {
+      return null;
+    }
+    const hour = parseInt(dayStr[0]);
+    if (hour < 0 || hour > 23 || Number.isNaN(hour)) {
+      return null;
+    }
+    const minute = parseInt(dayStr[1]);
+    if (minute < 0 || minute > 59 || Number.isNaN(minute)) {
+      return null;
+    }
+    const second = parseInt(dayStr[2]);
+    if (second < 0 || second > 59 || Number.isNaN(second)) {
+      return null;
+    }
+    const dayBoundary = {
+      hour,
+      minute,
+      second
+    };
+    return dayBoundary;
   }
 };
 var globalDateProvider = new LiveDateProvider();
@@ -8522,7 +9040,7 @@ var _RepItemScheduleInfoOsr = class _RepItemScheduleInfoOsr extends RepItemSched
     this.interval = Math.round(interval);
     this.latestEase = latestEase;
     this.delayedBeforeReviewTicks = delayedBeforeReviewTicks;
-    if (dueDate && delayedBeforeReviewTicks == null) {
+    if (dueDate && delayedBeforeReviewTicks === null) {
       this.delayedBeforeReviewTicks = globalDateProvider.today.valueOf() - dueDate.valueOf();
     }
   }
@@ -8555,7 +9073,7 @@ var _RepItemScheduleInfoOsr = class _RepItemScheduleInfoOsr extends RepItemSched
 _RepItemScheduleInfoOsr.dummyDueDateForNewCard = "2000-01-01";
 var RepItemScheduleInfoOsr = _RepItemScheduleInfoOsr;
 
-// src/note-ease-list.ts
+// src/note/note-ease-list.ts
 var NoteEaseList = class {
   constructor(settings) {
     this.dict = {};
@@ -8618,7 +9136,7 @@ var SrsAlgorithmOsr = class _SrsAlgorithmOsr {
         this.settings
       );
     }
-    let ease = null;
+    let ease;
     if (flashcardsInNoteAvgEase && noteEase) {
       ease = (flashcardsInNoteAvgEase + noteEase) / 2;
     } else {
@@ -8675,7 +9193,7 @@ var SrsAlgorithmOsr = class _SrsAlgorithmOsr {
   cardGetResetSchedule() {
     const interval = _SrsAlgorithmOsr.initialInterval;
     const ease = this.settings.baseEase;
-    const dueDate = globalDateProvider.today.add(interval, "d");
+    const dueDate = globalDateProvider.today;
     return new RepItemScheduleInfoOsr(dueDate, interval, ease);
   }
   cardGetNewSchedule(response, notePath, dueDateFlashcardHistogram) {
@@ -8718,10 +9236,650 @@ var SrsAlgorithmOsr = class _SrsAlgorithmOsr {
   }
 };
 
+// src/data-stores/base/data-store.ts
+var DataStore = class _DataStore {
+  static getInstance() {
+    if (!_DataStore.instance) {
+      throw new Error("there is no DataStore instance.");
+    }
+    return _DataStore.instance;
+  }
+};
+
+// src/deck/topic-path.ts
+var TopicPath = class _TopicPath {
+  constructor(path2) {
+    if (path2 === null) throw "null path";
+    if (path2.some((str) => str.includes("/"))) throw "path entries must not contain '/'";
+    this.path = path2;
+  }
+  get hasPath() {
+    return this.path.length > 0;
+  }
+  get isEmptyPath() {
+    return !this.hasPath;
+  }
+  static get emptyPath() {
+    return new _TopicPath([]);
+  }
+  shift() {
+    if (this.isEmptyPath) throw "can't shift an empty path";
+    return this.path.shift();
+  }
+  clone() {
+    return new _TopicPath([...this.path]);
+  }
+  formatAsTag() {
+    if (this.isEmptyPath) throw "Empty path";
+    const result = "#" + this.path.join("/");
+    return result;
+  }
+  static getTopicPathOfFile(noteFile, settings) {
+    let result = _TopicPath.emptyPath;
+    if (settings.convertFoldersToDecks) {
+      const deckPath = noteFile.path.split("/");
+      deckPath.pop();
+      if (deckPath.length !== 0) {
+        result = new _TopicPath(deckPath);
+      }
+    } else {
+      const tagList = this.getTopicPathsFromTagList(
+        noteFile.getAllTagsFromCache()
+      );
+      outer: for (const tagToReview of this.getTopicPathsFromTagList(
+        settings.flashcardTags
+      )) {
+        for (const tag of tagList) {
+          if (tagToReview.isSameOrAncestorOf(tag)) {
+            result = tag;
+            break outer;
+          }
+        }
+      }
+    }
+    return result;
+  }
+  isSameOrAncestorOf(topicPath) {
+    if (this.isEmptyPath) return topicPath.isEmptyPath;
+    if (this.path.length > topicPath.path.length) return false;
+    for (let i2 = 0; i2 < this.path.length; i2++) {
+      if (this.path[i2] !== topicPath.path[i2]) return false;
+    }
+    return true;
+  }
+  static getTopicPathFromCardText(cardText) {
+    var _a2;
+    const path2 = (_a2 = cardText.trimStart().match(OBSIDIAN_TAG_AT_STARTOFLINE_REGEX)) == null ? void 0 : _a2.slice(-1)[0];
+    return (path2 == null ? void 0 : path2.length) > 0 ? _TopicPath.getTopicPathFromTag(path2) : null;
+  }
+  static getTopicPathsFromTagList(tagList) {
+    const result = [];
+    for (const tag of tagList) {
+      if (this.isValidTag(tag)) result.push(_TopicPath.getTopicPathFromTag(tag));
+    }
+    return result;
+  }
+  static isValidTag(tag) {
+    if (tag === null || tag.length === 0) return false;
+    if (tag[0] !== "#") return false;
+    if (tag.length === 1) return false;
+    return true;
+  }
+  static getTopicPathFromTag(tag) {
+    if (tag === null || tag.length === 0) throw "Null/empty tag";
+    if (tag[0] !== "#") throw "Tag must start with #";
+    if (tag.length === 1) throw "Invalid tag";
+    const path2 = tag.replace("#", "").split("/").filter((str) => str);
+    return new _TopicPath(path2);
+  }
+  static getFolderPathFromFilename(noteFile, settings) {
+    let result = _TopicPath.emptyPath;
+    if (settings.convertFoldersToDecks) {
+      const deckPath = noteFile.path.split("/");
+      deckPath.pop();
+      if (deckPath.length !== 0) {
+        result = new _TopicPath(deckPath);
+      }
+    }
+    return result;
+  }
+};
+var TopicPathList = class _TopicPathList {
+  constructor(list, lineNum = null) {
+    if (list === null) throw "TopicPathList null";
+    this.list = list;
+    this.lineNum = lineNum;
+  }
+  get length() {
+    return this.list.length;
+  }
+  isAnyElementSameOrAncestorOf(topicPath) {
+    return this.list.some((item) => item.isSameOrAncestorOf(topicPath));
+  }
+  formatPsv() {
+    return this.format("|");
+  }
+  format(sep2) {
+    return this.list.map((topicPath) => topicPath.formatAsTag()).join(sep2);
+  }
+  static empty() {
+    return new _TopicPathList([]);
+  }
+  static fromPsv(str, lineNum) {
+    const result = _TopicPathList.convertTagListToTopicPathList(str.split("|"));
+    result.lineNum = lineNum;
+    return result;
+  }
+  //
+  // tagList is a list of tags such as:
+  //      ["#flashcards/computing", "#boring-stuff", "#news-worthy"]
+  // validTopicPathList is a list of valid tags, such as those from settings.flashcardTags,E.g.
+  //      ["#flashcards"]
+  //
+  // This returns a filtered version of tagList, containing only topic paths that are considered valid.
+  // Validity is defined as "isAnyElementSameOrAncestorOf", and "#flashcards" is considered the ancestor of
+  // "#flashcards/computing".
+  //
+  // Therefore this would return:
+  //      "#flashcards/computing" (but not "#boring-stuff" or "#news-worthy")
+  //
+  static filterValidTopicPathsFromTagList(list, validTopicPathList, lineNum = null) {
+    const result = [];
+    for (const tag of list.list) {
+      if (validTopicPathList.isAnyElementSameOrAncestorOf(tag)) result.push(tag);
+    }
+    return new _TopicPathList(result, lineNum);
+  }
+  static convertTagListToTopicPathList(tagList) {
+    const result = [];
+    for (const tag of tagList) {
+      if (TopicPath.isValidTag(tag)) result.push(TopicPath.getTopicPathFromTag(tag));
+    }
+    return new _TopicPathList(result);
+  }
+};
+var TopicPathWithWs = class {
+  constructor(topicPath, preWhitespace, postWhitespace) {
+    if (!topicPath || topicPath.isEmptyPath) throw "topicPath null";
+    this.topicPath = topicPath;
+    this.preWhitespace = preWhitespace;
+    this.postWhitespace = postWhitespace;
+  }
+  formatWithWs() {
+    return `${this.preWhitespace}${this.topicPath.formatAsTag()}${this.postWhitespace}`;
+  }
+};
+
+// src/deck/deck.ts
+var Deck = class _Deck {
+  constructor(deckName, parent) {
+    this.deckName = deckName;
+    this.newFlashcards = [];
+    this.dueFlashcards = [];
+    this.subdecks = [];
+    this.parent = parent;
+  }
+  getCardCount(cardListType, includeSubdeckCounts) {
+    let result = 0;
+    if (cardListType === 0 /* NewCard */ || cardListType === 2 /* All */)
+      result += this.newFlashcards.length;
+    if (cardListType === 1 /* DueCard */ || cardListType === 2 /* All */)
+      result += this.dueFlashcards.length;
+    if (includeSubdeckCounts) {
+      for (const deck of this.subdecks) {
+        result += deck.getCardCount(cardListType, includeSubdeckCounts);
+      }
+    }
+    return result;
+  }
+  getDistinctCardCount(cardListType, includeSubdeckCounts) {
+    const cardList = this.getFlattenedCardArray(cardListType, includeSubdeckCounts);
+    const distinctCardSet = new Set(cardList);
+    return distinctCardSet.size;
+  }
+  getFlattenedCardArray(cardListType, includeSubdeckCounts) {
+    let result = [];
+    switch (cardListType) {
+      case 0 /* NewCard */:
+        result = this.newFlashcards;
+        break;
+      case 1 /* DueCard */:
+        result = this.dueFlashcards;
+        break;
+      case 2 /* All */:
+        result = this.newFlashcards.concat(this.dueFlashcards);
+    }
+    if (includeSubdeckCounts) {
+      for (const subdeck of this.subdecks) {
+        result = result.concat(
+          subdeck.getFlattenedCardArray(cardListType, includeSubdeckCounts)
+        );
+      }
+    }
+    return result;
+  }
+  // Returns a count of the number of this question's cards are present in this deck.
+  // (The returned value would be <= question.cards.length)
+  getQuestionCardCount(question) {
+    let result = 0;
+    result += this.getQuestionCardCountForCardListType(question, this.newFlashcards);
+    result += this.getQuestionCardCountForCardListType(question, this.dueFlashcards);
+    return result;
+  }
+  getQuestionCardCountForCardListType(question, cards) {
+    let result = 0;
+    for (let i2 = 0; i2 < cards.length; i2++) {
+      if (Object.is(question, cards[i2].question)) result++;
+    }
+    return result;
+  }
+  static get emptyDeck() {
+    return new _Deck("Root", null);
+  }
+  get isRootDeck() {
+    return this.parent === null;
+  }
+  getDeckByTopicTag(tag) {
+    return this.getDeck(TopicPath.getTopicPathFromTag(tag));
+  }
+  getDeck(topicPath) {
+    return this._getOrCreateDeck(topicPath, false);
+  }
+  getOrCreateDeck(topicPath) {
+    return this._getOrCreateDeck(topicPath, true);
+  }
+  _getOrCreateDeck(topicPath, createAllowed) {
+    if (!topicPath.hasPath) {
+      return this;
+    }
+    const t3 = topicPath.clone();
+    const deckName = t3.shift();
+    for (const subdeck of this.subdecks) {
+      if (deckName === subdeck.deckName) {
+        return subdeck._getOrCreateDeck(t3, createAllowed);
+      }
+    }
+    let result = null;
+    if (createAllowed) {
+      const subdeck = new _Deck(
+        deckName,
+        this
+        /* parent */
+      );
+      this.subdecks.push(subdeck);
+      result = subdeck._getOrCreateDeck(t3, createAllowed);
+    }
+    return result;
+  }
+  getTopicPath() {
+    const list = [];
+    let deck = this;
+    while (!deck.isRootDeck) {
+      list.push(deck.deckName);
+      deck = deck.parent;
+    }
+    return new TopicPath(list.reverse());
+  }
+  getRootDeck() {
+    let deck = this;
+    while (!deck.isRootDeck) {
+      deck = deck.parent;
+    }
+    return deck;
+  }
+  getCard(index, cardListType) {
+    const cardList = this.getCardListForCardType(cardListType);
+    return cardList[index];
+  }
+  getCardListForCardType(cardListType) {
+    return cardListType === 1 /* DueCard */ ? this.dueFlashcards : this.newFlashcards;
+  }
+  appendCard(topicPathList, cardObj) {
+    if (topicPathList.list.length === 0) {
+      this.appendCardToRootDeck(cardObj);
+    } else {
+      for (const topicPath of topicPathList.list) {
+        this.appendCardSingleTopic(topicPath, cardObj);
+      }
+    }
+  }
+  appendCardToRootDeck(cardObj) {
+    this.appendCardSingleTopic(TopicPath.emptyPath, cardObj);
+  }
+  appendCardSingleTopic(topicPath, cardObj) {
+    const deck = this.getOrCreateDeck(topicPath);
+    const cardList = deck.getCardListForCardType(cardObj.cardListType);
+    cardList.push(cardObj);
+  }
+  // The question lists all the topics in which this card is included.
+  // The topics are relative to the base deck, and this method must be called on that deck
+  deleteQuestionFromAllDecks(question, exceptionIfMissing) {
+    for (const card of question.cards) {
+      this.deleteCardFromAllDecks(card, exceptionIfMissing);
+    }
+  }
+  deleteQuestion(question, exceptionIfMissing) {
+    for (const card of question.cards) {
+      this.deleteCardFromThisDeck(card, exceptionIfMissing);
+    }
+  }
+  // The card's question lists all the topics in which this card is included.
+  // The topics are relative to the base deck, and this method must be called on that deck
+  deleteCardFromAllDecks(card, exceptionIfMissing) {
+    for (const topicPath of card.question.topicPathList.list) {
+      const deck = this.getDeck(topicPath);
+      deck.deleteCardFromThisDeck(card, exceptionIfMissing);
+    }
+  }
+  deleteCardFromThisDeck(card, exceptionIfMissing) {
+    const newIdx = this.newFlashcards.indexOf(card);
+    if (newIdx !== -1) this.newFlashcards.splice(newIdx, 1);
+    const dueIdx = this.dueFlashcards.indexOf(card);
+    if (dueIdx !== -1) this.dueFlashcards.splice(dueIdx, 1);
+    if (newIdx === -1 && dueIdx === -1 && exceptionIfMissing) {
+      throw `deleteCardFromThisDeck: Card: ${card.front} not found in deck: ${this.deckName}`;
+    }
+  }
+  deleteCardAtIndex(index, cardListType) {
+    const cardList = this.getCardListForCardType(cardListType);
+    cardList.splice(index, 1);
+  }
+  toDeckArray() {
+    const result = [];
+    result.push(this);
+    for (const subdeck of this.subdecks) {
+      result.push(...subdeck.toDeckArray());
+    }
+    return result;
+  }
+  sortSubdecksList() {
+    this.subdecks.sort((a2, b2) => {
+      if (a2.deckName < b2.deckName) {
+        return -1;
+      } else if (a2.deckName > b2.deckName) {
+        return 1;
+      }
+      return 0;
+    });
+    for (const deck of this.subdecks) {
+      deck.sortSubdecksList();
+    }
+  }
+  debugLogToConsole(desc = null, indent = 0) {
+    let str = desc !== null && desc !== void 0 ? `${desc}: ` : "";
+    str += this.toString(indent);
+    console.log(str);
+  }
+  toString(indent = 0) {
+    let result = "";
+    let indentStr = " ".repeat(indent * 4);
+    result += `${indentStr}${this.deckName}\r
+`;
+    indentStr += "  ";
+    for (let i2 = 0; i2 < this.newFlashcards.length; i2++) {
+      const card = this.newFlashcards[i2];
+      result += `${indentStr}New: ${i2}: ${card.front}::${card.back}\r
+`;
+    }
+    for (let i2 = 0; i2 < this.dueFlashcards.length; i2++) {
+      const card = this.dueFlashcards[i2];
+      const s2 = card.isDue ? "Due" : "Not due";
+      result += `${indentStr}${s2}: ${i2}: ${card.front}::${card.back}\r
+`;
+    }
+    for (const subdeck of this.subdecks) {
+      result += subdeck.toString(indent + 1);
+    }
+    return result;
+  }
+  clone() {
+    return this.copyWithCardFilter(() => true);
+  }
+  copyWithCardFilter(predicate, parent = null) {
+    const result = new _Deck(this.deckName, parent);
+    result.newFlashcards = [...this.newFlashcards.filter((card) => predicate(card))];
+    result.dueFlashcards = [...this.dueFlashcards.filter((card) => predicate(card))];
+    for (const s2 of this.subdecks) {
+      const newParent = result;
+      const newDeck = s2.copyWithCardFilter(predicate, newParent);
+      result.subdecks.push(newDeck);
+    }
+    return result;
+  }
+  static otherListType(cardListType) {
+    let result;
+    if (cardListType === 0 /* NewCard */) result = 1 /* DueCard */;
+    else if (cardListType === 1 /* DueCard */) result = 0 /* NewCard */;
+    else throw "Invalid cardListType";
+    return result;
+  }
+};
+var DeckTreeFilter = class {
+  static filterForReviewableCards(reviewableDeckTree) {
+    return reviewableDeckTree.copyWithCardFilter((card) => !card.question.hasEditLaterTag);
+  }
+  static filterForRemainingCards(questionPostponementList, deckTree, reviewMode) {
+    return deckTree.copyWithCardFilter(
+      (card) => (reviewMode === 0 /* Cram */ || card.isNew || card.isDue) && !questionPostponementList.includes(card.question)
+    );
+  }
+};
+
+// src/card/flashcard-review-sequencer.ts
+var DeckStats = class {
+  constructor(totalCount, dueCount, newCount, cardsInQueueCount, dueCardsInQueueOfThisDeckCount, newCardsInQueueOfThisDeckCount, cardsInQueueOfThisDeckCount, subDecksInQueueOfThisDeckCount, decksInQueueOfThisDeckCount) {
+    this.dueCount = dueCount;
+    this.newCount = newCount;
+    this.totalCount = totalCount;
+    this.cardsInQueueCount = cardsInQueueCount;
+    this.dueCardsInQueueOfThisDeckCount = dueCardsInQueueOfThisDeckCount;
+    this.newCardsInQueueOfThisDeckCount = newCardsInQueueOfThisDeckCount;
+    this.cardsInQueueOfThisDeckCount = cardsInQueueOfThisDeckCount;
+    this.subDecksInQueueOfThisDeckCount = subDecksInQueueOfThisDeckCount;
+    this.decksInQueueOfThisDeckCount = decksInQueueOfThisDeckCount;
+  }
+};
+var FlashcardReviewSequencer = class {
+  constructor(reviewMode, cardSequencer, settings, srsAlgorithm, questionPostponementList, dueDateFlashcardHistogram) {
+    this.reviewMode = reviewMode;
+    this.cardSequencer = cardSequencer;
+    this.settings = settings;
+    this.srsAlgorithm = srsAlgorithm;
+    this.questionPostponementList = questionPostponementList;
+    this.dueDateFlashcardHistogram = dueDateFlashcardHistogram;
+  }
+  get hasCurrentCard() {
+    return this.cardSequencer.currentCard !== null && this.cardSequencer.currentCard !== void 0;
+  }
+  get currentCard() {
+    return this.cardSequencer.currentCard;
+  }
+  get currentQuestion() {
+    var _a2;
+    return (_a2 = this.currentCard) == null ? void 0 : _a2.question;
+  }
+  get currentDeck() {
+    return this.cardSequencer.currentDeck;
+  }
+  get currentNote() {
+    return this.currentQuestion.note;
+  }
+  // originalDeckTree isn't modified by the review process
+  // Only remainingDeckTree
+  setDeckTree(originalDeckTree, remainingDeckTree) {
+    this.cardSequencer.setBaseDeck(remainingDeckTree);
+    this._originalDeckTree = originalDeckTree;
+    this.remainingDeckTree = remainingDeckTree;
+    this.setCurrentDeck(TopicPath.emptyPath);
+  }
+  setCurrentDeck(topicPath) {
+    this.cardSequencer.setIteratorTopicPath(topicPath);
+    this.cardSequencer.nextCard();
+  }
+  get originalDeckTree() {
+    return this._originalDeckTree;
+  }
+  getDeckStats(topicPath) {
+    const totalCount = this._originalDeckTree.getDeck(topicPath).getDistinctCardCount(2 /* All */, true);
+    const remainingDeck = this.remainingDeckTree.getDeck(topicPath);
+    const newCount = remainingDeck.getDistinctCardCount(0 /* NewCard */, true);
+    const dueCount = remainingDeck.getDistinctCardCount(1 /* DueCard */, true);
+    const newCardsInQueueOfThisDeckCount = remainingDeck.getDistinctCardCount(
+      0 /* NewCard */,
+      false
+    );
+    const dueCardsInQueueOfThisDeckCount = remainingDeck.getDistinctCardCount(
+      1 /* DueCard */,
+      false
+    );
+    const cardsInQueueOfThisDeckCount = newCardsInQueueOfThisDeckCount + dueCardsInQueueOfThisDeckCount;
+    const subDecksInQueueOfThisDeckCount = this.getSubDecksWithCardsInQueue(remainingDeck).length;
+    const decksInQueueOfThisDeckCount = cardsInQueueOfThisDeckCount > 0 ? subDecksInQueueOfThisDeckCount + 1 : subDecksInQueueOfThisDeckCount;
+    return new DeckStats(
+      totalCount,
+      dueCount,
+      newCount,
+      dueCount + newCount,
+      dueCardsInQueueOfThisDeckCount,
+      newCardsInQueueOfThisDeckCount,
+      cardsInQueueOfThisDeckCount,
+      subDecksInQueueOfThisDeckCount,
+      decksInQueueOfThisDeckCount
+    );
+  }
+  getSubDecksWithCardsInQueue(deck) {
+    let subDecksWithCardsInQueue = [];
+    deck.subdecks.forEach((subDeck) => {
+      subDecksWithCardsInQueue = subDecksWithCardsInQueue.concat(
+        this.getSubDecksWithCardsInQueue(subDeck)
+      );
+      const newCount = subDeck.getDistinctCardCount(0 /* NewCard */, false);
+      const dueCount = subDeck.getDistinctCardCount(1 /* DueCard */, false);
+      if (newCount + dueCount > 0) subDecksWithCardsInQueue.push(subDeck);
+    });
+    return subDecksWithCardsInQueue;
+  }
+  skipCurrentCard() {
+    this.cardSequencer.deleteCurrentQuestionFromAllDecks();
+  }
+  deleteCurrentCard() {
+    this.cardSequencer.deleteCurrentCardFromAllDecks();
+  }
+  async processReview(response) {
+    switch (this.reviewMode) {
+      case 1 /* Review */:
+        await this.processReviewReviewMode(response);
+        break;
+      case 0 /* Cram */:
+        await this.processReviewCramMode(response);
+        break;
+    }
+  }
+  async processReviewReviewMode(response) {
+    if (response !== 3 /* Reset */ || this.currentCard.hasSchedule) {
+      const oldSchedule = this.currentCard.scheduleInfo;
+      this.currentCard.scheduleInfo = this.determineCardSchedule(response, this.currentCard);
+      await DataStore.getInstance().questionWriteSchedule(this.currentQuestion);
+      if (oldSchedule) {
+        const today = globalDateProvider.today.valueOf();
+        const nDays = Math.ceil(
+          (oldSchedule.dueDateAsUnix - today) / TICKS_PER_DAY
+        );
+        this.dueDateFlashcardHistogram.decrement(nDays);
+      }
+      this.dueDateFlashcardHistogram.increment(this.currentCard.scheduleInfo.interval);
+    }
+    if (response === 3 /* Reset */) {
+      this.cardSequencer.moveCurrentCardToEndOfList();
+      this.cardSequencer.nextCard();
+    } else {
+      if (this.settings.burySiblingCards) {
+        await this.burySiblingCards();
+        this.cardSequencer.deleteCurrentQuestionFromAllDecks();
+      } else {
+        this.deleteCurrentCard();
+      }
+    }
+  }
+  async burySiblingCards() {
+    const remaining = this.currentDeck.getQuestionCardCount(this.currentQuestion);
+    if (remaining > 1) {
+      this.questionPostponementList.add(this.currentQuestion);
+      await this.questionPostponementList.write();
+    }
+  }
+  async processReviewCramMode(response) {
+    if (response === 0 /* Easy */) this.deleteCurrentCard();
+    else {
+      this.cardSequencer.moveCurrentCardToEndOfList();
+      this.cardSequencer.nextCard();
+    }
+  }
+  determineCardSchedule(response, card) {
+    let result;
+    if (response === 3 /* Reset */) {
+      result = this.srsAlgorithm.cardGetResetSchedule();
+    } else {
+      if (card.hasSchedule) {
+        result = this.srsAlgorithm.cardCalcUpdatedSchedule(
+          response,
+          card.scheduleInfo,
+          this.dueDateFlashcardHistogram
+        );
+      } else {
+        const currentNote = card.question.note;
+        result = this.srsAlgorithm.cardGetNewSchedule(
+          response,
+          currentNote.filePath,
+          this.dueDateFlashcardHistogram
+        );
+      }
+    }
+    return result;
+  }
+  async updateCurrentQuestionText(text) {
+    const q2 = this.currentQuestion.questionText;
+    q2.actualQuestion = text;
+    await DataStore.getInstance().questionWrite(this.currentQuestion);
+  }
+};
+
+// src/card/questions/question-postponement-list.ts
+var QuestionPostponementList = class {
+  constructor(plugin, settings, list) {
+    this.plugin = plugin;
+    this.settings = settings;
+    this.list = list;
+  }
+  async clearIfNewDay(data) {
+    const now2 = window.moment(Date.now());
+    const todayDate = now2.format("YYYY-MM-DD");
+    const isNewDay = todayDate !== data.buryDate;
+    if (isNewDay) {
+      data.buryDate = todayDate;
+      this.clear();
+      await this.write();
+    }
+  }
+  clear() {
+    this.list.splice(0);
+  }
+  add(question) {
+    if (!this.includes(question)) this.list.push(question.questionText.textHash);
+  }
+  includes(question) {
+    return this.list.includes(question.questionText.textHash);
+  }
+  async write() {
+    if (this.plugin === null) return;
+    await this.plugin.savePluginData();
+  }
+};
+
 // src/algorithms/osr/osr-note-graph.ts
 var graph = __toESM(require_lib());
 
-// node_modules/.pnpm/balanced-match@4.0.3/node_modules/balanced-match/dist/esm/index.js
+// node_modules/.pnpm/balanced-match@4.0.4/node_modules/balanced-match/dist/esm/index.js
 var balanced = (a2, b2, str) => {
   const ma = a2 instanceof RegExp ? maybeMatch(a2, str) : a2;
   const mb = b2 instanceof RegExp ? maybeMatch(b2, str) : b2;
@@ -8774,7 +9932,7 @@ var range = (a2, b2, str) => {
   return result;
 };
 
-// node_modules/.pnpm/brace-expansion@5.0.2/node_modules/brace-expansion/dist/esm/index.js
+// node_modules/.pnpm/brace-expansion@5.0.4/node_modules/brace-expansion/dist/esm/index.js
 var escSlash = "\0SLASH" + Math.random() + "\0";
 var escOpen = "\0OPEN" + Math.random() + "\0";
 var escClose = "\0CLOSE" + Math.random() + "\0";
@@ -8789,7 +9947,7 @@ var slashPattern = /\\\\/g;
 var openPattern = /\\{/g;
 var closePattern = /\\}/g;
 var commaPattern = /\\,/g;
-var periodPattern = /\\./g;
+var periodPattern = /\\\./g;
 var EXPANSION_MAX = 1e5;
 function numeric(str) {
   return !isNaN(str) ? parseInt(str, 10) : str.charCodeAt(0);
@@ -8934,7 +10092,7 @@ function expand_(str, max, isTop) {
   return expansions;
 }
 
-// node_modules/.pnpm/minimatch@10.2.2/node_modules/minimatch/dist/esm/assert-valid-pattern.js
+// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/assert-valid-pattern.js
 var MAX_PATTERN_LENGTH = 1024 * 64;
 var assertValidPattern = (pattern) => {
   if (typeof pattern !== "string") {
@@ -8945,7 +10103,7 @@ var assertValidPattern = (pattern) => {
   }
 };
 
-// node_modules/.pnpm/minimatch@10.2.2/node_modules/minimatch/dist/esm/brace-expressions.js
+// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/brace-expressions.js
 var posixClasses = {
   "[:alnum:]": ["\\p{L}\\p{Nl}\\p{Nd}", true],
   "[:alpha:]": ["\\p{L}\\p{Nl}", true],
@@ -9054,7 +10212,7 @@ var parseClass = (glob, position) => {
   return [comb, uflag, endPos - pos, true];
 };
 
-// node_modules/.pnpm/minimatch@10.2.2/node_modules/minimatch/dist/esm/unescape.js
+// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/unescape.js
 var unescape = (s2, { windowsPathsNoEscape = false, magicalBraces = true } = {}) => {
   if (magicalBraces) {
     return windowsPathsNoEscape ? s2.replace(/\[([^\/\\])\]/g, "$1") : s2.replace(/((?!\\).|^)\[([^\/\\])\]/g, "$1$2").replace(/\\([^\/])/g, "$1");
@@ -9062,9 +10220,57 @@ var unescape = (s2, { windowsPathsNoEscape = false, magicalBraces = true } = {})
   return windowsPathsNoEscape ? s2.replace(/\[([^\/\\{}])\]/g, "$1") : s2.replace(/((?!\\).|^)\[([^\/\\{}])\]/g, "$1$2").replace(/\\([^\/{}])/g, "$1");
 };
 
-// node_modules/.pnpm/minimatch@10.2.2/node_modules/minimatch/dist/esm/ast.js
+// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/ast.js
+var _a;
 var types = /* @__PURE__ */ new Set(["!", "?", "+", "*", "@"]);
 var isExtglobType = (c2) => types.has(c2);
+var isExtglobAST = (c2) => isExtglobType(c2.type);
+var adoptionMap = /* @__PURE__ */ new Map([
+  ["!", ["@"]],
+  ["?", ["?", "@"]],
+  ["@", ["@"]],
+  ["*", ["*", "+", "?", "@"]],
+  ["+", ["+", "@"]]
+]);
+var adoptionWithSpaceMap = /* @__PURE__ */ new Map([
+  ["!", ["?"]],
+  ["@", ["?"]],
+  ["+", ["?", "*"]]
+]);
+var adoptionAnyMap = /* @__PURE__ */ new Map([
+  ["!", ["?", "@"]],
+  ["?", ["?", "@"]],
+  ["@", ["?", "@"]],
+  ["*", ["*", "+", "?", "@"]],
+  ["+", ["+", "@", "?", "*"]]
+]);
+var usurpMap = /* @__PURE__ */ new Map([
+  ["!", /* @__PURE__ */ new Map([["!", "@"]])],
+  [
+    "?",
+    /* @__PURE__ */ new Map([
+      ["*", "*"],
+      ["+", "*"]
+    ])
+  ],
+  [
+    "@",
+    /* @__PURE__ */ new Map([
+      ["!", "!"],
+      ["?", "?"],
+      ["@", "@"],
+      ["*", "*"],
+      ["+", "+"]
+    ])
+  ],
+  [
+    "+",
+    /* @__PURE__ */ new Map([
+      ["?", "*"],
+      ["*", "*"]
+    ])
+  ]
+]);
 var startNoTraversal = "(?!(?:^|/)\\.\\.?(?:$|/))";
 var startNoDot = "(?!\\.)";
 var addPatternStart = /* @__PURE__ */ new Set(["[", "."]);
@@ -9074,8 +10280,9 @@ var regExpEscape = (s2) => s2.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 var qmark = "[^/]";
 var star = qmark + "*?";
 var starNoEmpty = qmark + "+?";
-var _root, _hasMagic, _uflag, _parts, _parent, _parentIndex, _negs, _filledNegs, _options, _toString, _emptyExt, _AST_instances, fillNegs_fn, _AST_static, parseAST_fn, partsToRegExp_fn, parseGlob_fn;
-var _AST = class _AST {
+var ID = 0;
+var _root, _hasMagic, _uflag, _parts, _parent, _parentIndex, _negs, _filledNegs, _options, _toString, _emptyExt, _AST_instances, fillNegs_fn, _AST_static, parseAST_fn, canAdoptWithSpace_fn, canAdopt_fn, canAdoptType_fn, adoptWithSpace_fn, adopt_fn, canUsurpType_fn, canUsurp_fn, usurp_fn, flatten_fn, partsToRegExp_fn, parseGlob_fn;
+var AST = class {
   constructor(type, parent, options = {}) {
     __privateAdd(this, _AST_instances);
     __publicField(this, "type");
@@ -9092,6 +10299,7 @@ var _AST = class _AST {
     // set to true if it's an extglob with no children
     // (which really means one child of '')
     __privateAdd(this, _emptyExt, false);
+    __publicField(this, "id", ++ID);
     this.type = type;
     if (type)
       __privateSet(this, _hasMagic, true);
@@ -9102,6 +10310,23 @@ var _AST = class _AST {
     if (type === "!" && !__privateGet(__privateGet(this, _root), _filledNegs))
       __privateGet(this, _negs).push(this);
     __privateSet(this, _parentIndex, __privateGet(this, _parent) ? __privateGet(__privateGet(this, _parent), _parts).length : 0);
+  }
+  get depth() {
+    var _a2, _b;
+    return ((_b = (_a2 = __privateGet(this, _parent)) == null ? void 0 : _a2.depth) != null ? _b : -1) + 1;
+  }
+  [/* @__PURE__ */ Symbol.for("nodejs.util.inspect.custom")]() {
+    var _a2;
+    return {
+      "@@type": "AST",
+      id: this.id,
+      type: this.type,
+      root: __privateGet(this, _root).id,
+      parent: (_a2 = __privateGet(this, _parent)) == null ? void 0 : _a2.id,
+      depth: this.depth,
+      partsLength: __privateGet(this, _parts).length,
+      parts: __privateGet(this, _parts)
+    };
   }
   get hasMagic() {
     if (__privateGet(this, _hasMagic) !== void 0)
@@ -9128,44 +10353,44 @@ var _AST = class _AST {
     for (const p2 of parts) {
       if (p2 === "")
         continue;
-      if (typeof p2 !== "string" && !(p2 instanceof _AST && __privateGet(p2, _parent) === this)) {
+      if (typeof p2 !== "string" && !(p2 instanceof _a && __privateGet(p2, _parent) === this)) {
         throw new Error("invalid part: " + p2);
       }
       __privateGet(this, _parts).push(p2);
     }
   }
   toJSON() {
-    var _a;
+    var _a2;
     const ret = this.type === null ? __privateGet(this, _parts).slice().map((p2) => typeof p2 === "string" ? p2 : p2.toJSON()) : [this.type, ...__privateGet(this, _parts).map((p2) => p2.toJSON())];
     if (this.isStart() && !this.type)
       ret.unshift([]);
-    if (this.isEnd() && (this === __privateGet(this, _root) || __privateGet(__privateGet(this, _root), _filledNegs) && ((_a = __privateGet(this, _parent)) == null ? void 0 : _a.type) === "!")) {
+    if (this.isEnd() && (this === __privateGet(this, _root) || __privateGet(__privateGet(this, _root), _filledNegs) && ((_a2 = __privateGet(this, _parent)) == null ? void 0 : _a2.type) === "!")) {
       ret.push({});
     }
     return ret;
   }
   isStart() {
-    var _a;
+    var _a2;
     if (__privateGet(this, _root) === this)
       return true;
-    if (!((_a = __privateGet(this, _parent)) == null ? void 0 : _a.isStart()))
+    if (!((_a2 = __privateGet(this, _parent)) == null ? void 0 : _a2.isStart()))
       return false;
     if (__privateGet(this, _parentIndex) === 0)
       return true;
     const p2 = __privateGet(this, _parent);
     for (let i2 = 0; i2 < __privateGet(this, _parentIndex); i2++) {
       const pp = __privateGet(p2, _parts)[i2];
-      if (!(pp instanceof _AST && pp.type === "!")) {
+      if (!(pp instanceof _a && pp.type === "!")) {
         return false;
       }
     }
     return true;
   }
   isEnd() {
-    var _a, _b, _c;
+    var _a2, _b, _c;
     if (__privateGet(this, _root) === this)
       return true;
-    if (((_a = __privateGet(this, _parent)) == null ? void 0 : _a.type) === "!")
+    if (((_a2 = __privateGet(this, _parent)) == null ? void 0 : _a2.type) === "!")
       return true;
     if (!((_b = __privateGet(this, _parent)) == null ? void 0 : _b.isEnd()))
       return false;
@@ -9181,16 +10406,16 @@ var _AST = class _AST {
       this.push(part.clone(this));
   }
   clone(parent) {
-    const c2 = new _AST(this.type, parent);
+    const c2 = new _a(this.type, parent);
     for (const p2 of __privateGet(this, _parts)) {
       c2.copyIn(p2);
     }
     return c2;
   }
   static fromGlob(pattern, options = {}) {
-    var _a;
-    const ast = new _AST(null, void 0, options);
-    __privateMethod(_a = _AST, _AST_static, parseAST_fn).call(_a, pattern, ast, 0, options);
+    var _a2;
+    const ast = new _a(null, void 0, options);
+    __privateMethod(_a2 = _a, _AST_static, parseAST_fn).call(_a2, pattern, ast, 0, options, 0);
     return ast;
   }
   // returns the regular expression if there's magic, or the unescaped
@@ -9283,15 +10508,17 @@ var _AST = class _AST {
   // is ^(?!\.), we can just prepend (?!\.) to the pattern (either root
   // or start or whatever) and prepend ^ or / at the Regexp construction.
   toRegExpSource(allowDot) {
-    var _a;
+    var _a2;
     const dot = allowDot != null ? allowDot : !!__privateGet(this, _options).dot;
-    if (__privateGet(this, _root) === this)
+    if (__privateGet(this, _root) === this) {
+      __privateMethod(this, _AST_instances, flatten_fn).call(this);
       __privateMethod(this, _AST_instances, fillNegs_fn).call(this);
-    if (!this.type) {
+    }
+    if (!isExtglobAST(this)) {
       const noEmpty = this.isStart() && this.isEnd() && !__privateGet(this, _parts).some((s2) => typeof s2 !== "string");
       const src = __privateGet(this, _parts).map((p2) => {
-        var _a2;
-        const [re, _2, hasMagic, uflag] = typeof p2 === "string" ? __privateMethod(_a2 = _AST, _AST_static, parseGlob_fn).call(_a2, p2, __privateGet(this, _hasMagic), noEmpty) : p2.toRegExpSource(allowDot);
+        var _a3;
+        const [re, _2, hasMagic, uflag] = typeof p2 === "string" ? __privateMethod(_a3 = _a, _AST_static, parseGlob_fn).call(_a3, p2, __privateGet(this, _hasMagic), noEmpty) : p2.toRegExpSource(allowDot);
         __privateSet(this, _hasMagic, __privateGet(this, _hasMagic) || hasMagic);
         __privateSet(this, _uflag, __privateGet(this, _uflag) || uflag);
         return re;
@@ -9314,7 +10541,7 @@ var _AST = class _AST {
         }
       }
       let end = "";
-      if (this.isEnd() && __privateGet(__privateGet(this, _root), _filledNegs) && ((_a = __privateGet(this, _parent)) == null ? void 0 : _a.type) === "!") {
+      if (this.isEnd() && __privateGet(__privateGet(this, _root), _filledNegs) && ((_a2 = __privateGet(this, _parent)) == null ? void 0 : _a2.type) === "!") {
         end = "(?:$|\\/)";
       }
       const final2 = start2 + src + end;
@@ -9330,9 +10557,10 @@ var _AST = class _AST {
     let body = __privateMethod(this, _AST_instances, partsToRegExp_fn).call(this, dot);
     if (this.isStart() && this.isEnd() && !body && this.type !== "!") {
       const s2 = this.toString();
-      __privateSet(this, _parts, [s2]);
-      this.type = null;
-      __privateSet(this, _hasMagic, void 0);
+      const me = this;
+      __privateSet(me, _parts, [s2]);
+      me.type = null;
+      __privateSet(me, _hasMagic, void 0);
       return [s2, unescape(this.toString()), false, false];
     }
     let bodyDotAllowed = !repeated || allowDot || dot || !startNoDot ? "" : __privateMethod(this, _AST_instances, partsToRegExp_fn).call(this, true);
@@ -9401,8 +10629,9 @@ fillNegs_fn = function() {
   return this;
 };
 _AST_static = new WeakSet();
-parseAST_fn = function(str, ast, pos, opt) {
-  var _a, _b;
+parseAST_fn = function(str, ast, pos, opt, extDepth) {
+  var _a2, _b, _c, _d, _e;
+  const maxDepth = (_a2 = opt.maxExtglobRecursion) != null ? _a2 : 2;
   let escaping = false;
   let inBrace = false;
   let braceStart = -1;
@@ -9434,11 +10663,12 @@ parseAST_fn = function(str, ast, pos, opt) {
         acc2 += c2;
         continue;
       }
-      if (!opt.noext && isExtglobType(c2) && str.charAt(i3) === "(") {
+      const doRecurse = !opt.noext && isExtglobType(c2) && str.charAt(i3) === "(" && extDepth <= maxDepth;
+      if (doRecurse) {
         ast.push(acc2);
         acc2 = "";
-        const ext2 = new _AST(c2, ast);
-        i3 = __privateMethod(_a = _AST, _AST_static, parseAST_fn).call(_a, str, ext2, i3, opt);
+        const ext2 = new _a(c2, ast);
+        i3 = __privateMethod(_b = _a, _AST_static, parseAST_fn).call(_b, str, ext2, i3, opt, extDepth + 1);
         ast.push(ext2);
         continue;
       }
@@ -9448,7 +10678,7 @@ parseAST_fn = function(str, ast, pos, opt) {
     return i3;
   }
   let i2 = pos + 1;
-  let part = new _AST(null, ast);
+  let part = new _a(null, ast);
   const parts = [];
   let acc = "";
   while (i2 < str.length) {
@@ -9475,19 +10705,22 @@ parseAST_fn = function(str, ast, pos, opt) {
       acc += c2;
       continue;
     }
-    if (isExtglobType(c2) && str.charAt(i2) === "(") {
+    const doRecurse = !opt.noext && isExtglobType(c2) && str.charAt(i2) === "(" && /* c8 ignore start - the maxDepth is sufficient here */
+    (extDepth <= maxDepth || ast && __privateMethod(_c = ast, _AST_instances, canAdoptType_fn).call(_c, c2));
+    if (doRecurse) {
+      const depthAdd = ast && __privateMethod(_d = ast, _AST_instances, canAdoptType_fn).call(_d, c2) ? 0 : 1;
       part.push(acc);
       acc = "";
-      const ext2 = new _AST(c2, part);
+      const ext2 = new _a(c2, part);
       part.push(ext2);
-      i2 = __privateMethod(_b = _AST, _AST_static, parseAST_fn).call(_b, str, ext2, i2, opt);
+      i2 = __privateMethod(_e = _a, _AST_static, parseAST_fn).call(_e, str, ext2, i2, opt, extDepth + depthAdd);
       continue;
     }
     if (c2 === "|") {
       part.push(acc);
       acc = "";
       parts.push(part);
-      part = new _AST(null, ast);
+      part = new _a(null, ast);
       continue;
     }
     if (c2 === ")") {
@@ -9505,6 +10738,102 @@ parseAST_fn = function(str, ast, pos, opt) {
   __privateSet(ast, _hasMagic, void 0);
   __privateSet(ast, _parts, [str.substring(pos - 1)]);
   return i2;
+};
+canAdoptWithSpace_fn = function(child) {
+  return __privateMethod(this, _AST_instances, canAdopt_fn).call(this, child, adoptionWithSpaceMap);
+};
+canAdopt_fn = function(child, map3 = adoptionMap) {
+  if (!child || typeof child !== "object" || child.type !== null || __privateGet(child, _parts).length !== 1 || this.type === null) {
+    return false;
+  }
+  const gc = __privateGet(child, _parts)[0];
+  if (!gc || typeof gc !== "object" || gc.type === null) {
+    return false;
+  }
+  return __privateMethod(this, _AST_instances, canAdoptType_fn).call(this, gc.type, map3);
+};
+canAdoptType_fn = function(c2, map3 = adoptionAnyMap) {
+  var _a2;
+  return !!((_a2 = map3.get(this.type)) == null ? void 0 : _a2.includes(c2));
+};
+adoptWithSpace_fn = function(child, index) {
+  const gc = __privateGet(child, _parts)[0];
+  const blank = new _a(null, gc, this.options);
+  __privateGet(blank, _parts).push("");
+  gc.push(blank);
+  __privateMethod(this, _AST_instances, adopt_fn).call(this, child, index);
+};
+adopt_fn = function(child, index) {
+  const gc = __privateGet(child, _parts)[0];
+  __privateGet(this, _parts).splice(index, 1, ...__privateGet(gc, _parts));
+  for (const p2 of __privateGet(gc, _parts)) {
+    if (typeof p2 === "object")
+      __privateSet(p2, _parent, this);
+  }
+  __privateSet(this, _toString, void 0);
+};
+canUsurpType_fn = function(c2) {
+  const m2 = usurpMap.get(this.type);
+  return !!(m2 == null ? void 0 : m2.has(c2));
+};
+canUsurp_fn = function(child) {
+  if (!child || typeof child !== "object" || child.type !== null || __privateGet(child, _parts).length !== 1 || this.type === null || __privateGet(this, _parts).length !== 1) {
+    return false;
+  }
+  const gc = __privateGet(child, _parts)[0];
+  if (!gc || typeof gc !== "object" || gc.type === null) {
+    return false;
+  }
+  return __privateMethod(this, _AST_instances, canUsurpType_fn).call(this, gc.type);
+};
+usurp_fn = function(child) {
+  const m2 = usurpMap.get(this.type);
+  const gc = __privateGet(child, _parts)[0];
+  const nt2 = m2 == null ? void 0 : m2.get(gc.type);
+  if (!nt2)
+    return false;
+  __privateSet(this, _parts, __privateGet(gc, _parts));
+  for (const p2 of __privateGet(this, _parts)) {
+    if (typeof p2 === "object") {
+      __privateSet(p2, _parent, this);
+    }
+  }
+  this.type = nt2;
+  __privateSet(this, _toString, void 0);
+  __privateSet(this, _emptyExt, false);
+};
+flatten_fn = function() {
+  var _a2, _b;
+  if (!isExtglobAST(this)) {
+    for (const p2 of __privateGet(this, _parts)) {
+      if (typeof p2 === "object") {
+        __privateMethod(_a2 = p2, _AST_instances, flatten_fn).call(_a2);
+      }
+    }
+  } else {
+    let iterations = 0;
+    let done = false;
+    do {
+      done = true;
+      for (let i2 = 0; i2 < __privateGet(this, _parts).length; i2++) {
+        const c2 = __privateGet(this, _parts)[i2];
+        if (typeof c2 === "object") {
+          __privateMethod(_b = c2, _AST_instances, flatten_fn).call(_b);
+          if (__privateMethod(this, _AST_instances, canAdopt_fn).call(this, c2)) {
+            done = false;
+            __privateMethod(this, _AST_instances, adopt_fn).call(this, c2, i2);
+          } else if (__privateMethod(this, _AST_instances, canAdoptWithSpace_fn).call(this, c2)) {
+            done = false;
+            __privateMethod(this, _AST_instances, adoptWithSpace_fn).call(this, c2, i2);
+          } else if (__privateMethod(this, _AST_instances, canUsurp_fn).call(this, c2)) {
+            done = false;
+            __privateMethod(this, _AST_instances, usurp_fn).call(this, c2);
+          }
+        }
+      }
+    } while (!done && ++iterations < 10);
+  }
+  __privateSet(this, _toString, void 0);
 };
 partsToRegExp_fn = function(dot) {
   return __privateGet(this, _parts).map((p2) => {
@@ -9565,10 +10894,10 @@ parseGlob_fn = function(glob, hasMagic, noEmpty = false) {
   }
   return [re, unescape(glob), !!hasMagic, uflag];
 };
-__privateAdd(_AST, _AST_static);
-var AST = _AST;
+__privateAdd(AST, _AST_static);
+_a = AST;
 
-// node_modules/.pnpm/minimatch@10.2.2/node_modules/minimatch/dist/esm/escape.js
+// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/escape.js
 var escape = (s2, { windowsPathsNoEscape = false, magicalBraces = false } = {}) => {
   if (magicalBraces) {
     return windowsPathsNoEscape ? s2.replace(/[?*()[\]{}]/g, "[$&]") : s2.replace(/[?*()[\]\\{}]/g, "\\$&");
@@ -9576,7 +10905,7 @@ var escape = (s2, { windowsPathsNoEscape = false, magicalBraces = false } = {}) 
   return windowsPathsNoEscape ? s2.replace(/[?*()[\]]/g, "[$&]") : s2.replace(/[?*()[\]\\]/g, "\\$&");
 };
 
-// node_modules/.pnpm/minimatch@10.2.2/node_modules/minimatch/dist/esm/index.js
+// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/index.js
 var minimatch = (p2, pattern, options = {}) => {
   assertValidPattern(pattern);
   if (!options.nocomment && pattern.charAt(0) === "#") {
@@ -9641,7 +10970,7 @@ var path = {
 };
 var sep = defaultPlatform === "win32" ? path.win32.sep : path.posix.sep;
 minimatch.sep = sep;
-var GLOBSTAR = Symbol("globstar **");
+var GLOBSTAR = /* @__PURE__ */ Symbol("globstar **");
 minimatch.GLOBSTAR = GLOBSTAR;
 var qmark2 = "[^/]";
 var star2 = qmark2 + "*?";
@@ -9708,8 +11037,10 @@ var match = (list, pattern, options = {}) => {
 minimatch.match = match;
 var globMagic = /[?*]|[+@!]\(.*?\)|\[|\]/;
 var regExpEscape2 = (s2) => s2.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+var _Minimatch_instances, matchGlobstar_fn, matchGlobStarBodySections_fn, matchOne_fn;
 var Minimatch = class {
   constructor(pattern, options = {}) {
+    __privateAdd(this, _Minimatch_instances);
     __publicField(this, "options");
     __publicField(this, "set");
     __publicField(this, "pattern");
@@ -9726,10 +11057,13 @@ var Minimatch = class {
     __publicField(this, "isWindows");
     __publicField(this, "platform");
     __publicField(this, "windowsNoMagicRoot");
+    __publicField(this, "maxGlobstarRecursion");
     __publicField(this, "regexp");
+    var _a2;
     assertValidPattern(pattern);
     options = options || {};
     this.options = options;
+    this.maxGlobstarRecursion = (_a2 = options.maxGlobstarRecursion) != null ? _a2 : 200;
     this.pattern = pattern;
     this.platform = options.platform || defaultPlatform;
     this.isWindows = this.platform === "win32";
@@ -10066,7 +11400,8 @@ var Minimatch = class {
   // out of pattern, then that's fine, as long as all
   // the parts match.
   matchOne(file, pattern, partial = false) {
-    const options = this.options;
+    let fileStartIndex = 0;
+    let patternStartIndex = 0;
     if (this.isWindows) {
       const fileDrive = typeof file[0] === "string" && /^[a-z]:$/i.test(file[0]);
       const fileUNC = !fileDrive && file[0] === "" && file[1] === "" && file[2] === "?" && /^[a-z]:$/i.test(file[3]);
@@ -10081,11 +11416,8 @@ var Minimatch = class {
         ];
         if (fd.toLowerCase() === pd.toLowerCase()) {
           pattern[pdi] = fd;
-          if (pdi > fdi) {
-            pattern = pattern.slice(pdi);
-          } else if (fdi > pdi) {
-            file = file.slice(fdi);
-          }
+          patternStartIndex = pdi;
+          fileStartIndex = fdi;
         }
       }
     }
@@ -10093,71 +11425,10 @@ var Minimatch = class {
     if (optimizationLevel >= 2) {
       file = this.levelTwoFileOptimize(file);
     }
-    this.debug("matchOne", this, { file, pattern });
-    this.debug("matchOne", file.length, pattern.length);
-    for (var fi = 0, pi = 0, fl = file.length, pl = pattern.length; fi < fl && pi < pl; fi++, pi++) {
-      this.debug("matchOne loop");
-      var p2 = pattern[pi];
-      var f2 = file[fi];
-      this.debug(pattern, p2, f2);
-      if (p2 === false) {
-        return false;
-      }
-      if (p2 === GLOBSTAR) {
-        this.debug("GLOBSTAR", [pattern, p2, f2]);
-        var fr = fi;
-        var pr = pi + 1;
-        if (pr === pl) {
-          this.debug("** at the end");
-          for (; fi < fl; fi++) {
-            if (file[fi] === "." || file[fi] === ".." || !options.dot && file[fi].charAt(0) === ".")
-              return false;
-          }
-          return true;
-        }
-        while (fr < fl) {
-          var swallowee = file[fr];
-          this.debug("\nglobstar while", file, fr, pattern, pr, swallowee);
-          if (this.matchOne(file.slice(fr), pattern.slice(pr), partial)) {
-            this.debug("globstar found match!", fr, fl, swallowee);
-            return true;
-          } else {
-            if (swallowee === "." || swallowee === ".." || !options.dot && swallowee.charAt(0) === ".") {
-              this.debug("dot detected!", file, fr, pattern, pr);
-              break;
-            }
-            this.debug("globstar swallow a segment, and continue");
-            fr++;
-          }
-        }
-        if (partial) {
-          this.debug("\n>>> no match, partial?", file, fr, pattern, pr);
-          if (fr === fl) {
-            return true;
-          }
-        }
-        return false;
-      }
-      let hit;
-      if (typeof p2 === "string") {
-        hit = f2 === p2;
-        this.debug("string match", p2, f2, hit);
-      } else {
-        hit = p2.test(f2);
-        this.debug("pattern match", p2, f2, hit);
-      }
-      if (!hit)
-        return false;
+    if (pattern.includes(GLOBSTAR)) {
+      return __privateMethod(this, _Minimatch_instances, matchGlobstar_fn).call(this, file, pattern, partial, fileStartIndex, patternStartIndex);
     }
-    if (fi === fl && pi === pl) {
-      return true;
-    } else if (fi === fl) {
-      return partial;
-    } else if (pi === pl) {
-      return fi === fl - 1 && file[fi] === "";
-    } else {
-      throw new Error("wtf?");
-    }
+    return __privateMethod(this, _Minimatch_instances, matchOne_fn).call(this, file, pattern, partial, fileStartIndex, patternStartIndex);
   }
   braceExpand() {
     return braceExpand(this.pattern, this.options);
@@ -10307,6 +11578,142 @@ var Minimatch = class {
     return minimatch.defaults(def).Minimatch;
   }
 };
+_Minimatch_instances = new WeakSet();
+matchGlobstar_fn = function(file, pattern, partial, fileIndex, patternIndex) {
+  const firstgs = pattern.indexOf(GLOBSTAR, patternIndex);
+  const lastgs = pattern.lastIndexOf(GLOBSTAR);
+  const [head, body, tail] = partial ? [
+    pattern.slice(patternIndex, firstgs),
+    pattern.slice(firstgs + 1),
+    []
+  ] : [
+    pattern.slice(patternIndex, firstgs),
+    pattern.slice(firstgs + 1, lastgs),
+    pattern.slice(lastgs + 1)
+  ];
+  if (head.length) {
+    const fileHead = file.slice(fileIndex, fileIndex + head.length);
+    if (!__privateMethod(this, _Minimatch_instances, matchOne_fn).call(this, fileHead, head, partial, 0, 0)) {
+      return false;
+    }
+    fileIndex += head.length;
+    patternIndex += head.length;
+  }
+  let fileTailMatch = 0;
+  if (tail.length) {
+    if (tail.length + fileIndex > file.length)
+      return false;
+    let tailStart = file.length - tail.length;
+    if (__privateMethod(this, _Minimatch_instances, matchOne_fn).call(this, file, tail, partial, tailStart, 0)) {
+      fileTailMatch = tail.length;
+    } else {
+      if (file[file.length - 1] !== "" || fileIndex + tail.length === file.length) {
+        return false;
+      }
+      tailStart--;
+      if (!__privateMethod(this, _Minimatch_instances, matchOne_fn).call(this, file, tail, partial, tailStart, 0)) {
+        return false;
+      }
+      fileTailMatch = tail.length + 1;
+    }
+  }
+  if (!body.length) {
+    let sawSome = !!fileTailMatch;
+    for (let i3 = fileIndex; i3 < file.length - fileTailMatch; i3++) {
+      const f2 = String(file[i3]);
+      sawSome = true;
+      if (f2 === "." || f2 === ".." || !this.options.dot && f2.startsWith(".")) {
+        return false;
+      }
+    }
+    return partial || sawSome;
+  }
+  const bodySegments = [[[], 0]];
+  let currentBody = bodySegments[0];
+  let nonGsParts = 0;
+  const nonGsPartsSums = [0];
+  for (const b2 of body) {
+    if (b2 === GLOBSTAR) {
+      nonGsPartsSums.push(nonGsParts);
+      currentBody = [[], 0];
+      bodySegments.push(currentBody);
+    } else {
+      currentBody[0].push(b2);
+      nonGsParts++;
+    }
+  }
+  let i2 = bodySegments.length - 1;
+  const fileLength = file.length - fileTailMatch;
+  for (const b2 of bodySegments) {
+    b2[1] = fileLength - (nonGsPartsSums[i2--] + b2[0].length);
+  }
+  return !!__privateMethod(this, _Minimatch_instances, matchGlobStarBodySections_fn).call(this, file, bodySegments, fileIndex, 0, partial, 0, !!fileTailMatch);
+};
+// return false for "nope, not matching"
+// return null for "not matching, cannot keep trying"
+matchGlobStarBodySections_fn = function(file, bodySegments, fileIndex, bodyIndex, partial, globStarDepth, sawTail) {
+  const bs = bodySegments[bodyIndex];
+  if (!bs) {
+    for (let i2 = fileIndex; i2 < file.length; i2++) {
+      sawTail = true;
+      const f2 = file[i2];
+      if (f2 === "." || f2 === ".." || !this.options.dot && f2.startsWith(".")) {
+        return false;
+      }
+    }
+    return sawTail;
+  }
+  const [body, after] = bs;
+  while (fileIndex <= after) {
+    const m2 = __privateMethod(this, _Minimatch_instances, matchOne_fn).call(this, file.slice(0, fileIndex + body.length), body, partial, fileIndex, 0);
+    if (m2 && globStarDepth < this.maxGlobstarRecursion) {
+      const sub = __privateMethod(this, _Minimatch_instances, matchGlobStarBodySections_fn).call(this, file, bodySegments, fileIndex + body.length, bodyIndex + 1, partial, globStarDepth + 1, sawTail);
+      if (sub !== false) {
+        return sub;
+      }
+    }
+    const f2 = file[fileIndex];
+    if (f2 === "." || f2 === ".." || !this.options.dot && f2.startsWith(".")) {
+      return false;
+    }
+    fileIndex++;
+  }
+  return partial || null;
+};
+matchOne_fn = function(file, pattern, partial, fileIndex, patternIndex) {
+  let fi;
+  let pi;
+  let pl;
+  let fl;
+  for (fi = fileIndex, pi = patternIndex, fl = file.length, pl = pattern.length; fi < fl && pi < pl; fi++, pi++) {
+    this.debug("matchOne loop");
+    let p2 = pattern[pi];
+    let f2 = file[fi];
+    this.debug(pattern, p2, f2);
+    if (p2 === false || p2 === GLOBSTAR) {
+      return false;
+    }
+    let hit;
+    if (typeof p2 === "string") {
+      hit = f2 === p2;
+      this.debug("string match", p2, f2, hit);
+    } else {
+      hit = p2.test(f2);
+      this.debug("pattern match", p2, f2, hit);
+    }
+    if (!hit)
+      return false;
+  }
+  if (fi === fl && pi === pl) {
+    return true;
+  } else if (fi === fl) {
+    return partial;
+  } else if (pi === pl) {
+    return fi === fl - 1 && file[fi] === "";
+  } else {
+    throw new Error("wtf?");
+  }
+};
 minimatch.AST = AST;
 minimatch.Minimatch = Minimatch;
 minimatch.escape = escape;
@@ -10384,624 +11791,6 @@ var OsrNoteGraph = class {
   }
 };
 
-// src/data-store-algorithm/data-store-algorithm.ts
-var DataStoreAlgorithm = class _DataStoreAlgorithm {
-  static getInstance() {
-    if (!_DataStoreAlgorithm.instance) {
-      throw new Error("there is no DataStoreAlgorithm instance.");
-    }
-    return _DataStoreAlgorithm.instance;
-  }
-};
-
-// src/data-stores/base/data-store.ts
-var DataStore = class _DataStore {
-  static getInstance() {
-    if (!_DataStore.instance) {
-      throw new Error("there is no DataStore instance.");
-    }
-    return _DataStore.instance;
-  }
-};
-
-// src/topic-path.ts
-var TopicPath = class _TopicPath {
-  constructor(path2) {
-    if (path2 == null) throw "null path";
-    if (path2.some((str) => str.includes("/"))) throw "path entries must not contain '/'";
-    this.path = path2;
-  }
-  get hasPath() {
-    return this.path.length > 0;
-  }
-  get isEmptyPath() {
-    return !this.hasPath;
-  }
-  static get emptyPath() {
-    return new _TopicPath([]);
-  }
-  shift() {
-    if (this.isEmptyPath) throw "can't shift an empty path";
-    return this.path.shift();
-  }
-  clone() {
-    return new _TopicPath([...this.path]);
-  }
-  formatAsTag() {
-    if (this.isEmptyPath) throw "Empty path";
-    const result = "#" + this.path.join("/");
-    return result;
-  }
-  static getTopicPathOfFile(noteFile, settings) {
-    let deckPath = [];
-    let result = _TopicPath.emptyPath;
-    if (settings.convertFoldersToDecks) {
-      deckPath = noteFile.path.split("/");
-      deckPath.pop();
-      if (deckPath.length != 0) {
-        result = new _TopicPath(deckPath);
-      }
-    } else {
-      const tagList = this.getTopicPathsFromTagList(
-        noteFile.getAllTagsFromCache()
-      );
-      outer: for (const tagToReview of this.getTopicPathsFromTagList(
-        settings.flashcardTags
-      )) {
-        for (const tag of tagList) {
-          if (tagToReview.isSameOrAncestorOf(tag)) {
-            result = tag;
-            break outer;
-          }
-        }
-      }
-    }
-    return result;
-  }
-  isSameOrAncestorOf(topicPath) {
-    if (this.isEmptyPath) return topicPath.isEmptyPath;
-    if (this.path.length > topicPath.path.length) return false;
-    for (let i2 = 0; i2 < this.path.length; i2++) {
-      if (this.path[i2] != topicPath.path[i2]) return false;
-    }
-    return true;
-  }
-  static getTopicPathFromCardText(cardText) {
-    var _a;
-    const path2 = (_a = cardText.trimStart().match(OBSIDIAN_TAG_AT_STARTOFLINE_REGEX)) == null ? void 0 : _a.slice(-1)[0];
-    return (path2 == null ? void 0 : path2.length) > 0 ? _TopicPath.getTopicPathFromTag(path2) : null;
-  }
-  static getTopicPathsFromTagList(tagList) {
-    const result = [];
-    for (const tag of tagList) {
-      if (this.isValidTag(tag)) result.push(_TopicPath.getTopicPathFromTag(tag));
-    }
-    return result;
-  }
-  static isValidTag(tag) {
-    if (tag == null || tag.length == 0) return false;
-    if (tag[0] != "#") return false;
-    if (tag.length == 1) return false;
-    return true;
-  }
-  static getTopicPathFromTag(tag) {
-    if (tag == null || tag.length == 0) throw "Null/empty tag";
-    if (tag[0] != "#") throw "Tag must start with #";
-    if (tag.length == 1) throw "Invalid tag";
-    const path2 = tag.replace("#", "").split("/").filter((str) => str);
-    return new _TopicPath(path2);
-  }
-  static getFolderPathFromFilename(noteFile, settings) {
-    let result = _TopicPath.emptyPath;
-    if (settings.convertFoldersToDecks) {
-      const deckPath = noteFile.path.split("/");
-      deckPath.pop();
-      if (deckPath.length != 0) {
-        result = new _TopicPath(deckPath);
-      }
-    }
-    return result;
-  }
-};
-var TopicPathList = class _TopicPathList {
-  constructor(list, lineNum = null) {
-    if (list == null) throw "TopicPathList null";
-    this.list = list;
-    this.lineNum = lineNum;
-  }
-  get length() {
-    return this.list.length;
-  }
-  isAnyElementSameOrAncestorOf(topicPath) {
-    return this.list.some((item) => item.isSameOrAncestorOf(topicPath));
-  }
-  formatPsv() {
-    return this.format("|");
-  }
-  format(sep2) {
-    return this.list.map((topicPath) => topicPath.formatAsTag()).join(sep2);
-  }
-  static empty() {
-    return new _TopicPathList([]);
-  }
-  static fromPsv(str, lineNum) {
-    const result = _TopicPathList.convertTagListToTopicPathList(str.split("|"));
-    result.lineNum = lineNum;
-    return result;
-  }
-  //
-  // tagList is a list of tags such as:
-  //      ["#flashcards/computing", "#boring-stuff", "#news-worthy"]
-  // validTopicPathList is a list of valid tags, such as those from settings.flashcardTags,E.g.
-  //      ["#flashcards"]
-  //
-  // This returns a filtered version of tagList, containing only topic paths that are considered valid.
-  // Validity is defined as "isAnyElementSameOrAncestorOf", and "#flashcards" is considered the ancestor of
-  // "#flashcards/computing".
-  //
-  // Therefore this would return:
-  //      "#flashcards/computing" (but not "#boring-stuff" or "#news-worthy")
-  //
-  static filterValidTopicPathsFromTagList(list, validTopicPathList, lineNum = null) {
-    const result = [];
-    for (const tag of list.list) {
-      if (validTopicPathList.isAnyElementSameOrAncestorOf(tag)) result.push(tag);
-    }
-    return new _TopicPathList(result, lineNum);
-  }
-  static convertTagListToTopicPathList(tagList) {
-    const result = [];
-    for (const tag of tagList) {
-      if (TopicPath.isValidTag(tag)) result.push(TopicPath.getTopicPathFromTag(tag));
-    }
-    return new _TopicPathList(result);
-  }
-};
-var TopicPathWithWs = class {
-  constructor(topicPath, preWhitespace, postWhitespace) {
-    if (!topicPath || topicPath.isEmptyPath) throw "topicPath null";
-    this.topicPath = topicPath;
-    this.preWhitespace = preWhitespace;
-    this.postWhitespace = postWhitespace;
-  }
-  formatWithWs() {
-    return `${this.preWhitespace}${this.topicPath.formatAsTag()}${this.postWhitespace}`;
-  }
-};
-
-// src/flashcard-review-sequencer.ts
-var DeckStats = class {
-  constructor(totalCount, dueCount, newCount, cardsInQueueCount, dueCardsInQueueOfThisDeckCount, newCardsInQueueOfThisDeckCount, cardsInQueueOfThisDeckCount, subDecksInQueueOfThisDeckCount, decksInQueueOfThisDeckCount) {
-    this.dueCount = dueCount;
-    this.newCount = newCount;
-    this.totalCount = totalCount;
-    this.cardsInQueueCount = cardsInQueueCount;
-    this.dueCardsInQueueOfThisDeckCount = dueCardsInQueueOfThisDeckCount;
-    this.newCardsInQueueOfThisDeckCount = newCardsInQueueOfThisDeckCount;
-    this.cardsInQueueOfThisDeckCount = cardsInQueueOfThisDeckCount;
-    this.subDecksInQueueOfThisDeckCount = subDecksInQueueOfThisDeckCount;
-    this.decksInQueueOfThisDeckCount = decksInQueueOfThisDeckCount;
-  }
-};
-var FlashcardReviewSequencer = class {
-  constructor(reviewMode, cardSequencer, settings, srsAlgorithm, questionPostponementList, dueDateFlashcardHistogram) {
-    this.reviewMode = reviewMode;
-    this.cardSequencer = cardSequencer;
-    this.settings = settings;
-    this.srsAlgorithm = srsAlgorithm;
-    this.questionPostponementList = questionPostponementList;
-    this.dueDateFlashcardHistogram = dueDateFlashcardHistogram;
-  }
-  get hasCurrentCard() {
-    return this.cardSequencer.currentCard != null;
-  }
-  get currentCard() {
-    return this.cardSequencer.currentCard;
-  }
-  get currentQuestion() {
-    var _a;
-    return (_a = this.currentCard) == null ? void 0 : _a.question;
-  }
-  get currentDeck() {
-    return this.cardSequencer.currentDeck;
-  }
-  get currentNote() {
-    return this.currentQuestion.note;
-  }
-  // originalDeckTree isn't modified by the review process
-  // Only remainingDeckTree
-  setDeckTree(originalDeckTree, remainingDeckTree) {
-    this.cardSequencer.setBaseDeck(remainingDeckTree);
-    this._originalDeckTree = originalDeckTree;
-    this.remainingDeckTree = remainingDeckTree;
-    this.setCurrentDeck(TopicPath.emptyPath);
-  }
-  setCurrentDeck(topicPath) {
-    this.cardSequencer.setIteratorTopicPath(topicPath);
-    this.cardSequencer.nextCard();
-  }
-  get originalDeckTree() {
-    return this._originalDeckTree;
-  }
-  getDeckStats(topicPath) {
-    const totalCount = this._originalDeckTree.getDeck(topicPath).getDistinctCardCount(2 /* All */, true);
-    const remainingDeck = this.remainingDeckTree.getDeck(topicPath);
-    const newCount = remainingDeck.getDistinctCardCount(0 /* NewCard */, true);
-    const dueCount = remainingDeck.getDistinctCardCount(1 /* DueCard */, true);
-    const newCardsInQueueOfThisDeckCount = remainingDeck.getDistinctCardCount(
-      0 /* NewCard */,
-      false
-    );
-    const dueCardsInQueueOfThisDeckCount = remainingDeck.getDistinctCardCount(
-      1 /* DueCard */,
-      false
-    );
-    const cardsInQueueOfThisDeckCount = newCardsInQueueOfThisDeckCount + dueCardsInQueueOfThisDeckCount;
-    const subDecksInQueueOfThisDeckCount = this.getSubDecksWithCardsInQueue(remainingDeck).length;
-    const decksInQueueOfThisDeckCount = cardsInQueueOfThisDeckCount > 0 ? subDecksInQueueOfThisDeckCount + 1 : subDecksInQueueOfThisDeckCount;
-    return new DeckStats(
-      totalCount,
-      dueCount,
-      newCount,
-      dueCount + newCount,
-      dueCardsInQueueOfThisDeckCount,
-      newCardsInQueueOfThisDeckCount,
-      cardsInQueueOfThisDeckCount,
-      subDecksInQueueOfThisDeckCount,
-      decksInQueueOfThisDeckCount
-    );
-  }
-  getSubDecksWithCardsInQueue(deck) {
-    let subDecksWithCardsInQueue = [];
-    deck.subdecks.forEach((subDeck) => {
-      subDecksWithCardsInQueue = subDecksWithCardsInQueue.concat(
-        this.getSubDecksWithCardsInQueue(subDeck)
-      );
-      const newCount = subDeck.getDistinctCardCount(0 /* NewCard */, false);
-      const dueCount = subDeck.getDistinctCardCount(1 /* DueCard */, false);
-      if (newCount + dueCount > 0) subDecksWithCardsInQueue.push(subDeck);
-    });
-    return subDecksWithCardsInQueue;
-  }
-  skipCurrentCard() {
-    this.cardSequencer.deleteCurrentQuestionFromAllDecks();
-  }
-  deleteCurrentCard() {
-    this.cardSequencer.deleteCurrentCardFromAllDecks();
-  }
-  async processReview(response) {
-    switch (this.reviewMode) {
-      case 1 /* Review */:
-        await this.processReviewReviewMode(response);
-        break;
-      case 0 /* Cram */:
-        await this.processReviewCramMode(response);
-        break;
-    }
-  }
-  async processReviewReviewMode(response) {
-    if (response != 3 /* Reset */ || this.currentCard.hasSchedule) {
-      const oldSchedule = this.currentCard.scheduleInfo;
-      this.currentCard.scheduleInfo = this.determineCardSchedule(response, this.currentCard);
-      await DataStore.getInstance().questionWriteSchedule(this.currentQuestion);
-      if (oldSchedule) {
-        const today = globalDateProvider.today.valueOf();
-        const nDays = Math.ceil(
-          (oldSchedule.dueDateAsUnix - today) / TICKS_PER_DAY
-        );
-        this.dueDateFlashcardHistogram.decrement(nDays);
-      }
-      this.dueDateFlashcardHistogram.increment(this.currentCard.scheduleInfo.interval);
-    }
-    if (response == 3 /* Reset */) {
-      this.cardSequencer.moveCurrentCardToEndOfList();
-      this.cardSequencer.nextCard();
-    } else {
-      if (this.settings.burySiblingCards) {
-        await this.burySiblingCards();
-        this.cardSequencer.deleteCurrentQuestionFromAllDecks();
-      } else {
-        this.deleteCurrentCard();
-      }
-    }
-  }
-  async burySiblingCards() {
-    const remaining = this.currentDeck.getQuestionCardCount(this.currentQuestion);
-    if (remaining > 1) {
-      this.questionPostponementList.add(this.currentQuestion);
-      await this.questionPostponementList.write();
-    }
-  }
-  async processReviewCramMode(response) {
-    if (response == 0 /* Easy */) this.deleteCurrentCard();
-    else {
-      this.cardSequencer.moveCurrentCardToEndOfList();
-      this.cardSequencer.nextCard();
-    }
-  }
-  determineCardSchedule(response, card) {
-    let result;
-    if (response == 3 /* Reset */) {
-      result = this.srsAlgorithm.cardGetResetSchedule();
-    } else {
-      if (card.hasSchedule) {
-        result = this.srsAlgorithm.cardCalcUpdatedSchedule(
-          response,
-          card.scheduleInfo,
-          this.dueDateFlashcardHistogram
-        );
-      } else {
-        const currentNote = card.question.note;
-        result = this.srsAlgorithm.cardGetNewSchedule(
-          response,
-          currentNote.filePath,
-          this.dueDateFlashcardHistogram
-        );
-      }
-    }
-    return result;
-  }
-  async updateCurrentQuestionText(text) {
-    const q2 = this.currentQuestion.questionText;
-    q2.actualQuestion = text;
-    await DataStore.getInstance().questionWrite(this.currentQuestion);
-  }
-};
-
-// src/deck.ts
-var Deck2 = class _Deck {
-  constructor(deckName, parent) {
-    this.deckName = deckName;
-    this.newFlashcards = [];
-    this.dueFlashcards = [];
-    this.subdecks = [];
-    this.parent = parent;
-  }
-  getCardCount(cardListType, includeSubdeckCounts) {
-    let result = 0;
-    if (cardListType == 0 /* NewCard */ || cardListType == 2 /* All */)
-      result += this.newFlashcards.length;
-    if (cardListType == 1 /* DueCard */ || cardListType == 2 /* All */)
-      result += this.dueFlashcards.length;
-    if (includeSubdeckCounts) {
-      for (const deck of this.subdecks) {
-        result += deck.getCardCount(cardListType, includeSubdeckCounts);
-      }
-    }
-    return result;
-  }
-  getDistinctCardCount(cardListType, includeSubdeckCounts) {
-    const cardList = this.getFlattenedCardArray(cardListType, includeSubdeckCounts);
-    const distinctCardSet = new Set(cardList);
-    return distinctCardSet.size;
-  }
-  getFlattenedCardArray(cardListType, includeSubdeckCounts) {
-    let result = [];
-    switch (cardListType) {
-      case 0 /* NewCard */:
-        result = this.newFlashcards;
-        break;
-      case 1 /* DueCard */:
-        result = this.dueFlashcards;
-        break;
-      case 2 /* All */:
-        result = this.newFlashcards.concat(this.dueFlashcards);
-    }
-    if (includeSubdeckCounts) {
-      for (const subdeck of this.subdecks) {
-        result = result.concat(
-          subdeck.getFlattenedCardArray(cardListType, includeSubdeckCounts)
-        );
-      }
-    }
-    return result;
-  }
-  // Returns a count of the number of this question's cards are present in this deck.
-  // (The returned value would be <= question.cards.length)
-  getQuestionCardCount(question) {
-    let result = 0;
-    result += this.getQuestionCardCountForCardListType(question, this.newFlashcards);
-    result += this.getQuestionCardCountForCardListType(question, this.dueFlashcards);
-    return result;
-  }
-  getQuestionCardCountForCardListType(question, cards) {
-    let result = 0;
-    for (let i2 = 0; i2 < cards.length; i2++) {
-      if (Object.is(question, cards[i2].question)) result++;
-    }
-    return result;
-  }
-  static get emptyDeck() {
-    return new _Deck("Root", null);
-  }
-  get isRootDeck() {
-    return this.parent == null;
-  }
-  getDeckByTopicTag(tag) {
-    return this.getDeck(TopicPath.getTopicPathFromTag(tag));
-  }
-  getDeck(topicPath) {
-    return this._getOrCreateDeck(topicPath, false);
-  }
-  getOrCreateDeck(topicPath) {
-    return this._getOrCreateDeck(topicPath, true);
-  }
-  _getOrCreateDeck(topicPath, createAllowed) {
-    if (!topicPath.hasPath) {
-      return this;
-    }
-    const t3 = topicPath.clone();
-    const deckName = t3.shift();
-    for (const subdeck of this.subdecks) {
-      if (deckName === subdeck.deckName) {
-        return subdeck._getOrCreateDeck(t3, createAllowed);
-      }
-    }
-    let result = null;
-    if (createAllowed) {
-      const subdeck = new _Deck(
-        deckName,
-        this
-        /* parent */
-      );
-      this.subdecks.push(subdeck);
-      result = subdeck._getOrCreateDeck(t3, createAllowed);
-    }
-    return result;
-  }
-  getTopicPath() {
-    const list = [];
-    let deck = this;
-    while (!deck.isRootDeck) {
-      list.push(deck.deckName);
-      deck = deck.parent;
-    }
-    return new TopicPath(list.reverse());
-  }
-  getRootDeck() {
-    let deck = this;
-    while (!deck.isRootDeck) {
-      deck = deck.parent;
-    }
-    return deck;
-  }
-  getCard(index, cardListType) {
-    const cardList = this.getCardListForCardType(cardListType);
-    return cardList[index];
-  }
-  getCardListForCardType(cardListType) {
-    return cardListType == 1 /* DueCard */ ? this.dueFlashcards : this.newFlashcards;
-  }
-  appendCard(topicPathList, cardObj) {
-    if (topicPathList.list.length == 0) {
-      this.appendCardToRootDeck(cardObj);
-    } else {
-      for (const topicPath of topicPathList.list) {
-        this.appendCardSingleTopic(topicPath, cardObj);
-      }
-    }
-  }
-  appendCardToRootDeck(cardObj) {
-    this.appendCardSingleTopic(TopicPath.emptyPath, cardObj);
-  }
-  appendCardSingleTopic(topicPath, cardObj) {
-    const deck = this.getOrCreateDeck(topicPath);
-    const cardList = deck.getCardListForCardType(cardObj.cardListType);
-    cardList.push(cardObj);
-  }
-  // The question lists all the topics in which this card is included.
-  // The topics are relative to the base deck, and this method must be called on that deck
-  deleteQuestionFromAllDecks(question, exceptionIfMissing) {
-    for (const card of question.cards) {
-      this.deleteCardFromAllDecks(card, exceptionIfMissing);
-    }
-  }
-  deleteQuestion(question, exceptionIfMissing) {
-    for (const card of question.cards) {
-      this.deleteCardFromThisDeck(card, exceptionIfMissing);
-    }
-  }
-  // The card's question lists all the topics in which this card is included.
-  // The topics are relative to the base deck, and this method must be called on that deck
-  deleteCardFromAllDecks(card, exceptionIfMissing) {
-    for (const topicPath of card.question.topicPathList.list) {
-      const deck = this.getDeck(topicPath);
-      deck.deleteCardFromThisDeck(card, exceptionIfMissing);
-    }
-  }
-  deleteCardFromThisDeck(card, exceptionIfMissing) {
-    const newIdx = this.newFlashcards.indexOf(card);
-    if (newIdx != -1) this.newFlashcards.splice(newIdx, 1);
-    const dueIdx = this.dueFlashcards.indexOf(card);
-    if (dueIdx != -1) this.dueFlashcards.splice(dueIdx, 1);
-    if (newIdx == -1 && dueIdx == -1 && exceptionIfMissing) {
-      throw `deleteCardFromThisDeck: Card: ${card.front} not found in deck: ${this.deckName}`;
-    }
-  }
-  deleteCardAtIndex(index, cardListType) {
-    const cardList = this.getCardListForCardType(cardListType);
-    cardList.splice(index, 1);
-  }
-  toDeckArray() {
-    const result = [];
-    result.push(this);
-    for (const subdeck of this.subdecks) {
-      result.push(...subdeck.toDeckArray());
-    }
-    return result;
-  }
-  sortSubdecksList() {
-    this.subdecks.sort((a2, b2) => {
-      if (a2.deckName < b2.deckName) {
-        return -1;
-      } else if (a2.deckName > b2.deckName) {
-        return 1;
-      }
-      return 0;
-    });
-    for (const deck of this.subdecks) {
-      deck.sortSubdecksList();
-    }
-  }
-  debugLogToConsole(desc = null, indent = 0) {
-    let str = desc != null ? `${desc}: ` : "";
-    console.log(str += this.toString(indent));
-  }
-  toString(indent = 0) {
-    let result = "";
-    let indentStr = " ".repeat(indent * 4);
-    result += `${indentStr}${this.deckName}\r
-`;
-    indentStr += "  ";
-    for (let i2 = 0; i2 < this.newFlashcards.length; i2++) {
-      const card = this.newFlashcards[i2];
-      result += `${indentStr}New: ${i2}: ${card.front}::${card.back}\r
-`;
-    }
-    for (let i2 = 0; i2 < this.dueFlashcards.length; i2++) {
-      const card = this.dueFlashcards[i2];
-      const s2 = card.isDue ? "Due" : "Not due";
-      result += `${indentStr}${s2}: ${i2}: ${card.front}::${card.back}\r
-`;
-    }
-    for (const subdeck of this.subdecks) {
-      result += subdeck.toString(indent + 1);
-    }
-    return result;
-  }
-  clone() {
-    return this.copyWithCardFilter(() => true);
-  }
-  copyWithCardFilter(predicate, parent = null) {
-    const result = new _Deck(this.deckName, parent);
-    result.newFlashcards = [...this.newFlashcards.filter((card) => predicate(card))];
-    result.dueFlashcards = [...this.dueFlashcards.filter((card) => predicate(card))];
-    for (const s2 of this.subdecks) {
-      const newParent = result;
-      const newDeck = s2.copyWithCardFilter(predicate, newParent);
-      result.subdecks.push(newDeck);
-    }
-    return result;
-  }
-  static otherListType(cardListType) {
-    let result;
-    if (cardListType == 0 /* NewCard */) result = 1 /* DueCard */;
-    else if (cardListType == 1 /* DueCard */) result = 0 /* NewCard */;
-    else throw "Invalid cardListType";
-    return result;
-  }
-};
-var DeckTreeFilter = class {
-  static filterForReviewableCards(reviewableDeckTree) {
-    return reviewableDeckTree.copyWithCardFilter((card) => !card.question.hasEditLaterTag);
-  }
-  static filterForRemainingCards(questionPostponementList, deckTree, reviewMode) {
-    return deckTree.copyWithCardFilter(
-      (card) => (reviewMode == 0 /* Cram */ || card.isNew || card.isDue) && !questionPostponementList.includes(card.question)
-    );
-  }
-};
-
 // src/utils/types.ts
 function getTypedObjectEntries(obj) {
   return Object.entries(obj);
@@ -11045,7 +11834,7 @@ var RandomNumberProvider = class {
 };
 var StaticRandomNumberProvider = class {
   getInteger(lowerBound, upperBound) {
-    if (lowerBound != this.expectedLowerBound || upperBound != this.expectedUpperBound)
+    if (lowerBound !== this.expectedLowerBound || upperBound !== this.expectedUpperBound)
       throw `lowerBound: A${lowerBound}/E${this.expectedLowerBound}, upperBound: A${upperBound}/E${this.expectedUpperBound}`;
     return this.next;
   }
@@ -11089,7 +11878,7 @@ var WeightedRandomNumber = class _WeightedRandomNumber {
 var globalRandomNumberProvider = new RandomNumberProvider();
 var staticRandomNumberProvider = new StaticRandomNumberProvider();
 
-// src/deck-tree-iterator.ts
+// src/deck/deck-tree-iterator.ts
 var CardOrder = /* @__PURE__ */ ((CardOrder2) => {
   CardOrder2[CardOrder2["NewFirstSequential"] = 0] = "NewFirstSequential";
   CardOrder2[CardOrder2["NewFirstRandom"] = 1] = "NewFirstRandom";
@@ -11105,11 +11894,12 @@ var DeckOrder = /* @__PURE__ */ ((DeckOrder2) => {
 })(DeckOrder || {});
 var SingleDeckIterator = class _SingleDeckIterator {
   get hasCurrentCard() {
-    return this.cardIdx != null;
+    return this.cardIdx !== null && this.cardIdx !== void 0;
   }
   get currentCard() {
     let result = null;
-    if (this.cardIdx != null) result = this.deck.getCard(this.cardIdx, this.cardListType);
+    if (this.cardIdx !== null && this.cardIdx !== void 0)
+      result = this.deck.getCard(this.cardIdx, this.cardListType);
     return result;
   }
   constructor(iteratorOrder) {
@@ -11140,15 +11930,15 @@ var SingleDeckIterator = class _SingleDeckIterator {
     this.cardIdx = cardIdx;
   }
   nextCard() {
-    if (this.iteratorOrder.cardOrder == 4 /* EveryCardRandomDeckAndCard */) {
+    if (this.iteratorOrder.cardOrder === 4 /* EveryCardRandomDeckAndCard */) {
       this.nextRandomCard();
     } else {
-      if (this.cardListType == null) {
+      if (this.cardListType === null) {
         this.setCardListType(this.preferredCardListType);
       }
       if (!this.nextCardWithinCurrentList()) {
-        if (this.cardListType == this.preferredCardListType) {
-          this.setCardListType(Deck2.otherListType(this.cardListType));
+        if (this.cardListType === this.preferredCardListType) {
+          this.setCardListType(Deck.otherListType(this.cardListType));
           if (!this.nextCardWithinCurrentList()) {
             this.setCardListType(null);
           }
@@ -11157,7 +11947,7 @@ var SingleDeckIterator = class _SingleDeckIterator {
         }
       }
     }
-    return this.cardIdx != null;
+    return this.cardIdx !== null && this.cardIdx !== void 0;
   }
   nextRandomCard() {
     const newCount = this.deck.newFlashcards.length;
@@ -11202,7 +11992,7 @@ var SingleDeckIterator = class _SingleDeckIterator {
     this.cardIdx = null;
   }
   ensureCurrentCard() {
-    if (this.cardIdx == null || this.cardListType == null) throw "no current card";
+    if (this.cardIdx === null || this.cardListType === null) throw "no current card";
   }
   static getCardListTypeForIterator(iteratorOrder) {
     let result = null;
@@ -11221,25 +12011,25 @@ var SingleDeckIterator = class _SingleDeckIterator {
 };
 var DeckTreeIterator = class _DeckTreeIterator {
   get hasCurrentCard() {
-    return this.deckIdx != null && this.singleDeckIterator.hasCurrentCard;
+    return this.deckIdx !== null && this.deckIdx !== void 0 && this.singleDeckIterator.hasCurrentCard;
   }
   get currentTopicPath() {
-    var _a;
-    return (_a = this.currentDeck) == null ? void 0 : _a.getTopicPath();
+    var _a2;
+    return (_a2 = this.currentDeck) == null ? void 0 : _a2.getTopicPath();
   }
   get currentDeck() {
-    if (this.deckIdx == null) return null;
+    if (this.deckIdx === null || this.deckIdx === void 0) return null;
     return this.deckArray[this.deckIdx];
   }
   get currentCard() {
     let result = null;
-    if (this.deckIdx != null && this.singleDeckIterator.hasCurrentCard)
+    if (this.deckIdx !== null && this.deckIdx !== void 0 && this.singleDeckIterator.hasCurrentCard)
       result = this.singleDeckIterator.currentCard;
     return result;
   }
   get currentQuestion() {
-    var _a;
-    return (_a = this.currentCard) == null ? void 0 : _a.question;
+    var _a2;
+    return (_a2 = this.currentCard) == null ? void 0 : _a2.question;
   }
   constructor(iteratorOrder, baseDeckTree) {
     this.singleDeckIterator = new SingleDeckIterator(iteratorOrder);
@@ -11269,17 +12059,18 @@ var DeckTreeIterator = class _DeckTreeIterator {
   }
   setDeckIdx(deckIdx) {
     this.deckIdx = deckIdx;
-    if (deckIdx != null) this.singleDeckIterator.setDeck(this.deckArray[deckIdx]);
+    if (deckIdx !== null && deckIdx !== void 0)
+      this.singleDeckIterator.setDeck(this.deckArray[deckIdx]);
   }
   nextCard() {
     let result = false;
     if (this.hasCurrentCard) {
       this.baseDeckTree.deleteCardFromAllDecks(this.currentCard, true);
     }
-    if (this.iteratorOrder.cardOrder == 4 /* EveryCardRandomDeckAndCard */) {
+    if (this.iteratorOrder.cardOrder === 4 /* EveryCardRandomDeckAndCard */) {
       result = this.nextCardEveryCardRandomDeck();
     } else {
-      if (this.deckIdx == null) {
+      if (this.deckIdx === null || this.deckIdx === void 0) {
         this.chooseNextDeck(true);
       }
       while (this.deckIdx < this.deckArray.length) {
@@ -11328,7 +12119,7 @@ var DeckTreeIterator = class _DeckTreeIterator {
         weights[i2] = cardCount;
       }
     }
-    if (Object.keys(weights).length == 0) return false;
+    if (Object.keys(weights).length === 0) return false;
     const [deckIdx, cardIdx] = this.weightedRandomNumber.getRandomValues(weights);
     this.setDeckIdx(deckIdx);
     this.singleDeckIterator.setNewOrDueCardIdx(cardIdx);
@@ -11350,14 +12141,14 @@ var DeckTreeIterator = class _DeckTreeIterator {
     this.singleDeckIterator.moveCurrentCardToEndOfList();
   }
   removeCurrentDeckIfEmpty() {
-    if (this.currentDeck.getCardCount(2 /* All */, false) == 0) {
+    if (this.currentDeck.getCardCount(2 /* All */, false) === 0) {
       this.deckArray.splice(this.deckIdx, 1);
       if (this.deckIdx < this.deckArray.length) this.setDeckIdx(this.deckIdx);
     }
   }
 };
 
-// src/stats.ts
+// src/deck/stats.ts
 var Stats = class {
   constructor() {
     this.eases = new ValueCountDict();
@@ -11394,7 +12185,7 @@ var Stats = class {
   }
 };
 
-// src/deck-tree-stats-calculator.ts
+// src/deck/deck-tree-stats-calculator.ts
 var DeckTreeStatsCalculator = class {
   calculate(deckTree) {
     const iteratorOrder = {
@@ -11428,7 +12219,7 @@ var _DueDateHistogram = class _DueDateHistogram {
     // Value - Count of notes due
     this.dueDatesMap = /* @__PURE__ */ new Map();
     this.dueDatesMap = /* @__PURE__ */ new Map();
-    if (rec != null) {
+    if (rec !== null && rec !== void 0) {
       Object.entries(rec).forEach(([key, value]) => {
         this.dueDatesMap.set(Number(key), value);
       });
@@ -11521,6 +12312,7 @@ var CardDueDateHistogram = class extends DueDateHistogram {
 };
 
 // src/file.ts
+var import_moment3 = __toESM(require_moment());
 var import_obsidian2 = require("obsidian");
 
 // src/utils/strings.ts
@@ -11548,7 +12340,7 @@ function cyrb53(str, seed = 0) {
 }
 function convertToStringOrEmpty(v2) {
   let result = "";
-  if (v2 != null && v2 != void 0) {
+  if (v2 !== null && v2 !== void 0) {
     result = v2 + "";
   }
   return result;
@@ -11591,7 +12383,7 @@ function splitNoteIntoFrontmatterAndContent(str) {
 function findLineIndexOfSearchStringIgnoringWs(lines, searchString) {
   let result = -1;
   for (let i2 = 0; i2 < lines.length; i2++) {
-    if (lines[i2].trim() == searchString) {
+    if (lines[i2].trim() === searchString) {
       result = i2;
       break;
     }
@@ -11622,7 +12414,7 @@ var MultiLineTextFinder = class _MultiLineTextFinder {
         sourceTextArray,
         searchTextArray
       );
-      if (lineNo !== null) {
+      if (lineNo !== null && lineNo !== void 0) {
         const replacementTextArray = splitTextIntoLineArray(replacementText);
         const linesToRemove = searchTextArray.length;
         sourceTextArray.splice(lineNo, linesToRemove, ...replacementTextArray);
@@ -11638,8 +12430,8 @@ var MultiLineTextFinder = class _MultiLineTextFinder {
     for (let sourceIdx = 0; sourceIdx < sourceText.length; sourceIdx++) {
       const sourceLine = sourceText[sourceIdx].trim();
       const searchLine = searchText[searchIdx].trim();
-      if (searchLine == sourceLine) {
-        if (searchIdx == maxSearchIdx) {
+      if (searchLine === sourceLine) {
+        if (searchIdx === maxSearchIdx) {
           result = sourceIdx - searchIdx;
           break;
         }
@@ -11655,10 +12447,11 @@ var MultiLineTextFinder = class _MultiLineTextFinder {
 // src/file.ts
 var frontmatterTagPseudoLineNum = -1;
 var SrTFile = class {
-  constructor(vault, metadataCache, file) {
+  constructor(vault, metadataCache, fileManager, file) {
     this.vault = vault;
     this.metadataCache = metadataCache;
     this.file = file;
+    this.fileManager = fileManager;
   }
   get path() {
     return this.file.path;
@@ -11668,6 +12461,28 @@ var SrTFile = class {
   }
   get tfile() {
     return this.file;
+  }
+  async getNoteSchedule() {
+    let result = null;
+    const frontmatter = await this.getFrontmatter();
+    if (frontmatter && frontmatter.has("sr-due") && frontmatter.has("sr-interval") && frontmatter.has("sr-ease")) {
+      const dueDate = (0, import_moment3.default)(frontmatter.get("sr-due"), ALLOWED_DATE_FORMATS);
+      const interval = parseFloat(frontmatter.get("sr-interval"));
+      const ease = parseFloat(frontmatter.get("sr-ease"));
+      result = new RepItemScheduleInfoOsr(dueDate, interval, ease);
+    }
+    return result;
+  }
+  async setNoteSchedule(repItemScheduleInfo) {
+    const schedInfo = repItemScheduleInfo;
+    const dueString = formatDateYYYYMMDD(schedInfo.dueDate);
+    const interval = schedInfo.interval;
+    const ease = schedInfo.latestEase;
+    await this.fileManager.processFrontMatter(this.tfile, (frontmatter) => {
+      frontmatter["sr-due"] = dueString;
+      frontmatter["sr-interval"] = interval;
+      frontmatter["sr-ease"] = ease;
+    });
   }
   async getFrontmatter() {
     const fileCachedData = this.metadataCache.getFileCache(this.file) || {};
@@ -11686,10 +12501,10 @@ var SrTFile = class {
     return result;
   }
   getAllTagsFromText() {
-    var _a;
+    var _a2;
     const result = [];
     const fileCachedData = this.metadataCache.getFileCache(this.file) || {};
-    if (((_a = fileCachedData.tags) == null ? void 0 : _a.length) > 0) {
+    if (((_a2 = fileCachedData.tags) == null ? void 0 : _a2.length) > 0) {
       result.push(...fileCachedData.tags);
     }
     result.push(...this.getFrontmatterTags(fileCachedData.frontmatter));
@@ -11697,7 +12512,7 @@ var SrTFile = class {
   }
   getFrontmatterTags(frontmatter) {
     const result = [];
-    const frontmatterTags = frontmatter != null ? frontmatter["tags"] + "" : null;
+    const frontmatterTags = frontmatter !== null && frontmatter !== void 0 ? frontmatter["tags"] + "" : null;
     if (frontmatterTags) {
       const tagStrList = parseObsidianFrontmatterTag(frontmatterTags);
       for (const str of tagStrList) {
@@ -11747,7 +12562,7 @@ var SrTFile = class {
     const frontMatter = fileCache == null ? void 0 : fileCache.frontmatter;
     if (frontMatter && (frontMatter == null ? void 0 : frontMatter.direction)) {
       const str = (frontMatter.direction + "").toLowerCase();
-      result = str == "rtl" ? 2 /* Rtl */ : 1 /* Ltr */;
+      result = str === "rtl" ? 2 /* Rtl */ : 1 /* Ltr */;
     }
     return result;
   }
@@ -11759,7 +12574,7 @@ var SrTFile = class {
   }
 };
 
-// src/note.ts
+// src/note/note.ts
 var Note = class {
   get hasChanged() {
     return this.questionList.some((question) => question.hasChanged);
@@ -11780,12 +12595,12 @@ var Note = class {
     }
   }
   debugLogToConsole(desc = "") {
-    var _a;
+    var _a2;
     let str = `Note: ${desc}: ${this.questionList.length} questions\r
 `;
     for (let i2 = 0; i2 < this.questionList.length; i2++) {
       const q2 = this.questionList[i2];
-      str += `[${i2}]: ${q2.questionType}: ${q2.lineNo}: ${(_a = q2.topicPathList) == null ? void 0 : _a.format("|")}: ${q2.questionText.original}\r
+      str += `[${i2}]: ${q2.questionType}: ${q2.lineNo}: ${(_a2 = q2.topicPathList) == null ? void 0 : _a2.format("|")}: ${q2.questionText.original}\r
 `;
     }
     console.debug(str);
@@ -11802,7 +12617,7 @@ var Note = class {
   }
 };
 
-// src/card.ts
+// src/card/card.ts
 var Card = class extends RepetitionItem {
   constructor(init) {
     super();
@@ -11812,17 +12627,21 @@ var Card = class extends RepetitionItem {
     return this.isNew ? 0 /* NewCard */ : 1 /* DueCard */;
   }
   formatSchedule() {
-    let result = "";
-    if (this.hasSchedule) result = this.scheduleInfo.formatCardScheduleForHtmlComment();
-    else result = "New";
-    return result;
+    return this.hasSchedule ? this.scheduleInfo.formatCardScheduleForHtmlComment() : "New";
   }
 };
 
-// src/parser.ts
-var import_clozecraft = __toESM(require_dist());
+// src/data-store-algorithm/data-store-algorithm.ts
+var DataStoreAlgorithm = class _DataStoreAlgorithm {
+  static getInstance() {
+    if (!_DataStoreAlgorithm.instance) {
+      throw new Error("there is no DataStoreAlgorithm instance.");
+    }
+    return _DataStoreAlgorithm.instance;
+  }
+};
 
-// src/question.ts
+// src/card/questions/question.ts
 var QuestionText = class _QuestionText {
   constructor(original, topicPathWithWs, actualQuestion, textDirection, blockId) {
     this.original = original;
@@ -11842,20 +12661,19 @@ var QuestionText = class _QuestionText {
   static splitText(original, settings) {
     const originalWithoutSR = DataStore.getInstance().questionRemoveScheduleInfo(original);
     let actualQuestion = originalWithoutSR.trimEnd();
-    let topicPathWithWs = null;
-    let blockId = null;
+    let topicPathWithWs;
     const topicPath = TopicPath.getTopicPathFromCardText(originalWithoutSR);
     if (topicPath == null ? void 0 : topicPath.hasPath) {
       const [preTopicPathWs, cardText2] = stringTrimStart(originalWithoutSR);
       const cardText3 = cardText2.replaceAll(OBSIDIAN_TAG_AT_STARTOFLINE_REGEX, "");
-      let postTopicPathWs = null;
+      let postTopicPathWs;
       [postTopicPathWs, actualQuestion] = stringTrimStart(cardText3);
       if (!settings.convertFoldersToDecks) {
         topicPathWithWs = new TopicPathWithWs(topicPath, preTopicPathWs, postTopicPathWs);
       }
     }
-    [actualQuestion, blockId] = this.extractObsidianBlockId(actualQuestion);
-    return [topicPathWithWs, actualQuestion, blockId];
+    const [strippedQuestion, blockId] = this.extractObsidianBlockId(actualQuestion);
+    return [topicPathWithWs, strippedQuestion, blockId];
   }
   static extractObsidianBlockId(text) {
     let question = text;
@@ -11976,136 +12794,8 @@ ${scheduleHtml}`;
   }
 };
 
-// src/parser.ts
-var debugParser = false;
-function setDebugParser(value) {
-  debugParser = value;
-}
-var ParsedQuestionInfo = class {
-  constructor(cardType, text, firstLineNum, lastLineNum) {
-    this.cardType = cardType;
-    this.text = text;
-    this.firstLineNum = firstLineNum;
-    this.lastLineNum = lastLineNum;
-  }
-  isQuestionLineNum(lineNum) {
-    return lineNum >= this.firstLineNum && lineNum <= this.lastLineNum;
-  }
-};
-function markerInsideCodeBlock(text, marker, markerIndex) {
-  let goingBack = markerIndex - 1, goingForward = markerIndex + marker.length;
-  let backTicksBefore = 0, backTicksAfter = 0;
-  while (goingBack >= 0) {
-    if (text[goingBack] === "`") backTicksBefore++;
-    goingBack--;
-  }
-  while (goingForward < text.length) {
-    if (text[goingForward] === "`") backTicksAfter++;
-    goingForward++;
-  }
-  return backTicksBefore % 2 === 1 && backTicksAfter % 2 === 1;
-}
-function hasInlineMarker(text, marker) {
-  if (marker.length == 0) return false;
-  const markerIdx = text.indexOf(marker);
-  if (markerIdx === -1) return false;
-  return !markerInsideCodeBlock(text, marker, markerIdx);
-}
-function parse(text, options) {
-  if (debugParser) {
-    console.log("Text to parse:\n<<<" + text + ">>>");
-  }
-  const inlineSeparators = [
-    { separator: options.singleLineCardSeparator, type: 0 /* SingleLineBasic */ },
-    { separator: options.singleLineReversedCardSeparator, type: 1 /* SingleLineReversed */ }
-  ];
-  inlineSeparators.sort((a2, b2) => b2.separator.length - a2.separator.length);
-  const cards = [];
-  let cardText = "";
-  let cardType = null;
-  let firstLineNo = 0, lastLineNo = 0;
-  const clozecrafter = new import_clozecraft.ClozeCrafter(options.clozePatterns);
-  const lines = text.replaceAll("\r\n", "\n").split("\n");
-  for (let i2 = 0; i2 < lines.length; i2++) {
-    const currentLine = lines[i2], currentTrimmed = lines[i2].trim();
-    if (currentLine.startsWith("<!--") && !currentLine.startsWith("<!--SR:")) {
-      while (i2 + 1 < lines.length && !currentLine.includes("-->")) i2++;
-      i2++;
-      continue;
-    }
-    const isEmptyLine = currentTrimmed.length == 0;
-    const hasMultilineCardEndMarker = options.multilineCardEndMarker && currentTrimmed == options.multilineCardEndMarker;
-    if (
-      // We've probably reached the end of a card
-      isEmptyLine && !options.multilineCardEndMarker || // Empty line & we're not picking up any card
-      isEmptyLine && cardType == null || // We've reached the end of a multi line card &
-      //  we're using custom end markers
-      hasMultilineCardEndMarker
-    ) {
-      if (cardType) {
-        lastLineNo = i2 - 1;
-        cards.push(
-          new ParsedQuestionInfo(cardType, cardText.trimEnd(), firstLineNo, lastLineNo)
-        );
-        cardType = null;
-      }
-      cardText = "";
-      firstLineNo = i2 + 1;
-      continue;
-    }
-    if (cardText.length > 0) {
-      cardText += "\n";
-    }
-    cardText += currentLine.trimEnd();
-    for (const { separator, type } of inlineSeparators) {
-      if (hasInlineMarker(currentLine, separator)) {
-        cardType = type;
-        break;
-      }
-    }
-    if (cardType == 0 /* SingleLineBasic */ || cardType == 1 /* SingleLineReversed */) {
-      cardText = currentLine;
-      firstLineNo = i2;
-      if (i2 + 1 < lines.length && lines[i2 + 1].startsWith("<!--SR:")) {
-        cardText += "\n" + lines[i2 + 1];
-        i2++;
-      }
-      lastLineNo = i2;
-      cards.push(new ParsedQuestionInfo(cardType, cardText, firstLineNo, lastLineNo));
-      cardType = null;
-      cardText = "";
-    } else if (currentTrimmed === options.multilineCardSeparator) {
-      if (cardText.length > 1) {
-        cardType = 2 /* MultiLineBasic */;
-      }
-    } else if (currentTrimmed === options.multilineReversedCardSeparator) {
-      if (cardText.length > 1) {
-        cardType = 3 /* MultiLineReversed */;
-      }
-    } else if (currentLine.startsWith("```") || currentLine.startsWith("~~~")) {
-      const codeBlockClose = currentLine.match(/`+|~+/)[0];
-      while (i2 + 1 < lines.length && !lines[i2 + 1].startsWith(codeBlockClose)) {
-        i2++;
-        cardText += "\n" + lines[i2];
-      }
-      cardText += "\n" + codeBlockClose;
-      i2++;
-    } else if (cardType === null && clozecrafter.isClozeNote(currentLine)) {
-      cardType = 4 /* Cloze */;
-    }
-  }
-  if (cardType && cardText) {
-    lastLineNo = lines.length - 1;
-    cards.push(new ParsedQuestionInfo(cardType, cardText.trimEnd(), firstLineNo, lastLineNo));
-  }
-  if (debugParser) {
-    console.log("Parsed cards:\n", cards);
-  }
-  return cards;
-}
-
-// src/question-type.ts
-var import_clozecraft2 = __toESM(require_dist());
+// src/card/questions/question-type.ts
+var import_clozecraft = __toESM(require_dist());
 var CardFrontBack = class {
   // The caller is responsible for any required trimming of leading/trailing spaces
   constructor(front, back) {
@@ -12174,9 +12864,9 @@ var QuestionTypeMultiLineReversed = class {
 };
 var QuestionTypeCloze = class {
   expand(questionText, settings) {
-    const clozecrafter = new import_clozecraft2.ClozeCrafter(settings.clozePatterns);
+    const clozecrafter = new import_clozecraft.ClozeCrafter(settings.clozePatterns);
     const clozeNote = clozecrafter.createClozeNote(questionText);
-    const clozeFormatter = new QuestionTypeClozeFormatter();
+    const clozeFormatter = settings.convertClozePatternsToInputs ? new QuestionTypeClozeInputFormatter() : new QuestionTypeClozeFormatter();
     let front, back;
     const result = [];
     for (let i2 = 0; i2 < clozeNote.numCards; i2++) {
@@ -12193,6 +12883,17 @@ var QuestionTypeClozeFormatter = class {
   }
   showingAnswer(answer, _hint) {
     return `<span style='color:#2196f3'>${answer}</span>`;
+  }
+  hiding(answer, hint) {
+    return `<span style='color:var(--code-comment)'>${!hint ? "[...]" : `[${hint}]`}</span>`;
+  }
+};
+var QuestionTypeClozeInputFormatter = class {
+  asking(answer, hint) {
+    return `<span style='color:#2196f3'><input class="cloze-input" type="text" size="${!answer ? 1 : answer.length}" />${!hint ? "" : `[${hint}]`}</span>`;
+  }
+  showingAnswer(answer, _hint) {
+    return `<span class="cloze-answer" style='color:#2196f3'>${answer}</span>`;
   }
   hiding(answer, hint) {
     return `<span style='color:var(--code-comment)'>${!hint ? "[...]" : `[${hint}]`}</span>`;
@@ -12222,8 +12923,136 @@ var QuestionTypeFactory = class {
   }
 };
 
+// src/parser.ts
+var import_clozecraft2 = __toESM(require_dist());
+var debugParser = false;
+function setDebugParser(value) {
+  debugParser = value;
+}
+var ParsedQuestionInfo = class {
+  constructor(cardType, text, firstLineNum, lastLineNum) {
+    this.cardType = cardType;
+    this.text = text;
+    this.firstLineNum = firstLineNum;
+    this.lastLineNum = lastLineNum;
+  }
+  isQuestionLineNum(lineNum) {
+    return lineNum >= this.firstLineNum && lineNum <= this.lastLineNum;
+  }
+};
+function markerInsideCodeBlock(text, marker, markerIndex) {
+  let goingBack = markerIndex - 1, goingForward = markerIndex + marker.length;
+  let backTicksBefore = 0, backTicksAfter = 0;
+  while (goingBack >= 0) {
+    if (text[goingBack] === "`") backTicksBefore++;
+    goingBack--;
+  }
+  while (goingForward < text.length) {
+    if (text[goingForward] === "`") backTicksAfter++;
+    goingForward++;
+  }
+  return backTicksBefore % 2 === 1 && backTicksAfter % 2 === 1;
+}
+function hasInlineMarker(text, marker) {
+  if (marker.length === 0) return false;
+  const markerIdx = text.indexOf(marker);
+  if (markerIdx === -1) return false;
+  return !markerInsideCodeBlock(text, marker, markerIdx);
+}
+function parse(text, options) {
+  if (debugParser) {
+    console.log("Text to parse:\n<<<" + text + ">>>");
+  }
+  const inlineSeparators = [
+    { separator: options.singleLineCardSeparator, type: 0 /* SingleLineBasic */ },
+    { separator: options.singleLineReversedCardSeparator, type: 1 /* SingleLineReversed */ }
+  ];
+  inlineSeparators.sort((a2, b2) => b2.separator.length - a2.separator.length);
+  const cards = [];
+  let cardText = "";
+  let cardType = null;
+  let firstLineNo = 0, lastLineNo;
+  const clozecrafter = new import_clozecraft2.ClozeCrafter(options.clozePatterns);
+  const lines = text.replaceAll("\r\n", "\n").split("\n");
+  for (let i2 = 0; i2 < lines.length; i2++) {
+    const currentLine = lines[i2], currentTrimmed = lines[i2].trim();
+    if (currentLine.startsWith("<!--") && !currentLine.startsWith("<!--SR:")) {
+      while (i2 + 1 < lines.length && !currentLine.includes("-->")) i2++;
+      i2++;
+      continue;
+    }
+    const isEmptyLine = currentTrimmed.length === 0;
+    const hasMultilineCardEndMarker = options.multilineCardEndMarker && currentTrimmed === options.multilineCardEndMarker;
+    if (
+      // We've probably reached the end of a card
+      isEmptyLine && !options.multilineCardEndMarker || // Empty line & we're not picking up any card
+      isEmptyLine && cardType === null || // We've reached the end of a multi line card &
+      //  we're using custom end markers
+      hasMultilineCardEndMarker
+    ) {
+      if (cardType) {
+        lastLineNo = i2 - 1;
+        cards.push(
+          new ParsedQuestionInfo(cardType, cardText.trimEnd(), firstLineNo, lastLineNo)
+        );
+        cardType = null;
+      }
+      cardText = "";
+      firstLineNo = i2 + 1;
+      continue;
+    }
+    if (cardText.length > 0) {
+      cardText += "\n";
+    }
+    cardText += currentLine.trimEnd();
+    for (const { separator, type } of inlineSeparators) {
+      if (hasInlineMarker(currentLine, separator)) {
+        cardType = type;
+        break;
+      }
+    }
+    if (cardType === 0 /* SingleLineBasic */ || cardType === 1 /* SingleLineReversed */) {
+      cardText = currentLine;
+      firstLineNo = i2;
+      if (i2 + 1 < lines.length && lines[i2 + 1].startsWith("<!--SR:")) {
+        cardText += "\n" + lines[i2 + 1];
+        i2++;
+      }
+      lastLineNo = i2;
+      cards.push(new ParsedQuestionInfo(cardType, cardText, firstLineNo, lastLineNo));
+      cardType = null;
+      cardText = "";
+    } else if (currentTrimmed === options.multilineCardSeparator) {
+      if (cardText.length > 1) {
+        cardType = 2 /* MultiLineBasic */;
+      }
+    } else if (currentTrimmed === options.multilineReversedCardSeparator) {
+      if (cardText.length > 1) {
+        cardType = 3 /* MultiLineReversed */;
+      }
+    } else if (currentLine.startsWith("```") || currentLine.startsWith("~~~")) {
+      const codeBlockClose = currentLine.match(/`+|~+/)[0];
+      while (i2 + 1 < lines.length && !lines[i2 + 1].startsWith(codeBlockClose)) {
+        i2++;
+        cardText += "\n" + lines[i2];
+      }
+      cardText += "\n" + codeBlockClose;
+      i2++;
+    } else if (cardType === null && clozecrafter.isClozeNote(currentLine)) {
+      cardType = 4 /* Cloze */;
+    }
+  }
+  if (cardType && cardText) {
+    lastLineNo = lines.length - 1;
+    cards.push(new ParsedQuestionInfo(cardType, cardText.trimEnd(), firstLineNo, lastLineNo));
+  }
+  if (debugParser) {
+    console.log("Parsed cards:\n", cards);
+  }
+  return cards;
+}
+
 // src/settings.ts
-var import_obsidian3 = require("obsidian");
 var DEFAULT_SETTINGS = {
   // flashcards
   flashcardTags: ["#flashcards"],
@@ -12232,6 +13061,7 @@ var DEFAULT_SETTINGS = {
   randomizeCardOrder: null,
   flashcardCardOrder: "DueFirstRandom",
   flashcardDeckOrder: "PrevDeckComplete_Sequential",
+  convertClozePatternsToInputs: false,
   convertHighlightsToClozes: true,
   convertBoldTextToClozes: false,
   convertCurlyBracketsToClozes: false,
@@ -12256,13 +13086,16 @@ var DEFAULT_SETTINGS = {
   initiallyExpandAllSubdecksInTree: false,
   showContextInCards: true,
   showIntervalInReviewButtons: true,
-  flashcardHeightPercentage: import_obsidian3.Platform.isMobile ? 100 : 80,
-  flashcardWidthPercentage: import_obsidian3.Platform.isMobile ? 100 : 40,
+  flashcardHeightPercentage: 60,
+  flashcardWidthPercentage: 60,
+  flashcardHeightPercentageMobile: 100,
+  flashcardWidthPercentageMobile: 100,
   flashcardEasyText: t("EASY"),
   flashcardGoodText: t("GOOD"),
   flashcardHardText: t("HARD"),
   reviewButtonDelay: 0,
   openViewInNewTab: false,
+  openViewInNewTabMobile: false,
   // algorithm
   algorithm: "SM-2-OSR" /* SM_2_OSR */,
   baseEase: 250,
@@ -12271,6 +13104,7 @@ var DEFAULT_SETTINGS = {
   loadBalance: true,
   maximumInterval: 36525,
   maxLinkFactor: 1,
+  startOfDay: "00:00:00",
   // storage
   dataStore: "NOTES" /* NOTES */,
   cardCommentOnSameLine: false,
@@ -12279,12 +13113,12 @@ var DEFAULT_SETTINGS = {
   showParserDebugMessages: false
 };
 function upgradeSettings(settings) {
-  if (settings.randomizeCardOrder != null && settings.flashcardCardOrder == null && settings.flashcardDeckOrder == null) {
+  if (settings.randomizeCardOrder !== null && settings.randomizeCardOrder !== void 0 && (settings.flashcardCardOrder === null || settings.flashcardCardOrder === void 0) && (settings.flashcardDeckOrder === null || settings.flashcardDeckOrder === void 0)) {
     settings.flashcardCardOrder = settings.randomizeCardOrder ? "DueFirstRandom" : "DueFirstSequential";
     settings.flashcardDeckOrder = "PrevDeckComplete_Sequential";
     settings.randomizeCardOrder = null;
   }
-  if (settings.clozePatterns == null) {
+  if (settings.clozePatterns === null || settings.clozePatterns === void 0) {
     settings.clozePatterns = [];
     if (settings.convertHighlightsToClozes)
       settings.clozePatterns.push("==[123;;]answer[;;hint]==");
@@ -12331,7 +13165,7 @@ var SettingsUtil = class _SettingsUtil {
   }
 };
 
-// src/note-question-parser.ts
+// src/note/note-question-parser.ts
 var NoteQuestionParser = class {
   constructor(settings) {
     this.settings = settings;
@@ -12345,7 +13179,7 @@ var NoteQuestionParser = class {
       const tagCompleteList = noteFile.getAllTagsFromText();
       [this.frontmatterText, this.contentText] = splitNoteIntoFrontmatterAndContent(noteText);
       let textDirection = noteFile.getTextDirection();
-      if (textDirection == 0 /* Unspecified */) textDirection = defaultTextDirection;
+      if (textDirection === 0 /* Unspecified */) textDirection = defaultTextDirection;
       this.questionList = this.doCreateQuestionList(
         noteText,
         textDirection,
@@ -12469,7 +13303,7 @@ var NoteQuestionParser = class {
   determineFrontmatterTopicPathList(flashcardTagList, frontmatterLineCount) {
     let result = null;
     const noteLevelTagList = flashcardTagList.filter(
-      (item) => item.position.start.line == frontmatterTagPseudoLineNum && this.isNoteLevelFlashcardTag(item)
+      (item) => item.position.start.line === frontmatterTagPseudoLineNum && this.isNoteLevelFlashcardTag(item)
     );
     if (noteLevelTagList.length > 0) {
       if (this.frontmatterText) {
@@ -12493,9 +13327,9 @@ var NoteQuestionParser = class {
     );
     let list = [];
     for (const tag of contentTagCacheList) {
-      if (list.length != 0) {
+      if (list.length !== 0) {
         const startLineNum = list[0].position.start.line;
-        if (startLineNum != tag.position.start.line) {
+        if (startLineNum !== tag.position.start.line) {
           result.push(this.createTopicPathList(list, startLineNum));
           list = [];
         }
@@ -12561,7 +13395,7 @@ var NoteQuestionParser = class {
   }
 };
 
-// src/note-file-loader.ts
+// src/note/note-file-loader.ts
 var NoteFileLoader = class {
   constructor(settings) {
     this.settings = settings;
@@ -12584,7 +13418,7 @@ var NoteFileLoader = class {
 // src/core.ts
 var OsrCore = class {
   constructor() {
-    this._reviewableDeckTree = new Deck2("root", null);
+    this._reviewableDeckTree = new Deck("root", null);
   }
   get noteReviewQueue() {
     return this._noteReviewQueue;
@@ -12615,14 +13449,28 @@ var OsrCore = class {
     this._questionPostponementList = questionPostponementList;
     this._dueDateFlashcardHistogram = new CardDueDateHistogram();
     this._dueDateNoteHistogram = new NoteDueDateHistogram();
+    try {
+      const startOfDayElements = this.settings.startOfDay.split(":");
+      if (startOfDayElements.length !== 3) {
+        throw new Error("Invalid format for start of day");
+      }
+      const dayBoundary = {
+        hour: parseInt(startOfDayElements[0]),
+        minute: parseInt(startOfDayElements[1]),
+        second: parseInt(startOfDayElements[2])
+      };
+      globalDateProvider.setDayBoundary(dayBoundary);
+    } catch (e2) {
+      console.error("Invalid format for start of day", e2);
+    }
   }
   loadInit() {
     this.osrNoteGraph = new OsrNoteGraph(this.osrNoteLinkInfoFinder);
     this._noteReviewQueue.init();
-    this.fullDeckTree = new Deck2("root", null);
+    this.fullDeckTree = new Deck("root", null);
   }
   async processFile(noteFile) {
-    const schedule = await DataStoreAlgorithm.getInstance().noteGetSchedule(noteFile);
+    const schedule = await noteFile.getNoteSchedule();
     let note = null;
     this.osrNoteGraph.processLinks(noteFile.path);
     const topicPath = this.findTopicPath(noteFile);
@@ -12633,10 +13481,10 @@ var OsrCore = class {
     SrsAlgorithm.getInstance().noteOnLoadedNote(noteFile.path, note, schedule == null ? void 0 : schedule.latestEase);
     const tags = noteFile.getAllTagsFromCache();
     const matchedNoteTags = SettingsUtil.filterForNoteReviewTag(this.settings, tags);
-    if (matchedNoteTags.length == 0) {
+    if (matchedNoteTags.length === 0) {
       return;
     }
-    const noteSchedule = await DataStoreAlgorithm.getInstance().noteGetSchedule(noteFile);
+    const noteSchedule = await noteFile.getNoteSchedule();
     this._noteReviewQueue.addNoteToQueue(noteFile, noteSchedule, matchedNoteTags);
   }
   finaliseLoad() {
@@ -12655,9 +13503,9 @@ var OsrCore = class {
     if (this.dataChangedHandler) this.dataChangedHandler();
   }
   async saveNoteReviewResponse(noteFile, response, settings) {
-    const originalNoteSchedule = await DataStoreAlgorithm.getInstance().noteGetSchedule(noteFile);
+    const originalNoteSchedule = await noteFile.getNoteSchedule();
     let noteSchedule;
-    if (originalNoteSchedule == null) {
+    if (originalNoteSchedule === null) {
       noteSchedule = SrsAlgorithm.getInstance().noteCalcNewSchedule(
         noteFile.path,
         this.osrNoteGraph,
@@ -12672,7 +13520,7 @@ var OsrCore = class {
         this._dueDateNoteHistogram
       );
     }
-    await DataStoreAlgorithm.getInstance().noteSetSchedule(noteFile, noteSchedule);
+    await noteFile.setNoteSchedule(noteSchedule);
     this._noteReviewQueue.updateScheduleInfo(noteFile, noteSchedule);
     this.calculateDerivedInfo();
     await this.buryAllCardsInNote(settings, noteFile);
@@ -12740,63 +13588,14 @@ var OsrAppCore = class extends OsrCore {
     }
   }
   createSrTFile(note) {
-    return new SrTFile(this.app.vault, this.app.metadataCache, note);
+    return new SrTFile(this.app.vault, this.app.metadataCache, this.app.fileManager, note);
   }
 };
 
 // src/data-store-algorithm/data-store-in-note-algorithm-osr.ts
-var import_moment3 = __toESM(require_moment());
 var DataStoreInNoteAlgorithmOsr = class {
   constructor(settings) {
     this.settings = settings;
-  }
-  async noteGetSchedule(note) {
-    let result = null;
-    const frontmatter = await note.getFrontmatter();
-    if (frontmatter && frontmatter.has("sr-due") && frontmatter.has("sr-interval") && frontmatter.has("sr-ease")) {
-      const dueDate = (0, import_moment3.default)(frontmatter.get("sr-due"), ALLOWED_DATE_FORMATS);
-      const interval = parseFloat(frontmatter.get("sr-interval"));
-      const ease = parseFloat(frontmatter.get("sr-ease"));
-      result = new RepItemScheduleInfoOsr(dueDate, interval, ease);
-    }
-    return result;
-  }
-  async noteSetSchedule(note, repItemScheduleInfo) {
-    let fileText = await note.read();
-    const schedInfo = repItemScheduleInfo;
-    const dueString = formatDateYYYYMMDD(schedInfo.dueDate);
-    const interval = schedInfo.interval;
-    const ease = schedInfo.latestEase;
-    if (SCHEDULING_INFO_REGEX.test(fileText)) {
-      const schedulingInfo = SCHEDULING_INFO_REGEX.exec(fileText);
-      fileText = fileText.replace(
-        SCHEDULING_INFO_REGEX,
-        `---
-${schedulingInfo[1]}sr-due: ${dueString}
-sr-interval: ${interval}
-sr-ease: ${ease}
-${schedulingInfo[5]}---`
-      );
-    } else if (YAML_FRONT_MATTER_REGEX.test(fileText)) {
-      const existingYaml = YAML_FRONT_MATTER_REGEX.exec(fileText);
-      fileText = fileText.replace(
-        YAML_FRONT_MATTER_REGEX,
-        `---
-${existingYaml[1]}sr-due: ${dueString}
-sr-interval: ${interval}
-sr-ease: ${ease}
----`
-      );
-    } else {
-      fileText = `---
-sr-due: ${dueString}
-sr-interval: ${interval}
-sr-ease: ${ease}
----
-
-${fileText}`;
-    }
-    await note.write(fileText);
   }
   questionFormatScheduleAsHtmlComment(question) {
     let result = SR_HTML_COMMENT_BEGIN;
@@ -12839,7 +13638,7 @@ var StoreInNotes = class {
       const ease = parseInt(match2[3]);
       const dueDate = DateUtil.dateStrToMoment(dueDateStr);
       let info;
-      if (dueDate == null || formatDateYYYYMMDD(dueDate) == RepItemScheduleInfoOsr.dummyDueDateForNewCard) {
+      if (dueDate === null || formatDateYYYYMMDD(dueDate) === RepItemScheduleInfoOsr.dummyDueDateForNewCard) {
         info = null;
       } else {
         const delayBeforeReviewTicks = dueDate.valueOf() - globalDateProvider.today.valueOf();
@@ -12863,19 +13662,514 @@ var StoreInNotes = class {
   }
 };
 
-// src/gui/obsidian-views/sr-modal-view.tsx
-var import_obsidian13 = require("obsidian");
-
-// src/gui/content-container/card-container/card-container.tsx
-var import_moment4 = __toESM(require_moment());
-var import_obsidian10 = require("obsidian");
-
-// src/gui/content-container/card-container/controls/card-info-notice.tsx
+// src/note/next-note-review-handler.ts
 var import_obsidian4 = require("obsidian");
-var CardInfoNotice = class extends import_obsidian4.Notice {
+
+// src/ui/obsidian-ui-components/modals/review-deck-selection-modal.tsx
+var import_obsidian3 = require("obsidian");
+var ReviewDeckSelectionModal = class extends import_obsidian3.FuzzySuggestModal {
+  constructor(app, deckKeys) {
+    super(app);
+    this.deckKeys = [];
+    this.deckKeys = deckKeys;
+  }
+  getItems() {
+    return this.deckKeys;
+  }
+  getItemText(item) {
+    return item;
+  }
+  onChooseItem(deckKey, _2) {
+    this.close();
+    this.submitCallback(deckKey);
+  }
+};
+
+// src/note/next-note-review-handler.ts
+var NextNoteReviewHandler = class {
+  get lastSelectedReviewDeck() {
+    return this._lastSelectedReviewDeck;
+  }
+  get noteReviewQueue() {
+    return this._noteReviewQueue;
+  }
+  constructor(app, settings, noteReviewQueue) {
+    this.app = app;
+    this.settings = settings;
+    this._noteReviewQueue = noteReviewQueue;
+  }
+  async autoReviewNextNote() {
+    if (this.settings.autoNextNote) {
+      if (!this._lastSelectedReviewDeck) {
+        const reviewDeckKeys = this._noteReviewQueue.reviewDeckNameList;
+        if (reviewDeckKeys.length > 0) this._lastSelectedReviewDeck = reviewDeckKeys[0];
+        else {
+          new import_obsidian4.Notice(t("ALL_CAUGHT_UP"));
+          return;
+        }
+      }
+      this.reviewNextNote(this._lastSelectedReviewDeck);
+    }
+  }
+  async reviewNextNoteModal() {
+    const reviewDeckNames = this._noteReviewQueue.reviewDeckNameList;
+    if (reviewDeckNames.length === 1) {
+      this.reviewNextNote(reviewDeckNames[0]);
+    } else {
+      const deckSelectionModal = new ReviewDeckSelectionModal(this.app, reviewDeckNames);
+      deckSelectionModal.submitCallback = (deckKey) => this.reviewNextNote(deckKey);
+      deckSelectionModal.open();
+    }
+  }
+  async reviewNextNote(deckKey) {
+    if (!this._noteReviewQueue.reviewDeckNameList.contains(deckKey)) {
+      new import_obsidian4.Notice(t("NO_DECK_EXISTS", { deckName: deckKey }));
+      return;
+    }
+    this._lastSelectedReviewDeck = deckKey;
+    const deck = this._noteReviewQueue.reviewDecks.get(deckKey);
+    const notefile = deck.determineNextNote(this.settings.openRandomNote);
+    if (notefile) {
+      await this.openNote(deckKey, notefile.tfile);
+    } else {
+      new import_obsidian4.Notice(t("ALL_CAUGHT_UP"));
+    }
+  }
+  async openNote(deckName, file) {
+    this._lastSelectedReviewDeck = deckName;
+    await this.app.workspace.getLeaf().openFile(file);
+  }
+};
+
+// src/note/note-review-deck.ts
+var SchedNote = class {
+  constructor(note, dueUnix) {
+    this.note = note;
+    this.dueUnix = dueUnix;
+  }
+  isDue(todayUnix) {
+    return this.dueUnix <= todayUnix;
+  }
+};
+var NoteReviewDeck = class {
+  constructor(name) {
+    this._newNotes = [];
+    this._scheduledNotes = [];
+    this._dueNotesCount = 0;
+    this._deckName = name;
+    this._activeFolders = /* @__PURE__ */ new Set([this._deckName, t("TODAY")]);
+  }
+  get deckName() {
+    return this._deckName;
+  }
+  get newNotes() {
+    return this._newNotes;
+  }
+  get scheduledNotes() {
+    return this._scheduledNotes;
+  }
+  get dueNotesCount() {
+    return this._dueNotesCount;
+  }
+  get activeFolders() {
+    return this._activeFolders;
+  }
+  calcDueNotesCount(todayUnix) {
+    this._dueNotesCount = 0;
+    this.scheduledNotes.forEach((scheduledNote) => {
+      if (scheduledNote.isDue(todayUnix)) {
+        this._dueNotesCount++;
+      }
+    });
+  }
+  sortNotesByDateAndImportance(pageranks) {
+    this._newNotes = this.newNotes.sort(
+      (a2, b2) => (pageranks[b2.path] || 0) - (pageranks[a2.path] || 0)
+    );
+    this._scheduledNotes = this.scheduledNotes.sort((a2, b2) => {
+      const result = a2.dueUnix - b2.dueUnix;
+      if (result !== 0) {
+        return result;
+      }
+      return (pageranks[b2.note.path] || 0) - (pageranks[a2.note.path] || 0);
+    });
+  }
+  determineNextNote(openRandomNote) {
+    const todayUnix = globalDateProvider.today.valueOf();
+    const dueNotes = this.scheduledNotes.filter((note) => note.isDue(todayUnix));
+    if (dueNotes.length > 0) {
+      const index = openRandomNote ? globalRandomNumberProvider.getInteger(0, dueNotes.length - 1) : 0;
+      return dueNotes[index].note;
+    }
+    if (this.newNotes.length > 0) {
+      const index = openRandomNote ? globalRandomNumberProvider.getInteger(0, this.newNotes.length - 1) : 0;
+      return this.newNotes[index];
+    }
+    return null;
+  }
+};
+
+// src/note/note-review-queue.ts
+var NoteReviewQueue = class {
+  get reviewDecks() {
+    return this._reviewDecks;
+  }
+  get dueNotesCount() {
+    return this._dueNotesCount;
+  }
+  get reviewDeckNameList() {
+    return [...this._reviewDecks.keys()];
+  }
+  init() {
+    this._reviewDecks = /* @__PURE__ */ new Map();
+  }
+  calcDueNotesCount(todayUnix) {
+    this._dueNotesCount = 0;
+    this._reviewDecks.forEach((reviewDeck) => {
+      reviewDeck.calcDueNotesCount(todayUnix);
+      this._dueNotesCount += reviewDeck.dueNotesCount;
+    });
+  }
+  addNoteToQueue(noteFile, noteSchedule, matchedNoteTags) {
+    for (const matchedNoteTag of matchedNoteTags) {
+      if (!this.reviewDecks.has(matchedNoteTag)) {
+        this.reviewDecks.set(matchedNoteTag, new NoteReviewDeck(matchedNoteTag));
+      }
+    }
+    if (noteSchedule === null) {
+      for (const matchedNoteTag of matchedNoteTags) {
+        this.reviewDecks.get(matchedNoteTag).newNotes.push(noteFile);
+      }
+    } else {
+      for (const matchedNoteTag of matchedNoteTags) {
+        this.reviewDecks.get(matchedNoteTag).scheduledNotes.push(new SchedNote(noteFile, noteSchedule.dueDateAsUnix));
+      }
+    }
+  }
+  updateScheduleInfo(note, scheduleInfo) {
+    for (const reviewDeck of this.reviewDecks.values()) {
+      const isNewNoteInDeck = reviewDeck.newNotes.some(
+        (newNote) => newNote.path === note.path
+      );
+      const isScheduledNoteInDeck = reviewDeck.scheduledNotes.some(
+        (scheduledNote) => scheduledNote.note.path === note.path
+      );
+      const isInDeck = isNewNoteInDeck || isScheduledNoteInDeck;
+      if (!isInDeck) continue;
+      if (isNewNoteInDeck) {
+        const indexOfNote = reviewDeck.newNotes.findIndex(
+          (newNote) => newNote.path === note.path
+        );
+        reviewDeck.newNotes.splice(indexOfNote, 1);
+        reviewDeck.scheduledNotes.push(new SchedNote(note, scheduleInfo.dueDate.valueOf()));
+      } else if (isScheduledNoteInDeck) {
+        const scheduledNote = reviewDeck.scheduledNotes.find(
+          (scheduledNote2) => scheduledNote2.note.path === note.path
+        );
+        scheduledNote.dueUnix = scheduleInfo.dueDate.valueOf();
+      }
+      break;
+    }
+  }
+};
+
+// src/plugin-data.ts
+var DEFAULT_DATA = {
+  settings: DEFAULT_SETTINGS,
+  buryDate: "",
+  buryList: [],
+  historyDeck: null
+};
+
+// src/ui/obsidian-ui-components/item-views/review-queue-list-view.tsx
+var import_obsidian5 = require("obsidian");
+var REVIEW_QUEUE_VIEW_TYPE = "review-queue-list-view";
+var ReviewQueueListView = class extends import_obsidian5.ItemView {
+  get noteReviewQueue() {
+    return this.nextNoteReviewHandler.noteReviewQueue;
+  }
+  constructor(leaf, nextNoteReviewHandler, settings, plugin) {
+    super(leaf);
+    this.nextNoteReviewHandler = nextNoteReviewHandler;
+    this.settings = settings;
+    this.plugin = plugin;
+    if (this.settings.enableNoteReviewPaneOnStartup) {
+      this.registerEvent(this.app.workspace.on("file-open", () => this.redraw()));
+      this.registerEvent(this.app.vault.on("rename", () => this.redraw()));
+    }
+  }
+  getViewType() {
+    return REVIEW_QUEUE_VIEW_TYPE;
+  }
+  getDisplayText() {
+    return t("NOTES_REVIEW_QUEUE");
+  }
+  getIcon() {
+    return "SpacedRepIcon";
+  }
+  onHeaderMenu(menu) {
+    menu.addItem((item) => {
+      item.setTitle(t("CLOSE")).setIcon("cross").onClick(() => {
+        this.app.workspace.detachLeavesOfType(REVIEW_QUEUE_VIEW_TYPE);
+      });
+    });
+  }
+  redraw() {
+    if (!this.noteReviewQueue.reviewDecks) return;
+    this.contentEl.empty();
+    this.contentEl.addClass("sr-note-review-page");
+    this.headerEl = this.contentEl.createDiv("sr-note-review-header");
+    const titleWrapper = this.headerEl.createDiv("sr-note-review-header-title-wrapper");
+    const titleIcon = titleWrapper.createDiv("sr-note-review-header-title-icon");
+    (0, import_obsidian5.setIcon)(titleIcon, "lucide-file-clock");
+    titleWrapper.createDiv("sr-note-review-header-title").setText(t("OPEN_NOTE_FOR_REVIEW"));
+    const subTitleWrapper = this.contentEl.createDiv("sr-note-review-header-subtitle-wrapper");
+    subTitleWrapper.createDiv("sr-note-review-header-subtitle").setText(t("NOTE_REVIEW_QUEUE_HINT"));
+    this.treeEl = this.contentEl.createDiv("tree-item nav-folder mod-root");
+    this.createTree(this.treeEl);
+  }
+  createTree(parentEl) {
+    const childrenEl = parentEl.createDiv(
+      "tree-item-children nav-folder-children"
+    );
+    for (const [deckKey, deck] of this.noteReviewQueue.reviewDecks) {
+      const deckCollapsed = !deck.activeFolders.has(deck.deckName);
+      this.createDeckTreeItem(childrenEl, deckKey, deck, deckCollapsed);
+    }
+  }
+  createDeckTreeItem(parentEl, deckKey, deck, deckCollapsed) {
+    const deckFolderEl = this.createFolder(
+      parentEl,
+      deckKey,
+      deckCollapsed,
+      false,
+      deck
+    ).getElementsByClassName("tree-item-children nav-folder-children")[0];
+    if (deck.newNotes.length > 0) {
+      this.createNewNotesFolder(deckFolderEl, deck, deckCollapsed);
+    }
+    if (deck.scheduledNotes.length > 0) {
+      this.createScheduledNotesFolder(deckFolderEl, deck, deckCollapsed);
+    }
+  }
+  createNewNotesFolder(parentEl, deck, deckCollapsed) {
+    const activeFile = this.app.workspace.getActiveFile();
+    const newNotesFolderEl = this.createFolder(
+      parentEl,
+      t("NEW"),
+      !deck.activeFolders.has(t("NEW")),
+      deckCollapsed,
+      deck
+    );
+    for (const newFile of deck.newNotes) {
+      const fileIsOpen = activeFile !== void 0 && activeFile !== null && newFile.path === activeFile.path;
+      if (fileIsOpen) {
+        deck.activeFolders.add(deck.deckName);
+        deck.activeFolders.add(t("NEW"));
+        this.changeFolderFolding(newNotesFolderEl);
+        this.changeFolderFolding(parentEl);
+      }
+      this.createFile(
+        newNotesFolderEl,
+        newFile.tfile,
+        fileIsOpen,
+        !deck.activeFolders.has(t("NEW")),
+        deck
+      );
+    }
+  }
+  createScheduledNotesFolder(parentEl, deck, deckCollapsed) {
+    const activeFile = this.app.workspace.getActiveFile();
+    const now2 = Date.now();
+    let currUnix = -1;
+    let schedFolderEl = null, folderTitle = "";
+    const maxDaysToRender = this.settings.maxNDaysNotesReviewQueue;
+    for (const sNote of deck.scheduledNotes) {
+      if (sNote.dueUnix !== currUnix) {
+        const nDays = Math.ceil((sNote.dueUnix - now2) / TICKS_PER_DAY);
+        if (nDays > maxDaysToRender) {
+          break;
+        }
+        if (nDays === -1) {
+          folderTitle = t("YESTERDAY");
+        } else if (nDays === 0) {
+          folderTitle = t("TODAY");
+        } else if (nDays === 1) {
+          folderTitle = t("TOMORROW");
+        } else {
+          folderTitle = new Date(sNote.dueUnix).toDateString();
+        }
+        schedFolderEl = this.createFolder(
+          parentEl,
+          folderTitle,
+          !deck.activeFolders.has(folderTitle),
+          deckCollapsed,
+          deck
+        );
+        currUnix = sNote.dueUnix;
+      }
+      const fileIsOpen = activeFile && sNote.note.path === activeFile.path;
+      if (fileIsOpen) {
+        deck.activeFolders.add(deck.deckName);
+        deck.activeFolders.add(folderTitle);
+        this.changeFolderFolding(schedFolderEl);
+        this.changeFolderFolding(parentEl);
+      }
+      this.createFile(
+        schedFolderEl,
+        sNote.note.tfile,
+        fileIsOpen,
+        !deck.activeFolders.has(folderTitle),
+        deck
+      );
+    }
+  }
+  createFolder(parentEl, folderTitle, collapsed, hidden, deck) {
+    const folderEl = parentEl.createDiv("tree-item nav-folder");
+    const folderTitleEl = folderEl.createDiv("tree-item-self nav-folder-title");
+    folderTitleEl.classList.add("is-clickable");
+    const childrenEl = folderEl.createDiv(
+      "tree-item-children nav-folder-children"
+    );
+    const collapseIconEl = folderTitleEl.createDiv(
+      "tree-item-icon collapse-icon nav-folder-collapse-indicator"
+    );
+    collapseIconEl.innerHTML = COLLAPSE_ICON;
+    folderTitleEl.createDiv("tree-item-inner nav-folder-title-content").setText(folderTitle);
+    if (collapsed && !folderEl.hasClass("is-collapsed")) {
+      folderEl.addClass("is-collapsed");
+      collapseIconEl.addClass("is-collapsed");
+    } else {
+      folderEl.removeClass("is-collapsed");
+      const collapseIconEl2 = folderEl.find("div.nav-folder-collapse-indicator");
+      collapseIconEl2.removeClass("is-collapsed");
+    }
+    if (hidden) {
+      folderEl.style.display = "none";
+    }
+    folderTitleEl.onClickEvent(() => {
+      this.changeFolderFolding(folderEl, !folderEl.hasClass("is-collapsed"));
+      childrenEl.style.display = !folderEl.hasClass("is-collapsed") ? "block" : "none";
+      if (!folderEl.hasClass("is-collapsed")) {
+        deck.activeFolders.delete(folderTitle);
+      } else {
+        deck.activeFolders.add(folderTitle);
+      }
+    });
+    return folderEl;
+  }
+  createFile(folderEl, file, fileElActive, hidden, deck) {
+    const childrenEl = folderEl.getElementsByClassName(
+      "tree-item-children nav-folder-children"
+    )[0];
+    const navFileEl = childrenEl.createDiv("nav-file");
+    if (hidden) {
+      childrenEl.style.display = "none";
+    }
+    const navFileTitle = navFileEl.createDiv("tree-item-self nav-file-title");
+    navFileTitle.addClass("is-clickable");
+    if (fileElActive) {
+      navFileTitle.addClass("is-active");
+    }
+    const navFileTitleInner = navFileTitle.createDiv(
+      "tree-item-inner nav-file-title-content"
+    );
+    navFileTitleInner.setText(file.basename);
+    navFileTitleInner.addEventListener(
+      "click",
+      async (event) => {
+        event.preventDefault();
+        await this.nextNoteReviewHandler.openNote(deck.deckName, file);
+        return false;
+      },
+      false
+    );
+    const navFileContextBtn = navFileTitle.createDiv(
+      "sr-review-context-btn clickable-icon"
+    );
+    (0, import_obsidian5.setIcon)(navFileContextBtn, "ellipsis-vertical");
+    navFileContextBtn.addEventListener("click", async (event) => {
+      event.preventDefault();
+      const fileMenu = new import_obsidian5.Menu();
+      fileMenu.addItem((item) => {
+        item.setTitle(
+          t("REVIEW_DIFFICULTY_FILE_MENU", {
+            difficulty: this.plugin.data.settings.flashcardEasyText
+          })
+        ).setIcon("SpacedRepIcon").onClick(() => {
+          this.plugin.saveNoteReviewResponse(file, 0 /* Easy */);
+        });
+      });
+      fileMenu.addItem((item) => {
+        item.setTitle(
+          t("REVIEW_DIFFICULTY_FILE_MENU", {
+            difficulty: this.plugin.data.settings.flashcardGoodText
+          })
+        ).setIcon("SpacedRepIcon").onClick(() => {
+          this.plugin.saveNoteReviewResponse(file, 1 /* Good */);
+        });
+      });
+      fileMenu.addItem((item) => {
+        item.setTitle(
+          t("REVIEW_DIFFICULTY_FILE_MENU", {
+            difficulty: this.plugin.data.settings.flashcardHardText
+          })
+        ).setIcon("SpacedRepIcon").onClick(() => {
+          this.plugin.saveNoteReviewResponse(file, 2 /* Hard */);
+        });
+      });
+      fileMenu.showAtPosition({
+        x: event.pageX,
+        y: event.pageY
+      });
+      fileMenu.showAtMouseEvent(event);
+      return false;
+    });
+  }
+  changeFolderFolding(folderEl, collapsed = false) {
+    if (collapsed && !folderEl.hasClass("is-collapsed")) {
+      folderEl.addClass("is-collapsed");
+      folderEl.firstElementChild.firstElementChild.classList.add("is-collapsed");
+    } else {
+      folderEl.removeClass("is-collapsed");
+      folderEl.firstElementChild.firstElementChild.classList.remove("is-collapsed");
+    }
+  }
+};
+
+// src/ui/ui-manager.tsx
+var import_obsidian31 = require("obsidian");
+
+// src/icons/app-icon.ts
+var import_obsidian6 = require("obsidian");
+function appIcon() {
+  (0, import_obsidian6.addIcon)(
+    "SpacedRepIcon",
+    `<path fill="currentColor" stroke="currentColor" d="M 88.960938 17.257812 L 47.457031 17.257812 C 45.679688 17.257812 44.230469 18.703125 44.230469 20.484375 L 44.230469 86.558594 C 44.230469 88.335938 45.679688 89.785156 47.457031 89.785156 L 88.960938 89.785156 C 90.738281 89.785156 92.1875 88.335938 92.1875 86.558594 L 92.1875 20.484375 C 92.1875 18.703125 90.738281 17.257812 88.960938 17.257812 Z M 88.28125 85.878906 L 48.136719 85.878906 L 48.136719 21.164062 L 88.28125 21.164062 Z M 88.28125 85.878906 "/>
+        <path fill="currentColor" stroke="currentColor"  d="M 88.960938 9.445312 L 61.667969 9.445312 C 59.925781 3.816406 54.011719 0.515625 48.269531 2.054688 L 8.183594 12.796875 C 2.304688 14.371094 -1.199219 20.4375 0.378906 26.316406 L 17.476562 90.140625 C 18.796875 95.066406 23.269531 98.324219 28.144531 98.324219 C 29.085938 98.324219 30.046875 98.199219 31 97.945312 L 40.765625 95.328125 C 42.625 96.75 44.941406 97.597656 47.457031 97.597656 L 88.960938 97.597656 C 95.046875 97.597656 100 92.644531 100 86.558594 L 100 20.484375 C 100 14.398438 95.046875 9.445312 88.960938 9.445312 Z M 29.988281 94.171875 C 26.1875 95.191406 22.269531 92.925781 21.25 89.128906 L 4.152344 25.304688 C 3.132812 21.507812 5.394531 17.585938 9.195312 16.570312 L 49.28125 5.828125 C 52.578125 4.945312 55.960938 6.53125 57.464844 9.445312 L 47.457031 9.445312 C 41.371094 9.445312 36.417969 14.398438 36.417969 20.484375 L 36.417969 86.558594 C 36.417969 88.558594 36.957031 90.433594 37.890625 92.054688 Z M 96.09375 86.558594 C 96.09375 90.492188 92.894531 93.691406 88.960938 93.691406 L 47.457031 93.691406 C 43.523438 93.691406 40.324219 90.492188 40.324219 86.558594 L 40.324219 20.484375 C 40.324219 16.550781 43.523438 13.351562 47.457031 13.351562 L 88.960938 13.351562 C 92.894531 13.351562 96.09375 16.550781 96.09375 20.484375 Z M 96.09375 86.558594 "/>
+        <path fill="currentColor" stroke="currentColor"  d="M 54.101562 53.09375 L 60.070312 57.410156 L 57.789062 64.378906 C 56.90625 67.074219 59.996094 69.320312 62.285156 67.648438 L 68.210938 63.324219 L 74.132812 67.648438 C 76.421875 69.320312 79.511719 67.074219 78.628906 64.378906 L 76.347656 57.410156 L 82.320312 53.09375 C 84.613281 51.433594 83.441406 47.804688 80.605469 47.804688 L 73.242188 47.804688 L 70.988281 40.839844 C 70.117188 38.144531 66.300781 38.144531 65.429688 40.839844 L 63.179688 47.804688 L 55.8125 47.804688 C 52.980469 47.804688 51.804688 51.433594 54.101562 53.09375 Z M 54.101562 53.09375 "/>
+        `
+  );
+}
+
+// src/ui/obsidian-ui-components/item-views/sr-tab-view.tsx
+var import_obsidian18 = require("obsidian");
+
+// src/ui/obsidian-ui-components/content-container/card-container/card-container.tsx
+var import_moment4 = __toESM(require_moment());
+var import_obsidian17 = require("obsidian");
+
+// src/escape-html.ts
+function escapeHtml(s2) {
+  return s2.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+}
+
+// src/ui/obsidian-ui-components/content-container/card-container/controls/card-info-notice.tsx
+var import_obsidian7 = require("obsidian");
+var CardInfoNotice = class extends import_obsidian7.Notice {
   constructor(schedule, notePath) {
-    var _a;
-    const currentEaseStr = t("CURRENT_EASE_HELP_TEXT") + ((_a = schedule == null ? void 0 : schedule.latestEase) != null ? _a : t("NEW"));
+    var _a2;
+    const currentEaseStr = t("CURRENT_EASE_HELP_TEXT") + ((_a2 = schedule == null ? void 0 : schedule.latestEase) != null ? _a2 : t("NEW"));
     const currentIntervalStr = t("CURRENT_INTERVAL_HELP_TEXT") + textInterval(schedule == null ? void 0 : schedule.interval, false);
     const generatedFromStr = t("CARD_GENERATED_FROM", {
       notePath
@@ -12884,12 +14178,12 @@ var CardInfoNotice = class extends import_obsidian4.Notice {
   }
 };
 
-// src/gui/content-container/card-container/controls/controls.tsx
-var import_obsidian6 = require("obsidian");
+// src/ui/obsidian-ui-components/content-container/card-container/controls/controls.tsx
+var import_obsidian10 = require("obsidian");
 
-// src/gui/sr-button.tsx
-var import_obsidian5 = require("obsidian");
-var SRButtonComponent = class extends import_obsidian5.ButtonComponent {
+// src/ui/sr-button.tsx
+var import_obsidian8 = require("obsidian");
+var SRButtonComponent = class extends import_obsidian8.ButtonComponent {
   constructor(container, props) {
     super(container);
     this.setClass("sr-button");
@@ -12904,7 +14198,7 @@ var SRButtonComponent = class extends import_obsidian5.ButtonComponent {
   }
 };
 
-// src/gui/content-container/card-container/controls/back-button.tsx
+// src/ui/obsidian-ui-components/content-container/card-container/controls/back-button.tsx
 var BackButtonComponent = class extends SRButtonComponent {
   constructor(container, backToDeck, classNames) {
     super(container, {
@@ -12918,49 +14212,79 @@ var BackButtonComponent = class extends SRButtonComponent {
   }
 };
 
-// src/gui/content-container/card-container/controls/card-info-button.tsx
-var CardInfoButtonComponent = class extends SRButtonComponent {
-  constructor(container, infoClickHandler, classNames) {
+// src/ui/obsidian-ui-components/content-container/card-container/controls/menu-dots-button.tsx
+var MenuDotsButtonComponent = class extends SRButtonComponent {
+  constructor(container, openMenu, classNames) {
     super(container, {
-      classNames: ["sr-info-button", ...classNames != null ? classNames : []],
-      icon: "info",
-      tooltip: t("VIEW_CARD_INFO"),
-      onClick: () => {
-        infoClickHandler();
+      classNames: ["sr-menu-dots-button", ...classNames != null ? classNames : []],
+      icon: "ellipsis-vertical",
+      tooltip: "Open menu",
+      // TODO: Translate
+      onClick: (evt) => {
+        openMenu(evt);
       }
     });
   }
 };
 
-// src/gui/content-container/card-container/controls/edit-button.tsx
-var EditButtonComponent = class extends SRButtonComponent {
-  constructor(container, editClickHandler, classNames) {
-    super(container, {
-      classNames: ["sr-edit-button", ...classNames != null ? classNames : []],
-      icon: "edit",
-      tooltip: t("EDIT_CARD"),
-      onClick: () => {
-        editClickHandler();
-      }
-    });
+// src/ui/obsidian-ui-components/modals/confirmation-modal.tsx
+var import_obsidian9 = require("obsidian");
+var ConfirmationModal = class extends import_obsidian9.Modal {
+  /**
+   * Creates a confirmation modal.
+   * @param app - The Obsidian app instance.
+   * @param title - Title of the modal.
+   * @param description - Description text in the modal body.
+   * @param confirmationMessage - Notice message to display upon confirmation.
+   * @param onConfirm - Callback function to execute upon confirmation.
+   */
+  constructor(app, title, description, confirmationMessage, onConfirm) {
+    super(app);
+    this.setTitle(title);
+    this.titleEl.addClass("sr-confirmation-modal-header");
+    this.setContent(description);
+    this.contentEl.addClass("sr-confirmation-modal-content");
+    new import_obsidian9.Setting(this.contentEl).setClass("sr-confirmation-modal-button-container").addButton(
+      (button) => button.setButtonText(t("CONFIRM")).setClass("mod-warning").onClick(async () => {
+        if (confirmationMessage) {
+          new import_obsidian9.Notice(confirmationMessage);
+        }
+        if (onConfirm) {
+          await onConfirm();
+        }
+        this.close();
+      })
+    ).addButton(
+      (button) => button.setButtonText(t("CANCEL")).onClick(() => {
+        this.close();
+      })
+    );
   }
 };
 
-// src/gui/content-container/card-container/controls/reset-button.tsx
+// src/ui/obsidian-ui-components/content-container/card-container/controls/reset-button.tsx
 var ResetButtonComponent = class extends SRButtonComponent {
-  constructor(container, resetClickHandler, classNames) {
+  constructor(container, app, resetClickHandler, classNames) {
     super(container, {
-      classNames: ["sr-reset-button", ...classNames != null ? classNames : []],
-      icon: "refresh-cw",
+      classNames: ["sr-reset-button", "mod-warning", ...classNames != null ? classNames : []],
+      icon: "rotate-ccw",
       tooltip: t("RESET_CARD_PROGRESS"),
       onClick: () => {
-        resetClickHandler();
+        new ConfirmationModal(
+          app,
+          t("DELETE_SCHEDULING_DATA_OF_CURRENT_CARD"),
+          t("CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD"),
+          t("SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD"),
+          async () => {
+            await resetClickHandler();
+          }
+        ).open();
       }
     });
   }
 };
 
-// src/gui/content-container/card-container/controls/skip-button.tsx
+// src/ui/obsidian-ui-components/content-container/card-container/controls/skip-button.tsx
 var SkipButtonComponent = class extends SRButtonComponent {
   constructor(container, skipClickHandler, classNames) {
     super(container, {
@@ -12974,7 +14298,7 @@ var SkipButtonComponent = class extends SRButtonComponent {
   }
 };
 
-// src/gui/modal-close-button.tsx
+// src/ui/obsidian-ui-components/content-container/modal-close-button.tsx
 var ModalCloseButtonComponent = class extends SRButtonComponent {
   constructor(container, closeModal, classNames) {
     super(container, {
@@ -12999,34 +14323,49 @@ function EmulatedPlatform() {
   };
 }
 
-// src/gui/content-container/card-container/controls/controls.tsx
+// src/ui/obsidian-ui-components/content-container/card-container/controls/controls.tsx
 var ControlsComponent = class {
-  constructor(container, isModal, backToDeck, editClickHandler, processReview, displayCurrentCardInfoNotice, skipCurrentCard, closeModal) {
+  constructor(container, isModal, app, backToDeck, editClickHandler, processReview, displayCurrentCardInfoNotice, skipCurrentCard, jumpToCurrentCard, closeModal) {
     this.controls = container.createDiv();
     this.controls.addClass("sr-controls");
     this.backButton = new BackButtonComponent(this.controls, () => backToDeck(), [
-      (EmulatedPlatform().isPhone || import_obsidian6.Platform.isPhone) && isModal ? "mod-raised" : "clickable-icon"
+      (EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone) && isModal ? "mod-raised" : "clickable-icon"
     ]);
     this.controls.createDiv().addClass("sr-flex-spacer");
-    this.editButton = new EditButtonComponent(
+    this.menuDotsButton = new MenuDotsButtonComponent(
       this.controls,
-      () => editClickHandler(),
-      EmulatedPlatform().isPhone || import_obsidian6.Platform.isPhone ? ["mod-raised"] : void 0
+      (evt) => {
+        const cardMenu = new import_obsidian10.Menu();
+        cardMenu.addItem((item) => {
+          item.setTitle("Jump to card").setIcon("arrow-up-right").onClick(() => {
+            jumpToCurrentCard();
+          });
+        });
+        cardMenu.addItem((item) => {
+          item.setTitle(t("EDIT_CARD")).setIcon("pencil").onClick(() => {
+            editClickHandler();
+          });
+        });
+        cardMenu.addItem((item) => {
+          item.setTitle(t("VIEW_CARD_INFO")).setIcon("info").onClick(() => {
+            displayCurrentCardInfoNotice();
+          });
+        });
+        cardMenu.showAtMouseEvent(evt);
+      },
+      EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? ["mod-raised"] : void 0
     );
     this.resetButton = new ResetButtonComponent(
       this.controls,
-      () => processReview(3 /* Reset */),
-      EmulatedPlatform().isPhone || import_obsidian6.Platform.isPhone ? ["mod-raised"] : void 0
+      app,
+      async () => await processReview(3 /* Reset */),
+      [EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? "mod-raised" : "undefined"]
     );
-    this.infoButton = new CardInfoButtonComponent(
-      this.controls,
-      () => displayCurrentCardInfoNotice(),
-      EmulatedPlatform().isPhone || import_obsidian6.Platform.isPhone ? ["mod-raised"] : void 0
-    );
+    this.resetButton.setDisabled(true);
     this.skipButton = new SkipButtonComponent(
       this.controls,
       () => skipCurrentCard(),
-      EmulatedPlatform().isPhone || import_obsidian6.Platform.isPhone ? ["mod-raised"] : void 0
+      EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? ["mod-raised"] : void 0
     );
     this.controls.createDiv().addClass("sr-flex-spacer");
     this.modalCloseButton = new ModalCloseButtonComponent(
@@ -13035,14 +14374,17 @@ var ControlsComponent = class {
       [
         !closeModal && "sr-hide-by-scaling",
         !closeModal && "hide-height",
-        EmulatedPlatform().isPhone || import_obsidian6.Platform.isPhone ? "mod-raised" : "clickable-icon"
+        EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? "mod-raised" : "clickable-icon"
       ]
     );
   }
+  setResetButtonDisabled(disabled) {
+    this.resetButton.buttonEl.toggleClass("mod-disabled", disabled);
+  }
 };
 
-// src/gui/content-container/card-container/deck-info/info-section.tsx
-var import_obsidian7 = require("obsidian");
+// src/ui/obsidian-ui-components/content-container/card-container/deck-info/info-section.tsx
+var import_obsidian11 = require("obsidian");
 var InfoSectionComponent = class {
   constructor(container, showContextInCards, backToDeck, closeModal) {
     this.infoSection = container.createDiv();
@@ -13068,7 +14410,7 @@ var InfoSectionComponent = class {
     this.chosenDeckCardCounter.addClass("sr-chosen-deck-card-counter");
     this.chosenDeckCardCounterIcon = this.chosenDeckCardCounterWrapper.createDiv();
     this.chosenDeckCardCounterIcon.addClass("sr-chosen-deck-card-counter-icon");
-    (0, import_obsidian7.setIcon)(this.chosenDeckCardCounterIcon, "credit-card");
+    (0, import_obsidian11.setIcon)(this.chosenDeckCardCounterIcon, "credit-card");
     this.chosenDeckSubDeckCounterWrapper = this.chosenDeckCounterWrapper.createDiv();
     this.chosenDeckSubDeckCounterWrapper.addClass("sr-is-hidden");
     this.chosenDeckSubDeckCounterWrapper.addClass("sr-chosen-deck-subdeck-counter-wrapper");
@@ -13076,7 +14418,7 @@ var InfoSectionComponent = class {
     this.chosenDeckSubDeckCounter.addClass("sr-chosen-deck-subdeck-counter");
     this.chosenDeckSubDeckCounterIcon = this.chosenDeckSubDeckCounterWrapper.createDiv();
     this.chosenDeckSubDeckCounterIcon.addClass("sr-chosen-deck-subdeck-counter-icon");
-    (0, import_obsidian7.setIcon)(this.chosenDeckSubDeckCounterIcon, "layers");
+    (0, import_obsidian11.setIcon)(this.chosenDeckSubDeckCounterIcon, "layers");
     this.currentDeckInfo = this.deckProgressInfo.createDiv();
     this.currentDeckInfo.addClass("sr-is-hidden");
     this.currentDeckInfo.addClass("sr-current-deck-info");
@@ -13092,7 +14434,7 @@ var InfoSectionComponent = class {
     this.currentDeckCardCounter.addClass("sr-current-deck-card-counter");
     this.currentDeckCardCounterIcon = this.currentDeckCardCounterWrapper.createDiv();
     this.currentDeckCardCounterIcon.addClass("sr-current-deck-card-counter-icon");
-    (0, import_obsidian7.setIcon)(this.currentDeckCardCounterIcon, "credit-card");
+    (0, import_obsidian11.setIcon)(this.currentDeckCardCounterIcon, "credit-card");
     this.deckProgressInfo.createDiv().addClasses(["sr-flex-spacer", "sr-horizontal-flex-spacer"]);
     this.horizontalCloseButton = new ModalCloseButtonComponent(
       this.deckProgressInfo,
@@ -13172,15 +14514,15 @@ var InfoSectionComponent = class {
   }
 };
 
-// src/gui/content-container/card-container/response-section/response-section.tsx
-var import_obsidian8 = require("obsidian");
+// src/ui/obsidian-ui-components/content-container/card-container/response-section/response-section.tsx
+var import_obsidian12 = require("obsidian");
 
-// src/gui/content-container/card-container/response-section/sr-response-button.tsx
+// src/ui/obsidian-ui-components/content-container/card-container/response-section/sr-response-button.tsx
 var SRResponseButtonComponent = class extends SRButtonComponent {
   constructor(container, props) {
-    var _a;
+    var _a2;
     super(container, {
-      classNames: ["sr-response-button", ...(_a = props.classNames) != null ? _a : []],
+      classNames: ["sr-response-button", ...(_a2 = props.classNames) != null ? _a2 : []],
       icon: props.icon,
       tooltip: props.tooltip,
       text: props.text,
@@ -13191,7 +14533,7 @@ var SRResponseButtonComponent = class extends SRButtonComponent {
   }
 };
 
-// src/gui/content-container/card-container/response-section/response-section.tsx
+// src/ui/obsidian-ui-components/content-container/card-container/response-section/response-section.tsx
 var ResponseSectionComponent = class {
   constructor(container, settings, showAnswer, processReview) {
     this.responseEl = container.createDiv();
@@ -13278,7 +14620,7 @@ var ResponseSectionComponent = class {
     );
     const interval = schedule.interval;
     if (settings.showIntervalInReviewButtons) {
-      if (EmulatedPlatform().isMobile || import_obsidian8.Platform.isMobile) {
+      if (EmulatedPlatform().isMobile || import_obsidian12.Platform.isMobile) {
         button.setButtonText(textInterval(interval, true));
       } else {
         button.setButtonText(`${buttonName} - ${textInterval(interval, false)}`);
@@ -13289,374 +14631,15 @@ var ResponseSectionComponent = class {
   }
 };
 
-// src/utils/renderers.ts
-var import_obsidian9 = require("obsidian");
-var RenderMarkdownWrapper = class {
-  constructor(app, plugin, notePath) {
-    this.app = app;
-    this.notePath = notePath;
-    this.plugin = plugin;
-  }
-  // slightly modified version of the renderMarkdown function in
-  // https://github.com/mgmeyers/obsidian-kanban/blob/main/src/KanbanView.tsx
-  async renderMarkdownWrapper(markdownString, containerEl, textDirection, recursiveDepth = 0) {
-    if (recursiveDepth > 4) return;
-    let el;
-    if (textDirection == 2 /* Rtl */) {
-      el = containerEl.createDiv();
-      el.setAttribute("dir", "rtl");
-    } else el = containerEl;
-    import_obsidian9.MarkdownRenderer.render(this.app, markdownString, el, this.notePath, this.plugin);
-    el.findAll(".internal-embed").forEach((el2) => {
-      const link2 = this.parseLink(el2.getAttribute("src"));
-      if (!link2.target) {
-        el2.innerText = link2.text;
-      } else if (link2.target instanceof import_obsidian9.TFile) {
-        if (link2.target.extension !== "md") {
-          this.embedMediaFile(el2, link2.target);
-        } else {
-        }
-      }
-    });
-  }
-  parseLink(src) {
-    const linkComponentsRegex = /^(?<file>[^#^]+)?(?:#(?!\^)(?<heading>.+)|#\^(?<blockId>.+)|#)?$/;
-    const matched = typeof src === "string" && src.match(linkComponentsRegex);
-    const file = matched.groups.file || this.notePath;
-    const target = this.plugin.app.metadataCache.getFirstLinkpathDest(file, this.notePath);
-    return {
-      text: matched[0],
-      file: matched.groups.file,
-      heading: matched.groups.heading,
-      blockId: matched.groups.blockId,
-      target
-    };
-  }
-  embedMediaFile(el, target) {
-    el.innerText = "";
-    if (IMAGE_FORMATS.includes(target.extension)) {
-      el.createEl(
-        "img",
-        {
-          attr: {
-            src: this.plugin.app.vault.getResourcePath(target)
-          }
-        },
-        (img) => {
-          if (el.hasAttribute("width"))
-            img.setAttribute("width", el.getAttribute("width"));
-          else img.setAttribute("width", "100%");
-          if (el.hasAttribute("alt")) img.setAttribute("alt", el.getAttribute("alt"));
-          el.addEventListener(
-            "click",
-            (ev) => ev.target.style.minWidth = ev.target.style.minWidth === "100%" ? null : "100%"
-          );
-        }
-      );
-      el.addClasses(["image-embed", "is-loaded"]);
-    } else if (AUDIO_FORMATS.includes(target.extension) || VIDEO_FORMATS.includes(target.extension)) {
-      el.createEl(
-        AUDIO_FORMATS.includes(target.extension) ? "audio" : "video",
-        {
-          attr: {
-            controls: "",
-            src: this.plugin.app.vault.getResourcePath(target)
-          }
-        },
-        (audio) => {
-          if (el.hasAttribute("alt")) audio.setAttribute("alt", el.getAttribute("alt"));
-        }
-      );
-      el.addClasses(["media-embed", "is-loaded"]);
-    } else {
-      el.innerText = target.path;
-    }
-  }
-};
+// src/ui/obsidian-ui-components/modals/sr-modal-view.tsx
+var import_obsidian15 = require("obsidian");
 
-// src/gui/content-container/card-container/card-container.tsx
-var CardUI = class {
-  constructor(app, plugin, settings, reviewSequencer, reviewMode, view, backToDeck, editClickHandler, closeModal) {
-    this.totalCardsInSession = 0;
-    this.totalDecksInSession = 0;
-    this.currentDeckTotalCardsInQueue = 0;
-    this._keydownHandler = (e2) => {
-      if (document.activeElement.nodeName === "TEXTAREA" || this.mode === 3 /* Closed */ || !this.plugin.getSRInFocusState() || import_obsidian10.Platform.isMobile || // No keyboard events on mobile
-      EmulatedPlatform().isMobile) {
-        return;
-      }
-      const consumeKeyEvent = () => {
-        e2.preventDefault();
-        e2.stopPropagation();
-      };
-      switch (e2.code) {
-        case "KeyS":
-          this._skipCurrentCard();
-          consumeKeyEvent();
-          break;
-        case "Enter":
-        case "NumpadEnter":
-        case "Space":
-          if (this.mode === 1 /* Front */) {
-            this._showAnswer();
-            consumeKeyEvent();
-          } else if (this.mode === 2 /* Back */) {
-            this._processReview(1 /* Good */);
-            consumeKeyEvent();
-          }
-          break;
-        case "Numpad1":
-        case "Digit1":
-          if (this.mode !== 2 /* Back */) {
-            break;
-          }
-          this._processReview(2 /* Hard */);
-          consumeKeyEvent();
-          break;
-        case "Numpad2":
-        case "Digit2":
-          if (this.mode !== 2 /* Back */) {
-            break;
-          }
-          this._processReview(1 /* Good */);
-          consumeKeyEvent();
-          break;
-        case "Numpad3":
-        case "Digit3":
-          if (this.mode !== 2 /* Back */) {
-            break;
-          }
-          this._processReview(0 /* Easy */);
-          consumeKeyEvent();
-          break;
-        case "Numpad0":
-        case "Digit0":
-          if (this.mode !== 2 /* Back */) {
-            break;
-          }
-          this._processReview(3 /* Reset */);
-          consumeKeyEvent();
-          break;
-        default:
-          break;
-      }
-    };
-    this.app = app;
-    this.plugin = plugin;
-    this.settings = settings;
-    this.reviewSequencer = reviewSequencer;
-    this.reviewMode = reviewMode;
-    this.backToDeck = backToDeck;
-    this.editClickHandler = editClickHandler;
-    this.view = view;
-    this.chosenDeck = null;
-    this.closeModal = closeModal;
-    this.init();
-  }
-  // #region -> public methods
-  /**
-   * Initializes all static elements in the FlashcardView
-   */
-  init() {
-    this.view.addClasses(["sr-container", "sr-card-container", "sr-is-hidden"]);
-    this.controls = new ControlsComponent(
-      this.view,
-      !this.settings.openViewInNewTab,
-      () => this.backToDeck(),
-      () => this.editClickHandler(),
-      (response) => this._processReview(response),
-      () => this._displayCurrentCardInfoNotice(),
-      () => this._skipCurrentCard(),
-      this.closeModal ? this.closeModal.bind(this) : void 0
-    );
-    this.mainWrapper = this.view.createDiv();
-    this.mainWrapper.addClass("sr-main-wrapper");
-    this.infoSection = new InfoSectionComponent(
-      this.mainWrapper,
-      this.settings.showContextInCards,
-      () => this.backToDeck(),
-      this.closeModal ? this.closeModal.bind(this) : void 0
-    );
-    this.scrollWrapper = this.mainWrapper.createDiv();
-    this.scrollWrapper.addClass("sr-scroll-wrapper");
-    this.content = this.scrollWrapper.createDiv();
-    this.content.addClass("sr-content");
-    this.response = new ResponseSectionComponent(
-      this.mainWrapper,
-      this.settings,
-      () => this._showAnswer(),
-      (response) => this._processReview(response)
-    );
-  }
-  /**
-   * Shows the FlashcardView if it is hidden
-   */
-  async show(chosenDeck) {
-    if (!this.view.hasClass("sr-is-hidden")) {
-      return;
-    }
-    this.chosenDeck = chosenDeck;
-    const deckStats = this.reviewSequencer.getDeckStats(chosenDeck.getTopicPath());
-    this.totalCardsInSession = deckStats.cardsInQueueCount;
-    this.totalDecksInSession = deckStats.decksInQueueOfThisDeckCount;
-    await this._drawContent();
-    this.view.removeClass("sr-is-hidden");
-    document.addEventListener("keydown", this._keydownHandler);
-  }
-  /**
-   * Refreshes all dynamic elements
-   */
-  async refresh() {
-    await this._drawContent();
-  }
-  /**
-   * Hides the FlashcardView if it is visible
-   */
-  hide() {
-    if (this.view.hasClass("sr-is-hidden")) {
-      return;
-    }
-    document.removeEventListener("keydown", this._keydownHandler);
-    this.view.addClass("sr-is-hidden");
-  }
-  /**
-   * Closes the FlashcardView
-   */
-  close() {
-    this.hide();
-    document.removeEventListener("keydown", this._keydownHandler);
-  }
-  /**
-   * Blocks the key input to the FlashcardView
-   *
-   * @param block
-   */
-  blockKeyInput(block) {
-    if (block) {
-      document.addEventListener("keydown", this._keydownHandler);
-    } else {
-      document.removeEventListener("keydown", this._keydownHandler);
-    }
-  }
-  // #region -> Functions & helpers
-  async _drawContent() {
-    this.controls.resetButton.disabled = true;
-    this.mode = 1 /* Front */;
-    this.previousDeck = this.currentDeck;
-    this.currentDeck = this.reviewSequencer.currentDeck;
-    if (this.previousDeck !== this.currentDeck) {
-      const currentDeckStats = this.reviewSequencer.getDeckStats(
-        this.currentDeck.getTopicPath()
-      );
-      this.currentDeckTotalCardsInQueue = currentDeckStats.cardsInQueueOfThisDeckCount;
-    }
-    this._updateInfoBar(this.chosenDeck, this.currentDeck);
-    this.content.empty();
-    const wrapper = new RenderMarkdownWrapper(
-      this.app,
-      this.plugin,
-      this._currentNote.filePath
-    );
-    await wrapper.renderMarkdownWrapper(
-      this._currentCard.front.trimStart(),
-      this.content,
-      this._currentQuestion.questionText.textDirection
-    );
-    this.content.scrollTop = 0;
-    this.response.resetResponseButtons();
-  }
-  get _currentCard() {
-    return this.reviewSequencer.currentCard;
-  }
-  get _currentQuestion() {
-    return this.reviewSequencer.currentQuestion;
-  }
-  get _currentNote() {
-    return this.reviewSequencer.currentNote;
-  }
-  async _processReview(response) {
-    const timeNow = (0, import_moment4.now)();
-    if (this.lastPressed && timeNow - this.lastPressed < this.plugin.data.settings.reviewButtonDelay) {
-      return;
-    }
-    this.lastPressed = timeNow;
-    await this.reviewSequencer.processReview(response);
-    await this._showNextCard();
-  }
-  async _showNextCard() {
-    if (this._currentCard != null) await this.refresh();
-    else this.backToDeck();
-  }
-  // #region -> Controls
-  async _skipCurrentCard() {
-    this.reviewSequencer.skipCurrentCard();
-    await this._showNextCard();
-  }
-  _displayCurrentCardInfoNotice() {
-    new CardInfoNotice(this._currentCard.scheduleInfo, this._currentQuestion.note.filePath);
-  }
-  // #region -> Deck Info
-  _updateInfoBar(chosenDeck, currentDeck) {
-    const currentDeckStats = this.reviewSequencer.getDeckStats(currentDeck.getTopicPath());
-    const chosenDeckStats = this.reviewSequencer.getDeckStats(chosenDeck.getTopicPath());
-    this.infoSection.updateChosenDeckInfo(
-      chosenDeck,
-      chosenDeckStats,
-      this.totalCardsInSession,
-      this.totalDecksInSession
-    );
-    this.infoSection.updateCurrentDeckInfo(
-      chosenDeck,
-      currentDeck,
-      currentDeckStats,
-      this.settings.flashcardCardOrder,
-      this.currentDeckTotalCardsInQueue
-    );
-    this.infoSection.updateCardContext(
-      this.settings.showContextInCards,
-      this._currentQuestion,
-      this._currentNote
-    );
-  }
-  // #region -> Response
-  _showAnswer() {
-    const timeNow = (0, import_moment4.now)();
-    if (this.lastPressed && timeNow - this.lastPressed < this.plugin.data.settings.reviewButtonDelay) {
-      return;
-    }
-    this.lastPressed = timeNow;
-    this.mode = 2 /* Back */;
-    this.controls.resetButton.disabled = false;
-    if (this._currentQuestion.questionType !== 4 /* Cloze */) {
-      const hr = document.createElement("hr");
-      this.content.appendChild(hr);
-    } else {
-      this.content.empty();
-    }
-    const wrapper = new RenderMarkdownWrapper(
-      this.app,
-      this.plugin,
-      this._currentNote.filePath
-    );
-    wrapper.renderMarkdownWrapper(
-      this._currentCard.back,
-      this.content,
-      this._currentQuestion.questionText.textDirection
-    );
-    this.response.showRatingButtons(
-      this.reviewMode,
-      this.settings,
-      this.reviewSequencer,
-      this._currentCard
-    );
-  }
-};
-
-// src/gui/content-container/deck-container.tsx
-var import_obsidian11 = require("obsidian");
+// src/ui/obsidian-ui-components/content-container/deck-container.tsx
+var import_obsidian13 = require("obsidian");
 var import_vhtml = __toESM(require_vhtml());
 var DeckContainer = class {
   constructor(plugin, settings, reviewSequencer, containerEl, startReviewOfDeck, closeModal) {
+    this.isActive = false;
     this.plugin = plugin;
     this.settings = settings;
     this.reviewSequencer = reviewSequencer;
@@ -13674,7 +14657,7 @@ var DeckContainer = class {
     this.header.addClass("sr-header");
     this.titleWrapper = this.header.createDiv();
     this.titleWrapper.addClass("sr-title-wrapper");
-    this.dummyButtonEl = new import_obsidian11.ButtonComponent(this.titleWrapper).setIcon("circle-question-mark").setClass("sr-dummy-button").setClass("sr-hide-by-scaling").setClass("hide-height");
+    this.dummyButtonEl = new import_obsidian13.ButtonComponent(this.titleWrapper).setIcon("circle-question-mark").setClass("sr-dummy-button").setClass("sr-hide-by-scaling").setClass("hide-height");
     this.titleWrapper.createDiv().addClass("sr-flex-spacer");
     this.title = this.titleWrapper.createDiv();
     this.title.addClass("sr-title");
@@ -13686,7 +14669,7 @@ var DeckContainer = class {
       [
         !this.closeModal && "sr-hide-by-scaling",
         !this.closeModal && "hide-height",
-        EmulatedPlatform().isPhone || import_obsidian11.Platform.isPhone ? "mod-raised" : "clickable-icon",
+        EmulatedPlatform().isPhone || import_obsidian13.Platform.isPhone ? "mod-raised" : "clickable-icon",
         "sr-modal-close-button"
       ]
     );
@@ -13711,6 +14694,7 @@ var DeckContainer = class {
     }
     if (this.containerEl.hasClass("sr-is-hidden")) {
       this.containerEl.removeClass("sr-is-hidden");
+      this.isActive = true;
     }
   }
   /**
@@ -13719,6 +14703,7 @@ var DeckContainer = class {
   hide() {
     if (!this.containerEl.hasClass("sr-is-hidden")) {
       this.containerEl.addClass("sr-is-hidden");
+      this.isActive = false;
     }
   }
   /**
@@ -13821,9 +14806,9 @@ var DeckContainer = class {
   }
 };
 
-// src/gui/obsidian-views/edit-modal.tsx
-var import_obsidian12 = require("obsidian");
-var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian12.Modal {
+// src/ui/obsidian-ui-components/modals/edit-modal.tsx
+var import_obsidian14 = require("obsidian");
+var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian14.Modal {
   constructor(app, existingText, textDirection) {
     super(app);
     this.didSaveChanges = false;
@@ -13855,7 +14840,7 @@ var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian12.Mod
    * Initializes all components of the EditModal
    */
   init() {
-    var _a;
+    var _a2;
     this.contentEl.empty();
     this.contentEl.addClass("sr-edit-view");
     this.title = this.contentEl.createDiv();
@@ -13863,9 +14848,9 @@ var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian12.Mod
     this.title.addClass("sr-title");
     this.textArea = this.contentEl.createEl("textarea");
     this.textArea.addClass("sr-input");
-    this.textArea.setText((_a = this.modalText) != null ? _a : "");
+    this.textArea.setText((_a2 = this.modalText) != null ? _a2 : "");
     this.textArea.addEventListener("keydown", this.saveOnEnterCallback);
-    if (this.textDirection == 2 /* Rtl */) {
+    if (this.textDirection === 2 /* Rtl */) {
       this.textArea.setAttribute("dir", "rtl");
     }
     this._createResponse(this.contentEl);
@@ -13902,7 +14887,7 @@ var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian12.Mod
   }
   // -> Response section
   _createSaveButton(container) {
-    this.saveButton = new import_obsidian12.ButtonComponent(container);
+    this.saveButton = new import_obsidian14.ButtonComponent(container);
     this.saveButton.setClass("sr-response-button");
     this.saveButton.setClass("sr-save-button");
     this.saveButton.setClass("sr-bg-green");
@@ -13912,7 +14897,7 @@ var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian12.Mod
     });
   }
   _createCancelButton(container) {
-    this.cancelButton = new import_obsidian12.ButtonComponent(container);
+    this.cancelButton = new import_obsidian14.ButtonComponent(container);
     this.cancelButton.setClass("sr-response-button");
     this.cancelButton.setClass("sr-cancel-button");
     this.cancelButton.setClass("sr-bg-red");
@@ -13935,25 +14920,32 @@ var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian12.Mod
   }
 };
 
-// src/gui/obsidian-views/sr-modal-view.tsx
-var SRModalView = class extends import_obsidian13.Modal {
+// src/ui/obsidian-ui-components/modals/sr-modal-view.tsx
+var SRModalView = class extends import_obsidian15.Modal {
   constructor(app, plugin, settings, reviewSequencer, reviewMode) {
     super(app);
     this.plugin = plugin;
     this.settings = settings;
     this.reviewSequencer = reviewSequencer;
     this.reviewMode = reviewMode;
-    this.modalEl.style.height = this.settings.flashcardHeightPercentage + "%";
-    this.modalEl.style.maxHeight = this.settings.flashcardHeightPercentage + "%";
-    this.modalEl.style.width = this.settings.flashcardWidthPercentage + "%";
-    this.modalEl.style.maxWidth = this.settings.flashcardWidthPercentage + "%";
+    if (import_obsidian15.Platform.isMobile || EmulatedPlatform().isMobile) {
+      this.modalEl.style.height = this.settings.flashcardHeightPercentageMobile + "%";
+      this.modalEl.style.maxHeight = this.settings.flashcardHeightPercentageMobile + "%";
+      this.modalEl.style.width = this.settings.flashcardWidthPercentageMobile + "%";
+      this.modalEl.style.maxWidth = this.settings.flashcardWidthPercentageMobile + "%";
+    } else {
+      this.modalEl.style.height = this.settings.flashcardHeightPercentage + "%";
+      this.modalEl.style.maxHeight = this.settings.flashcardHeightPercentage + "%";
+      this.modalEl.style.width = this.settings.flashcardWidthPercentage + "%";
+      this.modalEl.style.maxWidth = this.settings.flashcardWidthPercentage + "%";
+    }
     this.modalEl.setAttribute("id", "sr-modal-view");
     this.modalEl.addClass("sr-view");
-    if (this.settings.flashcardHeightPercentage >= 100 || this.settings.flashcardWidthPercentage >= 100) {
+    if (parseInt(this.modalEl.style.height.split("%")[0]) >= 100 || parseInt(this.modalEl.style.width.split("%")[0]) >= 100) {
       this.modalEl.style.borderRadius = "0";
     }
     this.contentEl.addClass("sr-modal-content");
-    this.deckView = new DeckContainer(
+    this.deckContainer = new DeckContainer(
       this.plugin,
       this.settings,
       this.reviewSequencer,
@@ -13961,7 +14953,7 @@ var SRModalView = class extends import_obsidian13.Modal {
       this._startReviewOfDeck.bind(this),
       this.close.bind(this)
     );
-    this.flashcardView = new CardUI(
+    this.cardContainer = new CardContainer(
       this.app,
       this.plugin,
       this.settings,
@@ -13974,27 +14966,34 @@ var SRModalView = class extends import_obsidian13.Modal {
     );
   }
   onOpen() {
-    this._showDecksList();
+    const subdecksWithCardsInQueue = this.reviewSequencer.getSubDecksWithCardsInQueue(
+      this.reviewSequencer.originalDeckTree
+    );
+    if (subdecksWithCardsInQueue.length === 1) {
+      this._showFlashcard(this.reviewSequencer.originalDeckTree.subdecks[0]);
+    } else {
+      this._showDecksList();
+    }
   }
   onClose() {
-    this.plugin.setSRViewInFocus(false);
+    this.plugin.uiManager.setSRViewInFocus(false);
     this.mode = 3 /* Closed */;
-    this.deckView.close();
-    this.flashcardView.close();
+    this.deckContainer.close();
+    this.cardContainer.close();
   }
   _showDecksList() {
     this._hideFlashcard();
-    this.deckView.show();
+    this.deckContainer.show();
   }
   _hideDecksList() {
-    this.deckView.hide();
+    this.deckContainer.hide();
   }
   _showFlashcard(deck) {
     this._hideDecksList();
-    this.flashcardView.show(deck);
+    this.cardContainer.show(deck);
   }
   _hideFlashcard() {
-    this.flashcardView.hide();
+    this.cardContainer.hide();
   }
   _startReviewOfDeck(deck) {
     this.reviewSequencer.setCurrentDeck(deck.getTopicPath());
@@ -14018,9 +15017,420 @@ var SRModalView = class extends import_obsidian13.Modal {
   }
 };
 
-// src/gui/obsidian-views/sr-tab-view.tsx
-var import_obsidian14 = require("obsidian");
-var SRTabView = class extends import_obsidian14.ItemView {
+// src/utils/renderers.ts
+var import_obsidian16 = require("obsidian");
+var RenderMarkdownWrapper = class {
+  constructor(app, plugin, notePath) {
+    this.app = app;
+    this.notePath = notePath;
+    this.plugin = plugin;
+  }
+  // slightly modified version of the renderMarkdown function in
+  // https://github.com/mgmeyers/obsidian-kanban/blob/main/src/KanbanView.tsx
+  async renderMarkdownWrapper(markdownString, containerEl, textDirection, recursiveDepth = 0) {
+    if (recursiveDepth > 4) return;
+    let el;
+    if (textDirection === 2 /* Rtl */) {
+      el = containerEl.createDiv();
+      el.setAttribute("dir", "rtl");
+    } else el = containerEl;
+    import_obsidian16.MarkdownRenderer.render(this.app, markdownString, el, this.notePath, this.plugin);
+    el.findAll(".internal-embed").forEach((el2) => {
+      const link2 = this.parseLink(el2.getAttribute("src"));
+      if (!link2.target) {
+        el2.innerText = link2.text;
+      } else if (link2.target instanceof import_obsidian16.TFile) {
+        if (link2.target.extension !== "md") {
+          this.embedMediaFile(el2, link2.target);
+        } else {
+        }
+      }
+    });
+  }
+  parseLink(src) {
+    const linkComponentsRegex = /^(?<file>[^#^]+)?(?:#(?!\^)(?<heading>.+)|#\^(?<blockId>.+)|#)?$/;
+    const matched = typeof src === "string" && src.match(linkComponentsRegex);
+    const file = matched.groups.file || this.notePath;
+    const target = this.plugin.app.metadataCache.getFirstLinkpathDest(file, this.notePath);
+    return {
+      text: matched[0],
+      file: matched.groups.file,
+      heading: matched.groups.heading,
+      blockId: matched.groups.blockId,
+      target
+    };
+  }
+  embedMediaFile(el, target) {
+    el.innerText = "";
+    if (IMAGE_FORMATS.includes(target.extension)) {
+      el.createEl(
+        "img",
+        {
+          attr: {
+            src: this.plugin.app.vault.getResourcePath(target)
+          }
+        },
+        (img) => {
+          if (el.hasAttribute("width"))
+            img.setAttribute("width", el.getAttribute("width"));
+          else img.setAttribute("width", "100%");
+          if (el.hasAttribute("alt")) img.setAttribute("alt", el.getAttribute("alt"));
+          el.addEventListener(
+            "click",
+            (ev) => ev.target.style.minWidth = ev.target.style.minWidth === "100%" ? null : "100%"
+          );
+        }
+      );
+      el.addClasses(["image-embed", "is-loaded"]);
+    } else if (AUDIO_FORMATS.includes(target.extension) || VIDEO_FORMATS.includes(target.extension)) {
+      el.createEl(
+        AUDIO_FORMATS.includes(target.extension) ? "audio" : "video",
+        {
+          attr: {
+            controls: "",
+            src: this.plugin.app.vault.getResourcePath(target)
+          }
+        },
+        (audio) => {
+          if (el.hasAttribute("alt")) audio.setAttribute("alt", el.getAttribute("alt"));
+        }
+      );
+      el.addClasses(["media-embed", "is-loaded"]);
+    } else {
+      el.innerText = target.path;
+    }
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/card-container.tsx
+var CardContainer = class {
+  constructor(app, plugin, settings, reviewSequencer, reviewMode, view, backToDeck, editClickHandler, closeModal) {
+    this.isActive = false;
+    this.totalCardsInSession = 0;
+    this.totalDecksInSession = 0;
+    this.currentDeckTotalCardsInQueue = 0;
+    this._keydownHandler = (e2) => {
+      if (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT" || this.mode === 3 /* Closed */ || !this.plugin.uiManager.getSRInFocusState() || import_obsidian17.Platform.isMobile || // No keyboard events on mobile
+      EmulatedPlatform().isMobile) {
+        return;
+      }
+      const consumeKeyEvent = () => {
+        e2.preventDefault();
+        e2.stopPropagation();
+      };
+      switch (e2.code) {
+        case "KeyS":
+          this._skipCurrentCard();
+          consumeKeyEvent();
+          break;
+        case "Enter":
+        case "NumpadEnter":
+        case "Space":
+          if (this.mode === 1 /* Front */) {
+            this._showAnswer();
+            consumeKeyEvent();
+          } else if (this.mode === 2 /* Back */) {
+            this._processReview(1 /* Good */);
+            consumeKeyEvent();
+          }
+          break;
+        case "Numpad1":
+        case "Digit1":
+          if (this.mode !== 2 /* Back */) {
+            break;
+          }
+          this._processReview(2 /* Hard */);
+          consumeKeyEvent();
+          break;
+        case "Numpad2":
+        case "Digit2":
+          if (this.mode !== 2 /* Back */) {
+            break;
+          }
+          this._processReview(1 /* Good */);
+          consumeKeyEvent();
+          break;
+        case "Numpad3":
+        case "Digit3":
+          if (this.mode !== 2 /* Back */) {
+            break;
+          }
+          this._processReview(0 /* Easy */);
+          consumeKeyEvent();
+          break;
+        case "Numpad0":
+        case "Digit0":
+          if (this.mode !== 2 /* Back */) {
+            break;
+          }
+          this._processReview(3 /* Reset */);
+          consumeKeyEvent();
+          break;
+        default:
+          break;
+      }
+    };
+    this.app = app;
+    this.plugin = plugin;
+    this.settings = settings;
+    this.reviewSequencer = reviewSequencer;
+    this.reviewMode = reviewMode;
+    this.backToDeck = backToDeck;
+    this.editClickHandler = editClickHandler;
+    this.view = view;
+    this.chosenDeck = null;
+    this.closeModal = closeModal;
+    this.init();
+  }
+  // #region -> public methods
+  /**
+   * Initializes all static elements in the FlashcardView
+   */
+  init() {
+    this.view.addClasses(["sr-container", "sr-card-container", "sr-is-hidden"]);
+    this.controls = new ControlsComponent(
+      this.view,
+      !this.settings.openViewInNewTab,
+      this.app,
+      () => this.backToDeck(),
+      () => this.editClickHandler(),
+      async (response) => await this._processReview(response),
+      () => this._displayCurrentCardInfoNotice(),
+      () => this._skipCurrentCard(),
+      this._jumpToCurrentCard.bind(this),
+      this.closeModal ? this.closeModal.bind(this) : void 0
+    );
+    this.mainWrapper = this.view.createDiv();
+    this.mainWrapper.addClass("sr-main-wrapper");
+    this.infoSection = new InfoSectionComponent(
+      this.mainWrapper,
+      this.settings.showContextInCards,
+      () => this.backToDeck(),
+      this.closeModal ? this.closeModal.bind(this) : void 0
+    );
+    this.scrollWrapper = this.mainWrapper.createDiv();
+    this.scrollWrapper.addClass("sr-scroll-wrapper");
+    this.content = this.scrollWrapper.createDiv();
+    this.content.addClass("sr-content");
+    this.response = new ResponseSectionComponent(
+      this.mainWrapper,
+      this.settings,
+      () => this._showAnswer(),
+      (response) => this._processReview(response)
+    );
+  }
+  /**
+   * Shows the FlashcardView if it is hidden
+   */
+  async show(chosenDeck) {
+    if (!this.view.hasClass("sr-is-hidden")) {
+      return;
+    }
+    this.chosenDeck = chosenDeck;
+    const deckStats = this.reviewSequencer.getDeckStats(chosenDeck.getTopicPath());
+    this.totalCardsInSession = deckStats.cardsInQueueCount;
+    this.totalDecksInSession = deckStats.decksInQueueOfThisDeckCount;
+    await this._drawContent();
+    this.view.removeClass("sr-is-hidden");
+    this.isActive = true;
+    document.addEventListener("keydown", this._keydownHandler);
+  }
+  /**
+   * Refreshes all dynamic elements
+   */
+  async refresh() {
+    await this._drawContent();
+  }
+  /**
+   * Hides the FlashcardView if it is visible
+   */
+  hide() {
+    if (this.view.hasClass("sr-is-hidden")) {
+      return;
+    }
+    document.removeEventListener("keydown", this._keydownHandler);
+    this.view.addClass("sr-is-hidden");
+    this.isActive = false;
+  }
+  /**
+   * Closes the FlashcardView
+   */
+  close() {
+    this.hide();
+    document.removeEventListener("keydown", this._keydownHandler);
+  }
+  /**
+   * Blocks the key input to the FlashcardView
+   *
+   * @param block
+   */
+  blockKeyInput(block) {
+    if (block) {
+      document.addEventListener("keydown", this._keydownHandler);
+    } else {
+      document.removeEventListener("keydown", this._keydownHandler);
+    }
+  }
+  // #region -> Functions & helpers
+  async _drawContent() {
+    this.controls.resetButton.disabled = true;
+    this.mode = 1 /* Front */;
+    this.previousDeck = this.currentDeck;
+    this.currentDeck = this.reviewSequencer.currentDeck;
+    if (this.previousDeck !== this.currentDeck) {
+      const currentDeckStats = this.reviewSequencer.getDeckStats(
+        this.currentDeck.getTopicPath()
+      );
+      this.currentDeckTotalCardsInQueue = currentDeckStats.cardsInQueueOfThisDeckCount;
+    }
+    this._updateInfoBar(this.chosenDeck, this.currentDeck);
+    this.content.empty();
+    const wrapper = new RenderMarkdownWrapper(
+      this.app,
+      this.plugin,
+      this._currentNote.filePath
+    );
+    await wrapper.renderMarkdownWrapper(
+      this._currentCard.front.trimStart(),
+      this.content,
+      this._currentQuestion.questionText.textDirection
+    );
+    this.content.scrollTop = 0;
+    this.response.resetResponseButtons();
+    this._setupClozeInputListeners();
+  }
+  get _currentCard() {
+    return this.reviewSequencer.currentCard;
+  }
+  get _currentQuestion() {
+    return this.reviewSequencer.currentQuestion;
+  }
+  get _currentNote() {
+    return this.reviewSequencer.currentNote;
+  }
+  async _processReview(response) {
+    const timeNow = (0, import_moment4.now)();
+    if (this.lastPressed && timeNow - this.lastPressed < this.plugin.data.settings.reviewButtonDelay) {
+      return;
+    }
+    this.lastPressed = timeNow;
+    await this.reviewSequencer.processReview(response);
+    await this._showNextCard();
+  }
+  async _showNextCard() {
+    if (this._currentCard !== null && this._currentCard !== void 0) await this.refresh();
+    else this.backToDeck();
+  }
+  // #region -> Controls
+  async _skipCurrentCard() {
+    this.reviewSequencer.skipCurrentCard();
+    await this._showNextCard();
+  }
+  _displayCurrentCardInfoNotice() {
+    new CardInfoNotice(this._currentCard.scheduleInfo, this._currentQuestion.note.filePath);
+  }
+  async _jumpToCurrentCard() {
+    var _a2;
+    const currentQuestion = this.reviewSequencer.currentQuestion;
+    if (!currentQuestion) return;
+    if (!this.settings.openViewInNewTab && !(import_obsidian17.Platform.isMobile || EmulatedPlatform().isMobile) || !this.settings.openViewInNewTabMobile && (import_obsidian17.Platform.isMobile || EmulatedPlatform().isMobile)) {
+      new import_obsidian17.Notice("Note was opened in new tab in the background");
+    }
+    const file = currentQuestion.note.file.tfile;
+    const blockId = currentQuestion.questionText.obsidianBlockId;
+    const line = Math.max(0, (_a2 = currentQuestion.lineNo) != null ? _a2 : 0);
+    if (blockId) {
+      await this.app.workspace.openLinkText(`${file.path}#${blockId}`, file.path, false);
+      return;
+    }
+    const leaf = this.app.workspace.getLeaf("tab");
+    await leaf.openFile(file, { eState: { line } });
+    const markdownView = leaf.view;
+    if (markdownView == null ? void 0 : markdownView.editor) {
+      markdownView.editor.setCursor({ line, ch: 0 });
+      markdownView.editor.scrollIntoView({ from: { line, ch: 0 }, to: { line, ch: 0 } });
+    }
+  }
+  // #region -> Deck Info
+  _updateInfoBar(chosenDeck, currentDeck) {
+    const currentDeckStats = this.reviewSequencer.getDeckStats(currentDeck.getTopicPath());
+    const chosenDeckStats = this.reviewSequencer.getDeckStats(chosenDeck.getTopicPath());
+    this.infoSection.updateChosenDeckInfo(
+      chosenDeck,
+      chosenDeckStats,
+      this.totalCardsInSession,
+      this.totalDecksInSession
+    );
+    this.infoSection.updateCurrentDeckInfo(
+      chosenDeck,
+      currentDeck,
+      currentDeckStats,
+      this.settings.flashcardCardOrder,
+      this.currentDeckTotalCardsInQueue
+    );
+    this.infoSection.updateCardContext(
+      this.settings.showContextInCards,
+      this._currentQuestion,
+      this._currentNote
+    );
+  }
+  _setupClozeInputListeners() {
+    this.clozeInputs = document.querySelectorAll(".cloze-input");
+    this.clozeInputs.forEach((input) => {
+      input.addEventListener("change", (e2) => {
+      });
+    });
+  }
+  _evaluateClozeAnswers() {
+    this.clozeAnswers = document.querySelectorAll(".cloze-answer");
+    if (this.clozeAnswers.length === this.clozeInputs.length) {
+      for (let i2 = 0; i2 < this.clozeAnswers.length; i2++) {
+        const clozeInput = this.clozeInputs[i2];
+        const clozeAnswer = this.clozeAnswers[i2];
+        const inputText = clozeInput.value.trim();
+        const answerText = clozeAnswer.innerText.trim();
+        const answerElement = inputText === answerText ? `<span style="color: green">${escapeHtml(inputText)}</span>` : `[<span style="color: red; text-decoration: line-through;">${escapeHtml(inputText)}</span><span style="color: green">${answerText}</span>]`;
+        clozeAnswer.innerHTML = answerElement;
+      }
+    }
+  }
+  // #region -> Response
+  _showAnswer() {
+    const timeNow = (0, import_moment4.now)();
+    if (this.lastPressed && timeNow - this.lastPressed < this.plugin.data.settings.reviewButtonDelay) {
+      return;
+    }
+    this.lastPressed = timeNow;
+    this.mode = 2 /* Back */;
+    this.controls.resetButton.setDisabled(false);
+    if (this._currentQuestion.questionType !== 4 /* Cloze */) {
+      const hr = document.createElement("hr");
+      this.content.appendChild(hr);
+    } else {
+      this.content.empty();
+    }
+    const wrapper = new RenderMarkdownWrapper(
+      this.app,
+      this.plugin,
+      this._currentNote.filePath
+    );
+    wrapper.renderMarkdownWrapper(
+      this._currentCard.back,
+      this.content,
+      this._currentQuestion.questionText.textDirection
+    );
+    this._evaluateClozeAnswers();
+    this.response.showRatingButtons(
+      this.reviewMode,
+      this.settings,
+      this.reviewSequencer,
+      this._currentCard
+    );
+  }
+};
+
+// src/ui/obsidian-ui-components/item-views/sr-tab-view.tsx
+var SRTabView = class extends import_obsidian18.ItemView {
   constructor(leaf, plugin, loadReviewSequencerData) {
     super(leaf);
     this.openErrorCount = 0;
@@ -14034,10 +15444,17 @@ var SRTabView = class extends import_obsidian14.ItemView {
       this.viewContainerEl.addClass("sr-tab-view");
       this.viewContainerEl.addClass("sr-view");
       this.viewContentEl = this.viewContainerEl.createDiv("sr-tab-view-content");
-      this.viewContentEl.style.height = this.settings.flashcardHeightPercentage + "%";
-      this.viewContentEl.style.maxHeight = this.settings.flashcardHeightPercentage + "%";
-      this.viewContentEl.style.width = this.settings.flashcardWidthPercentage + "%";
-      this.viewContentEl.style.maxWidth = this.settings.flashcardWidthPercentage + "%";
+      if (import_obsidian18.Platform.isMobile || EmulatedPlatform().isMobile) {
+        this.viewContentEl.style.height = this.settings.flashcardHeightPercentageMobile + "%";
+        this.viewContentEl.style.maxHeight = this.settings.flashcardHeightPercentageMobile + "%";
+        this.viewContentEl.style.width = this.settings.flashcardWidthPercentageMobile + "%";
+        this.viewContentEl.style.maxWidth = this.settings.flashcardWidthPercentageMobile + "%";
+      } else {
+        this.viewContentEl.style.height = this.settings.flashcardHeightPercentage + "%";
+        this.viewContentEl.style.maxHeight = this.settings.flashcardHeightPercentage + "%";
+        this.viewContentEl.style.width = this.settings.flashcardWidthPercentage + "%";
+        this.viewContentEl.style.maxWidth = this.settings.flashcardWidthPercentage + "%";
+      }
       if (this.settings.flashcardHeightPercentage < 100 || this.settings.flashcardWidthPercentage < 100) {
         this.viewContentEl.addClass("sr-center-view");
       }
@@ -14089,8 +15506,8 @@ var SRTabView = class extends import_obsidian14.ItemView {
       const loadedData = await this.loadReviewSequencerData();
       this.reviewSequencer = loadedData.reviewSequencer;
       this.reviewMode = loadedData.mode;
-      if (this.deckView === void 0) {
-        this.deckView = new DeckContainer(
+      if (this.deckContainer === void 0) {
+        this.deckContainer = new DeckContainer(
           this.plugin,
           this.settings,
           this.reviewSequencer,
@@ -14098,8 +15515,8 @@ var SRTabView = class extends import_obsidian14.ItemView {
           this._startReviewOfDeck.bind(this)
         );
       }
-      if (this.flashcardView === void 0) {
-        this.flashcardView = new CardUI(
+      if (this.cardContainer === void 0) {
+        this.cardContainer = new CardContainer(
           this.app,
           this.plugin,
           this.settings,
@@ -14110,7 +15527,14 @@ var SRTabView = class extends import_obsidian14.ItemView {
           this._doEditQuestionText.bind(this)
         );
       }
-      this._showDecksList();
+      const subdecksWithCardsInQueue = this.reviewSequencer.getSubDecksWithCardsInQueue(
+        this.reviewSequencer.originalDeckTree
+      );
+      if (subdecksWithCardsInQueue.length === 1) {
+        this._showFlashcard(this.reviewSequencer.originalDeckTree.subdecks[0]);
+      } else {
+        this._showDecksList();
+      }
     } catch (e2) {
       if (this.openErrorCount > 0 || DEBUG_MODE_ENABLED) {
         console.error(e2);
@@ -14135,22 +15559,22 @@ var SRTabView = class extends import_obsidian14.ItemView {
         "linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, #000000 calc(34px - 0px + 12px))"
       );
     }
-    if (this.deckView) this.deckView.close();
-    if (this.flashcardView) this.flashcardView.close();
+    if (this.deckContainer) this.deckContainer.close();
+    if (this.cardContainer) this.cardContainer.close();
   }
   _showDecksList() {
     this._hideFlashcard();
-    this.deckView.show();
+    this.deckContainer.show();
   }
   _hideDecksList() {
-    this.deckView.hide();
+    this.deckContainer.hide();
   }
   _showFlashcard(deck) {
     this._hideDecksList();
-    this.flashcardView.show(deck);
+    this.cardContainer.show(deck);
   }
   _hideFlashcard() {
-    this.flashcardView.hide();
+    this.cardContainer.hide();
   }
   _startReviewOfDeck(deck) {
     this.reviewSequencer.setCurrentDeck(deck.getTopicPath());
@@ -14172,226 +15596,821 @@ var SRTabView = class extends import_obsidian14.ItemView {
       this.reviewSequencer.updateCurrentQuestionText(modifiedCardText);
     }).catch((reason) => console.log(reason));
   }
-  _createBackButton() {
-    this.backButton = new import_obsidian14.ButtonComponent(this.viewContentEl);
-    this.backButton.setClass("sr-back-button");
-    this.backButton.setClass("sr-is-hidden");
+};
+
+// src/ui/obsidian-ui-components/settings-tab.tsx
+var import_obsidian28 = require("obsidian");
+
+// src/ui/obsidian-ui-components/content-container/settings-page/flashcards-page.tsx
+var import_obsidian20 = require("obsidian");
+
+// src/ui/obsidian-ui-components/content-container/settings-page/settings-page.tsx
+var import_obsidian19 = require("obsidian");
+var SettingsPage = class {
+  constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
+    this.plugin = plugin;
+    this.pageType = pageType;
+    this.display = display;
+    this.applySettingsUpdate = applySettingsUpdate;
+    this.openPage = openPage;
+    this.scrollListener = scrollListener;
+    this.pageContainerEl = pageContainerEl;
+    this.pageContainerEl.addClass("sr-settings-page");
+    this.pageContainerEl.addClass("sr-is-hidden");
+    this.pageHeaderEl = this.pageContainerEl.createDiv();
+    this.pageHeaderEl.addClass("sr-settings-page-header");
+    this.pageHeaderEl.addEventListener("click", () => {
+      this.backToMainPage();
+    });
+    if (pageType === "main-page") this.pageHeaderEl.addClass("sr-is-hidden");
+    this.backButton = new import_obsidian19.ButtonComponent(this.pageHeaderEl);
+    this.backButton.setClass("sr-settings-page-back-button");
     this.backButton.setClass("clickable-icon");
-    this.backButton.setIcon("arrow-left");
-    this.backButton.setTooltip(t("BACK"));
-    this.backButton.buttonEl.setAttribute("aria-label", t("BACK"));
+    this.backButton.setIcon("chevron-left");
     this.backButton.onClick(() => {
-      this.backButton.setClass("sr-is-hidden");
-      this._showDecksList();
+      this.backToMainPage();
+    });
+    this.titleWrapperEl = this.pageHeaderEl.createDiv();
+    this.titleWrapperEl.addClass("sr-settings-page-title-wrapper");
+    this.titleIconEl = this.titleWrapperEl.createDiv();
+    this.titleIconEl.addClass("sr-settings-page-title-icon");
+    (0, import_obsidian19.setIcon)(this.titleIconEl, getPageIcon(pageType));
+    this.titleEl = this.titleWrapperEl.createDiv();
+    this.titleEl.addClass("sr-settings-page-title");
+    this.titleEl.insertAdjacentHTML("beforeend", getPageName(pageType));
+    this.containerEl = this.pageContainerEl.createDiv();
+    this.containerEl.addClass("sr-settings-page-content");
+    this.containerEl.addEventListener("scroll", (_2) => {
+      this.scrollListener(this.containerEl.scrollTop);
+    });
+  }
+  /**
+   * Scrolls to the specified position.
+   */
+  scrollTo(scrollPosition) {
+    this.containerEl.scrollTo({
+      top: scrollPosition,
+      behavior: "auto"
+    });
+  }
+  /**
+   * Gets the SettingsPage type.
+   */
+  getPageType() {
+    return this.pageType;
+  }
+  /**
+   * Destroys the SettingsPage. Run any cleanup code here.
+   */
+  destroy() {
+    this.removeScrollListener();
+  }
+  /**
+   * Removes the scroll listener from the SettingsPage.
+   */
+  removeScrollListener() {
+    this.containerEl.removeEventListener("scroll", (_2) => {
+      this.scrollListener(this.containerEl.scrollTop);
+    });
+  }
+  /**
+   * Adds the scroll listener to the SettingsPage.
+   */
+  addScrollListener() {
+    this.containerEl.addEventListener("scroll", (_2) => {
+      this.scrollListener(this.containerEl.scrollTop);
+    });
+  }
+  /**
+   * Shows the SettingsPage.
+   */
+  show() {
+    if (this.pageContainerEl.hasClass("sr-is-hidden")) {
+      this.pageContainerEl.removeClass("sr-is-hidden");
+      this.addScrollListener();
+    }
+  }
+  /**
+   * Hides the SettingsPage.
+   */
+  hide() {
+    if (!this.pageContainerEl.hasClass("sr-is-hidden")) {
+      this.pageContainerEl.addClass("sr-is-hidden");
+      this.removeScrollListener();
+    }
+  }
+  /**
+   * Backs to the main page.
+   */
+  backToMainPage() {
+    this.openPage("main-page");
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/settings-page/flashcards-page.tsx
+var FlashcardsPage = class extends SettingsPage {
+  constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
+    super(
+      pageContainerEl,
+      plugin,
+      pageType,
+      applySettingsUpdate,
+      display,
+      openPage,
+      scrollListener
+    );
+    new import_obsidian20.SettingGroup(this.containerEl).setHeading(t("GROUP_TAGS_FOLDERS")).addSetting((setting) => {
+      setting.setName(t("FLASHCARD_TAGS")).setDesc(t("FLASHCARD_TAGS_DESC")).addTextArea(
+        (text) => text.setValue(this.plugin.data.settings.flashcardTags.join(" ")).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.flashcardTags = value.split(/\s+/);
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("CONVERT_FOLDERS_TO_DECKS")).setDesc(t("CONVERT_FOLDERS_TO_DECKS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.convertFoldersToDecks).onChange(async (value) => {
+          this.plugin.data.settings.convertFoldersToDecks = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("BURY_SIBLINGS_TILL_NEXT_DAY")).setDesc(t("BURY_SIBLINGS_TILL_NEXT_DAY_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.burySiblingCards).onChange(async (value) => {
+          this.plugin.data.settings.burySiblingCards = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("FOLDERS_TO_IGNORE")).setDesc(t("FOLDERS_TO_IGNORE_DESC")).addTextArea(
+        (text) => text.setValue(this.plugin.data.settings.noteFoldersToIgnore.join("\n")).onChange((value) => {
+          this.applySettingsUpdate(async () => {
+            this.plugin.data.settings.noteFoldersToIgnore = value.split(/\n+/).map((v2) => v2.trim()).filter((v2) => v2);
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    });
+    new import_obsidian20.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARD_REVIEW")).addSetting((setting) => {
+      setting.setName(t("BURY_SIBLINGS_TILL_NEXT_DAY")).setDesc(t("BURY_SIBLINGS_TILL_NEXT_DAY_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.burySiblingCards).onChange(async (value) => {
+          this.plugin.data.settings.burySiblingCards = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("REVIEW_CARD_ORDER_WITHIN_DECK")).addDropdown(
+        (dropdown) => dropdown.addOptions({
+          NewFirstSequential: t("REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL"),
+          DueFirstSequential: t("REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL"),
+          NewFirstRandom: t("REVIEW_CARD_ORDER_NEW_FIRST_RANDOM"),
+          DueFirstRandom: t("REVIEW_CARD_ORDER_DUE_FIRST_RANDOM"),
+          EveryCardRandomDeckAndCard: t("REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD")
+        }).setValue(this.plugin.data.settings.flashcardCardOrder).onChange(async (value) => {
+          this.plugin.data.settings.flashcardCardOrder = value;
+          await this.plugin.savePluginData();
+          this.display();
+        })
+      );
+    }).addSetting((setting) => {
+      const deckOrderEnabled = this.plugin.data.settings.flashcardCardOrder !== "EveryCardRandomDeckAndCard";
+      setting.setName(t("REVIEW_DECK_ORDER")).addDropdown(
+        (dropdown) => dropdown.addOptions(
+          deckOrderEnabled ? {
+            // eslint-disable-next-line camelcase
+            PrevDeckComplete_Sequential: t(
+              "REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL"
+            ),
+            // eslint-disable-next-line camelcase
+            PrevDeckComplete_Random: t(
+              "REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM"
+            )
+          } : {
+            EveryCardRandomDeckAndCard: t(
+              "REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD"
+            )
+          }
+        ).setValue(
+          deckOrderEnabled ? this.plugin.data.settings.flashcardDeckOrder : "EveryCardRandomDeckAndCard"
+        ).setDisabled(!deckOrderEnabled).onChange(async (value) => {
+          this.plugin.data.settings.flashcardDeckOrder = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    });
+    new import_obsidian20.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARD_SEPARATORS")).addSetting((setting) => {
+      setting.setName(t("CONVERT_CLOZE_PATTERNS_TO_INPUTS")).setDesc(t("CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.convertClozePatternsToInputs).onChange(async (value) => {
+          this.plugin.data.settings.convertClozePatternsToInputs = value;
+          await this.plugin.savePluginData();
+          this.display();
+        })
+      );
+    }).addSetting((setting) => {
+      const convertHighlightsToClozesEl = setting.setName(
+        t("CONVERT_HIGHLIGHTS_TO_CLOZES")
+      );
+      convertHighlightsToClozesEl.descEl.insertAdjacentHTML(
+        "beforeend",
+        t("CONVERT_HIGHLIGHTS_TO_CLOZES_DESC", {
+          defaultPattern: "==[123;;]answer[;;hint]=="
+        })
+      );
+      convertHighlightsToClozesEl.addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.convertHighlightsToClozes).onChange(async (value) => {
+          const defaultHightlightPattern = "==[123;;]answer[;;hint]==";
+          const clozePatternSet = new Set(
+            this.plugin.data.settings.clozePatterns
+          );
+          if (value) {
+            clozePatternSet.add(defaultHightlightPattern);
+          } else {
+            clozePatternSet.delete(defaultHightlightPattern);
+          }
+          this.plugin.data.settings.clozePatterns = [...clozePatternSet];
+          this.plugin.data.settings.convertHighlightsToClozes = value;
+          await this.plugin.savePluginData();
+          this.display();
+        })
+      );
+    }).addSetting((setting) => {
+      const convertBoldTextToClozesEl = setting.setName(t("CONVERT_BOLD_TEXT_TO_CLOZES"));
+      convertBoldTextToClozesEl.descEl.insertAdjacentHTML(
+        "beforeend",
+        t("CONVERT_BOLD_TEXT_TO_CLOZES_DESC", {
+          defaultPattern: "**[123;;]answer[;;hint]**"
+        })
+      );
+      convertBoldTextToClozesEl.addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.convertBoldTextToClozes).onChange(async (value) => {
+          const defaultBoldPattern = "**[123;;]answer[;;hint]**";
+          const clozePatternSet = new Set(
+            this.plugin.data.settings.clozePatterns
+          );
+          if (value) {
+            clozePatternSet.add(defaultBoldPattern);
+          } else {
+            clozePatternSet.delete(defaultBoldPattern);
+          }
+          this.plugin.data.settings.clozePatterns = [...clozePatternSet];
+          this.plugin.data.settings.convertBoldTextToClozes = value;
+          await this.plugin.savePluginData();
+          this.display();
+        })
+      );
+    }).addSetting((setting) => {
+      const convertCurlyBracketsToClozesEl = setting.setName(
+        t("CONVERT_CURLY_BRACKETS_TO_CLOZES")
+      );
+      convertCurlyBracketsToClozesEl.descEl.insertAdjacentHTML(
+        "beforeend",
+        t("CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC", {
+          defaultPattern: "{{[123;;]answer[;;hint]}}"
+        })
+      );
+      convertCurlyBracketsToClozesEl.addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.convertCurlyBracketsToClozes).onChange(async (value) => {
+          const defaultCurlyBracketsPattern = "{{[123;;]answer[;;hint]}}";
+          const clozePatternSet = new Set(
+            this.plugin.data.settings.clozePatterns
+          );
+          if (value) {
+            clozePatternSet.add(defaultCurlyBracketsPattern);
+          } else {
+            clozePatternSet.delete(defaultCurlyBracketsPattern);
+          }
+          this.plugin.data.settings.clozePatterns = [...clozePatternSet];
+          this.plugin.data.settings.convertCurlyBracketsToClozes = value;
+          await this.plugin.savePluginData();
+          this.display();
+        })
+      );
+    }).addSetting((setting) => {
+      const clozePatterns = setting.setName(t("CLOZE_PATTERNS"));
+      clozePatterns.descEl.insertAdjacentHTML(
+        "beforeend",
+        t("CLOZE_PATTERNS_DESC", {
+          docsUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/flashcards/cloze-cards/#cloze-types"
+        })
+      );
+      clozePatterns.addTextArea(
+        (text) => text.setPlaceholder(
+          "Example:\n==[123;;]answer[;;hint]==\n**[123;;]answer[;;hint]**\n{{[123;;]answer[;;hint]}}"
+        ).setValue(this.plugin.data.settings.clozePatterns.join("\n")).onChange((value) => {
+          applySettingsUpdate(async () => {
+            const defaultHightlightPattern = "==[123;;]answer[;;hint]==";
+            const defaultBoldPattern = "**[123;;]answer[;;hint]**";
+            const defaultCurlyBracketsPattern = "{{[123;;]answer[;;hint]}}";
+            const clozePatternSet = new Set(
+              value.split(/\n+/).map((v2) => v2.trim()).filter((v2) => v2)
+            );
+            if (clozePatternSet.has(defaultHightlightPattern)) {
+              this.plugin.data.settings.convertHighlightsToClozes = true;
+            } else {
+              this.plugin.data.settings.convertHighlightsToClozes = false;
+            }
+            if (clozePatternSet.has(defaultBoldPattern)) {
+              this.plugin.data.settings.convertBoldTextToClozes = true;
+            } else {
+              this.plugin.data.settings.convertBoldTextToClozes = false;
+            }
+            if (clozePatternSet.has(defaultCurlyBracketsPattern)) {
+              this.plugin.data.settings.convertCurlyBracketsToClozes = true;
+            } else {
+              this.plugin.data.settings.convertCurlyBracketsToClozes = false;
+            }
+            this.plugin.data.settings.clozePatterns = [...clozePatternSet];
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("INLINE_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.singleLineCardSeparator = DEFAULT_SETTINGS.singleLineCardSeparator;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.singleLineCardSeparator).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.singleLineCardSeparator = value;
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("INLINE_REVERSED_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.singleLineReversedCardSeparator = DEFAULT_SETTINGS.singleLineReversedCardSeparator;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.singleLineReversedCardSeparator).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.singleLineReversedCardSeparator = value;
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("MULTILINE_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.multilineCardSeparator = DEFAULT_SETTINGS.multilineCardSeparator;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.multilineCardSeparator).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.multilineCardSeparator = value;
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("MULTILINE_REVERSED_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.multilineReversedCardSeparator = DEFAULT_SETTINGS.multilineReversedCardSeparator;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.multilineReversedCardSeparator).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.multilineReversedCardSeparator = value;
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("MULTILINE_CARDS_END_MARKER")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.multilineCardEndMarker = DEFAULT_SETTINGS.multilineCardEndMarker;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.multilineCardEndMarker).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.multilineCardEndMarker = value;
+            await this.plugin.savePluginData();
+          });
+        })
+      );
     });
   }
 };
 
-// src/gui/review-queue-list-view.tsx
-var import_obsidian15 = require("obsidian");
-var REVIEW_QUEUE_VIEW_TYPE = "review-queue-list-view";
-var ReviewQueueListView = class extends import_obsidian15.ItemView {
-  get noteReviewQueue() {
-    return this.nextNoteReviewHandler.noteReviewQueue;
+// src/ui/obsidian-ui-components/content-container/settings-page/main-page.tsx
+var import_obsidian21 = require("obsidian");
+var MainPage = class extends SettingsPage {
+  constructor(pageContainerEl, plugin, pageType, display, openPage, scrollListener) {
+    super(pageContainerEl, plugin, pageType, () => {
+    }, display, openPage, scrollListener);
+    this.containerEl.addClass("sr-main-page");
+    const mainSettingsGroup = new import_obsidian21.SettingGroup(this.containerEl).setHeading(
+      t("SETTINGS_TAB_HEADING")
+    );
+    SettingsPageTypesArray.forEach((pageType2) => {
+      if (pageType2 === "main-page") return;
+      mainSettingsGroup.addSetting((setting) => {
+        setting.setName(getPageName(pageType2)).addButton((button) => {
+          button.setIcon("chevron-right").onClick(() => {
+            this.openPage(pageType2);
+          });
+          button.buttonEl.addClass("clickable-icon");
+        });
+        const iconEl = document.createElement("div");
+        iconEl.addClass("sr-settings-page-title-icon");
+        (0, import_obsidian21.setIcon)(iconEl, getPageIcon(pageType2));
+        setting.nameEl.insertBefore(iconEl, setting.nameEl.firstChild);
+        setting.nameEl.addClass("sr-settings-page-title");
+        setting.settingEl.addEventListener("click", () => {
+          this.openPage(pageType2);
+        });
+      });
+    });
+    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("HELP")).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("CHECK_WIKI", {
+          wikiUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/"
+        })
+      );
+    }).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("GITHUB_DISCUSSIONS", {
+          discussionsUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition/discussions/"
+        })
+      );
+    }).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("GITHUB_ISSUES", {
+          issuesUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition/issues/"
+        })
+      );
+    });
+    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("GROUP_CONTRIBUTING")).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("GITHUB_SOURCE_CODE", {
+          githubProjectUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition"
+        })
+      );
+    }).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("CODE_CONTRIBUTION_INFO", {
+          codeContributionUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/contributing/#code"
+        })
+      );
+    }).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("TRANSLATION_CONTRIBUTION_INFO", {
+          translationContributionUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/contributing/#translating"
+        })
+      );
+    });
+    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("LOGGING")).addSetting((setting) => {
+      setting.setName(t("DISPLAY_SCHEDULING_DEBUG_INFO")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showSchedulingDebugMessages).onChange(async (value) => {
+          this.plugin.data.settings.showSchedulingDebugMessages = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("DISPLAY_PARSER_DEBUG_INFO")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showParserDebugMessages).onChange(async (value) => {
+          this.plugin.data.settings.showParserDebugMessages = value;
+          setDebugParser(this.plugin.data.settings.showParserDebugMessages);
+          await this.plugin.savePluginData();
+        })
+      );
+    });
   }
-  constructor(leaf, nextNoteReviewHandler, settings) {
-    super(leaf);
-    this.nextNoteReviewHandler = nextNoteReviewHandler;
-    this.settings = settings;
-    if (this.settings.enableNoteReviewPaneOnStartup) {
-      this.registerEvent(this.app.workspace.on("file-open", () => this.redraw()));
-      this.registerEvent(this.app.vault.on("rename", () => this.redraw()));
-    }
+};
+
+// src/ui/obsidian-ui-components/content-container/settings-page/notes-page.tsx
+var import_obsidian22 = require("obsidian");
+var NotesPage = class extends SettingsPage {
+  constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
+    super(
+      pageContainerEl,
+      plugin,
+      pageType,
+      applySettingsUpdate,
+      display,
+      openPage,
+      scrollListener
+    );
+    new import_obsidian22.SettingGroup(this.containerEl).setHeading(t("GROUP_TAGS_FOLDERS")).addSetting((setting) => {
+      setting.setName(t("TAGS_TO_REVIEW")).setDesc(t("TAGS_TO_REVIEW_DESC")).addTextArea(
+        (text) => text.setValue(this.plugin.data.settings.tagsToReview.join(" ")).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.tagsToReview = value.split(/\s+/);
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("FOLDERS_TO_IGNORE")).setDesc(t("FOLDERS_TO_IGNORE_DESC")).addTextArea(
+        (text) => text.setValue(this.plugin.data.settings.noteFoldersToIgnore.join("\n")).onChange((value) => {
+          this.applySettingsUpdate(async () => {
+            this.plugin.data.settings.noteFoldersToIgnore = value.split(/\n+/).map((v2) => v2.trim()).filter((v2) => v2);
+            await this.plugin.savePluginData();
+            this.display();
+          });
+        })
+      );
+    });
+    new import_obsidian22.SettingGroup(this.containerEl).setHeading(t("NOTES_REVIEW_QUEUE")).addSetting((setting) => {
+      setting.setName(t("AUTO_NEXT_NOTE")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.autoNextNote).onChange(async (value) => {
+          this.plugin.data.settings.autoNextNote = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("OPEN_RANDOM_NOTE")).setDesc(t("OPEN_RANDOM_NOTE_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.openRandomNote).onChange(async (value) => {
+          this.plugin.data.settings.openRandomNote = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("REVIEW_PANE_ON_STARTUP")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.enableNoteReviewPaneOnStartup).onChange(async (value) => {
+          this.plugin.data.settings.enableNoteReviewPaneOnStartup = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("MAX_N_DAYS_REVIEW_QUEUE")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.maxNDaysNotesReviewQueue = DEFAULT_SETTINGS.maxNDaysNotesReviewQueue;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.maxNDaysNotesReviewQueue.toString()).onChange((value) => {
+          applySettingsUpdate(async () => {
+            const numValue = Number.parseInt(value);
+            if (!isNaN(numValue)) {
+              if (numValue < 1) {
+                new import_obsidian22.Notice(t("MIN_ONE_DAY"));
+                text.setValue(
+                  this.plugin.data.settings.maxNDaysNotesReviewQueue.toString()
+                );
+                return;
+              }
+              this.plugin.data.settings.maxNDaysNotesReviewQueue = numValue;
+              await this.plugin.savePluginData();
+            } else {
+              new import_obsidian22.Notice(t("VALID_NUMBER_WARNING"));
+            }
+          });
+        })
+      );
+    });
   }
-  getViewType() {
-    return REVIEW_QUEUE_VIEW_TYPE;
+};
+
+// src/ui/obsidian-ui-components/content-container/settings-page/scheduling-page.tsx
+var import_obsidian24 = require("obsidian");
+
+// src/delete-scheduling-data.ts
+var import_obsidian23 = require("obsidian");
+async function removeSchedulingInfo(vault, file) {
+  try {
+    await this.app.fileManager.processFrontMatter(file, (frontmatter) => {
+      delete frontmatter["sr-due"];
+      delete frontmatter["sr-interval"];
+      delete frontmatter["sr-ease"];
+    });
+    await vault.process(file, (data) => {
+      return data.replace(FLASHCARD_SCHEDULE_INFO, "");
+    });
+  } catch (e2) {
+    console.log({ filePath: file.path, error: e2 });
   }
-  getDisplayText() {
-    return t("NOTES_REVIEW_QUEUE");
+}
+async function deleteAllSchedulingData() {
+  const files = this.app.vault.getMarkdownFiles();
+  for (let i2 = 0; i2 < files.length; i2++) {
+    await removeSchedulingInfo(this.app.vault, files[i2]);
   }
-  getIcon() {
-    return "SpacedRepIcon";
-  }
-  onHeaderMenu(menu) {
-    menu.addItem((item) => {
-      item.setTitle(t("CLOSE")).setIcon("cross").onClick(() => {
-        this.app.workspace.detachLeavesOfType(REVIEW_QUEUE_VIEW_TYPE);
+  new import_obsidian23.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+
+// src/ui/obsidian-ui-components/content-container/settings-page/scheduling-page.tsx
+var SchedulingPage = class extends SettingsPage {
+  constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
+    super(
+      pageContainerEl,
+      plugin,
+      pageType,
+      applySettingsUpdate,
+      display,
+      openPage,
+      scrollListener
+    );
+    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("ALGORITHM")).addSetting((setting) => {
+      const algoSettingEl = setting.setName(t("ALGORITHM")).setDesc("").addDropdown(
+        (dropdown) => dropdown.addOptions({
+          "SM-2-OSR": t("SM2_OSR_VARIANT")
+        }).setValue(this.plugin.data.settings.algorithm).onChange(async (value) => {
+          this.plugin.data.settings.algorithm = value;
+          await this.plugin.savePluginData();
+        })
+      );
+      algoSettingEl.descEl.insertAdjacentHTML(
+        "beforeend",
+        t("CHECK_ALGORITHM_WIKI", {
+          algoUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/algorithms/"
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("BASE_EASE")).setDesc(t("BASE_EASE_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.baseEase = DEFAULT_SETTINGS.baseEase;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.baseEase.toString()).onChange((value) => {
+          applySettingsUpdate(async () => {
+            const numValue = Number.parseInt(value);
+            if (!isNaN(numValue)) {
+              if (numValue < 130) {
+                new import_obsidian24.Notice(t("BASE_EASE_MIN_WARNING"));
+                text.setValue(
+                  this.plugin.data.settings.baseEase.toString()
+                );
+                return;
+              }
+              this.plugin.data.settings.baseEase = numValue;
+              await this.plugin.savePluginData();
+            } else {
+              new import_obsidian24.Notice(t("VALID_NUMBER_WARNING"));
+            }
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("LAPSE_INTERVAL_CHANGE")).setDesc(t("LAPSE_INTERVAL_CHANGE_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.lapsesIntervalChange = DEFAULT_SETTINGS.lapsesIntervalChange;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addSlider(
+        (slider) => slider.setLimits(1, 99, 1).setValue(this.plugin.data.settings.lapsesIntervalChange * 100).setDynamicTooltip().onChange(async (value) => {
+          this.plugin.data.settings.lapsesIntervalChange = value / 100;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("EASY_BONUS")).setDesc(t("EASY_BONUS_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.easyBonus = DEFAULT_SETTINGS.easyBonus;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue((this.plugin.data.settings.easyBonus * 100).toString()).onChange((value) => {
+          applySettingsUpdate(async () => {
+            const numValue = Number.parseInt(value) / 100;
+            if (!isNaN(numValue)) {
+              if (numValue < 1) {
+                new import_obsidian24.Notice(t("EASY_BONUS_MIN_WARNING"));
+                text.setValue(
+                  (this.plugin.data.settings.easyBonus * 100).toString()
+                );
+                return;
+              }
+              this.plugin.data.settings.easyBonus = numValue;
+              await this.plugin.savePluginData();
+            } else {
+              new import_obsidian24.Notice(t("VALID_NUMBER_WARNING"));
+            }
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("LOAD_BALANCE")).setDesc(t("LOAD_BALANCE_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.loadBalance).onChange(async (value) => {
+          this.plugin.data.settings.loadBalance = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("MAX_INTERVAL")).setDesc(t("MAX_INTERVAL_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.maximumInterval = DEFAULT_SETTINGS.maximumInterval;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.maximumInterval.toString()).onChange((value) => {
+          applySettingsUpdate(async () => {
+            const numValue = Number.parseInt(value);
+            if (!isNaN(numValue)) {
+              if (numValue < 1) {
+                new import_obsidian24.Notice(t("MAX_INTERVAL_MIN_WARNING"));
+                text.setValue(
+                  this.plugin.data.settings.maximumInterval.toString()
+                );
+                return;
+              }
+              this.plugin.data.settings.maximumInterval = numValue;
+              await this.plugin.savePluginData();
+            } else {
+              new import_obsidian24.Notice(t("VALID_NUMBER_WARNING"));
+            }
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("START_OF_DAY")).setDesc(t("START_OF_DAY_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.startOfDay = DEFAULT_SETTINGS.startOfDay;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.startOfDay).onChange((value) => {
+          applySettingsUpdate(async () => {
+            const dayBoundary = DateUtil.strToDayBoundary(value);
+            if (dayBoundary === null) {
+              new import_obsidian24.Notice(t("INVALID_START_OF_DAY_WARNING"));
+              return;
+            } else {
+              this.plugin.data.settings.startOfDay = value;
+              await this.plugin.savePluginData();
+              globalDateProvider.setDayBoundary(dayBoundary);
+              console.log("Day boundary set to", dayBoundary);
+            }
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("MAX_LINK_CONTRIB")).setDesc(t("MAX_LINK_CONTRIB_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.maxLinkFactor = DEFAULT_SETTINGS.maxLinkFactor;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addSlider(
+        (slider) => slider.setLimits(0, 100, 1).setValue(this.plugin.data.settings.maxLinkFactor * 100).setDynamicTooltip().onChange(async (value) => {
+          this.plugin.data.settings.maxLinkFactor = value / 100;
+          await this.plugin.savePluginData();
+        })
+      );
+    });
+    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("GROUP_DATA_STORAGE")).addSetting((setting) => {
+      setting.setName(t("GROUP_DATA_STORAGE")).setDesc(t("GROUP_DATA_STORAGE_DESC")).addDropdown(
+        (dropdown) => dropdown.addOptions({
+          NOTES: t("STORE_IN_NOTES")
+        }).setValue(this.plugin.data.settings.dataStore).onChange(async (value) => {
+          this.plugin.data.settings.dataStore = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("INLINE_SCHEDULING_COMMENTS")).setDesc(t("INLINE_SCHEDULING_COMMENTS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.cardCommentOnSameLine).onChange(async (value) => {
+          this.plugin.data.settings.cardCommentOnSameLine = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    });
+    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("DELETE_SCHEDULING_DATA")).addSetting((setting) => {
+      setting.setName(t("DELETE_SCHEDULING_DATA")).setDesc(t("DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS")).addButton((button) => {
+        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_SCHEDULING_DATA"),
+            t("CONFIRM_SCHEDULING_DATA_DELETION"),
+            t("SCHEDULING_DATA_DELETION_IN_PROGRESS"),
+            deleteAllSchedulingData
+          ).open();
+        });
       });
     });
   }
-  redraw() {
-    if (!this.noteReviewQueue.reviewDecks) return;
-    const activeFile = this.app.workspace.getActiveFile();
-    const rootEl = createDiv("tree-item nav-folder mod-root");
-    const childrenEl = rootEl.createDiv("tree-item-children nav-folder-children");
-    for (const [deckKey, deck] of this.noteReviewQueue.reviewDecks) {
-      const deckCollapsed = !deck.activeFolders.has(deck.deckName);
-      const deckFolderEl = this.createRightPaneFolder(
-        childrenEl,
-        deckKey,
-        deckCollapsed,
-        false,
-        deck
-      ).getElementsByClassName("tree-item-children nav-folder-children")[0];
-      if (deck.newNotes.length > 0) {
-        const newNotesFolderEl = this.createRightPaneFolder(
-          deckFolderEl,
-          t("NEW"),
-          !deck.activeFolders.has(t("NEW")),
-          deckCollapsed,
-          deck
-        );
-        for (const newFile of deck.newNotes) {
-          const fileIsOpen = activeFile && newFile.path === activeFile.path;
-          if (fileIsOpen) {
-            deck.activeFolders.add(deck.deckName);
-            deck.activeFolders.add(t("NEW"));
-            this.changeFolderFolding(newNotesFolderEl);
-            this.changeFolderFolding(deckFolderEl);
-          }
-          this.createRightPaneFile(
-            newNotesFolderEl,
-            newFile.tfile,
-            fileIsOpen,
-            !deck.activeFolders.has(t("NEW")),
-            deck
-          );
-        }
-      }
-      if (deck.scheduledNotes.length > 0) {
-        const now2 = Date.now();
-        let currUnix = -1;
-        let schedFolderEl = null, folderTitle = "";
-        const maxDaysToRender = this.settings.maxNDaysNotesReviewQueue;
-        for (const sNote of deck.scheduledNotes) {
-          if (sNote.dueUnix != currUnix) {
-            const nDays = Math.ceil((sNote.dueUnix - now2) / TICKS_PER_DAY);
-            if (nDays > maxDaysToRender) {
-              break;
-            }
-            if (nDays === -1) {
-              folderTitle = t("YESTERDAY");
-            } else if (nDays === 0) {
-              folderTitle = t("TODAY");
-            } else if (nDays === 1) {
-              folderTitle = t("TOMORROW");
-            } else {
-              folderTitle = new Date(sNote.dueUnix).toDateString();
-            }
-            schedFolderEl = this.createRightPaneFolder(
-              deckFolderEl,
-              folderTitle,
-              !deck.activeFolders.has(folderTitle),
-              deckCollapsed,
-              deck
-            );
-            currUnix = sNote.dueUnix;
-          }
-          const fileIsOpen = activeFile && sNote.note.path === activeFile.path;
-          if (fileIsOpen) {
-            deck.activeFolders.add(deck.deckName);
-            deck.activeFolders.add(folderTitle);
-            this.changeFolderFolding(schedFolderEl);
-            this.changeFolderFolding(deckFolderEl);
-          }
-          this.createRightPaneFile(
-            schedFolderEl,
-            sNote.note.tfile,
-            fileIsOpen,
-            !deck.activeFolders.has(folderTitle),
-            deck
-          );
-        }
-      }
-    }
-    const contentEl = this.containerEl.children[1];
-    contentEl.empty();
-    contentEl.appendChild(rootEl);
-  }
-  createRightPaneFolder(parentEl, folderTitle, collapsed, hidden, deck) {
-    const folderEl = parentEl.createDiv("tree-item nav-folder");
-    const folderTitleEl = folderEl.createDiv("tree-item-self nav-folder-title");
-    const childrenEl = folderEl.createDiv(
-      "tree-item-children nav-folder-children"
-    );
-    const collapseIconEl = folderTitleEl.createDiv(
-      "tree-item-icon collapse-icon nav-folder-collapse-indicator"
-    );
-    collapseIconEl.innerHTML = COLLAPSE_ICON;
-    this.changeFolderFolding(folderEl, collapsed);
-    folderTitleEl.createDiv("tree-item-inner nav-folder-title-content").setText(folderTitle);
-    if (hidden) {
-      folderEl.style.display = "none";
-    }
-    folderTitleEl.onClickEvent(() => {
-      this.changeFolderFolding(folderEl, !folderEl.hasClass("is-collapsed"));
-      childrenEl.style.display = !folderEl.hasClass("is-collapsed") ? "block" : "none";
-      if (!folderEl.hasClass("is-collapsed")) {
-        deck.activeFolders.delete(folderTitle);
-      } else {
-        deck.activeFolders.add(folderTitle);
-      }
-    });
-    return folderEl;
-  }
-  createRightPaneFile(folderEl, file, fileElActive, hidden, deck) {
-    const childrenEl = folderEl.getElementsByClassName(
-      "tree-item-children nav-folder-children"
-    )[0];
-    const navFileEl = childrenEl.createDiv("nav-file");
-    if (hidden) {
-      childrenEl.style.display = "none";
-    }
-    const navFileTitle = navFileEl.createDiv("tree-item-self nav-file-title");
-    if (fileElActive) {
-      navFileTitle.addClass("is-active");
-    }
-    navFileTitle.createDiv("tree-item-inner nav-file-title-content").setText(file.basename);
-    navFileTitle.addEventListener(
-      "click",
-      async (event) => {
-        event.preventDefault();
-        await this.nextNoteReviewHandler.openNote(deck.deckName, file);
-        return false;
-      },
-      false
-    );
-    navFileTitle.addEventListener(
-      "contextmenu",
-      (event) => {
-        event.preventDefault();
-        const fileMenu = new import_obsidian15.Menu();
-        this.app.workspace.trigger("file-menu", fileMenu, file, "my-context-menu", null);
-        fileMenu.showAtPosition({
-          x: event.pageX,
-          y: event.pageY
-        });
-        return false;
-      },
-      false
-    );
-  }
-  changeFolderFolding(folderEl, collapsed = false) {
-    if (collapsed) {
-      folderEl.addClass("is-collapsed");
-      const collapseIconEl = folderEl.find("div.nav-folder-collapse-indicator");
-      collapseIconEl.addClass("is-collapsed");
-    } else {
-      folderEl.removeClass("is-collapsed");
-      const collapseIconEl = folderEl.find("div.nav-folder-collapse-indicator");
-      collapseIconEl.removeClass("is-collapsed");
-    }
-  }
 };
-
-// src/gui/settings-tab/settings.tsx
-var import_obsidian17 = require("obsidian");
 
 // node_modules/.pnpm/@kurkle+color@0.3.4/node_modules/@kurkle/color/dist/color.esm.js
 function round(v2) {
   return v2 + 0.5 | 0;
 }
-var lim = (v2, l2, h6) => Math.max(Math.min(v2, h6), l2);
+var lim = (v2, l2, h4) => Math.max(Math.min(v2, h4), l2);
 function p2b(v2) {
   return lim(round(v2 * 2.55), 0, 255);
 }
@@ -14438,17 +16457,17 @@ function hexString(v2) {
   return v2 ? "#" + f2(v2.r) + f2(v2.g) + f2(v2.b) + alpha(v2.a, f2) : void 0;
 }
 var HUE_RE = /^(hsla?|hwb|hsv)\(\s*([-+.e\d]+)(?:deg)?[\s,]+([-+.e\d]+)%[\s,]+([-+.e\d]+)%(?:[\s,]+([-+.e\d]+)(%)?)?\s*\)$/;
-function hsl2rgbn(h6, s2, l2) {
+function hsl2rgbn(h4, s2, l2) {
   const a2 = s2 * Math.min(l2, 1 - l2);
-  const f2 = (n2, k = (n2 + h6 / 30) % 12) => l2 - a2 * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+  const f2 = (n2, k = (n2 + h4 / 30) % 12) => l2 - a2 * Math.max(Math.min(k - 3, 9 - k, 1), -1);
   return [f2(0), f2(8), f2(4)];
 }
-function hsv2rgbn(h6, s2, v2) {
-  const f2 = (n2, k = (n2 + h6 / 60) % 6) => v2 - v2 * s2 * Math.max(Math.min(k, 4 - k, 1), 0);
+function hsv2rgbn(h4, s2, v2) {
+  const f2 = (n2, k = (n2 + h4 / 60) % 6) => v2 - v2 * s2 * Math.max(Math.min(k, 4 - k, 1), 0);
   return [f2(5), f2(3), f2(1)];
 }
-function hwb2rgbn(h6, w2, b2) {
-  const rgb = hsl2rgbn(h6, 1, 0.5);
+function hwb2rgbn(h4, w2, b2) {
+  const rgb = hsl2rgbn(h4, 1, 0.5);
   let i2;
   if (w2 + b2 > 1) {
     i2 = 1 / (w2 + b2);
@@ -14478,29 +16497,29 @@ function rgb2hsl(v2) {
   const max = Math.max(r2, g2, b2);
   const min = Math.min(r2, g2, b2);
   const l2 = (max + min) / 2;
-  let h6, s2, d2;
+  let h4, s2, d2;
   if (max !== min) {
     d2 = max - min;
     s2 = l2 > 0.5 ? d2 / (2 - max - min) : d2 / (max + min);
-    h6 = hueValue(r2, g2, b2, d2, max);
-    h6 = h6 * 60 + 0.5;
+    h4 = hueValue(r2, g2, b2, d2, max);
+    h4 = h4 * 60 + 0.5;
   }
-  return [h6 | 0, s2 || 0, l2];
+  return [h4 | 0, s2 || 0, l2];
 }
 function calln(f2, a2, b2, c2) {
   return (Array.isArray(a2) ? f2(a2[0], a2[1], a2[2]) : f2(a2, b2, c2)).map(n2b);
 }
-function hsl2rgb(h6, s2, l2) {
-  return calln(hsl2rgbn, h6, s2, l2);
+function hsl2rgb(h4, s2, l2) {
+  return calln(hsl2rgbn, h4, s2, l2);
 }
-function hwb2rgb(h6, w2, b2) {
-  return calln(hwb2rgbn, h6, w2, b2);
+function hwb2rgb(h4, w2, b2) {
+  return calln(hwb2rgbn, h4, w2, b2);
 }
-function hsv2rgb(h6, s2, v2) {
-  return calln(hsv2rgbn, h6, s2, v2);
+function hsv2rgb(h4, s2, v2) {
+  return calln(hsv2rgbn, h4, s2, v2);
 }
-function hue(h6) {
-  return (h6 % 360 + 360) % 360;
+function hue(h4) {
+  return (h4 % 360 + 360) % 360;
 }
 function hueParse(str) {
   const m2 = HUE_RE.exec(str);
@@ -14512,15 +16531,15 @@ function hueParse(str) {
   if (m2[5] !== v2) {
     a2 = m2[6] ? p2b(+m2[5]) : n2b(+m2[5]);
   }
-  const h6 = hue(+m2[2]);
+  const h4 = hue(+m2[2]);
   const p1 = +m2[3] / 100;
   const p2 = +m2[4] / 100;
   if (m2[1] === "hwb") {
-    v2 = hwb2rgb(h6, p1, p2);
+    v2 = hwb2rgb(h4, p1, p2);
   } else if (m2[1] === "hsv") {
-    v2 = hsv2rgb(h6, p1, p2);
+    v2 = hsv2rgb(h4, p1, p2);
   } else {
-    v2 = hsl2rgb(h6, p1, p2);
+    v2 = hsl2rgb(h4, p1, p2);
   }
   return {
     r: v2[0],
@@ -14530,22 +16549,22 @@ function hueParse(str) {
   };
 }
 function rotate(v2, deg) {
-  var h6 = rgb2hsl(v2);
-  h6[0] = hue(h6[0] + deg);
-  h6 = hsl2rgb(h6);
-  v2.r = h6[0];
-  v2.g = h6[1];
-  v2.b = h6[2];
+  var h4 = rgb2hsl(v2);
+  h4[0] = hue(h4[0] + deg);
+  h4 = hsl2rgb(h4);
+  v2.r = h4[0];
+  v2.g = h4[1];
+  v2.b = h4[2];
 }
 function hslString(v2) {
   if (!v2) {
     return;
   }
   const a2 = rgb2hsl(v2);
-  const h6 = a2[0];
+  const h4 = a2[0];
   const s2 = n2p(a2[1]);
   const l2 = n2p(a2[2]);
-  return v2.a < 255 ? `hsla(${h6}, ${s2}%, ${l2}%, ${b2n(v2.a)})` : `hsl(${h6}, ${s2}%, ${l2}%)`;
+  return v2.a < 255 ? `hsla(${h4}, ${s2}%, ${l2}%, ${b2n(v2.a)})` : `hsl(${h4}, ${s2}%, ${l2}%)`;
 }
 var map = {
   x: "dark",
@@ -16107,12 +18126,12 @@ function renderText(ctx, text, x2, y2, font, opts = {}) {
   ctx.restore();
 }
 function addRoundedRectPath(ctx, rect) {
-  const { x: x2, y: y2, w: w2, h: h6, radius } = rect;
+  const { x: x2, y: y2, w: w2, h: h4, radius } = rect;
   ctx.arc(x2 + radius.topLeft, y2 + radius.topLeft, radius.topLeft, 1.5 * PI, PI, true);
-  ctx.lineTo(x2, y2 + h6 - radius.bottomLeft);
-  ctx.arc(x2 + radius.bottomLeft, y2 + h6 - radius.bottomLeft, radius.bottomLeft, PI, HALF_PI, true);
-  ctx.lineTo(x2 + w2 - radius.bottomRight, y2 + h6);
-  ctx.arc(x2 + w2 - radius.bottomRight, y2 + h6 - radius.bottomRight, radius.bottomRight, HALF_PI, 0, true);
+  ctx.lineTo(x2, y2 + h4 - radius.bottomLeft);
+  ctx.arc(x2 + radius.bottomLeft, y2 + h4 - radius.bottomLeft, radius.bottomLeft, PI, HALF_PI, true);
+  ctx.lineTo(x2 + w2 - radius.bottomRight, y2 + h4);
+  ctx.arc(x2 + w2 - radius.bottomRight, y2 + h4 - radius.bottomRight, radius.bottomRight, HALF_PI, 0, true);
   ctx.lineTo(x2 + w2, y2 + radius.topRight);
   ctx.arc(x2 + w2 - radius.topRight, y2 + radius.topRight, radius.topRight, 0, -HALF_PI, true);
   ctx.lineTo(x2 + radius.topLeft, y2);
@@ -20469,8 +22488,8 @@ var Scale = class _Scale extends Element {
     const labelSizes = this._getLabelSizes();
     const padding = optionTicks.autoSkipPadding || 0;
     const w2 = labelSizes ? labelSizes.widest.width + padding : 0;
-    const h6 = labelSizes ? labelSizes.highest.height + padding : 0;
-    return this.isHorizontal() ? h6 * cos > w2 * sin ? w2 / cos : h6 / sin : h6 * sin < w2 * cos ? h6 / cos : w2 / sin;
+    const h4 = labelSizes ? labelSizes.highest.height + padding : 0;
+    return this.isHorizontal() ? h4 * cos > w2 * sin ? w2 / cos : h4 / sin : h4 * sin < w2 * cos ? h4 / cos : w2 / sin;
   }
   _isVisible() {
     const display = this.options.display;
@@ -23007,12 +25026,12 @@ function inflateRect(rect, amount, refRect = {}) {
   const x2 = rect.x !== refRect.x ? -amount : 0;
   const y2 = rect.y !== refRect.y ? -amount : 0;
   const w2 = (rect.x + rect.w !== refRect.x + refRect.w ? amount : 0) - x2;
-  const h6 = (rect.y + rect.h !== refRect.y + refRect.h ? amount : 0) - y2;
+  const h4 = (rect.y + rect.h !== refRect.y + refRect.h ? amount : 0) - y2;
   return {
     x: rect.x + x2,
     y: rect.y + y2,
     w: rect.w + w2,
-    h: rect.h + h6,
+    h: rect.h + h4,
     radius: rect.radius
   };
 }
@@ -25496,11 +27515,11 @@ function leftForTextAlign(x2, w2, align) {
   }
   return x2;
 }
-function yForAngle(y2, h6, angle) {
+function yForAngle(y2, h4, angle) {
   if (angle === 90 || angle === 270) {
-    y2 -= h6 / 2;
+    y2 -= h4 / 2;
   } else if (angle > 270 || angle < 90) {
-    y2 -= h6;
+    y2 -= h4;
   }
   return y2;
 }
@@ -25598,10 +27617,10 @@ var RadialLinearScale = class extends LinearScaleBase {
   setDimensions() {
     const padding = this._padding = toPadding(getTickBackdropHeight(this.options) / 2);
     const w2 = this.width = this.maxWidth - padding.width;
-    const h6 = this.height = this.maxHeight - padding.height;
+    const h4 = this.height = this.maxHeight - padding.height;
     this.xCenter = Math.floor(this.left + w2 / 2 + padding.left);
-    this.yCenter = Math.floor(this.top + h6 / 2 + padding.top);
-    this.drawingArea = Math.floor(Math.min(w2, h6) / 2);
+    this.yCenter = Math.floor(this.top + h4 / 2 + padding.top);
+    this.drawingArea = Math.floor(Math.min(w2, h4) / 2);
   }
   determineDataLimits() {
     const { min, max } = this.getMinMax(false);
@@ -26357,6 +28376,144 @@ var TimeSeriesScale = class extends TimeScale {
 __publicField(TimeSeriesScale, "id", "timeseries");
 __publicField(TimeSeriesScale, "defaults", TimeScale.defaults);
 
+// src/ui/obsidian-ui-components/content-container/settings-page/statistics-page/statistics-page.tsx
+var import_obsidian26 = require("obsidian");
+
+// src/ui/obsidian-ui-components/content-container/settings-page/statistics-page/settings-item-override-component.tsx
+var import_obsidian25 = require("obsidian");
+var SettingsItemOverrideComponent = class extends import_obsidian25.BaseComponent {
+  constructor(parentContainerEl) {
+    super();
+    parentContainerEl.addClass("sr-setting-override");
+    this.containerEl = parentContainerEl.createDiv();
+  }
+  /**
+   * Destroys the component.
+   */
+  destroy() {
+    this.containerEl.empty();
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/settings-page/statistics-page/chart-component.tsx
+var ChartComponent = class extends SettingsItemOverrideComponent {
+  constructor(parentContainerEl, canvasId, summaryId, type, title, subtitle, labels, data, summary, seriesTitle = "", xAxisTitle = "", yAxisTitle = "") {
+    super(parentContainerEl);
+    this.containerEl.addClass("sr-chart-container");
+    this.canvasContainerEl = this.containerEl.createDiv();
+    this.canvasContainerEl.addClass("sr-chart-canvas-container");
+    this.canvasEl = this.canvasContainerEl.createEl("canvas");
+    this.canvasEl.id = canvasId;
+    this.summaryEl = this.containerEl.createDiv();
+    this.summaryEl.id = summaryId;
+    const style = getComputedStyle(document.body);
+    const textColor = style.getPropertyValue("--text-normal");
+    let scales = {};
+    let backgroundColor = ["#2196f3"];
+    if (type !== "pie") {
+      scales = {
+        x: {
+          title: {
+            display: xAxisTitle !== "",
+            text: xAxisTitle,
+            color: textColor
+          }
+        },
+        y: {
+          title: {
+            display: yAxisTitle !== "",
+            text: yAxisTitle,
+            color: textColor
+          }
+        }
+      };
+    } else {
+      backgroundColor = ["#2196f3", "#4caf50", "green"];
+    }
+    const shouldFilter = canvasId === "forecastChart" || canvasId === "intervalsChart";
+    const statsChart = new Chart(document.getElementById(canvasId), {
+      type,
+      data: {
+        labels: shouldFilter ? labels.slice(0, 31) : labels,
+        datasets: [
+          {
+            label: seriesTitle,
+            backgroundColor,
+            data: shouldFilter ? data.slice(0, 31) : data,
+            borderRadius: 4
+          }
+        ]
+      },
+      options: {
+        scales,
+        plugins: {
+          title: {
+            display: title !== "",
+            text: title,
+            font: {
+              size: 22
+            },
+            color: textColor
+          },
+          subtitle: {
+            display: subtitle !== "",
+            text: subtitle,
+            font: {
+              size: 16,
+              style: "italic"
+            },
+            color: textColor,
+            padding: { top: 0, bottom: 24 }
+          },
+          legend: {
+            display: false
+          }
+        },
+        aspectRatio: 2,
+        responsive: true,
+        animation: {
+          duration: 0
+        }
+      }
+    });
+    if (shouldFilter) {
+      const chartPeriodEl = document.getElementById("sr-chart-period");
+      chartPeriodEl.addEventListener("change", () => {
+        let filteredLabels, filteredData;
+        const chartPeriod = chartPeriodEl.value;
+        if (chartPeriod === "month") {
+          filteredLabels = labels.slice(0, 31);
+          filteredData = data.slice(0, 31);
+        } else if (chartPeriod === "quarter") {
+          filteredLabels = labels.slice(0, 91);
+          filteredData = data.slice(0, 91);
+        } else if (chartPeriod === "year") {
+          filteredLabels = labels.slice(0, 366);
+          filteredData = data.slice(0, 366);
+        } else {
+          filteredLabels = labels;
+          filteredData = data;
+        }
+        statsChart.data.labels = filteredLabels;
+        statsChart.data.datasets[0] = {
+          ...statsChart.data.datasets[0],
+          label: seriesTitle,
+          backgroundColor,
+          data: filteredData
+        };
+        statsChart.update();
+      });
+    }
+    document.getElementById(`${canvasId}Summary`).innerText = summary;
+    document.getElementById(`${canvasId}Summary`).style.textAlign = canvasId === "cardTypesChart" ? "right" : "center";
+    this.chart = statsChart;
+  }
+  destroy() {
+    if (this.chart) this.chart.destroy();
+    this.containerEl.empty();
+  }
+};
+
 // node_modules/.pnpm/gridjs@6.2.0/node_modules/gridjs/dist/gridjs.module.js
 function t2(t3, n2) {
   for (var e2 = 0; e2 < n2.length; e2++) {
@@ -26486,7 +28643,7 @@ function I() {
   });
 }
 function T(t3, n2, e2, r2, o2, i2, u2, s2, a2, l2) {
-  var c2, f2, p2, d2, h6, _2, y2, g2 = r2 && r2.__k || v, b2 = g2.length;
+  var c2, f2, p2, d2, h4, _2, y2, g2 = r2 && r2.__k || v, b2 = g2.length;
   for (e2.__k = [], c2 = 0; c2 < n2.length; c2++) if (null != (d2 = e2.__k[c2] = null == (d2 = n2[c2]) || "boolean" == typeof d2 ? null : "string" == typeof d2 || "number" == typeof d2 || "bigint" == typeof d2 ? x(null, d2, null, null, d2) : Array.isArray(d2) ? x(S, { children: d2 }, null, null, null) : d2.__b > 0 ? x(d2.type, d2.props, d2.key, d2.ref ? d2.ref : null, d2.__v) : d2)) {
     if (d2.__ = e2, d2.__b = e2.__b + 1, null === (p2 = g2[c2]) || p2 && d2.key == p2.key && d2.type === p2.type) g2[c2] = void 0;
     else for (f2 = 0; f2 < b2; f2++) {
@@ -26496,7 +28653,7 @@ function T(t3, n2, e2, r2, o2, i2, u2, s2, a2, l2) {
       }
       p2 = null;
     }
-    M(t3, d2, p2 = p2 || m, o2, i2, u2, s2, a2, l2), h6 = d2.__e, (f2 = d2.ref) && p2.ref != f2 && (y2 || (y2 = []), p2.ref && y2.push(p2.ref, null, d2), y2.push(f2, d2.__c || h6, d2)), null != h6 ? (null == _2 && (_2 = h6), "function" == typeof d2.type && d2.__k === p2.__k ? d2.__d = a2 = L(d2, a2, t3) : a2 = A(t3, d2, p2, g2, h6, a2), "function" == typeof e2.type && (e2.__d = a2)) : a2 && p2.__e == a2 && a2.parentNode != t3 && (a2 = P(p2));
+    M(t3, d2, p2 = p2 || m, o2, i2, u2, s2, a2, l2), h4 = d2.__e, (f2 = d2.ref) && p2.ref != f2 && (y2 || (y2 = []), p2.ref && y2.push(p2.ref, null, d2), y2.push(f2, d2.__c || h4, d2)), null != h4 ? (null == _2 && (_2 = h4), "function" == typeof d2.type && d2.__k === p2.__k ? d2.__d = a2 = L(d2, a2, t3) : a2 = A(t3, d2, p2, g2, h4, a2), "function" == typeof e2.type && (e2.__d = a2)) : a2 && p2.__e == a2 && a2.parentNode != t3 && (a2 = P(p2));
   }
   for (e2.__e = _2, c2 = b2; c2--; ) null != g2[c2] && W(g2[c2], g2[c2]);
   if (y2) for (c2 = 0; c2 < y2.length; c2++) U(y2[c2], y2[++c2], y2[++c2]);
@@ -26543,12 +28700,12 @@ function D(t3) {
   this.l[t3.type + true](c.event ? c.event(t3) : t3);
 }
 function M(t3, n2, e2, r2, o2, i2, u2, s2, a2) {
-  var l2, f2, p2, d2, h6, _2, m2, v2, y2, b2, w2, x2, k, P2, C2, E2 = n2.type;
+  var l2, f2, p2, d2, h4, _2, m2, v2, y2, b2, w2, x2, k, P2, C2, E2 = n2.type;
   if (void 0 !== n2.constructor) return null;
   null != e2.__h && (a2 = e2.__h, s2 = n2.__e = e2.__e, n2.__h = null, i2 = [s2]), (l2 = c.__b) && l2(n2);
   try {
     t: if ("function" == typeof E2) {
-      if (v2 = n2.props, y2 = (l2 = E2.contextType) && r2[l2.__c], b2 = l2 ? y2 ? y2.props.value : l2.__ : r2, e2.__c ? m2 = (f2 = n2.__c = e2.__c).__ = f2.__E : ("prototype" in E2 && E2.prototype.render ? n2.__c = f2 = new E2(v2, b2) : (n2.__c = f2 = new N(v2, b2), f2.constructor = E2, f2.render = B), y2 && y2.sub(f2), f2.props = v2, f2.state || (f2.state = {}), f2.context = b2, f2.__n = r2, p2 = f2.__d = true, f2.__h = [], f2._sb = []), null == f2.__s && (f2.__s = f2.state), null != E2.getDerivedStateFromProps && (f2.__s == f2.state && (f2.__s = g({}, f2.__s)), g(f2.__s, E2.getDerivedStateFromProps(v2, f2.__s))), d2 = f2.props, h6 = f2.state, p2) null == E2.getDerivedStateFromProps && null != f2.componentWillMount && f2.componentWillMount(), null != f2.componentDidMount && f2.__h.push(f2.componentDidMount);
+      if (v2 = n2.props, y2 = (l2 = E2.contextType) && r2[l2.__c], b2 = l2 ? y2 ? y2.props.value : l2.__ : r2, e2.__c ? m2 = (f2 = n2.__c = e2.__c).__ = f2.__E : ("prototype" in E2 && E2.prototype.render ? n2.__c = f2 = new E2(v2, b2) : (n2.__c = f2 = new N(v2, b2), f2.constructor = E2, f2.render = B), y2 && y2.sub(f2), f2.props = v2, f2.state || (f2.state = {}), f2.context = b2, f2.__n = r2, p2 = f2.__d = true, f2.__h = [], f2._sb = []), null == f2.__s && (f2.__s = f2.state), null != E2.getDerivedStateFromProps && (f2.__s == f2.state && (f2.__s = g({}, f2.__s)), g(f2.__s, E2.getDerivedStateFromProps(v2, f2.__s))), d2 = f2.props, h4 = f2.state, p2) null == E2.getDerivedStateFromProps && null != f2.componentWillMount && f2.componentWillMount(), null != f2.componentDidMount && f2.__h.push(f2.componentDidMount);
       else {
         if (null == E2.getDerivedStateFromProps && v2 !== d2 && null != f2.componentWillReceiveProps && f2.componentWillReceiveProps(v2, b2), !f2.__e && null != f2.shouldComponentUpdate && false === f2.shouldComponentUpdate(v2, f2.__s, b2) || n2.__v === e2.__v) {
           for (f2.props = v2, f2.state = f2.__s, n2.__v !== e2.__v && (f2.__d = false), f2.__v = n2, n2.__e = e2.__e, n2.__k = e2.__k, n2.__k.forEach(function(t4) {
@@ -26558,7 +28715,7 @@ function M(t3, n2, e2, r2, o2, i2, u2, s2, a2) {
           break t;
         }
         null != f2.componentWillUpdate && f2.componentWillUpdate(v2, f2.__s, b2), null != f2.componentDidUpdate && f2.__h.push(function() {
-          f2.componentDidUpdate(d2, h6, _2);
+          f2.componentDidUpdate(d2, h4, _2);
         });
       }
       if (f2.context = b2, f2.props = v2, f2.__v = n2, f2.__P = t3, x2 = c.__r, k = 0, "prototype" in E2 && E2.prototype.render) {
@@ -26567,7 +28724,7 @@ function M(t3, n2, e2, r2, o2, i2, u2, s2, a2) {
       } else do {
         f2.__d = false, x2 && x2(n2), l2 = f2.render(f2.props, f2.state, f2.context), f2.state = f2.__s;
       } while (f2.__d && ++k < 25);
-      f2.state = f2.__s, null != f2.getChildContext && (r2 = g(g({}, r2), f2.getChildContext())), p2 || null == f2.getSnapshotBeforeUpdate || (_2 = f2.getSnapshotBeforeUpdate(d2, h6)), C2 = null != l2 && l2.type === S && null == l2.key ? l2.props.children : l2, T(t3, Array.isArray(C2) ? C2 : [C2], n2, e2, r2, o2, i2, u2, s2, a2), f2.base = n2.__e, n2.__h = null, f2.__h.length && u2.push(f2), m2 && (f2.__E = f2.__ = null), f2.__e = false;
+      f2.state = f2.__s, null != f2.getChildContext && (r2 = g(g({}, r2), f2.getChildContext())), p2 || null == f2.getSnapshotBeforeUpdate || (_2 = f2.getSnapshotBeforeUpdate(d2, h4)), C2 = null != l2 && l2.type === S && null == l2.key ? l2.props.children : l2, T(t3, Array.isArray(C2) ? C2 : [C2], n2, e2, r2, o2, i2, u2, s2, a2), f2.base = n2.__e, n2.__h = null, f2.__h.length && u2.push(f2), m2 && (f2.__E = f2.__ = null), f2.__e = false;
     } else null == i2 && n2.__v === e2.__v ? (n2.__k = e2.__k, n2.__e = e2.__e) : n2.__e = R(e2.__e, n2, e2, r2, o2, i2, u2, a2);
     (l2 = c.diffed) && l2(n2);
   } catch (t4) {
@@ -26586,18 +28743,18 @@ function F(t3, n2) {
   });
 }
 function R(t3, n2, e2, r2, o2, i2, u2, s2) {
-  var a2, c2, f2, p2 = e2.props, d2 = n2.props, h6 = n2.type, _2 = 0;
-  if ("svg" === h6 && (o2 = true), null != i2) {
-    for (; _2 < i2.length; _2++) if ((a2 = i2[_2]) && "setAttribute" in a2 == !!h6 && (h6 ? a2.localName === h6 : 3 === a2.nodeType)) {
+  var a2, c2, f2, p2 = e2.props, d2 = n2.props, h4 = n2.type, _2 = 0;
+  if ("svg" === h4 && (o2 = true), null != i2) {
+    for (; _2 < i2.length; _2++) if ((a2 = i2[_2]) && "setAttribute" in a2 == !!h4 && (h4 ? a2.localName === h4 : 3 === a2.nodeType)) {
       t3 = a2, i2[_2] = null;
       break;
     }
   }
   if (null == t3) {
-    if (null === h6) return document.createTextNode(d2);
-    t3 = o2 ? document.createElementNS("http://www.w3.org/2000/svg", h6) : document.createElement(h6, d2.is && d2), i2 = null, s2 = false;
+    if (null === h4) return document.createTextNode(d2);
+    t3 = o2 ? document.createElementNS("http://www.w3.org/2000/svg", h4) : document.createElement(h4, d2.is && d2), i2 = null, s2 = false;
   }
-  if (null === h6) p2 === d2 || s2 && t3.data === d2 || (t3.data = d2);
+  if (null === h4) p2 === d2 || s2 && t3.data === d2 || (t3.data = d2);
   else {
     if (i2 = i2 && l.call(t3.childNodes), c2 = (p2 = e2.props || m).dangerouslySetInnerHTML, f2 = d2.dangerouslySetInnerHTML, !s2) {
       if (null != i2) for (p2 = {}, _2 = 0; _2 < t3.attributes.length; _2++) p2[t3.attributes[_2].name] = t3.attributes[_2].value;
@@ -26608,8 +28765,8 @@ function R(t3, n2, e2, r2, o2, i2, u2, s2) {
       for (i3 in e3) "children" === i3 || "key" === i3 || i3 in n3 || H(t4, i3, null, e3[i3], r3);
       for (i3 in n3) o3 && "function" != typeof n3[i3] || "children" === i3 || "key" === i3 || "value" === i3 || "checked" === i3 || e3[i3] === n3[i3] || H(t4, i3, n3[i3], e3[i3], r3);
     })(t3, d2, p2, o2, s2), f2) n2.__k = [];
-    else if (_2 = n2.props.children, T(t3, Array.isArray(_2) ? _2 : [_2], n2, e2, r2, o2 && "foreignObject" !== h6, i2, u2, i2 ? i2[0] : e2.__k && P(e2, 0), s2), null != i2) for (_2 = i2.length; _2--; ) null != i2[_2] && b(i2[_2]);
-    s2 || ("value" in d2 && void 0 !== (_2 = d2.value) && (_2 !== t3.value || "progress" === h6 && !_2 || "option" === h6 && _2 !== p2.value) && H(t3, "value", _2, p2.value, false), "checked" in d2 && void 0 !== (_2 = d2.checked) && _2 !== t3.checked && H(t3, "checked", _2, p2.checked, false));
+    else if (_2 = n2.props.children, T(t3, Array.isArray(_2) ? _2 : [_2], n2, e2, r2, o2 && "foreignObject" !== h4, i2, u2, i2 ? i2[0] : e2.__k && P(e2, 0), s2), null != i2) for (_2 = i2.length; _2--; ) null != i2[_2] && b(i2[_2]);
+    s2 || ("value" in d2 && void 0 !== (_2 = d2.value) && (_2 !== t3.value || "progress" === h4 && !_2 || "option" === h4 && _2 !== p2.value) && H(t3, "value", _2, p2.value, false), "checked" in d2 && void 0 !== (_2 = d2.checked) && _2 !== t3.checked && H(t3, "checked", _2, p2.checked, false));
   }
   return t3;
 }
@@ -27095,7 +29252,7 @@ var Ft = /* @__PURE__ */ (function(t3) {
   } }]), o2;
 })(tt);
 function Rt() {
-  var t3 = It(), n2 = t3.pagination, e2 = n2.server, r2 = n2.summary, o2 = void 0 === r2 || r2, i2 = n2.nextButton, u2 = void 0 === i2 || i2, s2 = n2.prevButton, a2 = void 0 === s2 || s2, l2 = n2.buttonsCount, c2 = void 0 === l2 ? 3 : l2, f2 = n2.limit, p2 = void 0 === f2 ? 10 : f2, d2 = n2.page, h6 = void 0 === d2 ? 0 : d2, _2 = n2.resetPageOnUpdate, m2 = void 0 === _2 || _2, v2 = bt(null), y2 = yt(h6), g2 = y2[0], b2 = y2[1], x2 = yt(0), k = x2[0], N2 = x2[1], P2 = At();
+  var t3 = It(), n2 = t3.pagination, e2 = n2.server, r2 = n2.summary, o2 = void 0 === r2 || r2, i2 = n2.nextButton, u2 = void 0 === i2 || i2, s2 = n2.prevButton, a2 = void 0 === s2 || s2, l2 = n2.buttonsCount, c2 = void 0 === l2 ? 3 : l2, f2 = n2.limit, p2 = void 0 === f2 ? 10 : f2, d2 = n2.page, h4 = void 0 === d2 ? 0 : d2, _2 = n2.resetPageOnUpdate, m2 = void 0 === _2 || _2, v2 = bt(null), y2 = yt(h4), g2 = y2[0], b2 = y2[1], x2 = yt(0), k = x2[0], N2 = x2[1], P2 = At();
   gt(function() {
     return e2 ? (v2.current = new Ft({ limit: p2, page: g2, url: e2.url, body: e2.body }), t3.pipeline.register(v2.current)) : (v2.current = new Mt({ limit: p2, page: g2 }), t3.pipeline.register(v2.current)), v2.current instanceof Ft ? t3.pipeline.on("afterProcess", function(t4) {
       return N2(t4.length);
@@ -27366,7 +29523,7 @@ var Qt = /* @__PURE__ */ (function() {
     return r2;
   }, t3;
 })();
-var Yt = "undefined" != typeof Symbol ? Symbol.iterator || (Symbol.iterator = Symbol("Symbol.iterator")) : "@@iterator";
+var Yt = "undefined" != typeof Symbol ? Symbol.iterator || (Symbol.iterator = /* @__PURE__ */ Symbol("Symbol.iterator")) : "@@iterator";
 function tn(t3, n2, e2) {
   if (!t3.s) {
     if (e2 instanceof nn) {
@@ -27770,8 +29927,8 @@ var yn = function(t3, n2, r2, o2) {
     }), c2 = false, f2 = false, p2 = false, d2 = false;
     if (void 0 !== l2 ? r2 ? -1 === l2.direction ? p2 = true : d2 = true : 1 === a2 ? d2 = true : a2 > 1 && (f2 = true, c2 = true) : 0 === a2 ? c2 = true : a2 > 0 && !r2 ? (c2 = true, f2 = true) : a2 > 0 && r2 && (c2 = true), f2 && (s2 = []), c2) s2.push({ index: t3, direction: n2, compare: o2 });
     else if (d2) {
-      var h6 = s2.indexOf(l2);
-      s2[h6].direction = n2;
+      var h4 = s2.indexOf(l2);
+      s2[h4].direction = n2;
     } else if (p2) {
       var _2 = s2.indexOf(l2);
       s2.splice(_2, 1);
@@ -27990,8 +30147,52 @@ var Ln = /* @__PURE__ */ (function(t3) {
   }, n2;
 })(Q);
 
-// src/gui/settings-tab/statistics.tsx
-var import_vhtml2 = __toESM(require_vhtml());
+// src/ui/obsidian-ui-components/content-container/settings-page/statistics-page/note-stats-component.tsx
+var NoteStatsComponent = class extends SettingsItemOverrideComponent {
+  constructor(parentContainerEl, noteEases) {
+    super(parentContainerEl);
+    this.containerEl.id = "noteStats";
+    const rowsPerPage = 10;
+    this.noteStatsGrid = new Ln({
+      columns: [
+        {
+          name: t("NOTE")
+        },
+        {
+          name: t("EASE"),
+          sort: true,
+          width: "110px"
+        }
+      ],
+      search: true,
+      autoWidth: false,
+      data: Object.entries(noteEases).sort((a2, b2) => b2[1] - a2[1]),
+      pagination: Object.entries(noteEases).length > rowsPerPage ? {
+        limit: rowsPerPage,
+        summary: false
+      } : void 0,
+      language: {
+        search: {
+          placeholder: t("SEARCH")
+        },
+        pagination: {
+          previous: "<",
+          next: ">"
+        }
+      }
+    });
+    this.noteStatsGrid.render(this.containerEl);
+  }
+  /**
+   * Destroys the NoteStatsComponent and its Grid.
+   */
+  destroy() {
+    if (this.noteStatsGrid) this.noteStatsGrid.destroy();
+    this.containerEl.empty();
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/settings-page/statistics-page/statistics-page.tsx
 Chart.register(
   BarElement,
   BarController,
@@ -28004,16 +30205,46 @@ Chart.register(
   PieController,
   ArcElement
 );
-var StatisticsView = class {
-  constructor(containerEl, osrCore, app) {
-    this.containerEl = containerEl;
-    this.osrCore = osrCore;
-    this.app = app;
+var StatisticsPage = class extends SettingsPage {
+  constructor(pageContainerEl, plugin, pageType, openPage, scrollListener) {
+    super(
+      pageContainerEl,
+      plugin,
+      pageType,
+      () => {
+      },
+      () => {
+      },
+      openPage,
+      scrollListener
+    );
+    this.containerEl.addClass("sr-statistics-page");
+    this.plugin = plugin;
+    new import_obsidian26.Setting(this.containerEl).setName(t("PERIOD_TITLE")).setDesc(t("PERIOD_DESC")).addDropdown((el) => {
+      el.addOption("month", t("MONTH")).addOption("quarter", t("QUARTER")).addOption("year", t("YEAR")).addOption("lifetime", t("LIFETIME")).setValue("month");
+      el.selectEl.setAttr("id", "sr-chart-period");
+    });
+    this.renderCharts(this.plugin.osrAppCore);
   }
-  render() {
-    this.containerEl.style.textAlign = "center";
-    this.containerEl.innerHTML += /* @__PURE__ */ (0, import_vhtml2.default)("select", { id: "sr-chart-period" }, /* @__PURE__ */ (0, import_vhtml2.default)("option", { value: "month", selected: true }, t("MONTH")), /* @__PURE__ */ (0, import_vhtml2.default)("option", { value: "quarter" }, t("QUARTER")), /* @__PURE__ */ (0, import_vhtml2.default)("option", { value: "year" }, t("YEAR")), /* @__PURE__ */ (0, import_vhtml2.default)("option", { value: "lifetime" }, t("LIFETIME")));
-    const cardStats = this.osrCore.cardStats;
+  /**
+   * Destroys the StatisticsPagea and all its components.
+   */
+  destroy() {
+    if (this.forecastChart) this.forecastChart.destroy();
+    if (this.intervalsChart) this.intervalsChart.destroy();
+    if (this.easesChart) this.easesChart.destroy();
+    if (this.cardTypesChart) this.cardTypesChart.destroy();
+    if (this.noteStatsGrid) this.noteStatsGrid.destroy();
+    this.containerEl.removeEventListener("scroll", (_2) => {
+      this.scrollListener(this.containerEl.scrollTop);
+    });
+  }
+  renderCharts(osrCore) {
+    if (!osrCore.cardStats) {
+      this.plugin.sync().then((_2) => this.renderCharts(this.plugin.osrAppCore));
+      return;
+    }
+    const cardStats = osrCore.cardStats;
     let maxN = cardStats.delayedDays.getMaxValue();
     for (let dueOffset = 0; dueOffset <= maxN; dueOffset++) {
       cardStats.delayedDays.clearCountIfMissing(dueOffset);
@@ -28028,1054 +30259,505 @@ var StatisticsView = class {
     }
     const scheduledCount = cardStats.youngCount + cardStats.matureCount;
     maxN = Math.max(maxN, 1);
-    this.containerEl.innerHTML += /* @__PURE__ */ (0, import_vhtml2.default)("div", null, /* @__PURE__ */ (0, import_vhtml2.default)("canvas", { id: "forecastChart" }), /* @__PURE__ */ (0, import_vhtml2.default)("span", { id: "forecastChartSummary" }), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("canvas", { id: "intervalsChart" }), /* @__PURE__ */ (0, import_vhtml2.default)("span", { id: "intervalsChartSummary" }), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("canvas", { id: "easesChart" }), /* @__PURE__ */ (0, import_vhtml2.default)("span", { id: "easesChartSummary" }), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("canvas", { id: "cardTypesChart" }), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("span", { id: "cardTypesChartSummary" }), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("br", null), /* @__PURE__ */ (0, import_vhtml2.default)("h1", null, "Notes"), /* @__PURE__ */ (0, import_vhtml2.default)("div", { id: "noteStats" }));
-    this.forecastChart = createStatsChart(
-      "bar",
-      "forecastChart",
-      t("FORECAST"),
-      t("FORECAST_DESC"),
-      Object.keys(dueDatesFlashcardsCopy),
-      Object.values(dueDatesFlashcardsCopy),
-      t("REVIEWS_PER_DAY", { avg: (scheduledCount / maxN).toFixed(1) }),
-      t("SCHEDULED"),
-      t("DAYS"),
-      t("NUMBER_OF_CARDS")
-    );
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("FORECAST")).addSetting((setting) => {
+      this.forecastChart = new ChartComponent(
+        setting.settingEl,
+        "forecastChart",
+        "forecastChartSummary",
+        "bar",
+        "",
+        t("FORECAST_DESC"),
+        Object.keys(dueDatesFlashcardsCopy),
+        Object.values(dueDatesFlashcardsCopy),
+        t("REVIEWS_PER_DAY", { avg: (scheduledCount / maxN).toFixed(1) }),
+        t("SCHEDULED"),
+        t("DAYS"),
+        t("NUMBER_OF_CARDS")
+      );
+    });
     maxN = cardStats.intervals.getMaxValue();
     for (let interval = 0; interval <= maxN; interval++) {
       cardStats.intervals.clearCountIfMissing(interval);
     }
     const averageInterval = textInterval(
-      Math.round(
-        cardStats.intervals.getTotalOfValueMultiplyCount() / scheduledCount * 10
-      ) / 10 || 0,
+      Math.round(cardStats.intervals.getTotalOfValueMultiplyCount() / scheduledCount * 10) / 10 || 0,
       false
-    ), longestInterval = textInterval(cardStats.intervals.getMaxValue(), false);
-    this.intervalsChart = createStatsChart(
-      "bar",
-      "intervalsChart",
-      t("INTERVALS"),
-      t("INTERVALS_DESC"),
-      Object.keys(cardStats.intervals.dict),
-      Object.values(cardStats.intervals.dict),
-      t("INTERVALS_SUMMARY", { avg: averageInterval, longest: longestInterval }),
-      t("COUNT"),
-      t("DAYS"),
-      t("NUMBER_OF_CARDS")
     );
+    const longestInterval = textInterval(cardStats.intervals.getMaxValue(), false);
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("INTERVALS")).addSetting((setting) => {
+      this.intervalsChart = new ChartComponent(
+        setting.settingEl,
+        "intervalsChart",
+        "intervalsChartSummary",
+        "bar",
+        "",
+        t("INTERVALS_DESC"),
+        Object.keys(cardStats.intervals.dict),
+        Object.values(cardStats.intervals.dict),
+        t("INTERVALS_SUMMARY", { avg: averageInterval, longest: longestInterval }),
+        t("COUNT"),
+        t("DAYS"),
+        t("NUMBER_OF_CARDS")
+      );
+      return this.intervalsChart;
+    });
     const eases = getKeysPreserveType(cardStats.eases.dict);
     for (let ease = Math.min(...eases); ease <= Math.max(...eases); ease++) {
       cardStats.eases.clearCountIfMissing(ease);
     }
     const averageEase = Math.round(cardStats.eases.getTotalOfValueMultiplyCount() / scheduledCount) || 0;
-    this.easesChart = createStatsChart(
-      "bar",
-      "easesChart",
-      t("EASES"),
-      "",
-      Object.keys(cardStats.eases.dict),
-      Object.values(cardStats.eases.dict),
-      t("EASES_SUMMARY", { avgEase: averageEase }),
-      t("COUNT"),
-      t("EASES"),
-      t("NUMBER_OF_CARDS")
-    );
-    const totalCardsCount = this.osrCore.reviewableDeckTree.getDistinctCardCount(
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("EASES")).addSetting((setting) => {
+      this.easesChart = new ChartComponent(
+        setting.settingEl,
+        "easesChart",
+        "easesChartSummary",
+        "bar",
+        "",
+        "",
+        Object.keys(cardStats.eases.dict),
+        Object.values(cardStats.eases.dict),
+        t("EASES_SUMMARY", { avgEase: averageEase }),
+        t("COUNT"),
+        t("EASES"),
+        t("NUMBER_OF_CARDS")
+      );
+      return this.easesChart;
+    });
+    const totalCardsCount = osrCore.reviewableDeckTree.getDistinctCardCount(
       2 /* All */,
       true
     );
-    this.cardTypesChart = createStatsChart(
-      "pie",
-      "cardTypesChart",
-      t("CARD_TYPES"),
-      t("CARD_TYPES_DESC"),
-      [
-        `${t("CARD_TYPE_NEW")} - ${Math.round(cardStats.newCount / totalCardsCount * 100)}%`,
-        `${t("CARD_TYPE_YOUNG")} - ${Math.round(
-          cardStats.youngCount / totalCardsCount * 100
-        )}%`,
-        `${t("CARD_TYPE_MATURE")} - ${Math.round(
-          cardStats.matureCount / totalCardsCount * 100
-        )}%`
-      ],
-      [cardStats.newCount, cardStats.youngCount, cardStats.matureCount],
-      t("CARD_TYPES_SUMMARY", { totalCardsCount })
-    );
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("CARD_TYPES")).addSetting((setting) => {
+      this.cardTypesChart = new ChartComponent(
+        setting.settingEl,
+        "cardTypesChart",
+        "cardTypesChartSummary",
+        "pie",
+        "",
+        t("CARD_TYPES_DESC"),
+        [
+          `${t("CARD_TYPE_NEW")} - ${Math.round(cardStats.newCount / totalCardsCount * 100)}%`,
+          `${t("CARD_TYPE_YOUNG")} - ${Math.round(
+            cardStats.youngCount / totalCardsCount * 100
+          )}%`,
+          `${t("CARD_TYPE_MATURE")} - ${Math.round(
+            cardStats.matureCount / totalCardsCount * 100
+          )}%`
+        ],
+        [cardStats.newCount, cardStats.youngCount, cardStats.matureCount],
+        t("CARD_TYPES_SUMMARY", { totalCardsCount })
+      );
+      return this.cardTypesChart;
+    });
     const noteEases = mapRecord(
       SrsAlgorithm.getInstance().noteStats().dict,
       (key, value) => {
         return [key.split(".")[0], Math.round(value)];
       }
     );
-    this.noteStatsGrid = new Ln({
-      columns: [
-        {
-          name: t("NOTE")
-        },
-        {
-          name: t("EASE"),
-          sort: true,
-          width: "200px"
-        }
-      ],
-      search: true,
-      autoWidth: false,
-      data: Object.entries(noteEases).sort((a2, b2) => b2[1] - a2[1]),
-      pagination: {
-        limit: 10,
-        summary: false
-      },
-      language: {
-        search: {
-          placeholder: t("SEARCH")
-        },
-        pagination: {
-          previous: t("PREVIOUS"),
-          next: t("NEXT")
-        }
-      }
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("NOTES")).addSetting((setting) => {
+      this.noteStatsGrid = new NoteStatsComponent(setting.settingEl, noteEases);
+      return this.noteStatsGrid;
     });
-    this.noteStatsGrid.render(document.getElementById("noteStats"));
-  }
-  destroy() {
-    if (this.forecastChart) this.forecastChart.destroy();
-    if (this.intervalsChart) this.intervalsChart.destroy();
-    if (this.easesChart) this.easesChart.destroy();
-    if (this.cardTypesChart) this.cardTypesChart.destroy();
-    if (this.noteStatsGrid) this.noteStatsGrid.destroy();
   }
 };
-function createStatsChart(type, canvasId, title, subtitle, labels, data, summary, seriesTitle = "", xAxisTitle = "", yAxisTitle = "") {
-  const style = getComputedStyle(document.body);
-  const textColor = style.getPropertyValue("--text-normal");
-  let scales = {}, backgroundColor = ["#2196f3"];
-  if (type !== "pie") {
-    scales = {
-      x: {
-        title: {
-          display: true,
-          text: xAxisTitle,
-          color: textColor
-        }
-      },
-      y: {
-        title: {
-          display: true,
-          text: yAxisTitle,
-          color: textColor
-        }
-      }
-    };
-  } else {
-    backgroundColor = ["#2196f3", "#4caf50", "green"];
-  }
-  const shouldFilter = canvasId === "forecastChart" || canvasId === "intervalsChart";
-  const statsChart = new Chart(document.getElementById(canvasId), {
-    type,
-    data: {
-      labels: shouldFilter ? labels.slice(0, 31) : labels,
-      datasets: [
-        {
-          label: seriesTitle,
-          backgroundColor,
-          data: shouldFilter ? data.slice(0, 31) : data
-        }
-      ]
-    },
-    options: {
-      scales,
-      plugins: {
-        title: {
-          display: true,
-          text: title,
-          font: {
-            size: 22
-          },
-          color: textColor
-        },
-        subtitle: {
-          display: true,
-          text: subtitle,
-          font: {
-            size: 16,
-            style: "italic"
-          },
-          color: textColor
-        },
-        legend: {
-          display: false
-        }
-      },
-      aspectRatio: 2
-    }
-  });
-  if (shouldFilter) {
-    const chartPeriodEl = document.getElementById("sr-chart-period");
-    chartPeriodEl.addEventListener("click", () => {
-      let filteredLabels, filteredData;
-      const chartPeriod = chartPeriodEl.value;
-      if (chartPeriod === "month") {
-        filteredLabels = labels.slice(0, 31);
-        filteredData = data.slice(0, 31);
-      } else if (chartPeriod === "quarter") {
-        filteredLabels = labels.slice(0, 91);
-        filteredData = data.slice(0, 91);
-      } else if (chartPeriod === "year") {
-        filteredLabels = labels.slice(0, 366);
-        filteredData = data.slice(0, 366);
-      } else {
-        filteredLabels = labels;
-        filteredData = data;
-      }
-      statsChart.data.labels = filteredLabels;
-      statsChart.data.datasets[0] = {
-        label: seriesTitle,
-        backgroundColor,
-        data: filteredData
-      };
-      statsChart.update();
-    });
-  }
-  document.getElementById(`${canvasId}Summary`).innerText = summary;
-  return statsChart;
-}
 
-// src/gui/settings-tab/tabs.tsx
-var import_obsidian16 = require("obsidian");
-var import_vhtml3 = __toESM(require_vhtml());
-function createTabs(containerElement, tabs, activateTabId) {
-  const tabHeader = containerElement.createEl("div", {
-    attr: { class: "sr-settings-tab-header" }
-  });
-  const tabHeaderButtonWrapper = tabHeader.createEl("div", {
-    attr: { class: "sr-settings-tab-header-button-wrapper" }
-  });
-  const tabContentContainers = {};
-  const tabButtons = {};
-  const tabStructure = {
-    header: tabHeaderButtonWrapper,
-    // Indicate that the first tab is active.
-    // This does not affect what tab is active in practice, it just reports the active tab.
-    activeTabId: Object.keys(tabs)[0],
-    buttons: tabButtons,
-    contentContainers: tabContentContainers,
-    contentGeneratorPromises: {}
-  };
-  let firstButton;
-  for (const tabId in tabs) {
-    const tab = tabs[tabId];
-    const button = tabHeaderButtonWrapper.createEl("button", {
-      attr: {
-        class: "sr-settings-tab-header-button",
-        activateTab: "sr-tab-" + tabId
-      }
-    });
-    button.onclick = function(event) {
-      var _a;
-      const tabButton = this;
-      let maxWidth = 0;
-      let maxHeight = 0;
-      const tabHeaderButtonWrapper2 = tabButton.parentElement;
-      if (null === tabHeaderButtonWrapper2) {
-        throw new Error("Tab header is missing. Did not get a parent from tab button.");
-      }
-      const containerElement2 = tabHeader.parentElement;
-      if (null === containerElement2) {
-        throw new Error(
-          "Container element is missing. Did not get a parent from tab header."
-        );
-      }
-      const tabContents = containerElement2.findAll("div.sr-settings-tab-content");
-      const isMainSettingsModal = containerElement2.hasClass("vertical-tab-content");
-      for (const index in tabContents) {
-        const tabContent2 = tabContents[index];
-        if (!isMainSettingsModal) {
-          tabContent2.addClass("sr-tab-active");
-          if (tabContent2.offsetHeight > maxHeight) {
-            maxHeight = tabContent2.offsetHeight;
-          }
-          if (tabContent2.offsetWidth > maxWidth) {
-            maxWidth = tabContent2.offsetWidth;
-          }
-        }
-        tabContent2.removeClass("sr-tab-active");
-      }
-      const adjacentTabButtons = tabHeaderButtonWrapper2.findAll(
-        ".sr-settings-tab-header-button"
-      );
-      for (const index in adjacentTabButtons) {
-        const tabButton2 = adjacentTabButtons[index];
-        tabButton2.removeClass("sr-tab-active");
-      }
-      tabButton.addClass("sr-tab-active");
-      const activateTabAttribute = tabButton.attributes.getNamedItem("activateTab");
-      if (null === activateTabAttribute) {
-        throw new Error("Tab button has no 'activateTab' HTML attribute! Murr!");
-      }
-      const activateTabId2 = activateTabAttribute.value;
-      const tabContent = document.getElementById(activateTabId2);
-      if (null === tabContent) {
-        throw new Error(
-          "No tab content was found with activate_tab_id '" + activateTabId2 + "'! Hmph!"
-        );
-      }
-      tabContent.addClass("sr-tab-active");
-      tabStructure.activeTabId = activateTabId2.replace(/^sr-tab-/, "");
-      (_a = tabContent.find(".sr-focus-element-on-tab-opening")) == null ? void 0 : _a.focus();
-      if (!isMainSettingsModal) {
-        tabContent.style.width = maxWidth + "px";
-        tabContent.style.height = maxHeight + "px";
-      }
-      event.preventDefault();
-    };
-    if (tab.icon) (0, import_obsidian16.setIcon)(button, tab.icon);
-    button.insertAdjacentHTML("beforeend", /* @__PURE__ */ (0, import_vhtml3.default)("span", { style: "padding-left: 5px;" }, tab.title));
-    tabButtons[tabId] = button;
-    tabContentContainers[tabId] = containerElement.createEl("div", {
-      attr: { class: "sr-settings-tab-content", id: "sr-tab-" + tabId }
-    });
-    const innerContentContainer = tabContentContainers[tabId].createEl("div", {
-      attr: { class: "sr-settings-tab-content-inner" }
-    });
-    tabStructure.contentGeneratorPromises[tabId] = tab.contentGenerator(innerContentContainer);
-    if (void 0 === firstButton) {
-      firstButton = button;
-    }
-  }
-  tabButtons[activateTabId].click();
-  return tabStructure;
-}
-
-// src/gui/settings-tab/settings.tsx
-var applyDebounceTimer = 0;
-function applySettingsUpdate(callback2) {
-  clearTimeout(applyDebounceTimer);
-  applyDebounceTimer = window.setTimeout(callback2, 512);
-}
-var SRSettingTab = class extends import_obsidian17.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.lastPosition = {
-      scrollPosition: 0,
-      tabName: "main-flashcards"
-    };
-    this.plugin = plugin;
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    containerEl.addClass("sr-settings-tab");
-    this.tabStructure = createTabs(
+// src/ui/obsidian-ui-components/content-container/settings-page/ui-preferences-page.tsx
+var import_obsidian27 = require("obsidian");
+var UIPreferencesPage = class extends SettingsPage {
+  constructor(containerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
+    super(
       containerEl,
-      {
-        "main-flashcards": {
-          title: t("FLASHCARDS"),
-          icon: "SpacedRepIcon",
-          contentGenerator: (containerElement) => this.tabFlashcards(containerElement)
-        },
-        "main-notes": {
-          title: t("NOTES"),
-          icon: "book-text",
-          contentGenerator: (containerElement) => this.tabNotes(containerElement)
-        },
-        "main-algorithm": {
-          title: t("SCHEDULING"),
-          icon: "calendar",
-          contentGenerator: (containerElement) => this.tabScheduling(containerElement)
-        },
-        "main-ui-preferences": {
-          title: t("UI"),
-          icon: "presentation",
-          contentGenerator: (containerElement) => this.tabUiPreferences(containerElement)
-        },
-        "main-statistics": {
-          title: t("STATS_TITLE"),
-          icon: "bar-chart-3",
-          contentGenerator: async (containerElement) => {
-            if (this.plugin.osrAppCore.cardStats == null) {
-              await this.plugin.sync();
-            }
-            this.statistics = new StatisticsView(
-              containerElement,
-              this.plugin.osrAppCore,
-              this.plugin.app
-            );
-            this.statistics.render();
-          }
-        },
-        "main-help": {
-          title: t("HELP"),
-          icon: "badge-help",
-          contentGenerator: (containerElement) => this.tabHelp(containerElement)
-        }
-      },
-      this.lastPosition.tabName
+      plugin,
+      pageType,
+      applySettingsUpdate,
+      display,
+      openPage,
+      scrollListener
     );
-    this.tabStructure.contentGeneratorPromises[this.tabStructure.activeTabId].then(() => {
-      this.rememberLastPosition(containerEl);
-    });
-  }
-  hide() {
-    this.statistics.destroy();
-    this.containerEl.empty();
-  }
-  async tabFlashcards(containerEl) {
-    containerEl.createEl("h3", { text: t("GROUP_TAGS_FOLDERS") });
-    new import_obsidian17.Setting(containerEl).setName(t("FLASHCARD_TAGS")).setDesc(t("FLASHCARD_TAGS_DESC")).addTextArea(
-      (text) => text.setValue(this.plugin.data.settings.flashcardTags.join(" ")).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.flashcardTags = value.split(/\s+/);
-          await this.plugin.savePluginData();
-        });
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("CONVERT_FOLDERS_TO_DECKS")).setDesc(t("CONVERT_FOLDERS_TO_DECKS_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.convertFoldersToDecks).onChange(async (value) => {
-        this.plugin.data.settings.convertFoldersToDecks = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    this.createSettingFoldersToIgnore(containerEl);
-    containerEl.createEl("h3", { text: t("GROUP_FLASHCARD_REVIEW") });
-    new import_obsidian17.Setting(containerEl).setName(t("BURY_SIBLINGS_TILL_NEXT_DAY")).setDesc(t("BURY_SIBLINGS_TILL_NEXT_DAY_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.burySiblingCards).onChange(async (value) => {
-        this.plugin.data.settings.burySiblingCards = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("REVIEW_CARD_ORDER_WITHIN_DECK")).addDropdown(
-      (dropdown) => dropdown.addOptions({
-        NewFirstSequential: t("REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL"),
-        DueFirstSequential: t("REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL"),
-        NewFirstRandom: t("REVIEW_CARD_ORDER_NEW_FIRST_RANDOM"),
-        DueFirstRandom: t("REVIEW_CARD_ORDER_DUE_FIRST_RANDOM"),
-        EveryCardRandomDeckAndCard: t("REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD")
-      }).setValue(this.plugin.data.settings.flashcardCardOrder).onChange(async (value) => {
-        this.plugin.data.settings.flashcardCardOrder = value;
-        await this.plugin.savePluginData();
-        this.display();
-      })
-    );
-    const deckOrderEnabled = this.plugin.data.settings.flashcardCardOrder != "EveryCardRandomDeckAndCard";
-    new import_obsidian17.Setting(containerEl).setName(t("REVIEW_DECK_ORDER")).addDropdown(
-      (dropdown) => dropdown.addOptions(
-        deckOrderEnabled ? {
-          // eslint-disable-next-line camelcase
-          PrevDeckComplete_Sequential: t(
-            "REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL"
-          ),
-          // eslint-disable-next-line camelcase
-          PrevDeckComplete_Random: t(
-            "REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM"
-          )
-        } : {
-          EveryCardRandomDeckAndCard: t(
-            "REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD"
-          )
-        }
-      ).setValue(
-        deckOrderEnabled ? this.plugin.data.settings.flashcardDeckOrder : "EveryCardRandomDeckAndCard"
-      ).setDisabled(!deckOrderEnabled).onChange(async (value) => {
-        this.plugin.data.settings.flashcardDeckOrder = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    containerEl.createEl("h3", { text: t("GROUP_FLASHCARD_SEPARATORS") });
-    const convertHighlightsToClozesEl = new import_obsidian17.Setting(containerEl).setName(
-      t("CONVERT_HIGHLIGHTS_TO_CLOZES")
-    );
-    convertHighlightsToClozesEl.descEl.insertAdjacentHTML(
-      "beforeend",
-      t("CONVERT_HIGHLIGHTS_TO_CLOZES_DESC", { defaultPattern: "==[123;;]answer[;;hint]==" })
-    );
-    convertHighlightsToClozesEl.addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.convertHighlightsToClozes).onChange(async (value) => {
-        const defaultHightlightPattern = "==[123;;]answer[;;hint]==";
-        const clozePatternSet = new Set(this.plugin.data.settings.clozePatterns);
-        if (value) {
-          clozePatternSet.add(defaultHightlightPattern);
-        } else {
-          clozePatternSet.delete(defaultHightlightPattern);
-        }
-        this.plugin.data.settings.clozePatterns = [...clozePatternSet];
-        this.plugin.data.settings.convertHighlightsToClozes = value;
-        await this.plugin.savePluginData();
-        this.display();
-      })
-    );
-    const convertBoldTextToClozesEl = new import_obsidian17.Setting(containerEl).setName(
-      t("CONVERT_BOLD_TEXT_TO_CLOZES")
-    );
-    convertBoldTextToClozesEl.descEl.insertAdjacentHTML(
-      "beforeend",
-      t("CONVERT_BOLD_TEXT_TO_CLOZES_DESC", { defaultPattern: "**[123;;]answer[;;hint]**" })
-    );
-    convertBoldTextToClozesEl.addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.convertBoldTextToClozes).onChange(async (value) => {
-        const defaultBoldPattern = "**[123;;]answer[;;hint]**";
-        const clozePatternSet = new Set(this.plugin.data.settings.clozePatterns);
-        if (value) {
-          clozePatternSet.add(defaultBoldPattern);
-        } else {
-          clozePatternSet.delete(defaultBoldPattern);
-        }
-        this.plugin.data.settings.clozePatterns = [...clozePatternSet];
-        this.plugin.data.settings.convertBoldTextToClozes = value;
-        await this.plugin.savePluginData();
-        this.display();
-      })
-    );
-    const convertCurlyBracketsToClozesEl = new import_obsidian17.Setting(containerEl).setName(
-      t("CONVERT_CURLY_BRACKETS_TO_CLOZES")
-    );
-    convertCurlyBracketsToClozesEl.descEl.insertAdjacentHTML(
-      "beforeend",
-      t("CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC", {
-        defaultPattern: "{{[123;;]answer[;;hint]}}"
-      })
-    );
-    convertCurlyBracketsToClozesEl.addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.convertCurlyBracketsToClozes).onChange(async (value) => {
-        const defaultCurlyBracketsPattern = "{{[123;;]answer[;;hint]}}";
-        const clozePatternSet = new Set(this.plugin.data.settings.clozePatterns);
-        if (value) {
-          clozePatternSet.add(defaultCurlyBracketsPattern);
-        } else {
-          clozePatternSet.delete(defaultCurlyBracketsPattern);
-        }
-        this.plugin.data.settings.clozePatterns = [...clozePatternSet];
-        this.plugin.data.settings.convertCurlyBracketsToClozes = value;
-        await this.plugin.savePluginData();
-        this.display();
-      })
-    );
-    const clozePatternsEl = new import_obsidian17.Setting(containerEl).setName(t("CLOZE_PATTERNS"));
-    clozePatternsEl.descEl.insertAdjacentHTML(
-      "beforeend",
-      t("CLOZE_PATTERNS_DESC", {
-        docsUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/flashcards/cloze-cards/#cloze-types"
-      })
-    );
-    clozePatternsEl.addTextArea(
-      (text) => text.setPlaceholder(
-        "Example:\n==[123;;]answer[;;hint]==\n**[123;;]answer[;;hint]**\n{{[123;;]answer[;;hint]}}"
-      ).setValue(this.plugin.data.settings.clozePatterns.join("\n")).onChange((value) => {
-        applySettingsUpdate(async () => {
-          const defaultHightlightPattern = "==[123;;]answer[;;hint]==";
-          const defaultBoldPattern = "**[123;;]answer[;;hint]**";
-          const defaultCurlyBracketsPattern = "{{[123;;]answer[;;hint]}}";
-          const clozePatternSet = new Set(
-            value.split(/\n+/).map((v2) => v2.trim()).filter((v2) => v2)
-          );
-          if (clozePatternSet.has(defaultHightlightPattern)) {
-            this.plugin.data.settings.convertHighlightsToClozes = true;
+    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("OBSIDIAN_INTEGRATION")).addSetting((setting) => {
+      setting.setName(t("OPEN_IN_TAB")).setDesc(t("OPEN_IN_TAB_DESC")).addToggle((toggle) => {
+        const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+        toggle.setValue(
+          isMobile ? this.plugin.data.settings.openViewInNewTabMobile : this.plugin.data.settings.openViewInNewTab
+        ).onChange(async (value) => {
+          if (isMobile) {
+            this.plugin.data.settings.openViewInNewTabMobile = value;
+            this.plugin.data.settings.flashcardHeightPercentageMobile = 100;
+            this.plugin.data.settings.flashcardWidthPercentageMobile = 100;
           } else {
-            this.plugin.data.settings.convertHighlightsToClozes = false;
+            this.plugin.data.settings.openViewInNewTab = value;
+            this.plugin.data.settings.flashcardHeightPercentage = 100;
+            this.plugin.data.settings.flashcardWidthPercentage = 100;
           }
-          if (clozePatternSet.has(defaultBoldPattern)) {
-            this.plugin.data.settings.convertBoldTextToClozes = true;
+          if (value) {
+            this.plugin.uiManager.registerSRFocusListener();
           } else {
-            this.plugin.data.settings.convertBoldTextToClozes = false;
+            this.plugin.uiManager.tabViewManager.closeAllTabViews();
+            this.plugin.uiManager.removeSRFocusListener();
           }
-          if (clozePatternSet.has(defaultCurlyBracketsPattern)) {
-            this.plugin.data.settings.convertCurlyBracketsToClozes = true;
+          await this.plugin.savePluginData();
+        });
+      });
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_RIBBON_ICON")).setDesc(t("SHOW_RIBBON_ICON_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showRibbonIcon).onChange(async (value) => {
+          this.plugin.data.settings.showRibbonIcon = value;
+          await this.plugin.savePluginData();
+          this.plugin.uiManager.showRibbonIcon(value);
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_STATUS_BAR")).setDesc(t("SHOW_STATUS_BAR_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showStatusBar).onChange(async (value) => {
+          this.plugin.data.settings.showStatusBar = value;
+          await this.plugin.savePluginData();
+          this.plugin.uiManager.updateStatusBar();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("ENABLE_FILE_MENU_REVIEW_OPTIONS")).setDesc(t("ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC")).addToggle(
+        (toggle) => toggle.setValue(!this.plugin.data.settings.disableFileMenuReviewOptions).onChange(async (value) => {
+          this.plugin.data.settings.disableFileMenuReviewOptions = !value;
+          await this.plugin.savePluginData();
+          this.plugin.uiManager.showFileMenuItems(value);
+        })
+      );
+    });
+    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("FLASHCARDS")).addSetting((setting) => {
+      setting.setName(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE")).setDesc(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.initiallyExpandAllSubdecksInTree).onChange(async (value) => {
+          this.plugin.data.settings.initiallyExpandAllSubdecksInTree = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_CARD_CONTEXT")).setDesc(t("SHOW_CARD_CONTEXT_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showContextInCards).onChange(async (value) => {
+          this.plugin.data.settings.showContextInCards = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS")).setDesc(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showIntervalInReviewButtons).onChange(async (value) => {
+          this.plugin.data.settings.showIntervalInReviewButtons = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("CARD_MODAL_HEIGHT_PERCENT")).setDesc(t("CARD_MODAL_SIZE_PERCENT_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+          if (isMobile) {
+            this.plugin.data.settings.flashcardHeightPercentageMobile = DEFAULT_SETTINGS.flashcardHeightPercentageMobile;
           } else {
-            this.plugin.data.settings.convertCurlyBracketsToClozes = false;
+            this.plugin.data.settings.flashcardHeightPercentage = DEFAULT_SETTINGS.flashcardHeightPercentage;
           }
-          this.plugin.data.settings.clozePatterns = [...clozePatternSet];
-          await this.plugin.savePluginData();
-        });
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("INLINE_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addText(
-      (text) => text.setValue(this.plugin.data.settings.singleLineCardSeparator).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.singleLineCardSeparator = value;
-          await this.plugin.savePluginData();
-        });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.singleLineCardSeparator = DEFAULT_SETTINGS.singleLineCardSeparator;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("INLINE_REVERSED_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addText(
-      (text) => text.setValue(this.plugin.data.settings.singleLineReversedCardSeparator).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.singleLineReversedCardSeparator = value;
-          await this.plugin.savePluginData();
-        });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.singleLineReversedCardSeparator = DEFAULT_SETTINGS.singleLineReversedCardSeparator;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("MULTILINE_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addText(
-      (text) => text.setValue(this.plugin.data.settings.multilineCardSeparator).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.multilineCardSeparator = value;
-          await this.plugin.savePluginData();
-        });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.multilineCardSeparator = DEFAULT_SETTINGS.multilineCardSeparator;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("MULTILINE_REVERSED_CARDS_SEPARATOR")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addText(
-      (text) => text.setValue(this.plugin.data.settings.multilineReversedCardSeparator).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.multilineReversedCardSeparator = value;
-          await this.plugin.savePluginData();
-        });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.multilineReversedCardSeparator = DEFAULT_SETTINGS.multilineReversedCardSeparator;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("MULTILINE_CARDS_END_MARKER")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addText(
-      (text) => text.setValue(this.plugin.data.settings.multilineCardEndMarker).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.multilineCardEndMarker = value;
-          await this.plugin.savePluginData();
-        });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.multilineCardEndMarker = DEFAULT_SETTINGS.multilineCardEndMarker;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-  }
-  async tabNotes(containerEl) {
-    containerEl.createEl("h3", { text: t("GROUP_TAGS_FOLDERS") });
-    new import_obsidian17.Setting(containerEl).setName(t("TAGS_TO_REVIEW")).setDesc(t("TAGS_TO_REVIEW_DESC")).addTextArea(
-      (text) => text.setValue(this.plugin.data.settings.tagsToReview.join(" ")).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.tagsToReview = value.split(/\s+/);
-          await this.plugin.savePluginData();
-        });
-      })
-    );
-    this.createSettingFoldersToIgnore(containerEl);
-    containerEl.createEl("h3", { text: t("NOTES_REVIEW_QUEUE") });
-    new import_obsidian17.Setting(containerEl).setName(t("AUTO_NEXT_NOTE")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.autoNextNote).onChange(async (value) => {
-        this.plugin.data.settings.autoNextNote = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("OPEN_RANDOM_NOTE")).setDesc(t("OPEN_RANDOM_NOTE_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.openRandomNote).onChange(async (value) => {
-        this.plugin.data.settings.openRandomNote = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("REVIEW_PANE_ON_STARTUP")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.enableNoteReviewPaneOnStartup).onChange(async (value) => {
-        this.plugin.data.settings.enableNoteReviewPaneOnStartup = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("MAX_N_DAYS_REVIEW_QUEUE")).addText(
-      (text) => text.setValue(this.plugin.data.settings.maxNDaysNotesReviewQueue.toString()).onChange((value) => {
-        applySettingsUpdate(async () => {
-          const numValue = Number.parseInt(value);
-          if (!isNaN(numValue)) {
-            if (numValue < 1) {
-              new import_obsidian17.Notice(t("MIN_ONE_DAY"));
-              text.setValue(
-                this.plugin.data.settings.maxNDaysNotesReviewQueue.toString()
-              );
-              return;
-            }
-            this.plugin.data.settings.maxNDaysNotesReviewQueue = numValue;
-            await this.plugin.savePluginData();
-          } else {
-            new import_obsidian17.Notice(t("VALID_NUMBER_WARNING"));
-          }
-        });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.maxNDaysNotesReviewQueue = DEFAULT_SETTINGS.maxNDaysNotesReviewQueue;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-  }
-  async createSettingFoldersToIgnore(containerEl) {
-    new import_obsidian17.Setting(containerEl).setName(t("FOLDERS_TO_IGNORE")).setDesc(t("FOLDERS_TO_IGNORE_DESC")).addTextArea(
-      (text) => text.setValue(this.plugin.data.settings.noteFoldersToIgnore.join("\n")).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.noteFoldersToIgnore = value.split(/\n+/).map((v2) => v2.trim()).filter((v2) => v2);
           await this.plugin.savePluginData();
           this.display();
         });
-      })
-    );
-  }
-  async tabUiPreferences(containerEl) {
-    containerEl.createEl("h3", { text: t("OBSIDIAN_INTEGRATION") });
-    new import_obsidian17.Setting(containerEl).setName(t("OPEN_IN_TAB")).setDesc(t("OPEN_IN_TAB_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.openViewInNewTab).onChange(async (value) => {
-        if (value) {
-          this.plugin.registerSRFocusListener();
-          this.plugin.data.settings.flashcardHeightPercentage = 100;
-          this.plugin.data.settings.flashcardWidthPercentage = 100;
-        } else {
-          this.plugin.tabViewManager.closeAllTabViews();
-          this.plugin.removeSRFocusListener();
-        }
-        this.plugin.data.settings.openViewInNewTab = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("SHOW_RIBBON_ICON")).setDesc(t("SHOW_RIBBON_ICON_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.showRibbonIcon).onChange(async (value) => {
-        this.plugin.data.settings.showRibbonIcon = value;
-        await this.plugin.savePluginData();
-        this.plugin.showRibbonIcon(value);
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("SHOW_STATUS_BAR")).setDesc(t("SHOW_STATUS_BAR_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.showStatusBar).onChange(async (value) => {
-        this.plugin.data.settings.showStatusBar = value;
-        await this.plugin.savePluginData();
-        this.plugin.showStatusBar(value);
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("ENABLE_FILE_MENU_REVIEW_OPTIONS")).setDesc(t("ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC")).addToggle(
-      (toggle) => toggle.setValue(!this.plugin.data.settings.disableFileMenuReviewOptions).onChange(async (value) => {
-        this.plugin.data.settings.disableFileMenuReviewOptions = !value;
-        await this.plugin.savePluginData();
-        this.plugin.showFileMenuItems(value);
-      })
-    );
-    containerEl.createEl("h3", { text: t("FLASHCARDS") });
-    new import_obsidian17.Setting(containerEl).setName(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE")).setDesc(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.initiallyExpandAllSubdecksInTree).onChange(async (value) => {
-        this.plugin.data.settings.initiallyExpandAllSubdecksInTree = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("SHOW_CARD_CONTEXT")).setDesc(t("SHOW_CARD_CONTEXT_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.showContextInCards).onChange(async (value) => {
-        this.plugin.data.settings.showContextInCards = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS")).setDesc(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.showIntervalInReviewButtons).onChange(async (value) => {
-        this.plugin.data.settings.showIntervalInReviewButtons = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("CARD_MODAL_HEIGHT_PERCENT")).setDesc(t("CARD_MODAL_SIZE_PERCENT_DESC")).addSlider(
-      (slider) => slider.setLimits(10, 100, 5).setValue(this.plugin.data.settings.flashcardHeightPercentage).setDynamicTooltip().onChange(async (value) => {
-        this.plugin.data.settings.flashcardHeightPercentage = value;
-        await this.plugin.savePluginData();
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.flashcardHeightPercentage = DEFAULT_SETTINGS.flashcardHeightPercentage;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("CARD_MODAL_WIDTH_PERCENT")).setDesc(t("CARD_MODAL_SIZE_PERCENT_DESC")).addSlider(
-      (slider) => slider.setLimits(10, 100, 5).setValue(this.plugin.data.settings.flashcardWidthPercentage).setDynamicTooltip().onChange(async (value) => {
-        this.plugin.data.settings.flashcardWidthPercentage = value;
-        await this.plugin.savePluginData();
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.flashcardWidthPercentage = DEFAULT_SETTINGS.flashcardWidthPercentage;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    containerEl.createEl("h3", { text: t("GROUP_FLASHCARDS_NOTES") });
-    new import_obsidian17.Setting(containerEl).setName(t("FLASHCARD_EASY_LABEL")).setDesc(t("FLASHCARD_EASY_DESC")).addText(
-      (text) => text.setValue(this.plugin.data.settings.flashcardEasyText).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.flashcardEasyText = value;
+      }).addSlider((slider) => {
+        const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+        slider.setLimits(10, 100, 5).setValue(
+          isMobile ? this.plugin.data.settings.flashcardHeightPercentageMobile : this.plugin.data.settings.flashcardHeightPercentage
+        ).setDynamicTooltip().onChange(async (value) => {
+          if (isMobile) {
+            this.plugin.data.settings.flashcardHeightPercentageMobile = value;
+          } else {
+            this.plugin.data.settings.flashcardHeightPercentage = value;
+          }
           await this.plugin.savePluginData();
         });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.flashcardEasyText = DEFAULT_SETTINGS.flashcardEasyText;
-        await this.plugin.savePluginData();
-        this.display();
       });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("FLASHCARD_GOOD_LABEL")).setDesc(t("FLASHCARD_GOOD_DESC")).addText(
-      (text) => text.setValue(this.plugin.data.settings.flashcardGoodText).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.flashcardGoodText = value;
+    }).addSetting((setting) => {
+      setting.setName(t("CARD_MODAL_WIDTH_PERCENT")).setDesc(t("CARD_MODAL_SIZE_PERCENT_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+          if (isMobile) {
+            this.plugin.data.settings.flashcardWidthPercentageMobile = DEFAULT_SETTINGS.flashcardWidthPercentageMobile;
+          } else {
+            this.plugin.data.settings.flashcardWidthPercentage = DEFAULT_SETTINGS.flashcardWidthPercentage;
+          }
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addSlider((slider) => {
+        const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+        slider.setLimits(10, 100, 5).setValue(
+          isMobile ? this.plugin.data.settings.flashcardWidthPercentageMobile : this.plugin.data.settings.flashcardWidthPercentage
+        ).setDynamicTooltip().onChange(async (value) => {
+          if (isMobile) {
+            this.plugin.data.settings.flashcardWidthPercentageMobile = value;
+          } else {
+            this.plugin.data.settings.flashcardWidthPercentage = value;
+          }
           await this.plugin.savePluginData();
         });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.flashcardGoodText = DEFAULT_SETTINGS.flashcardGoodText;
-        await this.plugin.savePluginData();
-        this.display();
       });
     });
-    new import_obsidian17.Setting(containerEl).setName(t("FLASHCARD_HARD_LABEL")).setDesc(t("FLASHCARD_HARD_DESC")).addText(
-      (text) => text.setValue(this.plugin.data.settings.flashcardHardText).onChange((value) => {
-        applySettingsUpdate(async () => {
-          this.plugin.data.settings.flashcardHardText = value;
+    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARDS_NOTES")).addSetting((setting) => {
+      setting.setName(t("FLASHCARD_EASY_LABEL")).setDesc(t("FLASHCARD_EASY_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.flashcardEasyText = DEFAULT_SETTINGS.flashcardEasyText;
           await this.plugin.savePluginData();
+          this.display();
         });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.flashcardHardText = DEFAULT_SETTINGS.flashcardHardText;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("REVIEW_BUTTON_DELAY")).setDesc(t("REVIEW_BUTTON_DELAY_DESC")).addSlider(
-      (slider) => slider.setLimits(0, 5e3, 100).setValue(this.plugin.data.settings.reviewButtonDelay).setDynamicTooltip().onChange(async (value) => {
-        this.plugin.data.settings.reviewButtonDelay = value;
-        await this.plugin.savePluginData();
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.reviewButtonDelay = DEFAULT_SETTINGS.reviewButtonDelay;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-  }
-  async tabScheduling(containerEl) {
-    containerEl.createEl("h3", { text: t("ALGORITHM") });
-    const algoSettingEl = new import_obsidian17.Setting(containerEl).setName(t("ALGORITHM"));
-    algoSettingEl.descEl.insertAdjacentHTML(
-      "beforeend",
-      t("CHECK_ALGORITHM_WIKI", {
-        algoUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/algorithms/"
-      })
-    );
-    algoSettingEl.addDropdown(
-      (dropdown) => dropdown.addOptions({
-        "SM-2-OSR": t("SM2_OSR_VARIANT")
-      }).setValue(this.plugin.data.settings.algorithm).onChange(async (value) => {
-        this.plugin.data.settings.algorithm = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("BASE_EASE")).setDesc(t("BASE_EASE_DESC")).addText(
-      (text) => text.setValue(this.plugin.data.settings.baseEase.toString()).onChange((value) => {
-        applySettingsUpdate(async () => {
-          const numValue = Number.parseInt(value);
-          if (!isNaN(numValue)) {
-            if (numValue < 130) {
-              new import_obsidian17.Notice(t("BASE_EASE_MIN_WARNING"));
-              text.setValue(this.plugin.data.settings.baseEase.toString());
-              return;
-            }
-            this.plugin.data.settings.baseEase = numValue;
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.flashcardEasyText).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.flashcardEasyText = value;
             await this.plugin.savePluginData();
-          } else {
-            new import_obsidian17.Notice(t("VALID_NUMBER_WARNING"));
-          }
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("FLASHCARD_GOOD_LABEL")).setDesc(t("FLASHCARD_GOOD_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.flashcardGoodText = DEFAULT_SETTINGS.flashcardGoodText;
+          await this.plugin.savePluginData();
+          this.display();
         });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.baseEase = DEFAULT_SETTINGS.baseEase;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("LAPSE_INTERVAL_CHANGE")).setDesc(t("LAPSE_INTERVAL_CHANGE_DESC")).addSlider(
-      (slider) => slider.setLimits(1, 99, 1).setValue(this.plugin.data.settings.lapsesIntervalChange * 100).setDynamicTooltip().onChange(async (value) => {
-        this.plugin.data.settings.lapsesIntervalChange = value / 100;
-        await this.plugin.savePluginData();
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.lapsesIntervalChange = DEFAULT_SETTINGS.lapsesIntervalChange;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("EASY_BONUS")).setDesc(t("EASY_BONUS_DESC")).addText(
-      (text) => text.setValue((this.plugin.data.settings.easyBonus * 100).toString()).onChange((value) => {
-        applySettingsUpdate(async () => {
-          const numValue = Number.parseInt(value) / 100;
-          if (!isNaN(numValue)) {
-            if (numValue < 1) {
-              new import_obsidian17.Notice(t("EASY_BONUS_MIN_WARNING"));
-              text.setValue(
-                (this.plugin.data.settings.easyBonus * 100).toString()
-              );
-              return;
-            }
-            this.plugin.data.settings.easyBonus = numValue;
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.flashcardGoodText).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.flashcardGoodText = value;
             await this.plugin.savePluginData();
-          } else {
-            new import_obsidian17.Notice(t("VALID_NUMBER_WARNING"));
-          }
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("FLASHCARD_HARD_LABEL")).setDesc(t("FLASHCARD_HARD_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.flashcardHardText = DEFAULT_SETTINGS.flashcardHardText;
+          await this.plugin.savePluginData();
+          this.display();
         });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.easyBonus = DEFAULT_SETTINGS.easyBonus;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    new import_obsidian17.Setting(containerEl).setName(t("LOAD_BALANCE")).setDesc(t("LOAD_BALANCE_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.loadBalance).onChange(async (value) => {
-        this.plugin.data.settings.loadBalance = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("MAX_INTERVAL")).setDesc(t("MAX_INTERVAL_DESC")).addText(
-      (text) => text.setValue(this.plugin.data.settings.maximumInterval.toString()).onChange((value) => {
-        applySettingsUpdate(async () => {
-          const numValue = Number.parseInt(value);
-          if (!isNaN(numValue)) {
-            if (numValue < 1) {
-              new import_obsidian17.Notice(t("MAX_INTERVAL_MIN_WARNING"));
-              text.setValue(
-                this.plugin.data.settings.maximumInterval.toString()
-              );
-              return;
-            }
-            this.plugin.data.settings.maximumInterval = numValue;
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.flashcardHardText).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.flashcardHardText = value;
             await this.plugin.savePluginData();
-          } else {
-            new import_obsidian17.Notice(t("VALID_NUMBER_WARNING"));
-          }
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("REVIEW_BUTTON_DELAY")).setDesc(t("REVIEW_BUTTON_DELAY_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.reviewButtonDelay = DEFAULT_SETTINGS.reviewButtonDelay;
+          await this.plugin.savePluginData();
+          this.display();
         });
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.maximumInterval = DEFAULT_SETTINGS.maximumInterval;
-        await this.plugin.savePluginData();
-        this.display();
-      });
+      }).addSlider(
+        (slider) => slider.setLimits(0, 5e3, 100).setValue(this.plugin.data.settings.reviewButtonDelay).setDynamicTooltip().onChange(async (value) => {
+          this.plugin.data.settings.reviewButtonDelay = value;
+          await this.plugin.savePluginData();
+        })
+      );
     });
-    new import_obsidian17.Setting(containerEl).setName(t("MAX_LINK_CONTRIB")).setDesc(t("MAX_LINK_CONTRIB_DESC")).addSlider(
-      (slider) => slider.setLimits(0, 100, 1).setValue(this.plugin.data.settings.maxLinkFactor * 100).setDynamicTooltip().onChange(async (value) => {
-        this.plugin.data.settings.maxLinkFactor = value / 100;
-        await this.plugin.savePluginData();
-      })
-    ).addExtraButton((button) => {
-      button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-        this.plugin.data.settings.maxLinkFactor = DEFAULT_SETTINGS.maxLinkFactor;
-        await this.plugin.savePluginData();
-        this.display();
-      });
-    });
-    containerEl.createEl("h3", { text: t("GROUP_DATA_STORAGE") });
-    new import_obsidian17.Setting(containerEl).setName(t("GROUP_DATA_STORAGE")).setDesc(t("GROUP_DATA_STORAGE_DESC")).addDropdown(
-      (dropdown) => dropdown.addOptions({
-        NOTES: t("STORE_IN_NOTES")
-      }).setValue(this.plugin.data.settings.dataStore).onChange(async (value) => {
-        this.plugin.data.settings.dataStore = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("INLINE_SCHEDULING_COMMENTS")).setDesc(t("INLINE_SCHEDULING_COMMENTS_DESC")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.cardCommentOnSameLine).onChange(async (value) => {
-        this.plugin.data.settings.cardCommentOnSameLine = value;
-        await this.plugin.savePluginData();
-      })
-    );
-  }
-  async tabHelp(containerEl) {
-    containerEl.createEl("h3", { text: `${t("HELP")}` });
-    containerEl.createEl("p").insertAdjacentHTML(
-      "beforeend",
-      t("CHECK_WIKI", {
-        wikiUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/"
-      })
-    );
-    containerEl.createEl("p").insertAdjacentHTML(
-      "beforeend",
-      t("GITHUB_DISCUSSIONS", {
-        discussionsUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition/discussions/"
-      })
-    );
-    containerEl.createEl("p").insertAdjacentHTML(
-      "beforeend",
-      t("GITHUB_ISSUES", {
-        issuesUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition/issues/"
-      })
-    );
-    containerEl.createEl("h3", { text: `${t("LOGGING")}` });
-    new import_obsidian17.Setting(containerEl).setName(t("DISPLAY_SCHEDULING_DEBUG_INFO")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.showSchedulingDebugMessages).onChange(async (value) => {
-        this.plugin.data.settings.showSchedulingDebugMessages = value;
-        await this.plugin.savePluginData();
-      })
-    );
-    new import_obsidian17.Setting(containerEl).setName(t("DISPLAY_PARSER_DEBUG_INFO")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.data.settings.showParserDebugMessages).onChange(async (value) => {
-        this.plugin.data.settings.showParserDebugMessages = value;
-        setDebugParser(this.plugin.data.settings.showParserDebugMessages);
-        await this.plugin.savePluginData();
-      })
-    );
-    containerEl.createEl("h3", { text: t("GROUP_CONTRIBUTING") });
-    containerEl.createEl("p").insertAdjacentHTML(
-      "beforeend",
-      t("GITHUB_SOURCE_CODE", {
-        githubProjectUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition"
-      })
-    );
-    containerEl.createEl("p").insertAdjacentHTML(
-      "beforeend",
-      t("CODE_CONTRIBUTION_INFO", {
-        codeContributionUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/contributing/#code"
-      })
-    );
-    containerEl.createEl("p").insertAdjacentHTML(
-      "beforeend",
-      t("TRANSLATION_CONTRIBUTION_INFO", {
-        translationContributionUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/contributing/#translating"
-      })
-    );
-  }
-  rememberLastPosition(containerElement) {
-    const lastPosition = this.lastPosition;
-    this.tabStructure.buttons[lastPosition.tabName].click();
-    containerElement.scrollTo({
-      top: this.lastPosition.scrollPosition,
-      behavior: "auto"
-    });
-    containerElement.addEventListener("scroll", (_2) => {
-      this.lastPosition.scrollPosition = containerElement.scrollTop;
-    });
-    for (const tabName in this.tabStructure.buttons) {
-      const button = this.tabStructure.buttons[tabName];
-      button.onClickEvent((_2) => {
-        lastPosition.tabName = tabName;
-      });
-    }
   }
 };
 
-// src/gui/sidebar.tsx
-var OsrSidebar = class {
+// src/ui/obsidian-ui-components/content-container/settings-page/settings-page-manager.tsx
+var SettingsPageTypesArray = [
+  "main-page",
+  "flashcards-page",
+  "notes-page",
+  "scheduling-page",
+  "ui-preferences-page",
+  "statistics-page"
+];
+function getPageName(pageType) {
+  switch (pageType) {
+    case "main-page":
+      return t("MAIN_SETTINGS_PAGE");
+    case "flashcards-page":
+      return t("FLASHCARDS");
+    case "notes-page":
+      return t("NOTES");
+    case "scheduling-page":
+      return t("SCHEDULING");
+    case "ui-preferences-page":
+      return t("UI");
+    case "statistics-page":
+      return t("STATS_TITLE");
+  }
+}
+function getPageIcon(pageType) {
+  switch (pageType) {
+    case "main-page":
+      return "Settings";
+    case "flashcards-page":
+      return "SpacedRepIcon";
+    case "notes-page":
+      return "book-text";
+    case "scheduling-page":
+      return "calendar";
+    case "ui-preferences-page":
+      return "presentation";
+    case "statistics-page":
+      return "bar-chart-3";
+  }
+}
+var SettingsPageManager = class {
+  constructor(containerEl, plugin, lastPage, lastScrollPosition, updateLastPageState, display) {
+    this.pages = [];
+    this.applyDebounceTimer = 0;
+    this.containerEl = containerEl;
+    this.plugin = plugin;
+    this.updateLastPageState = updateLastPageState;
+    this.display = display;
+    this.createPages();
+    this.currentPage = lastPage;
+    this.pages[this.getPageIndex(this.currentPage)].show();
+    this.pages[this.getPageIndex(this.currentPage)].scrollTo(lastScrollPosition);
+  }
+  /**
+   * Destroys the SettingsPageManager and all its pages.
+   */
+  destroy() {
+    this.pages.forEach((page) => page.destroy && page.destroy());
+  }
+  /**
+   * Renders the SettingsPageManager.
+   */
+  render() {
+    this.pages.forEach((page) => page.render && page.render());
+  }
+  // https://github.com/mgmeyers/obsidian-kanban/blob/main/src/Settings.ts
+  applySettingsUpdate(callback2) {
+    clearTimeout(this.applyDebounceTimer);
+    this.applyDebounceTimer = window.setTimeout(callback2, 512);
+  }
+  createPages() {
+    this.containerEl.empty();
+    for (const pageType of SettingsPageTypesArray) {
+      const newPageContainerEl = this.containerEl.createDiv();
+      switch (pageType) {
+        case "main-page":
+          this.pages.push(
+            new MainPage(
+              newPageContainerEl,
+              this.plugin,
+              pageType,
+              this.display,
+              this.openPage.bind(this),
+              this.scrollListener.bind(this)
+            )
+          );
+          break;
+        case "flashcards-page":
+          this.pages.push(
+            new FlashcardsPage(
+              newPageContainerEl,
+              this.plugin,
+              pageType,
+              this.applySettingsUpdate.bind(this),
+              this.display,
+              this.openPage.bind(this),
+              this.scrollListener.bind(this)
+            )
+          );
+          break;
+        case "notes-page":
+          this.pages.push(
+            new NotesPage(
+              newPageContainerEl,
+              this.plugin,
+              pageType,
+              this.applySettingsUpdate.bind(this),
+              this.display,
+              this.openPage.bind(this),
+              this.scrollListener.bind(this)
+            )
+          );
+          break;
+        case "scheduling-page":
+          this.pages.push(
+            new SchedulingPage(
+              newPageContainerEl,
+              this.plugin,
+              pageType,
+              this.applySettingsUpdate.bind(this),
+              this.display,
+              this.openPage.bind(this),
+              this.scrollListener.bind(this)
+            )
+          );
+          break;
+        case "ui-preferences-page":
+          this.pages.push(
+            new UIPreferencesPage(
+              newPageContainerEl,
+              this.plugin,
+              pageType,
+              this.applySettingsUpdate.bind(this),
+              this.display,
+              this.openPage.bind(this),
+              this.scrollListener.bind(this)
+            )
+          );
+          break;
+        case "statistics-page":
+          this.pages.push(
+            new StatisticsPage(
+              newPageContainerEl,
+              this.plugin,
+              pageType,
+              this.openPage.bind(this),
+              this.scrollListener.bind(this)
+            )
+          );
+          break;
+      }
+    }
+  }
+  scrollListener(scrollPosition) {
+    this.updateLastPageState(this.currentPage, scrollPosition);
+  }
+  getPageIndex(pageType) {
+    return this.pages.findIndex((page) => page.getPageType() === pageType);
+  }
+  openPage(pageType) {
+    if (this.currentPage === pageType) return;
+    this.pages[this.getPageIndex(this.currentPage)].hide();
+    this.currentPage = pageType;
+    this.updateLastPageState(this.currentPage, 0);
+    this.pages[this.getPageIndex(this.currentPage)].show();
+  }
+};
+
+// src/ui/obsidian-ui-components/settings-tab.tsx
+var SRSettingTab = class extends import_obsidian28.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.lastPage = "main-page";
+    this.lastScrollPosition = 0;
+    this.plugin = plugin;
+    this.icon = "SpacedRepIcon";
+    this.containerEl.addClass("sr-settings-tab");
+  }
+  display() {
+    this.settingsPageManager = new SettingsPageManager(
+      this.containerEl,
+      this.plugin,
+      this.lastPage,
+      this.lastScrollPosition,
+      (lastPage, lastScrollPosition) => {
+        this.lastPage = lastPage;
+        this.lastScrollPosition = lastScrollPosition;
+      },
+      this.display.bind(this)
+    );
+  }
+  hide() {
+    if (this.settingsPageManager) this.settingsPageManager.destroy();
+    this.containerEl.empty();
+  }
+};
+
+// src/ui/sidebar-manager.tsx
+var SidebarManager = class {
   get app() {
     return this.plugin.app;
   }
@@ -29089,7 +30771,7 @@ var OsrSidebar = class {
   }
   getActiveLeaf(type) {
     const leaves = this.app.workspace.getLeavesOfType(type);
-    if (leaves.length == 0) {
+    if (leaves.length === 0) {
       return this.app.workspace.getRightLeaf(false);
     }
     return leaves[0];
@@ -29099,7 +30781,8 @@ var OsrSidebar = class {
       return this.reviewQueueListView = new ReviewQueueListView(
         leaf,
         this.nextNoteReviewHandler,
-        this.settings
+        this.settings,
+        this.plugin
       );
     });
   }
@@ -29117,7 +30800,262 @@ var OsrSidebar = class {
   }
 };
 
-// src/gui/tab-view-manager.tsx
+// src/ui/status-bar-manager.tsx
+var import_obsidian30 = require("obsidian");
+
+// src/ui/obsidian-ui-components/statusbar-items/icon-text-statusbar-item.tsx
+var import_obsidian29 = require("obsidian");
+
+// src/ui/obsidian-ui-components/statusbar-items/statusbar-item.tsx
+var StatusBarItem = class {
+  constructor(plugin, type, props) {
+    var _a2;
+    this.plugin = plugin;
+    this.type = type;
+    this.statusBarItem = this.plugin.addStatusBarItem();
+    this.statusBarItem.addClass("status-bar-item");
+    this.statusBarItem.addClass("sr-status-bar-item");
+    if (props.show === void 0 || props.show === false) {
+      this.statusBarItem.addClass("sr-is-hidden");
+    }
+    if (props.onClick !== void 0) {
+      this.statusBarItem.addClass("mod-clickable");
+      this.statusBarItem.addEventListener("click", async () => {
+        await props.onClick();
+      });
+    }
+    if (props.tooltip !== void 0) {
+      this.statusBarItem.setAttribute("aria-label", props.tooltip);
+      this.statusBarItem.setAttribute("aria-label-position", (_a2 = props.tooltipPosition) != null ? _a2 : "top");
+    }
+    if (props.segments !== void 0) {
+      for (const segment of props.segments) {
+        this.addSegment(segment);
+      }
+    }
+  }
+  show() {
+    if (this.statusBarItem.hasClass("sr-is-hidden")) {
+      this.statusBarItem.removeClass("sr-is-hidden");
+    }
+  }
+  hide() {
+    if (!this.statusBarItem.hasClass("sr-is-hidden")) {
+      this.statusBarItem.addClass("sr-is-hidden");
+    }
+  }
+  getStatusBarItemType() {
+    return this.type;
+  }
+  addSegment(content) {
+    content.addClass("sr-status-bar-item-segment");
+    this.segments.push(content);
+    this.statusBarItem.appendChild(content);
+    return content;
+  }
+};
+
+// src/ui/obsidian-ui-components/statusbar-items/text-statusbar-item.tsx
+var TextStatusBarItem = class extends StatusBarItem {
+  constructor(plugin, type, props) {
+    super(plugin, type, props);
+    this.setText(props.text);
+  }
+  setText(text) {
+    this.segments = [];
+    this.statusBarItem.empty();
+    if (text !== void 0 && typeof text === "string") {
+      this.text = text;
+      this.createTextSegment(text);
+    } else if (text !== void 0 && Array.isArray(text)) {
+      this.text = text;
+      for (const textSegment of text) {
+        this.createTextSegment(textSegment);
+      }
+    }
+  }
+  getText() {
+    return this.text;
+  }
+  createTextSegment(text) {
+    const segment = document.createElement("span");
+    segment.setText(text);
+    this.addSegment(segment);
+  }
+};
+
+// src/ui/obsidian-ui-components/statusbar-items/icon-text-statusbar-item.tsx
+var IconTextStatusBarItem = class extends TextStatusBarItem {
+  constructor(plugin, type, props) {
+    super(plugin, type, props);
+    this.setText(props.text ? props.text : "", props.icon);
+  }
+  setText(text, icon) {
+    this.segments = [];
+    this.statusBarItem.empty();
+    if (this.icon !== void 0 || icon !== void 0)
+      this.setStatusBarItemIcon(icon ? icon : this.icon);
+    if (text !== void 0 && typeof text === "string") {
+      this.text = text;
+      this.createTextSegment(text);
+    } else if (text !== void 0 && Array.isArray(text)) {
+      this.text = text;
+      for (const textSegment of text) {
+        this.createTextSegment(textSegment);
+      }
+    }
+  }
+  setStatusBarItemIcon(icon) {
+    this.icon = icon;
+    if (this.iconEl === void 0 || !this.statusBarItem.hasChildNodes()) {
+      this.iconEl = document.createElement("span");
+      this.iconEl.addClass("status-bar-item-icon");
+      this.addSegment(this.iconEl);
+    } else {
+      this.iconEl.empty();
+    }
+    (0, import_obsidian29.setIcon)(this.iconEl, this.icon);
+    if (!this.iconEl.hasClass("status-bar-item-icon")) {
+      this.iconEl.addClass("status-bar-item-icon");
+    }
+  }
+};
+
+// src/ui/status-bar-manager.tsx
+var StatusBarItemTypesArray = [
+  "card-review",
+  "note-review",
+  "update-available"
+];
+var StatusBarManager = class {
+  constructor(plugin) {
+    this.plugin = plugin;
+    this.statusBarItems = [];
+    this.createStatusBarItems();
+  }
+  setText(text, showItems, statusBarItemType) {
+    const statusBarItem = this.statusBarItems.find(
+      (statusBarItem2) => statusBarItem2.getStatusBarItemType() === statusBarItemType
+    );
+    if (statusBarItem !== void 0) {
+      statusBarItem.setText(text);
+      if (showItems) {
+        statusBarItem.show();
+      } else {
+        statusBarItem.hide();
+      }
+    }
+  }
+  showStatusBarItems(state) {
+    if (state === true && this.statusBarItems.length === 0) {
+      this.createStatusBarItems();
+      this.statusBarItems.forEach((statusBarItem) => {
+        statusBarItem.show();
+      });
+    } else if (state === true && this.statusBarItems.length > 0) {
+      this.statusBarItems.forEach((statusBarItem) => {
+        if (statusBarItem.getStatusBarItemType() !== "update-available")
+          statusBarItem.show();
+      });
+    } else {
+      this.statusBarItems.forEach((statusBarItem) => {
+        statusBarItem.hide();
+      });
+    }
+  }
+  showStatusBarItem(state, statusBarItemType) {
+    const statusBarItem = this.statusBarItems.find(
+      (statusBarItem2) => statusBarItem2.getStatusBarItemType() === statusBarItemType
+    );
+    if (statusBarItem !== void 0) {
+      if (state) {
+        statusBarItem.show();
+      } else {
+        statusBarItem.hide();
+      }
+    }
+  }
+  showUpdateAvailableItemIfAvailable() {
+    const updateItem = this.statusBarItems.find(
+      (statusBarItem) => statusBarItem.getStatusBarItemType() === "update-available"
+    );
+    if (updateItem !== void 0 && updateItem.getText() !== void 0 && updateItem.getText() !== "") {
+      updateItem.show();
+    }
+  }
+  async createStatusBarItems() {
+    StatusBarItemTypesArray.forEach((statusBarItemType) => {
+      let statusBarItem = void 0;
+      switch (statusBarItemType) {
+        case "card-review":
+          statusBarItem = new IconTextStatusBarItem(this.plugin, statusBarItemType, {
+            icon: "SpacedRepIcon",
+            show: false,
+            tooltip: t("OPEN_DECK_FOR_REVIEW"),
+            tooltipPosition: "top",
+            onClick: async () => {
+              await this.plugin.uiManager.openDeckContainer(
+                1 /* Review */
+              );
+            }
+          });
+          break;
+        case "note-review":
+          statusBarItem = new IconTextStatusBarItem(this.plugin, statusBarItemType, {
+            icon: "lucide-file-clock",
+            show: false,
+            tooltip: t("OPEN_NOTE_FOR_REVIEW"),
+            tooltipPosition: "top",
+            onClick: async () => {
+              if (!this.plugin.osrAppCore.syncLock) {
+                await this.plugin.sync();
+                this.plugin.nextNoteReviewHandler.reviewNextNoteModal();
+              }
+            }
+          });
+          break;
+        case "update-available":
+          statusBarItem = new IconTextStatusBarItem(this.plugin, statusBarItemType, {
+            icon: "lucide-circle-arrow-up",
+            show: false,
+            tooltip: t("UPDATE_AVAILABLE"),
+            tooltipPosition: "top"
+          });
+          break;
+      }
+      this.statusBarItems.push(statusBarItem);
+    });
+    if (this.plugin.manifest.version !== await this.getNewestVersion()) {
+      const updateItem = this.statusBarItems.find(
+        (statusBarItem) => statusBarItem.getStatusBarItemType() === "update-available"
+      );
+      updateItem.setText("Spaced Repetition: new Update!");
+    }
+  }
+  async getNewestVersion() {
+    try {
+      const gitAPIrequest = async () => {
+        return JSON.parse(
+          await (0, import_obsidian30.request)({
+            url: "https://api.github.com/repos/st3v3nmw/obsidian-spaced-repetition/releases?per_page=15&page=1"
+          })
+        );
+      };
+      const latestVersion = (await gitAPIrequest()).filter((el) => !el.draft && !el.prerelease).map((el) => {
+        return {
+          version: el.tag_name,
+          published: new Date(el.published_at)
+        };
+      }).filter((el) => el.version.match(/^\d+\.\d+\.\d+$/)).sort((el1, el2) => el2.published - el1.published)[0].version;
+      return latestVersion;
+    } catch (e2) {
+      console.log({ error: e2 });
+      return this.plugin.manifest.version;
+    }
+  }
+};
+
+// src/ui/tab-view-manager.tsx
 var TabViewManager = class {
   // Add any needed resourced
   constructor(plugin) {
@@ -29179,7 +31117,7 @@ var TabViewManager = class {
    */
   closeAllTabViews() {
     this.forEachTabViewType((viewType) => {
-      this.plugin.app.workspace.detachLeavesOfType(viewType.type);
+      this.plugin.app.workspace.getLeavesOfType(viewType.type).forEach((leaf) => leaf.detach());
     });
   }
   forEachTabViewType(callback2) {
@@ -29192,292 +31130,218 @@ var TabViewManager = class {
   }
   async openTabView(type, newLeaf) {
     const { workspace } = this.plugin.app;
-    let leaf = null;
+    let leaf;
     const leaves = workspace.getLeavesOfType(type);
     if (leaves.length > 0) {
       leaf = leaves[0];
     } else {
       leaf = workspace.getLeaf(newLeaf);
-      if (leaf !== null) {
+      if (leaf !== null && leaf !== void 0) {
         await leaf.setViewState({ type, active: true });
       }
     }
-    if (leaf !== null) {
+    if (leaf !== null && leaf !== void 0) {
       workspace.revealLeaf(leaf);
     }
   }
 };
 
-// src/icons/app-icon.ts
-var import_obsidian18 = require("obsidian");
-function appIcon() {
-  (0, import_obsidian18.addIcon)(
-    "SpacedRepIcon",
-    `<path fill="currentColor" stroke="currentColor" d="M 88.960938 17.257812 L 47.457031 17.257812 C 45.679688 17.257812 44.230469 18.703125 44.230469 20.484375 L 44.230469 86.558594 C 44.230469 88.335938 45.679688 89.785156 47.457031 89.785156 L 88.960938 89.785156 C 90.738281 89.785156 92.1875 88.335938 92.1875 86.558594 L 92.1875 20.484375 C 92.1875 18.703125 90.738281 17.257812 88.960938 17.257812 Z M 88.28125 85.878906 L 48.136719 85.878906 L 48.136719 21.164062 L 88.28125 21.164062 Z M 88.28125 85.878906 "/>
-        <path fill="currentColor" stroke="currentColor"  d="M 88.960938 9.445312 L 61.667969 9.445312 C 59.925781 3.816406 54.011719 0.515625 48.269531 2.054688 L 8.183594 12.796875 C 2.304688 14.371094 -1.199219 20.4375 0.378906 26.316406 L 17.476562 90.140625 C 18.796875 95.066406 23.269531 98.324219 28.144531 98.324219 C 29.085938 98.324219 30.046875 98.199219 31 97.945312 L 40.765625 95.328125 C 42.625 96.75 44.941406 97.597656 47.457031 97.597656 L 88.960938 97.597656 C 95.046875 97.597656 100 92.644531 100 86.558594 L 100 20.484375 C 100 14.398438 95.046875 9.445312 88.960938 9.445312 Z M 29.988281 94.171875 C 26.1875 95.191406 22.269531 92.925781 21.25 89.128906 L 4.152344 25.304688 C 3.132812 21.507812 5.394531 17.585938 9.195312 16.570312 L 49.28125 5.828125 C 52.578125 4.945312 55.960938 6.53125 57.464844 9.445312 L 47.457031 9.445312 C 41.371094 9.445312 36.417969 14.398438 36.417969 20.484375 L 36.417969 86.558594 C 36.417969 88.558594 36.957031 90.433594 37.890625 92.054688 Z M 96.09375 86.558594 C 96.09375 90.492188 92.894531 93.691406 88.960938 93.691406 L 47.457031 93.691406 C 43.523438 93.691406 40.324219 90.492188 40.324219 86.558594 L 40.324219 20.484375 C 40.324219 16.550781 43.523438 13.351562 47.457031 13.351562 L 88.960938 13.351562 C 92.894531 13.351562 96.09375 16.550781 96.09375 20.484375 Z M 96.09375 86.558594 "/>
-        <path fill="currentColor" stroke="currentColor"  d="M 54.101562 53.09375 L 60.070312 57.410156 L 57.789062 64.378906 C 56.90625 67.074219 59.996094 69.320312 62.285156 67.648438 L 68.210938 63.324219 L 74.132812 67.648438 C 76.421875 69.320312 79.511719 67.074219 78.628906 64.378906 L 76.347656 57.410156 L 82.320312 53.09375 C 84.613281 51.433594 83.441406 47.804688 80.605469 47.804688 L 73.242188 47.804688 L 70.988281 40.839844 C 70.117188 38.144531 66.300781 38.144531 65.429688 40.839844 L 63.179688 47.804688 L 55.8125 47.804688 C 52.980469 47.804688 51.804688 51.433594 54.101562 53.09375 Z M 54.101562 53.09375 "/>
-        `
-  );
-}
-
-// src/next-note-review-handler.ts
-var import_obsidian20 = require("obsidian");
-
-// src/gui/review-deck-selection-modal.tsx
-var import_obsidian19 = require("obsidian");
-var ReviewDeckSelectionModal = class extends import_obsidian19.FuzzySuggestModal {
-  constructor(app, deckKeys) {
-    super(app);
-    this.deckKeys = [];
-    this.deckKeys = deckKeys;
-  }
-  getItems() {
-    return this.deckKeys;
-  }
-  getItemText(item) {
-    return item;
-  }
-  onChooseItem(deckKey, _2) {
-    this.close();
-    this.submitCallback(deckKey);
-  }
-};
-
-// src/next-note-review-handler.ts
-var NextNoteReviewHandler = class {
-  get lastSelectedReviewDeck() {
-    return this._lastSelectedReviewDeck;
-  }
-  get noteReviewQueue() {
-    return this._noteReviewQueue;
-  }
-  constructor(app, settings, noteReviewQueue) {
-    this.app = app;
-    this.settings = settings;
-    this._noteReviewQueue = noteReviewQueue;
-  }
-  async autoReviewNextNote() {
-    if (this.settings.autoNextNote) {
-      if (!this._lastSelectedReviewDeck) {
-        const reviewDeckKeys = this._noteReviewQueue.reviewDeckNameList;
-        if (reviewDeckKeys.length > 0) this._lastSelectedReviewDeck = reviewDeckKeys[0];
-        else {
-          new import_obsidian20.Notice(t("ALL_CAUGHT_UP"));
-          return;
+// src/ui/ui-manager.tsx
+var UIManager = class {
+  constructor(plugin) {
+    this.statusBarManager = null;
+    this.ribbonIcon = null;
+    this.isSRInFocus = false;
+    this.plugin = plugin;
+    appIcon();
+    this.tabViewManager = new TabViewManager(this.plugin);
+    this.plugin.app.workspace.onLayoutReady(async () => {
+      this.tabViewManager.closeAllTabViews();
+    });
+    this.sidebarManager = new SidebarManager(
+      this.plugin,
+      this.plugin.data.settings,
+      this.plugin.nextNoteReviewHandler
+    );
+    this.sidebarManager.init();
+    this.plugin.app.workspace.onLayoutReady(async () => {
+      await this.sidebarManager.activateReviewQueueViewPanel();
+      setTimeout(async () => {
+        if (!this.plugin.osrAppCore.syncLock) {
+          await this.plugin.sync();
         }
-      }
-      this.reviewNextNote(this._lastSelectedReviewDeck);
+      }, 2e3);
+    });
+    this.statusBarManager = new StatusBarManager(this.plugin);
+    this.showRibbonIcon(this.plugin.data.settings.showRibbonIcon);
+    this.showFileMenuItems(this.plugin.data.settings.disableFileMenuReviewOptions);
+    this.plugin.addSettingTab(new SRSettingTab(this.plugin.app, this.plugin));
+    this.registerSRFocusListener();
+  }
+  destroy() {
+    this.removeSRFocusListener();
+    this.plugin.app.workspace.off("file-menu", this.fileMenuHandler);
+    this.tabViewManager.closeAllTabViews();
+  }
+  updateStatusBar() {
+    if (this.plugin.data.settings.showStatusBar) {
+      this.statusBarManager.setText(
+        `${this.plugin.osrAppCore.remainingDeckTree.getCardCount(
+          2 /* All */,
+          true
+        )} card(s) due`,
+        this.plugin.data.settings.showStatusBar,
+        "card-review"
+      );
+      this.statusBarManager.setText(
+        `${this.plugin.osrAppCore.noteReviewQueue.dueNotesCount} note(s) due`,
+        this.plugin.data.settings.showStatusBar,
+        "note-review"
+      );
+      this.statusBarManager.showUpdateAvailableItemIfAvailable();
+    }
+    this.statusBarManager.showStatusBarItems(this.plugin.data.settings.showStatusBar);
+  }
+  registerSRFocusListener() {
+    this.plugin.registerEvent(
+      this.plugin.app.workspace.on("active-leaf-change", this.handleFocusChange.bind(this))
+    );
+    this.externalModalObserver = new MutationObserver(this.handleExternalModalOpen.bind(this));
+    this.externalModalObserver.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  }
+  removeSRFocusListener() {
+    this.setSRViewInFocus(false);
+    this.plugin.app.workspace.off("active-leaf-change", this.handleFocusChange.bind(this));
+  }
+  handleFocusChange(leaf) {
+    this.setSRViewInFocus(
+      leaf !== null && leaf !== void 0 && leaf.view instanceof SRTabView
+    );
+  }
+  handleExternalModalOpen(mutationList) {
+    if (this.plugin.data.settings.openViewInNewTab && // Is a modal opening relevant for focus?
+    mutationList.length > 0 && mutationList.filter(
+      (mutation) => mutation.type === "childList" && (mutation.addedNodes.length > 0 || mutation.removedNodes.length > 0)
+    ).length > 0) {
+      const modal = document.querySelector(".modal-container");
+      this.setSRViewInFocus(
+        (modal === null || modal === void 0) && this.plugin.app.workspace.getActiveViewOfType(SRTabView) !== null && this.plugin.app.workspace.getActiveViewOfType(SRTabView) !== void 0
+      );
     }
   }
-  async reviewNextNoteModal() {
-    const reviewDeckNames = this._noteReviewQueue.reviewDeckNameList;
-    if (reviewDeckNames.length === 1) {
-      this.reviewNextNote(reviewDeckNames[0]);
-    } else {
-      const deckSelectionModal = new ReviewDeckSelectionModal(this.app, reviewDeckNames);
-      deckSelectionModal.submitCallback = (deckKey) => this.reviewNextNote(deckKey);
-      deckSelectionModal.open();
-    }
-  }
-  async reviewNextNote(deckKey) {
-    if (!this._noteReviewQueue.reviewDeckNameList.contains(deckKey)) {
-      new import_obsidian20.Notice(t("NO_DECK_EXISTS", { deckName: deckKey }));
+  async openDeckContainer(mode, singleNote) {
+    if (this.plugin.osrAppCore.syncLock) {
       return;
     }
-    this._lastSelectedReviewDeck = deckKey;
-    const deck = this._noteReviewQueue.reviewDecks.get(deckKey);
-    const notefile = deck.determineNextNote(this.settings.openRandomNote);
-    if (notefile) {
-      await this.openNote(deckKey, notefile.tfile);
+    await this.plugin.sync();
+    const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
+    const openInNewTab = !isMobile && this.plugin.data.settings.openViewInNewTab || isMobile && this.plugin.data.settings.openViewInNewTabMobile;
+    if (openInNewTab) {
+      this.tabViewManager.openSRTabView(this.plugin.osrAppCore, mode, singleNote);
     } else {
-      new import_obsidian20.Notice(t("ALL_CAUGHT_UP"));
+      this.openFlashcardModal(this.plugin.osrAppCore, mode, singleNote);
     }
   }
-  async openNote(deckName, file) {
-    this._lastSelectedReviewDeck = deckName;
-    await this.app.workspace.getLeaf().openFile(file);
-  }
-};
-
-// src/note-review-deck.ts
-var SchedNote = class {
-  constructor(note, dueUnix) {
-    this.note = note;
-    this.dueUnix = dueUnix;
-  }
-  isDue(todayUnix) {
-    return this.dueUnix <= todayUnix;
-  }
-};
-var NoteReviewDeck = class {
-  constructor(name) {
-    this._newNotes = [];
-    this._scheduledNotes = [];
-    this._dueNotesCount = 0;
-    this._deckName = name;
-    this._activeFolders = /* @__PURE__ */ new Set([this._deckName, t("TODAY")]);
-  }
-  get deckName() {
-    return this._deckName;
-  }
-  get newNotes() {
-    return this._newNotes;
-  }
-  get scheduledNotes() {
-    return this._scheduledNotes;
-  }
-  get dueNotesCount() {
-    return this._dueNotesCount;
-  }
-  get activeFolders() {
-    return this._activeFolders;
-  }
-  calcDueNotesCount(todayUnix) {
-    this._dueNotesCount = 0;
-    this.scheduledNotes.forEach((scheduledNote) => {
-      if (scheduledNote.isDue(todayUnix)) {
-        this._dueNotesCount++;
-      }
-    });
-  }
-  sortNotesByDateAndImportance(pageranks) {
-    this._newNotes = this.newNotes.sort(
-      (a2, b2) => (pageranks[b2.path] || 0) - (pageranks[a2.path] || 0)
+  async openFlashcardModal(osrAppCore, reviewMode, singleNote) {
+    let deckTree;
+    let remainingDeckTree;
+    if (singleNote) {
+      const singleNoteDeckData = await this.plugin.getPreparedDecksForSingleNoteReview(
+        singleNote,
+        reviewMode
+      );
+      deckTree = singleNoteDeckData.deckTree;
+      remainingDeckTree = singleNoteDeckData.remainingDeckTree;
+    } else {
+      deckTree = osrAppCore.reviewableDeckTree;
+      remainingDeckTree = reviewMode === 0 /* Cram */ ? osrAppCore.reviewableDeckTree : osrAppCore.remainingDeckTree;
+    }
+    const reviewSequencerData = this.plugin.getPreparedReviewSequencer(
+      deckTree,
+      remainingDeckTree,
+      reviewMode
     );
-    this._scheduledNotes = this.scheduledNotes.sort((a2, b2) => {
-      const result = a2.dueUnix - b2.dueUnix;
-      if (result != 0) {
-        return result;
-      }
-      return (pageranks[b2.note.path] || 0) - (pageranks[a2.note.path] || 0);
-    });
+    this.setSRViewInFocus(true);
+    new SRModalView(
+      this.plugin.app,
+      this.plugin,
+      this.plugin.data.settings,
+      reviewSequencerData.reviewSequencer,
+      reviewSequencerData.mode
+    ).open();
   }
-  determineNextNote(openRandomNote) {
-    const todayUnix = globalDateProvider.today.valueOf();
-    const dueNotes = this.scheduledNotes.filter((note) => note.isDue(todayUnix));
-    if (dueNotes.length > 0) {
-      const index = openRandomNote ? globalRandomNumberProvider.getInteger(0, dueNotes.length - 1) : 0;
-      return dueNotes[index].note;
-    }
-    if (this.newNotes.length > 0) {
-      const index = openRandomNote ? globalRandomNumberProvider.getInteger(0, this.newNotes.length - 1) : 0;
-      return this.newNotes[index];
-    }
-    return null;
+  setSRViewInFocus(value) {
+    this.isSRInFocus = value;
   }
-};
-
-// src/note-review-queue.ts
-var NoteReviewQueue = class {
-  get reviewDecks() {
-    return this._reviewDecks;
+  getSRInFocusState() {
+    return this.isSRInFocus;
   }
-  get dueNotesCount() {
-    return this._dueNotesCount;
-  }
-  get reviewDeckNameList() {
-    return [...this._reviewDecks.keys()];
-  }
-  init() {
-    this._reviewDecks = /* @__PURE__ */ new Map();
-  }
-  calcDueNotesCount(todayUnix) {
-    this._dueNotesCount = 0;
-    this._reviewDecks.forEach((reviewDeck) => {
-      reviewDeck.calcDueNotesCount(todayUnix);
-      this._dueNotesCount += reviewDeck.dueNotesCount;
-    });
-  }
-  addNoteToQueue(noteFile, noteSchedule, matchedNoteTags) {
-    for (const matchedNoteTag of matchedNoteTags) {
-      if (!this.reviewDecks.has(matchedNoteTag)) {
-        this.reviewDecks.set(matchedNoteTag, new NoteReviewDeck(matchedNoteTag));
-      }
-    }
-    if (noteSchedule == null) {
-      for (const matchedNoteTag of matchedNoteTags) {
-        this.reviewDecks.get(matchedNoteTag).newNotes.push(noteFile);
-      }
-    } else {
-      for (const matchedNoteTag of matchedNoteTags) {
-        this.reviewDecks.get(matchedNoteTag).scheduledNotes.push(new SchedNote(noteFile, noteSchedule.dueDateAsUnix));
-      }
-    }
-  }
-  updateScheduleInfo(note, scheduleInfo) {
-    this.reviewDecks.forEach((reviewDeck) => {
-      let wasDueInDeck = false;
-      for (const scheduledNote of reviewDeck.scheduledNotes) {
-        if (scheduledNote.note.path === note.path) {
-          scheduledNote.dueUnix = scheduleInfo.dueDate.valueOf();
-          wasDueInDeck = true;
-          break;
+  showRibbonIcon(status) {
+    if (!this.ribbonIcon) {
+      this.ribbonIcon = this.plugin.addRibbonIcon(
+        "SpacedRepIcon",
+        t("REVIEW_CARDS"),
+        async () => {
+          await this.openDeckContainer(1 /* Review */);
         }
-      }
-      if (!wasDueInDeck) {
-        reviewDeck.newNotes.splice(
-          reviewDeck.newNotes.findIndex((newNote) => newNote.path === note.path),
-          1
-        );
-        reviewDeck.scheduledNotes.push(new SchedNote(note, scheduleInfo.dueDate.valueOf()));
-      }
-    });
-  }
-};
-
-// src/plugin-data.ts
-var DEFAULT_DATA = {
-  settings: DEFAULT_SETTINGS,
-  buryDate: "",
-  buryList: [],
-  historyDeck: null
-};
-
-// src/question-postponement-list.ts
-var QuestionPostponementList = class {
-  constructor(plugin, settings, list) {
-    this.plugin = plugin;
-    this.settings = settings;
-    this.list = list;
-  }
-  async clearIfNewDay(data) {
-    const now2 = window.moment(Date.now());
-    const todayDate = now2.format("YYYY-MM-DD");
-    const isNewDay = todayDate !== data.buryDate;
-    if (isNewDay) {
-      data.buryDate = todayDate;
-      this.clear();
-      await this.write();
+      );
+    }
+    if (status) {
+      this.ribbonIcon.style.display = "";
+    } else {
+      this.ribbonIcon.style.display = "none";
     }
   }
-  clear() {
-    this.list.splice(0);
-  }
-  add(question) {
-    if (!this.includes(question)) this.list.push(question.questionText.textHash);
-  }
-  includes(question) {
-    return this.list.includes(question.questionText.textHash);
-  }
-  async write() {
-    if (this.plugin == null) return;
-    await this.plugin.savePluginData();
+  showFileMenuItems(status) {
+    if (this.fileMenuHandler === void 0) {
+      this.fileMenuHandler = (menu, fileish) => {
+        if (fileish instanceof import_obsidian31.TFile && fileish.extension === "md") {
+          menu.addItem((item) => {
+            item.setTitle(
+              t("REVIEW_DIFFICULTY_FILE_MENU", {
+                difficulty: this.plugin.data.settings.flashcardEasyText
+              })
+            ).setIcon("SpacedRepIcon").onClick(() => {
+              this.plugin.saveNoteReviewResponse(fileish, 0 /* Easy */);
+            });
+          });
+          menu.addItem((item) => {
+            item.setTitle(
+              t("REVIEW_DIFFICULTY_FILE_MENU", {
+                difficulty: this.plugin.data.settings.flashcardGoodText
+              })
+            ).setIcon("SpacedRepIcon").onClick(() => {
+              this.plugin.saveNoteReviewResponse(fileish, 1 /* Good */);
+            });
+          });
+          menu.addItem((item) => {
+            item.setTitle(
+              t("REVIEW_DIFFICULTY_FILE_MENU", {
+                difficulty: this.plugin.data.settings.flashcardHardText
+              })
+            ).setIcon("SpacedRepIcon").onClick(() => {
+              this.plugin.saveNoteReviewResponse(fileish, 2 /* Hard */);
+            });
+          });
+        }
+      };
+    }
+    if (status) {
+      this.plugin.registerEvent(
+        this.plugin.app.workspace.on("file-menu", this.fileMenuHandler)
+      );
+    } else {
+      this.plugin.app.workspace.off("file-menu", this.fileMenuHandler);
+    }
   }
 };
 
 // src/main.ts
-var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
-  constructor() {
-    super(...arguments);
-    this.ribbonIcon = null;
-    this.statusBar = null;
-    this.isSRInFocus = false;
-  }
+var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
   async onload() {
-    this.tabViewManager = new TabViewManager(this);
-    this.app.workspace.onLayoutReady(async () => {
-      this.tabViewManager.closeAllTabViews();
-    });
     await this.loadPluginData();
     const noteReviewQueue = new NoteReviewQueue();
     this.nextNoteReviewHandler = new NextNoteReviewHandler(
@@ -29485,16 +31349,6 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
       this.data.settings,
       noteReviewQueue
     );
-    this.osrSidebar = new OsrSidebar(this, this.data.settings, this.nextNoteReviewHandler);
-    this.osrSidebar.init();
-    this.app.workspace.onLayoutReady(async () => {
-      await this.osrSidebar.activateReviewQueueViewPanel();
-      setTimeout(async () => {
-        if (!this.osrAppCore.syncLock) {
-          await this.sync();
-        }
-      }, 2e3);
-    });
     const questionPostponementList = new QuestionPostponementList(
       this,
       this.data.settings,
@@ -29509,53 +31363,8 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
       this.onOsrVaultDataChanged.bind(this),
       noteReviewQueue
     );
-    appIcon();
-    this.showStatusBar(this.data.settings.showStatusBar);
-    this.showRibbonIcon(this.data.settings.showRibbonIcon);
-    this.showFileMenuItems(!this.data.settings.disableFileMenuReviewOptions);
+    this.uiManager = new UIManager(this);
     this.addPluginCommands();
-    this.addSettingTab(new SRSettingTab(this.app, this));
-    this.registerSRFocusListener();
-  }
-  showFileMenuItems(status) {
-    if (this.fileMenuHandler === void 0) {
-      this.fileMenuHandler = (menu, fileish) => {
-        if (fileish instanceof import_obsidian21.TFile && fileish.extension === "md") {
-          menu.addItem((item) => {
-            item.setTitle(
-              t("REVIEW_DIFFICULTY_FILE_MENU", {
-                difficulty: this.data.settings.flashcardEasyText
-              })
-            ).setIcon("SpacedRepIcon").onClick(() => {
-              this.saveNoteReviewResponse(fileish, 0 /* Easy */);
-            });
-          });
-          menu.addItem((item) => {
-            item.setTitle(
-              t("REVIEW_DIFFICULTY_FILE_MENU", {
-                difficulty: this.data.settings.flashcardGoodText
-              })
-            ).setIcon("SpacedRepIcon").onClick(() => {
-              this.saveNoteReviewResponse(fileish, 1 /* Good */);
-            });
-          });
-          menu.addItem((item) => {
-            item.setTitle(
-              t("REVIEW_DIFFICULTY_FILE_MENU", {
-                difficulty: this.data.settings.flashcardHardText
-              })
-            ).setIcon("SpacedRepIcon").onClick(() => {
-              this.saveNoteReviewResponse(fileish, 2 /* Hard */);
-            });
-          });
-        }
-      };
-    }
-    if (status) {
-      this.registerEvent(this.app.workspace.on("file-menu", this.fileMenuHandler));
-    } else {
-      this.app.workspace.off("file-menu", this.fileMenuHandler);
-    }
   }
   addPluginCommands() {
     this.addCommand({
@@ -29608,35 +31417,14 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
       id: "srs-review-flashcards",
       name: t("REVIEW_ALL_CARDS"),
       callback: async () => {
-        if (this.osrAppCore.syncLock) {
-          return;
-        }
-        await this.sync();
-        if (this.data.settings.openViewInNewTab) {
-          this.tabViewManager.openSRTabView(this.osrAppCore, 1 /* Review */);
-        } else {
-          this.openFlashcardModal(
-            this.osrAppCore.reviewableDeckTree,
-            this.osrAppCore.remainingDeckTree,
-            1 /* Review */
-          );
-        }
+        await this.uiManager.openDeckContainer(1 /* Review */);
       }
     });
     this.addCommand({
       id: "srs-cram-flashcards",
       name: t("CRAM_ALL_CARDS"),
       callback: async () => {
-        await this.sync();
-        if (this.data.settings.openViewInNewTab) {
-          this.tabViewManager.openSRTabView(this.osrAppCore, 0 /* Cram */);
-        } else {
-          this.openFlashcardModal(
-            this.osrAppCore.reviewableDeckTree,
-            this.osrAppCore.reviewableDeckTree,
-            0 /* Cram */
-          );
-        }
+        await this.uiManager.openDeckContainer(0 /* Cram */);
       }
     });
     this.addCommand({
@@ -29647,15 +31435,7 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
         if (!openFile || openFile.extension !== "md") {
           return;
         }
-        if (this.data.settings.openViewInNewTab) {
-          this.tabViewManager.openSRTabView(
-            this.osrAppCore,
-            1 /* Review */,
-            openFile
-          );
-        } else {
-          this.openFlashcardModalForSingleNote(openFile, 1 /* Review */);
-        }
+        await this.uiManager.openDeckContainer(1 /* Review */, openFile);
       }
     });
     this.addCommand({
@@ -29666,28 +31446,20 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
         if (!openFile || openFile.extension !== "md") {
           return;
         }
-        if (this.data.settings.openViewInNewTab) {
-          this.tabViewManager.openSRTabView(
-            this.osrAppCore,
-            0 /* Cram */,
-            openFile
-          );
-        } else {
-          this.openFlashcardModalForSingleNote(openFile, 0 /* Cram */);
-        }
+        await this.uiManager.openDeckContainer(0 /* Cram */, openFile);
       }
     });
     this.addCommand({
       id: "srs-open-review-queue-view",
       name: t("OPEN_REVIEW_QUEUE_VIEW"),
       callback: async () => {
-        await this.osrSidebar.openReviewQueueView();
+        await this.uiManager.sidebarManager.openReviewQueueView();
       }
     });
   }
   onunload() {
     this.app.workspace.getLeavesOfType(REVIEW_QUEUE_VIEW_TYPE).forEach((leaf) => leaf.detach());
-    this.tabViewManager.closeAllTabViews();
+    this.uiManager.destroy();
   }
   getPreparedReviewSequencer(fullDeckTree, remainingDeckTree, reviewMode) {
     const deckIterator = _SRPlugin.createDeckTreeIterator(this.data.settings);
@@ -29704,7 +31476,7 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
   }
   async getPreparedDecksForSingleNoteReview(file, mode) {
     const note = await this.loadNote(file);
-    const deckTree = new Deck2("root", null);
+    const deckTree = new Deck("root", null);
     note.appendCardsToDeck(deckTree);
     const remainingDeckTree = DeckTreeFilter.filterForRemainingCards(
       this.osrAppCore.questionPostponementList,
@@ -29712,66 +31484,6 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
       mode
     );
     return { deckTree, remainingDeckTree, mode };
-  }
-  registerSRFocusListener() {
-    this.registerEvent(
-      this.app.workspace.on("active-leaf-change", this.handleFocusChange.bind(this))
-    );
-    this.externalModalObserver = new MutationObserver(this.handleExternalModalOpen.bind(this));
-    this.externalModalObserver.observe(document.body, {
-      childList: true,
-      subtree: true
-    });
-  }
-  removeSRFocusListener() {
-    this.setSRViewInFocus(false);
-    this.app.workspace.off("active-leaf-change", this.handleFocusChange.bind(this));
-  }
-  handleFocusChange(leaf) {
-    this.setSRViewInFocus(leaf !== null && leaf.view instanceof SRTabView);
-  }
-  handleExternalModalOpen(mutationList) {
-    if (this.data.settings.openViewInNewTab && // Is a modal opening relevant for focus?
-    mutationList.length > 0 && mutationList.filter(
-      (mutation) => mutation.type === "childList" && (mutation.addedNodes.length > 0 || mutation.removedNodes.length > 0)
-    ).length > 0) {
-      const modal = document.querySelector(".modal-container");
-      this.setSRViewInFocus(
-        modal === null && this.app.workspace.getActiveViewOfType(SRTabView) !== null
-      );
-    }
-  }
-  setSRViewInFocus(value) {
-    this.isSRInFocus = value;
-  }
-  getSRInFocusState() {
-    return this.isSRInFocus;
-  }
-  async openFlashcardModalForSingleNote(noteFile, reviewMode) {
-    const singleNoteDeckData = await this.getPreparedDecksForSingleNoteReview(
-      noteFile,
-      reviewMode
-    );
-    this.openFlashcardModal(
-      singleNoteDeckData.deckTree,
-      singleNoteDeckData.remainingDeckTree,
-      reviewMode
-    );
-  }
-  openFlashcardModal(fullDeckTree, remainingDeckTree, reviewMode) {
-    const reviewSequencerData = this.getPreparedReviewSequencer(
-      fullDeckTree,
-      remainingDeckTree,
-      reviewMode
-    );
-    this.setSRViewInFocus(true);
-    new SRModalView(
-      this.app,
-      this,
-      this.data.settings,
-      reviewSequencerData.reviewSequencer,
-      reviewSequencerData.mode
-    ).open();
   }
   static createDeckTreeIterator(settings) {
     let cardOrder = CardOrder[settings.flashcardCardOrder];
@@ -29801,16 +31513,9 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
     }
   }
   onOsrVaultDataChanged() {
-    this.statusBar.setText(
-      t("STATUS_BAR", {
-        dueNotesCount: this.osrAppCore.noteReviewQueue.dueNotesCount,
-        dueFlashcardsCount: this.osrAppCore.remainingDeckTree.getCardCount(
-          2 /* All */,
-          true
-        )
-      })
-    );
-    if (this.data.settings.enableNoteReviewPaneOnStartup) this.osrSidebar.redraw();
+    this.uiManager.updateStatusBar();
+    if (this.data.settings.enableNoteReviewPaneOnStartup)
+      this.uiManager.sidebarManager.redraw();
   }
   async loadNote(noteFile) {
     const loader = new NoteFileLoader(this.data.settings);
@@ -29831,27 +31536,27 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
   }
   getObsidianRtlSetting() {
     const v2 = this.app.vault.getConfig("rightToLeft");
-    return convertToStringOrEmpty(v2) == "true" ? 2 /* Rtl */ : 1 /* Ltr */;
+    return convertToStringOrEmpty(v2) === "true" ? 2 /* Rtl */ : 1 /* Ltr */;
   }
   async saveNoteReviewResponse(note, response) {
     const noteSrTFile = this.createSrTFile(note);
     if (SettingsUtil.isPathInNoteIgnoreFolder(this.data.settings, note.path)) {
-      new import_obsidian21.Notice(t("NOTE_IN_IGNORED_FOLDER"));
+      new import_obsidian32.Notice(t("NOTE_IN_IGNORED_FOLDER"));
       return;
     }
     const tags = noteSrTFile.getAllTagsFromCache();
     if (!SettingsUtil.isAnyTagANoteReviewTag(this.data.settings, tags)) {
-      new import_obsidian21.Notice(t("PLEASE_TAG_NOTE"));
+      new import_obsidian32.Notice(t("PLEASE_TAG_NOTE"));
       return;
     }
     await this.osrAppCore.saveNoteReviewResponse(noteSrTFile, response, this.data.settings);
-    new import_obsidian21.Notice(t("RESPONSE_RECEIVED"));
+    new import_obsidian32.Notice(t("RESPONSE_RECEIVED"));
     if (this.data.settings.autoNextNote) {
       this.nextNoteReviewHandler.autoReviewNextNote();
     }
   }
   createSrTFile(note) {
-    return new SrTFile(this.app.vault, this.app.metadataCache, note);
+    return new SrTFile(this.app.vault, this.app.metadataCache, this.app.fileManager, note);
   }
   async loadPluginData() {
     const loadedData = await this.loadData();
@@ -29868,51 +31573,6 @@ var SRPlugin = class _SRPlugin extends import_obsidian21.Plugin {
   }
   async savePluginData() {
     await this.saveData(this.data);
-  }
-  showRibbonIcon(status) {
-    if (!this.ribbonIcon) {
-      this.ribbonIcon = this.addRibbonIcon("SpacedRepIcon", t("REVIEW_CARDS"), async () => {
-        if (!this.osrAppCore.syncLock) {
-          await this.sync();
-          if (this.data.settings.openViewInNewTab) {
-            this.tabViewManager.openSRTabView(
-              this.osrAppCore,
-              1 /* Review */
-            );
-          } else {
-            this.openFlashcardModal(
-              this.osrAppCore.reviewableDeckTree,
-              this.osrAppCore.remainingDeckTree,
-              1 /* Review */
-            );
-          }
-        }
-      });
-    }
-    if (status) {
-      this.ribbonIcon.style.display = "";
-    } else {
-      this.ribbonIcon.style.display = "none";
-    }
-  }
-  showStatusBar(status) {
-    if (!this.statusBar) {
-      this.statusBar = this.addStatusBarItem();
-      this.statusBar.classList.add("mod-clickable");
-      this.statusBar.setAttribute("aria-label", t("OPEN_NOTE_FOR_REVIEW"));
-      this.statusBar.setAttribute("aria-label-position", "top");
-      this.statusBar.addEventListener("click", async () => {
-        if (!this.osrAppCore.syncLock) {
-          await this.sync();
-          this.nextNoteReviewHandler.reviewNextNoteModal();
-        }
-      });
-    }
-    if (status) {
-      this.statusBar.style.display = "";
-    } else {
-      this.statusBar.style.display = "none";
-    }
   }
 };
 /*! Bundled license information:
