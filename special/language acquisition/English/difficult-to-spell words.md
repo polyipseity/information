@@ -46,7 +46,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: \(c\_n\) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2031-01-15,1967,370-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2032-10-28,2560,416!2026-09-15,745,416-->
 - [deprecate](https://en.wiktionary.org/wiki/deprecate) ::@:: \(d_e\) To declare something obsolescent; to recommend against a function, technique, command, etc. that still works but has been replaced. <!--SR:!2028-09-16,917,449!2026-03-16,159,429-->
-- [deprecation](https://en.wiktionary.org/wiki/deprecation) ::@:: \(d_n\) The act of deprecating. <!--SR:!2026-03-15,158,429!2026-03-15,158,429-->
+- [deprecation](https://en.wiktionary.org/wiki/deprecation) ::@:: \(d_n\) The act of deprecating. <!--SR:!2028-09-21,921,449!2028-09-19,919,449-->
 - [depreciate](https://en.wiktionary.org/wiki/depreciate) ::@:: \(d_e\) To lessen in price or estimated value; to lower the worth of. <!--SR:!2026-03-16,159,429!2027-11-25,660,429-->
 - [depreciation](https://en.wiktionary.org/wiki/depreciation) ::@:: \(d_n\) The measurement of the decline in value of assets. Not to be confused with impairment, which is the measurement of the unplanned, extraordinary decline in value of assets. <!--SR:!2028-09-15,916,449!2026-03-16,159,429-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::@:: \(d\_s\) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2032-12-29,2598,412!2026-11-28,838,433-->

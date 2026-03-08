@@ -212,13 +212,13 @@ return _chain.from_iterable(await _gather(
 
 - `++` <br/> `--`:@:increment a numerical variable by 1 <br/> decrement a numerical variable by 1 <!--SR:!2028-01-21,683,413-->
 - `*` <br/> `/` <br/> `%`:@:multiplication <br/> division; if both operands are of integral types, then round-towards-zero division <br/> remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2028-01-10,673,413-->
-- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2026-03-15,131,393-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2028-02-23,710,413-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2028-01-03,667,413!2026-03-15,131,393!2026-03-15,131,393!2027-11-17,628,413!2027-12-05,643,413-->
+Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2028-01-03,667,413!2028-02-23,710,413!2028-02-22,709,413!2027-11-17,628,413!2027-12-05,643,413-->
 
 ```Python
 # pytextgen generate data
@@ -288,7 +288,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2027-12-01,641,413!2026-03-15,131,393!2028-01-14,676,413-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2027-12-01,641,413!2028-02-21,708,413!2028-01-14,676,413-->
 
 ```Python
 # pytextgen generate data

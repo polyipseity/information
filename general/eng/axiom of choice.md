@@ -182,7 +182,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
   - \(annotation: {@{equivalent to}@} AC\) {@{Every [free abelian group](free%20abelian%20group.md)}@} is {@{[projective](projective%20module.md) \(annotation: projective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-07-24,251,330!2026-12-31,384,364!2026-06-13,133,415-->
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-10-07,313,347!2026-06-13,203,327!2026-03-15,146,324!2026-06-27,147,415-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-10-07,313,347!2026-06-13,203,327!2028-01-01,657,344!2026-06-27,147,415-->
 
   - \(annotation: {@{equivalent to}@} AC\) {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-01-09,391,364!2026-07-04,238,344!2026-09-18,297,347!2026-06-27,147,415-->
 

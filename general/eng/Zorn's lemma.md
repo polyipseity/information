@@ -9,7 +9,7 @@ tags:
 
 # Zorn's lemma
 
-- For {@{the film by Hollis Frampton}@}, see {@{[Zorns Lemma](Zorns%20Lemma.md)}@}. <!--SR:!2030-07-18,1607,370!2026-03-15,351,350-->
+- For {@{the film by Hollis Frampton}@}, see {@{[Zorns Lemma](Zorns%20Lemma.md)}@}. <!--SR:!2030-07-18,1607,370!2030-10-29,1689,370-->
 
 > {@{![Zorn's lemma can be used to show that every connected [graph](graph%20(discrete%20mathematics).md) has a [spanning tree](spanning%20tree.md).](../../archives/Wikimedia%20Commons/4x4%20grid%20spanning%20tree.svg)}@}
 >
@@ -75,7 +75,7 @@ Suppose {@{otherwise, that _B_ is not linearly independent}@}. Then {@{there exi
 
 {@{The hypothesis of Zorn's lemma}@} has been checked, and thus {@{there is a maximal element in _P_}@}, in other words {@{a maximal linearly independent subset _B_ of _V_}@}. <!--SR:!2028-02-12,879,338!2029-05-22,1264,358!2030-10-02,1668,370-->
 
-Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2027-03-07,575,330!2027-05-28,665,330!2030-09-04,1646,370!2026-03-15,351,350!2026-06-29,403,310!2030-02-15,1484,370!2029-01-05,1078,350-->
+Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2027-03-07,575,330!2027-05-28,665,330!2030-09-04,1646,370!2030-10-27,1687,370!2026-06-29,403,310!2030-02-15,1484,370!2029-01-05,1078,350-->
 
 ### every nontrivial ring with unity contains a maximal ideal
 
@@ -159,7 +159,7 @@ Given {@{a set $X$ of nonempty sets and its union $U:=\bigcup X$ \(which exists 
 
 {@{The [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@} is {@{an early statement similar to Zorn's lemma}@}. <!--SR:!2029-12-12,1419,358!2028-05-08,956,350-->
 
-{@{[Kazimierz Kuratowski](Kazimierz%20Kuratowski.md) proved in 1922}@}<sup>[\[19\]](#^ref-19)</sup> {@{a version of the lemma close to its modern formulation}@} \(it applies to {@{sets ordered by inclusion and closed under unions of well-ordered chains}@}\). Essentially {@{the same formulation \(weakened by using arbitrary chains, not just well-ordered\)}@} was {@{independently given by [Max Zorn](Max%20August%20Zorn.md) in 1935}@},<sup>[\[20\]](#^ref-20)</sup> who {@{proposed it as a new [axiom](axiom.md) of set theory replacing the well-ordering theorem}@}, {@{exhibited some of its applications in algebra}@}, and {@{promised to show its equivalence with the axiom of choice in another paper, which never appeared}@}. <!--SR:!2026-05-07,358,298!2030-01-15,1460,370!2028-07-25,1015,350!2030-02-07,1476,370!2028-10-18,1036,310!2026-03-15,351,350!2030-10-17,1681,370!2030-10-18,1681,370-->
+{@{[Kazimierz Kuratowski](Kazimierz%20Kuratowski.md) proved in 1922}@}<sup>[\[19\]](#^ref-19)</sup> {@{a version of the lemma close to its modern formulation}@} \(it applies to {@{sets ordered by inclusion and closed under unions of well-ordered chains}@}\). Essentially {@{the same formulation \(weakened by using arbitrary chains, not just well-ordered\)}@} was {@{independently given by [Max Zorn](Max%20August%20Zorn.md) in 1935}@},<sup>[\[20\]](#^ref-20)</sup> who {@{proposed it as a new [axiom](axiom.md) of set theory replacing the well-ordering theorem}@}, {@{exhibited some of its applications in algebra}@}, and {@{promised to show its equivalence with the axiom of choice in another paper, which never appeared}@}. <!--SR:!2026-05-07,358,298!2030-01-15,1460,370!2028-07-25,1015,350!2030-02-07,1476,370!2028-10-18,1036,310!2030-11-01,1692,370!2030-10-17,1681,370!2030-10-18,1681,370-->
 
 {@{The name "Zorn's lemma"}@} appears to be {@{due to [John Tukey](John%20Tukey.md)}@}, who {@{used it in his book _Convergence and Uniformity in Topology_ in 1940}@}. {@{[Bourbaki](Nicolas%20Bourbaki.md)'s _Théorie des Ensembles_ of 1939}@} refers to {@{a similar maximal principle as "le théorème de Zorn"}@}.<sup>[\[21\]](#^ref-21)</sup> {@{The name "[Kuratowski–Zorn lemma](../pol/lemat%20Kuratowskiego-Zorna.md)"}@} {@{prevails in Poland and Russia}@}. <!--SR:!2030-09-15,1654,370!2028-06-27,995,350!2028-01-03,792,290!2028-08-18,1033,350!2029-12-29,1443,370!2027-06-12,678,330!2027-03-11,618,330-->
 
@@ -209,7 +209,7 @@ The lemma was referenced on {@{_[The Simpsons](The%20Simpsons.md)_}@} in the epi
 - [Chain-complete partial order](complete%20partial%20order.md) ::@:: – a partially ordered set in which every chain has a least upper bound <!--SR:!2026-09-18,443,310!2027-10-03,726,330-->
 - [Szpilrajn extension theorem](Szpilrajn%20extension%20theorem.md) ::@:: – Mathematical result on order relations <!--SR:!2028-06-07,977,350!2028-11-19,1111,350-->
 - [Tarski finiteness](finite%20set.md#Tarski%20finite) ::@:: – Mathematical set containing a finite number of elements <!--SR:!2030-02-28,1497,370!2028-02-05,877,338-->
-- [Teichmüller–Tukey lemma](Teichmüller–Tukey%20lemma.md) ::@:: \(sometimes named Tukey's lemma\) <!--SR:!2030-03-08,1499,370!2026-03-15,351,350-->
+- [Teichmüller–Tukey lemma](Teichmüller–Tukey%20lemma.md) ::@:: \(sometimes named Tukey's lemma\) <!--SR:!2030-03-08,1499,370!2030-10-28,1688,370-->
 
 ## notes
 

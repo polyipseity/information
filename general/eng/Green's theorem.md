@@ -105,7 +105,7 @@ We may as well {@{choose $\delta$}@} so that {@{the RHS of the last inequality i
 
 ## validity under different hypotheses
 
-{@{The hypothesis of the last theorem}@} are {@{not the only ones under which Green's formula is true}@}. {@{Another common set of conditions}@} is the following: <!--SR:!2026-07-23,290,330!2026-03-15,176,310!2026-06-17,260,330-->
+{@{The hypothesis of the last theorem}@} are {@{not the only ones under which Green's formula is true}@}. {@{Another common set of conditions}@} is the following: <!--SR:!2026-07-23,290,330!2028-04-05,752,330!2026-06-17,260,330-->
 
 {@{The functions $A,B:{\overline {R} }\to \mathbb {R}$}@} are {@{still assumed to be continuous}@}. However, we now {@{require them to be Fréchet-differentiable at every point of $R$ \(annotation: instead of requiring certain first-order partial derivatives to exist\)}@}. This implies {@{the existence of all directional derivatives}@}, in particular {@{$D_{e_{i} }A=:D_{i}A,D_{e_{i} }B=:D_{i}B,\,i=1,2$}@}, where, {@{as usual, $(e_{1},e_{2})$ is the canonical ordered basis of $\mathbb {R} ^{2}$}@}. In addition, we require {@{the function $D_{1}B-D_{2}A$ to be Riemann-integrable over $R$ \(annotation: same as before\)}@}. <!--SR:!2026-05-10,233,330!2026-07-25,292,330!2026-04-11,192,310!2026-07-22,290,330!2026-04-10,191,310!2026-06-03,254,330!2026-05-14,237,330-->
 

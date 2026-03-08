@@ -33,7 +33,7 @@ In {@{[category theory](category%20theory.md), a branch of [mathematics](mathema
 
 ## definition
 
-{@{Limits and colimits in a [category](category%20(mathematics).md) $C$}@} are defined by {@{means of diagrams in $C$}@}. Formally, {@{a __[diagram](diagram%20(category%20theory).md)__ of shape $J$ in $C$}@} is {@{a [functor](functor.md) from $J$ to $C$: $$F:J\to C.$$}@} The category $J$ is thought of {@{as an [index category](index%20category.md)}@}, and the diagram $F$ is thought of {@{as indexing a collection of objects and [morphisms](morphism.md) in $C$ patterned on $J$}@}. <!--SR:!2030-04-17,1508,365!2026-03-15,329,345!2026-04-29,369,358!2026-03-31,343,345!2026-05-22,387,358!2027-10-14,752,333-->
+{@{Limits and colimits in a [category](category%20(mathematics).md) $C$}@} are defined by {@{means of diagrams in $C$}@}. Formally, {@{a __[diagram](diagram%20(category%20theory).md)__ of shape $J$ in $C$}@} is {@{a [functor](functor.md) from $J$ to $C$: $$F:J\to C.$$}@} The category $J$ is thought of {@{as an [index category](index%20category.md)}@}, and the diagram $F$ is thought of {@{as indexing a collection of objects and [morphisms](morphism.md) in $C$ patterned on $J$}@}. <!--SR:!2030-04-17,1508,365!2030-06-23,1561,365!2026-04-29,369,358!2026-03-31,343,345!2026-05-22,387,358!2027-10-14,752,333-->
 
 One is most often interested in the case where {@{the category $J$ is a [small](small%20category.md#small%20and%20large%20categories) or even [finite](finite%20set.md) category}@}. A diagram is said to be {@{__small__ or __finite__ whenever $J$ is}@}. <!--SR:!2026-05-10,376,358!2026-05-09,375,358-->
 
@@ -241,7 +241,7 @@ There are {@{several ways to remember the modern terminology}@}. First of all, <
 - equalizers, and
 - domains
 
-(annotation: {@{kernels, products, equalizers, domains}@}) are {@{types of limits}@}. Second, {@{the prefix "co"}@} {@{implies "first variable of the $\operatorname {Hom}$"}@}. {@{Terms like "cohomology" and "cofibration"}@} all have {@{a slightly stronger association with the first variable}@}, i.e., {@{the contravariant variable, of the $\operatorname {Hom}$ bifunctor}@}. <!--SR:!2030-07-20,1591,373!2029-01-05,1127,350!2026-03-15,331,353!2029-02-22,1167,350!2030-04-23,1522,373!2029-05-12,1217,358!2026-04-26,366,358-->
+(annotation: {@{kernels, products, equalizers, domains}@}) are {@{types of limits}@}. Second, {@{the prefix "co"}@} {@{implies "first variable of the $\operatorname {Hom}$"}@}. {@{Terms like "cohomology" and "cofibration"}@} all have {@{a slightly stronger association with the first variable}@}, i.e., {@{the contravariant variable, of the $\operatorname {Hom}$ bifunctor}@}. <!--SR:!2030-07-20,1591,373!2029-01-05,1127,350!2030-08-06,1605,373!2029-02-22,1167,350!2030-04-23,1522,373!2029-05-12,1217,358!2026-04-26,366,358-->
 
 ## see also
 

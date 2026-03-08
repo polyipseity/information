@@ -35,7 +35,7 @@ The equations assume {@{the interface between the media is flat and that the med
 
 ### S and P polarizations
 
-- Main article: ::@:: [Plane of incidence](plane%20of%20incidence.md) <!--SR:!2026-07-30,340,360!2026-03-15,233,330-->
+- Main article: ::@:: [Plane of incidence](plane%20of%20incidence.md) <!--SR:!2026-07-30,340,360!2029-01-31,1053,350-->
 
 > {@{![The plane of incidence is defined by the incoming radiation's propagation vector and the normal vector of the surface.](../../archives/Wikimedia%20Commons/Plane%20of%20incidence.svg)}@}
 >
@@ -149,7 +149,7 @@ In {@{the above formula for _r_<sub>s</sub>}@}, if we {@{put $n_{2}=n_{1}\sin \t
 
 If we {@{do likewise with the formula for _r_<sub>p</sub>}@}, the result is easily shown to be equivalent to&hairsp;<sup>[\[12\]](#^ref-12)</sup><sup>[\[13\]](#^ref-13)</sup> {@{$$r_{\text{p} }={\frac {\tan(\theta _{\text{i} }-\theta _{\text{t} })}{\tan(\theta _{\text{i} }+\theta _{\text{t} })} }.$$}@} <!--SR:!2026-12-19,397,329!2026-04-11,245,330-->
 
-{@{These formulas}@}&hairsp;<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> are known respectively as {@{_Fresnel's sine law_ and _Fresnel's tangent law_}@}.<sup>[\[17\]](#^ref-17)</sup> Although at {@{normal incidence these expressions reduce to 0/0}@}, one can see that they {@{yield the correct results in the [limit](limit%20(mathematics).md) as _θ_<sub>i</sub> → 0}@}. <!--SR:!2026-09-09,382,360!2026-04-17,260,330!2026-05-23,283,349!2026-03-15,233,330-->
+{@{These formulas}@}&hairsp;<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> are known respectively as {@{_Fresnel's sine law_ and _Fresnel's tangent law_}@}.<sup>[\[17\]](#^ref-17)</sup> Although at {@{normal incidence these expressions reduce to 0/0}@}, one can see that they {@{yield the correct results in the [limit](limit%20(mathematics).md) as _θ_<sub>i</sub> → 0}@}. <!--SR:!2026-09-09,382,360!2026-04-17,260,330!2026-05-23,283,349!2029-02-06,1059,350-->
 
 ## multiple surfaces
 

@@ -15,7 +15,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### global
 
-- open file::@::Ctrl+O <!--SR:!2026-03-15,897,335!2026-03-17,899,336-->
+- open file::@::Ctrl+O <!--SR:!2037-07-15,4140,355!2026-03-17,899,336-->
 - save file::@::Ctrl+S <!--SR:!2028-02-07,1448,356!2027-08-23,1318,356-->
 - new file::@::Ctrl+N <!--SR:!2033-05-29,2777,310!2029-04-09,1598,316-->
 - undo::@::Ctrl+Z <!--SR:!2037-05-12,4077,350!2030-12-24,2219,336-->

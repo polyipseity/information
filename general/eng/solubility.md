@@ -112,7 +112,7 @@ return (
 > NH<sub>4</sub><sup>+</sup> compounds
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{(none)}@} <!--SR:!2026-03-15,1012,282!2027-08-17,1301,309-->
+> - exception(s): {@{(none)}@} <!--SR:!2037-01-25,3969,302!2027-08-17,1301,309-->
 
 <!-- markdownlint MD028 -->
 

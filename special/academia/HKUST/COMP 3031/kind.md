@@ -39,7 +39,7 @@ In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represent
 > foo[List, Int](_ :: Nil, 1)          // List(1)
 > foo[Option, String](Some(_), "fuel") // Option("fuel")
 > ```
-<!--SR:!2026-03-15,56,310!2026-03-17,58,310!2026-04-08,67,310!2026-09-09,181,310-->
+<!--SR:!2026-11-16,246,330!2026-03-17,58,310!2026-04-08,67,310!2026-09-09,181,310-->
 
 ## type functions
 
@@ -59,9 +59,9 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 
 ## monad example
 
-{@{A lawful monad}@} must satisfy {@{three laws: left unit, right unit, essential-associativity}@}. <!--SR:!2026-03-29,63,310!2026-03-15,56,310-->
+{@{A lawful monad}@} must satisfy {@{three laws: left unit, right unit, essential-associativity}@}. <!--SR:!2026-03-29,63,310!2026-11-14,244,330-->
 
-- _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-03-25,59,310!2026-03-15,56,310-->
+- _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-03-25,59,310!2026-11-16,246,330-->
 - _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!2026-11-02,234,330!2026-11-10,241,330-->
 - _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-09-12,184,310!2026-04-02,67,310-->
 
@@ -79,7 +79,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def map[U](f: T => U): F[U] = flatMap(f andThen unit)
 > ```
 >
-> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2026-04-01,66,310!2026-03-15,56,310!2026-11-06,237,330!2026-03-28,62,310!2026-03-15,56,310!2026-03-27,61,310!2026-03-17,58,310!2026-03-24,58,310-->
+> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2026-04-01,66,310!2026-11-16,246,330!2026-11-06,237,330!2026-03-28,62,310!2026-11-16,246,330!2026-03-27,61,310!2026-03-17,58,310!2026-03-24,58,310-->
 
 {@{A concrete instance of `Monad`, `ListMonad`}@}, shows how {@{the abstraction works}@}: <!--SR:!2026-04-02,63,310!2026-03-31,65,310-->
 
@@ -131,7 +131,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{A `Monad`}@} extends {@{the more basic `Applicative`}@}, which itself refines {@{a `Functor`}@}. The hierarchy is: <!--SR:!2026-03-28,62,310!2026-03-23,57,310!2026-03-25,59,310-->
 
-- `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2026-03-30,64,310!2026-03-15,56,310-->
+- `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2026-03-30,64,310!2026-11-15,245,330-->
 - `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!2026-03-18,46,290!2026-03-17,58,310-->
 - `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!2026-03-16,57,310!2026-11-10,241,330-->
 
@@ -145,7 +145,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[U](f: T => U): F[U]
 > ```
 >
-> Intuitively, given {@{a function `T => U` in the original context}@}, `map` applies {@{the same function in the `Functor` context `F[_]`}@}. <!--SR:!2026-03-27,61,310!2026-04-02,67,310!2026-03-29,63,310!2026-03-15,56,310-->
+> Intuitively, given {@{a function `T => U` in the original context}@}, `map` applies {@{the same function in the `Functor` context `F[_]`}@}. <!--SR:!2026-03-27,61,310!2026-04-02,67,310!2026-03-29,63,310!2026-11-13,243,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -161,7 +161,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[B](f: A => B): F[B] = ap(pure(f))(fa)
 > ```
 >
-> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-03-15,56,310!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-03-24,58,310!2026-11-03,235,330-->
+> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-11-16,246,330!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-03-24,58,310!2026-11-03,235,330-->
 
 {@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2026-03-31,65,310!2026-04-08,67,310!2026-03-16,57,310!2026-03-28,62,310-->
 

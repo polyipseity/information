@@ -38,7 +38,7 @@ Note that in {@{the category of [monoids](monoid.md)}@}, {@{category-theoretic k
 
 In {@{the [category of unital rings](category%20of%20rings.md)}@}, there are {@{no kernels in the category-theoretic sense}@}; indeed, this category {@{does not even have zero morphisms}@}. Nevertheless, there is {@{still a notion of kernel studied in ring theory}@} that corresponds to {@{kernels in the [category of non-unital rings](category%20of%20rings.md#rings%20without%20identity)}@}. <!--SR:!2028-04-30,926,342!2028-12-31,1054,342!2029-05-02,1188,322!2026-03-21,23,376!2026-03-21,23,376-->
 
-In {@{the category of [pointed topological spaces](pointed%20space.md)}@}, if {@{_f_ : _X_ → _Y_ is a continuous pointed map}@}, then {@{the preimage of the distinguished point (annotation: in _Y_), _K_, is a subspace of _X_}@}. {@{The inclusion map of _K_ into _X_}@} is {@{the categorical kernel of _f_}@}. <!--SR:!2028-04-11,911,342!2029-11-29,1399,362!2030-01-07,1431,362!2026-03-15,334,342!2028-02-18,873,342-->
+In {@{the category of [pointed topological spaces](pointed%20space.md)}@}, if {@{_f_ : _X_ → _Y_ is a continuous pointed map}@}, then {@{the preimage of the distinguished point (annotation: in _Y_), _K_, is a subspace of _X_}@}. {@{The inclusion map of _K_ into _X_}@} is {@{the categorical kernel of _f_}@}. <!--SR:!2028-04-11,911,342!2029-11-29,1399,362!2030-01-07,1431,362!2030-07-05,1573,362!2028-02-18,873,342-->
 
 ## relation to other categorical concepts
 

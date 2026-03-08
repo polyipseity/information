@@ -85,7 +85,7 @@ In {@{mathematics, physics, and engineering contexts}@}, {@{the first two axes}@
 
 > {@{![Coordinate surfaces for a Cartesian coordinate system.](../../archives/Wikimedia%20Commons/Cartesian%20coordinate%20surfaces.png)}@}
 >
-> {@{The [coordinate surfaces](coordinate%20system.md#coordinate%20surface) of the Cartesian coordinates \(_x_, _y_, _z_\)}@}. The _z_-axis is {@{vertical}@} and {@{the _x_-axis is highlighted in green}@}. Thus, the red plane shows {@{the points with _x_ = 1}@}, {@{the blue plane shows the points with _z_ = 1, and the yellow plane shows the points with _y_ = −1}@}. The three surfaces {@{intersect at the point _P_ \(shown as a black sphere\) with the Cartesian coordinates \(1, −1, 1\)}@}. <!--SR:!2029-03-20,1162,350!2029-02-02,1125,350!2026-06-03,377,362!2026-05-27,370,362!2029-03-18,1160,350!2026-04-02,322,349!2026-03-15,312,349-->
+> {@{The [coordinate surfaces](coordinate%20system.md#coordinate%20surface) of the Cartesian coordinates \(_x_, _y_, _z_\)}@}. The _z_-axis is {@{vertical}@} and {@{the _x_-axis is highlighted in green}@}. Thus, the red plane shows {@{the points with _x_ = 1}@}, {@{the blue plane shows the points with _z_ = 1, and the yellow plane shows the points with _y_ = −1}@}. The three surfaces {@{intersect at the point _P_ \(shown as a black sphere\) with the Cartesian coordinates \(1, −1, 1\)}@}. <!--SR:!2029-03-20,1162,350!2029-02-02,1125,350!2026-06-03,377,362!2026-05-27,370,362!2029-03-18,1160,350!2026-04-02,322,349!2030-04-24,1501,369-->
 
 ### higher dimensions
 
@@ -147,7 +147,7 @@ If {@{\(_x_, _y_\) are the Cartesian coordinates of a point}@}, then {@{\(−<!-
 
 #### glide reflection
 
-{@{A glide reflection}@} is {@{the composition of a reflection across a line followed by a translation in the direction of that line}@}. It can be seen that {@{the order of these operations does not matter}@} \({@{the translation can come first, followed by the reflection}@}\). <!--SR:!2026-03-15,312,349!2026-04-26,346,349!2026-06-26,396,362!2030-04-03,1483,369-->
+{@{A glide reflection}@} is {@{the composition of a reflection across a line followed by a translation in the direction of that line}@}. It can be seen that {@{the order of these operations does not matter}@} \({@{the translation can come first, followed by the reflection}@}\). <!--SR:!2030-04-25,1502,369!2026-04-26,346,349!2026-06-26,396,362!2030-04-03,1483,369-->
 
 #### general matrix form of the transformations
 

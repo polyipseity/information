@@ -38,7 +38,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >
 > In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2026-03-29,64,310!2026-03-17,58,310!2026-03-24,59,310!2026-03-22,57,310!2026-03-26,61,310-->
 
-{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-03-28,63,310!2026-03-15,56,310!2026-03-27,62,310-->
+{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-03-28,63,310!2026-11-13,243,330!2026-03-27,62,310-->
 
 > [!example] __`whileDo` implementation__
 >
@@ -131,7 +131,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-03-22,57,310!2026-11-01,232,330!2026-10-28,229,330!2026-03-25,60,310-->
 
-{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-03-17,58,310!2026-03-27,62,310!2026-03-17,58,310!2026-03-23,58,310!2026-03-15,56,310!2026-03-24,59,310!2026-03-15,56,310!2026-03-26,61,310!2026-03-29,64,310-->
+{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-03-17,58,310!2026-03-27,62,310!2026-03-17,58,310!2026-03-23,58,310!2026-11-11,241,330!2026-03-24,59,310!2026-11-13,243,330!2026-03-26,61,310!2026-03-29,64,310-->
 
 > [!example] __half‑adder construction__
 >
@@ -162,11 +162,11 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >   def run(): Unit
 > }
 > ```
-<!--SR:!2026-03-22,57,310!2026-03-29,64,310!2026-03-15,56,310!2026-03-24,59,310-->
+<!--SR:!2026-03-22,57,310!2026-03-29,64,310!2026-11-14,244,330!2026-03-24,59,310-->
 
 {@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2026-04-01,67,310!2026-03-16,57,310!2026-03-31,66,310!2026-03-24,59,310!2026-04-01,67,310!2026-03-25,60,310!2026-03-27,62,310!2026-03-31,66,310-->
 
-{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-03-15,56,310!2026-03-28,63,310!2026-03-28,63,310!2026-03-31,66,310-->
+{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-03-28,63,310!2026-03-28,63,310!2026-03-31,66,310-->
 
 > [!example] __circuit probe__
 >
@@ -178,6 +178,6 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >     println(s”$name $currentTime value = ${wire.getSignal()}”)
 >   wire.addAction(probeAction)
 > ```
-<!--SR:!2026-11-04,236,330!2026-03-30,65,310!2026-11-03,235,330!2026-03-15,56,310-->
+<!--SR:!2026-11-04,236,330!2026-03-30,65,310!2026-11-03,235,330!2026-11-16,246,330-->
 
-By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2026-04-01,67,310!2026-03-15,56,310!2026-03-22,57,310-->
+By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2026-04-01,67,310!2026-11-12,242,330!2026-03-22,57,310-->
