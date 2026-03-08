@@ -22,7 +22,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 - When adding comments, avoid placing more than one directive of the **same type** on a single line; the validator now flags duplicates and authors should merge them into a single comment listing all applicable rule IDs (the syntax already supports commas).
 - Use the validator conservatively: run `check.py --content` for advisory guidance; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
 - Treat submodules (including `private/`, `tools/pytextgen/`, `tools/pyarchivist/`) as read-only unless the user explicitly grants permission.
-- Prefer small, reviewable changes to skill docs and helper scripts; document rationale and link to the continuous improvement note when proposing edits.
+- Prefer small, reviewable changes to skill docs and helper scripts; document rationale and link to the Continuous improvement section of SKILL.md (or log in `continuous_improvement.md`) when proposing edits.
 - **Always run the `check.py` validator after using any edit tool.** The agent frequently emits malformed Markdown, so validating immediately helps catch and fix errors or warnings before they land in a PR.
 
 ## Tools & locations
@@ -30,7 +30,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 - Skill docs, examples, and helper scripts: `.agents/skills/academic-notes/`
 - Validator: `.agents/skills/academic-notes/check.py`
 - Wikipedia helper: `.agents/skills/academic-notes/find_wikipedia.py`
-- Continuous improvement workflow: `.agents/skills/academic-notes/continuous_improvement.md`
+- Continuous improvement workflow: **Continuous improvement** section of `.agents/skills/academic-notes/SKILL.md`; log incidents in `.agents/skills/academic-notes/continuous_improvement.md`
 
 ## Course index and logistics (conventions)
 
@@ -56,7 +56,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 
 ## Continuous improvement
 
-This instruction set and the skill are living artifacts. If you discover missing examples, ambiguous rules, or repeated validation warnings, follow the steps in `continuous_improvement.md` to record feedback, draft a minimal clarification, and present it for maintainer review.
+This instruction set and the skill are living artifacts. If you discover missing examples, ambiguous rules, or repeated validation warnings, follow the steps in the **Continuous improvement** section of `.agents/skills/academic-notes/SKILL.md`; record feedback in `continuous_improvement.md`, draft a minimal clarification, and present it for maintainer review.
 
 ## Developer tooling & tests (academic notes)
 

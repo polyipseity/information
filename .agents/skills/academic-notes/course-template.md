@@ -11,7 +11,7 @@ Key patterns to follow (seen in the examples):
 - Use a nested grading `scheme:` block and include exam metadata such as `venue:` and `format:` (e.g., `cheatsheet`, `open book`) when applicable.
 - Use session `status:` fields for cancellations/unscheduled/online notes and add `::@::` takeaways for flashcard generation.
 
-See `.agents/skills/academic-notes/examples.md` for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
+See SKILL.md in this folder for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
 
 ## Short style notes (must appear outside the code block)
 
@@ -20,6 +20,7 @@ See `.agents/skills/academic-notes/examples.md` for concrete snippets and valida
 - Use `COMP_3031` (underscore) for flashcard activation tags in `tags:`; in prose use the spaced form `COMP 3031` as the visible heading. 🔖
 - For repeated sessions in one week, use numbered subheadings: `lecture 1`, `lecture 2`, `lab 1`, `lab 2`, etc. 🔁
 - Include a one-line `::@::` takeaway per topic for flashcard generation; keep takeaways short and actionable (one sentence or fragment). ✍️
+- Use underscore for emphasis in course notes: `_italic_`, `__bold__` (not `*`/`**`); see SKILL.md. ✒️
 - When writing physical quantities always enclose units inside the math delimiters (`$5\text{ V}$` not `$5 V$`); the validator warns if units appear outside `$...$`. ⚠️
 - Use analogies or real-world comparisons (human body vs robot power, food as energy) in prose and turn the key point into a flashcard if helpful. 💡
 - Use `datetime` with ISO format and optional duration (e.g., `, PT1H20M`) where appropriate. ⏱️
@@ -36,6 +37,7 @@ See `.agents/skills/academic-notes/examples.md` for concrete snippets and valida
 
 - Session entries (lectures, labs, tutorials, exams) may interleave in time. Always list all sessions in strict chronological order. Use dated `datetime` fields to make ordering explicit and machine-readable.
 - For multiple sessions within a week, use numbered subheadings (e.g., `lecture 1`, `lecture 2`, `lab 1`, `lab 2`) and keep them ordered by datetime.
+- For no-class days (holidays, breaks): omit `topic:`; use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day) or `status: no class` for other non-teaching days (e.g. midterm break). Do not put the holiday or status in the section heading (use `## week 3` not `## week 3 (Lunar New Year)`); see SKILL.md session and index rules.
 
 ## template content
 

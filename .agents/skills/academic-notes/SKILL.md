@@ -14,7 +14,7 @@ This document explains how to author, validate, and maintain academic course not
 3. **Structured metadata**: every file starts with a `---` YAML block. Use ISO‑8601 datetimes, maintain `children:` lists in indexes, add activation tags (`flashcard/active/special/academia/...`), and keep semester headings chronological. The validator enforces these rules and will report any violations as errors.
    - The validator’s output now includes the exact line (and column when available) where a problem was detected, along with a short preview of the offending line, making it much easier to locate and fix issues quickly. The preview highlights the precise column range using carets (`^`), and long lines are truncated with ellipses so the marker remains in view. The length of the snippet is automatically limited to fit within your terminal width (accounting for the leading `preview:` indentation).
 4. **Session ordering**: lectures/labs/tutorials ordered by the `datetime:` interval; all exams go after regular sessions. Duplicate week numbers around holidays require manual renumbering plus a no-class entry; use `status: public holiday: <name>` when the holiday is known, or `status: no class` for breaks. Omit `topic:` on no-class days. Entries with `status: unscheduled` must omit `topic:`.
-5. **Continuous improvement**: record new rules, bugs, or user preferences in `continuous_improvement.md` and update this file accordingly. Feedback drives evolution of the skill.
+5. **Continuous improvement**: record new rules, bugs, or user preferences in `continuous_improvement.md` and update this document accordingly. Feedback drives evolution of the skill; see the **Continuous improvement** section below for the full workflow.
 6. **Math formatting**: never place math in fenced code blocks. Use LaTeX inline (`$…$`) or display (`$$…$$`) notation for all formulas; this applies equally to examples in topic notes and session outlines.
    - **Dollar delimiters only.**  Do not use `\[`, `\]`, `\(` or `\)`; all LaTeX must be wrapped in `$…$` or `$$…$$`.
    - **One line only.**  Whether inline or display math, the source between the delimiters must not contain a newline.  In particular, display formulas must use `$$` but stay on a single markdown line.
@@ -89,7 +89,7 @@ The spaced‑repetition system is central to the entire repository; flashcards a
 - Do **not** “shorten” calculation cards by removing givens from the left-hand side. If a worked example feels too long, split it into smaller cards only if each resulting card still includes all necessary givens to be solvable from the prompt.
 - **Circuit and KVL examples**: When describing a circuit for a calculation (e.g. KVL, voltage divider), state the topology explicitly: component connections (what connects to what), source polarities (which terminal is +/−), assumed current direction or loop traversal, and node names. This makes the example answerable without a diagram.
 - **Circuit prose clarity**: In topic notes, describe circuit topologies precisely. For divider-like or regulator circuits, specify the signal path (e.g. $V_{\text{in}} \rightarrow R_S \rightarrow \text{node} \rightarrow R_L \rightarrow \text{GND}$), component orientations (e.g. Zener cathode at node, anode at ground), and which elements shunt or limit current.
-- **Circuit notation and topology terms**: When a lecture uses shorthand like $V_{CC}$, $V_{CE}$, $V_{BE}$, or terms like “low-side switch”, add a brief definition the first time they appear in that page (and optionally a flashcard). Example: $V_{CC}$ is the supply rail feeding the collector/load network; $V_{CE}=V_C-V_E$; “low-side” means the switch is between the load and ground.
+- **Circuit notation and topology terms**: When a lecture uses shorthand like $V_{CC}$, $V_{CE}$, $V_{BE}$, or terms like “low-side switch”, add a brief definition the first time they appear in that page (and optionally a flashcard). Example: $V_{CC}$ is the supply rail feeding the collector/load network; $V_{CE}=V_C-V_E$; “low-side” means the switch is between the load and ground. For transistor-as-inverter or similar logic-level topics, state how levels are determined (e.g. $V_C$ vs $V_E$) and keep math readable (avoid overly dense derivations); the same derivation need not appear in both the index and the topic note.
 - Units must always be inside `$…$` or `$$…$$` (e.g. `$5\text{ V}$`); units outside math trigger validator errors.
 - Every markdown section in a topic-specific note, no matter the header level, must have at least one flashcard entry. Use a horizontal rule `---` immediately before the first flashcard block; missing separators or cards trigger validator errors. Index files are exempt and need only session‑level cards.
 - Do not merge cards across sections; each heading gets its own block directly beneath the prose. The validator flags missing separators or cards.
@@ -153,7 +153,7 @@ Each section must be followed immediately by a horizontal rule and a list of fla
 ### Images and circuit diagrams
 
 - Place diagram/schematic image markup on the same line as the preceding paragraph (see Session and index rules). Reference SVGs or other assets under a course-level `attachments/` (or similar) folder so links are stable.
-- Some courses keep a script (e.g. `attachments/generate_circuit_diagrams.py`) that generates SVG diagrams with :mod:`schemdraw` or similar; outputs go into that folder and are referenced from topic notes. The script’s docstrings should describe each diagram’s topology and drawing style (e.g. ground‑up vs central‑component‑first, use of ``.at()`` and ``.reverse()``) for future maintainers.
+- Some courses keep a script (e.g. `attachments/generate_circuit_diagrams.py`) that generates SVG diagrams with :mod:`schemdraw` or similar; outputs go into that folder and are referenced from topic notes. The script’s docstrings should describe each diagram’s topology and drawing style (e.g. ground‑up vs central‑component‑first, use of ``.at()`` and ``.reverse()``) for future maintainers. For **H-bridge schematics**: build from the motor first (one horizontal line left-to-right); use the motor’s start/end nodes for the left and right rails (e.g. up: PNP–Vcc, down: NPN–GND on each side). Use ``BjtPnp(circle=True).up()`` and ``BjtNpn(circle=True).down()`` for high-side and low-side switches; document this topology in the docstring.
 - **Equivalent circuits with a main rail and a branch** (e.g. BJT diode + dependent current source): draw the main rail first (e.g. collector–emitter or emitter–collector with the dependent source), call ``.push()`` to save the node where the branch will attach (typically the emitter node), finish the rail (line and terminal), then ``.pop()`` to restore that node and draw the branch (e.g. diode and base terminal). Use ``.reverse()`` on the diode when needed so polarity matches the junction (e.g. NPN B–E: anode at B, cathode at E → ``.reverse()`` when drawing from emitter toward base).
 - For ICs with power pins (e.g. **74HC14**): **VCC** can connect to any valid supply voltage for the IC; the course may use a specific value (e.g. $5\text{ V}$). **GND** connects to ground. Do not state that the IC “must be connected to $5\text{ V}$” unless the course explicitly fixes that value; instead write “VCC to the positive supply (in our course, $5\text{ V}$); GND to ground.”
 
@@ -267,11 +267,27 @@ uv run .agents/skills/academic-notes/check.py special/academia/<institution>/<co
 
 The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `bun run format`, `bun run check`, and `bun run test` with explicit paths to your changed files so the commands execute quickly.
 
-The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and report any bugs or feature requests in `continuous_improvement.md`.
+The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and report any bugs or feature requests in `continuous_improvement.md` or the Continuous improvement section below.
 
 ## Continuous improvement
 
-Record every new pattern, validator failure, or user preference in `continuous_improvement.md` and consider whether the rule should be added to this document. Short reports can be placed under `.agents/skills/academic-notes/reports/`. The skill evolves with real course content, and maintainers should review the log periodically.
+The skill evolves with real course content. Record every new pattern, validator failure, or user preference in `continuous_improvement.md` (with date and a one-sentence description); consider whether the rule or clarification should be added to this document. Maintainers should review the log periodically. When the log gets too long, fold learnings into the skill docs (this file, `course-template.md`, or academic-notes instructions), then remove the incorporated entries from the log so it stays a short, current list; git history preserves provenance.
+
+### Workflow for agents
+
+1. **Gather examples** — When you encounter a pattern, bug, author question, or user feedback related to `special/academia`, save a snippet or run the validator in `--content` mode. Log each incident in `continuous_improvement.md` with a date and a one-sentence description. Include privacy concerns, formatting quirks, or template ideas.
+2. **Document the change** — Decide where the information belongs: new idiom, normalization or regex → add to this document (e.g. Session and index rules, Topic-specific notes) or a dedicated doc if the skill later adds one (e.g. patterns.md). Short samples or explanations → add to this document’s examples or a dedicated examples doc. Repeated author behaviour or gotcha → note it in the Pre‑commit checklist or a checklist doc. Always write prose directed at the human reader; the validator can be extended later if needed.
+3. **Teach the validator** — If the issue is structural or recurring, add a rule to `check_mods/rules.py` and cover it with a unit test under `tests_a7392be/check_mods/` so future runs catch it automatically.
+4. **Verify impact** — Run the validator on the affected files (or the whole tree). If the skill maintains an issue-frequency report, regenerate it so you can watch counts drop after your fix lands.
+5. **Submit a focused PR** — Bundle only the documentation, tests, and any normalization patches required to address the issue. Keep diffs reviewable; avoid broad regex respells unless you have explicit owner approval. In the PR description list which content files will be affected when the change is deployed.
+
+**Best practices:** Prefer advisory `--content` warnings when unsure; they are nonblocking and educate authors without causing failures. Always update the skill docs (this file and related skill files) as the authoritative reference; use the feedback log for incidents and process notes. Record unusual decisions in the feedback log or a GitHub issue rather than cluttering the main docs.
+
+**Example:** You notice several courses missing flashcard tags during a browse of `special/academia`. Add a new pattern and checklist item for mandatory flashcard tags; write a small test that flags absent tags. After merging, run the validator (and any issue-frequency report) to confirm the count has dropped.
+
+### Provenance and folding the log
+
+New feedback and incidents go in `continuous_improvement.md` (date + short description). When the log is long, fold learnings into this file, `course-template.md`, or academic-notes instructions and remove those entries from the log; git history keeps provenance.
 
 ### Extending the validator
 
@@ -312,8 +328,8 @@ If you encounter a structural issue the existing checks do not catch, you can ad
    verify the behaviour and adjust error messages as needed.  Commit both the
    rule and its tests together so CI can catch regressions.
 
-4. **Document the change.**  Optionally update this SKILL.md section or the
-   ``continuous_improvement.md`` log with a brief rationale.  New rules are a
+4. **Document the change.**  Optionally update this SKILL.md section or
+   `continuous_improvement.md` with a brief rationale.  New rules are a
    permanent part of the course‑notes grammar, so explain why the check is
    needed and what to do when it fires.
 
