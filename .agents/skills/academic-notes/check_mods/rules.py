@@ -244,7 +244,14 @@ def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]
 
 # session-related -----------------------------------------------------------
 
-# Allowed session heading format: ## week N type [number]. Type = lecture|lab|tutorial (optional number). Status has no bearing.
+"""Compile a regex pattern for validating session headings of the form
+'## week N type [number]'.
+
+Allowed types are lecture, lab, or tutorial, optionally followed by a
+number (e.g. 'lecture 2'). The pattern is case-insensitive and ignores
+leading/trailing whitespace. Status information (e.g. 'status: no class')
+should not appear in the heading and is not relevant to validation; it
+belongs in the metadata section of the session entry."""
 _SESSION_HEADING_VALID = re.compile(
     r"^##\s+week\s+\d+\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
     re.IGNORECASE,
@@ -1496,6 +1503,7 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
 
         # table rows only: strip multi-level blockquote prefix then check for |
         def after_quote(s: str) -> str:
+            """Return *s* with any number of leading blockquote markers (e.g. >, >>, > >) removed."""
             return re.sub(r"^\s*(?:>\s*)+", "", s.strip())
 
         content = after_quote(line)
