@@ -156,7 +156,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 - branch on equal ::@:: `beq $s, $t, offset`: `if ($s == $t) { goto nPC + offset << 2; }` <!--SR:!2026-05-07,317,355!2026-06-19,360,355-->
 - branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!2026-05-18,328,355!2028-08-30,969,355-->
-- branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2026-03-16,255,330!2026-05-21,331,355-->
+- branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2029-05-13,1154,350!2026-05-21,331,355-->
 - branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2028-08-12,951,350!2029-01-14,1086,355-->
 - branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2026-06-02,343,355!2029-03-04,1126,355-->
 - branch on less than or equal to zero ::@:: `blez $s, offset`: `if ($s <= 0) { goto nPC + offset << 2; }` <!--SR:!2026-06-10,351,350!2026-04-21,301,350-->
@@ -270,7 +270,7 @@ The 32 registers are used as follows:
 > - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2027-11-09,605,270!2026-10-27,393,290-->
 >   - register blocks / semantics ::@:: zero → asm temp → expr eval & fun ret ×2 → fun arg ×4 → temp ×8 → saved temp ×8 → temp ×2 → kernel ×2 → global ptr → stack ptr → frame \(base\) ptr → return addr <!--SR:!2028-05-05,852,330!2029-09-19,1286,350-->
 > - __`$zero`__ ::@:: `$0`: constant 0 <!--SR:!2026-04-09,289,330!2026-04-07,287,330-->
-> - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2026-03-16,283,330!2029-08-20,1262,350-->
+> - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2029-09-30,1294,350!2029-08-20,1262,350-->
 > - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2026-04-08,288,330!2029-08-11,1254,350-->
 > - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2029-08-10,1254,350!2026-04-14,294,330-->
 > - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2029-01-24,1093,350!2029-06-12,1203,350-->
@@ -290,7 +290,7 @@ If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(
 
 ## assembly
 
-{@{The assembler}@} is {@{responsible for translating human-readable assembly to machine-readable machine code}@}. That means we need to {@{learn how to write the human-readable assembly file}@}. <!--SR:!2026-04-14,294,330!2026-03-16,283,330!2029-07-03,1222,350-->
+{@{The assembler}@} is {@{responsible for translating human-readable assembly to machine-readable machine code}@}. That means we need to {@{learn how to write the human-readable assembly file}@}. <!--SR:!2026-04-14,294,330!2029-09-29,1293,350!2029-07-03,1222,350-->
 
 ### assembly format
 
@@ -307,7 +307,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 - `.align <n>` ::@:: _Align_ the _next_ datum on a 2<sup>_n_</sup>-byte boundary. That is, the next datum starts at an address that is a multiple of 2<sup>_n_</sup>. <p> If _n_ is 0, automatic _alignment_ is turned off, since 2<sup>0</sup> = 1, which is effectively no alignment. <!--SR:!2029-08-01,1246,350!2029-03-08,1129,350-->
 - `.ascii <str>` ::@:: Stores a non-null-terminated \(ASCII\) string. <!--SR:!2026-04-10,291,330!2029-07-16,1232,350-->
 - `.asciiz <str>` ::@:: Stores a null-terminated \(ASCII\) string. <!--SR:!2029-07-29,1244,350!2029-09-16,1283,350-->
-- `.byte <b1>, ..., <bn>` ::@:: Stores the specified _n_ bytes \(8 bits\). <!--SR:!2026-03-16,283,330!2026-04-13,293,330-->
+- `.byte <b1>, ..., <bn>` ::@:: Stores the specified _n_ bytes \(8 bits\). <!--SR:!2028-10-05,934,330!2026-04-13,293,330-->
 - `.data` ::@:: Starts the data segment. <!--SR:!2029-02-07,1101,350!2029-02-18,1112,350-->
 - `.double <d1>, ..., <dn>` ::@:: Stores the specified _n_ doubles \(64 bits, 8 bytes\). <!--SR:!2029-03-01,1123,350!2026-04-10,290,330-->
 - `.float <f1>, ..., <fn>` ::@:: Stores the specified _n_ floats \(32 bits, 4 bytes\). <!--SR:!2029-09-12,1279,350!2026-04-12,292,330-->

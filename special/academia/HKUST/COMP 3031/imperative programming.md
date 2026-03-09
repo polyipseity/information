@@ -49,7 +49,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   if cond then { body; whileDo(cond)(body) } else ()
 > ```
 >
-> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-03-16,57,310!2026-03-26,61,310!2026-03-28,63,310!2026-03-22,57,310!2026-03-23,58,310!2026-11-10,241,330!2026-03-16,57,310!2026-03-26,61,310!2026-03-29,64,310-->
+> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-11-18,247,330!2026-03-26,61,310!2026-03-28,63,310!2026-03-22,57,310!2026-03-23,58,310!2026-11-10,241,330!2026-11-22,251,330!2026-03-26,61,310!2026-03-29,64,310-->
 
 ### repeat loops
 
@@ -63,7 +63,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > def repeatUntil(body: => Unit)(cond: => Boolean): Unit =
 >   body; if !cond then repeatUntil(body)(cond) else ()
 > ```
-<!--SR:!2026-03-16,57,310!2026-03-28,63,310!2026-03-16,57,310-->
+<!--SR:!2026-11-14,243,330!2026-03-28,63,310!2026-11-16,245,330-->
 
 {@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!2026-03-23,58,310!2026-03-30,65,310-->
 
@@ -110,7 +110,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 > (1 until 3).foreach { i =>
 >   "abc".foreach(j => println(s"$i $j")) }
 > ```
-<!--SR:!2026-03-16,57,310!2026-03-17,58,310-->
+<!--SR:!2026-11-17,246,330!2026-03-17,58,310-->
 
 ## digital circuit example
 
@@ -118,7 +118,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### circuit description language
 
-{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-03-16,57,310!2026-03-26,61,310!2026-03-23,58,310!2026-03-24,59,310!2026-10-31,231,330!2026-04-01,67,310-->
+{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-11-15,244,330!2026-03-26,61,310!2026-03-23,58,310!2026-03-24,59,310!2026-10-31,231,330!2026-04-01,67,310-->
 
 > [!example] __basic gates__
 >
@@ -164,7 +164,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-03-22,57,310!2026-03-29,64,310!2026-11-14,244,330!2026-03-24,59,310-->
 
-{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2026-04-01,67,310!2026-03-16,57,310!2026-03-31,66,310!2026-03-24,59,310!2026-04-01,67,310!2026-03-25,60,310!2026-03-27,62,310!2026-03-31,66,310-->
+{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2026-04-01,67,310!2026-11-13,242,330!2026-03-31,66,310!2026-03-24,59,310!2026-04-01,67,310!2026-03-25,60,310!2026-03-27,62,310!2026-03-31,66,310-->
 
 {@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-03-28,63,310!2026-03-28,63,310!2026-03-31,66,310-->
 

@@ -45,7 +45,7 @@ They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat 
 
 - (annotation: $\boldsymbol {\hat \rho}$, Cartesian basis) ::@:: $${\boldsymbol {\hat {\rho } } }=\cos(\varphi )\mathbf {\hat {x} } +\sin(\varphi )\mathbf {\hat {y} }$$ <!--SR:!2026-03-19,305,339!2026-04-04,321,339-->
 - (annotation: $\boldsymbol {\hat \varphi}$, Cartesian basis) ::@:: $${\boldsymbol {\hat {\varphi } } }=-\sin(\varphi )\mathbf {\hat {x} } +\cos(\varphi )\mathbf {\hat {y} }$$ <!--SR:!2026-03-29,315,339!2026-03-20,306,339-->
-- (annotation: $\boldsymbol {\hat z}$, Cartesian basis) ::@:: $$\mathbf {\hat {z} } =\mathbf {\hat {z} } .$$ <!--SR:!2026-03-16,302,334!2026-04-09,326,339-->
+- (annotation: $\boldsymbol {\hat z}$, Cartesian basis) ::@:: $$\mathbf {\hat {z} } =\mathbf {\hat {z} } .$$ <!--SR:!2030-01-10,1396,354!2026-04-09,326,339-->
 
 {@{The vectors ${\boldsymbol {\hat {\rho } } }$ and ${\boldsymbol {\hat {\varphi } } }$}@} are {@{functions of $\varphi$, and are _not_ constant in direction}@}. When {@{differentiating or integrating in cylindrical coordinates}@}, {@{these unit vectors themselves must also be operated on}@}. {@{The derivatives with respect to $\varphi$}@} are: <!--SR:!2026-03-27,313,339!2026-03-18,304,339!2026-04-06,323,339!2026-03-26,312,339!2030-01-04,1394,359-->
 

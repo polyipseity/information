@@ -113,7 +113,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     case fa :: fas =>
 >       for (a <- fa; as <- sequence(fas)) yield a :: as
 > ```
-<!--SR:!2026-03-25,59,310!2026-03-16,57,310!2026-03-17,58,310-->
+<!--SR:!2026-03-25,59,310!2026-11-19,248,330!2026-03-17,58,310-->
 
 {@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!2026-04-02,67,310!2026-03-17,58,310-->
 
@@ -133,7 +133,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 - `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2026-03-30,64,310!2026-11-15,245,330-->
 - `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!2026-03-18,46,290!2026-03-17,58,310-->
-- `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!2026-03-16,57,310!2026-11-10,241,330-->
+- `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!2026-09-06,174,310!2026-11-10,241,330-->
 
 > [!example] __`Functor` trait__
 >
@@ -163,7 +163,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >
 > Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-11-16,246,330!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-03-24,58,310!2026-11-03,235,330-->
 
-{@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2026-03-31,65,310!2026-04-08,67,310!2026-03-16,57,310!2026-03-28,62,310-->
+{@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2026-03-31,65,310!2026-04-08,67,310!2026-09-07,175,310!2026-03-28,62,310-->
 
 > [!example] __traverse__
 >
@@ -176,7 +176,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   def sequence[G[_]: Applicative, A](fga: F[G[A]]): G[F[A]] = traverse(fga)(id)
 > ```
 >
-> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-03-28,62,310!2026-03-27,61,310!2026-03-19,47,290!2026-03-27,61,310!2026-03-31,65,310!2026-03-16,57,310!2026-03-17,58,310!2026-08-01,156,310!2026-04-04,63,310-->
+> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-03-28,62,310!2026-03-27,61,310!2026-03-19,47,290!2026-03-27,61,310!2026-03-31,65,310!2026-11-20,249,330!2026-03-17,58,310!2026-08-01,156,310!2026-04-04,63,310-->
 
 {@{The Cats library (<https://typelevel.org/cats>)}@} supplies {@{many such type classes}@}, allowing {@{concise and generic code across different data types}@}. <!--SR:!2026-04-02,61,310!2026-04-01,60,310!2026-03-28,62,310-->
 
@@ -184,7 +184,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!2026-04-02,67,310!2026-03-31,59,310!2026-11-10,241,330-->
 
-{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-11-01,233,330!2026-11-10,241,330!2026-03-30,64,310!2026-03-16,57,310-->
+{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-11-01,233,330!2026-11-10,241,330!2026-03-30,64,310!2026-11-18,247,330-->
 
 > [!example] __Haskell monad__
 >
@@ -212,8 +212,8 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   val return : 'a -> 'a t
 > end
 > ```
-<!--SR:!2026-03-26,60,310!2026-03-16,57,310!2026-04-06,67,310-->
+<!--SR:!2026-03-26,60,310!2026-11-17,246,330!2026-04-06,67,310-->
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2026-03-30,64,310!2026-03-31,65,310!2026-03-17,58,310!2026-04-08,67,310-->
 
-{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-03-30,58,310!2026-03-31,65,310!2026-03-25,59,310!2026-10-28,229,330!2026-03-16,57,310!2026-03-16,57,310-->
+{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-03-30,58,310!2026-03-31,65,310!2026-03-25,59,310!2026-10-28,229,330!2026-11-21,250,330!2026-11-16,245,330-->

@@ -338,7 +338,7 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 
 ##### variance and inheritance
 
-{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2026-04-22,151,440!2026-05-04,161,440!2026-05-06,163,440!2026-03-16,113,420!2026-04-21,150,440!2026-08-09,208,475-->
+{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2026-04-22,151,440!2026-05-04,161,440!2026-05-06,163,440!2027-07-09,480,420!2026-04-21,150,440!2026-08-09,208,475-->
 
 > [!example] __hierarchy__
 >

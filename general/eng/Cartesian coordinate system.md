@@ -81,7 +81,7 @@ Alternatively, {@{each coordinate of a point _P_}@} can be taken as {@{the dista
 
 {@{Standard names for the coordinates in the three axes}@} are {@{_abscissa_, _ordinate_ and _applicate_}@}.<sup>[\[9\]](#^ref-9)</sup> The coordinates are often {@{denoted by the letters _x_, _y_, and _z_}@}. The axes may then be referred to as {@{the _x_-axis, _y_-axis, and _z_-axis, respectively}@}. Then {@{the coordinate planes}@} can be referred to as {@{the _xy_-plane, _yz_-plane, and _xz_-plane}@}. <!--SR:!2029-02-17,1140,350!2026-06-23,393,362!2026-05-25,368,362!2030-04-07,1486,369!2030-04-02,1482,369!2026-05-08,351,349-->
 
-In {@{mathematics, physics, and engineering contexts}@}, {@{the first two axes}@} are often {@{defined or depicted as horizontal, with the third axis pointing up}@}. In that case {@{the third coordinate}@} may be called {@{_height_ or _altitude_}@}. {@{The orientation}@} is usually {@{chosen so that the 90-degree angle from the first axis to the second axis looks counter-clockwise}@} when seen {@{from the point \(0, 0, 1\)}@}; a convention that is commonly called {@{_the [right-hand rule](right-hand%20rule.md)_}@}. <!--SR:!2030-04-11,1490,369!2026-06-01,375,362!2026-05-04,347,349!2030-03-29,1478,369!2026-03-16,313,349!2026-05-09,352,349!2028-12-21,1098,350!2026-05-24,367,362!2026-06-16,137,409-->
+In {@{mathematics, physics, and engineering contexts}@}, {@{the first two axes}@} are often {@{defined or depicted as horizontal, with the third axis pointing up}@}. In that case {@{the third coordinate}@} may be called {@{_height_ or _altitude_}@}. {@{The orientation}@} is usually {@{chosen so that the 90-degree angle from the first axis to the second axis looks counter-clockwise}@} when seen {@{from the point \(0, 0, 1\)}@}; a convention that is commonly called {@{_the [right-hand rule](right-hand%20rule.md)_}@}. <!--SR:!2030-04-11,1490,369!2026-06-01,375,362!2026-05-04,347,349!2030-03-29,1478,369!2030-05-02,1508,369!2026-05-09,352,349!2028-12-21,1098,350!2026-05-24,367,362!2026-06-16,137,409-->
 
 > {@{![Coordinate surfaces for a Cartesian coordinate system.](../../archives/Wikimedia%20Commons/Cartesian%20coordinate%20surfaces.png)}@}
 >
@@ -169,7 +169,7 @@ Assuming that {@{translations are not used \(that is, $b_{1}=b_{2}=0$\)}@} trans
 
 {@{The augmented matrix that represents the [composition](function%20composition.md) of two affine transformations}@} is obtained by {@{multiplying their augmented matrices}@}. <!--SR:!2026-06-14,386,362!2030-04-08,1487,369-->
 
-{@{Some affine transformations}@} that are {@{not Euclidean transformations}@} have {@{received specific names}@}. <!--SR:!2028-08-25,1002,349!2026-03-16,313,349!2026-05-14,130,408-->
+{@{Some affine transformations}@} that are {@{not Euclidean transformations}@} have {@{received specific names}@}. <!--SR:!2028-08-25,1002,349!2030-05-01,1507,369!2026-05-14,130,408-->
 
 #### scaling
 
@@ -206,7 +206,7 @@ Regardless of {@{the rule used to orient the plane}@}, {@{rotating the coordinat
 
 > {@{![Fig. 7 – The left-handed orientation is shown on the left, and the right-handed on the right.](../../archives/Wikimedia%20Commons/Cartesian%20coordinate%20system%20handedness.svg)}@}
 >
-> Fig. 7 – {@{The left-handed orientation is shown on the left, and the right-handed on the right}@}. <!--SR:!2026-03-16,313,349!2026-05-08,351,349-->
+> Fig. 7 – {@{The left-handed orientation is shown on the left, and the right-handed on the right}@}. <!--SR:!2030-04-25,1501,369!2026-05-08,351,349-->
 
 <!-- markdownlint MD028 -->
 

@@ -74,7 +74,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`**` <!--SR:!2026-03-24,139,402!2026-03-18,134,402-->
 - `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%` <!--SR:!2028-02-17,708,422!2028-02-09,701,422-->
 - `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2026-03-18,134,402!2026-03-17,133,402-->
-- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2026-03-16,132,402!2026-03-18,134,402-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2028-03-08,723,422!2026-03-18,134,402-->
 
 <!--/pytextgen-->
 
@@ -226,4 +226,4 @@ variableName = 1 + 2
 
 One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2027-03-21,858,330-->
 
-Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-12-28,802,330!2026-03-21,136,402!2026-03-16,132,402!2026-03-23,138,402-->
+Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-12-28,802,330!2026-03-21,136,402!2028-03-09,724,422!2026-03-23,138,402-->

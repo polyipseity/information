@@ -34,7 +34,7 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 >
 > {@{Functor $F$ must preserve the composition of morphisms $g$ and $f$}@} <!--SR:!2026-04-04,356,357!2026-04-04,356,357-->
 
-Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __functor__ _F_ from _C_ to _D_}@} is a mapping that<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2030-04-16,1515,366!2026-03-16,341,357-->
+Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __functor__ _F_ from _C_ to _D_}@} is a mapping that<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2030-04-16,1515,366!2030-10-12,1671,377-->
 
 - (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_, <!--SR:!2029-09-19,1335,350!2026-04-03,355,357-->
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2030-04-18,1518,366!2027-02-17,565,310-->
@@ -78,7 +78,7 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 
 ### bifunctors and multifunctors
 
-{@{A __bifunctor__ \(also known as a __binary functor__\)}@} is {@{a functor whose domain is a [product category](product%20category.md)}@}. For example, {@{the [Hom functor](hom%20functor.md) is of the type _C<sup>op</sup>_ × _C_ → __Set__}@}. It can be seen as {@{a functor in _two_ arguments; it is contravariant in one argument, covariant in the other}@}. <!--SR:!2026-04-06,358,357!2026-03-16,341,357!2030-07-08,1593,377!2026-04-11,362,357-->
+{@{A __bifunctor__ \(also known as a __binary functor__\)}@} is {@{a functor whose domain is a [product category](product%20category.md)}@}. For example, {@{the [Hom functor](hom%20functor.md) is of the type _C<sup>op</sup>_ × _C_ → __Set__}@}. It can be seen as {@{a functor in _two_ arguments; it is contravariant in one argument, covariant in the other}@}. <!--SR:!2026-04-06,358,357!2030-10-16,1675,377!2030-07-08,1593,377!2026-04-11,362,357-->
 
 {@{A __multifunctor__}@} is {@{a generalization of the functor concept to _n_ variables}@}. So, for example, {@{a bifunctor is a multifunctor with _n_ = 2}@}. <!--SR:!2029-09-20,1336,350!2026-04-09,360,357!2026-04-05,357,357-->
 
@@ -119,9 +119,9 @@ __Limit functor__
 <!-- markdownlint-disable-next-line MD036 -->
 __Power sets functor__
 
-&emsp; {@{The power set functor _P_ : __Set__ → __Set__}@} maps {@{each set to its [power set](power%20set.md)}@} and {@{each function $f\colon X\to Y$ to the map which sends $U\in {\mathcal {P} }(X)$ to its image $f(U)\in {\mathcal {P} }(Y)$}@}. One can also consider {@{the __contravariant power set functor__}@} which {@{sends $f\colon X\to Y$ to the map which sends $V\subseteq Y$ to its [inverse image](inverse%20image.md#inverse%20image) $f^{-1}(V)\subseteq X$}@}. <!--SR:!2030-02-11,1463,366!2026-03-16,341,357!2026-03-21,345,357!2026-09-29,436,317!2029-09-25,1341,350-->
+&emsp; {@{The power set functor _P_ : __Set__ → __Set__}@} maps {@{each set to its [power set](power%20set.md)}@} and {@{each function $f\colon X\to Y$ to the map which sends $U\in {\mathcal {P} }(X)$ to its image $f(U)\in {\mathcal {P} }(Y)$}@}. One can also consider {@{the __contravariant power set functor__}@} which {@{sends $f\colon X\to Y$ to the map which sends $V\subseteq Y$ to its [inverse image](inverse%20image.md#inverse%20image) $f^{-1}(V)\subseteq X$}@}. <!--SR:!2030-02-11,1463,366!2030-10-19,1678,377!2026-03-21,345,357!2026-09-29,436,317!2029-09-25,1341,350-->
 
-&emsp; For example, if {@{$X=\{0,1\}$ then $F(X)={\mathcal {P} }(X)=\{\{\},\{0\},\{1\},X\}$}@}. Suppose {@{$f(0)=\{\}$ and $f(1)=X$}@}. Then $F(f)$ is {@{the function which sends any subset $U$ of $X$ to its image $f(U)$}@}, which in this case means {@{$\{\}\mapsto f(\{\})=\{\}$, where $\mapsto$ denotes the mapping under $F(f)$}@}, so this could also be {@{written as $(F(f))(\{\})=\{\}$}@}. For the other values, {@{$\{0\}\mapsto f(\{0\})=\{f(0)\}=\{\{\}\},\ {}$ $\{1\}\mapsto f(\{1\})=\{f(1)\}=\{X\},\ {}$ $\{0,1\}\mapsto f(\{0,1\})=\{f(0),f(1)\}=\{\{\},X\}$}@}. Note that $f(\{0,1\})$ consequently {@{generates the [trivial topology](trivial%20topology.md) on $X$}@}. Also note that {@{although the function $f$ in this example mapped to the power set of $X$}@}, that {@{need not be the case in general}@}. <!--SR:!2029-03-25,1125,346!2026-04-05,356,357!2030-05-25,1548,366!2026-03-20,344,357!2026-04-11,362,357!2029-01-22,1074,346!2030-03-04,1481,366!2026-03-16,341,357!2030-04-28,1526,366-->
+&emsp; For example, if {@{$X=\{0,1\}$ then $F(X)={\mathcal {P} }(X)=\{\{\},\{0\},\{1\},X\}$}@}. Suppose {@{$f(0)=\{\}$ and $f(1)=X$}@}. Then $F(f)$ is {@{the function which sends any subset $U$ of $X$ to its image $f(U)$}@}, which in this case means {@{$\{\}\mapsto f(\{\})=\{\}$, where $\mapsto$ denotes the mapping under $F(f)$}@}, so this could also be {@{written as $(F(f))(\{\})=\{\}$}@}. For the other values, {@{$\{0\}\mapsto f(\{0\})=\{f(0)\}=\{\{\}\},\ {}$ $\{1\}\mapsto f(\{1\})=\{f(1)\}=\{X\},\ {}$ $\{0,1\}\mapsto f(\{0,1\})=\{f(0),f(1)\}=\{\{\},X\}$}@}. Note that $f(\{0,1\})$ consequently {@{generates the [trivial topology](trivial%20topology.md) on $X$}@}. Also note that {@{although the function $f$ in this example mapped to the power set of $X$}@}, that {@{need not be the case in general}@}. <!--SR:!2029-03-25,1125,346!2026-04-05,356,357!2030-05-25,1548,366!2026-03-20,344,357!2026-04-11,362,357!2029-01-22,1074,346!2030-03-04,1481,366!2030-10-14,1673,377!2030-04-28,1526,366-->
 
 __Dual vector space__ <p> ::@:: &emsp; The map which assigns to every [vector space](vector%20space.md) its [dual space](dual%20space.md) and to every [linear map](linear%20operator.md) its dual or transpose is a contravariant (annotation: _not_ covariant) functor from the category of all vector spaces over a fixed [field](field%20(mathematics).md) to itself. <!--SR:!2028-06-21,985,357!2028-02-13,801,290-->
 
@@ -173,9 +173,9 @@ __Homomorphism groups__
 <!-- markdownlint-disable-next-line MD036 -->
 __Representable functors__
 
-&emsp; We can {@{generalize the previous example to any category _C_}@}. To {@{every pair _X_, _Y_ of objects in _C_}@} one can {@{assign the set Hom\(_X_, _Y_\) of morphisms from _X_ to _Y_}@}. This defines {@{a functor to __Set__ which is contravariant in the first argument and covariant in the second, i.e. it is a functor _C_<sup>op</sup> × _C_ → __Set__}@}. If {@{_f_ : _X_<sub>1</sub> → _X_<sub>2</sub> and _g_ : _Y_<sub>1</sub> → _Y_<sub>2</sub> are morphisms in _C_}@}, then {@{the map Hom\(_f_, _g_\) : Hom\(_X_<sub>2</sub>, _Y_<sub>1</sub>\) → Hom\(_X_<sub>1</sub>, _Y_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_}@}. <!--SR:!2026-03-16,341,357!2026-04-01,354,357!2026-04-08,360,357!2029-09-27,1343,350!2029-09-27,1343,350!2026-04-04,356,357!2030-06-01,1553,366-->
+&emsp; We can {@{generalize the previous example to any category _C_}@}. To {@{every pair _X_, _Y_ of objects in _C_}@} one can {@{assign the set Hom\(_X_, _Y_\) of morphisms from _X_ to _Y_}@}. This defines {@{a functor to __Set__ which is contravariant in the first argument and covariant in the second, i.e. it is a functor _C_<sup>op</sup> × _C_ → __Set__}@}. If {@{_f_ : _X_<sub>1</sub> → _X_<sub>2</sub> and _g_ : _Y_<sub>1</sub> → _Y_<sub>2</sub> are morphisms in _C_}@}, then {@{the map Hom\(_f_, _g_\) : Hom\(_X_<sub>2</sub>, _Y_<sub>1</sub>\) → Hom\(_X_<sub>1</sub>, _Y_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_}@}. <!--SR:!2030-10-13,1672,377!2026-04-01,354,357!2026-04-08,360,357!2029-09-27,1343,350!2029-09-27,1343,350!2026-04-04,356,357!2030-06-01,1553,366-->
 
-&emsp; Functors like these are called {@{[representable functors](representable%20functor.md)}@}. {@{An important goal in many settings}@} is to {@{determine whether a given functor is representable}@}. <!--SR:!2026-04-09,360,357!2030-04-08,1510,366!2026-03-16,341,357-->
+&emsp; Functors like these are called {@{[representable functors](representable%20functor.md)}@}. {@{An important goal in many settings}@} is to {@{determine whether a given functor is representable}@}. <!--SR:!2026-04-09,360,357!2030-04-08,1510,366!2030-10-15,1674,377-->
 
 ## relation to other categorical concepts
 

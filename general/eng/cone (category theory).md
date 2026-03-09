@@ -27,7 +27,7 @@ One can also define {@{the [dual](dual%20(category%20theory).md) notion of a __c
 
 ## equivalent formulations
 
-At first glance cones seem to be {@{slightly abnormal constructions in category theory}@}. They are {@{maps from an _object_ to a _functor_ \(or vice versa\)}@}. In keeping with {@{the spirit of category theory}@} we would like to {@{define them as morphisms or objects in some suitable category}@}. In fact, {@{we can do both}@}. <!--SR:!2029-10-07,1345,350!2029-03-10,1176,350!2026-03-16,333,352!2026-03-28,342,352!2029-10-02,1340,350-->
+At first glance cones seem to be {@{slightly abnormal constructions in category theory}@}. They are {@{maps from an _object_ to a _functor_ \(or vice versa\)}@}. In keeping with {@{the spirit of category theory}@} we would like to {@{define them as morphisms or objects in some suitable category}@}. In fact, {@{we can do both}@}. <!--SR:!2029-10-07,1345,350!2029-03-10,1176,350!2030-08-12,1610,372!2026-03-28,342,352!2029-10-02,1340,350-->
 
 Let {@{_J_ be a small category}@} and let {@{_C_<sup>_J_</sup> be the [category of diagrams](category%20of%20diagrams.md) of type _J_ in _C_ \(this is nothing more than a [functor category](functor%20category.md)\)}@}. Define {@{the [diagonal functor](diagonal%20functor.md) Δ : _C_ → _C_<sup>_J_</sup>}@} as follows: {@{Δ\(_N_\) : _J_ → _C_ is the [constant functor](constant%20functor.md#examples) to _N_ for all _N_ in _C_}@}. <!--SR:!2029-06-12,1245,350!2029-04-16,1188,350!2026-04-03,347,352!2029-05-07,1209,350-->
 
