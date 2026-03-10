@@ -165,6 +165,7 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.agents/skills/` 
 - 2026-02-09: Added `.agents/instructions/agent-quickstart.instructions.md` — a one-page checklist for AI agents (startup commands, quick gotchas, test/format sequence, and submodule guardrails). Linked core instruction files and submodule AGENTS.md to improve discoverability and cohesion.
 - 2026-02-09: Updated commit message guidance — agents should prefer wrapping commit body lines to **72 characters** (readability/buffer). Tooling (commitlint) continues to enforce a **100-character** hard limit, so ensure lines are ≤100 to pass.
 - 2026-03-02: Validation strictness increased — **all warnings must be addressed just like errors** (fix or suppress with a valid rationale). The validator message has been updated accordingly.
+- **MD060 (table-column-style):** Agents should **ignore** MD060 violations; do not attempt to fix them. The human will fix table formatting manually.
 
 ## AI agent quickstart ✅
 

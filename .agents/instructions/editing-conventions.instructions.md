@@ -11,7 +11,7 @@ applyTo: "**/*.md"
 - **Frontmatter**: Keep YAML (`aliases`, `tags`, `language/in/English`) intact. Avoid adding unauthorized fields; add new fields only with user approval.
 
 - **Cloze & flashcard markup**: Preserve the three patterns exactly and understand what they do:
-  - `{@{ hidden text }@}` – cloze deletion; the inner text is hidden when the card is shown and must be recalled. (Most common.)
+  - `{@{ hidden text }@}` – cloze deletion; the inner text is hidden when the card is shown and must be recalled. (Most common.) **Closing delimiter:** place `}@}` **before** any trailing punctuation so punctuation sits outside the cloze (e.g. `{@{text}@}.` not `{@{text.}@}`).
   - `::@::` – two‑sided question/answer pair on a single Markdown line; creates two cards (left→right and right→left). Use `<br/>` for line breaks or `<p>` for paragraphs if needed, but keep the source line literal.
   - `:@:` – one‑sided question/answer pair on a single Markdown line; creates a single card where the right side is recalled from the left. Same line‑only rule applies.
   Do **not** reflow, escape, or split any of these markers across lines; altering spacing or wrapping can break generation.
