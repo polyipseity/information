@@ -105,6 +105,7 @@ The digital storage oscilloscope (DSO) displays **voltage on the vertical axis**
 - **Horizontal axis (time):** Each division corresponds to a time step (e.g. $1\text{ ms}/\text{div}$, $100\,\mu\text{s}/\text{div}$). Units may be s, ms, or $\mu\text{s}$. To find the **period** $T$ of a periodic waveform: count the number of horizontal divisions for one complete cycle and multiply by the time-per-division. **Frequency** is $f=1/T$ (unit Hz or kHz); many DSOs display frequency directly, but always verify the scale so you know whether the reading is in Hz, kHz, or MHz.
 - **Trigger:** The trigger stabilises the display so that a repeating waveform appears stationary. Set the trigger source (e.g. channel 1), trigger level, and slope (rising or falling) as indicated in the tutorial; if the trace is running or jumping, adjust the trigger level until the waveform locks.
 - **Interpret units:** Always note whether the vertical scale is in V or mV and whether the horizontal scale is in s, ms, or $\mu\text{s}$ so that peak-to-peak, period, and frequency are read with the correct magnitude.
+- **Probe connections:** In the lab, always connect the DSO probe clip (negative) to the circuit’s reference node marked GND in the schematic, and touch the probe tip to the metal at the bottom of component leads instead of pushing it directly into breadboard holes so the contacts are not damaged.
 
 ---
 
@@ -116,6 +117,7 @@ Flashcards for this section are as follows:
 - DSO period and frequency ($T$, $f=1/T$, units) ::@:: Period $T$ = horizontal divisions for one cycle $\times$ time-per-division; frequency $f=1/T$ (Hz or kHz); check time scale units (s/ms/μs).
 - DSO trigger purpose ::@:: Trigger stabilises the display so a repeating waveform appears stationary; set source, level, and slope as in the tutorial.
 - DSO units reminder (vertical V/mV, horizontal s/ms/μs, Hz/kHz; $V_{\text{pp}}$, period, frequency) ::@:: Always check on-screen units for vertical (V/mV) and horizontal (s/ms/μs, Hz/kHz) when reading $V_{\text{pp}}$, period, or frequency.
+- DSO probe connection and ground ::@:: In ELEC 1100 labs, connect the DSO probe clip (negative) to the circuit reference node marked GND in the diagram and touch the probe tip to the bottom of component leads rather than jamming it into breadboard holes to avoid damaging contacts.
 
 ## LED <!-- check: ignore-line[header_style_rule]: proper noun -->
 
@@ -131,10 +133,11 @@ Flashcards for this section are as follows:
 
 ## lab safety
 
-Never short the power rails or reverse power and ground. If readings look wrong or you smell burning, turn off the supply and ask a TA.
+Never short the power rails or reverse power and ground. When you finish a measurement or are about to rewire a circuit, turn off the DC power supply or disable its output and use the current-limit knob as described in lab to protect your circuit from accidental overcurrent. In ELEC 1100 experiments you normally ignore the bench supply’s GND binding post: treat the negative terminal in the circuit diagram as the reference node (GND) and connect the negative leads of the DMM, DSO probes, and function generator there instead of to the supply’s chassis ground. If readings look wrong or you smell burning, turn off the supply immediately and ask a TA.
 
 ---
 
 Flashcards for this section are as follows:
 
 - lab safety rules ::@:: Do not short the rails or reverse power and ground; turn off the supply and ask a TA if something smells or readings are wrong.
+- DC supply and reference node safety ::@:: After measurements or before rewiring, turn off or disable the DC supply output and rely on the current limit to protect circuits; in ELEC 1100 labs use the circuit’s GND node as the common reference for negative leads rather than the bench supply’s chassis GND terminal.

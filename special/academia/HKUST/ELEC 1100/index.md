@@ -10,6 +10,8 @@ tags:
   - language/in/English
 ---
 
+<!-- For each ELEC 1100 lab, use the Canvas lab handout and summary sheet (e.g. LabN_2026s.pdf, LabN_SummarySheet_2026s.docx) as the primary source.  First, integrate any new concepts or workflows into the relevant topic notes (lab equipment, electronic component, diode, voltage regulator, transistor, H‑bridge, etc.) and update the weekly session outline with § links and a few workflow/safety flashcards instead of duplicating full procedures here.  Second, create an assignment‑style note under labs/lab N/ that mirrors the Canvas assignment metadata (title, due/available window, points, submission type, file types) and lists any official handouts (both the LabN_2026s.pdf manual and the summary‑sheet `.docx`) under an attachments block and the canonical submission filename under a “submission” section.  Assignment pages such as labs/lab 1/index.md may omit the standard “# index” / “## children” shell and instead use a file‑level suppression (see academic‑notes instructions for the exact syntax) so only that file is exempt from the index‑heading rules.  Attachments must be copied into labs/lab N/attachments/ and the submission template into labs/lab N/ with the exact filenames referenced in the note so that future agents can regenerate or extend lab notes consistently. -->
+
 # index
 
 - HKUST ELEC 1100
@@ -89,11 +91,6 @@ The content is in teaching order.
     - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
 
 ## assignments
-
-- assignment 1
-  - due: 2025-09-??
-  - points: ?
-  - link: [assignment 1](assignments/assignment%201/index.md)
 
 ### week 1 lab 1
 
@@ -182,6 +179,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
     - [§ LED](lab%20equipment.md#led)
     - [§ lab safety](lab%20equipment.md#lab%20safety)
+  - ELEC 1100 / [lab 1](labs/lab%201/index.md)
   - ELEC 1100 / lab 1 preparation (logistics only; topic content in [lab equipment](lab%20equipment.md))
     - ELEC 1100 / lab 1 preparation / project context ::@:: The course project is a line follower robot; early labs teach the basic components, breadboard wiring and measurements needed to build and debug its subsystems.
     - ELEC 1100 / lab 1 preparation / lab groups and submission ::@:: Form groups of two students within the same lab section; either self sign up on Canvas or be randomly assigned.<br/>Each student uploads their own completed summary sheet to Canvas before the end of their lab slot; late submissions are not accepted.
@@ -255,6 +253,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
     - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
     - [§ energy and power](electronic%20component.md#energy%20and%20power)
+    - [§ energy sources in lab](electronic%20component.md#energy%20sources%20in%20lab)
     - [§ resistor networks](electronic%20component.md#resistor%20networks)
     - [§ capacitors](electronic%20component.md#capacitors)
   - ELEC 1100 / [lab equipment](lab%20equipment.md)
@@ -265,6 +264,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
     - [§ LED](lab%20equipment.md#led)
     - [§ lab safety](lab%20equipment.md#lab%20safety)
+  - ELEC 1100 / [lab 1](labs/lab%201/index.md)
 
 ### week 4 tutorial 1
 
@@ -355,6 +355,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
   - ELEC 1100 / [electronic component](electronic%20component.md) (resistor networks including infinite ladder, power)
     - [§ resistor networks](electronic%20component.md#resistor%20networks)
     - [§ energy and power](electronic%20component.md#energy%20and%20power)
+  - ELEC 1100 / [lab 2](labs/lab%202/index.md)
 
 ### week 5 tutorial 1
 
@@ -444,6 +445,7 @@ Next lecture: motor basics, DC brushed motors.
     - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
     - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
     - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
+  - ELEC 1100 / [lab 3](labs/lab%203/index.md)
 
 ### week 6 tutorial 1
 
