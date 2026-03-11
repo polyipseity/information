@@ -272,7 +272,7 @@ async def main(argv: Sequence[str] | None = None) -> None:
     """
     parser = ArgumentParser(
         prog="check.py",
-        description="Validate academic course notes (basic structural and content checks)",
+        description="Validate academic course notes (structural and content checks)",
     )
     parser.add_argument(
         "paths", nargs="*", help="Paths to check (defaults to special/academia roots)"
@@ -399,5 +399,5 @@ async def main(argv: Sequence[str] | None = None) -> None:
         )
         return exit(2) if errcount else exit(1)
 
-    _CONSOLE.print("[green]OK:[/] No issues detected (basic checks)", markup=True)
+    _CONSOLE.print("[green]OK:[/] No issues detected", markup=True)
     return exit(0)

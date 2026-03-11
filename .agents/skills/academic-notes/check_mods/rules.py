@@ -1368,6 +1368,101 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def qa_hierarchical_path(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ensure nested QA glosses include the full hierarchical parent path.
+
+    For course-specific outlines, each nested flashcard gloss (lines containing
+    ``::@::`` or ``:@:``) should prefix its left-hand label with the complete
+    parent path rather than relying on list indentation for context.  For
+    example:
+
+    - ELEC 1100
+      - ELEC 1100 / lab 1 preparation / breadboard and equipment
+        - ELEC 1100 / lab 1 preparation / breadboard and equipment / lab equipment overview ::@: ...
+
+    This rule walks the body list structure, tracking non-QA bullets as parent
+    paths.  When it encounters an indented QA line, it locates the nearest
+    less-indented parent and requires the QA's left-hand label to start with
+    ``<parent> /``.  Only the first violation is reported.
+    """
+    errors: list[ValidationMessage] = []
+    body = ctx.body
+    lines = body.splitlines(keepends=True)
+    # stack holds (indent_width, label_text) for non-QA bullets
+    stack: list[tuple[int, str]] = []
+    offset = 0
+
+    for line in lines:
+        m = re.match(r"^(?P<indent>\s*)-\s+(?P<rest>.+)$", line)
+        if not m:
+            offset += len(line)
+            continue
+
+        indent = len(m.group("indent"))
+        rest = m.group("rest").rstrip()
+        is_qa = "::@::" in rest or ":@:" in rest
+
+        if is_qa:
+            # determine left-hand gloss label
+            sep_idx = rest.find("::@::")
+            if sep_idx == -1:
+                sep_idx = rest.find(":@:")
+            if sep_idx == -1:
+                offset += len(line)
+                continue
+            label_left = rest[:sep_idx].rstrip()
+            # skip section-link style cards (e.g. '[§ section](...)') which use
+            # a different, anchor-based hierarchy rather than course-path
+            # prefixes.  The hierarchical-path requirement only applies to
+            # course-path glosses like 'ELEC 1100 / topic / ...'.
+            if label_left.lstrip().startswith("[§"):
+                offset += len(line)
+                continue
+            # ignore cards that do not use path-style labels at all
+            if "/" not in label_left:
+                offset += len(line)
+                continue
+
+            # find nearest less-indented parent bullet
+            parent_label: str | None = None
+            for p_indent, p_label in reversed(stack):
+                if p_indent < indent:
+                    parent_label = p_label.strip()
+                    break
+
+            if parent_label and "/" in parent_label:
+                expected_prefix = f"{parent_label} /"
+                if not label_left.startswith(expected_prefix):
+                    line_no, col_no = locate(ctx.body, offset)
+                    errors.append(
+                        ValidationMessage(
+                            rule_id="qa_hierarchical_path",
+                            msg=(
+                                "nested QA gloss does not start with its parent path; "
+                                f"expected prefix '{expected_prefix}' but found '{label_left}'"
+                            ),
+                            line=line_no,
+                            col=col_no,
+                        )
+                    )
+                    break
+        else:
+            # plain bullet defines or updates the current parent stack
+            label = rest
+            # only treat plain course-path bullets (no markdown links) as
+            # hierarchical parents; other bullets (e.g. section links or
+            # descriptive labels) should not affect the path stack
+            while stack and stack[-1][0] >= indent:
+                stack.pop()
+            if "/" in label and "[" not in label:
+                stack.append((indent, label))
+
+        offset += len(line)
+
+    return errors
+
+
+@RULE_REGISTRY.register()
 def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check for QA-style flashcard lists without a preceding separator phrase.
 

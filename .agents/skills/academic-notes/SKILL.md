@@ -277,7 +277,14 @@ Before pushing your edits, validate them using the provided tooling. The validat
 Run:
 
 ```shell
-uv run .agents/skills/academic-notes/check.py special/academia/<institution>/<course folder>  # e.g. special/academia/HKUST/ELEC\ 1100; do not point at the whole institution
+# POSIX shells (bash/zsh/fish); escape the space in the course folder
+uv run .agents/skills/academic-notes/check.py special/academia/<institution>/ELEC\ 1100
+
+# Windows PowerShell or cmd; quote the path that contains a space
+uv run .agents/skills/academic-notes/check.py "special/academia/<institution>/ELEC 1100"
+
+# Example (this course, ELEC 1100):
+uv run .agents/skills/academic-notes/check.py "special/academia/HKUST/ELEC 1100"
 ```
 
 The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `bun run format`, `bun run check`, and `bun run test` with explicit paths to your changed files so the commands execute quickly.

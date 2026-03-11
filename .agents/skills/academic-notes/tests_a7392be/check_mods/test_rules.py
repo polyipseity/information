@@ -32,6 +32,7 @@ from check_mods.rules import (
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
     one_sided_calc_warning,
+    qa_hierarchical_path,
     section_example_heading,
     session_datetime_order,
     session_duplicate_heading,
@@ -470,6 +471,34 @@ def test_numeric_text_not_latex():
     txt5 = "```text\n5 V and 10 A should not trigger\n```\n"
     ctx5 = make_ctx(txt5)
     assert not numeric_text_not_latex(ctx5), "code fences must be skipped"
+
+
+def test_qa_hierarchical_path_nested_labels():
+    """Nested QA cards must include the full parent path on the left side.
+
+    The left-hand gloss for an indented card should start with
+    '<parent path> /' rather than omitting the immediate parent segment.
+    """
+
+    # Correct hierarchical paths: children start with full parent label + " /"
+    good = (
+        "- ELEC 1100\n"
+        "  - ELEC 1100 / lab 1 preparation / breadboard and equipment\n"
+        "    - ELEC 1100 / lab 1 preparation / breadboard and equipment / lab equipment overview ::@:: details\n"
+        "    - ELEC 1100 / lab 1 preparation / breadboard and equipment / breadboard internal connections ::@:: details\n"
+    )
+    ctx_good = make_ctx(good)
+    assert not qa_hierarchical_path(ctx_good)
+
+    # Missing the immediate parent segment in the child gloss should be flagged
+    bad = (
+        "- ELEC 1100\n"
+        "  - ELEC 1100 / lab 1 preparation / breadboard and equipment\n"
+        "    - ELEC 1100 / lab 1 preparation / lab equipment overview ::@:: details\n"
+    )
+    ctx_bad = make_ctx(bad)
+    msgs = qa_hierarchical_path(ctx_bad)
+    assert msgs and msgs[0].rule_id == "qa_hierarchical_path"
 
 
 def test_latex_spacing_before_paren():
