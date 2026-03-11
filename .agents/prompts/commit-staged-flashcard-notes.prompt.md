@@ -89,9 +89,9 @@ agent: agent
        - **PowerShell (Windows):**
 
          ```powershell
-         (@"
+         (@'
          <full commit message>
-         "@ | git commit --file=-) ; git rev-parse HEAD
+         '@ | git commit --file=-) ; git rev-parse HEAD
          ```
 
          **Note on special characters and quoting:**

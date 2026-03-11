@@ -117,9 +117,9 @@ they fail or are unavailable, fall back to the provided input values.
      PowerShell (Windows):
 
      ```powershell
-     (@"
+     (@'
      <full commit message>
-     "@ | git commit --file=-) ; git rev-parse HEAD
+     '@ | git commit --file=-) ; git rev-parse HEAD
      ```
 
      Notes on quoting: Prefer single-quoted here-strings (`@'... '@`) to avoid
