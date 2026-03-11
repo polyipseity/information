@@ -760,3 +760,55 @@ async def test_suppression_redundant(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_file_level_suppression_hides_index_rules(tmp_path: PathLike[str]):
+    """ignore-file should suppress all messages for the listed rules in a file.
+
+    This is used for assignment-style index pages (e.g. labs/lab N/index.md)
+    that do not follow the standard course index shell (# index + children).
+    The redundancy check must consider the whole file: as long as at least one
+    diagnostic for the rule exists anywhere, ignore-file is not redundant.
+    """
+
+    text = (
+        "---\n"
+        "aliases: [a]\n"
+        "tags: [language/in/English, flashcard/active/special/academia/test/index]\n"
+        "---\n"
+        "<!-- check: ignore-file[index_heading_rule,index_children_rule]: assignment index without shell -->\n"
+        "# some page\n"
+        "## not-children\n"
+    )
+    file = Path(tmp_path) / "index.md"
+    await file.write_text(text)
+
+    # Without suppression, both index rules would fire on this path; with
+    # ignore-file they should be fully removed from the result set.
+    msgs = list(await check_markdown_file(file))
+    assert not any(
+        m.rule_id in {"index_heading_rule", "index_children_rule"} for m in msgs
+    )
+    # The suppression itself must not be marked redundant because those rules
+    # would have produced diagnostics somewhere in the file.
+    assert not any(m.rule_id == "suppression-redundant" for m in msgs)
+
+
+@pytest.mark.anyio
+async def test_file_level_suppression_redundant(tmp_path: PathLike[str]):
+    """ignore-file should error when the rule never fires anywhere in the file."""
+
+    text = (
+        "---\n"
+        "aliases: [a]\n"
+        "tags: [language/in/English, flashcard/active/special/academia/test]\n"
+        "---\n"
+        "<!-- check: ignore-file[unit_outside_math]: unnecessary -->\n"
+        "Plain text with no units after math symbols.\n"
+    )
+    file = Path(tmp_path) / "file_redundant.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
