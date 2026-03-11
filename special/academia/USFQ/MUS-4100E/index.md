@@ -103,7 +103,7 @@ The content is in teaching order.
     - "Strasbourg" (2008) — Roy Hargrove
     - "Black Radio" (2012) — Robert Glasper
   - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2029-02-19,1163,350!2029-02-24,1167,350-->
-  - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2026-12-12,507,310!2026-03-17,329,341-->
+  - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2026-12-12,507,310!2030-06-08,1544,361-->
 - [music](../../../../general/music.md)
   - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2030-02-09,1449,361!2029-05-25,1229,350-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2027-08-14,715,330!2027-07-25,705,341-->

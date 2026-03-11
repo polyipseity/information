@@ -192,7 +192,7 @@ In the following, it is assumed that {@{the graph partition is stored on _p_ pro
 
 > ![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)
 >
-> {@{Execution of the parallel topological sorting algorithm on a DAG with two processing elements.}@} <!--SR:!2026-03-17,374,358-->
+> {@{Execution of the parallel topological sorting algorithm on a DAG with two processing elements.}@} <!--SR:!2029-11-20,1344,358-->
 
 In the first step, PE _j_ assigns {@{the $\lvert Q_j^1 \rvert$ indices $\sum _{i=0}^{j-1}|Q_{i}^{1}|,\dots ,\left(\sum _{i=0}^{j}|Q_{i}^{1}|\right)-1$ (the summation sign is for producing a prefix sum) to the $\lvert Q_j^1 \rvert$ local vertices in $Q_{j}^{1}$}@}. {@{These vertices in $Q_{j}^{1}$}@} are {@{removed, together with their corresponding outgoing edges}@}. For {@{each outgoing edge $(u,v)$ with endpoint _v_ in another PE $l,j\neq l$}@}, {@{the message $(u,v)$ is posted to PE _l_}@}. After {@{all vertices in $Q_{j}^{1}$ are removed}@}, {@{the posted messages are sent to their corresponding PE}@}. {@{Each message $(u,v)$ received}@} {@{updates the indegree of the local vertex _v_}@}. If {@{the indegree drops to zero}@}, {@{_v_ is added to $Q_{j}^{2}$}@}. Then {@{the next iteration starts}@}. <!--SR:!2028-04-04,935,351!2026-06-01,441,379!2030-12-15,1754,378!2026-05-19,429,379!2026-04-27,411,371!2027-10-04,796,339!2026-04-24,408,371!2026-04-08,396,371!2026-04-04,393,371!2026-03-31,386,358!2029-07-06,1300,358!2026-04-01,387,358-->
 
@@ -288,7 +288,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 >     <b>while</b> {@{global size of <i>Q</i> &gt; 0}@}
 >
 >     {@{<b>return</b> localOrder}@}
-> </pre> <!--SR:!2026-05-22,432,379!2028-02-27,855,351!2026-05-04,417,371!2030-07-25,1636,374!2026-05-23,433,379!2026-06-23,459,379!2026-04-10,398,371!2026-06-15,452,379!2026-10-22,516,331!2028-04-29,966,347!2030-06-14,1592,379!2029-02-15,1126,354!2030-06-28,1612,378!2026-03-17,373,358!2026-06-16,453,379!2028-02-03,850,351!2026-06-19,455,379!2026-05-30,438,379!2026-06-09,447,379!2028-05-22,971,347!2026-03-24,380,358!2026-04-18,403,371-->
+> </pre> <!--SR:!2026-05-22,432,379!2028-02-27,855,351!2026-05-04,417,371!2030-07-25,1636,374!2026-05-23,433,379!2026-06-23,459,379!2026-04-10,398,371!2026-06-15,452,379!2026-10-22,516,331!2028-04-29,966,347!2030-06-14,1592,379!2029-02-15,1126,354!2030-06-28,1612,378!2031-03-26,1835,378!2026-06-16,453,379!2028-02-03,850,351!2026-06-19,455,379!2026-05-30,438,379!2026-06-09,447,379!2028-05-22,971,347!2026-03-24,380,358!2026-04-18,403,371-->
 
 {@{The communication cost}@} depends {@{heavily on the given graph partition}@}. As for {@{runtime}@}, on {@{a [CRCW-PRAM](parallel%20RAM.md) model that allows fetch-and-decrement in constant time}@}, this algorithm {@{runs in ${\mathcal {O} }\left({\frac {m+n}{p} }+D(\Delta +\log n)\right)$}@}, where {@{_m_ is the number of edges, _n_ is the number of vertices, _D_ is again the longest path in _G_ and _Δ_ the maximum degree}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2031-01-20,1799,391!2027-11-05,808,338!2029-09-05,1365,359!2028-08-27,1023,318!2026-04-14,224,218!2026-11-14,538,331-->
 

@@ -66,7 +66,7 @@ Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-
 
 Note that contravariant functors {@{reverse the direction of composition}@}. <!--SR:!2029-09-26,1342,350-->
 
-Ordinary functors are also called {@{__covariant functors__ in order to distinguish them from contravariant ones}@}. Note that one can also define a contravariant functor as {@{a _covariant_ functor on the [opposite category](opposite%20category.md) $C^{\mathrm {op} }$}@}.<sup>[\[5\]](#^ref-5)</sup> Some authors {@{prefer to write all expressions covariantly}@}. That is, instead of {@{saying $F\colon C\to D$ is a contravariant functor}@}, they {@{simply write $F\colon C^{\mathrm {op} }\to D$ \(or sometimes $F\colon C\to D^{\mathrm {op} }$\) and call it a functor}@}. <!--SR:!2026-04-12,363,357!2029-09-29,1345,350!2026-03-26,349,357!2026-03-17,341,357!2026-03-27,350,357-->
+Ordinary functors are also called {@{__covariant functors__ in order to distinguish them from contravariant ones}@}. Note that one can also define a contravariant functor as {@{a _covariant_ functor on the [opposite category](opposite%20category.md) $C^{\mathrm {op} }$}@}.<sup>[\[5\]](#^ref-5)</sup> Some authors {@{prefer to write all expressions covariantly}@}. That is, instead of {@{saying $F\colon C\to D$ is a contravariant functor}@}, they {@{simply write $F\colon C^{\mathrm {op} }\to D$ \(or sometimes $F\colon C\to D^{\mathrm {op} }$\) and call it a functor}@}. <!--SR:!2026-04-12,363,357!2029-09-29,1345,350!2026-03-26,349,357!2030-10-20,1678,377!2026-03-27,350,357-->
 
 {@{Contravariant functors}@} are also occasionally called {@{_cofunctors_}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2030-03-14,1489,366!2026-04-04,355,357-->
 

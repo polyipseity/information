@@ -109,7 +109,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2026-03-17,196,310-->
+> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2028-07-02,838,330-->
 
 ---
 

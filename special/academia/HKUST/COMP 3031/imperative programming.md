@@ -36,7 +36,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   r
 > ```
 >
-> In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2026-03-29,64,310!2026-03-17,58,310!2026-03-24,59,310!2026-03-22,57,310!2026-03-26,61,310-->
+> In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2026-03-29,64,310!2026-11-27,255,330!2026-03-24,59,310!2026-03-22,57,310!2026-03-26,61,310-->
 
 {@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-03-28,63,310!2026-11-13,243,330!2026-03-27,62,310-->
 
@@ -83,11 +83,11 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > ```Scala
 > repeat { /* ... */ } until cond
 > ```
-<!--SR:!2026-03-27,62,310!2026-08-26,166,310!2026-03-17,58,310-->
+<!--SR:!2026-03-27,62,310!2026-08-26,166,310!2026-11-27,255,330-->
 
 ### for-loops
 
-Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar for calls to `foreach`}@}. {@{A Java‑style loop with an index variable}@} can be written as <!--SR:!2026-03-17,58,310!2026-03-29,64,310!2026-11-09,240,330-->
+Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar for calls to `foreach`}@}. {@{A Java‑style loop with an index variable}@} can be written as <!--SR:!2026-11-27,255,330!2026-03-29,64,310!2026-11-09,240,330-->
 
 > [!example] __Scala for‑loop with range__
 >
@@ -98,7 +98,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 > ```
 <!--SR:!2026-03-24,59,310!2026-04-01,67,310!2026-03-23,58,310-->
 
-{@{The translation of nested Java-style loops}@} is also {@{straightforward using nested `for`}@}: <!--SR:!2026-03-17,58,310!2026-03-23,58,310-->
+{@{The translation of nested Java-style loops}@} is also {@{straightforward using nested `for`}@}: <!--SR:!2026-11-27,255,330!2026-03-23,58,310-->
 
 > [!example] __nested for‑loops translation__
 >
@@ -110,7 +110,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 > (1 until 3).foreach { i =>
 >   "abc".foreach(j => println(s"$i $j")) }
 > ```
-<!--SR:!2026-11-17,246,330!2026-03-17,58,310-->
+<!--SR:!2026-11-17,246,330!2026-11-26,254,330-->
 
 ## digital circuit example
 
@@ -131,7 +131,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-03-22,57,310!2026-11-01,232,330!2026-10-28,229,330!2026-03-25,60,310-->
 
-{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-03-17,58,310!2026-03-27,62,310!2026-03-17,58,310!2026-03-23,58,310!2026-11-11,241,330!2026-03-24,59,310!2026-11-13,243,330!2026-03-26,61,310!2026-03-29,64,310-->
+{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-11-27,255,330!2026-03-27,62,310!2026-11-27,255,330!2026-03-23,58,310!2026-11-11,241,330!2026-03-24,59,310!2026-11-13,243,330!2026-03-26,61,310!2026-03-29,64,310-->
 
 > [!example] __half‑adder construction__
 >

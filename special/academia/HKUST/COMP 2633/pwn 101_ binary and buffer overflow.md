@@ -37,7 +37,7 @@ The meanings of the 4 segments are:
 - heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2028-09-09,1126,350!2028-06-27,1068,350-->
 - stack ::@:: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address). <!--SR:!2027-02-07,601,310!2027-04-16,709,330-->
 
-Notice {@{the `.rodata` \(read-only data\) section}@} is located on {@{the read-execute segment}@}. This means the program can {@{execute the data in `.rodata` section as code, which makes it less secure}@}. {@{The linkers of some newer Linux distributions}@} add {@{an additional one or two read segments \(the program can only read from it\)}@} for {@{the ELF header and `.rodata` section}@} to {@{improve security}@}. <!--SR:!2029-04-24,1297,350!2028-05-04,942,330!2028-03-20,735,418!2028-03-06,723,418!2026-03-17,136,398!2026-03-18,137,398!2026-03-19,138,398-->
+Notice {@{the `.rodata` \(read-only data\) section}@} is located on {@{the read-execute segment}@}. This means the program can {@{execute the data in `.rodata` section as code, which makes it less secure}@}. {@{The linkers of some newer Linux distributions}@} add {@{an additional one or two read segments \(the program can only read from it\)}@} for {@{the ELF header and `.rodata` section}@} to {@{improve security}@}. <!--SR:!2029-04-24,1297,350!2028-05-04,942,330!2028-03-20,735,418!2028-03-06,723,418!2028-03-25,739,418!2026-03-18,137,398!2026-03-19,138,398-->
 
 ## executable and linkable format
 
@@ -131,7 +131,7 @@ Commands names can be {@{truncated at the end to produce an abbreviation if the 
 
 ## buffer overflow
 
-A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2029-05-29,1326,350!2027-09-11,828,330!2027-10-20,849,330!2026-03-17,377,310!2027-05-04,727,330!2028-03-28,997,350-->
+A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2029-05-29,1326,350!2027-09-11,828,330!2027-10-20,849,330!2030-08-19,1616,330!2027-05-04,727,330!2028-03-28,997,350-->
 
 The buffers we are usually interested in exploiting is {@{usually on the first three \(stack, heap, read-write segment\)}@} because we can {@{write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2028-02-19,894,330!2027-06-11,746,330!2028-01-11,694,417-->
 

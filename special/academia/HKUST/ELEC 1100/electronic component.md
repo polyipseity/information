@@ -85,7 +85,7 @@ Flashcards for this section are as follows:
 
 #### example calculations
 
-- current example heater ::@:: A heater draws 8.5×10²⁰ electrons in 10 s; the current is approximately 13.6 A. <!--SR:!2026-03-17,12,270!2026-03-21,16,290-->
+- current example heater ::@:: A heater draws 8.5×10²⁰ electrons in 10 s; the current is approximately 13.6 A. <!--SR:!2026-05-03,47,290!2026-03-21,16,290-->
 - battery example ::@:: A 50 A start current for 4 s delivers 200 C of charge, about 1.25×10²¹ electrons. <!--SR:!2026-03-21,16,290!2026-03-19,14,290-->
 
 ### voltage and potential difference

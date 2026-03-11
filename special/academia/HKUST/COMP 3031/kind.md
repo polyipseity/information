@@ -39,7 +39,7 @@ In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represent
 > foo[List, Int](_ :: Nil, 1)          // List(1)
 > foo[Option, String](Some(_), "fuel") // Option("fuel")
 > ```
-<!--SR:!2026-11-16,246,330!2026-03-17,58,310!2026-04-08,67,310!2026-09-09,181,310-->
+<!--SR:!2026-11-16,246,330!2026-11-26,254,330!2026-04-08,67,310!2026-09-09,181,310-->
 
 ## type functions
 
@@ -79,7 +79,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def map[U](f: T => U): F[U] = flatMap(f andThen unit)
 > ```
 >
-> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2026-04-01,66,310!2026-11-16,246,330!2026-11-06,237,330!2026-03-28,62,310!2026-11-16,246,330!2026-03-27,61,310!2026-03-17,58,310!2026-03-24,58,310-->
+> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2026-04-01,66,310!2026-11-16,246,330!2026-11-06,237,330!2026-03-28,62,310!2026-11-16,246,330!2026-03-27,61,310!2026-11-27,255,330!2026-03-24,58,310-->
 
 {@{A concrete instance of `Monad`, `ListMonad`}@}, shows how {@{the abstraction works}@}: <!--SR:!2026-04-02,63,310!2026-03-31,65,310-->
 
@@ -94,7 +94,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def flatMap[U](f: T => List[U]): List[U] = x.flatMap(f)
 > ```
 >
-> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-03-17,58,310!2026-11-10,241,330!2026-04-03,62,310!2026-04-02,67,310-->
+> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-11-27,255,330!2026-11-10,241,330!2026-04-03,62,310!2026-04-02,67,310-->
 
 Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing a singleton `List` and `flatMap` a `List`}@}. <!--SR:!2026-03-25,59,310!2026-11-10,241,330-->
 
@@ -113,9 +113,9 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     case fa :: fas =>
 >       for (a <- fa; as <- sequence(fas)) yield a :: as
 > ```
-<!--SR:!2026-03-25,59,310!2026-11-19,248,330!2026-03-17,58,310-->
+<!--SR:!2026-03-25,59,310!2026-11-19,248,330!2026-11-25,253,330-->
 
-{@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!2026-04-02,67,310!2026-03-17,58,310-->
+{@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!2026-04-02,67,310!2026-11-24,252,330-->
 
 > [!example] __`sequence` examples__
 >
@@ -132,7 +132,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 {@{A `Monad`}@} extends {@{the more basic `Applicative`}@}, which itself refines {@{a `Functor`}@}. The hierarchy is: <!--SR:!2026-03-28,62,310!2026-03-23,57,310!2026-03-25,59,310-->
 
 - `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2026-03-30,64,310!2026-11-15,245,330-->
-- `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!2026-03-18,46,290!2026-03-17,58,310-->
+- `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!2026-03-18,46,290!2026-11-23,251,330-->
 - `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!2026-09-06,174,310!2026-11-10,241,330-->
 
 > [!example] __`Functor` trait__
@@ -176,7 +176,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   def sequence[G[_]: Applicative, A](fga: F[G[A]]): G[F[A]] = traverse(fga)(id)
 > ```
 >
-> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-03-28,62,310!2026-03-27,61,310!2026-03-19,47,290!2026-03-27,61,310!2026-03-31,65,310!2026-11-20,249,330!2026-03-17,58,310!2026-08-01,156,310!2026-04-04,63,310-->
+> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-03-28,62,310!2026-03-27,61,310!2026-03-19,47,290!2026-03-27,61,310!2026-03-31,65,310!2026-11-20,249,330!2026-11-24,252,330!2026-08-01,156,310!2026-04-04,63,310-->
 
 {@{The Cats library (<https://typelevel.org/cats>)}@} supplies {@{many such type classes}@}, allowing {@{concise and generic code across different data types}@}. <!--SR:!2026-04-02,61,310!2026-04-01,60,310!2026-03-28,62,310-->
 
@@ -214,6 +214,6 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-03-26,60,310!2026-11-17,246,330!2026-04-06,67,310-->
 
-{@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2026-03-30,64,310!2026-03-31,65,310!2026-03-17,58,310!2026-04-08,67,310-->
+{@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2026-03-30,64,310!2026-03-31,65,310!2026-11-23,251,330!2026-04-08,67,310-->
 
 {@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-03-30,58,310!2026-03-31,65,310!2026-03-25,59,310!2026-10-28,229,330!2026-11-21,250,330!2026-11-16,245,330-->

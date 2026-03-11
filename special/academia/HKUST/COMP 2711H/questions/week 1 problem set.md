@@ -81,7 +81,7 @@ We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%2
 
 We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {@{every natural number $n \ge 2$ can be written as a product of prime numbers}@}. <!--SR:!2030-03-20,1582,360-->
 
-- strategy ::@:: It is easier to prove this using contradiction than using induction. <!--SR:!2029-03-02,1246,340!2026-03-17,405,320-->
+- strategy ::@:: It is easier to prove this using contradiction than using induction. <!--SR:!2029-03-02,1246,340!2031-02-09,1790,340-->
 
 1. assumption ::@:: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers. <!--SR:!2028-01-18,878,300!2028-06-05,1048,340-->
 2. construction ::@:: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers. <!--SR:!2027-06-06,760,340!2028-04-15,1007,340-->
