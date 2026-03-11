@@ -931,7 +931,7 @@ ID: 23456789
   - image operations / characteristics ::@:: point, local, global <!--SR:!2026-09-24,525,398!2026-08-27,504,406-->
   - image operations / point ::@:: The output value at a specific coordinate is dependent only on the input value at the _same coordinate_. <!--SR:!2026-09-21,522,398!2026-10-19,548,406-->
   - image operations / local ::@:: The output value at a specific coordinate is dependent on the input values in the _neighborhood_ of that same coordinate. <!--SR:!2031-05-08,1881,398!2026-07-28,477,402-->
-  - image operations / global ::@:: The output value at a specific coordinate is dependent on _all the values_ in the input image. <!--SR:!2026-08-07,486,402!2026-03-19,369,381-->
+  - image operations / global ::@:: The output value at a specific coordinate is dependent on _all the values_ in the input image. <!--SR:!2026-08-07,486,402!2031-06-27,1926,401-->
 - image operations
   - image operations / point
     - image operations / point / examples ::@:: brightness adjustment, contrast stretching, gamma correction, grayscale threshold, histogram equalization <!--SR:!2026-08-12,490,402!2031-01-27,1805,406-->

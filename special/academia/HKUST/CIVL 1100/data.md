@@ -190,7 +190,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 - description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2032-10-17,2515,410-->
-- height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2026-03-19,421,301!2027-12-02,1051,350-->
+- height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2031-01-05,1753,321!2027-12-02,1051,350-->
 - image ::@:: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2028-05-09,1149,380!2033-01-01,2575,420-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->::@:: concrete–steel composite <!--SR:!2027-02-14,599,281!2034-03-17,2943,421-->
 
@@ -253,7 +253,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 
 - construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2026-08-23,424,216!2026-08-22,629,396-->
 - dedication ::@:: Greek goddess Athena <!--SR:!2027-05-25,898,416!2026-12-11,763,416-->
-- description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2026-03-19,483,356!2026-11-27,751,416-->
+- description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2032-09-03,2360,376!2026-11-27,751,416-->
 - geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!2026-08-20,672,416-->
 - importance ::@:: most important surviving building of classical Greece <!--SR:!2032-03-09,2250,396!2026-10-16,722,416-->
 

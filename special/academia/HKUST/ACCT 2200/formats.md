@@ -110,7 +110,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2026-05-16,334,350!2029-01-11,1078,350-->
   - job cost sheet / tables ::@:: actual direct materials, actual direct labor, applied manufacturing overhead <!--SR:!2026-03-23,295,350!2029-07-19,1237,350-->
     - job cost sheet / tables / actual direct materials ::@:: req. no, amount <!--SR:!2026-05-07,335,350!2026-05-17,335,350-->
-    - job cost sheet / tables / actual direct labor ::@:: ticket, hours, amount <!--SR:!2026-03-19,291,330!2026-03-26,298,350-->
+    - job cost sheet / tables / actual direct labor ::@:: ticket, hours, amount <!--SR:!2029-11-05,1327,350!2026-03-26,298,350-->
     - job cost sheet / tables / applied manufacturing overhead ::@:: (primary cost driver unit), amount <!--SR:!2029-02-11,1104,350!2026-05-04,332,350-->
   - job cost sheet / cost summary ::@:: direct materials cost + direct labor cost + applied manufacturing overhead = total cost <!--SR:!2026-05-07,335,350!2028-12-14,1055,350-->
 
@@ -173,7 +173,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Income}@}            | {@{100}@}               |                                                    |                 |
 > |                         |                         | {@{50}@}                                           | {@{Transport}@} |
 > |                         | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯              | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯                                         |                 |
-> | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 | <!--SR:!2026-05-18,336,350!2029-01-23,1090,350!2026-05-03,331,350!2026-03-19,291,330!2026-04-26,325,350!2029-02-21,1114,350!2026-05-01,330,350!2026-04-30,329,350!2029-11-02,1325,350!2026-05-25,343,350!2026-03-30,302,350!2029-01-16,1083,350!2029-06-18,1211,350!2026-05-06,334,350-->
+> | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 | <!--SR:!2026-05-18,336,350!2029-01-23,1090,350!2026-05-03,331,350!2029-11-07,1329,350!2026-04-26,325,350!2029-02-21,1114,350!2026-05-01,330,350!2026-04-30,329,350!2029-11-02,1325,350!2026-05-25,343,350!2026-03-30,302,350!2029-01-16,1083,350!2029-06-18,1211,350!2026-05-06,334,350-->
 
 - T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance. <!--SR:!2026-03-26,298,350!2026-05-02,330,350-->
   - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line. <!--SR:!2029-07-11,1231,350!2029-01-12,1079,350-->
@@ -200,7 +200,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | --------------------------- | --------------------:| ----------------------:| ----------------:|
 > | {@{Completed/Transferred}@} | {@{500}@}            | {@{500}@}              | {@{500}@}        |
 > | {@{Ending Inventory}@}      | {@{610}@}            | {@{600}@}              | {@{590}@}        |
-> | {@{Total}@}                 | {@{1&nbsp;110}@}     | {@{1&nbsp;100}@}       | {@{1&nbsp;090}@} | <!--SR:!2026-04-27,326,350!2029-07-15,1234,350!2026-05-16,334,350!2026-04-01,304,350!2026-04-25,324,350!2026-05-30,348,350!2026-04-26,325,350!2029-03-20,1139,350!2026-03-22,294,330!2026-03-19,291,330!2026-03-21,293,330!2029-08-14,1259,350!2029-06-22,1215,350!2026-05-03,331,350!2029-04-06,1153,350!2026-04-22,321,350!2029-04-20,1164,350-->
+> | {@{Total}@}                 | {@{1&nbsp;110}@}     | {@{1&nbsp;100}@}       | {@{1&nbsp;090}@} | <!--SR:!2026-04-27,326,350!2029-07-15,1234,350!2026-05-16,334,350!2026-04-01,304,350!2026-04-25,324,350!2026-05-30,348,350!2026-04-26,325,350!2029-03-20,1139,350!2026-03-22,294,330!2029-11-08,1330,350!2026-03-21,293,330!2029-08-14,1259,350!2029-06-22,1215,350!2026-05-03,331,350!2029-04-06,1153,350!2026-04-22,321,350!2029-04-20,1164,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -226,7 +226,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ----------------------------- | ------------------------------:| ------------------------------:| ------------------------------:|
 > | {@{Cost of Units Completed}@} | {@{&dollar;&emsp;500}@}        | {@{&dollar;&emsp;500}@}        | {@{&dollar;&emsp;1&nbsp;000}@} |
 > | {@{Ending Inventory}@}        | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
-> | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2029-03-13,1133,350!2026-04-03,306,350!2026-05-24,342,350!2026-05-07,335,350!2026-04-21,320,350!2026-05-27,345,350!2026-05-04,332,350!2026-04-23,322,350!2026-05-24,342,350!2026-03-21,293,330!2029-04-09,1155,350!2026-05-03,331,350!2029-01-25,1092,350!2026-05-31,349,350!2029-01-26,1093,350!2026-04-22,321,350!2026-03-19,291,330-->
+> | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2029-03-13,1133,350!2026-04-03,306,350!2026-05-24,342,350!2026-05-07,335,350!2026-04-21,320,350!2026-05-27,345,350!2026-05-04,332,350!2026-04-23,322,350!2026-05-24,342,350!2026-03-21,293,330!2029-04-09,1155,350!2026-05-03,331,350!2029-01-25,1092,350!2026-05-31,349,350!2029-01-26,1093,350!2026-04-22,321,350!2029-11-09,1331,350-->
 
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2026-03-27,299,350!2026-11-25,455,310-->
   - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-04-04,307,350!2026-11-24,459,330-->
@@ -275,7 +275,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | -----------------------:| -----------------------:| ------------------------------:|
 > | {@{Cost Added in This Period}@} | {@{&dollar;&emsp;690}@} | {@{&dollar;&emsp;700}@} | {@{&dollar;&emsp;1&nbsp;390}@} |
 > | {@{Equivalent Units}@}          | {@{÷&emsp;690}@}        | {@{÷&emsp;700}@}        |                                |
-> | {@{Cost Per Equivalent Unit}@}  | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;2}@}          | <!--SR:!2029-02-17,1110,350!2026-05-19,337,350!2026-04-16,315,350!2026-05-01,330,350!2026-05-17,335,350!2026-05-28,346,350!2029-04-23,1167,350!2029-05-25,1192,350!2029-02-01,1099,350!2026-05-29,347,350!2026-05-22,340,350!2026-03-19,291,330!2026-05-17,335,350!2026-03-28,300,350!2029-05-07,1177,350!2026-05-29,347,350-->
+> | {@{Cost Per Equivalent Unit}@}  | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;2}@}          | <!--SR:!2029-02-17,1110,350!2026-05-19,337,350!2026-04-16,315,350!2026-05-01,330,350!2026-05-17,335,350!2026-05-28,346,350!2029-04-23,1167,350!2029-05-25,1192,350!2029-02-01,1099,350!2026-05-29,347,350!2026-05-22,340,350!2029-11-06,1328,350!2026-05-17,335,350!2026-03-28,300,350!2029-05-07,1177,350!2026-05-29,347,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -289,7 +289,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Cost to Complete Beginning Inventory}@}          | {@{10}@}                       | {@{30}@}                       | {@{40}@}                       |
 > | {@{Started and Completed}@}                         | {@{80}@}                       | {@{80}@}                       | {@{160}@}                      |
 > | {@{Ending Inventory}@}                              | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
-> | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2026-05-25,343,350!2026-05-23,341,350!2026-04-28,327,350!2026-05-05,333,350!2026-05-21,339,350!2026-05-18,336,350!2026-03-28,300,350!2026-03-21,293,330!2026-05-03,331,350!2029-03-15,1135,350!2026-05-17,335,350!2029-01-19,1086,350!2029-07-17,1235,350!2026-06-03,352,350!2029-10-31,1323,350!2026-05-02,330,350!2026-05-26,344,350!2026-04-26,325,350!2028-12-15,1056,350!2026-05-25,343,350!2029-10-28,1321,350!2026-03-19,291,330!2029-08-09,1255,350!2029-02-13,1106,350!2026-05-28,346,350-->
+> | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2026-05-25,343,350!2026-05-23,341,350!2026-04-28,327,350!2026-05-05,333,350!2026-05-21,339,350!2026-05-18,336,350!2026-03-28,300,350!2026-03-21,293,330!2026-05-03,331,350!2029-03-15,1135,350!2026-05-17,335,350!2029-01-19,1086,350!2029-07-17,1235,350!2026-06-03,352,350!2029-10-31,1323,350!2026-05-02,330,350!2026-05-26,344,350!2026-04-26,325,350!2028-12-15,1056,350!2026-05-25,343,350!2029-10-28,1321,350!2029-11-06,1328,350!2029-08-09,1255,350!2029-02-13,1106,350!2026-05-28,346,350-->
 
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2029-05-13,1181,350!2027-05-02,588,330-->
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2029-11-04,1327,350!2028-10-19,947,330-->

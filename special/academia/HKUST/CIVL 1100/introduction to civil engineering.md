@@ -234,7 +234,7 @@ water security
 
 - _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2028-02-26,1097,370-->
 - climate change→::@::←extreme weather <!--SR:!2029-12-28,1592,357!2026-12-09,704,350-->
-- extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2028-03-31,1121,367-->
+- extreme weather→::@::←food security <!--SR:!2032-05-05,2239,350!2028-03-31,1121,367-->
 - food security→::@::←mega-cities <!--SR:!2032-05-03,2344,392!2029-06-12,1409,340-->
 - mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2026-06-04,428,354-->
 - water security→::@::←_(end)_ <!--SR:!2029-07-09,1531,370!2032-10-12,2438,377-->
@@ -498,7 +498,7 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←business procedures <!--SR:!2028-06-14,1029,272!2026-03-19,557,401-->
+- _(begin)_→::@::←business procedures <!--SR:!2028-06-14,1029,272!2034-07-30,3055,421-->
 - business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2029-04-24,1156,300!2031-09-26,2078,360-->
 - human behaviors→::@::←management principles <!--SR:!2030-12-17,1760,320!2028-01-23,921,280-->

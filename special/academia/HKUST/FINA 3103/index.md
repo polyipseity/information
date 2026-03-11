@@ -512,7 +512,7 @@ The content is in teaching order.
 - datetime: 2025-10-02T15:00:00+08:00/2025-10-02T16:20:00+08:00, PT1H20M
 - topic: multiple risk assets; diversification; portfolio frontier; two-fund theorem; multiple tangency portfolios
 - portfolio
-  - portfolio / multiple risky assets ::@:: A single-asset or two-asset view is limited; with $n\ge3$ risky securities we can exploit diversification, reduce idiosyncratic risk, and construct portfolios that better match investors' preferences. <!--SR:!2026-03-19,101,385!2026-04-13,127,401-->
+  - portfolio / multiple risky assets ::@:: A single-asset or two-asset view is limited; with $n\ge3$ risky securities we can exploit diversification, reduce idiosyncratic risk, and construct portfolios that better match investors' preferences. <!--SR:!2027-09-07,537,405!2026-04-13,127,401-->
   - portfolio / statistics
   - portfolio / expected return
   - portfolio / variance

@@ -327,7 +327,7 @@ These examples illustrate when R&D outlays are expensed versus capitalised, and 
 - _Legal fees to obtain a patent on the new scanner_ :@: Capitalize the patent; amortise it to overhead as part of cost of goods manufactured. <!--SR:!2026-04-10,67,310-->
 - _Executive salaries_ :@: Record as operating expense, as part of general and administrative expenses. <!--SR:!2026-04-10,67,310-->
 - _Marketing‑research costs for promoting the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2026-04-10,67,310-->
-- _Engineering costs that advance the scanner to full production (project now viable)_ :@: Capitalize these costs as R&D assets. <!--SR:!2026-03-19,45,290-->
+- _Engineering costs that advance the scanner to full production (project now viable)_ :@: Capitalize these costs as R&D assets. <!--SR:!2026-09-16,181,310-->
 - _Costs to defend the patent_ :@: Record as legal‑fee expenses (treated as operating cost), as it only _maintains_ expected benefits rather than adding new benefits. <!--SR:!2026-04-10,67,310-->
 - _Commissions paid to sales staff for marketing the new scanner_ :@: Expense as an operating expense, as part of selling expenses. <!--SR:!2026-04-10,67,310-->
 - _Long‑range research facility_ :@: – Constructed for current and future projects; capitalise and depreciate as R&D expense because it has alternative future use. <!--SR:!2026-04-10,67,310-->

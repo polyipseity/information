@@ -39,7 +39,7 @@ One is most often interested in the case where {@{the category $J$ is a [small](
 
 ### limits
 
-- See also: ::@:: [Inverse limit](inverse%20limit.md) <!--SR:!2028-04-01,745,418!2026-03-19,138,398-->
+- See also: ::@:: [Inverse limit](inverse%20limit.md) <!--SR:!2028-04-01,745,418!2027-09-21,551,398-->
 
 Let {@{$F:J\to C$ be a diagram of shape $J$ in a category $C$}@}. {@{A __[cone](cone%20(category%20theory).md)__ to $F$}@} is {@{an object $N$ of $C$ together with a family $\psi _{X}:N\to F(X)$ of morphisms indexed by the objects $X$ of $J$}@}, such that {@{for every morphism $f:X\to Y$ in $J$, we have $F(f)\circ \psi _{X}=\psi _{Y}$}@}. <!--SR:!2026-04-23,362,358!2030-03-26,1490,365!2026-05-08,374,358!2027-08-30,728,330-->
 
@@ -247,7 +247,7 @@ There are {@{several ways to remember the modern terminology}@}. First of all, <
 
 - [Cartesian closed category](Cartesian%20closed%20category.md) – ::@:: Type of category in category theory <!--SR:!2029-06-08,1178,353!2029-02-16,1168,358-->
 - [Equaliser \(mathematics\)](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2029-03-30,1196,358!2028-07-09,984,353-->
-- [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2026-03-19,335,353!2029-03-28,1179,358-->
+- [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2030-09-01,1627,373!2029-03-28,1179,358-->
 - [Product \(category theory\)](product%20(category%20theory).md) – ::@:: Generalized object in category theory <!--SR:!2026-05-13,379,358!2027-07-13,694,338-->
 
 ## references

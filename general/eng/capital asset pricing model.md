@@ -50,7 +50,7 @@ Note 1: {@{the expected market rate of return}@} is usually {@{estimated by meas
 
 Note 2: {@{the risk free rate of return used for determining the risk premium}@} is usually {@{the arithmetic average of historical risk free rates of return}@} and not {@{the current risk free rate of return}@}. <!--SR:!2026-08-24,318,350!2026-05-21,244,330!2026-06-07,253,330-->
 
-For {@{the full derivation}@} see {@{[Modern portfolio theory](modern%20portfolio%20theory.md)}@}. <!--SR:!2026-03-19,180,310!2026-08-26,321,350-->
+For {@{the full derivation}@} see {@{[Modern portfolio theory](modern%20portfolio%20theory.md)}@}. <!--SR:!2028-04-29,772,330!2026-08-26,321,350-->
 
 ## modified betas
 

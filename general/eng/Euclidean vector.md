@@ -119,7 +119,7 @@ In {@{introductory physics textbooks}@}, {@{the standard basis vectors}@} are of
 
 ### decomposition or resolution
 
-- Further information: ::@:: [Basis \(linear algebra\)](basis%20(linear%20algebra).md) <!--SR:!2029-11-07,1341,352!2026-03-19,299,332-->
+- Further information: ::@:: [Basis \(linear algebra\)](basis%20(linear%20algebra).md) <!--SR:!2029-11-07,1341,352!2029-12-16,1368,352-->
 
 As {@{explained [above](#representations)}@}, a vector is often {@{described by a set of vector components that [add up](#addition%20and%20subtraction) to form the given vector}@}. Typically, these components are {@{the [projections](vector%20projection.md) of the vector on a set of mutually perpendicular reference axes \(basis vectors\)}@}. The vector is said to be {@{_decomposed_ or _resolved with respect to_ that set}@}. <!--SR:!2026-06-18,389,359!2029-03-31,1172,352!2029-10-03,1313,359!2029-12-22,1378,352-->
 
@@ -231,7 +231,7 @@ The cross product __a__ Ã— __b__ is defined so that {@{__a__, __b__, and __a__ Ã
 
 The cross product can be written as {@{$${\mathbf {a} }\times {\mathbf {b} }=(a_{2}b_{3}-a_{3}b_{2}){\mathbf {e} }_{1}+(a_{3}b_{1}-a_{1}b_{3}){\mathbf {e} }_{2}+(a_{1}b_{2}-a_{2}b_{1}){\mathbf {e} }_{3}.$$}@} <!--SR:!2027-07-14,678,339-->
 
-For {@{arbitrary choices of spatial orientation \(that is, allowing for left-handed as well as right-handed coordinate systems\)}@} the cross product of two vectors is {@{a [pseudovector](pseudovector.md) instead of a vector \(see below\)}@}. <!--SR:!2029-08-01,1274,352!2026-03-19,299,332-->
+For {@{arbitrary choices of spatial orientation \(that is, allowing for left-handed as well as right-handed coordinate systems\)}@} the cross product of two vectors is {@{a [pseudovector](pseudovector.md) instead of a vector \(see below\)}@}. <!--SR:!2029-08-01,1274,352!2029-12-23,1375,352-->
 
 ### scalar triple product
 
