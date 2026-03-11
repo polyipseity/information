@@ -49,7 +49,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 >   - form / metalloid :@: - all [solid](solid.md) <!--SR:!2026-04-05,66,310-->
 >   - form / nonmetal :@: - mostly [gas](gas.md) <br/> - [solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md) <br/> - [liquid](liquid.md): [Br](bromine.md) <!--SR:!2026-04-05,66,310-->
 > - [melting point](melting%20point.md)
->   - [melting point](melting%20point.md) / metal :@: - mostly high <br/> - exceptional example(s): [Na](sodium.md) <!--SR:!2026-03-18,48,290-->
+>   - [melting point](melting%20point.md) / metal :@: - mostly high <br/> - exceptional example(s): [Na](sodium.md) <!--SR:!2026-09-30,196,310-->
 >   - [melting point](melting%20point.md) / metalloid :@: - mostly high <!--SR:!2026-04-05,66,310-->
 >   - [melting point](melting%20point.md) / nonmetal :@: - mostly low <!--SR:!2026-04-03,64,310-->
 > - [thermal conductivity](thermal%20conductivity.md)

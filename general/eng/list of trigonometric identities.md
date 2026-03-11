@@ -118,7 +118,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-07-10T23:14:21.914301+08:00. Any edits will be overridden! -->
 
-- sine:@:$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$ <!--SR:!2026-03-18,558,250-->
+- sine:@:$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$ <!--SR:!2030-01-11,1395,250-->
 - cosine:@:$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$ <!--SR:!2029-09-12,1634,310-->
 - tangent:@:$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$ <!--SR:!2026-04-25,574,250-->
 

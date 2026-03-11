@@ -274,7 +274,7 @@ The 32 registers are used as follows:
 > - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2026-04-08,288,330!2029-08-11,1254,350-->
 > - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2029-08-10,1254,350!2026-04-14,294,330-->
 > - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2029-01-24,1093,350!2029-06-12,1203,350-->
-> - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2029-07-31,1245,350-->
+> - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2029-10-08,1300,350!2029-07-31,1245,350-->
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2029-07-04,1223,350!2026-04-10,290,330-->
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2028-01-01,776,330!2028-08-07,890,330-->
 > - __`$gp`__ ::@:: `$28`: global pointer <!--SR:!2029-04-20,1164,350!2029-09-24,1289,350-->
@@ -296,7 +296,7 @@ If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(
 
 Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the _pseudo-instruction_ `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}. <!--SR:!2029-03-25,1143,350!2029-03-07,1128,350!2029-06-13,1205,350!2026-04-08,288,330!2029-07-04,1222,350!2029-09-18,1285,350!2029-04-22,1166,350!2029-04-19,1163,350!2029-06-05,1198,350-->
 
-In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2029-06-24,1214,350!2026-04-07,288,330!2026-04-08,289,330!2026-03-18,285,330!2029-06-18,1209,350!2029-01-30,1098,350!2029-03-06,1126,350!2029-03-23,1141,350-->
+In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2029-06-24,1214,350!2026-04-07,288,330!2026-04-08,289,330!2029-10-12,1304,350!2029-06-18,1209,350!2029-01-30,1098,350!2029-03-06,1126,350!2029-03-23,1141,350-->
 
 In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}. <!--SR:!2029-06-21,1211,350!2026-04-06,286,330!2026-04-09,290,330-->
 

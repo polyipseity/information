@@ -20,7 +20,7 @@ The operator precedence for the 3 types of operators introduced below is {@{[ari
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-03-21,136,402!2026-03-18,134,402!2026-03-24,139,402-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-03-21,136,402!2028-03-21,734,422!2026-03-24,139,402-->
 
 ```Python
 # pytextgen generate data
@@ -71,10 +71,10 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:37.057451+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**` <!--SR:!2026-03-24,139,402!2026-03-18,134,402-->
+- _(begin)_→::@::←`**` <!--SR:!2026-03-24,139,402!2028-03-22,735,422-->
 - `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%` <!--SR:!2028-02-17,708,422!2028-02-09,701,422-->
-- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2026-03-18,134,402!2028-03-23,737,422-->
-- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2028-03-08,723,422!2026-03-18,134,402-->
+- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2028-03-24,737,422!2028-03-23,737,422-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2028-03-08,723,422!2028-03-26,739,422-->
 
 <!--/pytextgen-->
 

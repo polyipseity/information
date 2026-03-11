@@ -39,7 +39,7 @@ Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __funct
 - (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_, <!--SR:!2029-09-19,1335,350!2026-04-03,355,357-->
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2030-04-18,1518,366!2027-02-17,565,310-->
   - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2029-09-16,1332,350!2026-04-07,359,357-->
-  - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2026-03-18,342,357!2029-09-17,1333,350-->
+  - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2030-10-22,1679,377!2029-09-17,1333,350-->
 - (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2026-05-30,403,367!2026-05-26,399,367-->
 
 That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}. <!--SR:!2026-04-03,354,357-->
@@ -179,9 +179,9 @@ __Representable functors__
 
 ## relation to other categorical concepts
 
-Let {@{_C_ and _D_ be categories}@}. {@{The collection of all functors from _C_ to _D_}@} forms {@{the objects of a category: the [functor category](functor%20category.md)}@}. {@{Morphisms in this category}@} are {@{[natural transformations](natural%20transformation.md) between functors}@}. <!--SR:!2030-03-03,1481,366!2026-03-18,343,357!2030-04-13,1513,366!2029-09-18,1334,350!2026-04-08,359,357-->
+Let {@{_C_ and _D_ be categories}@}. {@{The collection of all functors from _C_ to _D_}@} forms {@{the objects of a category: the [functor category](functor%20category.md)}@}. {@{Morphisms in this category}@} are {@{[natural transformations](natural%20transformation.md) between functors}@}. <!--SR:!2030-03-03,1481,366!2030-10-24,1681,377!2030-04-13,1513,366!2029-09-18,1334,350!2026-04-08,359,357-->
 
-Functors are often {@{defined by [universal properties](universal%20property.md)}@}; examples are {@{the [tensor product](tensor%20product.md), the [direct sum](direct%20sum%20of%20modules.md) and [direct product](direct%20product.md) of groups or vector spaces}@}, {@{construction of free groups and modules, [direct](direct%20limit.md) and [inverse](inverse%20limit.md) limits}@}. {@{The concepts of [limit and colimit](limit%20(category%20theory).md)}@} {@{generalize several of the above}@}. <!--SR:!2026-03-31,353,357!2027-11-12,784,337!2026-07-28,419,317!2026-03-18,342,357!2030-05-27,1549,366-->
+Functors are often {@{defined by [universal properties](universal%20property.md)}@}; examples are {@{the [tensor product](tensor%20product.md), the [direct sum](direct%20sum%20of%20modules.md) and [direct product](direct%20product.md) of groups or vector spaces}@}, {@{construction of free groups and modules, [direct](direct%20limit.md) and [inverse](inverse%20limit.md) limits}@}. {@{The concepts of [limit and colimit](limit%20(category%20theory).md)}@} {@{generalize several of the above}@}. <!--SR:!2026-03-31,353,357!2027-11-12,784,337!2026-07-28,419,317!2030-10-23,1680,377!2030-05-27,1549,366-->
 
 {@{Universal constructions}@} often {@{give rise to pairs of [adjoint functors](adjoint%20functors.md)}@}. <!--SR:!2026-04-01,354,357!2026-03-26,349,357-->
 

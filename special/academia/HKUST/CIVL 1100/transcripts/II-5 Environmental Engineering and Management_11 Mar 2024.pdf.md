@@ -114,7 +114,7 @@ Land Contamination: A serious problem in Hong Kong?
 
 Former Kai Tak Airport
 
-- contaminants detected in the former Kai Tak Airport ::@:: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2026-03-18,485,310!2028-01-15,1037,350-->
+- contaminants detected in the former Kai Tak Airport ::@:: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2031-11-27,2080,330!2028-01-15,1037,350-->
 
 ## page 6
 

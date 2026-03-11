@@ -104,7 +104,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 >
 > {@{![16-to-1 mux](../../archives/Wikimedia%20Commons/Multiplexer%2016-to-1.svg)}@}
 >
-> {@{16-to-1 mux}@} <!--SR:!2026-03-18,300,344!2030-01-21,1407,364!2026-04-27,338,344!2026-04-03,316,344!2026-03-18,300,344!2026-04-07,320,344-->
+> {@{16-to-1 mux}@} <!--SR:!2030-02-04,1419,364!2030-01-21,1407,364!2026-04-27,338,344!2026-04-03,316,344!2030-02-01,1416,364!2026-04-07,320,344-->
 
 {@{The Boolean equation for a 4-to-1 multiplexer}@} is: <p> {@{$Z=(A\wedge \neg {S_{1} }\wedge \neg S_{0})\vee (B\wedge \neg S_{1}\wedge S_{0})\vee (C\wedge S_{1}\wedge \neg S_{0})\vee (D\wedge S_{1}\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{1} } }\cdot {\overline {S_{0} } })+(B\cdot {\overline {S_{1} } }.S_{0})+(C\cdot S_{1}\cdot {\overline {S_{0} } })+(D\cdot S_{1}\cdot S_{0})$}@} Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-19,332,344!2026-04-16,329,344!2026-04-18,331,344-->
 
@@ -121,11 +121,11 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 > {@{![4:1 MUX circuit using 3 input AND and other gates](../../archives/Wikimedia%20Commons/4to1%20MUX%20using%20basic%20gates.jpg)}@}
 >
-> {@{A 4:1 MUX circuit using 3 input AND and other gates}@} <!--SR:!2026-03-18,300,344!2026-04-07,320,344-->
+> {@{A 4:1 MUX circuit using 3 input AND and other gates}@} <!--SR:!2029-01-12,1031,344!2026-04-07,320,344-->
 
 ### chaining multiplexers and mux trees
 
-{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2026-03-18,300,344!2026-04-30,341,344!2028-12-27,1081,350!2026-05-01,342,344!2028-06-20,938,344!2026-04-03,316,344!2026-03-19,301,344-->
+{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2030-02-03,1418,364!2026-04-30,341,344!2028-12-27,1081,350!2026-05-01,342,344!2028-06-20,938,344!2026-04-03,316,344!2026-03-19,301,344-->
 
 ### list of ICs which provide multiplexing
 
@@ -149,7 +149,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 - See also: ::@:: [Inverse multiplexer](inverse%20multiplexer.md) <!--SR:!2030-01-02,1393,364!2028-12-26,1080,350-->
 
-Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They {@{forward the data input to one of the outputs depending on the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}. <!--SR:!2030-01-07,1396,364!2028-12-08,1004,344!2026-04-19,330,344!2028-10-09,1031,350!2026-03-19,301,344!2026-03-18,300,344!2026-04-01,314,344-->
+Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They {@{forward the data input to one of the outputs depending on the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}. <!--SR:!2030-01-07,1396,364!2028-12-08,1004,344!2026-04-19,330,344!2028-10-09,1031,350!2026-03-19,301,344!2030-02-05,1420,364!2026-04-01,314,344-->
 
 If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$$A=(X\wedge \neg S)$$ <br/> $$B=(X\wedge S)$$}@} <!--SR:!2026-04-15,328,344!2026-04-30,341,344-->
 
@@ -161,7 +161,7 @@ If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$
 
 > {@{![[Fairchild](Fairchild%20Semiconductor.md) 74F138 1:8 demultiplexer](../../archives/Wikimedia%20Commons/ROCKY-518HV%20-%20Fairchild%2074F138-2387.jpg)}@}
 >
-> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138 1:8 demultiplexer}@} <!--SR:!2026-04-02,315,344!2026-03-18,300,344-->
+> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138 1:8 demultiplexer}@} <!--SR:!2026-04-02,315,344!2030-02-02,1417,364-->
 
 For [7400 series](7400%20series.md) part numbers in the following table, "x" is the logic family.
 
