@@ -10,7 +10,7 @@ tags:
 
 # transistor
 
-A transistor is a three-terminal semiconductor device that can amplify or switch current. In this course we focus on bipolar junction transistors (BJTs) of types NPN and PNP, which are constructed by adding a third layer to a PN junction. The three terminals are called collector (C), base (B), and emitter (E). In practical ELEC 1100 circuits, transistors appear as motor-control switches (on/off control of current) and as current “gainers” that allow a small sensor or logic current at the base to control a much larger current at the collector.
+A transistor is a three-terminal semiconductor device that can amplify or switch current. In this course we focus on bipolar junction transistors (BJTs) of types NPN and PNP, which are constructed by adding a third layer to a PN junction. The three terminals are called collector (C), base (B), and emitter (E). In practical ELEC 1100 circuits, transistors appear as motor-control switches (on/off control of current) in the [H-bridge](H-bridge.md) and as current “gainers” that allow a small sensor or logic current at the base to control a much larger current at the collector.
 
 ---
 
@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 
 ## structure
 
-A BJT can be viewed as a PN junction diode with an additional layer added, forming either NPN or PNP structures. The base region is thin and lightly doped, while the emitter and collector are more heavily doped to support current injection and collection. Qualitatively, the emitter is the “source” of carriers, the collector is where they are collected, and the base controls how easily carriers move across the structure. <p> ![NPN BJT symbol](attachments/symbol_npn.svg) <p> ![PNP BJT symbol](attachments/symbol_pnp.svg)
+A BJT can be viewed as a [PN junction diode](diode.md#pn%20junction%20and%20biasing) with an additional layer added, forming either NPN or PNP structures. The base region is thin and lightly doped, while the emitter and collector are more heavily doped to support current injection and collection. Qualitatively, the emitter is the “source” of carriers, the collector is where they are collected, and the base controls how easily carriers move across the structure. <p> ![NPN BJT symbol](attachments/symbol_npn.svg) <p> ![PNP BJT symbol](attachments/symbol_pnp.svg)
 
 In the common symbol convention, for an NPN transistor the emitter terminal is the one with an arrow pointing *out* of the device (from emitter to base), while for a PNP transistor the emitter arrow points *into* the device (toward the base). In both symbols the base is the middle leg, and the collector is the remaining terminal without an arrow. Remember that schematic symbols depict current directions and layers, not physical pin ordering on a package; the actual pinout is given by the datasheet.
 
@@ -62,7 +62,7 @@ Two voltages appear often in BJT circuits:
 - $V_{CC}$: the DC supply voltage feeding the collector/load network (e.g. the “ $5\text{ V}$ rail”).
 - $V_{CE}$: the collector-to-emitter voltage, defined as $V_{CE}=V_C-V_E$ (for an NPN low-side switch, $V_E$ is usually $0\text{ V}$ so $V_{CE}\approx V_C$).
 
-Kirchhoff’s current law at the transistor gives $I_E=I_C+I_B$ when all three currents are defined as **leaving** the transistor; in practice we often draw NPN currents flowing *into* the device at C and B and *out* at E, or the opposite for PNP, but the magnitude relation “emitter current equals base plus collector” still holds in either case.
+[Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) at the transistor gives $I_E=I_C+I_B$ when all three currents are defined as **leaving** the transistor; in practice we often draw NPN currents flowing *into* the device at C and B and *out* at E, or the opposite for PNP, but the magnitude relation “emitter current equals base plus collector” still holds in either case.
 
 In amplification (sometimes called “active”) mode, the transistor behaves like a controlled current source: a small change in $I_B$ produces a much larger change in $I_C$ while $V_{CE}$ stays somewhere between $0.2\text{ V}$ and the supply voltage. In saturation mode, $I_C$ is limited by the external circuit rather than by $\beta I_B$, and the collector–emitter voltage drops to a small value (about $0.2\text{ V}$) similar to a closed switch.
 

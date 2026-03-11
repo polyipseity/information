@@ -9,7 +9,7 @@ tags:
 
 # H-bridge
 
-An H-bridge is a circuit that allows reversible control of a DC motor (or other DC load): by closing the right pair of switches, current through the motor flows in one direction (forward) or the opposite (backward), so the motor can be driven in either sense from a single supply. In robot applications this is used to make a wheel or tread turn forward or reverse. The name comes from the typical schematic layout: the supply and ground form two vertical rails, and the load sits horizontally between them with four switches at the corners, resembling the letter “H”.
+An H-bridge is a circuit that allows reversible control of a [brushed DC motor](brushed%20DC%20electric%20motor.md) (or other DC load): by closing the right pair of switches, current through the motor flows in one direction (forward) or the opposite (backward), so the motor can be driven in either sense from a single supply. In robot applications this is used to make a wheel or tread turn forward or reverse. The name comes from the typical schematic layout: the supply and ground form two vertical rails, and the load sits horizontally between them with four switches at the corners, resembling the letter “H”.
 
 ---
 
@@ -146,7 +146,7 @@ Flashcards for this section are as follows:
 
 ### power sources ($12\text{ V}$ and $5\text{ V}$)
 
-In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ logic supply come from the **LM7805** regulator circuit: a $12\text{ V}$ battery (or similar) feeds the LM7805 input, and the regulator output provides $5\text{ V}$ for the 74HC14 and L293 logic (VCC). The L293 motor supply (VS) is connected to the unregulated $12\text{ V}$ (before or from the same source as the regulator input). So one battery/input provides both $12\text{ V}$ for motors and $5\text{ V}$ (via LM7805) for logic.
+In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ logic supply come from the **LM7805** regulator circuit (see [voltage regulator](voltage%20regulator.md)): a $12\text{ V}$ battery (or similar) feeds the LM7805 input, and the regulator output provides $5\text{ V}$ for the 74HC14 and L293 logic (VCC). The L293 motor supply (VS) is connected to the unregulated $12\text{ V}$ (before or from the same source as the regulator input). So one battery/input provides both $12\text{ V}$ for motors and $5\text{ V}$ (via LM7805) for logic.
 
 ---
 
@@ -169,7 +169,7 @@ Flashcards for this section are as follows:
 
 ### rail labels and 74HC14 power
 
-When building the circuit on a breadboard, keep the $12\text{ V}$ and $5\text{ V}$ rails clearly identified so that nothing is accidentally connected to the wrong supply. Always connect VCC (to the positive supply; $5\text{ V}$ in the course robot) and GND (to ground) on the 74HC14; without them the inverter outputs are undefined.
+When building the circuit on a breadboard, keep the $12\text{ V}$ and $5\text{ V}$ rails clearly identified so that nothing is accidentally connected to the wrong supply. Always connect VCC (to the positive supply; $5\text{ V}$ in the course robot) and GND (to ground) on the 74HC14; without them the inverter outputs are undefined. In the ELEC 1100 lab sequence you normally build the LM7805, L293 and 74HC14 circuits once on the provided breadboard and keep them for later labs rather than dismantling and rebuilding each time.
 
 ---
 
@@ -177,6 +177,7 @@ Flashcards for this section are as follows:
 
 - breadboard $12\text{ V}$ vs $5\text{ V}$: Why label the two rails on the breadboard? ::@:: To avoid connecting logic pins to the motor supply or vice versa; wrong connections can damage the ICs.
 - 74HC14 power on breadboard: What must be connected to the 74HC14 for it to work? (VCC, GND, $5\text{ V}$ in course) ::@:: VCC to the positive supply (in our course, $5\text{ V}$) and GND to ground; without them the outputs are undefined.
+- keeping H-bridge circuits across labs: Why does the lab ask you to keep the LM7805, L293 and 74HC14 circuits on the same breadboard for future labs? ::@:: Reusing the existing LM7805, L293 and 74HC14 layout avoids repeated rewiring, reduces mistakes, and ensures a stable, known‑good motor‑driver circuit for later labs.
 
 ### pin counts and placement
 

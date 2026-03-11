@@ -497,7 +497,7 @@ def generate_three_pin_regulator(output: Path) -> None:
     """3-pin regulator with input/output capacitors (e.g. 7805-style).
 
     Style follows generate_npn_low_side_switch: regulator (Ic with IN/OUT/GND
-    pins, size=(3,2), label REG 12R5) placed first; branches attached with
+    pins, size=(3,2), label REG 5V) placed first; branches attached with
     .at(reg.v_in), .at(reg.v_out), .at(reg.gnd).  IN branch: line left –
     V_in node – C_in down – GND.  OUT branch: line right – V_out node –
     C_out down – GND.  GND pin – Ground().
@@ -510,7 +510,7 @@ def generate_three_pin_regulator(output: Path) -> None:
                 elm.IcPin(name="OUT", side="R", anchorname="v_out"),
                 elm.IcPin(name="GND", side="B", anchorname="gnd"),
             ],
-        ).label("REG\n12R5")
+        ).label("REG\n5V")
         d += reg
 
         # IN: input rail – line left to node, then V_in up (reverse) to GND; C_in from node down to GND

@@ -16,6 +16,8 @@ Resistors in series have an equivalent resistance $R_{\text{eq}} = R_1 + R_2 + \
 
 Resistors in parallel obey $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ since the voltage across each branch is equal and their conductances sum. <p> ![resistors in parallel](attachments/parallel.svg)
 
+See [electronic component](electronic%20component.md#resistor%20networks) for series/parallel formulas and [electronic component](electronic%20component.md#energy%20and%20power) for power in circuits.
+
 Many networks consist of interconnections that are neither purely series nor purely parallel; such "complex networks" require a more general analysis. Kirchhoff's laws apply to nodes (junctions) and closed loops in an arbitrary circuit.
 
 ---

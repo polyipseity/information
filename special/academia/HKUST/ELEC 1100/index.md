@@ -60,6 +60,7 @@ The content is in teaching order.
 - [brushed DC electric motor](brushed%20DC%20electric%20motor.md)
 - [diode](diode.md)
 - [electronic component](electronic%20component.md)
+- [lab equipment](lab%20equipment.md)
 - [transistor](transistor.md)
 - [voltage regulator](voltage%20regulator.md)
 
@@ -136,7 +137,7 @@ The content is in teaching order.
   - ELEC 1100 / design principles
     - ELEC 1100 / design principles / hierarchical decomposition ::@:: Divide-and-conquer decomposition into subsystems such as power, sensors, controller, mechanical; complex systems like a Mars rover use specialised subteams (control, communication, signal processing, mechanical, rocket, etc.) each handling tasks (e.g. control team: obstacle avoidance, speed/landing control)
   - ELEC 1100 / robot system structure ::@:: Robot system accepts inputs and produces actions; electronic and mechanical subsystems feed into the overall system with further sub‑subsystems
-    - ELEC 1100 / robot system structure / electronic decomposition ::@:: Electronic subsystem breaks into control processor (sensor/other input, memory, logic power supply, control logic), motor drive and motor power supply with power amplifier; outputs to mechanical subsystem; mobile robot components include sensing (vision, sonar, GPS, gyro), controller, power sources, mechanical motion elements
+    - ELEC 1100 / design principles / robot system structure / electronic decomposition ::@:: Electronic subsystem breaks into control processor (sensor/other input, memory, logic power supply, control logic), motor drive and motor power supply with power amplifier; outputs to mechanical subsystem; mobile robot components include sensing (vision, sonar, GPS, gyro), controller, power sources, mechanical motion elements
   - ELEC 1100 / course roadmap ::@:: Weekly topics from basic electronics through Arduino programming and final project (sensor basics wk6; logic & MCU wk7‑9; motor power/transistor/H‑bridge/ PWM wk4‑6; basic electronics and KCL/KVL early weeks)
   - ELEC 1100 / references ::@:: - No major text; mainly use handouts provided by the instructors <br/>  - Major references: L. Richard Carley and Pradeep Khosla, “Introduction to Electrical and Computer Engineering- taught in Context”, The McGraw-Hill Companies, Inc. <br/>  - G. Rizzoni, “Principles and Applications of Electrical Engineering,” 5th edition, McGraw Hill, 2007 <br/>  - D. V. Kerns and J.D. Irwin, “Essentials of Electrical and Computer Engineering”, Pearson, 2004 <br/>  - M. M. Mano and C.R. Kime, “Logic and Computer Design fundamentals”, 3rd edition, Prentice-Hall, 2004
 
@@ -172,6 +173,21 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-02-09T14:30:00+08:00/2026-02-09T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 1
+- ELEC 1100
+  - ELEC 1100 / [lab equipment](lab%20equipment.md)
+    - [§ equipment overview](lab%20equipment.md#equipment%20overview)
+    - [§ breadboard structure and connections](lab%20equipment.md#breadboard%20structure%20and%20connections)
+    - [§ component symbols and power rails](lab%20equipment.md#component%20symbols%20and%20power%20rails)
+    - [§ resistor colour code](lab%20equipment.md#resistor%20colour%20code)
+    - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
+    - [§ LED](lab%20equipment.md#led)
+    - [§ lab safety](lab%20equipment.md#lab%20safety)
+  - ELEC 1100 / lab 1 preparation (logistics only; topic content in [lab equipment](lab%20equipment.md))
+    - ELEC 1100 / lab 1 preparation / project context ::@:: The course project is a line follower robot; early labs teach the basic components, breadboard wiring and measurements needed to build and debug its subsystems.
+    - ELEC 1100 / lab 1 preparation / lab groups and submission ::@:: Form groups of two students within the same lab section; either self sign up on Canvas or be randomly assigned.<br/>Each student uploads their own completed summary sheet to Canvas before the end of their lab slot; late submissions are not accepted.
+    - ELEC 1100 / lab 1 preparation / lab workflow and bonus ::@:: Before lab, attend tutorial and read the lab manual and summary sheet so you know the required checks.<br/>During lab, demonstrate to the TA for a record; a bonus mark is awarded if all TA checks are completed within roughly the first two hours of the lab.
+    - ELEC 1100 / lab 1 preparation / Canvas and grades ::@:: Canvas hosts the syllabus, lecture/tutorial/lab materials and project documents; it also records quiz, lab, project and exam grades and pushes announcements to your HKUST email.
+    - ELEC 1100 / lab 1 preparation / quiz system (iPRS) ::@:: In‑tutorial quizzes use the iPRS system via the HKUST iLearn app or web interface; you are responsible for ensuring your own device connects and works during quizzes.
 
 ### week 2 lecture 1
 
@@ -184,12 +200,12 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
     - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge) ::@:: outer electrons are weakly held and participate in conduction
     - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators) ::@:: conductors allow easy charge flow, insulators restrict it
-    - [§ current](electronic%20component.md#current) ::@:: current $I=\Delta q/\Delta t$ and conventional direction <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+    - [§ current](electronic%20component.md#current) $I=\Delta q/\Delta t$ ::@:: current $I=\Delta q/\Delta t$ and conventional direction
     - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference) ::@:: voltage is energy per charge between two points
-    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors) ::@:: Ohm's law $V=IR$, resistivity formula $R=\rho L/A$ <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors) $V=IR$ ::@:: Ohm's law $V=IR$, resistivity formula $R=\rho L/A$
     - [§ capacitors](electronic%20component.md#capacitors) ::@:: two plates store charge, discharge provides transient power
-    - [§ energy and power](electronic%20component.md#energy%20and%20power) ::@:: $E=qV$, $P=IV=I^{2}R=V^{2}/R$ <p> Human/robot energy analogy; DC vs AC sources; lab gear (bench supply, function generator, breadboard, battery monitor, LiPo); human body energy comparison; Galileo $v=\sqrt{2gh}$; resistor heating/short‑circuit hazard and worked numerical examples. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-    - [§ resistor networks](electronic%20component.md#resistor%20networks) ::@:: series add, parallel combine via reciprocal conductance
+    - [§ energy and power](electronic%20component.md#energy%20and%20power) $E=qV$, $P=IV$ ::@:: $E=qV$, $P=IV=I^{2}R=V^{2}/R$ <p> Human/robot energy analogy; DC vs AC sources; lab gear (bench supply, function generator, breadboard, battery monitor, LiPo); human body energy comparison; Galileo $v=\sqrt{2gh}$; resistor heating/short‑circuit hazard and worked numerical examples.
+    - [§ resistor networks](electronic%20component.md#resistor%20networks) $R_{\text{eq}}$ ::@:: series add, parallel combine via reciprocal conductance
 
 ### week 2 lecture 2
 
@@ -235,13 +251,50 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab 1 equipment
 - ELEC 1100
-  - ELEC 1100 / Lab1 equipment ::@:: Setup and component check
+  - ELEC 1100 / [electronic component](electronic%20component.md) (for lab 1)
+    - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
+    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
+    - [§ energy and power](electronic%20component.md#energy%20and%20power)
+    - [§ resistor networks](electronic%20component.md#resistor%20networks)
+    - [§ capacitors](electronic%20component.md#capacitors)
+  - ELEC 1100 / [lab equipment](lab%20equipment.md)
+    - [§ equipment overview](lab%20equipment.md#equipment%20overview)
+    - [§ breadboard structure and connections](lab%20equipment.md#breadboard%20structure%20and%20connections)
+    - [§ component symbols and power rails](lab%20equipment.md#component%20symbols%20and%20power%20rails)
+    - [§ resistor colour code](lab%20equipment.md#resistor%20colour%20code)
+    - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
+    - [§ LED](lab%20equipment.md#led)
+    - [§ lab safety](lab%20equipment.md#lab%20safety)
 
 ### week 4 tutorial 1
 
 - datetime: 2026-02-23T14:30:00+08:00/2026-02-23T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 2
+- ELEC 1100
+  - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+    - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
+    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law)
+    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law)
+    - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws)
+    - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations)
+    - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application)
+  - ELEC 1100 / [electronic component](electronic%20component.md) (resistor networks including infinite ladder, power)
+    - [§ resistor networks](electronic%20component.md#resistor%20networks)
+    - [§ energy and power](electronic%20component.md#energy%20and%20power)
+  - ELEC 1100 / lab 2 preparation
+    - ELEC 1100 / lab 2 preparation / review of Ohm’s law ($I = V/R$) ::@:: Ohm’s law $I = V/R$ lets you relate the total voltage, current and resistance of a resistor or equivalent resistor network.
+    - ELEC 1100 / lab 2 preparation / series equivalent resistance ($R_{\text{eq}} = R_1 + R_2 + \cdots$) ::@:: For resistors in series the same current flows through each and the equivalent resistance is $R_{\text{eq}} = R_1 + R_2 + \cdots$.
+    - ELEC 1100 / lab 2 preparation / parallel equivalent resistance ($1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$) ::@:: For resistors in parallel the node voltages are equal and the equivalent resistance satisfies $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ (always less than the smallest branch).
+    - ELEC 1100 / lab 2 preparation / measuring total resistance with DMM ::@:: To measure an equivalent resistance you disconnect the network from any sources, place the DMM in resistance mode and connect across the two terminals of interest.
+  - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node
+    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / when KVL and KCL are needed ::@:: Simple series/parallel reduction does not work for more complex networks, so you use Kirchhoff’s Voltage Law (sum of signed drops around any loop is zero) and Kirchhoff’s Current Law (sum of currents into a node equals sum out) to solve them.
+    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / reference node convention ($0\text{ V}$ reference) ::@:: In this course the negative terminal of the DC supply is normally chosen as the reference node with $0\text{ V}$ potential and is marked with the ground symbol in schematics.
+    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KVL in lab ::@:: To check KVL you measure each element’s voltage around a loop (respecting polarities) and confirm that the algebraic sum of the measured rises and drops is approximately zero.
+    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KCL in lab ($I_{\text{in}}$ vs $I_{\text{out}}$) ::@:: To check KCL you compute or measure the branch currents at a node and verify that $I_{\text{in, total}} \approx I_{\text{out, total}}$ within measurement error.
+  - ELEC 1100 / lab 2 preparation / current measurement safety
+    - ELEC 1100 / lab 2 preparation / current measurement safety / using the mA terminals correctly ::@:: When measuring current the multimeter’s mA terminals behave like a short and must be placed _in series_ with the branch whose current you want; never connect the mA terminals directly across a component or source.
+    - ELEC 1100 / lab 2 preparation / current measurement safety / danger of incorrect current connection ::@:: Mis‑using the mA input (placing it in parallel) can create a short circuit that damages both the multimeter’s current channel and the circuit under test.
 
 ### week 4 lecture 1
 
@@ -269,11 +322,11 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - topic: transistors
 - ELEC 1100
   - ELEC 1100 / [diode](diode.md)
-    - ELEC 1100 / diode / circuit analysis (ideal or $0.7\text{ V}$ drop model): overall method? ::@:: Pick a diode model (ideal or constant $0.7\text{ V}$). Assume the diode is ON or OFF, replace it with the equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open), then solve the circuit using KVL/Ohm’s law.
-    - ELEC 1100 / diode / circuit analysis consistency check ($V_D$, $I_D$): what do you verify? ::@:: After solving, check that the computed diode voltage/current match the assumed state (forward-bias with $V_D\approx0.7\text{ V}$ and $I_D>0$ for ON; reverse/blocked with $I_D\approx0$ for OFF). If inconsistent, flip the assumption and re-solve.
-    - ELEC 1100 / diode / [pn junction and biasing](diode.md#pn%20junction%20and%20biasing) ($\approx0.7\text{ V}$ barrier, anode/cathode): key ideas? ::@:: PN junction is formed by joining P-type and N-type semiconductor regions; the depletion region creates a barrier potential of about $0.7\text{ V}$ for silicon.<br/> The P side is the anode and the N side the cathode; forward bias (anode higher than cathode) allows current, reverse bias blocks it. Conventional current flows from anode to cathode when forward biased.
-    - ELEC 1100 / diode / [diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models) (ideal vs $0.7\text{ V}$ model, ON/OFF method): key points? ::@:: Ideal model: diode is a short when forward biased and an open when reverse biased.<br/> Constant-voltage model: when ON, $V_D\approx0.7\text{ V}$; when OFF, $I_D\approx0$. Use the ON/OFF assumption method: assume a state, replace with the equivalent circuit, solve, then check consistency of $V_D$ and $I_D$ with that state.
-    - ELEC 1100 / diode / [simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety) (e.g. $1\text{ k}\Omega$ series $R$): why? ::@:: In a series source–resistor–diode circuit, use $I_D\approx(V_S-0.7\text{ V})/R$ when the diode is ON and $V_S>0.7\text{ V}$; when $V_S<0.7\text{ V}$ the diode is OFF and $I_D\approx0$.<br/> A series resistor (e.g. $1\text{ k}\Omega$) is essential to limit current through the diode or LED so that the device is not damaged by excessive current when it turns on.
+    - ELEC 1100 / [diode](diode.md) / circuit analysis (ideal or $0.7\text{ V}$ drop model): overall method? ::@:: Pick a diode model (ideal or constant $0.7\text{ V}$). Assume the diode is ON or OFF, replace it with the equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open), then solve the circuit using KVL/Ohm’s law.
+    - ELEC 1100 / [diode](diode.md) / circuit analysis consistency check ($V_D$, $I_D$): what do you verify? ::@:: After solving, check that the computed diode voltage/current match the assumed state (forward-bias with $V_D\approx0.7\text{ V}$ and $I_D>0$ for ON; reverse/blocked with $I_D\approx0$ for OFF). If inconsistent, flip the assumption and re-solve.
+    - ELEC 1100 / [diode](diode.md) / [pn junction and biasing](diode.md#pn%20junction%20and%20biasing) ($\approx0.7\text{ V}$ barrier, anode/cathode): key ideas? ::@:: PN junction is formed by joining P-type and N-type semiconductor regions; the depletion region creates a barrier potential of about $0.7\text{ V}$ for silicon.<br/> The P side is the anode and the N side the cathode; forward bias (anode higher than cathode) allows current, reverse bias blocks it. Conventional current flows from anode to cathode when forward biased.
+    - ELEC 1100 / [diode](diode.md) / [diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models) (ideal vs $0.7\text{ V}$ model, ON/OFF method): key points? ::@:: Ideal model: diode is a short when forward biased and an open when reverse biased.<br/> Constant-voltage model: when ON, $V_D\approx0.7\text{ V}$; when OFF, $I_D\approx0$. Use the ON/OFF assumption method: assume a state, replace with the equivalent circuit, solve, then check consistency of $V_D$ and $I_D$ with that state.
+    - ELEC 1100 / [diode](diode.md) / [simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety) (e.g. $1\text{ k}\Omega$ series $R$): why? ::@:: In a series source–resistor–diode circuit, use $I_D\approx(V_S-0.7\text{ V})/R$ when the diode is ON and $V_S>0.7\text{ V}$; when $V_S<0.7\text{ V}$ the diode is OFF and $I_D\approx0$.<br/> A series resistor (e.g. $1\text{ k}\Omega$) is essential to limit current through the diode or LED so that the device is not damaged by excessive current when it turns on.
   - ELEC 1100 / transistor basics: terminals and types (C, B, E; NPN/PNP)? ::@:: A BJT has three terminals: collector (C), base (B), emitter (E). The two main types are NPN and PNP.
   - ELEC 1100 / transistor basics: what are $V_{CC}$ and $V_{CE}$ ($V_{CE}=V_C-V_E$)? ::@:: $V_{CC}$ is the DC supply rail feeding the collector/load network. $V_{CE}$ is the collector-to-emitter voltage: $V_{CE}=V_C-V_E$.
   - ELEC 1100 / transistor basics: three modes (OFF/AMP/SAT) using $I_B$, $I_C$, $\beta$, $V_{CE}$? ::@:: OFF: $I_B\approx0\Rightarrow I_C\approx0$. AMPLIFICATION: $I_C\approx\beta I_B$. SATURATION: $I_C$ limited by the external circuit and $V_{CE}\approx0.2\text{ V}$.
@@ -291,12 +344,34 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-03-02T10:30:00+08:00/2026-03-02T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab 2 KCL & KVL
+- ELEC 1100
+  - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+    - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
+    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law)
+    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law)
+    - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws)
+    - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations)
+    - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application)
+  - ELEC 1100 / [electronic component](electronic%20component.md) (resistor networks including infinite ladder, power)
+    - [§ resistor networks](electronic%20component.md#resistor%20networks)
+    - [§ energy and power](electronic%20component.md#energy%20and%20power)
 
 ### week 5 tutorial 1
 
 - datetime: 2026-03-02T14:30:00+08:00/2026-03-02T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 3
+- ELEC 1100
+  - ELEC 1100 / [diode](diode.md)
+    - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
+    - [§ diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models)
+    - [§ simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety)
+  - ELEC 1100 / [voltage regulator](voltage%20regulator.md)
+    - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed)
+    - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
+    - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
+    - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
+    - ELEC 1100 / voltage regulator / reading Zener breakdown from V_Z–V_in graph: Given a plot of $V_Z$ versus $V_{\text{in}}$ for the ELEC 1100 Zener clamp, how do you estimate the breakdown voltage? ::@:: From the $V_Z$ versus $V_{\text{in}}$ plot, identify where the curve stops rising with $V_{\text{in}}$ and flattens into a plateau; the plateau level of $V_Z$ in this region is the Zener breakdown voltage (about $5.7\text{ V}$ in the tutorial example).
 
 ### week 5 lecture 1
 
@@ -359,12 +434,36 @@ Next lecture: motor basics, DC brushed motors.
 - datetime: 2026-03-09T10:30:00+08:00/2026-03-09T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: diodes & DC regulation
+- ELEC 1100
+  - ELEC 1100 / [diode](diode.md)
+    - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
+    - [§ diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models)
+    - [§ simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety)
+  - ELEC 1100 / [voltage regulator](voltage%20regulator.md)
+    - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed)
+    - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
+    - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
+    - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
 
 ### week 6 tutorial 1
 
 - datetime: 2026-03-09T14:30:00+08:00/2026-03-09T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 4
+- ELEC 1100
+  - ELEC 1100 / [transistor](transistor.md)
+    - [§ structure](transistor.md#structure)
+    - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
+    - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
+    - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
+  - ELEC 1100 / [H-bridge](H-bridge.md)
+    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
+    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
+    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
+    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
+    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
+    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
+    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
 
 ### week 6 lecture 1
 
@@ -383,6 +482,20 @@ Next lecture: motor basics, DC brushed motors.
 - datetime: 2026-03-16T10:30:00+08:00/2026-03-16T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: transistor & H-bridge
+- ELEC 1100
+  - ELEC 1100 / [transistor](transistor.md)
+    - [§ structure](transistor.md#structure)
+    - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
+    - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
+    - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
+  - ELEC 1100 / [H-bridge](H-bridge.md)
+    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
+    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
+    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
+    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
+    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
+    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
+    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
 
 ### week 7 tutorial 1
 

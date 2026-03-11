@@ -9,7 +9,7 @@ tags:
 
 # diode
 
-A diode is a two-terminal semiconductor device that allows current to flow primarily in one direction. In this course it is used both as a simple nonlinear element (for rectifying or limiting voltages) and as the building block for more complex devices such as Zener regulators and bipolar junction transistors. <p> ![diode symbol](attachments/symbol_diode.svg)
+A diode is a two-terminal semiconductor device that allows current to flow primarily in one direction. In this course it is used both as a simple nonlinear element (for rectifying or limiting voltages) and as the building block for more complex devices such as [Zener regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators) and [bipolar junction transistors](transistor.md). <p> ![diode symbol](attachments/symbol_diode.svg)
 
 ---
 
@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 ## pn junction and biasing
 
-A PN junction diode is made by joining P-type and N-type semiconductor regions; at the junction a depletion region forms with a built-in barrier potential of about $0.7\text{ V}$ for silicon. The diode terminals are called anode (P side) and cathode (N side). When the anode is at a higher potential than the cathode (forward bias), the barrier is reduced and current can flow; when the anode is at a lower potential (reverse bias), the barrier increases and only a very small leakage current flows.
+A PN junction diode is made by joining P-type and N-type semiconductor regions; at the junction a depletion region forms with a built-in barrier potential of about $0.7\text{ V}$ for silicon. The diode terminals are called anode (P side) and cathode (N side). When the anode is at a higher potential than the cathode (forward bias), the barrier is reduced and current can flow; when the anode is at a lower potential (reverse bias), the barrier increases and only a very small leakage current flows. On the physical diodes used in ELEC 1100, the cathode is marked by a stripe (often black) on the package, so “black strip is negative”; the small-signal diode is a thinner body, while the Zener diode used for regulation is a slightly fatter package but still uses the stripe to mark the cathode.
 
 Biasing refers to how an external voltage source is connected to the diode. In this course, we adopt the conventional current direction from the anode (+) to the cathode (−) when the diode is forward biased. When the diode is reverse biased, we model it as an open circuit (no current).
 
@@ -34,12 +34,13 @@ Flashcards for this section are as follows:
 - diode terminals: Which side is anode/cathode in a PN diode? ::@:: P side is the anode; N side is the cathode.
 - diode forward vs reverse bias: What is forward bias vs reverse bias (in terms of anode/cathode potential)? ::@:: Forward bias means anode at higher potential than cathode (current can flow). Reverse bias means anode at lower potential than cathode (current is blocked except leakage).
 - conventional current direction in a diode: In forward bias, what direction does conventional current flow? ::@:: From the anode (+) to the cathode (−) through the diode.
+- lab diode orientation: On the lab diodes, which terminal does the black stripe mark, and how do you use it when wiring? ::@:: The black stripe on the package marks the cathode (negative end); in circuits you connect the stripe end to the more negative node, leaving the unmarked end as the anode.
 
 ## diode i–v characteristic and models
 
 The exact diode I–V curve is nonlinear, but for introductory circuit analysis we use a simplified piecewise model. In the ideal-diode model, the diode is a short circuit when forward biased and an open circuit when reverse biased. A more realistic model for silicon uses a constant forward drop $V_{\text{on}}\approx0.7\text{ V}$ when conducting: if the diode is on we approximate $V_D\approx0.7\text{ V}$, and if off we take $I_D\approx0$.
 
-Circuit analysis with this model often proceeds by first assuming a diode state (ON or OFF), replacing it with the corresponding equivalent circuit (short with $0.7\text{ V}$ drop or open), solving for currents and voltages, and then checking whether the assumption is self-consistent (e.g. whether the resulting diode voltage and current match the assumed region).
+Circuit analysis with this model often proceeds by first assuming a diode state (ON or OFF), replacing it with the corresponding equivalent circuit (short with $0.7\text{ V}$ drop or open), solving for currents and voltages using [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) and Ohm's law, and then checking whether the assumption is self-consistent (e.g. whether the resulting diode voltage and current match the assumed region).
 
 ---
 

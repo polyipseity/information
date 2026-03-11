@@ -23,7 +23,7 @@ tags:
 
 - see: [general/electronic component](../../../../general/electronic%20component.md)
 
-Electronic components are the building blocks of electronic circuits; they affect how currents flow and voltages appear, and range from passive elements such as resistors and capacitors to active semiconductor devices like diodes and transistors.  In ELEC 1100 the scope is expanded to include the underlying electrical concepts required to understand component behaviour, together with the power sources and delivery systems (batteries, supplies) that energise a robot’s electronic subsystems.
+Electronic components are the building blocks of electronic circuits; they affect how currents flow and voltages appear, and range from passive elements such as resistors and capacitors to active semiconductor devices like [diodes](diode.md) and [transistors](transistor.md).  In ELEC 1100 the scope is expanded to include the underlying electrical concepts required to understand component behaviour, together with the power sources and delivery systems (batteries, supplies) that energise a robot’s electronic subsystems.
 
 Common schematic symbols used throughout the notes: <p> ![resistor symbol](attachments/symbol_resistor.svg) <p> ![capacitor symbol](attachments/symbol_capacitor.svg) <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) <p> ![ground symbol](attachments/symbol_ground.svg)
 
@@ -185,7 +185,7 @@ Flashcards for this section are as follows:
 
 ### energy sources in lab
 
-At the HKUST electronics lab you will typically power circuits from bench supplies: a DC power supply provides a regulated constant-voltage source, while a function generator can supply small AC waveforms (sine, square, triangle) for testing.  Both connect to your breadboard where components are assembled.  For your project robot the primary energy source is a rechargeable lithium‑polymer (LiPo) battery paired with a battery monitor that reports voltage and current.
+At the HKUST electronics lab you will typically power circuits from bench supplies: a DC power supply provides a regulated constant-voltage source, while a function generator can supply small AC waveforms (sine, square, triangle) for testing.  Both connect to your breadboard where components are assembled. See [lab equipment](lab%20equipment.md) for the DC supply, function generator, DSO, and breadboard.  For your project robot the primary energy source is a rechargeable lithium‑polymer (LiPo) battery paired with a battery monitor that reports voltage and current.
 
 ---
 
@@ -222,7 +222,7 @@ Resistors in series add: $R_{\text{eq}} = R_1 + R_2 + \cdots$; the same current 
 
 Resistors in parallel combine as $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; the total resistance is always smaller than the smallest branch. Conductance $G = 1/R$ is useful, unit siemens (S).
 
-For a network with mixed series/parallel elements the total resistance may be computed stepwise (e.g. $30\,\Omega + (40\,\Omega\parallel 60\,\Omega) = 54\,\Omega$).
+For a network with mixed series/parallel elements the total resistance may be computed stepwise (e.g. $30\,\Omega + (40\,\Omega\parallel 60\,\Omega) = 54\,\Omega$). Some tutorial problems use an _infinite resistor network_ (ladder): a small series/parallel pattern (such as a $2R$ series resistor followed by a $1.5R$ shunt to ground) is repeated indefinitely so that the “tail” of the ladder looks identical to the whole network. In that case you model the infinite tail by a single unknown equivalent $R_{\text{eq}}$ and write an equation like $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula; solving gives $R_{\text{eq}} = 3R$ in the ELEC 1100 example. When a network cannot be reduced by series/parallel alone, use [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) to relate currents and voltages at nodes and loops.
 
 Short circuit occurs when a low-resistance path bypasses a component (R→0); current through the short tends to infinity and components may be damaged. In an ideal short the branch current is infinite and the other branch zero.
 
@@ -237,6 +237,8 @@ Flashcards for this section are as follows:
 - series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground ($0\,\text{V}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- infinite ladder concept: Given an infinite resistor ladder built by repeating a small series/parallel cell, how can you model the resistance of the “tail” of the network in terms of an unknown $R_{\text{eq}}$? ::@:: Because the part of the ladder to the right of any cell looks identical to the whole, you can replace the infinite tail by a single unknown equivalent resistance $R_{\text{eq}}$ and solve for it.
+- ELEC 1100 infinite ladder example: Given the ELEC 1100 ladder made from repeating a $2R$ series resistor with a $1.5R$ shunt to ground, how do you find its equivalent resistance? ::@:: Write the equation $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula and solve to obtain $R_{\text{eq}} = 3R$.
 - network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$.
 - short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components.
 
