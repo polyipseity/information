@@ -254,7 +254,7 @@ For {@{a subset of states _A_<!-- markdown separator --> ⊆ <!-- markdown separ
 
 For {@{a CTMC _X_<sub>_t_</sub>}@}, {@{the time-reversed process}@} is {@{defined to be ${\hat {X} }_{t}=X_{T-t}$}@}. By {@{[Kelly's lemma](Kelly's%20lemma.md)}@} this process has {@{the same stationary distribution as the forward process}@}. <!--SR:!2029-02-18,1198,359!2031-02-18,1810,387!2031-01-05,1764,379!2029-06-06,1218,339!2026-04-07,383,359-->
 
-{@{A chain is said to be _reversible_}@} if {@{the reversed process is the same as the forward process \(in distribution\)}@}. {@{[Kolmogorov's criterion](Kolmogorov's%20criterion.md)}@} states that {@{the necessary and sufficient condition for a process to be reversible}@} is that {@{the product of transition rates around a closed loop must be the same in both directions}@}. <!--SR:!2031-03-07,1814,379!2026-03-30,378,367!2029-12-02,1421,361!2026-09-06,475,327-->
+{@{A chain is said to be _reversible_}@} if {@{the reversed process is the same as the forward process \(in distribution\)}@}. {@{[Kolmogorov's criterion](Kolmogorov's%20criterion.md)}@} states that {@{the necessary and sufficient condition for a process to be reversible}@} is that {@{the product of transition rates around a closed loop must be the same in both directions}@}. <!--SR:!2031-03-07,1814,379!2026-03-30,378,367!2029-12-02,1421,361!2026-09-06,475,327!2026-03-17,5,380-->
 
 ### embedded Markov chain
 

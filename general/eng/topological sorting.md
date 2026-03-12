@@ -35,7 +35,7 @@ In computer science, applications of this type arise in [instruction scheduling]
 
 ## algorithms
 
-{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!2026-06-06,445,379!2031-04-14,1864,391-->
+{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!2026-06-06,445,379!2031-04-14,1864,391!2026-03-17,5,389-->
 
 ### Kahn's algorithm
 
@@ -192,7 +192,7 @@ In the following, it is assumed that {@{the graph partition is stored on _p_ pro
 
 > {@{![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)}@}
 >
-> {@{Execution of the parallel topological sorting algorithm}@} on {@{a DAG with two processing elements}@}. <!--SR:!2029-11-20,1344,358-->
+> {@{Execution of the parallel topological sorting algorithm}@} on {@{a DAG with two processing elements}@}. <!--SR:!2029-11-20,1344,358!2026-03-17,5,389!2026-03-17,5,389-->
 
 In the first step, PE _j_ assigns {@{the $\lvert Q_j^1 \rvert$ indices $\sum _{i=0}^{j-1}|Q_{i}^{1}|,\dots ,\left(\sum _{i=0}^{j}|Q_{i}^{1}|\right)-1$ (the summation sign is for producing a prefix sum) to the $\lvert Q_j^1 \rvert$ local vertices in $Q_{j}^{1}$}@}. {@{These vertices in $Q_{j}^{1}$}@} are {@{removed, together with their corresponding outgoing edges}@}. For {@{each outgoing edge $(u,v)$ with endpoint _v_ in another PE $l,j\neq l$}@}, {@{the message $(u,v)$ is posted to PE _l_}@}. After {@{all vertices in $Q_{j}^{1}$ are removed}@}, {@{the posted messages are sent to their corresponding PE}@}. {@{Each message $(u,v)$ received}@} {@{updates the indegree of the local vertex _v_}@}. If {@{the indegree drops to zero}@}, {@{_v_ is added to $Q_{j}^{2}$}@}. Then {@{the next iteration starts}@}. <!--SR:!2028-04-04,935,351!2026-06-01,441,379!2030-12-15,1754,378!2026-05-19,429,379!2026-04-27,411,371!2027-10-04,796,339!2026-04-24,408,371!2026-04-08,396,371!2026-04-04,393,371!2026-03-31,386,358!2029-07-06,1300,358!2026-04-01,387,358-->
 

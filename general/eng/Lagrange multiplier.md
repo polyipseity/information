@@ -15,7 +15,7 @@ tags:
 
 - {@{"Lagrangian function"}@} redirects here; not to be confused with {@{[Lagrangian \(physics\)](Lagrangian%20(physics).md)}@}. <!--SR:!2029-02-15,1111,350!2029-08-01,1237,350-->
 
-In {@{[mathematical optimization](mathematical%20optimization.md)}@}, {@{the __method of Lagrange multipliers__}@} is {@{a strategy for finding the local [maxima and minima](maxima%20and%20minima.md) of a [function](function%20(mathematics).md) subject to [equation constraints](constraint%20(mathematics).md)}@} \(i.e., subject to {@{the condition that one or more [equations](equation.md) have to be satisfied exactly by the chosen values of the [variables](variable%20(mathematics).md)}@}\).<sup>[\[1\]](#^ref-1)</sup> It is named after {@{the mathematician [Joseph-Louis Lagrange](Joseph-Louis%20Lagrange.md)}@}. <!--SR:!2029-04-13,1155,350!2026-04-01,292,330!2029-08-31,1263,350!2029-02-01,1097,350-->
+In {@{[mathematical optimization](mathematical%20optimization.md)}@}, {@{the __method of Lagrange multipliers__}@} is {@{a strategy for finding the local [maxima and minima](maxima%20and%20minima.md) of a [function](function%20(mathematics).md) subject to [equation constraints](constraint%20(mathematics).md)}@} \(i.e., subject to {@{the condition that one or more [equations](equation.md) have to be satisfied exactly by the chosen values of the [variables](variable%20(mathematics).md)}@}\).<sup>[\[1\]](#^ref-1)</sup> It is named after {@{the mathematician [Joseph-Louis Lagrange](Joseph-Louis%20Lagrange.md)}@}. <!--SR:!2029-04-13,1155,350!2026-04-01,292,330!2029-08-31,1263,350!2029-02-01,1097,350!2026-03-17,5,364-->
 
 ## summary and rationale
 

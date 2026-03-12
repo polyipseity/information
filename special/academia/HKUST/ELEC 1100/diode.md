@@ -15,9 +15,9 @@ A diode is a two-terminal semiconductor device that allows current to flow prima
 
 Flashcards for this section are as follows:
 
-- diode definition: What does a diode do in terms of current direction? ::@:: A diode is a two-terminal device that allows current to flow primarily in one direction (forward bias) and blocks it in the opposite direction (reverse bias).
-- diode course role: Why do we study diodes before transistors and regulation? ::@:: The PN junction diode is the core building block inside BJTs and Zener regulators, so diode I–V and biasing ideas transfer directly to those devices.
-- schematic symbol: diode <p> ![diode symbol](attachments/symbol_diode.svg) ::@:: Diode symbol showing the one-way conduction element; current is intended to flow from anode to cathode when forward biased.
+- diode definition: What does a diode do in terms of current direction? ::@:: A diode is a two-terminal device that allows current to flow primarily in one direction (forward bias) and blocks it in the opposite direction (reverse bias). <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- diode course role: Why do we study diodes before transistors and regulation? ::@:: The PN junction diode is the core building block inside BJTs and Zener regulators, so diode I–V and biasing ideas transfer directly to those devices. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- schematic symbol: diode <p> ![diode symbol](attachments/symbol_diode.svg) ::@:: Diode symbol showing the one-way conduction element; current is intended to flow from anode to cathode when forward biased. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
 
 ## pn junction and biasing
 
@@ -29,12 +29,12 @@ Biasing refers to how an external voltage source is connected to the diode. In t
 
 Flashcards for this section are as follows:
 
-- pn junction diode formation: How is a PN junction diode formed? ::@:: It is formed by joining P-type and N-type semiconductor regions; a depletion region forms at the junction.
-- silicon barrier potential (about $0.7\text{ V}$): What is the typical built-in barrier potential for a silicon PN junction? ::@:: About $0.7\text{ V}$ (silicon).
-- diode terminals: Which side is anode/cathode in a PN diode? ::@:: P side is the anode; N side is the cathode.
-- diode forward vs reverse bias: What is forward bias vs reverse bias (in terms of anode/cathode potential)? ::@:: Forward bias means anode at higher potential than cathode (current can flow). Reverse bias means anode at lower potential than cathode (current is blocked except leakage).
-- conventional current direction in a diode: In forward bias, what direction does conventional current flow? ::@:: From the anode (+) to the cathode (−) through the diode.
-- lab diode orientation: On the lab diodes, which terminal does the black stripe mark, and how do you use it when wiring? ::@:: The black stripe on the package marks the cathode (negative end); in circuits you connect the stripe end to the more negative node, leaving the unmarked end as the anode.
+- pn junction diode formation: How is a PN junction diode formed? ::@:: It is formed by joining P-type and N-type semiconductor regions; a depletion region forms at the junction. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- silicon barrier potential (about $0.7\text{ V}$): What is the typical built-in barrier potential for a silicon PN junction? ::@:: About $0.7\text{ V}$ (silicon). <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- diode terminals: Which side is anode/cathode in a PN diode? ::@:: P side is the anode; N side is the cathode. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- diode forward vs reverse bias: What is forward bias vs reverse bias (in terms of anode/cathode potential)? ::@:: Forward bias means anode at higher potential than cathode (current can flow). Reverse bias means anode at lower potential than cathode (current is blocked except leakage). <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- conventional current direction in a diode: In forward bias, what direction does conventional current flow? ::@:: From the anode (+) to the cathode (−) through the diode. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- lab diode orientation: On the lab diodes, which terminal does the black stripe mark, and how do you use it when wiring? ::@:: The black stripe on the package marks the cathode (negative end); in circuits you connect the stripe end to the more negative node, leaving the unmarked end as the anode. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
 
 ## diode i–v characteristic and models
 
@@ -46,10 +46,10 @@ Circuit analysis with this model often proceeds by first assuming a diode state 
 
 Flashcards for this section are as follows:
 
-- ideal diode model ::@:: In the ideal model the diode is a short circuit when forward biased and an open circuit when reverse biased.
-- constant-voltage diode model: In the constant-voltage model, what approximate forward drop do we assume for a silicon diode (about $0.7\text{ V}$)? ::@:: We use a constant forward drop of about $0.7\text{ V}$ for a conducting silicon diode.
-- diode region assumption method: Step 1 and 2 (assume state + equivalent; ON uses $0.7\text{ V}$ drop): what do you do? ::@:: Assume the diode is ON or OFF, then replace it with the corresponding equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open circuit).
-- diode region assumption method: Step 3 and 4 (solve + check $V_D$, $I_D$): what do you do? ::@:: Solve for currents/voltages using KVL/Ohm’s law, then check that the resulting $V_D$ and $I_D$ are consistent with the assumed ON/OFF region; if inconsistent, flip the assumption and re-solve.
+- ideal diode model ::@:: In the ideal model the diode is a short circuit when forward biased and an open circuit when reverse biased. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- constant-voltage diode model: In the constant-voltage model, what approximate forward drop do we assume for a silicon diode (about $0.7\text{ V}$)? ::@:: We use a constant forward drop of about $0.7\text{ V}$ for a conducting silicon diode. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- diode region assumption method: Step 1 and 2 (assume state + equivalent; ON uses $0.7\text{ V}$ drop): what do you do? ::@:: Assume the diode is ON or OFF, then replace it with the corresponding equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open circuit). <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- diode region assumption method: Step 3 and 4 (solve + check $V_D$, $I_D$): what do you do? ::@:: Solve for currents/voltages using KVL/Ohm’s law, then check that the resulting $V_D$ and $I_D$ are consistent with the assumed ON/OFF region; if inconsistent, flip the assumption and re-solve. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
 
 ## simple diode circuit analysis and safety
 
@@ -61,6 +61,6 @@ It is important to include a series resistor (typically around $1\text{ k}\Omega
 
 Flashcards for this section are as follows:
 
-- series diode circuit example: In a series source–resistor–diode circuit with $V_S$, $R$, and a forward-biased diode modelled with $V_D\approx0.7\text{ V}$, what is the approximate current? <p> ![series source–resistor–diode circuit](attachments/series_diode_resistor.svg) ::@:: Use $I_D\approx(V_S-0.7\text{ V})/R$ when $V_S>0.7\text{ V}$ and the diode is forward biased.
-- diode off condition: In a series source–resistor–diode circuit, when is the diode effectively off ($I_D\approx0$) in the constant-drop model? <p> ![series source–resistor–diode circuit](attachments/series_diode_resistor.svg) ::@:: When the applied source $V_S$ is less than about $0.7\text{ V}$ in the forward direction, the diode is off and $I_D\approx0$.
-- need for series resistor with diode/LED: Why do we include a series resistor (often about $1\text{ k}\Omega$) with a diode or LED? ::@:: A series resistor (often $\approx1\text{ k}\Omega$) limits current through a forward-biased diode or LED; without it, current can become very large and damage the components.
+- series diode circuit example: In a series source–resistor–diode circuit with $V_S$, $R$, and a forward-biased diode modelled with $V_D\approx0.7\text{ V}$, what is the approximate current? <p> ![series source–resistor–diode circuit](attachments/series_diode_resistor.svg) ::@:: Use $I_D\approx(V_S-0.7\text{ V})/R$ when $V_S>0.7\text{ V}$ and the diode is forward biased. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- diode off condition: In a series source–resistor–diode circuit, when is the diode effectively off ($I_D\approx0$) in the constant-drop model? <p> ![series source–resistor–diode circuit](attachments/series_diode_resistor.svg) ::@:: When the applied source $V_S$ is less than about $0.7\text{ V}$ in the forward direction, the diode is off and $I_D\approx0$. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->
+- need for series resistor with diode/LED: Why do we include a series resistor (often about $1\text{ k}\Omega$) with a diode or LED? ::@:: A series resistor (often $\approx1\text{ k}\Omega$) limits current through a forward-biased diode or LED; without it, current can become very large and damage the components. <!--SR:!2026-03-16,4,270!2026-03-16,4,270-->

@@ -497,7 +497,7 @@ Except for {@{computer-language terminology}@}, "function" has {@{the usual math
 - [primitive recursion](primitive%20recursion.md), and
 - [minimization](μ%20operator.md).
 
-Although defined {@{only for functions from integers to integers}@}, they can model {@{any computable function as a consequence of the following properties}@}: (annotation: 3 items: {@{nature of computation, sequence of symbols, bit sequence}@}\) <!--SR:!2026-04-25,338,350!2030-04-19,1498,370-->
+Although defined {@{only for functions from integers to integers}@}, they can model {@{any computable function as a consequence of the following properties}@}: (annotation: 3 items: {@{nature of computation, sequence of symbols, bit sequence}@}\) <!--SR:!2026-04-25,338,350!2030-04-19,1498,370!2026-03-17,5,379-->
 
 - a computation ::@:: is the manipulation of finite sequences of symbols \(digits of numbers, formulas, ...\), <!--SR:!2026-04-23,336,350!2026-03-21,318,350-->
 - every sequence of symbols ::@:: may be coded as a sequence of [bits](bit.md), <!--SR:!2029-03-08,1152,350!2028-12-09,1088,350-->
