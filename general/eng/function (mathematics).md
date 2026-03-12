@@ -479,7 +479,7 @@ In {@{alternative formulations of the foundations of mathematics}@} using {@{[ty
 
 - Main articles: ::@:: [Function \(computer programming\)](function%20(computer%20programming).md) and [Lambda calculus](lambda%20calculus.md)
 
-In {@{[computer programming](computer%20programming.md)}@}, a [function](function%20(programming).md) is, {@{in general, a piece of a [computer program](computer%20program.md)}@}, which {@{[implements](implementation.md) the abstract concept of function}@}. That is, it is {@{a program unit that produces an output for each input}@}. However, in {@{many [programming languages](programming%20language.md)}@} {@{every [subroutine](subroutine.md)}@} is called {@{a function, even when there is no output}@}, and when {@{the functionality consists simply of modifying some data in the [computer memory](computer%20memory.md)}@}.
+In {@{[computer programming](computer%20programming.md)}@}, a [function](function%20(programming).md) is, {@{in general, a piece of a [computer program](computer%20program.md)}@}, which {@{[implements](implementation.md) the abstract concept of function}@}. That is, it is {@{a program unit that produces an output for each input}@}. However, in {@{many [programming languages](programming%20language.md)}@} {@{every [subroutine](subroutine.md)}@} is called {@{a function, even when there is no output}@}, and when the functionality consists {@{simply of modifying some data in the [computer memory](computer%20memory.md)}@}.
 
 {@{[Functional programming](functional%20programming.md)}@} is {@{the [programming paradigm](programming%20paradigm.md) consisting of building programs}@} by {@{using only subroutines that behave like mathematical functions}@}. For example, {@{`if_then_else`}@} is {@{a function that takes three functions as arguments}@}, and, depending on {@{the result of the first function \(_true_ or _false_\)}@}, returns {@{the result of either the second or the third function}@}. {@{An important advantage of functional programming}@} is that {@{it makes easier [program proofs](program%20proof.md)}@}, as being based on {@{a well founded theory, the [lambda calculus](lambda%20calculus.md)}@} \(see below\).
 
@@ -497,7 +497,7 @@ Except for {@{computer-language terminology}@}, "function" has {@{the usual math
 - [primitive recursion](primitive%20recursion.md), and
 - [minimization](μ%20operator.md).
 
-Although {@{defined only for functions from integers to integers}@}, they can {@{model any computable function as a consequence of the following properties}@}:
+Although defined {@{only for functions from integers to integers}@}, they can model {@{any computable function as a consequence of the following properties}@}: (annotation: 3 items: {@{nature of computation, sequence of symbols, bit sequence}@}\)
 
 - a computation ::@:: is the manipulation of finite sequences of symbols \(digits of numbers, formulas, ...\),
 - every sequence of symbols ::@:: may be coded as a sequence of [bits](bit.md),

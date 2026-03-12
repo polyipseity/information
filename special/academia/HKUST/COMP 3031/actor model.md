@@ -560,4 +560,4 @@ Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{
 
 When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}.
 
-By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications without the pitfalls of shared‑memory synchronization}@}.
+By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}.

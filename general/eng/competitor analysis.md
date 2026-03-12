@@ -180,7 +180,7 @@ number of features
 
 ### visualization
 
-It is very important to {@{add our own products to the visualization and make it obvious that the products are our own}@}.
+It is very important to add {@{our own products to the visualization}@} and make it {@{obvious that the products are our own}@}.
 
 If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible.
 

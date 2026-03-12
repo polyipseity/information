@@ -33,7 +33,7 @@ In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names 
 
 Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}.
 
-The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}.
+The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables}@} need to be frequently {@{transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, processors are {@{more complicated, have higher clock cycle time}@}, which also leads to {@{performance loss}@}.
 
 \(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\)
 

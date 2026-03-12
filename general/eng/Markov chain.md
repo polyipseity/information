@@ -252,9 +252,9 @@ For {@{a subset of states _A_<!-- markdown separator --> ⊆ <!-- markdown separ
 
 ### time reversal
 
-For {@{a CTMC _X_<sub>_t_</sub>}@}, {@{the time-reversed process}@} is {@{defined to be ${\hat {X} }_{t}=X_{T-t}$}@}. By {@{[Kelly's lemma](kelly's%20lemma.md)}@} this process has {@{the same stationary distribution as the forward process}@}.
+For {@{a CTMC _X_<sub>_t_</sub>}@}, {@{the time-reversed process}@} is {@{defined to be ${\hat {X} }_{t}=X_{T-t}$}@}. By {@{[Kelly's lemma](Kelly's%20lemma.md)}@} this process has {@{the same stationary distribution as the forward process}@}.
 
-{@{A chain is said to be _reversible_}@} if {@{the reversed process is the same as the forward process}@}. {@{[Kolmogorov's criterion](Kolmogorov's%20criterion.md)}@} states that {@{the necessary and sufficient condition for a process to be reversible is that the product of transition rates around a closed loop must be the same in both directions}@}.
+{@{A chain is said to be _reversible_}@} if {@{the reversed process is the same as the forward process \(in distribution\)}@}. {@{[Kolmogorov's criterion](Kolmogorov's%20criterion.md)}@} states that {@{the necessary and sufficient condition for a process to be reversible}@} is that {@{the product of transition rates around a closed loop must be the same in both directions}@}.
 
 ### embedded Markov chain
 

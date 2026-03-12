@@ -65,7 +65,7 @@ In the case where {@{several production units are already running at full capaci
 
 ### supply overstock
 
-In the event of {@{accumulation in the long-term}@}, {@{the capacity at which the bottlenecked machine is running could be so slow}@} that {@{the accumulated resources that are in the queue need to be stored}@}. {@{The cost of storing resources is significant}@} as it {@{takes resources to transport the materials back and forth as well as requiring space, another potential cost}@}.<sup>[\[1\]](#^ref-1)</sup>
+In the event of {@{accumulation in the long-term}@}, {@{the capacity at which the bottlenecked machine is running could be so slow}@} that {@{the accumulated resources that are in the queue need to be stored}@}. {@{The cost of storing resources is significant}@} as it takes {@{resources to transport the materials back and forth}@} as well as requiring {@{space, another potential cost}@}.<sup>[\[1\]](#^ref-1)</sup>
 
 ### fall in employee morale
 

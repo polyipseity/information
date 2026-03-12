@@ -62,7 +62,7 @@ In {@{[digital signal processing](digital%20signal%20processing.md)}@}, a digita
 
 > {@{![An [AMI coded](alternate%20mark%20inversion.md#alternate%20mark%20inversion) digital signal used in baseband transmission \(line coding\)](../../archives/Wikimedia%20Commons/AMI-code.png)}@}
 >
-> {@{An [AMI coded](alternate%20mark%20inversion.md#alternate%20mark%20inversion) digital signal used in baseband transmission \(line coding\)}@}
+> {@{An [AMI coded](alternate%20mark%20inversion.md#alternate%20mark%20inversion) digital signal}@} used in {@{baseband transmission \(line coding\)}@}
 
 In {@{[digital communications](digital%20communications.md)}@}, a digital signal is {@{a continuous-time physical signal, alternating between a discrete number of waveforms,<sup>[\[3\]](#^ref-3)</sup> representing a [bitstream](bitstream.md)}@}. {@{The shape of the waveform}@} depends on {@{the transmission scheme}@}, which may be {@{either a [line coding](line%20coding.md) scheme}@} allowing {@{[baseband](baseband.md) transmission}@}; or {@{a [digital modulation](digital%20modulation.md#digital%20modulation%20methods) scheme}@}, allowing {@{[passband](passband.md) transmission over long wires or over a limited radio frequency band}@}. Such {@{a carrier-modulated sine wave}@} is considered {@{a digital signal in literature on digital communications and data transmission}@},<sup>[\[11\]](#^ref-11)</sup> but considered as {@{a bit stream converted to an analog signal in electronics and computer networking}@}.<sup>[\[12\]](#^ref-12)</sup>
 

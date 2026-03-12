@@ -27,7 +27,7 @@ Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} w
 
 - Main article: [Nim](Nim.md)
 
-Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves}@} depend {@{only on the position and not on which of the two players is currently moving}@}, and where {@{the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player must {@{remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup>
+Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves}@} depend {@{only on the position and not on which of the two players is currently moving}@}, and where {@{the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player must {@{remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can calculate {@{the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup>
 
 ### Cram
 
@@ -47,7 +47,7 @@ Hackenbush is {@{a game invented by mathematician [John Horton Conway](John%20Ho
 
 ## addition
 
-{@{Nimber addition \(also known as __nim-addition__\)}@} can be used to {@{calculate the size of a single nim heap equivalent to a collection of nim heaps}@}. It is defined {@{recursively by $$\alpha \oplus \beta =\operatorname {mex} \!{\bigl (}\{\alpha '\oplus \beta :\alpha '<\alpha \}\cup \{\alpha \oplus \beta ':\beta '<\beta \}{\bigr )},$$}@} (annotation: Selecting $\alpha' < \alpha$ or $\beta' < \beta$ {@{can be interpreted as making a move from either $\alpha$ to $\alpha'$ or $\beta$ to $\beta'$}@}.) where {@{the [minimum excludant](mex%20(mathematics).md) mex\(_S_\) of a set _S_ of ordinals is defined to be the smallest ordinal that is _not_ an element of _S_}@}.
+{@{Nimber addition \(also known as __nim-addition__\)}@} can be used to calculate {@{the size of a single nim heap equivalent to a collection of nim heaps}@}. It is defined {@{recursively by $$\alpha \oplus \beta =\operatorname {mex} \!{\bigl (}\{\alpha '\oplus \beta :\alpha '<\alpha \}\cup \{\alpha \oplus \beta ':\beta '<\beta \}{\bigr )},$$}@} (annotation: Selecting $\alpha' < \alpha$ or $\beta' < \beta$ {@{can be interpreted as making a move from either $\alpha$ to $\alpha'$ or $\beta$ to $\beta'$}@}.) where {@{the [minimum excludant](mex%20(mathematics).md) mex\(_S_\) of a set _S_ of ordinals is defined to be the smallest ordinal that is _not_ an element of _S_}@}.
 
 For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}@} by {@{taking the [bitwise](bitwise%20operation.md) [exclusive or](exclusive%20or.md) \(XOR, denoted by ⊕\) of the corresponding numbers}@}. For example, the nim-sum of 7 and 14 {@{can be found by writing 7 as 111 and 14 as 1110}@}; the ones place {@{adds to 1}@}; the twos place {@{adds to 2, which we replace with 0}@}; the fours place {@{adds to 2, which we replace with 0}@}; the eights place {@{adds to 1}@}. So {@{the nim-sum is written in binary as 1001, or in decimal as 9}@}.
 
@@ -109,7 +109,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}.
+> Calculating {@{the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}.
 
 ## see also
 

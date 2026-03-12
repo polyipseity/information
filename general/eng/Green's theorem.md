@@ -105,7 +105,7 @@ We may as well {@{choose $\delta$}@} so that {@{the RHS of the last inequality i
 
 ## validity under different hypotheses
 
-{@{The hypothesis of the last theorem}@} are {@{not the only ones under which Green's formula is true}@}. {@{Another common set of conditions}@} is the following:
+{@{The hypothesis of the last theorem}@} (annotation: that $\Gamma$ is {@{rectifiable and positively oriented}@}, $A, B$ are {@{continuous}@} and that their {@{first-order partial derivatives $D_1 B, D_2 A$ exists on $R$ and are Riemann-integrable over $R$}@}) are not {@{the only ones under which Green's formula is true}@}. {@{Another common set of conditions}@} is the following: (annotation: that the condition of {@{the first-order partial derivatives of $A$ and $B$ existing on $R$}@} is replaced by the condition of {@{the functions $A$ and $B$ being Fréchet-differentiable on $R$}@})
 
 {@{The functions $A,B:{\overline {R} }\to \mathbb {R}$}@} are {@{still assumed to be continuous}@}. However, we now {@{require them to be Fréchet-differentiable at every point of $R$ \(annotation: instead of requiring certain first-order partial derivatives to exist\)}@}. This implies {@{the existence of all directional derivatives}@}, in particular {@{$D_{e_{i} }A=:D_{i}A,D_{e_{i} }B=:D_{i}B,\,i=1,2$}@}, where, {@{as usual, $(e_{1},e_{2})$ is the canonical ordered basis of $\mathbb {R} ^{2}$}@}. In addition, we require {@{the function $D_{1}B-D_{2}A$ to be Riemann-integrable over $R$ \(annotation: same as before\)}@}.
 
@@ -149,7 +149,7 @@ Considering {@{only two-dimensional vector fields}@}, Green's theorem is {@{equi
 
 To see this, consider {@{the unit normal $\mathbf {\hat {n} }$}@} in the right side of the equation. Since in {@{Green's theorem $d\mathbf {r} =(dx,dy)$}@} is {@{a vector pointing tangential along the curve}@}, and the curve _C_ is {@{the positively oriented \(i.e. anticlockwise\) curve along the boundary}@}, {@{an outward normal}@} would be {@{a vector which points 90° to the right \(annotation: clockwise\) of this}@}; one choice would be {@{$(dy,-dx)$}@}. {@{The length of this vector}@} is {@{${\sqrt {dx^{2}+dy^{2} } }=ds$}@}. So {@{$(dy,-dx)=\mathbf {\hat {n} } \,ds$}@}.
 
-Start with {@{the left side of Green's theorem}@}: {@{$$\oint _{C}(L\,dx+M\,dy)=\oint _{C}(M,-L)\cdot (dy,-dx)=\oint _{C}(M,-L)\cdot \mathbf {\hat {n} } \,ds.$$}@} Applying {@{the two-dimensional divergence theorem with $\mathbf {F} =(M,-L)$}@}, we get {@{the right side of Green's theorem}@}: {@{$$\oint _{C}(M,-L)\cdot \mathbf {\hat {n} } \,ds=\iint _{D}\left(\nabla \cdot (M,-L)\right)\,dA=\iint _{D}\left({\frac {\partial M}{\partial x} }-{\frac {\partial L}{\partial y} }\right)\,dA.$$}@}
+Start with {@{the left side of Green's theorem}@}: {@{$$\oint _{C}(L\,dx+M\,dy)=\oint _{C}(M,-L)\cdot (dy,-dx)=\oint _{C}(M,-L)\cdot \mathbf {\hat {n} } \,ds.$$}@} Applying {@{the two-dimensional divergence theorem with $\mathbf {F} =(M,-L)$}@}, (annotation: Rotate {@{the original vector field clockwise by 90°}@}.) we get {@{the right side of Green's theorem}@}: {@{$$\oint _{C}(M,-L)\cdot \mathbf {\hat {n} } \,ds=\iint _{D}\left(\nabla \cdot (M,-L)\right)\,dA=\iint _{D}\left({\frac {\partial M}{\partial x} }-{\frac {\partial L}{\partial y} }\right)\,dA.$$}@}
 
 ## area calculation
 

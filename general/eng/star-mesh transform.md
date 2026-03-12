@@ -15,7 +15,7 @@ tags:
 
 # star-mesh transform
 
-The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}.
+{@{The __star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}.
 
 > {@{![star-mesh transform](../../archives/Wikimedia%20Commons/Star-mesh%20transform.svg)}@}
 
@@ -23,7 +23,7 @@ The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathem
 
 The transform {@{replaces _N_ resistors with ${\frac {1}{2} }N(N-1)$ resistors}@}. For {@{$N>3$, the result is an increase in the number of resistors}@}, so {@{the transform has no general inverse without additional constraints}@}.
 
-It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}.
+It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by repeatedly applying {@{the star-mesh transform to eliminate each non-terminal node}@}.
 
 ## special cases
 

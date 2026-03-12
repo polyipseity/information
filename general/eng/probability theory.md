@@ -91,7 +91,7 @@ That is, {@{the probability function _f_\(_x_\)}@} lies {@{between zero and one}
 
 {@{_Modern definition_}@}: If {@{the sample space of a random variable _X_}@} is {@{the set of [real numbers](real%20numbers.md) \($\mathbb {R}$\) or a subset thereof}@}, then {@{a function called the _[cumulative distribution function](cumulative%20distribution%20function.md)_ \(_CDF_\) $F\,$}@} exists, defined by {@{$F(x)=\mathbb {P} (X\leq x)\,$}@}. That is, _F_\(_x_\) returns {@{the probability that _X_ will be less than or equal to _x_}@}.
 
-{@{The CDF}@} necessarily satisfies{@{ the following properties}@}. (annotation: 3 items: {@{monotonically non-decreasing, right-continuous; limit at negative infinity is 0; limit at positive infinity is 1}@})
+{@{The CDF}@} necessarily satisfies {@{the following properties}@}. (annotation: 3 items: {@{monotonically non-decreasing, right-continuous; limit at negative infinity is 0; limit at positive infinity is 1}@})
 
 1. (annotation: monotonically non-decreasing, right-continuous) ::@:: $F\,$ is a [monotonically non-decreasing](monotonic%20function.md), [right-continuous](right-continuous.md#Directional%20Continuity) function;
 2. (annotation: limit at negative infinity is 0) ::@:: $\lim _{x\rightarrow -\infty }F(x)=0\,;$
@@ -105,9 +105,9 @@ For {@{a set $E\subseteq \mathbb {R}$}@}, {@{the probability of the random varia
 
 ### measure-theoretic probability theory
 
-{@{The utility of the measure-theoretic treatment}@} of probability is that it unifies the{@{ discrete and the continuous cases}@}, and makes the difference {@{a question of which measure is used}@}. Furthermore, it covers {@{distributions that are neither discrete nor continuous nor mixtures of the two}@}.
+{@{The utility of the measure-theoretic treatment}@} of probability is that it unifies {@{the discrete and the continuous cases}@}, and makes the difference {@{a question of which measure is used}@}. Furthermore, it covers {@{distributions that are neither discrete nor continuous nor mixtures of the two}@}.
 
-{@{An example of such distributions}@} could be a{@{ mix of discrete and continuous distributions}@}—for example, {@{a random variable}@} that is {@{0 with probability 1/2}@}, and takes {@{a random value from a normal distribution with probability 1/2}@}. It can still be {@{studied to some extent}@} by considering it to have {@{a PDF of $(\delta [x]+\varphi (x))/2$}@}, where $\delta [x]$ is {@{the [Dirac delta function](Dirac%20delta%20function.md)}@}.
+{@{An example of such distributions}@} could be {@{a mix of discrete and continuous distributions}@}—for example, {@{a random variable}@} that is {@{0 with probability 1/2}@}, and takes {@{a random value from a normal distribution with probability 1/2}@}. It can still be {@{studied to some extent}@} by considering it to have {@{a PDF of $(\delta [x]+\varphi (x))/2$}@}, where $\delta [x]$ is {@{the [Dirac delta function](Dirac%20delta%20function.md)}@}.
 
 {@{Other distributions}@} may not {@{even be a mix}@}, for example, {@{the [Cantor distribution](Cantor%20distribution.md)}@} has {@{no positive probability for any single point}@}, neither {@{does it have a density}@}. {@{The modern approach}@} to probability theory solves {@{these problems using [measure theory](measure%20theory.md)}@} to define {@{the [probability space](probability%20space.md)}@}:
 

@@ -121,7 +121,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 > {@{![4:1 MUX circuit using 3 input AND and other gates](../../archives/Wikimedia%20Commons/4to1%20MUX%20using%20basic%20gates.jpg)}@}
 >
-> {@{A 4:1 MUX circuit using 3 input AND and other gates}@}
+> {@{A 4:1 MUX circuit}@} using {@{3 input AND and other gates}@}
 
 ### chaining multiplexers and mux trees
 
@@ -131,7 +131,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 > {@{![[Signetics](signetics.md) S54S157 quad 2:1 mux](../../archives/Wikimedia%20Commons/54S157%20Signetics%208014%20package%20top.jpg)}@}
 >
-> {@{[Signetics](Signetics.md) S54S157 quad 2:1 mux}@}
+> {@{[Signetics](Signetics.md) S54S157}@} {@{quad 2:1 mux}@}
 
 For [7400 series](7400%20series.md) part numbers in the following table, "x" is the logic family.
 
@@ -149,7 +149,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 - See also: ::@:: [Inverse multiplexer](inverse%20multiplexer.md)
 
-Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They {@{forward the data input to one of the outputs depending on the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}.
+Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They forward {@{the data input to one of the outputs}@} depending on {@{the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}.
 
 If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$$A=(X\wedge \neg S)$$ <br/> $$B=(X\wedge S)$$}@}
 
@@ -161,7 +161,7 @@ If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$
 
 > {@{![[Fairchild](Fairchild%20Semiconductor.md) 74F138 1:8 demultiplexer](../../archives/Wikimedia%20Commons/ROCKY-518HV%20-%20Fairchild%2074F138-2387.jpg)}@}
 >
-> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138 1:8 demultiplexer}@}
+> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138}@} {@{1:8 demultiplexer}@}
 
 For [7400 series](7400%20series.md) part numbers in the following table, "x" is the logic family.
 

@@ -35,7 +35,7 @@ In computer science, applications of this type arise in [instruction scheduling]
 
 ## algorithms
 
-{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges, asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@}
+{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@}
 
 ### Kahn's algorithm
 
@@ -190,9 +190,9 @@ On {@{a [parallel random-access machine](Parallel%20RAM.md)}@}, {@{a topological
 
 In the following, it is assumed that {@{the graph partition is stored on _p_ processing elements \(PE\)}@}, which are {@{labeled $0,\dots ,p-1$}@}. Each PE _i_ {@{initializes a set of local vertices $Q_{i}^{1}$ with [indegree](directed%20graph.md#indegree%20and%20outdegree) 0}@}, where the upper index {@{represents the current iteration}@}. Since {@{all vertices in the local sets $Q_{0}^{1},\dots ,Q_{p-1}^{1}$ have indegree 0}@}, i.e., they are {@{not adjacent}@}, they {@{can be given in an arbitrary order for a valid topological sorting}@}. To {@{assign a global index to each vertex}@}, {@{a [prefix sum](prefix%20sum.md) is calculated over the sizes of $Q_{0}^{1},\dots ,Q_{p-1}^{1}$}@}. So, each step, there are {@{$\sum _{i=0}^{p-1}|Q_{i}|$ vertices added to the topological sorting}@}.
 
-> ![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)
+> {@{![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)}@}
 >
-> {@{Execution of the parallel topological sorting algorithm on a DAG with two processing elements.}@}
+> {@{Execution of the parallel topological sorting algorithm}@} on {@{a DAG with two processing elements}@}.
 
 In the first step, PE _j_ assigns {@{the $\lvert Q_j^1 \rvert$ indices $\sum _{i=0}^{j-1}|Q_{i}^{1}|,\dots ,\left(\sum _{i=0}^{j}|Q_{i}^{1}|\right)-1$ (the summation sign is for producing a prefix sum) to the $\lvert Q_j^1 \rvert$ local vertices in $Q_{j}^{1}$}@}. {@{These vertices in $Q_{j}^{1}$}@} are {@{removed, together with their corresponding outgoing edges}@}. For {@{each outgoing edge $(u,v)$ with endpoint _v_ in another PE $l,j\neq l$}@}, {@{the message $(u,v)$ is posted to PE _l_}@}. After {@{all vertices in $Q_{j}^{1}$ are removed}@}, {@{the posted messages are sent to their corresponding PE}@}. {@{Each message $(u,v)$ received}@} {@{updates the indegree of the local vertex _v_}@}. If {@{the indegree drops to zero}@}, {@{_v_ is added to $Q_{j}^{2}$}@}. Then {@{the next iteration starts}@}.
 
