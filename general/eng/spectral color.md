@@ -18,8 +18,8 @@ tags:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = ("[color](color.md)", "[wavelength](wavelength.md) ([nm](nanometer.md))", "[frequency](frequency.md) ([THz](hertz.md))", "[photon energy](photon%20energy.md) ([eV](electronvolt.md))",)
 table = (
   (f"{colored_block("#7f00ff")} [violet](violet%20(color).md)", "380–450", "670–790", "2.75–3.26",),
@@ -30,7 +30,7 @@ table = (
   (f"{colored_block("orange")} [orange](orange%20(color).md)", "590–625", "480–510", "1.98–2.10",),
   (f"{colored_block("red")} [red](red.md)", "625–750", "400–480", "1.65–1.98",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("d951", "5861",),
     headers, table,

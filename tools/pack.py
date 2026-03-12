@@ -1,20 +1,8 @@
 from argparse import ONE_OR_MORE, ZERO_OR_MORE, ArgumentParser, Namespace
-from asyncio import (
-    BoundedSemaphore,
-    Queue,
-    QueueEmpty,
-    TaskGroup,
-    create_task,
-    gather,
-    run,
-)
 from collections.abc import (
-    AsyncIterable,
     AsyncIterator,
-    Awaitable,
     Callable,
     Collection,
-    Iterator,
     Mapping,
     MutableSet,
     Sequence,
@@ -30,19 +18,18 @@ from os import PathLike, cpu_count
 from pathlib import PurePath
 from re import compile
 from sys import argv
-from types import EllipsisType
 from typing import (
     Any,
     AnyStr,
     NamedTuple,
-    TypeVar,
     final,
     override,
 )
 from urllib.parse import unquote
 from zipfile import ZIP_DEFLATED, ZipFile
 
-from anyio import Path
+from anyio import CapacityLimiter, Path
+from asyncer import SoonValue, asyncify, create_task_group, runnify
 from asyncstdlib import chain as a_chain
 from asyncstdlib import tuple as a_tuple
 from bs4 import BeautifulSoup
@@ -51,8 +38,7 @@ from numpy import array, float64, full, zeros
 from numpy.linalg import matrix_power
 from numpy.typing import NDArray
 
-_T = TypeVar("_T")
-_U = TypeVar("_U")
+# structural concurrency will be used instead of gather helper
 
 _CONCURRENCY = cpu_count() or 2
 _EMPTY_SET = frozenset[Any]()
@@ -107,11 +93,18 @@ async def main(args: Arguments) -> None:
             return
         yield file
 
-    output, root, files = await gather(
-        args.output.resolve(),
-        resolve_root(),
-        a_tuple(a_chain[Path].from_iterable(map(resolve_file, args.files))),
-    )
+    # resolve output, root, and file list concurrently
+    sv_output: SoonValue[Path] | None = None
+    sv_root: SoonValue[Path | None] | None = None
+    sv_files: SoonValue[tuple[Path, ...]] | None = None
+    async with create_task_group() as tg:
+        sv_output = tg.soonify(lambda: args.output.resolve())()
+        sv_root = tg.soonify(resolve_root)()
+        sv_files = tg.soonify(
+            lambda: a_tuple(a_chain[Path].from_iterable(map(resolve_file, args.files)))
+        )()
+    assert sv_output is not None and sv_root is not None and sv_files is not None
+    output, root, files = sv_output.value, sv_root.value, sv_files.value
     exclude_extensions = frozenset(args.exclude_extensions)
     args = replace(
         args,
@@ -137,7 +130,8 @@ async def main(args: Arguments) -> None:
         if file.suffix != ".md":
             return ProcessMarkdownFileResult(file, set(), set())
         text = await file.read_text()
-        html = markdown(text, output_format="html")
+        # markdown is synchronous and can be CPU-bound; run it in a worker thread
+        html = await asyncify(markdown)(text, output_format="html")
         link_paths = list[Path]()
         for a_tag in BeautifulSoup(html, "html.parser").find_all("a"):
             if not (href := a_tag.get("href")):
@@ -176,32 +170,37 @@ async def main(args: Arguments) -> None:
             reduce_ret, link_paths, ProcessMarkdownFileResult(file, set(), set())
         )
 
-    existing_paths = dict[Path, Set[Path]]()
+    existing_map: dict[Path, Set[Path]] = {}
     missing_paths = set[Path]()
-    queue = list(files)
 
-    async def queue_iter():
-        while queue:
-            yield queue.pop()
+    # Instead of iterating in discrete batches we spawn a single task
+    # group and allow workers to enqueue additional paths dynamically.
+    # A global CapacityLimiter bounds concurrent ``process_file`` calls.
+    async with create_task_group() as tg:
+        limiter = CapacityLimiter(_CONCURRENCY)
 
-    while queue:
-        async for ret in a_eager_map(
-            process_file, queue_iter(), concurrency=_CONCURRENCY
-        ):
+        async def worker(path: Path) -> None:
+            async with limiter:
+                ret = await process_file(path)
             if ret is None:
-                continue
-            path, existing, missing = ret
+                return
+            path2, existing, missing = ret
 
-            new_existing = set(existing)
-            new_existing.difference_update(existing_paths)
-            existing_paths.update({path: _EMPTY_SET for path in new_existing})
-            queue.extend(new_existing)
+            new_existing = set(existing) - existing_map.keys()
+            existing_map.update({p: _EMPTY_SET for p in new_existing})
+            # schedule newly discovered files for processing
+            for p in new_existing:
+                tg.start_soon(worker, p)
 
             missing_paths.update(missing)
-            existing_paths[path] = existing
+            existing_map[path2] = existing
+
+        # seed initial work
+        for item in files:
+            tg.start_soon(worker, item)
 
     common_parents = set(files[0].parents)
-    for path in existing_paths:
+    for path in existing_map:
         common_parents.intersection_update(path.parents)
     if root is None:
         common_parents = tuple(common_parents)
@@ -215,14 +214,14 @@ async def main(args: Arguments) -> None:
         args = replace(args, root=root)
     elif root not in common_parents:
         existing_paths_not_in_root = tuple(
-            root not in path.parents for path in existing_paths
+            root not in path.parents for path in existing_map
         )
         raise ValueError(
             f"The specified root does not contain all files to pack: {existing_paths_not_in_root}"
         )
 
     ordered_paths, stochastic_mat = modified_page_rank_stochastic_mat(
-        frozenset(files), existing_paths, damping=args.damping_factor
+        frozenset(files), existing_map, damping=args.damping_factor
     )
     ordered_paths_size = len(ordered_paths)
     page_ranks = full((ordered_paths_size, 1), 1 / ordered_paths_size, dtype=float64)
@@ -236,22 +235,25 @@ async def main(args: Arguments) -> None:
         except ValueError:
             return path.__fspath__()
 
-    existing_paths = sorted(
+    # produce a list of (relative_path, rank) pairs without mutating
+    # ``existing_paths`` which is still used as a dict above
+    ranked = sorted(
         (
             (try_make_relative(path), float(page_rank_map[path]))
-            for path in existing_paths
+            for path in existing_map
         ),
         key=lambda item: item[1],
         reverse=True,
     )
     filtered_paths = ()
     if args.count >= 0:
-        existing_paths, filtered_paths = (
-            existing_paths[: args.count],
-            existing_paths[args.count :],
+        ranked, filtered_paths = (
+            ranked[: args.count],
+            ranked[args.count :],
         )
-    existing_paths, filtered_paths = dict(existing_paths), dict(filtered_paths)
-    missing_paths = sorted(map(try_make_relative, missing_paths))
+    existing_paths, filtered_paths = dict(ranked), dict(filtered_paths)
+    # produce a sorted list version for metadata; keep original set intact
+    missing_paths_sorted = sorted(map(try_make_relative, missing_paths))
 
     filter_threshold = max(filtered_paths.values(), default=0)
 
@@ -289,7 +291,7 @@ async def main(args: Arguments) -> None:
                     "filter_threshold": filter_threshold,
                     "existing_paths": existing_paths,
                     "filtered_paths": filtered_paths,
-                    "missing_paths": missing_paths,
+                    "missing_paths": missing_paths_sorted,
                 },
                 ensure_ascii=False,
                 indent=4,
@@ -428,96 +430,13 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
     return parser
 
 
-# copied utilities
-
-
-async def a_eager_map(
-    func: Callable[[_T], Awaitable[_U]],
-    iterable: AsyncIterable[_T],
-    *,
-    concurrency: int = 1,
-    max_size: int = 0,
-) -> AsyncIterator[_U]:
-    """
-    Async map that eagerly evaluates. `func` is run in the same thread.
-
-    Exceptions are propagated in an exception group when the items with
-    exceptions are accessed.
-    The group of exceptions may include exceptions that occur during eager
-    submission of tasks.
-    """
-    queue = Queue[Awaitable[_U] | EllipsisType](max_size)
-
-    async def submit():
-        try:
-            concurrency_limiter = BoundedSemaphore(concurrency)
-
-            async def execute(item: _T):
-                async with concurrency_limiter:
-                    return await func(item)
-
-            async for item in iterable:
-                async with concurrency_limiter:
-                    task = create_task(execute(item))
-                    try:
-                        await queue.put(task)
-                    except BaseException:
-                        task.cancel()
-                        raise
-        finally:
-            await queue.put(...)
-
-    try:
-        async with TaskGroup() as tg:
-            submit_task = tg.create_task(submit())
-            async for item in a_iter_queue(queue):
-                if item is ...:
-                    break
-                yield await item
-        submit_task.result()
-    except BaseExceptionGroup as exc:  # type: ignore
-        # do not wrap `GeneratorExit` in an exception group
-        gen_exits = exc.subgroup(GeneratorExit)  # type: ignore
-        if gen_exits is not None:
-            raise gen_exits.exceptions[0]
-        raise
-    finally:
-        # stop and cleanup unconsumed awaitables
-        await gather(
-            *(awaitable for awaitable in iter_queue(queue) if awaitable is not ...),
-            return_exceptions=True,
-        )
-
-
-async def a_iter_queue(queue: Queue[_T]) -> AsyncIterator[_T]:
-    """
-    Iterate through a `Queue` without needing to call `task_done`.
-    """
-    while True:
-        ret = await queue.get()
-        try:
-            yield ret
-        finally:
-            queue.task_done()
-
-
-def iter_queue(queue: Queue[_T]) -> Iterator[_T]:
-    """
-    Iterate all items available now in `Queue`.
-    """
-    while True:
-        try:
-            ret = queue.get_nowait()
-        except QueueEmpty:
-            break
-        try:
-            yield ret
-        finally:
-            queue.task_done()
+def __main__():
+    """Entry point for running the script directly."""
+    __name__ = _FILE_PATH.stem  # noqa: F841
+    basicConfig(level=INFO)
+    entry = parser().parse_args(argv[1:])
+    runnify(entry.invoke, backend_options={"use_uvloop": True})(entry)
 
 
 if __name__ == "__main__":
-    __name__ = _FILE_PATH.stem
-    basicConfig(level=INFO)
-    entry = parser().parse_args(argv[1:])
-    run(entry.invoke(entry))
+    __main__()

@@ -1,0 +1,12 @@
+[tool.pyright]
+extends = "../../../pyproject.toml"
+venv = ".venv"
+venvPath = "../../.."
+
+[[tool.pyright.executionEnvironments]]
+extraPaths = ["."]
+reportPrivateUsage = "none"
+root = "tests_a7392be"
+
+[[tool.pyright.executionEnvironments]]
+root = "."

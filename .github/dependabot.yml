@@ -1,8 +1,37 @@
 # Dependabot configuration
-# See https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates
+# See <https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates>
 
 version: 2
+
+registries:
+  # See <https://github.com/dependabot/dependabot-core/issues/8027#issuecomment-1779394703>
+  github-private:
+    type: git
+    url: https://github.com
+    username: x-access-token
+    password: ${{secrets.CHECKOUT_GITHUB_TOKEN}}
+
 updates:
+  # Bun (bun.lock)
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "build"
+      prefix-development: "chore"
+      include: "scope"
+    groups:
+      bun:
+        patterns:
+          - "*"
+    exclude-paths:
+      # Meant to be vulnerable
+      - "special/academia/HKUST/COMP 3633/presentation 10/examples"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
+
   # GitHub Actions (workflow dependencies)
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -16,6 +45,26 @@ updates:
       github-actions:
         patterns:
           - "*"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
+
+  # Git submodules (gitmodules)
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "build"
+      prefix-development: "chore"
+      include: "scope"
+    groups:
+      gitsubmodule:
+        patterns:
+          - "*"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
 
   # NPM & pnpm (package.json, pnpm-lock.yaml, etc.)
   - package-ecosystem: "npm"
@@ -30,6 +79,12 @@ updates:
       npm:
         patterns:
           - "*"
+    exclude-paths:
+      # Meant to be vulnerable
+      - "special/academia/HKUST/COMP 3633/presentation 10/examples"
+    registries:
+      # Make all submodules clone successfully
+      - github-private
 
   # Python (pyproject.toml - dependency-groups / project.optional-dependencies).
   # We manage Python dependencies with `uv` and commit `uv.lock` for reproducible installs.
@@ -46,11 +101,9 @@ updates:
       uv:
         patterns:
           - "*"
-
-  # Disable updates for a specific directory
-  - package-ecosystem: "npm"
-    directory: "/special/academia/HKUST/COMP 3633/presentation 10/examples"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "*"
+    exclude-paths:
+      # wtf: <https://github.com/dependabot/dependabot-core/issues/13960>
+      - "LICENSE.txt"
+    registries:
+      # Make all submodules clone successfully
+      - github-private

@@ -1,3 +1,2 @@
-#!/bin/sh
-# Run test suite before pushing
-pnpm run test
+#!/usr/bin/env sh
+bun run -- test

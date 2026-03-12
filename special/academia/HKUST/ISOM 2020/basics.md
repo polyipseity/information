@@ -24,8 +24,8 @@ Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   ("`**`", "power",),
@@ -46,7 +46,7 @@ table = (
     "subtraction",
   ),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("93ab", "f21a",),
     headers,
@@ -96,8 +96,8 @@ Below are common comparison operators, all of which returns {@{a boolean}@}. {@{
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   ("`in`", "membership test",),
@@ -108,7 +108,7 @@ table = (
   ("`!=`", "not equal to",),
   ("`==`", "equal to",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("bd23", "d123",),
     headers,
@@ -170,15 +170,15 @@ Below are common logic operators, all of which {@{accept two booleans and return
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 headers = "operator", "description"
 table = (
   ("`not`", "negate",),
   ("`and`", "and",),
   ("`or`", "or",),
 )
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("2856", "d882",),
     headers,

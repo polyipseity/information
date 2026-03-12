@@ -24,7 +24,7 @@ tags:
 
 ```Python
 # pytextgen generate data
-from itertools import chain as _chain
+from itertools import chain
 return await memorize_map(
   __env__.cwf_sects("499f", "39dd", "f234",),
   {

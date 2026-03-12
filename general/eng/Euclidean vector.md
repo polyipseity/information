@@ -309,7 +309,7 @@ In {@{the language of [differential geometry](differential%20geometry.md)}@}, th
 
 One example of a pseudovector is {@{[angular velocity](angular%20velocity.md)}@}. Driving in {@{a [car](car.md), and looking forward}@}, each of the [wheels](wheel.md) has {@{an angular velocity vector pointing to the left}@}. If {@{the world is reflected in a mirror which switches the left and right side of the car}@}, {@{the _reflection_ of this angular velocity vector points to the right}@}, but {@{the actual angular velocity vector of the wheel still points to the left}@}, corresponding to {@{the minus sign}@}. Other examples of pseudovectors include {@{[magnetic field](magnetic%20field.md), [torque](torque.md), or more generally any cross product of two \(true\) vectors}@}. <!--SR:!2029-03-30,1171,352!2026-05-04,350,352!2026-05-09,350,352!2029-03-16,1157,352!2026-06-19,390,359!2029-08-15,1282,352!2026-05-30,371,359!2029-11-22,1348,352-->
 
-{@{This distinction between vectors and pseudovectors}@} is {@{often ignored}@}, but {@{it becomes important in studying [symmetry](symmetry.md) properties}@}. <!--SR:!2029-03-30,1156,352!2026-05-03,347,352!2028-12-10,996,332-->
+{@{This distinction between vectors and pseudovectors}@} is {@{often ignored}@}, but it becomes {@{important in studying [symmetry](symmetry.md) properties}@}. <!--SR:!2029-03-30,1156,352!2026-05-03,347,352!2028-12-10,996,332-->
 
 ## see also
 

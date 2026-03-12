@@ -89,7 +89,7 @@ return export_seq(hard,)
 
 ```Python
 # pytextgen generate module
-from asyncio import gather
+from asyncer import create_task_group
 from collections import defaultdict
 from itertools import starmap
 from pytextgen.compat.config import CONFIG
@@ -256,7 +256,9 @@ async def memorize_table(
   )
 
 async def read_states(locations: Iterable[Location]):
-  return await gather(*map(read_flashcard_states, locations))
+  async with create_task_group() as tg:
+    states = [tg.soonify(read_flashcard_states)(location) for location in locations]
+  return tuple(state.value for state in states)
 
 return export_seq(
   cloze,

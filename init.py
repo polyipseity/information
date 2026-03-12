@@ -1,94 +1,104 @@
-from argparse import (
-    ONE_OR_MORE as _ONE_OR_MORE,
-)
-from argparse import (
-    ArgumentParser as _ArgParser,
-)
-from argparse import (
-    Namespace as _NS,
-)
-from asyncio import Task, TaskGroup, create_task
-from asyncio import gather as _gather
-from asyncio import run as _run
-from collections import defaultdict as _defdict
+from argparse import ONE_OR_MORE, ArgumentParser, Namespace
+from collections import defaultdict
 from collections.abc import (
-    Awaitable as _Await,
+    AsyncIterator,
+    Awaitable,
+    Callable,
+    Collection,
+    Iterable,
+    MutableMapping,
+    Sequence,
 )
-from collections.abc import (
-    Callable as _Call,
-)
-from collections.abc import (
-    Collection as _Collect,
-)
-from collections.abc import (
-    MutableMapping as _MMap,
-)
-from collections.abc import (
-    Sequence as _Seq,
-)
-from dataclasses import dataclass as _dc
-from functools import wraps as _wraps
-from inspect import currentframe as _curframe
-from inspect import getframeinfo as _frameinfo
-from itertools import chain as _chain
-from itertools import starmap as _smap
-from itertools import zip_longest as _zip_l
-from json import dumps as _dumps
-from json import loads as _loads
-from json.decoder import JSONDecodeError as _JSONDecErr
-from logging import (
-    INFO as _INFO,
-)
-from logging import (
-    basicConfig as _basicConfig,
-)
-from logging import (
-    exception as _exc,
-)
-from logging import (
-    info as _info,
-)
-from operator import ne as _ne
-from os import fspath
-from os import linesep as _linesep
-from os import lstat as _lstat
-from os import walk as _walk
-from sys import argv as _argv
-from sys import exit as _exit
-from typing import (
-    Any as _Any,
-)
-from typing import (
-    final as _fin,
-)
+from dataclasses import dataclass
+from functools import wraps
+from inspect import currentframe, getframeinfo
+from itertools import chain, starmap, zip_longest
+from json import dumps, loads
+from json.decoder import JSONDecodeError
+from logging import INFO, basicConfig, exception, info
+from operator import ne
+from os import fspath, linesep, lstat
+from pathlib import PurePath
+from sys import argv, exit, stdin
+from typing import Any, final
 
-from aioshutil import rmtree as _rmtr
-from aioshutil import sync_to_async
-from anyio import Path as _Path
-from appdirs import AppDirs as _AppDirs  # type: ignore
-from pytextgen.main import parser as _pytextgen_parser
-from pytextgen.meta import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
+from aioshutil import rmtree
+from anyio import Path
+from appdirs import AppDirs  # type: ignore
+from asyncer import SoonValue, asyncify, create_task_group, runnify
+from pytextgen.main import parser as pytextgen_parser
+from pytextgen.meta import OPEN_TEXT_OPTIONS
 
-_EXCLUDES = (
-    ".git",
-    ".obsidian",
-    "node_modules",
-    "tools",
-)
+__all__ = ("Arguments", "main", "parser")
+
+# Gitignore-style spec: one pattern per line; order matters (last match wins).
+# Negated interpretation: pattern = include; !pattern = exclude. Default (no match) = excluded.
+_GLOB_SPEC = """
+general/**/*.md
+private/general/**/*.md
+private/special/**/*.md
+special/**/*.md
+"""
+
+
+def _iter_ignore_patterns(spec: str) -> Iterable[tuple[str, bool]]:
+    """Parse a gitignore-style, multi-line spec (negated: pattern = include, ! = exclude).
+
+    Yields (pattern, is_ignore) in order. is_ignore=True => exclude; False => include.
+    """
+    for raw in spec.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        is_ignore = line.startswith("!")
+        pattern = line[1:].strip() if line.startswith("!") else line
+        if not pattern:
+            continue
+        yield pattern, is_ignore
+
+
+def _path_matches_pattern(rel: PurePath, pattern: str) -> bool:
+    """Return True if rel (relative to root) matches the pattern.
+
+    Patterns with * or ? use pathlib match(); otherwise: single-segment patterns
+    match that name at any depth; multi-segment patterns match as a path prefix.
+    """
+    if "*" in pattern or "?" in pattern:
+        return rel.match(pattern)
+    parts = rel.parts
+    pat_parts = tuple(p for p in pattern.split("/") if p)
+    if not pat_parts:
+        return False
+    if len(pat_parts) == 1:
+        return pat_parts[0] in parts
+    if len(pat_parts) <= len(parts):
+        return parts[: len(pat_parts)] == pat_parts
+    return False
+
+
+def _is_ignored_by_spec(rel: PurePath, patterns: Sequence[tuple[str, bool]]) -> bool:
+    """Return True if rel should be ignored (excluded). Last match wins; default (no match) = excluded."""
+    ignored = True
+    for pattern, is_ignore in patterns:
+        if _path_matches_pattern(rel, pattern):
+            ignored = is_ignore
+    return ignored
+
+
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
-_LOCAL_APP_DIRS = _AppDirs(
+_LOCAL_APP_DIRS = AppDirs(
     appname=_NAME,
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
-_lstat_a = sync_to_async(_lstat)
+_lstat_a = asyncify(lstat)
 
 
-@_fin
-@_dc(
+@final
+@dataclass(
     init=True,
     repr=True,
     eq=True,
@@ -102,7 +112,7 @@ _lstat_a = sync_to_async(_lstat)
 class Arguments:
     prog: str
     cached: bool
-    arguments: _Seq[str]
+    arguments: Sequence[str]
 
     def __post_init__(self):
         object.__setattr__(self, "arguments", tuple(self.arguments))
@@ -110,20 +120,21 @@ class Arguments:
 
 async def main(args: Arguments):
     try:
-        frame = _curframe()
+        frame = currentframe()
         if frame is None:
             raise ValueError(frame)
-        folder = _Path(_frameinfo(frame).filename).parent
+        folder = Path(getframeinfo(frame).filename).parent
 
-        excludes: _Seq[_Path] = await _gather(
-            *(_Path(path).resolve(strict=True) for path in _EXCLUDES)
+        # parse gitignore-style spec (last match wins); list of (pattern, is_ignore)
+        ignore_patterns: list[tuple[str, bool]] = list(
+            _iter_ignore_patterns(_GLOB_SPEC)
         )
 
-        cache_folder = _Path(
+        cache_folder = Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
         ) / str((await _lstat_a(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
-            await _rmtr(cache_folder, ignore_errors=False)
+            await rmtree(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
 
         cache_data_path = cache_folder / "cache.json"
@@ -133,51 +144,44 @@ async def main(args: Arguments):
             )
         async with await cache_data_path.open(
             mode="r+t",
-            **_OPEN_TXT_OPTS,
+            **OPEN_TEXT_OPTIONS,
         ) as cache_data:
             try:
-                data: _MMap[str, _Any] = _loads(await cache_data.read())
-            except _JSONDecErr:
+                data: MutableMapping[str, Any] = loads(await cache_data.read())
+            except JSONDecodeError:
                 data = {}
-                _info("Cache data will be regenerated because it is empty or corrupted")
-            data = _defdict(dict, data)
-            finalizers = list[_Call[[], _Await[None]]]()
+                info("Cache data will be regenerated because it is empty or corrupted")
+            data = defaultdict(dict, data)
+            finalizers = list[Callable[[], Awaitable[None]]]()
 
             try:
-                old_args: _Collect[str] = data["args"]
+                old_args: Collection[str] = data["args"]
             except KeyError:
                 old_args = ()
             diff_args = any(
-                _smap(_ne, _zip_l(args.arguments, old_args, fillvalue=object()))
+                starmap(ne, zip_longest(args.arguments, old_args, fillvalue=object()))
             )
             data["args"] = args.arguments
 
             async def gen_inputs():
-                cache: _MMap[str, tuple[int, str]] = data["cache"]
+                cache: MutableMapping[str, tuple[int, str]] = data["cache"]
 
-                def on_error(err: OSError):
-                    try:
-                        raise err
-                    except OSError:
-                        _exc("Exception while walking folders")
-
-                async def maybe_yield(path: _Path):
+                async def maybe_yield(path: Path):
                     path_s = str(path)
 
                     def finalizer():
                         async def impl():
-                            open_opts = _OPEN_TXT_OPTS.copy()
+                            open_opts = OPEN_TEXT_OPTIONS.copy()
                             open_opts.update({"newline": ""})
                             async with await path.open(mode="r+t", **open_opts) as file:
                                 read = await file.read()
-                                seek = create_task(file.seek(0))
-                                try:
-                                    if (text := read.replace(_linesep, "\n")) != read:
-                                        await seek
-                                        await file.write(text)
-                                        await file.truncate()
-                                finally:
-                                    seek.cancel()
+                                # the original version spawned a background task to seek before
+                                # writing.  that micro-optimization is unnecessary with
+                                # AnyIO; just await the seek when needed.
+                                if (text := read.replace(linesep, "\n")) != read:
+                                    await file.seek(0)
+                                    await file.write(text)
+                                    await file.truncate()
                             cache[path_s] = (
                                 (await _lstat_a(path)).st_mtime_ns,
                                 text,
@@ -196,49 +200,63 @@ async def main(args: Arguments):
                     except KeyError:
                         return finalizer()
                     if (await _lstat_a(path)).st_mtime_ns != c_mtime:
-                        open_opts = _OPEN_TXT_OPTS.copy()
+                        open_opts = OPEN_TEXT_OPTIONS.copy()
                         open_opts.update({"newline": ""})
                         async with await path.open(mode="rt", **open_opts) as io:
                             text = await io.read()
                         if text != c_text:
                             return finalizer()
 
-                async def potential_files():
-                    for root, dirs, files in _walk(
-                        folder, topdown=True, onerror=on_error, followlinks=False
-                    ):
-                        if any(await _gather(*(ex.samefile(root) for ex in excludes))):
-                            dirs.clear()
-                            files.clear()
-                        for file in files:
-                            yield _Path(root, file)
+                async def candidate_md_files() -> AsyncIterator[Path]:
+                    """Yield .md paths under folder that pass the glob spec (not ignored)."""
+                    async for path in folder.rglob("*.md"):
+                        if await path.is_symlink():
+                            continue
+                        try:
+                            resolved = await path.resolve(strict=True)
+                            rel = PurePath(resolved).relative_to(folder)
+                        except (ValueError, OSError):
+                            continue
+                        if _is_ignored_by_spec(rel, ignore_patterns):
+                            continue
+                        yield path
 
-                results = list[_Path]()
+                results = list[Path]()
 
-                async def process_file(file: _Path):
+                async def process_file(file: Path) -> Path | None:
+                    # return the path when it should be included, otherwise None
                     if await file.is_symlink():
-                        return
+                        return None
                     path = await file.resolve(strict=True)
-                    if path.suffix != ".md" or any(
-                        await _gather(*(ex.samefile(path) for ex in excludes))
-                    ):
-                        return
+                    if path.suffix != ".md":
+                        return None
+                    try:
+                        rel = PurePath(path).relative_to(folder)
+                    except ValueError:
+                        return None  # path outside folder, skip
+                    if _is_ignored_by_spec(rel, ignore_patterns):
+                        return None
                     finalize = await maybe_yield(path)
                     if finalize is not None:
                         finalizers.append(finalize)
-                        results.append(path)
+                        return path
+                    return None
 
-                async with TaskGroup() as tg:
-                    tasks = list[Task[object]]()
-                    async for file in potential_files():
-                        tasks.append(tg.create_task(process_file(file)))
+                # generate candidates from spec-filtered rglob, then process concurrently
+                soon_values: list[SoonValue[Path | None]] = []
+                async with create_task_group() as tg:
+                    async for file in candidate_md_files():
+                        soon_values.append(tg.soonify(process_file)(file))
+
+                # gather completed paths, filtering out Nones
+                results = [p for p in (sv.value for sv in soon_values) if p is not None]
                 return results
 
             inputs = await gen_inputs()
-            _info(f"Using {len(inputs)} input(s)")
+            info(f"Using {len(inputs)} input(s)")
             try:
-                entry = _pytextgen_parser().parse_args(
-                    tuple(_chain(args.arguments, ("--",), map(fspath, inputs)))
+                entry = pytextgen_parser().parse_args(
+                    tuple(chain(args.arguments, ("--",), map(fspath, inputs)))
                 )
                 await entry.invoke(entry)
                 success = True
@@ -246,28 +264,32 @@ async def main(args: Arguments):
                 success = ex.code == 0
 
             if success:
-                await _gather(
-                    cache_data.seek(0), *(finalizer() for finalizer in finalizers)
-                )
+                async with create_task_group() as tg:
+                    tg.start_soon(cache_data.seek, 0)
+                    for finalizer in finalizers:
+                        tg.start_soon(finalizer)
                 await cache_data.write(
-                    _dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
+                    dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
                 )
                 await cache_data.truncate()
     except Exception:
-        _exc("Uncaught exception")
+        exception("Uncaught exception")
     finally:
-        _info("Press <enter> to exit")
-        try:
-            input()
-        except EOFError:
-            pass
-    _exit(0)
+        # Only wait for Enter when not in an interactive terminal (e.g. double-click
+        # launcher), so CLI runs (generate -C, CI) exit immediately.
+        if stdin.isatty():
+            info("Press <enter> to exit")
+            try:
+                input()
+            except EOFError:
+                pass
+    exit(0)
 
 
-def parser(parent: _Call[..., _ArgParser] | None = None):
-    prog = _argv[0]
+def parser(parent: Callable[..., ArgumentParser] | None = None):
+    prog = argv[0]
 
-    parser = (_ArgParser if parent is None else parent)(
+    parser = (ArgumentParser if parent is None else parent)(
         prog=prog,
         description="input wrapper for tools",
         add_help=True,
@@ -294,12 +316,12 @@ def parser(parent: _Call[..., _ArgParser] | None = None):
     parser.add_argument(
         "arguments",
         action="store",
-        nargs=_ONE_OR_MORE,
+        nargs=ONE_OR_MORE,
         help="sequence of argument(s) to pass through",
     )
 
-    @_wraps(main)
-    async def invoke(args: _NS):
+    @wraps(main)
+    async def invoke(args: Namespace):
         await main(
             Arguments(
                 prog=prog,
@@ -312,7 +334,12 @@ def parser(parent: _Call[..., _ArgParser] | None = None):
     return parser
 
 
+def __main__() -> None:
+    """Entry point for running the script directly."""
+    basicConfig(level=INFO)
+    entry = parser().parse_args(argv[1:])
+    runnify(entry.invoke, backend_options={"use_uvloop": True})(entry)
+
+
 if __name__ == "__main__":
-    _basicConfig(level=_INFO)
-    entry = parser().parse_args(_argv[1:])
-    _run(entry.invoke(entry))
+    __main__()

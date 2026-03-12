@@ -1,10 +1,10 @@
-from asyncio import run
 from collections.abc import Callable, Mapping
 from itertools import chain
 from re import Pattern, compile, escape
 from unicodedata import normalize
 
 from anyio import Path
+from asyncer import runnify
 from pyperclip import copy  # type: ignore
 
 
@@ -42,5 +42,10 @@ async def main() -> None:
     print(":)")
 
 
+def __main__():
+    """Entry point for running the script directly."""
+    runnify(main, backend_options={"use_uvloop": True})()
+
+
 if __name__ == "__main__":
-    run(main())
+    __main__()

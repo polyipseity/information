@@ -35,7 +35,7 @@ In computer science, applications of this type arise in [instruction scheduling]
 
 ## algorithms
 
-{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges, asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!2026-06-06,445,379!2031-04-14,1864,391-->
+{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!2026-06-06,445,379!2031-04-14,1864,391-->
 
 ### Kahn's algorithm
 
@@ -190,9 +190,9 @@ On {@{a [parallel random-access machine](Parallel%20RAM.md)}@}, {@{a topological
 
 In the following, it is assumed that {@{the graph partition is stored on _p_ processing elements \(PE\)}@}, which are {@{labeled $0,\dots ,p-1$}@}. Each PE _i_ {@{initializes a set of local vertices $Q_{i}^{1}$ with [indegree](directed%20graph.md#indegree%20and%20outdegree) 0}@}, where the upper index {@{represents the current iteration}@}. Since {@{all vertices in the local sets $Q_{0}^{1},\dots ,Q_{p-1}^{1}$ have indegree 0}@}, i.e., they are {@{not adjacent}@}, they {@{can be given in an arbitrary order for a valid topological sorting}@}. To {@{assign a global index to each vertex}@}, {@{a [prefix sum](prefix%20sum.md) is calculated over the sizes of $Q_{0}^{1},\dots ,Q_{p-1}^{1}$}@}. So, each step, there are {@{$\sum _{i=0}^{p-1}|Q_{i}|$ vertices added to the topological sorting}@}. <!--SR:!2030-08-25,1666,378!2030-05-09,1562,379!2029-04-16,1249,371!2030-07-25,1639,378!2029-11-10,1425,367!2026-06-04,443,379!2030-09-20,1687,378!2026-06-11,449,379!2026-04-25,409,371!2031-01-14,1779,378-->
 
-> ![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)
+> {@{![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)}@}
 >
-> {@{Execution of the parallel topological sorting algorithm on a DAG with two processing elements.}@} <!--SR:!2029-11-20,1344,358-->
+> {@{Execution of the parallel topological sorting algorithm}@} on {@{a DAG with two processing elements}@}. <!--SR:!2029-11-20,1344,358-->
 
 In the first step, PE _j_ assigns {@{the $\lvert Q_j^1 \rvert$ indices $\sum _{i=0}^{j-1}|Q_{i}^{1}|,\dots ,\left(\sum _{i=0}^{j}|Q_{i}^{1}|\right)-1$ (the summation sign is for producing a prefix sum) to the $\lvert Q_j^1 \rvert$ local vertices in $Q_{j}^{1}$}@}. {@{These vertices in $Q_{j}^{1}$}@} are {@{removed, together with their corresponding outgoing edges}@}. For {@{each outgoing edge $(u,v)$ with endpoint _v_ in another PE $l,j\neq l$}@}, {@{the message $(u,v)$ is posted to PE _l_}@}. After {@{all vertices in $Q_{j}^{1}$ are removed}@}, {@{the posted messages are sent to their corresponding PE}@}. {@{Each message $(u,v)$ received}@} {@{updates the indegree of the local vertex _v_}@}. If {@{the indegree drops to zero}@}, {@{_v_ is added to $Q_{j}^{2}$}@}. Then {@{the next iteration starts}@}. <!--SR:!2028-04-04,935,351!2026-06-01,441,379!2030-12-15,1754,378!2026-05-19,429,379!2026-04-27,411,371!2027-10-04,796,339!2026-04-24,408,371!2026-04-08,396,371!2026-04-04,393,371!2026-03-31,386,358!2029-07-06,1300,358!2026-04-01,387,358-->
 

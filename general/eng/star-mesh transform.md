@@ -15,7 +15,7 @@ tags:
 
 # star-mesh transform
 
-The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}. <!--SR:!2029-05-10,1179,350!2029-06-14,1205,350!2028-01-04,776,330-->
+{@{The __star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}. <!--SR:!2029-05-10,1179,350!2029-06-14,1205,350!2028-01-04,776,330-->
 
 > {@{![star-mesh transform](../../archives/Wikimedia%20Commons/Star-mesh%20transform.svg)}@} <!--SR:!2029-01-29,1097,350-->
 
@@ -23,7 +23,7 @@ The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathem
 
 The transform {@{replaces _N_ resistors with ${\frac {1}{2} }N(N-1)$ resistors}@}. For {@{$N>3$, the result is an increase in the number of resistors}@}, so {@{the transform has no general inverse without additional constraints}@}. <!--SR:!2029-01-28,1096,350!2029-05-28,1192,350!2029-02-25,1118,350-->
 
-It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2029-07-27,1241,350!2026-03-27,288,330!2029-08-18,1258,350-->
+It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by repeatedly applying {@{the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2029-07-27,1241,350!2026-03-27,288,330!2029-08-18,1258,350-->
 
 ## special cases
 

@@ -8,9 +8,11 @@
 # self {
 **/*.csv
 **/*.xml
+**/.obsidian/
+**/bun.lock
 **/package-lock.json
 **/pnpm-lock.yaml
-**/.obsidian/
+**/yarn.lock
 # sync with `private/.prettierignore`
 /private/special/academia/HKUST/**/*assignment*/**/*.html
 /private/special/academia/HKUST/**/*exercise*/**/*.html

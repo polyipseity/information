@@ -20,8 +20,8 @@ A __reactivity series__ is {@{a progression of series of [metals](metal.md) arra
 
 ```Python
 # pytextgen generate data
-from asyncio import gather as _gather
-from itertools import chain as _chain
+from asyncio import gather
+from itertools import chain
 
 r_water = "reacts with cold [water](water.md)"
 r_mg = "reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)"
@@ -69,7 +69,7 @@ table = (
   ("[platinum](platinum.md)", "Pt<sup>4+</sup>", r_ox, e_phy,),
 )
 
-return _chain.from_iterable(await _gather(
+return chain.from_iterable(await gather(
   memorize_table(
     __env__.cwf_sects("a2994d", "299018"), headers, table,
     pretext="most reactive", posttext="least reactive",

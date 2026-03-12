@@ -1,7 +1,7 @@
 # CI: Build & Test
 #
 # Purpose:
-#   - Run repository checks: setup pnpm, install dependencies, and run `pnpm run check`.
+#   - Run repository checks: setup bun, install dependencies, and run `bun run check`.
 #   - Ensure a minimal, reproducible environment for quick CI feedback.
 #
 # Triggers:
@@ -9,7 +9,7 @@
 #
 # Security & reproducibility notes:
 #   - Use least-privilege permissions (contents: read) and pin action versions where appropriate.
-#   - Use local caches for pnpm/uv to speed builds and reduce external load.
+#   - Use local caches for bun/uv to speed builds and reduce external load.
 #
 # Workflow inputs (new)
 # - `fallback_submodules` (workflow_dispatch input): newline-separated list of
@@ -58,7 +58,7 @@ jobs:
     steps:
       # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
       - name: Get token from GitHub App
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v2
         id: checkout-app-token
         continue-on-error: true # continue even if private repo access fails
         with:
@@ -124,16 +124,8 @@ jobs:
           $FALLBACK_SUBMODULES
           EOF
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-
-      - name: Install Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: "*"
-          cache: "pnpm"
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
@@ -143,11 +135,11 @@ jobs:
 
       - name: Install project
         run: |
-          pnpm install --frozen-lockfile --ignore-scripts
+          bun install --frozen-lockfile --ignore-scripts
           uv sync --locked --all-extras --dev
 
       - name: Run tests
-        run: pnpm run test
+        run: bun run test
 
       - name: Build project
-        run: pnpm run build
+        run: bun run build

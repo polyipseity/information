@@ -1,6 +1,4 @@
 from argparse import ArgumentParser, Namespace
-from asyncio import BoundedSemaphore, create_subprocess_exec, gather, run
-from asyncio.subprocess import DEVNULL, PIPE
 from collections import defaultdict
 from collections.abc import Callable, MutableSet
 from dataclasses import dataclass
@@ -9,18 +7,20 @@ from logging import INFO, basicConfig, error, info
 from os import cpu_count
 from pathlib import PurePath
 from shlex import quote
+from subprocess import DEVNULL, PIPE
 from sys import argv
 from tempfile import NamedTemporaryFile, TemporaryDirectory
 from typing import Any, final
 
 from aioshutil import which
-from anyio import AsyncFile, Path
+from anyio import AsyncFile, Path, Semaphore, run_process
+from asyncer import SoonValue, create_task_group, runnify
 
 _FILE_PATH = PurePath(__file__)
 _MESSAGE_PROPERTY_KEY = b"Private-commit"
 _PRIVATE_GIT_DIRECTORY = _FILE_PATH / "../../private/.git"
 _PUBLIC_GIT_DIRECTORY = _FILE_PATH / "../../.git"
-_SUBPROCESS_SEMAPHORE = BoundedSemaphore(cpu_count() or 4)
+_SUBPROCESS_SEMAPHORE = Semaphore(cpu_count() or 4)
 _VERSION = "∞"
 
 
@@ -49,23 +49,22 @@ async def _which2(cmd: str) -> str:
     return ret
 
 
-@wraps(create_subprocess_exec)
+@wraps(run_process)
 async def _exec(
     *args: Any, input: bytes | bytearray | memoryview | None = None, **kwargs: Any
 ) -> tuple[str, str]:
     async with _SUBPROCESS_SEMAPHORE:
-        proc = await create_subprocess_exec(
+        proc = await run_process(
             *args,
+            input=None if input is None else bytes(input),
             stdin=DEVNULL if input is None else PIPE,
             stdout=PIPE,
             stderr=PIPE,
             **kwargs,
         )
-        stdout, stderr = await proc.communicate(input=input)
-        await proc.wait()
     stdout, stderr = (
-        stdout.decode(errors="backslashreplace"),
-        stderr.decode(errors="backslashreplace"),
+        proc.stdout.decode(errors="backslashreplace"),
+        proc.stderr.decode(errors="backslashreplace"),
     )
     if stdout:
         info(stdout)
@@ -86,12 +85,25 @@ async def main(args: Arguments) -> None:
         ret.discard("")
         return ret
 
-    pri_git_dir, pub_git_dir, git_exe, paths = await gather(
-        Path(_PRIVATE_GIT_DIRECTORY).resolve(strict=True),
-        Path(_PUBLIC_GIT_DIRECTORY).resolve(strict=True),
-        _which2("git"),
-        read_paths(),
+    sv_pri: SoonValue[Path] | None = None
+    sv_pub: SoonValue[Path] | None = None
+    sv_git: SoonValue[str] | None = None
+    sv_paths: SoonValue[set[str]] | None = None
+    async with create_task_group() as tg:
+        sv_pri = tg.soonify(Path(_PRIVATE_GIT_DIRECTORY).resolve)(strict=True)
+        sv_pub = tg.soonify(Path(_PUBLIC_GIT_DIRECTORY).resolve)(strict=True)
+        sv_git = tg.soonify(_which2)("git")
+        sv_paths = tg.soonify(read_paths)()
+    assert (
+        sv_pri is not None
+        and sv_pub is not None
+        and sv_git is not None
+        and sv_paths is not None
     )
+    pri_git_dir = sv_pri.value
+    pub_git_dir = sv_pub.value
+    git_exe = sv_git.value
+    paths = sv_paths.value
 
     info(f"Paths: {paths}")
     if not args.allow_trailing_whitespaces_in_paths and any(
@@ -239,8 +251,13 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
     return parser
 
 
-if __name__ == "__main__":
-    __name__ = _FILE_PATH.stem
+def __main__() -> None:
+    """Entry point for running the script directly."""
+    __name__ = _FILE_PATH.stem  # noqa: F841
     basicConfig(level=INFO)
     entry = parser().parse_args(argv[1:])
-    run(entry.invoke(entry))
+    runnify(entry.invoke, backend_options={"use_uvloop": True})(entry)
+
+
+if __name__ == "__main__":
+    __main__()

@@ -1,5 +1,4 @@
-from asyncio import gather, run
-from collections.abc import Mapping, MutableSet
+from collections.abc import Awaitable, Mapping, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
 from json import load
@@ -13,6 +12,7 @@ from urllib.parse import quote, unquote
 
 from aiohttp import ClientSession, TCPConnector
 from anyio import Path
+from asyncer import SoonValue, create_task_group, runnify
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString, PageElement, PreformattedString
 from country_converter import convert
@@ -692,7 +692,19 @@ async def wiki_html_to_plaintext(
                 session=session,
             )
 
-    strings = joiner.join(await gather(*process_children()))
+    # concurrently evaluate each child coroutine preserving order
+    soon_values: list[SoonValue[str]] = []
+
+    async with create_task_group() as tg:
+        # inline helper capturing the specific coroutine
+        async def _identity(c: Awaitable[str]) -> str:
+            return await c
+
+        for coro in process_children():
+            soon_values.append(tg.soonify(_identity)(coro))
+
+    # by the time we exit the async with block all tasks have finished
+    strings = joiner.join(sv.value for sv in soon_values)
     strings = process_strings(strings)
 
     return strings and f"{prefix}{strings}{suffix}"
@@ -746,5 +758,10 @@ async def main() -> None:
     print(":)")
 
 
+def __main__() -> None:
+    """Entry point for running the script directly."""
+    runnify(main, backend_options={"use_uvloop": True})()
+
+
 if __name__ == "__main__":
-    run(main())
+    __main__()
