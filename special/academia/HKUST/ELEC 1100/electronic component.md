@@ -28,8 +28,8 @@ Electronic components are the building blocks used in electronic circuits. They 
 
 Flashcards for this section are as follows:
 
-- electronic component definition ::@:: Electronic components are the building blocks used in electronic circuits that influence the behaviour of currents and voltages. <!--SR:!2026-05-12,54,310!2026-03-20,15,290-->
-- passive vs active examples ::@:: Passive elements like resistors and capacitors contrast with active semiconductor devices such as diodes and transistors. <!--SR:!2026-03-21,16,290!2026-03-20,15,290-->
+- electronic component definition ::@:: Electronic components are the building blocks used in electronic circuits that influence the behaviour of currents and voltages. <!--SR:!2026-05-12,54,310!2026-05-20,61,310-->
+- passive vs active examples ::@:: Passive elements like resistors and capacitors contrast with active semiconductor devices such as diodes and transistors. <!--SR:!2026-03-21,16,290!2026-05-17,58,310-->
 - course context ::@:: In ELEC 1100, electronic components also includes basic electrical concepts needed to understand how components operate. <!--SR:!2026-05-15,57,310!2026-05-14,56,310-->
 - active device examples ::@:: Active semiconductor devices include diodes and transistors, distinguishing them from passive elements. <!--SR:!2026-05-13,55,310!2026-03-21,16,290-->
 
@@ -41,10 +41,10 @@ Electricity results from electric charge. When charges accumulate at rest the ph
 
 Flashcards for this section are as follows:
 
-- electricity ::@:: Electricity is the flow of electrical power or charge; static electricity occurs when charges gather in one place and current electricity is when they move. <!--SR:!2026-05-15,57,310!2026-03-20,15,290-->
-- static electricity ::@:: Electrical effects caused by an imbalance of positive and negative charges between objects. <!--SR:!2026-03-20,15,290!2026-03-21,16,290-->
+- electricity ::@:: Electricity is the flow of electrical power or charge; static electricity occurs when charges gather in one place and current electricity is when they move. <!--SR:!2026-05-15,57,310!2026-05-17,58,310-->
+- static electricity ::@:: Electrical effects caused by an imbalance of positive and negative charges between objects. <!--SR:!2026-05-17,58,310!2026-03-21,16,290-->
 - charge attraction/repulsion ::@:: Opposite charges attract; like charges repel. <!--SR:!2026-04-30,42,290!2026-05-15,57,310-->
-- current electricity focus ::@:: Current electricity refers to moving charges and is the primary focus of ELEC 1100. <!--SR:!2026-03-21,16,290!2026-03-20,15,290-->
+- current electricity focus ::@:: Current electricity refers to moving charges and is the primary focus of ELEC 1100. <!--SR:!2026-03-21,16,290!2026-05-20,61,310-->
 
 ### atoms and charge
 
@@ -54,9 +54,9 @@ Atoms consist of positively charged protons, neutral neutrons and negatively cha
 
 Flashcards for this section are as follows:
 
-- outer electrons conduction ::@:: Electrons in the outermost orbit are held most weakly and can be added or removed easily, which is why they participate in conduction. <!--SR:!2026-03-20,15,290!2026-03-20,15,290-->
-- atom structure ::@:: An atom consists of protons (positive), neutrons (neutral), and electrons (negative); it is electrically neutral when protons equal electrons. <!--SR:!2026-03-20,15,290!2026-05-13,55,310-->
-- elementary charge ::@:: The smallest amount of electric charge is the charge of one proton or electron, q = 1.6×10⁻¹⁹ C. <!--SR:!2026-05-12,54,310!2026-03-20,15,290-->
+- outer electrons conduction ::@:: Electrons in the outermost orbit are held most weakly and can be added or removed easily, which is why they participate in conduction. <!--SR:!2026-05-22,63,310!2026-05-21,62,310-->
+- atom structure ::@:: An atom consists of protons (positive), neutrons (neutral), and electrons (negative); it is electrically neutral when protons equal electrons. <!--SR:!2026-05-18,59,310!2026-05-13,55,310-->
+- elementary charge ::@:: The smallest amount of electric charge is the charge of one proton or electron, q = 1.6×10⁻¹⁹ C. <!--SR:!2026-05-12,54,310!2026-05-22,63,310-->
 - charge imbalance ::@:: When atoms lose electrons they become positively charged; when they gain electrons they become negatively charged. <!--SR:!2026-03-21,16,290!2026-03-21,16,290-->
 
 ### conductors and insulators
@@ -67,9 +67,9 @@ Materials are classified by how easily charges can move through them. Metals are
 
 Flashcards for this section are as follows:
 
-- material classification ::@:: Materials are classified by how easily charges can move through them, with conductors allowing easy flow and insulators restricting movement. <!--SR:!2026-03-20,15,290!2026-03-21,16,290-->
-- conductor definition ::@:: A conductor is a material through which charge flows readily because its atoms require little energy to remove outer electrons. <!--SR:!2026-03-20,15,290!2026-03-20,15,290-->
-- insulator definition ::@:: An insulator is a material that does not allow charge to move easily due to tightly bound electrons. <!--SR:!2026-05-13,55,310!2026-03-20,15,290-->
+- material classification ::@:: Materials are classified by how easily charges can move through them, with conductors allowing easy flow and insulators restricting movement. <!--SR:!2026-05-20,61,310!2026-03-21,16,290-->
+- conductor definition ::@:: A conductor is a material through which charge flows readily because its atoms require little energy to remove outer electrons. <!--SR:!2026-05-19,60,310!2026-05-22,63,310-->
+- insulator definition ::@:: An insulator is a material that does not allow charge to move easily due to tightly bound electrons. <!--SR:!2026-05-13,55,310!2026-05-19,60,310-->
 
 ### current
 
@@ -79,7 +79,7 @@ By convention, current direction is defined as the direction positive charges wo
 
 Flashcards for this section are as follows:
 
-- current definition ::@:: Current is the orderly movement of charged particles; I = Δq/Δt, measured in amperes (1 A = 1 C/s). <!--SR:!2026-03-20,15,290!2026-05-16,58,310-->
+- current definition ::@:: Current is the orderly movement of charged particles; I = Δq/Δt, measured in amperes (1 A = 1 C/s). <!--SR:!2026-05-19,60,310!2026-05-16,58,310-->
 - current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second. <!--SR:!2026-05-16,58,310!2026-03-21,16,290-->
 - electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow). <!--SR:!2026-03-21,16,290!2026-03-21,16,290-->
 
@@ -111,10 +111,10 @@ Flashcards for this section are as follows:
 - resistance definition ::@:: Resistance is a measure of the difficulty in passing current through a substance. <!--SR:!2026-05-14,56,310!2026-05-16,58,310-->
 - unit of resistance ::@:: The unit of resistance is the ohm (Ω), symbol R. <!--SR:!2026-03-21,16,290!2026-05-13,55,310-->
 - resistivity formula ::@:: R = ρ·(L/A) for a wire of length L and area A. <!--SR:!2026-03-21,16,290!2026-05-14,56,310-->
-- resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value. <!--SR:!2026-05-16,58,310!2026-03-20,15,290-->
+- resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value. <!--SR:!2026-05-16,58,310!2026-05-18,59,310-->
 - resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance. <!--SR:!2026-05-12,54,310!2026-03-21,16,290-->
-- Ohm's law ::@:: V = I·R; an I–V plot for a resistor is a straight line with slope 1/R. <!--SR:!2026-03-20,15,290!2026-03-21,16,290-->
-- Ohm's law example ::@:: With V = 5 V and R = 200 Ω, the current is I = 25 mA. <!--SR:!2026-03-21,16,290!2026-03-20,15,290-->
+- Ohm's law ::@:: V = I·R; an I–V plot for a resistor is a straight line with slope 1/R. <!--SR:!2026-05-21,62,310!2026-03-21,16,290-->
+- Ohm's law example ::@:: With V = 5 V and R = 200 Ω, the current is I = 25 mA. <!--SR:!2026-03-21,16,290!2026-05-21,62,310-->
 - multimeter use ::@:: Digital multimeters may be used to measure resistance, voltage, or current in laboratory circuits. <!--SR:!2026-05-01,43,290!2026-05-13,55,310-->
 - metric prefixes ::@:: Prefixes such as kilo (k = 10³) and milli (m = 10⁻³) are applied to ohms and amperes (e.g. 10 kΩ = 10000 Ω; 50 mA = 0.05 A). <!--SR:!2026-05-16,58,310!2026-03-21,16,290-->
 
@@ -127,11 +127,11 @@ A capacitor consists of two conductive plates separated by an insulating materia
 Flashcards for this section are as follows:
 
 - capacitor definition ::@:: A capacitor is a passive device that can store electrical energy when connected to a voltage source. <!--SR:!2026-05-14,56,310!2026-05-15,57,310-->
-- capacitor structure ::@:: A capacitor consists of two conductive plates separated by an insulating material. <!--SR:!2026-05-15,57,310!2026-03-20,15,290-->
-- capacitor energy storage ::@:: When a voltage is applied, opposite charges accumulate on the plates, storing electrical energy. <!--SR:!2026-05-13,55,310!2026-03-20,15,290-->
-- capacitor action ::@:: When connected, the capacitor charges and current flows; when disconnected it discharges and can keep a lamp lit for a while. <!--SR:!2026-03-20,15,290!2026-05-14,56,310-->
-- capacitor discharge ::@:: If the voltage source is removed the capacitor can discharge and supply current for a short period, temporarily powering a circuit. <!--SR:!2026-05-14,56,310!2026-03-20,15,290-->
-- capacitor analog ::@:: The water analog for a capacitor is a tank that stores fluid under pressure; the capacitor stores charge under voltage. <!--SR:!2026-03-20,15,290!2026-03-21,16,290-->
+- capacitor structure ::@:: A capacitor consists of two conductive plates separated by an insulating material. <!--SR:!2026-05-15,57,310!2026-05-21,62,310-->
+- capacitor energy storage ::@:: When a voltage is applied, opposite charges accumulate on the plates, storing electrical energy. <!--SR:!2026-05-13,55,310!2026-05-20,61,310-->
+- capacitor action ::@:: When connected, the capacitor charges and current flows; when disconnected it discharges and can keep a lamp lit for a while. <!--SR:!2026-05-22,63,310!2026-05-14,56,310-->
+- capacitor discharge ::@:: If the voltage source is removed the capacitor can discharge and supply current for a short period, temporarily powering a circuit. <!--SR:!2026-05-14,56,310!2026-05-18,59,310-->
+- capacitor analog ::@:: The water analog for a capacitor is a tank that stores fluid under pressure; the capacitor stores charge under voltage. <!--SR:!2026-05-19,60,310!2026-03-21,16,290-->
 
 ### capacitor actions
 
@@ -145,6 +145,6 @@ Simple circuits illustrate how a capacitor changes transient behaviour. Without 
 
 Flashcards for this section are as follows:
 
-- capacitor action ::@:: A capacitor charges when connected and discharges when disconnected, smoothing voltage changes and temporarily powering loads. <!--SR:!2026-05-16,58,310!2026-03-20,15,290-->
-- parallel capacitor role ::@:: Placing a capacitor in parallel with a load gives the circuit a charge reservoir that helps smooth transient behaviour when switches change state. <!--SR:!2026-03-20,15,290!2026-03-20,15,290-->
+- capacitor action ::@:: A capacitor charges when connected and discharges when disconnected, smoothing voltage changes and temporarily powering loads. <!--SR:!2026-05-16,58,310!2026-05-19,60,310-->
+- parallel capacitor role ::@:: Placing a capacitor in parallel with a load gives the circuit a charge reservoir that helps smooth transient behaviour when switches change state. <!--SR:!2026-05-17,58,310!2026-05-18,59,310-->
 - capacitor sequence ::@:: Switch off, lamp off; switch on, lamp on and capacitor charges; switch opened again lamp keeps on for a while as the capacitor discharges. <!--SR:!2026-03-21,16,290!2026-03-21,16,290-->

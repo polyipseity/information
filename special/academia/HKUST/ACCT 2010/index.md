@@ -486,7 +486,7 @@ The content is in teaching order.
     - investing activities / outflows ::@:: - purchase of property, plant and equipment <br/> - purchase of investments in securities <!--SR:!2026-03-30,377,383!2026-04-13,371,383-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2028-08-31,1080,383!2028-07-29,1055,383-->
     - financing activities / inflows ::@:: - borrowings on notes, mortgages, bonds, etc. from creditors <br/> - issuing stock to owners <!--SR:!2026-04-08,385,383!2030-07-16,1645,403-->
-    - financing activities / outflows ::@:: - repayment of principal to creditors <br/> - repurchasing stock from owners <br/> - dividends to owners <br/> - financing related interest expense <!--SR:!2026-03-20,352,383!2028-03-25,875,363-->
+    - financing activities / outflows ::@:: - repayment of principal to creditors <br/> - repurchasing stock from owners <br/> - dividends to owners <br/> - financing related interest expense <!--SR:!2031-04-09,1846,403!2028-03-25,875,363-->
 
 ## week 11 lecture 2
 

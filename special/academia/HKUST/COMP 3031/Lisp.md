@@ -68,7 +68,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 > (define (null? l) (l (lambda (x y) (= y 'none))))
 > ```
 >
-> {@{This illustrates}@} that {@{a cons cell can be built from pure functions}@}, even though in real implementations it is {@{stored as two pointers}@}. <!--SR:!2026-04-17,74,320!2026-03-20,46,300!2026-04-04,60,320!2026-04-03,59,320!2026-04-14,70,320!2026-04-04,60,320!2026-04-17,74,320-->
+> {@{This illustrates}@} that {@{a cons cell can be built from pure functions}@}, even though in real implementations it is {@{stored as two pointers}@}. <!--SR:!2026-04-17,74,320!2026-09-29,193,320!2026-04-04,60,320!2026-04-03,59,320!2026-04-14,70,320!2026-04-04,60,320!2026-04-17,74,320-->
 
 {@{The primitives `null?`, `car` and `cdr`}@} respectively {@{test for emptiness, return the first element, or return the rest of the list}@}. Their names come from {@{the original IBM 704 implementation}@} where a cons cell stored {@{an address part (`car`) and a decrement part (`cdr`)}@}. In Scala these map naturally to respectively {@{`.isEmpty`, `.head` and `.tail`}@}. <!--SR:!2026-04-07,64,320!2026-04-18,74,320!2026-04-04,60,320!2026-04-04,60,320!2026-04-18,74,320-->
 

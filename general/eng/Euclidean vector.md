@@ -151,7 +151,7 @@ The following section uses {@{the [Cartesian coordinate system](Cartesian%20coor
 
 {@{Two vectors are _opposite_}@} if {@{they have the same magnitude but [opposite direction](opposite%20direction%20(geometry).md)}@};<sup>[\[18\]](#^ref-18)</sup> so {@{two vectors $${\mathbf {a} }=a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2}+a_{3}{\mathbf {e} }_{3}$$ and $${\mathbf {b} }=b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2}+b_{3}{\mathbf {e} }_{3}$$ are opposite}@} if {@{$$a_{1}=-b_{1},\quad a_{2}=-b_{2},\quad a_{3}=-b_{3}.\,$$}@} <!--SR:!2026-05-28,369,359!2026-04-29,345,352!2026-05-31,372,359!2029-04-11,1183,352-->
 
-{@{Two vectors are _[equidirectional](equidirectional.md)_ \(or _codirectional_\)}@} if {@{they have the same direction but not necessarily the same magnitude}@}.<sup>[\[18\]](#^ref-18)</sup> {@{Two vectors are _parallel_}@} if {@{they have either the same or opposite direction, but not necessarily the same magnitude}@}; {@{two vectors are _antiparallel_}@} if {@{they have strictly opposite direction, but not necessarily the same magnitude}@}.<sup>[\[a\]](#^ref-a)</sup> <!--SR:!2029-08-01,1270,352!2029-07-29,1271,352!2026-03-20,300,332!2029-03-28,1169,352!2026-05-14,355,352!2026-07-30,402,312-->
+{@{Two vectors are _[equidirectional](equidirectional.md)_ \(or _codirectional_\)}@} if {@{they have the same direction but not necessarily the same magnitude}@}.<sup>[\[18\]](#^ref-18)</sup> {@{Two vectors are _parallel_}@} if {@{they have either the same or opposite direction, but not necessarily the same magnitude}@}; {@{two vectors are _antiparallel_}@} if {@{they have strictly opposite direction, but not necessarily the same magnitude}@}.<sup>[\[a\]](#^ref-a)</sup> <!--SR:!2029-08-01,1270,352!2029-07-29,1271,352!2029-12-25,1376,352!2029-03-28,1169,352!2026-05-14,355,352!2026-07-30,402,312-->
 
 ### addition and subtraction
 
@@ -309,7 +309,7 @@ In {@{the language of [differential geometry](differential%20geometry.md)}@}, th
 
 One example of a pseudovector is {@{[angular velocity](angular%20velocity.md)}@}. Driving in {@{a [car](car.md), and looking forward}@}, each of the [wheels](wheel.md) has {@{an angular velocity vector pointing to the left}@}. If {@{the world is reflected in a mirror which switches the left and right side of the car}@}, {@{the _reflection_ of this angular velocity vector points to the right}@}, but {@{the actual angular velocity vector of the wheel still points to the left}@}, corresponding to {@{the minus sign}@}. Other examples of pseudovectors include {@{[magnetic field](magnetic%20field.md), [torque](torque.md), or more generally any cross product of two \(true\) vectors}@}. <!--SR:!2029-03-30,1171,352!2026-05-04,350,352!2026-05-09,350,352!2029-03-16,1157,352!2026-06-19,390,359!2029-08-15,1282,352!2026-05-30,371,359!2029-11-22,1348,352-->
 
-{@{This distinction between vectors and pseudovectors}@} is {@{often ignored}@}, but {@{it becomes important in studying [symmetry](symmetry.md) properties}@}. <!--SR:!2029-03-30,1156,352!2026-05-03,347,352!2026-03-20,300,332-->
+{@{This distinction between vectors and pseudovectors}@} is {@{often ignored}@}, but {@{it becomes important in studying [symmetry](symmetry.md) properties}@}. <!--SR:!2029-03-30,1156,352!2026-05-03,347,352!2028-12-10,996,332-->
 
 ## see also
 

@@ -121,7 +121,7 @@ However, {@{the variants of the lemma}@} still {@{likely hold for some singular 
 
 ## footnote
 
-1. For {@{counterexamples on contractible domains}@} which have {@{non-vanishing first Dolbeault cohomology}@}, see the post [https://mathoverflow.net/a/59554](https://mathoverflow.net/a/59554). <a id="^ref-note-1"></a>^ref-note-1 <!--SR:!2026-08-27,333,349!2026-03-20,139,401-->
+1. For {@{counterexamples on contractible domains}@} which have {@{non-vanishing first Dolbeault cohomology}@}, see the post [https://mathoverflow.net/a/59554](https://mathoverflow.net/a/59554). <a id="^ref-note-1"></a>^ref-note-1 <!--SR:!2026-08-27,333,349!2027-10-02,561,401-->
 
 ## notes
 

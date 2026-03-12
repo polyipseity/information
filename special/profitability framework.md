@@ -12,7 +12,7 @@ _I have no idea why this needs to be a framework, but here it is anyway._
 
 ## background
 
-{@{The profitability framework}@} is {@{an (extreme) abstraction of an _[income statement](../general/income%20statement.md)_}@} \(also known as {@{_profit and loss statement_}@}\). <!--SR:!2029-11-02,1430,310!2026-03-20,75,345!2027-02-27,346,365-->
+{@{The profitability framework}@} is {@{an (extreme) abstraction of an _[income statement](../general/income%20statement.md)_}@} \(also known as {@{_profit and loss statement_}@}\). <!--SR:!2029-11-02,1430,310!2027-03-10,355,365!2027-02-27,346,365-->
 
 ## the framework
 
@@ -24,4 +24,4 @@ Revenues may be {@{one-time or recurring}@}, such as {@{asset sales and support 
 
 Using {@{the profitability framework}@}, we can find {@{levers for profit growth}@}. <!--SR:!2028-12-27,1284,350!2027-02-22,342,365-->
 
-{@{The variable profit and variable cost}@} of profitability framework can be visualized {@{using a table}@}. {@{The table}@} list out {@{a product segment for each row}@} with {@{the total as the final additional row}@}, and {@{the columns}@} are {@{revenue, units, revenue per unit}@}, {@{cost per unit, profit per unit, and net profit}@}. <!--SR:!2028-09-11,1197,350!2028-03-02,817,250!2027-03-08,354,365!2027-03-05,351,365!2026-03-20,75,345!2026-03-20,75,345!2027-03-09,355,365!2027-03-01,348,365-->
+{@{The variable profit and variable cost}@} of profitability framework can be visualized {@{using a table}@}. {@{The table}@} list out {@{a product segment for each row}@} with {@{the total as the final additional row}@}, and {@{the columns}@} are {@{revenue, units, revenue per unit}@}, {@{cost per unit, profit per unit, and net profit}@}. <!--SR:!2028-09-11,1197,350!2028-03-02,817,250!2027-03-08,354,365!2027-03-05,351,365!2027-03-12,357,365!2027-03-11,356,365!2027-03-09,355,365!2027-03-01,348,365-->

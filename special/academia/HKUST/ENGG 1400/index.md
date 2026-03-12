@@ -84,7 +84,7 @@ The content is in teaching order.
 - PERMA ::@:: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2026-04-02,426,377!2028-05-30,1016,357-->
   - PERMA element properties ::@:: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2028-08-17,1031,357!2026-05-01,451,377-->
   - positive emotion ::@:: hedonic treadmill, happiness returns to its baseline level <!--SR:!2030-03-25,1559,377!2026-04-30,450,377-->
-  - engagement (& motivation) ::@:: They drive you to do the things you want. <!--SR:!2026-03-20,415,377!2026-04-19,440,377-->
+  - engagement (& motivation) ::@:: They drive you to do the things you want. <!--SR:!2032-01-30,2142,397!2026-04-19,440,377-->
   - relationships ::@:: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2026-04-25,445,377!2026-05-03,453,377-->
   - meaning & purpose ::@:: For example, you probably want to have a job or two jobs that make both meaning and money. <!--SR:!2029-09-26,1431,377!2026-04-20,441,377-->
   - accomplishment ::@:: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2030-03-24,1559,377!2026-05-02,452,377-->

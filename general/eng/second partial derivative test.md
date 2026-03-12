@@ -36,7 +36,7 @@ Sometimes {@{other equivalent versions of the test are used}@}. In {@{cases 1 an
 
 For {@{a function _f_ of three or more variables}@}, there is {@{a generalization of the rule shown above}@}. In this context, instead of {@{examining the determinant of the Hessian matrix}@}, one {@{must look at the [eigenvalues](eigenvalues%20and%20eigenvectors.md) of the Hessian matrix at the critical point}@}. The following test can be {@{applied at any critical point _a_ for which the Hessian matrix is [invertible](invertible%20matrix.md)}@}: <!--SR:!2029-09-21,1282,350!2029-08-25,1260,350!2026-03-23,285,330!2026-04-03,294,330!2029-05-20,1183,350-->
 
-1. If the Hessian is [positive definite](positive-definite%20matrix.md) \(equivalently, has all eigenvalues positive\) at _a_, ::@:: then _f_ attains a local minimum at _a_. <!--SR:!2026-03-20,282,330!2029-01-29,1095,350-->
+1. If the Hessian is [positive definite](positive-definite%20matrix.md) \(equivalently, has all eigenvalues positive\) at _a_, ::@:: then _f_ attains a local minimum at _a_. <!--SR:!2029-09-26,1286,350!2029-01-29,1095,350-->
 2. If the Hessian is negative definite \(equivalently, has all eigenvalues negative\) at _a_, ::@:: then _f_ attains a local maximum at _a_. <!--SR:!2029-03-04,1125,350!2027-12-20,764,330-->
 3. If the Hessian has both positive and negative eigenvalues ::@:: then _a_ is a saddle point for _f_ \(and in fact this is true even if _a_ is degenerate\). <!--SR:!2026-03-31,291,330!2029-03-03,1123,350-->
 

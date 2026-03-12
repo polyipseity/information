@@ -437,7 +437,7 @@ Another example is {@{the __[branching process](branching%20process.md)__}@},<su
 
 2. \(b.\) {@{The term "separable" appears twice here}@} with {@{two different meanings}@}, where {@{the first meaning is from probability and the second from topology and analysis}@}. For {@{a stochastic process to be separable \(in a probabilistic sense\)}@}, its index set must be {@{a separable space \(in a topological or analytic sense\)}@}, {@{in addition to other conditions}@}.<sup>[\[136\]](#^ref-136)</sup> <a id="^ref-b"></a>^ref-b <!--SR:!2030-07-31,1637,376!2030-08-27,1655,373!2026-08-23,464,310!2030-05-19,1576,374!2028-10-22,1099,350!2030-09-12,1672,376-->
 
-3. \(c.\) {@{The definition of separability}@} for {@{a continuous-time real-valued stochastic process}@} can be {@{stated in other ways}@}.<sup>[\[172\]](#^ref-172)</sup><sup>[\[173\]](#^ref-173)</sup> <a id="^ref-c"></a>^ref-c <!--SR:!2027-11-14,771,336!2030-07-10,1621,376!2026-03-20,139,403-->
+3. \(c.\) {@{The definition of separability}@} for {@{a continuous-time real-valued stochastic process}@} can be {@{stated in other ways}@}.<sup>[\[172\]](#^ref-172)</sup><sup>[\[173\]](#^ref-173)</sup> <a id="^ref-c"></a>^ref-c <!--SR:!2027-11-14,771,336!2030-07-10,1621,376!2028-04-16,758,423-->
 
 4. \(d.\) In the context of {@{point processes}@}, {@{the term "state space"}@} can mean {@{the space on which the point process is defined such as the real line}@},<sup>[\[234\]](#^ref-234)</sup><sup>[\[235\]](#^ref-235)</sup> which corresponds to {@{the index set in stochastic process terminology}@}. <a id="^ref-d"></a>^ref-d <!--SR:!2027-04-11,654,336!2030-09-25,1684,376!2026-08-12,454,310!2028-05-02,967,356-->
 
