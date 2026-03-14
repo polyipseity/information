@@ -29,6 +29,10 @@
   "files.associations": {
     ".prettierignore": "ignore"
   },
+  "json.schemaDownload.trustedDomains": {
+    "https://models.dev/model-schema.json": true,
+    "https://opencode.ai/config.json": true
+  },
   "markdown.validate.enabled": false,
   "python-envs.defaultEnvManager": "ms-python.python:venv",
   "python-envs.pythonProjects": []
