@@ -19,5 +19,3 @@ Each instruction file contains its own metadata (`name`, `description`, `applyTo
 
 > **Note:** Skills use a different set of allowed keys and no longer
 > support `applyTo`.  See `.agents/skills/README.md` for details.
-
-If you want this index extended (per-skill or per-submodule), tell me which areas to prioritise and I will expand it.
