@@ -1,7 +1,7 @@
 # CI: Build & Test
 #
 # Purpose:
-#   - Run repository checks: setup bun, install dependencies, and run `bun run check`.
+#   - Run repository checks: setup, install, test, and build.
 #   - Ensure a minimal, reproducible environment for quick CI feedback.
 #
 # Triggers:
@@ -9,7 +9,7 @@
 #
 # Security & reproducibility notes:
 #   - Use least-privilege permissions (contents: read) and pin action versions where appropriate.
-#   - Use local caches for bun/uv to speed builds and reduce external load.
+#   - Use local caches to speed builds and reduce external load.
 #
 # Workflow inputs (new)
 # - `fallback_submodules` (workflow_dispatch input): newline-separated list of
@@ -129,9 +129,6 @@ jobs:
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
-        with:
-          enable-cache: true
-          version-file: "pyproject.toml"
 
       - name: Install project
         run: |
