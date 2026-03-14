@@ -2,7 +2,6 @@
 name: commit-staged-flashcard-progress
 description: Commit staged changes that record a flashcard learning or review session.
 argument-hint: Provide learning and/or review counts. To skip committing, pass `commitNow=no`.
-agent: agent
 ---
 
 # Commit Staged Flashcard Progress

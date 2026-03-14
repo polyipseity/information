@@ -2,7 +2,6 @@
 name: commit-staged-flashcard-notes
 description: Commit staged changes to notes/flashcards using the repository's flashcard commit convention.
 argument-hint: Provide flashcard counts and details. To skip committing, pass `commitNow=no`.
-agent: agent
 ---
 
 # Commit Staged Flashcard Notes Change
