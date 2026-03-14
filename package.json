@@ -1,8 +1,10 @@
 {
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^20.4.2",
     "@commitlint/config-conventional": "^20.4.2",
     "husky": "^9.1.7",
+    "if-ci": "^3.0.0",
     "lint-staged": "^16.3.1",
     "markdownlint-cli2": "^0.21.0",
     "prettier": "^3.8.1",
@@ -23,7 +25,7 @@
     "format:md": "markdownlint-cli2 --fix",
     "format:prettier": "prettier --cache --write \"**/*.{astro,cjs,css,csv,gql,graphql,hbs,html,js,jsx,json,json5,jsonc,jsonl,less,mjs,pcss,sass,scss,svelte,styl,ts,tsx,vue,xml,yaml,yml}\"",
     "format:py": "uv run --locked ruff check --fix && uv run --locked ruff format && pyright",
-    "prepare": "uv sync --all-extras --dev && (husky || true)",
+    "prepare": "(uv sync --all-extras --dev || true) && bun x --package if-ci -- if-not-ci husky",
     "test": "bun run test:py",
     "test:py": "uv run --locked pytest"
   },
