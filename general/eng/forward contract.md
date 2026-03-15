@@ -221,7 +221,7 @@ __Other types of trade contracts:__
 4. J.M. Keynes, _A Treatise on Money_, London: Macmillan, 1930 <a id="^ref-4"></a>^ref-4
 5. J.R. Hicks, _Value and Capital_, Oxford: Clarendon Press, 1939 <a id="^ref-5"></a>^ref-5
 6. [Contango Vs. Normal Backwardation](http://www.investopedia.com/articles/07/contango_backwardation.asp) [Archived](https://web.archive.org/web/20140726183442/http://www.investopedia.com/articles/07/contango_backwardation.asp) 2014-07-26 at the [Wayback Machine](Wayback%20Machine.md), _Investopedia_ <a id="^ref-6"></a>^ref-6
-7. [Forward Contract on Wikinvest](../not found/Forward%20Contract.md#wikinvest) <a id="^ref-7"></a>^ref-7
+7. [Forward Contract on Wikinvest](https://meta.wikimedia.org/wiki/Interwiki_map/discontinued?page=Forward%20Contract#Wikinvest) <a id="^ref-7"></a>^ref-7
 8. ["Understanding Forward Contracts vs. Futures Contracts"](https://www.investopedia.com/ask/answers/06/forwardsandfutures.asp). _Investopedia_. Retrieved 28 June 2020. <a id="^ref-8"></a>^ref-8
 9. ["Understanding FX Forwards"](https://web.archive.org/web/20211124111724/http://www.microrate.com/media/docs/investment/V-Guide-to-FX-Fowards.pdf) \(PDF\). Archived from [the original](http://www.microrate.com/media/docs/investment/V-Guide-to-FX-Fowards.pdf) \(PDF\) on 24 November 2021. Retrieved 28 June 2020. <a id="^ref-9"></a>^ref-9
 10. ["Forward Contract vs Futures Contract"](https://www.diffen.com/difference/Forward_Contract_vs_Futures_Contract). _Diffen_. Retrieved 28 June 2020. <a id="^ref-10"></a>^ref-10
@@ -238,7 +238,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/forward_contract)
 - John C. Hull \(2000\), _Options, Futures and Other Derivatives_, Prentice-Hall.
 - Abraham Lioui & Patrice Poncet \(March 30, 2005\), _Dynamic Asset Allocation with Forwards and Futures_, Springer
 - Keith Redhead \(31 October 1996\), _Financial Derivatives: An Introduction to Futures, Forwards, Options and Swaps_, Prentice-Hall
-- [Forward Contract on Wikinvest](../not found/Forward%20Contract.md#wikinvest)
+- [Forward Contract on Wikinvest](https://meta.wikimedia.org/wiki/Interwiki_map/discontinued?page=Forward%20Contract#Wikinvest)
 
 ## further reading
 
