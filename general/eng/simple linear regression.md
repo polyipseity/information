@@ -175,7 +175,7 @@ There are {@{_n_ = 15 points in this data set}@}. Hand calculations would be sta
 
 > {@{![Graph of points and linear least squares lines in the simple linear regression numerical example](../../archives/Wikimedia%20Commons/OLS%20example%20weight%20vs%20height%20fitted%20linear.svg)}@}
 >
-> Graph of {@{points and linear least squares lines}@} in {@{the simple linear regression numerical example}@} <!--SR:!2028-11-24,1081,350!2029-03-31,1109,348!2026-03-17,5,360-->
+> Graph of {@{points and linear least squares lines}@} in {@{the simple linear regression numerical example}@} <!--SR:!2028-11-24,1081,350!2029-03-31,1109,348!2026-04-14,24,380-->
 
 {@{The 0.975 quantile of Student's _t_-distribution with 13 degrees of freedom is _t_<sup>\*</sup><sub>13</sub>}@} = 2.1604, and thus {@{the 95% confidence intervals for _α_ and _β_}@} are $${\begin{aligned}&\alpha \in [\,{\widehat {\alpha } }\mp t_{13}^{*}s_{\alpha }\,]=[\,{-45.4},\ {-32.7}\,]\\[5pt]&\beta \in [\,{\widehat {\beta } }\mp t_{13}^{*}s_{\beta }\,]=[\,57.4,\ 65.1\,]\end{aligned} }$$ {@{The [product-moment correlation coefficient](Pearson%20product-moment%20correlation%20coefficient.md)}@} might also be calculated: (annotation: memorize the methods, not numbers) {@{$${\widehat {r} }={\frac {nS_{xy}-S_{x}S_{y} }{\sqrt {(nS_{xx}-S_{x}^{2})(nS_{yy}-S_{y}^{2})} } }=0.9946$$}@} <!--SR:!2027-05-29,589,310!2029-08-28,1299,350!2028-03-03,807,330!2028-01-14,758,290-->
 

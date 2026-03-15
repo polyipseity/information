@@ -20,7 +20,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {@{future jobs that we do not know now}@}. This is needed to adapt in our {@{very fast moving world of disruptive technology}@}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {@{learning [metaknowledge](../../../../general/metaknowledge.md)}@}. <!--SR:!2026-03-21,520,310!2027-04-26,837,330!2028-03-06,1097,350-->
+Education needs to prepare for {@{future jobs that we do not know now}@}. This is needed to adapt in our {@{very fast moving world of disruptive technology}@}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {@{learning [metaknowledge](../../../../general/metaknowledge.md)}@}. <!--SR:!2032-04-29,2231,330!2027-04-26,837,330!2028-03-06,1097,350-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {@{collaboration to solve large problems, communication to convince people}@}, {@{creativity to make new things, and critical thinking and problem solving to solve problems}@}. <!--SR:!2028-05-09,1004,270!2026-12-28,397,367-->
 
@@ -74,7 +74,7 @@ value proposition canvas
 - blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→::@::←business model canvas <!--SR:!2027-07-05,822,290!2028-07-09,1018,270-->
 - business model canvas→::@::←competitor analysis <!--SR:!2026-06-06,494,270!2028-04-02,982,270-->
 - competitor analysis→::@::←customer discovery <!--SR:!2026-09-14,502,230!2027-11-06,917,290-->
-- customer discovery→::@::←customer segmentation <!--SR:!2032-03-01,2183,330!2026-03-21,520,310-->
+- customer discovery→::@::←customer segmentation <!--SR:!2032-03-01,2183,330!2032-04-28,2230,330-->
 - customer segmentation→::@::←customer validation <!--SR:!2026-11-22,594,270!2026-06-22,558,290-->
 - customer validation→::@::←design thinking <!--SR:!2026-08-18,472,230!2027-10-10,893,290-->
 - design thinking→::@::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2028-01-14,667,190!2027-06-29,696,250-->

@@ -23,7 +23,7 @@ tags:
 
 - see: [general/state (computer science)](../../../../general/state%20(computer%20science).md)
 
-{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-04-03,62,310!2026-03-30,58,310!2026-04-02,61,310!2026-03-21,55,310!2026-11-06,231,330!2026-03-23,57,310!2026-04-03,62,310!2026-03-31,59,310-->
+{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-04-03,62,310!2026-03-30,58,310!2026-04-02,61,310!2026-11-13,237,330!2026-11-06,231,330!2026-03-23,57,310!2026-04-03,62,310!2026-03-31,59,310-->
 
 ## substitution model
 
@@ -37,7 +37,7 @@ tags:
 > def f(x: Int) = x + 1
 > f(3)  // → 3 + 1 → 4
 > ```
-<!--SR:!2026-03-24,58,310!2026-03-21,55,310-->
+<!--SR:!2026-03-24,58,310!2026-11-17,241,330-->
 
 {@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2026-04-04,63,310!2026-11-11,236,330!2026-04-03,62,310!2026-04-04,63,310!2026-04-02,61,310!2026-03-24,58,310-->
 
@@ -88,11 +88,11 @@ tags:
 >   def deposit(amount: Int): Unit = ba.deposit(amount)
 >   def withdraw(amount: Int): Int = ba.withdraw(amount)
 > ```
-<!--SR:!2026-03-22,56,310!2026-03-21,55,310-->
+<!--SR:!2026-03-22,56,310!2026-11-15,239,330-->
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-03-31,59,310!2026-04-01,60,310!2026-04-02,61,310!2026-04-02,61,310-->
 
-Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-04-03,62,310!2026-03-21,55,310!2026-03-30,58,310!2026-03-21,55,310!2026-03-23,57,310-->
+Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-04-03,62,310!2026-11-14,238,330!2026-03-30,58,310!2026-11-14,238,330!2026-03-23,57,310-->
 
 > [!example] __mutable tail list implementation__
 >
@@ -107,11 +107,11 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 >       case None =>
 >         tlOpt = Some(tl); tail
 > ```
-<!--SR:!2026-03-21,55,310!2026-04-01,60,310!2026-03-30,58,310-->
+<!--SR:!2026-11-17,241,330!2026-04-01,60,310!2026-03-30,58,310-->
 
 ## `var`
 
-{@{Variables declared with `var`}@} can be {@{reassigned}@}: <!--SR:!2026-03-21,55,310!2026-04-02,61,310-->
+{@{Variables declared with `var`}@} can be {@{reassigned}@}: <!--SR:!2026-11-15,239,330!2026-04-02,61,310-->
 
 > [!example] __`var__
 >
@@ -125,9 +125,9 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 
 ## operational equivalence
 
-{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-04-01,60,310!2026-11-12,237,330!2026-03-31,59,310!2026-04-03,62,310!2026-11-12,237,330!2026-03-21,55,310-->
+{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-04-01,60,310!2026-11-12,237,330!2026-03-31,59,310!2026-04-03,62,310!2026-11-12,237,330!2026-11-16,240,330-->
 
-{@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-03-31,59,310!2026-03-31,59,310!2026-03-21,55,310!2026-04-04,63,310!2026-03-21,55,310!2026-03-21,55,310-->
+{@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-03-31,59,310!2026-03-31,59,310!2026-11-14,238,330!2026-04-04,63,310!2026-11-13,237,330!2026-11-15,239,330-->
 
 > [!example] __operational equivalence test__
 >
@@ -142,7 +142,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 >
 > If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-03-24,58,310!2026-11-11,236,330!2026-04-01,60,310!2026-04-04,63,310!2026-04-01,60,310!2026-03-23,57,310-->
 
-{@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!2026-03-21,55,310!2026-03-21,55,310!2026-03-21,55,310!2026-11-12,237,330-->
+{@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!2026-11-13,237,330!2026-11-13,237,330!2026-11-16,240,330!2026-11-12,237,330-->
 
 > [!example] __substitution failure__
 >

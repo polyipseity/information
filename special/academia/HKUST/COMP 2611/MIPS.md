@@ -33,7 +33,7 @@ In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names 
 
 Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2029-07-01,1220,350!2029-07-14,1230,350!2028-05-17,830,330!2026-03-24,26,412-->
 
-The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables}@} need to be frequently {@{transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, processors are {@{more complicated, have higher clock cycle time}@}, which also leads to {@{performance loss}@}. <!--SR:!2026-04-07,287,330!2029-08-10,1254,350!2029-10-04,1297,350!2026-03-17,5,394!2026-03-17,5,394-->
+The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables}@} need to be frequently {@{transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, processors are {@{more complicated, have higher clock cycle time}@}, which also leads to {@{performance loss}@}. <!--SR:!2026-04-07,287,330!2029-08-10,1254,350!2029-10-04,1297,350!2026-04-18,28,414!2026-04-18,28,414-->
 
 \(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\) <!--SR:!2026-11-03,458,401!2026-12-08,492,401-->
 

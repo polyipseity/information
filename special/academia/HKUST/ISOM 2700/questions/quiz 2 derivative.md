@@ -113,7 +113,7 @@ tags:
 > A customer arrives at a restaurant every 12&nbsp;minutes on average, and takes 30&nbsp;minutes on average to finish a meal. How many seats do you need at least to serve the customers \(without the queue exploding\)?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Arrival rate is 5 customers per hour. Service rate per seat is 2 customers per hour. So you need 5/2 = 2.5&nbsp;seats at least. Round it up to 3.}@} <!--SR:!2026-03-21,264,330!2026-03-22,265,330-->
+> - explanation: {@{Arrival rate is 5 customers per hour. Service rate per seat is 2 customers per hour. So you need 5/2 = 2.5&nbsp;seats at least. Round it up to 3.}@} <!--SR:!2029-06-28,1195,350!2026-03-22,265,330-->
 
 <!-- markdownlint MD028 -->
 

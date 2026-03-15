@@ -35,7 +35,7 @@ In computer science, applications of this type arise in [instruction scheduling]
 
 ## algorithms
 
-{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!2026-06-06,445,379!2031-04-14,1864,391!2026-03-17,5,389-->
+{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!2026-06-06,445,379!2031-04-14,1864,391!2026-04-18,28,409-->
 
 ### Kahn's algorithm
 
@@ -180,7 +180,7 @@ Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S ca
 >     {@{add <i>n</i> to head of <i>L</i>}@}
 > </pre> <!--SR:!2030-09-23,1686,374!2026-05-17,428,379!2027-04-30,618,331!2026-03-28,386,371!2026-03-30,388,371!2026-05-13,424,379!2030-07-26,1640,378!2027-05-28,685,338!2031-03-12,1840,391!2026-06-18,455,379!2026-04-14,399,371!2026-06-10,448,379!2026-06-21,457,379!2026-05-12,423,379-->
 
-{@{Each node _n_}@} gets {@{_prepended_ to the output list L only after considering all other nodes that depend on _n_ \(all descendants of _n_ in the graph\)}@}. Specifically, when {@{the algorithm adds node _n_}@}, we are guaranteed that {@{all nodes that depend on _n_ are already in the output list L}@}: they were {@{added to L either by the recursive call to visit\(\) that ended before the call to visit _n_, or by a call to visit\(\) that started even before the call to visit _n_}@}. Since {@{each edge and node is visited once}@}, {@{the algorithm runs in linear time}@}. {@{This depth-first-search-based algorithm}@} is {@{the one described by [Cormen et al. \(2001\)](#^ref-3)}@};<sup>[\[3\]](#^ref-3)</sup> it seems to {@{have been first described}@} {@{in print by Tarjan in 1976}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2031-01-02,1769,378!2026-04-23,407,371!2026-05-29,438,379!2031-04-11,1848,378!2026-06-07,446,379!2026-05-14,425,379!2026-03-21,377,358!2026-12-05,542,319!2027-12-25,857,351!2031-02-25,1815,378!2027-11-17,830,351-->
+{@{Each node _n_}@} gets {@{_prepended_ to the output list L only after considering all other nodes that depend on _n_ \(all descendants of _n_ in the graph\)}@}. Specifically, when {@{the algorithm adds node _n_}@}, we are guaranteed that {@{all nodes that depend on _n_ are already in the output list L}@}: they were {@{added to L either by the recursive call to visit\(\) that ended before the call to visit _n_, or by a call to visit\(\) that started even before the call to visit _n_}@}. Since {@{each edge and node is visited once}@}, {@{the algorithm runs in linear time}@}. {@{This depth-first-search-based algorithm}@} is {@{the one described by [Cormen et al. \(2001\)](#^ref-3)}@};<sup>[\[3\]](#^ref-3)</sup> it seems to {@{have been first described}@} {@{in print by Tarjan in 1976}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2031-01-02,1769,378!2026-04-23,407,371!2026-05-29,438,379!2031-04-11,1848,378!2026-06-07,446,379!2026-05-14,425,379!2031-04-17,1853,378!2026-12-05,542,319!2027-12-25,857,351!2031-02-25,1815,378!2027-11-17,830,351-->
 
 ### parallel algorithms
 
@@ -192,7 +192,7 @@ In the following, it is assumed that {@{the graph partition is stored on _p_ pro
 
 > {@{![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)}@}
 >
-> {@{Execution of the parallel topological sorting algorithm}@} on {@{a DAG with two processing elements}@}. <!--SR:!2029-11-20,1344,358!2026-03-17,5,389!2026-03-17,5,389-->
+> {@{Execution of the parallel topological sorting algorithm}@} on {@{a DAG with two processing elements}@}. <!--SR:!2029-11-20,1344,358!2026-04-18,28,409!2026-04-18,28,409-->
 
 In the first step, PE _j_ assigns {@{the $\lvert Q_j^1 \rvert$ indices $\sum _{i=0}^{j-1}|Q_{i}^{1}|,\dots ,\left(\sum _{i=0}^{j}|Q_{i}^{1}|\right)-1$ (the summation sign is for producing a prefix sum) to the $\lvert Q_j^1 \rvert$ local vertices in $Q_{j}^{1}$}@}. {@{These vertices in $Q_{j}^{1}$}@} are {@{removed, together with their corresponding outgoing edges}@}. For {@{each outgoing edge $(u,v)$ with endpoint _v_ in another PE $l,j\neq l$}@}, {@{the message $(u,v)$ is posted to PE _l_}@}. After {@{all vertices in $Q_{j}^{1}$ are removed}@}, {@{the posted messages are sent to their corresponding PE}@}. {@{Each message $(u,v)$ received}@} {@{updates the indegree of the local vertex _v_}@}. If {@{the indegree drops to zero}@}, {@{_v_ is added to $Q_{j}^{2}$}@}. Then {@{the next iteration starts}@}. <!--SR:!2028-04-04,935,351!2026-06-01,441,379!2030-12-15,1754,378!2026-05-19,429,379!2026-04-27,411,371!2027-10-04,796,339!2026-04-24,408,371!2026-04-08,396,371!2026-04-04,393,371!2026-03-31,386,358!2029-07-06,1300,358!2026-04-01,387,358-->
 

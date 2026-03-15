@@ -140,7 +140,7 @@ Let {@{φ, ψ, and ρ}@} be {@{LTL formulas}@}. The following tables list {@{som
 > __flashcards__
 >
 > - _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2029-12-24,1443,370!2029-03-10,1216,357-->
-> - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2026-03-21,371,363!2030-02-19,1500,370-->
+> - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2031-04-10,1846,383!2030-02-19,1500,370-->
 > - _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2027-03-04,629,343!2029-01-07,1163,350-->
 > - _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2031-04-02,1839,383!2029-04-26,1173,350-->
 
@@ -167,7 +167,7 @@ All the formulas of LTL can be {@{transformed into _negation normal form_}@}, wh
 
 ## relations with other logics
 
-LTL can be shown to be {@{equivalent to the [monadic first-order logic of order](monadic%20predicate%20calculus.md), FO\[\<\]}@}—a result known as {@{[Kamp's theorem](Kamp's%20theorem.md)}@}—<sup>[\[9\]](#^ref-9)</sup> or {@{equivalently to [star-free languages](star-free%20language.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-29,378,363!2026-03-22,371,363!2026-03-21,370,363-->
+LTL can be shown to be {@{equivalent to the [monadic first-order logic of order](monadic%20predicate%20calculus.md), FO\[\<\]}@}—a result known as {@{[Kamp's theorem](Kamp's%20theorem.md)}@}—<sup>[\[9\]](#^ref-9)</sup> or {@{equivalently to [star-free languages](star-free%20language.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-29,378,363!2026-03-22,371,363!2031-04-13,1849,383-->
 
 {@{[Computation tree logic](computation%20tree%20logic.md) \(CTL\) and linear temporal logic \(LTL\)}@} are {@{both a subset of [CTL\*](CTL*.md), but are incomparable}@}. For example, <!--SR:!2026-03-28,377,363!2030-06-08,1587,370-->
 
@@ -192,7 +192,7 @@ __expressing important properties in formal verification__
 
 There are {@{two main types of properties that can be expressed using linear temporal logic}@}: {@{__[safety](safety%20and%20liveness%20properties.md)__ properties usually state that _something bad never happens_ \(__G__<!-- markdown separator -->¬<!-- markdown separator -->_ϕ_\)}@}, while {@{__[liveness](safety%20and%20liveness%20properties.md)__ properties state that _something good keeps happening_ \(__GF__<!-- markdown separator -->_ψ_ or __G__\(_ϕ_ →<!-- markdown separator -->__F__<!-- markdown separator -->_ψ_\)\)}@}.<sup>[\[13\]](#^ref-13)</sup> For example, a safety property may require that {@{an autonomous rover}@} never {@{drives over a cliff}@}, or that {@{a software product}@} never {@{allows a successful login with an incorrect password}@}. A liveness property may require that {@{the rover always continues to collect data samples, or that a software product repeatedly sends telemetry data}@}. <!--SR:!2026-04-06,384,363!2030-12-03,1745,383!2029-06-21,1286,363!2027-10-07,571,337!2030-12-02,1743,383!2026-04-09,124,407!2026-04-09,124,407!2026-04-21,135,407-->
 
-More generally, {@{safety properties}@} are those for which {@{every [counterexample](counterexample.md) has a finite prefix}@} such that, {@{however it is extended to an infinite path, it is still a counterexample}@}. For {@{liveness properties}@}, on the other hand, {@{every finite path (annotation: that may not satisfy the formula yet)}@} can be {@{extended to an infinite path that satisfies the formula}@}. <!--SR:!2029-11-15,1339,363!2028-04-16,887,337!2026-04-22,135,407!2026-03-17,5,388!2026-03-17,5,388!2026-03-17,5,388-->
+More generally, {@{safety properties}@} are those for which {@{every [counterexample](counterexample.md) has a finite prefix}@} such that, {@{however it is extended to an infinite path, it is still a counterexample}@}. For {@{liveness properties}@}, on the other hand, {@{every finite path (annotation: that may not satisfy the formula yet)}@} can be {@{extended to an infinite path that satisfies the formula}@}. <!--SR:!2029-11-15,1339,363!2028-04-16,887,337!2026-04-22,135,407!2026-04-18,28,408!2026-04-18,28,408!2026-04-18,28,408-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __specification language__

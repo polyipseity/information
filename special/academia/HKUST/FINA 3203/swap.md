@@ -58,7 +58,7 @@ An _interest‑rate swap_ (IRS) is an over‑the‑counter contract in which two
 An IRS is characterised by: notional principle, swap rate, maturity, and payment frequencies.
 
 - _Notional principle_ ::@:: – the notional amount on which interest payments are calculated. <!--SR:!2026-03-28,65,310!2026-03-29,66,310-->
-- _Swap rate_ $R$ ::@:: – the fixed annualised rate agreed at inception.  (annotation: __this course__: The rate is continuously compounded by default, i.e. the equations below should use $e^r$ rather than $r$) <!--SR:!2026-11-19,244,330!2026-03-21,58,310-->
+- _Swap rate_ $R$ ::@:: – the fixed annualised rate agreed at inception.  (annotation: __this course__: The rate is continuously compounded by default, i.e. the equations below should use $e^r$ rather than $r$) <!--SR:!2026-11-19,244,330!2026-11-30,254,330-->
 - _Maturity (swap tenor)_ ::@:: – the last payment date, denoted $T_m$. <!--SR:!2026-08-02,157,310!2026-03-22,59,310-->
 - _Payment frequencies_ ::@:: – the floating leg usually follows money‑market conventions (e.g., quarterly 3‑month LIBOR); the fixed leg often uses a corporate‑bond convention (e.g., semi‑annual). <!--SR:!2026-08-30,169,310!2026-03-25,62,310-->
 
