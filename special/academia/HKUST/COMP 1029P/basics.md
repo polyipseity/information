@@ -88,7 +88,7 @@ return chain.from_iterable(await gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-12-19,1385,350!2026-03-22,137,402!2028-02-10,702,422!2028-02-14,705,422-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-12-19,1385,350!2028-04-11,751,422!2028-02-10,702,422!2028-02-14,705,422-->
 
 ```Python
 # pytextgen generate data
@@ -162,7 +162,7 @@ Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other l
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2028-04-17,1196,350!2026-03-22,137,402!2028-02-13,704,422!2028-02-11,703,422-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2028-04-17,1196,350!2028-04-12,752,422!2028-02-13,704,422!2028-02-11,703,422-->
 
 ```Python
 # pytextgen generate data

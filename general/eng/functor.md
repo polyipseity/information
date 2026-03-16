@@ -26,7 +26,7 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 
 > {@{![A category with objects X, Y, Z and morphisms f, g, g ∘ f](../../archives/Wikimedia%20Commons/Commutative%20diagram%20for%20morphism.svg)}@}
 >
-> {@{A category with objects X, Y, Z and morphisms f, g, g ∘ f}@} <!--SR:!2029-09-24,1340,350!2026-03-22,345,357-->
+> {@{A category with objects X, Y, Z and morphisms f, g, g ∘ f}@} <!--SR:!2029-09-24,1340,350!2030-11-07,1691,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -51,7 +51,7 @@ That is, functors must {@{preserve [identity morphisms](morphism.md#definition) 
 There are {@{many constructions in mathematics that would be functors}@} but for the fact that they {@{"turn morphisms around" and "reverse composition"}@}. We then define {@{a __contravariant functor__ _F_ from _C_ to _D_}@} as a mapping that <!--SR:!2030-04-03,1506,366!2028-08-21,1008,346!2026-03-25,348,357-->
 
 - (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_, <!--SR:!2030-03-05,1482,366!2028-08-14,1014,346-->
-- (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2026-04-13,364,357!2026-03-22,346,357-->
+- (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2026-04-13,364,357!2030-11-11,1695,377-->
   - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2030-10-09,1670,377!2030-04-09,1511,366-->
   - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_. <!--SR:!2026-04-06,357,357!2029-09-26,1342,350-->
 
@@ -97,7 +97,7 @@ One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{
 
 __[Diagram](diagram%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a diagram of type _J_ (annotation: the categorical analogue of an indexed family in set theory) in _C_ is a covariant functor $D\colon J\to C$. <!--SR:!2027-03-01,591,337!2030-09-07,1642,377-->
 
-__[\(Category theoretical\) presheaf](presheaf%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a _J_-presheaf on _C_ is a contravariant (annotation: _not_ covariant) functor $D\colon C\to J$. <p> In the special case when J is __Set__, the category of sets and functions, _D_ is called a [presheaf](presheaf%20(category%20theory).md) on _C_. <!--SR:!2026-03-22,294,297!2028-04-09,894,330-->
+__[\(Category theoretical\) presheaf](presheaf%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a _J_-presheaf on _C_ is a contravariant (annotation: _not_ covariant) functor $D\colon C\to J$. <p> In the special case when J is __Set__, the category of sets and functions, _D_ is called a [presheaf](presheaf%20(category%20theory).md) on _C_. <!--SR:!2029-07-14,1210,317!2028-04-09,894,330-->
 
 __Presheaves \(over a topological space\)__
 
@@ -149,7 +149,7 @@ __Tangent and cotangent bundles__
 <!-- markdownlint-disable-next-line MD036 -->
 __Group actions/representations__
 
-&emsp; {@{Every [group](group%20(mathematics).md) _G_}@} can be {@{considered as a category with a single object whose morphisms are the elements of _G_}@}. {@{A functor from _G_ to __Set__}@} is then {@{nothing but a [group action](group%20action%20(mathematics).md) of _G_ on a particular set, i.e. a _G_-set}@}. Likewise, {@{a functor from _G_ to the [category of vector spaces](category%20of%20vector%20spaces.md), __Vect__<sub>_K_</sub>}@}, is {@{a [linear representation](linear%20representation.md) of _G_}@}. In general, {@{a functor _G_ → _C_}@} can be considered as {@{an "action" of _G_ on an object in the category _C_}@}. If {@{_C_ is a group}@}, then {@{this action is a group homomorphism}@}. <!--SR:!2026-03-29,351,357!2028-08-19,947,330!2026-04-01,354,357!2026-03-22,346,357!2030-03-18,1493,366!2030-05-19,1542,366!2029-09-24,1340,350!2027-02-28,596,337!2029-03-15,1114,346!2030-10-11,1671,377-->
+&emsp; {@{Every [group](group%20(mathematics).md) _G_}@} can be {@{considered as a category with a single object whose morphisms are the elements of _G_}@}. {@{A functor from _G_ to __Set__}@} is then {@{nothing but a [group action](group%20action%20(mathematics).md) of _G_ on a particular set, i.e. a _G_-set}@}. Likewise, {@{a functor from _G_ to the [category of vector spaces](category%20of%20vector%20spaces.md), __Vect__<sub>_K_</sub>}@}, is {@{a [linear representation](linear%20representation.md) of _G_}@}. In general, {@{a functor _G_ → _C_}@} can be considered as {@{an "action" of _G_ on an object in the category _C_}@}. If {@{_C_ is a group}@}, then {@{this action is a group homomorphism}@}. <!--SR:!2026-03-29,351,357!2028-08-19,947,330!2026-04-01,354,357!2030-11-14,1698,377!2030-03-18,1493,366!2030-05-19,1542,366!2029-09-24,1340,350!2027-02-28,596,337!2029-03-15,1114,346!2030-10-11,1671,377-->
 
 __Lie algebras__ <p> ::@:: &emsp; Assigning to every real \(complex\) [Lie group](Lie%20group.md) its real \(complex\) [Lie algebra](Lie%20algebra.md) defines a functor. <!--SR:!2027-02-04,553,310!2026-11-03,469,317-->
 
@@ -189,7 +189,7 @@ Functors are often {@{defined by [universal properties](universal%20property.md)
 
 - Main article: [Functor \(functional programming\)](functor%20(functional%20programming).md)
 
-Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-03-22,346,357!2030-04-27,1525,366!2029-09-23,1339,350!2027-09-05,732,337!2026-04-02,355,357-->
+Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2030-11-12,1696,377!2030-04-27,1525,366!2029-09-23,1339,350!2027-09-05,732,337!2026-04-02,355,357-->
 
 ## see also
 

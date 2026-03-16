@@ -281,7 +281,7 @@ The content is in teaching order.
 - topic: pigeonhole principle
 - pigeonhole principle ::@:: Let _f_ be a mapping from a finite nonempty set _A_ to another nonempty finite set _B_ such that |_A_| > _k_|_B_| for some natural number _k_. Let _f_<sup>-1</sup> be the inverse mapping from _B_ to the power set of _A_. Then there is an element _b_ in _B_ such that |_f_<sup>-1</sup>(_b_)| ≥ _k_ + 1. <!--SR:!2026-05-29,476,397!2028-03-15,903,357-->
   - pigeonhole principle / proof ::@:: Prove by contradiction. Using the definitions above, assume every element _b_ in _B_ has the property |_f_<sup>-1</sup>(_b_)| < _k_ + 1. Then the maximum cardinality (size) of _A_ is _k_|_B_|. But this contradicts |_A_| > _k_|_B_|. <!--SR:!2026-08-09,533,397!2026-05-23,471,397-->
-  - pigeonhole principle / in practice ::@:: The pigeonhole principle is straight forward. However, the difficult part is identifying the pigeons and holes, which is nontrivial. <!--SR:!2026-03-22,392,377!2026-07-27,522,397-->
+  - pigeonhole principle / in practice ::@:: The pigeonhole principle is straight forward. However, the difficult part is identifying the pigeons and holes, which is nontrivial. <!--SR:!2031-10-11,2029,397!2026-07-27,522,397-->
 - [questions/2024-09-25](questions/2024-09-25.md)
 - [week 4 problem set](questions/week%204%20problem%20set.md)
 - materials

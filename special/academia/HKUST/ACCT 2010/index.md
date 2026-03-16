@@ -204,7 +204,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-01T13:30:00+08:00/2024-10-01T14:50:00+08:00
 - [adjusting entries](../../../../general/adjusting%20entries.md) ::@:: They are journal entries usually made at the end of an accounting period to allocate income and expenditure to the period in which they actually occurred. <!--SR:!2026-10-02,536,403!2026-09-16,523,403-->
-  - [adjusting entries](../../../../general/adjusting%20entries.md) / purposes ::@:: Required at the end of each accounting period in order to get the expenses and revenues into the right period. <!--SR:!2026-03-22,370,383!2026-08-28,508,403-->
+  - [adjusting entries](../../../../general/adjusting%20entries.md) / purposes ::@:: Required at the end of each accounting period in order to get the expenses and revenues into the right period. <!--SR:!2031-07-17,1943,403!2026-08-28,508,403-->
 - [trial balance](../../../../general/trial%20balance.md)
   - [ACCT 2010/trial balance](trial%20balance.md)
 - unearned revenue

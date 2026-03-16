@@ -878,7 +878,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg):@:[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!2026-03-23,65,271-->
 - ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.ogg):@:[voiced retroflex approximant](voiced%20retroflex%20approximant.md) <!--SR:!2026-05-25,110,270-->
 - ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg):@:[voiced uvular fricative](voiced%20uvular%20fricative.md) <!--SR:!2026-05-23,78,250-->
-- ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg):@:[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) <!--SR:!2026-03-22,108,270-->
+- ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg):@:[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) <!--SR:!2026-05-17,56,250-->
 - ![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg):@:[voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) <!--SR:!2026-08-12,147,250-->
 - ![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg):@:[voiceless retroflex fricative](voiceless%20retroflex%20fricative.md) <!--SR:!2026-04-07,80,130-->
 - ![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg):@:[voiceless alveolar plosive](voiceless%20alveolar%20plosive.md) <!--SR:!2026-03-28,102,135-->
@@ -945,14 +945,14 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced dental fricative](voiced%20dental%20fricative.md):@:[English](English%20language.md) _**th**is_ \[ðɪs\] <!--SR:!2027-06-27,752,233-->
 - [voiced alveolar affricate](voiced%20alveolar%20affricate.md):@:[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\] <!--SR:!2026-04-03,42,130-->
 - [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md):@:[English](English%20language.md) _**g**ene_ \[ˈd͡ʒiːn\] <!--SR:!2026-05-19,196,158-->
-- [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!2026-03-22,7,130-->
+- [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!2026-03-30,8,130-->
 - [voiced retroflex affricate](voiced%20retroflex%20affricate.md):@:[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam" <!--SR:!2026-04-12,67,158-->
 - [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _m**ay**_ \[meː\] <!--SR:!2026-04-08,81,150-->
 - [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɘːd\] <!--SR:!2026-05-19,104,150-->
 - [mid central vowel](mid%20central%20vowel.md):@:[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\] <!--SR:!2026-05-07,162,138-->
 - [r-colored mid central vowel](r-colored%20vowel.md):@:[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\] <!--SR:!2026-08-26,295,238-->
 - [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**e**d_ \[bɛd\] <!--SR:!2026-05-21,172,158-->
-- [nasalized open-mid front unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand" <!--SR:!2026-03-22,19,130-->
+- [nasalized open-mid front unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand" <!--SR:!2026-04-01,10,130-->
 - [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɜːd\] <!--SR:!2028-02-25,1039,278-->
 - [r-colored open-mid central unrounded vowel](r-colored%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɝːd\] <!--SR:!2027-06-10,581,297-->
 - [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md):@:[English](English%20language.md) _**f**ill_ \[fɪɫ\] <!--SR:!2026-10-23,533,237-->
@@ -977,7 +977,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle" <!--SR:!2026-04-20,127,150-->
 - [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!2026-05-03,44,130-->
 - [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six" <!--SR:!2026-04-06,111,150-->
-- [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!2026-03-22,17,130-->
+- [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!2026-03-30,8,130-->
 - [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md):@:[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\] <!--SR:!2026-04-22,182,201-->
 - [voiced bilabial nasal](voiced%20bilabial%20nasal.md):@:[English](English%20language.md) _hi**m**_ \[hɪm\] <!--SR:!2031-11-21,2117,301-->
 - [voiced labiodental nasal](voiced%20labiodental%20nasal.md):@:[English](English%20language.md) _sy**m**phony_ \[ˈsɪɱfəni\] <!--SR:!2027-07-26,537,261-->

@@ -26,7 +26,7 @@ tags:
     - `INT`, `INTEGER` ::@:: Signed is from −2<sup>23</sup> to 2<sup>23</sup>−1 and unsigned is from 0 to 2<sup>24</sup>−1. <!--SR:!2030-07-14,1923,350!2032-05-02,2289,310-->
     - `MEDIUMINT` ::@:: Signed is from −2<sup>31</sup> to 2<sup>31</sup>−1 and unsigned is from 0 to 2<sup>32</sup>−1. <!--SR:!2026-11-25,809,310!2029-10-27,1733,350-->
     - `BIGINT` ::@:: Signed is from −2<sup>63</sup> to 2<sup>63</sup>−1 and unsigned is from 0 to 2<sup>64</sup>−1. <!--SR:!2027-12-27,1187,330!2030-07-10,1919,350-->
-- string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2027-03-10,871,310!2026-03-22,594,290-->
+- string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2027-03-10,871,310!2032-10-15,2399,310-->
   - `BINARY`, `VARBINARY` ::@:: Binary strings. Length of the former is fixed and of the latter is variable. <!--SR:!2029-04-03,1572,350!2031-01-30,2068,350-->
     - `BINARY` ::@:: Up to 2<sup>8</sup>−1 bytes of fixed-size binary string. <!--SR:!2030-02-04,1812,350!2028-06-19,1245,330-->
     - `VARBINARY` ::@:: Up to 2<sup>16</sup>−1 bytes of binary string. This capacity is shared among columns \(including other column types\) in a row. <!--SR:!2028-11-04,1345,330!2027-10-13,1010,310-->

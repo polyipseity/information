@@ -19,7 +19,7 @@ LTL was first {@{proposed for the [formal verification](formal%20verification.md
 
 LTL is built up from {@{a finite set of [propositional variables](propositional%20variable.md) _AP_, the [logical operators](logical%20connective.md) ¬ and ∨}@}, and {@{the [temporal](temporal%20logic.md) [modal operators](modal%20operator.md) __X__ \(some literature uses __O__ or __N__\) and __U__}@}. Formally, {@{the set of LTL formulas over _AP_}@} is {@{inductively defined as follows}@}: <!--SR:!2026-03-25,374,363!2026-03-26,375,363!2030-01-07,1457,370!2027-01-01,578,343-->
 
-- if _p_ ∈ _AP_ ::@:: then _p_ is an LTL formula; <!--SR:!2026-03-22,371,363!2029-11-19,1342,363-->
+- if _p_ ∈ _AP_ ::@:: then _p_ is an LTL formula; <!--SR:!2031-04-12,1847,383!2029-11-19,1342,363-->
 - if _ψ_ and _φ_ are LTL formulas ::@:: then ¬ψ, φ ∨ ψ, __X__ ψ, and φ __U__ ψ are LTL formulas.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2031-03-05,1816,383!2029-10-26,1409,370-->
 
 __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator -->t and __U__ is read as __u__<!-- markdown separator -->ntil}@}. Other than {@{these fundamental operators}@}, there are {@{additional logical and temporal operators defined in terms of the fundamental operators}@}, in order to {@{write LTL formulas succinctly}@}. The additional logical operators are {@{∧, →, ↔, __true__, and __false__}@}. Following are {@{the additional temporal operators}@}. <!--SR:!2028-04-15,950,350!2026-04-18,394,363!2029-06-29,1293,363!2030-12-11,1751,383!2030-01-27,1477,370!2026-06-21,136,410-->
@@ -68,7 +68,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 
 - strong release (__M__) (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak util_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2027-08-01,550,243!2026-09-23,427,283-->
 
-{@{The semantics for the temporal operators}@} are pictorially presented as follows. <!--SR:!2026-03-22,372,363-->
+{@{The semantics for the temporal operators}@} are pictorially presented as follows. <!--SR:!2031-04-22,1857,383-->
 
 | Textual                                    | Symbolic                          | Explanation                                                                                                                                                                     | Diagram                                                                                                                                                                                          |
 | ------------------------------------------ | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -167,7 +167,7 @@ All the formulas of LTL can be {@{transformed into _negation normal form_}@}, wh
 
 ## relations with other logics
 
-LTL can be shown to be {@{equivalent to the [monadic first-order logic of order](monadic%20predicate%20calculus.md), FO\[\<\]}@}—a result known as {@{[Kamp's theorem](Kamp's%20theorem.md)}@}—<sup>[\[9\]](#^ref-9)</sup> or {@{equivalently to [star-free languages](star-free%20language.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-29,378,363!2026-03-22,371,363!2031-04-13,1849,383-->
+LTL can be shown to be {@{equivalent to the [monadic first-order logic of order](monadic%20predicate%20calculus.md), FO\[\<\]}@}—a result known as {@{[Kamp's theorem](Kamp's%20theorem.md)}@}—<sup>[\[9\]](#^ref-9)</sup> or {@{equivalently to [star-free languages](star-free%20language.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-29,378,363!2031-04-11,1846,383!2031-04-13,1849,383-->
 
 {@{[Computation tree logic](computation%20tree%20logic.md) \(CTL\) and linear temporal logic \(LTL\)}@} are {@{both a subset of [CTL\*](CTL*.md), but are incomparable}@}. For example, <!--SR:!2026-03-28,377,363!2030-06-08,1587,370-->
 

@@ -54,11 +54,11 @@ tags:
 > // → 9
 > ```
 >
-> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!2026-03-22,56,310!2026-03-23,57,310!2026-04-01,60,310!2026-11-12,237,330!2026-03-24,58,310-->
+> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!2026-11-22,245,330!2026-03-23,57,310!2026-04-01,60,310!2026-11-12,237,330!2026-03-24,58,310-->
 
 ## statefulness
 
-{@{A _stateful object_}@} is one whose {@{behaviour depends on a history of updates}@}. Typical implementations use {@{mutable variables (`var`) or private fields that can be changed by methods}@}. <!--SR:!2026-11-07,232,330!2026-11-12,237,330!2026-03-22,56,310-->
+{@{A _stateful object_}@} is one whose {@{behaviour depends on a history of updates}@}. Typical implementations use {@{mutable variables (`var`) or private fields that can be changed by methods}@}. <!--SR:!2026-11-07,232,330!2026-11-12,237,330!2026-11-23,246,330-->
 
 > [!example] __`BankAccount`__
 >
@@ -75,9 +75,9 @@ tags:
 >     else throw new IllegalArgumentException("insufficient funds")
 > ```
 >
-> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-03-31,59,310!2026-03-31,59,310!2026-04-02,61,310!2026-11-11,236,330!2026-03-22,56,310!2026-03-22,56,310-->
+> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-03-31,59,310!2026-03-31,59,310!2026-04-02,61,310!2026-11-11,236,330!2026-11-21,244,330!2026-11-20,243,330-->
 
-{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-03-23,57,310!2026-03-22,56,310!2026-03-24,58,310!2026-04-04,63,310!2026-04-04,63,310-->
+{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-03-23,57,310!2026-11-23,246,330!2026-03-24,58,310!2026-04-04,63,310!2026-04-04,63,310-->
 
 > [!example] __stateful proxy__
 >
@@ -88,7 +88,7 @@ tags:
 >   def deposit(amount: Int): Unit = ba.deposit(amount)
 >   def withdraw(amount: Int): Int = ba.withdraw(amount)
 > ```
-<!--SR:!2026-03-22,56,310!2026-11-15,239,330-->
+<!--SR:!2026-11-19,242,330!2026-11-15,239,330-->
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-03-31,59,310!2026-04-01,60,310!2026-04-02,61,310!2026-04-02,61,310-->
 
@@ -155,4 +155,4 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > ```
 <!--SR:!2026-04-03,62,310!2026-11-11,236,330!2026-04-01,60,310!2026-11-11,236,330-->
 
-{@{A model more robust than the substitution model}@} introduces {@{a store that tracks mutable objects}@}, but this adds {@{considerable complexity}@}. <!--SR:!2026-03-22,56,310!2026-04-02,61,310!2026-04-02,61,310-->
+{@{A model more robust than the substitution model}@} introduces {@{a store that tracks mutable objects}@}, but this adds {@{considerable complexity}@}. <!--SR:!2026-11-22,245,330!2026-04-02,61,310!2026-04-02,61,310-->
