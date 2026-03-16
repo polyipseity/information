@@ -128,7 +128,7 @@ Flashcards for this section are as follows:
 
 - schematic: L293 pinout <p> ![L293 pinout](attachments/l293_block.svg) ::@:: L293 dual H-bridge: 16-pin DIP; pin 8 = VS (motor supply), pin 16 = VCC (logic); EN_12, IN_1, OUT_1, OUT_2, IN_2 for bridge 1; EN_34, IN_3, OUT_3, OUT_4, IN_4 for bridge 2. <!--SR:!2026-04-06,16,290!2026-04-04,14,290-->
 - L293 function: What is the L293 used for? ::@:: Dual H-bridge IC: it contains two complete H-bridges so one chip can drive two DC motors (e.g. left and right robot wheels). <!--SR:!2026-04-05,15,290!2026-04-05,15,290-->
-- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: EN enables that H-bridge (that half of the chip); IN_1 and IN_2 set the direction (with an inverter, one DIR line can drive both so they are complementary). <!--SR:!2026-03-23,2,250!2026-04-04,14,290-->
+- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: EN enables that H-bridge (that half of the chip); IN_1 and IN_2 set the direction (with an inverter, one DIR line can drive both so they are complementary). <!--SR:!2026-03-28,5,250!2026-04-04,14,290-->
 - L293 outputs: What do OUT_1 and OUT_2 connect to? ::@:: The two outputs of each H-bridge connect to the two terminals of that motor. <!--SR:!2026-04-04,14,290!2026-04-06,16,290-->
 
 ### supplies and bypass

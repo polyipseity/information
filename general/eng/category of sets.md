@@ -11,7 +11,7 @@ tags:
 
 In {@{the [mathematical](mathematics.md) field of [category theory](category%20theory.md)}@}, {@{the __category of sets__, denoted by __Set__}@}, is {@{the [category](category%20(mathematics).md) whose [objects](category%20theory.md) are [sets](set%20(mathematics).md)}@}. {@{The arrows or [morphisms](morphism.md) between sets _A_ and _B_}@} are {@{the [functions](function%20(mathematics).md) from _A_ to _B_}@}, and {@{the composition of morphisms is the [composition of functions](function%20composition.md)}@}. <!--SR:!2029-07-04,1269,350!2029-05-23,1227,350!2027-12-26,826,330!2029-07-01,1266,350!2029-06-07,1242,350!2029-08-27,1319,350-->
 
-{@{Many other categories \(such as the [category of groups](category%20of%20groups.md), with [group homomorphisms](group%20homomorphisms.md) as arrows\)}@} {@{add structure to the objects of the category of sets}@} or {@{restrict the arrows to functions of a particular kind}@} \(or {@{both}@}\). <!--SR:!2027-12-27,815,330!2027-07-21,636,310!2026-03-23,123,388!2027-12-16,636,408-->
+{@{Many other categories \(such as the [category of groups](category%20of%20groups.md), with [group homomorphisms](group%20homomorphisms.md) as arrows\)}@} {@{add structure to the objects of the category of sets}@} or {@{restrict the arrows to functions of a particular kind}@} \(or {@{both}@}\). <!--SR:!2027-12-27,815,330!2027-07-21,636,310!2028-01-11,659,408!2027-12-16,636,408-->
 
 ## properties of the category of sets
 

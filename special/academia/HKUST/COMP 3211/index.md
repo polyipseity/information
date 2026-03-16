@@ -235,7 +235,7 @@ The content is in teaching order.
     - breadth-first search / worst-case space complexity / intuition ::@:: For explicit graph, each vertex needs to be stored in the visited set in the worst case, hence $O(\lvert V \rvert)$. <p> For implicit graph, if $d$ is the number of edges to reach the solution, the nodes that take not greater than $d$ edges are visited in the worst case, hence $O\left(b^d\right)$ to store them. <!--SR:!2027-08-19,717,424!2027-09-13,738,424-->
 - search algorithm
   - search algorithm / importance ::@:: It determines the order of states expanded in the search state. Different algorithms lead to different search trees, and have different time and space complexities. <!--SR:!2026-09-08,443,383!2026-08-09,409,383-->
-  - search algorithm / properties ::@:: completeness, optimality, space complexity, time complexity <!--SR:!2026-03-23,299,363!2026-10-01,462,383-->
+  - search algorithm / properties ::@:: completeness, optimality, space complexity, time complexity <!--SR:!2030-04-22,1491,383!2026-10-01,462,383-->
   - search algorithm / completeness ::@:: Is the algorithm guaranteed to find a solution if it exists? <!--SR:!2026-09-03,435,383!2026-08-05,405,383-->
   - search algorithm / time complexity ::@:: How long does the algorithm take to find a solution? Note that it is frequently denoted using big O notation. <!--SR:!2026-07-27,407,383!2026-08-11,415,383-->
   - search algorithm / space complexity ::@:: How much memory does the algorithm use? Note that it is frequently denoted using big O notation. <!--SR:!2026-09-08,440,383!2026-09-17,448,383-->

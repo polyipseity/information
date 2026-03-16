@@ -10,7 +10,7 @@ tags:
 
 # signal space
 
-A {@{__signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to {@{model transmitted waveforms as points or vectors within a multidimensional Euclidean (or Hilbert) space}@}. By selecting {@{an orthonormal set of basis functions}@}—often derived via {@{Gram–Schmidt orthogonalisation}@}—{@{the time-domain signals}@} are expressed as {@{linear combinations whose coefficients serve as coordinates}@}. <!--SR:!2026-11-27,267,345!2026-03-26,81,344!2026-03-25,80,344!2027-02-03,324,345!2027-02-03,324,345!2027-01-30,320,345!2026-03-23,78,344-->
+A {@{__signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to {@{model transmitted waveforms as points or vectors within a multidimensional Euclidean (or Hilbert) space}@}. By selecting {@{an orthonormal set of basis functions}@}—often derived via {@{Gram–Schmidt orthogonalisation}@}—{@{the time-domain signals}@} are expressed as {@{linear combinations whose coefficients serve as coordinates}@}. <!--SR:!2026-11-27,267,345!2026-03-26,81,344!2026-03-25,80,344!2027-02-03,324,345!2027-02-03,324,345!2027-01-30,320,345!2027-03-31,373,364-->
 
 {@{This geometric view}@} simplifies the analysis of {@{modulation schemes, receiver design, and error performance}@}, enabling designers to visualize {@{constellations, compute Euclidean distances between symbols}@}, and construct {@{matched filters that maximise signal-to-noise ratio}@}. <!--SR:!2026-03-26,81,344!2027-02-03,324,345!2026-12-09,278,345!2027-02-21,339,345-->
 
@@ -18,13 +18,13 @@ A {@{__signal space__}@} is {@{an abstract vector-space representation used in d
 
 {@{The optimality of a demodulator}@} holds {@{only within the assumed receiver structure \(e.g. matched filter for LTI filters\)}@}. {@{Altering the signal space or receiver architecture}@} can yield {@{different, potentially better performance for multilevel schemes}@}. <!--SR:!2027-01-25,315,345!2027-03-15,358,364!2026-12-13,281,345!2027-02-24,341,345-->
 
-{@{Digital communication in general \(not limited to LTI filters\)}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}. This perspective turns {@{complex algebra into visual intuition}@} and yields {@{design rules}@} for {@{modulation, demodulation, and receiver optimisation}@}. <!--SR:!2026-03-23,78,344!2027-01-01,297,345!2026-03-26,81,344!2026-03-24,79,344!2026-12-09,277,345!2027-02-15,334,345-->
+{@{Digital communication in general \(not limited to LTI filters\)}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}. This perspective turns {@{complex algebra into visual intuition}@} and yields {@{design rules}@} for {@{modulation, demodulation, and receiver optimisation}@}. <!--SR:!2027-03-26,368,364!2027-01-01,297,345!2026-03-26,81,344!2026-03-24,79,344!2026-12-09,277,345!2027-02-15,334,345-->
 
 ## geometric domain
 
-A signal $s(t)$ can be described in {@{time domain, frequency domain, or geometric domain}@}. Actually, {@{time domain and frequency domain}@} are {@{special cases of the geometric domain}@}. <!--SR:!2026-03-23,78,344!2026-12-21,287,345!2027-02-14,333,345-->
+A signal $s(t)$ can be described in {@{time domain, frequency domain, or geometric domain}@}. Actually, {@{time domain and frequency domain}@} are {@{special cases of the geometric domain}@}. <!--SR:!2027-03-28,370,364!2026-12-21,287,345!2027-02-14,333,345-->
 
-{@{A signal $s(t)$}@} is typically {@{expressed as a function of continuous time}@}, revealing {@{its waveform shape, duration, and temporal features}@} such as {@{rise/fall times or modulation patterns}@}. {@{Analysis in this domain}@} focuses on {@{causality, stability}@}, and {@{the physical realization}@} of {@{transmitters and receivers}@}. {@{Energy in the time domain}@} is obtained by {@{integrating $|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2026-03-28,83,344!2026-12-01,271,345!2027-01-07,302,345!2027-01-24,315,345!2027-02-02,323,345!2027-01-02,298,345!2026-03-23,78,344!2027-02-02,323,345!2027-01-31,321,345!2026-03-27,82,344-->
+{@{A signal $s(t)$}@} is typically {@{expressed as a function of continuous time}@}, revealing {@{its waveform shape, duration, and temporal features}@} such as {@{rise/fall times or modulation patterns}@}. {@{Analysis in this domain}@} focuses on {@{causality, stability}@}, and {@{the physical realization}@} of {@{transmitters and receivers}@}. {@{Energy in the time domain}@} is obtained by {@{integrating $|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2026-03-28,83,344!2026-12-01,271,345!2027-01-07,302,345!2027-01-24,315,345!2027-02-02,323,345!2027-01-02,298,345!2027-03-25,367,364!2027-02-02,323,345!2027-01-31,321,345!2026-03-27,82,344-->
 
 {@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the time waveform into a spectrum of sinusoidal components}@}. This representation exposes {@{bandwidth requirements, spectral occupancy, and filtering behavior}@}. Importantly, {@{Parseval’s theorem}@} guarantees that {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$ \(under the unitary convention\)}@}, so {@{total energy is preserved}@}. <!--SR:!2026-12-08,277,345!2027-02-20,337,345!2026-12-06,275,345!2026-03-25,80,344!2027-02-25,342,345!2027-02-19,337,345-->
 
@@ -34,7 +34,7 @@ From the view of {@{geometric domain}@}, {@{the time-domain waveform}@} is simpl
 
 ## definition
 
-Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any finite-duration signal}@} can be written as {@{$$s(t)=\sum_{k=1}^N a_k\,\phi_k(t) \,.$$}@} {@{The coefficients $(a_1,\dots,a_N)$}@} are {@{the coordinates of the vector representing the waveform}@}. <!--SR:!2027-01-25,316,345!2027-01-28,318,345!2026-03-23,78,344!2027-01-30,320,345!2027-01-26,316,345-->
+Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any finite-duration signal}@} can be written as {@{$$s(t)=\sum_{k=1}^N a_k\,\phi_k(t) \,.$$}@} {@{The coefficients $(a_1,\dots,a_N)$}@} are {@{the coordinates of the vector representing the waveform}@}. <!--SR:!2027-01-25,316,345!2027-01-28,318,345!2027-03-24,366,364!2027-01-30,320,345!2027-01-26,316,345-->
 
 ### inner product
 
@@ -46,13 +46,13 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 {@{These properties}@} guarantee that {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$}@} behaves like {@{a Euclidean length}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{their inner product equals zero}@}; they are {@{_orthonormal_}@} when {@{each also has unit norm}@}. <!--SR:!2027-02-06,326,345!2026-12-22,288,345!2026-03-24,79,344!2027-01-05,300,345!2027-01-21,311,345!2026-10-22,237,330!2027-02-12,331,345!2027-01-25,316,345-->
 
-{@{The inner product}@} for {@{continuous-time signals}@} is {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} With {@{this definition}@} {@{a signal $s(t)$ has unit norm}@} when {@{its energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2027-02-19,337,345!2026-12-11,280,345!2027-01-08,303,345!2026-03-23,78,344!2026-11-29,269,345!2027-02-04,325,345!2027-01-28,318,345-->
+{@{The inner product}@} for {@{continuous-time signals}@} is {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} With {@{this definition}@} {@{a signal $s(t)$ has unit norm}@} when {@{its energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2027-02-19,337,345!2026-12-11,280,345!2027-01-08,303,345!2027-03-23,365,364!2026-11-29,269,345!2027-02-04,325,345!2027-01-28,318,345-->
 
 ### geometric concepts
 
 - _Length_: ::@:: The magnitude of a vector is $\|v\| = \sqrt{\langle v,v\rangle}$. <!--SR:!2026-12-08,277,345!2027-02-23,340,345-->
 - _Distance_: ::@:: Between $u$ and $v$ it is $\|u-v\|=\sqrt{\langle u-v,\,u-v\rangle}$. <!--SR:!2026-11-28,268,345!2027-01-23,313,345-->
-- _Angle_: ::@:: The cosine of the angle between non-zero vectors $u$ and $v$ is $$\cos\theta = \frac{\langle u,v\rangle}{\|u\|\;\|v\|} \,.$$ <!--SR:!2026-03-23,78,344!2027-02-13,332,345-->
+- _Angle_: ::@:: The cosine of the angle between non-zero vectors $u$ and $v$ is $$\cos\theta = \frac{\langle u,v\rangle}{\|u\|\;\|v\|} \,.$$ <!--SR:!2027-03-27,369,364!2027-02-13,332,345-->
 - _Orthogonality_: ::@:: Vectors are orthogonal if their inner product vanishes: $\langle u,v\rangle=0$. <!--SR:!2027-01-28,318,345!2027-03-20,363,364-->
 - _Circles and spheres_: ::@:: The set $\{x\in V : \|x-x_c\| = r\}$ describes a circle (or hypersphere) centered at $x_c$ with radius $r$. <!--SR:!2027-02-24,341,345!2027-02-16,334,345-->
 
@@ -74,7 +74,7 @@ To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space represe
 
 For {@{any three signals $x(t),y(t),z(t)$}@} in the space, {@{adding them in any grouping}@} yields {@{the same result}@}: {@{$$[x(t)+y(t)] + z(t)= x(t) + [y(t)+z(t)] \,.$$}@} {@{This _associative_ property}@} guarantees that {@{concatenating or regrouping signal additions}@} does not {@{affect the final waveform}@}. It is also {@{_commutative_ \(i.e. order-independent\)}@}; {@{swapping operands leaves the sum unchanged}@}: {@{$$x(t)+y(t)= y(t)+x(t) \,.$$}@} <!--SR:!2027-01-28,318,345!2027-02-09,329,345!2027-01-19,312,345!2027-01-04,299,345!2027-02-25,342,345!2027-01-06,301,345!2027-02-26,343,345!2026-12-12,280,345!2027-01-26,317,345!2027-03-24,367,364-->
 
-{@{Multiplying a signal by a scalar $a$}@} and then {@{adding two scaled versions}@} is equivalent to {@{scaling the sum}@}: {@{$$a\, [x(t)+y(t)] = a\,x(t)+ a\,y(t) \,.$$}@} Thus, {@{linear combinations}@} can be {@{distributed across addition}@}. Further, if {@{$a,b$ are scalars and $x(t)$ is a signal}@}, then {@{$$(a+b)\,x(t)= a\,x(t)+ b\,x(t) \,.$$}@} This axiom ensures that {@{scalar arithmetic behaves coherently}@} when {@{applied to signals}@}. <!--SR:!2026-03-25,80,344!2027-01-30,321,345!2026-12-22,289,345!2027-02-15,334,345!2026-12-11,279,345!2027-02-22,339,345!2026-11-12,254,330!2026-03-23,78,344!2027-01-31,321,345!2026-12-20,287,345-->
+{@{Multiplying a signal by a scalar $a$}@} and then {@{adding two scaled versions}@} is equivalent to {@{scaling the sum}@}: {@{$$a\, [x(t)+y(t)] = a\,x(t)+ a\,y(t) \,.$$}@} Thus, {@{linear combinations}@} can be {@{distributed across addition}@}. Further, if {@{$a,b$ are scalars and $x(t)$ is a signal}@}, then {@{$$(a+b)\,x(t)= a\,x(t)+ b\,x(t) \,.$$}@} This axiom ensures that {@{scalar arithmetic behaves coherently}@} when {@{applied to signals}@}. <!--SR:!2026-03-25,80,344!2027-01-30,321,345!2026-12-22,289,345!2027-02-15,334,345!2026-12-11,279,345!2027-02-22,339,345!2026-11-12,254,330!2027-03-22,364,364!2027-01-31,321,345!2026-12-20,287,345-->
 
 There exists {@{an _additive identity_ \(unique "zero" signal\) $0(t)$}@} that leaves {@{any other signal unchanged when added}@}: {@{$$x(t)+0(t)= x(t) \,.$$}@} {@{The zero waveform}@} has {@{all samples equal to zero}@} and represents {@{the absence of energy in the system}@}. For {@{every signal $x(t)$}@}, there is {@{a corresponding _additive inverse_ $-x(t)$}@} such that {@{their sum equals the additive identity}@}: {@{$$x(t)+[-x(t)] = 0(t) \,.$$}@} This allows {@{subtraction of signals}@} by {@{adding their inverses}@}. <!--SR:!2027-02-04,325,345!2027-02-13,332,345!2027-02-19,337,345!2027-02-20,338,345!2026-11-11,253,330!2027-02-12,331,345!2027-02-04,325,345!2027-01-04,299,345!2027-01-05,300,345!2027-02-02,323,345!2027-02-02,323,345!2027-02-20,338,345-->
 
@@ -86,7 +86,7 @@ Consequently, {@{the vector space's additive structure}@} behaves like {@{ordina
 
 {@{An $n$-dimensional vector space $S$}@} is generated by {@{a set of $n$ basis vectors $\{e_1,e_2,\dots ,e_n\}$}@}. {@{The space}@} is {@{the span of these vectors}@}: {@{$$S=\operatorname{span}(e_1,e_2,\dots ,e_n)$$}@} {@{Any vector $a\in S$}@} can be {@{expressed uniquely as a linear combination of the basis}@}, i.e. {@{$$a=\sum_{i=1}^{n}c_i\,e_i \,.$$}@} {@{The number $n$}@} is called {@{the _dimension_ of the space}@} and equals {@{the maximum number of linearly independent vectors it contains}@}. <!--SR:!2026-03-27,82,344!2026-03-24,79,344!2027-01-31,321,345!2027-02-01,322,345!2027-01-22,312,345!2026-03-27,82,344!2027-01-26,316,345!2026-12-24,290,345!2026-10-23,237,330!2027-02-01,322,345!2027-01-03,299,345-->
 
-For {@{a particular subspace}@}, there are {@{infinitely many basis and infinitely many orthonormal basis}@}; for {@{the purpose of signal processing}@}, the choice is {@{arbitrary}@}. What matters for signal representation is {@{the subspace itself}@}, not {@{the particular basis vectors chosen}@}. One may pick {@{any convenient basis}@}, even if it {@{looks different from another}@}. <!--SR:!2027-02-20,338,345!2026-03-23,78,344!2027-02-26,343,345!2027-01-24,314,345!2027-02-21,339,345!2026-03-27,82,344!2026-03-23,78,344!2026-12-07,275,345-->
+For {@{a particular subspace}@}, there are {@{infinitely many basis and infinitely many orthonormal basis}@}; for {@{the purpose of signal processing}@}, the choice is {@{arbitrary}@}. What matters for signal representation is {@{the subspace itself}@}, not {@{the particular basis vectors chosen}@}. One may pick {@{any convenient basis}@}, even if it {@{looks different from another}@}. <!--SR:!2027-02-20,338,345!2027-03-29,371,364!2027-02-26,343,345!2027-01-24,314,345!2027-02-21,339,345!2026-03-27,82,344!2027-03-20,362,364!2026-12-07,275,345-->
 
 {@{_Orthonormal_ bases}@} are preferred because they {@{simplify coordinate extraction}@} and {@{preserve energy without multiplying by additionally factors}@}. <!--SR:!2026-12-24,290,345!2027-01-22,312,345!2026-03-24,79,344-->
 
@@ -96,7 +96,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a
 
 ### orthogonality and orthonormality
 
-{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_}@} ({@{$e_i^\top e_j=0$ for $i\neq j$}@}) and {@{every vector has unit norm ($\|e_i\|=1$)}@}. {@{Orthonormal bases}@} simplify {@{coordinate calculations}@} because {@{the coordinates equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@} <!--SR:!2026-03-25,80,344!2027-01-02,298,345!2027-03-16,359,364!2026-12-16,284,345!2026-03-23,78,344!2027-01-23,313,345!2026-11-29,269,345!2027-01-29,320,345!2026-12-08,276,345-->
+{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_}@} ({@{$e_i^\top e_j=0$ for $i\neq j$}@}) and {@{every vector has unit norm ($\|e_i\|=1$)}@}. {@{Orthonormal bases}@} simplify {@{coordinate calculations}@} because {@{the coordinates equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@} <!--SR:!2026-03-25,80,344!2027-01-02,298,345!2027-03-16,359,364!2026-12-16,284,345!2027-03-30,372,364!2027-01-23,313,345!2026-11-29,269,345!2027-01-29,320,345!2026-12-08,276,345-->
 
 ### linear transformations
 
@@ -120,7 +120,7 @@ If {@{two vectors $a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), 
 
 ## Gram–Schmidt process
 
-Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. {@{The first basis vector}@} is a {@{normalised copy of $s_1$}@}. {@{Subsequent vectors are obtained}@} by {@{subtracting from each new signal}@} its {@{projections onto previously found basis vectors}@} and then {@{normalising}@}. <!--SR:!2027-01-04,299,345!2027-01-31,321,345!2027-01-08,303,345!2026-03-23,78,344!2026-12-14,282,345!2027-02-04,325,345!2026-12-19,286,345!2027-01-26,316,345!2027-02-03,324,345!2026-03-24,79,344-->
+Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. {@{The first basis vector}@} is a {@{normalised copy of $s_1$}@}. {@{Subsequent vectors are obtained}@} by {@{subtracting from each new signal}@} its {@{projections onto previously found basis vectors}@} and then {@{normalising}@}. <!--SR:!2027-01-04,299,345!2027-01-31,321,345!2027-01-08,303,345!2027-03-21,363,364!2026-12-14,282,345!2027-02-04,325,345!2026-12-19,286,345!2027-01-26,316,345!2027-02-03,324,345!2026-03-24,79,344-->
 
 The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2026-12-18,285,345-->
 

@@ -117,7 +117,7 @@ As {@{a corollary of this}@}, we get {@{the Cauchy Integral Theorem for rectifia
 
 > __Proof__
 >
-> We regard {@{the complex plane as $\mathbb {R} ^{2}$}@}. Now, define {@{$u,v:{\overline {R} }\to \mathbb {R}$}@} to be such that {@{$f(x+iy)=u(x,y)+iv(x,y)$}@}. These functions are {@{clearly continuous}@}. It is well known that $u$ and $v$ are {@{Fréchet-differentiable and that they satisfy the Cauchy-Riemann equations}@}: {@{$D_{1}v+D_{2}u=D_{1}u-D_{2}v={\text{zero function} }$ \(annotation: which is obviously Riemann-integrable\)}@}. <!--SR:!2026-07-21,291,330!2026-07-05,276,330!2026-05-13,237,330!2026-07-20,288,330!2026-07-03,274,330!2026-03-23,182,310-->
+> We regard {@{the complex plane as $\mathbb {R} ^{2}$}@}. Now, define {@{$u,v:{\overline {R} }\to \mathbb {R}$}@} to be such that {@{$f(x+iy)=u(x,y)+iv(x,y)$}@}. These functions are {@{clearly continuous}@}. It is well known that $u$ and $v$ are {@{Fréchet-differentiable and that they satisfy the Cauchy-Riemann equations}@}: {@{$D_{1}v+D_{2}u=D_{1}u-D_{2}v={\text{zero function} }$ \(annotation: which is obviously Riemann-integrable\)}@}. <!--SR:!2026-07-21,291,330!2026-07-05,276,330!2026-05-13,237,330!2026-07-20,288,330!2026-07-03,274,330!2027-10-08,564,310-->
 
 Now, analyzing {@{the sums used to define the complex contour integral in question}@}, it is easy to realize that {@{$$\int _{\Gamma }f=\int _{\Gamma }u\,dx-v\,dy\quad +i\int _{\Gamma }v\,dx+u\,dy,$$}@} {@{the integrals on the RHS}@} being {@{usual line integrals}@}. These remarks allow us to {@{apply Green's Theorem to each one of these line integrals}@}, {@{finishing the proof}@}. <!--SR:!2026-06-17,260,330!2026-04-11,196,310!2026-05-31,251,330!2026-06-25,270,330!2026-04-15,196,310!2026-06-04,255,330-->
 

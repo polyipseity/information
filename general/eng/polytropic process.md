@@ -26,7 +26,7 @@ tags:
 > - {@{$p$}@} is {@{the [pressure](pressure.md)}@}
 > - {@{$V$}@} is {@{the [volume](volume.md)}@}
 > - {@{$n$}@} is {@{the __polytropic index__}@}
-> - {@{$C$}@} is {@{a [constant](constant%20(mathematics).md)}@} <!--SR:!2028-01-29,1169,350!2027-10-20,1091,350!2027-09-02,529,399!2027-08-20,518,399!2027-07-28,497,399!2026-03-23,102,379!2026-03-23,102,379!2027-08-18,516,399!2027-08-15,514,399-->
+> - {@{$C$}@} is {@{a [constant](constant%20(mathematics).md)}@} <!--SR:!2028-01-29,1169,350!2027-10-20,1091,350!2027-09-02,529,399!2027-08-20,518,399!2027-07-28,497,399!2027-09-05,531,399!2027-09-08,534,399!2027-08-18,516,399!2027-08-15,514,399-->
 
 ## relation between polytropic index and energy transfer ratio
 
@@ -45,7 +45,7 @@ tags:
 > - {@{$\gamma$}@} is {@{the [heat capacity ratio](heat%20capacity%20ratio.md)}@}
 > - {@{$K = \frac{\delta Q}{\delta W}$}@} is {@{the energy transfer ratio}@}
 >
-> Thus, {@{the __polytropic index__}@} is {@{$n = \gamma - K(\gamma - 1)$}@}. In particular, we see the index interpolates {@{between $\gamma$ and 1}@} when $K$ {@{varies between 0 \(isentropic\) and 1 \(isothermic\)}@}. <!--SR:!2027-03-22,468,210!2030-08-07,1649,310!2026-12-15,444,270!2029-01-11,1287,310!2026-03-31,314,329!2027-07-29,498,399!2026-03-23,102,379!2027-08-29,526,399!2027-09-03,530,399!2027-08-17,515,399!2027-08-22,519,399!2027-07-30,500,399!2027-03-25,371,379!2027-09-04,531,399!2027-08-28,525,399!2027-09-04,531,399!2026-03-23,102,379-->
+> Thus, {@{the __polytropic index__}@} is {@{$n = \gamma - K(\gamma - 1)$}@}. In particular, we see the index interpolates {@{between $\gamma$ and 1}@} when $K$ {@{varies between 0 \(isentropic\) and 1 \(isothermic\)}@}. <!--SR:!2027-03-22,468,210!2030-08-07,1649,310!2026-12-15,444,270!2029-01-11,1287,310!2026-03-31,314,329!2027-07-29,498,399!2027-09-10,536,399!2027-08-29,526,399!2027-09-03,530,399!2027-08-17,515,399!2027-08-22,519,399!2027-07-30,500,399!2027-03-25,371,379!2027-09-04,531,399!2027-08-28,525,399!2027-09-04,531,399!2027-09-09,535,399-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows: $$\begin{aligned}
 U & = \frac f 2 nRT = \frac {nRT} {\gamma - 1} \\

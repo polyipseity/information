@@ -48,7 +48,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 > )
 > (factorial 10) ;; → 3628800
 > ```
-<!--SR:!2026-03-23,54,310!2026-04-02,59,320-->
+<!--SR:!2026-11-13,235,330!2026-04-02,59,320-->
 
 ### Lisp data
 
@@ -248,7 +248,7 @@ Because Scheme has {@{many convenient syntactic sugar}@}, we first rewrite {@{th
 >     normalize(ret)
 >  // other rules...
 > ```
-<!--SR:!2026-04-12,69,320!2026-03-23,54,310!2026-04-17,73,320-->
+<!--SR:!2026-04-12,69,320!2026-11-07,229,330!2026-04-17,73,320-->
 
 With {@{these rules in place}@}, {@{every Scheme expression}@} is reduced to {@{a tree that only uses the primitive forms `val`, `def`, `lambda`, `quote` and `if`}@}. {@{The evaluator}@} can then work on {@{this simplified representation}@} without having to {@{recognise any other syntactic sugar}@}. <!--SR:!2026-04-17,74,320!2026-04-16,72,320!2026-04-15,71,320!2026-04-17,73,320!2026-04-02,59,320!2026-04-04,61,320-->
 

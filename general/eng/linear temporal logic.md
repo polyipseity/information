@@ -46,7 +46,7 @@ The additional logical operators are defined as follows:
 
 - and ::@:: φ ∧ ψ ≡ ¬\(¬φ ∨ ¬ψ\) <!--SR:!2026-04-24,399,363!2030-02-20,1501,370-->
 - implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2029-08-11,1338,357!2030-02-21,1502,370-->
-- material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \(ψ → φ\) <!--SR:!2030-01-02,1452,370!2026-03-23,372,363-->
+- material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \(ψ → φ\) <!--SR:!2030-01-02,1452,370!2031-04-24,1858,383-->
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2026-03-27,376,363!2029-06-14,1281,363-->
 - false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2026-03-24,372,363!2028-12-30,1161,357-->
 
@@ -157,7 +157,7 @@ Let {@{φ, ψ, and ρ}@} be {@{LTL formulas}@}. The following tables list {@{som
 
 ## negation normal form
 
-All the formulas of LTL can be {@{transformed into _negation normal form_}@}, where <!--SR:!2026-03-23,372,363-->
+All the formulas of LTL can be {@{transformed into _negation normal form_}@}, where <!--SR:!2031-04-18,1852,383-->
 
 - all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2029-02-13,1196,357!2030-07-09,1614,370-->
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2028-02-24,889,337!2029-01-10,1165,350-->
@@ -185,7 +185,7 @@ __automata-theoretic linear temporal logic model checking__
 
 LTL formulas are commonly used to {@{express constraints, specifications, or processes that a system should follow}@}. {@{The field of model checking}@} aims to {@{formally verify whether a system meets a given specification}@}. In the case of {@{automata-theoretic model checking}@}, {@{both the system of interest and a specification}@} are {@{expressed as separate [finite-state machines](finite-state%20machine.md), or automata}@}, and then {@{compared to evaluate whether the system is guaranteed to have the specified property}@}. In computer science, {@{this type of model checking}@} is often used to {@{verify that an algorithm is structured correctly}@}. <!--SR:!2028-04-01,937,350!2026-04-24,399,363!2029-02-27,1207,357!2027-04-12,639,330!2031-03-15,1825,383!2030-11-07,1722,383!2031-03-19,1828,383!2026-04-12,389,363!2029-04-18,1247,357-->
 
-To {@{check LTL specifications on infinite system runs}@}, a common technique is to obtain {@{a [Büchi automaton](Büchi%20automaton.md)}@} that is {@{equivalent to the model \(accepts an ω-word precisely if it is the model\)}@} and another one that is {@{equivalent to the negation of the property \(accepts an ω-word precisely it satisfies the negated property\)}@} \(cf. {@{[linear temporal logic to Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}\). In this case, if {@{there is an overlap in the set of ω-words accepted by the two automata}@}, it implies that {@{the model accepts some behaviors which violate the desired property}@}. If {@{there is no overlap, there are no property-violating behaviors which are accepted by the model}@}. Formally, {@{the intersection of the two non-deterministic Büchi automata is empty}@} {@{if and only if the model satisfies the specified property}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2028-11-06,1112,350!2029-08-22,1275,363!2030-08-31,1655,370!2028-03-24,931,350!2031-03-07,1818,383!2027-11-21,816,337!2030-12-16,1755,383!2029-07-23,1313,363!2026-03-23,25,406!2026-03-23,25,406-->
+To {@{check LTL specifications on infinite system runs}@}, a common technique is to obtain {@{a [Büchi automaton](Büchi%20automaton.md)}@} that is {@{equivalent to the model \(accepts an ω-word precisely if it is the model\)}@} and another one that is {@{equivalent to the negation of the property \(accepts an ω-word precisely it satisfies the negated property\)}@} \(cf. {@{[linear temporal logic to Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}\). In this case, if {@{there is an overlap in the set of ω-words accepted by the two automata}@}, it implies that {@{the model accepts some behaviors which violate the desired property}@}. If {@{there is no overlap, there are no property-violating behaviors which are accepted by the model}@}. Formally, {@{the intersection of the two non-deterministic Büchi automata is empty}@} {@{if and only if the model satisfies the specified property}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2028-11-06,1112,350!2029-08-22,1275,363!2030-08-31,1655,370!2028-03-24,931,350!2031-03-07,1818,383!2027-11-21,816,337!2030-12-16,1755,383!2029-07-23,1313,363!2026-08-08,138,426!2026-08-07,137,426-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __expressing important properties in formal verification__

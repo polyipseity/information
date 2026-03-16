@@ -323,7 +323,7 @@ The content is in teaching order.
 - [perceptron](../../../../general/perceptron.md)
   - [§ steps](../../../../general/perceptron.md#steps)
     - perceptron stopping conditions ::@:: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2028-03-27,1084,377!2029-04-10,1416,397-->
-    - perceptron error trends ::@:: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2026-03-23,522,397!2033-02-02,2564,417-->
+    - perceptron error trends ::@:: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2033-12-27,2836,417!2033-02-02,2564,417-->
   - [§ convergence of one perceptron on a linearly separable dataset](../../../../general/perceptron.md#convergence%20of%20one%20perceptron%20on%20a%20linearly%20separable%20dataset)
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): neural network
@@ -374,7 +374,7 @@ The content is in teaching order.
   - [§ overview](../../../../general/principal%20component%20analysis.md#overview)
   - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
   - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
-    - § computing PCA using the covariance method > matrix __X__ ::@:: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2031-08-27,2093,397!2026-03-23,522,397-->
+    - § computing PCA using the covariance method > matrix __X__ ::@:: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2031-08-27,2093,397!2031-11-25,2073,397-->
     - § computing PCA using the covariance method > covariance matrix __C__ ::@:: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2031-03-17,1961,397!2030-02-18,1661,397-->
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::@:: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2029-12-17,1615,397!2028-06-15,1157,377-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
@@ -395,7 +395,7 @@ The content is in teaching order.
 - [fact table § examples](../../../../general/fact%20table.md) ::@:: see the transactional fact table example <!--SR:!2028-06-05,1132,377!2031-11-16,2160,397-->
 - data cube ::@:: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2026-03-28,526,397!2026-04-05,533,397-->
   - [§ operations](../../../../general/OLAP%20cube.md#operations)
-    - data cube > operations ::@:: drill down, rollup <!--SR:!2030-09-30,1842,397!2026-03-23,522,397-->
+    - data cube > operations ::@:: drill down, rollup <!--SR:!2030-09-30,1842,397!2033-12-25,2834,417-->
 
 ## week 13 tutorial
 
@@ -468,7 +468,7 @@ The content is in teaching order.
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
   - Bayesian belief network inference setup ::@:: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2030-11-26,1829,357!2028-10-27,1244,377-->
   - Bayesian belief network inference process ::@:: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2032-10-13,2410,377!2026-09-03,575,337-->
-  - Bayesian belief network inference answering ::@:: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and state that the higher conditional probability is the most likely outcome. <!--SR:!2026-03-23,522,397!2028-05-19,1135,377-->
+  - Bayesian belief network inference answering ::@:: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and state that the higher conditional probability is the most likely outcome. <!--SR:!2033-12-26,2835,417!2028-05-19,1135,377-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)

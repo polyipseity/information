@@ -140,7 +140,7 @@ array([[0, 1, 0, 0],
 array([1, 4])
 ```
 
-{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2029-03-27,1249,350!2027-12-07,850,330!2029-03-10,1238,350!2027-07-10,527,330!2030-07-12,1641,370!2029-03-20,1245,350!2030-06-17,1616,370!2026-03-23,138,399-->
+{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2029-03-27,1249,350!2027-12-07,850,330!2029-03-10,1238,350!2027-07-10,527,330!2030-07-12,1641,370!2029-03-20,1245,350!2030-06-17,1616,370!2028-04-15,754,419-->
 
 ```Python
 >>> import numpy as np

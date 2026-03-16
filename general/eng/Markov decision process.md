@@ -19,7 +19,7 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 
 > {@{![Example of a simple MDP with three states \(green circles\) and two actions \(orange circles\), with two rewards \(orange arrows\)](../../archives/Wikimedia%20Commons/Markov%20Decision%20Process.svg)}@}
 >
-> Example of {@{a simple MDP with three states \(green circles\) and two actions \(orange circles\)}@}, with {@{two rewards \(orange arrows\)}@} <!--SR:!2030-05-29,1575,369!2029-06-08,1201,349!2026-03-23,25,401-->
+> Example of {@{a simple MDP with three states \(green circles\) and two actions \(orange circles\)}@}, with {@{two rewards \(orange arrows\)}@} <!--SR:!2030-05-29,1575,369!2029-06-08,1201,349!2026-08-06,136,421-->
 
 A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where: <!--SR:!2030-10-01,1678,369-->
 

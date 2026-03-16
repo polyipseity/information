@@ -39,7 +39,7 @@ struct Parent { explicit Parent(Child child); };
 Parent parent(Child());
 ```
 
-{@{The intuitive interpretation of line 3}@} is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter}@}, whose type is {@{\(a pointer to\) a function that accepts no inputs and returns a `Child`, equivalent to}@}: <!--SR:!2027-01-05,728,290!2026-03-23,187,270!2027-03-21,431,387!2027-05-04,475,387-->
+{@{The intuitive interpretation of line 3}@} is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter}@}, whose type is {@{\(a pointer to\) a function that accepts no inputs and returns a `Child`, equivalent to}@}: <!--SR:!2027-01-05,728,290!2028-03-03,711,290!2027-03-21,431,387!2027-05-04,475,387-->
 
 ```C++
 Parent parent(Child(*)());
@@ -78,7 +78,7 @@ Parent parent((Child())); // extra parentheses
 Parent parent = Parent(Child()); // copy-initialization
 ```
 
-For {@{copy-initialization}@}, {@{the construction of a temporary after `=`}@} is {@{likely [optimized out](optimizing%20compiler.md) by the [compiler](compiler.md)}@}. Since {@{[C++17](C++17.md), this optimization is guaranteed by the standard}@}. Note that {@{the [C++17](C++17.md) standard}@} {@{does not specify this as an optimization}@}. It does not {@{formally describe it as "[copy elision](copy%20elision.md)"}@}. Rather, it describes {@{the temporary is not _materialized_ until the variable is initialized}@}. This is called {@{_deferred temporary materialization_}@}. <!--SR:!2026-03-23,543,310!2028-07-10,1041,290!2027-01-04,390,375!2027-01-08,392,375!2026-12-12,371,375!2026-12-16,375,375!2027-01-07,391,375!2026-12-31,387,375!2026-12-17,375,375-->
+For {@{copy-initialization}@}, {@{the construction of a temporary after `=`}@} is {@{likely [optimized out](optimizing%20compiler.md) by the [compiler](compiler.md)}@}. Since {@{[C++17](C++17.md), this optimization is guaranteed by the standard}@}. Note that {@{the [C++17](C++17.md) standard}@} {@{does not specify this as an optimization}@}. It does not {@{formally describe it as "[copy elision](copy%20elision.md)"}@}. Rather, it describes {@{the temporary is not _materialized_ until the variable is initialized}@}. This is called {@{_deferred temporary materialization_}@}. <!--SR:!2032-08-07,2329,330!2028-07-10,1041,290!2027-01-04,390,375!2027-01-08,392,375!2026-12-12,371,375!2026-12-16,375,375!2027-01-07,391,375!2026-12-31,387,375!2026-12-17,375,375-->
 
 ## references
 

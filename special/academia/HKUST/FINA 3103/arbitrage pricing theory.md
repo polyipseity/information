@@ -54,7 +54,7 @@ Using data on {@{United Airlines (UA) and Shell (S)}@}, suppose their {@{loading
 
 ### interpretation of multiple factors model
 
-Rewriting {@{the multi‑factor equation in excess terms}@} yields {@{$$r_{i,t}-r_f=(\bar r_i-r_f)-\sum_{k=1}^{K}b_{ik}\,(\bar r_k-r_f)+\sum_{k=1}^{K}b_{ik}(f_{k,t}-\!r_F)+u_{i,t}. $$}@} The right‑hand side {@{contains three components}@}: {@{a constant term $a_i=(\bar r_i-r_f)-\sum_{k}b_{ik}(\bar r_k-r_f)$}@}, {@{the product of each factor's _excess return_ and its loading on asset $i$}@}, and {@{an idiosyncratic shock $u_{i,t}$}@}. <!--SR:!2026-05-31,71,337!2026-03-29,16,277!2026-04-01,18,277!2026-03-23,6,257!2026-05-17,56,317!2026-06-03,73,337-->
+Rewriting {@{the multi‑factor equation in excess terms}@} yields {@{$$r_{i,t}-r_f=(\bar r_i-r_f)-\sum_{k=1}^{K}b_{ik}\,(\bar r_k-r_f)+\sum_{k=1}^{K}b_{ik}(f_{k,t}-\!r_F)+u_{i,t}. $$}@} The right‑hand side {@{contains three components}@}: {@{a constant term $a_i=(\bar r_i-r_f)-\sum_{k}b_{ik}(\bar r_k-r_f)$}@}, {@{the product of each factor's _excess return_ and its loading on asset $i$}@}, and {@{an idiosyncratic shock $u_{i,t}$}@}. <!--SR:!2026-05-31,71,337!2026-03-29,16,277!2026-04-01,18,277!2026-03-26,3,237!2026-05-17,56,317!2026-06-03,73,337-->
 
 Thus, {@{excess returns}@} are driven by {@{a constant, systematic factors, and firm‑specific noise}@}.  The model remains {@{_empirical_; it does not impose _theoretical_ equilibrium conditions as CAPM does}@}, but rather is supported by {@{arbitrage pricing theory}@}. <!--SR:!2026-06-01,71,337!2026-05-27,67,337!2026-05-29,69,337!2026-06-03,73,337-->
 

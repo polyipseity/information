@@ -156,7 +156,7 @@ Imperfect competition is {@{a type of market structure showing some but not all 
 
 - see: [monopolistic competition](monopolistic%20competition.md)
 
-Monopolistic competition is {@{a situation in which many firms with slightly different products compete}@}. Production costs are {@{above what may be achieved by perfectly competitive firms}@}, but {@{society benefits from the [product differentiation](product%20differentiation.md)}@}. Examples of industries with market structures similar to monopolistic competition include {@{restaurants, cereal, clothing, shoes, and service industries in large cities}@}. <!--SR:!2027-12-29,907,330!2029-03-03,1260,350!2027-04-13,710,330!2026-03-23,384,290-->
+Monopolistic competition is {@{a situation in which many firms with slightly different products compete}@}. Production costs are {@{above what may be achieved by perfectly competitive firms}@}, but {@{society benefits from the [product differentiation](product%20differentiation.md)}@}. Examples of industries with market structures similar to monopolistic competition include {@{restaurants, cereal, clothing, shoes, and service industries in large cities}@}. <!--SR:!2027-12-29,907,330!2029-03-03,1260,350!2027-04-13,710,330!2029-04-12,1116,290-->
 
 ### monopoly
 
