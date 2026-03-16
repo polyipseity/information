@@ -21,6 +21,9 @@ its decorator.  The functions are pure: they accept a
 
 import re
 from string import punctuation
+from urllib.parse import unquote
+
+from anyio import Path
 
 from .models import Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
@@ -187,6 +190,32 @@ def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+def _extract_children_section(text: str) -> list[tuple[int, str]]:
+    """Return the lines contained within the `## children` section.
+
+    The section begins after a `## children` heading and ends at the next
+    header of the same or higher level (i.e. a line starting with `#`).
+
+    Returns a list of (line_number, line_text) tuples.
+    """
+
+    lines = text.splitlines()
+    start_line = None
+    for idx, line in enumerate(lines):
+        if re.match(r"^##\s+children\s*$", line, re.IGNORECASE):
+            start_line = idx + 1
+            break
+    if start_line is None:
+        return []
+
+    section: list[tuple[int, str]] = []
+    for idx in range(start_line, len(lines)):
+        if re.match(r"^#{1,2}\s+", lines[idx]):
+            break
+        section.append((idx + 1, lines[idx]))
+    return section
+
+
 @RULE_REGISTRY.register()
 def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure index.md includes a 'children' section or heading.
@@ -199,6 +228,198 @@ def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             errors.append(
                 ValidationMessage(
                     "index_children_rule", "index.md missing 'children' section"
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def index_children_format_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Validate the format of the `## children` list in an index.md file.
+
+    The children section must be an unordered list of Markdown links (no
+    nested bulleted lists). This rule enforces a strict bullet format and
+    rejects any item that is not a single Markdown link.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        # Disallow nested list entries (indentation implies nesting)
+        indent = len(line) - len(line.lstrip(" \t"))
+        if indent > 0:
+            errors.append(
+                ValidationMessage(
+                    "index_children_format_rule",
+                    "children list items must be top-level bullets (no nested sub-lists)",
+                    line=line_no,
+                    col=1,
+                )
+            )
+            continue
+        # Must be a simple markdown link list item (- [text](href))
+        if not re.match(r"^[-*]\s*\[[^\]]+\]\([^\)]+\)\s*$", stripped):
+            errors.append(
+                ValidationMessage(
+                    "index_children_format_rule",
+                    "children list must consist of top-level bullet points each containing a single Markdown link",
+                    line=line_no,
+                    col=1,
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+async def index_children_order_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ensure the `## children` list is ordered folders first, then files.
+
+    Within each group (folders vs files), entries must be sorted using Python
+    string ordering.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    entries: list[tuple[bool, str, int]] = []
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            # ignore formatting errors; those are handled by other rules
+            continue
+        href = m.group(2).strip()
+        # Default to file unless the path actually resolves to a folder (or an index.md)
+        is_folder = await _is_folder_link(href, base_dir, allow_index_as_folder=True)
+        entries.append((is_folder, href, line_no))
+
+    # Ensure all folders come before any files
+    seen_file = False
+    for is_folder, href, line_no in entries:
+        if seen_file and is_folder:
+            errors.append(
+                ValidationMessage(
+                    "index_children_order_rule",
+                    "folder entries in children section must come before file entries",
+                    line=line_no,
+                    col=1,
+                )
+            )
+            # Only report once for the first violation
+            break
+        if not is_folder:
+            seen_file = True
+
+    # Check alphabetical ordering within each subgroup (folders and files)
+    for group_name, group_entries in (
+        ("folder", [e for e in entries if e[0]]),
+        (
+            "file",
+            [e for e in entries if not e[0]],
+        ),
+    ):
+        keys = [href for _, href, _ in group_entries]
+        sorted_keys = sorted(keys)
+        if keys != sorted_keys and keys:
+            # Find the first out-of-order entry
+            for (is_folder, href, line_no), expected in zip(group_entries, sorted_keys):
+                if href != expected:
+                    errors.append(
+                        ValidationMessage(
+                            "index_children_order_rule",
+                            f"{group_name.capitalize()} entries in children section must be in Python alphabetical order; expected '{expected}'",
+                            line=line_no,
+                            col=1,
+                        )
+                    )
+                    break
+            break
+    return errors
+
+
+async def _is_folder_link(
+    href: str, base: Path, *, allow_index_as_folder: bool = True
+) -> bool:
+    """Return True if *href* refers to a folder (or folder index) on disk.
+
+    A link is treated as a folder link if it points to an existing directory.
+    If *allow_index_as_folder* is True, a link that resolves to an existing
+    ``index.md`` file is also treated as a folder (useful for sorting in
+    children sections).  Otherwise, ``index.md`` is treated as a regular file.
+    """
+
+    # Decode percent-encoded components (e.g. %20 → space)
+    unquoted = unquote(href)
+    # Remove any fragment/query portion
+    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    if not unquoted:
+        return False
+
+    # Skip obvious external URLs
+    if re.match(r"^[a-zA-Z]+://", unquoted):
+        return False
+
+    # If the link explicitly has a trailing slash, treat as folder
+    if unquoted.endswith("/"):
+        return True
+
+    # anyio Path methods are async; use them directly.
+    candidate = await (base / unquoted).resolve()
+    if await candidate.is_dir():
+        return True
+    if (
+        allow_index_as_folder
+        and await candidate.is_file()
+        and candidate.name == "index.md"
+    ):
+        return True
+    return False
+
+
+@RULE_REGISTRY.register()
+async def folder_link_trailing_slash_rule(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Ensure markdown links to folders end with a trailing slash.
+
+    This applies to any file, not just index.md, and helps keep links
+    consistent between folder-style references and file-style references.
+    """
+    errors: list[ValidationMessage] = []
+    base_dir = ctx.path.parent
+
+    for m in re.finditer(r"\[[^\]]+\]\(([^\)]+)\)", ctx.text):
+        href = m.group(1).strip()
+        if not href or href.startswith("#"):
+            continue
+        if re.match(r"^[a-zA-Z]+://", href):
+            continue
+        if await _is_folder_link(
+            href, base_dir, allow_index_as_folder=False
+        ) and not href.endswith("/"):
+            line_no, col, col_end = locate_range(ctx.text, m.start(1), len(href))
+            errors.append(
+                ValidationMessage(
+                    "folder_link_trailing_slash_rule",
+                    "links to folders must end with a trailing slash",
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
                 )
             )
     return errors
@@ -628,12 +849,14 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     Index and questions pages are not topic notes; they are exempt. Searches the
     text between the header and the next header at the same or higher level; if
     no flashcard syntax is found, an error is returned.
+
+    This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     if name == "index.md" or name == "questions.md":
         return errors
-    for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
+    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
         start = h.end()
         pattern = r"^(#{1,%d})\s+" % lvl
@@ -666,12 +889,14 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 
     Index and questions pages are exempt. When flashcards appear in a section,
     there should be a horizontal rule separating them from preceding text.
+
+    This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     if name == "index.md" or name == "questions.md":
         return errors
-    for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
+    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
         start = h.end()
         pattern = r"^(#{1,%d})\s+" % lvl

@@ -63,7 +63,7 @@ tags:
 
 --- <!-- This horizontal separator is always required. -->
 
-<!-- Provide a detailed course description and any additional notes here. Prefer paragraph prose; use a bulleted list only when the content is clearly list-oriented.  This block may contain multiple paragraphs, bullet lists, or other Markdown elements.  It appears directly after the credits line.  Policy notes are allowed but should not include instructor or TA names/emails (those belong in a staff directory or syllabus).  Grading policy text should be placed immediately below this block rather than inside it. -->
+<!-- Provide a detailed course description and any additional notes here. Prefer paragraph prose; use a bulleted list only when the content is clearly list-oriented.  This block may contain multiple paragraphs, bullet lists, or other Markdown elements.  It appears directly after the credits line.  Policy notes are allowed but must not include instructor or TA names/emails (those belong in a staff directory or syllabus); office hours (day/time/format) may be included in logistics.  Grading policy text should be placed immediately below this block rather than inside it. -->
 <course description and any additional notes>
 
 The content is in teaching order.
@@ -112,6 +112,7 @@ The content is in teaching order.
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
 - status: scheduled
 - topic: logistics; introduction
+<!-- Session outline: list each topic note as a parent link with `  - topic name / [§ section name](file#anchor)` per section underneath. For index-only content (e.g. session flashcards), use the course code as parent and nest under it. -->
 - <COURSE CODE>
   - <COURSE_CODE> / logistics ::@:: Course logistics, recommended books, evaluation
 - [link to general article](../../../../general/link%20to%20general%20article.md) ::@:: Description for "link to general article".

@@ -6,6 +6,7 @@ results.  The command-line entry point lives in ``check.py`` so the core
 logic can be reused by tests and other callers.
 """
 
+import inspect
 import json
 import re
 from argparse import ArgumentParser
@@ -169,6 +170,8 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     for rid, rule in RULE_REGISTRY.items():
         try:
             results = rule(ctx)
+            if inspect.isawaitable(results):
+                results = await results
         except Exception as exc:  # pragma: no cover - defensive
             errors.append(
                 ValidationMessage(

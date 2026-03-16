@@ -13,7 +13,11 @@ from check_mods.models import Frontmatter, Severity, ValidationContext
 from check_mods.rules import (
     RULE_REGISTRY,
     aliases_sorted,
+    folder_link_trailing_slash_rule,
+    header_flashcard_presence,
     header_style_rule,
+    index_children_format_rule,
+    index_children_order_rule,
     index_children_rule,
     index_heading_rule,
     index_semester_order_rule,
@@ -172,6 +176,34 @@ def test_index_rules():
     assert msgs and "chronological" in msgs[0].msg
 
 
+@pytest.mark.anyio
+async def test_index_children_format_and_order_rules():
+    """Children section must be a flat list of links sorted by folder/file."""
+
+    txt = "# index\n\n## children\n- [assignments](assignments/)\n- [a](a.md)\n- [b](b.md)\n"
+    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
+    assert not index_children_format_rule(ctx)
+    assert not await index_children_order_rule(ctx)
+
+    # nested bullets are rejected
+    txt = "# index\n\n## children\n  - [a](a.md)\n- [b](b.md)\n"
+    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
+    msgs = index_children_format_rule(ctx)
+    assert msgs and "top-level" in msgs[0].msg
+
+    # folders must come before files
+    txt = "# index\n\n## children\n- [a](a.md)\n- [assignments](assignments/)\n"
+    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
+    msgs = await index_children_order_rule(ctx)
+    assert msgs and "folder entries" in msgs[0].msg
+
+    # files must be alphabetically ordered
+    txt = "# index\n\n## children\n- [assignments](assignments/)\n- [b](b.md)\n- [a](a.md)\n"
+    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
+    msgs = await index_children_order_rule(ctx)
+    assert msgs and "alphabetical" in msgs[0].msg
+
+
 def test_header_style_generic():
     """header_style_rule should emit a warning and clarify suppression.
 
@@ -187,11 +219,43 @@ def test_header_style_generic():
     assert "proper noun" in msgs[0].msg
 
 
+def test_header_flashcard_presence_applies_to_all_levels():
+    """Flashcard presence rules should apply to headers at any level.
+
+    A top-level header (#) should be checked just like a subsection.
+    """
+
+    txt = "# Topic\nThis section has no flashcards.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/file.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+
+    # When flashcards exist under the header, no message should be emitted.
+    txt2 = "# Topic\nSome text\n\nTerm ::@:: Definition\n"
+    ctx2 = make_ctx(txt2, path=Path("/tmp/file.md"))
+    assert not header_flashcard_presence(ctx2)
+
+
+@pytest.mark.anyio
+async def test_folder_link_slash_ignores_index_md(tmp_path: PathLike[str]):
+    """Links to index.md should not be treated as a folder for trailing-slash rules."""
+
+    # Create a temporary directory with an index.md to ensure the link resolves.
+    dir_path = Path(tmp_path)
+    await (dir_path / "index.md").write_text("# index\n")
+
+    # Create a context for a different file in the same directory.
+    ctx = make_ctx("[index](index.md)\n", path=Path(dir_path / "note.md"))
+
+    msgs = await folder_link_trailing_slash_rule(ctx)
+    assert not msgs, "A link to index.md should not require a trailing slash"
+
+
 def test_example_section_heading():
     """Files should not define standalone example sections.
 
     The rule fires on any header whose text contains the word "example"
-    (case insensitive).  Authors are instructed to remove the entire section
+    (case insensitive). Authors are instructed to remove the entire section
     and merge examples into appropriate conceptual headings.
     """
 
