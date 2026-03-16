@@ -2,6 +2,8 @@
 aliases:
   - ELEC 1100
   - ELEC 1100 index
+  - Introduction to Electro-Robot Design
+  - Introduction to Electro-Robot Design index
   - HKUST ELEC 1100
   - HKUST ELEC 1100 index
 tags:
