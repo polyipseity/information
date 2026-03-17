@@ -403,25 +403,36 @@ async def folder_link_trailing_slash_rule(
     errors: list[ValidationMessage] = []
     base_dir = ctx.path.parent
 
-    for m in re.finditer(r"\[[^\]]+\]\(([^\)]+)\)", ctx.text):
-        href = m.group(1).strip()
+    for m in re.finditer(r"\[([^\]]+)\]\(([^\)]+)\)", ctx.text):
+        display = m.group(1).strip()
+        href = m.group(2).strip()
         if not href or href.startswith("#"):
             continue
         if re.match(r"^[a-zA-Z]+://", href):
             continue
-        if await _is_folder_link(
-            href, base_dir, allow_index_as_folder=False
-        ) and not href.endswith("/"):
-            line_no, col, col_end = locate_range(ctx.text, m.start(1), len(href))
-            errors.append(
-                ValidationMessage(
-                    "folder_link_trailing_slash_rule",
-                    "links to folders must end with a trailing slash",
-                    line=line_no,
-                    col=col,
-                    col_end=col_end,
+        if await _is_folder_link(href, base_dir, allow_index_as_folder=False):
+            if not href.endswith("/"):
+                line_no, col, col_end = locate_range(ctx.text, m.start(2), len(href))
+                errors.append(
+                    ValidationMessage(
+                        "folder_link_trailing_slash_rule",
+                        "links to folders must end with a trailing slash",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
                 )
-            )
+            elif not display.endswith("/"):
+                line_no, col, col_end = locate_range(ctx.text, m.start(1), len(display))
+                errors.append(
+                    ValidationMessage(
+                        "folder_link_trailing_slash_rule",
+                        "folder link display text should end with a trailing slash",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
     return errors
 
 
