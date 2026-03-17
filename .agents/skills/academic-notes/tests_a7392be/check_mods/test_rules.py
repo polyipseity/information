@@ -37,6 +37,7 @@ from check_mods.rules import (
     numeric_text_not_latex,
     one_sided_calc_warning,
     qa_hierarchical_path,
+    qa_nested_indentation,
     section_example_heading,
     session_datetime_order,
     session_duplicate_heading,
@@ -45,6 +46,7 @@ from check_mods.rules import (
     session_unscheduled_with_topic,
     tag_language,
     tag_path_flash,
+    topic_note_redundant_filename_prefix,
     two_sided_calc_warning,
     unit_outside_math,
 )
@@ -563,6 +565,112 @@ def test_qa_hierarchical_path_nested_labels():
     ctx_bad = make_ctx(bad)
     msgs = qa_hierarchical_path(ctx_bad)
     assert msgs and msgs[0].rule_id == "qa_hierarchical_path"
+
+    # Topic-note nested flashcards should follow the same full-parent-path rule
+    good_topic = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "  - discrete distributions / Poisson approximation / statement ::@:: details\n"
+        "  - discrete distributions / Poisson approximation / intuition ::@:: details\n"
+    )
+    assert not qa_hierarchical_path(make_ctx(good_topic, Path("/tmp/course/topic.md")))
+
+    bad_topic = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "  - discrete distributions / intuition ::@:: details\n"
+    )
+    msgs_topic = qa_hierarchical_path(make_ctx(bad_topic, Path("/tmp/course/topic.md")))
+    assert msgs_topic and msgs_topic[0].rule_id == "qa_hierarchical_path"
+
+
+def test_qa_nested_indentation_two_spaces_per_level():
+    """Nested flashcard bullets should indent by exactly two spaces per level."""
+
+    good = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "  - discrete distributions / Poisson approximation / statement ::@:: details\n"
+        "  - discrete distributions / Poisson approximation / intuition ::@:: details\n"
+    )
+    assert not qa_nested_indentation(make_ctx(good, Path("/tmp/course/topic.md")))
+
+    bad_odd = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "   - discrete distributions / Poisson approximation / statement ::@:: details\n"
+    )
+    msgs_odd = qa_nested_indentation(make_ctx(bad_odd, Path("/tmp/course/topic.md")))
+    assert msgs_odd and msgs_odd[0].rule_id == "qa_nested_indentation"
+
+    bad_jump = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "    - discrete distributions / Poisson approximation / statement ::@:: details\n"
+    )
+    msgs_jump = qa_nested_indentation(make_ctx(bad_jump, Path("/tmp/course/topic.md")))
+    assert msgs_jump and msgs_jump[0].rule_id == "qa_nested_indentation"
+
+
+def test_topic_note_redundant_filename_prefix():
+    """Topic-note flashcards should not repeat the filename or title."""
+
+    good = (
+        "Flashcards for this section are as follows:\n\n"
+        "- definition ::@:: details\n"
+        "- Poisson approximation\n"
+        "  - Poisson approximation / statement ::@:: details\n"
+    )
+    assert not topic_note_redundant_filename_prefix(
+        make_ctx(good, Path("/tmp/course/discrete distributions.md"))
+    )
+
+    bad_top = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / definition ::@:: details\n"
+    )
+    msgs_top = topic_note_redundant_filename_prefix(
+        make_ctx(bad_top, Path("/tmp/course/discrete distributions.md"))
+    )
+    assert msgs_top and msgs_top[0].rule_id == "topic_note_redundant_filename_prefix"
+
+    bad_nested = (
+        "Flashcards for this section are as follows:\n\n"
+        "- Poisson approximation\n"
+        "  - discrete distributions / Poisson approximation / statement ::@:: details\n"
+    )
+    msgs_nested = topic_note_redundant_filename_prefix(
+        make_ctx(bad_nested, Path("/tmp/course/discrete distributions.md"))
+    )
+    assert (
+        msgs_nested and msgs_nested[0].rule_id == "topic_note_redundant_filename_prefix"
+    )
+
+    bad_title_only = (
+        "# Probability Measure\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- Probability Measure ::@:: details\n"
+    )
+    msgs_title_only = topic_note_redundant_filename_prefix(
+        make_ctx(bad_title_only, Path("/tmp/course/probability measure.md"))
+    )
+    assert (
+        msgs_title_only
+        and msgs_title_only[0].rule_id == "topic_note_redundant_filename_prefix"
+    )
+
+    bad_title_prefix = (
+        "# Probability Measure\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- Probability Measure / definition ::@:: details\n"
+    )
+    msgs_title_prefix = topic_note_redundant_filename_prefix(
+        make_ctx(bad_title_prefix, Path("/tmp/course/probability measure.md"))
+    )
+    assert (
+        msgs_title_prefix
+        and msgs_title_prefix[0].rule_id == "topic_note_redundant_filename_prefix"
+    )
 
 
 def test_latex_spacing_before_paren():

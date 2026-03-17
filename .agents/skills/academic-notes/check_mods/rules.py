@@ -1607,9 +1607,9 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
 def qa_hierarchical_path(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure nested QA glosses include the full hierarchical parent path.
 
-    For course-specific outlines, each nested flashcard gloss (lines containing
+    In any academic-notes file, each nested flashcard gloss (lines containing
     ``::@::`` or ``:@:``) should prefix its left-hand label with the complete
-    parent path rather than relying on list indentation for context.  For
+    parent path rather than relying on list indentation for context. For
     example:
 
     - ELEC 1100
@@ -1692,6 +1692,168 @@ def qa_hierarchical_path(ctx: ValidationContext) -> list[ValidationMessage]:
                 stack.pop()
             if "/" in label and "[" not in label:
                 stack.append((indent, label))
+
+        offset += len(line)
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def qa_nested_indentation(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ensure nested flashcard bullets use consistent two-space indentation.
+
+    Nested flashcard structures in academic notes should indent by exactly two
+    spaces per level. This applies to both grouping bullets and nested QA
+    bullets, so a child bullet should be indented exactly two spaces more than
+    its nearest less-indented parent.
+    """
+
+    errors: list[ValidationMessage] = []
+    lines = ctx.body.splitlines(keepends=True)
+    offset = 0
+    in_flashcards = False
+    indent_stack: list[int] = []
+
+    for line in lines:
+        stripped = line.strip()
+
+        if stripped == "Flashcards for this section are as follows:":
+            in_flashcards = True
+            indent_stack = []
+            offset += len(line)
+            continue
+
+        if in_flashcards and line.lstrip().startswith("##"):
+            in_flashcards = False
+            indent_stack = []
+
+        if not in_flashcards:
+            offset += len(line)
+            continue
+
+        m = re.match(r"^(?P<indent>\s*)-\s+(?P<rest>.+)$", line)
+        if not m:
+            offset += len(line)
+            continue
+
+        indent = len(m.group("indent"))
+
+        if indent % 2 != 0:
+            line_no, col_no = locate(ctx.body, offset)
+            errors.append(
+                ValidationMessage(
+                    rule_id="qa_nested_indentation",
+                    msg="flashcard bullets must use multiples of two spaces for indentation",
+                    line=line_no,
+                    col=col_no,
+                )
+            )
+            break
+
+        while indent_stack and indent_stack[-1] >= indent:
+            indent_stack.pop()
+
+        if indent > 0:
+            parent_indent = indent_stack[-1] if indent_stack else None
+            if parent_indent is None or indent != parent_indent + 2:
+                line_no, col_no = locate(ctx.body, offset)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="qa_nested_indentation",
+                        msg="nested flashcard bullets must be indented exactly two spaces deeper than their parent",
+                        line=line_no,
+                        col=col_no,
+                    )
+                )
+                break
+
+        indent_stack.append(indent)
+        offset += len(line)
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def topic_note_redundant_filename_prefix(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Disallow repeating the topic-note filename or title in prompts.
+
+    In topic-specific notes, the flashcard viewer already shows the filename,
+    and the page itself already shows the title, so prompts such as
+    ``probability measure / definition``, ``# probability measure`` echoed as
+    ``probability measure``, or ``discrete distributions / Poisson approximation
+    / statement`` are redundant. Top-level prompts should use only local labels
+    (for example ``definition``), while nested prompts should use only the
+    in-file parent path (for example ``Poisson approximation / statement``).
+    """
+
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    if name in {"index.md", "questions.md", "journal entries.md"}:
+        return errors
+
+    stem = ctx.path.stem
+    title_match = re.search(r"^#\s+(.+)$", ctx.text, re.MULTILINE)
+    title = title_match.group(1).strip() if title_match else ""
+    stem_lower = stem.casefold()
+    title_lower = title.casefold()
+    lines = ctx.body.splitlines(keepends=True)
+    offset = 0
+    in_flashcards = False
+
+    for line in lines:
+        stripped = line.strip()
+
+        if stripped == "Flashcards for this section are as follows:":
+            in_flashcards = True
+            offset += len(line)
+            continue
+
+        if in_flashcards and line.lstrip().startswith("#"):
+            in_flashcards = False
+
+        if not in_flashcards:
+            offset += len(line)
+            continue
+
+        m = re.match(r"^(?P<indent>\s*)-\s+(?P<rest>.+)$", line)
+        if not m:
+            offset += len(line)
+            continue
+
+        rest = m.group("rest").rstrip()
+        label = rest
+        sep_idx = rest.find("::@::")
+        if sep_idx == -1:
+            sep_idx = rest.find(":@:")
+        if sep_idx != -1:
+            label = rest[:sep_idx].rstrip()
+
+        label_lower = label.casefold()
+
+        stem_redundant = label_lower == stem_lower or label_lower.startswith(
+            f"{stem_lower} /"
+        )
+        title_redundant = bool(title_lower) and (
+            label_lower == title_lower or label_lower.startswith(f"{title_lower} /")
+        )
+
+        if stem_redundant or title_redundant:
+            repeated = title if title_redundant and title else stem
+            line_no, col_no = locate(ctx.body, offset)
+            errors.append(
+                ValidationMessage(
+                    rule_id="topic_note_redundant_filename_prefix",
+                    msg=(
+                        f"flashcard prompt redundantly repeats the topic-note filename or title '{repeated}'; "
+                        "omit it because the flashcard viewer already shows the file name and the note already shows its title"
+                    ),
+                    line=line_no,
+                    col=col_no,
+                )
+            )
+            break
 
         offset += len(line)
 
