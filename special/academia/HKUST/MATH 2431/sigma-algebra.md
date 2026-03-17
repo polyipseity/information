@@ -21,9 +21,9 @@ The _power set_ $\mathcal{P}(\Omega)$ is the set of all subsets of $\Omega$: $\m
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / sigma-algebra / power set ::@:: $\mathcal{P}(\Omega) = \{A : A \subseteq \Omega\}$; the set of all subsets of $\Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / event (naive) ::@:: A subset $A \subseteq \Omega$; $A$ occurs for $\omega$ iff $\omega \in A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / why restrict for uncountable Omega ::@:: For uncountable $\Omega$, assigning probability to every subset leads to measure-theoretic obstructions; we restrict to a smaller $\sigma$-algebra. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / power set ::@:: $\mathcal{P}(\Omega) = \{A : A \subseteq \Omega\}$; the set of all subsets of $\Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / event (naive) ::@:: A subset $A \subseteq \Omega$; $A$ occurs for $\omega$ iff $\omega \in A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / why restrict for uncountable Omega ::@:: For uncountable $\Omega$, assigning probability to every subset leads to measure-theoretic obstructions; we restrict to a smaller $\sigma$-algebra. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## definition of sigma-algebra
 
@@ -33,11 +33,11 @@ Let $\Omega \neq \emptyset$. A $\sigma$-algebra on $\Omega$ is a collection $\ma
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / sigma-algebra / definition (S1) ::@:: $\Omega \in \mathcal{F}$ (whole space is an event). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / definition (S2) ::@:: If $A \in \mathcal{F}$ then $A^c \in \mathcal{F}$ (closed under complement). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / definition (S3) ::@:: If $A_j \in \mathcal{F}$ for $j \in \mathbb{N}$ then $\bigcup_{j=1}^{\infty} A_j \in \mathcal{F}$ (closed under countable union). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / event (formal) ::@:: An event is a set $A \in \mathcal{F}$; only sets in $\mathcal{F}$ get a probability. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / P(Omega) is sigma-algebra ::@:: $\mathcal{P}(\Omega)$ satisfies (S1)–(S3); we use it when $\Omega$ is countable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / definition (S1) ::@:: $\Omega \in \mathcal{F}$ (whole space is an event). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / definition (S2) ::@:: If $A \in \mathcal{F}$ then $A^c \in \mathcal{F}$ (closed under complement). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / definition (S3) ::@:: If $A_j \in \mathcal{F}$ for $j \in \mathbb{N}$ then $\bigcup_{j=1}^{\infty} A_j \in \mathcal{F}$ (closed under countable union). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / event (formal) ::@:: An event is a set $A \in \mathcal{F}$; only sets in $\mathcal{F}$ get a probability. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / P(Omega) is sigma-algebra ::@:: $\mathcal{P}(\Omega)$ satisfies (S1)–(S3); we use it when $\Omega$ is countable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## consequences: empty set, intersections, finite operations
 
@@ -49,7 +49,7 @@ From the definition one deduces that $\emptyset \in \mathcal{F}$ (since $\emptys
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / sigma-algebra / empty set in F ::@:: $\emptyset \in \mathcal{F}$ because $\emptyset = \Omega^c$ and (S2); it is the impossible event (never occurs). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / empty set in F ::@:: $\emptyset \in \mathcal{F}$ because $\emptyset = \Omega^c$ and (S2); it is the impossible event (never occurs). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### countable intersections
 
@@ -59,8 +59,8 @@ Using de Morgan's laws, $\mathcal{F}$ is closed under countable intersections: f
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / sigma-algebra / countable intersection ::@:: If $A_j \in \mathcal{F}$ for all $j$, then $\bigcap_{j=1}^{\infty} A_j \in \mathcal{F}$ via de Morgan: $\bigcap_j A_j = (\bigcup_j A_j^c)^c$ and (S2),(S3); "all $A_j$ occur" is an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / de Morgan ::@:: $(\bigcup_i U_i)^c = \bigcap_i U_i^c$ and $(\bigcap_i U_i)^c = \bigcup_i U_i^c$; used to convert closure under countable unions into closure under intersections. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / countable intersection ::@:: If $A_j \in \mathcal{F}$ for all $j$, then $\bigcap_{j=1}^{\infty} A_j \in \mathcal{F}$ via de Morgan: $\bigcap_j A_j = (\bigcup_j A_j^c)^c$ and (S2),(S3); "all $A_j$ occur" is an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / de Morgan ::@:: $(\bigcup_i U_i)^c = \bigcap_i U_i^c$ and $(\bigcap_i U_i)^c = \bigcup_i U_i^c$; used to convert closure under countable unions into closure under intersections. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### finite operations
 
@@ -70,7 +70,7 @@ If $A, B \in \mathcal{F}$, then $A \cup B$, $A \cap B$, and $A \setminus B = A \
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / sigma-algebra / finite union and intersection ::@:: If $A, B \in \mathcal{F}$, then $A \cup B$, $A \cap B$, and $A \setminus B = A \cap B^c$ are in $\mathcal{F}$; finite unions come from (S3) by padding with $\emptyset$, intersections from de Morgan, and $A\setminus B$ from complements. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / finite union and intersection ::@:: If $A, B \in \mathcal{F}$, then $A \cup B$, $A \cap B$, and $A \setminus B = A \cap B^c$ are in $\mathcal{F}$; finite unions come from (S3) by padding with $\emptyset$, intersections from de Morgan, and $A\setminus B$ from complements. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## concrete cases and violations
 
@@ -80,9 +80,9 @@ Let $\Omega = \{1, 2, 3\}$. $\mathcal{F}_1 = \{\emptyset, \{1\}, \{2,3\}, \Omega
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / sigma-algebra / a smaller sigma-algebra on $\{1,2,3\}$ ::@:: $\mathcal{F}_1 = \{\emptyset, \{1\}, \{2,3\}, \Omega\}$ is a $\sigma$-algebra: it contains $\Omega$ and is closed under complements and countable unions; intuitively it models an observer who cannot distinguish outcomes 2 and 3.
-- MATH 2431 / sigma-algebra / violation S1 ::@:: $\mathcal{F}_2 = \{\emptyset, \{1\}, \{2,3\}\}$ fails (S1) because $\Omega \notin \mathcal{F}_2$; any candidate family missing the whole space cannot be a $\sigma$-algebra. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / violation S2 ::@:: $\mathcal{F}_3 = \{\emptyset, \{1\}, \Omega\}$ fails (S2) because $\{1\}^c = \{2,3\} \notin \mathcal{F}_3$; closure under complements means every event’s complement must also be an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / violation S3 ::@:: $\mathcal{F}_4 = \{\emptyset, \{1\}, \{2\}, \{1,3\}, \{2,3\}, \Omega\}$ fails (S3) because $\{1\} \cup \{2\} = \{1,2\} \notin \mathcal{F}_4$; a $\sigma$-algebra must contain countable unions of its sets. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / die events A even B prime ::@:: For $\Omega = \{1,\ldots,6\}$ and $\mathcal{F} = \mathcal{P}(\Omega)$, let $A = \{2,4,6\}$ (even) and $B = \{2,3,5\}$ (prime); then $A \cap B = \{2\}$, $A \cup B = \{2,3,4,5,6\}$, illustrating that "A or B" is non-exclusive while still an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / sigma-algebra / mutually exclusive ::@:: Events $A$ and $C$ are mutually exclusive if $A \cap C = \emptyset$ (they cannot both occur); in the die example $A = \{\text{even}\}$ and $C = \{\text{odd}\}$ satisfy $A \cap C = \emptyset$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / a smaller sigma-algebra on $\{1,2,3\}$ ::@:: $\mathcal{F}_1 = \{\emptyset, \{1\}, \{2,3\}, \Omega\}$ is a $\sigma$-algebra: it contains $\Omega$ and is closed under complements and countable unions; intuitively it models an observer who cannot distinguish outcomes 2 and 3.
+- sigma-algebra / violation S1 ::@:: $\mathcal{F}_2 = \{\emptyset, \{1\}, \{2,3\}\}$ fails (S1) because $\Omega \notin \mathcal{F}_2$; any candidate family missing the whole space cannot be a $\sigma$-algebra. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / violation S2 ::@:: $\mathcal{F}_3 = \{\emptyset, \{1\}, \Omega\}$ fails (S2) because $\{1\}^c = \{2,3\} \notin \mathcal{F}_3$; closure under complements means every event’s complement must also be an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / violation S3 ::@:: $\mathcal{F}_4 = \{\emptyset, \{1\}, \{2\}, \{1,3\}, \{2,3\}, \Omega\}$ fails (S3) because $\{1\} \cup \{2\} = \{1,2\} \notin \mathcal{F}_4$; a $\sigma$-algebra must contain countable unions of its sets. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / die events A even B prime ::@:: For $\Omega = \{1,\ldots,6\}$ and $\mathcal{F} = \mathcal{P}(\Omega)$, let $A = \{2,4,6\}$ (even) and $B = \{2,3,5\}$ (prime); then $A \cap B = \{2\}$, $A \cup B = \{2,3,4,5,6\}$, illustrating that "A or B" is non-exclusive while still an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra / mutually exclusive ::@:: Events $A$ and $C$ are mutually exclusive if $A \cap C = \emptyset$ (they cannot both occur); in the die example $A = \{\text{even}\}$ and $C = \{\text{odd}\}$ satisfy $A \cap C = \emptyset$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

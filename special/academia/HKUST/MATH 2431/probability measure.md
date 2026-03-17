@@ -21,10 +21,10 @@ Let $\Omega \neq \emptyset$ and $\mathcal{F} \subseteq \mathcal{P}(\Omega)$ a $\
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / probability measure / definition (P1) ::@:: $P[\Omega] = 1$ (normalization). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / definition (P2) ::@:: For pairwise disjoint $A_j \in \mathcal{F}$, $P[\bigcup_{j=1}^{\infty} A_j] = \sum_{j=1}^{\infty} P[A_j]$ ($\sigma$-additivity). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / probability space ::@:: The triple $(\Omega, \mathcal{F}, P)$: sample space, $\sigma$-algebra of events, and probability measure. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / pairwise disjoint ::@:: Events $A_j$ are pairwise disjoint if $A_j \cap A_k = \emptyset$ for $j \neq k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / definition (P1) ::@:: $P[\Omega] = 1$ (normalization). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / definition (P2) ::@:: For pairwise disjoint $A_j \in \mathcal{F}$, $P[\bigcup_{j=1}^{\infty} A_j] = \sum_{j=1}^{\infty} P[A_j]$ ($\sigma$-additivity). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / probability space ::@:: The triple $(\Omega, \mathcal{F}, P)$: sample space, $\sigma$-algebra of events, and probability measure. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / pairwise disjoint ::@:: Events $A_j$ are pairwise disjoint if $A_j \cap A_k = \emptyset$ for $j \neq k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## uniform distribution and Laplace space
 
@@ -34,26 +34,37 @@ When $\Omega$ is finite and $\mathcal{F} = \mathcal{P}(\Omega)$, the _uniform di
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / probability measure / uniform on finite Omega ::@:: $P[A] = |A|/|\Omega|$ for $A \subseteq \Omega$; each outcome has probability $1/|\Omega|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / Laplace space ::@:: Probability space with finite $\Omega$, $\mathcal{F} = \mathcal{P}(\Omega)$, and uniform $P$; "equally likely outcomes". <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / die twice sample space ::@:: For two independent rolls of a fair die, $\Omega = \{1,\ldots,6\}^2$, $|\Omega| = 36$, and $P[A] = |A|/36$ under the uniform distribution. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / at least one 6 in two rolls ::@:: In the two-roll die experiment, the event $B$ ("at least one 6") has 11 outcomes, so $P[B] = 11/36$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / uniform on finite Omega ::@:: $P[A] = |A|/|\Omega|$ for $A \subseteq \Omega$; each outcome has probability $1/|\Omega|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / Laplace space ::@:: Probability space with finite $\Omega$, $\mathcal{F} = \mathcal{P}(\Omega)$, and uniform $P$; "equally likely outcomes". <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / die twice sample space ::@:: For two independent rolls of a fair die, $\Omega = \{1,\ldots,6\}^2$, $|\Omega| = 36$, and $P[A] = |A|/36$ under the uniform distribution. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / at least one 6 in two rolls ::@:: In the two-roll die experiment, the event $B$ ("at least one 6") has 11 outcomes, so $P[B] = 11/36$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## elementary properties
 
 ### algebraic properties
 
-Let $(\Omega, \mathcal{F}, P)$ be a probability space and $A, B \in \mathcal{F}$. (i) $P[\emptyset] = 0$. (ii) $P[A^c] = 1 - P[A]$. (iii) If $A \subseteq B$ then $P[A] \le P[B]$. (iv) $P[A \cup B] = P[A] + P[B] - P[A \cap B]$. (v) For arbitrary events $(A_j)_{j \in \mathbb{N}}$, $P[\bigcup_{j=1}^{\infty} A_j] \le \sum_{j=1}^{\infty} P[A_j]$ (subadditivity). Proof of (i): $\emptyset = \emptyset \cup \emptyset \cup \cdots$ and $\sigma$-additivity give $P[\emptyset] = \sum P[\emptyset]$, so $P[\emptyset] = 0$. Proof of (ii): $A \cup A^c = \Omega$, $A \cap A^c = \emptyset$, so $1 = P[\Omega] = P[A] + P[A^c]$.
+Let $(\Omega, \mathcal{F}, P)$ be a probability space and $A, B \in \mathcal{F}$. (i) $P[\emptyset] = 0$. (ii) $P[A^c] = 1 - P[A]$. (iii) If $A \subseteq B$ then $P[A] \le P[B]$. (iv) $P[A \cup B] = P[A] + P[B] - P[A \cap B]$. (v) For arbitrary events $(A_j)_{j \in \mathbb{N}}$, $P[\bigcup_{j=1}^{\infty} A_j] \le \sum_{j=1}^{\infty} P[A_j]$ (subadditivity).
+
+Proof of (i): $\emptyset = \emptyset \cup \emptyset \cup \cdots$ and $\sigma$-additivity give $P[\emptyset] = \sum P[\emptyset]$, so $P[\emptyset] = 0$.
+
+Proof of (ii): $A \cup A^c = \Omega$, $A \cap A^c = \emptyset$, so $1 = P[\Omega] = P[A] + P[A^c]$.
+
+For (iii), write $B$ as the disjoint union $B = A \cup (B \setminus A)$, so $P[B] = P[A] + P[B \setminus A]$ with $P[B \setminus A] \ge 0$, hence $P[B] \ge P[A]$.
+
+For (iv), decompose $B$ into the disjoint union of the intersection and the part outside $A$: $B = (A \cap B) \cup (B \setminus A)$ with $B \setminus A = B \setminus (A \cap B)$. Then $A \cup B = A \cup (B \setminus A)$ is a disjoint union, so by $\sigma$-additivity (in the finite case just additivity) we have $P[A \cup B] = P[A] + P[B \setminus A]$, while from (iii) and the same disjoint-union argument we have $P[B] = P[A \cap B] + P[B \setminus A]$; solving these two equations for $P[A \cup B]$ eliminates $P[B \setminus A]$ and gives $P[A \cup B] = P[A] + P[B] - P[A \cap B]$.
+
+For (v), define disjoint sets by $B_1 = A_1$ and $B_n = A_n \setminus \bigcup_{j=1}^{n-1} A_j$ for $n \ge 2$; by construction the $B_n$ are pairwise disjoint and each point that lies in some $A_j$ lies in exactly one $B_n$, so $\bigcup_{j=1}^{\infty} A_j = \bigcup_{j=1}^{\infty} B_j$. Moreover $B_j \subseteq A_j$ for every $j$, hence $P[B_j] \le P[A_j]$. Using $\sigma$-additivity on the disjoint family $(B_j)$ now yields $P\big[\bigcup_{j=1}^{\infty} A_j\big] = P\big[\bigcup_{j=1}^{\infty} B_j\big] = \sum_{j=1}^{\infty} P[B_j] \le \sum_{j=1}^{\infty} P[A_j]$, which is the desired subadditivity.
 
 ---
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / probability measure / P empty is 0 ::@:: $P[\emptyset] = 0$ (from $\sigma$-additivity: $P[\emptyset] = P[\emptyset \cup \emptyset \cup \cdots] = \sum P[\emptyset]$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / complement rule ::@:: $P[A^c] = 1 - P[A]$ (since $A \cup A^c = \Omega$ and $A \cap A^c = \emptyset$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / monotonicity ::@:: If $A \subseteq B$ then $P[A] \le P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / inclusion-exclusion two sets ::@:: $P[A \cup B] = P[A] + P[B] - P[A \cap B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / subadditivity ::@:: $P[\bigcup_{j=1}^{\infty} A_j] \le \sum_{j=1}^{\infty} P[A_j]$ (equality when pairwise disjoint). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / P empty is 0 ::@:: $P[\emptyset] = 0$ (from $\sigma$-additivity: $P[\emptyset] = P[\emptyset \cup \emptyset \cup \cdots] = \sum P[\emptyset]$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / complement rule ::@:: $P[A^c] = 1 - P[A]$ (since $A \cup A^c = \Omega$ and $A \cap A^c = \emptyset$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / monotonicity ::@:: If $A \subseteq B$ then $P[A] \le P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / monotonicity proof ::@:: From $A \subseteq B$ we write $B = A \cup (B \setminus A)$ as a disjoint union, so $P[B] = P[A] + P[B \setminus A] \ge P[A]$, hence $P[A] \le P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / inclusion-exclusion two sets ::@:: $P[A \cup B] = P[A] + P[B] - P[A \cap B]$, proved by writing $B = (A \cap B) \cup (B \setminus A)$ as a disjoint union, using additivity on $A \cup (B \setminus A)$ and on $(A \cap B) \cup (B \setminus A)$, and eliminating $P[B \setminus A]$ between the two equations. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / subadditivity ::@:: For $A_j \in \mathcal{F}$ define disjoint $B_1=A_1$, $B_n = A_n \setminus \bigcup_{j=1}^{n-1} A_j$; then the $B_j$ are pairwise disjoint, $\bigcup_j A_j = \bigcup_j B_j$, and $B_j \subseteq A_j$, so $\sigma$-additivity gives $P[\bigcup_j A_j] = \sum_j P[B_j] \le \sum_j P[A_j]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### limit properties (continuity)
 
@@ -63,5 +74,5 @@ With the same probability space $(\Omega, \mathcal{F}, P)$ and events $A_j \in \
 
 Flashcards for this section are as follows:
 
-- MATH 2431 / probability measure / continuity from below ::@:: If $A_1 \subseteq A_2 \subseteq \cdots$ then $P[\bigcup_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- MATH 2431 / probability measure / continuity from above ::@:: If $A_1 \supseteq A_2 \supseteq \cdots$ then $P[\bigcap_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / continuity from below ::@:: If $A_1 \subseteq A_2 \subseteq \cdots$ then $P[\bigcup_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / continuity from above ::@:: If $A_1 \supseteq A_2 \supseteq \cdots$ then $P[\bigcap_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

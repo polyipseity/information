@@ -16,7 +16,7 @@ tags:
   - language/in/English
 ---
 
-<!-- Honors course: agents may add more flashcards than usual and include greater rigor and motivation in notes. -->
+<!-- Honors course: when adding, editing, or removing notes here, think carefully, thoroughly, and rigorously about the probability theory; include clear arguments and derivations (not just statements) where appropriate, and feel free to add more high-quality flashcards than in non-honors courses. -->
 
 # index
 
@@ -52,8 +52,11 @@ The content is in teaching order.
 
 ## children
 
-- [assignments](assignments/index.md/)
+- [assignments](assignments/index.md)
+- [conditional probability and independence](conditional%20probability%20and%20independence.md)
+- [conditional probability](conditional%20probability.md)
 - [elementary combinatorics](elementary%20combinatorics.md)
+- [independence](independence.md)
 - [probability measure](probability%20measure.md)
 - [questions](questions.md)
 - [sample space](sample%20space.md)
@@ -103,6 +106,27 @@ The content is in teaching order.
   - probability measure / [§ definition and Kolmogorov axioms](probability%20measure.md#definition%20and%20Kolmogorov%20axioms)
   - probability measure / [§ uniform distribution and Laplace space](probability%20measure.md#uniform%20distribution%20and%20Laplace%20space)
   - probability measure / [§ elementary properties](probability%20measure.md#elementary%20properties)
+
+### week 2 lecture 1
+
+- datetime: 2026-02-11T13:30:00+08:00/2026-02-11T14:50:00+08:00
+- topic: elementary properties of probabilities; conditional probability; multiplication theorem
+- [probability measure](probability%20measure.md)
+  - probability measure / [§ elementary properties](probability%20measure.md#elementary%20properties)
+- [conditional probability](conditional%20probability.md)
+  - conditional probability / [§ conditional probability: definition and multiplication rule](conditional%20probability.md#conditional%20probability-definition-and-multiplication-rule)
+  - conditional probability / [§ conditional probability as a probability measure](conditional%20probability.md#conditional%20probability%20as%20a%20probability%20measure)
+
+### week 2 lecture 2
+
+- datetime: 2026-02-13T13:30:00+08:00/2026-02-13T14:50:00+08:00
+- topic: law of total probability; Bayes' theorem; stochastic independence
+- [conditional probability](conditional%20probability.md)
+  - conditional probability / [§ law of total probability and Bayes' theorem](conditional%20probability.md#law-of-total-probability-and-bayes-theorem)
+  - conditional probability / [§ diagnostic test for rare disease](conditional%20probability.md#diagnostic-test-for-rare-disease)
+- [independence](independence.md)
+  - independence / [§ definitions: pairwise and joint independence](independence.md#definitions-pairwise-and-joint-independence)
+  - independence / [§ independence via cards and coins](independence.md#independence-via-cards-and-coins)
 
 ## midterm examination
 
