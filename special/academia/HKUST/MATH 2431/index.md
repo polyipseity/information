@@ -53,21 +53,63 @@ The content is in teaching order.
 ## children
 
 - [assignments](assignments/index.md)
+- [Riemann integration](Riemann%20integration.md)
 - [conditional probability](conditional%20probability.md)
 - [continuous distribution](continuous%20distribution.md)
 - [cumulative distribution function](cumulative%20distribution%20function.md)
 - [discrete distribution](discrete%20distribution.md)
 - [elementary combinatorics](elementary%20combinatorics.md)
 - [independence](independence.md)
+- [multiple integrals](multiple%20integrals.md)
 - [probability measure](probability%20measure.md)
 - [questions](questions.md)
 - [random variable](random%20variable.md)
 - [sample space](sample%20space.md)
 - [sigma-algebra](sigma-algebra.md)
 
+## appendix
+
+- [Riemann integration](Riemann%20integration.md)
+  - Riemann integration / [§ Riemann sums and integrability](Riemann%20integration.md#Riemann%20sums%20and%20integrability)
+  - Riemann integration / [§ continuous functions are Riemann-integrable](Riemann%20integration.md#continuous%20functions%20are%20Riemann-integrable)
+  - Riemann integration / [§ fundamental theorem of calculus](Riemann%20integration.md#fundamental%20theorem%20of%20calculus)
+  - Riemann integration / [§ algebraic properties of the Riemann integral](Riemann%20integration.md#algebraic%20properties%20of%20the%20Riemann%20integral)
+  - Riemann integration / [§ improper Riemann integrals](Riemann%20integration.md#improper%20Riemann%20integrals)
+  - Riemann integration / [§ shrinking intervals near a point](Riemann%20integration.md#shrinking%20intervals%20near%20a%20point)
+  - most relevant to [continuous distribution](continuous%20distribution.md)
+    - continuous distribution / [§ probability density functions](continuous%20distribution.md#probability%20density%20functions)
+    - continuous distribution / [§ interval probabilities](continuous%20distribution.md#interval%20probabilities)
+    - continuous distribution / [§ exponential and normal laws](continuous%20distribution.md#exponential%20and%20normal%20laws)
+  - also supports [cumulative distribution function](cumulative%20distribution%20function.md)
+    - cumulative distribution function / [§ definition and density relation](cumulative%20distribution%20function.md#definition%20and%20density%20relation)
+    - cumulative distribution function / [§ absolutely continuous and singular continuous distributions](cumulative%20distribution%20function.md#absolutely%20continuous%20and%20singular%20continuous%20distributions)
+- [multiple integrals](multiple%20integrals.md)
+  - multiple integrals / [§ rectangular Riemann integrals](multiple%20integrals.md#rectangular%20Riemann%20integrals)
+  - multiple integrals / [§ iterated integrals on rectangles](multiple%20integrals.md#iterated%20integrals%20on%20rectangles)
+  - multiple integrals / [§ Fubini and improper multiple integrals](multiple%20integrals.md#Fubini%20and%20improper%20multiple%20integrals)
+  - multiple integrals / [§ rectangle and cuboid calculations](multiple%20integrals.md#rectangle%20and%20cuboid%20calculations)
+  - multiple integrals / [§ Jordan nullsets and Jordan-measurable sets](multiple%20integrals.md#Jordan%20nullsets%20and%20Jordan-measurable%20sets)
+  - multiple integrals / [§ integrating over subsets of rectangles](multiple%20integrals.md#integrating%20over%20subsets%20of%20rectangles)
+  - multiple integrals / [§ variable-bound regions and probability calculations](multiple%20integrals.md#variable-bound%20regions%20and%20probability%20calculations)
+  - most relevant to [random variable](random%20variable.md)
+    - random variable / [§ law and cumulative distribution](random%20variable.md#law%20and%20cumulative%20distribution)
+    - random variable / [§ transformation of random variables](random%20variable.md#transformation%20of%20random%20variables)
+  - also complements [questions § midterm review](questions.md#midterm%20review), especially the proof-oriented prompts involving cumulative distributions, measurable structure, and region-based probability calculations
+
 ## assignments
 
 - Homework problems are assigned weekly on Wednesdays via Canvas and are due the following Friday before class (13:30 Hong Kong time), unless otherwise announced.
+
+## references
+
+- textbook references
+  - [Bré88] P. Brémaud, _An Introduction to Probabilistic Modeling_, Springer, 1988.
+  - [DS10] M. H. DeGroot and M. J. Schervish, _Probability and Statistics_, Addison-Wesley, 2010.
+  - [Dur09] R. Durrett, _Elementary Probability for Applications_, Cambridge University Press, 2009.
+  - [Geo12] H.-O. Georgii, _Stochastics: Introduction to Probability and Statistics_, 2nd ed., De Gruyter, 2012.
+  - [GS01] G. Grimmett and D. Stirzaker, _Probability and Random Processes_, 3rd ed., Oxford, 2001.
+- other references
+  - [i] X. Geng, _The Mathematical Theory of Moment Generating Functions_, lecture notes at the University of Melbourne, available at <https://researchers.ms.unimelb.edu.au/~xgge/notes.html>.
 
 ## week 1 lecture 1
 
@@ -245,6 +287,23 @@ The content is in teaching order.
   - random variable / [§ measurable functions and random variables](random%20variable.md#measurable%20functions%20and%20random%20variables)
   - random variable / [§ real random variables](random%20variable.md#real%20random%20variables)
   - random variable / [§ law and cumulative distribution](random%20variable.md#law%20and%20cumulative%20distribution)
+
+## week 7 lecture 1
+
+- datetime: 2026-03-18T13:30:00+08:00/2026-03-18T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: equality in distribution; transformation of random variables; linear and monotone transformation rules; exponential and chi-square examples
+- [random variable](random%20variable.md)
+  - random variable / [§ law and cumulative distribution](random%20variable.md#law%20and%20cumulative%20distribution)
+  - random variable / [§ equality in distribution](random%20variable.md#equality%20in%20distribution)
+  - random variable / [§ transformation of random variables](random%20variable.md#transformation%20of%20random%20variables)
+
+## week 7 lecture 2
+
+- datetime: 2026-03-20T13:30:00+08:00/2026-03-20T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: midterm examination
+- [§ midterm examination](#midterm%20examination)
 
 ## midterm examination
 
