@@ -20,9 +20,9 @@ If $N$ experiments with finite sample spaces $\Omega_1, \ldots, \Omega_N$ are pe
 
 Flashcards for this section are as follows:
 
-- elementary combinatorics / combined experiment space ::@:: Cartesian product $\Omega = \Omega_1 \times \cdots \times \Omega_N$; outcomes are $N$-tuples $(\omega_1, \ldots, \omega_N)$ with $\omega_j \in \Omega_j$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / product rule ::@:: $|\Omega_1 \times \cdots \times \Omega_N| = |\Omega_1| \cdots |\Omega_N|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / password: Four symbols: first two letters (26 each), last two digits (10 each). How many passwords? ::@:: $\Omega = \Omega_1 \times \Omega_2 \times \Omega_3 \times \Omega_4$ with $|\Omega_1|=|\Omega_2|=26$, $|\Omega_3|=|\Omega_4|=10$; $|\Omega| = 26 \cdot 26 \cdot 10 \cdot 10 = 67600$. <!-- check: ignore-line[two_sided_calc_warning]: left has givens 26, 10 -->
+- combined experiment space ::@:: Cartesian product $\Omega = \Omega_1 \times \cdots \times \Omega_N$; outcomes are $N$-tuples $(\omega_1, \ldots, \omega_N)$ with $\omega_j \in \Omega_j$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- product rule ::@:: $|\Omega_1 \times \cdots \times \Omega_N| = |\Omega_1| \cdots |\Omega_N|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- password: Four symbols: first two letters (26 each), last two digits (10 each). How many passwords? ::@:: $\Omega = \Omega_1 \times \Omega_2 \times \Omega_3 \times \Omega_4$ with $|\Omega_1|=|\Omega_2|=26$, $|\Omega_3|=|\Omega_4|=10$; $|\Omega| = 26 \cdot 26 \cdot 10 \cdot 10 = 67600$. <!-- check: ignore-line[two_sided_calc_warning]: left has givens 26, 10 -->
 
 ## samples of size r from n elements
 
@@ -39,12 +39,12 @@ Ordered with repetition: each of $r$ positions independently chosen from $n$ opt
 
 Flashcards for this section are as follows:
 
-- elementary combinatorics / ordered with repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with repetition: $n^r$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / ordered without repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with distinct entries: $n(n-1)\cdots(n-r+1) = n!/(n-r)!$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / unordered without repetition ::@:: Number of $r$-element subsets of $\{1,\ldots,n\}$: $\binom{n}{r} = n!/(r!(n-r)!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / unordered with repetition ::@:: Number of multisets of size $r$ from $\{1,\ldots,n\}$ (non-decreasing $r$-tuples): $\binom{n+r-1}{r}$ (stars-and-bars). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / binomial coefficient ::@:: $\binom{n}{k} = n!/(k!(n-k)!)$ for $0 \le k \le n$; number of $k$-element subsets of an $n$-element set. Equivalently, it is the multinomial coefficient with two groups, written as $\binom{n}{k,n-k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / committee: Subcommittee of 5 from 12: 1 from A (3), 2 from B (4), 2 from C (5). How many? ::@:: $\binom{3}{1} \binom{4}{2} \binom{5}{2} = 3 \cdot 6 \cdot 10 = 180$. <!-- check: ignore-line[two_sided_calc_warning]: left has group sizes 3,4,5 -->
+- ordered with repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with repetition: $n^r$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- ordered without repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with distinct entries: $n(n-1)\cdots(n-r+1) = n!/(n-r)!$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- unordered without repetition ::@:: Number of $r$-element subsets of $\{1,\ldots,n\}$: $\binom{n}{r} = n!/(r!(n-r)!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- unordered with repetition ::@:: Number of multisets of size $r$ from $\{1,\ldots,n\}$ (non-decreasing $r$-tuples): $\binom{n+r-1}{r}$ (stars-and-bars). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- binomial coefficient ::@:: $\binom{n}{k} = n!/(k!(n-k)!)$ for $0 \le k \le n$; number of $k$-element subsets of an $n$-element set. Equivalently, it is the multinomial coefficient with two groups, written as $\binom{n}{k,n-k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- committee: Subcommittee of 5 from 12: 1 from A (3), 2 from B (4), 2 from C (5). How many? ::@:: $\binom{3}{1} \binom{4}{2} \binom{5}{2} = 3 \cdot 6 \cdot 10 = 180$. <!-- check: ignore-line[two_sided_calc_warning]: left has group sizes 3,4,5 -->
 
 ## multinomial coefficient and division into groups
 
@@ -54,9 +54,9 @@ Suppose $n \in \mathbb{N}$ items are to be divided into $k$ distinct groups of s
 
 Flashcards for this section are as follows:
 
-- elementary combinatorics / division into k groups ::@:: Number of ways to partition $n$ items into $k$ labeled groups of sizes $n_1, \ldots, n_k$: $n!/(n_1! \cdots n_k!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / multinomial coefficient ::@:: $\binom{n}{n_1, \ldots, n_k} = n!/(n_1! \cdots n_k!)$ with $n_1 + \cdots + n_k = n$; generalizes $\binom{n}{k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / employees to tasks: 10 employees, 5 for A, 3 for B, 2 for C. How many assignments? ::@:: $10!/(5!\,3!\,2!) = 2520$ (same as permutations of AAAAABBBCC). <!-- check: ignore-line[two_sided_calc_warning]: left has 10, 5, 3, 2 -->
+- division into k groups ::@:: Number of ways to partition $n$ items into $k$ labeled groups of sizes $n_1, \ldots, n_k$: $n!/(n_1! \cdots n_k!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- multinomial coefficient ::@:: $\binom{n}{n_1, \ldots, n_k} = n!/(n_1! \cdots n_k!)$ with $n_1 + \cdots + n_k = n$; generalizes $\binom{n}{k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- employees to tasks: 10 employees, 5 for A, 3 for B, 2 for C. How many assignments? ::@:: $10!/(5!\,3!\,2!) = 2520$ (same as permutations of AAAAABBBCC). <!-- check: ignore-line[two_sided_calc_warning]: left has 10, 5, 3, 2 -->
 
 ## multinomial and binomial theorems
 
@@ -66,5 +66,5 @@ For $x_1, \ldots, x_k \in \mathbb{R}$ and $n \in \mathbb{N}$, $(x_1 + \cdots + x
 
 Flashcards for this section are as follows:
 
-- elementary combinatorics / multinomial theorem ::@:: $(x_1 + \cdots + x_k)^n = \sum_{n_1+\cdots+n_k=n} \binom{n}{n_1,\ldots,n_k} x_1^{n_1} \cdots x_k^{n_k}$; for $k=2$ this reduces to the binomial theorem. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- elementary combinatorics / binomial theorem ::@:: $(x+y)^n = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k}$ for $x, y \in \mathbb{R}$, $n \in \mathbb{N}$; special case of the multinomial theorem with two variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- multinomial theorem ::@:: $(x_1 + \cdots + x_k)^n = \sum_{n_1+\cdots+n_k=n} \binom{n}{n_1,\ldots,n_k} x_1^{n_1} \cdots x_k^{n_k}$; for $k=2$ this reduces to the binomial theorem. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- binomial theorem ::@:: $(x+y)^n = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k}$ for $x, y \in \mathbb{R}$, $n \in \mathbb{N}$; special case of the multinomial theorem with two variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

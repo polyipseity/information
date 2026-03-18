@@ -21,9 +21,9 @@ A _sample space_ is a non-empty set $\Omega$ whose elements represent the possib
 
 Flashcards for this section are as follows:
 
-- sample space / definition ::@:: A non-empty set $\Omega$ of possible realizations of a random experiment; each $\omega \in \Omega$ is an outcome. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / outcome ::@:: An element $\omega \in \Omega$; one possible realization or measurement of the random experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / role in model ::@:: The sample space is the first of three ingredients (with events and probability measure) in a probability space $(\Omega, \mathcal{F}, P)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- definition ::@:: A non-empty set $\Omega$ of possible realizations of a random experiment; each $\omega \in \Omega$ is an outcome. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- outcome ::@:: An element $\omega \in \Omega$; one possible realization or measurement of the random experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- role in model ::@:: The sample space is the first of three ingredients (with events and probability measure) in a probability space $(\Omega, \mathcal{F}, P)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## types of sample spaces
 
@@ -33,7 +33,7 @@ We meet three broad types of sample spaces in this course: finite sets (coins, d
 
 Flashcards for this section are as follows:
 
-- sample space / three types of sample space ::@:: Finite (e.g. coin, die, finite products), infinite discrete (e.g. $\mathbb{N}_0$), and continuous (e.g. $[0,\infty)$); all appear as sample spaces in probability. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- three types of sample space ::@:: Finite (e.g. coin, die, finite products), infinite discrete (e.g. $\mathbb{N}_0$), and continuous (e.g. $[0,\infty)$); all appear as sample spaces in probability. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### finite sample spaces
 
@@ -43,10 +43,10 @@ Classic finite examples: tossing a coin gives $\Omega_1 = \{H, T\}$; rolling a d
 
 Flashcards for this section are as follows:
 
-- sample space / coin once ::@:: $\Omega = \{H, T\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / die once ::@:: $\Omega = \{1, 2, 3, 4, 5, 6\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / combined experiment ::@:: Use Cartesian product: e.g. coin and die $\Omega_1 \times \Omega_2$; $|\Omega| = |\Omega_1| \cdot |\Omega_2|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / n-fold coin ::@:: $\Omega = \{H,T\}^n$; $|\Omega| = 2^n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- coin once ::@:: $\Omega = \{H, T\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- die once ::@:: $\Omega = \{1, 2, 3, 4, 5, 6\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- combined experiment ::@:: Use Cartesian product: e.g. coin and die $\Omega_1 \times \Omega_2$; $|\Omega| = |\Omega_1| \cdot |\Omega_2|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- n-fold coin ::@:: $\Omega = \{H,T\}^n$; $|\Omega| = 2^n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### infinite discrete sample spaces
 
@@ -56,8 +56,8 @@ Infinitely many coin tosses use $\Omega_5 = \Omega_1^{\mathbb{N}} = \{(\omega_1,
 
 Flashcards for this section are as follows:
 
-- sample space / infinite coin sequence ::@:: $\Omega = \{H,T\}^{\mathbb{N}}$; uncountable (continuum many sequences). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / countable vs uncountable ::@:: $\Omega_1$ – $\Omega_4$ are finite product spaces (coin, die, finite sequences of tosses) so they are countable; $\Omega_6 = \mathbb{N}_0$ is countable via listing $0,1,2,\ldots$; $\Omega_5 = \{H,T\}^{\mathbb{N}}$ (infinite coin sequences) and $\Omega_7 = [0,\infty)$ have the cardinality of the continuum (like $[0,1]$), strictly larger than any countable set, so we cannot take all subsets as events later. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- infinite coin sequence ::@:: $\Omega = \{H,T\}^{\mathbb{N}}$; uncountable (continuum many sequences). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- countable vs uncountable ::@:: $\Omega_1$ – $\Omega_4$ are finite product spaces (coin, die, finite sequences of tosses) so they are countable; $\Omega_6 = \mathbb{N}_0$ is countable via listing $0,1,2,\ldots$; $\Omega_5 = \{H,T\}^{\mathbb{N}}$ (infinite coin sequences) and $\Omega_7 = [0,\infty)$ have the cardinality of the continuum (like $[0,1]$), strictly larger than any countable set, so we cannot take all subsets as events later. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### continuous sample spaces
 
@@ -67,7 +67,7 @@ The lifetime of a light bulb is $\Omega_7 = \mathbb{R}_0^+ = [0, \infty)$ (anoth
 
 Flashcards for this section are as follows:
 
-- sample space / continuum ::@:: The _continuum_ is the common cardinality of real intervals such as $[0,1]$ or $[0,\infty)$ and of sets like $\{H,T\}^{\mathbb{N}}$; it is uncountable and strictly larger than the size of $\mathbb{N}$ or $\mathbb{Q}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- continuum ::@:: The _continuum_ is the common cardinality of real intervals such as $[0,1]$ or $[0,\infty)$ and of sets like $\{H,T\}^{\mathbb{N}}$; it is uncountable and strictly larger than the size of $\mathbb{N}$ or $\mathbb{Q}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## countable sets
 
@@ -77,5 +77,5 @@ A set $S$ is _countable_ if it is empty or there exists a surjective map $\rho \
 
 Flashcards for this section are as follows:
 
-- sample space / countable definition ::@:: $S$ is countable if $S = \emptyset$ or there is a surjection $\rho \colon \mathbb{N} \to S$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / why countability matters ::@:: For countable $\Omega$, $P(\Omega)$ is typically used; for uncountable $\Omega$, we restrict to a $\sigma$-algebra to avoid measure-theoretic obstructions. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- countable definition ::@:: $S$ is countable if $S = \emptyset$ or there is a surjection $\rho \colon \mathbb{N} \to S$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why countability matters ::@:: For countable $\Omega$, $P(\Omega)$ is typically used; for uncountable $\Omega$, we restrict to a $\sigma$-algebra to avoid measure-theoretic obstructions. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

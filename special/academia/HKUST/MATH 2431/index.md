@@ -53,12 +53,15 @@ The content is in teaching order.
 ## children
 
 - [assignments](assignments/index.md)
-- [conditional probability and independence](conditional%20probability%20and%20independence.md)
 - [conditional probability](conditional%20probability.md)
+- [continuous distribution](continuous%20distribution.md)
+- [cumulative distribution function](cumulative%20distribution%20function.md)
+- [discrete distribution](discrete%20distribution.md)
 - [elementary combinatorics](elementary%20combinatorics.md)
 - [independence](independence.md)
 - [probability measure](probability%20measure.md)
 - [questions](questions.md)
+- [random variable](random%20variable.md)
 - [sample space](sample%20space.md)
 - [sigma-algebra](sigma-algebra.md)
 
@@ -66,9 +69,10 @@ The content is in teaching order.
 
 - Homework problems are assigned weekly on Wednesdays via Canvas and are due the following Friday before class (13:30 Hong Kong time), unless otherwise announced.
 
-### week 1 lecture 1
+## week 1 lecture 1
 
 - datetime: 2026-02-04T13:30:00+08:00/2026-02-04T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
 - topic: introduction; motivating example (random walk); guiding questions; course outline; outcomes and sample spaces; elementary combinatorics
 - MATH 2431
   - MATH 2431 / random walk on Z (motivating example) ::@:: Model: $\xi_1,\xi_2,\ldots$ iid with $P[\xi_j=+1]=P[\xi_j=-1]=\frac{1}{2}$; $X_0=0$, $X_n=\xi_1+\cdots+\xi_n$ for $n\ge 1$. The process $(X_n)_{n\in\mathbb{N}_0}$ is the _discrete-time simple random walk_ on $\mathbb{Z}$. Historically linked to Pascal–Fermat correspondence (1654–1660). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -87,9 +91,10 @@ The content is in teaching order.
   - elementary combinatorics / [§ cartesian product and product rule](elementary%20combinatorics.md#cartesian%20product%20and%20product%20rule)
   - elementary combinatorics / [§ samples of size r from n elements](elementary%20combinatorics.md#samples%20of%20size%20r%20from%20n%20elements)
 
-### week 1 lecture 2
+## week 1 lecture 2
 
 - datetime: 2026-02-06T13:30:00+08:00/2026-02-06T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
 - topic: elementary combinatorics (continued); events and sigma-algebras; probability measures
 - MATH 2431
   - MATH 2431 / sigma-algebras ::@:: A $\sigma$-algebra on $\Omega$ is $\mathcal{F} \subseteq \mathcal{P}(\Omega)$ with $\Omega \in \mathcal{F}$, closed under complements and countable unions. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -98,7 +103,8 @@ The content is in teaching order.
   - elementary combinatorics / [§ multinomial coefficient and division into groups](elementary%20combinatorics.md#multinomial%20coefficient%20and%20division%20into%20groups)
   - elementary combinatorics / [§ multinomial and binomial theorems](elementary%20combinatorics.md#multinomial%20and%20binomial%20theorems)
 - [sigma-algebra](sigma-algebra.md)
-  - sigma-algebra / [§ power set and naive definition of event](sigma-algebra.md#power%20set%20and%20naive%20definition%20of%20event)
+  - sigma-algebra / [§ power set](sigma-algebra.md#power%20set)
+  - sigma-algebra / [§ naive definition of event](sigma-algebra.md#naive%20definition%20of%20event)
   - sigma-algebra / [§ definition of sigma-algebra](sigma-algebra.md#definition%20of%20sigma-algebra)
   - sigma-algebra / [§ consequences: empty set, intersections, finite operations](sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations) <!-- check: ignore-line[numeric_text_not_latex]: link anchor -->
   - sigma-algebra / [§ concrete cases and violations](sigma-algebra.md#concrete%20cases%20and%20violations)
@@ -107,9 +113,10 @@ The content is in teaching order.
   - probability measure / [§ uniform distribution and Laplace space](probability%20measure.md#uniform%20distribution%20and%20Laplace%20space)
   - probability measure / [§ elementary properties](probability%20measure.md#elementary%20properties)
 
-### week 2 lecture 1
+## week 2 lecture 1
 
 - datetime: 2026-02-11T13:30:00+08:00/2026-02-11T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
 - topic: elementary properties of probabilities; conditional probability; multiplication theorem
 - [probability measure](probability%20measure.md)
   - probability measure / [§ elementary properties](probability%20measure.md#elementary%20properties)
@@ -117,9 +124,10 @@ The content is in teaching order.
   - conditional probability / [§ conditional probability: definition and multiplication rule](conditional%20probability.md#conditional%20probability-definition-and-multiplication-rule)
   - conditional probability / [§ conditional probability as a probability measure](conditional%20probability.md#conditional%20probability%20as%20a%20probability%20measure)
 
-### week 2 lecture 2
+## week 2 lecture 2
 
 - datetime: 2026-02-13T13:30:00+08:00/2026-02-13T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
 - topic: law of total probability; Bayes' theorem; stochastic independence
 - [conditional probability](conditional%20probability.md)
   - conditional probability / [§ law of total probability and Bayes' theorem](conditional%20probability.md#law-of-total-probability-and-bayes-theorem)
@@ -127,6 +135,116 @@ The content is in teaching order.
 - [independence](independence.md)
   - independence / [§ definitions: pairwise and joint independence](independence.md#definitions-pairwise-and-joint-independence)
   - independence / [§ independence via cards and coins](independence.md#independence-via-cards-and-coins)
+
+## week 3 lecture 1
+
+- datetime: 2026-02-18T13:30:00+08:00/2026-02-18T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- status: public holiday: Lunar New Year's Day
+
+## week 3 lecture 2
+
+- datetime: 2026-02-20T13:30:00+08:00/2026-02-20T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: countable sample spaces; sums over countable sets; discrete distributions; probability mass functions
+- [sample space](sample%20space.md)
+  - sample space / [§ countable sets](sample%20space.md#countable%20sets)
+- [discrete distribution](discrete%20distribution.md)
+  - discrete distribution / [§ countable sample spaces and sums](discrete%20distribution.md#countable%20sample%20spaces%20and%20sums)
+  - discrete distribution / [§ probability mass functions](discrete%20distribution.md#probability%20mass%20functions)
+
+## week 4 lecture 1
+
+- datetime: 2026-02-25T13:30:00+08:00/2026-02-25T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: named discrete distributions; Bernoulli and binomial models; geometric, hypergeometric, and Poisson laws; Poisson approximation of the binomial law
+- [discrete distribution](discrete%20distribution.md)
+  - discrete distribution / [§ named distributions](discrete%20distribution.md#named%20distributions)
+  - discrete distribution / [§ discrete uniform distribution](discrete%20distribution.md#discrete%20uniform%20distribution)
+  - discrete distribution / [§ Bernoulli distribution](discrete%20distribution.md#Bernoulli%20distribution)
+  - discrete distribution / [§ binomial distribution](discrete%20distribution.md#binomial%20distribution)
+  - discrete distribution / [§ geometric distribution](discrete%20distribution.md#geometric%20distribution)
+  - discrete distribution / [§ hypergeometric distribution](discrete%20distribution.md#hypergeometric%20distribution)
+  - discrete distribution / [§ Poisson distribution](discrete%20distribution.md#Poisson%20distribution)
+
+## week 4 lecture 2
+
+- datetime: 2026-02-27T13:30:00+08:00/2026-02-27T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: continuous distributions; probability density functions; generated sigma-algebras; Borel sigma-algebra
+- [continuous distribution](continuous%20distribution.md)
+  - continuous distribution / [§ probability density functions](continuous%20distribution.md#probability%20density%20functions)
+  - continuous distribution / [§ interval probabilities](continuous%20distribution.md#interval%20probabilities)
+  - continuous distribution / [§ uniform distribution](continuous%20distribution.md#uniform%20distribution)
+- [sigma-algebra](sigma-algebra.md)
+  - sigma-algebra / [§ generated sigma-algebras](sigma-algebra.md#generated%20sigma-algebras)
+  - sigma-algebra / [§ Borel sigma-algebra](sigma-algebra.md#borel%20sigma-algebra)
+  - sigma-algebra / [§ densities induce Borel probability measures](sigma-algebra.md#densities%20induce%20Borel%20probability%20measures)
+
+## week 5 lecture 1
+
+- datetime: 2026-03-04T13:30:00+08:00/2026-03-04T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: continuous distributions (continued); interval probabilities; exponential and normal distributions; distribution functions
+- [continuous distribution](continuous%20distribution.md)
+  - continuous distribution / [§ interval probabilities](continuous%20distribution.md#interval%20probabilities)
+  - continuous distribution / [§ exponential and normal laws](continuous%20distribution.md#exponential%20and%20normal%20laws)
+  - continuous distribution / [§ uniform distribution](continuous%20distribution.md#uniform%20distribution)
+  - continuous distribution / [§ exponential distribution](continuous%20distribution.md#exponential%20distribution)
+  - continuous distribution / [§ normal distribution](continuous%20distribution.md#normal%20distribution)
+- [cumulative distribution function](cumulative%20distribution%20function.md)
+  - cumulative distribution function / [§ definition and density relation](cumulative%20distribution%20function.md#definition%20and%20density%20relation)
+  - cumulative distribution function / [§ standard normal notation](cumulative%20distribution%20function.md#standard%20normal%20notation)
+- [sigma-algebra](sigma-algebra.md)
+  - sigma-algebra / [§ generated sigma-algebras](sigma-algebra.md#generated%20sigma-algebras)
+  - sigma-algebra / [§ Borel sigma-algebra](sigma-algebra.md#borel%20sigma-algebra)
+
+## week 5 lecture 2
+
+- datetime: 2026-03-06T13:30:00+08:00/2026-03-06T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: distribution functions; mixed distributions; pi-systems; Dynkin systems
+- [cumulative distribution function](cumulative%20distribution%20function.md)
+  - cumulative distribution function / [§ general properties](cumulative%20distribution%20function.md#general%20properties)
+  - cumulative distribution function / [§ equality of distributions](cumulative%20distribution%20function.md#equality%20of%20distributions)
+  - cumulative distribution function / [§ mixed and pathological distributions](cumulative%20distribution%20function.md#mixed%20and%20pathological%20distributions)
+- [sigma-algebra](sigma-algebra.md)
+  - sigma-algebra / [§ pi-systems and Dynkin systems](sigma-algebra.md#pi-systems%20and%20Dynkin%20systems)
+
+## week 6 lecture 1
+
+- datetime: 2026-03-11T13:30:00+08:00/2026-03-11T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: generated Dynkin systems; Dynkin's pi-lambda theorem; uniqueness from a generating pi-system; Lebesgue-Stieltjes theorem
+- [sigma-algebra](sigma-algebra.md)
+  - sigma-algebra / [§ pi-systems and Dynkin systems](sigma-algebra.md#pi-systems%20and%20Dynkin%20systems)
+  - sigma-algebra / [§ generated Dynkin systems](sigma-algebra.md#generated%20Dynkin%20systems)
+  - sigma-algebra / [§ pi-lambda theorem](sigma-algebra.md#pi-lambda%20theorem)
+  - sigma-algebra / [§ proof via compatibility classes](sigma-algebra.md#proof%20via%20compatibility%20classes)
+  - sigma-algebra / [§ uniqueness from agreement on a generating pi-system](sigma-algebra.md#uniqueness%20from%20agreement%20on%20a%20generating%20pi-system)
+- [cumulative distribution function](cumulative%20distribution%20function.md)
+  - cumulative distribution function / [§ Lebesgue-Stieltjes measures](cumulative%20distribution%20function.md#Lebesgue-Stieltjes%20measures)
+  - cumulative distribution function / [§ concrete proof of existence and uniqueness](cumulative%20distribution%20function.md#concrete%20proof%20of%20existence%20and%20uniqueness)
+  - cumulative distribution function / [§ pseudoinverse](cumulative%20distribution%20function.md#pseudoinverse)
+  - cumulative distribution function / [§ abstract pushforward proof](cumulative%20distribution%20function.md#abstract%20pushforward%20proof)
+
+## week 6 lecture 2
+
+- datetime: 2026-03-13T13:30:00+08:00/2026-03-13T14:50:00+08:00
+- venue: Room 6573, near Lifts 29–30
+- topic: Lebesgue-Stieltjes measures; absolute continuity and singular continuity; random variables; laws and cumulative distributions
+- [cumulative distribution function](cumulative%20distribution%20function.md)
+  - cumulative distribution function / [§ equality of distributions](cumulative%20distribution%20function.md#equality%20of%20distributions)
+  - cumulative distribution function / [§ Lebesgue-Stieltjes measures](cumulative%20distribution%20function.md#Lebesgue-Stieltjes%20measures)
+  - cumulative distribution function / [§ concrete proof of existence and uniqueness](cumulative%20distribution%20function.md#concrete%20proof%20of%20existence%20and%20uniqueness)
+  - cumulative distribution function / [§ pseudoinverse](cumulative%20distribution%20function.md#pseudoinverse)
+  - cumulative distribution function / [§ abstract pushforward proof](cumulative%20distribution%20function.md#abstract%20pushforward%20proof)
+  - cumulative distribution function / [§ absolutely continuous and singular continuous distributions](cumulative%20distribution%20function.md#absolutely%20continuous%20and%20singular%20continuous%20distributions)
+- [random variable](random%20variable.md)
+  - random variable / [§ sum of two dice](random%20variable.md#sum%20of%20two%20dice)
+  - random variable / [§ measurable functions and random variables](random%20variable.md#measurable%20functions%20and%20random%20variables)
+  - random variable / [§ real random variables](random%20variable.md#real%20random%20variables)
+  - random variable / [§ law and cumulative distribution](random%20variable.md#law%20and%20cumulative%20distribution)
 
 ## midterm examination
 
