@@ -79,7 +79,7 @@ Both {@{the cross notation \(__a__ × __b__\) and the name _cross product_}@} we
 
 > {@{![[Standard basis](standard%20basis.md) vectors __i__, __j__, __k__ and [vector components](vector%20component.md#decomposition) of __a__, denoted here __a__<sub>x</sub>, __a__<sub>y</sub>, __a__<sub>z</sub>](../../archives/Wikimedia%20Commons/3D%20Vector.svg)}@}
 >
-> {@{[Standard basis](standard%20basis.md) vectors __i__, __j__, __k__}@} and {@{[vector components](vector%20component.md#decomposition) of __a__}@}, denoted here {@{__a__<sub>x</sub>, __a__<sub>y</sub>, __a__<sub>z</sub>}@} <!--SR:!2026-09-14,318,347!2026-05-20,208,327!2027-12-03,627,412!2026-03-25,125,392-->
+> {@{[Standard basis](standard%20basis.md) vectors __i__, __j__, __k__}@} and {@{[vector components](vector%20component.md#decomposition) of __a__}@}, denoted here {@{__a__<sub>x</sub>, __a__<sub>y</sub>, __a__<sub>z</sub>}@} <!--SR:!2026-09-14,318,347!2026-05-20,208,327!2027-12-03,627,412!2028-01-24,670,412-->
 
 If {@{$(\mathbf {\color {blue}{i} } ,\mathbf {\color {red}{j} } ,\mathbf {\color {green}{k} } )$}@} is {@{a positively oriented [orthonormal basis](orthonormal%20basis.md)}@}, {@{the basis vectors}@} satisfy the following equalities<sup>[\[1\]](#^ref-1)</sup> {@{$${\begin{alignedat}{2}\mathbf {\color {blue}{i} } &\times \mathbf {\color {red}{j} } &&=\mathbf {\color {green}{k} } \\\mathbf {\color {red}{j} } &\times \mathbf {\color {green}{k} } &&=\mathbf {\color {blue}{i} } \\\mathbf {\color {green}{k} } &\times \mathbf {\color {blue}{i} } &&=\mathbf {\color {red}{j} } \end{alignedat} }$$}@} <!--SR:!2026-08-22,300,347!2026-09-07,312,347!2026-09-05,309,347!2026-08-03,285,347-->
 

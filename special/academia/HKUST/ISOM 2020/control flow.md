@@ -101,4 +101,4 @@ while condition:
 
 If {@{you want to stop a `while` loop early in the loop}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-17,2100,391!2026-03-31,423,371!2026-03-30,422,371-->
 
-ISOM 2020 note: {@{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}@} If {@{you really need a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2031-12-29,2109,391!2026-04-18,439,371!2026-03-25,419,371-->
+ISOM 2020 note: {@{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}@} If {@{you really need a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2031-12-29,2109,391!2026-04-18,439,371!2032-01-25,2132,391-->

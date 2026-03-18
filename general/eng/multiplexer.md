@@ -46,7 +46,7 @@ Conversely, {@{a __demultiplexer__ \(or __demux__\)}@} is {@{a device that takes
 
 ## applications
 
-Multiplexers are {@{part of computer systems to select data from a specific source}@}, be it {@{a memory chip or a hardware peripheral}@}. A computer uses multiplexers to {@{control the data and address buses}@}, allowing {@{the processor to select data from multiple data sources}@}. <!--SR:!2030-01-27,1413,364!2030-02-17,1431,364!2026-03-25,307,344!2026-04-13,326,344-->
+Multiplexers are {@{part of computer systems to select data from a specific source}@}, be it {@{a memory chip or a hardware peripheral}@}. A computer uses multiplexers to {@{control the data and address buses}@}, allowing {@{the processor to select data from multiple data sources}@}. <!--SR:!2030-01-27,1413,364!2030-02-17,1431,364!2030-03-17,1453,364!2026-04-13,326,344-->
 
 > {@{![The basic function of a multiplexer: combining multiple inputs into a single data stream. On the receiving side, a demultiplexer splits the single data stream into the original multiple signals.](../../archives/Wikimedia%20Commons/Telephony%20multiplexer%20system.gif)}@}
 >

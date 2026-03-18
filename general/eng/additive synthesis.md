@@ -17,7 +17,7 @@ tags:
 >
 > ---
 >
-> _Problems playing this file? See [media help](https://en.wikipedia.org/wiki/Help:Media)._ <!--SR:!2027-11-19,660,330!2026-03-25,191,310!2026-04-15,206,310!2026-05-10,242,330-->
+> _Problems playing this file? See [media help](https://en.wikipedia.org/wiki/Help:Media)._ <!--SR:!2027-11-19,660,330!2027-11-07,592,310!2026-04-15,206,310!2026-05-10,242,330-->
 
 {@{__Additive synthesis__}@} is {@{a [sound synthesis](sound%20synthesis.md#theory) technique that creates [timbre](timbre.md) by adding [sine](sine.md) waves together}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-05-11,244,330!2026-06-01,260,330-->
 

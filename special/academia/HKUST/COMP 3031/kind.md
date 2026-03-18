@@ -61,7 +61,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 
 {@{A lawful monad}@} must satisfy {@{three laws: left unit, right unit, essential-associativity}@}. <!--SR:!2026-03-29,63,310!2026-11-14,244,330-->
 
-- _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-03-25,59,310!2026-11-16,246,330-->
+- _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-12-06,256,330!2026-11-16,246,330-->
 - _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!2026-11-02,234,330!2026-11-10,241,330-->
 - _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-09-12,184,310!2026-04-02,67,310-->
 
@@ -96,11 +96,11 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >
 > Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-11-27,255,330!2026-11-10,241,330!2026-04-03,62,310!2026-04-02,67,310-->
 
-Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing a singleton `List` and `flatMap` a `List`}@}. <!--SR:!2026-03-25,59,310!2026-11-10,241,330-->
+Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing a singleton `List` and `flatMap` a `List`}@}. <!--SR:!2026-12-09,259,330!2026-11-10,241,330-->
 
 ### monad example motivation
 
-{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-03-26,60,310!2026-10-27,228,330!2026-03-27,61,310!2026-11-05,237,330!2026-03-25,59,310-->
+{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-03-26,60,310!2026-10-27,228,330!2026-03-27,61,310!2026-11-05,237,330!2026-12-09,259,330-->
 
 > [!example] __`sequence`__
 >
@@ -113,7 +113,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     case fa :: fas =>
 >       for (a <- fa; as <- sequence(fas)) yield a :: as
 > ```
-<!--SR:!2026-03-25,59,310!2026-11-19,248,330!2026-11-25,253,330-->
+<!--SR:!2026-12-08,258,330!2026-11-19,248,330!2026-11-25,253,330-->
 
 {@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!2026-04-02,67,310!2026-11-24,252,330-->
 
@@ -129,7 +129,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ### monad related kinds
 
-{@{A `Monad`}@} extends {@{the more basic `Applicative`}@}, which itself refines {@{a `Functor`}@}. The hierarchy is: <!--SR:!2026-03-28,62,310!2026-11-29,251,330!2026-03-25,59,310-->
+{@{A `Monad`}@} extends {@{the more basic `Applicative`}@}, which itself refines {@{a `Functor`}@}. The hierarchy is: <!--SR:!2026-03-28,62,310!2026-11-29,251,330!2026-12-08,258,330-->
 
 - `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2026-03-30,64,310!2026-11-15,245,330-->
 - `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!2026-07-31,135,290!2026-11-23,251,330-->
@@ -161,7 +161,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[B](f: A => B): F[B] = ap(pure(f))(fa)
 > ```
 >
-> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-11-16,246,330!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-03-25,59,310!2026-09-22,182,310!2026-11-03,235,330-->
+> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-11-16,246,330!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-12-07,257,330!2026-09-22,182,310!2026-11-03,235,330-->
 
 {@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2026-03-31,65,310!2026-04-08,67,310!2026-09-07,175,310!2026-03-28,62,310-->
 
@@ -216,4 +216,4 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2026-03-30,64,310!2026-03-31,65,310!2026-11-23,251,330!2026-04-08,67,310-->
 
-{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-03-30,58,310!2026-03-31,65,310!2026-03-25,59,310!2026-10-28,229,330!2026-11-21,250,330!2026-11-16,245,330-->
+{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-03-30,58,310!2026-03-31,65,310!2026-12-09,259,330!2026-10-28,229,330!2026-11-21,250,330!2026-11-16,245,330-->

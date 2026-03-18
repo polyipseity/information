@@ -294,7 +294,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 
 ## application to shortest path finding
 
-{@{The topological ordering}@} can also be used to {@{quickly compute [shortest paths](shortest%20path%20problem.md) through a [weighted](glossary%20of%20graph%20theory.md#weighted%20graph) directed acyclic graph}@}. Let {@{_V_ be the list of vertices in such a graph, in topological order}@}. Then {@{the following algorithm computes the shortest path from some source vertex _s_ to all other vertices}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-06-11,449,379!2029-03-10,1149,359!2026-06-24,460,379!2026-03-25,383,371-->
+{@{The topological ordering}@} can also be used to {@{quickly compute [shortest paths](shortest%20path%20problem.md) through a [weighted](glossary%20of%20graph%20theory.md#weighted%20graph) directed acyclic graph}@}. Let {@{_V_ be the list of vertices in such a graph, in topological order}@}. Then {@{the following algorithm computes the shortest path from some source vertex _s_ to all other vertices}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-06-11,449,379!2029-03-10,1149,359!2026-06-24,460,379!2030-02-13,1421,371-->
 
 > __outgoing edge variant__
 >
@@ -334,7 +334,7 @@ One can {@{define a partial ordering from any DAG}@} by {@{letting the set of ob
 
 ## relation to scheduling optimisation
 
-By {@{definition}@}, {@{the solution of a scheduling problem that includes a precedence graph}@} is {@{a valid solution to topological sort \(irrespective of the number of machines\)}@}, however, topological sort {@{in itself is _not_ enough to optimally solve a scheduling optimisation problem}@}. {@{Hu's algorithm}@} is {@{a popular method used to solve scheduling problems}@} that require {@{a precedence graph and involve processing times}@} \(where the goal is to {@{minimise the largest completion time amongst all the jobs}@}\). Like {@{topological sort}@}, Hu's algorithm is not {@{unique and can be solved using DFS}@} \(by finding {@{the largest path length and then assigning the jobs}@}\). <!--SR:!2030-12-10,1751,378!2030-04-06,1553,379!2030-12-20,1759,378!2030-04-28,1563,379!2029-10-29,1419,371!2026-03-29,387,371!2031-03-16,1840,391!2030-05-11,1576,378!2029-05-12,1185,359!2026-03-25,27,407!2026-08-09,139,427-->
+By {@{definition}@}, {@{the solution of a scheduling problem that includes a precedence graph}@} is {@{a valid solution to topological sort \(irrespective of the number of machines\)}@}, however, topological sort {@{in itself is _not_ enough to optimally solve a scheduling optimisation problem}@}. {@{Hu's algorithm}@} is {@{a popular method used to solve scheduling problems}@} that require {@{a precedence graph and involve processing times}@} \(where the goal is to {@{minimise the largest completion time amongst all the jobs}@}\). Like {@{topological sort}@}, Hu's algorithm is not {@{unique and can be solved using DFS}@} \(by finding {@{the largest path length and then assigning the jobs}@}\). <!--SR:!2030-12-10,1751,378!2030-04-06,1553,379!2030-12-20,1759,378!2030-04-28,1563,379!2029-10-29,1419,371!2026-03-29,387,371!2031-03-16,1840,391!2030-05-11,1576,378!2029-05-12,1185,359!2026-08-21,149,427!2026-08-09,139,427-->
 
 ## see also
 

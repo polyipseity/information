@@ -64,7 +64,7 @@ Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS
 > makeCoffee(k); makeCoffee(k)          // race if the callbacks run on different threads
 > ```
 >
-> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2026-04-04,67,310!2026-03-29,61,310!2026-11-19,248,330!2026-03-25,57,310!2026-04-05,67,310!2026-04-01,63,310-->
+> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2026-04-04,67,310!2026-03-29,61,310!2026-11-19,248,330!2026-12-01,251,330!2026-04-05,67,310!2026-04-01,63,310-->
 
 Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-03-28,60,310!2026-11-11,241,330!2026-03-27,59,310!2026-04-05,67,310!2026-04-04,67,310!2026-04-03,65,310-->
 
@@ -164,7 +164,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## transformations
 
-`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-03-25,57,310!2026-11-10,241,330!2026-11-25,253,330!2026-04-05,67,310!2026-03-26,58,310!2026-04-04,67,310!2026-10-30,231,330-->
+`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!2026-11-10,241,330!2026-11-25,253,330!2026-04-05,67,310!2026-03-26,58,310!2026-04-04,67,310!2026-10-30,231,330-->
 
 {@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-03-29,60,310!2026-04-03,65,310!2026-04-03,65,310!2026-11-11,241,330-->
 
@@ -273,7 +273,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 >
 > {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-03-28,60,310!2026-11-24,252,330!2026-03-28,60,310!2026-03-29,61,310!2026-11-02,234,330!2026-04-05,67,310!2026-04-04,67,310-->
 
-{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-03-27,59,310!2026-04-05,67,310!2026-04-04,67,310!2026-04-05,67,310!2026-03-25,57,310!2026-11-05,237,330!2026-03-30,61,310!2026-11-18,247,330!2026-04-04,67,310-->
+{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-03-27,59,310!2026-04-05,67,310!2026-04-04,67,310!2026-04-05,67,310!2026-12-01,251,330!2026-11-05,237,330!2026-03-30,61,310!2026-11-18,247,330!2026-04-04,67,310-->
 
 ## execution context
 
@@ -298,7 +298,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 > ```
 <!--SR:!2026-04-04,67,310!2026-03-28,59,310!2026-04-04,67,310!2026-03-29,60,310-->
 
-{@{The execution context}@} is also used when {@{chaining futures with `map`, `flatMap` or `onComplete`}@}; each callback uses {@{the implicit context from the surrounding code}@}. <!--SR:!2026-03-31,62,310!2026-03-25,57,310!2026-04-04,67,310-->
+{@{The execution context}@} is also used when {@{chaining futures with `map`, `flatMap` or `onComplete`}@}; each callback uses {@{the implicit context from the surrounding code}@}. <!--SR:!2026-03-31,62,310!2026-12-01,251,330!2026-04-04,67,310-->
 
 ## API mitigation
 
@@ -327,6 +327,6 @@ When {@{an existing library}@} offers {@{a callback‑based asynchronous method}
 >   p.future
 > ```
 >
-> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-03-26,58,310!2026-11-24,252,330!2026-11-12,242,330!2026-03-25,57,310!2026-04-04,67,310!2026-11-16,246,330!2026-03-28,60,310!2026-05-07,82,357!2026-05-07,82,357!2026-05-07,82,357-->
+> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-03-26,58,310!2026-11-24,252,330!2026-11-12,242,330!2026-12-01,251,330!2026-04-04,67,310!2026-11-16,246,330!2026-03-28,60,310!2026-05-07,82,357!2026-05-07,82,357!2026-05-07,82,357-->
 
 Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-04-05,67,310!2026-03-27,59,310!2026-03-30,61,310!2026-11-21,250,330!2026-11-04,236,330!2026-11-20,249,330!2026-05-07,82,357-->

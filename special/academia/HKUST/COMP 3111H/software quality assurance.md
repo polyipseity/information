@@ -104,7 +104,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 - _Difficulty_: ::@:: $\displaystyle D=\frac{n_1}{2}\,\frac{N_2}{n_2}$. <!--SR:!2026-04-13,74,336!2026-04-08,69,336-->
 - _Effort_: ::@:: $\displaystyle E=V\times D$. <!--SR:!2026-04-11,77,336!2026-04-13,74,336-->
 
-{@{McCabe’s cyclomatic complexity}@} counts the {@{number of linearly independent paths through a control‑flow graph}@}; {@{higher values}@} correlate with {@{more defects and greater testing effort}@}. <!--SR:!2026-11-28,255,334!2026-04-11,72,336!2026-03-25,60,314!2026-04-13,74,336-->
+{@{McCabe’s cyclomatic complexity}@} counts the {@{number of linearly independent paths through a control‑flow graph}@}; {@{higher values}@} correlate with {@{more defects and greater testing effort}@}. <!--SR:!2026-11-28,255,334!2026-04-11,72,336!2026-12-11,261,334!2026-04-13,74,336-->
 
 {@{Other simple metrics}@}—{@{lines of code, identifier length and depth of conditional nesting}@}—also serve as {@{proxies for implementation difficulty}@}. {@{Standards}@} use these metrics to {@{highlight and avoid complex components}@}. <!--SR:!2026-04-11,77,334!2026-04-14,75,336!2026-04-14,75,336!2026-04-10,71,336!2026-04-06,67,336-->
 

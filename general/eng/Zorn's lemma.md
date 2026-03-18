@@ -175,7 +175,7 @@ Zorn's lemma is {@{equivalent \(in [ZF](Zermelo–Fraenkel%20set%20theory.md)\) 
 2. [Axiom of choice](axiom%20of%20choice.md)
 3. [Well-ordering theorem](well-ordering%20theorem.md).
 
-{@{A well-known joke alluding to this equivalency}@} \(which {@{may defy human intuition}@}\) is attributed to {@{[Jerry Bona](Jerry%20L.%20Bona.md)}@}: "{@{The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about Zorn's lemma?}@}"<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2030-09-11,1652,370!2030-10-21,1683,370!2026-03-25,335,310!2030-10-28,1689,370-->
+{@{A well-known joke alluding to this equivalency}@} \(which {@{may defy human intuition}@}\) is attributed to {@{[Jerry Bona](Jerry%20L.%20Bona.md)}@}: "{@{The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about Zorn's lemma?}@}"<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2030-09-11,1652,370!2030-10-21,1683,370!2030-03-01,1437,330!2030-10-28,1689,370-->
 
 Zorn's lemma is also equivalent to {@{the [strong completeness theorem](strong%20completeness%20theorem.md) of first-order logic}@}.<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2030-03-04,1501,370-->
 

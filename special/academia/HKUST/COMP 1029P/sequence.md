@@ -19,7 +19,7 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 ## list
 
-To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2027-10-22,1053,350!2028-03-24,1174,350!2026-04-04,457,386!2026-03-25,139,403!2026-03-25,139,403-->
+To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2027-10-22,1053,350!2028-03-24,1174,350!2026-04-04,457,386!2028-05-03,770,423!2028-04-28,765,423-->
 
 ## length
 
@@ -66,7 +66,7 @@ assert 'abcdefg'[::-1] == 'gfedcba'
 assert "abcdefg"[:0:-1] == "gfedcb"
 ```
 
-If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2032-09-05,2358,406!2032-06-01,2280,406!2029-11-15,1510,386!2030-04-10,1628,386!2028-04-16,755,423!2026-03-25,139,403-->
+If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2032-09-05,2358,406!2032-06-01,2280,406!2029-11-15,1510,386!2030-04-10,1628,386!2028-04-16,755,423!2028-04-29,766,423-->
 
 ## concatenation
 
@@ -86,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is {@{a difference between strings and lists}@} when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for {@{lists}@}, there are {@{operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2029-03-19,1461,350!2027-07-17,948,330!2027-01-15,771,330!2026-11-11,755,330!2027-12-02,641,412!2026-03-25,139,403!2028-04-07,747,423!2028-04-22,760,423!2026-04-13,136,412!2026-04-08,132,412-->
+Note that there is {@{a difference between strings and lists}@} when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for {@{lists}@}, there are {@{operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2029-03-19,1461,350!2027-07-17,948,330!2027-01-15,771,330!2026-11-11,755,330!2027-12-02,641,412!2028-05-04,771,423!2028-04-07,747,423!2028-04-22,760,423!2026-04-13,136,412!2026-04-08,132,412-->
 
 ```Python
 original = [1, 2, 3]

@@ -20,7 +20,7 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-10-09,736,330!2026-03-26,141,409!2026-03-25,140,409-->
+The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-10-09,736,330!2026-03-26,141,409!2028-05-12,779,429-->
 
 An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2026-09-05,710,330-->
 
@@ -33,7 +33,7 @@ else:
 
 The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-09-16,720,330!2028-04-13,755,429!2028-04-09,751,429-->
 
-In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2028-07-01,1256,350!2026-03-25,140,409-->
+In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2028-07-01,1256,350!2028-05-21,788,429-->
 
 ```Python
 if condition1:
@@ -75,7 +75,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330!2026-03-26,141,409!2026-03-25,140,409!2028-03-14,731,429!2026-03-26,141,409-->
+The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330!2026-03-26,141,409!2028-05-14,781,429!2028-03-14,731,429!2026-03-26,141,409-->
 
 If there are {@{no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2030-05-09,1617,385!2026-06-09,146,428-->
 

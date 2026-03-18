@@ -260,7 +260,7 @@ Because Lisp has {@{no static type system}@}, {@{a value}@} may be {@{any data s
 
 {@{All of Lisp’s data structures}@} are built from {@{cons cells – pairs of pointers – which in turn form lists}@}. Using {@{only lists}@} gives {@{great uniformity}@}: {@{the same representation}@} works for {@{any complex data structures}@}. The downside is that {@{more specialised abstractions (e.g., hash tables or trees)}@} have to be {@{implemented on top of this core}@}. <!--SR:!2026-04-14,70,320!2026-04-12,69,320!2026-04-12,68,320!2026-04-17,74,320!2026-04-12,68,320!2026-04-14,70,320!2026-04-12,69,320!2026-04-12,68,320-->
 
-Finally, {@{treating programs as data}@} enables {@{powerful macro systems and meta-programming}@}. It also means that a program can {@{generate, modify and evaluate other programs at run time}@}. While {@{this feature is very expressive}@}, it makes {@{reasoning about correctness more difficult}@} because a program may {@{change its own structure}@}. <!--SR:!2026-04-12,68,320!2026-03-25,56,310!2026-04-11,68,320!2026-04-14,70,320!2026-04-14,70,320!2026-04-12,68,320-->
+Finally, {@{treating programs as data}@} enables {@{powerful macro systems and meta-programming}@}. It also means that a program can {@{generate, modify and evaluate other programs at run time}@}. While {@{this feature is very expressive}@}, it makes {@{reasoning about correctness more difficult}@} because a program may {@{change its own structure}@}. <!--SR:!2026-04-12,68,320!2026-11-26,246,330!2026-04-11,68,320!2026-04-14,70,320!2026-04-14,70,320!2026-04-12,68,320-->
 
 ## evaluator
 
@@ -342,7 +342,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 > ```
 <!--SR:!2026-04-03,60,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-17,74,320-->
 
-{@{Special forms}@}, which includes {@{`def`, `val`, `if`, `quote`, and `lambda`}@} are {@{handled explicitly}@}; all other lists are {@{treated as ordinary function applications}@}. <!--SR:!2026-04-17,73,320!2026-04-03,59,320!2026-03-25,56,310!2026-04-12,69,320-->
+{@{Special forms}@}, which includes {@{`def`, `val`, `if`, `quote`, and `lambda`}@} are {@{handled explicitly}@}; all other lists are {@{treated as ordinary function applications}@}. <!--SR:!2026-04-17,73,320!2026-04-03,59,320!2026-11-25,245,330!2026-04-12,69,320-->
 
 {@{__`val`__}@} introduces {@{a new binding that is visible for the rest of the expression}@}. It evaluates {@{its body in an environment extended with the new pair}@}. <!--SR:!2026-04-11,68,320!2026-04-12,68,320!2026-04-14,70,320-->
 

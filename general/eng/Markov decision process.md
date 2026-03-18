@@ -74,7 +74,7 @@ The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2027-02-12,545,272!2029-06-07,1219,312-->
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2026-06-08,362,270!2026-09-04,462,312-->
 
-{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2030-08-03,1631,369!2027-11-10,762,329!2030-05-04,1557,369!2030-01-17,1462,369!2026-03-25,140,405!2028-03-14,729,425-->
+{@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2030-08-03,1631,369!2027-11-10,762,329!2030-05-04,1557,369!2030-01-17,1462,369!2028-05-07,774,425!2028-03-14,729,425-->
 
 ### notable variants
 
@@ -90,7 +90,7 @@ Since {@{policy iteration}@} effectively {@{interleaves a linear inverse problem
 
 {@{This variant}@} has the advantage that there is {@{a definite stopping condition}@}. Since there is {@{a unique solution $V$ for each policy $\pi$}@}, {@{the algorithm is completed}@} once {@{the _Policy Improvement_ produces the same policy twice consecutively}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369!2026-03-30,25,402!2026-03-30,25,402-->
 
-While there are situations where {@{policy iteration may be faster than value iteration}@} \(e.g. when {@{the action space is significantly larger than the state space}@}\), policy iteration is {@{usually slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-03-25,27,401!2026-08-11,140,421!2026-03-30,25,402-->
+While there are situations where {@{policy iteration may be faster than value iteration}@} \(e.g. when {@{the action space is significantly larger than the state space}@}\), policy iteration is {@{usually slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-08-21,149,421!2026-08-11,140,421!2026-03-30,25,402-->
 
 #### modified policy iteration
 

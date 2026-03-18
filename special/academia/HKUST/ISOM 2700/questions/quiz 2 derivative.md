@@ -31,7 +31,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2028-02-05,783,330!2026-03-25,266,330-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2028-02-05,783,330!2029-07-12,1205,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -79,7 +79,7 @@ tags:
 > What is its process capability index?
 >
 > - solution: {@{1.25}@}
-> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2026-03-25,268,330!2026-03-26,267,330-->
+> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2029-07-26,1219,350!2026-03-26,267,330-->
 
 <!-- markdownlint MD028 -->
 

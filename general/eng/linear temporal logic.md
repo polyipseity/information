@@ -17,17 +17,17 @@ LTL was first {@{proposed for the [formal verification](formal%20verification.md
 
 ## syntax
 
-LTL is built up from {@{a finite set of [propositional variables](propositional%20variable.md) _AP_, the [logical operators](logical%20connective.md) ¬ and ∨}@}, and {@{the [temporal](temporal%20logic.md) [modal operators](modal%20operator.md) __X__ \(some literature uses __O__ or __N__\) and __U__}@}. Formally, {@{the set of LTL formulas over _AP_}@} is {@{inductively defined as follows}@}: <!--SR:!2026-03-25,374,363!2026-03-26,375,363!2030-01-07,1457,370!2027-01-01,578,343-->
+LTL is built up from {@{a finite set of [propositional variables](propositional%20variable.md) _AP_, the [logical operators](logical%20connective.md) ¬ and ∨}@}, and {@{the [temporal](temporal%20logic.md) [modal operators](modal%20operator.md) __X__ \(some literature uses __O__ or __N__\) and __U__}@}. Formally, {@{the set of LTL formulas over _AP_}@} is {@{inductively defined as follows}@}: <!--SR:!2031-05-01,1863,383!2026-03-26,375,363!2030-01-07,1457,370!2027-01-01,578,343-->
 
 - if _p_ ∈ _AP_ ::@:: then _p_ is an LTL formula; <!--SR:!2031-04-12,1847,383!2029-11-19,1342,363-->
 - if _ψ_ and _φ_ are LTL formulas ::@:: then ¬ψ, φ ∨ ψ, __X__ ψ, and φ __U__ ψ are LTL formulas.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2031-03-05,1816,383!2029-10-26,1409,370-->
 
 __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator -->t and __U__ is read as __u__<!-- markdown separator -->ntil}@}. Other than {@{these fundamental operators}@}, there are {@{additional logical and temporal operators defined in terms of the fundamental operators}@}, in order to {@{write LTL formulas succinctly}@}. The additional logical operators are {@{∧, →, ↔, __true__, and __false__}@}. Following are {@{the additional temporal operators}@}. <!--SR:!2028-04-15,950,350!2026-04-18,394,363!2029-06-29,1293,363!2030-12-11,1751,383!2030-01-27,1477,370!2026-06-21,136,410-->
 
-- __G__ ::@:: for always \(__g__<!-- markdown separator -->lobally\) <!--SR:!2029-06-24,1289,363!2026-03-25,374,363-->
+- __G__ ::@:: for always \(__g__<!-- markdown separator -->lobally\) <!--SR:!2029-06-24,1289,363!2031-04-29,1861,383-->
 - __F__ ::@:: for __f__<!-- markdown separator -->inally <!--SR:!2031-03-17,1827,383!2029-02-28,1211,363-->
 - __R__ ::@:: for __r__<!-- markdown separator -->elease <!--SR:!2026-03-26,375,363!2029-07-18,1307,363-->
-- __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2029-11-20,1343,363!2026-03-25,373,363-->
+- __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2029-11-20,1343,363!2031-04-25,1857,383-->
 - __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2027-11-16,835,350!2029-03-26,1229,357-->
 
 ## semantics
@@ -40,7 +40,7 @@ An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequenc
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2029-03-18,1226,363!2026-04-07,385,363-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2029-06-29,1220,350!2027-09-25,776,343-->
 
-We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2030-01-15,1465,370!2026-04-18,394,363!2026-04-24,399,363!2031-03-08,1818,383!2030-09-26,1675,370!2027-01-04,569,330!2026-03-25,374,363-->
+We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2030-01-15,1465,370!2026-04-18,394,363!2026-04-24,399,363!2031-03-08,1818,383!2030-09-26,1675,370!2027-01-04,569,330!2031-04-30,1862,383-->
 
 The additional logical operators are defined as follows:
 

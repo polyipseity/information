@@ -19,7 +19,7 @@ tags:
 
 > {@{![star-mesh transform](../../archives/Wikimedia%20Commons/Star-mesh%20transform.svg)}@} <!--SR:!2029-01-29,1097,350-->
 
-{@{The equivalent impedance betweens nodes A and B}@} is given by: {@{$$z_{\text{AB} }=z_{\text{A} }z_{\text{B} }\sum {\frac {1}{z} },$$}@} where {@{$z_{\text{A} }$ is the impedance between node A and the central node being removed}@}. <!--SR:!2026-03-25,286,330!2026-03-26,287,330!2028-03-22,786,330-->
+{@{The equivalent impedance betweens nodes A and B}@} is given by: {@{$$z_{\text{AB} }=z_{\text{A} }z_{\text{B} }\sum {\frac {1}{z} },$$}@} where {@{$z_{\text{A} }$ is the impedance between node A and the central node being removed}@}. <!--SR:!2029-10-21,1306,350!2026-03-26,287,330!2028-03-22,786,330-->
 
 The transform {@{replaces _N_ resistors with ${\frac {1}{2} }N(N-1)$ resistors}@}. For {@{$N>3$, the result is an increase in the number of resistors}@}, so {@{the transform has no general inverse without additional constraints}@}. <!--SR:!2029-01-28,1096,350!2029-05-28,1192,350!2029-02-25,1118,350-->
 
