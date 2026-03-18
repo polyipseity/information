@@ -622,25 +622,25 @@ def test_topic_note_redundant_filename_prefix():
         "  - Poisson approximation / statement ::@:: details\n"
     )
     assert not topic_note_redundant_filename_prefix(
-        make_ctx(good, Path("/tmp/course/discrete distributions.md"))
+        make_ctx(good, Path("/tmp/course/discrete distribution.md"))
     )
 
     bad_top = (
         "Flashcards for this section are as follows:\n\n"
-        "- discrete distributions / definition ::@:: details\n"
+        "- discrete distribution / definition ::@:: details\n"
     )
     msgs_top = topic_note_redundant_filename_prefix(
-        make_ctx(bad_top, Path("/tmp/course/discrete distributions.md"))
+        make_ctx(bad_top, Path("/tmp/course/discrete distribution.md"))
     )
     assert msgs_top and msgs_top[0].rule_id == "topic_note_redundant_filename_prefix"
 
     bad_nested = (
         "Flashcards for this section are as follows:\n\n"
         "- Poisson approximation\n"
-        "  - discrete distributions / Poisson approximation / statement ::@:: details\n"
+        "  - discrete distribution / Poisson approximation / statement ::@:: details\n"
     )
     msgs_nested = topic_note_redundant_filename_prefix(
-        make_ctx(bad_nested, Path("/tmp/course/discrete distributions.md"))
+        make_ctx(bad_nested, Path("/tmp/course/discrete distribution.md"))
     )
     assert (
         msgs_nested and msgs_nested[0].rule_id == "topic_note_redundant_filename_prefix"
