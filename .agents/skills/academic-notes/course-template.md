@@ -4,12 +4,13 @@ This template follows the practical layout used in exemplar course pages (for ex
 
 Key patterns to follow (seen in the examples):
 
-- Provide multiple `aliases:` forms (with/without spaces, with/without `index`, and with the institution prefix) so note pages are easily discoverable.
+- Provide multiple `aliases:` forms (with/without spaces, with/without `index`, and with the institution prefix) so note pages are easily discoverable. For course index pages, include the course code in both spaced and concatenated forms, plus the institution-prefixed forms, and keep the list alphabetically sorted.
 - Use `tags:` with the course code using an underscore (e.g., `COMP_3031`) for flashcard activation and include `language/in/<LANGUAGE>`.
 - Include the short line "The content is in teaching order." under the course `name` (this appears in the examples and makes ordering explicit).
 - Keep `children:` ordered and include `assignments/` immediately after `children` (and before sessions); attachments and questions may follow.  A `lectures/` folder is optional and usually unnecessary because session entries live directly in the index page.
 - Use a nested grading `scheme:` block and include exam metadata such as `venue:` and `format:` (e.g., `cheatsheet`, `open book`) when applicable.
 - Use session `status:` fields for cancellations/unscheduled/online notes and add `::@::` takeaways for flashcard generation.
+- If you consult the academic-notes Wikipedia helper, use it only to discover canonical general titles. Course notes and topic notes still live under `special/academia/...`, not under `general/`.
 
 See SKILL.md in this folder for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
 
@@ -18,6 +19,7 @@ See SKILL.md in this folder for concrete snippets and validated frontmatter exam
 - Keep the code block strictly machine-readable: frontmatter and topical entries belong inside the fenced `markdown` block only. ❗
 - Add human-readable guidance and style notes *outside* the fenced block (below the block) so they are not copied into course pages. ✅
 - Use `COMP_3031` (underscore) for flashcard activation tags in `tags:`; in prose use the spaced form `COMP 3031` as the visible heading. 🔖
+- Keep course-index aliases comprehensive: spaced course code, concatenated course code, each with `index`, and institution-prefixed variants. Topic-note aliases are different: use canonical topic terms and genuine singular/plural synonyms only. 🏷️
 - For repeated sessions in one week, use numbered subheadings: `lecture 1`, `lecture 2`, `lab 1`, `lab 2`, etc. 🔁
 - Include a one-line `::@::` takeaway per topic for flashcard generation; keep takeaways short and actionable (one sentence or fragment). ✍️
 - Use underscore for emphasis in course notes: `_italic_`, `__bold__` (not `*`/`**`); see SKILL.md. ✒️
@@ -46,9 +48,13 @@ See SKILL.md in this folder for concrete snippets and validated frontmatter exam
 ---
 aliases:
   - <course code>
+  - <coursecodewithoutspace>
   - <course code> index
+  - <coursecodewithoutspace> index
   - <institution> <course code>
+  - <institution> <coursecodewithoutspace>
   - <institution> <course code> index
+  - <institution> <coursecodewithoutspace> index
 tags:
   - flashcard/active/special/academia/<institution>/<course code>
   - function/index

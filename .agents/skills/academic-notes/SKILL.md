@@ -15,7 +15,7 @@ This document explains how to author, validate, and maintain academic course not
 3. **Structured metadata**: every file starts with a `---` YAML block. Use ISO‑8601 datetimes, maintain `children:` lists in indexes, add activation tags (`flashcard/active/special/academia/...`), and keep semester headings chronological. The validator enforces these rules and will report any violations as errors.
    - The validator’s output now includes the exact line (and column when available) where a problem was detected, along with a short preview of the offending line, making it much easier to locate and fix issues quickly. The preview highlights the precise column range using carets (`^`), and long lines are truncated with ellipses so the marker remains in view. The length of the snippet is automatically limited to fit within your terminal width (accounting for the leading `preview:` indentation).
 4. **Session ordering**: lectures/labs/tutorials ordered by the `datetime:` interval; all exams go after regular sessions. Duplicate week numbers around holidays require manual renumbering plus a no-class entry; use `status: public holiday: <name>` when the holiday is known, or `status: no class` for breaks. Omit `topic:` on no-class days. Entries with `status: unscheduled` must omit `topic:`.
-5. **Continuous improvement**: record new rules, bugs, or user preferences in `continuous_improvement.md` and update this document accordingly. Feedback drives evolution of the skill; see the **Continuous improvement** section below for the full workflow.
+5. **Continuous improvement**: treat the authoritative skill files as the destination, not as a summary of some other log. When a task reveals a durable new rule, example, or validator expectation, fold it directly into this document, `course-template.md`, the academic-notes instructions, and tests when relevant. Use transient notes only as a staging area; do not let a long sidecar “learning log” become the real source of truth.
 6. **Math formatting**: never place math in fenced code blocks. Use LaTeX inline (`$…$`) or display (`$$…$$`) notation for all formulas; this applies equally to examples in topic notes and session outlines. **Exception — accounting courses:** do **not** use LaTeX in accounting notes; use plain text, plain numbers, and plain symbols (e.g. ×, −, ÷) for formulas and amounts.
    - **Dollar delimiters only.**  Do not use `\[`, `\]`, `\(` or `\)`; all LaTeX must be wrapped in `$…$` or `$$…$$`.
    - **One line only.**  Whether inline or display math, the source between the delimiters must not contain a newline.  In particular, display formulas must use `$$` but stay on a single markdown line.
@@ -47,6 +47,8 @@ When ingesting content from a new lecture (e.g. transcript or slides), **before 
 2. **Enhancement**: If the new content extends, clarifies, or deepens existing material, **enhance the existing note**: add or revise prose in the relevant section, and add or update flashcards there. Then add **section links** from the session to those sections. Do not create a separate “part 2” note for the same topic.
 3. **New**: Create a **new topic note** (and new journal-entry sections if applicable) only when there is **no or little overlap** with existing notes—i.e. the lecture introduces a distinct concept that does not already have a suitable home.
 
+Also be proactive about note structure: if a lecture introduces a cluster of related concepts that would be clearer as a durable, linkable concept page rather than a pile of session bullets, suggest or create a topic-specific note in the course folder and route the session to it with § links.
+
 This keeps the knowledge base single-source: one place per concept, with the index and § links directing learners to the right section. When in doubt, prefer enhancing an existing note and adding section links over creating another note that overlaps.
 
 ### Pre‑commit checklist
@@ -54,7 +56,7 @@ This keeps the knowledge base single-source: one place per concept, with the ind
 Before committing any new or changed course note, run through these items.  This checklist complements the authoring steps above and ensures metadata, chronology, and flashcards are all in place.
 
 - YAML frontmatter present and delimited by `---` at the top of the file.
-- `aliases` include canonical course code(s) and human-readable names; tags include `flashcard/active/special/academia/<institution>/<course code>/<page>` and where appropriate `function/index` and `language/in/English`. `<page>` mirrors the relative path to the course folder with underscores and should not be percent‑encoded. Validators flag missing or malformed tags; report missing tags in review rather than bulk-editing existing files.
+- `aliases` are complete and sorted. For course index pages, include the course code with and without spaces, each with and without an `index` variant, plus the institution-prefixed forms; for topic notes, include the canonical term and its genuine synonyms, usually in both singular and plural forms. Tags include `flashcard/active/special/academia/<institution>/<course code>/<page>` and where appropriate `function/index` and `language/in/English`. `<page>` mirrors the relative path to the course folder with underscores and should not be percent‑encoded. Validators flag missing or malformed tags; report missing tags in review rather than bulk-editing existing files.
 - Do **not** create, modify or edit files under `general/` – only work inside the course folder.
 - Index files: `# index` header and a `## children` list or `children:` YAML key with child pages in teaching order (folders first). After the course list (e.g. `- name:`, `- credits:`) insert a horizontal rule `---` before the course description paragraph. Use ISO datetimes for week entries and ensure they have `datetime` and, unless the session is a no-class day or `status: unscheduled`, `topic`.
 - Check that lecture/lab/tutorial entries are chronological and exams are placed last. **Run the validator only on the specific course directory you are editing rather than the entire institution tree** (e.g. `uv run .agents/skills/academic-notes/check.py special/academia/HKUST/ELEC\ 1100`); running it on `special/academia/HKUST/` will produce too many unrelated errors. Fix any errors returned.
@@ -153,7 +155,9 @@ These examples illustrate proper indentation and the two-sided QA list format. T
 
 ## Topic-specific notes
 
-When a lecture topic deserves its own dedicated page — either because it is broad, gets revisited, or should be linkable from multiple sessions — create a new Markdown file inside the course directory. **Flashcards in topic notes** (other than `journal entries.md`): use only two-sided (::@::) or, very rarely, one-sided (:@:) cards; do **not** add cloze deletions in the prose. Add more QA flashcards as needed instead of clozes. **Create the file empty first** (use a normal, unescaped filename with spaces; links will be percent-encoded later) and then add content in separate edit operations. When subsequently editing a topic note, each commit should target exactly one markdown section or add exactly one new section so that diffs remain precise and reviewable.
+When a lecture topic deserves its own dedicated page — either because it is broad, gets revisited, or should be linkable from multiple sessions — create a new Markdown file inside the course directory. **Flashcards in topic notes** (other than `journal entries.md`): use only two-sided (::@::) or, very rarely, one-sided (:@:) cards; do **not** add cloze deletions in the prose. Add more QA flashcards as needed instead of clozes. **Create the file empty first** (use a normal, unescaped filename with spaces; links will be percent-encoded later) and then add content in separate edit operations. Keep each focused edit scoped to one markdown section or one new section when practical so that diffs remain precise and reviewable.
+
+If you use `find_wikipedia.py`, use it to discover the canonical general concept title only. Do **not** follow any implied `general/` path for course-note placement: topic-specific course notes always belong under `special/academia/<INSTITUTION>/<COURSE>/`, typically with lowercase filenames.
 
 These **topic notes** are written in a neutral, encyclopaedic style rather than as a bulleted outline. Think of them as miniature Wikipedia articles: use smooth prose, organise the text with headings, and split material into logical sections. Use **subsections** (### under ##) where it improves hierarchy (e.g. “switches and current path” and “hazards” under “four-switch topology”; “saturation and transistor types” and “base voltage pattern” under “building an H-bridge”). Each ### gets its own prose and flashcard block; the same rule applies if you introduce even deeper headings (####, etc.). If a ### is very short (one paragraph and one or two flashcards), consider merging it into an adjacent related ### to avoid an overly fragmented outline.
 
@@ -303,29 +307,25 @@ uv run .agents/skills/academic-notes/check.py "special/academia/HKUST/ELEC 1100"
 
 The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `bun run format`, `bun run check`, and `bun run test` with explicit paths to your changed files so the commands execute quickly.
 
-The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and report any bugs or feature requests in `continuous_improvement.md` or the Continuous improvement section below.
+The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and fold stable improvements back into the authoritative skill files rather than relying on a separate running log.
 
 ## Continuous improvement
 
-The skill evolves with real course content. Record every new pattern, validator failure, or user preference in `continuous_improvement.md` (with date and a one-sentence description); consider whether the rule or clarification should be added to this document. Maintainers should review the log periodically. When the log gets too long, fold learnings into the skill docs (this file, `course-template.md`, or academic-notes instructions), then remove the incorporated entries from the log so it stays a short, current list; git history preserves provenance.
+The skill evolves with real course content, but the enduring guidance should live here and in the sibling authoritative docs, not in a sprawling sidecar file. When a task reveals a reusable lesson, either (a) update this document, `course-template.md`, the academic-notes instructions, and any relevant validator tests in the same task, or (b) explicitly conclude that no durable documentation change is needed. Git history and review discussion already preserve provenance, so do not maintain a duplicate long-form archive of lessons inside the skill folder.
 
 Whenever a user requests changes to academic notes, treat continuous learning as part of the task rather than an optional afterthought: perform a short review of whether the request reveals a reusable lesson, and either record/incorporate that lesson or explicitly conclude that no documentation update is needed.
 
 ### Workflow for agents
 
-1. **Gather examples** — When you encounter a pattern, bug, author question, or user feedback related to `special/academia`, save a snippet or run the validator in `--content` mode. Log each incident in `continuous_improvement.md` with a date and a one-sentence description. Include privacy concerns, formatting quirks, or template ideas.
-2. **Document the change** — Decide where the information belongs: new idiom, normalization or regex → add to this document (e.g. Session and index rules, Topic-specific notes) or a dedicated doc if the skill later adds one (e.g. patterns.md). Short samples or explanations → add to this document’s examples or a dedicated examples doc. Repeated author behaviour or gotcha → note it in the Pre‑commit checklist or a checklist doc. Always write prose directed at the human reader; the validator can be extended later if needed.
+1. **Gather examples** — When you encounter a pattern, bug, author question, or user feedback related to `special/academia`, save a snippet or run the validator in `--content` mode. Include privacy concerns, formatting quirks, or template ideas in your task notes or review notes.
+2. **Document the change** — Decide where the information belongs: new idiom, normalization, or reusable convention → add it directly to this document, `course-template.md`, or the academic-notes instructions. Short examples → add them to the relevant section here. Repeated structural issue → teach the validator. Always write prose directed at the human reader; the validator can be extended later if needed.
 3. **Teach the validator** — If the issue is structural or recurring, add a rule to `check_mods/rules.py` and cover it with a unit test under `tests_a7392be/check_mods/` so future runs catch it automatically.
 4. **Verify impact** — Run the validator on the affected files (or the whole tree). If the skill maintains an issue-frequency report, regenerate it so you can watch counts drop after your fix lands.
-5. **Submit a focused PR** — Bundle only the documentation, tests, and any normalization patches required to address the issue. Keep diffs reviewable; avoid broad regex respells unless you have explicit owner approval. In the PR description list which content files will be affected when the change is deployed.
+5. **Keep the change focused** — Bundle only the documentation, tests, and any normalization patches required to address the issue. Keep diffs reviewable; avoid broad regex respells unless you have explicit owner approval.
 
-**Best practices:** Prefer advisory `--content` warnings when unsure; they are nonblocking and educate authors without causing failures. Always update the skill docs (this file and related skill files) as the authoritative reference; use the feedback log for incidents and process notes. Record unusual decisions in the feedback log or a GitHub issue rather than cluttering the main docs.
+**Best practices:** Prefer advisory `--content` warnings when unsure; they are nonblocking and educate authors without causing failures. Always update the skill docs (this file and related skill files) as the authoritative reference. Record unusual one-off decisions in task discussion or repository memory rather than cluttering the main docs.
 
 **Example:** You notice several courses missing flashcard tags during a browse of `special/academia`. Add a new pattern and checklist item for mandatory flashcard tags; write a small test that flags absent tags. After merging, run the validator (and any issue-frequency report) to confirm the count has dropped.
-
-### Provenance and folding the log
-
-New feedback and incidents go in `continuous_improvement.md` (date + short description). When the log is long, fold learnings into this file, `course-template.md`, or academic-notes instructions and remove those entries from the log; git history keeps provenance.
 
 ### Extending the validator
 
@@ -366,10 +366,10 @@ If you encounter a structural issue the existing checks do not catch, you can ad
    verify the behaviour and adjust error messages as needed.  Commit both the
    rule and its tests together so CI can catch regressions.
 
-4. **Document the change.**  Optionally update this SKILL.md section or
-   `continuous_improvement.md` with a brief rationale.  New rules are a
-   permanent part of the course‑notes grammar, so explain why the check is
-   needed and what to do when it fires.
+4. **Document the change.**  Update this SKILL.md section, the academic-notes
+   instructions, or `course-template.md` with a brief rationale when needed.
+   New rules are a permanent part of the course‑notes grammar, so explain why
+   the check is needed and what to do when it fires.
 
    The previous example of adding the ‘section_example_heading’ rule (which
    flags headings containing the word “example”) came from exactly this

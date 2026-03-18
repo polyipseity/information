@@ -54,7 +54,7 @@ Invoke the skill when the user asks to “add flashcards”, “cloze this”, �
 
 ## Continuous improvement
 
-- (See the companion file `continuous_improvement.md` for a standalone summary and quick reference; keep it sync'd when the main section evolves.)
+- Keep durable flashcard lessons in this document (and, for course notes under `special/academia`, in the `academic-notes` skill) rather than maintaining a separate sidecar learning log that drifts out of sync.
 - After suggesting clozes, ask “which deletions are wrong?” or “would you prefer Q/A instead of inline cloze?”  Use corrections to expand the examples or add rules.  When the user states “this is my style”, treat it as a high‑priority rule and immediately encode it in this document, noting which examples or heuristics were updated.
 - Analyse user edits using `git --no-pager diff --word-diff --no-color path/to/file.md`.  Word diffs reveal boundary shifts and merged or expanded clozes; use them as training data and add corresponding examples.
 - Watch for feedback about excessive fragmentation.  Merge adjacent tiny deletions in future and update the rules accordingly.
