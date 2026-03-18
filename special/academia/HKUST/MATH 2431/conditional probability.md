@@ -19,15 +19,19 @@ Flashcards for this section are as follows:
 
 ## conditional probability: definition and multiplication rule
 
-Let $(\Omega, \mathcal{F}, P)$ be a probability space and $B \in \mathcal{F}$ with $P[B] > 0$. Intuitively, $P[A\mid B]$ should describe how likely $A$ is once we know that $B$ has occurred; we should restrict attention to $B$ as the new sample space. Formally, the **conditional probability** of $A$ given $B$ is $P[A\mid B] = P[A \cap B]/P[B]$ for every $A \in \mathcal{F}$. When $A$ and $B$ are mutually exclusive ($A \cap B = \emptyset$), this gives $P[A\mid B] = 0$ whenever it is defined. Rearranging the definition yields the **multiplication theorem** (or product rule) $P[A \cap B] = P[B]\,P[A\mid B]$.
+Let $(\Omega, \mathcal{F}, P)$ be a probability space and $B \in \mathcal{F}$ with $P[B] > 0$. Intuitively, $P[A\mid B]$ should describe how likely $A$ is once we know that $B$ has occurred; we should restrict attention to $B$ as the new sample space. Formally, the **conditional probability** of $A$ given $B$ is $P[A\mid B] = P[A \cap B]/P[B]$ for every $A \in \mathcal{F}$. The condition $P[B]>0$ is essential in this elementary definition: when the conditioning event has probability $0$, the ratio is not defined and one needs more advanced notions than the present notes are using.
+
+When $A$ and $B$ are mutually exclusive ($A \cap B = \emptyset$), this gives $P[A\mid B] = 0$ whenever it is defined. Rearranging the definition yields the **multiplication theorem** (or product rule) $P[A \cap B] = P[B]\,P[A\mid B]$. This identity is useful because it turns a conditional statement back into an ordinary intersection probability, which can then be combined with disjoint decompositions and $\sigma$-additivity.
 
 ---
 
 Flashcards for this section are as follows:
 
 - definition ::@:: For $B \in \mathcal{F}$ with $P[B] > 0$, $P[A\mid B] = P[A \cap B]/P[B]$ for all $A \in \mathcal{F}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why $P[B]>0$ is required ::@:: In the elementary definition $P[A\mid B]=P[A\cap B]/P[B]$, the denominator must be positive; conditioning on a zero-probability event is not handled by this ratio formula.
 - mutually exclusive ::@:: If $A \cap B = \emptyset$ and $P[B] > 0$, then $P[A\mid B] = 0$; once we know $B$ occurs, $A$ is impossible. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - multiplication theorem ::@:: From the definition, $P[A \cap B] = P[B]\,P[A\mid B]$; this is the multiplication theorem (product rule). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why the multiplication theorem matters ::@:: The product rule rewrites a conditional probability as an ordinary intersection probability, so it becomes the bridge between “given that” statements and algebraic manipulations of events.
 
 ## conditional probability as a probability measure
 
@@ -47,6 +51,8 @@ Flashcards for this section are as follows:
 
 Let $B_1,\ldots,B_n \in \mathcal{F}$ with $P[B_j] > 0$ for all $j$, such that $B_j \cap B_k = \emptyset$ for $j \neq k$ and $\bigcup_{j=1}^n B_j = \Omega$. In this situation we say that $(B_j)_{j=1}^n$ is a **finite partition** of $\Omega$: every outcome $\omega \in \Omega$ lies in exactly one of the sets $B_j$, so the events are disjoint and cover the whole space. For any $A \in \mathcal{F}$ we then have the **law of total probability** $P[A] = \sum_{j=1}^n P[B_j]\,P[A\mid B_j]$, obtained by expanding $A$ as a disjoint union $A = \bigcup_{j=1}^n (A \cap B_j)$ and using $\sigma$-additivity together with the multiplication rule $P[A \cap B_j] = P[B_j] P[A\mid B_j]$ for each $j$. Combining the law of total probability with the definition of conditional probability yields **Bayes' theorem**: assuming $P[A]>0$ and $P[B_k]>0$, we obtain $P[B_k\mid A] = \dfrac{P[B_k]\,P[A\mid B_k]}{\sum_{j=1}^n P[B_j]\,P[A\mid B_j]}$ for each $k$. The same formulas hold for countable partitions $(B_j)_{j\in\mathbb{N}}$ with $P[B_j]>0$, with sums extended to $j\in\mathbb{N}$.
 
+Bayes' theorem is best read as a rescaling rule. The factor $P[B_k]$ is the prior weight of hypothesis $B_k$, the factor $P[A\mid B_k]$ measures how compatible the observed evidence $A$ is with that hypothesis, and the denominator is the total probability of seeing $A$ at all. So Bayes' theorem does not invent information; it rebalances the hypotheses after the evidence has been observed.
+
 ---
 
 Flashcards for this section are as follows:
@@ -54,11 +60,14 @@ Flashcards for this section are as follows:
 - partition of Omega ::@:: A family $(B_j)_{j=1}^n$ is a partition of $\Omega$ if the $B_j$ are pairwise disjoint, each has $P[B_j]>0$, and $\bigcup_{j=1}^n B_j = \Omega$, so every outcome lies in exactly one $B_j$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - law of total probability ::@:: If $(B_j)_{j=1}^n$ is a partition of $\Omega$ with $P[B_j]>0$, then for any $A \in \mathcal{F}$ we have $P[A] = \sum_{j=1}^n P[B_j]\,P[A\mid B_j]$, obtained by writing $A = \bigcup_j (A \cap B_j)$ as a disjoint union and using $\sigma$-additivity plus the multiplication rule. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Bayes theorem finite ::@:: Under the same assumptions and $P[A]>0$, Bayes' theorem reads $P[B_k\mid A] = \dfrac{P[B_k]\,P[A\mid B_k]}{\sum_{j=1}^n P[B_j]\,P[A\mid B_j]}$, i.e. posterior = prior $\times$ likelihood divided by the total evidence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why the Bayes denominator appears ::@:: In Bayes' theorem, the denominator $\sum_j P[B_j]P[A\mid B_j]$ is exactly $P[A]$ from the law of total probability, so it normalizes the reweighted hypotheses into genuine posterior probabilities. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - total probability countable ::@:: For a countable partition $(B_j)_{j\in\mathbb{N}}$ with $P[B_j]>0$, the same derivation yields $P[A] = \sum_{j=1}^{\infty} P[B_j]\,P[A\mid B_j]$ and Bayes' theorem with the denominator replaced by an infinite sum over $j\in\mathbb{N}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### diagnostic test for rare disease
 
 Consider a medical test for a marker (or disease) in a population. Let $T$ be the event "test is positive" and $M$ the event "individual has the marker". Suppose the test has sensitivity $P[T\mid M] = 0.99$, specificity $P[T^c\mid M^c] = 0.99$ so that $P[T\mid M^c] = 0.01$, and the prevalence is $P[M] = 0.01$. Bayes' theorem gives $P[M\mid T] = \dfrac{P[T\mid M] P[M]}{P[T\mid M] P[M] + P[T\mid M^c] P[M^c]} = \dfrac{0.99 \cdot 0.01}{0.99 \cdot 0.01 + 0.01 \cdot 0.99} = \tfrac{1}{2}$: even with a highly accurate test, a positive result only implies a $50\%$ chance of actually having the marker when the condition is rare.
+
+The key lesson is the base-rate effect. The test is highly accurate, but the healthy population is so much larger than the diseased population that false positives from the healthy group still contribute substantially to the event $T$. Bayes' theorem forces both true positives and false positives into the denominator, which is why the posterior probability is much lower than a naive “the test is $99\%$ accurate, so the diagnosis is $99\%$ reliable” intuition.
 
 ---
 
@@ -66,3 +75,4 @@ Flashcards for this section are as follows:
 
 - test sensitivity and specificity ::@:: Sensitivity $P[T\mid M]$ is the probability the test is positive given the marker; specificity $P[T^c\mid M^c]$ is the probability the test is negative given no marker. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - test prevalence effect ::@:: With $P[T\mid M]=0.99$, $P[T^c\mid M^c]=0.99$, and prevalence $P[M]=0.01$, Bayes' theorem gives $P[M\mid T] = \tfrac{1}{2}$; rare conditions can make even accurate tests yield many false positives. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why the rare-disease posterior is only $1/2$ ::@:: The denominator counts both true positives and false positives. Here the diseased group is tiny, so the false positives coming from the much larger healthy group are numerous enough to reduce the posterior probability of disease to $1/2$ despite the test's $99\%$ sensitivity and specificity.

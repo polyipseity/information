@@ -250,3 +250,4 @@ The content is in teaching order.
 
 - datetime: 2026-03-20T13:30:00+08:00/2026-03-20T14:50:00+08:00
 - venue: Room 6573, near Lifts 29–30
+- [questions § midterm review](questions.md#midterm%20review)
