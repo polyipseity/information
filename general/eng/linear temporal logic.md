@@ -48,7 +48,7 @@ The additional logical operators are defined as follows:
 - implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2029-08-11,1338,357!2030-02-21,1502,370-->
 - material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \(ψ → φ\) <!--SR:!2030-01-02,1452,370!2031-04-24,1858,383-->
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2026-03-27,376,363!2029-06-14,1281,363-->
-- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2026-03-24,372,363!2028-12-30,1161,357-->
+- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2031-04-19,1852,383!2028-12-30,1161,357-->
 
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2029-06-18,1284,363-->
 
@@ -197,7 +197,7 @@ More generally, {@{safety properties}@} are those for which {@{every [counterexa
 <!-- markdownlint-disable-next-line MD036 -->
 __specification language__
 
-{@{One of the applications of linear temporal logic}@} is {@{the specification of [preferences](preference.md)}@} in {@{the [Planning Domain Definition Language](Planning%20Domain%20Definition%20Language.md)}@} for {@{the purpose of [preference-based planning](preference-based%20planning.md)}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2026-03-24,373,363!2030-02-15,1496,370!2030-07-19,1620,370!2030-09-23,1674,370-->
+{@{One of the applications of linear temporal logic}@} is {@{the specification of [preferences](preference.md)}@} in {@{the [Planning Domain Definition Language](Planning%20Domain%20Definition%20Language.md)}@} for {@{the purpose of [preference-based planning](preference-based%20planning.md)}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2031-04-29,1862,383!2030-02-15,1496,370!2030-07-19,1620,370!2030-09-23,1674,370-->
 
 ## extensions
 

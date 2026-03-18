@@ -148,7 +148,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@}; hence it measures {@{how underdamped an oscillator or resonator is}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363!2027-03-11,379,384!2026-03-24,103,384!2026-06-17,126,388!2026-07-24,124,397-->
+> - {@{$Q$}@} is {@{the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md)}@} with {@{damping ratio $\zeta$}@}; hence it measures {@{how underdamped an oscillator or resonator is}@} <!--SR:!2029-05-04,1310,303!2028-12-16,1424,363!2027-03-11,379,384!2027-09-23,548,404!2026-06-17,126,388!2026-07-24,124,397-->
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +158,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!2026-10-23,717,323!2026-11-08,727,323!2026-03-24,103,384!2026-03-24,103,384!2026-07-23,123,397-->
+> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!2026-10-23,717,323!2026-11-08,727,323!2027-09-16,541,404!2027-09-17,542,404!2026-07-23,123,397-->
 
 ## references
 

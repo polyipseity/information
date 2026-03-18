@@ -89,7 +89,7 @@ There exist {@{sample continuous processes $X$ such that $I(\sigma )=\infty$}@};
 >
 > {@{Autocorrelation}@} of {@{a random lacunary Fourier series}@} <!--SR:!2026-04-14,66,310!2026-05-01,81,341!2026-05-04,84,345-->
 
-Its {@{autocovariation function}@} {@{$${\mathbb {E} }[X_{t}X_{t+h}]=\sum _{n=1}^{\infty }c_{n}^{2}\cos \lambda _{n}h$$}@} is {@{nowhere monotone \(see the picture\)}@}, as well as {@{the corresponding function $\sigma$}@}, {@{$$\sigma (h)={\sqrt {2{\mathbb {E} }[X_{t}X_{t}]-2{\mathbb {E} }[X_{t}X_{t+h}]} }=2{\sqrt {\sum _{n=1}^{\infty }c_{n}^{2}\sin ^{2}{\frac {\lambda _{n}h}{2} } } }.$$}@} <!--SR:!2026-04-14,67,328!2026-04-17,58,310!2026-05-02,82,341!2026-05-16,83,341!2026-03-24,38,305-->
+Its {@{autocovariation function}@} {@{$${\mathbb {E} }[X_{t}X_{t+h}]=\sum _{n=1}^{\infty }c_{n}^{2}\cos \lambda _{n}h$$}@} is {@{nowhere monotone \(see the picture\)}@}, as well as {@{the corresponding function $\sigma$}@}, {@{$$\sigma (h)={\sqrt {2{\mathbb {E} }[X_{t}X_{t}]-2{\mathbb {E} }[X_{t}X_{t+h}]} }=2{\sqrt {\sum _{n=1}^{\infty }c_{n}^{2}\sin ^{2}{\frac {\lambda _{n}h}{2} } } }.$$}@} <!--SR:!2026-04-14,67,328!2026-04-17,58,310!2026-05-02,82,341!2026-05-16,83,341!2026-07-19,117,305-->
 
 ## Brownian motion as the integral of Gaussian processes
 

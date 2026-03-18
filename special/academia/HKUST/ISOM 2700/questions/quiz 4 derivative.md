@@ -96,7 +96,7 @@ tags:
 > ---
 >
 > - solution: {@{27.43%}@}
-> - explanation: {@{Find the standard z-score: $$z = \frac {(20 - 1) - 25} {10} = -0.6 \,.$$ The corresponding fractile is 0.2743.}@} <!--SR:!2026-03-24,193,310!2026-06-19,277,330-->
+> - explanation: {@{Find the standard z-score: $$z = \frac {(20 - 1) - 25} {10} = -0.6 \,.$$ The corresponding fractile is 0.2743.}@} <!--SR:!2028-06-29,828,330!2026-06-19,277,330-->
 
 ---
 

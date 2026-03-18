@@ -90,7 +90,7 @@ tags:
 > What is the maximum standard deviation to ensure a process capability index of 2?
 >
 > - solution: {@{0.025&nbsp;cm}@}
-> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2026-03-24,267,330!2027-11-20,729,330-->
+> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2029-07-21,1215,350!2027-11-20,729,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2026-03-24,265,330!2027-02-17,472,310-->
+> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2028-08-12,872,330!2027-02-17,472,310-->
 
 <!-- markdownlint MD028 -->
 

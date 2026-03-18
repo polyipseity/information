@@ -80,7 +80,7 @@ _Example_: a machine costing £45 000 with no residual value bought on 10 Jun
 
 For assets bought or sold mid‑year, companies may adopt one of several _fractional‑year rules_ to prorate depreciation. Each method balances simplicity against accuracy, with firms choosing based on accounting policy or regulatory guidance.
 
-- _Nearest fraction of a year_ ::@:: – the period is rounded to the nearest whole fraction (e.g., 6⅔ months for 10 June), using that proportion of the annual charge; <!--SR:!2026-11-10,241,330!2026-03-24,61,310-->
+- _Nearest fraction of a year_ ::@:: – the period is rounded to the nearest whole fraction (e.g., 6⅔ months for 10 June), using that proportion of the annual charge; <!--SR:!2026-11-10,241,330!2026-12-14,265,330-->
 - _Nearest full month_ ::@:: – each month counts as one‑twelth of a year, so the depreciation for a purchase on 10 June would be $\frac{7}{12}$ of the yearly amount; <!--SR:!2026-12-01,255,330!2026-12-06,259,330-->
 - _Half‑year rule_ ::@:: – the asset is treated as if it had been in service for exactly six months regardless of the actual acquisition date, simplifying calculation but potentially overstating or understating depreciation; <!--SR:!2026-11-18,243,330!2026-11-04,236,330-->
 - _Full year in acquisition, none in disposal_ ::@:: – a new asset receives a full yearly charge even though it was only owned part‑time, while an asset sold before year’s end receives no depreciation for that period; <!--SR:!2026-09-11,178,310!2026-11-15,245,330-->
