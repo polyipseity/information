@@ -865,7 +865,8 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
-    if name == "index.md" or name == "questions.md":
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if name == "index.md" or name == "questions.md" or "questions" in parent_parts:
         return errors
     for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
@@ -905,7 +906,8 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
-    if name == "index.md" or name == "questions.md":
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if name == "index.md" or name == "questions.md" or "questions" in parent_parts:
         return errors
     for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
@@ -1390,9 +1392,14 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
         start_idx = m.start()
         if start_idx > 0:
             prev_char = text[start_idx - 1]
-            # opening parenthesis is acceptable (common in e.g. "($x$"),
-            # so we treat it as a non-error even though there is no space.
-            if prev_char not in " \n(" and not prev_char.isspace():
+            # opening parenthesis or opening brace is acceptable
+            # (common in e.g. "($x$" or "{@{ $x$"), so we treat it
+            # as a non-error even though there is no space.
+            if (
+                prev_char not in " \n"
+                and not prev_char.isspace()
+                and prev_char not in punctuation
+            ):
                 line, col, col_end = locate_range(ctx.text, start_idx, 1)
                 errors.append(
                     ValidationMessage(
@@ -1432,6 +1439,7 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
                 next_char not in " \n"
                 and not next_char.isspace()
                 and next_char not in punctuation
+                and next_char != "}"
             ):
                 line, col, col_end = locate_range(ctx.text, end_idx, 1)
                 errors.append(
@@ -1550,6 +1558,42 @@ def no_control_characters(ctx: ValidationContext) -> list[ValidationMessage]:
             ValidationMessage(
                 rule_id="no_control_characters",
                 msg=f"control character {hexcode} detected; remove or replace it",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def no_smart_double_quotes(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ban smart double quotes; require normal ASCII double quotes."""
+    errors: list[ValidationMessage] = []
+    for m in re.finditer(r"[\u201C\u201D]", ctx.text):
+        line, col, col_end = locate_range(ctx.text, m.start(), 1)
+        errors.append(
+            ValidationMessage(
+                rule_id="no_smart_double_quotes",
+                msg='smart double quotes are not allowed; use normal ASCII double quotes (").',
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def no_smart_single_quotes(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ban smart single quotes/apostrophes; require normal ASCII single quote."""
+    errors: list[ValidationMessage] = []
+    for m in re.finditer(r"[\u2018\u2019]", ctx.text):
+        line, col, col_end = locate_range(ctx.text, m.start(), 1)
+        errors.append(
+            ValidationMessage(
+                rule_id="no_smart_single_quotes",
+                msg="smart single quotes are not allowed; use normal ASCII single quote (').",
                 line=line,
                 col=col,
                 col_end=col_end,
@@ -1790,7 +1834,11 @@ def topic_note_redundant_filename_prefix(
 
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
-    if name in {"index.md", "questions.md", "journal entries.md"}:
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name in {"index.md", "questions.md", "journal entries.md"}
+        or "questions" in parent_parts
+    ):
         return errors
 
     stem = ctx.path.stem
@@ -1946,6 +1994,177 @@ def qa_multiple_separators(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+def _scan_cloze_tokens(
+    text: str,
+) -> tuple[
+    list[tuple[str, int]],
+    list[tuple[int, int]],
+    list[int],
+    list[int],
+    list[int],
+]:
+    """Scan cloze tokens and return token stream with structural diagnostics.
+
+    Returns:
+      - tokens: list of ("open"|"close", absolute_index)
+      - spans: matched cloze spans as (open_index, close_index)
+      - unmatched_open: opening token indices left unclosed
+      - unmatched_close: closing token indices without opening
+      - nested_open: opening token indices encountered while already inside a cloze
+    """
+    tokens: list[tuple[str, int]] = []
+    spans: list[tuple[int, int]] = []
+    stack: list[int] = []
+    unmatched_close: list[int] = []
+    nested_open: list[int] = []
+
+    i = 0
+    n = len(text)
+    while i < n:
+        if text.startswith("{@{", i):
+            if stack:
+                nested_open.append(i)
+            stack.append(i)
+            tokens.append(("open", i))
+            i += 3
+            continue
+        if text.startswith("}@}", i):
+            tokens.append(("close", i))
+            if stack:
+                spans.append((stack.pop(), i))
+            else:
+                unmatched_close.append(i)
+            i += 3
+            continue
+        i += 1
+
+    unmatched_open = stack.copy()
+    return tokens, spans, unmatched_open, unmatched_close, nested_open
+
+
+@RULE_REGISTRY.register()
+def cloze_open_close_matching(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check that cloze openings '{@{' and closings '}@}' match in order/count."""
+    errors: list[ValidationMessage] = []
+    _, _, unmatched_open, unmatched_close, _ = _scan_cloze_tokens(ctx.text)
+
+    for idx in unmatched_open:
+        line_no, col_no = locate(ctx.text, idx)
+        _, _, col_end = locate_range(ctx.text, idx, 3)
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_open_close_matching",
+                msg="unmatched cloze opening '{@{' (missing matching '}@}').",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+
+    for idx in unmatched_close:
+        line_no, col_no = locate(ctx.text, idx)
+        _, _, col_end = locate_range(ctx.text, idx, 3)
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_open_close_matching",
+                msg="unmatched cloze closing '}@}' (no preceding '{@{').",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_wrong_closing_token(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check for wrong cloze close token '}}' where '}@}' is required."""
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+
+    depth = 0
+    i = 0
+    n = len(text)
+    while i < n:
+        if text.startswith("{@{", i):
+            depth += 1
+            i += 3
+            continue
+        if text.startswith("}@}", i):
+            depth = max(depth - 1, 0)
+            i += 3
+            continue
+
+        if depth > 0 and text.startswith("}}", i):
+            next_char = text[i + 2] if i + 2 < n else ""
+            # Only flag when it looks like a cloze terminator typo, not generic
+            # LaTeX brace nesting inside the cloze body.
+            if next_char == "" or next_char.isspace() or next_char in ".,;:!?)]":
+                line_no, col_no = locate(text, i)
+                _, _, col_end = locate_range(text, i, 2)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="cloze_wrong_closing_token",
+                        msg="wrong cloze closing token '}}' found; use '}@}' instead.",
+                        line=line_no,
+                        col=col_no,
+                        col_end=col_end,
+                    )
+                )
+            i += 2
+            continue
+        i += 1
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check cloze text does not span newline in markdown source."""
+    errors: list[ValidationMessage] = []
+    _, spans, _, _, _ = _scan_cloze_tokens(ctx.text)
+
+    for start, end in spans:
+        inner = ctx.text[start + 3 : end]
+        if "\n" in inner:
+            line_no, col_no = locate(ctx.text, start)
+            _, _, col_end = locate_range(ctx.text, start, (end + 3) - start)
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_single_line",
+                    msg="cloze content must be on one source line; multiline clozes are not recognized.",
+                    line=line_no,
+                    col=col_no,
+                    col_end=col_end,
+                )
+            )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_no_nested(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check nested clozes are not used."""
+    errors: list[ValidationMessage] = []
+    _, _, _, _, nested_open = _scan_cloze_tokens(ctx.text)
+
+    for idx in nested_open:
+        line_no, col_no = locate(ctx.text, idx)
+        _, _, col_end = locate_range(ctx.text, idx, 3)
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_no_nested",
+                msg="nested cloze detected; fix other cloze matching problems first, since this can be caused by mismatched cloze delimiters.",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+
+    return errors
+
+
 # split the original check into two specific rules; retain a wrapper
 # for backward compatibility.
 
@@ -2004,6 +2223,10 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
         if not content or not next_content:
             continue  # line or next is only blockquote markers (treated as blank)
         if content.startswith("|") or next_content.startswith("|"):
+            continue
+        if re.match(r"^\s*(?:[-*+]\s|\d+\.\s)", content):
+            continue
+        if re.match(r"^\s*(?:[-*+]\s|\d+\.\s)", next_content):
             continue
         abs_idx = body_start + line_start
         line_no, col, col_end = locate_range(text, abs_idx, len(line))

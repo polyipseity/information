@@ -39,7 +39,14 @@ See SKILL.md in this folder for concrete snippets and validated frontmatter exam
 
 - Session entries (lectures, labs, tutorials, exams) may interleave in time. Always list all sessions in strict chronological order. Use dated `datetime` fields to make ordering explicit and machine-readable.
 - For multiple sessions within a week, use numbered subheadings (e.g., `lecture 1`, `lecture 2`, `lab 1`, `lab 2`) and keep them ordered by datetime.
+- When the logistics section names a chosen stream (for example `tutorials: T1B`), the weekly tutorial or lab session metadata should use that chosen stream’s actual venue and time. Do not accidentally reuse another section’s slot metadata in the weekly timeline.
 - For no-class days (holidays, breaks): omit `topic:`; use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day) or `status: no class` for other non-teaching days (e.g. midterm break). Do not put the holiday or status in the section heading (use `## week 3 lecture` or `## week 3 lecture 2`, etc., not `## week 3 (Lunar New Year)` or `## week 3 no class`); see SKILL.md session and index rules.
+
+### questions pages
+
+- If you are quoting or closely transcribing official course-material questions on `questions.md` or on child pages inside `questions/`, prefer markdown blockquotes for each Q&A block and put any clozes inside that blockquote so the flashcard viewer retains the quoted context.
+- If the questions are self-generated repository review prompts rather than official course materials, prefer normal headings and list items instead of blockquotes; flashcards remain optional there.
+- When a single questions page becomes large, prefer folder format: create `questions/index.md` and split the content into smaller child pages such as one file per tutorial week and one file per exam/review collection. Update all incoming links and delete the old monolithic page so there is only one canonical questions location.
 
 ## template content
 

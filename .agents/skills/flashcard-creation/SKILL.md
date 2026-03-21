@@ -106,6 +106,7 @@ The form of the examples above is complemented by a set of practical heuristics,
 - Break long sentences with multiple ideas into separate cards rather than one huge deletion.  Semicolon lists get individual clozes per clause.
 - Split around contrastive conjunctions (`but`, `however`, etc.) and keep conditional connectors (`if`, `when`, etc.) visible unless the condition itself is tested.
 - Default to inline clozes; use `::@::` or `:@:` only if the user requests QA style or an example clearly shows it.
+- When expanding an already-clozed official solution block, do not just add more equation clozes. Prefer a balanced trio of recall targets: what is being counted/conditioned on, why the method applies, and what the final conclusion is. This is especially useful in academic question banks where the formulas are short but the decisive explanatory phrase carries the real memory cue.
 - For simple declarative sentences, consider hiding subject and object separately to yield focused cards.
 - Articles, possessives, prepositions, and qualifiers should be included inside the cloze when they are part of the tested concept.
 - Hide the minimal meaningful semantic unit—adjust if the user later shifts words in or out of the cloze.

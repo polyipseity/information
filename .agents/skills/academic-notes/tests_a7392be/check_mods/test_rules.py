@@ -13,6 +13,10 @@ from check_mods.models import Frontmatter, Severity, ValidationContext
 from check_mods.rules import (
     RULE_REGISTRY,
     aliases_sorted,
+    cloze_no_nested,
+    cloze_open_close_matching,
+    cloze_single_line,
+    cloze_wrong_closing_token,
     folder_link_trailing_slash_rule,
     header_flashcard_presence,
     header_style_rule,
@@ -32,6 +36,8 @@ from check_mods.rules import (
     metadata_tags_present,
     no_control_characters,
     no_lecture_summary,
+    no_smart_double_quotes,
+    no_smart_single_quotes,
     no_soft_wrap_list,
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
@@ -236,6 +242,11 @@ def test_header_flashcard_presence_applies_to_all_levels():
     txt2 = "# Topic\nSome text\n\nTerm ::@:: Definition\n"
     ctx2 = make_ctx(txt2, path=Path("/tmp/file.md"))
     assert not header_flashcard_presence(ctx2)
+
+    # question pages under questions/ are exempt even if they lack per-section flashcard blocks
+    txt3 = "# week 2 tutorial\n\n## official material\n\n> quoted question\n"
+    ctx3 = make_ctx(txt3, path=Path("/tmp/course/questions/week 2 tutorial.md"))
+    assert not header_flashcard_presence(ctx3)
 
 
 @pytest.mark.anyio
@@ -672,19 +683,136 @@ def test_topic_note_redundant_filename_prefix():
         and msgs_title_prefix[0].rule_id == "topic_note_redundant_filename_prefix"
     )
 
+    # question pages under questions/ are exempt from topic-note prompt rules
+    questions_txt = "# week 2 tutorial\n\n- week 2 tutorial ::@:: details\n"
+    assert not topic_note_redundant_filename_prefix(
+        make_ctx(questions_txt, Path("/tmp/course/questions/week 2 tutorial.md"))
+    )
+
 
 def test_latex_spacing_before_paren():
-    """Spacing rule allows '(' before dollar but not letters directly."""
+    """Spacing rule allows '(' and '{' before dollar but not letters directly."""
 
     txt = "This is an equation ($x=1$) in parentheses.\n"
     ctx = make_ctx(txt)
     msgs = latex_spacing_before(ctx)
     assert not msgs, "paren before dollar should be allowed"
 
+    txt = "Cloze {@{$x=1$}@} wrapper.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "opening brace before dollar should be allowed"
+
     txt = "Badexample$x=1$ without space\n"
     ctx = make_ctx(txt)
     msgs = latex_spacing_before(ctx)
     assert msgs, "missing space should be caught even inside text"
+
+    txt = "A-$x$ hyphen punctuation allowed\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "hyphen before dollar should be allowed as punctuation"
+
+    txt = "A,$x$ comma punctuation allowed\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "punctuation before dollar should be allowed"
+
+
+def test_latex_spacing_after_brace():
+    """Spacing-after rule allows closing brace directly after dollar."""
+
+    txt = "Cloze value {@{$x=1$}@} appears.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "closing brace after dollar should be allowed"
+
+    txt = "Bad $x=1$word continuation.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert msgs, "missing space after dollar should be caught for plain text"
+
+    txt = "Okay $x=1$-suffix punctuation.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "hyphen after dollar should be allowed as punctuation"
+
+    txt = "Okay $x=1$,suffix punctuation.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "punctuation after dollar should be allowed"
+
+
+def test_cloze_open_close_matching_rule():
+    """Cloze matching rule should detect unmatched opens/closes."""
+
+    good = make_ctx("Flash {@{ok}@} here.\n")
+    assert not cloze_open_close_matching(good)
+
+    bad_open = make_ctx("Flash {@{missing close\n")
+    msgs = cloze_open_close_matching(bad_open)
+    assert msgs and any("unmatched cloze opening" in m.msg for m in msgs)
+
+    bad_close = make_ctx("Flash stray }@} token.\n")
+    msgs = cloze_open_close_matching(bad_close)
+    assert msgs and any("unmatched cloze closing" in m.msg for m in msgs)
+
+
+def test_cloze_wrong_closing_token_rule():
+    """Wrong close token '}}' should be detected when used as cloze terminator."""
+
+    bad = make_ctx("Text {@{wrong close}} next.\n")
+    msgs = cloze_wrong_closing_token(bad)
+    assert msgs and any("wrong cloze closing token" in m.msg for m in msgs)
+
+    good = make_ctx("Text {@{correct close}@} next.\n")
+    assert not cloze_wrong_closing_token(good)
+
+
+def test_cloze_single_line_rule():
+    """Multiline cloze content should be rejected."""
+
+    bad = make_ctx("Line {@{first\nsecond}@} tail.\n")
+    msgs = cloze_single_line(bad)
+    assert msgs and any("must be on one source line" in m.msg for m in msgs)
+
+    good = make_ctx("Line {@{single line}@} tail.\n")
+    assert not cloze_single_line(good)
+
+
+def test_cloze_no_nested_rule():
+    """Nested clozes should be rejected."""
+
+    bad = make_ctx("Nested {@{outer {@{inner}@} text}@}.\n")
+    msgs = cloze_no_nested(bad)
+    assert msgs and any(
+        "fix other cloze matching problems first" in m.msg for m in msgs
+    )
+
+    good = make_ctx("Flat {@{outer text}@}.\n")
+    assert not cloze_no_nested(good)
+
+
+def test_no_smart_double_quotes_rule():
+    """Smart double quotes should be rejected; ASCII quotes allowed."""
+
+    bad = make_ctx("Bad “quoted” text.\n")
+    msgs = no_smart_double_quotes(bad)
+    assert msgs and any("smart double quotes" in m.msg for m in msgs)
+
+    good = make_ctx('Good "quoted" text.\n')
+    assert not no_smart_double_quotes(good)
+
+
+def test_no_smart_single_quotes_rule():
+    """Smart single quotes should be rejected; ASCII apostrophes allowed."""
+
+    bad = make_ctx("Bad ‘quoted’ and don’t text.\n")
+    msgs = no_smart_single_quotes(bad)
+    assert msgs and any("smart single quotes" in m.msg for m in msgs)
+
+    good = make_ctx("Good 'quoted' and don't text.\n")
+    assert not no_smart_single_quotes(good)
 
 
 def test_latex_spacing_ignore_code():
@@ -785,6 +913,8 @@ def test_no_soft_wrap_paragraph():
         "| a | b |\n|--|--|\n| 1 | 2 |\n",
         ">> | a | b |\n>> |--|--|\n>> | 1 | 2 |\n",
         "> > | x |\n> > |--|\n",
+        "> multipart question:\n>\n> - (a) first part\n> - (b) second part\n",
+        "> Solution:\n>\n> - (a) first answer\n> - (b) second answer\n",
     ]:
         assert not no_soft_wrap_paragraph(make_ctx(good)), (
             "table rows (with or without blockquote) must not be flagged"
