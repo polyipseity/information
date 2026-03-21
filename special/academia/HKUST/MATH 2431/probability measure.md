@@ -69,7 +69,7 @@ Flashcards for this section are as follows:
 
 ### limit properties (continuity)
 
-With the same probability space $(\Omega, \mathcal{F}, P)$ and events $A_j \in \mathcal{F}$, (vi) if $A_1 \subseteq A_2 \subseteq \cdots$ (increasing), then $P[\bigcup_{j=1}^{\infty} A_j] = \lim_{n \to \infty} P[A_n]$ (continuity from below). (vii) If $A_1 \supseteq A_2 \supseteq \cdots$ (decreasing), then $P[\bigcap_{j=1}^{\infty} A_j] = \lim_{n \to \infty} P[A_n]$ (continuity from above).
+With the same probability space $(\Omega, \mathcal{F}, P)$ and events $A_j \in \mathcal{F}$, one says that $(A_n)$ is an _increasing sequence of events_ if $A_1 \subseteq A_2 \subseteq \cdots$, and a _decreasing sequence of events_ if $A_1 \supseteq A_2 \supseteq \cdots$. For such sequences, (vi) if $A_1 \subseteq A_2 \subseteq \cdots$, then $P[\bigcup_{j=1}^{\infty} A_j] = \lim_{n \to \infty} P[A_n]$ (continuity from below). (vii) If $A_1 \supseteq A_2 \supseteq \cdots$, then $P[\bigcap_{j=1}^{\infty} A_j] = \lim_{n \to \infty} P[A_n]$ (continuity from above).
 
 ---
 
@@ -77,3 +77,5 @@ Flashcards for this section are as follows:
 
 - continuity from below ::@:: If $A_1 \subseteq A_2 \subseteq \cdots$ then $P[\bigcup_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - continuity from above ::@:: If $A_1 \supseteq A_2 \supseteq \cdots$ then $P[\bigcap_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- increasing sequence of events ::@:: A sequence $(A_n)$ is increasing if $A_1\subseteq A_2\subseteq\cdots$; then its natural limit event is $\bigcup_{n=1}^{\infty}A_n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- decreasing sequence of events ::@:: A sequence $(A_n)$ is decreasing if $A_1\supseteq A_2\supseteq\cdots$; then its natural limit event is $\bigcap_{n=1}^{\infty}A_n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

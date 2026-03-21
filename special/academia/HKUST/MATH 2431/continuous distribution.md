@@ -11,13 +11,22 @@ tags:
 
 # continuous distribution
 
-A continuous distribution is a probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ that is described by a probability density function. In contrast with discrete laws, probabilities are assigned to intervals by integration and single points have probability $0$. The associated cumulative distribution functions are treated separately in [cumulative distribution function](cumulative%20distribution%20function.md).
+A continuous distribution, in the density-based sense used here, is an absolutely continuous probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$. Here _absolutely continuous_ means that Lebesgue-null sets have probability $0$: if $\lambda(A)=0$, then $\mu(A)=0$. In contrast with discrete laws, probabilities are assigned to intervals by integration and single points have probability $0$. The associated cumulative distribution functions are treated separately in [cumulative distribution function](cumulative%20distribution%20function.md).
+
+More naturally phrased: specifying an absolutely continuous probability measure is equivalent to specifying a probability density function, up to almost-everywhere equality. The derivation can be written in a very concrete course-level way.
+
+Starting from a PDF $f\ge0$ with $\int_{-\infty}^{\infty}f(x)\,dx=1$, define interval probabilities by $\mu_f((a,b])=\int_a^b f(x)\,dx$. By additivity of the integral, these values are compatible with disjoint unions of half-open intervals, and the total mass is $1$. So they determine a probability measure on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$, still denoted by $\mu_f$, satisfying $\mu_f(A)=\int_A f\,d\lambda$ for Borel sets $A$.
+
+Conversely, start from an absolutely continuous probability measure $\mu$ and let $F(x)=\mu(( -\infty,x])$ be its cumulative distribution function. In this case the corresponding CDF is absolutely continuous, so there exists an integrable function $f\ge0$ such that $F(x)=\int_{-\infty}^x f(t)\,dt$ for all $x$. Then for every $a<b$, $\mu((a,b])=F(b)-F(a)=\int_a^b f(x)\,dx$. Thus the density recovers the measure on all half-open intervals, and those intervals generate $\mathcal{B}(\mathbb{R})$, so they recover the whole measure. This also explains why densities are determined only almost everywhere: if two functions give the same interval integrals, then they define the same probability measure.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A continuous distribution on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ assigns probabilities to intervals by integration against a probability density function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- overview ::@:: In the density-based sense, a continuous distribution is an absolutely continuous probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$; it assigns probabilities to intervals by integration against a probability density function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- absolutely continuous probability measure ::@:: A probability measure $\mu$ on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$ is absolutely continuous if $\lambda(A)=0$ implies $\mu(A)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- absolutely continuous probability measures versus PDFs ::@:: Specifying an absolutely continuous probability measure is equivalent to specifying a probability density function, up to almost-everywhere equality.
+- derivation of absolutely continuous probability measure-PDF correspondence ::@:: Forward direction: from a PDF $f$, define $\mu_f((a,b])=\int_a^b f(x)\,dx$, hence a probability measure. Reverse direction: from an absolutely continuous probability measure $\mu$ with CDF $F$, absolute continuity of $F$ gives a function $f\ge0$ with $F(x)=\int_{-\infty}^x f(t)\,dt$, so $\mu((a,b])=F(b)-F(a)=\int_a^b f(x)\,dx$. Since half-open intervals generate $\mathcal{B}(\mathbb{R})$, the two constructions are inverse up to almost-everywhere equality of densities. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## probability density functions
 
@@ -107,7 +116,7 @@ Flashcards for this section are as follows:
 
 For $\lambda > 0$, the _exponential distribution_ $\mathrm{E}(\lambda)$ has density $f(x) = \lambda e^{-\lambda x}\mathbf{1}_{[0,\infty)}(x)$, that is, $f(x)=\lambda e^{-\lambda x}$ for $x\ge 0$ and $f(x)=0$ for $x<0$. It is a valid density because $\int_{-\infty}^{\infty} f(x)\,dx = \int_0^{\infty} \lambda e^{-\lambda x}\,dx = 1$. A standard interpretation is waiting time: the lifetime of a radioactive isotope or the waiting time until a random event occurs is often modeled by an exponential law.
 
-Its most distinctive property is _memorylessness_. If $X \sim \mathrm{E}(\lambda)$ and $s,t \ge 0$, then $P[X > s+t \mid X > s] = P[X > t]$. The intuition is that once one already knows the process has survived until time $s$, the remaining waiting time behaves as if one were starting afresh. This makes the exponential distribution the continuous analogue of the geometric distribution’s lack-of-memory property.
+Its most distinctive property is _memorylessness_. If $X \sim \mathrm{E}(\lambda)$ and $s,t \ge 0$, then $P[X > s+t \mid X > s] = P[X > t]$. The intuition is that once one already knows the process has survived until time $s$, the remaining waiting time behaves as if one were starting afresh. This makes the exponential distribution the continuous analogue of the geometric distribution's lack-of-memory property.
 
 ---
 
@@ -132,3 +141,22 @@ Flashcards for this section are as follows:
 - normal distribution ::@:: The normal distribution $\mathrm{N}(\mu,\sigma^2)$ has density $f(x)=\dfrac{1}{\sqrt{2\pi\sigma^2}}\exp\!\left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - role of $\mu$ and $\sigma^2$ ::@:: In $\mathrm{N}(\mu,\sigma^2)$, $\mu$ is the center of the bell curve and $\sigma^2$ controls its spread.
 - standard normal density ::@:: The standard normal distribution $\mathrm{N}(0,1)$ has density $\varphi(x)=\dfrac{1}{\sqrt{2\pi}}e^{-x^2/2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+
+<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+### Cauchy distribution
+
+For a location parameter $m\in\mathbb{R}$ and scale parameter $a>0$, the _Cauchy distribution_ has density $f(x)=\dfrac{1}{\pi}\dfrac{a}{a^2+(x-m)^2}$ on $\mathbb{R}$.
+
+In the centered case $m=0$, this becomes $f(x)=\dfrac{a}{\pi(a^2+x^2)}$. The tutorial derived this law from a simple geometry model: if a light source sits at distance $a$ from a line, emits rays with angle $\theta\sim\mathrm{U}((-\pi/2,\pi/2))$, and $X=a\tan\theta$ records the hit position on the line, then $X$ has exactly this density. The reason is that the inverse map is $\theta=\arctan(x/a)$ and the derivative factor is $\dfrac{d}{dx}\arctan(x/a)=\dfrac{a}{a^2+x^2}$.
+
+This example is a good reminder that not all familiar continuous laws are bell-shaped or exponentially decaying. The Cauchy density has much heavier tails than the normal density because the tangent map blows up near $\pm\pi/2$: angles close to parallel with the line create very large displacements.
+
+---
+
+Flashcards for this section are as follows:
+
+- Cauchy distribution ::@:: For location $m\in\mathbb{R}$ and scale $a>0$, the Cauchy distribution has density $f(x)=\dfrac{1}{\pi}\dfrac{a}{a^2+(x-m)^2}$ on $\mathbb{R}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- centered Cauchy distribution ::@:: In the centered case $m=0$, the Cauchy density is $f(x)=\dfrac{a}{\pi(a^2+x^2)}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- light-source model for the Cauchy law ::@:: If $\theta\sim\mathrm{U}((-\pi/2,\pi/2))$ and $X=a\tan\theta$, then $X$ has the centered Cauchy density $f(x)=\dfrac{a}{\pi(a^2+x^2)}$. The derivation is: write $X=a\tan\theta$, invert as $\theta=\arctan(x/a)$, compute the CDF $F_X(x)=P(\theta\le\arctan(x/a))=\dfrac{\arctan(x/a)+\pi/2}{\pi}$, and differentiate to get $f_X(x)=F_X'(x)=\dfrac{a}{\pi(a^2+x^2)}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- light-source model derivation for the Cauchy law ::@:: Step 1: use the monotone change of variables $x=a\tan\theta$ with inverse $\theta(x)=\arctan(x/a)$. Step 2: CDF route gives $F_X(x)=P(\theta\le\theta(x))$ and then differentiate. Step 3 (alternative): apply change-of-variables density formula directly, $f_X(x)=f_\Theta(\theta(x))\left|\frac{d\theta}{dx}\right|$ with $f_\Theta=1/\pi$ and $\frac{d\theta}{dx}=\frac{a}{a^2+x^2}$, yielding $f_X(x)=\frac{a}{\pi(a^2+x^2)}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- heavy tails of the Cauchy law ::@:: The Cauchy density has heavy tails because $\tan\theta$ blows up near $\pm\pi/2$, so small angular changes near grazing rays produce very large spatial displacements. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

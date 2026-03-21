@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 
 ## uncountable sample spaces
 
-Some natural experiments have too many outcomes to be listed in a sequence. A lifetime, a waiting time, or an exact location is often modelled by a real interval such as $[0,\infty)$ or $\mathbb{R}$. Even some purely discrete-looking experiments can produce uncountable spaces: the set of all infinite coin-toss sequences, $\{H,T\}^{\mathbb{N}}$, has the cardinality of the continuum. These examples show that “infinitely many outcomes” and “countably many outcomes” are not the same idea.
+Some natural experiments have too many outcomes to be listed in a sequence. A lifetime, a waiting time, or an exact location is often modelled by a real interval such as $[0,\infty)$ or $\mathbb{R}$. Even some purely discrete-looking experiments can produce uncountable spaces: the set of all infinite coin-toss sequences, $\{H,T\}^{\mathbb{N}}$, has the cardinality of the continuum. These examples show that "infinitely many outcomes" and "countably many outcomes" are not the same idea.
 
 ---
 
@@ -70,7 +70,7 @@ Flashcards for this section are as follows:
 
 - infinite coin sequence is uncountable ::@:: The space $\{H,T\}^{\mathbb{N}}$ of infinite coin-toss sequences is uncountable; it has the cardinality of the continuum rather than that of $\mathbb{N}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - lifetime model ::@:: A lifetime or waiting time is naturally modelled on an interval such as $[0,\infty)$, which is uncountable because its points cannot be listed in a sequence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- countably infinite versus uncountable ::@:: The difference is not merely “infinite versus finite”: $\mathbb{N}_0$ is infinite but countable, whereas $[0,\infty)$ and $\{H,T\}^{\mathbb{N}}$ are uncountable, so later we cannot simply treat every subset as an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- countably infinite versus uncountable ::@:: The difference is not merely "infinite versus finite": $\mathbb{N}_0$ is infinite but countable, whereas $[0,\infty)$ and $\{H,T\}^{\mathbb{N}}$ are uncountable, so later we cannot simply treat every subset as an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## countable sets
 

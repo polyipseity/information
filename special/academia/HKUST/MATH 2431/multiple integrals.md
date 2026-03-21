@@ -117,7 +117,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style_rule]: proper noun -->
 ## Jordan nullsets and Jordan-measurable sets
 
-To integrate over non-rectangular domains, the appendix first isolates the right notion of “small boundary.” A set $M\subseteq\mathbb{R}^n$ is a _Jordan nullset_ if for every $\varepsilon>0$ there exist finitely many rectangles covering $M$ whose total volume is less than $\varepsilon$. A bounded set $S\subseteq\mathbb{R}^n$ is _Jordan-measurable_ if its topological boundary $\partial S$ is a Jordan nullset.
+To integrate over non-rectangular domains, the appendix first isolates the right notion of "small boundary." A set $M\subseteq\mathbb{R}^n$ is a _Jordan nullset_ if for every $\varepsilon>0$ there exist finitely many rectangles covering $M$ whose total volume is less than $\varepsilon$. A bounded set $S\subseteq\mathbb{R}^n$ is _Jordan-measurable_ if its topological boundary $\partial S$ is a Jordan nullset.
 
 The key examples are exactly the ones needed in calculus and probability. Every finite set is Jordan null because each point can be covered by a tiny rectangle. Every subset of a Jordan nullset is again Jordan null, and finite unions of Jordan nullsets are Jordan null. In $\mathbb{R}^n$, every $(n-1)$-dimensional rectangle is Jordan null because one can give it an arbitrarily thin thickness in the missing dimension. Also, if $f$ is continuous on a compact set $A$, then its graph $$\Gamma(f)=\{(x,f(x)):x\in A\}\subseteq\mathbb{R}^{n+1}$$ is Jordan null. Intuitively, uniform continuity lets one trap the graph inside finitely many very thin boxes.
 
@@ -150,7 +150,7 @@ Suppose $A\subseteq Q$ where $Q$ is a rectangle and $f\colon A\to\mathbb{R}$ is 
 
 This definition becomes useful because the discontinuities of $\mathbf{1}_Af$ come only from two sources: discontinuities of $f$ inside $A$ and the boundary of $A$ itself. Therefore, if $A$ is bounded and Jordan-measurable and $f$ is bounded with a Jordan-null discontinuity set, then $f$ is Riemann-integrable over $A$. This is the precise mechanism behind integrating over regions bounded by curves or surfaces rather than only over rectangles.
 
-The indicator function should be read as an on/off switch. Inside the target region $A$ it leaves the function unchanged; outside $A$ it kills the contribution completely. So one replaces “integrate over a curved region” by “integrate over a big rectangle, but turn the integrand off outside the region of interest.”
+The indicator function should be read as an on/off switch. Inside the target region $A$ it leaves the function unchanged; outside $A$ it kills the contribution completely. So one replaces "integrate over a curved region" by "integrate over a big rectangle, but turn the integrand off outside the region of interest."
 
 In probability language, this is the step that lets one interpret $$P[(X,Y)\in A]=\int_A f_{X,Y}(x,y)\,d^2x$$ for a joint density and a non-rectangular event region $A$.
 
