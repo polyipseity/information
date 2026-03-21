@@ -19,10 +19,10 @@ from logging import INFO, basicConfig, exception, info
 from operator import ne
 from os import fspath, linesep, lstat
 from pathlib import PurePath
+from shutil import rmtree as _sync_rmtree
 from sys import argv, exit, stdin
 from typing import Any, final
 
-from aioshutil import rmtree
 from anyio import Path
 from appdirs import AppDirs  # type: ignore
 from asyncer import SoonValue, asyncify, create_task_group, runnify
@@ -95,6 +95,7 @@ _LOCAL_APP_DIRS = AppDirs(
     multipath=False,
 )
 _lstat_a = asyncify(lstat)
+_rmtree = asyncify(_sync_rmtree)
 
 
 @final
@@ -134,7 +135,7 @@ async def main(args: Arguments):
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
         ) / str((await _lstat_a(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
-            await rmtree(cache_folder, ignore_errors=False)
+            await _rmtree(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
 
         cache_data_path = cache_folder / "cache.json"

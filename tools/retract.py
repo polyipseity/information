@@ -8,14 +8,14 @@ from logging import INFO, basicConfig, error, info
 from os import cpu_count
 from pathlib import PurePath
 from shlex import quote
+from shutil import which as _sync_which
 from subprocess import DEVNULL, PIPE
 from sys import argv
 from tempfile import NamedTemporaryFile, TemporaryDirectory
 from typing import Any, final
 
-from aioshutil import which
 from anyio import AsyncFile, Path, Semaphore, run_process
-from asyncer import SoonValue, create_task_group, runnify
+from asyncer import SoonValue, asyncify, create_task_group, runnify
 
 _FILE_PATH = PurePath(__file__)
 _NULL_SHA = "0000000000000000000000000000000000000000"
@@ -46,9 +46,9 @@ class Arguments:
         object.__setattr__(self, "refs", tuple(self.refs))
 
 
-@wraps(which)
+@wraps(_sync_which)
 async def _which2(cmd: str) -> str:
-    ret = await which(cmd)
+    ret = await asyncify(_sync_which)(cmd)
     if ret is None:
         raise FileNotFoundError(cmd)
     return ret
