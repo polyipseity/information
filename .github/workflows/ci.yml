@@ -58,7 +58,7 @@ jobs:
     steps:
       # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
       - name: Get token from GitHub App
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349
         id: checkout-app-token
         continue-on-error: true # continue even if private repo access fails
         with:
@@ -70,7 +70,7 @@ jobs:
       # Path A: use the GitHub App token if the producer step succeeded and token is non-empty
       - name: Checkout repository (with app token)
         if: ${{ steps.checkout-app-token.outcome == 'success' && steps.checkout-app-token.outputs.token != '' }}
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           submodules: "recursive" # Ensure submodules are checked out if used
           token: ${{ steps.checkout-app-token.outputs.token }} # private repo access via GitHub App token
@@ -78,7 +78,7 @@ jobs:
       # Path B: fallback to default GITHUB_TOKEN if app token isn't available
       - name: Checkout repository (fallback)
         if: ${{ steps.checkout-app-token.outcome != 'success' || steps.checkout-app-token.outputs.token == '' }}
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         continue-on-error: true # continue even if private repo access fails
         with:
           submodules: false
@@ -125,10 +125,10 @@ jobs:
           EOF
 
       - name: Setup bun
-        uses: oven-sh/setup-bun@v2
+        uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78
 
       - name: Install project
         run: |
