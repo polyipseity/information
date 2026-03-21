@@ -170,6 +170,10 @@ The content is in teaching order.
   - open book: no
   - questions: long question ×4 (with subquestions)
 
+---
+
+Administrative exam notes such as closed-book rules, examinable scope, answer-sheet instructions, or accommodation/contact information may be written here as ordinary prose paragraphs if helpful. They do not need flashcards and do not need to be forced into extra bullet points.
+
 ## final examination
 
 - datetime: 2025-12-15T08:30:00+08:00/2025-12-15T10:30:00+08:00

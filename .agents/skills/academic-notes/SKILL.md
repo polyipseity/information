@@ -118,6 +118,7 @@ Before committing any new or changed course note, run through these items.  This
 - Outline items correspond to flashcard glosses; avoid extra indentation levels. Convert generic headings into specific QA entries or remove them.
 - After the outline, add a prose paragraph preceded by `---` only when it **adds value** (e.g. next-lecture pointer, grading or schedule reminders). Do not duplicate the same content as the index bullets and topic notes; keep session prose short or omit it if the outline and topic links already capture the content.
 - Omit a **lecture summary** flashcard in the index unless it refers to **major grading components** (exams, project milestones); the outline and topic-note links already summarise the lecture.
+- For assessment sections such as `## midterm examination` or `## final examination`, administrative or logistics information (closed-book rules, examinable scope, paper structure, allowed materials, accommodation/contact notes, etc.) should normally be written as ordinary prose paragraphs under the section rather than being forced into bullet-only format. Do **not** turn such logistics into flashcards unless the user explicitly wants memorization-oriented cards.
 - Semester headings in institution indexes must be chronologically ordered; validator warns otherwise.
 
 Once the session outline rules are understood, the next section describes how flashcards themselves are formatted and how to tag them correctly.
