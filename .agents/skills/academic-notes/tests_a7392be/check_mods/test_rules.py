@@ -1169,6 +1169,23 @@ async def test_suppression_duplicate_directives(tmp_path: PathLike[str]):
 
 
 @pytest.mark.anyio
+async def test_suppression_line_next_line_conflict(tmp_path: PathLike[str]):
+    """Ignore-line + ignore-next-line for the same target should emit conflict."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-next-line[unit_outside_math]: planned -->\n"
+        "<!-- check: ignore-line[unit_outside_math]: redundant -->\n"
+        "Value I=5 A is here.\n"
+    )
+    file = Path(tmp_path) / "conflict.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-conflict-line-next-line" for m in msgs)
+    assert not any(m.rule_id == "unit_outside_math" for m in msgs)
+
+
+@pytest.mark.anyio
 async def test_suppression_redundant(tmp_path: PathLike[str]):
     """A suppression for a rule that never fires should be reported as error."""
     text = (
@@ -1181,6 +1198,38 @@ async def test_suppression_redundant(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_suppression_unknown_rule(tmp_path: PathLike[str]):
+    """Directive for a non-existent rule should be reported as an error."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-line[not_a_real_rule]: typo -->\n"
+        "some content here\n"
+    )
+    file = Path(tmp_path) / "unknown.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-non-existent-rule" for m in msgs)
+    assert not any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_file_level_suppression_unknown_rule(tmp_path: PathLike[str]):
+    """File-level suppression for an unknown rule should emit non-existent-rule."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-file[not_a_real_rule]: typo -->\n"
+        "# some page\n"
+    )
+    file = Path(tmp_path) / "unknown_file.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-non-existent-rule" for m in msgs)
+    assert not any(m.rule_id == "suppression-redundant" for m in msgs), msgs
 
 
 @pytest.mark.anyio
