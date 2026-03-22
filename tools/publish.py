@@ -251,12 +251,17 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
     return parser
 
 
-def __main__() -> None:
-    """Entry point for running the script directly."""
+async def main0():
+    """Entry point for running the script directly. Parses CLI arguments and invokes main()."""
     __name__ = _FILE_PATH.stem  # noqa: F841
     basicConfig(level=INFO)
     entry = parser().parse_args(argv[1:])
-    runnify(entry.invoke, backend_options={"use_uvloop": True})(entry)
+    await entry.invoke(entry)
+
+
+def __main__() -> None:
+    """Entry point for running the script directly."""
+    runnify(main0, backend_options={"use_uvloop": True})()
 
 
 if __name__ == "__main__":

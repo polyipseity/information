@@ -137,7 +137,7 @@ def apriori(
     return tuple(all_frequent_sets)
 
 
-if __name__ == "__main__":
+def __main__() -> None:
     print("=========ordered=========")
     result = format_sets(
         reduce(
@@ -190,3 +190,7 @@ crab roe noodle, roast duck, scallop congee
     assert frozenset(expected_str.splitlines()) == frozenset(
         unordered_result.splitlines()
     )
+
+
+if __name__ == "__main__":
+    __main__()

@@ -114,7 +114,7 @@ def write_clipboard_with_fallback(text: str) -> bool:
         return False
 
 
-def main(argv: list[str] | None = None) -> int:
+def main(argv: list[str] | None = None) -> None:
     p = argparse.ArgumentParser(
         description="Parse Markdown tables and produce per-row formatted output."
     )
@@ -149,7 +149,7 @@ def main(argv: list[str] | None = None) -> int:
                 input_text = fh.read()
         except Exception as e:
             print("Error reading input file:", e, file=sys.stderr)
-            return 2
+            return exit(2)
     else:
         if args.clipboard:
             input_text = read_clipboard_with_fallback()
@@ -162,7 +162,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if not input_text or "|" not in input_text:
         print("No Markdown table-like content detected in input.", file=sys.stderr)
-        return 3
+        return exit(3)
 
     rows, markdown_lines = process_markdown_table(input_text)
     output = "\n\n".join(markdown_lines)
@@ -173,7 +173,7 @@ def main(argv: list[str] | None = None) -> int:
                 fh.write(output)
         except Exception as e:
             print("Error writing output file:", e, file=sys.stderr)
-            return 4
+            return exit(4)
 
     if args.copy:
         copied = write_clipboard_with_fallback(output)
@@ -193,8 +193,12 @@ def main(argv: list[str] | None = None) -> int:
     print("# Parsed row objects printed to stderr for debugging:", file=sys.stderr)
     print(json.dumps(rows, ensure_ascii=False), file=sys.stderr)
 
-    return 0
+    return exit(0)
+
+
+def __main__():
+    main()
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    __main__()
