@@ -1,5 +1,6 @@
 """Tests for validator module behaviour related to registries."""
 
+import sys
 from os import PathLike
 
 import check
@@ -197,18 +198,23 @@ async def test_max_per_rule_limit(
 
 
 @pytest.mark.anyio
-async def test_check_entrypoint(tmp_path: PathLike[str]):
+async def test_check_entrypoint(
+    tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+):
     """The `check` CLI wrapper should mirror validator.main behavior."""
     # ensure the thin wrapper around validator.main behaves identically
 
     _path = await make_temp_markdown(tmp_path, "---\naliases: []\ntags: []\n---\n")
+
+    monkeypatch.setattr(sys, "argv", ["check", str(tmp_path)])
     with pytest.raises(SystemExit) as exc_info:
-        await check.main([str(tmp_path)])
+        await check.main()
     assert exc_info.value.code == 2
 
     # verify that passing a markdown file directly also works
+    monkeypatch.setattr(sys, "argv", ["check", str(_path)])
     with pytest.raises(SystemExit) as exc_info2:
-        await check.main([str(_path)])
+        await check.main()
     assert exc_info2.value.code == 2
 
 

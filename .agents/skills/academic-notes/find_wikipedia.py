@@ -375,7 +375,8 @@ def main(argv: list[str] | None = None) -> None:
     return exit(0)
 
 
-def __main__():
+def __main__() -> None:
+    """Synchronous CLI entry point exposed by the package."""
     main()
 
 

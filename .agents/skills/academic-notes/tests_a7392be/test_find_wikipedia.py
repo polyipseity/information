@@ -102,22 +102,25 @@ def test_cli_human_and_json(
     monkeypatch.setattr(find_wikipedia, "_get_extract", stub_extract)
 
     # human readable
-    rc = find_wikipedia.main(["--human", "foo"])
-    assert rc == 0
+    with pytest.raises(SystemExit) as rc:
+        find_wikipedia.main(["--human", "foo"])
+    assert rc.value.code == 0
     captured = capsys.readouterr()
     assert "Foo" in captured.out
 
     # pretty json
-    rc = find_wikipedia.main(["--pretty", "foo"])
-    assert rc == 0
+    with pytest.raises(SystemExit) as rc:
+        find_wikipedia.main(["--pretty", "foo"])
+    assert rc.value.code == 0
     captured = capsys.readouterr()
     # JSON object with query key
     parsed = json.loads(captured.out)
     assert parsed["query"] == "foo"
 
     # default json-lines
-    rc = find_wikipedia.main(["foo"])
-    assert rc == 0
+    with pytest.raises(SystemExit) as rc:
+        find_wikipedia.main(["foo"])
+    assert rc.value.code == 0
     captured = capsys.readouterr()
     # one line per result; must be valid json
     lines = [line for line in captured.out.splitlines() if line.strip()]
@@ -137,12 +140,14 @@ def test_no_results_print(
 
     monkeypatch.setattr(find_wikipedia, "search", empty_search)
     # human mode prints friendly message
-    rc = find_wikipedia.main(["--human", "zzz"])
-    assert rc == 0
+    with pytest.raises(SystemExit) as rc:
+        find_wikipedia.main(["--human", "zzz"])
+    assert rc.value.code == 0
     assert "No Wikipedia results" in capsys.readouterr().out
 
     # json mode prints empty results
-    rc = find_wikipedia.main(["zzz"])
-    assert rc == 0
+    with pytest.raises(SystemExit) as rc:
+        find_wikipedia.main(["zzz"])
+    assert rc.value.code == 0
     output = capsys.readouterr().out
     assert '"results": []' in output
