@@ -64,10 +64,10 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     # <!-- check: ignore-line[rule1, rule2]: rationale -->
     # <!-- check: ignore-next-line[rule1, rule2]: rationale -->
     # <!-- check: ignore-file[rule1, rule2]: rationale -->
-    # Build a map from target line number to list of rule IDs to ignore and a
-    # separate list of file-level suppressions. Also emit a warning if the
-    # rationale is missing or if no rules are listed.
-    suppressions: dict[int, list[str]] = {}
+    # Build a map from target line number to rule IDs and suppression kinds
+    # (line/next-line), and a separate list of file-level suppressions.
+    # Also emit a warning if the rationale is missing or if no rules are listed.
+    suppressions: dict[int, dict[str, set[str]]] = {}
     file_suppressions: list[tuple[str, int]] = []
     for lineno, line in enumerate(text.splitlines(), start=1):
         # gather all suppression directives on this line so we can detect
@@ -124,7 +124,8 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
             else:
                 target = lineno + 1 if kind == "ignore-next-line" else lineno
                 for rid in rule_ids:
-                    suppressions.setdefault(target, []).append(rid)
+                    rid_map = suppressions.setdefault(target, {})
+                    rid_map.setdefault(rid, set()).add(kind)
 
     front = parse_frontmatter(text)
     if not front:
@@ -181,6 +182,47 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
             continue
         errors.extend(results)
 
+    # before we actually apply the suppression filter, validate any rule IDs
+    # in suppression directives.  If a rule ID is not registered then emit a
+    # dedicated non-existent-rule message so users can fix typos.
+    known_rule_ids = {rid for rid, _ in RULE_REGISTRY.items()}
+    for target, rule_map in suppressions.items():
+        for rid in rule_map:
+            if rid not in known_rule_ids:
+                errors.append(
+                    ValidationMessage(
+                        "suppression-non-existent-rule",
+                        f"suppression references unknown rule {rid!r}",
+                        line=target,
+                    )
+                )
+    for rid, lineno in file_suppressions:
+        if rid not in known_rule_ids:
+            errors.append(
+                ValidationMessage(
+                    "suppression-non-existent-rule",
+                    f"file-level suppression references unknown rule {rid!r}",
+                    line=lineno,
+                )
+            )
+
+    # check for redundant target coverage where the same rule is suppressed
+    # by both ignore-line and ignore-next-line on the same target line.
+    for target, rule_map in suppressions.items():
+        for rid, kinds in rule_map.items():
+            if "ignore-line" in kinds and "ignore-next-line" in kinds:
+                errors.append(
+                    ValidationMessage(
+                        "suppression-conflict-line-next-line",
+                        (
+                            f"rule {rid!r} is suppressed by both ignore-line and "
+                            f"ignore-next-line for line {target}; remove ignore-line "
+                            "and keep ignore-next-line"
+                        ),
+                        line=target,
+                    )
+                )
+
     # before we actually apply the suppression filter, look for any
     # redundant directives.  A suppression is redundant when the target line
     # (for line/next-line suppressions) or the entire file (for file-level
@@ -190,8 +232,10 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         active_pairs = {(m.line, m.rule_id) for m in errors if m.line is not None}
         active_rules = {m.rule_id for m in errors}
         # line- and next-line-specific suppressions
-        for target, rule_ids in suppressions.items():
-            for rid in rule_ids:
+        for target, rule_map in suppressions.items():
+            for rid in rule_map:
+                if rid not in known_rule_ids:
+                    continue
                 if (target, rid) not in active_pairs:
                     errors.append(
                         ValidationMessage(
@@ -202,6 +246,8 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                     )
         # file-level suppressions
         for rid, lineno in file_suppressions:
+            if rid not in known_rule_ids:
+                continue
             if rid not in active_rules:
                 errors.append(
                     ValidationMessage(
@@ -227,7 +273,7 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
             if m.rule_id in file_level_ids:
                 continue
             if m.line is not None:
-                ignore_for_line = suppressions.get(m.line, [])
+                ignore_for_line = suppressions.get(m.line, {})
                 if m.rule_id in ignore_for_line:
                     continue
             filtered.append(m)

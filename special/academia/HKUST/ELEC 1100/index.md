@@ -2,17 +2,17 @@
 aliases:
   - ELEC 1100
   - ELEC 1100 index
-  - Introduction to Electro-Robot Design
-  - Introduction to Electro-Robot Design index
   - HKUST ELEC 1100
   - HKUST ELEC 1100 index
+  - Introduction to Electro-Robot Design
+  - Introduction to Electro-Robot Design index
 tags:
   - flashcard/active/special/academia/HKUST/ELEC_1100/index
   - function/index
   - language/in/English
 ---
 
-<!-- For each ELEC 1100 lab, use the Canvas lab handout and summary sheet (e.g. LabN_2026s.pdf, LabN_SummarySheet_2026s.docx) as the primary source.  First, integrate any new concepts or workflows into the relevant topic notes (lab equipment, electronic component, diode, voltage regulator, transistor, H‑bridge, etc.) and update the weekly session outline with § links and a few workflow/safety flashcards instead of duplicating full procedures here.  Second, create an assignment‑style note under labs/lab N/ that mirrors the Canvas assignment metadata (title, due/available window, points, submission type, file types) and lists any official handouts (both the LabN_2026s.pdf manual and the summary‑sheet `.docx`) under an attachments block and the canonical submission filename under a “submission” section.  Assignment pages such as labs/lab 1/index.md may omit the standard “# index” / “## children” shell and instead use a file‑level suppression (see academic‑notes instructions for the exact syntax) so only that file is exempt from the index‑heading rules.  Attachments must be copied into labs/lab N/attachments/ and the submission template into labs/lab N/ with the exact filenames referenced in the note so that future agents can regenerate or extend lab notes consistently. -->
+<!-- For each ELEC 1100 lab, use the Canvas lab handout and summary sheet (e.g. LabN_2026s.pdf, LabN_SummarySheet_2026s.docx) as the primary source.  First, integrate any new concepts or workflows into the relevant topic notes (lab equipment, electronic component, diode, voltage regulator, transistor, H‑bridge, etc.) and update the weekly session outline with § links and a few workflow/safety flashcards instead of duplicating full procedures here.  Second, create an assignment‑style note under labs/lab N/ that mirrors the Canvas assignment metadata (title, due/available window, points, submission type, file types) and lists any official handouts (both the LabN_2026s.pdf manual and the summary‑sheet `.docx`) under an attachments block and the canonical submission filename under a "submission" section.  Assignment pages such as labs/lab 1/index.md may omit the standard "# index" / "## children" shell and instead use a file‑level suppression (see academic‑notes instructions for the exact syntax) so only that file is exempt from the index‑heading rules.  Attachments must be copied into labs/lab N/attachments/ and the submission template into labs/lab N/ with the exact filenames referenced in the note so that future agents can regenerate or extend lab notes consistently. -->
 
 # index
 
@@ -54,17 +54,15 @@ The content is in teaching order.
 
 ## children
 
-- [assignments/](assignments/index.md)
-- [attachments/](attachments/index.md)
+- [attachments/](attachments/)
 - [labs/](labs/index.md)
-- [questions/](questions/index.md)
-- [tutorials/](tutorials/index.md)
 - [H-bridge](H-bridge.md)
 - [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
 - [brushed DC electric motor](brushed%20DC%20electric%20motor.md)
 - [diode](diode.md)
 - [electronic component](electronic%20component.md)
 - [lab equipment](lab%20equipment.md)
+- [questions](questions.md)
 - [transistor](transistor.md)
 - [voltage regulator](voltage%20regulator.md)
 
@@ -123,11 +121,11 @@ The content is in teaching order.
     - ELEC 1100 / pedagogy / traditional limitations ::@:: Traditional education teaches knowledge that may become obsolete and does not focus on application; may not evolve with information era; knowledge may be forgotten or redundant after graduation
     - ELEC 1100 / pedagogy / retention question ::@:: One month after taking a class, how much material can you still recall?
   - ELEC 1100 / class expectation ::@:: Attend lectures, tutorials and labs on time; be ready to learn, ask questions and enjoy the experience
-  - ELEC 1100 / what is this class about? ::@:: Not a LEGO robot programming class; start from basic concepts and construct robot from basic components; learn managing power supply, driving motors, reading sensor output, logic control and decision making; will construct autonomous “robot” to finish a task
+  - ELEC 1100 / what is this class about? ::@:: Not a LEGO robot programming class; start from basic concepts and construct robot from basic components; learn managing power supply, driving motors, reading sensor output, logic control and decision making; will construct autonomous "robot" to finish a task
   - ELEC 1100 / what is a robot?
-    - ELEC 1100 / what is a robot? / history ::@:: Word “robot” first used in 1921 by Czech playwright Karel Capek; “robotic” appeared in Issac Asimov’s 1942 story – these predate modern computers, ICs, transistors, and AI
-    - ELEC 1100 / what is a robot? / laws ::@:: Asimov’s Three Laws of Robotics (1950): <p> - 1) A robot may not injure a human or through inaction allow harm. <br/> - 2) A robot must obey human orders unless they conflict with Law 1. <br/> - 3) A robot must protect its own existence unless such protection conflicts with Law 1 or 2
-    - ELEC 1100 / what is a robot? / definitions ::@:: - Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks. <br/> - Webster definition: “an automatic device that performs functions normally ascribed to humans or a machine in the form of a human.”
+    - ELEC 1100 / what is a robot? / history ::@:: Word "robot" first used in 1921 by Czech playwright Karel Capek; "robotic" appeared in Issac Asimov's 1942 story – these predate modern computers, ICs, transistors, and AI
+    - ELEC 1100 / what is a robot? / laws ::@:: Asimov's Three Laws of Robotics (1950): <p> - 1) A robot may not injure a human or through inaction allow harm. <br/> - 2) A robot must obey human orders unless they conflict with Law 1. <br/> - 3) A robot must protect its own existence unless such protection conflicts with Law 1 or 2
+    - ELEC 1100 / what is a robot? / definitions ::@:: - Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks. <br/> - Webster definition: "an automatic device that performs functions normally ascribed to humans or a machine in the form of a human."
     - ELEC 1100 / what is a robot? / features ::@:: - artificially created and programmable <br/>  - can sense its environment and manipulate or interact with things in it <br/>  - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence <br/>  - moves without direct human interaction <br/>  - discussion questions: are animals robots? is a motorcycle a robot? is a helicopter a robot?
     - ELEC 1100 / what is a robot? / examples ::@:: - First real robot Unimate (Engelberger & Devol, 1961) – development began 1954 inspired by Asimov <br/>  - Modern robots: Boston Dynamics dancing robots; Roomba vacuum cleaner; Aqua 2 underwater robot; DJI Air 2S drone <br/>  - Categories: aerospace, consumer, exoskeletons, drones, self-driving cars, industrial, disaster response, humanoids
   - ELEC 1100 / robotics discipline ::@:: Science of perceiving and manipulating the physical world through computer-controlled mechanical devices; interdisciplinary branch of computer science and engineering involving design, construction, operation, and use of robots to help and assist humans
@@ -138,7 +136,7 @@ The content is in teaching order.
   - ELEC 1100 / robot system structure ::@:: Robot system accepts inputs and produces actions; electronic and mechanical subsystems feed into the overall system with further sub‑subsystems
     - ELEC 1100 / design principles / robot system structure / electronic decomposition ::@:: - Electronic subsystem breaks into control processor (sensor/other input, memory, logic power supply, control logic), motor drive and motor power supply with power amplifier; <br/> - outputs to mechanical subsystem; <br/> - mobile robot components include sensing (vision, sonar, GPS, gyro), controller, power sources, mechanical motion elements
   - ELEC 1100 / course roadmap ::@:: Weekly topics from basic electronics through Arduino programming and final project (sensor basics wk6; logic & MCU wk7‑9; motor power/transistor/H‑bridge/ PWM wk4‑6; basic electronics and KCL/KVL early weeks)
-  - ELEC 1100 / references ::@:: - No major text; mainly use handouts provided by the instructors <br/>  - Major references: L. Richard Carley and Pradeep Khosla, “Introduction to Electrical and Computer Engineering- taught in Context”, The McGraw-Hill Companies, Inc. <br/>  - G. Rizzoni, “Principles and Applications of Electrical Engineering,” 5th edition, McGraw Hill, 2007 <br/>  - D. V. Kerns and J.D. Irwin, “Essentials of Electrical and Computer Engineering”, Pearson, 2004 <br/>  - M. M. Mano and C.R. Kime, “Logic and Computer Design fundamentals”, 3rd edition, Prentice-Hall, 2004
+  - ELEC 1100 / references ::@:: - No major text; mainly use handouts provided by the instructors <br/>  - Major references: L. Richard Carley and Pradeep Khosla, "Introduction to Electrical and Computer Engineering- taught in Context", The McGraw-Hill Companies, Inc. <br/>  - G. Rizzoni, "Principles and Applications of Electrical Engineering," 5th edition, McGraw Hill, 2007 <br/>  - D. V. Kerns and J.D. Irwin, "Essentials of Electrical and Computer Engineering", Pearson, 2004 <br/>  - M. M. Mano and C.R. Kime, "Logic and Computer Design fundamentals", 3rd edition, Prentice-Hall, 2004
 
 ---
 
@@ -285,18 +283,18 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - [§ resistor networks](electronic%20component.md#resistor%20networks)
     - [§ energy and power](electronic%20component.md#energy%20and%20power)
   - ELEC 1100 / lab 2 preparation
-    - ELEC 1100 / lab 2 preparation / review of Ohm’s law ($I = V/R$) ::@:: Ohm’s law $I = V/R$ lets you relate the total voltage, current and resistance of a resistor or equivalent resistor network.
+    - ELEC 1100 / lab 2 preparation / review of Ohm's law ($I = V/R$) ::@:: Ohm's law $I = V/R$ lets you relate the total voltage, current and resistance of a resistor or equivalent resistor network.
     - ELEC 1100 / lab 2 preparation / series equivalent resistance ($R_{\text{eq}} = R_1 + R_2 + \cdots$) ::@:: For resistors in series the same current flows through each and the equivalent resistance is $R_{\text{eq}} = R_1 + R_2 + \cdots$.
     - ELEC 1100 / lab 2 preparation / parallel equivalent resistance ($1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$) ::@:: For resistors in parallel the node voltages are equal and the equivalent resistance satisfies $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ (always less than the smallest branch).
     - ELEC 1100 / lab 2 preparation / measuring total resistance with DMM ::@:: To measure an equivalent resistance you disconnect the network from any sources, place the DMM in resistance mode and connect across the two terminals of interest.
   - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node
-    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / when KVL and KCL are needed ::@:: Simple series/parallel reduction does not work for more complex networks, so you use Kirchhoff’s Voltage Law (sum of signed drops around any loop is zero) and Kirchhoff’s Current Law (sum of currents into a node equals sum out) to solve them.
+    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / when KVL and KCL are needed ::@:: Simple series/parallel reduction does not work for more complex networks, so you use Kirchhoff's Voltage Law (sum of signed drops around any loop is zero) and Kirchhoff's Current Law (sum of currents into a node equals sum out) to solve them.
     - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / reference node convention ($0\text{ V}$ reference) ::@:: In this course the negative terminal of the DC supply is normally chosen as the reference node with $0\text{ V}$ potential and is marked with the ground symbol in schematics.
-    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KVL in lab ::@:: To check KVL you measure each element’s voltage around a loop (respecting polarities) and confirm that the algebraic sum of the measured rises and drops is approximately zero.
+    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KVL in lab ::@:: To check KVL you measure each element's voltage around a loop (respecting polarities) and confirm that the algebraic sum of the measured rises and drops is approximately zero.
     - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KCL in lab ($I_{\text{in}}$ vs $I_{\text{out}}$) ::@:: To check KCL you compute or measure the branch currents at a node and verify that $I_{\text{in, total}} \approx I_{\text{out, total}}$ within measurement error.
   - ELEC 1100 / lab 2 preparation / current measurement safety
-    - ELEC 1100 / lab 2 preparation / current measurement safety / using the mA terminals correctly ::@:: When measuring current the multimeter’s mA terminals behave like a short and must be placed _in series_ with the branch whose current you want; never connect the mA terminals directly across a component or source.
-    - ELEC 1100 / lab 2 preparation / current measurement safety / danger of incorrect current connection ::@:: Mis‑using the mA input (placing it in parallel) can create a short circuit that damages both the multimeter’s current channel and the circuit under test.
+    - ELEC 1100 / lab 2 preparation / current measurement safety / using the mA terminals correctly ::@:: When measuring current the multimeter's mA terminals behave like a short and must be placed _in series_ with the branch whose current you want; never connect the mA terminals directly across a component or source.
+    - ELEC 1100 / lab 2 preparation / current measurement safety / danger of incorrect current connection ::@:: Mis‑using the mA input (placing it in parallel) can create a short circuit that damages both the multimeter's current channel and the circuit under test.
 
 ### week 4 lecture 1
 
@@ -305,7 +303,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - topic: DC regulation
 - ELEC 1100
   - ELEC 1100 / DC regulation: why use a regulator with a DC source? ::@:: DC sources are non-ideal; regulation provides predictable output voltage rails.
-    - ELEC 1100 / DC regulation / direct current (DC) ::@:: “Unidirectional” current flow; in practice used as an adjective meaning approximately “constant” voltage/current (vs AC oscillation).
+    - ELEC 1100 / DC regulation / direct current (DC) ::@:: "Unidirectional" current flow; in practice used as an adjective meaning approximately "constant" voltage/current (vs AC oscillation).
     - ELEC 1100 / DC regulation / common DC source ::@:: Batteries provide DC voltage from chemical reactions; AC adapters convert wall AC into DC for devices like laptops.
     - ELEC 1100 / DC regulation / connecting ideal sources ::@:: Ideal voltage sources can be in series; they can be in parallel only if they have the same value (different values in parallel is invalid).
     - ELEC 1100 / DC regulation / KVL two-source example: A single loop has two ideal DC sources $V_1=9\text{ V}$ and $V_2=5\text{ V}$ connected in series but opposing (their + terminals face the resistor), with a resistor $R=100\,\Omega$ between the two + terminals. Assume loop current $I$ flows from the $V_1$ + terminal through $R$ toward the $V_2$ + terminal. Find the resistor voltage magnitude $V_R$, the current $I$, and resistor power $P$. ::@:: With the stated polarities and traversal direction, KVL gives $-V_1 + IR + V_2 = 0$, so $IR = V_1 - V_2 = 4\text{ V}$. Therefore $I = V_R/R = 4/100 = 0.04\text{ A}$ and $P = V_R^{2}/R = 4^{2}/100 = 0.16\text{ W}$.
@@ -324,7 +322,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - topic: transistors
 - ELEC 1100
   - ELEC 1100 / [diode](diode.md)
-    - ELEC 1100 / [diode](diode.md) / circuit analysis (ideal or $0.7\text{ V}$ drop model): overall method? ::@:: Pick a diode model (ideal or constant $0.7\text{ V}$). Assume the diode is ON or OFF, replace it with the equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open), then solve the circuit using KVL/Ohm’s law.
+    - ELEC 1100 / [diode](diode.md) / circuit analysis (ideal or $0.7\text{ V}$ drop model): overall method? ::@:: Pick a diode model (ideal or constant $0.7\text{ V}$). Assume the diode is ON or OFF, replace it with the equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open), then solve the circuit using KVL/Ohm's law.
     - ELEC 1100 / [diode](diode.md) / circuit analysis consistency check ($V_D$, $I_D$): what do you verify? ::@:: After solving, check that the computed diode voltage/current match the assumed state (forward-bias with $V_D\approx0.7\text{ V}$ and $I_D>0$ for ON; reverse/blocked with $I_D\approx0$ for OFF). If inconsistent, flip the assumption and re-solve.
     - ELEC 1100 / [diode](diode.md) / [pn junction and biasing](diode.md#pn%20junction%20and%20biasing) ($\approx0.7\text{ V}$ barrier, anode/cathode): key ideas? ::@:: PN junction is formed by joining P-type and N-type semiconductor regions; the depletion region creates a barrier potential of about $0.7\text{ V}$ for silicon.<br/> The P side is the anode and the N side the cathode; forward bias (anode higher than cathode) allows current, reverse bias blocks it. Conventional current flows from anode to cathode when forward biased.
     - ELEC 1100 / [diode](diode.md) / [diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models) (ideal vs $0.7\text{ V}$ model, ON/OFF method): key points? ::@:: Ideal model: diode is a short when forward biased and an open when reverse biased.<br/> Constant-voltage model: when ON, $V_D\approx0.7\text{ V}$; when OFF, $I_D\approx0$. Use the ON/OFF assumption method: assume a state, replace with the equivalent circuit, solve, then check consistency of $V_D$ and $I_D$ with that state.
@@ -333,11 +331,11 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
   - ELEC 1100 / transistor basics: what are $V_{CC}$ and $V_{CE}$ ($V_{CE}=V_C-V_E$)? ::@:: $V_{CC}$ is the DC supply rail feeding the collector/load network. $V_{CE}$ is the collector-to-emitter voltage: $V_{CE}=V_C-V_E$.
   - ELEC 1100 / transistor basics: three modes (OFF/AMP/SAT) using $I_B$, $I_C$, $\beta$, $V_{CE}$? ::@:: OFF: $I_B\approx0\Rightarrow I_C\approx0$. AMPLIFICATION: $I_C\approx\beta I_B$. SATURATION: $I_C$ limited by the external circuit and $V_{CE}\approx0.2\text{ V}$.
     - ELEC 1100 / transistor / [structure](transistor.md#structure) (C, B, E; NPN/PNP symbol): key points? ::@:: BJT is a PN junction with an extra layer (NPN or PNP); base is the middle leg in the symbol, emitter has the arrow (out for NPN, in for PNP), collector is the other leg.
-    - ELEC 1100 / transistor / [historical context](transistor.md#historical%20context): key points? ::@:: First working transistor at Bell Labs (1947, Bardeen, Brattain, Shockley); foundation of modern electronics (computers, phones); Shockley’s company in Palo Alto helped start Silicon Valley.
+    - ELEC 1100 / transistor / [historical context](transistor.md#historical%20context): key points? ::@:: First working transistor at Bell Labs (1947, Bardeen, Brattain, Shockley); foundation of modern electronics (computers, phones); Shockley's company in Palo Alto helped start Silicon Valley.
     - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): OFF condition ($V_{BE}<0.7\text{ V}$)? ::@:: OFF: if $V_{BE}<0.7\text{ V}$ then the B–E junction is not forward-biased, so $I_B\approx0$ and therefore $I_C\approx0$ (no conduction).
     - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): amplification/active ($V_{BE}>0.7\text{ V}$, $I_C\approx\beta I_B$)? ::@:: AMPLIFICATION (active): with $V_{BE}>0.7\text{ V}$, a small base current flows and the collector current is approximately $I_C\approx\beta I_B$; $V_{CE}$ is not forced tiny (it sits somewhere between saturation and the supply).
     - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): saturation ($V_{CE}\approx0.2\text{ V}$, $I_C\approx I_{C,\max}$)? ::@:: SATURATION: base drive is strong enough that the circuit limits the collector current, so $I_C\approx I_{C,\max}$ (e.g. $\approx(V_{CC}-0.2\text{ V})/R_C$) and $V_{CE}\approx0.2\text{ V}$; increasing $I_B$ further does not increase $I_C$ much.
-    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): what does “NPN low-side” mean? ::@:: “Low-side” means the transistor is between the load and ground, so current flows supply → load → transistor → ground (when on).
+    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): what does "NPN low-side" mean? ::@:: "Low-side" means the transistor is between the load and ground, so current flows supply → load → transistor → ground (when on).
     - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): NPN low-side connections (E, C, base / $R_B$)? ::@:: Emitter to ground, collector to the load (and the other side of the load to $V_{CC}$), base driven from $V_{\text{IN}}$ through a resistor $R_B$ to limit $I_B$.
     - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): OFF vs ON condition ($V_{\text{IN}}<0.7\text{ V}$, saturation)? ::@:: If $V_{\text{IN}}<0.7\text{ V}$ then $V_{BE}$ is not forward-biased and the transistor is OFF ($I_C\approx0$). If $V_{\text{IN}}$ is high enough to drive base current, the transistor can turn ON; if base drive is strong it saturates with $V_{CE}\approx0.2\text{ V}$ and the load current is near its maximum.
 

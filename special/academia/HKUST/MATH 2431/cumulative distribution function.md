@@ -157,7 +157,7 @@ Flashcards for this section are as follows:
 - why a continuous cumulative distribution function need not come from a density ::@:: A continuous cumulative distribution function can fail to have a density because singular continuous laws, such as the Cantor distribution, have no jumps but are still not absolutely continuous with respect to Lebesgue measure.
 - cdf behavior for discrete continuous mixed and pathological laws ::@:: Discrete laws produce jumps, density-based continuous laws have no jumps and admit densities, mixed laws have both jump and continuous pieces, and singular continuous pathological laws have no jumps but still no density.
 
-<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Lebesgue-Stieltjes measures
 
 The converse to the basic cumulative-distribution-function properties is just as important as the forward direction: every function $F\colon\mathbb{R}\to\mathbb{R}$ that is nondecreasing, right-continuous, satisfies $\lim_{x\to-\infty}F(x)=0$, and $\lim_{x\to\infty}F(x)=1$ is the cumulative distribution function of a unique probability measure on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$. This measure is often called the _Lebesgue-Stieltjes measure_ associated with $F$.

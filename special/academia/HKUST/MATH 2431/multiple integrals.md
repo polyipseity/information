@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 - why rectangular iterated integrals matter for joint densities ::@:: When a joint density is integrated over a rectangular set, the theorem justifies computing the probability by repeated one-variable integrations.
 - slice interpretation of an iterated integral ::@:: In a double integral, the inner integral computes the area of one slice of the surface at fixed outer variable, and the outer integral then adds those slice-areas across the whole region.
 
-<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Fubini and improper multiple integrals
 
 For sufficiently regular functions, the order of integration does not matter. In the appendix this is stated in the practical form: if $f\ge0$ or if the integral of $|f|$ exists over the rectangle, then the iterated integrals may be evaluated in any coordinate order. In two dimensions this is the familiar Fubini rule $$\int_{a_1}^{b_1}\left(\int_{a_2}^{b_2}f(x_1,x_2)\,dx_2\right)dx_1=\int_{a_2}^{b_2}\left(\int_{a_1}^{b_1}f(x_1,x_2)\,dx_1\right)dx_2.$$ More generally, one may permute the order of the coordinates in $\mathbb{R}^n$.
@@ -114,7 +114,7 @@ Flashcards for this section are as follows:
 - why dividing by $x_2$ is legitimate in the cuboid example ::@:: The antiderivative with respect to $x_3$ introduces a factor $1/x_2$, and this is safe because on the domain one always has $x_2\in[2,3]$, so $x_2\neq0$.
 - strategy behind the rectangle and cuboid calculations ::@:: The method is always the same: choose the current integration variable, freeze the outer variables as constants, simplify that one-variable integral, and then move outward one layer at a time.
 
-<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Jordan nullsets and Jordan-measurable sets
 
 To integrate over non-rectangular domains, the appendix first isolates the right notion of "small boundary." A set $M\subseteq\mathbb{R}^n$ is a _Jordan nullset_ if for every $\varepsilon>0$ there exist finitely many rectangles covering $M$ whose total volume is less than $\varepsilon$. A bounded set $S\subseteq\mathbb{R}^n$ is _Jordan-measurable_ if its topological boundary $\partial S$ is a Jordan nullset.

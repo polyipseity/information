@@ -103,7 +103,7 @@ Flashcards for this section are as follows:
 - discrete uniform interpretation ::@:: The discrete uniform distribution models a finite experiment in which all outcomes are symmetric or equally likely, such as a fair die roll or a uniformly chosen element of a finite set.
 - why $p(\omega)=1/|\Omega|$ on finite $\Omega$ ::@:: In a discrete uniform distribution, symmetry makes all point masses equal and normalization forces those $|\Omega|$ equal masses to add up to $1$.
 
-<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Bernoulli distribution
 
 The Bernoulli distribution $\mathrm{Ber}(p)$ is the two-point law on $\Omega=\{0,1\}$ with $p(1)=p$ and $p(0)=1-p$, where $1$ represents success and $0$ failure. Its interpretation is a single success/failure experiment, such as one toss of a biased coin, one inspection that either passes or fails, or one indicator random variable for whether an event occurs.
@@ -185,7 +185,7 @@ Flashcards for this section are as follows:
   - hypergeometric approximation / factor limits ::@:: If $M_N/N\to p$ and $n,k$ are fixed, then $\prod_{j=0}^{k-1}\dfrac{M_N-j}{N-j}\to p^k$ and $\prod_{j=0}^{n-k-1}\dfrac{N-M_N-j}{N-k-j}\to (1-p)^{n-k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
   - hypergeometric approximation / full proof ::@:: Combine the exact factorization of $P[X_N=k]$ with the factor limits to obtain $P[X_N=k]\to \binom{n}{k}p^k(1-p)^{n-k}$, which is the PMF of $\mathrm{Bin}(n,p)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Poisson distribution
 
 For $\lambda>0$, the Poisson distribution $\mathrm{Pois}(\lambda)$ is the law on $\mathbb{N}_0$ with $p(k)=\dfrac{\lambda^k}{k!}e^{-\lambda}$. Its interpretation is a count of events that may happen any nonnegative number of times in a fixed window, such as the number of goals in a football match or the number of raindrops landing in a region during a fixed time interval.

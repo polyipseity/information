@@ -23,7 +23,7 @@ tags:
 
 - see: [general/electronic component](../../../../general/electronic%20component.md)
 
-Electronic components are the building blocks of electronic circuits; they affect how currents flow and voltages appear, and range from passive elements such as resistors and capacitors to active semiconductor devices like [diodes](diode.md) and [transistors](transistor.md).  In ELEC 1100 the scope is expanded to include the underlying electrical concepts required to understand component behaviour, together with the power sources and delivery systems (batteries, supplies) that energise a robot’s electronic subsystems.
+Electronic components are the building blocks of electronic circuits; they affect how currents flow and voltages appear, and range from passive elements such as resistors and capacitors to active semiconductor devices like [diodes](diode.md) and [transistors](transistor.md).  In ELEC 1100 the scope is expanded to include the underlying electrical concepts required to understand component behaviour, together with the power sources and delivery systems (batteries, supplies) that energise a robot's electronic subsystems.
 
 Common schematic symbols used throughout the notes: <p> ![resistor symbol](attachments/symbol_resistor.svg) <p> ![capacitor symbol](attachments/symbol_capacitor.svg) <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) <p> ![ground symbol](attachments/symbol_ground.svg)
 
@@ -39,7 +39,7 @@ Flashcards for this section are as follows:
 - schematic symbol: resistor <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Resistor symbol (zigzag/box style depending on standard) representing a component that limits current and creates voltage drops.
 - schematic symbol: capacitor <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Capacitor symbol (two plates) representing a component that stores charge/energy in an electric field.
 - schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference.
-- schematic symbol: ground (GND, $0\text{ V}$ reference) <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: Ground/reference node symbol ( $0\text{ V}$ reference) used as the circuit’s common return.
+- schematic symbol: ground (GND, $0\text{ V}$ reference) <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: Ground/reference node symbol ( $0\text{ V}$ reference) used as the circuit's common return.
 
 ## electrical fundamentals
 
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 
 ## resistance and resistors
 
-Resistance describes how strongly a material opposes the flow of current. For a uniform conductor its resistance is given by $$R = \rho\frac{L}{A}$$ where ρ is the material’s resistivity, L its length and A its cross-sectional area. The resistivity ρ depends on the material – copper, aluminium and stainless steel all have different values. An "ideal wire" is treated as an ideal conductor with zero resistance, while an ideal insulator has infinite resistance; real components fall between these extremes, exhibiting finite resistance. Components called resistors have a specified resistance and are used to control currents and create voltage drops. Ohm’s law relates voltage, current and resistance: $$V = IR.$$ The unit of resistance is the ohm ($\Omega$), and the symbol R is commonly used in formulas. Resistance can be added to avoid large currents; all loads (light bulbs, motors) and even wires have resistance. Digital multimeters may be used to measure resistance, voltage, or current in lab. Prefixes such as kilo ($k = 10^{3}$) and milli ($m = 10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$).
+Resistance describes how strongly a material opposes the flow of current. For a uniform conductor its resistance is given by $$R = \rho\frac{L}{A}$$ where ρ is the material's resistivity, L its length and A its cross-sectional area. The resistivity ρ depends on the material – copper, aluminium and stainless steel all have different values. An "ideal wire" is treated as an ideal conductor with zero resistance, while an ideal insulator has infinite resistance; real components fall between these extremes, exhibiting finite resistance. Components called resistors have a specified resistance and are used to control currents and create voltage drops. Ohm's law relates voltage, current and resistance: $$V = IR.$$ The unit of resistance is the ohm ($\Omega$), and the symbol R is commonly used in formulas. Resistance can be added to avoid large currents; all loads (light bulbs, motors) and even wires have resistance. Digital multimeters may be used to measure resistance, voltage, or current in lab. Prefixes such as kilo ($k = 10^{3}$) and milli ($m = 10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$).
 
 ---
 
@@ -167,7 +167,7 @@ In the context of ELEC 1100, robots derive their power primarily from batterie
 
 Electrical energy delivered to a charge $q$ moving through a potential difference $V$ is $E = qV$, and the smallest discrete charge is $q = 1.6\times10^{-19}\,\mathrm{C}$.
 
-Power is the rate of energy transfer: $P = E/\Delta t = \Delta q\,V/\Delta t = IV$, and by substituting Ohm’s law we obtain $P = I^{2}R = V^{2}/R$ for purely resistive components.
+Power is the rate of energy transfer: $P = E/\Delta t = \Delta q\,V/\Delta t = IV$, and by substituting Ohm's law we obtain $P = I^{2}R = V^{2}/R$ for purely resistive components.
 
 Electrical sources may deliver either direct current (DC) or alternating current (AC).  In a DC supply the voltage and current are essentially constant in time – batteries and the LiPo packs used on your robot are examples – so the direction of current flow never reverses.  Household mains power is AC: the voltage oscillates sinusoidally and the current changes direction periodically ($50\,\text{Hz}$ in Hong Kong, $60\,\text{Hz}$ in some other countries).  AC is convenient for transmission over long distances and can be converted to DC with rectifiers.
 
@@ -197,13 +197,13 @@ Flashcards for lab sources are as follows:
 
 ### energy conversion
 
-One way to visualise energy is by considering gravitational potential becoming kinetic energy.  Galileo’s famous Leaning‑Tower‑of‑Pisa experiment (or the later Apollo 15 Moon drop) showed that acceleration due to gravity $g$ is independent of mass.  An object falling from height $h$ converts potential energy $mgh$ into kinetic energy $\tfrac12 m v^{2}$, giving the relation $v=\sqrt{2gh}$.  In circuits the analogous conversion is between electrical potential energy and other forms when charges move through a voltage.
+One way to visualise energy is by considering gravitational potential becoming kinetic energy.  Galileo's famous Leaning‑Tower‑of‑Pisa experiment (or the later Apollo 15 Moon drop) showed that acceleration due to gravity $g$ is independent of mass.  An object falling from height $h$ converts potential energy $mgh$ into kinetic energy $\tfrac12 m v^{2}$, giving the relation $v=\sqrt{2gh}$.  In circuits the analogous conversion is between electrical potential energy and other forms when charges move through a voltage.
 
 ---
 
 Flashcards for energy conversion are as follows:
 
-- energy conversion example ::@:: Galileo’s falling objects experiment shows $v=\sqrt{2gh}$, relating potential $mgh$ to kinetic $\tfrac12 mv^{2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- energy conversion example ::@:: Galileo's falling objects experiment shows $v=\sqrt{2gh}$, relating potential $mgh$ to kinetic $\tfrac12 mv^{2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - gravitational acceleration ::@:: The acceleration due to gravity is independent of mass, so all objects fall at the same rate neglecting air resistance.
 
 ### human body energy
@@ -222,7 +222,7 @@ Resistors in series add: $R_{\text{eq}} = R_1 + R_2 + \cdots$; the same current 
 
 Resistors in parallel combine as $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; the total resistance is always smaller than the smallest branch. Conductance $G = 1/R$ is useful, unit siemens (S).
 
-For a network with mixed series/parallel elements the total resistance may be computed stepwise (e.g. $30\,\Omega + (40\,\Omega\parallel 60\,\Omega) = 54\,\Omega$). Some tutorial problems use an _infinite resistor network_ (ladder): a small series/parallel pattern (such as a $2R$ series resistor followed by a $1.5R$ shunt to ground) is repeated indefinitely so that the “tail” of the ladder looks identical to the whole network. In that case you model the infinite tail by a single unknown equivalent $R_{\text{eq}}$ and write an equation like $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula; solving gives $R_{\text{eq}} = 3R$ in the ELEC 1100 example. When a network cannot be reduced by series/parallel alone, use [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) to relate currents and voltages at nodes and loops.
+For a network with mixed series/parallel elements the total resistance may be computed stepwise (e.g. $30\,\Omega + (40\,\Omega\parallel 60\,\Omega) = 54\,\Omega$). Some tutorial problems use an _infinite resistor network_ (ladder): a small series/parallel pattern (such as a $2R$ series resistor followed by a $1.5R$ shunt to ground) is repeated indefinitely so that the "tail" of the ladder looks identical to the whole network. In that case you model the infinite tail by a single unknown equivalent $R_{\text{eq}}$ and write an equation like $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula; solving gives $R_{\text{eq}} = 3R$ in the ELEC 1100 example. When a network cannot be reduced by series/parallel alone, use [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) to relate currents and voltages at nodes and loops.
 
 Short circuit occurs when a low-resistance path bypasses a component (R→0); current through the short tends to infinity and components may be damaged. In an ideal short the branch current is infinite and the other branch zero.
 
@@ -237,7 +237,7 @@ Flashcards for this section are as follows:
 - series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground ($0\,\text{V}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- infinite ladder concept: Given an infinite resistor ladder built by repeating a small series/parallel cell, how can you model the resistance of the “tail” of the network in terms of an unknown $R_{\text{eq}}$? ::@:: Because the part of the ladder to the right of any cell looks identical to the whole, you can replace the infinite tail by a single unknown equivalent resistance $R_{\text{eq}}$ and solve for it.
+- infinite ladder concept: Given an infinite resistor ladder built by repeating a small series/parallel cell, how can you model the resistance of the "tail" of the network in terms of an unknown $R_{\text{eq}}$? ::@:: Because the part of the ladder to the right of any cell looks identical to the whole, you can replace the infinite tail by a single unknown equivalent resistance $R_{\text{eq}}$ and solve for it.
 - ELEC 1100 infinite ladder example: Given the ELEC 1100 ladder made from repeating a $2R$ series resistor with a $1.5R$ shunt to ground, how do you find its equivalent resistance? ::@:: Write the equation $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula and solve to obtain $R_{\text{eq}} = 3R$.
 - network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$.
 - short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components.

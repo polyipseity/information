@@ -1,8 +1,76 @@
-########################################
-# C++
-########################################
-# https://github.com/github/gitignore/blob/master/C.gitignore
+# <https://github.com/github/gitignore/blob/b4105e73e493bb7a20b5d7ea35efd5780ca44938/C%2B%2B.gitignore> {
+# Prerequisites
+*.d
 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt 
+compile_commands.json
+
+# Temporary files
+*.tmp 
+*.log 
+*.bak 
+*.swp 
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+# }
+
+# <https://github.com/github/gitignore/blob/b4105e73e493bb7a20b5d7ea35efd5780ca44938/C.gitignore> {
 # Prerequisites
 *.d
 
@@ -56,52 +124,11 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# debug information files
+*.dwo
+# }
 
-########################################
-# C++
-########################################
-# https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore
-
-
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-
-########################################
-# CMake
-########################################
-# https://github.com/github/gitignore/blob/master/CMake.gitignore
-
+# <https://github.com/github/gitignore/blob/b4105e73e493bb7a20b5d7ea35efd5780ca44938/CMake.gitignore> {
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -113,26 +140,28 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+CMakeUserPresets.json
 
+# CLion
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#cmake-build-*
+# }
 
-########################################
-# Visual Studio Code
-########################################
-# https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
-
+# <https://github.com/github/gitignore/blob/b4105e73e493bb7a20b5d7ea35efd5780ca44938/Global/VisualStudioCode.gitignore> {
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.code-workspace
+!.vscode/*.code-snippets
+!*.code-workspace
 
-# Local History for Visual Studio Code
-.history/
+# Built Visual Studio Code Extensions
+*.vsix
+# }
 
-########################################
-# custom
-########################################
-# custom
-
-build/
+# self {
+# }

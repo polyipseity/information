@@ -344,6 +344,12 @@ uv run .agents/skills/academic-notes/check.py "special/academia/HKUST/ELEC 1100"
 
 The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `bun run format`, `bun run check`, and `bun run test` with explicit paths to your changed files so the commands execute quickly.
 
+**Index children validation:** The validator enforces three rules for the `## children` list in `index.md` files:
+
+- **`index_children_order`**: Ensures that entries are ordered with folders first, then files, with alphabetical sorting within each group. Missing files/directories are automatically skipped during this check; only existing paths are validated for correct order. This allows you to commit a pending children list even if some links don't exist yet.
+- **`index_children_missing`**: Warns (not error) about entries in the children list that link to files/directories that do not exist. Each warning suggests either removing the link if not wanted or creating the file/directory if desired. This helps keep the children list in sync with the actual course structure without blocking commits.
+- **`index_children_missing_index`**: Warns about links to `folder/index.md` when the folder exists but lacks an `index.md` file inside. The rule suggests either creating the `index.md` file or changing the link to point to the folder directly (without `/index.md`). Note: `attachments/` folders typically should not contain `index.md`.
+
 The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and fold stable improvements back into the authoritative skill files rather than relying on a separate running log.
 
 ## Continuous improvement
