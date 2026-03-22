@@ -142,7 +142,7 @@ Flashcards for this section are as follows:
 - role of $\mu$ and $\sigma^2$ ::@:: In $\mathrm{N}(\mu,\sigma^2)$, $\mu$ is the center of the bell curve and $\sigma^2$ controls its spread.
 - standard normal density ::@:: The standard normal distribution $\mathrm{N}(0,1)$ has density $\varphi(x)=\dfrac{1}{\sqrt{2\pi}}e^{-x^2/2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Cauchy distribution
 
 For a location parameter $m\in\mathbb{R}$ and scale parameter $a>0$, the _Cauchy distribution_ has density $f(x)=\dfrac{1}{\pi}\dfrac{a}{a^2+(x-m)^2}$ on $\mathbb{R}$.

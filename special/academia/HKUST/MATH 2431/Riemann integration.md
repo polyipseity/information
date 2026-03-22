@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 
 - overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints.
 
-<!-- check: ignore-next-line[header_style_rule]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Riemann sums and integrability
 
 Fix a bounded interval $[a,b]$. Let $B([a,b])$ denote the bounded real-valued functions on $[a,b]$. A partition of $[a,b]$ is a finite ordered tuple $Z_n=(x_0,x_1,\ldots,x_n)$ with $a=x_0<x_1<\cdots<x_n=b$. Its norm is $|Z_n|=\max_{1\le j\le n}(x_j-x_{j-1})$, which measures the mesh size of the partition.
