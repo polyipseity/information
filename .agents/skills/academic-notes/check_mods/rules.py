@@ -174,7 +174,7 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def index_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that an index.md contains a top-level '# index' heading.
 
     Only applicable to files named 'index.md'.
@@ -183,9 +183,7 @@ def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     if ctx.path.name.lower() == "index.md":
         if "# index" not in ctx.text:
             errors.append(
-                ValidationMessage(
-                    "index_heading_rule", "index.md missing '# index' heading"
-                )
+                ValidationMessage("index_heading", "index.md missing '# index' heading")
             )
     return errors
 
@@ -216,8 +214,69 @@ def _extract_children_section(text: str) -> list[tuple[int, str]]:
     return section
 
 
+async def _path_exists(href: str, base: Path) -> bool:
+    """Check if a linked file/directory exists on disk.
+
+    Decodes percent-encoded components and checks for directory or file
+    existence. Returns False for external URLs or invalid paths.
+    """
+    # Decode percent-encoded components (e.g. %20 → space)
+    unquoted = unquote(href)
+    # Remove any fragment/query portion
+    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    if not unquoted:
+        return False
+
+    # Skip external URLs
+    if re.match(r"^[a-zA-Z]+://", unquoted):
+        return True  # Consider external URLs as "existing" (not our responsibility)
+
+    # anyio Path methods are async; use them directly.
+    candidate = await (base / unquoted).resolve()
+    return await candidate.is_dir() or await candidate.is_file()
+
+
+async def _is_folder_without_index_md(href: str, base: Path) -> bool:
+    """Check if href links to index.md in a folder that exists but lacks index.md.
+
+    Returns True if:
+    - href ends with /index.md or is index.md
+    - The parent folder exists
+    - The index.md file does not exist
+
+    This detects the case where a children link may need the index.md file created
+    or should be changed to link to the folder instead.
+    """
+    # Decode percent-encoded components
+    unquoted = unquote(href)
+    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    if not unquoted:
+        return False
+
+    # Check if this is a link to index.md
+    if not (unquoted.endswith("/index.md") or unquoted.endswith("index.md")):
+        return False
+
+    # Get the parent directory (remove index.md from the path)
+    if unquoted.endswith("/index.md"):
+        parent_path = unquoted[:-9]  # Remove "/index.md" (9 characters)
+    else:
+        parent_path = unquoted[:-8]  # Remove "index.md" (8 characters)
+
+    # Ensure parent path is not empty
+    if not parent_path or parent_path == "/":
+        return False
+
+    # Check if parent folder exists but index.md doesn't
+    candidate_parent = await (base / parent_path).resolve()
+    return (
+        await candidate_parent.is_dir()
+        and not await (candidate_parent / "index.md").is_file()
+    )
+
+
 @RULE_REGISTRY.register()
-def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def index_children(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure index.md includes a 'children' section or heading.
 
     Looks for either '## children' or a literal 'children:' string.
@@ -227,14 +286,14 @@ def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
         if "## children" not in ctx.text and "children:" not in ctx.text:
             errors.append(
                 ValidationMessage(
-                    "index_children_rule", "index.md missing 'children' section"
+                    "index_children", "index.md missing 'children' section"
                 )
             )
     return errors
 
 
 @RULE_REGISTRY.register()
-def index_children_format_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def index_children_format(ctx: ValidationContext) -> list[ValidationMessage]:
     """Validate the format of the `## children` list in an index.md file.
 
     The children section must be an unordered list of Markdown links (no
@@ -258,7 +317,7 @@ def index_children_format_rule(ctx: ValidationContext) -> list[ValidationMessage
         if indent > 0:
             errors.append(
                 ValidationMessage(
-                    "index_children_format_rule",
+                    "index_children_format",
                     "children list items must be top-level bullets (no nested sub-lists)",
                     line=line_no,
                     col=1,
@@ -269,7 +328,7 @@ def index_children_format_rule(ctx: ValidationContext) -> list[ValidationMessage
         if not re.match(r"^[-*]\s*\[[^\]]+\]\([^\)]+\)\s*$", stripped):
             errors.append(
                 ValidationMessage(
-                    "index_children_format_rule",
+                    "index_children_format",
                     "children list must consist of top-level bullet points each containing a single Markdown link",
                     line=line_no,
                     col=1,
@@ -279,11 +338,12 @@ def index_children_format_rule(ctx: ValidationContext) -> list[ValidationMessage
 
 
 @RULE_REGISTRY.register()
-async def index_children_order_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+async def index_children_order(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure the `## children` list is ordered folders first, then files.
 
     Within each group (folders vs files), entries must be sorted using Python
-    string ordering.
+    string ordering. Missing files/directories are skipped and handled by
+    the dedicated index_children_missing.
     """
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() != "index.md":
@@ -304,6 +364,9 @@ async def index_children_order_rule(ctx: ValidationContext) -> list[ValidationMe
             # ignore formatting errors; those are handled by other rules
             continue
         href = m.group(2).strip()
+        # Skip entries where the path doesn't exist
+        if not await _path_exists(href, base_dir):
+            continue
         # Default to file unless the path actually resolves to a folder (or an index.md)
         is_folder = await _is_folder_link(href, base_dir, allow_index_as_folder=True)
         entries.append((is_folder, href, line_no))
@@ -314,7 +377,7 @@ async def index_children_order_rule(ctx: ValidationContext) -> list[ValidationMe
         if seen_file and is_folder:
             errors.append(
                 ValidationMessage(
-                    "index_children_order_rule",
+                    "index_children_order",
                     "folder entries in children section must come before file entries",
                     line=line_no,
                     col=1,
@@ -341,7 +404,7 @@ async def index_children_order_rule(ctx: ValidationContext) -> list[ValidationMe
                 if href != expected:
                     errors.append(
                         ValidationMessage(
-                            "index_children_order_rule",
+                            "index_children_order",
                             f"{group_name.capitalize()} entries in children section must be in Python alphabetical order; expected '{expected}'",
                             line=line_no,
                             col=1,
@@ -392,7 +455,97 @@ async def _is_folder_link(
 
 
 @RULE_REGISTRY.register()
-async def folder_link_trailing_slash_rule(
+async def index_children_missing(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Check for missing files/directories in the `## children` list.
+
+    Identifies links in the children section that do not exist on disk and
+    suggests either removing the link (if not wanted) or creating the file/
+    directory (if wanted). Excludes folders without index.md (handled by
+    index_children_missing_index).
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            # ignore formatting errors; those are handled by other rules
+            continue
+        href = m.group(2).strip()
+        # Skip this if it's a folder-without-index case (handled by another rule)
+        if await _is_folder_without_index_md(href, base_dir):
+            continue
+        # Check if the path exists
+        if not await _path_exists(href, base_dir):
+            errors.append(
+                ValidationMessage(
+                    "index_children_missing",
+                    f"linked file/directory not found: '{href}'; either remove the link if not wanted or create the file/directory if desired",
+                    line=line_no,
+                    col=1,
+                    severity=Severity.WARNING,
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+async def index_children_missing_index(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Check for links to index.md in folders that lack index.md.
+
+    Detects when a children link points to index.md in a folder that exists
+    but does not contain an index.md file. Suggests either creating the
+    index.md file or changing the link to point to the folder instead.
+    Note: attachments/ typically should not have index.md.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            continue
+        href = m.group(2).strip()
+        # Check if this is a folder-without-index case
+        if await _is_folder_without_index_md(href, base_dir):
+            errors.append(
+                ValidationMessage(
+                    "index_children_missing_index",
+                    f"folder '{href}' exists but lacks index.md; either create index.md "
+                    "or change the link to the folder without /index.md "
+                    "(note: attachments/ folders typically should not have index.md)",
+                    line=line_no,
+                    col=1,
+                    severity=Severity.WARNING,
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+async def folder_link_trailing_slash(
     ctx: ValidationContext,
 ) -> list[ValidationMessage]:
     """Ensure markdown links to folders end with a trailing slash.
@@ -415,7 +568,7 @@ async def folder_link_trailing_slash_rule(
                 line_no, col, col_end = locate_range(ctx.text, m.start(2), len(href))
                 errors.append(
                     ValidationMessage(
-                        "folder_link_trailing_slash_rule",
+                        "folder_link_trailing_slash",
                         "links to folders must end with a trailing slash",
                         line=line_no,
                         col=col,
@@ -426,7 +579,7 @@ async def folder_link_trailing_slash_rule(
                 line_no, col, col_end = locate_range(ctx.text, m.start(1), len(display))
                 errors.append(
                     ValidationMessage(
-                        "folder_link_trailing_slash_rule",
+                        "folder_link_trailing_slash",
                         "folder link display text should end with a trailing slash",
                         line=line_no,
                         col=col,
@@ -437,7 +590,7 @@ async def folder_link_trailing_slash_rule(
 
 
 @RULE_REGISTRY.register()
-def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
     """Verify chronological ordering of semester headings in index.md.
 
     Parses '### YYYY term' headings and ensures each is later than the
@@ -466,9 +619,7 @@ def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]
                 line_no = None
             col_no = 1 if line_no is not None else None
             errors.append(
-                ValidationMessage(
-                    "index_semester_order_rule", msg, line=line_no, col=col_no
-                )
+                ValidationMessage("index_semester_order", msg, line=line_no, col=col_no)
             )
             break
     return errors
@@ -814,7 +965,7 @@ def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when non-index headers start with an uppercase letter.
 
     This stylistic rule scans all headers of level 2 or deeper and emits a
@@ -822,7 +973,7 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     non-alphanumeric.  Proper nouns (person names, brands, etc.) are
     legitimate exceptions; callers can suppress the warning using a
     check directive (for example
-    ``<!-- check: ignore-line[header_style_rule]: proper name -->``) if the
+    ``<!-- check: ignore-line[header_style]: proper name -->``) if the
     capitalization is intentional.
     """
     errors: list[ValidationMessage] = []
@@ -840,7 +991,7 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             # can suppress it if the capitalization is intentional.
             errors.append(
                 ValidationMessage(
-                    rule_id="header_style_rule",
+                    rule_id="header_style",
                     msg=(
                         "header normally start lowercase; suppressions are allowed only **for proper nouns**.  Do **not** ignore this rule for ordinary section titles."
                     ),
@@ -2297,7 +2448,7 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def week_monotonic_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def week_monotonic(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure week numbers progress monotonically (with allowed reset to 1).
 
     Useful for detecting accidental misnumbering of session headings in notes.
@@ -2310,7 +2461,7 @@ def week_monotonic_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
             errors.append(
                 ValidationMessage(
-                    rule_id="week_monotonic_rule",
+                    rule_id="week_monotonic",
                     msg="week numbers do not progress monotonically (unexpected reset)",
                     line=line,
                     col=col,

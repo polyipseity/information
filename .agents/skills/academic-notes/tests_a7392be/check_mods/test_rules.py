@@ -17,14 +17,16 @@ from check_mods.rules import (
     cloze_open_close_matching,
     cloze_single_line,
     cloze_wrong_closing_token,
-    folder_link_trailing_slash_rule,
+    folder_link_trailing_slash,
     header_flashcard_presence,
-    header_style_rule,
-    index_children_format_rule,
-    index_children_order_rule,
-    index_children_rule,
-    index_heading_rule,
-    index_semester_order_rule,
+    header_style,
+    index_children,
+    index_children_format,
+    index_children_missing,
+    index_children_missing_index,
+    index_children_order,
+    index_heading,
+    index_semester_order,
     latex_block_no_newline,
     latex_disallowed_delimiters,
     latex_environment_not_wrapped,
@@ -175,41 +177,158 @@ def test_index_rules():
 
     txt = "# some page\n"
     ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    assert index_heading_rule(ctx)
-    assert index_children_rule(ctx)
+    assert index_heading(ctx)
+    assert index_children(ctx)
 
     txt = "# index\n## children\n### 2023 fall\n### 2022 spring\n"
     ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    msgs = index_semester_order_rule(ctx)
+    msgs = index_semester_order(ctx)
     assert msgs and "chronological" in msgs[0].msg
 
 
 @pytest.mark.anyio
-async def test_index_children_format_and_order_rules():
-    """Children section must be a flat list of links sorted by folder/file."""
+async def test_index_children_format_and_order_rules(tmp_path):
+    """Children section must be a flat list of links sorted by folder/file.
 
+    Tests both format validation and ordering, including handling of missing
+    files which should be skipped by the order rule and reported by the
+    missing file rule.
+    """
+    # Create test files/directories
+    (tmp_path / "assignments").mkdir()
+    (tmp_path / "a.md").touch()
+    (tmp_path / "b.md").touch()
+    index_path = Path(tmp_path / "index.md")
+
+    # Valid: folders before files, alphabetically sorted
     txt = "# index\n\n## children\n- [assignments](assignments/)\n- [a](a.md)\n- [b](b.md)\n"
-    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    assert not index_children_format_rule(ctx)
-    assert not await index_children_order_rule(ctx)
+    ctx = make_ctx(txt, path=index_path)
+    assert not index_children_format(ctx)
+    assert not await index_children_order(ctx)
+    assert not await index_children_missing(ctx)
 
     # nested bullets are rejected
     txt = "# index\n\n## children\n  - [a](a.md)\n- [b](b.md)\n"
-    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    msgs = index_children_format_rule(ctx)
+    ctx = make_ctx(txt, path=index_path)
+    msgs = index_children_format(ctx)
     assert msgs and "top-level" in msgs[0].msg
 
     # folders must come before files
     txt = "# index\n\n## children\n- [a](a.md)\n- [assignments](assignments/)\n"
-    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    msgs = await index_children_order_rule(ctx)
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_order(ctx)
     assert msgs and "folder entries" in msgs[0].msg
 
     # files must be alphabetically ordered
     txt = "# index\n\n## children\n- [assignments](assignments/)\n- [b](b.md)\n- [a](a.md)\n"
-    ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    msgs = await index_children_order_rule(ctx)
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_order(ctx)
     assert msgs and "alphabetical" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_index_children_missing_rule(tmp_path):
+    """Missing files/directories in children section are reported.
+
+    The missing file rule should warn about links that don't exist
+    and suggest either removing or creating them.
+    """
+    # Create some test files
+    (tmp_path / "existing_dir").mkdir()
+    (tmp_path / "existing.md").touch()
+    index_path = Path(tmp_path / "index.md")
+
+    # Valid: all files exist
+    txt = "# index\n\n## children\n- [existing_dir](existing_dir/)\n- [existing](existing.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    assert not await index_children_missing(ctx)
+
+    # Missing file
+    txt = "# index\n\n## children\n- [existing](existing.md)\n- [missing](missing.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "missing.md" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+    assert "remove" in msgs[0].msg or "create" in msgs[0].msg
+
+    # Missing directory
+    txt = "# index\n\n## children\n- [missing_dir](missing_dir/)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "missing_dir" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+
+    # Multiple missing entries
+    txt = "# index\n\n## children\n- [missing1](missing1.md)\n- [existing](existing.md)\n- [missing2](missing2.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 2
+    assert all(msg.severity == Severity.WARNING for msg in msgs)
+
+
+@pytest.mark.anyio
+async def test_index_children_order_rule_ignores_missing(tmp_path):
+    """Order rule should ignore missing files/directories.
+
+    When files are missing, they should be skipped by the order rule
+    and not cause false positives for ordering violations.
+    """
+    # Create test files
+    (tmp_path / "a.md").touch()
+    (tmp_path / "b.md").touch()
+    index_path = Path(tmp_path / "index.md")
+
+    # Even though 'missing' comes between 'a' and 'b', the order rule should only
+    # check ordering of existing entries, not missing ones
+    txt = "# index\n\n## children\n- [a](a.md)\n- [missing](missing.md)\n- [b](b.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    # Should not report order violations since 'missing' is skipped
+    msgs = await index_children_order(ctx)
+    assert not msgs  # No order violations
+
+    # But the missing file rule should still report the missing entry
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "missing.md" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_index_children_missing_index(tmp_path):
+    """Folders without index.md should be flagged by index_children_missing_index rule.
+
+    When a link points to folder/index.md but the folder exists without index.md,
+    this rule suggests either creating index.md or changing the link to the folder.
+    """
+    # Create a folder without index.md
+    (tmp_path / "assignment_folder").mkdir()
+    index_path = Path(tmp_path / "index.md")
+
+    # When folder exists but index.md doesn't, index_children_missing_index should warn
+    txt = "# index\n\n## children\n- [assignments](assignment_folder/index.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing_index(ctx)
+    assert len(msgs) == 1
+    assert msgs[0].severity == Severity.WARNING
+    assert (
+        "assignment_folder/index.md" in msgs[0].msg
+        or "assignment_folder" in msgs[0].msg
+    )
+    assert "create" in msgs[0].msg or "folder" in msgs[0].msg
+
+    # When both folder and index.md exist, no warning
+    (tmp_path / "assignment_folder" / "index.md").touch()
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing_index(ctx)
+    assert not msgs
+
+    # Folder link without /index.md should not trigger this rule
+    txt2 = "# index\n\n## children\n- [missing](missing_folder/)\n"
+    ctx = make_ctx(txt2, path=index_path)
+    msgs = await index_children_missing_index(ctx)
+    # Should not report for folder links or completely missing folders
+    assert not msgs
 
 
 def test_header_style_generic():
@@ -220,7 +339,7 @@ def test_header_style_generic():
 
     txt = "## BadHeader\n"
     ctx = make_ctx(txt, path=Path("/tmp/file.md"))
-    msgs = header_style_rule(ctx)
+    msgs = header_style(ctx)
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     assert "lowercase" in msgs[0].msg
@@ -260,7 +379,7 @@ async def test_folder_link_slash_ignores_index_md(tmp_path: PathLike[str]):
     # Create a context for a different file in the same directory.
     ctx = make_ctx("[index](index.md)\n", path=Path(dir_path / "note.md"))
 
-    msgs = await folder_link_trailing_slash_rule(ctx)
+    msgs = await folder_link_trailing_slash(ctx)
     assert not msgs, "A link to index.md should not require a trailing slash"
 
 
@@ -1079,7 +1198,7 @@ async def test_file_level_suppression_hides_index_rules(tmp_path: PathLike[str])
         "aliases: [a]\n"
         "tags: [language/in/English, flashcard/active/special/academia/test/index]\n"
         "---\n"
-        "<!-- check: ignore-file[index_heading_rule,index_children_rule]: assignment index without shell -->\n"
+        "<!-- check: ignore-file[index_heading,index_children]: assignment index without shell -->\n"
         "# some page\n"
         "## not-children\n"
     )
