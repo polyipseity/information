@@ -206,16 +206,20 @@ async def test_check_entrypoint(
 
     _path = await make_temp_markdown(tmp_path, "---\naliases: []\ntags: []\n---\n")
 
-    monkeypatch.setattr(sys, "argv", ["check", str(tmp_path)])
-    with pytest.raises(SystemExit) as exc_info:
-        await check.main()
-    assert exc_info.value.code == 2
+    previous_argv = sys.argv[:]  # keep original list contents
+    try:
+        sys.argv[:] = ["check", str(tmp_path)]
+        with pytest.raises(SystemExit) as exc_info:
+            await check.main()
+        assert exc_info.value.code == 2
 
-    # verify that passing a markdown file directly also works
-    monkeypatch.setattr(sys, "argv", ["check", str(_path)])
-    with pytest.raises(SystemExit) as exc_info2:
-        await check.main()
-    assert exc_info2.value.code == 2
+        # verify that passing a markdown file directly also works
+        sys.argv[:] = ["check", str(_path)]
+        with pytest.raises(SystemExit) as exc_info2:
+            await check.main()
+        assert exc_info2.value.code == 2
+    finally:
+        sys.argv[:] = previous_argv
 
 
 @pytest.mark.anyio

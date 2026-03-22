@@ -50,9 +50,13 @@ tags: []
     with pytest.raises(SystemExit) as ev:
         await validator.main([str(tmp_path)])
 
-    monkeypatch.setattr(sys, "argv", ["check", str(tmp_path)])
-    with pytest.raises(SystemExit) as ew:
-        await check.main()
+    previous_argv = sys.argv[:]
+    try:
+        sys.argv[:] = ["check", str(tmp_path)]
+        with pytest.raises(SystemExit) as ew:
+            await check.main()
+    finally:
+        sys.argv[:] = previous_argv
 
     assert ew.value.code == ev.value.code
     assert ev.value.code != 0  # there should be at least one error message
