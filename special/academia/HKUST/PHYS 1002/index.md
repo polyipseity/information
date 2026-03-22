@@ -482,7 +482,7 @@ The content is in teaching order. Extra information and corrections are included
 - [atom](../../../../general/atom.md) ::@:: a particle consisting of a nucleus of neutrons and protons surrounded by a cloud of electrons <!--SR:!2031-07-14,2053,405!2033-07-05,2669,425-->
   - [atomic number](../../../../general/atomic%20number.md) ::@:: for ordinary nuclei, the number of protons <!--SR:!2026-04-23,517,405!2032-09-02,2420,425-->
   - [mass number](../../../../general/mass%20number.md) ::@:: the total number of protons and neutrons <!--SR:!2033-08-06,2695,425!2030-12-12,1865,405-->
-- [isotope](../../../../general/isotope.md) ::@:: distinct nuclides of the same element, which have have the same atomic number but different mass numbers <!--SR:!2026-03-27,494,405!2032-06-13,2352,425-->
+- [isotope](../../../../general/isotope.md) ::@:: distinct nuclides of the same element, which have have the same atomic number but different mass numbers <!--SR:!2031-09-19,2002,405!2032-06-13,2352,425-->
 - [molecule](../../../../general/molecule.md) ::@:: a group of multiple atoms held together by chemical bonds <!--SR:!2030-12-13,1885,405!2026-06-12,559,405-->
 - interactions between [light](../../../../general/light.md) and [matter](../../../../general/matter.md) ::@:: absorption, emission, reflection, scattering, transmissions, etc. <!--SR:!2026-04-15,509,405!2028-06-19,1114,385-->
 - [specular reflection](../../../../general/specular%20reflection.md) ::@:: mirror-like reflection of waves, such as light, from a surface; the law of reflection says the incidence angle and reflection angle are equal; in practice, some waves may be absorbed, reducing intensity <!--SR:!2029-04-29,1367,385!2030-06-15,1737,405-->

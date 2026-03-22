@@ -24,7 +24,7 @@ tags:
 
 {@{_Lisp_}@} is {@{the oldest functional language}@}, created by {@{John McCarthy in 1959–60as a _List processor_}@}. It was designed to manipulate {@{symbolic data structures—trees and lists}@}—while other early languages {@{handled only arrays or records}@}. {@{Lisp’s simplicity}@} enabled {@{many landmark applications}@} such as {@{Macsyma, Emacs, AutoCAD and the ITA flight‑information system}@}. <!--SR:!2026-04-04,60,320!2026-04-16,72,320!2026-04-12,68,320!2026-04-04,61,320!2026-04-03,59,320!2026-04-17,74,320!2026-04-08,65,320!2026-04-03,59,320-->
 
-Over {@{five decades}@} the language has {@{branched into several dialects}@}: {@{Common Lisp (full–blown), Scheme (minimalist teaching language)}@}, {@{Racket, Clojure on the JVM, and Elisp for Emacs}@}. The version used here is {@{a small subset of Scheme}@}. Compared with Scala, Lisp has {@{no complex syntax, no static types}@}, builds {@{everything from cons cells, and treats programs as lists that can be manipulated by code}@}. <!--SR:!2026-04-13,69,320!2026-04-11,68,320!2026-04-18,74,320!2026-04-03,59,320!2026-03-27,58,310!2026-04-13,69,320!2026-04-04,61,320-->
+Over {@{five decades}@} the language has {@{branched into several dialects}@}: {@{Common Lisp (full–blown), Scheme (minimalist teaching language)}@}, {@{Racket, Clojure on the JVM, and Elisp for Emacs}@}. The version used here is {@{a small subset of Scheme}@}. Compared with Scala, Lisp has {@{no complex syntax, no static types}@}, builds {@{everything from cons cells, and treats programs as lists that can be manipulated by code}@}. <!--SR:!2026-04-13,69,320!2026-04-11,68,320!2026-04-18,74,320!2026-04-03,59,320!2026-12-06,254,330!2026-04-13,69,320!2026-04-04,61,320-->
 
 {@{A lightweight interpreter for a subset of Scheme}@} is written in Scala by defining {@{an abstract syntax tree, an evaluator that matches on the AST, and a global environment mapping symbols to values}@}. <!--SR:!2026-04-13,69,320!2026-04-14,70,320-->
 
@@ -82,7 +82,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 > (cdr xs)              ;; → (2 3)
 > (null? xs)            ;; → #f
 > ```
-<!--SR:!2026-04-04,60,320!2026-04-03,59,320!2026-03-27,58,310!2026-04-04,60,320!2026-04-17,73,320-->
+<!--SR:!2026-04-04,60,320!2026-04-03,59,320!2026-12-07,255,330!2026-04-04,60,320!2026-04-17,73,320-->
 
 ## interpreter
 

@@ -79,7 +79,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def map[U](f: T => U): F[U] = flatMap(f andThen unit)
 > ```
 >
-> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2026-04-01,66,310!2026-11-16,246,330!2026-11-06,237,330!2026-03-28,62,310!2026-11-16,246,330!2026-03-27,61,310!2026-11-27,255,330!2026-12-04,255,330-->
+> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2026-04-01,66,310!2026-11-16,246,330!2026-11-06,237,330!2026-03-28,62,310!2026-11-16,246,330!2026-12-16,264,330!2026-11-27,255,330!2026-12-04,255,330-->
 
 {@{A concrete instance of `Monad`, `ListMonad`}@}, shows how {@{the abstraction works}@}: <!--SR:!2026-04-02,63,310!2026-03-31,65,310-->
 
@@ -100,7 +100,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ### monad example motivation
 
-{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-12-12,261,330!2026-10-27,228,330!2026-03-27,61,310!2026-11-05,237,330!2026-12-09,259,330-->
+{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-12-12,261,330!2026-10-27,228,330!2026-12-20,268,330!2026-11-05,237,330!2026-12-09,259,330-->
 
 > [!example] __`sequence`__
 >
@@ -145,7 +145,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[U](f: T => U): F[U]
 > ```
 >
-> Intuitively, given {@{a function `T => U` in the original context}@}, `map` applies {@{the same function in the `Functor` context `F[_]`}@}. <!--SR:!2026-03-27,61,310!2026-04-02,67,310!2026-03-29,63,310!2026-11-13,243,330-->
+> Intuitively, given {@{a function `T => U` in the original context}@}, `map` applies {@{the same function in the `Functor` context `F[_]`}@}. <!--SR:!2026-12-20,268,330!2026-04-02,67,310!2026-03-29,63,310!2026-11-13,243,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -161,7 +161,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[B](f: A => B): F[B] = ap(pure(f))(fa)
 > ```
 >
-> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-11-16,246,330!2026-09-04,177,310!2026-03-27,61,310!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-12-07,257,330!2026-09-22,182,310!2026-11-03,235,330-->
+> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2026-04-06,67,310!2026-11-16,246,330!2026-09-04,177,310!2026-12-18,266,330!2026-03-29,63,310!2026-04-08,67,310!2026-04-01,66,310!2026-12-07,257,330!2026-09-22,182,310!2026-11-03,235,330-->
 
 {@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2026-03-31,65,310!2026-04-08,67,310!2026-09-07,175,310!2026-03-28,62,310-->
 
@@ -176,7 +176,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   def sequence[G[_]: Applicative, A](fga: F[G[A]]): G[F[A]] = traverse(fga)(id)
 > ```
 >
-> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-03-28,62,310!2026-03-27,61,310!2026-09-28,193,310!2026-03-27,61,310!2026-03-31,65,310!2026-11-20,249,330!2026-11-24,252,330!2026-08-01,156,310!2026-04-04,63,310-->
+> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-03-28,62,310!2026-12-15,263,330!2026-09-28,193,310!2026-12-19,267,330!2026-03-31,65,310!2026-11-20,249,330!2026-11-24,252,330!2026-08-01,156,310!2026-04-04,63,310-->
 
 {@{The Cats library (<https://typelevel.org/cats>)}@} supplies {@{many such type classes}@}, allowing {@{concise and generic code across different data types}@}. <!--SR:!2026-04-02,61,310!2026-04-01,60,310!2026-03-28,62,310-->
 
@@ -199,7 +199,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-04-02,67,310!2026-10-29,230,330!2026-04-08,67,310!2026-04-01,66,310-->
 
-{@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2026-04-08,67,310!2026-04-01,66,310!2026-03-27,61,310-->
+{@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2026-04-08,67,310!2026-04-01,66,310!2026-12-17,265,330-->
 
 > [!example] __OCaml monad module__
 >

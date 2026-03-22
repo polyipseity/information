@@ -11,7 +11,7 @@ tags:
 
 # linear temporal logic
 
-In [logic](logic.md), {@{__linear temporal logic__ or __linear-time temporal logic__<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> \(__LTL__\)}@} is {@{a [modal](modal%20logic.md) [temporal logic](temporal%20logic.md) with modalities referring to time}@}. In LTL, one can {@{encode [formulae](well-formed%20formula.md) about the future of [paths](path%20(graph%20theory).md)}@}, e.g., {@{a condition will eventually be true, a condition will be true until another fact becomes true}@}, etc. It is a fragment of {@{the more complex [CTL\*](CTL*.md)}@}, which {@{additionally allows branching time and [quantifiers](quantifier%20(logic).md)}@}. LTL is sometimes called {@{_propositional temporal logic_, abbreviated _PTL_}@}.<sup>[\[3\]](#^ref-3)</sup> In terms of {@{[expressive power](expressive%20power%20(computer%20science).md)}@}, linear temporal logic \(LTL\) is {@{a fragment of [first-order logic](first-order%20logic.md)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2028-09-08,1076,363!2030-05-13,1568,370!2026-03-27,376,363!2027-07-30,739,337!2026-03-31,380,363!2029-12-14,1433,370!2029-02-02,1187,357!2027-04-28,603,317!2026-03-31,380,363-->
+In [logic](logic.md), {@{__linear temporal logic__ or __linear-time temporal logic__<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> \(__LTL__\)}@} is {@{a [modal](modal%20logic.md) [temporal logic](temporal%20logic.md) with modalities referring to time}@}. In LTL, one can {@{encode [formulae](well-formed%20formula.md) about the future of [paths](path%20(graph%20theory).md)}@}, e.g., {@{a condition will eventually be true, a condition will be true until another fact becomes true}@}, etc. It is a fragment of {@{the more complex [CTL\*](CTL*.md)}@}, which {@{additionally allows branching time and [quantifiers](quantifier%20(logic).md)}@}. LTL is sometimes called {@{_propositional temporal logic_, abbreviated _PTL_}@}.<sup>[\[3\]](#^ref-3)</sup> In terms of {@{[expressive power](expressive%20power%20(computer%20science).md)}@}, linear temporal logic \(LTL\) is {@{a fragment of [first-order logic](first-order%20logic.md)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2028-09-08,1076,363!2030-05-13,1568,370!2031-05-12,1872,383!2027-07-30,739,337!2026-03-31,380,363!2029-12-14,1433,370!2029-02-02,1187,357!2027-04-28,603,317!2026-03-31,380,363-->
 
 LTL was first {@{proposed for the [formal verification](formal%20verification.md) of computer programs}@} by {@{[Amir Pnueli](Amir%20Pnueli.md) in 1977}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2030-12-19,1757,383!2026-09-27,489,323-->
 
@@ -47,7 +47,7 @@ The additional logical operators are defined as follows:
 - and ::@:: φ ∧ ψ ≡ ¬\(¬φ ∨ ¬ψ\) <!--SR:!2026-04-24,399,363!2030-02-20,1501,370-->
 - implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2029-08-11,1338,357!2030-02-21,1502,370-->
 - material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \(ψ → φ\) <!--SR:!2030-01-02,1452,370!2031-04-24,1858,383-->
-- true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2026-03-27,376,363!2029-06-14,1281,363-->
+- true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2031-05-13,1873,383!2029-06-14,1281,363-->
 - false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2031-04-19,1852,383!2028-12-30,1161,357-->
 
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2029-06-18,1284,363-->

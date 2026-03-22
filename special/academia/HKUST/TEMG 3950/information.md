@@ -133,7 +133,7 @@ root cause analysis, 5 whys
 <!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←4P: McCarthy's 4 Ps <!--SR:!2028-04-14,1003,321!2029-10-16,1536,361-->
-- 4P: McCarthy's 4 Ps→::@::←5-step persuasive selling <!--SR:!2026-03-27,399,261!2026-06-10,495,301-->
+- 4P: McCarthy's 4 Ps→::@::←5-step persuasive selling <!--SR:!2030-03-24,1458,281!2026-06-10,495,301-->
 - 5-step persuasive selling→::@::←5C: Chernev 5C framework <!--SR:!2031-02-21,1807,321!2031-12-26,2115,341-->
 - 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2028-03-23,998,301!2026-09-08,609,321-->
 - 5F: Porter's 5 forces framework→::@::←7S: McKinsey 7S framework <!--SR:!2030-08-26,1671,321!2027-09-23,913,341-->

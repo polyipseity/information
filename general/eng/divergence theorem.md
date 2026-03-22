@@ -120,7 +120,7 @@ We are going to prove the following:<sup>\[_[citation needed](https://en.wikiped
 
 ## corollaries
 
-By {@{replacing __F__ in the divergence theorem with specific forms}@}, {@{other useful identities}@} can be derived \(cf. {@{[vector identities](vector%20identities.md)}@}\).<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-27,181,310!2026-06-08,254,330!2026-06-18,261,330-->
+By {@{replacing __F__ in the divergence theorem with specific forms}@}, {@{other useful identities}@} can be derived \(cf. {@{[vector identities](vector%20identities.md)}@}\).<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2028-05-11,776,330!2026-06-08,254,330!2026-06-18,261,330-->
 
 - With $\mathbf {F} \rightarrow \mathbf {F} g$ for a scalar function _g_ and a vector field __F__, ::@:: $$\iiint _{V}\left[\mathbf {F} \cdot \left(\nabla g\right)+g\left(\nabla \cdot \mathbf {F} \right)\right]\mathrm {d} V= \oiint_S g\mathbf {F} \cdot \mathbf {n} \mathrm {d} S \,.$$ A special case of this is $\mathbf {F} =\nabla f$, in which case the theorem is the basis for [Green's identities](Green's%20identities.md). <!--SR:!2026-06-13,257,330!2026-06-16,259,330-->
 - With $\mathbf {F} \rightarrow \mathbf {F} \times \mathbf {G}$ for two vector fields __F__ and __G__, where $\times$ denotes a cross product, ::@:: $$\iiint _{V}\nabla \cdot \left(\mathbf {F} \times \mathbf {G} \right)\mathrm {d} V=\iiint _{V}\left[\mathbf {G} \cdot \left(\nabla \times \mathbf {F} \right)-\mathbf {F} \cdot \left(\nabla \times \mathbf {G} \right)\right]\,\mathrm {d} V= \oiint_S (\mathbf {F} \times \mathbf {G} )\cdot \mathbf {n} \mathrm {d} S \,.$$ <!--SR:!2026-07-14,283,330!2026-07-12,281,330-->

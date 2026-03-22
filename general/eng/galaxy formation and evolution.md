@@ -24,7 +24,7 @@ Because of {@{the inability to conduct experiments in outer space}@}, {@{the onl
 - The majority of giant galaxies contain {@{a [supermassive black hole](supermassive%20black%20hole.md) in their centers, ranging in mass from millions to billions of times the mass of the [Sun](Sun.md)}@}. The black hole mass is {@{tied to the host galaxy bulge or spheroid mass}@}.
 - {@{[Metallicity](metallicity.md)}@} has {@{a positive correlation with the luminosity (negative correlation with the [absolute magnitude](absolute%20magnitude.md)) of a galaxy}@}. <!--SR:!2027-08-21,822,330!2027-11-17,909,330!2027-06-18,654,270!2028-07-22,1052,310!2026-06-25,505,310!2030-01-30,1433,290!2028-10-04,1173,350!2028-03-18,1016,350!2026-11-21,626,330!2027-12-16,914,330-->
 
-Astronomers now believe that {@{disk galaxies likely formed first}@}, then {@{evolved into elliptical galaxies through galaxy mergers}@}. <!--SR:!2028-06-06,1080,350!2026-03-27,435,310-->
+Astronomers now believe that {@{disk galaxies likely formed first}@}, then {@{evolved into elliptical galaxies through galaxy mergers}@}. <!--SR:!2028-06-06,1080,350!2029-12-09,1353,310-->
 
 {@{Current models}@} also predict that {@{the majority of mass in galaxies is made up of [dark matter](dark%20matter.md)}@}, a substance which is {@{not directly observable, and might not interact through any means except gravity}@}. {@{This observation arises}@} because {@{galaxies could not have formed as they have, or rotate as they are seen to}@}, unless they contain {@{far more mass than can be directly observed}@}. <!--SR:!2029-08-25,1329,310!2027-12-18,807,290!2027-03-08,417,380!2027-03-07,416,380!2027-04-02,433,380!2027-03-04,413,380-->
 

@@ -84,7 +84,7 @@ For assets bought or sold mid‑year, companies may adopt one of several _fracti
 - _Nearest full month_ ::@:: – each month counts as one‑twelth of a year, so the depreciation for a purchase on 10 June would be $\frac{7}{12}$ of the yearly amount; <!--SR:!2026-12-01,255,330!2026-12-06,259,330-->
 - _Half‑year rule_ ::@:: – the asset is treated as if it had been in service for exactly six months regardless of the actual acquisition date, simplifying calculation but potentially overstating or understating depreciation; <!--SR:!2026-11-18,243,330!2026-11-04,236,330-->
 - _Full year in acquisition, none in disposal_ ::@:: – a new asset receives a full yearly charge even though it was only owned part‑time, while an asset sold before year’s end receives no depreciation for that period; <!--SR:!2026-09-11,178,310!2026-11-15,245,330-->
-- _None in acquisition, full year in disposal_ ::@:: – the reverse of the previous rule: the newly acquired asset is not depreciated until the next fiscal year, but a disposed asset still accrues a full yearly charge for the period it was held. <!--SR:!2026-03-27,64,310!2026-03-30,67,310-->
+- _None in acquisition, full year in disposal_ ::@:: – the reverse of the previous rule: the newly acquired asset is not depreciated until the next fiscal year, but a disposed asset still accrues a full yearly charge for the period it was held. <!--SR:!2026-12-31,279,330!2026-03-30,67,310-->
 
 ## revision of depreciation rates
 

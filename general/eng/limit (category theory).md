@@ -104,7 +104,7 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 - __[Initial objects](initial%20object.md)__ ::@:: are colimits of empty diagrams. <!--SR:!2026-04-21,362,358!2028-07-01,902,330-->
 - __[Coproducts](coproduct.md)__ ::@:: are colimits of diagrams indexed by discrete categories. <!--SR:!2029-03-11,1180,358!2026-05-14,380,358-->
   - __Copowers__ ::@:: are colimits of constant diagrams from discrete categories. <!--SR:!2030-05-10,1536,373!2026-05-07,373,358-->
-- __[Coequalizers](coequalizer.md)__ ::@:: are colimits of a parallel pair of morphisms. <!--SR:!2026-04-12,354,353!2026-03-27,339,345-->
+- __[Coequalizers](coequalizer.md)__ ::@:: are colimits of a parallel pair of morphisms. <!--SR:!2026-04-12,354,353!2029-06-06,1167,345-->
   - __[Cokernels](cokernel.md)__ ::@:: are coequalizers of a morphism and a parallel zero morphism. <!--SR:!2026-05-06,372,358!2029-05-23,1176,310-->
 - __[Pushouts](pushout%20(category%20theory).md)__ ::@:: are colimits of a pair of morphisms with common domain. <!--SR:!2029-09-06,1309,358!2026-03-31,346,358-->
 - __[Direct limits](direct%20limit.md)__ ::@:: are colimits of diagrams indexed by directed sets. <!--SR:!2026-06-26,368,313!2028-12-31,1129,358-->

@@ -145,7 +145,7 @@ return chain.from_iterable(await gather(
 - [Liebig condenser](Liebig%20condenser.md)→::@::←[beaker](beaker.md) <!--SR:!2032-06-08,2553,330!2028-01-26,1368,350-->
 - [beaker](beaker.md)→::@::←[burette](burette.md) <!--SR:!2029-10-24,1369,250!2026-11-03,942,330-->
 - [burette](burette.md)→::@::←[burette clamp](burette%20clamp.md) <!--SR:!2031-02-16,1904,330!2027-05-07,1162,350-->
-- [burette clamp](burette%20clamp.md)→::@::←[clamp](clamp.md) <!--SR:!2030-01-12,1457,310!2026-03-27,501,310-->
+- [burette clamp](burette%20clamp.md)→::@::←[clamp](clamp.md) <!--SR:!2030-01-12,1457,310!2030-06-25,1551,310-->
 - [clamp](clamp.md)→::@::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2032-02-02,2187,270!2026-08-15,412,210-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→::@::←[crucible](crucible.md) <!--SR:!2028-05-02,770,170!2026-08-16,782,270-->
 - [crucible](crucible.md)→::@::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->

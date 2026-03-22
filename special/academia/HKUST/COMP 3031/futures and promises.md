@@ -18,7 +18,7 @@ tags:
 
 - see: [general/futures and promises](../../../../general/futures%20and%20promises.md)
 
-{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!2026-11-20,249,330!2026-03-27,59,310!2026-11-03,235,330!2026-04-05,67,310-->
+{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!2026-11-20,249,330!2026-12-09,257,330!2026-11-03,235,330!2026-04-05,67,310-->
 
 ## motivation
 
@@ -26,7 +26,7 @@ When a function has to wait {@{for an I/O operation or a remote service}@}, {@{b
 
 ### continuation-passing style
 
-A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!2026-11-09,240,330!2026-11-22,251,330!2026-11-07,238,330!2026-03-27,59,310-->
+A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!2026-11-09,240,330!2026-11-22,251,330!2026-11-07,238,330!2026-12-11,259,330-->
 
 > [!example] __callback nesting__
 >
@@ -66,9 +66,9 @@ Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS
 >
 > Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2026-04-04,67,310!2026-03-29,61,310!2026-11-19,248,330!2026-12-01,251,330!2026-04-05,67,310!2026-04-01,63,310-->
 
-Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-03-28,60,310!2026-11-11,241,330!2026-03-27,59,310!2026-04-05,67,310!2026-04-04,67,310!2026-04-03,65,310-->
+Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-03-28,60,310!2026-11-11,241,330!2026-12-11,259,330!2026-04-05,67,310!2026-04-04,67,310!2026-04-03,65,310-->
 
-Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surrounding `try/catch` blocks unless explicitly handled inside the callback}@}. <!--SR:!2026-03-27,59,310!2026-04-01,63,310-->
+Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surrounding `try/catch` blocks unless explicitly handled inside the callback}@}. <!--SR:!2026-12-11,259,330!2026-04-01,63,310-->
 
 ### CPS to direct style
 
@@ -273,7 +273,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 >
 > {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-03-28,60,310!2026-11-24,252,330!2026-03-28,60,310!2026-03-29,61,310!2026-11-02,234,330!2026-04-05,67,310!2026-04-04,67,310-->
 
-{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-03-27,59,310!2026-04-05,67,310!2026-04-04,67,310!2026-04-05,67,310!2026-12-01,251,330!2026-11-05,237,330!2026-03-30,61,310!2026-11-18,247,330!2026-04-04,67,310-->
+{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-12-11,259,330!2026-04-05,67,310!2026-04-04,67,310!2026-04-05,67,310!2026-12-01,251,330!2026-11-05,237,330!2026-03-30,61,310!2026-11-18,247,330!2026-04-04,67,310-->
 
 ## execution context
 
@@ -329,4 +329,4 @@ When {@{an existing library}@} offers {@{a callback‑based asynchronous method}
 >
 > Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-12-06,255,330!2026-11-24,252,330!2026-11-12,242,330!2026-12-01,251,330!2026-04-04,67,310!2026-11-16,246,330!2026-03-28,60,310!2026-05-07,82,357!2026-05-07,82,357!2026-05-07,82,357-->
 
-Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-04-05,67,310!2026-03-27,59,310!2026-03-30,61,310!2026-11-21,250,330!2026-11-04,236,330!2026-11-20,249,330!2026-05-07,82,357-->
+Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-04-05,67,310!2026-12-11,259,330!2026-03-30,61,310!2026-11-21,250,330!2026-11-04,236,330!2026-11-20,249,330!2026-05-07,82,357-->

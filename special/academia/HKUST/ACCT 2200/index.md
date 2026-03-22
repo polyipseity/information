@@ -436,7 +436,7 @@ The content is in teaching order.
 - topic: incremental analysis for short-term decision making
 - continue or discontinue ::@:: Decide if a particular segment of a business needs to be dropped. <!--SR:!2027-12-02,781,430!2027-08-16,696,430-->
   - continue or discontinue / aliases ::@:: keep or drop <!--SR:!2027-11-21,771,429!2027-09-24,730,429-->
-  - continue or discontinue / factors ::@:: incremental costs and benefits, opportunity costs, qualitative factors, segment cannibalism and synergy <!--SR:!2026-03-27,274,389!2027-11-05,758,429-->
+  - continue or discontinue / factors ::@:: incremental costs and benefits, opportunity costs, qualitative factors, segment cannibalism and synergy <!--SR:!2030-03-23,1457,409!2027-11-05,758,429-->
     - continue or discontinue / factors / incremental costs and benefits ::@:: The segment contribution, which includes direct fixed costs but not common/shared fixed costs, needs to be considered. <!--SR:!2027-03-05,528,409!2027-09-21,727,430-->
     - continue or discontinue / factor / opportunity costs ::@:: Consider the alternative uses of resources tied up in the segment. <!--SR:!2027-12-23,799,430!2027-09-17,724,429-->
     - continue or discontinue / factor / segment cannibalism and synergy ::@:: Consider the effect of eliminating a segment on other segments. <p> Eliminating _subsitute goods_ \(within your own products\) generally increases the sale of other goods, while eliminating _complementary goods_ \(within your own products\) generally decreases the sale of other goods. <!--SR:!2027-09-10,718,430!2027-09-28,734,430-->

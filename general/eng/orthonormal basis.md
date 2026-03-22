@@ -31,7 +31,7 @@ If we go on to {@{[Hilbert spaces](Hilbert%20space.md)}@}, {@{a non-orthonormal 
 
 - The set {@{$\left\{f_{n}:n\in \mathbb {Z} \right\}$ with $f_{n}(x)=\exp(2\pi inx)$}@}, where {@{$\exp$ denotes the [exponential function](exponential%20function.md)}@}, forms {@{an orthonormal basis of the space of functions}@} with {@{finite Lebesgue integrals, $L^{2}([0,1])$, with respect to the [2-norm](2-norm.md)}@}. This is {@{fundamental to the study of [Fourier series](Fourier%20series.md)}@}. <!--SR:!2027-08-01,642,324!2026-09-29,411,304!2026-04-20,333,344!2026-04-24,337,344!2028-03-17,775,304-->
 
-- The {@{set $\left\{e_{b}:b\in B\right\}$ with $e_{b}(c)=1$ if $b=c$ and $e_{b}(c)=0$ otherwise}@} forms {@{an orthonormal basis of $\ell ^{2}(B)$}@}. <!--SR:!2026-03-27,316,344!2026-04-26,312,290-->
+- The {@{set $\left\{e_{b}:b\in B\right\}$ with $e_{b}(c)=1$ if $b=c$ and $e_{b}(c)=0$ otherwise}@} forms {@{an orthonormal basis of $\ell ^{2}(B)$}@}. <!--SR:!2030-04-28,1493,364!2026-04-26,312,290-->
 
 - {@{[Eigenfunctions](eigenfunction.md)}@} of {@{a [Sturm–Liouville eigenproblem](Sturm–Liouville%20eigenproblem.md)}@}. <!--SR:!2029-02-19,1114,344!2028-09-16,1010,344-->
 

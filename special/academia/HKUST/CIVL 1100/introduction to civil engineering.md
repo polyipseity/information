@@ -44,7 +44,7 @@ The content is in teaching order.
   - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2032-03-16,2224,360!2030-11-20,1931,397-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2026-03-27,517,352-->
+    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2033-01-30,2501,372-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2029-07-16,1373,307!2031-01-17,1955,400-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!2026-10-21,698,360-->

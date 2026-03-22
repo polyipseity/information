@@ -115,7 +115,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2029-03-08,1297,309!2027-06-01,683,269-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation <!--SR:!2027-08-23,710,245!2028-02-07,979,305-->
 - opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2026-04-24,325,209-->
-- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2026-09-03,333,169!2026-03-27,353,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2026-09-03,333,169!2028-06-12,808,229-->
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2027-03-27,704,289-->
 
 <!--/pytextgen-->

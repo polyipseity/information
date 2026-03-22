@@ -297,7 +297,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type <!-- flashcard ID: 54af6d8c-884f-4894-bb1a-ce65254b1063 -->::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2026-03-27,463,297!2032-06-30,2424,410-->
+- bridge type <!-- flashcard ID: 54af6d8c-884f-4894-bb1a-ce65254b1063 -->::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2030-01-04,1379,297!2032-06-30,2424,410-->
 - description ::@:: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-02-14,749,330!2033-02-13,2614,412-->
 - image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2033-07-31,2752,420!2031-03-28,2030,400-->
 - length ::@:: 2160 m, longest span: 1377 m <!--SR:!2029-08-12,1381,300!2030-11-28,1914,400-->
@@ -323,5 +323,5 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::@:: swimming center in Beijing, China <!--SR:!2029-01-23,1380,366!2032-12-01,2558,414-->
-- image ::@:: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2033-10-04,2805,420!2026-03-27,561,400-->
+- image ::@:: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2033-10-04,2805,420!2034-08-15,3063,420-->
 - shape ::@:: cube covered with bubbles <!--SR:!2028-11-16,1338,390!2027-08-03,945,350-->

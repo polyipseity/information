@@ -228,7 +228,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Ending Inventory}@}        | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
 > | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2029-03-13,1133,350!2026-04-03,306,350!2026-05-24,342,350!2026-05-07,335,350!2026-04-21,320,350!2026-05-27,345,350!2026-05-04,332,350!2026-04-23,322,350!2026-05-24,342,350!2029-11-17,1337,350!2029-04-09,1155,350!2026-05-03,331,350!2029-01-25,1092,350!2026-05-31,349,350!2029-01-26,1093,350!2026-04-22,321,350!2029-11-09,1331,350-->
 
-- process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2026-03-27,299,350!2026-11-25,455,310-->
+- process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2030-03-04,1438,370!2026-11-25,455,310-->
   - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-04-04,307,350!2026-11-24,459,330-->
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2029-04-01,1149,350!2029-03-10,1131,350-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2029-08-12,1258,350!2028-10-06,999,350-->
@@ -325,7 +325,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------ | ------------------------------:| ------------------------------:| ------------------------------:|
 > | {@{Machine Hours}@}      | {@{200}@}                      | {@{220}@}                      | {@{420}@}                      |
 > | {@{Activity Rate}@}      | {@{×&nbsp;&dollar;&emsp;10}@}  | {@{×&nbsp;&dollar;&emsp;10}@}  |                                |
-> |                          | {@{&dollar;&emsp;2&nbsp;000}@} | {@{&dollar;&emsp;2&nbsp;200}@} | {@{&dollar;&emsp;4&nbsp;200}@} | <!--SR:!2026-05-27,345,350!2026-05-21,339,350!2026-05-18,336,350!2029-07-20,1238,350!2026-04-22,321,350!2026-05-16,334,350!2026-05-22,340,350!2029-08-06,1253,350!2029-07-25,1242,350!2026-03-27,299,350!2029-04-19,1163,350!2026-05-31,349,350!2029-11-26,1345,350!2029-08-16,1260,350-->
+> |                          | {@{&dollar;&emsp;2&nbsp;000}@} | {@{&dollar;&emsp;2&nbsp;200}@} | {@{&dollar;&emsp;4&nbsp;200}@} | <!--SR:!2026-05-27,345,350!2026-05-21,339,350!2026-05-18,336,350!2029-07-20,1238,350!2026-04-22,321,350!2026-05-16,334,350!2026-05-22,340,350!2029-08-06,1253,350!2029-07-25,1242,350!2030-03-09,1443,370!2029-04-19,1163,350!2026-05-31,349,350!2029-11-26,1345,350!2029-08-16,1260,350-->
 
 - activity cost allocation
   - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2028-09-29,992,350!2029-06-25,1217,350-->
@@ -341,7 +341,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------ | -----------------:| ----------------:| -----------:|
 > | {@{Number of Units Produced}@} | {@{300}@}         | {@{100}@}        | {@{400}@}   |
 > | {@{Average Units Per Batch}@}  | {@{20}@}          | {@{5}@}          |             |
-> | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2026-05-16,334,350!2029-01-21,1088,350!2029-11-03,1326,350!2029-02-16,1109,350!2026-05-16,334,350!2029-10-07,1304,350!2026-04-26,325,350!2026-03-29,301,350!2026-06-02,351,350!2029-04-17,1162,350!2029-04-05,1152,350!2029-06-30,1221,350!2026-05-27,345,350!2026-04-30,329,350!2026-03-27,299,350-->
+> | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2026-05-16,334,350!2029-01-21,1088,350!2029-11-03,1326,350!2029-02-16,1109,350!2026-05-16,334,350!2029-10-07,1304,350!2026-04-26,325,350!2026-03-29,301,350!2026-06-02,351,350!2029-04-17,1162,350!2029-04-05,1152,350!2029-06-30,1221,350!2026-05-27,345,350!2026-04-30,329,350!2030-03-03,1437,370-->
 
 - activity cost driver - setups
   - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2027-08-26,681,330!2029-10-07,1304,350-->

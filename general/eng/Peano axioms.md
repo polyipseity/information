@@ -127,7 +127,7 @@ This form of the induction axiom, called {@{_strong induction_, is a consequence
 - proving the naturals are well-ordered / base case ::@:: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2026-08-24,541,325!2027-06-05,760,330-->
 - proving the naturals are well-ordered / induction ::@:: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2026-05-20,469,325!2029-03-30,1255,325-->
 
-Thus, by {@{the strong induction principle}@}, for {@{every _n_ ∈ __N__, _n_ ∉ _X_}@}. Thus, {@{_X_ ∩ __N__ = ∅}@}, which {@{[contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2027-12-07,778,285!2028-01-14,946,345!2028-01-03,659,416!2026-03-28,132,396!2026-03-27,131,396-->
+Thus, by {@{the strong induction principle}@}, for {@{every _n_ ∈ __N__, _n_ ∉ _X_}@}. Thus, {@{_X_ ∩ __N__ = ∅}@}, which {@{[contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2027-12-07,778,285!2028-01-14,946,345!2028-01-03,659,416!2026-03-28,132,396!2028-03-03,707,416-->
 
 ## references
 
