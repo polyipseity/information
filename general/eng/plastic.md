@@ -20,7 +20,7 @@ __Plastics__ are {@{[synthetic](synthetic%20polymers.md) or semi-synthetic [mate
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = ('name', '[chemical formula](chemical%20formula.md)', '[property(s)](property.md)', 'use(s)',)
 table = (
@@ -32,24 +32,25 @@ table = (
   ('[polystyrene](polystyrene.md) (PS)', '![polystyrene](../../archives/Wikimedia%20Commons/Polystyrene.svg)', 'expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md)', 'expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md)'),
   ('[polyvinyl chloride](polyvinyl%20chloride.md) (PVC)', '![polyvinyl chloride](../../archives/Wikimedia%20Commons/Polyvinylchlorid.svg)', '[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md)', '[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md)',),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects('9403', '234a',),
     headers, table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '30f9', '9283',),
     items_to_map(*(row[:2] for row in table)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, 'e928', None,),
     items_to_map(*((row[0], row[2]) for row in table)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, 'aa92', None,),
     items_to_map(*((row[0], row[3]) for row in table)),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="9403"--><!-- The following content is generated at 2026-01-25T23:32:19.043346+08:00. Any edits will be overridden! -->

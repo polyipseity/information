@@ -23,7 +23,6 @@ An elastic modulus has the form: {@{$$\delta \overset {\text{def} } = \frac {\te
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
 from pytextgen.compat.util import Result
 
 items = R"""

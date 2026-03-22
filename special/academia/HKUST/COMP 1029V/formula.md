@@ -31,7 +31,7 @@ Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} 
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "operator", "description"
 table = (
@@ -49,17 +49,18 @@ table = (
     "subtraction",
   ),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("93ab", "f21a",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "9cda", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2026-01-25T23:32:20.917433+08:00. Any edits will be overridden! -->
@@ -95,7 +96,7 @@ Below are common comparison operators, all of which returns {@{booleans}@}. {@{R
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "operator", "description"
 table = (
@@ -103,20 +104,21 @@ table = (
   ("`<`", "lesser than",),
   ("`>`", "greater than",),
   ("`<=`", "lesser than or equal to",),
-  ("`>=`", "greater than or equal to",),
+  (("`>="", "greater than or equal to",),
   ("`<>`", "not equal to",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("bd23", "d123",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "cc23", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="bd23"--><!-- The following content is generated at 2026-01-25T23:32:20.967213+08:00. Any edits will be overridden! -->
@@ -165,7 +167,7 @@ Below are common logic functions, all of which {@{accept booleans and return boo
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "function", "description"
 table = (
@@ -173,17 +175,18 @@ table = (
   ("`AND(booleans...)`", "every input is true",),
   ("`OR(booleans...)`", "there exists true inputs",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("2856", "d882",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "ee13", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="2856"--><!-- The following content is generated at 2026-01-25T23:32:20.977730+08:00. Any edits will be overridden! -->
@@ -219,7 +222,7 @@ Below are common string functions and operators:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "function", "description"
 table = (
@@ -231,17 +234,18 @@ table = (
   ("`SUBSTITUTE(string, old, new)`", "replace all occurrences of `old` with `new` in `string`",),
   ("`UPPER(string)`", "convert to uppercase",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("0ff2", "305b",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "29ca", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="0ff2"--><!-- The following content is generated at 2026-01-25T23:32:21.003172+08:00. Any edits will be overridden! -->
@@ -289,7 +293,7 @@ Below are common functions:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "function", "description"
 table = (
@@ -302,16 +306,17 @@ table = (
   ("`STDEV(numbers...)`", "standard deviation",),
   ("`SUM(numbers...)`", "summation",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("93ba", "ee42",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "f123", None,),
     items_to_map(*table),
-  )
+  ))
 ))
 ```
 

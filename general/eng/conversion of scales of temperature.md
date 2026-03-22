@@ -12,7 +12,7 @@ tags:
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 from pytextgen.compat.util import Location, NULL_LOCATION
 
@@ -28,16 +28,17 @@ async def conversion_table(
   *table: tuple[str, str, str],
 ):
   this_headers = tuple(header.format(temperature) for header in headers)
-  return chain.from_iterable(await gather(
-    memorize_table(
+  results = []
+  async with create_task_group() as tg:
+    results.append(tg.soonify(memorize_table)(
       (locations[0], NULL_LOCATION,),
       this_headers, table,
-    ),
-    memorize_map(
+    ))
+    results.append(tg.soonify(memorize_map)(
       (NULL_LOCATION, *locations[1:3],),
       items_to_map(*((row[0], ", ".join(f"{this_headers[ii]}: {row[ii]}" for ii in range(1, 3)),) for row in table)),
-    ),
-  ))
+    ))
+  return chain.from_iterable([r.value for r in results])
 
 return {
   conversion_table.__name__: conversion_table,

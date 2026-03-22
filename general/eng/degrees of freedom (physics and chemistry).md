@@ -23,7 +23,7 @@ tags:
 ```Python
 # pytextgen generate data
 # import ../../tools/utility.py.md
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = ("type", "[monoatomic](monoatomic%20gas.md)", "[linear molecules](linear%20molecular%20geometry.md)", "[non-linear molecules](molecular%20geometry.md)",)
 table = (
@@ -31,16 +31,17 @@ table = (
   ("[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))", "0", "2", "3",),
   ("[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))", "0", "$2(3N - 5)$", "$2(3N - 6)$",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("dee2", None,),
     headers, table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "2bba", "baa2",),
     items_to_map(*((row[0], ", ".join(f"{headers[ii]}: {row[ii]}" for ii in range(1, 4)),) for row in table)),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="dee2"--><!-- The following content is generated at 2026-01-25T23:32:18.262731+08:00. Any edits will be overridden! -->

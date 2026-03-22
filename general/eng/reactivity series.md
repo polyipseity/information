@@ -20,7 +20,7 @@ A __reactivity series__ is {@{a progression of series of [metals](metal.md) arra
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 
 r_water = "reacts with cold [water](water.md)"
@@ -69,24 +69,25 @@ table = (
   ("[platinum](platinum.md)", "Pt<sup>4+</sup>", r_ox, e_phy,),
 )
 
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("a2994d", "299018"), headers, table,
     pretext="most reactive", posttext="least reactive",
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "1e32", "8912",),
     items_to_map(*((entry[0], entry[1],) for entry in table if entry[1])),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "22ba", "671a",),
     items_to_map(*((entry[0], entry[2],) for entry in table if entry[2])),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "ba24", "ee23",),
     items_to_map(*((entry[0], entry[3],) for entry in table if entry[3])),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="a2994d"--><!-- The following content is generated at 2026-01-25T23:32:19.157835+08:00. Any edits will be overridden! -->

@@ -28,7 +28,7 @@ As different [Moon](Moon.md) phases represent {@{different relative orbital posi
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = R"moon phase", R"visibility", R"average moonrise time", R"culmination time (highest point)", R"average moonset time"
 map_indices = headers.index(R"moon phase"), headers.index(R"visibility")
@@ -42,17 +42,18 @@ table = (
   (R"last quarter", R"late night to morning", R"00:00", R"06:00", R"12:00"),
   (R"waning [crescent](cresceent.md)", R"pre-dawn to early afternoon", R"03:00", R"09:00", R"15:00"),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("2f02", "652a"),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "3b1a", "d8fa"),
     {item[map_indices[0]]: item[map_indices[1]] for item in table},
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="2f02"--><!-- The following content is generated at 2026-01-25T23:32:18.892491+08:00. Any edits will be overridden! -->

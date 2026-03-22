@@ -21,7 +21,7 @@ tags:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 from pytextgen.compat.gen import markdown_sanitizer
 rinse_water = 'Rinse the equipment with deionized [water](water.md) before use.'
@@ -71,22 +71,23 @@ table = (
   ('[wire gauze](wire%20gauze.md)', '![{}](../../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)', '',),
 )
 table = tuple((*entry[:1], entry[1].format(markdown_sanitizer(entry[0])), *entry[2:]) for entry in table)
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects('fadd2e', 'b81237'),
     ('name & image', 'description',),
     table,
     lambda datum: (f'{datum[0]}<br/>{datum[1]}', *datum[2:]),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, 'dd23', 'f002'),
     items_to_map(*(entry[:2] for entry in table)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '3934', None),
     items_to_map(*((entry[0], entry[2]) for entry in table if entry[2])),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="fadd2e"--><!-- The following content is generated at 2026-01-25T23:32:18.725196+08:00. Any edits will be overridden! -->

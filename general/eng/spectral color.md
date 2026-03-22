@@ -18,7 +18,7 @@ tags:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = ("[color](color.md)", "[wavelength](wavelength.md) ([nm](nanometer.md))", "[frequency](frequency.md) ([THz](hertz.md))", "[photon energy](photon%20energy.md) ([eV](electronvolt.md))",)
 table = (
@@ -30,25 +30,26 @@ table = (
   (f"{colored_block("orange")} [orange](orange%20(color).md)", "590–625", "480–510", "1.98–2.10",),
   (f"{colored_block("red")} [red](red.md)", "625–750", "400–480", "1.65–1.98",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("d951", "5861",),
     headers, table,
     pretext=table[0][0], posttext=table[-1][0],
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "948f", "679d",),
     items_to_map(*((entry[0], entry[1]) for entry in table)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "da12", "3349",),
     items_to_map(*((entry[0], entry[2]) for entry in table)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "5680", "e224",),
     items_to_map(*((entry[0], entry[3]) for entry in table)),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}@}. These values are {@{approximations as the spectrum is continuous without clear boundaries}@}.

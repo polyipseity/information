@@ -45,7 +45,7 @@ Below are common data types:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "type", "description"
 table = (
@@ -56,17 +56,18 @@ table = (
   ("`float`", "A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F`",),
   ("`int`", "An integer. Example: `42`",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("2f02", "652a",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "3b1a", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="2f02"--><!-- The following content is generated at 2026-01-25T23:32:20.831872+08:00. Any edits will be overridden! -->
@@ -151,7 +152,7 @@ Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "operator", "description"
 table = (
@@ -176,17 +177,18 @@ table = (
     "subtraction",
   ),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("93ab", "f21a",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "9cda", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2026-01-25T23:32:20.856129+08:00. Any edits will be overridden! -->
@@ -222,7 +224,7 @@ Below are common comparison operators, all of which returns {@{a `boolean` value
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "operator", "description"
 table = (
@@ -233,17 +235,18 @@ table = (
   ("`==`", "equal to",),
   ("`!=`", "not equal to",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("bd23", "d123",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "cc23", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="bd23"--><!-- The following content is generated at 2026-01-25T23:32:20.880781+08:00. Any edits will be overridden! -->
@@ -292,7 +295,7 @@ Below are common logic operators, all of which {@{accept two booleans and return
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "operator", "description"
 table = (
@@ -300,17 +303,18 @@ table = (
   ("`&&`", "and",),
   ("<code>&#124;&#124;</code>", "or",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("2856", "d882",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "ee13", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="2856"--><!-- The following content is generated at 2026-01-25T23:32:20.912410+08:00. Any edits will be overridden! -->
