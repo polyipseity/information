@@ -1595,7 +1595,7 @@ wheels = [
 
 [[package]]
 name = "pyarchivist"
-version = "3.0.0"
+version = "3.0.1"
 source = { directory = "tools/pyarchivist" }
 dependencies = [
     { name = "aiohttp" },
@@ -4496,7 +4496,7 @@ wheels = [
 
 [[package]]
 name = "pytextgen"
-version = "9.0.0"
+version = "9.0.1"
 source = { directory = "tools/pytextgen" }
 dependencies = [
     { name = "anyio" },
