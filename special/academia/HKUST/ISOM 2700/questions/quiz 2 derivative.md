@@ -79,7 +79,7 @@ tags:
 > What is its process capability index?
 >
 > - solution: {@{1.25}@}
-> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2029-07-26,1219,350!2026-03-26,267,330-->
+> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2029-07-26,1219,350!2028-08-23,881,330-->
 
 <!-- markdownlint MD028 -->
 

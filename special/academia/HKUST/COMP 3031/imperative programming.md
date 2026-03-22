@@ -36,7 +36,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   r
 > ```
 >
-> In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2026-03-29,64,310!2026-11-27,255,330!2026-12-08,259,330!2026-11-28,251,330!2026-03-26,61,310-->
+> In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2026-03-29,64,310!2026-11-27,255,330!2026-12-08,259,330!2026-11-28,251,330!2026-12-19,268,330-->
 
 {@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-03-28,63,310!2026-11-13,243,330!2026-03-27,62,310-->
 
@@ -49,7 +49,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   if cond then { body; whileDo(cond)(body) } else ()
 > ```
 >
-> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-11-18,247,330!2026-03-26,61,310!2026-03-28,63,310!2026-11-28,251,330!2026-11-30,252,330!2026-11-10,241,330!2026-11-22,251,330!2026-03-26,61,310!2026-03-29,64,310-->
+> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-11-18,247,330!2026-12-18,267,330!2026-03-28,63,310!2026-11-28,251,330!2026-11-30,252,330!2026-11-10,241,330!2026-11-22,251,330!2026-12-15,264,330!2026-03-29,64,310-->
 
 ### repeat loops
 
@@ -118,7 +118,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### circuit description language
 
-{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-11-15,244,330!2026-03-26,61,310!2026-12-03,255,330!2026-12-08,259,330!2026-10-31,231,330!2026-04-01,67,310-->
+{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-11-15,244,330!2026-12-18,267,330!2026-12-03,255,330!2026-12-08,259,330!2026-10-31,231,330!2026-04-01,67,310-->
 
 > [!example] __basic gates__
 >
@@ -131,7 +131,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-11-28,251,330!2026-11-01,232,330!2026-10-28,229,330!2026-12-11,261,330-->
 
-{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-11-27,255,330!2026-03-27,62,310!2026-11-27,255,330!2026-12-02,254,330!2026-11-11,241,330!2026-12-07,258,330!2026-11-13,243,330!2026-03-26,61,310!2026-03-29,64,310-->
+{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-11-27,255,330!2026-03-27,62,310!2026-11-27,255,330!2026-12-02,254,330!2026-11-11,241,330!2026-12-07,258,330!2026-11-13,243,330!2026-12-16,265,330!2026-03-29,64,310-->
 
 > [!example] __half‑adder construction__
 >
@@ -144,7 +144,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >   inverter(c,e); andGate(d,e,s)
 > ```
 >
-> {@{The same pattern is reused}@} to build {@{a full adder}@}. <!--SR:!2026-03-30,65,310!2026-12-13,263,330!2026-12-10,260,330!2026-03-26,61,310-->
+> {@{The same pattern is reused}@} to build {@{a full adder}@}. <!--SR:!2026-03-30,65,310!2026-12-13,263,330!2026-12-10,260,330!2026-12-17,266,330-->
 
 ### simulation engine
 

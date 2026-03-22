@@ -36,7 +36,7 @@ return await memorize_table(
 > | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 > | {@{cooking utensils}@} | {@{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)}@} |
 > | {@{electric wires}@}   | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)}@}                                                                    |
-> | {@{water pipes}@}      | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@}                          | <!--SR:!2035-06-12,3446,350!2027-07-12,823,210!2026-08-31,897,330!2026-03-26,632,230!2029-01-04,1350,310!2030-02-27,1588,240-->
+> | {@{water pipes}@}      | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@}                          | <!--SR:!2035-06-12,3446,350!2027-07-12,823,210!2026-08-31,897,330!2031-11-15,2060,250!2029-01-04,1350,310!2030-02-27,1588,240-->
 
 <!--/pytextgen-->
 

@@ -10,15 +10,15 @@ tags:
 
 # signal space
 
-A {@{__signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to {@{model transmitted waveforms as points or vectors within a multidimensional Euclidean (or Hilbert) space}@}. By selecting {@{an orthonormal set of basis functions}@}—often derived via {@{Gram–Schmidt orthogonalisation}@}—{@{the time-domain signals}@} are expressed as {@{linear combinations whose coefficients serve as coordinates}@}. <!--SR:!2026-11-27,267,345!2026-03-26,81,344!2026-12-30,280,344!2027-02-03,324,345!2027-02-03,324,345!2027-01-30,320,345!2027-03-31,373,364-->
+A {@{__signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to {@{model transmitted waveforms as points or vectors within a multidimensional Euclidean (or Hilbert) space}@}. By selecting {@{an orthonormal set of basis functions}@}—often derived via {@{Gram–Schmidt orthogonalisation}@}—{@{the time-domain signals}@} are expressed as {@{linear combinations whose coefficients serve as coordinates}@}. <!--SR:!2026-11-27,267,345!2027-04-12,382,364!2026-12-30,280,344!2027-02-03,324,345!2027-02-03,324,345!2027-01-30,320,345!2027-03-31,373,364-->
 
-{@{This geometric view}@} simplifies the analysis of {@{modulation schemes, receiver design, and error performance}@}, enabling designers to visualize {@{constellations, compute Euclidean distances between symbols}@}, and construct {@{matched filters that maximise signal-to-noise ratio}@}. <!--SR:!2026-03-26,81,344!2027-02-03,324,345!2026-12-09,278,345!2027-02-21,339,345-->
+{@{This geometric view}@} simplifies the analysis of {@{modulation schemes, receiver design, and error performance}@}, enabling designers to visualize {@{constellations, compute Euclidean distances between symbols}@}, and construct {@{matched filters that maximise signal-to-noise ratio}@}. <!--SR:!2027-04-06,376,364!2027-02-03,324,345!2026-12-09,278,345!2027-02-21,339,345-->
 
 ## motivation
 
 {@{The optimality of a demodulator}@} holds {@{only within the assumed receiver structure \(e.g. matched filter for LTI filters\)}@}. {@{Altering the signal space or receiver architecture}@} can yield {@{different, potentially better performance for multilevel schemes}@}. <!--SR:!2027-01-25,315,345!2027-03-15,358,364!2026-12-13,281,345!2027-02-24,341,345-->
 
-{@{Digital communication in general \(not limited to LTI filters\)}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}. This perspective turns {@{complex algebra into visual intuition}@} and yields {@{design rules}@} for {@{modulation, demodulation, and receiver optimisation}@}. <!--SR:!2027-03-26,368,364!2027-01-01,297,345!2026-03-26,81,344!2027-04-04,376,364!2026-12-09,277,345!2027-02-15,334,345-->
+{@{Digital communication in general \(not limited to LTI filters\)}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}. This perspective turns {@{complex algebra into visual intuition}@} and yields {@{design rules}@} for {@{modulation, demodulation, and receiver optimisation}@}. <!--SR:!2027-03-26,368,364!2027-01-01,297,345!2027-04-09,379,364!2027-04-04,376,364!2026-12-09,277,345!2027-02-15,334,345-->
 
 ## geometric domain
 
@@ -100,7 +100,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a
 
 ### linear transformations
 
-{@{A mapping $h:\mathbb{R}^n\to\mathbb{R}^m$}@} is {@{_linear_}@} if it {@{preserves addition and scalar multiplication}@}: {@{$$h(\alpha a+\beta b)=\alpha h(a)+\beta h(b), \qquad \forall\,\alpha,\beta\in\mathbb{R},\;a,b\in\mathbb{R}^n \,.$$}@} <!--SR:!2027-02-06,326,345!2027-02-08,328,345!2027-02-18,336,345!2026-03-26,81,344-->
+{@{A mapping $h:\mathbb{R}^n\to\mathbb{R}^m$}@} is {@{_linear_}@} if it {@{preserves addition and scalar multiplication}@}: {@{$$h(\alpha a+\beta b)=\alpha h(a)+\beta h(b), \qquad \forall\,\alpha,\beta\in\mathbb{R},\;a,b\in\mathbb{R}^n \,.$$}@} <!--SR:!2027-02-06,326,345!2027-02-08,328,345!2027-02-18,336,345!2027-04-10,380,364-->
 
 ### linear independence
 
@@ -132,7 +132,7 @@ The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining bas
 
 ## examples
 
-{@{Three unit-amplitude pulses}@} occupying {@{consecutive thirds of an interval}@} are {@{_orthogonal_}@} as each pulse {@{occupies a distinct subinterval}@}. {@{Their coordinates}@} are simply {@{$(1,0,0)$, $(0,1,0)$, and $(0, 0, 1)$}@}, and {@{the basis functions}@} are {@{the three unit-amplitude pulses, but _normalized_}@}. <!--SR:!2027-04-08,379,364!2026-12-04,274,345!2027-02-03,324,345!2026-03-26,81,344!2027-02-07,327,345!2026-10-27,240,330!2026-12-03,273,345!2027-01-20,312,345-->
+{@{Three unit-amplitude pulses}@} occupying {@{consecutive thirds of an interval}@} are {@{_orthogonal_}@} as each pulse {@{occupies a distinct subinterval}@}. {@{Their coordinates}@} are simply {@{$(1,0,0)$, $(0,1,0)$, and $(0, 0, 1)$}@}, and {@{the basis functions}@} are {@{the three unit-amplitude pulses, but _normalized_}@}. <!--SR:!2027-04-08,379,364!2026-12-04,274,345!2027-02-03,324,345!2027-04-11,381,364!2027-02-07,327,345!2026-10-27,240,330!2026-12-03,273,345!2027-01-20,312,345-->
 
 ### sinusoidal examples
 

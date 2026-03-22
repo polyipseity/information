@@ -22,7 +22,7 @@ tags:
 
 ## motivation
 
-When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-03-29,60,310!2026-11-19,248,330!2026-03-26,58,310!2026-11-11,241,330!2026-11-05,237,330!2026-11-08,239,330-->
+When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-03-29,60,310!2026-11-19,248,330!2026-12-06,255,330!2026-11-11,241,330!2026-11-05,237,330!2026-11-08,239,330-->
 
 ### continuation-passing style
 
@@ -129,7 +129,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## future
 
-{@{A `Future[T]`}@} holds {@{a computation that will produce a value of type _T_ (or an exception)}@}. The library schedules {@{the task on an execution context}@} and the caller can register {@{callbacks that run when the future completes}@}. Because {@{the completion is asynchronous}@}, {@{`Future` offers combinators}@} such as {@{`map`, `flatMap`, and `zip`}@} to compose {@{independent computations without blocking}@}, and {@{`recover` and `recoverWith`}@} to {@{handle errors}@}. <!--SR:!2026-04-04,67,310!2026-04-04,66,310!2026-04-05,67,310!2026-03-31,63,310!2026-04-04,67,310!2026-03-29,60,310!2026-11-23,251,330!2026-03-31,62,310!2026-11-23,251,330!2026-03-26,58,310-->
+{@{A `Future[T]`}@} holds {@{a computation that will produce a value of type _T_ (or an exception)}@}. The library schedules {@{the task on an execution context}@} and the caller can register {@{callbacks that run when the future completes}@}. Because {@{the completion is asynchronous}@}, {@{`Future` offers combinators}@} such as {@{`map`, `flatMap`, and `zip`}@} to compose {@{independent computations without blocking}@}, and {@{`recover` and `recoverWith`}@} to {@{handle errors}@}. <!--SR:!2026-04-04,67,310!2026-04-04,66,310!2026-04-05,67,310!2026-03-31,63,310!2026-04-04,67,310!2026-03-29,60,310!2026-11-23,251,330!2026-03-31,62,310!2026-11-23,251,330!2026-12-06,255,330-->
 
 > [!example] __Creating a Future__
 >
@@ -164,7 +164,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## transformations
 
-`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!2026-11-10,241,330!2026-11-25,253,330!2026-04-05,67,310!2026-03-26,58,310!2026-04-04,67,310!2026-10-30,231,330-->
+`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!2026-11-10,241,330!2026-11-25,253,330!2026-04-05,67,310!2026-12-06,255,330!2026-04-04,67,310!2026-10-30,231,330-->
 
 {@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-03-29,60,310!2026-04-03,65,310!2026-04-03,65,310!2026-11-11,241,330-->
 
@@ -233,7 +233,7 @@ Because {@{`Future` implements `map`, `flatMap`, and `withFilter`}@}, it can be 
 >     cup   <- addSugar(brew)
 >   } yield cup
 > ```
-<!--SR:!2026-04-05,67,310!2026-03-30,61,310!2026-03-26,58,310-->
+<!--SR:!2026-04-05,67,310!2026-03-30,61,310!2026-12-06,255,330-->
 
 ## dataflow programming
 
@@ -327,6 +327,6 @@ When {@{an existing library}@} offers {@{a callback‑based asynchronous method}
 >   p.future
 > ```
 >
-> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-03-26,58,310!2026-11-24,252,330!2026-11-12,242,330!2026-12-01,251,330!2026-04-04,67,310!2026-11-16,246,330!2026-03-28,60,310!2026-05-07,82,357!2026-05-07,82,357!2026-05-07,82,357-->
+> Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-12-06,255,330!2026-11-24,252,330!2026-11-12,242,330!2026-12-01,251,330!2026-04-04,67,310!2026-11-16,246,330!2026-03-28,60,310!2026-05-07,82,357!2026-05-07,82,357!2026-05-07,82,357-->
 
 Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-04-05,67,310!2026-03-27,59,310!2026-03-30,61,310!2026-11-21,250,330!2026-11-04,236,330!2026-11-20,249,330!2026-05-07,82,357-->

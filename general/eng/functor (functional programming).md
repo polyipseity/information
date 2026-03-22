@@ -49,7 +49,7 @@ fmap (g . h) = (fmap g) . (fmap h)
 
 \(where `.` {@{stands for [function composition](function%20composition.md)}@}\). <!--SR:!2029-11-15,1385,355-->
 
-In {@{[Scala](scala%20(programming%20language).md)}@} {@{a [trait](trait%20(computer%20programming).md) can be used}@}: <!--SR:!2029-11-19,1389,355!2026-03-26,348,351-->
+In {@{[Scala](scala%20(programming%20language).md)}@} {@{a [trait](trait%20(computer%20programming).md) can be used}@}: <!--SR:!2029-11-19,1389,355!2029-07-29,1221,351-->
 
 ```Scala
 trait Functor[F[_]] {

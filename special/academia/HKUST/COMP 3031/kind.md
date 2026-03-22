@@ -23,7 +23,7 @@ tags:
 
 - see: [general/kind (type theory)](../../../../general/kind%20(type%20theory).md)
 
-In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represents {@{a constructor that expects one type argument}@}. It lets {@{a function be polymorphic over any container}@}: <!--SR:!2026-03-28,62,310!2026-03-26,60,310!2026-03-26,60,310!2026-04-01,66,310-->
+In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represents {@{a constructor that expects one type argument}@}. It lets {@{a function be polymorphic over any container}@}: <!--SR:!2026-03-28,62,310!2026-12-13,262,330!2026-12-11,260,330!2026-04-01,66,310-->
 
 > [!example] __generic foo__
 >
@@ -65,7 +65,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 - _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!2026-11-02,234,330!2026-11-10,241,330-->
 - _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-09-12,184,310!2026-04-02,67,310-->
 
-{@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2026-04-01,66,310!2026-10-30,231,330!2026-03-26,60,310!2026-03-31,65,310!2026-03-28,62,310-->
+{@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2026-04-01,66,310!2026-10-30,231,330!2026-12-14,263,330!2026-03-31,65,310!2026-03-28,62,310-->
 
 > [!example] __monad trait__
 >
@@ -100,7 +100,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ### monad example motivation
 
-{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-03-26,60,310!2026-10-27,228,330!2026-03-27,61,310!2026-11-05,237,330!2026-12-09,259,330-->
+{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-12-12,261,330!2026-10-27,228,330!2026-03-27,61,310!2026-11-05,237,330!2026-12-09,259,330-->
 
 > [!example] __`sequence`__
 >
@@ -125,7 +125,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > sequence(List(Some(1), Some(2), Some(3)))  // == Some(List(1, 2, 3))
 > sequence(List(Some(1), None,    Some(3)))  // == None
 > ```
-<!--SR:!2026-03-29,63,310!2026-03-26,60,310-->
+<!--SR:!2026-03-29,63,310!2026-12-14,263,330-->
 
 ### monad related kinds
 
@@ -195,7 +195,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   bind :: m a -> (a -> m b) -> m b
 >   return :: a -> m a
 > ```
-<!--SR:!2026-03-29,63,310!2026-03-26,60,310!2026-03-30,64,310!2026-03-29,63,310-->
+<!--SR:!2026-03-29,63,310!2026-12-14,263,330!2026-03-30,64,310!2026-03-29,63,310-->
 
 {@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-04-02,67,310!2026-10-29,230,330!2026-04-08,67,310!2026-04-01,66,310-->
 
@@ -212,7 +212,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   val return : 'a -> 'a t
 > end
 > ```
-<!--SR:!2026-03-26,60,310!2026-11-17,246,330!2026-04-06,67,310-->
+<!--SR:!2026-12-10,259,330!2026-11-17,246,330!2026-04-06,67,310-->
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2026-03-30,64,310!2026-03-31,65,310!2026-11-23,251,330!2026-04-08,67,310-->
 

@@ -75,7 +75,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2026-06-01,350,350!2026-04-29,328,350-->
   - direct labor time ticket / table
     - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2026-06-28,377,362!2027-06-12,636,342-->
-    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2029-02-09,1102,350!2026-03-26,294,330-->
+    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2029-02-09,1102,350!2029-11-29,1344,350-->
 
 ## job cost sheet
 
@@ -110,7 +110,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2026-05-16,334,350!2029-01-11,1078,350-->
   - job cost sheet / tables ::@:: actual direct materials, actual direct labor, applied manufacturing overhead <!--SR:!2030-02-03,1413,370!2029-07-19,1237,350-->
     - job cost sheet / tables / actual direct materials ::@:: req. no, amount <!--SR:!2026-05-07,335,350!2026-05-17,335,350-->
-    - job cost sheet / tables / actual direct labor ::@:: ticket, hours, amount <!--SR:!2029-11-05,1327,350!2026-03-26,298,350-->
+    - job cost sheet / tables / actual direct labor ::@:: ticket, hours, amount <!--SR:!2029-11-05,1327,350!2030-02-26,1433,370-->
     - job cost sheet / tables / applied manufacturing overhead ::@:: (primary cost driver unit), amount <!--SR:!2029-02-11,1104,350!2026-05-04,332,350-->
   - job cost sheet / cost summary ::@:: direct materials cost + direct labor cost + applied manufacturing overhead = total cost <!--SR:!2026-05-07,335,350!2028-12-14,1055,350-->
 
@@ -175,7 +175,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > |                         | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯              | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯                                         |                 |
 > | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 | <!--SR:!2026-05-18,336,350!2029-01-23,1090,350!2026-05-03,331,350!2029-11-07,1329,350!2026-04-26,325,350!2029-02-21,1114,350!2026-05-01,330,350!2026-04-30,329,350!2029-11-02,1325,350!2026-05-25,343,350!2026-03-30,302,350!2029-01-16,1083,350!2029-06-18,1211,350!2026-05-06,334,350-->
 
-- T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance. <!--SR:!2026-03-26,298,350!2026-05-02,330,350-->
+- T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance. <!--SR:!2030-02-25,1432,370!2026-05-02,330,350-->
   - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line. <!--SR:!2029-07-11,1231,350!2029-01-12,1079,350-->
 
 ## process costing (weighted average)
