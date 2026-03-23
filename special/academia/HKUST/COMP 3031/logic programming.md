@@ -558,7 +558,7 @@ In practice, Prolog programmers must order {@{clauses carefully}@} and avoid {@{
 
 {@{`junkFood(hamburger)?`}@} succeeds correctly, yet {@{`junkFood(X)?` and `junkFood(X), same(X, hamburger)?` unexpectedly fails}@}; further, {@{the query `same(X, hamburger), junkFood(X)?` succeeds correctly}@}. In {@{the two problematic cases}@}, the interpreter cannot {@{discover that _hamburger_ is a possible junk food when the variable remains free}@}. In {@{the last case}@}, by {@{first unifying with the substitution `[X = hamburger]`}@}, the interpreter {@{_can_ find that _hamburger_ is a possible junk food}@}. These cases show that {@{negation causes _incompleteness_}@}. <!--SR:!2026-04-18,74,322!2026-04-15,73,322!2026-04-18,74,322!2026-04-14,72,322!2026-04-15,73,322!2026-04-16,72,322!2026-04-15,71,322!2026-04-17,73,322!2026-04-18,74,322-->
 
-{@{Adding another negation}@} (`healthy/1` {@{negates `junkFood/1`}@}) turns the situation around {@{from incompleteness to _unsoundness_}@}: <!--SR:!2026-03-28,58,310!2026-04-14,72,322!2026-04-13,71,322-->
+{@{Adding another negation}@} (`healthy/1` {@{negates `junkFood/1`}@}) turns the situation around {@{from incompleteness to _unsoundness_}@}: <!--SR:!2026-12-02,249,330!2026-04-14,72,322!2026-04-13,71,322-->
 
 > [!example] __re‑ordering of negations__
 >

@@ -118,7 +118,7 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 {@{A category _C_ is said to __have limits of shape _J_<!-- markdown separator -->__}@} if {@{every diagram of shape _J_ has a limit in _C_}@}. Specifically, a category _C_ is said to <!--SR:!2026-05-09,375,358!2028-12-18,1113,350-->
 
 - __have products__ ::@:: if it has limits of shape _J_ for every _small_ discrete category _J_ \(it need not have large products\), <!--SR:!2028-12-10,1106,350!2028-12-26,1120,350-->
-- __have equalizers__ ::@:: if it has limits of shape $\bullet \rightrightarrows \bullet$ \(i.e. every parallel pair of morphisms has an equalizer\), <!--SR:!2027-11-15,782,338!2026-03-28,340,345-->
+- __have equalizers__ ::@:: if it has limits of shape $\bullet \rightrightarrows \bullet$ \(i.e. every parallel pair of morphisms has an equalizer\), <!--SR:!2027-11-15,782,338!2030-08-27,1613,365-->
 - __have pullbacks__ ::@:: if it has limits of shape $\bullet \rightarrow \bullet \leftarrow \bullet$ \(i.e. every pair of morphisms with common codomain has a pullback\). <!--SR:!2028-12-15,1110,350!2028-02-08,865,345-->
 
 {@{A __[complete category](complete%20category.md)__}@} is {@{a category that has all small limits}@} \(i.e. {@{all limits of shape _J_ for every small category _J_}@}\). <!--SR:!2026-05-12,378,358!2029-01-22,1141,350!2029-01-07,1129,350-->

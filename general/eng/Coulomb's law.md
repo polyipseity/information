@@ -45,7 +45,7 @@ The force is {@{along the straight line joining the two charges}@}. If {@{the ch
 
 > {@{![portrait of Charles-Augustin de Coulomb](../../archives/Wikimedia%20Commons/Coulomb.jpg)}@}
 >
-> {@{[Charles-Augustin de Coulomb](Charles-Augustin%20de%20Coulomb.md)}@} <!--SR:!2030-01-13,1411,360!2026-03-28,326,351-->
+> {@{[Charles-Augustin de Coulomb](Charles-Augustin%20de%20Coulomb.md)}@} <!--SR:!2030-01-13,1411,360!2030-07-16,1571,371-->
 
 Ancient cultures around the [Mediterranean](Mediterranean%20Sea.md) knew that certain objects, such as rods of [amber](amber.md), could be rubbed with cat's fur to attract light objects like feathers and pieces of paper. [Thales of Miletus](Thales%20of%20Miletus.md) made the first recorded description of [static electricity](static%20electricity.md) around 600 BC,<sup>[\[7\]](#^ref-7)</sup> when he noticed that [friction](friction.md) could make a piece of amber attract small objects.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup>
 
@@ -75,7 +75,7 @@ The torsion balance consists of a bar suspended from its middle by a thin fiber.
 
 Coulomb's law states that {@{the electrostatic force $\mathbf {F} _{1}$ experienced by a charge, $q_{1}$ at position $\mathbf {r} _{1}$}@}, in {@{the vicinity of another charge, $q_{2}$ at position $\mathbf {r} _{2}$, in a vacuum}@} is equal to<sup>[\[19\]](#^ref-19)</sup> {@{$$\mathbf {F} _{1}={\frac {q_{1}q_{2} }{4\pi \varepsilon _{0} } }{ {\hat {\mathbf {r} } }_{12} \over {|\mathbf {r} _{12}|}^{2} }$$}@} where {@{$\mathbf {r_{12}=r_{1}-r_{2} }$ is the [displacement vector](displacement%20vector.md) between the charges, ${\hat {\mathbf {r} } }_{12}$ a [unit vector](unit%20vector.md) pointing from $q_{2}$ to $q_{1}$, and $\varepsilon _{0}$ the [electric constant](electric%20constant.md)}@}. Here, $\mathbf {\hat {r} } _{12}$ is used {@{for the vector notation}@}. {@{The electrostatic force $\mathbf {F} _{2}$ experienced by $q_{2}$}@}, according to {@{[Newton's third law](Newton's%20laws%20of%20motion.md), is $\mathbf {F} _{2}=-\mathbf {F} _{1}$}@}. <!--SR:!2027-09-24,738,350!2026-05-24,373,370!2028-10-25,1072,370!2026-05-26,375,370!2026-05-20,371,370!2026-06-05,385,370!2026-06-16,390,370-->
 
-If {@{both charges have the same [sign](plus%20and%20minus%20signs.md) \(like charges\)}@} then {@{the [product](scalar%20multiplication.md) $q_{1}q_{2}$ is positive and the direction of the force on $q_{1}$ is given by ${\widehat {\mathbf {r} } }_{12}$}@}; the charges {@{repel each other}@}. If {@{the charges have opposite signs then the product $q_{1}q_{2}$ is negative and the direction of the force on $q_{1}$ is $-{\hat {\mathbf {r} } }_{12}$}@}; the charges {@{attract each other}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-05-25,376,370!2026-06-04,384,370!2028-10-02,1052,370!2026-06-19,393,370!2026-03-28,326,351-->
+If {@{both charges have the same [sign](plus%20and%20minus%20signs.md) \(like charges\)}@} then {@{the [product](scalar%20multiplication.md) $q_{1}q_{2}$ is positive and the direction of the force on $q_{1}$ is given by ${\widehat {\mathbf {r} } }_{12}$}@}; the charges {@{repel each other}@}. If {@{the charges have opposite signs then the product $q_{1}q_{2}$ is negative and the direction of the force on $q_{1}$ is $-{\hat {\mathbf {r} } }_{12}$}@}; the charges {@{attract each other}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-05-25,376,370!2026-06-04,384,370!2028-10-02,1052,370!2026-06-19,393,370!2030-07-17,1572,371-->
 
 ### system of discrete charges
 

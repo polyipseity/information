@@ -76,8 +76,8 @@ tags:
 >   - AX<sub>4</sub>E<sub>1</sub> / example(s) ::@:: [SF<sub>4</sub>](sulfur%20tetrafluoride.md) <!--SR:!2026-05-01,81,341!2026-04-19,71,325-->
 > - AX<sub>4</sub>E<sub>2</sub>
 >   - AX<sub>4</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [square planar](square%20planar%20molecular%20geometry.md)<br/>![square planar](../../archives/Wikimedia%20Commons/AX4E2-3D-balls.png) <!--SR:!2026-04-22,73,325!2026-04-19,71,325-->
->   - AX<sub>4</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90° <!--SR:!2026-03-28,52,321-->
->   - AX<sub>4</sub>E<sub>2</sub> / example(s) ::@:: [XeF<sub>4</sub>](xenon%20tetrafluoride.md) <!--SR:!2026-03-28,52,321!2026-04-16,25,285-->
+>   - AX<sub>4</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90° <!--SR:!2026-09-09,165,321-->
+>   - AX<sub>4</sub>E<sub>2</sub> / example(s) ::@:: [XeF<sub>4</sub>](xenon%20tetrafluoride.md) <!--SR:!2026-11-14,231,341!2026-04-16,25,285-->
 > - AX<sub>5</sub>E<sub>0</sub>
 >   - AX<sub>5</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png) <!--SR:!2026-04-25,61,281!2026-04-24,75,325-->
 >   - AX<sub>5</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90°, 120° <!--SR:!2026-04-19,71,325-->

@@ -51,7 +51,7 @@ tags:
 > - __[Support](support%20(mathematics).md)__ ::@:: $x\in \mathbb {R}$ <!--SR:!2026-06-02,78,343!2026-05-13,61,329-->
 > - __[PDF](probability%20density%20function.md)__ ::@:: ${\frac {1}{\sqrt {2\pi \sigma ^{2} } } }e^{-{\frac {(x-\mu )^{2} }{2\sigma ^{2} } } }$ <!--SR:!2026-05-09,58,310!2026-06-01,78,343-->
 > - __[CDF](cumulative%20distribution%20function.md)__ ::@:: $\Phi \left({\frac {x-\mu }{\sigma } }\right)={\frac {1}{2} }\left[1+\operatorname {erf} \left({\frac {x-\mu }{\sigma {\sqrt {2} } } }\right)\right]$ <!--SR:!2026-04-21,29,312!2026-04-20,42,290-->
-> - __[Quantile](quantile%20function.md)__ ::@:: $\mu +\sigma {\sqrt {2} }\operatorname {erf} ^{-1}(2p-1)$ <!--SR:!2026-03-28,5,292!2026-06-02,79,343-->
+> - __[Quantile](quantile%20function.md)__ ::@:: $\mu +\sigma {\sqrt {2} }\operatorname {erf} ^{-1}(2p-1)$ <!--SR:!2026-04-18,21,312!2026-06-02,79,343-->
 > - __[Mean](expected%20value.md)__ ::@:: $\mu$ <!--SR:!2026-05-22,69,336!2026-06-03,79,343-->
 > - __[Median](median.md)__ ::@:: $\mu$ <!--SR:!2026-05-09,58,310!2026-05-23,70,336-->
 > - __[Mode](mode%20(statistics).md)__ ::@:: $\mu$ <!--SR:!2026-05-06,55,310!2026-05-05,54,310-->

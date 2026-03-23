@@ -466,7 +466,7 @@ The content is in teaching order.
 - [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2026-09-27,532,403!2026-07-27,479,396-->
   - dividend yield / interpretation ::@:: It reflects the return on investment which are attributed solely to dividends a company pays. <!--SR:!2031-05-13,1891,403!2026-08-16,496,403-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2026-09-23,529,403!2026-05-16,396,383-->
-  - price/earnings ratio / interpretation ::@:: High ratio usually means good growth prospects. But risks are when the earnings are lower than what the market expects, the effect on its stock can be dramatic. <!--SR:!2026-03-28,375,383!2026-07-06,464,403-->
+  - price/earnings ratio / interpretation ::@:: High ratio usually means good growth prospects. But risks are when the earnings are lower than what the market expects, the effect on its stock can be dramatic. <!--SR:!2031-08-17,1968,403!2026-07-06,464,403-->
 - market ratios ([market-to-book ratios](../../../../general/P_B%20ratio.md)) ::@:: Some ratios relate the current price per share of a company's stock to the return that accrues to stockholders. <p> (Actually the professor uses "market-to-book ratio" instead oddly...) <!--SR:!2026-10-03,537,403!2026-08-28,507,403-->
 - [§ week 10 review](questions.md#week%2010%20review)
 

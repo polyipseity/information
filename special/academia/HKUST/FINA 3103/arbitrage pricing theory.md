@@ -54,7 +54,7 @@ Using data on {@{United Airlines (UA) and Shell (S)}@}, suppose their {@{loading
 
 ### interpretation of multiple factors model
 
-Rewriting {@{the multi‑factor equation in excess terms}@} yields {@{$$r_{i,t}-r_f=(\bar r_i-r_f)-\sum_{k=1}^{K}b_{ik}\,(\bar r_k-r_f)+\sum_{k=1}^{K}b_{ik}(f_{k,t}-\!r_F)+u_{i,t}. $$}@} The right‑hand side {@{contains three components}@}: {@{a constant term $a_i=(\bar r_i-r_f)-\sum_{k}b_{ik}(\bar r_k-r_f)$}@}, {@{the product of each factor's _excess return_ and its loading on asset $i$}@}, and {@{an idiosyncratic shock $u_{i,t}$}@}. <!--SR:!2026-05-31,71,337!2026-03-29,16,277!2026-04-01,18,277!2026-03-28,2,217!2026-05-17,56,317!2026-06-03,73,337-->
+Rewriting {@{the multi‑factor equation in excess terms}@} yields {@{$$r_{i,t}-r_f=(\bar r_i-r_f)-\sum_{k=1}^{K}b_{ik}\,(\bar r_k-r_f)+\sum_{k=1}^{K}b_{ik}(f_{k,t}-\!r_F)+u_{i,t}. $$}@} The right‑hand side {@{contains three components}@}: {@{a constant term $a_i=(\bar r_i-r_f)-\sum_{k}b_{ik}(\bar r_k-r_f)$}@}, {@{the product of each factor's _excess return_ and its loading on asset $i$}@}, and {@{an idiosyncratic shock $u_{i,t}$}@}. <!--SR:!2026-05-31,71,337!2026-03-29,16,277!2026-04-01,18,277!2026-04-01,4,217!2026-05-17,56,317!2026-06-03,73,337-->
 
 Thus, {@{excess returns}@} are driven by {@{a constant, systematic factors, and firm‑specific noise}@}.  The model remains {@{_empirical_; it does not impose _theoretical_ equilibrium conditions as CAPM does}@}, but rather is supported by {@{arbitrage pricing theory}@}. <!--SR:!2026-06-01,71,337!2026-05-27,67,337!2026-05-29,69,337!2026-06-03,73,337-->
 
@@ -106,9 +106,9 @@ In {@{a regression test}@} {@{the estimated intercept $\hat{\alpha}_i$}@} is tre
 
 {@{The three‑factor specification}@} was introduced {@{in _Common Risk Factors in the Returns on Stocks and Bonds_ (Fama & French, 1993)}@}.  It expands {@{the CAPM}@} by adding {@{size and value drivers that are derived from market‑cap and book‑to‑market data}@}.  The model writes {@{the excess return of stock $i$}@} as {@{$$r_{i,t}-r_{F,t}=\alpha_i+\beta_{iM}\,r_{M,t}+\beta_{iSMB}\,r_{SMB,t}+\beta_{iHML}\,r_{HML,t}+e_{i,t},$$}@} where <!--SR:!2026-05-27,67,337!2026-05-23,64,337!2026-05-23,64,337!2026-06-04,74,337!2026-06-04,74,337!2026-06-02,72,337-->
 
-- $r_{M,t}=r_{SP,t}-r_{F,t}$ ::@:: is the market excess return (e.g. using S&P&nbsp;500), <!--SR:!2026-03-28,58,310!2026-03-28,58,310-->
-- $r_{SMB,t}=r_{S,t}-r_{B,t}$ ::@:: captures the small‑minus‑big size effect (by market capitalization), and <!--SR:!2026-03-28,58,310!2026-03-28,58,310-->
-- $r_{HML,t}=r_{H,t}-r_{L,t}$ ::@:: measures high‑minus‑low book‑to‑market. <!--SR:!2026-03-28,58,310!2026-03-28,58,310-->
+- $r_{M,t}=r_{SP,t}-r_{F,t}$ ::@:: is the market excess return (e.g. using S&P&nbsp;500), <!--SR:!2026-12-05,252,330!2026-12-04,251,330-->
+- $r_{SMB,t}=r_{S,t}-r_{B,t}$ ::@:: captures the small‑minus‑big size effect (by market capitalization), and <!--SR:!2026-12-06,253,330!2026-12-08,255,330-->
+- $r_{HML,t}=r_{H,t}-r_{L,t}$ ::@:: measures high‑minus‑low book‑to‑market. <!--SR:!2026-12-07,254,330!2026-12-08,255,330-->
 
 {@{The Fama–French framework}@} was motivated mainly by {@{empirical regularities rather than a single economic theory}@}, which explains why {@{the size ($\text{SMB}$) and value ($\text{HML}$) loadings}@} capture {@{return differences so well yet lack a unifying rationale}@}.  The puzzle remains: why does {@{a portfolio of small firms outperform large ones}@}, and why do {@{high‑book‑to‑market companies earn higher returns than low‑book‑to‑market ones}@}?  {@{A notable contribution}@} to the literature is {@{Lettau and Wachter’s 2007 paper in _The Journal of Finance_}@}, which investigates {@{these patterns from a microstructural perspective}@}. <!--SR:!2026-06-04,74,337!2026-06-03,73,337!2026-05-28,69,337!2026-06-04,74,337!2026-05-27,68,337!2026-06-01,71,337!2026-05-29,69,337!2026-05-24,65,337!2026-05-31,71,337-->
 

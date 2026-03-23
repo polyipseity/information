@@ -18,11 +18,11 @@ tags:
 
 - see: [general/actor model](../../../../general/actor%20model.md)
 
-{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-03-30,63,310!2026-11-06,237,330!2026-03-28,61,310!2026-11-18,247,330!2026-04-03,64,310!2026-11-20,248,330!2026-11-09,240,330-->
+{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-03-30,63,310!2026-11-06,237,330!2026-12-18,265,330!2026-11-18,247,330!2026-04-03,64,310!2026-11-20,248,330!2026-11-09,240,330-->
 
 ## motivation
 
-In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-03-31,61,310!2026-04-01,62,310!2026-12-07,256,330!2026-11-09,240,330!2026-04-01,65,310!2026-04-03,67,310!2026-03-29,62,310!2026-04-02,63,310!2026-04-06,67,310!2026-03-28,61,310!2026-11-29,250,330!2026-04-01,65,310-->
+In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-03-31,61,310!2026-04-01,62,310!2026-12-07,256,330!2026-11-09,240,330!2026-04-01,65,310!2026-04-03,67,310!2026-03-29,62,310!2026-04-02,63,310!2026-04-06,67,310!2026-12-17,264,330!2026-11-29,250,330!2026-04-01,65,310-->
 
 Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!2026-11-01,233,330!2026-12-13,261,330!2026-04-02,66,310!2026-11-04,236,330!2026-04-01,65,310!2026-11-24,252,330!2026-10-29,230,330-->
 
@@ -56,7 +56,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >
 > While {@{correct}@}, {@{the locks}@} can {@{serialize access and expose the program to deadlocks}@} when {@{multiple accounts are involved}@}. <!--SR:!2026-12-12,260,330!2026-04-01,65,310!2026-11-02,234,330!2026-03-31,64,310!2026-11-17,246,330!2026-04-01,65,310-->
 
-{@{A classic deadlock}@} occurs when {@{two actors (or threads)}@} {@{lock shared resources in reverse order}@}. <!--SR:!2026-11-22,250,330!2026-03-29,62,310!2026-03-28,61,310-->
+{@{A classic deadlock}@} occurs when {@{two actors (or threads)}@} {@{lock shared resources in reverse order}@}. <!--SR:!2026-11-22,250,330!2026-03-29,62,310!2026-12-16,263,330-->
 
 > [!example] __deadlock in nested synchronized transfer__
 >
@@ -72,7 +72,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >   }
 > ```
 >
-> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!2026-12-03,253,330!2026-03-28,61,310!2026-03-29,59,310!2026-04-02,66,310!2026-11-26,254,330-->
+> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!2026-12-03,253,330!2026-12-21,268,330!2026-03-29,59,310!2026-04-02,66,310!2026-11-26,254,330-->
 
 {@{An actor version of `BankAccount`}@}, `BankActor`, removes {@{the lock}@}: <!--SR:!2026-11-20,249,330!2026-03-29,62,310-->
 
@@ -103,11 +103,11 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ## history
 
-{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-11-30,251,330!2026-11-27,255,330!2026-03-28,61,310!2026-11-25,253,330!2026-11-05,237,330!2026-03-29,62,310!2026-03-31,64,310!2026-11-23,251,330!2026-11-23,251,330-->
+{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-11-30,251,330!2026-11-27,255,330!2026-12-17,264,330!2026-11-25,253,330!2026-11-05,237,330!2026-03-29,62,310!2026-03-31,64,310!2026-11-23,251,330!2026-11-23,251,330-->
 
 ## actor
 
-{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-03-29,62,310!2026-03-28,61,310!2026-03-28,61,310!2026-11-27,255,330!2026-03-31,64,310!2026-04-05,66,310-->
+{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-03-29,62,310!2026-12-20,267,330!2026-12-18,265,330!2026-11-27,255,330!2026-03-31,64,310!2026-04-05,66,310-->
 
 {@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2026-03-31,64,310!2026-10-27,228,330!2026-03-29,59,310!2026-11-11,241,330-->
 
@@ -255,13 +255,13 @@ Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}
 > case "get" => sender() ! count          // reply to the caller with `self` implicitly
 > ```
 >
-> Because {@{messages are immutable}@}, {@{no shared data is exposed}@}. <!--SR:!2026-03-29,62,310!2026-11-20,248,330!2026-03-28,61,310!2026-04-01,65,310!2026-04-04,65,310-->
+> Because {@{messages are immutable}@}, {@{no shared data is exposed}@}. <!--SR:!2026-03-29,62,310!2026-11-20,248,330!2026-12-20,267,330!2026-04-01,65,310!2026-04-04,65,310-->
 
 {@{The encapsulation}@} guarantees that {@{two actors cannot interfere with each other’s state}@}, eliminating {@{races}@}. Actors live in {@{separate heaps}@}; they communicate only through {@{asynchronous messages}@}, so the runtime can schedule {@{them independently without global locks}@}. <!--SR:!2026-11-22,251,330!2026-03-29,59,310!2026-11-12,242,330!2026-12-08,257,330!2026-03-29,62,310!2026-11-09,240,330-->
 
 ### message processing
 
-An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@} it is {@{dequeued and handled by the current `Receive` function}@}. {@{Changing behaviour with `context.become`}@} takes effect {@{before the next message is taken}@}, so each message is {@{an atomic unit of execution}@}. <!--SR:!2026-11-29,250,330!2026-03-28,61,310!2026-12-02,252,330!2026-04-02,66,310!2026-03-31,64,310!2026-04-06,67,310-->
+An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@} it is {@{dequeued and handled by the current `Receive` function}@}. {@{Changing behaviour with `context.become`}@} takes effect {@{before the next message is taken}@}, so each message is {@{an atomic unit of execution}@}. <!--SR:!2026-11-29,250,330!2026-12-19,266,330!2026-12-02,252,330!2026-04-02,66,310!2026-03-31,64,310!2026-04-06,67,310-->
 
 > [!example] __message order__
 >
@@ -339,7 +339,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 >     case _                    => sender() ! Failed
 > }
 > ```
-<!--SR:!2026-12-10,259,330!2026-03-29,62,310!2026-03-28,61,310!2026-11-04,236,330!2026-11-22,251,330!2026-03-30,63,310-->
+<!--SR:!2026-12-10,259,330!2026-03-29,62,310!2026-12-21,268,330!2026-11-04,236,330!2026-11-22,251,330!2026-03-30,63,310-->
 
 {@{A `WireTransfer` actor}@} demonstrates how {@{two bank accounts can cooperate without shared state}@}. It first asks {@{the source account to withdraw}@}, waits for {@{its reply}@}, and only then {@{deposits into the destination}@}. <!--SR:!2026-04-02,66,310!2026-11-25,253,330!2026-04-05,66,310!2026-11-06,237,330!2026-03-31,64,310-->
 
@@ -402,13 +402,13 @@ One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}
 >   persist(Transfer(id, f, t, a)) { _ => … }   // store before sending
 > ```
 >
-> {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!2026-11-08,239,330!2026-03-28,61,310!2026-03-29,62,310!2026-12-15,263,330!2026-03-31,61,310!2026-11-15,245,330-->
+> {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!2026-11-08,239,330!2026-12-21,268,330!2026-03-29,62,310!2026-12-15,263,330!2026-03-31,61,310!2026-11-15,245,330-->
 
-When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!2026-03-28,61,310!2026-03-28,61,310!2026-03-30,60,310!2026-11-23,251,330!2026-11-09,240,330!2026-11-22,251,330!2026-04-01,62,310!2026-11-22,251,330!2026-03-28,61,310-->
+When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!2026-12-16,263,330!2026-12-21,268,330!2026-03-30,60,310!2026-11-23,251,330!2026-11-09,240,330!2026-11-22,251,330!2026-04-01,62,310!2026-11-22,251,330!2026-12-20,267,330-->
 
 ## web client example
 
-{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-03-29,62,310!2026-12-09,258,330!2026-03-30,63,310!2026-11-22,251,330!2026-03-29,62,310!2026-04-05,66,310!2026-04-01,65,310!2026-11-21,250,330!2026-03-28,61,310!2026-03-30,63,310!2026-12-12,260,330!2026-04-04,65,310!2026-04-02,66,310-->
+{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-03-29,62,310!2026-12-09,258,330!2026-03-30,63,310!2026-11-22,251,330!2026-03-29,62,310!2026-04-05,66,310!2026-04-01,65,310!2026-11-21,250,330!2026-12-19,266,330!2026-03-30,63,310!2026-12-12,260,330!2026-04-04,65,310!2026-04-02,66,310-->
 
 {@{A naive version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!2026-11-21,249,330!2026-12-14,262,330-->
 
@@ -467,7 +467,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >     context.parent ! Done
 >     context.stop(self)
 > ```
-<!--SR:!2026-12-09,258,330!2026-04-01,62,310!2026-10-28,229,330!2026-04-01,65,310!2026-11-03,235,330!2026-11-30,251,330!2026-03-28,61,310-->
+<!--SR:!2026-12-09,258,330!2026-04-01,62,310!2026-10-28,229,330!2026-04-01,65,310!2026-11-03,235,330!2026-11-30,251,330!2026-12-19,266,330-->
 
 {@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2026-04-05,66,310!2026-11-29,250,330!2026-12-12,260,330!2026-12-13,261,330!2026-11-24,252,330-->
 
@@ -492,7 +492,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-04-02,63,310!2026-11-13,243,330!2026-12-15,263,330!2026-04-03,67,310!2026-04-01,65,310-->
 
-Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!2026-12-03,253,330!2026-03-30,63,310!2026-03-31,61,310!2026-04-05,66,310!2026-11-30,251,330!2026-03-28,61,310-->
+Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!2026-12-03,253,330!2026-03-30,63,310!2026-03-31,61,310!2026-04-05,66,310!2026-11-30,251,330!2026-12-16,263,330-->
 
 > [!example] __`Controller` with overall timeout__
 >

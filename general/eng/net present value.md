@@ -147,7 +147,7 @@ Comparing {@{mutually exclusive projects with different investment horizons can 
 
 ## interpretation as integral transform
 
-{@{The time-discrete formula of the net present value}@} {@{$$\mathrm {NPV} (i,N)=\sum _{t=0}^{N}{\frac {R_{t} }{(1+i)^{t} } }$$}@} can also be written in {@{a continuous variation $$\mathrm {NPV} (i)=\int _{t=0}^{\infty }(1+i)^{-t}\cdot r(t)\,dt$$}@} where <!--SR:!2026-07-05,398,365!2026-03-28,315,349!2026-05-23,362,357-->
+{@{The time-discrete formula of the net present value}@} {@{$$\mathrm {NPV} (i,N)=\sum _{t=0}^{N}{\frac {R_{t} }{(1+i)^{t} } }$$}@} can also be written in {@{a continuous variation $$\mathrm {NPV} (i)=\int _{t=0}^{\infty }(1+i)^{-t}\cdot r(t)\,dt$$}@} where <!--SR:!2026-07-05,398,365!2029-03-31,1099,349!2026-05-23,362,357-->
 
 _r_\(_t_\) ::@:: is the rate of flowing cash given in money per time, and _r_\(_t_\) = 0 when the investment is over. <!--SR:!2026-07-03,396,365!2026-07-07,400,365-->
 

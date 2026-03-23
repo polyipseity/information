@@ -43,7 +43,7 @@ tags:
 > How long on average does it take for a patient to get their testing result?
 >
 > - solution: {@{80&nbsp;minutes}@}
-> - explanation: {@{This is asking for the _flow time_. We also assume the process is _stable_. Thus, simply add up the activity time: 5+15+60 = 80&nbsp;minutes.}@} <!--SR:!2026-04-21,288,330!2026-03-28,269,330-->
+> - explanation: {@{This is asking for the _flow time_. We also assume the process is _stable_. Thus, simply add up the activity time: 5+15+60 = 80&nbsp;minutes.}@} <!--SR:!2026-04-21,288,330!2029-08-10,1231,350-->
 
 <!-- markdownlint MD028 -->
 

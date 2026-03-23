@@ -38,7 +38,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >
 > In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2026-03-29,64,310!2026-11-27,255,330!2026-12-08,259,330!2026-11-28,251,330!2026-12-19,268,330-->
 
-{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-03-28,63,310!2026-11-13,243,330!2026-12-20,268,330-->
+{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-12-29,276,330!2026-11-13,243,330!2026-12-20,268,330-->
 
 > [!example] __`whileDo` implementation__
 >
@@ -49,7 +49,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   if cond then { body; whileDo(cond)(body) } else ()
 > ```
 >
-> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-11-18,247,330!2026-12-18,267,330!2026-03-28,63,310!2026-11-28,251,330!2026-11-30,252,330!2026-11-10,241,330!2026-11-22,251,330!2026-12-15,264,330!2026-03-29,64,310-->
+> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-11-18,247,330!2026-12-18,267,330!2026-12-26,273,330!2026-11-28,251,330!2026-11-30,252,330!2026-11-10,241,330!2026-11-22,251,330!2026-12-15,264,330!2026-03-29,64,310-->
 
 ### repeat loops
 
@@ -63,7 +63,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > def repeatUntil(body: => Unit)(cond: => Boolean): Unit =
 >   body; if !cond then repeatUntil(body)(cond) else ()
 > ```
-<!--SR:!2026-11-14,243,330!2026-03-28,63,310!2026-11-16,245,330-->
+<!--SR:!2026-11-14,243,330!2026-12-27,274,330!2026-11-16,245,330-->
 
 {@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!2026-12-01,253,330!2026-03-30,65,310-->
 
@@ -148,7 +148,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### simulation engine
 
-{@{The simulation}@} is driven by {@{an agenda of delayed actions}@}. {@{The abstract `Simulation` trait}@} supplies {@{the core API}@}: <!--SR:!2026-12-24,272,330!2026-03-28,63,310!2026-11-28,251,330!2026-10-29,230,330-->
+{@{The simulation}@} is driven by {@{an agenda of delayed actions}@}. {@{The abstract `Simulation` trait}@} supplies {@{the core API}@}: <!--SR:!2026-12-24,272,330!2026-12-27,274,330!2026-11-28,251,330!2026-10-29,230,330-->
 
 > [!example] __simulation trait skeleton__
 >
@@ -166,7 +166,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 {@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2026-04-01,67,310!2026-11-13,242,330!2026-03-31,66,310!2026-12-06,257,330!2026-04-01,67,310!2026-12-12,262,330!2026-12-23,271,330!2026-03-31,66,310-->
 
-{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-03-28,63,310!2026-03-28,63,310!2026-03-31,66,310-->
+{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-12-28,275,330!2026-12-26,273,330!2026-03-31,66,310-->
 
 > [!example] __circuit probe__
 >

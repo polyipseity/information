@@ -91,7 +91,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 
 ## signals
 
-FRP describes programs that react {@{to sequences of events or signals}@}. {@{A _signal_}@} represents {@{a value that can change over time}@}; it is modelled as {@{a function from time to a value}@}. Instead of {@{mutating state}@}, new signals are defined {@{in terms of existing ones}@}. For example, {@{the current mouse position}@} could be expressed as <!--SR:!2026-04-05,63,310!2026-03-28,57,310!2026-04-05,63,310!2026-03-31,58,310!2026-04-09,67,310!2026-04-04,62,310!2026-04-09,67,310-->
+FRP describes programs that react {@{to sequences of events or signals}@}. {@{A _signal_}@} represents {@{a value that can change over time}@}; it is modelled as {@{a function from time to a value}@}. Instead of {@{mutating state}@}, new signals are defined {@{in terms of existing ones}@}. For example, {@{the current mouse position}@} could be expressed as <!--SR:!2026-04-05,63,310!2026-11-30,247,330!2026-04-05,63,310!2026-03-31,58,310!2026-04-09,67,310!2026-04-04,62,310!2026-04-09,67,310-->
 
 > [!example] __mouse position signal__
 >
@@ -197,7 +197,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 
 ### signal implementation
 
-{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!2026-03-30,57,310!2026-04-09,67,310!2026-04-04,62,310!2026-04-03,61,310!2026-04-03,61,310!2026-04-06,64,310!2026-04-04,62,310!2026-03-31,58,310!2026-03-28,57,310-->
+{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!2026-03-30,57,310!2026-04-09,67,310!2026-04-04,62,310!2026-04-03,61,310!2026-04-03,61,310!2026-04-06,64,310!2026-04-04,62,310!2026-03-31,58,310!2026-12-01,248,330-->
 
 > [!example] __FRP interface__
 >

@@ -17,7 +17,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __unit vector__}@} in {@{a [normed 
 
 The proof is the following: {@{$$\|\mathbf {\hat {u} } \|={\sqrt { {\frac {u_{1} }{\sqrt {u_{1}^{2}+...+u_{n}^{2} } } }^{2}+...+{\frac {u_{n} }{\sqrt {u_{1}^{2}+...+u_{n}^{2} } } }^{2} } }={\sqrt {\frac {u_{1}^{2}+...+u_{n}^{2} }{u_{1}^{2}+...+u_{n}^{2} } } }={\sqrt {1} }=1$$}@} <!--SR:!2030-03-09,1446,359-->
 
-A unit vector is often {@{used to represent [directions](direction%20(geometry).md)}@}, such as {@{[normal directions](normal%20direction.md)}@}. Unit vectors are often {@{chosen to form the [basis](basis%20(linear%20algebra).md) of a vector space}@}, and {@{every vector in the space may be written as a [linear combination](linear%20combination.md) form of unit vectors}@}. <!--SR:!2026-04-03,320,339!2030-01-30,1414,359!2026-04-01,318,339!2026-03-28,314,339-->
+A unit vector is often {@{used to represent [directions](direction%20(geometry).md)}@}, such as {@{[normal directions](normal%20direction.md)}@}. Unit vectors are often {@{chosen to form the [basis](basis%20(linear%20algebra).md) of a vector space}@}, and {@{every vector in the space may be written as a [linear combination](linear%20combination.md) form of unit vectors}@}. <!--SR:!2026-04-03,320,339!2030-01-30,1414,359!2026-04-01,318,339!2030-04-08,1472,359-->
 
 ## orthogonal coordinates
 
@@ -49,9 +49,9 @@ They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat 
 
 {@{The vectors ${\boldsymbol {\hat {\rho } } }$ and ${\boldsymbol {\hat {\varphi } } }$}@} are {@{functions of $\varphi$, and are _not_ constant in direction}@}. When {@{differentiating or integrating in cylindrical coordinates}@}, {@{these unit vectors themselves must also be operated on}@}. {@{The derivatives with respect to $\varphi$}@} are: <!--SR:!2030-03-27,1461,359!2030-01-31,1415,359!2026-04-06,323,339!2030-03-21,1456,359!2030-01-04,1394,359-->
 
-- (annotation: $\frac {\partial \boldsymbol {\hat \rho} } {\partial \varphi}$) ::@:: $${\frac {\partial {\boldsymbol {\hat {\rho } } } }{\partial \varphi } }=-\sin \varphi \mathbf {\hat {x} } +\cos \varphi \mathbf {\hat {y} } ={\boldsymbol {\hat {\varphi } } }$$ <!--SR:!2026-03-28,314,339!2027-09-15,664,319-->
+- (annotation: $\frac {\partial \boldsymbol {\hat \rho} } {\partial \varphi}$) ::@:: $${\frac {\partial {\boldsymbol {\hat {\rho } } } }{\partial \varphi } }=-\sin \varphi \mathbf {\hat {x} } +\cos \varphi \mathbf {\hat {y} } ={\boldsymbol {\hat {\varphi } } }$$ <!--SR:!2030-03-31,1464,359!2027-09-15,664,319-->
 - (annotation: $\frac {\partial \boldsymbol {\hat \varphi} } {\partial \varphi}$) ::@:: $${\frac {\partial {\boldsymbol {\hat {\varphi } } } }{\partial \varphi } }=-\cos \varphi \mathbf {\hat {x} } -\sin \varphi \mathbf {\hat {y} } =-{\boldsymbol {\hat {\rho } } }$$ <!--SR:!2029-02-09,1051,339!2026-07-09,370,299-->
-- (annotation: $\frac {\partial \boldsymbol {\hat z} } {\partial \varphi}$) ::@:: $${\frac {\partial \mathbf {\hat {z} } }{\partial \varphi } }=\mathbf {0} .$$ <!--SR:!2030-03-02,1440,359!2026-03-28,314,339-->
+- (annotation: $\frac {\partial \boldsymbol {\hat z} } {\partial \varphi}$) ::@:: $${\frac {\partial \mathbf {\hat {z} } }{\partial \varphi } }=\mathbf {0} .$$ <!--SR:!2030-03-02,1440,359!2030-04-01,1465,359-->
 
 ### spherical coordinates
 
@@ -86,7 +86,7 @@ Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geo
 
 ## curvilinear coordinates
 
-In general, a coordinate system may be {@{uniquely specified using a number of [linearly independent](linear%20independence.md) unit vectors $\mathbf {\hat {e} } _{n}$}@}<sup>[\[1\]](#^ref-1)</sup> \(the actual number being {@{equal to the degrees of freedom of the space}@}\). For {@{ordinary 3-space}@}, these vectors may be denoted {@{$\mathbf {\hat {e} } _{1},\mathbf {\hat {e} } _{2},\mathbf {\hat {e} } _{3}$}@}. It is nearly always {@{convenient to define the system to be orthonormal and [right-handed](right-hand%20rule.md)}@}: {@{$$\mathbf {\hat {e} } _{i}\cdot \mathbf {\hat {e} } _{j}=\delta _{ij}$$ <br/> $$\mathbf {\hat {e} } _{i}\cdot (\mathbf {\hat {e} } _{j}\times \mathbf {\hat {e} } _{k})=\varepsilon _{ijk}$$}@} where {@{$\delta _{ij}$ is the [Kronecker delta](Kronecker%20delta.md) \(which is 1 for _i_ = _j_, and 0 otherwise\)}@} and {@{$\varepsilon _{ijk}$ is the [Levi-Civita symbol](Levi-Civita%20symbol.md) \(which is 1 for permutations ordered as _ijk_, and −1 for permutations ordered as _kji_\)}@}. <!--SR:!2026-04-11,328,339!2030-02-20,1433,359!2026-04-01,318,339!2026-03-28,314,339!2030-03-04,1443,359!2026-03-31,317,339!2026-04-09,326,339!2026-03-29,315,339-->
+In general, a coordinate system may be {@{uniquely specified using a number of [linearly independent](linear%20independence.md) unit vectors $\mathbf {\hat {e} } _{n}$}@}<sup>[\[1\]](#^ref-1)</sup> \(the actual number being {@{equal to the degrees of freedom of the space}@}\). For {@{ordinary 3-space}@}, these vectors may be denoted {@{$\mathbf {\hat {e} } _{1},\mathbf {\hat {e} } _{2},\mathbf {\hat {e} } _{3}$}@}. It is nearly always {@{convenient to define the system to be orthonormal and [right-handed](right-hand%20rule.md)}@}: {@{$$\mathbf {\hat {e} } _{i}\cdot \mathbf {\hat {e} } _{j}=\delta _{ij}$$ <br/> $$\mathbf {\hat {e} } _{i}\cdot (\mathbf {\hat {e} } _{j}\times \mathbf {\hat {e} } _{k})=\varepsilon _{ijk}$$}@} where {@{$\delta _{ij}$ is the [Kronecker delta](Kronecker%20delta.md) \(which is 1 for _i_ = _j_, and 0 otherwise\)}@} and {@{$\varepsilon _{ijk}$ is the [Levi-Civita symbol](Levi-Civita%20symbol.md) \(which is 1 for permutations ordered as _ijk_, and −1 for permutations ordered as _kji_\)}@}. <!--SR:!2026-04-11,328,339!2030-02-20,1433,359!2026-04-01,318,339!2030-04-07,1471,359!2030-03-04,1443,359!2026-03-31,317,339!2026-04-09,326,339!2026-03-29,315,339-->
 
 ## right versor
 
