@@ -202,6 +202,7 @@ async def test_main_with_args():
 ```
 
 This pattern allows both:
+
 1. **Direct execution**: `python script.py arg1 arg2` (uses CLI args)
 2. **Programmatic testing**: Call `await main(["arg1", "arg2"])` directly in tests
 
