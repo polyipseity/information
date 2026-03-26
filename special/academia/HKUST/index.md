@@ -97,7 +97,9 @@ tags:
 ### 2026 spring
 
 - [ACCT 3020](ACCT%203020/index.md): Financial Accounting II \(3 credits\)
+- [COMP 4211](COMP%204211/index.md): Machine Learning \(3 credits\)
 - [ELEC 1100](ELEC%201100/index.md): Introduction to Electro-Robot Design \(4 credits\)
+- [MATH 2431](MATH%202431/index.md): Honors Probability \(4 credits\)
 
 <!-- future term sections should be inserted above this comment in strict chronological order -->
 
