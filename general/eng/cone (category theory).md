@@ -27,11 +27,11 @@ One can also define {@{the [dual](dual%20(category%20theory).md) notion of a __c
 
 ## equivalent formulations
 
-At first glance cones seem to be {@{slightly abnormal constructions in category theory}@}. They are {@{maps from an _object_ to a _functor_ \(or vice versa\)}@}. In keeping with {@{the spirit of category theory}@} we would like to {@{define them as morphisms or objects in some suitable category}@}. In fact, {@{we can do both}@}.
+At first glance cones seem to be {@{slightly abnormal constructions in category theory}@}. They are {@{maps from an _object_ to a _functor_ \(or vice versa\)}@}. In keeping with {@{the spirit of category theory}@} we would like to define them as {@{morphisms or objects in some suitable category}@}. In fact, {@{we can do both}@}. (annotation: 2 items: {@{natural transformation, comma category}@})
 
 Let {@{_J_ be a small category}@} and let {@{_C_<sup>_J_</sup> be the [category of diagrams](category%20of%20diagrams.md) of type _J_ in _C_ \(this is nothing more than a [functor category](functor%20category.md)\)}@}. Define {@{the [diagonal functor](diagonal%20functor.md) Δ : _C_ → _C_<sup>_J_</sup>}@} as follows: {@{Δ\(_N_\) : _J_ → _C_ is the [constant functor](constant%20functor.md#examples) to _N_ for all _N_ in _C_}@}.
 
-If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equivalent:
+If {@{_F_ is a diagram of type _J_ in _C_}@}, {@{the following statements are equivalent}@}: (annotation: 3 items: {@{cone, natural transformation, comma category}@})
 
 - (annotation: cone) ::@:: ψ is a cone from _N_ to _F_
 - (annotation: cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from Δ\(_N_\) to _F_
