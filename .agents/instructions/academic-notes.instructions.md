@@ -39,7 +39,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 - Treat submodules (including `private/`, `tools/pytextgen/`, `tools/pyarchivist/`) as read-only unless the user explicitly grants permission.
 - Prefer small, reviewable changes to skill docs and helper scripts; document rationale and link to the Continuous improvement section of SKILL.md when proposing edits.
 - Unless the user explicitly asks about commits or version-control steps, do not add commit reminders or commit-oriented instructions during academic-notes work; keep the guidance centered on content, structure, validation, and documentation quality.
-- **Always run the `check.py` validator after using any edit tool.** The agent frequently emits malformed Markdown, so validating immediately helps catch and fix errors or warnings before they land in a PR.
+- **Always run the `check.py` validator after using any edit tool, but keep the scope narrow.** Validate only the smallest relevant path—normally the specific course directory you are editing, or an even narrower path when supported. **Never run the validator recursively on the entire repository, the repository root, or the whole current workspace**; that is too slow and floods the result with unrelated issues. For normal note work, do not inspect or search for recursion behavior first; simply pass the correct narrow path to the validator.
 - Treat topic-note maintenance as a three-part update: if you add, remove, split, merge, or rename content in a topic note, update the corresponding flashcards in that note and then update every affected `index.md` section link or anchor in the same task.
 
 ## Tools & locations
