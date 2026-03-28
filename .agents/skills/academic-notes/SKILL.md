@@ -27,19 +27,23 @@ This skill is the authoritative guide for creating and maintaining course notes 
 8. **Validate immediately and narrowly.** Run `uv run .agents/skills/academic-notes/check.py` after edits, targeting only the relevant course directory or file.
 9. **Prefer one durable home per concept.** Enhance existing notes and add section links before creating overlapping new notes.
 10. **For honors or proof-heavy courses, raise the rigor.** State hypotheses explicitly, include proof sketches or derivation skeletons, keep concrete examples and counterexamples, and prefer the quartet _formula + derivation + intuition + worked example_ for technical notes.
+11. **Store course-local agent instructions in `AGENTS.md`.** Keep them concise, course-specific, and titled exactly `# <course code> agent instructions`; do not keep agent instructions in HTML comments inside `index.md`.
+12. **Do not put flashcard syntax in `AGENTS.md`.** Keep `AGENTS.md` free of `{@{ }@}`, `:@:`, and `::@::`.
+13. **Do not move validation suppressions out of content notes.** Inline or local suppression directives (for example `<!-- check: ignore-line[...] -->`) are validation metadata, not agent instructions.
 
 ## Authoring workflow
 
 Use this workflow whenever you add or revise course content.
 
 1. Start from `course-template.md` when creating a new course `index.md`.
-2. Fill frontmatter carefully: aliases, tags, course name, credits, and description.
-3. Add `logistics` with grading and chosen-section metadata.
-4. Maintain `children:` in teaching order and keep links current.
-5. Write explanatory prose first; add flashcards after the prose is accurate.
-6. Update related `index.md` anchors and section links in the same pass.
-7. Run the validator and fix both errors and warnings before moving on.
-8. Before finishing, check the note once as a reader and once as a flashcard consumer.
+2. If agent-specific guidance is needed, add or update `<course folder>/AGENTS.md` with concise bullets and title `# <course code> agent instructions`.
+3. Fill frontmatter carefully: aliases, tags, course name, credits, and description.
+4. Add `logistics` with grading and chosen-section metadata.
+5. Maintain `children:` in teaching order, include `[AGENTS](AGENTS.md)` when present, and keep links current.
+6. Write explanatory prose first; add flashcards after the prose is accurate.
+7. Update related `index.md` anchors and section links in the same pass.
+8. Run the validator and fix both errors and warnings before moving on.
+9. Before finishing, check the note once as a reader and once as a flashcard consumer.
 
 ### Adding new lecture content
 
@@ -91,6 +95,7 @@ Also follow these rules:
 - Use `status: public holiday: <name>` or `status: no class` for no-class days; omit `topic:` on those days. `status: unscheduled` also requires omitting `topic:`.
 - Weekly session metadata must match the chosen lecture/tutorial/lab stream.
 - Session-level flashcards in the index are optional; use them only for genuinely testable content, not scope summaries.
+- Keep suppression directives in-place when they justify a known validator exception; do not migrate suppression comments to `AGENTS.md`.
 - For topic notes referenced by a session, link the note as a parent bullet and the covered sections as indented `§` links beneath it.
 - On review/question pages, use ordinary headings and lists for self-authored material and markdown blockquotes for official course material.
 - Split large `questions.md` files into `questions/index.md` plus child pages when needed, and keep official question families (tutorials, problem sets, exams, solutions) distinct.
@@ -168,6 +173,7 @@ Create a topic note when a concept deserves a durable, reusable home. Topic note
 ### Course index and outline updates
 
 - Add every new topic note to the course `children:` list.
+- Include `[AGENTS](AGENTS.md)` in the course `children:` list when a course-local `AGENTS.md` exists.
 - In session entries, link the note as a parent bullet and the relevant sections as indented `§` links.
 - Every named section or subsection that matters for navigation should be reachable from the course index or session outline.
 - Keep link text exactly aligned with the actual heading text.

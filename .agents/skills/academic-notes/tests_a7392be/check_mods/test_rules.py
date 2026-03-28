@@ -12,6 +12,8 @@ from anyio import Path
 from check_mods.models import Frontmatter, Severity, ValidationContext
 from check_mods.rules import (
     RULE_REGISTRY,
+    agents_no_flashcard_markup,
+    agents_title,
     aliases_sorted,
     cloze_no_nested,
     cloze_open_close_matching,
@@ -19,13 +21,16 @@ from check_mods.rules import (
     cloze_wrong_closing_token,
     folder_link_trailing_slash,
     header_flashcard_presence,
+    header_flashcard_separator,
     header_style,
     index_children,
+    index_children_agents_link,
     index_children_format,
     index_children_missing,
     index_children_missing_index,
     index_children_order,
     index_heading,
+    index_non_suppression_html_comments,
     index_semester_order,
     latex_block_no_newline,
     latex_disallowed_delimiters,
@@ -366,6 +371,87 @@ def test_header_flashcard_presence_applies_to_all_levels():
     txt3 = "# week 2 tutorial\n\n## official material\n\n> quoted question\n"
     ctx3 = make_ctx(txt3, path=Path("/tmp/course/questions/week 2 tutorial.md"))
     assert not header_flashcard_presence(ctx3)
+
+
+def test_header_flashcard_rules_exempt_agents():
+    """AGENTS.md should be exempt from section-level flashcard requirements."""
+
+    txt = "# COMP 4211 agent instructions\n\n- Keep this concise.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/COMP 4211/AGENTS.md"))
+    assert not header_flashcard_presence(ctx)
+    assert not header_flashcard_separator(ctx)
+
+
+def test_agents_title_rule():
+    """AGENTS.md title must match '# <course code> agent instructions'."""
+
+    good = "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/HKUST/COMP_4211/AGENTS]\n---\n\n# COMP 4211 agent instructions\n\n- Keep course-specific notes here.\n"
+    ctx_good = make_ctx(
+        good, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md")
+    )
+    assert not agents_title(ctx_good)
+
+    bad = "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/HKUST/COMP_4211/AGENTS]\n---\n\nCOMP 4211 agent instructions\n"
+    ctx_bad = make_ctx(
+        bad, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md")
+    )
+    msgs = agents_title(ctx_bad)
+    assert msgs and msgs[0].rule_id == "agents_title"
+
+
+def test_agents_no_flashcard_markup_rule():
+    """AGENTS.md must not contain cloze/one-sided/two-sided separators."""
+
+    for bad_line in (
+        "- prompt ::@:: answer\n",
+        "- prompt :@: answer\n",
+        "- hidden {@{text}@}\n",
+    ):
+        txt = f"# COMP 4211 agent instructions\n\n{bad_line}"
+        ctx = make_ctx(
+            txt, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md")
+        )
+        msgs = agents_no_flashcard_markup(ctx)
+        assert msgs and msgs[0].rule_id == "agents_no_flashcard_markup"
+
+    good = "# COMP 4211 agent instructions\n\n- Keep guidance concise.\n"
+    assert not agents_no_flashcard_markup(
+        make_ctx(good, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md"))
+    )
+
+
+def test_index_non_suppression_html_comments_rule():
+    """index.md allows suppression comments only; other HTML comments are errors."""
+
+    ok = "# index\n\n## children\n- [AGENTS](AGENTS.md)\n\n- note ::@:: value <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->\n"
+    ctx_ok = make_ctx(ok, path=Path("/tmp/special/academia/HKUST/COMP 4211/index.md"))
+    assert not index_non_suppression_html_comments(ctx_ok)
+
+    bad = "# index\n\n<!-- source schedule -->\n\n## children\n- [AGENTS](AGENTS.md)\n"
+    ctx_bad = make_ctx(bad, path=Path("/tmp/special/academia/HKUST/COMP 4211/index.md"))
+    msgs = index_non_suppression_html_comments(ctx_bad)
+    assert msgs and msgs[0].rule_id == "index_non_suppression_html_comments"
+
+
+@pytest.mark.anyio
+async def test_index_children_agents_link_rule(tmp_path):
+    """If AGENTS.md exists beside index.md, children must include exact AGENTS link."""
+
+    # Set up a course folder with AGENTS.md present
+    (tmp_path / "AGENTS.md").touch()
+    (tmp_path / "attachments").mkdir()
+    index_path = Path(tmp_path / "index.md")
+
+    good = "# index\n\n## children\n- [attachments/](attachments/)\n- [AGENTS](AGENTS.md)\n"
+    assert not await index_children_agents_link(make_ctx(good, path=index_path))
+
+    missing = "# index\n\n## children\n- [attachments/](attachments/)\n"
+    msgs_missing = await index_children_agents_link(make_ctx(missing, path=index_path))
+    assert msgs_missing and msgs_missing[0].rule_id == "index_children_agents_link"
+
+    wrong = "# index\n\n## children\n- [attachments/](attachments/)\n- [agents](agents.md)\n"
+    msgs_wrong = await index_children_agents_link(make_ctx(wrong, path=index_path))
+    assert msgs_wrong and msgs_wrong[0].rule_id == "index_children_agents_link"
 
 
 @pytest.mark.anyio

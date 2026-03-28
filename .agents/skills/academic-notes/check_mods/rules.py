@@ -293,6 +293,115 @@ def index_children(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+async def index_children_agents_link(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require a precise AGENTS link in index children when AGENTS.md exists.
+
+    If ``AGENTS.md`` exists in the same folder as ``index.md``, the
+    ``## children`` section must contain exactly one entry
+    ``- [AGENTS](AGENTS.md)``.
+    """
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    agents_path = ctx.path.parent / "AGENTS.md"
+    if not await agents_path.is_file():
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    heading_match = re.search(
+        r"^##\s+children\s*$", ctx.text, re.IGNORECASE | re.MULTILINE
+    )
+    heading_line = None
+    if heading_match:
+        heading_line, _ = locate(ctx.text, heading_match.start())
+
+    entries: list[tuple[int, str, str]] = []
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            continue
+        display = m.group(1).strip()
+        href = m.group(2).strip()
+        href_clean = re.split(r"[#?]", href, 1)[0]
+        if href_clean.casefold() == "agents.md":
+            entries.append((line_no, display, href_clean))
+
+    if not entries:
+        errors.append(
+            ValidationMessage(
+                "index_children_agents_link",
+                "AGENTS.md exists but children section is missing '- [AGENTS](AGENTS.md)'",
+                line=heading_line,
+                col=1 if heading_line is not None else None,
+            )
+        )
+        return errors
+
+    if len(entries) > 1:
+        line_no = entries[1][0]
+        errors.append(
+            ValidationMessage(
+                "index_children_agents_link",
+                "children section contains multiple AGENTS links; keep exactly one '- [AGENTS](AGENTS.md)' entry",
+                line=line_no,
+                col=1,
+            )
+        )
+
+    line_no, display, href_clean = entries[0]
+    if display != "AGENTS" or href_clean != "AGENTS.md":
+        errors.append(
+            ValidationMessage(
+                "index_children_agents_link",
+                "AGENTS link must be exactly '- [AGENTS](AGENTS.md)'",
+                line=line_no,
+                col=1,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def index_non_suppression_html_comments(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Disallow non-suppression HTML comments in index.md.
+
+    Course-local agent guidance should live in ``AGENTS.md``. The only HTML
+    comments allowed in ``index.md`` are validator suppression directives such
+    as ``<!-- check: ignore-line[...] -->``.
+    """
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    for m in re.finditer(r"<!--(.*?)-->", ctx.text, re.DOTALL):
+        body = m.group(1).strip()
+        if re.match(r"^check:\s*ignore-(line|next-line|file)\[", body, re.IGNORECASE):
+            continue
+        line_no, col_no, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                "index_non_suppression_html_comments",
+                "non-suppression HTML comments are not allowed in index.md; move agent instructions/context to AGENTS.md",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def index_children_format(ctx: ValidationContext) -> list[ValidationMessage]:
     """Validate the format of the `## children` list in an index.md file.
 
@@ -1005,6 +1114,70 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def agents_title(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require AGENTS.md to begin with '# <course code> agent instructions'."""
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "agents.md":
+        return errors
+
+    expected = f"{ctx.path.parent.name} agent instructions"
+    expected_header = f"# {expected}"
+    body_start = len(ctx.text) - len(ctx.body)
+    offset = body_start
+    for line in ctx.body.splitlines(keepends=True):
+        stripped = line.strip()
+        if not stripped:
+            offset += len(line)
+            continue
+        if stripped != expected_header:
+            line_no, col_no, col_end = locate_range(
+                ctx.text, offset, len(line.rstrip("\n"))
+            )
+            errors.append(
+                ValidationMessage(
+                    "agents_title",
+                    f"AGENTS.md title must be exactly '{expected_header}'",
+                    line=line_no,
+                    col=col_no,
+                    col_end=col_end,
+                )
+            )
+        return errors
+
+    errors.append(
+        ValidationMessage(
+            "agents_title",
+            f"AGENTS.md is empty; add title '{expected_header}'",
+        )
+    )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def agents_no_flashcard_markup(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow flashcard syntax in AGENTS.md files."""
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "agents.md":
+        return errors
+
+    m = re.search(r"\{@\{|::@::|(?<!:):@:(?!:)", ctx.text)
+    if m:
+        line_no, col_no, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                "agents_no_flashcard_markup",
+                "AGENTS.md must not contain flashcard markup ({@{ }@}, :@:, ::@::)",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require that each non-index, non-questions header contains flashcard markers.
 
@@ -1017,7 +1190,12 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if name == "index.md" or name == "questions.md" or "questions" in parent_parts:
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
         return errors
     for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
@@ -1058,7 +1236,12 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if name == "index.md" or name == "questions.md" or "questions" in parent_parts:
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
         return errors
     for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))

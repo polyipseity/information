@@ -16,6 +16,7 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - Put human guidance **outside** the fenced block.
 - For course indexes, include spaced and unspaced course-code aliases plus institution-prefixed variants, sorted alphabetically.
 - Use underscore course codes in flashcard tags, for example `COMP_3031`.
+- Put course-specific agent instructions in `AGENTS.md` in the same course folder, keep them concise, use the title `# <course code> agent instructions`, and do not use flashcard markup there (`{@{ }@}`, `:@:`, `::@::`).
 - Place `assignments/` immediately after `children` and before session entries.
 - Keep sessions in strict chronological order and use numbered headings such as `lecture 1`, `lecture 2`, `lab 1`, and `tutorial 1` when needed.
 - Use underscore emphasis (`_italic_`, `__bold__`).
@@ -76,6 +77,7 @@ The content is in teaching order.
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
+- [AGENTS](AGENTS.md)
 
 ## assignments
 
