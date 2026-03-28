@@ -1,71 +1,30 @@
 # Course note template (institution-agnostic)
 
-This template follows the practical layout used in exemplar course pages (for example, `COMP 3031` and `ACCT 3010`) and captures common, repeatable patterns found in those examples. Use it when creating new course pages under `special/academia/<INSTITUTION>/<COURSE CODE>/`.
+Use this file as a scaffold for new course pages under `special/academia/<INSTITUTION>/<COURSE CODE>/`.
 
-Key patterns to follow (seen in the examples):
+## What belongs here
 
-- Provide multiple `aliases:` forms (with/without spaces, with/without `index`, and with the institution prefix) so note pages are easily discoverable. For course index pages, include the course code in both spaced and concatenated forms, plus the institution-prefixed forms, and keep the list alphabetically sorted.
-- Use `tags:` with the course code using an underscore (e.g., `COMP_3031`) for flashcard activation and include `language/in/<LANGUAGE>`.
-- Include the short line "The content is in teaching order." under the course `name` (this appears in the examples and makes ordering explicit).
-- Keep `children:` ordered and include `assignments/` immediately after `children` (and before sessions); attachments and questions may follow.  A `lectures/` folder is optional and usually unnecessary because session entries live directly in the index page.
-- Use a nested grading `scheme:` block and include exam metadata such as `venue:` and `format:` (e.g., `cheatsheet`, `open book`) when applicable.
-- Use session `status:` fields for cancellations/unscheduled/online notes and add `::@::` takeaways for flashcard generation.
-- If you consult the academic-notes Wikipedia helper, use it only to discover canonical general titles. Course notes and topic notes still live under `special/academia/...`, not under `general/`.
+- Template-facing reminders that directly affect how to fill the scaffold.
+- Short notes about aliases, tags, ordering, and section layout.
+- Example structure for a course `index.md`.
 
-See SKILL.md in this folder for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
+Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 
-Durable academic-notes lessons belong in this skill folder — primarily `SKILL.md`, this template, and the companion instruction file — rather than in persistent memory notes. If a reusable convention is discovered while editing course pages, update the authoritative docs in the same task instead of leaving the lesson only in memory.
+## Quick reminders
 
-## Short style notes (must appear outside the code block)
-
-- Keep the code block strictly machine-readable: frontmatter and topical entries belong inside the fenced `markdown` block only. ❗
-- Add human-readable guidance and style notes *outside* the fenced block (below the block) so they are not copied into course pages. ✅
-- Use `COMP_3031` (underscore) for flashcard activation tags in `tags:`; in prose use the spaced form `COMP 3031` as the visible heading. 🔖
-- Keep course-index aliases comprehensive: spaced course code, concatenated course code, each with `index`, and institution-prefixed variants. Topic-note aliases are different: use canonical topic terms and genuine singular/plural synonyms only. 🏷️
-- For repeated sessions in one week, use numbered subheadings: `lecture 1`, `lecture 2`, `lab 1`, `lab 2`, etc. 🔁
-- Include a one-line `::@::` takeaway per topic for flashcard generation; keep takeaways short and actionable (one sentence or fragment). ✍️
-- Use underscore for emphasis in course notes: `_italic_`, `__bold__` (not `*`/`**`); see SKILL.md. ✒️
-- When writing physical quantities always enclose units inside the math delimiters (`$5\text{ V}$` not `$5 V$`); the validator warns if units appear outside `$...$`. ⚠️
-- Use analogies or real-world comparisons (human body vs robot power, food as energy) in prose and turn the key point into a flashcard if helpful. 💡
-- Use `datetime` with ISO format and optional duration (e.g., `, PT1H20M`) where appropriate. ⏱️
-- Keep outline bullets flush with the expected indent (two spaces per level) and avoid inserting stray blank indents; this keeps the code block machine-readable and avoids parsing hiccups. 📏
-- When editing flashcards, read through the entire code block sequentially to catch misplaced separators or formatting errors – a complete sweep reduces subtle mistakes. 🔍
-- For mature topic notes, keep parent sections short and conceptual, let subsections carry the detailed derivations/examples, and trim overlapping cards across the hierarchy. 🧭
-
-> Note: Always add style/explanatory notes outside the fenced code block; never place explanatory text inside the template's `markdown` code block.
-
-### machine-learning topic-note refinements
-
-- Aim for **formula + derivation sketch + intuition + caveat**, not formula-only summaries. Add at least one worked numeric or symbolic mini-computation with matching standalone QA cards.
-- Keep assumptions explicit: IID or independence assumptions, priors, threshold rules, intercept conventions, row/column roles, and whether a quantity is a metric, loss, or decision rule.
-- For logistic-regression notes, explain odds/logit meaning, coefficient interpretation on the odds scale (for example $e^{w_j}$), the course threshold convention plus common tie alternatives, and why the sigmoid / Bernoulli-link formulation is used.
-- For entropy, cross entropy, and Kullback-Leibler divergence, label true/source $P$ versus model/scorer $Q$ clearly, include the full triad $H(P)$, $H(P,Q)$, $D_{\mathrm{KL}}(P\Vert Q)$, and derive conditional cross entropy explicitly as an average over $P(x)$.
-- For softmax notes, prefer the general target-distribution form first, include the categorical-cross-entropy derivation and the binary special case, define indices explicitly, and add logsumexp / max-shift stability guidance with a concrete large-logit example.
-- For classification notes, prefer a dedicated metrics section or note for precision/recall/F1/accuracy, define confusion-matrix notation in both prose and cards, and include macro/micro/weighted multiclass formulas when relevant.
-- For deep-network notes, pair the forward equation with repeated-composition intuition, define fan-in/fan-out and variance flow in initialization, compare activations on both theoretical and empirical axes, distinguish hidden-layer vanishing gradients from output-layer saturation, and include both coordinate-form and Jacobian-form backprop derivations with bias gradients.
-- For optimization updates, distinguish per-sample SGD, minibatch SGD, and full-batch gradient descent explicitly, and make sure worked-example cards place all givens and the exact requested quantity on the left-hand side.
-
-### assignments
-
-- NOTE: Place the `assignments/` child immediately after `children` and before any session entries (lectures, labs, tutorials, exams). Each assignment lives under `assignments/assignment N/` with an `index.md` and optional `submission.yml`. Always list assignments in chronological order by due date.
-
-### sessions and chronology
-
-- Session entries (lectures, labs, tutorials, exams) may interleave in time. Always list all sessions in strict chronological order. Use dated `datetime` fields to make ordering explicit and machine-readable.
-- For multiple sessions within a week, use numbered subheadings (e.g., `lecture 1`, `lecture 2`, `lab 1`, `lab 2`) and keep them ordered by datetime.
-- When the logistics section names a chosen stream (for example `tutorials: T1B`), the weekly tutorial or lab session metadata should use that chosen stream’s actual venue and time. Do not accidentally reuse another section’s slot metadata in the weekly timeline.
-- For no-class days (holidays, breaks): omit `topic:`; use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day) or `status: no class` for other non-teaching days (e.g. midterm break). Do not put the holiday or status in the section heading (use `## week 3 lecture` or `## week 3 lecture 2`, etc., not `## week 3 (Lunar New Year)` or `## week 3 no class`); see SKILL.md session and index rules.
-
-### questions pages
-
-- If you are quoting or closely transcribing official course-material questions on `questions.md` or on child pages inside `questions/`, prefer markdown blockquotes for each Q&A block and put any clozes inside that blockquote so the flashcard viewer retains the quoted context.
-- If the questions are self-generated repository review prompts rather than official course materials, prefer normal headings and list items instead of blockquotes; flashcards remain optional there.
-- When a single questions page becomes large, prefer folder format: create `questions/index.md` and split the content into smaller child pages such as one file per tutorial week and one file per exam/review collection. Update all incoming links and delete the old monolithic page so there is only one canonical questions location.
+- Keep the fenced `markdown` block machine-readable.
+- Put human guidance **outside** the fenced block.
+- For course indexes, include spaced and unspaced course-code aliases plus institution-prefixed variants, sorted alphabetically.
+- Use underscore course codes in flashcard tags, for example `COMP_3031`.
+- Place `assignments/` immediately after `children` and before session entries.
+- Keep sessions in strict chronological order and use numbered headings such as `lecture 1`, `lecture 2`, `lab 1`, and `tutorial 1` when needed.
+- Use underscore emphasis (`_italic_`, `__bold__`).
+- Keep units inside math delimiters, for example `$5\text{ V}$`.
 
 ## template content
 
 ```markdown
-<!-- All HTML comments scattered throughout this template are explanatory only—they exist purely to document the template’s structure.  When your course page is instantiated, remove every HTML comment (not just the one above) before committing.  Comments are for author guidance and must not be checked in to the repository. -->
+<!-- Remove template comments before committing. -->
 ---
 aliases:
   - <course code>
@@ -88,9 +47,8 @@ tags:
 - name: <course name (English)>
 - credits: <number of credits>
 
---- <!-- This horizontal separator is always required. -->
+---
 
-<!-- Provide a detailed course description and any additional notes here. Prefer paragraph prose; use a bulleted list only when the content is clearly list-oriented.  This block may contain multiple paragraphs, bullet lists, or other Markdown elements.  It appears directly after the credits line.  Policy notes are allowed but must not include instructor or TA names/emails (those belong in a staff directory or syllabus); office hours (day/time/format) may be included in logistics.  Grading policy text should be placed immediately below this block rather than inside it. -->
 <course description and any additional notes>
 
 The content is in teaching order.
@@ -100,18 +58,16 @@ The content is in teaching order.
 - grading
   - <component name>: <percent>%; <optional description>
   - <another component>: <percent>%
-  - ... <!-- add or remove components as needed; description follows semicolon only when present -->
-- sections: <!-- Use one key per stream type for the chosen section (e.g. lecture: L1). Under that key list every section's identifier and details (L1, L2, L3 each with venue and times). Do not add separate lecture: L2, lecture: L3 keys. -->
-  - lecture: <chosen section> <!-- e.g. L1 = chosen; list L1, L2, L3 (all sections) under this key -->
+- sections:
+  - lecture: <chosen section>
     - L1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
     - L2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-    - L3: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-  - tutorials: <chosen section> <!-- e.g. T2; list all tutorial sections under this key -->
+  - tutorials: <chosen section>
     - T1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-    - T2: <venue>; ...
-  - labs: <chosen section> <!-- e.g. LA1; list all lab sections under this key -->
+    - T2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+  - labs: <chosen section>
     - LA1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-    - LA2: <venue>; ...
+    - LA2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
 
 ## children
 
@@ -120,8 +76,6 @@ The content is in teaching order.
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
-
-<!-- A `lectures/` subdirectory is **not required**.  Sessions (lectures, labs, tutorials, exams) are kept directly in the course index page and should be listed in strict chronological order.  Removing the lecture folder simplifies navigation and avoids unnecessary boilerplate; course material may reference individual weeks with nested headings or hyperlinks instead of separate files. -->
 
 ## assignments
 
@@ -139,18 +93,8 @@ The content is in teaching order.
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
 - status: scheduled
 - topic: logistics; introduction
-<!-- Session outline: list each topic note as a parent link with `  - topic name / [§ section name](file#anchor)` per section underneath. For index-only content (e.g. session flashcards), use the course code as parent and nest under it. -->
 - <COURSE CODE>
-  - <COURSE_CODE> / logistics ::@:: Course logistics, recommended books, evaluation
-- [link to general article](../../../../general/link%20to%20general%20article.md) ::@:: Description for "link to general article".
-
-### week 1 lab 1
-
-- datetime: 2025-09-15T15:00:00+08:00/2025-09-15T16:20:00+08:00, PT1H20M
-- topic: functional programming exercises
-- <COURSE CODE>
-  - <COURSE CODE> / lab 1 ::@:: Description for lab 1.
-    - <COURSE CODE> / lab 1 / Pascal's triangle ::@:: Purely recursive solution; no mutation allowed
+  - <COURSE CODE> / logistics ::@:: Course logistics, recommended books, evaluation.
 
 ### week 1 tutorial 1
 
@@ -158,22 +102,13 @@ The content is in teaching order.
 - topic: functional programming exercises
 - <COURSE CODE>
   - <COURSE CODE> / tutorial 1 ::@:: Description for tutorial 1.
-    - <COURSE CODE> / tutorial 1 / Pascal's triangle ::@:: Purely recursive solution; no mutation allowed
-
-### week 1 lab 2
-
-- datetime: 2025-09-17T15:00:00+08:00/2025-09-17T16:20:00+08:00, PT1H20M
-- topic: additional lab (make-up)
-- <COURSE CODE>
-  - <COURSE CODE> / lab 2 ::@:: Description for lab 2.
 
 ### week 1 lecture 2
 
 - datetime: 2025-09-18T12:00:00+08:00/2025-09-18T13:20:00+08:00, PT1H20M
 - topic: merge sort; algorithms
 - <COURSE CODE>
-  - <COURSE_CODE> / merge sort ::@:: Divide-and-conquer sorting, stability, complexity
-- [merge sort](../../../../general/merge%20sort.md) ::@:: Description for merge sort.
+  - <COURSE CODE> / merge sort ::@:: Divide-and-conquer sorting, stability, complexity.
 
 ## midterm examination
 
@@ -182,11 +117,11 @@ The content is in teaching order.
 - format:
   - cheatsheet: allowed
   - open book: no
-  - questions: long question ×4 (with subquestions)
+  - questions: long question ×4
 
 ---
 
-Administrative exam notes such as closed-book rules, examinable scope, answer-sheet instructions, or accommodation/contact information may be written here as ordinary prose paragraphs if helpful. They do not need flashcards and do not need to be forced into extra bullet points.
+Administrative exam notes may be written here as ordinary prose.
 
 ## final examination
 
@@ -196,11 +131,4 @@ Administrative exam notes such as closed-book rules, examinable scope, answer-sh
   - cheatsheet: allowed
   - open book: no
   - questions: long question ×3
-
-## aftermath
-
-### total
-
-- grades: 100/100
-  - statistics: ?
 ```

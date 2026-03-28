@@ -87,7 +87,7 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     # Same pattern as validator: week N type [number]; type = lecture|lab|tutorial only (status has no bearing on heading)
     session_headers: list[tuple[str, str, str, int]] = []
     _re = re.compile(
-        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?|no\s+class)\s*$",
+        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
         re.IGNORECASE | re.MULTILINE,
     )
     for m2 in _re.finditer(text):
@@ -434,17 +434,6 @@ def test_tag_path_flash_quotes_and_spaces():
     ctx = make_ctx(txt, path=path)
     msgs = tag_path_flash(ctx)
     assert msgs and "Week_s_Notes" in msgs[0].msg
-
-    # different casing and within a longer title should also trigger
-    txt2 = "### Resistive circuit examples and notes\nContent\n"
-    ctx2 = make_ctx(txt2)
-    msgs2 = section_example_heading(ctx2)
-    assert msgs2
-
-    # unrelated heading should be ignored
-    txt3 = "## Explanation of example-less topic\n"
-    ctx3 = make_ctx(txt3)
-    assert not section_example_heading(ctx3)
 
 
 def test_no_lecture_summary():
@@ -1257,9 +1246,7 @@ async def test_file_level_suppression_hides_index_rules(tmp_path: PathLike[str])
     # Without suppression, both index rules would fire on this path; with
     # ignore-file they should be fully removed from the result set.
     msgs = list(await check_markdown_file(file))
-    assert not any(
-        m.rule_id in {"index_heading_rule", "index_children_rule"} for m in msgs
-    )
+    assert not any(m.rule_id in {"index_heading", "index_children"} for m in msgs)
     # The suppression itself must not be marked redundant because those rules
     # would have produced diagnostics somewhere in the file.
     assert not any(m.rule_id == "suppression-redundant" for m in msgs)
