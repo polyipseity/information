@@ -463,7 +463,7 @@ In Scala, {@{an _abstract class_}@} serves as {@{a partial blueprint for concret
 > ```
 <!--SR:!2026-04-11,140,420!2026-05-01,158,429-->
 
-Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile-time error}@}. <!--SR:!2026-04-12,141,415!2026-04-04,134,420!2026-04-12,141,420!2026-04-16,145,429!2026-03-30,125,400!2026-04-12,141,420-->
+Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile-time error}@}. <!--SR:!2026-04-12,141,415!2026-04-04,134,420!2026-04-12,141,420!2026-04-16,145,429!2028-02-16,688,420!2026-04-12,141,420-->
 
 > [!example] __`EmptySet` definition__
 >

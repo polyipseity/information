@@ -121,7 +121,7 @@ Consider a system with {@{a sinusoidal driving [force](force.md) with max force 
 > & = A \cos(\omega_d t + \varphi) && (\text{drop the imaginary part}) \end{aligned}
 > \end{aligned}$$
 
-The transient solution can be found {@{from the homogeneous equation}@}. The steady-state solution is as below: <!--SR:!2026-03-30,564,312-->
+The transient solution can be found {@{from the homogeneous equation}@}. The steady-state solution is as below: <!--SR:!2032-12-01,2438,332-->
 
 > __driven, damped harmonic oscillator with sinusoidal driving force, {@{steady-state solution}@}__
 >

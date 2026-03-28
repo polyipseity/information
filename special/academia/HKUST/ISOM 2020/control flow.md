@@ -53,7 +53,7 @@ if condition:
   pass # required, otherwise error
 ```
 
-Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350!2026-04-05,150,420!2026-03-30,145,420!2026-04-02,147,420-->
+Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350!2026-04-05,150,420!2028-07-06,829,440!2026-04-02,147,420-->
 
 ## iteration
 
@@ -99,6 +99,6 @@ while condition:
   pass # required, otherwise error
 ```
 
-If {@{you want to stop a `while` loop early in the loop}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-17,2100,391!2026-03-31,423,371!2026-03-30,422,371-->
+If {@{you want to stop a `while` loop early in the loop}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-17,2100,391!2026-03-31,423,371!2032-02-12,2145,391-->
 
 ISOM 2020 note: {@{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}@} If {@{you really need a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2031-12-29,2109,391!2026-04-18,439,371!2032-01-25,2132,391-->

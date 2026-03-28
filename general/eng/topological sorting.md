@@ -101,7 +101,7 @@ One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, work
 >     {@{<b>return</b> error   <i>(graph has at least one cycle)</i>}@}
 > <b>else</b>
 >     {@{<b>return</b> <i>L</i>   <i>(a topologically sorted order)</i>}@}
-> </pre> <!--SR:!2026-06-17,454,379!2026-04-29,412,371!2026-03-30,385,358!2029-11-17,1342,358!2028-04-13,941,347!2029-02-17,1128,359!2026-04-30,413,371!2026-04-19,404,371!2030-05-06,1559,379!2026-05-25,435,379!2026-05-31,439,379!2026-04-13,398,371-->
+> </pre> <!--SR:!2026-06-17,454,379!2026-04-29,412,371!2031-06-04,1892,378!2029-11-17,1342,358!2028-04-13,941,347!2029-02-17,1128,359!2026-04-30,413,371!2026-04-19,404,371!2030-05-06,1559,379!2026-05-25,435,379!2026-05-31,439,379!2026-04-13,398,371-->
 
 If {@{the graph is a [DAG](directed%20acyclic%20graph.md)}@}, {@{a solution will be contained in the list L \(although the solution is not necessarily unique\)}@}. Otherwise, {@{the graph must have at least one cycle and therefore a topological sort is impossible}@}. <!--SR:!2026-06-21,457,379!2026-04-05,393,371!2027-09-20,784,339-->
 
@@ -178,7 +178,7 @@ Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S ca
 >
 >     {@{mark <i>n</i> with a permanent mark}@}
 >     {@{add <i>n</i> to head of <i>L</i>}@}
-> </pre> <!--SR:!2030-09-23,1686,374!2026-05-17,428,379!2027-04-30,618,331!2031-08-16,1967,391!2026-03-30,388,371!2026-05-13,424,379!2030-07-26,1640,378!2027-05-28,685,338!2031-03-12,1840,391!2026-06-18,455,379!2026-04-14,399,371!2026-06-10,448,379!2026-06-21,457,379!2026-05-12,423,379-->
+> </pre> <!--SR:!2030-09-23,1686,374!2026-05-17,428,379!2027-04-30,618,331!2031-08-16,1967,391!2031-08-23,1972,391!2026-05-13,424,379!2030-07-26,1640,378!2027-05-28,685,338!2031-03-12,1840,391!2026-06-18,455,379!2026-04-14,399,371!2026-06-10,448,379!2026-06-21,457,379!2026-05-12,423,379-->
 
 {@{Each node _n_}@} gets {@{_prepended_ to the output list L only after considering all other nodes that depend on _n_ \(all descendants of _n_ in the graph\)}@}. Specifically, when {@{the algorithm adds node _n_}@}, we are guaranteed that {@{all nodes that depend on _n_ are already in the output list L}@}: they were {@{added to L either by the recursive call to visit\(\) that ended before the call to visit _n_, or by a call to visit\(\) that started even before the call to visit _n_}@}. Since {@{each edge and node is visited once}@}, {@{the algorithm runs in linear time}@}. {@{This depth-first-search-based algorithm}@} is {@{the one described by [Cormen et al. \(2001\)](#^ref-3)}@};<sup>[\[3\]](#^ref-3)</sup> it seems to {@{have been first described}@} {@{in print by Tarjan in 1976}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2031-01-02,1769,378!2026-04-23,407,371!2026-05-29,438,379!2031-04-11,1848,378!2026-06-07,446,379!2026-05-14,425,379!2031-04-17,1853,378!2026-12-05,542,319!2027-12-25,857,351!2031-02-25,1815,378!2027-11-17,830,351-->
 

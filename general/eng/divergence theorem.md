@@ -138,7 +138,7 @@ By {@{replacing __F__ in the divergence theorem with specific forms}@}, {@{other
 
 > {@{![Some surfaces without boundary \(left\) and with boundary \(right\).](../../archives/Wikimedia%20Commons/SurfacesWithAndWithoutBoundary.svg)}@}
 >
-> {@{The divergence theorem}@} can be used to {@{calculate a flux through a [closed surface](closed%20surface.md#closed%20surfaces) that fully encloses a volume}@}, like {@{any of the surfaces on the left}@}. It {@{can _not_ directly be used to calculate the flux through surfaces with boundaries}@}, like {@{those on the right}@}. \(Surfaces are {@{blue, boundaries are red}@}.\) <!--SR:!2026-05-31,251,330!2026-03-30,183,310!2026-07-25,292,330!2026-05-14,237,330!2026-07-25,292,330!2026-06-14,258,330!2026-06-17,261,330-->
+> {@{The divergence theorem}@} can be used to {@{calculate a flux through a [closed surface](closed%20surface.md#closed%20surfaces) that fully encloses a volume}@}, like {@{any of the surfaces on the left}@}. It {@{can _not_ directly be used to calculate the flux through surfaces with boundaries}@}, like {@{those on the right}@}. \(Surfaces are {@{blue, boundaries are red}@}.\) <!--SR:!2026-05-31,251,330!2028-05-28,790,330!2026-07-25,292,330!2026-05-14,237,330!2026-07-25,292,330!2026-06-14,258,330!2026-06-17,261,330-->
 
 Suppose we wish to evaluate {@{$$\oiint_S \mathbf {F} \cdot \mathbf {n} \,\mathrm {d} S \,,$$}@} where {@{_S_ is the [unit sphere](unit%20sphere.md)}@} defined by {@{$$S=\left\{(x,y,z)\in \mathbb {R} ^{3}\ :\ x^{2}+y^{2}+z^{2}=1\right\},$$}@} and {@{__F__ is the [vector field](vector%20field.md)}@} {@{$$\mathbf {F} =2x\mathbf {i} +y^{2}\mathbf {j} +z^{2}\mathbf {k} .$$}@} <!--SR:!2026-06-25,271,330!2026-05-19,241,330!2026-05-07,230,330!2026-05-08,232,330!2026-05-21,238,330-->
 

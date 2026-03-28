@@ -60,7 +60,7 @@ Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-
 - The composite of two functors of the same variance: ::@:: (annotation: composite is covariant) <!--SR:!2029-03-19,1118,346!2030-09-29,1661,377-->
   - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
   - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
-- The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant) <!--SR:!2030-08-20,1628,377!2026-03-30,352,357-->
+- The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant) <!--SR:!2030-08-20,1628,377!2030-12-26,1732,377-->
   - $\mathrm {Covariant} \circ \mathrm {Contravariant} \to \mathrm {Contravariant}$
   - $\mathrm {Contravariant} \circ \mathrm {Covariant} \to \mathrm {Contravariant}$
 
@@ -168,7 +168,7 @@ __Free functors__
 <!-- markdownlint-disable-next-line MD036 -->
 __Homomorphism groups__
 
-&emsp; {@{To every pair _A_, _B_ of [abelian groups](group%20(mathematics).md)}@} one can {@{assign the abelian group Hom\(_A_, _B_\) consisting of all [group homomorphisms](group%20homomorphism.md) from _A_ to _B_}@}. This is {@{a functor which is contravariant in the first and covariant in the second argument, i.e. it is a functor __Ab__<sup>op</sup> × __Ab__ → __Ab__ \(where __Ab__ denotes the [category of abelian groups](category%20of%20abelian%20groups.md) with group homomorphisms\)}@}. If {@{_f_ : _A_<sub>1</sub> → _A_<sub>2</sub> and _g_ : _B_<sub>1</sub> → _B_<sub>2</sub> are morphisms in __Ab__}@}, then {@{the group homomorphism Hom\(_f_, _g_\): Hom\(_A_<sub>2</sub>, _B_<sub>1</sub>\) → Hom\(_A_<sub>1</sub>, _B_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_. See [Hom functor](hom%20functor.md)}@}. <!--SR:!2030-12-04,1713,377!2030-11-12,1697,377!2027-05-14,647,337!2026-03-30,352,357!2029-09-22,1338,350!2026-07-16,409,317-->
+&emsp; {@{To every pair _A_, _B_ of [abelian groups](group%20(mathematics).md)}@} one can {@{assign the abelian group Hom\(_A_, _B_\) consisting of all [group homomorphisms](group%20homomorphism.md) from _A_ to _B_}@}. This is {@{a functor which is contravariant in the first and covariant in the second argument, i.e. it is a functor __Ab__<sup>op</sup> × __Ab__ → __Ab__ \(where __Ab__ denotes the [category of abelian groups](category%20of%20abelian%20groups.md) with group homomorphisms\)}@}. If {@{_f_ : _A_<sub>1</sub> → _A_<sub>2</sub> and _g_ : _B_<sub>1</sub> → _B_<sub>2</sub> are morphisms in __Ab__}@}, then {@{the group homomorphism Hom\(_f_, _g_\): Hom\(_A_<sub>2</sub>, _B_<sub>1</sub>\) → Hom\(_A_<sub>1</sub>, _B_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_. See [Hom functor](hom%20functor.md)}@}. <!--SR:!2030-12-04,1713,377!2030-11-12,1697,377!2027-05-14,647,337!2030-12-19,1725,377!2029-09-22,1338,350!2026-07-16,409,317-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Representable functors__

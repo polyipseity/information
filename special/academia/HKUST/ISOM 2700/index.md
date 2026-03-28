@@ -188,7 +188,7 @@ The content is in teaching order.
 - datetime: 2025-02-12T10:30:00+08:00/2025-02-12T11:50:00+08:00
 - topic: OM and finance, inventory turnover analysis, ROIC tree, basic statistics concepts
 - operations management
-  - operations management / accounting & finance ::@:: It plays an important role in understanding and improving a firm's financial performance. <p> Examples are inventory costs, inventory turnover, and return on invested capital (ROIC). <!--SR:!2026-03-30,308,366!2030-01-02,1419,386-->
+  - operations management / accounting & finance ::@:: It plays an important role in understanding and improving a firm's financial performance. <p> Examples are inventory costs, inventory turnover, and return on invested capital (ROIC). <!--SR:!2030-06-24,1547,386!2030-01-02,1419,386-->
 - [inventory](../../../../general/inventory.md) ::@:: It refers to the goods and materials that a business holds for the ultimate goal of resale, production or utilization. <!--SR:!2026-09-27,468,386!2028-02-13,855,366-->
   - inventory / importance ::@:: They are everywhere. So it is an important signal for managers and analysts to determine how well a retailer is running its business. <p> An empirical analysis for over 353 publicly listed U.S. retailers for the period 1985–2003 inventory shows: 57% publicly traded retailers has inventory as the largest asset on the balance sheet. On average, the inventory takes up 35.1% of total assets. <!--SR:!2026-10-28,453,326!2028-02-01,845,366-->
   - inventory / benefits ::@:: economics of scale (i.e. produce more than the _current_ demand), meet variation in demand or processes (e.g. unexpected shocks), independence between operations (the inventory act as a buffer) <!--SR:!2029-06-28,1265,386!2029-06-27,1264,386-->

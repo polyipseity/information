@@ -276,7 +276,7 @@ subscription fee
 
 #### key resources
 
-{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2026-04-10,533,314!2026-03-30,411,237!2026-06-16,85,353-->
+{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2026-04-10,533,314!2030-01-01,1373,257!2026-06-16,85,353-->
 
 #### key activities
 

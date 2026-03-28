@@ -827,7 +827,7 @@ ID: 23456789
   - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. True or false? (-1) ::@:: False. Carefully read "... before running the best model on the whole data set". <!--SR:!2026-06-30,473,386!2029-07-14,1243,366-->
   - calculating recall (-4.2) ::@:: Do not calculate recall wrongly. Also, prioritize checking cascading questions (questions that depend on the answer of previous questions). <!--SR:!2026-06-12,457,386!2026-06-23,467,386-->
   - identity of models (-1) ::@:: Two models are considered different if their parameters (but not hyperparameters) are the same. For example, two _k_-NN model on the same training data but with different _k_ are considered the same model. However, if the hyperparameters also affect the parameters, e.g. training hyperparameters, then in said cases, different hyperparameters usually implies different parameters. <!--SR:!2026-04-13,404,386!2028-12-31,1168,366-->
-  - time limit ::@:: It was sufficient to finish all questions (about 40 minutes left) and check some questions thoroughly. <!--SR:!2026-03-30,374,400!2030-03-25,1530,400-->
+  - time limit ::@:: It was sufficient to finish all questions (about 40 minutes left) and check some questions thoroughly. <!--SR:!2031-10-27,2037,420!2030-03-25,1530,400-->
 - check
   - datetime: 2024-11-07T19:30:00+08:00/2024-11-07T21:00:00+08:00, PT1H30M
   - venue: Lecture Theater B

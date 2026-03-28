@@ -29,7 +29,7 @@ In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian p
 
 > Given {@{the graph in the image}@}, is it possible to {@{construct a [path](path%20(graph%20theory).md) \(or a [cycle](cycle%20(graph%20theory).md); i.e., a path starting and ending on the same vertex\) that visits each edge exactly once}@}? <!--SR:!2026-04-03,393,362!2031-04-05,1851,382-->
 
-Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an [even](parity%20(mathematics).md) [degree](degree%20(graph%20theory).md)}@}, and {@{stated without proof that [connected graphs](connectivity%20(graph%20theory).md) with all vertices of even degree have an Eulerian circuit}@}. {@{The first complete proof of this latter claim}@} was {@{published posthumously in 1873}@} by {@{[Carl Hierholzer](Carl%20Hierholzer.md)}@}.<sup>[\[1\]](#^ref-1)</sup> This is known as {@{__Euler's Theorem:__}@} <!--SR:!2028-04-08,966,362!2028-08-03,1059,362!2026-03-30,390,362!2026-05-29,403,310!2029-10-19,1402,356!2031-05-18,1887,382-->
+Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an [even](parity%20(mathematics).md) [degree](degree%20(graph%20theory).md)}@}, and {@{stated without proof that [connected graphs](connectivity%20(graph%20theory).md) with all vertices of even degree have an Eulerian circuit}@}. {@{The first complete proof of this latter claim}@} was {@{published posthumously in 1873}@} by {@{[Carl Hierholzer](Carl%20Hierholzer.md)}@}.<sup>[\[1\]](#^ref-1)</sup> This is known as {@{__Euler's Theorem:__}@} <!--SR:!2028-04-08,966,362!2028-08-03,1059,362!2031-07-21,1939,382!2026-05-29,403,310!2029-10-19,1402,356!2031-05-18,1887,382-->
 
 > {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2031-02-14,1813,382!2030-12-13,1764,382!2031-03-25,1842,382-->
 
@@ -120,7 +120,7 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 
 > {@{![An infinite graph with all vertex degrees equal to four but with no Eulerian line](../../archives/Wikimedia%20Commons/Kely%20graph%20of%20F2%20clear.svg)}@}
 >
-> {@{An infinite graph with all vertex degrees equal to four}@} but {@{with no Eulerian line}@} <!--SR:!2028-03-13,912,336!2031-03-10,1832,382!2026-03-30,25,396-->
+> {@{An infinite graph with all vertex degrees equal to four}@} but {@{with no Eulerian line}@} <!--SR:!2028-03-13,912,336!2031-03-10,1832,382!2026-08-10,133,416-->
 
 In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-09-29,1385,356!2028-07-30,1042,350!2030-05-06,1572,370!2031-04-06,1852,382!2028-05-23,1002,362!2031-07-09,1929,382!2031-06-05,1902,382!2026-07-17,443,322!2029-10-01,1388,356!2029-05-13,1266,362-->
 
@@ -159,7 +159,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{Ford and Fulkerson proved in 1962}@} in {@{their book _Flows in Networks_}@} {@{a necessary and sufficient condition for a graph to be Eulerian}@}, viz., that {@{every vertex must be even and satisfy the balance condition}@}, i.e. for {@{every subset of vertices S}@}, {@{the difference between the number of arcs leaving S and entering S must be less than or equal to the number of (non-arc) edges incident with S}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-07-18,444,322!2031-03-18,1838,382!2026-04-01,392,362!2028-07-23,1036,350!2029-09-01,1359,352!2026-08-05,460,322-->
 
-{@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}. <!--SR:!2031-02-22,1819,382!2026-04-04,394,362!2026-03-30,389,362-->
+{@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}. <!--SR:!2031-02-22,1819,382!2026-04-04,394,362!2031-07-15,1933,382-->
 
 > {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >
@@ -182,7 +182,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 ## notes
 
-1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2031-04-18,1863,382!2031-02-27,1823,382!2031-07-04,1925,382!2030-12-31,1776,382!2026-03-31,391,362!2031-07-06,1927,382!2028-01-20,896,350!2026-03-30,390,362-->
+1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2031-04-18,1863,382!2031-02-27,1823,382!2031-07-04,1925,382!2030-12-31,1776,382!2026-03-31,391,362!2031-07-06,1927,382!2028-01-20,896,350!2031-07-16,1934,382-->
 
 ## references
 

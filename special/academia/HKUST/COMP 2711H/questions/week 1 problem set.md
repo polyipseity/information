@@ -19,7 +19,7 @@ tags:
 
 ## commutativity of addition and multiplication under the Peano axioms
 
-For all natural numbers $a$ and $b$, prove that {@{addition as defined in the \(second-order formulation of\) Peano axioms commutates}@}, i.e. {@{$$a + b = b + a \,.$$}@} Then, given that {@{addition associates \(i.e. $(a + b) + c = a + (b + c)$\) and commutates}@}, prove that {@{multiplication commutates, i.e. $$a \cdot b = b \cdot a \,.$$}@} <!--SR:!2028-11-20,1108,340!2026-03-31,116,394!2026-03-30,115,394!2026-03-30,115,394-->
+For all natural numbers $a$ and $b$, prove that {@{addition as defined in the \(second-order formulation of\) Peano axioms commutates}@}, i.e. {@{$$a + b = b + a \,.$$}@} Then, given that {@{addition associates \(i.e. $(a + b) + c = a + (b + c)$\) and commutates}@}, prove that {@{multiplication commutates, i.e. $$a \cdot b = b \cdot a \,.$$}@} <!--SR:!2028-11-20,1108,340!2026-03-31,116,394!2027-12-14,624,414!2027-12-15,625,414-->
 
 - strategy ::@:: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2026-12-10,589,290!2027-01-21,663,340-->
 
@@ -33,7 +33,7 @@ For all natural numbers $a$ and $b$, prove that {@{addition as defined in the \(
 
 ## existence and uniqueness of quotient and remainder
 
-Let {@{$a, b \in \mathbb N_0$ and $b \ne 0$}@}. Prove that there exists {@{two natural numbers $q, r \in \mathbb N_0$}@} such that {@{$$a = b \cdot q + r \qquad r < b \,.$$}@} Then prove that {@{$q, r$ are unique}@}, i.e. there is {@{only one possible pair of values $q, r$}@}. \({@{The associativity and commutativity}@} of {@{addition and multiplication}@} are given. {@{The distributive law}@} is also given.\) <!--SR:!2030-06-25,1657,360!2026-04-01,117,394!2026-03-30,115,394!2026-03-30,115,394!2026-04-02,118,394!2026-03-30,115,394!2026-03-30,115,394!2026-03-31,116,394-->
+Let {@{$a, b \in \mathbb N_0$ and $b \ne 0$}@}. Prove that there exists {@{two natural numbers $q, r \in \mathbb N_0$}@} such that {@{$$a = b \cdot q + r \qquad r < b \,.$$}@} Then prove that {@{$q, r$ are unique}@}, i.e. there is {@{only one possible pair of values $q, r$}@}. \({@{The associativity and commutativity}@} of {@{addition and multiplication}@} are given. {@{The distributive law}@} is also given.\) <!--SR:!2030-06-25,1657,360!2026-04-01,117,394!2027-12-16,626,414!2027-12-02,612,414!2026-04-02,118,394!2027-12-03,613,414!2027-12-04,614,414!2026-03-31,116,394-->
 
 - strategy / existence ::@:: Use induction, as it is usually more suitable for proving existence. <!--SR:!2029-07-13,1279,310!2029-10-23,1465,360-->
 - strategy / uniqueness ::@:: For uniqueness, prove by contradiction via the well-ordering principle. Assert the existence of a least natural number that admits two or more distinct pairs of quotient and remainder. Then reverse the process used in induction to prove the existence of a smaller natural number that admits two or more distinct pairs of quotient and remainder. <!--SR:!2029-11-28,1410,320!2027-07-24,749,300-->

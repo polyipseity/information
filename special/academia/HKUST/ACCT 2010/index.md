@@ -408,7 +408,7 @@ The content is in teaching order.
 ## week 9 lecture 2
 
 - datetime: 2024-10-31T13:30:00+08:00/2024-10-31T14:50:00+08:00
-- [lease](../../../../general/lease.md) ::@:: It is a contractual arrangement calling for the user (referred to as the _lessee_) to pay the owner (referred to as the _lessor_) for the use of an asset. <!--SR:!2030-04-30,1570,396!2026-03-30,377,383-->
+- [lease](../../../../general/lease.md) ::@:: It is a contractual arrangement calling for the user (referred to as the _lessee_) to pay the owner (referred to as the _lessor_) for the use of an asset. <!--SR:!2030-04-30,1570,396!2031-08-26,1975,403-->
   - lease / terms ::@:: short-term: within 1 year (including expected extensions and renewals), long-term: everything else <!--SR:!2026-04-06,383,383!2026-10-04,538,403-->
   - lease / short-term ::@:: at lease end (_not_ start): debit expense "Lease expense", credit asset "Cash" or "Bank" or whatever <!--SR:!2026-09-21,527,403!2031-08-15,1967,403-->
   - lease / long-term ::@:: 1. _initially_: debit asset "Right-of-use", credit liability "Lease liability" <br/> 2. _at year end_: debit liability "Lease liability", credit asset "Cash" or "Bank" or whatever <br/> 3. _income statement effect_: debit expense "P/L depreciation", credit contra-asset "Accumulated depreciation (B/S)" (P/L: profit/loss, B/S: balance sheet) <!--SR:!2028-09-06,995,363!2027-02-18,606,356-->
@@ -474,7 +474,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-12T13:30:00+08:00/2024-11-12T14:50:00+08:00
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
-  - [cash flow](../../../../general/cash%20flow.md) ::@:: A key indicator of a company's financial health. <p> Positive of it enables paying cash dividends; expanding its operations, new productive capacity; replacing needed assets; and repaying debts to creditors (including suppliers). <!--SR:!2026-08-20,500,403!2026-03-30,377,383-->
+  - [cash flow](../../../../general/cash%20flow.md) ::@:: A key indicator of a company's financial health. <p> Positive of it enables paying cash dividends; expanding its operations, new productive capacity; replacing needed assets; and repaying debts to creditors (including suppliers). <!--SR:!2026-08-20,500,403!2031-08-25,1974,403-->
   - [cash equivalent](../../../../general/cash%20and%20cash%20equivalents.md) ::@:: examples: <br/> short-term, highly liquid investments <br/> readily convertible into cash <br/> maturities of less than 3 months: time span short enough market value is not affected by interest rate changes <!--SR:!2026-04-04,381,383!2027-08-11,750,363-->
   - [ACCT 2010/statement of cash flows](statement%20of%20cash%20flows.md)
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2026-08-24,504,403!2030-04-20,1560,396-->
@@ -483,7 +483,7 @@ The content is in teaching order.
     - operating activities / outflows ::@:: - purchase of goods for resale and services (electricity, etc.) <br/> - salaries and wages <br/> - income taxes <br/> - interest on trade liabilities <!--SR:!2027-06-28,715,363!2029-06-12,1241,383-->
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2026-07-23,477,403!2030-08-14,1674,403-->
     - investing activities / inflows ::@:: - sale or disposal of property, plant and equipment <br/> - sale or maturity of investments in securities <br/> - investment related interest income <!--SR:!2031-04-11,1865,403!2027-03-06,622,356-->
-    - investing activities / outflows ::@:: - purchase of property, plant and equipment <br/> - purchase of investments in securities <!--SR:!2026-03-30,377,383!2026-04-13,371,383-->
+    - investing activities / outflows ::@:: - purchase of property, plant and equipment <br/> - purchase of investments in securities <!--SR:!2031-08-24,1973,403!2026-04-13,371,383-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2028-08-31,1080,383!2028-07-29,1055,383-->
     - financing activities / inflows ::@:: - borrowings on notes, mortgages, bonds, etc. from creditors <br/> - issuing stock to owners <!--SR:!2026-04-08,385,383!2030-07-16,1645,403-->
     - financing activities / outflows ::@:: - repayment of principal to creditors <br/> - repurchasing stock from owners <br/> - dividends to owners <br/> - financing related interest expense <!--SR:!2031-04-09,1846,403!2028-03-25,875,363-->

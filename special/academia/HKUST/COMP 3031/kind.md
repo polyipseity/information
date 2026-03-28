@@ -43,7 +43,7 @@ In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represent
 
 ## type functions
 
-Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. They are equivalent to {@{a type alias with type parameters of its own}@}: <!--SR:!2026-03-30,64,310!2026-04-06,67,310!2026-04-08,67,310-->
+Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. They are equivalent to {@{a type alias with type parameters of its own}@}: <!--SR:!2027-01-05,281,330!2026-04-06,67,310!2026-04-08,67,310-->
 
 > [!example] __type functions__
 >
@@ -131,7 +131,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{A `Monad`}@} extends {@{the more basic `Applicative`}@}, which itself refines {@{a `Functor`}@}. The hierarchy is: <!--SR:!2026-12-22,269,330!2026-11-29,251,330!2026-12-08,258,330-->
 
-- `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2026-03-30,64,310!2026-11-15,245,330-->
+- `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2027-01-01,277,330!2026-11-15,245,330-->
 - `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!2026-07-31,135,290!2026-11-23,251,330-->
 - `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!2026-09-06,174,310!2026-11-10,241,330-->
 
@@ -184,7 +184,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!2026-04-02,67,310!2026-03-31,59,310!2026-11-10,241,330-->
 
-{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-11-01,233,330!2026-11-10,241,330!2026-03-30,64,310!2026-11-18,247,330-->
+{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-11-01,233,330!2026-11-10,241,330!2027-01-03,279,330!2026-11-18,247,330-->
 
 > [!example] __Haskell monad__
 >
@@ -195,7 +195,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   bind :: m a -> (a -> m b) -> m b
 >   return :: a -> m a
 > ```
-<!--SR:!2026-12-30,276,330!2026-12-14,263,330!2026-03-30,64,310!2026-12-30,276,330-->
+<!--SR:!2026-12-30,276,330!2026-12-14,263,330!2027-01-04,280,330!2026-12-30,276,330-->
 
 {@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-04-02,67,310!2026-10-29,230,330!2026-04-08,67,310!2026-04-01,66,310-->
 
@@ -214,6 +214,6 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-12-10,259,330!2026-11-17,246,330!2026-04-06,67,310-->
 
-{@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2026-03-30,64,310!2026-03-31,65,310!2026-11-23,251,330!2026-04-08,67,310-->
+{@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2027-01-05,281,330!2026-03-31,65,310!2026-11-23,251,330!2026-04-08,67,310-->
 
-{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-03-30,58,310!2026-03-31,65,310!2026-12-09,259,330!2026-10-28,229,330!2026-11-21,250,330!2026-11-16,245,330-->
+{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-12-10,255,330!2026-03-31,65,310!2026-12-09,259,330!2026-10-28,229,330!2026-11-21,250,330!2026-11-16,245,330-->

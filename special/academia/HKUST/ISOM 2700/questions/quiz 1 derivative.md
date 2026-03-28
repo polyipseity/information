@@ -59,7 +59,7 @@ tags:
 > What is the process capacity \(per hour\)?
 >
 > - solution: {@{12 units per hour}@}
-> - explanation: {@{Transport is the bottleneck activity. In transport, each unit takes 15/3 = 5&nbsp;minutes. The process capacity is thus 60/5 = 12 units per hour.}@} <!--SR:!2026-04-20,289,330!2026-03-30,271,330-->
+> - explanation: {@{Transport is the bottleneck activity. In transport, each unit takes 15/3 = 5&nbsp;minutes. The process capacity is thus 60/5 = 12 units per hour.}@} <!--SR:!2026-04-20,289,330!2029-08-16,1235,350-->
 
 <!-- markdownlint MD028 -->
 

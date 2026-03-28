@@ -529,7 +529,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCN}@}
 > - prefix: {@{cyano-}@}
 > - suffix: {@{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}@}
-> - infix: {@{(locant)}@} <!--SR:!2030-03-06,2143,388!2027-10-13,1401,368!2028-05-27,1510,368!2026-03-30,958,348!2030-02-11,1669,268!2028-06-27,1534,368-->
+> - infix: {@{(locant)}@} <!--SR:!2030-03-06,2143,388!2027-10-13,1401,368!2028-05-27,1510,368!2038-10-17,4584,368!2030-02-11,1669,268!2028-06-27,1534,368-->
 
 <!--/pytextgen-->
 

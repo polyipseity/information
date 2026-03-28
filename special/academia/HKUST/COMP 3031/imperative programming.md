@@ -18,11 +18,11 @@ tags:
 
 - see: [general/imperative programming](../../../../general/imperative%20programming.md)
 
-Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2026-03-31,66,310!2026-03-31,66,310!2026-03-30,65,310!2027-01-04,281,330!2026-11-08,239,330-->
+Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2026-03-31,66,310!2026-03-31,66,310!2027-01-07,283,330!2027-01-04,281,330!2026-11-08,239,330-->
 
 ## loops
 
-{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!2026-10-27,228,330!2026-04-01,67,310!2026-03-30,65,310-->
+{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!2026-10-27,228,330!2026-04-01,67,310!2027-01-05,281,330-->
 
 > [!example] __Scala `while` loop__
 >
@@ -65,7 +65,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > ```
 <!--SR:!2026-11-14,243,330!2026-12-27,274,330!2026-11-16,245,330-->
 
-{@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!2026-12-01,253,330!2026-03-30,65,310-->
+{@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!2026-12-01,253,330!2027-01-08,284,330-->
 
 > [!example] __`repeat`/`until` syntax__
 >
@@ -144,7 +144,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >   inverter(c,e); andGate(d,e,s)
 > ```
 >
-> {@{The same pattern is reused}@} to build {@{a full adder}@}. <!--SR:!2026-03-30,65,310!2026-12-13,263,330!2026-12-10,260,330!2026-12-17,266,330-->
+> {@{The same pattern is reused}@} to build {@{a full adder}@}. <!--SR:!2027-01-09,285,330!2026-12-13,263,330!2026-12-10,260,330!2026-12-17,266,330-->
 
 ### simulation engine
 
@@ -178,6 +178,6 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >     println(s”$name $currentTime value = ${wire.getSignal()}”)
 >   wire.addAction(probeAction)
 > ```
-<!--SR:!2026-11-04,236,330!2026-03-30,65,310!2026-11-03,235,330!2026-11-16,246,330-->
+<!--SR:!2026-11-04,236,330!2027-01-06,282,330!2026-11-03,235,330!2026-11-16,246,330-->
 
 By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2026-04-01,67,310!2026-11-12,242,330!2026-11-28,251,330-->

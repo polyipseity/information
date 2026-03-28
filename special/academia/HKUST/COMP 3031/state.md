@@ -23,7 +23,7 @@ tags:
 
 - see: [general/state (computer science)](../../../../general/state%20(computer%20science).md)
 
-{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-04-03,62,310!2026-03-30,58,310!2026-04-02,61,310!2026-11-13,237,330!2026-11-06,231,330!2026-11-29,251,330!2026-04-03,62,310!2026-03-31,59,310-->
+{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-04-03,62,310!2026-12-10,255,330!2026-04-02,61,310!2026-11-13,237,330!2026-11-06,231,330!2026-11-29,251,330!2026-04-03,62,310!2026-03-31,59,310-->
 
 ## substitution model
 
@@ -92,7 +92,7 @@ tags:
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-03-31,59,310!2026-04-01,60,310!2026-04-02,61,310!2026-04-02,61,310-->
 
-Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-04-03,62,310!2026-11-14,238,330!2026-03-30,58,310!2026-11-14,238,330!2026-11-29,251,330-->
+Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-04-03,62,310!2026-11-14,238,330!2026-12-10,255,330!2026-11-14,238,330!2026-11-29,251,330-->
 
 > [!example] __mutable tail list implementation__
 >
@@ -107,7 +107,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 >       case None =>
 >         tlOpt = Some(tl); tail
 > ```
-<!--SR:!2026-11-17,241,330!2026-04-01,60,310!2026-03-30,58,310-->
+<!--SR:!2026-11-17,241,330!2026-04-01,60,310!2026-12-10,255,330-->
 
 ## `var`
 

@@ -16,7 +16,7 @@ tags:
 
 ## definitions
 
-{@{An _[explicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x) \,,$$}@} where $x$ is {@{an [independent variable](dependent%20and%20independent%29variables.md)}@}, $y(x)$ is {@{a [function](function%20(mathematics).md) of $x$}@}, $y^{(d)}(x)$ are {@{$d$-th [derivatives](derivative%20.md) of $y(x)$}@}, and $F$ is {@{a [formula](formula.md)}@}. <!--SR:!2028-01-12,1135,344!2026-03-30,85,374!2027-06-03,432,394!2027-05-24,423,394!2026-04-04,90,374!2026-06-01,120,389-->
+{@{An _[explicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x) \,,$$}@} where $x$ is {@{an [independent variable](dependent%20and%20independent%29variables.md)}@}, $y(x)$ is {@{a [function](function%20(mathematics).md) of $x$}@}, $y^{(d)}(x)$ are {@{$d$-th [derivatives](derivative%20.md) of $y(x)$}@}, and $F$ is {@{a [formula](formula.md)}@}. <!--SR:!2028-01-12,1135,344!2027-06-11,438,394!2027-06-03,432,394!2027-05-24,423,394!2026-04-04,90,374!2026-06-01,120,389-->
 
 {@{An _[implicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using {@{the same notations as above}@}. <!--SR:!2028-01-30,1149,344!2026-04-05,91,374!2026-06-06,125,389-->
 
@@ -73,19 +73,19 @@ Ordinary differential equations are furthered classified:
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
-> {@{An ODE where $F$}@} can be written as {@{a [linear combination](linear%20combination.md) of the derivatives of $y$}@} with {@{the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$}@}. {@{The constant term $r(x)$}@} is also called {@{the _source term_}@}. <!--SR:!2029-04-30,1481,310!2027-05-31,429,394!2026-04-05,91,374!2027-05-28,427,394!2026-03-30,85,374-->
+> {@{An ODE where $F$}@} can be written as {@{a [linear combination](linear%20combination.md) of the derivatives of $y$}@} with {@{the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$}@}. {@{The constant term $r(x)$}@} is also called {@{the _source term_}@}. <!--SR:!2029-04-30,1481,310!2027-05-31,429,394!2026-04-05,91,374!2027-05-28,427,394!2027-06-13,440,394-->
 
 <!-- markdownlint MD028 -->
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
-> {@{An [linear](#^linear) ODE}@} that is {@{not [homogeneous](#^homogeneous)}@}. <!--SR:!2027-09-27,1127,350!2026-03-30,85,374-->
+> {@{An [linear](#^linear) ODE}@} that is {@{not [homogeneous](#^homogeneous)}@}. <!--SR:!2027-09-27,1127,350!2027-06-14,441,394-->
 
 <!-- markdownlint MD028 -->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
-> {@{An ODE}@} that is {@{not [linear](#^linear)}@}. <!--SR:!2027-06-12,1050,350!2026-03-30,85,374-->
+> {@{An ODE}@} that is {@{not [linear](#^linear)}@}. <!--SR:!2027-06-12,1050,350!2027-06-15,442,394-->
 
 ### exact solutions
 
