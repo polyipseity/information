@@ -12,8 +12,6 @@ tags:
   - language/in/English
 ---
 
-<!-- For each ELEC 1100 lab, use the Canvas lab handout and summary sheet (e.g. LabN_2026s.pdf, LabN_SummarySheet_2026s.docx) as the primary source.  First, integrate any new concepts or workflows into the relevant topic notes (lab equipment, electronic component, diode, voltage regulator, transistor, H‑bridge, etc.) and update the weekly session outline with § links and a few workflow/safety flashcards instead of duplicating full procedures here.  Second, create an assignment‑style note under labs/lab N/ that mirrors the Canvas assignment metadata (title, due/available window, points, submission type, file types) and lists any official handouts (both the LabN_2026s.pdf manual and the summary‑sheet `.docx`) under an attachments block and the canonical submission filename under a "submission" section.  Assignment pages such as labs/lab 1/index.md may omit the standard "# index" / "## children" shell and instead use a file‑level suppression (see academic‑notes instructions for the exact syntax) so only that file is exempt from the index‑heading rules.  Attachments must be copied into labs/lab N/attachments/ and the submission template into labs/lab N/ with the exact filenames referenced in the note so that future agents can regenerate or extend lab notes consistently. -->
-
 # index
 
 - HKUST ELEC 1100
@@ -50,12 +48,11 @@ The content is in teaching order.
     - LA2: Room 2133 & 2134, Academic Building; FridayT13:30:00/FridayT16:20:00
     - LA3: Room 2133 & 2134, Academic Building; MondayT10:30:00/MondayT13:20:00
 
-<!-- The source timetable contained a duplicated week‑9 row: the first instance covers **30 Mar 2026 – 03 Apr 2026** (lab exam, tutorial, lecture plus the public holiday on 3 Apr).  A second copy of week‑9 appeared for **06 Apr 2026 – 10 Apr 2026** (three consecutive public holidays followed by the final project lecture).  We treat the latter region as *week 10* and renumber all subsequent weeks accordingly.  Holiday days are represented as public‑holiday sessions with status `public holiday` so they remain visible without inflating the lecture count. -->
-
 ## children
 
 - [attachments/](attachments/)
 - [labs/](labs/index.md)
+- [AGENTS](AGENTS.md)
 - [H-bridge](H-bridge.md)
 - [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
 - [brushed DC electric motor](brushed%20DC%20electric%20motor.md)
@@ -625,8 +622,6 @@ Next lecture: motor basics, DC brushed motors.
 - venue: CYT-G001
 - topic: prepare for project demo
 
-<!-- T3 & T1 will provide T2 video recording during this week (around 2026-04-20) as noted in the schedule. -->
-
 ### week 12 lecture 1
 
 - datetime: 2026-04-20T16:00:00+08:00/2026-04-20T16:50:00+08:00, PT50M
@@ -686,8 +681,6 @@ Next lecture: motor basics, DC brushed motors.
 - datetime: 2026-05-08T11:30:00+08:00/2026-05-08T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - status: unscheduled
-
-<!-- additional sessions will be added in chronological order -->
 
 ## lab examination
 

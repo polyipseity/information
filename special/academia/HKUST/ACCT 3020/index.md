@@ -45,6 +45,7 @@ The content is in teaching order.
 ## children
 
 - [assignments](assignments/index.md)
+- [AGENTS](AGENTS.md)
 - [ESG reporting](ESG%20reporting.md)
 - [current liability](current%20liability.md)
 - [equity](equity.md)

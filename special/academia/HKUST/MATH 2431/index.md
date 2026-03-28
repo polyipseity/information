@@ -16,8 +16,6 @@ tags:
   - language/in/English
 ---
 
-<!-- Honors course: when adding, editing, or removing notes here, think carefully, thoroughly, and rigorously about the probability theory; include clear arguments and derivations (not just statements) where appropriate, and feel free to add more high-quality flashcards than in non-honors courses. -->
-
 # index
 
 - HKUST MATH 2431
@@ -54,6 +52,7 @@ The content is in teaching order.
 
 - [assignments](assignments/index.md)
 - [questions/](questions/index.md)
+- [AGENTS](AGENTS.md)
 - [Riemann integration](Riemann%20integration.md)
 - [conditional probability](conditional%20probability.md)
 - [continuous distribution](continuous%20distribution.md)
