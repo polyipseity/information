@@ -100,12 +100,10 @@ The content is in teaching order.
 - [questions/](questions/index.md)
 - [bias-variance decomposition](bias-variance%20decomposition.md)
 - [classification](classification.md)
-- [convolutional neural network](convolutional%20neural%20network.md)
 - [deep learning training](deep%20learning%20training.md)
 - [feedforward neural network](feedforward%20neural%20network.md)
 - [linear regression](linear%20regression.md)
 - [logistic regression](logistic%20regression.md)
-- [recurrent neural network](recurrent%20neural%20network.md)
 
 ## assignments
 
@@ -408,77 +406,39 @@ The content is in teaching order.
 - datetime: 2026-03-12T13:30:00+08:00/2026-03-12T14:50:00+08:00, PT1H20M
 - venue: G002, CYT Building
 - topic: convolutional neural networks
-- [convolutional neural network](convolutional%20neural%20network.md)
-  - convolutional neural network / [§ why images call for convolution](convolutional%20neural%20network.md#why%20images%20call%20for%20convolution)
-  - convolutional neural network / [§ inspiration from the visual cortex](convolutional%20neural%20network.md#inspiration-from-the-visual-cortex)
-  - convolutional neural network / [§ convolutional layer and inductive biases](convolutional%20neural%20network.md#convolutional%20layer%20and%20inductive%20biases)
-  - convolutional neural network / [§ feature maps and tensor-to-tensor computation](convolutional%20neural%20network.md#feature-maps-and-tensor-to-tensor-computation)
-  - convolutional neural network / [§ convolution computation and cross-correlation](convolutional%20neural%20network.md#convolution-computation-and-cross-correlation)
-  - convolutional neural network / [§ padding, stride, and pooling](convolutional%20neural%20network.md#padding-stride-and-pooling)
-  - convolutional neural network / [§ output-size formulas and parameter efficiency](convolutional%20neural%20network.md#output-size-formulas-and-parameter-efficiency)
-  - convolutional neural network / [§ pooling and approximate shift invariance](convolutional%20neural%20network.md#pooling-and-approximate-shift-invariance)
-  - convolutional neural network / [§ how layers fit together](convolutional%20neural%20network.md#how-layers-fit-together)
+- convolutional neural network note not yet published
 
 ## week 6 tutorial
 
 - datetime: 2026-03-12T18:00:00+08:00/2026-03-12T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
 - topic: convolutional neural networks in PyTorch; computation at convolutional layers
-- [convolutional neural network](convolutional%20neural%20network.md)
-  - convolutional neural network / [§ convolutional layer and inductive biases](convolutional%20neural%20network.md#convolutional%20layer%20and%20inductive%20biases)
-  - convolutional neural network / [§ convolution computation and cross-correlation](convolutional%20neural%20network.md#convolution-computation-and-cross-correlation)
-  - convolutional neural network / [§ padding, stride, and pooling](convolutional%20neural%20network.md#padding-stride-and-pooling)
-  - convolutional neural network / [§ output-size formulas and parameter efficiency](convolutional%20neural%20network.md#output-size-formulas-and-parameter-efficiency)
-  - convolutional neural network / [§ pooling and approximate shift invariance](convolutional%20neural%20network.md#pooling-and-approximate-shift-invariance)
+- convolutional neural network note not yet published
 
 ## week 7 lecture 1
 
 - datetime: 2026-03-17T13:30:00+08:00/2026-03-17T14:50:00+08:00, PT1H20M
 - venue: G002, CYT Building
 - topic: convolutional neural networks
-- [convolutional neural network](convolutional%20neural%20network.md)
-  - convolutional neural network / [§ architecture evolution and practical issues](convolutional%20neural%20network.md#architecture%20evolution%20and%20practical%20issues)
-  - convolutional neural network / [§ benchmark era: ImageNet and AlexNet](convolutional%20neural%20network.md#benchmark-era-imagenet-and-alexnet)
-  - convolutional neural network / [§ depth and parameter efficiency: VGG and GoogLeNet](convolutional%20neural%20network.md#depth-and-parameter-efficiency-vgg-and-googlenet)
-  - convolutional neural network / [§ residual and dense connectivity: ResNet and DenseNet](convolutional%20neural%20network.md#residual-and-dense-connectivity-resnet-and-densenet)
-  - convolutional neural network / [§ data augmentation, hierarchy, and cautionary notes](convolutional%20neural%20network.md#data-augmentation-hierarchy-and-cautionary-notes)
+- convolutional neural network note not yet published
 
 ## week 7 lecture 2
 
 - datetime: 2026-03-19T13:30:00+08:00/2026-03-19T14:50:00+08:00, PT1H20M
 - venue: G002, CYT Building
 - topic: recurrent neural networks
-- [recurrent neural network](recurrent%20neural%20network.md)
-  - recurrent neural network / [§ sequence modeling and language modeling](recurrent%20neural%20network.md#sequence%20modeling%20and%20language%20modeling)
-  - recurrent neural network / [§ language models, dialogue, and self-supervision](recurrent%20neural%20network.md#language-models-dialogue-and-self-supervision)
-  - recurrent neural network / [§ vanilla recurrent neural networks](recurrent%20neural%20network.md#vanilla%20recurrent%20neural%20networks)
-  - recurrent neural network / [§ embeddings, recurrent state, and sequence loss](recurrent%20neural%20network.md#embeddings-recurrent-state-and-sequence-loss)
-  - recurrent neural network / [§ bptt, long sequences, and truncated training](recurrent%20neural%20network.md#bptt-long-sequences-and-truncated-training)
 
 ## week 7 tutorial
 
 - datetime: 2026-03-19T18:00:00+08:00/2026-03-19T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
 - topic: recurrent neural networks in PyTorch; sequence-to-sequence models
-- [recurrent neural network](recurrent%20neural%20network.md)
-  - recurrent neural network / [§ vanilla recurrent neural networks](recurrent%20neural%20network.md#vanilla%20recurrent%20neural%20networks)
-  - recurrent neural network / [§ embeddings, recurrent state, and sequence loss](recurrent%20neural%20network.md#embeddings-recurrent-state-and-sequence-loss)
-  - recurrent neural network / [§ encoder-decoder and attention](recurrent%20neural%20network.md#encoder-decoder-and-attention)
-  - recurrent neural network / [§ deep, bidirectional, and seq2seq architectures](recurrent%20neural%20network.md#deep-bidirectional-and-seq2seq-architectures)
-  - recurrent neural network / [§ teacher forcing and decoding strategies](recurrent%20neural%20network.md#teacher-forcing-and-decoding-strategies)
 
 ## week 8 lecture 1
 
 - datetime: 2026-03-24T13:30:00+08:00/2026-03-24T14:50:00+08:00, PT1H20M
 - venue: G002, CYT Building
 - topic: recurrent neural networks; attention in recurrent neural networks
-- [recurrent neural network](recurrent%20neural%20network.md)
-  - recurrent neural network / [§ training difficulties, LSTM, and GRU](recurrent%20neural%20network.md#training%20difficulties-LSTM-and-GRU)
-  - recurrent neural network / [§ lstm memory cells and gates](recurrent%20neural%20network.md#lstm-memory-cells-and-gates)
-  - recurrent neural network / [§ standard LSTM equations](recurrent%20neural%20network.md#standard-lstm-equations)
-  - recurrent neural network / [§ gru as a simplified gated model](recurrent%20neural%20network.md#gru-as-a-simplified-gated-model)
-  - recurrent neural network / [§ encoder-decoder and attention](recurrent%20neural%20network.md#encoder-decoder-and-attention)
-  - recurrent neural network / [§ attention, query-key-value intuition, and dot-product scoring](recurrent%20neural%20network.md#attention-query-key-value-intuition-and-dot-product-scoring)
 
 ## week 8 lecture 2
 

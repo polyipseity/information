@@ -128,6 +128,8 @@ Weight initialization and activation choice determine whether forward activation
 
 Even a well-designed objective can be hard to optimize if those forward quantities collapse toward zero, explode to huge magnitudes, or enter activation regions where the derivative is effectively unusable. That is why this topic treats initialization and activation functions as a linked design problem rather than as isolated implementation details. Initialization sets the typical scale of $z^{(\ell)}$ and $a^{(\ell)}$ at the start of training, while activation functions determine how those quantities are transformed and what gradient information survives backward propagation.
 
+The architectural side of that story is the focus here. The training-side follow-through — dropout, Adam and AdamW, learning-rate schedules, and batch normalization — is developed in [deep learning training](deep%20learning%20training.md), which explains how these initialization and activation choices interact with optimization after the network structure has been fixed.
+
 ---
 
 Flashcards for this section are as follows:
@@ -305,7 +307,7 @@ The hidden layers of an FNN produce a learned representation $h$, but prediction
 
 The lecture phrases this as follows: the first through second-last layers define the feature transformation $h=f(x)$, while the last layer defines $P(y\mid h)$. This decomposition is extremely useful because it separates _representation learning_ from _output modeling_. Different tasks can therefore share similar backbones while using different output units and losses: identity/linear output for Gaussian regression, sigmoid output for Bernoulli (logistic-regression-style) binary classification, and a layer of softmax output units for categorical (softmax-regression-style) multiclass classification.
 
-The common training principle is negative log-likelihood. If the output head defines a model $p_{\theta}(y\mid h)$, then a single-example loss is $\ell(\theta;x,y)=-\log p_{\theta}(y\mid h(x))$. So regression, binary classification, and multiclass classification differ mainly in the chosen conditional distribution at the output layer. The hidden network learns the representation; the probabilistic head and its negative log-likelihood specify the loss, exactly extending the logistic-regression and softmax-regression losses studied earlier.
+The common training principle is negative log-likelihood. If the output head defines a model $p_{\theta}(y\mid h)$, then a single-example loss is $\ell(\theta;x,y)=-\log p_{\theta}(y\mid h(x))$. So regression, binary classification, and multiclass classification differ mainly in the chosen conditional distribution at the output layer. The hidden network learns the representation; the probabilistic head and its negative log-likelihood specify the loss, exactly extending the logistic-regression and softmax-regression losses studied earlier. For the shallow-model derivations behind the Bernoulli and softmax heads, see [logistic regression](logistic%20regression.md#softmax-regression).
 
 ---
 
@@ -373,7 +375,7 @@ Flashcards for this section are as follows:
 
 For a single binary output variable $y\in\{0,1\}$, the network can define $P(y\mid x)=\operatorname{Ber}(y\mid \sigma(z))$ using a scalar logit $z$. Starting from the Bernoulli mass function $p(y\mid z)=\sigma(z)^y(1-\sigma(z))^{1-y}$, the per-sample negative log-likelihood is $-\log p(y\mid z)=-\bigl(y\log \sigma(z)+(1-y)\log(1-\sigma(z))\bigr)$, which is the familiar binary cross entropy.
 
-This is exactly the same loss used in ordinary logistic regression. The only difference is that logistic regression uses $z=w^\top x+b$, whereas a feedforward network uses $z=W^\top h+b$ with a learned representation $h$. The meaning of the logit is unchanged: it is still the log-odds score $\log\frac{p}{1-p}$.
+This is exactly the same loss used in ordinary logistic regression. The only difference is that logistic regression uses $z=w^\top x+b$, whereas a feedforward network uses $z=W^\top h+b$ with a learned representation $h$. The meaning of the logit is unchanged: it is still the log-odds score $\log\frac{p}{1-p}$. For the shallow-model derivation and decision-theoretic interpretation, see [logistic regression](logistic%20regression.md).
 
 The lecture makes an important distinction here. Sigmoid units are often a poor choice for hidden layers because they saturate across much of their domain and cause deep-chain vanishing gradients. Yet they are fine as output units, because this saturation appears only once and typically coincides with small prediction error. The output-gradient formula is explicit: $\frac{\partial \ell}{\partial z}=\sigma(z)-y$. So when prediction is already correct and confident, the sample should contribute little to the gradient. This is the same binary cross-entropy setup derived in the logistic-regression note.
 
@@ -394,7 +396,7 @@ If $y$ can take one of $C$ values, the network uses a vector of logits $z=(z_1,\
 
 For a general target distribution over classes $r=(r_1,\ldots,r_C)$ with $r_k\ge 0$ and $\sum_k r_k=1$, categorical negative log-likelihood is $\ell=-\sum_{k=1}^{C} r_k\log p_k$. The one-hot-label case is the special case $r=t$ with one nonzero entry: then $\ell=-\sum_k t_k\log p_k=-\log p_y=-z_y+\log\sum_{c=1}^{C} e^{z_c}$. This is exactly multiclass cross entropy, the same form derived in softmax-regression notes. Its output-logit gradient is $\partial\ell/\partial z_k=p_k-r_k$ (special case $p_k-t_k$).
 
-Again, the difference from the simpler model is not the head but the representation feeding it. A deep classifier is a learned feature extractor followed by an ordinary softmax probabilistic head.
+Again, the difference from the simpler model is not the head but the representation feeding it. A deep classifier is a learned feature extractor followed by an ordinary softmax probabilistic head. For the shallow multiclass derivation, stability details, and one-step softmax calculations, see [logistic regression](logistic%20regression.md#softmax-regression).
 
 ---
 

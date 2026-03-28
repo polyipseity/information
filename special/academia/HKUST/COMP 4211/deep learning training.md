@@ -20,6 +20,8 @@ The lecture organizes the answer around four linked questions: how to regularize
 
 This note therefore treats deep-learning training as a coordinated design problem. The objective, update rule, schedule, and normalization layers interact, so concept pairs that look similar at first glance — especially L2 regularization versus weight decay, or Adam with L2 versus AdamW — must be separated carefully.
 
+Architecturally, this note assumes the forward/backward machinery and initialization ideas already developed in [feedforward neural network](feedforward%20neural%20network.md). The present focus is what happens after that architecture is fixed: regularize it, optimize it, schedule it, and keep its internal signals numerically well behaved during training.
+
 ---
 
 Flashcards for this section are as follows:
@@ -52,6 +54,8 @@ To see why feature scale matters, first look at a simple squared-loss model $L(w
 That same scale mismatch changes the meaning of regularization. Suppose one rescales feature $x_j$ to $x_j'=s x_j$ and compensates so the prediction stays unchanged by setting $w_j'=w_j/s$. Then the predictive contribution $w_j x_j$ is unchanged, but the regularizers are not. The L2 term becomes $\frac{\lambda}{2}(w_j')^2=\frac{\lambda}{2}\frac{w_j^2}{s^2}$, and the L1 term becomes $\lambda|w_j'|=\lambda\frac{|w_j|}{|s|}$. So for the same predictive effect, a larger-scale feature can achieve that effect with a numerically smaller coefficient and is therefore penalized less by both L2 and L1. This is the concrete reason regularization depends on feature scale.
 
 A tiny example makes the asymmetry obvious. If one feature is $x_2=100x_1$, then the same contribution can be written as $1\cdot x_1$ or $0.01\cdot x_2$. The L2 penalties of these equivalent predictive effects are proportional to $1^2=1$ versus $0.01^2=10^{-4}$, and the L1 penalties are proportional to $1$ versus $0.01$. Without normalization, both L2 and L1 implicitly favor the large-scale feature because it can "buy" the same prediction with a much smaller coefficient.
+
+This is the deep-learning continuation of the earlier regularization geometry discussed in [linear regression](linear%20regression.md#regularization-and-sparse-models). The shallow-model lesson and the deep-model lesson are the same: penalty size is meaningful only relative to feature scale.
 
 Against that background, the distinction between L2 regularization and weight decay must be stated precisely. L2 regularization is an _objective-level_ modification. A common convention is $\tilde L(\theta)=L(\theta)+\frac{\lambda}{2}\lVert\theta\rVert_2^2$, where the factor $\frac{1}{2}$ is included so that $\nabla_\theta \frac{\lambda}{2}\lVert\theta\rVert_2^2=\lambda\theta$. Weight decay, by contrast, is an _update-level_ rule: the optimizer explicitly shrinks the parameter vector at each step, for example $\theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\nabla_\theta L(\theta_t)$.
 

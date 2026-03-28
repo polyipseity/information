@@ -496,7 +496,7 @@ Flashcards for this section are as follows:
 
 ## softmax regression
 
-Softmax regression extends logistic regression from two classes to $C$ classes. Instead of one scalar score, it computes one score per class. For multiclass labels $y \in \{1,\ldots,C\}$, softmax regression assigns one weight vector $w_c$ to each class, forms scores $z_c = w_c^\top x$, and predicts class probabilities by $P(y=c\mid x,W)=\frac{e^{z_c}}{\sum_{k=1}^C e^{z_k}} = \frac{e^{w_c^\top x}}{\sum_{k=1}^C e^{w_k^\top x}}$.
+Softmax regression extends logistic regression from two classes to $C$ classes. Instead of one scalar score, it computes one score per class. For multiclass labels $y \in \{1,\ldots,C\}$, softmax regression assigns one weight vector $w_c$ to each class, forms scores $z_c = w_c^\top x$, and predicts class probabilities by $P(y=c\mid x,W)=\frac{e^{z_c}}{\sum_{k=1}^C e^{z_k}} = \frac{e^{w_c^\top x}}{\sum_{k=1}^C e^{w_k^\top x}}$. When the same softmax head is attached to learned hidden features rather than directly to raw input $x$, it becomes the multiclass output layer of a [feedforward neural network](feedforward%20neural%20network.md).
 
 The index notation should be read very explicitly. The symbol $c$ means "the specific class whose probability we are computing." The symbol $k$ in the denominator is a dummy class index that runs over _all_ classes from $1$ to $C$. So the numerator isolates one class, while the denominator adds the evidence of every class so the result becomes a normalized probability.
 
@@ -511,6 +511,8 @@ Geometrically, prediction still uses the largest score, so the decision boundary
 When $C=2$, softmax collapses to logistic regression by reparameterization. One has $P(y=1\mid x,W)=\frac{e^{w_1^\top x}}{e^{w_1^\top x}+e^{w_2^\top x}} = \frac{1}{1+e^{-(w_1-w_2)^\top x}} = \sigma((w_1-w_2)^\top x)$, so the binary softmax model is exactly logistic regression with parameter $w=w_1-w_2$. Intuitively, binary logistic regression is the two-class version of the same inner-product competition.
 
 This derivation also explains a softmax invariance: adding the same vector $u$ to every class weight vector changes each score by the same amount $u^\top x$, which cancels in numerator and denominator. So softmax probabilities depend on relative scores, not absolute score offsets.
+
+For binary and multiclass evaluation after the probabilities are computed, see [classification](classification.md#performance-metrics-for-classification).
 
 ---
 
