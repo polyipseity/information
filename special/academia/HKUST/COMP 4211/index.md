@@ -71,7 +71,8 @@ Turnitin similarity scores above 40 incur penalty of (max{score-40,0}/60) x 100%
 
 Final submission should keep a timestamped screenshot of the similarity score and upload it in Canvas comments.
 
-Late penalty is 5% per day for up to 5 days with no extension into the study break. -->
+Late penalty is 5% per day for up to 5 days with no extension into the study break.
+-->
 
 The content is in teaching order.
 
@@ -148,7 +149,16 @@ The content is in teaching order.
 
 - datetime: 2026-02-03T13:30:00+08:00/2026-02-03T14:50:00+08:00, PT1H20M
 - venue: G002, CYT Building
-- topic: course introduction; linear regression
+- topic: course introduction; machine learning versus traditional programming; AI versus machine learning; course scope and outcomes; linear regression
+- COMP 4211
+  - COMP 4211 / machine learning versus traditional programming ::@:: Traditional programming provides input data together with explicit rules, whereas machine learning provides example data together with desired outputs so the system learns a predictive model from patterns in the data.
+  - COMP 4211 / what machine learning means ::@:: Machine learning is the study and toolbox of methods that let computer systems improve performance from example data or past experience without being programmed rule by rule for every case.
+  - COMP 4211 / AI, machine learning, and deep learning ::@:: Artificial intelligence is the broader field of systems that can sense, reason, act, and adapt; machine learning is the AI subfield whose performance improves as it is exposed to more data; deep learning is the machine-learning subfield based on multilayer neural networks that learn from large amounts of data.
+  - COMP 4211 / course positioning ::@:: COMP 4211 is designed to provide a solid foundation in machine learning and deep learning, cover selected advanced topics, and introduce classical methods that are not the focus of the more specialized deep-learning courses.
+  - COMP 4211 / course topic families ::@:: The course is organized around four families: foundations of machine learning, foundations of deep learning, selected advanced topics, and classical methods.
+  - COMP 4211 / course outcomes ::@:: By the end of the course, students should understand learning-from-data issues and major machine-learning task types, explain core algorithmic principles, apply machine-learning methods to data, and evaluate models with standard performance criteria.
+- note: the introduction lecture also emphasized that machine learning and AI attract broad current investment across governments, companies, platforms, and infrastructure.
+- note: related-course positioning and administrative details were deferred to the official course website and Canvas rather than duplicated in these public notes.
 - [linear regression](linear%20regression.md)
   - linear regression / [§ supervised regression setup and ordinary least squares](linear%20regression.md#supervised%20regression%20setup%20and%20ordinary%20least%20squares)
   - linear regression / [§ other linear-regression fitting methods](linear%20regression.md#other%20linear-regression%20fitting%20methods)
