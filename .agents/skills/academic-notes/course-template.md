@@ -14,6 +14,8 @@ Key patterns to follow (seen in the examples):
 
 See SKILL.md in this folder for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
 
+Durable academic-notes lessons belong in this skill folder — primarily `SKILL.md`, this template, and the companion instruction file — rather than in persistent memory notes. If a reusable convention is discovered while editing course pages, update the authoritative docs in the same task instead of leaving the lesson only in memory.
+
 ## Short style notes (must appear outside the code block)
 
 - Keep the code block strictly machine-readable: frontmatter and topical entries belong inside the fenced `markdown` block only. ❗
@@ -28,8 +30,20 @@ See SKILL.md in this folder for concrete snippets and validated frontmatter exam
 - Use `datetime` with ISO format and optional duration (e.g., `, PT1H20M`) where appropriate. ⏱️
 - Keep outline bullets flush with the expected indent (two spaces per level) and avoid inserting stray blank indents; this keeps the code block machine-readable and avoids parsing hiccups. 📏
 - When editing flashcards, read through the entire code block sequentially to catch misplaced separators or formatting errors – a complete sweep reduces subtle mistakes. 🔍
+- For mature topic notes, keep parent sections short and conceptual, let subsections carry the detailed derivations/examples, and trim overlapping cards across the hierarchy. 🧭
 
 > Note: Always add style/explanatory notes outside the fenced code block; never place explanatory text inside the template's `markdown` code block.
+
+### machine-learning topic-note refinements
+
+- Aim for **formula + derivation sketch + intuition + caveat**, not formula-only summaries. Add at least one worked numeric or symbolic mini-computation with matching standalone QA cards.
+- Keep assumptions explicit: IID or independence assumptions, priors, threshold rules, intercept conventions, row/column roles, and whether a quantity is a metric, loss, or decision rule.
+- For logistic-regression notes, explain odds/logit meaning, coefficient interpretation on the odds scale (for example $e^{w_j}$), the course threshold convention plus common tie alternatives, and why the sigmoid / Bernoulli-link formulation is used.
+- For entropy, cross entropy, and Kullback-Leibler divergence, label true/source $P$ versus model/scorer $Q$ clearly, include the full triad $H(P)$, $H(P,Q)$, $D_{\mathrm{KL}}(P\Vert Q)$, and derive conditional cross entropy explicitly as an average over $P(x)$.
+- For softmax notes, prefer the general target-distribution form first, include the categorical-cross-entropy derivation and the binary special case, define indices explicitly, and add logsumexp / max-shift stability guidance with a concrete large-logit example.
+- For classification notes, prefer a dedicated metrics section or note for precision/recall/F1/accuracy, define confusion-matrix notation in both prose and cards, and include macro/micro/weighted multiclass formulas when relevant.
+- For deep-network notes, pair the forward equation with repeated-composition intuition, define fan-in/fan-out and variance flow in initialization, compare activations on both theoretical and empirical axes, distinguish hidden-layer vanishing gradients from output-layer saturation, and include both coordinate-form and Jacobian-form backprop derivations with bias gradients.
+- For optimization updates, distinguish per-sample SGD, minibatch SGD, and full-batch gradient descent explicitly, and make sure worked-example cards place all givens and the exact requested quantity on the left-hand side.
 
 ### assignments
 
