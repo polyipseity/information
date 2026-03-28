@@ -261,7 +261,7 @@ The content is in teaching order.
   - M/M/1 queue / average system length ::@:: Assuming the system is stable ($\lambda < \mu$). $L_s = \frac {\lambda} {\mu - \lambda} = \frac {\rho} {1 - \rho}$, the mean of a _unshifted_ geometric distribution with the success probability $1 - \rho$. <!--SR:!2026-06-04,345,375!2027-02-20,509,335-->
   - M/M/1 queue / average queue length ::@:: Assuming the system is stable ($\lambda < \mu$). $L_q = \rho L_s = \frac {\lambda} {\mu} \frac {\lambda} {\mu - \lambda} = \frac {\rho^2} {1 - \rho}$ <!--SR:!2026-05-15,348,375!2030-07-14,1569,395-->
   - M/M/1 queue / average system waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_s = \frac {L_s} {\lambda} = \frac 1 {\mu - \lambda}$ <!--SR:!2026-09-10,445,395!2026-06-22,363,335-->
-  - M/M/1 queue / average queue waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_q = \frac {L_q} {\lambda} = \frac \rho {\mu - \lambda}$ <!--SR:!2026-05-13,326,375!2026-03-29,307,375-->
+  - M/M/1 queue / average queue waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_q = \frac {L_q} {\lambda} = \frac \rho {\mu - \lambda}$ <!--SR:!2026-05-13,326,375!2029-05-16,1144,375-->
   - M/M/1 queue / insight ::@:: The average system length being $\frac {\rho} {1 - \rho}$ implies that it grows super-linearly (growth that is faster than linear) as $\rho$ approaches 1. That means it is very costly (congestion) to have near maximum utilization when there are variations. With no variations, congestion will not happen even if $\rho < 1$ is very near 1. <!--SR:!2026-05-15,348,375!2026-09-11,447,395-->
 
 ## week 3 lecture 2

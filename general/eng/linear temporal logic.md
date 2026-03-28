@@ -161,13 +161,13 @@ All the formulas of LTL can be {@{transformed into _negation normal form_}@}, wh
 
 - all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2029-02-13,1196,357!2030-07-09,1614,370-->
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2028-02-24,889,337!2029-01-10,1165,350-->
-- only the temporal operators ::@:: __X__, __U__, and __R__ can appear. <!--SR:!2026-03-29,378,363!2031-02-28,1812,383-->
+- only the temporal operators ::@:: __X__, __U__, and __R__ can appear. <!--SR:!2031-05-24,1882,383!2031-02-28,1812,383-->
 
 {@{Using the above equivalences for negation propagation}@}, it is possible to {@{derive the normal form}@}. This normal form allows {@{__R__, __true__, __false__, and ∧ to appear in the formula, which are not fundamental operators of LTL}@}. Note that the transformation {@{to the negation normal form does not blow up the length of the formula}@}. This normal form is useful in {@{[translation from an LTL formula to a Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}. <!--SR:!2030-09-25,1674,370!2029-02-20,1201,357!2030-11-19,1733,383!2028-06-25,992,350!2030-08-23,1648,370-->
 
 ## relations with other logics
 
-LTL can be shown to be {@{equivalent to the [monadic first-order logic of order](monadic%20predicate%20calculus.md), FO\[\<\]}@}—a result known as {@{[Kamp's theorem](Kamp's%20theorem.md)}@}—<sup>[\[9\]](#^ref-9)</sup> or {@{equivalently to [star-free languages](star-free%20language.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-03-29,378,363!2031-04-11,1846,383!2031-04-13,1849,383-->
+LTL can be shown to be {@{equivalent to the [monadic first-order logic of order](monadic%20predicate%20calculus.md), FO\[\<\]}@}—a result known as {@{[Kamp's theorem](Kamp's%20theorem.md)}@}—<sup>[\[9\]](#^ref-9)</sup> or {@{equivalently to [star-free languages](star-free%20language.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2031-05-25,1883,383!2031-04-11,1846,383!2031-04-13,1849,383-->
 
 {@{[Computation tree logic](computation%20tree%20logic.md) \(CTL\) and linear temporal logic \(LTL\)}@} are {@{both a subset of [CTL\*](CTL*.md), but are incomparable}@}. For example, <!--SR:!2031-05-19,1878,383!2030-06-08,1587,370-->
 

@@ -37,7 +37,7 @@ In {@{a true job cost accounting system}@}, {@{a budget is set up in advance of 
 
 ## example
 
-These examples will assume that {@{overhead is allocated on the basis of Direct Labor Hours}@}. Direct Material is {@{abbreviated DM}@}, Direct Labor {@{as DL}@}, and Overhead as {@{OH}@}. <!--SR:!2026-04-18,329,341!2026-03-29,309,341!2026-04-18,329,341!2026-04-15,332,341-->
+These examples will assume that {@{overhead is allocated on the basis of Direct Labor Hours}@}. Direct Material is {@{abbreviated DM}@}, Direct Labor {@{as DL}@}, and Overhead as {@{OH}@}. <!--SR:!2026-04-18,329,341!2030-03-22,1454,361!2026-04-18,329,341!2026-04-15,332,341-->
 
 XYZ corporation manufactures airplanes. 1 order was {@{completed \(\#110\)}@}, 2 {@{received further work \(\#111, 112\)}@}, and 1 {@{new order was received \(\#113\)}@}. Overhead is {@{allocated at a rate of \$100/DL Hour}@}. All employees {@{earn \$20/hour}@}. {@{Beginning Work In Process Balances}@} are as follows: \#110, \$25,000; \#111, \$10,000; \#112, \$12,000; \#113 {@{\$0 \(New Order\)}@}. Below are the amounts of DM and DL used. <!--SR:!2026-04-12,323,339!2026-04-23,334,341!2030-02-22,1435,361!2026-04-10,321,341!2029-06-21,1234,350!2026-03-30,316,341!2026-04-08,319,341-->
 

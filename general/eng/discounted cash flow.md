@@ -68,7 +68,7 @@ Where {@{multiple cash flows in multiple time periods are discounted}@}, it is n
 
 {@{All the above}@} assumes that {@{the interest rate remains constant throughout the whole period}@}. <!--SR:!2029-10-11,1333,350!2029-09-06,1305,350-->
 
-If {@{the cash flow stream is assumed to continue indefinitely}@}, {@{the finite forecast}@} is usually {@{combined with the assumption of constant cash flow growth beyond the discrete projection period}@}. {@{The total value of such cash flow stream}@} is {@{the sum of the finite discounted cash flow forecast and the [Terminal value \(finance\)](terminal%20value%20(finance).md)}@}. <!--SR:!2026-04-14,341,349!2029-03-13,1164,350!2028-01-23,826,330!2026-04-04,333,349!2026-03-29,327,349-->
+If {@{the cash flow stream is assumed to continue indefinitely}@}, {@{the finite forecast}@} is usually {@{combined with the assumption of constant cash flow growth beyond the discrete projection period}@}. {@{The total value of such cash flow stream}@} is {@{the sum of the finite discounted cash flow forecast and the [Terminal value \(finance\)](terminal%20value%20(finance).md)}@}. <!--SR:!2026-04-14,341,349!2029-03-13,1164,350!2028-01-23,826,330!2026-04-04,333,349!2030-07-19,1573,369-->
 
 ### continuous cash flows
 

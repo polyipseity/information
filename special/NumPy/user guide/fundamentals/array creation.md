@@ -122,7 +122,7 @@ array([[1., 0., 0., 0., 0.],
        [0., 0., 1., 0., 0.]])
 ```
 
-{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can define either {@{a square 2D array with given values along the diagonal}@} _or_ {@{if given a 2D array returns a 1D array that is only the diagonal elements}@}. {@{The two array creation functions}@} can be helpful while {@{doing linear algebra}@}, as such: <!--SR:!2027-11-03,601,330!2029-03-22,1246,350!2026-03-29,129,405!2026-04-11,140,405!2026-04-11,140,405-->
+{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can define either {@{a square 2D array with given values along the diagonal}@} _or_ {@{if given a 2D array returns a 1D array that is only the diagonal elements}@}. {@{The two array creation functions}@} can be helpful while {@{doing linear algebra}@}, as such: <!--SR:!2027-11-03,601,330!2029-03-22,1246,350!2028-03-10,712,425!2026-04-11,140,405!2026-04-11,140,405-->
 
 ```Python
 >>> import numpy as np
@@ -314,7 +314,7 @@ array([[0., 0.],
 
 ## creating arrays from raw bytes through the use of strings or buffers
 
-There are {@{a variety of approaches one can use}@}. If the file has {@{a relatively simple format}@} then one can write {@{a simple I/O library}@} and use {@{the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly}@} \(mind {@{your byteorder though}@}!\). If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2029-03-23,1247,350!2029-02-28,1230,350!2027-11-04,601,330!2030-05-10,1578,370!2030-05-29,1597,370!2030-07-29,1654,370!2030-03-07,1539,370!2026-03-29,129,405!2026-04-11,140,405-->
+There are {@{a variety of approaches one can use}@}. If the file has {@{a relatively simple format}@} then one can write {@{a simple I/O library}@} and use {@{the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly}@} \(mind {@{your byteorder though}@}!\). If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2029-03-23,1247,350!2029-02-28,1230,350!2027-11-04,601,330!2030-05-10,1578,370!2030-05-29,1597,370!2030-07-29,1654,370!2030-03-07,1539,370!2028-03-12,714,425!2026-04-11,140,405-->
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 

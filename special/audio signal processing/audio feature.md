@@ -9,7 +9,7 @@ tags:
 
 # audio feature
 
-An {@{__audio feature__}@} captures {@{specific aspects of audio signals}@}. They are usually obtained by {@{_feature analysis_ in the frequency domain \(after DFT or STFT\)}@}. <!--SR:!2026-06-28,281,330!2026-05-15,245,330!2026-03-29,193,310-->
+An {@{__audio feature__}@} captures {@{specific aspects of audio signals}@}. They are usually obtained by {@{_feature analysis_ in the frequency domain \(after DFT or STFT\)}@}. <!--SR:!2026-06-28,281,330!2026-05-15,245,330!2028-07-04,828,330-->
 
 ## descriptors
 
