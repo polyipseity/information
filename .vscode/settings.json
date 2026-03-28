@@ -17,6 +17,7 @@
     "ForEach-Object": true,
     "Get-Command": true,
     "Get-Item": true,
+    "Get-Member": true,
     "Group-Object": true,
     "Out-Null": true,
     "Pop-Location": true,
