@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - estimation layer versus decision layer in probabilistic classification ::@:: The estimation layer learns posterior probabilities $Q(y\mid x)$, while the decision layer converts them into actions according to the chosen threshold or loss structure.
 - why probabilistic classification is useful ::@:: Probabilistic classification is useful because posterior scores can be interpreted, thresholded, calibrated, and adapted to different cost structures without retraining the model.
 
-### worked posterior-decision examples
+### worked posterior-decision calculations
 
 The simplest worked example is multiclass argmax. If a model outputs class probabilities $Q(y=1\mid x)=0.15$, $Q(y=2\mid x)=0.70$, and $Q(y=3\mid x)=0.15$, then the prediction is class $2$ because it has the largest posterior probability.
 
@@ -281,8 +281,6 @@ The first memory rule is: _loss trains parameters, metrics evaluate decisions_. 
 Flashcards for this section are as follows:
 
 - training loss versus evaluation metric ::@:: A classifier is often trained by minimizing cross entropy but evaluated by metrics such as accuracy, precision, recall, and $F_1$, so training objective and evaluation summary are distinct.
-- binary confusion-notation meanings ::@:: In binary classification, $TP$ means true positive (true label positive, predicted positive), $FP$ means false positive (true label negative, predicted positive), $TN$ means true negative (true label negative, predicted negative), and $FN$ means false negative (true label positive, predicted negative).
-- multiclass confusion-matrix notation meanings ::@:: In a multiclass confusion matrix $M$, the entry $M_{a,b}$ means the number of examples whose true class is $a$ and predicted class is $b$; thus rows are true classes, columns are predicted classes, diagonal entries are correct predictions, row sums are true-class supports, and column sums are predicted-class totals.
 - metric-design memory rule ::@:: A practical memory rule is _loss trains probabilities, metrics evaluate thresholded decisions_.
 - confusion-first memory rule ::@:: Compute metrics from confusion counts first; then formulas become bookkeeping rather than memorization.
 
@@ -298,7 +296,7 @@ Accuracy is easy to read and communicate, but it can be misleading under class i
 
 Flashcards for this section are as follows:
 
-- binary confusion matrix entries with meanings ::@:: Binary confusion counts are $TP$ (true positive), $FP$ (false positive), $TN$ (true negative), and $FN$ (false negative), where “true/false” compares prediction against the real label and “positive/negative” refers to the predicted class.
+- binary confusion matrix entries with meanings ::@:: Binary confusion counts are $TP$ (true positive), $FP$ (false positive), $TN$ (true negative), and $FN$ (false negative), where "true/false" compares prediction against the real label and "positive/negative" refers to the predicted class.
 - binary accuracy formula with notation meaning ::@:: Binary accuracy is $\frac{TP+TN}{TP+TN+FP+FN}$ because $TP+TN$ counts correct predictions and $TP+TN+FP+FN$ counts all evaluated examples.
 - multiclass confusion matrix notation with row-column roles ::@:: In multiclass settings, $M_{a,b}$ denotes the number of examples whose true class is $a$ and predicted class is $b$, so rows are true classes, columns are predicted classes, and diagonal entries are correct predictions.
 - multiclass accuracy formula with interpretation ::@:: Multiclass accuracy is $\frac{\sum_{c=1}^C M_{c,c}}{\sum_{a=1}^C\sum_{b=1}^C M_{a,b}}$ because the numerator sums all correct diagonal counts and the denominator sums all examples in the confusion matrix.
@@ -378,23 +376,16 @@ Flashcards for this section are as follows:
 - discriminative classifier definition ::@:: A discriminative classifier maps features to labels by modeling $P(y\mid x)$ directly or by fitting a decision boundary through a score function. It never explains how each class generates data.
 - generative classifier definition ::@:: A generative classifier models how each class produces features by learning $P(y)$ and $P(x\mid y)$, then derives the posterior $P(y\mid x)$ using Bayes' rule.
 - why discriminative versus generative matters ::@:: Discriminative models focus capacity on the decision boundary (often simpler and more accurate), while generative models require structural assumptions but can be more data-efficient and interpretable.
-- discriminative models in this note ::@:: Both probabilistic methods (logistic regression) and optimization-based methods (surrogate-loss minimization) are discriminative, because both learn a direct feature-to-label mapping without modeling the full data-generation process.
-- logistic regression as discriminative model ::@:: Logistic regression is discriminative because it models the label conditional on the features rather than the full feature-generation process.
+- discriminative models in this note ::@:: In this note, both probabilistic classification (for example logistic regression) and optimization-based surrogate-loss methods are discriminative because they learn a direct feature-to-label mapping without modeling the full data-generation process.
 
 <!-- check: ignore-next-line[header_style]: Bayes is a proper noun -->
 ### Bayes-rule classification from a generative model
 
-A generative classifier has two learned components: the class prior $P(y=c)$, which quantifies how likely class $c$ is before seeing any features, and the class-conditional density $P(x\mid y=c)$, which describes how feature vectors are distributed inside class $c$. Given a new input $x$, the posterior probability of class $c$ follows from Bayes' rule:
-
-$P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$.
+A generative classifier has two learned components: the class prior $P(y=c)$, which quantifies how likely class $c$ is before seeing any features, and the class-conditional density $P(x\mid y=c)$, which describes how feature vectors are distributed inside class $c$. Given a new input $x$, the posterior probability of class $c$ follows from Bayes' rule, $P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$.
 
 Here $P(x)=\sum_{c'} P(y=c')\,P(x\mid y=c')$ is the marginal likelihood, obtained by marginalizing over all possible classes. It acts as a normalizing constant: it ensures the posterior probabilities sum to $1$ across classes.
 
-Crucially, $P(x)$ is the same regardless of which class $c$ we are considering. When comparing two classes $c_1$ and $c_2$, the ratio $\frac{P(y=c_1\mid x)}{P(y=c_2\mid x)}=\frac{P(y=c_1)\,P(x\mid y=c_1)}{P(y=c_2)\,P(x\mid y=c_2)}$ does not depend on $P(x)$ at all. Therefore the optimal classification rule simplifies to:
-
-$\hat y=\arg\max_c\,P(y=c)\,P(x\mid y=c)$.
-
-One compares unnormalized scores $s_c=P(y=c)\,P(x\mid y=c)$ across classes and picks the largest. The normalizing constant $P(x)$ is never computed because it cannot change which class wins.
+Crucially, $P(x)$ is the same regardless of which class $c$ we are considering. When comparing two classes $c_1$ and $c_2$, the ratio $\frac{P(y=c_1\mid x)}{P(y=c_2\mid x)}=\frac{P(y=c_1)\,P(x\mid y=c_1)}{P(y=c_2)\,P(x\mid y=c_2)}$ does not depend on $P(x)$ at all. Therefore one compares unnormalized scores $s_c=P(y=c)\,P(x\mid y=c)$ and predicts by $\hat y=\arg\max_c\,s_c=\arg\max_c\,P(y=c)\,P(x\mid y=c)$.
 
 This decomposition is conceptually revealing. The prior $P(y=c)$ captures class frequencies before the feature vector is observed, while $P(x\mid y=c)$ captures what features tend to look like inside class $c$. A rare class can still win if its likelihood $P(x\mid y=c)$ is much larger for the observed input.
 
@@ -403,20 +394,13 @@ This decomposition is conceptually revealing. The prior $P(y=c)$ captures class 
 Flashcards for this section are as follows:
 
 - Bayes-rule posterior formula for classification with notation ::@:: In a generative classifier, the posterior is $P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$, where $P(x)=\sum_{c'}P(y=c')P(x\mid y=c')$ is the marginal likelihood.
-- why the normalizing constant $P(x)$ can be ignored ::@:: $P(x)$ is identical for every candidate class, so it cancels in pairwise comparisons; the argmax rule can use unnormalized scores.
-- unnormalized generative classification rule with derivation ::@:: Since $P(x)$ cancels, the optimal rule is $\hat y=\arg\max_c\,P(y=c)\,P(x\mid y=c)$.
+- why the normalizing constant $P(x)$ can be ignored and what rule remains ::@:: $P(x)$ is identical for every candidate class, so it cancels in pairwise comparisons; therefore prediction can use unnormalized scores and the argmax rule simplifies to $\hat y=\arg\max_c\,P(y=c)\,P(x\mid y=c)$.
 - what the prior and class-conditional each capture ::@:: The prior $P(y)$ captures how common each class is, while $P(x\mid y)$ describes what features typically look like inside each class.
 - why a rare class can still win ::@:: A rare class with small prior $P(y)$ can still have the largest posterior if its class-conditional likelihood $P(x\mid y)$ is much larger than competing classes for the observed input.
 
 ### posterior log-score decomposition
 
-In practice, multiplying many small probabilities can cause numerical underflow, so generative classifiers are often implemented in log form. Since the logarithm is a monotone function, $\arg\max_c\,f(c)=\arg\max_c\,\log f(c)$ for any positive $f$. Applying $\log$ to the unnormalized score gives:
-
-$\log\bigl[P(y=c)\,P(x\mid y=c)\bigr]=\log P(y=c)+\log P(x\mid y=c)$.
-
-Therefore the classification rule becomes:
-
-$\hat y=\arg\max_c\,\bigl[\log P(y=c)+\log P(x\mid y=c)\bigr]$.
+In practice, multiplying many small probabilities can cause numerical underflow, so generative classifiers are often implemented in log form. Since the logarithm is monotone, $\arg\max_c\,f(c)=\arg\max_c\,\log f(c)$ for any positive $f$. Applying $\log$ to the unnormalized score gives $\log\bigl[P(y=c)\,P(x\mid y=c)\bigr]=\log P(y=c)+\log P(x\mid y=c)$, so the classification rule becomes $\hat y=\arg\max_c\,\bigl[\log P(y=c)+\log P(x\mid y=c)\bigr]$.
 
 This additive decomposition separates two contributions: the _log-prior_ $\log P(y=c)$ encodes how common class $c$ is, and the _log-likelihood_ $\log P(x\mid y=c)$ encodes how well the observed features fit class $c$. Because the log function compresses large numbers, log-scores are more numerically stable: they replace products of many small probabilities by sums of negative numbers, which avoids the underflow that arises when computing $P(y=c)\prod_{j=1}^D P(x_j\mid y=c)$ for many features.
 
@@ -426,8 +410,7 @@ The decomposition also makes the prior-versus-evidence trade-off visible. A rare
 
 Flashcards for this section are as follows:
 
-- log-score form of Bayes classification with derivation ::@:: Applying $\log$ to $P(y=c)\,P(x\mid y=c)$ gives $\log P(y=c)+\log P(x\mid y=c)$, so the classification rule is $\hat y=\arg\max_c\,[\log P(y=c)+\log P(x\mid y=c)]$.
-- why monotonicity justifies the log form ::@:: Since $\log$ is monotone, maximizing $f(c)$ and maximizing $\log f(c)$ yield the same argmax; the log transform does not change which class wins.
+- log-score form of Bayes classification and why it is valid ::@:: Since $\log$ is monotone, maximizing $f(c)$ and maximizing $\log f(c)$ give the same class. Applying $\log$ to $P(y=c)P(x\mid y=c)$ yields $\log P(y=c)+\log P(x\mid y=c)$, so the rule becomes $\hat y=\arg\max_c[\log P(y=c)+\log P(x\mid y=c)]$.
 - why log-scores avoid numerical underflow ::@:: Multiplying many small probabilities can underflow to zero, but summing their logs keeps values in a manageable range.
 - log-prior versus log-likelihood contributions ::@:: The log-prior $\log P(y=c)$ encodes class prevalence, and the log-likelihood $\log P(x\mid y=c)$ encodes how well features fit class $c$; the classification rule sums both terms.
 - prior-dominance scenario ::@:: When all classes have similar log-likelihoods, the prior term dominates: the most common class wins.
@@ -436,33 +419,23 @@ Flashcards for this section are as follows:
 
 **Notation.** Throughout this section, $x=(x_1,x_2,\ldots,x_D)$ denotes a _feature vector_ with $D$ components. Each $x_j$ is the value of the $j$-th feature. For example, in a spam filter, $x_1$ might be the word count for "free", $x_2$ for "money", and so on. The variable $y$ denotes a _class label_ — the category we want to predict, such as $y\in\{\text{spam},\text{not-spam}\}$. When we write $P(x\mid y=c)$, we mean the probability of observing the entire feature vector $x$ given that the true class is $c$.
 
-The lecture's main generative example is Naive Bayes. The argument starts with a counting problem. Suppose each feature $x_j$ is binary ($x_j\in\{0,1\}$) and we want to model the full class-conditional distribution $P(x\mid y=c)$ for each class. A full joint table specifies a probability for every possible combination of feature values. With $D$ binary features, there are $2^D$ such combinations — for example, $(0,0,\ldots,0)$, $(1,0,\ldots,0)$, $(0,1,\ldots,0)$, and so on. Since the probabilities must sum to $1$, we only need to specify $2^D-1$ of them; the last one is determined by normalization. This means the full joint table requires $2^D-1$ free parameters per class. Even for $D=20$, this is already over a million parameters — far too many to estimate reliably from typical datasets.
+The lecture's main generative example is Naive Bayes. Its logic has two main parts. First, without additional structure the full class-conditional model $P(x\mid y=c)$ becomes combinatorially huge. Second, conditional independence given the class label replaces that huge joint model by a factored one, making parameter estimation and prediction tractable.
 
-Naive Bayes solves this by making a strong simplifying assumption: _conditional independence of features given the class label_. This means that once we know the class $y=c$, each feature $x_j$ provides information independently — no feature interaction is modeled. The class-conditional distribution then factorizes as:
-
-$P(x\mid y=c,\theta)=\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$.
-
-Instead of one enormous joint table per class, we now need only $D$ small one-feature conditional distributions, each with just a few parameters.
-
-The word _naive_ refers to this independence assumption, which is almost always wrong in practice — real features are usually correlated. But the model works surprisingly well for two reasons: (1) it drastically reduces the number of parameters, making estimation tractable even in high dimensions, and (2) classification only requires comparing relative posterior scores across classes, so biases from the wrong independence assumption may cancel out. Prediction uses the factored score $P(y=c)\prod_{j=1}^D P(x_j\mid y=c)$ and selects the class with the largest value.
+The word _naive_ refers to the independence assumption itself: once the class $y=c$ is known, the model treats the features $x_1,\ldots,x_D$ as independent. That assumption is usually false in reality, but it can still work well because it dramatically reduces parameter count and because classification depends on relative class scores rather than on perfectly faithful joint feature modeling.
 
 ---
 
 Flashcards for this section are as follows:
 
 - notation reminder: feature vector and class label ::@:: In Naive Bayes, $x=(x_1,\ldots,x_D)$ is a feature vector with $D$ components, each $x_j$ is the value of the $j$-th feature, and $y$ is a class label such as spam or not-spam.
-- naive Bayes factorization with explanation ::@:: Naive Bayes assumes features are conditionally independent given the class, so $P(x\mid y=c)=\prod_{j=1}^D P(x_j\mid y=c)$. This replaces one large joint table with $D$ small one-feature tables per class.
 - why it is called naive with detail ::@:: The model is called naive because it assumes all features are independent once the class is known, which is much stronger than reality — in practice, features are usually correlated.
-- naive Bayes classification rule with $P(y)\prod_{j=1}^D P(x_j\mid y)$ ::@:: Naive Bayes predicts by comparing class scores proportional to $P(y=c)\prod_{j=1}^D P(x_j\mid y=c)$ and choosing the class with the largest score.
-- role of the class prior with intuition ::@:: The class prior $P(y=c)$ encodes how common class $c$ is before looking at the features; a class with high prior starts with an advantage unless its feature likelihood is much lower.
 - why Naive Bayes can still work despite wrong assumption ::@:: Even though the independence assumption is crude, Naive Bayes can perform well because (1) it drastically reduces the number of parameters, and (2) classification only requires comparing relative scores, so biases may cancel across classes.
-- generative simplification principle ::@:: Strong structural assumptions can make a high-dimensional classification problem much easier to estimate by reducing one complicated distribution into many small pieces.
 
 ### parameter explosion without conditional independence
 
 For discrete-valued features, the unrestricted class-conditional model is combinatorially expensive. The key counting argument is as follows.
 
-Each feature $x_j$ can take $K_j$ distinct values. The full joint distribution $P(x\mid y=c)$ must assign a probability to every possible combination $(x_1,x_2,\ldots,x_D)$. With $K$ values per feature, there are $K_1\times K_2\times\cdots\times K_D$ combinations, and therefore that many minus $1$ free parameters (one less because all probabilities must sum to $1$, so the last one is determined).
+Each feature $x_j$ can take $K_j$ distinct values. The full joint distribution $P(x\mid y=c)$ must assign a probability to every possible combination $(x_1,x_2,\ldots,x_D)$. In general there are $K_1\times K_2\times\cdots\times K_D$ combinations, and therefore that many minus $1$ free parameters (one less because all probabilities must sum to $1$, so the last one is determined).
 
 For binary features ($K_j=2$ for all $j$), there are $2^D$ possible configurations and therefore $2^D-1$ free parameters per class. The "$-1$" arises from the normalization constraint: $\sum_x P(x\mid y=c)=1$, so once $2^D-1$ probabilities are chosen, the last one is forced.
 
@@ -501,43 +474,17 @@ Flashcards for this section are as follows:
 
 Once the Naive Bayes structure is fixed, we must estimate its parameters from a training dataset $D=\{(x_i,y_i)\}_{i=1}^N$. The parameters are: (1) the class prior $\pi_c=P(y=c)$ for each class $c$, and (2) the conditional feature probabilities $\mu_{jck}=P(x_j=k\mid y=c)$ for each feature position $j$, each class $c$, and each possible feature value $k$.
 
-**Likelihood and log-likelihood.** The _likelihood_ of the dataset is the probability of observing all $N$ examples under the model parameters $\theta$. Assuming examples are independent given the parameters, the likelihood is:
+**Likelihood and log-likelihood.** The _likelihood_ of the dataset is the probability of observing all $N$ examples under the model parameters $\theta$. Assuming examples are independent given the parameters, the likelihood is $p(D\mid\theta)=\prod_{i=1}^N p(x_i,y_i\mid\theta)$. Using the chain rule, $p(x_i,y_i\mid\theta)=p(y_i\mid\theta)\,p(x_i\mid y_i,\theta)$, where $p(y_i\mid\theta)=\pi_{y_i}$ and, under the Naive Bayes assumption, $p(x_i\mid y_i,\theta)=\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$. Therefore $p(D\mid\theta)=\prod_{i=1}^N \pi_{y_i}\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$.
 
-$p(D\mid\theta)=\prod_{i=1}^N p(x_i,y_i\mid\theta)$.
+The _log-likelihood_ is the logarithm of the likelihood. Since $\log$ is monotone, maximizing the likelihood is equivalent to maximizing the log-likelihood $\ell(\theta)=\log p(D\mid\theta)=\sum_{i=1}^N \log p(x_i,y_i\mid\theta)$. Taking logarithms turns products into sums, which is exactly what makes maximum-likelihood estimation easy to analyze here.
 
-To expand this, we use the chain rule: $p(x_i,y_i\mid\theta)=p(y_i\mid\theta)\,p(x_i\mid y_i,\theta)$. The first factor $p(y_i\mid\theta)=\pi_{y_i}$ is the belief (prior probability) that the true label is $y_i$. The second factor $p(x_i\mid y_i,\theta)$ is the conditional probability of observing features $x_i$ given that the label is $y_i$. Under the Naive Bayes assumption, this factors as $\prod_{j=1}^D P(x_{ij}\mid y_i,\theta)=\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$. Therefore:
+**Expanding the log-likelihood for Naive Bayes.** Substituting the factorized model gives $\ell(\theta)=\sum_{i=1}^N\log\bigl[\pi_{y_i}\prod_{j=1}^D \mu_{j,y_i,x_{ij}}\bigr]$. Applying $\log(ab)=\log a+\log b$ and $\log(\prod_j a_j)=\sum_j\log a_j$ yields $\ell(\theta)=\sum_{i=1}^N\bigl[\log\pi_{y_i}+\sum_{j=1}^D\log\mu_{j,y_i,x_{ij}}\bigr]$, which rearranges to $\ell(\theta)=\underbrace{\sum_{i=1}^N\log\pi_{y_i}}_{\text{prior term}}+\underbrace{\sum_{i=1}^N\sum_{j=1}^D\log\mu_{j,y_i,x_{ij}}}_{\text{feature-conditional term}}$. The prior and conditional-feature pieces therefore separate cleanly.
 
-$p(D\mid\theta)=\prod_{i=1}^N \pi_{y_i}\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$.
+**Maximum-likelihood estimates.** For the class prior, the MLE is the observed class frequency $\hat\pi_c = \frac{n_c}{N}$, where $n_c = \sum_{i=1}^N \mathbf{1}(y_i=c)$ counts how many training examples belong to class $c$.
 
-The _log-likelihood_ is the logarithm of the likelihood. Since $\log$ is monotone, maximizing the likelihood is equivalent to maximizing the log-likelihood:
+This is simply the empirical class frequency. In practice, one may replace this MLE by another modeling choice, such as (1) an _informative prior_ if domain knowledge suggests some classes are more common, (2) a _Laplace-smoothed prior_ $\hat\pi_c=\frac{n_c+\alpha}{N+\alpha C}$ to avoid zero-frequency issues, or (3) an _equal prior_ $\hat\pi_c=\frac{1}{C}$ if the training set is unbalanced but one wants all classes treated as equally likely.
 
-$\ell(\theta)=\log p(D\mid\theta)=\sum_{i=1}^N \log p(x_i,y_i\mid\theta)$.
-
-Taking the logarithm turns the product into a sum, which is easier to work with analytically and numerically. The log-likelihood is the objective that maximum-likelihood estimation seeks to maximize.
-
-**Expanding the log-likelihood for Naive Bayes.** Substituting the Naive Bayes factorization into the log-likelihood:
-
-$\ell(\theta)=\sum_{i=1}^N\log\bigl[\pi_{y_i}\prod_{j=1}^D \mu_{j,y_i,x_{ij}}\bigr]$.
-
-Applying $\log(ab)=\log a+\log b$ and $\log(\prod_j a_j)=\sum_j\log a_j$:
-
-$\ell(\theta)=\sum_{i=1}^N\bigl[\log\pi_{y_i}+\sum_{j=1}^D\log\mu_{j,y_i,x_{ij}}\bigr]$.
-
-Rearranging the sums:
-
-$\ell(\theta)=\underbrace{\sum_{i=1}^N\log\pi_{y_i}}_{\text{prior term}}+\underbrace{\sum_{i=1}^N\sum_{j=1}^D\log\mu_{j,y_i,x_{ij}}}_{\text{feature-conditional term}}$.
-
-The first term depends only on the class prior, and the second term depends only on the feature-conditional parameters. This separation means we can estimate each piece independently.
-
-**Maximum-likelihood estimates.** For the class prior, the MLE is the observed class frequency:
-
-$\hat\pi_c = \frac{n_c}{N}$, where $n_c = \sum_{i=1}^N \mathbf{1}(y_i=c)$ counts how many training examples belong to class $c$.
-
-This is the fraction of training examples in class $c$. It is called a _uniform prior_ estimate because it treats each class as equally likely a priori, then updates based on the data. In practice, one might use alternative priors: (1) _informative priors_ if domain knowledge suggests some classes are more common; (2) _Laplace-smoothed priors_ $\hat\pi_c=\frac{n_c+\alpha}{N+\alpha C}$ to avoid zero-frequency issues; or (3) _equal priors_ $\hat\pi_c=\frac{1}{C}$ if the training set is unbalanced but one believes classes should be equally likely.
-
-For the conditional feature probabilities, the MLE is the relative frequency within each class:
-
-$\hat\mu_{jck}=\frac{n_{jck}}{n_c}$, where $n_{jck}=\sum_{i=1}^N\mathbf{1}(y_i=c)\,\mathbf{1}(x_{ij}=k)$ counts how many class-$c$ examples have feature $j$ taking value $k$.
+For the conditional feature probabilities, the MLE is the relative frequency within each class, $\hat\mu_{jck}=\frac{n_{jck}}{n_c}$, where $n_{jck}=\sum_{i=1}^N\mathbf{1}(y_i=c)\,\mathbf{1}(x_{ij}=k)$ counts how many class-$c$ examples have feature $j$ taking value $k$.
 
 This makes the computational appeal of Naive Bayes especially clear. Once the independence assumption is accepted, estimation becomes a matter of counting: count class sizes $n_c$, count within-class feature-value frequencies $n_{jck}$, and divide. There is no iterative optimization to solve.
 
@@ -560,11 +507,7 @@ Pure frequency estimates can fail catastrophically when a feature value never ap
 
 **Pseudocounts.** A _pseudocount_ is an artificial count added to the observed frequencies before computing probabilities. It simulates having seen additional hypothetical examples. The idea is to pretend we have already observed each possible feature value at least $\alpha$ times in each class, so that no probability estimate is exactly zero.
 
-**Laplace smoothing.** For a feature with $K_j$ discrete values, the Laplace-smoothed estimate is:
-
-$\hat\mu_{jck}^{(\alpha)}=\frac{n_{jck}+\alpha}{n_c+\alpha K_j}$, with $\alpha>0$.
-
-Here $\alpha$ is the pseudocount per feature value. The numerator adds $\alpha$ to the observed count $n_{jck}$, and the denominator adds $\alpha K_j$ to the total count $n_c$ to maintain normalization: $\sum_{k=1}^{K_j}\hat\mu_{jck}^{(\alpha)}=\frac{\sum_k(n_{jck}+\alpha)}{n_c+\alpha K_j}=\frac{n_c+\alpha K_j}{n_c+\alpha K_j}=1$.
+**Laplace smoothing.** For a feature with $K_j$ discrete values, the Laplace-smoothed estimate is $\hat\mu_{jck}^{(\alpha)}=\frac{n_{jck}+\alpha}{n_c+\alpha K_j}$ with $\alpha>0$. Here $\alpha$ is the pseudocount per feature value. The numerator adds $\alpha$ to the observed count $n_{jck}$, and the denominator adds $\alpha K_j$ to the total count $n_c$ to maintain normalization: $\sum_{k=1}^{K_j}\hat\mu_{jck}^{(\alpha)}=\frac{\sum_k(n_{jck}+\alpha)}{n_c+\alpha K_j}=\frac{n_c+\alpha K_j}{n_c+\alpha K_j}=1$.
 
 **Intuitive interpretation.** With $\alpha=1$ (standard Laplace smoothing), we pretend to have seen each feature value exactly once more than actually observed. This ensures every probability is at least $\frac{1}{n_c+K_j}>0$. As $n_c$ grows large, the smoothed estimate $\hat\mu_{jck}^{(\alpha)}\to\frac{n_{jck}}{n_c}$, so smoothing matters most when data are sparse.
 
