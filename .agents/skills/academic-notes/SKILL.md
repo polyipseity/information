@@ -147,6 +147,8 @@ Create a topic note when a concept deserves a durable, reusable home. Topic note
 - Prefer concise, concept-based headings rather than copying slide titles mechanically.
 - Use subsections only when they improve structure; if a subsection is tiny, consider merging it.
 - Keep notes and the course index synchronized: when headings change, update the corresponding `§` links.
+- In optimization notes, distinguish **L2 regularization** from **weight decay** explicitly. L2 regularization is an objective-level penalty such as $L(\theta)+\frac{\lambda}{2}\lVert\theta\rVert_2^2$ (or $L(\theta)+\lambda\lVert\theta\rVert_2^2$ under a different coefficient convention), whereas weight decay is an update-level multiplicative shrinkage such as $\theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\nabla L(\theta_t)$. State clearly when they are equivalent under plain gradient descent / stochastic gradient descent, note the factor-of-$2$ convention when the loss omits $\frac{1}{2}$, and also state clearly when they are **not** equivalent — especially in adaptive optimizers such as Adam, where the L2 penalty gradient is scaled by the adaptive denominator and therefore can regularize large-history coordinates less than decoupled weight decay. When relevant, mention AdamW as the standard decoupled fix and include a short coordinatewise numeric example.
+- In dropout sections, be explicit that the **unit activations are masked, not the weights**. Show the actual masked-activation formula (for example $\tilde a_j=m_j a_j$ or $\tilde a_j=\frac{m_j}{1-p}a_j$), give the training steps in order, and include a brief chain-rule explanation of why masked units receive zero gradient (for example $\partial L/\partial w_{jk}=\delta_k m_j a_j$). Also state both technical compensation conventions clearly: (1) non-inverted dropout, where after training one multiplies by the keep probability $1-p$ the **next layer's weights fed by the dropout-applied layer** (that is, the connections leaving the masked activations; do this after training, not during training), and (2) inverted dropout, where one divides the kept activations by $1-p$ **during training** and does **not** modify weights after training, so inference is unchanged. When helpful, explain the intuition that without compensation a unit is connected to about $1/(1-p)$ times as many active inputs at test time as during training.
 
 ### Filenames, titles, and links
 
@@ -174,13 +176,13 @@ Create a topic note when a concept deserves a durable, reusable home. Topic note
 
 For accounting courses, maintain a dedicated `journal entries.md` topic note.
 
-+- One journal-entry type per `##` section.
-+- Each worked example lives in a single blockquote: scenario, journal-entry table, then optional explanation/calculation.
-+- Use markdown tables with right-aligned Dr/Cr columns.
-+- Wrap the first-column header description and each account name in clozes.
-+- Mask all debit and credit amounts with clozes and use `&nbsp;` as the thousands separator.
-+- Keep punctuation outside the closing cloze token: `{@{text}@}.`
-+- Link each new journal-entry section back into the course index and the relevant week.
+- One journal-entry type per `##` section.
+- Each worked example lives in a single blockquote: scenario, journal-entry table, then optional explanation/calculation.
+- Use markdown tables with right-aligned Dr/Cr columns.
+- Wrap the first-column header description and each account name in clozes.
+- Mask all debit and credit amounts with clozes and use `&nbsp;` as the thousands separator.
+- Keep punctuation outside the closing cloze token: `{@{text}@}.`
+- Link each new journal-entry section back into the course index and the relevant week.
 
 ## Validator and tooling
 
