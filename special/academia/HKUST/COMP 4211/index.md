@@ -178,6 +178,12 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - topic: logistic regression; softmax; performance metrics; probabilistic formulation of linear regression
 - [linear regression](linear%20regression.md)
+  - linear regression / [§ supervised regression setup and ordinary least squares](linear%20regression.md#supervised%20regression%20setup%20and%20ordinary%20least%20squares)
+  - linear regression / [§ other linear-regression fitting methods](linear%20regression.md#other%20linear-regression%20fitting%20methods)
+  - linear regression / [§ solving the toy problem by differentiation](linear%20regression.md#solving-the-toy-problem-by-differentiation)
+  - linear regression / [§ gradient, matrix form, and the normal equation](linear%20regression.md#gradient-matrix-form-and-the-normal-equation)
+  - linear regression / [§ tiny normal-equation computation](linear%20regression.md#tiny-normal-equation-computation)
+  - linear regression / [§ normal equation as projection and the noninvertible case](linear%20regression.md#normal-equation-as-projection-and-the-noninvertible-case)
   - linear regression / [§ performance metrics for regression](linear%20regression.md#performance%20metrics%20for%20regression)
   - linear regression / [§ mse and rmse interpretation](linear%20regression.md#mse%20and%20rmse%20interpretation)
   - linear regression / [§ r squared intuition and alternative formulas](linear%20regression.md#r%20squared%20intuition%20and%20alternative%20formulas)
@@ -204,14 +210,6 @@ The content is in teaching order.
 - datetime: 2026-02-12T18:00:00+08:00/2026-02-12T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
 - topic: PyTorch basics; linear regression
-- [linear regression](linear%20regression.md)
-  - linear regression / [§ supervised regression setup and ordinary least squares](linear%20regression.md#supervised%20regression%20setup%20and%20ordinary%20least%20squares)
-  - linear regression / [§ other linear-regression fitting methods](linear%20regression.md#other%20linear-regression%20fitting%20methods)
-  - linear regression / [§ solving the toy problem by differentiation](linear%20regression.md#solving-the-toy-problem-by-differentiation)
-  - linear regression / [§ gradient, matrix form, and the normal equation](linear%20regression.md#gradient-matrix-form-and-the-normal-equation)
-  - linear regression / [§ tiny normal-equation computation](linear%20regression.md#tiny-normal-equation-computation)
-  - linear regression / [§ normal equation as projection and the noninvertible case](linear%20regression.md#normal-equation-as-projection-and-the-noninvertible-case)
-  - linear regression / [§ performance metrics for regression](linear%20regression.md#performance%20metrics%20for%20regression)
 
 ## week 3 lecture 1
 
@@ -236,7 +234,11 @@ The content is in teaching order.
 - datetime: 2026-02-24T13:30:00+08:00/2026-02-24T14:50:00+08:00, PT1H20M
 - venue: G002, CYT Building
 - topic: other approaches to classification
+- [logistic regression](logistic%20regression.md)
+  - logistic regression / [§ binary logistic model and decision boundary](logistic%20regression.md#binary%20logistic%20model%20and%20decision%20boundary)
 - [classification](classification.md)
+  - classification / [§ performance metrics for classification](classification.md#performance-metrics-for-classification)
+  - classification / [§ confusion matrix and accuracy](classification.md#confusion-matrix-and-accuracy)
   - classification / [§ probabilistic approach to classification](classification.md#probabilistic%20approach%20to%20classification)
   - classification / [§ worked posterior-decision calculations](classification.md#worked-posterior-decision-calculations)
   - classification / [§ zero-one loss and empirical risk minimization](classification.md#zero-one%20loss%20and%20empirical%20risk%20minimization)
@@ -283,11 +285,6 @@ The content is in teaching order.
 - datetime: 2026-02-26T18:00:00+08:00/2026-02-26T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
 - topic: Pandas; scikit-learn; logistic regression
-- [logistic regression](logistic%20regression.md)
-  - logistic regression / [§ binary logistic model and decision boundary](logistic%20regression.md#binary%20logistic%20model%20and%20decision%20boundary)
-- [classification](classification.md)
-  - classification / [§ performance metrics for classification](classification.md#performance-metrics-for-classification)
-  - classification / [§ confusion matrix and accuracy](classification.md#confusion-matrix-and-accuracy)
 
 ## week 5 lecture 1
 
@@ -319,6 +316,12 @@ The content is in teaching order.
   - deep learning training / [§ bagging intuition and subnetworks](deep%20learning%20training.md#bagging-intuition-and-subnetworks)
   - deep learning training / [§ masking, minibatches, and test-time scaling](deep%20learning%20training.md#masking-minibatches-and-test-time-scaling)
 - [feedforward neural network](feedforward%20neural%20network.md)
+  - feedforward neural network / [§ layerwise notation and forward propagation](feedforward%20neural%20network.md#layerwise-notation-and-forward-propagation)
+  - feedforward neural network / [§ repeated matrix-nonlinearity viewpoint](feedforward%20neural%20network.md#repeated%20matrix-nonlinearity%20viewpoint)
+  - feedforward neural network / [§ why initialization matters](feedforward%20neural%20network.md#why-initialization-matters)
+  - feedforward neural network / [§ rectifier family: ReLU, leaky ReLU, parametric ReLU, ELU, and softplus](feedforward%20neural%20network.md#rectifier-family-relu-leaky-relu-parametric-relu-elu-and-softplus)
+  - feedforward neural network / [§ activation comparison: theoretical and empirical characteristics](feedforward%20neural%20network.md#activation-comparison-theoretical-and-empirical-characteristics)
+  - feedforward neural network / [§ vanishing-gradient problem](feedforward%20neural%20network.md#vanishing-gradient-problem)
   - feedforward neural network / [§ probabilistic outputs and loss functions](feedforward%20neural%20network.md#probabilistic%20outputs%20and%20loss%20functions)
   - feedforward neural network / [§ feature extractor and logits](feedforward%20neural%20network.md#feature-extractor-and-logits)
   - feedforward neural network / [§ what a logit means](feedforward%20neural%20network.md#what-a-logit-means)
@@ -337,16 +340,6 @@ The content is in teaching order.
 - datetime: 2026-03-05T18:00:00+08:00/2026-03-05T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
 - topic: feedforward neural networks in PyTorch
-- [feedforward neural network](feedforward%20neural%20network.md)
-  - feedforward neural network / [§ layerwise notation and forward propagation](feedforward%20neural%20network.md#layerwise-notation-and-forward-propagation)
-  - feedforward neural network / [§ repeated matrix-nonlinearity viewpoint](feedforward%20neural%20network.md#repeated%20matrix-nonlinearity%20viewpoint)
-  - feedforward neural network / [§ why initialization matters](feedforward%20neural%20network.md#why-initialization-matters)
-  - feedforward neural network / [§ rectifier family: ReLU, leaky ReLU, parametric ReLU, ELU, and softplus](feedforward%20neural%20network.md#rectifier-family-relu-leaky-relu-parametric-relu-elu-and-softplus)
-  - feedforward neural network / [§ activation comparison: theoretical and empirical characteristics](feedforward%20neural%20network.md#activation-comparison-theoretical-and-empirical-characteristics)
-  - feedforward neural network / [§ vanishing-gradient problem](feedforward%20neural%20network.md#vanishing-gradient-problem)
-  - feedforward neural network / [§ backpropagation](feedforward%20neural%20network.md#backpropagation)
-  - feedforward neural network / [§ repeated transposed-Jacobian viewpoint](feedforward%20neural%20network.md#repeated%20transposed-jacobian%20viewpoint)
-  - feedforward neural network / [§ algorithm and implementation notes](feedforward%20neural%20network.md#algorithm-and-implementation-notes)
 
 ## week 6 lecture 1
 
@@ -382,7 +375,6 @@ The content is in teaching order.
 - datetime: 2026-03-12T18:00:00+08:00/2026-03-12T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
 - topic: convolutional neural networks in PyTorch; computation at convolutional layers
-- convolutional neural network note not yet published
 
 ## week 7 lecture 1
 
