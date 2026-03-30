@@ -17,6 +17,9 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - For course indexes, include spaced and unspaced course-code aliases plus institution-prefixed variants, sorted alphabetically.
 - Use underscore course codes in flashcard tags, for example `COMP_3031`.
 - Put course-specific agent instructions in `AGENTS.md` in the same course folder, keep them concise, use the title `# <course code> agent instructions`, and do not use flashcard markup there (`{@{ }@}`, `:@:`, `::@::`).
+- If the provided materials already enumerate repeating deliverables or sessions (for example tutorial rounds, lab rounds, quizzes, or homeworks), scaffold minimal child `index.md` pages for those foreseeable items early and keep the pages lightweight until the official handouts are ingested.
+- Keep `index.md` pages lean: the course root should hold only the high-value overview, folder indexes should summarize just enough to navigate, and leaf indexes should usually contain only minimal logistics until real content is ingested.
+- When turning lecture PDFs into topic notes, preserve the concrete teaching detail: explicit classifications, key formulas, named signal/system families, and representative examples or counterexamples from the slides.
 - Place `assignments/` immediately after `children` and before session entries.
 - Keep sessions in strict chronological order and use numbered headings such as `lecture 1`, `lecture 2`, `lab 1`, and `tutorial 1` when needed.
 - Use underscore emphasis (`_italic_`, `__bold__`).

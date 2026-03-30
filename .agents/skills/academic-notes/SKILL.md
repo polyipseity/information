@@ -18,7 +18,7 @@ This skill is the authoritative guide for creating and maintaining course notes 
 ## Key principles
 
 1. **Content first.** Capture the lecture's actual ideas, definitions, formulas, examples, and instructor remarks as complete prose or structured bullets.
-2. **Keep prose and flashcards synchronized.** Whenever you add, remove, split, merge, or rename content, update the corresponding flashcards in the same edit.
+2. **Keep prose and flashcards synchronized.** Whenever you add, remove, split, merge, or rename content, update the corresponding flashcards in the same edit. If the prose becomes more detailed, the flashcards should also preserve that extra detail rather than remaining at headline level only.
 3. **Treat flashcards as standalone artifacts.** Restate the local hypotheses, notation, and conditions needed for correctness.
 4. **Respect metadata and chronology.** Use YAML frontmatter, ISO‑8601 datetimes, valid `children:` lists, and chronological session ordering; keep exams after regular sessions.
 5. **Use skill files, not memory, as the source of truth.** Durable lessons belong in `SKILL.md`, `course-template.md`, related instructions, and tests.
@@ -40,10 +40,13 @@ Use this workflow whenever you add or revise course content.
 3. Fill frontmatter carefully: aliases, tags, course name, credits, and description.
 4. Add `logistics` with grading and chosen-section metadata.
 5. Maintain `children:` in teaching order, include `[AGENTS](AGENTS.md)` when present, and keep links current.
-6. Write explanatory prose first; add flashcards after the prose is accurate.
-7. Update related `index.md` anchors and section links in the same pass.
-8. Run the validator and fix both errors and warnings before moving on.
-9. Before finishing, check the note once as a reader and once as a flashcard consumer.
+6. When the provided materials clearly enumerate repeating artifacts such as tutorials, labs, quizzes, or homeworks, scaffold minimal folder indexes and minimal child `index.md` pages for each foreseeable item rather than waiting for every detailed handout to arrive.
+7. Write explanatory prose first; add flashcards after the prose is accurate.
+8. Update related `index.md` anchors and section links in the same pass.
+9. Run the validator and fix both errors and warnings before moving on.
+10. Before finishing, check the note once as a reader and once as a flashcard consumer.
+
+When building scaffolds, keep `index.md` pages lean. Avoid duplicating large calendars, explanatory prose, or schedule details across the course root, folder indexes, and leaf indexes when a child page can own that information.
 
 ### Adding new lecture content
 
@@ -56,9 +59,26 @@ Before creating a new topic note, classify the incoming material:
 Also follow these rules:
 
 - Absorb theory from appendices or auxiliary PDFs into topic notes; do not leave required content stranded in attachments.
+- When lecture materials are dense, do not over-compress them into a few summary sentences. Preserve the named classifications, operational distinctions, representative formulas, and the worked examples or counterexamples that the lecture uses to teach them.
+- When reorganizing or deduplicating topic notes, do not automatically cut motivating historical or technology-context subsections if the lecture uses them to frame the core concept. Keep a compact durable subsection and matching flashcards when named milestones, technology generations, or comparison examples are part of how the lecture teaches the topic.
+- When a broad topic note starts accumulating a coherent subcluster such as discrete-time representation methods, canonical discrete-time signal families, and their periodicity rules, prefer splitting that cluster into its own durable topic note rather than duplicating half of it inside a more general signal note.
+- If a chapter teaches the discrete-time sequence toolkit as one coherent block — representation methods, canonical sequence families, basic sequence operations, reshaping, and energy/power — keep those pieces together in the same canonical discrete-time note unless the course itself clearly splits them into separate durable concepts.
+- For sequence-valued notes, state endpoint conventions explicitly for finite windows or rectangular sequences; do not assume readers will infer whether the right endpoint is included or excluded from a step-function formula alone.
+- In discrete-time oscillation notes, make the rational-versus-irrational distinction explicit: explain that periodicity depends on whether the normalized angular frequency divided by $2\pi$ is rational, and state clearly what irrationality does to both sinusoidal and complex-exponential sequences.
+- In both prose and flashcards, explicitly compare nearby or easily confused concepts (for example message vs signal, discrete-time vs digital, energy vs power, or vertical vs horizontal transformations) so the note helps prevent predictable misunderstandings rather than merely listing definitions in isolation.
+- Add intuition, examples, and counterexamples, not just formal definitions. A strong default is _definition + comparison + intuition + example + counterexample_, adjusted for the topic.
+- When a note introduces an additive decomposition (for example DC/AC, even/odd, or real/imaginary), do not stop at the decomposition formula. Also show why the cross term vanishes in the relevant inner-product or averaging integral, explain the orthogonality or zero-covariance intuition, and give at least one worked example.
+- For singular or generalized functions, explicitly describe how the graph should be drawn, what parts of the drawing are symbolic rather than literal, and how limiting families of ordinary functions approach the generalized object. Do not leave the reader with “infinitely tall pulse” as the only intuition.
+- For singular-signal notes specifically, include explicit formulas in common forms, relations among the signal families (for example step, ramp, gate, signum, impulse, doublet), and short derivations of the main operational rules when the lecture material supports them.
+- When singular/generalized-function notes use standard delta-sequence families (rectangular, triangular, exponential, Gaussian, sinc, etc.), include the unit-area derivation or normalization check explicitly rather than merely stating that the area is 1.
+- Explain test functions as smooth localized probes and state why smoothness and compact support are useful, not just that they are assumed.
 - Verify theorem hypotheses and prefer the standard theorem statement unless a stronger version is clearly intended and explained.
 - For analysis or calculus background, include intuition as well as formulas: geometry, slicing, box approximations, or event-region interpretations where relevant.
 - Keep worked examples computationally visible: show the main setup, order of computation, and the key step, not just the final answer.
+- Preserve instructional distinctions in flashcards too: if the lecture carefully distinguishes related ideas (for example message vs signal, energy vs power, causal vs noncausal, or pulse-limit vs distribution viewpoints), do not leave those distinctions only in prose.
+- When a section only needs a small extra distinction or clarification, enhance the existing flashcards instead of proliferating near-duplicates; when the new material adds many comparisons, examples, counterexamples, or worked examples, add new flashcards rather than overstuffing one old card.
+- Worked-example flashcards must repeat every input datum needed to carry out the example on the left-hand side before `::@::`; do not force the reader to recover missing numbers, formulas, assumptions, or waveform descriptions from surrounding prose.
+- For conceptual math-law cards (for example multiplication laws, parity laws, or convolution identities), prefer a descriptive prompt when that reads more naturally than a formula-heavy left-hand side. If the validator mistakes such a card for a calculation card, use a targeted inline suppression on that same flashcard line with a brief rationale rather than distorting the prompt.
 - Prefer one rich, answerable card to several brittle micro-cards when the reasoning is naturally short.
 - For mathematically structured machine-learning notes, include at least one worked example and one derivation or proof sketch when the lecture supports them.
 
@@ -177,6 +197,7 @@ Create a topic note when a concept deserves a durable, reusable home. Topic note
 - In session entries, link the note as a parent bullet and the relevant sections as indented `§` links.
 - Every named section or subsection that matters for navigation should be reachable from the course index or session outline.
 - Keep link text exactly aligned with the actual heading text.
+- When a topic note is expanded substantially without changing its headings, still review the corresponding session `topic:` text and any short session-summary prose in `index.md`; refresh them if the lecture scope now reads materially broader than the old wording suggested.
 
 ### Journal entries note (accounting courses)
 
