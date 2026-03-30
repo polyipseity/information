@@ -6,7 +6,7 @@ applyTo: "special/academia/**,private/special/academia/**"
 
 # Academic notes instruction
 
-This instruction file surfaces the essential, quick-reference guidance from the `academic-notes` skill for agents and maintainers working on course folders under `special/academia` (including the private mirror path `private/special/academia`). **Agents must read every file in `.agents/skills/academic-notes/` and every line of those files before acting; do not assume the concise guidance is exhaustive.** It is intentionally concise — consult the full skill docs for examples and tooling.
+This instruction file surfaces the essential, quick-reference guidance from the `academic-notes` skill for agents and maintainers working on course folders under `special/academia` (including the private mirror path `private/special/academia`). **Agents must read `.agents/skills/academic-notes/SKILL.md` before acting. Do not recurse through the entire repository to discover tooling; the validator path is fixed at `.agents/skills/academic-notes/check.py`.** It is intentionally concise — consult the full skill docs for examples and tooling.
 
 ## Scope & purpose
 
@@ -56,17 +56,20 @@ This instruction file surfaces the essential, quick-reference guidance from the 
 - If you use **nested flashcards** in any academic-notes file, indent them by exactly two spaces per level and make each nested QA prompt repeat the full parent path rather than relying on indentation for context. For derivation or approximation clusters, keep the left-hand prompt descriptive, but it is still good to show the key mathematical terms or limit expressions on the right-hand side so the strategy is explicit rather than purely verbal.
 - When embedding LaTeX, always use `$...$` for inline math and `$$...$$` for display equations; do **not** employ `\(\)` or `\[\]` variants, as the validator and rendering pipelines expect dollar‑sign delimiters. **Accounting courses:** do **not** use LaTeX; use plain text, numbers, and symbols (×, −, ÷).
 - When adding comments, avoid placing more than one directive of the **same type** on a single line; the validator now flags duplicates and authors should merge them into a single comment listing all applicable rule IDs (the syntax already supports commas).
-- Use the validator conservatively: run `check.py --content` for advisory guidance; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
+- Use the validator conservatively: run `.agents/skills/academic-notes/check.py <narrow-path>` and keep the scope small; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
 - Treat submodules (including `private/`, `tools/pytextgen/`, `tools/pyarchivist/`) as read-only unless the user explicitly grants permission.
 - Prefer small, reviewable changes to skill docs and helper scripts; document rationale and link to the Continuous improvement section of SKILL.md when proposing edits.
 - Unless the user explicitly asks about commits or version-control steps, do not add commit reminders or commit-oriented instructions during academic-notes work; keep the guidance centered on content, structure, validation, and documentation quality.
-- **Always run the `check.py` validator after using any edit tool, but keep the scope narrow.** Validate only the smallest relevant path—normally the specific course directory you are editing, or an even narrower path when supported. **Never run the validator recursively on the entire repository, the repository root, or the whole current workspace**; that is too slow and floods the result with unrelated issues. For normal note work, do not inspect or search for recursion behavior first; simply pass the correct narrow path to the validator.
+- **Always run the validator after using any edit tool, but keep the scope narrow.** The validator is always `.agents/skills/academic-notes/check.py`. Validate only the smallest relevant path—normally the specific course directory you are editing, or an even narrower path when supported. **Never run the validator recursively on the entire repository, the repository root, the whole current workspace, or the entire skill folder**; that is too slow and floods the result with unrelated issues. Do not inspect or search the skill folder to discover the validator path first; run the fixed path directly.
 - Treat topic-note maintenance as a three-part update: if you add, remove, split, merge, or rename content in a topic note, update the corresponding flashcards in that note and then update every affected `index.md` section link or anchor in the same task.
 
 ## Tools & locations
 
 - Skill docs, examples, and helper scripts: `.agents/skills/academic-notes/`
-- Validator: `.agents/skills/academic-notes/check.py`
+- Validator: `.agents/skills/academic-notes/check.py` (fixed path; do not search for it recursively)
+- Validator command, Windows PowerShell or cmd: `uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>"`
+- Validator command, POSIX shell: `uv run .agents/skills/academic-notes/check.py special/academia/<INSTITUTION>/<COURSE>`
+- Narrower validator command for a single file: `uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>/index.md"`
 - Wikipedia helper: `.agents/skills/academic-notes/find_wikipedia.py`
 - Continuous improvement workflow: **Continuous improvement** section of `.agents/skills/academic-notes/SKILL.md`; durable lessons should be folded directly into `SKILL.md`, `course-template.md`, and this instruction file rather than parked in a long sidecar log
 
@@ -119,7 +122,7 @@ This instruction file surfaces the essential, quick-reference guidance from the 
    - Cloze syntax is strict: use `{@{...}@}` only; do not use `}}` as a close token.
    - Cloze content must stay on one source line, and clozes must not be nested.
    - The validator enforces these as atomic rules: `cloze_open_close_matching`, `cloze_wrong_closing_token`, `cloze_single_line`, and `cloze_no_nested`.
-8. Run `uv run .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
+8. Run `uv run .agents/skills/academic-notes/check.py <narrow-path>` and resolve obvious authoring omissions before opening a PR.
 
 ## Continuous improvement
 

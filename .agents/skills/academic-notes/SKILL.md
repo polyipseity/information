@@ -11,7 +11,8 @@ This skill is the authoritative guide for creating and maintaining course notes 
 
 - `SKILL.md` — authoritative workflow and policy reference.
 - `course-template.md` — scaffold for new course `index.md` pages.
-- `check.py` + `check_mods/*` — validator entry point and rules.
+- `check.py` — validator entry point. The validator is always at `.agents/skills/academic-notes/check.py`; do **not** recurse through the entire repository to find it.
+- `check_mods/*` — validator rules and implementation modules.
 - `find_wikipedia.py` — title-discovery helper for canonical `general/` article names.
 - `tests_a7392be/*` — tests for validator and helper behavior.
 
@@ -24,7 +25,7 @@ This skill is the authoritative guide for creating and maintaining course notes 
 5. **Use skill files, not memory, as the source of truth.** Durable lessons belong in `SKILL.md`, `course-template.md`, related instructions, and tests.
 6. **Keep math clean.** Use `$...$` or `$$...$$`, keep math on one source line, and do not put math in code fences. In accounting notes, avoid LaTeX and use plain text instead.
 7. **Keep headers and emphasis consistent.** Topic-note headers should normally be lowercase except for proper nouns; use `_italic_` and `__bold__` rather than asterisks.
-8. **Validate immediately and narrowly.** Run `uv run .agents/skills/academic-notes/check.py` after edits, targeting only the relevant course directory or file.
+8. **Validate immediately and narrowly.** The validator path is fixed at `.agents/skills/academic-notes/check.py`. Run that exact file after edits, targeting only the relevant course directory or file; never recurse through `.agents/skills/academic-notes/` to discover it.
 9. **Prefer one durable home per concept.** Enhance existing notes and add section links before creating overlapping new notes.
 10. **For honors or proof-heavy courses, raise the rigor.** State hypotheses explicitly, include proof sketches or derivation skeletons, keep concrete examples and counterexamples, and prefer the quartet _formula + derivation + intuition + worked example_ for technical notes.
 11. **Store course-local agent instructions in `AGENTS.md`.** Keep them concise, course-specific, and titled exactly `# <course code> agent instructions`; do not keep agent instructions in HTML comments inside `index.md`.
@@ -215,17 +216,24 @@ For accounting courses, maintain a dedicated `journal entries.md` topic note.
 
 Use the validator as the structural authority for this skill.
 
+The validator location is fixed: `.agents/skills/academic-notes/check.py`.
+Do **not** recurse through `.agents/skills/academic-notes/`, list the whole folder, or search the entire skill tree just to locate the validator. Run the fixed path directly and pass the smallest relevant note path.
+
 ```shell
 # POSIX shell
 uv run .agents/skills/academic-notes/check.py special/academia/<institution>/ELEC\ 1100
 
 # Windows PowerShell or cmd
 uv run .agents/skills/academic-notes/check.py "special/academia/<institution>/ELEC 1100"
+
+# Validate a single file instead of a whole course when possible
+uv run .agents/skills/academic-notes/check.py "special/academia/<institution>/ELEC 1100/index.md"
 ```
 
 Rules of thumb:
 
 - Validate the **smallest relevant scope only**.
+- Do **not** run the validator on the repository root, the whole workspace, or the entire skill folder.
 - Common failures include missing tags, missing `datetime`, invalid headings, broken section-card structure, duplicate week numbers, and exams placed too early.
 - The validator also checks `index_children_order`, `index_children_missing`, and `index_children_missing_index` for `index.md` files.
 - After structural fixes, run repository formatting, checks, and tests on explicit paths.
