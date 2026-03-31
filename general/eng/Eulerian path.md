@@ -126,7 +126,7 @@ In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the
 
 - _G_ is ::@:: connected. <!--SR:!2031-04-17,1862,382!2026-04-06,396,362-->
 - _G_ has ::@:: [countable sets](countable%20set.md) of vertices and edges. <!--SR:!2029-10-12,1396,356!2031-01-28,1798,382-->
-- _G_ has no ::@:: vertices of \(finite\) odd degree. <!--SR:!2026-03-31,391,362!2026-04-02,393,362-->
+- _G_ has no ::@:: vertices of \(finite\) odd degree. <!--SR:!2031-07-25,1942,382!2026-04-02,393,362-->
 - Removing ::@:: (the edges of) any finite subgraph _S_ from _G_ leaves at most two infinite connected components in the remaining graph, and if _S_ has even degree at each of its vertices then removing _S_ leaves exactly one infinite connected component. <!--SR:!2026-04-06,338,302!2027-07-27,742,342-->
 
 ## undirected Eulerian graphs
@@ -147,7 +147,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2030-08-29,1665,370!2029-09-28,1384,356!2031-05-17,1886,382-->
 
-{@{Hierholzer's linear time algorithm for constructing an Eulerian tour}@} is {@{also applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-31,390,362!2030-12-12,1764,382-->
+{@{Hierholzer's linear time algorithm for constructing an Eulerian tour}@} is {@{also applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2030-02-10,1412,362!2030-12-12,1764,382-->
 
 ## mixed Eulerian graphs
 
@@ -182,7 +182,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 ## notes
 
-1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2031-04-18,1863,382!2031-02-27,1823,382!2031-07-04,1925,382!2030-12-31,1776,382!2026-03-31,391,362!2031-07-06,1927,382!2028-01-20,896,350!2031-07-16,1934,382-->
+1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2031-04-18,1863,382!2031-02-27,1823,382!2031-07-04,1925,382!2030-12-31,1776,382!2031-07-24,1941,382!2031-07-06,1927,382!2028-01-20,896,350!2031-07-16,1934,382-->
 
 ## references
 

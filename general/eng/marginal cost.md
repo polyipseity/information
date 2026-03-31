@@ -62,7 +62,7 @@ While {@{[neoclassical](neoclassical%20economics.md) models}@} {@{broadly assume
 
 > ...many more companies state that {@{they have falling, rather than rising, marginal cost curves}@}. While there are {@{reasons to wonder whether respondents interpreted these questions about costs correctly}@}, their answers {@{paint an image of the cost structure of the typical firm that is very different from the one immortalized in textbooks}@}.
 >
-> —&hairsp;_Asking About Prices: A New Approach to Understanding Price Stickiness_, p. 105<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2030-08-16,1608,372!2030-05-02,1523,372!2026-03-31,337,352-->
+> —&hairsp;_Asking About Prices: A New Approach to Understanding Price Stickiness_, p. 105<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2030-08-16,1608,372!2030-05-02,1523,372!2030-09-22,1636,372-->
 
 {@{Many [Post-Keynesian economists](post-Keynesian%20economics.md)}@} have {@{pointed to these results as evidence in favor of their own [heterodox](heterodox%20economics.md) theories of the firm}@}, which {@{generally assume that marginal cost is constant as production increases}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-04-12,348,352!2026-04-08,345,352!2030-09-05,1624,372-->
 

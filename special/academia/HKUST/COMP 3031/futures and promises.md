@@ -41,7 +41,7 @@ A common early pattern is {@{_continuation-passing style_ (CPS), or more commonl
 >   }
 > ```
 >
-> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2026-04-05,67,310!2026-03-31,62,310!2026-11-24,252,330!2026-12-09,256,330!2026-03-31,63,310!2026-11-27,255,330!2026-11-26,254,330!2026-11-19,248,330-->
+> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2026-04-05,67,310!2026-12-28,272,330!2026-11-24,252,330!2026-12-09,256,330!2027-01-01,276,330!2026-11-27,255,330!2026-11-26,254,330!2026-11-19,248,330-->
 
 ### drawbacks of CPS
 
@@ -129,7 +129,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## future
 
-{@{A `Future[T]`}@} holds {@{a computation that will produce a value of type _T_ (or an exception)}@}. The library schedules {@{the task on an execution context}@} and the caller can register {@{callbacks that run when the future completes}@}. Because {@{the completion is asynchronous}@}, {@{`Future` offers combinators}@} such as {@{`map`, `flatMap`, and `zip`}@} to compose {@{independent computations without blocking}@}, and {@{`recover` and `recoverWith`}@} to {@{handle errors}@}. <!--SR:!2026-04-04,67,310!2026-04-04,66,310!2026-04-05,67,310!2026-03-31,63,310!2026-04-04,67,310!2026-12-17,263,330!2026-11-23,251,330!2026-03-31,62,310!2026-11-23,251,330!2026-12-06,255,330-->
+{@{A `Future[T]`}@} holds {@{a computation that will produce a value of type _T_ (or an exception)}@}. The library schedules {@{the task on an execution context}@} and the caller can register {@{callbacks that run when the future completes}@}. Because {@{the completion is asynchronous}@}, {@{`Future` offers combinators}@} such as {@{`map`, `flatMap`, and `zip`}@} to compose {@{independent computations without blocking}@}, and {@{`recover` and `recoverWith`}@} to {@{handle errors}@}. <!--SR:!2026-04-04,67,310!2026-04-04,66,310!2026-04-05,67,310!2027-01-01,276,330!2026-04-04,67,310!2026-12-17,263,330!2026-11-23,251,330!2026-12-27,271,330!2026-11-23,251,330!2026-12-06,255,330-->
 
 > [!example] __Creating a Future__
 >
@@ -160,7 +160,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   p.future
 > ```
 >
-> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2026-04-04,67,310!2026-03-31,62,310!2026-11-06,237,330!2026-11-06,237,330!2026-03-31,62,310!2026-04-04,67,310!2026-11-04,235,330!2026-12-12,259,330!2026-04-05,67,310-->
+> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2026-04-04,67,310!2026-12-27,271,330!2026-11-06,237,330!2026-11-06,237,330!2026-12-26,270,330!2026-04-04,67,310!2026-11-04,235,330!2026-12-12,259,330!2026-04-05,67,310-->
 
 ## transformations
 
@@ -177,9 +177,9 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   grindBeans().map(b => brew(b))
 > ```
 >
-> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2026-04-02,64,310!2026-11-15,245,330!2026-12-16,263,330!2026-04-05,67,310!2026-03-31,63,310!2026-04-04,67,310!2026-04-03,65,310-->
+> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2026-04-02,64,310!2026-11-15,245,330!2026-12-16,263,330!2026-04-05,67,310!2027-01-01,276,330!2026-04-04,67,310!2026-04-03,65,310-->
 
-When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2026-03-31,63,310!2026-04-04,67,310!2026-11-13,243,330!2026-12-13,259,330!2026-04-01,63,310!2026-10-27,228,330-->
+When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2027-01-01,276,330!2026-04-04,67,310!2026-11-13,243,330!2026-12-13,259,330!2026-04-01,63,310!2026-10-27,228,330-->
 
 > [!example] __`Future.flatMap`__
 >
@@ -203,7 +203,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().zip(grindBeans())
 > ```
 >
-> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2026-04-02,64,310!2026-11-14,244,330!2026-04-05,67,310!2026-11-06,237,330!2026-11-14,244,330!2026-03-31,62,310!2026-04-05,67,310!2026-04-01,63,310!2026-11-13,243,330!2026-10-26,227,330-->
+> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2026-04-02,64,310!2026-11-14,244,330!2026-04-05,67,310!2026-11-06,237,330!2026-11-14,244,330!2026-12-28,272,330!2026-04-05,67,310!2026-04-01,63,310!2026-11-13,243,330!2026-10-26,227,330-->
 
 {@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2026-04-04,66,310!2026-11-07,238,330!2026-11-10,241,330!2026-12-20,265,330-->
 
@@ -277,7 +277,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 
 ## execution context
 
-{@{A `Future`}@} does not {@{decide by itself where its continuation runs}@}. {@{The _execution context_}@} is {@{a runtime object that owns a thread pool or a scheduler}@} and decides on {@{which worker a callback will be invoked}@}. By importing {@{an implicit `ExecutionContext`}@}, {@{every `Future`}@} automatically {@{submits its work to the same pool}@}, making it trivial to switch from {@{a single‑threaded environment to a fixed‑size thread pool or even a custom executor}@}. <!--SR:!2026-12-12,259,330!2026-12-12,259,330!2026-04-05,67,310!2026-03-31,62,310!2026-04-04,67,310!2026-03-31,62,310!2026-12-23,268,330!2026-04-04,67,310!2026-04-05,67,310-->
+{@{A `Future`}@} does not {@{decide by itself where its continuation runs}@}. {@{The _execution context_}@} is {@{a runtime object that owns a thread pool or a scheduler}@} and decides on {@{which worker a callback will be invoked}@}. By importing {@{an implicit `ExecutionContext`}@}, {@{every `Future`}@} automatically {@{submits its work to the same pool}@}, making it trivial to switch from {@{a single‑threaded environment to a fixed‑size thread pool or even a custom executor}@}. <!--SR:!2026-12-12,259,330!2026-12-12,259,330!2026-04-05,67,310!2026-12-22,266,330!2026-04-04,67,310!2026-12-24,268,330!2026-12-23,268,330!2026-04-04,67,310!2026-04-05,67,310-->
 
 > [!example] __implicit execution context__
 >
@@ -298,7 +298,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 > ```
 <!--SR:!2026-04-04,67,310!2026-12-11,258,330!2026-04-04,67,310!2026-12-17,263,330-->
 
-{@{The execution context}@} is also used when {@{chaining futures with `map`, `flatMap` or `onComplete`}@}; each callback uses {@{the implicit context from the surrounding code}@}. <!--SR:!2026-03-31,62,310!2026-12-01,251,330!2026-04-04,67,310-->
+{@{The execution context}@} is also used when {@{chaining futures with `map`, `flatMap` or `onComplete`}@}; each callback uses {@{the implicit context from the surrounding code}@}. <!--SR:!2026-12-25,269,330!2026-12-01,251,330!2026-04-04,67,310-->
 
 ## API mitigation
 

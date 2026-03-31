@@ -235,7 +235,7 @@ The content is in teaching order.
 - [discount and allowances](../../../../general/discount%20and%20allowances.md)
   - sale discounts ::@:: Discounts on sales. You need to know how to read discounts. <p> To account for it, we credit the discount to a contra-revenue account "Sale discounts". <!--SR:!2031-07-24,1948,403!2026-10-03,537,403-->
     - [net _D_](../../../../general/net%20D.md) ::@:: examples: <p> - _2/10, n/30_: 2% discount within 10 days of invoice date, must pay within 30 days of invoice date <br/> - _3/7 EOM, n/30_: 3% discount within 7 days after the _end of month_ of the invoice date, must pay within 30 days of invoice date <br/> - _2/15, n/40 ROG_: 2% discount with 15 days of invoice date, must pay within 40 days of _receipt of goods_ <!--SR:!2028-05-31,922,363!2027-04-14,661,363-->
-  - sale return and allowances ::@:: Customers are unsatisfied and returns the product. That means less revenue for us. <p> To account for it and make allowances for potential returns, we credit return and allowance to a contra-revenue account "Sale returns and allowances". Whenever a customer returns a product, we credit the above account. <!--SR:!2026-07-25,477,396!2026-03-31,378,383-->
+  - sale return and allowances ::@:: Customers are unsatisfied and returns the product. That means less revenue for us. <p> To account for it and make allowances for potential returns, we credit return and allowance to a contra-revenue account "Sale returns and allowances". Whenever a customer returns a product, we credit the above account. <!--SR:!2026-07-25,477,396!2031-09-02,1981,403-->
 - [net sales](sales%20(accounting).md#gross%20sales%20and%20net%20sales)
 - bundled goods ::@:: To account for bundled goods, separate the bundled goods into separate goods. Each separate good should have a clear performance obligations (what it takes to earn the revenue). Then allocate the transaction price to the separate using their fair values. Finally, recognize the revenue for each good separately when the performance is done. <!--SR:!2026-08-19,499,403!2028-07-25,1051,383-->
 
@@ -425,7 +425,7 @@ The content is in teaching order.
 ## week 10 lecture 1
 
 - datetime: 2024-11-05T13:30:00+08:00/2024-11-05T14:50:00+08:00
-- [share capital](../../../../general/share%20capital.md) ::@:: It is the portion of a corporation's equity that has been derived by the issue of shares in the corporation to a shareholder, usually for cash. <!--SR:!2026-03-31,378,383!2028-07-24,1051,383-->
+- [share capital](../../../../general/share%20capital.md) ::@:: It is the portion of a corporation's equity that has been derived by the issue of shares in the corporation to a shareholder, usually for cash. <!--SR:!2031-09-05,1984,403!2028-07-24,1051,383-->
   - [authorized shares](../../../../general/authorised%20capital.md) ::@:: maximum number of shares that can be sold to public <!--SR:!2026-06-25,454,396!2026-09-01,511,403-->
   - [issued shares](../../../../general/issued%20shares.md) ::@:: authorized and sold to the public or repurchased <!--SR:!2026-07-25,479,403!2029-01-20,1179,383-->
   - unissued shares ::@:: authorized but never sold and never repurchased <!--SR:!2026-08-18,498,403!2026-07-24,478,403-->
@@ -457,7 +457,7 @@ The content is in teaching order.
     - stock dividend / accounting ::@:: debit equity "Retained earnings", credit equity "Common stock" (par value), _maybe_ credit equity "Additional paid-in capital" (market value minus par value, for small stock dividend only) (effectively, account transfer in SE) <!--SR:!2030-02-11,1428,343!2026-10-01,536,403-->
     - stock dividend / par value or market value ::@:: large stock dividend: >20~25% of outstanding shares, use par value <br/> small stock dividend: otherwise, use market value <!--SR:!2028-06-05,1012,383!2028-07-08,951,363-->
 - [stock split](../../../../general/stock%20split.md) ::@:: It increases the number of shares in a company. For example, after a 2-for-1 split, each investor will own double the number of shares, and each share will be worth half as much. <p> They are not dividends. <!--SR:!2026-08-16,496,403!2026-09-21,526,396-->
-  - stock split / accounting ::@:: No journal entries required as there is no change in total par value, but needs notes disclosures. <!--SR:!2026-03-31,378,383!2029-07-19,1316,376-->
+  - stock split / accounting ::@:: No journal entries required as there is no change in total par value, but needs notes disclosures. <!--SR:!2031-09-03,1982,403!2029-07-19,1316,376-->
 - [preferred stock](../../../../general/preferred%20stock.md) ::@:: They have preference over common stocks in terms of dividend rights. They must receive dividends first before common stocks. They have no voting rights. They have a fixed dividend rate based on their par value. <!--SR:!2027-02-09,597,356!2026-10-07,541,403-->
   - preferred stock / cumulative ::@:: Any unpaid dividends from previous years (dividends in arrears) must be paid before common dividends are paid. <!--SR:!2031-08-04,1957,403!2026-09-03,512,403-->
   - preferred stock / non-cumulative ::@:: Any dividends not paid in previous years are lost permanently. <!--SR:!2030-12-03,1737,396!2026-08-27,507,403-->

@@ -44,7 +44,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 
 ### observer pattern example
 
-{@{A bank account}@} can expose {@{its balance and notify observers whenever the balance changes}@}. {@{The `deposit` and `withdraw` methods}@} update {@{the internal state and call `publish`}@}. <!--SR:!2026-04-09,67,310!2026-04-09,67,310!2026-03-31,58,310!2026-04-06,64,310-->
+{@{A bank account}@} can expose {@{its balance and notify observers whenever the balance changes}@}. {@{The `deposit` and `withdraw` methods}@} update {@{the internal state and call `publish`}@}. <!--SR:!2026-04-09,67,310!2026-04-09,67,310!2026-12-11,255,330!2026-04-06,64,310-->
 
 > [!example] __`BankAccount` publisher__
 >
@@ -60,7 +60,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 >     if a > 0 && a <= bal then { bal -= a; publish() } else throw Error()
 > }
 > ```
-<!--SR:!2026-04-09,67,310!2026-03-31,58,310!2026-11-21,240,330!2026-04-06,64,310-->
+<!--SR:!2026-04-09,67,310!2026-12-11,255,330!2026-11-21,240,330!2026-04-06,64,310-->
 
 {@{An observer that keeps the total of many bank accounts}@} can be written as {@{a single subscriber}@}. It registers {@{itself with every account}@}, computes {@{the sum on each notification and exposes it through `totalBalance`}@}. <!--SR:!2026-12-09,255,330!2026-04-08,66,310!2026-04-06,64,310!2026-04-09,67,310-->
 
@@ -83,7 +83,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 
 {@{The observer style}@} is {@{_imperative_}@}: handlers are {@{side-effecting and tightly couple views to model state}@}. They must be {@{registered manually}@}, and concurrency can introduce {@{subtle bugs when notifications arrive while an update is in progress}@}. <!--SR:!2026-04-04,62,310!2026-04-03,61,310!2026-04-04,62,310!2026-04-09,67,310!2026-04-07,65,310-->
 
-{@{A more compositional approach}@} treats {@{events as first-class values}@} and chains {@{them with combinators such as `map`, `filter` or `scan`}@}. This removes the need for {@{explicit subscription lists}@} and makes it easier to {@{reason about data flow}@}. <!--SR:!2026-04-03,61,310!2026-03-31,58,310!2026-04-03,61,310!2026-04-08,66,310!2026-04-09,67,310-->
+{@{A more compositional approach}@} treats {@{events as first-class values}@} and chains {@{them with combinators such as `map`, `filter` or `scan`}@}. This removes the need for {@{explicit subscription lists}@} and makes it easier to {@{reason about data flow}@}. <!--SR:!2026-04-03,61,310!2026-12-11,255,330!2026-04-03,61,310!2026-04-08,66,310!2026-04-09,67,310-->
 
 ## functional reactive programming
 
@@ -91,7 +91,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 
 ## signals
 
-FRP describes programs that react {@{to sequences of events or signals}@}. {@{A _signal_}@} represents {@{a value that can change over time}@}; it is modelled as {@{a function from time to a value}@}. Instead of {@{mutating state}@}, new signals are defined {@{in terms of existing ones}@}. For example, {@{the current mouse position}@} could be expressed as <!--SR:!2026-04-05,63,310!2026-11-30,247,330!2026-04-05,63,310!2026-03-31,58,310!2026-04-09,67,310!2026-04-04,62,310!2026-04-09,67,310-->
+FRP describes programs that react {@{to sequences of events or signals}@}. {@{A _signal_}@} represents {@{a value that can change over time}@}; it is modelled as {@{a function from time to a value}@}. Instead of {@{mutating state}@}, new signals are defined {@{in terms of existing ones}@}. For example, {@{the current mouse position}@} could be expressed as <!--SR:!2026-04-05,63,310!2026-11-30,247,330!2026-04-05,63,310!2026-12-11,255,330!2026-04-09,67,310!2026-04-04,62,310!2026-04-09,67,310-->
 
 > [!example] __mouse position signal__
 >
@@ -197,7 +197,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 
 ### signal implementation
 
-{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!2026-12-06,251,330!2026-04-09,67,310!2026-04-04,62,310!2026-04-03,61,310!2026-04-03,61,310!2026-04-06,64,310!2026-04-04,62,310!2026-03-31,58,310!2026-12-01,248,330-->
+{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!2026-12-06,251,330!2026-04-09,67,310!2026-04-04,62,310!2026-04-03,61,310!2026-04-03,61,310!2026-04-06,64,310!2026-04-04,62,310!2026-12-11,255,330!2026-12-01,248,330-->
 
 > [!example] __FRP interface__
 >
@@ -213,7 +213,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > }
 > ```
 >
-> Notice that {@{`T` in `Signal`}@} is {@{covariant while `T` in `Signal.Var` is invariant}@}, due to {@{their different mutability}@}. <!--SR:!2026-04-05,63,310!2026-04-09,67,310!2026-04-09,67,310!2026-04-06,64,310!2026-04-09,67,310!2026-04-07,65,310!2026-12-09,255,330!2026-03-31,58,310!2026-04-01,59,310!2026-04-07,65,310!2026-12-05,250,330!2026-04-03,61,310-->
+> Notice that {@{`T` in `Signal`}@} is {@{covariant while `T` in `Signal.Var` is invariant}@}, due to {@{their different mutability}@}. <!--SR:!2026-04-05,63,310!2026-04-09,67,310!2026-04-09,67,310!2026-04-06,64,310!2026-04-09,67,310!2026-04-07,65,310!2026-12-09,255,330!2026-12-11,255,330!2026-04-01,59,310!2026-04-07,65,310!2026-12-05,250,330!2026-04-03,61,310-->
 
 {@{`Signal`}@} constructs {@{a signal from an expression}@}. {@{A `Signal.Var`}@} keeps {@{the current expression and can be updated to a new one}@}. <!--SR:!2026-04-07,65,310!2026-04-09,67,310!2026-04-09,67,310!2026-12-04,249,330-->
 
@@ -255,7 +255,7 @@ When {@{a signal is read}@}, it registers {@{the calling signal as an observer}@
 >     }
 >     // ...
 > ```
-<!--SR:!2026-04-06,64,310!2026-04-06,64,310!2026-04-05,63,310!2026-03-31,58,310!2026-04-09,67,310!2026-12-06,251,330!2026-04-09,67,310-->
+<!--SR:!2026-04-06,64,310!2026-04-06,64,310!2026-04-05,63,310!2026-12-11,255,330!2026-04-09,67,310!2026-12-06,251,330!2026-04-09,67,310-->
 
 To know {@{on whose behalf a signal expression is evaluated}@}, each signal must record {@{the _caller_ that triggered its computation}@}. {@{The straightforward approach}@} is to thread {@{an explicit `Signal.Observer` argument through every call}@}: replace {@{`expr: () => T` with `expr: Signal.Observer => T`}@}. During evaluation, `s()` {@{would be rewritten as `s(caller)`}@}, where `caller` {@{denotes the signal that requested the value}@}. This technique {@{works but introduces a lot of boilerplate and is easy to misuse}@}. Scala solves it by treating {@{the caller as an _implicit_ using argument}@}. With {@{`def expr: (using Signal.Observer) => T`}@} (not {@{valid Scala syntax}@}) the compiler {@{automatically supplies the current observer}@}, making signal definitions look like {@{ordinary code while still wiring up dependencies}@}. <!--SR:!2026-12-09,255,330!2026-04-05,63,310!2026-04-09,67,310!2026-04-03,61,310!2026-04-04,62,310!2026-04-07,65,310!2026-04-09,67,310!2026-04-07,65,310!2026-04-08,66,310!2026-12-09,255,330!2026-04-08,66,310!2026-04-09,67,310!2026-04-01,59,310-->
 

@@ -18,7 +18,7 @@ tags:
 
 - see: [general/imperative programming](../../../../general/imperative%20programming.md)
 
-Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2026-03-31,66,310!2026-03-31,66,310!2027-01-07,283,330!2027-01-04,281,330!2026-11-08,239,330-->
+Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2027-01-11,286,330!2027-01-12,287,330!2027-01-07,283,330!2027-01-04,281,330!2026-11-08,239,330-->
 
 ## loops
 
@@ -114,7 +114,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 
 ## digital circuit example
 
-Scala can be used to {@{build a simple digital‑circuit simulator}@} that demonstrates how {@{mutable state and higher‑order functions interact in a discrete‑event setting}@}. <!--SR:!2026-12-10,260,330!2026-03-31,66,310-->
+Scala can be used to {@{build a simple digital‑circuit simulator}@} that demonstrates how {@{mutable state and higher‑order functions interact in a discrete‑event setting}@}. <!--SR:!2026-12-10,260,330!2027-01-15,290,330-->
 
 ### circuit description language
 
@@ -164,9 +164,9 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-11-28,251,330!2027-01-04,281,330!2026-11-14,244,330!2026-12-07,258,330-->
 
-{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2026-04-01,67,310!2026-11-13,242,330!2026-03-31,66,310!2026-12-06,257,330!2026-04-01,67,310!2026-12-12,262,330!2026-12-23,271,330!2026-03-31,66,310-->
+{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2026-04-01,67,310!2026-11-13,242,330!2027-01-15,290,330!2026-12-06,257,330!2026-04-01,67,310!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
 
-{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-12-28,275,330!2026-12-26,273,330!2026-03-31,66,310-->
+{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-12-28,275,330!2026-12-26,273,330!2027-01-13,288,330-->
 
 > [!example] __circuit probe__
 >

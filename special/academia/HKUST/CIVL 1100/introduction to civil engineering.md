@@ -401,7 +401,7 @@ Water Cube
 
 - _(begin)_→::@::←Beijing National Stadium <!--SR:!2030-10-22,1882,400!2028-09-25,1293,387-->
 - Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2028-06-07,1108,324!2026-12-13,761,370-->
-- Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
+- Burj Al Arab→::@::←Burj Khalifa <!--SR:!2030-06-14,1536,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2028-12-06,1264,340!2027-12-22,971,290-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2029-04-11,1247,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2029-06-05,1359,314!2027-04-10,766,325-->
@@ -846,7 +846,7 @@ Tsing Ma Bridge
 
 - _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2030-05-11,1550,318!2029-12-09,1648,397-->
 - Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2028-02-29,983,327!2029-05-15,1365,327-->
-- Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2028-07-19,1018,320!2026-03-31,447,300-->
+- Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2028-07-19,1018,320!2029-12-06,1346,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2031-07-08,2027,357!2026-04-03,502,340-->
 - Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2028-10-02,1199,327-->
 - Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2031-11-23,2180,350-->
@@ -1146,7 +1146,7 @@ and the Structural Engineering Institute (SEI).
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2028-03-28,1076,335!2028-02-27,1053,335-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2026-06-25,564,290!2029-06-13,1411,337-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2030-03-13,1567,314!2028-08-21,1183,336-->
-- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2031-02-05,1906,355-->
+- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2032-08-25,2339,357!2031-02-05,1906,355-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2032-03-02,2197,347!2028-08-26,1178,327-->
 - with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2028-07-29,1160,330-->
 - the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2026-06-04,602,357-->

@@ -38,7 +38,7 @@ For {@{a function _f_ of three or more variables}@}, there is {@{a generalizatio
 
 1. If the Hessian is [positive definite](positive-definite%20matrix.md) \(equivalently, has all eigenvalues positive\) at _a_, ::@:: then _f_ attains a local minimum at _a_. <!--SR:!2029-09-26,1286,350!2029-01-29,1095,350-->
 2. If the Hessian is negative definite \(equivalently, has all eigenvalues negative\) at _a_, ::@:: then _f_ attains a local maximum at _a_. <!--SR:!2029-03-04,1125,350!2027-12-20,764,330-->
-3. If the Hessian has both positive and negative eigenvalues ::@:: then _a_ is a saddle point for _f_ \(and in fact this is true even if _a_ is degenerate\). <!--SR:!2026-03-31,291,330!2029-03-03,1123,350-->
+3. If the Hessian has both positive and negative eigenvalues ::@:: then _a_ is a saddle point for _f_ \(and in fact this is true even if _a_ is degenerate\). <!--SR:!2029-11-20,1330,350!2029-03-03,1123,350-->
 
 In {@{those cases not listed above \(annotation: e.g. the Hessian matrix is not invertible\)}@}, {@{the test is inconclusive}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-07-01,1214,350!2029-03-06,1127,350-->
 

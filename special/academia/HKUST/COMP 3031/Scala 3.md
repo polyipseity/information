@@ -1008,7 +1008,7 @@ For-expressions also support {@{pattern matching in _generator_ positions}@}. Th
 >
 > {@{The resulting sequence}@} contains {@{phone numbers beginning with the country code `"852"`}@}. <!--SR:!2026-04-04,134,420!2026-04-12,141,420!2026-04-24,152,429!2026-05-02,159,429-->
 
-Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2026-04-26,153,429!2026-03-31,126,400!2026-05-06,163,440-->
+Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2026-04-26,153,429!2028-02-18,689,420!2026-05-06,163,440-->
 
 {@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}. <!--SR:!2026-05-01,158,429!2026-04-21,149,429!2026-04-04,134,415!2026-04-07,137,420!2026-05-01,158,429-->
 
