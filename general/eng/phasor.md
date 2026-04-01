@@ -54,7 +54,7 @@ Glossing over {@{some mathematical details}@}, {@{the phasor transform}@} can al
 {@{Multiplication and division of complex numbers}@} become {@{straight forward through the phasor notation}@}. Given {@{the vectors $v_{1}=A_{1}\angle \theta _{1}$ and $v_{2}=A_{2}\angle \theta _{2}$}@}, the following is true:<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-06-18,246,330!2026-06-25,251,330!2026-06-11,240,330-->
 
 - \(annotation: multiplication using phasor notation\) ::@:: $v_{1}\cdot v_{2}=A_{1}\cdot A_{2}\angle (\theta _{1}+\theta _{2})$, <!--SR:!2026-07-30,278,330!2026-07-10,263,330-->
-- \(annotation: division using phasor notation\) ::@:: ${\frac {v_{1} }{v_{2} } }={\frac {A_{1} }{A_{2} } }\angle (\theta _{1}-\theta _{2})$. <!--SR:!2026-04-01,170,310!2026-04-01,170,310-->
+- \(annotation: division using phasor notation\) ::@:: ${\frac {v_{1} }{v_{2} } }={\frac {A_{1} }{A_{2} } }\angle (\theta _{1}-\theta _{2})$. <!--SR:!2028-03-28,727,330!2028-03-27,726,330-->
 
 ## definition
 

@@ -55,7 +55,7 @@ tags:
 > What is the utilization level of the system?
 >
 > - solution: {@{0.375}@}
-> - explanation: {@{15/\(20\*2\) = 0.375. Alternatively, 0.75/2 = 0.375.}@} <!--SR:!2026-04-01,273,330!2029-08-20,1238,350-->
+> - explanation: {@{15/\(20\*2\) = 0.375. Alternatively, 0.75/2 = 0.375.}@} <!--SR:!2029-09-01,1249,350!2029-08-20,1238,350-->
 
 <!-- markdownlint MD028 -->
 

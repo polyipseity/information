@@ -375,7 +375,7 @@ In linear analysis, {@{the components of the network are assumed to be unchangin
 
 - See also: ::@:: [Spintronics](spintronics.md) <!--SR:!2026-04-06,298,349!2029-01-22,1092,350-->
 
-{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-07-18,386,360!2026-07-22,388,360!2028-02-03,803,330!2029-08-15,1256,350!2029-01-23,1093,350!2026-04-01,293,330-->
+{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-07-18,386,360!2026-07-22,388,360!2028-02-03,803,330!2029-08-15,1256,350!2029-01-23,1093,350!2029-11-30,1339,350-->
 
 ## see also
 

@@ -149,7 +149,7 @@ __Tangent and cotangent bundles__
 <!-- markdownlint-disable-next-line MD036 -->
 __Group actions/representations__
 
-&emsp; {@{Every [group](group%20(mathematics).md) _G_}@} can be {@{considered as a category with a single object whose morphisms are the elements of _G_}@}. {@{A functor from _G_ to __Set__}@} is then {@{nothing but a [group action](group%20action%20(mathematics).md) of _G_ on a particular set, i.e. a _G_-set}@}. Likewise, {@{a functor from _G_ to the [category of vector spaces](category%20of%20vector%20spaces.md), __Vect__<sub>_K_</sub>}@}, is {@{a [linear representation](linear%20representation.md) of _G_}@}. In general, {@{a functor _G_ → _C_}@} can be considered as {@{an "action" of _G_ on an object in the category _C_}@}. If {@{_C_ is a group}@}, then {@{this action is a group homomorphism}@}. <!--SR:!2030-12-12,1719,377!2028-08-19,947,330!2026-04-01,354,357!2030-11-14,1698,377!2030-03-18,1493,366!2030-05-19,1542,366!2029-09-24,1340,350!2027-02-28,596,337!2029-03-15,1114,346!2030-10-11,1671,377-->
+&emsp; {@{Every [group](group%20(mathematics).md) _G_}@} can be {@{considered as a category with a single object whose morphisms are the elements of _G_}@}. {@{A functor from _G_ to __Set__}@} is then {@{nothing but a [group action](group%20action%20(mathematics).md) of _G_ on a particular set, i.e. a _G_-set}@}. Likewise, {@{a functor from _G_ to the [category of vector spaces](category%20of%20vector%20spaces.md), __Vect__<sub>_K_</sub>}@}, is {@{a [linear representation](linear%20representation.md) of _G_}@}. In general, {@{a functor _G_ → _C_}@} can be considered as {@{an "action" of _G_ on an object in the category _C_}@}. If {@{_C_ is a group}@}, then {@{this action is a group homomorphism}@}. <!--SR:!2030-12-12,1719,377!2028-08-19,947,330!2031-01-05,1740,377!2030-11-14,1698,377!2030-03-18,1493,366!2030-05-19,1542,366!2029-09-24,1340,350!2027-02-28,596,337!2029-03-15,1114,346!2030-10-11,1671,377-->
 
 __Lie algebras__ <p> ::@:: &emsp; Assigning to every real \(complex\) [Lie group](Lie%20group.md) its real \(complex\) [Lie algebra](Lie%20algebra.md) defines a functor. <!--SR:!2027-02-04,553,310!2026-11-03,469,317-->
 
@@ -173,7 +173,7 @@ __Homomorphism groups__
 <!-- markdownlint-disable-next-line MD036 -->
 __Representable functors__
 
-&emsp; We can {@{generalize the previous example to any category _C_}@}. To {@{every pair _X_, _Y_ of objects in _C_}@} one can {@{assign the set Hom\(_X_, _Y_\) of morphisms from _X_ to _Y_}@}. This defines {@{a functor to __Set__ which is contravariant in the first argument and covariant in the second, i.e. it is a functor _C_<sup>op</sup> × _C_ → __Set__}@}. If {@{_f_ : _X_<sub>1</sub> → _X_<sub>2</sub> and _g_ : _Y_<sub>1</sub> → _Y_<sub>2</sub> are morphisms in _C_}@}, then {@{the map Hom\(_f_, _g_\) : Hom\(_X_<sub>2</sub>, _Y_<sub>1</sub>\) → Hom\(_X_<sub>1</sub>, _Y_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_}@}. <!--SR:!2030-10-13,1672,377!2026-04-01,354,357!2026-04-08,360,357!2029-09-27,1343,350!2029-09-27,1343,350!2026-04-04,356,357!2030-06-01,1553,366-->
+&emsp; We can {@{generalize the previous example to any category _C_}@}. To {@{every pair _X_, _Y_ of objects in _C_}@} one can {@{assign the set Hom\(_X_, _Y_\) of morphisms from _X_ to _Y_}@}. This defines {@{a functor to __Set__ which is contravariant in the first argument and covariant in the second, i.e. it is a functor _C_<sup>op</sup> × _C_ → __Set__}@}. If {@{_f_ : _X_<sub>1</sub> → _X_<sub>2</sub> and _g_ : _Y_<sub>1</sub> → _Y_<sub>2</sub> are morphisms in _C_}@}, then {@{the map Hom\(_f_, _g_\) : Hom\(_X_<sub>2</sub>, _Y_<sub>1</sub>\) → Hom\(_X_<sub>1</sub>, _Y_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_}@}. <!--SR:!2030-10-13,1672,377!2031-01-02,1737,377!2026-04-08,360,357!2029-09-27,1343,350!2029-09-27,1343,350!2026-04-04,356,357!2030-06-01,1553,366-->
 
 &emsp; Functors like these are called {@{[representable functors](representable%20functor.md)}@}. {@{An important goal in many settings}@} is to {@{determine whether a given functor is representable}@}. <!--SR:!2026-04-09,360,357!2030-04-08,1510,366!2030-10-15,1674,377-->
 
@@ -183,7 +183,7 @@ Let {@{_C_ and _D_ be categories}@}. {@{The collection of all functors from _C_ 
 
 Functors are often {@{defined by [universal properties](universal%20property.md)}@}; examples are {@{the [tensor product](tensor%20product.md), the [direct sum](direct%20sum%20of%20modules.md) and [direct product](direct%20product.md) of groups or vector spaces}@}, {@{construction of free groups and modules, [direct](direct%20limit.md) and [inverse](inverse%20limit.md) limits}@}. {@{The concepts of [limit and colimit](limit%20(category%20theory).md)}@} {@{generalize several of the above}@}. <!--SR:!2030-12-31,1736,377!2027-11-12,784,337!2026-07-28,419,317!2030-10-23,1680,377!2030-05-27,1549,366-->
 
-{@{Universal constructions}@} often {@{give rise to pairs of [adjoint functors](adjoint%20functors.md)}@}. <!--SR:!2026-04-01,354,357!2030-11-30,1710,377-->
+{@{Universal constructions}@} often {@{give rise to pairs of [adjoint functors](adjoint%20functors.md)}@}. <!--SR:!2031-01-06,1741,377!2030-11-30,1710,377-->
 
 ## computer implementations
 

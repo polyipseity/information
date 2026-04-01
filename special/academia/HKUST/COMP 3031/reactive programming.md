@@ -77,7 +77,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 >   def totalBalance: Int = total
 > }
 > ```
-<!--SR:!2026-04-09,67,310!2026-04-06,64,310!2026-04-06,64,310!2026-04-01,59,310-->
+<!--SR:!2026-04-09,67,310!2026-04-06,64,310!2026-04-06,64,310!2026-12-13,256,330-->
 
 ### shortcomings of the observer pattern
 
@@ -123,7 +123,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > v.update(5)            // now v() == 5
 > ```
 >
-> {@{The syntax `v() = 5`}@} is {@{syntactic sugar for `v.update(5)`}@}. <!--SR:!2026-04-09,67,310!2026-04-01,59,310!2026-12-05,251,330!2026-04-02,60,310!2026-04-09,67,310-->
+> {@{The syntax `v() = 5`}@} is {@{syntactic sugar for `v.update(5)`}@}. <!--SR:!2026-04-09,67,310!2026-12-16,259,330!2026-12-05,251,330!2026-04-02,60,310!2026-04-09,67,310-->
 
 {@{Signals can be combined}@} to yield {@{new signals}@}: <!--SR:!2026-04-07,65,310!2026-04-08,66,310-->
 
@@ -173,7 +173,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 
 ### signal reassignment
 
-{@{Updating a signal}@} must go through {@{the `Signal` object}@} rather than {@{reassigning to the `Signal` variable}@}. <!--SR:!2026-04-08,66,310!2026-04-09,67,310!2026-04-01,59,310-->
+{@{Updating a signal}@} must go through {@{the `Signal` object}@} rather than {@{reassigning to the `Signal` variable}@}. <!--SR:!2026-04-08,66,310!2026-04-09,67,310!2026-12-14,257,330-->
 
 > [!example] __signal reassignment__
 >
@@ -213,7 +213,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > }
 > ```
 >
-> Notice that {@{`T` in `Signal`}@} is {@{covariant while `T` in `Signal.Var` is invariant}@}, due to {@{their different mutability}@}. <!--SR:!2026-04-05,63,310!2026-04-09,67,310!2026-04-09,67,310!2026-04-06,64,310!2026-04-09,67,310!2026-04-07,65,310!2026-12-09,255,330!2026-12-11,255,330!2026-04-01,59,310!2026-04-07,65,310!2026-12-05,250,330!2026-04-03,61,310-->
+> Notice that {@{`T` in `Signal`}@} is {@{covariant while `T` in `Signal.Var` is invariant}@}, due to {@{their different mutability}@}. <!--SR:!2026-04-05,63,310!2026-04-09,67,310!2026-04-09,67,310!2026-04-06,64,310!2026-04-09,67,310!2026-04-07,65,310!2026-12-09,255,330!2026-12-11,255,330!2026-12-15,258,330!2026-04-07,65,310!2026-12-05,250,330!2026-04-03,61,310-->
 
 {@{`Signal`}@} constructs {@{a signal from an expression}@}. {@{A `Signal.Var`}@} keeps {@{the current expression and can be updated to a new one}@}. <!--SR:!2026-04-07,65,310!2026-04-09,67,310!2026-04-09,67,310!2026-12-04,249,330-->
 
@@ -257,7 +257,7 @@ When {@{a signal is read}@}, it registers {@{the calling signal as an observer}@
 > ```
 <!--SR:!2026-04-06,64,310!2026-04-06,64,310!2026-04-05,63,310!2026-12-11,255,330!2026-04-09,67,310!2026-12-06,251,330!2026-04-09,67,310-->
 
-To know {@{on whose behalf a signal expression is evaluated}@}, each signal must record {@{the _caller_ that triggered its computation}@}. {@{The straightforward approach}@} is to thread {@{an explicit `Signal.Observer` argument through every call}@}: replace {@{`expr: () => T` with `expr: Signal.Observer => T`}@}. During evaluation, `s()` {@{would be rewritten as `s(caller)`}@}, where `caller` {@{denotes the signal that requested the value}@}. This technique {@{works but introduces a lot of boilerplate and is easy to misuse}@}. Scala solves it by treating {@{the caller as an _implicit_ using argument}@}. With {@{`def expr: (using Signal.Observer) => T`}@} (not {@{valid Scala syntax}@}) the compiler {@{automatically supplies the current observer}@}, making signal definitions look like {@{ordinary code while still wiring up dependencies}@}. <!--SR:!2026-12-09,255,330!2026-04-05,63,310!2026-04-09,67,310!2026-04-03,61,310!2026-04-04,62,310!2026-04-07,65,310!2026-04-09,67,310!2026-04-07,65,310!2026-04-08,66,310!2026-12-09,255,330!2026-04-08,66,310!2026-04-09,67,310!2026-04-01,59,310-->
+To know {@{on whose behalf a signal expression is evaluated}@}, each signal must record {@{the _caller_ that triggered its computation}@}. {@{The straightforward approach}@} is to thread {@{an explicit `Signal.Observer` argument through every call}@}: replace {@{`expr: () => T` with `expr: Signal.Observer => T`}@}. During evaluation, `s()` {@{would be rewritten as `s(caller)`}@}, where `caller` {@{denotes the signal that requested the value}@}. This technique {@{works but introduces a lot of boilerplate and is easy to misuse}@}. Scala solves it by treating {@{the caller as an _implicit_ using argument}@}. With {@{`def expr: (using Signal.Observer) => T`}@} (not {@{valid Scala syntax}@}) the compiler {@{automatically supplies the current observer}@}, making signal definitions look like {@{ordinary code while still wiring up dependencies}@}. <!--SR:!2026-12-09,255,330!2026-04-05,63,310!2026-04-09,67,310!2026-04-03,61,310!2026-04-04,62,310!2026-04-07,65,310!2026-04-09,67,310!2026-04-07,65,310!2026-04-08,66,310!2026-12-09,255,330!2026-04-08,66,310!2026-04-09,67,310!2026-12-16,259,330-->
 
 > [!example] __implicit caller injection__
 >
@@ -287,4 +287,4 @@ To know {@{on whose behalf a signal expression is evaluated}@}, each signal must
 >   override def computeValue() = ()
 > }
 > ```
-<!--SR:!2026-12-02,247,330!2026-04-01,59,310!2026-04-09,67,310!2026-04-05,63,310-->
+<!--SR:!2026-12-02,247,330!2026-12-16,259,330!2026-04-09,67,310!2026-04-05,63,310-->

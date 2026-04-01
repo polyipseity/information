@@ -54,7 +54,7 @@ tags:
 > // → 9
 > ```
 >
-> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!2026-11-22,245,330!2026-11-29,251,330!2026-04-01,60,310!2026-11-12,237,330!2026-12-04,255,330-->
+> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!2026-11-22,245,330!2026-11-29,251,330!2026-12-20,263,330!2026-11-12,237,330!2026-12-04,255,330-->
 
 ## statefulness
 
@@ -90,7 +90,7 @@ tags:
 > ```
 <!--SR:!2026-11-19,242,330!2026-11-15,239,330-->
 
-{@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-04-01,60,310!2026-04-02,61,310!2026-04-02,61,310-->
+{@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-04-02,61,310!2026-04-02,61,310-->
 
 Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-04-03,62,310!2026-11-14,238,330!2026-12-10,255,330!2026-11-14,238,330!2026-11-29,251,330-->
 
@@ -107,7 +107,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 >       case None =>
 >         tlOpt = Some(tl); tail
 > ```
-<!--SR:!2026-11-17,241,330!2026-04-01,60,310!2026-12-10,255,330-->
+<!--SR:!2026-11-17,241,330!2026-12-20,263,330!2026-12-10,255,330-->
 
 ## `var`
 
@@ -125,7 +125,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 
 ## operational equivalence
 
-{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-04-01,60,310!2026-11-12,237,330!2026-12-15,259,330!2026-04-03,62,310!2026-11-12,237,330!2026-11-16,240,330-->
+{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-12-17,260,330!2026-11-12,237,330!2026-12-15,259,330!2026-04-03,62,310!2026-11-12,237,330!2026-11-16,240,330-->
 
 {@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-12-14,258,330!2026-12-15,259,330!2026-11-14,238,330!2026-04-04,63,310!2026-11-13,237,330!2026-11-15,239,330-->
 
@@ -140,7 +140,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > // S':  x.deposit(30); x.withdraw(20)
 > ```
 >
-> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!2026-11-11,236,330!2026-04-01,60,310!2026-04-04,63,310!2026-04-01,60,310!2026-11-29,251,330-->
+> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!2026-11-11,236,330!2026-12-19,262,330!2026-04-04,63,310!2026-12-16,259,330!2026-11-29,251,330-->
 
 {@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!2026-11-13,237,330!2026-11-13,237,330!2026-11-16,240,330!2026-11-12,237,330-->
 
@@ -153,6 +153,6 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > val y = x          // y refers to the same account
 > // Substituting y with BankAccount() would change the program
 > ```
-<!--SR:!2026-04-03,62,310!2026-11-11,236,330!2026-04-01,60,310!2026-11-11,236,330-->
+<!--SR:!2026-04-03,62,310!2026-11-11,236,330!2026-12-20,263,330!2026-11-11,236,330-->
 
 {@{A model more robust than the substitution model}@} introduces {@{a store that tracks mutable objects}@}, but this adds {@{considerable complexity}@}. <!--SR:!2026-11-22,245,330!2026-04-02,61,310!2026-04-02,61,310-->

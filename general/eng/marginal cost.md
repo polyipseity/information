@@ -76,7 +76,7 @@ While {@{[neoclassical](neoclassical%20economics.md) models}@} {@{broadly assume
 
 ## decisions taken based on marginal costs
 
-In {@{perfectly competitive markets}@}, firms decide {@{the quantity to be produced based on marginal costs and sale price}@}. If {@{the sale price is higher than the marginal cost}@}, then they {@{produce the unit and supply it}@}. If {@{the marginal cost is higher than the price, it would not be profitable to produce it}@}. So {@{the production will be carried out until the marginal cost is equal to the sale price}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-04-01,338,352!2028-11-26,1074,352!2028-09-07,948,334!2030-05-08,1528,372!2029-04-20,1194,354!2026-07-15,131,410-->
+In {@{perfectly competitive markets}@}, firms decide {@{the quantity to be produced based on marginal costs and sale price}@}. If {@{the sale price is higher than the marginal cost}@}, then they {@{produce the unit and supply it}@}. If {@{the marginal cost is higher than the price, it would not be profitable to produce it}@}. So {@{the production will be carried out until the marginal cost is equal to the sale price}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2030-09-23,1636,372!2028-11-26,1074,352!2028-09-07,948,334!2030-05-08,1528,372!2029-04-20,1194,354!2026-07-15,131,410-->
 
 ## relationship to fixed costs
 
@@ -120,7 +120,7 @@ Such production creates {@{a social cost curve that is below the private cost cu
 >
 > {@{Relationship between marginal cost and average total cost}@} <!--SR:!2030-07-23,1585,372!2027-09-05,684,332-->
 
-Say {@{the starting point of level of output produced is n}@}. {@{Marginal cost}@} is {@{the change of the total cost from an additional output \[\(n+1\)th unit\]}@}. Therefore, \(refer to "Average cost" labelled picture on the right side of the screen)... (annotation: $$AC_n = \frac {TC_n} {Q_n}$$ and the AC at the level $Q_{n + 1}$ is $$AC_{n + 1} = \frac {TC_{n + 1} } {Q_{n + 1} } \,.$$ Clearly, $$TC_{n + 1} = TC_n + MC \,.$$) <!--SR:!2030-01-21,1442,372!2026-04-01,338,352!2030-08-10,1603,372-->
+Say {@{the starting point of level of output produced is n}@}. {@{Marginal cost}@} is {@{the change of the total cost from an additional output \[\(n+1\)th unit\]}@}. Therefore, \(refer to "Average cost" labelled picture on the right side of the screen)... (annotation: $$AC_n = \frac {TC_n} {Q_n}$$ and the AC at the level $Q_{n + 1}$ is $$AC_{n + 1} = \frac {TC_{n + 1} } {Q_{n + 1} } \,.$$ Clearly, $$TC_{n + 1} = TC_n + MC \,.$$) <!--SR:!2030-01-21,1442,372!2030-09-29,1642,372!2030-08-10,1603,372-->
 
 > ![Average cost](../../archives/Wikimedia%20Commons/Average%20cost%2C%20total%20cost%20and%20marginal%20cost.png)
 >

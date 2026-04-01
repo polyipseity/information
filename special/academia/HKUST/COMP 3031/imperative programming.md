@@ -22,7 +22,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ## loops
 
-{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!2026-10-27,228,330!2026-04-01,67,310!2027-01-05,281,330-->
+{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!2026-10-27,228,330!2027-01-16,290,330!2027-01-05,281,330-->
 
 > [!example] __Scala `while` loop__
 >
@@ -96,7 +96,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 > ```Scala
 > for i <- 1 until 3 do println(i)
 > ```
-<!--SR:!2026-12-07,258,330!2026-04-01,67,310!2026-12-02,254,330-->
+<!--SR:!2026-12-07,258,330!2027-01-18,292,330!2026-12-02,254,330-->
 
 {@{The translation of nested Java-style loops}@} is also {@{straightforward using nested `for`}@}: <!--SR:!2026-11-27,255,330!2026-12-03,255,330-->
 
@@ -118,7 +118,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### circuit description language
 
-{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-11-15,244,330!2026-12-18,267,330!2026-12-03,255,330!2026-12-08,259,330!2026-10-31,231,330!2026-04-01,67,310-->
+{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-11-15,244,330!2026-12-18,267,330!2026-12-03,255,330!2026-12-08,259,330!2026-10-31,231,330!2027-01-19,293,330-->
 
 > [!example] __basic gates__
 >
@@ -164,7 +164,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-11-28,251,330!2027-01-04,281,330!2026-11-14,244,330!2026-12-07,258,330-->
 
-{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2026-04-01,67,310!2026-11-13,242,330!2027-01-15,290,330!2026-12-06,257,330!2026-04-01,67,310!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
+{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!2026-11-13,242,330!2027-01-15,290,330!2026-12-06,257,330!2027-01-16,290,330!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
 
 {@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-12-28,275,330!2026-12-26,273,330!2027-01-13,288,330-->
 
@@ -180,4 +180,4 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-11-04,236,330!2027-01-06,282,330!2026-11-03,235,330!2026-11-16,246,330-->
 
-By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2026-04-01,67,310!2026-11-12,242,330!2026-11-28,251,330-->
+By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2027-01-17,291,330!2026-11-12,242,330!2026-11-28,251,330-->

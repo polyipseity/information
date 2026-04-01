@@ -29,7 +29,7 @@ In {@{TEMs}@}, {@{high energy \(40 to 400 keV\) [electrons](electron.md)}@} pass
 
 ### scanning probe
 
-- see: ::@:: [scanning probe microscopy](scanning%20probe%20microscopy.md) <!--SR:!2026-04-01,87,361!2026-04-01,87,361-->
+- see: ::@:: [scanning probe microscopy](scanning%20probe%20microscopy.md) <!--SR:!2027-06-13,438,381!2027-06-12,437,381-->
 
 There are {@{many types of scanning probe microscopes}@}. {@{The three main types}@} are {@{[atomic force microscopes](atomic%20force%20microscope.md) (AFMs)}@}, {@{[near-field scanning optical microscopes](near-field%20scanning%20optical%20microscope.md) (NSOMs or SNOMs, scanning near-field optical microscopes)}@}, and {@{[scanning tunneling microscopes](scanning%20tunneling%20microscope.md) (STMs)}@}. <!--SR:!2028-07-18,959,230!2027-06-07,433,381!2027-06-05,431,381!2026-12-07,278,361!2027-06-04,430,381-->
 

@@ -184,7 +184,7 @@ The content is in teaching order.
 - modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2032-12-26,2518,401-->
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2029-08-19,1494,381!2032-10-19,2466,401-->
   - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2032-04-15,2315,401!2029-02-05,1345,381-->
-  - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2030-09-26,1856,401!2026-04-01,514,361-->
+  - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2030-09-26,1856,401!2033-03-17,2542,381-->
 - Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2032-06-23,2355,401!2029-06-14,1441,381-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2029-07-21,1488,381!2029-08-07,1500,381-->

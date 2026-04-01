@@ -32,11 +32,11 @@ tags:
 # initial and terminal objects
 
 - "{@{Zero object}@}" redirects here. For {@{zero object in an algebraic structure}@}, see {@{[zero object \(algebra\)](zero%20object%20(algebra).md)}@}.
-- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2026-04-01,348,352!2030-01-01,1420,357!2029-10-13,1357,357!2028-04-04,892,337!2030-10-21,1668,372!2026-05-20,389,359-->
+- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2030-11-10,1684,372!2030-01-01,1420,357!2029-10-13,1357,357!2028-04-04,892,337!2030-10-21,1668,372!2026-05-20,389,359-->
 
 In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2029-08-18,1312,357!2029-05-04,1230,357!2029-12-15,1406,357-->
 
-{@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2029-06-07,1243,357!2026-04-01,348,352!2029-10-03,1340,350!2029-10-12,1356,357!2029-08-13,1310,357-->
+{@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2029-06-07,1243,357!2030-11-09,1683,372!2029-10-03,1340,350!2029-10-12,1356,357!2029-08-13,1310,357-->
 
 If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2029-12-23,1413,357!2028-01-02,821,337!2027-12-21,812,337!2026-04-17,362,357-->
 

@@ -119,7 +119,7 @@ If {@{$n\geq 2$ (annotation: notice if $n < 2$ then the latter condition is unsa
 
 For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2026-10-16,535,310!2026-04-23,72,150-->
 
-If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2027-12-01,688,270!2026-04-01,314,250-->
+If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2027-12-01,688,270!2026-09-03,155,230-->
 
 {@{A uniformly valid approximation}@} also exists: for {@{all _k_ such that 1 < _k_ < _n_}@}, one has $$\left\{ {n \atop k}\right\}\sim {\sqrt {\frac {v-1}{v(1-G)} } }\left({\frac {v-1}{v-G} }\right)^{n-k}{\frac {k^{n} }{n^{k} } }e^{k(1-G)}\left({n \atop k}\right),$$ where {@{$v=n/k$, and $G\in (0,1)$ is the unique solution to $G=ve^{G-v}$}@}.<sup>[\[14\]](#^ref-14)</sup> Relative error is {@{bounded by about $0.066/n$}@}. <!--SR:!2027-10-02,812,330!2029-09-13,1385,350!2027-07-29,527,250!2026-08-06,439,270-->
 
@@ -151,7 +151,7 @@ Let the random variable _X_ be {@{the number of fixed points of a [uniformly dis
 
 ### associated Stirling numbers of the second kind
 
-{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2027-10-12,687,290!2026-04-01,284,270!2028-09-22,1020,330!2028-04-28,767,250!2026-12-06,561,310-->
+{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2027-10-12,687,290!2028-05-09,769,270!2028-09-22,1020,330!2028-04-28,767,250!2026-12-06,561,310-->
 
 {@{The 2-associated numbers}@} (sequence {@{[A008299](https://oeis.org/A008299)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) appear elsewhere as {@{"Ward numbers" and as the magnitudes of the coefficients of [Mahler polynomials](Mahler%20polynomial.md)}@}. <!--SR:!2026-12-23,576,310!2026-08-23,424,270!2026-12-09,453,270-->
 

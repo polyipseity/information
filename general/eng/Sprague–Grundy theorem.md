@@ -129,7 +129,7 @@ Consider {@{a position $G=\{G_{1},G_{2},\ldots ,G_{k}\}$}@}. By {@{the [inductio
 
 The first thing we need to note is that {@{$G\approx G'$, by way of the second lemma}@}. If {@{$k$ is zero}@}, {@{the claim is trivially true}@}. Otherwise, {@{consider $G+G'$}@}. If {@{the next player makes a move to $G_{i}$ in $G$}@}, then {@{the previous player can move to $*n_{i}$ in $G'$}@}, and {@{conversely if the next player makes a move in $G'$}@}. After this, {@{the position is a ${\mathcal {P} }$-position by the lemma's forward implication \(annotation: because $G_i \approx *n_i$\)}@}. Therefore, {@{$G+G'$ is a ${\mathcal {P} }$-position}@}, and, {@{citing the lemma's reverse implication}@}, {@{$G\approx G'$}@}. <!--SR:!2029-03-12,1199,350!2029-02-11,1174,350!2029-07-29,1302,350!2027-04-10,543,270!2027-01-04,509,270!2028-09-01,1047,350!2026-06-09,397,310!2027-06-05,488,406!2027-06-11,493,406!2027-06-08,490,406!2027-07-05,513,406-->
 
-Now let us show that {@{$G'+*m$ is a ${\mathcal {P} }$-position}@}, which, {@{using the second lemma once again, means that $G'\approx *m$}@}. We do so by {@{giving an explicit strategy for the previous player}@}. <!--SR:!2029-04-10,1222,350!2026-04-01,335,290!2027-01-27,564,310-->
+Now let us show that {@{$G'+*m$ is a ${\mathcal {P} }$-position}@}, which, {@{using the second lemma once again, means that $G'\approx *m$}@}. We do so by {@{giving an explicit strategy for the previous player}@}. <!--SR:!2029-04-10,1222,350!2029-12-18,1357,310!2027-01-27,564,310-->
 
 Suppose that {@{$G'$ and $*m$ are empty}@}. Then {@{$G'+*m$ is the null set}@}, {@{clearly a ${\mathcal {P} }$-position}@}. <!--SR:!2029-05-14,1249,350!2028-12-29,1143,350!2027-05-29,480,406-->
 

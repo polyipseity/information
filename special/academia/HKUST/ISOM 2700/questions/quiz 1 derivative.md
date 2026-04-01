@@ -130,7 +130,7 @@ tags:
 > In a process, the average flow time is 30 minutes, and the average work-in-process inventory is 7 units. What is its cycle time?
 >
 > - solution: {@{1/14&nbsp;hours}@}
-> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours.}@} <!--SR:!2026-04-01,273,330!2026-04-15,285,330-->
+> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours.}@} <!--SR:!2029-08-28,1245,350!2026-04-15,285,330-->
 
 <!-- markdownlint MD028 -->
 
