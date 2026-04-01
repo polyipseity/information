@@ -86,7 +86,7 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 
 {@{Two important consequences}@} of the functor [axioms](axiom.md) are: <!--SR:!2030-04-20,1519,366-->
 
-- (annotation: commutative diagram) ::@:: _F_ transforms each [commutative diagram](commutative%20diagram.md) in _C_ into a commutative diagram in _D_; <!--SR:!2030-11-05,1691,377!2026-04-02,355,357-->
+- (annotation: commutative diagram) ::@:: _F_ transforms each [commutative diagram](commutative%20diagram.md) in _C_ into a commutative diagram in _D_; <!--SR:!2030-11-05,1691,377!2031-01-07,1741,377-->
 - (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!2026-11-04,461,337!2029-09-26,1342,350-->
 
 One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{_G_ is a functor from _B_ to _C_ then one can form the composite functor _G_ ∘ _F_ from _A_ to _C_}@}. {@{Composition of functors}@} is {@{associative where defined}@}. {@{Identity of composition of functors}@} is {@{the identity functor}@}. This shows that {@{functors can be considered as morphisms in categories of categories}@}, for example in {@{the [category of small categories](category%20of%20small%20categories.md)}@}. <!--SR:!2030-11-13,1696,377!2030-12-01,1711,377!2030-03-30,1502,366!2026-04-11,362,357!2029-08-13,1306,350!2030-05-08,1534,366!2030-09-27,1660,377!2030-12-13,1720,377-->
@@ -158,7 +158,7 @@ __Tensor products__ <p> ::@:: &emsp; If _C_ denotes the category of vector space
 <!-- markdownlint-disable-next-line MD036 -->
 __Forgetful functors__
 
-&emsp; {@{The functor _U_ : __Grp__ → __Set__}@} which {@{maps a [group](group%20(mathematics).md) to its underlying set and a [group homomorphism](group%20homomorphism.md) to its underlying function of sets is a functor}@}.<sup>[\[9\]](#^ref-9)</sup> {@{Functors like these, which "forget" some structure}@}, are termed {@{_[forgetful functors](forgetful%20functor.md)_}@}. Another example is {@{the functor __Rng__ → __Ab__ which maps a [ring](ring%20(algebra).md) to its underlying additive [abelian group](abelian%20group.md)}@}. {@{Morphisms in __Rng__ \([ring homomorphisms](ring%20homomorphism.md)\)}@} become {@{morphisms in __Ab__ \(abelian group homomorphisms\)}@}. <!--SR:!2030-12-09,1717,377!2027-10-28,774,337!2029-09-29,1345,350!2026-04-02,355,357!2026-06-20,367,306!2026-04-05,357,357!2026-04-12,363,357-->
+&emsp; {@{The functor _U_ : __Grp__ → __Set__}@} which {@{maps a [group](group%20(mathematics).md) to its underlying set and a [group homomorphism](group%20homomorphism.md) to its underlying function of sets is a functor}@}.<sup>[\[9\]](#^ref-9)</sup> {@{Functors like these, which "forget" some structure}@}, are termed {@{_[forgetful functors](forgetful%20functor.md)_}@}. Another example is {@{the functor __Rng__ → __Ab__ which maps a [ring](ring%20(algebra).md) to its underlying additive [abelian group](abelian%20group.md)}@}. {@{Morphisms in __Rng__ \([ring homomorphisms](ring%20homomorphism.md)\)}@} become {@{morphisms in __Ab__ \(abelian group homomorphisms\)}@}. <!--SR:!2030-12-09,1717,377!2027-10-28,774,337!2029-09-29,1345,350!2031-01-09,1743,377!2026-06-20,367,306!2026-04-05,357,357!2026-04-12,363,357-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Free functors__
@@ -189,7 +189,7 @@ Functors are often {@{defined by [universal properties](universal%20property.md)
 
 - Main article: [Functor \(functional programming\)](functor%20(functional%20programming).md)
 
-Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2030-11-12,1696,377!2030-04-27,1525,366!2029-09-23,1339,350!2027-09-05,732,337!2026-04-02,355,357-->
+Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2030-11-12,1696,377!2030-04-27,1525,366!2029-09-23,1339,350!2027-09-05,732,337!2031-01-08,1742,377-->
 
 ## see also
 

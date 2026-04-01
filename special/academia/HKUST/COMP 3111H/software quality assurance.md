@@ -23,7 +23,7 @@ tags:
 
 ## overview
 
-{@{A quality manual}@} must {@{document the organization’s QA procedures}@}, and {@{each project}@} creates a {@{_quality plan_}@} that specifies its {@{most critical design goals and how they will be assessed}@}. Standards for {@{both the development process and its artifacts}@} are essential; they define {@{acceptable practice and embed quality into everyday work}@}. <!--SR:!2026-04-02,68,314!2026-04-08,69,336!2026-04-11,77,336!2026-04-10,71,336!2026-12-05,262,334!2026-04-10,71,336!2026-04-16,77,336-->
+{@{A quality manual}@} must {@{document the organization’s QA procedures}@}, and {@{each project}@} creates a {@{_quality plan_}@} that specifies its {@{most critical design goals and how they will be assessed}@}. Standards for {@{both the development process and its artifacts}@} are essential; they define {@{acceptable practice and embed quality into everyday work}@}. <!--SR:!2027-01-23,296,334!2026-04-08,69,336!2026-04-11,77,336!2026-04-10,71,336!2026-12-05,262,334!2026-04-10,71,336!2026-04-16,77,336-->
 
 {@{Mechanisms—processes, tools, or checklists}@}—are required to {@{verify compliance with all quality requirements}@}, ensuring {@{deviations are caught early and corrected before release}@}. {@{Formal reviews (requirements, design, code)}@} remain the primary vehicle for {@{detecting defects and enforcing standards}@} throughout development. <!--SR:!2026-12-02,259,334!2026-11-28,255,334!2026-04-03,64,314!2026-04-03,69,336!2026-04-09,70,334-->
 
@@ -37,7 +37,7 @@ Where practical, {@{metrics}@} highlight {@{anomalous parts of the software}@}. 
 
 During {@{_inception_}@}, {@{planning}@} defines {@{goals and standards}@}. In {@{_elaboration_}@}, {@{reviews}@} validate {@{requirements against those standards}@}. {@{_Construction_}@} sees {@{code inspections and unit tests}@}, while {@{_transition_}@} involves {@{system testing and user acceptance}@}. {@{Iterative increments}@} bring {@{incremental quality checks}@} into each cycle. <!--SR:!2026-11-29,256,334!2026-04-11,77,336!2026-04-06,72,336!2026-04-16,77,336!2026-12-04,261,334!2026-04-06,67,336!2026-11-30,257,334!2026-04-16,77,336!2026-11-28,255,334!2026-04-03,64,314!2026-04-07,68,336!2026-04-16,77,336-->
 
-A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises dramatically}@} as it moves from {@{requirements to field use}@}: {@{$\text{Cost} \propto e^{n}$}@} where {@{$n$ represents the defect’s stage}@}. {@{Early detection during _requirements_}@} is {@{far cheaper than post‑deployment fixes}@}, underscoring why QA {@{emphasizes early reviews and continuous monitoring}@}. <!--SR:!2026-04-07,68,336!2026-04-08,69,336!2026-04-09,70,336!2026-04-14,75,336!2026-04-10,71,336!2026-04-13,74,336!2026-04-02,68,336!2026-04-16,77,336-->
+A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises dramatically}@} as it moves from {@{requirements to field use}@}: {@{$\text{Cost} \propto e^{n}$}@} where {@{$n$ represents the defect’s stage}@}. {@{Early detection during _requirements_}@} is {@{far cheaper than post‑deployment fixes}@}, underscoring why QA {@{emphasizes early reviews and continuous monitoring}@}. <!--SR:!2026-04-07,68,336!2026-04-08,69,336!2026-04-09,70,336!2026-04-14,75,336!2026-04-10,71,336!2026-04-13,74,336!2027-02-11,315,356!2026-04-16,77,336-->
 
 ## aspects
 
@@ -46,7 +46,7 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 {@{Quality}@} is achieved at {@{several levels}@}: {@{_product quality_}@} focuses on {@{defect reduction in the final artifact}@}; {@{_project quality_}@} concerns {@{schedule, cost, and scope adherence}@}; {@{_process quality_}@} involves the {@{effectiveness of development practices}@}; {@{_people quality_}@} addresses {@{skills, training, and teamwork}@}. {@{Each level}@} relies on {@{targeted SQA activities}@} to {@{measure and enhance performance}@}, which follows the {@{four interlinked steps}@}: (annotation: 4 items: {@{define → measure → track → feedback}@}). <!--SR:!2026-04-15,76,336!2026-04-03,69,336!2026-04-16,77,336!2026-04-15,76,336!2026-04-09,70,336!2026-04-13,74,336!2026-11-28,255,334!2026-04-03,69,336!2026-04-12,73,336!2026-11-29,256,334!2026-04-10,71,336!2026-04-12,73,336!2026-04-15,76,336!2026-04-14,75,336!2026-04-15,76,336-->
 
 1. _Define_ ::@:: a set of quality attributes that the product must satisfy. <!--SR:!2026-04-06,67,314!2026-04-09,70,336-->
-2. _Measure_ ::@:: each attribute so compliance can be quantified. <!--SR:!2026-04-02,63,314!2026-12-05,262,334-->
+2. _Measure_ ::@:: each attribute so compliance can be quantified. <!--SR:!2027-01-07,280,334!2026-12-05,262,334-->
 3. _Track_ ::@:: attribute values over time to evaluate progress toward the goals. <!--SR:!2026-04-13,74,336!2026-04-11,72,336-->
 4. _Feedback_ ::@:: the results into future projects, closing the improvement loop. <!--SR:!2026-11-29,256,334!2026-12-03,260,334-->
 
@@ -57,7 +57,7 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 - _Standards_: ::@:: _foundational_; develop and apply repeatable development norms. <!--SR:!2026-04-07,68,336!2026-04-07,68,336-->
 - _Metrics_: ::@:: _foundational_; establish quantitative measures to monitor and improve processes. <!--SR:!2026-04-10,71,336!2026-04-15,76,336-->
 - _Methods & Tools_: ::@:: use appropriate techniques for system design and implementation. <!--SR:!2026-04-09,70,336!2026-04-11,72,336-->
-- _Formal Reviews_: ::@:: conduct technical inspections at each step for defect discovery and managerial approval. <!--SR:!2026-04-02,68,334!2026-04-16,77,336-->
+- _Formal Reviews_: ::@:: conduct technical inspections at each step for defect discovery and managerial approval. <!--SR:!2027-02-13,317,354!2026-04-16,77,336-->
 - _Configuration Management_: ::@:: control changes to ensure traceability and stability. <!--SR:!2026-04-08,69,336!2026-04-10,71,336-->
 - _Testing_: ::@:: perform thorough testing to detect defects, though it is _not_ a cure‑all. <!--SR:!2026-04-11,72,336!2026-04-09,70,336-->
 
@@ -81,7 +81,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ### design goals
 
-{@{A _design goal_}@} is {@{an external quality attribute we wish the system to possess}@}, such as {@{safety, portability or usability}@}. These attributes are {@{_external_ and cannot be measured directly from the code until the system is complete}@}; therefore we {@{infer them during development}@} by observing {@{_internal_ measurable attributes}@} (e.g., {@{lines of code, cyclomatic complexity}@}). {@{Typical internal metrics}@} used to predict {@{external goals}@} include: <!--SR:!2026-04-02,63,314!2026-04-12,73,336!2026-12-05,262,334!2026-04-14,75,336!2026-04-08,74,336!2026-04-07,73,336!2026-12-03,260,334!2026-04-06,67,336!2026-04-10,71,336-->
+{@{A _design goal_}@} is {@{an external quality attribute we wish the system to possess}@}, such as {@{safety, portability or usability}@}. These attributes are {@{_external_ and cannot be measured directly from the code until the system is complete}@}; therefore we {@{infer them during development}@} by observing {@{_internal_ measurable attributes}@} (e.g., {@{lines of code, cyclomatic complexity}@}). {@{Typical internal metrics}@} used to predict {@{external goals}@} include: <!--SR:!2027-01-04,277,334!2026-04-12,73,336!2026-12-05,262,334!2026-04-14,75,336!2026-04-08,74,336!2026-04-07,73,336!2026-12-03,260,334!2026-04-06,67,336!2026-04-10,71,336-->
 
 - maintainability ::@:: → cyclomatic complexity, error messages count, lines of code, number of parameters, etc. <!--SR:!2026-04-06,68,334!2026-04-07,68,336-->
 - usability ::@:: → error messages count, user-manual length, etc. <!--SR:!2026-12-04,261,334!2026-12-02,259,334-->
@@ -92,7 +92,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 {@{Design maintainability}@} is inferred from the {@{complexity of a component}@}. {@{Complexity}@} correlates with {@{cohesion, coupling and understandability}@}—attributes that are {@{not directly measurable}@}. <!--SR:!2026-04-06,72,336!2026-12-05,262,334!2026-04-06,67,336!2026-04-14,75,336!2026-04-14,75,336-->
 
-{@{Two families of metrics}@} help bridge this gap: {@{_structural fan‑in/fan‑out_}@}, which counts {@{how many other components call a given component (fan‑in)}@} and {@{how many components it calls (fan‑out)}@}; and {@{_informational fan‑in/fan‑out_}@}, which augments the counts with {@{the number of parameters and shared data accesses}@}. {@{_Complexity_}@}, defined as: {@{$$\text{complexity} := \text{component-length} \cdot (\text{fan-in} \cdot \text{fan-out})^2 \,,$$}@} has been {@{validated in large operating systems (e.g. Unix)}@} as a predictor of {@{implementation effort}@}. <!--SR:!2026-04-13,74,336!2026-04-06,67,336!2026-04-02,68,314!2026-12-03,260,334!2026-04-06,67,336!2026-04-08,70,336!2026-04-06,72,336!2026-04-16,77,336!2026-04-10,71,336!2026-12-02,259,334-->
+{@{Two families of metrics}@} help bridge this gap: {@{_structural fan‑in/fan‑out_}@}, which counts {@{how many other components call a given component (fan‑in)}@} and {@{how many components it calls (fan‑out)}@}; and {@{_informational fan‑in/fan‑out_}@}, which augments the counts with {@{the number of parameters and shared data accesses}@}. {@{_Complexity_}@}, defined as: {@{$$\text{complexity} := \text{component-length} \cdot (\text{fan-in} \cdot \text{fan-out})^2 \,,$$}@} has been {@{validated in large operating systems (e.g. Unix)}@} as a predictor of {@{implementation effort}@}. <!--SR:!2026-04-13,74,336!2026-04-06,67,336!2027-01-22,295,334!2026-12-03,260,334!2026-04-06,67,336!2026-04-08,70,336!2026-04-06,72,336!2026-04-16,77,336!2026-04-10,71,336!2026-12-02,259,334-->
 
 {@{IEEE 982.1‑1988}@} introduces the {@{_Design Structure Quality Index_ (DSQI), a value between 0 and 1}@} that summarizes {@{subsystem coupling, database attributes and classes}@}; a {@{low DSQI}@} signals that {@{further design review is warranted}@}. {@{A complementary metric}@}, {@{the _Software Maturity Index_ (SMI)}@}, tracks {@{how many subsystems change in each release}@}; {@{an SMI approaching 1}@} indicates {@{increasing stability}@}. <!--SR:!2026-12-04,261,334!2026-04-15,76,336!2026-04-14,75,336!2026-04-11,72,336!2026-04-13,74,336!2026-11-27,255,330!2026-04-14,75,336!2026-12-04,261,334!2026-04-12,73,336!2026-04-11,72,336-->
 
@@ -114,7 +114,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ## project quality
 
-{@{_Project quality_}@} concerns {@{schedule, cost, and scope adherence}@}. {@{Common approaches}@} include {@{formal technical reviews and software configuration management}@}. <!--SR:!2026-04-06,67,336!2026-04-11,77,336!2026-04-02,68,336!2026-12-04,261,334-->
+{@{_Project quality_}@} concerns {@{schedule, cost, and scope adherence}@}. {@{Common approaches}@} include {@{formal technical reviews and software configuration management}@}. <!--SR:!2026-04-06,67,336!2026-04-11,77,336!2027-02-12,316,356!2026-12-04,261,334-->
 
 ### formal technical reviews
 

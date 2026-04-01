@@ -219,7 +219,7 @@ In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-clas
 
 - [Adjusted present value](adjusted%20present%20value.md) \(APV\): adjusted present value, ::@:: is the net present value of a project if financed solely by ownership equity plus the present value of all the benefits of financing. <!--SR:!2027-04-14,565,290!2027-08-06,641,329-->
 - [Accounting rate of return](accounting%20rate%20of%20return.md) \(ARR\): ::@:: a ratio similar to IRR and MIRR <!--SR:!2026-05-17,358,365!2026-07-05,398,365-->
-- [Cost-benefit analysis](cost-benefit%20analysis.md): ::@:: which includes issues other than cash, such as time savings. <!--SR:!2026-04-02,320,349!2026-06-01,370,365-->
+- [Cost-benefit analysis](cost-benefit%20analysis.md): ::@:: which includes issues other than cash, such as time savings. <!--SR:!2030-06-13,1533,369!2026-06-01,370,365-->
 - [Internal rate of return](internal%20rate%20of%20return.md) \(IRR\): ::@:: which calculates the rate of return of a project while disregarding the absolute amount of money to be gained. <!--SR:!2026-05-15,358,365!2026-06-28,391,365-->
 - [Modified internal rate of return](modified%20internal%20rate%20of%20return.md) \(MIRR\): ::@:: similar to IRR, but it makes explicit assumptions about the reinvestment of the cash flows. Sometimes it is called Growth Rate of Return. <!--SR:!2029-03-02,1142,350!2026-07-04,396,365-->
 - [Payback period](payback%20period.md): ::@:: which measures the time required for the cash inflows to equal the original outlay. It measures risk, not return. <!--SR:!2029-01-28,1109,350!2026-05-09,350,357-->

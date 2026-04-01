@@ -36,7 +36,7 @@ tags:
 >
 > Schematic of {@{a 1-to-2 demultiplexer}@}. Like a multiplexer, it can be {@{equated to a controlled switch}@}. <!--SR:!2026-04-26,337,344!2026-04-26,337,344!2026-04-25,336,344-->
 
-In {@{[electronics](electronics.md)}@}, {@{a __multiplexer__ \(or __mux__; spelled sometimes as __multiplexor__\), also known as a __data selector__}@}, is {@{a device that selects between several [analog](analog%20signal.md) or [digital](digital%20signal%20(electronics).md) input signals and forwards the selected input to a single output line}@}.<sup>[\[1\]](#^ref-1)</sup> The selection is directed by {@{a separate set of digital inputs known as select lines}@}. A multiplexer of {@{$2^{n}$ inputs has $n$ select lines}@}, which are used to {@{select which input line to send to the output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-04-27,338,344!2030-02-17,1430,364!2026-04-02,315,344!2027-06-20,606,324!2028-06-04,925,344!2026-04-07,320,344-->
+In {@{[electronics](electronics.md)}@}, {@{a __multiplexer__ \(or __mux__; spelled sometimes as __multiplexor__\), also known as a __data selector__}@}, is {@{a device that selects between several [analog](analog%20signal.md) or [digital](digital%20signal%20(electronics).md) input signals and forwards the selected input to a single output line}@}.<sup>[\[1\]](#^ref-1)</sup> The selection is directed by {@{a separate set of digital inputs known as select lines}@}. A multiplexer of {@{$2^{n}$ inputs has $n$ select lines}@}, which are used to {@{select which input line to send to the output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-04-27,338,344!2030-02-17,1430,364!2030-05-05,1494,364!2027-06-20,606,324!2028-06-04,925,344!2026-04-07,320,344-->
 
 A multiplexer makes it possible {@{for several input signals to share one device or resource}@}, for example, {@{one [analog-to-digital converter](analog-to-digital%20converter.md) or one communications [transmission medium](transmission%20medium.md)}@}, instead of {@{having one device per input signal}@}. Multiplexers can also be used to {@{implement [Boolean functions](Boolean%20algebra.md) of multiple variables}@}. <!--SR:!2026-04-25,336,344!2026-04-28,339,344!2026-04-30,341,344!2030-01-30,1415,364-->
 
@@ -70,7 +70,7 @@ For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} an
 >
 > {@{A 2-to-1 mux}@} <!--SR:!2030-02-15,1428,364!2026-04-06,319,344-->
 
-{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-05,318,344!2026-04-02,315,344!2029-02-01,1117,350!2026-04-03,316,344!2029-03-06,1146,350-->
+{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-05,318,344!2030-05-04,1493,364!2029-02-01,1117,350!2026-04-03,316,344!2029-03-06,1146,350-->
 
 | $$S_{0}$$ | $$A$$ | $$B$$ | $$Z$$ |
 | --------- | ----- | ----- | ----- |
@@ -161,7 +161,7 @@ If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$
 
 > {@{![[Fairchild](Fairchild%20Semiconductor.md) 74F138 1:8 demultiplexer](../../archives/Wikimedia%20Commons/ROCKY-518HV%20-%20Fairchild%2074F138-2387.jpg)}@}
 >
-> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138}@} {@{1:8 demultiplexer}@} <!--SR:!2026-04-02,315,344!2030-02-02,1417,364!2026-04-15,25,390-->
+> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138}@} {@{1:8 demultiplexer}@} <!--SR:!2029-03-21,1084,344!2030-02-02,1417,364!2026-04-15,25,390-->
 
 For [7400 series](7400%20series.md) part numbers in the following table, "x" is the logic family.
 
@@ -180,7 +180,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 ## multiplexers as PLDs
 
-Multiplexers can also be used as {@{[programmable logic devices](programmable%20logic%20device.md), to implement Boolean functions}@}. {@{Any Boolean function of _n_ variables and one result}@} can be {@{implemented with a multiplexer with _n_ selector inputs}@}. {@{The variables are connected to the selector inputs}@}, and {@{the function result, 0 or 1, for each possible combination of selector inputs}@} is {@{connected to the corresponding data input}@}. If {@{one of the variables \(for example, _D_\) is also available inverted}@}, {@{a multiplexer with _n_−1 selector inputs is sufficient}@}; the data inputs are {@{connected to 0, 1, _D_, or ~_D_}@}, according to {@{the desired output for each combination of the selector inputs}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-04-02,315,344!2026-04-13,326,344!2026-05-01,342,344!2026-04-28,339,344!2026-04-24,335,344!2026-04-03,316,344!2026-04-19,332,344!2030-01-22,1408,364!2028-10-19,1040,350!2030-04-20,1481,364-->
+Multiplexers can also be used as {@{[programmable logic devices](programmable%20logic%20device.md), to implement Boolean functions}@}. {@{Any Boolean function of _n_ variables and one result}@} can be {@{implemented with a multiplexer with _n_ selector inputs}@}. {@{The variables are connected to the selector inputs}@}, and {@{the function result, 0 or 1, for each possible combination of selector inputs}@} is {@{connected to the corresponding data input}@}. If {@{one of the variables \(for example, _D_\) is also available inverted}@}, {@{a multiplexer with _n_−1 selector inputs is sufficient}@}; the data inputs are {@{connected to 0, 1, _D_, or ~_D_}@}, according to {@{the desired output for each combination of the selector inputs}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2030-05-06,1495,364!2026-04-13,326,344!2026-05-01,342,344!2026-04-28,339,344!2026-04-24,335,344!2026-04-03,316,344!2026-04-19,332,344!2030-01-22,1408,364!2028-10-19,1040,350!2030-04-20,1481,364-->
 
 ## unconventional use of multiplexers for arithmetic
 

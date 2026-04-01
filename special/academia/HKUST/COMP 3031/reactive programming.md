@@ -123,7 +123,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > v.update(5)            // now v() == 5
 > ```
 >
-> {@{The syntax `v() = 5`}@} is {@{syntactic sugar for `v.update(5)`}@}. <!--SR:!2026-04-09,67,310!2026-12-16,259,330!2026-12-05,251,330!2026-04-02,60,310!2026-04-09,67,310-->
+> {@{The syntax `v() = 5`}@} is {@{syntactic sugar for `v.update(5)`}@}. <!--SR:!2026-04-09,67,310!2026-12-16,259,330!2026-12-05,251,330!2026-12-17,259,330!2026-04-09,67,310-->
 
 {@{Signals can be combined}@} to yield {@{new signals}@}: <!--SR:!2026-04-07,65,310!2026-04-08,66,310-->
 
@@ -228,7 +228,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > ```
 <!--SR:!2026-04-06,64,310!2026-04-08,66,310!2026-04-07,65,310!2026-04-04,62,310-->
 
-{@{The presented implementation}@} is {@{a minimal, imperative-style FRP}@} that works for {@{discrete signals}@}. It does not guarantee {@{thread safety}@} and treats {@{continuous values only by sampling}@}. {@{More sophisticated libraries}@} add {@{pure propagation, event streams, and continuous time support}@}. <!--SR:!2026-12-09,255,330!2026-04-05,63,310!2026-04-03,61,310!2026-04-06,64,310!2026-04-05,63,310!2026-04-04,62,310!2026-04-02,60,310-->
+{@{The presented implementation}@} is {@{a minimal, imperative-style FRP}@} that works for {@{discrete signals}@}. It does not guarantee {@{thread safety}@} and treats {@{continuous values only by sampling}@}. {@{More sophisticated libraries}@} add {@{pure propagation, event streams, and continuous time support}@}. <!--SR:!2026-12-09,255,330!2026-04-05,63,310!2026-04-03,61,310!2026-04-06,64,310!2026-04-05,63,310!2026-04-04,62,310!2026-12-21,263,330-->
 
 #### dependency tracking
 
@@ -275,7 +275,7 @@ To know {@{on whose behalf a signal expression is evaluated}@}, each signal must
 > ```
 <!--SR:!2026-04-09,67,310!2026-12-09,255,330!2026-12-09,255,330!2026-04-09,67,310!2026-04-09,67,310!2026-04-08,66,310!2026-12-09,255,330!2026-04-09,67,310-->
 
-{@{The `noObserver` value}@} in {@{the companion object of `Signal`}@} provides {@{a default `Signal.Observer` context for top-level evaluations}@}, ensuring that {@{a signal can be read from ordinary code}@}. <!--SR:!2026-04-05,63,310!2026-04-09,67,310!2026-04-02,60,310!2026-04-09,67,310-->
+{@{The `noObserver` value}@} in {@{the companion object of `Signal`}@} provides {@{a default `Signal.Observer` context for top-level evaluations}@}, ensuring that {@{a signal can be read from ordinary code}@}. <!--SR:!2026-04-05,63,310!2026-04-09,67,310!2026-12-20,262,330!2026-04-09,67,310-->
 
 > [!example] __default `Signal.Observer`__
 >

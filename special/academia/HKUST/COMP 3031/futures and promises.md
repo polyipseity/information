@@ -72,7 +72,7 @@ Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surround
 
 ### CPS to direct style
 
-{@{A `Future[T]`}@} can be seen as {@{a _direct_ representation of an asynchronous computation}@} that will {@{eventually produce a value of type `T`}@}. We can transform {@{a CPS function into one that returns a `Future`}@}. <!--SR:!2026-04-02,64,310!2026-12-22,268,330!2026-12-22,268,330!2026-11-25,253,330-->
+{@{A `Future[T]`}@} can be seen as {@{a _direct_ representation of an asynchronous computation}@} that will {@{eventually produce a value of type `T`}@}. We can transform {@{a CPS function into one that returns a `Future`}@}. <!--SR:!2027-01-04,277,330!2026-12-22,268,330!2026-12-22,268,330!2026-11-25,253,330-->
 
 > [!example] __CPS to `Future`__
 >
@@ -147,7 +147,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## promise
 
-{@{A `Promise[T]`}@} is {@{a writable container that can be completed once}@}. {@{The owning code}@} creates {@{a promise}@} and hands {@{its `Future` obtained from `Promise.future` to callers}@}; {@{another part of the program}@} completes {@{the promise, which automatically completes all awaiting futures}@}. This pattern decouples {@{the producer from the consumer}@} and makes it easy to {@{bridge legacy APIs}@}. <!--SR:!2026-04-05,67,310!2026-04-05,67,310!2026-04-04,67,310!2026-04-04,67,310!2026-11-08,239,330!2026-04-02,64,310!2026-04-04,67,310!2026-04-05,67,310!2026-10-31,232,330-->
+{@{A `Promise[T]`}@} is {@{a writable container that can be completed once}@}. {@{The owning code}@} creates {@{a promise}@} and hands {@{its `Future` obtained from `Promise.future` to callers}@}; {@{another part of the program}@} completes {@{the promise, which automatically completes all awaiting futures}@}. This pattern decouples {@{the producer from the consumer}@} and makes it easy to {@{bridge legacy APIs}@}. <!--SR:!2026-04-05,67,310!2026-04-05,67,310!2026-04-04,67,310!2026-04-04,67,310!2026-11-08,239,330!2027-01-05,278,330!2026-04-04,67,310!2026-04-05,67,310!2026-10-31,232,330-->
 
 > [!example] __`Promise` usage__
 >
@@ -177,7 +177,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   grindBeans().map(b => brew(b))
 > ```
 >
-> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2026-04-02,64,310!2026-11-15,245,330!2026-12-16,263,330!2026-04-05,67,310!2027-01-01,276,330!2026-04-04,67,310!2026-04-03,65,310-->
+> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2027-01-08,281,330!2026-11-15,245,330!2026-12-16,263,330!2026-04-05,67,310!2027-01-01,276,330!2026-04-04,67,310!2026-04-03,65,310-->
 
 When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2027-01-01,276,330!2026-04-04,67,310!2026-11-13,243,330!2026-12-13,259,330!2026-12-30,273,330!2026-10-27,228,330-->
 
@@ -190,7 +190,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().flatMap(b => brew(b))
 > ```
 >
-> {@{The call to `brew`}@} is performed only when {@{`grindBeans` succeeds}@}; otherwise {@{the failure is passed on}@}. <!--SR:!2026-04-05,67,310!2026-04-02,64,310!2026-11-07,238,330!2026-04-05,67,310!2027-01-02,276,330!2026-04-04,67,310!2026-04-05,67,310!2026-11-26,254,330!2026-11-12,242,330-->
+> {@{The call to `brew`}@} is performed only when {@{`grindBeans` succeeds}@}; otherwise {@{the failure is passed on}@}. <!--SR:!2026-04-05,67,310!2027-01-07,280,330!2026-11-07,238,330!2026-04-05,67,310!2027-01-02,276,330!2026-04-04,67,310!2026-04-05,67,310!2026-11-26,254,330!2026-11-12,242,330-->
 
 {@{`zip`}@} combines {@{two independent futures, yielding a future of a tuple}@}. It does _not_ {@{introduce any dependency between them}@} – both run {@{concurrently (and in parallel if the execution context supports parallelism)}@}. If {@{either operand fails}@}, {@{the combined future fails as well}@}. <!--SR:!2026-04-04,67,310!2026-04-04,67,310!2026-11-22,251,330!2026-04-04,67,310!2026-11-01,233,330!2026-04-05,67,310-->
 
@@ -203,7 +203,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().zip(grindBeans())
 > ```
 >
-> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2026-04-02,64,310!2026-11-14,244,330!2026-04-05,67,310!2026-11-06,237,330!2026-11-14,244,330!2026-12-28,272,330!2026-04-05,67,310!2027-01-01,275,330!2026-11-13,243,330!2026-10-26,227,330-->
+> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2027-01-06,279,330!2026-11-14,244,330!2026-04-05,67,310!2026-11-06,237,330!2026-11-14,244,330!2026-12-28,272,330!2026-04-05,67,310!2027-01-01,275,330!2026-11-13,243,330!2026-10-26,227,330-->
 
 {@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2026-04-04,66,310!2026-11-07,238,330!2026-11-10,241,330!2026-12-20,265,330-->
 

@@ -327,7 +327,7 @@ The content is in teaching order.
   - assignment: [problem set 5](assignments/problem%20set%205/submission.md)
 - [elasticity](../../../../general/elasticity%20(economics).md) ::@:: __Elasticity__ measures the responsiveness of one economic variable to a change in another. <!--SR:!2026-08-05,517,402!2026-07-12,498,402-->
   - elasticity / motivation ::@:: While supply and demand can tell us how quantity and price changes, it does not tell us the magnitude of change. Elasticity can tell us, _quantifying_ this change. <!--SR:!2026-08-14,524,398!2026-04-21,428,391-->
-  - elasticity / examples ::@:: own price elasticity, income elasticity, cross-price elasticity, ... <!--SR:!2026-05-30,461,399!2026-04-02,412,391-->
+  - elasticity / examples ::@:: own price elasticity, income elasticity, cross-price elasticity, ... <!--SR:!2026-05-30,461,399!2032-04-11,2201,411-->
     - own price elasticity ::@:: Another name for __price elasticity of demand__. It is the _percentage_ change in _quantity of a good_ demanded in response to a _percentage_ change in _price of the same good_. <!--SR:!2026-06-24,482,398!2031-03-23,1860,402-->
     - income elasticity ::@:: Another name for __income elasticity of demand__. It is the _percentage_ change in _quantity demanded of a good_ in response to a _percentage_ change in _income_. <!--SR:!2031-02-25,1836,399!2026-07-31,513,402-->
     - cross-price elasticity ::@:: Another name for __cross elasticity of demand__. It is the _percentage_ change in _quantity demanded of a good_ in response to a _percentage_ change in _price of another good_. <!--SR:!2026-04-26,433,391!2026-05-15,447,391-->

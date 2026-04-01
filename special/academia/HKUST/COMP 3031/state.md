@@ -23,7 +23,7 @@ tags:
 
 - see: [general/state (computer science)](../../../../general/state%20(computer%20science).md)
 
-{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-04-03,62,310!2026-12-10,255,330!2026-04-02,61,310!2026-11-13,237,330!2026-11-06,231,330!2026-11-29,251,330!2026-04-03,62,310!2026-12-15,259,330-->
+{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-04-03,62,310!2026-12-10,255,330!2026-12-21,263,330!2026-11-13,237,330!2026-11-06,231,330!2026-11-29,251,330!2026-04-03,62,310!2026-12-15,259,330-->
 
 ## substitution model
 
@@ -39,7 +39,7 @@ tags:
 > ```
 <!--SR:!2026-12-01,252,330!2026-11-17,241,330-->
 
-{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2026-04-04,63,310!2026-11-11,236,330!2026-04-03,62,310!2026-04-04,63,310!2026-04-02,61,310!2026-12-02,253,330-->
+{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2026-04-04,63,310!2026-11-11,236,330!2026-04-03,62,310!2026-04-04,63,310!2026-12-24,266,330!2026-12-02,253,330-->
 
 > [!example] __rewrite of `iterate`__
 >
@@ -75,7 +75,7 @@ tags:
 >     else throw new IllegalArgumentException("insufficient funds")
 > ```
 >
-> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-04-02,61,310!2026-11-11,236,330!2026-11-21,244,330!2026-11-20,243,330-->
+> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!2026-11-11,236,330!2026-11-21,244,330!2026-11-20,243,330-->
 
 {@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-11-29,251,330!2026-11-23,246,330!2026-11-30,251,330!2026-04-04,63,310!2026-04-04,63,310-->
 
@@ -90,7 +90,7 @@ tags:
 > ```
 <!--SR:!2026-11-19,242,330!2026-11-15,239,330-->
 
-{@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-04-02,61,310!2026-04-02,61,310-->
+{@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-12-25,267,330!2026-12-19,261,330-->
 
 Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-04-03,62,310!2026-11-14,238,330!2026-12-10,255,330!2026-11-14,238,330!2026-11-29,251,330-->
 
@@ -111,7 +111,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 
 ## `var`
 
-{@{Variables declared with `var`}@} can be {@{reassigned}@}: <!--SR:!2026-11-15,239,330!2026-04-02,61,310-->
+{@{Variables declared with `var`}@} can be {@{reassigned}@}: <!--SR:!2026-11-15,239,330!2026-12-26,268,330-->
 
 > [!example] __`var__
 >
@@ -155,4 +155,4 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > ```
 <!--SR:!2026-04-03,62,310!2026-11-11,236,330!2026-12-20,263,330!2026-11-11,236,330-->
 
-{@{A model more robust than the substitution model}@} introduces {@{a store that tracks mutable objects}@}, but this adds {@{considerable complexity}@}. <!--SR:!2026-11-22,245,330!2026-04-02,61,310!2026-04-02,61,310-->
+{@{A model more robust than the substitution model}@} introduces {@{a store that tracks mutable objects}@}, but this adds {@{considerable complexity}@}. <!--SR:!2026-11-22,245,330!2026-12-20,262,330!2026-12-23,265,330-->

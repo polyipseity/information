@@ -30,7 +30,7 @@ Over {@{five decades}@} the language has {@{branched into several dialects}@}: {
 
 ### Lisp programs
 
-{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2026-04-16,72,320!2026-04-17,73,320!2026-04-15,71,320!2026-04-14,70,320!2026-04-02,59,320!2026-04-13,70,320!2026-04-13,70,320!2026-12-02,251,330!2026-04-03,59,320!2026-04-05,62,320!2026-04-06,63,320!2026-04-17,73,320!2026-04-12,69,320!2026-04-17,73,320!2026-04-16,72,320!2026-04-03,59,320!2026-04-03,59,320!2026-04-13,70,320!2026-04-03,59,320!2026-11-19,240,330!2026-04-03,59,320-->
+{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2026-04-16,72,320!2026-04-17,73,320!2026-04-15,71,320!2026-04-14,70,320!2026-12-25,267,340!2026-04-13,70,320!2026-04-13,70,320!2026-12-02,251,330!2026-04-03,59,320!2026-04-05,62,320!2026-04-06,63,320!2026-04-17,73,320!2026-04-12,69,320!2026-04-17,73,320!2026-04-16,72,320!2026-04-03,59,320!2026-04-03,59,320!2026-04-13,70,320!2026-04-03,59,320!2026-11-19,240,330!2026-04-03,59,320-->
 
 Because Lisp was originally {@{an intermediate language for compilers}@}, it contains only {@{a handful of rules}@}. This minimalism makes it easy to {@{write interpreters and reason about evaluation}@}, which is we can easily {@{implement a small Scheme subset}@} in Scala. The simplicity stems from the fact that {@{programs themselves are lists}@}; code can be {@{generated, transformed and executed}@} by treating them as {@{ordinary data structures}@}. <!--SR:!2026-04-13,70,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-11,68,320!2026-04-14,70,320!2026-04-17,74,320!2026-04-12,68,320-->
 
@@ -48,7 +48,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 > )
 > (factorial 10) ;; → 3628800
 > ```
-<!--SR:!2026-11-13,235,330!2026-04-02,59,320-->
+<!--SR:!2026-11-13,235,330!2026-12-25,267,340-->
 
 ### Lisp data
 
@@ -86,7 +86,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 
 ## interpreter
 
-We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same data structures that Lisp uses internally}@}. The implementation is split into {@{four parts}@}: {@{representation, tokenization, parsing, and evaluation}@}. <!--SR:!2026-04-12,68,320!2026-04-04,60,320!2026-04-17,74,320!2026-04-02,59,320-->
+We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same data structures that Lisp uses internally}@}. The implementation is split into {@{four parts}@}: {@{representation, tokenization, parsing, and evaluation}@}. <!--SR:!2026-04-12,68,320!2026-04-04,60,320!2026-04-17,74,320!2026-12-23,265,340-->
 
 ## internal representation
 
@@ -145,7 +145,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 > ```
 <!--SR:!2026-04-15,71,320!2026-04-18,74,320!2026-04-15,71,320!2026-04-04,61,320-->
 
-{@{`hasNext()`}@} checks for {@{more input}@}, ignoring {@{leading whitespace in the remaining input}@}; {@{`next()`}@} returns {@{the next token}@}, which can be {@{`"("`, `")"`, a number, a string literal or an identifier}@}. If {@{the end of input is reached without matching parentheses}@}, {@{an error is raised}@}. <!--SR:!2026-04-12,68,320!2026-04-02,59,320!2026-04-02,59,320!2026-04-11,68,320!2026-04-04,60,320!2026-04-03,59,320!2026-04-03,60,320!2026-04-13,69,320-->
+{@{`hasNext()`}@} checks for {@{more input}@}, ignoring {@{leading whitespace in the remaining input}@}; {@{`next()`}@} returns {@{the next token}@}, which can be {@{`"("`, `")"`, a number, a string literal or an identifier}@}. If {@{the end of input is reached without matching parentheses}@}, {@{an error is raised}@}. <!--SR:!2026-04-12,68,320!2026-12-25,267,340!2026-12-24,266,340!2026-04-11,68,320!2026-04-04,60,320!2026-04-03,59,320!2026-04-03,60,320!2026-04-13,69,320-->
 
 ## parser
 
@@ -173,7 +173,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 > ```
 <!--SR:!2026-04-03,59,320!2026-04-13,70,320!2026-04-17,74,320!2026-04-13,69,320!2026-04-04,60,320!2026-04-12,70,320!2026-04-13,70,320-->
 
-{@{Running `string2lisp("(lambda (x) (+ (* x x) 1))")`}@} yields {@{a nested list of `Data`, ready for evaluation}@}. The next step is implementing {@{an evaluator}@}. <!--SR:!2026-04-02,59,320!2026-04-15,71,320!2026-04-04,60,320-->
+{@{Running `string2lisp("(lambda (x) (+ (* x x) 1))")`}@} yields {@{a nested list of `Data`, ready for evaluation}@}. The next step is implementing {@{an evaluator}@}. <!--SR:!2026-12-23,265,340!2026-04-15,71,320!2026-04-04,60,320-->
 
 ## syntax
 
@@ -232,9 +232,9 @@ Because Scheme has {@{many convenient syntactic sugar}@}, we first rewrite {@{th
 >     normalize(ret)
 >  // other rules...
 > ```
-<!--SR:!2026-04-02,59,320!2026-04-03,59,320-->
+<!--SR:!2026-12-21,263,340!2026-04-03,59,320-->
 
-{@{The `def` form}@} is also {@{a derived form}@}: it expands into {@{an ordinary `def` binding plus a lambda that captures the arguments}@}: <!--SR:!2026-04-02,59,320!2026-04-15,71,320!2026-04-16,72,320-->
+{@{The `def` form}@} is also {@{a derived form}@}: it expands into {@{an ordinary `def` binding plus a lambda that captures the arguments}@}: <!--SR:!2026-12-23,265,340!2026-04-15,71,320!2026-04-16,72,320-->
 
 > [!example] __normalizing `def`__
 >
@@ -250,7 +250,7 @@ Because Scheme has {@{many convenient syntactic sugar}@}, we first rewrite {@{th
 > ```
 <!--SR:!2026-04-12,69,320!2026-11-07,229,330!2026-04-17,73,320-->
 
-With {@{these rules in place}@}, {@{every Scheme expression}@} is reduced to {@{a tree that only uses the primitive forms `val`, `def`, `lambda`, `quote` and `if`}@}. {@{The evaluator}@} can then work on {@{this simplified representation}@} without having to {@{recognise any other syntactic sugar}@}. <!--SR:!2026-04-17,74,320!2026-04-16,72,320!2026-04-15,71,320!2026-04-17,73,320!2026-04-02,59,320!2026-04-04,61,320-->
+With {@{these rules in place}@}, {@{every Scheme expression}@} is reduced to {@{a tree that only uses the primitive forms `val`, `def`, `lambda`, `quote` and `if`}@}. {@{The evaluator}@} can then work on {@{this simplified representation}@} without having to {@{recognise any other syntactic sugar}@}. <!--SR:!2026-04-17,74,320!2026-04-16,72,320!2026-04-15,71,320!2026-04-17,73,320!2026-12-24,266,340!2026-04-04,61,320-->
 
 ## characteristics
 
@@ -264,7 +264,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 
 ## evaluator
 
-{@{The evaluator for Scheme--}@} is {@{a small interpreter written in Scala}@} that takes {@{a value of type `Data` (a number, string, symbol or list)}@} and returns {@{another `Data`}@}. For instance, evaluating {@{`List('*, 2, 7)`}@} yields {@{the numeric literal `14`}@}. It can be implemented by {@{a recursive function that walks the abstract syntax tree of a Scheme-- expression}@} and produces {@{a `Data` value}@}. It takes two arguments: {@{the expression to evaluate and an `Environment`}@}. <!--SR:!2026-04-14,70,320!2026-04-04,60,320!2026-04-18,74,320!2026-04-14,70,320!2026-04-15,71,320!2026-04-08,65,320!2026-04-02,59,320!2026-04-04,60,320!2026-04-04,60,320-->
+{@{The evaluator for Scheme--}@} is {@{a small interpreter written in Scala}@} that takes {@{a value of type `Data` (a number, string, symbol or list)}@} and returns {@{another `Data`}@}. For instance, evaluating {@{`List('*, 2, 7)`}@} yields {@{the numeric literal `14`}@}. It can be implemented by {@{a recursive function that walks the abstract syntax tree of a Scheme-- expression}@} and produces {@{a `Data` value}@}. It takes two arguments: {@{the expression to evaluate and an `Environment`}@}. <!--SR:!2026-04-14,70,320!2026-04-04,60,320!2026-04-18,74,320!2026-04-14,70,320!2026-04-15,71,320!2026-04-08,65,320!2026-12-21,263,340!2026-04-04,60,320!2026-04-04,60,320-->
 
 ### environment
 
@@ -302,11 +302,11 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 >
 > {@{This version}@} has {@{linear-time lookups}@} because {@{each `lookup` walks the chain of bindings}@}. <!--SR:!2026-04-27,83,340!2026-04-24,81,340!2026-04-27,83,340!2026-04-24,80,340!2026-04-26,83,340-->
 
-Note that {@{the environment with only `lookup` and `extend` as implemented above}@} does not {@{support using `def` to define recursive functions}@}. {@{The `extendRec` function}@} intends to {@{fix this}@}; see below. <!--SR:!2026-04-25,82,340!2026-04-04,60,320!2026-04-16,72,320!2026-04-02,59,320-->
+Note that {@{the environment with only `lookup` and `extend` as implemented above}@} does not {@{support using `def` to define recursive functions}@}. {@{The `extendRec` function}@} intends to {@{fix this}@}; see below. <!--SR:!2026-04-25,82,340!2026-04-04,60,320!2026-04-16,72,320!2026-12-22,264,340-->
 
 {@{The same structure}@} can be replaced by {@{a map for _O(log n)_ performance}@}, but {@{the simple list form}@} is often used {@{in educational settings to keep the code readable}@}. {@{The inner class `Environment.this`}@} refers to {@{the outer environment that the new object closes over}@}; this allows {@{a fresh binding to shadow older ones without mutating the existing structure}@}. <!--SR:!2026-04-17,74,320!2026-04-18,74,320!2026-04-03,59,320!2026-04-17,74,320!2026-04-12,68,320!2026-04-06,63,320!2026-04-13,69,320-->
 
-The evaluator uses {@{these operations during evaluation}@}: every time it {@{encounters a symbol}@}, it calls {@{`lookup`}@}; when {@{a binding is defined with `(val name expr)` or `(define name expr)`}@} it adds {@{the binding respectively via `extend` or `extendRec`}@}. Together they provide {@{lexical scoping for Scheme-- programs}@}. <!--SR:!2026-04-02,59,320!2026-04-03,59,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-13,70,320!2026-04-03,59,320-->
+The evaluator uses {@{these operations during evaluation}@}: every time it {@{encounters a symbol}@}, it calls {@{`lookup`}@}; when {@{a binding is defined with `(val name expr)` or `(define name expr)`}@} it adds {@{the binding respectively via `extend` or `extendRec`}@}. Together they provide {@{lexical scoping for Scheme-- programs}@}. <!--SR:!2026-12-21,263,340!2026-04-03,59,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-13,70,320!2026-04-03,59,320-->
 
 ### predefined bindings
 
@@ -328,7 +328,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 
 {@{The evaluator}@} is {@{a recursive function that walks the abstract syntax tree of a Scheme-- expression}@} and produces {@{a `Data` value}@}. It takes {@{two arguments: the expression to evaluate and an `Environment`}@}. The following sections sketch the main rules. <!--SR:!2026-04-03,59,320!2026-04-11,68,320!2026-04-12,69,320!2026-04-13,70,320-->
 
-{@{Atoms}@} are {@{returned unchanged}@}, while {@{symbols}@} are {@{looked up in the current environment}@}. <!--SR:!2026-04-03,59,320!2026-04-02,59,320!2026-04-18,74,320!2026-04-16,72,320-->
+{@{Atoms}@} are {@{returned unchanged}@}, while {@{symbols}@} are {@{looked up in the current environment}@}. <!--SR:!2026-04-03,59,320!2026-12-21,263,340!2026-04-18,74,320!2026-04-16,72,320-->
 
 > [!example] __atom evaluation__
 >
@@ -392,7 +392,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 > ```
 <!--SR:!2026-04-13,69,320!2026-04-03,59,320-->
 
-{@{__`def`__, similar to `val`}@}, also introduces {@{a new binding that is visible for the rest of the expression}@}; unlike `val`, this new binding is {@{evaluated _every time_ it is looked up (i.e. _by name_)}@}, and also {@{visible to the expression defining the binding itself}@}. Then, same as `val`, it evaluates {@{its body in an environment extended with the new pair}@}. <!--SR:!2026-04-12,69,320!2026-04-17,74,320!2026-04-12,69,320!2026-04-02,59,320!2026-04-15,71,320-->
+{@{__`def`__, similar to `val`}@}, also introduces {@{a new binding that is visible for the rest of the expression}@}; unlike `val`, this new binding is {@{evaluated _every time_ it is looked up (i.e. _by name_)}@}, and also {@{visible to the expression defining the binding itself}@}. Then, same as `val`, it evaluates {@{its body in an environment extended with the new pair}@}. <!--SR:!2026-04-12,69,320!2026-04-17,74,320!2026-04-12,69,320!2026-12-22,264,340!2026-04-15,71,320-->
 
 > [!example] __`def` special form__
 >
@@ -403,7 +403,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 >   eval(rest, env.extendRec(name, env2 => eval(expr, env2)))
 > ```
 >
-> Note {@{`extendRec` is used}@}, which is needed to support {@{using `def` to define recursive functions}@}; see below. <!--SR:!2026-04-17,74,320!2026-04-17,73,320!2026-04-13,70,320!2026-04-03,59,320!2026-04-15,71,320!2026-04-17,73,320!2026-04-02,59,320-->
+> Note {@{`extendRec` is used}@}, which is needed to support {@{using `def` to define recursive functions}@}; see below. <!--SR:!2026-04-17,74,320!2026-04-17,73,320!2026-04-13,70,320!2026-04-03,59,320!2026-04-15,71,320!2026-04-17,73,320!2026-12-24,266,340-->
 
 When {@{an expression is not a special form}@}, it is treated as {@{a function call}@}. {@{The operator and all operands}@} are {@{first evaluated}@}, then the operator value is {@{applied to the list of operand values}@}. <!--SR:!2026-04-03,59,320!2026-04-14,70,320!2026-04-17,73,320!2026-04-18,74,320!2026-04-13,69,320-->
 
@@ -433,7 +433,7 @@ When {@{an expression is not a special form}@}, it is treated as {@{a function c
 
 ### closure
 
-{@{The Scheme-- interpreter}@} implements {@{lexical scoping by capturing the environment at the moment a function is created}@}. When {@{`mkClosure` is called}@}, it packages {@{a Scala anonymous function together with the current `Environment`}@}. {@{The resulting `Closure`}@} holds {@{a function that, when invoked, evaluates its body}@} in an environment {@{extended with bindings that pair each formal parameter from `ps`}@} to {@{the actual argument value supplied in `args`}@}. <!--SR:!2026-04-15,71,320!2026-04-14,70,320!2026-04-02,59,320!2026-04-18,74,320!2026-04-04,60,320!2026-04-02,59,320!2026-04-07,64,320!2026-04-03,59,320-->
+{@{The Scheme-- interpreter}@} implements {@{lexical scoping by capturing the environment at the moment a function is created}@}. When {@{`mkClosure` is called}@}, it packages {@{a Scala anonymous function together with the current `Environment`}@}. {@{The resulting `Closure`}@} holds {@{a function that, when invoked, evaluates its body}@} in an environment {@{extended with bindings that pair each formal parameter from `ps`}@} to {@{the actual argument value supplied in `args`}@}. <!--SR:!2026-04-15,71,320!2026-04-14,70,320!2026-12-22,264,340!2026-04-18,74,320!2026-04-04,60,320!2026-12-23,265,340!2026-04-07,64,320!2026-04-03,59,320-->
 
 > [!example] __creating a closure__
 >
@@ -535,11 +535,11 @@ With {@{the newly defined `extendRec`}@}, {@{a `def` is evaluated}@} as <!--SR:!
 > ))
 > ```
 >
-> Here `self` refers to {@{the inner lambda}@}, and each call passes {@{the lambda itself as an argument}@}. The interpreter evaluates {@{the outer lambda once}@}; the inner lambda {@{repeatedly calls its own first argument}@}, which implements {@{the factorial loop}@}. <!--SR:!2026-04-17,74,320!2026-04-14,70,320!2026-04-03,59,320!2026-04-03,59,320!2026-04-14,70,320!2026-04-12,69,320!2026-04-12,68,320!2026-04-02,59,320!2026-04-26,83,340-->
+> Here `self` refers to {@{the inner lambda}@}, and each call passes {@{the lambda itself as an argument}@}. The interpreter evaluates {@{the outer lambda once}@}; the inner lambda {@{repeatedly calls its own first argument}@}, which implements {@{the factorial loop}@}. <!--SR:!2026-04-17,74,320!2026-04-14,70,320!2026-04-03,59,320!2026-04-03,59,320!2026-04-14,70,320!2026-04-12,69,320!2026-04-12,68,320!2026-12-24,266,340!2026-04-26,83,340-->
 
 ### global environment  
 
-The interpreter starts from {@{a _global_ environment}@} that contains {@{the built-in operators and constants used by most programs}@}. It is built by {@{chaining calls to `extend` on an empty base}@}: <!--SR:!2026-04-17,74,320!2026-04-02,59,320!2026-04-08,65,320-->
+The interpreter starts from {@{a _global_ environment}@} that contains {@{the built-in operators and constants used by most programs}@}. It is built by {@{chaining calls to `extend` on an empty base}@}: <!--SR:!2026-04-17,74,320!2026-12-25,267,340!2026-04-08,65,320-->
 
 > [!example] __minimal global env__
 >

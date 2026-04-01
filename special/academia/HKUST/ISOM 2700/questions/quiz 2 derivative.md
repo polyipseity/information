@@ -68,7 +68,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{1.2}@}
-> - explanation: {@{Consider one machine and its queue. The average number of customers in the system = 0.375/\(1–0.375\) = 0.6. There are two machines, so the answer is 0.6\*2 = 1.2.}@} <!--SR:!2026-04-04,276,330!2026-04-02,274,330-->
+> - explanation: {@{Consider one machine and its queue. The average number of customers in the system = 0.375/\(1–0.375\) = 0.6. There are two machines, so the answer is 0.6\*2 = 1.2.}@} <!--SR:!2026-04-04,276,330!2029-09-03,1250,350-->
 
 <!-- markdownlint MD028 -->
 

@@ -177,7 +177,7 @@ For {@{some common elements where this is not possible}@}, {@{specialized method
 
 [Mesh](mesh.md) ::@:: — a loop that does not contain an inner loop. <!--SR:!2029-03-06,1128,350!2026-05-15,331,349-->
 
-1. \(annotation: label, variables\) ::@:: Count the number of "window panes" in the circuit. Assign a mesh current to each window pane. <!--SR:!2026-04-27,315,349!2026-04-02,294,330-->
+1. \(annotation: label, variables\) ::@:: Count the number of "window panes" in the circuit. Assign a mesh current to each window pane. <!--SR:!2026-04-27,315,349!2029-12-04,1342,350-->
 2. \(annotation: KVL\) ::@:: Write a [KVL](Kirchhoff's%20circuit%20laws.md) equation for every mesh whose current is unknown. <!--SR:!2026-07-23,389,360!2026-05-16,332,349-->
 3. \(annotation: solving\) ::@:: Solve the resulting equations <!--SR:!2026-07-22,388,360!2026-05-05,323,349-->
 

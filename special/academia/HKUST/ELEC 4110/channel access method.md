@@ -48,7 +48,7 @@ Comparing {@{_FDMA_ and _TDMA_}@} in a {@{15&nbsp;MHz band}@} where each user ne
 
 The {@{choice between FDMA and TDMA}@} usually {@{hinges on implementation factors}@}: {@{FDMA}@} underlies {@{first‑generation analog mobile systems}@}, while {@{TDMA (e.g., GSM)}@} forms the {@{basis of 2G digital networks}@}. {@{Real‑world performance differences}@} arise from {@{protocol overhead, synchronization, and hardware constraints}@} rather than {@{raw channel count}@}. <!--SR:!2026-04-12,68,340!2026-04-18,74,340!2026-11-20,236,330!2026-04-16,72,340!2026-04-15,71,340!2026-11-19,235,330!2026-04-17,73,340!2026-04-20,76,340!2026-04-18,74,340-->
 
-{@{Real filters}@} have {@{non‑ideal roll‑off}@}, requiring {@{guard bands between FDMA channels}@}. {@{TDMA}@} needs {@{guard times}@} to {@{accommodate different propagation delays among users}@}. These {@{overheads}@} reduce the {@{theoretical maximum number of usable channels}@} and {@{must be accounted for during network planning}@}. <!--SR:!2026-04-22,78,340!2026-04-05,61,329!2026-04-07,63,329!2026-04-19,75,340!2026-04-15,71,340!2026-04-15,71,340!2026-04-02,58,310!2026-12-08,251,330!2026-04-20,76,340-->
+{@{Real filters}@} have {@{non‑ideal roll‑off}@}, requiring {@{guard bands between FDMA channels}@}. {@{TDMA}@} needs {@{guard times}@} to {@{accommodate different propagation delays among users}@}. These {@{overheads}@} reduce the {@{theoretical maximum number of usable channels}@} and {@{must be accounted for during network planning}@}. <!--SR:!2026-04-22,78,340!2026-04-05,61,329!2026-04-07,63,329!2026-04-19,75,340!2026-04-15,71,340!2026-04-15,71,340!2026-12-13,255,330!2026-12-08,251,330!2026-04-20,76,340-->
 
 ## hybrid TDMA/FDMA
 

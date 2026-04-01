@@ -20,7 +20,7 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-06-03,1051,350!2028-07-18,839,442!2026-04-02,147,422-->
+The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-06-03,1051,350!2028-07-18,839,442!2028-07-27,847,442-->
 
 An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2028-05-12,1031,350-->
 
@@ -31,7 +31,7 @@ else:
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-03-02,977,350!2026-04-02,147,422!2028-07-17,839,442-->
+The semantics of `if...else` is also obvious: If {@{the condition is `true`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-03-02,977,350!2028-07-23,843,442!2028-07-17,839,442-->
 
 In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif`}@} so that {@{`if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2028-06-17,1061,350!2028-06-05,804,442-->
 
@@ -53,7 +53,7 @@ if condition:
   pass # required, otherwise error
 ```
 
-Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350!2026-04-05,150,420!2028-07-06,829,440!2026-04-02,147,420-->
+Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350!2026-04-05,150,420!2028-07-06,829,440!2028-07-20,840,440-->
 
 ## iteration
 

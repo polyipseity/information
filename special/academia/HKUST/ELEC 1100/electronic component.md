@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 - passive vs active examples ::@:: Passive elements like resistors and capacitors contrast with active semiconductor devices such as diodes and transistors. <!--SR:!2026-05-24,64,310!2026-05-17,58,310-->
 - course context ::@:: In ELEC 1100, electronic components also include basic electrical concepts needed to understand how components operate. <!--SR:!2026-05-15,57,310!2026-05-14,56,310-->
 - active device examples ::@:: Active semiconductor devices include diodes and transistors, distinguishing them from passive elements. <!--SR:!2026-05-13,55,310!2026-05-24,64,310-->
-- power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy. <!--SR:!2026-04-07,17,343!2026-04-02,12,323-->
+- power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy. <!--SR:!2026-04-07,17,343!2026-05-28,56,343-->
 - schematic symbol: resistor <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Resistor symbol (zigzag/box style depending on standard) representing a component that limits current and creates voltage drops. <!--SR:!2026-04-07,17,343!2026-04-07,17,343-->
 - schematic symbol: capacitor <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Capacitor symbol (two plates) representing a component that stores charge/energy in an electric field. <!--SR:!2026-04-07,17,343!2026-04-08,18,343-->
 - schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference. <!--SR:!2026-04-08,18,343!2026-04-07,17,343-->
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 - current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-08,18,343!2026-04-07,17,343-->
 - current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second. <!--SR:!2026-04-08,18,343!2026-04-07,17,343-->
 - electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow). <!--SR:!2026-04-07,17,343!2026-04-07,17,343-->
-- current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$. <!--SR:!2026-04-07,17,343!2026-04-02,12,323-->
+- current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$. <!--SR:!2026-04-07,17,343!2026-05-28,56,343-->
 - battery example: A battery supplies $50\,\textrm{A}$ for $4\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and number of electrons. ::@:: $q=It=200\,\textrm{C}$, electrons = $q/e\approx1.25\times10^{21}$. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
 
 ### voltage and potential difference

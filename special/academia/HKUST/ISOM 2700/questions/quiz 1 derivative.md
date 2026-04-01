@@ -18,7 +18,7 @@ tags:
 > Assume a train running between A and B serves 420 customers per hour on average. On a weekday, there are 210 customers riding or waiting on average. What is the average flow time?
 >
 > - solution: {@{0.5&nbsp;hours}@}
-> - explanation: {@{By Little's law, average flow time = 210/420 = 0.5&nbsp;hours.}@} <!--SR:!2026-04-02,274,330!2026-04-12,282,330-->
+> - explanation: {@{By Little's law, average flow time = 210/420 = 0.5&nbsp;hours.}@} <!--SR:!2029-09-02,1249,350!2026-04-12,282,330-->
 
 <!-- markdownlint MD028 -->
 

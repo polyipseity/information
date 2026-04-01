@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!2026-09-04,236,330!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!2026-09-03,235,330!2026-09-12,244,330!2026-10-14,273,330!2026-09-06,238,330!2026-11-02,289,330!2026-10-26,283,330!2026-09-07,239,330!2026-09-06,238,330!2026-04-02,114,290!2026-09-14,246,330!2026-10-20,278,330!2026-08-31,232,330!2026-10-31,287,330!2026-09-09,241,330-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!2026-09-04,236,330!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!2026-09-03,235,330!2026-09-12,244,330!2026-10-14,273,330!2026-09-06,238,330!2026-11-02,289,330!2026-10-26,283,330!2026-09-07,239,330!2026-09-06,238,330!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!2026-08-31,232,330!2026-10-31,287,330!2026-09-09,241,330-->
 
 ### proving set union property
 

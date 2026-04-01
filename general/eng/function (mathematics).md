@@ -491,7 +491,7 @@ Except for {@{computer-language terminology}@}, "function" has {@{the usual math
 - [successor](successor%20function.md), and
 - [projection](projection%20function.md) functions
 
-\(annotation: {@{general recursive functions}@}\) via {@{the operators}@} \(annotation: 3 items: {@{composition, primitive recursion, minimization}@}\) <!--SR:!2027-05-23,583,327!2026-04-02,137,412!2028-04-05,740,432-->
+\(annotation: {@{general recursive functions}@}\) via {@{the operators}@} \(annotation: 3 items: {@{composition, primitive recursion, minimization}@}\) <!--SR:!2027-05-23,583,327!2028-05-10,769,432!2028-04-05,740,432-->
 
 - [composition](#function%20composition),
 - [primitive recursion](primitive%20recursion.md), and
