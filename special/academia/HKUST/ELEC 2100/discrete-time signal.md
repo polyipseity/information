@@ -51,8 +51,8 @@ Flashcards for this section are as follows:
 - What does the upward arrow mean in sequence notation? ::@:: It marks the sample at $n=0$.
 - How is a uniformly sampled continuous-time signal represented as a discrete-time sequence? ::@:: If the sampling interval is $T_s$, then the sequence is $x[n]=x_s(nT_s)$.
 - Why is $n$ the independent variable in a discrete-time sequence? ::@:: Because the signal is described sample by sample at integer indices rather than at every continuous-time instant.
-- Worked example: If $x[n]=2^n$ for $n\ge 0$ and $x[n]=0$ for $n<0$, how does its sequence begin around the origin? ::@:: It is $\{\ldots,0,0,0,1,2,4,8,\ldots\}$ with the arrow under the value $1$ at $n=0$.
-- Worked example: How should the waveform of $x[n]=2^n u[n]$ be drawn? ::@:: Draw stems at integer indices, with zero height for negative $n$ and heights $1,2,4,8,\ldots$ for $n=0,1,2,3,\ldots$.
+- Worked example: If $x[n]=2^n$ for $n\ge 0$ and $x[n]=0$ for $n<0$, how does its sequence begin around the origin? ::@:: Step 1: for negative indices the formula says $x[n]=0$. <br/> Step 2: evaluate the first nonnegative samples: $x[0]=1$, $x[1]=2$, $x[2]=4$, $x[3]=8$. <br/> Step 3: therefore the sequence begins as $\{\ldots,0,0,0,1,2,4,8,\ldots\}$ with the arrow under the $1$ at $n=0$.
+- Worked example: How should the waveform of $x[n]=2^n u[n]$ be drawn? ::@:: Step 1: mark integer sample locations on the $n$ axis. <br/> Step 2: for $n<0$, the factor $u[n]$ makes every stem height $0$. <br/> Step 3: for $n=0,1,2,3,\ldots$, draw stem heights $2^0,2^1,2^2,2^3,\ldots=1,2,4,8,\ldots$.
 
 ## support patterns
 
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 - What does $c\,\delta[n-j]$ represent? ::@:: It is a shifted unit sample at index $n=j$ with value $c$ instead of $1$.
 - What is the sampling property of the discrete-time impulse at the origin? ::@:: It is $f[n]\delta[n]=f[0]\delta[n]$.
 - How can an arbitrary discrete-time sequence be represented using shifted unit samples? ::@:: It can be written as $x[n]=\sum_{m=-\infty}^{\infty}x[m]\delta[n-m]$.
-- Worked example: How is the sequence with $x[-1]=-1.5$, $x[1]=1$, and $x[3]=3$ represented using shifted unit samples? ::@:: It is $x[n]=-1.5\delta[n+1]+\delta[n-1]+3\delta[n-3]$.
+- Worked example: How is the sequence with $x[-1]=-1.5$, $x[1]=1$, and $x[3]=3$ represented using shifted unit samples? ::@:: Step 1: place a shifted unit sample at each nonzero index. <br/> Step 2: the sample at $n=-1$ becomes $-1.5\delta[n+1]$. <br/> Step 3: the samples at $n=1$ and $n=3$ become $\delta[n-1]$ and $3\delta[n-3]$. <br/> Step 4: add them to get $x[n]=-1.5\delta[n+1]+\delta[n-1]+3\delta[n-3]$.
 - Why is the unit sample called the basic building block of arbitrary sequences? ::@:: Because weighted shifted unit samples can reconstruct every sample value at its correct index.
 
 ## unit step and rectangular sequence
@@ -159,9 +159,9 @@ Flashcards for this section are as follows:
 - When is a discrete-time sinusoidal sequence periodic? ::@:: It is periodic only if there exists a positive integer $N$ such that $\omega N=2\pi m$ for some integer $m$, equivalently if $\omega/(2\pi)$ is rational.
 - Why can a discrete-time sinusoid be aperiodic even though a continuous-time sinusoid is always periodic? ::@:: Because discrete time requires an integer period in samples, so periodicity depends on whether $\omega/(2\pi)$ is rational or irrational.
 - What is the effect of irrationality on the periodicity of a discrete-time sinusoid? ::@:: If $\omega/(2\pi)$ is irrational, then no positive integer sample shift can make the sequence repeat exactly, so the sequence is aperiodic.
-- Worked example: Given $x[n]=\sin(0.2\pi n)$, what is its period? ::@:: Its period is $10$ because $0.2\pi\cdot 10=2\pi$.
-- Worked example: Given $x[n]=\sin((4\pi/11)n)$, what is its period and how many cycles occur in that period? ::@:: Its period is $11$, and the sequence completes two full cycles in that period.
-- Worked example: Why is $x[n]=\sin(0.4n)$ aperiodic? ::@:: Because $0.4/(2\pi)$ is irrational, so no positive integer $N$ can satisfy $0.4N=2\pi m$.
+- Worked example: Given $x[n]=\sin(0.2\pi n)$, what is its period? ::@:: Step 1: require $\omega N=2\pi m$ with $\omega=0.2\pi$. <br/> Step 2: choose the smallest positive integer $N$ so that $0.2\pi N=2\pi$. <br/> Step 3: this gives $N=10$, so the period is $10$.
+- Worked example: Given $x[n]=\sin((4\pi/11)n)$, what is its period and how many cycles occur in that period? ::@:: Step 1: solve $(4\pi/11)N=2\pi m$. <br/> Step 2: choose $m=2$, which gives $N=11$. <br/> Step 3: over $11$ samples the phase advance is $4\pi$, i.e. two full cycles, so the period is $11$ and the sequence completes two cycles in that period.
+- Worked example: Why is $x[n]=\sin(0.4n)$ aperiodic? ::@:: Step 1: periodicity would require $0.4N=2\pi m$ for integers $N,m$. <br/> Step 2: equivalently, $0.4/(2\pi)=m/N$ would have to be rational. <br/> Step 3: since $0.4/(2\pi)$ is irrational, no such positive integer $N$ exists, so the sequence is aperiodic.
 - What is the discrete-time complex exponential sequence? ::@:: It is $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$.
 - What are the magnitude and phase of $e^{j\omega n}$? ::@:: Its magnitude is $1$, and its phase is $\omega n$.
 - When is a discrete-time complex exponential sequence periodic? ::@:: It is periodic if and only if $\omega/(2\pi)$ is rational.
@@ -191,8 +191,8 @@ Flashcards for this section are as follows:
 - For $m>0$, what do $x[n-m]$ and $x[n+m]$ do? ::@:: $x[n-m]$ shifts the sequence right by $m$ samples, whereas $x[n+m]$ shifts it left by $m$ samples.
 - What does time reversal do to a discrete-time sequence? ::@:: It forms $z[n]=x[-n]$, reflecting the sequence about the index origin.
 - What is the difference between shifting and reversal? ::@:: Shifting moves every sample without changing their order, whereas reversal flips the order around the origin.
-- Worked example: If $x[n]=\{1,2,3,4\}$ and $y[n]=\{1,1,1,0\}$, what are $x[n]+y[n]$ and $x[n]y[n]$? ::@:: They are $\{2,3,4,4\}$ and $\{1,2,3,0\}$ respectively.
-- Worked example: If $x[n]=\{1,2,3,4\}$, what is $2x[n]$? ::@:: It is $\{2,4,6,8\}$.
+- Worked example: If $x[n]=\{1,2,3,4\}$ and $y[n]=\{1,1,1,0\}$, what are $x[n]+y[n]$ and $x[n]y[n]$? ::@:: Step 1: add sample by sample to get $1+1=2$, $2+1=3$, $3+1=4$, $4+0=4$, hence $x[n]+y[n]=\{2,3,4,4\}$. <br/> Step 2: multiply sample by sample to get $1\cdot 1=1$, $2\cdot 1=2$, $3\cdot 1=3$, $4\cdot 0=0$, hence $x[n]y[n]=\{1,2,3,0\}$.
+- Worked example: If $x[n]=\{1,2,3,4\}$, what is $2x[n]$? ::@:: Step 1: multiply each sample by $2$. <br/> Step 2: this gives $2,4,6,8$. <br/> Step 3: therefore $2x[n]=\{2,4,6,8\}$.
 
 ## difference and running sum
 
@@ -213,7 +213,7 @@ Flashcards for this section are as follows:
 - What is the difference between forward and backward difference? ::@:: Forward difference compares the current sample with the next one, whereas backward difference compares the current sample with the previous one.
 - What is the running sum of a discrete-time sequence? ::@:: It is $y[n]=\sum_{k=-\infty}^{n}x[k]$, the cumulative sum of all samples up to index $n$.
 - Why is the running sum not a pointwise operation? ::@:: Because each output value depends on many past samples rather than only on the sample at the same index.
-- Worked example: If $x[0]=1$, $x[1]=2$, $x[2]=3$, and $x[3]=4$ with earlier samples zero, what are the first four running-sum values? ::@:: They are $y[0]=1$, $y[1]=3$, $y[2]=6$, and $y[3]=10$.
+- Worked example: If $x[0]=1$, $x[1]=2$, $x[2]=3$, and $x[3]=4$ with earlier samples zero, what are the first four running-sum values? ::@:: Step 1: $y[0]=x[0]=1$. <br/> Step 2: $y[1]=x[0]+x[1]=1+2=3$. <br/> Step 3: $y[2]=x[0]+x[1]+x[2]=1+2+3=6$. <br/> Step 4: $y[3]=x[0]+x[1]+x[2]+x[3]=1+2+3+4=10$.
 
 ## decimation and interpolation
 
@@ -254,4 +254,4 @@ Flashcards for this section are as follows:
 - What is the average power of an aperiodic discrete-time sequence? ::@:: It is $P=\lim_{K\to\infty}\frac{1}{2K+1}\sum_{n=-K}^{K}|x[n]|^2$.
 - What is the average power of a periodic sequence with period $N$? ::@:: It is $P=\frac{1}{N}\sum_{n=0}^{N-1}|x[n]|^2$.
 - How do energy sequences and power sequences differ in discrete time? ::@:: A finite-length sequence is typically an energy sequence with zero average power, whereas a nonzero periodic sequence is typically a power sequence with infinite total energy.
-- Worked example: If the nonzero samples of a sequence are $1,2,3,4$, what is its energy? ::@:: Its energy is $1^2+2^2+3^2+4^2=30$.
+- Worked example: If the nonzero samples of a sequence are $1,2,3,4$, what is its energy? ::@:: Step 1: square the nonzero samples to get $1,4,9,16$. <br/> Step 2: add them to obtain $1+4+9+16=30$. <br/> Step 3: therefore the sequence energy is $30$.

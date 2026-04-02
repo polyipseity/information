@@ -100,87 +100,157 @@ Flashcards for this section are as follows:
 
 ## memoryless, dynamic, lumped, and distributed systems
 
-A memoryless or instantaneous system produces its output at a given time using only the input at that same time. Algebraic input-output relations are the usual mathematical form of such systems. A resistor obeying $v_R(t)=Ri(t)$ is a standard example: the voltage depends only on the current at the same instant.
+A useful first classification is to separate two different questions that beginners often mix together. Memoryless versus dynamic asks whether the output at one instant depends only on the input at that same instant or also on values from other times. Lumped versus distributed asks whether the model depends only on time or on both time and space.
 
-A dynamic system has memory, so its output depends on input values from other times as well. Capacitors, inductors, and other energy-storage elements lead to such systems. For example, a capacitor relation can be written in integral form, which shows that the present voltage depends on accumulated past current rather than only on the instantaneous input.
+---
+
+Flashcards for this section are as follows:
+
+- What are the two different classification axes introduced in this section? ::@:: Memoryless versus dynamic asks whether other times matter to the output, whereas lumped versus distributed asks whether the model depends only on time or also on spatial coordinates.
+
+### memorylessness
+
+A system is memoryless if the output at time $t_0$ depends only on the input value at that same time $t_0$. A dynamic system is any counterexample: its output at $t_0$ also depends on input values from other times. In a general linear kernel description $y(t)=\int_{-\infty}^{\infty} h(t,\tau)x(\tau)\,d\tau$, memorylessness means the kernel is concentrated on the diagonal $\tau=t$, so it has the form $h(t,\tau)=a(t)\delta(t-\tau)$. In the LTI special case this collapses further to $h(t)=K\delta(t)$, because only zero delay is allowed.
+
+A clean memoryless example is $y(t)=3x(t)$. The input-output equation says the system simply scales the present input. The impulse-response form is $h(t)=3\delta(t)$, so $y=x*h$. Because the impulse response is concentrated entirely at zero delay, one input instant affects only the same output instant.
+
+A clean counterexample is the causal averaging-type system $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Its impulse response is $h(t)=e^{-t}u(t)$. One impulse at time $0$ creates an exponentially decaying tail for all later times, so a past input value continues to influence the present output. That spreading over time is exactly what memory means.
+
+The recall picture is simple: memoryless systems look only at the present sample, while dynamic systems smear one input event across a time interval. A resistor is therefore the basic memoryless intuition, while capacitors, inductors, and low-pass filters are the basic dynamic intuition.
+
+---
+
+Flashcards for this section are as follows:
+
+- memorylessness / definition ::@:: A system is memoryless if the output at time $t_0$ depends only on the input value at the same time $t_0$; any system whose output also depends on other times is dynamic.
+- memorylessness / kernel test ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI special case this becomes $h(t)=K\delta(t)$.
+- memorylessness / example in input-output and impulse-response form ::@:: Example: $y(t)=3x(t)$. Impulse-response form: $h(t)=3\delta(t)$, so the response is concentrated at zero delay and the output uses only the present input.
+- memorylessness / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. One input impulse creates a decaying tail, so past input values keep affecting the present output.
+- memorylessness / intuition ::@:: Memoryless means "look only at now"; dynamic means "an input now leaves a trace that survives into other times."
+
+### lumped and distributed viewpoints
 
 The lecture also distinguishes lumped-parameter and distributed-parameter systems. A lumped-parameter system depends only on time and is typically modeled by ordinary differential equations; low-frequency RLC circuits are the standard example. A distributed-parameter system depends on time and space variables and is modeled by partial differential equations; transmission lines and waveguides are typical examples.
 
-These distinctions are conceptually different and should not be mixed. Memoryless versus dynamic asks whether the system stores information from other times. Lumped versus distributed asks whether the model depends only on time or on both time and spatial coordinates.
+This classification is independent of memorylessness. A system can be lumped yet dynamic, because ordinary differential equations still describe time evolution with memory. The point of the lumped/distributed split is not whether the system remembers the past, but whether its state is concentrated into time-dependent variables or spread across both time and space.
 
 ---
 
 Flashcards for this section are as follows:
 
-- What is a memoryless or instantaneous system? ::@:: It is a system whose output at a given time depends only on the input at that same time.
-- Why is a resistor a standard memoryless example? ::@:: Because $v_R(t)=Ri(t)$ is an algebraic relation using the current at the same instant only.
-- What is a dynamic system? ::@:: It is a system with memory, so its output depends on input values from other times as well.
-- Why are capacitors and inductors associated with dynamic systems? ::@:: Because their behavior depends on stored energy and accumulated past input, not only on the present input value.
-- What is a lumped-parameter system? ::@:: It is a system modeled as depending on time only, typically through ordinary differential equations.
-- What is a distributed-parameter system? ::@:: It is a system whose model depends on both time and spatial variables, typically through partial differential equations.
-- What is a standard lumped-parameter example in the lecture? ::@:: A low-frequency RLC circuit.
-- What is a standard distributed-parameter example in the lecture? ::@:: A transmission line or waveguide.
-- What is the difference between memoryless vs dynamic and lumped vs distributed? ::@:: Memoryless vs dynamic asks whether the system stores past information, whereas lumped vs distributed asks whether the model depends only on time or on both time and space.
+- lumped and distributed viewpoints / definition ::@:: Lumped systems depend only on time and are usually modeled by ordinary differential equations, whereas distributed systems depend on both time and space and are usually modeled by partial differential equations.
+- lumped and distributed viewpoints / standard examples ::@:: A low-frequency RLC circuit is a standard lumped example, whereas a transmission line or waveguide is a standard distributed example.
+- lumped and distributed viewpoints / intuition ::@:: Lumped means the system state can be summarized by time-varying variables only; distributed means the state is spread across space as well as time.
 
 ## invertibility, linearity, and time invariance
 
-A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the response. A system is non-invertible if different inputs collapse to the same output, making unique recovery impossible. This is why system compensation is possible only when an appropriate inverse description exists.
-
-Linearity is characterized by homogeneity and superposition. If $e_1$ produces $r_1$ and $e_2$ produces $r_2$, then a linear system must send $c_1e_1+c_2e_2$ to $c_1r_1+c_2r_2$. In operator form, the judgment condition is $H[c_1e_1(t)+c_2e_2(t)]=c_1H[e_1(t)]+c_2H[e_2(t)]$.
-
-The same rule applies in both continuous and discrete time. The practical judgment method is therefore: first form the linear combination and pass it through the system, then separately pass each signal through the system and linearly combine the outputs, and compare the two results. If they agree for arbitrary choices of signals and constants, the system is linear; otherwise it is nonlinear. The lecture also notes an important caution: external excitation and nonzero-state effects must be handled separately, because a test contaminated by extra forcing or mismatched initial conditions does not isolate the system's intrinsic linearity.
-
-The nonlinear example in the lecture is $r(t)=e^2(t)$. If $e_1(t)$ and $e_2(t)$ produce $r_1(t)=e_1^2(t)$ and $r_2(t)=e_2^2(t)$, then the output produced by the combined input $c_1e_1(t)+c_2e_2(t)$ is $H[c_1e_1(t)+c_2e_2(t)]=(c_1e_1(t)+c_2e_2(t))^2=c_1^2e_1^2(t)+2c_1c_2e_1(t)e_2(t)+c_2^2e_2^2(t)$,
-
-whereas the linear combination of the separate outputs is only $c_1e_1^2(t)+c_2e_2^2(t)$ if one uses the same coefficients, or more structurally $c_1r_1(t)+c_2r_2(t)$. The mixed term $2c_1c_2e_1(t)e_2(t)$ shows immediately that the two results are not equal in general, so the system is nonlinear.
-
-A system is time invariant if, under zero initial conditions, its output is independent of the time at which the input is applied; only the relative shape of the input matters. Equivalently, delaying the input by some amount merely delays the output by the same amount. For continuous-time systems this is the rule "shift first, then pass through the system = pass through the system first, then shift." In operator form, if $H[e(t)]=r(t)$, then time invariance requires $H[e(t-\tau)]=r(t-\tau)$.
-
-For discrete-time systems the same principle applies with integer index shifts.
-
-The lecture gives two complementary ways to think about this test. From a circuit viewpoint, one asks whether the component parameters themselves vary with time. From an equation viewpoint, one asks whether the coefficients of the describing equation vary with time. If the system law itself changes with time, then simply shifting the input cannot produce a pure shift of the output.
-
-The lecture's examples illustrate the distinction. The derivative system $r(t)=\frac{d}{dt}e(t)$ is time invariant because the two test branches match exactly: shifting the input first gives $\frac{d}{dt}e(t-t_0)$, while differentiating first and then shifting the output also gives $r(t-t_0)=\frac{d}{dt}e(t-t_0)$. Since the results are identical, the derivative system is time invariant.
-
-The amplitude-modulation system $r(t)=\cos(\omega_0 t)e(t)$ is time varying because the explicit time factor changes the system when the input is shifted. If the input is shifted first, the output becomes $\cos(\omega_0 t)e(t-t_0)$. If the original output is formed first and then shifted, one gets $r(t-t_0)=\cos(\omega_0 (t-t_0))e(t-t_0)$. These are different in general because $\cos(\omega_0 t)$ is not equal to $\cos(\omega_0(t-t_0))$, so the system is time varying.
+A second cluster of classifications asks three different questions. Invertibility asks whether the input can be recovered from the output. Linearity asks whether superposition holds. Time invariance asks whether a shift of the input produces the same shift of the output.
 
 ---
 
 Flashcards for this section are as follows:
 
-- What does it mean for a system to be invertible? ::@:: Different inputs produce different outputs, so an inverse system can recover the original input from the output.
-- What makes a system non-invertible? ::@:: Different inputs can produce the same output, making unique recovery of the original input impossible.
-- What two properties define linearity? ::@:: Homogeneity and superposition.
-- What is the operator-form linearity test? ::@:: A system is linear if $H[c_1e_1(t)+c_2e_2(t)]=c_1H[e_1(t)]+c_2H[e_2(t)]$ for arbitrary signals and constants.
-- What is the practical judgment method for linearity? ::@:: Compare "linear-combine first, then pass through the system" with "pass through the system first, then linear-combine the outputs"; if they agree for arbitrary inputs and constants, the system is linear.
-- Why must external excitation and nonzero-state effects be handled separately when testing linearity? ::@:: Because extra forcing or mismatched initial conditions can distort the comparison and prevent the test from isolating the system's intrinsic linear property.
-- Why is the system $r(t)=e^2(t)$ nonlinear? ::@:: Because $H[c_1e_1+c_2e_2]=(c_1e_1+c_2e_2)^2$ contains the mixed term $2c_1c_2e_1e_2$, so it does not equal the corresponding linear combination of separate outputs in general.
-- What does time invariance mean under zero initial conditions? ::@:: It means the output depends only on the relative shape of the input, so delaying the input merely delays the output by the same amount.
-- What is the operator-form time-invariance test for a continuous-time system? ::@:: If $H[e(t)]=r(t)$, then time invariance requires $H[e(t-\tau)]=r(t-\tau)$.
-- What are the two lecture viewpoints for judging time invariance? ::@:: From a circuit viewpoint, check whether component parameters vary with time; from an equation viewpoint, check whether the coefficients of the describing equation vary with time.
-- Why is the derivative system $r(t)=\frac{d}{dt}e(t)$ time invariant? ::@:: Shifting the input first or differentiating first and then shifting both give the same result $\frac{d}{dt}e(t-t_0)$.
-- Why is the system $r(t)=\cos(\omega_0 t)e(t)$ time varying under the shift test? ::@:: Shifting the input first gives $\cos(\omega_0 t)e(t-t_0)$, whereas shifting the original output gives $\cos(\omega_0(t-t_0))e(t-t_0)$, and these are not equal in general.
-- Does the same linearity and time-invariance logic apply in discrete time? ::@:: Yes; the same superposition and shift tests apply, but with integer-index sequences instead of continuous-time signals.
+- invertibility, linearity, and time invariance / comparison ::@:: Invertibility asks whether the input can be recovered, linearity asks whether add-and-scale operations commute with the system, and time invariance asks whether absolute clock time matters.
+
+### invertibility
+
+A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the response. A system is non-invertible if different inputs collapse to the same output, making unique recovery impossible. This is why compensation and equalization ideas require an appropriate inverse description.
+
+---
+
+Flashcards for this section are as follows:
+
+- invertibility / definition ::@:: A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the output.
+- invertibility / non-invertible meaning ::@:: A system is non-invertible when different inputs can collapse to the same output, so unique recovery is impossible.
+
+### linearity
+
+Linearity is characterized by homogeneity and superposition. If $x_1$ produces $y_1$ and $x_2$ produces $y_2$, then a linear system must send $c_1x_1+c_2x_2$ to $c_1y_1+c_2y_2$. In operator form, the judgment condition is $H[c_1x_1(t)+c_2x_2(t)]=c_1H[x_1(t)]+c_2H[x_2(t)]$. The practical test is therefore "combine first, then pass through the system" versus "pass through the system first, then combine the outputs".
+
+A clean linear example is $y(t)=2x(t)-x(t-1)$. In impulse-response form this is $h(t)=2\delta(t)-\delta(t-1)$, so $y=x*h$. The same fixed weighting of present and delayed inputs applies no matter what amplitudes or signal combinations are used, so superposition holds automatically.
+
+A standard counterexample is $y(t)=x^2(t)$. The input-output equation already shows that squaring is nonlinear. There is also no single first-order impulse-response representation $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because every such representation is linear in $x$. The closest kernel viewpoint is higher-order rather than ordinary impulse response: $y(t)=\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$. The square creates cross terms, so the response to a sum is not the sum of the responses.
+
+The intuition is that linear systems preserve add-and-scale structure. If you double the input, the output doubles; if you add two inputs, the output is the sum of the two outputs. Nonlinear systems distort that bookkeeping, usually by creating mixing terms, clipping, saturation, or amplitude-dependent gain.
+
+---
+
+Flashcards for this section are as follows:
+
+- linearity / definition ::@:: A system is linear if it satisfies homogeneity and superposition, meaning $H[c_1x_1+c_2x_2]=c_1H[x_1]+c_2H[x_2]$ for arbitrary signals and constants.
+- linearity / example in input-output and impulse-response form ::@:: Example: $y(t)=2x(t)-x(t-1)$. Impulse-response form: $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds.
+- linearity / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x^2(t)$. There is no single first-order impulse response $h$ with $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because any such representation would already be linear; a nonlinear kernel description needs higher-order products such as $\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$.
+- linearity / intuition ::@:: Linear means "add and scale outside or inside the system, and you get the same answer"; nonlinear means the system mixes amplitudes and creates extra interaction terms.
+
+### time invariance
+
+A system is time invariant if, under the same initial-condition convention, its output is independent of the absolute time at which the input is applied. Equivalently, delaying the input merely delays the output by the same amount. In operator form, if $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$. For a general linear kernel this means the kernel depends only on the time difference, not on the absolute clock: $h(t,\tau)=h(t-\tau)$.
+
+A standard time-invariant example is $y(t)=x(t)-x(t-1)$. Its impulse response is $h(t)=\delta(t)-\delta(t-1)$. The system always forms the same present-minus-one-second-ago combination, no matter when the signal arrives, so shifting the input simply shifts the output.
+
+A standard time-varying counterexample is $y(t)=\cos(\omega_0 t)x(t)$. In kernel form this is $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. The explicit factor $\cos(\omega_0 t)$ depends on absolute time, so the system law itself changes with the clock. Shifting the input first gives $\cos(\omega_0 t)x(t-t_0)$, while shifting the original output gives $\cos(\omega_0(t-t_0))x(t-t_0)$, and these are not equal in general.
+
+The intuition is that a time-invariant system has no hidden calendar or clock. The same waveform meeting the same system tomorrow should produce the same output shape, just shifted. A time-varying system behaves as if its coefficients or operating mode are changing with time.
+
+---
+
+Flashcards for this section are as follows:
+
+- time invariance / definition ::@:: A system is time invariant if delaying the input by $t_0$ simply delays the output by the same $t_0$, so $H[x(t-t_0)]=y(t-t_0)$ whenever $H[x(t)]=y(t)$.
+- time invariance / kernel test ::@:: In a linear kernel description, time invariance means the kernel depends only on the difference $t-\tau$, so it can be written as a one-variable impulse response $h(t-\tau)$.
+- time invariance / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)-x(t-1)$. Impulse-response form: $h(t)=\delta(t)-\delta(t-1)$. The same present-minus-delayed rule applies at every absolute time, so shifting the input just shifts the output.
+- time invariance / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\cos(\omega_0 t)x(t)$. Kernel form: $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. Because the coefficient depends on absolute time, the system law changes with the clock and the shift test fails.
+- time invariance / intuition ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it.
 
 ## causality and stability
 
-A causal system does not depend on future input values. This matters because a physically realizable real-time system cannot react before its input arrives. The lecture uses $r(t)=e(t)+e(t-2)$ as a causal example because it depends only on present and past input, and $r(t)=e(t)+e(t+2)$ as a noncausal example because it depends on future input.
-
-The lecture also points out that causality is an implementation requirement for real-time systems. Noncausal systems are still useful in offline processing tasks such as signal compression, expansion, and voice processing, where future data may already be available in stored form.
-
-The stability notion emphasized in the early systems material is bounded-input bounded-output stability. A system is BIBO stable if every bounded input produces a bounded output. This is the practical input-output stability criterion introduced before transform-domain methods are available.
+A third cluster of properties asks whether the system can run in real time and whether it keeps bounded signals under control. Causality is the no-future-dependence property. Boundedness here means bounded-input bounded-output stability.
 
 ---
 
 Flashcards for this section are as follows:
 
-- What is a causal system? ::@:: It is a system that does not depend on future input values.
-- Why must a physically realizable real-time system be causal? ::@:: Because it cannot react before the input arrives.
-- Why is $r(t)=e(t)+e(t-2)$ causal? ::@:: It depends only on present and past excitation.
-- Why is $r(t)=e(t)+e(t+2)$ noncausal? ::@:: It depends on future excitation.
-- Why can noncausal systems still be useful in practice? ::@:: In offline tasks such as compression, expansion, and voice processing, future data may already be available.
-- What is BIBO stability? ::@:: A system is BIBO stable if every bounded input produces a bounded output.
-- Why is BIBO stability important from an engineering perspective? ::@:: Engineers want systems whose outputs do not diverge when the inputs remain bounded.
+- causality and boundedness / comparison ::@:: Causality asks whether future input is needed, whereas boundedness asks whether bounded input always produces bounded output.
+
+### causality
+
+A causal system does not depend on future input values. This matters because a physically realizable real-time system cannot react before its input arrives. In a general linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, causality means $h(t,\tau)=0$ whenever $\tau>t$. In the LTI special case, that becomes the familiar support condition $h(t)=0$ for $t<0$.
+
+A standard causal example is $y(t)=x(t)+x(t-2)$. Its impulse response is $h(t)=\delta(t)+\delta(t-2)$. The system uses the present value and a past value only, so it can be implemented in real time.
+
+A standard noncausal counterexample is $y(t)=x(t+2)$. Its impulse response is $h(t)=\delta(t+2)$. The support at negative time means the output at time $t$ depends on an input value two seconds in the future, so the system violates real-time causality.
+
+The recall picture is support geometry. If the impulse response reaches only zero delay and positive delays, the system is causal. If any part reaches into negative delay, the system is asking for future information. Noncausal systems can still be useful offline, because stored data make the "future" available after the fact.
+
+---
+
+Flashcards for this section are as follows:
+
+- causality / definition ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future input values.
+- causality / impulse-response test ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
+- causality / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)+x(t-2)$. Impulse-response form: $h(t)=\delta(t)+\delta(t-2)$. The system uses only present and past input values.
+- causality / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x(t+2)$. Impulse-response form: $h(t)=\delta(t+2)$. The negative-time support means the output depends on future input.
+- causality / intuition ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
+
+### boundedness (BIBO stability)
+
+The stability notion emphasized in the early systems material is bounded-input bounded-output stability. A system is BIBO stable if every bounded input produces a bounded output. For LTI systems the key impulse-response test is absolute integrability: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
+
+A standard stable example is $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Its impulse response is $h(t)=e^{-t}u(t)$. Since $\int_{-\infty}^{\infty}|h(t)|\,dt=1$, any bounded input $|x(t)|\le M$ produces $|y(t)|\le M\int |h(t)|dt=M$. The system has finite total memory weight, so it cannot amplify a bounded input into an unbounded output.
+
+A standard unstable counterexample is the integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$, whose impulse response is $h(t)=u(t)$. The input $x(t)=u(t)$ is bounded by $1$, yet the output is $y(t)=tu(t)$, which grows without bound. The problem is that $h(t)$ has infinite area, so the system can keep accumulating bounded input forever.
+
+The intuition is that BIBO stability measures whether the system's total response weight is finite. A decaying impulse response forgets enough of the past to keep the output under control. An integrator never really lets go of past input, so even a bounded signal can accumulate into an ever-growing output.
+
+---
+
+Flashcards for this section are as follows:
+
+- boundedness (BIBO stability) / definition ::@:: A system is BIBO stable if every bounded input produces a bounded output.
+- boundedness (BIBO stability) / LTI impulse-response test ::@:: For an LTI system, a key sufficient and standard recognition test is absolute integrability of the impulse response: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
+- boundedness (BIBO stability) / example in input-output and impulse-response form ::@:: Example: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. Its total impulse-response area is finite, so bounded inputs give bounded outputs.
+- boundedness (BIBO stability) / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$. Impulse-response form: $h(t)=u(t)$. The bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$, so the system is not BIBO stable.
+- boundedness (BIBO stability) / intuition ::@:: Stable means the system's total memory weight is finite; unstable means bounded input can keep accumulating without enough decay to hold the output down.
 
 ## linear time-invariant systems and response transfer
 
@@ -269,3 +339,28 @@ Flashcards for this section are as follows:
 - What transform-domain viewpoints are highlighted in the lecture summary? ::@:: Fourier, Laplace, and z-transform viewpoints.
 - What overall transitions organize the course's systems analysis viewpoint? ::@:: From input-output to state-variable description, from time-domain to transform-domain analysis, and from continuous systems to discrete systems.
 - What combination of system properties is especially preferred from an engineering perspective? ::@:: Linear, time-invariant, causal, and stable behavior.
+
+## time-domain analysis methods and differential-equation viewpoint
+
+The time-domain treatment re-enters the systems topic from a more operational angle: once a model has been written, how does one actually obtain the response? The lecture first contrasts two time-domain modelling viewpoints. The **input-output description** writes one higher-order differential or difference equation relating excitation and response directly. The **state-variable description** writes several coupled first-order equations that also track internal variables. The note starts from input-output description because it is the most direct route to classical response calculation.
+
+The lecture also explains why the time-domain route remains worth studying even though later transform methods are often faster. Solving the system equation directly keeps the role of initial conditions visible, offers clearer physical interpretation, and gives the conceptual basis for Laplace-transform and other transform-domain methods. The calculation can be cumbersome, but the meaning is transparent.
+
+For a constant-coefficient continuous-time linear model such as $a_n r^{(n)}(t)+a_{n-1}r^{(n-1)}(t)+\cdots+a_0r(t)=b_m e^{(m)}(t)+b_{m-1}e^{(m-1)}(t)+\cdots+b_0e(t)$, the classical solution method splits the response into a homogeneous part and a particular part. Setting the excitation side to zero gives the homogeneous equation, and the exponential trial $r_h(t)=e^{st}$ produces the characteristic polynomial $a_n s^n+a_{n-1}s^{n-1}+\cdots+a_0=0$. The homogeneous part is built from those characteristic roots and represents the system's natural modes. The particular part is chosen in a form compatible with the input and then determined by substitution. Initial conditions are finally used to determine the remaining constants. This classical picture prepares the later zero-input/zero-state split: zero-input response comes from the homogeneous equation with stored energy, while zero-state response is the input-driven part that convolution will later compute more directly.
+
+The response labels answer different questions and should be mapped explicitly. The classical ODE split $r=r_h+r_p$ is the solving-method split. The engineering split $r=r_{\mathrm{zi}}+r_{\mathrm{zs}}$ is the cause-of-response split. Zero-input response is a homogeneous-solution object with the actual initial conditions. Zero-state response solves the forced equation with zero initial conditions, so it often equals a particular solution plus a homogeneous correction chosen to enforce those zero initial conditions rather than just the particular solution alone.
+
+---
+
+Flashcards for this section are as follows:
+
+- What is the difference between the input-output and state-variable viewpoints in the time-domain roadmap? ::@:: The input-output viewpoint writes one higher-order differential or difference equation relating excitation and response directly, whereas the state-variable viewpoint writes several coupled first-order equations that also track internal variables.
+- Why does the time-domain roadmap begin with input-output description? ::@:: Because it is the most direct route to classical response calculation before the course moves to richer state-variable and transform-domain viewpoints.
+- Why does the lecture still emphasize direct time-domain solution even though transform methods are often faster? ::@:: Because direct solution keeps initial conditions visible, offers clearer physical interpretation, and provides the conceptual basis for later transform-domain methods.
+- What generic constant-coefficient input-output equation captures the classical continuous-time response method? ::@:: A standard form is $a_n r^{(n)}(t)+a_{n-1}r^{(n-1)}(t)+\cdots+a_0r(t)=b_m e^{(m)}(t)+b_{m-1}e^{(m-1)}(t)+\cdots+b_0e(t)$.
+- What exponential trial produces the characteristic polynomial in the classical method? ::@:: Substituting $r_h(t)=e^{st}$ into the homogeneous equation gives the characteristic polynomial $a_n s^n+a_{n-1}s^{n-1}+\cdots+a_0=0$.
+- What is the classical complete-solution split for a constant-coefficient continuous-time differential equation? ::@:: It splits the response into a homogeneous part and a particular part.
+- What does the homogeneous part represent in the classical solution method? ::@:: It represents the system's natural modes and is obtained from the characteristic equation.
+- What does the particular part represent in the classical solution method? ::@:: It represents the part forced by the external input and is determined by choosing an input-matched form and substituting it into the equation.
+- How do initial conditions enter the classical solution method? ::@:: After the homogeneous and particular forms are obtained, the initial conditions determine the remaining constants.
+- How does the classical homogeneous-plus-particular picture foreshadow zero-input and zero-state response? ::@:: Zero-input response comes from the homogeneous equation with stored energy, whereas zero-state response is the input-driven part that convolution later computes directly.

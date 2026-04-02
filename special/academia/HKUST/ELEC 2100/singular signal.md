@@ -80,7 +80,7 @@ Flashcards for this section are as follows:
 - What is the signum function? ::@:: It is $-1$ for negative time, $+1$ for positive time, and usually $0$ at the origin by convention.
 - How is the signum function related to the unit step? ::@:: Away from the origin, $\operatorname{sgn}(t)=2u(t)-1$.
 - What is another step-based expression for the signum function? ::@:: It may be written as $\operatorname{sgn}(t)=u(t)-u(-t)$, with care about the convention at the origin.
-- Worked example: Given $g(t)=u(t-1)-u(t-3)$, what is its graph? ::@:: It is $0$ for $t<1$, $1$ for $1<t<3$, and $0$ for $t>3$, so it is a rectangular pulse with edges at $t=1$ and $t=3$.
+- Worked example: Given $g(t)=u(t-1)-u(t-3)$, what is its graph? ::@:: Step 1: the first step turns on at $t=1$, so the signal jumps from $0$ to $1$ there. <br/> Step 2: the second step turns on at $t=3$ with a minus sign, so the signal drops back by $1$ there. <br/> Step 3: therefore $g(t)=0$ for $t<1$, $1$ for $1<t<3$, and $0$ for $t>3$, i.e. a rectangular pulse between $1$ and $3$.
 - Why does a gate differentiate to an impulse pair while a step differentiates to one impulse? ::@:: A step has one switching edge, whereas a gate has two switching edges.
 
 ## unit impulse: pulse limits and generalized functions
@@ -149,7 +149,7 @@ Flashcards for this section are as follows:
 - Why does substituting $\tau=-t$ prove the parity law? ::@:: It shows $\delta(-t)$ has the same action on every test function as $\delta(t)$.
 - Why does substituting $u=at$ prove the scaling law? ::@:: It produces the factor $1/|a|$ in the defining integral, giving $\delta(at)=\frac{1}{|a|}\delta(t)$.
 - Why does testing against a smooth probe prove the multiplication law? ::@:: Both sides give the same sampled value $f(t_0)g(t_0)$ in every integral against a test function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual derivation card -->
-- Worked example: Given $f(t)=2t+1$, what is $\int_{-\infty}^{\infty}(2t+1)\delta(t-3)dt$? ::@:: The value is $2\cdot 3+1=7$.
+- Worked example: Given $f(t)=2t+1$, what is $\int_{-\infty}^{\infty}(2t+1)\delta(t-3)dt$? ::@:: Step 1: use the sifting property to sample the multiplier at $t=3$. <br/> Step 2: compute $2(3)+1=7$. <br/> Step 3: therefore the integral equals $7$.
 
 ## derivatives of singular signals
 
@@ -170,11 +170,17 @@ Flashcards for this section are as follows:
 - Why does a differentiated gate produce a positive and a negative impulse? ::@:: The rising edge contributes a positive impulse, while the falling edge contributes a negative impulse.
 - What is the derivative of $e^{-t}u(t)$? ::@:: It is $-e^{-t}u(t)+\delta(t)$.
 - Why do switched signals acquire impulse terms when differentiated? ::@:: Differentiation gives the ordinary derivative on smooth intervals plus an impulse at the switching instant.
-- Worked example: Given $G_2(t)=u(t+1)-u(t-1)$, what is its derivative? ::@:: Its derivative is $\delta(t+1)-\delta(t-1)$ because the edges are at $t=-1$ and $t=1$.
+- Worked example: Given $G_2(t)=u(t+1)-u(t-1)$, what is its derivative? ::@:: Step 1: differentiate the rising edge $u(t+1)$ to get $\delta(t+1)$. <br/> Step 2: differentiate the falling edge $-u(t-1)$ to get $-\delta(t-1)$. <br/> Step 3: add the two contributions to obtain $\delta(t+1)-\delta(t-1)$.
 
 ## doublet and higher impulse derivatives
 
 The derivative of the impulse is the doublet, written $\delta'(t)$. Conceptually, the impulse samples a function value, whereas the doublet samples derivative information. The generalized-function definition is $\int_{-\infty}^{\infty}\delta'(t)f(t)dt=-f'(0)$, and more generally $\int_{-\infty}^{\infty}\delta'(t-t_0)f(t)dt=-f'(t_0)$. This follows from integration by parts, with boundary terms vanishing because the test function has compact support.
+
+The minus sign is worth understanding intuitively. In the direct sampling integral, the doublet acts on the function without any time reversal. Think of the doublet as a positive lobe just to the left of the support point and a negative lobe just to the right. If $f$ is increasing near $t_0$, then the right-hand sample values are larger than the left-hand ones, so the negative right lobe outweighs the positive left lobe and the signed result becomes negative. That is why the doublet samples $-f'(t_0)$ rather than $+f'(t_0)$.
+
+This is also a good place to compare direct sampling with convolution. Convolution with a doublet gives a positive derivative: $f*\delta'=f'$. The difference is that convolution flips one factor first. Since $\delta'(t)$ is odd, that flip contributes an extra minus sign, and the extra minus sign cancels the minus sign from the direct sampling rule. A reliable memory aid is therefore: __doublet acting directly under an integral gives negative derivative; doublet used as a convolution kernel gives positive derivative because convolution reverses one factor first__.
+
+One can see the sign cancellation algebraically too. In direct sampling, $\int_{-\infty}^{\infty}\delta'(t-\tau)f(t)\,dt=-f'(\tau)$ because the derivative acts on the test function after integration by parts. But in convolution, $(f*\delta')(t)=\int_{-\infty}^{\infty}f(\tau)\delta'(t-\tau)\,d\tau$. Now $\delta'(t-\tau)=-\frac{d}{d\tau}\delta(t-\tau)$, so integrating by parts in $\tau$ gives $(f*\delta')(t)=\int_{-\infty}^{\infty}f'(\tau)\delta(t-\tau)\,d\tau=f'(t)$. The direct-action minus sign is exactly cancelled by the minus sign coming from differentiating the flipped kernel with respect to $\tau$.
 
 The pulse-limit intuition is an antisymmetric pulse pair. A simple family is $d_\varepsilon(t)=1/\varepsilon^2$ on $(-\varepsilon,0)$, $d_\varepsilon(t)=-1/\varepsilon^2$ on $(0,\varepsilon)$, and $0$ elsewhere. Its total signed area is zero, but for a smooth test function $f$ a first-order Taylor expansion near $0$ shows that $\int d_\varepsilon(t)f(t)dt\to-f'(0)$. Thus the doublet is not "two impulses" in the ordinary sense; it is the limiting derivative-type action represented symbolically by a nearby positive-negative pattern.
 
@@ -191,7 +197,10 @@ Flashcards for this section are as follows:
 - What is the doublet? ::@:: It is the derivative of the impulse and is written $\delta'(t)$.
 - What is the generalized-function definition of the doublet? ::@:: It satisfies $\int_{-\infty}^{\infty}\delta'(t)f(t)dt=-f'(0)$ for suitable test functions.
 - What is the shifted sampling rule for the doublet? ::@:: More generally, $\int_{-\infty}^{\infty}\delta'(t-t_0)f(t)dt=-f'(t_0)$.
+- Why does the doublet sampling rule produce a negative derivative? ::@:: In the direct sampling integral there is no time reversal, so for an increasing function the negative right lobe of the antisymmetric pulse pair samples larger values than the positive left lobe, making the signed result proportional to $-f'(t_0)$.
 - Why does integration by parts define the doublet correctly? ::@:: It transfers the derivative onto the test function, and the boundary terms vanish because the test function has compact support.
+- Why does convolution with a doublet produce a positive derivative even though direct doublet sampling gives a negative derivative? ::@:: Because convolution flips one factor first, and since $\delta'$ is odd that flip contributes an extra minus sign; this cancels the minus sign in the direct sampling rule, so $f*\delta'=f'$.
+- What is the short algebraic reason that $(f*\delta')(t)=f'(t)$ has a positive sign? ::@:: Write $(f*\delta')(t)=\int f(\tau)\delta'(t-\tau)\,d\tau$, use $\delta'(t-\tau)=-\frac{d}{d\tau}\delta(t-\tau)$, then integrate by parts in $\tau$ to get $\int f'(\tau)\delta(t-\tau)\,d\tau=f'(t)$.
 - What is the pulse-pair intuition for the doublet? ::@:: It is the limit of a very narrow positive-negative pulse pair whose total area is zero but whose first-moment effect remains finite.
 - What is a concrete pulse-pair approximation to the doublet? ::@:: One choice is $d_\varepsilon(t)=1/\varepsilon^2$ on $(-\varepsilon,0)$, $-1/\varepsilon^2$ on $(0,\varepsilon)$, and $0$ elsewhere. <!-- check: ignore-line[two_sided_calc_warning]: conceptual formula card -->
 - Why does the doublet have zero signed area? ::@:: The positive and negative parts of the pulse-pair approximation cancel, so the total signed area is zero in the generalized sense.
@@ -201,7 +210,7 @@ Flashcards for this section are as follows:
 - Why does $f(0)\delta'(t)$ not contribute like ordinary area? ::@:: Because $\delta'$ annihilates constants, its integral against $1$ is $0$; the nonzero correction comes from the accompanying $-f'(0)\delta(t)$ term.
 - What do higher impulse derivatives do? ::@:: They satisfy $\int_{-\infty}^{\infty}\delta^{(n)}(t)f(t)dt=(-1)^n f^{(n)}(0)$, so they extract higher-order local derivative information.
 - Why are higher impulse derivatives more singular? ::@:: Each higher derivative reacts to finer local Taylor data of the test function rather than only to value or first slope.
-- Worked example: Given $f(t)=3t^2-1$, what is $\int_{-\infty}^{\infty}(3t^2-1)\delta'(t-2)dt$? ::@:: Since $f'(t)=6t$, the value is $-f'(2)=-12$.
+- Worked example: Given $f(t)=3t^2-1$, what is $\int_{-\infty}^{\infty}(3t^2-1)\delta'(t-2)dt$? ::@:: Step 1: use the doublet sampling rule $\int f(t)\delta'(t-t_0)dt=-f'(t_0)$. <br/> Step 2: differentiate $f(t)$ to get $f'(t)=6t$. <br/> Step 3: evaluate at $t_0=2$ to get $f'(2)=12$. <br/> Step 4: apply the minus sign, giving $-12$.
 
 ## convolution with impulse and impulse derivatives
 
@@ -220,4 +229,4 @@ Flashcards for this section are as follows:
 - What does convolution with the doublet do? ::@:: It differentiates the signal: $f*\delta'=f'$.
 - What does convolution with the nth impulse derivative do? ::@:: It gives the order-$n$ derivative: $f*\delta^{(n)}=f^{(n)}$.
 - Why are impulse derivatives useful in convolution? ::@:: They convert convolution identities into compact differentiation rules, so they encode system calculus efficiently.
-- Worked example: Given $f(t)=e^{-t}u(t)$, what is $f*\delta'(t)$? ::@:: Since convolution with $\delta'$ differentiates, $f*\delta'(t)=-e^{-t}u(t)+\delta(t)$.
+- Worked example: Given $f(t)=e^{-t}u(t)$, what is $f*\delta'(t)$? ::@:: Step 1: use the rule $f*\delta'=f'$. <br/> Step 2: differentiate $e^{-t}u(t)$ using the product rule for switched signals. <br/> Step 3: the smooth part gives $-e^{-t}u(t)$ and the switching at $t=0$ contributes $\delta(t)$. <br/> Step 4: therefore $f*\delta'(t)=-e^{-t}u(t)+\delta(t)$.

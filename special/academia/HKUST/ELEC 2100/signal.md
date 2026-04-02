@@ -102,14 +102,14 @@ Flashcards for this section are as follows:
 - Given a continuous-time signal with fundamental period $T$, what is its fundamental angular frequency? ::@:: Its fundamental angular frequency is $\omega_0=2\pi/T$.
 - Given a sinusoid $A\cos(\omega t+\phi)$ with $\omega\neq 0$, what is its period? ::@:: Its period is $T=2\pi/|\omega|$.
 - When is a sum of sinusoids periodic? ::@:: It is periodic only when the component periods are commensurate, equivalently when the component angular frequencies have rational ratios.
-- Worked example: Given $x(t)=\cos 10t+\cos 30t$, what is the fundamental period? ::@:: The component periods are $\pi/5$ and $\pi/15$, so the fundamental period is $\pi/5$.
+- Worked example: Given $x(t)=\cos 10t+\cos 30t$, what is the fundamental period? ::@:: Step 1: compute the component periods $T_1=2\pi/10=\pi/5$ and $T_2=2\pi/30=\pi/15$. <br/> Step 2: look for the smallest common positive multiple. <br/> Step 3: since $\pi/5=3(\pi/15)$, the common fundamental period is $\pi/5$.
 - What is the continuous-time energy formula for a signal $x(t)$? ::@:: It is $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$.
 - What is the continuous-time average-power formula for a signal $x(t)$? ::@:: It is $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$.
 - What is the difference between signal energy and signal power? ::@:: Energy measures total accumulated squared magnitude over all time, whereas power measures long-term average squared magnitude.
 - Why is a finite-duration pulse usually an energy signal? ::@:: It has finite total energy, but its average power goes to zero when spread over an infinite observation window.
 - Why is a nonzero bounded periodic signal usually a power signal? ::@:: It has finite average power but infinite total energy because it keeps oscillating forever.
-- Worked example: Given $x(t)=1$ for $0\le t\le 2$ and $x(t)=0$ otherwise, what are its energy, average power, and classification? ::@:: Its energy is $2$, its average power is $0$, and it is an energy signal.
-- Worked example: Given $x(t)=\cos t$, what are its average power and classification? ::@:: Its average power is $1/2$, so it is a power signal with infinite total energy.
+- Worked example: Given $x(t)=1$ for $0\le t\le 2$ and $x(t)=0$ otherwise, what are its energy, average power, and classification? ::@:: Step 1: compute the energy $E=\int_{-\infty}^{\infty}|x(t)|^2dt=\int_0^2 1\,dt=2$. <br/> Step 2: compute the long-run average power $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2dt=\lim_{T\to\infty}\frac{2}{2T}=0$. <br/> Step 3: finite nonzero energy and zero average power mean it is an energy signal.
+- Worked example: Given $x(t)=\cos t$, what are its average power and classification? ::@:: Step 1: use $\cos^2 t=\tfrac{1+\cos 2t}{2}$. <br/> Step 2: average over one period to get $P=\frac{1}{2\pi}\int_0^{2\pi}\cos^2 t\,dt=\tfrac12$. <br/> Step 3: a nonzero periodic signal has infinite total energy but finite average power, so it is a power signal.
 
 ## standard continuous-time signal families
 
@@ -147,7 +147,7 @@ Flashcards for this section are as follows:
 - What does the Gaussian pulse $E\exp\!\left(-(t/\tau)^2\right)$ look like conceptually? ::@:: It is a smooth localized pulse with peak value $E$ at $t=0$ and width controlled by $\tau$.
 - What is the difference between a real exponential and a sinusoid? ::@:: A real exponential changes amplitude without oscillating, whereas a sinusoid oscillates with a constant envelope.
 - What is the difference between the sampling signal and the Gaussian pulse? ::@:: The sampling signal oscillates and crosses zero repeatedly, whereas the Gaussian pulse stays positive and decays smoothly without side lobes.
-- Worked example: Given $x(t)=e^{(-2+j3)t}$, what are its envelope behavior and oscillation parameter? ::@:: Its envelope decays like $e^{-2t}$, and its oscillation parameter is $\omega=3$.
+- Worked example: Given $x(t)=e^{(-2+j3)t}$, what are its envelope behavior and oscillation parameter? ::@:: Step 1: split the exponent as $e^{(-2+j3)t}=e^{-2t}e^{j3t}$. <br/> Step 2: the real part $-2$ controls the envelope, so it decays like $e^{-2t}$. <br/> Step 3: the imaginary part $3$ is the oscillation parameter, so $\omega=3$.
 
 ## time transformations and basic operations
 
@@ -171,15 +171,34 @@ Flashcards for this section are as follows:
 - How does time scaling work in $x(at)$? ::@:: If $|a|>1$ it compresses time, if $0<|a|<1$ it expands time, and if $a<0$ it also introduces reversal.
 - What is the substitution trick for input transformations? ::@:: Introduce one substitution at a time and interpret each intermediate expression literally until the desired transformed argument is reached.
 - If a feature of $x(t)$ occurs at $t=t_1$, where does it appear in $x(at+b)$? ::@:: It appears at $t=(t_1-b)/a$.
-- Worked example: How should $x(3t+5)$ be interpreted geometrically? ::@:: Rewrite it as $x(3(t+5/3))$: compress by $3$ and then shift left by $5/3$.
-- Worked example: How should $x(-2t+4)$ be interpreted geometrically? ::@:: Rewrite it as $x(-2(t-2))$: reverse and compress by $2$, then shift right by $2$.
-- Worked example: If a feature of $x(t)$ occurs at $t=t_1$, where does it appear in $x(-2t+4)$? ::@:: It appears at $t=2-t_1/2$.
+- Worked example: How should $x(3t+5)$ be interpreted geometrically? ::@:: Step 1: factor the argument as $3t+5=3(t+5/3)$. <br/> Step 2: the factor $3$ inside compresses time by $3$. <br/> Step 3: the $+5/3$ inside shifts the waveform left by $5/3$. <br/> Step 4: so the transformation is compress, then shift left.
+- Worked example: How should $x(-2t+4)$ be interpreted geometrically? ::@:: Step 1: factor the argument as $-2t+4=-2(t-2)$. <br/> Step 2: the negative sign gives time reversal. <br/> Step 3: the magnitude $2$ compresses time by $2$. <br/> Step 4: the $(t-2)$ term shifts the transformed waveform right by $2$.
+- Worked example: If a feature of $x(t)$ occurs at $t=t_1$, where does it appear in $x(-2t+4)$? ::@:: Step 1: preserve the feature by solving $-2t+4=t_1$. <br/> Step 2: rearrange to $-2t=t_1-4$. <br/> Step 3: divide by $-2$ to get $t=2-t_1/2$.
 - What is the difference between $x(t)+2$ and $x(t+2)$? ::@:: $x(t)+2$ is a vertical upward shift by $2$, whereas $x(t+2)$ is a horizontal shift left by $2$.
 - What do differentiation and integration do to a signal conceptually? ::@:: Differentiation emphasizes rapid change, whereas integration accumulates area over time.
 
 ## complex numbers and orthogonal decompositions
 
 Complex numbers appear early because oscillatory signals are written naturally with complex exponentials. Any complex number may be written in rectangular form $z=x+jy$ or polar form $z=re^{j\theta}$, where $r=|z|$ is magnitude and $\theta=\arg z$ is phase. Euler's relation $e^{j\theta}=\cos\theta+j\sin\theta$ connects the exponential and trigonometric viewpoints, which is why identities such as $\cos(\omega t)=\frac{e^{j\omega t}+e^{-j\omega t}}{2}$ and $\sin(\omega t)=\frac{e^{j\omega t}-e^{-j\omega t}}{2j}$ are so important.
+
+### atan2 and quadrant-aware phase extraction
+
+When phase is recovered from rectangular coordinates, the robust definition is the two-argument angle function $\operatorname{atan2}(y,x)$.  By definition, $\operatorname{atan2}(y,x)$ returns the principal argument of the vector $(x,y)$ or complex number $x+jy$, typically in the range $(-\pi,\pi]$.  Unlike $\arctan(y/x)$, it uses the signs of both inputs and therefore chooses the correct quadrant and remains meaningful when $x=0$.
+
+In signal and spectrum work, this appears whenever a complex quantity is available in rectangular form.  If $z=x+jy$, then $|z|=\sqrt{x^2+y^2}$ and a robust phase is $\arg z=\operatorname{atan2}(y,x)$.  For Fourier analysis this is used as $\phi(\omega)=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$.  Intuitively, `atan2(y, x)` is "the directed angle from the positive real axis to the point with horizontal coordinate $x$ and vertical coordinate $y$".
+
+The easiest recall cue is argument order plus picture: say "`y`, then `x`" while visualizing rise and run on the complex plane.  If a result from plain $\arctan(y/x)$ disagrees with the expected quadrant from signs, $\operatorname{atan2}$ is the correction mechanism that restores the physically meaningful phase.
+
+---
+
+Flashcards for this section are as follows:
+
+- What is the definition of $\operatorname{atan2}(y,x)$ and what range does it usually return? ::@:: $\operatorname{atan2}(y,x)$ returns the principal argument of the point $(x,y)$ or complex number $x+jy$, usually in $(-\pi,\pi]$.
+- What does $\operatorname{atan2}(y,x)$ do that $\arctan(y/x)$ cannot do reliably? ::@:: It uses the signs of both $x$ and $y$ to select the correct quadrant and still works when $x=0$, whereas $\arctan(y/x)$ only sees a ratio and loses quadrant information.
+- How is $\operatorname{atan2}$ interpreted geometrically in complex-number language? ::@:: It is the directed angle from the positive real axis to the vector ending at $(x,y)$, i.e., the phase of $x+jy$.
+- For a Fourier transform written as $F(\omega)=R(\omega)+jX(\omega)$, what is the robust phase-extraction formula? ::@:: $\phi(\omega)=\operatorname{atan2}(X(\omega),R(\omega))=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$.
+- What intuitive recall cue helps avoid argument-order mistakes in $\operatorname{atan2}$? ::@:: Remember "`y` first, `x` second" and picture vertical over horizontal coordinates in the complex plane.
+- Worked example: For $z=-1+j\sqrt{3}$, why is $\arg z$ correctly found by $\operatorname{atan2}(\sqrt{3},-1)$ rather than plain $\arctan(-\sqrt{3})$? ::@:: The signs ($x<0$, $y>0$) place $z$ in quadrant II. <br/> Plain $\arctan(y/x)$ gives only a reference angle and cannot preserve the quadrant by itself. <br/> $\operatorname{atan2}(\sqrt{3},-1)$ returns the correct principal angle in quadrant II.
 
 The same lecture also uses decomposition as an organizing idea. A periodic signal may be written as the sum of a DC part and an AC part. If $x(t)=x_{\mathrm{DC}}+x_{\mathrm{AC}}(t)$, where $x_{\mathrm{DC}}$ is the average over one period and $x_{\mathrm{AC}}$ has zero mean, then the average power splits into a DC part plus an AC part. The cross term vanishes because the AC component has zero average, so the DC and AC parts are orthogonal under the averaging integral.
 
@@ -198,6 +217,8 @@ Flashcards for this section are as follows:
 - What is Euler's relation? ::@:: It is $e^{j\theta}=\cos\theta+j\sin\theta$.
 - How can $\cos(\omega t)$ be written using complex exponentials? ::@:: $\cos(\omega t)=\frac{e^{j\omega t}+e^{-j\omega t}}{2}$.
 - How can $\sin(\omega t)$ be written using complex exponentials? ::@:: $\sin(\omega t)=\frac{e^{j\omega t}-e^{-j\omega t}}{2j}$.
+- What function should be used for quadrant-aware phase extraction from rectangular coordinates? ::@:: Use $\operatorname{atan2}(y,x)$, which returns the principal angle using the signs of both coordinates.
+- Why is $\operatorname{atan2}$ safer than $\arctan(y/x)$ in signal-processing phase calculations? ::@:: Because $\operatorname{atan2}$ preserves quadrant and handles $x=0$, while $\arctan(y/x)$ loses quadrant information.
 - How can a periodic signal be decomposed into DC and AC parts? ::@:: It can be written as a DC part plus an AC part, where the AC part has zero mean.
 - For a periodic signal, how is the DC component obtained? ::@:: It is the average of the signal over one period.
 - Why does the DC-AC cross term vanish in the power split? ::@:: The AC component has zero average over one period, so the mixed term integrates to zero.
@@ -206,9 +227,9 @@ Flashcards for this section are as follows:
 - Why does the even-odd cross term vanish in the power split? ::@:: Over a symmetric interval, the product of an even function and an odd function is odd, so its integral is zero.
 - How are the real and imaginary parts of a complex signal obtained from conjugation? ::@:: They satisfy $x_R(t)=\frac{x(t)+x^*(t)}{2}$ and $x_I(t)=\frac{x(t)-x^*(t)}{2j}$.
 - Why does the power split additively into real and imaginary parts? ::@:: Because $|x(t)|^2=x_R^2(t)+x_I^2(t)$, so the real and imaginary parts contribute on orthogonal axes.
-- Worked example: Given $x(t)=1+\sin t$, what are its DC part, AC part, and average power? ::@:: The DC part is $1$, the AC part is $\sin t$, and the average power is $3/2$.
-- Worked example: Given $x(t)=1+\sin t$, what are its even part, odd part, and power split? ::@:: The even part is $1$, the odd part is $\sin t$, and the power split is $1+1/2=3/2$.
-- Worked example: Given $x(t)=\cos t+j\sin t$, what are the real-part power, imaginary-part power, and total power? ::@:: The real-part power is $1/2$, the imaginary-part power is $1/2$, and the total power is $1$.
+- Worked example: Given $x(t)=1+\sin t$, what are its DC part, AC part, and average power? ::@:: Step 1: the average of $x(t)$ over one period is $1$, so the DC part is $1$. <br/> Step 2: subtract the average to get the AC part $\sin t$. <br/> Step 3: compute power as $1^2+\text{avg}(\sin^2 t)=1+1/2=3/2$.
+- Worked example: Given $x(t)=1+\sin t$, what are its even part, odd part, and power split? ::@:: Step 1: compute $x_e(t)=\tfrac{x(t)+x(-t)}{2}=\tfrac{1+\sin t+1-\sin t}{2}=1$. <br/> Step 2: compute $x_o(t)=\tfrac{x(t)-x(-t)}{2}=\tfrac{1+\sin t-(1-\sin t)}{2}=\sin t$. <br/> Step 3: the cross term vanishes, so the power split is $P_e+P_o=1+1/2=3/2$.
+- Worked example: Given $x(t)=\cos t+j\sin t$, what are the real-part power, imaginary-part power, and total power? ::@:: Step 1: the real part is $\cos t$, whose average power is $1/2$. <br/> Step 2: the imaginary part is $\sin t$, whose average power is also $1/2$. <br/> Step 3: add the orthogonal contributions to get total power $1/2+1/2=1$.
 
 ## discrete-time sequences and periodicity
 
