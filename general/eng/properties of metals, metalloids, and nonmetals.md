@@ -27,7 +27,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 
 > __flashcards__
 >
-> - properties ::@:: appearance, deformability (as a solid), density, electrical conductivity, form, melting point, thermal conductivity, etc. <!--SR:!2026-04-05,66,310!2026-04-03,64,310-->
+> - properties ::@:: appearance, deformability (as a solid), density, electrical conductivity, form, melting point, thermal conductivity, etc. <!--SR:!2026-04-05,66,310!2027-01-09,281,330-->
 > - appearance
 >   - appearance / metal :@: - mostly shiny and grey-white <!--SR:!2026-04-04,65,310-->
 >   - appearance / metalloid :@: - shiny and grey-white <!--SR:!2026-04-05,66,310-->
@@ -37,7 +37,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 >   - deformability (as a solid) / metalloid :@: - brittle <!--SR:!2026-04-06,67,310-->
 >   - deformability (as a solid) / nonmetal :@: - brittle <br/> - some non-brittle <!--SR:!2026-04-05,66,310-->
 > - [density](density.md)
->   - [density](density.md) / metal :@: - mostly high <br/> - exceptional example(s): [alkali metals](alkali%20metal.md) <!--SR:!2026-04-03,64,310-->
+>   - [density](density.md) / metal :@: - mostly high <br/> - exceptional example(s): [alkali metals](alkali%20metal.md) <!--SR:!2027-01-05,277,330-->
 >   - [density](density.md) / metalloid :@: - between metals and nonmetals <!--SR:!2026-04-06,67,310-->
 >   - [density](density.md) / nonmetal :@: - mostly low <!--SR:!2026-04-04,65,310-->
 > - [electrical conductivity](electrical%20conductivity.md)
@@ -51,9 +51,9 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 > - [melting point](melting%20point.md)
 >   - [melting point](melting%20point.md) / metal :@: - mostly high <br/> - exceptional example(s): [Na](sodium.md) <!--SR:!2026-09-30,196,310-->
 >   - [melting point](melting%20point.md) / metalloid :@: - mostly high <!--SR:!2026-04-05,66,310-->
->   - [melting point](melting%20point.md) / nonmetal :@: - mostly low <!--SR:!2026-04-03,64,310-->
+>   - [melting point](melting%20point.md) / nonmetal :@: - mostly low <!--SR:!2027-01-08,280,330-->
 > - [thermal conductivity](thermal%20conductivity.md)
->   - [thermal conductivity](thermal%20conductivity.md) / metal :@: - medium to high <!--SR:!2026-04-03,64,310-->
+>   - [thermal conductivity](thermal%20conductivity.md) / metal :@: - medium to high <!--SR:!2027-01-09,281,330-->
 >   - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: - mostly intermediate <br/> - high: [Si](silicon.md) <!--SR:!2026-04-06,67,310-->
 >   - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: - almost negligible to very high <!--SR:!2026-04-06,67,310-->
 

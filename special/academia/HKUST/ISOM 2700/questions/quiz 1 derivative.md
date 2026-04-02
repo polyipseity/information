@@ -75,7 +75,7 @@ tags:
 > At process capacity, what is the utilization of the testing machines?
 >
 > - solution: {@{60%}@}
-> - explanation: {@{The process capacity is calculated above as 12 units per hour. In testing, each unit takes 60/20 = 3&nbsp;minutes. The capacity is thus 60/3 = 20 units per hour. Thus, utilization is 12/20 = 60%.}@} <!--SR:!2026-04-03,275,330!2026-04-24,291,330-->
+> - explanation: {@{The process capacity is calculated above as 12 units per hour. In testing, each unit takes 60/20 = 3&nbsp;minutes. The capacity is thus 60/3 = 20 units per hour. Thus, utilization is 12/20 = 60%.}@} <!--SR:!2029-09-07,1253,350!2026-04-24,291,330-->
 
 <!-- markdownlint MD028 -->
 

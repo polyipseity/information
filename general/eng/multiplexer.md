@@ -50,7 +50,7 @@ Multiplexers are {@{part of computer systems to select data from a specific sour
 
 > {@{![The basic function of a multiplexer: combining multiple inputs into a single data stream. On the receiving side, a demultiplexer splits the single data stream into the original multiple signals.](../../archives/Wikimedia%20Commons/Telephony%20multiplexer%20system.gif)}@}
 >
-> The basic function of {@{a multiplexer}@}: {@{combining multiple inputs into a single data stream}@}. On {@{the receiving side}@}, {@{a demultiplexer splits the single data stream into the original multiple signals}@}. <!--SR:!2026-04-03,316,344!2030-02-18,1431,364!2030-03-21,1456,364!2026-04-16,329,344!2030-04-27,1488,364-->
+> The basic function of {@{a multiplexer}@}: {@{combining multiple inputs into a single data stream}@}. On {@{the receiving side}@}, {@{a demultiplexer splits the single data stream into the original multiple signals}@}. <!--SR:!2030-05-14,1502,364!2030-02-18,1431,364!2030-03-21,1456,364!2026-04-16,329,344!2030-04-27,1488,364-->
 
 In {@{digital communications}@}, multiplexers allow {@{several connections over a single channel}@}, by {@{connecting the multiplexer's single output to the demultiplexer's single input \(Time-Division Multiplexing\)}@}. The image to the right {@{demonstrates this benefit}@}. In this case, {@{the cost of implementing separate channels for each data source}@} is {@{higher than the cost and inconvenience of providing the multiplexing/demultiplexing functions}@}. <!--SR:!2029-12-14,1376,364!2026-04-04,317,344!2026-04-30,341,344!2029-12-15,1377,364!2030-02-14,1427,364!2030-01-29,1414,364-->
 
@@ -70,7 +70,7 @@ For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} an
 >
 > {@{A 2-to-1 mux}@} <!--SR:!2030-02-15,1428,364!2026-04-06,319,344-->
 
-{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-05,318,344!2030-05-04,1493,364!2029-02-01,1117,350!2026-04-03,316,344!2029-03-06,1146,350-->
+{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-05,318,344!2030-05-04,1493,364!2029-02-01,1117,350!2030-05-08,1496,364!2029-03-06,1146,350-->
 
 | $$S_{0}$$ | $$A$$ | $$B$$ | $$Z$$ |
 | --------- | ----- | ----- | ----- |
@@ -104,7 +104,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 >
 > {@{![16-to-1 mux](../../archives/Wikimedia%20Commons/Multiplexer%2016-to-1.svg)}@}
 >
-> {@{16-to-1 mux}@} <!--SR:!2030-02-04,1419,364!2030-01-21,1407,364!2026-04-27,338,344!2026-04-03,316,344!2030-02-01,1416,364!2026-04-07,320,344-->
+> {@{16-to-1 mux}@} <!--SR:!2030-02-04,1419,364!2030-01-21,1407,364!2026-04-27,338,344!2030-05-13,1501,364!2030-02-01,1416,364!2026-04-07,320,344-->
 
 {@{The Boolean equation for a 4-to-1 multiplexer}@} is: <p> {@{$Z=(A\wedge \neg {S_{1} }\wedge \neg S_{0})\vee (B\wedge \neg S_{1}\wedge S_{0})\vee (C\wedge S_{1}\wedge \neg S_{0})\vee (D\wedge S_{1}\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{1} } }\cdot {\overline {S_{0} } })+(B\cdot {\overline {S_{1} } }.S_{0})+(C\cdot S_{1}\cdot {\overline {S_{0} } })+(D\cdot S_{1}\cdot S_{0})$}@} Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-19,332,344!2026-04-16,329,344!2026-04-18,331,344-->
 
@@ -125,7 +125,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 ### chaining multiplexers and mux trees
 
-{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2030-02-03,1418,364!2026-04-30,341,344!2028-12-27,1081,350!2026-05-01,342,344!2028-06-20,938,344!2026-04-03,316,344!2030-02-10,1424,364-->
+{@{Larger Multiplexers}@} can be {@{constructed by using smaller multiplexers}@} by {@{chaining them together in what are called "mux trees"}@}. For example, {@{an 8:1 multiplexer}@} can be made with {@{two 4:1 and one 2:1 multiplexers}@}. The two 4:1 multiplexer {@{outputs are fed into the 2:1 with the selector pins on the 4:1's put in parallel}@} giving {@{a total number of selector inputs to 3, which is equivalent to an 8:1}@}. <!--SR:!2030-02-03,1418,364!2026-04-30,341,344!2028-12-27,1081,350!2026-05-01,342,344!2028-06-20,938,344!2030-05-07,1495,364!2030-02-10,1424,364-->
 
 ### list of ICs which provide multiplexing
 
@@ -180,7 +180,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 ## multiplexers as PLDs
 
-Multiplexers can also be used as {@{[programmable logic devices](programmable%20logic%20device.md), to implement Boolean functions}@}. {@{Any Boolean function of _n_ variables and one result}@} can be {@{implemented with a multiplexer with _n_ selector inputs}@}. {@{The variables are connected to the selector inputs}@}, and {@{the function result, 0 or 1, for each possible combination of selector inputs}@} is {@{connected to the corresponding data input}@}. If {@{one of the variables \(for example, _D_\) is also available inverted}@}, {@{a multiplexer with _n_−1 selector inputs is sufficient}@}; the data inputs are {@{connected to 0, 1, _D_, or ~_D_}@}, according to {@{the desired output for each combination of the selector inputs}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2030-05-06,1495,364!2026-04-13,326,344!2026-05-01,342,344!2026-04-28,339,344!2026-04-24,335,344!2026-04-03,316,344!2026-04-19,332,344!2030-01-22,1408,364!2028-10-19,1040,350!2030-04-20,1481,364-->
+Multiplexers can also be used as {@{[programmable logic devices](programmable%20logic%20device.md), to implement Boolean functions}@}. {@{Any Boolean function of _n_ variables and one result}@} can be {@{implemented with a multiplexer with _n_ selector inputs}@}. {@{The variables are connected to the selector inputs}@}, and {@{the function result, 0 or 1, for each possible combination of selector inputs}@} is {@{connected to the corresponding data input}@}. If {@{one of the variables \(for example, _D_\) is also available inverted}@}, {@{a multiplexer with _n_−1 selector inputs is sufficient}@}; the data inputs are {@{connected to 0, 1, _D_, or ~_D_}@}, according to {@{the desired output for each combination of the selector inputs}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2030-05-06,1495,364!2026-04-13,326,344!2026-05-01,342,344!2026-04-28,339,344!2026-04-24,335,344!2030-05-06,1494,364!2026-04-19,332,344!2030-01-22,1408,364!2028-10-19,1040,350!2030-04-20,1481,364-->
 
 ## unconventional use of multiplexers for arithmetic
 

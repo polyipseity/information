@@ -184,7 +184,7 @@ Suppose {@{__f__ : __R__<sup>_n_</sup> → __R__<sup>_m_</sup>}@} is {@{a functi
 
 ### gradient of a vector field
 
-- See also: ::@:: [Covariant derivative](covariant%20derivative.md) <!--SR:!2026-04-03,194,310!2026-06-14,267,330-->
+- See also: ::@:: [Covariant derivative](covariant%20derivative.md) <!--SR:!2028-07-13,832,330!2026-06-14,267,330-->
 
 Since {@{the [total derivative](total%20derivative.md) of a vector field}@} is {@{a [linear mapping](linear%20mapping.md) from vectors to vectors}@}, it is {@{a [tensor](tensor.md) quantity}@}. <!--SR:!2026-05-12,240,330!2026-09-09,340,349!2026-09-23,352,349-->
 

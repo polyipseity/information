@@ -145,7 +145,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-17T09:00:00+08:00/2025-02-17T10:20:00+08:00
 - topic: electric potential energy
-- experiment: fluorescent tube ::@:: Bring a fluorescent tube near the surface of a van der Graff generator. The tube lights up, as the distance to the sphere of the van der Graff generator decreases. <!--SR:!2026-11-07,499,397!2026-04-03,309,377-->
+- experiment: fluorescent tube ::@:: Bring a fluorescent tube near the surface of a van der Graff generator. The tube lights up, as the distance to the sphere of the van der Graff generator decreases. <!--SR:!2026-11-07,499,397!2029-06-10,1164,377-->
   - experiment: fluorescent tube / interpretation ::@:: Strong electric fields created by the van der Garff generator causes arc discharges in the tube. Atoms becomes a plasma of positively charged ions and electrons. They gain kinetic energy due to Coulomb forces. This energy is transferred to mercury atoms via inelastic collisions. Mercury atoms emit this energy away via radiation. <!--SR:!2030-07-01,1558,397!2026-05-04,340,377-->
 - [work](../../../../general/work%20(physics).md)
   - work / line integral ::@:: If the force is variable, then work is given by the [line integral](../../../../general/line%20integral.md): $$W=\int {\vec {F} }\cdot d{\vec {s} }$$ where $d{\vec {s} }$ is the tiny change in displacement vector. <!--SR:!2026-11-09,502,397!2026-05-03,339,377-->

@@ -66,7 +66,7 @@ Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS
 >
 > Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2026-04-04,67,310!2026-12-18,264,330!2026-11-19,248,330!2026-12-01,251,330!2026-04-05,67,310!2027-01-01,275,330-->
 
-Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-12-16,263,330!2026-11-11,241,330!2026-12-11,259,330!2026-04-05,67,310!2026-04-04,67,310!2026-04-03,65,310-->
+Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-12-16,263,330!2026-11-11,241,330!2026-12-11,259,330!2026-04-05,67,310!2026-04-04,67,310!2027-01-13,285,330-->
 
 Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surrounding `try/catch` blocks unless explicitly handled inside the callback}@}. <!--SR:!2026-12-11,259,330!2027-01-01,275,330-->
 
@@ -166,7 +166,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 `Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!2026-11-10,241,330!2026-11-25,253,330!2026-04-05,67,310!2026-12-06,255,330!2026-04-04,67,310!2026-10-30,231,330-->
 
-{@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-12-15,261,330!2026-04-03,65,310!2026-04-03,65,310!2026-11-11,241,330-->
+{@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-12-15,261,330!2027-01-13,285,330!2027-01-12,284,330!2026-11-11,241,330-->
 
 > [!example] __`Future.map`__
 >
@@ -177,7 +177,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   grindBeans().map(b => brew(b))
 > ```
 >
-> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2027-01-08,281,330!2026-11-15,245,330!2026-12-16,263,330!2026-04-05,67,310!2027-01-01,276,330!2026-04-04,67,310!2026-04-03,65,310-->
+> {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2027-01-08,281,330!2026-11-15,245,330!2026-12-16,263,330!2026-04-05,67,310!2027-01-01,276,330!2026-04-04,67,310!2027-01-12,284,330-->
 
 When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2027-01-01,276,330!2026-04-04,67,310!2026-11-13,243,330!2026-12-13,259,330!2026-12-30,273,330!2026-10-27,228,330-->
 

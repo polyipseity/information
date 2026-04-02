@@ -23,11 +23,11 @@ tags:
 
 - see: [general/state (computer science)](../../../../general/state%20(computer%20science).md)
 
-{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-04-03,62,310!2026-12-10,255,330!2026-12-21,263,330!2026-11-13,237,330!2026-11-06,231,330!2026-11-29,251,330!2026-04-03,62,310!2026-12-15,259,330-->
+{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-12-29,270,330!2026-12-10,255,330!2026-12-21,263,330!2026-11-13,237,330!2026-11-06,231,330!2026-11-29,251,330!2026-12-28,269,330!2026-12-15,259,330-->
 
 ## substitution model
 
-{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!2026-11-12,237,330!2026-04-04,63,310!2026-04-03,62,310!2026-11-29,251,330-->
+{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!2026-11-12,237,330!2026-04-04,63,310!2026-12-30,271,330!2026-11-29,251,330-->
 
 > [!example] __substitution rule__
 >
@@ -39,7 +39,7 @@ tags:
 > ```
 <!--SR:!2026-12-01,252,330!2026-11-17,241,330-->
 
-{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2026-04-04,63,310!2026-11-11,236,330!2026-04-03,62,310!2026-04-04,63,310!2026-12-24,266,330!2026-12-02,253,330-->
+{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2026-04-04,63,310!2026-11-11,236,330!2026-12-31,272,330!2026-04-04,63,310!2026-12-24,266,330!2026-12-02,253,330-->
 
 > [!example] __rewrite of `iterate`__
 >
@@ -92,7 +92,7 @@ tags:
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-12-25,267,330!2026-12-19,261,330-->
 
-Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-04-03,62,310!2026-11-14,238,330!2026-12-10,255,330!2026-11-14,238,330!2026-11-29,251,330-->
+Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!2026-11-14,238,330!2026-12-10,255,330!2026-11-14,238,330!2026-11-29,251,330-->
 
 > [!example] __mutable tail list implementation__
 >
@@ -125,7 +125,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 
 ## operational equivalence
 
-{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-12-17,260,330!2026-11-12,237,330!2026-12-15,259,330!2026-04-03,62,310!2026-11-12,237,330!2026-11-16,240,330-->
+{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-12-17,260,330!2026-11-12,237,330!2026-12-15,259,330!2026-12-31,272,330!2026-11-12,237,330!2026-11-16,240,330-->
 
 {@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-12-14,258,330!2026-12-15,259,330!2026-11-14,238,330!2026-04-04,63,310!2026-11-13,237,330!2026-11-15,239,330-->
 
@@ -153,6 +153,6 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > val y = x          // y refers to the same account
 > // Substituting y with BankAccount() would change the program
 > ```
-<!--SR:!2026-04-03,62,310!2026-11-11,236,330!2026-12-20,263,330!2026-11-11,236,330-->
+<!--SR:!2026-12-31,272,330!2026-11-11,236,330!2026-12-20,263,330!2026-11-11,236,330-->
 
 {@{A model more robust than the substitution model}@} introduces {@{a store that tracks mutable objects}@}, but this adds {@{considerable complexity}@}. <!--SR:!2026-11-22,245,330!2026-12-20,262,330!2026-12-23,265,330-->

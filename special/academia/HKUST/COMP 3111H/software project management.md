@@ -28,12 +28,12 @@ tags:
 
 ## software development plan
 
-{@{The _software development plan_ (SDP)}@} is {@{the master document}@} that defines {@{project scope and governs how the effort will be managed}@}. It specifies {@{objectives, constraints, deliverables, schedules}@}, {@{resources, risk mitigation strategies, and quality assurance requirements}@}, thereby serving as {@{the blueprint for the entire development cycle}@}. A SDP includes: (annotation: 9 items: {@{deliverables, development environment, work breakdown structure}@}, {@{staffing and organization, schedules, estimates}@}, {@{metrics plan, risk planning, time-phased budget}@}). <!--SR:!2026-04-15,75,326!2026-04-19,79,343!2026-04-21,81,343!2026-04-18,78,343!2026-04-03,63,310!2026-04-23,83,343!2026-04-14,74,326!2026-04-23,83,343!2026-04-11,71,326-->
+{@{The _software development plan_ (SDP)}@} is {@{the master document}@} that defines {@{project scope and governs how the effort will be managed}@}. It specifies {@{objectives, constraints, deliverables, schedules}@}, {@{resources, risk mitigation strategies, and quality assurance requirements}@}, thereby serving as {@{the blueprint for the entire development cycle}@}. A SDP includes: (annotation: 9 items: {@{deliverables, development environment, work breakdown structure}@}, {@{staffing and organization, schedules, estimates}@}, {@{metrics plan, risk planning, time-phased budget}@}). <!--SR:!2026-04-15,75,326!2026-04-19,79,343!2026-04-21,81,343!2026-04-18,78,343!2027-01-04,276,330!2026-04-23,83,343!2026-04-14,74,326!2026-04-23,83,343!2026-04-11,71,326-->
 
 1. _Deliverables_ ::@:: – tangible outputs of each phase. <!--SR:!2026-04-15,75,326!2026-04-23,83,343-->
 2. _Development Environment_ ::@:: – tools, platforms, standards. <!--SR:!2026-04-11,71,326!2026-04-21,81,343-->
 3. _Work Breakdown Structure_ (WBS) ::@:: – hierarchical decomposition of tasks. <!--SR:!2026-04-18,78,343!2026-04-17,77,343-->
-4. _Staffing and Organization_ ::@:: – roles and responsibilities. <!--SR:!2026-04-13,73,326!2026-04-03,63,310-->
+4. _Staffing and Organization_ ::@:: – roles and responsibilities. <!--SR:!2026-04-13,73,326!2027-01-04,276,330-->
 5. _Schedules_ ::@:: – time‑phased milestones and activities. <!--SR:!2026-04-22,82,343!2026-04-13,73,326-->
 6. _Estimates_ ::@:: – effort, cost, and size predictions. <!--SR:!2026-04-17,77,343!2026-04-23,83,343-->
 7. _Metrics Plan_ ::@:: – measurement strategy for quality and progress. <!--SR:!2026-04-17,77,343!2026-04-21,81,343-->
@@ -42,13 +42,13 @@ tags:
 
 {@{Developing the SDP}@} is a {@{constrained-optimization problem}@}. Because {@{data are incomplete}@}—{@{requirements may be ambiguous, resource availability uncertain, and technical complexity difficult to estimate}@}—the plan must {@{balance competing goals (budget, schedule, quality)}@} while satisfying {@{contractual and organizational constraints}@}. <!--SR:!2026-04-15,75,326!2026-04-21,81,343!2026-04-14,74,326!2026-04-18,78,343!2026-04-21,81,343!2026-04-17,77,343-->
 
-{@{Inputs from people are synthesized}@} to produce a {@{coherent SDP}@} that guides all subsequent {@{planning, execution, monitoring, and control activities}@}. They include {@{the _development manager_}@} who {@{organizes tasks, allocates budget, and coordinates the team}@}; {@{an _experienced system architect_}@} who {@{designs the top-level structure and provides estimates of technical size}@}; and {@{a _domain expert or user representative_}@} who {@{supplies deep knowledge of functional requirements and business context}@}. <!--SR:!2026-04-23,83,343!2026-04-18,78,343!2026-04-17,77,343!2026-04-17,77,343!2026-04-13,73,326!2026-04-03,63,310!2026-04-23,83,343!2026-04-22,82,343!2026-04-15,75,326-->
+{@{Inputs from people are synthesized}@} to produce a {@{coherent SDP}@} that guides all subsequent {@{planning, execution, monitoring, and control activities}@}. They include {@{the _development manager_}@} who {@{organizes tasks, allocates budget, and coordinates the team}@}; {@{an _experienced system architect_}@} who {@{designs the top-level structure and provides estimates of technical size}@}; and {@{a _domain expert or user representative_}@} who {@{supplies deep knowledge of functional requirements and business context}@}. <!--SR:!2026-04-23,83,343!2026-04-18,78,343!2026-04-17,77,343!2026-04-17,77,343!2026-04-13,73,326!2027-01-04,276,330!2026-04-23,83,343!2026-04-22,82,343!2026-04-15,75,326-->
 
 ## deliverables
 
 {@{The SDP}@} defines {@{_what_ is produced, _for whom_, and _when_}@}. It includes {@{client-directed items, process artifacts, internal deliverables, and services}@}. <!--SR:!2026-04-22,82,343!2026-04-19,79,343!2026-04-17,77,343-->
 
-{@{_Client-directed items_}@} are {@{tangible products}@} such as {@{executable code, installation scripts, tutorials}@}, {@{user manuals, help files, and licensing tools}@}. {@{_Process artifacts_}@} {@{capture the work itself}@}: {@{requirements documents, analysis and design specifications, source code and object-design files}@}.  {@{_Internal deliverables_}@} of {@{lasting value to the organization}@} include {@{reusable libraries, build scripts and test repositories}@}.  {@{_Services_}@} that {@{augment the core product}@}—{@{training, installation, customization, consulting, or on-site support}@}—are also listed in {@{the SDP}@}. <!--SR:!2026-11-27,255,330!2026-04-22,82,343!2026-04-03,63,310!2026-04-13,73,326!2026-04-22,82,343!2026-04-17,77,343!2026-09-10,177,310!2026-04-22,82,343!2026-04-23,83,343!2026-04-15,75,326!2026-04-13,73,326!2026-04-12,72,326!2026-04-09,69,326!2026-04-14,74,326-->  
+{@{_Client-directed items_}@} are {@{tangible products}@} such as {@{executable code, installation scripts, tutorials}@}, {@{user manuals, help files, and licensing tools}@}. {@{_Process artifacts_}@} {@{capture the work itself}@}: {@{requirements documents, analysis and design specifications, source code and object-design files}@}.  {@{_Internal deliverables_}@} of {@{lasting value to the organization}@} include {@{reusable libraries, build scripts and test repositories}@}.  {@{_Services_}@} that {@{augment the core product}@}—{@{training, installation, customization, consulting, or on-site support}@}—are also listed in {@{the SDP}@}. <!--SR:!2026-11-27,255,330!2026-04-22,82,343!2027-01-04,276,330!2026-04-13,73,326!2026-04-22,82,343!2026-04-17,77,343!2026-09-10,177,310!2026-04-22,82,343!2026-04-23,83,343!2026-04-15,75,326!2026-04-13,73,326!2026-04-12,72,326!2026-04-09,69,326!2026-04-14,74,326-->  
 
 These classifications guide {@{staffing decisions and team structure}@}: {@{larger client products}@} may require {@{dedicated delivery teams}@}, whereas {@{internal artifacts}@} can be handled by {@{cross-functional developers}@}. <!--SR:!2026-04-20,80,343!2026-11-26,254,330!2026-04-14,74,326!2026-04-17,77,343!2026-04-21,81,343-->
 
@@ -96,7 +96,7 @@ The {@{PERT chart}@} may be accompanied by {@{two tables}@}. The {@{_task table_
 
 ## estimates
 
-{@{The SDP}@} contains {@{quantitative predictions}@} for {@{size, effort, duration, productivity and cost}@}.  {@{Size}@} may be expressed as {@{LOC, number of subsystems or classes}@}; {@{effort}@} is {@{persons×time}@}; {@{duration}@} is {@{months to delivery}@}; {@{productivity}@} is {@{size per person-month}@}; {@{cost}@} follows from {@{labour rates}@}. <!--SR:!2026-04-18,78,343!2026-04-19,79,343!2026-04-17,77,343!2026-04-17,77,343!2026-04-18,78,343!2026-04-21,81,343!2026-04-19,79,343!2026-04-19,79,343!2026-04-11,71,326!2026-04-17,77,343!2026-04-13,73,326!2026-04-03,63,310!2026-04-21,81,343-->
+{@{The SDP}@} contains {@{quantitative predictions}@} for {@{size, effort, duration, productivity and cost}@}.  {@{Size}@} may be expressed as {@{LOC, number of subsystems or classes}@}; {@{effort}@} is {@{persons×time}@}; {@{duration}@} is {@{months to delivery}@}; {@{productivity}@} is {@{size per person-month}@}; {@{cost}@} follows from {@{labour rates}@}. <!--SR:!2026-04-18,78,343!2026-04-19,79,343!2026-04-17,77,343!2026-04-17,77,343!2026-04-18,78,343!2026-04-21,81,343!2026-04-19,79,343!2026-04-19,79,343!2026-04-11,71,326!2026-04-17,77,343!2026-04-13,73,326!2027-01-04,276,330!2026-04-21,81,343-->
 
 {@{Estimates}@} are derived from {@{experience, historical data, analytic models or a combination}@}.  They carry {@{risk}@} but the {@{risk can be reduced}@} by defining {@{scope early, using past project metrics}@} and breaking {@{the work into small parts that can be summed}@}. <!--SR:!2026-04-20,80,343!2026-04-14,74,326!2026-04-12,72,326!2026-04-15,83,343!2026-04-20,80,343!2026-04-18,78,343-->
 
@@ -107,7 +107,7 @@ The {@{PERT chart}@} may be accompanied by {@{two tables}@}. The {@{_task table_
 - _productivity metrics_ ::@:: evaluate output from the engineering process. <!--SR:!2026-04-17,77,343!2026-04-12,72,326-->
 - _size‑oriented metrics_ ::@:: directly count development artifacts (LOC, KLOC). <!--SR:!2026-04-15,75,326!2026-04-17,77,343-->
 - _function‑oriented metrics_ ::@:: assess functional characteristics (function points). <!--SR:!2026-04-10,70,326!2026-04-15,75,326-->
-- _human‑oriented metrics_ ::@:: capture people factors and tool effectiveness. <!--SR:!2026-04-17,77,343!2026-04-03,63,310-->
+- _human‑oriented metrics_ ::@:: capture people factors and tool effectiveness. <!--SR:!2026-04-17,77,343!2027-01-04,276,330-->
 
 ### function-point counting
 
@@ -134,7 +134,7 @@ It improves upon using {@{size (e.g. KLOC in place of FP, and where all data com
 
 ### estimation risk mitigation
 
-Verify that the team has {@{experience on comparable systems}@}.  Collect {@{detailed metrics (FP, LOC, error counts)}@} from previous projects to {@{calibrate models}@}.  Perform {@{multiple estimation methods}@} and {@{cross-check results}@}.  Recognise that {@{incomplete requirements inflate uncertainty}@}; aim for {@{clear scope before estimating}@}. <!--SR:!2026-04-11,71,326!2026-04-13,73,326!2026-04-21,81,343!2026-04-03,63,310!2026-04-22,82,343!2026-04-07,67,310!2026-04-20,80,343-->
+Verify that the team has {@{experience on comparable systems}@}.  Collect {@{detailed metrics (FP, LOC, error counts)}@} from previous projects to {@{calibrate models}@}.  Perform {@{multiple estimation methods}@} and {@{cross-check results}@}.  Recognise that {@{incomplete requirements inflate uncertainty}@}; aim for {@{clear scope before estimating}@}. <!--SR:!2026-04-11,71,326!2026-04-13,73,326!2026-04-21,81,343!2027-01-04,276,330!2026-04-22,82,343!2026-04-07,67,310!2026-04-20,80,343-->
 
 {@{A well-calibrated cost model}@} should predict {@{within 20% of actual costs}@} in roughly {@{70% of cases on the same set of projects}@}. <!--SR:!2026-11-25,253,330!2026-04-20,80,343!2026-04-17,77,343-->
 
@@ -162,7 +162,7 @@ Verify that the team has {@{experience on comparable systems}@}.  Collect {@{det
 
 {@{These practices}@} together create {@{a feedback loop}@} that keeps the project {@{aligned with its commitments}@} while allowing {@{controlled change through SCM}@}: <!--SR:!2026-04-23,83,343!2026-04-14,74,326!2026-04-18,78,343!2026-04-12,72,326-->
 
-- Periodic status meetings ::@:: —daily, weekly or monthly—provide an official forum for updates. <!--SR:!2026-04-03,63,310!2026-04-14,82,343-->
+- Periodic status meetings ::@:: —daily, weekly or monthly—provide an official forum for updates. <!--SR:!2027-01-04,276,330!2026-04-14,82,343-->
 - Project reviews ::@:: evaluate the outcomes of each meeting and identify corrective actions. <!--SR:!2026-04-20,80,343!2026-04-13,73,326-->
 - Key performance indicators (KPIs) and milestones ::@:: are checked against planned dates to spot delays early. <!--SR:!2026-04-20,80,343!2026-04-17,77,343-->
 - Budget versus forecast ::@:: is compared continually; any variance triggers a reassessment of resource allocation. <!--SR:!2026-04-22,82,343!2026-04-13,73,326-->

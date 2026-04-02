@@ -385,7 +385,7 @@ Unfortunately, {@{most practical Prolog systems}@} skip {@{the occurrence check 
 > append([X|Xs], Ys, [X|Zs]) :- append(Xs, Ys, Zs).  % rule
 > ```
 >
-> {@{A query `?- append([1], [2,3], X).`}@} forces the interpreter to {@{try the two clauses in order}@}. The first clause fails because {@{`[1]` does not unify with `[]`}@}. The second succeeds after {@{recursively unifying the head and then the body}@}; {@{backtracking stops}@} as soon as {@{a solution is found}@}. <!--SR:!2026-04-12,68,322!2026-04-16,72,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-12,70,322!2026-04-11,69,322!2026-04-14,70,322!2026-04-14,70,322!2026-04-12,70,322!2026-04-03,63,310!2026-04-10,68,322!2026-04-18,74,322-->
+> {@{A query `?- append([1], [2,3], X).`}@} forces the interpreter to {@{try the two clauses in order}@}. The first clause fails because {@{`[1]` does not unify with `[]`}@}. The second succeeds after {@{recursively unifying the head and then the body}@}; {@{backtracking stops}@} as soon as {@{a solution is found}@}. <!--SR:!2026-04-12,68,322!2026-04-16,72,322!2026-04-13,71,322!2026-04-18,74,322!2026-04-12,70,322!2026-04-11,69,322!2026-04-14,70,322!2026-04-14,70,322!2026-04-12,70,322!2027-01-04,276,330!2026-04-10,68,322!2026-04-18,74,322-->
 
 Unification binds {@{variables consistently across all parts of the goal in the _most general_ way}@}, enabling Prolog to search for {@{any assignment that satisfies the whole query}@}. When {@{several clauses match}@}, the interpreter explores {@{each alternative in turn, yielding multiple solutions if they exist}@}. <!--SR:!2026-04-15,71,322!2026-04-18,74,322!2026-04-12,70,322!2026-04-10,68,322-->
 

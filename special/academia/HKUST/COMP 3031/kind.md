@@ -94,7 +94,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def flatMap[U](f: T => List[U]): List[U] = x.flatMap(f)
 > ```
 >
-> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-11-27,255,330!2026-11-10,241,330!2026-04-03,62,310!2026-10-26,207,310-->
+> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-11-27,255,330!2026-11-10,241,330!2026-12-28,269,330!2026-10-26,207,310-->
 
 Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing a singleton `List` and `flatMap` a `List`}@}. <!--SR:!2026-12-09,259,330!2026-11-10,241,330-->
 

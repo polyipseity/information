@@ -13,7 +13,7 @@ The __internal energy__ is {@{the [energy](energy.md) contained in a [thermodyna
 
 ## internal energy of ideal gas
 
-{@{The internal energy of an [ideal gas](ideal%20gas.md)}@} depends {@{only on its [temperature](temperature.md) and its [amount of substance](amount%20of%20substance.md) (i.e. number of [moles](mole%20(unit).md))}@}, and can be written as {@{$U = U(n, T)$}@}. It does not {@{depend on other quantities like [pressure](pressure.md), [volume](volume.md), and [density](density.md)}@}. In contrast, {@{the internal energy of a [real gas](real%20gas.md)}@} depends on {@{other quantities}@}, but {@{its [temperature](temperature.md)}@} still {@{only depends on its internal [kinetic energy](kinetic%20energy.md)}@}. <!--SR:!2027-09-25,648,256!2028-01-17,1165,356!2026-04-03,67,327!2026-04-03,67,327!2026-04-03,67,327!2026-04-03,67,327!2026-04-03,67,327!2026-04-03,67,327-->
+{@{The internal energy of an [ideal gas](ideal%20gas.md)}@} depends {@{only on its [temperature](temperature.md) and its [amount of substance](amount%20of%20substance.md) (i.e. number of [moles](mole%20(unit).md))}@}, and can be written as {@{$U = U(n, T)$}@}. It does not {@{depend on other quantities like [pressure](pressure.md), [volume](volume.md), and [density](density.md)}@}. In contrast, {@{the internal energy of a [real gas](real%20gas.md)}@} depends on {@{other quantities}@}, but {@{its [temperature](temperature.md)}@} still {@{only depends on its internal [kinetic energy](kinetic%20energy.md)}@}. <!--SR:!2027-09-25,648,256!2028-01-17,1165,356!2027-02-02,305,347!2027-02-05,308,347!2027-02-06,309,347!2027-02-04,307,347!2027-01-25,297,347!2027-02-04,307,347-->
 
 ## references
 

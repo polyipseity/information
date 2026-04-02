@@ -847,7 +847,7 @@ Tsing Ma Bridge
 - _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2030-05-11,1550,318!2029-12-09,1648,397-->
 - Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2028-02-29,983,327!2029-05-15,1365,327-->
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2028-07-19,1018,320!2029-12-06,1346,300-->
-- Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2031-07-08,2027,357!2026-04-03,502,340-->
+- Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2031-07-08,2027,357!2030-12-05,1707,340-->
 - Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2028-10-02,1199,327-->
 - Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2031-11-23,2180,350-->
 

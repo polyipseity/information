@@ -70,7 +70,7 @@ return await memorize_map(
 - $\sec{x}$:@:$\sec{x}\tan{x}$ <!--SR:!2026-05-25,608,290-->
 - $\csc{x}$:@:$-\csc{x}\cot{x}$ <!--SR:!2027-10-13,743,270-->
 - $\arcsin{x}$:@:$\frac1{\sqrt{1-x^2} }$ <!--SR:!2026-07-14,140,230-->
-- $\arccos{x}$:@:$-\frac1{\sqrt{1-x^2} }$ <!--SR:!2026-04-03,588,310-->
+- $\arccos{x}$:@:$-\frac1{\sqrt{1-x^2} }$ <!--SR:!2031-04-06,1829,310-->
 - $\arctan{x}$:@:$\frac1{x^2+1}$ <!--SR:!2027-10-14,1016,330-->
 - $\operatorname{arccot}{x}$:@:$-\frac1{x^2+1}$ <!--SR:!2028-02-09,1201,350-->
 - $\operatorname{arcsec}{x}$:@:$\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$ <!--SR:!2026-06-28,328,230-->

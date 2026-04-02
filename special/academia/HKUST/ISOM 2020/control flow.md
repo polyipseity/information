@@ -68,7 +68,7 @@ for loop_variables in iterable:
   statement_block
 ```
 
-Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that for {@{each element in the iterable}@}, {@{the loop variables are assigned that element}@} and then {@{the statement block is executed}@}. <!--SR:!2029-01-02,1199,352!2028-02-09,870,332!2026-04-03,148,422!2026-04-06,151,422-->
+Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that for {@{each element in the iterable}@}, {@{the loop variables are assigned that element}@} and then {@{the statement block is executed}@}. <!--SR:!2029-01-02,1199,352!2028-02-09,870,332!2028-07-29,848,442!2026-04-06,151,422-->
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!2030-10-14,1737,372!2030-09-29,1722,372!2030-10-01,1724,372-->
 
@@ -90,7 +90,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2026-04-11,433,371!2026-04-05,150,422!2026-04-04,149,422!2026-04-04,149,422!2026-04-03,148,422-->
+The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2026-04-11,433,371!2026-04-05,150,422!2026-04-04,149,422!2026-04-04,149,422!2028-07-30,849,442-->
 
 If there are {@{no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2026-05-12,459,377!2026-05-06,454,377!2026-06-14,154,439-->
 

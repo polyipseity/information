@@ -16,7 +16,7 @@ tags:
 - This article is about {@{the mathematical concept}@}. For other uses, see [Functor \(disambiguation\)](functor%20(disambiguation).md).
 - {@{"Functoriality"}@} redirects here. For {@{the Langlands functoriality conjecture in number theory}@}, see {@{[Langlands program § Functoriality](Langlands%20program.md#functoriality)}@}. <!--SR:!2030-05-07,1534,366!2030-02-02,1456,366!2026-04-09,360,357!2026-04-10,361,357-->
 
-In {@{[mathematics](mathematics.md), specifically [category theory](category%20theory.md)}@}, {@{a __functor__}@} is {@{a [mapping](map%20(mathematics).md) between [categories](category%20(mathematics).md)}@}. Functors were first {@{considered in [algebraic topology](algebraic%20topology.md)}@}, where {@{algebraic objects \(such as the [fundamental group](fundamental%20group.md)\) are associated to [topological spaces](topological%20space.md)}@}, and {@{maps between these algebraic objects are associated to [continuous](continuous%20function.md) maps between spaces}@}. Nowadays, functors are {@{used throughout modern mathematics to relate various categories}@}. Thus, functors are {@{important in all areas within mathematics to which [category theory](category%20theory.md) is applied}@}. <!--SR:!2030-10-30,1686,377!2026-04-09,360,357!2026-04-03,355,357!2026-04-13,364,357!2030-09-18,1652,377!2030-02-08,1461,366!2030-10-31,1687,377!2030-05-13,1537,366-->
+In {@{[mathematics](mathematics.md), specifically [category theory](category%20theory.md)}@}, {@{a __functor__}@} is {@{a [mapping](map%20(mathematics).md) between [categories](category%20(mathematics).md)}@}. Functors were first {@{considered in [algebraic topology](algebraic%20topology.md)}@}, where {@{algebraic objects \(such as the [fundamental group](fundamental%20group.md)\) are associated to [topological spaces](topological%20space.md)}@}, and {@{maps between these algebraic objects are associated to [continuous](continuous%20function.md) maps between spaces}@}. Nowadays, functors are {@{used throughout modern mathematics to relate various categories}@}. Thus, functors are {@{important in all areas within mathematics to which [category theory](category%20theory.md) is applied}@}. <!--SR:!2030-10-30,1686,377!2026-04-09,360,357!2031-01-10,1743,377!2026-04-13,364,357!2030-09-18,1652,377!2030-02-08,1461,366!2030-10-31,1687,377!2030-05-13,1537,366-->
 
 {@{The words _category_ and _functor_}@} were {@{borrowed by mathematicians from the philosophers [Aristotle](Aristotle.md) and [Rudolf Carnap](Rudolf%20Carnap.md), respectively}@}.<sup>[\[1\]](#^ref-1)</sup> The latter used {@{_functor_ in a [linguistic](linguistics.md) context;<sup>[\[2\]](#^ref-2)</sup> see [function word](function%20word.md)}@}. <!--SR:!2030-02-10,1462,366!2026-08-25,440,317!2030-04-12,1513,366-->
 
@@ -36,13 +36,13 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 
 Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __functor__ _F_ from _C_ to _D_}@} is a mapping that<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2030-04-16,1515,366!2030-10-12,1671,377-->
 
-- (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_, <!--SR:!2029-09-19,1335,350!2026-04-03,355,357-->
+- (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_, <!--SR:!2029-09-19,1335,350!2031-01-13,1746,377-->
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2030-04-18,1518,366!2027-02-17,565,310-->
   - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2029-09-16,1332,350!2026-04-07,359,357-->
   - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2030-10-22,1679,377!2029-09-17,1333,350-->
 - (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2026-05-30,403,367!2026-05-26,399,367-->
 
-That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}. <!--SR:!2026-04-03,354,357-->
+That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}. <!--SR:!2031-01-02,1735,377-->
 
 ### covariance and contravariance
 

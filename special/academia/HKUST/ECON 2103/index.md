@@ -338,7 +338,7 @@ The content is in teaching order.
   - elasticity / perfectly elastic ::@:: it means the absolute value of elasticity is infinity, i.e. |_ε_| = ∞. <!--SR:!2026-04-13,421,391!2026-07-18,500,399-->
 - [price elasticity of demand](../../../../general/price%20elasticity%20of%20demand.md) ::@:: A measure of how sensitive the quantity demanded of a good is to its price. <!--SR:!2026-09-11,548,406!2026-08-25,534,402-->
   - price elasticity of demand / formula ::@:: _All other things being equal_, $$E_{(P)} = \frac {\Delta Q / Q} {\Delta P / P} \,,$$ where $P$ is the _initial_ (not _final_ or _average_) price of the good demanded, $\Delta P$ is how much it changed, $Q$ is the _initial_ (not _final_ or _average_) quantity of the good demanded, and $\Delta Q$ is how much it changed. We use the starting point formula for percentage change. <!--SR:!2031-02-06,1824,402!2030-05-25,1621,391-->
-    - price elasticity of demand / formula / other formulas ::@:: There are at least two other common formulas for the price elasticity of demand, but we will ignore them for now. (We use the starting point formula for percentage change.) <!--SR:!2026-06-21,478,391!2026-04-03,390,379-->
+    - price elasticity of demand / formula / other formulas ::@:: There are at least two other common formulas for the price elasticity of demand, but we will ignore them for now. (We use the starting point formula for percentage change.) <!--SR:!2026-06-21,478,391!2030-04-27,1485,379-->
 
 ## week 5 tutorial
 

@@ -42,7 +42,7 @@ tags:
 > What is the idle time fraction?
 >
 > - solution: {@{0.25}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2026-04-03,275,330!2029-08-19,1237,350-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2029-09-05,1251,350!2029-08-19,1237,350-->
 
 <!-- markdownlint MD028 -->
 
