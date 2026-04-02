@@ -22,6 +22,10 @@ All style decisions are driven by the representative examples and heuristics emb
 
 For academic topic notes, do not limit cards to isolated definitions. Prefer a balanced mix of comparison cards, intuition cards, example cards, counterexample cards, and worked-example cards when the material supports them. If a section needs only a small clarification, enhance the existing flashcards; if it needs a substantial new cluster of distinctions or examples, add new flashcards instead of overloading one old card. For worked examples, place **all** required givens, formulas, assumptions, and numeric input data on the left-hand side before `::@::` so the card is fully answerable in isolation.
 
+For mathematically technical academic notes, preserve the derivation or proof spine in the flashcards instead of testing only the final formula. A strong default is to add at least one card for the governing equation or setup, one card for the decisive derivation step or inequality, and one card for the final result or interpretation when the source material supports that structure.
+
+When a course note is organized by topic pages and lecture weeks rather than stored chapter pages, avoid chapter-number-only prompts such as `Chapter 2 / ...`. Use self-contained concept wording or the actual topic-note context instead.
+
 For conceptual math-law cards in academic notes, a descriptive prompt is often better than forcing the formula itself onto the left-hand side. When such a card is genuinely conceptual rather than computational, prefer the descriptive prompt and, if needed, attach a targeted inline suppression comment on the same line instead of warping the card into a fake calculation prompt.
 
 ## When to use
