@@ -22,12 +22,15 @@ tags:
 
 Fourier series is the course's first full frequency-domain tool.  It explains how a periodic signal can be decomposed into harmonically related sinusoids or complex exponentials, how that decomposition is read as a discrete spectrum, and how coefficient patterns reveal symmetry, bandwidth, approximation quality, and physical meaning such as pitch or timbre.  Together with the Fourier transform, it forms the broader Fourier analysis framework; some materials bundle the whole viewpoint under names such as the __Fourier transform analysis method__.
 
+This note is the periodic continuous-time entry point of the Fourier family. For continuous-time aperiodic signals, continue to [Fourier transform](Fourier%20transform.md). For discrete-time sequences, use [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) for the general continuous-$\Omega$ viewpoint and [discrete Fourier transform](discrete%20Fourier%20transform.md) for finite-record computation.
+
 ---
 
 Flashcards for this section are as follows:
 
 - What is the main purpose of the Fourier series in ELEC 2100? ::@:: It decomposes a periodic signal into harmonically related sinusoidal or complex-exponential components so that the signal can be understood and reconstructed in the frequency domain.
 - Why is the Fourier-series viewpoint important beyond formula manipulation? ::@:: It turns waveform shape into a structured list of frequency components, which makes symmetry, bandwidth, harmonic content, and physical interpretation easier to see.
+- How should this note be positioned inside the four main Fourier descriptions used in ELEC 2100? ::@:: This note is the continuous-time periodic case. The Fourier transform handles continuous-time aperiodic signals, the DTFT handles general sequences on a continuous digital-frequency axis, and the DFT handles finite-record or period-$N$ discrete data on a finite frequency grid.
 
 ## spectrum concept and frequency-domain viewpoint
 

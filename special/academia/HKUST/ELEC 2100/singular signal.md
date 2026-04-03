@@ -27,12 +27,15 @@ tags:
 
 Singular signals are idealized building blocks used to model switching, sampling, and abruptly concentrated change. Chapter 1.2 develops them early because later convolution, LTI modeling, and transform methods repeatedly rely on step-, impulse-, and derivative-type signals.
 
+Within the signal-family notes, this file is the specialized continuous-time generalized-signal toolkit. The broad language of signals remains in [signal](signal.md), and the sample-indexed toolkit remains in [discrete-time signal](discrete-time%20signal.md). This separation keeps ordinary signal classification, discrete-time sequences, and generalized singular objects from being mixed together unnecessarily.
+
 ---
 
 Flashcards for this section are as follows:
 
 - Why do singular signals matter in ELEC 2100? ::@:: They model switching, sampling, and abruptly concentrated change, so they recur throughout later signal-and-system analysis.
 - Why does Chapter 1.2 introduce singular signals so early? ::@:: Later convolution, LTI modeling, and transform methods depend on them.
+- How should `singular signal.md` be positioned relative to the other signal-family notes? ::@:: It is the specialized continuous-time generalized-signal toolkit for step, impulse, and derivative-type objects. The broader vocabulary stays in `signal.md`, and the sequence toolkit stays in `discrete-time signal.md`.
 
 ## singular-signal overview
 

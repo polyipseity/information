@@ -22,12 +22,15 @@ tags:
 
 The Fourier transform extends the frequency-domain viewpoint from periodic signals to aperiodic ones.  Instead of a discrete list of harmonic lines, it produces a continuous spectral density over frequency, together with a transform toolkit for shifting, scaling, modulation, differentiation, integration, and convolution.  Together with Fourier series, it forms the broader Fourier analysis framework; some lecture notes bundle the whole viewpoint under names such as the __Fourier transform analysis method__.
 
+This note is the continuous-time aperiodic member of the Fourier family. It grows naturally out of [Fourier series](Fourier%20series.md), which handles continuous-time periodic signals. For discrete-time counterparts, use [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) for general sequences and [discrete Fourier transform](discrete%20Fourier%20transform.md) for finite-record computation.
+
 ---
 
 Flashcards for this section are as follows:
 
 - What is the main purpose of the Fourier transform in ELEC 2100? ::@:: It extends frequency-domain analysis from periodic signals with line spectra to aperiodic signals with continuous spectra.
 - Why is the Fourier transform more than just another formula pair? ::@:: It becomes a structural toolkit: many time-domain operations turn into simpler frequency-domain rules for shifting, scaling, differentiation, modulation, and convolution.
+- How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the continuous-time aperiodic case. Fourier series handles continuous-time periodic signals, DTFT handles general discrete-time sequences, and DFT handles finite-record or period-$N$ discrete data on a sampled digital-frequency grid.
 
 ## from Fourier series to Fourier transform
 

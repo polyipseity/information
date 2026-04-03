@@ -21,7 +21,7 @@ tags:
 
 The discrete-time Fourier transform (DTFT) is the frequency-domain representation of a sequence. It is best understood in two complementary ways: as a transform formula for discrete-time data and as the spectrum of the sampled impulse train associated with that data. That second viewpoint is especially important, because it explains immediately why the DTFT is periodic and why aliasing and normalized frequency belong naturally to discrete-time signal analysis.
 
-This note now keeps the main focus on the general-sequence DTFT viewpoint. The periodic discrete-time companion viewpoint, DTFS/DFS, is collected mainly in [discrete Fourier transform](discrete%20Fourier%20transform.md), especially [§ relation between DTFS and DFT](discrete%20Fourier%20transform.md#relation%20between%20DTFS%20and%20DFT), [§ periodic sequences and discrete-time Fourier series](discrete%20Fourier%20transform.md#periodic%20sequences%20and%20discrete-time%20Fourier%20series), and [§ normalization map between DTFS and DFT](discrete%20Fourier%20transform.md#normalization%20map%20between%20DTFS%20and%20DFT), because DTFS/DFS is algebraically much closer to the DFT than to the general DTFT. Here we still keep enough periodic-sequence discussion to show how a periodic sequence appears inside the DTFT as a line spectrum and to link the two notes cleanly.
+This note keeps the main focus on the general-sequence DTFT viewpoint. DTFS/DFS discussion is housed mainly in [discrete Fourier transform](discrete%20Fourier%20transform.md), especially [§ relation between DTFS and DFT](discrete%20Fourier%20transform.md#relation%20between%20DTFS%20and%20DFT), [§ periodic sequences and discrete-time Fourier series](discrete%20Fourier%20transform.md#periodic%20sequences%20and%20discrete-time%20Fourier%20series), and [§ normalization map between DTFS and DFT](discrete%20Fourier%20transform.md#normalization%20map%20between%20DTFS%20and%20DFT), because DTFS/DFS and DFT both use finite harmonic coefficient lists for period-$N$ data. Here we still keep enough periodic-sequence discussion to show how a periodic sequence appears inside the DTFT as a line spectrum and to link the two notes cleanly.
 
 ---
 
@@ -30,6 +30,14 @@ Flashcards for this section are as follows:
 - What is the main purpose of the DTFT in ELEC 2100? ::@:: It gives a frequency-domain description of a sequence and explains how sampled continuous-time data become discrete-time spectra.
 - Why is the DTFT naturally linked to sampling theory? ::@:: Because it is derived from the Fourier transform of the sampled impulse train $\sum_n x[n]\delta(t-nT)$ rather than being introduced as an isolated new formula.
 - Why is most DTFS/DFS discussion now grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
+
+This note is the general discrete-time spectral note. For continuous-time periodic and aperiodic signals, see [Fourier series](Fourier%20series.md) and [Fourier transform](Fourier%20transform.md). For finite-grid computation or explicit period-$N$ coefficient work, move next to [discrete Fourier transform](discrete%20Fourier%20transform.md).
+
+---
+
+Flashcards for this section are as follows:
+
+- How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the general discrete-time spectral description on a continuous digital-frequency axis. Fourier series and Fourier transform are the continuous-time periodic and aperiodic notes, while the DFT note is the finite-grid computational note for period-$N$ or finite-record discrete data.
 
 ## deriving the DTFT from a sampled signal
 

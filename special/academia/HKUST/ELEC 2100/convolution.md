@@ -30,9 +30,7 @@ Flashcards for this section are as follows:
 
 ## impulse-decomposition viewpoint
 
-The first conceptual step is that a signal can be represented as a weighted superposition of shifted impulses. In continuous time the identity is $e(t)=\int_{-\infty}^{\infty} e(\tau)\,\delta(t-\tau)\,d\tau$. This formula should be read geometrically rather than only symbolically. For each source time $\tau$, the factor $e(\tau)$ gives the weight of an impulse located at that time. The whole signal is then assembled by integrating those weighted infinitesimal contributions over every possible source time.
-
-The lecture reaches this formula through narrow-pulse approximation. One imagines the signal as a sum of very small rectangular pulses, each with width $\Delta\tau$ and height approximately $e(\tau)$. As the width shrinks to zero, each narrow pulse becomes an impulse of weight $e(\tau)\,d\tau$, and the Riemann sum becomes the impulse-integral representation.
+The first conceptual step is that a signal can be represented as a weighted superposition of shifted impulses. In continuous time the identity is $e(t)=\int_{-\infty}^{\infty} e(\tau)\,\delta(t-\tau)\,d\tau$. This formula should be read geometrically rather than only symbolically: for each source time $\tau$, the factor $e(\tau)$ is the weight of the impulse located there, and the full signal is assembled by integrating all those weighted contributions. The narrow-pulse approximation from the lecture is only the intuition behind this identity; the detailed impulse-response motivation already appears in `continuous-time LTI system.md` and `discrete-time LTI system.md`.
 
 This viewpoint matters because it explains why convolution is natural for LTI systems. Once a signal has been decomposed into shifted impulses, time invariance tells us what each shifted impulse becomes at the output, and linearity lets us sum all those partial outputs.
 
@@ -43,9 +41,8 @@ Flashcards for this section are as follows:
 - What continuous-time identity expresses a signal as a weighted superposition of shifted impulses? ::@:: It is $e(t)=\int_{-\infty}^{\infty} e(\tau)\,\delta(t-\tau)\,d\tau$.
 - In the impulse-decomposition formula, what does the factor $e(\tau)$ represent? ::@:: It is the weight assigned to the impulse located at source time $\tau$.
 - What does the factor $\delta(t-\tau)$ represent in the decomposition formula? ::@:: It represents a unit impulse placed at source time $\tau$ and observed at time $t$.
-- How does the lecture motivate the impulse-decomposition formula before writing the integral? ::@:: By approximating the signal as a sum of very narrow pulses of width $\Delta\tau$ and height about $e(\tau)$, then shrinking the width to zero.
-- Why does the narrow-pulse viewpoint help conceptually? ::@:: It shows how an ordinary signal can be assembled from many tiny localized contributions rather than appearing as a magical impulse identity from nowhere.
 - Why is the impulse-decomposition viewpoint especially useful for LTI systems? ::@:: Because time invariance tells us how each shifted impulse is transferred, and linearity lets us sum all the resulting partial outputs.
+- Where should you look for the earlier course-level motivation of impulse response before using impulse decomposition here? ::@:: The earlier motivation lives in `continuous-time LTI system.md` and `discrete-time LTI system.md`; this note uses the decomposition identity mainly to derive convolution cleanly.
 
 ## zero-state response via convolution
 

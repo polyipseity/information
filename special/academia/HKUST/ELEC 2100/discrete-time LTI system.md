@@ -27,12 +27,34 @@ tags:
 
 Discrete-time response analysis studies how an LTI system evolves sample by sample. In ELEC 2100, the main ideas are recursive difference-equation viewpoints, discrete-time impulse response, and the causality and stability criteria that can be read directly from $h[n]$ before z-transform methods are introduced.
 
+The note is meant to be read in parallel with `continuous-time LTI system.md`, not in competition with it. The structural ideas are the same, but the medium changes: derivatives become differences, integrals become sums, exponentials in time become geometric sequences in index, and support conditions move from the real line to integer shifts.
+
 ---
 
 Flashcards for this section are as follows:
 
 - What is the main goal of the discrete-time LTI system note? ::@:: It is to understand how an LTI system evolves sample by sample through difference equations, discrete-time impulse response, and direct criteria on $h[n]$ before z-transform methods are introduced.
 - Why is discrete-time response treated as its own topic instead of just copying the continuous-time story? ::@:: Because discrete-time systems are governed by recursive index relations and convolution sums, so the same ideas reappear in sample-by-sample rather than differential form.
+- Why should `discrete-time LTI system.md` be read alongside `continuous-time LTI system.md`? ::@:: Because the two notes describe the same structural LTI ideas in different media: continuous time uses derivatives and integrals, while discrete time uses differences and sums.
+
+## continuous-time and discrete-time parallels
+
+The fastest way to organize this note is to keep the continuous-time analogue in view. A continuous-time LTI system is commonly modeled by a differential equation, its impulse response is obtained from a Dirac-impulse input, and zero-state response is computed by a convolution integral. A discrete-time LTI system is commonly modeled by a difference equation, its impulse response is obtained from a unit-sample input, and zero-state response is computed by a convolution sum.
+
+The property tests line up just as neatly. In continuous time, causality means $h(t)=0$ for $t<0$ and BIBO stability is tied to absolute integrability of $h(t)$. In discrete time, causality means $h[n]=0$ for $n<0$ and BIBO stability is tied to absolute summability of $h[n]$. The same logic survives, but the measure of accumulation changes from an integral to a sum.
+
+The response-shape analogy is equally important. A first-order continuous-time system often produces a one-sided exponential impulse response such as $e^{-at}u(t)$. A first-order discrete-time system often produces a one-sided geometric impulse response such as $a^n u[n]$. So the right memory cue is not that the formulas are unrelated, but that the discrete-time formula is the sample-by-sample analogue of exponential decay.
+
+This is why the course keeps separate continuous-time and discrete-time notes instead of forcing them into one merged file. The conceptual map is shared, but the algebra, support language, and computational workflow are different enough that each medium deserves its own durable home.
+
+---
+
+Flashcards for this section are as follows:
+
+- What is the quickest structural comparison between the continuous-time and discrete-time LTI notes? ::@:: Continuous time uses differential equations, Dirac-impulse responses, and convolution integrals, whereas discrete time uses difference equations, unit-sample responses, and convolution sums.
+- How do the causality and BIBO stability tests compare in continuous time and discrete time? ::@:: Continuous time uses $h(t)=0$ for $t<0$ and absolute integrability of $h(t)$, whereas discrete time uses $h[n]=0$ for $n<0$ and absolute summability of $h[n]$.
+- What is the right analogy between a first-order continuous-time impulse response and a first-order discrete-time impulse response? ::@:: A one-sided exponential such as $e^{-at}u(t)$ in continuous time corresponds structurally to a one-sided geometric sequence such as $a^n u[n]$ in discrete time.
+- Why does ELEC 2100 keep separate continuous-time and discrete-time LTI notes instead of forcing one merged treatment? ::@:: Because the conceptual map is shared, but the algebra, support language, and computational workflow are different enough that each medium deserves its own durable explanation.
 
 ## difference-equation solution viewpoints
 
@@ -106,15 +128,13 @@ Flashcards for this section are as follows:
 
 ## discrete-time impulse response
 
-The discrete-time unit impulse response $h[n]$ is the zero-state response to the input $\delta[n]$. It plays the same structural role as $h(t)$ in continuous time, but now it is an ordinary sequence rather than a generalized function. Once $h[n]$ is known, zero-state outputs can later be built through convolution sums.
+The discrete-time unit impulse response $h[n]$ is the zero-state response to the input $\delta[n]$. As in continuous time, it is the basic response object from which later zero-state outputs are assembled, but here it is an ordinary sequence rather than a generalized function.
 
 In direct-form block diagrams, one may often read $h[n]$ by feeding in $\delta[n]$ and tracking the branches. For the feedforward system $y[n]=x[n]+\frac{1}{2}x[n-1]$, replacing $x[n]$ by $\delta[n]$ gives $h[n]=\delta[n]+\frac{1}{2}\delta[n-1]$. The impulse response simply records what the unit sample does as it travels through the direct and delayed paths.
 
 For recursive systems, a useful technique is the __equivalent initial-condition method__. Consider the causal system described by $y[n]-0.8y[n-1]=x[n]$. Under zero-state impulse excitation this becomes $h[n]-0.8h[n-1]=\delta[n]$. At $n=0$ this gives $h[0]-0.8h[-1]=1$, and zero state implies $h[-1]=0$, so $h[0]=1$. For $n>0$ the impulse term vanishes, so the recursion becomes homogeneous: $h[n]-0.8h[n-1]=0$. Trying the ansatz $h_h[n]=r^n$ gives the characteristic equation $r-0.8=0$, so $r=0.8$ and $h[n]=C(0.8)^n$ on the causal side. The initial sample fixes $C=1$, so $h[n]=(0.8)^n u[n]$.
 
-This derivation is worth understanding conceptually. The impulse sets up the initial sample, and after that the sequence evolves according to the system's natural recursion. That is why the impulse response of a causal first-order recursion is often a gated geometric sequence.
-
-The phrase __equivalent initial-condition method__ is important here. The impulse $\delta[n]$ acts only at the single sample $n=0$, so it does not keep forcing the system forever. Its role is to create the correct first sample of the impulse response. Once that initial sample has been created, every later index obeys the homogeneous recursion alone. In other words, the pulse input is converted into initial data, and the subsequent decay is generated entirely by the system's own recursion.
+The phrase __equivalent initial-condition method__ is important here. The impulse $\delta[n]$ acts only at the single sample $n=0$, so it does not keep forcing the system forever. Its role is to create the correct first sample of the impulse response. Once that initial sample has been created, every later index obeys the homogeneous recursion alone. That is why the impulse response of a causal first-order recursion is often a gated geometric sequence: the pulse input is converted into initial data, and the subsequent decay is generated entirely by the system's own recursion.
 
 The homogeneous recursion can also be unpacked directly instead of only through the characteristic root. From $h[n]=0.8h[n-1]$ for $n>0$ and $h[0]=1$, one gets $h[1]=0.8$, $h[2]=0.8^2$, $h[3]=0.8^3$, and by induction $h[n]=0.8^n$ for all $n\ge 0$. The characteristic-root method compresses this pattern into one algebraic step, but the iteration makes the propagation law visible: each new sample is obtained by multiplying the previous one by the same decay factor.
 

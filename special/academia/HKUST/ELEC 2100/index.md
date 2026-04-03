@@ -91,6 +91,32 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
   - [lab 3](labs/lab%203/index.md): Fourier series and filters
   - [lab 4](labs/lab%204/index.md): modulation, demodulation, and sampling
 
+## topic-to-file mapping
+
+- basic signal language and graphical intuition
+  - [signal](signal.md)
+  - [singular signal](singular%20signal.md)
+  - [discrete-time signal](discrete-time%20signal.md)
+- system vocabulary, properties, and modelling viewpoints
+  - [system](system.md)
+- continuous-time and discrete-time response analysis
+  - [continuous-time LTI system](continuous-time%20LTI%20system.md)
+  - [discrete-time LTI system](discrete-time%20LTI%20system.md)
+  - [convolution](convolution.md)
+- periodic and aperiodic Fourier analysis
+  - [Fourier series](Fourier%20series.md)
+  - [Fourier transform](Fourier%20transform.md)
+  - [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md)
+  - [discrete Fourier transform](discrete%20Fourier%20transform.md)
+
+The four Fourier notes are organized by two axes: continuous time versus discrete time, and periodic structure versus aperiodic or finite-record structure. Read them as a small family rather than as four unrelated chapters: [Fourier series](Fourier%20series.md) is for continuous-time periodic signals, [Fourier transform](Fourier%20transform.md) extends that viewpoint to continuous-time aperiodic signals, [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) is for general sequences on a continuous digital-frequency axis, and [discrete Fourier transform](discrete%20Fourier%20transform.md) is the finite-grid computational transform for periodic-sequence or finite-record data. The extra note [unified Fourier representations](unified%20Fourier%20representations.md) remains enrichment rather than the main official route through the course material.
+
+- frequency-domain system behavior and filtering
+  - [frequency response](frequency%20response.md)
+- communication applications
+  - [modulation](modulation.md)
+  - [sampling theorem](sampling%20theorem.md)
+
 ## notes
 
 - Detailed assignment, tutorial, and lab schedules live in the child index pages.

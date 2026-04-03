@@ -39,6 +39,14 @@ Flashcards for this section are as follows:
 - Why is the DFT not simply the DTFT with fewer plotted points? ::@:: Because the DFT treats a finite record as one period of a length-$N$ periodic extension, so circular shift and circular convolution are built into the transform model.
 - Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
 
+This note is the finite-grid computational member of the Fourier family. For the continuous digital-frequency viewpoint of a general sequence, see [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md). For the continuous-time side of the story, use [Fourier series](Fourier%20series.md) for periodic signals and [Fourier transform](Fourier%20transform.md) for aperiodic ones.
+
+---
+
+Flashcards for this section are as follows:
+
+- How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the finite-grid computational transform for discrete data. The DTFT keeps a continuous digital-frequency variable for general sequences, while Fourier series and Fourier transform are the continuous-time periodic and aperiodic counterparts.
+
 ## definition and inverse transform
 
 For a length-$N$ sequence $x[n]$ indexed by $n=0,1,\dots,N-1$, the DFT is $X[k]=\sum_{n=0}^{N-1}x[n]e^{-j2\pi kn/N}$ for $k=0,1,\dots,N-1$, and the inverse DFT is $x[n]=\frac{1}{N}\sum_{k=0}^{N-1}X[k]e^{j2\pi kn/N}$ for $n=0,1,\dots,N-1$. If we define the twiddle factor $W_N=e^{-j2\pi/N}$, the forward transform can also be written as $X[k]=\sum_{n=0}^{N-1}x[n]W_N^{kn}$.

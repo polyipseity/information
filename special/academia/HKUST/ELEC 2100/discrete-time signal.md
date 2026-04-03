@@ -27,12 +27,15 @@ tags:
 
 Discrete-time signals are signals indexed by integers rather than by a continuous independent variable. In ELEC 2100 they arise both as sampled versions of continuous-time signals and as native sequences in their own right, so the course treats their representation methods, common signal families, and periodicity rules as a durable toolkit rather than as one-off examples.
 
+This note is the dedicated sequence toolkit of the signal family. The broader comparison language for messages, representations, and high-level signal classifications stays in [signal](signal.md), while [singular signal](singular%20signal.md) keeps the continuous-time step/impulse/generalized-function machinery that supports later convolution and transform derivations.
+
 ---
 
 Flashcards for this section are as follows:
 
 - What is a discrete-time signal? ::@:: It is a signal indexed by integers, so it is written as a sequence such as $x[n]$ rather than as a continuous-time function $x(t)$.
 - Why are discrete-time signals important in ELEC 2100? ::@:: They arise both from sampling continuous-time signals and from native sequence models, so they need their own representation methods, common signal families, and periodicity rules.
+- How should `discrete-time signal.md` be used relative to `signal.md` and `singular signal.md`? ::@:: Use this note for the sequence toolkit: sequence notation, unit sample and step sequences, discrete-time periodicity, reshaping, and sequence energy/power. Use `signal.md` for the broader signal vocabulary and `singular signal.md` for the continuous-time generalized-signal toolkit.
 
 ## representation methods
 

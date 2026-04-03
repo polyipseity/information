@@ -25,12 +25,15 @@ tags:
 
 A system maps an input signal to an output signal. In ELEC 2100, this input-output viewpoint is the bridge between raw signal descriptions and later transform-based analysis of linear time-invariant systems.
 
+This note keeps the general systems vocabulary in one place: what a system is, how it is modeled, what the main properties mean, and how engineers classify systems before committing to one detailed solution method. The heavier response mechanics are deliberately delegated to the companion notes: `continuous-time LTI system.md` develops continuous-time response analysis, `discrete-time LTI system.md` develops the sample-by-sample analogue, and `convolution.md` carries the zero-state response machinery.
+
 ---
 
 Flashcards for this section are as follows:
 
 - What is a system? ::@:: A system is a rule or device that maps an input signal to an output signal.
 - Why is the systems viewpoint central in ELEC 2100? ::@:: It connects signal descriptions to later transform-based analysis of linear time-invariant systems.
+- How should this `system` note be used relative to the companion LTI notes? ::@:: Use this note for the core vocabulary and classification language of systems, then use `continuous-time LTI system.md`, `discrete-time LTI system.md`, and `convolution.md` for the detailed response mechanics and calculation workflows.
 
 ## system meaning and communication context
 
@@ -254,11 +257,9 @@ Flashcards for this section are as follows:
 
 ## linear time-invariant systems and response transfer
 
-Linear time-invariant systems are the central class in the course because their structure allows responses to be transferred systematically from known cases to new ones. If an LTI system in zero state sends $x_1(t)$ to $y_1(t)$, then shifted and linearly combined versions of $x_1$ produce the corresponding shifted and linearly combined versions of $y_1$.
+Linear time-invariant systems are the central class in the course because their structure lets one transfer known responses to new inputs systematically. If an LTI system in zero state sends $x_1(t)$ to $y_1(t)$, then shifted and linearly combined versions of $x_1$ produce the corresponding shifted and linearly combined versions of $y_1$.
 
-The lecture also highlights differential and integral characteristics of LTI systems. If an LTI system maps an input to an output, then differentiating or integrating the input produces the correspondingly differentiated or integrated output, provided the relevant zero-state setting is preserved. This is one of the first hints that LTI systems interact cleanly with convolution and transforms.
-
-A standard lecture example starts from the known zero-state pair $x_1(t)=e^{-t}u(t)$ and $y_1(t)=\cos(3t)u(t)$. Since $\frac{d}{dt}x_1(t)=-e^{-t}u(t)+\delta(t)$, the corresponding zero-state response is $\frac{d}{dt}y_1(t)=-3\sin(3t)u(t)+\delta(t)$. The same example also uses impulse sampling to simplify singular terms. Because $e^{-t}\delta(t)=\delta(t)$, the inputs $-e^{-t}u(t)+e^{-t}\delta(t)$ and $-e^{-t}u(t)+\delta(t)$ are actually the same singular-signal combination at the switching instant, so they produce the same zero-state response.
+The same structural cleanliness explains why differentiation, integration, convolution, and transform methods work so well for LTIs. Under the matching zero-state assumptions, one may often move these operations through the system instead of recomputing the response from scratch. The detailed worked examples belong in `continuous-time LTI system.md` and `convolution.md`; this section keeps only the high-level transfer principle.
 
 ---
 
@@ -266,11 +267,8 @@ Flashcards for this section are as follows:
 
 - Why are LTI systems central in the course? ::@:: Because known responses can be transferred systematically to shifted and linearly combined inputs.
 - What is the response-transfer principle for an LTI system? ::@:: If an LTI system maps $x_1$ to $y_1$, then shifted and linearly combined versions of $x_1$ map to the corresponding shifted and linearly combined versions of $y_1$.
-- What are the differential and integral characteristics of LTIs? ::@:: Differentiating or integrating the input produces the correspondingly differentiated or integrated output under the matching zero-state setting.
-- What known pair is used in the lecture's LTI response-transfer example? ::@:: The lecture uses $x_1(t)=e^{-t}u(t)$ and $y_1(t)=\cos(3t)u(t)$.
-- What response corresponds to the differentiated input $\frac{d}{dt}x_1(t)=-e^{-t}u(t)+\delta(t)$ in the lecture example? ::@:: The corresponding zero-state response is $\frac{d}{dt}y_1(t)=-3\sin(3t)u(t)+\delta(t)$.
-- Why does the identity $e^{-t}\delta(t)=\delta(t)$ matter in the LTI example? ::@:: It shows that only the multiplier value at the switching instant matters in the impulse term.
-- Why do $-e^{-t}u(t)+e^{-t}\delta(t)$ and $-e^{-t}u(t)+\delta(t)$ produce the same response? ::@:: Because $e^{-t}\delta(t)=\delta(t)$ makes the impulse terms identical.
+- What broad operator behaviors make LTI systems especially tractable? ::@:: Linearity and time invariance let known responses be shifted and recombined systematically, and under zero-state assumptions they also let differentiation, integration, convolution, and transform methods interact cleanly with the system.
+- Where should the detailed worked response-transfer examples for LTIs be studied in this course? ::@:: Use `continuous-time LTI system.md` and `convolution.md` for the detailed examples; this note keeps only the high-level transfer principle.
 
 ## representation methods for linear time-invariant systems
 
@@ -342,13 +340,18 @@ Flashcards for this section are as follows:
 
 ## time-domain analysis methods and differential-equation viewpoint
 
-The time-domain treatment re-enters the systems topic from a more operational angle: once a model has been written, how does one actually obtain the response? The lecture first contrasts two time-domain modelling viewpoints. The **input-output description** writes one higher-order differential or difference equation relating excitation and response directly. The **state-variable description** writes several coupled first-order equations that also track internal variables. The note starts from input-output description because it is the most direct route to classical response calculation.
+The time-domain treatment re-enters the systems topic from a more operational angle: once a model has been written, how does one actually obtain the response? The lecture first contrasts two time-domain modelling viewpoints. The **input-output description** writes one higher-order differential or difference equation relating excitation and response directly. The **state-variable description** writes several coupled first-order equations that also track internal variables. This note keeps that comparison at the roadmap level, while the companion LTI notes carry the detailed continuous-time and discrete-time calculations.
 
-The lecture also explains why the time-domain route remains worth studying even though later transform methods are often faster. Solving the system equation directly keeps the role of initial conditions visible, offers clearer physical interpretation, and gives the conceptual basis for Laplace-transform and other transform-domain methods. The calculation can be cumbersome, but the meaning is transparent.
+The reason the course still studies time-domain methods before leaning on transforms is conceptual rather than nostalgic. Direct solution keeps the role of initial conditions visible, preserves the physical meaning of stored energy, and makes later transform methods easier to interpret. The calculation may be longer, but the modeling logic is transparent.
 
-For a constant-coefficient continuous-time linear model such as $a_n r^{(n)}(t)+a_{n-1}r^{(n-1)}(t)+\cdots+a_0r(t)=b_m e^{(m)}(t)+b_{m-1}e^{(m-1)}(t)+\cdots+b_0e(t)$, the classical solution method splits the response into a homogeneous part and a particular part. Setting the excitation side to zero gives the homogeneous equation, and the exponential trial $r_h(t)=e^{st}$ produces the characteristic polynomial $a_n s^n+a_{n-1}s^{n-1}+\cdots+a_0=0$. The homogeneous part is built from those characteristic roots and represents the system's natural modes. The particular part is chosen in a form compatible with the input and then determined by substitution. Initial conditions are finally used to determine the remaining constants. This classical picture prepares the later zero-input/zero-state split: zero-input response comes from the homogeneous equation with stored energy, while zero-state response is the input-driven part that convolution will later compute more directly.
+At the roadmap level, the key split is the same in both continuous time and discrete time. The classical solver writes the response as homogeneous plus particular. The engineering viewpoint writes the same response as zero-input plus zero-state. Those decompositions are not rivals: homogeneous/particular tells you how to solve the equation, whereas zero-input/zero-state tells you what physically caused the response. In both settings, the zero-state part is the natural target of convolution, while the zero-input part is the natural target of initial-condition reasoning.
 
-The response labels answer different questions and should be mapped explicitly. The classical ODE split $r=r_h+r_p$ is the solving-method split. The engineering split $r=r_{\mathrm{zi}}+r_{\mathrm{zs}}$ is the cause-of-response split. Zero-input response is a homogeneous-solution object with the actual initial conditions. Zero-state response solves the forced equation with zero initial conditions, so it often equals a particular solution plus a homogeneous correction chosen to enforce those zero initial conditions rather than just the particular solution alone.
+The durable organization of the course is therefore:
+
+- use `system.md` for the language of properties, modelling viewpoints, and classification;
+- use `continuous-time LTI system.md` for differential-equation response logic, impulse response, step response, and continuous-time causality/stability tests;
+- use `discrete-time LTI system.md` for recursion logic, geometric impulse responses, and discrete-time causality/stability tests;
+- use `convolution.md` when the zero-state response should be assembled directly from the impulse response.
 
 ---
 
@@ -357,10 +360,6 @@ Flashcards for this section are as follows:
 - What is the difference between the input-output and state-variable viewpoints in the time-domain roadmap? ::@:: The input-output viewpoint writes one higher-order differential or difference equation relating excitation and response directly, whereas the state-variable viewpoint writes several coupled first-order equations that also track internal variables.
 - Why does the time-domain roadmap begin with input-output description? ::@:: Because it is the most direct route to classical response calculation before the course moves to richer state-variable and transform-domain viewpoints.
 - Why does the lecture still emphasize direct time-domain solution even though transform methods are often faster? ::@:: Because direct solution keeps initial conditions visible, offers clearer physical interpretation, and provides the conceptual basis for later transform-domain methods.
-- What generic constant-coefficient input-output equation captures the classical continuous-time response method? ::@:: A standard form is $a_n r^{(n)}(t)+a_{n-1}r^{(n-1)}(t)+\cdots+a_0r(t)=b_m e^{(m)}(t)+b_{m-1}e^{(m-1)}(t)+\cdots+b_0e(t)$.
-- What exponential trial produces the characteristic polynomial in the classical method? ::@:: Substituting $r_h(t)=e^{st}$ into the homogeneous equation gives the characteristic polynomial $a_n s^n+a_{n-1}s^{n-1}+\cdots+a_0=0$.
-- What is the classical complete-solution split for a constant-coefficient continuous-time differential equation? ::@:: It splits the response into a homogeneous part and a particular part.
-- What does the homogeneous part represent in the classical solution method? ::@:: It represents the system's natural modes and is obtained from the characteristic equation.
-- What does the particular part represent in the classical solution method? ::@:: It represents the part forced by the external input and is determined by choosing an input-matched form and substituting it into the equation.
-- How do initial conditions enter the classical solution method? ::@:: After the homogeneous and particular forms are obtained, the initial conditions determine the remaining constants.
-- How does the classical homogeneous-plus-particular picture foreshadow zero-input and zero-state response? ::@:: Zero-input response comes from the homogeneous equation with stored energy, whereas zero-state response is the input-driven part that convolution later computes directly.
+- Why are homogeneous/particular and zero-input/zero-state not competing decompositions? ::@:: Because homogeneous/particular is the solving-method split, whereas zero-input/zero-state is the physical source-of-response split.
+- What part of the response is the natural target of convolution in both continuous and discrete time? ::@:: The zero-state part, because it isolates the externally driven response under zero stored initial state.
+- How should the main response topics be distributed across the ELEC 2100 notes? ::@:: `system.md` keeps the vocabulary and modelling roadmap, `continuous-time LTI system.md` and `discrete-time LTI system.md` carry the detailed response logic, and `convolution.md` carries the zero-state assembly method.
