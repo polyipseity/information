@@ -1,6 +1,7 @@
 # Course note template (institution-agnostic)
 
-Use this file as a scaffold for new course pages under `special/academia/<INSTITUTION>/<COURSE CODE>/`.
+Use this file as a scaffold for new course pages under
+`special/academia/<INSTITUTION>/<COURSE CODE>/`.
 
 ## What belongs here
 
@@ -14,16 +15,35 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 
 - Keep the fenced `markdown` block machine-readable.
 - Put human guidance **outside** the fenced block.
-- For course indexes, include spaced and unspaced course-code aliases plus institution-prefixed variants, sorted alphabetically.
-- Use underscore course codes in flashcard tags, for example `COMP_3031`.
-- Put course-specific agent instructions in `AGENTS.md` in the same course folder, keep them concise, use the title `# <course code> agent instructions`, and do not use flashcard markup there (`{@{ }@}`, `:@:`, `::@::`).
-- If the provided materials already enumerate repeating deliverables or sessions (for example tutorial rounds, lab rounds, quizzes, or homeworks), scaffold minimal child `index.md` pages for those foreseeable items early and keep the pages lightweight until the official handouts are ingested.
-- Keep `index.md` pages lean: the course root should hold only the high-value overview, folder indexes should summarize just enough to navigate, and leaf indexes should usually contain only minimal logistics until real content is ingested.
-- In a course-root `index.md`, order the main top-level sections as `## children`, then `## logistics`, then `## overview`; keep sessions and exams after those.
-- Prefer one `## overview` section for compact orientation material such as official scope bullets, topic-to-file mapping, and short root-level notes.
-- When turning lecture PDFs into topic notes, preserve the concrete teaching detail: explicit classifications, key formulas, named signal/system families, and representative examples or counterexamples from the slides.
+- For course indexes, include spaced and unspaced course-code aliases plus
+  institution-prefixed variants, sorted alphabetically.
+- Use underscore-normalized path fragments in flashcard tags, for example
+  `flashcard/active/special/academia/HKUST/COMP_3031` or
+  `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
+- Put course-specific agent instructions in `AGENTS.md` in the same course
+  folder only when needed. If you create that file, keep it concise, use the
+  title `# <course code> agent instructions`, and do not use flashcard markup
+  there (`{@{ }@}`, `:@:`, `::@::`). If you do not create `AGENTS.md`, remove it
+  from the `children` list.
+- If the provided materials already enumerate repeating deliverables or sessions
+  (for example tutorial rounds, lab rounds, quizzes, or homeworks), scaffold
+  minimal child pages for those foreseeable items early and keep them lightweight
+  until official content arrives.
+- Keep `index.md` pages lean: the course root should hold only the high-value
+  overview, folder indexes should summarize just enough to navigate, and leaf
+  indexes should usually contain only minimal logistics until real content is
+  ingested.
+- In a course-root `index.md`, order the main top-level sections as `## children`,
+  then `## logistics`, then `## overview`; keep sessions and exams after those.
+- Prefer one `## overview` section for compact orientation material such as
+  official scope bullets, topic-to-file mapping, and short root-level notes.
+- When turning lecture PDFs into topic notes, preserve the concrete teaching
+  detail: explicit classifications, key formulas, named signal or system
+  families, and representative examples or counterexamples from the source.
 - Place `assignments/` immediately after `children` and before session entries.
-- Keep sessions in strict chronological order and use headings of the form `## week N lecture`, `## week N lecture 2`, `## week N lab`, and `## week N tutorial`.
+- Keep sessions in strict chronological order and use headings of the form
+  `## week N lecture`, `## week N lecture 2`, `## week N lab`, and
+  `## week N tutorial`.
 - Use underscore emphasis (`_italic_`, `__bold__`).
 - Keep units inside math delimiters, for example `$5\text{ V}$`.
 
@@ -42,7 +62,7 @@ aliases:
   - <institution> <course code> index
   - <institution> <coursecodewithoutspace> index
 tags:
-  - flashcard/active/special/academia/<institution>/<course code>
+  - flashcard/active/special/academia/<institution_slug>/<course_slug>
   - function/index
   - language/in/<language>
 ---
