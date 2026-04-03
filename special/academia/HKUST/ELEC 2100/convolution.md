@@ -21,12 +21,17 @@ tags:
 
 Convolution is the central time-domain operation for zero-state response of linear time-invariant systems. In ELEC 2100 it is introduced not as a mysterious formula to memorize, but as the result of decomposing a signal into shifted impulses, transferring each impulse through the system, and then summing the resulting shifted impulse responses.
 
+The same idea is not limited to one time variable. In two-dimensional settings such as images, one uses a two-dimensional convolution kernel that slides over horizontal and vertical coordinates. The kernel is a small weighting pattern, and the output at each pixel is the weighted local sum produced by that sliding window. Operationally, one flips the kernel in both coordinates, shifts it to the output location being evaluated, multiplies pointwise over the overlap region, and sums the overlapping products. So the one-dimensional impulse-response idea generalizes naturally from signals in time to signals over two spatial coordinates.
+
 ---
 
 Flashcards for this section are as follows:
 
 - What is convolution used for in early ELEC 2100? ::@:: It is the central time-domain operation for computing zero-state response of linear time-invariant systems.
 - How does the lecture motivate convolution conceptually? ::@:: By decomposing the input into shifted impulses, transferring each impulse through the system, and summing the shifted impulse responses.
+- What is a two-dimensional convolution kernel conceptually? ::@:: It is a small two-dimensional weighting pattern that slides across a signal defined on two coordinates, such as an image, and forms each output value as a weighted local sum.
+- How does the two-dimensional kernel viewpoint relate to the one-dimensional convolution idea? ::@:: It is the same convolution logic generalized from one time axis to two spatial coordinates: slide the kernel, weight nearby values, and sum the local contributions.
+- How do you carry out a two-dimensional convolution mechanically? ::@:: Flip the kernel in both coordinates, shift it to the output location of interest, multiply pointwise over the overlap region, and sum the overlapping products.
 
 ## impulse-decomposition viewpoint
 

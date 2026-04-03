@@ -43,6 +43,8 @@ The same signal may also be described in several different ways. The lecture hig
 
 This representational flexibility explains why signal processing matters. A signal is often transformed not to change the underlying message, but to make useful structure easier to detect, measure, transmit, or interpret. Noise reduction is a standard example: if a music signal is contaminated by unwanted noise, filtering is used to suppress the unwanted component so that the useful content becomes clearer. More generally, signals are processed so that important parameters or patterns become easier to analyze or estimate.
 
+Noise itself is still a signal in the mathematical sense. In this course it is usually treated as an unwanted random component added to a useful signal, so one often reasons in terms of useful signal plus noise rather than signal versus non-signal.
+
 It is also important not to confuse signal shape with meaning. Two different systems may assign different meanings to the same waveform shape, because interpretation depends on the encoding rule. Conversely, the same message may be carried by very different waveforms. The right comparison is therefore message versus representation, not content versus graph shape alone.
 
 ---
@@ -57,12 +59,15 @@ Flashcards for this section are as follows:
 - Why does the same waveform not necessarily imply the same meaning? ::@:: Meaning depends on the encoding rule used by the system, so the same waveform shape can represent different messages in different contexts.
 - Why process a signal at all? ::@:: A signal is processed so that useful structure becomes easier to detect, measure, transmit, or interpret rather than to change the underlying message itself.
 - How does noise reduction motivate signal processing? ::@:: Filtering suppresses the unwanted noise component so that the useful signal becomes easier to hear or analyze.
+- Why is noise still treated as a signal in ELEC 2100? ::@:: Because it is an unwanted random component carried by the same mathematical signal framework, so analysis often starts from a useful signal plus noise model.
 
 ## signal classifications
 
 The lecture introduces several classification axes, and they should be kept separate rather than mixed into one ladder. Deterministic versus random describes predictability. Continuous-time versus discrete-time describes the independent variable. Periodic versus aperiodic describes exact repetition. Energy versus power describes how squared magnitude accumulates over long observation windows. One-dimensional versus multidimensional describes how many independent variables are needed.
 
 A deterministic signal is specified exactly, whereas a random signal is described statistically and cannot be predicted pointwise in advance. A continuous-time signal is written as $x(t)$ and is defined for every relevant value of the time variable. A discrete-time signal is written as $x[n]$ and is defined only at indexed instants. A digital signal is a more specific notion: it is discrete in time _and_ quantized in amplitude, so not every discrete-time signal is digital.
+
+Noise is a standard example of the deterministic-random distinction. A clean test tone or an exactly specified pulse can be modeled deterministically, while thermal noise or measurement noise is modeled as a random signal whose detailed sample values are not known in advance even if its statistical behavior is.
 
 The lecture also emphasizes that many engineering signals are not just one waveform on one time axis. A multidimensional signal may depend on several variables such as time, space, or frequency coordinates. The Wi-Fi visualization example is meant to make this point concrete: signal strength is sensed over a richer spatial arrangement rather than only along one scalar time axis.
 
@@ -75,6 +80,7 @@ Flashcards for this section are as follows:
 - What are the main signal-classification axes introduced in the opening ELEC 2100 signal material? ::@:: They are deterministic vs random, continuous-time vs discrete-time, periodic vs aperiodic, energy vs power, and one-dimensional vs multidimensional.
 - What is a deterministic signal? ::@:: A deterministic signal is specified exactly, so its value is fixed once the formula or waveform is known.
 - What is a random signal? ::@:: A random signal is described statistically and cannot be predicted pointwise in advance.
+- How does noise fit into the deterministic-vs-random classification? ::@:: Noise is usually modeled as a random signal, whereas a prescribed waveform such as a test tone or designed pulse is modeled deterministically.
 - What is a continuous-time signal? ::@:: A continuous-time signal is written as $x(t)$ and is defined for every relevant value of a continuous variable.
 - What is a discrete-time signal? ::@:: A discrete-time signal is written as $x[n]$ and is defined only at indexed instants.
 - What is the difference between a discrete-time signal and a digital signal? ::@:: A discrete-time signal becomes digital only when its amplitude is also quantized, so discrete-time and digital are not synonymous.
@@ -89,7 +95,11 @@ Flashcards for this section are as follows:
 
 For a continuous-time signal, periodicity means exact repetition after a positive real shift. A signal $x(t)$ is periodic if there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$. The smallest such positive value is the fundamental period, and the corresponding fundamental angular frequency is $\omega_0=2\pi/T$.
 
+For continuous-time periodic signals, the fundamental angular frequency and ordinary fundamental frequency are normally taken as the positive values $\omega_0=2\pi/T_0$ and $f_0=1/T_0$. Unlike discrete time, continuous-time frequency is not identified modulo $2\pi$, so there is no aliasing-style maximum distinct fundamental frequency in general: if the period becomes smaller, the fundamental frequency simply becomes larger.
+
 This definition matters most when comparing a single sinusoid with sums of oscillations. A sinusoid such as $A\cos(\omega t+\phi)$ has period $T=2\pi/|\omega|$ when $\omega\neq 0$. A sum of sinusoids is periodic only when the component periods are commensurate, or equivalently when their angular frequencies have rational ratios. For example, $x(t)=\cos 10t+\cos 30t$ is periodic because the component periods are $\pi/5$ and $\pi/15$, so the fundamental period is $\pi/5$. A useful distinction is between a __period__ and the __fundamental period__: if $T_0$ is the smallest positive repeating shift, then every positive integer multiple of $T_0$ is also a period, but only $T_0$ is fundamental. For example, $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$ has component periods $4$ and $3$, so the fundamental period is $12$, while $24$, $36$, and other positive multiples are also valid periods. If no common positive period exists, the oscillation may look repetitive but is still aperiodic or quasi-periodic rather than truly periodic. A useful counterexample is $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$, whose component periods are $4$ and $3\pi$; because $4/(3\pi)$ is irrational, no finite common positive period exists.
+
+In practice there are two equivalent workflows for commensurate sums. One may compute the component periods and take their least common multiple to obtain the fundamental period, or compute the component ordinary frequencies and take their greatest common divisor to obtain the fundamental frequency. The same idea also reminds us that not every periodic signal is sinusoidal: a triangular wave is periodic because one full up-ramp plus down-ramp pattern repeats after a fixed interval even though the waveform is piecewise linear rather than sinusoidal.
 
 Energy and power are different long-run measurements. The energy of a continuous-time signal is $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$, while the average power is $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$. Energy asks for the total accumulated squared magnitude over all time. Power asks for the long-term average rate of squared magnitude.
 
@@ -103,10 +113,14 @@ Flashcards for this section are as follows:
 
 - When is a continuous-time signal periodic? ::@:: It is periodic if there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$; the smallest such positive $T$ is the fundamental period.
 - Given a continuous-time signal with fundamental period $T$, what is its fundamental angular frequency? ::@:: Its fundamental angular frequency is $\omega_0=2\pi/T$.
+- For a continuous-time periodic signal with fundamental period $T_0$, what sign convention is used for the fundamental frequencies? ::@:: The fundamental angular frequency and ordinary fundamental frequency are taken as the positive values $\omega_0=2\pi/T_0$ and $f_0=1/T_0$.
+- Is there a highest distinct continuous-time fundamental frequency in general? ::@:: No. Continuous-time frequencies are not identified modulo $2\pi$, so there is no aliasing-based maximum distinct fundamental frequency.
 - Given a sinusoid $A\cos(\omega t+\phi)$ with $\omega\neq 0$, what is its period? ::@:: Its period is $T=2\pi/|\omega|$.
 - When is a sum of sinusoids periodic? ::@:: It is periodic only when the component periods are commensurate, equivalently when the component angular frequencies have rational ratios.
 - Worked example: Given $x(t)=\cos 10t+\cos 30t$, what is the fundamental period? ::@:: Step 1: compute the component periods $T_1=2\pi/10=\pi/5$ and $T_2=2\pi/30=\pi/15$. <br/> Step 2: look for the smallest common positive multiple. <br/> Step 3: since $\pi/5=3(\pi/15)$, the common fundamental period is $\pi/5$.
+- How can the fundamental oscillation of a commensurate sum be found from periods or frequencies? ::@:: One may take the least common multiple of the component periods to get the fundamental period, or equivalently take the greatest common divisor of the component ordinary frequencies to get the fundamental frequency.
 - What is the difference between a period and a fundamental period? ::@:: A period is any positive shift that reproduces the signal, whereas the fundamental period is the smallest positive such shift.
+- Why is a triangular wave still a periodic signal even though it is not sinusoidal? ::@:: Because its full piecewise-linear shape repeats after a fixed interval, so periodicity is about exact repetition of the waveform, not about being sinusoidal.
 - Worked example: Given $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$, what is its fundamental period? ::@:: Step 1: identify the component periods $T_1=4$ and $T_2=3$. <br/> Step 2: take the smallest common positive multiple. <br/> Step 3: the fundamental period is $12$, while $24$, $36$, and other positive multiples are also periods.
 - Worked example: Why is $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$ aperiodic? ::@:: Step 1: the component periods are $4$ and $3\pi$. <br/> Step 2: a common period would need to be a common positive multiple of both. <br/> Step 3: because $4/(3\pi)$ is irrational, no finite common positive multiple exists. <br/> Step 4: therefore the sum is aperiodic.
 - What is the continuous-time energy formula for a signal $x(t)$? ::@:: It is $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$.
@@ -125,9 +139,11 @@ A real exponential has the form $x(t)=Ae^{\alpha t}$. If $\alpha<0$, it decays; 
 
 A sinusoid such as $A\sin(\omega t+\theta)$ or $A\cos(\omega t+\theta)$ is characterized by amplitude, angular frequency, and initial phase. The ordinary frequency is $f=\omega/(2\pi)$, and the period is $T=1/f=2\pi/\omega$ when $\omega>0$. A damped sinusoid such as $Ke^{-\alpha t}\sin(\omega_0 t)u(t)$ combines oscillation with an exponentially shrinking envelope.
 
+Damped sinusoidal signals are physically important rather than just algebraically convenient. A mass-spring-damper response is a standard mechanical example, and an electromagnetic wave propagating through a conductor is a standard field example; in both cases the oscillation remains, but the envelope decays because energy is dissipated.
+
 A complex exponential has the form $Ke^{st}$ with complex frequency $s=\sigma+j\omega$. Writing it as $Ke^{(\sigma+j\omega)t}=Ke^{\sigma t}e^{j\omega t}$ makes the roles clear: $\sigma$ controls growth or decay, while $\omega$ controls oscillation. Real exponentials and pure complex oscillations are therefore special cases of one unified family.
 
-The sampling signal is introduced in the unnormalized form $\operatorname{Sa}(t)=\sin t/t$, with limiting value $\operatorname{Sa}(0)=1$. It is even, has zeros at $t=\pm n\pi$ for integers $n\ge 1$, and decays toward $0$ as $|t|\to\infty$. Its graph consists of a dominant main lobe near the origin together with decaying side lobes. The normalized sinc function is $\operatorname{sinc}(t)=\sin(\pi t)/(\pi t)$, so $\operatorname{Sa}(t)=\operatorname{sinc}(t/\pi)$ and $\operatorname{sinc}(t)=\operatorname{Sa}(\pi t)$. The zero crossings and peaked center explain why this family later becomes a natural interpolation kernel in sampling theory.
+The sampling signal is introduced in the unnormalized form $\operatorname{Sa}(t)=\sin t/t$, with limiting value $\operatorname{Sa}(0)=1$. The value at the origin comes from the removable-singularity limit $\lim_{t\to 0}\sin t/t=1$, so the graph is completed continuously at the center rather than left as an actual blow-up. It is even, has zeros at $t=\pm n\pi$ for integers $n\ge 1$, and decays toward $0$ as $|t|\to\infty$. Its graph consists of a dominant main lobe near the origin together with decaying side lobes. The normalized sinc function is $\operatorname{sinc}(t)=\sin(\pi t)/(\pi t)$, so $\operatorname{Sa}(t)=\operatorname{sinc}(t/\pi)$ and $\operatorname{sinc}(t)=\operatorname{Sa}(\pi t)$. The zero crossings and peaked center explain why this family later becomes a natural interpolation kernel in sampling theory.
 
 The Gaussian pulse $x(t)=E\exp\!\left(-(t/\tau)^2\right)$ is another localized building block. Its peak value is $E$ at $t=0$, and $\tau$ controls its width. Unlike the sampling signal, it does not oscillate or cross zero repeatedly; it stays positive and decays smoothly.
 
@@ -143,9 +159,11 @@ Flashcards for this section are as follows:
 - Given a sinusoid such as $A\sin(\omega t+\theta)$ or $A\cos(\omega t+\theta)$, what parameters characterize it? ::@:: It is characterized by amplitude, angular frequency, and initial phase.
 - Given a sinusoid with angular frequency $\omega>0$, how are its ordinary frequency and period related to $\omega$? ::@:: They satisfy $f=\omega/(2\pi)$ and $T=2\pi/\omega$.
 - What does a damped sinusoid combine? ::@:: It combines oscillation with exponential decay, so its envelope shrinks while it continues to oscillate.
+- What are standard physical examples of damped sinusoidal signals? ::@:: A mass-spring-damper response and an electromagnetic wave attenuating in a conductor are standard examples, because both keep oscillating while their envelopes decay.
 - Given the signal family $Ke^{st}$ with $s=\sigma+j\omega$, what kind of object is it? ::@:: It is a complex exponential with complex frequency $s=\sigma+j\omega$.
 - In the complex exponential $Ke^{(\sigma+j\omega)t}$, what do $\sigma$ and $\omega$ control? ::@:: $\sigma$ controls growth or decay, while $\omega$ controls oscillation.
 - How is the sampling signal defined, including its limiting value at the origin? ::@:: It is $\operatorname{Sa}(t)=\sin t/t$ for $t\neq 0$, with limiting value $\operatorname{Sa}(0)=1$.
+- Why can the sampling signal be assigned the finite value $\operatorname{Sa}(0)=1$ at the origin? ::@:: Because $\lim_{t\to0}\sin t/t=1$, so the apparent $0/0$ form is a removable singularity rather than a real divergence.
 - What are the main qualitative properties of $\operatorname{Sa}(t)$? ::@:: It is even, has zeros at $\pm n\pi$ for integers $n\ge 1$, and decays toward $0$ as $|t|\to\infty$.
 - What is the normalized sinc function? ::@:: It is $\operatorname{sinc}(t)=\sin(\pi t)/(\pi t)$.
 - How are $\operatorname{Sa}(t)$ and the normalized sinc function related? ::@:: They differ only by argument scaling: $\operatorname{Sa}(t)=\operatorname{sinc}(t/\pi)$ and $\operatorname{sinc}(t)=\operatorname{Sa}(\pi t)$.
@@ -190,6 +208,8 @@ Flashcards for this section are as follows:
 
 Complex numbers appear early because oscillatory signals are written naturally with complex exponentials. Any complex number may be written in rectangular form $z=x+jy$ or polar form $z=re^{j\theta}$, where $r=|z|$ is magnitude and $\theta=\arg z$ is phase. Euler's relation $e^{j\theta}=\cos\theta+j\sin\theta$ connects the exponential and trigonometric viewpoints, which is why identities such as $\cos(\omega t)=\frac{e^{j\omega t}+e^{-j\omega t}}{2}$ and $\sin(\omega t)=\frac{e^{j\omega t}-e^{-j\omega t}}{2j}$ are so important.
 
+The geometric language behind orthogonality also starts from vectors. For ordinary finite-dimensional vectors, the dot product measures alignment and becomes zero for perpendicular directions. For signals, the corresponding concept is an inner product, usually defined by an integral or sum, and orthogonality means that this signal-space inner product is zero. The full Fourier-series formulas live in [Fourier series](Fourier%20series.md), but the intuition is already the same here: dot product is the vector version, inner product is the signal-space generalization.
+
 ### atan2 and quadrant-aware phase extraction
 
 When phase is recovered from rectangular coordinates, the robust definition is the two-argument angle function $\operatorname{atan2}(y,x)$.  By definition, $\operatorname{atan2}(y,x)$ returns the principal argument of the vector $(x,y)$ or complex number $x+jy$, typically in the range $(-\pi,\pi]$.  Unlike $\arctan(y/x)$, it uses the signs of both inputs and therefore chooses the correct quadrant and remains meaningful when $x=0$.
@@ -226,6 +246,8 @@ Flashcards for this section are as follows:
 - What is Euler's relation? ::@:: It is $e^{j\theta}=\cos\theta+j\sin\theta$.
 - How can $\cos(\omega t)$ be written using complex exponentials? ::@:: $\cos(\omega t)=\frac{e^{j\omega t}+e^{-j\omega t}}{2}$.
 - How can $\sin(\omega t)$ be written using complex exponentials? ::@:: $\sin(\omega t)=\frac{e^{j\omega t}-e^{-j\omega t}}{2j}$.
+- What is the relationship between the vector dot product and a signal inner product? ::@:: The dot product is the finite-dimensional vector measure of alignment, while the inner product is its signal-space generalization, usually built from an integral or a sum.
+- What does orthogonality mean in signal language? ::@:: It means the relevant inner product of the two signals is zero, just as perpendicular vectors have zero dot product.
 - What function should be used for quadrant-aware phase extraction from rectangular coordinates? ::@:: Use $\operatorname{atan2}(y,x)$, which returns the principal angle using the signs of both coordinates.
 - Why is $\operatorname{atan2}$ safer than $\arctan(y/x)$ in signal-processing phase calculations? ::@:: Because $\operatorname{atan2}$ preserves quadrant and handles $x=0$, while $\arctan(y/x)$ loses quadrant information.
 - How can a periodic signal be decomposed into DC and AC parts? ::@:: It can be written as a DC part plus an AC part, where the AC part has zero mean.
@@ -244,7 +266,11 @@ Flashcards for this section are as follows:
 
 ## discrete-time sequences and periodicity
 
-A discrete-time signal is a sequence indexed by integers, so it must be read as a sample-by-sample object rather than as a continuously defined waveform. Its periodicity condition is therefore stricter than the continuous-time one: the period itself must be a positive integer shift in the index. This is why sampling can change apparent periodicity and why discrete-time sinusoidal sequences need an arithmetic rationality test instead of the continuous-time "every sinusoid is periodic" rule.
+A discrete-time signal is a sequence indexed by integers, so it must be read as a sample-by-sample object rather than as a continuously defined waveform. The bridge from continuous time to discrete time is sampling: one keeps values at selected instants and records them against an integer sample index. The bridge back from discrete time to continuous time is interpolation or reconstruction: one uses the sequence values to rebuild a continuous-time waveform by an ideal or practical interpolation rule.
+
+Its periodicity condition is therefore stricter than the continuous-time one: the period itself must be a positive integer shift in the index. This is why sampling can change apparent periodicity and why discrete-time sinusoidal sequences need an arithmetic rationality test instead of the continuous-time "every sinusoid is periodic" rule. For a periodic sequence, the fundamental period is the smallest positive integer shift $N_0$ in the sample index. The corresponding fundamental digital frequency is $2\pi/N_0$, while a particular sinusoid may be a higher harmonic of that fundamental. When one reads one cycle from a finite stem plot, the safest convention is to start at the smallest valid displayed signal index and count $N_0$ consecutive samples.
+
+Discrete-time frequency also has a built-in periodicity. Complex-exponential frequency is defined modulo $2\pi$ because $e^{j(\omega+2\pi k)n}=e^{j\omega n}$ for integers $k$. For real sinusoidal sequences one usually reduce modulo $2\pi$ and then fold into the principal range $0\le \omega\le \pi$, or equivalently $0\le f\le 1/2$ cycles per sample. In that principal real-sinusoid range, the largest distinct fundamental angular frequency is $\pi$ radians per sample and the largest distinct ordinary frequency is $1/2$ cycle per sample.
 
 In ELEC 2100, the detailed treatment of representation methods, support patterns, unit sample and unit step sequences, rectangular windows, ramps, one-sided exponentials, discrete-time sinusoids, and complex exponential sequences is centralized in [`discrete-time signal`](discrete-time%20signal.md). That topic note also holds the main discrete-time periodicity examples so the material has one durable home instead of being duplicated across multiple notes.
 
@@ -253,6 +279,11 @@ In ELEC 2100, the detailed treatment of representation methods, support patterns
 Flashcards for this section are as follows:
 
 - What is the key conceptual difference between a discrete-time signal and a continuous-time signal? ::@:: A discrete-time signal is indexed sample by sample by integers, whereas a continuous-time signal is defined over a continuous independent variable.
+- What operation takes a continuous-time signal to a discrete-time signal, and what takes a discrete-time signal back to a continuous-time waveform? ::@:: Continuous time goes to discrete time by sampling, while discrete time goes back to continuous time by interpolation or reconstruction.
 - Why is discrete-time periodicity stricter than continuous-time periodicity? ::@:: Continuous-time periodicity allows any positive real period, whereas discrete-time periodicity requires a positive integer shift in the sample index.
+- For a periodic sequence, what makes the period fundamental? ::@:: The fundamental period is the smallest positive integer sample-index shift that reproduces the sequence.
+- Why is discrete-time frequency said to be periodic modulo $2\pi$? ::@:: Because $e^{j(\omega+2\pi k)n}=e^{j\omega n}$ for every integer $k$, so adding $2\pi k$ to digital angular frequency does not change the sequence.
+- What principal range is usually used for real discrete-time sinusoidal frequency, and what is the largest distinct frequency there? ::@:: One reduces modulo $2\pi$ and folds into $0\le \omega\le \pi$, equivalently $0\le f\le 1/2$ cycles per sample, so the largest distinct angular frequency is $\pi$ radians per sample and the largest distinct ordinary frequency is $1/2$ cycle per sample.
+- How should one read one fundamental cycle from a finite stem plot of a periodic sequence? ::@:: Start at the smallest valid displayed signal index and count one full block of $N_0$ consecutive samples, where $N_0$ is the fundamental period.
 - Why can sampling change apparent periodicity? ::@:: Sampling may convert a continuous-time waveform into a sequence whose values satisfy a different repetition pattern, or even collapse it into a much simpler sequence.
 - Where is the detailed ELEC 2100 treatment of common discrete-time signals centralized? ::@:: It is centralized in [`discrete-time signal`](discrete-time%20signal.md), which collects the representation methods, standard signal families, and periodicity examples in one durable note.

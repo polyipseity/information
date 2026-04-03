@@ -162,6 +162,8 @@ This rule immediately explains why gates differentiate into impulse pairs. If $G
 
 The same principle explains switched exponentials. The derivative of $e^{-t}u(t)$ is not just the ordinary derivative $-e^{-t}u(t)$ on $t>0$; it also includes the impulsive contribution created by switching on at the origin: $\frac{d}{dt}(e^{-t}u(t))=-e^{-t}u(t)+\delta(t)$. This is a good model example because it shows how ordinary differentiation and singular contributions coexist in one formula.
 
+More generally, the course treats the derivative of a piecewise-smooth signal in two layers: differentiate each smooth segment in the ordinary way, and then add a Dirac impulse at every jump discontinuity. If the jump at $t=t_0$ is $x(t_0^+)-x(t_0^-)$, then the derivative contains the singular term $\bigl(x(t_0^+)-x(t_0^-)\bigr)\delta(t-t_0)$. On sketches, this jump contribution is drawn as an impulse arrow at the jump location rather than as an ordinary finite spike.
+
 ---
 
 Flashcards for this section are as follows:
@@ -173,6 +175,8 @@ Flashcards for this section are as follows:
 - Why does a differentiated gate produce a positive and a negative impulse? ::@:: The rising edge contributes a positive impulse, while the falling edge contributes a negative impulse.
 - What is the derivative of $e^{-t}u(t)$? ::@:: It is $-e^{-t}u(t)+\delta(t)$.
 - Why do switched signals acquire impulse terms when differentiated? ::@:: Differentiation gives the ordinary derivative on smooth intervals plus an impulse at the switching instant.
+- How should this course differentiate a piecewise-smooth signal with jump discontinuities? ::@:: Differentiate each smooth piece normally, then add a Dirac impulse at each jump with weight equal to the jump size $x(t_0^+)-x(t_0^-)$.
+- How is the derivative contribution of a jump drawn on a graph? ::@:: It is drawn as an impulse arrow at the jump location, because the singular contribution is a Dirac delta rather than an ordinary finite-height spike.
 - Worked example: Given $G_2(t)=u(t+1)-u(t-1)$, what is its derivative? ::@:: Step 1: differentiate the rising edge $u(t+1)$ to get $\delta(t+1)$. <br/> Step 2: differentiate the falling edge $-u(t-1)$ to get $-\delta(t-1)$. <br/> Step 3: add the two contributions to obtain $\delta(t+1)-\delta(t-1)$.
 
 ## doublet and higher impulse derivatives
