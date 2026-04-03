@@ -76,6 +76,10 @@ This interpretation explains why convolution mixes a source time and an observat
 
 One useful intuition is to imagine each input slice launching a copy of the impulse response. Early slices launch earlier copies, later slices launch later copies, and the observed output at time $t$ is the total overlap of all those shifted copies at that observation instant. Convolution is therefore not merely multiplication under an integral sign; it is an accumulation of delayed system memories weighted by the input.
 
+A queueing-and-revenue analogy makes the roles concrete without changing the mathematics. The source time $\tau$ is when one arrival occurs, the observation time $t$ is when we ask how much accumulated response is visible, $x(\tau)$ is the strength of that arrival, and $h(t-\tau)$ is the amount of contribution from that one-unit arrival that is still visible at time $t$. The point of the analogy is that delayed copies of one response pattern are launched at different source times and then accumulated.
+
+The same analogy also separates three meanings that often get blurred in the algebra. A weighted impulse train models arrivals only at isolated instants. A rectangular impulse response models a fixed service or payment window. A shifted impulse response models a pure delay. Once those meanings are clear, formulas such as $x(t)*\delta(t-t_0)=x(t-t_0)$ stop looking like magic; they are simply operator rules for shifting when a contribution becomes visible.
+
 ---
 
 Flashcards for this section are as follows:
@@ -130,6 +134,8 @@ Convolution with a shifted impulse delays the signal because $(f*\delta(t-t_0))(
 
 This is why the lecture interprets an ideal conductor as having impulse response $\delta(t)$ and an ideal delayer as having impulse response $\delta(t-t_0)$. In words, a pure-delay system does not distort amplitudes, stretch time, or mix neighbouring source times; it simply waits for $t_0$ time units and then releases the same waveform. The delayed impulse kernel is therefore the most compact mathematical description of "same shape, later in time."
 
+For example, if each input event produces a fixed payment of $4$ dollars exactly $2$ seconds later, then the impulse response is $h(t)=4\delta(t-2)$ and the output is $y(t)=x(t)*h(t)=4x(t-2)$. This is the pure-delay-and-scale rule in system language: the waveform shape is preserved, shifted right by $2$ seconds, and multiplied by $4$.
+
 The same idea extends to singular derivatives and to accumulation. Convolution with the derivative of the impulse differentiates the signal, so $f(t)*\delta'(t)=f'(t)$ and more generally $f(t)*\delta^{(k)}(t)=f^{(k)}(t)$. Convolution with the step accumulates the signal because $(f*u)(t)=\int_{-\infty}^{\infty}f(\tau)u(t-\tau)\,d\tau=\int_{-\infty}^{t}f(\tau)\,d\tau$.
 
 These kernels are therefore reusable operators inside the convolution language itself.
@@ -149,6 +155,7 @@ Flashcards for this section are as follows:
 - Why do repeated pure delays add under convolution? ::@:: Because delaying by $t_1$ and then by $t_2$ is convolution with $\delta(t-t_1)*\delta(t-t_2)=\delta(t-(t_1+t_2))$, so the total delay is $t_1+t_2$.
 - Why can the impulse response of an ideal conductor be identified with $\delta(t)$? ::@:: Because convolving with $\delta(t)$ leaves the signal unchanged, which is exactly the behaviour of an ideal through connection.
 - Why can the impulse response of an ideal delayer be identified with $\delta(t-t_0)$? ::@:: Because convolution with $\delta(t-t_0)$ reproduces the same waveform later in time without changing its shape, so it is the exact kernel for a pure delay.
+- Worked example: If each input event produces a fixed payment of $4$ dollars exactly $2$ seconds later, what impulse response models the rule and what output does it give for input $x(t)$? ::@:: Step 1: a pure delay of $2$ seconds with fixed amount $4$ is modeled by $h(t)=4\delta(t-2)$. <br/> Step 2: convolving with a shifted impulse delays and scales the input. <br/> Step 3: therefore $y(t)=x(t)*4\delta(t-2)=4x(t-2)$. <br/> Step 4: the output keeps the same shape, shifted right by $2$ seconds and multiplied by $4$.
 - What is the result of convolving a signal with $\delta'(t)$ or more generally with $\delta^{(k)}(t)$? ::@:: It differentiates the signal, giving $f(t)*\delta'(t)=f'(t)$ and $f(t)*\delta^{(k)}(t)=f^{(k)}(t)$.
 - What is the result of convolving a signal with the unit step? ::@:: It accumulates the signal: $f(t)*u(t)=\int_{-\infty}^{t} f(\lambda)\,d\lambda$.
 - How is the accumulation identity $f(t)*u(t)=\int_{-\infty}^{t}f(\lambda)\,d\lambda$ derived? ::@:: Since $u(t-\tau)=1$ only when $\tau\le t$, the convolution integral reduces from $\int_{-\infty}^{\infty}f(\tau)u(t-\tau)\,d\tau$ to $\int_{-\infty}^{t}f(\tau)\,d\tau$.

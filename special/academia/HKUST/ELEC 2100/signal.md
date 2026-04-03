@@ -72,7 +72,7 @@ These labels are parallel, not mutually exclusive. For example, $\cos t$ is dete
 
 Flashcards for this section are as follows:
 
-- What are the main signal-classification axes introduced in Chapter 1? ::@:: They are deterministic vs random, continuous-time vs discrete-time, periodic vs aperiodic, energy vs power, and one-dimensional vs multidimensional.
+- What are the main signal-classification axes introduced in the opening ELEC 2100 signal material? ::@:: They are deterministic vs random, continuous-time vs discrete-time, periodic vs aperiodic, energy vs power, and one-dimensional vs multidimensional.
 - What is a deterministic signal? ::@:: A deterministic signal is specified exactly, so its value is fixed once the formula or waveform is known.
 - What is a random signal? ::@:: A random signal is described statistically and cannot be predicted pointwise in advance.
 - What is a continuous-time signal? ::@:: A continuous-time signal is written as $x(t)$ and is defined for every relevant value of a continuous variable.
@@ -89,7 +89,7 @@ Flashcards for this section are as follows:
 
 For a continuous-time signal, periodicity means exact repetition after a positive real shift. A signal $x(t)$ is periodic if there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$. The smallest such positive value is the fundamental period, and the corresponding fundamental angular frequency is $\omega_0=2\pi/T$.
 
-This definition matters most when comparing a single sinusoid with sums of oscillations. A sinusoid such as $A\cos(\omega t+\phi)$ has period $T=2\pi/|\omega|$ when $\omega\neq 0$. A sum of sinusoids is periodic only when the component periods are commensurate, or equivalently when their angular frequencies have rational ratios. For example, $x(t)=\cos 10t+\cos 30t$ is periodic because the component periods are $\pi/5$ and $\pi/15$, so the fundamental period is $\pi/5$. If no common positive period exists, the oscillation may look repetitive but is still aperiodic or quasi-periodic rather than truly periodic.
+This definition matters most when comparing a single sinusoid with sums of oscillations. A sinusoid such as $A\cos(\omega t+\phi)$ has period $T=2\pi/|\omega|$ when $\omega\neq 0$. A sum of sinusoids is periodic only when the component periods are commensurate, or equivalently when their angular frequencies have rational ratios. For example, $x(t)=\cos 10t+\cos 30t$ is periodic because the component periods are $\pi/5$ and $\pi/15$, so the fundamental period is $\pi/5$. A useful distinction is between a __period__ and the __fundamental period__: if $T_0$ is the smallest positive repeating shift, then every positive integer multiple of $T_0$ is also a period, but only $T_0$ is fundamental. For example, $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$ has component periods $4$ and $3$, so the fundamental period is $12$, while $24$, $36$, and other positive multiples are also valid periods. If no common positive period exists, the oscillation may look repetitive but is still aperiodic or quasi-periodic rather than truly periodic. A useful counterexample is $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$, whose component periods are $4$ and $3\pi$; because $4/(3\pi)$ is irrational, no finite common positive period exists.
 
 Energy and power are different long-run measurements. The energy of a continuous-time signal is $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$, while the average power is $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$. Energy asks for the total accumulated squared magnitude over all time. Power asks for the long-term average rate of squared magnitude.
 
@@ -106,6 +106,9 @@ Flashcards for this section are as follows:
 - Given a sinusoid $A\cos(\omega t+\phi)$ with $\omega\neq 0$, what is its period? ::@:: Its period is $T=2\pi/|\omega|$.
 - When is a sum of sinusoids periodic? ::@:: It is periodic only when the component periods are commensurate, equivalently when the component angular frequencies have rational ratios.
 - Worked example: Given $x(t)=\cos 10t+\cos 30t$, what is the fundamental period? ::@:: Step 1: compute the component periods $T_1=2\pi/10=\pi/5$ and $T_2=2\pi/30=\pi/15$. <br/> Step 2: look for the smallest common positive multiple. <br/> Step 3: since $\pi/5=3(\pi/15)$, the common fundamental period is $\pi/5$.
+- What is the difference between a period and a fundamental period? ::@:: A period is any positive shift that reproduces the signal, whereas the fundamental period is the smallest positive such shift.
+- Worked example: Given $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$, what is its fundamental period? ::@:: Step 1: identify the component periods $T_1=4$ and $T_2=3$. <br/> Step 2: take the smallest common positive multiple. <br/> Step 3: the fundamental period is $12$, while $24$, $36$, and other positive multiples are also periods.
+- Worked example: Why is $x(t)=\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$ aperiodic? ::@:: Step 1: the component periods are $4$ and $3\pi$. <br/> Step 2: a common period would need to be a common positive multiple of both. <br/> Step 3: because $4/(3\pi)$ is irrational, no finite common positive multiple exists. <br/> Step 4: therefore the sum is aperiodic.
 - What is the continuous-time energy formula for a signal $x(t)$? ::@:: It is $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$.
 - What is the continuous-time average-power formula for a signal $x(t)$? ::@:: It is $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$.
 - What is the difference between signal energy and signal power? ::@:: Energy measures total accumulated squared magnitude over all time, whereas power measures long-term average squared magnitude.
@@ -116,7 +119,7 @@ Flashcards for this section are as follows:
 
 ## standard continuous-time signal families
 
-Chapter 1 groups several standard signal families as reusable building blocks: exponentials, sinusoids, complex exponentials, sampling signals, and Gaussian pulses. Each family highlights a different recurring pattern that later reappears in transform methods and system responses.
+The opening ELEC 2100 signal lectures group several standard signal families as reusable building blocks: exponentials, sinusoids, complex exponentials, sampling signals, and Gaussian pulses. Each family highlights a different recurring pattern that later reappears in transform methods and system responses.
 
 A real exponential has the form $x(t)=Ae^{\alpha t}$. If $\alpha<0$, it decays; if $\alpha>0$, it grows; if $\alpha=0$, it reduces to a constant. A one-sided decaying exponential such as $Ke^{-t/\tau}u(t)$ introduces the time constant $\tau>0$, which controls the decay rate and satisfies $x(\tau)=K/e$.
 
@@ -134,7 +137,7 @@ Comparisons help keep the families straight. A real exponential changes amplitud
 
 Flashcards for this section are as follows:
 
-- Which standard continuous-time signal families are highlighted in Chapter 1? ::@:: Exponentials, sinusoids, complex exponentials, sampling signals, and Gaussian pulses are presented as standard continuous-time building blocks.
+- Which standard continuous-time signal families are highlighted in the opening ELEC 2100 signal lectures? ::@:: Exponentials, sinusoids, complex exponentials, sampling signals, and Gaussian pulses are presented as standard continuous-time building blocks.
 - Given the real exponential family $x(t)=Ae^{\alpha t}$, how does the sign of $\alpha$ affect its behavior? ::@:: It decays when $\alpha<0$, grows when $\alpha>0$, and becomes a constant when $\alpha=0$.
 - In the one-sided exponential $Ke^{-t/\tau}u(t)$, what does the time constant $\tau$ tell you? ::@:: It controls the decay rate and gives the amplitude value $K/e$ at $t=\tau$.
 - Given a sinusoid such as $A\sin(\omega t+\theta)$ or $A\cos(\omega t+\theta)$, what parameters characterize it? ::@:: It is characterized by amplitude, angular frequency, and initial phase.
@@ -162,6 +165,8 @@ The safest way to interpret a complicated input transformation is the substituti
 
 This is why affine transformations must be read carefully. For example, $x(3t+5)=x(3(t+5/3))$ should be interpreted as compression by a factor of $3$ followed by a shift left by $5/3$. Likewise, $x(-2t+4)=x(-2(t-2))$ is a reversal together with compression by $2$, followed by a shift right by $2$. A feature originally at $t=t_1$ therefore appears at $t=2-t_1/2$.
 
+For graph-transformation problems, a practical rule is to rewrite $x(at+b)$ into a nested form whose operations can be read literally, and then apply those operations in that same order. Feature tracking is often even faster: once the original support or a distinctive corner is known, solve $at+b=t_1$ for the new location. For example, if the original support is $0\le t\le 3$, then the support of $x(-2t+2)$ is found from $0\le -2t+2\le 3$, which gives $-1/2\le t\le 1$. The minus sign reverses the order of the endpoints, while the factor $2$ compresses the width by half.
+
 Comparing inside and outside operations prevents a common mistake. The expressions $x(t)+2$ and $x(t+2)$ both contain `+2`, but they mean entirely different things: the first is a vertical upward shift, while the second is a horizontal left shift. Differentiation and integration belong to the vertical side of this comparison: differentiation emphasizes rapid change, whereas integration accumulates area.
 
 ---
@@ -177,6 +182,7 @@ Flashcards for this section are as follows:
 - Worked example: How should $x(3t+5)$ be interpreted geometrically? ::@:: Step 1: factor the argument as $3t+5=3(t+5/3)$. <br/> Step 2: the factor $3$ inside compresses time by $3$. <br/> Step 3: the $+5/3$ inside shifts the waveform left by $5/3$. <br/> Step 4: so the transformation is compress, then shift left.
 - Worked example: How should $x(-2t+4)$ be interpreted geometrically? ::@:: Step 1: factor the argument as $-2t+4=-2(t-2)$. <br/> Step 2: the negative sign gives time reversal. <br/> Step 3: the magnitude $2$ compresses time by $2$. <br/> Step 4: the $(t-2)$ term shifts the transformed waveform right by $2$.
 - Worked example: If a feature of $x(t)$ occurs at $t=t_1$, where does it appear in $x(-2t+4)$? ::@:: Step 1: preserve the feature by solving $-2t+4=t_1$. <br/> Step 2: rearrange to $-2t=t_1-4$. <br/> Step 3: divide by $-2$ to get $t=2-t_1/2$.
+- Worked example: If the original support of $x(t)$ is $0\le t\le 3$, what is the support of $x(-2t+2)$? ::@:: Step 1: solve $0\le -2t+2\le 3$. <br/> Step 2: subtract $2$ to get $-2\le -2t\le 1$. <br/> Step 3: divide by $-2$ and reverse the inequalities to obtain $-1/2\le t\le 1$. <br/> Step 4: therefore the transformed support is $[-1/2,1]$.
 - What is the difference between $x(t)+2$ and $x(t+2)$? ::@:: $x(t)+2$ is a vertical upward shift by $2$, whereas $x(t+2)$ is a horizontal shift left by $2$.
 - What do differentiation and integration do to a signal conceptually? ::@:: Differentiation emphasizes rapid change, whereas integration accumulates area over time.
 
@@ -209,7 +215,7 @@ An analogous split holds for even and odd parts. Every signal can be written as 
 
 Complex-valued signals admit a third decomposition into real and imaginary parts. Writing $x(t)=x_R(t)+jx_I(t)$ with $x_R(t)=\frac{x(t)+x^*(t)}{2}$ and $x_I(t)=\frac{x(t)-x^*(t)}{2j}$ yields $|x(t)|^2=x_R^2(t)+x_I^2(t)$, so power or energy also splits additively into orthogonal components. The geometric intuition is the same as in the complex plane: the real and imaginary axes are perpendicular directions.
 
-Worked examples make the pattern concrete. If $x(t)=1+\sin t$, then the DC part is $1$, the AC part is $\sin t$, and the average power is $1+1/2=3/2$. The same signal also has even part $1$ and odd part $\sin t$, so the even-odd power split gives the same result. For $x(t)=\cos t+j\sin t$, the real-part power is $1/2$, the imaginary-part power is $1/2$, and the total power is $1$.
+Worked examples make the pattern concrete. If $x(t)=1+\sin t$, then the DC part is $1$, the AC part is $\sin t$, and the average power is $1+1/2=3/2$. The same signal also has even part $1$ and odd part $\sin t$, so the even-odd power split gives the same result. For $x(t)=\cos t+j\sin t$, the real-part power is $1/2$, the imaginary-part power is $1/2$, and the total power is $1$. Another useful complex-exponential example is $x(t)=2e^{j2\pi t}=2\cos(2\pi t)+j2\sin(2\pi t)$: its magnitude is constantly $2$, its phase is $2\pi t$ modulo $2\pi$, and conjugation produces $x^*(t)=2e^{-j2\pi t}$, which keeps the same magnitude while flipping the phase sign and the sign of the imaginary part.
 
 ---
 
@@ -233,6 +239,8 @@ Flashcards for this section are as follows:
 - Worked example: Given $x(t)=1+\sin t$, what are its DC part, AC part, and average power? ::@:: Step 1: the average of $x(t)$ over one period is $1$, so the DC part is $1$. <br/> Step 2: subtract the average to get the AC part $\sin t$. <br/> Step 3: compute power as $1^2+\text{avg}(\sin^2 t)=1+1/2=3/2$.
 - Worked example: Given $x(t)=1+\sin t$, what are its even part, odd part, and power split? ::@:: Step 1: compute $x_e(t)=\tfrac{x(t)+x(-t)}{2}=\tfrac{1+\sin t+1-\sin t}{2}=1$. <br/> Step 2: compute $x_o(t)=\tfrac{x(t)-x(-t)}{2}=\tfrac{1+\sin t-(1-\sin t)}{2}=\sin t$. <br/> Step 3: the cross term vanishes, so the power split is $P_e+P_o=1+1/2=3/2$.
 - Worked example: Given $x(t)=\cos t+j\sin t$, what are the real-part power, imaginary-part power, and total power? ::@:: Step 1: the real part is $\cos t$, whose average power is $1/2$. <br/> Step 2: the imaginary part is $\sin t$, whose average power is also $1/2$. <br/> Step 3: add the orthogonal contributions to get total power $1/2+1/2=1$.
+- Worked example: Given $x(t)=2e^{j2\pi t}$, what are its magnitude, phase, real part, and imaginary part? ::@:: Step 1: rewrite it as $2\cos(2\pi t)+j2\sin(2\pi t)$. <br/> Step 2: therefore the magnitude is constantly $2$. <br/> Step 3: the phase is $2\pi t$ modulo $2\pi$. <br/> Step 4: the real part is $2\cos(2\pi t)$ and the imaginary part is $2\sin(2\pi t)$.
+- Worked example: If $x(t)=2e^{j2\pi t}$, what changes and what stays the same in the conjugate signal $x^*(t)$? ::@:: Step 1: conjugation gives $x^*(t)=2e^{-j2\pi t}$. <br/> Step 2: the magnitude stays $2$. <br/> Step 3: the phase changes sign from $2\pi t$ to $-2\pi t$ modulo $2\pi$. <br/> Step 4: the real part stays $2\cos(2\pi t)$, while the imaginary part flips from $2\sin(2\pi t)$ to $-2\sin(2\pi t)$.
 
 ## discrete-time sequences and periodicity
 

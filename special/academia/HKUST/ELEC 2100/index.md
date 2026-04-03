@@ -28,6 +28,27 @@ ELEC 2100 is a foundation course on signals and systems for modelling and analys
 
 This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.  Detailed schedules and per-item logistics live in the child index pages.
 
+## children
+
+- [assignments](assignments/index.md)
+- [labs](labs/index.md)
+- [AGENTS](AGENTS.md)
+- [Fourier series](Fourier%20series.md)
+- [Fourier transform](Fourier%20transform.md)
+- [continuous-time LTI system](continuous-time%20LTI%20system.md)
+- [convolution](convolution.md)
+- [discrete Fourier transform](discrete%20Fourier%20transform.md)
+- [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md)
+- [discrete-time LTI system](discrete-time%20LTI%20system.md)
+- [discrete-time signal](discrete-time%20signal.md)
+- [frequency response](frequency%20response.md)
+- [modulation](modulation.md)
+- [sampling theorem](sampling%20theorem.md)
+- [signal](signal.md)
+- [singular signal](singular%20signal.md)
+- [system](system.md)
+- [unified Fourier representations](unified%20Fourier%20representations.md)
+
 ## logistics
 
 - prerequisites
@@ -55,29 +76,7 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
     - LA3: Room 4225C; ThursdayT10:30:00/ThursdayT11:20:00 <!-- check: ignore-line[numeric_text_not_latex]: room code -->
     - LA4: Room 4225C; FridayT10:30:00/FridayT11:20:00 <!-- check: ignore-line[numeric_text_not_latex]: room code -->
 
-## children
-
-- [assignments](assignments/index.md)
-- [labs](labs/index.md)
-- [tutorials](tutorials/index.md)
-- [AGENTS](AGENTS.md)
-- [Fourier series](Fourier%20series.md)
-- [Fourier transform](Fourier%20transform.md)
-- [continuous-time LTI system](continuous-time%20LTI%20system.md)
-- [convolution](convolution.md)
-- [discrete Fourier transform](discrete%20Fourier%20transform.md)
-- [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md)
-- [discrete-time LTI system](discrete-time%20LTI%20system.md)
-- [discrete-time signal](discrete-time%20signal.md)
-- [frequency response](frequency%20response.md)
-- [modulation](modulation.md)
-- [sampling theorem](sampling%20theorem.md)
-- [signal](signal.md)
-- [singular signal](singular%20signal.md)
-- [system](system.md)
-- [unified Fourier representations](unified%20Fourier%20representations.md)
-
-## official course outline
+## overview
 
 - lecture themes
   - basic concepts of signals and systems
@@ -90,9 +89,6 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
   - [lab 2](labs/lab%202/index.md): impulse response and convolution
   - [lab 3](labs/lab%203/index.md): Fourier series and filters
   - [lab 4](labs/lab%204/index.md): modulation, demodulation, and sampling
-
-## topic-to-file mapping
-
 - basic signal language and graphical intuition
   - [signal](signal.md)
   - [singular signal](singular%20signal.md)
@@ -116,10 +112,7 @@ The four Fourier notes are organized by two axes: continuous time versus discret
 - communication applications
   - [modulation](modulation.md)
   - [sampling theorem](sampling%20theorem.md)
-
-## notes
-
-- Detailed assignment, tutorial, and lab schedules live in the child index pages.
+- Detailed assignment and lab schedules live in the child index pages.
 - Topic notes should be added only after the corresponding official materials are archived.
 
 ## week 1 lecture
@@ -141,7 +134,6 @@ The four Fourier notes are organized by two axes: continuous time versus discret
   - [§ time transformations and basic operations](signal.md#time%20transformations%20and%20basic%20operations)
 - [system](system.md)
   - [§ system meaning and communication context](system.md#system%20meaning%20and%20communication%20context)
-  - [§ communication-system milestones and modern technologies](system.md#communication-system%20milestones%20and%20modern%20technologies)
 
 ---
 
@@ -150,6 +142,16 @@ The introduction deck is mainly a roadmap lecture rather than a derivation-heavy
 It also motivates the subject through concrete communication and signal-processing examples: historical telegraph and telephone milestones, the evolution toward fiber-optic, satellite, cable, and mobile systems, signal-processing tasks such as noise reduction, and explicit study advice about relating mathematical analysis back to physical meaning.
 
 The lecture front-loads the administrative structure of the course as well: prerequisites, intended learning outcomes, assessment weights, and the broad quiz/exam format.  The detailed technical development begins only after this roadmap, when the course turns to the actual language of signals and their classifications.
+
+## week 1 tutorial
+
+- datetime: 2026-02-04T11:00:00+08:00/2026-02-04T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: unscheduled
+
+---
+
+The selected T2 tutorial stream does not have an archived tutorial sheet for the first teaching week, and the first recorded tutorial round in the provided timetable begins in week 2.
 
 ## week 1 lecture 2
 
@@ -204,6 +206,32 @@ This lecture now has durable note coverage for the foundational singular-signal 
 
 This lecture is now the main home for the discrete-time toolkit and the first pass over system characteristics. It gathers the canonical discrete-time sequence families, their elementary operations, sequence energy and power, and the main classification language for systems, together with the first representation and analysis viewpoints for linear time-invariant systems.
 
+## week 2 tutorial
+
+- datetime: 2026-02-11T11:00:00+08:00/2026-02-11T11:50:00+08:00, PT50M
+- venue: Room 2464
+- topic: continuous-time signal language; classification; periodicity; energy and power; time transformations; singular-signal toolkit
+- [signal](signal.md)
+  - [§ signal meaning and representation](signal.md#signal%20meaning%20and%20representation)
+  - [§ signal classifications](signal.md#signal%20classifications)
+  - [§ periodicity, energy, and power](signal.md#periodicity-energy-and-power)
+  - [§ standard continuous-time signal families](signal.md#standard%20continuous-time%20signal%20families)
+  - [§ time transformations and basic operations](signal.md#time%20transformations%20and%20basic%20operations)
+  - [§ complex numbers and orthogonal decompositions](signal.md#complex%20numbers%20and%20orthogonal%20decompositions)
+- [singular signal](singular%20signal.md)
+  - [§ singular-signal overview](singular%20signal.md#singular-signal%20overview)
+  - [§ ramp, step, gate, and signum](singular%20signal.md#ramp-step-gate-and-signum)
+  - [§ unit impulse: pulse limits and generalized functions](singular%20signal.md#unit%20impulse-pulse-limits-and-generalized-functions)
+  - [§ impulse properties and graphing](singular%20signal.md#impulse%20properties%20and%20graphing)
+  - [§ derivatives of singular signals](singular%20signal.md#derivatives%20of%20singular%20signals)
+  - [§ doublet and higher impulse derivatives](singular%20signal.md#doublet%20and%20higher%20impulse%20derivatives)
+- [discrete-time signal](discrete-time%20signal.md)
+  - [§ sinusoidal and complex exponential sequences](discrete-time%20signal.md#sinusoidal%20and%20complex%20exponential%20sequences)
+
+---
+
+This tutorial consolidates the opening signal vocabulary: what classification labels answer, how graph-transformation questions differ from singular-signal calculus questions, and how waveform, algebraic, and complex-number viewpoints should be kept distinct while revising.
+
 ## week 2 lecture 2
 
 - datetime: 2026-02-12T12:00:00+08:00/2026-02-12T13:20:00+08:00, PT1H20M
@@ -241,17 +269,27 @@ The worked-example lecture now connects directly to the richer topic notes: peri
 
 - datetime: 2026-02-17T12:00:00+08:00/2026-02-17T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
-- status: public holiday: Lunar New Year's Day
+- status: unscheduled; public holiday: Lunar New Year Holiday
 
 ---
 
 No lecture was held in this slot because it fell on Lunar New Year's Day.
 
+## week 3 tutorial
+
+- datetime: 2026-02-18T11:00:00+08:00/2026-02-18T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: unscheduled; public holiday: Lunar New Year Holiday
+
+---
+
+No T2 tutorial was scheduled in this week according to the provided timetable; the next recorded T2 tutorial round is on 2026-02-25.
+
 ## week 3 lecture 2
 
 - datetime: 2026-02-19T12:00:00+08:00/2026-02-19T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
-- status: public holiday: Lunar New Year Holiday
+- status: unscheduled; public holiday: Lunar New Year Holiday
 
 ---
 
@@ -282,6 +320,36 @@ No lecture was held in this slot because it fell on the Lunar New Year Holiday.
 This lecture starts the continuous-time LTI-system sequence by reframing system study in terms of time-domain response analysis. It first contrasts input-output and state-variable descriptions, recalls the classical homogeneous-plus-particular solution method, and then shifts to the response classifications that engineers use to interpret what a solution means.
 
 The lecture then makes the impulse response central. Zero-input response is tied to stored initial energy, zero-state response to external excitation, and the impulse and step responses become the canonical test signals. The final move is the introduction of convolution through impulse decomposition, showing how an arbitrary input can be assembled from weighted shifted impulses and therefore how its zero-state response can be assembled from weighted shifted copies of $h(t)$.
+
+## week 4 tutorial
+
+- datetime: 2026-02-25T11:00:00+08:00/2026-02-25T11:50:00+08:00, PT50M
+- venue: Room 2464
+- topic: discrete-time signal families; periodicity rules; sequence operations; energy and power; system-property testing
+- [discrete-time signal](discrete-time%20signal.md)
+  - [§ representation methods](discrete-time%20signal.md#representation%20methods)
+  - [§ support patterns](discrete-time%20signal.md#support%20patterns)
+  - [§ unit sample sequence](discrete-time%20signal.md#unit%20sample%20sequence)
+  - [§ unit step and rectangular sequence](discrete-time%20signal.md#unit%20step%20and%20rectangular%20sequence)
+  - [§ ramp and one-sided exponential sequences](discrete-time%20signal.md#ramp%20and%20one-sided%20exponential%20sequences)
+  - [§ sinusoidal and complex exponential sequences](discrete-time%20signal.md#sinusoidal%20and%20complex%20exponential%20sequences)
+  - [§ pointwise operations and index transformations](discrete-time%20signal.md#pointwise%20operations%20and%20index%20transformations)
+  - [§ difference and running sum](discrete-time%20signal.md#difference%20and%20running%20sum)
+  - [§ decimation and interpolation](discrete-time%20signal.md#decimation%20and%20interpolation)
+  - [§ energy and power of sequences](discrete-time%20signal.md#energy%20and%20power%20of%20sequences)
+- [system](system.md)
+  - [§ continuous-time, discrete-time, and mathematical models](system.md#continuous-time-discrete-time-and-mathematical-models)
+  - [§ memorylessness](system.md#memorylessness)
+  - [§ invertibility](system.md#invertibility)
+  - [§ linearity](system.md#linearity)
+  - [§ time invariance](system.md#time%20invariance)
+  - [§ causality](system.md#causality)
+  - [§ boundedness (BIBO stability)](system.md#boundedness%20bibo%20stability)
+  - [§ representation methods for linear time-invariant systems](system.md#representation%20methods%20for%20linear%20time-invariant%20systems)
+
+---
+
+This tutorial is the discrete-time companion to the first signal tutorial. The most useful revision habit is to keep the sequence toolkit and the system-property toolkit separate, and then test one system property at a time instead of mixing several property questions into one vague judgment.
 
 ## week 4 lecture 2
 
@@ -322,6 +390,32 @@ This lecture mirrors the continuous-time LTI-system story in discrete form. Diff
 
 The lecture then shifts to the discrete-time impulse response and the convolution sum. The key message is that a discrete-time LTI system can be analyzed by the same structural ideas as a continuous-time one, but with shifted unit samples and sums instead of shifted impulses and integrals.
 
+## week 5 tutorial
+
+- datetime: 2026-03-04T11:00:00+08:00/2026-03-04T11:50:00+08:00, PT50M
+- venue: Room 2464
+- topic: zero-input and zero-state response; impulse response; step response; continuous-time convolution; LTI-system properties from $h(t)$
+- [continuous-time LTI system](continuous-time%20LTI%20system.md)
+  - [§ response classifications](continuous-time%20LTI%20system.md#response%20classifications)
+  - [§ mapping the response labels to ODE solutions](continuous-time%20LTI%20system.md#mapping%20the%20response%20labels%20to%20ode%20solutions)
+  - [§ zero-input and zero-state solution logic](continuous-time%20LTI%20system.md#zero-input%20and%20zero-state%20solution%20logic)
+  - [§ impulse response and step response](continuous-time%20LTI%20system.md#impulse%20response%20and%20step%20response)
+  - [§ causality and stability from the impulse response](continuous-time%20LTI%20system.md#causality%20and%20stability%20from%20the%20impulse%20response)
+  - [§ impulse-response case studies](continuous-time%20LTI%20system.md#impulse-response%20case%20studies)
+- [convolution](convolution.md)
+  - [§ impulse-decomposition viewpoint](convolution.md#impulse-decomposition%20viewpoint)
+  - [§ zero-state response via convolution](convolution.md#zero-state%20response%20via%20convolution)
+  - [§ physical interpretation of convolution](convolution.md#physical%20interpretation%20of%20convolution)
+  - [§ algebraic properties and system interconnections](convolution.md#algebraic%20properties%20and%20system%20interconnections)
+  - [§ time shift and special kernels](convolution.md#time%20shift%20and%20special%20kernels)
+  - [§ analytical convolution and integration limits](convolution.md#analytical%20convolution%20and%20integration%20limits)
+  - [§ graphical convolution and overlap geometry](convolution.md#graphical%20convolution%20and%20overlap%20geometry)
+  - [§ convolution case studies and intuition](convolution.md#convolution%20case%20studies%20and%20intuition)
+
+---
+
+This is the first fully systems-focused tutorial. The revision chain to keep visible is: step response integrates impulse response, convolution superposes shifted impulse responses, and causality or stability can often be read directly from the support and total weight of $h(t)$.
+
 ## week 5 lecture 2
 
 - datetime: 2026-03-05T12:00:00+08:00/2026-03-05T13:20:00+08:00, PT1H20M
@@ -358,6 +452,31 @@ This lecture opens the frequency-domain part of the course by explaining why a w
 
 The mathematical bridge is orthogonal decomposition.  Signals are projected onto orthogonal basis functions just as vectors are projected onto perpendicular directions, and Parseval's theorem gives the corresponding power bookkeeping law once the basis is complete.
 
+## week 6 tutorial
+
+- datetime: 2026-03-11T11:00:00+08:00/2026-03-11T11:50:00+08:00, PT50M
+- venue: Room 2464
+- topic: discrete-time zero-input and zero-state response; convolution sum; support range; graphical discrete-time convolution; orthogonality and Parseval bridge
+- [discrete-time LTI system](discrete-time%20LTI%20system.md)
+  - [§ continuous-time and discrete-time parallels](discrete-time%20LTI%20system.md#continuous-time%20and%20discrete-time%20parallels)
+  - [§ difference-equation solution viewpoints](discrete-time%20LTI%20system.md#difference-equation%20solution%20viewpoints)
+  - [§ mapping the response labels to difference-equation solutions](discrete-time%20LTI%20system.md#mapping%20the%20response%20labels%20to%20difference-equation%20solutions)
+  - [§ iterative method and recursion intuition](discrete-time%20LTI%20system.md#iterative%20method%20and%20recursion%20intuition)
+  - [§ discrete-time impulse response](discrete-time%20LTI%20system.md#discrete-time%20impulse%20response)
+  - [§ causality and stability from discrete-time impulse response](discrete-time%20LTI%20system.md#causality%20and%20stability%20from%20discrete-time%20impulse%20response)
+  - [§ causality, stability, and interconnection case studies](discrete-time%20LTI%20system.md#causality-stability-and-interconnection%20case%20studies)
+- [convolution](convolution.md)
+  - [§ discrete-time convolution sum](convolution.md#discrete-time%20convolution%20sum)
+  - [§ discrete-time properties and support range](convolution.md#discrete-time%20properties%20and%20support%20range)
+  - [§ computing discrete convolution](convolution.md#computing%20discrete%20convolution)
+- [Fourier series](Fourier%20series.md)
+  - [§ spectrum concept and frequency-domain viewpoint](Fourier%20series.md#spectrum%20concept%20and%20frequency-domain%20viewpoint)
+  - [§ orthogonal decomposition, completeness, and Parseval's theorem](Fourier%20series.md#orthogonal-decomposition-completeness-and-parsevals-theorem)
+
+---
+
+This tutorial mirrors the continuous-time systems sheet in discrete form and then pivots into the frequency-domain geometry that prepares the Fourier-series block. A good revision split is to use recursion and convolution for sample-domain problems, but switch to inner-product language when the problem asks how a waveform is decomposed into orthogonal frequency components.
+
 ## week 6 lecture 2
 
 - datetime: 2026-03-12T12:00:00+08:00/2026-03-12T13:20:00+08:00, PT1H20M
@@ -392,6 +511,22 @@ The note now also makes the periodic line-spectrum convention more explicit: an 
 The course now leaves discrete line spectra and moves to continuous spectra.  The Fourier transform is introduced as the limit of a Fourier-series description whose period grows without bound, so the harmonic spacing shrinks into a continuum and the discrete line weights become a continuous transform-density viewpoint.
 
 The lecture then builds transform intuition through standard pairs rather than properties alone: pulses, one-sided exponentials, constants, signum, impulse, and doublet-type signals each show how time-domain localization, decay, or singularity reappears in frequency.
+
+## week 7 tutorial
+
+- datetime: 2026-03-18T11:00:00+08:00/2026-03-18T11:50:00+08:00, PT50M
+- venue: Room 2464
+- topic: trigonometric, harmonic, and exponential Fourier-series forms; coefficient conversion; spectrum plotting; symmetry shortcuts; Parseval-based power calculations
+- [Fourier series](Fourier%20series.md)
+  - [§ spectrum concept and frequency-domain viewpoint](Fourier%20series.md#spectrum%20concept%20and%20frequency-domain%20viewpoint)
+  - [§ orthogonal decomposition, completeness, and Parseval's theorem](Fourier%20series.md#orthogonal-decomposition-completeness-and-parsevals-theorem)
+  - [§ trigonometric Fourier series and harmonic form](Fourier%20series.md#trigonometric%20fourier%20series%20and%20harmonic%20form)
+  - [§ exponential Fourier series, symmetry, and discrete spectra](Fourier%20series.md#exponential-fourier-series-symmetry-and-discrete-spectra)
+  - [§ approximation, Gibbs phenomenon, and periodic pulse-train spectra](Fourier%20series.md#approximation-gibbs-phenomenon-and-periodic-pulse-train-spectra)
+
+---
+
+This tutorial is the main consolidation point for continuous-time periodic Fourier analysis. The highest-payoff workflow is: identify period and symmetry first, choose the most efficient coefficient form second, and only then compute or convert coefficients.
 
 ## week 7 lecture 2
 
@@ -434,6 +569,30 @@ The transform note now also stresses the exact line weight and plotting conventi
 The Fourier-series application deck uses musical audio as the intuitive payoff for the periodic-spectrum viewpoint.  A note can be read as a fundamental plus harmonics, and changing those harmonic amplitudes changes timbre while leaving pitch anchored by the fundamental.
 
 This application lecture is also a reminder that Fourier analysis runs in both directions: one may analyze a waveform into harmonics, or synthesize a waveform from a chosen harmonic recipe.  The same bidirectional idea also underlies the periodic-summation and transform-sampling bridge between Fourier series and Fourier transform.
+
+## week 8 tutorial
+
+- datetime: 2026-03-25T11:00:00+08:00/2026-03-25T11:50:00+08:00, PT50M
+- venue: Room 2464
+- topic: Fourier-series-to-Fourier-transform limit; transform pairs; property-based derivations; Fourier-domain system analysis; RC low-pass filtering; ideal filter models
+- [Fourier transform](Fourier%20transform.md)
+  - [§ from Fourier series to Fourier transform](Fourier%20transform.md#from%20Fourier%20series%20to%20Fourier%20transform)
+  - [§ representations, physical meaning, and existence](Fourier%20transform.md#representations-physical-meaning-and-existence)
+  - [§ typical Fourier transforms of aperiodic signals](Fourier%20transform.md#typical-fourier-transforms-of-aperiodic-signals)
+  - [§ symmetry, scaling, and shifting properties](Fourier%20transform.md#symmetry-scaling-and-shifting-properties)
+  - [§ differentiation, integration, and convolution theorems](Fourier%20transform.md#differentiation-integration-and-convolution-theorems)
+  - [§ periodic signals in the Fourier-transform view](Fourier%20transform.md#periodic%20signals%20in%20the%20Fourier-transform%20view)
+- [frequency response](frequency%20response.md)
+  - [§ time-domain and frequency-domain zero-state viewpoints](frequency%20response.md#time-domain%20and%20frequency-domain%20zero-state%20viewpoints)
+  - [§ complex exponentials as LTI eigenfunctions](frequency%20response.md#complex%20exponentials%20as%20lti%20eigenfunctions)
+  - [§ magnitude response and phase response](frequency%20response.md#magnitude%20response%20and%20phase%20response)
+  - [§ ways to determine the system function](frequency%20response.md#ways%20to%20determine%20the%20system%20function)
+  - [§ first-order RC low-pass filter](frequency%20response.md#first-order%20rc%20low-pass%20filter)
+  - [§ ideal low-pass, high-pass, and band-pass filters](frequency%20response.md#ideal%20low-pass-high-pass-and-band-pass%20filters)
+
+---
+
+This tutorial is the bridge from periodic Fourier analysis to full transform-domain signal and system analysis. For revision, use `Fourier transform.md` for signal-side derivations and `frequency response.md` for system-side interpretation so that transform-pair memorization, property use, and filter meaning stay connected.
 
 ## week 8 lecture 2
 
@@ -478,6 +637,16 @@ The lecture then turns that motivation into engineering workflow.  The note now 
 
 It now also includes the standard point-by-point spectrum-tracing example for a modulation / BPF / coherent-demodulation / LPF chain, so the reader can track the spectra at successive nodes and see explicitly why the normalized recovered output is $y(t)=\frac12 f(t)$ before any gain compensation.
 
+## week 9 tutorial
+
+- datetime: 2026-04-01T11:00:00+08:00/2026-04-01T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: midterm examination
+
+---
+
+The provided timetable records this as an updated extra tutorial round for the selected T2 stream, but no archived tutorial sheet or routing material has been provided yet.
+
 ## week 9 lecture 2
 
 - datetime: 2026-04-02T12:00:00+08:00/2026-04-02T13:20:00+08:00, PT1H20M
@@ -521,6 +690,16 @@ This lecture moves the course fully into discrete-time frequency analysis.  The 
 
 That viewpoint makes the most important qualitative property immediate: DTFT is periodic with period $2\pi$.  So one period already contains the full frequency description of a sequence, and the principal interval $[-\pi,\pi]$ becomes the discrete-time analogue of the Nyquist frequency range.  The note also now makes the notation map explicit among the original analog spectrum $X(\omega)$, the sampled-spectrum $X_s(\omega)$, and the normalized-frequency form $X(e^{j\Omega})$, ties DTFT periodicity directly to sampling-induced spectrum replication, explains the engineering impulse-decomposition route via the time-shift property, and makes explicit the course-convention link that views the DTFT pair as a complex Fourier-series pair in the variable $\Omega$.
 
+## week 10 tutorial
+
+- datetime: 2026-04-08T11:00:00+08:00/2026-04-08T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: no class
+
+---
+
+No T2 tutorial was scheduled in this slot according to the provided timetable.
+
 ## week 10 lecture 2
 
 - datetime: 2026-04-09T12:00:00+08:00/2026-04-09T13:20:00+08:00, PT1H20M
@@ -560,6 +739,46 @@ The note now also makes the line-spectrum bridge more explicit: it explains why 
 This lecture turns discrete-time Fourier analysis into a practical computational tool.  The DFT is presented as frequency sampling of the DTFT over a finite data record, while the periodic-extension viewpoint explains why finite transforms naturally produce circular shift and circular convolution laws.
 
 The most important engineering distinction here is circular versus linear thinking.  Direct DFT multiplication computes circular convolution, and zero padding is the deliberate device used to recover ordinary linear convolution when finite records are being processed numerically.  The topic note now also adds the matrix form $\mathbf{X}=F_N\mathbf{x}$ with a $4$-point worked example, emphasizes that zero padding densifies the sampled DTFT grid without creating new spectral information, explains principal value interval extraction as repeating a record periodically and then windowing back one chosen period, and uses explicit modulo-index and alias-sum calculations to contrast circular and linear convolution.
+
+## week 11 tutorial
+
+- datetime: 2026-04-15T11:00:00+08:00/2026-04-15T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: unscheduled
+
+---
+
+The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
+
+## week 12 tutorial
+
+- datetime: 2026-04-22T11:00:00+08:00/2026-04-22T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: unscheduled
+
+---
+
+The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
+
+## week 13 tutorial
+
+- datetime: 2026-04-29T11:00:00+08:00/2026-04-29T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: unscheduled
+
+---
+
+The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
+
+## week 14 tutorial
+
+- datetime: 2026-05-06T11:00:00+08:00/2026-05-06T11:50:00+08:00, PT50M
+- venue: Room 2464
+- status: unscheduled
+
+---
+
+The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
 
 ## midterm examination
 

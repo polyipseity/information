@@ -21,7 +21,7 @@ tags:
 
 ---
 
-Frequency response is the frequency-domain description of how an LTI system processes sinusoidal content. In ELEC 2100 it is the bridge from Fourier transforms of signals to transform-domain analysis of systems: once the input spectrum is known, the system acts by frequency-dependent scaling and phase shifting rather than by repeated time-domain convolution.
+Frequency response is the frequency-domain description of how an LTI system processes sinusoidal content. In ELEC 2100 it is the bridge from Fourier transforms of signals to transform-domain analysis of systems: once the input spectrum is known, the system acts by frequency-dependent scaling and phase shifting rather than by repeated time-domain convolution. Pair this note with [Fourier transform](Fourier%20transform.md): that note is the signal-side home for transform pairs and property derivations, while this note is the system-side home for interpreting how those spectral components are processed by LTI systems and filters.
 
 ---
 

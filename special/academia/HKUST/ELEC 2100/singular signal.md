@@ -25,7 +25,7 @@ tags:
 
 ---
 
-Singular signals are idealized building blocks used to model switching, sampling, and abruptly concentrated change. Chapter 1.2 develops them early because later convolution, LTI modeling, and transform methods repeatedly rely on step-, impulse-, and derivative-type signals.
+Singular signals are idealized building blocks used to model switching, sampling, and abruptly concentrated change. ELEC 2100 develops them early because later convolution, LTI modeling, and transform methods repeatedly rely on step-, impulse-, and derivative-type signals.
 
 Within the signal-family notes, this file is the specialized continuous-time generalized-signal toolkit. The broad language of signals remains in [signal](signal.md), and the sample-indexed toolkit remains in [discrete-time signal](discrete-time%20signal.md). This separation keeps ordinary signal classification, discrete-time sequences, and generalized singular objects from being mixed together unnecessarily.
 
@@ -34,12 +34,12 @@ Within the signal-family notes, this file is the specialized continuous-time gen
 Flashcards for this section are as follows:
 
 - Why do singular signals matter in ELEC 2100? ::@:: They model switching, sampling, and abruptly concentrated change, so they recur throughout later signal-and-system analysis.
-- Why does Chapter 1.2 introduce singular signals so early? ::@:: Later convolution, LTI modeling, and transform methods depend on them.
+- Why are singular signals introduced so early in ELEC 2100? ::@:: Later convolution, LTI modeling, and transform methods depend on them.
 - How should `singular signal.md` be positioned relative to the other signal-family notes? ::@:: It is the specialized continuous-time generalized-signal toolkit for step, impulse, and derivative-type objects. The broader vocabulary stays in `signal.md`, and the sequence toolkit stays in `discrete-time signal.md`.
 
 ## singular-signal overview
 
-The chapter uses the term _singular signals_ or _singularity functions_ for signals that either contain discontinuities themselves or produce concentrated discontinuities when differentiated or integrated. The main family introduced in ELEC 2100 is the chain $r(t) \to u(t) \to \delta(t) \to \delta'(t)$, where each differentiation concentrates change more sharply than the previous signal.
+The course uses the term _singular signals_ or _singularity functions_ for signals that either contain discontinuities themselves or produce concentrated discontinuities when differentiated or integrated. The main family introduced in ELEC 2100 is the chain $r(t) \to u(t) \to \delta(t) \to \delta'(t)$, where each differentiation concentrates change more sharply than the previous signal.
 
 A useful first split is ordinary versus generalized objects. Ramp, step, gate, and signum are still ordinary piecewise-defined functions. They can be drawn as genuine curves or line segments on the time axis. By contrast, the impulse and the doublet are generalized functions: their graphs are symbolic rather than literal finite-height waveforms. For an impulse, the key quantity is area. For a doublet, the key quantity is derivative action or slope extraction.
 
@@ -50,7 +50,7 @@ This is why the phrase "infinitely tall narrow pulse" is only a heuristic. It is
 Flashcards for this section are as follows:
 
 - What are singular signals? ::@:: They are signals that either contain discontinuities themselves or produce concentrated discontinuities when differentiated or integrated.
-- What is the main singular-signal chain in Chapter 1.2? ::@:: It is $r(t) \to u(t) \to \delta(t) \to \delta'(t)$.
+- What is the main singular-signal chain introduced in the early ELEC 2100 signal material? ::@:: It is $r(t) \to u(t) \to \delta(t) \to \delta'(t)$.
 - What is the difference between ordinary and generalized singular signals? ::@:: Ramp, step, gate, and signum are ordinary piecewise functions, whereas the impulse and doublet are generalized functions with symbolic graphs.
 - What does the graph of an impulse represent? ::@:: It represents location, sign, and area rather than an ordinary pointwise height.
 - What does the graph of a doublet represent? ::@:: It represents derivative action or slope extraction rather than an ordinary waveform amplitude.
@@ -88,7 +88,7 @@ Flashcards for this section are as follows:
 
 ## unit impulse: pulse limits and generalized functions
 
-The chapter presents the unit impulse from two mutually reinforcing viewpoints: as the limit of ordinary pulses and as a generalized function defined by its action on test functions. The pulse-limit viewpoint gives intuition; the generalized-function viewpoint gives the precise mathematical rule.
+The course presents the unit impulse from two mutually reinforcing viewpoints: as the limit of ordinary pulses and as a generalized function defined by its action on test functions. The pulse-limit viewpoint gives intuition; the generalized-function viewpoint gives the precise mathematical rule.
 
 A standard rectangular delta sequence is $\delta_\varepsilon(t)=1/\varepsilon$ for $|t|<\varepsilon/2$ and $0$ otherwise. Its width is $\varepsilon$, its height is $1/\varepsilon$, and its area is $\int_{-\varepsilon/2}^{\varepsilon/2}(1/\varepsilon)dt=1$. As $\varepsilon\to 0$, the pulse becomes narrower and taller while keeping unit area. This is the core normalization idea behind all delta sequences: the detailed shape may vary, but the total area must stay equal to $1$.
 

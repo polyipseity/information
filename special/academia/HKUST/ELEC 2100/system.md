@@ -41,6 +41,10 @@ The lecture begins with a broad viewpoint: a system is an integrated entity comp
 
 This viewpoint is motivated by communication and signal-processing examples. A communication chain contains devices such as transmitters, channels, and receivers, each of which acts as a system on the signal it receives. The key idea is that useful information is carried by signals and shaped by systems at every stage of the chain.
 
+The lecture makes that viewpoint concrete with historical and modern communication systems. Samuel Morse's 1844 telegraph transmission _What hath God wrought!_ and Alexander Graham Bell's 1876 telephone transmission _Mr. Watson, come here, I want to see you._ are used as reminders that systems are real engineered mechanisms for encoding, carrying, and recovering messages, not just anonymous boxes in a diagram. The later survey of fiber-optic links, digital microwave links, satellite communication, cable systems, and mobile communication makes the same point on a larger technological scale.
+
+The mobile-generation timeline is also part of the systems motivation rather than a detached history note. The slides move from 1G analog systems in the 1980s through 2G and 2.5G systems in the 1990s, 3G systems around 2000, 4G systems around 2010, and 5G systems from about 2019 onward, with 6G named as the next horizon. The engineering targets attached to the modern systems survey are high speed, wide bandwidth, high reliability, and low latency, which explains why better signal models and better system-analysis tools matter in practice.
+
 The lecture also distinguishes signal theory from system theory. Signal theory studies the signals themselves; system theory studies how systems act on them. Likewise, system analysis asks for the output produced by a given system, whereas system synthesis asks how to design a system that achieves a desired behavior.
 
 ---
@@ -51,35 +55,12 @@ Flashcards for this section are as follows:
 - What do $e(t)$ and $r(t)$ denote in the lecture notation? ::@:: $e(t)$ denotes excitation or input, while $r(t)$ denotes response or output.
 - What is the central systems question in this topic? ::@:: It is how the system transforms the input signal into the output signal.
 - Why do communication examples belong in this systems topic? ::@:: They show that useful information is carried by signals and shaped by systems at every stage of a transmission chain.
+- What historical examples are used to make the communication-systems viewpoint concrete? ::@:: The lecture highlights Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission as early engineered systems for carrying messages over distance.
+- Why are the telegraph, telephone, and later communication-technology examples more than decorative history? ::@:: They show that systems theory is motivated by real engineered mechanisms whose performance depends on how signals are encoded, transmitted, filtered, and recovered.
+- What broad mobile-generation sequence is used in the introductory systems survey? ::@:: The survey moves from 1G analog systems to 2G and 2.5G, then to 3G, 4G, and 5G, with 6G identified as the next horizon.
+- What modern engineering targets are emphasized in the communication-systems survey? ::@:: High speed, wide bandwidth, high reliability, and low latency are emphasized as key modern communication-system targets.
 - What is the difference between signal theory and system theory? ::@:: Signal theory studies the signals themselves, whereas system theory studies how systems act on signals.
 - What is the difference between system analysis and system synthesis? ::@:: System analysis studies the output of a given system, whereas system synthesis designs a system to achieve desired behavior.
-
-## communication-system milestones and modern technologies
-
-The introductory communication slides make the systems viewpoint concrete by showing how electrical and electromagnetic signals carry messages over distance. One historical milestone is Samuel Morse's successful telegraph transmission in 1844, when the message _What hath God wrought!_ was sent from Washington, D.C. to the B&O Railroad Depot in Baltimore, Maryland, over a distance of about 40 miles or 64 km. Another milestone is Alexander Graham Bell's 1876 telephone transmission _Mr. Watson, come here, I want to see you._ These examples matter because they show that systems are not abstract boxes only; they are real engineered mechanisms that encode, carry, and recover messages.
-
-The lecture then connects those early systems to modern communication technologies. The listed examples include fiber-optic communication, digital microwave links, satellite communication, cable systems, and mobile communication. This broad survey is pedagogically useful because it shows that the same system ideas survive even as the physical medium changes.
-
-The mobile timeline is presented as a sequence of generations. The slides place 1G analog mobile systems in the 1980s, 2G systems such as TDMA and GSM in the early 1990s, 2.5G systems such as GPRS and EDGE in the late 1990s, 3G systems using CDMA from about 2000 onward, 4G systems using OFDMA and MIMO from about 2010 onward, and 5G systems from about 2019 onward with massive MIMO and NOMA. The horizon beyond that is labeled 6G.
-
-The 5G slide also stresses the engineering targets that modern systems are expected to satisfy: high speed, wide bandwidth, high reliability, and low latency. In other words, the historical and modern examples are not decorative trivia. They explain why improved signal representations, processing methods, and system models matter: real communication systems are judged by what they can deliver under practical engineering constraints.
-
----
-
-Flashcards for this section are as follows:
-
-- What 1844 event is used as an early communication-system milestone? ::@:: Samuel Morse successfully transmitted the telegraph message _What hath God wrought!_ from Washington, D.C. to Baltimore in 1844.
-- What distance is associated with Morse's 1844 telegraph example? ::@:: The slides describe the Washington-to-Baltimore transmission as about 40 miles or 64 km.
-- What 1876 event is used as a telephone milestone? ::@:: Alexander Graham Bell's telephone transmission _Mr. Watson, come here, I want to see you._ is presented as a milestone in 1876.
-- Why are the telegraph and telephone milestones pedagogically useful in this systems topic? ::@:: They show that systems are real engineered mechanisms for encoding, carrying, and recovering messages rather than merely abstract boxes.
-- Which major modern communication technologies are highlighted in the introductory survey? ::@:: The survey highlights fiber-optic communication, digital microwave links, satellite communication, cable systems, and mobile communication.
-- Why does the lecture survey multiple generations of communication technology? ::@:: It shows that the same core system ideas survive even when the physical medium and implementation technology change.
-- How does the lecture place 1G mobile systems historically? ::@:: It places 1G analog mobile systems in the 1980s.
-- How does the lecture place 2G and 2.5G mobile systems historically? ::@:: It places 2G systems such as TDMA and GSM in the early 1990s and 2.5G systems such as GPRS and EDGE in the late 1990s.
-- How does the lecture place 3G and 4G mobile systems historically? ::@:: It places 3G systems using CDMA from about 2000 onward and 4G systems using OFDMA and MIMO from about 2010 onward.
-- How does the lecture characterize 5G and the horizon beyond it? ::@:: It presents 5G from about 2019 onward with massive MIMO and NOMA, and labels 6G as the next horizon.
-- What engineering targets are emphasized on the 5G slide? ::@:: The emphasized targets are high speed, wide bandwidth, high reliability, and low latency.
-- Why are the modern communication examples more than historical decoration? ::@:: They explain why better signal representations, processing methods, and system models matter under real engineering performance constraints.
 
 ## continuous-time, discrete-time, and mathematical models
 
@@ -105,11 +86,14 @@ Flashcards for this section are as follows:
 
 A useful first classification is to separate two different questions that beginners often mix together. Memoryless versus dynamic asks whether the output at one instant depends only on the input at that same instant or also on values from other times. Lumped versus distributed asks whether the model depends only on time or on both time and space.
 
+Property-testing exercises are easiest when those questions are tested one at a time rather than by one vague global impression. A durable checklist is: Does the rule use only the present value? Does it ask for future input? Does it preserve superposition? Does a shift at the input become the same shift at the output? Does bounded input stay bounded? Can the input be uniquely recovered? Keeping those questions separate prevents one proof idea from being mistakenly reused for a different property.
+
 ---
 
 Flashcards for this section are as follows:
 
 - What are the two different classification axes introduced in this section? ::@:: Memoryless versus dynamic asks whether other times matter to the output, whereas lumped versus distributed asks whether the model depends only on time or also on spatial coordinates.
+- What checklist makes system-property testing safer? ::@:: Test one property question at a time: present-only dependence for memorylessness, future-input dependence for causality, superposition for linearity, shift-commutation for time invariance, bounded-input behavior for stability, and one-to-one recovery for invertibility.
 
 ### memorylessness
 
@@ -121,6 +105,8 @@ A clean counterexample is the causal averaging-type system $y(t)=\int_{-\infty}^
 
 The recall picture is simple: memoryless systems look only at the present sample, while dynamic systems smear one input event across a time interval. A resistor is therefore the basic memoryless intuition, while capacitors, inductors, and low-pass filters are the basic dynamic intuition.
 
+Representative rules make the distinction concrete. The affine-delay rule $y(t)=2x(t-1)+1$, the even-part operator $\tfrac12\bigl(x(t)+x(-t)\bigr)$, the comparator $y[n]=\max\{x[n],x[n-1]\}$, and the scaled-index rule $y[n]=n\,x[2n]$ are all non-memoryless because they need a value other than the present sample. By contrast, $y(t)=\cos(x(t))$ is memoryless: it is nonlinear, but it still acts pointwise on the present sample only.
+
 ---
 
 Flashcards for this section are as follows:
@@ -130,6 +116,7 @@ Flashcards for this section are as follows:
 - memorylessness / example in input-output and impulse-response form ::@:: Example: $y(t)=3x(t)$. Impulse-response form: $h(t)=3\delta(t)$, so the response is concentrated at zero delay and the output uses only the present input.
 - memorylessness / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. One input impulse creates a decaying tail, so past input values keep affecting the present output.
 - memorylessness / intuition ::@:: Memoryless means "look only at now"; dynamic means "an input now leaves a trace that survives into other times."
+- memorylessness / quick comparison examples ::@:: $y(t)=2x(t-1)+1$, $\tfrac12(x(t)+x(-t))$, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are not memoryless because they use a nonpresent sample, whereas $y(t)=\cos(x(t))$ is memoryless because it applies a pointwise map to the present sample only.
 
 ### lumped and distributed viewpoints
 
@@ -159,12 +146,15 @@ Flashcards for this section are as follows:
 
 A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the response. A system is non-invertible if different inputs collapse to the same output, making unique recovery impossible. This is why compensation and equalization ideas require an appropriate inverse description.
 
+A representative comparison set shows several distinct failure modes. The affine-delay rule $y(t)=2x(t-1)+1$ is invertible because one can recover $x(t)=\frac{y(t+1)-1}{2}$. By contrast, $y(t)=\cos(x(t))$ is not invertible because many different inputs share the same cosine value, the even-part operator is not invertible because it discards the odd component, the comparator $\max\{x[n],x[n-1]\}$ is not invertible because different sequences can share the same maxima, and $y[n]=n\,x[2n]$ is not invertible because odd-index samples are discarded and the factor $n$ destroys information at $n=0$.
+
 ---
 
 Flashcards for this section are as follows:
 
 - invertibility / definition ::@:: A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the output.
 - invertibility / non-invertible meaning ::@:: A system is non-invertible when different inputs can collapse to the same output, so unique recovery is impossible.
+- invertibility / comparison example set ::@:: $y(t)=2x(t-1)+1$ is invertible via $x(t)=\frac{y(t+1)-1}{2}$, whereas $\cos(x(t))$, the even-part operator, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are non-invertible because they merge distinct inputs into the same output in different ways.
 
 ### linearity
 
@@ -176,6 +166,8 @@ A standard counterexample is $y(t)=x^2(t)$. The input-output equation already sh
 
 The intuition is that linear systems preserve add-and-scale structure. If you double the input, the output doubles; if you add two inputs, the output is the sum of the two outputs. Nonlinear systems distort that bookkeeping, usually by creating mixing terms, clipping, saturation, or amplitude-dependent gain.
 
+The same comparison set is useful because it separates structure from surface appearance. The affine-delay rule $y(t)=2x(t-1)+1$ is not linear because the constant offset breaks homogeneity. The pointwise cosine rule and the max rule are nonlinear because they do not preserve superposition. By contrast, the even-part operator and the scaled-index rule $y[n]=n\,x[2n]$ are linear: averaging, fixed scaling, and reindexing still preserve add-and-scale behavior even though other properties may fail.
+
 ---
 
 Flashcards for this section are as follows:
@@ -184,6 +176,7 @@ Flashcards for this section are as follows:
 - linearity / example in input-output and impulse-response form ::@:: Example: $y(t)=2x(t)-x(t-1)$. Impulse-response form: $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds.
 - linearity / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x^2(t)$. There is no single first-order impulse response $h$ with $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because any such representation would already be linear; a nonlinear kernel description needs higher-order products such as $\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$.
 - linearity / intuition ::@:: Linear means "add and scale outside or inside the system, and you get the same answer"; nonlinear means the system mixes amplitudes and creates extra interaction terms.
+- linearity / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, and $y[n]=\max\{x[n],x[n-1]\}$ are nonlinear, while $y(t)=\tfrac12(x(t)+x(-t))$ and $y[n]=n\,x[2n]$ remain linear because averaging, fixed scaling, and reindexing still preserve superposition.
 
 ### time invariance
 
@@ -195,6 +188,8 @@ A standard time-varying counterexample is $y(t)=\cos(\omega_0 t)x(t)$. In kernel
 
 The intuition is that a time-invariant system has no hidden calendar or clock. The same waveform meeting the same system tomorrow should produce the same output shape, just shifted. A time-varying system behaves as if its coefficients or operating mode are changing with time.
 
+Again, the same comparison set is a useful source of contrasts. The affine-delay rule, the pointwise cosine rule, and the max rule are time invariant because shifting the input shifts exactly the same algebraic rule. The even-part operator is not time invariant because reflection is pinned to the origin, and $y[n]=n\,x[2n]$ is not time invariant because both the explicit factor $n$ and the index scaling refer to absolute sample location.
+
 ---
 
 Flashcards for this section are as follows:
@@ -204,6 +199,7 @@ Flashcards for this section are as follows:
 - time invariance / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)-x(t-1)$. Impulse-response form: $h(t)=\delta(t)-\delta(t-1)$. The same present-minus-delayed rule applies at every absolute time, so shifting the input just shifts the output.
 - time invariance / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\cos(\omega_0 t)x(t)$. Kernel form: $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. Because the coefficient depends on absolute time, the system law changes with the clock and the shift test fails.
 - time invariance / intuition ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it.
+- time invariance / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, and $y[n]=\max\{x[n],x[n-1]\}$ are time invariant, whereas the even-part operator and $y[n]=n\,x[2n]$ are not because they are tied to the origin or to absolute index value.
 
 ## causality and stability
 
@@ -225,6 +221,8 @@ A standard noncausal counterexample is $y(t)=x(t+2)$. Its impulse response is $h
 
 The recall picture is support geometry. If the impulse response reaches only zero delay and positive delays, the system is causal. If any part reaches into negative delay, the system is asking for future information. Noncausal systems can still be useful offline, because stored data make the "future" available after the fact.
 
+The same comparison examples are useful here as well. The affine-delay rule, the pointwise cosine rule, and the max rule are causal because they use only present or past samples. The even-part operator is noncausal because $x(-t_0)$ can lie in the future relative to $t_0$, and $y[n]=n\,x[2n]$ is generally noncausal because for positive $n$ it asks for a future sample at index $2n$.
+
 ---
 
 Flashcards for this section are as follows:
@@ -234,6 +232,7 @@ Flashcards for this section are as follows:
 - causality / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)+x(t-2)$. Impulse-response form: $h(t)=\delta(t)+\delta(t-2)$. The system uses only present and past input values.
 - causality / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x(t+2)$. Impulse-response form: $h(t)=\delta(t+2)$. The negative-time support means the output depends on future input.
 - causality / intuition ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
+- causality / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, and $y[n]=\max\{x[n],x[n-1]\}$ are causal, whereas the even-part operator and $y[n]=n\,x[2n]$ are not because they require reflected or future-index samples.
 
 ### boundedness (BIBO stability)
 
@@ -245,6 +244,8 @@ A standard unstable counterexample is the integrator $y(t)=\int_{-\infty}^{t}x(\
 
 The intuition is that BIBO stability measures whether the system's total response weight is finite. A decaying impulse response forgets enough of the past to keep the output under control. An integrator never really lets go of past input, so even a bounded signal can accumulate into an ever-growing output.
 
+The same comparison examples add several quick recognition patterns. The affine-delay rule, the pointwise cosine rule, the even-part operator, and the max rule are all BIBO stable because bounded inputs stay bounded under those operations. The integrator is not BIBO stable, and the scaled-index rule $y[n]=n\,x[2n]$ is also unstable because the bounded input $x[n]\equiv 1$ produces the unbounded sequence $y[n]=n$.
+
 ---
 
 Flashcards for this section are as follows:
@@ -254,6 +255,7 @@ Flashcards for this section are as follows:
 - boundedness (BIBO stability) / example in input-output and impulse-response form ::@:: Example: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. Its total impulse-response area is finite, so bounded inputs give bounded outputs.
 - boundedness (BIBO stability) / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$. Impulse-response form: $h(t)=u(t)$. The bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$, so the system is not BIBO stable.
 - boundedness (BIBO stability) / intuition ::@:: Stable means the system's total memory weight is finite; unstable means bounded input can keep accumulating without enough decay to hold the output down.
+- boundedness (BIBO stability) / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, $\tfrac12(x(t)+x(-t))$, and $\max\{x[n],x[n-1]\}$ are BIBO stable for bounded inputs, whereas the integrator and $y[n]=n\,x[2n]$ are not.
 
 ## linear time-invariant systems and response transfer
 
