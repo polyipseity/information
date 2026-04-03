@@ -19,9 +19,11 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - Put course-specific agent instructions in `AGENTS.md` in the same course folder, keep them concise, use the title `# <course code> agent instructions`, and do not use flashcard markup there (`{@{ }@}`, `:@:`, `::@::`).
 - If the provided materials already enumerate repeating deliverables or sessions (for example tutorial rounds, lab rounds, quizzes, or homeworks), scaffold minimal child `index.md` pages for those foreseeable items early and keep the pages lightweight until the official handouts are ingested.
 - Keep `index.md` pages lean: the course root should hold only the high-value overview, folder indexes should summarize just enough to navigate, and leaf indexes should usually contain only minimal logistics until real content is ingested.
+- In a course-root `index.md`, order the main top-level sections as `## children`, then `## logistics`, then `## overview`; keep sessions and exams after those.
+- Prefer one `## overview` section for compact orientation material such as official scope bullets, topic-to-file mapping, and short root-level notes.
 - When turning lecture PDFs into topic notes, preserve the concrete teaching detail: explicit classifications, key formulas, named signal/system families, and representative examples or counterexamples from the slides.
 - Place `assignments/` immediately after `children` and before session entries.
-- Keep sessions in strict chronological order and use numbered headings such as `lecture 1`, `lecture 2`, `lab 1`, and `tutorial 1` when needed.
+- Keep sessions in strict chronological order and use headings of the form `## week N lecture`, `## week N lecture 2`, `## week N lab`, and `## week N tutorial`.
 - Use underscore emphasis (`_italic_`, `__bold__`).
 - Keep units inside math delimiters, for example `$5\text{ V}$`.
 
@@ -57,6 +59,15 @@ tags:
 
 The content is in teaching order.
 
+## children
+
+- [assignments/](assignments/index.md)
+- [attachments/](attachments/index.md)
+- [labs/](labs/index.md)
+- [questions/](questions/index.md)
+- [tutorials/](tutorials/index.md)
+- [AGENTS](AGENTS.md)
+
 ## logistics
 
 - grading
@@ -73,14 +84,18 @@ The content is in teaching order.
     - LA1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
     - LA2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
 
-## children
+## overview
 
-- [assignments/](assignments/index.md)
-- [attachments/](attachments/index.md)
-- [labs/](labs/index.md)
-- [questions/](questions/index.md)
-- [tutorials/](tutorials/index.md)
-- [AGENTS](AGENTS.md)
+- official course outline
+  - <main lecture theme>
+  - <main lecture theme>
+- topic-to-file mapping
+  - <topic cluster>
+    - [<topic note>](<topic%20note>.md)
+    - [<topic note>](<topic%20note>.md)
+- notes
+  - <brief root-level note>
+  - <brief root-level note>
 
 ## assignments
 
@@ -93,7 +108,7 @@ The content is in teaching order.
   - points: 100
   - link: [assignment 2](assignments/assignment%202/index.md)
 
-### week 1 lecture 1
+## week 1 lecture
 
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
 - status: scheduled
@@ -101,14 +116,14 @@ The content is in teaching order.
 - <COURSE CODE>
   - <COURSE CODE> / logistics ::@:: Course logistics, recommended books, evaluation.
 
-### week 1 tutorial 1
+## week 1 tutorial
 
 - datetime: 2025-09-16T15:00:00+08:00/2025-09-16T16:20:00+08:00, PT1H20M
 - topic: functional programming exercises
 - <COURSE CODE>
   - <COURSE CODE> / tutorial 1 ::@:: Description for tutorial 1.
 
-### week 1 lecture 2
+## week 1 lecture 2
 
 - datetime: 2025-09-18T12:00:00+08:00/2025-09-18T13:20:00+08:00, PT1H20M
 - topic: merge sort; algorithms

@@ -41,13 +41,15 @@ Use this workflow whenever you add or revise course content.
 3. Fill frontmatter carefully: aliases, tags, course name, credits, and description.
 4. Add `logistics` with grading and chosen-section metadata.
 5. Maintain `children:` in teaching order, include `[AGENTS](AGENTS.md)` when present, and keep links current.
-6. When the provided materials clearly enumerate repeating artifacts such as tutorials, labs, quizzes, or homeworks, scaffold minimal folder indexes and minimal child `index.md` pages for each foreseeable item rather than waiting for every detailed handout to arrive.
-7. Write explanatory prose first; add flashcards after the prose is accurate.
-8. Update related `index.md` anchors and section links in the same pass.
-9. Run the validator and fix both errors and warnings before moving on.
-10. Before finishing, check the note once as a reader and once as a flashcard consumer.
+6. For course-root `index.md` pages, order the major top-level sections as `## children`, then `## logistics`, then `## overview`; keep later sections in chronological or functional order after that.
+7. Prefer one merged `## overview` section in the course root for high-value orientation material such as the official course outline, topic-to-file mapping, and short root-level notes, instead of scattering those into several thin top-level sections.
+8. When the provided materials clearly enumerate repeating artifacts such as tutorials, labs, quizzes, or homeworks, scaffold minimal child pages for each foreseeable item rather than waiting for every detailed handout to arrive. Prefer a flat leaf file such as `tutorial 1.md` when no subpages or attachment-local assets are expected; use a folder with `index.md` only when the item is likely to accumulate children of its own.
+9. Write explanatory prose first; add flashcards after the prose is accurate.
+10. Update related `index.md` anchors and section links in the same pass.
+11. Run the validator and fix both errors and warnings before moving on.
+12. Before finishing, check the note once as a reader and once as a flashcard consumer.
 
-When building scaffolds, keep `index.md` pages lean. Avoid duplicating large calendars, explanatory prose, or schedule details across the course root, folder indexes, and leaf indexes when a child page can own that information.
+When building scaffolds, keep `index.md` pages lean. Avoid duplicating large calendars, explanatory prose, or schedule details across the course root, folder indexes, and leaf indexes when a child page can own that information. Do not create a one-file folder ending in `index.md` when a flat standalone leaf file would communicate the same material more simply.
 
 ### Adding new lecture content
 
@@ -60,6 +62,7 @@ Before creating a new topic note, classify the incoming material:
 Also follow these rules:
 
 - Absorb theory from appendices or auxiliary PDFs into topic notes; do not leave required content stranded in attachments.
+- When tutorial sheets or worked-example handouts mainly deepen material already present in a topic note, merge that material into the most relevant existing section and revise that section's flashcards first. Avoid appending detached catch-all sections such as generic tutorial-example or case-study blocks unless the source really introduces a new durable concept cluster.
 - When lecture materials are dense, do not over-compress them into a few summary sentences. Preserve the named classifications, operational distinctions, representative formulas, and the worked examples or counterexamples that the lecture uses to teach them.
 - When reorganizing or deduplicating topic notes, do not automatically cut motivating historical or technology-context subsections if the lecture uses them to frame the core concept. Keep a compact durable subsection and matching flashcards when named milestones, technology generations, or comparison examples are part of how the lecture teaches the topic.
 - When a broad topic note starts accumulating a coherent subcluster such as discrete-time representation methods, canonical discrete-time signal families, and their periodicity rules, prefer splitting that cluster into its own durable topic note rather than duplicating half of it inside a more general signal note.
@@ -128,6 +131,8 @@ Also follow these rules:
 
 ### Session and index rules
 
+- For course-root `index.md` pages, put `## children` before `## logistics`, put `## overview` immediately after `## logistics`, and keep the remaining top-level sections after that in their existing functional or chronological order.
+- Treat `## overview` as the home for compact orientation material such as official scope bullets, topic-to-file mapping, and short root-level notes; avoid splitting that material into several low-information top-level sections unless one of them is clearly substantial on its own.
 - After the course list (`institution`, `name`, `credits`), insert `---` before the description.
 - Under `sections:`, use one key per stream type for the **chosen** section only, then list all section IDs under that key.
 - Session headings must be exactly `## week N lecture`, `## week N lecture 2`, `## week N lab`, or `## week N tutorial` (same rule for numbering). Put holidays or cancellations in metadata, not in headings.
