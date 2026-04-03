@@ -27,7 +27,7 @@ The bid–ask spread is {@{an accepted measure of liquidity costs in exchange tr
 
 ### quoted spread
 
-{@{The simplest type of bid-ask spread}@} is {@{the quoted spread}@}. This spread is {@{taken directly from quotes, that is, posted prices}@}. Using quotes, this spread is {@{the difference between the lowest asking price \(the lowest price at which someone will sell\) and the highest bid price \(the highest price at which someone will buy\)}@}. This spread is often {@{expressed as a percent of the midpoint}@}, that is, {@{the average between the lowest ask and highest bid}@}: {@{${\text{Quoted Spread} }={\frac { {\hbox{ask} }-{\hbox{bid} } }{\hbox{midpoint} } }\times 100$}@}. <!--SR:!2029-09-26,1304,350!2026-04-04,319,342!2026-04-16,331,342!2028-09-07,977,342!2026-04-09,324,342!2030-04-18,1480,362!2026-04-10,325,342-->
+{@{The simplest type of bid-ask spread}@} is {@{the quoted spread}@}. This spread is {@{taken directly from quotes, that is, posted prices}@}. Using quotes, this spread is {@{the difference between the lowest asking price \(the lowest price at which someone will sell\) and the highest bid price \(the highest price at which someone will buy\)}@}. This spread is often {@{expressed as a percent of the midpoint}@}, that is, {@{the average between the lowest ask and highest bid}@}: {@{${\text{Quoted Spread} }={\frac { {\hbox{ask} }-{\hbox{bid} } }{\hbox{midpoint} } }\times 100$}@}. <!--SR:!2029-09-26,1304,350!2030-05-14,1501,362!2026-04-16,331,342!2028-09-07,977,342!2026-04-09,324,342!2030-04-18,1480,362!2026-04-10,325,342-->
 
 ### effective spread
 

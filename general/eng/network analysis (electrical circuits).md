@@ -49,7 +49,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 \(annotation: applies to this section\)
 
-- {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](terminal%20(electronics).md) into which, or out of which, current may flow.}@} <!--SR:!2029-02-26,1122,350!2026-04-04,281,340-->
+- {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](terminal%20(electronics).md) into which, or out of which, current may flow.}@} <!--SR:!2029-02-26,1122,350!2029-11-15,1321,360-->
 
 - {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined. A conductor with a substantially zero resistance is considered to be a node for the purpose of analysis.}@} <!--SR:!2029-08-14,1255,350!2026-05-27,340,349-->
 
@@ -357,7 +357,7 @@ There will {@{always be dependent generators in a two-port parameter equivalent 
 
 #### piecewise linear method
 
-In this method, {@{the transfer function of the non-linear device}@} is {@{broken up into regions}@}. Each of these regions is {@{approximated by a straight line}@}. Thus, the transfer function will be {@{linear up to a particular point where there will be a discontinuity}@}. Past this point {@{the transfer function will again be linear but with a different slope}@}. <!--SR:!2026-05-26,339,349!2029-02-14,1111,350!2029-01-21,1091,350!2026-04-04,296,349!2026-06-17,359,360-->
+In this method, {@{the transfer function of the non-linear device}@} is {@{broken up into regions}@}. Each of these regions is {@{approximated by a straight line}@}. Thus, the transfer function will be {@{linear up to a particular point where there will be a discontinuity}@}. Past this point {@{the transfer function will again be linear but with a different slope}@}. <!--SR:!2026-05-26,339,349!2029-02-14,1111,350!2029-01-21,1091,350!2030-02-21,1419,369!2026-06-17,359,360-->
 
 {@{A well known application of this method}@} is {@{the approximation of the transfer function of a pn junction diode}@}. {@{The transfer function of an ideal diode}@} has been {@{given at the top of this \(non-linear\) section}@}. However, this formula is {@{rarely used in network analysis, a piecewise approximation being used instead}@}. It can be seen that {@{the diode current rapidly diminishes to -I<sub>o</sub> as the voltage falls}@}. This current, {@{for most purposes, is so small it can be ignored}@}. With {@{increasing voltage, the current increases exponentially}@}. The diode is modelled as {@{an open circuit up to the knee of the exponential curve}@}, then {@{past this point as a resistor equal to the [bulk resistance](bulk%20resistance.md) of the semiconducting material}@}. <!--SR:!2026-07-17,385,360!2026-04-12,304,349!2026-04-17,309,349!2026-07-04,374,360!2029-04-28,1170,350!2029-03-12,1134,350!2029-02-08,1106,350!2026-06-03,347,349!2029-06-30,1219,350!2028-06-24,844,290-->
 

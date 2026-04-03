@@ -275,4 +275,4 @@ When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic inf
 
 ## evolve
 
-{@{Evolve}@} is {@{improving and reinvent yourself constantly}@}. <!--SR:!2026-07-25,632,329!2026-04-04,90,370-->
+{@{Evolve}@} is {@{improving and reinvent yourself constantly}@}. <!--SR:!2026-07-25,632,329!2027-07-08,460,390-->

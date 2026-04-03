@@ -35,7 +35,7 @@ Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the ex
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-09-20,1378,356!2031-07-26,1942,382!2026-04-07,397,362!2031-02-09,1808,382!2031-04-16,1863,382-->
 
-For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2030-08-18,1655,370!2031-03-05,1827,382!2027-09-16,778,342!2031-03-17,1837,382!2031-07-02,1924,382!2029-02-02,1200,362!2026-04-04,394,362!2028-04-12,935,336!2029-10-13,1397,356-->
+For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2030-08-18,1655,370!2031-03-05,1827,382!2027-09-16,778,342!2031-03-17,1837,382!2031-07-02,1924,382!2029-02-02,1200,362!2031-08-13,1957,382!2028-04-12,935,336!2029-10-13,1397,356-->
 
 ## definition
 
@@ -159,7 +159,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{Ford and Fulkerson proved in 1962}@} in {@{their book _Flows in Networks_}@} {@{a necessary and sufficient condition for a graph to be Eulerian}@}, viz., that {@{every vertex must be even and satisfy the balance condition}@}, i.e. for {@{every subset of vertices S}@}, {@{the difference between the number of arcs leaving S and entering S must be less than or equal to the number of (non-arc) edges incident with S}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-07-18,444,322!2031-03-18,1838,382!2031-07-30,1946,382!2028-07-23,1036,350!2029-09-01,1359,352!2026-08-05,460,322-->
 
-{@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}. <!--SR:!2031-02-22,1819,382!2026-04-04,394,362!2031-07-15,1933,382-->
+{@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}. <!--SR:!2031-02-22,1819,382!2031-08-12,1956,382!2031-07-15,1933,382-->
 
 > {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >

@@ -57,7 +57,7 @@ tags:
 > - __[Mode](mode%20(statistics).md)__ ::@:: $\mu$ <!--SR:!2026-05-06,55,310!2026-05-05,54,310-->
 > - __[Variance](variance.md)__ ::@:: $\sigma ^{2}$ <!--SR:!2026-06-06,82,343!2026-05-19,67,329-->
 > - __[MAD](median%20absolute%20deviation.md)__ ::@:: $\sigma {\sqrt {2} }\,\operatorname {erf} ^{-1}(1/2)$ <!--SR:!2026-04-14,35,303!2026-04-11,8,223-->
-> - __[AAD](mean%20absolute%20deviation.md)__ ::@:: $\sigma {\sqrt {2/\pi } }$ <!--SR:!2026-05-04,51,316!2026-04-04,17,230-->
+> - __[AAD](mean%20absolute%20deviation.md)__ ::@:: $\sigma {\sqrt {2/\pi } }$ <!--SR:!2026-05-04,51,316!2026-04-12,8,210-->
 > - __[Skewness](skewness.md)__ ::@:: $0$ <!--SR:!2026-05-22,69,329!2026-06-05,81,343-->
 > - __[Excess kurtosis](excess%20kurtosis.md#excess%20kurtosis)__ ::@:: $0$ <!--SR:!2026-05-06,55,310!2026-05-22,69,329-->
 > - __[Entropy](information%20entropy.md)__ ::@:: ${\tfrac {1}{2} }\log(2\pi e\sigma ^{2})$ <!--SR:!2026-04-26,47,290!2026-06-02,79,343-->

@@ -31,7 +31,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: ::@:: [inclusion–exclusion principle](inclusion–exclusion%20principle.md) <!--SR:!2026-04-20,126,406!2026-04-21,127,406-->
 
-{@{The inclusion–exclusion principle}@} relates {@{the size of the union of multiple sets, the size of each set, and the size of each possible intersection of the sets}@}. The smallest example is {@{when there are two sets}@}: {@{the number of elements in the union of _A_ and _B_}@} is equal to {@{the sum of the number of elements in _A_ and _B_, minus the number of elements in their intersection}@}. <!--SR:!2026-04-04,399,310!2026-11-30,564,310!2028-03-01,927,330!2027-03-03,453,399!2026-04-22,127,400-->
+{@{The inclusion–exclusion principle}@} relates {@{the size of the union of multiple sets, the size of each set, and the size of each possible intersection of the sets}@}. The smallest example is {@{when there are two sets}@}: {@{the number of elements in the union of _A_ and _B_}@} is equal to {@{the sum of the number of elements in _A_ and _B_, minus the number of elements in their intersection}@}. <!--SR:!2030-12-14,1715,330!2026-11-30,564,310!2028-03-01,927,330!2027-03-03,453,399!2026-04-22,127,400-->
 
 Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub>n</sub>_ are finite sets}@}, then {@{$${\begin{aligned}\left|\bigcup _{i=1}^{n}A_{i}\right|&{}=\sum _{i=1}^{n}\left|A_{i}\right|-\sum _{i,j\,:\,1\leq i<j\leq n}\left|A_{i}\cap A_{j}\right|\\&{}\qquad +\sum _{i,j,k\,:\,1\leq i<j<k\leq n}\left|A_{i}\cap A_{j}\cap A_{k}\right|-\ \cdots \ +\left(-1\right)^{n-1}\left|A_{1}\cap \cdots \cap A_{n}\right|.\end{aligned} }$$}@} <!--SR:!2029-09-10,1395,350!2029-05-19,1305,350!2026-04-22,127,400-->
 

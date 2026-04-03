@@ -229,7 +229,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2029-03-13,1133,350!2030-04-17,1475,370!2026-05-24,342,350!2026-05-07,335,350!2026-04-21,320,350!2026-05-27,345,350!2026-05-04,332,350!2026-04-23,322,350!2026-05-24,342,350!2029-11-17,1337,350!2029-04-09,1155,350!2026-05-03,331,350!2029-01-25,1092,350!2026-05-31,349,350!2029-01-26,1093,350!2026-04-22,321,350!2029-11-09,1331,350-->
 
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2030-03-04,1438,370!2026-11-25,455,310-->
-  - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-04-04,307,350!2026-11-24,459,330-->
+  - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2029-03-14,1075,350!2026-11-24,459,330-->
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2029-04-01,1149,350!2029-03-10,1131,350-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2029-08-12,1258,350!2028-10-06,999,350-->
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2027-07-31,661,330!2029-04-25,1168,350-->

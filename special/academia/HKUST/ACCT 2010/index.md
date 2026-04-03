@@ -291,7 +291,7 @@ The content is in teaching order.
   - lower of cost or market / motivation ::@:: This is motivated by convention of conservatism: choosing between two solutions, the one that will be least likely to overstate assets and income should be selected. <p> This also explains why the replacement cost going up does not mean we should increase the ending inventory value. <!--SR:!2026-07-07,464,396!2026-08-07,490,403-->
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted. <!--SR:!2027-01-30,604,363!2031-01-07,1781,396-->
   - inventory turnover / interpretation ::@:: This ratio reflects how many times average inventory was produced or purchased and sold during the period. <p> A higher ratio indicates that inventory moves more quickly (strong sales), thus reducing storage & obsolescence costs. <p> Caution: it could also mean ineffective buying (or without a good buying plan to meet the customers' demand). <!--SR:!2028-05-28,991,376!2027-05-23,689,363-->
-  - average days to sell inventory ::@:: $$\frac {365} {\text{inventory turnover} }$$ <!--SR:!2026-08-09,489,403!2026-04-04,381,383-->
+  - average days to sell inventory ::@:: $$\frac {365} {\text{inventory turnover} }$$ <!--SR:!2026-08-09,489,403!2031-09-23,1998,403-->
     - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2031-06-09,1913,403!2026-04-08,385,383-->
 - [inventory valuation](../../../../general/inventory%20valuation.md)
   - [perpetual inventory](../../../../general/perpetual%20inventory.md)
@@ -475,7 +475,7 @@ The content is in teaching order.
 - datetime: 2024-11-12T13:30:00+08:00/2024-11-12T14:50:00+08:00
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
   - [cash flow](../../../../general/cash%20flow.md) ::@:: A key indicator of a company's financial health. <p> Positive of it enables paying cash dividends; expanding its operations, new productive capacity; replacing needed assets; and repaying debts to creditors (including suppliers). <!--SR:!2026-08-20,500,403!2031-08-25,1974,403-->
-  - [cash equivalent](../../../../general/cash%20and%20cash%20equivalents.md) ::@:: examples: <br/> short-term, highly liquid investments <br/> readily convertible into cash <br/> maturities of less than 3 months: time span short enough market value is not affected by interest rate changes <!--SR:!2026-04-04,381,383!2027-08-11,750,363-->
+  - [cash equivalent](../../../../general/cash%20and%20cash%20equivalents.md) ::@:: examples: <br/> short-term, highly liquid investments <br/> readily convertible into cash <br/> maturities of less than 3 months: time span short enough market value is not affected by interest rate changes <!--SR:!2031-09-24,1999,403!2027-08-11,750,363-->
   - [ACCT 2010/statement of cash flows](statement%20of%20cash%20flows.md)
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2026-08-24,504,403!2030-04-20,1560,396-->
   - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2026-05-15,395,383!2026-09-07,516,403-->

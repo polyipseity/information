@@ -27,7 +27,7 @@ tags:
 
 ## substitution model
 
-{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!2026-11-12,237,330!2026-04-04,63,310!2026-12-30,271,330!2026-11-29,251,330-->
+{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!2026-11-12,237,330!2027-01-02,273,330!2026-12-30,271,330!2026-11-29,251,330-->
 
 > [!example] __substitution rule__
 >
@@ -39,7 +39,7 @@ tags:
 > ```
 <!--SR:!2026-12-01,252,330!2026-11-17,241,330-->
 
-{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2026-04-04,63,310!2026-11-11,236,330!2026-12-31,272,330!2026-04-04,63,310!2026-12-24,266,330!2026-12-02,253,330-->
+{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2027-01-05,276,330!2026-11-11,236,330!2026-12-31,272,330!2027-01-02,273,330!2026-12-24,266,330!2026-12-02,253,330-->
 
 > [!example] __rewrite of `iterate`__
 >
@@ -77,7 +77,7 @@ tags:
 >
 > {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!2026-11-11,236,330!2026-11-21,244,330!2026-11-20,243,330-->
 
-{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-11-29,251,330!2026-11-23,246,330!2026-11-30,251,330!2026-04-04,63,310!2026-04-04,63,310-->
+{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-11-29,251,330!2026-11-23,246,330!2026-11-30,251,330!2027-01-05,276,330!2027-01-04,275,330-->
 
 > [!example] __stateful proxy__
 >
@@ -121,13 +121,13 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > var x: String = "abc"
 > x = "hi"  // fails if `val` instead of `var` is used
 > ```
-<!--SR:!2026-11-11,236,330!2026-04-04,63,310-->
+<!--SR:!2026-11-11,236,330!2027-01-04,275,330-->
 
 ## operational equivalence
 
 {@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-12-17,260,330!2026-11-12,237,330!2026-12-15,259,330!2026-12-31,272,330!2026-11-12,237,330!2026-11-16,240,330-->
 
-{@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-12-14,258,330!2026-12-15,259,330!2026-11-14,238,330!2026-04-04,63,310!2026-11-13,237,330!2026-11-15,239,330-->
+{@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-12-14,258,330!2026-12-15,259,330!2026-11-14,238,330!2027-01-03,274,330!2026-11-13,237,330!2026-11-15,239,330-->
 
 > [!example] __operational equivalence test__
 >
@@ -140,7 +140,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > // S':  x.deposit(30); x.withdraw(20)
 > ```
 >
-> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!2026-11-11,236,330!2026-12-19,262,330!2026-04-04,63,310!2026-12-16,259,330!2026-11-29,251,330-->
+> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!2026-11-11,236,330!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!2026-11-29,251,330-->
 
 {@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!2026-11-13,237,330!2026-11-13,237,330!2026-11-16,240,330!2026-11-12,237,330-->
 

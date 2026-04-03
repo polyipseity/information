@@ -398,15 +398,15 @@ The content is in teaching order.
 - datetime: 2025-09-12T15:30:00+08:00/2025-09-12T16:20:00+08:00, PT50M
 - topic: probability theory
 - random variable
-  - random variable / description ::@:: A real-valued random variable $X$ is described by its cumulative distribution function (CDF) $F_X(x)=P(X \le x)$ and, if it possesses a density, by the probability density function (PDF) $f_X(x)=dF_X(x)/dx$. <!--SR:!2027-03-04,395,401!2026-04-04,127,401-->
+  - random variable / description ::@:: A real-valued random variable $X$ is described by its cumulative distribution function (CDF) $F_X(x)=P(X \le x)$ and, if it possesses a density, by the probability density function (PDF) $f_X(x)=dF_X(x)/dx$. <!--SR:!2027-03-04,395,401!2028-03-04,700,421-->
 - joint probability distribution
   - joint probability distribution / independence ::@:: For two variables $X,Y$, the joint CDF $F_{XY}(x,y)=P(X \le x,\;Y \le y)$ factorizes into the product of marginals iff $X$ and $Y$ are independent. For multiple variables, they must be _mutually_ independent, and vice versa. <p> Independence can also be checked via the joint PDF: $f_{XY}(x,y)=f_X(x)f_Y(y)$. <!--SR:!2026-04-16,138,401!2026-04-05,128,401-->
 - random variable
-  - random variable / expectation ::@:: The expectation of a single variable follow from its PDF: $$\mathbb{E}\{X\}=\int x\,f_X(x)\,dx \,.$$ <!--SR:!2026-04-04,127,401!2026-04-11,133,401-->
-  - random variable / variance ::@:: The variance of a single variable follow from its PDF: $$\operatorname{Var}\{X\}=\int (x-\mu)^2 f_X(x)\,dx \,.$$ <!--SR:!2026-04-04,127,401!2028-02-07,679,421-->
+  - random variable / expectation ::@:: The expectation of a single variable follow from its PDF: $$\mathbb{E}\{X\}=\int x\,f_X(x)\,dx \,.$$ <!--SR:!2028-03-06,702,421!2026-04-11,133,401-->
+  - random variable / variance ::@:: The variance of a single variable follow from its PDF: $$\operatorname{Var}\{X\}=\int (x-\mu)^2 f_X(x)\,dx \,.$$ <!--SR:!2028-03-03,699,421!2028-02-07,679,421-->
   - random variables / families ::@:: Each family is characterized by a small set of parameters (e.g., mean and variance for Gaussian). <!--SR:!2028-02-08,680,421!2026-04-13,135,401-->
     - random variables / families / discrete ::@:: Bernoulli, binomial, uniform (discrete), etc. <!--SR:!2027-02-28,391,401!2027-01-24,364,401-->
-    - random variables / families / continuous ::@:: uniform, exponential, Gaussian (normal), chi-square, Rayleigh/Ricean, gamma, Nakagami, lognormal, etc. <!--SR:!2028-02-04,676,421!2026-04-04,127,401-->
+    - random variables / families / continuous ::@:: uniform, exponential, Gaussian (normal), chi-square, Rayleigh/Ricean, gamma, Nakagami, lognormal, etc. <!--SR:!2028-02-04,676,421!2028-03-05,701,421-->
 - [central limit theorem](../../../../general/central%20limit%20theorem.md) (CLT) ::@:: It states that, under _appropriate conditions_, the distribution of a _normalized version of the sample mean_ converges to a _standard normal distribution_. This holds even if the original variables themselves are _not_ normally distributed. <!--SR:!2026-04-11,133,401!2026-04-09,132,401-->
   - central limit theorem / communication theory ::@:: In communication theory the Gaussian model dominates because of its role in modelling thermal noise and fading channels. Many non-Gaussian distributions can be approximated as Gaussian via the Central Limit Theorem. <!--SR:!2028-02-02,675,421!2028-01-26,668,421-->
 - normal distribution

@@ -16,7 +16,7 @@ tags:
 
 ## definitions
 
-{@{An _[explicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x) \,,$$}@} where $x$ is {@{an [independent variable](dependent%20and%20independent%29variables.md)}@}, $y(x)$ is {@{a [function](function%20(mathematics).md) of $x$}@}, $y^{(d)}(x)$ are {@{$d$-th [derivatives](derivative%20.md) of $y(x)$}@}, and $F$ is {@{a [formula](formula.md)}@}. <!--SR:!2028-01-12,1135,344!2027-06-11,438,394!2027-06-03,432,394!2027-05-24,423,394!2026-04-04,90,374!2026-06-01,120,389-->
+{@{An _[explicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x) \,,$$}@} where $x$ is {@{an [independent variable](dependent%20and%20independent%29variables.md)}@}, $y(x)$ is {@{a [function](function%20(mathematics).md) of $x$}@}, $y^{(d)}(x)$ are {@{$d$-th [derivatives](derivative%20.md) of $y(x)$}@}, and $F$ is {@{a [formula](formula.md)}@}. <!--SR:!2028-01-12,1135,344!2027-06-11,438,394!2027-06-03,432,394!2027-05-24,423,394!2027-07-09,461,394!2026-06-01,120,389-->
 
 {@{An _[implicit](implicit%20function.md) ordinary differential equation of order n_}@} has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using {@{the same notations as above}@}. <!--SR:!2028-01-30,1149,344!2026-04-05,91,374!2026-06-06,125,389-->
 

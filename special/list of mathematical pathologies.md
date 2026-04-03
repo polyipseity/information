@@ -34,7 +34,7 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 
 ### Volterra's function
 
-- see: ::@:: [Volterra's function](Volterra's%20function.md) <!--SR:!2026-04-08,87,374!2026-04-04,83,374-->
+- see: ::@:: [Volterra's function](Volterra's%20function.md) <!--SR:!2026-04-08,87,374!2027-06-08,430,394-->
 
 {@{Volterra's function}@} is constructed {@{using increasingly smaller modified copies of $f(x) = x^2 \sin(1 / x)$}@}, {@{mirrored and then placed on the removed intervals of [Smith–Volterra–Cantor set](Smith–Volterra–Cantor%20set.md)}@}. <!--SR:!2029-04-25,1239,306!2026-04-14,93,374!2026-11-21,281,374-->
 

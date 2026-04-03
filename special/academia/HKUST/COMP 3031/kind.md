@@ -176,7 +176,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   def sequence[G[_]: Applicative, A](fga: F[G[A]]): G[F[A]] = traverse(fga)(id)
 > ```
 >
-> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-12-21,268,330!2026-12-15,263,330!2026-09-28,193,310!2026-12-19,267,330!2027-01-10,285,330!2026-11-20,249,330!2026-11-24,252,330!2026-08-01,156,310!2026-04-04,63,310-->
+> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-12-21,268,330!2026-12-15,263,330!2026-09-28,193,310!2026-12-19,267,330!2027-01-10,285,330!2026-11-20,249,330!2026-11-24,252,330!2026-08-01,156,310!2027-01-05,276,330-->
 
 {@{The Cats library (<https://typelevel.org/cats>)}@} supplies {@{many such type classes}@}, allowing {@{concise and generic code across different data types}@}. <!--SR:!2026-10-12,193,310!2026-12-20,263,330!2026-12-25,272,330-->
 

@@ -177,7 +177,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 >
 > {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!2026-11-06,237,330!2026-11-19,248,330!2026-12-08,257,330!2026-11-26,254,330!2026-11-20,249,330!2026-11-27,255,330-->
 
-{@{The core of communication}@} is {@{the `!` operator}@}. It queues {@{a message for the target and returns immediately}@}: <!--SR:!2026-12-15,263,330!2026-12-04,254,330!2026-04-04,65,310-->
+{@{The core of communication}@} is {@{the `!` operator}@}. It queues {@{a message for the target and returns immediately}@}: <!--SR:!2026-12-15,263,330!2026-12-04,254,330!2027-01-11,282,330-->
 
 > [!example] __message sending__
 >
@@ -188,7 +188,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> {@{The sender’s address}@} is passed {@{automatically}@}, so {@{the recipient can reply}@}. <!--SR:!2027-01-19,291,330!2026-11-10,241,330!2026-04-04,65,310!2027-01-22,294,330!2026-11-19,247,330!2026-11-06,237,330-->
+> {@{The sender’s address}@} is passed {@{automatically}@}, so {@{the recipient can reply}@}. <!--SR:!2027-01-19,291,330!2026-11-10,241,330!2027-01-12,283,330!2027-01-22,294,330!2026-11-19,247,330!2026-11-06,237,330-->
 
 ### actor sate
 
@@ -239,7 +239,7 @@ When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{cre
 > context.stop(self)
 > ```
 >
-> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!2026-11-24,252,330!2026-11-11,241,330!2026-11-27,255,330!2026-04-04,65,310-->
+> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!2026-11-24,252,330!2026-11-11,241,330!2026-11-27,255,330!2027-01-14,285,330-->
 
 {@{These primitives}@} give actors {@{a well‑defined lifecycle that fits naturally into the asynchronous, message‑driven model}@}. <!--SR:!2026-12-02,252,330!2027-01-13,286,330-->
 
@@ -255,7 +255,7 @@ Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}
 > case "get" => sender() ! count          // reply to the caller with `self` implicitly
 > ```
 >
-> Because {@{messages are immutable}@}, {@{no shared data is exposed}@}. <!--SR:!2026-12-23,269,330!2026-11-20,248,330!2026-12-20,267,330!2027-01-11,285,330!2026-04-04,65,310-->
+> Because {@{messages are immutable}@}, {@{no shared data is exposed}@}. <!--SR:!2026-12-23,269,330!2026-11-20,248,330!2026-12-20,267,330!2027-01-11,285,330!2027-01-13,284,330-->
 
 {@{The encapsulation}@} guarantees that {@{two actors cannot interfere with each other’s state}@}, eliminating {@{races}@}. Actors live in {@{separate heaps}@}; they communicate only through {@{asynchronous messages}@}, so the runtime can schedule {@{them independently without global locks}@}. <!--SR:!2026-11-22,251,330!2026-12-11,257,330!2026-11-12,242,330!2026-12-08,257,330!2026-12-23,269,330!2026-11-09,240,330-->
 
@@ -374,7 +374,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 >   }
 > }
 > ```
-<!--SR:!2026-04-04,65,310!2026-12-30,275,330!2026-11-28,249,330-->
+<!--SR:!2027-01-14,285,330!2026-12-30,275,330!2026-11-28,249,330-->
 
 {@{The actor hierarchy}@} is therefore {@{safe and composable}@}: each account owns {@{its own balance}@}, {@{the transfer logic}@} runs {@{in a separate actor}@}, and all communication proceeds {@{through immutable messages}@}. This pattern illustrates how actors avoid {@{shared‑memory pitfalls}@} while enabling {@{fine‑grained concurrent interactions}@}. <!--SR:!2027-01-06,281,330!2026-12-07,256,330!2026-11-30,251,330!2026-11-03,235,330!2026-12-07,256,330!2027-01-10,284,330!2026-11-07,238,330!2026-12-31,276,330-->
 
@@ -383,7 +383,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 {@{Actor communication}@} is {@{asynchronous and, by its nature, unreliable}@}. {@{A send}@} may {@{drop the packet or duplicate it}@}. {@{The three classical delivery semantics}@} are: {@{_at-most-once_, _at-least-once_, and _exactly-once_}@}. <!--SR:!2026-11-16,246,330!2026-11-28,249,330!2027-01-02,275,330!2027-01-22,294,330!2026-12-26,269,330!2026-12-22,266,330-->
 
 - _at-most-once_: ::@:: a single send may be dropped or delivered once; the receiver must tolerate loss. <!--SR:!2026-11-23,251,330!2027-01-09,283,330-->
-- _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2027-01-17,290,330!2026-04-04,65,310-->
+- _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2027-01-17,290,330!2027-01-13,284,330-->
 - _exactly-once_: ::@:: the system guarantees that only the first reception is processed, typically by combining at‑least‑once delivery with idempotent handlers or persistent state. <!--SR:!2026-11-28,249,330!2027-01-05,280,330-->
 
 One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!2026-11-05,237,330!2026-11-11,241,330!2027-01-19,291,330!2026-11-26,254,330!2026-11-04,236,330!2027-01-19,291,330!2027-01-07,279,330-->
@@ -408,7 +408,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 
 ## web client example
 
-{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-12-20,266,330!2026-12-09,258,330!2026-12-30,275,330!2026-11-22,251,330!2026-12-25,271,330!2026-04-05,66,310!2027-01-10,284,330!2026-11-21,250,330!2026-12-19,266,330!2026-12-31,276,330!2026-12-12,260,330!2026-04-04,65,310!2027-01-14,287,330-->
+{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-12-20,266,330!2026-12-09,258,330!2026-12-30,275,330!2026-11-22,251,330!2026-12-25,271,330!2026-04-05,66,310!2027-01-10,284,330!2026-11-21,250,330!2026-12-19,266,330!2026-12-31,276,330!2026-12-12,260,330!2027-01-14,285,330!2027-01-14,287,330-->
 
 {@{A naive version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!2026-11-21,249,330!2026-12-14,262,330-->
 
