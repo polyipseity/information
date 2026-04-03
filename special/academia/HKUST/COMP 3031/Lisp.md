@@ -30,7 +30,7 @@ Over {@{five decades}@} the language has {@{branched into several dialects}@}: {
 
 ### Lisp programs
 
-{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2026-04-16,72,320!2026-04-17,73,320!2026-04-15,71,320!2026-04-14,70,320!2026-12-25,267,340!2026-04-13,70,320!2026-04-13,70,320!2026-12-02,251,330!2026-12-19,260,340!2026-04-05,62,320!2026-04-06,63,320!2026-04-17,73,320!2026-04-12,69,320!2026-04-17,73,320!2026-04-16,72,320!2026-12-22,263,340!2026-12-21,262,340!2026-04-13,70,320!2026-12-22,263,340!2026-11-19,240,330!2026-12-17,258,340-->
+{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2026-04-16,72,320!2026-04-17,73,320!2026-04-15,71,320!2026-04-14,70,320!2026-12-25,267,340!2026-04-13,70,320!2026-04-13,70,320!2026-12-02,251,330!2026-12-19,260,340!2027-01-08,278,340!2026-04-06,63,320!2026-04-17,73,320!2026-04-12,69,320!2026-04-17,73,320!2026-04-16,72,320!2026-12-22,263,340!2026-12-21,262,340!2026-04-13,70,320!2026-12-22,263,340!2026-11-19,240,330!2026-12-17,258,340-->
 
 Because Lisp was originally {@{an intermediate language for compilers}@}, it contains only {@{a handful of rules}@}. This minimalism makes it easy to {@{write interpreters and reason about evaluation}@}, which is we can easily {@{implement a small Scheme subset}@} in Scala. The simplicity stems from the fact that {@{programs themselves are lists}@}; code can be {@{generated, transformed and executed}@} by treating them as {@{ordinary data structures}@}. <!--SR:!2026-04-13,70,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-11,68,320!2026-04-14,70,320!2026-04-17,74,320!2026-04-12,68,320-->
 
@@ -54,7 +54,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 
 {@{The primitive data types in Lisp}@} are {@{numbers, strings, symbols and lists}@}. {@{Numbers}@} can be {@{integers or floating–point values}@}; many dialects allow {@{arbitrarily large integers}@}. {@{Strings}@} behave {@{like Java strings}@}, while {@{symbols}@} are {@{unquoted identifiers that are looked up in an environment when a program is evaluated}@}. In {@{conditional expressions}@} every value counts as {@{_truthy_ except certain specific values}@}, which represents {@{false}@}. The specific values may be {@{the empty list `nil`, the number `0`, the special falsy value `#f`, etc.}@} <!--SR:!2026-04-16,72,320!2026-04-12,69,320!2026-12-25,265,340!2026-04-17,74,320!2026-04-17,74,320!2026-04-12,69,320!2026-04-13,70,320!2026-04-16,72,320!2026-12-31,271,340!2026-04-11,68,320!2026-04-15,71,320!2026-04-12,69,320!2026-04-17,74,320-->
 
-{@{Lists themselves}@} are constructed with {@{the function `cons`}@} and terminated by {@{the special value `nil`}@}. A list such as {@{`(quote (1 2 3))` or `'(1 2 3)`}@} is actually {@{a nested chain of pairs: `(cons 1 (cons 2 (cons 3 nil)))`}@}. Because Lisp has {@{no static type system}@}, lists can be {@{represented solely with functions}@}. {@{A cons cell}@} may be defined as {@{a function that receives a continuation `k`}@}; {@{the operations `cons`, `car` and `cdr`}@} are then just {@{applications of that function to suitable continuations}@}: <!--SR:!2026-04-05,62,320!2026-04-13,69,320!2026-04-12,68,320!2026-12-18,259,340!2026-04-17,73,320!2026-04-14,70,320!2026-04-14,70,320!2026-04-12,69,320!2026-04-12,68,320!2026-12-29,269,340!2026-12-24,265,340-->
+{@{Lists themselves}@} are constructed with {@{the function `cons`}@} and terminated by {@{the special value `nil`}@}. A list such as {@{`(quote (1 2 3))` or `'(1 2 3)`}@} is actually {@{a nested chain of pairs: `(cons 1 (cons 2 (cons 3 nil)))`}@}. Because Lisp has {@{no static type system}@}, lists can be {@{represented solely with functions}@}. {@{A cons cell}@} may be defined as {@{a function that receives a continuation `k`}@}; {@{the operations `cons`, `car` and `cdr`}@} are then just {@{applications of that function to suitable continuations}@}: <!--SR:!2027-01-07,277,340!2026-04-13,69,320!2026-04-12,68,320!2026-12-18,259,340!2026-04-17,73,320!2026-04-14,70,320!2026-04-14,70,320!2026-04-12,69,320!2026-04-12,68,320!2026-12-29,269,340!2026-12-24,265,340-->
 
 > [!example] __functional cons implementation__
 >
@@ -149,7 +149,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 
 ## parser
 
-{@{Parsing}@} uses {@{simple _recursive-descent parsing_ functions}@} that consume {@{tokens from the tokenizer}@}. {@{`parseExpr`}@} handles {@{atomic values}@}; {@{`parseList`}@} collects {@{elements until it meets the closing parenthesis}@}. <!--SR:!2026-04-13,70,320!2026-04-17,74,320!2026-04-18,74,320!2026-04-13,69,320!2026-12-29,269,340!2026-04-05,62,320!2026-04-06,63,320-->
+{@{Parsing}@} uses {@{simple _recursive-descent parsing_ functions}@} that consume {@{tokens from the tokenizer}@}. {@{`parseExpr`}@} handles {@{atomic values}@}; {@{`parseList`}@} collects {@{elements until it meets the closing parenthesis}@}. <!--SR:!2026-04-13,70,320!2026-04-17,74,320!2026-04-18,74,320!2026-04-13,69,320!2026-12-29,269,340!2027-01-10,280,340!2026-04-06,63,320-->
 
 > [!example] __String to Lisp tree__
 >
@@ -177,7 +177,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 
 ## syntax
 
-{@{The interpreter}@} evaluates {@{a single Scheme expression}@} that may contain {@{_special forms_ such as `val`, `def`, `lambda`, `quote` and `if`}@}. {@{A __`val`__}@} binds {@{an immutable value}@}, while {@{__`def`__}@} creates {@{a definition that is re‑evaluated each time it is used}@}. These two form {@{the core of local bindings}@}; {@{higher-level binders}@} like {@{`let`, `let*` or `letrec`}@} are only {@{syntactic sugar for combinations of these primitives}@}. <!--SR:!2026-04-05,62,320!2026-04-12,68,320!2026-12-22,262,340!2026-04-07,64,320!2026-04-13,69,320!2026-04-13,69,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-12,68,320!2026-04-15,71,320!2026-12-27,267,340-->
+{@{The interpreter}@} evaluates {@{a single Scheme expression}@} that may contain {@{_special forms_ such as `val`, `def`, `lambda`, `quote` and `if`}@}. {@{A __`val`__}@} binds {@{an immutable value}@}, while {@{__`def`__}@} creates {@{a definition that is re‑evaluated each time it is used}@}. These two form {@{the core of local bindings}@}; {@{higher-level binders}@} like {@{`let`, `let*` or `letrec`}@} are only {@{syntactic sugar for combinations of these primitives}@}. <!--SR:!2027-01-09,279,340!2026-04-12,68,320!2026-12-22,262,340!2026-04-07,64,320!2026-04-13,69,320!2026-04-13,69,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-12,68,320!2026-04-15,71,320!2026-12-27,267,340-->
 
 > [!example] __using `val` and `def`__
 >
@@ -214,7 +214,7 @@ Because Scheme has {@{many convenient syntactic sugar}@}, we first rewrite {@{th
 > ```
 <!--SR:!2026-04-12,69,320!2026-04-14,70,320-->
 
-{@{Other derived forms}@} are handled {@{in a similar way}@}. {@{The `cond` macro}@} expands into {@{nested `if`s}@}: <!--SR:!2026-04-18,74,320!2026-04-11,68,320!2026-04-17,74,320!2026-04-05,62,320-->
+{@{Other derived forms}@} are handled {@{in a similar way}@}. {@{The `cond` macro}@} expands into {@{nested `if`s}@}: <!--SR:!2026-04-18,74,320!2026-04-11,68,320!2026-04-17,74,320!2027-01-09,279,340-->
 
 > [!example] __normalizing `cond`__
 >
@@ -369,7 +369,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 > ```
 <!--SR:!2026-04-13,69,320!2026-12-20,261,340!2026-12-27,268,340!2026-04-13,70,320-->
 
-{@{__`quote`__}@} returns {@{its argument without evaluation}@}. <!--SR:!2026-04-05,62,320!2026-04-18,74,320-->
+{@{__`quote`__}@} returns {@{its argument without evaluation}@}. <!--SR:!2027-01-08,278,340!2026-04-18,74,320-->
 
 > [!example] __`quote` special form__
 >
@@ -466,7 +466,7 @@ Because the closure keeps {@{a reference to its defining environment}@}, each ap
 
 ### scoping
 
-Because the closure keeps {@{a reference to its defining environment}@}, each application {@{re-uses that same lexical context}@}. This contrasts with {@{dynamic scoping used in early Lisp versions}@}, where a function would capture {@{the _current_ stack of bindings rather than the one that existed when it was defined}@}. In {@{a dynamically scoped system}@}, calling `f(1)` where <!--SR:!2026-04-05,62,320!2026-04-18,74,320!2026-04-12,68,320!2026-04-17,74,320!2026-12-30,270,340-->
+Because the closure keeps {@{a reference to its defining environment}@}, each application {@{re-uses that same lexical context}@}. This contrasts with {@{dynamic scoping used in early Lisp versions}@}, where a function would capture {@{the _current_ stack of bindings rather than the one that existed when it was defined}@}. In {@{a dynamically scoped system}@}, calling `f(1)` where <!--SR:!2027-01-07,277,340!2026-04-18,74,320!2026-04-12,68,320!2026-04-17,74,320!2026-12-30,270,340-->
 
 > [!example] __dynamic scoping pitfall__
 >

@@ -42,7 +42,7 @@ A multiplexer makes it possible {@{for several input signals to share one device
 
 Conversely, {@{a __demultiplexer__ \(or __demux__\)}@} is {@{a device that takes a single input signal and selectively forwards it to one of several output lines}@}. A multiplexer is often {@{used with a complementary demultiplexer on the receiving end}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-04-20,333,344!2030-03-31,1465,364!2026-04-17,330,344-->
 
-{@{An electronic multiplexer}@} can be considered as {@{a [multiple-input, single-output](system%20analysis.md#characterization%20of%20systems) switch}@}, and {@{a demultiplexer as a [single-input, multiple-output](system%20analysis.md#characterization%20of%20systems) switch}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The schematic symbol for a multiplexer}@} is {@{an [isosceles trapezoid](isosceles%20trapezoid.md) with the longer parallel side containing the input pins and the short parallel side containing the output pin}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The schematic on the right}@} shows {@{a 2-to-1 multiplexer on the left and an equivalent switch on the right}@}. The $\text{sel}$ wire {@{connects the desired input to the output}@}. <!--SR:!2026-04-27,338,344!2026-04-14,327,344!2029-02-28,1144,350!2026-04-05,318,344!2030-02-08,1422,364!2028-03-05,860,344!2029-01-18,1103,350!2030-05-03,1493,364-->
+{@{An electronic multiplexer}@} can be considered as {@{a [multiple-input, single-output](system%20analysis.md#characterization%20of%20systems) switch}@}, and {@{a demultiplexer as a [single-input, multiple-output](system%20analysis.md#characterization%20of%20systems) switch}@}.<sup>[\[3\]](#^ref-3)</sup> {@{The schematic symbol for a multiplexer}@} is {@{an [isosceles trapezoid](isosceles%20trapezoid.md) with the longer parallel side containing the input pins and the short parallel side containing the output pin}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The schematic on the right}@} shows {@{a 2-to-1 multiplexer on the left and an equivalent switch on the right}@}. The $\text{sel}$ wire {@{connects the desired input to the output}@}. <!--SR:!2026-04-27,338,344!2026-04-14,327,344!2029-02-28,1144,350!2030-05-26,1512,364!2030-02-08,1422,364!2028-03-05,860,344!2029-01-18,1103,350!2030-05-03,1493,364-->
 
 ## applications
 
@@ -70,7 +70,7 @@ For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} an
 >
 > {@{A 2-to-1 mux}@} <!--SR:!2030-02-15,1428,364!2026-04-06,319,344-->
 
-{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-05,318,344!2030-05-04,1493,364!2029-02-01,1117,350!2030-05-08,1496,364!2029-03-06,1146,350-->
+{@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2030-05-18,1504,364!2030-05-04,1493,364!2029-02-01,1117,350!2030-05-08,1496,364!2029-03-06,1146,350-->
 
 | $$S_{0}$$ | $$A$$ | $$B$$ | $$Z$$ |
 | --------- | ----- | ----- | ----- |
@@ -115,7 +115,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 | 1         | 0         | C     |
 | 1         | 1         | D     |
 
-{@{The following 4-to-1 multiplexer}@} is constructed from {@{[3-state buffers](3-state%20buffers.md#tri-state%20buffer) and AND gates \(the AND gates are acting as the decoder\)}@}: <p> {@{![a 4-to-1 mux realized from 3-state buffers and AND gates](../../archives/Wikimedia%20Commons/Mux%20from%203%20state%20buffers.png)}@} <!--SR:!2029-12-28,1389,364!2026-04-05,318,344!2030-04-03,1468,364-->
+{@{The following 4-to-1 multiplexer}@} is constructed from {@{[3-state buffers](3-state%20buffers.md#tri-state%20buffer) and AND gates \(the AND gates are acting as the decoder\)}@}: <p> {@{![a 4-to-1 mux realized from 3-state buffers and AND gates](../../archives/Wikimedia%20Commons/Mux%20from%203%20state%20buffers.png)}@} <!--SR:!2029-12-28,1389,364!2030-05-19,1505,364!2030-04-03,1468,364-->
 
 {@{The subscripts on the $I_{n}$ inputs}@} indicate {@{the decimal value of the binary control inputs}@} at which that {@{input is let through}@}. <!--SR:!2026-04-20,333,344!2028-06-05,926,344!2026-05-16,125,403-->
 

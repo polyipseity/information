@@ -43,7 +43,7 @@ Molecules can be classified based on atomicity as:
 
 <!--pytextgen generate section="049e"--><!-- The following content is generated at 2024-01-04T20:17:51.395896+08:00. Any edits will be overridden! -->
 
-- [monatomic](monoatomic%20molecule.md):@:all [noble gases](noble%20gas.md), Ar ([argon](argon.md)) <!--SR:!2026-04-05,844,330-->
+- [monatomic](monoatomic%20molecule.md):@:all [noble gases](noble%20gas.md), Ar ([argon](argon.md)) <!--SR:!2036-10-04,3835,350-->
 - [diatomic](diatomic%20molecule.md):@:Cl<sub>2</sub> ([chlorine](chlorine.md)), H<sub>2</sub> ([hydrogen](hydrogen.md)), N<sub>2</sub> ([nitrogen](nitrogen.md)), O<sub>2</sub> ([oxygen](oxygen.md)) <!--SR:!2028-08-01,1356,270-->
 - [triatomic](triatomic%20molecule.md):@:O<sub>3</sub> ([ozone](ozone.md)) <!--SR:!2026-08-22,951,330-->
 - polyatomic:@:P<sub>4</sub> ([white phosphorous](white%20phosphorous.md)), S<sub>8</sub> ([sulfur](sulfur.md)) <!--SR:!2033-01-11,2726,330-->

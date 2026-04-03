@@ -107,7 +107,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ## actor
 
-{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!2026-12-18,265,330!2026-11-27,255,330!2027-01-03,278,330!2026-04-05,66,310-->
+{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!2026-12-18,265,330!2026-11-27,255,330!2027-01-03,278,330!2027-01-17,287,330-->
 
 {@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2027-01-02,277,330!2026-10-27,228,330!2026-12-12,258,330!2026-11-11,241,330-->
 
@@ -245,7 +245,7 @@ When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{cre
 
 ### actor encapsulation
 
-Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}@} can read or modify {@{the internal state of an actor}@}; all interaction must be performed by {@{sending a message}@}. Each actor knows {@{its own address via `self`}@}, and can give that address {@{to others inside a message _implicitly_}@}: <!--SR:!2026-12-31,276,330!2027-01-21,293,330!2026-04-05,66,310!2027-01-03,276,330!2026-11-08,239,330!2027-01-11,285,330-->
+Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}@} can read or modify {@{the internal state of an actor}@}; all interaction must be performed by {@{sending a message}@}. Each actor knows {@{its own address via `self`}@}, and can give that address {@{to others inside a message _implicitly_}@}: <!--SR:!2026-12-31,276,330!2027-01-21,293,330!2027-01-18,288,330!2027-01-03,276,330!2026-11-08,239,330!2027-01-11,285,330-->
 
 > [!example] __passing `self`__
 >
@@ -341,7 +341,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 > ```
 <!--SR:!2026-12-10,259,330!2026-12-24,270,330!2026-12-21,268,330!2026-11-04,236,330!2026-11-22,251,330!2026-12-31,276,330-->
 
-{@{A `WireTransfer` actor}@} demonstrates how {@{two bank accounts can cooperate without shared state}@}. It first asks {@{the source account to withdraw}@}, waits for {@{its reply}@}, and only then {@{deposits into the destination}@}. <!--SR:!2027-01-12,285,330!2026-11-25,253,330!2026-04-05,66,310!2026-11-06,237,330!2027-01-02,277,330-->
+{@{A `WireTransfer` actor}@} demonstrates how {@{two bank accounts can cooperate without shared state}@}. It first asks {@{the source account to withdraw}@}, waits for {@{its reply}@}, and only then {@{deposits into the destination}@}. <!--SR:!2027-01-12,285,330!2026-11-25,253,330!2027-01-16,286,330!2026-11-06,237,330!2027-01-02,277,330-->
 
 > [!example] __`WireTransfer` actor__
 >
@@ -408,7 +408,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 
 ## web client example
 
-{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-12-20,266,330!2026-12-09,258,330!2026-12-30,275,330!2026-11-22,251,330!2026-12-25,271,330!2026-04-05,66,310!2027-01-10,284,330!2026-11-21,250,330!2026-12-19,266,330!2026-12-31,276,330!2026-12-12,260,330!2027-01-14,285,330!2027-01-14,287,330-->
+{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-12-20,266,330!2026-12-09,258,330!2026-12-30,275,330!2026-11-22,251,330!2026-12-25,271,330!2027-01-15,285,330!2027-01-10,284,330!2026-11-21,250,330!2026-12-19,266,330!2026-12-31,276,330!2026-12-12,260,330!2027-01-14,285,330!2027-01-14,287,330-->
 
 {@{A naive version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!2026-11-21,249,330!2026-12-14,262,330-->
 
@@ -469,7 +469,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-09,258,330!2026-12-29,272,330!2026-10-28,229,330!2027-01-09,283,330!2026-11-03,235,330!2026-11-30,251,330!2026-12-19,266,330-->
 
-{@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2026-04-05,66,310!2026-11-29,250,330!2026-12-12,260,330!2026-12-13,261,330!2026-11-24,252,330-->
+{@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2027-01-19,289,330!2026-11-29,250,330!2026-12-12,260,330!2026-12-13,261,330!2026-11-24,252,330-->
 
 > [!example] __`Controller` actor__
 >
@@ -492,7 +492,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-31,273,330!2026-11-13,243,330!2026-12-15,263,330!2027-01-20,292,330!2027-01-11,285,330-->
 
-Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!2026-12-03,253,330!2026-12-30,275,330!2026-12-24,268,330!2026-04-05,66,310!2026-11-30,251,330!2026-12-16,263,330-->
+Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!2026-12-03,253,330!2026-12-30,275,330!2026-12-24,268,330!2027-01-20,290,330!2026-11-30,251,330!2026-12-16,263,330-->
 
 > [!example] __`Controller` with overall timeout__
 >
@@ -508,7 +508,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     // other cases …
 > ```
 >
-> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!2026-11-08,239,330!2026-04-06,67,310!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!2026-11-04,236,330!2026-12-17,262,330!2026-11-25,253,330!2026-04-05,66,310!2027-01-21,293,330-->
+> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!2026-11-08,239,330!2026-04-06,67,310!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!2026-11-04,236,330!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
 
 {@{A `Cache` actor}@} may be {@{further split from the `Controller` actor}@}. <!--SR:!2026-11-10,241,330!2026-11-17,245,330-->
 

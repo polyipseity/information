@@ -269,7 +269,7 @@ conclusion: make progress
 
 ### test card
 
-When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270!2027-06-05,433,390!2027-06-21,445,390!2026-04-05,91,370-->
+When {@{designing tests}@}, you can use {@{test cards}@}. They have {@{basic info}@} like {@{name, due date, and person responsible}@}; {@{hypothesis; test; metric; and criteria}@}. <!--SR:!2028-01-06,1067,350!2028-12-19,1112,270!2027-06-05,433,390!2027-06-21,445,390!2027-07-06,457,390-->
 
 {@{One test card}@} is {@{insufficient}@}. Design {@{a series of experiments}@}, rank {@{them by cruicalness}@}, and run {@{experiments}@}. Note that {@{first experiments may invalidate crucial hypotheses}@} that {@{invalidates the rest of the tests}@}. <!--SR:!2027-09-07,900,309!2032-01-17,2193,349!2027-06-20,444,390!2027-06-22,446,390!2027-06-29,453,390!2027-05-31,428,390!2027-06-01,429,390-->
 
