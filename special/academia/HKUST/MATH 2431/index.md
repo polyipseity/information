@@ -153,7 +153,7 @@ The content is in teaching order.
   - sigma-algebra / [§ power set](sigma-algebra.md#power%20set)
   - sigma-algebra / [§ naive definition of event](sigma-algebra.md#naive%20definition%20of%20event)
   - sigma-algebra / [§ definition of sigma-algebra](sigma-algebra.md#definition%20of%20sigma-algebra)
-  - sigma-algebra / [§ consequences: empty set, intersections, finite operations](sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations) <!-- check: ignore-line[numeric_text_not_latex]: link anchor -->
+  - sigma-algebra / [§ consequences: empty set, intersections, finite operations](sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations)
   - sigma-algebra / [§ concrete cases and violations](sigma-algebra.md#concrete%20cases%20and%20violations)
 - [probability measure](probability%20measure.md)
   - probability measure / [§ definition and Kolmogorov axioms](probability%20measure.md#definition%20and%20Kolmogorov%20axioms)
@@ -174,7 +174,7 @@ The content is in teaching order.
   - sample space / [§ finite and countable sample spaces](sample%20space.md#finite%20and%20countable%20sample%20spaces)
 - [sigma-algebra](sigma-algebra.md)
   - sigma-algebra / [§ definition of sigma-algebra](sigma-algebra.md#definition%20of%20sigma-algebra)
-  - sigma-algebra / [§ consequences: empty set, intersections, finite operations](sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations) <!-- check: ignore-line[numeric_text_not_latex]: link anchor -->
+  - sigma-algebra / [§ consequences: empty set, intersections, finite operations](sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations)
   - sigma-algebra / [§ concrete cases and violations](sigma-algebra.md#concrete%20cases%20and%20violations)
 - [questions / week 2 tutorial](questions/week%202%20tutorial.md)
 
