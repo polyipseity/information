@@ -237,26 +237,28 @@ Flashcards for this section are as follows:
 
 ### boundedness (BIBO stability)
 
-The stability notion emphasized in the early systems material is bounded-input bounded-output stability. A system is BIBO stable if every bounded input produces a bounded output. For LTI systems the key impulse-response test is absolute integrability: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
+The stability notion emphasized in the early systems material is bounded-input bounded-output stability. The rigorous definition is: if an input is bounded in magnitude, meaning there exists some finite constant $M_x$ such that $|x(t)|\le M_x$ for all $t$ or $|x[n]|\le M_x$ for all $n$, then the corresponding output must also be bounded in magnitude, meaning there exists some finite constant $M_y$ such that $|y(t)|\le M_y$ for all $t$ or $|y[n]|\le M_y$ for all $n$. The output bound may depend on the chosen input, but it must stay finite whenever the input stays finite. For LTI systems the key impulse-response test is absolute integrability: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
 
 A standard stable example is $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Its impulse response is $h(t)=e^{-t}u(t)$. Since $\int_{-\infty}^{\infty}|h(t)|\,dt=1$, any bounded input $|x(t)|\le M$ produces $|y(t)|\le M\int |h(t)|dt=M$. The system has finite total memory weight, so it cannot amplify a bounded input into an unbounded output.
 
 A standard unstable counterexample is the integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$, whose impulse response is $h(t)=u(t)$. The input $x(t)=u(t)$ is bounded by $1$, yet the output is $y(t)=tu(t)$, which grows without bound. The problem is that $h(t)$ has infinite area, so the system can keep accumulating bounded input forever.
 
-The intuition is that BIBO stability measures whether the system's total response weight is finite. A decaying impulse response forgets enough of the past to keep the output under control. An integrator never really lets go of past input, so even a bounded signal can accumulate into an ever-growing output.
+The rigorous intuition is that boundedness asks whether the system maps every finite-amplitude "box" of admissible inputs into some finite-amplitude "box" of outputs. The bound on the output does not need to equal the bound on the input, but it must exist. For LTI systems this becomes a total-memory-weight question: a decaying impulse response forgets enough of the past to keep the output under control, whereas an integrator never really lets go of past input, so even a bounded signal can accumulate into an ever-growing output.
 
-The same comparison examples add several quick recognition patterns. The affine-delay rule, the pointwise cosine rule, the even-part operator, and the max rule are all BIBO stable because bounded inputs stay bounded under those operations. The integrator is not BIBO stable, and the scaled-index rule $y[n]=n\,x[2n]$ is also unstable because the bounded input $x[n]\equiv 1$ produces the unbounded sequence $y[n]=n$.
+The same comparison examples add several quick recognition patterns, including non-LTI ones. The affine-delay rule, the pointwise cosine rule, the even-part operator, and the max rule are all BIBO stable because bounded inputs stay bounded under those operations. The nonlinear memoryless rule $y[n]=e^{x[n]}$ is also BIBO stable: if $|x[n]|\le M$, then $-M\le x[n]\le M$, so $e^{-M}\le y[n]\le e^{M}$. By contrast, the time-varying rule $y[n]=(n+1)x[n]$ is not BIBO stable, because the bounded input $x[n]\equiv 1$ produces the unbounded sequence $y[n]=n+1$. The integrator is likewise not BIBO stable for the same accumulation reason.
 
 ---
 
 Flashcards for this section are as follows:
 
-- boundedness (BIBO stability) / definition ::@:: A system is BIBO stable if every bounded input produces a bounded output.
+- boundedness (BIBO stability) / rigorous definition ::@:: A system is BIBO stable if whenever there exists a finite constant $M_x$ with $|x(t)|\le M_x$ for all $t$ or $|x[n]|\le M_x$ for all $n$, there also exists a finite constant $M_y$ such that $|y(t)|\le M_y$ for all $t$ or $|y[n]|\le M_y$ for all $n$.
 - boundedness (BIBO stability) / LTI impulse-response test ::@:: For an LTI system, a key sufficient and standard recognition test is absolute integrability of the impulse response: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
 - boundedness (BIBO stability) / example in input-output and impulse-response form ::@:: Example: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. Its total impulse-response area is finite, so bounded inputs give bounded outputs.
 - boundedness (BIBO stability) / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$. Impulse-response form: $h(t)=u(t)$. The bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$, so the system is not BIBO stable.
-- boundedness (BIBO stability) / intuition ::@:: Stable means the system's total memory weight is finite; unstable means bounded input can keep accumulating without enough decay to hold the output down.
-- boundedness (BIBO stability) / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, $\tfrac12(x(t)+x(-t))$, and $\max\{x[n],x[n-1]\}$ are BIBO stable for bounded inputs, whereas the integrator and $y[n]=n\,x[2n]$ are not.
+- boundedness (BIBO stability) / rigorous intuition ::@:: BIBO stability means every finite-amplitude input cage is sent into some finite-amplitude output cage; the output bound may change with the input, but it must remain finite.
+- boundedness (BIBO stability) / nonlinear stable example ::@:: The non-LTI system $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $-M\le x[n]\le M$, hence $e^{-M}\le y[n]\le e^{M}$.
+- boundedness (BIBO stability) / time-varying unstable example ::@:: The non-LTI system $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ gives $y[n]=n+1$, which is unbounded.
+- boundedness (BIBO stability) / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, $\tfrac12(x(t)+x(-t))$, $\max\{x[n],x[n-1]\}$, and $y[n]=e^{x[n]}$ are BIBO stable for bounded inputs, whereas the integrator and $y[n]=(n+1)x[n]$ are not.
 
 ## linear time-invariant systems and response transfer
 
