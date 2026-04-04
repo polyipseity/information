@@ -33,6 +33,14 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   overview, folder indexes should summarize just enough to navigate, and leaf
   indexes should usually contain only minimal logistics until real content is
   ingested.
+- For Canvas-derived assignment-style leaf indexes (for example lab rounds,
+  homework folders, quiz handouts, or similar deliverables), structure the page
+  as index metadata, `## children`, `## description`, `## attachments`,
+  `## submission`, and `## solution`; do not insert an extra `---` after the
+  parent line. In `## description`, store the Canvas title header as the first
+  list item `- title: <verbatim title>` rather than as a heading, keep the
+  visible Canvas wording verbatim, and point the attachments list at local
+  `attachments/` files.
 - In a course-root `index.md`, order the main top-level sections as `## children`,
   then `## logistics`, then `## overview`; keep sessions and exams after those.
 - Prefer one `## overview` section for compact orientation material such as
@@ -44,6 +52,9 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - Keep sessions in strict chronological order and use headings of the form
   `## week N lecture`, `## week N lecture 2`, `## week N lab`, and
   `## week N tutorial`.
+- If the official materials define a recurring weekly stream, scaffold that
+  stream continuously across the term and mark skipped meetings with `status:`
+  metadata rather than omitting the week.
 - Use underscore emphasis (`_italic_`, `__bold__`).
 - Keep units inside math delimiters, for example `$5\text{ V}$`.
 

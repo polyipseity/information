@@ -1462,17 +1462,47 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
     that does **not** contain any dollar sign and looks for two common
     patterns:
 
-    1. A number followed (optionally with intervening whitespace) by a
-       electrical unit such as ``V``, ``A``, ``\u03a9``, ``Hz``, ``W`` etc.
+    1. A number followed by a unit such as ``V``, ``A``, ``\u03a9``, ``Hz``,
+       ``W`` etc.  The rule is intentionally conservative for a bare trailing
+       ``C``: it requires whitespace before ``C`` so room codes such as
+       ``4225C`` are not mistaken for charges or temperatures.
     2. A simple variable assignment like ``I2=0.04`` where a letter and
        digit are followed by an equals sign (the right-hand side may itself
        include units).
 
-    Lines inside fenced code blocks are ignored entirely.
+    Lines inside fenced code blocks are ignored entirely. Markdown link
+    targets, inline code, and HTML comments are also masked before matching so
+    percent-encoded anchors such as ``%2C`` do not produce false positives.
     """
     errors: list[ValidationMessage] = []
-    unit_re = re.compile(r"\b\d+(?:\.\d+)?\s*(?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA|C)\b")
-    var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=")
+
+    unit_re = re.compile(
+        r"""
+        \b
+        \d+(?:\.\d+)?
+        (?:
+            \s+(?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA|C)
+            |
+            (?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA)
+        )
+        \b
+        """,
+        re.VERBOSE,
+    )
+    var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=\s*\d")
+
+    def _mask_match(match: re.Match[str]) -> str:
+        """Replace a matched span with spaces to preserve column positions."""
+
+        return " " * len(match.group(0))
+
+    def _mask_link_target(match: re.Match[str]) -> str:
+        """Mask only the target portion of a Markdown link, not its label."""
+
+        full = match.group(0)
+        target = match.group(1)
+        return full.replace(target, " " * len(target), 1)
+
     in_fence = False
     for idx, line in enumerate(ctx.text.splitlines(keepends=True), start=1):
         if line.strip().startswith("```"):
@@ -1483,8 +1513,13 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
         stripped = line.rstrip("\n")
         if "$" in stripped:
             continue
-        if unit_re.search(stripped) or var_eq_re.search(stripped):
-            m = unit_re.search(stripped) or var_eq_re.search(stripped)
+
+        masked = re.sub(r"<!--.*?-->", _mask_match, stripped)
+        masked = re.sub(r"`[^`]*`", _mask_match, masked)
+        masked = re.sub(r"\[[^\]]*\]\(([^)]+)\)", _mask_link_target, masked)
+
+        if unit_re.search(masked) or var_eq_re.search(masked):
+            m = unit_re.search(masked) or var_eq_re.search(masked)
             assert m is not None
             col = m.start() + 1
             col_end = m.end() + 1

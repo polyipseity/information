@@ -133,6 +133,10 @@ with `index.md` only when the item is likely to accumulate children of its own.
 - Weekly session metadata must match the chosen lecture/tutorial/lab stream.
 - Use session headings exactly like `## week N lecture`, `## week N lecture 2`,
   `## week N tutorial`, and `## week N lab`.
+- If the official schedule exposes a recurring lecture, tutorial, or lab
+  stream, keep that stream's week headings continuous across the teaching term
+  even when a given week has no meeting. Mark the gap with `status:` metadata
+  rather than silently skipping the week.
 - If a session has no class, omit `topic:`. Use `status: public holiday: <name>`
   when known, otherwise `status: no class`.
 - Keep session-level flashcards in the index only when they test a reusable
@@ -460,6 +464,29 @@ Use these rules:
 - For consecutive quote blocks, prefer local MD028 control comments instead of a
   global suppression.
 
+## Assignment-style leaf index pages
+
+Some leaf folders represent a single Canvas or LMS assignment-like artifact,
+such as a lab round, homework, quiz handout, project milestone, or similar
+deliverable page with local attachments.
+
+Use these rules when the source is a Canvas assignment HTML page:
+
+- Keep the visible Canvas wording verbatim in the description body.
+- Preserve color with `<span style>` and use Markdown for bold, italics,
+  links, paragraphing, and line breaks.
+- Treat the Canvas title header as metadata inside `## description`, not as a
+  Markdown heading. The first property in that section should be exactly
+  `- title: <Canvas title header verbatim>`.
+- For these assignment-style leaf indexes, use this section order:
+  index metadata (with no extra `---` after the parent line), `## children`,
+  `## description`, `## attachments`, `## submission`, and `## solution`.
+- Omit generic `## logistics` and `## overview` sections on these pages.
+- Include an explicit attachments list pointing to the local `attachments/`
+  files.
+- Leave `## submission` and `## solution` empty until actual repository
+  content is provided.
+
 ## Flashcards and markup
 
 The repository supports only three flashcard patterns:
@@ -510,6 +537,10 @@ Additional rules:
   that is redundant.
 - Do not place more than one directive of the same type on the same line; merge
   rule IDs into one directive when needed.
+- If a rule such as `numeric_text_not_latex` keeps firing on room identifiers,
+  percent-encoded link destinations, inline code, or HTML comments, treat that
+  as a validator bug: mask the non-prose span or refine the rule instead of
+  scattering repeated suppressions through course notes.
 - Conceptual law cards may justify a local suppression when a descriptive prompt
   is pedagogically stronger than a formula-heavy calculation prompt.
 

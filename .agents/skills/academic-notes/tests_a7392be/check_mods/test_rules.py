@@ -727,6 +727,21 @@ def test_numeric_text_not_latex():
     txt3 = "Lecture 5 covers resistors and capacitors.\n"
     assert not numeric_text_not_latex(make_ctx(txt3))
 
+    # room codes like 4225C are identifiers, not quantities
+    txt_room = "- venue: Room 4225C\n"
+    assert not numeric_text_not_latex(make_ctx(txt_room))
+
+    # percent-encoded markdown link targets should be ignored
+    txt_link = (
+        "- sigma-algebra / [§ consequences: empty set, intersections, finite operations]"
+        "(sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations)\n"
+    )
+    assert not numeric_text_not_latex(make_ctx(txt_link))
+
+    # spaced C units should still be treated as plain-text quantities
+    txt_c = "The total charge is 25 C in this example.\n"
+    assert numeric_text_not_latex(make_ctx(txt_c))
+
     # suppression directives should work (reuse existing suppression tests)
     txt4 = (
         "<!-- check: ignore-line[numeric_text_not_latex]: example -->\n"

@@ -63,6 +63,9 @@ extension work.
 - Keep weekly sessions in chronological order and use exact headings such as
   `## week N lecture`, `## week N lecture 2`, `## week N tutorial`, and
   `## week N lab`.
+- If the official schedule exposes a recurring lecture, tutorial, or lab
+  stream, keep that stream's week headings continuous even across no-class
+  weeks; use `status:` metadata instead of dropping the week entirely.
 - For no-class sessions, omit `topic:` and use `status: public holiday: <name>`
   or `status: no class`.
 - Keep `index.md` pages lean; route readers to topic notes instead of duplicating
@@ -81,6 +84,15 @@ extension work.
 - Treat lab-prep decks and lab manuals as normal lecture ingestion: centralize
   theory and worked examples in topic notes, then route lab pages there with
   `§` links.
+- For Canvas-derived assignment-style leaf indexes (for example lab rounds,
+  homework folders, quiz handouts, or similar deliverables), keep the visible
+  Canvas wording verbatim in `## description`, preserve color with `<span
+  style>`, use Markdown for bold/italics/links/paragraphing/line breaks, put
+  the Canvas title header first as `- title: <verbatim title>`, then order the
+  sections as `## children`, `## description`, `## attachments`,
+  `## submission`, and `## solution` with no extra `---` after the parent line.
+  Omit generic `## logistics` / `## overview`, include a local attachments
+  list, and leave `submission` / `solution` empty until real content exists.
 - Questions pages are not topic notes. Official material should usually be in
   blockquotes; self-authored review prompts should usually be ordinary headings
   and lists.
@@ -101,6 +113,9 @@ extension work.
 - File-level suppressions are mainly for genuine special cases such as
   assignment-style index pages.
 - Do not add duplicate directives of the same type on one line.
+- If a prose-oriented validator rule keeps flagging room codes, percent-encoded
+  link destinations, inline code, or HTML comments, prefer fixing the rule
+  instead of copy-pasting the same suppression through multiple notes.
 - After editing academic notes, validate the **smallest relevant scope only**.
 
 ## Tools and locations
