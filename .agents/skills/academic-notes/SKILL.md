@@ -487,6 +487,42 @@ Use these rules when the source is a Canvas assignment HTML page:
 - Leave `## submission` and `## solution` empty until actual repository
   content is provided.
 
+When an assignment-style leaf folder also has companion pages such as
+`lab.md`, `prelab.md`, `submission.md`, or similar pages:
+
+- Let `index.md` own the Canvas wording, logistics, availability, file types,
+  and attachments list.
+- Use the companion pages for new knowledge points, worked cases,
+  implementation pitfalls, or interpretation habits that are specific to the
+  assignment family.
+- Keep companion-page prose and flashcards about pure knowledge only. Avoid
+  workflow checklists, student expectations, assessment framing, or other
+  logistics-like prose in `lab.md`, `prelab.md`, and similar pages.
+- When the source material includes concrete programming work such as MATLAB,
+  companion pages should also preserve the local implementation knowledge:
+  short code idioms, function choices, indexing patterns, plotting habits, and
+  data-representation details that make the assignment's subject matter
+  operational. Prefer a few concise snippets over full script dumps.
+- For code-centered flashcards in companion pages, keep enough local context in
+  the prompt to make the card standalone: include the relevant MATLAB fragment,
+  variable roles, or input-output relationship instead of asking only a short
+  generic question about a function name.
+- When a code-centered flashcard still feels too abstract, also put the local
+  given on the left-hand side: the specific waveform, filter, index formula, or
+  before/after workflow that the student is supposed to remember.
+- When the user asks for “more context,” prefer adding that context to the
+  **left-hand side prompt itself** rather than only expanding the answer. The
+  question should carry the local givens before the separator.
+- Avoid meta-summary sections whose main job is to describe what the note
+  covers. Companion pages should read like normal subject-matter notes: start
+  with the content itself, and use ordinary reference sentences when routing to
+  durable topic notes.
+- If a concept already has a durable topic note, link to that note instead of
+  re-teaching the theory in the companion page.
+- Do not add flashcards for theory that is already covered in the topic note;
+  keep companion-page flashcards focused on page-specific knowledge or worked
+  cases.
+
 ## Flashcards and markup
 
 The repository supports only three flashcard patterns:

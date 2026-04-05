@@ -93,6 +93,20 @@ extension work.
   `## submission`, and `## solution` with no extra `---` after the parent line.
   Omit generic `## logistics` / `## overview`, include a local attachments
   list, and leave `submission` / `solution` empty until real content exists.
+- When such a folder also has companion pages like `lab.md` or `prelab.md`, let
+  `index.md` own the logistics and attachments. Use the companion pages for new
+  knowledge points, worked cases, implementation pitfalls, and brief routing to
+  durable topic notes instead of repeating theory that already has a canonical
+  home. Keep those companion pages about pure knowledge only: avoid workflow
+  checklists, student expectations, assessment framing, and other logistics-like
+  prose there. When the source includes concrete programming work such as
+  MATLAB, keep a few short code idioms and implementation details in the
+  companion page as part of the knowledge. Make code-centered flashcards
+  self-contained by naming the relevant snippet or variable roles instead of
+  asking only generic function questions; when useful, include the local given
+  model or workflow too, especially on the left-hand side of the card. Also avoid meta-summary sections whose
+  main content is “this page covers X, Y, and Z”; start with ordinary
+  subject-matter prose instead.
 - Questions pages are not topic notes. Official material should usually be in
   blockquotes; self-authored review prompts should usually be ordinary headings
   and lists.
