@@ -20,6 +20,7 @@ its decorator.  The functions are pure: they accept a
 """
 
 import re
+import unicodedata
 from string import punctuation
 from urllib.parse import unquote
 
@@ -1078,10 +1079,15 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when non-index headers start with an uppercase letter.
 
     This stylistic rule scans all headers of level 2 or deeper and emits a
-    warning for headers whose first non-space character is uppercase or
-    non-alphanumeric.  Proper nouns (person names, brands, etc.) are
-    legitimate exceptions; callers can suppress the warning using a
-    check directive (for example
+    warning for headers whose first non-space character is an uppercase
+    **Latin** letter (A–Z) or non-alphanumeric ASCII character.
+
+    Non-Latin scripts (CJK, Cyrillic, Arabic, Greek, etc.) do not have
+    uppercase/lowercase distinction and are exempted from this rule.
+
+    Proper nouns in Latin scripts (person names, brands, acronyms) are
+    legitimate exceptions; callers can suppress the warning using a check
+    directive (for example
     ``<!-- check: ignore-line[header_style]: proper name -->``) if the
     capitalization is intentional.
     """
@@ -1090,26 +1096,33 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
         return errors
     for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
         hdr_text = h.group(2)
-        if hdr_text and not hdr_text[0].islower() and not hdr_text[0].isdigit():
-            start = h.start()
-            hdr_text = h.group(0)
-            line, col, col_end = locate_range(ctx.text, start, len(hdr_text))
-            # this rule is stylistic; most headers should be lowercase
-            # but proper nouns (people, brands, etc.) may legitimately
-            # start with a capital letter.  emit as a warning so callers
-            # can suppress it if the capitalization is intentional.
-            errors.append(
-                ValidationMessage(
-                    rule_id="header_style",
-                    msg=(
-                        "header normally start lowercase; suppressions are allowed only **for proper nouns**.  Do **not** ignore this rule for ordinary section titles."
-                    ),
-                    severity=Severity.WARNING,
-                    line=line,
-                    col=col,
-                    col_end=col_end,
-                )
-            )
+        if hdr_text:
+            first_char = hdr_text[0]
+            # Skip rule for non-cased letters (CJK, Cyrillic, Arabic, etc.)
+            # Unicode category 'Lu' = uppercase letter, 'Ll' = lowercase letter
+            # For non-cased scripts (e.g. CJK 'Lo' = other letter), skip the check
+            char_category = unicodedata.category(first_char)
+
+            # Only apply the rule to cased letters (uppercase/lowercase distinction)
+            # Skip if it's a digit, or a non-cased letter (CJK, etc.)
+            if char_category in ("Lu", "Ll"):
+                # For cased letters, warn if uppercase
+                if first_char.isupper():
+                    start = h.start()
+                    hdr_text_full = h.group(0)
+                    line, col, col_end = locate_range(
+                        ctx.text, start, len(hdr_text_full)
+                    )
+                    errors.append(
+                        ValidationMessage(
+                            rule_id="header_style",
+                            msg="header normally start lowercase; suppressions are allowed only **for proper nouns** (person names, brands, acronyms).  Do **not** ignore this rule for ordinary section titles.",
+                            severity=Severity.WARNING,
+                            line=line,
+                            col=col,
+                            col_end=col_end,
+                        )
+                    )
     return errors
 
 

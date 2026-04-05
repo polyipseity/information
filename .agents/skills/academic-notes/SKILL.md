@@ -57,8 +57,7 @@ Flashcards are generated automatically by the build system; do **not** run
 8. **Keep math validator-friendly.** Use `$...$` or `$$...$$`, keep math on one
    source line, and avoid putting LaTeX inside emphasis. Accounting notes should
    avoid LaTeX entirely.
-9. **Keep headers and emphasis consistent.** Topic-note headers should normally
-   be lowercase except for proper nouns; prefer `_italic_` and `__bold__`.
+9. **Keep headers and emphasis consistent.** Topic-note headers in Latin scripts (English, etc.) should normally be lowercase except for proper nouns. Non-Latin scripts (CJK, Cyrillic, Arabic, etc.) are exempt since they lack uppercase/lowercase distinction. Prefer `_italic_` and `__bold__`.
 10. **Validate narrowly and immediately.** Run the fixed validator path on the
     smallest relevant course or file after edits; never aim it at the whole
     repo or the entire skill folder.

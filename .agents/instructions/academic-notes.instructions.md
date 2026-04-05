@@ -26,6 +26,7 @@ extension work.
 
 ## Quick rules for agents
 
+- **Header style validator is language-aware**: The validator now properly handles non-Latin scripts (CJK, Cyrillic, Arabic, Greek, etc.) which lack uppercase/lowercase distinction. Topic notes in any language no longer need header_style suppressions. Only Latin-script headers require the lowercase-except-proper-nouns convention.
 - Prefer one durable home per concept: **duplicate → link**, **enhancement →
   deepen existing note**, **new → create new note only if no good home exists**.
 - When you change a topic note, update its **prose**, **flashcards**, and every
