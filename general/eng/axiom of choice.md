@@ -216,7 +216,7 @@ Examples of {@{category-theoretic statements}@} which {@{require choice}@} inclu
 
 - \(annotation: requires AC\) Every small [category](category%20(mathematics).md) ::@:: has a [skeleton](skeleton%20(category%20theory).md). <!--SR:!2027-01-17,398,364!2026-12-01,361,364-->
 - \(annotation: requires AC\) If two small categories are weakly equivalent, ::@:: then they are [equivalent](equivalence%20of%20categories.md). <!--SR:!2026-09-30,308,347!2026-12-14,370,364-->
-- \(annotation: requires AC\) Every continuous functor on a small-complete category which satisfies the appropriate solution set condition ::@:: has a [left-adjoint](adjoint%20functors.md) \(the Freyd adjoint functor theorem\). <!--SR:!2027-01-10,392,364!2026-04-06,150,307-->
+- \(annotation: requires AC\) Every continuous functor on a small-complete category which satisfies the appropriate solution set condition ::@:: has a [left-adjoint](adjoint%20functors.md) \(the Freyd adjoint functor theorem\). <!--SR:!2027-01-10,392,364!2027-07-10,460,307-->
 
 ## weaker forms
 

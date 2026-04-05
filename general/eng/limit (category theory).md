@@ -202,7 +202,7 @@ The dual statements {@{for colimits are equally valid}@}. <!--SR:!2026-04-20,361
 Let {@{_F_ : _J_ → _C_ be a diagram}@}. {@{A functor _G_ : _C_ → _D_}@} is said to <!--SR:!2026-05-23,388,358!2027-10-31,764,330-->
 
 - __create limits__ for _F_ ::@:: if whenever \(_L_, _φ_\) is a limit of _GF_ there exists a unique cone \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) to _F_ such that _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\), and furthermore, this cone is a limit of _F_. \(annotation: i.e. there is _exactly_ one preimage cone and it is a limit\) <!--SR:!2026-11-02,460,318!2026-04-22,53,233-->
-- __reflect limits__ for _F_ ::@:: if each cone to _F_ whose image under _G_ is a limit of _GF_ is already a limit of _F_. \(annotation: preimage cones are all limits\) <!--SR:!2026-08-02,338,393!2026-04-06,237,373-->
+- __reflect limits__ for _F_ ::@:: if each cone to _F_ whose image under _G_ is a limit of _GF_ is already a limit of _F_. \(annotation: preimage cones are all limits\) <!--SR:!2026-08-02,338,393!2026-08-05,121,353-->
 
 Dually, one can {@{define creation and reflection of colimits}@}. <!--SR:!2028-05-17,944,353-->
 

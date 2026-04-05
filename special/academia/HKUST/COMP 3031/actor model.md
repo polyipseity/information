@@ -22,7 +22,7 @@ tags:
 
 ## motivation
 
-In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-12-23,267,330!2026-12-25,268,330!2026-12-07,256,330!2026-11-09,240,330!2027-01-11,285,330!2027-01-18,290,330!2026-12-23,269,330!2026-12-31,273,330!2026-04-06,67,310!2026-12-17,264,330!2026-11-29,250,330!2027-01-11,285,330-->
+In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-12-23,267,330!2026-12-25,268,330!2026-12-07,256,330!2026-11-09,240,330!2027-01-11,285,330!2027-01-18,290,330!2026-12-23,269,330!2026-12-31,273,330!2027-01-23,292,330!2026-12-17,264,330!2026-11-29,250,330!2027-01-11,285,330-->
 
 Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!2026-11-01,233,330!2026-12-13,261,330!2027-01-17,290,330!2026-11-04,236,330!2027-01-10,284,330!2026-11-24,252,330!2026-10-29,230,330-->
 
@@ -261,7 +261,7 @@ Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}
 
 ### message processing
 
-An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@} it is {@{dequeued and handled by the current `Receive` function}@}. {@{Changing behaviour with `context.become`}@} takes effect {@{before the next message is taken}@}, so each message is {@{an atomic unit of execution}@}. <!--SR:!2026-11-29,250,330!2026-12-19,266,330!2026-12-02,252,330!2027-01-17,290,330!2027-01-06,281,330!2026-04-06,67,310-->
+An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@} it is {@{dequeued and handled by the current `Receive` function}@}. {@{Changing behaviour with `context.become`}@} takes effect {@{before the next message is taken}@}, so each message is {@{an atomic unit of execution}@}. <!--SR:!2026-11-29,250,330!2026-12-19,266,330!2026-12-02,252,330!2027-01-17,290,330!2027-01-06,281,330!2027-01-24,293,330-->
 
 > [!example] __message order__
 >
@@ -306,7 +306,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 
 ### bank account example
 
-In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two operations: `Deposit` and `Withdraw`}@}. The messages are declared {@{in the companion object}@} so they can be {@{imported elsewhere without leaking implementation details}@}. <!--SR:!2026-11-25,253,330!2027-01-15,288,330!2026-04-06,67,310!2026-11-27,255,330!2026-12-16,261,330-->
+In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two operations: `Deposit` and `Withdraw`}@}. The messages are declared {@{in the companion object}@} so they can be {@{imported elsewhere without leaking implementation details}@}. <!--SR:!2026-11-25,253,330!2027-01-15,288,330!2027-01-23,292,330!2026-11-27,255,330!2026-12-16,261,330-->
 
 > [!example] __`BankAccount` messages__
 >
@@ -445,9 +445,9 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >   }, exec)
 >   p.future
 > ```
-<!--SR:!2026-12-10,259,330!2026-12-31,276,330!2026-04-06,67,310-->
+<!--SR:!2026-12-10,259,330!2026-12-31,276,330!2027-01-22,291,330-->
 
-{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2026-04-06,67,310!2027-01-04,279,330!2027-01-18,290,330!2026-11-26,254,330!2026-12-02,252,330!2027-01-21,293,330!2026-11-05,237,330-->
+{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!2026-11-26,254,330!2026-12-02,252,330!2027-01-21,293,330!2026-11-05,237,330-->
 
 > [!example] __`Getter` actor__
 >
@@ -508,7 +508,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     // other cases …
 > ```
 >
-> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!2026-11-08,239,330!2026-04-06,67,310!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!2026-11-04,236,330!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
+> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!2026-11-08,239,330!2027-01-22,291,330!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!2026-11-04,236,330!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
 
 {@{A `Cache` actor}@} may be {@{further split from the `Controller` actor}@}. <!--SR:!2026-11-10,241,330!2026-11-17,245,330-->
 
@@ -562,7 +562,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 
 Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!2026-11-20,249,330!2027-01-02,277,330!2026-12-04,254,330!2026-12-10,259,330-->
 
-{@{An actor’s code}@} runs on {@{a dispatcher—a thread pool that can be shared among many actors}@}. The same dispatcher often executes {@{`Future` computations as well}@}, allowing actors to {@{off‑load work without spawning extra threads}@}. {@{Choosing an appropriate dispatcher (e.g., a bounded thread pool)}@} prevents actors from exhausting {@{system resources}@}. <!--SR:!2026-12-07,256,330!2026-12-05,255,330!2026-04-06,67,310!2026-11-15,243,330!2026-11-12,242,330!2026-12-21,265,330-->
+{@{An actor’s code}@} runs on {@{a dispatcher—a thread pool that can be shared among many actors}@}. The same dispatcher often executes {@{`Future` computations as well}@}, allowing actors to {@{off‑load work without spawning extra threads}@}. {@{Choosing an appropriate dispatcher (e.g., a bounded thread pool)}@} prevents actors from exhausting {@{system resources}@}. <!--SR:!2026-12-07,256,330!2026-12-05,255,330!2027-01-24,293,330!2026-11-15,243,330!2026-11-12,242,330!2026-12-21,265,330-->
 
 Actors should expose only {@{immutable data to callers}@}. Inside an actor, {@{mutable fields may be used}@}, but they are never {@{shared with other code}@}. When an actor replies, it sends {@{a copy of its internal data rather than the original object}@}. Using {@{immutable snapshots}@} guarantees that {@{concurrent reads do not corrupt state}@}. <!--SR:!2027-01-16,289,330!2027-01-06,281,330!2026-11-22,251,330!2026-12-15,263,330!2026-12-15,260,330!2026-11-28,249,330-->
 

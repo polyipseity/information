@@ -21,7 +21,7 @@ The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR di
 
 ## forms of diagram
 
-There are {@{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}@}. All forms share the same general layout: {@{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}@}. <!--SR:!2028-11-22,1229,350!2026-04-06,434,310-->
+There are {@{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}@}. All forms share the same general layout: {@{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}@}. <!--SR:!2028-11-22,1229,350!2026-11-04,212,290-->
 
 The original diagram displayed {@{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}@}. <!--SR:!2027-01-23,656,290-->
 

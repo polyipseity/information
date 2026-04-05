@@ -25,7 +25,7 @@ This seems more like a pedagogical tool...
 
 ## registers
 
-Registers are {@{_fast_ temporary storage _inside_ the processor \(not on the main memory \(RAM\)\) used to hold _data_}@}. There is {@{a limited number}@} of registers. <!--SR:!2026-04-06,286,330!2026-04-13,293,330-->
+Registers are {@{_fast_ temporary storage _inside_ the processor \(not on the main memory \(RAM\)\) used to hold _data_}@}. There is {@{a limited number}@} of registers. <!--SR:!2029-11-03,1307,350!2026-04-13,293,330-->
 
 Variables differ from registers in that {@{the former is a logical concept while the latter is a physical thing}@}. Thus, there can be {@{an unlimited number of variables}@}. <!--SR:!2029-04-09,1155,350!2029-04-12,1158,350-->
 
@@ -57,7 +57,7 @@ Note that it does not make sense to {@{talk about the endianness of a register, 
 
 ## instructions
 
-Each instruction is written as {@{`ins op_1, op_2, ..., op_n`, where `ins` is the instruction and `op_i` are its operands}@}. Each line {@{contain at most one instruction}@}. Comments {@{start with `#` and end with a newline}@}. <!--SR:!2026-04-09,290,330!2026-04-06,286,330!2028-03-04,818,330-->
+Each instruction is written as {@{`ins op_1, op_2, ..., op_n`, where `ins` is the instruction and `op_i` are its operands}@}. Each line {@{contain at most one instruction}@}. Comments {@{start with `#` and end with a newline}@}. <!--SR:!2026-04-09,290,330!2029-11-04,1308,350!2028-03-04,818,330-->
 
 Below, the accompanying code to the right is {@{a piece of pseudo C code showing its semantics}@}. For placeholders: <!--SR:!2026-05-27,337,355-->
 
@@ -85,7 +85,7 @@ The program counter {@{cannot be read or written directly}@}. However, it can be
 
 There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}. <!--SR:!2026-06-19,360,355!2026-05-29,339,355!2026-05-10,320,355!2026-06-07,348,350-->
 
-In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2026-04-10,290,330!2026-04-06,287,330!2029-08-13,1256,350!2029-09-11,1278,350!2029-07-23,1238,350!2029-04-04,1151,350!2029-06-07,1200,350!2029-04-10,1156,350-->
+In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2026-04-10,290,330!2029-11-09,1313,350!2029-08-13,1256,350!2029-09-11,1278,350!2029-07-23,1238,350!2029-04-04,1151,350!2029-06-07,1200,350!2029-04-10,1156,350-->
 
 Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}, it is {@{_not_ a constant operand but a register operand}@}. So {@{it can only be used in locations where a register operand is expected}@}. <!--SR:!2026-04-09,289,330!2029-08-21,1263,350!2029-08-14,1257,350!2029-04-17,1162,350-->
 
@@ -282,7 +282,7 @@ The 32 registers are used as follows:
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2029-09-13,1280,350!2026-04-13,293,330-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2029-03-09,1129,350!2026-04-14,294,330-->
 > - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\) <!--SR:!2029-08-09,1253,350!2027-03-17,534,310-->
-> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2026-04-06,286,330!2027-05-07,543,310-->
+> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2029-11-01,1305,350!2027-05-07,543,310-->
 
 The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}. <!--SR:!2026-12-12,494,401!2026-11-23,475,401!2027-02-02,533,401!2026-11-23,473,401!2027-01-11,520,401!2026-11-16,471,401!2026-11-04,458,401-->
 
@@ -298,7 +298,7 @@ Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "
 
 In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2029-06-24,1214,350!2026-04-07,288,330!2026-04-08,289,330!2029-10-12,1304,350!2029-06-18,1209,350!2029-01-30,1098,350!2029-03-06,1126,350!2029-03-23,1141,350-->
 
-In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}. <!--SR:!2029-06-21,1211,350!2026-04-06,286,330!2026-04-09,290,330-->
+In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}. <!--SR:!2029-06-21,1211,350!2029-11-02,1306,350!2026-04-09,290,330-->
 
 {@{The above "instructions" starting with a period `.`}@} are {@{more properly called _assembler directives_}@}. They include directives that {@{specify alignment, data, strings, symbol visibility, etc.}@} They are {@{not actual MIPS instructions}@} since {@{they are processed by the assembler during assembly rather than run during program execution}@}. <!--SR:!2029-04-23,1167,350!2026-04-11,292,330!2029-06-23,1213,350!2026-04-11,291,330!2029-04-03,1150,350-->
 

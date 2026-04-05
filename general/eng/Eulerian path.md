@@ -124,10 +124,10 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 
 In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-09-29,1385,356!2028-07-30,1042,350!2030-05-06,1572,370!2031-04-06,1852,382!2028-05-23,1002,362!2031-07-09,1929,382!2031-06-05,1902,382!2026-07-17,443,322!2029-10-01,1388,356!2029-05-13,1266,362-->
 
-- _G_ is ::@:: connected. <!--SR:!2031-04-17,1862,382!2026-04-06,396,362-->
+- _G_ is ::@:: connected. <!--SR:!2031-04-17,1862,382!2030-03-05,1429,362-->
 - _G_ has ::@:: [countable sets](countable%20set.md) of vertices and edges. <!--SR:!2029-10-12,1396,356!2031-01-28,1798,382-->
 - _G_ has no ::@:: vertices of \(finite\) odd degree. <!--SR:!2031-07-25,1942,382!2031-08-04,1950,382-->
-- Removing ::@:: (the edges of) any finite subgraph _S_ from _G_ leaves at most two infinite connected components in the remaining graph, and if _S_ has even degree at each of its vertices then removing _S_ leaves exactly one infinite connected component. <!--SR:!2026-04-06,338,302!2027-07-27,742,342-->
+- Removing ::@:: (the edges of) any finite subgraph _S_ from _G_ leaves at most two infinite connected components in the remaining graph, and if _S_ has even degree at each of its vertices then removing _S_ leaves exactly one infinite connected component. <!--SR:!2029-01-18,1018,302!2027-07-27,742,342-->
 
 ## undirected Eulerian graphs
 
@@ -153,7 +153,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 > {@{![an even but non-symmetric mixed graph that is Eulerian](../../archives/Wikimedia%20Commons/Eulerian%20mixed%20graph%20that%20is%20even%20but%20not%20symmetric%20proving%20that%20evenness%20and%20symmetricness%20is%20not%20a%20necessary%20and%20sufficient%20condition%20for%20a%20mixed%20graph%20to%20be%20Eulerian.svg)}@}
 >
-> {@{This mixed graph is Eulerian}@}. The graph is {@{even but not symmetric}@} which proves that {@{evenness and symmetricness are not necessary and sufficient conditions for a mixed graph to be Eulerian}@}. <!--SR:!2026-04-06,396,362!2031-03-27,1846,382!2027-12-25,856,342!2030-01-01,1383,362-->
+> {@{This mixed graph is Eulerian}@}. The graph is {@{even but not symmetric}@} which proves that {@{evenness and symmetricness are not necessary and sufficient conditions for a mixed graph to be Eulerian}@}. <!--SR:!2030-03-10,1434,362!2031-03-27,1846,382!2027-12-25,856,342!2030-01-01,1383,362-->
 
 {@{All [mixed graphs](mixed%20graph.md) that are both even and symmetric}@} are {@{guaranteed to be Eulerian}@}. However, {@{this is not a necessary condition}@}, as {@{it is possible to construct a non-symmetric, even graph that is Eulerian}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-02-01,1200,362!2029-03-24,1241,362!2030-07-08,1621,370!2031-07-03,1925,382-->
 

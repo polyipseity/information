@@ -56,9 +56,9 @@ In {@{digital communications}@}, multiplexers allow {@{several connections over 
 
 At {@{the receiving end of the [data link](data%20link.md)}@} {@{a complementary _demultiplexer_ is usually required to break the single data stream back down into the original streams}@}. In some cases, {@{the far end system}@} may have {@{functionality greater than a simple demultiplexer}@}; and while {@{the demultiplexing still occurs technically, it may never be implemented discretely}@}. This would be the case when, for instance, {@{a multiplexer serves a number of [IP](Internet%20Protocol.md) network users}@}; and then {@{feeds directly into a [router](router%20(computing).md)}@}, which {@{immediately reads the content of the entire link into its [routing](routing.md) processor}@}; and then {@{does the demultiplexing in memory from where it will be converted directly into IP sections}@}. <!--SR:!2030-01-23,1409,364!2026-05-01,342,344!2030-04-15,1478,364!2030-01-12,1400,364!2026-04-27,338,344!2030-01-20,1406,364!2030-03-22,1457,364!2030-04-26,1486,364!2029-02-17,1133,350-->
 
-Often, {@{a multiplexer and demultiplexer}@} are {@{combined into a single piece of equipment}@}, which is {@{simply referred to as a _multiplexer_}@}. Both circuit elements are {@{needed at both ends of a transmission link}@} because {@{most communications systems transmit in [both directions](duplex%20(telecommunications).md)}@}. <!--SR:!2029-12-23,1384,364!2030-01-01,1392,364!2030-04-16,1479,364!2028-10-28,1048,350!2026-04-06,319,344-->
+Often, {@{a multiplexer and demultiplexer}@} are {@{combined into a single piece of equipment}@}, which is {@{simply referred to as a _multiplexer_}@}. Both circuit elements are {@{needed at both ends of a transmission link}@} because {@{most communications systems transmit in [both directions](duplex%20(telecommunications).md)}@}. <!--SR:!2029-12-23,1384,364!2030-01-01,1392,364!2030-04-16,1479,364!2028-10-28,1048,350!2030-05-31,1516,364-->
 
-In {@{[analog circuit](analog%20circuit.md) design}@}, a multiplexer is {@{a special type of analog switch that connects one signal selected from several inputs to a single output}@}. <!--SR:!2026-04-14,327,344!2026-04-06,319,344-->
+In {@{[analog circuit](analog%20circuit.md) design}@}, a multiplexer is {@{a special type of analog switch that connects one signal selected from several inputs to a single output}@}. <!--SR:!2026-04-14,327,344!2030-05-30,1515,364-->
 
 ## digital multiplexers
 
@@ -68,7 +68,7 @@ For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} an
 
 > {@{![A 2-to-1 mux](../../archives/Wikimedia%20Commons/Multiplexer%202-to-1.svg)}@}
 >
-> {@{A 2-to-1 mux}@} <!--SR:!2030-02-15,1428,364!2026-04-06,319,344-->
+> {@{A 2-to-1 mux}@} <!--SR:!2030-02-15,1428,364!2030-06-01,1517,364-->
 
 {@{A 2-to-1 multiplexer}@} has {@{a [Boolean equation](Boolean%20equation.md)}@} where {@{$A$ and $B$ are the two inputs, $S_{0}$ is the selector input, and $Z$ is the output}@}: <p> {@{$Z=(A\wedge \neg S_{0})\vee (B\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{0} } })+(B\cdot S_{0})$}@} <p> Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2030-05-18,1504,364!2030-05-04,1493,364!2029-02-01,1117,350!2030-05-08,1496,364!2029-03-06,1146,350-->
 

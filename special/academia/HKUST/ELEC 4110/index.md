@@ -433,7 +433,7 @@ The content is in teaching order.
 - stochastic process
   - stochastic process / mean ::@:: Its mean function is $$\mu_X(t)=\mathbb{E}\{X(t)\} \,.$$ <!--SR:!2028-02-06,678,421!2026-04-14,136,401-->
   - stochastic process / autocorrelation ::@:: Its autocorrelation is $$R_X(t_1,t_2)=\mathbb{E}\{X(t_1)X^*(t_2)\} \,.$$  Some definitions conjugate the first variable instead. (annotation: __this course__: Conjugate the second variable.) <!--SR:!2028-01-25,667,421!2028-02-01,673,421-->
-  - stochastic process / cross-correlation ::@:: The cross-correlation of two processes $X,Y$ is $$R_{XY}(t_1,t_2)=\mathbb{E}\{X(t_1)Y^*(t_2)\} \,.$$  Some definitions conjugate the first variable instead. (annotation: __this course__: Conjugate the second variable.) <!--SR:!2026-04-06,129,401!2028-01-30,672,421-->
+  - stochastic process / cross-correlation ::@:: The cross-correlation of two processes $X,Y$ is $$R_{XY}(t_1,t_2)=\mathbb{E}\{X(t_1)Y^*(t_2)\} \,.$$  Some definitions conjugate the first variable instead. (annotation: __this course__: Conjugate the second variable.) <!--SR:!2028-03-12,706,421!2028-01-30,672,421-->
 - stationary process
   - stationary process / strict-sense stationary
     - stationary process / strict-sense stationary / implications ::@:: For a \(strictly\) stationary process its statistical properties \(e.g. moments\) are time-invariant. <!--SR:!2026-04-14,136,401!2026-04-15,137,401-->

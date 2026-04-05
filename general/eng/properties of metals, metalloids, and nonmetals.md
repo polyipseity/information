@@ -34,16 +34,16 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 >   - appearance / nonmetal :@: - mostly dull <!--SR:!2027-01-12,283,330-->
 > - deformability (as a solid)
 >   - deformability (as a solid) / metal :@: - mostly [ductile](ductility.md) and [malleable](malleability.md) <br/> - some brittle <!--SR:!2027-01-11,282,330-->
->   - deformability (as a solid) / metalloid :@: - brittle <!--SR:!2026-04-06,67,310-->
+>   - deformability (as a solid) / metalloid :@: - brittle <!--SR:!2027-01-25,294,330-->
 >   - deformability (as a solid) / nonmetal :@: - brittle <br/> - some non-brittle <!--SR:!2027-01-16,286,330-->
 > - [density](density.md)
 >   - [density](density.md) / metal :@: - mostly high <br/> - exceptional example(s): [alkali metals](alkali%20metal.md) <!--SR:!2027-01-05,277,330-->
->   - [density](density.md) / metalloid :@: - between metals and nonmetals <!--SR:!2026-04-06,67,310-->
+>   - [density](density.md) / metalloid :@: - between metals and nonmetals <!--SR:!2027-01-25,294,330-->
 >   - [density](density.md) / nonmetal :@: - mostly low <!--SR:!2027-01-13,284,330-->
 > - [electrical conductivity](electrical%20conductivity.md)
->   - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high <!--SR:!2026-04-06,67,310-->
+>   - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high <!--SR:!2026-10-27,204,310-->
 >   - [electrical conductivity](electrical%20conductivity.md) / metalloid :@: - intermediate to good <!--SR:!2027-01-13,284,330-->
->   - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: - poor to good <!--SR:!2026-04-06,67,310-->
+>   - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: - poor to good <!--SR:!2027-01-25,294,330-->
 > - form
 >   - form / metal :@: - almost all [solid](solid.md) <br/> - [liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md)) <!--SR:!2027-01-14,285,330-->
 >   - form / metalloid :@: - all [solid](solid.md) <!--SR:!2027-01-20,290,330-->
@@ -54,8 +54,8 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 >   - [melting point](melting%20point.md) / nonmetal :@: - mostly low <!--SR:!2027-01-08,280,330-->
 > - [thermal conductivity](thermal%20conductivity.md)
 >   - [thermal conductivity](thermal%20conductivity.md) / metal :@: - medium to high <!--SR:!2027-01-09,281,330-->
->   - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: - mostly intermediate <br/> - high: [Si](silicon.md) <!--SR:!2026-04-06,67,310-->
->   - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: - almost negligible to very high <!--SR:!2026-04-06,67,310-->
+>   - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: - mostly intermediate <br/> - high: [Si](silicon.md) <!--SR:!2027-01-25,294,330-->
+>   - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: - almost negligible to very high <!--SR:!2027-01-25,294,330-->
 
 ## references
 

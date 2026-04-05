@@ -18,7 +18,7 @@ tags:
 
 - see: [general/Lisp (programming language)](../../../../general/Lisp%20(programming%20language).md)
 
-{@{__Scala Lisp__}@} is {@{a teaching tool that embeds a tiny Scheme‑like language inside Scala}@}. It demonstrates how {@{functional programming concepts—pure functions, immutable data and first‑class code}@}—can be implemented in {@{an interpreted form while still running on the JVM}@}. <!--SR:!2026-04-06,63,320!2026-04-13,69,320!2026-04-14,70,320!2026-04-17,74,320-->
+{@{__Scala Lisp__}@} is {@{a teaching tool that embeds a tiny Scheme‑like language inside Scala}@}. It demonstrates how {@{functional programming concepts—pure functions, immutable data and first‑class code}@}—can be implemented in {@{an interpreted form while still running on the JVM}@}. <!--SR:!2027-01-14,283,340!2026-04-13,69,320!2026-04-14,70,320!2026-04-17,74,320-->
 
 ## Lisp
 
@@ -30,7 +30,7 @@ Over {@{five decades}@} the language has {@{branched into several dialects}@}: {
 
 ### Lisp programs
 
-{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2026-04-16,72,320!2026-04-17,73,320!2026-04-15,71,320!2026-04-14,70,320!2026-12-25,267,340!2026-04-13,70,320!2026-04-13,70,320!2026-12-02,251,330!2026-12-19,260,340!2027-01-08,278,340!2026-04-06,63,320!2026-04-17,73,320!2026-04-12,69,320!2026-04-17,73,320!2026-04-16,72,320!2026-12-22,263,340!2026-12-21,262,340!2026-04-13,70,320!2026-12-22,263,340!2026-11-19,240,330!2026-12-17,258,340-->
+{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2026-04-16,72,320!2026-04-17,73,320!2026-04-15,71,320!2026-04-14,70,320!2026-12-25,267,340!2026-04-13,70,320!2026-04-13,70,320!2026-12-02,251,330!2026-12-19,260,340!2027-01-08,278,340!2027-01-15,284,340!2026-04-17,73,320!2026-04-12,69,320!2026-04-17,73,320!2026-04-16,72,320!2026-12-22,263,340!2026-12-21,262,340!2026-04-13,70,320!2026-12-22,263,340!2026-11-19,240,330!2026-12-17,258,340-->
 
 Because Lisp was originally {@{an intermediate language for compilers}@}, it contains only {@{a handful of rules}@}. This minimalism makes it easy to {@{write interpreters and reason about evaluation}@}, which is we can easily {@{implement a small Scheme subset}@} in Scala. The simplicity stems from the fact that {@{programs themselves are lists}@}; code can be {@{generated, transformed and executed}@} by treating them as {@{ordinary data structures}@}. <!--SR:!2026-04-13,70,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-11,68,320!2026-04-14,70,320!2026-04-17,74,320!2026-04-12,68,320-->
 
@@ -149,7 +149,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 
 ## parser
 
-{@{Parsing}@} uses {@{simple _recursive-descent parsing_ functions}@} that consume {@{tokens from the tokenizer}@}. {@{`parseExpr`}@} handles {@{atomic values}@}; {@{`parseList`}@} collects {@{elements until it meets the closing parenthesis}@}. <!--SR:!2026-04-13,70,320!2026-04-17,74,320!2026-04-18,74,320!2026-04-13,69,320!2026-12-29,269,340!2027-01-10,280,340!2026-04-06,63,320-->
+{@{Parsing}@} uses {@{simple _recursive-descent parsing_ functions}@} that consume {@{tokens from the tokenizer}@}. {@{`parseExpr`}@} handles {@{atomic values}@}; {@{`parseList`}@} collects {@{elements until it meets the closing parenthesis}@}. <!--SR:!2026-04-13,70,320!2026-04-17,74,320!2026-04-18,74,320!2026-04-13,69,320!2026-12-29,269,340!2027-01-10,280,340!2027-01-12,281,340-->
 
 > [!example] __String to Lisp tree__
 >
@@ -254,7 +254,7 @@ With {@{these rules in place}@}, {@{every Scheme expression}@} is reduced to {@{
 
 ## characteristics
 
-{@{Lisp’s most striking trait}@} is {@{its _minimal syntax_}@}. The language uses {@{only parentheses and symbols}@}, so {@{every program is a nested list}@}. This eliminates {@{a dedicated lexer and makes parsing trivial}@}, but {@{the lack of syntactic sugar}@} can make {@{long expressions hard to read}@}. <!--SR:!2026-12-26,266,340!2026-04-06,63,320!2027-01-03,274,340!2026-12-28,269,340!2026-04-15,71,320!2026-04-17,74,320!2026-04-11,68,320-->
+{@{Lisp’s most striking trait}@} is {@{its _minimal syntax_}@}. The language uses {@{only parentheses and symbols}@}, so {@{every program is a nested list}@}. This eliminates {@{a dedicated lexer and makes parsing trivial}@}, but {@{the lack of syntactic sugar}@} can make {@{long expressions hard to read}@}. <!--SR:!2026-12-26,266,340!2027-01-15,284,340!2027-01-03,274,340!2026-12-28,269,340!2026-04-15,71,320!2026-04-17,74,320!2026-04-11,68,320-->
 
 Because Lisp has {@{no static type system}@}, {@{a value}@} may be {@{any data structure that conforms to the list representation}@}. {@{This flexibility}@} lets programmers write {@{very generic code}@}, yet it also means {@{errors such as passing a string where an integer is expected}@} are {@{only caught at run time}@}. <!--SR:!2026-04-13,70,320!2026-04-18,74,320!2026-04-17,73,320!2026-04-11,68,320!2026-04-17,74,320!2026-12-28,269,340!2026-04-13,70,320-->
 
@@ -278,7 +278,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 > def lookup(n: String): Data
 > def extend(name: String, v: Data): Environment
 > ```
-<!--SR:!2026-04-06,63,320!2026-12-28,268,340!2026-04-17,74,320-->
+<!--SR:!2027-01-12,281,340!2026-12-28,268,340!2026-04-17,74,320-->
 
 {@{A simple implementation}@} uses {@{a linked list of bindings, similar to a `List`}@}. {@{The class `Environment`}@} is defined as an abstract base that returns {@{a value for a name or throws if the name is unknown}@}. {@{Each call to `extend` (later extended to `extendRec`)}@} creates {@{a new environment whose latest binding shadows any previous one}@}. <!--SR:!2026-12-28,268,340!2026-12-26,267,340!2026-04-12,68,320!2026-04-16,72,320!2026-04-18,74,320!2026-04-08,65,320-->
 
@@ -304,7 +304,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 
 Note that {@{the environment with only `lookup` and `extend` as implemented above}@} does not {@{support using `def` to define recursive functions}@}. {@{The `extendRec` function}@} intends to {@{fix this}@}; see below. <!--SR:!2026-04-25,82,340!2026-12-30,270,340!2026-04-16,72,320!2026-12-22,264,340-->
 
-{@{The same structure}@} can be replaced by {@{a map for _O(log n)_ performance}@}, but {@{the simple list form}@} is often used {@{in educational settings to keep the code readable}@}. {@{The inner class `Environment.this`}@} refers to {@{the outer environment that the new object closes over}@}; this allows {@{a fresh binding to shadow older ones without mutating the existing structure}@}. <!--SR:!2026-04-17,74,320!2026-04-18,74,320!2026-12-22,263,340!2026-04-17,74,320!2026-04-12,68,320!2026-04-06,63,320!2026-04-13,69,320-->
+{@{The same structure}@} can be replaced by {@{a map for _O(log n)_ performance}@}, but {@{the simple list form}@} is often used {@{in educational settings to keep the code readable}@}. {@{The inner class `Environment.this`}@} refers to {@{the outer environment that the new object closes over}@}; this allows {@{a fresh binding to shadow older ones without mutating the existing structure}@}. <!--SR:!2026-04-17,74,320!2026-04-18,74,320!2026-12-22,263,340!2026-04-17,74,320!2026-04-12,68,320!2027-01-13,282,340!2026-04-13,69,320-->
 
 The evaluator uses {@{these operations during evaluation}@}: every time it {@{encounters a symbol}@}, it calls {@{`lookup`}@}; when {@{a binding is defined with `(val name expr)` or `(define name expr)`}@} it adds {@{the binding respectively via `extend` or `extendRec`}@}. Together they provide {@{lexical scoping for Scheme-- programs}@}. <!--SR:!2026-12-21,263,340!2026-12-18,259,340!2026-04-17,74,320!2026-04-17,74,320!2026-04-13,70,320!2026-12-21,262,340-->
 
