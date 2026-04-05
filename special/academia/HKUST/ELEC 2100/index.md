@@ -71,10 +71,10 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
     - T2: Room 2464; WednesdayT11:00:00/WednesdayT11:50:00
     - T3: Room G009B; ThursdayT18:00:00/ThursdayT18:50:00
   - labs: LA3
-    - LA1: Room 4225C; FridayT12:00:00/FridayT12:50:00 <!-- check: ignore-line[numeric_text_not_latex]: room code -->
-    - LA2: Room 4225C; FridayT09:00:00/FridayT09:50:00 <!-- check: ignore-line[numeric_text_not_latex]: room code -->
-    - LA3: Room 4225C; ThursdayT10:30:00/ThursdayT11:20:00 <!-- check: ignore-line[numeric_text_not_latex]: room code -->
-    - LA4: Room 4225C; FridayT10:30:00/FridayT11:20:00 <!-- check: ignore-line[numeric_text_not_latex]: room code -->
+    - LA1: Room 4225C; FridayT12:00:00/FridayT12:50:00
+    - LA2: Room 4225C; FridayT09:00:00/FridayT09:50:00
+    - LA3: Room 4225C; ThursdayT10:30:00/ThursdayT11:20:00
+    - LA4: Room 4225C; FridayT10:30:00/FridayT11:20:00
 
 ## overview
 
@@ -152,6 +152,16 @@ The lecture front-loads the administrative structure of the course as well: prer
 ---
 
 The selected T2 tutorial stream does not have an archived tutorial sheet for the first teaching week, and the first recorded tutorial round in the provided timetable begins in week 2.
+
+## week 1 lab
+
+- datetime: 2026-02-05T10:30:00+08:00/2026-02-05T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- status: no class
+
+---
+
+The chosen LA3 lab stream does not yet begin in the first teaching week; the first archived lab activity for this course appears in week 4.
 
 ## week 1 lecture 2
 
@@ -232,6 +242,16 @@ This lecture is now the main home for the discrete-time toolkit and the first pa
 
 This tutorial consolidates the opening signal vocabulary: what classification labels answer, how graph-transformation questions differ from singular-signal calculus questions, and how waveform, algebraic, and complex-number viewpoints should be kept distinct while revising.
 
+## week 2 lab
+
+- datetime: 2026-02-12T10:30:00+08:00/2026-02-12T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- status: no class
+
+---
+
+No selected LA3 lab activity is archived for this week; the lab program begins later in the term.
+
 ## week 2 lecture 2
 
 - datetime: 2026-02-12T12:00:00+08:00/2026-02-12T13:20:00+08:00, PT1H20M
@@ -284,6 +304,16 @@ No lecture was held in this slot because it fell on Lunar New Year's Day.
 ---
 
 No T2 tutorial was scheduled in this week according to the provided timetable; the next recorded T2 tutorial round is on 2026-02-25.
+
+## week 3 lab
+
+- datetime: 2026-02-19T10:30:00+08:00/2026-02-19T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- status: unscheduled; public holiday: Lunar New Year Holiday
+
+---
+
+No lab was held in this slot because it fell on the Lunar New Year Holiday.
 
 ## week 3 lecture 2
 
@@ -351,6 +381,18 @@ The lecture then makes the impulse response central. Zero-input response is tied
 
 This tutorial is the discrete-time companion to the first signal tutorial. The most useful revision habit is to keep the sequence toolkit and the system-property toolkit separate, and then test one system property at a time instead of mixing several property questions into one vague judgment.
 
+## week 4 lab
+
+- datetime: 2026-02-26T10:30:00+08:00/2026-02-26T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 1 prelab; plot signals and process data files
+- [lab 1](labs/lab%201/index.md)
+  - [prelab](labs/lab%201/prelab.md)
+
+---
+
+This is the selected LA3 prelab slot for lab 1.  It prepares the MATLAB workflow for signal plotting, sampled-audio handling, and RGB-image inspection before the graded live-script assignment.
+
 ## week 4 lecture 2
 
 - datetime: 2026-02-26T12:00:00+08:00/2026-02-26T13:20:00+08:00, PT1H20M
@@ -416,6 +458,18 @@ The lecture then shifts to the discrete-time impulse response and the convolutio
 
 This is the first fully systems-focused tutorial. The revision chain to keep visible is: step response integrates impulse response, convolution superposes shifted impulse responses, and causality or stability can often be read directly from the support and total weight of $h(t)$.
 
+## week 5 lab
+
+- datetime: 2026-03-05T10:30:00+08:00/2026-03-05T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 1 assignment; plot signals and process data files
+- [lab 1](labs/lab%201/index.md)
+  - [lab](labs/lab%201/lab.md)
+
+---
+
+This is the selected LA3 graded lab-1 slot.  The archived assignment turns the prelab's plotting, audio, and image-array ideas into student-parameterized live-script tasks.
+
 ## week 5 lecture 2
 
 - datetime: 2026-03-05T12:00:00+08:00/2026-03-05T13:20:00+08:00, PT1H20M
@@ -477,6 +531,18 @@ The mathematical bridge is orthogonal decomposition.  Signals are projected onto
 
 This tutorial mirrors the continuous-time systems sheet in discrete form and then pivots into the frequency-domain geometry that prepares the Fourier-series block. A good revision split is to use recursion and convolution for sample-domain problems, but switch to inner-product language when the problem asks how a waveform is decomposed into orthogonal frequency components.
 
+## week 6 lab
+
+- datetime: 2026-03-12T10:30:00+08:00/2026-03-12T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 2 prelab; impulse response and convolution
+- [lab 2](labs/lab%202/index.md)
+  - [prelab](labs/lab%202/prelab.md)
+
+---
+
+This is the selected LA3 prelab slot for lab 2.  It prepares discrete convolution support bookkeeping, echo modeling, and two-dimensional image filtering in MATLAB.
+
 ## week 6 lecture 2
 
 - datetime: 2026-03-12T12:00:00+08:00/2026-03-12T13:20:00+08:00, PT1H20M
@@ -527,6 +593,18 @@ The lecture then builds transform intuition through standard pairs rather than p
 ---
 
 This tutorial is the main consolidation point for continuous-time periodic Fourier analysis. The highest-payoff workflow is: identify period and symmetry first, choose the most efficient coefficient form second, and only then compute or convert coefficients.
+
+## week 7 lab
+
+- datetime: 2026-03-19T10:30:00+08:00/2026-03-19T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 2 assignment; impulse response and convolution
+- [lab 2](labs/lab%202/index.md)
+  - [lab](labs/lab%202/lab.md)
+
+---
+
+This is the selected LA3 graded lab-2 slot.  The archived assignment focuses on series and parallel system composition across sequence, audio, and image-filter examples.
 
 ## week 7 lecture 2
 
@@ -594,6 +672,18 @@ This application lecture is also a reminder that Fourier analysis runs in both d
 
 This tutorial is the bridge from periodic Fourier analysis to full transform-domain signal and system analysis. For revision, use `Fourier transform.md` for signal-side derivations and `frequency response.md` for system-side interpretation so that transform-pair memorization, property use, and filter meaning stay connected.
 
+## week 8 lab
+
+- datetime: 2026-03-26T10:30:00+08:00/2026-03-26T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 3 prelab; Fourier series and filters
+- [lab 3](labs/lab%203/index.md)
+  - [prelab](labs/lab%203/prelab.md)
+
+---
+
+This is the selected LA3 prelab slot for lab 3.  The archived materials cover FFT-based spectral reading, `fftshift`, and practical low-pass and band-pass filtering workflows.
+
 ## week 8 lecture 2
 
 - datetime: 2026-03-26T12:00:00+08:00/2026-03-26T13:20:00+08:00, PT1H20M
@@ -641,11 +731,22 @@ It now also includes the standard point-by-point spectrum-tracing example for a 
 
 - datetime: 2026-04-01T11:00:00+08:00/2026-04-01T11:50:00+08:00, PT50M
 - venue: Room 2464
+- topic: midterm examination
 - status: midterm examination
 
 ---
 
 The provided timetable records this as an updated extra tutorial round for the selected T2 stream, but no archived tutorial sheet or routing material has been provided yet.
+
+## week 9 lab
+
+- datetime: 2026-04-02T10:30:00+08:00/2026-04-02T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- status: no class
+
+---
+
+No selected LA3 lab activity is archived for this week.  The lab sequence resumes in week 10 with the graded lab-3 slot.
 
 ## week 9 lecture 2
 
@@ -700,6 +801,17 @@ That viewpoint makes the most important qualitative property immediate: DTFT is 
 
 No T2 tutorial was scheduled in this slot according to the provided timetable.
 
+## week 10 lab
+
+- datetime: 2026-04-09T10:30:00+08:00/2026-04-09T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 3 assignment; Fourier series and filters
+- [lab 3](labs/lab%203/index.md)
+
+---
+
+This is the selected LA3 graded lab-3 slot.  The official assignment workflow is evidenced by the schedule metadata, but the assignment live script itself has not yet been archived into the notes tree, so the durable routing currently remains at the lab-3 index and prelab note.
+
 ## week 10 lecture 2
 
 - datetime: 2026-04-09T12:00:00+08:00/2026-04-09T13:20:00+08:00, PT1H20M
@@ -750,6 +862,17 @@ The most important engineering distinction here is circular versus linear thinki
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
 
+## week 11 lab
+
+- datetime: 2026-04-16T10:30:00+08:00/2026-04-16T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 4 prelab; modulation, demodulation, and sampling
+- [lab 4](labs/lab%204/index.md)
+
+---
+
+This is the selected LA3 prelab slot for lab 4.  The schedule metadata for the modulation/demodulation/sampling lab is archived, but the detailed prelab content has not yet been ingested.
+
 ## week 12 tutorial
 
 - datetime: 2026-04-22T11:00:00+08:00/2026-04-22T11:50:00+08:00, PT50M
@@ -759,6 +882,17 @@ The timetable reserves this T2 tutorial slot, but no archived tutorial material 
 ---
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
+
+## week 12 lab
+
+- datetime: 2026-04-23T10:30:00+08:00/2026-04-23T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- topic: lab 4 assignment; modulation, demodulation, and sampling
+- [lab 4](labs/lab%204/index.md)
+
+---
+
+This is the selected LA3 graded lab-4 slot.  As with the corresponding prelab, the official timing is archived but the assignment content has not yet been ingested into a dedicated note page.
 
 ## week 13 tutorial
 
@@ -770,6 +904,16 @@ The timetable reserves this T2 tutorial slot, but no archived tutorial material 
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
 
+## week 13 lab
+
+- datetime: 2026-04-30T10:30:00+08:00/2026-04-30T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- status: no class
+
+---
+
+The selected LA3 lab program has already completed by this point in the archived schedule, so no further lab meeting is recorded for week 13.
+
 ## week 14 tutorial
 
 - datetime: 2026-05-06T11:00:00+08:00/2026-05-06T11:50:00+08:00, PT50M
@@ -779,6 +923,16 @@ The timetable reserves this T2 tutorial slot, but no archived tutorial material 
 ---
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
+
+## week 14 lab
+
+- datetime: 2026-05-07T10:30:00+08:00/2026-05-07T11:20:00+08:00, PT50M
+- venue: Room 4225C
+- status: no class
+
+---
+
+The archived Spring 2026 LA3 lab schedule ends before this week, so the course root records the empty lab slot explicitly for chronology completeness.
 
 ## midterm examination
 

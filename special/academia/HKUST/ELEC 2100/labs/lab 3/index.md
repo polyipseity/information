@@ -8,17 +8,30 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_children]: no lab-3 child pages have been archived yet -->
-
 # index
 
 - HKUST ELEC 2100 lab 3
 - parent: [labs](../index.md)
 
----
+## children
 
-## logistics
+- [lab](lab.md)
+- [prelab](prelab.md)
 
-- topic: Fourier series and filters
-- selected prelab: LA3 on 2026-03-26
-- selected lab: LA3 on 2026-04-09
+## description
+
+\(empty\)
+
+## attachments
+
+<!-- - [Lab_Instruction.pdf](attachments/Lab_Instruction.pdf) -->
+- [Lab3a.7z](attachments/Lab3a.7z)
+
+## submission
+
+- file: [submission.pdf](submission.pdf)
+  - source: [submission.m](submission.m)
+
+## solution
+
+\(empty\)

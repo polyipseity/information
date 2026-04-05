@@ -8,17 +8,47 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_children]: no lab-1 child pages have been archived yet -->
-
 # index
 
 - HKUST ELEC 2100 lab 1
 - parent: [labs](../index.md)
 
----
+## children
 
-## logistics
+- [lab](lab.md)
+- [prelab](prelab.md)
 
-- topic: plot signals and process data files
-- selected prelab: LA3 on 2026-02-26
-- selected lab: LA3 on 2026-03-05
+## description
+
+- title: Lab1 (Thu)
+- Due: Mar 5 by 1:30pm
+- Points: 20
+- Submitting: a file upload
+- File Types: pdf
+- Available: until Mar 5 at 1:30pm
+
+This assignment was locked Mar 5 at 1:30pm.
+
+**Due on** **<span style="color: #f4350b;">05 Mar (Thu), 1:30pm</span>**
+
+**<span style="color: #f4350b;">Any late submission will NOT be graded.</span>**
+
+**<span style="color: #03893d;">Lab Instruction :</span>** Please read
+
+**<span style="color: #f4350b;">Any incorrect format will NOT graded.</span>**
+
+**<span style="color: #03893d;">Lab files for download only :</span>** [Please click](attachments/Lab1a.7z)
+
+## attachments
+
+<!-- - [Lab_Instruction.pdf](attachments/Lab_Instruction.pdf) -->
+- [Lab1a.7z](attachments/Lab1a.7z)
+
+## submission
+
+- file: [submission.pdf](submission.pdf)
+  - source: [submission.m](submission.m)
+
+## solution
+
+\(empty\)
