@@ -9,7 +9,7 @@ tags:
 
 # unit vector
 
-- Not to be confused with {@{[Vector of ones](vector%20of%20ones.md)}@}. <!--SR:!2026-04-07,324,339-->
+- Not to be confused with {@{[Vector of ones](vector%20of%20ones.md)}@}. <!--SR:!2030-05-27,1511,359-->
 
 In {@{[mathematics](mathematics.md)}@}, {@{a __unit vector__}@} in {@{a [normed vector space](normed%20vector%20space.md) is a [vector](vector%20(mathematics%20and%20physics).md) \(often a [spatial vector](vector%20(geometry).md)\) of [length](norm%20(mathematics).md) 1}@}. A unit vector is often denoted by {@{a lowercase letter with a [circumflex](circumflex.md), or "hat"}@}, as in {@{${\hat {\mathbf {v} } }$ \(pronounced "v-hat"\)}@}. {@{The term _normalized vector_}@} is sometimes {@{used as a synonym for _unit vector_}@}. <!--SR:!2026-04-12,329,339!2030-05-02,1490,359!2030-03-25,1460,359!2026-04-10,327,339!2026-04-12,329,339!2026-04-09,326,339!2030-05-20,1506,359-->
 
@@ -33,13 +33,13 @@ When a unit vector in space is {@{expressed in [Cartesian notation](Cartesian%20
 
 ### cylindrical coordinates
 
-- See also: ::@:: [Jacobian matrix](Jacobian%20matrix.md) <!--SR:!2026-04-07,324,339!2030-03-10,1446,359-->
+- See also: ::@:: [Jacobian matrix](Jacobian%20matrix.md) <!--SR:!2030-05-26,1510,359!2030-03-10,1446,359-->
 
 {@{The three [orthogonal](orthogonal.md) unit vectors appropriate to cylindrical symmetry}@} are: (annotation: 3 items: {@{$\boldsymbol {\hat \rho}$, $\boldsymbol {\hat \varphi}$, $\boldsymbol {\hat z}$}@}) <!--SR:!2030-04-18,1479,359!2028-03-30,881,339-->
 
 - ${\boldsymbol {\hat {\rho } } }$ \(also designated $\mathbf {\hat {e} }$ or ${\boldsymbol {\hat {s} } }$\), ::@:: representing the direction along which the distance of the point from the axis of symmetry is measured; <!--SR:!2030-05-16,1503,359!2026-04-08,325,339-->
 - ${\boldsymbol {\hat {\varphi } } }$, ::@:: representing the direction of the motion that would be observed if the point were rotating counterclockwise about the [symmetry axis](symmetry%20axis.md); <!--SR:!2026-04-10,327,339!2030-02-24,1436,359-->
-- $\mathbf {\hat {z} }$, ::@:: representing the direction of the symmetry axis; <!--SR:!2030-03-04,1442,359!2026-04-07,324,339-->
+- $\mathbf {\hat {z} }$, ::@:: representing the direction of the symmetry axis; <!--SR:!2030-03-04,1442,359!2030-05-30,1514,359-->
 
 They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat {z} }$}@} by: <!--SR:!2030-03-29,1463,359-->
 
@@ -61,7 +61,7 @@ They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat 
 - (annotation: $\boldsymbol {\hat \theta}$, Cartesian basis) ::@:: $${\boldsymbol {\hat {\theta } } }=\cos \theta \cos \varphi \mathbf {\hat {x} } +\cos \theta \sin \varphi \mathbf {\hat {y} } -\sin \theta \mathbf {\hat {z} }$$ (annotation: memorize the effect of $\varphi$, and then the effect of $\theta$) <!--SR:!2026-06-06,297,259!2026-07-30,332,259-->
 - (annotation: $\boldsymbol {\hat \varphi}$, Cartesian basis) ::@:: $${\boldsymbol {\hat {\varphi } } }=-\sin \varphi \mathbf {\hat {x} } +\cos \varphi \mathbf {\hat {y} }$$ (annotation: memorize the effect of $\varphi$, and then the effect of $\theta$; the latter of which is null, as in cylindrical coordinates) <!--SR:!2027-10-28,696,319!2030-02-26,1438,359-->
 
-{@{The spherical unit vectors}@} depend on {@{both $\varphi$ and $\theta$}@}, and hence there are {@{5 possible non-zero derivatives}@}. For a more complete description, see {@{[Jacobian matrix and determinant](Jacobian%20matrix%20and%20determinant.md)}@}. The non-zero derivatives are: <!--SR:!2026-04-08,325,339!2030-05-06,1495,359!2026-04-07,324,339!2030-05-01,1489,359-->
+{@{The spherical unit vectors}@} depend on {@{both $\varphi$ and $\theta$}@}, and hence there are {@{5 possible non-zero derivatives}@}. For a more complete description, see {@{[Jacobian matrix and determinant](Jacobian%20matrix%20and%20determinant.md)}@}. The non-zero derivatives are: <!--SR:!2026-04-08,325,339!2030-05-06,1495,359!2030-05-28,1512,359!2030-05-01,1489,359-->
 
 - (annotation: $\frac {\partial \mathbf {\hat r} } {\partial \varphi}$) ::@:: $${\frac {\partial \mathbf {\hat {r} } }{\partial \varphi } }=-\sin \theta \sin \varphi \mathbf {\hat {x} } +\sin \theta \cos \varphi \mathbf {\hat {y} } =\sin \theta {\boldsymbol {\hat {\varphi } } }$$ (annotation: $\boldsymbol {\hat \varphi}$ modulated by the polar angle $\theta$) <!--SR:!2028-08-03,870,299!2028-01-03,758,299-->
 - (annotation: $\frac {\partial \mathbf {\hat r} } {\partial \theta}$) ::@:: $${\frac {\partial \mathbf {\hat {r} } }{\partial \theta } }=\cos \theta \cos \varphi \mathbf {\hat {x} } +\cos \theta \sin \varphi \mathbf {\hat {y} } -\sin \theta \mathbf {\hat {z} } ={\boldsymbol {\hat {\theta } } }$$ <!--SR:!2027-05-20,534,279!2029-01-11,1029,339-->
@@ -90,7 +90,7 @@ In general, a coordinate system may be {@{uniquely specified using a number of [
 
 ## right versor
 
-{@{A unit vector in $\mathbb {R} ^{3}$}@} was called {@{a __right versor__ by [W. R. Hamilton](W.%20R.%20Hamilton.md)}@}, as he {@{developed his [quaternions](quaternion.md) $\mathbb {H} \subset \mathbb {R} ^{4}$}@}. In fact, he was {@{the originator of the term _vector_}@}, as {@{every quaternion $q=s+v$ has a scalar part _s_ and a vector part _v_}@}. If {@{_v_ is a unit vector in $\mathbb {R} ^{3}$}@}, then {@{the square of _v_ in quaternions is –1}@}. Thus by {@{[Euler's formula](Euler's%20formula.md)}@}, {@{$\exp(\theta v)=\cos \theta +v\sin \theta$}@} is {@{a [versor](versor.md) in the [3-sphere](3-sphere.md)}@}. When {@{_θ_ is a [right angle](right%20angle.md)}@}, the versor is {@{a right versor: its scalar part is zero and its vector part _v_ is a unit vector in $\mathbb {R} ^{3}$}@}. <!--SR:!2030-04-12,1475,359!2026-04-11,328,339!2026-04-07,324,339!2030-04-13,1475,359!2026-04-12,329,339!2030-01-11,1398,359!2026-04-11,328,339!2030-03-11,1447,359!2028-07-13,956,339!2026-04-10,327,339!2030-04-07,1470,359!2026-07-13,375,299-->
+{@{A unit vector in $\mathbb {R} ^{3}$}@} was called {@{a __right versor__ by [W. R. Hamilton](W.%20R.%20Hamilton.md)}@}, as he {@{developed his [quaternions](quaternion.md) $\mathbb {H} \subset \mathbb {R} ^{4}$}@}. In fact, he was {@{the originator of the term _vector_}@}, as {@{every quaternion $q=s+v$ has a scalar part _s_ and a vector part _v_}@}. If {@{_v_ is a unit vector in $\mathbb {R} ^{3}$}@}, then {@{the square of _v_ in quaternions is –1}@}. Thus by {@{[Euler's formula](Euler's%20formula.md)}@}, {@{$\exp(\theta v)=\cos \theta +v\sin \theta$}@} is {@{a [versor](versor.md) in the [3-sphere](3-sphere.md)}@}. When {@{_θ_ is a [right angle](right%20angle.md)}@}, the versor is {@{a right versor: its scalar part is zero and its vector part _v_ is a unit vector in $\mathbb {R} ^{3}$}@}. <!--SR:!2030-04-12,1475,359!2026-04-11,328,339!2030-05-29,1513,359!2030-04-13,1475,359!2026-04-12,329,339!2030-01-11,1398,359!2026-04-11,328,339!2030-03-11,1447,359!2028-07-13,956,339!2026-04-10,327,339!2030-04-07,1470,359!2026-07-13,375,299-->
 
 Thus the right versors {@{extend the notion of [imaginary units](imaginary%20unit.md) found in the [complex plane](complex%20plane.md)}@}, where the right versors now {@{range over the [2-sphere](2-sphere.md#dimensionality) $\mathbb {S} ^{2}\subset \mathbb {R} ^{3}\subset \mathbb {H}$}@} rather than {@{the pair {i, –i} in the complex plane}@}. <!--SR:!2027-01-06,465,299!2030-03-14,1450,359!2028-07-14,957,339-->
 

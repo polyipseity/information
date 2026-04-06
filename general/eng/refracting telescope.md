@@ -13,7 +13,7 @@ tags:
 
 # refracting telescope
 
-A __refracting telescope__ (also called a __refractor__) is {@{a type of [optical telescope](optical%20telescope.md) that uses a [lens](lens.md) as its [objective](objective%20(optics).md) to form an image}@} (also referred to {@{a [__dioptric telescope__](dioptrics.md)}@}). <!--SR:!2029-05-17,1154,290!2026-04-07,17,320-->
+A __refracting telescope__ (also called a __refractor__) is {@{a type of [optical telescope](optical%20telescope.md) that uses a [lens](lens.md) as its [objective](objective%20(optics).md) to form an image}@} (also referred to {@{a [__dioptric telescope__](dioptrics.md)}@}). <!--SR:!2029-05-17,1154,290!2026-06-21,75,340-->
 
 ## technical considerations
 

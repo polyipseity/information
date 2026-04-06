@@ -439,7 +439,7 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 >
 > {@{`newInstance`}@} replaces {@{every free variable in the clause body with a fresh copy}@}, ensuring that {@{different uses of the same rule do not interfere}@}. <!--SR:!2026-04-16,72,322!2026-04-10,68,322!2026-04-16,74,322!2026-04-18,74,322!2026-04-16,74,322!2026-04-15,73,322!2026-04-14,70,322-->
 
-{@{The `solve` implementation}@} delegates to {@{a recursive helper `solveRec`}@} that keeps {@{the current substitution and the remaining part of the query}@}. {@{A successful match}@} yields {@{a substitution that is then passed on to the rest of the goal}@}. {@{The recursive routine that performs backtracking}@} is defined inside {@{the public `solve` method}@} so it can see {@{the list of clauses supplied by the caller}@}: <!--SR:!2026-04-15,73,322!2026-04-13,71,322!2026-04-14,70,322!2026-04-14,72,322!2026-04-07,63,310!2026-04-14,70,322!2026-04-13,71,322!2026-04-11,69,322-->
+{@{The `solve` implementation}@} delegates to {@{a recursive helper `solveRec`}@} that keeps {@{the current substitution and the remaining part of the query}@}. {@{A successful match}@} yields {@{a substitution that is then passed on to the rest of the goal}@}. {@{The recursive routine that performs backtracking}@} is defined inside {@{the public `solve` method}@} so it can see {@{the list of clauses supplied by the caller}@}: <!--SR:!2026-04-15,73,322!2026-04-13,71,322!2026-04-14,70,322!2026-04-14,72,322!2027-01-05,273,330!2026-04-14,70,322!2026-04-13,71,322!2026-04-11,69,322-->
 
 > [!example] __`solveRec` implementation__
 >

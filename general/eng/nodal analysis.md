@@ -52,7 +52,7 @@ With {@{Kirchhoff's current law}@}, we get: {@{$${\frac {V_{1}-V_{S} }{R_{1} } }
 >
 > In this circuit, {@{V<sub>A</sub> is between two unknown voltages, and is therefore a supernode}@}. <!--SR:!2029-04-06,1134,346!2029-03-13,1134,350-->
 
-In this circuit, we {@{initially have two unknown voltages, V<sub>1</sub> and V<sub>2</sub>}@}. {@{The voltage at V<sub>3</sub> is already known to be V<sub>B</sub>}@} because {@{the other terminal of the voltage source is at ground potential}@}. <!--SR:!2030-02-20,1417,366!2026-05-31,344,346!2026-04-07,300,346-->
+In this circuit, we {@{initially have two unknown voltages, V<sub>1</sub> and V<sub>2</sub>}@}. {@{The voltage at V<sub>3</sub> is already known to be V<sub>B</sub>}@} because {@{the other terminal of the voltage source is at ground potential}@}. <!--SR:!2030-02-20,1417,366!2026-05-31,344,346!2030-03-01,1424,366-->
 
 {@{The current going through voltage source V<sub>A</sub>}@} {@{cannot be directly calculated}@}. Therefore, {@{we cannot write the current equations for either V<sub>1</sub> or V<sub>2</sub>}@}. However, we know that {@{the same current leaving node V<sub>2</sub> must enter node V<sub>1</sub>}@}. Even though {@{the nodes cannot be individually solved}@}, we know that {@{the combined current of these two nodes is zero}@}. {@{This combining of the two nodes}@} is called {@{the [supernode](supernode%20(circuit).md) technique}@}, and it {@{requires one additional equation: V<sub>1</sub> = V<sub>2</sub> + V<sub>A</sub>}@}. <!--SR:!2026-05-27,340,346!2029-02-19,1115,350!2026-05-27,340,346!2026-05-14,330,346!2026-05-09,326,346!2029-01-24,1092,350!2026-05-07,326,346!2026-05-07,326,346!2026-04-14,307,346-->
 

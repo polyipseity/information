@@ -141,7 +141,7 @@ Let the random variable _X_ be {@{the number of fixed points of a [uniformly dis
 
 ### rhyming schemes
 
-{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa)}@}, {@{3 rhyme schemes using two rhymes (aab, aba, abb)}@}, and {@{1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2029-09-21,1390,350!2028-03-22,931,330!2029-10-24,1418,350!2027-08-18,704,310!2029-11-20,1439,350!2029-09-19,1390,350!2027-06-14,434,392!2026-04-07,85,372-->
+{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa)}@}, {@{3 rhyme schemes using two rhymes (aab, aba, abb)}@}, and {@{1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2029-09-21,1390,350!2028-03-22,931,330!2029-10-24,1418,350!2027-08-18,704,310!2029-11-20,1439,350!2029-09-19,1390,350!2027-06-14,434,392!2027-06-19,438,392-->
 
 ## variants
 

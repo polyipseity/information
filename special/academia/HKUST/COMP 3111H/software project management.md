@@ -37,7 +37,7 @@ tags:
 5. _Schedules_ ::@:: – time‑phased milestones and activities. <!--SR:!2026-04-22,82,343!2026-04-13,73,326-->
 6. _Estimates_ ::@:: – effort, cost, and size predictions. <!--SR:!2026-04-17,77,343!2026-04-23,83,343-->
 7. _Metrics Plan_ ::@:: – measurement strategy for quality and progress. <!--SR:!2026-04-17,77,343!2026-04-21,81,343-->
-8. _Risk Planning_ ::@:: – identification, analysis, mitigation. <!--SR:!2026-04-23,83,343!2026-04-07,67,310-->
+8. _Risk Planning_ ::@:: – identification, analysis, mitigation. <!--SR:!2026-04-23,83,343!2027-01-26,294,330-->
 9. _Time-phased Budget_ ::@:: – allocation of financial resources over time. <!--SR:!2026-04-19,79,343!2026-04-20,80,343-->
 
 {@{Developing the SDP}@} is a {@{constrained-optimization problem}@}. Because {@{data are incomplete}@}—{@{requirements may be ambiguous, resource availability uncertain, and technical complexity difficult to estimate}@}—the plan must {@{balance competing goals (budget, schedule, quality)}@} while satisfying {@{contractual and organizational constraints}@}. <!--SR:!2026-04-15,75,326!2026-04-21,81,343!2026-04-14,74,326!2026-04-18,78,343!2026-04-21,81,343!2026-04-17,77,343-->
@@ -88,11 +88,11 @@ For {@{effective monitoring}@} the WBS must satisfy: {@{_plannability_}@}: tasks
 
 ### PERT chart
 
-{@{A Program Evaluation and Review Technique (PERT) chart}@} is {@{a network diagram of tasks with durations}@}. {@{Each _node_}@} represents {@{a milestone (a point in time)}@}; {@{_edges_ (arrows)}@} denote {@{tasks or precedence}@} and is weighted by {@{the task duration}@}. {@{Dummy tasks (edges with zero weight)}@} may be {@{added so every in-between node has at least one incoming and one outgoing edge}@}. <!--SR:!2026-04-10,70,326!2026-04-21,81,343!2026-04-07,67,310!2026-04-20,80,343!2026-11-23,251,330!2026-04-12,72,326!2026-04-14,74,326!2026-04-18,78,343!2026-04-10,70,326-->
+{@{A Program Evaluation and Review Technique (PERT) chart}@} is {@{a network diagram of tasks with durations}@}. {@{Each _node_}@} represents {@{a milestone (a point in time)}@}; {@{_edges_ (arrows)}@} denote {@{tasks or precedence}@} and is weighted by {@{the task duration}@}. {@{Dummy tasks (edges with zero weight)}@} may be {@{added so every in-between node has at least one incoming and one outgoing edge}@}. <!--SR:!2026-04-10,70,326!2026-04-21,81,343!2027-01-19,287,330!2026-04-20,80,343!2026-11-23,251,330!2026-04-12,72,326!2026-04-14,74,326!2026-04-18,78,343!2026-04-10,70,326-->
 
 {@{The critical path}@} is the {@{longest time-path from start to finish}@}; its length equals the {@{project duration}@}. {@{Slack}@} (difference between {@{earliest and latest completion times}@}) indicates how much a {@{milestone (node)}@} can be {@{delayed without affecting the overall schedule}@}, which provides {@{buffer information for risk management}@}. <!--SR:!2026-04-12,72,326!2026-04-21,81,343!2026-04-17,77,343!2026-04-18,78,343!2026-04-22,82,343!2026-04-17,77,343!2026-04-11,71,326!2026-04-22,82,343-->
 
-The {@{PERT chart}@} may be accompanied by {@{two tables}@}. The {@{_task table_}@} lists each {@{task (edge)}@}. Each row contains {@{the task name, its edge ID in the chart, its duration, and its precedent tasks}@}. The {@{_node table_}@} lists each {@{milestone (node)}@}. Each row contains the {@{node ID in the chart (possibly labeled with a task preceding it)}@}, {@{its earliest completion time (ECT), its latest completion time (LCT)}@}, and {@{its slack (the difference between ECT and LCT)}@}. <!--SR:!2026-04-19,79,343!2026-04-20,80,343!2026-04-23,83,343!2026-04-19,79,343!2026-04-21,81,343!2026-04-07,67,310!2026-04-12,72,326!2026-04-20,80,343!2026-04-17,77,343!2026-04-07,67,310-->
+The {@{PERT chart}@} may be accompanied by {@{two tables}@}. The {@{_task table_}@} lists each {@{task (edge)}@}. Each row contains {@{the task name, its edge ID in the chart, its duration, and its precedent tasks}@}. The {@{_node table_}@} lists each {@{milestone (node)}@}. Each row contains the {@{node ID in the chart (possibly labeled with a task preceding it)}@}, {@{its earliest completion time (ECT), its latest completion time (LCT)}@}, and {@{its slack (the difference between ECT and LCT)}@}. <!--SR:!2026-04-19,79,343!2026-04-20,80,343!2026-04-23,83,343!2026-04-19,79,343!2026-04-21,81,343!2027-01-24,292,330!2026-04-12,72,326!2026-04-20,80,343!2026-04-17,77,343!2027-01-26,294,330-->
 
 ## estimates
 
@@ -111,10 +111,10 @@ The {@{PERT chart}@} may be accompanied by {@{two tables}@}. The {@{_task table_
 
 ### function-point counting
 
-{@{A weighted sum of project elements}@} gives {@{a _count-total_ value}@}: {@{$$\text{count-total} = \sum w_i \times \text{count}_i$$}@} where {@{$w_i$ is the weighting factor for each element}@} such as {@{user inputs, outputs, inquiries, files and interfaces}@}. Then, this count-total is {@{multiplied by a multiplier to give a _function-point_ (FP) value}@}: {@{$$\text{FP} = \text{count-total} \cdot (0.65 + 0.01 \cdot F_i)$$}@} where {@{$F_i$ are answers to questions about the system complexity}@}, ranging {@{from 0 (no influence) to 5 (essential)}@}. The FP number feeds into {@{productivity, quality, cost and documentation estimates}@}: <!--SR:!2026-04-23,83,343!2026-04-19,79,343!2026-04-17,77,343!2026-04-20,80,343!2026-04-22,82,343!2026-04-17,77,343!2026-04-14,74,326!2026-04-07,75,326!2026-04-20,80,343!2026-04-17,77,343-->
+{@{A weighted sum of project elements}@} gives {@{a _count-total_ value}@}: {@{$$\text{count-total} = \sum w_i \times \text{count}_i$$}@} where {@{$w_i$ is the weighting factor for each element}@} such as {@{user inputs, outputs, inquiries, files and interfaces}@}. Then, this count-total is {@{multiplied by a multiplier to give a _function-point_ (FP) value}@}: {@{$$\text{FP} = \text{count-total} \cdot (0.65 + 0.01 \cdot F_i)$$}@} where {@{$F_i$ are answers to questions about the system complexity}@}, ranging {@{from 0 (no influence) to 5 (essential)}@}. The FP number feeds into {@{productivity, quality, cost and documentation estimates}@}: <!--SR:!2026-04-23,83,343!2026-04-19,79,343!2026-04-17,77,343!2026-04-20,80,343!2026-04-22,82,343!2026-04-17,77,343!2026-04-14,74,326!2027-03-10,337,346!2026-04-20,80,343!2026-04-17,77,343-->
 
 - _Productivity_ ::@:: = FP / effort <!--SR:!2026-04-23,83,343!2026-04-20,80,343-->
-- _Quality_ ::@:: = errors / FP <!--SR:!2026-04-09,69,326!2026-04-07,67,310-->
+- _Quality_ ::@:: = errors / FP <!--SR:!2026-04-09,69,326!2027-01-21,289,330-->
 - _Cost_ ::@:: = \$ / FP <!--SR:!2026-04-17,77,343!2026-04-23,83,343-->
 - _Documentation_ ::@:: = pages / FP <!--SR:!2026-04-22,82,343!2026-04-21,81,343-->
 
@@ -126,15 +126,15 @@ It improves upon using {@{size (e.g. KLOC in place of FP, and where all data com
 
 ### planning poker
 
-{@{A team leader}@} provides {@{overview of a feature to be estimated}@}. {@{The team estimates the feature}@} by {@{playing numbered cards face-down}@}. While estimating, team members may {@{clarify assumptions and risks}@}, but {@{no numbers are mentioned}@}.  Finally, all cards are {@{revealed, then discussed}@}. <!--SR:!2026-04-07,67,310!2026-04-13,73,326!2026-04-21,81,343!2026-04-21,81,343!2026-04-19,79,343!2026-04-14,74,326!2026-04-18,78,343-->
+{@{A team leader}@} provides {@{overview of a feature to be estimated}@}. {@{The team estimates the feature}@} by {@{playing numbered cards face-down}@}. While estimating, team members may {@{clarify assumptions and risks}@}, but {@{no numbers are mentioned}@}.  Finally, all cards are {@{revealed, then discussed}@}. <!--SR:!2027-01-18,286,330!2026-04-13,73,326!2026-04-21,81,343!2026-04-21,81,343!2026-04-19,79,343!2026-04-14,74,326!2026-04-18,78,343-->
 
 ### parametric models
 
-{@{Empirical formulas}@} predict {@{effort (E) or duration (D) from measurable inputs}@}.  Examples include {@{_COCOMO_ (Constructive Cost Model) and the _Putnam Estimation Model_}@}.  They require {@{accurate input data}@} but can be {@{highly reliable when calibrated with local project history}@}. <!--SR:!2026-04-10,70,326!2026-04-19,79,343!2026-04-18,78,343!2026-11-24,252,330!2026-04-07,67,310-->
+{@{Empirical formulas}@} predict {@{effort (E) or duration (D) from measurable inputs}@}.  Examples include {@{_COCOMO_ (Constructive Cost Model) and the _Putnam Estimation Model_}@}.  They require {@{accurate input data}@} but can be {@{highly reliable when calibrated with local project history}@}. <!--SR:!2026-04-10,70,326!2026-04-19,79,343!2026-04-18,78,343!2026-11-24,252,330!2027-01-25,293,330-->
 
 ### estimation risk mitigation
 
-Verify that the team has {@{experience on comparable systems}@}.  Collect {@{detailed metrics (FP, LOC, error counts)}@} from previous projects to {@{calibrate models}@}.  Perform {@{multiple estimation methods}@} and {@{cross-check results}@}.  Recognise that {@{incomplete requirements inflate uncertainty}@}; aim for {@{clear scope before estimating}@}. <!--SR:!2026-04-11,71,326!2026-04-13,73,326!2026-04-21,81,343!2027-01-04,276,330!2026-04-22,82,343!2026-04-07,67,310!2026-04-20,80,343-->
+Verify that the team has {@{experience on comparable systems}@}.  Collect {@{detailed metrics (FP, LOC, error counts)}@} from previous projects to {@{calibrate models}@}.  Perform {@{multiple estimation methods}@} and {@{cross-check results}@}.  Recognise that {@{incomplete requirements inflate uncertainty}@}; aim for {@{clear scope before estimating}@}. <!--SR:!2026-04-11,71,326!2026-04-13,73,326!2026-04-21,81,343!2027-01-04,276,330!2026-04-22,82,343!2027-01-20,288,330!2026-04-20,80,343-->
 
 {@{A well-calibrated cost model}@} should predict {@{within 20% of actual costs}@} in roughly {@{70% of cases on the same set of projects}@}. <!--SR:!2026-11-25,253,330!2026-04-20,80,343!2026-04-17,77,343-->
 

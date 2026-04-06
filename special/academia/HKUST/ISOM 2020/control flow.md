@@ -79,7 +79,7 @@ for loop_variables in iterable:
   pass # required, otherwise error
 ```
 
-If {@{you want to stop a `for` loop early}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-27,2108,391!2026-04-07,429,371!2026-04-12,434,371-->
+If {@{you want to stop a `for` loop early}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-27,2108,391!2032-03-27,2181,391!2026-04-12,434,371-->
 
 ### while-iteration
 

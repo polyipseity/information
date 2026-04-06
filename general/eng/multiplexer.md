@@ -36,7 +36,7 @@ tags:
 >
 > Schematic of {@{a 1-to-2 demultiplexer}@}. Like a multiplexer, it can be {@{equated to a controlled switch}@}. <!--SR:!2026-04-26,337,344!2026-04-26,337,344!2026-04-25,336,344-->
 
-In {@{[electronics](electronics.md)}@}, {@{a __multiplexer__ \(or __mux__; spelled sometimes as __multiplexor__\), also known as a __data selector__}@}, is {@{a device that selects between several [analog](analog%20signal.md) or [digital](digital%20signal%20(electronics).md) input signals and forwards the selected input to a single output line}@}.<sup>[\[1\]](#^ref-1)</sup> The selection is directed by {@{a separate set of digital inputs known as select lines}@}. A multiplexer of {@{$2^{n}$ inputs has $n$ select lines}@}, which are used to {@{select which input line to send to the output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-04-27,338,344!2030-02-17,1430,364!2030-05-05,1494,364!2027-06-20,606,324!2028-06-04,925,344!2026-04-07,320,344-->
+In {@{[electronics](electronics.md)}@}, {@{a __multiplexer__ \(or __mux__; spelled sometimes as __multiplexor__\), also known as a __data selector__}@}, is {@{a device that selects between several [analog](analog%20signal.md) or [digital](digital%20signal%20(electronics).md) input signals and forwards the selected input to a single output line}@}.<sup>[\[1\]](#^ref-1)</sup> The selection is directed by {@{a separate set of digital inputs known as select lines}@}. A multiplexer of {@{$2^{n}$ inputs has $n$ select lines}@}, which are used to {@{select which input line to send to the output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-04-27,338,344!2030-02-17,1430,364!2030-05-05,1494,364!2027-06-20,606,324!2028-06-04,925,344!2030-06-02,1517,364-->
 
 A multiplexer makes it possible {@{for several input signals to share one device or resource}@}, for example, {@{one [analog-to-digital converter](analog-to-digital%20converter.md) or one communications [transmission medium](transmission%20medium.md)}@}, instead of {@{having one device per input signal}@}. Multiplexers can also be used to {@{implement [Boolean functions](Boolean%20algebra.md) of multiple variables}@}. <!--SR:!2026-04-25,336,344!2026-04-28,339,344!2026-04-30,341,344!2030-01-30,1415,364-->
 
@@ -62,7 +62,7 @@ In {@{[analog circuit](analog%20circuit.md) design}@}, a multiplexer is {@{a spe
 
 ## digital multiplexers
 
-In {@{[digital circuit](digital%20circuit.md) design}@}, the selector wires are {@{of digital value}@}. In the case of {@{a 2-to-1 multiplexer}@}, {@{a logic value of 0 would connect $I_{0}$ to the output}@} while {@{a logic value of 1 would connect $I_{1}$ to the output}@}. In {@{larger multiplexers}@}, the number of selector pins is {@{equal to $\left\lceil \log _{2}(n)\right\rceil$ where $n$ is the number of inputs}@}. <!--SR:!2026-04-07,320,344!2028-06-16,936,344!2026-05-01,342,344!2026-04-29,340,344!2026-04-15,328,344!2026-04-23,334,344!2030-04-04,1469,364-->
+In {@{[digital circuit](digital%20circuit.md) design}@}, the selector wires are {@{of digital value}@}. In the case of {@{a 2-to-1 multiplexer}@}, {@{a logic value of 0 would connect $I_{0}$ to the output}@} while {@{a logic value of 1 would connect $I_{1}$ to the output}@}. In {@{larger multiplexers}@}, the number of selector pins is {@{equal to $\left\lceil \log _{2}(n)\right\rceil$ where $n$ is the number of inputs}@}. <!--SR:!2030-06-04,1519,364!2028-06-16,936,344!2026-05-01,342,344!2026-04-29,340,344!2026-04-15,328,344!2026-04-23,334,344!2030-04-04,1469,364-->
 
 For example, {@{9 to 16 inputs would require no fewer than 4 selector pins}@} and {@{17 to 32 inputs would require no fewer than 5 selector pins}@}. {@{The binary value expressed on these selector pins}@} {@{determines the selected input pin}@}. <!--SR:!2026-04-16,329,344!2026-04-15,328,344!2029-01-07,1092,350!2026-04-14,327,344-->
 
@@ -104,7 +104,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 >
 > {@{![16-to-1 mux](../../archives/Wikimedia%20Commons/Multiplexer%2016-to-1.svg)}@}
 >
-> {@{16-to-1 mux}@} <!--SR:!2030-02-04,1419,364!2030-01-21,1407,364!2026-04-27,338,344!2030-05-13,1501,364!2030-02-01,1416,364!2026-04-07,320,344-->
+> {@{16-to-1 mux}@} <!--SR:!2030-02-04,1419,364!2030-01-21,1407,364!2026-04-27,338,344!2030-05-13,1501,364!2030-02-01,1416,364!2030-06-05,1520,364-->
 
 {@{The Boolean equation for a 4-to-1 multiplexer}@} is: <p> {@{$Z=(A\wedge \neg {S_{1} }\wedge \neg S_{0})\vee (B\wedge \neg S_{1}\wedge S_{0})\vee (C\wedge S_{1}\wedge \neg S_{0})\vee (D\wedge S_{1}\wedge S_{0})$ or <br/> $Z=(A\cdot {\overline {S_{1} } }\cdot {\overline {S_{0} } })+(B\cdot {\overline {S_{1} } }.S_{0})+(C\cdot S_{1}\cdot {\overline {S_{0} } })+(D\cdot S_{1}\cdot S_{0})$}@} Which can be {@{expressed as a [truth table](truth%20table.md)}@}: <!--SR:!2026-04-19,332,344!2026-04-16,329,344!2026-04-18,331,344-->
 
@@ -121,7 +121,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 > {@{![4:1 MUX circuit using 3 input AND and other gates](../../archives/Wikimedia%20Commons/4to1%20MUX%20using%20basic%20gates.jpg)}@}
 >
-> {@{A 4:1 MUX circuit}@} using {@{3 input AND and other gates}@} <!--SR:!2029-01-12,1031,344!2026-04-07,320,344!2026-04-14,24,390-->
+> {@{A 4:1 MUX circuit}@} using {@{3 input AND and other gates}@} <!--SR:!2029-01-12,1031,344!2030-06-03,1518,364!2026-04-14,24,390-->
 
 ### chaining multiplexers and mux trees
 

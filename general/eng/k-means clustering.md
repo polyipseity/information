@@ -24,7 +24,7 @@ The algorithm may not converge if {@{using a distance function other than the (s
 
 #### initialization methods
 
-The clustering result {@{depends on the initial means}@}, so it is important to {@{find "good" initial means to get more optimal clustering}@}. An extreme example is {@{an initial mean that is so far away from all observations that no observation ever gets assigned to it}@}. <!--SR:!2026-04-07,198,293!2030-09-28,1794,330!2027-03-19,429,390-->
+The clustering result {@{depends on the initial means}@}, so it is important to {@{find "good" initial means to get more optimal clustering}@}. An extreme example is {@{an initial mean that is so far away from all observations that no observation ever gets assigned to it}@}. <!--SR:!2028-06-23,808,313!2030-09-28,1794,330!2027-03-19,429,390-->
 
 A naive way to initialize the means is {@{randomly choose $k$ observations}@}. A less naive way is {@{repeat the standard algorithm several times with different random initial means and take their average}@}. <!--SR:!2028-06-17,1189,353!2030-04-24,1561,290-->
 

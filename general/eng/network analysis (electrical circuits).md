@@ -183,7 +183,7 @@ For {@{some common elements where this is not possible}@}, {@{specialized method
 
 ## superposition
 
-- Main article: ::@:: [Superposition theorem](superposition%20theorem.md) <!--SR:!2026-04-07,299,349!2026-07-05,374,360-->
+- Main article: ::@:: [Superposition theorem](superposition%20theorem.md) <!--SR:!2030-03-11,1434,369!2026-07-05,374,360-->
 
 In this method, {@{the effect of each generator in turn is calculated}@}. {@{All the generators other than the one being considered}@} are {@{removed and either short-circuited in the case of voltage generators or open-circuited in the case of current generators}@}. {@{The total current through or the total voltage across a particular branch}@} is then {@{calculated by summing all the individual currents or voltages}@}. <!--SR:!2026-05-15,331,349!2026-07-16,384,360!2029-02-09,1107,350!2026-05-10,329,349!2026-05-10,329,349-->
 

@@ -29,7 +29,7 @@ Intangible assets are _identifiable_, have no physical form, and are not monetar
 3. _Artistic‑related_ ::@:: – plays, literary works, photographs, movies and related copyrights. <!--SR:!2026-04-10,67,310!2026-04-10,67,310-->
 4. _Contract‑related_ ::@:: – franchises, licensing agreements, broadcast rights and service contracts. <!--SR:!2026-04-10,67,310!2026-04-10,67,310-->
 5. _Technology‑related_ ::@:: – patents, trade secrets and other proprietary technology. <!--SR:!2026-04-10,67,310!2026-04-10,67,310-->
-6. _Goodwill_ ::@:: – the excess of purchase price over identifiable net assets acquired in a business combination. <!--SR:!2026-04-07,64,310!2026-04-10,67,310-->
+6. _Goodwill_ ::@:: – the excess of purchase price over identifiable net assets acquired in a business combination. <!--SR:!2027-01-09,277,330!2026-04-10,67,310-->
 
 ## valuation
 

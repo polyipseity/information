@@ -70,7 +70,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 >
 > {@{This illustrates}@} that {@{a cons cell can be built from pure functions}@}, even though in real implementations it is {@{stored as two pointers}@}. <!--SR:!2026-04-17,74,320!2026-09-29,193,320!2026-12-26,266,340!2026-12-24,265,340!2026-04-14,70,320!2026-12-21,261,340!2026-04-17,74,320-->
 
-{@{The primitives `null?`, `car` and `cdr`}@} respectively {@{test for emptiness, return the first element, or return the rest of the list}@}. Their names come from {@{the original IBM 704 implementation}@} where a cons cell stored {@{an address part (`car`) and a decrement part (`cdr`)}@}. In Scala these map naturally to respectively {@{`.isEmpty`, `.head` and `.tail`}@}. <!--SR:!2026-04-07,64,320!2026-04-18,74,320!2026-12-29,269,340!2026-12-29,269,340!2026-04-18,74,320-->
+{@{The primitives `null?`, `car` and `cdr`}@} respectively {@{test for emptiness, return the first element, or return the rest of the list}@}. Their names come from {@{the original IBM 704 implementation}@} where a cons cell stored {@{an address part (`car`) and a decrement part (`cdr`)}@}. In Scala these map naturally to respectively {@{`.isEmpty`, `.head` and `.tail`}@}. <!--SR:!2027-01-22,290,340!2026-04-18,74,320!2026-12-29,269,340!2026-12-29,269,340!2026-04-18,74,320-->
 
 > [!example] __list operations__
 >
@@ -90,7 +90,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 
 ## internal representation
 
-{@{Lisp values}@} are represented by {@{a single type `Data` that aliases `scala.Any`}@}. {@{Numbers, strings and lists}@} map to {@{their Scala counterparts}@}; {@{symbols}@} become {@{instances of `scala.Symbol`}@}. {@{A convenient syntax}@} lets the reader write {@{`'name` instead of `Symbol("name")`}@}. <!--SR:!2026-04-12,68,320!2026-04-12,69,320!2026-04-18,74,320!2026-04-17,74,320!2026-12-23,263,340!2026-04-16,72,320!2026-04-11,68,320!2026-04-07,64,320-->
+{@{Lisp values}@} are represented by {@{a single type `Data` that aliases `scala.Any`}@}. {@{Numbers, strings and lists}@} map to {@{their Scala counterparts}@}; {@{symbols}@} become {@{instances of `scala.Symbol`}@}. {@{A convenient syntax}@} lets the reader write {@{`'name` instead of `Symbol("name")`}@}. <!--SR:!2026-04-12,68,320!2026-04-12,69,320!2026-04-18,74,320!2026-04-17,74,320!2026-12-23,263,340!2026-04-16,72,320!2026-04-11,68,320!2027-01-13,281,340-->
 
 > [!example] __`scala.Symbol`__
 >
@@ -177,7 +177,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 
 ## syntax
 
-{@{The interpreter}@} evaluates {@{a single Scheme expression}@} that may contain {@{_special forms_ such as `val`, `def`, `lambda`, `quote` and `if`}@}. {@{A __`val`__}@} binds {@{an immutable value}@}, while {@{__`def`__}@} creates {@{a definition that is re‑evaluated each time it is used}@}. These two form {@{the core of local bindings}@}; {@{higher-level binders}@} like {@{`let`, `let*` or `letrec`}@} are only {@{syntactic sugar for combinations of these primitives}@}. <!--SR:!2027-01-09,279,340!2026-04-12,68,320!2026-12-22,262,340!2026-04-07,64,320!2026-04-13,69,320!2026-04-13,69,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-12,68,320!2026-04-15,71,320!2026-12-27,267,340-->
+{@{The interpreter}@} evaluates {@{a single Scheme expression}@} that may contain {@{_special forms_ such as `val`, `def`, `lambda`, `quote` and `if`}@}. {@{A __`val`__}@} binds {@{an immutable value}@}, while {@{__`def`__}@} creates {@{a definition that is re‑evaluated each time it is used}@}. These two form {@{the core of local bindings}@}; {@{higher-level binders}@} like {@{`let`, `let*` or `letrec`}@} are only {@{syntactic sugar for combinations of these primitives}@}. <!--SR:!2027-01-09,279,340!2026-04-12,68,320!2026-12-22,262,340!2027-01-17,285,340!2026-04-13,69,320!2026-04-13,69,320!2026-04-17,74,320!2026-04-17,74,320!2026-04-12,68,320!2026-04-15,71,320!2026-12-27,267,340-->
 
 > [!example] __using `val` and `def`__
 >
@@ -268,7 +268,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 
 ### environment
 
-{@{When the input}@} is {@{a symbol such as `x`}@}, {@{its meaning}@} depends on {@{the current environment}@}: if {@{`x` has been bound to some value}@}, {@{that value is returned}@}; otherwise {@{an error is raised}@}. Thus the interpreter must maintain {@{an _environment_ mapping names to values}@}. {@{An environment}@} stores {@{bindings of symbols to `Data`}@}. Its two essential operations are {@{`lookup` and `extend` (later extended to `extendRec`)}@}. <!--SR:!2026-04-13,70,320!2026-04-18,74,320!2026-12-30,271,340!2026-04-12,70,320!2026-04-11,68,320!2026-04-13,69,320!2026-04-11,68,320!2026-04-12,69,320!2026-04-07,64,320!2026-04-14,70,320!2026-04-17,74,320-->
+{@{When the input}@} is {@{a symbol such as `x`}@}, {@{its meaning}@} depends on {@{the current environment}@}: if {@{`x` has been bound to some value}@}, {@{that value is returned}@}; otherwise {@{an error is raised}@}. Thus the interpreter must maintain {@{an _environment_ mapping names to values}@}. {@{An environment}@} stores {@{bindings of symbols to `Data`}@}. Its two essential operations are {@{`lookup` and `extend` (later extended to `extendRec`)}@}. <!--SR:!2026-04-13,70,320!2026-04-18,74,320!2026-12-30,271,340!2026-04-12,70,320!2026-04-11,68,320!2026-04-13,69,320!2026-04-11,68,320!2026-04-12,69,320!2027-01-14,282,340!2026-04-14,70,320!2026-04-17,74,320-->
 
 > [!example] __environment__
 >
@@ -433,7 +433,7 @@ When {@{an expression is not a special form}@}, it is treated as {@{a function c
 
 ### closure
 
-{@{The Scheme-- interpreter}@} implements {@{lexical scoping by capturing the environment at the moment a function is created}@}. When {@{`mkClosure` is called}@}, it packages {@{a Scala anonymous function together with the current `Environment`}@}. {@{The resulting `Closure`}@} holds {@{a function that, when invoked, evaluates its body}@} in an environment {@{extended with bindings that pair each formal parameter from `ps`}@} to {@{the actual argument value supplied in `args`}@}. <!--SR:!2026-04-15,71,320!2026-04-14,70,320!2026-12-22,264,340!2026-04-18,74,320!2026-12-23,263,340!2026-12-23,265,340!2026-04-07,64,320!2026-12-19,260,340-->
+{@{The Scheme-- interpreter}@} implements {@{lexical scoping by capturing the environment at the moment a function is created}@}. When {@{`mkClosure` is called}@}, it packages {@{a Scala anonymous function together with the current `Environment`}@}. {@{The resulting `Closure`}@} holds {@{a function that, when invoked, evaluates its body}@} in an environment {@{extended with bindings that pair each formal parameter from `ps`}@} to {@{the actual argument value supplied in `args`}@}. <!--SR:!2026-04-15,71,320!2026-04-14,70,320!2026-12-22,264,340!2026-04-18,74,320!2026-12-23,263,340!2026-12-23,265,340!2027-01-16,284,340!2026-12-19,260,340-->
 
 > [!example] __creating a closure__
 >
@@ -478,7 +478,7 @@ Because the closure keeps {@{a reference to its defining environment}@}, each ap
 > f(1)
 > ```
 >
-> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}. <!--SR:!2026-04-25,82,340!2026-04-26,83,340!2026-04-25,82,340!2026-04-24,80,340!2026-04-17,74,320!2026-04-07,64,320!2026-04-17,74,320!2026-04-16,72,320!2026-04-24,81,340-->
+> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}. <!--SR:!2026-04-25,82,340!2026-04-26,83,340!2026-04-25,82,340!2026-04-24,80,340!2026-04-17,74,320!2027-01-15,283,340!2026-04-17,74,320!2026-04-16,72,320!2026-04-24,81,340-->
 
 {@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping}@}, but {@{not always}@}. <!--SR:!2026-04-24,81,340!2026-04-24,81,340!2026-04-25,82,340-->
 

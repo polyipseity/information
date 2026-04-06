@@ -27,21 +27,21 @@ tags:
 
 {@{Mechanisms—processes, tools, or checklists}@}—are required to {@{verify compliance with all quality requirements}@}, ensuring {@{deviations are caught early and corrected before release}@}. {@{Formal reviews (requirements, design, code)}@} remain the primary vehicle for {@{detecting defects and enforcing standards}@} throughout development. <!--SR:!2026-12-02,259,334!2026-11-28,255,334!2027-01-12,284,334!2026-11-21,232,336!2026-04-09,70,334-->
 
-Where practical, {@{metrics}@} highlight {@{anomalous parts of the software}@}. For example, {@{cyclomatic complexity}@} can be computed as {@{$E - N + 2P$}@} where {@{$E$ is edges, $N$ is nodes, and $P$ is connected components}@}, flagging {@{sections that may need deeper inspection}@}. <!--SR:!2026-04-10,71,336!2027-02-09,309,356!2026-04-13,74,336!2026-04-15,76,336!2026-04-07,68,336!2026-04-15,76,336-->
+Where practical, {@{metrics}@} highlight {@{anomalous parts of the software}@}. For example, {@{cyclomatic complexity}@} can be computed as {@{$E - N + 2P$}@} where {@{$E$ is edges, $N$ is nodes, and $P$ is connected components}@}, flagging {@{sections that may need deeper inspection}@}. <!--SR:!2026-04-10,71,336!2027-02-09,309,356!2026-04-13,74,336!2026-04-15,76,336!2027-02-14,313,356!2026-04-15,76,336-->
 
-{@{Quality software}@} does not {@{emerge by chance}@}; it requires {@{management support, strict adherence to standards}@}, {@{continuous metric collection, and a firm commitment to follow the process}@}—even under {@{pressure}@}. {@{Testing is vital}@} but only {@{one element of a comprehensive QA strategy}@}. <!--SR:!2026-04-09,70,336!2026-04-07,68,336!2026-04-13,74,336!2026-04-09,70,336!2026-04-07,73,336!2026-04-13,74,336!2026-04-15,76,336-->
+{@{Quality software}@} does not {@{emerge by chance}@}; it requires {@{management support, strict adherence to standards}@}, {@{continuous metric collection, and a firm commitment to follow the process}@}—even under {@{pressure}@}. {@{Testing is vital}@} but only {@{one element of a comprehensive QA strategy}@}. <!--SR:!2026-04-09,70,336!2027-02-23,322,356!2026-04-13,74,336!2026-04-09,70,336!2027-03-11,338,356!2026-04-13,74,336!2026-04-15,76,336-->
 
 ## purpose and importance
 
-{@{SQA’s purpose}@} is to {@{_ensure that a product meets or exceeds predefined standards_}@} during {@{its entire development cycle}@}. It establishes {@{organizational norms}@} that guide developers toward {@{higher quality outcomes}@} and supports {@{continuous improvement}@} by {@{monitoring compliance and identifying gaps early}@}. <!--SR:!2026-04-07,68,336!2026-04-12,73,336!2026-04-11,72,336!2026-04-11,72,336!2026-04-15,76,336!2026-04-12,73,336!2026-04-07,68,336-->
+{@{SQA’s purpose}@} is to {@{_ensure that a product meets or exceeds predefined standards_}@} during {@{its entire development cycle}@}. It establishes {@{organizational norms}@} that guide developers toward {@{higher quality outcomes}@} and supports {@{continuous improvement}@} by {@{monitoring compliance and identifying gaps early}@}. <!--SR:!2027-02-18,317,356!2026-04-12,73,336!2026-04-11,72,336!2026-04-11,72,336!2026-04-15,76,336!2026-04-12,73,336!2027-02-18,317,356-->
 
-During {@{_inception_}@}, {@{planning}@} defines {@{goals and standards}@}. In {@{_elaboration_}@}, {@{reviews}@} validate {@{requirements against those standards}@}. {@{_Construction_}@} sees {@{code inspections and unit tests}@}, while {@{_transition_}@} involves {@{system testing and user acceptance}@}. {@{Iterative increments}@} bring {@{incremental quality checks}@} into each cycle. <!--SR:!2026-11-29,256,334!2026-04-11,77,336!2027-03-06,334,356!2026-04-16,77,336!2026-12-04,261,334!2027-02-16,316,356!2026-11-30,257,334!2026-04-16,77,336!2026-11-28,255,334!2027-01-11,283,334!2026-04-07,68,336!2026-04-16,77,336-->
+During {@{_inception_}@}, {@{planning}@} defines {@{goals and standards}@}. In {@{_elaboration_}@}, {@{reviews}@} validate {@{requirements against those standards}@}. {@{_Construction_}@} sees {@{code inspections and unit tests}@}, while {@{_transition_}@} involves {@{system testing and user acceptance}@}. {@{Iterative increments}@} bring {@{incremental quality checks}@} into each cycle. <!--SR:!2026-11-29,256,334!2026-04-11,77,336!2027-03-06,334,356!2026-04-16,77,336!2026-12-04,261,334!2027-02-16,316,356!2026-11-30,257,334!2026-04-16,77,336!2026-11-28,255,334!2027-01-11,283,334!2027-02-21,320,356!2026-04-16,77,336-->
 
-A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises dramatically}@} as it moves from {@{requirements to field use}@}: {@{$\text{Cost} \propto e^{n}$}@} where {@{$n$ represents the defect’s stage}@}. {@{Early detection during _requirements_}@} is {@{far cheaper than post‑deployment fixes}@}, underscoring why QA {@{emphasizes early reviews and continuous monitoring}@}. <!--SR:!2026-04-07,68,336!2026-04-08,69,336!2026-04-09,70,336!2026-04-14,75,336!2026-04-10,71,336!2026-04-13,74,336!2027-02-11,315,356!2026-04-16,77,336-->
+A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises dramatically}@} as it moves from {@{requirements to field use}@}: {@{$\text{Cost} \propto e^{n}$}@} where {@{$n$ represents the defect’s stage}@}. {@{Early detection during _requirements_}@} is {@{far cheaper than post‑deployment fixes}@}, underscoring why QA {@{emphasizes early reviews and continuous monitoring}@}. <!--SR:!2027-02-23,322,356!2026-04-08,69,336!2026-04-09,70,336!2026-04-14,75,336!2026-04-10,71,336!2026-04-13,74,336!2027-02-11,315,356!2026-04-16,77,336-->
 
 ## aspects
 
-{@{Quality _assurance_}@} defines {@{organizational standards}@} to produce {@{high quality software}@}. {@{Quality _planning_}@} selects and tailors {@{relevant standards for a specific product}@}. {@{Quality _control_}@} verifies that {@{these standards are followed}@} through {@{audits, inspections, and metrics collection}@}. Together they form the {@{_WHAT_ (standards), _HOW_ (methods), and _MONITOR_ (enforcement)}@} of SQA. <!--SR:!2026-04-12,73,336!2026-04-10,71,336!2026-04-08,69,336!2026-04-16,77,336!2026-12-01,258,334!2026-04-07,68,336!2026-04-08,69,336!2026-04-11,72,336!2026-04-09,70,336-->
+{@{Quality _assurance_}@} defines {@{organizational standards}@} to produce {@{high quality software}@}. {@{Quality _planning_}@} selects and tailors {@{relevant standards for a specific product}@}. {@{Quality _control_}@} verifies that {@{these standards are followed}@} through {@{audits, inspections, and metrics collection}@}. Together they form the {@{_WHAT_ (standards), _HOW_ (methods), and _MONITOR_ (enforcement)}@} of SQA. <!--SR:!2026-04-12,73,336!2026-04-10,71,336!2026-04-08,69,336!2026-04-16,77,336!2026-12-01,258,334!2027-02-20,319,356!2026-04-08,69,336!2026-04-11,72,336!2026-04-09,70,336-->
 
 {@{Quality}@} is achieved at {@{several levels}@}: {@{_product quality_}@} focuses on {@{defect reduction in the final artifact}@}; {@{_project quality_}@} concerns {@{schedule, cost, and scope adherence}@}; {@{_process quality_}@} involves the {@{effectiveness of development practices}@}; {@{_people quality_}@} addresses {@{skills, training, and teamwork}@}. {@{Each level}@} relies on {@{targeted SQA activities}@} to {@{measure and enhance performance}@}, which follows the {@{four interlinked steps}@}: (annotation: 4 items: {@{define → measure → track → feedback}@}). <!--SR:!2026-04-15,76,336!2027-02-17,320,356!2026-04-16,77,336!2026-04-15,76,336!2026-04-09,70,336!2026-04-13,74,336!2026-11-28,255,334!2027-02-16,319,356!2026-04-12,73,336!2026-11-29,256,334!2026-04-10,71,336!2026-04-12,73,336!2026-04-15,76,336!2026-04-14,75,336!2026-04-15,76,336-->
 
@@ -54,7 +54,7 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 
 {@{SQA}@} encompasses {@{a range of activities that form its foundation}@}: (annotation: 6 items: {@{configuration management, formal reviews, methods & tools}@}, {@{metrics, standards, testing}@}) <!--SR:!2026-04-16,77,336!2027-02-15,318,356!2026-04-16,77,334!2026-12-05,262,334-->
 
-- _Standards_: ::@:: _foundational_; develop and apply repeatable development norms. <!--SR:!2026-04-07,68,336!2026-04-07,68,336-->
+- _Standards_: ::@:: _foundational_; develop and apply repeatable development norms. <!--SR:!2027-02-21,320,356!2027-02-19,318,356-->
 - _Metrics_: ::@:: _foundational_; establish quantitative measures to monitor and improve processes. <!--SR:!2026-04-10,71,336!2026-04-15,76,336-->
 - _Methods & Tools_: ::@:: use appropriate techniques for system design and implementation. <!--SR:!2026-04-09,70,336!2026-04-11,72,336-->
 - _Formal Reviews_: ::@:: conduct technical inspections at each step for defect discovery and managerial approval. <!--SR:!2027-02-13,317,354!2026-04-16,77,336-->
@@ -65,9 +65,9 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 
 ### standards
 
-{@{A _technical standard_}@} establishes {@{uniform engineering criteria, methods, processes and practices}@}. In {@{software engineering}@} we distinguish {@{two main types}@}: {@{_product standards_}@} define the {@{desired characteristics that every artifact must exhibit to be considered quality}@}; and {@{_process standards_}@} prescribe {@{how work should be carried out so that quality outcomes are reliably produced}@}. {@{Each project}@} decides whether a standard is {@{ignored, used as‑is, modified or newly created}@}. <!--SR:!2026-12-03,260,334!2026-12-01,258,334!2026-04-11,72,336!2026-04-09,70,336!2026-04-07,73,336!2027-03-04,332,356!2026-12-02,259,334!2026-12-19,268,334!2026-12-03,260,334!2026-04-07,68,336-->
+{@{A _technical standard_}@} establishes {@{uniform engineering criteria, methods, processes and practices}@}. In {@{software engineering}@} we distinguish {@{two main types}@}: {@{_product standards_}@} define the {@{desired characteristics that every artifact must exhibit to be considered quality}@}; and {@{_process standards_}@} prescribe {@{how work should be carried out so that quality outcomes are reliably produced}@}. {@{Each project}@} decides whether a standard is {@{ignored, used as‑is, modified or newly created}@}. <!--SR:!2026-12-03,260,334!2026-12-01,258,334!2026-04-11,72,336!2026-04-09,70,336!2027-03-12,339,356!2027-03-04,332,356!2026-12-02,259,334!2026-12-19,268,334!2026-12-03,260,334!2027-02-16,315,356-->
 
-{@{Standards matter}@} because they: document {@{best practices}@}, helping teams avoid {@{past mistakes}@}; provide {@{a framework for implementing quality control}@}, ensuring that {@{good habits are followed}@}; and guarantee {@{continuity of work}@}, reducing the {@{learning curve when new tasks begin}@}. <!--SR:!2026-12-02,259,334!2026-04-07,68,336!2026-04-15,76,336!2026-04-16,77,336!2026-04-16,77,336!2026-04-07,73,336!2026-12-01,258,334-->
+{@{Standards matter}@} because they: document {@{best practices}@}, helping teams avoid {@{past mistakes}@}; provide {@{a framework for implementing quality control}@}, ensuring that {@{good habits are followed}@}; and guarantee {@{continuity of work}@}, reducing the {@{learning curve when new tasks begin}@}. <!--SR:!2026-12-02,259,334!2027-02-15,314,356!2026-04-15,76,336!2026-04-16,77,336!2026-04-16,77,336!2027-03-16,343,356!2026-12-01,258,334-->
 
 ### metrics
 
@@ -81,12 +81,12 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ### design goals
 
-{@{A _design goal_}@} is {@{an external quality attribute we wish the system to possess}@}, such as {@{safety, portability or usability}@}. These attributes are {@{_external_ and cannot be measured directly from the code until the system is complete}@}; therefore we {@{infer them during development}@} by observing {@{_internal_ measurable attributes}@} (e.g., {@{lines of code, cyclomatic complexity}@}). {@{Typical internal metrics}@} used to predict {@{external goals}@} include: <!--SR:!2027-01-04,277,334!2026-04-12,73,336!2026-12-05,262,334!2026-04-14,75,336!2026-04-08,74,336!2026-04-07,73,336!2026-12-03,260,334!2027-02-11,311,356!2026-04-10,71,336-->
+{@{A _design goal_}@} is {@{an external quality attribute we wish the system to possess}@}, such as {@{safety, portability or usability}@}. These attributes are {@{_external_ and cannot be measured directly from the code until the system is complete}@}; therefore we {@{infer them during development}@} by observing {@{_internal_ measurable attributes}@} (e.g., {@{lines of code, cyclomatic complexity}@}). {@{Typical internal metrics}@} used to predict {@{external goals}@} include: <!--SR:!2027-01-04,277,334!2026-04-12,73,336!2026-12-05,262,334!2026-04-14,75,336!2026-04-08,74,336!2027-03-15,342,356!2026-12-03,260,334!2027-02-11,311,356!2026-04-10,71,336-->
 
-- maintainability ::@:: → cyclomatic complexity, error messages count, lines of code, number of parameters, etc. <!--SR:!2027-02-19,319,354!2026-04-07,68,336-->
+- maintainability ::@:: → cyclomatic complexity, error messages count, lines of code, number of parameters, etc. <!--SR:!2027-02-19,319,354!2027-02-22,321,356-->
 - usability ::@:: → error messages count, user-manual length, etc. <!--SR:!2026-12-04,261,334!2026-12-02,259,334-->
 
-{@{Formulating and validating the relationships}@} between {@{internal metrics and external goals}@} is {@{difficult}@}. {@{Accurate predictions}@} require {@{careful collection, calibration and interpretation}@} of {@{quantitative data}@}. <!--SR:!2026-04-07,68,336!2026-04-14,75,336!2026-12-01,258,334!2026-04-08,69,336!2027-02-08,308,356!2026-04-11,72,334-->
+{@{Formulating and validating the relationships}@} between {@{internal metrics and external goals}@} is {@{difficult}@}. {@{Accurate predictions}@} require {@{careful collection, calibration and interpretation}@} of {@{quantitative data}@}. <!--SR:!2027-02-21,320,356!2026-04-14,75,336!2026-12-01,258,334!2026-04-08,69,336!2027-02-08,308,356!2026-04-11,72,334-->
 
 ### system design metrics
 
@@ -98,7 +98,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ### implementation metrics  
 
-{@{Halstead’s software science}@} assigns {@{numeric values to operators and operands}@}: let {@{$n_1$ be unique operators, $n_2$ be unique operands}@}, {@{$N_1$ be total operators, and $N_2$ be total operands}@}. {@{The component length}@} is {@{$L=N_1+N_2$}@}. {@{Volume, difficulty, and their product, effort}@}, is {@{calculated from these}@}. <!--SR:!2027-02-10,310,356!2026-04-07,68,314!2026-04-08,69,336!2026-04-13,74,336!2027-02-13,313,356!2026-04-12,73,336!2026-04-11,72,336!2026-04-16,77,336-->
+{@{Halstead’s software science}@} assigns {@{numeric values to operators and operands}@}: let {@{$n_1$ be unique operators, $n_2$ be unique operands}@}, {@{$N_1$ be total operators, and $N_2$ be total operands}@}. {@{The component length}@} is {@{$L=N_1+N_2$}@}. {@{Volume, difficulty, and their product, effort}@}, is {@{calculated from these}@}. <!--SR:!2027-02-10,310,356!2027-02-01,300,334!2026-04-08,69,336!2026-04-13,74,336!2027-02-13,313,356!2026-04-12,73,336!2026-04-11,72,336!2026-04-16,77,336-->
 
 - _Volume_: ::@:: $\displaystyle V=L\,\log_{2}(n_1+n_2)$ (bits). <!--SR:!2026-09-19,185,314!2026-04-09,70,336-->
 - _Difficulty_: ::@:: $\displaystyle D=\frac{n_1}{2}\,\frac{N_2}{n_2}$. <!--SR:!2026-04-13,74,336!2026-04-08,69,336-->
@@ -122,11 +122,11 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ### software configuration management
 
-{@{_Software configuration management_ (SCM)}@} {@{controls, monitors and records changes}@} to all {@{life‑cycle artifacts}@}. In {@{software development}@}, {@{change (e.g. user requests) is certain}@}. By {@{tracking modifications}@}, SCM ensures that {@{every change is auditable}@} and that the correct versions are {@{used throughout development, testing, and deployment}@}. <!--SR:!2027-02-08,308,356!2026-12-04,261,334!2026-04-11,77,336!2026-04-12,73,336!2026-11-29,256,334!2026-11-30,257,334!2026-04-11,72,336!2026-04-07,68,334-->
+{@{_Software configuration management_ (SCM)}@} {@{controls, monitors and records changes}@} to all {@{life‑cycle artifacts}@}. In {@{software development}@}, {@{change (e.g. user requests) is certain}@}. By {@{tracking modifications}@}, SCM ensures that {@{every change is auditable}@} and that the correct versions are {@{used throughout development, testing, and deployment}@}. <!--SR:!2027-02-08,308,356!2026-12-04,261,334!2026-04-11,77,336!2026-04-12,73,336!2026-11-29,256,334!2026-11-30,257,334!2026-04-11,72,336!2027-02-19,318,354-->
 
 ## process quality
 
-{@{_Process quality_}@} involves the {@{effectiveness of development practices}@}. {@{Approaches}@} include {@{ISO&nbsp;9000-3 and SEI Capability Maturity Model (CMM)}@}. <!--SR:!2026-04-13,74,336!2026-04-15,76,336!2026-11-28,255,334!2026-04-07,68,336-->
+{@{_Process quality_}@} involves the {@{effectiveness of development practices}@}. {@{Approaches}@} include {@{ISO&nbsp;9000-3 and SEI Capability Maturity Model (CMM)}@}. <!--SR:!2026-04-13,74,336!2026-04-15,76,336!2026-11-28,255,334!2027-02-23,322,356-->
 
 Although {@{process design can influence quality}@}, {@{several unique factors}@} dominate: Software is {@{_designed_ rather than manufactured}@}; creativity {@{matters more than mechanical repetition}@}. Individual {@{skill level and experience often outweigh procedural rigor}@}. Resource {@{constraints always degrade quality}@}, regardless of {@{how detailed the process is}@}. <!--SR:!2026-04-14,75,336!2026-04-08,69,336!2026-04-13,74,336!2026-04-09,70,336!2026-04-14,75,336!2026-04-11,72,336!2026-04-09,70,336-->
 
@@ -136,11 +136,11 @@ Thus, while {@{a well‑defined process provides structure}@}, {@{people, tools,
 
 {@{ISO 9000‑3}@} helps clients evaluate {@{a software organisation’s process management capability}@}. The standard extends {@{ISO 9001}@}, which requires {@{a documented quality system—a _quality manual_}@} that defines {@{the organisation’s processes and procedures}@}. {@{ISO 9000‑3}@} specifies how this quality system should be {@{woven through every phase of software development}@}, providing {@{generic procedures that support a robust quality process}@}. The standard is {@{divided into three main parts}@}: {@{Management Responsibility, Quality Life Cycle Activities, and Supporting Activities}@}. <!--SR:!2026-04-12,73,336!2027-03-03,331,354!2026-12-01,258,334!2026-04-10,71,336!2026-04-15,76,336!2026-12-03,260,334!2026-04-08,69,336!2026-12-02,259,334!2026-04-15,76,336!2026-11-14,244,330-->
 
-{@{_Quality System Framework_}@} defines {@{core responsibilities and activities}@}. {@{Management responsibility}@} ensures {@{leadership supports quality goals}@}. {@{A quality system}@} is established to ensure {@{consistent processes}@}. {@{Internal audits}@} check that {@{the system works as planned}@}. {@{Corrective action}@} is taken when {@{problems are found to prevent recurrence}@}. <!--SR:!2026-04-08,69,336!2026-04-09,70,336!2026-04-10,71,336!2026-04-16,77,336!2026-04-07,68,336!2027-02-17,317,356!2026-11-29,256,334!2026-04-08,69,336!2026-04-16,77,336!2026-04-08,69,336-->
+{@{_Quality System Framework_}@} defines {@{core responsibilities and activities}@}. {@{Management responsibility}@} ensures {@{leadership supports quality goals}@}. {@{A quality system}@} is established to ensure {@{consistent processes}@}. {@{Internal audits}@} check that {@{the system works as planned}@}. {@{Corrective action}@} is taken when {@{problems are found to prevent recurrence}@}. <!--SR:!2026-04-08,69,336!2026-04-09,70,336!2026-04-10,71,336!2026-04-16,77,336!2027-02-22,321,356!2027-02-17,317,356!2026-11-29,256,334!2026-04-08,69,336!2026-04-16,77,336!2026-04-08,69,336-->
 
 {@{_Quality Life Cycle Activities_}@} covers key steps in {@{delivering a product or service from start to finish}@}. These include {@{reviewing contracts, defining customer needs, planning development}@}, {@{creating quality records, designing and implementing solutions, testing}@}, {@{getting customer approval, delivering the product, and providing ongoing maintenance}@}. <!--SR:!2026-04-15,76,336!2026-04-09,70,336!2026-04-12,73,336!2027-02-10,310,356!2026-04-09,70,336-->
 
-{@{_Quality System Supporting Activities_}@} are {@{behind-the-scenes processes that support quality}@}. They include {@{managing changes to products (configuration management), controlling documents}@}, {@{recording quality data, measuring performance, using standard rules and tools}@}, {@{managing purchases, handling software components, and training staff}@}. <!--SR:!2026-04-10,71,336!2026-12-02,259,334!2026-04-07,68,336!2026-04-12,73,336!2026-11-30,257,334-->
+{@{_Quality System Supporting Activities_}@} are {@{behind-the-scenes processes that support quality}@}. They include {@{managing changes to products (configuration management), controlling documents}@}, {@{recording quality data, measuring performance, using standard rules and tools}@}, {@{managing purchases, handling software components, and training staff}@}. <!--SR:!2026-04-10,71,336!2026-12-02,259,334!2027-02-22,321,356!2026-04-12,73,336!2026-11-30,257,334-->
 
 ### SEI Capability Maturity Model
 
@@ -153,7 +153,7 @@ SEI CMM is a framework for assessing and improving software development proces
 3. Level 3 – _Defined_ ::@:: – processes are documented, institutionalised, and staff receive training. <!--SR:!2026-12-01,258,334!2026-04-08,69,336-->
     - Level 3 – _defined_ / key processes ::@:: organisational process focus/definition, training program, integrated software management, product engineering, inter‑group coordination, peer reviews. <!--SR:!2026-04-08,69,336!2026-04-15,76,336-->
 4. Level 4 – _Managed_ ::@:: – quantitative metrics track process performance; a database of data is maintained. <!--SR:!2026-12-03,260,334!2026-04-13,74,336-->
-    - Level 4 – _managed_ / key processes ::@:: quantitative process management, quality management. <!--SR:!2026-04-07,68,336!2026-04-15,76,336-->
+    - Level 4 – _managed_ / key processes ::@:: quantitative process management, quality management. <!--SR:!2027-02-17,316,356!2026-04-15,76,336-->
 5. Level 5 – _Optimizing_ ::@:: – continuous improvement via defect‑cause analysis and prevention. <!--SR:!2026-11-30,257,334!2026-11-28,255,334-->
     - Level 5 – _optimizing_ / key processes ::@:: fault prevention, technology change management, process change management. <!--SR:!2026-04-10,71,334!2026-04-09,70,336-->
 
@@ -165,11 +165,11 @@ SEI CMM is a framework for assessing and improving software development proces
 
 ### People Capability Maturity Model
 
-{@{The People Capability Maturity Model (PCMM)}@} {@{evaluates and enhances the knowledge and skill base}@} of {@{an organization’s workforce}@}. It links {@{training, talent management, and performance measurement}@} to {@{overall business objectives}@}. <!--SR:!2026-11-30,257,334!2026-11-30,257,334!2026-04-07,68,336!2026-04-07,68,336!2026-04-08,69,336-->
+{@{The People Capability Maturity Model (PCMM)}@} {@{evaluates and enhances the knowledge and skill base}@} of {@{an organization’s workforce}@}. It links {@{training, talent management, and performance measurement}@} to {@{overall business objectives}@}. <!--SR:!2026-11-30,257,334!2026-11-30,257,334!2027-02-20,319,356!2027-02-20,319,356!2026-04-08,69,336-->
 
 1. Level 1 – _Initial_ ::@:: No formal training or technical guidance is offered. Talent is not viewed as a strategic asset; employee skills remain static and organizational loyalty is weak. <!--SR:!2026-04-14,75,336!2026-12-01,258,334-->
 2. Level 2 – _Repeatable_ ::@:: Basic work practices are defined, and the organization begins to recruit, develop, and retain staff. Targeted training fills identified skill gaps, while performance is formally assessed. <!--SR:!2027-02-14,317,356!2026-12-24,272,334-->
-3. Level 3 – _Defined_ ::@:: Work processes are tailored to business needs. A strategic talent plan locates critical skills, and compensation aligns with expertise, ensuring that people roles support organizational goals. <!--SR:!2026-04-07,73,336!2026-04-15,76,336-->
+3. Level 3 – _Defined_ ::@:: Work processes are tailored to business needs. A strategic talent plan locates critical skills, and compensation aligns with expertise, ensuring that people roles support organizational goals. <!--SR:!2027-03-13,340,356!2026-04-15,76,336-->
 4. Level 4 – _Managed_ ::@:: The focus shifts to raising competence in key areas through mentoring, team‑building, and quantitative competency targets. Effectiveness of work practices is measured against these goals. <!--SR:!2026-11-28,255,334!2026-04-11,72,336-->
 5. Level 5 – _Optimizing_ ::@:: Continuous improvement drives the development of both individual and team skills. Best practices are adopted organization‑wide, creating a culture that adapts rapidly to new challenges. <!--SR:!2026-12-05,262,334!2026-04-15,76,336-->
 
